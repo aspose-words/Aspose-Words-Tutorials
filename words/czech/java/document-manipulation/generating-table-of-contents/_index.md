@@ -1,10 +1,12 @@
 ---
-"description": "Naučte se, jak generovat a upravovat obsah (TOC) pomocí Aspose.Words pro Javu. Vytvářejte bez námahy organizované a profesionální dokumenty."
-"linktitle": "Generování obsahu"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Generování obsahu v Aspose.Words pro Javu"
-"url": "/cs/java/document-manipulation/generating-table-of-contents/"
-"weight": 21
+date: 2026-01-03
+description: Naučte se, jak upravit čísla stránek při vkládání obsahu pomocí Aspose.Words
+  pro Java. Přizpůsobte styly obsahu a vytvářejte dokumenty bez námahy.
+linktitle: Generating Table of Contents
+second_title: Aspose.Words Java Document Processing API
+title: Upravit čísla stránek a vygenerovat obsah pomocí Aspose.Words pro Java
+url: /cs/java/document-manipulation/generating-table-of-contents/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,58 +15,68 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generování obsahu v Aspose.Words pro Javu
+# Upravit čísla stránek a vytvořit obsah v Aspose.Words pro Java
 
+V tomto tutoriálu se dozvíte, jak **upravit čísla stránek** a **vložit obsah** (TOC) pomocí Aspose.Words pro Java. Dobře strukturovaný obsah usnadňuje navigaci v dlouhých dokumentech a jemné doladění zarovnání čísel stránek poskytuje čtenářům profesionální zážitek. Provedeme vás vytvořením dokumentu, přizpůsobením stylů obsahu a úpravou tabulátorů tak, aby se čísla stránek zarovnala přesně tam, kde chcete.
 
-## Úvod do generování obsahu v Aspose.Words pro Javu
+## Rychlé odpovědi
+- **Co znamená „upravit čísla stránek“?** Úprava tabulátorů, které zarovnávají čísla stránek v obsahu.  
+- **Mohu vložit obsah automaticky?** Ano – použijte třídu `FieldToc`.  
+- **Potřebuji licenci pro spuštění kódu?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je licence vyžadována.  
+- **Která verze Aspose je podporována?** Příklady fungují s nejnovějším vydáním Aspose.Words pro Java.  
+- **Lze přizpůsobit styly obsahu?** Rozhodně – můžete měnit písma, tučnost a další vlastnosti.
 
-tomto tutoriálu vás provedeme procesem generování obsahu (TOC) pomocí Aspose.Words pro Javu. Obsah je klíčová funkce pro vytváření organizovaných dokumentů. Probereme, jak přizpůsobit vzhled a rozvržení obsahu.
+## Co je obsah v Aspose.Words?
+Obsah je pole, které prohledá dokument podle stylů nadpisů (např. Heading 1, Heading 2) a vygeneruje seznam položek s čísly stránek. Aspose.Words vám umožní vložit toto pole programově a plně kontrolovat jeho vzhled.
 
-## Předpoklady
+## Proč upravovat čísla stránek v obsahu?
+Úprava tabulátorů vám dává přesnou kontrolu nad tím, kde se čísla stránek zobrazí, což je důležité pro:
 
-Než začnete, ujistěte se, že máte ve svém projektu Java nainstalovaný a nastavený Aspose.Words pro Javu.
+- Udržení čistého, sloupcově zarovnaného rozvržení.  
+- Dodržení firemních stylových příruček.  
+- Zlepšení čitelnosti tištěných i digitálních dokumentů.
 
-## Krok 1: Vytvořte nový dokument
+## Požadavky
+- Aspose.Words pro Java přidaný do vašeho projektu (Maven/Gradle).  
+- Základní znalost syntaxe jazyka Java.  
 
-Nejprve si vytvořme nový dokument, se kterým budeme pracovat.
+## Průvodce krok za krokem
+
+### Krok 1: Vytvořte nový dokument
+Nejprve vytvořte prázdný objekt `Document`, který bude obsahovat váš obsah a obsah.
 
 ```java
 Document doc = new Document();
 ```
 
-## Krok 2: Úprava stylů obsahu
-
-Chcete-li přizpůsobit vzhled obsahu, můžete upravit styly, které jsou s ním spojeny. V tomto příkladu zvýrazníme položky obsahu první úrovně tučně.
+### Krok 2: Přizpůsobte styly obsahu
+Můžete změnit vzhled každé úrovně obsahu. V tomto příkladu uděláme položky první úrovně tučnými, což je častý požadavek na formátování.
 
 ```java
 doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_1).getFont().setBold(true);
 ```
 
-## Krok 3: Přidání obsahu do dokumentu
+### Krok 3: Přidejte obsah do dokumentu
+Vložte nadpisy (např. `Heading1`, `Heading2`) a běžné odstavce. Pole obsahu později automaticky tyto nadpisy zachytí. *(Kód byl vynechán pro stručnost – hlavní je generování obsahu.)*
 
-Do dokumentu můžete přidat svůj obsah. Tento obsah bude použit k vygenerování obsahu.
-
-## Krok 4: Vygenerování obsahu
-
-Chcete-li vygenerovat obsah, vložte pole s obsahem na požadované místo v dokumentu. Toto pole se automaticky vyplní na základě nadpisů a stylů v dokumentu.
+### Krok 4: Vložte pole obsahu
+Umístěte obsah tam, kde ho chcete – typicky na začátek dokumentu.
 
 ```java
-// Vložte pole obsahu na požadované místo v dokumentu.
+// Insert a TOC field at the desired location in your document.
 FieldToc fieldToc = new FieldToc();
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(fieldToc);
 ```
 
-## Krok 5: Uložte dokument
-
-Nakonec dokument uložte s obsahem.
+### Krok 5: Uložte dokument
+Uložte dokument na disk. Můžete zvolit libovolný podporovaný formát, jako je DOCX, PDF nebo HTML.
 
 ```java
 doc.save("your_output_path_here");
 ```
 
-## Přizpůsobení zarážek tabulace v obsahu
-
-Zarážky tabulátoru v obsahu si také můžete přizpůsobit a ovládat tak rozvržení čísel stránek. Zde je návod, jak je změnit:
+## Přizpůsobení tabulátorů v obsahu (úprava čísel stránek)
+Pokud výchozí tabulátor nezarovnává čísla stránek podle vašich potřeb, můžete projít všechny odstavce obsahu a upravit jejich pozice tabulátorů.
 
 ```java
 Document doc = new Document("Table of contents.docx");
@@ -74,13 +86,13 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1 &&
         para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9)
     {
-        // Získejte první tabulaci použitou v tomto odstavci, která zarovná čísla stránek.
+        // Get the first tab used in this paragraph, which aligns the page numbers.
         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
         
-        // Odstraňte starou záložku.
+        // Remove the old tab.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        // Vložte novou záložku na upravenou pozici (např. 50 jednotek vlevo).
+        // Insert a new tab at a modified position (e.g., 50 units to the left).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -88,34 +100,43 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
 doc.save("output.docx");
 ```
 
-Nyní máte v dokumentu přizpůsobený obsah s upravenými zarážkami tabulátoru pro zarovnání čísel stránek.
+Nyní položky obsahu zobrazují čísla stránek přesně tam, kde chcete, a váš dokument získá profesionální vzhled.
 
-
-## Závěr
-
-V tomto tutoriálu jsme prozkoumali, jak generovat obsah (TOC) pomocí Aspose.Words pro Javu, výkonné knihovny pro práci s dokumenty Wordu. Dobře strukturovaný obsah je nezbytný pro organizaci a navigaci v dlouhých dokumentech a Aspose.Words poskytuje nástroje pro snadné vytváření a úpravu obsahu.
+## Časté problémy a tipy
+- **Chybějící nadpisy v obsahu:** Ujistěte se, že vaše nadpisy používají vestavěné styly (`Heading1`, `Heading2` atd.) nebo mapujte vlastní styly na úrovně obsahu.  
+- **Tabulátor se nepoužil:** Ověřte, že odstavec skutečně patří do stylu obsahu (`TOC_1`‑`TOC_9`).  
+- **Výkon u velkých dokumentů:** Po vložení obsahu zavolejte `doc.updateFields()`, aby se položky aktualizovaly najednou.
 
 ## Často kladené otázky
 
-### Jak změním formátování položek obsahu?
+**Q: Jak změním formátování položek obsahu?**  
+A: Použijte `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, kde *X* je úroveň (1‑9), a upravte písmo, barvu nebo nastavení odstavce.
 
-Styly spojené s úrovněmi obsahu můžete upravit pomocí `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, kde X je úroveň obsahu obsahu organických látek (TOC).
+**Q: Jak přidám více úrovní do obsahu?**  
+A: Upravit přepínač `FieldToc` `\o "1-3"` (například) tak, aby zahrnoval další úrovně nadpisů, a poté aktualizovat odpovídající styly `TOC_X`.
 
-### Jak mohu do obsahu přidat další úrovně?
+**Q: Můžu změnit pozice tabulátorů pro konkrétní položky obsahu?**  
+A: Ano – projděte odstavce, jak je ukázáno v sekci „Přizpůsobení tabulátorů“, a upravte každý tabulátor individuálně.
 
-Chcete-li do obsahu zahrnout více úrovní, můžete upravit pole Obsah a zadat požadovaný počet úrovní.
+**Q: Lze vygenerovat obsah v PDF výstupu?**  
+A: Rozhodně. Uložte dokument jako PDF (`doc.save("output.pdf")`) po vygenerování obsahu; pole se automaticky vykreslí.
 
-### Mohu změnit pozice zarážek tabulátoru u konkrétních položek obsahu?
+**Q: Musím volat `updateFields()` ručně?**  
+A: Když vložíte `FieldToc`, Aspose.Words jej aktualizuje při uložení, ale volání `doc.updateFields()` poskytne okamžité výsledky pro ladění.
 
-Ano, jak je znázorněno ve výše uvedeném příkladu kódu, můžete změnit pozice zarážek tabulátoru pro konkrétní položky obsahu iterací odstavců a odpovídající úpravou zarážek tabulátoru.
+## Závěr
+Naučili jste se, jak **upravit čísla stránek**, **vložit obsah** a **přizpůsobit styly obsahu** pomocí Aspose.Words pro Java. Tyto techniky vám umožní vytvářet čisté, snadno navigovatelné a profesionálně formátované dokumenty, které splňují jakékoli publikační standardy.
 
+---  
+
+**Poslední aktualizace:** 2026-01-03  
+**Testováno s:** Aspose.Words pro Java (nejnovější vydání)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

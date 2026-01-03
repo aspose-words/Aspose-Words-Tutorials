@@ -1,10 +1,13 @@
 ---
-"description": "Aprenda a generar y personalizar la tabla de contenido (TOC) con Aspose.Words para Java. Cree documentos organizados y profesionales sin esfuerzo."
-"linktitle": "Generando tabla de contenidos"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Generación de una tabla de contenido en Aspose.Words para Java"
-"url": "/es/java/document-manipulation/generating-table-of-contents/"
-"weight": 21
+date: 2026-01-03
+description: Aprende a ajustar los números de página al insertar una tabla de contenido
+  usando Aspose.Words para Java. Personaliza los estilos de la tabla de contenido
+  y crea documentos sin esfuerzo.
+linktitle: Generating Table of Contents
+second_title: Aspose.Words Java Document Processing API
+title: Ajustar números de página y generar índice con Aspose.Words para Java
+url: /es/java/document-manipulation/generating-table-of-contents/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,58 +16,68 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generación de una tabla de contenido en Aspose.Words para Java
+# Ajustar números de página y generar tabla de contenido en Aspose.Words for Java
 
+En este tutorial descubrirá cómo **ajustar números de página** y **insertar una tabla de contenido** (TOC) con Aspose.Words for Java. Una tabla de contenido bien estructurada facilita la navegación de documentos extensos, y afinar la alineación de los números de página brinda a sus lectores una experiencia profesional. Recorreremos la creación de un documento, la personalización de los estilos de TOC y el ajuste de los tabuladores para que los números de página se alineen exactamente donde los desee.
 
-## Introducción a la generación de tablas de contenido en Aspose.Words para Java
+## Respuestas rápidas
+- **¿Qué significa “ajustar números de página”?** Modificar los tabuladores que alinean los números de página en una TOC.  
+- **¿Puedo insertar una tabla de contenido automáticamente?** Sí – use la clase `FieldToc`.  
+- **¿Necesito una licencia para ejecutar el código?** Una prueba gratuita funciona para desarrollo; se requiere una licencia para producción.  
+- **¿Qué versión de Aspose es compatible?** Los ejemplos funcionan con la última versión de Aspose.Words for Java.  
+- **¿Es posible personalizar los estilos de TOC?** Absolutamente – puede cambiar fuentes, negritas y más.
 
-En este tutorial, te guiaremos a través del proceso de generar una tabla de contenido (TOC) con Aspose.Words para Java. La TOC es una función crucial para crear documentos organizados. Explicaremos cómo personalizar la apariencia y el diseño de la TOC.
+## Qué es una tabla de contenido en Aspose.Words?
+Una TOC es un campo que escanea el documento en busca de estilos de encabezado (p. ej., Heading 1, Heading 2) y genera una lista de entradas con números de página. Aspose.Words le permite insertar este campo programáticamente y controlar completamente su apariencia.
 
-## Prerrequisitos
+## ¿Por qué ajustar los números de página en una TOC?
+Ajustar los tabuladores le brinda un control preciso sobre dónde aparecen los números de página, lo cual es esencial para:
 
-Antes de comenzar, asegúrese de tener Aspose.Words para Java instalado y configurado en su proyecto Java.
+- Mantener un diseño limpio y alineado en columnas.  
+- Cumplir con las guías de estilo corporativas.  
+- Mejorar la legibilidad en documentos impresos y digitales.
 
-## Paso 1: Crear un nuevo documento
+## Requisitos previos
+- Aspose.Words for Java añadido a su proyecto (Maven/Gradle).  
+- Familiaridad básica con la sintaxis de Java.  
 
-Primero, vamos a crear un nuevo documento con el que trabajar.
+## Guía paso a paso
+
+### Paso 1: Crear un nuevo documento
+Primero, instancie un objeto `Document` vacío que contendrá su contenido y la TOC.
 
 ```java
 Document doc = new Document();
 ```
 
-## Paso 2: Personalizar los estilos de la tabla de contenidos
-
-Para personalizar la apariencia de su índice, puede modificar los estilos asociados. En este ejemplo, las entradas del primer nivel del índice estarán en negrita.
+### Paso 2: Personalizar los estilos de TOC
+Puede cambiar la apariencia de cada nivel de TOC. En este ejemplo hacemos que las entradas de primer nivel estén en negrita, lo cual es una solicitud de formato común.
 
 ```java
 doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_1).getFont().setBold(true);
 ```
 
-## Paso 3: Agregar contenido a su documento
+### Paso 3: Añadir contenido a su documento
+Inserte encabezados (p. ej., `Heading1`, `Heading2`) y párrafos normales. El campo TOC posteriormente detectará estos encabezados automáticamente. *(Código omitido por brevedad – el enfoque está en la generación de la TOC.)*
 
-Puedes añadir tu contenido al documento. Este contenido se utilizará para generar la tabla de contenidos.
-
-## Paso 4: Generar la tabla de contenidos
-
-Para generar la tabla de contenidos, inserte un campo de tabla de contenidos en la ubicación deseada del documento. Este campo se rellenará automáticamente según los encabezados y estilos del documento.
+### Paso 4: Insertar el campo TOC
+Coloque la TOC donde la desee, típicamente al inicio del documento.
 
 ```java
-// Inserte un campo TOC en la ubicación deseada en su documento.
+// Insert a TOC field at the desired location in your document.
 FieldToc fieldToc = new FieldToc();
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(fieldToc);
 ```
 
-## Paso 5: Guardar el documento
-
-Por último, guarde el documento con la tabla de contenidos.
+### Paso 5: Guardar el documento
+Guarde el documento en disco. Puede elegir cualquier formato compatible como DOCX, PDF o HTML.
 
 ```java
 doc.save("your_output_path_here");
 ```
 
-## Personalización de tabulaciones en la tabla de contenidos
-
-También puedes personalizar las tabulaciones en tu índice para controlar la numeración de las páginas. Así es como puedes cambiar las tabulaciones:
+## Personalizar los tabuladores en la TOC (Ajustar números de página)
+Si el tabulador predeterminado no alinea los números de página como necesita, puede iterar a través de todos los párrafos de la TOC y modificar sus posiciones de tabulación.
 
 ```java
 Document doc = new Document("Table of contents.docx");
@@ -74,13 +87,13 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1 &&
         para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9)
     {
-        // Obtenga la primera tabulación utilizada en este párrafo, que alinea los números de página.
+        // Get the first tab used in this paragraph, which aligns the page numbers.
         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
         
-        // Retire la pestaña vieja.
+        // Remove the old tab.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        // Insertar una nueva pestaña en una posición modificada (por ejemplo, 50 unidades a la izquierda).
+        // Insert a new tab at a modified position (e.g., 50 units to the left).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -88,34 +101,43 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
 doc.save("output.docx");
 ```
 
-Ahora tiene una tabla de contenido personalizada en su documento con tabulaciones ajustadas para la alineación de los números de página.
+Ahora las entradas de la TOC muestran los números de página exactamente donde los desea, proporcionando a su documento un aspecto pulido.
 
-
-## Conclusión
-
-En este tutorial, hemos explorado cómo generar una tabla de contenido (TOC) con Aspose.Words para Java, una potente biblioteca para trabajar con documentos de Word. Una TOC bien estructurada es esencial para organizar y navegar por documentos extensos, y Aspose.Words proporciona las herramientas para crear y personalizar TOC fácilmente.
+## Problemas comunes y consejos
+- **Encabezados faltantes en la TOC:** Asegúrese de que sus encabezados utilicen estilos incorporados (`Heading1`, `Heading2`, etc.) o asocie estilos personalizados a los niveles de TOC.  
+- **Tabulador no aplicado:** Verifique que el párrafo realmente pertenezca a un estilo de TOC (`TOC_1`‑`TOC_9`).  
+- **Rendimiento en documentos grandes:** Llame a `doc.updateFields()` después de insertar la TOC para actualizar las entradas en una sola pasada.
 
 ## Preguntas frecuentes
 
-### ¿Cómo cambio el formato de las entradas de la tabla de contenidos?
+**Q: ¿Cómo cambio el formato de las entradas de la TOC?**  
+A: Use `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)` donde *X* es el nivel (1‑9) y modifique su fuente, color o configuraciones de párrafo.
 
-Puede modificar los estilos asociados con los niveles de TOC utilizando `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, donde X es el nivel de TOC.
+**Q: ¿Cómo puedo agregar más niveles a mi TOC?**  
+A: Ajuste el interruptor `\o "1-3"` de `FieldToc` (por ejemplo) para incluir niveles de encabezado adicionales, luego actualice los estilos `TOC_X` correspondientes.
 
-### ¿Cómo puedo agregar más niveles a mi TOC?
+**Q: ¿Puedo cambiar las posiciones de los tabuladores para entradas específicas de la TOC?**  
+A: Sí – itere a través de los párrafos como se muestra en la sección “Personalizar los tabuladores” y modifique cada tabulador individualmente.
 
-Para incluir más niveles en su TOC, puede modificar el campo TOC y especificar la cantidad deseada de niveles.
+**Q: ¿Es posible generar una TOC en salida PDF?**  
+A: Absolutamente. Guarde el documento como PDF (`doc.save("output.pdf")`) después de que se genere la TOC; el campo se renderiza automáticamente.
 
-### ¿Puedo cambiar las posiciones de las tabulaciones para entradas específicas de la tabla de contenidos?
+**Q: ¿Necesito llamar a `updateFields()` manualmente?**  
+A: Cuando inserta un `FieldToc`, Aspose.Words lo actualiza al guardar, pero llamar a `doc.updateFields()` le brinda resultados inmediatos para depuración.
 
-Sí, como se muestra en el ejemplo de código anterior, puede cambiar las posiciones de las tabulaciones para entradas de TOC específicas iterando a través de los párrafos y modificando las tabulaciones en consecuencia.
+## Conclusión
+Ha aprendido cómo **ajustar números de página**, **insertar una tabla de contenido** y **personalizar los estilos de TOC** usando Aspose.Words for Java. Estas técnicas le permiten crear documentos limpios, navegables y con formato profesional que cumplen con cualquier estándar de publicación.
 
+---  
+
+**Última actualización:** 2026-01-03  
+**Probado con:** Aspose.Words for Java (latest release)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

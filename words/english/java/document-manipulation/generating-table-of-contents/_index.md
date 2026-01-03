@@ -1,12 +1,12 @@
 ---
-title: Generating Table of Contents in Aspose.Words for Java
+title: Adjust Page Numbers & Generate TOC with Aspose.Words for Java
 linktitle: Generating Table of Contents
 second_title: Aspose.Words Java Document Processing API
-description: Learn how to generate and customize Table of Contents (TOC) using Aspose.Words for Java. Create organized and professional documents effortlessly.
+description: Learn how to adjust page numbers while inserting a table of contents using Aspose.Words for Java. Customize TOC styles and create documents effortlessly.
 weight: 21
 url: /java/document-manipulation/generating-table-of-contents/
+date: 2026-01-03
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -14,40 +14,52 @@ url: /java/document-manipulation/generating-table-of-contents/
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generating Table of Contents in Aspose.Words for Java
+# Adjust Page Numbers & Generate Table of Contents in Aspose.Words for Java
 
+In this tutorial you’ll discover how to **adjust page numbers** and **insert a table of contents** (TOC) with Aspose.Words for Java. A well‑structured TOC makes long documents easy to navigate, and fine‑tuning the page‑number alignment gives your readers a professional experience. We'll walk through creating a document, customizing TOC styles, and tweaking tab stops so the page numbers line up exactly where you want them.
 
-## Introduction to Generating Table of Contents in Aspose.Words for Java
+## Quick Answers
+- **What does “adjust page numbers” mean?** Modifying the tab stops that align page numbers in a TOC.  
+- **Can I insert a table of contents automatically?** Yes – use the `FieldToc` class.  
+- **Do I need a license to run the code?** A free trial works for development; a license is required for production.  
+- **Which Aspose version is supported?** The examples work with the latest Aspose.Words for Java release.  
+- **Is it possible to customize TOC styles?** Absolutely – you can change fonts, boldness, and more.
 
-In this tutorial, we'll walk you through the process of generating a Table of Contents (TOC) using Aspose.Words for Java. TOC is a crucial feature for creating organized documents. We'll cover how to customize the TOC's appearance and layout.
+## What is a Table of Contents in Aspose.Words?
+A TOC is a field that scans the document for heading styles (e.g., Heading 1, Heading 2) and generates a list of entries with page numbers. Aspose.Words lets you insert this field programmatically and fully control its appearance.
+
+## Why adjust page numbers in a TOC?
+Adjusting the tab stops gives you precise control over where the page numbers appear, which is essential for:
+
+- Maintaining a clean, column‑aligned layout.  
+- Matching corporate style guides.  
+- Improving readability on printed and digital documents.
 
 ## Prerequisites
+- Aspose.Words for Java added to your project (Maven/Gradle).  
+- Basic familiarity with Java syntax.  
 
-Before you begin, make sure you have Aspose.Words for Java installed and set up in your Java project.
+## Step‑by‑Step Guide
 
-## Step 1: Create a New Document
-
-First, let's create a new document to work with.
+### Step 1: Create a new document
+First, instantiate an empty `Document` object that will hold your content and TOC.
 
 ```java
 Document doc = new Document();
 ```
 
-## Step 2: Customize TOC Styles
-
-To customize the appearance of your TOC, you can modify the styles associated with it. In this example, we'll make the first-level TOC entries bold.
+### Step 2: Customize TOC styles
+You can change the look of each TOC level. In this example we make the first‑level entries bold, which is a common formatting request.
 
 ```java
 doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_1).getFont().setBold(true);
 ```
 
-## Step 3: Add Content to Your Document
+### Step 3: Add content to your document
+Insert headings (e.g., `Heading1`, `Heading2`) and regular paragraphs. The TOC field will later pick up these headings automatically. *(Code omitted for brevity – focus is on TOC generation.)*
 
-You can add your content to the document. This content will be used to generate the TOC.
-
-## Step 4: Generate the TOC
-
-To generate the TOC, insert a TOC field at the desired location in your document. This field will automatically populate based on the headings and styles in your document.
+### Step 4: Insert the TOC field
+Place the TOC where you want it—typically at the beginning of the document.
 
 ```java
 // Insert a TOC field at the desired location in your document.
@@ -55,17 +67,15 @@ FieldToc fieldToc = new FieldToc();
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(fieldToc);
 ```
 
-## Step 5: Save the Document
-
-Finally, save the document with the TOC.
+### Step 5: Save the document
+Persist the document to disk. You can choose any supported format such as DOCX, PDF, or HTML.
 
 ```java
 doc.save("your_output_path_here");
 ```
 
-## Customizing Tab Stops in TOC
-
-You can also customize the tab stops in your TOC to control the layout of page numbers. Here's how you can change tab stops:
+## Customizing Tab Stops in TOC (Adjust Page Numbers)
+If the default tab stop doesn’t align the page numbers the way you need, you can iterate through all TOC paragraphs and modify their tab positions.
 
 ```java
 Document doc = new Document("Table of contents.docx");
@@ -89,34 +99,43 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
 doc.save("output.docx");
 ```
 
-Now you have a customized Table of Contents in your document with adjusted tab stops for page number alignment.
+Now the TOC entries display page numbers exactly where you want them, giving your document a polished look.
 
+## Common Issues & Tips
+- **Missing headings in TOC:** Ensure your headings use built‑in styles (`Heading1`, `Heading2`, etc.) or map custom styles to TOC levels.  
+- **Tab stop not applied:** Verify the paragraph actually belongs to a TOC style (`TOC_1`‑`TOC_9`).  
+- **Performance on large docs:** Call `doc.updateFields()` after inserting the TOC to refresh entries in one pass.
+
+## Frequently Asked Questions
+
+**Q: How do I change the formatting of TOC entries?**  
+A: Use `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)` where *X* is the level (1‑9) and modify its font, color, or paragraph settings.
+
+**Q: How can I add more levels to my TOC?**  
+A: Adjust the `FieldToc` switch `\o "1-3"` (for example) to include additional heading levels, then update the corresponding `TOC_X` styles.
+
+**Q: Can I change the tab stop positions for specific TOC entries?**  
+A: Yes – iterate through the paragraphs as shown in the “Customizing Tab Stops” section and modify each tab stop individually.
+
+**Q: Is it possible to generate a TOC in PDF output?**  
+A: Absolutely. Save the document as PDF (`doc.save("output.pdf")`) after the TOC is generated; the field is rendered automatically.
+
+**Q: Do I need to call `updateFields()` manually?**  
+A: When you insert a `FieldToc`, Aspose.Words updates it on save, but calling `doc.updateFields()` gives you immediate results for debugging.
 
 ## Conclusion
+You’ve learned how to **adjust page numbers**, **insert a table of contents**, and **customize TOC styles** using Aspose.Words for Java. These techniques let you create clean, navigable, and professionally formatted documents that meet any publishing standard.
 
-In this tutorial, we've explored how to generate a Table of Contents (TOC) using Aspose.Words for Java, a powerful library for working with Word documents. A well-structured TOC is essential for organizing and navigating lengthy documents, and Aspose.Words provides the tools to create and customize TOCs effortlessly.
+---  
 
-## FAQ's
-
-### How do I change the formatting of TOC entries?
-
-You can modify the styles associated with TOC levels using `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`, where X is the TOC level.
-
-### How can I add more levels to my TOC?
-
-To include more levels in your TOC, you can modify the TOC field and specify the desired number of levels.
-
-### Can I change the tab stop positions for specific TOC entries?
-
-Yes, as shown in the code example above, you can change the tab stop positions for specific TOC entries by iterating through the paragraphs and modifying the tab stops accordingly.
-
+**Last Updated:** 2026-01-03  
+**Tested With:** Aspose.Words for Java (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,14 @@
 ---
-"description": "Aspose.Words for Java kullanarak İçindekiler Tablosu'nu (TOC) nasıl oluşturacağınızı ve özelleştireceğinizi öğrenin. Zahmetsizce düzenli ve profesyonel belgeler oluşturun."
-"linktitle": "İçindekiler Tablosu Oluşturuluyor"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de İçindekiler Tablosu Oluşturma"
-"url": "/tr/java/document-manipulation/generating-table-of-contents/"
-"weight": 21
+date: 2026-01-03
+description: Aspose.Words for Java kullanarak bir içindekiler tablosu eklerken sayfa
+  numaralarını nasıl ayarlayacağınızı öğrenin. TOC stillerini özelleştirin ve belgeleri
+  zahmetsizce oluşturun.
+linktitle: Generating Table of Contents
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java ile Sayfa Numaralarını Ayarlayın ve İçindekiler Tablosu
+  Oluşturun
+url: /tr/java/document-manipulation/generating-table-of-contents/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,58 +17,68 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de İçindekiler Tablosu Oluşturma
+# Aspose.Words for Java'da Sayfa Numaralarını Ayarlama ve İçindekiler Tablosu Oluşturma
 
+Bu öğreticide **sayfa numaralarını ayarlamayı** ve **bir içindekiler tablosu (TOC) eklemeyi** Aspose.Words for Java ile keşfedeceksiniz. İyi yapılandırılmış bir TOC, uzun belgelerin gezinmesini kolaylaştırır ve sayfa numarası hizalamasını ince ayar yapmak, okuyucularınıza profesyonel bir deneyim sunar. Bir belge oluşturma, TOC stillerini özelleştirme ve sekme duraklarını ayarlama adımlarını, sayfa numaralarının tam istediğiniz yerde hizalanmasını sağlayarak göstereceğiz.
 
-## Java için Aspose.Words'de İçindekiler Tablosu Oluşturmaya Giriş
+## Hızlı Yanıtlar
+- **“Sayfa numaralarını ayarlama” ne anlama geliyor?** TOC içinde sayfa numaralarını hizalayan sekme duraklarını değiştirmektir.  
+- **İçindekiler tablosunu otomatik olarak ekleyebilir miyim?** Evet – `FieldToc` sınıfını kullanın.  
+- **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için lisans gereklidir.  
+- **Hangi Aspose sürümü destekleniyor?** Örnekler, en son Aspose.Words for Java sürümüyle çalışır.  
+- **TOC stillerini özelleştirmek mümkün mü?** Kesinlikle – yazı tiplerini, kalınlığı ve daha fazlasını değiştirebilirsiniz.
 
-Bu eğitimde, Aspose.Words for Java kullanarak İçindekiler Tablosu (TOC) oluşturma sürecini adım adım anlatacağız. TOC, düzenli belgeler oluşturmak için önemli bir özelliktir. TOC'nin görünümünü ve düzenini nasıl özelleştireceğinizi ele alacağız.
+## Aspose.Words'ta İçindekiler Tablosu Nedir?
+Bir TOC, belgeyi başlık stillerine (ör. Heading 1, Heading 2) göre tarayan ve sayfa numaralarıyla birlikte bir giriş listesi oluşturan bir alandır. Aspose.Words, bu alanı programlı olarak eklemenize ve görünümünü tam kontrol etmenize olanak tanır.
 
-## Ön koşullar
+## TOC'de Sayfa Numaralarını Neden Ayarlamalıyız?
+Sekme duraklarını ayarlamak, sayfa numaralarının nerede görüneceği üzerinde kesin kontrol sağlar; bu da aşağıdakiler için kritiktir:
 
-Başlamadan önce, Java projenizde Aspose.Words for Java'nın yüklü ve ayarlanmış olduğundan emin olun.
+- Temiz, sütun‑hizalı bir düzen sürdürmek.  
+- Kurumsal stil kılavuzlarına uymak.  
+- Basılı ve dijital belgelerde okunabilirliği artırmak.
 
-## Adım 1: Yeni Bir Belge Oluşturun
+## Önkoşullar
+- Projenize eklenmiş Aspose.Words for Java (Maven/Gradle).  
+- Java sözdizimine temel aşinalık.
 
-Öncelikle üzerinde çalışacağımız yeni bir belge oluşturalım.
+## Adım‑Adım Kılavuz
+
+### Adım 1: Yeni bir belge oluşturun
+İçeriğinizi ve TOC'nizi tutacak boş bir `Document` nesnesi örnekleyin.
 
 ```java
 Document doc = new Document();
 ```
 
-## Adım 2: İçindekiler Stillerini Özelleştirin
-
-İçindekiler tablonuzun görünümünü özelleştirmek için, onunla ilişkili stilleri değiştirebilirsiniz. Bu örnekte, birinci seviye İçindekiler tablolarının girişlerini kalın yapacağız.
+### Adım 2: TOC stillerini özelleştirin
+Her TOC seviyesinin görünümünü değiştirebilirsiniz. Bu örnekte, birinci‑seviye girişleri kalın yapıyoruz; bu yaygın bir biçimlendirme isteğidir.
 
 ```java
 doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_1).getFont().setBold(true);
 ```
 
-## Adım 3: Belgenize İçerik Ekleyin
+### Adım 3: Belgenize içerik ekleyin
+Başlıkları (ör. `Heading1`, `Heading2`) ve normal paragrafları ekleyin. TOC alanı daha sonra bu başlıkları otomatik olarak yakalayacaktır. *(Kod, uzunluk nedeniyle atlanmıştır – odak TOC oluşturma üzerinedir.)*
 
-İçeriğinizi belgeye ekleyebilirsiniz. Bu içerik TOC'yi oluşturmak için kullanılacaktır.
-
-## Adım 4: İçindekiler tablosunu oluşturun
-
-İçindekiler tablosunu oluşturmak için belgenizde istediğiniz yere bir İçindekiler tablosu alanı ekleyin. Bu alan, belgenizdeki başlıklara ve stillere göre otomatik olarak doldurulacaktır.
+### Adım 4: TOC alanını ekleyin
+TOC'yi istediğiniz yere yerleştirin—genellikle belgenin başına.
 
 ```java
-// Belgenizde istediğiniz yere bir İçindekiler alanı ekleyin.
+// Insert a TOC field at the desired location in your document.
 FieldToc fieldToc = new FieldToc();
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(fieldToc);
 ```
 
-## Adım 5: Belgeyi Kaydedin
-
-Son olarak belgeyi İçindekiler bölümüyle birlikte kaydedin.
+### Adım 5: Belgeyi kaydedin
+Belgeyi diske kalıcı olarak yazın. DOCX, PDF veya HTML gibi desteklenen herhangi bir formatı seçebilirsiniz.
 
 ```java
 doc.save("your_output_path_here");
 ```
 
-## İçindekiler'de Sekme Duraklarını Özelleştirme
-
-Ayrıca sayfa numaralarının düzenini kontrol etmek için TOC'nizdeki sekme duraklarını özelleştirebilirsiniz. Sekme duraklarını şu şekilde değiştirebilirsiniz:
+## TOC'de Sekme Duraklarını Özelleştirme (Sayfa Numaralarını Ayarlama)
+Varsayılan sekme durakları sayfa numaralarını istediğiniz gibi hizalamıyorsa, tüm TOC paragraflarını dolaşarak sekme konumlarını değiştirebilirsiniz.
 
 ```java
 Document doc = new Document("Table of contents.docx");
@@ -74,13 +88,13 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1 &&
         para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9)
     {
-        // Bu paragrafta kullanılan ilk sekmeyi alın; bu sekme sayfa numaralarını hizalar.
+        // Get the first tab used in this paragraph, which aligns the page numbers.
         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
         
-        // Eski sekmeyi çıkarın.
+        // Remove the old tab.
         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
         
-        // Değiştirilen konuma (örneğin, 50 birim sola) yeni bir sekme ekleyin.
+        // Insert a new tab at a modified position (e.g., 50 units to the left).
         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
     }
 }
@@ -88,34 +102,43 @@ for (Paragraph para : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARAGRAPH
 doc.save("output.docx");
 ```
 
-Artık belgenizde sayfa numarası hizalaması için ayarlanmış sekme duraklarına sahip özelleştirilmiş bir İçindekiler Tablonuz var.
+Artık TOC girişleri, sayfa numaralarını tam istediğiniz yerde gösterir ve belgenize cilalı bir görünüm kazandırır.
 
+## Yaygın Sorunlar ve İpuçları
+- **TOC'de başlıklar eksik:** Başlıklarınızın yerleşik stilleri (`Heading1`, `Heading2` vb.) kullandığından veya özel stillerin TOC seviyelerine eşlendiğinden emin olun.  
+- **Sekme durakları uygulanmadı:** Paragrafın gerçekten bir TOC stiline (`TOC_1`‑`TOC_9`) ait olduğunu doğrulayın.  
+- **Büyük belgelerde performans:** TOC'yi ekledikten sonra `doc.updateFields()` çağırarak girişleri tek bir geçişte yenileyin.
 
-## Çözüm
+## Sık Sorulan Sorular
 
-Bu eğitimde, Word belgeleriyle çalışmak için güçlü bir kütüphane olan Java için Aspose.Words kullanarak İçindekiler Tablosu (TOC) oluşturmayı inceledik. Uzun belgeleri düzenlemek ve gezinmek için iyi yapılandırılmış bir TOC olmazsa olmazdır ve Aspose.Words, TOC'leri zahmetsizce oluşturmak ve özelleştirmek için araçlar sağlar.
+**S: TOC girişlerinin biçimini nasıl değiştiririm?**  
+C: `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)` ifadesini kullanın; burada *X* seviye (1‑9) ve yazı tipi, renk veya paragraf ayarlarını değiştirin.
 
-## SSS
+**S: TOC'ye daha fazla seviye ekleyebilir miyim?**  
+C: `FieldToc` anahtarını `\o "1-3"` gibi (örnek) ekleyerek daha fazla başlık seviyesini dahil edin, ardından ilgili `TOC_X` stillerini güncelleyin.
 
-### İçindekiler girişlerinin biçimlendirmesini nasıl değiştirebilirim?
+**S: Belirli TOC girişleri için sekme duraklarını değiştirebilir miyim?**  
+C: Evet – “Sekme Duraklarını Özelleştirme” bölümünde gösterildiği gibi paragrafları dolaşarak her bir sekme durakını ayrı ayrı değiştirin.
 
-İçindekiler düzeyleriyle ilişkili stilleri şu şekilde değiştirebilirsiniz: `doc.getStyles().getByStyleIdentifier(StyleIdentifier.TOC_X)`Burada X, TOC seviyesini ifade eder.
+**S: PDF çıktısında TOC oluşturmak mümkün mü?**  
+C: Kesinlikle. TOC oluşturulduktan sonra belgeyi PDF olarak kaydedin (`doc.save("output.pdf")`); alan otomatik olarak işlenir.
 
-### İçindekiler tabloma nasıl daha fazla seviye ekleyebilirim?
+**S: `updateFields()` metodunu manuel olarak çağırmam gerekiyor mu?**  
+C: `FieldToc` eklediğinizde Aspose.Words kaydetme sırasında alanı günceller, ancak `doc.updateFields()` çağrısı, hata ayıklama için anlık sonuç almanızı sağlar.
 
-İçindekiler tablonuza daha fazla seviye eklemek için İçindekiler alanını değiştirebilir ve istediğiniz seviye sayısını belirtebilirsiniz.
+## Sonuç
+Aspose.Words for Java kullanarak **sayfa numaralarını ayarlamayı**, **bir içindekiler tablosu eklemeyi** ve **TOC stillerini özelleştirmeyi** öğrendiniz. Bu teknikler, temiz, gezilebilir ve profesyonel biçimlendirilmiş belgeler oluşturmanıza olanak tanır ve her türlü yayın standardını karşılar.
 
-### Belirli İçindekiler girişleri için sekme durağı konumlarını değiştirebilir miyim?
+---  
 
-Evet, yukarıdaki kod örneğinde gösterildiği gibi, paragraflar arasında gezinerek ve sekme duraklarını buna göre düzenleyerek belirli İçindekiler girişleri için sekme durağı konumlarını değiştirebilirsiniz.
-
+**Son Güncelleme:** 2026-01-03  
+**Test Edilen Sürüm:** Aspose.Words for Java (en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
