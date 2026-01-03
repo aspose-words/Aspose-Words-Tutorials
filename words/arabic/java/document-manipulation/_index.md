@@ -1,10 +1,13 @@
 ---
-"description": "تعلّم كيفية التعامل بكفاءة مع المستندات باستخدام Aspose.Words لجافا من خلال دروسنا التعليمية الشاملة. طوّر مهاراتك في معالجة مستندات جافا اليوم!"
-"linktitle": "معالجة المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "معالجة المستندات"
-"url": "/ar/java/document-manipulation/"
-"weight": 21
+date: 2026-01-03
+description: تعلم كيفية **إنشاء مستند Word باستخدام Java** وأيضًا **تحويل docx إلى
+  pdf**، استخراج النص، إنشاء جدول محتويات، البحث واستبدال النص في Java، ودمج مستندات
+  Word باستخدام Java مع Aspose.Words for Java.
+linktitle: Document Manipulation
+second_title: Aspose.Words Java Document Processing API
+title: إنشاء مستند Word في Java – دليل معالجة المستندات
+url: /ar/java/document-manipulation/
+weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,104 +16,161 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة المستندات
+# إنشاء مستند Word باستخدام Java
 
+هل تبحث عن برامج **create word document java** يمكنها التعامل مع كل شيء من إدراج النص البسيط إلى تحويل PDF المعقد؟ في هذا الدليل سنستعرض القدرات الأساسية لـ Aspose.Words for Java، نوضح لماذا هي المكتبة المفضلة لأتمتة المستندات، ونقدم لك خريطة طريق لإتقان المهام المتقدمة مثل **convert docx to pdf**، **extract text from word**، **generate table of contents**، **find replace text java**، و **merge word documents java**. في النهاية، ستحصل على أساس صلب لبناء حلول معالجة مستندات قوية في Java.
 
+## إجابات سريعة
+- **ما المكتبة التي تتيح لك إنشاء مستندات Word في Java؟** Aspose.Words for Java.  
+- **هل يمكنني تحويل DOCX إلى PDF باستخدام نفس الـ API؟** نعم – سطر واحد من الكود يكفي لإجراء التحويل.  
+- **هل يدعم استخراج النص العادي من ملف Word؟** بالطبع، باستخدام الطريقة Document.getText().  
+- **كيف يمكنني إنشاء جدول محتويات تلقائيًا؟** أدخل حقل TOC وقم بتحديثه باستخدام Document.updateFields().  
+- **هل يمكنني دمج ملفات Word متعددة في ملف واحد؟** استخدم Document.appendDocument() لدمج المستندات بسلاسة.
 
-هل تتطلع إلى إتقان فن معالجة المستندات بلغة جافا؟ لا تبحث أكثر! في هذه المقالة، سنرشدك عبر عالم دروس Aspose.Words لجافا، ونزودك بالمعرفة والمهارات اللازمة للتميز في معالجة المستندات.
+## ما هو “create word document java”؟
 
-## لماذا تختار Aspose.Words لـ Java؟
+إنشاء مستند Word في Java يعني بناء ملف `.docx` (أو أي تنسيق مدعوم آخر) برمجيًا باستخدام الكود بدلاً من التحرير اليدوي. توفر Aspose.Words واجهة برمجة تطبيقات (API) سلسة تتيح لك إضافة الفقرات، الجداول، الصور، رؤوس وتذييلات الصفحات، والمزيد — كل ذلك من داخل تطبيق Java الخاص بك.
 
-قبل أن نتعمق في البرامج التعليمية، دعونا نفهم لماذا يعتبر Aspose.Words for Java الحل الأمثل للتعامل مع المستندات.
+## لماذا تختار Aspose.Words for Java؟
 
-Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومتعددة الاستخدامات، تتيح للمطورين إنشاء المستندات وتحريرها وتحويلها ومعالجتها بتنسيقات متنوعة، بما في ذلك DOCX وPDF وHTML وغيرها. إنها تُحدث نقلة نوعية للشركات والمطورين الذين يسعون إلى أتمتة المهام المتعلقة بالمستندات.
+قبل أن نغوص في الدروس، دعنا نفهم لماذا تبرز Aspose.Words for Java كحلٍّ مفضّل للتلاعب بالمستندات.
 
-## دروس البدء باستخدام Aspose.Words
+- **دعم واسع للتنسيقات** – DOC، DOCX، PDF، HTML، EPUB، والعديد غيرها.  
+- **لا حاجة إلى Microsoft Office** – يعمل على أي خادم أو بيئة سحابية.  
+- **تحويل عالي الأداء** – تحويل **docx to pdf** في أجزاء من الثانية.  
+- **مجموعة ميزات غنية** – من إدراج النص البسيط إلى دمج البريد الإلكتروني ومعالجة SDT المعقدة.  
+- **توثيق وأمثلة ممتازة** – تجعل تعلم **create word document java** سريعًا.
+
+## البدء مع دروس Aspose.Words
 
 ### التثبيت والإعداد
 
-الخطوة الأولى في رحلتك لتصبح محترفًا في معالجة المستندات هي إعداد Aspose.Words لجافا. سيرشدك دليلنا الشامل خلال عملية التثبيت، مما يضمن لك تشغيل واجهة برمجة التطبيقات (API) بسرعة.
+الخطوة الأولى في رحلتك لتصبح محترفًا في معالجة المستندات هي إعداد Aspose.Words for Java. حمّل أحدث ملف JAR من الموقع الرسمي، أضفه إلى مسار الـ classpath في مشروعك، وفعل الترخيص الخاص بك (أو استخدم نسخة تقييم مجانية). هذا يضمن لك الوصول إلى جميع الميزات، بما في ذلك **convert docx to pdf** و **extract text from word**.
 
-### إنشاء المستندات وتعديلها
+### إنشاء وتعديل المستندات
 
-بعد تثبيت Aspose.Words، يمكنك البدء بإنشاء المستندات وتعديلها. تعلّم كيفية إنشاء مستندات جديدة، وإضافة محتوى، وتنسيق النصوص، والتحكم في هيكلية المستندات بسهولة.
+بعد تثبيت Aspose.Words، يمكنك البدء في مشاريع **create word document java**. استخدم الفئات `Document` و `DocumentBuilder` لإضافة الفقرات، تنسيق النص، إدراج الجداول، وتضمين الصور. تقوم الـ API بإخفاء تفاصيل OpenXML منخفضة المستوى، مما يتيح لك التركيز على منطق العمل.
 
 ### تحويل المستندات
 
-هل تحتاج إلى تحويل مستندات بين صيغ مختلفة؟ Aspose.Words لجافا يُلبي احتياجاتك. اكتشف كيفية تحويل DOCX إلى PDF، وHTML إلى DOCX، والعديد من حيل التحويل الأخرى في هذا البرنامج التعليمي.
+هل تحتاج إلى **convert docx to pdf** أو HTML؟ ما عليك سوى تحميل `Document` ثم استدعاء `save("output.pdf", SaveFormat.PDF)`. نفس النهج يعمل لإنشاء **generate table of contents**، حيث تقوم بإدراج حقل TOC وتحديثه قبل الحفظ.
 
-## تعزيز مهاراتك في التعامل مع المستندات
+## تعزيز مهاراتك في معالجة المستندات
 
-في هذه المرحلة، أتقنتَ أساسيات Aspose.Words للغة جافا. ولكن لا يزال هناك الكثير لاستكشافه! 
+في هذه المرحلة، تكون قد أتقنت أساسيات Aspose.Words for Java. ولكن لا يزال هناك الكثير لتستكشفه!
 
-### ميزات المستندات المتقدمة
+### ميزات المستند المتقدمة
 
-تعمق في مواضيع متقدمة، مثل التعامل مع الرؤوس والتذييلات، وإدراج الجداول، ومعالجة الصور، وإدارة خصائص المستندات. ستُحسّن هذه المهارات من مهاراتك في التعامل مع المستندات إلى مستوى أعلى.
+تعمق في المواضيع المتقدمة مثل العمل مع الرؤوس والتذييلات، إدراج الجداول، معالجة الصور، وإدارة خصائص المستند. هذه المهارات ستحسن قدرتك على **find replace text java** و **merge word documents java** بدقة.
 
-## أين تجد دروس Aspose.Words لـ Java؟
+## أين تجد دروس Aspose.Words for Java
 
-هل أنت مستعد لبدء رحلة معالجة مستنداتك؟ يمكنك الوصول إلى دروسنا التعليمية ومواردنا على [وثائق واجهة برمجة التطبيقات Aspose.Words](https://reference.aspose.com/words/java/)سواء كنت مبتدئًا أو مطورًا خبيرًا، فإن دروسنا التعليمية خطوة بخطوة تناسب جميع مستويات المهارة.
+هل أنت مستعد للانطلاق في رحلتك لمعالجة المستندات؟ يمكنك الوصول إلى دروسنا ومواردنا عبر [Aspose.Words API Documentation](https://reference.aspose.com/words/java/). سواء كنت مبتدئًا أو مطورًا متمرسًا، فإن دروسنا خطوة بخطوة تلبي جميع مستويات الخبرة.
 
-يُعدّ التعامل مع المستندات باستخدام Aspose.Words في جافا مهارة قيّمة للمطورين والشركات. بفضل دروسنا التعليمية وقوة Aspose.Words، يمكنك تبسيط مهامك المتعلقة بالمستندات، وزيادة إنتاجيتك، وإنشاء مستندات رائعة بكل سهولة.
+معالجة المستندات باستخدام Aspose.Words for Java هي مهارة قيمة للمطورين والشركات. من خلال دروسنا وقوة Aspose.Words، يمكنك تبسيط مهام المستندات، زيادة الإنتاجية، وإنشاء مستندات مذهلة بسهولة.
 
-ابدأ رحلة التعلم الخاصة بك اليوم واكتشف إمكانيات لا حصر لها في التعامل مع المستندات باستخدام Aspose.Words for Java.
+ابدأ رحلتك التعليمية اليوم واكتشف إمكانيات لا حدود لها في معالجة المستندات مع Aspose.Words for Java.
 
 ## دروس معالجة المستندات
-### [استخدام خيارات التنظيف في Aspose.Words لـ Java](./using-cleanup-options/)
-حسّن وضوح مستنداتك باستخدام خيارات التنظيف في Aspose.Words لجافا. تعرّف على كيفية إزالة الفقرات الفارغة والمناطق غير المستخدمة والمزيد.
-### [استخدام الحقول في Aspose.Words لـ Java](./using-fields/)
-أطلق العنان لأتمتة المستندات مع Aspose.Words لجافا. تعلّم كيفية دمج الصور وتنسيقها وإدراجها في مستندات جافا. دليل شامل وأمثلة برمجية لمعالجة مستندات فعّالة.
-### [استخدام بيانات XML في Aspose.Words للغة Java](./using-xml-data/)
-اكتشف قوة Aspose.Words في جافا. تعلّم معالجة بيانات XML، ودمج المراسلات، وقواعد Mustache من خلال دروس تعليمية خطوة بخطوة.
-### [استخراج المحتوى من المستندات في Aspose.Words لـ Java](./extracting-content-from-documents/)
-تعلّم كيفية استخراج المحتوى من المستندات بسهولة باستخدام Aspose.Words لجافا. يُبسّط دليلنا التفصيلي ونماذج التعليمات البرمجية العملية.
-### [طرق مساعدة لاستخراج المحتوى في Aspose.Words لـ Java](./helper-methods-for-extracting-content/)
-تعرّف على كيفية استخراج المحتوى بكفاءة من مستندات Word باستخدام Aspose.Words لجافا. استكشف أساليب المساعدة والتنسيق المخصص والمزيد في هذا الدليل الشامل.
-### [البحث عن نص واستبداله في Aspose.Words لـ Java](./finding-and-replacing-text/)
-تعلّم كيفية البحث عن نص واستبداله في مستندات Word باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة برمجية. حسّن مهاراتك في التعامل مع مستندات جافا.
-### [إزالة المحتوى من المستندات في Aspose.Words لـ Java](./removing-content-from-documents/)
-تعرّف على كيفية إزالة المحتوى من مستندات Word بلغة Java باستخدام Aspose.Words لـ Java. أزل فواصل الصفحات، وفواصل الأقسام، والمزيد. حسّن معالجة مستنداتك.
-### [استخدام الإشارات المرجعية في Aspose.Words للغة Java](./using-bookmarks/)
-حسّن معالجة مستنداتك باستخدام Aspose.Words لجافا. تعلّم كيفية استخدام الإشارات المرجعية لتصفح المحتوى ومعالجته بكفاءة في هذا الدليل المفصل.
-### [استخدام نطاقات المستندات في Aspose.Words لـ Java](./using-document-ranges/)
-أتقن التعامل مع نطاقات المستندات في Aspose.Words لجافا. تعلم كيفية حذف النصوص واستخراجها وتنسيقها مع هذا الدليل الشامل.
-### [استخدام علامات المستندات المنظمة (SDT) في Aspose.Words لـ Java](./using-structured-document-tags/)
-تعرّف على كيفية استخدام علامات المستندات المنظمة (SDT) في Aspose.Words لـ Java من خلال هذا الدليل الشامل. أنشئ علامات المستندات المنظمة، وعدّلها، واربطها ببيانات XML مخصصة.
-### [استخدام الأنماط والموضوعات في Aspose.Words لـ Java](./using-styles-and-themes/)
-تعرّف على كيفية تحسين تنسيق المستندات باستخدام Aspose.Words لجافا. استكشف الأنماط والسمات والمزيد في هذا الدليل الشامل مع أمثلة على أكواد المصدر.
-### [إنشاء جدول المحتويات في Aspose.Words لـ Java](./generating-table-of-contents/)
-تعلّم كيفية إنشاء جدول المحتويات (TOC) وتخصيصه باستخدام Aspose.Words لجافا. أنشئ مستندات منظمة واحترافية بكل سهولة.
-### [حماية المستندات في Aspose.Words لـ Java](./protecting-documents/)
-تعرّف على كيفية تأمين مستندات جافا وورد باستخدام Aspose.Words لجافا. احمِ بياناتك بكلمة مرور، وغير ذلك الكثير.
-### [تقسيم المستندات إلى صفحات في Aspose.Words لـ Java](./splitting-documents-into-pages/)
-تعلّم كيفية تقسيم المستندات إلى صفحات باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع الكود المصدري لمعالجة مستندات فعّالة.
-### [تقسيم المستندات في Aspose.Words لـ Java](./splitting-documents/)
-تعلّم كيفية تقسيم المستندات بكفاءة في Aspose.Words لجافا. استكشف تقنيات العناوين والأقسام ونطاقات الصفحات.
-### [تقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java](./splitting-documents-into-html-pages/)
-تعلّم كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة.
-### [إضافة المحتوى باستخدام DocumentBuilder في Aspose.Words لـ Java](./adding-content-using-documentbuilder/)
-أتقن إنشاء المستندات باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لإضافة النصوص والجداول والصور وغيرها. أنشئ مستندات Word رائعة بكل سهولة.
-### [استنساخ ودمج المستندات في Aspose.Words لـ Java](./cloning-and-combining-documents/)
-تعلّم كيفية استنساخ ودمج المستندات في Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة على الكود المصدري.
-### [مقارنة المستندات في Aspose.Words لـ Java](./comparing-documents/)
-تعرف على كيفية مقارنة المستندات في Aspose.Words for Java، وهي مكتبة Java قوية لتحليل المستندات بكفاءة. 
-### [تنسيق المستندات في Aspose.Words لـ Java](./formatting-documents/)
-تعلّم فن تنسيق المستندات في Aspose.Words لجافا مع دليلنا الشامل. استكشف الميزات الفعّالة وحسّن مهاراتك في معالجة المستندات.
-### [ربط المستندات وإضافتها في Aspose.Words لـ Java](./joining-and-appending-documents/)
-تعلّم كيفية ضمّ المستندات وإضافتها بسهولة باستخدام Aspose.Words لجافا. حافظ على التنسيق، وأدر رؤوس الصفحات وتذييلاتها، والمزيد.
-### [استخدام خيارات وإعدادات المستند في Aspose.Words لـ Java](./using-document-options-and-settings/)
-أطلق العنان لقوة Aspose.Words لجافا. أتقن خيارات وإعدادات المستندات لإدارة سلسة للمستندات. حسّن، خصّص، وأكثر.
-### [استخدام خصائص المستند في Aspose.Words لـ Java](./using-document-properties/)
-حسّن إدارة المستندات باستخدام Aspose.Words لجافا. تعلّم كيفية التعامل مع خصائص المستندات، وإضافة بيانات تعريفية مخصصة، والمزيد في هذا البرنامج التعليمي الشامل.
-### [استخدام ملحقات الويب في Aspose.Words للغة Java](./using-web-extensions/)
-حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة. 
+### [Using Cleanup Options in Aspose.Words for Java](./using-cleanup-options/)
+حسّن وضوح المستند باستخدام خيارات التنظيف في Aspose.Words for Java. تعلّم كيفية إزالة الفقرات الفارغة، المناطق غير المستخدمة، وأكثر.
+
+### [Using Fields in Aspose.Words for Java](./using-fields/)
+افتح أتمتة المستندات مع Aspose.Words for Java. تعلّم كيفية الدمج، التنسيق، وإدراج الصور في مستندات Java. دليل شامل وأمثلة شفرة لمعالجة المستندات بكفاءة.
+
+### [Using XML Data in Aspose.Words for Java](./using-xml-data/)
+اكتشف قوة Aspose.Words for Java. تعلّم معالجة بيانات XML، دمج البريد الإلكتروني، وصياغة Mustache مع دروس خطوة بخطوة.
+
+### [Extracting Content from Documents in Aspose.Words for Java](./extracting-content-from-documents/)
+تعرّف على كيفية استخراج المحتوى من المستندات بسهولة باستخدام Aspose.Words for Java. دليلنا خطوة بخطوة وعينات الشفرة يبسطان العملية.
+
+### [Helper Methods for Extracting Content in Aspose.Words for Java](./helper-methods-for-extracting-content/)
+تعرّف على طرق استخراج المحتوى بفعالية من مستندات Word باستخدام Aspose.Words for Java. استكشف طرق المساعدة، التنسيق المخصص، وأكثر في هذا الدليل الشامل.
+
+### [Finding and Replacing Text in Aspose.Words for Java](./finding-and-replacing-text/)
+تعرّف على كيفية البحث واستبدال النص في مستندات Word باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع أمثلة شفرة. حسّن مهاراتك في معالجة مستندات Java.
+
+### [Removing Content from Documents in Aspose.Words for Java](./removing-content-from-documents/)
+تعرّف على كيفية إزالة المحتوى من مستندات Word في Java باستخدام Aspose.Words for Java. احذف فواصل الصفحات، فواصل الأقسام، وأكثر. حسّن عملية معالجة المستندات.
+
+### [Using Bookmarks in Aspose.Words for Java](./using-bookmarks/)
+حسّن معالجة المستندات باستخدام Aspose.Words for Java. تعلّم استخدام الإشارات المرجعية لتسهيل التنقل والملاحة داخل المحتوى في هذا الدليل خطوة بخطوة.
+
+### [Using Document Ranges in Aspose.Words for Java](./using-document-ranges/)
+أتقن معالجة نطاقات المستند في Aspose.Words for Java. تعلّم حذف، استخراج، وتنسيق النص مع هذا الدليل الشامل.
+
+### [Using Structured Document Tags (SDT) in Aspose.Words for Java](./using-structured-document-tags/)
+تعرّف على كيفية استخدام Structured Document Tags (SDT) في Aspose.Words for Java مع هذا الدليل الشامل. أنشئ، عدّل، واربط SDTs ببيانات XML مخصصة.
+
+### [Using Styles and Themes in Aspose.Words for Java](./using-styles-and-themes/)
+تعرّف على تحسين تنسيق المستند باستخدام Aspose.Words for Java. استكشف الأنماط، السمات، وأكثر في هذا الدليل الشامل مع أمثلة شفرة المصدر.
+
+### [Generating Table of Contents in Aspose.Words for Java](./generating-table-of-contents/)
+تعرّف على إنشاء وتخصيص جدول المحتويات (TOC) باستخدام Aspose.Words for Java. أنشئ مستندات منظمة ومهنية بسهولة.
+
+### [Protecting Documents in Aspose.Words for Java](./protecting-documents/)
+تعرّف على كيفية تأمين مستندات Word في Java باستخدام Aspose.Words for Java. احمِ بياناتك بكلمة مرور وأكثر.
+
+### [Splitting Documents into Pages in Aspose.Words for Java](./splitting-documents-into-pages/)
+تعرّف على تقسيم المستندات إلى صفحات باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع شفرة المصدر لمعالجة المستندات بفعالية.
+
+### [Splitting Documents in Aspose.Words for Java](./splitting-documents/)
+تعرّف على تقسيم المستندات بكفاءة في Aspose.Words for Java. استكشف تقنيات العناوين، الأقسام، ونطاقات الصفحات.
+
+### [Splitting Documents into HTML Pages in Aspose.Words for Java](./splitting-documents-into-html-pages/)
+تعرّف على تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة.
+
+### [Adding Content using DocumentBuilder in Aspose.Words for Java](./adding-content-using-documentbuilder/)
+أتقن إنشاء المستندات مع Aspose.Words for Java. دليل خطوة بخطوة لإضافة نص، جداول، صور، وأكثر. أنشئ مستندات Word مذهلة بسهولة.
+
+### [Cloning and Combining Documents in Aspose.Words for Java](./cloning-and-combining-documents/)
+تعرّف على استنساخ ودمج المستندات في Aspose.Words for Java. دليل خطوة بخطوة مع أمثلة شفرة المصدر.
+
+### [Comparing Documents in Aspose.Words for Java](./comparing-documents/)
+تعرّف على مقارنة المستندات في Aspose.Words for Java، مكتبة Java قوية لتحليل المستندات بفعالية.
+
+### [Formatting Documents in Aspose.Words for Java](./formatting-documents/)
+تعرّف على فن تنسيق المستندات في Aspose.Words for Java من خلال دليلنا الشامل. استكشف الميزات القوية وحسّن مهارات معالجة المستندات.
+
+### [Joining and Appending Documents in Aspose.Words for Java](./joining-and-appending-documents/)
+تعرّف على دمج وإلحاق المستندات بسهولة باستخدام Aspose.Words for Java. احفظ التنسيق، إدارة الرؤوس والتذييلات، وأكثر.
+
+### [Using Document Options and Settings in Aspose.Words for Java](./using-document-options-and-settings/)
+اكتشف قوة Aspose.Words for Java. أتقن خيارات وإعدادات المستند لإدارة المستندات بسلاسة. حسّن، خصّص، وأكثر.
+
+### [Using Document Properties in Aspose.Words for Java](./using-document-properties/)
+حسّن إدارة المستندات مع Aspose.Words for Java. تعلّم العمل مع خصائص المستند، إضافة بيانات تعريف مخصصة، وأكثر في هذا الدرس الشامل.
+
+### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
+حسّن المستندات باستخدام امتدادات الويب في Aspose.Words for Java. تعلّم دمج المحتوى المستند إلى الويب بسلاسة. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+## الأسئلة المتكررة
+
+**س: كيف يمكنني إنشاء مستند Word برمجيًا في Java؟**  
+ج: استخدم الفئتين `Document` و `DocumentBuilder` من Aspose.Words for Java. يتيح لك ذلك إضافة الفقرات، الجداول، الصور، وأكثر دون الحاجة إلى Microsoft Office.
+
+**س: هل يمكنني تحويل ملف DOCX إلى PDF بسطر واحد من الكود؟**  
+ج: نعم. حمّل ملف DOCX باستخدام `new Document("input.docx")` ثم استدعِ `save("output.pdf", SaveFormat.PDF)`.
+
+**س: ما هي أفضل طريقة لاستخراج النص العادي من ملف Word؟**  
+ج: استدعِ `document.getText()` أو قم بالتكرار عبر عقد `Paragraph` لاسترجاع محتوى النص الخام.
+
+**س: كيف يمكنني إنشاء جدول محتويات تلقائيًا؟**  
+ج: أدخل حقل TOC باستخدام `DocumentBuilder.insertTableOfContents()` ثم حدّث الحقول عبر `document.updateFields()`.
+
+**س: هل يمكن دمج عدة مستندات Word في ملف واحد؟**  
+ج: بالتأكيد. استخدم `targetDocument.appendDocument(sourceDocument, ImportFormatMode.KEEP_SOURCE_FORMATTING)` لكل مستند تريد دمجه.
+
+---
+
+**آخر تحديث:** 2026-01-03  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose
