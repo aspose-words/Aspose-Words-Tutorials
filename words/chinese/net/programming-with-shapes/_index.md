@@ -33,7 +33,7 @@ Aspose.Words for .NET 教程“使用形状进行文字处理”提供了在 Wor
 | [垂直锚](./vertical-anchor/) 了解如何使用 Aspose.Words for .NET 设置 Word 文档中文本框的垂直锚点位置。内含简单的分步指南。|
 | [检测智能艺术形状](./detect-smart-art-shape/) 这份全面的指南将帮助您了解如何使用 Aspose.Words for .NET 检测 Word 文档中的 SmartArt 形状。非常适合自动化您的文档工作流程。|
 | [更新智能艺术绘图](./update-smart-art-drawing/) 学习如何使用 Aspose.Words for .NET 更新 Word 文档中的 Smart Art 绘图，并遵循本分步指南。确保您的视觉效果始终准确无误。|
-
+| [使用 C# 在 Word 中创建矩形形状](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.Words for .NET 在 Word 文档中插入矩形形状。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

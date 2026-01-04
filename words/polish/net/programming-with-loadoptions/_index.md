@@ -32,7 +32,7 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Pomiń obrazy PDF](./skip-pdf-images/) | Dowiedz się, jak pomijać obrazy podczas ładowania dokumentów PDF za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby bezproblemowo wyodrębnić tekst. |
 | [Konwertuj metapliki do PNG](./convert-metafiles-to-png/) | Łatwo konwertuj metapliki do PNG w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Uprość zarządzanie dokumentami. |
 | [Załaduj pliki Chm w dokumencie Word](./load-chm/) | Łatwo ładuj pliki CHM do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do konsolidacji dokumentacji technicznej. |
-
+| [Odzyskaj uszkodzony plik Word – Kompletny przewodnik otwierania uszkodzonego DOCX i uzyskiwania liczby stron](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Dowiedz się, jak odzyskać uszkodzony plik Word, otworzyć uszkodzony DOCX i uzyskać liczbę stron przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

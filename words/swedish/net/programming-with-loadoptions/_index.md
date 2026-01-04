@@ -32,7 +32,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Hoppa över PDF-bilder](./skip-pdf-images/) | Lär dig hur du hoppar över bilder när du laddar PDF-dokument med Aspose.Words för .NET. Följ den här steg-för-steg-guiden för sömlös textutvinning. |
 | [Konvertera metafiler till png](./convert-metafiles-to-png/) | Konvertera enkelt metafiler till PNG i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Förenkla din dokumenthantering. |
 | [Ladda CHM-filer i Word-dokument](./load-chm/) | Ladda enkelt CHM-filer till Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för att konsolidera din tekniska dokumentation. |
-
+| [Återställ skadad Word-fil – Komplett guide för att öppna korrupt DOCX & få sidantal](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Lär dig hur du reparerar skadade Word-dokument, öppnar korrupta DOCX-filer och hämtar sidantalet med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

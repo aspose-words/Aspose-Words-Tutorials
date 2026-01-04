@@ -32,7 +32,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Lewati Gambar Pdf](./skip-pdf-images/) | Pelajari cara melewati gambar saat memuat dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk ekstraksi teks yang lancar. Bahasa Indonesia:
 | [Konversi Metafile ke PNG](./convert-metafiles-to-png/) | Ubah metafile menjadi PNG dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sederhanakan pengelolaan dokumen Anda. Bahasa Indonesia:
 | [Memuat File Chm Dalam Dokumen Word](./load-chm/) | Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda. |
-
+| [Pulihkan File Word Rusak – Panduan Lengkap Membuka DOCX Korup & Mendapatkan Jumlah Halaman](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Pelajari cara memulihkan file Word yang rusak, membuka DOCX korup, dan menghitung jumlah halaman dengan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

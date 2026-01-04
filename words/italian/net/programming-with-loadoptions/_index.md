@@ -22,17 +22,17 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
  ## Tutorial
 | Titolo | Descrizione |
 | --- | --- |
-| [Aggiorna i campi sporchi nel documento Word](./update-dirty-fields/) Aggiorna senza sforzo i campi "drug" nei tuoi documenti Word utilizzando Aspose.Words per .NET con questa guida completa e dettagliata. |
+| [Aggiorna i campi sporchi nel documento Word](./update-dirty-fields/) | Aggiorna senza sforzo i campi "drug" nei tuoi documenti Word utilizzando Aspose.Words per .NET con questa guida completa e dettagliata. |
 | [Carica il documento crittografato in Word](./load-encrypted-document/) | Scopri come caricare e salvare documenti Word crittografati utilizzando Aspose.Words per .NET. Proteggi facilmente i tuoi documenti con nuove password. Guida passo passo inclusa. |
 | [Converti forma in Office Math](./convert-shape-to-office-math/) | Scopri come convertire le forme in Office Math nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida. Migliora la formattazione dei tuoi documenti senza sforzo. |
 | [Imposta la versione di Ms Word](./set-ms-word-version/) | Scopri come impostare le versioni di MS Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata. Perfetta per gli sviluppatori che desiderano semplificare la manipolazione dei documenti. |
 | [Utilizzare la cartella temporanea nel documento Word](./use-temp-folder/) | Scopri come migliorare le prestazioni delle tue applicazioni .NET utilizzando una cartella temporanea durante il caricamento di documenti Word con Aspose.Words. |
-| [Avviso di callback nel documento Word](./warning-callback/) Scopri come rilevare e gestire gli avvisi nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida passo passo. Garantisci un'elaborazione affidabile dei documenti. |
+| [Avviso di callback nel documento Word](./warning-callback/) | Scopri come rilevare e gestire gli avvisi nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida passo passo. Garantisci un'elaborazione affidabile dei documenti. |
 | [Carica con codifica nel documento Word](./load-with-encoding/) | Scopri come caricare un documento Word con una codifica specifica utilizzando Aspose.Words per .NET. Guida passo passo con spiegazioni dettagliate. |
 | [Salta le immagini PDF](./skip-pdf-images/) | Scopri come ignorare le immagini durante il caricamento di documenti PDF utilizzando Aspose.Words per .NET. Segui questa guida passo passo per un'estrazione di testo impeccabile. |
 | [Convertire Metafile in PNG](./convert-metafiles-to-png/) | Converti facilmente i metafile in PNG nei documenti Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Semplifica la gestione dei tuoi documenti. |
 | [Carica file CHM nel documento Word](./load-chm/) | Carica facilmente file CHM in documenti Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Perfetto per consolidare la tua documentazione tecnica. |
-
+| [Recupera file Word danneggiato – Guida completa per aprire DOCX corrotti e ottenere il conteggio delle pagine](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Scopri come aprire file DOCX corrotti, riparare documenti Word danneggiati e determinare il numero di pagine con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

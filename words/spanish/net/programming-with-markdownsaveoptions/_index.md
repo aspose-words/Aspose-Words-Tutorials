@@ -26,6 +26,8 @@ Procesamiento de textos con MarkdownSaveOptions es un recurso detallado que te g
 | [Convertir docx a markdown – Guía paso a paso en C#](./convert-docx-to-markdown-step-by-step-c-guide/) Aprenda a convertir archivos DOCX a Markdown paso a paso con C# y Aspose.Words. |
 | [Guardar Word como PDF y Recuperar Word Corrupto – Convertir Word a Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)  |
 | [Cómo usar Markdown: Convertir DOCX a Markdown con ecuaciones LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) Aprenda a convertir documentos DOCX a Markdown conservando ecuaciones LaTeX usando Aspose.Words para .NET. |
+| [Cómo exportar LaTeX desde Word: Convertir DOCX a Markdown con Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) Aprenda a extraer ecuaciones LaTeX de documentos Word y convertirlos a Markdown usando Aspose.Words para .NET. |
+| [Convertir Word a Markdown – Incrustar imágenes como Base64](./convert-word-to-markdown-embed-images-as-base64/) Aprenda a convertir documentos Word a Markdown incrustando imágenes en formato Base64 usando Aspose.Words para .NET. |
 
 ### [Crear PDF accesible y convertir Word a Markdown – Guía completa en C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) Aprenda a generar PDFs accesibles y convertir documentos Word a Markdown usando C# y Aspose.Words.
 

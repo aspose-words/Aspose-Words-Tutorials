@@ -42,10 +42,11 @@ Ať už chcete převést dokumenty Wordu do PDF pro online distribuci, archivaci
 | [Export uživatelských vlastností do dokumentu PDF](./custom-properties-export/) | Naučte se, jak exportovat vlastní vlastnosti v dokumentu PDF pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. |
 | [Export struktury dokumentu Word do dokumentu PDF](./export-document-structure/) | Exportujte strukturu dokumentu Word do PDF pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu, abyste zachovali rozvržení dokumentu a vylepšili navigaci v PDF. |
 | [Komprese obrázků v dokumentu PDF](./image-compression/) Naučte se, jak komprimovat obrázky v PDF dokumentech pomocí Aspose.Words pro .NET. Pro optimalizaci velikosti a kvality souboru postupujte podle tohoto návodu. |
-| [Aktualizovat poslední vytištěnou vlastnost v dokumentu PDF](./update-last-printed-property/) | Naučte se, jak aktualizovat poslední vytištěnou vlastnost v dokumentu PDF pomocí Aspose.Words pro .NET s naším podrobným návodem. |
+| [Aktualizovat poslední vytištěnou vlastnost v dokumentu PDF](./update-last-printed-property/) | Naučte se, jak aktualizovat poslední vytištěnou vlastnost v PDF pomocí Aspose.Words pro .NET s naším podrobným návodem. |
 | [Renderování 3D DML 3DEfektů v PDF dokumentu](./dml-3deffects-rendering/) | Naučte se, jak vykreslit úžasné 3D DML efekty v PDF dokumentech pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem. |
 | [Interpolace obrázků v dokumentu PDF](./interpolate-images/) | Naučte se, jak interpolovat obrázky v PDF dokumentu pomocí Aspose.Words pro .NET s naším podrobným návodem. Snadno vylepšete kvalitu obrázků ve vašem PDF. |
-
+| [Uložte docx jako pdf pomocí Aspose.Words – Kompletní průvodce C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Kompletní průvodce převodem souborů DOCX do PDF v C# pomocí Aspose.Words. |
+| [Vytvořte přístupný PDF z Wordu pomocí C# – krok za krokem průvodce](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit PDF s přístupností z dokumentu Word v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
