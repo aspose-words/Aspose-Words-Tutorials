@@ -32,7 +32,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [PDF画像をスキップ](./skip-pdf-images/) Aspose.Words for .NET を使用してPDFドキュメントを読み込む際に画像をスキップする方法を学びましょう。シームレスなテキスト抽出を実現するには、このステップバイステップガイドに従ってください。 |
 | [メタファイルをPNGに変換する](./convert-metafiles-to-png/) Aspose.Words for .NET を使って、Word 文書内のメタファイルを PNG に簡単に変換する方法を、ステップバイステップのチュートリアルでご紹介します。ドキュメント管理が簡単になります。 |
 | [Word文書にCHMファイルを読み込む](./load-chm/) Aspose.Words for .NET を使って、CHM ファイルを Word 文書に簡単に読み込む方法をステップバイステップで解説するチュートリアルです。技術文書の統合に最適です。 |
-
+| [docx を復元する方法 – 破損した Word ファイルの C# ガイド](./how-to-recover-docx-c-guide-for-corrupted-word-files/) 破損した docx ファイルを C# で復元する手順とコード例をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

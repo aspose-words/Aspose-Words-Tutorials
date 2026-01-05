@@ -40,7 +40,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Definir pastas de fontes com prioridade](./set-fonts-folders-with-priority/) | Aprenda a definir pastas de fontes com prioridade em documentos do Word usando o Aspose.Words para .NET. Nosso guia garante que seus documentos sejam renderizados perfeitamente sempre. |
 | [Definir pasta de fontes True Type](./set-true-type-fonts-folder/) | Aprenda a definir uma pasta de fontes True Type em documentos do Word usando o Aspose.Words para .NET. Siga nosso guia passo a passo detalhado para garantir um gerenciamento consistente de fontes. |
 | [Especificar fonte padrão ao renderizar](./specify-default-font-when-rendering/) | Aprenda a especificar uma fonte padrão ao renderizar documentos do Word usando o Aspose.Words para .NET. Garanta a consistência da aparência do documento em todas as plataformas. |
-| [Configurações de fonte com opções de carregamento](./font-settings-with-load-options/) Aprenda a gerenciar as configurações de fonte com opções de carregamento no Aspose.Words para .NET. Guia passo a passo para desenvolvedores garantirem a consistência da aparência da fonte em documentos do Word.
+| [Configurações de fonte com opções de carregamento](./font-settings-with-load-options/) Aprenda a gerenciar as configurações de fonte com opções de carregamento no Aspose.Words para .NET. Guia passo a passo para desenvolvedores garantirem a consistência da aparência da fonte em documentos do Word. |
 | [Definir pasta de fontes](./set-fonts-folder/) | Aprenda como definir uma pasta de fontes personalizada no Aspose.Words para .NET para garantir que seus documentos do Word sejam renderizados corretamente, sem fontes ausentes. |
 | [Configurações de fonte Instância padrão](./font-settings-default-instance/) | Neste tutorial, aprenda a configurar as configurações de fonte padrão em um documento do Word com o Aspose.Words para .NET. |
 | [Obtenha a lista de fontes disponíveis](./get-list-of-available-fonts/) | Descubra como obter uma lista de fontes disponíveis usando o Aspose.Words para .NET neste tutorial passo a passo detalhado. Aprimore suas habilidades de gerenciamento de fontes. |
@@ -48,7 +48,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Receber notificação de aviso](./receive-warning-notification/) Aprenda como receber uma notificação de aviso ao usar o Aspose.Words para .NET e gerencie quaisquer problemas ou avisos em seus documentos. |
 | [Exemplo de fonte de fonte do Resource Steam](./resource-steam-font-source-example/) | Aprenda a usar o Resource Stream Font Source para carregar fontes personalizadas no Aspose.Words para .NET. |
 | [Obtenha substituição sem sufixos](./get-substitution-without-suffixes/) | Neste tutorial, aprenda como obter substituições sem sufixo em um documento do Word com o Aspose.Words para .NET. |
-
+| [Como Capturar Fontes no Aspose.Words – Guia Completo](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aprenda a capturar fontes em documentos Word usando Aspose.Words com este guia completo passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

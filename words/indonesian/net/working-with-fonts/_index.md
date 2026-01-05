@@ -37,7 +37,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Font Folder Default Instance](./set-fonts-folders-default-instance/) | Pelajari cara mengatur folder font untuk instance default di Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sesuaikan dokumen Word Anda dengan mudah. Bahasa Indonesia:
 | [Atur Font Folder Beberapa Folder](./set-fonts-folders-multiple-folders/) | Pelajari cara mengatur beberapa folder font di dokumen Word Anda menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini memastikan dokumen Anda menggunakan font yang tepat sesuai kebutuhan Anda. Bahasa Indonesia:
 | [Atur Font Folder Sistem Dan Folder Kustom](./set-fonts-folders-system-and-custom-folder/) Pelajari cara mengatur folder sistem dan font kustom dalam dokumen Word menggunakan Aspose.Words untuk .NET, memastikan dokumen Anda ditampilkan dengan benar di berbagai lingkungan. Bahasa Indonesia:
-| [Atur Folder Font Dengan Prioritas](./set-fonts-folders-with-priority/) | Pelajari cara mengatur folder font dengan prioritas dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan kami memastikan dokumen Anda ditampilkan dengan sempurna setiap saat. Bahasa Indonesia:
+| [Atur Folder Font Dengan Prioritas](./set-fonts-folders-with-priority/) | Pelajari cara mengatur folder font dengan prioritas dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan kami memastikan dokumen Anda ditampilkan sempurna setiap saat. Bahasa Indonesia:
 | [Atur Folder Font Jenis Benar](./set-true-type-fonts-folder/) | Pelajari cara mengatur folder True Type Fonts dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami, langkah demi langkah untuk memastikan manajemen font yang konsisten. Bahasa Indonesia:
 | [Tentukan Font Default Saat Rendering](./specify-default-font-when-rendering/) | Pelajari cara menentukan font default saat merender dokumen Word menggunakan Aspose.Words untuk .NET. Pastikan tampilan dokumen konsisten di semua platform. Bahasa Indonesia:
 | [Pengaturan Font Dengan Opsi Muat](./font-settings-with-load-options/) Pelajari cara mengelola pengaturan font dengan opsi muat di Aspose.Words untuk .NET. Panduan langkah demi langkah bagi pengembang untuk memastikan tampilan font yang konsisten dalam dokumen Word.
@@ -48,7 +48,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Terima Pemberitahuan Peringatan](./receive-warning-notification/) Pelajari cara menerima pemberitahuan peringatan saat menggunakan Aspose.Words untuk .NET dan mengelola masalah atau peringatan apa pun dalam dokumen Anda. Bahasa Indonesia:
 | [Contoh Sumber Font Steam Sumber Daya](./resource-steam-font-source-example/) | Pelajari cara menggunakan Resource Stream Font Source untuk memuat font kustom ke Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Dapatkan Substitusi Tanpa Sufiks](./get-substitution-without-suffixes/) | Dalam tutorial ini, pelajari cara mendapatkan penggantian tanpa sufiks dalam dokumen Word dengan Aspose.Words untuk .NET. |
-
+| [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Pelajari cara menangkap font yang digunakan dalam dokumen Word dengan Aspose.Words melalui panduan lengkap langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

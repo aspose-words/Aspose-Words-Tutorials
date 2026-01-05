@@ -31,6 +31,12 @@ Words Processing with MarkdownSaveOptions to dogłębny zasób, który przeprowa
 ### [Utwórz dostępny PDF i konwertuj Word do Markdown – Pełny przewodnik C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentów Word do formatu Markdown.
 
+### [Jak zapisać Markdown z Worda – Kompletny przewodnik C#](./how-to-save-markdown-from-word-complete-c-guide/)
+Kompletny przewodnik C# pokazujący, jak zapisać dokument Word w formacie Markdown.
+
+### [Jak zapisać Markdown z Worda – Kompletny przewodnik](./how-to-save-markdown-from-word-complete-guide/)
+Kompletny przewodnik pokazujący, jak zapisać dokument Word w formacie Markdown.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

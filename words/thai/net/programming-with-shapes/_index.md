@@ -33,7 +33,7 @@
 | [สมอแนวตั้ง](./vertical-anchor/) | เรียนรู้วิธีตั้งค่าตำแหน่งยึดแนวตั้งสำหรับกล่องข้อความในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนง่ายๆ
 - [ตรวจจับรูปทรงศิลปะอัจฉริยะ](./detect-smart-art-shape/) | เรียนรู้วิธีการตรวจจับรูปทรง SmartArt ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ เหมาะอย่างยิ่งสำหรับการสร้างระบบอัตโนมัติในเวิร์กโฟลว์เอกสารของคุณ -
 | [อัพเดท Smart Art Drawing](./update-smart-art-drawing/) | เรียนรู้วิธีอัปเดตภาพวาด Smart Art ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ รับรองว่าภาพของคุณจะถูกต้องเสมอ |
-
+| [บทแนะนำเงารูปร่าง Aspose.Words – เพิ่มเงาให้รูปทรงใน Word ด้วย C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET และ C# ผ่านบทแนะนำขั้นตอนง่าย |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

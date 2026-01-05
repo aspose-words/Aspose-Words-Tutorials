@@ -19,7 +19,7 @@ tutorial di Aspose.Words per .NET sull'elaborazione di testi con forme offrono u
 
 Attraverso questi tutorial, imparerai come aggiungere forme ai tuoi documenti, come rettangoli, cerchi, linee e frecce, per migliorare il layout e la visualizzazione delle informazioni. Imparerai anche a manipolare le proprietà delle forme, come rotazione, trasparenza e riempimento, per adattarle alle tue esigenze specifiche.
 
-Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipolare le forme nei tuoi documenti Word, creando documenti visivamente accattivanti e dall'aspetto professionale. Che tu sia un principiante o uno sviluppatore esperto, questi tutorial ti guideranno passo passo e ti aiuteranno a sfruttare appieno il potenziale della manipolazione delle forme in Aspose.Words per .NET.
+Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipolare le forme nei tuoi documenti Word, creando documenti visivamente accattivanti e dall'aspetto professionale. Che tu sia un principiante o un sviluppatore esperto, questi tutorial ti guideranno passo passo e ti aiuteranno a sfruttare appieno il potenziale della manipolazione delle forme in Aspose.Words per .NET.
 
  ## Tutorial
 | Titolo | Descrizione |
@@ -33,7 +33,7 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | [Ancoraggio verticale](./vertical-anchor/) | Scopri come impostare le posizioni di ancoraggio verticali per le caselle di testo nei documenti Word utilizzando Aspose.Words per .NET. Una semplice guida passo passo è inclusa.
 | [Rileva la forma artistica intelligente](./detect-smart-art-shape/) | Scopri come rilevare le forme SmartArt nei documenti Word utilizzando Aspose.Words per .NET con questa guida completa. Perfetta per automatizzare il flusso di lavoro dei tuoi documenti. |
 | [Aggiorna disegno Smart Art](./update-smart-art-drawing/) | Scopri come aggiornare i disegni Smart Art nei documenti Word utilizzando Aspose.Words per .NET con questa guida passo passo. Assicurati che le tue immagini siano sempre precise. |
-
+| [Tutorial Ombra Forma Aspose.Words – Aggiungi un'ombra a una forma Word in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Scopri come aggiungere un'ombra alle forme nei documenti Word con Aspose.Words per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

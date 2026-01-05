@@ -32,7 +32,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [PDF Görüntülerini Atla](./skip-pdf-images/) | Aspose.Words for .NET kullanarak PDF belgelerini yüklerken resimleri nasıl atlayacağınızı öğrenin. Sorunsuz metin çıkarma için bu adım adım kılavuzu izleyin. |
 | [Meta Dosyalarını PNG'ye Dönüştür](./convert-metafiles-to-png/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki meta dosyalarını kolayca PNG'ye dönüştürün. Belge yönetiminizi basitleştirin. |
 | [Chm Dosyalarını Word Belgesine Yükle](./load-chm/) | Bu adım adım eğitimle CHM dosyalarını Aspose.Words for .NET kullanarak Word belgelerine kolayca yükleyin. Teknik belgelerinizi birleştirmek için mükemmeldir. |
-
+| [docx Kurtarma – Bozuk Word Dosyaları için C# Kılavuzu](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Aspose.Words for .NET kullanarak bozuk .docx dosyalarını nasıl kurtaracağınızı ve C# ile yeniden kullanılabilir hale getireceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

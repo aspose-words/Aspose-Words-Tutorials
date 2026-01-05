@@ -32,7 +32,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [PDF-afbeeldingen overslaan](./skip-pdf-images/) | Leer hoe u afbeeldingen kunt overslaan bij het laden van PDF-documenten met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding voor naadloze tekstextractie. |
 | [Metabestanden naar PNG converteren](./convert-metafiles-to-png/) | Converteer metabestanden eenvoudig naar PNG in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Vereenvoudig uw documentbeheer. |
 | [Chm-bestanden laden in Word-document](./load-chm/) | Laad CHM-bestanden eenvoudig in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Perfect voor het consolideren van uw technische documentatie. |
-
+| [Hoe docx te herstellen – C#-gids voor beschadigde Word-bestanden](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Leer hoe u beschadigde .docx-bestanden kunt herstellen met C# en Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

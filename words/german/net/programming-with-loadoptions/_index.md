@@ -32,7 +32,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [PDF-Bilder überspringen](./skip-pdf-images/) | Erfahren Sie, wie Sie beim Laden von PDF-Dokumenten mit Aspose.Words für .NET Bilder überspringen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine nahtlose Textextraktion. |
 | [Metadateien in PNG konvertieren](./convert-metafiles-to-png/) | Konvertieren Sie Metadateien in Word-Dokumenten mit Aspose.Words für .NET ganz einfach in PNG – mit dieser Schritt-für-Schritt-Anleitung. Vereinfachen Sie Ihre Dokumentenverwaltung. |
 | [Chm-Dateien in Word-Dokument laden](./load-chm/) | Laden Sie CHM-Dateien mit Aspose.Words für .NET ganz einfach in Word-Dokumente. Mit dieser Schritt-für-Schritt-Anleitung können Sie CHM-Dateien ganz einfach in Word-Dokumente laden. Perfekt für die Konsolidierung Ihrer technischen Dokumentation. |
-
+| [Wie man docx wiederherstellt – C#-Leitfaden für beschädigte Word-Dateien](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET und C# wiederherstellen können. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
