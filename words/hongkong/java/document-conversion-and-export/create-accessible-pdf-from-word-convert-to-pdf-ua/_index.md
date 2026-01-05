@@ -227,5 +227,5 @@ We’ve covered everything you need to **create accessible PDF** from a Word doc
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/p/main-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
