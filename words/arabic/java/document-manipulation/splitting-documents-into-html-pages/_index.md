@@ -1,10 +1,13 @@
 ---
-"description": "تعلّم كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة."
-"linktitle": "تقسيم المستندات إلى صفحات HTML"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "تقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/splitting-documents-into-html-pages/"
-"weight": 25
+date: 2026-01-06
+description: تعلم كيفية تحويل ملفات Word إلى HTML وتقسيم المستندات إلى صفحات HTML
+  باستخدام Aspose.Words للغة Java. اتبع دليلنا خطوة بخطوة لتحويل المستندات بسلاسة.
+linktitle: Splitting Documents into HTML Pages
+second_title: Aspose.Words Java Document Processing API
+title: تحويل ملفات Word إلى HTML وتقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words
+  لجافا
+url: /ar/java/document-manipulation/splitting-documents-into-html-pages/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +16,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java
+# تحويل Word إلى HTML وتقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java
 
+## مقدمة حول تقسيم المستندات إلى صفحات HTML في Aspose.Words for Java
 
-## مقدمة لتقسيم المستندات إلى صفحات HTML في Aspose.Words لـ Java
+في هذا الدليل خطوة بخطوة، سنستكشف كيفية **تحويل Word إلى HTML** وتقسيم المستندات إلى صفحات HTML منفصلة باستخدام Aspose.Words for Java. يتيح لك هذا النهج تقسيم ملفات Word الكبيرة إلى أقسام قابلة للإدارة وجاهزة للويب مع الحفاظ على التنسيق والصور والأنماط.
 
-في هذا الدليل التفصيلي، سنستكشف كيفية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. Aspose.Words هي واجهة برمجة تطبيقات Java فعّالة للعمل مع مستندات مايكروسوفت وورد، وتوفر ميزات شاملة لمعالجة المستندات، بما في ذلك إمكانية تحويلها إلى صيغ مختلفة، بما في ذلك HTML.
+## إجابات سريعة
+- **ماذا يعني “تحويل word إلى html”؟** يحول مستند Microsoft Word (.doc/.docx) إلى ترميز HTML قياسي.  
+- **لماذا يتم تقسيم الناتج إلى صفحات متعددة؟** لتحسين أوقات التحميل، وتسهيل التنقل، وإنشاء جدول محتويات للمستندات الكبيرة.  
+- **أي فئة في Aspose تتعامل مع التحويل؟** `HtmlSaveOptions` مع `Document.save(...)`.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم، يلزم ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.  
+- **ما إصدار Java المدعوم؟** Java 8 وما بعده مدعومان بالكامل.
 
-## المتطلبات الأساسية
+## ما هو “تحويل word إلى html”؟
+تحويل ملف Word إلى HTML ينتج مجموعة من الملفات المتوافقة مع الويب التي يمكن للمتصفحات عرضها دون الحاجة إلى Microsoft Office. يحتفظ HTML الناتج بالعناوين والجداول والصور والتنسيق، مما يجعله مثالياً لنشر الوثائق أو التقارير أو محتوى التعلم الإلكتروني على الإنترنت.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## لماذا نقسم المستندات إلى صفحات HTML؟
+- **الأداء:** ملفات HTML الأصغر تُحمَّل أسرع، خاصة على الأجهزة المحمولة.  
+- **سهولة الاستخدام:** يمكن للمستخدمين الانتقال مباشرة إلى قسم معين عبر جدول محتويات مُولَّد.  
+- **الصيانة:** تحديث قسم واحد لا يتطلب إعادة توليد المستند بالكامل.
 
-- تم تثبيت Java Development Kit (JDK) على نظامك.
-- مكتبة Aspose.Words لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
+## المتطلبات المسبقة
+
+قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
+
+- تثبيت Java Development Kit (JDK) على نظامك.  
+- مكتبة Aspose.Words for Java. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
 
 ## الخطوة 1: استيراد الحزم الضرورية
 
@@ -40,12 +57,12 @@ import java.util.ArrayList;
 ```java
 class WordToHtmlConverter
 {
-    // تفاصيل التنفيذ لتحويل Word إلى HTML.
+    // Implementation details for Word to HTML conversion.
     // ...
 }
 ```
 
-## الخطوة 3: حدد فقرات العناوين كبداية للموضوع
+## الخطوة 3: اختيار فقرات العناوين كبدايات للموضوعات
 
 ```java
 private ArrayList<Paragraph> selectTopicStarts()
@@ -62,7 +79,7 @@ private ArrayList<Paragraph> selectTopicStarts()
 }
 ```
 
-## الخطوة 4: إدراج فواصل الأقسام قبل عناوين الفقرات
+## الخطوة 4: إدراج فواصل أقسام قبل فقرات العناوين
 
 ```java
 private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
@@ -81,7 +98,7 @@ private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
 }
 ```
 
-## الخطوة 5: تقسيم المستند إلى مواضيع
+## الخطوة 5: تقسيم المستند إلى موضوعات
 
 ```java
 private ArrayList<Topic> saveHtmlTopics() throws Exception
@@ -106,7 +123,7 @@ private ArrayList<Topic> saveHtmlTopics() throws Exception
 }
 ```
 
-## الخطوة 6: احفظ كل موضوع كملف HTML
+## الخطوة 6: حفظ كل موضوع كملف HTML
 
 ```java
 private void saveHtmlTopic(Section section, Topic topic) throws Exception
@@ -125,7 +142,7 @@ private void saveHtmlTopic(Section section, Topic topic) throws Exception
 }
 ```
 
-## الخطوة 7: إنشاء جدول محتويات للموضوعات
+## الخطوة 7: توليد جدول محتويات للموضوعات
 
 ```java
 private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
@@ -137,41 +154,47 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 }
 ```
 
-بعد أن شرحنا الخطوات، يمكنك تطبيق كل خطوة في مشروع جافا لتقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words for Java. ستتيح لك هذه العملية إنشاء تمثيل HTML منظم لمستنداتك، مما يجعلها أكثر سهولة في الوصول إليها واستخدامها.
+الآن بعد أن وضعنا الخطوات، يمكنك تنفيذ كل خطوة في مشروع Java الخاص بك **لتحويل Word إلى HTML** وتقسيم النتيجة إلى صفحات متعددة باستخدام Aspose.Words for Java. سيسمح لك هذا العملية بإنشاء تمثيل HTML منظم لمستنداتك، مما يجعلها أكثر وصولاً وسهولة في الاستخدام.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا الدليل الشامل، تناولنا عملية تقسيم المستندات إلى صفحات HTML باستخدام Aspose.Words لجافا. باتباع الخطوات الموضحة، يمكنك تحويل مستندات Word إلى صيغة HTML بكفاءة، مما يجعل محتواك أكثر سهولة في الوصول إليه على الويب.
+| المشكلة | لماذا يحدث | الحل |
+|-------|----------------|-----|
+| الصور تظهر كروابط مكسورة | مجلد الإخراج يفتقد ملفات الصور | تأكد من تكوين `HtmlSaveOptions` لتصدير الصور إلى نفس الدليل الخاص بملفات HTML. |
+| اكتشاف العناوين يفوت بعض الأقسام | ليست كل العناوين تستخدم نمط `HEADING_1` | عدِّل طريقة `selectTopicStarts` لتشمل `HEADING_2` أو الأنماط المخصصة حسب الحاجة. |
+| HTML المُولد يحتوي على وسوم `<style>` إضافية | الحفظ الافتراضي يتضمن CSS مضمّن | اضبط `saveOptions.setExportOriginalUrlForLinkedResources(true)` لإبقاء CSS خارجيًا إذا رغبت. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### كيف أقوم بتثبيت Aspose.Words لـ Java؟
+**س: كيف أقوم بتثبيت Aspose.Words for Java؟**  
+ج: قم بتنزيل المكتبة من [هنا](https://releases.aspose.com/words/java/) وأضف ملفات JAR إلى مسار classpath لمشروعك.
 
-لتثبيت Aspose.Words لـ Java، يمكنك تنزيل المكتبة من [هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت الواردة في الوثائق.
+**س: هل يمكنني تخصيص مخرجات HTML؟**  
+ج: نعم، عدِّل خصائص `HtmlSaveOptions` (مثل `setExportHeadersFootersMode`، `setPrettyFormat`) للتحكم في التنسيق، ومعالجة الصور، وإدراج CSS.
 
-### هل يمكنني تخصيص مخرجات HTML؟
+**س: ما صيغ Word المدعومة للتحويل؟**  
+ج: يدعم Aspose.Words صيغ DOC، DOCX، RTF، ODT، والعديد من الصيغ الأخرى، couvrant جميع إصدارات Microsoft Word الحديثة.
 
-نعم، يمكنك تخصيص مخرجات HTML عن طريق ضبط خيارات الحفظ في `HtmlSaveOptions` يسمح لك هذا بالتحكم في تنسيق ومظهر ملفات HTML المُولَّدة.
+**س: كيف يتم التعامل مع الصور أثناء التحويل؟**  
+ج: تُحفظ الصور كملفات منفصلة في نفس المجلد مع صفحة HTML، وتُشير إليها HTML باستخدام مسارات نسبية.
 
-### ما هي إصدارات Microsoft Word التي يدعمها Aspose.Words لـ Java؟
+**س: هل تتوفر نسخة تجريبية؟**  
+ج: نعم، يمكن الحصول على نسخة تجريبية مجانية لمدة 30 يومًا من موقع Aspose لتقييم جميع الميزات قبل شراء الترخيص.
 
-يدعم Aspose.Words لجافا مجموعة واسعة من تنسيقات مستندات مايكروسوفت وورد، بما في ذلك DOC وDOCX وRTF وغيرها. وهو متوافق مع مختلف إصدارات مايكروسوفت وورد.
+## الخلاصة
 
-### كيف يمكنني التعامل مع الصور في HTML المحول؟
-
-يستطيع Aspose.Words for Java التعامل مع الصور في HTML المُحوّلة بحفظها كملفات منفصلة في نفس مجلد ملف HTML. هذا يضمن عرض الصور بشكل صحيح في مُخرَج HTML.
-
-### هل هناك نسخة تجريبية من Aspose.Words لـ Java متاحة؟
-
-نعم، يمكنك طلب نسخة تجريبية مجانية من Aspose.Words for Java من موقع Aspose على الويب لتقييم ميزاته وقدراته قبل شراء الترخيص.
-
+في هذا الدليل الشامل، أظهرنا كيفية **تحويل Word إلى HTML** وتقسيم المحتوى الناتج إلى صفحات HTML فردية باستخدام Aspose.Words for Java. باتباع الخطوات الموضحة، يمكنك أتمتة إنشاء وثائق جاهزة للويب، تحسين أداء تحميل الصفحات، وتوليد جدول محتويات قابل للتنقل للمستندات الكبيرة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose

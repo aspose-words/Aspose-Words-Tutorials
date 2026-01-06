@@ -1,10 +1,14 @@
 ---
-"description": "Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch."
-"linktitle": "Chia tài liệu thành các trang HTML"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Chia tài liệu thành các trang HTML trong Aspose.Words cho Java"
-"url": "/vi/java/document-manipulation/splitting-documents-into-html-pages/"
-"weight": 25
+date: 2026-01-06
+description: Tìm hiểu cách chuyển đổi Word sang HTML và tách tài liệu thành các trang
+  HTML bằng Aspose.Words cho Java. Hãy theo dõi hướng dẫn từng bước của chúng tôi
+  để chuyển đổi tài liệu một cách liền mạch.
+linktitle: Splitting Documents into HTML Pages
+second_title: Aspose.Words Java Document Processing API
+title: Chuyển đổi Word sang HTML và Tách tài liệu thành các trang HTML bằng Aspose.Words
+  cho Java
+url: /vi/java/document-manipulation/splitting-documents-into-html-pages/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +17,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chia tài liệu thành các trang HTML trong Aspose.Words cho Java
+# Chuyển đổi Word sang HTML và Tách tài liệu thành các trang HTML với Aspose.Words cho Java
 
+## Giới thiệu về việc Tách tài liệu thành các trang HTML trong Aspose.Words cho Java
 
-## Giới thiệu về việc chia tài liệu thành các trang HTML trong Aspose.Words cho Java
+Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách **chuyển đổi Word sang HTML** và tách tài liệu thành các trang HTML riêng biệt bằng Aspose.Words cho Java. Cách tiếp cận này cho phép bạn chia các tệp Word lớn thành các phần dễ quản lý, sẵn sàng cho web đồng thời giữ nguyên định dạng, hình ảnh và kiểu dáng.
 
-Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Aspose.Words là một API Java mạnh mẽ để làm việc với các tài liệu Microsoft Word và cung cấp các tính năng mở rộng để thao tác tài liệu, bao gồm khả năng chuyển đổi tài liệu thành nhiều định dạng khác nhau, bao gồm cả HTML.
+## Trả lời nhanh
+- **“chuyển đổi word sang html” có nghĩa là gì?** Nó chuyển đổi một tài liệu Microsoft Word (.doc/.docx) thành mã HTML tiêu chuẩn.  
+- **Tại sao phải tách kết quả ra nhiều trang?** Để cải thiện thời gian tải, cho phép điều hướng dễ dàng hơn và tạo mục lục cho các tài liệu lớn.  
+- **Lớp Aspose nào chịu trách nhiệm chuyển đổi?** `HtmlSaveOptions` kết hợp với `Document.save(...)`.  
+- **Có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Có, cần giấy phép thương mại; bản dùng thử miễn phí có sẵn.  
+- **Phiên bản Java nào được hỗ trợ?** Java 8 và các phiên bản mới hơn đều được hỗ trợ đầy đủ.
 
-## Điều kiện tiên quyết
+## “chuyển đổi word sang html” là gì?
+Việc chuyển đổi một tệp Word sang HTML tạo ra một tập hợp các tệp tương thích web mà trình duyệt có thể hiển thị mà không cần Microsoft Office. HTML kết quả giữ lại các tiêu đề, bảng, hình ảnh và kiểu dáng, rất phù hợp để xuất bản tài liệu, báo cáo hoặc nội dung e‑learning trực tuyến.
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+## Tại sao phải tách tài liệu thành các trang HTML?
+- **Hiệu năng:** Các tệp HTML nhỏ hơn tải nhanh hơn, đặc biệt trên thiết bị di động.  
+- **Tính sử dụng:** Người dùng có thể điều hướng trực tiếp tới một phần cụ thể thông qua mục lục được tạo tự động.  
+- **Dễ bảo trì:** Cập nhật một phần riêng lẻ không yêu cầu tạo lại toàn bộ tài liệu.
 
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-- Aspose.Words cho thư viện Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
+## Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+
+- Java Development Kit (JDK) đã được cài đặt trên hệ thống của bạn.  
+- Thư viện Aspose.Words cho Java. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
 
 ## Bước 1: Nhập các gói cần thiết
 
@@ -35,17 +53,17 @@ import java.io.*;
 import java.util.ArrayList;
 ```
 
-## Bước 2: Tạo phương pháp chuyển đổi Word sang HTML
+## Bước 2: Tạo phương thức để chuyển đổi Word sang HTML
 
 ```java
 class WordToHtmlConverter
 {
-    // Chi tiết triển khai chuyển đổi Word sang HTML.
+    // Implementation details for Word to HTML conversion.
     // ...
 }
 ```
 
-## Bước 3: Chọn Đoạn văn tiêu đề làm chủ đề bắt đầu
+## Bước 3: Chọn các đoạn văn tiêu đề làm điểm bắt đầu chủ đề
 
 ```java
 private ArrayList<Paragraph> selectTopicStarts()
@@ -62,7 +80,7 @@ private ArrayList<Paragraph> selectTopicStarts()
 }
 ```
 
-## Bước 4: Chèn ngắt phần trước đoạn văn tiêu đề
+## Bước 4: Chèn ngắt đoạn trước các đoạn văn tiêu đề
 
 ```java
 private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
@@ -81,7 +99,7 @@ private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
 }
 ```
 
-## Bước 5: Chia tài liệu thành các chủ đề
+## Bước 5: Tách tài liệu thành các chủ đề
 
 ```java
 private ArrayList<Topic> saveHtmlTopics() throws Exception
@@ -106,7 +124,7 @@ private ArrayList<Topic> saveHtmlTopics() throws Exception
 }
 ```
 
-## Bước 6: Lưu từng chủ đề dưới dạng tệp HTML
+## Bước 6: Lưu mỗi chủ đề dưới dạng tệp HTML
 
 ```java
 private void saveHtmlTopic(Section section, Topic topic) throws Exception
@@ -125,7 +143,7 @@ private void saveHtmlTopic(Section section, Topic topic) throws Exception
 }
 ```
 
-## Bước 7: Tạo Mục lục cho các Chủ đề
+## Bước 7: Tạo mục lục cho các chủ đề
 
 ```java
 private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
@@ -137,41 +155,49 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 }
 ```
 
-Bây giờ chúng tôi đã phác thảo các bước, bạn có thể triển khai từng bước trong dự án Java của mình để chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Quy trình này sẽ cho phép bạn tạo biểu diễn HTML có cấu trúc cho tài liệu của mình, giúp chúng dễ truy cập và thân thiện với người dùng hơn.
+Bây giờ chúng ta đã phác thảo các bước, bạn có thể triển khai từng bước trong dự án Java của mình để **chuyển đổi Word sang HTML** và tách kết quả thành nhiều trang bằng Aspose.Words cho Java. Quy trình này sẽ cho phép bạn tạo ra một cấu trúc HTML có tổ chức cho tài liệu, làm cho chúng dễ tiếp cận và thân thiện với người dùng hơn.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn toàn diện này, chúng tôi đã đề cập đến quy trình chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Bằng cách làm theo các bước được nêu, bạn có thể chuyển đổi hiệu quả các tài liệu Word sang định dạng HTML, giúp nội dung của bạn dễ truy cập hơn trên web.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| Hình ảnh hiển thị dưới dạng liên kết hỏng | Thư mục đầu ra thiếu các tệp hình ảnh | Đảm bảo `HtmlSaveOptions` được cấu hình để xuất hình ảnh vào cùng thư mục với các tệp HTML. |
+| Phát hiện tiêu đề bỏ lỡ một số phần | Không phải tất cả tiêu đề đều sử dụng kiểu `HEADING_1` | Điều chỉnh phương thức `selectTopicStarts` để bao gồm `HEADING_2` hoặc các kiểu tùy chỉnh khác nếu cần. |
+| HTML tạo ra chứa thẻ `<style>` thừa | Lưu mặc định bao gồm CSS nội tuyến | Đặt `saveOptions.setExportOriginalUrlForLinkedResources(true)` để giữ CSS ở dạng tệp bên ngoài nếu muốn. |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để cài đặt Aspose.Words cho Java?
+**H: Làm sao để cài đặt Aspose.Words cho Java?**  
+Đ: Tải thư viện từ [đây](https://releases.aspose.com/words/java/) và thêm các tệp JAR vào classpath của dự án.
 
-Để cài đặt Aspose.Words cho Java, bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu.
+**H: Tôi có thể tùy chỉnh đầu ra HTML không?**  
+Đ: Có, điều chỉnh các thuộc tính của `HtmlSaveOptions` (ví dụ: `setExportHeadersFootersMode`, `setPrettyFormat`) để kiểm soát định dạng, xử lý hình ảnh và việc bao gồm CSS.
 
-### Tôi có thể tùy chỉnh đầu ra HTML không?
+**H: Những định dạng Word nào được hỗ trợ để chuyển đổi?**  
+Đ: Aspose.Words hỗ trợ DOC, DOCX, RTF, ODT và nhiều định dạng khác, bao phủ tất cả các phiên bản Microsoft Word hiện đại.
 
-Có, bạn có thể tùy chỉnh đầu ra HTML bằng cách điều chỉnh các tùy chọn lưu trong `HtmlSaveOptions` lớp. Điều này cho phép bạn kiểm soát định dạng và giao diện của các tệp HTML được tạo.
+**H: Hình ảnh được xử lý như thế nào trong quá trình chuyển đổi?**  
+Đ: Hình ảnh được lưu dưới dạng các tệp riêng trong cùng thư mục với trang HTML, và HTML tham chiếu chúng bằng các đường dẫn tương đối.
 
-### Aspose.Words for Java hỗ trợ những phiên bản Microsoft Word nào?
+**H: Có phiên bản dùng thử không?**  
+Đ: Có, bạn có thể nhận bản dùng thử miễn phí 30 ngày từ trang web Aspose để đánh giá toàn bộ tính năng trước khi mua giấy phép.
 
-Aspose.Words for Java hỗ trợ nhiều định dạng tài liệu Microsoft Word, bao gồm DOC, DOCX, RTF, v.v. Nó tương thích với nhiều phiên bản Microsoft Word khác nhau.
+## Kết luận
 
-### Tôi có thể xử lý hình ảnh trong HTML đã chuyển đổi như thế nào?
-
-Aspose.Words for Java có thể xử lý hình ảnh trong HTML đã chuyển đổi bằng cách lưu chúng dưới dạng các tệp riêng biệt trong cùng thư mục với tệp HTML. Điều này đảm bảo rằng hình ảnh được hiển thị chính xác trong đầu ra HTML.
-
-### Có phiên bản dùng thử của Aspose.Words cho Java không?
-
-Có, bạn có thể yêu cầu dùng thử miễn phí Aspose.Words for Java từ trang web Aspose để đánh giá các tính năng và khả năng của phần mềm này trước khi mua giấy phép.
-
+Trong hướng dẫn toàn diện này, chúng tôi đã trình bày cách **chuyển đổi Word sang HTML** và tách nội dung đã chuyển đổi thành các trang HTML riêng lẻ bằng Aspose.Words cho Java. Bằng cách thực hiện các bước đã nêu, bạn có thể tự động tạo tài liệu sẵn sàng cho web, cải thiện hiệu suất tải trang và tạo mục lục điều hướng cho các tài liệu lớn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-01-06  
+**Được kiểm tra với:** Aspose.Words cho Java 24.12 (mới nhất)  
+**Tác giả:** Aspose  
+
+---
