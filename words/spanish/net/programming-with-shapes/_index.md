@@ -33,7 +33,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | [Anclaje vertical](./vertical-anchor/) Aprenda a establecer posiciones de anclaje verticales para cuadros de texto en documentos de Word con Aspose.Words para .NET. Incluye una sencilla guía paso a paso.
 | [Detectar formas de arte inteligentes](./detect-smart-art-shape/) Aprenda a detectar formas SmartArt en documentos de Word con Aspose.Words para .NET con esta guía completa. Ideal para automatizar el flujo de trabajo de sus documentos.
 | [Actualizar Smart Art Drawing](./update-smart-art-drawing/) Aprenda a actualizar dibujos Smart Art en documentos de Word con Aspose.Words para .NET con esta guía paso a paso. Asegúrese de que sus imágenes sean siempre precisas.
-
+| [Cómo agregar sombra a una forma de Word usando Aspose.Words – Guía paso a paso](./how-to-add-shadow-to-a-word-shape-using-aspose-words-step-by/) Aprenda a agregar sombra a una forma en documentos de Word usando Aspose.Words para .NET. Siga esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

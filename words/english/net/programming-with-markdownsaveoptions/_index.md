@@ -28,6 +28,9 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Learn how to create accessible PDFs and convert Word documents to Markdown using Aspose.Words in C#. |
 | [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [Convert docx to markdown – Step‑by‑Step C# Guide](./convert-docx-to-markdown-step-by-step-c-guide/) | Learn how to convert DOCX files to Markdown in C# with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [save docx as markdown – how to convert Word to Markdown with Aspose.Words](./save-docx-as-markdown-how-to-convert-word-to-markdown-with-a/) | Learn how to convert DOCX files to Markdown using Aspose.Words for .NET with a simple step-by-step guide. |
+| [How to Save Markdown from Word – Step‑by‑Step Guide](./how-to-save-markdown-from-word-step-by-step-guide/) | Learn how to save Markdown from Word documents using Aspose.Words for .NET with a clear step‑by‑step guide. |
+| [Save docx as markdown in C# – Complete Programming Guide](./save-docx-as-markdown-in-c-complete-programming-guide/) | Learn how to convert DOCX to Markdown in C# with a complete programming guide using Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

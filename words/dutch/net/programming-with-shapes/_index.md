@@ -32,7 +32,8 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Ontvang werkelijke vormgrenspunten](./get-actual-shape-bounds-points/) | Ontdek hoe u de werkelijke vormgrenspunten in Word-documenten kunt bepalen met Aspose.Words voor .NET. Leer nauwkeurig vormmanipuleren met deze gedetailleerde handleiding. |
 | [Verticale anker](./vertical-anchor/) | Leer hoe u verticale ankerposities voor tekstvakken in Word-documenten instelt met Aspose.Words voor .NET. Inclusief eenvoudige stapsgewijze handleiding.|
 | [Detecteer slimme kunstvorm](./detect-smart-art-shape/) | Leer hoe u SmartArt-vormen in Word-documenten kunt detecteren met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor het automatiseren van uw documentworkflow. |
-| [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
+| [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten bijwerkt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
+| [Hoe schaduw toe te voegen aan een Word-vorm met Aspose.Words – Stapsgewijze handleiding](./how-to-add-shadow-to-a-word-shape-using-aspose-words-step-by/) | Leer hoe u schaduw toevoegt aan vormen in Word-documenten met Aspose.Words in een eenvoudige stap‑voor‑stap handleiding. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -33,7 +33,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [수직 앵커](./vertical-anchor/) | Aspose.Words for .NET을 사용하여 Word 문서의 텍스트 상자에 세로 앵커 위치를 설정하는 방법을 알아보세요. 간단한 단계별 가이드가 포함되어 있습니다.|
 | [스마트 아트 모양 감지](./detect-smart-art-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에서 SmartArt 도형을 감지하는 방법을 이 포괄적인 가이드를 통해 알아보세요. 문서 워크플로 자동화에 매우 유용합니다. |
 | [스마트 아트 드로잉 업데이트](./update-smart-art-drawing/) | Aspose.Words for .NET을 사용하여 Word 문서의 Smart Art 그림을 업데이트하는 방법을 단계별 가이드를 통해 알아보세요. 시각적 표현이 항상 정확한지 확인하세요. |
-
+| [Aspose.Words를 사용하여 Word 도형에 그림자 추가하기 – 단계별 가이드](./how-to-add-shadow-to-a-word-shape-using-aspose-words-step-by/) | Aspose.Words를 사용해 Word 도형에 그림자를 적용하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

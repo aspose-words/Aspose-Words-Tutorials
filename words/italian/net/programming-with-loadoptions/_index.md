@@ -32,7 +32,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Salta le immagini PDF](./skip-pdf-images/) | Scopri come ignorare le immagini durante il caricamento di documenti PDF utilizzando Aspose.Words per .NET. Segui questa guida passo passo per un'estrazione di testo impeccabile. |
 | [Convertire Metafile in PNG](./convert-metafiles-to-png/) | Converti facilmente i metafile in PNG nei documenti Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Semplifica la gestione dei tuoi documenti. |
 | [Carica file CHM nel documento Word](./load-chm/) | Carica facilmente file CHM in documenti Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Perfetto per consolidare la tua documentazione tecnica. |
-
+| [Recupera docx danneggiato con Aspose Load Options – Guida completa](./recover-corrupted-docx-with-aspose-load-options-complete-gui/) | Scopri come recuperare file DOCX corrotti usando Aspose Load Options con esempi passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

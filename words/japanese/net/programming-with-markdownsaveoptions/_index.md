@@ -27,6 +27,9 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [アクセシブルPDFを作成し、WordをMarkdownに変換する – 完全C#ガイド](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) Aspose.Words for .NET を使用して、アクセシブルなPDFを生成し、Word文書をMarkdownに変換する手順を詳しく解説します。 |
 | [Markdownの使い方：LaTeX数式付きDOCXをMarkdownに変換](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) Aspose.Words for .NET を使用して、LaTeX数式を含むDOCX文書をMarkdownに変換する方法を学びましょう。ステップバイステップガイドです。 |
 | [docx を Markdown に変換 – ステップバイステップ C# ガイド](./convert-docx-to-markdown-step-by-step-c-guide/) Aspose.Words for .NET を使用して、docx ファイルを Markdown に変換する手順をステップバイステップで解説します。 |
+| [docx を Markdown に保存 – Aspose.Words を使用した Word から Markdown への変換方法](./save-docx-as-markdown-how-to-convert-word-to-markdown-with-a/) Aspose.Words for .NET を使って、docx ファイルを Markdown に変換し、保存する手順をステップバイステップで解説します。 |
+| [Word から Markdown を保存する方法 – ステップバイステップガイド](./how-to-save-markdown-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown 形式で保存する手順をステップバイステップで解説します。 |
+| [C# で docx を Markdown に保存 – 完全プログラミングガイド](./save-docx-as-markdown-in-c-complete-programming-guide/) Aspose.Words for .NET を使用して、docx ファイルを Markdown に変換し、保存する完全なプログラミングガイドです。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

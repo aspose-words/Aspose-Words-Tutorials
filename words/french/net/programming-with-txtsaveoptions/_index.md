@@ -27,6 +27,7 @@ Grâce à ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités 
 | [Ajouter des marques Bidi dans un document Word](./add-bidi-marks/) | Découvrez comment ajouter des marques bidirectionnelles (Bidi) dans vos documents Word avec Aspose.Words pour .NET grâce à ce guide. Assurez un sens de texte correct pour les contenus multilingues. |
 | [Utiliser le caractère de tabulation par niveau pour l'indentation de la liste](./use-tab-character-per-level-for-list-indentation/) | Apprenez à créer des listes à plusieurs niveaux avec indentation tabulée avec Aspose.Words pour .NET. Suivez ce guide pour une mise en forme précise des listes dans vos documents. |
 | [Utiliser un caractère d'espace par niveau pour l'indentation de la liste](./use-space-character-per-level-for-list-indentation/) | Apprenez à créer des listes à plusieurs niveaux avec indentation par espace dans Aspose.Words pour .NET. Guide étape par étape pour une mise en forme précise des documents. |
+| [Enregistrer un docx au format txt – Guide complet C#](./save-docx-as-txt-complete-c-guide/) | Apprenez à convertir des fichiers DOCX en texte brut avec Aspose.Words pour .NET en suivant ce guide complet en C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

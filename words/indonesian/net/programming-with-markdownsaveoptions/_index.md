@@ -31,6 +31,12 @@ Pelajari cara membuat PDF yang dapat diakses dan mengonversi dokumen Word ke Mar
 Pelajari cara mengonversi dokumen DOCX ke Markdown dengan persamaan LaTeX menggunakan Aspose.Words untuk .NET.
 ### [Konversi docx ke markdown – Panduan Langkah‑demi‑Langkah C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 Pelajari cara mengonversi file DOCX ke format Markdown dengan panduan langkah demi langkah menggunakan C#.
+### [Simpan docx sebagai markdown – cara mengonversi Word ke Markdown dengan Aspose.Words](./save-docx-as-markdown-how-to-convert-word-to-markdown-with-a/)
+Pelajari cara mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk .NET.
+### [Cara Menyimpan Markdown dari Word – Panduan Langkah‑demi‑Langkah](./how-to-save-markdown-from-word-step-by-step-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan panduan langkah demi langkah menggunakan Aspose.Words untuk .NET.
+### [Simpan docx sebagai markdown dalam C# – Panduan Pemrograman Lengkap](./save-docx-as-markdown-in-c-complete-programming-guide/)
+Pelajari cara menyimpan file docx sebagai markdown menggunakan C# dengan panduan pemrograman lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,12 @@
 
 ### [تحويل docx إلى markdown – دليل خطوة بخطوة C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [حفظ docx كـ markdown – كيفية تحويل Word إلى Markdown باستخدام Aspose.Words](./save-docx-as-markdown-how-to-convert-word-to-markdown-with-a/)
+
+### [كيفية حفظ Markdown من Word – دليل خطوة بخطوة](./how-to-save-markdown-from-word-step-by-step-guide/)
+
+### [حفظ docx كـ markdown في C# – دليل برمجة كامل](./save-docx-as-markdown-in-c-complete-programming-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

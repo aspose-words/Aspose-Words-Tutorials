@@ -33,7 +33,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Dikey Çapa](./vertical-anchor/) | Aspose.Words for .NET kullanarak Word belgelerindeki metin kutuları için dikey bağlantı konumlarının nasıl ayarlanacağını öğrenin. Kolay adım adım kılavuz dahildir.
 | [Akıllı Sanat Şeklini Algıla](./detect-smart-art-shape/) | Bu kapsamlı kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde SmartArt şekillerini nasıl algılayacağınızı öğrenin. Belge iş akışınızı otomatikleştirmek için mükemmeldir. |
 | [Akıllı Sanat Çizimini Güncelle](./update-smart-art-drawing/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki Smart Art çizimlerini nasıl güncelleyeceğinizi öğrenin. Görsellerinizin her zaman doğru olduğundan emin olun. |
-
+| [Aspose.Words ile Word şekline gölge ekleme – Adım adım kılavuz](./how-to-add-shadow-to-a-word-shape-using-aspose-words-step-by/) | Aspose.Words for .NET ile Word belgelerindeki şekillere gölge eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

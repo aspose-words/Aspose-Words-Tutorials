@@ -27,6 +27,9 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Vytvořte přístupný PDF a převod Wordu do Markdownu – Kompletní průvodce v C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Kompletní průvodce v C# pro vytvoření přístupného PDF a konverzi Wordu do Markdownu. |
 | [Jak používat Markdown: převod DOCX do Markdownu s rovnicemi LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Naučte se převádět soubory DOCX do Markdownu a zachovat rovnice LaTeX pomocí Aspose.Words pro .NET. |
 | [Převod DOCX do Markdown – krok za krokem průvodce v C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Naučte se převádět soubory DOCX do formátu Markdown pomocí Aspose.Words pro .NET v podrobném průvodci krok za krokem. |
+| [Uložte DOCX jako Markdown – jak převést Word do Markdownu pomocí Aspose.Words](./save-docx-as-markdown-how-to-convert-word-to-markdown-with-a/) | Naučte se, jak pomocí Aspose.Words převést soubory DOCX do formátu Markdown v C#. |
+| [Jak uložit Markdown z Wordu – krok za krokem průvodce](./how-to-save-markdown-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do formátu Markdown krok za krokem. |
+| [Uložte docx jako markdown v C# – Kompletní programovací průvodce](./save-docx-as-markdown-in-c-complete-programming-guide/) | Kompletní průvodce v C# pro převod souborů DOCX do formátu Markdown pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

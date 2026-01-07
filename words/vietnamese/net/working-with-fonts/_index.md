@@ -48,7 +48,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Nhận thông báo cảnh báo](./receive-warning-notification/) Tìm hiểu cách nhận thông báo cảnh báo khi sử dụng Aspose.Words cho .NET và quản lý mọi sự cố hoặc cảnh báo trong tài liệu của bạn. |
 | [Nguồn Phông chữ Steam Ví dụ](./resource-steam-font-source-example/) | Tìm hiểu cách sử dụng Resource Stream Font Source để tải phông chữ tùy chỉnh vào Aspose.Words cho .NET. |
 | [Nhận thay thế không có hậu tố](./get-substitution-without-suffixes/) | Trong hướng dẫn này, hãy tìm hiểu cách ghi đè không có hậu tố trong tài liệu Word bằng Aspose.Words cho .NET. |
-
+| [Cách nhận cảnh báo trong Aspose.Words – Giám sát phông chữ trong C#](./how-to-get-warnings-in-aspose-words-monitor-fonts-in-c/) | Tìm hiểu cách nhận các cảnh báo về phông chữ khi sử dụng Aspose.Words cho .NET trong C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

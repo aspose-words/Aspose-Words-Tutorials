@@ -27,12 +27,12 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
 | [Converter Forma em Matemática de Escritório](./convert-shape-to-office-math/) | Aprenda a converter formas para o Office Math em documentos do Word usando o Aspose.Words para .NET com nosso guia. Aprimore a formatação do seu documento sem esforço. |
 | [Definir versão do Ms Word](./set-ms-word-version/) | Aprenda a definir versões do MS Word usando o Aspose.Words para .NET com nosso guia detalhado. Perfeito para desenvolvedores que buscam otimizar a manipulação de documentos. |
 | [Usar pasta temporária em documento do Word](./use-temp-folder/) | Aprenda como melhorar o desempenho dos seus aplicativos .NET usando uma pasta temporária ao carregar documentos do Word com o Aspose.Words. |
-| [Aviso de retorno de chamada em documento do Word](./warning-callback/) Aprenda a detectar e lidar com avisos em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo. Garanta um processamento robusto de documentos. |
+| [Aviso de retorno de chamada em documento do Word](./warning-callback/) Aprenda a detectar e lidar com avisos em documentos do Word usando o Aspove.Words para .NET com nosso guia passo a passo. Garanta um processamento robusto de documentos. |
 | [Carregar com codificação em documento do Word](./load-with-encoding/) | Aprenda a carregar um documento do Word com codificação específica usando o Aspose.Words para .NET. Guia passo a passo com explicações detalhadas. |
 | [Pular imagens em PDF](./skip-pdf-images/) | Aprenda como pular imagens ao carregar documentos PDF usando o Aspose.Words para .NET. Siga este guia passo a passo para uma extração de texto perfeita. |
 | [Converter Metafiles para PNG](./convert-metafiles-to-png/) | Converta facilmente metarquivos para PNG em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. Simplifique seu gerenciamento de documentos. |
 | [Carregar arquivos CHM em um documento do Word](./load-chm/) | Carregue facilmente arquivos CHM em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. Perfeito para consolidar sua documentação técnica. |
-
+| [Recuperar docx corrompido com Aspose Load Options – Guia Completo](./recover-corrupted-docx-with-aspose-load-options-complete-gui/) | Aprenda a recuperar arquivos DOCX corrompidos usando Aspose Load Options com este guia passo a passo detalhado. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

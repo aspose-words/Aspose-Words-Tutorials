@@ -32,7 +32,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Pdf képek kihagyása](./skip-pdf-images/) | Ismerje meg, hogyan hagyhatja ki a képeket PDF dokumentumok betöltésekor az Aspose.Words for .NET használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes szövegkinyeréshez. |
 | [Metafájlok konvertálása png-vé](./convert-metafiles-to-png/) | Könnyedén konvertálhat metafájlokat PNG formátumba Word dokumentumokban az Aspose.Words for .NET segítségével ezzel a lépésről lépésre bemutató útmutatóval. Egyszerűsítse dokumentumkezelését. |
 | [CHM fájlok betöltése Word dokumentumba](./load-chm/) | Ezzel a lépésről lépésre haladó útmutatóval könnyedén betölthet CHM fájlokat Word dokumentumokba az Aspose.Words for .NET segítségével. Tökéletes a műszaki dokumentáció összevonásához. |
-
+| [Sérült docx helyreállítása Aspose Load Options segítségével – Teljes útmutató](./recover-corrupted-docx-with-aspose-load-options-complete-gui/) | Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat az Aspose Load Options használatával lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

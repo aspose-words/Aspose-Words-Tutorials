@@ -27,6 +27,7 @@ Dank dieser Tutorials können Sie die Funktionalitäten von Aspose.Words für .N
 | [Bidi-Markierungen in Word-Dokumente einfügen](./add-bidi-marks/) | Erfahren Sie in dieser Anleitung, wie Sie mit Aspose.Words für .NET bidirektionale (Bidi) Markierungen in Word-Dokumenten hinzufügen. Stellen Sie die korrekte Textrichtung für mehrsprachige Inhalte sicher. |
 | [Tabulatorzeichen pro Ebene für Listeneinrückung verwenden](./use-tab-character-per-level-for-list-indentation/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET mehrstufige Listen mit Tabulatoreinrückung erstellen. Folgen Sie dieser Anleitung für eine präzise Listenformatierung in Ihren Dokumenten. |
 | [Leerzeichen pro Ebene für Listeneinrückung verwenden](./use-space-character-per-level-for-list-indentation/) | Erfahren Sie, wie Sie in Aspose.Words für .NET mehrstufige Listen mit Leerzeicheneinrückung erstellen. Schritt-für-Schritt-Anleitung zur präzisen Dokumentformatierung. |
+| [DOCX als TXT speichern – Vollständiger C#-Leitfaden](./save-docx-as-txt-complete-c-guide/) | Erfahren Sie, wie Sie ein DOCX-Dokument vollständig in eine TXT-Datei konvertieren, inklusive aller Optionen, mit C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

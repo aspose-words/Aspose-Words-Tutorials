@@ -45,7 +45,7 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF](./update-last-printed-property/) | Dowiedz się, jak zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Renderuj efekty 3D DML 3DEffects w dokumencie PDF](./dml-3deffects-rendering/) | Dowiedz się, jak renderować niesamowite efekty 3D DML w dokumentach PDF za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |
 | [Interpolacja obrazów w dokumencie PDF](./interpolate-images/) | Dowiedz się, jak interpolować obrazy w dokumencie PDF za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Łatwo popraw jakość obrazu w swoim pliku PDF. |
-
+| [Utwórz dostępny PDF z Word – Kompletny przewodnik programistyczny](./create-accessible-pdf-from-word-complete-programming-guide/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word, spełniający standardy dostępności, korzystając z Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

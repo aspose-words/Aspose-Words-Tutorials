@@ -33,7 +33,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Vertikalt ankare](./vertical-anchor/) | Lär dig hur du ställer in vertikala ankarpositioner för textrutor i Word-dokument med Aspose.Words för .NET. Enkel steg-för-steg-guide ingår.
 | [Identifiera smart konstform](./detect-smart-art-shape/) | Lär dig hur du identifierar SmartArt-former i Word-dokument med Aspose.Words för .NET med den här omfattande guiden. Perfekt för att automatisera ditt dokumentarbetsflöde. |
 | [Uppdatera Smart Art-teckning](./update-smart-art-drawing/) | Lär dig hur du uppdaterar Smart Art-ritningar i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Se till att dina bilder alltid är korrekta. |
-
+| [Lägg till skugga på en Word-form med Aspose.Words – steg‑för‑steg‑guide](./how-to-add-shadow-to-a-word-shape-using-aspose-words-step-by/) | Lär dig hur du lägger till skuggeffekter på former i Word-dokument med Aspose.Words för .NET i denna steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
