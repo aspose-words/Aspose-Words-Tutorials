@@ -5,7 +5,9 @@
 "url": "/zh/python-net/ai-content-transformation/ai-summarization-translation-aspose-openai-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 如何在 Python 中使用 Aspose.Words 和 OpenAI 实现 AI 摘要和翻译
 
 在当今快节奏的世界中，高效处理大量文本至关重要。无论您是要汇总冗长的报告，还是将文档翻译成不同的语言，自动化都能节省时间和精力。本教程将指导您使用 Aspose.Words for Python 以及 OpenAI 的 AI 模型来执行 AI 摘要和翻译。
@@ -212,3 +214,7 @@ Aspose.Words for Python 允许您以编程方式处理 Word 文档。开始使�
 - 《AI摘要Python》
 - “Aspose.Words 翻译”
 - “OpenAI文档处理”
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

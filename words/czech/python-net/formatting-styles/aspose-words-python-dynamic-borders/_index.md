@@ -5,7 +5,9 @@
 "url": "/cs/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Dynamické ohraničení dokumentů s Aspose.Words pro Python
 
 ## Zavedení
@@ -267,3 +269,7 @@ Zvažte integraci Aspose.Words s dalšími nástroji pro zpracování dat a zís
 
 ## Závěr
 Zvládnutím těchto technik s Aspose.Words pro Python můžete vytvářet profesionálně vypadající dokumenty s dynamickými okraji. Tato příručka poskytuje pevný základ pro další zkoumání možností knihovny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

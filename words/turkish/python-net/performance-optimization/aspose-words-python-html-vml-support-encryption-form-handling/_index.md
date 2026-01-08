@@ -5,7 +5,9 @@
 "url": "/tr/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words for Python ile HTML Optimizasyonunda Ustalaşma: VML Desteği, Şifreleme ve Form İşleme
 
 ## giriiş
@@ -199,3 +201,7 @@ Artık Aspose.Words for Python'un HTML belgelerinde VML desteği, şifreleme ve 
 
 **S: VML öğeleri içeren büyük HTML dosyalarını nasıl işlerim?**
 A: Kaynak kullanımını verimli bir şekilde yönetmek için toplu işleme ve seçici yüklemeyi kullanın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/cs/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Zvládnutí Aspose.Words pro Python: Registrace a odregistrace slovníku spojovníků
 
 ## Zavedení
@@ -173,3 +175,7 @@ Pro podrobnější odpovědi se podívejte na [Fórum Aspose](https://forum.aspo
 - **Nákup:** [Koupit licenci Aspose.Words](https://purchase.aspose.com/buy)
 - **Bezplatná zkušební verze:** [Začněte s bezplatnou zkušební verzí](https://releases.aspose.com/words/python/)
 - **Dočasná licence:** [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

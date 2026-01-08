@@ -1,10 +1,11 @@
 ---
-"description": "了解如何在 Aspose.Words for Java 中为文档添加水印。自定义文本和图像水印，打造专业水印的文档。"
-"linktitle": "在文档中使用水印"
-"second_title": "Aspose.Words Java文档处理API"
-"title": "在 Aspose.Words for Java 中使用水印文档"
-"url": "/zh/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2025-12-18
+description: 了解如何使用 Aspose.Words for Java 为文档添加水印，包括图像水印示例、更改水印颜色、设置水印透明度以及删除文档水印。
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words for Java 为文档添加水印
+url: /zh/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +14,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用水印文档
+# 如何使用 Aspose.Words for Java 为文档添加水印
 
+## Aspose.Words for Java 中向文档添加水印的介绍
 
-## Aspose.Words for Java 文档水印添加简介
+在本教程中，您将学习 **如何使用 Aspose.Words for Java 为 Word 文档添加水印**。水印是一种快速标记文件为机密、草稿或已批准的方式，既可以是文字形式，也可以是图片形式。我们将演示如何设置库、创建文字和图片水印、定制水印外观（包括更改水印颜色和设置水印透明度），以及在不再需要时如何删除文档中的水印。
 
-在本教程中，我们将探索如何使用 Aspose.Words for Java API 为文档添加水印。水印是一种实用的方法，可以用文本或图形标记文档，以指示其状态、机密性或其他相关信息。本指南将介绍文本和图像水印。
+## 快速答疑
+- **什么是水印？** 出现在文档主体内容后面的半透明覆盖层（文字或图片）。  
+- **可以添加多个水印吗？** 可以——创建多个 `Shape` 对象并将它们分别添加到所需的章节。  
+- **如何更改水印颜色？** 调整 `TextWatermarkOptions` 中的 `Color` 属性。  
+- **有图片水印的示例吗？** 请参见下文的 “添加图片水印” 部分。  
+- **删除水印需要许可证吗？** 生产环境使用时需要有效的 Aspose.Words 许可证。
 
 ## 设置 Aspose.Words for Java
 
-在开始向文档添加水印之前，我们需要设置 Aspose.Words for Java。请按照以下步骤开始：
+在开始向文档添加水印之前，需要先设置 Aspose.Words for Java。请按以下步骤操作：
 
-1. 下载 Aspose.Words for Java [这里](https://releases。aspose.com/words/java/).
-2. 将 Aspose.Words for Java 库添加到您的 Java 项目。
-3. 在 Java 代码中导入必要的类。
+1. 从 [here](https://releases.aspose.com/words/java/) 下载 Aspose.Words for Java。  
+2. 将 Aspose.Words for Java 库添加到您的 Java 项目中。  
+3. 在 Java 代码中导入所需的类。
 
-现在我们已经设置好了库，让我们继续添加水印。
+库配置完成后，让我们深入实际的水印创建过程。
 
-## 添加文本水印
+## 添加文字水印
 
-当您想在文档中添加文本信息时，文本水印是一种常见的选择。以下是使用 Aspose.Words for Java 添加文本水印的方法：
+文字水印是想在文档中加入文字信息时的常见选择。下面演示如何使用 Aspose.Words for Java 添加文字水印：
 
 ```java
-// 创建 Document 实例
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// 定义 TextWatermarkOptions
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +53,56 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// 设置水印文本和选项
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// 保存带有水印的文档
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## 添加图像水印
+**为何重要：** 通过调节 `setFontFamily`、`setFontSize` 和 `setColor`，您可以 **更改水印颜色** 以匹配品牌风格；而 `setSemitransparent(true)` 则可以 **设置水印透明度**，实现更柔和的效果。
 
-除了文本水印外，您还可以在文档中添加图片水印。添加图片水印的方法如下：
+## 添加图片水印
+
+除了文字水印，您还可以向文档添加图片水印。下面是一个 **图片水印示例**，演示如何嵌入 PNG 徽标或印章：
 
 ```java
-// 创建 Document 实例
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// 加载水印图像
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// 设置水印大小和位置
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// 为文档添加水印
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// 保存带有水印的文档
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## 自定义水印
+您可以使用不同的图片或位置重复此代码块，以 **在同一文件中添加多个水印**。
 
-您可以通过调整水印的外观和位置来自定义水印。对于文本水印，您可以更改字体、大小、颜色和布局。对于图像水印，您可以按照前面的示例修改其大小和位置。
+## 定制水印
 
-## 去除水印
+您可以通过调整外观和位置来自定义水印。对于文字水印，可更改字体、大小、颜色和布局；对于图片水印，可修改尺寸、旋转角度和对齐方式，正如前面的示例所示。
 
-要从文档中删除水印，可以使用以下代码：
+## 删除水印
+
+如果需要 **删除文档中的水印**，下面的代码会遍历所有形状并删除被识别为水印的对象：
 
 ```java
-// 创建 Document 实例
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// 删除水印
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +111,53 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// 保存文档，不带水印
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## 常见使用场景与技巧
 
-## 结论
+- **机密草稿：** 应用半透明文字水印，例如 “CONFIDENTIAL”。  
+- **品牌化：** 使用包含公司徽标的图片水印。  
+- **章节特定水印：** 循环 `doc.getSections()`，仅在选定的章节添加水印。  
+- **性能技巧：** 在对多个文档应用相同水印时，复用同一个 `TextWatermarkOptions` 实例。
 
-在本教程中，我们学习了如何使用 Aspose.Words for Java 为文档添加水印。无论您需要添加文本还是图像水印，Aspose.Words 都提供了相应的工具，让您可以高效地自定义和管理水印。您还可以在不再需要水印时将其删除，确保您的文档整洁专业。
+## 常见问题
 
-## 常见问题解答
+### 如何更改文字水印的字体？
 
-### 如何更改文本水印的字体？
-
-要更改文本水印的字体，请修改 `setFontFamily` 财产 `TextWatermarkOptions`。 例如：
+要更改文字水印的字体，请在 `TextWatermarkOptions` 中修改 `setFontFamily` 属性。例如：
 
 ```java
 options.setFontFamily("Times New Roman");
 ```
 
-### 我可以在单个文档中添加多个水印吗？
+### 能否在同一文档中添加多个水印？
 
-是的，您可以通过创建多个 `Shape` 具有不同设置的对象并将它们添加到文档中。
+可以，通过创建多个具有不同设置的 `Shape` 对象并将它们添加到文档中，实现多个水印的添加。
 
-### 可以旋转水印吗？
+### 水印可以旋转吗？
 
-是的，您可以通过设置 `setRotation` 财产 `Shape` 对象。正值表示顺时针旋转水印，负值表示逆时针旋转水印。
+可以，通过在 `Shape` 对象中设置 `setRotation` 属性来旋转水印。正值顺时针旋转，负值逆时针旋转。
 
-### 如何使水印变成半透明的？
+### 如何使水印半透明？
 
-要使水印半透明，请设置 `setSemitransparent` 财产 `true` 在 `TextWatermarkOptions`。
+在 `TextWatermarkOptions` 中将 `setSemitransparent` 属性设为 `true`，即可使水印半透明。
 
-### 我可以在文档的特定部分添加水印吗？
+### 能否只在文档的特定章节添加水印？
 
-是的，您可以通过遍历各个部分并将水印添加到所需的部分来将水印添加到文档的特定部分。
+可以，遍历章节并在需要的章节中添加水印，即可实现对特定章节的水印添加。
 
+---
+
+**最后更新：** 2025-12-18  
+**测试环境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

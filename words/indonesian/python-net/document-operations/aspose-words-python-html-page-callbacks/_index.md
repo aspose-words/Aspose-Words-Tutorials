@@ -5,7 +5,9 @@
 "url": "/id/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Menerapkan Panggilan Balik Simpan Halaman HTML Kustom dalam Python dengan Aspose.Words
 
 ## Perkenalan
@@ -149,3 +151,7 @@ A5: Bergabunglah dengan [Forum Aspose](https://forum.aspose.com/c/words/10) untu
 - **Mendukung**:Kunjungi [Forum Aspose](https://forum.aspose.com/c/words/10) untuk pertanyaan dan dukungan komunitas.
 
 Pelajari Aspose.Words untuk Python hari ini dan buka kemungkinan baru dalam pemrosesan dokumen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/fr/python-net/tables-lists/master-aspose-words-python-bookmarks-table-columns/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser Aspose.Words en Python : insérer, supprimer et gérer efficacement les signets et les colonnes de tableau
 ## Introduction
 Gérer efficacement les signets et travailler avec les colonnes de tableau peut considérablement améliorer vos tâches de traitement de documents grâce à la bibliothèque Aspose.Words de Python. Ce tutoriel vous guidera pour insérer et supprimer efficacement des signets, comprendre les signets des colonnes de tableau, explorer des cas d'utilisation pratiques et prendre en compte les aspects de performance.
@@ -140,3 +142,7 @@ Maîtriser l'insertion, la suppression et la gestion des signets avec Aspose.Wor
    - Oui, Aspose.Words prend en charge plusieurs formats, notamment DOCX et PDF.
 3. **Quelles sont les limites des signets de colonnes de tableau ?**
    - Ils ne peuvent être utilisés que dans des tableaux comportant des lignes et des colonnes clairement définies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

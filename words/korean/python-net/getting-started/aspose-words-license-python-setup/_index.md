@@ -5,7 +5,9 @@
 "url": "/ko/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 파일이나 스트림을 사용하여 Python에서 Aspose.Words 라이선스를 설정하는 방법
 
 ## 소개
@@ -197,3 +199,7 @@ Python에서 Aspose.Words를 사용할 때:
 - [지원 포럼](https://forum.aspose.com/c/words/10)
 
 이 가이드를 통해 Python 애플리케이션에서 Aspose.Words를 효과적으로 활용하는 방법을 익힐 수 있습니다. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

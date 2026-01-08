@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/mail-merge-reporting/aspose-words-python-form-fields-manipulation-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 增強 Python 專案：使用 Aspose.Words 掌握表單欄位操作
 
 ## 介紹
@@ -258,3 +260,7 @@ doc.save（file_name =「您的文件目錄/FormFields.ManageDropDownItems.html�
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

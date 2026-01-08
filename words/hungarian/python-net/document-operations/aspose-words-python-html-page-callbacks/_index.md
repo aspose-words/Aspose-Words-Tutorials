@@ -5,7 +5,9 @@
 "url": "/hu/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Egyéni HTML oldalmentési visszahívások megvalósítása Pythonban az Aspose.Words segítségével
 
 ## Bevezetés
@@ -149,3 +151,7 @@ A5: Csatlakozz a [Aspose fórum](https://forum.aspose.com/c/words/10) kérdések
 - **Támogatás**Látogassa meg a [Aspose Fórum](https://forum.aspose.com/c/words/10) kérdésekért és a közösség támogatásáért.
 
 Merülj el az Aspose.Words Pythonhoz készült verziójában még ma, és tárj fel új lehetőségeket a dokumentumfeldolgozásban!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

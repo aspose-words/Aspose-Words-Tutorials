@@ -5,7 +5,9 @@
 "url": "/fr/python-net/content-management/aspose-words-python-editable-ranges-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser les plages modifiables dans Aspose.Words pour Python
 
 ## Introduction
@@ -164,3 +166,7 @@ Explorez des fonctionnalités plus avancées d'Aspose.Words ou intégrez cette f
 - **Forum d'assistance**: [Assistance Aspose](https://forum.aspose.com/c/words/10)
 
 Avec ce guide, vous êtes bien équipé pour exploiter la puissance des plages modifiables dans vos projets de gestion de documents à l'aide d'Aspose.Words pour Python !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

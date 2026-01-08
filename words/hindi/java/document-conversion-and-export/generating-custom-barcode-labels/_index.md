@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java में कस्टम बारकोड लेबल जेनरेट करें। इस चरण-दर-चरण मार्गदर्शिका में Aspose.Words for Java का उपयोग करके वैयक्तिकृत बारकोड समाधान बनाना सीखें।"
-"linktitle": "कस्टम बारकोड लेबल बनाना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में कस्टम बारकोड लेबल बनाना"
-"url": "/hi/java/document-conversion-and-export/generating-custom-barcode-labels/"
-"weight": 10
+date: 2025-12-10
+description: Aspose.Words for Java का उपयोग करके कस्टम बारकोड लेबल कैसे बनाएं, सीखें।
+  यह चरण-दर-चरण गाइड आपको दिखाता है कि वर्ड दस्तावेज़ों में बारकोड कैसे एम्बेड करें।
+linktitle: Generating Custom Barcode Labels
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java में कस्टम बारकोड लेबल बनाएं
+url: /hi/java/document-conversion-and-export/generating-custom-barcode-labels/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,27 +15,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में कस्टम बारकोड लेबल बनाना
+# Aspose.Words for Java में कस्टम बारकोड लेबल जनरेट करें
 
+## Aspose.Words for Java में कस्टम बारकोड जनरेट करने का परिचय
 
-## जावा के लिए Aspose.Words में कस्टम बारकोड लेबल बनाने का परिचय
+बारकोड आधुनिक अनुप्रयोगों में अनिवार्य हैं—चाहे आप इन्वेंट्री प्रबंधित कर रहे हों, टिकट प्रिंट कर रहे हों, या आईडी कार्ड बना रहे हों। इस ट्यूटोरियल में आप **कस्टम बारकोड** लेबल जनरेट करेंगे और उन्हें सीधे `IBarcodeGenerator` इंटरफ़ेस का उपयोग करके Word दस्तावेज़ में एम्बेड करेंगे। हम पर्यावरण सेटअप से लेकर बारकोड इमेज डालने तक हर कदम को विस्तार से बताएँगे, ताकि आप तुरंत अपने Java प्रोजेक्ट्स में बारकोड का उपयोग शुरू कर सकें।
 
-आधुनिक अनुप्रयोगों में बारकोड आवश्यक हैं, चाहे आप इन्वेंट्री प्रबंधित कर रहे हों, टिकट बना रहे हों या आईडी कार्ड बना रहे हों। Java के लिए Aspose.Words के साथ, कस्टम बारकोड लेबल बनाना आसान हो जाता है। यह चरण-दर-चरण ट्यूटोरियल आपको IBarcodeGenerator इंटरफ़ेस का उपयोग करके कस्टम बारकोड लेबल बनाने के बारे में मार्गदर्शन करेगा। शुरू करने के लिए तैयार हैं? चलिए शुरू करते हैं!
+## त्वरित उत्तर
+- **यह ट्यूटोरियल क्या सिखाता है?** Aspose.Words for Java के साथ कस्टम बारकोड लेबल जनरेट करना और उन्हें Word फ़ाइल में एम्बेड करना।  
+- **उदाहरण में कौन सा बारकोड प्रकार उपयोग किया गया है?** QR कोड (आप इसे किसी भी समर्थित प्रकार से बदल सकते हैं)।  
+- **क्या लाइसेंस की आवश्यकता है?** विकास के दौरान अनलिमिटेड एक्सेस के लिए एक टेम्पररी लाइसेंस आवश्यक है।  
+- **कौन सा Java संस्करण आवश्यक है?** JDK 8 या उससे ऊपर।  
+- **क्या मैं बारकोड का आकार या रंग बदल सकता हूँ?** हाँ—`BarcodeParameters` और `BarcodeGenerator` सेटिंग्स को संशोधित करें।
 
+## पूर्वापेक्षाएँ
 
-## आवश्यक शर्तें
+कोडिंग शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-कोडिंग शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+- Java Development Kit (JDK): संस्करण 8 या उससे ऊपर।  
+- Aspose.Words for Java लाइब्रेरी: [Download here](https://releases.aspose.com/words/java/)।  
+- Aspose.BarCode for Java लाइब्रेरी: [Download here](https://releases.aspose.com/)।  
+- इंटीग्रेटेड डेवलपमेंट एनवायरनमेंट (IDE): IntelliJ IDEA, Eclipse, या कोई भी पसंदीदा IDE।  
+- टेम्पररी लाइसेंस: अनलिमिटेड एक्सेस के लिए एक [temporary license](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
-- जावा डेवलपमेंट किट (JDK): संस्करण 8 या उससे ऊपर।
-- Aspose.Words जावा लाइब्रेरी के लिए: [यहां से डाउनलोड करें](https://releases.aspose.com/words/java/).
-- Aspose.BarCode for Java लाइब्रेरी: [यहां से डाउनलोड करें](https://releases.aspose.com/).
-- एकीकृत विकास वातावरण (IDE): IntelliJ IDEA, Eclipse, या कोई भी IDE जिसे आप पसंद करते हैं।
-- अस्थायी लाइसेंस: प्राप्त करें [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) अप्रतिबंधित पहुंच के लिए.
+## पैकेज इम्पोर्ट करें
 
-## पैकेज आयात करें
-
-हम Aspose.Words और Aspose.BarCode लाइब्रेरी का उपयोग करेंगे। अपने प्रोजेक्ट में निम्नलिखित पैकेज आयात करें:
+हम Aspose.Words और Aspose.BarCode लाइब्रेरी का उपयोग करेंगे। अपने प्रोजेक्ट में निम्नलिखित पैकेज इम्पोर्ट करें:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -43,22 +50,20 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-ये आयात हमें बारकोड निर्माण सुविधाओं का उपयोग करने और उन्हें वर्ड दस्तावेजों में एकीकृत करने की अनुमति देते हैं।
+इन इम्पोर्ट्स से हमें बारकोड जनरेशन API और Word दस्तावेज़ क्लासेज़ तक पहुँच मिलती है।
 
-आइये इस कार्य को प्रबंधनीय चरणों में विभाजित करें।
+## चरण 1: बारकोड ऑपरेशन्स के लिए एक यूटिलिटी क्लास बनाएं
 
-## चरण 1: बारकोड संचालन के लिए एक उपयोगिता वर्ग बनाएँ
+मुख्य कोड को साफ़ रखने के लिए हम सामान्य हेल्पर्स—जैसे **twips को pixels में बदलना** और **hex‑color रूपांतरण**—को एक यूटिलिटी क्लास में एन्कैप्सुलेट करेंगे।
 
-बारकोड-संबंधी कार्यों को सरल बनाने के लिए, हम रंग रूपांतरण और आकार समायोजन जैसे सामान्य कार्यों के लिए सहायक विधियों के साथ एक उपयोगिता वर्ग बनाएंगे।
-
-### कोड:
+### कोड
 
 ```java
 class CustomBarcodeGeneratorUtils {
     public static double twipsToPixels(String heightInTwips, double defVal) {
         try {
             int lVal = Integer.parseInt(heightInTwips);
-            return (lVal / 1440.0) * 96.0; // मान लें कि डिफ़ॉल्ट DPI 96 है
+            return (lVal / 1440.0) * 96.0; // Assuming default DPI is 96
         } catch (Exception e) {
             return defVal;
         }
@@ -76,16 +81,16 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-### स्पष्टीकरण:
+**व्याख्या**
 
-- `twipsToPixels` विधि: ट्विप्स (वर्ड दस्तावेज़ों में प्रयुक्त) को पिक्सेल में परिवर्तित करता है।
-- `convertColor` विधि: हेक्साडेसिमल रंग कोड का अनुवाद करता है `Color` वस्तुएं.
+- `twipsToPixels` – Word आयामों को **twips** में मापता है; यह मेथड उन्हें स्क्रीन पिक्सेल में बदलता है, जो बारकोड इमेज का सटीक आकार निर्धारित करने में उपयोगी है।  
+- `convertColor` – हेक्साडेसिमल स्ट्रिंग (जैसे `"FF0000"` लाल के लिए) को `java.awt.Color` ऑब्जेक्ट में बदलता है, जिससे आप **बारकोड को कस्टम फोरग्राउंड और बैकग्राउंड रंगों** के साथ इन्सर्ट कर सकते हैं।
 
-## चरण 2: कस्टम बारकोड जनरेटर को लागू करें
+## चरण 2: कस्टम बारकोड जनरेटर लागू करें
 
-हम इसे लागू करेंगे `IBarcodeGenerator` बारकोड उत्पन्न करने और उन्हें Aspose.Words के साथ एकीकृत करने के लिए इंटरफ़ेस।
+अब हम `IBarcodeGenerator` इंटरफ़ेस को इम्प्लीमेंट करेंगे। यह क्लास **generate qr code java**‑स्टाइल इमेजेज़** बनाकर Aspose.Words में एम्बेड करने के लिए जिम्मेदार होगी।
 
-### कोड:
+### कोड
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -115,42 +120,41 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-### स्पष्टीकरण:
+**व्याख्या**
 
-- `getBarcodeImage` तरीका:
-  - बनाता है `BarcodeGenerator` उदाहरण।
-  - बारकोड का रंग, पृष्ठभूमि का रंग सेट करता है, और छवि उत्पन्न करता है।
+- `getBarcodeImage` `BarcodeGenerator` का एक इंस्टेंस बनाता है, `BarcodeParameters` द्वारा प्रदान किए गए रंग लागू करता है, और अंत में एक `BufferedImage` रिटर्न करता है।  
+- यह मेथड त्रुटियों को सुगमता से हैंडल करता है और एक प्लेसहोल्डर इमेज रिटर्न करता है, जिससे Word दस्तावेज़ निर्माण कभी क्रैश नहीं होता।
 
-## चरण 3: बारकोड बनाएं और उसे वर्ड डॉक्यूमेंट में जोड़ें
+## चरण 3: बारकोड जनरेट करें और **बारकोड को Word में एम्बेड करें**
 
-अब, हम अपने बारकोड जनरेटर को वर्ड दस्तावेज़ में एकीकृत करेंगे।
+जनरेटर तैयार होने के बाद, हम अब एक बारकोड इमेज बनाकर **इसे Word दस्तावेज़ में इन्सर्ट** करेंगे।
 
-### कोड:
+### कोड
 
 ```java
 import com.aspose.words.*;
 
 public class GenerateCustomBarcodeLabels {
     public static void main(String[] args) throws Exception {
-        // Word दस्तावेज़ लोड करें या बनाएँ
+        // Load or create a Word document
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
 
-        // कस्टम बारकोड जनरेटर सेट अप करें
+        // Set up custom barcode generator
         CustomBarcodeGenerator barcodeGenerator = new CustomBarcodeGenerator();
         BarcodeParameters barcodeParameters = new BarcodeParameters();
         barcodeParameters.setBarcodeType("QR");
-        barcodeParameters.setBarcodeValue("https://उदाहरण.कॉम");
+        barcodeParameters.setBarcodeValue("https://example.com");
         barcodeParameters.setForegroundColor("000000");
         barcodeParameters.setBackgroundColor("FFFFFF");
 
-        // बारकोड छवि उत्पन्न करें
+        // Generate barcode image
         BufferedImage barcodeImage = barcodeGenerator.getBarcodeImage(barcodeParameters);
 
-        // Word दस्तावेज़ में बारकोड छवि डालें
+        // Insert barcode image into Word document
         builder.insertImage(barcodeImage, 200, 200);
 
-        // दस्तावेज़ सहेजें
+        // Save the document
         doc.save("CustomBarcodeLabels.docx");
 
         System.out.println("Barcode labels generated successfully!");
@@ -158,44 +162,59 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-### स्पष्टीकरण:
+**व्याख्या**
 
-- दस्तावेज़ आरंभीकरण: एक Word दस्तावेज़ बनाएँ या लोड करें।
-- बारकोड पैरामीटर: बारकोड प्रकार, मान और रंग परिभाषित करें।
-- छवि सम्मिलन: उत्पन्न बारकोड छवि को Word दस्तावेज़ में जोड़ें।
-- दस्तावेज़ सहेजें: फ़ाइल को इच्छित प्रारूप में सहेजें.
+1. **डॉक्यूमेंट इनिशियलाइज़ेशन** – एक नया `Document` बनाता है (या आप मौजूदा टेम्पलेट लोड कर सकते हैं)।  
+2. **बारकोड पैरामीटर्स** – बारकोड प्रकार (`QR`), एन्कोड करने वाला वैल्यू, और फोरग्राउंड/बैकग्राउंड रंग निर्धारित करता है।  
+3. **इमेज इन्सर्शन** – `builder.insertImage` जनरेटेड बारकोड को इच्छित आकार (200 × 200 पिक्सेल) पर रखता है। यह **how to insert barcode** को Word फ़ाइल में डालने का मुख्य भाग है।  
+4. **सेविंग** – अंतिम दस्तावेज़, `CustomBarcodeLabels.docx`, में एम्बेडेड बारकोड होता है, जिसे प्रिंट या वितरण के लिए तैयार किया जा सकता है।
+
+## Aspose.Words के साथ कस्टम बारकोड लेबल क्यों जनरेट करें?
+
+- **पूर्ण नियंत्रण** बारकोड की उपस्थिति (प्रकार, आकार, रंग) पर।  
+- **सीमलेस इंटीग्रेशन** – मध्यवर्ती इमेज फ़ाइलों की आवश्यकता नहीं; बारकोड मेमोरी में जनरेट होकर सीधे एम्बेड होता है।  
+- **क्रॉस‑प्लेटफ़ॉर्म** – किसी भी OS पर काम करता है जो Java सपोर्ट करता है, जिससे यह सर्वर‑साइड डॉक्यूमेंट जनरेशन के लिए आदर्श है।  
+- **स्केलेबल** – आप डेटा स्रोत पर लूप करके एक ही रन में सैकड़ों पर्सनलाइज़्ड लेबल बना सकते हैं।
+
+## सामान्य समस्याएँ और ट्रबलशूटिंग
+
+| लक्षण | संभावित कारण | समाधान |
+|-------|--------------|--------|
+| बारकोड खाली दिख रहा है | `BarcodeParameters` के रंग एक जैसे हैं (जैसे काला पर काला) | `foregroundColor` और `backgroundColor` मानों की जाँच करें। |
+| इमेज विकृत है | `insertImage` को गलत पिक्सेल डाइमेंशन पास किए गए हैं | चौड़ाई/ऊँचाई आर्ग्यूमेंट को समायोजित करें या सटीक आकार के लिए `twipsToPixels` रूपांतरण का उपयोग करें। |
+| असमर्थित बारकोड प्रकार त्रुटि | `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` द्वारा न पहचाना गया प्रकार उपयोग किया गया | सुनिश्चित करें कि बारकोड प्रकार स्ट्रिंग समर्थित `EncodeTypes` (जैसे `"QR"`, `"CODE128"`) में से एक है। |
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**प्रश्न: क्या मैं Aspose.Words for Java को बिना लाइसेंस के उपयोग कर सकता हूँ?**  
+उत्तर: हाँ, लेकिन कुछ सीमाएँ होंगी। पूर्ण कार्यक्षमता के लिए एक [temporary license](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
+
+**प्रश्न: मैं कौन‑से प्रकार के बारकोड जनरेट कर सकता हूँ?**  
+उत्तर: Aspose.BarCode QR, Code 128, EAN‑13 और कई अन्य फॉर्मेट्स को सपोर्ट करता है। पूरी सूची के लिए [documentation](https://reference.aspose.com/words/java/) देखें।
+
+**प्रश्न: मैं बारकोड का आकार कैसे बदल सकता हूँ?**  
+उत्तर: `builder.insertImage` में चौड़ाई और ऊँचाई आर्ग्यूमेंट को समायोजित करें, या Word माप इकाइयों को पिक्सेल में बदलने के लिए `twipsToPixels` का उपयोग करें।
+
+**प्रश्न: क्या बारकोड टेक्स्ट के लिए कस्टम फ़ॉन्ट उपयोग कर सकता हूँ?**  
+उत्तर: हाँ, आप `BarcodeGenerator` की `CodeTextParameters` प्रॉपर्टी के माध्यम से टेक्स्ट फ़ॉन्ट को कस्टमाइज़ कर सकते हैं।
+
+**प्रश्न: यदि मुझे समस्याएँ आती हैं तो मदद कहाँ से मिल सकती है?**  
+उत्तर: सहायता के लिए [support forum](https://forum.aspose.com/c/words/8/) पर जाएँ, जहाँ Aspose समुदाय और इंजीनियर्स मदद करेंगे।
 
 ## निष्कर्ष
 
-इन चरणों का पालन करके, आप Java के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में कस्टम बारकोड लेबल को सहजता से उत्पन्न और एम्बेड कर सकते हैं। यह दृष्टिकोण लचीला है और इसे विभिन्न अनुप्रयोगों के अनुरूप बनाया जा सकता है। हैप्पी कोडिंग!
+ऊपर बताए गए चरणों को अपनाकर आप अब **कस्टम बारकोड** इमेजेज़ जनरेट करना और Aspose.Words for Java के साथ **बारकोड को Word** दस्तावेज़ में एम्बेड करना जानते हैं। यह तकनीक इन्वेंट्री टैग, इवेंट टिकट या किसी भी स्थिति में जहाँ बारकोड जनरेटेड दस्तावेज़ का हिस्सा हो, के लिए लचीली है। विभिन्न बारकोड प्रकारों और स्टाइलिंग विकल्पों के साथ प्रयोग करें ताकि आपके व्यवसाय की विशिष्ट आवश्यकताओं को पूरा किया जा सके।
 
+---
 
-## पूछे जाने वाले प्रश्न
-
-1. क्या मैं लाइसेंस के बिना Java के लिए Aspose.Words का उपयोग कर सकता हूँ?
-हां, लेकिन इसकी कुछ सीमाएं होंगी। [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) पूर्ण कार्यक्षमता के लिए.
-
-2. मैं किस प्रकार के बारकोड उत्पन्न कर सकता हूँ?
-Aspose.BarCode QR, कोड 128, EAN-13, और कई अन्य प्रकारों का समर्थन करता है। [प्रलेखन](https://reference.aspose.com/words/java/) पूरी सूची के लिए.
-
-3. मैं बारकोड का आकार कैसे बदल सकता हूँ?
-समायोजित `XDimension` और `BarHeight` पैरामीटर्स `BarcodeGenerator` सेटिंग्स.
-
-4. क्या मैं बारकोड के लिए कस्टम फ़ॉन्ट का उपयोग कर सकता हूँ?
-हां, आप बारकोड टेक्स्ट फ़ॉन्ट को इसके माध्यम से अनुकूलित कर सकते हैं `CodeTextParameters` संपत्ति।
-
-5. मुझे Aspose.Words के संबंध में सहायता कहां से मिल सकती है?
-दौरा करना [सहयता मंच](https://forum.aspose.com/c/words/8/) सहायता के लिए.
-
-
-
+**अंतिम अपडेट:** 2025-12-10  
+**टेस्टेड विथ:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

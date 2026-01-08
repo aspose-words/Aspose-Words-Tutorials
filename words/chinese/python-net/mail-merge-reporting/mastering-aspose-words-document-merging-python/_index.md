@@ -5,7 +5,9 @@
 "url": "/zh/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 掌握 Aspose.Words 在 Python 中合并文档的功能：保留源编号并插入书签
 
 ## 介绍
@@ -181,3 +183,7 @@ Aspose.Words 的保留源编号和插入书签的功能有许多实际应用：
 - [购买许可证](https://purchase.aspose.com/buy)
 - [免费试用许可证](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

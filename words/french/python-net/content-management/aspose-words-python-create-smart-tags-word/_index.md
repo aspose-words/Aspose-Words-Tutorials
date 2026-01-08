@@ -5,7 +5,9 @@
 "url": "/fr/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser la création et la gestion des balises intelligentes dans Word avec Aspose.Words pour Python
 
 ## Introduction
@@ -236,3 +238,7 @@ Pour plus d’informations, explorez ces ressources :
 - **Forum d'assistance**: Engagez-vous avec la communauté sur [Forum d'assistance d'Aspose](https://forum.aspose.com/c/words/10)
 
 Grâce à ce guide complet, vous êtes désormais équipé pour exploiter Aspose.Words pour Python afin de créer et de gérer des balises intelligentes dans vos documents Word. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

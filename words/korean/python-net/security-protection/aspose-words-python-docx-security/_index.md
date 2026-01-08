@@ -5,7 +5,9 @@
 "url": "/ko/python-net/security-protection/aspose-words-python-docx-security/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 문서 자동화의 힘 활용하기: Python에서 Aspose.Words를 사용하여 안전하고 규정을 준수하는 DOCX 파일 만들기
 
 ## 소개
@@ -158,3 +160,7 @@ A: 면허증을 정기적으로 확인하고 갱신하세요. 면허증 파일�
 - **지원 및 커뮤니티**: [Aspose 포럼](https://forum.aspose.com/c/words/10)
 
 이제 Python 프로젝트에 Aspose.Words를 구현하여 문서 자동화의 다음 단계를 밟아보세요. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

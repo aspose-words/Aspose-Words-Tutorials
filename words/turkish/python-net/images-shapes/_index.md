@@ -4,7 +4,9 @@
 "url": "/tr/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net için Resimler ve Şekiller Eğitimleri
 
 Aspose.Words for Python-net kullanarak resim ve şekil işlemleri için kapsamlı adım adım kılavuzları keşfedin. Bu eğitimler eksiksiz kod örnekleri ve ayrıntılı açıklamalar içerir.
@@ -32,6 +34,9 @@ Aspose.Words for Python ile RTF belgelerinde görüntü işlemeyi nasıl optimiz
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğinizi öğrenin. Bu kılavuz, görüntü benzeri özellikler, metin oluşturma ve güvenlik geliştirmeleri gibi özel özellikleri kapsar.
 
+### [C#'ta Gölge Ekleme – Tam Programlama Kılavuzu](./how-to-add-shadow-in-c-complete-programming-guide/)
+C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğini
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Ücretsiz Destek](https://forum.aspose.com/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

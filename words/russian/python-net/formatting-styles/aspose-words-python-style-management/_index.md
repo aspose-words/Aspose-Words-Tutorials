@@ -5,7 +5,9 @@
 "url": "/ru/python-net/formatting-styles/aspose-words-python-style-management/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение Aspose.Words Python: оптимизация управления стилем документа
 
 ## Введение
@@ -186,3 +188,7 @@ license.set_license("path/to/your/license.lic")
 - [Документация Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [Загрузить Aspose.Words для Python](https://releases.aspose.com/words/python/)
 - [Страница покупки](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/th/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # การรวมตารางหลักใน Aspose.Words สำหรับ Python
 
 ## การแนะนำ
@@ -213,3 +215,7 @@ Aspose.Words สำหรับ Python มีความหลากหลา�
 - [ทดลองใช้งานฟรี](https://releases.aspose.com/words/python/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

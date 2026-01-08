@@ -5,7 +5,9 @@
 "url": "/vi/python-net/mail-merge-reporting/aspose-words-python-form-fields-manipulation-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cải thiện các dự án Python: Làm chủ thao tác trường biểu mẫu với Aspose.Words
 
 ## Giới thiệu
@@ -258,3 +260,7 @@ doc.save(file_name="THƯ MỤC_TÀI_LÝ_CỦA_BẠN/FormFields.ManageDropDownIte
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

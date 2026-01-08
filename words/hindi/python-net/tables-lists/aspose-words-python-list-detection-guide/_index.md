@@ -5,7 +5,9 @@
 "url": "/hi/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # पायथन के लिए Aspose.Words का उपयोग करके पाठ में सूची पहचान को क्रियान्वित करने के लिए मार्गदर्शिका
 
 ## परिचय
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **सामग्री विश्लेषण उपकरण**: आगे के विश्लेषण या रिपोर्टिंग के लिए पाठ फ़ाइलों से संरचित डेटा निकालें।
 3. **डेटा क्लीनअप कार्य**रिक्त स्थान का प्रबंधन और सूची तत्वों की पहचान करके पाठ स्वरूपण को मानकीकृत करें।
 4. **लिंक सत्यापन**: पाठ दस्तावेज़ों के एक समूह में लिंकों को मान्य करें ताकि यह सुनिश्चित हो सके कि वे सक्रिय और सही हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

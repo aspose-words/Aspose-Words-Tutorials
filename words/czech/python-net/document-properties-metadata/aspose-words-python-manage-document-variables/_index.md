@@ -5,7 +5,9 @@
 "url": "/cs/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Jak spravovat proměnné dokumentu pomocí Aspose.Words v Pythonu: Kompletní průvodce
 
 ## Zavedení
@@ -161,3 +163,7 @@ Proč nezkusit implementovat tato řešení ještě dnes a neuvidíte rozdíl ve
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
 Prozkoumejte tyto zdroje, abyste si dále prohloubili znalosti a implementaci Aspose.Words v Pythonu. Přejeme vám příjemné programování!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
