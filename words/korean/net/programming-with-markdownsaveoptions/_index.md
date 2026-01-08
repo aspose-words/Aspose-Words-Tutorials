@@ -26,12 +26,14 @@
 | [Word를 PDF로 저장하고 손상된 Word 복구 – C#에서 Word를 Markdown으로 변환](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [접근성 PDF 만들기 및 Word를 Markdown으로 변환 – 전체 C# 가이드](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Aspose.Words for .NET을 사용하여 접근성 PDF를 생성하고 Word를 Markdown으로 변환하는 전체 C# 가이드 |
 | [Markdown 사용 방법: LaTeX 수식이 포함된 DOCX를 Markdown으로 변환](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Aspose.Words for .NET을 사용하여 LaTeX 수식이 포함된 DOCX 파일을 정확히 Markdown으로 변환하는 단계별 가이드 |
+| [LaTeX 내보내기 방법: DOCX를 Markdown 및 TXT로 변환](./how-to-export-latex-convert-docx-to-markdown-txt/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 LaTeX 수식과 함께 Markdown 및 TXT 형식으로 변환하는 단계별 가이드. |
 | [docx를 markdown으로 변환 – 단계별 C# 가이드](./convert-docx-to-markdown-step-by-step-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 단계별 C# 가이드 |
 | [docx를 markdown으로 저장 – LaTeX 수식 포함 전체 C# 가이드](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Aspose.Words for .NET으로 LaTeX 수식이 포함된 docx를 Markdown으로 변환하는 완전한 C# 가이드 |
 | [docx를 markdown으로 저장 – 이미지 추출 포함 전체 C# 가이드](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 docx 파일을 markdown으로 변환하는 전체 C# 가이드 |
 | [Word에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 내보내는 전체 C# 가이드 |
 | [DOCX에서 Markdown 저장 방법 – 단계별 가이드](./how-to-save-markdown-from-docx-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 저장하는 단계별 가이드를 제공합니다. |
 | [DOCX에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-docx-complete-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 내보내는 전체 C# 가이드 |
+| [DOCX를 Markdown으로 변환할 때 이미지 이름 바꾸기](./how-to-rename-images-when-converting-docx-to-markdown/) | Aspose.Words for .NET을 사용하여 DOCX를 Markdown으로 변환하면서 이미지 파일 이름을 원하는 대로 바꾸는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
