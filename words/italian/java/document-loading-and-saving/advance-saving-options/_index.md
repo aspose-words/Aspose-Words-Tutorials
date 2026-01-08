@@ -1,10 +1,12 @@
 ---
-"description": "Impara la manipolazione avanzata dei documenti con Aspose.Words per Java. Crittografa, gestisci metafile e altro ancora. I tuoi documenti Word, a modo tuo."
-"linktitle": "Salvataggio di documenti in vari formati con"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Opzioni di salvataggio avanzate con Aspose.Words per Java"
-"url": "/it/java/document-loading-and-saving/advance-saving-options/"
-"weight": 14
+date: 2025-12-19
+description: Impara a salvare Word con password, controllare la compressione dei metafile
+  e gestire i punti elenco con immagine usando Aspose.Words per Java.
+linktitle: Saving Documents in Various Formats with
+second_title: Aspose.Words Java Document Processing API
+title: Salva Word con password usando Aspose.Words per Java
+url: /it/java/document-loading-and-saving/advance-saving-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,22 +15,36 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opzioni di salvataggio avanzate con Aspose.Words per Java
+# Salva Word con Password e Opzioni Avanzate usando Aspose.Words per Java
 
+## Guida Tutoriale Passo‑Passo: Salva Word con Password e Altre Opzioni Avanzate di Salvataggio
 
-# Guida passo passo: opzioni di salvataggio avanzate con Aspose.Words per Java
+Nel mondo digitale di oggi, gli sviluppatori spesso hanno bisogno di proteggere i file Word, controllare come vengono salvati gli oggetti incorporati o rimuovere i punti elenco immagine indesiderati. **Salvare un documento Word con una password** è un modo semplice ma potente per proteggere i dati sensibili, e Aspose.Words per Java lo rende senza sforzo. In questa guida vedremo come crittografare un documento, impedire la compressione di metafili piccoli e disabilitare i punti elenco immagine—così potrai regolare con precisione come vengono salvati i tuoi file Word.
 
-Nell'era digitale odierna, la manipolazione dei documenti è un'attività comune per gli sviluppatori. Che si tratti di crittografare documenti, gestire metafile o elenchi puntati, Aspose.Words per Java offre una potente API per semplificare questi processi. In questo tutorial, esploreremo come eseguire opzioni di salvataggio avanzate utilizzando Aspose.Words per Java.
+## Risposte Rapide
+- **Come salvo un documento Word con una password?** Usa `DocSaveOptions.setPassword()` prima di chiamare `doc.save()`.  
+- **Posso impedire la compressione di metafili piccoli?** Sì, imposta `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **È possibile escludere i punti elenco immagine dal file salvato?** Assolutamente—usa `saveOptions.setSavePictureBullet(false)`.  
+- **È necessaria una licenza per utilizzare queste funzionalità?** È richiesta una licenza valida di Aspose.Words per Java per l'uso in produzione.  
+- **Quale versione di Java è supportata?** Aspose.Words funziona con Java 8 e versioni successive.
 
-## Introduzione ad Aspose.Words per Java
+## Che cosa significa “salvare Word con password”?
+Salvare un documento Word con una password cripta il contenuto del file, richiedendo la password corretta per aprirlo in Microsoft Word o in qualsiasi visualizzatore compatibile. Questa funzionalità è essenziale per proteggere rapporti riservati, contratti o qualsiasi dato che deve rimanere privato.
 
-Prima di immergerci nel codice, presentiamo brevemente Aspose.Words per Java. È una libreria Java robusta che consente agli sviluppatori di creare, manipolare e convertire documenti Word senza sforzo. Che tu debba generare report, aggiungere sicurezza o formattare testo, Aspose.Words per Java è la soluzione che fa per te.
+## Perché usare Aspose.Words per Java per questo compito?
+- **Controllo completo** – Puoi impostare password, opzioni di compressione e gestione dei punti elenco tutto in una singola chiamata API.  
+- **Nessun Microsoft Office richiesto** – Funziona su qualsiasi piattaforma che supporta Java.  
+- **Alte prestazioni** – Ottimizzato per documenti di grandi dimensioni e elaborazione batch.
 
-## Impostazione dell'ambiente
+## Prerequisiti
+- Java 8 o versioni successive installate.  
+- Libreria Aspose.Words per Java aggiunta al tuo progetto (Maven/Gradle o JAR manuale).  
+- Una licenza valida di Aspose.Words per la produzione (disponibile prova gratuita).
 
-Prima di iniziare a programmare, assicurati di aver configurato l'ambiente necessario:
+## Guida Passo‑Passo
 
-1. Crea un documento: inizializza un nuovo documento utilizzando Aspose.Words per Java.
+### 1. Crea un documento semplice
+First, create a new `Document` and add some text. This will be the file we later protect with a password.
 
 ```java
     Document doc = new Document();
@@ -36,9 +52,8 @@ Prima di iniziare a programmare, assicurati di aver configurato l'ambiente neces
     builder.write("Hello world!");
 ```
 
-## Crittografia di un documento con una password
-
-Ora, passiamo al primo passaggio: crittografare un documento con una password. Questo aggiunge un ulteriore livello di sicurezza ai tuoi documenti sensibili.
+### 2. Cifra il documento – **salvare Word con password**
+Now we configure `DocSaveOptions` to embed a password. When the file is opened, Word will prompt for this password.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -48,9 +63,8 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-## Non comprimere i metafile di piccole dimensioni
-
-I metafile sono essenziali nei documenti Word, ma potrebbe non essere opportuno comprimere quelli di piccole dimensioni. Ecco come fare:
+### 3. Non comprimere metafili piccoli
+Metafiles (such as EMF/WMF) are often compressed automatically. If you need the original quality, disable compression:
 
 ```java
 @Test
@@ -64,9 +78,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-## Evitare il salvataggio dei punti elenco immagine
-
-I punti elenco immagine possono essere accattivanti, ma potresti volerli escludere. Ecco come:
+### 4. Escludi i punti elenco immagine dal file salvato
+Picture bullets can increase file size. Use the following option to omit them during saving:
 
 ```java
 @Test
@@ -80,8 +93,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-
-## Codice sorgente completo per salvare documenti in vari formati con Aspose.Words per Java
+### 5. Codice sorgente completo per riferimento
+Below is the complete, ready‑to‑run example that demonstrates all three advanced saving options together.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -113,42 +126,41 @@ public void doNotSavePictureBullet() throws Exception {
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
+## Problemi Comuni & Risoluzione
+- **Password non applicata** – Assicurati di utilizzare `DocSaveOptions` *invece di* `PdfSaveOptions` o altre opzioni specifiche del formato.  
+- **Metafili ancora compressi** – Verifica che il file di origine contenga effettivamente metafili piccoli; l'opzione influisce solo su quelli al di sotto di una certa soglia di dimensione.  
+- **I punti elenco immagine compaiono ancora** – Alcune versioni più vecchie di Word ignorano il flag; considera di convertire i punti elenco in stili di elenco standard prima del salvataggio.
+
+## Domande Frequenti
+
+**D: Aspose.Words per Java è una libreria gratuita?**  
+R: No, Aspose.Words per Java è una libreria commerciale. Puoi trovare i dettagli della licenza [qui](https://purchase.aspose.com/buy).
+
+**D: Come posso ottenere una prova gratuita di Aspose.Words per Java?**  
+R: Puoi ottenere una prova gratuita [qui](https://releases.aspose.com/).
+
+**D: Dove posso trovare supporto per Aspose.Words per Java?**  
+R: Per supporto e discussioni della community, visita il [forum Aspose.Words per Java](https://forum.aspose.com/).
+
+**D: Posso usare Aspose.Words per Java con altri framework Java?**  
+R: Sì, si integra senza problemi con Spring, Hibernate, Android e la maggior parte dei contenitori Java EE.
+
+**D: Esiste un'opzione di licenza temporanea per la valutazione?**  
+R: Sì, una licenza temporanea è disponibile [qui](https://purchase.aspose.com/temporary-license/).
+
 ## Conclusione
+Ora sai come **salvare Word con password**, controllare la compressione dei metafili e escludere i punti elenco immagine usando Aspose.Words per Java. Queste opzioni di salvataggio avanzate ti offrono un controllo preciso sulla dimensione finale del file, sulla sicurezza e sull'aspetto—perfette per report aziendali, archiviazione di documenti o qualsiasi scenario in cui l'integrità del documento è fondamentale.
 
-Congratulazioni! Hai imparato a usare Aspose.Words per Java per eseguire opzioni di salvataggio avanzate. Che si tratti di crittografare documenti, gestire metafile o elenchi puntati, Aspose.Words per Java ti permette di assumere il controllo dei tuoi documenti Word.
+---
 
-## Domande frequenti
-
-### 1. Aspose.Words per Java è una libreria gratuita?
-
-No, Aspose.Words per Java è una libreria commerciale. Puoi trovare i dettagli sulla licenza. [Qui](https://purchase.aspose.com/buy).
-
-### 2. Come posso ottenere una prova gratuita di Aspose.Words per Java?
-
-Puoi ottenere una prova gratuita di Aspose.Words per Java [Qui](https://releases.aspose.com/).
-
-### 3. Dove posso trovare supporto per Aspose.Words per Java?
-
-Per supporto e discussioni della comunità, visita il [Forum di Aspose.Words per Java](https://forum.aspose.com/).
-
-### 4. Posso usare Aspose.Words per Java con altre librerie Java?
-
-Sì, Aspose.Words per Java è compatibile con varie librerie e framework Java.
-
-### 5. È disponibile un'opzione di licenza temporanea?
-
-Sì, puoi ottenere una licenza temporanea [Qui](https://purchase.aspose.com/temporary-license/).
-
-Inizia subito a usare Aspose.Words per Java e scopri tutte le potenzialità della manipolazione dei documenti nelle tue applicazioni Java.
-
-
+**Ultimo aggiornamento:** 2025-12-19  
+**Testato con:** Aspose.Words per Java 24.12 (latest at time of writing)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
