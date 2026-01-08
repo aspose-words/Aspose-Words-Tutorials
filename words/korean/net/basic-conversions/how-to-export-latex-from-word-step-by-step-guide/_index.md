@@ -198,7 +198,12 @@ With just a few lines of C# and the powerful Aspose.Words library, you can turn 
 
 **다음 단계?** Try feeding the generated `.txt` (or rename it to `.tex`) into `pdflatex` or `xelatex` to produce a PDF, or explore the `SaveFormat.LaTeX` option for a direct `.tex` file. If you need to **docx를 txt로 저장** while preserving formatting, experiment with `PreserveTableLayout` and custom line‑break handling.
 
-Got questions about edge cases, licensing, or performance tweaks? Drop a comment below—happy< /blocks/products/pf/tutorial-page-section >}}
+Got questions about edge cases, licensing, or performance tweaks? Drop a comment below—happy
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
