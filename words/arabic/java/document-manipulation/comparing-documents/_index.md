@@ -1,10 +1,12 @@
 ---
-"description": "تعرف على كيفية مقارنة المستندات في Aspose.Words for Java، وهي مكتبة Java قوية لتحليل المستندات بكفاءة."
-"linktitle": "مقارنة المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "مقارنة المستندات في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/comparing-documents/"
-"weight": 28
+date: 2026-01-01
+description: تعلم كيفية مقارنة ملفي Word باستخدام Aspose.Words for Java، المكتبة القوية
+  لـ Java لتحليل المستندات وإدارة الإصدارات.
+linktitle: Comparing Documents
+second_title: Aspose.Words Java Document Processing API
+title: كيفية مقارنة ملفي Word باستخدام Aspose.Words للـ Java
+url: /ar/java/document-manipulation/comparing-documents/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,26 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# مقارنة المستندات في Aspose.Words لـ Java
+# كيفية مقارنة ملفي Word باستخدام Aspose.Words for Java
 
+## مقدمة في مقارنة المستندات
 
-## مقدمة لمقارنة المستندات
+تنطوي مقارنة المستندات على تحليل مستندين وتحديد الاختلافات، وهو أمر قد يكون أساسيًا في سيناريوهات مختلفة مثل القانونية، والتنظيمية، أو إدارة المحتوى. **Aspose.Words for Java** تجعل من السهل مقارنة ملفي Word، وتوفر لك نظرة واضحة على ما تغير بين الإصدارات.
 
-تتضمن مقارنة المستندات تحليل مستندين وتحديد الاختلافات، وهو أمرٌ أساسي في سيناريوهات مختلفة، مثل الجوانب القانونية والتنظيمية وإدارة المحتوى. يُبسط Aspose.Words لـ Java هذه العملية، مما يجعلها في متناول مطوري Java.
+## إجابات سريعة
+- **ماذا يعيد أسلوب compare؟** مجموعة من المراجعات التي تمثل الاختلافات.  
+- **هل يمكنني تجاهل تغييرات التنسيق؟** نعم، استخدم `CompareOptions.setIgnoreFormatting(true)`.  
+- **هل يمكن مقارنة نص الجسم فقط؟** اضبط `setIgnoreHeadersAndFooters(true)` لتجاوز الترويسات/التذييلات.  
+- **ما نسخة Java المطلوبة؟** أي بيئة تشغيل Java 8+ مدعومة.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم وجود ترخيص صالح لـ Aspose.Words for Java للمشاريع التجارية.
 
 ## إعداد بيئتك
 
-قبل الخوض في مقارنة المستندات، تأكد من تثبيت Aspose.Words لجافا. يمكنك تنزيل المكتبة من [إصدارات Aspose.Words لـ Java](https://releases.aspose.com/words/java/) الصفحة. بعد تنزيلها، قم بإضافتها إلى مشروع Java الخاص بك.
+قبل أن نغوص في مقارنة المستندات، تأكد من تثبيت Aspose.Words for Java. يمكنك تنزيل المكتبة من صفحة [إصدارات Aspose.Words for Java](https://releases.aspose.com/words/java/). بعد التنزيل، أدرجها في مشروع Java الخاص بك.
 
-## مقارنة المستندات الأساسية
+## المقارنة الأساسية لملفين Word
 
-لنبدأ بأساسيات مقارنة المستندات. سنستخدم مستندين، `docA` و `docB`، وقارن بينهما.
+لنبدأ بأساسيات مقارنة ملفي Word. سنستخدم مستندين، `docA` و `docB`، ونقارنهما.
 
 ```java
 Document docA = new Document("Your Directory Path" + "Document.docx");
@@ -35,15 +43,15 @@ docA.compare(docB, "user", new Date());
 System.out.println(docA.getRevisions().getCount() == 0 ? "Documents are equal" : "Documents are not equal");
 ```
 
-في مقتطف التعليمات البرمجية هذا، نقوم بتحميل مستندين، `docA` و `docB`، ثم استخدم `compare` طريقة لمقارنتها. نُحدد المؤلف بـ "المستخدم"، وتُجرى المقارنة. وأخيرًا، نتحقق من وجود مراجعات تُشير إلى الاختلافات بين الوثائق.
+في هذا المقتطف نقوم بتحميل نفس الملف مرتين، ثم نستنسخه، ثم نستدعي `compare`. تُنشئ الطريقة علامات مراجعة تُظهر أي اختلافات بين ملفي Word.
 
 ## تخصيص المقارنة باستخدام الخيارات
 
-يوفر Aspose.Words لجافا خيارات شاملة لتخصيص مقارنة المستندات. لنستكشف بعضًا منها.
+توفر Aspose.Words for Java خيارات واسعة لتخصيص مقارنة المستندات. دعونا نستعرض بعضًا منها.
 
-## تجاهل التنسيق
+### كيفية تجاهل التنسيق عند مقارنة ملفي Word
 
-لتجاهل الاختلافات في التنسيق، استخدم `setIgnoreFormatting` خيار.
+لتجاهل الاختلافات في التنسيق، استخدم الخيار `setIgnoreFormatting`.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -51,9 +59,9 @@ options.setIgnoreFormatting(true);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## تجاهل الرؤوس والتذييلات
+### كيفية استبعاد الترويسات والتذييلات أثناء مقارنة ملفي Word
 
-لاستبعاد الرؤوس والتذييلات من المقارنة، اضبط `setIgnoreHeadersAndFooters` خيار.
+لاستبعاد الترويسات والتذييلات من المقارنة، اضبط الخيار `setIgnoreHeadersAndFooters`.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -61,9 +69,9 @@ options.setIgnoreHeadersAndFooters(true);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## تجاهل العناصر المحددة
+### كيفية تجاهل عناصر محددة عند مقارنة ملفي Word
 
-يمكنك تجاهل عناصر مختلفة بشكل انتقائي مثل الجداول والحقول والتعليقات ومربعات النص والمزيد باستخدام خيارات محددة.
+يمكنك اختيارياً تجاهل عناصر مختلفة مثل الجداول، الحقول، التعليقات، مربعات النص، وغيرها باستخدام خيارات محددة.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -74,9 +82,9 @@ options.setIgnoreTextboxes(true);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## هدف المقارنة
+### كيفية تحديد هدف المقارنة لملفين Word
 
-في بعض الحالات، قد ترغب في تحديد هدف للمقارنة، على غرار خيار "إظهار التغييرات في" في Microsoft Word.
+في بعض الحالات، قد ترغب في تحديد هدف للمقارنة، مشابه لخيار Microsoft Word “إظهار التغييرات في”.
 
 ```java
 CompareOptions options = new CompareOptions();
@@ -85,9 +93,9 @@ options.setTarget(ComparisonTargetType.NEW);
 docA.compare(docB, "user", new Date(), options);
 ```
 
-## حبيبات المقارنة
+### كيفية التحكم في دقة المقارنة عند مقارنة ملفي Word
 
-يمكنك التحكم في تفاصيل المقارنة، من مستوى الحرف إلى مستوى الكلمة.
+يمكنك التحكم في دقة المقارنة، من مستوى الحرف إلى مستوى الكلمة.
 
 ```java
 DocumentBuilder builderA = new DocumentBuilder(new Document());
@@ -99,39 +107,55 @@ compareOptions.setGranularity(Granularity.CHAR_LEVEL);
 builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), compareOptions);
 ```
 
-## خاتمة
+## حالات الاستخدام الشائعة لمقارنة ملفي Word
 
-تُعد مقارنة المستندات في Aspose.Words for Java ميزة فعّالة يُمكن استخدامها في مختلف سيناريوهات معالجة المستندات. بفضل خيارات التخصيص الواسعة، يُمكنك تخصيص عملية المقارنة لتناسب احتياجاتك الخاصة، مما يجعلها أداة قيّمة في مجموعة أدوات تطوير Java.
+- **مراجعات العقود القانونية:** اكتشاف الفقرات المضافة أو المحذوفة أو المعدلة بسرعة.  
+- **الامتثال التنظيمي:** ضمان بقاء وثائق السياسات متسقة عبر الإصدارات.  
+- **نشر المحتوى:** اكتشاف التغييرات التحريرية قبل نشر النسخ النهائية.  
+- **التحكم في الإصدارات في أنظمة إدارة المستندات:** أتمتة تتبع التغييرات دون فحص يدوي.
 
-## الأسئلة الشائعة
+## نصائح استكشاف الأخطاء وإصلاحها
 
-### كيف أقوم بتثبيت Aspose.Words لـ Java؟
+- **عدم ظهور المراجعات:** تأكد من استدعاء `docA.updatePageLayout()` بعد المقارنة إذا كنت بحاجة إلى تحديث التخطيط البصري.  
+- **الأداء مع الملفات الكبيرة:** استخدم `compare` على المستندات المستنسخة لتجنب تحميل الملف نفسه عدة مرات.  
+- **غياب التغييرات في الجداول:** تأكد من ضبط `setIgnoreTables(false)` (الإعداد الافتراضي) لتسجيل اختلافات الجداول.
 
-لتثبيت Aspose.Words لـ Java، قم بتنزيل المكتبة من [إصدارات Aspose.Words لـ Java](https://releases.aspose.com/words/java/) الصفحة وتضمينها في تبعيات مشروع Java الخاص بك.
+## الخلاصة
 
-### هل يمكنني مقارنة المستندات ذات التنسيق المعقد باستخدام Aspose.Words لـ Java؟
+تُعد مقارنة ملفي Word باستخدام Aspose.Words for Java قدرة قوية يمكن استخدامها في سيناريوهات معالجة المستندات المتنوعة. بفضل الخيارات الواسعة للتخصيص، يمكنك تعديل عملية المقارنة لتتناسب مع احتياجاتك الخاصة، مما يجعلها أداة قيمة في مجموعة أدوات تطوير Java الخاصة بك.
 
-نعم، يوفر Aspose.Words لجافا خيارات لمقارنة المستندات ذات التنسيقات المعقدة. يمكنك تخصيص المقارنة لتناسب احتياجاتك.
+## الأسئلة المتكررة
+
+### كيف أقوم بتثبيت Aspose.Words for Java؟
+
+لتثبيت Aspose.Words for Java، قم بتنزيل المكتبة من صفحة [إصدارات Aspose.Words for Java](https://releases.aspose.com/words/java/) وأدرجها في تبعيات مشروع Java الخاص بك.
+
+### هل يمكنني مقارنة مستندات ذات تنسيق معقد باستخدام Aspose.Words for Java؟
+
+نعم، توفر Aspose.Words for Java خيارات لمقارنة المستندات ذات التنسيق المعقد. يمكنك تخصيص المقارنة لتناسب متطلباتك.
 
 ### هل Aspose.Words for Java مناسب لأنظمة إدارة المستندات؟
 
-بالتأكيد. ميزات مقارنة المستندات في Aspose.Words لـ Java تجعلها مناسبة تمامًا لأنظمة إدارة المستندات حيث يكون التحكم في الإصدارات وتتبع التغييرات أمرًا بالغ الأهمية.
+بالطبع. تجعل ميزات مقارنة المستندات في Aspose.Words for Java هذه الأداة مناسبة تمامًا لأنظمة إدارة المستندات حيث التحكم في الإصدارات وتتبع التغييرات أمر حاسم.
 
-### هل هناك أي قيود على مقارنة المستندات في Aspose.Words لـ Java؟
+### هل هناك أي قيود على مقارنة المستندات في Aspose.Words for Java؟
 
-على الرغم من أن Aspose.Words for Java يوفر إمكانيات واسعة النطاق لمقارنة المستندات، فمن الضروري مراجعة المستندات والتأكد من أنها تلبي متطلباتك المحددة.
+على الرغم من أن Aspose.Words for Java تقدم قدرات واسعة لمقارنة المستندات، من الضروري مراجعة الوثائق والتأكد من أنها تلبي متطلباتك الخاصة.
 
 ### كيف يمكنني الوصول إلى المزيد من الموارد والوثائق الخاصة بـ Aspose.Words for Java؟
 
-للحصول على موارد إضافية ووثائق مفصلة حول Aspose.Words for Java، تفضل بزيارة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/).
+للحصول على موارد إضافية ووثائق متعمقة حول Aspose.Words for Java، زر صفحة [توثيق Aspose.Words for Java](https://reference.aspose.com/words/java/).
 
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java latest stable release  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
