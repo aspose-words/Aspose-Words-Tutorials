@@ -5,7 +5,9 @@
 "url": "/tr/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python için Aspose.Words Kullanarak Metinde Liste Algılamayı Uygulama Kılavuzu
 
 ## giriiş
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **İçerik Analiz Araçları**:Daha ileri analiz veya raporlama için metin dosyalarından yapılandırılmış verileri çıkarın.
 3. **Veri Temizleme Görevleri**Boşlukları yöneterek ve liste öğelerini tanımlayarak metin biçimlendirmesini standartlaştırın.
 4. **Bağlantı Doğrulaması**:Bir grup metin belgesindeki bağlantıları etkin ve doğru olduklarından emin olmak için doğrulayın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

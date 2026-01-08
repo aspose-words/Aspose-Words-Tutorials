@@ -54,8 +54,6 @@ Salah satu fitur utama Aspose.Words for Java adalah kemampuannya **mengonversi d
 3. (Opsional) Sesuaikan opsi penyimpanan PDF untuk kepatuhan atau kualitas gambar.
 
 ## Mengekspor Dokumen dengan Aspose.Words
-Mengekspor dokumen adalah aspek penting dalam bekerja dengan dokumen di berbagai konteks. Dalam tutorial ini, kami akan mengeksplorasi bagaimana Aspose.Words for Java memudahkan proses ekspor dokumen. Baik Anda ingin mengekspor halaman tertentu, bagian, atau bahkan elemen individual dari sebuah dokumen, Anda akan menemukan panduan yang dibutuhkan di sini.
-
 ### Cara Menambahkan Watermark ke Dokumen yang Diekspor
 1. Buat `DocumentBuilder` untuk dokumen Anda.  
 2. Gunakan `builder.insertWatermarkText("CONFIDENTIAL");` atau `builder.insertWatermarkImage(imageStream);`.  

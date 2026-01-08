@@ -31,12 +31,6 @@ Se stai cercando **how to add watermark** mentre sfrutti tutto il potenziale di 
 ## Cos'è una filigrana e perché aggiungerla?
 Una filigrana è un'immagine o testo tenue posizionato dietro il contenuto principale di un documento. È comunemente usata per branding, avvisi di riservatezza o marcature di bozza. Aggiungere una filigrana programmaticamente ti consente di applicare indicazioni visive su migliaia di file senza modifiche manuali.
 
-## Perché usare Aspose.Words per Java?
-- **Supporto universale dei formati** – da DOCX, PDF, ODT a HTML.  
-- **Conversione ad alta fedeltà** – conserva layout, font e grafica.  
-- **Generazione integrata di barcode e grafici** – semplifica l'automazione dei documenti.  
-- **API robusta per forme, tabelle e filigrane** – tutto in una libreria.
-
 ## Prerequisiti
 - Java 8 o superiore (Java 17 consigliato).  
 - Libreria Aspose.Words for Java (scarica dal sito ufficiale).  

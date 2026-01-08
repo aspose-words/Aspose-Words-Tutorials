@@ -5,7 +5,9 @@
 "url": "/fr/python-net/formatting-styles/master-document-formatting-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser la mise en forme des documents avec Aspose.Words en Python
 
 ## Introduction
@@ -165,3 +167,7 @@ A5 : Concentrez-vous sur des termes tels que « Optimisation de la mémoire As
 - **Soutien**: [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 En suivant ce guide, vous pourrez implémenter efficacement Aspose.Words en Python pour gérer efficacement vos besoins de mise en forme de documents. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

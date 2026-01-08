@@ -5,7 +5,9 @@
 "url": "/ru/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Объединение основных таблиц в Aspose.Words для Python
 
 ## Введение
@@ -213,3 +215,7 @@ Aspose.Words для Python универсален. Вот несколько р�
 - [Бесплатная пробная версия](https://releases.aspose.com/words/python/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

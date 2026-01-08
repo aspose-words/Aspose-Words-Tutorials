@@ -5,7 +5,9 @@
 "url": "/es/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Dominando el esquema ODT y las unidades con Aspose.Words en Python
 
 ## Introducción
@@ -165,3 +167,7 @@ Al dominar la configuración del esquema ODT y las unidades de medida con Aspose
 - **Prueba gratuita**:Empiece con una prueba gratuita en [Descargas de Aspose para Python](https://releases.aspose.com/words/python/)
 - **Licencia temporal**:Aplica aquí: [Licencia temporal de Aspose](https://purchase.aspose.com/temporary-license/)
 - **Apoyo**:Únete a la discusión en [Foro de Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

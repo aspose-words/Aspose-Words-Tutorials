@@ -4,7 +4,9 @@
 "url": "/vi/python-net/document-comparison-tracking/"
 "weight": 13
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn so sánh và theo dõi tài liệu cho Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện để so sánh tài liệu và theo dõi các hoạt động sử dụng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -33,3 +35,7 @@ Tìm hiểu cách quản lý và theo dõi hiệu quả các bản sửa đổi 
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

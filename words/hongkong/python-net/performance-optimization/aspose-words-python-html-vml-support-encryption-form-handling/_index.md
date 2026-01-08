@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words for Python 掌握 HTML 最佳化：VML 支援、加密和表單處理
 
 ## 介紹
@@ -199,3 +201,7 @@ def test_ignore_noscript_elements():
 
 **Q：如何處理包含 VML 元素的大型 HTML 檔案？**
 答：使用批次和選擇性載入來有效地管理資源使用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

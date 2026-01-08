@@ -82,6 +82,8 @@
 تعلّم كيفية حفظ المستندات كملفات نصية في Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة مع أمثلة أكواد جافا.
 ### [تحديد تنسيق المستند في Aspose.Words لـ Java](./determining-document-format/)
 تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة.
+### [استعادة ملف Word تالف – دليل C# للفتح بأمان](./recover-corrupted-word-file-c-guide-to-open-safely/)
+تعلم كيفية استعادة ملفات Word التالفة باستخدام C# و Aspose.Words بطريقة آمنة وفعّالة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -5,7 +5,9 @@
 "url": "/pt/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Título: Dominando a otimização de marcadores de PDF com Aspose.Words para Python
 
 ## Introdução
@@ -180,3 +182,7 @@ Pronto para aprimorar seus PDFs? Comece a implementar essas técnicas hoje mesmo
 - **Apoiar**Obtenha ajuda da comunidade em [Fórum Aspose](https://forum.aspose.com/c/words/10)
 
 Este guia equipou você com o conhecimento necessário para otimizar marcadores de PDF usando o Aspose.Words para Python. Boa programação!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

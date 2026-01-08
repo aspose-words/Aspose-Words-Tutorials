@@ -5,7 +5,9 @@
 "url": "/th/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # เรียนรู้ Aspose.Words สำหรับ Python: ลงทะเบียนและยกเลิกการลงทะเบียนพจนานุกรมการแบ่งคำ
 
 ## การแนะนำ
@@ -173,3 +175,7 @@ A: ในปัจจุบัน คุณจะต้องยกเลิก�
 - **ซื้อ:** [ซื้อใบอนุญาต Aspose.Words](https://purchase.aspose.com/buy)
 - **ทดลองใช้งานฟรี:** [เริ่มต้นด้วยการทดลองใช้ฟรี](https://releases.aspose.com/words/python/)
 - **ใบอนุญาตชั่วคราว:** [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

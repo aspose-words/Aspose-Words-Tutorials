@@ -68,8 +68,6 @@ Zanurz się więc w samouczkach wymienionych poniżej i odblokuj pełny potencja
 Po więcej informacji zapoznaj się z [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), a aby rozpocząć, pobierz go z [here](https://releases.aspose.com/words/java/). Jeśli masz pytania lub potrzebujesz pomocy, śmiało skontaktuj się z naszym [support forum](https://forum.aspose.com/).
 
 ## Samouczki dotyczące konwersji i eksportu dokumentów
-### [Generowanie własnych etykiet kodów kreskowych w Aspose.Words for Java](./generating-custom-barcode-labels/)
-Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
 
 ### [Używanie generowania kodów kreskowych w Aspose.Words for Java](./using-barcode-generation/)
 Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step‑by‑step guide with source code for barcode generation. Enhance document automation with Aspose.Words.

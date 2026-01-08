@@ -66,22 +66,23 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ## 文档转换与导出教程
 ### [在 Aspose.Words for Java 中生成自定义条形码标签](./generating-custom-barcode-labels/)
-在 Aspose.Words for Java 中生成自定义条形码标签。了解如何使用 Aspose.Words for Java 创建个性化条形码解决方案的分步指南。
+
+使用 Aspose.Words for Java 生成自定义条形码标签。本指南将逐步指导您如何使用 Aspose.Words for Java 创建个性化条形码解决方案。
 
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
-了解如何在 Java 中使用 Aspose.Words for Java 生成自定义条形码。提供带源码的分步指南，帮助您通过 Aspose.Words 增强文档自动化。
+学习如何使用 Aspose.Words for Java 在 Java 中生成自定义条形码。包含条形码生成源代码的分步指南。使用 Aspose.Words 增强文档自动化。
 
 ### [在 Aspose.Words for Java 中使用图表](./using-charts/)
-了解如何在 Aspose.Words for Java 中创建和自定义图表。探索图表类型、格式设置以及坐标轴属性，以实现数据可视化。
+学习如何在 Aspose.Words for Java 中创建和自定义图表。探索数据可视化的图表类型、格式和轴属性。
 
 ### [在 Aspose.Words for Java 中使用 Office Math 对象](./using-office-math-objects/)
-利用 Aspose.Words for Java 在文档中释放数学公式的力量。轻松学习操作和显示 Office Math 对象。
+使用 Aspose.Words for Java 解锁文档中数学公式的强大功能。学习如何轻松操作和显示 Office Math 对象。
 
 ### [在 Aspose.Words for Java 中使用文档形状](./using-document-shapes/)
-在 Aspose.Words for Java 中解锁文档形状的强大功能。通过分步示例学习创建视觉吸引力的文档。
+解锁 Aspose.Words for Java 中文档形状的强大功能。通过分步示例学习如何创建视觉效果引人入胜的文档。
 
-### [在 Aspose.Words for Java 中向文档使用水印](./using-watermarks-to-documents/)
-了解如何在 Aspose.Words for Java 中向文档添加水印。自定义文字和图片水印，打造专业外观的文档。
+### [在 Aspose.Words for Java 中使用水印文档](./using-watermarks-to-documents/)
+了解如何在 Aspose.Words for Java 中为文档添加水印。自定义文本和图像水印，打造专业水印的文档。
 
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
 了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。

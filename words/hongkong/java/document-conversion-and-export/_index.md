@@ -50,9 +50,6 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 2. 呼叫 `doc.save("output.pdf", SaveFormat.PDF);`。  
 3. （可選）調整 PDF 儲存選項，以符合規範或設定影像品質。  
 
-## 使用 Aspose.Words 匯出文件
-文件匯出是處理文件於不同情境中的關鍵環節。在本教學中，我們將探討 Aspose.Words for Java 如何讓文件匯出變得輕鬆。無論您想匯出特定頁面、章節，甚至是文件中的單一元素，都能在此取得所需指引。
-
 ### 如何在匯出的文件中加入浮水印
 1. 為您的文件建立 `DocumentBuilder`。  
 2. 使用 `builder.insertWatermarkText("CONFIDENTIAL");` 或 `builder.insertWatermarkImage(imageStream);`。  

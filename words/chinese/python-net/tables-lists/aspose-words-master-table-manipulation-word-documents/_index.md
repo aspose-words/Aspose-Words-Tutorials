@@ -5,7 +5,9 @@
 "url": "/zh/python-net/tables-lists/aspose-words-master-table-manipulation-word-documents/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words for Python 掌握 Word 文档中的表格操作
 
 了解如何使用 Aspose.Words for Python 轻松修改 Microsoft Word 中的表格。本指南将帮助您删除或插入列并将其转换为纯文本，从而增强您的文档自动化任务。
@@ -149,3 +151,7 @@ print(column.to_txt())
 - [免费试用版](https://releases.aspose.com/words/python/)
 - [临时许可证申请](https://purchase.aspose.com/temporary-license/)
 - [支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/nl/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Documentbewerkingshandleidingen voor Aspose.Words Python-net
 
 Ontdek uitgebreide stapsgewijze handleidingen voor documentbewerkingen met Aspose.Words voor Python-net. Deze tutorials bevatten complete codevoorbeelden en gedetailleerde uitleg.
@@ -55,6 +57,9 @@ Een codetutorial voor Aspose.Words Python-net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken.
 
+    ### [Herstel beschadigd DOCX – Open & laad Word-document](./recover-corrupted-docx-open-load-word-document/)
+Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@ Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words 
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

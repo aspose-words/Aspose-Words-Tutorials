@@ -5,7 +5,9 @@
 "url": "/ja/python-net/document-operations/mastering-docsaveoptions-password-temp-folder-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # タイトル: Aspose.Words Python の DocSaveOptions をマスターする: パスワード保護と一時フォルダーの使用
 
 ## 導入
@@ -190,3 +192,7 @@ Word文書をパスワードで保護し、一時フォルダーを使用して�
 - [サポートフォーラム](https://forum.aspose.com/c/words/10)
 
 これらのリソースを活用して、Aspose.Words for Python の理解を深め、ドキュメント処理能力を強化しましょう。コーディングを楽しみましょう！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

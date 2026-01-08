@@ -5,7 +5,9 @@
 "url": "/ko/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words를 사용하여 Python에서 탭 정지를 마스터하여 문서 서식 지정
 
 ## 소개
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## 결론
 
 Aspose.Words를 사용하여 Python에서 탭 정지를 마스터하면 전문적인 서식의 문서를 쉽게 만들 수 있습니다. 이 가이드를 따라 탭 정지를 효과적으로 추가, 사용자 지정 및 관리하여 텍스트 기반 출력의 전반적인 품질을 향상시킬 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -53,9 +53,6 @@ Az Aspose.Words for Java egyik fő funkciója a **convert docx to pdf** és szá
 2. Hívd a `doc.save("output.pdf", SaveFormat.PDF);` metódust.  
 3. (Opcionális) Állítsd be a PDF mentési opciókat a megfelelőség vagy a képminőség érdekében.
 
-## Dokumentumok exportálása az Aspose.Words‑szal
-A dokumentumok exportálása kulcsfontosságú szempont a különböző kontextusokban való munkához. Ebben a bemutatóban megvizsgáljuk, hogyan teszi az Aspose.Words for Java az exportálást egyszerűvé. Akár konkrét oldalakat, szakaszokat vagy akár egyedi elemeket szeretnél exportálni egy dokumentumból, itt megtalálod a szükséges útmutatót.
-
 ### Hogyan adjunk vízjelet az exportált dokumentumokhoz
 1. Hozz létre egy `DocumentBuilder`‑t a dokumentumodhoz.  
 2. Használd a `builder.insertWatermarkText("CONFIDENTIAL");` vagy a `builder.insertWatermarkImage(imageStream);` metódust.  

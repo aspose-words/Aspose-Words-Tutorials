@@ -5,7 +5,9 @@
 "url": "/sv/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Huvudtabellsammanslagningar i Aspose.Words för Python
 
 ## Introduktion
@@ -213,3 +215,7 @@ Redo att ta dina kunskaper vidare? Fördjupa dig genom att utforska våra omfatt
 - [Gratis provperiod](https://releases.aspose.com/words/python/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

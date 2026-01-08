@@ -5,7 +5,9 @@
 "url": "/ru/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Как настроить лицензию Aspose.Words в Python с использованием файла или потока
 
 ## Введение
@@ -197,3 +199,7 @@ def apply_license_from_stream(stream):
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
 
 С этим руководством вы на верном пути к эффективному использованию Aspose.Words в ваших приложениях Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/hu/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Dinamikus dokumentumszegélyek Aspose.Words segítségével Pythonban
 
 ## Bevezetés
@@ -267,3 +269,7 @@ Fontolja meg az Aspose.Words integrálását más adatfeldolgozó eszközökkel 
 
 ## Következtetés
 Az Aspose.Words for Python ezen technikáinak elsajátításával professzionális megjelenésű dokumentumokat hozhat létre dinamikus szegélyekkel. Ez az útmutató szilárd alapot nyújt a könyvtár képességeinek további felfedezéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

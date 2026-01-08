@@ -10,7 +10,9 @@ keywords:
 - Python document styling
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Dynamic Document Borders with Aspose.Words for Python
 
 ## Introduction
@@ -272,3 +274,7 @@ Consider integrating Aspose.Words with other data processing tools for even more
 
 ## Conclusion
 By mastering these techniques with Aspose.Words for Python, you can create professional-looking documents with dynamic borders. This guide provides a strong foundation for further exploration of the library's capabilities.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

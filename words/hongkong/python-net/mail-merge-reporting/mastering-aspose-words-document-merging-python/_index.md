@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 掌握 Aspose.Words 在 Python 中合併文件的功能：保留來源編號並插入書籤
 
 ## 介紹
@@ -181,3 +183,7 @@ Aspose.Words 的保留來源編號和插入書籤的功能有許多實際應用�
 - [購買許可證](https://purchase.aspose.com/buy)
 - [免費試用許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

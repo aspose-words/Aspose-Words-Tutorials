@@ -4,7 +4,9 @@
 "url": "/fr/python-net/tables-lists/"
 "weight": 5
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriels sur les tables et les listes pour Aspose.Words Python-net
 
 Explorez des guides détaillés et détaillés pour les opérations sur les tableaux et les listes avec Aspose.Words pour Python-net. Ces tutoriels incluent des exemples de code complets et des explications détaillées.
@@ -45,3 +47,7 @@ Apprenez à fusionner efficacement des cellules de tableau en Python avec Aspose
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

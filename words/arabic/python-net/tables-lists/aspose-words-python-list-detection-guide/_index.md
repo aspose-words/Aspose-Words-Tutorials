@@ -5,7 +5,9 @@
 "url": "/ar/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # دليل لتنفيذ اكتشاف القائمة في النص باستخدام Aspose.Words لـ Python
 
 ## مقدمة
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **أدوات تحليل المحتوى**:استخراج البيانات المنظمة من ملفات النصوص لمزيد من التحليل أو إعداد التقارير.
 3. **مهام تنظيف البيانات**:توحيد تنسيق النص من خلال إدارة المسافات البيضاء وتحديد عناصر القائمة.
 4. **التحقق من الرابط**:تحقق من صحة الروابط داخل مجموعة من مستندات النصوص للتأكد من أنها نشطة وصحيحة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

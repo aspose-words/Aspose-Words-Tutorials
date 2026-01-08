@@ -5,7 +5,9 @@
 "url": "/it/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Fusione delle tabelle master in Aspose.Words per Python
 
 ## Introduzione
@@ -213,3 +215,7 @@ Pronti a migliorare ulteriormente le vostre competenze? Approfondite la vostra c
 - [Prova gratuita](https://releases.aspose.com/words/python/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

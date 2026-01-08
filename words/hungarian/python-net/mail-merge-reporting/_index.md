@@ -4,7 +4,9 @@
 "url": "/hu/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Körlevélkészítési és jelentéskészítési oktatóanyagok az Aspose.Words Python-nethez
 
 Fedezzen fel átfogó, lépésről lépésre szóló útmutatókat a körlevelezési és jelentéskészítési műveletekhez az Aspose.Words for Python-net használatával. Ezek az oktatóanyagok teljes kódpéldákat és részletes magyarázatokat tartalmaznak.
@@ -37,3 +39,7 @@ Tanuld meg, hogyan sajátíthatod el a dokumentumok egyesítését az Aspose.Wor
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

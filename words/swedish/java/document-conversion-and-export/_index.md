@@ -68,6 +68,7 @@ Så dyka ner i handledningarna nedan och lås upp hela potentialen i Aspose.Word
 För mer information, kolla in [Aspose.Words for Java API-dokumentation](https://reference.aspose.com/words/java/), och för att komma igång, ladda ner det från [här](https://releases.aspose.com/words/java/). Om du har några frågor eller behöver hjälp, tveka inte att kontakta vårt [support forum](https://forum.aspose.com/).
 
 ## Handledningar för dokumentkonvertering och export
+
 ### [Skapa anpassade streckkodsetiketter i Aspose.Words for Java](./generating-custom-barcode-labels/)
 Skapa anpassade streckkodsetiketter i Aspose.Words for Java. Lär dig hur du skapar personliga streckkodslösningar med Aspose.Words for Java i den här steg‑för‑steg‑guiden.
 

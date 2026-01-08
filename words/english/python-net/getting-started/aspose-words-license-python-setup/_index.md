@@ -12,7 +12,9 @@ keywords:
 - stream licensing
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Up an Aspose.Words License in Python Using a File or Stream
 
 ## Introduction
@@ -204,3 +206,7 @@ By now, you should be equipped to set up an Aspose.Words license using both file
 - [Support Forum](https://forum.aspose.com/c/words/10)
 
 With this guide, you're well on your way to leveraging Aspose.Words effectively in your Python applications. Happy coding!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

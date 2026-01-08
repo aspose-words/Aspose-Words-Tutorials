@@ -22,8 +22,11 @@
 | Τίτλος | Περιγραφή |
 | --- | --- |
 | [Εξαγωγή σε Markdown με στοίχιση περιεχομένου πίνακα](./export-into-markdown-with-table-content-alignment/) | Μάθετε πώς να εξάγετε έγγραφα Word στο Markdown με ευθυγραμμισμένους πίνακες χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για τέλειους πίνακες Markdown. |
-| [Ορισμός φακέλου εικόνων](./set-images-folder/) Μετατρέψτε έγγραφα Word σε Markdown με σωστή στοίχιση πινάκων χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον λεπτομερή οδηγό μας για τέλεια αποτελέσματα. |
-
+| [Ορισμός φακέλου εικόνων](./set-images-folder/) | Μετατρέψτε έγγραφα Word σε Markdown με σωστή στοίχιση πινάκων χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον λεπτομερή οδηγό μας για τέλεια αποτελέσματα. |
+| [Αποθήκευση Word ως PDF και Ανάκτηση Κατεστραμμένου Word – Μετατροπή Word σε Markdown σε C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
+| [Δημιουργία Προσβάσιμου PDF και Μετατροπή Word σε Markdown – Πλήρης Οδηγός C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF και να μετατρέψετε έγγραφα Word σε Markdown με πλήρη οδηγό C#. |
+| [Πώς να χρησιμοποιήσετε το Markdown: Μετατροπή DOCX σε Markdown με εξισώσεις LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε Markdown διατηρώντας εξισώσεις LaTeX με το Aspose.Words για .NET. |
+| [Μετατροπή docx σε markdown – Οδηγός βήμα‑βήμα C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown με αναλυτικό βήμα‑βήμα οδηγό C# χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

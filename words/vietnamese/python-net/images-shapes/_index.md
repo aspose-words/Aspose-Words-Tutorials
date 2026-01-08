@@ -4,7 +4,9 @@
 "url": "/vi/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn về Hình ảnh & Hình dạng cho Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện về hoạt động hình ảnh & hình dạng bằng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -32,6 +34,9 @@ Tìm hiểu cách tối ưu hóa xử lý hình ảnh trong tài liệu RTF vớ
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Tìm hiểu cách tối ưu hóa đầu ra SVG bằng Aspose.Words cho Python. Hướng dẫn này đề cập đến các tính năng tùy chỉnh như thuộc tính giống hình ảnh, hiển thị văn bản và cải tiến bảo mật.
 
+### [Cách Thêm Bóng Đổ trong C# – Hướng Dẫn Lập Trình Đầy Đủ](./how-to-add-shadow-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng trong tài liệu Word bằng C# và Aspose.Words.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Tìm hiểu cách tối ưu hóa đầu ra SVG bằng Aspose.Words cho Python. H
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

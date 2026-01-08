@@ -67,27 +67,27 @@ Alors, plongez dans les tutoriels listés ci‑dessous et exploitez tout le pote
 
 Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words for Java](https://reference.aspose.com/words/java/), et pour commencer, téléchargez‑la depuis [ici](https://releases.aspose.com/words/java/). Si vous avez des questions ou besoin d’assistance, n’hésitez pas à vous rendre sur notre [forum de support](https://forum.aspose.com/).
 
-## Tutoriels de conversion et d’exportation de documents
-### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Générez des étiquettes de code‑barres personnalisées avec Aspose.Words for Java. Apprenez à créer des solutions de code‑barres personnalisées en utilisant Aspose.Words for Java dans ce guide pas à pas.
+## Tutoriels de conversion et d'exportation de documents
+### [Génération d'étiquettes de codes-barres personnalisées dans Aspose.Words pour Java](./generating-custom-barcode-labels/)
+Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
 
-### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Apprenez à générer des codes‑barres personnalisés en Java avec Aspose.Words for Java. Guide pas à pas avec le code source pour la génération de codes‑barres. Améliorez l’automatisation des documents avec Aspose.Words.
+### [Utilisation de la génération de codes-barres dans Aspose.Words pour Java](./using-barcode-generation/)
+Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words pour Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
 
-### [Using Charts in Aspose.Words for Java](./using-charts/)
-Apprenez à créer et personnaliser des graphiques avec Aspose.Words for Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
+### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
+Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
 
-### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-Débloquez le pouvoir des équations mathématiques dans les documents avec Aspose.Words for Java. Apprenez à manipuler et afficher les objets Office Math sans effort.
+### [Utilisation des objets mathématiques Office dans Aspose.Words pour Java](./using-office-math-objects/)
+Exploitez la puissance des équations mathématiques dans vos documents avec Aspose.Words pour Java. Apprenez à manipuler et afficher facilement des objets Office Math.
 
-### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Débloquez le potentiel des formes de document avec Aspose.Words for Java. Apprenez à créer des documents visuellement attrayants grâce à des exemples pas à pas.
+### [Utilisation des formes de document dans Aspose.Words pour Java](./using-document-shapes/)
+Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Apprenez à créer des documents visuellement attrayants grâce à des exemples détaillés.
 
-### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-Apprenez à ajouter des filigranes aux documents avec Aspose.Words for Java. Personnalisez les filigranes texte et image pour des documents à l’aspect professionnel.
+### [Utilisation de filigranes pour les documents dans Aspose.Words pour Java](./using-watermarks-to-documents/)
+Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
 
-### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Apprenez à formater les tableaux et appliquer des styles de tableau avec Aspose.Words for Java. Explorez des guides pas à pas avec le code source pour un formatage efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
+Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
 
 ## Questions fréquentes
 

@@ -4,7 +4,9 @@
 "url": "/ar/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # دروس عمليات المستندات لـ Aspose.Words Python-net
 
 استكشف أدلة شاملة خطوة بخطوة لعمليات المستندات باستخدام Aspose.Words لـ Python-net. تتضمن هذه الدروس أمثلة برمجية كاملة وشروحات مفصلة.
@@ -55,6 +57,9 @@
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 تعرّف على كيفية تحويل مستندات Word إلى تنسيق PostScript باستخدام Aspose.Words لـ Python. يغطي هذا الدليل خيارات الإعداد والتحويل وطباعة طيات الكتب.
 
+### [استعادة ملف DOCX تالف – فتح وتحميل مستند Word](./recover-corrupted-docx-open-load-word-document/)
+تعلم كيفية استعادة ملفات DOCX التالفة وفتحها وتحميلها باستخدام Aspose.Words للغة بايثون.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

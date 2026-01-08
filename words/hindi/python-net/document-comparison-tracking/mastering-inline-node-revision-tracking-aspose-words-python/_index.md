@@ -5,7 +5,9 @@
 "url": "/hi/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words के साथ पायथन में इनलाइन नोड रिविजन ट्रैकिंग में महारत हासिल करें
 
 ## परिचय
@@ -127,3 +129,7 @@ assert runs[5].is_delete_revision
 - [निःशुल्क परीक्षण और अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/words/10)
 हमें उम्मीद है कि यह गाइड आपको पायथन में Aspose.Words का उपयोग करके दस्तावेज़ संशोधनों को प्रभावी ढंग से प्रबंधित करने में सक्षम बनाएगी। हैप्पी कोडिंग!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

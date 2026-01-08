@@ -82,6 +82,8 @@ Tìm hiểu cách lưu tài liệu dưới dạng RTF bằng Aspose.Words cho Ja
 Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java.
 ### [Xác định định dạng tài liệu trong Aspose.Words cho Java](./determining-document-format/)
 Tìm hiểu cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Xác định DOC, DOCX và nhiều định dạng khác. Sắp xếp tệp hiệu quả.
+### [Khôi phục tệp Word bị hỏng – Hướng dẫn C# mở an toàn](./recover-corrupted-word-file-c-guide-to-open-safely/)
+Hướng dẫn cách khôi phục và mở an toàn các tệp Word bị hỏng bằng C# và Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
