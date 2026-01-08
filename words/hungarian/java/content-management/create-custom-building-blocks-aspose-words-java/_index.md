@@ -12,9 +12,9 @@ url: /hu/java/content-management/create-custom-building-blocks-aspose-words-java
 weight: 1
 ---
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -245,4 +245,4 @@ A: Tekerj be az Aspose.Words hívásokat try‑catch blokkokba, naplózd a kivé
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
