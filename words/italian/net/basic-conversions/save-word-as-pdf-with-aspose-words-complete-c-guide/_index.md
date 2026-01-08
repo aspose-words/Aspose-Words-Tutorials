@@ -237,5 +237,5 @@ Buon coding, e che i tuoi PDF siano sempre accessibili! 🚀
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/productsf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
