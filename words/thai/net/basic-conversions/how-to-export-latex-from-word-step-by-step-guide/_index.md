@@ -201,6 +201,6 @@ foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 มีคำถามเกี่ยวกับกรณีขอบ, การให้สิทธิ์, หรือการปรับประสิทธิภาพ? แสดงความคิดเห็นด้านล่าง—ขอให้เขียนโค้ดอย่างสนุก!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
