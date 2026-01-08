@@ -89,28 +89,6 @@ L'appel `doc.save` écrit le PDF généré à l'emplacement que vous spécifiez.
 | **Source protégée par mot de passe** | Chargez le document avec `new Document("file.docx", new LoadOptions("sourcePassword"))`. |
 | **Sauts de page incorrects** | Ajustez la mise en page avec `doc.updatePageLayout()` avant l'enregistrement. |
 
-## FAQ
-
-### Comment gérer le formatage complexe pendant la conversion ?
-
-Aspose.Words for Java préserve le formatage complexe, tel que les tableaux, les images et les styles, pendant le processus de conversion. Vous n'avez pas à vous soucier de perdre la structure ou le design du document.
-
-### Puis‑je convertir plusieurs documents en lot ?
-
-Oui, vous pouvez convertir en lot plusieurs documents en PDF en parcourant une liste de fichiers et en appliquant le processus de conversion à chacun.
-
-### Aspose.Words est‑il adapté au traitement de documents de niveau entreprise ?
-
-Absolument. Aspose.Words for Java est largement utilisé dans les applications de niveau entreprise pour l'automatisation de documents, le reporting et plus encore. C'est une solution fiable pour gérer des tâches de documents complexes.
-
-### Aspose.Words prend‑il en charge les documents protégés par mot de passe ?
-
-Oui, Aspose.Words peut gérer les documents Word protégés par mot de passe. Vous pouvez fournir le mot de passe lors du chargement du document si nécessaire.
-
-### Où puis‑je trouver plus de documentation et d'exemples ?
-
-Pour une documentation complète et des exemples de code, consultez la documentation Aspose.Words for Java [here](https://reference.aspose.com/words/java/).
-
 ## Questions fréquemment posées
 
 **Q : Puis‑je générer un PDF à partir de Word sans installer Microsoft Office ?**  

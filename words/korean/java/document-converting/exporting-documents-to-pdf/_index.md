@@ -88,23 +88,6 @@ doc.save("output.pdf", saveOptions);
 | **비밀번호 보호된 원본** | `new Document("file.docx", new LoadOptions("sourcePassword"))` 로 문서를 로드합니다. |
 | **잘못된 페이지 구분** | 저장하기 전에 `doc.updatePageLayout()` 로 레이아웃을 조정합니다. |
 
-## FAQ
-
-### 변환 중 복잡한 서식을 어떻게 처리할 수 있나요?
-Aspose.Words for Java는 변환 과정에서 표, 이미지, 스타일 등 복잡한 서식을 보존합니다. 문서 구조나 디자인이 손실될 걱정은 없습니다.
-
-### 여러 문서를 일괄 변환할 수 있나요?
-예, 파일 목록을 순회하면서 각 파일에 변환 과정을 적용하여 여러 문서를 PDF로 일괄 변환할 수 있습니다.
-
-### Aspose.Words가 엔터프라이즈 수준 문서 처리에 적합한가요?
-물론입니다. Aspose.Words for Java는 문서 자동화, 보고 등 엔터프라이즈 수준 애플리케이션에서 널리 사용됩니다. 복잡한 문서 작업을 처리하는 신뢰할 수 있는 솔루션입니다.
-
-### Aspose.Words가 비밀번호 보호된 문서를 지원하나요?
-예, Aspose.Words는 비밀번호가 설정된 Word 문서를 처리할 수 있습니다. 필요하면 문서를 로드할 때 비밀번호를 제공하면 됩니다.
-
-### 더 많은 문서와 예제는 어디서 찾을 수 있나요?
-포괄적인 문서와 코드 예제를 보려면 Aspose.Words for Java 문서 페이지를 [여기](https://reference.aspose.com/words/java/)에서 확인하십시오.
-
 ## 자주 묻는 질문
 
 **Q: Microsoft Office를 설치하지 않고 Word에서 PDF를 생성할 수 있나요?**  

@@ -91,28 +91,6 @@ Volání `doc.save` zapíše vygenerované PDF na určené místo. Můžete změ
 
 ## Často kladené otázky
 
-### Jak mohu během převodu zvládnout složité formátování?
-
-Aspose.Words pro Java zachovává složité formátování, jako jsou tabulky, obrázky a styly, během převodu. Nemusíte se obávat ztráty struktury nebo designu dokumentu.
-
-### Mohu převádět více dokumentů najednou?
-
-Ano, můžete hromadně převádět více dokumentů do PDF tím, že projdete seznam souborů a na každý aplikujete proces převodu.
-
-### Je Aspose.Words vhodný pro podnikovou úroveň zpracování dokumentů?
-
-Rozhodně. Aspose.Words pro Java je široce používán v podnikovém prostředí pro automatizaci dokumentů, reportování a další úkoly. Jedná se o osvědčené řešení pro složité úlohy s dokumenty.
-
-### Podporuje Aspose.Words dokumenty chráněné heslem?
-
-Ano, Aspose.Words dokáže pracovat s Word dokumenty chráněnými heslem. Heslo můžete při načítání dokumentu zadat podle potřeby.
-
-### Kde najdu další dokumentaci a příklady?
-
-Pro komplexní dokumentaci a ukázky kódu navštivte dokumentaci Aspose.Words pro Java [zde](https://reference.aspose.com/words/java/).
-
-## Často kladené otázky
-
 **Q: Mohu generovat PDF z Wordu bez instalace Microsoft Office?**  
 A: Ano. Aspose.Words pro Java provádí převod kompletně v Javě, bez jakýchkoli závislostí na Office.
 

@@ -89,28 +89,6 @@ A `doc.save` hívás a generált PDF-et a megadott helyre írja. Megváltoztatha
 | **Jelszóval védett forrás** | Töltse be a dokumentumot a `new Document("file.docx", new LoadOptions("sourcePassword"))` segítségével. |
 | **Helytelen oldaltörések** | Mentség előtt állítsa be a layoutot a `doc.updatePageLayout()` hívással. |
 
-## Gyakran ismételt kérdések
-
-### Hogyan kezelhetem a komplex formázást a konverzió során?
-
-Az Aspose.Words for Java megőrzi a komplex formázást, például táblázatokat, képeket és stílusokat a konverziós folyamat során. Nem kell aggódnia a dokumentumszerkezet vagy a dizájn elvesztése miatt.
-
-### Konvertálhatok több dokumentumot tömegesen?
-
-Igen, tömegesen konvertálhat több dokumentumot PDF-re, ha egy fájllistán iterál és minden egyes fájlra alkalmazza a konverziós folyamatot.
-
-### Az Aspose.Words alkalmas vállalati szintű dokumentumfeldolgozásra?
-
-Teljesen. Az Aspose.Words for Java széles körben használatos vállalati szintű alkalmazásokban dokumentumautomatizálásra, jelentéskészítésre és egyebekre. Megbízható megoldás a komplex dokumentumfeladatok kezelésére.
-
-### Az Aspose.Words támogatja a jelszóval védett dokumentumokat?
-
-Igen, az Aspose.Words képes kezelni a jelszóval védett Word dokumentumokat. Szükség esetén megadhatja a jelszót a dokumentum betöltésekor.
-
-### Hol találok további dokumentációt és példákat?
-
-A részletes dokumentációért és kódrészletekért látogassa meg az Aspose.Words for Java dokumentációt [here](https://reference.aspose.com/words/java/).
-
 ## Gyakran feltett kérdések
 
 **Q: Generálhatok PDF-et Word-ből anélkül, hogy telepíteném a Microsoft Office-t?**  

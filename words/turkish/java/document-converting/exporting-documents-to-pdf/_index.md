@@ -87,23 +87,6 @@ doc.save("output.pdf", saveOptions);
 | **Şifre korumalı kaynak** | Belgeyi `new Document("file.docx", new LoadOptions("sourcePassword"))` ile yükleyin. |
 | **Yanlış sayfa sonları** | Kaydetmeden önce `doc.updatePageLayout()` ile düzeni ayarlayın. |
 
-## SSS
-
-### Dönüşüm sırasında karmaşık biçimlendirmeyi nasıl yönetebilirim?
-Aspose.Words for Java, dönüşüm sürecinde tablolar, görüntüler ve stiller gibi karmaşık biçimlendirmeyi korur. Belge yapısını veya tasarımını kaybetme konusunda endişelenmenize gerek yok.
-
-### Birden fazla belgeyi toplu olarak dönüştürebilir miyim?
-Evet, dosya listesi üzerinde döngü yaparak ve dönüşüm sürecini her birine uygulayarak birden fazla belgeyi toplu olarak PDF'e dönüştürebilirsiniz.
-
-### Aspose.Words kurumsal düzeyde belge işleme için uygun mu?
-Kesinlikle. Aspose.Words for Java, belge otomasyonu, raporlama ve daha fazlası için kurumsal düzeyde uygulamalarda yaygın olarak kullanılır. Karmaşık belge görevlerini yönetmek için güvenilir bir çözümdür.
-
-### Aspose.Words şifre korumalı belgeleri destekliyor mu?
-Evet, Aspose.Words şifre korumalı Word belgelerini işleyebilir. Gerekirse belgeyi yüklerken şifreyi sağlayabilirsiniz.
-
-### Daha fazla dokümantasyon ve örnek nereden bulunur?
-Kapsamlı dokümantasyon ve kod örnekleri için Aspose.Words for Java dokümantasyonuna [buradan](https://reference.aspose.com/words/java/) göz atın.
-
 ## Sık Sorulan Sorular
 
 **S: Microsoft Office kurmadan Word'den PDF oluşturabilir miyim?**  

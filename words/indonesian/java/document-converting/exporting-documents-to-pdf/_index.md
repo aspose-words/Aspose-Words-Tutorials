@@ -89,28 +89,6 @@ Pemanggilan `doc.save` menulis PDF yang dihasilkan ke lokasi yang Anda tentukan.
 | **Sumber terlindungi kata sandi** | Muat dokumen dengan `new Document("file.docx", new LoadOptions("sourcePassword"))`. |
 | **Pemenggalan halaman tidak tepat** | Sesuaikan tata letak dengan `doc.updatePageLayout()` sebelum menyimpan. |
 
-## FAQ
-
-### Bagaimana saya dapat menangani pemformatan kompleks selama konversi?
-
-Aspose.Words untuk Java mempertahankan pemformatan kompleks, seperti tabel, gambar, dan gaya, selama proses konversi. Anda tidak perlu khawatir kehilangan struktur atau desain dokumen apa pun.
-
-### Bisakah saya mengonversi banyak dokumen secara massal?
-
-Ya, Anda dapat mengonversi banyak dokumen ke PDF secara batch dengan iterasi daftar file dan menerapkan proses konversi pada masing‑masing.
-
-### Apakah Aspose.Words cocok untuk pemrosesan dokumen tingkat perusahaan?
-
-Tentu saja. Aspose.Words untuk Java banyak digunakan dalam aplikasi tingkat perusahaan untuk otomasi dokumen, pelaporan, dan lainnya. Ini adalah solusi terpercaya untuk menangani tugas dokumen yang kompleks.
-
-### Apakah Aspose.Words mendukung dokumen yang dilindungi kata sandi?
-
-Ya, Aspose.Words dapat menangani dokumen Word yang dilindungi kata sandi. Anda dapat memberikan kata sandi saat memuat dokumen jika diperlukan.
-
-### Di mana saya dapat menemukan dokumentasi dan contoh lebih lanjut?
-
-Untuk dokumentasi lengkap dan contoh kode, kunjungi dokumentasi Aspose.Words untuk Java [here](https://reference.aspose.com/words/java/).
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menghasilkan PDF dari Word tanpa menginstal Microsoft Office?**  

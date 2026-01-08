@@ -91,28 +91,6 @@ De `doc.save`‑aanroep schrijft de gegenereerde PDF naar de locatie die je opge
 
 ## Veelgestelde vragen
 
-### Hoe kan ik complexe opmaak tijdens de conversie afhandelen?
-
-Aspose.Words for Java behoudt complexe opmaak, zoals tabellen, afbeeldingen en stijlen, tijdens het conversieproces. Je hoeft je geen zorgen te maken over het verlies van documentstructuur of ontwerp.
-
-### Kan ik meerdere documenten in bulk converteren?
-
-Ja, je kunt meerdere documenten in batch naar PDF converteren door door een lijst met bestanden te itereren en het conversieproces op elk bestand toe te passen.
-
-### Is Aspose.Words geschikt voor enterprise‑level documentverwerking?
-
-Absoluut. Aspose.Words for Java wordt veel gebruikt in enterprise‑level applicaties voor documentautomatisering, rapportage en meer. Het is een betrouwbare oplossing voor het afhandelen van complexe documenttaken.
-
-### Ondersteunt Aspose.Words wachtwoord‑beveiligde documenten?
-
-Ja, Aspose.Words kan wachtwoord‑beveiligde Word‑documenten verwerken. Je kunt het wachtwoord tijdens het laden van het document opgeven indien nodig.
-
-### Waar kan ik meer documentatie en voorbeelden vinden?
-
-Voor uitgebreide documentatie en code‑voorbeelden, bezoek de Aspose.Words for Java‑documentatie [hier](https://reference.aspose.com/words/java/).
-
-## Veelgestelde vragen
-
 **Q: Kan ik PDF genereren vanuit Word zonder Microsoft Office te installeren?**  
 A: Ja. Aspose.Words for Java voert de conversie volledig uit in Java, zonder enige Office‑afhankelijkheden.
 

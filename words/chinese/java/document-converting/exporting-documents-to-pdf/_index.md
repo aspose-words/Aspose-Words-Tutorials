@@ -88,28 +88,6 @@ doc.save("output.pdf", saveOptions);
 | **受密码保护的源文件** | 使用 `new Document("file.docx", new LoadOptions("sourcePassword"))` 加载文档。 |
 | **页面断页不正确** | 在保存前使用 `doc.updatePageLayout()` 调整布局。 |
 
-## 常见问题
-
-### 在转换过程中如何处理复杂格式？
-
-Aspose.Words for Java 在转换过程中会保留复杂的格式，如表格、图像和样式。您无需担心文档结构或设计会丢失。
-
-### 我可以批量转换多个文档吗？
-
-是的，您可以通过遍历文件列表并对每个文件执行转换过程来批量将多个文档转换为 PDF。
-
-### Aspose.Words 适合企业级文档处理吗？
-
-当然。Aspose.Words for Java 被广泛用于企业级应用的文档自动化、报表等场景，是处理复杂文档任务的可信解决方案。
-
-### Aspose.Words 支持受密码保护的文档吗？
-
-是的，Aspose.Words 能处理受密码保护的 Word 文档。必要时，您可以在加载文档时提供密码。
-
-### 在哪里可以找到更多文档和示例？
-
-欲获取完整的文档和代码示例，请访问 Aspose.Words for Java 文档 [here](https://reference.aspose.com/words/java/)。
-
 ## 常见问答
 
 **Q: 我可以在不安装 Microsoft Office 的情况下从 Word 生成 PDF 吗？**  

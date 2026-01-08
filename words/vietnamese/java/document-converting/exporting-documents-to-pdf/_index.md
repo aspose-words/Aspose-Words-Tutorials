@@ -87,23 +87,6 @@ Lệnh `doc.save` ghi PDF đã tạo vào vị trí bạn chỉ định. Bạn c
 | **Nguồn được bảo vệ bằng mật khẩu** | Tải tài liệu bằng `new Document("file.docx", new LoadOptions("sourcePassword"))`. |
 | **Ngắt trang không đúng** | Điều chỉnh bố cục bằng `doc.updatePageLayout()` trước khi lưu. |
 
-## Câu hỏi thường gặp
-
-### Làm thế nào tôi có thể xử lý định dạng phức tạp trong quá trình chuyển đổi?
-Aspose.Words cho Java giữ nguyên định dạng phức tạp, như bảng, hình ảnh và kiểu dáng, trong quá trình chuyển đổi. Bạn không cần lo lắng về việc mất bất kỳ cấu trúc hoặc thiết kế nào của tài liệu.
-
-### Tôi có thể chuyển đổi nhiều tài liệu cùng lúc không?
-Có, bạn có thể chuyển đổi hàng loạt nhiều tài liệu sang PDF bằng cách lặp qua danh sách tệp và áp dụng quy trình chuyển đổi cho từng tệp.
-
-### Aspose.Words có phù hợp cho xử lý tài liệu cấp doanh nghiệp không?
-Chắc chắn. Aspose.Words cho Java được sử dụng rộng rãi trong các ứng dụng cấp doanh nghiệp cho tự động hoá tài liệu, báo cáo và hơn thế nữa. Đây là giải pháp đáng tin cậy để xử lý các nhiệm vụ tài liệu phức tạp.
-
-### Aspose.Words có hỗ trợ tài liệu được bảo vệ bằng mật khẩu không?
-Có, Aspose.Words có thể xử lý các tài liệu Word được bảo vệ bằng mật khẩu. Bạn có thể cung cấp mật khẩu khi tải tài liệu nếu cần.
-
-### Tôi có thể tìm tài liệu và ví dụ thêm ở đâu?
-Để có tài liệu đầy đủ và các ví dụ mã, hãy truy cập tài liệu Aspose.Words cho Java [here](https://reference.aspose.com/words/java/).
-
 ## Các câu hỏi thường gặp
 
 **Q: Tôi có thể tạo PDF từ Word mà không cài đặt Microsoft Office không?**  

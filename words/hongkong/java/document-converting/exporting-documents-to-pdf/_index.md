@@ -86,23 +86,6 @@ doc.save("output.pdf", saveOptions);
 | **Password‑protected source** | 使用 `new Document("file.docx", new LoadOptions("sourcePassword"))` 載入文件。 |
 | **Incorrect page breaks** | 在儲存之前使用 `doc.updatePageLayout()` 調整版面配置。 |
 
-## 常見問答
-
-### 在轉換過程中，我如何處理複雜的格式？
-Aspose.Words for Java 在轉換過程中會保留複雜的格式，例如表格、圖像與樣式。您無需擔心會遺失任何文件結構或設計。
-
-### 我可以批次轉換多個文件嗎？
-可以，您可以透過遍歷檔案清單，對每個檔案套用轉換程序，以批次將多個文件轉換為 PDF。
-
-### Aspose.Words 適合企業級文件處理嗎？
-絕對適合。Aspose.Words for Java 廣泛應用於企業級文件自動化、報告等領域，是處理複雜文件任務的可靠解決方案。
-
-### Aspose.Words 支援受密碼保護的文件嗎？
-可以，Aspose.Words 能處理受密碼保護的 Word 文件。必要時可在載入文件時提供密碼。
-
-### 我可以在哪裡找到更多文件與範例？
-欲取得完整文件與程式碼範例，請前往 Aspose.Words for Java 文件 [here](https://reference.aspose.com/words/java/)。
-
 ## 常見問題
 
 **Q: 我可以在不安裝 Microsoft Office 的情況下從 Word 產生 PDF 嗎？**  
