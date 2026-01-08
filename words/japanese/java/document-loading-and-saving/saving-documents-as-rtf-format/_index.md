@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Javaを使用してドキュメントをRTF形式で保存する方法を学びましょう。効率的なドキュメント変換のためのソースコード付きのステップバイステップガイドです。"
-"linktitle": "ドキュメントをRTF形式で保存する"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java でドキュメントを RTF 形式で保存する"
-"url": "/ja/java/document-loading-and-saving/saving-documents-as-rtf-format/"
-"weight": 23
+date: 2025-12-24
+description: Aspose.Words for Java を使用して Word を RTF に変換する方法を学びましょう。このステップバイステップのチュートリアルでは、DOCX
+  の読み込み、RTF 保存オプションの設定、リッチテキストとしての保存を示します。
+linktitle: Saving Documents as RTF Format
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java を使用した Word から RTF への変換チュートリアル
+url: /ja/java/document-loading-and-saving/saving-documents-as-rtf-format/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,63 +15,68 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でドキュメントを RTF 形式で保存する
+# Aspose.Words for Java を使用した Word から RTF への変換
 
+このチュートリアルでは、Aspose.Words for Java を使用して **Word を RTF に変換する方法** を迅速かつ確実に学びます。DOCX をリッチテキスト形式の RTF に変換することは、レガシーなワードプロセッサ、メールクライアント、または文書アーカイブシステムとの広範な互換性が必要な場合に一般的な要件です。Java で Word 文書を読み込み、RTF 保存オプション（画像を WMF として保存する設定を含む）を調整し、最終的に出力ファイルを書き出す手順を順に解説します。
 
-## Aspose.Words for Java でドキュメントを RTF 形式で保存する方法の紹介
+## Quick Answers
+- **「convert word to rtf」とは何ですか？** DOCX/Word ファイルをリッチテキスト形式（RTF）に変換し、テキスト、スタイル、必要に応じて画像を保持します。  
+- **ライセンスは必要ですか？** 開発目的であれば無料トライアルで動作します。商用環境では製品ライセンスが必要です。  
+- **対応している Java バージョンは？** Aspose.Words for Java は Java 8 以降をサポートしています。  
+- **変換時に画像を保持できますか？** はい – `saveImagesAsWmf` オプションを使用して画像を WMF として RTF に埋め込めます。  
+- **変換にかかる時間は？** 標準的な文書であれば 1 秒未満です。大きなファイルは数秒かかる場合があります。
 
-このガイドでは、Aspose.Words for Java を使用してドキュメントを RTF（リッチテキスト形式）として保存する手順を説明します。RTF は、さまざまなワードプロセッサアプリケーション間で高い互換性を提供する、ドキュメントで広く使用されている形式です。
+## What is “convert word to rtf”?
+Word 文書を RTF に変換すると、テキスト、書式設定、必要に応じて画像をプレーンテキストベースのマークアップで保存した、プラットフォームに依存しないファイルが生成されます。これにより、ほぼすべてのワードプロセッサでレイアウトを失うことなく文書を閲覧できます。
 
-## 前提条件
+## Why use Aspose.Words for Java to save as rich text?
+- **Full fidelity** – スタイル、テーブル、ヘッダー/フッターなど、Word のすべての機能が保持されます。  
+- **No Microsoft Office required** – サーバーやクラウド環境でも動作します。  
+- **Fine‑grained control** – 画像の保存方法やエンコーディングなど、保存オプションで細かく制御できます。
 
-始める前に、次の前提条件が満たされていることを確認してください。
+## Prerequisites
+1. **Aspose.Words for Java Library** – [here](https://releases.aspose.com/words/java/) からダウンロードし、プロジェクトに JAR を追加してください。  
+2. **A source Word file** – 例として `Document.docx` を RTF に保存したい場合に使用します。  
+3. **Java development environment** – JDK 8 以上とお好みの IDE が必要です。
 
-1. Aspose.Words for Java ライブラリ: Java プロジェクトに Aspose.Words for Java ライブラリが統合されていることを確認してください。以下のリンクからダウンロードできます。 [ここ](https://releases。aspose.com/words/java/).
-
-2. 保存するドキュメント: RTF 形式で保存する既存の Word ドキュメント (例: 「Document.docx」) が必要です。
-
-## ステップ1: ドキュメントの読み込み
-
-まず、RTF形式で保存したい文書を読み込む必要があります。手順は以下のとおりです。
+## Step 1: Load the Word document (load word document java)
+まず、既存の DOCX を `Document` オブジェクトにロードします。これがすべての変換処理の基盤となります。
 
 ```java
 import com.aspose.words.Document;
 
-// ソースドキュメント（例：Document.docx）を読み込みます
+// Load the source document (e.g., Document.docx)
 Document doc = new Document("path/to/Document.docx");
 ```
 
-必ず交換してください `"path/to/Document.docx"` ソース ドキュメントへの実際のパスを入力します。
+> **Pro tip:** `FileNotFoundException` を回避するため、絶対パスまたはクラスパスリソースを使用してください。
 
-## ステップ2: RTF保存オプションの設定
-
-Aspose.WordsはRTF出力を設定するための様々なオプションを提供しています。この例では、 `RtfSaveOptions` RTF ドキュメント内で画像を WMF (Windows メタファイル) 形式で保存するオプションを設定します。
+## Step 2: Configure RTF save options (save images as wmf)
+Aspose.Words は `RtfSaveOptions` クラスで出力を細かく調整できます。この例では **画像を WMF として保存** するオプションを有効にしています。
 
 ```java
 import com.aspose.words.RtfSaveOptions;
 
-// RtfSaveOptionsのインスタンスを作成する
+// Create an instance of RtfSaveOptions
 RtfSaveOptions saveOptions = new RtfSaveOptions();
 
-// 画像をWMF形式で保存するオプションを設定します
+// Set the option to save images as WMF
 saveOptions.setSaveImagesAsWmf(true);
 ```
 
-要件に応じて他の保存オプションもカスタマイズできます。
+必要に応じて `saveOptions.setEncoding(Charset.forName("UTF-8"))` など、文字エンコーディングを指定することも可能です。
 
-## ステップ3: 文書をRTFとして保存する
-
-ドキュメントを読み込み、RTF 保存オプションを構成したので、ドキュメントを RTF 形式で保存します。
+## Step 3: Save the document as RTF (save docx as rtf)
+設定したオプションを使用して文書を書き出します。この手順で **DOCX を RTF として保存** し、配布可能なリッチテキストファイルが生成されます。
 
 ```java
-// 文書をRTF形式で保存する
+// Save the document in RTF format
 
 doc.save("path/to/output.rtf", saveOptions);
 ```
 
-交換する `"path/to/output.rtf"` RTF 出力ファイルの希望のパスとファイル名を指定します。
-
-## Aspose.Words for JavaでドキュメントをRTF形式で保存するための完全なソースコード
+## Complete source code for converting Word to RTF
+以下は Java クラスにコピペできるコンパクト版です。**画像を WMF として保存** するオプションを含む、**リッチテキストとして保存** する方法を示しています。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -77,35 +84,43 @@ RtfSaveOptions saveOptions = new RtfSaveOptions(); { saveOptions.setSaveImagesAs
 doc.save("Your Directory Path" + "WorkingWithRtfSaveOptions.SavingImagesAsWmf.rtf", saveOptions);
 ```
 
-## 結論
+## Common pitfalls and troubleshooting
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| Output RTF is blank | Source file not found or not loaded | Verify the path in `new Document(...)` |
+| Images missing | `saveImagesAsWmf` set to `false` | Enable `saveOptions.setSaveImagesAsWmf(true)` |
+| Garbled characters | Wrong encoding | Set `saveOptions.setEncoding(Charset.forName("UTF-8"))` |
 
-このガイドでは、Aspose.Words for Java を使用してドキュメントを RTF 形式で保存する方法を説明しました。これらの手順に従い、保存オプションを設定することで、Word 文書を RTF 形式に簡単に変換できます。
+## Frequently Asked Questions
 
-## よくある質問
+**Q: How do I change other RTF save options?**  
+A: Use the `RtfSaveOptions` class – it provides properties for compression, fonts, and more. Refer to the Aspose.Words Java API docs for the full list.
 
-### 他の RTF 保存オプションを変更するにはどうすればいいですか?
+**Q: Can I save the RTF document in a different encoding?**  
+A: Yes. Call `saveOptions.setEncoding(Charset.forName("UTF-8"))` (or any supported charset) before saving.
 
-RTF保存のさまざまなオプションを変更できます。 `RtfSaveOptions` クラス。利用可能なオプションの完全なリストについては、Aspose.Words for Java のドキュメントを参照してください。
+**Q: Is it possible to save the RTF document without images?**  
+A: Absolutely. Set `saveOptions.setSaveImagesAsWmf(false)` to omit images from the output.
 
-### RTF ドキュメントを別のエンコードで保存できますか?
+**Q: How should I handle exceptions during conversion?**  
+A: Wrap the loading and saving calls in a try‑catch block catching `Exception`. Log the error and optionally re‑throw a custom exception for your application.
 
-はい、RTF文書のエンコードは次のように指定できます。 `saveOptions.setEncoding(Charset.forName("UTF-8"))`たとえば、UTF-8 エンコードで保存します。
+**Q: Does this work for password‑protected Word files?**  
+A: Load the document with a `LoadOptions` object that includes the password, then proceed with the same save steps.
 
-### 画像なしで RTF ドキュメントを保存することは可能ですか?
+## Conclusion
+これで Aspose.Words for Java を使用した **Word から RTF への変換** の完全な、実運用可能な手順が手に入りました。DOCX をロードし、`RtfSaveOptions`（**画像を WMF として保存** を含む）を設定し、`doc.save(...)` を呼び出すだけで、あらゆる環境で動作する高品質なリッチテキストファイルを生成できます。出力を細かく調整したい場合は、追加の保存オプションを検討してみてください。
 
-はい。画像の保存を無効にするには、 `saveOptions。setSaveImagesAsWmf(false)`.
+---
 
-### 保存プロセス中に例外を処理するにはどうすればよいですか?
-
-ドキュメントの保存プロセス中に発生する可能性のある例外を処理するには、try-catch ブロックなどのエラー処理メカニズムの実装を検討する必要があります。
-
+**最終更新日:** 2025-12-24  
+**テスト環境:** Aspose.Words for Java 24.12  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

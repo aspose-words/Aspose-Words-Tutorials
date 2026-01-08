@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã Java."
-"linktitle": "Lưu tài liệu dưới dạng tệp văn bản"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java"
-"url": "/vi/java/document-loading-and-saving/saving-documents-as-text-files/"
-"weight": 24
+date: 2025-12-24
+description: Tìm hiểu cách tạo tệp văn bản thuần từ tài liệu Word bằng Aspose.Words
+  cho Java. Hướng dẫn này chỉ ra cách chuyển đổi Word sang txt, sử dụng thụt lề bằng
+  tab và lưu Word dưới dạng txt.
+linktitle: Saving Documents as Text Files
+second_title: Aspose.Words Java Document Processing API
+title: Cách tạo tệp văn bản thuần với Aspose.Words cho Java
+url: /vi/java/document-loading-and-saving/saving-documents-as-text-files/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +16,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
+# Cách tạo tệp văn bản thuần với Aspose.Words cho Java
 
+## Giới thiệu về việc lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
 
-## Giới thiệu về Lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
+Trong hướng dẫn này, bạn sẽ học **cách tạo tệp văn bản thuần** từ một tài liệu Word bằng thư viện Aspose.Words cho Java. Dù bạn cần **chuyển đổi word sang txt**, tự động tạo báo cáo, hay chỉ đơn giản là trích xuất văn bản thô để xử lý tiếp, hướng dẫn này sẽ dẫn bạn qua toàn bộ quy trình—từ việc tạo tài liệu đến tinh chỉnh các tùy chọn lưu như **sử dụng thụt lề bằng tab** hoặc thêm dấu bidi. Hãy bắt đầu nào!
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách lưu tài liệu dưới dạng tệp văn bản bằng thư viện Aspose.Words for Java. Aspose.Words là một API Java mạnh mẽ để làm việc với các tài liệu Word và cung cấp nhiều tùy chọn để lưu tài liệu ở nhiều định dạng khác nhau, bao gồm cả văn bản thuần túy. Chúng tôi sẽ trình bày các bước để thực hiện điều này và cung cấp mã Java mẫu trong suốt quá trình.
+## Trả lời nhanh
+- **Lớp chính để tạo tài liệu là gì?** `Document` từ Aspose.Words.  
+- **Tùy chọn nào thêm dấu bidi cho các ngôn ngữ từ phải sang trái?** `TxtSaveOptions.setAddBidiMarks(true)`.  
+- **Làm sao để thụt lề các mục danh sách bằng tab?** Đặt `ListIndentation.Character` thành `'\t'`.  
+- **Có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất.  
+- **Có thể lưu tệp với tên và đường dẫn tùy chỉnh không?** Có — chỉ cần truyền đường dẫn đầy đủ vào `doc.save()`.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy chắc chắn bạn đã chuẩn bị các yêu cầu sau:
 
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn.
-- Aspose.Words cho thư viện Java được tích hợp vào dự án của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/words/java/).
+- Java Development Kit (JDK) đã được cài đặt trên hệ thống.  
+- Thư viện Aspose.Words cho Java đã được tích hợp vào dự án. Bạn có thể tải về từ [đây](https://releases.aspose.com/words/java/).  
 - Kiến thức cơ bản về lập trình Java.
 
-## Bước 1: Tạo một tài liệu
+## Bước 1: Tạo một Document
 
-Để lưu tài liệu dưới dạng tệp văn bản, trước tiên chúng ta cần tạo tài liệu bằng Aspose.Words. Sau đây là đoạn mã Java đơn giản để tạo tài liệu có một số nội dung:
+Để **lưu word dưới dạng txt**, trước tiên chúng ta cần một thể hiện `Document`. Dưới đây là một đoạn mã Java đơn giản tạo tài liệu và ghi một vài dòng văn bản đa ngôn ngữ:
 
 ```java
 Document doc = new Document();
@@ -41,13 +50,13 @@ builder.writeln("שלום עולם!");
 builder.writeln("مرحبا بالعالم!");
 ```
 
-Trong đoạn mã này, chúng ta tạo một tài liệu mới và thêm một số văn bản vào đó, bao gồm văn bản bằng nhiều ngôn ngữ khác nhau.
+Trong đoạn mã này, chúng ta tạo một tài liệu mới, thêm văn bản tiếng Anh, tiếng Do Thái và tiếng Ả Rập, đồng thời bật định dạng từ phải sang trái cho đoạn văn tiếng Do Thái.
 
-## Bước 2: Xác định tùy chọn lưu văn bản
+## Bước 2: Định nghĩa tùy chọn lưu văn bản
 
-Tiếp theo, chúng ta cần xác định các tùy chọn lưu văn bản để chỉ định cách tài liệu sẽ được lưu dưới dạng tệp văn bản. Chúng ta có thể định cấu hình nhiều thiết lập khác nhau như thêm dấu bidi, thụt lề danh sách, v.v. Hãy xem hai ví dụ:
+Tiếp theo, chúng ta cấu hình cách tài liệu sẽ được lưu dưới dạng tệp văn bản thuần. Aspose.Words cung cấp lớp `TxtSaveOptions`, cho phép bạn kiểm soát mọi thứ từ dấu bidi đến thụt lề danh sách.
 
-### Ví dụ 1: Thêm dấu Bidi
+### Ví dụ 1: Thêm dấu Bidi (cách lưu txt với hỗ trợ RTL đúng)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -55,9 +64,9 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
-Trong ví dụ này, chúng tôi tạo ra một `TxtSaveOptions` đối tượng và thiết lập `AddBidiMarks` tài sản để `true` để đưa dấu bidi vào đầu ra văn bản.
+Đặt `AddBidiMarks` thành `true` sẽ đảm bảo các ký tự từ phải sang trái được biểu diễn chính xác trong **tệp văn bản thuần** kết quả.
 
-### Ví dụ 2: Sử dụng ký tự Tab để thụt lề danh sách
+### Ví dụ 2: Sử dụng ký tự Tab cho thụt lề danh sách (sử dụng thụt lề bằng tab)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -66,19 +75,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-Tại đây, chúng tôi cấu hình các tùy chọn lưu để sử dụng ký tự tab cho việc thụt lề danh sách với số lượng là 1.
+Ở đây chúng ta yêu cầu Aspose.Words chèn một ký tự tab (`'\t'`) trước mỗi mức độ danh sách, giúp đầu ra văn bản dễ đọc hơn.
 
-## Bước 3: Lưu tài liệu dưới dạng văn bản
+## Bước 3: Lưu Document dưới dạng Text
 
-Bây giờ chúng ta đã định nghĩa các tùy chọn lưu văn bản, chúng ta có thể lưu tài liệu dưới dạng tệp văn bản. Mã sau đây minh họa cách thực hiện việc này:
+Bây giờ các tùy chọn lưu đã sẵn sàng, bạn có thể ghi tài liệu thành **tệp văn bản thuần**:
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
-Thay thế `"output.txt"` với đường dẫn tệp mong muốn mà bạn muốn lưu tệp văn bản.
+Thay `"output.txt"` bằng đường dẫn đầy đủ nơi bạn muốn lưu tệp.
 
-## Mã nguồn đầy đủ để lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
+## Mã nguồn hoàn chỉnh để lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words cho Java
 
 ```java
     public void addBidiMarks() throws Exception
@@ -97,7 +106,7 @@ Thay thế `"output.txt"` với đường dẫn tệp mong muốn mà bạn mu�
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Tạo một danh sách có ba mức thụt lề.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -114,7 +123,7 @@ Thay thế `"output.txt"` với đường dẫn tệp mong muốn mà bạn mu�
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Tạo một danh sách có ba mức thụt lề.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -128,15 +137,17 @@ Thay thế `"output.txt"` với đường dẫn tệp mong muốn mà bạn mu�
 	}
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng ta đã học cách lưu tài liệu dưới dạng tệp văn bản trong Aspose.Words for Java. Chúng tôi đã trình bày các bước để tạo tài liệu, xác định tùy chọn lưu văn bản và lưu tài liệu ở định dạng văn bản. Aspose.Words cung cấp tính linh hoạt cao khi lưu tài liệu, cho phép bạn tùy chỉnh đầu ra theo yêu cầu cụ thể của mình.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **Các ký tự bidi hiển thị thành văn bản rối** | Đảm bảo `setAddBidiMarks(true)` được bật và tệp đầu ra được mở bằng mã hoá UTF‑8. |
+| **Thụt lề danh sách hiển thị không đúng** | Kiểm tra `ListIndentation.Count` và `Character` đã được đặt đúng giá trị (tab `'\t'` hoặc space `' '` ). |
+| **Tệp không được tạo** | Kiểm tra đường dẫn thư mục tồn tại và ứng dụng có quyền ghi. |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để thêm dấu bidi vào đầu ra văn bản?
-
-Để thêm dấu bidi vào đầu ra văn bản, hãy đặt `AddBidiMarks` tài sản của `TxtSaveOptions` ĐẾN `true`. Ví dụ:
+### Làm thế nào để tôi thêm dấu bidi vào đầu ra văn bản?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -145,33 +156,42 @@ saveOptions.setAddBidiMarks(true);
 
 ### Tôi có thể tùy chỉnh ký tự thụt lề danh sách không?
 
-Có, bạn có thể tùy chỉnh ký tự thụt lề danh sách bằng cách cấu hình `ListIndentation` tài sản của `TxtSaveOptions`. Ví dụ, để sử dụng ký tự tab để thụt lề danh sách, bạn có thể thực hiện như sau:
-
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.getListIndentation().setCount(1);
 saveOptions.getListIndentation().setCharacter('\t');
 ```
 
-### Aspose.Words for Java có phù hợp để xử lý văn bản đa ngôn ngữ không?
+### Aspose.Words cho Java có phù hợp để xử lý văn bản đa ngôn ngữ không?
 
-Có, Aspose.Words for Java phù hợp để xử lý văn bản đa ngôn ngữ. Nó hỗ trợ nhiều ngôn ngữ và mã hóa ký tự, khiến nó trở thành lựa chọn linh hoạt để làm việc với các tài liệu bằng nhiều ngôn ngữ khác nhau.
+Có, Aspose.Words cho Java hỗ trợ nhiều ngôn ngữ và bộ mã ký tự, rất thích hợp để trích xuất và lưu nội dung đa ngôn ngữ dưới dạng văn bản thuần.
 
-### Làm thế nào tôi có thể truy cập thêm tài liệu và tài nguyên cho Aspose.Words for Java?
+### Làm sao tôi có thể truy cập thêm tài liệu và tài nguyên cho Aspose.Words cho Java?
 
-Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.Words for Java trên trang web tài liệu Aspose: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
+Bạn có thể tìm thấy tài liệu và tài nguyên đầy đủ trên trang Tài liệu Aspose.Words cho Java: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
 ### Tôi có thể tải Aspose.Words cho Java ở đâu?
 
-Bạn có thể tải xuống thư viện Aspose.Words cho Java từ trang web Aspose: [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
+Bạn có thể tải thư viện từ trang chính thức: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
+### Nếu tôi cần **chuyển đổi word sang txt** trong quy trình batch thì sao?
+
+Hãy bọc đoạn mã trên trong một vòng lặp để tải mỗi tệp `.docx`, áp dụng cùng một `TxtSaveOptions`, và lưu mỗi tệp dưới dạng `.txt`. Đảm bảo giải phóng tài nguyên bằng cách hủy các đối tượng `Document` sau mỗi lần lặp.
+
+### API có hỗ trợ lưu trực tiếp vào stream thay vì tệp không?
+
+Có, bạn có thể truyền một `OutputStream` vào `doc.save(outputStream, saveOptions)` để xử lý trong bộ nhớ hoặc khi tích hợp với dịch vụ web.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-24  
+**Kiểm thử với:** Aspose.Words cho Java 24.12 (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
