@@ -196,6 +196,12 @@ Pronto para avançar suas habilidades de gerenciamento de documentos? Mergulhe m
 - **Teste Gratuito**: Experimente antes de comprar com uma [licença de avaliação gratuita](https://releases.aspose.com/words/java/)
 - **Fórum de Suporte**: Junte-se à comunidade em [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,11 +209,3 @@ Pronto para avançar suas habilidades de gerenciamento de documentos? Mergulhe m
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
----

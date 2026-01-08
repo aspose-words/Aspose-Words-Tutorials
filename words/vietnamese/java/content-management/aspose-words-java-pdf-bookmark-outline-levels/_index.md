@@ -166,12 +166,6 @@ Trả lời: Thư viện truyền dữ liệu theo luồng và cung cấp `optim
 **Câu hỏi: Tôi có thể chỉnh sửa dấu trang sau khi PDF đã được tạo không?**  
 Trả lời: Có, bạn có thể dùng Aspose.PDF cho Java để chỉnh sửa, thêm hoặc xóa dấu trang trong PDF hiện có.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Tài nguyên**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -179,6 +173,12 @@ Trả lời: Có, bạn có thể dùng Aspose.PDF cho Java để chỉnh sửa,
 - [Free Trial](https://releases.aspose.com/words/java/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

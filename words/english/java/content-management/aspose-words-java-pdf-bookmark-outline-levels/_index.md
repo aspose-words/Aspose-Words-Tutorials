@@ -164,12 +164,6 @@ A: The library streams content and offers `optimizeResources()` to reduce memory
 **Q: Can I modify bookmarks after the PDF is created?**  
 A: Yes, you can use Aspose.PDF for Java to edit, add, or remove bookmarks in an existing PDF.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Resources**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -177,6 +171,12 @@ A: Yes, you can use Aspose.PDF for Java to edit, add, or remove bookmarks in an 
 - [Free Trial](https://releases.aspose.com/words/java/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

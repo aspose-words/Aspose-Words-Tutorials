@@ -6,7 +6,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'Byggblock i Word: Block med Aspose.Words Java'
+title: 'Byggblock i Word - Block med Aspose.Words Java'
 url: /sv/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -216,20 +216,26 @@ När du arbetar med stora dokument eller många byggblock, håll dessa tips i å
 
 ## Vanliga frågor
 
-**Q: What is a building block in Word documents?**  
+**F: Vad är en byggsten i Word-dokument?**
 A: Ett byggblock är en återanvändbar innehållssektion—såsom en rubrik, sidfot, tabell eller stycke—lagrad i ett dokuments glossär för snabb infogning.
 
-**Q: How do I update an existing building block with Aspose.Words for Java?**  
+**F: Hur uppdaterar jag ett befintligt byggblock med Aspose.Words för Java?**
 A: Hämta blocket via dess namn eller GUID, modifiera dess undernoder (t.ex. lägg till ett nytt stycke) och spara sedan förälderdokumentet.
 
-**Q: Can I add images or tables to my custom building blocks?**  
+**F: Kan jag lägga till bilder eller tabeller i mina anpassade byggstenar?**
 A: Ja. Alla innehållstyper som stöds av Aspose.Words (bilder, tabeller, diagram osv.) kan infogas i ett byggblock.
 
-**Q: Is there support for other programming languages?**  
+**F: Finns det stöd för andra programmeringsspråk?**
 A: Absolut. Aspose.Words finns tillgängligt för .NET, C++, Python och mer. Se den [officiella dokumentationen](https://reference.aspose.com/words/java/) för detaljer.
 
-**Q: How should I handle errors when working with building blocks?**  
+**F: Hur ska jag hantera fel när jag arbetar med byggstenar?**
 A: Omge Aspose.Words-anrop med try‑catch‑block, logga undantagsdetaljer och eventuellt återförsök icke‑kritiska operationer.
+
+---
+
+**Senast uppdaterad:** 2025-12-10
+**Testat med:** Aspose.Words för Java 25.3
+**Författare:** Aspose
 
 ## Resurser
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
@@ -241,9 +247,3 @@ A: Omge Aspose.Words-anrop med try‑catch‑block, logga undantagsdetaljer och 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose

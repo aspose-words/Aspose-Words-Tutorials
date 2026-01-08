@@ -166,12 +166,6 @@ R : La bibliothèque diffuse le contenu et propose `optimizeResources()` pour 
 **Q : Puis‑je modifier les signets après la création du PDF ?**  
 R : Oui, vous pouvez utiliser Aspose.PDF for Java pour éditer, ajouter ou supprimer des signets dans un PDF existant.
 
----
-
-**Dernière mise à jour :** 2025-12-10  
-**Testé avec :** Aspose.Words 25.3 for Java  
-**Auteur :** Aspose  
-
 **Ressources**
 - [Documentation Aspose.Words](https://reference.aspose.com/words/java/)
 - [Télécharger les dernières versions](https://releases.aspose.com/words/java/)
@@ -179,6 +173,12 @@ R : Oui, vous pouvez utiliser Aspose.PDF for Java pour éditer, ajouter ou sup
 - [Essai gratuit](https://releases.aspose.com/words/java/)
 - [Demande de licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum de support Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.Words 25.3 for Java  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

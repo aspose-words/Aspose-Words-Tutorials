@@ -195,6 +195,12 @@ Bereit, Ihre Dokumentenmanagement‑Fähigkeiten zu erweitern? Tauchen Sie tiefe
 - **Kostenlose Testversion**: Testen Sie vor dem Kauf mit einer [free trial license](https://releases.aspose.com/words/java/)
 - **Support‑Forum**: Treten Sie der Community bei unter [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,11 +208,3 @@ Bereit, Ihre Dokumentenmanagement‑Fähigkeiten zu erweitern? Tauchen Sie tiefe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
----

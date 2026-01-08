@@ -195,6 +195,12 @@ Al seguir esta guía, ha aprovechado el poder de **extract hyperlinks word java*
 - **Prueba gratuita**: Pruebe antes de comprar con una [licencia de prueba gratuita](https://releases.aspose.com/words/java/)
 - **Foro de soporte**: Únase a la comunidad en [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Última actualización:** 2025-12-10  
+**Probado con:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,11 +208,3 @@ Al seguir esta guía, ha aprovechado el poder de **extract hyperlinks word java*
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-10  
-**Probado con:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose  
-
----

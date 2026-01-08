@@ -165,12 +165,6 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 **В: Можно ли изменить закладки после создания PDF?**  
 О: Да, с помощью Aspose.PDF для Java можно редактировать, добавлять или удалять закладки в уже существующем PDF.
 
----
-
-**Последнее обновление:** 2025-12-10  
-**Тестировано с:** Aspose.Words 25.3 for Java  
-**Автор:** Aspose  
-
 **Ресурсы**
 - [Документация Aspose.Words](https://reference.aspose.com/words/java/)
 - [Скачать последние релизы](https://releases.aspose.com/words/java/)
@@ -178,6 +172,12 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 - [Бесплатная проба](https://releases.aspose.com/words/java/)
 - [Оформление временной лицензии](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**Последнее обновление:** 2025-12-10  
+**Тестировано с:** Aspose.Words 25.3 for Java  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Building Blocks in Word: Blocks with Aspose.Words Java"
+title: "Building Blocks in Word - Blocks with Aspose.Words Java"
 description: "Learn how to create, insert and manage building blocks in word using Aspose.Words for Java, enabling reusable templates and efficient document automation."
 date: "2025-12-10"
 weight: 1
@@ -233,6 +233,12 @@ A: Wrap Aspose.Words calls in try‑catch blocks, log the exception details, and
 ## Resources
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -240,11 +246,3 @@ A: Wrap Aspose.Words calls in try‑catch blocks, log the exception details, and
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose  
-
----

@@ -166,12 +166,6 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 **问：PDF 创建后还能修改书签吗？**  
 答：可以，您可以使用 Aspose.PDF for Java 对已有 PDF 进行书签的编辑、添加或删除。
 
----
-
-**最后更新：** 2025-12-10  
-**测试环境：** Aspose.Words 25.3 for Java  
-**作者：** Aspose  
-
 **资源**
 - [Aspose.Words 文档](https://reference.aspose.com/words/java/)
 - [下载最新发布](https://releases.aspose.com/words/java/)
@@ -179,6 +173,12 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 - [免费试用](https://releases.aspose.com/words/java/)
 - [临时许可证申请](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+
+---
+
+**最后更新：** 2025-12-10  
+**测试环境：** Aspose.Words 25.3 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

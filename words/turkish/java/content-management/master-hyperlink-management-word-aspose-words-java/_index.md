@@ -196,6 +196,12 @@ Belge yönetimi becerilerinizi geliştirmeye hazır mısınız? Ek işlevler iç
 - **Ücretsiz Deneme**: [Ücretsiz deneme lisansı](https://releases.aspose.com/words/java/) ile deneyin  
 - **Destek Forumu**: Topluluğa katılmak için [Aspose Support Forum](https://forum.aspose.com/c/words/10) adresini ziyaret edin
 
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,11 +209,3 @@ Belge yönetimi becerilerinizi geliştirmeye hazır mısınız? Ek işlevler iç
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
-**Yazar:** Aspose  
-
----

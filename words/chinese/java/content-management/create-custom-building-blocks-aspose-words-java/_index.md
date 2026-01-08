@@ -5,7 +5,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: Word 中的构建块：使用 Aspose.Words Java 的块
+title: Word 中的构建块 - 使用 Aspose.Words Java 的块
 url: /zh/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -237,6 +237,12 @@ A: 将 Aspose.Words 调用包装在 try‑catch 块中，记录异常细节，�
 ## 资源
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**最后更新：** 2025-12-10  
+**测试环境：** Aspose.Words for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -244,9 +250,3 @@ A: 将 Aspose.Words 调用包装在 try‑catch 块中，记录异常细节，�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-10  
-**测试环境：** Aspose.Words for Java 25.3  
-**作者：** Aspose

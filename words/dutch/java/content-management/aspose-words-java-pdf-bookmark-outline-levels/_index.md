@@ -165,12 +165,6 @@ A: De bibliotheek streamt de inhoud en biedt `optimizeResources()` om de geheuge
 **Q: Kan ik bladwijzers aanpassen nadat de PDF is aangemaakt?**  
 A: Ja, je kunt Aspose.PDF voor Java gebruiken om bladwijzers in een bestaande PDF te bewerken, toe te voegen of te verwijderen.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Bronnen**
 - [Aspose.Words Documentatie](https://reference.aspose.com/words/java/)
 - [Laatste releases downloaden](https://releases.aspose.com/words/java/)
@@ -178,6 +172,12 @@ A: Ja, je kunt Aspose.PDF voor Java gebruiken om bladwijzers in een bestaande PD
 - [Gratis proefversie](https://releases.aspose.com/words/java/)
 - [Aanvraag tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 - [Aspose Supportforum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -166,12 +166,6 @@ A: A könyvtár adatfolyamként dolgozza fel a tartalmat, és biztosítja az `op
 **Q: Módosíthatom a könyvjelzőket a PDF létrehozása után?**  
 A: Igen, az Aspose.PDF for Java használatával szerkesztheti, hozzáadhatja vagy eltávolíthatja a könyvjelzőket egy meglévő PDF-ben.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Resources**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -179,6 +173,12 @@ A: Igen, az Aspose.PDF for Java használatával szerkesztheti, hozzáadhatja vag
 - [Free Trial](https://releases.aspose.com/words/java/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

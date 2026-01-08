@@ -195,6 +195,12 @@ Sẵn sàng nâng cao kỹ năng quản lý tài liệu của bạn? Hãy khám 
 - **Dùng thử miễn phí**: Thử trước khi mua với [giấy phép dùng thử miễn phí](https://releases.aspose.com/words/java/)
 - **Diễn đàn hỗ trợ**: Tham gia cộng đồng tại [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ Sẵn sàng nâng cao kỹ năng quản lý tài liệu của bạn? Hãy khám 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

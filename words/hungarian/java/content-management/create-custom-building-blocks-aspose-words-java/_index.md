@@ -7,7 +7,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'Építőelemek a Wordben: Blokkok az Aspose.Words Java-val'
+title: 'Építőelemek a Wordben - Blokkok az Aspose.Words Java-val'
 url: /hu/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -230,6 +230,12 @@ A: Természetesen. Az Aspose.Words elérhető .NET, C++, Python és további nye
 **Q: Hogyan kezeljem a hibákat az építőelemekkel való munka során?**  
 A: Tekerj be az Aspose.Words hívásokat try‑catch blokkokba, naplózd a kivétel részleteit, és szükség esetén próbáld újra a nem kritikus műveleteket.
 
+---
+
+**Utolsó frissítés:** 2025-12-10  
+**Tesztelve a következővel:** Aspose.Words for Java 25.3  
+**Szerző:** Aspose  
+
 ## Erőforrások
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
@@ -240,11 +246,3 @@ A: Tekerj be az Aspose.Words hívásokat try‑catch blokkokba, naplózd a kivé
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
-
----
-
-**Utolsó frissítés:** 2025-12-10  
-**Tesztelve a következővel:** Aspose.Words for Java 25.3  
-**Szerző:** Aspose  
-
----

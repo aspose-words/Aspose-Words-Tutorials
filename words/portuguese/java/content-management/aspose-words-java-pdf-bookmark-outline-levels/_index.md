@@ -165,12 +165,6 @@ A: A biblioteca faz streaming do conteúdo e oferece `optimizeResources()` para 
 **Q: Posso modificar marcadores após a criação do PDF?**  
 A: Sim, você pode usar Aspose.PDF para Java para editar, adicionar ou remover marcadores em um PDF existente.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Resources**
 - [Documentação do Aspose.Words](https://reference.aspose.com/words/java/)
 - [Baixar as Últimas Versões](https://releases.aspose.com/words/java/)
@@ -178,6 +172,12 @@ A: Sim, você pode usar Aspose.PDF para Java para editar, adicionar ou remover m
 - [Avaliação Gratuita](https://releases.aspose.com/words/java/)
 - [Solicitação de Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte da Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

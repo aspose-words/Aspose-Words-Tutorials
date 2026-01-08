@@ -195,6 +195,12 @@ Siap meningkatkan keterampilan manajemen dokumen Anda? Selami lebih dalam [dokum
 - **Percobaan Gratis**: Coba sebelum membeli dengan [lisensi percobaan gratis](https://releases.aspose.com/words/java/)
 - **Forum Dukungan**: Bergabung dengan komunitas di [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-10  
+**Diuji Dengan:** Aspose.Words 25.3 for Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ Siap meningkatkan keterampilan manajemen dokumen Anda? Selami lebih dalam [dokum
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-10  
-**Diuji Dengan:** Aspose.Words 25.3 for Java  
-**Penulis:** Aspose

@@ -165,12 +165,6 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 **ถาม: สามารถแก้ไขบุ๊กมาร์กหลังจากสร้าง PDF แล้วได้หรือไม่?**  
 ตอบ: ได้, คุณสามารถใช้ Aspose.PDF for Java เพื่อแก้ไข, เพิ่ม, หรือเอาบุ๊กมาร์กออกจาก PDF ที่มีอยู่
 
----
-
-**อัปเดตล่าสุด:** 2025-12-10  
-**ทดสอบกับ:** Aspose.Words 25.3 for Java  
-**ผู้เขียน:** Aspose  
-
 **แหล่งข้อมูล**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -186,3 +180,9 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-10  
+**ทดสอบกับ:** Aspose.Words 25.3 for Java  
+**ผู้เขียน:** Aspose  

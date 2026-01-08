@@ -5,7 +5,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'Word のビルディングブロック: Aspose.Words Java によるブロック'
+title: 'Word のビルディングブロック - Aspose.Words Java によるブロック'
 url: /ja/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -234,6 +234,12 @@ A: Aspose.Words の呼び出しを try‑catch ブロックでラップし、例
 ## リソース
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**最終更新日:** 2025-12-10  
+**テスト環境:** Aspose.Words for Java 25.3  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -241,11 +247,3 @@ A: Aspose.Words の呼び出しを try‑catch ブロックでラップし、例
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-10  
-**テスト環境:** Aspose.Words for Java 25.3  
-**作者:** Aspose  
-
----

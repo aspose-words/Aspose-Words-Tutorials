@@ -165,12 +165,6 @@ A: Biblioteket strömmar innehållet och erbjuder `optimizeResources()` för att
 **Q: Kan jag ändra bokmärken efter att PDF‑filen har skapats?**  
 A: Ja, du kan använda Aspose.PDF for Java för att redigera, lägga till eller ta bort bokmärken i en befintlig PDF.
 
----
-
-**Senast uppdaterad:** 2025-12-10  
-**Testad med:** Aspose.Words 25.3 for Java  
-**Författare:** Aspose  
-
 **Resurser**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -178,6 +172,12 @@ A: Ja, du kan använda Aspose.PDF for Java för att redigera, lägga till eller 
 - [Free Trial](https://releases.aspose.com/words/java/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Senast uppdaterad:** 2025-12-10  
+**Testad med:** Aspose.Words 25.3 for Java  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -167,12 +167,6 @@ A: Pustaka ini melakukan streaming konten dan menawarkan `optimizeResources()` u
 **Q: Bisakah saya memodifikasi bookmark setelah PDF dibuat?**  
 A: Ya, Anda dapat menggunakan Aspose.PDF untuk Java untuk mengedit, menambah, atau menghapus bookmark dalam PDF yang sudah ada.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Resources**
 - [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/)
 - [Unduh Rilis Terbaru](https://releases.aspose.com/words/java/)
@@ -180,6 +174,12 @@ A: Ya, Anda dapat menggunakan Aspose.PDF untuk Java untuk mengedit, menambah, at
 - [Uji Coba Gratis](https://releases.aspose.com/words/java/)
 - [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

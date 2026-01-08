@@ -166,12 +166,6 @@ A: 函式庫會以串流方式處理內容，並提供 `optimizeResources()` 以
 **Q: PDF 產生後可以修改書籤嗎？**  
 A: 可以，使用 Aspose.PDF for Java 可以編輯、加入或移除既有 PDF 的書籤。
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 ## 資源
 - [Aspose.Words 文件說明](https://reference.aspose.com/words/java/)
 - [下載最新發行版](https://releases.aspose.com/words/java/)
@@ -179,6 +173,12 @@ A: 可以，使用 Aspose.PDF for Java 可以編輯、加入或移除既有 PDF 
 - [免費試用](https://releases.aspose.com/words/java/)
 - [臨時授權申請](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

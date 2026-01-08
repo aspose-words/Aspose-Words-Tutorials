@@ -198,6 +198,12 @@ boolean isLocalLink = hyperlink.isLocal();
 - **免費試用**：先行體驗 [免費試用授權](https://releases.aspose.com/words/java/)  
 - **支援論壇**：於 [Aspose 支援論壇](https://forum.aspose.com/c/words/10) 加入社群
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,11 +211,3 @@ boolean isLocalLink = hyperlink.isLocal();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
----

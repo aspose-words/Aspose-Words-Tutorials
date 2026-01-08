@@ -6,7 +6,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'كتل البناء في Word: كتل باستخدام Aspose.Words Java'
+title: 'كتل البناء في Word - كتل باستخدام Aspose.Words Java'
 url: /ar/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -230,6 +230,12 @@ public class ManageBuildingBlocks {
 ## الموارد
 - **الوثائق:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**آخر تحديث:** 2025-12-10  
+**تم الاختبار مع:** Aspose.Words للـ Java 25.3  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,11 +243,3 @@ public class ManageBuildingBlocks {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-10  
-**تم الاختبار مع:** Aspose.Words للـ Java 25.3  
-**المؤلف:** Aspose  
-
----

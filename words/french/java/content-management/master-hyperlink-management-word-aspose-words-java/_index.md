@@ -196,6 +196,12 @@ Prêt à perfectionner vos compétences en gestion documentaire ? Plongez plus
 - **Essai gratuit** : Essayez avant d’acheter avec une [licence d’essai gratuite](https://releases.aspose.com/words/java/)  
 - **Forum de support** : Rejoignez la communauté sur le [Forum Aspose Support](https://forum.aspose.com/c/words/10)
 
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.Words 25.3 for Java  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,11 +209,3 @@ Prêt à perfectionner vos compétences en gestion documentaire ? Plongez plus
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-10  
-**Testé avec :** Aspose.Words 25.3 for Java  
-**Auteur :** Aspose  
-
----

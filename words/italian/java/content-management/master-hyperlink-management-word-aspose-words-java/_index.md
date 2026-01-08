@@ -196,6 +196,12 @@ Pronto a migliorare le tue competenze nella gestione dei documenti? Approfondisc
 - **Prova Gratuita**: Prova prima di acquistare con una [licenza di prova gratuita](https://releases.aspose.com/words/java/)
 - **Forum di Supporto**: Unisciti alla community su [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,11 +209,3 @@ Pronto a migliorare le tue competenze nella gestione dei documenti? Approfondisc
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
----

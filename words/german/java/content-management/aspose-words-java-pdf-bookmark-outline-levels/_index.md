@@ -165,12 +165,6 @@ A: Die Bibliothek streamt Inhalte und bietet `optimizeResources()` zur Reduzieru
 **F: Kann ich Lesezeichen nach der PDF‑Erstellung ändern?**  
 A: Ja, mit Aspose.PDF für Java können Sie Lesezeichen in einer bestehenden PDF hinzufügen, entfernen oder bearbeiten.
 
----
-
-**Zuletzt aktualisiert:** 2025-12-10  
-**Getestet mit:** Aspose.Words 25.3 für Java  
-**Autor:** Aspose  
-
 **Ressourcen**
 - [Aspose.Words Dokumentation](https://reference.aspose.com/words/java/)
 - [Neueste Releases herunterladen](https://releases.aspose.com/words/java/)
@@ -178,6 +172,12 @@ A: Ja, mit Aspose.PDF für Java können Sie Lesezeichen in einer bestehenden PDF
 - [Kostenlose Testversion](https://releases.aspose.com/words/java/)
 - [Temporäre Lizenz beantragen](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support‑Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-10  
+**Getestet mit:** Aspose.Words 25.3 für Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

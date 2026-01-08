@@ -165,12 +165,6 @@ C: Kütüphane içeriği akış olarak işler ve bellek ayak izini azaltmak içi
 **S: PDF oluşturulduktan sonra yer imleri değiştirilebilir mi?**  
 C: Evet, mevcut bir PDF'de yer imlerini düzenlemek, eklemek veya kaldırmak için Aspose.PDF for Java kullanılabilir.
 
----
-
-**Son Güncelleme:** 2025-12-10  
-**Test Edilen Sürüm:** Aspose.Words 25.3 for Java  
-**Yazar:** Aspose  
-
 **Kaynaklar**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -178,6 +172,12 @@ C: Evet, mevcut bir PDF'de yer imlerini düzenlemek, eklemek veya kaldırmak iç
 - [Free Trial](https://releases.aspose.com/words/java/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen Sürüm:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

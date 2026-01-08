@@ -5,7 +5,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: Word 中的組件：使用 Aspose.Words Java 的組件
+title: Word 中的組件 - 使用 Aspose.Words Java 的組件
 url: /zh-hant/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---

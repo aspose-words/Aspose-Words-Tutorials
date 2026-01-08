@@ -7,7 +7,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'Bloques de construcción en Word: Bloques con Aspose.Words Java'
+title: 'Bloques de construcción en Word - Bloques con Aspose.Words Java'
 url: /es/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -215,23 +215,29 @@ Al trabajar con documentos grandes o numerosos building blocks, tenga en cuenta 
 
 ## Preguntas frecuentes
 
-**Q: What is a building block in Word documents?**  
-A: Un building block es una sección de contenido reutilizable—como un encabezado, pie de página, tabla o párrafo—almacenada en el glosario de un documento para inserción rápida.
+**P: ¿Qué es un componente básico en los documentos de Word?**
+R: Un bloque de construcción es una sección de contenido reutilizable—como un encabezado, pie de página, tabla o párrafo—almacenada en el glosario de un documento para inserción rápida.
 
-**Q: How do I update an existing building block with Aspose.Words for Java?**  
-A: Recupere el bloque mediante su nombre o GUID, modifique sus nodos hijos (p. ej., añada un nuevo párrafo) y luego guarde el documento padre.
+**P: ¿Cómo actualizo un bloque de creación existente con Aspose.Words para Java?**
+R: Recupere el bloque mediante su nombre o GUID, modifique sus nodos hijos (p.ej., añada un nuevo párrafo) y luego guarde el documento padre.
 
-**Q: Can I add images or tables to my custom building blocks?**  
-A: Sí. Cualquier tipo de contenido compatible con Aspose.Words (imágenes, tablas, gráficos, etc.) puede insertarse en un building block.
+**P: ¿Puedo agregar imágenes o tablas a mis bloques de construcción personalizados?**
+R: Sí. Cualquier tipo de contenido compatible con Aspose.Words (imágenes, tablas, gráficos, etc.) puede insertarse en un building block.
 
-**Q: Is there support for other programming languages?**  
-A: Absolutely. Aspose.Words is available for .NET, C++, Python, and more. See the [official documentation](https://reference.aspose.com/words/java/) for details.
+**P: ¿Existe soporte para otros lenguajes de programación?**
+R: Absolutamente. Aspose.Words está disponible para .NET, C++, Python y más. Consulte la [documentación oficial](https://reference.aspose.com/words/java/) para obtener más detalles.
 
-**Q: How should I handle errors when working with building blocks?**  
-A: Envolva las llamadas a Aspose.Words en bloques try‑catch, registre los detalles de la excepción y, opcionalmente, reintente operaciones no críticas.
+**P: ¿Cómo debo manejar los errores cuando trabajo con bloques de construcción?**
+R: Envolva las llamadas a Aspose.Words en bloques try‑catch, registre los detalles de la excepción y, opcionalmente, reintente operaciones no críticas.
 
 ## Recursos
-- **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
+- **Documentación:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -240,9 +246,3 @@ A: Envolva las llamadas a Aspose.Words en bloques try‑catch, registre los deta
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose

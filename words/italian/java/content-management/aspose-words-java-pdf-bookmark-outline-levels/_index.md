@@ -169,12 +169,6 @@ R: La libreria trasmette i contenuti in streaming e offre `optimizeResources()` 
 **D: Posso modificare i segnalibri dopo la creazione del PDF?**  
 R: Sì, puoi usare Aspose.PDF per Java per modificare, aggiungere o rimuovere segnalibri in un PDF esistente.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Resources**
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
 - [Download Latest Releases](https://releases.aspose.com/words/java/)
@@ -182,6 +176,12 @@ R: Sì, puoi usare Aspose.PDF per Java per modificare, aggiungere o rimuovere se
 - [Free Trial](https://releases.aspose.com/words/java/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

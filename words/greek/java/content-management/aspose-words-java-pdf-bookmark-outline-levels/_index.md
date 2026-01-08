@@ -166,12 +166,6 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 **Ε: Μπορώ να τροποποιήσω τους σελιδοδείκτες μετά τη δημιουργία του PDF;**  
 Α: Ναι, μπορείτε να χρησιμοποιήσετε το Aspose.PDF for Java για επεξεργασία, προσθήκη ή αφαίρεση σελιδοδεικτών σε υπάρχον PDF.
 
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose  
-
 **Πόροι**
 - [Τεκμηρίωση Aspose.Words](https://reference.aspose.com/words/java/)
 - [Λήψη Τελευταίων Εκδόσεων](https://releases.aspose.com/words/java/)
@@ -179,6 +173,12 @@ doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf
 - [Δωρεάν Δοκιμή](https://releases.aspose.com/words/java/)
 - [Αίτηση Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

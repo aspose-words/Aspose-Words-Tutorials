@@ -6,7 +6,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'Word의 빌딩 블록: Aspose.Words Java와 함께하는 블록'
+title: 'Word의 빌딩 블록 - Aspose.Words Java와 함께하는 블록'
 url: /ko/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -237,6 +237,12 @@ A: Aspose.Words 호출을 try‑catch 블록으로 감싸고, 예외 세부 정�
 ## 리소스
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -244,11 +250,3 @@ A: Aspose.Words 호출을 try‑catch 블록으로 감싸고, 예외 세부 정�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose  
-
----

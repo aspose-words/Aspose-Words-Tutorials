@@ -7,7 +7,7 @@ keywords:
 - custom building blocks Word
 - create building blocks Java
 - manage document templates Aspose.Words
-title: 'Blocs de construction dans Word : Blocs avec Aspose.Words Java'
+title: 'Blocs de construction dans Word - Blocs avec Aspose.Words Java'
 url: /fr/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -235,6 +235,12 @@ R : Enveloppez les appels Aspose.Words dans des blocs try‑catch, consignez l
 ## Ressources
 - **Documentation :** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**Dernière mise à jour :** 2025-12-10  
+**Testé avec :** Aspose.Words pour Java 25.3  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -242,11 +248,3 @@ R : Enveloppez les appels Aspose.Words dans des blocs try‑catch, consignez l
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-10  
-**Testé avec :** Aspose.Words pour Java 25.3  
-**Auteur :** Aspose  
-
----
