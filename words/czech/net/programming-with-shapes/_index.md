@@ -30,9 +30,10 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Rozložení v buňce](./layout-in-cell/) | Naučte se, jak nastavit rozvržení v buňce pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří chtějí přizpůsobit dokumenty Wordu. |
 | [Přidat zkrácené rohy](./add-corners-snipped/) | Naučte se, jak do dokumentů Wordu přidat tvar se zkrácenými rohy pomocí nástroje Aspose.Words pro .NET. Tento podrobný návod vám zajistí, že své dokumenty snadno vylepšíte. |
 | [Získat body skutečných hranic tvaru](./get-actual-shape-bounds-points/) | Zjistěte, jak získat skutečné body hranic tvaru v dokumentech Word pomocí Aspose.Words pro .NET. Naučte se přesnou manipulaci s tvary s tímto podrobným návodem. |
-| [Vertikální kotva](./vertical-anchor/) | Naučte se, jak nastavit svislé kotevní pozice pro textová pole v dokumentech Word pomocí Aspose.Words pro .NET. Součástí je i jednoduchý podrobný návod.
+| [Vertikální kotva](./vertical-anchor/) | Naučte se, jak nastavit svislé kotevní pozice pro textová pole v dokumentech Word pomocí Aspose.Words pro .NET. Součástí je i jednoduchý podrobný návod. |
 | [Detekce tvaru inteligentního umění](./detect-smart-art-shape/) | Naučte se, jak detekovat tvary SmartArt v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro automatizaci pracovního postupu s dokumenty. |
 | [Aktualizace kresby Smart Art](./update-smart-art-drawing/) | Naučte se, jak aktualizovat kresby Smart Art v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Zajistěte, aby vaše vizuální prvky byly vždy přesné. |
+| [Vytvořit obdélníkový tvar ve Wordu s Aspose.Words – krok za krokem](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Naučte se, jak pomocí Aspose.Words vytvořit obdélníkový tvar ve Wordu krok za krokem. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

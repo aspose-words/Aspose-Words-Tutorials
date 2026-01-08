@@ -28,6 +28,7 @@ The tutorials also cover the basic concepts of image manipulation, including ins
 | [Format 1Bpp Indexed](./format-1bpp-indexed/) | Learn how to convert a Word document to a 1Bpp indexed image using Aspose.Words for .NET. Follow our step-by-step guide for easy conversion. |
 | [Get Jpeg Page Range](./get-jpeg-page-range/) | Convert specific pages of Word documents to JPEG with custom settings using Aspose.Words for .NET. Learn how to adjust brightness, contrast, and resolution step-by-step. |
 | [Page Saving Callback](./page-saving-callback/) | Learn to save each page of a Word document as a separate PNG image using Aspose.Words for .NET with our detailed, step-by-step guide. |
+| [How to Set DPI When Converting Word to PNG – Complete C# Guide](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Learn how to set DPI when converting Word documents to PNG using Aspose.Words for .NET in this complete C# guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
