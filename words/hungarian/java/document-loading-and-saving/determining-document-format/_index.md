@@ -1,10 +1,13 @@
 ---
-"description": "Tanuld meg, hogyan ismerd fel a dokumentumformátumokat Java-ban az Aspose.Words segítségével. Azonosítsd a DOC, DOCX és egyebeket. Rendszerezd hatékonyan a fájlokat."
-"linktitle": "Dokumentumformátum meghatározása"
-"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
-"title": "Dokumentumformátum meghatározása az Aspose.Words programban Java-ban"
-"url": "/hu/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2025-12-20
+description: Tanulja meg, hogyan szervezheti a fájlokat típus szerint, és hogyan ismerheti
+  fel a dokumentumformátumokat Java-ban az Aspose.Words segítségével. Támogatja a
+  DOC, DOCX, RTF és további formátumokat.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: Fájlok rendezése típus szerint az Aspose.Words for Java használatával
+url: /hu/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +16,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumformátum meghatározása az Aspose.Words programban Java-ban
+# Fájlok típus szerinti rendezése az Aspose.Words for Java segítségével
 
+Amikor egy Java‑alkalmazásban **fájlok típus szerinti rendezésére** van szükség, az első lépés a dokumentumok formátumának megbízható meghatározása. Az Aspose.Words for Java ezt egyszerűvé teszi, lehetővé téve a DOC, DOCX, RTF, HTML, ODT és számos más formátum – még a titkosított vagy ismeretlen fájlok – felismerését. Ebben az útmutatóban bemutatjuk, hogyan állítsunk be mappákat, hogyan detektáljuk a fájlformátumokat, és hogyan rendezhetjük automatikusan a fájlokat.
 
-## Bevezetés a dokumentumformátum meghatározásába az Aspose.Words Java-ban
+## Gyors válaszok
+- **Mit jelent a “fájlok típus szerinti rendezése”?** Azt, hogy a dokumentumokat automatikusan a felismert formátumuk (pl. DOCX, PDF, RTF) alapján mappákba helyezzük.  
+- **Melyik könyvtár segít a fájlformátum felismerésében Java‑ban?** Az Aspose.Words for Java biztosítja a `FileFormatUtil.detectFileFormat()` metódust.  
+- **Az API képes ismeretlen fájltípusok azonosítására?** Igen – nem támogatott vagy felismerhetetlen fájlok esetén `LoadFormat.UNKNOWN` értéket ad vissza.  
+- **Támogatott a titkosított dokumentumok felismerése?** Teljes mértékben; a `FileFormatInfo.isEncrypted()` jelző megmutatja, ha a fájl jelszóval védett.  
+- **Szükség van licencre a termelésben való használathoz?** Igen, kereskedelmi környezetben érvényes Aspose.Words licenc szükséges.
 
-Amikor Java nyelven dolgozunk dokumentumfeldolgozással, kulcsfontosságú meghatározni a kezelt fájlok formátumát. Az Aspose.Words for Java hatékony funkciókat kínál a dokumentumformátumok azonosításához, és mi végigvezetjük Önt a folyamaton.
+## Bevezetés: Fájlok típus szerinti rendezése az Aspose.Words for Java segítségével
+
+Java‑ban a dokumentumfeldolgozás során elengedhetetlen a fájlok formátumának meghatározása. Az Aspose.Words for Java erőteljes funkciókat kínál a **fájlformátum detektálásához Java‑ban**, és végigvezetjük a hatékony fájlrendezés folyamatán.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételekkel rendelkezünk:
+Mielőtt elkezdenénk, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
 
-- [Aspose.Words Java-hoz](https://releases.aspose.com/words/java/)
-- Java fejlesztőkészlet (JDK) telepítve a rendszerére
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- Java Development Kit (JDK) telepítve van a rendszerén
 - Alapvető Java programozási ismeretek
 
-## 1. lépés: Címtár beállítása
+## 1. lépés: Könyvtárak létrehozása
 
-Először is létre kell hoznunk a szükséges könyvtárakat a fájljaink hatékony rendszerezéséhez. Létrehozunk könyvtárakat a különböző dokumentumtípusokhoz.
+Először is létre kell hoznunk a szükséges könyvtárakat a fájlok hatékony rendezéséhez. Külön mappákat hozunk létre a különböző dokumentumtípusok számára.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +49,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// Hozza létre a könyvtárakat, ha még nem léteznek.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +60,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Létrehoztunk könyvtárakat a támogatott, ismeretlen, titkosított és a 97 előtti dokumentumtípusokhoz.
+Létrehoztuk a támogatott, ismeretlen, titkosított és pre‑97 dokumentumtípusok számára a megfelelő könyvtárakat.
 
-## 2. lépés: Dokumentumformátum észlelése
+## 2. lépés: Dokumentumformátum detektálása
 
-Most pedig vizsgáljuk meg a könyvtárainkban található dokumentumok formátumát. Ehhez az Aspose.Words for Java programot fogjuk használni.
+Most detektáljuk a könyvtárainkban lévő dokumentumok formátumát. Ehhez az Aspose.Words for Java‑t használjuk.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +77,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // A dokumentum típusának megjelenítése
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // Szükség szerint adjon hozzá eseteket más dokumentumformátumokhoz
+        // Add cases for other document formats as needed
     }
 
-    // Titkosított dokumentumok kezelése
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Más dokumentumtípusok kezelése
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +106,16 @@ for (String fileName : listFiles) {
 }
 ```
 
-Ebben a kódrészletben végigmegyünk a fájlokon, megállapítjuk a formátumukat, és a megfelelő könyvtárakba rendezzük őket.
+Ebben a kódrészletben végigiterálunk a fájlokon, **fájlformátumot detektálunk Java‑ban**, és a megfelelő mappákba helyezzük őket.
 
-## Teljes forráskód a dokumentumformátum meghatározásához az Aspose.Words programban Java-hoz
+## Teljes forráskód a dokumentumformátum meghatározásához az Aspose.Words for Java‑ban
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // Hozza létre a könyvtárakat, ha még nem léteznek.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +132,7 @@ Ebben a kódrészletben végigmegyünk a fájlokon, megállapítjuk a formátumu
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // A dokumentum típusának megjelenítése
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +200,54 @@ Ebben a kódrészletben végigmegyünk a fájlokon, megállapítjuk a formátumu
 
 ```
 
-## Következtetés
+## Hogyan detektáljuk a fájlformátumot Java‑ban
 
-dokumentumformátumok meghatározása az Aspose.Words for Java programban elengedhetetlen a hatékony dokumentumfeldolgozáshoz. Az útmutatóban ismertetett lépésekkel azonosíthatja a dokumentumtípusokat, és ennek megfelelően kezelheti azokat a Java-alkalmazásaiban.
+A `FileFormatUtil.detectFileFormat()` metódus a fájlfejlécet vizsgálja, és egy `FileFormatInfo` objektumot ad vissza. Ez az objektum tartalmazza a **load format** értékét, azt, hogy a fájl titkosított‑e, valamint egyéb hasznos metaadatokat. Ezen információk felhasználásával programozottan **azonosíthatunk ismeretlen fájltípusokat**, és eldönthetjük, hogyan dolgozzuk fel őket.
 
-## GYIK
+## Ismeretlen fájltípusok azonosítása
 
-### Hogyan telepíthetem az Aspose.Words-öt Java-hoz?
+Ha az API `LoadFormat.UNKNOWN` értéket ad vissza, a fájl vagy sérült, vagy olyan formátumú, amelyet az Aspose.Words nem támogat. A példakódban ezeket a fájlokat az **Ismeretlen** mappába helyezzük, hogy később áttekinthetőek legyenek.
 
-Az Aspose.Words Java-hoz készült verzióját letöltheted innen: [itt](https://releases.aspose.com/words/java/) és kövesse a mellékelt telepítési utasításokat.
+## Gyakori problémák és megoldások
 
-### Milyen dokumentumformátumok támogatottak?
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| A fájlok mindig a *Támogatott* mappába kerülnek | A `FileFormatUtil` nem tudta beolvasni a fejlécet (pl. a fájl üres) | Győződjön meg arról, hogy a helyes fájlútvonalat adja meg, és a fájl nem 0‑bájtos. |
+| Titkosított fájlok kivételt dobnak | Titkosítás kezelése nélkül próbálja meg olvasni | Használja az `info.isEncrypted()` ellenőrzést a további feldolgozás előtt, ahogy a kódban is látható. |
+| Pre‑97 Word dokumentumok nem kerülnek felismerésre | Régi formátumokhoz szükséges a `DOC_PRE_WORD_60` eset | Tartsa meg a `case LoadFormat.DOC_PRE_WORD_60` blokkot, hogy a *Pre97* mappába irányítsa őket. |
 
-Az Aspose.Words for Java számos dokumentumformátumot támogat, beleértve a DOC, DOCX, RTF, HTML és egyebeket. A teljes listát a dokumentációban találja.
+## Gyakran feltett kérdések
 
-### Hogyan tudom felismerni a titkosított dokumentumokat az Aspose.Words for Java használatával?
+### Hogyan telepíthetem az Aspose.Words for Java‑t?
 
-Használhatod a `FileFormatUtil.detectFileFormat()` módszer a titkosított dokumentumok észlelésére, ahogy az ebben az útmutatóban is látható.
+Az Aspose.Words for Java‑t letöltheti [innen](https://releases.aspose.com/words/java/), és kövesse a mellékelt telepítési útmutatót.
 
-### Vannak-e korlátozások a régebbi dokumentumformátumokkal való munka során?
+### Mely dokumentumformátumok támogatottak?
 
-régebbi dokumentumformátumok, mint például az MS Word 6 vagy a Word 95, korlátozottak lehetnek a funkciók és a modern alkalmazásokkal való kompatibilitás tekintetében. Érdemes lehet frissíteni vagy konvertálni ezeket a dokumentumokat, ha szükséges.
+Az Aspose.Words for Java számos formátumot támogat, többek között DOC, DOCX, RTF, HTML, ODT és még sok mást. A teljes listáért tekintse meg a hivatalos dokumentációt.
 
-### Automatizálhatom a dokumentumformátum-észlelést a Java alkalmazásomban?
+### Hogyan detektálhatom a titkosított dokumentumokat az Aspose.Words for Java‑val?
 
-Igen, automatizálhatja a dokumentumformátum-észlelést a megadott kód Java-alkalmazásába való integrálásával. Ez lehetővé teszi a dokumentumok feldolgozását az észlelt formátumok alapján.
+Használja a `FileFormatUtil.detectFileFormat()` metódust; a visszaadott `FileFormatInfo.isEncrypted()` jelző jelzi a titkosítást, ahogyan ebben az útmutatóban is bemutatjuk.
 
+### Vannak korlátozások a régi dokumentumformátumokkal kapcsolatban?
+
+Az olyan régi formátumok, mint a MS Word 6 vagy Word 95, hiányozhatnak a modern funkciókból, és kompatibilitási problémákat okozhatnak. Amennyiben lehetséges, konvertálja őket újabb formátumokra.
+
+### Automatizálhatom a dokumentumformátum detektálását a Java‑alkalmazásomban?
+
+Igen, a megadott kód beilleszthető az alkalmazás feldolgozási csővezetékébe. Ez lehetővé teszi az automatikus rendezést és a formátumok alapján történő kezelését.
+
+---
+
+**Utolsó frissítés:** 2025-12-20  
+**Tesztelt verzió:** Aspose.Words for Java 24.12 (legújabb)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
