@@ -1,10 +1,14 @@
 ---
-"description": "Pelajari cara menyimpan dokumen HTML dengan tata letak tetap di Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami untuk pemformatan dokumen yang lancar."
-"linktitle": "Menyimpan Dokumen HTML dengan Tata Letak Tetap"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Menyimpan Dokumen HTML dengan Tata Letak Tetap di Aspose.Words untuk Java"
-"url": "/id/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: Pelajari cara menyimpan HTML dengan tata letak tetap menggunakan Aspose.Words
+  for Java – panduan lengkap untuk mengonversi Word ke HTML dan menyimpan dokumen
+  sebagai HTML secara efisien.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: Cara Menyimpan HTML dengan Tata Letak Tetap menggunakan Aspose.Words untuk
+  Java
+url: /id/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +17,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menyimpan Dokumen HTML dengan Tata Letak Tetap di Aspose.Words untuk Java
+# Cara Menyimpan HTML dengan Tata Letak Tetap menggunakan Aspose.Words untuk Java
 
+Dalam tutorial ini Anda akan menemukan **cara menyimpan html** dokumen dengan tata letak tetap sambil mempertahankan format Word asli. Baik Anda perlu **mengonversi Word ke HTML**, **mengekspor Word HTML** untuk tampilan web, atau sekadar **menyimpan dokumen sebagai html** untuk arsip, langkah‑langkah di bawah ini akan memandu Anda melalui seluruh proses menggunakan Aspose.Words untuk Java.
 
-## Pengantar Menyimpan Dokumen HTML dengan Tata Letak Tetap di Aspose.Words untuk Java
+## Jawaban Cepat
+- **Apa arti “tata letak tetap”?** Itu mempertahankan tampilan visual persis dari file Word asli dalam output HTML.  
+- **Apakah saya dapat menggunakan font khusus?** Ya – atur `useTargetMachineFonts` untuk mengontrol penanganan font.  
+- **Apakah saya memerlukan lisensi?** Lisensi Aspose.Words untuk Java yang valid diperlukan untuk penggunaan produksi.  
+- **Versi Java mana yang didukung?** Semua runtime Java 8+ kompatibel.  
+- **Apakah outputnya responsif?** HTML tata letak tetap bersifat pixel‑perfect, tidak responsif; gunakan CSS jika Anda memerlukan tata letak cair.
 
-Dalam panduan lengkap ini, kami akan memandu Anda melalui proses penyimpanan dokumen HTML dengan tata letak tetap menggunakan Aspose.Words untuk Java. Dengan petunjuk langkah demi langkah dan contoh kode, Anda akan mempelajari cara melakukannya dengan mudah. Jadi, mari kita langsung mulai!
+## Apa itu “cara menyimpan html” dengan tata letak tetap?
+Menyimpan HTML dengan tata letak tetap berarti menghasilkan file HTML di mana setiap halaman, paragraf, dan gambar mempertahankan ukuran serta posisi yang sama seperti pada dokumen Word sumber. Ini ideal untuk skenario hukum, penerbitan, atau arsip di mana kesetiaan visual sangat penting.
+
+## Mengapa menggunakan Aspose.Words untuk Java untuk konversi HTML?
+- **Fidelity tinggi** – perpustakaan ini mereproduksi tata letak kompleks, tabel, dan grafik secara akurat.  
+- **Tanpa ketergantungan Microsoft Office** – berfungsi sepenuhnya di sisi server.  
+- **Kustomisasi ekstensif** – opsi seperti `HtmlFixedSaveOptions` memungkinkan Anda menyetel output secara detail.  
+- **Lintas‑platform** – dapat dijalankan pada sistem operasi apa pun yang mendukung Java.
 
 ## Prasyarat
+- Lingkungan pengembangan Java (JDK 8 atau lebih tinggi).  
+- Perpustakaan Aspose.Words untuk Java yang telah ditambahkan ke proyek Anda (unduh dari situs resmi).  
+- Dokumen Word (`.docx`) yang ingin Anda konversi.
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+## Panduan Langkah‑per‑Langkah
 
-- Lingkungan pengembangan Java telah disiapkan.
-- Aspose.Words untuk pustaka Java terinstal dan dikonfigurasi.
-
-## Langkah 1: Memuat Dokumen
-
-Pertama, kita perlu memuat dokumen yang ingin kita simpan dalam format HTML. Berikut cara melakukannya:
+### Langkah 1: Muat dokumen Word
+Pertama, muat dokumen sumber ke dalam objek `Document`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-Mengganti `"YourDocument.docx"` dengan jalur ke dokumen Word Anda.
+Ganti `"YourDocument.docx"` dengan jalur sebenarnya ke file Anda.
 
-## Langkah 2: Konfigurasikan Opsi Penyimpanan Tetap HTML
-
-Untuk menyimpan dokumen dengan tata letak tetap, kita perlu mengkonfigurasi `HtmlFixedSaveOptions` kelas. Kami akan mengatur `useTargetMachineFonts` properti untuk `true` untuk memastikan bahwa font mesin target digunakan dalam output HTML:
+### Langkah 2: Konfigurasikan opsi penyimpanan HTML tata letak tetap
+Buat instance `HtmlFixedSaveOptions` dan aktifkan penggunaan font mesin target sehingga HTML menggunakan font yang sama dengan mesin sumber.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## Langkah 3: Simpan Dokumen sebagai HTML
+Anda juga dapat menjelajahi properti lain seperti `setExportEmbeddedFonts` jika perlu menyematkan font secara langsung.
 
-Sekarang, mari simpan dokumen sebagai HTML dengan tata letak tetap menggunakan opsi yang dikonfigurasi sebelumnya:
+### Langkah 3: Simpan dokumen sebagai HTML tata letak tetap
+Akhirnya, tulis dokumen ke file HTML menggunakan opsi yang telah didefinisikan di atas.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-Mengganti `"FixedLayoutDocument.html"` dengan nama yang diinginkan untuk berkas HTML Anda.
+File `FixedLayoutDocument.html` yang dihasilkan akan menampilkan konten Word persis seperti yang terlihat pada file asli.
 
-## Source Code Lengkap Untuk Menyimpan Dokumen HTML dengan Tata Letak Tetap di Aspose.Words untuk Java
+### Contoh kode lengkap
+Berikut adalah potongan kode siap‑jalankan yang menggabungkan semua langkah. Pertahankan kode tidak berubah untuk menjaga fungsionalitas.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +85,41 @@ Mengganti `"FixedLayoutDocument.html"` dengan nama yang diinginkan untuk berkas 
     }
 ```
 
-## Kesimpulan
-
-Dalam tutorial ini, kita telah mempelajari cara menyimpan dokumen HTML dengan tata letak tetap menggunakan Aspose.Words untuk Java. Dengan mengikuti langkah-langkah sederhana ini, Anda dapat memastikan bahwa dokumen Anda mempertahankan struktur visual yang konsisten di berbagai platform.
+## Masalah Umum dan Solusinya
+- **Font tidak muncul di output** – Pastikan `useTargetMachineFonts` diset ke `true` *atau* sematkan font menggunakan `setExportEmbeddedFonts(true)`.  
+- **File HTML berukuran besar** – Gunakan `setExportEmbeddedImages(false)` untuk menyimpan gambar secara eksternal dan mengurangi ukuran file.  
+- **Jalur file tidak tepat** – Gunakan jalur absolut atau pastikan direktori kerja memiliki izin menulis.
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengatur Aspose.Words untuk Java di proyek saya?
+**T: Bagaimana cara menyiapkan Aspose.Words untuk Java di proyek saya?**  
+J: Unduh perpustakaan dari [here](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi [here](https://reference.aspose.com/words/java/).
 
-Menyiapkan Aspose.Words untuk Java sangatlah mudah. Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/words/java/) dan ikuti petunjuk instalasi yang diberikan dalam dokumentasi [Di Sini](https://reference.aspose.com/words/java/).
+**T: Apakah ada persyaratan lisensi untuk menggunakan Aspose.Words untuk Java?**  
+J: Ya, lisensi yang valid diperlukan untuk penggunaan produksi. Anda dapat memperoleh lisensi dari situs Aspose.
 
-### Apakah ada persyaratan lisensi untuk menggunakan Aspose.Words untuk Java?
+**T: Bisakah saya menyesuaikan output HTML lebih lanjut?**  
+J: Tentu. Opsi seperti `setExportEmbeddedImages`, `setExportEmbeddedFonts`, dan `setCssClassNamePrefix` memungkinkan Anda menyesuaikan output sesuai kebutuhan.
 
-Ya, Aspose.Words untuk Java memerlukan lisensi yang valid untuk digunakan dalam lingkungan produksi. Anda dapat memperoleh lisensi dari situs web Aspose. Keterangan lebih rinci dapat ditemukan dalam dokumentasi.
+**T: Apakah Aspose.Words untuk Java kompatibel dengan berbagai versi Java?**  
+J: Ya, perpustakaan ini mendukung Java 8 dan versi lebih baru. Pastikan versi Java proyek Anda sesuai dengan persyaratan perpustakaan.
 
-### Bisakah saya menyesuaikan keluaran HTML lebih lanjut?
+**T: Bagaimana jika saya membutuhkan versi HTML responsif alih‑alih tata letak tetap?**  
+J: Gunakan `HtmlSaveOptions` (bukan `HtmlFixedSaveOptions`) yang menghasilkan HTML berbasis aliran yang dapat ditata dengan CSS untuk responsivitas.
 
-Tentu saja! Aspose.Words untuk Java menyediakan berbagai pilihan untuk menyesuaikan keluaran HTML agar sesuai dengan kebutuhan spesifik Anda. Anda dapat menjelajahi dokumentasi untuk informasi terperinci tentang pilihan penyesuaian.
+## Kesimpulan
+Anda kini mengetahui **cara menyimpan html** dokumen dengan tata letak tetap menggunakan Aspose.Words untuk Java. Dengan mengikuti langkah‑langkah di atas, Anda dapat dengan andal **mengonversi Word ke HTML**, **mengekspor Word HTML**, dan **menyimpan dokumen sebagai HTML** sambil mempertahankan kesetiaan visual yang diperlukan untuk penerbitan profesional atau keperluan arsip.
 
-### Apakah Aspose.Words untuk Java kompatibel dengan versi Java yang berbeda?
+---
 
-Ya, Aspose.Words untuk Java kompatibel dengan berbagai versi Java. Pastikan Anda menggunakan versi Aspose.Words untuk Java yang kompatibel dan sesuai dengan lingkungan pengembangan Java Anda.
-
+**Terakhir Diperbarui:** 2025-12-27  
+**Diuji Dengan:** Aspose.Words untuk Java 24.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

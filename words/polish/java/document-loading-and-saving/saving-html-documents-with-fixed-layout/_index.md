@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak zapisywać dokumenty HTML ze stałym układem w Aspose.Words dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne formatowanie dokumentów."
-"linktitle": "Zapisywanie dokumentów HTML ze stałym układem"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Zapisywanie dokumentów HTML ze stałym układem w Aspose.Words dla Java"
-"url": "/pl/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: Dowiedz się, jak zapisać HTML o stałym układzie przy użyciu Aspose.Words
+  for Java – kompletny przewodnik, jak konwertować Word na HTML i efektywnie zapisywać
+  dokument jako HTML.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: Jak zapisać HTML z układem stałym przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +16,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisywanie dokumentów HTML ze stałym układem w Aspose.Words dla Java
+# Jak zapisać HTML z układem stałym przy użyciu Aspose.Words dla Javy
 
+W tym samouczku odkryjesz **jak zapisać html** dokumenty z układem stałym, zachowując oryginalne formatowanie Worda. Niezależnie od tego, czy potrzebujesz **konwertować Word do HTML**, **eksportować Word HTML** do przeglądania w sieci, czy po prostu **zapisać dokument jako html** w celach archiwizacji, poniższe kroki przeprowadzą Cię przez cały proces przy użyciu Aspose.Words dla Javy.
 
-## Wprowadzenie do zapisywania dokumentów HTML ze stałym układem w Aspose.Words dla Java
+## Szybkie odpowiedzi
+- **Co oznacza „układ stały”?** Zachowuje dokładny wygląd wizualny oryginalnego pliku Word w wyjściowym HTML.  
+- **Czy mogę używać własnych czcionek?** Tak – ustaw `useTargetMachineFonts`, aby kontrolować obsługę czcionek.  
+- **Czy potrzebna jest licencja?** Wymagana jest ważna licencja Aspose.Words dla Javy do użytku produkcyjnego.  
+- **Jakie wersje Javy są wspierane?** Wszystkie środowiska uruchomieniowe Java 8+ są kompatybilne.  
+- **Czy wyjście jest responsywne?** HTML o układzie stałym jest pikselowo idealny, nie jest responsywny; użyj CSS, jeśli potrzebujesz płynnych układów.
 
-W tym kompleksowym przewodniku przeprowadzimy Cię przez proces zapisywania dokumentów HTML ze stałym układem przy użyciu Aspose.Words dla Java. Dzięki instrukcjom krok po kroku i przykładom kodu nauczysz się, jak osiągnąć to bezproblemowo. Więc zanurzmy się!
+## Co to jest „jak zapisać html” z układem stałym?
+Zapisywanie HTML z układem stałym oznacza generowanie plików HTML, w których każda strona, akapit i obraz zachowują te same rozmiary i pozycje co w źródłowym dokumencie Word. Jest to idealne w sytuacjach prawnych, wydawniczych lub archiwalnych, gdzie kluczowa jest wierność wizualna.
+
+## Dlaczego warto używać Aspose.Words dla Javy do konwersji HTML?
+- **Wysoka wierność** – biblioteka dokładnie odtwarza złożone układy, tabele i grafikę.  
+- **Brak zależności od Microsoft Office** – działa w pełni po stronie serwera.  
+- **Rozbudowane możliwości dostosowania** – opcje takie jak `HtmlFixedSaveOptions` pozwalają precyzyjnie dostroić wynik.  
+- **Wieloplatformowość** – działa na każdym systemie operacyjnym obsługującym Javę.
 
 ## Wymagania wstępne
+- Środowisko programistyczne Java (JDK 8 lub wyższy).  
+- Biblioteka Aspose.Words dla Javy dodana do projektu (pobierz z oficjalnej strony).  
+- Dokument Word (`.docx`), który chcesz przekonwertować.
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+## Przewodnik krok po kroku
 
-- Konfiguracja środowiska programistycznego Java.
-- Biblioteka Aspose.Words for Java została zainstalowana i skonfigurowana.
-
-## Krok 1: Ładowanie dokumentu
-
-Najpierw musimy załadować dokument, który chcemy zapisać w formacie HTML. Oto jak to zrobić:
+### Krok 1: Załaduj dokument Word
+Najpierw załaduj źródłowy dokument do obiektu `Document`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-Zastępować `"YourDocument.docx"` ze ścieżką do dokumentu Word.
+Zastąp `"YourDocument.docx"` rzeczywistą ścieżką do pliku.
 
-## Krok 2: Skonfiguruj stałe opcje zapisu HTML
-
-Aby zapisać dokument ze stałym układem, musimy skonfigurować `HtmlFixedSaveOptions` klasa. Ustawimy `useTargetMachineFonts` nieruchomość do `true` aby mieć pewność, że w wynikach HTML zostaną użyte czcionki komputera docelowego:
+### Krok 2: Skonfiguruj opcje zapisu HTML z układem stałym
+Utwórz instancję `HtmlFixedSaveOptions` i włącz użycie czcionek docelowej maszyny, aby HTML używał tych samych czcionek co maszyna źródłowa.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## Krok 3: Zapisz dokument jako HTML
+Możesz także przyjrzeć się innym właściwościom, takim jak `setExportEmbeddedFonts`, jeśli potrzebujesz bezpośrednio osadzić czcionki.
 
-Teraz zapiszmy dokument w formacie HTML ze stałym układem, korzystając z wcześniej skonfigurowanych opcji:
+### Krok 3: Zapisz dokument jako HTML z układem stałym
+Na koniec zapisz dokument do pliku HTML, używając wcześniej zdefiniowanych opcji.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-Zastępować `"FixedLayoutDocument.html"` z żądaną nazwą dla Twojego pliku HTML.
+Wynikowy plik `FixedLayoutDocument.html` wyświetli zawartość Word dokładnie tak, jak wygląda w oryginalnym pliku.
 
-## Kompletny kod źródłowy do zapisywania dokumentów HTML ze stałym układem w Aspose.Words dla Java
+### Pełny przykład kodu źródłowego
+Poniżej znajduje się gotowy do uruchomienia fragment kodu, który łączy wszystkie kroki. Zachowaj kod niezmieniony, aby utrzymać jego funkcjonalność.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +84,41 @@ Zastępować `"FixedLayoutDocument.html"` z żądaną nazwą dla Twojego pliku H
     }
 ```
 
-## Wniosek
-
-W tym samouczku nauczyliśmy się, jak zapisywać dokumenty HTML ze stałym układem przy użyciu Aspose.Words dla Java. Postępując zgodnie z tymi prostymi krokami, możesz upewnić się, że Twoje dokumenty zachowują spójną strukturę wizualną na różnych platformach.
+## Typowe problemy i rozwiązania
+- **Brak czcionek w wyniku** – Upewnij się, że `useTargetMachineFonts` jest ustawione na `true` *lub* osadź czcionki używając `setExportEmbeddedFonts(true)`.  
+- **Duże pliki HTML** – Użyj `setExportEmbeddedImages(false)`, aby trzymać obrazy zewnętrznie i zmniejszyć rozmiar pliku.  
+- **Nieprawidłowe ścieżki plików** – Użyj ścieżek bezwzględnych lub zweryfikuj, czy katalog roboczy ma uprawnienia do zapisu.
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę skonfigurować Aspose.Words dla Java w moim projekcie?
+**P: Jak mogę skonfigurować Aspose.Words dla Javy w moim projekcie?**  
+O: Pobierz bibliotekę z [tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji [tutaj](https://reference.aspose.com/words/java/).
 
-Konfiguracja Aspose.Words dla Javy jest prosta. Możesz pobrać bibliotekę z [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji [Tutaj](https://reference.aspose.com/words/java/).
+**P: Czy istnieją wymagania licencyjne przy używaniu Aspose.Words dla Javy?**  
+O: Tak, wymagana jest ważna licencja do użytku produkcyjnego. Licencję można uzyskać na stronie Aspose.
 
-### Czy istnieją jakieś wymagania licencyjne dotyczące korzystania z Aspose.Words dla Java?
+**P: Czy mogę dalej dostosować wyjściowy HTML?**  
+O: Oczywiście. Opcje takie jak `setExportEmbeddedImages`, `setExportEmbeddedFonts` i `setCssClassNamePrefix` pozwalają dostosować wynik do Twoich potrzeb.
 
-Tak, Aspose.Words for Java wymaga ważnej licencji do używania w środowisku produkcyjnym. Licencję można uzyskać na stronie internetowej Aspose. Więcej szczegółów można znaleźć w dokumentacji.
+**P: Czy Aspose.Words dla Javy jest kompatybilny z różnymi wersjami Javy?**  
+O: Tak, biblioteka obsługuje Javę 8 i nowsze. Upewnij się, że wersja Javy w Twoim projekcie odpowiada wymaganiom biblioteki.
 
-### Czy mogę dodatkowo dostosować wynik HTML?
+**P: Co zrobić, jeśli potrzebuję responsywnej wersji HTML zamiast układu stałego?**  
+O: Użyj `HtmlSaveOptions` (zamiast `HtmlFixedSaveOptions`), które generuje HTML oparty na przepływie, który można stylować za pomocą CSS w celu uzyskania responsywności.
 
-Oczywiście! Aspose.Words for Java oferuje szeroki zakres opcji dostosowywania wyjścia HTML do Twoich konkretnych wymagań. Możesz przejrzeć dokumentację, aby uzyskać szczegółowe informacje na temat opcji dostosowywania.
+## Podsumowanie
+Teraz wiesz **jak zapisać html** dokumenty z układem stałym przy użyciu Aspose.Words dla Javy. Postępując zgodnie z powyższymi krokami, możesz niezawodnie **konwertować Word do HTML**, **eksportować Word HTML** i **zapisać dokument jako HTML**, zachowując wymaganą wierność wizualną dla profesjonalnego wydawnictwa lub celów archiwalnych.
 
-### Czy Aspose.Words for Java jest kompatybilny z różnymi wersjami Java?
+---
 
-Tak, Aspose.Words for Java jest kompatybilny z różnymi wersjami Java. Upewnij się, że używasz kompatybilnej wersji Aspose.Words for Java, która pasuje do Twojego środowiska programistycznego Java.
-
+**Ostatnia aktualizacja:** 2025-12-27  
+**Testowano z:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

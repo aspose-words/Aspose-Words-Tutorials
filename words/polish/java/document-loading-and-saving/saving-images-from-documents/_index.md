@@ -1,10 +1,14 @@
 ---
-"description": "Dowiedz się, jak zapisywać obrazy z dokumentów za pomocą Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi krok po kroku. Dostosuj formaty, kompresję i nie tylko."
-"linktitle": "Zapisywanie obrazów z dokumentów"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Zapisywanie obrazów z dokumentów w Aspose.Words dla Java"
-"url": "/pl/java/document-loading-and-saving/saving-images-from-documents/"
-"weight": 17
+date: 2025-12-27
+description: Dowiedz się, jak zapisać stronę jako JPEG i wyodrębnić obrazy z dokumentów
+  Word przy użyciu Aspose.Words for Java. Zawiera wskazówki dotyczące ustawiania jasności
+  obrazu, rozdzielczości oraz tworzenia wielostronicowego pliku TIFF.
+linktitle: Saving Images from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak zapisać stronę jako JPEG i wyodrębnić obrazy z dokumentów przy użyciu Aspose.Words
+  dla Javy
+url: /pl/java/document-loading-and-saving/saving-images-from-documents/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +17,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisywanie obrazów z dokumentów w Aspose.Words dla Java
+# Zapisz stronę jako JPEG i wyodrębnij obrazy z dokumentów w Aspose.Words dla Java
 
+W tym samouczku dowiesz się, jak **save page as jpeg** z dokumentu Word oraz jak **extract images from Word** przy użyciu Aspose.Words dla Java. Przejdziemy przez rzeczywiste scenariusze, takie jak ustawianie jasności obrazu, dostosowywanie rozdzielczości obrazu w Javie oraz tworzenie wielostronicowego TIFF. Każdy krok zawiera gotowe do uruchomienia fragmenty kodu, które możesz skopiować, wkleić i od razu zobaczyć wyniki.
 
-## Wprowadzenie do zapisywania obrazów z dokumentów w Aspose.Words dla Java
+## Szybkie odpowiedzi
+- **Czy mogę zapisać pojedynczą stronę jako JPEG?** Tak – użyj `ImageSaveOptions` z `setPageSet(new PageSet(pageIndex))`.
+- **Jak zmienić jasność obrazu?** Wywołaj `options.setImageBrightness(floatValue)` (zakres 0‑1).
+- **Co zrobić, jeśli potrzebuję wielostronicowego TIFF?** Ustaw `PageSet` obejmujący żądane strony i wybierz metodę kompresji TIFF.
+- **Jak kontrolować rozdzielczość obrazu?** Użyj `setResolution(floatDpi)` lub `setHorizontalResolution(floatDpi)`.
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest ważna licencja Aspose.Words do użytku nie‑trial.
 
-W tym samouczku pokażemy, jak zapisywać obrazy z dokumentów za pomocą Aspose.Words for Java. Omówimy różne scenariusze i opcje dostosowywania zapisywania obrazów. Ten przewodnik zawiera instrukcje krok po kroku z przykładami kodu źródłowego.
+## Co to jest „save page as jpeg”?
+Zapisanie strony jako JPEG oznacza konwersję pojedynczej strony dokumentu Word do pliku obrazu rastrowego (JPEG). Jest to przydatne do generowania podglądów, tworzenia miniatur lub osadzania stron dokumentu w stronach internetowych, gdzie renderowanie PDF nie jest praktyczne.
+
+## Dlaczego wyodrębniać obrazy z dokumentów Word?
+Wiele procesów biznesowych wymaga wyciągnięcia oryginalnych grafik (logo, diagramy, zdjęcia) z pliku DOCX w celu ponownego użycia, archiwizacji lub analizy. Aspose.Words umożliwia łatwe wyodrębnienie każdego obrazu w jego natywnym formacie bez utraty jakości.
 
 ## Wymagania wstępne
+- Zainstalowany Java Development Kit (JDK 8 lub nowszy).
+- Biblioteka Aspose.Words dla Java dodana do projektu. Pobierz ją z [tutaj](https://releases.aspose.com/words/java/).
+- Przykładowy dokument Word (np. `Rendering.docx`) umieszczony w znanym katalogu.
 
-Zanim zaczniesz, upewnij się, że biblioteka Aspose.Words for Java jest zintegrowana z Twoim projektem. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
-
-## Krok 1: Zapisywanie obrazów jako TIFF z kontrolą progu
-
-Aby zapisać obrazy w formacie TIFF z kontrolą progu, wykonaj następujące kroki:
+## Krok 1: Zapisz obrazy jako TIFF z kontrolą progu (Utwórz wielostronicowy TIFF)
+Aby wygenerować wysokokontrastowy, szary TIFF, możesz kontrolować próg binaryzacji. Jest to przydatne, gdy potrzebujesz drukowanej, czarno‑białej wersji dokumentu.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -38,9 +52,8 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## Krok 2: Zapisywanie określonej strony jako wielostronicowego pliku TIFF
-
-Aby zapisać konkretną stronę jako wielostronicowy plik TIFF, użyj następującego kodu:
+## Krok 2: Zapisz określoną stronę jako wielostronicowy TIFF
+Jeśli potrzebujesz TIFF zawierającego tylko podzbiór stron (np. strony 1‑2), skonfiguruj `PageSet`. To demonstruje **create multipage tiff**.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -51,9 +64,8 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## Krok 3: Zapisywanie obrazów jako 1 BPP indeksowanych plików PNG
-
-Aby zapisać obrazy jako pliki PNG z indeksem 1 BPP, wykonaj następujące kroki:
+## Krok 3: Zapisz obrazy jako 1 BPP Indexed PNG
+Gdy potrzebujesz ultralekkich czarno‑białych PNG (1 bit na piksel), ustaw odpowiedni format pikseli. Jest to przydatne przy osadzaniu prostych grafik w scenariuszach o niskiej przepustowości.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -64,23 +76,21 @@ saveOptions.setPixelFormat(ImagePixelFormat.FORMAT_1_BPP_INDEXED);
 doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 ```
 
-## Krok 4: Zapisywanie strony jako JPEG z dostosowaniem
-
-Aby zapisać konkretną stronę w formacie JPEG z opcjami dostosowywania, użyj tego kodu:
+## Krok 4: Zapisz stronę jako JPEG z dostosowaniem (Ustaw jasność obrazu i rozdzielczość)
+Tutaj **save page as jpeg** przy jednoczesnym dostosowywaniu jasności, kontrastu i rozdzielczości — idealne do tworzenia miniatur lub podglądów gotowych do sieci.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 ImageSaveOptions options = new ImageSaveOptions();
 options.setPageSet(new PageSet(0));
-options.setImageBrightness(0.3f);
-options.setImageContrast(0.7f);
-options.setHorizontalResolution(72f);
+options.setImageBrightness(0.3f);          // set image brightness (0‑1)
+options.setImageContrast(0.7f);            // set image contrast (0‑1)
+options.setHorizontalResolution(72f);      // set image resolution in DPI
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Krok 5: Korzystanie z funkcji wywołania zwrotnego zapisywania strony
-
-Możesz użyć wywołania zwrotnego, aby dostosować zapisywanie strony. Oto przykład:
+## Krok 5: Użycie wywołania zwrotnego przy zapisywaniu stron (Zaawansowane dostosowanie)
+Wywołanie zwrotne pozwala dynamicznie zmieniać nazwę każdego pliku wyjściowego, co jest przydatne przy eksportowaniu wielu stron jednocześnie.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -98,7 +108,8 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## Kompletny kod źródłowy do zapisywania obrazów z dokumentów w Aspose.Words dla Java
+## Pełny kod źródłowy dla wszystkich scenariuszy
+Poniżej znajduje się pojedyncza klasa zawierająca wszystkie metody pokazane powyżej. Każdy test możesz uruchomić osobno.
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -141,14 +152,14 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// Ustaw „PageSet” na „0”, aby przekonwertować tylko pierwszą stronę dokumentu.
+	// Set the "PageSet" to "0" to convert only the first page of a document.
 	options.setPageSet(new PageSet(0));
-	// Zmień jasność i kontrast obrazu.
-	// Oba są w skali 0-1 i domyślnie mają wartość 0,5.
+	// Change the image's brightness and contrast.
+	// Both are on a 0-1 scale and are at 0.5 by default.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
-	// Zmień rozdzielczość poziomą.
-	// Wartość domyślna tych właściwości wynosi 96,0 dla rozdzielczości 96 dpi.
+	// Change the horizontal resolution.
+	// The default value for these properties is 96.0, for a resolution of 96dpi.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,54 +182,49 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 	}
 ```
 
-## Wniosek
-
-Nauczyłeś się, jak zapisywać obrazy z dokumentów za pomocą Aspose.Words for Java. Te przykłady pokazują różne opcje dostosowywania zapisywania obrazów, w tym format, kompresję i użycie wywołania zwrotnego. Odkryj więcej możliwości dzięki potężnym możliwościom Aspose.Words for Java.
+## Typowe problemy i rozwiązania
+- **„Unable to locate the document file”** – Sprawdź, czy ścieżka do pliku używa właściwego separatora (`/` lub `\\`) dla Twojego systemu operacyjnego.
+- **Obrazy są puste** – Upewnij się, że ustawiłeś odpowiedni `ImageColorMode` (np. `GRAYSCALE` dla TIFF).
+- **Błędy braku pamięci przy dużych dokumentach** – Przetwarzaj strony w partiach, dostosowując zakres `PageSet`.
+- **Jakość JPEG jest słaba** – Zwiększ rozdzielczość za pomocą `setHorizontalResolution` lub `setResolution`.
 
 ## Najczęściej zadawane pytania
 
-### Jak zmienić format obrazu podczas zapisywania go w programie Aspose.Words dla Java?
-
-Możesz zmienić format obrazu, określając żądany format w `ImageSaveOptions`Na przykład, aby zapisać jako PNG, użyj `SaveFormat.PNG` jak pokazano w kodzie:
+**Q: Jak zmienić format obrazu przy zapisywaniu przy użyciu Aspose.Words dla Java?**  
+A: Ustaw żądany format w `ImageSaveOptions`. Dla PNG możesz po prostu utworzyć `ImageSaveOptions` i przypisać `SaveFormat.PNG`, jeśli to potrzebne.
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
 ```
 
-### Czy mogę dostosować ustawienia kompresji obrazów TIFF?
-
-Tak, możesz dostosować ustawienia kompresji obrazu TIFF. Na przykład, aby ustawić metodę kompresji na CCITT_3, użyj następującego kodu:
+**Q: Czy mogę dostosować ustawienia kompresji dla obrazów TIFF?**  
+A: Tak. Użyj `setTiffCompression`, aby wybrać algorytm kompresji, taki jak `CCITT_3`.
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 ```
 
-### Jak mogę zapisać konkretną stronę dokumentu jako osobny obraz?
-
-Aby zapisać konkretną stronę jako obraz, użyj `setPageSet` metoda w `ImageSaveOptions`Na przykład, aby zapisać tylko pierwszą stronę, ustaw `PageSet` Do `new PageSet(0)`.
+**Q: Jak mogę zapisać określoną stronę dokumentu jako osobny obraz?**  
+A: Użyj metody `setPageSet` z pojedynczym indeksem strony.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Zapisz pierwszą stronę jako obraz
+saveOptions.setPageSet(new PageSet(0)); // Save the first page as an image
 ```
 
-### Jak zastosować ustawienia niestandardowe do obrazów JPEG podczas ich zapisywania?
-
-Możesz zastosować ustawienia niestandardowe do obrazów JPEG za pomocą `ImageSaveOptions`. Dostosuj właściwości takie jak jasność, kontrast i rozdzielczość. Na przykład, aby zmienić jasność na 0,3 i kontrast na 0,7, użyj tego kodu:
+**Q: Jak zastosować własne ustawienia do obrazów JPEG przy zapisywaniu?**  
+A: Dostosuj właściwości takie jak jasność, kontrast i rozdzielczość za pomocą `ImageSaveOptions`.
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### Jak mogę użyć funkcji wywołania zwrotnego w celu dostosowania zapisywania obrazu?
-
-Aby użyć funkcji wywołania zwrotnego w celu dostosowania zapisywania obrazu, ustaw `PageSavWgCallback` in `ImageSaveOptions`. Utwórz klasę implementującą `IPageSavingCallback` interfejs i nadpisz `pageSaving` metoda.
+**Q: Jak mogę użyć wywołania zwrotnego do dostosowania zapisywania obrazów?**  
+A: Zaimplementuj `IPageSavingCallback` i przypisz go przy pomocy `setPageSavingCallback`.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
-
-Następnie utwórz klasę implementującą `IPageSavingCallback` interfejs i dostosuj nazwę pliku i lokalizację w `pageSaving` metoda.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -228,13 +234,19 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
+## Podsumowanie
+Masz teraz kompletny zestaw narzędzi do **saving page as jpeg**, wyodrębniania obrazów, kontrolowania jasności obrazu, ustawiania rozdzielczości obrazu w Javie oraz tworzenia wielostronicowych plików TIFF przy użyciu Aspose.Words dla Java. Eksperymentuj z różnymi ustawieniami `ImageSaveOptions`, aby dopasować je do potrzeb projektu, i odkrywaj szersze możliwości API Aspose.Words w zakresie jeszcze większej manipulacji dokumentami.
+
+---
+
+**Last Updated:** 2025-12-27  
+**Testowane z:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

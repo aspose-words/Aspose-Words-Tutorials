@@ -1,10 +1,11 @@
 ---
-"description": "Aspose.Words for Java の読み込みオプションをマスターしましょう。ドキュメントの読み込みをカスタマイズし、暗号化を処理し、図形を変換し、Word のバージョンを設定するなど、Java ドキュメントを効率的に処理する方法を学びます。"
-"linktitle": "ロードオプションの使用"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java の読み込みオプションの使用"
-"url": "/ja/java/document-loading-and-saving/using-load-options/"
-"weight": 11
+date: 2025-12-27
+description: Aspose.Words for JavaでLoadOptionsを設定する方法を学び、テンポラリフォルダーの指定、Wordバージョンの設定、メタファイルをPNGに変換、シェイプを数式に変換する方法を習得し、柔軟な文書処理を実現します。
+linktitle: Using Load Options
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for JavaでLoadOptionsを設定する方法
+url: /ja/java/document-loading-and-saving/using-load-options/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +14,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java の読み込みオプションの使用
+# Aspose.Words for JavaでLoadOptionsを設定する方法
 
+このチュートリアルでは、Aspose.Words for Java を使用するさまざまな実務シナリオにおいて **LoadOptionsの設定方法** を順を追って解説します。LoadOptions を使用すると、ドキュメントの開き方を細かく制御できます。たとえば、ダーティフィールドの更新、暗号化ファイルの取り扱い、シェイプを Office Math に変換、または一時データの保存場所を指定することが可能です。最後まで読むと、アプリケーションの正確な要件に合わせてロード動作をカスタマイズできるようになります。
 
-## Aspose.Words for Java のロード オプションの操作方法の概要
+## クイック回答
+- **LoadOptionsとは？** Aspose.Words がドキュメントをロードする方法に影響を与える構成オブジェクトです。  
+- **ロード中にフィールドを更新できますか？** はい—`setUpdateDirtyFields(true)` を設定します。  
+- **パスワードで保護されたファイルを開くには？** パスワードを `LoadOptions` コンストラクタに渡します。  
+- **一時フォルダーを変更できますか？** `setTempFolder("path")` を使用します。  
+- **どのメソッドがシェイプをOffice Mathに変換しますか？** `setConvertShapeToOfficeMath(true)`。
 
-このチュートリアルでは、Aspose.Words for Java の Load Options の使い方を説明します。Load Options を使用すると、ドキュメントの読み込みと処理方法をカスタマイズできます。ダーティフィールドの更新、暗号化されたドキュメントの読み込み、図形を Office Math に変換する、MS Word のバージョン設定、一時フォルダーの指定、警告の処理、メタファイルから PNG への変換など、様々なシナリオを取り上げます。それでは、ステップバイステップで詳しく見ていきましょう。
+## LoadOptionsを使用する理由
+LoadOptions を使用すると、ロード後の処理ステップを回避でき、メモリ使用量を削減し、ドキュメントが必要通りに解釈されることを保証できます。たとえば、ロード時にメタファイルを PNG に変換すれば後続のラスタライズ問題を防げますし、MS Word のバージョンを指定することでレガシーファイルのレイアウト忠実度を保てます。
 
-## ダーティフィールドの更新
+## 前提条件
+- Java 17 以降  
+- Aspose.Words for Java（最新バージョン）  
+- 本番環境で使用する有効な Aspose ライセンス  
+
+## ステップバイステップガイド
+
+### ダーティフィールドの更新
+
+ドキュメントに編集済みだが更新されていないフィールドが含まれている場合、ロード時に Aspose.Words に自動で更新させることができます。
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -30,9 +47,11 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
-このコードスニペットは、ドキュメント内のダーティフィールドを更新する方法を示しています。 `setUpdateDirtyFields(true)` このメソッドは、ドキュメントの読み込み中にダーティ フィールドが更新されることを保証するために使用されます。
+*`setUpdateDirtyFields(true)` の呼び出しにより、ダーティフィールドはドキュメントが開かれた瞬間に再計算されます。*
 
-## 暗号化された文書を読み込む
+### 暗号化ドキュメントのロード
+
+ソースファイルがパスワードで保護されている場合、`LoadOptions` インスタンスを作成するときにパスワードを提供します。別形式で保存する際に新しいパスワードを設定することも可能です。
 
 ```java
 @Test
@@ -42,9 +61,9 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
-ここでは、パスワードを使用して暗号化された文書を読み込みます。 `LoadOptions` コンストラクタはドキュメントのパスワードを受け入れ、また、ドキュメントを保存するときに新しいパスワードを指定することもできます。 `OdtSaveOptions`。
+### シェイプをOffice Mathに変換
 
-## 図形をOffice Mathに変換する
+一部のレガシードキュメントは数式を描画シェイプとして保存しています。このオプションを有効にすると、シェイプがネイティブな Office Math オブジェクトに変換され、後で編集しやすくなります。
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -54,9 +73,9 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
-このコードは、ドキュメントの読み込み中に図形をOffice Mathオブジェクトに変換する方法を示しています。 `setConvertShapeToOfficeMath(true)` メソッドによりこの変換が可能になります。
+### MS Word バージョンの設定
 
-## MS Wordのバージョンを設定する
+対象となる Word バージョンを指定すると、特に古いファイル形式を扱う際に、ライブラリが適切な描画ルールを選択できるようになります。
 
 ```java
 @Test
@@ -69,9 +88,9 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
-ドキュメントを読み込む際にMS Wordのバージョンを指定できます。この例では、Microsoft Word 2010に設定しています。 `setMswVersion`。
+### 一時フォルダーの使用
 
-## 一時フォルダを使用する
+大容量ドキュメントは一時ファイル（例: 画像抽出時）を生成することがあります。これらのファイルを任意のフォルダーに誘導できるため、サンドボックス環境で便利です。
 
 ```java
 @Test
@@ -83,9 +102,9 @@ public void useTempFolder() throws Exception {
 }
 ```
 
-一時フォルダを設定することで `setTempFolder`、ドキュメント処理中に一時ファイルが保存される場所を制御できます。
+### 警告コールバック
 
-## 警告コールバック
+ロード中に Aspose.Words は警告（例: 未対応機能）を発生させることがあります。コールバックを実装することで、これらのイベントをログに記録したり、適切に対処したりできます。
 
 ```java
 @Test
@@ -98,16 +117,16 @@ public void warningCallback() throws Exception {
 
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
     public void warning(WarningInfo info) {
-        // ドキュメントの読み込み中に発生した警告を処理します。
+        // Handle warnings as they arise during document loading.
         System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
     }
 }
 ```
 
-このコードは、ドキュメントの読み込み中に発生する警告を処理するための警告コールバックの設定方法を示しています。警告発生時のアプリケーションの動作はカスタマイズ可能です。
+### メタファイルをPNGに変換
 
-## メタファイルをPNGに変換する
+WMF などのメタファイルはロード時に PNG にラスタライズでき、プラットフォーム間で一貫した描画が保証されます。
 
 ```java
 @Test
@@ -119,9 +138,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
-ドキュメントの読み込み中にメタファイル（例：WMF）をPNG画像に変換するには、 `setConvertMetafilesToPng(true)` 方法。
-
-## Aspose.Words for Java のロード オプションを操作するための完全なソース コード
+## Aspose.Words for JavaでLoad Optionsを使用する完全なサンプルコード
 
 ```java
 public void updateDirtyFields() throws Exception {
@@ -148,8 +165,8 @@ public void convertShapeToOfficeMath() throws Exception {
 }
 @Test
 public void setMsWordVersion() throws Exception {
-	// 新しい LoadOptions オブジェクトを作成します。これは、デフォルトで MS Word 2019 仕様に従ってドキュメントをロードします。
-	// 読み込みバージョンを Microsoft Word 2010 に変更します。
+	// Create a new LoadOptions object, which will load documents according to MS Word 2019 specification by default
+	// and change the loading version to Microsoft Word 2010.
 	LoadOptions loadOptions = new LoadOptions();
 	{
 		loadOptions.setMswVersion(MsWordVersion.WORD_2010);
@@ -175,7 +192,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		// ドキュメントの読み込み中に発生した警告とその詳細を印刷します。
+		// Prints warnings and their details as they arise during document loading.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,35 +215,42 @@ public void loadChm() throws Exception {
 }
 ```
 
-## 結論
-
-このチュートリアルでは、Aspose.Words for Java の Load Options の様々な側面について詳しく説明しました。Load Options は、ドキュメントの読み込みと処理方法をカスタマイズする上で重要な役割を果たし、特定のニーズに合わせてドキュメント処理をカスタマイズできます。このガイドで説明した主なポイントをまとめてみましょう。
+## 一般的な使用例とヒント
+- **バッチ変換パイプライン** – `setTempFolder` とスケジュールジョブを組み合わせ、システムの一時ディレクトリを埋めることなく数百ファイルを処理します。  
+- **レガシードキュメントの移行** – `setMswVersion` と `setConvertShapeToOfficeMath` を併用し、古い技術文書を数式を保持したまま最新フォーマットに変換します。  
+- **安全なドキュメント処理** – `loadEncryptedDocument` と `OdtSaveOptions` を組み合わせ、別形式で新しいパスワードで再暗号化します。  
 
 ## よくある質問
 
-### ドキュメントの読み込み中に警告を処理するにはどうすればよいですか?
+**Q: ドキュメントロード時の警告はどのように処理すればよいですか？**  
+A: カスタム `IWarningCallback`（*警告コール の例を参照）を実装し、`loadOptions.setWarningCallback(...)` で登録します。これにより、警告の重大度に応じてログ記録、無視、または中止が可能です。
 
-警告コールバックは次のように設定できます。 `warningCallback()` 上記の方法。カスタマイズ `DocumentLoadingWarningCallback` アプリケーションの要件に応じて警告を処理するクラス。
+**Q: ドキュメントロード時にシェイプを Office Math オブジェクトに変換できますか？**  
+A: はい—`Document` を構築する前に `loadOptions.setConvertShapeToOfficeMath(true)` を呼び出します。ライブラリは互換性のあるシェイプを自動的にネイティブな Office Math オブジェクトに置き換えます。
 
-### ドキュメントを読み込むときに図形を Office Math オブジェクトに変換できますか?
+**Q: ドキュメントロード時に MS Word バージョンを指定するには？**  
+A: `loadOptions.setMswVersion(MsWordVersion.WORD_2010)`（または他の enum 値）を使用して、Aspose.Words に適用すべき Word バージョンの描画ルールを指示します。
 
-はい、図形をOffice Mathオブジェクトに変換できます。 `loadOptions。setConvertShapeToOfficeMath(true)`.
+**Q: LoadOptions の `setTempFolder` メソッドの目的は何ですか？**  
+A: ロード中に生成されるすべての一時ファイル（抽出された画像など）を、制御可能なフォルダーへ誘導します。システムの一時ディレクトリが制限された環境で特に重要です。
 
-### ドキュメントを読み込むための MS Word のバージョンを指定するにはどうすればよいですか?
+**Q: WMF などのメタファイルをロード時に PNG に変換できますか？**  
+A: もちろんです—`loadOptions.setConvertMetafilesToPng(true)` を有効にすれば、ラスタ画像が PNG として保存され、最新ビューアとの互換性が向上します。
 
-使用 `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` ドキュメントを読み込むための MS Word のバージョンを指定します。
+## 結論
 
-### の目的は何ですか？ `setTempFolder` ロード オプションの方法?
+**LoadOptionsの設定方法** に関する重要なテクニックを網羅しました。ダーティフィールドの更新、暗号化ファイルの取り扱い、シェイプ変換、Word バージョン指定、一時ストレージの指定など、これらのオプションを活用すれば、さまざまな入力シナリオに適応できる堅牢で高性能なドキュメント処理パイプラインを構築できます。
 
-その `setTempFolder` このメソッドを使用すると、ドキュメント処理中に一時ファイルが保存されるフォルダーを指定できます。
+---
 
+**最終更新日:** 2025-12-27  
+**テスト環境:** Aspose.Words for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

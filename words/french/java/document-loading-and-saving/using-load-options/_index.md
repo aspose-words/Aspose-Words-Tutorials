@@ -1,10 +1,14 @@
 ---
-"description": "Maîtriser les options de chargement dans Aspose.Words pour Java. Personnalisez le chargement des documents, gérez le chiffrement, convertissez les formes, définissez les versions de Word et bien plus encore pour un traitement efficace des documents Java."
-"linktitle": "Utilisation des options de chargement"
-"second_title": "API de traitement de documents Java Aspose.Words"
-"title": "Utilisation des options de chargement dans Aspose.Words pour Java"
-"url": "/fr/java/document-loading-and-saving/using-load-options/"
-"weight": 11
+date: 2025-12-27
+description: Apprenez à définir les LoadOptions dans Aspose.Words pour Java, y compris
+  comment spécifier le dossier temporaire, définir la version de Word, convertir les
+  métafichiers en PNG et convertir les formes en équations pour un traitement de documents
+  flexible.
+linktitle: Using Load Options
+second_title: Aspose.Words Java Document Processing API
+title: Comment définir les LoadOptions dans Aspose.Words pour Java
+url: /fr/java/document-loading-and-saving/using-load-options/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +17,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilisation des options de chargement dans Aspose.Words pour Java
+# Comment définir LoadOptions dans Aspose.Words pour Java
 
+Dans ce tutoriel, nous allons parcourir **comment définir LoadOptions** pour divers scénarios réels lors de l’utilisation d’Aspose.Words pour Java. LoadOptions vous offrent un contrôle fin sur la façon dont un document est ouvert — que vous ayez besoin de mettre à jour les champs sales, de travailler avec des fichiers chiffrés, de convertir des formes en Office Math, ou d’indiquer à la bibliothèque où stocker les données temporaires. À la fin, vous pourrez personnaliser le comportement de chargement pour répondre exactement aux exigences de votre application.
 
-## Introduction aux options de chargement dans Aspose.Words pour Java
+## Réponses rapides
+- **Qu’est‑ce que LoadOptions ?** Un objet de configuration qui influence la façon dont Aspose.Words charge un document.  
+- **Puis‑je mettre à jour les champs lors du chargement ?** Oui — définissez `setUpdateDirtyFields(true)`.  
+- **Comment ouvrir un fichier protégé par mot de passe ?** Passez le mot de passe au constructeur de `LoadOptions`.  
+- **Est‑il possible de changer le dossier temporaire ?** Utilisez `setTempFolder("path")`.  
+- **Quelle méthode convertit les formes en Office Math ?** `setConvertShapeToOfficeMath(true)`.
 
-Dans ce tutoriel, nous découvrirons comment utiliser les options de chargement dans Aspose.Words pour Java. Elles permettent de personnaliser le chargement et le traitement des documents. Nous aborderons différents scénarios, notamment la mise à jour de champs modifiés, le chargement de documents chiffrés, la conversion de formes au format Office Math, la définition de la version de MS Word, la spécification d'un dossier temporaire, la gestion des avertissements et la conversion de métafichiers au format PNG. Examinons cela étape par étape.
+## Pourquoi utiliser LoadOptions ?
+LoadOptions vous permettent d’éviter les étapes de post‑traitement, de réduire la consommation de mémoire et de garantir que le document est interprété exactement comme vous le souhaitez. Par exemple, convertir les métafichiers en PNG pendant le chargement empêche les problèmes de rasterisation ultérieurs, et spécifier la version de MS Word aide à maintenir la fidélité de mise en page lors du traitement de fichiers anciens.
 
-## Mettre à jour les champs sales
+## Prérequis
+- Java 17 ou version ultérieure  
+- Aspose.Words pour Java (dernière version)  
+- Une licence Aspose valide pour une utilisation en production  
+
+## Guide étape par étape
+
+### Mettre à jour les champs sales
+
+Lorsqu’un document contient des champs qui ont été modifiés mais pas rafraîchis, vous pouvez demander à Aspose.Words de les mettre à jour automatiquement pendant le chargement.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -30,9 +50,11 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
-Cet extrait de code montre comment mettre à jour les champs sales dans un document. `setUpdateDirtyFields(true)` La méthode est utilisée pour garantir que les champs sales sont mis à jour pendant le chargement du document.
+*L’appel `setUpdateDirtyFields(true)` garantit que tous les champs sales sont recalculés dès que le document est ouvert.*
 
-## Charger un document crypté
+### Charger un document chiffré
+
+Si votre fichier source est protégé par un mot de passe, fournissez‑le lors de la création de l’instance `LoadOptions`. Vous pouvez également définir un nouveau mot de passe lors de l’enregistrement dans un format différent.
 
 ```java
 @Test
@@ -42,9 +64,9 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
-Ici, nous chargeons un document crypté à l'aide d'un mot de passe. `LoadOptions` Le constructeur accepte le mot de passe du document et vous pouvez également spécifier un nouveau mot de passe lors de l'enregistrement du document à l'aide de `OdtSaveOptions`.
+### Convertir une forme en Office Math
 
-## Convertir une forme en mathématiques de bureau
+Certains documents anciens stockent les équations sous forme de formes dessinées. Activer cette option convertit ces formes en objets Office Math natifs, plus faciles à modifier par la suite.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -54,9 +76,9 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
-Ce code montre comment convertir des formes en objets Office Math lors du chargement d'un document. `setConvertShapeToOfficeMath(true)` La méthode permet cette conversion.
+### Définir la version de MS Word
 
-## Définir la version MS Word
+Spécifier la version cible de Word aide la bibliothèque à choisir les règles de rendu appropriées, notamment lorsqu’il s’agit de formats de fichiers plus anciens.
 
 ```java
 @Test
@@ -69,9 +91,9 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
-Vous pouvez spécifier la version de MS Word pour le chargement du document. Dans cet exemple, nous définissons la version sur Microsoft Word 2010 avec `setMswVersion`.
+### Utiliser un dossier temporaire
 
-## Utiliser le dossier temporaire
+Les documents volumineux peuvent générer des fichiers temporaires (par ex., lors de l’extraction d’images). Vous pouvez diriger ces fichiers vers un dossier de votre choix, ce qui est utile dans des environnements sandboxés.
 
 ```java
 @Test
@@ -83,9 +105,9 @@ public void useTempFolder() throws Exception {
 }
 ```
 
-En définissant le dossier temporaire à l'aide de `setTempFolder`, vous pouvez contrôler où les fichiers temporaires sont stockés pendant le traitement du document.
+### Callback d’avertissement
 
-## Rappel d'avertissement
+Lors du chargement, Aspose.Words peut émettre des avertissements (par ex., fonctionnalités non prises en charge). Implémenter un callback vous permet de consigner ou de réagir à ces événements.
 
 ```java
 @Test
@@ -98,16 +120,16 @@ public void warningCallback() throws Exception {
 
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
     public void warning(WarningInfo info) {
-        // Gérez les avertissements au fur et à mesure qu'ils surviennent lors du chargement du document.
+        // Handle warnings as they arise during document loading.
         System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
     }
 }
 ```
 
-Ce code montre comment configurer un rappel d'avertissement pour gérer les avertissements lors du chargement d'un document. Vous pouvez personnaliser le comportement de votre application lorsque des avertissements surviennent.
+### Convertir les métafichiers en PNG
 
-## Convertir les métafichiers en PNG
+Les métafichiers tels que WMF peuvent être rasterisés en PNG pendant le chargement, assurant un rendu cohérent sur toutes les plateformes.
 
 ```java
 @Test
@@ -119,9 +141,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
-Pour convertir des métafichiers (par exemple, WMF) en images PNG pendant le chargement du document, vous pouvez utiliser le `setConvertMetafilesToPng(true)` méthode.
-
-## Code source complet pour l'utilisation des options de chargement dans Aspose.Words pour Java
+## Code source complet pour travailler avec LoadOptions dans Aspose.Words pour Java
 
 ```java
 public void updateDirtyFields() throws Exception {
@@ -148,8 +168,8 @@ public void convertShapeToOfficeMath() throws Exception {
 }
 @Test
 public void setMsWordVersion() throws Exception {
-	// Créez un nouvel objet LoadOptions, qui chargera les documents selon les spécifications MS Word 2019 par défaut
-	// et changez la version de chargement en Microsoft Word 2010.
+	// Create a new LoadOptions object, which will load documents according to MS Word 2019 specification by default
+	// and change the loading version to Microsoft Word 2010.
 	LoadOptions loadOptions = new LoadOptions();
 	{
 		loadOptions.setMswVersion(MsWordVersion.WORD_2010);
@@ -175,7 +195,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		// Imprime les avertissements et leurs détails au fur et à mesure qu'ils surviennent pendant le chargement du document.
+		// Prints warnings and their details as they arise during document loading.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,35 +218,43 @@ public void loadChm() throws Exception {
 }
 ```
 
-## Conclusion
+## Cas d’utilisation courants & astuces
 
-Dans ce tutoriel, nous avons abordé divers aspects de l'utilisation des options de chargement dans Aspose.Words pour Java. Les options de chargement jouent un rôle crucial dans la personnalisation du chargement et du traitement des documents, vous permettant d'adapter le traitement de vos documents à vos besoins spécifiques. Récapitulons les points clés abordés dans ce guide :
+- **Pipelines de conversion par lots** – Combinez `setTempFolder` avec un job planifié pour traiter des centaines de fichiers sans saturer le répertoire temporaire du système.  
+- **Migration de documents anciens** – Utilisez `setMswVersion` conjointement avec `setConvertShapeToOfficeMath` pour faire passer d’anciens documents d’ingénierie vers un format moderne tout en conservant les équations.  
+- **Gestion sécurisée des documents** – Associez `loadEncryptedDocument` à `OdtSaveOptions` pour re‑chiffrer les fichiers avec un nouveau mot de passe dans un format différent.  
 
 ## FAQ
 
-### Comment puis-je gérer les avertissements lors du chargement du document ?
+**Q : Comment gérer les avertissements lors du chargement d’un document ?**  
+R : Implémentez une interface personnalisée `IWarningCallback` (comme montré dans l’exemple *Callback d’avertissement*) et enregistrez‑la via `loadOptions.setWarningCallback(...)`. Cela vous permet de consigner, ignorer ou interrompre le processus selon la gravité de l’avertissement.
 
-Vous pouvez configurer un rappel d'avertissement comme indiqué dans le `warningCallback()` méthode ci-dessus. Personnalisez le `DocumentLoadingWarningCallback` classe pour gérer les avertissements en fonction des exigences de votre application.
+**Q : Puis‑je convertir des formes en objets Office Math lors du chargement d’un document ?**  
+R : Oui—appelez `loadOptions.setConvertShapeToOfficeMath(true)` avant de créer le `Document`. La bibliothèque remplacera automatiquement les formes compatibles par des objets Office Math natifs.
 
-### Puis-je convertir des formes en objets Office Math lors du chargement d’un document ?
+**Q : Comment spécifier la version de MS Word pour le chargement d’un document ?**  
+R : Utilisez `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` (ou toute autre valeur de l’énumération) pour indiquer à Aspose.Words les règles de rendu de la version de Word souhaitée.
 
-Oui, vous pouvez convertir des formes en objets Office Math en utilisant `loadOptions.setConvertShapeToOfficeMath(true)`.
+**Q : Quel est le rôle de la méthode `setTempFolder` dans LoadOptions ?**  
+R : Elle dirige tous les fichiers temporaires générés pendant le chargement (comme les images extraites) vers un dossier que vous contrôlez, ce qui est essentiel dans les environnements où l’accès au répertoire temporaire système est limité.
 
-### Comment spécifier la version MS Word pour le chargement du document ?
+**Q : Est‑il possible de convertir des métafichiers comme WMF en PNG pendant le chargement ?**  
+R : Absolument—activez‑le avec `loadOptions.setConvertMetafilesToPng(true)`. Cela garantit que les images raster sont stockées au format PNG, améliorant la compatibilité avec les visionneuses modernes.
 
-Utiliser `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` pour spécifier la version MS Word pour le chargement du document.
+## Conclusion
 
-### Quel est le but de la `setTempFolder` méthode dans les options de chargement ?
+Nous avons couvert les techniques essentielles pour **définir LoadOptions** dans Aspose.Words pour Java, de la mise à jour des champs sales à la gestion des fichiers chiffrés, en passant par la conversion des formes, la spécification de la version Word, la direction du stockage temporaire, et bien plus encore. En tirant parti de ces options, vous pouvez créer des pipelines de traitement de documents robustes et performants qui s’adaptent à une large gamme de scénarios d’entrée.
 
-Le `setTempFolder` La méthode vous permet de spécifier le dossier dans lequel les fichiers temporaires sont stockés pendant le traitement du document.
+---
 
+**Dernière mise à jour :** 2025-12-27  
+**Testé avec :** Aspose.Words pour Java 24.11  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

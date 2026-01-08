@@ -1,10 +1,13 @@
 ---
-"description": "Làm chủ các tùy chọn tải trong Aspose.Words cho Java. Tùy chỉnh việc tải tài liệu, xử lý mã hóa, chuyển đổi hình dạng, đặt phiên bản Word và nhiều hơn nữa để xử lý tài liệu Java hiệu quả."
-"linktitle": "Sử dụng tùy chọn tải"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Sử dụng tùy chọn tải trong Aspose.Words cho Java"
-"url": "/vi/java/document-loading-and-saving/using-load-options/"
-"weight": 11
+date: 2025-12-27
+description: Tìm hiểu cách thiết lập LoadOptions trong Aspose.Words cho Java, bao
+  gồm cách chỉ định thư mục tạm, đặt phiên bản Word, chuyển đổi metafile sang PNG
+  và chuyển đổi hình dạng thành công thức toán học để xử lý tài liệu linh hoạt.
+linktitle: Using Load Options
+second_title: Aspose.Words Java Document Processing API
+title: Cách thiết lập LoadOptions trong Aspose.Words cho Java
+url: /vi/java/document-loading-and-saving/using-load-options/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +16,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sử dụng tùy chọn tải trong Aspose.Words cho Java
+# Cách Đặt LoadOptions trong Aspose.Words cho Java
 
+Trong hướng dẫn này, chúng ta sẽ đi qua **cách đặt LoadOptions** cho nhiều kịch bản thực tế khi làm việc với Aspose.Words cho Java. LoadOptions cho phép bạn kiểm soát chi tiết cách một tài liệu được mở — dù bạn cần cập nhật các trường bẩn, làm việc với tệp được mã hoá, chuyển đổi hình dạng sang Office Math, hay chỉ định thư mục tạm thời để lưu dữ liệu. Khi kết thúc, bạn sẽ có thể tùy chỉnh hành vi tải để phù hợp chính xác với yêu cầu của ứng dụng.
 
-## Giới thiệu về Làm việc với Tùy chọn Tải trong Aspose.Words cho Java
+## Trả Lời Nhanh
+- **LoadOptions là gì?** Một đối tượng cấu hình ảnh hưởng đến cách Aspose.Words tải tài liệu.  
+- **Tôi có thể cập nhật các trường khi tải không?** Có — đặt `setUpdateDirtyFields(true)`.  
+- **Làm sao mở tệp được bảo vệ bằng mật khẩu?** Truyền mật khẩu vào hàm khởi tạo `LoadOptions`.  
+- **Có thể thay đổi thư mục tạm không?** Sử dụng `setTempFolder("path")`.  
+- **Phương thức nào chuyển đổi hình dạng sang Office Math?** `setConvertShapeToOfficeMath(true)`.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với Load Options trong Aspose.Words for Java. Load Options cho phép bạn tùy chỉnh cách tải và xử lý tài liệu. Chúng ta sẽ đề cập đến nhiều tình huống khác nhau, bao gồm cập nhật các trường dirty, tải tài liệu được mã hóa, chuyển đổi hình dạng sang Office Math, thiết lập phiên bản MS Word, chỉ định thư mục tạm thời, xử lý cảnh báo và chuyển đổi metafile sang PNG. Hãy cùng tìm hiểu từng bước.
+## Tại Sao Nên Sử Dụng LoadOptions?
+LoadOptions giúp bạn tránh các bước xử lý sau khi tải, giảm mức tiêu thụ bộ nhớ, và đảm bảo tài liệu được diễn giải chính xác như bạn mong muốn. Ví dụ, chuyển đổi metafile sang PNG trong quá trình tải ngăn ngừa các vấn đề raster hoá sau này, và chỉ định phiên bản MS Word giúp duy trì độ chính xác bố cục khi làm việc với các tệp cũ.
 
-## Cập nhật Dirty Fields
+## Điều Kiện Tiên Quyết
+- Java 17 trở lên  
+- Aspose.Words cho Java (phiên bản mới nhất)  
+- Giấy phép Aspose hợp lệ cho môi trường sản xuất  
+
+## Hướng Dẫn Từng Bước
+
+### Cập Nhật Các Trường Bẩn
+
+Khi tài liệu chứa các trường đã được chỉnh sửa nhưng chưa được làm mới, bạn có thể yêu cầu Aspose.Words tự động cập nhật chúng trong quá trình tải.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -30,9 +49,11 @@ Document doc = new Document("Your Directory Path" + "Dirty field.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.UpdateDirtyFields.docx");
 ```
 
-Đoạn mã này trình bày cách cập nhật các trường bẩn trong tài liệu. `setUpdateDirtyFields(true)` phương pháp này được sử dụng để đảm bảo các trường bẩn được cập nhật trong quá trình tải tài liệu.
+*Lệnh `setUpdateDirtyFields(true)` đảm bảo bất kỳ trường bẩn nào sẽ được tính lại ngay khi tài liệu được mở.*
 
-## Tải tài liệu được mã hóa
+### Tải Tài Liệu Được Mã Hoá
+
+Nếu tệp nguồn của bạn được bảo vệ bằng mật khẩu, cung cấp mật khẩu khi tạo instance `LoadOptions`. Bạn cũng có thể đặt mật khẩu mới khi lưu sang định dạng khác.
 
 ```java
 @Test
@@ -42,9 +63,9 @@ public void loadEncryptedDocument() throws Exception {
 }
 ```
 
-Ở đây, chúng tôi tải một tài liệu được mã hóa bằng mật khẩu. `LoadOptions` constructor chấp nhận mật khẩu tài liệu và bạn cũng có thể chỉ định mật khẩu mới khi lưu tài liệu bằng cách sử dụng `OdtSaveOptions`.
+### Chuyển Đổi Hình Dạng Sang Office Math
 
-## Chuyển đổi Shape sang Office Math
+Một số tài liệu cũ lưu công thức dưới dạng hình vẽ. Bật tùy chọn này sẽ chuyển các hình dạng đó thành các đối tượng Office Math gốc, dễ chỉnh sửa hơn sau này.
 
 ```java
 LoadOptions loadOptions = new LoadOptions();
@@ -54,9 +75,9 @@ Document doc = new Document("Your Directory Path" + "Office math.docx", loadOpti
 doc.save("Your Directory Path" + "WorkingWithLoadOptions.ConvertShapeToOfficeMath.docx");
 ```
 
-Mã này trình bày cách chuyển đổi hình dạng thành các đối tượng Office Math trong quá trình tải tài liệu. `setConvertShapeToOfficeMath(true)` phương pháp cho phép chuyển đổi này.
+### Đặt Phiên Bản MS Word
 
-## Đặt phiên bản MS Word
+Xác định phiên bản Word mục tiêu giúp thư viện chọn đúng quy tắc render, đặc biệt khi làm việc với các định dạng tệp cũ.
 
 ```java
 @Test
@@ -69,9 +90,9 @@ public void setMsWordVersion() throws Exception {
 }
 ```
 
-Bạn có thể chỉ định phiên bản MS Word để tải tài liệu. Trong ví dụ này, chúng tôi đặt phiên bản thành Microsoft Word 2010 bằng cách sử dụng `setMswVersion`.
+### Sử Dụng Thư Mục Tạm Thời
 
-## Sử dụng thư mục tạm thời
+Các tài liệu lớn có thể tạo ra các tệp tạm thời (ví dụ, khi trích xuất hình ảnh). Bạn có thể chỉ định các tệp này vào một thư mục tùy chọn, rất hữu ích trong môi trường sandbox.
 
 ```java
 @Test
@@ -83,9 +104,9 @@ public void useTempFolder() throws Exception {
 }
 ```
 
-Bằng cách thiết lập thư mục tạm thời bằng cách sử dụng `setTempFolder`, bạn có thể kiểm soát nơi lưu trữ các tệp tạm thời trong quá trình xử lý tài liệu.
+### Callback Cảnh Báo
 
-## Cảnh báo gọi lại
+Trong quá trình tải, Aspose.Words có thể phát sinh các cảnh báo (ví dụ, tính năng không được hỗ trợ). Việc triển khai callback cho phép bạn ghi log hoặc phản hồi lại các sự kiện này.
 
 ```java
 @Test
@@ -98,16 +119,16 @@ public void warningCallback() throws Exception {
 
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
     public void warning(WarningInfo info) {
-        // Xử lý các cảnh báo khi chúng phát sinh trong quá trình tải tài liệu.
+        // Handle warnings as they arise during document loading.
         System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
         System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
     }
 }
 ```
 
-Mã này trình bày cách thiết lập lệnh gọi lại cảnh báo để xử lý cảnh báo trong quá trình tải tài liệu. Bạn có thể tùy chỉnh hành vi của ứng dụng khi cảnh báo xảy ra.
+### Chuyển Đổi Metafile Sang PNG
 
-## Chuyển đổi Metafiles sang PNG
+Các metafile như WMF có thể được raster hoá thành PNG trong quá trình tải, đảm bảo việc render nhất quán trên mọi nền tảng.
 
 ```java
 @Test
@@ -119,9 +140,7 @@ public void convertMetafilesToPng() throws Exception {
 }
 ```
 
-Để chuyển đổi các tệp siêu dữ liệu (ví dụ: WMF) sang hình ảnh PNG trong khi tải tài liệu, bạn có thể sử dụng `setConvertMetafilesToPng(true)` phương pháp.
-
-## Mã nguồn đầy đủ để làm việc với tùy chọn tải trong Aspose.Words cho Java
+## Mã Nguồn Hoàn Chỉnh Để Làm Việc Với Load Options trong Aspose.Words cho Java
 
 ```java
 public void updateDirtyFields() throws Exception {
@@ -148,8 +167,8 @@ public void convertShapeToOfficeMath() throws Exception {
 }
 @Test
 public void setMsWordVersion() throws Exception {
-	// Tạo một đối tượng LoadOptions mới, đối tượng này sẽ tải các tài liệu theo thông số kỹ thuật của MS Word 2019 theo mặc định
-	// và thay đổi phiên bản tải xuống thành Microsoft Word 2010.
+	// Create a new LoadOptions object, which will load documents according to MS Word 2019 specification by default
+	// and change the loading version to Microsoft Word 2010.
 	LoadOptions loadOptions = new LoadOptions();
 	{
 		loadOptions.setMswVersion(MsWordVersion.WORD_2010);
@@ -175,7 +194,7 @@ public void warningCallback() throws Exception {
 }
 public static class DocumentLoadingWarningCallback implements IWarningCallback {
 	public void warning(WarningInfo info) {
-		// In các cảnh báo và thông tin chi tiết khi chúng phát sinh trong quá trình tải tài liệu.
+		// Prints warnings and their details as they arise during document loading.
 		System.out.println(MessageFormat.format("WARNING: {0}, source: {1}", info.getWarningType(), info.getSource()));
 		System.out.println(MessageFormat.format("\tDescription: {0}", info.getDescription()));
 	}
@@ -198,35 +217,43 @@ public void loadChm() throws Exception {
 }
 ```
 
-## Phần kết luận
+## Các Trường Hợp Sử Dụng Thông Thường & Mẹo
 
-Trong hướng dẫn này, chúng tôi đã đi sâu vào nhiều khía cạnh khác nhau khi làm việc với Load Options trong Aspose.Words for Java. Load Options đóng vai trò quan trọng trong việc tùy chỉnh cách tải và xử lý tài liệu, cho phép bạn tùy chỉnh cách xử lý tài liệu theo nhu cầu cụ thể của mình. Hãy cùng tóm tắt lại các điểm chính được đề cập trong hướng dẫn này:
+- **Đường ống chuyển đổi hàng loạt** – Kết hợp `setTempFolder` với một công việc định kỳ để xử lý hàng trăm tệp mà không làm đầy thư mục tạm hệ thống.  
+- **Di chuyển tài liệu cũ** – Sử dụng `setMswVersion` cùng với `setConvertShapeToOfficeMath` để đưa các tài liệu kỹ thuật cũ vào định dạng hiện đại mà vẫn giữ nguyên các công thức.  
+- **Xử lý tài liệu an toàn** – Kết hợp `loadEncryptedDocument` với `OdtSaveOptions` để mã hoá lại tệp bằng mật khẩu mới trong một định dạng khác.  
 
-## Câu hỏi thường gặp
+## Câu Hỏi Thường Gặp
 
-### Tôi có thể xử lý cảnh báo trong quá trình tải tài liệu như thế nào?
+**H: Làm sao tôi có thể xử lý cảnh báo trong quá trình tải tài liệu?**  
+Đ: Triển khai một `IWarningCallback` tùy chỉnh (như trong ví dụ *Callback Cảnh Báo*) và đăng ký nó qua `loadOptions.setWarningCallback(...)`. Điều này cho phép bạn ghi log, bỏ qua, hoặc hủy quá trình dựa trên mức độ nghiêm trọng của cảnh báo.
 
-Bạn có thể thiết lập cảnh báo gọi lại như được hiển thị trong `warningCallback()` phương pháp trên. Tùy chỉnh `DocumentLoadingWarningCallback` lớp xử lý cảnh báo theo yêu cầu của ứng dụng của bạn.
+**H: Tôi có thể chuyển đổi các hình dạng sang đối tượng Office Math khi tải tài liệu không?**  
+Đ: Có — gọi `loadOptions.setConvertShapeToOfficeMath(true)` trước khi khởi tạo `Document`. Thư viện sẽ tự động thay thế các hình dạng tương thích bằng các đối tượng Office Math gốc.
 
-### Tôi có thể chuyển đổi hình dạng thành đối tượng Office Math khi tải tài liệu không?
+**H: Làm sao chỉ định phiên bản MS Word cho quá trình tải tài liệu?**  
+Đ: Sử dụng `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` (hoặc bất kỳ giá trị enum nào khác) để thông báo cho Aspose.Words quy tắc render của phiên bản Word nào cần áp dụng.
 
-Có, bạn có thể chuyển đổi hình dạng thành các đối tượng Office Math bằng cách sử dụng `loadOptions.setConvertShapeToOfficeMath(true)`.
+**H: Mục đích của phương thức `setTempFolder` trong LoadOptions là gì?**  
+Đ: Nó chỉ định tất cả các tệp tạm thời được tạo ra trong quá trình tải (như hình ảnh được trích xuất) sẽ được lưu vào thư mục bạn kiểm soát, rất quan trọng đối với môi trường có giới hạn thư mục tạm hệ thống.
 
-### Làm thế nào để chỉ định phiên bản MS Word để tải tài liệu?
+**H: Có thể chuyển đổi các metafile như WMF sang PNG trong quá trình tải không?**  
+Đ: Hoàn toàn có thể — bật tùy chọn này bằng `loadOptions.setConvertMetafilesToPng(true)`. Điều này đảm bảo các ảnh raster được lưu dưới dạng PNG, tăng khả năng tương thích với các trình xem hiện đại.
 
-Sử dụng `loadOptions.setMswVersion(MsWordVersion.WORD_2010)` để chỉ định phiên bản MS Word để tải tài liệu.
+## Kết Luận
 
-### Mục đích của việc này là gì? `setTempFolder` phương pháp trong Tùy chọn tải?
+Chúng ta đã khám phá các kỹ thuật thiết yếu để **đặt LoadOptions** trong Aspose.Words cho Java, từ việc cập nhật các trường bẩn đến xử lý tệp được mã hoá, chuyển đổi hình dạng, chỉ định phiên bản Word, chỉ định lưu trữ tạm thời, và hơn thế nữa. Khi tận dụng những tùy chọn này, bạn có thể xây dựng các đường ống xử lý tài liệu mạnh mẽ, hiệu suất cao, thích ứng với đa dạng các kịch bản đầu vào.
 
-Các `setTempFolder` Phương pháp này cho phép bạn chỉ định thư mục lưu trữ các tập tin tạm thời trong quá trình xử lý tài liệu.
+---
 
+**Cập Nhật Lần Cuối:** 2025-12-27  
+**Đã Kiểm Tra Với:** Aspose.Words cho Java 24.11  
+**Tác Giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

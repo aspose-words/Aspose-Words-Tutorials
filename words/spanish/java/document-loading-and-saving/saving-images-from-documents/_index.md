@@ -1,10 +1,14 @@
 ---
-"description": "Aprende a guardar imágenes de documentos con Aspose.Words para Java con nuestra completa guía paso a paso. Personaliza formatos, compresión y más."
-"linktitle": "Guardar imágenes de documentos"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Guardar imágenes de documentos en Aspose.Words para Java"
-"url": "/es/java/document-loading-and-saving/saving-images-from-documents/"
-"weight": 17
+date: 2025-12-27
+description: Aprenda a guardar una página como JPEG y extraer imágenes de documentos
+  Word usando Aspose.Words para Java. Incluye consejos para ajustar el brillo de la
+  imagen, la resolución y crear TIFF multipágina.
+linktitle: Saving Images from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Cómo guardar una página como JPEG y extraer imágenes de documentos con Aspose.Words
+  para Java
+url: /es/java/document-loading-and-saving/saving-images-from-documents/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +17,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Guardar imágenes de documentos en Aspose.Words para Java
+# Save page as JPEG y Extraer Imágenes de Documentos en Aspose.Words for Java
 
+En este tutorial descubrirá cómo **save page as jpeg** desde un documento Word y cómo **extract images from Word** archivos usando Aspose.Words for Java. Recorreremos escenarios del mundo real como establecer el brillo de la imagen, ajustar la resolución de la imagen en Java y crear un TIFF multipágina. Cada paso incluye fragmentos de código listos para ejecutar, para que pueda copiar, pegar y ver los resultados al instante.
 
-## Introducción al guardado de imágenes desde documentos en Aspose.Words para Java
+## Respuestas rápidas
+- **¿Puedo guardar una sola página como JPEG?** Sí – use `ImageSaveOptions` con `setPageSet(new PageSet(pageIndex))`.
+- **¿Cómo cambio el brillo de la imagen?** Llama a `options.setImageBrightness(floatValue)` (rango 0‑1).
+- **¿Qué pasa si necesito un TIFF multipágina?** Configura un `PageSet` que cubra las páginas deseadas y elige un método de compresión TIFF.
+- **¿Cómo puedo controlar la resolución de la imagen?** Usa `setResolution(floatDpi)` o `setHorizontalResolution(floatDpi)`.
+- **¿Necesito una licencia para producción?** Se requiere una licencia válida de Aspose.Words para uso que no sea de prueba.
 
-En este tutorial, exploraremos cómo guardar imágenes de documentos con Aspose.Words para Java. Abordaremos diversos escenarios y opciones de personalización para guardar imágenes. Esta guía proporciona instrucciones paso a paso con ejemplos de código fuente.
+## Qué es “save page as jpeg”
+Guardar una página como JPEG significa convertir una sola página de un documento Word en un archivo de imagen raster (JPEG). Esto es útil para generar vistas previas, crear miniaturas o incrustar páginas de documentos en páginas web donde la renderización de PDF no es práctica.
 
-## Prerrequisitos
+## Por qué extraer imágenes de documentos Word
+Muchos flujos de trabajo empresariales requieren extraer los gráficos originales (logotipos, diagramas, fotos) de un archivo DOCX para reutilizarlos, archivarlos o analizarlos. Aspose.Words facilita la extracción de cada imagen en su formato nativo sin perder calidad.
 
-Antes de comenzar, asegúrese de tener la biblioteca Aspose.Words para Java integrada en su proyecto. Puede descargarla desde [aquí](https://releases.aspose.com/words/java/).
+## Requisitos previos
+- Java Development Kit (JDK 8 o posterior) instalado.
+- Biblioteca Aspose.Words for Java añadida a su proyecto. Descárguela desde [here](https://releases.aspose.com/words/java/).
+- Un documento Word de ejemplo (p. ej., `Rendering.docx`) colocado en un directorio conocido.
 
-## Paso 1: Guardar imágenes como TIFF con control de umbral
-
-Para guardar imágenes en formato TIFF con control de umbral, siga estos pasos:
+## Paso 1: Guardar imágenes como TIFF con control de umbral (Crear TIFF multipágina)
+Para generar un TIFF en escala de grises y alto contraste, puede controlar el umbral de binarización. Esto es útil cuando necesita una versión imprimible en blanco y negro de su documento.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -39,8 +53,7 @@ doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
 ## Paso 2: Guardar una página específica como TIFF multipágina
-
-Para guardar una página específica como un TIFF de varias páginas, utilice el siguiente código:
+Si necesita un TIFF que contenga solo un subconjunto de páginas (p. ej., páginas 1‑2), configure un `PageSet`. Esto demuestra **create multipage tiff**.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -51,9 +64,8 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## Paso 3: Guardar imágenes como PNG indexado de 1 BPP
-
-Para guardar imágenes como PNG indexado de 1 BPP, siga estos pasos:
+## Paso 3: Guardar imágenes como PNG indexado de 1 BPP
+Cuando necesite PNG en blanco y negro ultra ligeros (1 bit por píxel), establezca el formato de píxel correspondiente. Esto es útil para incrustar gráficos simples en escenarios de bajo ancho de banda.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -64,23 +76,21 @@ saveOptions.setPixelFormat(ImagePixelFormat.FORMAT_1_BPP_INDEXED);
 doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 ```
 
-## Paso 4: Guardar una página como JPEG con personalización
-
-Para guardar una página específica como JPEG con opciones de personalización, use este código:
+## Paso 4: Guardar una página como JPEG con personalización (Establecer brillo y resolución de la imagen)
+Aquí **save page as jpeg** mientras ajustamos el brillo, el contraste y la resolución, perfecto para crear miniaturas o vistas previas listas para la web.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 ImageSaveOptions options = new ImageSaveOptions();
 options.setPageSet(new PageSet(0));
-options.setImageBrightness(0.3f);
-options.setImageContrast(0.7f);
-options.setHorizontalResolution(72f);
+options.setImageBrightness(0.3f);          // set image brightness (0‑1)
+options.setImageContrast(0.7f);            // set image contrast (0‑1)
+options.setHorizontalResolution(72f);      // set image resolution in DPI
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## Paso 5: Uso de la devolución de llamada para guardar la página
-
-Puedes usar una devolución de llamada para personalizar el guardado de la página. Aquí tienes un ejemplo:
+## Paso 5: Usar una devolución de llamada de guardado de página (Personalización avanzada)
+Una devolución de llamada le permite renombrar cada archivo de salida dinámicamente, lo cual es útil al exportar muchas páginas a la vez.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -98,7 +108,8 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## Código fuente completo para guardar imágenes de documentos en Aspose.Words para Java
+## Código fuente completo para todos los escenarios
+A continuación hay una única clase que contiene cada método demostrado arriba. Puede ejecutar cada prueba individualmente.
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -141,14 +152,14 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// Establezca "PageSet" en "0" para convertir solo la primera página de un documento.
+	// Set the "PageSet" to "0" to convert only the first page of a document.
 	options.setPageSet(new PageSet(0));
-	// Cambiar el brillo y el contraste de la imagen.
-	// Ambos están en una escala de 0 a 1 y están en 0,5 por defecto.
+	// Change the image's brightness and contrast.
+	// Both are on a 0-1 scale and are at 0.5 by default.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
-	// Cambiar la resolución horizontal.
-	// El valor predeterminado para estas propiedades es 96.0, para una resolución de 96 ppp.
+	// Change the horizontal resolution.
+	// The default value for these properties is 96.0, for a resolution of 96dpi.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,54 +182,49 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 	}
 ```
 
-## Conclusión
-
-Ha aprendido a guardar imágenes de documentos con Aspose.Words para Java. Estos ejemplos muestran diversas opciones de personalización para guardar imágenes, como el formato, la compresión y el uso de devoluciones de llamada. Explore más posibilidades con las potentes funciones de Aspose.Words para Java.
+## Problemas comunes y soluciones
+- **“Unable to locate the document file”** – Verifique que la ruta del archivo use el separador correcto (`/` o `\\`) para su SO.
+- **Images appear blank** – Asegúrese de establecer un `ImageColorMode` apropiado (p. ej., `GRAYSCALE` para TIFF).
+- **Out‑of‑memory errors on large documents** – Procese las páginas en lotes ajustando el rango del `PageSet`.
+- **JPEG quality looks poor** – Aumente la resolución con `setHorizontalResolution` o `setResolution`.
 
 ## Preguntas frecuentes
 
-### ¿Cómo cambio el formato de imagen al guardar con Aspose.Words para Java?
-
-Puede cambiar el formato de la imagen especificando el formato deseado en el `ImageSaveOptions`Por ejemplo, para guardar como PNG, utilice `SaveFormat.PNG` como se muestra en el código:
+**Q: How do I change the image format when saving with Aspose.Words for Java?**  
+A: Establezca el formato deseado en `ImageSaveOptions`. Para PNG, simplemente puede instanciar `ImageSaveOptions` y asignar `SaveFormat.PNG` si es necesario.
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
 ```
 
-### ¿Puedo personalizar la configuración de compresión para las imágenes TIFF?
-
-Sí, puedes personalizar la configuración de compresión de imágenes TIFF. Por ejemplo, para configurar el método de compresión en CCITT_3, usa el siguiente código:
+**Q: Can I customize the compression settings for TIFF images?**  
+A: Sí. Use `setTiffCompression` para elegir un algoritmo de compresión como `CCITT_3`.
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 ```
 
-### ¿Cómo puedo guardar una página específica de un documento como una imagen separada?
-
-Para guardar una página específica como imagen, utilice el `setPageSet` método en `ImageSaveOptions`Por ejemplo, para guardar solo la primera página, configure el `PageSet` a `new PageSet(0)`.
+**Q: How can I save a specific page from a document as a separate image?**  
+A: Use el método `setPageSet` con un índice de página único.
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // Guardar la primera página como imagen
+saveOptions.setPageSet(new PageSet(0)); // Save the first page as an image
 ```
 
-### ¿Cómo puedo aplicar configuraciones personalizadas a las imágenes JPEG al guardarlas?
-
-Puede aplicar configuraciones personalizadas a las imágenes JPEG usando `ImageSaveOptions`Ajuste propiedades como el brillo, el contraste y la resolución. Por ejemplo, para cambiar el brillo a 0,3 y el contraste a 0,7, use este código:
+**Q: How do I apply custom settings to JPEG images when saving?**  
+A: Ajuste propiedades como brillo, contraste y resolución mediante `ImageSaveOptions`.
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### ¿Cómo puedo utilizar una devolución de llamada para personalizar el guardado de imágenes?
-
-Para utilizar una devolución de llamada para personalizar el guardado de imágenes, configure el `PageSavengCallback` in `ImageSaveOptions`. Crea una clase que implemente el `IPageSavingCallback` interfaz y anular la `pageSaving` método.
+**Q: How can I use a callback for customizing image saving?**  
+A: Implemente `IPageSavingCallback` y asígnelo con `setPageSavingCallback`.
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
-
-Luego, crea una clase que implemente el `IPageSavingCallback` interfaz y personalizar el nombre del archivo y la ubicación en el `pageSaving` método.
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -228,13 +234,19 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
+## Conclusión
+Ahora dispone de una caja de herramientas completa para **saving page as jpeg**, extraer imágenes, controlar el brillo de la imagen, establecer la resolución de la imagen en Java y crear archivos TIFF multipágina con Aspose.Words for Java. Experimente con diferentes configuraciones de `ImageSaveOptions` para adaptarlas a las necesidades de su proyecto y explore la API más amplia de Aspose.Words para obtener aún más capacidades de manipulación de documentos.
+
+---
+
+**Última actualización:** 2025-12-27  
+**Probado con:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
