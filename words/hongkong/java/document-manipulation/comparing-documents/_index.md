@@ -145,6 +145,12 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 欲取得更多資源與深入文件說明，請造訪 [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/)。
 
+---
+
+**最後更新：** 2026-01-01  
+**測試環境：** Aspose.Words for Java 最新穩定版  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -152,11 +158,3 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-01  
-**測試環境：** Aspose.Words for Java 最新穩定版  
-**作者：** Aspose  
-
----

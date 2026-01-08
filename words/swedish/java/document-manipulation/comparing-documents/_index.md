@@ -146,6 +146,12 @@ Absolut. Aspose.Words for Java:s dokumentjämförelsesfunktioner gör den väl l
 
 För ytterligare resurser och djupgående dokumentation om Aspose.Words for Java, besök [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/).
 
+---
+
+**Senast uppdaterad:** 2026-01-01  
+**Testad med:** Aspose.Words for Java latest stable release  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ För ytterligare resurser och djupgående dokumentation om Aspose.Words for Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-01  
-**Testad med:** Aspose.Words for Java latest stable release  
-**Författare:** Aspose  
-
----

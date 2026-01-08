@@ -154,6 +154,12 @@ Ačkoliv Aspose.Words for Java nabízí rozsáhlé možnosti porovnávání doku
 
 Pro další zdroje a podrobnou dokumentaci k Aspose.Words for Java navštivte [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/).
 
+---
+
+**Poslední aktualizace:** 2026-01-01  
+**Testováno s:** Aspose.Words for Java latest stable release  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -161,9 +167,3 @@ Pro další zdroje a podrobnou dokumentaci k Aspose.Words for Java navštivte [A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-01  
-**Testováno s:** Aspose.Words for Java latest stable release  
-**Autor:** Aspose

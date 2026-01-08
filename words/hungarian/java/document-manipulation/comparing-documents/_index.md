@@ -147,6 +147,12 @@ Bár az Aspose.Words for Java kiterjedt dokumentumösszehasonlítási képesség
 
 További források és részletes dokumentáció az Aspose.Words for Java-ról a [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/) oldalon érhető el.
 
+---
+
+**Legutóbb frissítve:** 2026-01-01  
+**Tesztelve a következővel:** Aspose.Words for Java legújabb stabil kiadás  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,11 +160,3 @@ További források és részletes dokumentáció az Aspose.Words for Java-ról a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-01  
-**Tesztelve a következővel:** Aspose.Words for Java legújabb stabil kiadás  
-**Szerző:** Aspose  
-
----

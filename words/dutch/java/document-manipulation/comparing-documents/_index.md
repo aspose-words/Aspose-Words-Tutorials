@@ -146,6 +146,12 @@ Hoewel Aspose.Words for Java uitgebreide mogelijkheden voor documentvergelijking
 
 Voor extra bronnen en diepgaande documentatie over Aspose.Words for Java, bezoekt u de [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/).
 
+---
+
+**Laatst bijgewerkt:** 2026-01-01  
+**Getest met:** Aspose.Words for Java nieuwste stabiele release  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ Voor extra bronnen en diepgaande documentatie over Aspose.Words for Java, bezoek
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-01  
-**Getest met:** Aspose.Words for Java nieuwste stabiele release  
-**Auteur:** Aspose  
-
----

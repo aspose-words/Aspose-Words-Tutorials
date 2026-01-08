@@ -146,6 +146,12 @@ Mặc dù Aspose.Words cho Java cung cấp khả năng so sánh tài liệu rộ
 
 Để có thêm tài nguyên và tài liệu chi tiết về Aspose.Words cho Java, hãy truy cập [tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
 
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java latest stable release  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ Mặc dù Aspose.Words cho Java cung cấp khả năng so sánh tài liệu rộ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-01  
-**Tested With:** Aspose.Words for Java latest stable release  
-**Author:** Aspose  
-
----

@@ -146,6 +146,12 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 Для получения дополнительных ресурсов и подробной документации по Aspose.Words for Java посетите страницу [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/).
 
+---
+
+**Последнее обновление:** 2026-01-01  
+**Тестировано с:** последняя стабильная версия Aspose.Words for Java  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-01  
-**Тестировано с:** последняя стабильная версия Aspose.Words for Java  
-**Автор:** Aspose  
-
----

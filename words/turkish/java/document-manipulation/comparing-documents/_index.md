@@ -146,6 +146,12 @@ Aspose.Words for Java geniş belge karşılaştırma yetenekleri sunsa da, belge
 
 Aspose.Words for Java hakkında ek kaynaklar ve ayrıntılı dokümantasyon için [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/) adresini ziyaret edin.
 
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java latest stable release  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ Aspose.Words for Java hakkında ek kaynaklar ve ayrıntılı dokümantasyon içi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-01  
-**Tested With:** Aspose.Words for Java latest stable release  
-**Author:** Aspose  
-
----

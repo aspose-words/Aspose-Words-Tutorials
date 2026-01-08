@@ -146,6 +146,12 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 
 สำหรับแหล่งข้อมูลเพิ่มเติมและเอกสารเชิงลึกเกี่ยวกับ Aspose.Words for Java, เยี่ยมชมหน้า [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/)
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-01  
+**ทดสอบด้วย:** Aspose.Words for Java รุ่นเสถียรล่าสุด  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,11 +159,3 @@ builderA.getDocument().compare(builderB.getDocument(), "author", new Date(), com
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-01  
-**ทดสอบด้วย:** Aspose.Words for Java รุ่นเสถียรล่าสุด  
-**ผู้เขียน:** Aspose  
-
----
