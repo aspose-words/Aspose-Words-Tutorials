@@ -24,7 +24,7 @@ url: /ja/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{<f/main-container >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word から LaTeX をエクスポートする方法 – ステップバイステップガイド
