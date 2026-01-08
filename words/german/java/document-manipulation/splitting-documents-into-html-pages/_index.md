@@ -186,6 +186,12 @@ A: Ja, ein kostenloser 30‑Tage‑Test kann von der Aspose‑Website bezogen we
 
 In diesem umfassenden Leitfaden haben wir gezeigt, wie man **Word in HTML konvertiert** und den resultierenden Inhalt mit Aspose.Words für Java in einzelne HTML‑Seiten aufteilt. Durch das Befolgen der beschriebenen Schritte können Sie die Erstellung web‑fertiger Dokumentation automatisieren, die Seitenlade‑Performance verbessern und ein navigierbares Inhaltsverzeichnis für große Dokumente erzeugen.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-06  
+**Getestet mit:** Aspose.Words für Java 24.12 (latest)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,11 +199,3 @@ In diesem umfassenden Leitfaden haben wir gezeigt, wie man **Word in HTML konver
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-06  
-**Getestet mit:** Aspose.Words für Java 24.12 (latest)  
-**Autor:** Aspose  
-
----

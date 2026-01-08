@@ -136,6 +136,12 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 เราได้ครอบคลุมทุกอย่างที่คุณต้องการ **remove footers from Word** ด้วย Aspose.Words for Java รวมถึงงานที่เกี่ยวข้องเช่นการลบการแบ่งหน้า, **how to delete section breaks**, และการลบสารบัญ ด้วยการใช้สแนปช็อตเหล่านี้ คุณสามารถสร้างเอกสารที่สะอาดและเป็นมืออาชีพตามความต้องการของแอปพลิเคชันของคุณได้.
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-06  
+**ทดสอบกับ:** Aspose.Words for Java 24.12  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-06  
-**ทดสอบกับ:** Aspose.Words for Java 24.12  
-**ผู้เขียน:** Aspose  
-
----

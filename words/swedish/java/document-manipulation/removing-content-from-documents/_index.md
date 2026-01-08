@@ -136,6 +136,12 @@ A: Att ta bort sidfötter ändrar inte sidnumren såvida inte sidfoten själv in
 
 Vi har gått igenom allt du behöver för att **ta bort sidfötter från Word**‑dokument med Aspose.Words för Java, samt relaterade uppgifter som att ta bort sidbrytningar, **hur man tar bort sektionsbrytningar**, och att rensa bort innehållsförteckningar. Genom att utnyttja dessa kodsnuttar kan du skapa rena, professionella dokument anpassade efter dina applikationskrav.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ Vi har gått igenom allt du behöver för att **ta bort sidfötter från Word**�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

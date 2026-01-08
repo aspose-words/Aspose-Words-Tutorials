@@ -136,6 +136,12 @@ R: Remover rodapés não altera a numeração de páginas, a menos que o própri
 
 Cobriramos tudo o que você precisa para **remover rodapés de documentos Word** usando Aspose.Words para Java, além de tarefas relacionadas como excluir quebras de página, **como excluir quebras de seção** e remover sumários. Ao aproveitar esses trechos de código, você pode gerar documentos limpos e profissionais, adaptados aos requisitos da sua aplicação.
 
+---
+
+**Última atualização:** 2026-01-06  
+**Testado com:** Aspose.Words para Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ Cobriramos tudo o que você precisa para **remover rodapés de documentos Word**
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-06  
-**Testado com:** Aspose.Words para Java 24.12  
-**Autor:** Aspose  
-
----

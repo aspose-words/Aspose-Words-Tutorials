@@ -186,6 +186,12 @@ Artık adımları özetlediğimize göre, Java projenizde her adımı uygulayara
 
 Bu kapsamlı rehberde, **Word'ü HTML'ye dönüştürme** ve ortaya çıkan içeriği Aspose.Words for Java kullanarak ayrı HTML sayfalarına bölme yöntemini gösterdik. Belirtilen adımları izleyerek web‑hazır belgeler oluşturmayı otomatikleştirebilir, sayfa yükleme performansını artırabilir ve büyük belgeler için gezilebilir bir içindekiler tablosu oluşturabilirsiniz.
 
+---
+
+**Son Güncelleme:** 2026-01-06  
+**Test Edilen:** Aspose.Words for Java 24.12 (latest)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Bu kapsamlı rehberde, **Word'ü HTML'ye dönüştürme** ve ortaya çıkan içe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-01-06  
-**Test Edilen:** Aspose.Words for Java 24.12 (latest)  
-**Yazar:** Aspose

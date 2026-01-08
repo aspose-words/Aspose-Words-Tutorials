@@ -186,6 +186,12 @@ J: Ya, percobaan gratis selama 30 hari dapat diperoleh dari situs web Aspose u
 
 Dalam panduan komprehensif ini, kami menunjukkan cara **mengonversi Word ke HTML** dan membagi konten yang dihasilkan menjadi halaman HTML individual menggunakan Aspose.Words untuk Java. Dengan mengikuti langkah‑langkah yang dijabarkan, Anda dapat mengotomatiskan pembuatan dokumentasi siap web, meningkatkan kinerja pemuatan halaman, dan menghasilkan daftar isi yang dapat dinavigasi untuk dokumen besar.
 
+---
+
+**Terakhir Diperbarui:** 2026-01-06  
+**Diuji Dengan:** Aspose.Words untuk Java 24.12 (terbaru)  
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,11 +199,3 @@ Dalam panduan komprehensif ini, kami menunjukkan cara **mengonversi Word ke HTML
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-06  
-**Diuji Dengan:** Aspose.Words untuk Java 24.12 (terbaru)  
-**Penulis:** Aspose  
-
----

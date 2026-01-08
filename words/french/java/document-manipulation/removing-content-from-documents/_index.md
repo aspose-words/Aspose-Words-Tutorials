@@ -138,6 +138,12 @@ R : Supprimer les pieds de page ne modifie pas les numéros de page, sauf si l
 
 Nous avons couvert tout ce qu’il faut savoir pour **supprimer les pieds de page des documents Word** à l’aide d’Aspose.Words pour Java, ainsi que les tâches connexes telles que la suppression des sauts de page, **comment supprimer les sauts de section**, et le nettoyage des tables des matières. En exploitant ces extraits, vous pouvez générer des documents propres et professionnels adaptés aux exigences de votre application.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -145,11 +151,3 @@ Nous avons couvert tout ce qu’il faut savoir pour **supprimer les pieds de pag
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

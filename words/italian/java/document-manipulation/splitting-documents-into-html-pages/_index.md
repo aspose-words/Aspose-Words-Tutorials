@@ -186,6 +186,12 @@ R: Sì, è possibile ottenere una prova gratuita di 30 giorni dal sito Aspose 
 
 In questa guida completa, abbiamo dimostrato come **convertire Word in HTML** e suddividere il contenuto risultante in pagine HTML individuali usando Aspose.Words per Java. Seguendo i passaggi descritti, puoi automatizzare la creazione di documentazione pronta per il web, migliorare le prestazioni di caricamento delle pagine e generare un indice navigabile per documenti di grandi dimensioni.
 
+---
+
+**Ultimo aggiornamento:** 2026-01-06  
+**Testato con:** Aspose.Words per Java 24.12 (latest)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,11 +199,3 @@ In questa guida completa, abbiamo dimostrato come **convertire Word in HTML** e 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-06  
-**Testato con:** Aspose.Words per Java 24.12 (latest)  
-**Autore:** Aspose  
-
----

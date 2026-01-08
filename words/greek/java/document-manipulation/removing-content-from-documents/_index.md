@@ -138,6 +138,12 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 Καλύψαμε όλα όσα χρειάζεστε για να **αφαιρέσετε υποσέλιδα από έγγραφα Word** χρησιμοποιώντας το Aspose.Words for Java, μαζί με συναφείς εργασίες όπως η διαγραφή αλλαγών σελίδας, **πώς να διαγράψετε αλλαγές ενότητας**, και η αφαίρεση πινάκων περιεχομένων. Εκμεταλλευόμενοι αυτά τα αποσπάσματα, μπορείτε να δημιουργήσετε καθαρά, επαγγελματικά έγγραφα προσαρμοσμένα στις απαιτήσεις της εφαρμογής σας.
 
+---
+
+**Τελευταία ενημέρωση:** 2026-01-06  
+**Δοκιμή με:** Aspose.Words for Java 24.12  
+**Συγγραφέας:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -145,11 +151,3 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-01-06  
-**Δοκιμή με:** Aspose.Words for Java 24.12  
-**Συγγραφέας:** Aspose  
-
----

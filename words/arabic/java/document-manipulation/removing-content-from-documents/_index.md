@@ -136,6 +136,13 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 لقد غطينا كل ما تحتاجه **لإزالة التذييلات من مستندات Word** باستخدام Aspose.Words for Java، بالإضافة إلى المهام المرتبطة مثل حذف فواصل الصفحات، **كيفية حذف فواصل الأقسام**، وإزالة جداول المحتويات. من خلال الاستفادة من هذه المقتطفات، يمكنك إنتاج مستندات نظيفة ومهنية تتناسب مع متطلبات تطبيقك.
 
+---
+
+**آخر تحديث:** 2026-01-06  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +150,3 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-06  
-**تم الاختبار مع:** Aspose.Words for Java 24.12  
-**المؤلف:** Aspose  
-
----

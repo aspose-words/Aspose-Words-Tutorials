@@ -136,6 +136,12 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 Kami telah membahas semua yang Anda perlukan untuk **menghapus footer dari Word** menggunakan Aspose.Words untuk Java, bersama dengan tugas terkait seperti menghapus pemisah halaman, **cara menghapus pemisah bagian**, dan menghapus daftar isi. Dengan memanfaatkan potongan kode ini, Anda dapat menghasilkan dokumen bersih dan profesional yang disesuaikan dengan kebutuhan aplikasi Anda.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,9 +149,3 @@ Kami telah membahas semua yang Anda perlukan untuk **menghapus footer dari Word*
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose

@@ -186,6 +186,12 @@ Bây giờ chúng ta đã phác thảo các bước, bạn có thể triển kha
 
 Trong hướng dẫn toàn diện này, chúng tôi đã trình bày cách **chuyển đổi Word sang HTML** và tách nội dung đã chuyển đổi thành các trang HTML riêng lẻ bằng Aspose.Words cho Java. Bằng cách thực hiện các bước đã nêu, bạn có thể tự động tạo tài liệu sẵn sàng cho web, cải thiện hiệu suất tải trang và tạo mục lục điều hướng cho các tài liệu lớn.
 
+---
+
+**Cập nhật lần cuối:** 2026-01-06  
+**Được kiểm tra với:** Aspose.Words cho Java 24.12 (mới nhất)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,11 +199,3 @@ Trong hướng dẫn toàn diện này, chúng tôi đã trình bày cách **chu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-06  
-**Được kiểm tra với:** Aspose.Words cho Java 24.12 (mới nhất)  
-**Tác giả:** Aspose  
-
----

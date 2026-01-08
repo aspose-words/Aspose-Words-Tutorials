@@ -186,6 +186,12 @@ A: Ja, een gratis proefperiode van 30 dagen kan worden verkregen via de Aspose�
 
 In deze uitgebreide gids hebben we laten zien hoe je **Word naar HTML** kunt **converteren** en de resulterende inhoud kunt splitsen in afzonderlijke HTML‑pagina's met Aspose.Words voor Java. Door de beschreven stappen te volgen, kun je het maken van web‑klare documentatie automatiseren, de paginalaadtijd verbeteren en een navigeerbare inhoudsopgave voor grote documenten genereren.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,11 +199,3 @@ In deze uitgebreide gids hebben we laten zien hoe je **Word naar HTML** kunt **c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

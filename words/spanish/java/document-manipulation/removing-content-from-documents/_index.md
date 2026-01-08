@@ -137,6 +137,12 @@ R: Eliminar los pies de página no cambia los números de página a menos que el
 
 Hemos cubierto todo lo necesario para **eliminar pies de página de documentos Word** usando Aspose.Words para Java, junto con tareas relacionadas como eliminar saltos de página, **cómo eliminar saltos de sección** y eliminar tablas de contenido. Aprovechando estos fragmentos, puedes generar documentos limpios y profesionales adaptados a los requisitos de tu aplicación.
 
+---
+
+**Última actualización:** 2026-01-06  
+**Probado con:** Aspose.Words para Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -144,11 +150,3 @@ Hemos cubierto todo lo necesario para **eliminar pies de página de documentos W
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-06  
-**Probado con:** Aspose.Words para Java 24.12  
-**Autor:** Aspose  
-
----

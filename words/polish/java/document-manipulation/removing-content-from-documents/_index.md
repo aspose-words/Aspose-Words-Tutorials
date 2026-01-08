@@ -136,6 +136,12 @@ A: Usunięcie stopek nie zmienia numeracji stron, chyba że stopka sama zawiera 
 
 Omówiliśmy wszystko, co potrzebne, aby **usunąć stopki z dokumentów Word** przy użyciu Aspose.Words for Java, wraz z powiązanymi zadaniami, takimi jak usuwanie podziałów stron, **jak usunąć podziały sekcji** oraz usuwanie spisów treści. Korzystając z tych fragmentów, możesz tworzyć czyste, profesjonalne dokumenty dopasowane do wymagań Twojej aplikacji.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ Omówiliśmy wszystko, co potrzebne, aby **usunąć stopki z dokumentów Word** 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

@@ -137,6 +137,12 @@ A: Rimuovere i piè di pagina non modifica i numeri di pagina, a meno che il pi�
 
 Abbiamo coperto tutto ciò di cui hai bisogno per **rimuovere i piè di pagina da documenti Word** usando Aspose.Words per Java, insieme a compiti correlati come l'eliminazione delle interruzioni di pagina, **come eliminare le interruzioni di sezione**, e la rimozione degli indici. Sfruttando questi frammenti, puoi produrre documenti puliti e professionali su misura per i requisiti della tua applicazione.
 
+---
+
+**Ultimo aggiornamento:** 2026-01-06  
+**Testato con:** Aspose.Words for Java 24.12  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -144,9 +150,3 @@ Abbiamo coperto tutto ciò di cui hai bisogno per **rimuovere i piè di pagina d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-06  
-**Testato con:** Aspose.Words for Java 24.12  
-**Autore:** Aspose

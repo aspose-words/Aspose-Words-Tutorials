@@ -137,6 +137,12 @@ C: Altbilgi içinde sayfa numarası alanı bulunmadığı sürece sayfa numarala
 
 Aspose.Words for Java kullanarak **Word belgelerinden altbilgileri kaldırma**, sayfa sonlarını silme, **bölüm sonlarını silme** ve içerik tablolarını temizleme konularında ihtiyacınız olan her şeyi ele aldık. Bu kod parçacıklarını uygulayarak, uygulamanızın gereksinimlerine uygun temiz ve profesyonel belgeler oluşturabilirsiniz.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -144,11 +150,3 @@ Aspose.Words for Java kullanarak **Word belgelerinden altbilgileri kaldırma**, 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

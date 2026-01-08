@@ -186,6 +186,12 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 
 इस व्यापक मार्गदर्शिका में हमने दिखाया कि **Word को HTML में बदलें** और Aspose.Words for Java का उपयोग करके परिणामी सामग्री को व्यक्तिगत HTML पृष्ठों में कैसे विभाजित किया जाए। उल्लिखित चरणों का पालन करके आप वेब‑तैयार दस्तावेज़ीकरण का स्वचालन कर सकते हैं, पृष्ठ लोड प्रदर्शन को बेहतर बना सकते हैं, और बड़े दस्तावेज़ों के लिए नेविगेबल सामग्री तालिका उत्पन्न कर सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2026-01-06  
+**परीक्षित संस्करण:** Aspose.Words for Java 24.12 (नवीनतम)  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,11 +199,3 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-06  
-**परीक्षित संस्करण:** Aspose.Words for Java 24.12 (नवीनतम)  
-**लेखक:** Aspose  
-
----

@@ -138,6 +138,12 @@ A: A láblécek eltávolítása nem változtatja meg az oldalszámokat, kivéve 
 
 Mindezt áttekintettük, ami szükséges a **láblécek eltávolításához Word** dokumentumokból az Aspose.Words for Java használatával, valamint a kapcsolódó feladatokhoz, mint az oldaltörések törlése, **hogyan töröljük a szakasz töréseket**, és a tartalomjegyzékek eltávolítása. Ezeknek a kódrészleteknek a felhasználásával tiszta, professzionális dokumentumokat hozhat létre, amelyek megfelelnek az alkalmazása követelményeinek.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -145,11 +151,3 @@ Mindezt áttekintettük, ami szükséges a **láblécek eltávolításához Word
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

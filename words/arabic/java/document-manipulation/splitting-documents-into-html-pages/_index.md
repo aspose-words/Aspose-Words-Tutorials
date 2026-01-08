@@ -185,6 +185,12 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 
 في هذا الدليل الشامل، أظهرنا كيفية **تحويل Word إلى HTML** وتقسيم المحتوى الناتج إلى صفحات HTML فردية باستخدام Aspose.Words for Java. باتباع الخطوات الموضحة، يمكنك أتمتة إنشاء وثائق جاهزة للويب، تحسين أداء تحميل الصفحات، وتوليد جدول محتويات قابل للتنقل للمستندات الكبيرة.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose

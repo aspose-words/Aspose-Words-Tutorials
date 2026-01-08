@@ -136,6 +136,12 @@ A: 바닥글 자체에 페이지 번호 필드가 포함되지 않은 한 페이
 
 우리는 Aspose.Words for Java를 사용하여 Word 문서에서 **바닥글을 제거**하는 방법과 페이지 나누기 삭제, **섹션 나누기 삭제 방법**, 목차 제거와 같은 관련 작업을 모두 다루었습니다. 이러한 코드 조각을 활용하면 애플리케이션 요구에 맞는 깔끔하고 전문적인 문서를 만들 수 있습니다.
 
+---
+
+**마지막 업데이트:** 2026-01-06  
+**테스트 대상:** Aspose.Words for Java 24.12  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ A: 바닥글 자체에 페이지 번호 필드가 포함되지 않은 한 페이
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-01-06  
-**테스트 대상:** Aspose.Words for Java 24.12  
-**작성자:** Aspose  
-
----

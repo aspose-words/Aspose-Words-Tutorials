@@ -137,6 +137,12 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 Мы рассмотрели всё, что нужно для **удаления колонтитулов из документов Word** с помощью Aspose.Words for Java, а также связанные задачи, такие как удаление разрывов страниц, **как удалить разрывы разделов** и удаление оглавлений. Используя эти фрагменты кода, вы сможете создавать чистые, профессиональные документы, соответствующие требованиям вашего приложения.
 
+---
+
+**Последнее обновление:** 2026-01-06  
+**Тестировано с:** Aspose.Words for Java 24.12  
+**Автор:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -144,11 +150,3 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-06  
-**Тестировано с:** Aspose.Words for Java 24.12  
-**Автор:** Aspose  
-
----

@@ -136,6 +136,12 @@ A: Das Entfernen von Fußzeilen ändert die Seitenzahlen nicht, es sei denn, die
 
 Wir haben alles behandelt, was Sie benötigen, um **Fußzeilen aus Word**‑Dokumenten mit Aspose.Words für Java zu entfernen, einschließlich verwandter Aufgaben wie dem Löschen von Seitenumbrüchen, **wie man Abschnittswechsel löscht** und dem Entfernen von Inhaltsverzeichnissen. Mit diesen Snippets können Sie saubere, professionelle Dokumente erstellen, die exakt den Anforderungen Ihrer Anwendung entsprechen.
 
+---
+
+**Zuletzt aktualisiert:** 2026-01-06  
+**Getestet mit:** Aspose.Words für Java 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ Wir haben alles behandelt, was Sie benötigen, um **Fußzeilen aus Word**‑Doku
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-01-06  
-**Getestet mit:** Aspose.Words für Java 24.12  
-**Autor:** Aspose  
-
----

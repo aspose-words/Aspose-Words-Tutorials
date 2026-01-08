@@ -184,6 +184,12 @@ A: มี รุ่นทดลองฟรี 30‑วัน ที่สาม
 
 ในคู่มือฉบับสมบูรณ์นี้ เราได้สาธิตวิธี **แปลง Word เป็น HTML** และแยกเนื้อหาที่ได้เป็นหน้า HTML แยกต่างหากโดยใช้ Aspose.Words for Java ด้วยการทำตามขั้นตอนที่ระบุ คุณสามารถอัตโนมัติการสร้างเอกสารพร้อมใช้งานบนเว็บ ปรับปรุงประสิทธิภาพการโหลดหน้า และสร้างสารบัญที่นำทางได้สำหรับเอกสารขนาดใหญ่
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,11 +197,3 @@ A: มี รุ่นทดลองฟรี 30‑วัน ที่สาม
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

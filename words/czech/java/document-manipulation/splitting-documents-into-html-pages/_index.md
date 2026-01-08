@@ -186,6 +186,12 @@ A: Ano, můžete získat bezplatnou 30‑denní zkušební verzi na webu Aspose 
 
 V tomto komplexním průvodci jsme ukázali, jak **převést Word do HTML** a rozdělit vzniklý obsah na jednotlivé HTML stránky pomocí Aspose.Words pro Java. Dodržením uvedených kroků můžete automatizovat tvorbu web‑připravené dokumentace, zlepšit výkon načítání stránek a vygenerovat navigovatelný obsah pro velké dokumenty.
 
+---
+
+**Poslední aktualizace:** 2026-01-06  
+**Testováno s:** Aspose.Words for Java 24.12 (nejnovější)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ V tomto komplexním průvodci jsme ukázali, jak **převést Word do HTML** a ro
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-06  
-**Testováno s:** Aspose.Words for Java 24.12 (nejnovější)  
-**Autor:** Aspose

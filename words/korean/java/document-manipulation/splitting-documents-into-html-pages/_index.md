@@ -184,6 +184,12 @@ A: 예, Aspose 웹사이트에서 30일 무료 체험판을 받아 모든 기능
 
 이 포괄적인 가이드에서는 **Word를 HTML로 변환**하고 Aspose.Words for Java를 사용해 결과 콘텐츠를 개별 HTML 페이지로 분할하는 방법을 보여주었습니다. 제시된 단계를 따라 하면 웹 준비 문서 자동 생성, 페이지 로드 성능 향상 및 대형 문서용 탐색 가능한 목차 생성을 구현할 수 있습니다.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,11 +197,3 @@ A: 예, Aspose 웹사이트에서 30일 무료 체험판을 받아 모든 기능
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

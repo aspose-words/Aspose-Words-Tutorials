@@ -135,6 +135,12 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 我們已說明如何使用 Aspose.Words for Java **移除 Word** 文件的頁腳，並涵蓋相關任務，如刪除分頁符、**如何刪除分節符** 以及剔除目錄。透過這些程式碼片段，您可以產生符合應用需求的乾淨、專業文件。
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -142,11 +148,3 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

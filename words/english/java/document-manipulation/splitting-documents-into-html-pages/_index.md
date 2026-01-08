@@ -183,6 +183,12 @@ A: Yes, a free 30‑day trial can be obtained from the Aspose website to evaluat
 
 In this comprehensive guide, we demonstrated how to **convert Word to HTML** and split the resulting content into individual HTML pages using Aspose.Words for Java. By following the outlined steps, you can automate the creation of web‑ready documentation, improve page load performance, and generate a navigable table of contents for large documents.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,11 +196,3 @@ In this comprehensive guide, we demonstrated how to **convert Word to HTML** and
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

@@ -186,6 +186,12 @@ A: Igen, egy ingyenes 30‑napos próba verziót a Aspose weboldaláról szerezh
 
 Ebben az átfogó útmutatóban bemutattuk, hogyan **Word konvertálása HTML-re** és a kapott tartalom egyes HTML oldalakra bontása az Aspose.Words for Java segítségével. A felvázolt lépések követésével automatizálhatja a web‑kész dokumentációk létrehozását, javíthatja az oldalbetöltési teljesítményt, és generálhat egy navigálható tartalomjegyzéket nagy dokumentumokhoz.
 
+---
+
+**Legutóbb frissítve:** 2026-01-06  
+**Tesztelve ezzel:** Aspose.Words for Java 24.12 (legújabb)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +199,3 @@ Ebben az átfogó útmutatóban bemutattuk, hogyan **Word konvertálása HTML-re
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-06  
-**Tesztelve ezzel:** Aspose.Words for Java 24.12 (legújabb)  
-**Szerző:** Aspose

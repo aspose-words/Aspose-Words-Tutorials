@@ -135,6 +135,12 @@ A: Removing footers does not change page numbers unless the footer itself contai
 
 We’ve covered everything you need to **remove footers from Word** documents using Aspose.Words for Java, along with related tasks such as deleting page breaks, **how to delete section breaks**, and stripping tables of contents. By leveraging these snippets, you can produce clean, professional documents tailored to your application’s requirements.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -142,11 +148,3 @@ We’ve covered everything you need to **remove footers from Word** documents us
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----

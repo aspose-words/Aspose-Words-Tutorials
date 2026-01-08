@@ -185,6 +185,12 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 
 Σε αυτόν τον ολοκληρωμένο οδηγό, δείξαμε πώς να **μετατρέψετε Word σε HTML** και να διαχωρίσετε το παραγόμενο περιεχόμενο σε ξεχωριστές σελίδες HTML χρησιμοποιώντας το Aspose.Words για Java. Ακολουθώντας τα περιγραφόμενα βήματα, μπορείτε να αυτοματοποιήσετε τη δημιουργία τεκμηρίωσης έτοιμης για το web, να βελτιώσετε την απόδοση φόρτωσης των σελίδων και να δημιουργήσετε έναν πλοηγήσιμο πίνακα περιεχομένων για μεγάλα έγγραφα.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,11 +198,3 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose  
-
----

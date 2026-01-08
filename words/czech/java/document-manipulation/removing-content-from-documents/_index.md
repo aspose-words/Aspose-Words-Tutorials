@@ -136,6 +136,12 @@ A: Odstranění zápatí nemění čísla stránek, pokud zápatí samo neobsahu
 
 Probrali jsme vše, co potřebujete k **odstranění zápatí z dokumentů Word** pomocí Aspose.Words pro Java, včetně souvisejících úkolů, jako je mazání zalomení stránky, **jak smazat zalomení sekcí** a odstraňování obsahu. Využitím těchto úryvků můžete vytvářet čisté, profesionální dokumenty přizpůsobené požadavkům vaší aplikace.
 
+---
+
+**Poslední aktualizace:** 2026-01-06  
+**Testováno s:** Aspose.Words for Java 24.12  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,9 +149,3 @@ Probrali jsme vše, co potřebujete k **odstranění zápatí z dokumentů Word*
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-06  
-**Testováno s:** Aspose.Words for Java 24.12  
-**Autor:** Aspose

@@ -136,6 +136,12 @@ A: Het verwijderen van voetregels verandert de paginanummers niet, tenzij de voe
 
 We hebben alles behandeld wat je nodig hebt om **voetregels uit Word**‑documenten te verwijderen met Aspose.Words voor Java, inclusief gerelateerde taken zoals het verwijderen van paginawissels, **hoe sectiewissels te verwijderen**, en het strippen van inhoudsopgaven. Door deze fragmenten te gebruiken kun je schone, professionele documenten produceren die zijn afgestemd op de eisen van jouw applicatie.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-06  
+**Getest met:** Aspose.Words voor Java 24.12  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ We hebben alles behandeld wat je nodig hebt om **voetregels uit Word**‑documen
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-06  
-**Getest met:** Aspose.Words voor Java 24.12  
-**Auteur:** Aspose  
-
----

@@ -135,6 +135,12 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 
 我们已经介绍了使用 Aspose.Words for Java **删除 Word 文档页脚** 的全部方法，并涵盖了删除分页符、**如何删除分节符** 以及剥离目录等相关任务。通过这些代码片段，您可以生成符合应用需求的干净、专业的文档。
 
+---
+
+**最后更新：** 2026-01-06  
+**测试环境：** Aspose.Words for Java 24.12  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -142,9 +148,3 @@ doc.save("Your Directory Path" + "RemoveContent.RemoveToc.doc");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-06  
-**测试环境：** Aspose.Words for Java 24.12  
-**作者：** Aspose

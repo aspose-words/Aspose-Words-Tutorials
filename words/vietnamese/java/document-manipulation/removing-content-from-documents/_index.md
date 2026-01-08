@@ -136,6 +136,12 @@ A: Xóa chân trang không thay đổi số trang trừ khi chân trang tự nó
 
 Chúng tôi đã trình bày mọi thứ bạn cần để **xóa chân trang khỏi tài liệu Word** bằng Aspose.Words cho Java, cùng với các nhiệm vụ liên quan như xóa ngắt trang, **cách xóa ngắt đoạn**, và loại bỏ mục lục. Bằng cách tận dụng các đoạn mã này, bạn có thể tạo ra các tài liệu sạch sẽ, chuyên nghiệp, phù hợp với yêu cầu của ứng dụng của mình.
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -143,11 +149,3 @@ Chúng tôi đã trình bày mọi thứ bạn cần để **xóa chân trang kh
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
-
----
