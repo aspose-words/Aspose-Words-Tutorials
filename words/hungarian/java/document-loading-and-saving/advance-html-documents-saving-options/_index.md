@@ -5,7 +5,7 @@ description: Ismerje meg, hogyan exportálhat HTML-t az Aspose.Words Java segít
   hatékony HTML-re konvertálásához.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'HTML exportálása az Aspose.Words Java-val: haladó beállítások'
+title: 'HTML exportálása az Aspose.Words Java-val - haladó beállítások'
 url: /hu/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

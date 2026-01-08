@@ -114,14 +114,6 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Determinando el formato de documento en Aspose.Words for Java](./determining-document-format/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  
@@ -144,3 +136,11 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 **Última actualización:** 2025-12-19  
 **Probado con:** Aspose.Words for Java 24.12 (latest)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

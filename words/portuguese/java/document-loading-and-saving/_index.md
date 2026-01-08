@@ -99,14 +99,6 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q:** Como eu programaticamente **save images from word** documentos?  
@@ -127,3 +119,11 @@ As configurações de documentos são a chave para entregar documentos adaptados
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.Words for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,7 @@ description: Μάθετε πώς να εξάγετε HTML με το Aspose.Words
   επιλογές για αποθήκευση του Word ως HTML και αποδοτική μετατροπή του Word σε HTML.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'Πώς να εξάγετε HTML με το Aspose.Words Java: Προηγμένες επιλογές'
+title: 'Πώς να εξάγετε HTML με το Aspose.Words Java - Προηγμένες επιλογές'
 url: /el/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

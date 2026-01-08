@@ -130,14 +130,6 @@ Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speiche
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
 Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  
@@ -158,3 +150,11 @@ Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX
 **Zuletzt aktualisiert:** 2025-12-19  
 **Getestet mit:** Aspose.Words for Java 24.12 (neueste)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

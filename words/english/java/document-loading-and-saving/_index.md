@@ -128,14 +128,6 @@ Learn how to save documents as text files in Aspose.Words for Java. Follow our s
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  
@@ -158,3 +150,11 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 **Last Updated:** 2025-12-19  
 **Tested With:** Aspose.Words for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

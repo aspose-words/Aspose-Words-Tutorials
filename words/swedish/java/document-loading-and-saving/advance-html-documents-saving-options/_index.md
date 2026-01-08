@@ -5,7 +5,7 @@ description: Lär dig hur du exporterar HTML med Aspose.Words Java, inklusive av
   sätt.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'Hur man exporterar HTML med Aspose.Words Java: Avancerade alternativ'
+title: 'Hur man exporterar HTML med Aspose.Words Java - Avancerade alternativ'
 url: /sv/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

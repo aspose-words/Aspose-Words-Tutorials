@@ -5,7 +5,7 @@ description: Aspose.Words Java ile HTML dışa aktarmayı öğrenin; Word'ü HTM
   kapsar.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'Aspose.Words Java ile HTML Nasıl Dışa Aktarılır: Gelişmiş Seçenekler'
+title: 'Aspose.Words Java ile HTML Nasıl Dışa Aktarılır - Gelişmiş Seçenekler'
 url: /tr/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

@@ -130,14 +130,6 @@ Pelajari cara menyimpan dokumen sebagai file teks di Aspose.Words untuk Java. Ik
 ### [Menentukan Format Dokumen di Aspose.Words untuk Java](./determining-document-format/)
 Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  
@@ -160,3 +152,11 @@ Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikas
 **Terakhir Diperbarui:** 2025-12-19  
 **Diuji Dengan:** Aspose.Words for Java 24.12 (latest)  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

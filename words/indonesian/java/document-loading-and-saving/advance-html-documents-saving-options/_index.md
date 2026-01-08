@@ -4,7 +4,7 @@ description: Pelajari cara mengekspor HTML dengan Aspose.Words Java, mencakup op
   lanjutan untuk menyimpan Word sebagai HTML dan mengonversi Word ke HTML secara efisien.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'Cara Mengekspor HTML dengan Aspose.Words Java: Opsi Lanjutan'
+title: 'Cara Mengekspor HTML dengan Aspose.Words Java - Opsi Lanjutan'
 url: /id/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

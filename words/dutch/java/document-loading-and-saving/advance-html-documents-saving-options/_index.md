@@ -4,7 +4,7 @@ description: Leer hoe u HTML kunt exporteren met Aspose.Words Java, met geavance
   opties om Word op te slaan als HTML en Word efficiënt naar HTML te converteren.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'Hoe HTML exporteren met Aspose.Words Java: Geavanceerde opties'
+title: 'Hoe HTML exporteren met Aspose.Words Java - Geavanceerde opties'
 url: /nl/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

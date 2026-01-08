@@ -130,14 +130,6 @@ Lär dig hur du sparar dokument som textfiler med Aspose.Words för Java. Följ 
 ### [Bestämma dokumentformat i Aspose.Words för Java](./determining-document-format/)
 Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera DOC, DOCX och mer. Organisera filer effektivt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  
@@ -158,3 +150,11 @@ Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera D
 **Senast uppdaterad:** 2025-12-19  
 **Testat med:** Aspose.Words for Java 24.12 (senaste)  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

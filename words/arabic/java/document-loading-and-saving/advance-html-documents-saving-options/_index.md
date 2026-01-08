@@ -4,7 +4,7 @@ description: تعرّف على كيفية تصدير HTML باستخدام Aspos
   المتقدمة لحفظ مستند Word كـ HTML وتحويل Word إلى HTML بكفاءة.
 linktitle: Saving HTML Documents with
 second_title: Aspose.Words Java Document Processing API
-title: 'كيفية تصدير HTML باستخدام Aspose.Words Java: خيارات متقدمة'
+title: 'كيفية تصدير HTML باستخدام Aspose.Words Java - خيارات متقدمة'
 url: /ar/java/document-loading-and-saving/advance-html-documents-saving-options/
 weight: 16
 ---

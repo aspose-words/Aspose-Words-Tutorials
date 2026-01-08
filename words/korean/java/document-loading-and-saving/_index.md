@@ -98,14 +98,6 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words for Java로 문서를 텍스트 파일로 저장](./saving-documents-as-text-files/)
 ### [Aspose.Words for Java에서 문서 형식 판별](./determining-document-format/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q:** 프로그램matically **save images from word** 문서를 어떻게 저장하나요?  
@@ -126,3 +118,11 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 **마지막 업데이트:** 2025-12-19  
 **테스트 환경:** Aspose.Words for Java 24.12 (latest)  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
