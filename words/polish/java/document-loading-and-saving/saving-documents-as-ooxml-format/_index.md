@@ -1,10 +1,12 @@
 ---
-"description": "Dowiedz się, jak zapisywać dokumenty w formacie OOXML za pomocą Aspose.Words dla Java. Bezproblemowo zabezpieczaj, optymalizuj i dostosowuj swoje pliki."
-"linktitle": "Zapisywanie dokumentów w formacie OOXML"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Zapisywanie dokumentów w formacie OOXML w Aspose.Words dla Java"
-"url": "/pl/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2026-01-09
+description: Dowiedz się, jak zaszyfrować plik docx hasłem i zmienić poziom kompresji
+  podczas zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java.
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: Zaszyfruj docx hasłem – zapis OOXML przy użyciu Aspose.Words Java
+url: /pl/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +15,57 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisywanie dokumentów w formacie OOXML w Aspose.Words dla Java
+# Szyfrowanie docx hasłem – zapis OOXML przy użyciu Aspose.Words Java
 
+## Wprowadzenie do zapisywania dokumentów w formacie OOXML w Aspose.Words dla Javy
 
-## Wprowadzenie do zapisywania dokumentów w formacie OOXML w Aspose.Words dla Java
+W tym przewodniku dowiesz się, jak **szyfrować docx hasłem** oraz zapisywać dokumenty w formacie OOXML przy użyciu Aspose.Words dla Javy. OOXML (Office Open XML) to nowoczesny format plików używany przez Microsoft Word i wiele innych aplikacji biurowych. Przejdziemy przez najczęstsze opcje — ochronę hasłem, poziomy zgodności, aktualizację właściwości, obsługę starszych znaków kontrolnych oraz **sposób zmiany poziomu kompresji** — abyś mógł dostosować wynik do swoich dokładnych potrzeb.
 
-tym przewodniku przyjrzymy się sposobowi zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. OOXML (Office Open XML) to format pliku używany przez Microsoft Word i inne aplikacje biurowe. Omówimy różne opcje i ustawienia zapisywania dokumentów w formacie OOXML.
+## Szybkie odpowiedzi
+- **Jak mogę zabezpieczyć plik Word?** Użyj `OoxmlSaveOptions.setPassword("yourPassword")` przed zapisem.  
+- **Jaki poziom zgodności OOXML wybrać?** ISO 29500 2008 Strict dla maksymalnej kompatybilności z nowoczesnymi wersjami Office.  
+- **Czy mogę zachować starsze znaki kontrolne?** Tak, włącz `setKeepLegacyControlChars(true)`.  
+- **Jak zmienić poziom kompresji?** Ustaw `setCompressionLevel(CompressionLevel.SUPER_FAST)` lub `MAXIMUM` w zależności od potrzeb.  
+- **Czy te opcje wpływają na rozmiar pliku?** Poziom kompresji i obsługa starszych znaków kontrolnych mogą zauważalnie zmienić ostateczny rozmiar .docx.
+
+## Co to jest „encrypt docx with password”?
+Szyfrowanie pliku DOCX oznacza, że dokument jest zapisywany z szyfrowaniem AES‑256, wymagającym podania hasła przy otwieraniu w Wordzie lub innym kompatybilnym podglądzie. Jest to niezbędne do ochrony poufnych informacji, gdy pliki są udostępniane przez e‑mail, chmurę lub portale intranetowe.
+
+## Dlaczego warto używać opcji zapisu OOXML?
+- **Bezpieczeństwo:** Ochrona hasłem zapobiega nieautoryzowanemu dostępowi.  
+- **Kompatybilność:** Ustawienia zgodności zapewniają działanie pliku w różnych wersjach Worda.  
+- **Wydajność:** Dostosowanie kompresji może przyspieszyć zapisywanie lub zmniejszyć rozmiar pliku.  
+- **Zachowanie:** Zachowanie starszych znaków kontrolnych utrzymuje wierność przy konwersji starszych dokumentów.
 
 ## Wymagania wstępne
-
-Zanim zaczniemy, upewnij się, że w Twoim projekcie jest skonfigurowana biblioteka Aspose.Words for Java.
+- Biblioteka Aspose.Words dla Javy dodana do projektu (Maven/Gradle lub ręczny JAR).  
+- Java 8 lub nowsza.  
+- Dokument źródłowy (`.docx` lub `.doc`), który chcesz przetworzyć.
 
 ## Zapisywanie dokumentu z szyfrowaniem hasłem
 
-Możesz zaszyfrować swój dokument hasłem podczas zapisywania go w formacie OOXML. Oto jak możesz to zrobić:
+Możesz zaszyfrować dokument hasłem podczas zapisywania go w formacie OOXML. Oto jak to zrobić:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Załaduj dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Utwórz OoxmlSaveOptions i ustaw hasło
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// Zapisz dokument z szyfrowaniem
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## Ustawianie zgodności z OOXML
+> **Porada:** Wybierz silne hasło i przechowuj je w bezpiecznym miejscu; hasła nie da się odzyskać z zaszyfrowanego pliku.
 
-Możesz określić poziom zgodności OOXML podczas zapisywania dokumentu. Na przykład możesz ustawić go na ISO 29500:2008 (Strict). Oto jak:
+## Ustawianie zgodności OOXML
+
+Możesz określić poziom zgodności OOXML przy zapisywaniu dokumentu. Na przykład możesz ustawić go na ISO 29500:2008 (Strict). Oto jak:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +73,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// Załaduj dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Zoptymalizuj dla programu Word 2016
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// Utwórz OoxmlSaveOptions i ustaw poziom zgodności
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// Zapisz dokument z ustawieniem zgodności
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## Aktualizowanie właściwości czasu ostatniego zapisu
+## Aktualizacja właściwości „Last Saved Time”
 
-Możesz wybrać aktualizację właściwości „Ostatni czas zapisu” dokumentu podczas jego zapisywania. Oto jak to zrobić:
+Możesz wybrać aktualizację właściwości „Last Saved Time” dokumentu przy zapisie. Oto jak:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// Załaduj dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Utwórz OoxmlSaveOptions i włącz aktualizację właściwości Czas ostatniego zapisu
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// Zapisz dokument ze zaktualizowaną właściwością
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## Zachowanie klasycznych postaci sterujących
+## Zachowanie starszych znaków kontrolnych
 
-Jeśli Twój dokument zawiera starsze znaki kontrolne, możesz wybrać opcję ich zachowania podczas zapisywania. Oto jak to zrobić:
+Jeśli Twój dokument zawiera starsze znaki kontrolne, możesz zdecydować się na ich zachowanie przy zapisie. Oto jak:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// Załaduj dokument ze starszymi znakami kontrolnymi
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// Utwórz OoxmlSaveOptions z formatem FLAT_OPC i włącz zachowywanie starszych znaków kontrolnych
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// Zapisz dokument ze starszymi znakami kontrolnymi
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
-## Ustawianie poziomu kompresji
+## Jak zmienić poziom kompresji przy zapisie OOXML
 
-Możesz dostosować poziom kompresji podczas zapisywania dokumentu. Na przykład możesz ustawić go na SUPER_FAST, aby uzyskać minimalną kompresję. Oto jak:
+Możesz dostosować poziom kompresji przy zapisywaniu dokumentu. Na przykład możesz ustawić `SUPER_FAST` dla minimalnej kompresji lub `MAXIMUM` dla najmniejszego rozmiaru pliku. Oto jak:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// Załaduj dokument
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Utwórz OoxmlSaveOptions i ustaw poziom kompresji
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// Zapisz dokument z określonym poziomem kompresji
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-Oto niektóre z kluczowych opcji i ustawień, których możesz użyć podczas zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. Możesz swobodnie odkrywać więcej opcji i dostosowywać proces zapisywania dokumentów według potrzeb.
+Są to niektóre z kluczowych opcji i ustawień, które możesz wykorzystać przy zapisywaniu dokumentów w formacie OOXML przy użyciu Aspose.Words dla Javy. Zachęcamy do dalszego eksplorowania opcji i dostosowywania procesu zapisu dokumentu według własnych potrzeb.
 
-## Kompletny kod źródłowy do zapisywania dokumentów w formacie OOXML w Aspose.Words dla Java
+## Pełny kod źródłowy dla zapisywania dokumentów w formacie OOXML w Aspose.Words dla Javy
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -168,31 +188,37 @@ public void setCompressionLevel() throws Exception
 }
 ```
 
-## Wniosek
+## Zakończenie
 
-W tym kompleksowym przewodniku przyjrzeliśmy się sposobom zapisywania dokumentów w formacie OOXML przy użyciu Aspose.Words for Java. Niezależnie od tego, czy musisz zaszyfrować dokumenty hasłami, zapewnić zgodność ze szczególnymi standardami OOXML, zaktualizować właściwości dokumentu, zachować starsze znaki kontrolne lub dostosować poziomy kompresji, Aspose.Words zapewnia wszechstronny zestaw narzędzi, aby spełnić Twoje wymagania.
+W tym obszernej przewodniku omówiliśmy, jak **szyfrować docx hasłem** oraz zapisywać dokumenty w formacie OOXML przy użyciu Aspose.Words dla Javy. Niezależnie od tego, czy potrzebujesz chronić pliki, zapewnić ścisłą zgodność OOXML, zaktualizować właściwości dokumentu, zachować starsze znaki kontrolne, czy **zmienić poziom kompresji**, Aspose.Words oferuje wszechstronny zestaw narzędzi spełniających Twoje wymagania.
 
 ## Najczęściej zadawane pytania
 
-### Jak usunąć ochronę hasłem z dokumentu chronionego hasłem?
+**P: Jak usunąć ochronę hasłem z dokumentu zabezpieczonego hasłem?**  
+O: Otwórz dokument przy użyciu prawidłowego hasła, a następnie zapisz go bez podawania hasła w `OoxmlSaveOptions`. To utworzy niechronioną kopię.
 
-Aby usunąć ochronę hasłem z dokumentu chronionego hasłem, możesz otworzyć dokument z prawidłowym hasłem, a następnie zapisać go bez określania hasła w opcjach zapisywania. Spowoduje to zapisanie dokumentu bez ochrony hasłem.
+**P: Czy mogę ustawić własne właściwości przy zapisywaniu dokumentu w formacie OOXML?**  
+O: Tak. Użyj `BuiltInDocumentProperties` i `CustomDocumentProperties` na obiekcie `Document` przed wywołaniem `save()`.
 
-### Czy mogę ustawić niestandardowe właściwości podczas zapisywania dokumentu w formacie OOXML?
+**P: Jaki jest domyślny poziom kompresji przy zapisywaniu dokumentu w formacie OOXML?**  
+O: Domyślnie jest to `CompressionLevel.NORMAL`. Możesz przełączyć na `SUPER_FAST` dla szybkości lub `MAXIMUM` dla najmniejszego rozmiaru pliku.
 
-Tak, możesz ustawić niestandardowe właściwości dokumentu przed zapisaniem go w formacie OOXML. Użyj `BuiltInDocumentProperties` I `CustomDocumentProperties` klasy umożliwiające ustawienie różnych właściwości, takich jak autor, tytuł, słowa kluczowe i właściwości niestandardowe.
+**P: Czy włączenie `keepLegacyControlChars` wpłynie na kompatybilność z nowoczesnymi wersjami Worda?**  
+O: Nowoczesny Word może otwierać pliki ze starszymi znakami kontrolnymi, ale niektóre starsze funkcje mogą wyświetlać się inaczej. Używaj tej opcji tylko wtedy, gdy musisz zachować dokładną oryginalną zawartość.
 
-### Jaki jest domyślny poziom kompresji przy zapisywaniu dokumentu w formacie OOXML?
+**P: Czy można połączyć wiele opcji zapisu (np. hasło + kompresja) w jednym wywołaniu?**  
+O: Oczywiście. Skonfiguruj wszystkie pożądane właściwości w jednej instancji `OoxmlSaveOptions` przed przekazaniem jej do `doc.save()`.
 
-Domyślny poziom kompresji podczas zapisywania dokumentu w formacie OOXML przy użyciu Aspose.Words dla Java to `NORMAL`. Możesz zmienić poziom kompresji na `SUPER_FAST` Lub `MAXIMUM` w razie potrzeby.
+---
 
+**Ostatnia aktualizacja:** 2026-01-09  
+**Testowane z:** Aspose.Words dla Javy 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

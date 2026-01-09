@@ -1,10 +1,12 @@
 ---
-"description": "Java के लिए Aspose.Words के साथ OOXML फ़ॉर्मेट में दस्तावेज़ों को सहेजना सीखें। अपनी फ़ाइलों को आसानी से सुरक्षित, अनुकूलित और कस्टमाइज़ करें।"
-"linktitle": "दस्तावेज़ों को OOXML प्रारूप में सहेजना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में OOXML प्रारूप में दस्तावेज़ों को सहेजना"
-"url": "/hi/java/document-loading-and-saving/saving-documents-as-ooxml-format/"
-"weight": 20
+date: 2026-01-09
+description: Aspose.Words for Java का उपयोग करके OOXML फ़ॉर्मेट में दस्तावेज़ सहेजते
+  समय पासवर्ड से docx को एन्क्रिप्ट करना और संपीड़न स्तर बदलना सीखें।
+linktitle: Saving Documents as OOXML Format
+second_title: Aspose.Words Java Document Processing API
+title: पासवर्ड से docx एन्क्रिप्ट करें – Aspose.Words Java के साथ OOXML सहेजें
+url: /hi/java/document-loading-and-saving/saving-documents-as-ooxml-format/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +15,57 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में OOXML प्रारूप में दस्तावेज़ों को सहेजना
+# पासवर्ड के साथ docx एन्क्रिप्ट करें – Aspose.Words Java के साथ OOXML सहेजें
 
+## Aspose.Words for Java में दस्तावेज़ों को OOXML फ़ॉर्मेट में सहेजने का परिचय
 
-## Java के लिए Aspose.Words में OOXML प्रारूप में दस्तावेज़ों को सहेजने का परिचय
+इस गाइड में आप सीखेंगे कि **पासवर्ड के साथ docx एन्क्रिप्ट** कैसे करें और Aspose.Words for Java का उपयोग करके दस्तावेज़ों को OOXML फ़ॉर्मेट में कैसे सहेजें। OOXML (Office Open XML) वह आधुनिक फ़ाइल फ़ॉर्मेट है जिसका उपयोग Microsoft Word और कई अन्य ऑफिस एप्लिकेशन करते हैं। हम सबसे सामान्य विकल्पों—पासवर्ड प्रोटेक्शन, कंप्लायंस लेवल, प्रॉपर्टी अपडेट, लेगेसी कैरेक्टर हैंडलिंग, और **कम्प्रेशन लेवल कैसे बदलें**—पर चर्चा करेंगे ताकि आप आउटपुट को अपनी आवश्यकताओं के अनुसार कस्टमाइज़ कर सकें।
 
-इस गाइड में, हम जावा के लिए Aspose.Words का उपयोग करके OOXML प्रारूप में दस्तावेज़ों को सहेजने का तरीका जानेंगे। OOXML (ऑफिस ओपन XML) एक फ़ाइल प्रारूप है जिसका उपयोग Microsoft Word और अन्य कार्यालय अनुप्रयोगों द्वारा किया जाता है। हम OOXML प्रारूप में दस्तावेज़ों को सहेजने के लिए विभिन्न विकल्पों और सेटिंग्स को कवर करेंगे।
+## त्वरित उत्तर
+- **मैं Word फ़ाइल को कैसे सुरक्षित कर सकता हूँ?** सहेजने से पहले `OoxmlSaveOptions.setPassword("yourPassword")` का उपयोग करें।  
+- **कौन सा OOXML कंप्लायंस लेवल चुनना चाहिए?** आधुनिक Office संस्करणों के साथ अधिकतम संगतता के लिए ISO 29500 2008 Strict।  
+- **क्या मैं लेगेसी कंट्रोल कैरेक्टर रख सकता हूँ?** हाँ, `setKeepLegacyControlChars(true)` को सक्षम करें।  
+- **कम्प्रेशन लेवल कैसे बदलें?** आवश्यकतानुसार `setCompressionLevel(CompressionLevel.SUPER_FAST)` या `MAXIMUM` सेट करें।  
+- **क्या ये विकल्प फ़ाइल आकार को प्रभावित करते हैं?** कम्प्रेशन लेवल और लेगेसी कैरेक्टर हैंडलिंग अंतिम .docx आकार को उल्लेखनीय रूप से बदल सकते हैं।
 
-## आवश्यक शर्तें
+## “पासवर्ड के साथ docx एन्क्रिप्ट” क्या है?
+DOCX फ़ाइल को एन्क्रिप्ट करना मतलब है कि दस्तावेज़ को AES‑256 एन्क्रिप्शन के साथ सहेजा जाता है, जिससे इसे Word या किसी भी संगत व्यूअर में खोलने के लिए पासवर्ड आवश्यक होता है। यह ई‑मेल, क्लाउड स्टोरेज, या इंट्रानेट पोर्टल के माध्यम से फ़ाइलें साझा करते समय गोपनीय जानकारी की सुरक्षा के लिए आवश्यक है।
 
-आरंभ करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java लाइब्रेरी स्थापित है।
+## OOXML सहेजने के विकल्प क्यों उपयोग करें?
+- **सुरक्षा:** पासवर्ड प्रोटेक्शन अनधिकृत पहुंच को रोकता है।  
+- **संगतता:** कंप्लायंस सेटिंग्स सुनिश्चित करती हैं कि फ़ाइल विभिन्न Word संस्करणों में काम करे।  
+- **प्रदर्शन:** कम्प्रेशन को समायोजित करने से सहेजने की गति बढ़ सकती है या फ़ाइल आकार घट सकता है।  
+- **संरक्षण:** लेगेसी कंट्रोल कैरेक्टर को रखकर पुराने दस्तावेज़ों को परिवर्तित करते समय फ़िडेलिटी बनी रहती है।
+
+## पूर्वापेक्षाएँ
+- आपके प्रोजेक्ट में Aspose.Words for Java लाइब्रेरी जोड़ी गई हो (Maven/Gradle या मैन्युअल JAR)।  
+- Java 8 या उससे ऊपर।  
+- एक स्रोत दस्तावेज़ (`.docx` या `.doc`) जिसे आप प्रोसेस करना चाहते हैं।
 
 ## पासवर्ड एन्क्रिप्शन के साथ दस्तावेज़ सहेजना
 
-आप अपने दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजते समय पासवर्ड से एन्क्रिप्ट कर सकते हैं। आप यह कैसे कर सकते हैं:
+आप दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजते समय पासवर्ड के साथ एन्क्रिप्ट कर सकते हैं। यह रहा तरीका:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("Document.docx");
 
-// OoxmlSaveOptions बनाएं और पासवर्ड सेट करें
+// Create OoxmlSaveOptions and set the password
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setPassword("password");
 
-// दस्तावेज़ को एन्क्रिप्शन के साथ सहेजें
+// Save the document with encryption
 doc.save("EncryptedDoc.docx", saveOptions);
 ```
 
-## OOXML अनुपालन सेट करना
+> **प्रो टिप:** एक मजबूत पासवर्ड चुनें और उसे सुरक्षित रूप से रखें; पासवर्ड एन्क्रिप्टेड फ़ाइल से पुनः प्राप्त नहीं किया जा सकता।
 
-आप दस्तावेज़ को सहेजते समय OOXML अनुपालन स्तर निर्दिष्ट कर सकते हैं। उदाहरण के लिए, आप इसे ISO 29500:2008 (सख्त) पर सेट कर सकते हैं। यहाँ बताया गया है कि कैसे:
+## OOXML कंप्लायंस सेट करना
+
+आप दस्तावेज़ सहेजते समय OOXML कंप्लायंस लेवल निर्दिष्ट कर सकते हैं। उदाहरण के लिए, इसे ISO 29500:2008 (Strict) पर सेट किया जा सकता है। यह रहा तरीका:
 
 ```java
 import com.aspose.words.Document;
@@ -53,82 +73,82 @@ import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.MsWordVersion;
 import com.aspose.words.OoxmlCompliance;
 
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("Document.docx");
 
-// Word 2016 के लिए अनुकूलित करें
+// Optimize for Word 2016
 doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 
-// OoxmlSaveOptions बनाएं और अनुपालन स्तर निर्धारित करें
+// Create OoxmlSaveOptions and set the compliance level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
 
-// अनुपालन सेटिंग के साथ दस्तावेज़ सहेजें
+// Save the document with compliance setting
 doc.save("ComplianceDoc.docx", saveOptions);
 ```
 
-## अंतिम सहेजे गए समय की संपत्ति को अद्यतन करना
+## “Last Saved Time” प्रॉपर्टी अपडेट करना
 
-आप दस्तावेज़ को सहेजते समय उसके "अंतिम सहेजे गए समय" गुण को अपडेट करना चुन सकते हैं। यहाँ बताया गया है कि कैसे:
+आप सहेजते समय दस्तावेज़ की “Last Saved Time” प्रॉपर्टी को अपडेट करने का विकल्प चुन सकते हैं। यह रहा तरीका:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("Document.docx");
 
-// OoxmlSaveOptions बनाएं और अंतिम सहेजे गए समय गुण को अद्यतन करने में सक्षम करें
+// Create OoxmlSaveOptions and enable updating the Last Saved Time property
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setUpdateLastSavedTimeProperty(true);
 
-// दस्तावेज़ को अपडेट की गई प्रॉपर्टी के साथ सहेजें
+// Save the document with the updated property
 doc.save("UpdatedLastSavedTime.docx", saveOptions);
 ```
 
-## विरासत नियंत्रण वर्णों को बनाए रखना
+## लेगेसी कंट्रोल कैरेक्टर रखना
 
-यदि आपके दस्तावेज़ में लीगेसी नियंत्रण वर्ण हैं, तो आप उन्हें सहेजते समय रखना चुन सकते हैं। यहाँ बताया गया है कि कैसे:
+यदि आपके दस्तावेज़ में लेगेसी कंट्रोल कैरेक्टर हैं, तो आप सहेजते समय उन्हें रख सकते हैं। यह रहा तरीका:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.SaveFormat;
 
-// विरासत नियंत्रण वर्णों के साथ दस्तावेज़ लोड करें
+// Load a document with legacy control characters
 Document doc = new Document("LegacyControlChars.doc");
 
-// FLAT_OPC प्रारूप के साथ OoxmlSaveOptions बनाएं और विरासत नियंत्रण वर्णों को रखने में सक्षम करें
+// Create OoxmlSaveOptions with the FLAT_OPC format and enable keeping legacy control characters
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setKeepLegacyControlChars(true);
 
-// दस्तावेज़ को लीगेसी नियंत्रण वर्णों के साथ सहेजें
+// Save the document with legacy control characters
 doc.save("LegacyControlCharsPreserved.docx", saveOptions);
 ```
 
-## संपीड़न स्तर सेट करना
+## OOXML सहेजते समय कम्प्रेशन लेवल बदलना
 
-आप दस्तावेज़ को सहेजते समय संपीड़न स्तर को समायोजित कर सकते हैं। उदाहरण के लिए, आप इसे न्यूनतम संपीड़न के लिए SUPER_FAST पर सेट कर सकते हैं। यहाँ बताया गया है कि कैसे:
+आप दस्तावेज़ सहेजते समय कम्प्रेशन लेवल को समायोजित कर सकते हैं। उदाहरण के लिए, न्यूनतम कम्प्रेशन के लिए `SUPER_FAST` या सबसे छोटा फ़ाइल आकार पाने के लिए `MAXIMUM` सेट किया जा सकता है। यह रहा तरीका:
 
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OoxmlSaveOptions;
 import com.aspose.words.CompressionLevel;
 
-// दस्तावेज़ लोड करें
+// Load the document
 Document doc = new Document("Document.docx");
 
-// OoxmlSaveOptions बनाएं और संपीड़न स्तर सेट करें
+// Create OoxmlSaveOptions and set the compression level
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.setCompressionLevel(CompressionLevel.SUPER_FAST);
 
-// दस्तावेज़ को निर्दिष्ट संपीड़न स्तर के साथ सहेजें
+// Save the document with the specified compression level
 doc.save("FastCompressionDoc.docx", saveOptions);
 ```
 
-ये कुछ मुख्य विकल्प और सेटिंग्स हैं जिनका उपयोग आप Aspose.Words for Java का उपयोग करके OOXML प्रारूप में दस्तावेज़ सहेजते समय कर सकते हैं। अधिक विकल्पों का पता लगाने और आवश्यकतानुसार अपने दस्तावेज़-सहेजने की प्रक्रिया को अनुकूलित करने के लिए स्वतंत्र महसूस करें।
+ये कुछ प्रमुख विकल्प और सेटिंग्स हैं जिन्हें आप Aspose.Words for Java का उपयोग करके OOXML फ़ॉर्मेट में दस्तावेज़ सहेजते समय उपयोग कर सकते हैं। अधिक विकल्पों का अन्वेषण करें और अपनी दस्तावेज़‑सहेजने प्रक्रिया को आवश्यकतानुसार कस्टमाइज़ करें।
 
-## जावा के लिए Aspose.Words में OOXML प्रारूप के रूप में दस्तावेज़ों को सहेजने के लिए पूर्ण स्रोत कोड
+## Aspose.Words for Java में OOXML फ़ॉर्मेट में दस्तावेज़ सहेजने के लिए पूर्ण स्रोत कोड
 
 ```java
 public void encryptDocxWithPassword() throws Exception
@@ -170,29 +190,35 @@ public void setCompressionLevel() throws Exception
 
 ## निष्कर्ष
 
-इस व्यापक गाइड में, हमने जावा के लिए Aspose.Words का उपयोग करके OOXML प्रारूप में दस्तावेज़ों को सहेजने का तरीका खोजा है। चाहे आपको अपने दस्तावेज़ों को पासवर्ड से एन्क्रिप्ट करना हो, विशिष्ट OOXML मानकों के अनुपालन को सुनिश्चित करना हो, दस्तावेज़ गुणों को अपडेट करना हो, विरासत नियंत्रण वर्णों को संरक्षित करना हो, या संपीड़न स्तरों को समायोजित करना हो, Aspose.Words आपकी आवश्यकताओं को पूरा करने के लिए उपकरणों का एक बहुमुखी सेट प्रदान करता है।
+इस व्यापक गाइड में हमने **पासवर्ड के साथ docx एन्क्रिप्ट** करने और Aspose.Words for Java का उपयोग करके OOXML फ़ॉर्मेट में दस्तावेज़ सहेजने के तरीकों का अन्वेषण किया। चाहे आपको फ़ाइलों की सुरक्षा करनी हो, सख्त OOXML कंप्लायंस सुनिश्चित करनी हो, दस्तावेज़ प्रॉपर्टी अपडेट करनी हो, लेगेसी कंट्रोल कैरेक्टर संरक्षित रखने हों, या **कम्प्रेशन लेवल बदलना** हो, Aspose.Words आपके आवश्यकताओं को पूरा करने के लिए एक बहुमुखी टूल सेट प्रदान करता है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं पासवर्ड-संरक्षित दस्तावेज़ से पासवर्ड सुरक्षा कैसे हटाऊं?
+**प्रश्न: पासवर्ड‑सुरक्षित दस्तावेज़ से पासवर्ड प्रोटेक्शन कैसे हटाएँ?**  
+उत्तर: सही पासवर्ड के साथ दस्तावेज़ खोलें, फिर `OoxmlSaveOptions` में पासवर्ड निर्दिष्ट किए बिना सहेजें। इससे एक अनप्रोटेक्टेड कॉपी बन जाएगी।
 
-पासवर्ड-संरक्षित दस्तावेज़ से पासवर्ड सुरक्षा हटाने के लिए, आप दस्तावेज़ को सही पासवर्ड के साथ खोल सकते हैं और फिर उसे सेव विकल्पों में पासवर्ड निर्दिष्ट किए बिना सेव कर सकते हैं। इससे दस्तावेज़ बिना पासवर्ड सुरक्षा के सेव हो जाएगा।
+**प्रश्न: क्या मैं OOXML फ़ॉर्मेट में दस्तावेज़ सहेजते समय कस्टम प्रॉपर्टी सेट कर सकता हूँ?**  
+उत्तर: हाँ। `Document` ऑब्जेक्ट पर `BuiltInDocumentProperties` और `CustomDocumentProperties` का उपयोग करके `save()` कॉल करने से पहले सेट करें।
 
-### क्या मैं किसी दस्तावेज़ को OOXML प्रारूप में सहेजते समय कस्टम गुण सेट कर सकता हूँ?
+**प्रश्न: OOXML फ़ॉर्मेट में दस्तावेज़ सहेजते समय डिफ़ॉल्ट कम्प्रेशन लेवल क्या है?**  
+उत्तर: डिफ़ॉल्ट `CompressionLevel.NORMAL` है। आप गति के लिए `SUPER_FAST` या सबसे छोटे फ़ाइल आकार के लिए `MAXIMUM` चुन सकते हैं।
 
-हां, आप किसी दस्तावेज़ को OOXML फ़ॉर्मेट में सहेजने से पहले उसके लिए कस्टम गुण सेट कर सकते हैं। `BuiltInDocumentProperties` और `CustomDocumentProperties` विभिन्न गुण जैसे लेखक, शीर्षक, कीवर्ड और कस्टम गुण सेट करने के लिए कक्षाएं।
+**प्रश्न: `keepLegacyControlChars` को सक्षम करने से आधुनिक Word संस्करणों के साथ संगतता पर असर पड़ेगा?**  
+उत्तर: आधुनिक Word लेगेसी कंट्रोल कैरेक्टर वाले फ़ाइलें खोल सकता है, लेकिन कुछ पुराने फीचर अलग दिख सकते हैं। इस विकल्प का उपयोग तभी करें जब आपको मूल सामग्री को बिल्कुल वैसे ही संरक्षित रखना हो।
 
-### किसी दस्तावेज़ को OOXML प्रारूप में सहेजते समय डिफ़ॉल्ट संपीड़न स्तर क्या है?
+**प्रश्न: क्या कई सहेजने के विकल्प (जैसे पासवर्ड + कम्प्रेशन) को एक ही कॉल में संयोजित किया जा सकता है?**  
+उत्तर: बिल्कुल। सभी इच्छित प्रॉपर्टी को एक ही `OoxmlSaveOptions` इंस्टेंस पर कॉन्फ़िगर करें और फिर `doc.save()` में पास करें।
 
-Java के लिए Aspose.Words का उपयोग करके OOXML प्रारूप में दस्तावेज़ सहेजते समय डिफ़ॉल्ट संपीड़न स्तर है `NORMAL`. आप संपीड़न स्तर को बदल सकते हैं `SUPER_FAST` या `MAXIMUM` जरुरत के अनुसार।
+---
 
+**अंतिम अपडेट:** 2026-01-09  
+**टेस्टेड विथ:** Aspose.Words for Java 24.12  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
