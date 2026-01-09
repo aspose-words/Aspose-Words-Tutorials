@@ -1,10 +1,12 @@
 ---
-"description": "Pelajari cara menggabungkan dan menambahkan dokumen dengan mudah menggunakan Aspose.Words untuk Java. Pertahankan format, kelola header, footer, dan banyak lagi."
-"linktitle": "Menggabungkan dan Menambahkan Dokumen"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Menggabungkan dan Menambahkan Dokumen di Aspose.Words untuk Java"
-"url": "/id/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Pelajari cara menggabungkan dokumen dengan Aspose.Words untuk Java sambil
+  mempertahankan format, menautkan header dan footer, serta lainnya.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Cara Menggabungkan Dokumen Menggunakan Aspose.Words untuk Java
+url: /id/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,24 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggabungkan dan Menambahkan Dokumen di Aspose.Words untuk Java
+# Cara Menggabungkan Dokumen dengan Aspose.Words untuk Java
 
+Menggabungkan file Word secara programatik dapat menjadi sakit kepala—terutama ketika Anda perlu menjaga gaya, nomor halaman, dan header/footer tetap utuh. Dalam tutorial ini Anda akan menemukan **cara menggabungkan dokumen** menggunakan pustaka Aspose.Words untuk Java, langkah demi langkah. Kami akan membahas penambahan sederhana, opsi impor lanjutan, penanganan pengaturan halaman yang berbeda, dan trik yang Anda perlukan untuk **mempertahankan format hasil penggabungan** dalam berbagai skenario dunia nyata.
+
+## Jawaban Cepat
+- **Apa cara termudah untuk menggabungkan dokumen Word?** Gunakan `Document.appendDocument` dengan `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Apakah saya dapat mempertahankan gaya asli setiap file sumber?** Ya—atur `ImportFormatMode.USE_DESTINATION_STYLES` atau aktifkan Smart Style Behavior.  
+- **Bagaimana cara menjaga nomor halaman tetap benar setelah penggabungan?** Konversi field `NUMPAGES` menjadi referensi halaman dan panggil `updatePageLayout()`.  
+- **Apakah header dan footer tetap terhubung secara otomatis?** Anda dapat menautkan atau memutuskan tautannya dengan `linkToPrevious(true/false)`.  
+- **Apa yang saya perlukan sebelum memulai?** Aspose.Words untuk Java ditambahkan ke proyek Anda dan file sumber `.docx` siap.
 
 ## Pengantar Penggabungan dan Penambahan Dokumen di Aspose.Words untuk Java
 
-Dalam tutorial ini, kita akan mempelajari cara menggabungkan dan menambahkan dokumen menggunakan pustaka Aspose.Words untuk Java. Anda akan mempelajari cara menggabungkan beberapa dokumen dengan lancar sambil mempertahankan format dan struktur.
+Dalam tutorial ini, kita akan menjelajahi cara menggabungkan dan menambahkan dokumen menggunakan pustaka Aspose.Words untuk Java. Anda akan belajar cara menggabungkan beberapa dokumen secara mulus sambil mempertahankan format dan struktur.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menyiapkan Aspose.Words untuk Java API di proyek Java Anda.
+Sebelum kita mulai, pastikan Anda telah menyiapkan API Aspose.Words untuk Java di proyek Java Anda.
 
 ## Opsi Penggabungan Dokumen
 
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Tambahkan dengan Opsi Format Impor
+### Penambahan dengan Opsi Format Impor
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Tambahkan ke Dokumen Kosong
+### Penambahan ke Dokumen Kosong
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,14 +61,14 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Tambahkan dengan Konversi Nomor Halaman
+### Penambahan dengan Konversi Nomor Halaman
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Konversi bidang NUMPAGES
-dstDoc.updatePageLayout(); // Perbarui tata letak halaman untuk penomoran yang benar
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
 ## Menangani Pengaturan Halaman yang Berbeda
@@ -68,16 +78,16 @@ Saat menambahkan dokumen dengan pengaturan halaman yang berbeda:
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Pastikan pengaturan pengaturan halaman sesuai dengan dokumen tujuan
+// Ensure page setup settings match the destination document
 ```
 
-## Menggabungkan Dokumen dengan Gaya Berbeda
+## Menggabungkan Dokumen dengan Gaya yang Berbeda
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Perilaku Gaya Cerdas
+## Perilaku Gaya Pintar
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -85,7 +95,7 @@ options.setSmartStyleBehavior(true);
 builder.insertDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-## Memasukkan Dokumen dengan DocumentBuilder
+## Menyisipkan Dokumen dengan DocumentBuilder
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
@@ -110,7 +120,7 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFor
 
 ## Mengelola Header dan Footer
 
-### Menghubungkan Header dan Footer
+### Menautkan Header dan Footer
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
@@ -124,39 +134,53 @@ srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Kesimpulan
+## Mengapa Ini Penting untuk Proyek “merge word documents java”
 
-Aspose.Words untuk Java menyediakan alat yang fleksibel dan canggih untuk menggabungkan dan menambahkan dokumen, baik Anda perlu mempertahankan format, menangani pengaturan halaman yang berbeda, atau mengelola header dan footer. Bereksperimenlah dengan teknik-teknik ini untuk memenuhi kebutuhan pemrosesan dokumen spesifik Anda.
+Ketika Anda perlu **menggabungkan dokumen word java**‑style, mempertahankan tampilan dan nuansa setiap file sangat penting untuk alur kerja hukum, penerbitan, atau pelaporan. Menggunakan teknik di atas memastikan bahwa:
+
+* Gaya dari setiap sumber tetap utuh (atau disatukan, tergantung pilihan Anda).  
+* Penomoran halaman dan pemisah bagian berperilaku dapat diprediksi.  
+* Header dan footer dapat ditautkan atau dipertahankan terpisah dengan satu baris kode.  
+
+## Kesalahan Umum & Tips
+
+| Masalah | Mengapa Terjadi | Cara Memperbaiki |
+|---------|----------------|------------------|
+| Kehilangan penomoran setelah penggabungan | field `NUMPAGES` masih mengarah ke bagian asli | Panggil `convertNumPageFieldsToPageRef` dan `updatePageLayout()` |
+| Benturan gaya | Menggunakan `KEEP_SOURCE_FORMATTING` dengan gaya yang konflik | Ganti ke `USE_DESTINATION_STYLES` atau aktifkan Smart Style Behavior |
+| Halaman kosong muncul | Nilai `SectionStart` yang berbeda | Atur `SectionStart.CONTINUOUS` pada bagian sumber sebelum menambahkan |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara menggabungkan dokumen dengan gaya berbeda dengan mudah?
+**T: Bagaimana saya dapat menggabungkan dokumen dengan gaya yang berbeda secara mulus?**  
+J: Gunakan `ImportFormatMode.USE_DESTINATION_STYLES` saat menambahkan, atau aktifkan `SmartStyleBehavior` untuk penggabungan yang lebih pintar.
 
-Untuk menggabungkan dokumen dengan gaya yang berbeda, gunakan `ImportFormatMode.USE_DESTINATION_STYLES` saat menambahkan.
+**T: Bisakah saya mempertahankan penomoran halaman saat menambahkan dokumen?**  
+J: Ya, konversi field `NUMPAGES` menjadi referensi halaman dengan `convertNumPageFieldsToPageRef` lalu panggil `updatePageLayout()`.
 
-### Bisakah saya mempertahankan penomoran halaman saat menambahkan dokumen?
+**T: Apa itu Smart Style Behavior?**  
+J: Ini secara otomatis memetakan gaya sumber ke gaya tujuan bila memungkinkan, membantu menjaga tampilan konsisten di seluruh konten yang digabungkan.
 
-Ya, Anda dapat mempertahankan penomoran halaman dengan menggunakan `convertNumPageFieldsToPageRef` metode dan memperbarui tata letak halaman.
+**T: Bagaimana saya menangani kotak teks saat menambahkan dokumen?**  
+J: Atur `importFormatOptions.setIgnoreTextBoxes(false)` sehingga kotak teks dipertahankan selama penggabungan.
 
-### Apa itu Perilaku Gaya Cerdas?
+**T: Bagaimana jika saya ingin menautkan atau memutuskan tautan header dan footer antar dokumen?**  
+J: Gunakan `linkToPrevious(true)` untuk menautkan, atau `linkToPrevious(false)` untuk memisahkannya sebelum memanggil `appendDocument`.
 
-Perilaku Gaya Cerdas membantu mempertahankan gaya yang konsisten saat menambahkan dokumen. Gunakan dengan `ImportFormatOptions` untuk hasil yang lebih baik.
+## Kesimpulan
 
-### Bagaimana saya dapat menangani kotak teks saat menambahkan dokumen?
+Aspose.Words untuk Java menyediakan alat yang fleksibel dan kuat untuk **cara menggabungkan dokumen**, baik Anda perlu mempertahankan format yang tepat, menangani pengaturan halaman yang beragam, atau mengontrol penautan header/footer. Bereksperimenlah dengan potongan kode di atas untuk menyesuaikan alur kerja pemrosesan dokumen Anda, dan Anda akan dapat **menggabungkan dokumen word java**‑style dengan percaya diri.
 
-Mengatur `importFormatOptions.setIgnoreTextBoxes(false)` untuk menyertakan kotak teks selama penambahan.
+---
 
-### Bagaimana jika saya ingin menautkan/melepas tautan header dan footer antar dokumen?
-
-Anda dapat menghubungkan header dan footer dengan `linkToPrevious(true)` atau putuskan tautannya dengan `linkToPrevious(false)` sesuai kebutuhan.
-
+**Terakhir Diperbarui:** 2026-01-09  
+**Diuji Dengan:** Aspose.Words for Java 24.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

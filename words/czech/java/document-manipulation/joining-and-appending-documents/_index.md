@@ -1,10 +1,12 @@
 ---
-"description": "Naučte se, jak snadno spojovat a přidávat dokumenty pomocí Aspose.Words pro Javu. Zachovávejte formátování, spravujte záhlaví, zápatí a další."
-"linktitle": "Spojování a připojování dokumentů"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Spojování a přidávání dokumentů v Aspose.Words pro Javu"
-"url": "/cs/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Naučte se, jak sloučit dokumenty pomocí Aspose.Words pro Javu při zachování
+  formátování, propojení záhlaví a zápatí a dalších funkcí.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak sloučit dokumenty pomocí Aspose.Words pro Javu
+url: /cs/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,24 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spojování a přidávání dokumentů v Aspose.Words pro Javu
+# Jak sloučit dokumenty pomocí Aspose.Words pro Java
 
+Programatické sloučení souborů Word může být bolestí hlavy – zejména když potřebujete zachovat styly, číslování stránek a záhlaví/patičky beze změny. V tomto tutoriálu objevíte **jak sloučit dokumenty** pomocí knihovny Aspose.Words pro Java, krok za krokem. Pokryjeme jednoduché připojování, pokročilé možnosti importu, zpracování různých nastavení stránek a triky, které potřebujete k **zachování formátování při sloučení** výsledků v různých reálných scénářích.
 
-## Úvod do spojování a přidávání dokumentů v Aspose.Words pro Javu
+## Rychlé odpovědi
+- **Jaký je nejjednodušší způsob, jak sloučit dokumenty Word?** Použijte `Document.appendDocument` s `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Mohu zachovat původní styly každého zdrojového souboru?** Ano – nastavte `ImportFormatMode.USE_DESTINATION_STYLES` nebo povolte Smart Style Behavior.  
+- **Jak udržet správné číslování stránek po sloučení?** Převěďte pole `NUMPAGES` na odkazy na stránky a zavolejte `updatePageLayout()`.  
+- **Zůstávají záhlaví a patičky automaticky propojené?** Můžete je propojit nebo odpojit pomocí `linkToPrevious(true/false)`.  
+- **Co potřebuji před začátkem?** Přidat Aspose.Words pro Java do vašeho projektu a mít připravené zdrojové soubory `.docx`.
 
-V tomto tutoriálu se podíváme na spojování a přidávání dokumentů pomocí knihovny Aspose.Words pro Javu. Naučíte se, jak bezproblémově sloučit více dokumentů a zároveň zachovat formátování a strukturu.
+## Úvod do spojování a připojování dokumentů v Aspose.Words pro Java
 
-## Předpoklady
+V tomto tutoriálu prozkoumáme, jak spojovat a připojovat dokumenty pomocí knihovny Aspose.Words pro Java. Naučíte se, jak plynule sloučit více dokumentů při zachování formátování a struktury.
 
-Než začneme, ujistěte se, že máte ve svém projektu Java nastavené rozhraní Aspose.Words pro Java API.
+## Požadavky
+
+Než začneme, ujistěte se, že máte v Java projektu nastavené API Aspose.Words pro Java.
 
 ## Možnosti spojování dokumentů
 
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Přidat s možnostmi formátu importu
+### Připojení s možnostmi importu formátu
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Přidat k prázdnému dokumentu
+### Připojení do prázdného dokumentu
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,24 +61,24 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Přidat s převodem čísel stránek
+### Připojení s konverzí číslování stránek
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Převést pole NUMPAGES
-dstDoc.updatePageLayout(); // Aktualizujte rozvržení stránky pro správné číslování
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## Práce s různými nastaveními stránky
+## Zpracování různých nastavení stránek
 
-Při připojování dokumentů s různým nastavením stránky:
+Při připojování dokumentů s různými nastaveními stránek:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Ujistěte se, že nastavení stránky odpovídá cílovému dokumentu.
+// Ensure page setup settings match the destination document
 ```
 
 ## Spojování dokumentů s různými styly
@@ -77,7 +87,7 @@ srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Chování v chytrém stylu
+## Chování Smart Style
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -85,14 +95,14 @@ options.setSmartStyleBehavior(true);
 builder.insertDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-## Vkládání dokumentů pomocí nástroje DocumentBuilder
+## Vkládání dokumentů pomocí DocumentBuilder
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Zachování číslování zdrojů
+## Zachování číslování zdroje
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Práce s textovými poli
+## Zpracování textových polí
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +118,68 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Správa záhlaví a zápatí
+## Správa záhlaví a patiček
 
-### Propojení záhlaví a zápatí
+### Propojení záhlaví a patiček
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Odpojení záhlaví a zápatí
+### Odpojení záhlaví a patiček
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Závěr
+## Proč je to důležité pro projekty „merge word documents java“
 
-Aspose.Words pro Javu poskytuje flexibilní a výkonné nástroje pro spojování a přidávání dokumentů, ať už potřebujete zachovat formátování, spravovat různá nastavení stránek nebo spravovat záhlaví a zápatí. Experimentujte s těmito technikami, abyste splnili své specifické potřeby v oblasti zpracování dokumentů.
+Když potřebujete **sloučit word dokumenty java**‑styl, zachování vzhledu a pocitu každého souboru je zásadní pro právní, vydavatelské nebo reportovací pracovní postupy. Použití výše uvedených technik zajišťuje, že:
+* Styly z každého zdroje zůstávají beze změny (nebo jsou sjednoceny, podle vašeho výběru).  
+* Číslování stránek a koncové zlomky sekcí se chovají předvídatelně.  
+* Záhlaví a patičky mohou být propojeny nebo zůstávat nezávislé jedním řádkem kódu.  
+
+## Časté úskalí a tipy
+
+| Problém | Proč k tomu dochází | Jak opravit |
+|-------|----------------|------------|
+| Ztráta číslování po sloučení | `NUMPAGES` pole stále odkazují na původní sekce | Zavolejte `convertNumPageFieldsToPageRef` a `updatePageLayout()` |
+| Styly se střetávají | Použití `KEEP_SOURCE_FORMATTING` s konfliktními styly | Přepněte na `USE_DESTINATION_STYLES` nebo povolte Smart Style Behavior |
+| Objevují se prázdné stránky | Různé hodnoty `SectionStart` | Nastavte `SectionStart.CONTINUOUS` na zdrojových sekcích před připojením |
 
 ## Často kladené otázky
 
-### Jak mohu bez problémů spojit dokumenty s různými styly?
+**Q: Jak mohu bez problémů spojit dokumenty s různými styly?**  
+A: Použijte `ImportFormatMode.USE_DESTINATION_STYLES` při připojování, nebo povolte `SmartStyleBehavior` pro chytřejší sloučení.
 
-Chcete-li spojit dokumenty s různými styly, použijte `ImportFormatMode.USE_DESTINATION_STYLES` při připojování.
+**Q: Mohu zachovat číslování stránek při připojování dokumentů?**  
+A: Ano, převěďte pole `NUMPAGES` na odkazy na stránky pomocí `convertNumPageFieldsToPageRef` a poté zavolejte `updatePageLayout()`.
 
-### Mohu při připojování dokumentů zachovat číslování stránek?
+**Q: Co je Smart Style Behavior?**  
+A: Automaticky mapuje styly ze zdroje na styly v cíli, pokud je to možné, což pomáhá udržet jednotný vzhled napříč sloučeným obsahem.
 
-Ano, číslování stránek můžete zachovat pomocí `convertNumPageFieldsToPageRef` metodu a aktualizaci rozvržení stránky.
+**Q: Jak zacházet s textovými poli při připojování dokumentů?**  
+A: Nastavte `importFormatOptions.setIgnoreTextBoxes(false)`, aby textová pole byla během sloučení zachována.
 
-### Co je to chytré stylové chování?
+**Q: Co když chci propojit nebo odpojit záhlaví a patičky mezi dokumenty?**  
+A: Použijte `linkToPrevious(true)` pro propojení, nebo `linkToPrevious(false)` pro jejich oddělení před voláním `appendDocument`.
 
-Chování inteligentního stylu pomáhá udržovat konzistentní styly při připojování dokumentů. Používejte ho s `ImportFormatOptions` pro lepší výsledky.
+## Závěr
 
-### Jak mohu pracovat s textovými poli při přidávání dokumentů?
+Aspose.Words pro Java poskytuje flexibilní a výkonné nástroje pro **jak sloučit dokumenty**, ať už potřebujete zachovat přesné formátování, zpracovat různé nastavení stránek nebo řídit propojení záhlaví/patiček. Experimentujte s výše uvedenými úryvky kódu, aby odpovídaly vašemu konkrétnímu workflow zpracování dokumentů, a budete schopni **sloučit word dokumenty java**‑styl s jistotou.
 
-Soubor `importFormatOptions.setIgnoreTextBoxes(false)` zahrnout textová pole během přidávání.
+---
 
-### Co když chci propojit/odpojit záhlaví a zápatí mezi dokumenty?
-
-Záhlaví a zápatí můžete propojit s `linkToPrevious(true)` nebo je odpojit od `linkToPrevious(false)` podle potřeby.
-
+**Poslední aktualizace:** 2026-01-09  
+**Testováno s:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

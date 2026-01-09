@@ -1,10 +1,12 @@
 ---
-"description": "تعلّم كيفية ضمّ المستندات وإضافتها بسهولة باستخدام Aspose.Words لجافا. حافظ على التنسيق، وأدر رؤوس الصفحات وتذييلاتها، والمزيد."
-"linktitle": "ربط المستندات وإضافتها"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "ربط المستندات وإضافتها في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: تعلم كيفية دمج المستندات باستخدام Aspose.Words للغة Java مع الحفاظ على
+  التنسيق وربط رؤوس وتذييلات الصفحات والمزيد.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: كيفية دمج المستندات باستخدام Aspose.Words للـ Java
+url: /ar/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ربط المستندات وإضافتها في Aspose.Words لـ Java
+# كيفية دمج المستندات باستخدام Aspose.Words for Java
 
+يمكن أن يكون دمج ملفات Word برمجيًا مصدر صداع—خاصة عندما تحتاج إلى الحفاظ على الأنماط، أرقام الصفحات، والرؤوس/التذييلات دون تغيير. في هذا الدرس ستكتشف **كيفية دمج المستندات** باستخدام مكتبة Aspose.Words for Java، خطوة بخطوة. سنغطي الإلحاقات البسيطة، خيارات الاستيراد المتقدمة، التعامل مع إعدادات صفحات مختلفة، والحيل التي تحتاجها **للحفاظ على تنسيق الدمج** عبر مجموعة متنوعة من السيناريوهات الواقعية.
 
-## مقدمة حول ربط المستندات وإضافتها في Aspose.Words لـ Java
+## إجابات سريعة
+- **ما هي أسهل طريقة لدمج مستندات Word؟** استخدم `Document.appendDocument` مع `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **هل يمكنني الحفاظ على الأنماط الأصلية لكل ملف مصدر؟** نعم—حدد `ImportFormatMode.USE_DESTINATION_STYLES` أو فعّل Smart Style Behavior.  
+- **كيف أحافظ على صحة أرقام الصفحات بعد الدمج؟** حوّل حقول `NUMPAGES` إلى مراجع صفحات واستدعِ `updatePageLayout()`.  
+- **هل تبقى الرؤوس والتذييلات مرتبطة تلقائيًا؟** يمكنك ربطها أو فك ربطها باستخدام `linkToPrevious(true/false)`.  
+- **ماذا أحتاج قبل البدء؟** إضافة Aspose.Words for Java إلى مشروعك وتوافر ملفات `.docx` المصدرية.
 
-في هذا البرنامج التعليمي، سنستكشف كيفية ضمّ المستندات وإضافتها باستخدام مكتبة Aspose.Words لجافا. ستتعلم كيفية دمج مستندات متعددة بسلاسة مع الحفاظ على التنسيق والهيكلية.
+## مقدمة حول دمج وإلحاق المستندات في Aspose.Words for Java
 
-## المتطلبات الأساسية
+في هذا الدرس، سنستكشف كيفية دمج وإلحاق المستندات باستخدام مكتبة Aspose.Words for Java. ستتعلم كيف تدمج عدة مستندات بسلاسة مع الحفاظ على التنسيق والبنية.
+
+## المتطلبات المسبقة
 
 قبل أن نبدأ، تأكد من إعداد Aspose.Words for Java API في مشروع Java الخاص بك.
 
-## خيارات ربط المستندات
+## خيارات دمج المستندات
 
-### إضافة بسيطة
+### إلحاق بسيط
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### إضافة مع خيارات تنسيق الاستيراد
+### إلحاق مع خيارات استيراد التنسيق
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### إضافة إلى مستند فارغ
+### إلحاق إلى مستند فارغ
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,33 +61,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### إضافة مع تحويل رقم الصفحة
+### إلحاق مع تحويل أرقام الصفحات
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // تحويل حقول NUMPAGES
-dstDoc.updatePageLayout(); // تحديث تخطيط الصفحة لترقيمها بشكل صحيح
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## التعامل مع إعدادات الصفحات المختلفة
+## التعامل مع إعدادات صفحات مختلفة
 
-عند إلحاق المستندات بإعدادات صفحات مختلفة:
+عند إلحاق مستندات ذات إعدادات صفحات مختلفة:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// تأكد من أن إعدادات إعداد الصفحة تتطابق مع المستند الوجهة
+// Ensure page setup settings match the destination document
 ```
 
-## ربط المستندات بأنماط مختلفة
+## دمج مستندات بأنماط مختلفة
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## أسلوب السلوك الذكي
+## سلوك الأنماط الذكي
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## التعامل مع مربعات النص
+## التعامل مع صناديق النص
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -117,46 +127,60 @@ srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### إلغاء ربط الرؤوس والتذييلات
+### فك ربط الرؤوس والتذييلات
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## خاتمة
+## لماذا هذا مهم لمشاريع “merge word documents java”
 
-يوفر Aspose.Words لجافا أدوات مرنة وفعّالة لضمّ المستندات وإضافتها، سواءً كنتَ بحاجة إلى الحفاظ على التنسيق، أو التعامل مع إعدادات الصفحات المختلفة، أو إدارة الرؤوس والتذييلات. جرّب هذه التقنيات لتلبية احتياجاتك الخاصة في معالجة المستندات.
+عندما تحتاج إلى **دمج مستندات Word بأسلوب Java**، يكون الحفاظ على مظهر كل ملف أمرًا حيويًا للعمليات القانونية، النشر، أو إعداد التقارير. باستخدام التقنيات أعلاه تضمن أن:
 
-## الأسئلة الشائعة
+* تبقى الأنماط من كل مصدر سليمة (أو موحدة، حسب اختيارك).  
+* أرقام الصفحات وفواصل الأقسام تتصرف بشكل متوقع.  
+* يمكن ربط الرؤوس والتذييلات أو إبقاؤها مستقلة بسطر واحد من الشيفرة.  
 
-### كيف يمكنني ربط المستندات ذات الأنماط المختلفة بسلاسة؟
+## الأخطاء الشائعة والنصائح
 
-لربط المستندات ذات الأنماط المختلفة، استخدم `ImportFormatMode.USE_DESTINATION_STYLES` عند الإلحاق.
+| المشكلة | السبب | طريقة الحل |
+|-------|----------------|------------|
+| فقدان الترقيم بعد الدمج | حقول `NUMPAGES` لا تزال تشير إلى الأقسام الأصلية | استدعِ `convertNumPageFieldsToPageRef` ثم `updatePageLayout()` |
+| تعارض الأنماط | استخدام `KEEP_SOURCE_FORMATTING` مع أنماط متضاربة | بدّل إلى `USE_DESTINATION_STYLES` أو فعّل Smart Style Behavior |
+| ظهور صفحات فارغة | قيم `SectionStart` مختلفة | حدّد `SectionStart.CONTINUOUS` على الأقسام المصدرية قبل الإلحاق |
 
-### هل يمكنني الحفاظ على ترقيم الصفحات عند إضافة المستندات؟
+## الأسئلة المتكررة
 
-نعم، يمكنك الحفاظ على ترقيم الصفحات باستخدام `convertNumPageFieldsToPageRef` الطريقة وتحديث تخطيط الصفحة.
+**س: كيف يمكنني دمج مستندات بأنماط مختلفة بسلاسة؟**  
+ج: استخدم `ImportFormatMode.USE_DESTINATION_STYLES` عند الإلحاق، أو فعّل `SmartStyleBehavior` للحصول على دمج أذكى.
 
-### ما هو أسلوب السلوك الذكي؟
+**س: هل يمكنني الحفاظ على ترقيم الصفحات عند إلحاق المستندات؟**  
+ج: نعم، حوّل حقول `NUMPAGES` إلى مراجع صفحات باستخدام `convertNumPageFieldsToPageRef` ثم استدعِ `updatePageLayout()`.
 
-يساعد "سلوك النمط الذكي" على الحفاظ على اتساق الأنماط عند إضافة المستندات. استخدمه مع `ImportFormatOptions` للحصول على نتائج أفضل.
+**س: ما هو سلوك الأنماط الذكي؟**  
+ج: يقوم تلقائيًا بربط الأنماط المصدرية بالأنماط الوجهة عندما يكون ذلك ممكنًا، مما يساعد على الحفاظ على مظهر موحد عبر المحتوى المدمج.
 
-### كيف يمكنني التعامل مع مربعات النص عند إضافة المستندات؟
+**س: كيف أتعامل مع صناديق النص عند إلحاق المستندات؟**  
+ج: حدّد `importFormatOptions.setIgnoreTextBoxes(false)` حتى تُحافظ على صناديق النص أثناء الدمج.
 
-تعيين `importFormatOptions.setIgnoreTextBoxes(false)` لتضمين مربعات النص أثناء الإلحاق.
+**س: ماذا أفعل إذا أردت ربط أو فك ربط الرؤوس والتذييلات بين المستندات؟**  
+ج: استخدم `linkToPrevious(true)` للربط، أو `linkToPrevious(false)` للفصل قبل استدعاء `appendDocument`.
 
-### ماذا لو أردت ربط/إلغاء ربط الرؤوس والتذييلات بين المستندات؟
+## الخلاصة
 
-يمكنك ربط الرؤوس والتذييلات بـ `linkToPrevious(true)` أو قم بفك ارتباطهم بـ `linkToPrevious(false)` حسب الحاجة.
+توفر Aspose.Words for Java أدوات مرنة وقوية لـ **كيفية دمج المستندات**، سواء كنت تحتاج إلى الحفاظ على التنسيق الدقيق، التعامل مع إعدادات صفحات متنوعة، أو التحكم في ربط/فصل الرؤوس والتذييلات. جرّب مقتطفات الشيفرة أعلاه لتناسب سير عمل معالجة المستندات الخاص بك، وستتمكن من **دمج مستندات Word بأسلوب Java** بثقة.
 
+---
+
+**آخر تحديث:** 2026-01-09  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

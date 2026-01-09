@@ -1,10 +1,12 @@
 ---
-"description": "Dowiedz się, jak bez wysiłku łączyć i dołączać dokumenty za pomocą Aspose.Words for Java. Zachowaj formatowanie, zarządzaj nagłówkami, stopkami i nie tylko."
-"linktitle": "Dołączanie i dołączanie dokumentów"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Dołączanie i dołączanie dokumentów w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Dowiedz się, jak scalać dokumenty przy użyciu Aspose.Words for Java,
+  zachowując formatowanie, łącząc nagłówki i stopki oraz inne funkcje.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak scalić dokumenty przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,24 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dołączanie i dołączanie dokumentów w Aspose.Words dla Java
+# Jak scalać dokumenty przy użyciu Aspose.Words for Java
 
+Łączenie plików Word programowo może być uciążliwe — szczególnie gdy trzeba zachować style, numery stron oraz nagłówki/stopki w nienaruszonym stanie. W tym samouczku odkryjesz **jak scalać dokumenty** przy użyciu biblioteki Aspose.Words for Java, krok po kroku. Omówimy proste dołączanie, zaawansowane opcje importu, obsługę różnych ustawień stron oraz triki potrzebne do **zachowania formatowania przy scalaniu** wyników w różnych scenariuszach rzeczywistych.
 
-## Wprowadzenie do łączenia i dołączania dokumentów w Aspose.Words dla języka Java
+## Szybkie odpowiedzi
+- **Jaki jest najprostszy sposób na scalenie dokumentów Word?** Użyj `Document.appendDocument` z `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Czy mogę zachować oryginalne style każdego pliku źródłowego?** Tak — ustaw `ImportFormatMode.USE_DESTINATION_STYLES` lub włącz Smart Style Behavior.  
+- **Jak utrzymać poprawne numery stron po scaleniu?** Przekonwertuj pola `NUMPAGES` na odwołania do stron i wywołaj `updatePageLayout()`.  
+- **Czy nagłówki i stopki pozostają automatycznie połączone?** Możesz je połączyć lub rozłączyć przy użyciu `linkToPrevious(true/false)`.  
+- **Czego potrzebuję przed rozpoczęciem?** Dodaj Aspose.Words for Java do swojego projektu oraz przygotuj pliki źródłowe `.docx`.
 
-W tym samouczku pokażemy, jak łączyć i dołączać dokumenty za pomocą biblioteki Aspose.Words for Java. Dowiesz się, jak bezproblemowo scalać wiele dokumentów, zachowując formatowanie i strukturę.
+## Wprowadzenie do łączenia i dołączania dokumentów w Aspose.Words for Java
+
+W tym samouczku przyjrzymy się, jak łączyć i dołączać dokumenty przy użyciu biblioteki Aspose.Words for Java. Dowiesz się, jak płynnie scalać wiele dokumentów, zachowując formatowanie i strukturę.
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że w projekcie Java skonfigurowano Aspose.Words for Java API.
+Zanim zaczniemy, upewnij się, że API Aspose.Words for Java jest skonfigurowane w Twoim projekcie Java.
 
 ## Opcje łączenia dokumentów
 
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Dołącz z opcjami formatu importu
+### Dołączanie z opcjami formatu importu
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Dołącz do pustego dokumentu
+### Dołączanie do pustego dokumentu
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,24 +61,24 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Dołącz z konwersją numerów stron
+### Dołączanie z konwersją numerów stron
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Konwertuj pola NUMPAGES
-dstDoc.updatePageLayout(); // Zaktualizuj układ strony, aby uzyskać prawidłową numerację
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## Obsługa różnych ustawień strony
+## Obsługa różnych ustawień stron
 
-Podczas dołączania dokumentów z różnymi ustawieniami strony:
+Podczas dołączania dokumentów o różnych ustawieniach stron:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Upewnij się, że ustawienia konfiguracji strony odpowiadają dokumentowi docelowemu
+// Ensure page setup settings match the destination document
 ```
 
 ## Łączenie dokumentów o różnych stylach
@@ -77,7 +87,7 @@ srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Zachowanie w stylu Smart
+## Zachowanie inteligentnych stylów
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -85,7 +95,7 @@ options.setSmartStyleBehavior(true);
 builder.insertDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-## Wstawianie dokumentów za pomocą DocumentBuilder
+## Wstawianie dokumentów przy użyciu DocumentBuilder
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
@@ -117,46 +127,59 @@ srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Odłączanie nagłówków i stopek
+### Rozłączanie nagłówków i stopek
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Wniosek
+## Dlaczego ma to znaczenie dla projektów „merge word documents java”
 
-Aspose.Words for Java zapewnia elastyczne i wydajne narzędzia do łączenia i dołączania dokumentów, niezależnie od tego, czy musisz zachować formatowanie, obsługiwać różne ustawienia stron, czy zarządzać nagłówkami i stopkami. Eksperymentuj z tymi technikami, aby spełnić swoje specyficzne potrzeby w zakresie przetwarzania dokumentów.
+Gdy potrzebujesz **scalać dokumenty Word w stylu java**, zachowanie wyglądu i charakteru każdego pliku jest kluczowe w procesach prawnych, wydawniczych lub raportowych. Stosowanie powyższych technik zapewnia, że:
+* Style z każdego źródła pozostają nienaruszone (lub są ujednolicone, w zależności od wyboru).  
+* Numeracja stron i podziały sekcji zachowują się przewidywalnie.  
+* Nagłówki i stopki mogą być połączone lub pozostawione niezależne przy użyciu jednej linii kodu.  
+
+## Częste pułapki i wskazówki
+
+| Problem | Dlaczego się dzieje | Jak naprawić |
+|-------|----------------|------------|
+| Utracona numeracja po scaleniu | Pola `NUMPAGES` nadal wskazują na oryginalne sekcje | Wywołaj `convertNumPageFieldsToPageRef` i `updatePageLayout()` |
+| Konflikt stylów | Użycie `KEEP_SOURCE_FORMATTING` przy konfliktowych stylach | Przejdź na `USE_DESTINATION_STYLES` lub włącz Smart Style Behavior |
+| Pojawiają się puste strony | Różne wartości `SectionStart` | Ustaw `SectionStart.CONTINUOUS` w sekcjach źródłowych przed dołączeniem |
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę płynnie łączyć dokumenty o różnych stylach?
+**Q: Jak mogę płynnie połączyć dokumenty o różnych stylach?**  
+A: Użyj `ImportFormatMode.USE_DESTINATION_STYLES` przy dołączaniu lub włącz `SmartStyleBehavior` dla inteligentniejszego scalania.
 
-Aby połączyć dokumenty o różnych stylach, użyj `ImportFormatMode.USE_DESTINATION_STYLES` podczas dołączania.
+**Q: Czy mogę zachować numerację stron przy dołączaniu dokumentów?**  
+A: Tak, skonwertuj pola `NUMPAGES` na odwołania do stron przy użyciu `convertNumPageFieldsToPageRef`, a następnie wywołaj `updatePageLayout()`.
 
-### Czy mogę zachować numerację stron podczas dołączania dokumentów?
+**Q: Czym jest Smart Style Behavior?**  
+A: Automatycznie mapuje style źródłowe na style docelowe, gdy to możliwe, pomagając utrzymać spójny wygląd połączonej treści.
 
-Tak, możesz zachować numerację stron, używając `convertNumPageFieldsToPageRef` metodę i aktualizację układu strony.
+**Q: Jak obsłużyć pola tekstowe przy dołączaniu dokumentów?**  
+A: Ustaw `importFormatOptions.setIgnoreTextBoxes(false)`, aby pola tekstowe były zachowane podczas scalania.
 
-### Czym jest Smart Style Behavior?
+**Q: Co zrobić, jeśli chcę połączyć lub rozłączyć nagłówki i stopki między dokumentami?**  
+A: Użyj `linkToPrevious(true)`, aby połączyć, lub `linkToPrevious(false)`, aby pozostawić je oddzielnie przed wywołaniem `appendDocument`.
 
-Smart Style Behavior pomaga zachować spójne style podczas dołączania dokumentów. Używaj go z `ImportFormatOptions` aby uzyskać lepsze wyniki.
+## Zakończenie
 
-### Jak poradzić sobie z polami tekstowymi podczas dołączania dokumentów?
+Aspose.Words for Java oferuje elastyczne i potężne narzędzia do **scalania dokumentów**, niezależnie od tego, czy musisz zachować dokładne formatowanie, obsłużyć różnorodne ustawienia stron, czy kontrolować łączenie nagłówków/stopki. Eksperymentuj z powyższymi fragmentami kodu, aby dopasować je do swojego konkretnego przepływu przetwarzania dokumentów, i będziesz w stanie **scalać dokumenty Word w stylu java** z pewnością.
 
-Ustawić `importFormatOptions.setIgnoreTextBoxes(false)` aby uwzględnić pola tekstowe podczas dołączania.
+---
 
-### Co zrobić, jeśli chcę połączyć/odłączyć nagłówki i stopki w różnych dokumentach?
-
-Możesz łączyć nagłówki i stopki za pomocą `linkToPrevious(true)` lub odłącz je od `linkToPrevious(false)` w razie potrzeby.
-
+**Ostatnia aktualizacja:** 2026-01-09  
+**Testowano z:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

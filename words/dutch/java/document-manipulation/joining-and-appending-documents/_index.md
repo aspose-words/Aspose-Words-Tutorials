@@ -1,10 +1,12 @@
 ---
-"description": "Leer hoe je moeiteloos documenten kunt samenvoegen en toevoegen met Aspose.Words voor Java. Behoud opmaak, beheer kopteksten, voetteksten en meer."
-"linktitle": "Documenten samenvoegen en toevoegen"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Documenten samenvoegen en toevoegen in Aspose.Words voor Java"
-"url": "/nl/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Leer hoe u documenten kunt samenvoegen met Aspose.Words voor Java, terwijl
+  u de opmaak behoudt, kop- en voetteksten koppelt en meer.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Hoe documenten samenvoegen met Aspose.Words voor Java
+url: /nl/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Documenten samenvoegen en toevoegen in Aspose.Words voor Java
+# Hoe documenten samenvoegen met Aspose.Words voor Java
 
+Word‑bestanden programmatically samenvoegen kan een hoofdpijn zijn—vooral wanneer je stijlen, paginanummers en kop‑/voetteksten intact moet houden. In deze tutorial ontdek je **hoe documenten samen te voegen** met de Aspose.Words voor Java‑bibliotheek, stap voor stap. We behandelen eenvoudige toevoegingen, geavanceerde importopties, het omgaan met verschillende paginainstellingen, en de trucjes die je nodig hebt om **opmaak van samenvoegresultaten** te behouden in diverse real‑world scenario's.
 
-## Inleiding tot het samenvoegen en toevoegen van documenten in Aspose.Words voor Java
+## Snelle antwoorden
+- **Wat is de gemakkelijkste manier om Word‑documenten samen te voegen?** Gebruik `Document.appendDocument` met `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Kan ik de originele stijlen van elk bronbestand behouden?** Ja—stel `ImportFormatMode.USE_DESTINATION_STYLES` in of schakel Smart Style Behavior in.  
+- **Hoe houd ik paginanummers correct na een samenvoeging?** Converteer `NUMPAGES`‑velden naar paginareferenties en roep `updatePageLayout()` aan.  
+- **Blijven kop‑ en voetteksten automatisch gekoppeld?** Je kunt ze koppelen of ontkoppelen met `linkToPrevious(true/false)`.  
+- **Wat heb ik nodig voordat ik begin?** Aspose.Words voor Java toegevoegd aan je project en de bron‑`.docx`‑bestanden klaar.
 
-In deze tutorial onderzoeken we hoe je documenten kunt samenvoegen en toevoegen met behulp van de Aspose.Words for Java-bibliotheek. Je leert hoe je meerdere documenten naadloos kunt samenvoegen met behoud van opmaak en structuur.
+## Introductie tot het samenvoegen en toevoegen van documenten in Aspose.Words voor Java
+
+In deze tutorial verkennen we hoe je documenten kunt samenvoegen en toevoegen met de Aspose.Words voor Java‑bibliotheek. Je leert hoe je meerdere documenten naadloos kunt samenvoegen terwijl je opmaak en structuur behoudt.
 
 ## Vereisten
 
-Voordat we beginnen, moet u ervoor zorgen dat Aspose.Words voor Java API is ingesteld in uw Java-project.
+Voordat we beginnen, zorg ervoor dat je de Aspose.Words voor Java‑API hebt ingesteld in je Java‑project.
 
-## Opties voor het samenvoegen van documenten
+## Document Joining Options
 
-### Eenvoudige toevoeging
+### Simple Append
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Toevoegen met importformaatopties
+### Append with Import Format Options
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Toevoegen aan leeg document
+### Append to Blank Document
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,33 +61,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Toevoegen met paginanummerconversie
+### Append with Page Number Conversion
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Converteer NUMPAGES-velden
-dstDoc.updatePageLayout(); // Werk de pagina-indeling bij voor correcte nummering
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## Omgaan met verschillende pagina-instellingen
+## Handling Different Page Setups
 
-Bij het toevoegen van documenten met verschillende pagina-instellingen:
+When appending documents with different page setups:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Zorg ervoor dat de pagina-instellingen overeenkomen met het doeldocument
+// Ensure page setup settings match the destination document
 ```
 
-## Documenten met verschillende stijlen samenvoegen
+## Joining Documents with Different Styles
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Slimme stijlgedrag
+## Smart Style Behavior
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -85,14 +95,14 @@ options.setSmartStyleBehavior(true);
 builder.insertDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-## Documenten invoegen met DocumentBuilder
+## Inserting Documents with DocumentBuilder
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Bronnummering behouden
+## Keeping Source Numbering
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Omgaan met tekstvakken
+## Handling Text Boxes
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +118,69 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Kopteksten en voetteksten beheren
+## Managing Headers and Footers
 
-### Kopteksten en voetteksten koppelen
+### Linking Headers and Footers
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Kopteksten en voetteksten ontkoppelen
+### Unlinking Headers and Footers
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Conclusie
+## Why This Matters for “merge word documents java” Projects
 
-Aspose.Words voor Java biedt flexibele en krachtige tools voor het samenvoegen en toevoegen van documenten, of u nu de opmaak wilt behouden, verschillende pagina-instellingen wilt verwerken of kop- en voetteksten wilt beheren. Experimenteer met deze technieken om aan uw specifieke documentverwerkingsbehoeften te voldoen.
+Wanneer je **merge word documents java**‑stijl moet toepassen, is het behouden van de uitstraling van elk bestand cruciaal voor juridische, publicatie‑ of rapportage‑workflows. Met de bovenstaande technieken zorg je ervoor dat:
+
+* Stijlen van elke bron blijven intact (of worden verenigd, afhankelijk van je keuze).  
+* Paginanummering en sectie‑breuken zich voorspelbaar gedragen.  
+* Kop‑ en voetteksten kunnen worden gekoppeld of onafhankelijk worden gehouden met één regel code.  
+
+## Veelvoorkomende valkuilen & tips
+
+| Probleem | Waarom het gebeurt | Hoe op te lossen |
+|----------|--------------------|------------------|
+| Nummering verloren na samenvoeging | `NUMPAGES`‑velden wijzen nog steeds naar de originele secties | Roep `convertNumPageFieldsToPageRef` en `updatePageLayout()` aan |
+| Stijlenconflict | Gebruik van `KEEP_SOURCE_FORMATTING` met conflicterende stijlen | Schakel over naar `USE_DESTINATION_STYLES` of schakel Smart Style Behavior in |
+| Lege pagina's verschijnen | Verschillende `SectionStart`‑waarden | Stel `SectionStart.CONTINUOUS` in op bronsecties vóór het toevoegen |
 
 ## Veelgestelde vragen
 
-### Hoe kan ik documenten met verschillende stijlen naadloos samenvoegen?
+**Q: Hoe kan ik documenten met verschillende stijlen naadloos samenvoegen?**  
+A: Gebruik `ImportFormatMode.USE_DESTINATION_STYLES` bij het toevoegen, of schakel `SmartStyleBehavior` in voor slimmer samenvoegen.
 
-Om documenten met verschillende stijlen samen te voegen, gebruikt u `ImportFormatMode.USE_DESTINATION_STYLES` bij het toevoegen.
+**Q: Kan ik paginanummering behouden bij het toevoegen van documenten?**  
+A: Ja, converteer `NUMPAGES`‑velden naar paginareferenties met `convertNumPageFieldsToPageRef` en roep vervolgens `updatePageLayout()` aan.
 
-### Kan ik de paginanummering behouden bij het toevoegen van documenten?
+**Q: Wat is Smart Style Behavior?**  
+A: Het map automatisch bronstijlen naar bestemmingsstijlen wanneer mogelijk, waardoor een consistente uitstraling over samengevoegde inhoud behouden blijft.
 
-Ja, u kunt de paginanummering behouden door de `convertNumPageFieldsToPageRef` methode en het bijwerken van de pagina-indeling.
+**Q: Hoe ga ik om met tekstvakken bij het toevoegen van documenten?**  
+A: Stel `importFormatOptions.setIgnoreTextBoxes(false)` in zodat tekstvakken behouden blijven tijdens de samenvoeging.
 
-### Wat is Smart Style-gedrag?
+**Q: Wat als ik kop‑ en voetteksten tussen documenten wil koppelen of ontkoppelen?**  
+A: Gebruik `linkToPrevious(true)` om te koppelen, of `linkToPrevious(false)` om ze gescheiden te houden vóór het aanroepen van `appendDocument`.
 
-Slim stijlgedrag helpt consistente stijlen te behouden bij het toevoegen van documenten. Gebruik het met `ImportFormatOptions` voor betere resultaten.
+## Conclusie
 
-### Hoe kan ik tekstvakken verwerken bij het toevoegen van documenten?
+Aspose.Words voor Java biedt flexibele en krachtige tools voor **hoe documenten samen te voegen**, of je nu exacte opmaak moet behouden, verschillende paginainstellingen moet verwerken, of de koppeling van kop‑/voetteksten wilt beheersen. Experimenteer met de bovenstaande code‑fragmenten om ze aan te passen aan jouw specifieke documentverwerkingsworkflow, en je zult **merge word documents java**‑stijl met vertrouwen kunnen uitvoeren.
 
-Set `importFormatOptions.setIgnoreTextBoxes(false)` om tekstvakken op te nemen tijdens het toevoegen.
+---
 
-### Wat moet ik doen als ik kopteksten en voetteksten tussen documenten wil koppelen/ontkoppelen?
-
-U kunt kop- en voetteksten koppelen met `linkToPrevious(true)` of ontkoppel ze met `linkToPrevious(false)` indien nodig.
-
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,12 @@
 ---
-"description": "Узнайте, как легко объединять и добавлять документы с помощью Aspose.Words для Java. Сохраняйте форматирование, управляйте верхними и нижними колонтитулами и т. д."
-"linktitle": "Объединение и добавление документов"
-"second_title": "API обработки документов Java Aspose.Words"
-"title": "Объединение и добавление документов в Aspose.Words для Java"
-"url": "/ru/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Узнайте, как объединять документы с помощью Aspose.Words для Java, сохраняя
+  форматирование, связывая колонтитулы и многое другое.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Как объединить документы с помощью Aspose.Words для Java
+url: /ru/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,18 +15,26 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Объединение и добавление документов в Aspose.Words для Java
+# Как объединять документы с помощью Aspose.Words for Java
 
+Объединение файлов Word программно может стать головной болью — особенно когда нужно сохранить стили, номера страниц и колонтитулы без изменений. В этом руководстве вы узнаете **как объединять документы** с помощью библиотеки Aspose.Words for Java, шаг за шагом. Мы рассмотрим простое добавление, расширенные параметры импорта, работу с разными настройками страниц и приёмы, необходимые для **сохранения форматирования при объединении** в различных реальных сценариях.
 
-## Введение в объединение и добавление документов в Aspose.Words для Java
+## Быстрые ответы
+- **Какой самый простой способ объединить документы Word?** Используйте `Document.appendDocument` с `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Можно ли сохранить оригинальные стили каждого исходного файла?** Да — задайте `ImportFormatMode.USE_DESTINATION_STYLES` или включите Smart Style Behavior.  
+- **Как сохранить правильную нумерацию страниц после объединения?** Преобразуйте поля `NUMPAGES` в ссылки на страницы и вызовите `updatePageLayout()`.  
+- **Колонтитулы остаются связанными автоматически?** Вы можете связать или разъединить их с помощью `linkToPrevious(true/false)`.  
+- **Что нужно подготовить перед началом?** Добавьте Aspose.Words for Java в проект и подготовьте исходные файлы `.docx`.
 
-В этом уроке мы рассмотрим, как объединять и добавлять документы с помощью библиотеки Aspose.Words for Java. Вы узнаете, как легко объединить несколько документов, сохраняя форматирование и структуру.
+## Введение в объединение и добавление документов в Aspose.Words for Java
 
-## Предпосылки
+В этом руководстве мы изучим, как объединять и добавлять документы с помощью библиотеки Aspose.Words for Java. Вы узнаете, как без проблем слить несколько документов, сохранив их форматирование и структуру.
 
-Прежде чем начать, убедитесь, что в вашем проекте Java настроен API Aspose.Words for Java.
+## Предварительные требования
 
-## Варианты объединения документов
+Прежде чем начать, убедитесь, что API Aspose.Words for Java настроен в вашем Java‑проекте.
+
+## Параметры объединения документов
 
 ### Простое добавление
 
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Добавить с параметрами формата импорта
+### Добавление с параметрами импорта формата
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Добавить к пустому документу
+### Добавление в пустой документ
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,24 +61,24 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Добавить с преобразованием номера страницы
+### Добавление с преобразованием номеров страниц
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Преобразование полей NUMPAGES
-dstDoc.updatePageLayout(); // Обновите макет страницы для правильной нумерации.
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## Обработка различных настроек страницы
+## Обработка разных настроек страниц
 
-При добавлении документов с разными настройками страниц:
+При добавлении документов с различными настройками страниц:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Убедитесь, что настройки страницы соответствуют целевому документу.
+// Ensure page setup settings match the destination document
 ```
 
 ## Объединение документов с разными стилями
@@ -77,7 +87,7 @@ srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Разумный стиль поведения
+## Smart Style Behavior
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -85,14 +95,14 @@ options.setSmartStyleBehavior(true);
 builder.insertDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-## Вставка документов с помощью DocumentBuilder
+## Вставка документов с DocumentBuilder
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Сохранение нумерации источников
+## Сохранение исходной нумерации
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Обработка текстовых полей
+## Обработка текстовых блоков
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +118,69 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Управление верхними и нижними колонтитулами
+## Управление колонтитулами
 
-### Связывание верхних и нижних колонтитулов
+### Связывание колонтитулов
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Отключение верхних и нижних колонтитулов
+### Разъединение колонтитулов
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Заключение
+## Почему это важно для проектов «merge word documents java»
 
-Aspose.Words for Java предоставляет гибкие и мощные инструменты для объединения и добавления документов, независимо от того, нужно ли вам поддерживать форматирование, обрабатывать различные настройки страниц или управлять верхними и нижними колонтитулами. Экспериментируйте с этими методами, чтобы удовлетворить ваши конкретные потребности в обработке документов.
+Когда необходимо **merge word documents java**‑style, сохранение внешнего вида каждого файла критично для юридических, издательских или отчетных процессов. Применяя описанные техники, вы гарантируете, что:
+
+* Стили каждого источника остаются неизменными (или унифицированы, в зависимости от выбора).  
+* Нумерация страниц и разрывы секций работают предсказуемо.  
+* Колонтитулы можно связать или оставить независимыми одной строкой кода.  
+
+## Распространённые ошибки и советы
+
+| Проблема | Почему происходит | Как исправить |
+|----------|-------------------|---------------|
+| Потеря нумерации после объединения | Поля `NUMPAGES` всё ещё указывают на оригинальные секции | Вызовите `convertNumPageFieldsToPageRef` и `updatePageLayout()` |
+| Конфликт стилей | Использование `KEEP_SOURCE_FORMATTING` при конфликтующих стилях | Переключитесь на `USE_DESTINATION_STYLES` или включите Smart Style Behavior |
+| Появление пустых страниц | Разные значения `SectionStart` | Установите `SectionStart.CONTINUOUS` у исходных секций перед добавлением |
 
 ## Часто задаваемые вопросы
 
-### Как можно легко объединить документы с разными стилями?
+**Q: Как без проблем объединить документы с разными стилями?**  
+A: Используйте `ImportFormatMode.USE_DESTINATION_STYLES` при добавлении, либо включите `SmartStyleBehavior` для более умного объединения.
 
-Чтобы объединить документы с разными стилями, используйте `ImportFormatMode.USE_DESTINATION_STYLES` при добавлении.
+**Q: Могу ли я сохранить нумерацию страниц при добавлении документов?**  
+A: Да, преобразуйте поля `NUMPAGES` в ссылки на страницы с помощью `convertNumPageFieldsToPageRef`, а затем вызовите `updatePageLayout()`.
 
-### Можно ли сохранить нумерацию страниц при добавлении документов?
+**Q: Что такое Smart Style Behavior?**  
+A: Это автоматическое сопоставление стилей‑источников со стилями‑назначения, когда это возможно, что помогает поддерживать единый вид объединённого контента.
 
-Да, вы можете сохранить нумерацию страниц, используя `convertNumPageFieldsToPageRef` метод и обновление макета страницы.
+**Q: Как обрабатывать текстовые блоки при добавлении документов?**  
+A: Установите `importFormatOptions.setIgnoreTextBoxes(false)`, чтобы текстовые блоки сохранялись во время объединения.
 
-### Что такое разумный стиль поведения?
+**Q: Что делать, если я хочу связать или разъединить колонтитулы между документами?**  
+A: Используйте `linkToPrevious(true)`, чтобы связать, или `linkToPrevious(false)`, чтобы оставить их раздельными перед вызовом `appendDocument`.
 
-Smart Style Behavior помогает поддерживать единообразные стили при добавлении документов. Используйте его с `ImportFormatOptions` для достижения лучших результатов.
+## Заключение
 
-### Как работать с текстовыми полями при добавлении документов?
+Aspose.Words for Java предоставляет гибкие и мощные инструменты для **how to merge docs**, независимо от того, нужно ли вам сохранять точное форматирование, работать с разными настройками страниц или управлять связью колонтитулов. Поэкспериментируйте с приведёнными фрагментами кода, адаптируйте их под ваш процесс обработки документов, и вы сможете **merge word documents java**‑style с уверенностью.
 
-Набор `importFormatOptions.setIgnoreTextBoxes(false)` для включения текстовых полей при добавлении.
+---
 
-### Что делать, если я хочу связать/отсоединить верхние и нижние колонтитулы между документами?
-
-Вы можете связать верхние и нижние колонтитулы с `linkToPrevious(true)` или отсоединить их от `linkToPrevious(false)` по мере необходимости.
-
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

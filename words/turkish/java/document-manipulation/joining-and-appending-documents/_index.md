@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java kullanarak belgeleri zahmetsizce nasıl birleştireceğinizi ve ekleyeceğinizi öğrenin. Biçimlendirmeyi koruyun, üstbilgileri ve altbilgileri yönetin ve daha fazlasını yapın."
-"linktitle": "Belgeleri Birleştirme ve Ekleme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Belgeleri Birleştirme ve Ekleme"
-"url": "/tr/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Aspose.Words for Java ile belgeleri birleştirirken biçimlendirmeyi koruma,
+  başlık ve altbilgileri bağlama ve daha fazlasını öğrenin.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java Kullanarak Belgeleri Birleştirme
+url: /tr/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +15,22 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Belgeleri Birleştirme ve Ekleme
+# Aspose.Words for Java ile Belgeleri Birleştirme
 
+Word dosyalarını programlı olarak birleştirmek baş ağrısı olabilir—özellikle stilleri, sayfa numaralarını ve üstbilgi/altbilgileri aynı tutmanız gerektiğinde. Bu öğreticide Aspose.Words for Java kütüphanesini kullanarak **belgeleri nasıl birleştireceğinizi** adım adım keşfedeceksiniz. Basit eklemeler, gelişmiş içe aktarma seçenekleri, farklı sayfa düzenlerinin ele alınması ve gerçek dünya senaryolarında **biçimlendirmeyi koruyan birleştirme** sonuçları elde etmek için gereken ipuçlarını ele alacağız.
 
-## Java için Aspose.Words'de Belgeleri Birleştirme ve Eklemeye Giriş
+## Hızlı Yanıtlar
+- **Word belgelerini birleştirmenin en kolay yolu nedir?** `Document.appendDocument` metodunu `ImportFormatMode.KEEP_SOURCE_FORMATTING` ile kullanın.  
+- **Her kaynak dosyanın orijinal stillerini koruyabilir miyim?** Evet—`ImportFormatMode.USE_DESTINATION_STYLES` ayarlayın veya Smart Style Behavior'ı etkinleştirin.  
+- **Birleştirmeden sonra sayfa numaralarını doğru tutmak nasıl yapılır?** `NUMPAGES` alanlarını sayfa referanslarına dönüştürün ve `updatePageLayout()` çağırın.  
+- **Üstbilgi ve altbilgiler otomatik olarak bağlı kalır mı?** `linkToPrevious(true/false)` ile bağlayabilir veya bağını kesebilirsiniz.  
+- **Başlamadan önce neye ihtiyacım var?** Projenize Aspose.Words for Java ekleyin ve kaynak `.docx` dosyalarınızı hazır bulundurun.
 
-Bu eğitimde, Aspose.Words for Java kütüphanesini kullanarak belgeleri nasıl birleştireceğinizi ve ekleyeceğinizi inceleyeceğiz. Biçimlendirme ve yapıyı korurken birden fazla belgeyi sorunsuz bir şekilde nasıl birleştireceğinizi öğreneceksiniz.
+## Aspose.Words for Java'da Belgeleri Birleştirme ve Eklemeye Giriş
 
-## Ön koşullar
+Bu öğreticide Aspose.Words for Java kütüphanesini kullanarak belgeleri nasıl birleştireceğimizi ve ekleyeceğimizi keşfedeceğiz. Birden fazla belgeyi biçimlendirmeyi ve yapıyı koruyarak sorunsuz bir şekilde birleştirmeyi öğreneceksiniz.
+
+## Önkoşullar
 
 Başlamadan önce, Java projenizde Aspose.Words for Java API'sinin kurulu olduğundan emin olun.
 
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### İçe Aktarma Biçimi Seçenekleriyle Ekle
+### İçe Aktarma Biçim Seçenekleriyle Ekleme
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Boş Belgeye Ekle
+### Boş Belgeye Ekleme
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,27 +61,27 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Sayfa Numarası Dönüşümü ile Ekle
+### Sayfa Numarası Dönüştürmesiyle Ekleme
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // NUMPAGES alanını dönüştür
-dstDoc.updatePageLayout(); // Doğru numaralandırma için sayfa düzenini güncelleyin
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## Farklı Sayfa Kurulumlarını Yönetme
+## Farklı Sayfa Düzenlerini Ele Alma
 
-Farklı sayfa düzenlerine sahip belgeleri eklerken:
+Farklı sayfa düzenlerine sahip belgeler eklendiğinde:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Sayfa düzeni ayarlarının hedef belgeyle eşleştiğinden emin olun
+// Ensure page setup settings match the destination document
 ```
 
-## Farklı Stillerdeki Belgeleri Birleştirme
+## Farklı Stillerle Belgeleri Birleştirme
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
@@ -92,7 +102,7 @@ DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Kaynak Numaralandırmayı Tutma
+## Kaynak Numaralandırmayı Koruma
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Metin Kutularını Kullanma
+## Metin Kutularını Ele Alma
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +118,69 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Başlıkları ve Altbilgileri Yönetme
+## Üstbilgi ve Altbilgileri Yönetme
 
-### Başlıklar ve Altbilgileri Bağlama
+### Üstbilgi ve Altbilgileri Bağlama
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Başlıklar ve Altbilgilerin Bağlantısını Kaldırma
+### Üstbilgi ve Altbilgileri Bağlantısını Kesme
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Çözüm
+## Bu, “merge word documents java” Projeleri İçin Neden Önemlidir
 
-Java için Aspose.Words, biçimlendirmeyi korumanız, farklı sayfa kurulumlarını yönetmeniz veya başlıkları ve altbilgileri yönetmeniz gerekip gerekmediğine bakılmaksızın belgeleri birleştirmek ve eklemek için esnek ve güçlü araçlar sağlar. Belirli belge işleme ihtiyaçlarınızı karşılamak için bu teknikleri deneyin.
+**merge word documents java** tarzında belgeleri birleştirmeniz gerektiğinde, her dosyanın görünüm ve hissini korumak, hukuk, yayıncılık veya raporlama iş akışları için hayati öneme sahiptir. Yukarıdaki teknikleri kullanmak şunları sağlar:
 
-## SSS
+* Her kaynağın stilleri aynı kalır (veya tercihinize bağlı olarak birleştirilir).  
+* Sayfa numaralandırması ve bölüm sonları öngörülebilir şekilde davranır.  
+* Üstbilgi ve altbilgiler tek bir kod satırıyla bağlanabilir veya bağımsız tutulabilir.  
 
-### Farklı stillere sahip belgeleri sorunsuz bir şekilde nasıl birleştirebilirim?
+## Yaygın Tuzaklar ve İpuçları
 
-Farklı stillere sahip belgeleri birleştirmek için şunu kullanın: `ImportFormatMode.USE_DESTINATION_STYLES` eklerken.
+| Sorun | Neden Oluşur | Nasıl Çözülür |
+|-------|----------------|------------|
+| Birleştirme sonrası numaralandırma kayboldu | `NUMPAGES` alanları hâlâ orijinal bölümlere işaret ediyor | `convertNumPageFieldsToPageRef` ve `updatePageLayout()` çağırın |
+| Stil çakışması | Çakışan stillerle `KEEP_SOURCE_FORMATTING` kullanmak | `USE_DESTINATION_STYLES`'a geçin veya Akıllı Stil Davranışını etkinleştirin |
+| Boş sayfalar ortaya çıkıyor | Farklı `SectionStart` değerleri | Eklemeden önce kaynak bölümlerde `SectionStart.CONTINUOUS` ayarlayın |
 
-### Belge eklerken sayfa numaralandırmasını koruyabilir miyim?
+## Sıkça Sorulan Sorular
 
-Evet, sayfa numaralandırmasını kullanarak koruyabilirsiniz. `convertNumPageFieldsToPageRef` yöntem ve sayfa düzenini güncelleme.
+**S: Farklı stillere sahip belgeleri sorunsuz bir şekilde nasıl birleştirebilirim?**  
+C: Ekleme sırasında `ImportFormatMode.USE_DESTINATION_STYLES` kullanın veya daha akıllı birleştirme için `SmartStyleBehavior`'ı etkinleştirin.
 
-### Akıllı Stil Davranışı Nedir?
+**S: Belgeleri eklerken sayfa numaralandırmasını koruyabilir miyim?**  
+C: Evet, `NUMPAGES` alanlarını `convertNumPageFieldsToPageRef` ile sayfa referanslarına dönüştürün ve ardından `updatePageLayout()` çağırın.
 
-Akıllı Stil Davranışı, belgeler eklerken tutarlı stilleri korumaya yardımcı olur. Bunu şununla kullanın: `ImportFormatOptions` Daha iyi sonuçlar için.
+**S: Akıllı Stil Davranışı nedir?**  
+C: Mümkün olduğunda kaynak stilleri hedef stillere otomatik olarak eşler, birleştirilmiş içerikte tutarlı bir görünüm sağlamaya yardımcı olur.
 
-### Belge eklerken metin kutularını nasıl kullanabilirim?
+**S: Belgeleri eklerken metin kutularını nasıl ele alırım?**  
+C: Birleştirme sırasında metin kutularının korunması için `importFormatOptions.setIgnoreTextBoxes(false)` ayarlayın.
 
-Ayarlamak `importFormatOptions.setIgnoreTextBoxes(false)` Ekleme sırasında metin kutuları eklemek için.
+**S: Belgeler arasında üstbilgi ve altbilgileri bağlamak veya bağını kesmek istersem ne yapmalıyım?**  
+C: Bağlamak için `linkToPrevious(true)`, ayrı tutmak için `linkToPrevious(false)` kullanın, ardından `appendDocument` çağırın.
 
-### Belgeler arasındaki üstbilgi ve altbilgileri birbirine bağlamak/bağlantısını kaldırmak istersem ne olur?
+## Sonuç
 
-Başlıkları ve altbilgileri şu şekilde bağlayabilirsiniz: `linkToPrevious(true)` veya onları bağlantısını kes `linkToPrevious(false)` ihtiyaç duyulduğu takdirde.
+Aspose.Words for Java, **belgeleri nasıl birleştireceğiniz** konusunda esnek ve güçlü araçlar sunar; tam biçimlendirmeyi korumanız, çeşitli sayfa düzenlerini ele almanız veya üstbilgi/altbilgi bağlamasını kontrol etmeniz gerektiğinde. Yukarıdaki kod parçacıklarıyla denemeler yaparak kendi belge işleme iş akışınıza uyarlayın ve **merge word documents java** tarzında birleştirme konusunda güvenle ilerleyin.
 
+---
+
+**Son Güncelleme:** 2026-01-09  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

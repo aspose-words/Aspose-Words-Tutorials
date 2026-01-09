@@ -1,10 +1,12 @@
 ---
-"description": "Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words for Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa."
-"linktitle": "Tham gia và Thêm tài liệu"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Nối và Thêm Tài liệu trong Aspose.Words cho Java"
-"url": "/vi/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Tìm hiểu cách hợp nhất tài liệu với Aspose.Words cho Java đồng thời giữ
+  nguyên định dạng, liên kết phần đầu và chân trang, và nhiều hơn nữa.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Cách hợp nhất tài liệu bằng Aspose.Words cho Java
+url: /vi/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nối và Thêm Tài liệu trong Aspose.Words cho Java
+# Cách hợp nhất tài liệu với Aspose.Words cho Java
 
+Việc hợp nhất các tệp Word bằng chương trình có thể gây đau đầu—đặc biệt khi bạn cần giữ nguyên kiểu dáng, số trang và phần đầu/trang chân. Trong hướng dẫn này, bạn sẽ khám phá **cách hợp nhất tài liệu** bằng thư viện Aspose.Words for Java, từng bước một. Chúng tôi sẽ đề cập đến việc nối đơn giản, các tùy chọn nhập nâng cao, xử lý các bố cục trang khác nhau, và các mẹo bạn cần để **giữ nguyên định dạng khi hợp nhất** kết quả trong nhiều kịch bản thực tế.
 
-## Giới thiệu về việc nối và thêm tài liệu trong Aspose.Words cho Java
+## Câu trả lời nhanh
+- **Cách dễ nhất để hợp nhất các tài liệu Word là gì?** Sử dụng `Document.appendDocument` với `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Tôi có thể giữ nguyên kiểu dáng gốc của mỗi tệp nguồn không?** Có—đặt `ImportFormatMode.USE_DESTINATION_STYLES` hoặc bật Smart Style Behavior.  
+- **Làm sao để giữ số trang đúng sau khi hợp nhất?** Chuyển đổi các trường `NUMPAGES` thành tham chiếu trang và gọi `updatePageLayout()`.  
+- **Các phần đầu/trang chân có tự động liên kết không?** Bạn có thể liên kết hoặc hủy liên kết chúng bằng `linkToPrevious(true/false)`.  
+- **Tôi cần gì trước khi bắt đầu?** Thêm Aspose.Words for Java vào dự án của bạn và chuẩn bị các tệp nguồn `.docx` sẵn sàng.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách nối và thêm tài liệu bằng thư viện Aspose.Words cho Java. Bạn sẽ học cách hợp nhất nhiều tài liệu một cách liền mạch trong khi vẫn giữ nguyên định dạng và cấu trúc.
+## Giới thiệu về việc ghép và nối tài liệu trong Aspose.Words for Java
 
-## Điều kiện tiên quyết
+Trong hướng dẫn này, chúng ta sẽ khám phá cách ghép và nối tài liệu bằng thư viện Aspose.Words for Java. Bạn sẽ học cách hợp nhất nhiều tài liệu một cách liền mạch trong khi giữ nguyên định dạng và cấu trúc.
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập Aspose.Words for Java API trong dự án Java của mình.
+## Yêu cầu trước
 
-## Tùy chọn tham gia tài liệu
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã cài đặt Aspose.Words for Java API trong dự án Java của mình.
 
-### Thêm đơn giản
+## Các tùy chọn ghép tài liệu
+
+### Nối đơn giản
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Thêm vào với Tùy chọn Định dạng Nhập
+### Nối với các tùy chọn Import Format
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### Thêm vào tài liệu trống
+### Nối vào tài liệu trống
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,33 +61,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Thêm vào với Chuyển đổi Số trang
+### Nối với chuyển đổi số trang
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Chuyển đổi các trường NUMPAGES
-dstDoc.updatePageLayout(); // Cập nhật bố cục trang để đánh số chính xác
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## Xử lý các thiết lập trang khác nhau
+## Xử lý các bố cục trang khác nhau
 
-Khi thêm tài liệu có thiết lập trang khác nhau:
+Khi nối các tài liệu có bố cục trang khác nhau:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Đảm bảo cài đặt thiết lập trang khớp với tài liệu đích
+// Ensure page setup settings match the destination document
 ```
 
-## Nối các tài liệu có nhiều kiểu khác nhau
+## Ghép tài liệu với các kiểu dáng khác nhau
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Hành vi phong cách thông minh
+## Hành vi Smart Style
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -92,7 +102,7 @@ DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Giữ lại số nguồn
+## Giữ đánh số nguồn
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Xử lý hộp văn bản
+## Xử lý các Text Box
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +118,68 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Quản lý Header và Footer
+## Quản lý phần đầu và phần chân
 
-### Liên kết Header và Footer
+### Liên kết phần đầu và phần chân
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Hủy liên kết Header và Footer
+### Hủy liên kết phần đầu và phần chân
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Phần kết luận
+## Tại sao điều này quan trọng đối với các dự án “merge word documents java”
 
-Aspose.Words for Java cung cấp các công cụ linh hoạt và mạnh mẽ để nối và thêm tài liệu, cho dù bạn cần duy trì định dạng, xử lý các thiết lập trang khác nhau hay quản lý tiêu đề và chân trang. Hãy thử nghiệm các kỹ thuật này để đáp ứng nhu cầu xử lý tài liệu cụ thể của bạn.
+Khi bạn cần **merge word documents java**‑style, việc giữ nguyên giao diện và cảm giác của mỗi tệp là rất quan trọng đối với các quy trình pháp lý, xuất bản hoặc báo cáo. Sử dụng các kỹ thuật trên đảm bảo rằng:
+* Kiểu dáng từ mỗi nguồn vẫn nguyên vẹn (hoặc được thống nhất, tùy thuộc vào lựa chọn của bạn).  
+* Số trang và ngắt đoạn hoạt động một cách dự đoán được.  
+* Phần đầu và phần chân có thể được liên kết hoặc giữ độc lập chỉ bằng một dòng lệnh.  
+
+## Những khó khăn thường gặp & Mẹo
+
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|----------------|------------|
+| Mất đánh số sau khi hợp nhất | `NUMPAGES` vẫn trỏ tới các phần gốc | Gọi `convertNumPageFieldsToPageRef` và `updatePageLayout()` |
+| Xung đột kiểu dáng | Sử dụng `KEEP_SOURCE_FORMATTING` với các kiểu xung đột | Chuyển sang `USE_DESTINATION_STYLES` hoặc bật Smart Style Behavior |
+| Xuất hiện các trang trắng | Giá trị `SectionStart` khác nhau | Đặt `SectionStart.CONTINUOUS` cho các phần nguồn trước khi nối |
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào tôi có thể ghép các tài liệu có nhiều kiểu khác nhau một cách liền mạch?
+**Q: Làm sao tôi có thể ghép các tài liệu có kiểu dáng khác nhau một cách liền mạch?**  
+A: Sử dụng `ImportFormatMode.USE_DESTINATION_STYLES` khi nối, hoặc bật `SmartStyleBehavior` để hợp nhất thông minh hơn.
 
-Để nối các tài liệu có nhiều kiểu khác nhau, hãy sử dụng `ImportFormatMode.USE_DESTINATION_STYLES` khi thêm vào.
+**Q: Tôi có thể giữ số trang khi nối các tài liệu không?**  
+A: Có, chuyển đổi các trường `NUMPAGES` thành tham chiếu trang bằng `convertNumPageFieldsToPageRef` và sau đó gọi `updatePageLayout()`.
 
-### Tôi có thể giữ nguyên số trang khi thêm tài liệu không?
+**Q: Smart Style Behavior là gì?**  
+A: Nó tự động ánh xạ các kiểu nguồn sang kiểu đích khi có thể, giúp duy trì giao diện nhất quán trên nội dung đã hợp nhất.
 
-Có, bạn có thể giữ nguyên số trang bằng cách sử dụng `convertNumPageFieldsToPageRef` phương pháp và cập nhật bố cục trang.
+**Q: Làm sao tôi xử lý các text box khi nối tài liệu?**  
+A: Đặt `importFormatOptions.setIgnoreTextBoxes(false)` để các text box được giữ lại trong quá trình hợp nhất.
 
-### Hành vi phong cách thông minh là gì?
+**Q: Nếu tôi muốn liên kết hoặc hủy liên kết phần đầu và phần chân giữa các tài liệu thì sao?**  
+A: Sử dụng `linkToPrevious(true)` để liên kết, hoặc `linkToPrevious(false)` để giữ chúng riêng biệt trước khi gọi `appendDocument`.
 
-Hành vi phong cách thông minh giúp duy trì các phong cách nhất quán khi thêm tài liệu. Sử dụng nó với `ImportFormatOptions` để có kết quả tốt hơn.
+## Kết luận
 
-### Tôi có thể xử lý hộp văn bản khi thêm tài liệu như thế nào?
+Aspose.Words for Java cung cấp các công cụ linh hoạt và mạnh mẽ cho **cách hợp nhất tài liệu**, dù bạn cần duy trì định dạng chính xác, xử lý các bố cục trang đa dạng, hoặc kiểm soát việc liên kết phần đầu/phần chân. Hãy thử nghiệm các đoạn mã trên để phù hợp với quy trình xử lý tài liệu của bạn, và bạn sẽ có thể **hợp nhất tài liệu Word kiểu java** một cách tự tin.
 
-Bộ `importFormatOptions.setIgnoreTextBoxes(false)` để bao gồm các hộp văn bản trong khi thêm vào.
+---
 
-### Tôi phải làm sao nếu muốn liên kết/hủy liên kết phần đầu trang và phần chân trang giữa các tài liệu?
-
-Bạn có thể liên kết tiêu đề và chân trang với `linkToPrevious(true)` hoặc hủy liên kết chúng với `linkToPrevious(false)` khi cần thiết.
-
+**Cập nhật lần cuối:** 2026-01-09  
+**Kiểm tra với:** Aspose.Words for Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

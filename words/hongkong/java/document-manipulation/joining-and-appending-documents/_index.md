@@ -1,10 +1,11 @@
 ---
-"description": "了解如何使用 Aspose.Words for Java 輕鬆連接和附加文件。保留格式、管理頁首頁尾等。"
-"linktitle": "合併和附加文檔"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中合併和附加文檔"
-"url": "/zh-hant/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: 學習如何使用 Aspose.Words for Java 合併文件，同時保留格式、連結頁眉頁腳等功能。
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words for Java 合併文檔
+url: /zh-hant/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +14,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中合併和附加文檔
+# 如何使用 Aspose.Words for Java 合併文件
 
+以程式方式合併 Word 檔案可能會很頭痛——尤其是當你需要保持樣式、頁碼以及頁首/頁尾完整時。在本教學中，你將一步步了解 **如何合併文件**，使用 Aspose.Words for Java 函式庫。我們將涵蓋簡單的附加、進階的匯入選項、處理不同的頁面設定，以及在各種實務情境中 **保留格式合併** 結果的技巧。
 
-## Aspose.Words for Java 文件合併與追加簡介
+## Quick Answers
+- **合併 Word 文件最簡單的方法是什麼？** Use `Document.appendDocument` with `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **我可以保留每個來源檔案的原始樣式嗎？** Yes—set `ImportFormatMode.USE_DESTINATION_STYLES` or enable Smart Style Behavior.  
+- **合併後如何保持頁碼正確？** Convert `NUMPAGES` fields to page references and call `updatePageLayout()`.  
+- **頁首與頁尾會自動保持連結嗎？** You can link or unlink them with `linkToPrevious(true/false)`.  
+- **開始之前需要什麼？** Aspose.Words for Java added to your project and the source `.docx` files ready.
 
-在本教學中，我們將探討如何使用 Aspose.Words for Java 程式庫連接和附加文件。您將學習如何無縫合併多個文件同時保留格式和結構。
+## 介紹在 Aspose.Words for Java 中加入與附加文件
 
-## 先決條件
+在本教學中，我們將探討如何使用 Aspose.Words for Java 函式庫加入與附加文件。你將學會如何在保持格式與結構的同時，無縫合併多個文件。
 
-在開始之前，請確保您已在 Java 專案中設定了 Aspose.Words for Java API。
+## 前置條件
 
-## 文件合併選項
+在開始之前，請確保已在你的 Java 專案中設定 Aspose.Words for Java API。
 
-### 簡單追加
+## 文件加入選項
+
+### 簡單附加
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -34,7 +43,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### 附加導入格式選項
+### 使用匯入格式選項的附加
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +51,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### 附加到空白文檔
+### 附加至空白文件
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,33 +60,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### 附加頁碼轉換
+### 附加時的頁碼轉換
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // 轉換 NUMPAGES 字段
-dstDoc.updatePageLayout(); // 更新頁面佈局以獲得正確的編號
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## 處理不同的頁面設置
+## 處理不同的頁面設定
 
-附加具有不同頁面設定的文檔時：
+當附加具有不同頁面設定的文件時：
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// 確保頁面設定與目標文件相符
+// Ensure page setup settings match the destination document
 ```
 
-## 合併不同風格的文檔
+## 合併具有不同樣式的文件
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## 智慧風格行為
+## 智慧樣式行為
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -85,14 +94,14 @@ options.setSmartStyleBehavior(true);
 builder.insertDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-## 使用 DocumentBuilder 插入文檔
+## 使用 DocumentBuilder 插入文件
 
 ```java
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## 保持源編號
+## 保留來源編號
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +109,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## 處理文字框
+## 處理文字方塊
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +117,69 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## 管理頁首和頁尾
+## 管理頁首與頁尾
 
-### 連結頁首和頁尾
+### 連結頁首與頁尾
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### 取消頁首和頁尾的鏈接
+### 取消連結頁首與頁尾
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
+## 為何此議題對「merge word documents java」專案重要
+
+當你需要以 **merge word documents java** 方式合併 Word 文件時，保留每個檔案的外觀與感受對於法律、出版或報告工作流程至關重要。使用上述技巧可確保：
+
+* 每個來源的樣式保持完整（或根據你的選擇統一）。  
+* 頁碼與分節符的行為可預測。  
+* 頁首與頁尾可以透過一行程式碼連結或保持獨立。
+
+## 常見問題與技巧
+
+| 問題 | 發生原因 | 解決方法 |
+|-------|----------------|------------|
+| 合併後編號遺失 | `NUMPAGES` 欄位仍指向原始區段 | Call `convertNumPageFieldsToPageRef` and `updatePageLayout()` |
+| 樣式衝突 | Using `KEEP_SOURCE_FORMATTING` with conflicting styles | Switch to `USE_DESTINATION_STYLES` or enable Smart Style Behavior |
+| 出現空白頁 | Different `SectionStart` values | Set `SectionStart.CONTINUOUS` on source sections before appending |
+
+## Frequently Asked Questions
+
+**Q: 如何在不同樣式的文件之間無縫合併？**  
+**A:** Use `ImportFormatMode.USE_DESTINATION_STYLES` when appending, or enable `SmartStyleBehavior` for smarter merging.
+
+**Q: 在附加文件時，我可以保留頁碼嗎？**  
+**A:** Yes, convert `NUMPAGES` fields to page references with `convertNumPageFieldsToPageRef` and then call `updatePageLayout()`.
+
+**Q: 什麼是智慧樣式行為？**  
+**A:** It automatically maps source styles to destination styles when possible, helping maintain a consistent look across merged content.
+
+**Q: 在附加文件時，如何處理文字方塊？**  
+**A:** Set `importFormatOptions.setIgnoreTextBoxes(false)` so text boxes are retained during the merge.
+
+**Q: 如果我想在文件之間連結或取消連結頁首與頁尾，該怎麼做？**  
+**A:** Use `linkToPrevious(true)` to link, or `linkToPrevious(false)` to keep them separate before calling `appendDocument`.
+
 ## 結論
 
-Aspose.Words for Java 提供了靈活且強大的工具來連接和附加文檔，無論您需要維護格式、處理不同的頁面設定還是管理頁首和頁尾。嘗試這些技術來滿足您特定的文件處理需求。
+Aspose.Words for Java 提供彈性且強大的工具，用於 **如何合併文件**，無論你是需要保持精確的格式、處理多樣的頁面設定，或是控制頁首/頁尾的連結。請嘗試上述程式碼片段，以符合你的文件處理工作流程，這樣你就能自信地以 **merge word documents java** 方式合併 Word 文件。
 
-## 常見問題解答
+---
 
-### 如何才能無縫連接不同風格的文件？
-
-要合併不同風格的文檔，使用 `ImportFormatMode.USE_DESTINATION_STYLES` 追加時。
-
-### 附加文件時可以保留頁碼嗎？
-
-是的，你可以使用 `convertNumPageFieldsToPageRef` 方法並更新頁面佈局。
-
-### 什麼是智慧風格行為？
-
-智慧型樣式行為有助於在附加文件時保持一致的樣式。與...一起使用 `ImportFormatOptions` 以獲得更好的結果。
-
-### 附加文件時如何處理文字方塊？
-
-放 `importFormatOptions.setIgnoreTextBoxes(false)` 在附加期間包含文字方塊。
-
-### 如果我想連結/取消連結文件之間的頁首和頁尾怎麼辦？
-
-您可以使用 `linkToPrevious(true)` 或取消連結 `linkToPrevious(false)` 根據需要。
-
+**最後更新時間：** 2026-01-09  
+**測試環境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

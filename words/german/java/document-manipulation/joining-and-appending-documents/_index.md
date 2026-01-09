@@ -1,10 +1,12 @@
 ---
-"description": "Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente zusammenfügen und anhängen. Behalten Sie die Formatierung bei, verwalten Sie Kopf- und Fußzeilen und vieles mehr."
-"linktitle": "Zusammenfügen und Anhängen von Dokumenten"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java"
-"url": "/de/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java zusammenführen,
+  dabei die Formatierung beibehalten, Kopf‑ und Fußzeilen verknüpfen und mehr.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Wie man Dokumente mit Aspose.Words für Java zusammenführt
+url: /de/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,24 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java
+# Wie man Dokumente mit Aspose.Words für Java zusammenführt
 
+Das programmgesteuerte Zusammenführen von Word‑Dateien kann Kopfschmerzen bereiten – besonders wenn Sie Stilvorlagen, Seitenzahlen und Kopf‑/Fußzeilen unverändert behalten müssen. In diesem Tutorial entdecken Sie **wie man Dokumente zusammenführt** mit der Aspose.Words‑Bibliothek für Java, Schritt für Schritt. Wir behandeln einfache Anhänge, erweiterte Importoptionen, den Umgang mit unterschiedlichen Seiteneinstellungen und die Tricks, die Sie benötigen, um **die Formatierung beim Zusammenführen** in einer Vielzahl von realen Szenarien zu erhalten.
 
-## Einführung in das Zusammenfügen und Anhängen von Dokumenten in Aspose.Words für Java
+## Schnelle Antworten
+- **Was ist der einfachste Weg, Word‑Dokumente zusammenzuführen?** Verwenden Sie `Document.appendDocument` mit `ImportFormatMode.KEEP_SOURCE_FORMATTING`.  
+- **Kann ich die ursprünglichen Formatvorlagen jeder Quelldatei beibehalten?** Ja – setzen Sie `ImportFormatMode.USE_DESTINATION_STYLES` oder aktivieren Sie Smart Style Behavior.  
+- **Wie halte ich die Seitenzahlen nach dem Zusammenführen korrekt?** Konvertieren Sie `NUMPAGES`‑Felder zu Seitenreferenzen und rufen Sie `updatePageLayout()` auf.  
+- **Bleiben Kopf‑ und Fußzeilen automatisch verknüpft?** Sie können sie mit `linkToPrevious(true/false)` verknüpfen oder die Verknüpfung aufheben.  
+- **Was benötige ich, bevor ich starte?** Aspose.Words für Java in Ihr Projekt eingebunden und die Quell‑`.docx`‑Dateien bereit.
 
-In diesem Tutorial erfahren Sie, wie Sie Dokumente mithilfe der Java-Bibliothek Aspose.Words zusammenfügen und anhängen. Sie lernen, mehrere Dokumente nahtlos zusammenzuführen und dabei Formatierung und Struktur beizubehalten.
+## Einführung in das Zusammenführen und Anhängen von Dokumenten mit Aspose.Words für Java
+
+In diesem Tutorial erkunden wir, wie man Dokumente mit der Aspose.Words‑Bibliothek für Java zusammenführt und anhängt. Sie lernen, wie Sie mehrere Dokumente nahtlos zusammenführen, wobei Formatierung und Struktur erhalten bleiben.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie Aspose.Words für die Java-API in Ihrem Java-Projekt eingerichtet haben.
+Stellen Sie sicher, dass die Aspose.Words‑API für Java in Ihrem Java‑Projekt eingerichtet ist, bevor wir beginnen.
 
 ## Optionen zum Zusammenführen von Dokumenten
 
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Anhängen mit Importformatoptionen
+### Anhängen mit Importformat‑Optionen
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### An leeres Dokument anhängen
+### Anhängen an ein leeres Dokument
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,33 +61,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Anhängen mit Seitenzahlkonvertierung
+### Anhängen mit Seitenzahl‑Konvertierung
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // Konvertieren von NUMPAGES-Feldern
-dstDoc.updatePageLayout(); // Aktualisieren Sie das Seitenlayout für die korrekte Nummerierung
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
 ## Umgang mit unterschiedlichen Seiteneinstellungen
 
-Beim Anhängen von Dokumenten mit unterschiedlichen Seitenaufbauten:
+Beim Anhängen von Dokumenten mit unterschiedlichen Seiteneinstellungen:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// Stellen Sie sicher, dass die Seiteneinrichtungseinstellungen mit dem Zieldokument übereinstimmen
+// Ensure page setup settings match the destination document
 ```
 
-## Zusammenführen von Dokumenten mit unterschiedlichen Stilen
+## Zusammenführen von Dokumenten mit unterschiedlichen Formatvorlagen
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## Smart Style-Verhalten
+## Smart Style Behavior
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -92,7 +102,7 @@ DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Beibehalten der Quellennummerierung
+## Beibehalten der Quell‑Nummerierung
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -108,55 +118,68 @@ importFormatOptions.setIgnoreTextBoxes(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## Kopf- und Fußzeilen verwalten
+## Verwaltung von Kopf‑ und Fußzeilen
 
-### Verknüpfen von Kopf- und Fußzeilen
+### Verknüpfen von Kopf‑ und Fußzeilen
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### Aufheben der Verknüpfung von Kopf- und Fußzeilen
+### Aufheben der Verknüpfung von Kopf‑ und Fußzeilen
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## Abschluss
+## Warum das für “merge word documents java”‑Projekte wichtig ist
 
-Aspose.Words für Java bietet flexible und leistungsstarke Tools zum Zusammenfügen und Anhängen von Dokumenten, egal ob Sie die Formatierung beibehalten, verschiedene Seitenlayouts bearbeiten oder Kopf- und Fußzeilen verwalten müssen. Experimentieren Sie mit diesen Techniken, um Ihre spezifischen Anforderungen an die Dokumentverarbeitung zu erfüllen.
+Wenn Sie **Word‑Dokumente java**‑artig zusammenführen müssen, ist das Bewahren des Aussehens und Gefühls jeder Datei für rechtliche, Verlags‑ oder Bericht‑Workflows entscheidend. Die oben genannten Techniken stellen sicher, dass:
+* Die Formatvorlagen jeder Quelle bleiben unverändert (oder werden vereinheitlicht, je nach Auswahl).  
+* Seitenzahlen und Abschnittsumbrüche verhalten sich vorhersehbar.  
+* Kopf‑ und Fußzeilen können mit einer einzigen Codezeile verknüpft oder unabhängig gehalten werden.
+
+## Häufige Fallstricke & Tipps
+
+| Problem | Warum es passiert | Wie zu beheben |
+|-------|----------------|------------|
+| Nummerierung nach dem Zusammenführen verloren | `NUMPAGES`‑Felder verweisen noch auf die ursprünglichen Abschnitte | Rufen Sie `convertNumPageFieldsToPageRef` und `updatePageLayout()` auf |
+| Formatvorlagen-Konflikt | Verwendung von `KEEP_SOURCE_FORMATTING` mit konfligierenden Formatvorlagen | Wechseln Sie zu `USE_DESTINATION_STYLES` oder aktivieren Sie Smart Style Behavior |
+| Leere Seiten erscheinen | Unterschiedliche `SectionStart`‑Werte | Setzen Sie `SectionStart.CONTINUOUS` bei Quellabschnitten vor dem Anhängen |
 
 ## Häufig gestellte Fragen
 
-### Wie kann ich Dokumente mit unterschiedlichen Stilen nahtlos zusammenführen?
+**F: Wie kann ich Dokumente mit unterschiedlichen Formatvorlagen nahtlos zusammenführen?**  
+A: Verwenden Sie `ImportFormatMode.USE_DESTINATION_STYLES` beim Anhängen oder aktivieren Sie `SmartStyleBehavior` für ein intelligenteres Zusammenführen.
 
-Um Dokumente mit unterschiedlichen Stilen zu verbinden, verwenden Sie `ImportFormatMode.USE_DESTINATION_STYLES` beim Anhängen.
+**F: Kann ich die Seitenzahlen beim Anhängen von Dokumenten beibehalten?**  
+A: Ja, konvertieren Sie `NUMPAGES`‑Felder zu Seitenreferenzen mit `convertNumPageFieldsToPageRef` und rufen Sie anschließend `updatePageLayout()` auf.
 
-### Kann ich beim Anhängen von Dokumenten die Seitennummerierung beibehalten?
+**F: Was ist Smart Style Behavior?**  
+A: Es ordnet automatisch Quell‑Formatvorlagen den Ziel‑Formatvorlagen zu, wenn möglich, und hilft so, ein einheitliches Erscheinungsbild im zusammengeführten Inhalt zu bewahren.
 
-Ja, Sie können die Seitennummerierung beibehalten, indem Sie die `convertNumPageFieldsToPageRef` Methode und Aktualisierung des Seitenlayouts.
+**F: Wie gehe ich mit Textfeldern beim Anhängen von Dokumenten um?**  
+A: Setzen Sie `importFormatOptions.setIgnoreTextBoxes(false)`, damit Textfelder während des Zusammenführens erhalten bleiben.
 
-### Was ist Smart Style Behavior?
+**F: Was, wenn ich Kopf‑ und Fußzeilen zwischen Dokumenten verknüpfen oder die Verknüpfung aufheben möchte?**  
+A: Verwenden Sie `linkToPrevious(true)`, um zu verknüpfen, oder `linkToPrevious(false)`, um sie getrennt zu halten, bevor Sie `appendDocument` aufrufen.
 
-Smart Style Behavior hilft beim Anhängen von Dokumenten, konsistente Stile beizubehalten. Verwenden Sie es mit `ImportFormatOptions` für bessere Ergebnisse.
+## Fazit
 
-### Wie kann ich beim Anhängen von Dokumenten mit Textfeldern umgehen?
+Aspose.Words für Java bietet flexible und leistungsstarke Werkzeuge für **wie man Dokumente zusammenführt**, egal ob Sie die genaue Formatierung beibehalten, unterschiedliche Seiteneinstellungen handhaben oder die Verknüpfung von Kopf‑/Fußzeilen steuern müssen. Experimentieren Sie mit den obigen Code‑Snippets, um sie an Ihren spezifischen Dokumenten‑Verarbeitungs‑Workflow anzupassen, und Sie werden **Word‑Dokumente java**‑artig mit Zuversicht zusammenführen können.
 
-Satz `importFormatOptions.setIgnoreTextBoxes(false)` um beim Anhängen Textfelder einzuschließen.
+---
 
-### Was ist, wenn ich Kopf- und Fußzeilen zwischen Dokumenten verknüpfen/aufheben möchte?
-
-Sie können Kopf- und Fußzeilen verknüpfen mit `linkToPrevious(true)` oder trennen Sie die Verknüpfung mit `linkToPrevious(false)` nach Bedarf.
-
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

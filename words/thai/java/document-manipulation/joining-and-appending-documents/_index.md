@@ -1,10 +1,12 @@
 ---
-"description": "เรียนรู้วิธีรวมและผนวกเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java รักษาการจัดรูปแบบ จัดการส่วนหัว ส่วนท้าย และอื่นๆ"
-"linktitle": "การเข้าร่วมและการผนวกเอกสาร"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การเข้าร่วมและการผนวกเอกสารใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-manipulation/joining-and-appending-documents/"
-"weight": 30
+date: 2026-01-09
+description: เรียนรู้วิธีการรวมเอกสารด้วย Aspose.Words for Java พร้อมรักษาการจัดรูปแบบ,
+  เชื่อมโยงส่วนหัวและส่วนท้าย, และอื่น ๆ อีกมากมาย.
+linktitle: Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: วิธีรวมเอกสารโดยใช้ Aspose.Words สำหรับ Java
+url: /th/java/document-manipulation/joining-and-appending-documents/
+weight: 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเข้าร่วมและการผนวกเอกสารใน Aspose.Words สำหรับ Java
+# วิธีการรวมเอกสารด้วย Aspose.Words for Java
 
+การรวมไฟล์ Word ด้วยโปรแกรมอาจทำให้ศีรษะปวด—โดยเฉพาะเมื่อคุณต้องการรักษา style, หมายเลขหน้า, และส่วนหัว/ส่วนท้ายให้คงเดิม ในบทแนะนำนี้คุณจะได้เรียนรู้ **วิธีการรวมเอกสาร** ด้วยไลบรารี Aspose.Words for Java อย่างเป็นขั้นตอน เราจะครอบคลุมการต่อแบบง่าย, ตัวเลือกการนำเข้าขั้นสูง, การจัดการการตั้งค่าหน้าต่างต่าง ๆ, และเคล็ดลับที่คุณต้องการเพื่อ **รักษาการจัดรูปแบบเมื่อรวม** ผลลัพธ์ในหลายสถานการณ์จริง
 
-## บทนำเกี่ยวกับการรวมและผนวกเอกสารใน Aspose.Words สำหรับ Java
+## คำตอบอย่างรวดเร็ว
+- **วิธีที่ง่ายที่สุดในการรวมเอกสาร Word คืออะไร?** ใช้ `Document.appendDocument` พร้อม `ImportFormatMode.KEEP_SOURCE_FORMATTING`  
+- **ฉันสามารถรักษา style ดั้งเดิมของแต่ละไฟล์ต้นฉบับได้หรือไม่?** ได้—ตั้งค่า `ImportFormatMode.USE_DESTINATION_STYLES` หรือเปิดใช้งาน Smart Style Behavior  
+- **จะทำอย่างไรให้หมายเลขหน้าแม่นยำหลังการรวม?** แปลงฟิลด์ `NUMPAGES` เป็นการอ้างอิงหน้าและเรียก `updatePageLayout()`  
+- **ส่วนหัวและส่วนท้ายจะเชื่อมโยงโดยอัตโนมัติหรือไม่?** คุณสามารถเชื่อมหรือยกเลิกการเชื่อมได้ด้วย `linkToPrevious(true/false)`  
+- **ต้องเตรียมอะไรบ้างก่อนเริ่ม?** มี Aspose.Words for Java เพิ่มในโปรเจกต์ของคุณและไฟล์ `.docx` ต้นฉบับพร้อมใช้งาน  
 
-ในบทช่วยสอนนี้ เราจะมาเรียนรู้วิธีการรวมและผนวกเอกสารโดยใช้ไลบรารี Aspose.Words สำหรับ Java คุณจะได้เรียนรู้วิธีการผสานเอกสารหลายฉบับเข้าด้วยกันอย่างราบรื่นในขณะที่ยังคงรักษารูปแบบและโครงสร้างเอาไว้
+## บทนำสู่การรวมและต่อเอกสารใน Aspose.Words for Java
+
+ในบทแนะนำนี้ เราจะสำรวจวิธีการรวมและต่อเอกสารโดยใช้ไลบรารี Aspose.Words for Java คุณจะได้เรียนรู้วิธีการรวมหลายเอกสารอย่างราบรื่นโดยคงรูปแบบและโครงสร้างไว้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่า Aspose.Words สำหรับ Java API ไว้ในโปรเจ็กต์ Java ของคุณแล้ว
+ก่อนเริ่มทำงาน ให้แน่ใจว่าคุณได้ตั้งค่า Aspose.Words for Java API ในโปรเจกต์ Java ของคุณแล้ว
 
-## ตัวเลือกการเข้าร่วมเอกสาร
+## ตัวเลือกการรวมเอกสาร
 
-### การผนวกแบบง่าย
+### การต่อแบบง่าย
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -34,7 +44,7 @@ Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### ผนวกด้วยตัวเลือกรูปแบบการนำเข้า
+### การต่อพร้อมตัวเลือกการนำเข้าแบบฟอร์แมต
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -42,7 +52,7 @@ options.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 ```
 
-### ผนวกเข้ากับเอกสารเปล่า
+### การต่อไปยังเอกสารเปล่า
 
 ```java
 Document srcDoc = new Document("source.docx");
@@ -51,33 +61,33 @@ dstDoc.removeAllChildren();
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### ผนวกกับการแปลงหมายเลขหน้า
+### การต่อพร้อมการแปลงหมายเลขหน้า
 
 ```java
 Document srcDoc = new Document("source.docx");
 Document dstDoc = new Document("destination.docx");
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-convertNumPageFieldsToPageRef(dstDoc); // แปลงฟิลด์ NUMPAGES
-dstDoc.updatePageLayout(); // อัปเดตเค้าโครงหน้าเพื่อการกำหนดหมายเลขที่ถูกต้อง
+convertNumPageFieldsToPageRef(dstDoc); // Convert NUMPAGES fields
+dstDoc.updatePageLayout(); // Update page layout for correct numbering
 ```
 
-## การจัดการการตั้งค่าหน้าต่างๆ
+## การจัดการการตั้งค่าหน้าต่างที่แตกต่างกัน
 
-เมื่อผนวกเอกสารที่มีการตั้งค่าหน้าต่างกัน:
+เมื่อทำการต่อเอกสารที่มีการตั้งค่าหน้าต่างต่างกัน:
 
 ```java
 srcDoc.getFirstSection().getPageSetup().setSectionStart(SectionStart.CONTINUOUS);
 srcDoc.getFirstSection().getPageSetup().setRestartPageNumbering(true);
-// ตรวจสอบให้แน่ใจว่าการตั้งค่าหน้าตรงกับเอกสารปลายทาง
+// Ensure page setup settings match the destination document
 ```
 
-## การรวมเอกสารด้วยรูปแบบที่แตกต่างกัน
+## การรวมเอกสารที่มี style แตกต่างกัน
 
 ```java
 dstDoc.appendDocument(srcDoc, ImportFormatMode.USE_DESTINATION_STYLES);
 ```
 
-## พฤติกรรมสไตล์สมาร์ท
+## Smart Style Behavior
 
 ```java
 ImportFormatOptions options = new ImportFormatOptions();
@@ -92,7 +102,7 @@ DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.insertDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## การรักษาหมายเลขแหล่งที่มา
+## การรักษาการนับเลขต้นฉบับ
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -100,7 +110,7 @@ importFormatOptions.setKeepSourceNumbering(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFormatOptions);
 ```
 
-## การจัดการกล่องข้อความ
+## การจัดการ Text Box
 
 ```java
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
@@ -110,53 +120,67 @@ dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING, importFor
 
 ## การจัดการส่วนหัวและส่วนท้าย
 
-### การเชื่อมโยงส่วนหัวและส่วนท้าย
+### การเชื่อมส่วนหัวและส่วนท้าย
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(true);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-### การยกเลิกการเชื่อมโยงส่วนหัวและส่วนท้าย
+### การยกเลิกการเชื่อมส่วนหัวและส่วนท้าย
 
 ```java
 srcDoc.getFirstSection().getHeadersFooters().linkToPrevious(false);
 dstDoc.appendDocument(srcDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-## บทสรุป
+## ทำไมเรื่องนี้ถึงสำคัญสำหรับโครงการ “merge word documents java”
 
-Aspose.Words สำหรับ Java มอบเครื่องมือที่ยืดหยุ่นและทรงพลังสำหรับการเข้าร่วมและผนวกเอกสาร ไม่ว่าคุณจะต้องรักษาการจัดรูปแบบ จัดการการตั้งค่าหน้าต่างๆ หรือจัดการส่วนหัวและส่วนท้าย ทดลองใช้เทคนิคเหล่านี้เพื่อตอบสนองความต้องการในการประมวลผลเอกสารเฉพาะของคุณ
+เมื่อคุณต้อง **merge word documents java**‑style การรักษลักษณะและรูปลักษณ์ของแต่ละไฟล์เป็นสิ่งสำคัญสำหรับกระบวนการทางกฎหมาย, การตีพิมพ์, หรือการรายงาน การใช้เทคนิคข้างต้นจะทำให้:
+
+* Style ของแต่ละต้นฉบับคงอยู่ (หรือรวมเป็นหนึ่งเดียวตามที่คุณเลือก)  
+* การนับหน้าและการแบ่งส่วนทำงานอย่างคาดการณ์ได้  
+* ส่วนหัวและส่วนท้ายสามารถเชื่อมหรือแยกออกจากกันได้ด้วยบรรทัดโค้ดเดียว  
+
+## ข้อผิดพลาดทั่วไป & เคล็ดลับ
+
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| การสูญเสียการนับเลขหลังการรวม | ฟิลด์ `NUMPAGES` ยังคงชี้ไปยังส่วนต้นฉบับ | เรียก `convertNumPageFieldsToPageRef` แล้วตามด้วย `updatePageLayout()` |
+| Style ขัดแย้งกัน | ใช้ `KEEP_SOURCE_FORMATTING` กับ style ที่ขัดแย้ง | เปลี่ยนเป็น `USE_DESTINATION_STYLES` หรือเปิดใช้งาน Smart Style Behavior |
+| หน้าเปล่าปรากฏ | ค่า `SectionStart` แตกต่างกัน | ตั้งค่า `SectionStart.CONTINUOUS` ให้กับส่วนต้นฉบับก่อนทำการต่อ |
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะรวมเอกสารที่มีรูปแบบต่างๆ ได้อย่างราบรื่นอย่างไร
+**ถาม: ฉันจะรวมเอกสารที่มี style แตกต่างกันได้อย่างไรโดยไม่เกิดปัญหา?**  
+ตอบ: ใช้ `ImportFormatMode.USE_DESTINATION_STYLES` ขณะต่อเอกสาร หรือเปิดใช้งาน `SmartStyleBehavior` เพื่อการรวมที่ฉลาดขึ้น
 
-ในการรวมเอกสารที่มีรูปแบบที่แตกต่างกัน ให้ใช้ `ImportFormatMode.USE_DESTINATION_STYLES` เมื่อผนวก
+**ถาม: ฉันสามารถรักษาการนับหน้าเมื่อทำการต่อเอกสารได้หรือไม่?**  
+ตอบ: ได้, ให้แปลงฟิลด์ `NUMPAGES` เป็นการอ้างอิงหน้าโดยใช้ `convertNumPageFieldsToPageRef` แล้วเรียก `updatePageLayout()`
 
-### ฉันสามารถรักษาหมายเลขหน้าไว้เมื่อผนวกเอกสารได้หรือไม่
+**ถาม: Smart Style Behavior คืออะไร?**  
+ตอบ: มันจะทำการแมป style ของต้นฉบับไปยัง style ของปลายทางโดยอัตโนมัติเมื่อเป็นไปได้ ช่วยให้รูปแบบโดยรวมของเนื้อหาที่รวมกันดูสอดคล้องกัน
 
-ใช่ คุณสามารถรักษาการกำหนดหมายเลขหน้าได้โดยใช้ `convertNumPageFieldsToPageRef` วิธีการและการอัปเดตเค้าโครงหน้า
+**ถาม: ฉันจะจัดการกับ Text Box เมื่อทำการต่อเอกสารอย่างไร?**  
+ตอบ: ตั้งค่า `importFormatOptions.setIgnoreTextBoxes(false)` เพื่อให้ Text Box ถูกเก็บไว้ระหว่างการรวม
 
-### Smart Style Behavior คืออะไร?
+**ถาม: ถ้าฉันต้องการเชื่อมหรือยกเลิกการเชื่อมส่วนหัวและส่วนท้ายระหว่างเอกสารต้องทำอย่างไร?**  
+ตอบ: ใช้ `linkToPrevious(true)` เพื่อเชื่อม, หรือ `linkToPrevious(false)` เพื่อแยกออกจากกัน ก่อนเรียก `appendDocument`
 
-Smart Style Behavior ช่วยรักษารูปแบบที่สม่ำเสมอเมื่อผนวกเอกสาร ใช้ร่วมกับ `ImportFormatOptions` เพื่อผลลัพธ์ที่ดียิ่งขึ้น
+## สรุป
 
-### ฉันจะจัดการกล่องข้อความเมื่อผนวกเอกสารได้อย่างไร
+Aspose.Words for Java ให้เครื่องมือที่ยืดหยุ่นและทรงพลังสำหรับ **วิธีการรวมเอกสาร**, ไม่ว่าคุณจะต้องการรักษาการจัดรูปแบบอย่างแม่นยำ, จัดการการตั้งค่าหน้าต่างที่หลากหลาย, หรือควบคุมการเชื่อมส่วนหัว/ส่วนท้าย ทดลองใช้โค้ดตัวอย่างข้างต้นเพื่อให้เข้ากับกระบวนการประมวลผลเอกสารของคุณ และคุณจะสามารถ **merge word documents java**‑style ได้อย่างมั่นใจ
 
-ชุด `importFormatOptions.setIgnoreTextBoxes(false)` เพื่อรวมกล่องข้อความระหว่างการผนวก
+---
 
-### หากฉันต้องการเชื่อมโยง/ยกเลิกการเชื่อมโยงส่วนหัวและส่วนท้ายระหว่างเอกสารจะทำอย่างไร
-
-คุณสามารถเชื่อมโยงส่วนหัวและส่วนท้ายด้วย `linkToPrevious(true)` หรือยกเลิกการเชื่อมโยงกับ `linkToPrevious(false)` ตามความจำเป็น.
-
+**อัปเดตล่าสุด:** 2026-01-09  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
