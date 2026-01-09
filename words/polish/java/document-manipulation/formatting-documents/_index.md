@@ -1,10 +1,14 @@
 ---
-"description": "Poznaj sztukę formatowania dokumentów w Aspose.Words for Java dzięki naszemu kompleksowemu przewodnikowi. Poznaj potężne funkcje i popraw swoje umiejętności przetwarzania dokumentów."
-"linktitle": "Formatowanie dokumentów"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Formatowanie dokumentów w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/formatting-documents/"
-"weight": 29
+date: 2026-01-09
+description: Dowiedz się, jak tworzyć listy wielopoziomowe, stosować style akapitu,
+  ustawiać wyrównanie akapitu i generować dokumenty Word przy użyciu Aspose.Words
+  for Java. Ten przewodnik obejmuje techniki formatowania profesjonalnych dokumentów.
+linktitle: Formatting Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak tworzyć listy wielopoziomowe i formatować dokumenty w Aspose.Words dla
+  Javy
+url: /pl/java/document-manipulation/formatting-documents/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +17,26 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Formatowanie dokumentów w Aspose.Words dla Java
+# Formatowanie dokumentów w Aspose.Words for Java
 
+## Wprowadzenie do formatowania dokumentów w Aspose.Words for Java
 
-## Wprowadzenie do formatowania dokumentów w Aspose.Words dla Java
+W świecie przetwarzania dokumentów w Javie, Aspose.Words for Java jest solidnym i wszechstronnym narzędziem. Niezależnie od tego, czy generujesz raporty, tworzysz faktury, czy budujesz złożone układy, często będziesz musiał **create multilevel list** oraz zastosować zaawansowane formatowanie akapitów. W tym obszernej przewodniku przeprowadzimy Cię krok po kroku przez formatowanie dokumentów, generowanie dokumentu Word od podstaw oraz precyzyjne dostosowanie wyrównania akapitu, wcięcia z lewej oraz innych szczegółów typograficznych. Zacznijmy krok po kroku.
 
-świecie przetwarzania dokumentów Java, Aspose.Words for Java jest solidnym i wszechstronnym narzędziem. Niezależnie od tego, czy pracujesz nad generowaniem raportów, tworzeniem faktur, czy tworzeniem złożonych dokumentów, Aspose.Words for Java ma wszystko, czego potrzebujesz. W tym kompleksowym przewodniku zagłębimy się w sztukę formatowania dokumentów przy użyciu tego potężnego interfejsu API Java. Rozpocznijmy tę podróż krok po kroku.
+## Szybkie odpowiedzi
+- **Jak utworzyć listę wielopoziomową?** Use `DocumentBuilder.getListFormat().applyNumberDefault()` and add list items sequentially.  
+- **Czy mogę ustawić wyrównanie akapitu?** Tak, call `ParagraphFormat.setAlignment(ParagraphAlignment.CENTER)` or any other alignment.  
+- **Jaką metodę użyć do dodania wcięcia z lewej?** Use `ParagraphFormat.setLeftIndent(double)` to define the left margin.  
+- **Jak programowo wygenerować dokument Word?** Instantiate `Document`, add content with `DocumentBuilder`, then call `save("MyDoc.docx")`.  
+- **Czy istnieje sposób na zastosowanie własnego stylu akapitu?** Set the style identifier via `ParagraphFormat.setStyleIdentifier(StyleIdentifier.TITLE)`.
 
-## Konfigurowanie środowiska
+## Konfiguracja środowiska
 
-Zanim zagłębimy się w zawiłości formatowania dokumentów, kluczowe jest skonfigurowanie środowiska. Upewnij się, że Aspose.Words for Java jest poprawnie zainstalowany i skonfigurowany w Twoim projekcie. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
+Zanim zagłębimy się w szczegóły formatowania dokumentów, ważne jest skonfigurowanie środowiska. Upewnij się, że Aspose.Words for Java jest poprawnie zainstalowany i skonfigurowany w Twoim projekcie. Możesz go pobrać z [here](https://releases.aspose.com/words/java/).
 
 ## Tworzenie prostego dokumentu
 
-Zacznijmy od utworzenia prostego dokumentu przy użyciu Aspose.Words dla Java. Poniższy fragment kodu Java pokazuje, jak utworzyć dokument i dodać do niego tekst:
+Zacznijmy od **generate word document** przy użyciu Aspose.Words for Java. Poniższy fragment kodu Java pokazuje, jak utworzyć dokument i dodać do niego tekst:
 
 ```java
 Document doc = new Document();
@@ -35,9 +45,9 @@ builder.writeln("Hello, Aspose.Words for Java!");
 doc.save("MyDocument.docx");
 ```
 
-## Dostosowywanie odstępu między tekstem azjatyckim i łacińskim
+## Dostosowywanie odstępu między tekstem azjatyckim a łacińskim
 
-Aspose.Words for Java oferuje potężne funkcje do obsługi odstępów między tekstem. Możesz automatycznie dostosować odstęp między tekstem azjatyckim i łacińskim, jak pokazano poniżej:
+Aspose.Words for Java oferuje potężne funkcje obsługi odstępów w tekście. Możesz automatycznie dostosować odstęp między tekstem azjatyckim a łacińskim, jak pokazano poniżej:
 
 ```java
 Document doc = new Document();
@@ -65,7 +75,7 @@ doc.save("AsianTypographyLineBreakGroup.docx");
 
 ## Formatowanie akapitu
 
-Aspose.Words for Java pozwala na łatwe formatowanie akapitów. Sprawdź ten przykład:
+Aspose.Words for Java umożliwia **set paragraph alignment**, **set left indent** oraz łatwe formatowanie akapitów. Zobacz ten przykład:
 
 ```java
 Document doc = new Document();
@@ -80,22 +90,22 @@ builder.writeln("I'm another nice formatted paragraph. I'm intended to demonstra
 doc.save("ParagraphFormatting.docx");
 ```
 
-## Formatowanie listy wielopoziomowej
+## Formatowanie list wielopoziomowych
 
-Tworzenie list wielopoziomowych jest powszechnym wymogiem w formatowaniu dokumentów. Aspose.Words for Java upraszcza to zadanie:
+Tworzenie struktur **multilevel list** jest częstym wymogiem w formatowaniu dokumentów. Aspose.Words for Java upraszcza to zadanie:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.getListFormat().applyNumberDefault();
 builder.writeln("Item 1");
-// Dodaj więcej elementów tutaj...
+// Add more items here...
 doc.save("MultilevelListFormatting.docx");
 ```
 
-## Stosowanie stylów akapitu
+## Zastosowanie stylów akapitu
 
-Dzięki Aspose.Words for Java możesz bez problemu stosować predefiniowane style akapitów:
+Aspose.Words for Java pozwala na **apply paragraph style** bez wysiłku:
 
 ```java
 Document doc = new Document();
@@ -107,22 +117,22 @@ doc.save("ApplyParagraphStyle.docx");
 
 ## Dodawanie obramowań i cieniowania do akapitów
 
-Popraw atrakcyjność wizualną swojego dokumentu, dodając obramowania i cieniowanie:
+Zwiększ atrakcyjność wizualną dokumentu, dodając obramowania i cieniowanie:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BorderCollection borders = builder.getParagraphFormat().getBorders();
-// Tutaj możesz dostosować obramowania...
+// Customize borders here...
 Shading shading = builder.getParagraphFormat().getShading();
-// Tutaj możesz dostosować cieniowanie...
+// Customize shading here...
 builder.write("I'm a formatted paragraph with double border and nice shading.");
 doc.save("ApplyBordersAndShadingToParagraph.docx");
 ```
 
-## Zmiana odstępu i wcięć akapitu azjatyckiego
+## Zmiana odstępów i wcięć w akapitach azjatyckich
 
-Dopasuj odstępy między akapitami i wcięcia dla tekstu azjatyckiego:
+Doprecyzuj odstępy i wcięcia akapitu dla tekstu azjatyckiego:
 
 ```java
 Document doc = new Document("AsianTypography.docx");
@@ -137,7 +147,7 @@ doc.save("ChangeAsianParagraphSpacingAndIndents.docx");
 
 ## Przyciąganie do siatki
 
-Optymalizacja układu podczas pracy ze znakami azjatyckimi poprzez przyciąganie do siatki:
+Optymalizuj układ przy pracy z znakami azjatyckimi, przyciągając je do siatki:
 
 ```java
 Document doc = new Document();
@@ -149,9 +159,9 @@ par.getRuns().get(0).getFont().setSnapToGrid(true);
 doc.save("SnapToGrid.docx");
 ```
 
-## Wykrywanie separatorów stylów akapitu
+## Wykrywanie separatorów stylu akapitu
 
-Jeśli chcesz znaleźć separatory stylów w swoim dokumencie, możesz użyć następującego kodu:
+Jeśli potrzebujesz znaleźć separatory stylów w dokumencie, możesz użyć poniższego kodu:
 
 ```java
 Document doc = new Document("Document.docx");
@@ -164,40 +174,43 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 }
 ```
 
+## Podsumowanie
 
-## Wniosek
-
-W tym artykule zbadaliśmy różne aspekty formatowania dokumentów w Aspose.Words for Java. Uzbrojony w te spostrzeżenia możesz tworzyć pięknie sformatowane dokumenty dla swoich aplikacji Java. Pamiętaj, aby odwołać się do [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/) w celu uzyskania bardziej szczegółowych wskazówek.
+W tym artykule omówiliśmy różne aspekty formatowania dokumentów w Aspose.Words for Java, w tym jak **create multilevel list**, **apply paragraph style**, **set paragraph alignment** oraz **set left indent**. Mając tę wiedzę, możesz generować profesjonalnie wyglądające dokumenty Word dla swoich aplikacji Java. Pamiętaj, aby odwoływać się do [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/) po bardziej szczegółowe wskazówki.
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę pobrać Aspose.Words dla Java?
+**Q: Jak mogę pobrać Aspose.Words for Java?**  
+A: Możesz pobrać Aspose.Words for Java z [this link](https://releases.aspose.com/words/java/).
 
-Możesz pobrać Aspose.Words dla Javy ze strony [ten link](https://releases.aspose.com/words/java/).
+**Q: Czy Aspose.Words for Java nadaje się do tworzenia złożonych dokumentów?**  
+A: Zdecydowanie! Aspose.Words for Java oferuje rozbudowane możliwości tworzenia i formatowania złożonych dokumentów z łatwością.
 
-### Czy Aspose.Words for Java nadaje się do tworzenia złożonych dokumentów?
+**Q: Czy mogę zastosować własne style do akapitów przy użyciu Aspose.Words for Java?**  
+A: Tak, możesz zastosować własne style do akapitów, nadając swoim dokumentom unikalny wygląd i charakter.
 
-Oczywiście! Aspose.Words for Java oferuje rozbudowane możliwości łatwego tworzenia i formatowania złożonych dokumentów.
+**Q: Czy Aspose.Words for Java obsługuje listy wielopoziomowe?**  
+A: Tak, Aspose.Words for Java zapewnia doskonałe wsparcie przy tworzeniu i formatowaniu list wielopoziomowych.
 
-### Czy mogę stosować niestandardowe style do akapitów, używając Aspose.Words dla Java?
+**Q: Jak mogę zoptymalizować odstępy akapitu dla tekstu azjatyckiego?**  
+A: Możesz precyzyjnie dostroić odstępy akapitu dla tekstu azjatyckiego, dostosowując odpowiednie ustawienia w Aspose.Words for Java.
 
-Tak, możesz stosować niestandardowe style do akapitów, nadając swoim dokumentom niepowtarzalny wygląd.
+**Q: Jaki jest najprostszy sposób na programowe generowanie dokumentu Word?**  
+A: Utwórz instancję `Document`, użyj `DocumentBuilder` do dodania treści i wywołaj `save("YourFile.docx")`.
 
-### Czy Aspose.Words for Java obsługuje listy wielopoziomowe?
+**Q: Czy istnieją wskazówki dotyczące wydajności przy dużych dokumentach?**  
+A: Korzystaj z API strumieniowych i niezwłocznie zwalniaj nieużywane obiekty, aby utrzymać niskie zużycie pamięci.
 
-Tak, Aspose.Words for Java oferuje doskonałą obsługę tworzenia i formatowania list wielopoziomowych w dokumentach.
+---
 
-### Jak mogę zoptymalizować odstępy między akapitami w tekście azjatyckim?
-
-Odstępy między akapitami w tekście azjatyckim można dostosować, zmieniając odpowiednie ustawienia w Aspose.Words for Java.
-
+**Ostatnia aktualizacja:** 2026-01-09  
+**Testowano z:** Aspose.Words for Java 24.12 (latest release)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

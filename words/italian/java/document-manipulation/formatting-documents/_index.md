@@ -1,10 +1,14 @@
 ---
-"description": "Impara l'arte di formattare i documenti in Aspose.Words per Java con la nostra guida completa. Esplora potenti funzionalità e migliora le tue competenze di elaborazione dei documenti."
-"linktitle": "Formattazione dei documenti"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Formattazione dei documenti in Aspose.Words per Java"
-"url": "/it/java/document-manipulation/formatting-documents/"
-"weight": 29
+date: 2026-01-09
+description: Scopri come creare elenchi a più livelli, applicare lo stile di paragrafo,
+  impostare l'allineamento del paragrafo e generare documenti Word utilizzando Aspose.Words
+  per Java. Questa guida copre le tecniche di formattazione per documenti professionali.
+linktitle: Formatting Documents
+second_title: Aspose.Words Java Document Processing API
+title: Come creare un elenco a più livelli e formattare i documenti in Aspose.Words
+  per Java
+url: /it/java/document-manipulation/formatting-documents/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,18 +19,24 @@
 
 # Formattazione dei documenti in Aspose.Words per Java
 
-
 ## Introduzione alla formattazione dei documenti in Aspose.Words per Java
 
-Nel mondo dell'elaborazione di documenti Java, Aspose.Words per Java si distingue come uno strumento robusto e versatile. Che tu stia lavorando alla generazione di report, alla creazione di fatture o alla creazione di documenti complessi, Aspose.Words per Java è la soluzione che fa per te. In questa guida completa, approfondiremo l'arte della formattazione dei documenti utilizzando questa potente API Java. Intraprendiamo questo viaggio passo dopo passo.
+Nel mondo dell'elaborazione di documenti Java, Aspose.Words per Java si presenta come uno strumento robusto e versatile. Che tu stia generando report, creando fatture o costruendo layout complessi, avrai spesso bisogno di **create multilevel list** e di applicare stili di paragrafo sofisticati. In questa guida completa vedremo come formattare i documenti, generare un documento Word da zero e perfezionare l'allineamento del paragrafo, il rientro sinistro e altri dettagli tipografici. Iniziamo passo dopo passo.
 
-## Impostazione dell'ambiente
+## Risposte rapide
+- **How do I create a multilevel list?** Use `DocumentBuilder.getListFormat().applyNumberDefault()` and add list items sequentially.  
+- **Can I set paragraph alignment?** Yes, call `ParagraphFormat.setAlignment(ParagraphAlignment.CENTER)` or any other alignment.  
+- **What method adds left indent?** Use `ParagraphFormat.setLeftIndent(double)` to define the left margin.  
+- **How do I generate a Word document programmatically?** Instantiate `Document`, add content with `DocumentBuilder`, then call `save("MyDoc.docx")`.  
+- **Is there a way to apply a custom paragraph style?** Set the style identifier via `ParagraphFormat.setStyleIdentifier(StyleIdentifier.TITLE)`.
 
-Prima di addentrarci nei dettagli della formattazione dei documenti, è fondamentale configurare l'ambiente. Assicurati di aver installato e configurato correttamente Aspose.Words per Java nel tuo progetto. Puoi scaricarlo da [Qui](https://releases.aspose.com/words/java/).
+## Configurazione dell'ambiente
 
-## Creazione di un documento semplice
+Prima di immergerci nei dettagli della formattazione dei documenti, è fondamentale configurare correttamente l'ambiente. Assicurati di avere Aspose.Words per Java installato e configurato nel tuo progetto. Puoi scaricarlo da [here](https://releases.aspose.com/words/java/).
 
-Iniziamo creando un semplice documento utilizzando Aspose.Words per Java. Il seguente frammento di codice Java mostra come creare un documento e aggiungervi del testo:
+## Creare un documento semplice
+
+Iniziamo **generare un documento Word** usando Aspose.Words per Java. Il seguente frammento di codice Java dimostra come creare un documento e aggiungere del testo:
 
 ```java
 Document doc = new Document();
@@ -35,9 +45,9 @@ builder.writeln("Hello, Aspose.Words for Java!");
 doc.save("MyDocument.docx");
 ```
 
-## Regolazione dello spazio tra testo asiatico e latino
+## Regolare lo spazio tra testo asiatico e latino
 
-Aspose.Words per Java offre potenti funzionalità per la gestione della spaziatura del testo. È possibile regolare automaticamente la spaziatura tra testo asiatico e latino, come mostrato di seguito:
+Aspose.Words per Java offre potenti funzionalità per gestire la spaziatura del testo. Puoi regolare automaticamente lo spazio tra testo asiatico e latino come mostrato di seguito:
 
 ```java
 Document doc = new Document();
@@ -63,9 +73,9 @@ format.setHangingPunctuation(false);
 doc.save("AsianTypographyLineBreakGroup.docx");
 ```
 
-## Formattazione del paragrafo
+## Formattazione dei paragrafi
 
-Aspose.Words per Java permette di formattare i paragrafi con facilità. Guarda questo esempio:
+Aspose.Words per Java ti consente di **set paragraph alignment**, **set left indent** e formattare i paragrafi con facilità. Dai un'occhiata a questo esempio:
 
 ```java
 Document doc = new Document();
@@ -80,22 +90,22 @@ builder.writeln("I'm another nice formatted paragraph. I'm intended to demonstra
 doc.save("ParagraphFormatting.docx");
 ```
 
-## Formattazione di elenchi multilivello
+## Formattazione di elenchi multilevel
 
-La creazione di elenchi multilivello è un requisito comune nella formattazione dei documenti. Aspose.Words per Java semplifica questa attività:
+Creare **multilevel list** è un requisito comune nella formattazione dei documenti. Aspose.Words per Java semplifica questo compito:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.getListFormat().applyNumberDefault();
 builder.writeln("Item 1");
-// Aggiungi altri elementi qui...
+// Add more items here...
 doc.save("MultilevelListFormatting.docx");
 ```
 
-## Applicazione degli stili di paragrafo
+## Applicare stili di paragrafo
 
-Aspose.Words per Java consente di applicare stili di paragrafo predefiniti senza sforzo:
+Aspose.Words per Java ti permette di **apply paragraph style** senza sforzo:
 
 ```java
 Document doc = new Document();
@@ -105,24 +115,24 @@ builder.write("Hello, Styled Paragraph!");
 doc.save("ApplyParagraphStyle.docx");
 ```
 
-## Aggiungere bordi e ombreggiature ai paragrafi
+## Aggiungere bordi e sfumature ai paragrafi
 
-Migliora l'aspetto visivo del tuo documento aggiungendo bordi e ombreggiature:
+Migliora l'aspetto visivo del tuo documento aggiungendo bordi e sfumature:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BorderCollection borders = builder.getParagraphFormat().getBorders();
-// Personalizza i bordi qui...
+// Customize borders here...
 Shading shading = builder.getParagraphFormat().getShading();
-// Personalizza l'ombreggiatura qui...
+// Customize shading here...
 builder.write("I'm a formatted paragraph with double border and nice shading.");
 doc.save("ApplyBordersAndShadingToParagraph.docx");
 ```
 
-## Modifica della spaziatura e dei rientri dei paragrafi asiatici
+## Modificare spaziatura e rientri dei paragrafi asiatici
 
-Regolare la spaziatura dei paragrafi e i rientri per il testo asiatico:
+Fine‑tune paragraph spacing and indents for Asian text:
 
 ```java
 Document doc = new Document("AsianTypography.docx");
@@ -135,9 +145,9 @@ format.setLineUnitAfter(10.0);
 doc.save("ChangeAsianParagraphSpacingAndIndents.docx");
 ```
 
-## Aggancio alla griglia
+## Allineare alla griglia
 
-Ottimizza il layout quando lavori con caratteri asiatici agganciandolo alla griglia:
+Ottimizza il layout quando lavori con caratteri asiatici allineandoti alla griglia:
 
 ```java
 Document doc = new Document();
@@ -149,9 +159,9 @@ par.getRuns().get(0).getFont().setSnapToGrid(true);
 doc.save("SnapToGrid.docx");
 ```
 
-## Rilevamento dei separatori di stile paragrafo
+## Rilevare i separatori di stile dei paragrafi
 
-Se hai bisogno di trovare separatori di stile nel tuo documento, puoi utilizzare il seguente codice:
+Se hai bisogno di trovare i separatori di stile nel tuo documento, puoi usare il seguente codice:
 
 ```java
 Document doc = new Document("Document.docx");
@@ -164,40 +174,41 @@ for (Paragraph paragraph : (Iterable<Paragraph>) doc.getChildNodes(NodeType.PARA
 }
 ```
 
-
 ## Conclusione
 
-In questo articolo abbiamo esplorato vari aspetti della formattazione dei documenti in Aspose.Words per Java. Grazie a queste informazioni, puoi creare documenti splendidamente formattati per le tue applicazioni Java. Ricorda di fare riferimento a [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/) per una guida più approfondita.
+In questo articolo abbiamo esplorato vari aspetti della formattazione dei documenti in Aspose.Words per Java, inclusi come **create multilevel list**, **apply paragraph style**, **set paragraph alignment** e **set left indent**. Con queste conoscenze potrai generare documenti Word dall'aspetto professionale per le tue applicazioni Java. Ricorda di consultare la [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/) per ulteriori dettagli.
 
 ## Domande frequenti
 
-### Come posso scaricare Aspose.Words per Java?
+**Q: How can I download Aspose.Words for Java?**  
+A: You can download Aspose.Words for Java from [this link](https://releases.aspose.com/words/java/).
 
-Puoi scaricare Aspose.Words per Java da [questo collegamento](https://releases.aspose.com/words/java/).
+**Q: Is Aspose.Words for Java suitable for creating complex documents?**  
+A: Absolutely! Aspose.Words for Java offers extensive capabilities for creating and formatting complex documents with ease.
 
-### Aspose.Words per Java è adatto alla creazione di documenti complessi?
+**Q: Can I apply custom styles to paragraphs using Aspose.Words for Java?**  
+A: Yes, you can apply custom styles to paragraphs, giving your documents a unique look and feel.
 
-Assolutamente sì! Aspose.Words per Java offre ampie funzionalità per creare e formattare documenti complessi con facilità.
+**Q: Does Aspose.Words for Java support multilevel lists?**  
+A: Yes, Aspose.Words for Java provides excellent support for creating and formatting multilevel lists.
 
-### Posso applicare stili personalizzati ai paragrafi utilizzando Aspose.Words per Java?
+**Q: How can I optimize paragraph spacing for Asian text?**  
+A: You can fine‑tune paragraph spacing for Asian text by adjusting the relevant settings in Aspose.Words for Java.
 
-Sì, puoi applicare stili personalizzati ai paragrafi, conferendo ai tuoi documenti un aspetto unico.
+**Q: What is the easiest way to generate a Word document programmatically?**  
+A: Instantiate a `Document`, use `DocumentBuilder` to add content, and call `save("YourFile.docx")`.
 
-### Aspose.Words per Java supporta elenchi multilivello?
+**Q: Are there any performance tips for large documents?**  
+A: Use streaming APIs and dispose of unused objects promptly to keep memory usage low.
 
-Sì, Aspose.Words per Java fornisce un supporto eccellente per la creazione e la formattazione di elenchi multilivello nei documenti.
-
-### Come posso ottimizzare la spaziatura dei paragrafi per il testo asiatico?
-
-È possibile regolare con precisione la spaziatura dei paragrafi per il testo asiatico modificando le impostazioni appropriate in Aspose.Words per Java.
-
+**Last Updated:** 2026-01-09  
+**Tested With:** Aspose.Words for Java 24.12 (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
