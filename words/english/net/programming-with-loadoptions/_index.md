@@ -35,6 +35,8 @@ In these tutorials, you will learn how to use LoadOptions to load Word documents
 | [Load Chm Files In Word Document](./load-chm/) | Easily load CHM files into Word documents using Aspose.Words for .NET with this step-by-step tutorial. Perfect for consolidating your technical documentation. |
 | [how to recover docx with Aspose.Words – step by step](./how-to-recover-docx-with-aspose-words-step-by-step/) | Learn how to recover corrupted DOCX files using Aspose.Words for .NET with this detailed step-by-step guide. |
 | [Aspose Load Options – Load DOCX with Custom Font Settings](./aspose-load-options-load-docx-with-custom-font-settings/) | Learn how to load DOCX files with custom font settings using Aspose Load Options in .NET. Step-by-step guide. |
+| [how to recover docx – set recovery mode & open corrupted Word files](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Learn how to set recovery mode and open corrupted Word files using Aspose.Words for .NET. |
+| [How to Use LoadOptions in Aspose.Words – Complete Guide](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | A comprehensive guide on using LoadOptions in Aspose.Words for .NET, covering all settings and best practices. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

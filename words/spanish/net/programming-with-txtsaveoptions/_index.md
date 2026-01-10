@@ -27,7 +27,7 @@ Gracias a estos tutoriales, podrá aprovechar al máximo las funcionalidades de 
 | [Agregar marcas bidireccionales en un documento de Word](./add-bidi-marks/) Aprenda a agregar marcas bidireccionales (Bidi) en documentos de Word con Aspose.Words para .NET con esta guía. Asegúrese de que la dirección del texto sea correcta para contenido multilingüe.
 | [Usar carácter de tabulación por nivel para sangría de lista](./use-tab-character-per-level-for-list-indentation/) Aprenda a crear listas multinivel con sangría de tabulación usando Aspose.Words para .NET. Siga esta guía para un formato de lista preciso en sus documentos.
 | [Utilice el carácter de espacio por nivel para la sangría de la lista](./use-space-character-per-level-for-list-indentation/) Aprenda a crear listas multinivel con sangría de espacios en Aspose.Words para .NET. Guía paso a paso para un formato preciso de documentos.
-
+| [Guardar docx como txt – Guía rápida para desarrolladores C#](./save-docx-as-txt-quick-guide-for-c-developers/) Aprenda a guardar documentos DOCX como archivos TXT rápidamente usando Aspose.Words para .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
