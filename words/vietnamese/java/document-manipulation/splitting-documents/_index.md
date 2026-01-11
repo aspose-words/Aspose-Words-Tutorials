@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách chia tài liệu hiệu quả trong Aspose.Words for Java. Khám phá các kỹ thuật cho tiêu đề, phần và phạm vi trang."
-"linktitle": "Chia tách tài liệu"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Chia nhỏ tài liệu trong Aspose.Words cho Java"
-"url": "/vi/java/document-manipulation/splitting-documents/"
-"weight": 24
+date: 2026-01-11
+description: Tìm hiểu cách trích xuất các trang từ Word và chia tách các tài liệu
+  Word lớn bằng Aspose.Words cho Java – tiêu đề, phần, phạm vi trang và nhiều hơn
+  nữa.
+linktitle: Splitting Documents
+second_title: Aspose.Words Java Document Processing API
+title: Trích xuất các trang từ Word bằng Aspose.Words cho Java
+url: /vi/java/document-manipulation/splitting-documents/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,43 +16,66 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chia nhỏ tài liệu trong Aspose.Words cho Java
+# Trích xuất các trang từ tài liệu Word bằng Aspose.Words cho Java
 
+## Giới thiệu về việc trích xuất các trang từ Word
 
-## Giới thiệu về việc chia nhỏ tài liệu trong Aspose.Words cho Java
+Trong hướng dẫn toàn diện này, bạn sẽ học **cách trích xuất các trang từ Word** bằng cách sử dụng thư viện mạnh mẽ **Aspose.Words cho Java**. Cho dù bạn cần chia một tài liệu Word lớn thành các phần dễ quản lý, lấy ra một phạm vi trang cụ thể, hoặc tách nội dung theo tiêu đề hoặc các phần, bài hướng dẫn này sẽ dẫn bạn qua từng kỹ thuật với mã Java rõ ràng, sẵn sàng cho môi trường sản xuất. Khi kết thúc, bạn sẽ có thể tự động hoá các tác vụ chia tách tài liệu và duy trì quy trình làm việc hiệu quả.
 
-Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào thế giới phân chia tài liệu bằng Aspose.Words for Java. Phân chia tài liệu là một khía cạnh quan trọng khi nói đến việc quản lý và thao tác các tài liệu lớn một cách hiệu quả. Cho dù bạn cần phân chia tài liệu theo tiêu đề, phần, trang hay phạm vi trang cụ thể, Aspose.Words for Java đều cung cấp các công cụ bạn cần. Chúng ta sẽ khám phá nhiều kỹ thuật phân chia khác nhau, cung cấp cho bạn các đoạn mã Java và đưa ra các ví dụ thực tế để giúp bạn bắt đầu.
+## Trả lời nhanh
+- **Cách chính để trích xuất các trang từ tài liệu Word là gì?** Sử dụng `Document.extractPages(startPage, pageCount)` từ Aspose.Words cho Java.  
+- **Tôi có thể chia tách tài liệu theo tiêu đề không?** Có – đặt `DocumentSplitCriteria.HEADING_PARAGRAPH` trong `HtmlSaveOptions`.  
+- **Có thể chia tách một tài liệu Word lớn thành các tệp riêng biệt không?** Chắc chắn; bạn có thể chia tách theo các phần, phạm vi trang, hoặc từng trang riêng lẻ.  
+- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Cần có giấy phép Aspose.Words cho Java hợp lệ cho các triển khai thương mại.  
+- **Phiên bản Aspose.Words nào hỗ trợ các tính năng này?** Tất cả các phiên bản gần đây (bao gồm cả series 24.x mới nhất) đều bao gồm các API chia tách.
 
-## Phân chia tài liệu theo tiêu đề
+## “Trích xuất các trang từ Word” là gì?
 
-Một trong những yêu cầu chung khi xử lý các tài liệu lớn là phân chia chúng dựa trên tiêu đề. Aspose.Words for Java giúp bạn thực hiện nhiệm vụ này một cách đơn giản. Chúng ta hãy cùng xem một đoạn mã để phân chia tài liệu theo tiêu đề.
+Việc trích xuất các trang từ một tài liệu Word có nghĩa là lấy ra một hoặc nhiều trang một cách lập trình và lưu chúng thành một tài liệu mới, độc lập. Điều này hữu ích cho việc tạo báo cáo, phân phối chỉ các phần liên quan, hoặc xử lý các tệp lớn mà không cần tải toàn bộ nội dung vào bộ nhớ.
+
+## Tại sao cần chia tách một tài liệu Word lớn?
+
+Các tệp Word lớn có thể gây khó khăn trong việc xử lý, đặc biệt là trong các dịch vụ web hoặc công việc batch. Chia tách một tài liệu:
+- Giảm tiêu thụ bộ nhớ.  
+- Cho phép xử lý song song các phần riêng lẻ.  
+- Cho phép bạn chỉ cung cấp các phần cần thiết cho người dùng cuối.  
+- Hỗ trợ tuân thủ bằng cách cô lập các trang nhạy cảm.
+
+## Yêu cầu trước
+- Java 8 hoặc cao hơn.  
+- Thư viện **Aspose.Words cho Java** được thêm vào dự án của bạn (Maven/Gradle hoặc JAR).  
+- Giấy phép hợp lệ cho việc sử dụng trong môi trường sản xuất (tùy chọn cho việc đánh giá).
+
+## Chia tách tài liệu theo tiêu đề
+
+Nếu bạn cần chia tách tài liệu ở mọi vị trí có tiêu đề, hãy sử dụng tiêu chí chia tách `HEADING_PARAGRAPH`. Điều này rất phù hợp để tạo các tệp riêng cho mỗi chương.
 
 ```java
-// Mã Java để chia tài liệu theo tiêu đề bằng Aspose.Words cho Java
+// Java code to split a document by headings using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 doc.save("Your Directory Path" + "SplitDocument.ByHeadingsHtml.html", options);
 ```
 
-## Phân chia tài liệu theo từng phần
+## Chia tách tài liệu theo phần
 
-Một cách khác để chia tài liệu là theo phần. Các phần thường đại diện cho các phần khác nhau của tài liệu và việc chia theo phần có thể hữu ích để tạo các tài liệu nhỏ hơn, dễ quản lý hơn.
+Các phần thường đại diện cho các phân đoạn logic như phần mở đầu, nội dung chính và phụ lục. Chia tách theo phần là lý tưởng khi bạn muốn mỗi phần logic có một tệp riêng.
 
 ```java
-// Mã Java để chia tài liệu thành nhiều phần bằng Aspose.Words cho Java
+// Java code to split a document by sections using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
 doc.save("Your Directory Path" + "SplitDocument.BySectionsHtml.html", options);
 ```
 
-## Chia tài liệu theo từng trang
+## Chia tách tài liệu theo từng trang
 
-Chia tài liệu theo từng trang là một kỹ thuật hữu ích khi bạn cần trích xuất từng trang riêng lẻ từ một tài liệu. Hãy cùng xem cách thực hiện điều này bằng Aspose.Words cho Java.
+Khi bạn cần trích xuất mỗi trang thành một tệp riêng, lặp qua bộ sưu tập các trang và sử dụng `extractPages`. Đây là cách tiếp cận phổ biến để **chia tách các tài liệu Word lớn** thành các tệp một trang.
 
 ```java
-// Mã Java để chia trang tài liệu theo từng trang bằng Aspose.Words cho Java
+// Java code to split a document page by page using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Big document.docx");
 int pageCount = doc.getPageCount();
 for (int page = 0; page < pageCount; page++)
@@ -59,12 +85,12 @@ for (int page = 0; page < pageCount; page++)
 }
 ```
 
-## Hợp nhất các tài liệu đã chia
+## Gộp các tài liệu đã chia tách
 
-Sau khi chia tách một tài liệu, bạn có thể muốn hợp nhất các phần đã chia lại với nhau. Sau đây là cách bạn có thể hợp nhất nhiều tài liệu thành một tài liệu duy nhất bằng Aspose.Words for Java.
+Sau khi bạn đã chia tách một tài liệu, bạn có thể cần ghép các phần lại với nhau. Đoạn mã dưới đây minh họa cách gộp nhiều tệp đã chia tách thành một tài liệu duy nhất trong khi giữ nguyên định dạng gốc.
 
 ```java
-// Mã Java để hợp nhất các tài liệu đã chia tách bằng Aspose.Words cho Java
+// Java code to merge split documents using Aspose.Words for Java
 File directory = new File("Your Directory Path");
 Collection<File> documentPaths = FileUtils.listFiles(directory, new WildcardFileFilter("SplitDocument.PageByPage_*.docx"), null);
 String sourceDocumentPath = FileUtils.getFile("Your Directory Path", "SplitDocument.PageByPage_1.docx").getPath();
@@ -85,50 +111,62 @@ for (File documentPath : documentPaths)
 mergedDoc.save("Your Directory Path" + "SplitDocument.MergeDocuments.docx");
 ```
 
-## Chia tài liệu theo phạm vi trang
+## Chia tách tài liệu theo phạm vi trang (split by page range)
 
-Đôi khi, bạn có thể cần trích xuất một phạm vi trang cụ thể từ một tài liệu. Sau đây là cách bạn có thể chia tài liệu theo phạm vi trang bằng Aspose.Words cho Java.
+Đôi khi bạn chỉ cần một phần của các trang, chẳng hạn như các trang 3‑8 của một báo cáo. Sử dụng `extractPages(start, count)` để lấy một phạm vi cụ thể.
 
 ```java
-// Mã Java để chia tài liệu theo phạm vi trang cụ thể bằng Aspose.Words cho Java
+// Java code to split a document by a specific page range using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Big document.docx");
 Document extractedPages = doc.extractPages(3, 6);
 extractedPages.save("Your Directory Path" + "SplitDocument.ByPageRange.docx");
 ```
 
-## Phần kết luận
+## Những lỗi thường gặp & Mẹo
 
-Trong hướng dẫn này, chúng tôi đã khám phá nhiều kỹ thuật khác nhau để chia tài liệu trong Aspose.Words for Java. Cho dù bạn cần chia theo tiêu đề, phần, trang hay phạm vi trang cụ thể, Aspose.Words for Java đều cung cấp tính linh hoạt và sức mạnh để hoàn thành các tác vụ này một cách hiệu quả. Bằng cách làm theo các đoạn mã Java và ví dụ được cung cấp, bạn có thể bắt đầu quản lý tài liệu của mình hiệu quả hơn ngay hôm nay.
+- **Chỉ mục bắt đầu từ 0 so với 1:** `extractPages` sử dụng chỉ mục bắt đầu từ 0, vì vậy trang 1 có chỉ mục 0.  
+- **Tiêu thụ bộ nhớ:** Khi xử lý các tệp rất lớn, hãy cân nhắc tải tài liệu dưới dạng luồng và giải phóng mỗi trang đã trích xuất ngay sau khi sử dụng.  
+- **Giữ nguyên kiểu dáng:** Sử dụng `ImportFormatMode.KEEP_SOURCE_FORMATTING` khi gộp để tránh mất kiểu dáng.  
+- **Đặt tên tệp:** Bao gồm số trang hoặc tiêu đề tiêu đề trong tên tệp đầu ra để dễ nhận dạng hơn.
+
+## Kết luận
+
+Trong bài hướng dẫn này, chúng tôi đã trình bày nhiều cách để **trích xuất các trang từ Word** và chia tách tài liệu bằng **Aspose.Words cho Java**—theo tiêu đề, theo phần, từng trang, và theo phạm vi trang tùy chỉnh. Những kỹ thuật này cho phép bạn xử lý các trường hợp **chia tách tài liệu Word lớn** một cách hiệu quả, dù bạn đang xây dựng dịch vụ xử lý tài liệu, quy trình báo cáo tự động, hay giải pháp quản lý nội dung tùy chỉnh.
 
 ## Câu hỏi thường gặp
 
-### Tôi có thể bắt đầu sử dụng Aspose.Words cho Java như thế nào?
+### Làm thế nào để bắt đầu với Aspose.Words cho Java?
 
-Bắt đầu với Aspose.Words for Java rất dễ dàng. Bạn có thể tải xuống thư viện từ trang web Aspose và làm theo tài liệu hướng dẫn cài đặt và sử dụng. Truy cập [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/) để biết thêm chi tiết.
+Bắt đầu với Aspose.Words cho Java rất đơn giản. Bạn có thể tải thư viện từ trang web Aspose và làm theo tài liệu hướng dẫn cài đặt và sử dụng. Truy cập [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) để biết thêm chi tiết.
 
 ### Các tính năng chính của Aspose.Words cho Java là gì?
 
-Aspose.Words for Java cung cấp nhiều tính năng, bao gồm tạo, chỉnh sửa, chuyển đổi và thao tác tài liệu. Bạn có thể làm việc với nhiều định dạng tài liệu khác nhau, thực hiện các thao tác phức tạp và tạo tài liệu chất lượng cao theo chương trình.
+Aspose.Words cho Java cung cấp một loạt các tính năng, bao gồm tạo tài liệu, chỉnh sửa, chuyển đổi và thao tác. Bạn có thể làm việc với nhiều định dạng tài liệu, thực hiện các thao tác phức tạp và tạo ra các tài liệu chất lượng cao một cách lập trình.
 
-### Aspose.Words for Java có phù hợp với các tài liệu lớn không?
+### Aspose.Words cho Java có phù hợp với tài liệu lớn không?
 
-Có, Aspose.Words for Java rất phù hợp để làm việc với các tài liệu lớn. Nó cung cấp các kỹ thuật hiệu quả để chia nhỏ và quản lý các tài liệu lớn, như được trình bày trong bài viết này.
+Có, Aspose.Words cho Java rất phù hợp để làm việc với tài liệu lớn. Nó cung cấp các kỹ thuật hiệu quả để chia tách và quản lý tài liệu lớn, như đã trình bày trong bài viết này.
 
-### Tôi có thể hợp nhất các tài liệu đã tách lại với nhau bằng Aspose.Words cho Java không?
+### Tôi có thể gộp các tài liệu đã chia tách lại với Aspose.Words cho Java không?
 
-Hoàn toàn đúng. Aspose.Words for Java cho phép bạn hợp nhất các tài liệu đã chia tách một cách liền mạch, đảm bảo bạn có thể làm việc với cả các phần riêng lẻ và toàn bộ tài liệu khi cần.
+Chắc chắn. Aspose.Words cho Java cho phép bạn gộp các tài liệu đã chia tách một cách liền mạch, đảm bảo bạn có thể làm việc với cả các phần riêng lẻ và toàn bộ tài liệu khi cần.
 
-### Tôi có thể truy cập Aspose.Words for Java và bắt đầu sử dụng ở đâu?
+### Tôi có thể truy cập Aspose.Words cho Java và bắt đầu sử dụng ở đâu?
 
-Bạn có thể truy cập và tải xuống Aspose.Words cho Java từ trang web Aspose. Bắt đầu ngay hôm nay bằng cách truy cập [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/).
-
+Bạn có thể truy cập và tải Aspose.Words cho Java từ trang web Aspose. Bắt đầu ngay hôm nay bằng cách truy cập [Aspose.Words for Java Download](https://releases.aspose.com/words/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-01-11  
+**Kiểm tra với:** Aspose.Words 24.x for Java  
+**Tác giả:** Aspose  
+
+---

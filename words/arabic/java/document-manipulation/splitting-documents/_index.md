@@ -1,10 +1,12 @@
 ---
-"description": "تعلّم كيفية تقسيم المستندات بكفاءة في Aspose.Words لجافا. استكشف تقنيات العناوين والأقسام ونطاقات الصفحات."
-"linktitle": "تقسيم المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "تقسيم المستندات في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/splitting-documents/"
-"weight": 24
+date: 2026-01-11
+description: تعلم كيفية استخراج الصفحات من Word وتقسيم مستندات Word الكبيرة باستخدام
+  Aspose.Words for Java – العناوين، الأقسام، نطاقات الصفحات والمزيد.
+linktitle: Splitting Documents
+second_title: Aspose.Words Java Document Processing API
+title: استخراج الصفحات من Word باستخدام Aspose.Words للغة Java
+url: /ar/java/document-manipulation/splitting-documents/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,43 +15,66 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تقسيم المستندات في Aspose.Words لـ Java
+# استخراج الصفحات من مستندات Word باستخدام Aspose.Words for Java
 
+## مقدمة حول استخراج الصفحات من Word
 
-## مقدمة لتقسيم المستندات في Aspose.Words لـ Java
+في هذا الدليل الشامل، ستتعلم **كيفية استخراج الصفحات من ملفات Word** باستخدام مكتبة **Aspose.Words for Java** القوية. سواء كنت بحاجة إلى تقسيم مستند Word كبير إلى أجزاء يمكن التحكم فيها، أو استخراج نطاق صفحات محدد، أو فصل المحتوى حسب العناوين أو الأقسام، فإن هذا البرنامج التعليمي يمرّ بك عبر كل تقنية مع شفرة Java واضحة وجاهزة للإنتاج. في النهاية، ستتمكن من أتمتة مهام تقسيم المستندات والحفاظ على كفاءة سير العمل الخاص بك.
 
-في هذا الدليل الشامل، سنتعمق في عالم تقسيم المستندات باستخدام Aspose.Words لجافا. يُعد تقسيم المستندات جانبًا أساسيًا لإدارة المستندات الكبيرة ومعالجتها بكفاءة. سواءً كنت بحاجة إلى تقسيم المستندات حسب العناوين أو الأقسام أو الصفحات أو نطاقات الصفحات المحددة، يوفر Aspose.Words لجافا الأدوات اللازمة. سنستكشف تقنيات التقسيم المختلفة، ونزودك بمقاطع برمجية من جافا، ونقدم أمثلة عملية لمساعدتك على البدء.
+## إجابات سريعة
+- **ما هي الطريقة الأساسية لاستخراج الصفحات من مستند Word؟** استخدم `Document.extractPages(startPage, pageCount)` من Aspose.Words for Java.  
+- **هل يمكنني تقسيم المستند حسب العناوين؟** نعم – اضبط `DocumentSplitCriteria.HEADING_PARAGRAPH` في `HtmlSaveOptions`.  
+- **هل من الممكن تقسيم مستند Word كبير إلى ملفات منفصلة؟** بالتأكيد؛ يمكنك التقسيم حسب الأقسام، أو نطاقات الصفحات، أو الصفحات الفردية.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم وجود ترخيص صالح لـ Aspose.Words for Java للاستخدام التجاري.  
+- **أي إصدار من Aspose.Words يدعم هذه الميزات؟** جميع الإصدارات الحديثة (بما في ذلك سلسلة 24.x الأخيرة) تتضمن واجهات برمجة التطبيقات للتقسيم.
 
-## تقسيم المستندات حسب العناوين
+## ما هو “استخراج الصفحات من Word”؟
 
-من المتطلبات الشائعة عند التعامل مع المستندات الكبيرة تقسيمها حسب العناوين. يُسهّل Aspose.Words لجافا هذه المهمة. لنلقِ نظرة على مقتطف برمجي لتقسيم مستند حسب العناوين.
+استخراج الصفحات من مستند Word يعني سحب صفحة أو أكثر برمجياً وحفظها كمستند جديد مستقل. هذا مفيد لإنشاء تقارير، أو توزيع الأقسام ذات الصلة فقط، أو التعامل مع ملفات ضخمة دون تحميل المحتوى بالكامل في الذاكرة.
+
+## لماذا نقوم بتقسيم مستند Word كبير؟
+
+يمكن أن تكون ملفات Word الكبيرة مرهقة للمعالجة، خاصة في الخدمات الويب أو وظائف الدُفعات. تقسيم المستند:
+- يقلل من استهلاك الذاكرة.  
+- يتيح المعالجة المتوازية للأجزاء الفردية.  
+- يسمح لك بتسليم الأقسام المطلوبة فقط للمستخدمين النهائيين.  
+- يسهل الامتثال من خلال عزل الصفحات الحساسة.
+
+## المتطلبات المسبقة
+- Java 8 أو أعلى.  
+- مكتبة **Aspose.Words for Java** مضافة إلى مشروعك (Maven/Gradle أو JAR).  
+- ترخيص صالح للاستخدام في الإنتاج (اختياري للتقييم).
+
+## تقسيم المستند حسب العناوين
+
+إذا كنت بحاجة إلى تقسيم المستند كلما ظهر عنوان، استخدم معيار التقسيم `HEADING_PARAGRAPH`. هذا مثالي لإنشاء ملفات منفصلة لكل فصل.
 
 ```java
-// كود جافا لتقسيم مستند حسب العناوين باستخدام Aspose.Words لجافا
+// Java code to split a document by headings using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 doc.save("Your Directory Path" + "SplitDocument.ByHeadingsHtml.html", options);
 ```
 
-## تقسيم المستندات حسب الأقسام
+## تقسيم المستند حسب الأقسام
 
-طريقة أخرى لتقسيم المستندات هي تقسيمها إلى أقسام. عادةً ما تُمثل الأقسام أجزاءً مختلفة من المستند، ويمكن أن يكون التقسيم مفيدًا لإنشاء مستندات أصغر حجمًا وأسهل إدارة.
+عادةً ما تمثل الأقسام تقسيمات منطقية مثل المقدمة، المتن، والملحقات. التقسيم حسب الأقسام مثالي عندما تريد كل جزء منطقي في ملفه الخاص.
 
 ```java
-// كود جافا لتقسيم مستند إلى أقسام باستخدام Aspose.Words لجافا
+// Java code to split a document by sections using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
 doc.save("Your Directory Path" + "SplitDocument.BySectionsHtml.html", options);
 ```
 
-## تقسيم المستندات صفحة بصفحة
+## تقسيم المستند صفحةً بصفحة
 
-يُعد تقسيم المستندات صفحةً بصفحة تقنيةً مفيدةً عند الحاجة إلى استخراج صفحاتٍ فردية من مستند. لنرَ كيفية تحقيق ذلك باستخدام Aspose.Words لجافا.
+عند الحاجة إلى استخراج كل صفحة في ملف منفصل، قم بالتكرار عبر مجموعة الصفحات واستخدم `extractPages`. هذه طريقة شائعة **لتقسيم مستندات Word الكبيرة** إلى ملفات صفحة واحدة.
 
 ```java
-// كود جافا لتقسيم مستند صفحة بصفحة باستخدام Aspose.Words لجافا
+// Java code to split a document page by page using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Big document.docx");
 int pageCount = doc.getPageCount();
 for (int page = 0; page < pageCount; page++)
@@ -59,12 +84,12 @@ for (int page = 0; page < pageCount; page++)
 }
 ```
 
-## دمج المستندات المنقسمة
+## دمج المستندات المقسمة
 
-بعد تقسيم مستند، قد ترغب في دمج الأجزاء المقسمة معًا مرة أخرى. إليك كيفية دمج مستندات متعددة في مستند واحد باستخدام Aspose.Words لجافا.
+بعد أن تقوم بتقسيم المستند، قد تحتاج إلى إعادة تجميع الأجزاء. يوضح المقتطف التالي كيفية دمج ملفات مقسمة متعددة في مستند واحد مع الحفاظ على التنسيق الأصلي.
 
 ```java
-// كود جافا لدمج المستندات المنقسمة باستخدام Aspose.Words لجافا
+// Java code to merge split documents using Aspose.Words for Java
 File directory = new File("Your Directory Path");
 Collection<File> documentPaths = FileUtils.listFiles(directory, new WildcardFileFilter("SplitDocument.PageByPage_*.docx"), null);
 String sourceDocumentPath = FileUtils.getFile("Your Directory Path", "SplitDocument.PageByPage_1.docx").getPath();
@@ -85,50 +110,62 @@ for (File documentPath : documentPaths)
 mergedDoc.save("Your Directory Path" + "SplitDocument.MergeDocuments.docx");
 ```
 
-## تقسيم المستندات حسب نطاق الصفحات
+## تقسيم المستند حسب نطاق الصفحات (split by page range)
 
-قد تحتاج أحيانًا إلى استخراج نطاق صفحات محدد من مستند. إليك كيفية تقسيم المستندات حسب نطاق الصفحات باستخدام Aspose.Words لجافا.
+أحياناً تحتاج فقط إلى مجموعة فرعية من الصفحات، مثل الصفحات 3‑8 من تقرير. استخدم `extractPages(start, count)` للحصول على النطاق المحدد.
 
 ```java
-// كود جافا لتقسيم مستند حسب نطاق صفحات محدد باستخدام Aspose.Words لجافا
+// Java code to split a document by a specific page range using Aspose.Words for Java
 Document doc = new Document("Your Directory Path" + "Big document.docx");
 Document extractedPages = doc.extractPages(3, 6);
 extractedPages.save("Your Directory Path" + "SplitDocument.ByPageRange.docx");
 ```
 
-## خاتمة
+## الأخطاء الشائعة والنصائح
 
-في هذا الدليل، استكشفنا تقنيات متنوعة لتقسيم المستندات باستخدام Aspose.Words لجافا. سواءً كنت ترغب في التقسيم حسب العناوين، أو الأقسام، أو الصفحات، أو نطاقات صفحات محددة، يوفر Aspose.Words لجافا المرونة والقوة اللازمة لإنجاز هذه المهام بكفاءة. باتباع مقتطفات وأمثلة جافا المُقدمة، يمكنك البدء بإدارة مستنداتك بفعالية أكبر اليوم.
+- **الفهرسة صفرية مقابل واحدة:** `extractPages` يستخدم فهرس بدء صفرية، لذا الصفحة 1 هي الفهرس 0.  
+- **استهلاك الذاكرة:** عند معالجة ملفات ضخمة جداً، فكر في تحميل المستند عبر تدفق وإخلاء كل صفحة مستخرجة فوراً.  
+- **الحفاظ على الأنماط:** استخدم `ImportFormatMode.KEEP_SOURCE_FORMATTING` عند الدمج لتجنب فقدان الأنماط.  
+- **تسمية الملفات:** أدرج رقم الصفحة أو عنوان العنوان في اسم الملف الناتج لتسهيل التعرف عليه.
 
-## الأسئلة الشائعة
+## الخلاصة
 
-### كيف يمكنني البدء باستخدام Aspose.Words لـ Java؟
+في هذا البرنامج التعليمي غطينا طرقاً متعددة **لاستخراج الصفحات من Word** وتقسيم المستندات باستخدام **Aspose.Words for Java**—حسب العناوين، حسب الأقسام، صفحةً بصفحة، وحسب نطاق صفحات مخصص. تتيح لك هذه التقنيات التعامل بفعالية مع سيناريوهات **تقسيم مستندات Word الكبيرة**، سواء كنت تبني خدمة معالجة مستندات، أو خط أنابيب تقارير آلي، أو حل إدارة محتوى مخصص.
 
-بدء استخدام Aspose.Words لجافا سهل للغاية. يمكنك تنزيل المكتبة من موقع Aspose الإلكتروني واتباع الوثائق للحصول على تعليمات التثبيت والاستخدام. تفضل بزيارة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/) لمزيد من التفاصيل.
+## الأسئلة المتكررة
 
-### ما هي الميزات الرئيسية لـ Aspose.Words لـ Java؟
+### كيف يمكنني البدء مع Aspose.Words for Java؟
 
-يوفر Aspose.Words لجافا مجموعة واسعة من الميزات، بما في ذلك إنشاء المستندات وتحريرها وتحويلها ومعالجتها. يمكنك العمل مع تنسيقات مستندات متنوعة، وإجراء عمليات معقدة، وإنشاء مستندات عالية الجودة برمجيًا.
+البدء مع Aspose.Words for Java سهل. يمكنك تنزيل المكتبة من موقع Aspose واتباع الوثائق للحصول على تعليمات التثبيت والاستخدام. زر [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) للمزيد من التفاصيل.
+
+### ما هي الميزات الرئيسية لـ Aspose.Words for Java؟
+
+يقدم Aspose.Words for Java مجموعة واسعة من الميزات، بما في ذلك إنشاء المستندات، تحريرها، تحويلها، ومعالجتها. يمكنك العمل مع صيغ مستندات متعددة، تنفيذ عمليات معقدة، وتوليد مستندات عالية الجودة برمجياً.
 
 ### هل Aspose.Words for Java مناسب للمستندات الكبيرة؟
 
-نعم، يُعدّ Aspose.Words for Java مثاليًا للعمل مع المستندات الكبيرة. فهو يوفر تقنيات فعّالة لتقسيم المستندات الكبيرة وإدارتها، كما هو موضح في هذه المقالة.
+نعم، Aspose.Words for Java مناسب تماماً للعمل مع المستندات الكبيرة. فهو يوفر تقنيات فعّالة لتقسيم وإدارة المستندات الضخمة، كما هو موضح في هذه المقالة.
 
-### هل يمكنني دمج المستندات المقسمة معًا مرة أخرى باستخدام Aspose.Words لـ Java؟
+### هل يمكنني دمج المستندات المقسمة مرة أخرى باستخدام Aspose.Words for Java؟
 
-بالتأكيد. يتيح لك Aspose.Words for Java دمج المستندات المنقسمة بسلاسة، مما يضمن لك إمكانية العمل مع الأجزاء الفردية والمستند بأكمله حسب الحاجة.
+بالطبع. يتيح Aspose.Words for Java دمج المستندات المقسمة بسلاسة، مما يضمن إمكانية العمل مع الأجزاء الفردية وكذلك المستند الكامل حسب الحاجة.
 
-### أين يمكنني الوصول إلى Aspose.Words for Java والبدء في استخدامه؟
+### أين يمكنني الحصول على Aspose.Words for Java والبدء في استخدامه؟
 
-يمكنك الوصول إلى Aspose.Words لجافا وتنزيلها من موقع Aspose الإلكتروني. ابدأ اليوم بزيارة [تنزيل Aspose.Words لجافا](https://releases.aspose.com/words/java/).
-
+يمكنك الوصول إلى Aspose.Words for Java وتنزيله من موقع Aspose. ابدأ اليوم بزيارة [Aspose.Words for Java Download](https://releases.aspose.com/words/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-01-11  
+**تم الاختبار مع:** Aspose.Words 24.x for Java  
+**المؤلف:** Aspose  
+
+---
