@@ -1,10 +1,13 @@
 ---
-"description": "Tanuld meg, hogyan oszthatod fel a dokumentumokat oldalakra az Aspose.Words for Java használatával. Lépésről lépésre útmutató forráskóddal a hatékony dokumentumfeldolgozáshoz."
-"linktitle": "Dokumentumok oldalakra osztása"
-"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
-"title": "Dokumentumok oldalakra osztása az Aspose.Words for Java programban"
-"url": "/hu/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: Tanulja meg, hogyan lehet szétválasztani a Word-dokumentum oldalait,
+  és minden oldalt külön menteni az Aspose.Words for Java segítségével. Lépésről‑lépésre
+  útmutató, forráskód és legjobb gyakorlatok tippek.
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: Word dokumentum oldalak felosztása az Aspose.Words for Java használatával
+url: /hu/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumok oldalakra osztása az Aspose.Words for Java programban
+# Word dokumentum oldalak szétválasztása az Aspose.Words for Java segítségével
 
+Ha Java‑ban dokumentumfeldolgozással foglalkozik, az **Aspose.Words for Java** egy erőteljes API, amely hatékonyan segít **a Word dokumentum oldalak szétválasztásában**. Ebben az átfogó útmutatóban végigvezetjük a teljes folyamaton – a környezet beállításától az egyes oldalak önálló fájlként történő kinyeréséig. A végére képes lesz **minden oldalt külön menteni**, ami megkönnyíti a dokumentumok archiválását, nyomtatását vagy további feldolgozását.
 
-Ha Java nyelven dolgozol dokumentumfeldolgozással, az Aspose.Words for Java egy hatékony API, amely segíthet a dokumentumok hatékony felosztásában különálló oldalakra. Ebben a lépésről lépésre bemutató útmutatóban végigvezetünk a dokumentumok felosztásának folyamatán a mellékelt forráskód segítségével. A bemutató végére könnyedén feloszthatod a dokumentumokat, javítva ezzel a dokumentumkezelési képességeidet.
+## Gyors válaszok
+- **Mit jelent a „split word document pages”?** A Word fájl minden oldalának különálló dokumentummá történő kinyerését jelenti.  
+- **Melyik könyvtár szükséges?** Aspose.Words for Java (letölthető [itt](https://releases.aspose.com/words/java/)).  
+- **Szükség van licencre?** A próbaverzió teszteléshez elegendő; a kereskedelmi licenc a termeléshez kötelező.  
+- **Megadható a kimeneti mappa?** Igen – egyszerűen módosítsa az útvonalat a `save` metódusban.  
+- **Melyik Java verzió támogatott?** Java 8 és újabb.
 
-## 1. Bevezetés
+## Mi az a word dokumentum oldalak szétválasztása?
+A word dokumentum oldalak szétválasztása azt a technikát jelenti, amikor programozottan egy többoldalas Word fájlt egyoldalas, önálló dokumentumokká bontunk. Ez akkor hasznos, ha oldalanként szeretné elosztani a fájlokat, bélyegképeket generálni, vagy oldal‑szintű biztonságot alkalmazni.
 
-Az Aspose.Words for Java egy Java könyvtár, amely lehetővé teszi a Word dokumentumok programozott kezelését. Az egyik gyakori feladat a dokumentumok különálló oldalakra osztása, ami hasznos lehet különféle célokra, például archiválásra, nyomtatásra vagy dokumentumfeldolgozásra.
+## Miért érdemes a dokumentumokat külön oldalakra bontani?
+- **Archiválás:** Minden oldal tárolása önálló fájlként a könnyebb visszakereshetőség érdekében.  
+- **Nyomtatás:** Kiválaszthatja a nyomtatandó oldalakat anélkül, hogy az egész dokumentumot betöltené.  
+- **Feldolgozás:** Különböző munkafolyamatok (pl. OCR, vízjel) alkalmazása oldalanként.  
 
-## 2. Előfeltételek
+## Előfeltételek
+- Telepített Java Development Kit (JDK).  
+- Aspose.Words for Java könyvtár, letölthető [itt](https://releases.aspose.com/words/java/).  
+- Alapvető Java IDE (IntelliJ IDEA, Eclipse stb.).  
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+## Fejlesztői környezet beállítása
+1. **Hozzon létre egy új Java projektet** az IDE‑jében.  
+2. **Adja hozzá az Aspose.Words JAR‑t** a projekt osztályútvonalához. A részletes lépések a hivatalos [dokumentációban](https://reference.aspose.com/words/java/) találhatók.  
 
-- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
-- Aspose.Words Java könyvtárhoz, amely letölthető [itt](https://releases.aspose.com/words/java/).
+## A fő kód megértése
 
-## 3. A környezet beállítása
-
-A kezdéshez állítsa be a fejlesztői környezetet az alábbiak szerint:
-
-- Hozz létre egy Java projektet a kívánt integrált fejlesztői környezetben (IDE).
-- Add hozzá az Aspose.Words for Java könyvtárat a projektedhez. A következőre hivatkozhatsz: [dokumentáció](https://reference.aspose.com/words/java/) részletes utasításokért.
-
-## 4. A forráskód megértése
-
-A megadott forráskód úgy lett kialakítva, hogy egy dokumentumot különálló oldalakra osszon. Nézzük meg a főbb összetevőket:
+Az alábbi első kódrészlet előkészíti a fájlnevet és betölti a dokumentumot.
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +55,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- Kinyerjük a bemeneti dokumentum alapnevét és kiterjesztését.
-- A dokumentumot az Aspose.Words for Java használatával töltjük be.
+- Kinyerjük az alapnevet és a kiterjesztést a kimeneti fájlnevek összeállításához.  
+- A `Document` betölti a forrás Word fájlt, így teljes hozzáférést kapunk az oldalakhoz.
 
-## 5. Dokumentumok felosztása lépésről lépésre
+## Lépés‑ről‑lépésre útmutató a Word dokumentum oldalak szétválasztásához
 
-### 5.1. A dokumentum betöltése
-
+### 1. lépés: A forrásdokumentum betöltése
 ```java
 Document doc = new Document(docName);
 ```
+Ez egy memóriában tárolt reprezentációt hoz létre a Word fájlról.
 
-Ebben a lépésben betöltjük a bemeneti dokumentumot egy `Document` objektum, amely lehetővé teszi számunkra, hogy a dokumentum tartalmával dolgozzunk.
-
-### 5.2. A DocumentPageSplitter inicializálása
-
+### 2. lépés: Az oldalszétválasztó inicializálása
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+A `DocumentPageSplitter` egy segédosztály, amely tudja, hogyan izolálja az egyes oldalakat külön `Document` objektummá.
 
-Inicializálunk egy `DocumentPageSplitter` objektumot a betöltött dokumentumunkkal. Ezt az osztályt az Aspose.Words for Java biztosítja, és segít a dokumentum oldalakra osztásában.
-
-### 5.3. Az egyes oldalak mentése
-
+### 3. lépés: Oldalak bejárása és mentése
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- A ciklus az 1‑től a teljes oldalszámig fut.  
+- A `getDocumentOfPage(page)` új `Document`‑et ad vissza, amely csak az adott oldalt tartalmazza.  
+- A `save` a oldalt a lemezre írja; cserélje le a **Your Directory Path**‑t a kívánt mappára.
 
-Ebben a lépésben végigmegyünk a dokumentum minden egyes oldalán, és külön dokumentumként mentjük el azokat. Megadhatja a könyvtár elérési útját, ahová a felosztott oldalak mentésre kerülnek.
-
-## 6. A kód futtatása
-
-A kód sikeres futtatásához győződj meg róla, hogy beállítottad a környezetet, és hozzáadtad az Aspose.Words for Java könyvtárat a projektedhez. Ezután futtasd a kódot, és a dokumentumod külön oldalakra lesz osztva.
-
-## DocumentPageSplitter forráskód
+### A DocumentPageSplitter teljes forráskódja
+Az alábbi blokk tartalmazza a szétválasztó osztály és a hozzá tartozó segédfüggvények teljes megvalósítását. Hagyja változatlanul; ez a motor, amely megbízható oldal‑szintű kinyerést biztosít.
 
 ```java
-/// <összefoglaló>
-/// Egy dokumentumot több dokumentumra oszt fel, oldalanként egyet.
-/// </összefoglaló>
+/// <summary>
+/// Splits a document into multiple documents, one per page.
+/// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <összefoglaló>
-/// Inicializálja a <see cref="DocumentPageSplitter"/> osztály egy új példányát.
-/// Ez a metódus részekre osztja a dokumentumot úgy, hogy minden oldal egy szakaszhatárnál kezdődik és végződik.
-/// Nem ajánlott utólag módosítani a dokumentumot.
-/// </összefoglaló>
-/// <param name="source">Forrásdokumentum</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
+/// </summary>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,29 +106,29 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <összefoglaló>
-/// Lekéri egy oldal dokumentumát.
-/// </összefoglaló>
-/// <param name="oldalIndex">
-/// Egy oldal 1-alapú indexe.
+/// <summary>
+/// Gets the document of a page.
+/// </summary>
+/// <param name="pageIndex">
+/// 1-based index of a page.
 /// </param>
-/// <visszaadási érték>
-/// A <see cref="Dokumentum"/>.
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <összefoglaló>
-/// Lekéri egy oldaltartomány dokumentumát.
-/// </összefoglaló>
+/// <summary>
+/// Gets the document of a page range.
+/// </summary>
 /// <param name="startIndex">
-/// A kezdőlap 1-alapú indexe.
+/// 1-based index of the start page.
 /// </param>
-//<param name="endIndex">
-/// A záróoldal 1-alapú indexe.
+/// <param name="endIndex">
+/// 1-based index of the end page.
 /// </param>
-/// <visszaadási érték>
-/// A <see cref="Dokumentum"/>.
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
@@ -138,22 +139,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <összefoglaló>
-/// Metódusokat biztosít egy dokumentum azon csomópontjainak kinyerésére, amelyek egy megadott oldalon jelennek meg.
-/// </összefoglaló>
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
+/// </summary>
 class PageNumberFinder
 {
-// A csomópontot egy kezdő/záró oldalszámhoz rendeli.
-// Ez a gyűjtő által megadott alap oldalszámok felülbírálására szolgál a dokumentum felosztásakor.
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// Az oldalszámot az adott oldalon található csomópontok listájához rendeli.
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <összefoglaló>
-/// Inicializálja a <see cref="PageNumberFinder"/> osztály egy új példányát.
-/// </összefoglaló>
-/// <param name="collector">Egy gyűjtőpéldány, amely elrendezési modellrekordokat tartalmaz a dokumentumhoz.</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
+/// </summary>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +163,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <összefoglaló>
-/// Lekéri annak az oldalnak az 1-alapú indexét, amelyen a csomópont kezdődik.
-/// </összefoglaló>
-/// <paraméter neve="csomópont">
-/// A csomópont.
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <visszaadási érték>
-/// Oldalindex.
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <összefoglaló>
-/// Lekéri annak az oldalnak az 1-alapú indexét, amelyen a csomópont végződik.
-/// </összefoglaló>
-/// <paraméter neve="csomópont">
-/// A csomópont.
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <visszaadási érték>
-/// Oldalindex.
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <összefoglaló>
-/// Visszaadja, hogy a megadott csomópont hány oldalt foglal magában. 1-et ad vissza, ha a csomópont egy oldalon belül található.
-/// </összefoglaló>
-/// <paraméter neve="csomópont">
-/// A csomópont.
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <visszaadási érték>
-/// Oldalindex.
+/// <returns>
+/// Page index.
 /// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <összefoglaló>
-/// Visszaadja a megadott oldalon vagy oldalakon bárhol található, a megadott csomóponttípusnak megfelelő csomópontok listáját.
-/// </összefoglaló>
-/// <param name="kezdőoldal">
-/// A kezdőlap.
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
+/// </summary>
+/// <param name="startPage">
+/// The start Page.
 /// </param>
-/// <param name="oldal vége">
-/// Az utolsó oldal.
+/// <param name="endPage">
+/// The end Page.
 /// </param>
-/// <paraméter neve="csomópontTípus">
-/// A csomópont típusa.
+/// <param name="nodeType">
+/// The node Type.
 /// </param>
-/// <visszaadási érték>
-/// A <see cref="IList{T}"/>.
+/// <returns>
+/// The <see cref="IList{T}"/>.
 /// </returns>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Csomóponttípus*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +232,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Cso
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// Néhány oldal üres lehet.
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,10 +249,10 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Cso
 	}
 	return pageNodes;
 }
-/// <összefoglaló>
-/// A két vagy több oldalon megjelenő csomópontokat különálló csomópontokra osztja, hogy azok továbbra is ugyanúgy jelenjenek meg
-/// de már nem jelennek meg egy oldalon keresztül.
-/// </összefoglaló>
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
+/// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
 	for (Paragraph paragraph : (Iterable<Paragraph>) collector.getDocument().getChildNodes(NodeType.PARAGRAPH, true))
@@ -262,20 +263,20 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// Látogasson el minden olyan összetett elemre, amely esetleg több oldalra van osztva, és ossza fel őket különálló csomópontokra.
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <összefoglaló>
-/// Ezt a <see cref="SectionSplitter"/> hívja meg a felosztott csomópontok oldalszámainak frissítéséhez.
-/// </összefoglaló>
-/// <paraméter neve="csomópont">
-/// A csomópont.
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <param name="kezdőoldal">
-/// A kezdőlap.
+/// <param name="startPage">
+/// The start Page.
 /// </param>
-/// <param name="oldal vége">
-/// Az utolsó oldal.
+/// <param name="endPage">
+/// The end Page.
 /// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
@@ -298,10 +299,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// Adja hozzá az egyes csomópontokat egy listához, amely az egyes oldalakon található csomópontokat jelöli.
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// A fejlécek/láblécek szakaszokat követnek, és önmagukban nem oszlanak el.
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,10 +351,10 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <összefoglaló>
-/// A megadott futtatás szövegét két futtatásra osztja.
-/// Az új futtatást közvetlenül a megadott futtatás után szúrja be.
-/// </összefoglaló>
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
+/// </summary>
 private void splitRun(Run run, int position)
 {
 	Run afterRun = (Run) run.deepClone(true);
@@ -380,9 +381,9 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <összefoglaló>
-/// Egy dokumentumot több részre oszt fel úgy, hogy minden oldal egy szakaszhatárnál kezdődik és végződik.
-/// </összefoglaló>
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
+/// </summary>
 class SectionSplitter extends DocumentVisitor
 {
 private PageNumberFinder pageNumberFinder;
@@ -410,8 +411,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// Ha van egy korábbi szakasz, próbálja meg lemásolni a hivatkozott fejléc-lábléceket.
-	// Ellenkező esetben nem jelennek meg a kinyert dokumentumban, ha az előző szakasz hiányzik.
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +455,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// Ha a bekezdés csak szakasztörést tartalmaz, adj hozzá álbefejezést.
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +467,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// A klónozott bekezdés listaszámozásának eltávolítása a behúzás változatlanul hagyásával 
-		// mivel a bekezdésnek az előző elem részének kellene lennie.
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// Állítsa vissza a táblázatokban a bekezdések közötti térközt, mivel a további térközök eltérő megjelenést okozhatnak.
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +494,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// Kijavítja az oldaltörést a szakasz végén.
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// Adjon hozzá új oldalszámozást a szakasz törzséhez is.
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return Látogatói művelet.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +517,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// Egy csomópont több oldalra is kiterjedhet, így a felosztott pozíciók listája kerül visszaadásra.
-	// A szétválasztott csomópont az első csomópont a következő oldalon.
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +531,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// Ha a gyermekcsomópont oldala megváltozott, akkor ez a felosztási pozíció.
-		// Add hozzá ezt a listához.
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +543,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// A kompozitokat visszafelé bontja szét, hogy a klónozott csomópontok a megfelelő sorrendben kerüljenek beillesztésre.
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +551,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// Helyezze át a következő oldalon található összes csomópontot a másolt csomópontba. A sorcsomópontokat külön kezelje.
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +571,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// Ha egy sorral foglalkozunk, akkor hozzá kell adnunk a klónozott sorhoz tartozó üres cellákat.
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +597,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// Illeszd be az elválasztott csomópontot az eredeti után.
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// Frissítse az alapcsomópont és a klónozott csomópont új oldalszámait, beleértve a leszármazottait is.
-	// Ez csak egyetlen oldal lesz, mivel a klónozott kompozit egy oldalra van osztva.
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +669,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **`doc.getPageCount()` 0‑t ad vissza** | A dokumentum nincs teljesen betöltve vagy a layout nincs frissítve. | Hívja meg a `doc.updatePageLayout()`‑t a ciklus előtt. |
+| **A kimeneti fájlok üresek** | Hibás kimeneti könyvtár útvonal. | Győződjön meg róla, hogy a könyvtár létezik és a fájlelválasztóval (`/` vagy `\\`) végződik. |
+| **Fejléc/Lábléc eltűnik** | A szétválasztási logika eltávolítja őket, ha a szekciók hiányoznak. | A `SectionSplitter` osztály már másolja a hiányzó fejléc/láblécet; használja a megadott implementációt változtatás nélkül. |
+| **Out‑Of‑Memory nagy fájlok esetén** | Nagyon nagy DOCX fájlok sok heap‑memóriát igényelnek. | Növelje a JVM heap‑et (`-Xmx2g`) vagy dolgozza fel a dokumentumot kisebb darabokra, ha lehetséges. |
 
-Most már megtanultad, hogyan oszthatsz fel egy dokumentumot különálló oldalakra az Aspose.Words for Java segítségével. Ez az útmutató egy átfogó, lépésről lépésre bemutatott oktatóanyagot tartalmaz forráskódpéldákkal. A kódot tovább testreszabhatod és bővítheted, hogy megfeleljen az igényeidnek a dokumentumokkal való munka során.
-Természetesen! Adjunk hozzá egy GYIK részt az Aspose.Words for Java használatával dokumentumok oldalakra osztásáról szóló útmutatónkhoz.
+## Gyakran feltett kérdések
 
-## GYIK
+**K:** Hogyan adom hozzá az Aspose.Words for Java‑t a projektemhez?  
+**V:** Töltse le a könyvtárat [innen](https://releases.aspose.com/words/java/), adja hozzá a JAR‑t a classpath‑hoz, és importálja a szükséges csomagokat.
 
-### Hogyan adhatom hozzá az Aspose.Words for Java-t a projektemhez?
+**K:** Szét tudom választani más formátumú dokumentumokat is, például PDF‑et vagy DOCX‑et?  
+**V:** Ez az útmutató a Word dokumentumokra (DOC/DOCX) koncentrál az Aspose.Words használatával. PDF‑hez az Aspose.PDF‑t, más formátumokhoz pedig külön API‑kat kell használni.
 
-Az Aspose.Words for Java hozzáadásához a projektedhez kövesd az alábbi lépéseket:
+**K:** Ingyenes-e az Aspose.Words for Java?  
+**V:** Nem, ez egy kereskedelmi termék. A licencelési részletek a Aspose.Words for Java árlistáján találhatók (https://purchase.aspose.com/words/java).
 
-1. Töltsd le az Aspose.Words for Java könyvtárat innen: [itt](https://releases.aspose.com/words/java/).
-2. Adja hozzá a letöltött JAR fájlt a projekt osztályútvonalához.
-3. Most már elkezdheti használni az Aspose.Words for Java-t a projektjében.
+**K:** Testreszabhatom az egyes oldalak méretét vagy tájolását?  
+**V:** Igen. A `pageDoc` megszerzése után módosítsa a `PageSetup`‑ot mentés előtt (pl. `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`).
 
-### Feloszthatom a dokumentumokat más formátumokban, például PDF-ben vagy DOCX-ben?
+**K:** Van korlátozás az oldalak számát illetően, amelyeket szét tudok választani?  
+**V:** Nincs szigorú korlát, de nagyon nagy dokumentumok több memóriát és feldolgozási időt igényelnek. Figyelje az erőforrásokat hatalmas fájlok esetén.
 
-Nem, ez az útmutató kifejezetten a DOC formátumú dokumentumok Aspose.Words for Java használatával történő felosztását tárgyalja. Ha más formátumú dokumentumokat kell felosztania, érdemes lehet más, ezeket a formátumokat támogató könyvtárakat vagy eszközöket is megvizsgálnia.
+## Összegzés
+Most már rendelkezik egy teljes, termelés‑kész módszerrel a **Word dokumentum oldalak szétválasztásához** és **az egyes oldalak külön mentéséhez** az Aspose.Words for Java segítségével. Állítsa be a kimeneti útvonalat, finomhangolja az oldalbeállításokat, vagy integrálja ezt a logikát nagyobb munkafolyamatokba, például kötegelt feldolgozásba vagy felhőszolgáltatásokba. Boldog kódolást!
 
-### Az Aspose.Words for Java egy ingyenes könyvtár?
+---
 
-Nem, az Aspose.Words for Java nem egy ingyenes könyvtár. Ez egy kereskedelmi termék, licencdíj ellenében. Meglátogathatja a következőt: [Aspose.Words Java-hoz – árképzési oldal](https://purchase.aspose.com/words/java) további információkért a licencelésről és az árakról.
-
-### Feloszthatom a dokumentumokat egyéni oldalméretek és formátumok szerint?
-
-Igen, testreszabhatja a felosztott dokumentumok oldalméreteit és formátumait az Aspose.Words for Java oldalbeállítási tulajdonságainak módosításával. Az Aspose.Words dokumentációjában részletesen tájékozódhat arról, hogyan testreszabhatja az oldalbeállításokat az igényeinek megfelelően.
-
-### Vannak-e korlátozások a felosztható oldalak számára vonatkozóan?
-
-Az Aspose.Words for Java nem szab meg konkrét korlátozásokat a felosztható oldalak számára vonatkozóan. Ne feledje azonban, hogy a nagyon nagy dokumentumok több memóriát és feldolgozási időt igényelhetnek. Nagy dokumentumokkal való munka során ügyeljen a rendszer erőforrásaira.
-
-### Hogyan kezelhetem a fejléceket és lábléceket dokumentumok felosztásakor?
-
-A fejlécek és láblécek kezelése dokumentumok felosztásakor az Aspose.Words for Java könyvtár segítségével lehetséges. A fejléc és lábléc tartalmát átmásolhatja az eredeti dokumentumból a felosztott dokumentumokba, biztosítva azok megfelelő megőrzését. Előfordulhat, hogy ezt a folyamatot a fejléc és lábléc igényei alapján kell testre szabnia.
-
+**Legutóbb frissítve:** 2026-01-11  
+**Tesztelve:** Aspose.Words 24.12 for Java  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

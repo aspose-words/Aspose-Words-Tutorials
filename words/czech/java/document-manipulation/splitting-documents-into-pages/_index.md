@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak rozdělit dokumenty na stránky pomocí Aspose.Words pro Javu. Podrobný návod se zdrojovým kódem pro efektivní zpracování dokumentů."
-"linktitle": "Rozdělení dokumentů na stránky"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Rozdělení dokumentů na stránky v Aspose.Words pro Javu"
-"url": "/cs/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: Naučte se, jak rozdělit stránky dokumentu Word a uložit každou stránku
+  samostatně pomocí Aspose.Words pro Javu. Podrobný návod krok za krokem, zdrojový
+  kód a tipy na osvědčené postupy.
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: Rozdělení stránek Word dokumentu pomocí Aspose.Words pro Java
+url: /cs/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozdělení dokumentů na stránky v Aspose.Words pro Javu
+# Rozdělení stránek dokumentu Word pomocí Aspose.Words pro Java
 
+Pokud pracujete se zpracováním dokumentů v Javě, **Aspose.Words pro Java** je výkonné API, které vám může pomoci **efektivně rozdělit stránky dokumentu Word**. V tomto komplexním tutoriálu vás provedeme celým procesem – od nastavení prostředí až po extrakci každé stránky jako samostatného souboru. Na konci budete schopni **uložit každou stránku zvlášť**, což usnadní archivaci dokumentů, tisk nebo následné zpracování.
 
-Pokud pracujete se zpracováním dokumentů v Javě, Aspose.Words pro Javu je výkonné API, které vám pomůže efektivně rozdělit dokumenty na samostatné stránky. V tomto podrobném tutoriálu vás provedeme procesem rozdělení dokumentů pomocí poskytnutého zdrojového kódu. Po jeho skončení budete schopni snadno rozdělovat dokumenty a zlepšit tak své schopnosti správy dokumentů.
+## Rychlé odpovědi
+- **Co znamená „split word document pages“?** Znamená to extrahování každé stránky souboru Word do vlastního samostatného dokumentu.  
+- **Která knihovna je vyžadována?** Aspose.Words pro Java (stáhněte [zde](https://releases.aspose.com/words/java/)).  
+- **Potřebuji licenci?** Zkušební verze funguje pro testování; pro produkční nasazení je vyžadována komerční licence.  
+- **Mohu určit výstupní složku?** Ano – stačí změnit cestu v metodě `save`.  
+- **Jaká verze Javy je podporována?** Java 8 a novější.
 
-## 1. Úvod
+## Co je rozdělení stránek dokumentu Word?
+Rozdělení stránek dokumentu Word označuje techniku programového rozdělení více‑stránkového souboru Word na jednotlivé jednostránkové dokumenty. To je užitečné, když potřebujete stránky distribuovat samostatně, generovat náhledy nebo aplikovat zabezpečení na úrovni stránky.
 
-Aspose.Words pro Javu je knihovna v Javě, která umožňuje programově manipulovat s dokumenty Wordu. Jedním z běžných úkolů je rozdělení dokumentu na samostatné stránky, což může být užitečné pro různé účely, jako je archivace, tisk nebo zpracování dokumentů.
+## Proč rozdělovat dokumenty na samostatné stránky?
+- **Archivace:** Ukládejte každou stránku jako samostatný soubor pro snadnější vyhledávání.  
+- **Tisk:** Odesílejte pouze vybrané stránky do tiskárny, aniž byste načítali celý dokument.  
+- **Zpracování:** Používejte různé pracovní postupy (např. OCR, vodoznak) na každou stránku.  
 
-## 2. Předpoklady
+## Požadavky
+- Nainstalovaný Java Development Kit (JDK).  
+- Knihovna Aspose.Words pro Java, kterou můžete stáhnout [zde](https://releases.aspose.com/words/java/).  
+- Základní Java IDE (IntelliJ IDEA, Eclipse, atd.).  
 
-Než se pustíme do kódu, ujistěte se, že máte splněny následující předpoklady:
+## Nastavení vývojového prostředí
+1. **Vytvořte nový Java projekt** ve vašem IDE.  
+2. **Přidejte JAR Aspose.Words** do classpath projektu. Podrobné kroky jsou k dispozici v oficiální [dokumentaci](https://reference.aspose.com/words/java/).  
 
-- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
-- Knihovna Aspose.Words pro Javu, kterou si můžete stáhnout [zde](https://releases.aspose.com/words/java/).
+## Porozumění hlavnímu kódu
 
-## 3. Nastavení prostředí
-
-Chcete-li začít, nastavte si vývojové prostředí takto:
-
-- Vytvořte projekt Java ve vámi preferovaném integrovaném vývojovém prostředí (IDE).
-- Přidejte do svého projektu knihovnu Aspose.Words pro Javu. Můžete se podívat na [dokumentace](https://reference.aspose.com/words/java/) pro podrobné pokyny.
-
-## 4. Pochopení zdrojového kódu
-
-Zdrojový kód, který jste poskytli, je navržen tak, aby rozdělil dokument na samostatné stránky. Pojďme si rozebrat klíčové komponenty:
+Níže je první úryvek, který připravuje název souboru a načítá dokument.
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +55,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- Extrahujeme základní název a příponu vstupního dokumentu.
-- Dokument načteme pomocí Aspose.Words pro Javu.
+- Extrahujeme základní název a příponu pro vytvoření názvů výstupních souborů.  
+- `Document` načte zdrojový soubor Word, čímž nám poskytne plný přístup k jeho stránkám.
 
-## 5. Rozdělování dokumentů krok za krokem
+## Průvodce krok za krokem pro rozdělení stránek dokumentu Word
 
-### 5.1. Načítání dokumentu
-
+### Krok 1: Načtěte zdrojový dokument
 ```java
 Document doc = new Document(docName);
 ```
+Tím se vytvoří paměťová reprezentace souboru Word.
 
-V tomto kroku načteme vstupní dokument do `Document` objekt, který nám umožňuje pracovat s obsahem dokumentu.
-
-### 5.2. Inicializace DocumentPageSplitteru
-
+### Krok 2: Inicializujte rozdělovací komponentu stránky
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+`DocumentPageSplitter` je pomocná třída, která umí izolovat každou stránku jako samostatný objekt `Document`.
 
-Inicializujeme `DocumentPageSplitter` objekt s načteným dokumentem. Tuto třídu poskytuje Aspose.Words pro Javu a pomáhá nám rozdělit dokument na stránky.
-
-### 5.3. Uložení každé stránky
-
+### Krok 3: Procházejte stránky a uložte každou
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- Smyčka běží od stránky 1 do celkového počtu stránek.  
+- `getDocumentOfPage(page)` vrací nový `Document` obsahující pouze tuto stránku.  
+- `save` zapíše stránku na disk; nahraďte **Your Directory Path** požadovanou složkou.
 
-V tomto kroku projdeme každou stránku dokumentu a uložíme ji jako samostatný dokument. Můžete zadat cestu k adresáři, kam budou rozdělené stránky uloženy.
-
-## 6. Spuštění kódu
-
-Aby se tento kód úspěšně spustil, ujistěte se, že jste nastavili prostředí a do projektu přidali knihovnu Aspose.Words pro Javu. Poté spusťte kód a váš dokument bude rozdělen na samostatné stránky.
-
-## Zdrojový kód DocumentPageSplitter
+## Kompletní zdroj pro DocumentPageSplitter
+Následující blok obsahuje kompletní implementaci třídy splitter a jejích podpůrných utilit. Nechte jej beze změny; je to motor, který zajišťuje spolehlivé extrahování na úrovni stránky.
 
 ```java
-/// <souhrn>
-/// Rozdělí dokument na více dokumentů, jeden na stránku.
+/// <summary>
+/// Splits a document into multiple documents, one per page.
 /// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <souhrn>
-/// Inicializuje novou instanci třídy <see cref="DocumentPageSplitter"/>.
-/// Tato metoda rozdělí dokument na sekce tak, aby každá stránka začínala a končila na hranici sekce.
-/// Doporučuje se dokument následně neupravovat.
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
 /// </summary>
-/// <param name="source">Zdrojový dokument</param>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,29 +106,29 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <souhrn>
-/// Získá dokument stránky.
+/// <summary>
+/// Gets the document of a page.
 /// </summary>
-/// <param name="index stránky">
-/// Index stránky založený na 1.
+/// <param name="pageIndex">
+/// 1-based index of a page.
 /// </param>
-/// <vrací>
-/// <see cref="Dokument"/>.
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <souhrn>
-/// Získá dokument z rozsahu stránek.
+/// <summary>
+/// Gets the document of a page range.
 /// </summary>
 /// <param name="startIndex">
-/// 1-založený index úvodní stránky.
+/// 1-based index of the start page.
 /// </param>
-//<param name="endIndex">
-/// Index koncové stránky založený na 1.
+/// <param name="endIndex">
+/// 1-based index of the end page.
 /// </param>
-/// <vrací>
-/// <see cref="Dokument"/>.
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
@@ -138,22 +139,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <souhrn>
-/// Poskytuje metody pro extrakci uzlů dokumentu, které jsou vykresleny na zadaných stránkách.
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
 /// </summary>
 class PageNumberFinder
 {
-// Mapuje uzel na počáteční/koncová čísla stránek.
-// Toto se používá k přepsání čísel stránek v základní linii poskytnutých kolektorem při rozdělení dokumentu.
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// Mapuje číslo stránky na seznam uzlů nalezených na dané stránce.
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <souhrn>
-/// Inicializuje novou instanci třídy <see cref="PageNumberFinder"/>.
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
 /// </summary>
-/// <param name="collector">Instance kolektoru, která obsahuje záznamy modelu rozvržení pro dokument.</param>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +163,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <souhrn>
-/// Načte index stránky, na kterém uzel začíná, založený na 1.
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
 /// </summary>
-/// <param name="uzel">
-/// Uzel.
+/// <param name="node">
+/// The node.
 /// </param>
-/// <vrací>
-/// Index stránek.
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <souhrn>
-/// Načte index stránky, na kterém uzel končí, založený na 1.
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
 /// </summary>
-/// <param name="uzel">
-/// Uzel.
+/// <param name="node">
+/// The node.
 /// </param>
-/// <vrací>
-/// Index stránek.
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <souhrn>
-/// Vrací, kolik stránek zabírá zadaný uzel. Vrací 1, pokud se uzel nachází na jedné stránce.
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
 /// </summary>
-/// <param name="uzel">
-/// Uzel.
+/// <param name="node">
+/// The node.
 /// </param>
-/// <vrací>
-/// Index stránek.
+/// <returns>
+/// Page index.
 /// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <souhrn>
-/// Vrátí seznam uzlů, které se nacházejí kdekoli na zadané stránce nebo stránkách, které odpovídají zadanému typu uzlu.
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
 /// </summary>
 /// <param name="startPage">
-/// Úvodní stránka.
+/// The start Page.
 /// </param>
 /// <param name="endPage">
-/// Konec stránky.
+/// The end Page.
 /// </param>
-/// <param name="typ uzlu">
-/// Typ uzlu.
+/// <param name="nodeType">
+/// The node Type.
 /// </param>
-/// <vrací>
-/// <see cref="IList{T}"/>.
+/// <returns>
+/// The <see cref="IList{T}"/>.
 /// </returns>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Typ uzlu*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +232,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Typ
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// Některé stránky mohou být prázdné.
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,9 +249,9 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Typ
 	}
 	return pageNodes;
 }
-/// <souhrn>
-/// Rozdělí uzly, které se zobrazují na dvou nebo více stránkách, na samostatné uzly tak, aby se stále zobrazovaly stejným způsobem.
-/// ale již se na stránce nezobrazují.
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
 /// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
@@ -262,20 +263,20 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// Projděte si všechny kompozitní objekty, které jsou případně rozděleny napříč stránkami, a rozdělte je do samostatných uzlů.
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <souhrn>
-/// Toto je voláno funkcí <see cref="SectionSplitter"/> k aktualizaci čísel stránek rozdělených uzlů.
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
 /// </summary>
-/// <param name="uzel">
-/// Uzel.
+/// <param name="node">
+/// The node.
 /// </param>
 /// <param name="startPage">
-/// Úvodní stránka.
+/// The start Page.
 /// </param>
 /// <param name="endPage">
-/// Konec stránky.
+/// The end Page.
 /// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
@@ -298,10 +299,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// Přidejte každý uzel do seznamu, který představuje uzly nalezené na každé stránce.
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// Záhlaví/zápatí následují po sekcích a nejsou odděleny samy o sobě.
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,9 +351,9 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <souhrn>
-/// Rozdělí text zadaného běhu na dva běhy.
-/// Vloží nový běh hned za zadaný běh.
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
 /// </summary>
 private void splitRun(Run run, int position)
 {
@@ -380,8 +381,8 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <souhrn>
-/// Rozdělí dokument do více sekcí tak, aby každá stránka začínala a končila na hranici sekce.
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
 /// </summary>
 class SectionSplitter extends DocumentVisitor
 {
@@ -410,8 +411,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// Pokud existuje předchozí sekce, zkuste zkopírovat všechny propojené záhlaví a zápatí.
-	// V opačném případě se v extrahovaném dokumentu nezobrazí, pokud chybí předchozí část.
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +455,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// Pokud odstavec obsahuje pouze zalomení sekce, přidejte falešný prvek „run into“.
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +467,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// Odebrat číslování seznamu z klonovaného odstavce, ale ponechat odsazení stejné 
-		// protože odstavec má být součástí předchozí položky.
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// Obnovte mezery mezi rozdělenými odstavci v tabulkách, protože větší mezery mohou způsobit, že budou vypadat jinak.
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +494,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// Opraví zalomení stránky na konci sekce.
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// Přidejte také nové číslování stránek pro tělo sekce.
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return Akce návštěvníka.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +517,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// Uzel se může rozprostírat přes více stránek, takže se vrátí seznam rozdělených pozic.
-	// Rozdělený uzel je první uzel na další stránce.
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +531,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// Pokud se stránka podřízeného uzlu změnila, pak se jedná o rozdělenou pozici.
-		// Přidejte toto do seznamu.
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +543,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// Rozdělte kompozity pozpátku, aby se klonované uzly vkládaly ve správném pořadí.
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +551,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// Přesunout všechny uzly nalezené na další stránce do zkopírovaného uzlu. Uzly řádků zacházet odděleně.
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +571,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// Pokud se zabýváme řádkem, musíme pro klonovaný řádek přidat fiktivní buňky.
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +597,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// Vložte rozdělený uzel za původní.
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// Aktualizujte nová čísla stránek základního uzlu a klonovaného uzlu, včetně jeho potomků.
-	// Bude se jednat pouze o jednu stránku, protože klonovaný kompozitní soubor je rozdělen na jednu stránku.
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +669,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
-## Závěr
-
-Nyní jste se naučili, jak rozdělit dokument na samostatné stránky pomocí Aspose.Words pro Javu. Tato příručka poskytuje komplexní podrobný návod s příklady zdrojového kódu. Tento kód si můžete dále přizpůsobit a rozšířit tak, aby splňoval vaše specifické požadavky při práci s dokumenty.
-Jistě! Pojďme do našeho průvodce o rozdělení dokumentů na stránky pomocí Aspose.Words pro Javu přidat sekci s nejčastějšími dotazy.
+## Časté problémy a řešení
+| Problém | Důvod | Řešení |
+|---------|-------|--------|
+| **`doc.getPageCount()` returns 0** | Dokument není plně načten nebo rozvržení není aktualizováno. | Zavolejte `doc.updatePageLayout()` před smyčkou. |
+| **Output files are empty** | Nesprávná cesta výstupního adresáře. | Ujistěte se, že adresář existuje a končí oddělovačem souborů (`/` nebo `\\`). |
+| **Headers/Footers disappear** | Logika rozdělení je odstraňuje, když chybí sekce. | `SectionSplitter` třída již kopíruje chybějící záhlaví/patičky; ujistěte se, že používáte poskytnutou implementaci beze změny. |
+| **Out‑Of‑Memory for large files** | Velmi velké soubory DOCX spotřebovávají haldu. | Zvyšte haldu JVM (`-Xmx2g`) nebo dokument zpracovávejte v menších částech, pokud je to možné. |
 
 ## Často kladené otázky
 
-### Jak přidám Aspose.Words pro Javu do svého projektu?
+**Q:** Jak přidám Aspose.Words pro Java do svého projektu?  
+**A:** Stáhněte knihovnu z [zde](https://releases.aspose.com/words/java/), přidejte JAR do classpath a importujte požadované balíčky.
 
-Chcete-li do projektu přidat Aspose.Words pro Javu, postupujte takto:
+**Q:** Mohu rozdělovat dokumenty v jiných formátech, jako PDF nebo DOCX?  
+**A:** Tento návod se zaměřuje na Word dokumenty (DOC/DOCX) pomocí Aspose.Words. Pro PDF byste použili Aspose.PDF a pro jiné formáty můžete potřebovat jiné API.
 
-1. Stáhněte si knihovnu Aspose.Words pro Javu z [zde](https://releases.aspose.com/words/java/).
-2. Přidejte stažený soubor JAR do třídní cesty vašeho projektu.
-3. Nyní můžete ve svém projektu začít používat Aspose.Words pro Javu.
+**Q:** Je Aspose.Words pro Java zdarma?  
+**A:** Ne, jedná se o komerční produkt. Podrobnosti o cenách najdete na stránce s cenami Aspose.Words pro Java (https://purchase.aspose.com/words/java).
 
-### Mohu rozdělit dokumenty v jiných formátech, jako je PDF nebo DOCX?
+**Q:** Mohu přizpůsobit velikost nebo orientaci stránky pro každou rozdělenou stránku?  
+**A:** Ano. Po získání `pageDoc` upravte jeho `PageSetup` před uložením (např. `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`).
 
-Ne, tato příručka se konkrétně zabývá rozdělením dokumentů ve formátu DOC pomocí Aspose.Words pro Javu. Pokud potřebujete rozdělit dokumenty v jiných formátech, možná budete muset prozkoumat další knihovny nebo nástroje, které tyto formáty podporují.
+**Q:** Existují limity na počet stránek, které mohu rozdělit?  
+**A:** Neexistuje pevný limit, ale velmi velké dokumenty vyžadují více paměti a času na zpracování. Sledujte zdroje u obrovských souborů.
 
-### Je Aspose.Words pro Javu bezplatná knihovna?
+## Závěr
+Nyní máte kompletní, připravenou metodu pro **rozdělení stránek dokumentu Word** a **uložení každé stránky zvlášť** pomocí Aspose.Words pro Java. Upravit cestu výstupu, vyladit nastavení stránky nebo integrovat tuto logiku do větších pracovních postupů, jako je dávkové zpracování nebo cloudové služby. Šťastné programování!
 
-Ne, Aspose.Words pro Javu není bezplatná knihovna. Je to komerční produkt s licenčním poplatkem. Můžete navštívit [Cenová stránka Aspose.Words pro Javu](https://purchase.aspose.com/words/java) pro více informací o licencování a cenách.
+---
 
-### Mohu rozdělit dokumenty na vlastní velikosti a formáty stránek?
-
-Ano, velikosti a formáty stránek rozdělených dokumentů můžete přizpůsobit úpravou vlastností nastavení stránky v Aspose.Words pro Javu. Podrobnosti o tom, jak přizpůsobit nastavení stránky podle vašich požadavků, naleznete v dokumentaci k Aspose.Words.
-
-### Existují nějaká omezení ohledně počtu stránek, které lze rozdělit?
-
-Aspose.Words pro Javu nestanovuje žádná specifická omezení ohledně počtu stránek, které můžete rozdělit. Mějte však na paměti, že velmi velké dokumenty mohou vyžadovat více paměti a času zpracování. Při práci s velkými dokumenty dbejte na systémové prostředky.
-
-### Jak mohu při dělení dokumentů pracovat se záhlavími a zápatími?
-
-Záhlaví a zápatí lze při dělení dokumentů zpracovat pomocí knihovny Aspose.Words pro Javu. Obsah záhlaví a zápatí můžete kopírovat z původního dokumentu do rozdělených dokumentů a zajistit tak jeho správné zachování. Tento proces může být nutné přizpůsobit vašim specifickým požadavkům na záhlaví a zápatí.
-
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

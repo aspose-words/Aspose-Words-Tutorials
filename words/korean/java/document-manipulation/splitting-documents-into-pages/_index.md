@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java를 사용하여 문서를 여러 페이지로 분할하는 방법을 알아보세요. 효율적인 문서 처리를 위한 소스 코드가 포함된 단계별 가이드입니다."
-"linktitle": "문서를 페이지로 분할"
-"second_title": "Aspose.Words Java 문서 처리 API"
-"title": "Aspose.Words for Java에서 문서를 페이지로 분할하기"
-"url": "/ko/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: Aspose.Words for Java를 사용하여 워드 문서 페이지를 분할하고 각 페이지를 별도로 저장하는 방법을 배웁니다.
+  단계별 가이드, 소스 코드 및 모범 사례 팁.
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java를 사용하여 Word 문서 페이지 분할
+url: /ko/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java에서 문서를 페이지로 분할하기
+# Aspose.Words for Java를 사용한 Word 문서 페이지 분할
 
+Java에서 문서 처리를 작업하고 있다면, **Aspose.Words for Java**는 **Word 문서 페이지를 효율적으로 분할**할 수 있게 도와주는 강력한 API입니다. 이 포괄적인 튜토리얼에서는 환경 설정부터 각 페이지를 독립 파일로 추출하는 전체 과정을 단계별로 안내합니다. 마지막까지 따라오시면 **각 페이지를 별도로 저장**할 수 있게 되어 문서 보관, 인쇄, 후속 처리 등이 손쉽게 이루어집니다.
 
-Java로 문서 처리를 하는 경우, Aspose.Words for Java는 문서를 여러 페이지로 효율적으로 분할하는 데 도움이 되는 강력한 API입니다. 이 단계별 튜토리얼에서는 제공된 소스 코드를 사용하여 문서를 분할하는 과정을 안내합니다. 이 튜토리얼을 마치면 문서를 쉽게 분할하여 문서 관리 능력을 향상시킬 수 있을 것입니다.
+## 빠른 답변
+- **“Word 문서 페이지를 분할한다”는 의미는?** Word 파일의 각 페이지를 별도의 문서로 추출하는 것을 의미합니다.  
+- **필요한 라이브러리는?** Aspose.Words for Java (다운로드 [here](https://releases.aspose.com/words/java/)).  
+- **라이선스가 필요한가요?** 테스트용 트라이얼은 사용 가능하지만, 실제 운영 환경에서는 상용 라이선스가 필요합니다.  
+- **출력 폴더를 지정할 수 있나요?** 예—`save` 메서드의 경로만 변경하면 됩니다.  
+- **지원되는 Java 버전은?** Java 8 이상.
 
-## 1. 서론
+## Word 문서 페이지 분할이란?
+Word 문서 페이지 분할은 다중 페이지 Word 파일을 프로그램matically 각각의 한 페이지 문서로 나누는 기술을 말합니다. 페이지를 개별적으로 배포하거나 썸네일을 생성하거나 페이지 수준 보안을 적용해야 할 때 유용합니다.
 
-Aspose.Words for Java는 Word 문서를 프로그래밍 방식으로 조작할 수 있는 Java 라이브러리입니다. 일반적인 작업 중 하나는 문서를 여러 페이지로 분할하는 것인데, 이는 보관, 인쇄 또는 문서 처리와 같은 다양한 용도로 유용하게 사용할 수 있습니다.
+## 문서를 개별 페이지로 분할하는 이유
+- **보관:** 각 페이지를 독립 파일로 저장해 검색 및 관리가 용이합니다.  
+- **인쇄:** 전체 문서를 로드하지 않고 선택한 페이지만 프린터에 보낼 수 있습니다.  
+- **처리:** 페이지별로 다른 워크플로(예: OCR, 워터마크)를 적용할 수 있습니다.  
 
-## 2. 필수 조건
+## 사전 요구 사항
+- Java Development Kit (JDK) 설치 완료.  
+- Aspose.Words for Java 라이브러리 (다운로드 [here](https://releases.aspose.com/words/java/)).  
+- 기본 Java IDE (IntelliJ IDEA, Eclipse 등).  
 
-코드를 살펴보기 전에 다음과 같은 전제 조건이 충족되었는지 확인하세요.
+## 개발 환경 설정
+1. **IDE에서 새 Java 프로젝트**를 생성합니다.  
+2. **Aspose.Words JAR**를 프로젝트 클래스패스에 추가합니다. 자세한 단계는 공식 [documentation](https://reference.aspose.com/words/java/)을 참고하세요.  
 
-- 시스템에 Java Development Kit(JDK)가 설치되어 있어야 합니다.
-- 다운로드할 수 있는 Aspose.Words for Java 라이브러리 [여기](https://releases.aspose.com/words/java/).
+## 핵심 코드 이해
 
-## 3. 환경 설정
-
-시작하려면 다음과 같이 개발 환경을 설정하세요.
-
-- 원하는 통합 개발 환경(IDE)에서 Java 프로젝트를 만듭니다.
-- 프로젝트에 Aspose.Words for Java 라이브러리를 추가하세요. [선적 서류 비치](https://reference.aspose.com/words/java/) 자세한 지침은 여기를 참조하세요.
-
-## 4. 소스 코드 이해
-
-제공해 주신 소스 코드는 문서를 여러 페이지로 분할하도록 설계되었습니다. 주요 구성 요소를 살펴보겠습니다.
+아래는 파일 이름을 준비하고 문서를 로드하는 첫 번째 코드 스니펫입니다.
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +54,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- 입력 문서의 기본 이름과 확장자를 추출합니다.
-- Java용 Aspose.Words를 사용하여 문서를 로드합니다.
+- 파일명과 확장자를 추출해 출력 파일 이름을 구성합니다.  
+- `Document`는 원본 Word 파일을 로드하여 페이지에 대한 전체 접근 권한을 제공합니다.
 
-## 5. 단계별 문서 분할
+## Word 문서 페이지 분할 단계별 가이드
 
-### 5.1. 문서 로딩
-
+### Step 1: Load the source document
 ```java
 Document doc = new Document(docName);
 ```
+이 코드는 Word 파일의 메모리 내 표현을 생성합니다.
 
-이 단계에서는 입력 문서를 로드합니다. `Document` 문서의 내용을 다룰 수 있는 객체입니다.
-
-### 5.2. DocumentPageSplitter 초기화
-
+### Step 2: Initialise the page splitter
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+`DocumentPageSplitter`는 각 페이지를 별도의 `Document` 객체로 분리하는 방법을 제공하는 도우미 클래스입니다.
 
-우리는 초기화합니다 `DocumentPageSplitter` 로드된 문서가 있는 객체입니다. 이 클래스는 Aspose.Words for Java에서 제공되며, 문서를 여러 페이지로 분할하는 데 도움이 됩니다.
-
-### 5.3. 각 페이지 저장
-
+### Step 3: Iterate through pages and save each one
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- 루프는 페이지 1부터 전체 페이지 수까지 실행됩니다.  
+- `getDocumentOfPage(page)`는 해당 페이지만 포함하는 새로운 `Document`를 반환합니다.  
+- `save`는 페이지를 디스크에 기록합니다; **Your Directory Path**를 원하는 폴더 경로로 교체하세요.
 
-이 단계에서는 문서의 각 페이지를 반복하여 별도의 문서로 저장합니다. 분할된 페이지가 저장될 디렉터리 경로를 지정할 수 있습니다.
-
-## 6. 코드 실행
-
-이 코드를 성공적으로 실행하려면 환경을 설정하고 Aspose.Words for Java 라이브러리를 프로젝트에 추가해야 합니다. 그런 다음 코드를 실행하면 문서가 여러 페이지로 분할됩니다.
-
-## DocumentPageSplitter 소스 코드
+### Full Source for DocumentPageSplitter
+아래 블록은 splitter 클래스와 지원 유틸리티의 전체 구현을 포함합니다. 페이지 수준 추출을 신뢰성 있게 수행하는 엔진이므로 변경하지 마세요.
 
 ```java
-/// <요약>
-/// 문서를 페이지당 하나씩 여러 문서로 나눕니다.
-/// </요약>
+/// <summary>
+/// Splits a document into multiple documents, one per page.
+/// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <요약>
-/// <see cref="DocumentPageSplitter"/> 클래스의 새 인스턴스를 초기화합니다.
-/// 이 방법은 문서를 섹션으로 나누어 각 페이지가 섹션 경계에서 시작하고 끝나도록 합니다.
-/// 이후에 문서를 수정하지 않는 것이 좋습니다.
-/// </요약>
-/// <param name="source">소스 문서</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
+/// </summary>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,30 +105,30 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <요약>
-/// 페이지의 문서를 가져옵니다.
-/// </요약>
-/// <매개변수 이름="페이지인덱스">
-/// 페이지의 1 기반 인덱스.
+/// <summary>
+/// Gets the document of a page.
+/// </summary>
+/// <param name="pageIndex">
+/// 1-based index of a page.
 /// </param>
-/// <반환>
-/// <see cref="Document"/>.
-/// </반환>
+/// <returns>
+/// The <see cref="Document"/>.
+/// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <요약>
-/// 페이지 범위의 문서를 가져옵니다.
-/// </요약>
-/// <매개변수 이름="시작인덱스">
-/// 시작 페이지의 1 기반 인덱스입니다.
+/// <summary>
+/// Gets the document of a page range.
+/// </summary>
+/// <param name="startIndex">
+/// 1-based index of the start page.
 /// </param>
-//<매개변수 이름="endIndex">
-/// 1부터 시작하는 마지막 페이지의 인덱스입니다.
+/// <param name="endIndex">
+/// 1-based index of the end page.
 /// </param>
-/// <반환>
-/// <see cref="Document"/>.
-/// </반환>
+/// <returns>
+/// The <see cref="Document"/>.
+/// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
 	for (Node section : pageNumberFinder.retrieveAllNodesOnPages(startIndex, endIndex, NodeType.SECTION))
@@ -138,22 +138,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <요약>
-/// 지정된 페이지에 렌더링되는 문서의 노드를 추출하는 방법을 제공합니다.
-/// </요약>
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
+/// </summary>
 class PageNumberFinder
 {
-// 노드를 시작/종료 페이지 번호에 매핑합니다.
-// 이는 문서가 분할될 때 수집기에서 제공하는 기준 페이지 번호를 재정의하는 데 사용됩니다.
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// 해당 페이지에서 찾은 노드 목록에 페이지 번호를 매핑합니다.
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <요약>
-/// <see cref="PageNumberFinder"/> 클래스의 새 인스턴스를 초기화합니다.
-/// </요약>
-/// <param name="collector">문서에 대한 레이아웃 모델 레코드가 있는 수집기 인스턴스입니다.</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
+/// </summary>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +162,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <요약>
-/// 노드가 시작되는 페이지의 1부터 시작하는 인덱스를 검색합니다.
-/// </요약>
-/// <매개변수 이름="노드">
-/// 노드.
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <반환>
-/// 페이지 인덱스.
-/// </반환>
+/// <returns>
+/// Page index.
+/// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <요약>
-/// 노드가 끝나는 페이지의 1부터 시작하는 인덱스를 검색합니다.
-/// </요약>
-/// <매개변수 이름="노드">
-/// 노드.
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <반환>
-/// 페이지 인덱스.
-/// </반환>
+/// <returns>
+/// Page index.
+/// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <요약>
-/// 지정된 노드가 몇 페이지에 걸쳐 있는지 반환합니다. 노드가 한 페이지에 포함되어 있으면 1을 반환합니다.
-/// </요약>
-/// <매개변수 이름="노드">
-/// 노드.
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <반환>
-/// 페이지 인덱스.
-/// </반환>
+/// <returns>
+/// Page index.
+/// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <요약>
-/// 지정된 페이지 또는 지정된 노드 유형과 일치하는 페이지의 어느 곳에나 포함된 노드 목록을 반환합니다.
-/// </요약>
-/// <매개변수 이름="시작페이지">
-/// 시작 페이지.
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
+/// </summary>
+/// <param name="startPage">
+/// The start Page.
 /// </param>
-/// <매개변수 이름="페이지 끝">
-/// 마지막 페이지.
+/// <param name="endPage">
+/// The end Page.
 /// </param>
-/// <매개변수 이름="노드 유형">
-/// 노드 유형.
+/// <param name="nodeType">
+/// The node Type.
 /// </param>
-/// <반환>
-/// <see cref="IList{T}"/>.
-/// </반환>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*노드 유형*/int nodeType) throws Exception
+/// <returns>
+/// The <see cref="IList{T}"/>.
+/// </returns>
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +231,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*노
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// 일부 페이지는 비어 있을 수 있습니다.
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,10 +248,10 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*노
 	}
 	return pageNodes;
 }
-/// <요약>
-/// 두 개 이상의 페이지에 나타나는 노드를 별도의 노드로 분할하여 동일한 방식으로 나타나도록 합니다.
-/// 하지만 더 이상 한 페이지에 나타나지 않습니다.
-/// </요약>
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
+/// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
 	for (Paragraph paragraph : (Iterable<Paragraph>) collector.getDocument().getChildNodes(NodeType.PARAGRAPH, true))
@@ -262,20 +262,20 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// 여러 페이지에 걸쳐 분할되어 있을 수 있는 합성물을 방문하여 이를 별도의 노드로 분할합니다.
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <요약>
-/// 이는 <see cref="SectionSplitter"/>에서 호출되어 분할 노드의 페이지 번호를 업데이트합니다.
-/// </요약>
-/// <매개변수 이름="노드">
-/// 노드.
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
+/// </summary>
+/// <param name="node">
+/// The node.
 /// </param>
-/// <매개변수 이름="시작페이지">
-/// 시작 페이지.
+/// <param name="startPage">
+/// The start Page.
 /// </param>
-/// <매개변수 이름="페이지 끝">
-/// 마지막 페이지.
+/// <param name="endPage">
+/// The end Page.
 /// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
@@ -298,10 +298,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// 각 페이지에서 발견된 노드를 나타내는 목록에 각 노드를 추가합니다.
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// 머리글/바닥글은 섹션 다음에 오며 그 자체로 구분되지 않습니다.
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,10 +350,10 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <요약>
-/// 지정된 런의 텍스트를 두 개의 런으로 나눕니다.
-/// 지정된 런 바로 뒤에 새로운 런을 삽입합니다.
-/// </요약>
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
+/// </summary>
 private void splitRun(Run run, int position)
 {
 	Run afterRun = (Run) run.deepClone(true);
@@ -380,9 +380,9 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <요약>
-/// 문서를 여러 섹션으로 나누어 각 페이지가 섹션 경계에서 시작하고 끝나도록 합니다.
-/// </요약>
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
+/// </summary>
 class SectionSplitter extends DocumentVisitor
 {
 private PageNumberFinder pageNumberFinder;
@@ -410,8 +410,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// 이전 섹션이 있는 경우 링크된 머리글과 바닥글을 모두 복사해 보세요.
-	// 그렇지 않으면 이전 섹션이 누락된 경우 추출된 문서에 나타나지 않습니다.
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +454,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// 문단에 섹션 나누기만 있는 경우, 가짜 런 인투를 추가합니다.
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +466,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// 복제된 문단에서 목록 번호 매기기를 제거하지만 들여쓰기는 그대로 둡니다. 
-		// 해당 문단은 이전 항목의 일부로 가정합니다.
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// 표에서 분할된 문단의 간격을 다시 설정하세요. 간격을 늘리면 문단이 다르게 보일 수 있습니다.
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +493,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// 섹션의 끝에 있는 페이지 나누기를 수정합니다.
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// 섹션 본문에도 새로운 페이지 번호를 추가합니다.
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return 방문자 액션.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +516,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// 노드는 여러 페이지에 걸쳐 있을 수 있으므로 분할된 위치 목록이 반환됩니다.
-	// 분할 노드는 다음 페이지의 첫 번째 노드입니다.
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +530,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// 자식 노드의 페이지가 변경된 경우 이는 분할 위치입니다.
-		// 이 항목을 목록에 추가하세요.
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +542,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// 합성을 뒤로 분할하여 복제된 노드가 올바른 순서로 삽입되도록 합니다.
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +550,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// 다음 페이지에서 찾은 모든 노드를 복사된 노드로 옮깁니다. 행 노드는 별도로 처리합니다.
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +570,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// 행을 다루는 경우 복제된 행에 더미 셀을 추가해야 합니다.
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +596,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// 원본 노드 뒤에 분할된 노드를 삽입합니다.
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// 하위 노드를 포함하여 기본 노드와 복제된 노드의 새 페이지 번호를 업데이트합니다.
-	// 복제된 합성물이 한 페이지로 분할되어 있으므로 이것은 단일 페이지가 됩니다.
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +668,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
-## 결론
-
-이제 Aspose.Words for Java를 사용하여 문서를 여러 페이지로 분할하는 방법을 알아보았습니다. 이 가이드는 소스 코드 예제를 포함한 포괄적인 단계별 튜토리얼을 제공합니다. 문서 작업 시 특정 요구 사항에 맞게 이 코드를 추가로 사용자 정의하고 확장할 수 있습니다.
-물론입니다! Aspose.Words for Java를 사용하여 문서를 페이지로 분할하는 방법에 대한 가이드에 FAQ 섹션을 추가해 보겠습니다.
+## 일반적인 문제와 해결 방법
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`doc.getPageCount()` returns 0** | 문서가 완전히 로드되지 않았거나 레이아웃이 업데이트되지 않음. | 루프 전에 `doc.updatePageLayout()`을 호출하세요. |
+| **Output files are empty** | 출력 디렉터리 경로가 올바르지 않음. | 디렉터리가 존재하고 파일 구분자(`/` 또는 `\\`)로 끝나는지 확인하세요. |
+| **Headers/Footers disappear** | 섹션이 없을 때 분할 로직이 헤더/푸터를 제거함. | 제공된 `SectionSplitter` 클래스가 누락된 헤더/푸터를 복사하도록 이미 구현되어 있으니, 구현을 그대로 사용하세요. |
+| **Out‑Of‑Memory for large files** | 매우 큰 DOCX 파일이 힙을 많이 차지함. | JVM 힙을 늘리세요(`-Xmx2g`) 또는 가능하면 문서를 더 작은 청크로 처리하세요. |
 
 ## 자주 묻는 질문
 
-### 내 프로젝트에 Aspose.Words for Java를 추가하려면 어떻게 해야 하나요?
+**Q:** Aspose.Words for Java를 프로젝트에 어떻게 추가하나요?  
+**A:** [here](https://releases.aspose.com/words/java/)에서 라이브러리를 다운로드하고 JAR를 클래스패스에 추가한 뒤 필요한 패키지를 임포트하면 됩니다.
 
-프로젝트에 Aspose.Words for Java를 추가하려면 다음 단계를 따르세요.
+**Q:** PDF나 DOCX와 같은 다른 형식도 분할할 수 있나요?  
+**A:** 이 가이드는 Aspose.Words를 사용한 Word 문서(DOC/DOCX)에 초점을 맞춥니다. PDF는 Aspose.PDF를, 다른 형식은 해당 API를 사용해야 할 수 있습니다.
 
-1. Java 라이브러리용 Aspose.Words를 다운로드하세요. [여기](https://releases.aspose.com/words/java/).
-2. 다운로드한 JAR 파일을 프로젝트의 클래스 경로에 추가합니다.
-3. 이제 프로젝트에서 Aspose.Words for Java를 사용할 수 있습니다.
+**Q:** Aspose.Words for Java는 무료 라이브러리인가요?  
+**A:** 아니요, 상용 제품입니다. 가격 상세는 Aspose.Words for Java 가격 페이지(https://purchase.aspose.com/words/java)를 참고하세요.
 
-### PDF나 DOCX 등 다른 형식의 문서를 분할할 수 있나요?
+**Q:** 각 분할 페이지의 페이지 크기나 방향을 커스터마이즈할 수 있나요?  
+**A:** 가능합니다. `pageDoc`을 얻은 후 저장하기 전에 `PageSetup`을 수정하면 됩니다(예: `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`).
 
-아니요, 이 가이드에서는 Aspose.Words for Java를 사용하여 DOC 형식의 문서를 분할하는 방법을 구체적으로 다룹니다. 다른 형식의 문서를 분할해야 하는 경우, 해당 형식을 지원하는 다른 라이브러리나 도구를 살펴보는 것이 좋습니다.
+**Q:** 분할할 수 있는 페이지 수에 제한이 있나요?  
+**A:** 명확한 제한은 없지만, 매우 큰 문서는 더 많은 메모리와 처리 시간이 필요합니다. 대용량 파일은 리소스를 모니터링하세요.
 
-### Aspose.Words for Java는 무료 라이브러리인가요?
+## 결론
+이제 Aspose.Words for Java를 사용해 **Word 문서 페이지를 분할**하고 **각 페이지를 별도로 저장**하는 완전한 프로덕션 수준 방법을 갖추었습니다. 출력 경로를 조정하고 페이지 설정을 튜닝하거나 배치 처리, 클라우드 서비스와 같은 더 큰 워크플로에 이 로직을 통합해 보세요. 즐거운 코딩 되시길 바랍니다!
 
-아니요, Aspose.Words for Java는 무료 라이브러리가 아닙니다. 라이선스 비용이 부과되는 상용 제품입니다. [Aspose.Words for Java 가격 페이지](https://purchase.aspose.com/words/java) 라이센싱 및 가격 세부 정보에 대한 자세한 내용은 여기를 참조하세요.
+---
 
-### 문서를 사용자 정의 페이지 크기와 형식으로 분할할 수 있나요?
-
-네, Aspose.Words for Java에서 페이지 설정 속성을 수정하여 분할된 문서의 페이지 크기와 형식을 사용자 지정할 수 있습니다. 요구 사항에 맞게 페이지 설정을 사용자 지정하는 방법에 대한 자세한 내용은 Aspose.Words 설명서를 참조하세요.
-
-### 나눌 수 있는 페이지 수에 제한이 있나요?
-
-Aspose.Words for Java는 분할 가능한 페이지 수에 특별한 제한을 두지 않습니다. 하지만 문서 크기가 매우 클수록 더 많은 메모리와 처리 시간이 필요할 수 있습니다. 대용량 문서 작업 시에는 시스템 리소스 사용량을 유의하시기 바랍니다.
-
-### 문서를 분할할 때 머리글과 바닥글을 어떻게 처리할 수 있나요?
-
-Aspose.Words for Java 라이브러리를 사용하여 문서를 분할할 때 머리글과 바닥글을 처리할 수 있습니다. 원본 문서의 머리글과 바닥글 콘텐츠를 분할된 문서로 복사하여 그대로 유지할 수 있습니다. 특정 머리글 및 바닥글 요구 사항에 따라 이 프로세스를 사용자 지정해야 할 수도 있습니다.
-
+**마지막 업데이트:** 2026-01-11  
+**테스트 환경:** Aspose.Words 24.12 for Java  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

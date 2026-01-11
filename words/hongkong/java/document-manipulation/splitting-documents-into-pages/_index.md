@@ -1,10 +1,11 @@
 ---
-"description": "了解如何使用 Aspose.Words for Java 將文件分割為頁面。帶有原始程式碼的分步指南，用於高效文件處理。"
-"linktitle": "將文檔拆分成頁面"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中將文件分割為頁面"
-"url": "/zh-hant/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: 學習如何使用 Aspose.Words for Java 分割 Word 文件頁面，並將每頁單獨儲存。一步一步的指南、原始碼與最佳實踐技巧。
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words for Java 拆分 Word 文檔頁面
+url: /zh-hant/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +14,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中將文件分割為頁面
+# 使用 Aspose.Words for Java 分割 Word 文件頁面
 
+如果你在 Java 中處理文件，**Aspose.Words for Java** 是一個功能強大的 API，能夠高效地 **分割 Word 文件頁面**。在本完整教學中，我們將一步步說明整個流程——從環境設定到將每一頁抽取為獨立檔案。完成後，你將能夠 **將每頁分別儲存**，讓文件歸檔、列印或後續處理變得輕而易舉。
 
-如果您使用 Java 進行文件處理，Aspose.Words for Java 是一個強大的 API，可以幫助您有效地將文件分割為單獨的頁面。在本逐步教學中，我們將引導您使用提供的原始程式碼完成分割文件的過程。在本教學結束時，您將能夠輕鬆地拆分文檔，從而提高您的文檔管理能力。
+## 快速回答
+- **「分割 Word 文件頁面」是什麼意思？** 即將 Word 檔案的每一頁抽取成各自獨立的文件。  
+- **需要哪個程式庫？** Aspose.Words for Java（[下載點在此](https://releases.aspose.com/words/java/)）。  
+- **需要授權嗎？** 試用版可用於測試；正式環境需購買商業授權。  
+- **可以指定輸出資料夾嗎？** 可以，只要在 `save` 方法中更改路徑即可。  
+- **支援哪個 Java 版本？** Java 8 及以上。
 
-## 1. 簡介
+## 什麼是分割 Word 文件頁面？
+分割 Word 文件頁面指的是以程式方式將多頁的 Word 檔案切割成單頁的獨立文件。這在需要分別發送頁面、產生縮圖或套用頁面層級安全性時非常實用。
 
-Aspose.Words for Java 是一個 Java 函式庫，可讓您以程式設計方式操作 Word 文件。一項常見的任務是將文件拆分成單獨的頁面，這可用於各種目的，例如存檔、列印或文件處理。
+## 為什麼要將文件分割成單獨的頁面？
+- **歸檔：** 將每頁存為獨立檔案，便於檢索。  
+- **列印：** 只列印選定的頁面，無需載入整份文件。  
+- **處理：** 為每頁套用不同的工作流程（例如 OCR、浮水印）。
 
-## 2. 先決條件
+## 前置條件
+- 已安裝 Java Development Kit (JDK)。  
+- 取得 Aspose.Words for Java 程式庫，可從 [此處下載](https://releases.aspose.com/words/java/)。  
+- 具備基本的 Java IDE（IntelliJ IDEA、Eclipse 等）。
 
-在深入研究程式碼之前，請確保您已滿足以下先決條件：
+## 設定開發環境
+1. **在 IDE 中建立新的 Java 專案**。  
+2. **將 Aspose.Words JAR 加入專案的 classpath**。詳細步驟請參考官方 [說明文件](https://reference.aspose.com/words/java/)。  
 
-- 您的系統上安裝了 Java 開發工具包 (JDK)。
-- Aspose.Words for Java 函式庫，您可以下載 [這裡](https://releases。aspose.com/words/java/).
+## 了解核心程式碼
 
-## 3. 設定你的環境
-
-首先，請如下設定您的開發環境：
-
-- 在您首選的整合開發環境 (IDE) 中建立一個 Java 專案。
-- 將 Aspose.Words for Java 程式庫新增至您的專案。您可以參考 [文件](https://reference.aspose.com/words/java/) 以獲得詳細說明。
-
-## 4. 理解原始碼
-
-您提供的原始程式碼旨在將文件拆分為單獨的頁面。讓我們分解一下關鍵組件：
+以下程式碼片段負責準備檔名並載入文件。
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +53,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- 我們提取輸入文件的基本名稱和副檔名。
-- 我們使用 Aspose.Words for Java 載入文件。
+- 我們會抽取基礎名稱與副檔名，以組合輸出檔名。  
+- `Document` 會載入來源 Word 檔，讓我們完整存取其頁面。
 
-## 5. 逐步拆分文檔
+## 分步指南：分割 Word 文件頁面
 
-### 5.1.載入文檔
-
+### 步驟 1：載入來源文件
 ```java
 Document doc = new Document(docName);
 ```
+此程式碼會在記憶體中建立 Word 檔的表示。
 
-在此步驟中，我們將輸入文件載入到 `Document` 對象，它允許我們處理文件的內容。
-
-### 5.2.初始化 DocumentPageSplitter
-
+### 步驟 2：初始化頁面分割器
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+`DocumentPageSplitter` 是協助將每頁獨立為 `Document` 物件的輔助類別。
 
-我們初始化一個 `DocumentPageSplitter` 與我們載入的文檔的物件。這個類別由 Aspose.Words for Java 提供，可協助我們將文件分成頁面。
-
-### 5.3.保存每一頁
-
+### 步驟 3：遍歷頁面並分別儲存
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- 迴圈從第 1 頁跑到總頁數。  
+- `getDocumentOfPage(page)` 會回傳只包含該頁的 `Document`。  
+- `save` 將頁面寫入磁碟；請將 **Your Directory Path** 替換為你想要的資料夾路徑。
 
-在這一步驟中，我們遍歷文件的每一頁並將其儲存為單獨的文檔。您可以指定儲存分割頁面的目錄路徑。
-
-## 6.運行程式碼
-
-若要成功執行此程式碼，請確保您已設定環境並將 Aspose.Words for Java 程式庫新增至您的專案。然後，執行程式碼，您的文件就會被分成單獨的頁面。
-
-## DocumentPageSplitter 原始碼
+### DocumentPageSplitter 完整來源
+以下區塊包含分割器類別及其輔助工具的完整實作。請保持原樣，這是確保頁面級抽取可靠的核心程式。
 
 ```java
-/// <摘要>
-/// 將一個文檔拆分為多個文檔，每頁一個。
+/// <summary>
+/// Splits a document into multiple documents, one per page.
 /// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <摘要>
-/// 初始化 <see cref="DocumentPageSplitter"/> 類別的新實例。
-/// 此方法將文件分成幾個部分，以便每個頁面以部分邊界開始和結束。
-///建議之後不要修改該文件。
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
 /// </summary>
-/// <param name="source">來源文件</param>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,29 +104,29 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <摘要>
-/// 取得某一頁的文件。
+/// <summary>
+/// Gets the document of a page.
 /// </summary>
 /// <param name="pageIndex">
-/// 1 為基礎的頁面索引。
+/// 1-based index of a page.
 /// </param>
-/// <返回>
-/// <see cref="Document"/>。
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <摘要>
-/// 取得某個頁面範圍的文件。
+/// <summary>
+/// Gets the document of a page range.
 /// </summary>
 /// <param name="startIndex">
-/// 1 為基礎的起始頁索引。
+/// 1-based index of the start page.
 /// </param>
-//<param name="endIndex">
-/// 1 為基礎的結束頁索引。
+/// <param name="endIndex">
+/// 1-based index of the end page.
 /// </param>
-/// <返回>
-/// <see cref="Document"/>。
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
@@ -138,22 +137,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <摘要>
-/// 提供提取在指定頁面上呈現的文檔節點的方法。
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
 /// </summary>
 class PageNumberFinder
 {
-// 將節點對應到開始/結束頁碼。
-// 這用於在拆分文件時覆蓋收集器提供的基線頁碼。
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// 將頁碼對應到該頁面上的節點清單。
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <摘要>
-/// 初始化 <see cref="PageNumberFinder"/> 類別的新實例。
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
 /// </summary>
-/// <param name="collector">具有文件佈局模型記錄的收集器實例。 </param>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +161,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <摘要>
-/// 檢索節點開始的頁面的基於 1 的索引。
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
 /// </summary>
 /// <param name="node">
-/// 節點。
+/// The node.
 /// </param>
-/// <返回>
-/// 頁面索引。
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <摘要>
-/// 檢索節點結束的頁面的基於 1 的索引。
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
 /// </summary>
 /// <param name="node">
-/// 節點。
+/// The node.
 /// </param>
-/// <返回>
-/// 頁面索引。
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <摘要>
-/// 傳回指定節點跨越的頁面數。如果節點包含在一頁內，則傳回 1。
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
 /// </summary>
 /// <param name="node">
-/// 節點。
+/// The node.
 /// </param>
-/// <返回>
-/// 頁面索引。
+/// <returns>
+/// Page index.
 /// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <摘要>
-/// 傳回指定頁面或頁面中任意位置包含的與指定節點類型相符的節點清單。
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
 /// </summary>
 /// <param name="startPage">
-/// 開始頁面。
+/// The start Page.
 /// </param>
 /// <param name="endPage">
-/// 結束頁。
+/// The end Page.
 /// </param>
 /// <param name="nodeType">
-/// 節點類型。
+/// The node Type.
 /// </param>
-/// <返回>
-/// <see cref="IList{T}"/>。
+/// <returns>
+/// The <see cref="IList{T}"/>.
 /// </returns>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*節點類型*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +230,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*節
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// 有些頁面可能是空的。
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,9 +247,9 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*節
 	}
 	return pageNodes;
 }
-/// <摘要>
-/// 將出現在兩個或更多頁面上的節點拆分為單獨的節點，以便它們仍然以相同的方式顯示
-//但不再出現在頁面上。
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
 /// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
@@ -262,20 +261,20 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// 存取可能跨頁面分割的任何複合體並將它們分割成單獨的節點。
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <摘要>
-/// 這由 <see cref="SectionSplitter"/> 調用，以更新分割節點的頁碼。
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
 /// </summary>
 /// <param name="node">
-/// 節點。
+/// The node.
 /// </param>
 /// <param name="startPage">
-/// 開始頁面。
+/// The start Page.
 /// </param>
 /// <param name="endPage">
-/// 結束頁。
+/// The end Page.
 /// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
@@ -298,10 +297,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// 將每個節點新增到代表每個頁面上找到的節點的清單中。
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// 頁首/頁尾遵循章節，且不會自行分割。
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,9 +349,9 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <摘要>
-/// 將指定運行的文字拆分為兩個運行。
-/// 在指定運行之後插入新的運行。
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
 /// </summary>
 private void splitRun(Run run, int position)
 {
@@ -380,8 +379,8 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <摘要>
-/// 將文件拆分為多個部分，以便每頁以部分邊界開始和結束。
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
 /// </summary>
 class SectionSplitter extends DocumentVisitor
 {
@@ -410,8 +409,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// 如果有前一節，請嘗試複製任何連結的頁首頁腳。
-	// 否則，如果缺少前一節，它們將不會出現在提取的文件中。
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +453,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// 如果段落僅包含分節符，則新增假分節符。
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +465,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// 從複製的段落中刪除清單編號，但保留縮排量不變 
-		// 因為該段落應該是先前項目的一部分。
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// 重置表格中分割段落的間距，因為額外的間距可能會導致它們看起來不同。
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +492,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// 更正該部分末尾的分頁符號。
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// 為章節正文新增新的頁碼。
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return 訪客行為.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +515,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// 一個節點可能跨越多個頁面，因此傳回分割位置的清單。
-	// 拆分節點是下一頁的第一個節點。
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +529,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// 如果子節點的頁面發生了變化，那麼這就是分裂的位置。
-		// 將其添加到列表中。
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +541,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// 向後分割複合材料，以便克隆的節點以正確的順序插入。
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +549,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// 將下一頁找到的所有節點移動到複製的節點。單獨處理行節點。
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +569,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// 如果我們正在處理一行，我們需要為複製的行添加虛擬單元格。
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +595,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// 將分裂節點插入到原節點之後。
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// 更新基底節點和克隆節點（包括其後代）的新頁碼。
-	// 這將只是一個頁面，因為克隆的複合內容被拆分到一頁上。
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +667,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **`doc.getPageCount()` 回傳 0** | 文件未完整載入或版面未更新。 | 在迴圈前呼叫 `doc.updatePageLayout()`。 |
+| **輸出檔案為空** | 輸出資料夾路徑不正確。 | 確認資料夾已存在且以檔案分隔符 (`/` 或 `\\`) 結尾。 |
+| **頁首/頁尾消失** | 分割邏輯在缺少節時會移除它們。 | `SectionSplitter` 已自行複製遺失的頁首/頁尾，請使用提供的實作且不要更動。 |
+| **大型檔案記憶體不足** | 超大型 DOCX 佔用過多堆疊。 | 增加 JVM 堆疊 (`-Xmx2g`) 或盡可能分批處理文件。 |
+
+## 常見問答
+
+**Q:** 如何將 Aspose.Words for Java 加入我的專案？  
+**A:** 從 [此處下載](https://releases.aspose.com/words/java/)，將 JAR 加入 classpath，並匯入所需的套件。
+
+**Q:** 能否分割其他格式，例如 PDF 或 DOCX？  
+**A:** 本指南聚焦於使用 Aspose.Words 處理 Word 文件（DOC/DOCX）。若要處理 PDF，請改用 Aspose.PDF；其他格式可能需要不同的 API。
+
+**Q:** Aspose.Words for Java 是免費的嗎？  
+**A:** 不是，它是商業產品。請參閱 Aspose.Words for Java 定價頁面 (https://purchase.aspose.com/words/java)。
+
+**Q:** 我可以為每個分割頁面自訂頁面大小或方向嗎？  
+**A:** 可以。取得 `pageDoc` 後，於儲存前修改其 `PageSetup`（例如 `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`）。
+
+**Q:** 分割的頁數有限制嗎？  
+**A:** 沒有硬性上限，但極大文件會需要更多記憶體與處理時間。處理巨檔時請留意資源使用情況。
+
 ## 結論
+現在你已掌握使用 Aspose.Words for Java **分割 Word 文件頁面** 並 **將每頁分別儲存** 的完整、可投入生產的作法。只要調整輸出路徑、微調頁面設定，或將此邏輯整合至批次處理或雲端服務，即可輕鬆應對各種需求。祝開發順利！
 
-現在您已經了解如何使用 Aspose.Words for Java 將文件分割為單獨的頁面。本指南提供了包含原始程式碼範例的全面逐步教學。您可以進一步自訂和擴充此程式碼以滿足處理文件時的特定要求。
-當然！讓我們在使用 Aspose.Words for Java 將文件拆分為頁面的指南中新增一個常見問題解答部分。
+---
 
-## 常見問題解答
-
-### 如何將 Aspose.Words for Java 加入我的專案？
-
-若要將 Aspose.Words for Java 新增至您的項目，請依照下列步驟操作：
-
-1. 從下列位置下載 Aspose.Words for Java 函式庫 [這裡](https://releases。aspose.com/words/java/).
-2. 將下載的 JAR 檔案新增至專案的類別路徑。
-3. 現在您可以開始在專案中使用 Aspose.Words for Java。
-
-### 我可以拆分其他格式的文件嗎，例如 PDF 或 DOCX？
-
-不，本指南專門介紹使用 Aspose.Words for Java 分割 DOC 格式的文件。如果您需要拆分其他格式的文檔，則可能需要探索支援這些格式的其他程式庫或工具。
-
-### Aspose.Words for Java 是免費函式庫嗎？
-
-不，Aspose.Words for Java 不是一個免費函式庫。它是一種需要支付許可費的商業產品。您可以訪問 [Aspose.Words for Java 定價頁面](https://purchase.aspose.com/words/java) 有關許可和定價細節的詳細資訊。
-
-### 我可以將文件拆分為自訂頁面大小和格式嗎？
-
-是的，您可以透過修改 Aspose.Words for Java 中的頁面設定屬性來自訂分割文件的頁面大小和格式。有關如何根據您的要求自訂頁面設定的詳細信息，請參閱 Aspose.Words 文件。
-
-### 可拆分的頁面數量有限制嗎？
-
-Aspose.Words for Java 對您可以分割的頁面數量沒有特定的限制。但是請記住，非常大的文件可能需要更多的記憶體和處理時間。處理大型文件時請注意系統資源。
-
-### 拆分文件時如何處理頁首和頁尾？
-
-使用 Aspose.Words for Java 函式庫拆分文件時可以處理頁首和頁尾。您可以將頁首和頁尾內容從原始文檔複製到分割文檔，確保它們正確保存。您可能需要根據您的特定頁首和頁尾要求自訂此流程。
-
+**最後更新：** 2026-01-11  
+**測試環境：** Aspose.Words 24.12 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

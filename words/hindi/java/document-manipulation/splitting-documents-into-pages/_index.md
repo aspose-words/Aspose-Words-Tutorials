@@ -1,10 +1,13 @@
 ---
-"description": "Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ों को पृष्ठों में विभाजित करना सीखें। कुशल दस्तावेज़ प्रसंस्करण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।"
-"linktitle": "दस्तावेज़ों को पृष्ठों में विभाजित करना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में दस्तावेज़ों को पृष्ठों में विभाजित करना"
-"url": "/hi/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: Aspose.Words for Java के साथ वर्ड दस्तावेज़ के पृष्ठों को कैसे विभाजित
+  करें और प्रत्येक पृष्ठ को अलग‑अलग सहेजें, सीखें। चरण‑दर‑चरण मार्गदर्शिका, स्रोत
+  कोड, और सर्वोत्तम प्रथा सुझाव।
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java का उपयोग करके Word दस्तावेज़ पृष्ठों को विभाजित करें
+url: /hi/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में दस्तावेज़ों को पृष्ठों में विभाजित करना
+# Aspose.Words for Java का उपयोग करके Word दस्तावेज़ पृष्ठ विभाजित करना
 
+यदि आप Java में दस्तावेज़ प्रोसेसिंग पर काम कर रहे हैं, तो **Aspose.Words for Java** एक शक्तिशाली API है जो आपको **Word दस्तावेज़ पृष्ठों को कुशलतापूर्वक विभाजित** करने में मदद कर सकती है। इस व्यापक ट्यूटोरियल में, हम आपको पूरी प्रक्रिया के माध्यम से ले जाएंगे—पर्यावरण सेटअप से लेकर प्रत्येक पृष्ठ को स्वतंत्र फ़ाइल के रूप में निकालने तक। अंत तक, आप **प्रत्येक पृष्ठ को अलग‑अलग सहेज** सकेंगे, जिससे दस्तावेज़ अभिलेख, प्रिंटिंग या डाउनस्ट्रीम प्रोसेसिंग आसान हो जाएगी।
 
-यदि आप जावा में दस्तावेज़ प्रसंस्करण के साथ काम कर रहे हैं, तो जावा के लिए Aspose.Words एक शक्तिशाली API है जो आपको दस्तावेज़ों को अलग-अलग पृष्ठों में कुशलतापूर्वक विभाजित करने में मदद कर सकता है। इस चरण-दर-चरण ट्यूटोरियल में, हम आपको दिए गए स्रोत कोड का उपयोग करके दस्तावेज़ों को विभाजित करने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे। इस ट्यूटोरियल के अंत तक, आप आसानी से दस्तावेज़ों को विभाजित करने में सक्षम होंगे, जिससे आपकी दस्तावेज़ प्रबंधन क्षमताएँ बेहतर होंगी।
+## त्वरित उत्तर
+- **“Word दस्तावेज़ पृष्ठ विभाजित करना” का क्या अर्थ है?** इसका मतलब है Word फ़ाइल के प्रत्येक पृष्ठ को अलग‑अलग दस्तावेज़ में निकालना।  
+- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Words for Java (डाउनलोड [यहाँ](https://releases.aspose.com/words/java/))।  
+- **क्या मुझे लाइसेंस चाहिए?** परीक्षण संस्करण परीक्षण के लिए काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है।  
+- **क्या मैं आउटपुट फ़ोल्डर निर्दिष्ट कर सकता हूँ?** हाँ—केवल `save` मेथड में पथ बदलें।  
+- **कौन सा Java संस्करण समर्थित है?** Java 8 और उसके बाद के संस्करण।
 
-## 1 परिचय
+## Word दस्तावेज़ पृष्ठ विभाजन क्या है?
+Word दस्तावेज़ पृष्ठ विभाजन का अर्थ है प्रोग्रामेटिक रूप से बहु‑पृष्ठीय Word फ़ाइल को व्यक्तिगत एक‑पृष्ठीय दस्तावेज़ों में तोड़ना। यह तब उपयोगी होता है जब आपको पृष्ठों को अलग‑अलग वितरित करना हो, थंबनेल बनाना हो, या पृष्ठ‑स्तर सुरक्षा लागू करनी हो।
 
-Aspose.Words for Java एक जावा लाइब्रेरी है जो आपको Word दस्तावेज़ों को प्रोग्रामेटिक रूप से मैनिपुलेट करने की अनुमति देती है। एक सामान्य कार्य दस्तावेज़ को अलग-अलग पृष्ठों में विभाजित करना है, जो विभिन्न उद्देश्यों के लिए उपयोगी हो सकता है, जैसे संग्रह करना, मुद्रण करना या दस्तावेज़ प्रसंस्करण।
+## दस्तावेज़ों को अलग‑अलग पृष्ठों में क्यों विभाजित करें?
+- **अभिलेख:** प्रत्येक पृष्ठ को स्वतंत्र फ़ाइल के रूप में संग्रहीत करें ताकि पुनः प्राप्ति आसान हो।  
+- **प्रिंटिंग:** पूरे दस्तावेज़ को लोड किए बिना केवल चयनित पृष्ठों को प्रिंटर को भेजें।  
+- **प्रोसेसिंग:** प्रत्येक पृष्ठ पर अलग‑अलग वर्कफ़्लो (जैसे OCR, वॉटरमार्किंग) लागू करें।  
 
-## 2. पूर्वापेक्षाएँ
+## आवश्यकताएँ
+- Java Development Kit (JDK) स्थापित हो।  
+- Aspose.Words for Java लाइब्रेरी, जिसे आप [यहाँ](https://releases.aspose.com/words/java/) से डाउनलोड कर सकते हैं।  
+- एक बेसिक Java IDE (IntelliJ IDEA, Eclipse, आदि)।  
 
-इससे पहले कि हम कोड में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
+## अपने विकास पर्यावरण को सेट अप करना
+1. **अपने IDE में एक नया Java प्रोजेक्ट बनाएं**।  
+2. **Aspose.Words JAR** को प्रोजेक्ट की क्लासपाथ में जोड़ें। विस्तृत चरण आधिकारिक [डॉक्यूमेंटेशन](https://reference.aspose.com/words/java/) में उपलब्ध हैं।  
 
-- आपके सिस्टम पर जावा डेवलपमेंट किट (JDK) स्थापित है।
-- Aspose.Words for Java लाइब्रेरी, जिसे आप डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
+## कोर कोड को समझना
 
-## 3. अपना वातावरण तैयार करना
-
-आरंभ करने के लिए, अपना विकास वातावरण इस प्रकार सेट करें:
-
-- अपने पसंदीदा एकीकृत विकास वातावरण (IDE) में एक जावा प्रोजेक्ट बनाएं।
-- अपने प्रोजेक्ट में Aspose.Words for Java लाइब्रेरी जोड़ें। आप इसका संदर्भ ले सकते हैं [प्रलेखन](https://reference.aspose.com/words/java/) विस्तृत निर्देशों के लिए कृपया देखें.
-
-## 4. सोर्स कोड को समझना
-
-आपके द्वारा प्रदान किया गया स्रोत कोड किसी दस्तावेज़ को अलग-अलग पृष्ठों में विभाजित करने के लिए डिज़ाइन किया गया है। आइए मुख्य घटकों को तोड़ें:
+नीचे पहला स्निपेट है जो फ़ाइल नाम तैयार करता है और दस्तावेज़ लोड करता है।
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +55,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- हम इनपुट दस्तावेज़ का आधार नाम और एक्सटेंशन निकालते हैं।
-- हम Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ लोड करते हैं।
+- हम बेस नाम और एक्सटेंशन निकालते हैं ताकि आउटपुट फ़ाइल नाम बनाए जा सकें।  
+- `Document` स्रोत Word फ़ाइल को लोड करता है, जिससे हमें उसके पृष्ठों तक पूरी पहुंच मिलती है।
 
-## 5. दस्तावेजों को चरण दर चरण विभाजित करना
+## Word दस्तावेज़ पृष्ठ विभाजित करने के लिए चरण‑दर‑चरण गाइड
 
-### 5.1. दस्तावेज़ लोड करना
-
+### चरण 1: स्रोत दस्तावेज़ लोड करें
 ```java
 Document doc = new Document(docName);
 ```
+यह Word फ़ाइल का इन‑मेमोरी प्रतिनिधित्व बनाता है।
 
-इस चरण में, हम इनपुट दस्तावेज़ को लोड करते हैं `Document` ऑब्जेक्ट, जो हमें दस्तावेज़ की सामग्री के साथ काम करने की अनुमति देता है।
-
-### 5.2. डॉक्यूमेंटपेजस्प्लिटर को आरंभ करना
-
+### चरण 2: पेज स्प्लिटर को इनिशियलाइज़ करें
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+`DocumentPageSplitter` एक हेल्पर क्लास है जो प्रत्येक पृष्ठ को अलग `Document` ऑब्जेक्ट के रूप में अलग करने में सक्षम है।
 
-हम एक आरंभीकरण करते हैं `DocumentPageSplitter` हमारे लोड किए गए दस्तावेज़ के साथ ऑब्जेक्ट। यह क्लास जावा के लिए Aspose.Words द्वारा प्रदान की जाती है और दस्तावेज़ को पृष्ठों में विभाजित करने में हमारी मदद करती है।
-
-### 5.3. प्रत्येक पृष्ठ को सहेजना
-
+### चरण 3: पृष्ठों पर इटरेट करें और प्रत्येक को सहेजें
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- लूप पृष्ठ 1 से कुल पृष्ठ गिनती तक चलता है।  
+- `getDocumentOfPage(page)` केवल उस पृष्ठ को शामिल करने वाला नया `Document` लौटाता है।  
+- `save` पृष्ठ को डिस्क पर लिखता है; **Your Directory Path** को अपनी इच्छित फ़ोल्डर पथ से बदलें।
 
-इस चरण में, हम दस्तावेज़ के प्रत्येक पृष्ठ को दोहराते हैं और इसे एक अलग दस्तावेज़ के रूप में सहेजते हैं। आप निर्देशिका पथ निर्दिष्ट कर सकते हैं जहाँ विभाजित पृष्ठ सहेजे जाएँगे।
-
-## 6. कोड चलाना
-
-इस कोड को सफलतापूर्वक चलाने के लिए, सुनिश्चित करें कि आपने अपना वातावरण सेट कर लिया है और अपने प्रोजेक्ट में Aspose.Words for Java लाइब्रेरी जोड़ ली है। फिर, कोड निष्पादित करें, और आपका दस्तावेज़ अलग-अलग पृष्ठों में विभाजित हो जाएगा।
-
-## दस्तावेज़पेजस्प्लिटर स्रोत कोड
+### DocumentPageSplitter की पूरी स्रोत कोड
+निम्न ब्लॉक में स्प्लिटर क्लास और उसकी सहायक यूटिलिटीज़ का पूर्ण कार्यान्वयन है। इसे अपरिवर्तित रखें; यह वह इंजन है जो पृष्ठ‑स्तर निष्कर्षण को विश्वसनीय बनाता है।
 
 ```java
-/// <सारांश>
-/// किसी दस्तावेज़ को प्रति पृष्ठ एक, अनेक दस्तावेज़ों में विभाजित करता है।
-/// </सारांश>
+/// <summary>
+/// Splits a document into multiple documents, one per page.
+/// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <सारांश>
-/// <see cref="DocumentPageSplitter"/> वर्ग का एक नया उदाहरण आरंभ करता है।
-/// यह विधि दस्तावेज़ को खंडों में विभाजित करती है ताकि प्रत्येक पृष्ठ एक खंड सीमा पर शुरू और समाप्त हो।
-/// यह अनुशंसा की जाती है कि इसके बाद दस्तावेज़ में कोई संशोधन न किया जाए।
-/// </सारांश>
-/// <param name="source">स्रोत दस्तावेज़</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
+/// </summary>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,30 +106,30 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <सारांश>
-/// किसी पृष्ठ का दस्तावेज़ प्राप्त करता है.
-/// </सारांश>
-/// <पैरामीटर नाम="पेजइंडेक्स">
-/// 1-आधारित पृष्ठ अनुक्रमणिका.
-/// </पैरा>
-/// <रिटर्न>
-/// <देखें cref="दस्तावेज़"/>.
-/// </रिटर्न>
+/// <summary>
+/// Gets the document of a page.
+/// </summary>
+/// <param name="pageIndex">
+/// 1-based index of a page.
+/// </param>
+/// <returns>
+/// The <see cref="Document"/>.
+/// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <सारांश>
-/// किसी पृष्ठ श्रेणी का दस्तावेज़ प्राप्त करता है.
-/// </सारांश>
-/// <पैरामीटर नाम="प्रारंभसूचकांक">
-/// 1-आधारित आरंभिक पृष्ठ का सूचकांक.
-/// </पैरा>
-//<पैरामीटर नाम="endIndex">
-/// 1-आधारित अंतिम पृष्ठ का सूचकांक.
-/// </पैरा>
-/// <रिटर्न>
-/// <देखें cref="दस्तावेज़"/>.
-/// </रिटर्न>
+/// <summary>
+/// Gets the document of a page range.
+/// </summary>
+/// <param name="startIndex">
+/// 1-based index of the start page.
+/// </param>
+/// <param name="endIndex">
+/// 1-based index of the end page.
+/// </param>
+/// <returns>
+/// The <see cref="Document"/>.
+/// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
 	for (Node section : pageNumberFinder.retrieveAllNodesOnPages(startIndex, endIndex, NodeType.SECTION))
@@ -138,22 +139,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <सारांश>
-/// निर्दिष्ट पृष्ठों पर प्रस्तुत दस्तावेज़ के नोड्स को निकालने के लिए विधियाँ प्रदान करता है।
-/// </सारांश>
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
+/// </summary>
 class PageNumberFinder
 {
-// नोड को आरंभ/अंत पृष्ठ संख्या पर मैप करता है।
-// इसका उपयोग दस्तावेज़ को विभाजित करते समय कलेक्टर द्वारा प्रदान की गई आधार रेखा पृष्ठ संख्या को ओवरराइड करने के लिए किया जाता है।
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// पृष्ठ संख्या को उस पृष्ठ पर पाए जाने वाले नोड्स की सूची से मैप करता है।
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <सारांश>
-/// <see cref="PageNumberFinder"/> वर्ग का एक नया उदाहरण आरंभ करता है।
-/// </सारांश>
-/// <param name="collector">एक कलेक्टर इंस्टेंस जिसमें दस्तावेज़ के लिए लेआउट मॉडल रिकॉर्ड हैं.</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
+/// </summary>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +163,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <सारांश>
-/// नोड जिस पृष्ठ से आरंभ होता है, उसका 1-आधारित अनुक्रमणिका पुनर्प्राप्त करता है।
-/// </सारांश>
-/// <पैरामीटर नाम="नोड">
-/// नोड.
-/// </पैरा>
-/// <रिटर्न>
-/// पृष्ठ अनुक्रमणिका.
-/// </रिटर्न>
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
+/// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <सारांश>
-/// उस पृष्ठ का 1-आधारित अनुक्रमणिका पुनर्प्राप्त करता है जिस पर नोड समाप्त होता है।
-/// </सारांश>
-/// <पैरामीटर नाम="नोड">
-/// नोड.
-/// </पैरा>
-/// <रिटर्न>
-/// पृष्ठ अनुक्रमणिका.
-/// </रिटर्न>
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
+/// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <सारांश>
-/// यह बताता है कि निर्दिष्ट नोड कितने पृष्ठों पर फैला हुआ है। यदि नोड एक पृष्ठ में समाहित है तो 1 लौटाता है।
-/// </सारांश>
-/// <पैरामीटर नाम="नोड">
-/// नोड.
-/// </पैरा>
-/// <रिटर्न>
-/// पृष्ठ अनुक्रमणिका.
-/// </रिटर्न>
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
+/// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <सारांश>
-/// निर्दिष्ट पृष्ठ या पृष्ठों पर कहीं भी मौजूद नोड्स की सूची लौटाता है जो निर्दिष्ट नोड प्रकार से मेल खाते हैं।
-/// </सारांश>
-/// <पैरामीटर नाम="प्रारंभपृष्ठ">
-/// प्रारंभ पृष्ठ.
-/// </पैरा>
-/// <पैरामीटर नाम="endPage">
-/// अंतिम पृष्ठ.
-/// </पैरा>
-/// <पैरामीटर नाम="नोडटाइप">
-/// नोड प्रकार.
-/// </पैरा>
-/// <रिटर्न>
-/// <देखें cref="IList{T}"/>.
-/// </रिटर्न>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*नोड प्रकार*/int nodeType) throws Exception
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
+/// </summary>
+/// <param name="startPage">
+/// The start Page.
+/// </param>
+/// <param name="endPage">
+/// The end Page.
+/// </param>
+/// <param name="nodeType">
+/// The node Type.
+/// </param>
+/// <returns>
+/// The <see cref="IList{T}"/>.
+/// </returns>
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +232,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*न
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// कुछ पृष्ठ रिक्त हो सकते हैं.
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,10 +249,10 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*न
 	}
 	return pageNodes;
 }
-/// <सारांश>
-/// दो या अधिक पृष्ठों पर दिखाई देने वाले नोड्स को अलग-अलग नोड्स में विभाजित करता है ताकि वे अभी भी एक ही तरह से दिखाई दें
-/// लेकिन अब यह पूरे पृष्ठ पर दिखाई नहीं देगा।
-/// </सारांश>
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
+/// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
 	for (Paragraph paragraph : (Iterable<Paragraph>) collector.getDocument().getChildNodes(NodeType.PARAGRAPH, true))
@@ -262,21 +263,21 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// किसी भी ऐसे कंपोजिट पर जाएं जो संभवतः पृष्ठों में विभाजित हैं और उन्हें अलग-अलग नोड्स में विभाजित करें।
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <सारांश>
-/// इसे विभाजित नोड्स की पृष्ठ संख्या को अद्यतन करने के लिए <see cref="SectionSplitter"/> द्वारा बुलाया जाता है।
-/// </सारांश>
-/// <पैरामीटर नाम="नोड">
-/// नोड.
-/// </पैरा>
-/// <पैरामीटर नाम="प्रारंभपृष्ठ">
-/// प्रारंभ पृष्ठ.
-/// </पैरा>
-/// <पैरामीटर नाम="endPage">
-/// अंतिम पृष्ठ.
-/// </पैरा>
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <param name="startPage">
+/// The start Page.
+/// </param>
+/// <param name="endPage">
+/// The end Page.
+/// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
 	if (startPage > 0)
@@ -298,10 +299,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// प्रत्येक नोड को एक सूची में जोड़ें जो प्रत्येक पृष्ठ पर पाए गए नोड्स का प्रतिनिधित्व करती है।
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// शीर्षलेख/पादलेख अनुभागों का अनुसरण करते हैं तथा स्वयं विभाजित नहीं होते।
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,10 +351,10 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <सारांश>
-/// निर्दिष्ट रन के पाठ को दो रन में विभाजित करता है।
-/// निर्दिष्ट रन के ठीक बाद नया रन सम्मिलित करता है।
-/// </सारांश>
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
+/// </summary>
 private void splitRun(Run run, int position)
 {
 	Run afterRun = (Run) run.deepClone(true);
@@ -380,9 +381,9 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <सारांश>
-/// दस्तावेज़ को एकाधिक अनुभागों में विभाजित करता है ताकि प्रत्येक पृष्ठ एक अनुभाग सीमा पर शुरू और समाप्त हो।
-/// </सारांश>
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
+/// </summary>
 class SectionSplitter extends DocumentVisitor
 {
 private PageNumberFinder pageNumberFinder;
@@ -410,8 +411,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// यदि कोई पिछला अनुभाग है, तो किसी भी लिंक किए गए हेडर फ़ुटर को कॉपी करने का प्रयास करें।
-	// अन्यथा, यदि पिछला अनुभाग गायब है तो वे निकाले गए दस्तावेज़ में दिखाई नहीं देंगे।
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +455,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// यदि पैराग्राफ में केवल खंड विराम है, तो नकली रन जोड़ें।
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +467,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// क्लोन किए गए पैराग्राफ से सूची क्रमांकन हटा दें लेकिन इंडेंट को वही रहने दें 
-		// क्योंकि यह पैराग्राफ़ पहले वाले आइटम का हिस्सा माना जाता है।
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// तालिकाओं में विभाजित अनुच्छेदों के अंतर को पुनः निर्धारित करें क्योंकि अतिरिक्त अंतर के कारण वे भिन्न दिखाई दे सकते हैं।
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +494,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// अनुभाग के अंत में पृष्ठ विराम को सही करता है।
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// अनुभाग के मुख्य भाग के लिए भी नई पृष्ठ संख्या जोड़ें।
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return विज़िटरएक्शन.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +517,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// एक नोड अनेक पृष्ठों में फैला हो सकता है, इसलिए विभाजित स्थितियों की एक सूची लौटाई जाती है।
-	// विभाजित नोड अगले पृष्ठ पर पहला नोड है।
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +531,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// यदि चाइल्ड नोड का पृष्ठ बदल गया है, तो यह विभाजित स्थिति है।
-		// इसे सूची में जोड़ें.
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +543,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// कंपोजिट को पीछे की ओर विभाजित करें, ताकि क्लोन किए गए नोड्स सही क्रम में सम्मिलित हो जाएं।
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +551,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// अगले पृष्ठ पर पाए गए सभी नोड्स को कॉपी किए गए नोड में ले जाएँ। पंक्ति नोड्स को अलग से संभालें।
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +571,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// यदि हम किसी पंक्ति पर काम कर रहे हैं, तो हमें क्लोन पंक्ति के लिए डमी कोशिकाएं जोड़ने की आवश्यकता होगी।
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +597,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// मूल के बाद विभाजित नोड डालें.
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// आधार नोड और क्लोन नोड के नए पृष्ठ क्रमांक को उसके वंशजों सहित अद्यतन करें।
-	// यह केवल एक ही पृष्ठ होगा क्योंकि क्लोन किए गए समग्र को एक पृष्ठ पर विभाजित किया गया है।
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +669,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
-## निष्कर्ष
-
-अब आप सीख चुके हैं कि Aspose.Words for Java का उपयोग करके किसी दस्तावेज़ को अलग-अलग पृष्ठों में कैसे विभाजित किया जाए। यह गाइड स्रोत कोड उदाहरणों के साथ एक व्यापक चरण-दर-चरण ट्यूटोरियल प्रदान करता है। दस्तावेज़ों के साथ काम करते समय आप अपनी विशिष्ट आवश्यकताओं को पूरा करने के लिए इस कोड को और अधिक अनुकूलित और विस्तारित कर सकते हैं।
-ज़रूर! आइए Aspose.Words for Java का उपयोग करके दस्तावेज़ों को पृष्ठों में विभाजित करने के हमारे गाइड में एक FAQ अनुभाग जोड़ें।
+## सामान्य समस्याएँ और समाधान
+| समस्या | कारण | समाधान |
+|-------|--------|-----|
+| **`doc.getPageCount()` returns 0** | दस्तावेज़ पूरी तरह लोड नहीं हुआ या लेआउट अपडेट नहीं हुआ। | लूप से पहले `doc.updatePageLayout()` कॉल करें। |
+| **Output files are empty** | आउटपुट डायरेक्टरी पथ गलत है। | सुनिश्चित करें कि डायरेक्टरी मौजूद है और फ़ाइल सेपरेटर (`/` या `\\`) के साथ समाप्त होती है। |
+| **Headers/Footers disappear** | सेक्शन गायब होने पर स्प्लिट लॉजिक हेडर/फ़ूटर हटा देता है। | `SectionSplitter` क्लास पहले से ही गायब हेडर/फ़ूटर कॉपी करता है; प्रदान किए गए इम्प्लीमेंटेशन को अपरिवर्तित उपयोग करें। |
+| **Out‑Of‑Memory for large files** | बहुत बड़े DOCX फ़ाइलें हीप को खपत करती हैं। | JVM हीप बढ़ाएँ (`-Xmx2g`) या संभव हो तो दस्तावेज़ को छोटे हिस्सों में प्रोसेस करें। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं अपने प्रोजेक्ट में Aspose.Words for Java कैसे जोड़ूं?
+**प्रश्न:** मैं Aspose.Words for Java को अपने प्रोजेक्ट में कैसे जोड़ूँ?  
+**उत्तर:** लाइब्रेरी को [यहाँ](https://releases.aspose.com/words/java/) से डाउनलोड करें, JAR को अपनी क्लासपाथ में जोड़ें, और आवश्यक पैकेज इम्पोर्ट करें।
 
-अपने प्रोजेक्ट में Aspose.Words for Java जोड़ने के लिए, इन चरणों का पालन करें:
+**प्रश्न:** क्या मैं PDF या DOCX जैसे अन्य फ़ॉर्मेट में दस्तावेज़ विभाजित कर सकता हूँ?  
+**उत्तर:** यह गाइड Word दस्तावेज़ (DOC/DOCX) पर Aspose.Words का उपयोग करता है। PDF के लिए आप Aspose.PDF का उपयोग करेंगे, और अन्य फ़ॉर्मेट के लिए अलग API की आवश्यकता हो सकती है।
 
-1. Aspose.Words for Java लाइब्रेरी को यहां से डाउनलोड करें [यहाँ](https://releases.aspose.com/words/java/).
-2. डाउनलोड की गई JAR फ़ाइल को अपने प्रोजेक्ट के क्लासपाथ में जोड़ें।
-3. अब आप अपने प्रोजेक्ट में Java के लिए Aspose.Words का उपयोग शुरू कर सकते हैं।
+**प्रश्न:** क्या Aspose.Words for Java एक मुफ्त लाइब्रेरी है?  
+**उत्तर:** नहीं, यह एक व्यावसायिक उत्पाद है। मूल्य निर्धारण विवरण Aspose.Words for Java प्राइसिंग पेज पर देखें (https://purchase.aspose.com/words/java)।
 
-### क्या मैं दस्तावेज़ों को अन्य प्रारूपों, जैसे PDF या DOCX में विभाजित कर सकता हूँ?
+**प्रश्न:** क्या मैं प्रत्येक विभाजित पृष्ठ के लिए पेज आकार या अभिविन्यास कस्टमाइज़ कर सकता हूँ?  
+**उत्तर:** हाँ। `pageDoc` प्राप्त करने के बाद, सहेजने से पहले उसके `PageSetup` को संशोधित करें (उदा., `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`)।
 
-नहीं, यह गाइड विशेष रूप से जावा के लिए Aspose.Words का उपयोग करके DOC प्रारूप में दस्तावेज़ों को विभाजित करने को कवर करता है। यदि आपको अन्य प्रारूपों में दस्तावेज़ों को विभाजित करने की आवश्यकता है, तो आपको उन प्रारूपों का समर्थन करने वाले अन्य पुस्तकालयों या उपकरणों का पता लगाने की आवश्यकता हो सकती है।
+**प्रश्न:** क्या विभाजित करने योग्य पृष्ठों की संख्या पर कोई सीमा है?  
+**उत्तर:** कोई कठोर सीमा नहीं है, लेकिन बहुत बड़े दस्तावेज़ों को अधिक मेमोरी और प्रोसेसिंग समय की आवश्यकता होगी। बड़े फ़ाइलों के लिए संसाधनों की निगरानी रखें।
 
-### क्या Aspose.Words for Java एक निःशुल्क लाइब्रेरी है?
+## निष्कर्ष
+अब आपके पास Aspose.Words for Java का उपयोग करके **Word दस्तावेज़ पृष्ठों को विभाजित** करने और **प्रत्येक पृष्ठ को अलग‑अलग सहेजने** की एक पूर्ण, उत्पादन‑तैयार विधि है। आउटपुट पथ समायोजित करें, पेज सेटिंग्स को ट्यून करें, या इस लॉजिक को बैच प्रोसेसिंग या क्लाउड सेवाओं जैसे बड़े वर्कफ़्लो में एकीकृत करें। कोडिंग का आनंद लें!
 
-नहीं, Aspose.Words for Java एक निःशुल्क लाइब्रेरी नहीं है। यह एक वाणिज्यिक उत्पाद है, जिस पर लाइसेंस शुल्क लगता है। आप यहाँ जा सकते हैं [Aspose.Words के लिए Java मूल्य निर्धारण पृष्ठ](https://purchase.aspose.com/words/java) लाइसेंसिंग और मूल्य निर्धारण विवरण पर अधिक जानकारी के लिए.
+---
 
-### क्या मैं दस्तावेज़ों को कस्टम पृष्ठ आकार और प्रारूपों में विभाजित कर सकता हूँ?
-
-हां, आप Aspose.Words for Java में पेज सेटअप प्रॉपर्टी को संशोधित करके विभाजित दस्तावेज़ों के पेज आकार और प्रारूप को अनुकूलित कर सकते हैं। अपनी आवश्यकताओं के अनुसार पेज सेटिंग को अनुकूलित करने के तरीके के बारे में विवरण के लिए Aspose.Words दस्तावेज़ देखें।
-
-### क्या विभाजित किये जा सकने वाले पृष्ठों की संख्या पर कोई सीमाएं हैं?
-
-Aspose.Words for Java आपके द्वारा विभाजित किए जा सकने वाले पृष्ठों की संख्या पर कोई विशेष सीमाएँ नहीं लगाता है। हालाँकि, ध्यान रखें कि बहुत बड़े दस्तावेज़ों के लिए अधिक मेमोरी और प्रोसेसिंग समय की आवश्यकता हो सकती है। बड़े दस्तावेज़ों के साथ काम करते समय सिस्टम संसाधनों का ध्यान रखें।
-
-### दस्तावेज़ों को विभाजित करते समय मैं शीर्षलेखों और पादलेखों को कैसे संभाल सकता हूँ?
-
-Aspose.Words for Java लाइब्रेरी का उपयोग करके दस्तावेज़ों को विभाजित करते समय हेडर और फ़ुटर को नियंत्रित किया जा सकता है। आप मूल दस्तावेज़ से हेडर और फ़ुटर सामग्री को विभाजित दस्तावेज़ों में कॉपी कर सकते हैं, यह सुनिश्चित करते हुए कि वे सही तरीके से संरक्षित हैं। आपको अपनी विशिष्ट हेडर और फ़ुटर आवश्यकताओं के आधार पर इस प्रक्रिया को अनुकूलित करने की आवश्यकता हो सकती है।
-
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,12 @@
 ---
-"description": "เรียนรู้วิธีแบ่งเอกสารออกเป็นหลายหน้าโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการประมวลผลเอกสารอย่างมีประสิทธิภาพ"
-"linktitle": "การแบ่งเอกสารออกเป็นหน้าต่างๆ"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การแบ่งเอกสารออกเป็นหน้าต่างๆ ใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: เรียนรู้วิธีแยกหน้าของเอกสาร Word และบันทึกแต่ละหน้าแยกกันด้วย Aspose.Words
+  for Java คู่มือขั้นตอนโดยละเอียด โค้ดตัวอย่าง และเคล็ดลับการปฏิบัติที่ดีที่สุด
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: แยกหน้าของเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+url: /th/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแบ่งเอกสารออกเป็นหน้าต่างๆ ใน Aspose.Words สำหรับ Java
+# แยกหน้าเอกสาร Word ด้วย Aspose.Words for Java
 
+หากคุณกำลังทำงานกับการประมวลผลเอกสารใน Java, **Aspose.Words for Java** เป็น API ที่ทรงพลังที่ช่วยให้คุณ **แยกหน้าเอกสาร Word** ได้อย่างมีประสิทธิภาพ ในบทแนะนำฉบับเต็มนี้ เราจะพาคุณผ่านขั้นตอนทั้งหมด—from การตั้งค่าสภาพแวดล้อมจนถึงการสกัดแต่ละหน้าเป็นไฟล์อิสระ เมื่อจบคุณจะสามารถ **บันทึกแต่ละหน้าแยกกัน** ทำให้การเก็บถาวรเอกสาร, การพิมพ์, หรือการประมวลผลต่อเนื่องเป็นเรื่องง่าย
 
-หากคุณทำงานกับการประมวลผลเอกสารใน Java Aspose.Words สำหรับ Java คือ API ที่มีประสิทธิภาพที่จะช่วยให้คุณแบ่งเอกสารออกเป็นหน้าต่างๆ ได้อย่างมีประสิทธิภาพ ในบทช่วยสอนแบบทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการแบ่งเอกสารโดยใช้โค้ดต้นฉบับที่ให้มา เมื่อจบบทช่วยสอนนี้ คุณจะสามารถแบ่งเอกสารได้อย่างง่ายดาย ซึ่งจะช่วยปรับปรุงความสามารถในการจัดการเอกสารของคุณ
+## คำตอบอย่างรวดเร็ว
+- **“แยกหน้าเอกสาร Word” หมายถึงอะไร?** หมายถึงการสกัดแต่ละหน้าของไฟล์ Word ให้เป็นเอกสารแยกส่วนของตนเอง  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Words for Java (ดาวน์โหลด [ที่นี่](https://releases.aspose.com/words/java/))  
+- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองเพื่อทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **สามารถระบุโฟลเดอร์ปลายทางได้หรือไม่?** ได้ — เพียงเปลี่ยนพาธในเมธอด `save`  
+- **รองรับเวอร์ชัน Java ใด?** Java 8 ขึ้นไป  
 
-## 1. บทนำ
+## การแยกหน้าเอกสาร Word คืออะไร?
+การแยกหน้าเอกสาร Word หมายถึงเทคนิคการแบ่งไฟล์ Word ที่มีหลายหน้าให้เป็นเอกสารหนึ่งหน้าต่อหนึ่งไฟล์โดยอัตโนมัติ ซึ่งมีประโยชน์เมื่อคุณต้องการแจกจ่ายหน้าแยกกัน, สร้างภาพย่อ, หรือใช้การรักษาความปลอดภัยระดับหน้า
 
-Aspose.Words สำหรับ Java เป็นไลบรารี Java ที่ช่วยให้คุณสามารถจัดการเอกสาร Word ได้ด้วยโปรแกรม งานทั่วไปอย่างหนึ่งคือการแบ่งเอกสารออกเป็นหน้าต่างๆ ซึ่งอาจมีประโยชน์สำหรับวัตถุประสงค์ต่างๆ เช่น การจัดเก็บ การพิมพ์ หรือการประมวลผลเอกสาร
+## ทำไมต้องแยกเอกสารเป็นหน้าแยก?
+- **การเก็บถาวร:** เก็บแต่ละหน้าเป็นไฟล์อิสระเพื่อการดึงข้อมูลที่ง่ายขึ้น  
+- **การพิมพ์:** ส่งเฉพาะหน้าที่เลือกไปยังเครื่องพิมพ์โดยไม่ต้องโหลดเอกสารทั้งหมด  
+- **การประมวลผล:** ใช้กระบวนการทำงานต่าง ๆ (เช่น OCR, การใส่ลายน้ำ) แยกตามหน้า  
 
-## 2. ข้อกำหนดเบื้องต้น
+## ข้อกำหนดเบื้องต้น
+- ติดตั้ง Java Development Kit (JDK)  
+- ไลบรารี Aspose.Words for Java ซึ่งสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/words/java/)  
+- IDE Java เบื้องต้น (IntelliJ IDEA, Eclipse ฯลฯ)  
 
-ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+## การตั้งค่าสภาพแวดล้อมการพัฒนา
+1. **สร้างโปรเจกต์ Java ใหม่** ใน IDE ของคุณ  
+2. **เพิ่มไฟล์ JAR ของ Aspose.Words** ไปยัง classpath ของโปรเจกต์ รายละเอียดขั้นตอนสามารถดูได้ใน [เอกสารอย่างเป็นทางการ](https://reference.aspose.com/words/java/)  
 
-- Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
-- ไลบรารี Aspose.Words สำหรับ Java ซึ่งคุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/words/java/).
+## ทำความเข้าใจโค้ดหลัก
 
-## 3. การตั้งค่าสภาพแวดล้อมของคุณ
-
-ในการเริ่มต้น ให้ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณดังต่อไปนี้:
-
-- สร้างโครงการ Java ใน Integrated Development Environment (IDE) ที่คุณต้องการ
-- เพิ่มไลบรารี Aspose.Words สำหรับ Java ลงในโปรเจ็กต์ของคุณ คุณสามารถดูได้ที่ [เอกสารประกอบ](https://reference.aspose.com/words/java/) สำหรับคำแนะนำโดยละเอียด
-
-## 4. ทำความเข้าใจเกี่ยวกับซอร์สโค้ด
-
-ซอร์สโค้ดที่คุณให้มาได้รับการออกแบบมาเพื่อแบ่งเอกสารออกเป็นหน้าต่างๆ กัน มาแยกส่วนประกอบหลักๆ กัน:
+ด้านล่างเป็นสแนปแรกที่เตรียมชื่อไฟล์และโหลดเอกสาร
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +54,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- เราแยกชื่อฐานและส่วนขยายของเอกสารอินพุต
-- เราโหลดเอกสารโดยใช้ Aspose.Words สำหรับ Java
+- เราสกัดชื่อฐานและส่วนต่อท้ายเพื่อสร้างชื่อไฟล์ผลลัพธ์  
+- `Document` โหลดไฟล์ Word ต้นฉบับ ทำให้เรามีการเข้าถึงเต็มรูปแบบของหน้า  
 
-## 5. การแยกเอกสารทีละขั้นตอน
+## คำแนะนำขั้นตอนต่อขั้นตอนเพื่อแยกหน้าเอกสาร Word
 
-### 5.1. การโหลดเอกสาร
-
+### ขั้นตอนที่ 1: โหลดเอกสารต้นฉบับ
 ```java
 Document doc = new Document(docName);
 ```
+โค้ดนี้สร้างการแสดงผลของไฟล์ Word ในหน่วยความจำ
 
-ในขั้นตอนนี้เราจะโหลดเอกสารอินพุตลงใน `Document` วัตถุที่ช่วยให้เราทำงานกับเนื้อหาของเอกสารได้
-
-### 5.2. การเริ่มต้นใช้งาน DocumentPageSplitter
-
+### ขั้นตอนที่ 2: เริ่มต้นตัวแยกหน้า
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+`DocumentPageSplitter` เป็นคลาสช่วยเหลือที่รู้วิธีแยกแต่ละหน้าเป็นอ็อบเจกต์ `Document` แยกจากกัน
 
-เราเริ่มต้น `DocumentPageSplitter` วัตถุกับเอกสารที่เราโหลด คลาสนี้จัดทำโดย Aspose.Words สำหรับ Java และช่วยให้เราแบ่งเอกสารออกเป็นหน้าๆ
-
-### 5.3. การบันทึกแต่ละหน้า
-
+### ขั้นตอนที่ 3: วนลูปผ่านหน้าและบันทึกแต่ละหน้า
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- ลูปทำงานตั้งแต่หน้า 1 ถึงจำนวนหน้าทั้งหมด  
+- `getDocumentOfPage(page)` คืนค่า `Document` ใหม่ที่มีเฉพาะหน้านั้น  
+- `save` เขียนหน้าไปยังดิสก์; แทนที่ **Your Directory Path** ด้วยโฟลเดอร์ที่คุณต้องการ  
 
-ในขั้นตอนนี้ เราจะทำซ้ำในแต่ละหน้าของเอกสารและบันทึกเป็นเอกสารแยกกัน คุณสามารถระบุเส้นทางไดเรกทอรีที่จะบันทึกหน้าที่แยกได้
-
-## 6. การรันโค้ด
-
-หากต้องการเรียกใช้โค้ดนี้ให้สำเร็จ โปรดตรวจสอบว่าคุณได้ตั้งค่าสภาพแวดล้อมและเพิ่มไลบรารี Aspose.Words สำหรับ Java ลงในโปรเจ็กต์ของคุณแล้ว จากนั้นให้เรียกใช้โค้ด แล้วเอกสารของคุณจะถูกแบ่งออกเป็นหน้าต่างๆ
-
-## รหัสต้นฉบับ DocumentPageSplitter
+### โค้ดเต็มของ DocumentPageSplitter
+บล็อกต่อไปนี้เป็นการทำงานเต็มของคลาสแยกหน้าและยูทิลิตี้ที่สนับสนุน อย่าปรับเปลี่ยน; นี่คือเครื่องยนต์ที่ทำให้การสกัดระดับหน้ามั่นคง
 
 ```java
-/// <สรุป>
-/// แบ่งเอกสารออกเป็นหลาย ๆ เอกสาร หนึ่งฉบับต่อหน้า
-/// </สรุป>
+/// <summary>
+/// Splits a document into multiple documents, one per page.
+/// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <สรุป>
-/// เริ่มต้นอินสแตนซ์ใหม่ของคลาส <see cref="DocumentPageSplitter"/>
-//วิธีการนี้จะแบ่งเอกสารออกเป็นส่วนๆ เพื่อให้แต่ละหน้าเริ่มต้นและสิ้นสุดที่ขอบเขตของส่วน
-/// แนะนำให้ไม่แก้ไขเอกสารภายหลัง
-/// </สรุป>
-/// <param name="source">เอกสารต้นฉบับ</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
+/// </summary>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,30 +105,30 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <สรุป>
-/// รับเอกสารของหน้า
-/// </สรุป>
-/// <param name="ดัชนีหน้า">
-/// ดัชนีของหน้าแบบ 1
-/// </พารามิเตอร์>
-/// <กลับ>
-/// <ดู cref="Document"/>
-/// </กลับ>
+/// <summary>
+/// Gets the document of a page.
+/// </summary>
+/// <param name="pageIndex">
+/// 1-based index of a page.
+/// </param>
+/// <returns>
+/// The <see cref="Document"/>.
+/// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <สรุป>
-/// รับเอกสารของช่วงหน้า
-/// </สรุป>
-/// <param name="ดัชนีเริ่มต้น">
-/// ดัชนีที่ 1 ของหน้าเริ่มต้น
-/// </พารามิเตอร์>
-//<param name="endIndex">
-/// ดัชนีที่ 1 ของหน้าสุดท้าย
-/// </พารามิเตอร์>
-/// <กลับ>
-/// <ดู cref="Document"/>
-/// </กลับ>
+/// <summary>
+/// Gets the document of a page range.
+/// </summary>
+/// <param name="startIndex">
+/// 1-based index of the start page.
+/// </param>
+/// <param name="endIndex">
+/// 1-based index of the end page.
+/// </param>
+/// <returns>
+/// The <see cref="Document"/>.
+/// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
 	for (Node section : pageNumberFinder.retrieveAllNodesOnPages(startIndex, endIndex, NodeType.SECTION))
@@ -138,22 +138,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <สรุป>
-/// ให้วิธีการในการแยกโหนดของเอกสารซึ่งจะแสดงผลบนหน้าที่ระบุ
-/// </สรุป>
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
+/// </summary>
 class PageNumberFinder
 {
-// โหนดแผนที่ไปยังหมายเลขหน้าเริ่มต้น/สิ้นสุด
-// ใช้เพื่อแทนที่หมายเลขหน้าพื้นฐานที่ตัวรวบรวมให้ไว้เมื่อเอกสารถูกแยกออก
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// แมปหมายเลขหน้าไปยังรายการโหนดที่พบในเพจนั้น
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <สรุป>
-/// เริ่มต้นอินสแตนซ์ใหม่ของคลาส <see cref="PageNumberFinder"/>
-/// </สรุป>
-/// <param name="collector">อินสแตนซ์ตัวรวบรวมที่มีระเบียนโมเดลเค้าโครงสำหรับเอกสาร</param>
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
+/// </summary>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +162,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <สรุป>
-/// ดึงข้อมูลดัชนีแบบ 1 ของหน้าที่โหนดเริ่มต้น
-/// </สรุป>
-/// <param name="โหนด">
-/// โหนด
-/// </พารามิเตอร์>
-/// <กลับ>
-/// ดัชนีหน้า
-/// </กลับ>
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
+/// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <สรุป>
-/// ดึงข้อมูลดัชนีพื้นฐาน 1 ของหน้าที่โหนดสิ้นสุด
-/// </สรุป>
-/// <param name="โหนด">
-/// โหนด
-/// </พารามิเตอร์>
-/// <กลับ>
-/// ดัชนีหน้า
-/// </กลับ>
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
+/// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <สรุป>
-/// ส่งคืนจำนวนหน้าที่โหนดที่ระบุครอบคลุม ส่งคืน 1 ถ้าโหนดอยู่ในหน้าเดียว
-/// </สรุป>
-/// <param name="โหนด">
-/// โหนด
-/// </พารามิเตอร์>
-/// <กลับ>
-/// ดัชนีหน้า
-/// </กลับ>
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
+/// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <สรุป>
-/// ส่งคืนรายการโหนดที่มีอยู่ในหน้าที่ระบุหรือหน้าต่างๆ ที่ตรงกับประเภทโหนดที่ระบุ
-/// </สรุป>
-/// <param name="หน้าเริ่มต้น">
-/// หน้าเริ่มต้น
-/// </พารามิเตอร์>
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
+/// </summary>
+/// <param name="startPage">
+/// The start Page.
+/// </param>
 /// <param name="endPage">
-/// หน้าจบ.
-/// </พารามิเตอร์>
-/// <param name="ประเภทโหนด">
-/// ประเภทโหนด
-/// </พารามิเตอร์>
-/// <กลับ>
-/// <ดู cref="IList{T}"/>.
-/// </กลับ>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*ประเภทโหนด*/int nodeType) throws Exception
+/// The end Page.
+/// </param>
+/// <param name="nodeType">
+/// The node Type.
+/// </param>
+/// <returns>
+/// The <see cref="IList{T}"/>.
+/// </returns>
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +231,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*ป
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// บางหน้าอาจจะว่างเปล่า
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,10 +248,10 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*ป
 	}
 	return pageNodes;
 }
-/// <สรุป>
-/// แยกโหนดที่ปรากฏบนเพจสองเพจหรือมากกว่าเป็นโหนดแยกกันเพื่อให้ยังคงปรากฏในลักษณะเดียวกัน
-/// แต่ไม่ปรากฏข้ามหน้าอีกต่อไป
-/// </สรุป>
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
+/// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
 	for (Paragraph paragraph : (Iterable<Paragraph>) collector.getDocument().getChildNodes(NodeType.PARAGRAPH, true))
@@ -262,21 +262,21 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// เยี่ยมชมคอมโพสิตใดๆ ที่อาจแยกออกเป็นหลายหน้าและแยกออกเป็นโหนดแยกกัน
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <สรุป>
-/// เรียกโดย <see cref="SectionSplitter"/> เพื่ออัปเดตหมายเลขหน้าของโหนดที่แยก
-/// </สรุป>
-/// <param name="โหนด">
-/// โหนด
-/// </พารามิเตอร์>
-/// <param name="หน้าเริ่มต้น">
-/// หน้าเริ่มต้น
-/// </พารามิเตอร์>
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
+/// </summary>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <param name="startPage">
+/// The start Page.
+/// </param>
 /// <param name="endPage">
-/// หน้าจบ.
-/// </พารามิเตอร์>
+/// The end Page.
+/// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
 	if (startPage > 0)
@@ -298,10 +298,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// เพิ่มแต่ละโหนดลงในรายการที่แสดงถึงโหนดที่พบในแต่ละเพจ
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// ส่วนหัว/ส่วนท้ายจะตามส่วนต่างๆ และไม่แยกโดยตัวของมันเอง
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,10 +350,10 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <สรุป>
-/// แยกข้อความของการทำงานที่ระบุออกเป็นสองการทำงาน
-/// แทรกการทำงานใหม่ทันทีหลังการทำงานที่ระบุ
-/// </สรุป>
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
+/// </summary>
 private void splitRun(Run run, int position)
 {
 	Run afterRun = (Run) run.deepClone(true);
@@ -380,9 +380,9 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <สรุป>
-/// แบ่งเอกสารออกเป็นหลายส่วนเพื่อให้แต่ละหน้าเริ่มต้นและสิ้นสุดที่ขอบเขตของส่วน
-/// </สรุป>
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
+/// </summary>
 class SectionSplitter extends DocumentVisitor
 {
 private PageNumberFinder pageNumberFinder;
@@ -410,8 +410,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// หากมีส่วนก่อนหน้า ให้พยายามคัดลอกส่วนหัวส่วนท้ายที่เชื่อมโยงใดๆ
-	// มิฉะนั้น จะไม่ปรากฏในเอกสารที่แยกออกมาถ้าส่วนก่อนหน้าหายไป
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +454,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// หากในย่อหน้ามีเพียงตัวแบ่งส่วน ให้เพิ่มการวิ่งปลอมเข้าไป
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +466,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// ลบการนับรายการออกจากย่อหน้าที่โคลน แต่ปล่อยให้การเยื้องเป็นเหมือนเดิม 
-		// เนื่องจากย่อหน้าควรเป็นส่วนหนึ่งของรายการก่อนหน้านี้
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// รีเซ็ตระยะห่างระหว่างย่อหน้าในตาราง เนื่องจากระยะห่างเพิ่มเติมอาจทำให้ตารางดูแตกต่างออกไป
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +493,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// แก้ไขการแบ่งหน้าที่ส่วนท้ายของส่วน
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// เพิ่มการกำหนดหมายเลขหน้าใหม่สำหรับเนื้อหาของส่วนนั้นด้วย
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return การกระทำของผู้เยี่ยมชม.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +516,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// โหนดอาจขยายไปทั่วทั้งหลายหน้า ดังนั้นรายการตำแหน่งที่แยกจะถูกส่งคืน
-	// โหนดที่แยกจะเป็นโหนดแรกในหน้าถัดไป
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +530,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// หากหน้าของโหนดย่อยมีการเปลี่ยนแปลง นี่คือตำแหน่งที่แยก
-		// เพิ่มสิ่งนี้ลงในรายการ
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +542,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// แยกคอมโพสิตแบบถอยหลัง ดังนั้นโหนดโคลนจะถูกแทรกในลำดับที่ถูกต้อง
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +550,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// ย้ายโหนดทั้งหมดที่พบในหน้าถัดไปไปยังโหนดที่คัดลอก จัดการโหนดแถวแยกกัน
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +570,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// หากเรากำลังจัดการกับแถว เราจะต้องเพิ่มเซลล์เสมือนให้กับแถวที่โคลน
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +596,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// แทรกโหนดแยกหลังต้นฉบับ
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// อัปเดตหมายเลขหน้าใหม่ของโหนดฐานและโหนดโคลน รวมถึงโหนดลูกหลานของมัน
-	// นี่จะเป็นหน้าเดียวเท่านั้น เนื่องจากคอมโพสิตที่โคลนถูกแยกออกเพื่อให้อยู่ในหน้าเดียว
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +668,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
-## บทสรุป
-
-ตอนนี้คุณได้เรียนรู้วิธีแบ่งเอกสารออกเป็นหน้าต่างๆ โดยใช้ Aspose.Words สำหรับ Java แล้ว คู่มือนี้ประกอบด้วยบทช่วยสอนแบบทีละขั้นตอนอย่างครอบคลุมพร้อมตัวอย่างโค้ดต้นฉบับ คุณสามารถปรับแต่งและขยายโค้ดนี้เพิ่มเติมเพื่อตอบสนองความต้องการเฉพาะของคุณเมื่อทำงานกับเอกสาร
-แน่นอน! มาเพิ่มส่วนคำถามที่พบบ่อยในคู่มือการแบ่งเอกสารออกเป็นหน้าต่างๆ โดยใช้ Aspose.Words สำหรับ Java กัน
+## ปัญหาที่พบบ่อยและวิธีแก้
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|-----|
+| **`doc.getPageCount()` คืนค่า 0** | เอกสารยังไม่โหลดเต็มหรือเลย์เอาต์ไม่อัปเดต | เรียก `doc.updatePageLayout()` ก่อนลูป |
+| **ไฟล์ผลลัพธ์ว่าง** | พาธโฟลเดอร์ปลายทางไม่ถูกต้อง | ตรวจสอบให้แน่ใจว่าโฟลเดอร์มีอยู่และลงท้ายด้วยตัวคั่นไฟล์ (`/` หรือ `\\`) |
+| **หัวกระดาษ/ท้ายกระดาษหาย** | ลอจิกการแยกลบส่วนหัว/ท้ายเมื่อไม่มีส่วน | คลาส `SectionSplitter` จะคัดลอกหัว/ท้ายที่หายไปแล้ว; ใช้การทำงานที่ให้มาโดยไม่แก้ไข |
+| **Out‑Of‑Memory สำหรับไฟล์ขนาดใหญ่** | ไฟล์ DOCX ใหญ่เกินไปใช้หน่วยความจำ | เพิ่ม heap ของ JVM (`-Xmx2g`) หรือประมวลผลไฟล์เป็นชิ้นเล็ก ๆ หากทำได้ |
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเพิ่ม Aspose.Words สำหรับ Java ลงในโปรเจ็กต์ของฉันได้อย่างไร
+**ถาม:** ฉันจะเพิ่ม Aspose.Words for Java ลงในโปรเจกต์อย่างไร?  
+**ตอบ:** ดาวน์โหลดไลบรารีจาก [ที่นี่](https://releases.aspose.com/words/java/), เพิ่ม JAR ไปยัง classpath, แล้ว import แพ็กเกจที่ต้องการ
 
-หากต้องการเพิ่ม Aspose.Words สำหรับ Java ลงในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:
+**ถาม:** ฉันสามารถแยกเอกสารในรูปแบบอื่นได้หรือไม่, เช่น PDF หรือ DOCX?  
+**ตอบ:** คู่มือนี้เน้นที่เอกสาร Word (DOC/DOCX) ด้วย Aspose.Words. สำหรับ PDF คุณจะใช้ Aspose.PDF, และสำหรับรูปแบบอื่นอาจต้องใช้ API ที่แตกต่างกัน
 
-1. ดาวน์โหลดไลบรารี Aspose.Words สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/words/java/).
-2. เพิ่มไฟล์ JAR ที่ดาวน์โหลดลงใน classpath ของโปรเจ็กต์ของคุณ
-3. ตอนนี้คุณสามารถเริ่มใช้ Aspose.Words สำหรับ Java ในโปรเจ็กต์ของคุณได้แล้ว
+**ถาม:** Aspose.Words for Java เป็นไลบรารีฟรีหรือไม่?  
+**ตอบ:** ไม่, เป็นผลิตภัณฑ์เชิงพาณิชย์ ดูรายละเอียดราคาได้ที่หน้า Aspose.Words for Java pricing (https://purchase.aspose.com/words/java)
 
-### ฉันสามารถแยกเอกสารเป็นรูปแบบอื่นเช่น PDF หรือ DOCX ได้หรือไม่
+**ถาม:** ฉันสามารถปรับขนาดหรือแนวหน้ากระดาษสำหรับแต่ละหน้าที่แยกได้หรือไม่?  
+**ตอบ:** ได้ หลังจากได้ `pageDoc` แล้ว ปรับ `PageSetup` ก่อนบันทึก (เช่น `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`)
 
-ไม่ คู่มือนี้ครอบคลุมเฉพาะการแยกเอกสารในรูปแบบ DOC โดยใช้ Aspose.Words สำหรับ Java หากคุณจำเป็นต้องแยกเอกสารในรูปแบบอื่น คุณอาจต้องสำรวจไลบรารีหรือเครื่องมืออื่นที่รองรับรูปแบบเหล่านั้น
+**ถาม:** มีขีดจำกัดจำนวนหน้าที่สามารถแยกได้หรือไม่?  
+**ตอบ:** ไม่มีขีดจำกัดที่แน่นอน แต่เอกสารขนาดใหญ่มากจะต้องใช้หน่วยความจำและเวลาประมวลผลมากขึ้น ควรตรวจสอบทรัพยากรเมื่อทำงานกับไฟล์ขนาดใหญ่
 
-### Aspose.Words สำหรับ Java เป็นไลบรารีฟรีหรือไม่?
+## สรุป
+ตอนนี้คุณมีวิธีที่พร้อมใช้งานในระดับผลิตภัณฑ์เพื่อ **แยกหน้าเอกสาร Word** และ **บันทึกแต่ละหน้าแยกกัน** ด้วย Aspose.Words for Java ปรับพาธผลลัพธ์, ปรับตั้งค่าหน้า, หรือรวมตรรกะนี้เข้าไปในเวิร์กโฟลว์ที่ใหญ่ขึ้น เช่น การประมวลผลแบบแบตช์หรือบริการคลาวด์ ขอให้เขียนโค้ดอย่างสนุก!
 
-ไม่ Aspose.Words สำหรับ Java ไม่ใช่ไลบรารีฟรี มันเป็นผลิตภัณฑ์เชิงพาณิชย์ที่มีค่าธรรมเนียมใบอนุญาต คุณสามารถเยี่ยมชม [หน้าราคา Aspose.Words สำหรับ Java](https://purchase.aspose.com/words/java) เพื่อดูข้อมูลเพิ่มเติมเกี่ยวกับใบอนุญาตและรายละเอียดราคา
+---
 
-### ฉันสามารถแยกเอกสารให้เป็นขนาดและรูปแบบหน้าที่กำหนดเองได้หรือไม่
-
-ใช่ คุณสามารถปรับแต่งขนาดและรูปแบบของหน้าเอกสารที่แยกได้โดยแก้ไขคุณสมบัติการตั้งค่าหน้าใน Aspose.Words สำหรับ Java โปรดดูเอกสาร Aspose.Words สำหรับรายละเอียดเกี่ยวกับวิธีการปรับแต่งการตั้งค่าหน้าตามความต้องการของคุณ
-
-### มีข้อจำกัดใด ๆ เกี่ยวกับจำนวนหน้าที่สามารถแยกได้หรือไม่?
-
-Aspose.Words สำหรับ Java ไม่มีข้อจำกัดเฉพาะเจาะจงเกี่ยวกับจำนวนหน้าที่คุณสามารถแบ่งได้ อย่างไรก็ตาม โปรดทราบว่าเอกสารขนาดใหญ่มากอาจต้องใช้หน่วยความจำและเวลาในการประมวลผลมากขึ้น โปรดคำนึงถึงทรัพยากรระบบเมื่อทำงานกับเอกสารขนาดใหญ่
-
-### ฉันจะจัดการส่วนหัวและส่วนท้ายเมื่อแยกเอกสารได้อย่างไร
-
-คุณสามารถจัดการส่วนหัวและส่วนท้ายได้เมื่อแบ่งเอกสารโดยใช้ไลบรารี Aspose.Words สำหรับ Java คุณสามารถคัดลอกเนื้อหาส่วนหัวและส่วนท้ายจากเอกสารต้นฉบับไปยังเอกสารที่แบ่งได้ เพื่อให้แน่ใจว่าเนื้อหาเหล่านั้นได้รับการรักษาไว้อย่างถูกต้อง คุณอาจต้องปรับแต่งกระบวนการนี้ตามความต้องการส่วนหัวและส่วนท้ายที่เฉพาะเจาะจงของคุณ
-
+**อัปเดตล่าสุด:** 2026-01-11  
+**ทดสอบกับ:** Aspose.Words 24.12 for Java  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

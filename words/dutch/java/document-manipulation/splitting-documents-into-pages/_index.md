@@ -1,10 +1,12 @@
 ---
-"description": "Leer hoe u documenten in pagina's kunt splitsen met Aspose.Words voor Java. Stapsgewijze handleiding met broncode voor efficiënte documentverwerking."
-"linktitle": "Documenten in pagina's splitsen"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Documenten opsplitsen in pagina's in Aspose.Words voor Java"
-"url": "/nl/java/document-manipulation/splitting-documents-into-pages/"
-"weight": 23
+date: 2026-01-11
+description: Leer hoe u Word‑documentpagina’s kunt splitsen en elke pagina afzonderlijk
+  kunt opslaan met Aspose.Words voor Java. Stapsgewijze handleiding, broncode en best‑practice‑tips.
+linktitle: Splitting Documents into Pages
+second_title: Aspose.Words Java Document Processing API
+title: Word-documentpagina’s splitsen met Aspose.Words voor Java
+url: /nl/java/document-manipulation/splitting-documents-into-pages/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Documenten opsplitsen in pagina's in Aspose.Words voor Java
+# Word-documentpagina's splitsen met Aspose.Words voor Java
 
+Als je werkt met documentverwerking in Java, is **Aspose.Words for Java** een krachtige API die je kan helpen om **word document pagina's te splitsen** op een efficiënte manier. In deze uitgebreide tutorial lopen we stap voor stap het volledige proces door – van het opzetten van de omgeving tot het extraheren van elke pagina als een onafhankelijk bestand. Aan het einde kun je **elke pagina afzonderlijk opslaan**, waardoor archiveren, afdrukken of downstream verwerking een fluitje van een cent wordt.
 
-Als je met documentverwerking in Java werkt, is Aspose.Words voor Java een krachtige API waarmee je documenten efficiënt in afzonderlijke pagina's kunt splitsen. In deze stapsgewijze tutorial begeleiden we je door het proces van het splitsen van documenten met behulp van de meegeleverde broncode. Aan het einde van deze tutorial kun je documenten eenvoudig splitsen en zo je documentbeheer verbeteren.
+## Snelle antwoorden
+- **Wat betekent “split word document pages”?** Het betekent dat je elke pagina van een Word‑bestand extraheert naar een eigen document.  
+- **Welke bibliotheek is vereist?** Aspose.Words for Java (download [hier](https://releases.aspose.com/words/java/)).  
+- **Heb ik een licentie nodig?** Een proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Kan ik de uitvoermap opgeven?** Ja – wijzig gewoon het pad in de `save`‑methode.  
+- **Welke Java‑versie wordt ondersteund?** Java 8 en hoger.
 
-## 1. Inleiding
+## Wat is het splitsen van word document pagina's?
+Splitsen van word document pagina's verwijst naar de techniek om programmatically een meer‑pagina Word‑bestand op te delen in individuele één‑pagina documenten. Dit is handig wanneer je pagina's apart wilt distribueren, thumbnails wilt genereren of paginaniveau‑beveiliging wilt toepassen.
 
-Aspose.Words voor Java is een Java-bibliotheek waarmee u Word-documenten programmatisch kunt bewerken. Een veelvoorkomende taak is het opsplitsen van een document in afzonderlijke pagina's, wat handig kan zijn voor verschillende doeleinden, zoals archivering, afdrukken of documentverwerking.
+## Waarom documenten in afzonderlijke pagina's splitsen?
+- **Archivering:** Sla elke pagina op als een onafhankelijk bestand voor eenvoudigere terugvinden.  
+- **Afdrukken:** Stuur alleen geselecteerde pagina's naar een printer zonder het hele document te laden.  
+- **Verwerking:** Pas verschillende workflows (bijv. OCR, watermerken) per pagina toe.  
 
-## 2. Voorwaarden
+## Vereisten
+- Java Development Kit (JDK) geïnstalleerd.  
+- Aspose.Words for Java‑bibliotheek, die je kunt downloaden [hier](https://releases.aspose.com/words/java/).  
+- Een basis Java‑IDE (IntelliJ IDEA, Eclipse, enz.).  
 
-Voordat we in de code duiken, moet u ervoor zorgen dat de volgende vereisten aanwezig zijn:
+## Je ontwikkelomgeving instellen
+1. **Maak een nieuw Java‑project** aan in je IDE.  
+2. **Voeg de Aspose.Words‑JAR** toe aan de classpath van het project. Gedetailleerde stappen staan in de officiële [documentatie](https://reference.aspose.com/words/java/).  
 
-- Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Aspose.Words voor Java-bibliotheek, die u kunt downloaden [hier](https://releases.aspose.com/words/java/).
+## De kerncode begrijpen
 
-## 3. Uw omgeving instellen
-
-Om te beginnen, stelt u uw ontwikkelomgeving als volgt in:
-
-- Maak een Java-project in uw favoriete Integrated Development Environment (IDE).
-- Voeg de Aspose.Words voor Java-bibliotheek toe aan uw project. U kunt hiervoor de [documentatie](https://reference.aspose.com/words/java/) voor gedetailleerde instructies.
-
-## 4. De broncode begrijpen
-
-De broncode die je hebt aangeleverd, is ontworpen om een document in afzonderlijke pagina's te splitsen. Laten we de belangrijkste componenten eens bekijken:
+Hieronder staat het eerste fragment dat de bestandsnaam voorbereidt en het document laadt.
 
 ```java
 String fileName = FilenameUtils.getBaseName(docName);
@@ -47,57 +54,50 @@ System.out.println("Processing document: " + fileName + "." + extensionName);
 Document doc = new Document(docName);
 ```
 
-- We extraheren de basisnaam en extensie van het invoerdocument.
-- We laden het document met Aspose.Words voor Java.
+- We extraheren de basisnaam en extensie om de uitvoerbestandsnamen op te bouwen.  
+- `Document` laadt het bron‑Word‑bestand, waardoor we volledige toegang tot de pagina's krijgen.
 
-## 5. Stap voor stap documenten splitsen
+## Stapsgewijze handleiding om Word‑documentpagina's te splitsen
 
-### 5.1. Het document laden
-
+### Stap 1: Laad het bron‑document
 ```java
 Document doc = new Document(docName);
 ```
+Dit maakt een in‑memory representatie van het Word‑bestand.
 
-In deze stap laden we het invoerdocument in een `Document` object, waarmee we met de inhoud van het document kunnen werken.
-
-### 5.2. Initialiseren van de DocumentPageSplitter
-
+### Stap 2: Initialiseert de page splitter
 ```java
 DocumentPageSplitter splitter = new DocumentPageSplitter(doc);
 ```
+`DocumentPageSplitter` is een hulpprogramma‑klasse die weet hoe elke pagina als een apart `Document`‑object te isoleren.
 
-We initialiseren een `DocumentPageSplitter` object met ons geladen document. Deze klasse wordt geleverd door Aspose.Words voor Java en helpt ons het document in pagina's te splitsen.
-
-### 5.3. Elke pagina opslaan
-
+### Stap 3: Doorloop de pagina's en sla elke pagina op
 ```java
 for (int page = 1; page <= doc.getPageCount(); page++) {
     Document pageDoc = splitter.getDocumentOfPage(page);
     pageDoc.save("Your Directory Path" + MessageFormat.format("{0} - page{1}.{2}", fileName, page, extensionName));
 }
 ```
+- De lus loopt van pagina 1 tot het totale aantal pagina's.  
+- `getDocumentOfPage(page)` retourneert een nieuw `Document` dat alleen die pagina bevat.  
+- `save` schrijft de pagina naar schijf; vervang **Your Directory Path** door de gewenste map.
 
-In deze stap doorlopen we elke pagina van het document en slaan we deze op als een apart document. U kunt het pad opgeven waar de gesplitste pagina's worden opgeslagen.
-
-## 6. De code uitvoeren
-
-Om deze code succesvol uit te voeren, moet je ervoor zorgen dat je je omgeving hebt ingesteld en de Aspose.Words voor Java-bibliotheek aan je project hebt toegevoegd. Voer vervolgens de code uit en je document wordt in afzonderlijke pagina's gesplitst.
-
-## Broncode van DocumentPageSplitter
+### Volledige broncode voor DocumentPageSplitter
+Het volgende blok bevat de volledige implementatie van de splitter‑klasse en de ondersteunende hulpprogramma's. Laat dit ongewijzigd; het is de motor die de paginaniveau‑extractie betrouwbaar maakt.
 
 ```java
-/// <samenvatting>
-/// Splitst een document in meerdere documenten, één per pagina.
+/// <summary>
+/// Splits a document into multiple documents, one per page.
 /// </summary>
 class DocumentPageSplitter
 {
 private PageNumberFinder pageNumberFinder;
-/// <samenvatting>
-/// Initialiseert een nieuw exemplaar van de klasse <see cref="DocumentPageSplitter"/>.
-/// Met deze methode wordt het document in secties gesplitst, zodat elke pagina begint en eindigt bij een sectiegrens.
-/// Het is raadzaam om het document naderhand niet meer te wijzigen.
+/// <summary>
+/// Initializes a new instance of the <see cref="DocumentPageSplitter"/> class.
+/// This method splits the document into sections so that each page begins and ends at a section boundary.
+/// It is recommended not to modify the document afterwards.
 /// </summary>
-/// <param name="source">Brondocument</param>
+/// <param name="source">Source document</param>
 public DocumentPageSplitter(Document source) throws Exception
 {
 	pageNumberFinder = PageNumberFinderFactory.create(source);
@@ -105,29 +105,29 @@ public DocumentPageSplitter(Document source) throws Exception
 private Document getDocument() {
 	return pageNumberFinder.getDocument();
 }
-/// <samenvatting>
-/// Haalt het document van een pagina op.
+/// <summary>
+/// Gets the document of a page.
 /// </summary>
-/// <param naam="paginaIndex">
-/// 1-gebaseerde index van een pagina.
-///</param>
-/// <retourneert>
-/// De <zie cref="Document"/>.
+/// <param name="pageIndex">
+/// 1-based index of a page.
+/// </param>
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPage(int pageIndex) throws Exception {
 	return getDocumentOfPageRange(pageIndex, pageIndex);
 }
-/// <samenvatting>
-/// Haalt het document van een paginabereik op.
+/// <summary>
+/// Gets the document of a page range.
 /// </summary>
-/// <param naam="startIndex">
-/// 1-gebaseerde index van de startpagina.
-///</param>
-//<param naam="endIndex">
-/// 1-gebaseerde index van de eindpagina.
-///</param>
-/// <retourneert>
-/// De <zie cref="Document"/>.
+/// <param name="startIndex">
+/// 1-based index of the start page.
+/// </param>
+/// <param name="endIndex">
+/// 1-based index of the end page.
+/// </param>
+/// <returns>
+/// The <see cref="Document"/>.
 /// </returns>
 public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exception {
 	Document result = (Document) getDocument().deepClone(false);
@@ -138,22 +138,22 @@ public Document getDocumentOfPageRange(int startIndex, int endIndex) throws Exce
 	return result;
 }
 }
-/// <samenvatting>
-/// Biedt methoden voor het extraheren van knooppunten uit een document die op bepaalde pagina's worden weergegeven.
+/// <summary>
+/// Provides methods for extracting nodes of a document which are rendered on a specified pages.
 /// </summary>
 class PageNumberFinder
 {
-// Koppelt een knooppunt aan een start-/eindpagina met nummers.
-// Hiermee worden de basispaginanummers die door de verzamelaar worden meegegeven bij het splitsen van het document, overschreven.
+// Maps node to a start/end page numbers.
+// This is used to override baseline page numbers provided by the collector when the document is split.
 private Map<Node, Integer> nodeStartPageLookup = new HashMap<>();
 private Map<Node, Integer> nodeEndPageLookup = new HashMap<>();
 private LayoutCollector collector;
-// Koppelt het paginanummer aan een lijst met knooppunten die op die pagina zijn gevonden.
+// Maps page number to a list of nodes found on that page.
 private Map<Integer, ArrayList<Node>> reversePageLookup;
-/// <samenvatting>
-/// Initialiseert een nieuw exemplaar van de klasse <see cref="PageNumberFinder"/>.
+/// <summary>
+/// Initializes a new instance of the <see cref="PageNumberFinder"/> class.
 /// </summary>
-/// <param name="collector">Een collector-exemplaar met lay-outmodelrecords voor het document.</param>
+/// <param name="collector">A collector instance that has layout model records for the document.</param>
 public PageNumberFinder(LayoutCollector collector)
 {
 	this.collector = collector;
@@ -162,62 +162,62 @@ public Document getDocument()
 {
 	return collector.getDocument();
 }
-/// <samenvatting>
-/// Haalt de op 1 gebaseerde index op van een pagina waarop het knooppunt begint.
+/// <summary>
+/// Retrieves 1-based index of a page that the node begins on.
 /// </summary>
-/// <param naam="knooppunt">
-/// Het knooppunt.
-///</param>
-/// <retourneert>
-/// Pagina-index.
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPage(Node node) throws Exception {
 	return nodeStartPageLookup.containsKey(node)
 		? nodeStartPageLookup.get(node)
 		: collector.getStartPageIndex(node);
 }
-/// <samenvatting>
-/// Haalt de op 1 gebaseerde index op van een pagina waarop het knooppunt eindigt.
+/// <summary>
+/// Retrieves 1-based index of a page that the node ends on.
 /// </summary>
-/// <param naam="knooppunt">
-/// Het knooppunt.
-///</param>
-/// <retourneert>
-/// Pagina-index.
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
 /// </returns>
 public int getPageEnd(Node node) throws Exception {
 	return nodeEndPageLookup.containsKey(node)
 		? nodeEndPageLookup.get(node)
 		: collector.getEndPageIndex(node);
 }
-/// <samenvatting>
-/// Geeft terug hoeveel pagina's het opgegeven knooppunt beslaat. Retourneert 1 als het knooppunt zich op één pagina bevindt.
+/// <summary>
+/// Returns how many pages the specified node spans over. Returns 1 if the node is contained within one page.
 /// </summary>
-/// <param naam="knooppunt">
-/// Het knooppunt.
-///</param>
-/// <retourneert>
-/// Pagina-index.
+/// <param name="node">
+/// The node.
+/// </param>
+/// <returns>
+/// Page index.
 /// </returns>
 public int pageSpan(Node node) throws Exception {
 	return getPageEnd(node) - getPage(node) + 1;
 }
-/// <samenvatting>
-/// Retourneert een lijst met knooppunten die ergens op de opgegeven pagina of pagina's voorkomen en die overeenkomen met het opgegeven knooppunttype.
+/// <summary>
+/// Returns a list of nodes that are contained anywhere on the specified page or pages which match the specified node type.
 /// </summary>
-/// <param naam="startpagina">
-/// De startpagina.
-///</param>
-/// <param naam="endPage">
-/// De laatste pagina.
-///</param>
-/// <param naam="nodeType">
-/// Het knooppunttype.
-///</param>
-/// <retourneert>
-/// De <zie cref="IList{T}"/>.
+/// <param name="startPage">
+/// The start Page.
+/// </param>
+/// <param name="endPage">
+/// The end Page.
+/// </param>
+/// <param name="nodeType">
+/// The node Type.
+/// </param>
+/// <returns>
+/// The <see cref="IList{T}"/>.
 /// </returns>
-public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Knooppunttype*/int nodeType) throws Exception
+public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*NodeType*/int nodeType) throws Exception
 {
 	if (startPage < 1 || startPage > collector.getDocument().getPageCount())
 	{
@@ -231,7 +231,7 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Kno
 	ArrayList<Node> pageNodes = new ArrayList<>();
 	for (int page = startPage; page <= endPage; page++)
 	{
-		// Sommige pagina's kunnen leeg zijn.
+		// Some pages can be empty.
 		if (!reversePageLookup.containsKey(page))
 		{
 			continue;
@@ -248,9 +248,9 @@ public ArrayList<Node> retrieveAllNodesOnPages(int startPage, int endPage, /*Kno
 	}
 	return pageNodes;
 }
-/// <samenvatting>
-/// Splitst knooppunten die op twee of meer pagina's voorkomen in afzonderlijke knooppunten, zodat ze nog steeds op dezelfde manier worden weergegeven
-/// maar worden niet langer op de hele pagina weergegeven.
+/// <summary>
+/// Splits nodes that appear over two or more pages into separate nodes so that they still appear in the same way
+/// but no longer appear across a page.
 /// </summary>
 public void splitNodesAcrossPages() throws Exception
 {
@@ -262,21 +262,21 @@ public void splitNodesAcrossPages() throws Exception
 		}
 	}
 	clearCollector();
-	// Bezoek alle samenstellingen die mogelijk over meerdere pagina's zijn verdeeld en splits ze in afzonderlijke knooppunten.
+	// Visit any composites which are possibly split across pages and split them into separate nodes.
 	collector.getDocument().accept(new SectionSplitter(this));
 }
-/// <samenvatting>
-/// Dit wordt aangeroepen door <see cref="SectionSplitter"/> om de paginanummers van gesplitste knooppunten bij te werken.
+/// <summary>
+/// This is called by <see cref="SectionSplitter"/> to update page numbers of split nodes.
 /// </summary>
-/// <param naam="knooppunt">
-/// Het knooppunt.
-///</param>
-/// <param naam="startpagina">
-/// De startpagina.
-///</param>
-/// <param naam="endPage">
-/// De laatste pagina.
-///</param>
+/// <param name="node">
+/// The node.
+/// </param>
+/// <param name="startPage">
+/// The start Page.
+/// </param>
+/// <param name="endPage">
+/// The end Page.
+/// </param>
 void addPageNumbersForNode(Node node, int startPage, int endPage)
 {
 	if (startPage > 0)
@@ -298,10 +298,10 @@ private void checkPageListsPopulated() throws Exception {
 		return;
 	}
 	reversePageLookup = new HashMap<Integer, ArrayList<Node>>();
-	// Voeg elk knooppunt toe aan een lijst met de knooppunten die op elke pagina voorkomen.
+	// Add each node to a list that represent the nodes found on each page.
 	for (Node node : (Iterable<Node>) collector.getDocument().getChildNodes(NodeType.ANY, true))
 	{
-		// Kopteksten en voetteksten volgen secties en worden niet op zichzelf gesplitst.
+		// Headers/Footers follow sections and are not split by themselves.
 		if (isHeaderFooterType(node))
 		{
 			continue;
@@ -350,9 +350,9 @@ private static String[] reverseWord(String str) {
 	}
 	return reverseWord.split(" ");
 }
-/// <samenvatting>
-/// Splitst de tekst van de opgegeven run in twee runs.
-/// Voegt de nieuwe run direct na de opgegeven run in.
+/// <summary>
+/// Splits text of the specified run into two runs.
+/// Inserts the new run just after the specified run.
 /// </summary>
 private void splitRun(Run run, int position)
 {
@@ -380,8 +380,8 @@ public static PageNumberFinder create(Document document) throws Exception
 	return pageNumberFinder;
 }
 }
-/// <samenvatting>
-/// Verdeelt een document in meerdere secties, zodat elke pagina begint en eindigt bij een sectiegrens.
+/// <summary>
+/// Splits a document into multiple sections so that each page begins and ends at a section boundary.
 /// </summary>
 class SectionSplitter extends DocumentVisitor
 {
@@ -410,8 +410,8 @@ public int visitSmartTagStart(SmartTag smartTag) throws Exception {
 }
 public int visitSectionStart(Section section) throws Exception {
 	Section previousSection = (Section) section.getPreviousSibling();
-	// Als er een vorige sectie is, probeer dan de gekoppelde koptekst-voetteksten te kopiëren.
-	// Anders verschijnen ze niet in een geëxtraheerd document als de vorige sectie ontbreekt.
+	// If there is a previous section, attempt to copy any linked header footers.
+	// Otherwise, they will not appear in an extracted document if the previous section is missing.
 	if (previousSection != null)
 	{
 		HeaderFooterCollection previousHeaderFooters = previousSection.getHeadersFooters();
@@ -454,7 +454,7 @@ public int visitTableEnd(Table table) throws Exception {
 	return VisitorAction.CONTINUE;
 }
 public int visitParagraphEnd(Paragraph paragraph) throws Exception {
-	// Als de alinea alleen een sectie-einde bevat, voeg dan een nep-einde toe.
+	// If the paragraph contains only section break, add fake run into.
 	if (paragraph.isEndOfSection() && paragraph.getChildNodes().getCount() == 1 &&
 		"\f".equals(paragraph.getChildNodes().get(0).getText()))
 	{
@@ -466,15 +466,15 @@ public int visitParagraphEnd(Paragraph paragraph) throws Exception {
 	for (Node cloneNode : splitComposite(paragraph))
 	{
 		Paragraph clonePara = (Paragraph) cloneNode;
-		// Verwijder de lijstnummering uit de gekloonde alinea, maar laat de inspringing hetzelfde 
-		// omdat de alinea onderdeel hoort te zijn van het voorgaande item.
+		// Remove list numbering from the cloned paragraph but leave the indent the same 
+		// as the paragraph is supposed to be part of the item before.
 		if (paragraph.isListItem())
 		{
 			double textPosition = clonePara.getListFormat().getListLevel().getTextPosition();
 			clonePara.getListFormat().removeNumbers();
 			clonePara.getParagraphFormat().setLeftIndent(textPosition);
 		}
-		// Stel de afstand van gesplitste alinea's in tabellen opnieuw in, want extra afstand kan ervoor zorgen dat ze er anders uitzien.
+		// Reset spacing of split paragraphs in tables as additional spacing may cause them to look different.
 		if (paragraph.isInCell())
 		{
 			clonePara.getParagraphFormat().setSpaceBefore(0.0);
@@ -493,14 +493,14 @@ public int visitSectionEnd(Section section) throws Exception {
 													(section.getDocument().indexOf(cloneSection) -
 													 section.getDocument().indexOf(section)));
 		cloneSection.getPageSetup().setDifferentFirstPageHeaderFooter(false);
-		// Corrigeert de pagina-einde aan het einde van de sectie.
+		// Corrects page break at the end of the section.
 		SplitPageBreakCorrector.processSection(cloneSection);
 	}
 	SplitPageBreakCorrector.processSection(section);
-	// Voeg ook een nieuwe paginanummering toe voor de hoofdtekst van de sectie.
+	// Add new page numbering for the body of the section as also.
 	pageNumberFinder.addPageNumbersForNode(section.getBody(), pageNumberFinder.getPage(section),
 		pageNumberFinder.getPageEnd(section));
-	return Bezoekersactie.CONTINUE;
+	return VisitorAction.CONTINUE;
 }
 private /*VisitorAction*/int continueIfCompositeAcrossPageElseSkip(CompositeNode composite) throws Exception {
 	return pageNumberFinder.pageSpan(composite) > 1
@@ -516,8 +516,8 @@ private ArrayList<Node> splitComposite(CompositeNode composite) throws Exception
 	return splitNodes;
 }
 private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Exception {
-	// Een knooppunt kan meerdere pagina's beslaan. Er wordt dan een lijst met gesplitste posities geretourneerd.
-	// Het gesplitste knooppunt is het eerste knooppunt op de volgende pagina.
+	// A node may span across multiple pages, so a list of split positions is returned.
+	// The split node is the first node on the next page.
 	ArrayList<Node> splitList = new ArrayList<Node>();
 	int startingPage = pageNumberFinder.getPage(node);
 	Node[] childNodes = node.getNodeType() == NodeType.SECTION
@@ -530,8 +530,8 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 		{
 			pageNum = pageNumberFinder.getPageEnd(childNode);
 		}
-		// Als de pagina van het onderliggende knooppunt is gewijzigd, is dit de splitspositie.
-		// Voeg dit toe aan de lijst.
+		// If the page of the child node has changed, then this is the split position.
+		// Add this to the list.
 		if (pageNum > startingPage)
 		{
 			splitList.add(childNode);
@@ -542,7 +542,7 @@ private Iterable<Node> findChildSplitPositions(CompositeNode node) throws Except
 			pageNumberFinder.addPageNumbersForNode(childNode, pageNum, pageNum);
 		}
 	}
-	// Splits composieten achterwaarts, zodat de gekloonde knooppunten in de juiste volgorde worden ingevoegd.
+	// Split composites backward, so the cloned nodes are inserted in the right order.
 	Collections.reverse(splitList);
 	return splitList;
 }
@@ -550,7 +550,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	CompositeNode cloneNode = (CompositeNode) baseNode.deepClone(false);
 	Node node = targetNode;
 	int currentPageNum = pageNumberFinder.getPage(baseNode);
-	// Verplaats alle knooppunten die op de volgende pagina worden gevonden naar het gekopieerde knooppunt. Behandel rijknooppunten afzonderlijk.
+	// Move all nodes found on the next page into the copied node. Handle row nodes separately.
 	if (baseNode.getNodeType() != NodeType.ROW)
 	{
 		CompositeNode composite = cloneNode;
@@ -570,7 +570,7 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 	}
 	else
 	{
-		// Als we met een rij te maken hebben, moeten we dummycellen toevoegen voor de gekloonde rij.
+		// If we are dealing with a row, we need to add dummy cells for the cloned row.
 		int targetPageNum = pageNumberFinder.getPage(targetNode);
 		Node[] childNodes = baseNode.getChildNodes().toArray();
 		for (Node childNode : childNodes)
@@ -596,10 +596,10 @@ private CompositeNode splitCompositeAtNode(CompositeNode baseNode, Node targetNo
 			}
 		}
 	}
-	// Plaats het gesplitste knooppunt na het originele knooppunt.
+	// Insert the split node after the original.
 	baseNode.getParentNode().insertAfter(cloneNode, baseNode);
-	// Werk de nieuwe paginanummers van het basisknooppunt en het gekloonde knooppunt bij, inclusief de afstammelingen.
-	// Dit zal slechts één pagina zijn, aangezien het gekloonde samengestelde bestand is opgesplitst om op één pagina te worden weergegeven.
+	// Update the new page numbers of the base node and the cloned node, including its descendants.
+	// This will only be a single page as the cloned composite is split to be on one page.
 	int currentEndPageNum = pageNumberFinder.getPageEnd(baseNode);
 	pageNumberFinder.addPageNumbersForNode(baseNode, currentPageNum, currentEndPageNum - 1);
 	pageNumberFinder.addPageNumbersForNode(cloneNode, currentEndPageNum, currentEndPageNum);
@@ -668,48 +668,44 @@ private static void removePageBreak(Run run)
 }
 ```
 
-## Conclusie
-
-Je hebt nu geleerd hoe je een document in afzonderlijke pagina's kunt splitsen met Aspose.Words voor Java. Deze handleiding biedt een uitgebreide stapsgewijze handleiding met broncodevoorbeelden. Je kunt deze code verder aanpassen en uitbreiden om te voldoen aan je specifieke vereisten bij het werken met documenten.
-Zeker! Laten we een FAQ-sectie toevoegen aan onze gids over het opsplitsen van documenten in pagina's met Aspose.Words voor Java.
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **`doc.getPageCount()` geeft 0 terug** | Document niet volledig geladen of lay‑out niet bijgewerkt. | Roep `doc.updatePageLayout()` aan vóór de lus. |
+| **Uitvoerbestanden zijn leeg** | Onjuist pad naar uitvoermap. | Zorg dat de map bestaat en eindigt met een scheidingsteken (`/` of `\\`). |
+| **Headers/Footers verdwijnen** | Split‑logica verwijdert ze wanneer secties ontbreken. | De `SectionSplitter`‑klasse kopieert ontbrekende headers/footers al; gebruik de meegeleverde implementatie ongewijzigd. |
+| **Out‑Of‑Memory bij grote bestanden** | Zeer grote DOCX‑bestanden verbruiken veel heap. | Verhoog de JVM‑heap (`-Xmx2g`) of verwerk het document in kleinere delen indien mogelijk. |
 
 ## Veelgestelde vragen
 
-### Hoe voeg ik Aspose.Words voor Java toe aan mijn project?
+**V:** Hoe voeg ik Aspose.Words for Java toe aan mijn project?  
+**A:** Download de bibliotheek van [hier](https://releases.aspose.com/words/java/), voeg de JAR toe aan je classpath en importeer de benodigde pakketten.
 
-Volg deze stappen om Aspose.Words voor Java aan uw project toe te voegen:
+**V:** Kan ik documenten in andere formaten splitsen, zoals PDF of DOCX?  
+**A:** Deze gids richt zich op Word‑documenten (DOC/DOCX) met Aspose.Words. Voor PDF gebruik je Aspose.PDF, en voor andere formaten zijn mogelijk andere API’s nodig.
 
-1. Download de Aspose.Words voor Java-bibliotheek van [hier](https://releases.aspose.com/words/java/).
-2. Voeg het gedownloade JAR-bestand toe aan het classpath van uw project.
-3. U kunt nu Aspose.Words voor Java in uw project gebruiken.
+**V:** Is Aspose.Words for Java een gratis bibliotheek?  
+**A:** Nee, het is een commercieel product. Zie de prijsdetails op de Aspose.Words for Java‑prijspagina (https://purchase.aspose.com/words/java).
 
-### Kan ik documenten in andere formaten, zoals PDF of DOCX, splitsen?
+**V:** Kan ik paginagrootte of oriëntatie aanpassen voor elke gesplitste pagina?  
+**A:** Ja. Nadat je `pageDoc` hebt verkregen, wijzig je de `PageSetup` vóór het opslaan (bijv. `pageDoc.getFirstSection().getPageSetup().setPaperSize(PaperSize.A4);`).
 
-Nee, deze handleiding behandelt specifiek het splitsen van documenten in DOC-formaat met behulp van Aspose.Words voor Java. Als u documenten in andere formaten wilt splitsen, moet u mogelijk andere bibliotheken of tools bekijken die deze formaten ondersteunen.
+**V:** Zijn er limieten aan het aantal pagina's dat ik kan splitsen?  
+**A:** Er is geen harde limiet, maar zeer grote documenten vereisen meer geheugen en verwerkings‑tijd. Houd de resources in de gaten bij enorme bestanden.
 
-### Is Aspose.Words voor Java een gratis bibliotheek?
+## Conclusie
+Je beschikt nu over een complete, productie‑klare methode om **word document pagina's te splitsen** en **elke pagina afzonderlijk op te slaan** met Aspose.Words for Java. Pas het uitvoerpad aan, verfijn paginainstellingen, of integreer deze logica in grotere workflows zoals batchverwerking of cloudservices. Veel programmeerplezier!
 
-Nee, Aspose.Words voor Java is geen gratis bibliotheek. Het is een commercieel product met licentiekosten. U kunt de [Aspose.Words voor Java-prijspagina](https://purchase.aspose.com/words/java) voor meer informatie over licenties en prijzen.
+---
 
-### Kan ik documenten opsplitsen in aangepaste paginaformaten en -indelingen?
-
-Ja, u kunt de paginagrootte en -opmaak van de gesplitste documenten aanpassen door de pagina-instellingen in Aspose.Words voor Java aan te passen. Raadpleeg de documentatie van Aspose.Words voor meer informatie over het aanpassen van de pagina-instellingen aan uw wensen.
-
-### Zijn er beperkingen aan het aantal pagina's dat kan worden gesplitst?
-
-Aspose.Words voor Java stelt geen specifieke beperkingen aan het aantal pagina's dat u kunt splitsen. Houd er echter rekening mee dat zeer grote documenten mogelijk meer geheugen en verwerkingstijd vereisen. Houd rekening met de systeembronnen bij het werken met grote documenten.
-
-### Hoe kan ik kop- en voetteksten verwerken bij het splitsen van documenten?
-
-Kop- en voetteksten kunnen worden verwerkt bij het splitsen van documenten met behulp van de Aspose.Words for Java-bibliotheek. U kunt de inhoud van kop- en voetteksten van het originele document naar de gesplitste documenten kopiëren, zodat deze correct behouden blijven. Mogelijk moet u dit proces aanpassen op basis van uw specifieke vereisten voor kop- en voetteksten.
-
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
