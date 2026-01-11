@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words for Java Temizleme Seçenekleriyle Belge Netliğini Geliştirin. Boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını nasıl kaldıracağınızı öğrenin."
-"linktitle": "Temizleme Seçeneklerini Kullanma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma"
-"url": "/tr/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Aspose.Words for Java temizlik seçeneklerini kullanarak Word belgesini
+  nasıl temizleyeceğinizi öğrenin; boş paragrafları, boş tablo satırlarını ve kullanılmayan
+  alanları kaldırmayı içeren.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words Temizleme Seçeneklerini Kullanarak Word Belgesini Temizleme (Java)
+url: /tr/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +16,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Temizleme Seçeneklerini Kullanma
+# Aspose.Words Temizleme Seçenekleriyle Word Belgesini Temizleme (Java)
 
+Bu öğreticide **Word belge** dosyalarını Aspose.Words for Java ile nasıl **temizleyeceğinizi** öğreneceksiniz. Faturalar, sözleşmeler veya toplu birleştirme raporları oluştururken, istenmeyen boş paragraflar, kullanılmayan alanlar veya boş tablo satırları son çıktının profesyonel görünümünü bozabilir. Her temizleme seçeneğini adım adım inceleyecek, ihtiyacınız olan tam kodu gösterecek ve *neden* her ayarın önemli olduğunu açıklayacağız, böylece her seferinde kusursuz belgeler üretebileceksiniz.
 
-## Aspose.Words for Java'da Temizleme Seçeneklerinin Kullanımına Giriş
+## Hızlı Yanıtlar
+- **“Word belgesini temizleme” ne anlama geliyor?** Birleştirme işleminden sonra boş paragrafları, kullanılmayan birleştirme bölgelerini, boş tablo satırlarını ve diğer gereksiz öğeleri kaldırmak.  
+- **Hangi temizleme seçeneği boş paragrafları kaldırır?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **Boş tablo satırlarını nasıl silebilirim?** `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` kullanın.  
+- **Hiç doldurulmamış alanlardan kurtulabilir miyim?** Evet – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` veya `REMOVE_EMPTY_FIELDS`.  
+- **Bu örnekleri çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme yeterlidir; üretim kullanımı için ticari lisans gereklidir.
 
-Bu eğitimde, Aspose.Words for Java'da posta birleştirme işlemi sırasında belgeleri düzenlemek ve temizlemek için temizleme seçeneklerinin nasıl kullanılacağını inceleyeceğiz. Temizleme seçenekleri, boş paragrafları, kullanılmayan bölgeleri ve daha fazlasını kaldırmak gibi belge temizlemenin çeşitli yönlerini kontrol etmenizi sağlar.
+## “Word Belgesini Temizleme” Mail Merge Bağlamında Ne Anlama Geliyor?
+Bir mail merge (birleştirme) işlemi yaptığınızda, Aspose.Words veri alanlarını ve bölgelerini belgeye yerleştirir. Bazı alanlar `null` ya da boş string alırsa, belge gereksiz paragraflar, boş tablolar veya yer tutucu bölgelerle kalabilir. **Temizleme seçenekleri**, bu kalıntıları otomatik olarak temizleyerek belgeyi temiz ve doğrudan yazdırılabilir hâle getirir.
 
-## Ön koşullar
+## Temizleme Seçeneklerini Neden Kullanmalısınız?
+- **Profesyonel görünüm:** Boş satırlar ya da yalnız kalan tablolar olmaz.  
+- **Daha küçük dosya boyutu:** Kullanılmayan öğelerin kaldırılması belge ağırlığını azaltır.  
+- **Sonraki işlemlerin basitleştirilmesi:** Temiz belgeler PDF, HTML vb. formatlara dönüştürülürken daha sorunsuz çalışır.  
+- **Zaman tasarrufu:** Tek satır ayarlar, manuel post‑işlem scriptlerini ortadan kaldırır.
 
-Başlamadan önce, projenize Aspose.Words for Java kütüphanesinin entegre olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
+## Ön Koşullar
+- Java geliştirme ortamı (JDK 8+).  
+- Aspose.Words for Java kütüphanesi – indirmek için [buraya](https://releases.aspose.com/words/java/) tıklayın.  
+- Mail‑merge kavramlarına temel aşinalık.
 
-## Adım 1: Boş Paragrafları Kaldırma
+## Adım Adım Kılavuz
+
+### Adım 1: Boş Paragrafları Nasıl Kaldırırsınız (Java)
+İlk olarak, görünür metin içermeyen paragrafların nasıl silineceğini göstereceğiz. Bu, bir birleştirme alanı `null` döndürdüğünde özellikle faydalıdır.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Birleştirme alanlarını ekle
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Temizleme seçeneklerini ayarlayın
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Noktalama işaretleriyle temizleme paragraflarını etkinleştir
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// Posta birleştirmeyi yürüt
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// Belgeyi kaydet
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-Bu örnekte, yeni bir belge oluşturuyoruz, birleştirme alanları ekliyoruz ve temizleme seçeneklerini boş paragrafları kaldıracak şekilde ayarlıyoruz. Ayrıca, noktalama işaretli paragrafların kaldırılmasını etkinleştiriyoruz. Posta birleştirmeyi yürüttükten sonra, belge belirtilen temizleme uygulanmış olarak kaydedilir.
+**Burada ne oluyor?**  
+- `REMOVE_EMPTY_PARAGRAPHS`, birleştirme sonrası boş kalan her paragrafı Aspose.Words’un kaldırmasını sağlar.  
+- `cleanupParagraphsWithPunctuationMarks` özelliğini etkinleştirmek, yalnız noktalama işareti içeren paragrafları da (ör. “?”) siler.
 
-## Adım 2: Birleştirilmemiş Bölgeleri Kaldırma
+### Adım 2: Birleştirilmemiş Bölgeleri Nasıl Kaldırırsınız
+Bir mail‑merge bölgesi için veri bulunmuyorsa, bölgeyi tamamen atabilirsiniz.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Kullanılmayan bölgeleri kaldırmak için temizleme seçeneklerini ayarlayın
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Bölgelerle posta birleştirmeyi yürüt
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// Belgeyi kaydet
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-Bu örnekte, birleştirme bölgeleri olan mevcut bir belgeyi açıyoruz, temizleme seçeneklerini kullanılmayan bölgeleri kaldıracak şekilde ayarlıyoruz ve ardından posta birleştirmeyi boş verilerle yürütüyoruz. Bu işlem, kullanılmayan bölgeleri belgeden otomatik olarak kaldırır.
+**Neden önemli?**  
+Kullanılmayan bölgeler genellikle boş bölümler ya da yalnız kalan başlıklar bırakır. `REMOVE_UNUSED_REGIONS` bayrağı bunları otomatik olarak temizler.
 
-## Adım 3: Boş Alanları Kaldırma
+### Adım 3: Boş Alanları Nasıl Kaldırırsınız
+Bir alan boş bir string alırsa, yalnız boş bir yer tutucu bırakmak yerine tüm alanı kaldırmak isteyebilirsiniz.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Boş alanları kaldırmak için temizleme seçeneklerini ayarlayın
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// Posta birleştirmeyi yürüt
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Belgeyi kaydet
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-Bu örnekte, birleştirme alanlarını içeren bir belge açıyoruz, temizleme seçeneklerini boş alanları kaldıracak şekilde ayarlıyoruz ve posta birleştirmeyi verilerle yürütüyoruz. Birleştirmeden sonra, boş alanlar belgeden kaldırılacaktır.
-
-## Adım 4: Kullanılmayan Alanları Kaldırma
+### Adım 4: Kullanılmayan Alanları Nasıl Kaldırırsınız
+Birleştirme sırasında hiç referans verilmeyen alanlar varsa, bunları tamamen temizleyebilirsiniz.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Kullanılmayan alanları kaldırmak için temizleme seçeneklerini ayarlayın
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// Posta birleştirmeyi yürüt
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Belgeyi kaydet
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-Bu örnekte, birleştirme alanlarıyla bir belge açıyoruz, temizleme seçeneklerini kullanılmayan alanları kaldıracak şekilde ayarlıyoruz ve posta birleştirmeyi verilerle yürütüyoruz. Birleştirmeden sonra, kullanılmayan tüm alanlar belgeden kaldırılacaktır.
-
-## Adım 5: İçeren Alanları Kaldırma
+### Adım 5: İçeren Alanları Nasıl Kaldırırsınız
+Bazen bir birleştirme alanı, aynı zamanda kaldırmak istediğiniz bir paragraf içinde bulunur.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// İçeren alanları kaldırmak için temizleme seçeneklerini ayarlayın
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// Posta birleştirmeyi yürüt
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Belgeyi kaydet
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-Bu örnekte, birleştirme alanlarını içeren bir belge açıyoruz, temizleme seçeneklerini içeren alanları kaldıracak şekilde ayarlıyoruz ve posta birleştirmeyi verilerle yürütüyoruz. Birleştirmeden sonra, alanların kendisi belgeden kaldırılacaktır.
-
-## Adım 6: Boş Tablo Satırlarını Kaldırma
+### Adım 6: Boş Tablo Satırlarını Nasıl Kaldırırsınız
+Tablolar, yalnız boş alanlar içeren satırlarla kalabilir. Bu seçenek o satırları budar.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Boş tablo satırlarını kaldırmak için temizleme seçeneklerini ayarlayın
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// Posta birleştirmeyi yürüt
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Belgeyi kaydet
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-Bu örnekte, bir tablo ve birleştirme alanları içeren bir belge açıyoruz, temizleme seçeneklerini boş tablo satırlarını kaldıracak şekilde ayarlıyoruz ve posta birleştirmeyi verilerle yürütüyoruz. Birleştirmeden sonra, boş tablo satırları belgeden kaldırılacaktır.
+## Yaygın Sorunlar ve Çözüm Önerileri
+- **Paragraflar kaldırılmıyor:** `setCleanupParagraphsWithPunctuationMarks(true)` çağrısının **temizleme seçeneği ayarlandıktan sonra** yapıldığından emin olun.  
+- **Boş tablo satırları kalıyor:** Tablo hücrelerinin gerçekten boş string (boşluk karakteri değil) içerdiğini doğrulayın.  
+- **Kullanılmayan alanlar kalıyor:** Doğru enum değerini (`REMOVE_UNUSED_FIELDS`) kullandığınızı ve alanların başka bir yerde yanlışlıkla doldurulmadığını kontrol edin.
 
-## Çözüm
+## Sık Sorulan Sorular
 
-Bu eğitimde, posta birleştirme işlemi sırasında belgeleri düzenlemek ve temizlemek için Aspose.Words for Java'daki temizleme seçeneklerini nasıl kullanacağınızı öğrendiniz. Bu seçenekler, belge temizliği üzerinde ayrıntılı denetim sağlayarak, kolayca cilalı ve özelleştirilmiş belgeler oluşturmanıza olanak tanır.
+**S: `REMOVE_EMPTY_FIELDS` ile `REMOVE_UNUSED_FIELDS` arasındaki fark nedir?**  
+C: `REMOVE_EMPTY_FIELDS`, birleştirme sırasında boş string ya da `null` alanları silerken, `REMOVE_UNUSED_FIELDS` birleştirme işlemi sırasında hiç referans verilmeyen alanları kaldırır.
 
-## SSS
+**S: Birden fazla temizleme seçeneğini bir arada kullanabilir miyim?**  
+C: Evet. `setCleanupOptions` metodu, enum değerlerinin bitwise OR’u ile birden çok seçeneği aynı anda alabilir; böylece paragraflar, tablolar ve bölgeler tek bir çağrıyla temizlenir.
 
-### Aspose.Words for Java'da temizleme seçenekleri nelerdir?
+**S: `cleanupParagraphsWithPunctuationMarks` normal metni etkiler mi?**  
+C: Yalnızca sadece noktalama işareti içeren paragrafları (ör. “?” veya “---”) kaldırır. Normal cümleler etkilenmez.
 
-Aspose.Words for Java'daki temizleme seçenekleri, posta birleştirme işlemi sırasında belge temizliğinin çeşitli yönlerini kontrol etmenizi sağlayan ayarlardır. Boş paragraflar, kullanılmayan bölgeler ve daha fazlası gibi gereksiz öğeleri kaldırmanızı sağlayarak, son belgenizin iyi yapılandırılmış ve cilalı olmasını sağlar.
+**S: Hangi noktalama işaretlerinin dikkate alındığını özelleştirebilir miyim?**  
+C: Mevcut API önceden tanımlı bir noktalama seti kullanır. Özel davranış için birleştirme sonrası belgeyi post‑process etmeniz gerekir.
 
-### Belgemdeki boş paragrafları nasıl kaldırabilirim?
+**S: Bu temizleme seçenekleri PDF dönüşümünde çalışır mı?**  
+C: Kesinlikle. Word belgesi temizlendikten sonra PDF, HTML veya başka bir desteklenen formata dönüştürülürken istenmeyen öğeler taşınmaz.
 
-Aspose.Words for Java kullanarak belgenizden boş paragrafları kaldırmak için, `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` true seçeneğine tıklayın. Bu, içeriği olmayan paragrafları otomatik olarak ortadan kaldırarak daha temiz bir belge elde etmenizi sağlar.
+## Sonuç
+Artık Aspose.Words for Java ile mail merge sırasında **Word belge** dosyalarını temizlemek için tam bir araç setine sahipsiniz. Uygun `MailMergeCleanupOptions` değerlerini seçerek boş paragrafları, boş tablo satırlarını, kullanılmayan alanları ve daha fazlasını otomatik olarak kaldırabilir; her seferinde şık, üretim‑hazır bir belge elde edebilirsiniz.
 
-### Amacı nedir? `REMOVE_UNUSED_REGIONS` temizleme seçeneği?
+---
 
-The `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` seçeneği, posta birleştirme işlemi sırasında karşılık gelen verisi olmayan bir belgedeki bölgeleri kaldırmak için kullanılır. Kullanılmayan yer tutuculardan kurtularak belgenizin düzenli kalmasına yardımcı olur.
-
-### Aspose.Words for Java kullanarak bir belgeden boş tablo satırlarını kaldırabilir miyim?
-
-Evet, boş tablo satırlarını bir belgeden kaldırmak için şu ayarı yapabilirsiniz: `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` temizleme seçeneğini true olarak ayarlayın. Bu, veri içermeyen tüm tablo satırlarını otomatik olarak silerek belgenizde iyi yapılandırılmış bir tablo olmasını sağlar.
-
-### Ayarladığımda ne olur? `REMOVE_CONTAINING_FIELDS` seçenek?
-
-Ayarlama `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` seçeneği, birleştirme alanı ve onu içeren paragrafı da dahil olmak üzere birleştirme alanının tamamını, posta birleştirme işlemi sırasında belgeden kaldıracaktır. Bu, birleştirme alanlarını ve ilişkili metinlerini ortadan kaldırmak istediğinizde yararlıdır.
-
-### Kullanılmayan birleştirme alanlarını belgemden nasıl kaldırabilirim?
-
-Kullanılmayan birleştirme alanlarını bir belgeden kaldırmak için, `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` seçeneğini true olarak ayarlayın. Bu, posta birleştirme sırasında doldurulmayan birleştirme alanlarını otomatik olarak ortadan kaldırarak daha temiz bir belge elde edilmesini sağlar.
-
-### Aradaki fark nedir? `REMOVE_EMPTY_FIELDS` Ve `REMOVE_UNUSED_FIELDS` temizleme seçenekleri?
-
-The `REMOVE_EMPTY_FIELDS` seçeneği, posta birleştirme işlemi sırasında veri içermeyen veya boş olan birleştirme alanlarını kaldırır. Öte yandan, `REMOVE_UNUSED_FIELDS` seçeneği birleştirme sırasında veriyle doldurulmayan birleştirme alanlarını kaldırır. Aralarındaki seçim, içeriği olmayan alanları mı yoksa belirli birleştirme işleminde kullanılmayan alanları mı kaldırmak istediğinize bağlıdır.
-
-### Noktalama işaretlerinin bulunduğu paragrafların kaldırılmasını nasıl sağlayabilirim?
-
-Noktalama işaretli paragrafların kaldırılmasını etkinleştirmek için, `cleanupParagraphsWithPunctuationMarks` true seçeneğini seçin ve temizlik için dikkate alınacak noktalama işaretlerini belirtin. Bu, gereksiz noktalama işaretlerinden oluşan paragrafları kaldırarak daha rafine bir belge oluşturmanıza olanak tanır.
-
-### Aspose.Words for Java'da temizleme seçeneklerini özelleştirebilir miyim?
-
-Evet, temizleme seçeneklerini özel ihtiyaçlarınıza göre özelleştirebilirsiniz. Hangi temizleme seçeneklerinin uygulanacağını seçebilir ve bunları belge temizleme gereksinimlerinize göre yapılandırabilir, böylece nihai belgenizin istediğiniz standartları karşılamasını sağlayabilirsiniz.
-
+**Son Güncelleme:** 2026-01-11  
+**Test Edilen Sürüm:** Aspose.Words for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

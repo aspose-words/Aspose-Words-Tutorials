@@ -1,10 +1,13 @@
 ---
-"description": "Verbeter de duidelijkheid van uw document met de opschoonopties van Aspose.Words voor Java. Leer hoe u lege alinea's, ongebruikte gebieden en meer verwijdert."
-"linktitle": "Opruimopties gebruiken"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Opruimopties gebruiken in Aspose.Words voor Java"
-"url": "/nl/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Leer hoe je een Word‑document kunt opschonen met behulp van de opruimopties
+  van Aspose.Words voor Java, inclusief het verwijderen van lege alinea’s, lege tabelrijen
+  en ongebruikte velden.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Word-document opschonen met Aspose.Words‑opruimopties (Java)
+url: /nl/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +16,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opruimopties gebruiken in Aspose.Words voor Java
+# Word-document opschonen met Aspose.Words Cleanup‑opties (Java)
 
+In deze tutorial ontdek je hoe je **Word‑documenten** kunt opschonen met Aspose.Words voor Java. Of je nu facturen, contracten of bulk‑mail‑merge‑rapporten genereert, ongewenste lege alinea’s, ongebruikte velden of lege tabelrijen kunnen het eindresultaat onprofessioneel laten lijken. We lopen stap‑voor‑stap elke opschoonoptie door, laten je de exacte code zien die je nodig hebt, en leggen *waarom* elke instelling belangrijk is zodat je elke keer gepolijste documenten kunt produceren.
 
-## Inleiding tot het gebruik van opruimopties in Aspose.Words voor Java
+## Snelle antwoorden
+- **Wat betekent “Word‑document opschonen”?** Het verwijderen van lege alinea’s, ongebruikte merge‑regio’s, lege tabelrijen en andere overbodige elementen na een mail‑merge‑bewerking.  
+- **Welke opschoonoptie verwijdert lege alinea’s?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **Hoe kan ik lege tabelrijen verwijderen?** Gebruik `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`.  
+- **Kan ik velden verwijderen die nooit zijn ingevuld?** Ja – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` of `REMOVE_EMPTY_FIELDS`.  
+- **Heb ik een licentie nodig om deze voorbeelden uit te voeren?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productiegebruik.
 
-In deze tutorial onderzoeken we hoe je opschoonopties in Aspose.Words voor Java kunt gebruiken om documenten te bewerken en op te schonen tijdens het samenvoegen. Met opschoonopties kun je verschillende aspecten van het opschonen van documenten beheren, zoals het verwijderen van lege alinea's, ongebruikte gedeelten en meer.
+## Wat betekent “Word‑document opschonen” in de context van Mail Merge?
+Wanneer je een mail‑merge uitvoert, voegt Aspose.Words gegevens in merge‑velden en -regio’s in. Als sommige velden `null` of lege strings ontvangen, kan het document eindigen met losse alinea’s, lege tabellen of placeholder‑regio’s. De **opschoonopties** verwijderen deze artefacten automatisch, waardoor een schoon, klaar‑om‑te‑printen document ontstaat.
+
+## Waarom opschoonopties gebruiken?
+- **Professionele uitstraling:** Geen lege regels of verweesde tabellen.  
+- **Kleinere bestandsgrootte:** Het verwijderen van ongebruikte elementen vermindert het documentgewicht.  
+- **Vereenvoudigde downstream‑verwerking:** Schone documenten zijn makkelijker te converteren naar PDF, HTML of andere formaten.  
+- **Tijdbesparing:** Eén‑regelige instellingen vervangen handmatige post‑processing‑scripts.
 
 ## Vereisten
+- Java‑ontwikkelomgeving (JDK 8+).  
+- Aspose.Words voor Java‑bibliotheek – download deze van [hier](https://releases.aspose.com/words/java/).  
+- Basiskennis van mail‑merge‑concepten.
 
-Voordat we beginnen, zorg ervoor dat je de Aspose.Words voor Java-bibliotheek in je project hebt geïntegreerd. Je kunt deze downloaden van [hier](https://releases.aspose.com/words/java/).
+## Stapsgewijze handleiding
 
-## Stap 1: Lege alinea's verwijderen
+### Stap 1: Lege alinea’s verwijderen (Java)
+Eerst laten we zien hoe je alinea’s die geen zichtbare tekst bevatten, kunt elimineren. Dit is vooral nuttig wanneer een merge‑veld `null` oplevert.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Samenvoegvelden invoegen
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Opruimopties instellen
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Opruimen van alinea's met leestekens inschakelen
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// Samenvoegen uitvoeren
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// Sla het document op
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-In dit voorbeeld maken we een nieuw document aan, voegen we samenvoegvelden in en stellen we de opschoonopties in om lege alinea's te verwijderen. Daarnaast schakelen we het verwijderen van alinea's met leestekens in. Na het uitvoeren van de samenvoeging wordt het document opgeslagen met de opgegeven opschoonbewerking.
+**Wat gebeurt er hier?**  
+- `REMOVE_EMPTY_PARAGRAPHS` vertelt Aspose.Words om elke alinea die na de merge leeg is, te verwijderen.  
+- Het inschakelen van `cleanupParagraphsWithPunctuationMarks` verwijdert ook alinea’s die uitsluitend uit interpunctie bestaan (bijv. “?”).
 
-## Stap 2: Niet-samengevoegde regio's verwijderen
+### Stap 2: Niet‑samengevoegde regio’s verwijderen
+Als een mail‑merge‑regio geen bijbehorende gegevens heeft, kun je deze volledig weggooien.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Stel opruimopties in om ongebruikte regio's te verwijderen
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Samenvoegen met regio's uitvoeren
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// Sla het document op
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-In dit voorbeeld openen we een bestaand document met samenvoegingsgebieden, stellen we de opschoonopties in om ongebruikte gebieden te verwijderen en voeren we vervolgens de samenvoeging uit met lege gegevens. Dit proces verwijdert automatisch de ongebruikte gebieden uit het document.
+**Waarom dit belangrijk is:**  
+Ongebruikte regio’s laten vaak lege secties of losse koppen achter. De vlag `REMOVE_UNUSED_REGIONS` verwijdert ze automatisch.
 
-## Stap 3: Lege velden verwijderen
+### Stap 3: Lege velden verwijderen
+Wanneer een veld een lege string ontvangt, wil je misschien het hele veld verwijderen in plaats van een lege placeholder achter te laten.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Stel opruimopties in om lege velden te verwijderen
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// Samenvoegen uitvoeren
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Sla het document op
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-In dit voorbeeld openen we een document met samenvoegvelden, stellen we de opschoonopties in om lege velden te verwijderen en voeren we de samenvoeging met gegevens uit. Na de samenvoeging worden alle lege velden uit het document verwijderd.
-
-## Stap 4: Ongebruikte velden verwijderen
+### Stap 4: Ongebruikte velden verwijderen
+Als bepaalde velden nooit worden aangeroepen tijdens de merge, kun je ze volledig weghalen.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Stel opruimopties in om ongebruikte velden te verwijderen
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// Samenvoegen uitvoeren
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Sla het document op
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-In dit voorbeeld openen we een document met samenvoegvelden, stellen we de opschoonopties in om ongebruikte velden te verwijderen en voeren we de samenvoeging met gegevens uit. Na de samenvoeging worden alle ongebruikte velden uit het document verwijderd.
-
-## Stap 5: Bevattende velden verwijderen
+### Stap 5: Bevatte velden verwijderen
+Soms bevindt een merge‑veld zich binnen een alinea die je ook wilt verwijderen.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Stel opruimopties in om de velden te verwijderen
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// Samenvoegen uitvoeren
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Sla het document op
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-In dit voorbeeld openen we een document met samenvoegvelden, stellen we de opschoonopties in om de velden in kwestie te verwijderen en voeren we de samenvoeging met gegevens uit. Na de samenvoeging worden de velden zelf uit het document verwijderd.
-
-## Stap 6: Lege tabelrijen verwijderen
+### Stap 6: Lege tabelrijen verwijderen
+Tabellen eindigen vaak met rijen die alleen lege velden bevatten. Deze optie snoeit die rijen weg.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Stel opruimopties in om lege tabelrijen te verwijderen
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// Samenvoegen uitvoeren
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Sla het document op
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-In dit voorbeeld openen we een document met een tabel en voegen we velden samen, stellen we de opschoonopties in om lege tabelrijen te verwijderen en voeren we de samenvoeging met gegevens uit. Na de samenvoeging worden alle lege tabelrijen uit het document verwijderd.
-
-## Conclusie
-
-In deze tutorial heb je geleerd hoe je de opschoonopties in Aspose.Words voor Java kunt gebruiken om documenten te bewerken en op te schonen tijdens het samenvoegen. Deze opties bieden gedetailleerde controle over het opschonen van documenten, zodat je gemakkelijk verzorgde en gepersonaliseerde documenten kunt maken.
+## Veelvoorkomende problemen & foutopsporing
+- **Alinea’s worden niet verwijderd:** Zorg ervoor dat `setCleanupParagraphsWithPunctuationMarks(true)` wordt aangeroepen *na* het instellen van de opschoonoptie.  
+- **Lege tabelrijen blijven bestaan:** Controleer of de tabelcellen echt lege strings bevatten (geen spaties).  
+- **Ongebruikte velden blijven staan:** Controleer of je de juiste enum (`REMOVE_UNUSED_FIELDS`) gebruikt en dat de merge‑velden niet per ongeluk elders worden gevuld.
 
 ## Veelgestelde vragen
 
-### Wat zijn de opschoonopties in Aspose.Words voor Java?
+**V: Wat is het verschil tussen `REMOVE_EMPTY_FIELDS` en `REMOVE_UNUSED_FIELDS`?**  
+A: `REMOVE_EMPTY_FIELDS` verwijdert velden die tijdens de merge een lege string of `null` ontvangen, terwijl `REMOVE_UNUSED_FIELDS` velden verwijdert die nooit door de merge‑operatie zijn aangeroepen.
 
-Opschoonopties in Aspose.Words voor Java zijn instellingen waarmee u verschillende aspecten van het opschonen van documenten tijdens het samenvoegen kunt beheren. Hiermee kunt u onnodige elementen zoals lege alinea's, ongebruikte gedeelten en meer verwijderen, zodat uw uiteindelijke document goed gestructureerd en gepolijst is.
+**V: Kan ik meerdere opschoonopties combineren?**  
+A: Ja. De methode `setCleanupOptions` accepteert een bitwise OR van enum‑waarden, zodat je alinea’s, tabellen en regio’s in één oproep kunt opschonen.
 
-### Hoe kan ik lege alinea's uit mijn document verwijderen?
+**V: Heeft het inschakelen van `cleanupParagraphsWithPunctuationMarks` invloed op normale tekst?**  
+A: Het verwijdert alleen alinea’s die uitsluitend uit interpunctietekens bestaan (bijv. “?” of “---”). Reguliere zinnen blijven onaangetast.
 
-Om lege alinea's uit uw document te verwijderen met Aspose.Words voor Java, kunt u de volgende instellingen gebruiken: `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` optie op 'true'. Dit verwijdert automatisch alinea's zonder inhoud, wat resulteert in een netter document.
+**V: Is het mogelijk om zelf te bepalen welke interpunctietekens worden beschouwd?**  
+A: De huidige API gebruikt een vooraf gedefinieerde set interpunctietekens. Voor aangepast gedrag moet je het document na de merge zelf post‑processen.
 
-### Wat is het doel van de `REMOVE_UNUSED_REGIONS` opruimoptie?
+**V: Werken deze opschoonopties ook bij PDF-conversie?**  
+A: Absoluut. Zodra het Word‑document is opgeschoond, kun je het converteren naar PDF, HTML of elk ander ondersteund formaat zonder de ongewenste elementen mee te nemen.
 
-De `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Deze optie wordt gebruikt om delen van een document die geen corresponderende gegevens bevatten te verwijderen tijdens het samenvoegen. Het helpt uw document overzichtelijk te houden door ongebruikte tijdelijke aanduidingen te verwijderen.
+## Conclusie
+Je beschikt nu over een volledige toolbox om **Word‑documenten** tijdens mail‑merge op te schonen met Aspose.Words voor Java. Door de juiste `MailMergeCleanupOptions` te selecteren, kun je automatisch lege alinea’s, lege tabelrijen, ongebruikte velden en meer verwijderen – waardoor je elke keer een strak, productie‑klaar document krijgt.
 
-### Kan ik lege tabelrijen uit een document verwijderen met Aspose.Words voor Java?
+---
 
-Ja, u kunt lege tabelrijen uit een document verwijderen door de `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` Opruimoptie op true. Hiermee worden automatisch alle tabelrijen verwijderd die geen gegevens bevatten, wat zorgt voor een goed gestructureerde tabel in uw document.
-
-### Wat gebeurt er als ik de `REMOVE_CONTAINING_FIELDS` optie?
-
-Het instellen van de `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Met deze optie verwijdert u het volledige samenvoegveld, inclusief de bijbehorende alinea, uit het document tijdens het samenvoegen. Dit is handig wanneer u samenvoegvelden en de bijbehorende tekst wilt verwijderen.
-
-### Hoe kan ik ongebruikte samenvoegvelden uit mijn document verwijderen?
-
-Om ongebruikte samenvoegvelden uit een document te verwijderen, kunt u de volgende instellingen gebruiken: `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` optie op true. Dit verwijdert automatisch samenvoegvelden die niet zijn ingevuld tijdens de samenvoeging, wat resulteert in een schoner document.
-
-### Wat is het verschil tussen `REMOVE_EMPTY_FIELDS` En `REMOVE_UNUSED_FIELDS` opruimopties?
-
-De `REMOVE_EMPTY_FIELDS` De optie verwijdert samenvoegvelden die geen gegevens bevatten of leeg zijn tijdens het samenvoegproces. Aan de andere kant, de `REMOVE_UNUSED_FIELDS` Met deze optie verwijdert u samenvoegvelden die tijdens het samenvoegen niet met gegevens zijn gevuld. De keuze tussen deze opties hangt af van of u velden zonder inhoud of velden die niet worden gebruikt in de specifieke samenvoegbewerking wilt verwijderen.
-
-### Hoe kan ik het verwijderen van alinea's met leestekens inschakelen?
-
-Om het verwijderen van alinea's met leestekens mogelijk te maken, kunt u de volgende instellingen gebruiken: `cleanupParagraphsWithPunctuationMarks` Selecteer de optie 'true' en geef aan welke leestekens moeten worden opgeschoond. Zo kunt u een verfijnder document maken door onnodige alinea's met alleen leestekens te verwijderen.
-
-### Kan ik de opruimopties in Aspose.Words voor Java aanpassen?
-
-Ja, u kunt de opschoonopties aanpassen aan uw specifieke behoeften. U kunt kiezen welke opschoonopties u wilt toepassen en deze configureren op basis van uw documentopschoonvereisten, zodat uw uiteindelijke document aan de gewenste normen voldoet.
-
+**Laatst bijgewerkt:** 2026-01-11  
+**Getest met:** Aspose.Words voor Java 24.11  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

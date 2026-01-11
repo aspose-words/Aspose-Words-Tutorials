@@ -1,10 +1,12 @@
 ---
-"description": "حسّن وضوح مستنداتك باستخدام خيارات التنظيف في Aspose.Words لجافا. تعرّف على كيفية إزالة الفقرات الفارغة والمناطق غير المستخدمة والمزيد."
-"linktitle": "استخدام خيارات التنظيف"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "استخدام خيارات التنظيف في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: تعلم كيفية تنظيف مستند Word باستخدام خيارات التنظيف في Aspose.Words for
+  Java، بما في ذلك إزالة الفقرات الفارغة، صفوف الجداول الفارغة، والحقول غير المستخدمة.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: تنظيف مستند Word باستخدام خيارات التنظيف في Aspose.Words (Java)
+url: /ar/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +15,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام خيارات التنظيف في Aspose.Words لـ Java
+# تنظيف مستند Word باستخدام خيارات التنظيف في Aspose.Words (Java)
 
+في هذا البرنامج التعليمي ستكتشف كيفية **تنظيف ملفات مستند Word** باستخدام Aspose.Words for Java. سواءً كنت تُنشئ فواتير، عقود، أو تقارير دمج بريدية ضخمة، فإن الفقرات الفارغة غير المرغوب فيها، الحقول غير المستخدمة، أو صفوف الجداول الفارغة يمكن أن تجعل المخرجات النهائية تبدو غير احترافية. سنستعرض كل خيار تنظيف خطوة بخطوة، نُظهر لك الشيفرة الدقيقة التي تحتاجها، ونشرح *لماذا* كل إعداد مهم حتى تتمكن من إنتاج مستندات مصقولة في كل مرة.
 
-## مقدمة حول استخدام خيارات التنظيف في Aspose.Words لـ Java
+## إجابات سريعة
+- **ماذا يعني “تنظيف مستند Word”؟** إزالة الفقرات الفارغة، مناطق الدمج غير المستخدمة، صفوف الجداول الفارغة، وغيرها من العناصر الزائدة بعد عملية دمج البريد.  
+- **أي خيار تنظيف يزيل الفقرات الفارغة؟** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **كيف يمكنني حذف صفوف الجداول الفارغة؟** استخدم `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`.  
+- **هل يمكنني التخلص من الحقول التي لم تُملأ أبداً؟** نعم – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` أو `REMOVE_EMPTY_FIELDS`.  
+- **هل أحتاج إلى ترخيص لتشغيل هذه الأمثلة؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للاستخدام في الإنتاج.
 
-في هذا البرنامج التعليمي، سنستكشف كيفية استخدام خيارات التنظيف في Aspose.Words لجافا لمعالجة المستندات وتنظيفها أثناء عملية دمج البريد. تتيح لك خيارات التنظيف التحكم في جوانب مختلفة من تنظيف المستندات، مثل إزالة الفقرات الفارغة والمناطق غير المستخدمة، وغيرها.
+## ما هو “تنظيف مستند Word” في سياق دمج البريد؟
+عند إجراء دمج بريد، يقوم Aspose.Words بإدخال البيانات في حقول ومناطق الدمج. إذا تلقت بعض الحقول قيمة `null` أو سلاسل فارغة، قد ينتهي المستند بوجود فقرات عشوائية، جداول فارغة، أو مناطق نائبة. **خيارات التنظيف** تقوم تلقائيًا بإزالة هذه البقايا، لتترك مستندًا نظيفًا وجاهزًا للطباعة.
 
-## المتطلبات الأساسية
+## لماذا نستخدم خيارات التنظيف؟
+- **مظهر احترافي:** لا خطوط فارغة ولا جداول مهجورة.  
+- **حجم ملف أصغر:** إزالة العناصر غير المستخدمة يقلل من وزن المستند.  
+- **تبسيط المعالجة اللاحقة:** المستندات النظيفة أسهل في التحويل إلى PDF أو HTML أو صيغ أخرى.  
+- **توفير الوقت:** إعداد سطر واحد يحل محل سكريبتات المعالجة اليدوية بعد الدمج.
 
-قبل أن نبدأ، تأكد من دمج مكتبة Aspose.Words لجافا في مشروعك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
+## المتطلبات المسبقة
+- بيئة تطوير Java (JDK 8+).  
+- مكتبة Aspose.Words for Java – حمّلها من [هنا](https://releases.aspose.com/words/java/).  
+- إلمام أساسي بمفاهيم دمج البريد.
 
-## الخطوة 1: إزالة الفقرات الفارغة
+## دليل خطوة بخطوة
+
+### الخطوة 1: كيفية إزالة الفقرات الفارغة (Java)
+أولاً، سنوضح كيفية حذف الفقرات التي لا تحتوي على نص مرئي. هذا مفيد بشكل خاص عندما يُنتج حقل دمج قيمة `null`.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إدراج حقول الدمج
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// تعيين خيارات التنظيف
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// تمكين فقرات التنظيف باستخدام علامات الترقيم
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// تنفيذ دمج البريد
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// حفظ المستند
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-في هذا المثال، نُنشئ مستندًا جديدًا، ونُدرج حقول دمج، ونُعيّن خيارات التنظيف لإزالة الفقرات الفارغة. كما نُفعّل إزالة الفقرات التي تحتوي على علامات ترقيم. بعد تنفيذ عملية دمج البريد، يُحفظ المستند مع تطبيق خيارات التنظيف المُحددة.
+**ماذا يحدث هنا؟**  
+- `REMOVE_EMPTY_PARAGRAPHS` يطلب من Aspose.Words حذف أي فقرة تصبح فارغة بعد الدمج.  
+- تفعيل `cleanupParagraphsWithPunctuationMarks` يزيل أيضًا الفقرات التي تتكون فقط من علامات ترقيم (مثل “?”).
 
-## الخطوة 2: إزالة المناطق غير المدمجة
+### الخطوة 2: كيفية إزالة المناطق غير المدمجة
+إذا لم يكن هناك بيانات مطابقة لمنطقة دمج بريد، يمكنك إهمالها تمامًا.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// تعيين خيارات التنظيف لإزالة المناطق غير المستخدمة
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// تنفيذ دمج البريد مع المناطق
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// حفظ المستند
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-في هذا المثال، نفتح مستندًا موجودًا يحتوي على مناطق دمج، ونضبط خيارات التنظيف لإزالة المناطق غير المستخدمة، ثم ننفذ عملية دمج البريد باستخدام بيانات فارغة. تؤدي هذه العملية تلقائيًا إلى إزالة المناطق غير المستخدمة من المستند.
+**لماذا هذا مهم:**  
+المناطق غير المستخدمة غالبًا ما تترك أقسامًا فارغة أو عناوين متروكة. علم `REMOVE_UNUSED_REGIONS` ينظفها تلقائيًا.
 
-## الخطوة 3: إزالة الحقول الفارغة
+### الخطوة 3: كيفية إزالة الحقول الفارغة
+عندما يتلقى حقل قيمة سلسلة فارغة، قد ترغب في حذف الحقل بالكامل بدلاً من ترك عنصر نائب فارغ.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// تعيين خيارات التنظيف لإزالة الحقول الفارغة
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// تنفيذ دمج البريد
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// حفظ المستند
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-في هذا المثال، نفتح مستندًا يحتوي على حقول دمج، ونضبط خيارات التنظيف لإزالة الحقول الفارغة، ثم ننفذ عملية دمج البريد مع البيانات. بعد الدمج، ستُحذف أي حقول فارغة من المستند.
-
-## الخطوة 4: إزالة الحقول غير المستخدمة
+### الخطوة 4: كيفية إزالة الحقول غير المستخدمة
+إذا لم يتم الإشارة إلى بعض الحقول أثناء الدمج، يمكنك إزالتها بالكامل.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// تعيين خيارات التنظيف لإزالة الحقول غير المستخدمة
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// تنفيذ دمج البريد
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// حفظ المستند
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-في هذا المثال، نفتح مستندًا يحتوي على حقول دمج، ونضبط خيارات التنظيف لإزالة الحقول غير المستخدمة، ثم ننفذ عملية دمج البريد مع البيانات. بعد الدمج، ستُحذف أي حقول غير مستخدمة من المستند.
-
-## الخطوة 5: إزالة الحقول المتضمنة
+### الخطوة 5: كيفية إزالة الحقول المحتواة
+أحيانًا يكون حقل دمج داخل فقرة تريد أيضًا إهمالها.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// تعيين خيارات التنظيف لإزالة الحقول المتضمنة
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// تنفيذ دمج البريد
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// حفظ المستند
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-في هذا المثال، نفتح مستندًا يحتوي على حقول دمج، ونضبط خيارات التنظيف لإزالة الحقول التي تحتوي عليها، ثم ننفذ عملية دمج البريد مع البيانات. بعد الدمج، ستُحذف الحقول نفسها من المستند.
-
-## الخطوة 6: إزالة صفوف الجدول الفارغة
+### الخطوة 6: كيفية إزالة صفوف الجداول الفارغة
+غالبًا ما تنتهي الجداول بصفوف تحتوي فقط على حقول فارغة. هذا الخيار يزيل تلك الصفوف.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// تعيين خيارات التنظيف لإزالة صفوف الجدول الفارغة
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// تنفيذ دمج البريد
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// حفظ المستند
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-في هذا المثال، نفتح مستندًا يحتوي على جدول ودمج الحقول، ونضبط خيارات التنظيف لإزالة صفوف الجدول الفارغة، ثم ننفذ عملية دمج البريد مع البيانات. بعد الدمج، ستُحذف أي صفوف جدول فارغة من المستند.
+## المشكلات الشائعة & استكشاف الأخطاء
+- **الفقرات لم تُحذف:** تأكد من استدعاء `setCleanupParagraphsWithPunctuationMarks(true)` *بعد* ضبط خيار التنظيف.  
+- **صفوف الجداول الفارغة لا تزال موجودة:** تحقق من أن خلايا الجدول تحتوي فعليًا على سلاسل فارغة (ليس مسافات).  
+- **الحقول غير المستخدمة لا تزال موجودة:** تأكد من أنك تستخدم التعداد الصحيح (`REMOVE_UNUSED_FIELDS`) وأن حقول الدمج لم تُملأ عن طريق الخطأ في مكان آخر.
 
-## خاتمة
+## الأسئلة المتكررة
 
-في هذا البرنامج التعليمي، تعلمت كيفية استخدام خيارات التنظيف في Aspose.Words لجافا لمعالجة المستندات وتنظيفها أثناء عملية دمج البريد. توفر هذه الخيارات تحكمًا دقيقًا في تنظيف المستندات، مما يتيح لك إنشاء مستندات مصقولة ومخصصة بسهولة.
+**س: ما الفرق بين `REMOVE_EMPTY_FIELDS` و `REMOVE_UNUSED_FIELDS`؟**  
+ج: `REMOVE_EMPTY_FIELDS` يحذف الحقول التي تتلقى سلسلة فارغة أو `null` أثناء الدمج، بينما `REMOVE_UNUSED_FIELDS` يزيل الحقول التي لم يتم الإشارة إليها في عملية الدمج مطلقًا.
 
-## الأسئلة الشائعة
+**س: هل يمكن الجمع بين عدة خيارات تنظيف؟**  
+ج: نعم. طريقة `setCleanupOptions` تقبل عملية OR بتية للقيم التعدادية، مما يتيح لك تنظيف الفقرات، الجداول، والمناطق في استدعاء واحد.
 
-### ما هي خيارات التنظيف في Aspose.Words لـ Java؟
+**س: هل يؤثر تفعيل `cleanupParagraphsWithPunctuationMarks` على النص العادي؟**  
+ج: لا، فهو يزيل فقط الفقرات التي تتكون بالكامل من علامات ترقيم (مثل “?” أو “---”). الجمل العادية تبقى دون تغيير.
 
-خيارات التنظيف في Aspose.Words لجافا هي إعدادات تتيح لك التحكم في جوانب مختلفة من تنظيف المستندات أثناء عملية دمج البريد. تتيح لك هذه الإعدادات إزالة العناصر غير الضرورية، مثل الفقرات الفارغة والمناطق غير المستخدمة، وغيرها، مما يضمن لك الحصول على مستند نهائي منظم وجميل.
+**س: هل يمكن تخصيص علامات الترقيم التي تُعتبر؟**  
+ج: API الحالي يستخدم مجموعة محددة مسبقًا من علامات الترقيم. لتخصيص السلوك، سيتعين عليك معالجة المستند بعد الدمج يدويًا.
 
-### كيف يمكنني إزالة الفقرات الفارغة من مستندي؟
+**س: هل تعمل خيارات التنظيف هذه مع تحويل PDF؟**  
+ج: بالتأكيد. بمجرد تنظيف مستند Word، يمكنك تحويله إلى PDF أو HTML أو أي صيغة مدعومة أخرى دون نقل العناصر غير المرغوب فيها.
 
-لإزالة الفقرات الفارغة من مستندك باستخدام Aspose.Words for Java، يمكنك تعيين `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` خيار "صحيح". سيؤدي هذا تلقائيًا إلى حذف الفقرات التي لا تحتوي على محتوى، مما ينتج عنه مستند أكثر وضوحًا.
+## الخلاصة
+الآن لديك مجموعة أدوات كاملة **لتنظيف ملفات مستند Word** أثناء دمج البريد باستخدام Aspose.Words for Java. باختيار `MailMergeCleanupOptions` المناسب، يمكنك حذف الفقرات الفارغة، صفوف الجداول الفارغة، الحقول غير المستخدمة، وأكثر—مما يمنحك مستندًا أنيقًا وجاهزًا للإنتاج في كل مرة.
 
-### ما هو الغرض من `REMOVE_UNUSED_REGIONS` خيار التنظيف؟
+---
 
-ال `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` يُستخدم هذا الخيار لإزالة مناطق من المستند لا تحتوي على بيانات مقابلة أثناء عملية دمج البريد. يساعد هذا الخيار على تنظيم مستندك بالتخلص من العناصر النائبة غير المستخدمة.
-
-### هل يمكنني إزالة صفوف الجدول الفارغة من مستند باستخدام Aspose.Words لـ Java؟
-
-نعم، يمكنك إزالة صفوف الجدول الفارغة من المستند عن طريق تعيين `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` فعّل خيار التنظيف. سيؤدي هذا تلقائيًا إلى حذف أي صفوف جدول لا تحتوي على بيانات، مما يضمن تنظيمًا جيدًا للجدول في مستندك.
-
-### ماذا يحدث عندما أقوم بتعيين `REMOVE_CONTAINING_FIELDS` خيار؟
-
-ضبط `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` سيؤدي هذا الخيار إلى إزالة حقل الدمج بالكامل، بما في ذلك الفقرة التي يحتويها، من المستند أثناء عملية دمج البريد. هذا مفيد عند الرغبة في حذف حقول الدمج والنص المرتبط بها.
-
-### كيف يمكنني إزالة حقول الدمج غير المستخدمة من مستندي؟
-
-لإزالة حقول الدمج غير المستخدمة من مستند، يمكنك تعيين `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` سيؤدي هذا تلقائيًا إلى حذف حقول الدمج غير المملوءة أثناء دمج البريد، مما ينتج عنه مستند أنظف.
-
-### ما هو الفرق بين `REMOVE_EMPTY_FIELDS` و `REMOVE_UNUSED_FIELDS` خيارات التنظيف؟
-
-ال `REMOVE_EMPTY_FIELDS` يزيل هذا الخيار حقول الدمج التي لا تحتوي على بيانات أو التي تكون فارغة أثناء عملية دمج البريد. من ناحية أخرى، `REMOVE_UNUSED_FIELDS` يزيل هذا الخيار حقول الدمج غير المملوءة بالبيانات أثناء عملية الدمج. يعتمد الاختيار بينهما على ما إذا كنت تريد إزالة الحقول الخالية من المحتوى أو تلك غير المستخدمة في عملية الدمج المحددة.
-
-### كيف يمكنني تفعيل إزالة الفقرات التي تحتوي على علامات الترقيم؟
-
-لتفعيل إزالة الفقرات التي تحتوي على علامات الترقيم، يمكنك ضبط `cleanupParagraphsWithPunctuationMarks` خيار "صحيح" وتحديد علامات الترقيم المراد تنظيفها. يتيح لك هذا إنشاء مستند أكثر دقة بإزالة الفقرات غير الضرورية التي تحتوي فقط على علامات الترقيم.
-
-### هل يمكنني تخصيص خيارات التنظيف في Aspose.Words لـ Java؟
-
-نعم، يمكنك تخصيص خيارات التنظيف وفقًا لاحتياجاتك الخاصة. يمكنك اختيار خيارات التنظيف المُراد تطبيقها وتكوينها وفقًا لمتطلبات تنظيف مستنداتك، مما يضمن أن مستندك النهائي يلبي المعايير المطلوبة.
-
+**آخر تحديث:** 2026-01-11  
+**تم الاختبار مع:** Aspose.W for Java 24.11  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

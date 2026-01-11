@@ -1,10 +1,11 @@
 ---
-"description": "使用 Aspose.Words for Java 清理选项增强文档清晰度。了解如何删除空段落、未使用的区域等。"
-"linktitle": "使用清理选项"
-"second_title": "Aspose.Words Java文档处理API"
-"title": "在 Aspose.Words for Java 中使用清理选项"
-"url": "/zh/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: 了解如何使用 Aspose.Words for Java 的清理选项来清理 Word 文档，包括删除空段落、空表格行和未使用的字段。
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words 清理选项清理 Word 文档（Java）
+url: /zh/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +14,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用清理选项
+# 使用 Aspose.Words 清理选项清理 Word 文档（Java）
 
+在本教程中，您将了解如何使用 Aspose.Words for Java **清理 Word 文档** 文件。无论是生成发票、合同，还是批量邮件合并报告，未使用的空段落、未使用的字段或空表格行都会让最终输出显得不专业。我们将逐步演示每个清理选项，提供完整代码示例，并解释 *为什么* 每个设置重要，让您每次都能生成精致的文档。
 
-## Aspose.Words for Java 中清理选项的使用简介
+## 快速回答
+- **“清理 Word 文档”是什么意思？** 在邮件合并操作后，删除空段落、未使用的合并区域、空表格行以及其他冗余元素。  
+- **哪个清理选项可以删除空段落？** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`。  
+- **如何删除空表格行？** 使用 `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`。  
+- **能否去除从未填充的字段？** 可以——使用 `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` 或 `REMOVE_EMPTY_FIELDS`。  
+- **运行这些示例是否需要许可证？** 评估时可使用免费试用版；生产环境需商业许可证。
 
-在本教程中，我们将探索如何使用 Aspose.Words for Java 中的清理选项在邮件合并过程中操作和清理文档。清理选项允许您控制文档清理的各个方面，例如删除空段落、未使用的区域等等。
+## 在邮件合并上下文中，“清理 Word 文档”是什么？
+执行邮件合并时，Aspose.Words 会将数据插入合并字段和区域。如果某些字段得到 `null` 或空字符串，文档可能会出现零散的段落、空表格或占位区域。**清理选项**会自动修剪这些残留，使文档保持干净、可直接打印。
 
-## 先决条件
+## 为什么要使用清理选项？
+- **专业外观：** 没有空行或孤立的表格。  
+- **文件体积更小：** 删除未使用的元素可减轻文档重量。  
+- **下游处理更简便：** 干净的文档更易转换为 PDF、HTML 或其他格式。  
+- **节省时间：** 一行设置即可取代手动后处理脚本。
 
-在开始之前，请确保您已将 Aspose.Words for Java 库集成到您的项目中。您可以从以下链接下载： [这里](https://releases。aspose.com/words/java/).
+## 前置条件
+- Java 开发环境（JDK 8+）。  
+- Aspose.Words for Java 库——从 [here](https://releases.aspose.com/words/java/) 下载。  
+- 对邮件合并概念有基本了解。
 
-## 步骤 1：删除空白段落
+## 分步指南
+
+### 步骤 1：如何删除空段落（Java）
+首先，演示如何消除不包含可见文本的段落。这在合并字段解析为 `null` 时尤为有用。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入合并字段
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// 设置清理选项
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// 启用带标点符号的清理段落
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// 执行邮件合并
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// 保存文档
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-在此示例中，我们创建一个新文档，插入合并字段，并设置清理选项以删除空段落。此外，我们还启用了删除带标点符号的段落的功能。执行邮件合并后，文档将保存并应用指定的清理选项。
+**这里发生了什么？**  
+- `REMOVE_EMPTY_PARAGRAPHS` 告诉 Aspose.Words 在合并后剔除任何空段落。  
+- 启用 `cleanupParagraphsWithPunctuationMarks` 还能删除仅由标点符号组成的段落（例如 “?”）。
 
-## 步骤 2：删除未合并的区域
+### 步骤 2：如何删除未合并的区域
+如果某个邮件合并区域没有对应的数据，可以将其完全丢弃。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// 设置清理选项以删除未使用的区域
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// 执行与区域邮件合并
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// 保存文档
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-在此示例中，我们打开一个包含合并区域的现有文档，设置清理选项以删除未使用的区域，然后使用空数据执行邮件合并。此过程会自动从文档中删除未使用的区域。
+**为什么重要：**  
+未使用的区域常常留下空白章节或孤立的标题。`REMOVE_UNUSED_REGIONS` 标志会自动清理它们。
 
-## 步骤 3：删除空白字段
+### 步骤 3：如何删除空字段
+当字段收到空字符串时，您可能希望整个字段被移除，而不是留下空占位符。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 设置清理选项以删除空字段
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// 执行邮件合并
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 保存文档
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-在此示例中，我们打开一个包含合并字段的文档，设置清理选项以删除空字段，然后执行包含数据的邮件合并。合并后，所有空字段都将从文档中删除。
-
-## 步骤 4：删除未使用的字段
+### 步骤 4：如何删除未使用的字段
+如果某些字段在合并过程中从未被引用，可以将其彻底剔除。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 设置清理选项以删除未使用的字段
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// 执行邮件合并
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 保存文档
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-在此示例中，我们打开一个包含合并字段的文档，设置清理选项以删除未使用的字段，然后执行邮件合并数据。合并后，所有未使用的字段都将从文档中删除。
-
-## 步骤5：删除包含字段
+### 步骤 5：如何删除包含字段的段落
+有时合并字段位于您也想一起删除的段落中。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 设置清理选项以删除包含字段
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// 执行邮件合并
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 保存文档
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-在此示例中，我们打开一个包含合并字段的文档，设置清理选项以删除包含的字段，然后执行包含数据的邮件合并。合并后，字段本身将从文档中删除。
-
-## 步骤6：删除空表行
+### 步骤 6：如何删除空表格行
+表格经常出现仅包含空字段的行。此选项会修剪这些行。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 设置清理选项以删除空表行
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// 执行邮件合并
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 保存文档
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-在此示例中，我们打开一个包含表格和合并字段的文档，设置清理选项以删除表格中的空行，然后执行包含数据的邮件合并。合并后，所有表格中的空行都将从文档中删除。
+## 常见问题与故障排除
+- **段落未被删除：** 确保在设置清理选项后调用 `setCleanupParagraphsWithPunctuationMarks(true)`。  
+- **空表格行仍然存在：** 核实表格单元格确实是空字符串（而非空白字符）。  
+- **未使用的字段仍然保留：** 再次确认使用了正确的枚举值 (`REMOVE_UNUSED_FIELDS`) 并且这些字段没有在其他位置被意外填充。
+
+## 常见问答
+
+**问：`REMOVE_EMPTY_FIELDS` 与 `REMOVE_UNUSED_FIELDS` 有何区别？**  
+答：`REMOVE_EMPTY_FIELDS` 删除在合并期间收到空字符串或 `null` 的字段，而 `REMOVE_UNUSED_FIELDS` 删除根本未被合并操作引用的字段。
+
+**问：可以组合多个清理选项吗？**  
+答：可以。`setCleanupOptions` 方法接受枚举值的按位或（bitwise OR），允许一次性清理段落、表格和区域。
+
+**问：启用 `cleanupParagraphsWithPunctuationMarks` 会影响普通文本吗？**  
+答：仅会删除仅由标点字符组成的段落（例如 “?” 或 “---”），正常句子保持不变。
+
+**问：可以自定义视为标点的字符集吗？**  
+答：当前 API 使用预定义的标点集合。若需自定义行为，需要在合并后自行后处理文档。
+
+**问：这些清理选项在 PDF 转换时有效吗？**  
+答：完全有效。Word 文档清理后，再转换为 PDF、HTML 或其他支持的格式时，不会携带不需要的元素。
 
 ## 结论
+现在，您已经掌握了使用 Aspose.Words for Java 在邮件合并过程中 **清理 Word 文档** 的完整工具箱。通过选择合适的 `MailMergeCleanupOptions`，您可以自动删除空段落、空表格行、未使用的字段等，让每次生成的文档都精致、可直接投入生产使用。
 
-在本教程中，您学习了如何使用 Aspose.Words for Java 中的清理选项在邮件合并过程中操作和清理文档。这些选项提供了对文档清理的细粒度控制，让您轻松创建精美且自定义的文档。
+---
 
-## 常见问题解答
-
-### Aspose.Words for Java 中的清理选项有哪些？
-
-Aspose.Words for Java 中的清理选项允许您在邮件合并过程中控制文档清理的各个方面。它们允许您删除不必要的元素，例如空段落、未使用的区域等，从而确保最终文档结构良好且内容精炼。
-
-### 如何从我的文档中删除空白段落？
-
-要使用 Aspose.Words for Java 从文档中删除空段落，您可以设置 `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` 选项设置为 true。这将自动删除没有内容的段落，从而使文档更简洁。
-
-### 的目的是什么 `REMOVE_UNUSED_REGIONS` 清理选项？
-
-这 `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` 此选项用于在邮件合并过程中移除文档中没有对应数据的区域。它有助于通过删除未使用的占位符来保持文档整洁。
-
-### 我可以使用 Aspose.Words for Java 从文档中删除空表行吗？
-
-是的，您可以通过设置从文档中删除空表行 `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` cleanup 选项设置为 true。这将自动删除所有不包含数据的表格行，确保文档中的表格结构良好。
-
-### 当我设置 `REMOVE_CONTAINING_FIELDS` 选项？
-
-设置 `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` 此选项将在邮件合并过程中从文档中删除整个合并字段（包括其包含的段落）。当您想删除合并字段及其关联文本时，此功能非常有用。
-
-### 如何从我的文档中删除未使用的合并字段？
-
-要从文档中删除未使用的合并字段，您可以设置 `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` 选项设置为 true。这将自动删除邮件合并期间未填充的合并字段，从而生成更清晰的文档。
-
-### 有什么区别 `REMOVE_EMPTY_FIELDS` 和 `REMOVE_UNUSED_FIELDS` 清理选项？
-
-这 `REMOVE_EMPTY_FIELDS` 选项会在邮件合并过程中移除没有数据或为空的合并字段。另一方面， `REMOVE_UNUSED_FIELDS` 选项会移除合并过程中未填充数据的字段。具体选择哪个取决于您是想移除没有内容的字段，还是移除在特定合并操作中未使用的字段。
-
-### 如何才能删除带有标点符号的段落？
-
-要删除带标点符号的段落，您可以设置 `cleanupParagraphsWithPunctuationMarks` 选项设置为 true，并指定要清理的标点符号。这样，您就可以通过删除不必要的纯标点符号段落来创建更精致的文档。
-
-### 我可以自定义 Aspose.Words for Java 中的清理选项吗？
-
-是的，您可以根据自己的具体需求自定义清理选项。您可以根据文档清理要求选择并配置要应用的清理选项，以确保最终文档符合您的预期标准。
-
+**最后更新：** 2026-01-11  
+**测试环境：** Aspose.Words for Java 24.11  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

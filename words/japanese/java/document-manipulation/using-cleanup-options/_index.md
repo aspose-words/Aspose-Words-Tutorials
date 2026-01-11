@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java のクリーンアップオプションでドキュメントの明瞭性を高めましょう。空の段落や未使用領域などを削除する方法を学びましょう。"
-"linktitle": "クリーンアップオプションの使用"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java のクリーンアップ オプションの使用"
-"url": "/ja/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Aspose.Words for Java のクリーンアップオプションを使用して、空の段落や空のテーブル行、未使用のフィールドの削除など、Word
+  文書のクリーンアップ方法を学びましょう。
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words のクリーンアップオプション（Java）を使用して Word 文書をクリーンアップ
+url: /ja/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +15,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java のクリーンアップ オプションの使用
+# Aspose.Words のクリーンアップオプションを使用した Word 文書のクリーンアップ (Java)
 
+このチュートリアルでは、Aspose.Words for Java を使用して **Word 文書** をクリーンアップする方法を紹介します。請求書、契約書、または大量のメールマージレポートを生成する場合でも、不要な空段落、未使用フィールド、空白のテーブル行が最終出力をプロフェッショナルでないものにしてしまうことがあります。各クリーンアップオプションをステップバイステップで解説し、必要な正確なコードを示し、*なぜ* その設定が重要なのかを説明しますので、毎回洗練された文書を作成できます。
 
-## Aspose.Words for Java のクリーンアップ オプションの使用の概要
+## Quick Answers
+- **「Word 文書をクリーンアップする」とは何ですか？** メールマージ操作後に残る空段落、未使用のマージ領域、空のテーブル行、その他の冗長要素を削除することです。  
+- **空段落を削除するクリーンアップオプションはどれですか？** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`。  
+- **空のテーブル行を削除するには？** `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` を使用します。  
+- **使用されなかったフィールドを除去できますか？** はい – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` または `REMOVE_EMPTY_FIELDS`。  
+- **これらのサンプルを実行するのにライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。
 
-このチュートリアルでは、Aspose.Words for Java のクリーンアップオプションを使用して、差し込み印刷処理中にドキュメントを操作およびクリーンアップする方法を説明します。クリーンアップオプションを使用すると、空の段落や未使用領域の削除など、ドキュメントのクリーンアップのさまざまな側面を制御できます。
+## What Is “Clean Up Word Document” in the Context of Mail Merge?
+メールマージを実行すると、Aspose.Words はマージフィールドや領域にデータを挿入します。いくつかのフィールドが `null` や空文字列になると、文書内に不要な段落や空テーブル、プレースホルダー領域が残ることがあります。**クリーンアップオプション**はこれらのアーティファクトを自動的に除去し、印刷準備が整ったクリーンな文書にします。
 
-## 前提条件
+## Why Use Cleanup Options?
+- **プロフェッショナルな外観:** 空白行や孤立したテーブルがありません。  
+- **ファイルサイズの削減:** 未使用要素を削除することで文書の容量が減ります。  
+- **下流処理の簡素化:** クリーンな文書は PDF、HTML などへの変換が容易です。  
+- **時間の節約:** ワンラインの設定で手作業の後処理スクリプトを置き換えられます。
 
-始める前に、Aspose.Words for Javaライブラリがプロジェクトに統合されていることを確認してください。ダウンロードはこちらから。 [ここ](https://releases。aspose.com/words/java/).
+## Prerequisites
+- Java 開発環境 (JDK 8 以上)。  
+- Aspose.Words for Java ライブラリ – [こちら](https://releases.aspose.com/words/java/) からダウンロード。  
+- メールマージの基本概念に関する基礎知識。
 
-## ステップ1：空の段落を削除する
+## Step‑by‑Step Guide
+
+### Step 1: How to Remove Empty Paragraphs (Java)
+まず、可視テキストがまったく含まれない段落を削除する方法を示します。これはマージフィールドが `null` に解決された場合に特に有用です。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 差し込みフィールドを挿入する
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// クリーンアップオプションを設定する
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// 句読点を含む段落のクリーンアップを有効にする
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// 差し込み印刷を実行する
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// ドキュメントを保存する
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-この例では、新規文書を作成し、差し込みフィールドを挿入し、空の段落を削除するようにクリーンアップオプションを設定します。さらに、句読点を含む段落の削除も有効にします。差し込み印刷を実行すると、指定したクリーンアップが適用された状態で文書が保存されます。
+**ここで何が起こるのか？**  
+- `REMOVE_EMPTY_PARAGRAPHS` は、マージ後に空になった段落をすべて除去するよう Aspose.Words に指示します。  
+- `cleanupParagraphsWithPunctuationMarks` を有効にすると、句読点だけで構成された段落（例: “?”）も削除されます。
 
-## ステップ2: 結合されていない領域を削除する
+### Step 2: How to Remove Unmerged Regions
+マージ領域に対応するデータが存在しない場合、その領域全体を破棄できます。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// 未使用領域を削除するクリーンアップオプションを設定する
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// 領域を指定して差し込み印刷を実行する
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// ドキュメントを保存する
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-この例では、差し込み領域を含む既存の文書を開き、不要な領域を削除するようにクリーンアップオプションを設定してから、空のデータで差し込み印刷を実行します。この処理により、文書から不要な領域が自動的に削除されます。
+**なぜ重要か:**  
+未使用領域は空白セクションや不要な見出しを残すことが多いです。`REMOVE_UNUSED_REGIONS` フラグはそれらを自動的にクリーンアップします。
 
-## ステップ3: 空のフィールドを削除する
+### Step 3: How to Remove Empty Fields
+フィールドが空文字列を受け取ったとき、空のプレースホルダーを残すのではなくフィールド自体を削除したい場合があります。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 空のフィールドを削除するクリーンアップオプションを設定する
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// 差し込み印刷を実行する
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// ドキュメントを保存する
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-この例では、差し込みフィールドを含む文書を開き、空のフィールドを削除するようにクリーンアップオプションを設定し、データを含む差し込み印刷を実行します。差し込み印刷後、空のフィールドは文書から削除されます。
-
-## ステップ4: 未使用フィールドの削除
+### Step 4: How to Remove Unused Fields
+マージ中に一度も参照されなかったフィールドは、完全に除去できます。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 未使用のフィールドを削除するにはクリーンアップ オプションを設定します
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// 差し込み印刷を実行する
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// ドキュメントを保存する
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-この例では、差し込みフィールドを含む文書を開き、未使用のフィールドを削除するようにクリーンアップオプションを設定し、データを使用して差し込み印刷を実行します。差し込み印刷後、未使用のフィールドは文書から削除されます。
-
-## ステップ5: 包含フィールドの削除
+### Step 5: How to Remove Containing Fields
+場合によっては、マージフィールドが含まれる段落自体も削除したいことがあります。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 包含フィールドを削除するクリーンアップオプションを設定する
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// 差し込み印刷を実行する
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// ドキュメントを保存する
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-この例では、差し込みフィールドを含む文書を開き、クリーンアップオプションで該当するフィールドを削除し、データを含む差し込み印刷を実行します。差し込み印刷後、フィールド自体は文書から削除されます。
-
-## ステップ6: 空のテーブル行を削除する
+### Step 6: How to Remove Empty Table Rows
+テーブルは、空フィールドだけが入った行が残りがちです。このオプションでそのような行を除去します。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 空のテーブル行を削除するクリーンアップオプションを設定する
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// 差し込み印刷を実行する
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// ドキュメントを保存する
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-この例では、表と差し込みフィールドを含む文書を開き、空の表行を削除するようにクリーンアップオプションを設定し、データを含む差し込み印刷を実行します。差し込み印刷後、空の表行は文書から削除されます。
+## Common Issues & Troubleshooting
+- **段落が削除されない:** `setCleanupParagraphsWithPunctuationMarks(true)` をクリーンアップオプション設定 *後* に呼び出していることを確認してください。  
+- **空のテーブル行が残る:** テーブルセルが本当に空文字列か（空白文字ではないか）を確認してください。  
+- **未使用フィールドが残る:** 正しい列挙子 (`REMOVE_UNUSED_FIELDS`) を使用しているか、他の場所でフィールドが誤って埋め込まれていないか再確認してください。
 
-## 結論
+## Frequently Asked Questions
 
-このチュートリアルでは、Aspose.Words for Java のクリーンアップオプションを使用して、差し込み印刷プロセス中にドキュメントを操作およびクリーンアップする方法を学びました。これらのオプションを使用すると、ドキュメントのクリーンアップを細かく制御できるため、洗練されたカスタマイズされたドキュメントを簡単に作成できます。
+**Q: `REMOVE_EMPTY_FIELDS` と `REMOVE_UNUSED_FIELDS` の違いは何ですか？**  
+A: `REMOVE_EMPTY_FIELDS` はマージ時に空文字列または `null` が渡されたフィールドを削除し、`REMOVE_UNUSED_FIELDS` はマージ操作自体で参照されなかったフィールドを削除します。
 
-## よくある質問
+**Q: 複数のクリーンアップオプションを組み合わせられますか？**  
+A: はい。`setCleanupOptions` メソッドは列挙値のビット単位 OR を受け取り、段落、テーブル、領域を一度の呼び出しでクリーンアップできます。
 
-### Aspose.Words for Java のクリーンアップ オプションとは何ですか?
+**Q: `cleanupParagraphsWithPunctuationMarks` を有効にすると通常のテキストに影響しますか？**  
+A: 句読点だけで構成された段落（例: “?” や “---”）のみが削除され、通常の文章はそのまま残ります。
 
-Aspose.Words for Java のクリーンアップオプションは、差し込み印刷処理中のドキュメントのクリーンアップに関するさまざまな側面を制御できる設定です。空の段落や未使用領域などの不要な要素を削除することで、最終的なドキュメントの構造が整えられ、洗練された仕上がりを実現します。
+**Q: 対象となる句読点をカスタマイズできますか？**  
+A: 現行 API は事前定義された句読点セットを使用します。カスタム動作が必要な場合は、マージ後にドキュメントを追加処理する必要があります。
 
-### 文書から空の段落を削除するにはどうすればよいでしょうか?
+**Q: これらのクリーンアップオプションは PDF 変換でも機能しますか？**  
+A: 完全に対応しています。Word 文書がクリーンアップされた後、PDF、HTML などの任意のサポート形式に変換しても不要な要素は引き継がれません。
 
-Aspose.Words for Javaを使用してドキュメントから空の段落を削除するには、 `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` このオプションをtrueに設定します。これにより、コンテンツのない段落が自動的に削除され、よりクリーンなドキュメントが作成されます。
+## Conclusion
+これで、Aspose.Words for Java を使用したメールマージ時に **Word 文書** をクリーンアップするための完全なツールボックスが手に入りました。適切な `MailMergeCleanupOptions` を選択すれば、空段落、空テーブル行、未使用フィールドなどを自動的に除去でき、常に洗練された本番品質の文書を生成できます。
 
-### の目的は何ですか？ `REMOVE_UNUSED_REGIONS` クリーンアップオプション?
+---
 
-その `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` このオプションは、差し込み印刷処理中に対応するデータがない文書内の領域を削除するために使用されます。これにより、未使用のプレースホルダーが削除され、文書が整理された状態を保つことができます。
-
-### Aspose.Words for Java を使用してドキュメントから空のテーブル行を削除できますか?
-
-はい、ドキュメントから空の表の行を削除するには、 `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` cleanup オプションを true に設定します。これにより、データが含まれていない表の行が自動的に削除され、ドキュメント内の表の構造が適切に整えられます。
-
-### 設定するとどうなるか `REMOVE_CONTAINING_FIELDS` オプション？
-
-設定 `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` このオプションを選択すると、差し込み印刷処理中に、差し込みフィールド全体（段落を含む）が文書から削除されます。これは、差し込みフィールドとそれに関連するテキストを削除したい場合に便利です。
-
-### ドキュメントから未使用の差し込みフィールドを削除するにはどうすればよいですか?
-
-文書から未使用の差し込みフィールドを削除するには、 `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` このオプションをtrueに設定します。これにより、差し込み印刷時に入力されていない差し込みフィールドが自動的に削除され、よりクリーンな文書が作成されます。
-
-### 違いは何ですか？ `REMOVE_EMPTY_FIELDS` そして `REMOVE_UNUSED_FIELDS` クリーンアップオプション?
-
-その `REMOVE_EMPTY_FIELDS` オプションは、差し込み印刷処理中に、データが入力されていない、または空の差し込みフィールドを削除します。一方、 `REMOVE_UNUSED_FIELDS` このオプションは、マージ中にデータが入力されていないマージフィールドを削除します。どちらを選択するかは、コンテンツのないフィールドを削除するか、特定のマージ操作で使用されないフィールドを削除するかによって異なります。
-
-### 句読点の付いた段落を削除するにはどうすればよいですか?
-
-句読点を含む段落を削除するには、 `cleanupParagraphsWithPunctuationMarks` オプションをtrueに設定し、クリーンアップの対象となる句読点を指定します。これにより、不要な句読点のみの段落を削除し、より洗練されたドキュメントを作成できます。
-
-### Aspose.Words for Java のクリーンアップ オプションをカスタマイズできますか?
-
-はい、お客様のニーズに合わせてクリーンアップオプションをカスタマイズできます。適用するクリーンアップオプションを選択し、ドキュメントのクリーンアップ要件に合わせて設定することで、最終的なドキュメントがご希望の基準を満たすことを保証します。
-
+**最終更新日:** 2026-01-11  
+**テスト環境:** Aspose.Words for Java 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,13 @@
 ---
-"description": "Vylepšete přehlednost dokumentů pomocí možností čištění v Aspose.Words pro Javu. Naučte se, jak odstranit prázdné odstavce, nepoužívané oblasti a další."
-"linktitle": "Použití možností čištění"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Použití možností čištění v Aspose.Words pro Javu"
-"url": "/cs/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Naučte se, jak vyčistit dokument Word pomocí možností čištění v Aspose.Words
+  pro Javu, včetně odstraňování prázdných odstavců, prázdných řádků tabulky a nepoužívaných
+  polí.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Vyčistit dokument Word pomocí možností čištění Aspose.Words (Java)
+url: /cs/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +16,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použití možností čištění v Aspose.Words pro Javu
+# Čištění dokumentu Word pomocí možností čištění Aspose.Words (Java)
 
+V tomto tutoriálu se dozvíte, jak **vyčistit soubory Word dokumentu** pomocí Aspose.Words pro Java. Ať už generujete faktury, smlouvy nebo hromadné zprávy z mail‑merge, nechtěné prázdné odstavce, nepoužité pole nebo prázdné řádky tabulek mohou výsledný výstup vypadat neprofesionálně. Provedeme vás každou možností čištění krok za krokem, ukážeme vám přesný kód, který potřebujete, a vysvětlíme *proč* je každé nastavení důležité, abyste vždy mohli vytvořit upravené dokumenty.
 
-## Úvod do používání možností čištění v Aspose.Words pro Javu
+## Rychlé odpovědi
+- **Co znamená „čistit Word dokument“?** Odstranění prázdných odstavců, nepoužitých oblastí merge, prázdných řádků tabulek a dalších nadbytečných prvků po operaci mail‑merge.  
+- **Která možnost čištění odstraňuje prázdné odstavce?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **Jak mohu smazat prázdné řádky tabulky?** Použijte `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`.  
+- **Mohu se zbavit polí, která nikdy nebyla naplněna?** Ano – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` nebo `REMOVE_EMPTY_FIELDS`.  
+- **Potřebuji licenci pro spuštění těchto příkladů?** Pro hodnocení stačí bezplatná zkušební verze; pro produkční použití je vyžadována komerční licence.
 
-V tomto tutoriálu se podíváme na to, jak pomocí možností čištění v Aspose.Words pro Javu manipulovat s dokumenty a čistit je během procesu hromadné korespondence. Možnosti čištění vám umožňují ovládat různé aspekty čištění dokumentů, jako je například odstraňování prázdných odstavců, nepoužívaných oblastí a dalších.
+## Co znamená „čistit Word dokument“ v kontextu mail merge?
+Když provádíte mail merge, Aspose.Words vloží data do merge polí a oblastí. Pokud některá pole obdrží `null` nebo prázdné řetězce, dokument může skončit s roztroušenými odstavci, prázdnými tabulkami nebo placeholder oblastmi. **Možnosti čištění** automaticky tyto artefakty odstraní a zanechají čistý, připravený k tisku dokument.
 
-## Předpoklady
+## Proč používat možnosti čištění?
+- **Profesionální vzhled:** Žádné prázdné řádky ani osamělé tabulky.  
+- **Menší velikost souboru:** Odstraněním nepoužitých prvků se sníží hmotnost dokumentu.  
+- **Zjednodušené následné zpracování:** Čisté dokumenty se snadněji převádějí do PDF, HTML nebo jiných formátů.  
+- **Úspora času:** Jednořádková nastavení nahrazují ruční post‑processing skripty.
 
-Než začneme, ujistěte se, že máte ve svém projektu integrovanou knihovnu Aspose.Words pro Javu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/java/).
+## Požadavky
+- Vývojové prostředí Java (JDK 8+).  
+- Knihovna Aspose.Words pro Java – stáhněte ji z [here](https://releases.aspose.com/words/java/).  
+- Základní povědomí o konceptech mail‑merge.
 
-## Krok 1: Odstranění prázdných odstavců
+## Průvodce krok za krokem
+
+### Krok 1: Jak odstranit prázdné odstavce (Java)
+Nejprve ukážeme, jak eliminovat odstavce, které neobsahují žádný viditelný text. To je zvláště užitečné, když se merge pole vyhodnotí na `null`.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vložit slučovací pole
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Nastavení možností čištění
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Povolit čištění odstavců pomocí interpunkčních znamének
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// Spuštění hromadné korespondence
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// Uložit dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-V tomto příkladu vytvoříme nový dokument, vložíme slučovací pole a nastavíme možnosti čištění pro odstranění prázdných odstavců. Dále povolíme odstranění odstavců s interpunkčními znaménky. Po provedení hromadné korespondence se dokument uloží s použitým zadaným čištěním.
+**Co se zde děje?**  
+- `REMOVE_EMPTY_PARAGRAPHS` říká Aspose.Words, aby odstranil jakýkoli odstavec, který po sloučení zůstane prázdný.  
+- Povolení `cleanupParagraphsWithPunctuationMarks` také odstraňuje odstavce, které se skládají výhradně z interpunkčních znaků (např. “?”).
 
-## Krok 2: Odebrání nesloučených oblastí
+### Krok 2: Jak odstranit nesloučené oblasti
+Pokud má oblast mail‑merge žádná odpovídající data, můžete ji zcela zahodit.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Nastavení možností čištění pro odstranění nepoužívaných oblastí
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Spuštění hromadné korespondence s oblastmi
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// Uložit dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-V tomto příkladu otevřeme existující dokument se slučovanými oblastmi, nastavíme možnosti čištění tak, aby se odstranily nepoužívané oblasti, a poté spustíme hromadnou korespondenci s prázdnými daty. Tento proces automaticky odstraní nepoužívané oblasti z dokumentu.
+**Proč je to důležité:**  
+Nevyužité oblasti často zanechávají prázdné sekce nebo osamělé nadpisy. Příznak `REMOVE_UNUSED_REGIONS` je automaticky vyčistí.
 
-## Krok 3: Odstranění prázdných polí
+### Krok 3: Jak odstranit prázdná pole
+Když pole obdrží prázdný řetězec, můžete chtít celé pole odstranit místo toho, aby zůstalo jako prázdný placeholder.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Nastavení možností čištění pro odstranění prázdných polí
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// Spuštění hromadné korespondence
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Uložit dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-tomto příkladu otevřeme dokument se slučovacími poli, nastavíme možnosti čištění pro odstranění prázdných polí a provedeme hromadnou korespondenci s daty. Po sloučení budou všechna prázdná pole z dokumentu odstraněna.
-
-## Krok 4: Odstranění nepoužívaných polí
+### Krok 4: Jak odstranit nepoužitá pole
+Pokud některá pole nejsou během sloučení vůbec použita, můžete je zcela odstranit.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Nastavení možností čištění pro odstranění nepoužívaných polí
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// Spuštění hromadné korespondence
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Uložit dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-V tomto příkladu otevřeme dokument se slučovacími poli, nastavíme možnosti čištění pro odstranění nepoužívaných polí a spustíme hromadnou korespondenci s daty. Po sloučení budou všechna nepoužívaná pole z dokumentu odstraněna.
-
-## Krok 5: Odebrání obsahujících polí
+### Krok 5: Jak odstranit obsahující pole
+Někdy se merge pole nachází uvnitř odstavce, který také chcete zahodit.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Nastavení možností čištění pro odstranění obsahujících polí
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// Spuštění hromadné korespondence
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Uložit dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-V tomto příkladu otevřeme dokument se slučovacími poli, nastavíme možnosti čištění tak, aby se odstranila obsahující pole, a provedeme hromadnou korespondenci s daty. Po sloučení budou samotná pole z dokumentu odstraněna.
-
-## Krok 6: Odstranění prázdných řádků tabulky
+### Krok 6: Jak odstranit prázdné řádky tabulky
+Tabulky často končí řádky, které obsahují jen prázdná pole. Tato možnost tyto řádky ořeže.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Nastavení možností čištění pro odstranění prázdných řádků tabulky
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// Spuštění hromadné korespondence
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Uložit dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-V tomto příkladu otevřeme dokument s tabulkou a slučovacími poli, nastavíme možnosti čištění pro odstranění prázdných řádků tabulky a provedeme hromadnou korespondenci s daty. Po sloučení budou z dokumentu odstraněny všechny prázdné řádky tabulky.
-
-## Závěr
-
-V tomto tutoriálu jste se naučili, jak používat možnosti čištění v Aspose.Words pro Javu k manipulaci a čištění dokumentů během procesu hromadné korespondence. Tyto možnosti poskytují jemnou kontrolu nad čištěním dokumentů, což vám umožňuje snadno vytvářet propracované a přizpůsobené dokumenty.
+## Časté problémy a řešení
+- **Odstavce se neodstraňují:** Ujistěte se, že `setCleanupParagraphsWithPunctuationMarks(true)` je voláno *po* nastavení možnosti čištění.  
+- **Prázdné řádky tabulky přetrvávají:** Ověřte, že buňky tabulky skutečně obsahují prázdné řetězce (ne jen mezery).  
+- **Zůstávají nepoužitá pole:** Zkontrolujte, že používáte správný enum (`REMOVE_UNUSED_FIELDS`) a že pole nejsou omylem naplněna jinde.
 
 ## Často kladené otázky
 
-### Jaké jsou možnosti čištění v Aspose.Words pro Javu?
+**Q: Jaký je rozdíl mezi `REMOVE_EMPTY_FIELDS` a `REMOVE_UNUSED_FIELDS`?**  
+A: `REMOVE_EMPTY_FIELDS` maže pole, která během sloučení obdrží prázdný řetězec nebo `null`, zatímco `REMOVE_UNUSED_FIELDS` odstraňuje pole, která nebyla během operace sloučení vůbec referencována.
 
-Možnosti čištění v Aspose.Words pro Javu jsou nastavení, která vám umožňují ovládat různé aspekty čištění dokumentů během procesu hromadné korespondence. Umožňují odstranit nepotřebné prvky, jako jsou prázdné odstavce, nepoužité oblasti a další, a zajistit tak, aby byl váš výsledný dokument dobře strukturovaný a vyleštěný.
+**Q: Mohu kombinovat více možností čištění?**  
+A: Ano. Metoda `setCleanupOptions` přijímá bitový OR hodnot enumů, což vám umožní vyčistit odstavce, tabulky i oblasti v jediném volání.
 
-### Jak mohu z dokumentu odstranit prázdné odstavce?
+**Q: Ovlivní povolení `cleanupParagraphsWithPunctuationMarks` běžný text?**  
+A: Odstraňuje pouze odstavce, které se skládají výhradně z interpunkčních znaků (např. “?” nebo “---”). Normální věty zůstávají nedotčeny.
 
-Chcete-li z dokumentu odstranit prázdné odstavce pomocí Aspose.Words pro Javu, můžete nastavit `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` na hodnotu true. Tím se automaticky odstraní odstavce bez obsahu, což povede k čistšímu dokumentu.
+**Q: Lze přizpůsobit, které interpunkční znaky jsou považovány?**  
+A: Aktuální API používá předdefinovanou sadu interpunkčních znaků. Pro vlastní chování byste museli po sloučení dokument dále zpracovat.
 
-### Jaký je účel `REMOVE_UNUSED_REGIONS` možnost čištění?
+**Q: Fungují tyto možnosti čištění i při konverzi do PDF?**  
+A: Rozhodně. Jakmile je Word dokument vyčištěn, můžete jej převést do PDF, HTML nebo jakéhokoli jiného podporovaného formátu, aniž by se přenesly nežádoucí prvky.
 
-Ten/Ta/To `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Možnost se používá k odstranění oblastí v dokumentu, které nemají odpovídající data během procesu hromadné korespondence. Pomáhá udržet dokument v pořádku odstraněním nepoužívaných zástupných symbolů.
+## Závěr
+Nyní máte kompletní sadu nástrojů pro **čištění Word dokumentů** během mail merge s Aspose.Words pro Java. Výběrem vhodných `MailMergeCleanupOptions` můžete automaticky odstranit prázdné odstavce, prázdné řádky tabulek, nepoužitá pole a další – a získat tak elegantní, připravený dokument pro produkční nasazení.
 
-### Mohu z dokumentu odstranit prázdné řádky tabulky pomocí Aspose.Words pro Javu?
+---
 
-Ano, prázdné řádky tabulky můžete z dokumentu odstranit nastavením `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` Nastavení možnosti čištění na hodnotu true. Tím se automaticky odstraní všechny řádky tabulky, které neobsahují data, a zajistí se tak dobře strukturovaná tabulka v dokumentu.
-
-### Co se stane, když nastavím `REMOVE_CONTAINING_FIELDS` volba?
-
-Nastavení `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Tato možnost odstraní z dokumentu během procesu hromadné korespondence celé slučovací pole včetně odstavce, který jej obsahuje. To je užitečné, pokud chcete odstranit slučovací pole a s nimi související text.
-
-### Jak mohu z dokumentu odstranit nepoužívaná slučovací pole?
-
-Chcete-li z dokumentu odstranit nepoužívaná slučovací pole, můžete nastavit `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` možnost na hodnotu true. Tím se automaticky odstraní slučovací pole, která nebudou během hromadné korespondence vyplněna, což povede k čistšímu dokumentu.
-
-### Jaký je rozdíl mezi `REMOVE_EMPTY_FIELDS` a `REMOVE_UNUSED_FIELDS` možnosti úklidu?
-
-Ten/Ta/To `REMOVE_EMPTY_FIELDS` Možnost odstraní slučovací pole, která neobsahují žádná data nebo jsou prázdná během procesu hromadné korespondence. Na druhou stranu, `REMOVE_UNUSED_FIELDS` Možnost odstraní slučovací pole, která během sloučení nebudou naplněna daty. Volba mezi nimi závisí na tom, zda chcete odstranit pole bez obsahu nebo ta, která se v dané operaci sloučení nepoužívají.
-
-### Jak mohu povolit odstranění odstavců s interpunkčními znaménky?
-
-Chcete-li povolit odstranění odstavců s interpunkčními znaménky, můžete nastavit `cleanupParagraphsWithPunctuationMarks` na hodnotu true a určete interpunkční znaménka, která se mají brát v úvahu při čištění. To vám umožní vytvořit propracovanější dokument odstraněním nepotřebných odstavců obsahujících pouze interpunkci.
-
-### Mohu si přizpůsobit možnosti čištění v Aspose.Words pro Javu?
-
-Ano, možnosti čištění si můžete přizpůsobit podle svých specifických potřeb. Můžete si vybrat, které možnosti čištění chcete použít, a nakonfigurovat je podle požadavků na čištění dokumentu, čímž zajistíte, že váš výsledný dokument splňuje požadované standardy.
-
+**Poslední aktualizace:** 2026-01-11  
+**Testováno s:** Aspose.Words pro Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

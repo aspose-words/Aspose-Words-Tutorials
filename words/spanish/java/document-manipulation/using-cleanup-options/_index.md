@@ -1,10 +1,13 @@
 ---
-"description": "Mejore la claridad de sus documentos con las opciones de limpieza de Aspose.Words para Java. Aprenda a eliminar párrafos vacíos, regiones sin usar y más."
-"linktitle": "Uso de las opciones de limpieza"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Uso de opciones de limpieza en Aspose.Words para Java"
-"url": "/es/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Aprenda cómo limpiar un documento de Word usando las opciones de limpieza
+  de Aspose.Words para Java, incluyendo la eliminación de párrafos vacíos, filas de
+  tabla vacías y campos no utilizados.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Limpiar documento Word con las opciones de limpieza de Aspose.Words (Java)
+url: /es/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +16,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uso de opciones de limpieza en Aspose.Words para Java
+# Limpiar documento Word usando opciones de limpieza de Aspose.Words (Java)
 
+En este tutorial descubrirás cómo **limpiar documentos Word** con Aspose.Words para Java. Ya sea que estés generando facturas, contratos o informes masivos de combinación de correspondencia, los párrafos vacíos no deseados, los campos sin usar o las filas de tabla en blanco pueden hacer que el resultado final se vea poco profesional. Recorreremos cada opción de limpieza paso a paso, te mostraremos el código exacto que necesitas y explicaremos *por qué* cada configuración es importante para que puedas producir documentos pulidos cada vez.
 
-## Introducción al uso de opciones de limpieza en Aspose.Words para Java
+## Respuestas rápidas
+- **¿Qué significa “limpiar documento Word”?** Eliminar párrafos vacíos, regiones de combinación sin usar, filas de tabla vacías y otros elementos redundantes después de una operación de combinación de correspondencia.  
+- **¿Qué opción de limpieza elimina los párrafos vacíos?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **¿Cómo puedo borrar filas de tabla vacías?** Usa `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`.  
+- **¿Puedo deshacerme de los campos que nunca se rellenaron?** Sí – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` o `REMOVE_EMPTY_FIELDS`.  
+- **¿Necesito una licencia para ejecutar estos ejemplos?** Una prueba gratuita sirve para evaluación; se requiere una licencia comercial para uso en producción.
 
-En este tutorial, exploraremos cómo usar las opciones de limpieza en Aspose.Words para Java para manipular y limpiar documentos durante el proceso de combinación de correspondencia. Las opciones de limpieza permiten controlar diversos aspectos de la limpieza del documento, como la eliminación de párrafos vacíos, regiones no utilizadas, etc.
+## ¿Qué es “limpiar documento Word” en el contexto de la combinación de correspondencia?
+Cuando realizas una combinación de correspondencia, Aspose.Words inserta datos en campos y regiones de combinación. Si algunos campos reciben `null` o cadenas vacías, el documento puede terminar con párrafos errantes, tablas vacías o regiones de marcador de posición. Las **opciones de limpieza** eliminan automáticamente estos artefactos, dejando un documento limpio y listo para imprimir.
 
-## Prerrequisitos
+## ¿Por qué usar opciones de limpieza?
+- **Apariencia profesional:** Sin líneas en blanco ni tablas huérfanas.  
+- **Tamaño de archivo reducido:** Eliminar elementos no usados disminuye el peso del documento.  
+- **Procesamiento posterior simplificado:** Los documentos limpios son más fáciles de convertir a PDF, HTML u otros formatos.  
+- **Ahorro de tiempo:** Configuraciones de una sola línea reemplazan scripts manuales de post‑procesamiento.
 
-Antes de empezar, asegúrese de tener la biblioteca Aspose.Words para Java integrada en su proyecto. Puede descargarla desde [aquí](https://releases.aspose.com/words/java/).
+## Requisitos previos
+- Entorno de desarrollo Java (JDK 8+).  
+- Biblioteca Aspose.Words para Java – descárgala [aquí](https://releases.aspose.com/words/java/).  
+- Familiaridad básica con los conceptos de combinación de correspondencia.
 
-## Paso 1: Eliminar párrafos vacíos
+## Guía paso a paso
+
+### Paso 1: Cómo eliminar párrafos vacíos (Java)
+Primero, mostraremos cómo eliminar los párrafos que no contienen texto visible. Esto es especialmente útil cuando un campo de combinación se resuelve a `null`.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insertar campos de combinación
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Establecer opciones de limpieza
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Habilitar párrafos de limpieza con signos de puntuación
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// Ejecutar combinación de correspondencia
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// Guardar el documento
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-En este ejemplo, creamos un nuevo documento, insertamos campos de combinación y configuramos las opciones de limpieza para eliminar los párrafos vacíos. Además, habilitamos la eliminación de párrafos con signos de puntuación. Tras ejecutar la combinación de correspondencia, el documento se guarda con la limpieza especificada aplicada.
+**¿Qué ocurre aquí?**  
+- `REMOVE_EMPTY_PARAGRAPHS` indica a Aspose.Words que elimine cualquier párrafo que quede vacío después de la combinación.  
+- Habilitar `cleanupParagraphsWithPunctuationMarks` también elimina los párrafos que consisten únicamente en signos de puntuación (p. ej., “?”).
 
-## Paso 2: Eliminación de regiones no fusionadas
+### Paso 2: Cómo eliminar regiones no combinadas
+Si una región de combinación no tiene datos correspondientes, puedes descartarla por completo.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Establecer opciones de limpieza para eliminar regiones no utilizadas
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Ejecutar la combinación de correspondencia con regiones
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// Guardar el documento
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-En este ejemplo, abrimos un documento existente con regiones de fusión, configuramos las opciones de limpieza para eliminar las regiones no utilizadas y, a continuación, ejecutamos la combinación de correspondencia con datos vacíos. Este proceso elimina automáticamente las regiones no utilizadas del documento.
+**Por qué es importante:**  
+Las regiones no usadas a menudo dejan secciones en blanco o encabezados errantes. La bandera `REMOVE_UNUSED_REGIONS` las limpia automáticamente.
 
-## Paso 3: Eliminar campos vacíos
+### Paso 3: Cómo eliminar campos vacíos
+Cuando un campo recibe una cadena vacía, puede que quieras eliminar todo el campo en lugar de dejar un marcador de posición vacío.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Establecer opciones de limpieza para eliminar campos vacíos
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// Ejecutar combinación de correspondencia
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Guardar el documento
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-En este ejemplo, abrimos un documento con campos de combinación, configuramos las opciones de limpieza para eliminar los campos vacíos y ejecutamos la combinación de correspondencia con los datos. Tras la combinación, se eliminarán los campos vacíos del documento.
-
-## Paso 4: Eliminar campos no utilizados
+### Paso 4: Cómo eliminar campos no usados
+Si ciertos campos nunca se referencian durante la combinación, puedes eliminarlos completamente.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Establecer opciones de limpieza para eliminar campos no utilizados
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// Ejecutar combinación de correspondencia
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Guardar el documento
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-En este ejemplo, abrimos un documento con campos de combinación, configuramos las opciones de limpieza para eliminar los campos no utilizados y ejecutamos la combinación de correspondencia con los datos. Tras la combinación, se eliminarán del documento los campos no utilizados.
-
-## Paso 5: Eliminar campos contenedores
+### Paso 5: Cómo eliminar campos contenedores
+A veces un campo de combinación está dentro de un párrafo que también deseas descartar.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Establecer opciones de limpieza para eliminar los campos que contienen
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// Ejecutar combinación de correspondencia
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Guardar el documento
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-En este ejemplo, abrimos un documento con campos de combinación, configuramos las opciones de limpieza para eliminar los campos que los contienen y ejecutamos la combinación de correspondencia con los datos. Tras la combinación, los campos se eliminarán del documento.
-
-## Paso 6: Eliminar filas vacías de la tabla
+### Paso 6: Cómo eliminar filas de tabla vacías
+Las tablas a menudo terminan con filas que solo contienen campos vacíos. Esta opción poda esas filas.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Establecer opciones de limpieza para eliminar filas vacías de la tabla
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// Ejecutar combinación de correspondencia
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Guardar el documento
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-En este ejemplo, abrimos un documento con una tabla y combinamos campos, configuramos las opciones de limpieza para eliminar las filas vacías de la tabla y ejecutamos la combinación de correspondencia con los datos. Tras la combinación, se eliminarán del documento las filas vacías de la tabla.
-
-## Conclusión
-
-En este tutorial, aprendiste a usar las opciones de limpieza de Aspose.Words para Java para manipular y limpiar documentos durante el proceso de combinación de correspondencia. Estas opciones ofrecen un control preciso sobre la limpieza de documentos, permitiéndote crear documentos impecables y personalizados con facilidad.
+## Problemas comunes y solución de errores
+- **Los párrafos no se eliminan:** Asegúrate de que `setCleanupParagraphsWithPunctuationMarks(true)` se invoque *después* de establecer la opción de limpieza.  
+- **Las filas de tabla vacías persisten:** Verifica que las celdas de la tabla contengan realmente cadenas vacías (no espacios en blanco).  
+- **Los campos no usados permanecen:** Revisa que estés usando el enum correcto (`REMOVE_UNUSED_FIELDS`) y que los campos de combinación no se estén rellenando accidentalmente en otro lugar.
 
 ## Preguntas frecuentes
 
-### ¿Cuáles son las opciones de limpieza en Aspose.Words para Java?
+**P: ¿Cuál es la diferencia entre `REMOVE_EMPTY_FIELDS` y `REMOVE_UNUSED_FIELDS`?**  
+R: `REMOVE_EMPTY_FIELDS` elimina los campos que reciben una cadena vacía o `null` durante la combinación, mientras que `REMOVE_UNUSED_FIELDS` elimina los campos que nunca fueron referenciados por la operación de combinación.
 
-Las opciones de limpieza en Aspose.Words para Java permiten controlar diversos aspectos de la limpieza del documento durante el proceso de combinación de correspondencia. Permiten eliminar elementos innecesarios, como párrafos vacíos, regiones sin usar, etc., garantizando así una estructura y un acabado impecables.
+**P: ¿Puedo combinar múltiples opciones de limpieza?**  
+R: Sí. El método `setCleanupOptions` acepta una combinación OR bit a bit de los valores del enum, lo que permite limpiar párrafos, tablas y regiones en una sola llamada.
 
-### ¿Cómo puedo eliminar párrafos vacíos de mi documento?
+**P: ¿Activar `cleanupParagraphsWithPunctuationMarks` afecta al texto normal?**  
+R: Solo elimina los párrafos que consisten exclusivamente en caracteres de puntuación (p. ej., “?” o “---”). Las oraciones regulares permanecen sin cambios.
 
-Para eliminar párrafos vacíos de su documento usando Aspose.Words para Java, puede configurar el `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` Opción a verdadero. Esto eliminará automáticamente los párrafos sin contenido, lo que resultará en un documento más limpio.
+**P: ¿Es posible personalizar qué signos de puntuación se consideran?**  
+R: La API actual usa un conjunto predefinido de caracteres de puntuación. Para un comportamiento personalizado, tendrías que post‑procesar el documento después de la combinación.
 
-### ¿Cuál es el propósito de la `REMOVE_UNUSED_REGIONS` ¿Opción de limpieza?
+**P: ¿Estas opciones de limpieza funcionan con la conversión a PDF?**  
+R: Absolutamente. Una vez que el documento Word está limpio, puedes convertirlo a PDF, HTML o cualquier otro formato compatible sin trasladar los elementos no deseados.
 
-El `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Esta opción se utiliza para eliminar regiones de un documento que no tienen datos correspondientes durante la combinación de correspondencia. Ayuda a mantener el documento ordenado eliminando los marcadores de posición no utilizados.
+## Conclusión
+Ahora dispones de un conjunto completo de herramientas para **limpiar documentos Word** durante la combinación de correspondencia con Aspose.Words para Java. Seleccionando las `MailMergeCleanupOptions` adecuadas, puedes eliminar automáticamente párrafos vacíos, filas de tabla vacías, campos no usados y más, obteniendo un documento elegante y listo para producción cada vez.
 
-### ¿Puedo eliminar filas de tabla vacías de un documento usando Aspose.Words para Java?
+---
 
-Sí, puede eliminar filas de tabla vacías de un documento configurando la `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` Establezca la opción de limpieza en "true". Esto eliminará automáticamente las filas de la tabla que no contengan datos, lo que garantiza una tabla bien estructurada en el documento.
-
-### ¿Qué sucede cuando configuro el `REMOVE_CONTAINING_FIELDS` ¿opción?
-
-Configuración de la `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Esta opción eliminará todo el campo de combinación, incluido el párrafo que lo contiene, del documento durante el proceso de combinación de correspondencia. Esto resulta útil cuando se desea eliminar los campos de combinación y su texto asociado.
-
-### ¿Cómo puedo eliminar campos de combinación no utilizados de mi documento?
-
-Para eliminar campos de combinación no utilizados de un documento, puede configurar el `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` Opción a verdadero. Esto eliminará automáticamente los campos de combinación que no se completen durante la combinación de correspondencia, lo que resultará en un documento más limpio.
-
-### ¿Cuál es la diferencia entre? `REMOVE_EMPTY_FIELDS` y `REMOVE_UNUSED_FIELDS` ¿Opciones de limpieza?
-
-El `REMOVE_EMPTY_FIELDS` La opción elimina los campos de combinación que no tienen datos o están vacíos durante el proceso de combinación de correspondencia. Por otro lado, la `REMOVE_UNUSED_FIELDS` Esta opción elimina los campos de fusión que no se rellenan con datos durante la fusión. La elección entre ellos depende de si se desean eliminar los campos sin contenido o los que no se utilizan en la operación de fusión específica.
-
-### ¿Cómo puedo habilitar la eliminación de párrafos con signos de puntuación?
-
-Para habilitar la eliminación de párrafos con signos de puntuación, puede configurar la `cleanupParagraphsWithPunctuationMarks` Establezca la opción en "verdadero" y especifique los signos de puntuación que se considerarán para la limpieza. Esto le permite crear un documento más refinado al eliminar párrafos innecesarios que solo contienen puntuación.
-
-### ¿Puedo personalizar las opciones de limpieza en Aspose.Words para Java?
-
-Sí, puede personalizar las opciones de limpieza según sus necesidades. Puede elegir qué opciones aplicar y configurarlas según sus requisitos de limpieza de documentos, garantizando así que el documento final cumpla con los estándares deseados.
-
+**Última actualización:** 2026-01-11  
+**Probado con:** Aspose.Words para Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

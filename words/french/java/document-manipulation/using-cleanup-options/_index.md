@@ -1,10 +1,13 @@
 ---
-"description": "Améliorez la clarté de vos documents grâce aux options de nettoyage d'Aspose.Words pour Java. Apprenez à supprimer les paragraphes vides, les zones inutilisées, etc."
-"linktitle": "Utilisation des options de nettoyage"
-"second_title": "API de traitement de documents Java Aspose.Words"
-"title": "Utilisation des options de nettoyage dans Aspose.Words pour Java"
-"url": "/fr/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Apprenez à nettoyer un document Word en utilisant les options de nettoyage
+  d’Aspose.Words for Java, notamment la suppression des paragraphes vides, des lignes
+  de tableau vides et des champs inutilisés.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Nettoyer le document Word à l’aide des options de nettoyage Aspose.Words (Java)
+url: /fr/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +16,187 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilisation des options de nettoyage dans Aspose.Words pour Java
+# Nettoyer un document Word à l'aide des options de nettoyage Aspose.Words (Java)
 
+Dans ce tutoriel, vous découvrirez comment **nettoyer des fichiers de document Word** avec Aspose.Words for Java. Que vous génériez des factures, des contrats ou des rapports de fusion massive, des paragraphes vides indésirables, des champs inutilisés ou des lignes de tableau vides peuvent rendre le résultat final peu professionnel. Nous parcourrons chaque option de nettoyage étape par étape, vous montrerons le code exact dont vous avez besoin et expliquerons *pourquoi* chaque paramètre est important afin que vous puissiez produire des documents soignés à chaque fois.
 
-## Introduction aux options de nettoyage dans Aspose.Words pour Java
+## Réponses rapides
+- **Que signifie « nettoyer un document Word » ?** Supprimer les paragraphes vides, les régions de fusion inutilisées, les lignes de tableau vides et d’autres éléments redondants après une opération de fusion.
+- **Quelle option de nettoyage supprime les paragraphes vides ?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.
+- **Comment supprimer les lignes de tableau vides ?** Utilisez `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`.
+- **Puis‑je me débarrasser des champs qui n’ont jamais été remplis ?** Oui – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` ou `REMOVE_EMPTY_FIELDS`.
+- **Ai‑je besoin d’une licence pour exécuter ces exemples ?** Une version d’essai gratuite suffit pour l’évaluation ; une licence commerciale est requise pour la production.
 
-Dans ce tutoriel, nous découvrirons comment utiliser les options de nettoyage d'Aspose.Words pour Java afin de manipuler et de nettoyer les documents lors du publipostage. Les options de nettoyage vous permettent de contrôler divers aspects du nettoyage des documents, comme la suppression des paragraphes vides, des zones inutilisées, etc.
+## Qu’est‑ce que « Nettoyer un document Word » dans le contexte de la fusion de courrier ?
+Lorsque vous effectuez une fusion de courrier, Aspose.Words insère des données dans les champs et les régions de fusion. Si certains champs reçoivent `null` ou des chaînes vides, le document peut se retrouver avec des paragraphes errants, des tableaux vides ou des régions de remplacement. Les **options de nettoyage** éliminent automatiquement ces artefacts, laissant un document propre et prêt à être imprimé.
+
+## Pourquoi utiliser les options de nettoyage ?
+- **Aspect professionnel :** Plus de lignes blanches ni de tableaux orphelins.  
+- **Taille de fichier réduite :** La suppression des éléments inutilisés diminue le poids du document.  
+- **Traitement en aval simplifié :** Les documents propres sont plus faciles à convertir en PDF, HTML ou autres formats.  
+- **Gain de temps :** Un paramètre en une ligne remplace les scripts de post‑traitement manuels.
 
 ## Prérequis
+- Environnement de développement Java (JDK 8+).  
+- Bibliothèque Aspose.Words for Java – téléchargez‑la depuis [here](https://releases.aspose.com/words/java/).  
+- Familiarité de base avec les concepts de fusion de courrier.
 
-Avant de commencer, assurez-vous d'avoir intégré la bibliothèque Aspose.Words pour Java à votre projet. Vous pouvez la télécharger ici. [ici](https://releases.aspose.com/words/java/).
+## Guide étape par étape
 
-## Étape 1 : Suppression des paragraphes vides
+### Étape 1 : Comment supprimer les paragraphes vides (Java)
+Tout d’abord, nous montrons comment éliminer les paragraphes qui ne contiennent aucun texte visible. Cela est particulièrement utile lorsqu’un champ de fusion se résout à `null`.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des champs de fusion
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Définir les options de nettoyage
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Activer le nettoyage des paragraphes avec des signes de ponctuation
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// Exécuter le publipostage
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// Enregistrer le document
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-Dans cet exemple, nous créons un nouveau document, insérons des champs de fusion et définissons les options de nettoyage pour supprimer les paragraphes vides. De plus, nous activons la suppression des paragraphes contenant des signes de ponctuation. Après l'exécution du publipostage, le document est enregistré avec le nettoyage spécifié.
+**Que se passe‑t‑il ici ?**  
+- `REMOVE_EMPTY_PARAGRAPHS` indique à Aspose.Words de supprimer tout paragraphe qui reste vide après la fusion.  
+- L’activation de `cleanupParagraphsWithPunctuationMarks` supprime également les paragraphes composés uniquement de ponctuation (par ex. « ? »).
 
-## Étape 2 : Suppression des régions non fusionnées
+### Étape 2 : Comment supprimer les régions non fusionnées
+Si une région de fusion n’a aucune donnée correspondante, vous pouvez la supprimer entièrement.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Définir les options de nettoyage pour supprimer les régions inutilisées
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Exécuter le publipostage avec les régions
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// Enregistrer le document
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-Dans cet exemple, nous ouvrons un document existant avec des zones de fusion, définissons les options de nettoyage pour supprimer les zones inutilisées, puis exécutons le publipostage avec des données vides. Ce processus supprime automatiquement les zones inutilisées du document.
+**Pourquoi c’est important :**  
+Les régions inutilisées laissent souvent des sections vides ou des titres errants. Le drapeau `REMOVE_UNUSED_REGIONS` les nettoie automatiquement.
 
-## Étape 3 : Suppression des champs vides
+### Étape 3 : Comment supprimer les champs vides
+Lorsqu’un champ reçoit une chaîne vide, vous pouvez vouloir que le champ entier soit retiré plutôt que de laisser un espace réservé vide.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Définir des options de nettoyage pour supprimer les champs vides
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// Exécuter le publipostage
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Enregistrer le document
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-Dans cet exemple, nous ouvrons un document contenant des champs de fusion, définissons les options de nettoyage pour supprimer les champs vides et exécutons le publipostage avec les données. Après la fusion, tous les champs vides seront supprimés du document.
-
-## Étape 4 : Suppression des champs inutilisés
+### Étape 4 : Comment supprimer les champs inutilisés
+Si certains champs ne sont jamais référencés pendant la fusion, vous pouvez les éliminer complètement.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Définir des options de nettoyage pour supprimer les champs inutilisés
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// Exécuter le publipostage
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Enregistrer le document
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-Dans cet exemple, nous ouvrons un document contenant des champs de fusion, définissons les options de nettoyage pour supprimer les champs inutilisés et exécutons le publipostage avec les données. Après la fusion, tous les champs inutilisés seront supprimés du document.
-
-## Étape 5 : Suppression des champs contenant
+### Étape 5 : Comment supprimer les champs contenant
+Parfois, un champ de fusion se trouve à l’intérieur d’un paragraphe que vous souhaitez également supprimer.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Définir les options de nettoyage pour supprimer les champs contenant
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// Exécuter le publipostage
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Enregistrer le document
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-Dans cet exemple, nous ouvrons un document contenant des champs de fusion, définissons les options de nettoyage pour supprimer les champs qui les contiennent, puis exécutons le publipostage avec les données. Après la fusion, les champs eux-mêmes seront supprimés du document.
-
-## Étape 6 : Suppression des lignes vides du tableau
+### Étape 6 : Comment supprimer les lignes de tableau vides
+Les tableaux se retrouvent souvent avec des lignes ne contenant que des champs vides. Cette option supprime ces lignes.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Définir des options de nettoyage pour supprimer les lignes de table vides
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// Exécuter le publipostage
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Enregistrer le document
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-Dans cet exemple, nous ouvrons un document contenant un tableau et des champs de fusion, définissons les options de nettoyage pour supprimer les lignes vides du tableau et exécutons le publipostage avec les données. Après la fusion, toutes les lignes vides du tableau seront supprimées du document.
+## Problèmes courants & dépannage
+- **Paragraphes non supprimés :** Assurez‑vous d’appeler `setCleanupParagraphsWithPunctuationMarks(true)` *après* avoir défini l’option de nettoyage.  
+- **Lignes de tableau vides persistantes :** Vérifiez que les cellules du tableau contiennent réellement des chaînes vides (et non des espaces).  
+- **Champs inutilisés qui restent :** Revérifiez que vous utilisez le bon enum (`REMOVE_UNUSED_FIELDS`) et que les champs de fusion ne sont pas remplis accidentellement ailleurs.
+
+## Questions fréquentes
+
+**Q : Quelle est la différence entre `REMOVE_EMPTY_FIELDS` et `REMOVE_UNUSED_FIELDS` ?**  
+R : `REMOVE_EMPTY_FIELDS` supprime les champs qui reçoivent une chaîne vide ou `null` pendant la fusion, tandis que `REMOVE_UNUSED_FIELDS` élimine les champs qui n’ont jamais été référencés par l’opération de fusion.
+
+**Q : Puis‑je combiner plusieurs options de nettoyage ?**  
+R : Oui. La méthode `setCleanupOptions` accepte un OU bit‑à‑bit des valeurs d’enum, vous permettant de nettoyer paragraphes, tableaux et régions en un seul appel.
+
+**Q : L’activation de `cleanupParagraphsWithPunctuationMarks` affecte‑t‑elle le texte normal ?**  
+R : Elle ne supprime que les paragraphes composés exclusivement de caractères de ponctuation (par ex. « ? » ou « --- »). Les phrases normales restent intactes.
+
+**Q : Peut‑on personnaliser les caractères de ponctuation pris en compte ?**  
+R : L’API actuelle utilise un ensemble prédéfini de caractères de ponctuation. Pour un comportement personnalisé, vous devrez post‑traiter le document après la fusion.
+
+**Q : Ces options de nettoyage fonctionnent‑elles avec la conversion PDF ?**  
+R : Absolument. Une fois le document Word nettoyé, vous pouvez le convertir en PDF, HTML ou tout autre format supporté sans transporter les éléments indésirables.
 
 ## Conclusion
+Vous disposez maintenant d’une boîte à outils complète pour **nettoyer des fichiers de document Word** lors d’une fusion de courrier avec Aspose.Words for Java. En sélectionnant les `MailMergeCleanupOptions` appropriées, vous pouvez supprimer automatiquement les paragraphes vides, les lignes de tableau vides, les champs inutilisés, etc., et obtenir un document élégant, prêt pour la production, à chaque fois.
 
-Dans ce tutoriel, vous avez appris à utiliser les options de nettoyage d'Aspose.Words pour Java afin de manipuler et de nettoyer les documents lors du publipostage. Ces options offrent un contrôle précis du nettoyage des documents, vous permettant de créer facilement des documents soignés et personnalisés.
+---
 
-## FAQ
-
-### Quelles sont les options de nettoyage dans Aspose.Words pour Java ?
-
-Les options de nettoyage d'Aspose.Words pour Java vous permettent de contrôler divers aspects du nettoyage du document pendant le processus de publipostage. Elles vous permettent de supprimer les éléments inutiles, tels que les paragraphes vides, les zones inutilisées, etc., pour garantir un document final bien structuré et soigné.
-
-### Comment puis-je supprimer les paragraphes vides de mon document ?
-
-Pour supprimer les paragraphes vides de votre document à l'aide d'Aspose.Words pour Java, vous pouvez définir le `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` Option sur « true ». Cela éliminera automatiquement les paragraphes vides, produisant un document plus clair.
-
-### Quel est le but de la `REMOVE_UNUSED_REGIONS` option de nettoyage ?
-
-Le `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` Cette option permet de supprimer les zones d'un document qui ne contiennent pas de données correspondantes lors du publipostage. Elle permet de maintenir l'ordre dans votre document en supprimant les espaces réservés inutilisés.
-
-### Puis-je supprimer les lignes de tableau vides d'un document à l'aide d'Aspose.Words pour Java ?
-
-Oui, vous pouvez supprimer les lignes de tableau vides d'un document en définissant le `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` Définissez l'option de nettoyage sur « true ». Cela supprimera automatiquement toutes les lignes du tableau qui ne contiennent pas de données, garantissant ainsi la bonne structure du tableau dans votre document.
-
-### Que se passe-t-il lorsque je règle le `REMOVE_CONTAINING_FIELDS` option?
-
-Réglage de la `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` Cette option supprime l'intégralité du champ de fusion, y compris le paragraphe qui le contient, du document lors du publipostage. Cette option est utile pour supprimer des champs de fusion et leur texte associé.
-
-### Comment puis-je supprimer les champs de fusion inutilisés de mon document ?
-
-Pour supprimer les champs de fusion inutilisés d'un document, vous pouvez définir le `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` Définissez l'option sur « true ». Cela éliminera automatiquement les champs de fusion non renseignés lors du publipostage, produisant ainsi un document plus clair.
-
-### Quelle est la différence entre `REMOVE_EMPTY_FIELDS` et `REMOVE_UNUSED_FIELDS` options de nettoyage ?
-
-Le `REMOVE_EMPTY_FIELDS` L'option supprime les champs de fusion vides ou sans données lors du publipostage. En revanche, `REMOVE_UNUSED_FIELDS` Cette option supprime les champs de fusion vides lors de la fusion. Le choix dépend de la suppression des champs vides ou inutilisés lors de l'opération de fusion.
-
-### Comment puis-je activer la suppression des paragraphes avec des signes de ponctuation ?
-
-Pour permettre la suppression des paragraphes avec des signes de ponctuation, vous pouvez définir le `cleanupParagraphsWithPunctuationMarks` Définissez l'option sur « true » et spécifiez les signes de ponctuation à prendre en compte pour le nettoyage. Cela vous permet de créer un document plus précis en supprimant les paragraphes inutiles contenant uniquement de la ponctuation.
-
-### Puis-je personnaliser les options de nettoyage dans Aspose.Words pour Java ?
-
-Oui, vous pouvez personnaliser les options de nettoyage selon vos besoins spécifiques. Vous pouvez choisir les options à appliquer et les configurer selon vos exigences de nettoyage, garantissant ainsi que votre document final réponde aux normes souhaitées.
-
+**Dernière mise à jour :** 2026-01-11  
+**Testé avec :** Aspose.Words for Java 24.11  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

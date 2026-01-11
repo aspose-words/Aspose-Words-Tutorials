@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java 정리 옵션을 사용하여 문서의 명확성을 향상하세요. 빈 단락, 사용하지 않는 영역 등을 제거하는 방법을 알아보세요."
-"linktitle": "정리 옵션 사용"
-"second_title": "Aspose.Words Java 문서 처리 API"
-"title": "Java용 Aspose.Words에서 정리 옵션 사용"
-"url": "/ko/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Aspose.Words for Java 정리 옵션을 사용하여 Word 문서를 정리하는 방법을 배우세요. 여기에는 빈 단락,
+  빈 표 행 및 사용되지 않는 필드를 제거하는 것이 포함됩니다.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words 정리 옵션을 사용하여 Word 문서 정리 (Java)
+url: /ko/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +15,183 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.Words에서 정리 옵션 사용
+# Aspose.Words Cleanup Options (Java)를 사용한 Word 문서 정리
 
+이 튜토리얼에서는 Aspose.Words for Java를 사용하여 **Word 문서** 파일을 정리하는 방법을 알아봅니다. 청구서, 계약서, 대량 메일 병합 보고서를 생성하든, 원하지 않는 빈 단락, 사용되지 않은 필드 또는 빈 테이블 행은 최종 출력이 비전문적으로 보이게 할 수 있습니다. 각 정리 옵션을 단계별로 살펴보고, 필요한 정확한 코드를 보여드리며, 각 설정이 왜 중요한지 설명하여 매번 깔끔한 문서를 만들 수 있도록 도와드립니다.
 
-## Aspose.Words for Java에서 정리 옵션 사용 소개
+## 빠른 답변
+- **“Word 문서 정리”가 의미하는 것은?** 메일 병합 작업 후 빈 단락, 사용되지 않은 병합 영역, 빈 테이블 행 및 기타 중복 요소를 제거하는 것입니다.  
+- **어떤 정리 옵션이 빈 단락을 제거합니까?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **빈 테이블 행을 삭제하려면 어떻게 해야 하나요?** `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`를 사용합니다.  
+- **한 번도 채워지지 않은 필드를 제거할 수 있나요?** 예 – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` 또는 `REMOVE_EMPTY_FIELDS`.  
+- **이 예제를 실행하려면 라이선스가 필요합니까?** 평가용으로는 무료 체험판으로 충분하지만, 실제 운영에서는 상용 라이선스가 필요합니다.
 
-이 튜토리얼에서는 Aspose.Words for Java에서 편지 병합 과정에서 문서를 조작하고 정리하는 정리 옵션을 사용하는 방법을 살펴보겠습니다. 정리 옵션을 사용하면 빈 단락, 사용하지 않는 영역 제거 등 문서 정리의 다양한 측면을 제어할 수 있습니다.
+## 메일 병합에서 “Word 문서 정리”란 무엇인가요?
+메일 병합을 수행하면 Aspose.Words가 병합 필드와 영역에 데이터를 삽입합니다. 일부 필드가 `null` 또는 빈 문자열을 받으면 문서에 남은 단락, 빈 테이블 또는 자리 표시자 영역이 생길 수 있습니다. **정리 옵션**은 이러한 흔적을 자동으로 제거하여 인쇄 준비가 된 깔끔한 문서를 남깁니다.
 
-## 필수 조건
+## 왜 정리 옵션을 사용하나요?
+- **전문적인 외관:** 빈 줄이나 고립된 테이블이 없습니다.  
+- **파일 크기 감소:** 사용되지 않은 요소를 제거하면 문서 용량이 줄어듭니다.  
+- **후속 처리 간소화:** 정리된 문서는 PDF, HTML 등 다른 형식으로 변환하기가 더 쉽습니다.  
+- **시간 절약:** 한 줄 설정만으로 수동 후처리 스크립트를 대체합니다.
 
-시작하기 전에 Aspose.Words for Java 라이브러리가 프로젝트에 통합되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/words/java/).
+## 사전 요구 사항
+- Java 개발 환경 (JDK 8 이상).  
+- Aspose.Words for Java 라이브러리 – [여기](https://releases.aspose.com/words/java/)에서 다운로드하세요.  
+- 메일 병합 개념에 대한 기본적인 이해.
 
-## 1단계: 빈 문단 제거
+## 단계별 가이드
+
+### 단계 1: 빈 단락 제거 방법 (Java)
+먼저, 보이는 텍스트가 없는 단락을 제거하는 방법을 보여드립니다. 이는 병합 필드가 `null`로 해석될 때 특히 유용합니다.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 병합 필드 삽입
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// 정리 옵션 설정
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// 구두점이 있는 문단 정리 활성화
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// 메일 병합 실행
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// 문서를 저장하세요
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-이 예제에서는 새 문서를 만들고, 병합 필드를 삽입하고, 빈 단락을 제거하는 정리 옵션을 설정합니다. 또한, 구두점이 있는 단락을 제거하는 기능도 활성화합니다. 편지 병합을 실행하면 지정된 정리 옵션이 적용된 문서가 저장됩니다.
+**여기서 일어나는 일:**  
+- `REMOVE_EMPTY_PARAGRAPHS`는 병합 후 빈 단락을 모두 제거하도록 Aspose.Words에 지시합니다.  
+- `cleanupParagraphsWithPunctuationMarks`를 활성화하면 구두점만으로 구성된 단락도 제거됩니다(예: “?”).
 
-## 2단계: 병합되지 않은 지역 제거
+### 단계 2: 병합되지 않은 영역 제거 방법
+메일 병합 영역에 해당 데이터가 없으면 해당 영역을 완전히 삭제할 수 있습니다.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// 사용하지 않는 영역을 제거하기 위한 정리 옵션 설정
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// 지역별로 메일 병합 실행
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// 문서를 저장하세요
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-이 예제에서는 병합 영역이 있는 기존 문서를 열고, 정리 옵션을 설정하여 사용하지 않는 영역을 제거한 다음, 빈 데이터로 편지 병합을 실행합니다. 이 과정을 통해 문서에서 사용하지 않는 영역이 자동으로 제거됩니다.
+**이것이 중요한 이유:**  
+사용되지 않은 영역은 종종 빈 섹션이나 남은 제목을 남깁니다. `REMOVE_UNUSED_REGIONS` 플래그가 이를 자동으로 정리합니다.
 
-## 3단계: 빈 필드 제거
+### 단계 3: 빈 필드 제거 방법
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 빈 필드를 제거하기 위한 정리 옵션 설정
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// 메일 병합 실행
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 문서를 저장하세요
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-이 예제에서는 병합 필드가 있는 문서를 열고, 빈 필드를 제거하는 정리 옵션을 설정한 후, 데이터를 사용하여 편지 병합을 실행합니다. 병합 후에는 문서에서 빈 필드가 모두 제거됩니다.
-
-## 4단계: 사용하지 않는 필드 제거
+### 단계 4: 사용되지 않은 필드 제거 방법
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 사용하지 않는 필드를 제거하기 위한 정리 옵션 설정
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// 메일 병합 실행
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 문서를 저장하세요
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-이 예제에서는 병합 필드가 있는 문서를 열고, 정리 옵션을 설정하여 사용하지 않는 필드를 제거하고, 데이터를 사용하여 편지 병합을 실행합니다. 병합 후에는 사용하지 않는 필드가 문서에서 제거됩니다.
-
-## 5단계: 포함 필드 제거
+### 단계 5: 포함된 필드 제거 방법
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 포함된 필드를 제거하기 위한 정리 옵션 설정
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// 메일 병합 실행
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 문서를 저장하세요
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-이 예제에서는 병합 필드가 있는 문서를 열고, 포함된 필드를 제거하는 정리 옵션을 설정한 후, 데이터를 사용하여 편지 병합을 실행합니다. 병합 후에는 필드 자체가 문서에서 제거됩니다.
-
-## 6단계: 빈 테이블 행 제거
+### 단계 6: 빈 테이블 행 제거 방법
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// 빈 테이블 행을 제거하기 위한 정리 옵션 설정
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// 메일 병합 실행
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// 문서를 저장하세요
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-이 예제에서는 표와 병합 필드가 있는 문서를 열고, 빈 표 행을 제거하는 정리 옵션을 설정한 후, 데이터를 사용하여 편지 병합을 실행합니다. 병합 후에는 문서에서 빈 표 행이 모두 제거됩니다.
-
-## 결론
-
-이 튜토리얼에서는 Aspose.Words for Java의 정리 옵션을 사용하여 편지 병합 과정에서 문서를 조작하고 정리하는 방법을 알아보았습니다. 이러한 옵션을 사용하면 문서 정리를 세부적으로 제어할 수 있어 세련되고 사용자 정의된 문서를 손쉽게 만들 수 있습니다.
+## 일반적인 문제 및 해결 방법
+- **단락이 제거되지 않음:** `setCleanupParagraphsWithPunctuationMarks(true)`가 정리 옵션을 설정한 *후에* 호출되었는지 확인하십시오.  
+- **빈 테이블 행이 남아 있음:** 테이블 셀에 실제로 빈 문자열이 들어 있는지(공백이 아닌) 확인하십시오.  
+- **사용되지 않은 필드가 남아 있음:** 올바른 열거형(`REMOVE_UNUSED_FIELDS`)을 사용했는지와 병합 필드가 다른 곳에서 실수로 채워지지는 않았는지 다시 확인하십시오.
 
 ## 자주 묻는 질문
 
-### Aspose.Words for Java의 정리 옵션은 무엇입니까?
+**Q: `REMOVE_EMPTY_FIELDS`와 `REMOVE_UNUSED_FIELDS`의 차이점은 무엇인가요?**  
+A: `REMOVE_EMPTY_FIELDS`는 병합 중에 빈 문자열이나 `null`을 받은 필드를 삭제하고, `REMOVE_UNUSED_FIELDS`는 병합 작업에서 전혀 참조되지 않은 필드를 제거합니다.
 
-Aspose.Words for Java의 정리 옵션은 편지 병합 과정에서 문서 정리의 다양한 측면을 제어할 수 있는 설정입니다. 빈 단락, 사용되지 않는 영역 등 불필요한 요소를 제거하여 최종 문서의 구조와 완성도를 높일 수 있습니다.
+**Q: 여러 정리 옵션을 결합할 수 있나요?**  
+A: 가능합니다. `setCleanupOptions` 메서드는 열거형 값들을 비트 OR 연산으로 받아 한 번에 단락, 테이블, 영역 등을 정리할 수 있습니다.
 
-### 문서에서 빈 문단을 제거하려면 어떻게 해야 하나요?
+**Q: `cleanupParagraphsWithPunctuationMarks`를 활성화하면 일반 텍스트에 영향을 줍니까?**  
+A: 구두점만으로 구성된 단락만 제거합니다(예: “?” 또는 “---”). 일반 문장은 그대로 유지됩니다.
 
-Aspose.Words for Java를 사용하여 문서에서 빈 문단을 제거하려면 다음을 설정할 수 있습니다. `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` 옵션을 true로 설정하면 내용이 없는 문단이 자동으로 제거되어 문서가 더 깔끔해집니다.
+**Q: 어떤 구두점을 대상으로 할지 사용자 정의가 가능한가요?**  
+A: 현재 API는 미리 정의된 구두점 집합을 사용합니다. 사용자 정의 동작이 필요하면 병합 후에 문서를 추가 처리해야 합니다.
 
-### 의 목적은 무엇입니까? `REMOVE_UNUSED_REGIONS` 정리 옵션?
+**Q: 이러한 정리 옵션이 PDF 변환에도 적용되나요?**  
+A: 물론입니다. Word 문서를 정리한 후에는 원하지 않는 요소가 남지 않은 상태로 PDF, HTML 등 지원되는 형식으로 변환할 수 있습니다.
 
-그만큼 `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` 이 옵션은 편지 병합 과정에서 해당 데이터가 없는 문서 영역을 제거하는 데 사용됩니다. 사용하지 않는 자리 표시자를 제거하여 문서를 깔끔하게 유지하는 데 도움이 됩니다.
+## 결론
+이제 Aspose.Words for Java를 사용한 메일 병합 중 **Word 문서** 파일을 정리하기 위한 완전한 도구 상자를 갖추었습니다. 적절한 `MailMergeCleanupOptions`를 선택하면 빈 단락, 빈 테이블 행, 사용되지 않은 필드 등을 자동으로 제거하여 매번 깔끔하고 생산 준비가 된 문서를 얻을 수 있습니다.
 
-### Aspose.Words for Java를 사용하여 문서에서 빈 테이블 행을 제거할 수 있나요?
+---
 
-예, 문서에서 빈 테이블 행을 제거하려면 다음을 설정하세요. `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` 정리 옵션을 true로 설정하면 데이터가 없는 테이블 행이 자동으로 삭제되어 문서의 테이블 구조가 잘 유지됩니다.
-
-### 내가 설정하면 어떻게 되나요? `REMOVE_CONTAINING_FIELDS` 옵션?
-
-설정 `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` 이 옵션은 편지 병합 과정에서 포함된 단락을 포함한 전체 병합 필드를 문서에서 제거합니다. 이 기능은 병합 필드와 관련 텍스트를 제거하고 싶을 때 유용합니다.
-
-### 문서에서 사용하지 않는 병합 필드를 제거하려면 어떻게 해야 하나요?
-
-문서에서 사용되지 않는 병합 필드를 제거하려면 다음을 설정할 수 있습니다. `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` 옵션을 true로 설정하면 편지 병합 중에 채워지지 않은 병합 필드가 자동으로 제거되어 문서가 더 깔끔해집니다.
-
-### 차이점은 무엇입니까? `REMOVE_EMPTY_FIELDS` 그리고 `REMOVE_UNUSED_FIELDS` 정리 옵션?
-
-그만큼 `REMOVE_EMPTY_FIELDS` 이 옵션은 메일 병합 프로세스 중에 데이터가 없거나 비어 있는 병합 필드를 제거합니다. 반면에 `REMOVE_UNUSED_FIELDS` 이 옵션은 병합 중에 데이터가 채워지지 않은 병합 필드를 제거합니다. 제거 여부는 내용이 없는 필드를 제거할지, 아니면 특정 병합 작업에서 사용되지 않는 필드를 제거할지에 따라 달라집니다.
-
-### 구두점이 있는 문단을 제거하도록 설정하려면 어떻게 해야 하나요?
-
-구두점이 있는 문단을 제거하려면 다음을 설정할 수 있습니다. `cleanupParagraphsWithPunctuationMarks` 옵션을 true로 설정하고 정리 대상으로 고려할 구두점을 지정합니다. 이렇게 하면 불필요한 구두점만 있는 단락을 제거하여 더욱 세련된 문서를 만들 수 있습니다.
-
-### Aspose.Words for Java에서 정리 옵션을 사용자 정의할 수 있나요?
-
-네, 특정 요구 사항에 맞게 정리 옵션을 사용자 지정할 수 있습니다. 적용할 정리 옵션을 선택하고 문서 정리 요구 사항에 맞게 구성하여 최종 문서가 원하는 기준을 충족하도록 할 수 있습니다.
-
+**마지막 업데이트:** 2026-01-11  
+**테스트 환경:** Aspose.Words for Java 24.11  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

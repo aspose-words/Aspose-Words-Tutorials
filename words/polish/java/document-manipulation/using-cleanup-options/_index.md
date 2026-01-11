@@ -1,10 +1,13 @@
 ---
-"description": "Zwiększ przejrzystość dokumentu dzięki opcjom czyszczenia Aspose.Words for Java. Dowiedz się, jak usuwać puste akapity, nieużywane obszary i inne."
-"linktitle": "Korzystanie z opcji czyszczenia"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Korzystanie z opcji czyszczenia w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/using-cleanup-options/"
-"weight": 10
+date: 2026-01-11
+description: Dowiedz się, jak oczyścić dokument Word przy użyciu opcji czyszczenia
+  Aspose.Words dla Javy, w tym usuwania pustych akapitów, pustych wierszy tabeli i
+  nieużywanych pól.
+linktitle: Using Cleanup Options
+second_title: Aspose.Words Java Document Processing API
+title: Czyszczenie dokumentu Word przy użyciu opcji czyszczenia Aspose.Words (Java)
+url: /pl/java/document-manipulation/using-cleanup-options/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,184 +16,183 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Korzystanie z opcji czyszczenia w Aspose.Words dla Java
+# Czyszczenie dokumentu Word przy użyciu opcji czyszczenia Aspose.Words (Java)
 
+W tym samouczku dowiesz się, jak **czyścić dokumenty Word** przy użyciu Aspose.Words dla Javy. Niezależnie od tego, czy generujesz faktury, umowy, czy masowe raporty ze scalaniem korespondencji, niechciane puste akapity, nieużywane pola lub puste wiersze tabel mogą sprawić, że końcowy wynik będzie wyglądał nieprofesjonalnie. Przejdziemy krok po kroku przez każdą opcję czyszczenia, pokażemy dokładny kod, którego potrzebujesz, i wyjaśnimy *dlaczego* każde ustawienie ma znaczenie, abyś mógł tworzyć dopracowane dokumenty za każdym razem.
 
-## Wprowadzenie do korzystania z opcji czyszczenia w Aspose.Words dla Java
+## Szybkie odpowiedzi
+- **Co oznacza „czyszczenie dokumentu Word”?** Usuwanie pustych akapitów, nieużywanych regionów scalania, pustych wierszy tabel i innych zbędnych elementów po operacji scalania korespondencji.  
+- **Która opcja czyszczenia usuwa puste akapity?** `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS`.  
+- **Jak mogę usunąć puste wiersze tabel?** Użyj `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS`.  
+- **Czy mogę pozbyć się pól, które nigdy nie zostały wypełnione?** Tak – `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` lub `REMOVE_EMPTY_FIELDS`.  
+- **Czy potrzebna jest licencja do uruchomienia tych przykładów?** Darmowa wersja próbna wystarczy do oceny; licencja komercyjna jest wymagana w środowisku produkcyjnym.
 
-W tym samouczku pokażemy, jak używać opcji czyszczenia w Aspose.Words for Java do manipulowania dokumentami i czyszczenia ich podczas procesu korespondencji seryjnej. Opcje czyszczenia pozwalają kontrolować różne aspekty czyszczenia dokumentów, takie jak usuwanie pustych akapitów, nieużywanych obszarów i wiele innych.
+## Co to jest „czyszczenie dokumentu Word” w kontekście scalania korespondencji?
+Podczas scalania korespondencji Aspose.Words wstawia dane do pól i regionów scalania. Jeśli niektóre pola otrzymają `null` lub pusty ciąg znaków, dokument może zawierać niechciane akapity, puste tabele lub regiony zastępcze. **Opcje czyszczenia** automatycznie usuwają te artefakty, pozostawiając czysty, gotowy do druku dokument.
+
+## Dlaczego warto używać opcji czyszczenia?
+- **Profesjonalny wygląd:** Brak pustych linii i osieroconych tabel.  
+- **Mniejszy rozmiar pliku:** Usuwanie nieużywanych elementów zmniejsza wagę dokumentu.  
+- **Uproszczone przetwarzanie dalsze:** Czyste dokumenty łatwiej konwertować do PDF, HTML i innych formatów.  
+- **Oszczędność czasu:** Jednolinijkowe ustawienia zastępują ręczne skrypty post‑procesowe.
 
 ## Wymagania wstępne
+- Środowisko programistyczne Java (JDK 8+).  
+- Biblioteka Aspose.Words dla Javy – pobierz ją [tutaj](https://releases.aspose.com/words/java/).  
+- Podstawowa znajomość koncepcji scalania korespondencji.
 
-Zanim zaczniemy, upewnij się, że biblioteka Aspose.Words for Java jest zintegrowana z Twoim projektem. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/).
+## Przewodnik krok po kroku
 
-## Krok 1: Usuwanie pustych akapitów
+### Krok 1: Jak usunąć puste akapity (Java)
+Najpierw pokażemy, jak wyeliminować akapity, które nie zawierają widocznego tekstu. Jest to szczególnie przydatne, gdy pole scalania rozwiązuje się do `null`.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wstaw pola scalania
+// Insert merge fields
 FieldMergeField mergeFieldOption1 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_1");
 mergeFieldOption1.setFieldName("Option_1");
 builder.write(" ? ");
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.insertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.setFieldName("Option_2");
 
-// Ustaw opcje czyszczenia
+// Set cleanup options
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
 
-// Włącz czyszczenie akapitów za pomocą znaków interpunkcyjnych
+// Enable cleanup of paragraphs that contain only punctuation marks
 doc.getMailMerge().setCleanupParagraphsWithPunctuationMarks(true);
 
-// Wykonaj korespondencję seryjną
+// Execute mail merge (both fields are null, so they become empty)
 doc.getMailMerge().execute(new String[] { "Option_1", "Option_2" }, new Object[] { null, null });
 
-// Zapisz dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.CleanupParagraphsWithPunctuationMarks.docx");
 ```
 
-W tym przykładzie tworzymy nowy dokument, wstawiamy pola scalania i ustawiamy opcje czyszczenia, aby usunąć puste akapity. Dodatkowo włączamy usuwanie akapitów ze znakami interpunkcyjnymi. Po wykonaniu korespondencji seryjnej dokument jest zapisywany z zastosowanym określonym czyszczeniem.
+**Co się tutaj dzieje?**  
+- `REMOVE_EMPTY_PARAGRAPHS` nakazuje Aspose.Words usunąć każdy akapit, który po scaleniu pozostaje pusty.  
+- Włączenie `cleanupParagraphsWithPunctuationMarks` usuwa również akapity składające się wyłącznie z znaków interpunkcyjnych (np. „?”).
 
-## Krok 2: Usuwanie niepołączonych regionów
+### Krok 2: Jak usunąć niepołączone regiony
+Jeśli region scalania nie ma odpowiadających danych, możesz go całkowicie odrzucić.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Mail merge destination - Northwind suppliers.docx");
 DataSet data = new DataSet();
 
-// Ustaw opcje czyszczenia, aby usunąć nieużywane regiony
+// Set cleanup options to remove unused regions
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS);
 
-// Wykonaj korespondencję seryjną z regionami
+// Execute mail merge with regions (the DataSet is empty)
 doc.getMailMerge().executeWithRegions(data);
 
-// Zapisz dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnmergedRegions.docx");
 ```
 
-W tym przykładzie otwieramy istniejący dokument z obszarami scalania, ustawiamy opcje czyszczenia, aby usunąć nieużywane obszary, a następnie wykonujemy korespondencję seryjną z pustymi danymi. Ten proces automatycznie usuwa nieużywane obszary z dokumentu.
+**Dlaczego to ważne:**  
+Nieużywane regiony często pozostawiają puste sekcje lub niepotrzebne nagłówki. Flaga `REMOVE_UNUSED_REGIONS` usuwa je automatycznie.
 
-## Krok 3: Usuwanie pustych pól
+### Krok 3: Jak usunąć puste pola
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Ustaw opcje czyszczenia, aby usunąć puste pola
+// Set cleanup options to remove empty fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_FIELDS);
 
-// Wykonaj korespondencję seryjną
+// Execute mail merge with a mix of populated and empty values
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Zapisz dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyFields.docx");
 ```
 
-tym przykładzie otwieramy dokument z polami scalania, ustawiamy opcje czyszczenia, aby usunąć puste pola i wykonujemy korespondencję seryjną z danymi. Po scaleniu wszystkie puste pola zostaną usunięte z dokumentu.
-
-## Krok 4: Usuwanie nieużywanych pól
+### Krok 4: Jak usunąć nieużywane pola
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Ustaw opcje czyszczenia, aby usunąć nieużywane pola
+// Set cleanup options to remove unused fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
 
-// Wykonaj korespondencję seryjną
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Zapisz dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveUnusedFields.docx");
 ```
 
-W tym przykładzie otwieramy dokument z polami scalania, ustawiamy opcje czyszczenia, aby usunąć nieużywane pola i wykonujemy korespondencję seryjną z danymi. Po scaleniu wszystkie nieużywane pola zostaną usunięte z dokumentu.
-
-## Krok 5: Usuwanie pól zawierających
+### Krok 5: Jak usunąć pola zawierające
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Ustaw opcje czyszczenia, aby usunąć pola zawierające
+// Set cleanup options to remove containing fields
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
 
-// Wykonaj korespondencję seryjną
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Zapisz dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveContainingFields.docx");
 ```
 
-W tym przykładzie otwieramy dokument z polami scalania, ustawiamy opcje czyszczenia, aby usunąć pola zawierające i wykonujemy korespondencję seryjną z danymi. Po scaleniu same pola zostaną usunięte z dokumentu.
-
-## Krok 6: Usuwanie pustych wierszy tabeli
+### Krok 6: Jak usunąć puste wiersze tabel
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table with fields.docx");
 
-// Ustaw opcje czyszczenia, aby usunąć puste wiersze tabeli
+// Set cleanup options to remove empty table rows
 doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS);
 
-// Wykonaj korespondencję seryjną
+// Execute mail merge
 doc.getMailMerge().execute(new String[] { "FullName", "Company", "Address", "Address2", "City" },
     new Object[] { "James Bond", "MI5 Headquarters", "Milbank", "", "London" });
 
-// Zapisz dokument
+// Save the cleaned document
 doc.save("WorkingWithCleanupOptions.RemoveEmptyTableRows.docx");
 ```
 
-W tym przykładzie otwieramy dokument z tabelą i polami scalania, ustawiamy opcje czyszczenia, aby usunąć puste wiersze tabeli i wykonujemy korespondencję seryjną z danymi. Po scaleniu wszystkie puste wiersze tabeli zostaną usunięte z dokumentu.
-
-## Wniosek
-
-W tym samouczku nauczyłeś się, jak używać opcji czyszczenia w Aspose.Words for Java do manipulowania dokumentami i czyszczenia ich podczas procesu korespondencji seryjnej. Opcje te zapewniają szczegółową kontrolę nad czyszczeniem dokumentów, umożliwiając łatwe tworzenie dopracowanych i dostosowanych dokumentów.
+## Typowe problemy i rozwiązywanie
+- **Akapity nie są usuwane:** Upewnij się, że `setCleanupParagraphsWithPunctuationMarks(true)` jest wywoływane *po* ustawieniu opcji czyszczenia.  
+- **Puste wiersze tabel pozostają:** Sprawdź, czy komórki tabel naprawdę zawierają puste ciągi (a nie białe znaki).  
+- **Nieużywane pola pozostają:** Zweryfikuj, czy używasz właściwej wartości wyliczeniowej (`REMOVE_UNUSED_FIELDS`) i czy pola scalania nie są przypadkowo wypełniane w innym miejscu.
 
 ## Najczęściej zadawane pytania
 
-### Jakie są opcje czyszczenia w Aspose.Words dla Java?
+**P: Jaka jest różnica między `REMOVE_EMPTY_FIELDS` a `REMOVE_UNUSED_FIELDS`?**  
+O: `REMOVE_EMPTY_FIELDS` usuwa pola, które podczas scalania otrzymały pusty ciąg znaków lub `null`, natomiast `REMOVE_UNUSED_FIELDS` usuwa pola, które nigdy nie zostały odwołane w operacji scalania.
 
-Opcje czyszczenia w Aspose.Words for Java to ustawienia, które pozwalają kontrolować różne aspekty czyszczenia dokumentu podczas procesu korespondencji seryjnej. Umożliwiają one usuwanie niepotrzebnych elementów, takich jak puste akapity, nieużywane obszary i inne, zapewniając, że ostateczny dokument jest dobrze ustrukturyzowany i dopracowany.
+**P: Czy mogę połączyć wiele opcji czyszczenia?**  
+O: Tak. Metoda `setCleanupOptions` przyjmuje bitowy OR wartości wyliczeniowych, co pozwala wyczyścić akapity, tabele i regiony w jednym wywołaniu.
 
-### Jak mogę usunąć puste akapity z dokumentu?
+**P: Czy włączenie `cleanupParagraphsWithPunctuationMarks` wpływa na normalny tekst?**  
+O: Usuwa wyłącznie akapity składające się wyłącznie ze znaków interpunkcyjnych (np. „?” lub „---”). Zwykłe zdania pozostają nienaruszone.
 
-Aby usunąć puste akapity z dokumentu za pomocą Aspose.Words dla Java, możesz ustawić `MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS` opcja na true. Spowoduje to automatyczne usunięcie akapitów, które nie mają treści, co przełoży się na czystszy dokument.
+**P: Czy można dostosować, które znaki interpunkcyjne są brane pod uwagę?**  
+O: Obecne API używa zdefiniowanego zestawu znaków interpunkcyjnych. Aby uzyskać zachowanie niestandardowe, trzeba będzie przeprowadzić post‑procesowanie dokumentu po scaleniu.
 
-### Jaki jest cel `REMOVE_UNUSED_REGIONS` opcja czyszczenia?
+**P: Czy te opcje czyszczenia działają przy konwersji do PDF?**  
+O: Zdecydowanie. Po wyczyszczeniu dokumentu Word możesz go konwertować do PDF, HTML lub dowolnego innego obsługiwanego formatu bez przenoszenia niechcianych elementów.
 
-Ten `MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS` opcja ta służy do usuwania obszarów w dokumencie, które nie mają odpowiadających im danych podczas procesu korespondencji seryjnej. Pomaga zachować porządek w dokumencie, usuwając nieużywane symbole zastępcze.
+## Podsumowanie
+Masz teraz kompletny zestaw narzędzi do **czyszczenia dokumentów Word** podczas scalania korespondencji przy użyciu Aspose.Words dla Javy. Wybierając odpowiednie `MailMergeCleanupOptions`, możesz automatycznie usuwać puste akapity, puste wiersze tabel, nieużywane pola i wiele więcej — pozostawiając elegancki, gotowy do produkcji dokument za każdym razem.
 
-### Czy mogę usunąć puste wiersze tabeli z dokumentu za pomocą Aspose.Words dla Java?
+---
 
-Tak, możesz usunąć puste wiersze tabeli z dokumentu, ustawiając `MailMergeCleanupOptions.REMOVE_EMPTY_TABLE_ROWS` cleanup na true. Spowoduje to automatyczne usunięcie wszystkich wierszy tabeli, które nie zawierają danych, zapewniając dobrze ustrukturyzowaną tabelę w dokumencie.
-
-### Co się stanie, gdy ustawię `REMOVE_CONTAINING_FIELDS` opcja?
-
-Ustawianie `MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS` opcja usunie całe pole scalania, w tym zawierający je akapit, z dokumentu podczas procesu scalania korespondencji. Jest to przydatne, gdy chcesz wyeliminować pola scalania i ich powiązany tekst.
-
-### Jak mogę usunąć nieużywane pola korespondencji seryjnej z mojego dokumentu?
-
-Aby usunąć nieużywane pola scalania z dokumentu, możesz ustawić `MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS` opcja na true. Spowoduje to automatyczne wyeliminowanie pól scalania, które nie są wypełniane podczas scalania korespondencji, co spowoduje powstanie czystszego dokumentu.
-
-### Jaka jest różnica między `REMOVE_EMPTY_FIELDS` I `REMOVE_UNUSED_FIELDS` opcje czyszczenia?
-
-Ten `REMOVE_EMPTY_FIELDS` opcja usuwa pola scalania, które nie zawierają danych lub są puste podczas procesu scalania korespondencji. Z drugiej strony, `REMOVE_UNUSED_FIELDS` opcja usuwa pola scalania, które nie są wypełnione danymi podczas scalania. Wybór między nimi zależy od tego, czy chcesz usunąć pola bez zawartości, czy te, które są nieużywane w konkretnej operacji scalania.
-
-### Jak mogę włączyć usuwanie akapitów zawierających znaki interpunkcyjne?
-
-Aby włączyć usuwanie akapitów ze znakami interpunkcyjnymi, możesz ustawić `cleanupParagraphsWithPunctuationMarks` opcja na true i określ znaki interpunkcyjne, które mają być uwzględnione podczas czyszczenia. Pozwala to na utworzenie bardziej dopracowanego dokumentu poprzez usunięcie niepotrzebnych akapitów zawierających tylko znaki interpunkcyjne.
-
-### Czy mogę dostosować opcje czyszczenia w Aspose.Words dla Java?
-
-Tak, możesz dostosować opcje czyszczenia do swoich konkretnych potrzeb. Możesz wybrać, które opcje czyszczenia zastosować i skonfigurować je zgodnie z wymaganiami czyszczenia dokumentu, zapewniając, że ostateczny dokument spełnia Twoje pożądane standardy.
-
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
