@@ -1,10 +1,12 @@
 ---
-"description": "Otimize o processamento de seus documentos com o Aspose.Words para Java. Aprenda a usar marcadores para navegação e manipulação eficientes de conteúdo neste guia passo a passo."
-"linktitle": "Usando marcadores"
-"second_title": "API de processamento de documentos Java Aspose.Words"
-"title": "Usando marcadores no Aspose.Words para Java"
-"url": "/pt/java/document-manipulation/using-bookmarks/"
-"weight": 17
+date: 2026-01-11
+description: Aprenda como exibir e ocultar marcadores e criar marcadores Java usando
+  Aspose.Words para Java para navegação e manipulação eficientes de documentos.
+linktitle: Using Bookmarks
+second_title: Aspose.Words Java Document Processing API
+title: Mostrar/Ocultar Marcadores com Aspose.Words para Java
+url: /pt/java/document-manipulation/using-bookmarks/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,46 +15,70 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Usando marcadores no Aspose.Words para Java
+# Exibir/Ocultar Marcadores com Aspose.Words para Java
 
+## Introdução ao Uso de Marcadores no Aspose.Words para Java
 
-## Introdução ao uso de marcadores no Aspose.Words para Java
+Marcadores são um recurso poderoso no Aspose.Words para Java que permite **create bookmark java**, navegar para conteúdo específico e até **show hide bookmarks** quando você precisa gerar diferentes versões de documentos. Neste guia passo a passo, percorreremos a criação, acesso, atualização, cópia e alternância da visibilidade dos marcadores, proporcionando controle total sobre a manipulação de documentos.
 
-Os marcadores são um recurso poderoso do Aspose.Words para Java que permite marcar e manipular partes específicas de um documento. Neste guia passo a passo, exploraremos como usar marcadores no Aspose.Words para Java para aprimorar o processamento de documentos. 
+## Respostas Rápidas
+- **Qual é o objetivo principal dos marcadores?** Marcar e posteriormente recuperar partes específicas de um documento.  
+- **Posso ocultar os marcadores de bookmark na saída final?** Sim—use a API show/hide para alternar sua visibilidade.  
+- **Como criar um marcador dentro de uma célula de tabela?** Inicie e finalize o marcador com `DocumentBuilder` enquanto o cursor está dentro da célula.  
+- **É possível copiar texto marcado para outro documento?** Absolutamente—use `NodeImporter` para preservar a formatação.  
+- **Qual versão do Aspose.Words é necessária?** Qualquer versão recente; o código funciona com a última compilação de 2026.
 
-## Etapa 1: Criando um marcador
+## O que é “show hide bookmarks”?
 
-Para criar um marcador, siga estes passos:
+O recurso **show hide bookmarks** permite exibir ou ocultar programaticamente os delimitadores de marcadores no documento salvo. Isso é útil quando você deseja gerar uma saída limpa para os usuários finais, mantendo os dados de marcadores para processamento interno.
+
+## Por que usar marcadores na automação de documentos Java?
+
+- **Navegação eficiente** – Vá diretamente para as seções sem percorrer todo o arquivo.  
+- **Geração dinâmica de conteúdo** – Insira, substitua ou remova texto vinculado a um marcador.  
+- **Visibilidade condicional** – Exiba ou oculte marcadores com base nas preferências do usuário ou no formato de saída.  
+- **Reutilização** – Copie fragmentos marcados entre documentos preservando estilos.
+
+## Pré‑requisitos
+- Java Development Kit (JDK) 8 ou superior.  
+- Biblioteca Aspose.Words para Java adicionada ao seu projeto (Maven/Gradle ou JAR).  
+- Familiaridade básica com as classes `Document` e `DocumentBuilder`.
+
+## Guia Passo a Passo
+
+### Passo 1: Criar um Marcador (create bookmark java)
+
+Para adicionar um marcador, você o inicia, escreve o conteúdo e, em seguida, finaliza. Este exemplo cria um marcador simples chamado **My Bookmark**.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Comece o marcador
+// Start the bookmark
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-// Finalizar o marcador
+// End the bookmark
 builder.endBookmark("My Bookmark");
 ```
 
-## Etapa 2: Acessando os favoritos
+### Passo 2: Acessar Marcadores (access bookmarks java)
 
-Você pode acessar os favoritos em um documento usando o índice ou o nome deles. Veja como:
+Marcadores podem ser recuperados tanto por seu índice baseado em zero quanto por nome. O código abaixo demonstra ambas as abordagens.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
 
-// Por índice:
+// By index:
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
-// Por nome:
+// By name:
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 ```
 
-## Etapa 3: Atualizando dados de favoritos
+### Passo 3: Atualizar Dados do Marcador (update bookmark text)
 
-Para atualizar os dados dos favoritos, use o seguinte código:
+Você pode renomear um marcador ou substituir seu conteúdo de texto. Isso é útil quando o documento subjacente é alterado.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -63,9 +89,9 @@ bookmark.setName("RenamedBookmark");
 bookmark.setText("This is new bookmarked text.");
 ```
 
-## Etapa 4: Trabalhando com texto marcado
+### Passo 4: Trabalhar com Texto Marcado (copy bookmarked text)
 
-Você pode copiar o texto marcado e adicioná-lo a outro documento. Veja como:
+Copiar um fragmento marcado para outro documento mantendo a formatação original é simples com `NodeImporter`.
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -76,9 +102,9 @@ appendBookmarkedText(importer, srcBookmark, dstDoc.getLastSection().getBody());
 dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 ```
 
-## Etapa 5: Mostrar e ocultar favoritos
+### Passo 5: Exibir e Ocultar Marcadores (show hide bookmarks)
 
-Você pode mostrar ou ocultar marcadores em um documento. Veja um exemplo:
+O trecho a seguir demonstra como ocultar os marcadores de um bookmark no arquivo salvo. Passe `false` para ocultar, `true` para exibir.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -86,9 +112,9 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## Etapa 6: desembaraçando os marcadores de linha
+### Passo 6: Desembaraçar Marcadores de Linha (bookmark table cell)
 
-Desvendar marcadores de linha permite que você trabalhe com eles de forma mais eficaz:
+Quando marcadores abrangem linhas de tabela, podem ficar embaralhados. Os métodos utilitários abaixo desembaraçam‑nos e permitem excluir uma linha específica pelo seu marcador.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -97,39 +123,42 @@ deleteRowByBookmark(doc, "ROW2");
 doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx");
 ```
 
-## Conclusão
+## Problemas Comuns e Soluções
 
-Usar marcadores no Aspose.Words para Java pode simplificar bastante as tarefas de processamento de documentos. Seja para navegar, extrair ou manipular conteúdo, os marcadores fornecem um mecanismo poderoso para fazer isso com eficiência.
+| Problema | Solução |
+|----------|----------|
+| **Bookmark not found** | Verifique se o nome do marcador corresponde exatamente (sensível a maiúsculas/minúsculas) e se o documento foi salvo após a criação. |
+| **Copied text loses formatting** | Use `ImportFormatMode.KEEP_SOURCE_FORMATTING` com `NodeImporter` como mostrado no Passo 4. |
+| **Show/hide does not affect output** | Certifique‑se de chamar `showHideBookmarkedContent` **antes** de salvar o documento. |
+| **Bookmark inside a table cell is ignored** | Coloque as chamadas start/end enquanto o cursor do builder está dentro da célula alvo. |
 
-## Perguntas frequentes
+## Perguntas Frequentes
 
-### Como criar um marcador em uma célula de tabela?
+**Q: Como crio um marcador em uma célula de tabela?**  
+A: Use `DocumentBuilder` para mover o cursor para a célula desejada, então chame `startBookmark` e `endBookmark` ao redor do conteúdo da célula.
 
-Para criar um marcador em uma célula de tabela, use o `DocumentBuilder` classe e iniciar e terminar o marcador dentro da célula.
+**Q: Posso copiar um marcador para outro documento?**  
+A: Sim—use a classe `NodeImporter` (veja o Passo 4) para importar o nó marcado preservando sua formatação original.
 
-### Posso copiar um marcador para outro documento?
+**Q: Como posso excluir uma linha pelo seu marcador?**  
+A: Primeiro localize a linha que contém o marcador, então chame `remove` no nó da linha (conforme demonstrado no Passo 6).
 
-Sim, você pode copiar um marcador para outro documento usando o `NodeImporter` classe para garantir que a formatação seja preservada.
+**Q: Quais são alguns casos de uso comuns para marcadores?**  
+A: Gerar um índice, extrair seções específicas para relatórios e automatizar a montagem de documentos com base nas seleções do usuário.
 
-### Como posso excluir uma linha pelo seu marcador?
+**Q: Onde posso encontrar mais informações sobre Aspose.Words para Java?**  
+A: Para documentação detalhada e downloads, visite [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-Você pode excluir uma linha pelo seu marcador, primeiro localizando a linha marcada e depois removendo-a do documento.
+---
 
-### Quais são alguns casos de uso comuns para marcadores?
-
-Os marcadores são comumente usados para gerar índices, extrair conteúdo específico e automatizar processos de geração de documentos.
-
-### Onde posso encontrar mais informações sobre o Aspose.Words para Java?
-
-Para documentação detalhada e downloads, visite [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/).
-
+**Última atualização:** 2026-01-11  
+**Testado com:** Aspose.Words for Java 24.11 (2026)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

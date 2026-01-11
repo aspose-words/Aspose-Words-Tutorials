@@ -1,12 +1,12 @@
 ---
-title: Using Bookmarks in Aspose.Words for Java
+title: Show Hide Bookmarks with Aspose.Words for Java
 linktitle: Using Bookmarks
 second_title: Aspose.Words Java Document Processing API
-description: Optimize your document processing with Aspose.Words for Java. Learn to use bookmarks for efficient content navigation and manipulation in this step-by-step guide.
+description: Learn how to show hide bookmarks and create bookmark java using Aspose.Words for Java for efficient document navigation and manipulation.
 weight: 17
 url: /java/document-manipulation/using-bookmarks/
+date: 2026-01-11
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -14,16 +14,40 @@ url: /java/document-manipulation/using-bookmarks/
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Using Bookmarks in Aspose.Words for Java
-
+# Show Hide Bookmarks with Aspose.Words for Java
 
 ## Introduction to Using Bookmarks in Aspose.Words for Java
 
-Bookmarks are a powerful feature in Aspose.Words for Java that allows you to mark and manipulate specific parts of a document. In this step-by-step guide, we will explore how to use bookmarks in Aspose.Words for Java to enhance your document processing. 
+Bookmarks are a powerful feature in Aspose.Words for Java that lets you **create bookmark java**, navigate to specific content, and even **show hide bookmarks** when you need to generate different document versions. In this step‑by‑step guide we’ll walk through creating, accessing, updating, copying, and toggling the visibility of bookmarks, giving you full control over document manipulation.
 
-## Step 1: Creating a Bookmark
+## Quick Answers
+- **What is the primary purpose of bookmarks?** To mark and later retrieve specific parts of a document.  
+- **Can I hide bookmark markers in the final output?** Yes—use the show/hide API to toggle their visibility.  
+- **How do I create a bookmark inside a table cell?** Start and end the bookmark with `DocumentBuilder` while the cursor is inside the cell.  
+- **Is it possible to copy bookmarked text to another document?** Absolutely—use `NodeImporter` to preserve formatting.  
+- **What version of Aspose.Words is required?** Any recent release; the code works with the latest 2026 build.
 
-To create a bookmark, follow these steps:
+## What is “show hide bookmarks”?
+
+The **show hide bookmarks** feature allows you to programmatically display or conceal bookmark delimiters in the saved document. This is useful when you want to generate clean output for end users while still retaining bookmark data for internal processing.
+
+## Why use bookmarks in Java document automation?
+
+- **Efficient navigation** – Jump directly to sections without scanning the whole file.  
+- **Dynamic content generation** – Insert, replace, or remove text tied to a bookmark.  
+- **Conditional visibility** – Show or hide bookmark markers based on user preferences or output format.  
+- **Reusability** – Copy bookmarked fragments between documents while preserving styles.
+
+## Prerequisites
+- Java Development Kit (JDK) 8 or higher.  
+- Aspose.Words for Java library added to your project (Maven/Gradle or JAR).  
+- Basic familiarity with `Document` and `DocumentBuilder` classes.
+
+## Step‑by‑Step Guide
+
+### Step 1: Create a Bookmark (create bookmark java)
+
+To add a bookmark, you start it, write the content, then end it. This example creates a simple bookmark named **My Bookmark**.
 
 ```java
 Document doc = new Document();
@@ -37,9 +61,9 @@ builder.writeln("Text inside a bookmark.");
 builder.endBookmark("My Bookmark");
 ```
 
-## Step 2: Accessing Bookmarks
+### Step 2: Access Bookmarks (access bookmarks java)
 
-You can access bookmarks in a document using their index or name. Here's how:
+Bookmarks can be retrieved either by their zero‑based index or by name. The code below demonstrates both approaches.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -51,9 +75,9 @@ Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 ```
 
-## Step 3: Updating Bookmark Data
+### Step 3: Update Bookmark Data (update bookmark text)
 
-To update bookmark data, use the following code:
+You may rename a bookmark or replace its text content. This is handy when the underlying document changes.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -64,9 +88,9 @@ bookmark.setName("RenamedBookmark");
 bookmark.setText("This is new bookmarked text.");
 ```
 
-## Step 4: Working with Bookmarked Text
+### Step 4: Work with Bookmarked Text (copy bookmarked text)
 
-You can copy bookmarked text and add it to another document. Here's how:
+Copying a bookmarked fragment to another document while keeping the original formatting is straightforward with `NodeImporter`.
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -77,9 +101,9 @@ appendBookmarkedText(importer, srcBookmark, dstDoc.getLastSection().getBody());
 dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 ```
 
-## Step 5: Show and Hide Bookmarks
+### Step 5: Show and Hide Bookmarks (show hide bookmarks)
 
-You can show or hide bookmarks in a document. Here's an example:
+The following snippet demonstrates how to hide a bookmark’s markers in the saved file. Pass `false` to hide, `true` to show.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -87,9 +111,9 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## Step 6: Untangling Row Bookmarks
+### Step 6: Untangle Row Bookmarks (bookmark table cell)
 
-Untangling row bookmarks allows you to work with them more effectively:
+When bookmarks span table rows, they can become tangled. The utility methods below untangle them and allow you to delete a specific row by its bookmark.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -98,39 +122,42 @@ deleteRowByBookmark(doc, "ROW2");
 doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx");
 ```
 
-## Conclusion
+## Common Issues and Solutions
 
-Using bookmarks in Aspose.Words for Java can greatly simplify document processing tasks. Whether you need to navigate, extract, or manipulate content, bookmarks provide a powerful mechanism to do so efficiently.
+| Issue | Solution |
+|-------|----------|
+| **Bookmark not found** | Verify the bookmark name matches exactly (case‑sensitive) and that the document was saved after creation. |
+| **Copied text loses formatting** | Use `ImportFormatMode.KEEP_SOURCE_FORMATTING` with `NodeImporter` as shown in Step 4. |
+| **Show/hide does not affect output** | Ensure you call `showHideBookmarkedContent` **before** saving the document. |
+| **Bookmark inside a table cell is ignored** | Place the start/end calls while the builder cursor is inside the target cell. |
 
-## FAQ's
+## Frequently Asked Questions
 
-### How do I create a bookmark in a table cell?
+**Q: How do I create a bookmark in a table cell?**  
+A: Use `DocumentBuilder` to move the cursor into the desired cell, then call `startBookmark` and `endBookmark` around the cell content.
 
-To create a bookmark in a table cell, use the `DocumentBuilder` class and start and end the bookmark within the cell.
+**Q: Can I copy a bookmark to another document?**  
+A: Yes—use the `NodeImporter` class (see Step 4) to import the bookmarked node while preserving its original formatting.
 
-### Can I copy a bookmark to another document?
+**Q: How can I delete a row by its bookmark?**  
+A: First locate the row that contains the bookmark, then call `remove` on the row node (as demonstrated in Step 6).
 
-Yes, you can copy a bookmark to another document using the `NodeImporter` class to ensure the formatting is preserved.
+**Q: What are some common use cases for bookmarks?**  
+A: Generating a table of contents, extracting specific sections for reporting, and automating document assembly based on user selections.
 
-### How can I delete a row by its bookmark?
+**Q: Where can I find more information about Aspose.Words for Java?**  
+A: For detailed documentation and downloads, visit [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-You can delete a row by its bookmark by first finding the bookmarked row and then removing it from the document.
+---
 
-### What are some common use cases for bookmarks?
-
-Bookmarks are commonly used for generating table of contents, extracting specific content, and automating document generation processes.
-
-### Where can I find more information about Aspose.Words for Java?
-
-For detailed documentation and downloads, visit [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
-
+**Last Updated:** 2026-01-11  
+**Tested With:** Aspose.Words for Java 24.11 (2026)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

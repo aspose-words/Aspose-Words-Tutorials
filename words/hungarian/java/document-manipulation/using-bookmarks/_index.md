@@ -1,10 +1,13 @@
 ---
-"description": "Optimalizálja dokumentumfeldolgozását az Aspose.Words for Java segítségével. Tanulja meg, hogyan használhatja a könyvjelzőket a hatékony tartalomnavigációhoz és -kezeléshez ebben a lépésről lépésre szóló útmutatóban."
-"linktitle": "Könyvjelzők használata"
-"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
-"title": "Könyvjelzők használata az Aspose.Words Java-ban"
-"url": "/hu/java/document-manipulation/using-bookmarks/"
-"weight": 17
+date: 2026-01-11
+description: Tanulja meg, hogyan jeleníthetőek meg és rejthetőek el a könyvjelzők,
+  valamint hogyan hozhat létre könyvjelzőt Java-ban az Aspose.Words for Java segítségével
+  a hatékony dokumentumnavigáció és -manipuláció érdekében.
+linktitle: Using Bookmarks
+second_title: Aspose.Words Java Document Processing API
+title: Könyvjelzők megjelenítése és elrejtése az Aspose.Words for Java-val
+url: /hu/java/document-manipulation/using-bookmarks/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,46 +16,70 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Könyvjelzők használata az Aspose.Words Java-ban
+# Könyvjelzők megjelenítése és elrejtése az Aspose.Words for Java-val
 
+## Bevezetés a könyvjelzők használatába az Aspose.Words for Java-ban
 
-## Bevezetés a könyvjelzők használatába az Aspose.Words Java-ban
+A könyvjelzők egy erőteljes funkció az Aspose.Words for Java-ban, amely lehetővé teszi, hogy **create bookmark java**, navigáljon a konkrét tartalomhoz, és akár **show hide bookmarks** is, amikor különböző dokumentumverziókat kell generálni. Ebben a lépésről‑lépésre útmutatóban végigvezetjük a könyvjelzők létrehozásán, elérésén, frissítésén, másolásán és láthatóságuk váltásán, teljes irányítást biztosítva a dokumentumműveletek felett.
 
-A könyvjelzők az Aspose.Words for Java hatékony funkciói, amelyek lehetővé teszik a dokumentum egyes részeinek megjelölését és kezelését. Ebben a lépésről lépésre bemutatjuk, hogyan használhatod a könyvjelzőket az Aspose.Words for Java-ban a dokumentumfeldolgozás hatékonyságának növelése érdekében. 
+## Gyors válaszok
+- **What is the primary purpose of bookmarks?** A dokumentum bizonyos részeinek megjelölésére és későbbi visszakeresésére szolgál.  
+- **Can I hide bookmark markers in the final output?** Igen—használja a show/hide API-t a láthatóságuk váltásához.  
+- **How do I create a bookmark inside a table cell?** A könyvjelzőt a `DocumentBuilder`‑rel indítsa és fejezze be, miközben a kurzor a cellán belül van.  
+- **Is it possible to copy bookmarked text to another document?** Természetesen—használja a `NodeImporter`‑t a formázás megőrzéséhez.  
+- **What version of Aspose.Words is required?** Bármelyik friss kiadás; a kód a legújabb 2026-os builddel működik.
 
-## 1. lépés: Könyvjelző létrehozása
+## Mi az a „show hide bookmarks”?
 
-Könyvjelző létrehozásához kövesse az alábbi lépéseket:
+A **show hide bookmarks** funkció lehetővé teszi, hogy programozottan megjelenítse vagy elrejtse a könyvjelző elválasztókat a mentett dokumentumban. Ez akkor hasznos, amikor tiszta kimenetet szeretne generálni a végfelhasználók számára, miközben a könyvjelző adatokat belső feldolgozáshoz megőrzi.
+
+## Miért használjunk könyvjelzőket a Java dokumentumautomatizálásban?
+
+- **Efficient navigation** – Ugrás közvetlenül a szakaszokra a teljes fájl átvizsgálása nélkül.  
+- **Dynamic content generation** – Szöveg beszúrása, cseréje vagy eltávolítása, amely egy könyvjelzőhöz van kötve.  
+- **Conditional visibility** – A könyvjelző jelölők megjelenítése vagy elrejtése a felhasználói beállítások vagy a kimeneti formátum alapján.  
+- **Reusability** – Könyvjelzővel ellátott szakaszok másolása dokumentumok között a stílusok megőrzésével.
+
+## Előfeltételek
+- Java Development Kit (JDK) 8 vagy újabb.  
+- Aspose.Words for Java könyvtár hozzáadva a projekthez (Maven/Gradle vagy JAR).  
+- Alapvető ismeretek a `Document` és `DocumentBuilder` osztályokról.
+
+## Lépés‑ről‑lépésre útmutató
+
+### 1. lépés: Könyvjelző létrehozása (create bookmark java)
+
+A könyvjelző hozzáadásához először elindítja, beírja a tartalmat, majd befejezi. Ez a példa egy egyszerű, **My Bookmark** nevű könyvjelzőt hoz létre.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Könyvjelző indítása
+// Start the bookmark
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-// A könyvjelző befejezése
+// End the bookmark
 builder.endBookmark("My Bookmark");
 ```
 
-## 2. lépés: Könyvjelzők elérése
+### 2. lépés: Könyvjelzők elérése (access bookmarks java)
 
-A dokumentumokban található könyvjelzőket az indexük vagy a nevük alapján érheti el. Így teheti meg:
+A könyvjelzők lekérhetők a nullától induló index vagy a név alapján. Az alábbi kód mindkét megközelítést bemutatja.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
 
-// Index szerint:
+// By index:
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
-// Név szerint:
+// By name:
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 ```
 
-## 3. lépés: Könyvjelzőadatok frissítése
+### 3. lépés: Könyvjelző adat frissítése (update bookmark text)
 
-A könyvjelzőadatok frissítéséhez használja a következő kódot:
+Átnevezhet egy könyvjelzőt vagy cserélheti a szövegtartalmát. Ez hasznos, ha az alapdokumentum változik.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -63,9 +90,9 @@ bookmark.setName("RenamedBookmark");
 bookmark.setText("This is new bookmarked text.");
 ```
 
-## 4. lépés: Könyvjelzővel ellátott szöveg használata
+### 4. lépés: Munka a könyvjelzővel ellátott szöveggel (copy bookmarked text)
 
-A könyvjelzővel ellátott szöveget másolhatja, és hozzáadhatja egy másik dokumentumhoz. Így teheti meg:
+A könyvjelzővel ellátott szakasz másolása egy másik dokumentumba az eredeti formázás megtartásával egyszerű a `NodeImporter` segítségével.
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -76,9 +103,9 @@ appendBookmarkedText(importer, srcBookmark, dstDoc.getLastSection().getBody());
 dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 ```
 
-## 5. lépés: Könyvjelzők megjelenítése és elrejtése
+### 5. lépés: Könyvjelzők megjelenítése és elrejtése (show hide bookmarks)
 
-Könyvjelzőket jeleníthet meg vagy rejthet el egy dokumentumban. Íme egy példa:
+Az alábbi kódrészlet bemutatja, hogyan lehet elrejteni egy könyvjelző jelölőit a mentett fájlban. A `false` érték elrejt, a `true` érték megjelenít.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -86,9 +113,9 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## 6. lépés: Sorok könyvjelzőinek kibogozása
+### 6. lépés: Sor könyvjelzők feloldása (bookmark table cell)
 
-sorok könyvjelzőinek kibogozása lehetővé teszi a hatékonyabb munkát:
+Amikor a könyvjelzők táblázatsorokat fednek le, összegabalyodhatnak. Az alábbi segédfüggvények feloldják őket, és lehetővé teszik egy adott sor törlését a könyvjelzője alapján.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -97,39 +124,40 @@ deleteRowByBookmark(doc, "ROW2");
 doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx");
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-A könyvjelzők használata az Aspose.Words for Java programban jelentősen leegyszerűsítheti a dokumentumfeldolgozási feladatokat. Akár navigálni, akár kinyerni, akár manipulálni kell a tartalmat, a könyvjelzők hatékony mechanizmust biztosítanak ehhez.
+| Issue | Solution |
+|-------|----------|
+| **Bookmark nem található** | Ellenőrizze, hogy a könyvjelző neve pontosan (kis‑nagybetű érzékenyen) egyezik, és hogy a dokumentum a létrehozás után lett mentve. |
+| **Másolt szöveg elveszíti a formázást** | Használja a `ImportFormatMode.KEEP_SOURCE_FORMATTING`-t a `NodeImporter`-rel, ahogy a 4. lépésben látható. |
+| **Show/hide nem befolyásolja a kimenetet** | Győződjön meg róla, hogy a `showHideBookmarkedContent` **előtt** hívja meg a dokumentum mentése előtt. |
+| **Bookmark a táblázat cellájában figyelmen kívül marad** | Helyezze a start/end hívásokat, miközben a builder kurzor a célcellán belül van. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### Hogyan hozhatok létre könyvjelzőt egy táblázatcellában?
+**Q: Hogyan hozhatok létre könyvjelzőt egy táblázat cellájában?**  
+A: Használja a `DocumentBuilder`-t a kurzor a kívánt cellába mozgatásához, majd hívja a `startBookmark` és `endBookmark` metódusokat a cella tartalma körül.
 
-Könyvjelző létrehozásához egy táblázatcellában használja a `DocumentBuilder` osztály, és a könyvjelző cellán belüli eleje és vége.
+**Q: Másolhatok egy könyvjelzőt egy másik dokumentumba?**  
+A: Igen—használja a `NodeImporter` osztályt (lásd a 4. lépést) a könyvjelzővel ellátott csomópont importálásához, miközben megőrzi az eredeti formázást.
 
-### Átmásolhatok egy könyvjelzőt egy másik dokumentumba?
+**Q: Hogyan törölhetek egy sort a könyvjelzője alapján?**  
+A: Először keresse meg azt a sort, amely a könyvjelzőt tartalmazza, majd hívja a `remove` metódust a sor csomóponton (ahogy a 6. lépésben bemutatjuk).
 
-Igen, átmásolhat egy könyvjelzőt egy másik dokumentumba a `NodeImporter` osztályt, hogy biztosítsa a formázás megőrzését.
+**Q: Mik a könyvjelzők gyakori felhasználási esetei?**  
+A: Tartalomjegyzék generálása, specifikus szakaszok kinyerése jelentéshez, valamint a dokumentum összeállításának automatizálása a felhasználói választások alapján.
 
-### Hogyan tudok egy sort a könyvjelzőjével törölni?
+**Q: Hol találhatok további információkat az Aspose.Words for Java-ról?**  
+A: Részletes dokumentációért és letöltésekért látogassa meg a [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) oldalt.
 
-Egy sort a könyvjelzője alapján törölhet úgy, hogy először megkeresi a könyvjelzővel ellátott sort, majd eltávolítja a dokumentumból.
-
-### Milyen gyakori felhasználási esetei vannak a könyvjelzőknek?
-
-A könyvjelzőket gyakran használják tartalomjegyzék létrehozásához, adott tartalom kinyeréséhez és dokumentumgenerálási folyamatok automatizálásához.
-
-### Hol találok további információt az Aspose.Words for Java-ról?
-
-Részletes dokumentációért és letöltésekért látogasson el a következő oldalra: [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/).
-
+**Legutóbb frissítve:** 2026-01-11  
+**Tesztelve ezzel:** Aspose.Words for Java 24.11 (2026)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

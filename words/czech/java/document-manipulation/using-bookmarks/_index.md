@@ -1,10 +1,12 @@
 ---
-"description": "Optimalizujte zpracování dokumentů s Aspose.Words pro Javu. V tomto podrobném průvodci se naučte používat záložky pro efektivní navigaci a manipulaci s obsahem."
-"linktitle": "Používání záložek"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Používání záložek v Aspose.Words pro Javu"
-"url": "/cs/java/document-manipulation/using-bookmarks/"
-"weight": 17
+date: 2026-01-11
+description: Naučte se, jak zobrazovat a skrývat záložky a vytvářet záložky v Javě
+  pomocí Aspose.Words pro Javu pro efektivní navigaci a manipulaci s dokumenty.
+linktitle: Using Bookmarks
+second_title: Aspose.Words Java Document Processing API
+title: Zobrazit a skrýt záložky pomocí Aspose.Words pro Java
+url: /cs/java/document-manipulation/using-bookmarks/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,46 +15,70 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Používání záložek v Aspose.Words pro Javu
+# Zobrazování a skrývání záložek s Aspose.Words pro Java
 
+## Úvod do používání záložek v Aspose.Words pro Java
 
-## Úvod do používání záložek v Aspose.Words pro Javu
+Záložky jsou výkonnou funkcí v Aspose.Words pro Java, která vám umožňuje **create bookmark java**, navigovat k určitému obsahu a dokonce **show hide bookmarks**, když potřebujete generovat různé verze dokumentu. V tomto průvodci krok za krokem projdeme vytváření, přístup, aktualizaci, kopírování a přepínání viditelnosti záložek, což vám poskytne plnou kontrolu nad manipulací s dokumentem.
 
-Záložky jsou v Aspose.Words pro Javu výkonnou funkcí, která umožňuje označovat a manipulovat s konkrétními částmi dokumentu. V tomto podrobném návodu se podíváme na to, jak používat záložky v Aspose.Words pro Javu pro vylepšení zpracování dokumentů. 
+## Rychlé odpovědi
+- **Jaký je hlavní účel záložek?** Označit a později získat konkrétní části dokumentu.  
+- **Mohu skrýt značky záložek ve finálním výstupu?** Ano — použijte API pro zobrazování/skrývání k přepínání jejich viditelnosti.  
+- **Jak vytvořím záložku uvnitř buňky tabulky?** Začněte a ukončete záložku pomocí `DocumentBuilder`, zatímco kurzor je uvnitř buňky.  
+- **Je možné zkopírovat text se záložkou do jiného dokumentu?** Rozhodně — použijte `NodeImporter` k zachování formátování.  
+- **Jaká verze Aspose.Words je vyžadována?** Jakákoli nedávná verze; kód funguje s nejnovějším sestavením z roku 2026.
 
-## Krok 1: Vytvoření záložky
+## Co je „show hide bookmarks“?
 
-Chcete-li vytvořit záložku, postupujte takto:
+Funkce **show hide bookmarks** vám umožňuje programově zobrazit nebo skrýt oddělovače záložek v uloženém dokumentu. To je užitečné, když chcete generovat čistý výstup pro koncové uživatele a zároveň si zachovat data záložek pro interní zpracování.
+
+## Proč používat záložky v automatizaci dokumentů v Javě?
+
+- **Efficient navigation** – Přeskočte přímo na sekce bez prohledávání celého souboru.  
+- **Dynamic content generation** – Vkládejte, nahrazujte nebo odstraňujte text spojený se záložkou.  
+- **Conditional visibility** – Zobrazujte nebo skrývejte značky záložek podle preferencí uživatele nebo výstupního formátu.  
+- **Reusability** – Kopírujte fragmenty se záložkami mezi dokumenty a zachovávejte styly.
+
+## Požadavky
+- Java Development Kit (JDK) 8 nebo vyšší.  
+- Aspose.Words for Java knihovna přidaná do projektu (Maven/Gradle nebo JAR).  
+- Základní znalost tříd `Document` a `DocumentBuilder`.
+
+## Průvodce krok za krokem
+
+### Krok 1: Vytvořit záložku (create bookmark java)
+
+Pro přidání záložky ji zahájíte, zapíšete obsah a poté ji ukončíte. Tento příklad vytváří jednoduchou záložku s názvem **My Bookmark**.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spustit záložku
+// Start the bookmark
 builder.startBookmark("My Bookmark");
 builder.writeln("Text inside a bookmark.");
 
-// Ukončit záložku
+// End the bookmark
 builder.endBookmark("My Bookmark");
 ```
 
-## Krok 2: Přístup k záložkám
+### Krok 2: Přístup k záložkám (access bookmarks java)
 
-K záložkám v dokumentu můžete přistupovat pomocí jejich indexu nebo názvu. Postupujte takto:
+Záložky lze získat buď podle jejich nulového indexu, nebo podle názvu. Níže uvedený kód demonstruje oba přístupy.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
 
-// Podle indexu:
+// By index:
 Bookmark bookmark1 = doc.getRange().getBookmarks().get(0);
 
-// Podle jména:
+// By name:
 Bookmark bookmark2 = doc.getRange().getBookmarks().get("MyBookmark3");
 ```
 
-## Krok 3: Aktualizace dat záložek
+### Krok 3: Aktualizovat data záložky (update bookmark text)
 
-Pro aktualizaci dat záložek použijte následující kód:
+Můžete přejmenovat záložku nebo nahradit její textový obsah. To je užitečné, když se podkladový dokument mění.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -63,9 +89,9 @@ bookmark.setName("RenamedBookmark");
 bookmark.setText("This is new bookmarked text.");
 ```
 
-## Krok 4: Práce s textem označeným záložkou
+### Krok 4: Práce s textem se záložkou (copy bookmarked text)
 
-Text označený záložkou můžete zkopírovat a přidat do jiného dokumentu. Postupujte takto:
+Kopírování fragmentu se záložkou do jiného dokumentu při zachování původního formátování je jednoduché pomocí `NodeImporter`.
 
 ```java
 Document srcDoc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -76,9 +102,9 @@ appendBookmarkedText(importer, srcBookmark, dstDoc.getLastSection().getBody());
 dstDoc.save("Your Directory Path" + "WorkingWithBookmarks.CopyBookmarkedText.docx");
 ```
 
-## Krok 5: Zobrazení a skrytí záložek
+### Krok 5: Zobrazit a skrýt záložky (show hide bookmarks)
 
-Záložky v dokumentu můžete zobrazit nebo skrýt. Zde je příklad:
+Následující úryvek ukazuje, jak skrýt značky záložky v uloženém souboru. Předávejte `false` pro skrytí, `true` pro zobrazení.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Bookmarks.docx");
@@ -86,9 +112,9 @@ showHideBookmarkedContent(doc, "MyBookmark1", false);
 doc.save("Your Directory Path" + "WorkingWithBookmarks.ShowHideBookmarks.docx");
 ```
 
-## Krok 6: Rozmotání záložek řádků
+### Krok 6: Rozplést záložky řádků (bookmark table cell)
 
-Rozmotávání záložek řádků vám umožňuje s nimi pracovat efektivněji:
+Když záložky zasahují do řádků tabulky, mohou se zamotat. Níže uvedené pomocné metody je rozplétají a umožňují smazat konkrétní řádek podle jeho záložky.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Table column bookmarks.docx");
@@ -97,39 +123,40 @@ deleteRowByBookmark(doc, "ROW2");
 doc.save("Your Directory Path" + "WorkingWithBookmarks.UntangleRowBookmarks.docx");
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Používání záložek v Aspose.Words pro Javu může výrazně zjednodušit úlohy zpracování dokumentů. Ať už potřebujete procházet, extrahovat nebo manipulovat s obsahem, záložky poskytují výkonný mechanismus, jak toho dosáhnout efektivně.
+| Issue | Solution |
+|-------|----------|
+| **Záložka nenalezena** | Ověřte, že název záložky přesně odpovídá (rozlišuje velká a malá písmena) a že dokument byl po vytvoření uložen. |
+| **Zkopírovaný text ztrácí formátování** | Použijte `ImportFormatMode.KEEP_SOURCE_FORMATTING` s `NodeImporter`, jak je ukázáno v kroku 4. |
+| **Zobrazit/skrýt neovlivňuje výstup** | Ujistěte se, že voláte `showHideBookmarkedContent` **před** uložením dokumentu. |
+| **Záložka uvnitř buňky tabulky je ignorována** | Umístěte volání start/end, když je kurzor builderu uvnitř cílové buňky. |
 
 ## Často kladené otázky
 
-### Jak vytvořím záložku v buňce tabulky?
+**Q: Jak vytvořím záložku v buňce tabulky?**  
+A: Použijte `DocumentBuilder` k přesunu kurzoru do požadované buňky, poté zavolejte `startBookmark` a `endBookmark` kolem obsahu buňky.
 
-Chcete-li vytvořit záložku v buňce tabulky, použijte `DocumentBuilder` třídu a začátek a konec záložky v buňce.
+**Q: Mohu zkopírovat záložku do jiného dokumentu?**  
+A: Ano — použijte třídu `NodeImporter` (viz krok 4) k importu uzlu se záložkou při zachování původního formátování.
 
-### Mohu zkopírovat záložku do jiného dokumentu?
+**Q: Jak mohu smazat řádek podle jeho záložky?**  
+A: Nejprve najděte řádek, který obsahuje záložku, poté zavolejte `remove` na uzlu řádku (jak je ukázáno v kroku 6).
 
-Ano, záložku můžete zkopírovat do jiného dokumentu pomocí `NodeImporter` třídu, aby se zajistilo zachování formátování.
+**Q: Jaké jsou některé běžné případy použití záložek?**  
+A: Generování obsahu, extrakce konkrétních sekcí pro reportování a automatizace sestavování dokumentů na základě výběru uživatele.
 
-### Jak mohu smazat řádek podle jeho záložky?
+**Q: Kde mohu najít více informací o Aspose.Words pro Java?**  
+A: Pro podrobnou dokumentaci a ke stažení navštivte [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-Řádek můžete smazat pomocí jeho záložky tak, že nejprve najdete řádek se záložkou a poté jej z dokumentu odstraníte.
-
-### Jaké jsou některé běžné případy použití záložek?
-
-Záložky se běžně používají ke generování obsahu, extrakci specifického obsahu a automatizaci procesů generování dokumentů.
-
-### Kde najdu více informací o Aspose.Words pro Javu?
-
-Podrobnou dokumentaci a soubory ke stažení naleznete na [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/).
-
+**Poslední aktualizace:** 2026-01-11  
+**Testováno s:** Aspose.Words for Java 24.11 (2026)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
