@@ -42,6 +42,8 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

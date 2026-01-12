@@ -34,6 +34,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [在 Word 文档中加载 Chm 文件](./load-chm/) 按照本分步教程，使用 Aspose.Words for .NET 轻松将 CHM 文件加载到 Word 文档中。非常适合整合您的技术文档。|
 | [如何使用 Aspose.Words 恢复 docx – 分步指南](./how-to-recover-docx-with-aspose-words-step-by-step/) 按照本分步指南，使用 Aspose.Words for .NET 恢复受损的 docx 文档。|
 | [Aspose Load Options – 使用自定义字体设置加载 DOCX](./aspose-load-options-load-docx-with-custom-font-settings/) 了解如何使用 Aspose.Words for .NET 的 LoadOptions 在加载 DOCX 时自定义字体设置，确保文档正确渲染。|
+| [在 C# 中恢复损坏文档 – 设置恢复模式并提示用户](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) 了解如何在 C# 使用 Aspose.Words 设置恢复模式并提示用户，以恢复损坏的文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

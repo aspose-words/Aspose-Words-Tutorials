@@ -29,6 +29,7 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
+| [Convert Word to Markdown in C# – Full Guide with Image Extraction](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Learn how to convert Word documents to Markdown in C# with full image extraction using Aspose.Words for .NET. |
 | [Convert docx to markdown – Step‑by‑Step C# Guide](./convert-docx-to-markdown-step-by-step-c-guide/) | Learn how to convert DOCX files to Markdown in C# with a detailed step‑by‑step guide using Aspose.Words for .NET. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |

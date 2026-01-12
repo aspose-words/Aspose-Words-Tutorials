@@ -46,6 +46,7 @@
 | [사용 가능한 글꼴 목록 가져오기](./get-list-of-available-fonts/) | Aspose.Words for .NET을 사용하여 사용 가능한 글꼴 목록을 가져오는 방법을 이 자세한 단계별 튜토리얼에서 알아보세요. 글꼴 관리 기술을 향상시키세요. |
 | [글꼴 알림 받기](./receive-notifications-of-fonts/) | Aspose.Words for .NET을 사용할 때 누락되거나 대체된 글꼴 알림을 받는 방법을 알아보세요. |
 | [경고 알림 수신](./receive-warning-notification/) Aspose.Words for .NET을 사용할 때 경고 알림을 받는 방법과 문서의 문제나 경고를 관리하는 방법을 알아보세요. |
+| [Aspose.Words에서 글꼴 대체 경고 활성화 – 완전 가이드](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Aspose.Words for .NET에서 글꼴 대체 경고를 활성화하는 방법을 단계별로 안내합니다. |
 | [리소스 Steam 글꼴 소스 예시](./resource-steam-font-source-example/) | Aspose.Words for .NET에 사용자 정의 글꼴을 로드하기 위해 Resource Stream 글꼴 소스를 사용하는 방법을 알아보세요. |
 | [접미사 없이 대체 가져오기](./get-substitution-without-suffixes/) | 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에서 접미사 없는 재정의를 얻는 방법을 알아봅니다. |
 

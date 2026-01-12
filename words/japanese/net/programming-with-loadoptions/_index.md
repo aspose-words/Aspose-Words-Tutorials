@@ -34,6 +34,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Word文書にCHMファイルを読み込む](./load-chm/) Aspose.Words for .NET を使って、CHM ファイルを Word 文書に簡単に読み込む方法をステップバイステップで解説するチュートリアルです。技術文書の統合に最適です。 |
 | [Aspose.Wordsでdocxを復元する手順 – ステップバイステップ](./how-to-recover-docx-with-aspose-words-step-by-step/) Aspose.Words for .NET を使用して、破損した docx ファイルを復元する手順をステップバイステップで解説します。 |
 | [Aspose Load Options – カスタムフォント設定でDOCXを読み込む](./aspose-load-options-load-docx-with-custom-font-settings/) Aspose.Words for .NET の LoadOptions を使用し、カスタムフォント設定で DOCX を読み込む方法をステップバイステップで解説します。 |
+| [C# で破損した文書を復元 – 復元モードを設定しユーザーに促す](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Aspose.Words for .NET の LoadOptions を使用し、破損した文書を復元モードで読み込み、ユーザーに復元を促す手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

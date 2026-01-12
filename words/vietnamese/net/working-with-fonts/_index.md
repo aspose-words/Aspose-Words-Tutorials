@@ -16,7 +16,7 @@
 # Xử lý từ ngữ bằng phông chữ
 
 
-Hướng dẫn Xử lý văn bản bằng phông chữ sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau của Xử lý văn bản bằng phông chữ, cho phép bạn thực hiện các thao tác như thay đổi định dạng phông chữ, tải phông chữ từ các thư mục cụ thể, quản lý phông chữ thay thế, v.v.
+Hướng dẫn Xử lý văn bản bằng phông chữ sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau của Xử lý văn bản bằng phông chữ, cho phép bạn thực hiện các thao tác như thay đổi định dạng phông chữ, tải phông chữ từ các thư mục cụ thể, quản lý phông chữ thay thế, v.t.
 
 Các hướng dẫn cung cấp cho bạn các giải thích từng bước chi tiết cho từng tính năng, cùng với mã nguồn ngôn ngữ C# để minh họa các khái niệm. Bạn sẽ học cách sử dụng các lớp và phương thức từ Thư viện Aspose.Words cho .NET để thực hiện các tác vụ liên quan đến phông chữ cụ thể trong tài liệu Word của bạn.
 
@@ -32,6 +32,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Đặt dấu nhấn mạnh phông chữ](./set-font-emphasis-mark/) | Tìm hiểu cách đặt dấu nhấn mạnh phông chữ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển .NET. |
 | [Thiết lập thư mục phông chữ](./set-fonts-folders/) | Tìm hiểu cách thiết lập thư mục phông chữ tùy chỉnh trong Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. Hoàn hảo cho các nhà phát triển muốn cải thiện phông chữ tài liệu. |
 | [Bật Tắt Thay Thế Phông Chữ](./enable-disable-font-substitution/) | Tìm hiểu cách bật hoặc tắt tính năng thay thế phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. Đảm bảo tài liệu của bạn trông nhất quán trên mọi nền tảng. |
+| [Bật Cảnh Báo Thay Thế Phông Chữ trong Aspose.Words – Hướng Dẫn Đầy Đủ](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Tìm hiểu cách bật cảnh báo thay thế phông chữ trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Thiết lập cài đặt dự phòng phông chữ](./set-font-fallback-settings/) | Tìm hiểu cách thiết lập cài đặt thay thế phông chữ trong Aspose.Words cho .NET và tùy chỉnh thay thế phông chữ trong tài liệu Word của bạn. |
 | [Tải Cài đặt Noto Fallback](./load-noto-fallback-settings/) | Tìm hiểu cách tải cài đặt Noto fallback trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo tất cả các ký tự hiển thị chính xác. |
 | [Đặt Fonts Folders Mặc định](./set-fonts-folders-default-instance/) | Tìm hiểu cách thiết lập thư mục phông chữ cho phiên bản mặc định trong Aspose.Words cho .NET với hướng dẫn từng bước này. Tùy chỉnh tài liệu Word của bạn một cách dễ dàng. |

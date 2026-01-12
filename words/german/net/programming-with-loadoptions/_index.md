@@ -34,6 +34,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Chm-Dateien in Word-Dokument laden](./load-chm/) | Laden Sie CHM-Dateien mit Aspose.Words für .NET ganz einfach in Word-Dokumente. Mit dieser Schritt-für-Schritt-Anleitung können Sie CHM-Dateien ganz einfach in Word-Dokumente laden. Perfekt für die Konsolidierung Ihrer technischen Dokumentation. |
 | [Wie man DOCX mit Aspose.Words wiederherstellt – Schritt für Schritt](./how-to-recover-docx-with-aspose-words-step-by-step/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET wiederherstellen – detaillierte Schritt-für-Schritt-Anleitung. |
 | [Aspose Load Options – DOCX mit benutzerdefinierten Schriftarteinstellungen laden](./aspose-load-options-load-docx-with-custom-font-settings/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX-Dateien mit benutzerdefinierten Schriftarteinstellungen laden. |
+| [Beschädigtes Dokument in C# wiederherstellen – Wiederherstellungsmodus festlegen & Benutzer auffordern](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Erfahren Sie, wie Sie beschädigte Dokumente in C# mit Aspose.Words wiederherstellen, den Wiederherstellungsmodus aktivieren und den Benutzer informieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

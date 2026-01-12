@@ -32,6 +32,7 @@
 | [设置字体强调标记](./set-font-emphasis-mark/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中设置字体强调符号，本指南详细，分步指导。非常适合 .NET 开发人员。|
 | [设置字体文件夹](./set-fonts-folders/) 这份全面的分步指南将帮助您了解如何在 Aspose.Words for .NET 中设置自定义字体文件夹。非常适合希望增强文档字体的开发人员。|
 | [启用禁用字体替换](./enable-disable-font-substitution/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中启用或禁用字体替换。确保您的文档在所有平台上的外观一致。|
+| [在 Aspose.Words 中启用字体替换警告 – 完整指南](./enable-font-substitution-warnings-in-aspose-words-complete-g/) 学习如何在 Aspose.Words for .NET 中启用字体替换警告，以便在文档处理时捕获并管理字体替换问题。|
 | [设置字体回退设置](./set-font-fallback-settings/) 了解如何在 Aspose.Words for .NET 中设置字体替换设置并在 Word 文档中自定义字体替换。|
 | [加载 Noto 后备设置](./load-noto-fallback-settings/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中加载 Noto 后备设置。请按照我们的分步指南操作，确保所有字符正确显示。|
 | [设置字体文件夹默认实例](./set-fonts-folders-default-instance/) 通过本分步教程学习如何在 Aspose.Words for .NET 中为默认实例设置字体文件夹。轻松自定义您的 Word 文档。|
