@@ -103,6 +103,9 @@ Impara a salvare documenti HTML con layout fisso in Aspose.Words per Java. Segui
 ### [Opzioni Avanzate di Salvataggio di Documenti HTML con Aspose.Words Java](./advance-html-documents-saving-options/)
 In questo tutorial abbiamo coperto varie opzioni avanzate di salvataggio di documenti HTML con Aspose.Words per Java. Queste opzioni ti consentono di creare HTML di alta qualità.
 
+### [Recupera docx corrotto – Guida completa per riparare e processare i documenti](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Scopri come riparare file DOCX corrotti, recuperarne il contenuto e continuare l'elaborazione con Aspose.Words per Java.
+
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
 Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑passo. Personalizza formati, compressione e altro.
 
@@ -129,6 +132,9 @@ Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la
 
 ### [Determinare il Formato del Documento in Aspose.Words per Java](./determining-document-format/)
 Impara a rilevare i formati dei documenti in Java con Aspose.Words. Identifica DOC, DOCX e altri. Organizza i file in modo efficiente.
+
+### [Cattura gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Scopri come intercettare e gestire gli avvisi di sostituzione dei font durante l'elaborazione dei documenti Word in Java con Aspose.Words.
 
 ## Domande Frequenti
 

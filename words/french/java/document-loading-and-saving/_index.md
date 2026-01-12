@@ -94,6 +94,9 @@ Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez
 ### [Chargement de fichiers texte avec Aspose.Words for Java](./loading-text-files/)
 Débloquez la puissance d'Aspose.Words for Java. Apprenez à charger des documents texte, gérer les listes, les espaces et la direction du texte.
 
+### [Récupérer un docx corrompu – Guide complet pour réparer et traiter les documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
+
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
 
@@ -129,6 +132,9 @@ Apprenez à enregistrer des documents au format texte avec Aspose.Words for Java
 
 ### [Détermination du format de document avec Aspose.Words for Java](./determining-document-format/)
 Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identifiez DOC, DOCX, et plus encore. Organisez vos fichiers efficacement.
+
+### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 
 ## Foire aux questions
 

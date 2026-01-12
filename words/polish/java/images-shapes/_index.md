@@ -34,6 +34,9 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Jak renderować strony dokumentu jako miniatury za pomocą Aspose.Words dla Java](./render-word-pages-thumbnails-aspose-java/)
 Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestandardowych rozmiarach dokumentów Word za pomocą Aspose.Words for Java. Zwiększ możliwości obsługi dokumentów już dziś.
 
+### [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

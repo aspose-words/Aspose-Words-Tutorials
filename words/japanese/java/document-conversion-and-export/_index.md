@@ -82,24 +82,23 @@ Aspose.Words for Java で文書内の数式の力を引き出します。Office 
 ### [Aspose.Words for Java でドキュメントにウォーターマークを使用する](./using-watermarks-to-documents/)
 Aspose.Words for Java で文書にウォーターマークを追加する方法を学びます。テキストや画像のウォーターマークをカスタマイズして、プロフェッショナルな文書を作成します。
 
+### [Aspose.Words for Java で DOCX を PDF に変換](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+Aspose.Words for Java を使用して DOCX ファイルを PDF に変換する手順をステップバイステップで解説します。
+
+### [DOCX からアクセシブル PDF を作成 – 完全ガイド](./create-accessible-pdf-from-docx-complete-guide/)
+DOCX ファイルをアクセシブルな PDF に変換する手順とベストプラクティスをステップバイステップで解説します。
+
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 Aspose.Words for Java でテーブルの書式設定とテーブルスタイルの適用方法を学びます。効果的なテーブル書式設定のためのソースコード付きステップバイステップガイドを探ります。Aspose.Words で文書レイアウトを強化します。
 
-## よくある質問
-**Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  
-A: ドキュメントをロードし、`DocumentBuilder.insertWatermarkText` または `insertWatermarkImage` を使用し、PDF として保存します。
+### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
 
-**Q: 複雑なレイアウトを失うことなく DOCX ファイルを PDF に変換できますか？**  
-A: はい。Aspose.Words は変換中にレイアウト、フォント、グラフィックを保持します。
+### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
+Aspose.Words for Java を使用して DOCX を Markdown に変換する際、画像を正しく埋め込む手順をステップバイステップで解説します。
 
-**Q: Java でカスタムバーコードラベルを生成するにはどうすればよいですか？**  
-A: Aspose.Words が提供するバーコード API を使用し、バーコードタイプを指定して画像またはシェイプとして挿入します。
-
-**Q: テーブルを一貫して書式設定する最適な方法は何ですか？**  
-A: `Table.setStyleIdentifier` メソッドで TableStyle を適用するか、組み込みのスタイルギャラリーを使用します。
-
-**Q: 商用利用にはライセンスが必要ですか？**  
-A: はい、商用利用には本番環境でのデプロイに商用ライセンスが必要です。評価用に無料トライアルが利用可能です。
+### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+Aspose.Words for Java を使用して、Word 文書を TXT 形式で保存し、数式をエクスポートする方法をステップバイステップで解説します。
 
 ---
 

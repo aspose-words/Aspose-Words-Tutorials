@@ -83,52 +83,23 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ## Kapcsolódó oktatóanyagok – Betöltés, mentés és konvertálás
 
 ### [HTML dokumentumok betöltése és mentése Aspose.Words for Java‑val](./loading-and-saving-html-documents/)
-Ismerje meg, hogyan töltsön be és mentse a HTML dokumentumokat Java‑ban az Aspose.Words for Java‑val. Lépésről‑lépésre útmutató kódrészletekkel a zökkenőmentes integrációhoz.
-
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
-Load Options mesterfogásai az Aspose.Words for Java‑ban. Testreszabott dokumentumbetöltés, titkosítás kezelése, alakzatok konvertálása, Word verziók beállítása és még sok más a hatékony Java dokumentumfeldolgozáshoz.
-
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
-RTF Load Options konfigurálása az Aspose.Words for Java‑ban. Tanulja meg, hogyan ismerje fel az UTF‑8 szöveget RTF dokumentumokban. Lépésről‑lépésre útmutató kódrészletekkel.
-
 ### [Szövegfájlok betöltése Aspose.Words for Java‑val](./loading-text-files/)
-Fedezze fel az Aspose.Words for Java erejét. Tanulja meg a szöveges dokumentumok betöltését, listák kezelését, szóközök kezelését és a szövegirányítás szabályozását.
-
 ### [Haladó mentési beállítások Aspose.Words for Java‑val](./advance-saving-options/)
-Ismerje meg a haladó dokumentumműveleteket az Aspose.Words for Java‑val. Titkosítás, metafájlok kezelése és még sok más. A Word dokumentumok, ahogy Ön szeretné.
-
 ### [HTML dokumentumok mentése fix elrendezéssel Aspose.Words for Java‑ban](./saving-html-documents-with-fixed-layout/)
-Tanulja meg, hogyan mentse a HTML dokumentumokat fix elrendezéssel az Aspose.Words for Java‑ban. Kövesse lépésről‑lépésre útmutatónkat a hibátlan formázáshoz.
-
 ### [Haladó HTML dokumentumok mentési beállításai Aspose.Words Java‑val](./advance-html-documents-saving-options/)
-Ebben az oktatóanyagban a haladó HTML dokumentumok mentési beállításait mutatjuk be az Aspose.Words for Java‑val. Ezek a lehetőségek lehetővé teszik a magas minőségű HTML létrehozását.
-
 ### [Képek mentése dokumentumokból Aspose.Words for Java‑val](./saving-images-from-documents/)
-Tanulja meg, hogyan mentse a képeket dokumentumokból az Aspose.Words for Java‑val részletes, lépésről‑lépésre útmutatónk segítségével. Formátumok testreszabása, tömörítés és egyebek.
-
 ### [Dokumentumok mentése Markdown formátumban Aspose.Words for Java‑val](./saving-documents-as-markdown/)
-Ismerje meg, hogyan konvertálja a Word dokumentumokat Markdown‑ra az Aspose.Words for Java‑val. Ez az útmutató lefedi a táblázatok igazítását, képek kezelését és egyebeket.
-
 ### [Dokumentumok mentése ODT formátumban Aspose.Words for Java‑val](./saving-documents-as-odt-format/)
-Tanulja meg, hogyan mentse a dokumentumokat ODT formátumban az Aspose.Words for Java‑val. Biztosítsa a kompatibilitást nyílt forráskódú irodai csomagokkal.
-
 ### [Dokumentumok mentése OOXML formátumban Aspose.Words for Java‑val](./saving-documents-as-ooxml-format/)
-Tanulja meg, hogyan mentse a dokumentumokat OOXML formátumban az Aspose.Words for Java‑val. Biztonságos, optimalizált és testreszabott fájlok könnyedén.
-
 ### [Dokumentumok mentése PCL formátumban Aspose.Words for Java‑val](./saving-documents-as-pcl-format/)
-Tanulja meg, hogyan mentse a dokumentumokat PCL formátumban az Aspose.Words for Java‑val. Lépésről‑lépésre útmutató és kódrészletek a hatékony konvertáláshoz.
-
 ### [Dokumentumok mentése PDF‑ként Aspose.Words for Java‑val](./saving-documents-as-pdf/)
-Tanulja meg, hogyan mentse a Word dokumentumokat PDF‑ként az Aspose.Words for Java‑val. Betűtípusok, tulajdonságok és képminőség testreszabása. Átfogó útmutató a PDF konvertáláshoz.
-
 ### [Dokumentumok mentése RTF formátumban Aspose.Words for Java‑val](./saving-documents-as-rtf-format/)
-Tanulja meg, hogyan mentse a dokumentumokat RTF formátumban az Aspose.Words for Java‑val. Lépésről‑lépésre útmutató forráskóddal a hatékony konvertáláshoz.
-
 ### [Dokumentumok mentése szövegfájlokként Aspose.Words for Java‑val](./saving-documents-as-text-files/)
-Tanulja meg, hogyan mentse a dokumentumokat szövegfájlokként az Aspose.Words for Java‑val. Kövesse részletes útmutatónkat Java kódrészletekkel.
-
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
-Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.Words‑szal. Azonosítsa a DOC, DOCX és egyéb formátumokat. Hatékony fájlkezelés.
+### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## Gyakran Ismételt Kérdések
 

@@ -122,13 +122,18 @@ Lär dig hur du sparar dokument i PCL‑format med Aspose.Words för Java. Steg�
 Lär dig hur du sparar Word‑dokument som PDF med Aspose.Words för Java. Anpassa teckensnitt, egenskaper och bildkvalitet. En omfattande guide för PDF‑konvertering.
 
 ### [Spara dokument som RTF-format i Aspose.Words för Java](./saving-documents-as-rtf-format/)
-Lär dig hur du sparar dokument som RTF‑format med Aspose.Words för Java. Steg‑för‑steg‑guide med källkod för effektiv dokumentkonvertering.
+Lär dig hur du sparar dokument som RTF‑format i Aspose.Words för Java. Steg‑för‑steg‑guide med källkod för effektiv dokumentkonvertering.
 
 ### [Spara dokument som textfiler i Aspose.Words för Java](./saving-documents-as-text-files/)
 Lär dig hur du sparar dokument som textfiler med Aspose.Words för Java. Följ vår steg‑för‑steg‑guide med Java‑kodexempel.
 
 ### [Bestämma dokumentformat i Aspose.Words för Java](./determining-document-format/)
 Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera DOC, DOCX och mer. Organisera filer effektivt.
+
+### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Words för Java.
+
+### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## Vanliga frågor
 
