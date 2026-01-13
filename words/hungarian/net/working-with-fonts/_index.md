@@ -40,7 +40,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Betűtípusok mappáinak prioritás szerinti beállítása](./set-fonts-folders-with-priority/) | Ismerje meg, hogyan állíthat be prioritást a betűtípus-mappákban a Word-dokumentumokban az Aspose.Words for .NET használatával. Útmutatónk biztosítja, hogy dokumentumai minden alkalommal tökéletesen jelenjenek meg. |
 | [True Type betűtípusok mappa beállítása](./set-true-type-fonts-folder/) | Ismerje meg, hogyan állíthat be True Type Fonts mappát Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesse részletes, lépésről lépésre szóló útmutatónkat a betűtípus-kezelés egységessége érdekében. |
 | [Alapértelmezett betűtípus megadása rendereléshez](./specify-default-font-when-rendering/) | Ismerje meg, hogyan adhat meg alapértelmezett betűtípust Word-dokumentumok renderelésekor az Aspose.Words for .NET használatával. Biztosítsa a dokumentumok egységes megjelenését a platformokon átívelően. |
-| [Betűtípus-beállítások betöltési opciókkal](./font-settings-with-load-options/) Ismerje meg, hogyan kezelheti a betűtípus-beállításokat a betöltési opciókkal az Aspose.Words for .NET programban. Lépésről lépésre útmutató fejlesztőknek a betűtípusok egységes megjelenésének biztosításához a Word-dokumentumokban.
+| [Betűtípus-beállítások betöltési opciókkal](./font-settings-with-load-options/) Ismerje meg, hogyan kezelheti a betűtípus-beállításokat a betöltési opciókkal az Aspose.Words for .NET programban. Lépésről lépésre útmutató fejlesztőknek a betűtípusok egységes megjelenésének biztosításához a Word-dokumentumokban. |
 | [Betűtípusok beállítása mappa](./set-fonts-folder/) | Ismerje meg, hogyan állíthat be egyéni betűtípusmappát az Aspose.Words for .NET programban, hogy Word-dokumentumai helyesen jelenjenek meg hiányzó betűtípusok nélkül. |
 | [Betűtípusbeállítások Alapértelmezett példány](./font-settings-default-instance/) | Ebben az oktatóanyagban megtudhatja, hogyan konfigurálhatja az alapértelmezett betűtípus-beállításokat egy Word-dokumentumban az Aspose.Words for .NET segítségével. |
 | [Elérhető betűtípusok listájának lekérése](./get-list-of-available-fonts/) | Fedezze fel, hogyan kérheti le az elérhető betűtípusok listáját az Aspose.Words for .NET használatával ebben a részletes, lépésről lépésre szóló útmutatóban. Fejlessze betűtípus-kezelési készségeit. |
@@ -48,7 +48,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Figyelmeztető értesítés fogadása](./receive-warning-notification/) Ismerje meg, hogyan kaphat figyelmeztető értesítést az Aspose.Words for .NET használatakor, és hogyan kezelheti a dokumentumokban előforduló problémákat vagy figyelmeztetéseket. |
 | [Erőforrás Steam betűtípus forrás példa](./resource-steam-font-source-example/) | Ismerje meg, hogyan használható a Resource Stream Font Source egyéni betűtípusok betöltéséhez az Aspose.Words for .NET fájlba. |
 | [Helyettesítés kérése utótagok nélkül](./get-substitution-without-suffixes/) | Ebben az oktatóanyagban megtudhatja, hogyan lehet utótag nélküli felülírásokat beállítani egy Word-dokumentumban az Aspose.Words for .NET segítségével. |
-
+| [DOCX betöltése C#-ban – Teljes útmutató](./how-to-load-docx-in-c-complete-guide/) | Tanulja meg, hogyan tölthet be DOCX fájlokat C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

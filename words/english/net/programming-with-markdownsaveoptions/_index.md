@@ -30,9 +30,12 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
 | [Convert docx to markdown – Step‑by‑Step C# Guide](./convert-docx-to-markdown-step-by-step-c-guide/) | Learn how to convert DOCX files to Markdown in C# with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [Convert Word to Markdown – Complete Guide with Image Extraction](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Learn how to convert Word to Markdown with image extraction using Aspose.Words for .NET. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
 | [How to Save Markdown from DOCX – Step‑by‑Step Guide](./how-to-save-markdown-from-docx-step-by-step-guide/) | Learn how to save DOCX as Markdown with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [How to Export LaTeX from Word – Convert DOCX to Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/) | Learn how to export LaTeX from Word by converting DOCX to Markdown using Aspose.Words for .NET. |
+| [Export docx to markdown in C# – Complete Guide](./export-docx-to-markdown-in-c-complete-guide/) | Learn how to export docx to markdown in C# with a complete guide using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

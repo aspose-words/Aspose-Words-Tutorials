@@ -20,7 +20,7 @@ Handledningar för ordbehandling med teckensnitt guidar dig genom olika aspekter
 
 Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittsrelaterade uppgifter i dina Word-dokument.
 
-Oavsett om du vill formatera text med olika teckensnitt, ange regler för teckensnittsersättning, ladda teckensnitt från specifika kataloger eller ta emot teckensnittsmeddelanden, kommer handledningarna i "Ordbehandling med teckensnitt" att ge dig kunskapen för att enkelt utföra dessa uppgifter.
+Oavsett om du vill formatera text med olika teckensnitt, ange regler för teckensnittsersättning, ladda teckensnitt från specifika kataloger eller ta emot teckensnittmeddelanden, kommer handledningarna i "Ordbehandling med teckensnitt" att ge dig kunskapen för att enkelt utföra dessa uppgifter.
 
  ## Handledningar
 | Titel | Beskrivning |
@@ -40,7 +40,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Prioriteringsinställningar för teckensnittsmappar](./set-fonts-folders-with-priority/) | Lär dig hur du prioriterar teckensnittsmappar i Word-dokument med Aspose.Words för .NET. Vår guide säkerställer att dina dokument renderas perfekt varje gång. |
 | [Ställ in mappen True Type-teckensnitt](./set-true-type-fonts-folder/) | Lär dig hur du ställer in en True Type Fonts-mapp i Word-dokument med Aspose.Words för .NET. Följ vår detaljerade steg-för-steg-guide för att säkerställa konsekvent typsnittshantering. |
 | [Ange standardteckensnitt vid rendering](./specify-default-font-when-rendering/) | Lär dig hur du anger ett standardteckensnitt när du renderar Word-dokument med Aspose.Words för .NET. Säkerställ ett enhetligt dokumentutseende över olika plattformar. |
-| [Teckensnittsinställningar med laddningsalternativ](./font-settings-with-load-options/) Lär dig hur du hanterar teckensnittsinställningar med laddningsalternativ i Aspose.Words för .NET. Steg-för-steg-guide för utvecklare för att säkerställa ett enhetligt teckensnittsutseende i Word-dokument.
+| [Teckensnittsinställningar med laddningsalternativ](./font-settings-with-load-options/) Lär dig hur du hanterar teckensnittsinställningar med laddningsalternativ i Aspose.Words för .NET. Steg-för-steg-guide för utvecklare för att säkerställa ett enhetligt teckensnittsutseende i Word-dokument. |
 | [Ange teckensnittsmapp](./set-fonts-folder/) | Lär dig hur du ställer in en mapp för anpassade teckensnitt i Aspose.Words för .NET för att säkerställa att dina Word-dokument återges korrekt utan att teckensnitt saknas. |
 | [Standardinstans för teckensnittsinställningar](./font-settings-default-instance/) | I den här handledningen lär du dig hur du konfigurerar standardinställningar för teckensnitt i ett Word-dokument med Aspose.Words för .NET. |
 | [Hämta lista över tillgängliga teckensnitt](./get-list-of-available-fonts/) | Upptäck hur du får en lista över tillgängliga teckensnitt med Aspose.Words för .NET i den här detaljerade steg-för-steg-handledningen. Öka dina kunskaper i teckensnittshantering. |
@@ -48,6 +48,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Få varningsmeddelande](./receive-warning-notification/) Lär dig hur du får en varningsmeddelande när du använder Aspose.Words för .NET och hanterar eventuella problem eller varningar i dina dokument. |
 | [Exempel på teckensnittskälla för resurs Steam](./resource-steam-font-source-example/) | Lär dig hur du använder teckensnittskällan Resource Stream för att läsa in anpassade teckensnitt i Aspose.Words för .NET. |
 | [Hämta substitution utan suffix](./get-substitution-without-suffixes/) | I den här handledningen lär du dig hur du får suffixlösa åsidosättningar i ett Word-dokument med Aspose.Words för .NET. |
+| [Hur man laddar DOCX i C# – Komplett guide](./how-to-load-docx-in-c-complete-guide/) | Lär dig hur du laddar DOCX-filer i C# med en komplett steg-för-steg-guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -28,6 +28,7 @@
 | [刪除Word文檔中的分節符](./remove-section-breaks/) |了解如何使用 Aspose.Words for .NET 刪除 Word 文件中的分節符。這個詳細的逐步指南可確保順利進行文件管理和編輯。 |
 | [刪除 Word 文件中的頁腳](./remove-footers/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 從 Word 文件中刪除頁尾。 |
 | [刪除Word文檔中的目錄](./remove-table-of-contents/) |了解如何使用 Aspose.Words for .NET 刪除 Word 文件中的目錄。 |
+| [如何在 C# 中呼叫 LLM – 完整指南與本機模型](./how-to-call-llm-in-c-complete-guide-with-local-model/) |了解如何在 C# 中使用本機模型呼叫大型語言模型，完整步驟指南。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
