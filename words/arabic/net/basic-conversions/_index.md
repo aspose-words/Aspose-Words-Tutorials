@@ -26,6 +26,7 @@
 | [تحويل ملف Word إلى PDF](./docx-to-pdf/) تعرّف على كيفية تحويل ملفات Word إلى PDF بسهولة باستخدام Aspose.Words for .NET من خلال دليلنا. مثالي للمطورين الذين يبحثون عن تحويل سريع وموثوق للمستندات. |
 | [تحويل Word إلى PDF باستخدام C# و Aspose.Words – دليل](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | تعرّف على كيفية تحويل مستندات Word إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
+| [كيفية إنشاء PDF من Word – دليل C# كامل](./how-to-create-pdf-from-word-complete-c-guide/) | تعرّف على طريقة إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [تحويل Docx إلى بايت](./docx-to-byte/) | تعلّم كيفية تحويل ملفات Docx إلى مصفوفة بايت في .NET باستخدام Aspose.Words لمعالجة مستندات فعّالة. دليل خطوة بخطوة مُرفق. |  
 | [تحويل Docx إلى Epub](./docx-to-epub/) حوّل ملفات DOCX إلى EPUB بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا التعليمي لدمجها بسلاسة في تطبيقات .NET.
 | [تحويل Docx إلى Mhtml وإرسال البريد الإلكتروني](./docx-to-mhtml-and-sending-email/) | تعلّم كيفية تحويل DOCX إلى MHTML وإرسال رسائل البريد الإلكتروني باستخدام Aspose.Words لـ .NET في هذا الدليل التفصيلي. حسّن إنتاجيتك مع الأتمة السهلة. |

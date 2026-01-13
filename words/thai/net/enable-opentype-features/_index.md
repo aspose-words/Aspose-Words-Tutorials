@@ -21,6 +21,7 @@
 | ชื่อเรื่อง | คำอธิบาย |
 -
 - [คุณสมบัติประเภทเปิด](./open-type-features/) | เรียนรู้วิธีเปิดใช้งานคุณลักษณะ OpenType ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
+- [สร้างเอกสาร Word ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด](./create-word-document-with-aspose-words-step-by-step-guide/) | เรียนรู้วิธีสร้างเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนโดยละเอียดนี้
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -27,7 +27,7 @@ Nhờ các hướng dẫn này, bạn sẽ có thể khai thác đầy đủ cá
 | [Thêm Dấu Bidi vào Tài liệu Word](./add-bidi-marks/) | Tìm hiểu cách thêm dấu hai chiều (Bidi) vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Đảm bảo hướng văn bản phù hợp cho nội dung đa ngôn ngữ. |
 | [Sử dụng ký tự Tab cho mỗi cấp độ để thụt lề danh sách](./use-tab-character-per-level-for-list-indentation/) | Tìm hiểu cách tạo danh sách nhiều cấp với thụt lề theo tab bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để định dạng danh sách chính xác trong tài liệu của bạn. |
 | [Sử dụng ký tự khoảng trắng cho mỗi cấp độ để thụt lề danh sách](./use-space-character-per-level-for-list-indentation/) | Tìm hiểu cách tạo danh sách nhiều cấp với thụt lề ký tự khoảng trắng trong Aspose.Words cho .NET. Hướng dẫn từng bước để định dạng tài liệu chính xác. |
-
+| [Chuyển đổi docx sang txt – Hướng dẫn đầy đủ để lưu Word dưới dạng văn bản thuần](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang tệp TXT bằng Aspose.Words cho .NET, bao gồm các tùy chọn lưu và ví dụ mã C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Convertir metarchivos a PNG](./convert-metafiles-to-png/) Convierte fácilmente metarchivos a PNG en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Simplifica la gestión de tus documentos. |
 | [Cargar archivos CHM en un documento de Word](./load-chm/) Cargue fácilmente archivos CHM en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Ideal para consolidar su documentación técnica. |
 | [Aspose Load Options – Cargar DOCX con Configuración de Fuente Personalizada](./aspose-load-options-load-docx-with-custom-font-settings/) Aprenda a cargar documentos DOCX especificando fuentes personalizadas con Aspose.LoadOptions en .NET. |
+| [Recuperar DOCX dañado con Aspose.Words – establecer modo de recuperación y opciones de carga](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) Aprenda a recuperar documentos DOCX dañados configurando el modo de recuperación y LoadOptions en Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

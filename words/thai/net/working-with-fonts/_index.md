@@ -48,7 +48,7 @@
 | [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 | [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
-
+| [วิธีโหลดไฟล์ DOCX ใน C# – คู่มือฉบับสมบูรณ์](./how-to-load-docx-in-c-complete-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -56,6 +56,5 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

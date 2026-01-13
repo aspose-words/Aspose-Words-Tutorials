@@ -28,7 +28,7 @@ Niezależnie od tego, czy musisz manipulować, tworzyć, konwertować lub genero
 | [Usuń podziały sekcji w dokumencie Word](./remove-section-breaks/) | Dowiedz się, jak usuwać podziały sekcji w dokumentach Word za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik krok po kroku zapewnia płynne zarządzanie dokumentami i ich edycję.|
 | [Usuń stopki w dokumencie Word](./remove-footers/) Dowiedz się, jak usuwać stopki z dokumentów Word za pomocą Aspose.Words dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |
 | [Usuń spis treści w dokumencie Word](./remove-table-of-contents/) | Dowiedz się, jak usunąć spis treści z dokumentu programu Word za pomocą Aspose.Words dla platformy .NET. |
-
+| [Jak wywołać LLM w C# – Kompletny przewodnik z modelem lokalnym](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Dowiedz się, jak wywołać modele językowe w C# przy użyciu lokalnego modelu, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

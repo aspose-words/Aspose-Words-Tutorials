@@ -25,10 +25,10 @@ Ob Sie Word-Dokumente bearbeiten, erstellen, konvertieren oder generieren müsse
 | Titel | Beschreibung |
 | --- | --- |
 | [Seitenumbrüche im Word-Dokument entfernen](./remove-page-breaks/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Seitenumbrüche in einem Word-Dokument entfernen. Verbessern Sie Ihre Fähigkeiten zur Dokumentbearbeitung. |
-| [Abschnittsumbrüche im Word-Dokument entfernen](./remove-section-breaks/) Erfahren Sie, wie Sie mit Aspose.Words für .NET Abschnittsumbrüche in Word-Dokumenten entfernen. Diese detaillierte Schritt-für-Schritt-Anleitung sorgt für reibungslose Dokumentenverwaltung und -bearbeitung.
+| [Abschnittsumbrüche im Word-Dokument entfernen](./remove-section-breaks/) Erfahren Sie, wie Sie mit Aspose.Words für .NET Abschnittsumbrüche in Word-Dokumenten entfernen. Diese detaillierte Schritt-für-Schritt-Anleitung sorgt für reibungslose Dokumentenverwaltung und -bearbeitung. |
 | [Fußzeilen im Word-Dokument entfernen](./remove-footers/) Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Fußzeilen aus Word-Dokumenten entfernen. |
 | [Inhaltsverzeichnis im Word-Dokument entfernen](./remove-table-of-contents/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET das Inhaltsverzeichnis in einem Word-Dokument entfernen. |
-
+| [Wie man LLM in C# aufruft – Vollständige Anleitung mit lokalem Modell](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Erfahren Sie, wie Sie mit C# ein lokales LLM integrieren und nutzen – Schritt-für-Schritt-Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

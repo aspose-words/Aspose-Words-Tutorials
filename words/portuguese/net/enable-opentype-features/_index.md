@@ -21,6 +21,7 @@ Aprenda a habilitar recursos OpenType em seus documentos do Word com o Aspose.Wo
 | Título | Descrição |
 | --- | --- |
 | [Recursos de tipo aberto](./open-type-features/) | Aprenda como habilitar recursos OpenType em documentos do Word usando o Aspose.Words para .NET com este guia detalhado passo a passo. |
+| [Criar documento Word com Aspose.Words – Guia passo a passo](./create-word-document-with-aspose-words-step-by-step-guide/) | Aprenda a criar um documento Word usando Aspose.Words com este guia passo a passo. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
