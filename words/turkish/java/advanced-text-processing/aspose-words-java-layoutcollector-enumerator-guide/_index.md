@@ -1,9 +1,16 @@
 ---
-"date": "2025-03-28"
-"description": "Gelişmiş metin işleme için Aspose.Words Java'nın LayoutCollector ve LayoutEnumerator'ının gücünü açığa çıkarın. Belge düzenlerini verimli bir şekilde yönetmeyi, sayfalandırmayı analiz etmeyi ve sayfa numaralandırmayı kontrol etmeyi öğrenin."
-"title": "Aspose.Words Java&#58;da Ustalaşma Metin İşleme için LayoutCollector ve LayoutEnumerator'a Tam Kılavuz"
-"url": "/tr/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/"
-"weight": 1
+date: '2026-01-14'
+description: Aspose.Words Java ile sayfa numaralandırmayı nasıl yeniden başlatacağınızı
+  öğrenin ve LayoutCollector'ı kullanarak sayfalama verilerini çıkarın, sayfa düzenini
+  güncelleyin ve sayfaları resim olarak render edin.
+keywords:
+- Aspose.Words Java LayoutCollector
+- Java document layout management
+- LayoutEnumerator traversal
+title: Aspose.Words Java ile Sayfa Numaralandırmayı Yeniden Başlatma – LayoutCollector
+  ve LayoutEnumerator
+url: /tr/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,29 +19,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Java ile Sayfa Numaralandırmayı Yeniden Başlatma – LayoutCollector & LayoutEnumerator
 
-# Aspose.Words Java'da Ustalaşma: Metin İşleme için LayoutCollector ve LayoutEnumerator'a Tam Kılavuz
+## Giriş
 
-## giriiş
+Büyük Java tabanlı belgelerde **sayfa numaralandırmayı yeniden başlatma** konusunda zorlanıyor ve aynı zamanda sayfalama analizine ya da sayfaları resim olarak render etmeye mi ihtiyacınız var? **Aspose.Words for Java** ile `LayoutCollector` ve `LayoutEnumerator`ı kullanarak sadece sayfa numaralandırmayı yeniden başlatmakla kalmaz, aynı zamanda **sayfalama verilerini çıkartabilir**, **sayfa düzenini güncelleyebilir** ve **ön izlemeler veya PDF'ler için sayfaları resim olarak render** edebilirsiniz. Bu kılavuz, kütüphaneyi kurmaktan belge render'ını tam kontrol eden geri aramaları (callback) uygulamaya kadar her adımı size gösterir.
 
-Java uygulamalarınızla karmaşık belge düzenlerini yönetmede zorluklarla mı karşılaşıyorsunuz? İster bir bölümün kapsadığı sayfa sayısını belirlemek, ister düzen varlıklarını verimli bir şekilde dolaşmak olsun, bu görevler göz korkutucu olabilir. **Java için Aspose.Words**, gibi güçlü araçlara erişiminiz var `LayoutCollector` Ve `LayoutEnumerator` Bu süreçleri basitleştirerek olağanüstü içerik sunmaya odaklanmanızı sağlar. Bu kapsamlı kılavuzda, belge işleme yeteneklerinizi geliştirmek için bu özellikleri nasıl kullanacağınızı inceleyeceğiz.
+**Öğrenecekleriniz**
+- `LayoutCollector`ı kullanarak sayfalama verilerini çıkartma ve sayfa aralıklarını belirleme.
+- `LayoutEnumerator` ile belge düzeninde gezinme.
+- Sayfa‑düzeni geri aramaları (callback) uygulayarak **sayfaları resim olarak render** etme.
+- Sürekli bölümlerde **sayfa numaralandırmayı yeniden başlatma** düzen seçenekleriyle.
+- **Sayfa düzenini** verimli bir şekilde güncelleme ipuçları.
 
-**Ne Öğreneceksiniz:**
-- Aspose.Words'ü kullanın `LayoutCollector` hassas sayfa aralığı analizi için.
-- Belgeleri verimli bir şekilde gezinin `LayoutEnumerator`.
-- Dinamik oluşturma ve güncellemeler için düzen geri aramalarını uygulayın.
-- Sürekli bölümlerdeki sayfa numaralandırmasını etkili bir şekilde kontrol edin.
+## Hızlı Yanıtlar
+- **Java belgesinde sayfa numaralandırmayı nasıl yeniden başlatırım?** `doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(...)` kullanın ve `doc.updatePageLayout()` çağırın.
+- **Hangi sınıf sayfalama verilerini çıkarır?** `LayoutCollector` herhangi bir düğüm için başlangıç/bitiş sayfa indekslerini sağlar.
+- **Her sayfayı resim olarak render edebilir miyim?** Evet—`IPageLayoutCallback` uygulayın ve `ImageSaveOptions` kullanın.
+- **Sayfa düzenini manuel olarak güncellemem gerekiyor mu?** Düzen seçeneklerini değiştirdikten sonra her zaman `doc.updatePageLayout()` çağırın.
+- **Hangi Aspose.Words sürümü gereklidir?** Örnekler Aspose.Words for Java 25.3 (veya daha yenisi) ile çalışır.
 
-Bu araçların belge işleme süreçlerinizi nasıl dönüştürebileceğine bir göz atalım. Başlamadan önce, aşağıdaki ön koşullar bölümümüze göz atarak hazır olduğunuzdan emin olun.
+## Sayfa Numaralandırmayı Yeniden Başlatma nedir?
 
-## Ön koşullar
+Sayfa numaralandırmayı yeniden başlatma, belgenin belirli bir bölümünde yeni bir numaralandırma dizisine başlamanızı sağlar; bu, bölümler, ekler veya sözleşmeler gibi ayrı numaralandırma gerektiren raporlar, kitaplar veya sözleşmeler için kritiktir. Aspose.Words, bu davranışı manuel sayfa‑kırılım hilelerine ihtiyaç duymadan kontrol etmenizi sağlayan bir düzen seçeneği sunar.
 
-Bu kılavuzu takip etmek için aşağıdakilere sahip olduğunuzdan emin olun:
+## Neden LayoutCollector ve LayoutEnumerator kullanmalı?
+
+- **LayoutCollector** sayfalama ayrıntılarına programatik erişim sağlar, **sayfalama verilerini çıkartma** gibi işlemleri (herhangi bir düğümün ilk ve son sayfası) mümkün kılar.
+- **LayoutEnumerator** görsel düzen ağacında gezinmenizi sağlar, sayfaları, paragrafları veya satırları özel render veya analiz için kolayca bulmanızı mümkün kılar.
+- Birlikte, pahalı PDF dönüşümleri veya manuel hesaplamalar gerektiren karmaşık düzen görevlerini basitleştirir.
+
+## Ön Koşullar
 
 ### Gerekli Kütüphaneler ve Sürümler
-Aspose.Words for Java sürüm 25.3'ün yüklü olduğundan emin olun.
+Aspose.Words for Java sürüm 25.3 (veya daha yenisi) yüklü olduğundan emin olun.
 
-**Usta:**
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,23 +68,23 @@ Aspose.Words for Java sürüm 25.3'ün yüklü olduğundan emin olun.
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Çevre Kurulum Gereksinimleri
-İhtiyacınız olanlar:
-- Bilgisayarınıza Java Development Kit (JDK) kurulu.
-- Kodu çalıştırmak ve test etmek için IntelliJ IDEA veya Eclipse gibi bir IDE.
+### Ortam Kurulum Gereksinimleri
+- Java Development Kit (JDK) yüklü.
+- IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir Java IDE.
+- Geçerli bir Aspose.Words lisansı (değerlendirme için ücretsiz deneme yeterli).
 
-### Bilgi Önkoşulları
-Etkili bir şekilde takip edebilmek için temel düzeyde Java programlama bilgisine sahip olmanız önerilir.
+### Bilgi Ön Koşulları
+Temel Java programlama bilgisi yeterlidir.
 
-## Aspose.Words'ü Kurma
-Öncelikle Aspose.Words kütüphanesini projenize entegre ettiğinizden emin olun. Ücretsiz deneme lisansı alabilirsiniz [Burada](https://releases.aspose.com/words/java/) veya gerekirse geçici bir lisans seçin. Aspose.Words'ü Java'da kullanmaya başlamak için, aşağıdaki şekilde başlatın:
+## Aspose.Words Kurulumu
+İlk olarak, Aspose.Words kütüphanesini projenize entegre edin. Ücretsiz deneme lisansını [buradan](https://releases.aspose.com/words/java/) alabilir veya test için geçici bir lisans kullanabilirsiniz.
 
 ```java
 import com.aspose.words.*;
 
 public class SetupAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Lisansı ayarlayın (eğer varsa)
+        // Set up the license (if available)
         License license = new License();
         license.setLicense("path/to/your/license.lic");
 
@@ -73,25 +93,25 @@ public class SetupAsposeWords {
 }
 ```
 
-Kurulumunuz tamamlandıktan sonra, temel özelliklere geçelim `LayoutCollector` Ve `LayoutEnumerator`.
+Kütüphane hazır olduğunda, temel özelliklere dalabiliriz.
 
 ## Uygulama Kılavuzu
 
-### Özellik 1: Sayfa Genişliği Analizi için LayoutCollector Kullanımı
-The `LayoutCollector` Bu özellik, bir belgedeki düğümlerin sayfalara nasıl yayıldığını belirlemenize ve sayfalama analizine yardımcı olmanıza olanak tanır.
+### Özellik 1: Sayfa Aralığı Analizi için LayoutCollector Kullanımı
+`LayoutCollector` özelliği, düğümlerin sayfalar arasında nasıl yayıldığını belirlemenizi sağlar; bu, **sayfalama verilerini çıkartma** için temel oluşturur.
 
-#### Genel bakış
-Kaldıraç kullanarak `LayoutCollector`Herhangi bir düğümün başlangıç ve bitiş sayfa indekslerini ve kapsadığı toplam sayfa sayısını tespit edebiliriz.
+#### Genel Bakış
+`LayoutCollector`ı kullanarak herhangi bir düğümün başlangıç ve bitiş sayfa indekslerini alabilir ve toplam sayfa sayısını hesaplayabilirsiniz.
 
 #### Uygulama Adımları
 
-**1. Document ve LayoutCollector'ı başlatın**
+**1. Document ve LayoutCollector'ı Başlatma**
 ```java
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. Belgeyi Doldurun**
+**2. Belgeyi Doldurma**
 Burada, birden fazla sayfaya yayılan içerik ekleyeceğiz:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -102,7 +122,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. Düzeni Güncelleyin ve Metrikleri Alın**
+**3. Düzeni Güncelleme ve Metriği Almak**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -111,54 +131,53 @@ assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```
 
 #### Açıklama
-- **`DocumentBuilder`:** Belgeye içerik eklemek için kullanılır.
-- **`updatePageLayout()`:** Doğru sayfa ölçümlerini sağlar.
+- **`DocumentBuilder`** metin ve sayfa/bölüm kırılımları ekler.
+- **`updatePageLayout()`** sayfalama verilerinin doğru olması için düzen bilgilerini yeniden hesaplar.
 
 ### Özellik 2: LayoutEnumerator ile Gezinme
-The `LayoutEnumerator` Bir belgenin düzen varlıklarının etkili bir şekilde dolaşılmasına olanak tanır ve her bir öğenin özellikleri ve konumu hakkında ayrıntılı bilgiler sağlar.
+`LayoutEnumerator`, görsel düzen ağacında verimli bir şekilde gezinmenizi sağlar.
 
-#### Genel bakış
-Bu özellik, görsel olarak düzen yapısı içinde gezinmeye yardımcı olur, oluşturma ve düzenleme görevleri için faydalıdır.
+#### Genel Bakış
+Sayfalar, paragraflar, satırlar ve diğer düzen varlıkları arasında dolaşabilirsiniz; bu, özel render veya tanılamalar için faydalıdır.
 
 #### Uygulama Adımları
 
-**1. Belgeyi ve LayoutEnumerator'ı başlatın**
+**1. Document ve LayoutEnumerator'ı Başlatma**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. İleri ve Geri Hareket Etme**
-Belge düzeninde gezinmek için:
+**2. İleri ve Geri Yönlü Gezinme**
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
-// İleriye doğru hareket et
+// Traverse forward
 traverseLayoutForward(layoutEnumerator, 1);
 
-// Geriye doğru geçiş
+// Traverse backward
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
 #### Açıklama
-- **`moveParent()`:** Üst varlıklara gider.
-- **Gezinme Yöntemleri:** Kapsamlı gezinme için yinelemeli olarak uygulandı.
+- **`moveParent()`** enumerator'ı üst varlığa (bu örnekte sayfa seviyesine) taşır.
+- Rekürsif gezinme yöntemleri tüm düzen hiyerarşisini keşfetmenizi sağlar.
 
-### Özellik 3: Sayfa Düzeni Geri Aramaları
-Bu özellik, belge işleme sırasında sayfa düzeni olaylarını izlemek için geri aramaların nasıl uygulanacağını gösterir.
+### Özellik 3: Sayfa Düzeni Geri Aramaları (Callbacks)
+Düzen olaylarını izlemek ve gerektiğinde **sayfaları resim olarak render** etmek için geri aramalar (callback) uygulayın.
 
-#### Genel bakış
-Kullanın `IPageLayoutCallback` Bir bölümün yeniden düzenlenmesi veya dönüştürmenin tamamlanması gibi belirli düzen değişikliklerine tepki vermek için arayüz.
+#### Genel Bakış
+`IPageLayoutCallback` arayüzü, belgenin bir kısmı yeniden akışa (reflow) girdiğinde ya da dönüşüm tamamlandığında sizi bilgilendirir.
 
 #### Uygulama Adımları
 
-**1. Geri Aramayı Ayarla**
+**1. Geri Aramayı Ayarlama**
 ```java
 doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
 doc.updatePageLayout();
 ```
 
-**2. Geri Arama Yöntemlerini Uygulayın**
+**2. Geri Arama Metodlarını Uygulama**
 ```java
 private static class RenderPageLayoutCallback implements IPageLayoutCallback {
     public void notify(PageLayoutCallbackArgs a) throws Exception {
@@ -181,54 +200,80 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 ```
 
 #### Açıklama
-- **`notify()`:** Düzen olaylarını yönetir.
-- **`ImageSaveOptions`:** İşleme seçeneklerini yapılandırır.
+- **`notify()`** düzen olaylarına yanıt verir.
+- **`ImageSaveOptions`** ve `PageSet` birlikte **sayfaları resim olarak render** etmenizi (bu örnekte PNG) sağlar.
 
-### Özellik 4: Sürekli Bölümlerde Sayfa Numaralandırmasını Yeniden Başlat
-Bu özellik, kesintisiz belge akışını sağlayarak sürekli bölümlerde sayfa numaralandırmasının nasıl kontrol edileceğini gösterir.
+### Özellik 4: Sürekli Bölümlerde Sayfa Numaralandırmayı Yeniden Başlatma
+Birden fazla bölümün sürekli akış içinde olduğu durumlarda sayfa numaralandırmayı kontrol edin.
 
-#### Genel bakış
-Çok bölümlü belgelerle uğraşırken sayfa numaralarını etkili bir şekilde yönetin `ContinuousSectionRestart`.
+#### Genel Bakış
+`ContinuousSectionRestart` seçeneğini ayarlayarak, sayfa numaralarının yeni bir sayfada mı yoksa kesintisiz devam mı edeceğine karar verebilirsiniz.
 
 #### Uygulama Adımları
 
-**1. Belgeyi Yükle**
+**1. Belgeyi Yükleme**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
 
-**2. Sayfa Numaralandırma Seçeneklerini Yapılandırın**
+**2. Sayfa Numaralandırma Seçeneklerini Yapılandırma**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
 ```
 
 #### Açıklama
-- **`setContinuousSectionPageNumberingRestart()`:** Sürekli bölümlerde sayfa numaralarının nasıl yeniden başlayacağını yapılandırır.
+- **`setContinuousSectionPageNumberingRestart()`** Aspose.Words'a sürekli bölümlerde numaralandırmanın nasıl ele alınacağını söyler.
+- Seçeneği değiştirdikten sonra **sayfa düzenini güncelle** değişikliklerin uygulanmasını sağlayın.
 
 ## Pratik Uygulamalar
-Bu özelliklerin uygulanabileceği bazı gerçek dünya senaryoları şunlardır:
-1. **Belge Sayfalandırma Analizi:** Kullanmak `LayoutCollector` İçerik düzenini en iyi şekilde sayfalandırmak için analiz etmek ve ayarlamak.
-2. **PDF Oluşturma:** İstihdam etmek `LayoutEnumerator` PDF'lerde görsel yapıyı koruyarak doğru bir şekilde gezinmek ve işlemek.
-3. **Dinamik Belge Güncellemeleri:** Belirli düzen değişiklikleri sırasında eylemleri tetiklemek için geri aramaları uygulayın ve gerçek zamanlı belge işlemeyi geliştirin.
-4. **Çok Bölümlü Belgeler:** Sürekli bölümlere sahip raporlarda veya kitaplarda profesyonel biçimlendirme için sayfa numaralandırmasını kontrol edin.
+1. **Belge Sayfalama Analizi** – `LayoutCollector`ı kullanarak içeriğin sayfalara nasıl dağıldığını denetleyin ve kenar boşluklarını veya kırılımları buna göre ayarlayın.
+2. **PDF Render'ı** – `LayoutEnumerator`ı geri arama ile birleştirerek PDF dönüşümünden önce yüksek doğruluklu sayfa resimleri oluşturun.
+3. **Dinamik Belge Güncellemeleri** – (ör. bir tablo genişlediğinde) düzen olaylarına yanıt verin ve etkilenen sayfaları otomatik olarak yeniden render edin.
+4. **Çok‑Bölümlü Raporlar** – **sayfa numaralandırmayı yeniden başlat** özelliğini kullanarak her bölümün kendi numaralandırma şemasına sahip olmasını sağlayın, aynı zamanda akıcı bir akış koruyun.
 
-## Performans Hususları
-En iyi performansı sağlamak için:
-- Düzen analizinden önce gereksiz öğeleri kaldırarak belge boyutunu en aza indirin.
-- İşlem süresini azaltmak için verimli geçiş yöntemlerini kullanın.
-- Özellikle büyük belgelerle çalışırken kaynak kullanımını izleyin.
+## Performans Düşünceleri
+- `updatePageLayout()` çağırmadan önce kullanılmayan bölümleri veya gizli içeriği kaldırarak işleme süresini kısaltın.
+- Büyük belgeler için tüm dosyayı belleğe yüklemekten kaçınmak amacıyla akış (streaming) API'lerini kullanın.
+- Yalnızca sayfa‑seviyesi bilgiye ihtiyacınız varsa `LayoutEnumerator` içinde rekürsif derinliği sınırlayın.
 
-## Çözüm
-Ustalaşarak `LayoutCollector` Ve `LayoutEnumerator`Java için Aspose.Words'de güçlü yeteneklerin kilidini açtınız. Bu araçlar yalnızca karmaşık belge düzenlerini basitleştirmekle kalmaz, aynı zamanda metni etkili bir şekilde yönetme ve işleme yeteneğinizi de geliştirir. Bu bilgiyle donanmış olarak, yolunuza çıkan herhangi bir gelişmiş metin işleme zorluğunun üstesinden gelmek için iyi donanımlısınız.
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|------|
+| `layoutCollector.getNumPagesSpanned()` 0 döndürüyor | Düzen güncellenmemiş | Sorgulamadan önce `doc.updatePageLayout()` çağırın |
+| Geri aramada resimler üretilmiyor | `ImageSaveOptions` yapılandırması eksik | `saveOptions.setPageSet(new PageSet(pageIndex))` ayarlandığından emin olun |
+| Sayfa numaraları yeniden başlamıyor | Yanlış `ContinuousSectionRestart` değeri | Gerçek yeniden başlatma için `ContinuousSectionRestart.FROM_NEW_PAGE_ONLY` kullanın |
 
+## Sık Sorulan Sorular
+
+**S: Belirli bir paragrafın tam sayfa numarasını çıkarabilir miyim?**  
+C: Evet—paragraf düğümünün başlangıç sayfasını almak için `LayoutCollector`ı kullanın ve verinin güncel olduğundan emin olmak için `doc.updatePageLayout()` çağırın.
+
+**S: `update page layout` belge içeriğini etkiler mi?**  
+C: Hayır. Yalnızca düzen bilgilerini yeniden hesaplar; gerçek metin ve biçimlendirme değişmez.
+
+**S: Büyük bir belgenin tüm sayfalarını verimli bir şekilde resim olarak nasıl render ederim?**  
+C: `IPageLayoutCallback`ı uygulayın ve her sayfayı sırayla işleyin; I/O‑ağırlıklı kaydetme için çok‑iş parçacıklı (multi‑threaded) yaklaşımı isteğe bağlı olarak kullanın.
+
+**S: Yalnızca belirli bölümler için numaralandırmayı yeniden başlatmak mümkün mü?**  
+C: Evet—`updatePageLayout()` çağırmadan önce ilgili bölümün düzen seçeneklerine `setContinuousSectionPageNumberingRestart` uygulayın.
+
+**S: `LayoutCollector` hangi Aspose.Words sürümünde tanıtıldı?**  
+C: `LayoutCollector` 2020'nin başındaki sürümlerde mevcuttu; örnekler sürüm 25.3 ile çalışır.
+
+## Sonuç
+**Sayfa numaralandırmayı yeniden başlatma**, `LayoutCollector` ve `LayoutEnumerator`ı ustaca kullanarak Aspose.Words for Java’da gelişmiş metin işleme için güçlü bir araç setine sahip oldunuz. **Sayfalama verilerini çıkartma**, **sayfaları resim olarak render** etme ya da bölümler arasında sayfa numaralandırmayı kontrol etme ihtiyacınız olsun, bu API'ler yüksek performanslı ve programatik kontrol sunar.
+
+---
+
+**Son Güncelleme:** 2026-01-14  
+**Test Edilen Sürüm:** Aspose.Words for Java 25.3  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
