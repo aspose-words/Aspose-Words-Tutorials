@@ -35,6 +35,8 @@
 | [Word から LaTeX をエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-latex-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を LaTeX 形式にエクスポートする方法をステップバイステップで解説します。 |
 | [C# で Word を PDF に変換する – ガイド](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Aspose.WordsでWordをPDFとして保存 – 完全なC#ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [C# で Word を PDF に変換する – 完全 Aspose ガイド](./convert-word-to-pdf-in-c-complete-aspose-guide/) Aspose.Words for .NET を使用し、C# で Word 文書を PDF に変換する完全ガイドです。詳細なコード例と手順を掲載しています。 |
+| [Docx を PDF と Markdown に変換 – 完全 C# ガイド](./convert-docx-to-pdf-and-markdown-complete-c-guide/) Aspose.Words for .NET を使用して、Docx を PDF と Markdown に変換する完全な手順とコード例を提供します。C# 開発者向け。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

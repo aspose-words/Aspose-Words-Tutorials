@@ -26,6 +26,7 @@
 | [如何使用 Markdown：将 DOCX 转换为带 LaTeX 方程的 Markdown](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) 使用 Aspose.Words for .NET 将 DOCX 文档转换为包含 LaTeX 方程的 Markdown，提供完整示例和步骤。|
 | [将 docx 转换为 markdown – 步骤详解 C# 指南](./convert-docx-to-markdown-step-by-step-c-guide/) 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，提供完整示例和分步指南。|
 | [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，包含 LaTeX 方程，提供完整示例和分步指南。|
+| [将 DOCX 转换为 Markdown – 使用 Aspose.Words 的完整指南](./convert-docx-to-markdown-complete-guide-using-aspose-words/) 使用 Aspose.Words for .NET 将 DOCX 文档完整转换为 Markdown，提供示例代码和详细步骤。|
 
 ### [将 Word 保存为 PDF 并恢复损坏的 Word – 在 C# 中将 Word 转换为 Markdown](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
@@ -50,6 +51,10 @@
 ### [如何从 DOCX 导出 Markdown – 完整 C# 指南](./how-to-export-markdown-from-docx-complete-guide/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
+
+### [如何在 C# 中使用回调 – 将 DOCX 转换为 Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
+
+使用 Aspose.Words for .NET 在 C# 中通过回调将 DOCX 文档转换为 Markdown，提供完整示例和步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@
 | [利用可能なフォントのリストを取得する](./get-list-of-available-fonts/) Aspose.Words for .NET を使用して利用可能なフォントのリストを取得する方法を、この詳細なステップバイステップのチュートリアルで学びましょう。フォント管理スキルを向上させましょう。 |
 | [フォントの通知を受け取る](./receive-notifications-of-fonts/) Aspose.Words for .NET の使用時に、不足フォントまたは代替フォントの通知を受け取る方法について説明します。 |
 | [警告通知を受け取る](./receive-warning-notification/) Aspose.Words for .NET の使用時に警告通知を受信し、ドキュメント内の問題や警告を管理する方法について説明します。 |
+| [フォント置換警告のログ記録 – 完全な Aspose.Words ガイド](./log-font-substitution-warnings-complete-aspose-words-guide/) Aspose.Words for .NET を使用して、フォント置換警告をログに記録する方法をステップバイステップで学びます。 |
 | [リソース Steam フォントソースの例](./resource-steam-font-source-example/) リソース ストリーム フォント ソースを使用してカスタム フォントを Aspose.Words for .NET に読み込む方法を学習します。 |
 | [接尾辞なしの置換を取得する](./get-substitution-without-suffixes/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書でサフィックスなしのオーバーライドを取得する方法を学習します。 |
 

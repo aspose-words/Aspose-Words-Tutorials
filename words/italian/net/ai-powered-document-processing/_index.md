@@ -42,6 +42,7 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Lavorare con il modello AI di Google](./working-with-google-ai-model/) Migliora l'elaborazione dei tuoi documenti con Aspose.Words per .NET e Google AI per creare riepiloghi concisi senza sforzo. |
 | [Lavorare con il modello di intelligenza artificiale aperta](./working-with-open-ai-model/) | Ottieni un riepilogo efficiente dei documenti utilizzando Aspose.Words per .NET con i potenti modelli di OpenAI. Scopri subito questa guida completa. |
 | [Lavorare con le opzioni di riepilogo](./working-with-summarize-options/) | Impara a riassumere in modo efficace i documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata sull'integrazione dei modelli di intelligenza artificiale per ottenere informazioni rapide. |
+| [Come controllare la grammatica in DOCX con Aspose.Words – usa gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Scopri come utilizzare Aspose.Words per .NET e GPT‑4 Turbo per verificare e correggere la grammatica nei file DOCX in modo semplice. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
