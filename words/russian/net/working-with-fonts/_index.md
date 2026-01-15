@@ -48,6 +48,7 @@
 | [Получать предупреждающие уведомления](./receive-warning-notification/) Узнайте, как получать предупреждающие уведомления при использовании Aspose.Words для .NET и управлять любыми проблемами или предупреждениями в ваших документах. |
 | [Пример исходного кода шрифта Steam](./resource-steam-font-source-example/) | Узнайте, как использовать источник шрифтов Resource Stream для загрузки пользовательских шрифтов в Aspose.Words для .NET. |
 | [Получить замену без суффиксов](./get-substitution-without-suffixes/) | В этом уроке вы узнаете, как получить переопределения без суффиксов в документе Word с помощью Aspose.Words для .NET. |
+| [Журнал предупреждений о замене шрифтов – Полное руководство Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Узнайте, как регистрировать предупреждения о замене шрифтов в Aspose.Words для .NET с помощью полного руководства. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

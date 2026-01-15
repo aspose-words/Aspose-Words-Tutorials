@@ -35,6 +35,8 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [PDF opslaan in Word-formaat (Docx)](./pdf-to-docx/) | Leer hoe u een PDF naar een Word-document (Docx) converteert met Aspose.Words voor .NET in deze gedetailleerde, stapsgewijze handleiding. Perfect voor ontwikkelaars. |
 | [Hoe LaTeX vanuit Word exporteren – Stapsgewijze handleiding](./how-to-export-latex-from-word-step-by-step-guide/) | Leer hoe u LaTeX vanuit Word kunt exporteren met Aspose.Words voor .NET in een stapsgewijze handleiding. |
 | [Word opslaan als PDF met Aspose.Words – Complete C#-gids](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
+| [Word naar PDF converteren in C# – Complete Aspose-gids](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Leer hoe u Word-documenten naar PDF converteert in C# met Aspose.Words. Volledige stap‑voor‑stap gids. |
+| [Docx naar PDF en Markdown converteren – Complete C#‑gids](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Leer hoe u Docx-bestanden naar PDF en Markdown converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

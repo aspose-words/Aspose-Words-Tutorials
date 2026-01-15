@@ -45,6 +45,7 @@
 | [تحديث آخر خاصية مطبوعة في مستند PDF](./update-last-printed-property/) |تعرف على كيفية تحديث آخر خاصية مطبوعة في مستند PDF باستخدام Aspose.Words لـ .NET من خلال دليلنا خطوة بخطوة. |
 | [عرض تأثيرات DML 3D ثلاثية الأبعاد في مستند PDF](./dml-3deffects-rendering/) |تعرف على كيفية تقديم تأثيرات DML ثلاثية الأبعاد المذهلة في مستندات PDF باستخدام Aspose.Words for .NET باستخدام هذا الدليل الشامل خطوة بخطوة. |
 | [استيفاء الصور في مستند PDF](./interpolate-images/) | تعلّم كيفية دمج الصور في مستند PDF باستخدام Aspose.Words for .NET من خلال دليلنا المفصل. حسّن جودة صور ملف PDF بسهولة. |
+| [إنشاء ملف PDF ميسّر من Word – دليل C# كامل](./create-accessible-pdf-from-word-complete-c-guide/) | تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for .NET مع دليل شامل بلغة C# خطوة بخطوة. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

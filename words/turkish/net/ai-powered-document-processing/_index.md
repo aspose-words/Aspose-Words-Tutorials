@@ -39,9 +39,10 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | Başlık | Açıklama |
 | --- | --- |
 | [AI Modeli ile Çalışma](./working-with-ai-model/) | AI ile belgeleri özetlemek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Belge yönetimini geliştirmek için kolay adımlar. |
-| [Google AI Modeli ile Çalışma](./working-with-google-ai-model/) Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun. |
+| [Google AI Modeli ile Çalışma](./working-with-google-ai-model/) | Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun. |
 | [Açık AI Modeli ile Çalışma](./working-with-open-ai-model/) | OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın. |
-| [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin.
+| [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin. |
+| [Aspose.Words ile DOCX'te Dilbilgisi Kontrolü – gpt-4 turbo kullanımı](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aspose.Words ve gpt-4 turbo kullanarak DOCX dosyalarındaki dilbilgisi hatalarını otomatik olarak tespit edin ve düzeltin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
