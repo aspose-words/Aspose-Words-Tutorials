@@ -51,6 +51,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [C# में सुलभ PDF बनाएं – PDF अभिगम्यता ट्यूटोरियल](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | C# के लिए Aspose.Words का उपयोग करके सुलभ PDF बनाने की चरण-दर-चरण गाइड। |
 | [Word से सुलभ PDF बनाएं – पूर्ण गाइड](./create-accessible-pdf-from-word-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 | [सुलभ PDF बनाएं – PDF/UA अनुपालन के लिए चरण‑दर‑चरण गाइड](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | PDF/UA मानकों के अनुरूप सुलभ PDF बनाने के लिए चरण‑दर‑चरण मार्गदर्शिका। |
+| [Word से सुलभ PDF बनाएं – पूर्ण C# गाइड](./create-accessible-pdf-from-word-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

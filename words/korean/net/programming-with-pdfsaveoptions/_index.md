@@ -51,13 +51,12 @@ Aspose.Words for .NET 튜토리얼에서는 PDFSaveOptions를 사용한 워드 �
 | [C#에서 접근 가능한 PDF 만들기 – PDF 접근성 튜토리얼](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aspose.Words for .NET을 사용하여 C#에서 접근성 표준을 충족하는 PDF를 만드는 방법을 단계별로 안내합니다. |
 | [Word에서 접근 가능한 PDF 만들기 – 완전 가이드](./create-accessible-pdf-from-word-complete-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 접근성 높은 PDF로 변환하는 전체 단계별 가이드 |
 | [접근성 PDF 만들기 – PDF/UA 준수를 위한 단계별 가이드](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Aspose.Words for .NET을 사용하여 PDF/UA 표준을 충족하는 접근성 PDF를 만드는 방법을 단계별로 안내합니다. |
+| [Word에서 접근성 PDF 만들기 – 완전 C# 가이드](./create-accessible-pdf-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 접근성 PDF로 변환하는 단계별 C# 가이드. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

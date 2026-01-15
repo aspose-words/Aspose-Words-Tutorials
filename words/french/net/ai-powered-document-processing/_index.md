@@ -43,6 +43,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) | Bénéficiez d'une synthèse efficace de vos documents grâce à Aspose.Words pour .NET et aux puissants modèles d'OpenAI. Découvrez dès maintenant ce guide complet. |
 | [Travailler avec les options de résumé](./working-with-summarize-options/) | Apprenez à résumer efficacement des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape sur l'intégration de modèles d'IA pour des informations rapides. |
 | [Résumer un document Word en C# – Guide complet alimenté par l'IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Apprenez à résumer automatiquement des documents Word en C# avec Aspose.Words et l'IA, étape par étape. |
+| [Comment vérifier la grammaire d'un DOCX avec Aspose.Words – utiliser gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Vérifiez la grammaire de vos fichiers DOCX en utilisant Aspose.Words et le modèle gpt‑4 turbo pour des corrections précises. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

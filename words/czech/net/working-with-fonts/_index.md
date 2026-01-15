@@ -54,8 +54,8 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Jak zachytit písma v Aspose.Words – kompletní průvodce](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Naučte se, jak zachytit písma v Aspose.Words pomocí kompletního průvodce krok za krokem. |
 | [Povolit varování o nahrazování písem v Aspose.Words – Kompletní průvodce](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Naučte se, jak povolit varování o nahrazování písem v Aspose.Words pomocí podrobného průvodce krok za krokem. |
 | [c# načíst dokument Word – detekovat a řešit chybějící fonty](./c-load-word-document-detect-handle-missing-fonts/) | Naučte se, jak načíst dokument Word v C# a detekovat chybějící písma, případně je nahradit pomocí Aspose.Words pro .NET. |
-
 | [Jak načíst DOCX a detekovat chybějící písma – Kompletní průvodce C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Naučte se, jak načíst soubor DOCX a zjistit chybějící písma pomocí Aspose.Words pro .NET v tomto kompletním C# průvodci. |
+| [Zaznamenávat varování o nahrazení písem – Kompletní průvodce Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Naučte se, jak zaznamenávat varování o nahrazení písem v Aspose.Words pro .NET pomocí podrobného návodu krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

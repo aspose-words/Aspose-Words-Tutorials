@@ -84,6 +84,9 @@
 ### [如何保存 Markdown – 完整 C# 指南](./how-to-save-markdown-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将文档保存为 Markdown，提供完整的 C# 示例和分步指南。
+### [如何在 C# 中使用回调 – 将 DOCX 转换为 Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
+
+使用 Aspose.Words for .NET 在 C# 中通过回调将 DOCX 文档转换为 Markdown，提供完整示例和步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

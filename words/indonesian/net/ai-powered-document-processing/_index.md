@@ -43,6 +43,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
 | [Ringkas Dokumen Word di C# – Panduan Lengkap Bertenaga AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Pelajari cara merangkum dokumen Word menggunakan C# dengan panduan AI lengkap untuk hasil cepat dan akurat. |
+| [Cara Memeriksa Tata Bahasa di DOCX dengan Aspose.Words – gunakan gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Pelajari cara menggunakan Aspose.Words dan model gpt-4 turbo untuk memeriksa tata bahasa dokumen DOCX secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

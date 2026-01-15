@@ -38,6 +38,8 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Word opslaan als PDF met Aspose.Words – Complete C#-gids](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 | [Hoe PDF van Word maken – Complete C#-gids](./how-to-create-pdf-from-word-complete-c-guide/) | Leer hoe u PDF's maakt van Word-documenten met Aspose.Words in C# via een volledige stap‑voor‑stap gids. |
 | [Docx opslaan als PDF met Aspose.Words – Complete C#-gids](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u een DOCX-bestand opslaat als PDF met Aspose.Words in C#, stap‑voor‑stap met voorbeeldcode. |
+| [Word naar PDF converteren in C# – Complete Aspose-gids](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Leer hoe u Word-documenten naar PDF converteert in C# met Aspose.Words. Volledige stap‑voor‑stap gids. |
+| [Docx naar PDF en Markdown converteren – Complete C#‑gids](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Leer hoe u Docx-bestanden naar PDF en Markdown converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,7 @@ doc.Save("Output.docx");
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
 | [How to Detect Fonts in Aspose.Words – Handle Warnings & Settings](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Learn how to detect fonts, handle missing font warnings, and configure font settings in Aspose.Words for .NET. |
+| [Log Font Substitution Warnings – Complete Aspose.Words Guide](./log-font-substitution-warnings-complete-aspose-words-guide/) | Learn how to log font substitution warnings in Aspose.Words for .NET with this comprehensive guide. |
 | [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |
 | [How to Load DOCX in C# – Complete Guide](./how-to-load-docx-in-c-complete-guide/) | Learn how to load DOCX files in C# using Aspose.Words for .NET with this comprehensive step-by-step guide. |

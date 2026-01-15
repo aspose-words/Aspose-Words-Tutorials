@@ -40,6 +40,7 @@
 | [วิธีใช้ LoadOptions ใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | เรียนรู้วิธีใช้ LoadOptions อย่างเต็มที่ใน Aspose.Words สำหรับ .NET ด้วยคู่มือที่ครอบคลุมขั้นตอนและตัวอย่างโค้ด |
 | [กู้คืนเอกสารเสียหายใน C# – ตั้งค่าโหมดการกู้คืนและแจ้งผู้ใช้](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายใน C# ด้วยการตั้งค่าโหมดการกู้คืนและแจ้งผู้ใช้ |
 | [กู้คืนไฟล์ DOCX ที่เสีย – คู่มือ C# ฉบับสมบูรณ์](./recover-corrupted-docx-complete-c-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด |
+| [วิธีกู้คืน DOCX – คู่มือฉบับสมบูรณ์โดยใช้ Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | เรียนรู้วิธีการกู้คืนไฟล์ DOCX ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มรูปแบบ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
