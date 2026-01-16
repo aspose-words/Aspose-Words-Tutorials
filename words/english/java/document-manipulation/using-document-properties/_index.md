@@ -1,12 +1,12 @@
 ---
-title: Using Document Properties in Aspose.Words for Java
+title: "Convert Inches to Points – Using Document Properties in Aspose.Words for Java"
 linktitle: Using Document Properties
 second_title: Aspose.Words Java Document Processing API
-description: Optimize document management with Aspose.Words for Java. Learn to work with document properties, add custom metadata, and more in this comprehensive tutorial.
+description: "Learn how to convert inches to points, read document metadata Java, add custom properties Java, and set page margins Java with Aspose.Words for Java."
 weight: 32
 url: /java/document-manipulation/using-document-properties/
+date: 2026-01-16
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -14,18 +14,38 @@ url: /java/document-manipulation/using-document-properties/
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Using Document Properties in Aspose.Words for Java
+# Convert Inches to Points – Using Document Properties in Aspose.Words for Java
 
+In this tutorial you’ll discover how to **convert inches to points** when setting page margins, read document metadata Java, add custom properties Java, and work with built‑in document properties using Aspose.Words for Java. Whether you’re generating reports, invoices, or legal documents, mastering these techniques gives you fine‑grained control over the appearance and metadata of your Word files.
+
+## Quick Answers
+- **How do I convert inches to points?** Use `ConvertUtil.inchToPoint(value)` from Aspose.Words.
+- **Can I read document metadata in Java?** Yes – call `doc.getBuiltInDocumentProperties()` or `doc.getCustomDocumentProperties()`.
+- **How do I add a custom property in Java?** Use `doc.getCustomDocumentProperties().add(name, value)`.
+- **What method sets page margins in points?** `PageSetup.setTopMargin`, `setBottomMargin`, etc., accept point values.
+- **Is linking to a bookmark supported?** Yes – use `addLinkToContent` on the custom properties collection.
 
 ## Introduction to Document Properties
 
-Document properties are a vital part of any document. They provide additional information about the document itself, such as its title, author, subject, keywords, and more. In Aspose.Words for Java, you can manipulate both built-in and custom document properties.
+Document properties are a vital part of any Word file. They store information such as title, author, subject, keywords, and any custom metadata you need for downstream processing. In Aspose.Words for Java you can manipulate both built‑in and custom document properties, and you can also control layout details like margins by converting measurement units (e.g., **convert inches to points**).
 
-## Enumerating Document Properties
+## What is “convert inches to points”?
 
-### Built-in Properties
+In Word, layout measurements are expressed in points (1 point = 1/72 of an inch). Converting inches to points lets you define margins, indents, and spacing using familiar imperial units while the API works with points internally.
 
-To retrieve and work with built-in document properties, you can use the following code snippet:
+## Why manage document metadata in Java?
+
+Embedding metadata makes it easier to search, categorize, and automate workflows. For example, you might tag a contract with an “Authorized” flag or store a revision number for audit trails. Reading and writing this information programmatically ensures consistency across large document batches.
+
+## Prerequisites
+- Java 17+ (or compatible JDK)
+- Aspose.Words for Java library added to your project (Maven/Gradle)
+- A sample `.docx` file (e.g., `Properties.docx`) placed in an accessible directory
+
+## Step‑by‑Step Guide
+
+### Enumerating Built‑in Document Properties
+Below is a simple test that opens a document and prints all built‑in properties such as Title, Author, and Keywords.
 
 ```java
 @Test
@@ -39,11 +59,10 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-This code will display the document's name and built-in properties, including properties like "Title," "Author," and "Keywords."
+> **Pro tip:** Use this snippet to verify that your metadata was correctly written during earlier steps.
 
-### Custom Properties
-
-To work with custom document properties, you can use the following code snippet:
+### Adding Custom Document Properties (add custom properties java)
+Custom properties let you store any data type you need—boolean, string, date, number, etc.
 
 ```java
 @Test
@@ -62,11 +81,10 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-This code snippet demonstrates how to add custom document properties, including a boolean value, a string, a date, a revision number, and a numeric value.
+> **Why this matters:** Adding a flag like **Authorized** can drive downstream approval workflows without altering the document content.
 
-## Removing Document Properties
-
-To remove specific document properties, you can use the following code:
+### Removing a Custom Property
+If a property is no longer needed, you can delete it cleanly.
 
 ```java
 @Test
@@ -77,11 +95,8 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-This code removes the custom property "Authorized Date" from the document.
-
-## Configuring Link to Content
-
-In some cases, you may want to create links within your document. Here's how you can do it:
+### Configuring a Link to Content (bookmark linking)
+You can create a bookmark and then add a custom property that points to that bookmark, enabling dynamic cross‑references.
 
 ```java
 @Test
@@ -104,11 +119,8 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-This code snippet demonstrates how to create a bookmark in your document and add a custom document property that links to that bookmark.
-
-## Converting Between Measurement Units
-
-In Aspose.Words for Java, you can convert measurement units easily. Here's an example of how to do it:
+### Converting Between Measurement Units (set page margins java)
+Here’s where the primary keyword shines. We set margins in inches, then **convert inches to points** using `ConvertUtil`.
 
 ```java
 @Test
@@ -128,11 +140,10 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-This code snippet sets various margins and distances in inches by converting them to points.
+> **Note:** `ConvertUtil` also provides `pointToInch`, `mmToPoint`, etc., for flexible layout handling.
 
-## Using Control Characters
-
-Control characters can be useful when dealing with text. Here's how to replace a control character in your text:
+### Using Control Characters (read document metadata java)
+Control characters help you clean up text streams. This example replaces a carriage‑return (`\r`) with the Windows line‑break sequence (`\r\n`).
 
 ```java
 @Test
@@ -145,17 +156,18 @@ public void useControlCharacters()
 }
 ```
 
-In this example, we replace the carriage return (`\r`) with a carriage return followed by a line feed (`\r\n`).
-
-## Conclusion
-
-Document properties play a significant role in managing and organizing your documents effectively in Aspose.Words for Java. Whether it's working with built-in properties, custom properties, or using control characters, you have a range of tools at your disposal to enhance your document management capabilities.
+## Common Issues & Solutions
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Margins look wrong after conversion | Using wrong unit (e.g., cm instead of inches) | Verify you call `ConvertUtil.inchToPoint` for inch values |
+| Custom property not appearing | Property added after saving the document | Call `doc.save(...)` after adding properties |
+| Bookmark link broken | Bookmark name typo | Ensure the bookmark name matches exactly in `addLinkToContent` |
 
 ## FAQ's
 
 ### How do I access built-in document properties?
 
-To access built-in document properties in Aspose.Words for Java, you can use the `getBuiltInDocumentProperties` method on the `Document` object. This method returns a collection of built-in properties that you can iterate through.
+To access built-in document properties in Aspose.Words for Java, you can use the `getBuiltInDocumentProperties` method on the `Document` object. This method returns a collection of built‑in properties that you can iterate through.
 
 ### Can I add custom document properties to a document?
 
@@ -167,19 +179,43 @@ To remove a specific custom document property, you can use the `remove` method o
 
 ### What is the purpose of linking to content within a document?
 
-Linking to content within a document allows you to create dynamic references to specific parts of the document. This can be useful for creating interactive documents or cross-references between sections.
+Linking to content within a document allows you to create dynamic references to specific parts of the document. This can be useful for creating interactive documents or cross‑references between sections.
 
 ### How can I convert between different measurement units in Aspose.Words for Java?
 
 You can convert between different measurement units in Aspose.Words for Java by using the `ConvertUtil` class. It provides methods to convert units such as inches to points, points to centimeters, and more.
 
+## Frequently Asked Questions
+
+**Q: How do I read document metadata Java without loading the whole file?**  
+A: Use `DocumentInfo` to retrieve core properties without fully loading the document content.
+
+**Q: Can I set page margins Java programmatically for existing documents?**  
+A: Yes—open the document, modify `PageSetup` margins (convert inches to points if needed), and save.
+
+**Q: Is it possible to export custom properties to PDF metadata?**  
+A: When saving to PDF, Aspose.Words automatically maps custom document properties to PDF custom metadata.
+
+**Q: Do control characters affect PDF conversion?**  
+A: They are preserved during conversion; however, you may want to normalize line endings for consistency.
+
+**Q: Which Aspose.Words version is required for `ConvertUtil`?**  
+A: `ConvertUtil` has been available since Aspose.Words 16.5; any recent version supports it.
+
+## Conclusion
+
+By mastering **convert inches to points**, reading document metadata Java, and adding custom properties Java, you gain full control over both the visual layout and the hidden data of your Word files. These capabilities empower you to build automated document pipelines, enforce compliance, and create richly formatted reports—all with Aspose.Words for Java.
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

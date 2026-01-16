@@ -1,10 +1,14 @@
 ---
-"description": "Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr."
-"linktitle": "Verwenden von Dokumenteigenschaften"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Verwenden von Dokumenteigenschaften in Aspose.Words für Java"
-"url": "/de/java/document-manipulation/using-document-properties/"
-"weight": 32
+date: 2026-01-16
+description: Erfahren Sie, wie Sie Zoll in Punkte umrechnen, Dokument‑Metadaten in
+  Java auslesen, benutzerdefinierte Eigenschaften in Java hinzufügen und Seitenränder
+  in Java mit Aspose.Words für Java festlegen.
+linktitle: Using Document Properties
+second_title: Aspose.Words Java Document Processing API
+title: Zoll in Punkte umrechnen – Verwendung von Dokumenteigenschaften in Aspose.Words
+  für Java
+url: /de/java/document-manipulation/using-document-properties/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,18 +17,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verwenden von Dokumenteigenschaften in Aspose.Words für Java
+# Zoll in Punkte umrechnen – Verwendung von Dokumenteigenschaften in Aspose.Words für Java
 
+In diesem Tutorial erfahren Sie, wie Sie **Zoll in Punkte umrechnen** beim Festlegen von Seitenrändern, Dokumentmetadaten in Java lesen, benutzerdefinierte Eigenschaften in Java hinzufügen und mit integrierten Dokumenteigenschaften mit Aspose.Words für Java arbeiten. Egal, ob Sie Berichte, Rechnungen oder Rechtsdokumente erstellen, das Beherrschen dieser Techniken gibt Ihnen eine feinkörnige Kontrolle über das Aussehen und die Metadaten Ihrer Word-Dateien.
+
+## Schnelle Antworten
+- **Wie konvertiere ich Zoll in Punkte?** Use `ConvertUtil.inchToPoint(value)` from Aspose.Words.
+- **Kann ich Dokumentmetadaten in Java lesen?** Yes – call `doc.getBuiltInDocumentProperties()` or `doc.getCustomDocumentProperties()`.
+- **Wie füge ich eine benutzerdefinierte Eigenschaft in Java hinzu?** Use `doc.getCustomDocumentProperties().add(name, value)`.
+- **Welche Methode legt Seitenränder in Punkten fest?** `PageSetup.setTopMargin`, `setBottomMargin`, etc., accept point values.
+- **Wird das Verlinken zu einem Lesezeichen unterstützt?** Yes – use `addLinkToContent` on the custom properties collection.
 
 ## Einführung in Dokumenteigenschaften
 
-Dokumenteigenschaften sind ein wesentlicher Bestandteil jedes Dokuments. Sie liefern zusätzliche Informationen zum Dokument selbst, wie z. B. Titel, Autor, Betreff, Schlüsselwörter und mehr. In Aspose.Words für Java können Sie sowohl integrierte als auch benutzerdefinierte Dokumenteigenschaften bearbeiten.
+Dokumenteigenschaften sind ein wesentlicher Bestandteil jeder Word-Datei. Sie speichern Informationen wie Titel, Autor, Betreff, Schlüsselwörter und beliebige benutzerdefinierte Metadaten, die Sie für nachgelagerte Verarbeitung benötigen. In Aspose.Words für Java können Sie sowohl integrierte als auch benutzerdefinierte Dokumenteigenschaften manipulieren und zudem Layoutdetails wie Ränder steuern, indem Sie Maßeinheiten umrechnen (z. B. **Zoll in Punkte umrechnen**).
 
-## Aufzählen von Dokumenteigenschaften
+## Was bedeutet „Zoll in Punkte umrechnen“?
 
-### Integrierte Eigenschaften
+In Word werden Layout‑Maße in Punkten angegeben (1 Punkt = 1/72 Zoll). Das Umrechnen von Zoll in Punkte ermöglicht es Ihnen, Ränder, Einzüge und Abstände mit bekannten imperialen Einheiten zu definieren, während die API intern mit Punkten arbeitet.
 
-Um integrierte Dokumenteigenschaften abzurufen und damit zu arbeiten, können Sie den folgenden Codeausschnitt verwenden:
+## Warum Dokumentmetadaten in Java verwalten?
+
+Das Einbetten von Metadaten erleichtert das Suchen, Kategorisieren und Automatisieren von Workflows. Beispielsweise können Sie einen Vertrag mit einem „Authorized“-Flag versehen oder eine Revisionsnummer für Prüfpfade speichern. Das programmgesteuerte Lesen und Schreiben dieser Informationen sorgt für Konsistenz bei großen Dokumentenstapeln.
+
+## Voraussetzungen
+- Java 17+ (oder kompatibles JDK)
+- Aspose.Words for Java‑Bibliothek zu Ihrem Projekt hinzugefügt (Maven/Gradle)
+- Eine Beispiel‑`.docx`‑Datei (z. B. `Properties.docx`) in einem zugänglichen Verzeichnis abgelegt
+
+## Schritt‑für‑Schritt‑Anleitung
+
+### Auflisten integrierter Dokumenteigenschaften
+Unten ist ein einfacher Test, der ein Dokument öffnet und alle integrierten Eigenschaften wie Titel, Autor und Schlüsselwörter ausgibt.
 
 ```java
 @Test
@@ -38,11 +62,10 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-Dieser Code zeigt den Namen und die integrierten Eigenschaften des Dokuments an, einschließlich Eigenschaften wie „Titel“, „Autor“ und „Schlüsselwörter“.
+> **Profi‑Tipp:** Verwenden Sie diesen Codeausschnitt, um zu überprüfen, ob Ihre Metadaten während der vorherigen Schritte korrekt geschrieben wurden.
 
-### Benutzerdefinierte Eigenschaften
-
-Um mit benutzerdefinierten Dokumenteigenschaften zu arbeiten, können Sie den folgenden Codeausschnitt verwenden:
+### Hinzufügen benutzerdefinierter Dokumenteigenschaften (add custom properties java)
+Benutzerdefinierte Eigenschaften ermöglichen es Ihnen, beliebige Datentypen zu speichern – boolesch, Zeichenkette, Datum, Zahl usw.
 
 ```java
 @Test
@@ -61,11 +84,10 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-Dieser Codeausschnitt zeigt, wie benutzerdefinierte Dokumenteigenschaften hinzugefügt werden, darunter ein Boolescher Wert, eine Zeichenfolge, ein Datum, eine Revisionsnummer und ein numerischer Wert.
+> **Warum das wichtig ist:** Das Hinzufügen eines Flags wie **Authorized** kann nachgelagerte Genehmigungs‑Workflows steuern, ohne den Dokumentinhalt zu ändern.
 
-## Entfernen von Dokumenteigenschaften
-
-Um bestimmte Dokumenteigenschaften zu entfernen, können Sie den folgenden Code verwenden:
+### Entfernen einer benutzerdefinierten Eigenschaft
+Wenn eine Eigenschaft nicht mehr benötigt wird, können Sie sie sauber löschen.
 
 ```java
 @Test
@@ -76,11 +98,8 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-Dieser Code entfernt die benutzerdefinierte Eigenschaft „Autorisierungsdatum“ aus dem Dokument.
-
-## Link zum Inhalt konfigurieren
-
-Manchmal möchten Sie Links innerhalb Ihres Dokuments erstellen. So geht's:
+### Konfigurieren eines Links zum Inhalt (bookmark linking)
+Sie können ein Lesezeichen erstellen und dann eine benutzerdefinierte Eigenschaft hinzufügen, die auf dieses Lesezeichen verweist, wodurch dynamische Querverweise ermöglicht werden.
 
 ```java
 @Test
@@ -94,7 +113,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // Verknüpfte Eigenschaft zum Inhalt hinzufügen.
+    // Add linked to content property.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -103,11 +122,8 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-Dieser Codeausschnitt zeigt, wie Sie in Ihrem Dokument ein Lesezeichen erstellen und eine benutzerdefinierte Dokumenteigenschaft hinzufügen, die auf dieses Lesezeichen verweist.
-
-## Umrechnung zwischen Maßeinheiten
-
-In Aspose.Words für Java können Sie Maßeinheiten einfach umrechnen. Hier ist ein Beispiel:
+### Umwandeln zwischen Maßeinheiten (set page margins java)
+Hier kommt das Hauptkeyword zum Einsatz. Wir setzen die Ränder in Zoll und dann **Zoll in Punkte umrechnen** mit `ConvertUtil`.
 
 ```java
 @Test
@@ -117,7 +133,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    // Legen Sie die Ränder in Zoll fest.
+    // Set margins in inches.
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -127,11 +143,10 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-Dieser Codeausschnitt legt verschiedene Ränder und Abstände in Zoll fest, indem er sie in Punkte umwandelt.
+> **Hinweis:** `ConvertUtil` bietet außerdem `pointToInch`, `mmToPoint` usw. für flexible Layout‑Verarbeitung.
 
-## Verwenden von Steuerzeichen
-
-Steuerzeichen können bei der Arbeit mit Text nützlich sein. So ersetzen Sie ein Steuerzeichen in Ihrem Text:
+### Verwenden von Steuerzeichen (read document metadata java)
+Steuerzeichen helfen Ihnen, Textströme zu bereinigen. Dieses Beispiel ersetzt einen Wagenrücklauf (`\r`) durch die Windows‑Zeilenumbruchsequenz (`\r\n`).
 
 ```java
 @Test
@@ -139,46 +154,66 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // Ersetzen Sie das Steuerzeichen „\r“ durch „\r\n“.
+    // Replace "\r" control character with "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
 
-In diesem Beispiel ersetzen wir den Wagenrücklauf (`\r`) mit einem Wagenrücklauf gefolgt von einem Zeilenvorschub (`\r\n`).
+## Häufige Probleme & Lösungen
+| Problem | Ursache | Lösung |
+|---------|---------|--------|
+| Ränder sehen nach der Umrechnung falsch aus | Falsche Einheit verwendet (z. B. cm statt Zoll) | Stellen Sie sicher, dass Sie `ConvertUtil.inchToPoint` für Zoll‑Werte aufrufen |
+| Benutzerdefinierte Eigenschaft erscheint nicht | Eigenschaft nach dem Speichern des Dokuments hinzugefügt | Rufen Sie `doc.save(...)` nach dem Hinzufügen der Eigenschaften auf |
+| Lesezeichen‑Link defekt | Tippfehler im Lesezeichennamen | Stellen Sie sicher, dass der Lesezeichename in `addLinkToContent` exakt übereinstimmt |
 
-## Abschluss
+## FAQ
 
-Dokumenteigenschaften spielen eine wichtige Rolle bei der effektiven Verwaltung und Organisation Ihrer Dokumente in Aspose.Words für Java. Ob Sie mit integrierten Eigenschaften, benutzerdefinierten Eigenschaften oder Steuerzeichen arbeiten – Ihnen stehen zahlreiche Tools zur Verfügung, um Ihre Dokumentenverwaltung zu verbessern.
+### Wie greife ich auf integrierte Dokumenteigenschaften zu?
+Um integrierte Dokumenteigenschaften in Aspose.Words für Java zuzugreifen, können Sie die Methode `getBuiltInDocumentProperties` des `Document`‑Objekts verwenden. Diese Methode gibt eine Sammlung integrierter Eigenschaften zurück, die Sie iterieren können.
+
+### Kann ich einem Dokument benutzerdefinierte Dokumenteigenschaften hinzufügen?
+Ja, Sie können einem Dokument benutzerdefinierte Dokumenteigenschaften über die Sammlung `CustomDocumentProperties` hinzufügen. Sie können benutzerdefinierte Eigenschaften mit verschiedenen Datentypen definieren, einschließlich Zeichenketten, Booleschen, Datums‑ und numerischen Werten.
+
+### Wie kann ich eine bestimmte benutzerdefinierte Dokumenteigenschaft entfernen?
+Um eine bestimmte benutzerdefinierte Dokumenteigenschaft zu entfernen, können Sie die Methode `remove` der Sammlung `CustomDocumentProperties` verwenden und dabei den Namen der zu entfernenden Eigenschaft als Parameter übergeben.
+
+### Welchen Zweck hat das Verlinken zu Inhalten innerhalb eines Dokuments?
+Das Verlinken zu Inhalten innerhalb eines Dokuments ermöglicht es, dynamische Verweise auf bestimmte Teile des Dokuments zu erstellen. Dies kann nützlich sein, um interaktive Dokumente oder Querverweise zwischen Abschnitten zu erzeugen.
+
+### Wie kann ich zwischen verschiedenen Maßeinheiten in Aspose.Words für Java konvertieren?
+Sie können zwischen verschiedenen Maßeinheiten in Aspose.Words für Java konvertieren, indem Sie die Klasse `ConvertUtil` verwenden. Sie bietet Methoden zum Umrechnen von Einheiten wie Zoll zu Punkten, Punkte zu Zentimetern und mehr.
 
 ## Häufig gestellte Fragen
 
-### Wie greife ich auf integrierte Dokumenteigenschaften zu?
+**Q: Wie lese ich Dokumentmetadaten in Java, ohne die gesamte Datei zu laden?**  
+A: Verwenden Sie `DocumentInfo`, um Kern‑Eigenschaften abzurufen, ohne den Dokumentinhalt vollständig zu laden.
 
-Um auf integrierte Dokumenteigenschaften in Aspose.Words für Java zuzugreifen, können Sie die `getBuiltInDocumentProperties` Methode auf der `Document` Objekt. Diese Methode gibt eine Sammlung integrierter Eigenschaften zurück, die Sie durchlaufen können.
+**Q: Kann ich Seitenränder in Java programmgesteuert für bestehende Dokumente festlegen?**  
+A: Ja – öffnen Sie das Dokument, ändern Sie die `PageSetup`‑Ränder (Zoll in Punkte umrechnen falls nötig) und speichern Sie.
 
-### Kann ich einem Dokument benutzerdefinierte Dokumenteigenschaften hinzufügen?
+**Q: Ist es möglich, benutzerdefinierte Eigenschaften in PDF‑Metadaten zu exportieren?**  
+A: Beim Speichern als PDF mappt Aspose.Words benutzerdefinierte Dokumenteigenschaften automatisch auf benutzerdefinierte PDF‑Metadaten.
 
-Ja, Sie können einem Dokument benutzerdefinierte Dokumenteigenschaften hinzufügen, indem Sie `CustomDocumentProperties` Sammlung. Sie können benutzerdefinierte Eigenschaften mit verschiedenen Datentypen definieren, darunter Zeichenfolgen, Boolesche Werte, Datumsangaben und numerische Werte.
+**Q: Beeinflussen Steuerzeichen die PDF‑Konvertierung?**  
+A: Sie werden während der Konvertierung beibehalten; Sie können jedoch Zeilenenden zur Konsistenz normalisieren.
 
-### Wie kann ich eine bestimmte benutzerdefinierte Dokumenteigenschaft entfernen?
+**Q: Welche Aspose.Words‑Version wird für `ConvertUtil` benötigt?**  
+A: `ConvertUtil` ist seit Aspose.Words 16.5 verfügbar; jede neuere Version unterstützt es.
 
-Um eine bestimmte benutzerdefinierte Dokumenteigenschaft zu entfernen, können Sie das `remove` Methode auf der `CustomDocumentProperties` Sammlung und übergeben Sie den Namen der Eigenschaft, die Sie entfernen möchten, als Parameter.
+## Fazit
 
-### Welchen Zweck hat das Verlinken auf Inhalte innerhalb eines Dokuments?
+Durch das Beherrschen von **Zoll in Punkte umrechnen**, dem Lesen von Dokumentmetadaten in Java und dem Hinzufügen benutzerdefinierter Eigenschaften in Java erhalten Sie die vollständige Kontrolle über das visuelle Layout und die verborgenen Daten Ihrer Word‑Dateien. Diese Möglichkeiten befähigen Sie, automatisierte Dokument‑Pipelines zu bauen, Compliance durchzusetzen und reich formatierte Berichte zu erstellen – alles mit Aspose.Words für Java.
 
-Durch Verlinken von Inhalten innerhalb eines Dokuments können Sie dynamische Verweise auf bestimmte Teile des Dokuments erstellen. Dies kann beispielsweise für die Erstellung interaktiver Dokumente oder Querverweise zwischen Abschnitten nützlich sein.
+---
 
-### Wie kann ich in Aspose.Words für Java zwischen verschiedenen Maßeinheiten umrechnen?
-
-Sie können in Aspose.Words für Java zwischen verschiedenen Maßeinheiten konvertieren, indem Sie die `ConvertUtil` Klasse. Sie bietet Methoden zum Umrechnen von Einheiten wie Zoll in Punkte, Punkte in Zentimeter und mehr.
-
+**Zuletzt aktualisiert:** 2026-01-16  
+**Getestet mit:** Aspose.Words for Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

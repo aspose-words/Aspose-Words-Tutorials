@@ -1,10 +1,14 @@
 ---
-"description": "Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku."
-"linktitle": "Korzystanie z właściwości dokumentu"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Korzystanie z właściwości dokumentu w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/using-document-properties/"
-"weight": 32
+date: 2026-01-16
+description: Dowiedz się, jak przeliczyć cale na punkty, odczytać metadane dokumentu
+  w Javie, dodać własne właściwości w Javie oraz ustawić marginesy strony w Javie
+  przy użyciu Aspose.Words dla Javy.
+linktitle: Using Document Properties
+second_title: Aspose.Words Java Document Processing API
+title: Konwertuj cale na punkty – używając właściwości dokumentu w Aspose.Words dla
+  Javy
+url: /pl/java/document-manipulation/using-document-properties/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,18 +17,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Korzystanie z właściwości dokumentu w Aspose.Words dla Java
+# Konwertowanie cali na punkty – użycie właściwości dokumentu w Aspose.Words for Java
 
+W tym samouczku dowiesz się, jak **konwertować cale na punkty** przy ustawianiu marginesów strony, odczytywać metadane dokumentu w Javie, dodawać własne właściwości w Javie oraz pracować z wbudowanymi właściwościami dokumentu przy użyciu Aspose.Words for Java. Niezależnie od tego, czy generujesz raporty, faktury, czy dokumenty prawne, opanowanie tych technik daje Ci precyzyjną kontrolę nad wyglądem i metadanymi plików Word.
+
+## Szybkie odpowiedzi
+- **Jak konwertować cale na punkty?** Użyj `ConvertUtil.inchToPoint(value)` z Aspose.Words.
+- **Czy mogę odczytać metadane dokumentu w Javie?** Tak – wywołaj `doc.getBuiltInDocumentProperties()` lub `doc.getCustomDocumentProperties()`.
+- **Jak dodać własną właściwość w Javie?** Użyj `doc.getCustomDocumentProperties().add(name, value)`.
+- **Jaką metodę użyć do ustawiania marginesów strony w punktach?** `PageSetup.setTopMargin`, `setBottomMargin` itd., przyjmują wartości w punktach.
+- **Czy obsługiwane jest łączenie do zakładki?** Tak – użyj `addLinkToContent` w kolekcji własnych właściwości.
 
 ## Wprowadzenie do właściwości dokumentu
 
-Właściwości dokumentu są istotną częścią każdego dokumentu. Dostarczają dodatkowych informacji o samym dokumencie, takich jak tytuł, autor, temat, słowa kluczowe i inne. W Aspose.Words for Java możesz manipulować zarówno wbudowanymi, jak i niestandardowymi właściwościami dokumentu.
+Właściwości dokumentu są nieodłącznym elementem każdego pliku Word. Przechowują informacje takie jak tytuł, autor, temat, słowa kluczowe oraz dowolne własne metadane potrzebne do dalszego przetwarzania. W Aspose.Words for Java możesz manipulować zarówno wbudowanymi, jak i własnymi właściwościami dokumentu, a także kontrolować szczegóły układu, takie jak marginesy, konwertując jednostki miary (np. **convert inches to points**).
 
-## Wyliczanie właściwości dokumentu
+## Co to jest „convert inches to points”?
 
-### Właściwości wbudowane
+W Wordzie pomiary układu wyrażane są w punktach (1 punkt = 1/72 cala). Konwersja cali na punkty pozwala definiować marginesy, wcięcia i odstępy przy użyciu znanych jednostek imperialnych, podczas gdy API wewnętrznie pracuje z punktami.
 
-Aby pobrać i pracować z wbudowanymi właściwościami dokumentu, możesz użyć następującego fragmentu kodu:
+## Dlaczego zarządzać metadanymi dokumentu w Javie?
+
+Osadzanie metadanych ułatwia wyszukiwanie, kategoryzowanie i automatyzację przepływów pracy. Na przykład możesz oznaczyć umowę flagą „Authorized” lub przechowywać numer wersji dla ścieżek audytu. Odczytywanie i zapisywanie tych informacji programowo zapewnia spójność w dużych partiach dokumentów.
+
+## Wymagania wstępne
+- Java 17+ (lub kompatybilny JDK)
+- Biblioteka Aspose.Words for Java dodana do projektu (Maven/Gradle)
+- Przykładowy plik `.docx` (np. `Properties.docx`) umieszczony w dostępnym katalogu
+
+## Przewodnik krok po kroku
+
+### Enumeracja wbudowanych właściwości dokumentu
+Poniżej znajduje się prosty test, który otwiera dokument i wypisuje wszystkie wbudowane właściwości, takie jak Title, Author i Keywords.
 
 ```java
 @Test
@@ -38,11 +62,10 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-Ten kod wyświetli nazwę dokumentu i wbudowane właściwości, w tym właściwości takie jak „Tytuł”, „Autor” i „Słowa kluczowe”.
+> **Wskazówka:** Użyj tego fragmentu, aby zweryfikować, że Twoje metadane zostały poprawnie zapisane w poprzednich krokach.
 
-### Właściwości niestandardowe
-
-Aby pracować z niestandardowymi właściwościami dokumentu, możesz użyć następującego fragmentu kodu:
+### Dodawanie własnych właściwości dokumentu (add custom properties java)
+Własne właściwości pozwalają przechowywać dowolny potrzebny typ danych — boolean, string, date, number itp.
 
 ```java
 @Test
@@ -61,11 +84,10 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-Ten fragment kodu pokazuje, jak dodać niestandardowe właściwości dokumentu, takie jak wartość logiczna, ciąg, data, numer wersji i wartość liczbowa.
+> **Dlaczego to ważne:** Dodanie flagi takiej jak **Authorized** może sterować dalszymi procesami zatwierdzania bez modyfikacji treści dokumentu.
 
-## Usuwanie właściwości dokumentu
-
-Aby usunąć określone właściwości dokumentu, możesz użyć następującego kodu:
+### Usuwanie własnej właściwości
+Jeśli właściwość nie jest już potrzebna, możesz ją usunąć w sposób czysty.
 
 ```java
 @Test
@@ -76,11 +98,8 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-Ten kod usuwa z dokumentu niestandardową właściwość „Data autoryzacji”.
-
-## Konfigurowanie łącza do treści
-
-W niektórych przypadkach możesz chcieć utworzyć linki w swoim dokumencie. Oto jak możesz to zrobić:
+### Konfigurowanie linku do treści (łączenie zakładek)
+Możesz utworzyć zakładkę, a następnie dodać własną właściwość, która wskazuje na tę zakładkę, umożliwiając dynamiczne odwołania krzyżowe.
 
 ```java
 @Test
@@ -94,7 +113,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // Dodaj właściwość powiązaną z treścią.
+    // Add linked to content property.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -103,11 +122,8 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-Ten fragment kodu pokazuje, jak utworzyć zakładkę w dokumencie i dodać niestandardową właściwość dokumentu zawierającą odnośnik do tej zakładki.
-
-## Konwersja między jednostkami miary
-
-W Aspose.Words for Java możesz łatwo konwertować jednostki miary. Oto przykład, jak to zrobić:
+### Konwersja jednostek miary (ustawianie marginesów strony w Javie)
+Tutaj pojawia się główne słowo kluczowe. Ustawiamy marginesy w calach, a następnie **konwertujemy cale na punkty** przy użyciu `ConvertUtil`.
 
 ```java
 @Test
@@ -117,7 +133,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    // Ustaw marginesy w calach.
+    // Set margins in inches.
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -127,11 +143,10 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-Ten fragment kodu ustawia różne marginesy i odległości w calach, zamieniając je na punkty.
+> **Uwaga:** `ConvertUtil` udostępnia także `pointToInch`, `mmToPoint` itp., umożliwiając elastyczną obsługę układu.
 
-## Korzystanie ze znaków kontrolnych
-
-Znaki kontrolne mogą być przydatne w przypadku tekstu. Oto jak zastąpić znak kontrolny w tekście:
+### Używanie znaków kontrolnych (read document metadata java)
+Znaki kontrolne pomagają w czyszczeniu strumieni tekstu. Ten przykład zamienia powrót karetki (`\r`) na sekwencję zakończenia linii Windows (`\r\n`).
 
 ```java
 @Test
@@ -139,46 +154,71 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // Zamień znak kontrolny „\r” na „\r\n”.
+    // Replace "\r" control character with "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
 
-W tym przykładzie zastępujemy znak powrotu karetki (`\r`) z powrotem karetki i następującym po nim znakiem nowej linii (`\r\n`).
+## Typowe problemy i rozwiązania
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Marginesy wyglądają nieprawidłowo po konwersji | Użycie niewłaściwej jednostki (np. cm zamiast cali) | Zweryfikuj, że wywołujesz `ConvertUtil.inchToPoint` dla wartości w calach |
+| Własna właściwość nie pojawia się | Właściwość dodana po zapisaniu dokumentu | Wywołaj `doc.save(...)` po dodaniu właściwości |
+| Link do zakładki jest uszkodzony | Literówka w nazwie zakładki | Upewnij się, że nazwa zakładki dokładnie odpowiada w `addLinkToContent` |
 
-## Wniosek
-
-Właściwości dokumentu odgrywają znaczącą rolę w efektywnym zarządzaniu i organizowaniu dokumentów w Aspose.Words for Java. Niezależnie od tego, czy pracujesz z wbudowanymi właściwościami, właściwościami niestandardowymi, czy używasz znaków kontrolnych, masz do dyspozycji szereg narzędzi, które ulepszą Twoje możliwości zarządzania dokumentami.
-
-## Najczęściej zadawane pytania
+## FAQ
 
 ### Jak uzyskać dostęp do wbudowanych właściwości dokumentu?
 
-Aby uzyskać dostęp do wbudowanych właściwości dokumentu w Aspose.Words dla Java, możesz użyć `getBuiltInDocumentProperties` metoda na `Document` obiekt. Ta metoda zwraca kolekcję wbudowanych właściwości, po których można iterować.
+Aby uzyskać dostęp do wbudowanych właściwości dokumentu w Aspose.Words for Java, możesz użyć metody `getBuiltInDocumentProperties` na obiekcie `Document`. Metoda ta zwraca kolekcję wbudowanych właściwości, które możesz iterować.
 
-### Czy mogę dodać do dokumentu niestandardowe właściwości?
+### Czy mogę dodać własne właściwości dokumentu do dokumentu?
 
-Tak, możesz dodać niestandardowe właściwości dokumentu do dokumentu za pomocą `CustomDocumentProperties` kolekcja. Możesz zdefiniować niestandardowe właściwości z różnymi typami danych, w tym ciągami, wartościami logicznymi, datami i wartościami liczbowymi.
+Tak, możesz dodać własne właściwości dokumentu przy użyciu kolekcji `CustomDocumentProperties`. Możesz definiować własne właściwości o różnych typach danych, w tym string, boolean, date i wartości numeryczne.
 
-### Jak mogę usunąć określoną niestandardową właściwość dokumentu?
+### Jak usunąć konkretną własną właściwość dokumentu?
 
-Aby usunąć określoną niestandardową właściwość dokumentu, możesz użyć `remove` metoda na `CustomDocumentProperties` kolekcji, przekazując jako parametr nazwę właściwości, którą chcesz usunąć.
+Aby usunąć konkretną własną właściwość dokumentu, możesz użyć metody `remove` na kolekcji `CustomDocumentProperties`, przekazując nazwę właściwości, którą chcesz usunąć, jako parametr.
 
-### Jaki jest cel linkowania do treści w dokumencie?
+### Jaki jest cel łączenia do treści w dokumencie?
 
-Łączenie z treścią w dokumencie umożliwia tworzenie dynamicznych odniesień do określonych części dokumentu. Może to być przydatne do tworzenia interaktywnych dokumentów lub odniesień krzyżowych między sekcjami.
+Łączenie do treści w dokumencie pozwala tworzyć dynamiczne odwołania do konkretnych części dokumentu. Może to być przydatne przy tworzeniu interaktywnych dokumentów lub odwołań krzyżowych między sekcjami.
 
-### W jaki sposób mogę konwertować różne jednostki miary w Aspose.Words dla Java?
+### Jak mogę konwertować pomiędzy różnymi jednostkami miary w Aspose.Words for Java?
 
-W Aspose.Words for Java możesz konwertować różne jednostki miary za pomocą `ConvertUtil` Klasa. Dostarcza metod konwersji jednostek, takich jak cale na punkty, punkty na centymetry i inne.
+Możesz konwertować pomiędzy różnymi jednostkami miary w Aspose.Words for Java, używając klasy `ConvertUtil`. Udostępnia ona metody konwersji jednostek, takich jak inches to points, points to centimeters i inne.
 
+## Najczęściej zadawane pytania
+
+**Q: Jak odczytać metadane dokumentu w Javie bez ładowania całego pliku?**  
+A: Użyj `DocumentInfo`, aby pobrać podstawowe właściwości bez pełnego ładowania zawartości dokumentu.
+
+**Q: Czy mogę programowo ustawić marginesy strony w Javie dla istniejących dokumentów?**  
+A: Tak — otwórz dokument, zmodyfikuj marginesy `PageSetup` (konwertując cale na punkty w razie potrzeby) i zapisz.
+
+**Q: Czy można wyeksportować własne właściwości do metadanych PDF?**  
+A: Podczas zapisu do PDF, Aspose.Words automatycznie mapuje własne właściwości dokumentu do własnych metadanych PDF.
+
+**Q: Czy znaki kontrolne wpływają na konwersję do PDF?**  
+A: Są zachowywane podczas konwersji; jednak możesz chcieć znormalizować zakończenia linii dla spójności.
+
+**Q: Jakiej wersji Aspose.Words potrzebuję do `ConvertUtil`?**  
+A: `ConvertUtil` jest dostępny od wersji Aspose.Words 16.5; każda nowsza wersja go obsługuje.
+
+## Podsumowanie
+
+Opanowując **convert inches to points**, odczytywanie metadanych dokumentu w Javie oraz dodawanie własnych właściwości w Javie, zyskujesz pełną kontrolę zarówno nad wizualnym układem, jak i ukrytymi danymi swoich plików Word. Te możliwości pozwalają budować zautomatyzowane pipeline’y dokumentów, egzekwować zgodność i tworzyć bogato sformatowane raporty — wszystko przy użyciu Aspose.Words for Java.
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.Words for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

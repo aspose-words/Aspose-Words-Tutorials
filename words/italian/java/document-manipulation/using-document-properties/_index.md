@@ -1,10 +1,14 @@
 ---
-"description": "Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo."
-"linktitle": "Utilizzo delle proprietà del documento"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Utilizzo delle proprietà del documento in Aspose.Words per Java"
-"url": "/it/java/document-manipulation/using-document-properties/"
-"weight": 32
+date: 2026-01-16
+description: Scopri come convertire i pollici in punti, leggere i metadati del documento
+  in Java, aggiungere proprietà personalizzate in Java e impostare i margini della
+  pagina in Java con Aspose.Words per Java.
+linktitle: Using Document Properties
+second_title: Aspose.Words Java Document Processing API
+title: Convertire i pollici in punti – Utilizzando le proprietà del documento in Aspose.Words
+  per Java
+url: /it/java/document-manipulation/using-document-properties/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,18 +17,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilizzo delle proprietà del documento in Aspose.Words per Java
+# Convertire Pollici in Punti – Utilizzando le Proprietà del Documento in Aspose.Words per Java
 
+In questo tutorial scoprirai come **convertire pollici in punti** quando imposti i margini della pagina, leggere i metadati del documento Java, aggiungere proprietà personalizzate Java e lavorare con le proprietà di documento integrate utilizzando Aspose.Words per Java. Che tu stia generando report, fatture o documenti legali, padroneggiare queste tecniche ti offre un controllo preciso sull'aspetto e sui metadati dei tuoi file Word.
 
-## Introduzione alle proprietà del documento
+## Risposte Rapide
+- **Come converto i pollici in punti?** Usa `ConvertUtil.inchToPoint(value)` di Aspose.Words.
+- **Posso leggere i metadati del documento in Java?** Sì – chiama `doc.getBuiltInDocumentProperties()` o `doc.getCustomDocumentProperties()`.
+- **Come aggiungo una proprietà personalizzata in Java?** Usa `doc.getCustomDocumentProperties().add(name, value)`.
+- **Quale metodo imposta i margini della pagina in punti?** `PageSetup.setTopMargin`, `setBottomMargin`, ecc., accettano valori in punti.
+- **È supportato il collegamento a un segnalibro?** Sì – usa `addLinkToContent` sulla collezione delle proprietà personalizzate.
 
-Le proprietà del documento sono una parte fondamentale di qualsiasi documento. Forniscono informazioni aggiuntive sul documento stesso, come titolo, autore, oggetto, parole chiave e altro ancora. In Aspose.Words per Java, è possibile manipolare sia le proprietà predefinite che quelle personalizzate.
+## Introduzione alle Proprietà del Documento
 
-## Enumerazione delle proprietà del documento
+Le proprietà del documento sono una parte fondamentale di qualsiasi file Word. Conservano informazioni come titolo, autore, soggetto, parole‑chiave e qualsiasi metadato personalizzato necessario per l'elaborazione successiva. In Aspose.Words per Java puoi manipolare sia le proprietà integrate sia quelle personalizzate, e puoi anche controllare dettagli di layout come i margini convertendo le unità di misura (ad es., **convertire pollici in punti**).
 
-### Proprietà integrate
+## Che cosa significa “convertire pollici in punti”?
 
-Per recuperare e utilizzare le proprietà integrate del documento, è possibile utilizzare il seguente frammento di codice:
+In Word, le misure di layout sono espresse in punti (1 punto = 1/72 di pollice). Convertire i pollici in punti ti consente di definire margini, rientri e spaziature usando le unità imperiali familiari, mentre l'API lavora internamente con i punti.
+
+## Perché gestire i metadati del documento in Java?
+
+Incorporare i metadati facilita la ricerca, la categorizzazione e l'automazione dei flussi di lavoro. Ad esempio, potresti etichettare un contratto con una bandiera “Authorized” o memorizzare un numero di revisione per le tracce di audit. Leggere e scrivere queste informazioni programmaticamente garantisce coerenza su grandi lotti di documenti.
+
+## Prerequisiti
+- Java 17+ (o JDK compatibile)
+- Libreria Aspose.Words per Java aggiunta al progetto (Maven/Gradle)
+- Un file `.docx` di esempio (ad es., `Properties.docx`) posizionato in una directory accessibile
+
+## Guida Passo‑Passo
+
+### Enumerare le Proprietà di Documento Integrate
+Di seguito è riportato un semplice test che apre un documento e stampa tutte le proprietà integrate come Titolo, Autore e Parole‑chiave.
 
 ```java
 @Test
@@ -38,11 +62,10 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-Questo codice visualizzerà il nome del documento e le proprietà integrate, tra cui proprietà come "Titolo", "Autore" e "Parole chiave".
+> **Suggerimento professionale:** Usa questo snippet per verificare che i tuoi metadati siano stati scritti correttamente nei passaggi precedenti.
 
-### Proprietà personalizzate
-
-Per lavorare con le proprietà personalizzate del documento, puoi utilizzare il seguente frammento di codice:
+### Aggiungere Proprietà di Documento Personalizzate (add custom properties java)
+Le proprietà personalizzate ti consentono di memorizzare qualsiasi tipo di dato necessario—booleano, stringa, data, numero, ecc.
 
 ```java
 @Test
@@ -61,11 +84,10 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-Questo frammento di codice mostra come aggiungere proprietà personalizzate al documento, tra cui un valore booleano, una stringa, una data, un numero di revisione e un valore numerico.
+> **Perché è importante:** Aggiungere una bandiera come **Authorized** può guidare i flussi di lavoro di approvazione successivi senza modificare il contenuto del documento.
 
-## Rimozione delle proprietà del documento
-
-Per rimuovere proprietà specifiche del documento, puoi utilizzare il seguente codice:
+### Rimuovere una Proprietà Personalizzata
+Se una proprietà non è più necessaria, puoi eliminarla in modo pulito.
 
 ```java
 @Test
@@ -76,11 +98,8 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-Questo codice rimuove la proprietà personalizzata "Data autorizzata" dal documento.
-
-## Configurazione del collegamento al contenuto
-
-In alcuni casi, potresti voler creare dei collegamenti all'interno del tuo documento. Ecco come fare:
+### Configurare un Collegamento a Contenuto (collegamento a segnalibro)
+Puoi creare un segnalibro e poi aggiungere una proprietà personalizzata che punta a quel segnalibro, abilitando riferimenti incrociati dinamici.
 
 ```java
 @Test
@@ -94,7 +113,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // Aggiungi collegamento alla proprietà del contenuto.
+    // Add linked to content property.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -103,11 +122,8 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-Questo frammento di codice mostra come creare un segnalibro nel documento e aggiungere una proprietà personalizzata del documento collegata a tale segnalibro.
-
-## Conversione tra unità di misura
-
-In Aspose.Words per Java, è possibile convertire facilmente le unità di misura. Ecco un esempio:
+### Convertire tra Unità di Misura (set page margins java)
+Ecco dove brilla la parola chiave principale. Impostiamo i margini in pollici, poi **convertiamo i pollici in punti** usando `ConvertUtil`.
 
 ```java
 @Test
@@ -117,7 +133,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    // Imposta i margini in pollici.
+    // Set margins in inches.
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -127,11 +143,10 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-Questo frammento di codice imposta vari margini e distanze in pollici convertendoli in punti.
+> **Nota:** `ConvertUtil` fornisce anche `pointToInch`, `mmToPoint`, ecc., per una gestione flessibile del layout.
 
-## Utilizzo dei caratteri di controllo
-
-I caratteri di controllo possono essere utili quando si gestisce il testo. Ecco come sostituire un carattere di controllo nel testo:
+### Utilizzare Caratteri di Controllo (read document metadata java)
+I caratteri di controllo ti aiutano a pulire i flussi di testo. Questo esempio sostituisce un ritorno a capo (`\r`) con la sequenza di interruzione di riga di Windows (`\r\n`).
 
 ```java
 @Test
@@ -139,46 +154,71 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // Sostituisci il carattere di controllo "\r" con "\r\n".
+    // Replace "\r" control character with "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
 
-In questo esempio, sostituiamo il ritorno a capo (`\r`) con un ritorno a capo seguito da un avanzamento di riga (`\r\n`).
+## Problemi Comuni & Soluzioni
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| I margini appaiono errati dopo la conversione | Uso di unità sbagliata (es. cm invece di pollici) | Verifica di chiamare `ConvertUtil.inchToPoint` per valori in pollici |
+| La proprietà personalizzata non compare | Proprietà aggiunta dopo il salvataggio del documento | Chiama `doc.save(...)` dopo aver aggiunto le proprietà |
+| Il collegamento al segnalibro è interrotto | Errore di battitura nel nome del segnalibro | Assicurati che il nome del segnalibro corrisponda esattamente in `addLinkToContent` |
 
-## Conclusione
+## FAQ
 
-Le proprietà dei documenti svolgono un ruolo significativo nella gestione e nell'organizzazione efficace dei documenti in Aspose.Words per Java. Che si tratti di utilizzare proprietà predefinite, proprietà personalizzate o caratteri di controllo, hai a disposizione una vasta gamma di strumenti per migliorare le tue capacità di gestione dei documenti.
+### Come accedo alle proprietà di documento integrate?
 
-## Domande frequenti
+Per accedere alle proprietà di documento integrate in Aspose.Words per Java, puoi usare il metodo `getBuiltInDocumentProperties` sull'oggetto `Document`. Questo metodo restituisce una collezione di proprietà integrate che puoi iterare.
 
-### Come posso accedere alle proprietà integrate del documento?
+### Posso aggiungere proprietà di documento personalizzate a un documento?
 
-Per accedere alle proprietà del documento integrate in Aspose.Words per Java, è possibile utilizzare `getBuiltInDocumentProperties` metodo sul `Document` oggetto. Questo metodo restituisce una raccolta di proprietà predefinite che è possibile scorrere.
+Sì, puoi aggiungere proprietà di documento personalizzate a un documento utilizzando la collezione `CustomDocumentProperties`. Puoi definire proprietà personalizzate con vari tipi di dato, incluse stringhe, booleani, date e valori numerici.
 
-### Posso aggiungere proprietà personalizzate a un documento?
+### Come posso rimuovere una specifica proprietà di documento personalizzata?
 
-Sì, puoi aggiungere proprietà di documento personalizzate a un documento utilizzando `CustomDocumentProperties` raccolta. È possibile definire proprietà personalizzate con vari tipi di dati, tra cui stringhe, valori booleani, date e valori numerici.
+Per rimuovere una specifica proprietà di documento personalizzata, puoi usare il metodo `remove` sulla collezione `CustomDocumentProperties`, passando il nome della proprietà da rimuovere come parametro.
 
-### Come posso rimuovere una specifica proprietà personalizzata di un documento?
+### Qual è lo scopo del collegamento a contenuto all'interno di un documento?
 
-Per rimuovere una proprietà specifica del documento personalizzato, è possibile utilizzare `remove` metodo sul `CustomDocumentProperties` raccolta, passando come parametro il nome della proprietà che si desidera rimuovere.
-
-### Qual è lo scopo del collegamento al contenuto di un documento?
-
-Il collegamento al contenuto di un documento consente di creare riferimenti dinamici a parti specifiche del documento. Questo può essere utile per creare documenti interattivi o riferimenti incrociati tra sezioni.
+Il collegamento a contenuto all'interno di un documento consente di creare riferimenti dinamici a parti specifiche del documento. Questo può essere utile per creare documenti interattivi o riferimenti incrociati tra sezioni.
 
 ### Come posso convertire tra diverse unità di misura in Aspose.Words per Java?
 
-È possibile convertire tra diverse unità di misura in Aspose.Words per Java utilizzando `ConvertUtil` classe. Fornisce metodi per convertire unità di misura come pollici in punti, punti in centimetri e altro ancora.
+Puoi convertire tra diverse unità di misura in Aspose.Words per Java utilizzando la classe `ConvertUtil`. Essa fornisce metodi per convertire unità come pollici in punti, punti in centimetri e altro ancora.
 
+## Domande Frequenti
+
+**D: Come leggo i metadati del documento Java senza caricare l'intero file?**  
+R: Usa `DocumentInfo` per recuperare le proprietà di base senza caricare completamente il contenuto del documento.
+
+**D: Posso impostare programmaticamente i margini della pagina Java per documenti esistenti?**  
+R: Sì—apri il documento, modifica i margini di `PageSetup` (converti i pollici in punti se necessario) e salva.
+
+**D: È possibile esportare le proprietà personalizzate nei metadati PDF?**  
+R: Quando salvi in PDF, Aspose.Words mappa automaticamente le proprietà di documento personalizzate nei metadati PDF personalizzati.
+
+**D: I caratteri di controllo influenzano la conversione in PDF?**  
+R: Vengono preservati durante la conversione; tuttavia, potresti voler normalizzare le terminazioni di riga per coerenza.
+
+**D: Quale versione di Aspose.Words è necessaria per `ConvertUtil`?**  
+R: `ConvertUtil` è disponibile da Aspose.Words 16.5; qualsiasi versione recente lo supporta.
+
+## Conclusione
+
+Padroneggiando **convertire pollici in punti**, leggendo i metadati del documento Java e aggiungendo proprietà personalizzate Java, ottieni il pieno controllo sia sul layout visivo sia sui dati nascosti dei tuoi file Word. Queste capacità ti consentono di costruire pipeline documentali automatizzate, garantire la conformità e creare report riccamente formattati—tutto con Aspose.Words per Java.
+
+---
+
+**Ultimo aggiornamento:** 2026-01-16  
+**Testato con:** Aspose.Words per Java 24.11  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

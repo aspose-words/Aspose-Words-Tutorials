@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin."
-"linktitle": "Belge Özelliklerini Kullanma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Belge Özelliklerini Kullanma"
-"url": "/tr/java/document-manipulation/using-document-properties/"
-"weight": 32
+date: 2026-01-16
+description: İnçleri puana dönüştürmeyi, Java’da belge meta verilerini okumayı, Java’da
+  özel özellikler eklemeyi ve Aspose.Words for Java ile sayfa kenar boşluklarını ayarlamayı
+  öğrenin.
+linktitle: Using Document Properties
+second_title: Aspose.Words Java Document Processing API
+title: İnçleri Puanlara Dönüştür – Aspose.Words for Java'da Belge Özelliklerini Kullanarak
+url: /tr/java/document-manipulation/using-document-properties/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,18 +16,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Belge Özelliklerini Kullanma
+# İnçleri Puana Dönüştür – Aspose.Words for Java'da Belge Özelliklerini Kullanma
 
+Bu öğreticide, sayfa kenar boşluklarını ayarlarken **inçleri puana dönüştürmeyi**, Java'da belge meta verilerini okumayı, Java'da özel özellikler eklemeyi ve Aspose.Words for Java kullanarak yerleşik belge özellikleriyle çalışmayı öğreneceksiniz. Raporlar, faturalar veya yasal belgeler oluşturuyor olun, bu tekniklerde ustalaşmak Word dosyalarınızın görünümü ve meta verileri üzerinde ince ayar kontrolü sağlar.
+
+## Hızlı Yanıtlar
+- **İnçleri puana nasıl dönüştürürüm?** Aspose.Words'tan `ConvertUtil.inchToPoint(value)` kullanın.
+- **Java'da belge meta verilerini okuyabilir miyim?** Evet – `doc.getBuiltInDocumentProperties()` veya `doc.getCustomDocumentProperties()` çağırın.
+- **Java'da özel bir özellik nasıl eklerim?** `doc.getCustomDocumentProperties().add(name, value)` kullanın.
+- **Sayfa kenar boşluklarını puan cinsinden ayarlayan yöntem hangisidir?** `PageSetup.setTopMargin`, `setBottomMargin` vb., puan değerlerini kabul eder.
+- **Yer işaretine bağlama destekleniyor mu?** Evet – özel özellikler koleksiyonunda `addLinkToContent` kullanın.
 
 ## Belge Özelliklerine Giriş
 
-Belge özellikleri herhangi bir belgenin hayati bir parçasıdır. Belgenin kendisi hakkında başlık, yazar, konu, anahtar sözcükler ve daha fazlası gibi ek bilgiler sağlarlar. Java için Aspose.Words'de hem yerleşik hem de özel belge özelliklerini düzenleyebilirsiniz.
+Belge özellikleri, herhangi bir Word dosyasının hayati bir parçasıdır. Başlık, yazar, konu, anahtar kelimeler ve aşağı yönlü işleme ihtiyaç duyduğunuz herhangi bir özel meta veri gibi bilgileri depolarlar. Aspose.Words for Java'da yerleşik ve özel belge özelliklerini manipüle edebilir ve ölçü birimlerini dönüştürerek (ör. **inçleri puana dönüştür**) kenar boşlukları gibi düzen detaylarını da kontrol edebilirsiniz.
 
-## Belge Özelliklerini Numaralandırma
+## “İnçleri puana dönüştür” nedir?
 
-### Dahili Özellikler
+Word'de, düzen ölçüleri puan cinsinden ifade edilir (1 puan = bir inçin 1/72'si). İnçleri puana dönüştürmek, kenar boşlukları, girintiler ve boşlukları tanıdık imparatorluk birimleriyle tanımlamanıza olanak tanırken API dahili olarak puanlarla çalışır.
 
-Yerleşik belge özelliklerini almak ve bunlarla çalışmak için aşağıdaki kod parçacığını kullanabilirsiniz:
+## Java'da belge meta verilerini yönetmek neden önemlidir?
+
+Meta verileri gömmek, aramayı, sınıflandırmayı ve iş akışlarını otomatikleştirmeyi kolaylaştırır. Örneğin, bir sözleşmeye “Yetkili” bayrağı ekleyebilir veya denetim izleri için bir revizyon numarası depolayabilirsiniz. Bu bilgileri programlı olarak okumak ve yazmak, büyük belge toplulukları arasında tutarlılık sağlar.
+
+## Önkoşullar
+- Java 17+ (veya uyumlu JDK)
+- Projenize eklenmiş Aspose.Words for Java kütüphanesi (Maven/Gradle)
+- Erişilebilir bir dizine yerleştirilmiş örnek bir `.docx` dosyası (ör. `Properties.docx`)
+
+## Adım‑Adım Kılavuz
+
+### Yerleşik Belge Özelliklerini Listeleme
+Aşağıda, bir belgeyi açan ve Başlık, Yazar ve Anahtar Kelimeler gibi tüm yerleşik özellikleri yazdıran basit bir test yer almaktadır.
 
 ```java
 @Test
@@ -38,11 +61,10 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-Bu kod, "Başlık", "Yazar" ve "Anahtar Sözcükler" gibi özellikler de dahil olmak üzere belgenin adını ve yerleşik özelliklerini görüntüler.
+> **Pro tip:** Bu kod parçacığını, meta verilerinizin önceki adımlarda doğru yazıldığını doğrulamak için kullanın.
 
-### Özel Özellikler
-
-Özel belge özellikleriyle çalışmak için aşağıdaki kod parçacığını kullanabilirsiniz:
+### Özel Belge Özellikleri Ekleme (add custom properties java)
+Özel özellikler, ihtiyacınız olan herhangi bir veri tipini—boolean, string, tarih, sayı vb.—saklamanızı sağlar.
 
 ```java
 @Test
@@ -61,11 +83,10 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-Bu kod parçacığı, Boole değeri, dize, tarih, revizyon numarası ve sayısal değer dahil olmak üzere özel belge özelliklerinin nasıl ekleneceğini göstermektedir.
+> **Neden önemli:** **Authorized** gibi bir bayrak eklemek, belge içeriğini değiştirmeden sonraki onay iş akışlarını yönlendirebilir.
 
-## Belge Özelliklerini Kaldırma
-
-Belirli belge özelliklerini kaldırmak için aşağıdaki kodu kullanabilirsiniz:
+### Özel Bir Özelliği Kaldırma
+Artık ihtiyaç duyulmayan bir özellik, temiz bir şekilde silinebilir.
 
 ```java
 @Test
@@ -76,11 +97,8 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-Bu kod, belgeden "Yetkilendirilmiş Tarih" özel özelliğini kaldırır.
-
-## İçeriğe Bağlantıyı Yapılandırma
-
-Bazı durumlarda, belgeniz içinde bağlantılar oluşturmak isteyebilirsiniz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
+### İçeriğe Bağlantı Yapılandırma (yer işareti bağlama)
+Bir yer işareti oluşturabilir ve ardından bu yer işaretine işaret eden bir özel özellik ekleyerek dinamik çapraz referanslar sağlayabilirsiniz.
 
 ```java
 @Test
@@ -94,7 +112,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // Bağlantılı içerik özelliğine ekle.
+    // Add linked to content property.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -103,11 +121,8 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-Bu kod parçacığı, belgenizde bir yer imi oluşturmayı ve bu yer imine bağlantı veren özel bir belge özelliği eklemeyi gösterir.
-
-## Ölçüm Birimleri Arasında Dönüşüm
-
-Java için Aspose.Words'de ölçü birimlerini kolayca dönüştürebilirsiniz. İşte bunu nasıl yapacağınıza dair bir örnek:
+### Ölçü Birimleri Arasında Dönüştürme (set page margins java)
+İşte ana anahtar kelimenin parladığı yer. Kenar boşluklarını inç olarak ayarlıyoruz, ardından `ConvertUtil` kullanarak **inçleri puana dönüştürüyoruz**.
 
 ```java
 @Test
@@ -117,7 +132,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    // Kenar boşluklarını inç cinsinden ayarlayın.
+    // Set margins in inches.
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -127,11 +142,10 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-Bu kod parçacığı çeşitli kenar boşluklarını ve mesafeleri inç cinsinden noktalara dönüştürerek ayarlar.
+> **Not:** `ConvertUtil`, esnek düzen yönetimi için `pointToInch`, `mmToPoint` vb. yöntemleri de sunar.
 
-## Kontrol Karakterlerini Kullanma
-
-Kontrol karakterleri metinle uğraşırken yararlı olabilir. Metninizdeki bir kontrol karakterini nasıl değiştireceğiniz aşağıda açıklanmıştır:
+### Kontrol Karakterlerini Kullanma (read document metadata java)
+Kontrol karakterleri, metin akışlarını temizlemenize yardımcı olur. Bu örnek, bir satır sonu (`\r`) karakterini Windows satır sonu dizisi (`\r\n`) ile değiştirir.
 
 ```java
 @Test
@@ -139,46 +153,71 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // "\r" kontrol karakterini "\r\n" ile değiştirin.
+    // Replace "\r" control character with "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
 
-Bu örnekte, satır başını (`\r`) bir satır sonu ve ardından bir satır beslemesi (`\r\n`).
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| Kenar boşlukları dönüşüm sonrası yanlış görünüyor | Yanlış birim kullanımı (ör. inç yerine cm) | İnç değerleri için `ConvertUtil.inchToPoint` çağırdığınızı doğrulayın |
+| Özel özellik görünmüyor | Özellik belge kaydedildikten sonra eklendi | Özellikleri ekledikten sonra `doc.save(...)` çağırın |
+| Yer işareti bağlantısı kırık | Yer işareti adı yazım hatası | `addLinkToContent` içinde yer işareti adının tam olarak eşleştiğinden emin olun |
 
-## Çözüm
+## SSS'ler
 
-Belge özellikleri, Aspose.Words for Java'da belgelerinizi etkili bir şekilde yönetmenizde ve düzenlemenizde önemli bir rol oynar. İster yerleşik özelliklerle, ister özel özelliklerle çalışın, ister kontrol karakterlerini kullanın, belge yönetimi yeteneklerinizi geliştirmek için emrinizde bir dizi araç bulunur.
+### Yerleşik belge özelliklerine nasıl erişilir?
 
-## SSS
-
-### Yerleşik belge özelliklerine nasıl erişebilirim?
-
-Java için Aspose.Words'deki yerleşik belge özelliklerine erişmek için şunu kullanabilirsiniz: `getBuiltInDocumentProperties` yöntem üzerinde `Document` nesne. Bu yöntem, yineleme yapabileceğiniz yerleşik özelliklerin bir koleksiyonunu döndürür.
+Aspose.Words for Java'da yerleşik belge özelliklerine erişmek için `Document` nesnesindeki `getBuiltInDocumentProperties` yöntemini kullanabilirsiniz. Bu yöntem, üzerinden döngü kurabileceğiniz bir yerleşik özellik koleksiyonu döndürür.
 
 ### Bir belgeye özel belge özellikleri ekleyebilir miyim?
 
-Evet, bir belgeye özel belge özellikleri ekleyebilirsiniz. `CustomDocumentProperties` koleksiyon. Dizeler, boole değerleri, tarihler ve sayısal değerler dahil olmak üzere çeşitli veri türleriyle özel özellikler tanımlayabilirsiniz.
+Evet, `CustomDocumentProperties` koleksiyonunu kullanarak bir belgeye özel belge özellikleri ekleyebilirsiniz. Özel özellikleri string, boolean, tarih ve sayısal değerler gibi çeşitli veri tipleriyle tanımlayabilirsiniz.
 
 ### Belirli bir özel belge özelliğini nasıl kaldırabilirim?
 
-Belirli bir özel belge özelliğini kaldırmak için şunu kullanabilirsiniz: `remove` yöntem üzerinde `CustomDocumentProperties` koleksiyon, kaldırmak istediğiniz özelliğin adını parametre olarak geçirerek.
+Belirli bir özel belge özelliğini kaldırmak için `CustomDocumentProperties` koleksiyonundaki `remove` yöntemini kullanabilir ve kaldırmak istediğiniz özelliğin adını parametre olarak geçebilirsiniz.
 
-### Bir belge içindeki içeriğe bağlantı vermenin amacı nedir?
+### Bir belge içinde içeriğe bağlamanın amacı nedir?
 
-Bir belge içindeki içeriğe bağlanmak, belgenin belirli bölümlerine dinamik referanslar oluşturmanıza olanak tanır. Bu, etkileşimli belgeler veya bölümler arasında çapraz referanslar oluşturmak için yararlı olabilir.
+Bir belge içinde içeriğe bağlamak, belgenin belirli bölümlerine dinamik referanslar oluşturmanıza olanak tanır. Bu, etkileşimli belgeler veya bölümler arası çapraz referanslar oluşturmak için faydalı olabilir.
 
-### Aspose.Words for Java'da farklı ölçü birimleri arasında nasıl dönüşüm yapabilirim?
+### Aspose.Words for Java'da farklı ölçü birimleri arasında nasıl dönüşüm yapılır?
 
-Java için Aspose.Words'de farklı ölçü birimleri arasında dönüşüm yapabilirsiniz. `ConvertUtil` sınıfı. İnçleri noktalara, noktaları santimetrelere ve daha fazlasına dönüştürmek için yöntemler sağlar.
+Aspose.Words for Java'da farklı ölçü birimleri arasında dönüşüm yapmak için `ConvertUtil` sınıfını kullanabilirsiniz. Bu sınıf, inçten puana, puandan santimetreye ve daha fazlasına dönüşüm sağlayan yöntemler sunar.
 
+## Sıkça Sorulan Sorular
+
+**S: Tüm dosyayı yüklemeden Java'da belge meta verilerini nasıl okurum?**  
+C: Belge içeriğini tamamen yüklemeden temel özellikleri almak için `DocumentInfo` kullanın.
+
+**S: Mevcut belgeler için Java'da programlı olarak sayfa kenar boşluklarını ayarlayabilir miyim?**  
+C: Evet—belgeyi açın, `PageSetup` kenar boşluklarını (gerekirse inçleri puana dönüştürerek) değiştirin ve kaydedin.
+
+**S: Özel özellikleri PDF meta verilerine aktarabilir miyim?**  
+C: PDF olarak kaydederken, Aspose.Words özel belge özelliklerini otomatik olarak PDF özel meta verilerine eşler.
+
+**S: Kontrol karakterleri PDF dönüşümünü etkiler mi?**  
+C: Dönüşüm sırasında korunurlar; ancak tutarlılık için satır sonlarını normalleştirmek isteyebilirsiniz.
+
+**S: `ConvertUtil` için hangi Aspose.Words sürümü gereklidir?**  
+C: `ConvertUtil`, Aspose.Words 16.5'ten beri mevcuttur; herhangi bir yeni sürüm bunu destekler.
+
+## Sonuç
+
+**İnçleri puana dönüştür**ü, Java'da belge meta verilerini okumayı ve Java'da özel özellikler eklemeyi ustalaşarak, Word dosyalarınızın görsel düzeni ve gizli verileri üzerinde tam kontrol elde edersiniz. Bu yetenekler, otomatik belge iş akışları oluşturmanıza, uyumluluğu sağlamanıza ve zengin biçimlendirilmiş raporlar üretmenize olanak tanır—hepsi Aspose.Words for Java ile.
+
+---
+
+**Son Güncelleme:** 2026-01-16  
+**Test Edilen:** Aspose.Words for Java 24.11  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

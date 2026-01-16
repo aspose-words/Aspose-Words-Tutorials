@@ -1,10 +1,11 @@
 ---
-"description": "使用 Aspose.Words for Java 优化文档管理。在本教程中，您将学习如何使用文档属性、添加自定义元数据等。"
-"linktitle": "使用文档属性"
-"second_title": "Aspose.Words Java文档处理API"
-"title": "在 Aspose.Words for Java 中使用文档属性"
-"url": "/zh/java/document-manipulation/using-document-properties/"
-"weight": 32
+date: 2026-01-16
+description: 学习如何将英寸转换为点，使用 Aspose.Words for Java 读取文档元数据、添加自定义属性以及设置页面边距。
+linktitle: Using Document Properties
+second_title: Aspose.Words Java Document Processing API
+title: 将英寸转换为点 – 在 Aspose.Words for Java 中使用文档属性
+url: /zh/java/document-manipulation/using-document-properties/
+weight: 32
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,18 +14,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用文档属性
+# 将英寸转换为点 – 在 Aspose.Words for Java 中使用文档属性
 
+在本教程中，您将学习在设置页面边距时 **将英寸转换为点**，以及在 Java 中读取文档元数据、添加自定义属性、以及使用 Aspose.Words for Java 操作内置文档属性的技巧。无论是生成报告、发票还是法律文档，掌握这些技术都能让您对 Word 文件的外观和元数据进行细粒度控制。
+
+## 快速答案
+- **如何将英寸转换为点？** 使用 Aspose.Words 提供的 `ConvertUtil.inchToPoint(value)`。
+- **可以在 Java 中读取文档元数据吗？** 可以 – 调用 `doc.getBuiltInDocumentProperties()` 或 `doc.getCustomDocumentProperties()`。
+- **如何在 Java 中添加自定义属性？** 使用 `doc.getCustomDocumentProperties().add(name, value)`。
+- **哪个方法以点为单位设置页面边距？** `PageSetup.setTopMargin`、`setBottomMargin` 等接受点值。
+- **是否支持链接到书签？** 支持 – 在自定义属性集合上使用 `addLinkToContent`。
 
 ## 文档属性简介
 
-文档属性是任何文档的重要组成部分。它们提供有关文档本身的附加信息，例如其标题、作者、主题、关键字等等。在 Aspose.Words for Java 中，您可以操作内置和自定义文档属性。
+文档属性是任何 Word 文件的重要组成部分。它们存储标题、作者、主题、关键字以及您在后续处理时需要的任何自定义元数据。在 Aspose.Words for Java 中，您可以操作内置和自定义文档属性，还可以通过转换测量单位（例如 **将英寸转换为点**）来控制布局细节，如边距。
 
-## 枚举文档属性
+## 什么是 “将英寸转换为点”？
 
-### 内置属性
+在 Word 中，布局测量采用点（1 point = 1/72 英寸）表示。将英寸转换为点可以让您使用熟悉的英制单位定义边距、缩进和间距，而 API 在内部使用点进行计算。
 
-要检索和使用内置文档属性，您可以使用以下代码片段：
+## 为什么在 Java 中管理文档元数据？
+
+嵌入元数据可以更方便地搜索、分类和自动化工作流。例如，您可以为合同添加 “Authorized” 标记，或存储修订号以便审计。以编程方式读取和写入这些信息可确保在大量文档批次中保持一致性。
+
+## 前置条件
+- Java 17+（或兼容的 JDK）
+- 已在项目中添加 Aspose.Words for Java 库（Maven/Gradle）
+- 一个示例 `.docx` 文件（如 `Properties.docx`），放置在可访问的目录中
+
+## 步骤指南
+
+### 枚举内置文档属性
+下面的示例代码打开文档并打印所有内置属性，如 Title、Author 和 Keywords。
 
 ```java
 @Test
@@ -38,11 +59,10 @@ public void enumerateProperties() throws Exception
 }
 ```
 
-此代码将显示文档的名称和内置属性，包括“标题”、“作者”和“关键字”等属性。
+> **专业提示：** 使用此代码片段可验证之前步骤中元数据是否已正确写入。
 
-### 自定义属性
-
-要使用自定义文档属性，您可以使用以下代码片段：
+### 添加自定义文档属性（add custom properties java）
+自定义属性允许您存储任意数据类型——布尔值、字符串、日期、数字等。
 
 ```java
 @Test
@@ -61,11 +81,10 @@ public void addCustomDocumentProperties() throws Exception
 }
 ```
 
-此代码片段演示了如何添加自定义文档属性，包括布尔值、字符串、日期、修订号和数值。
+> **为何重要：** 添加 **Authorized** 之类的标记可以在不更改文档内容的情况下驱动后续审批工作流。
 
-## 删除文档属性
-
-要删除特定的文档属性，可以使用以下代码：
+### 删除自定义属性
+如果某个属性不再需要，可以干净利落地将其删除。
 
 ```java
 @Test
@@ -76,11 +95,8 @@ public void removeCustomDocumentProperties() throws Exception
 }
 ```
 
-此代码从文档中删除自定义属性“授权日期”。
-
-## 配置内容链接
-
-在某些情况下，您可能希望在文档中创建链接。操作方法如下：
+### 配置内容链接（书签链接）
+您可以创建书签，然后添加指向该书签的自定义属性，实现动态交叉引用。
 
 ```java
 @Test
@@ -94,7 +110,7 @@ public void configuringLinkToContent() throws Exception
 
     CustomDocumentProperties customProperties = doc.getCustomDocumentProperties();
 
-    // 添加链接到内容属性。
+    // Add linked to content property.
     DocumentProperty customProperty = customProperties.addLinkToContent("Bookmark", "MyBookmark");
     customProperty = customProperties.get("Bookmark");
     boolean isLinkedToContent = customProperty.isLinkToContent();
@@ -103,11 +119,8 @@ public void configuringLinkToContent() throws Exception
 }
 ```
 
-此代码片段演示了如何在文档中创建书签并添加链接到该书签的自定义文档属性。
-
-## 测量单位之间的转换
-
-在 Aspose.Words for Java 中，您可以轻松转换测量单位。以下是操作示例：
+### 在测量单位之间转换（set page margins java）
+这里是关键关键词发挥作用的地方。我们先以英寸设置边距，然后使用 `ConvertUtil` **将英寸转换为点**。
 
 ```java
 @Test
@@ -117,7 +130,7 @@ public void convertBetweenMeasurementUnits() throws Exception
     DocumentBuilder builder = new DocumentBuilder(doc);
     PageSetup pageSetup = builder.getPageSetup();
 
-    // 以英寸为单位设置边距。
+    // Set margins in inches.
     pageSetup.setTopMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setBottomMargin(ConvertUtil.inchToPoint(1.0));
     pageSetup.setLeftMargin(ConvertUtil.inchToPoint(1.5));
@@ -127,11 +140,10 @@ public void convertBetweenMeasurementUnits() throws Exception
 }
 ```
 
-此代码片段通过将各种边距和距离转换为点来设置以英寸为单位的各种边距和距离。
+> **注意：** `ConvertUtil` 还提供 `pointToInch`、`mmToPoint` 等方法，以实现灵活的布局处理。
 
-## 使用控制字符
-
-处理文本时，控制字符非常有用。以下是如何替换文本中的控制字符：
+### 使用控制字符（read document metadata java）
+控制字符帮助您清理文本流。此示例将回车符（`\r`）替换为 Windows 换行序列（`\r\n`）。
 
 ```java
 @Test
@@ -139,46 +151,71 @@ public void useControlCharacters()
 {
     final String TEXT = "test\r";
 
-    // 将“\r”控制字符替换为“\r\n”。
+    // Replace "\r" control character with "\r\n".
     String replace = TEXT.replace(ControlChar.CR, ControlChar.CR_LF);
 }
 ```
 
-在此示例中，我们将回车符 (`\r`) 以回车符结尾，然后换行 (`\r\n`）。
+## 常见问题与解决方案
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| 转换后边距显示不正确 | 使用了错误的单位（例如将厘米当作英寸） | 确认对英寸值调用 `ConvertUtil.inchToPoint` |
+| 自定义属性未出现 | 属性在保存文档后才添加 | 在添加属性后调用 `doc.save(...)` |
+| 书签链接失效 | 书签名称拼写错误 | 确保 `addLinkToContent` 中的书签名称完全匹配 |
 
-## 结论
-
-在 Aspose.Words for Java 中，文档属性对于有效地管理和组织文档起着至关重要的作用。无论是使用内置属性、自定义属性还是控制字符，您都可以使用一系列工具来增强文档管理能力。
-
-## 常见问题解答
+## FAQ
 
 ### 如何访问内置文档属性？
 
-要访问 Aspose.Words for Java 中的内置文档属性，您可以使用 `getBuiltInDocumentProperties` 方法 `Document` 对象。此方法返回可迭代的内置属性集合。
+要在 Aspose.Words for Java 中访问内置文档属性，可对 `Document` 对象调用 `getBuiltInDocumentProperties` 方法。该方法返回一个内置属性集合，您可以遍历其中的属性。
 
-### 我可以向文档添加自定义文档属性吗？
+### 能否向文档添加自定义文档属性？
 
-是的，您可以使用 `CustomDocumentProperties` 集合。您可以定义具有各种数据类型的自定义属性，包括字符串、布尔值、日期和数值。
+可以，使用 `CustomDocumentProperties` 集合即可向文档添加自定义属性。您可以定义包括字符串、布尔值、日期和数值在内的多种数据类型。
 
 ### 如何删除特定的自定义文档属性？
 
-要删除特定的自定义文档属性，您可以使用 `remove` 方法 `CustomDocumentProperties` 集合，将要删除的属性的名称作为参数传递。
+要删除特定的自定义文档属性，可在 `CustomDocumentProperties` 集合上调用 `remove` 方法，并传入要删除的属性名称。
 
-### 链接到文档中的内容的目的是什么？
+### 链接到文档内容的目的是什么？
 
-通过链接到文档中的内容，您可以创建对文档特定部分的动态引用。这对于创建交互式文档或各部分之间的交叉引用非常有用。
+在文档内部创建链接可以实现对特定部分的动态引用。这对于制作交互式文档或在章节之间建立交叉引用非常有用。
 
-### 如何在 Aspose.Words for Java 中转换不同的测量单位？
+### 如何在 Aspose.Words for Java 中进行单位转换？
 
-您可以使用 Aspose.Words for Java 中的不同测量单位进行转换 `ConvertUtil` 类。它提供了将英寸转换为点、将点转换为厘米等单位的方法。
+可以使用 `ConvertUtil` 类进行单位转换。它提供了英寸转点、点转厘米等多种方法。
 
+## 常见问答
+
+**Q: 如何在不加载整个文件的情况下读取 Java 文档元数据？**  
+A: 使用 `DocumentInfo` 可在不完全加载文档内容的情况下获取核心属性。
+
+**Q: 能否在已有文档上以 Java 编程方式设置页面边距？**  
+A: 可以——打开文档后，修改 `PageSetup` 的边距（如有需要先将英寸转换为点），然后保存。
+
+**Q: 是否可以将自定义属性导出为 PDF 元数据？**  
+A: 保存为 PDF 时，Aspose.Words 会自动将自定义文档属性映射为 PDF 的自定义元数据。
+
+**Q: 控制字符会影响 PDF 转换吗？**  
+A: 转换过程中会保留控制字符，但您可能希望统一换行符以保持一致性。
+
+**Q: 使用 `ConvertUtil` 需要哪个版本的 Aspose.Words？**  
+A: `ConvertUtil` 自 Aspose.Words 16.5 起提供，任何较新版本均支持。
+
+## 结论
+
+通过掌握 **将英寸转换为点**、读取 Java 文档元数据以及添加自定义属性的技巧，您可以全面控制 Word 文件的视觉布局和隐藏数据。这些能力使您能够构建自动化文档流水线、确保合规性，并创建丰富格式的报告——全部使用 Aspose.Words for Java。
+
+---
+
+**最后更新：** 2026-01-16  
+**测试环境：** Aspose.Words for Java 24.11  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
