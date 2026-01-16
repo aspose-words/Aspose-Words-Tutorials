@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách tự động tóm tắt và dịch văn bản bằng Aspose.Words for Java với GPT-4 của OpenAI và Gemini của Google. Nâng cao ứng dụng Java của bạn ngay hôm nay."
-"title": "Làm chủ xử lý văn bản trong Java&#58; Sử dụng Aspose.Words & Mô hình AI để tóm tắt và dịch"
-"url": "/vi/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-01-16'
+description: Tìm hiểu cách sử dụng Aspose.Words trong Java để tự động tóm tắt văn
+  bản và dịch tài liệu Word bằng GPT‑4 và Gemini.
+keywords:
+- text processing in Java
+- Aspose.Words for Java
+- AI text summarization
+title: 'Cách sử dụng Aspose.Words trong Java: Tóm tắt & Dịch'
+url: /vi/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,47 +17,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cách Sử Dụng Aspose.Words trong Java: Tóm Tắt & Dịch
 
-# Xử lý văn bản chuyên nghiệp trong Java: Sử dụng Aspose.Words và các mô hình AI
+Nếu bạn đang tìm kiếm một cách đáng tin cậy để **cách sử dụng Aspose.Words** nhằm tự động tóm tắt văn bản và dịch tài liệu Word, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi qua việc thiết lập Aspose.Words với Maven, gọi các mô hình GPT‑4 của OpenAI và Gemini của Google, và chuyển các tệp .docx lớn thành các bản tóm tắt ngắn gọn hoặc phiên bản đa ngôn ngữ — tất cả từ mã Java mà bạn có thể chèn vào dự án hiện có.
 
-**Tự động tóm tắt và dịch văn bản bằng Aspose.Words for Java tích hợp với các mô hình AI như GPT-4 của OpenAI và Gemini của Google.**
+## Quick Answers
+- **Thư viện nào xử lý tệp Word trong Java?** Aspose.Words for Java.  
+- **Mô hình AI nào được dùng để tóm tắt?** OpenAI GPT‑4 (hoặc GPT‑4‑O‑Mini).  
+- **Mô hình nào hỗ trợ dịch thuật?** Google Gemini 15 Flash.  
+- **Tôi có cần giấy phép không?** Có, cần giấy phép dùng thử hoặc mua để sử dụng đầy đủ tính năng.  
+- **Có thể thiết lập bằng Maven không?** Chắc chắn – xem phần “Aspose.Words Maven setup”.
 
-## Giới thiệu
+## What is Aspose.Words for Java?
+Aspose.Words là một API thuần Java cho phép bạn tạo, chỉnh sửa, chuyển đổi và hiển thị tài liệu Word mà không cần Microsoft Office. Nó hỗ trợ .doc, .docx, .pdf, .html và nhiều định dạng khác, rất phù hợp cho việc xử lý phía máy chủ.
 
-Bạn đang gặp khó khăn trong việc trích xuất thông tin chi tiết quan trọng từ các tài liệu lớn hoặc dịch nội dung nhanh chóng sang các ngôn ngữ khác nhau? Tự động hóa các tác vụ này một cách hiệu quả bằng các công cụ mạnh mẽ để tiết kiệm thời gian và nâng cao năng suất. Hướng dẫn này hướng dẫn bạn cách sử dụng Aspose.Words cho Java cùng với các mô hình AI như GPT-4 của OpenAI và Gemini 15 Flash của Google để tóm tắt và dịch văn bản.
+## Why automate summarization and translation?
+- **Tốc độ:** Chuyển đổi hàng giờ đọc thành vài giây với các đoạn tóm tắt do AI tạo ra.  
+- **Nhất quán:** Áp dụng cùng một chất lượng dịch cho hàng ngàn tệp.  
+- **Mở rộng:** Xử lý tài liệu trong các công việc batch hoặc micro‑service.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập Aspose.Words với Maven hoặc Gradle
-- Triển khai tóm tắt văn bản bằng mô hình AI
-- Dịch tài liệu sang nhiều ngôn ngữ khác nhau
-- Các phương pháp hay nhất để tích hợp các công cụ này vào các ứng dụng Java
+## Prerequisites
+- **Java Development Kit (JDK) 8+**  
+- **IDE** (IntelliJ IDEA, Eclipse hoặc VS Code)  
+- **API keys** cho OpenAI và Google Gemini (bạn cần đăng ký trên các cổng thông tin của họ)  
+- **Aspose.Words license** (bản dùng thử, tạm thời hoặc mua)
 
-Trước khi bắt đầu triển khai, hãy đảm bảo bạn có mọi thứ cần thiết.
+## Aspose.Words Maven Setup (and Gradle alternative)
 
-## Điều kiện tiên quyết
-
-Đảm bảo bạn đáp ứng các yêu cầu sau:
-
-### Thư viện và phiên bản bắt buộc
-- **Aspose.Words dành cho Java:** Phiên bản 25.3 trở lên.
-- **Bộ phát triển Java (JDK):** Đã cài đặt JDK (tốt nhất là phiên bản 8 trở lên).
-- **Xây dựng công cụ:** Maven hoặc Gradle, tùy theo sở thích của bạn.
-
-### Yêu cầu thiết lập môi trường
-- Một Môi trường phát triển tích hợp (IDE) phù hợp như IntelliJ IDEA hoặc Eclipse.
-- Truy cập vào các dịch vụ OpenAI và Google AI, có thể yêu cầu khóa API.
-
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với việc xử lý các thư viện bên ngoài trong một dự án Java.
-
-## Thiết lập Aspose.Words
-
-Để bắt đầu sử dụng Aspose.Words cho Java, hãy thêm các phụ thuộc cần thiết vào cấu hình bản dựng của bạn.
-
-### Phụ thuộc Maven
-
-Thêm đoạn trích này vào `pom.xml`:
+### Maven Dependency
+Thêm đoạn sau vào `pom.xml` của bạn để bao gồm thư viện Aspose.Words mới nhất:
 
 ```xml
 <dependency>
@@ -62,38 +55,24 @@ Thêm đoạn trích này vào `pom.xml`:
 </dependency>
 ```
 
-### Phụ thuộc Gradle
-
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+### Gradle Dependency
+Nếu bạn thích Gradle, đặt dòng này vào `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Mua lại giấy phép
-
-Aspose.Words yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể mua:
-- MỘT **dùng thử miễn phí** để kiểm tra các tính năng.
-- MỘT **giấy phép tạm thời** để đánh giá mở rộng.
-- MỘT **giấy phép mua hàng** để sử dụng cho mục đích sản xuất.
-
-Để thiết lập, hãy khởi tạo thư viện và thiết lập giấy phép của bạn:
+### License Initialization
+Aspose.Words yêu cầu tệp giấy phép để hoạt động đầy đủ. Tải nó khi khởi động ứng dụng:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Hướng dẫn thực hiện
+## How to Summarize a Word Document with GPT‑4
 
-### Tóm tắt văn bản với mô hình AI
-
-Tóm tắt văn bản có thể vô cùng hữu ích khi xử lý các tài liệu dài. Sau đây là cách triển khai bằng mô hình GPT-4 của OpenAI.
-
-#### Bước 1: Khởi tạo Tài liệu và Mô hình
-
-Bắt đầu bằng cách tải tài liệu của bạn và thiết lập mô hình AI:
-
+### Step 1: Load the Document & Create the AI Model
 ```java
 document = new Document(getMyDir() + "Big document.docx");
 IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey))
@@ -101,96 +80,82 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Bước 2: Cấu hình Tùy chọn Tóm tắt
-
-Chỉ định độ dài tóm tắt và tạo một `SummarizeOptions` sự vật:
-
+### Step 2: Define Summarization Options
 ```java
 SummarizeOptions options = new SummarizeOptions();
 options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Bước 3: Lưu Tóm tắt
-
-Lưu tài liệu tóm tắt của bạn vào vị trí mong muốn:
-
+### Step 3: Save the Summarized Document
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Dịch văn bản với mô hình AI
+> **Pro tip:** Sử dụng `SummaryLength.MEDIUM` hoặc `LONG` để có kết quả chi tiết hơn.
 
-Dịch tài liệu một cách liền mạch sang nhiều ngôn ngữ khác nhau bằng mô hình Gemini của Google.
+## How to Translate a Word Document with Gemini
 
-#### Bước 1: Tải và Chuẩn bị Tài liệu
-
-Chuẩn bị tài liệu để dịch:
-
+### Step 1: Load the Source Document & Initialize Gemini
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Bước 2: Thực hiện dịch
-
-Dịch tài liệu sang tiếng Ả Rập:
-
+### Step 2: Translate to the Desired Language (e.g., Arabic)
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## Ứng dụng thực tế
+> **Note:** Thay thế `Language.ARABIC` bằng bất kỳ hằng số ngôn ngữ nào được hỗ trợ để dịch tài liệu Word sang tiếng Pháp, Tây Ban Nha, v.v.
 
-1. **Báo cáo kinh doanh:** Tóm tắt các báo cáo kinh doanh dài để có cái nhìn sâu sắc nhanh chóng.
-2. **Hỗ trợ khách hàng:** Dịch các câu hỏi của khách hàng sang ngôn ngữ bản địa để nâng cao chất lượng dịch vụ.
-3. **Nghiên cứu học thuật:** Tóm tắt các bài nghiên cứu để nắm bắt nhanh những phát hiện chính.
+## Common Use Cases
+- **Báo cáo kinh doanh:** Tóm tắt các PDF quý thành một bản tóm tắt một trang.  
+- **Hỗ trợ khách hàng:** Dịch ngay các ticket đến từ tiếng Ả Rập sang tiếng Anh.  
+- **Nghiên cứu học thuật:** Tạo các bản tóm tắt ngắn gọn từ các luận án dài.
 
-## Cân nhắc về hiệu suất
+## Performance & Best Practices
+- **Batch requests:** Nhóm nhiều tài liệu trong một lần gọi API khi có thể để giảm độ trễ.  
+- **Caching:** Lưu trữ các bản tóm tắt hoặc dịch đã tạo trước để tránh sử dụng API lặp lại.  
+- **Resource monitoring:** Theo dõi bộ nhớ khi xử lý các tệp .docx rất lớn; cân nhắc streaming các phần.
 
-- Tối ưu hóa các yêu cầu API bằng cách xử lý hàng loạt tác vụ khi có thể.
-- Theo dõi mức sử dụng tài nguyên, đặc biệt là khi xử lý các tài liệu lớn.
-- Triển khai chiến lược lưu trữ đệm cho các tài liệu hoặc bản dịch thường xuyên truy cập.
+## Frequently Asked Questions
 
-## Phần kết luận
+**Q: Các yêu cầu hệ thống để sử dụng Aspose.Words với Java là gì?**  
+A: JDK 8 hoặc cao hơn, một IDE tương thích và giấy phép Aspose.Words hợp lệ.
 
-Bằng cách tích hợp Aspose.Words với các mô hình AI như OpenAI và Gemini của Google, bạn có thể nâng cao các ứng dụng Java của mình bằng khả năng tóm tắt văn bản và dịch thuật mạnh mẽ. Thử nghiệm với các cấu hình khác nhau để phù hợp nhất với nhu cầu của bạn và khám phá các tính năng bổ sung do các công cụ này cung cấp.
+**Q: Làm sao để lấy API keys cho OpenAI hoặc Google Gemini?**  
+A: Đăng ký trên các nền tảng OpenAI và Google AI; tạo khóa bí mật trong bảng điều khiển tài khoản của bạn.
 
-**Các bước tiếp theo:**
-- Khám phá nhiều tính năng nâng cao hơn của Aspose.Words.
-- Hãy cân nhắc tích hợp thêm các dịch vụ AI để tăng cường chức năng.
+**Q: Tôi có thể sử dụng Aspose.Words trong dự án thương mại không?**  
+A: Có, với điều kiện bạn có giấy phép mua (hoặc thuê bao trả phí).
 
-Sẵn sàng để tìm hiểu sâu hơn? Hãy thử triển khai các giải pháp này vào dự án của bạn ngay hôm nay!
+**Q: Gemini hỗ trợ những ngôn ngữ nào cho việc dịch?**  
+A: Gemini 15 Flash hỗ trợ hàng chục ngôn ngữ, bao gồm tiếng Ả Rập, Pháp, Tây Ban Nha, Đức, Trung Quốc và nhiều hơn nữa.
 
-## Phần Câu hỏi thường gặp
+**Q: Làm sao xử lý tài liệu rất lớn một cách hiệu quả?**  
+A: Chia tài liệu thành các phần nhỏ hơn, xử lý từng phần riêng biệt, sau đó hợp nhất kết quả.
 
-1. **Yêu cầu hệ thống để sử dụng Aspose.Words với Java là gì?**
-   - Bạn cần JDK 8 trở lên và một IDE tương thích như IntelliJ IDEA.
-2. **Làm thế nào để tôi có được khóa API cho các dịch vụ OpenAI hoặc Google AI?**
-   - Đăng ký trên nền tảng tương ứng để truy cập khóa API phục vụ mục đích phát triển.
-3. **Tôi có thể sử dụng Aspose.Words cho Java trong các dự án thương mại không?**
-   - Có, nhưng bạn phải có giấy phép hợp lệ từ Aspose.
-4. **Tôi có thể dịch văn bản sang những ngôn ngữ nào khi sử dụng mô hình Gemini?**
-   - Mẫu Gemini 15 Flash hỗ trợ nhiều ngôn ngữ, bao gồm tiếng Ả Rập, tiếng Pháp và nhiều ngôn ngữ khác.
-5. **Làm thế nào để xử lý các tài liệu lớn một cách hiệu quả bằng những công cụ này?**
-   - Chia nhỏ các tác vụ thành nhiều phần nhỏ hơn và tối ưu hóa việc sử dụng API để quản lý hiệu quả mức tiêu thụ tài nguyên.
+## Resources
 
-## Tài nguyên
-
-- [Tài liệu Aspose.Words](https://reference.aspose.com/words/java/)
-- [Tải xuống Aspose.Words](https://releases.aspose.com/words/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Phiên bản dùng thử miễn phí](https://releases.aspose.com/words/java/)
-- [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Hỗ trợ cộng đồng Aspose](https://forum.aspose.com/c/words/10)
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Aspose.Words](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/words/java/)
+- [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Support](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-01-16  
+**Kiểm tra với:** Aspose.Words 25.3 for Java  
+**Tác giả:** Aspose

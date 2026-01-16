@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java ile OpenAI'nin GPT-4 ve Google'ın Gemini'sini kullanarak metin özetleme ve çevirisini nasıl otomatikleştireceğinizi öğrenin. Java uygulamalarınızı bugün geliştirin."
-"title": "Özetleme ve Çeviri için Aspose.Words ve AI Modellerini Kullanarak Java'da Ana Metin İşleme"
-"url": "/tr/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-01-16'
+description: Aspose.Words'i Java'da kullanarak metin özetlemeyi otomatikleştirmeyi
+  ve Word belgelerini GPT‑4 ve Gemini ile çevirmeyi öğrenin.
+keywords:
+- text processing in Java
+- Aspose.Words for Java
+- AI text summarization
+title: 'Aspose.Words''u Java''da Nasıl Kullanılır: Özetleme ve Çeviri'
+url: /tr/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,47 +17,35 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words'u Java'da Nasıl Kullanılır: Özetleme ve Çeviri
 
-# Java'da Ana Metin İşleme: Aspose.Words ve AI Modellerini Kullanma
+Eğer metin özetleme otomasyonu ve Word belgelerini çevirmek için güvenilir bir **how to use Aspose.Words** yolu arıyorsanız, doğru yerdesiniz. Bu öğreticide Aspose.Words'u Maven ile kurmayı, OpenAI'nin GPT‑4 ve Google'ın Gemini modellerini çağırmayı ve büyük .docx dosyalarını özlü özetlere veya çok dilli sürümlere dönüştürmeyi adım adım göstereceğiz—tüm bunlar mevcut projelerinize ekleyebileceğiniz Java kodu ile.
 
-**Aspose.Words for Java'yı OpenAI'nin GPT-4 ve Google'ın Gemini gibi yapay zeka modelleriyle entegre ederek metin özetleme ve çevirisini otomatikleştirin.**
+## Hızlı Yanıtlar
+- **Java'da Word dosyalarını işleyen kütüphane nedir?** Aspose.Words for Java.  
+- **Özetleme için hangi AI modelleri kullanılır?** OpenAI GPT‑4 (or GPT‑4‑O‑Mini).  
+- **Çeviriyi hangi model sağlar?** Google Gemini 15 Flash.  
+- **Lisans gerekli mi?** Evet, tam özellikler için deneme veya satın alınmış bir lisans gereklidir.  
+- **Bunu Maven ile kurabilir miyim?** Kesinlikle – “Aspose.Words Maven setup” bölümüne bakın.
 
-## giriiş
+## Aspose.Words for Java Nedir?
+Aspose.Words, Microsoft Office olmadan Word belgeleri oluşturmanıza, düzenlemenize, dönüştürmenize ve render etmenize olanak tanıyan saf Java API'sidir. .doc, .docx, .pdf, .html ve birçok diğer formatı destekler, bu da sunucu tarafı işlem için idealdir.
 
-Büyük belgelerden önemli içgörüler çıkarmakta veya içeriği farklı dillere hızla çevirmekte zorluk mu çekiyorsunuz? Zamandan tasarruf etmek ve üretkenliği artırmak için güçlü araçlar kullanarak bu görevleri verimli bir şekilde otomatikleştirin. Bu eğitim, metni özetlemek ve çevirmek için OpenAI'nin GPT-4 ve Google'ın Gemini 15 Flash gibi AI modelleriyle birlikte Java için Aspose.Words'ü kullanmanızda size rehberlik eder.
+## Özetleme ve çeviriyi otomatikleştirmek neden önemli?
+- **Hız:** Saatler süren okuma süresini birkaç saniyelik AI‑tarafından oluşturulan özetlere dönüştürün.  
+- **Tutarlılık:** Binlerce dosyada aynı çeviri kalitesini uygulayın.  
+- **Ölçeklenebilirlik:** Belgeleri toplu işler veya mikro hizmetlerde işleyin.  
 
-**Ne Öğreneceksiniz:**
-- Maven veya Gradle ile Aspose.Words Kurulumu
-- Yapay zeka modelleri kullanılarak metin özetlemenin uygulanması
-- Belgelerin farklı dillere çevrilmesi
-- Bu araçların Java uygulamalarına entegre edilmesine yönelik en iyi uygulamalar
+## Önkoşullar
+- **Java Development Kit (JDK) 8+**  
+- **IDE** (IntelliJ IDEA, Eclipse, veya VS Code)  
+- **API anahtarları** OpenAI ve Google Gemini için (portallarına kaydolmanız gerekir)  
+- **Aspose.Words lisansı** (ücretsiz deneme, geçici veya satın alınmış)  
 
-Uygulamaya başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olun.
-
-## Ön koşullar
-
-Aşağıdaki gereklilikleri karşıladığınızdan emin olun:
-
-### Gerekli Kütüphaneler ve Sürümler
-- **Java için Aspose.Words:** Sürüm 25.3 veya üzeri.
-- **Java Geliştirme Kiti (JDK):** JDK kurulu (tercihen 8 veya üzeri sürüm).
-- **Yapı Araçları:** Tercihinize göre Maven veya Gradle.
-
-### Çevre Kurulum Gereksinimleri
-- IntelliJ IDEA veya Eclipse gibi uygun bir Entegre Geliştirme Ortamı (IDE).
-- API anahtarları gerektirebilen OpenAI ve Google AI servislerine erişim.
-
-### Bilgi Önkoşulları
-- Java programlamanın temel bilgisi.
-- Java projesinde harici kütüphaneleri kullanma konusunda deneyim.
-
-## Aspose.Words'ü Kurma
-
-Java için Aspose.Words'ü kullanmaya başlamak için, yapı yapılandırmanıza gerekli bağımlılıkları ekleyin.
+## Aspose.Words Maven Kurulumu (ve Gradle alternatifi)
 
 ### Maven Bağımlılığı
-
-Bu parçacığı şuraya ekleyin: `pom.xml`:
+`pom.xml` dosyanıza aşağıdakileri ekleyerek en son Aspose.Words kütüphanesini dahil edin:
 
 ```xml
 <dependency>
@@ -63,37 +56,23 @@ Bu parçacığı şuraya ekleyin: `pom.xml`:
 ```
 
 ### Gradle Bağımlılığı
-
-Bunu da ekleyin `build.gradle` dosya:
+Gradle tercih ediyorsanız, bu satırı `build.gradle` dosyanıza ekleyin:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Lisans Edinimi
-
-Aspose.Words tam işlevsellik için bir lisans gerektirir. Şunları edinebilirsiniz:
-- A **ücretsiz deneme** özellikleri test etmek için.
-- A **geçici lisans** Genişletilmiş değerlendirme için.
-- A **satın alma lisansı** üretim amaçlı.
-
-Kurulum için kütüphaneyi başlatın ve lisansınızı ayarlayın:
+### Lisans Başlatma
+Aspose.Words tam işlevsellik için bir lisans dosyası gerektirir. Uygulama başlangıcında yükleyin:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Uygulama Kılavuzu
+## GPT‑4 ile bir Word Belgesini Nasıl Özetlersiniz
 
-### Yapay Zeka Modelleriyle Metin Özetleme
-
-Kapsamlı belgelerle uğraşırken metni özetlemek paha biçilmez olabilir. İşte OpenAI'nin GPT-4 modelini kullanarak bunu nasıl uygulayacağınız.
-
-#### Adım 1: Belgeyi ve Modeli Başlatın
-
-Öncelikle belgenizi yükleyip AI modelini ayarlayarak başlayın:
-
+### Adım 1: Belgeyi Yükleyin ve AI Modelini Oluşturun
 ```java
 document = new Document(getMyDir() + "Big document.docx");
 IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey))
@@ -101,96 +80,82 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Adım 2: Özetleme Seçeneklerini Yapılandırın
-
-Özet uzunluğunu belirtin ve bir özet oluşturun `SummarizeOptions` nesne:
-
+### Adım 2: Özetleme Seçeneklerini Tanımlayın
 ```java
 SummarizeOptions options = new SummarizeOptions();
 options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Adım 3: Özeti Kaydedin
-
-Özetlediğiniz belgeyi istediğiniz yere kaydedin:
-
+### Adım 3: Özetlenmiş Belgeyi Kaydedin
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Yapay Zeka Modelleriyle Metin Çevirisi
+> **Pro ipucu:** Daha ayrıntılı çıktılar için `SummaryLength.MEDIUM` veya `LONG` kullanın.
 
-Google'ın Gemini modelini kullanarak belgeleri sorunsuz bir şekilde farklı dillere çevirin.
+## Gemini ile bir Word Belgesini Nasıl Çevirirsiniz
 
-#### Adım 1: Belgeyi Yükleyin ve Hazırlayın
-
-Belgenizi çeviriye hazırlayın:
-
+### Adım 1: Kaynak Belgeyi Yükleyin ve Gemini'yi Başlatın
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Adım 2: Çeviriyi Çalıştırın
-
-Belgeyi Arapçaya çevirin:
-
+### Adım 2: İstenen Dile Çevirin (ör. Arapça)
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## Pratik Uygulamalar
+> **Not:** `Language.ARABIC` ifadesini, Word belgesini Fransızca, İspanyolca vb. dillerde çevirmek için desteklenen herhangi bir dil sabitiyle değiştirin.
 
-1. **İşletme Raporları:** Hızlı içgörüler elde etmek için uzun iş raporlarını özetleyin.
-2. **Müşteri Desteği:** Hizmet kalitenizi artırmak için müşteri sorularını ana dillere çevirin.
-3. **Akademik Araştırma:** Temel bulguları hızla kavramak için araştırma makalelerini özetleyin.
+## Ortak Kullanım Senaryoları
+- **İş raporları:** Üç aylık PDF'leri tek sayfalık bir brifinge özetleyin.  
+- **Müşteri desteği:** Gelen biletleri Arapçadan İngilizceye anında çevirin.  
+- **Akademik araştırma:** Uzun tezlerden özlü özetler oluşturun.  
 
-## Performans Hususları
+## Performans ve En İyi Uygulamalar
+- **Toplu istekler:** Mümkün olduğunda bir API çağrısına birden fazla belge gruplandırarak gecikmeyi azaltın.  
+- **Önbellekleme:** Daha önce oluşturulmuş özetleri veya çevirileri saklayarak gereksiz API kullanımını önleyin.  
+- **Kaynak izleme:** Çok büyük .docx dosyalarını işlerken belleği izleyin; bölümleri akış olarak işlemeyi düşünün.  
 
-- Mümkün olduğunda görevleri toplu olarak gerçekleştirerek API isteklerini optimize edin.
-- Özellikle büyük belgeleri işlerken kaynak kullanımını izleyin.
-- Sık erişilen belgeler veya çeviriler için önbelleğe alma stratejileri uygulayın.
+## Sık Sorulan Sorular
 
-## Çözüm
+**S: Aspose.Words'u Java ile kullanmak için sistem gereksinimleri nelerdir?**  
+A: JDK 8 veya üzeri, uyumlu bir IDE ve geçerli bir Aspose.Words lisansı.
 
-Aspose.Words'ü OpenAI ve Google'ın Gemini gibi AI modelleriyle entegre ederek, Java uygulamalarınızı güçlü metin özetleme ve çeviri yetenekleriyle geliştirebilirsiniz. İhtiyaçlarınıza en uygun şekilde farklı yapılandırmaları deneyin ve bu araçların sunduğu ek özellikleri keşfedin.
+**S: OpenAI veya Google Gemini için API anahtarlarını nasıl elde ederim?**  
+A: OpenAI ve Google AI platformlarına kaydolun; hesabınızın kontrol panelinde gizli bir anahtar oluşturun.
 
-**Sonraki Adımlar:**
-- Aspose.Words'ün daha gelişmiş özelliklerini keşfedin.
-- Gelişmiş işlevsellik için ek yapay zeka hizmetlerini entegre etmeyi düşünün.
+**S: Aspose.Words'u ticari bir projede kullanabilir miyim?**  
+A: Evet, satın alınmış bir lisans (veya ücretli abonelik) olduğunuz sürece.
 
-Daha derine dalmaya hazır mısınız? Bu çözümleri bugün projelerinizde uygulamaya çalışın!
+**S: Gemini çeviri modeli hangi dilleri destekliyor?**  
+A: Gemini 15 Flash, Arapça, Fransızca, İspanyolca, Almanca, Çince ve daha fazlası dahil olmak üzere onlarca dili destekler.
 
-## SSS Bölümü
-
-1. **Aspose.Words'ü Java ile kullanmak için sistem gereksinimleri nelerdir?**
-   - JDK 8 veya üzeri sürüme ve IntelliJ IDEA gibi uyumlu bir IDE'ye ihtiyacınız var.
-2. **OpenAI veya Google AI servisleri için API anahtarı nasıl edinebilirim?**
-   - Geliştirme amaçlı API anahtarlarına erişmek için ilgili platformlara kayıt olun.
-3. **Aspose.Words for Java'yı ticari projelerde kullanabilir miyim?**
-   - Evet, ancak Aspose'dan uygun bir lisans almanız gerekir.
-4. **Gemini modelini kullanarak metinleri hangi dillere çevirebilirim?**
-   - Gemini 15 Flash modeli Arapça, Fransızca ve daha fazlası dahil olmak üzere birden fazla dili destekliyor.
-5. **Bu araçlarla büyük belgeleri nasıl verimli bir şekilde yönetebilirim?**
-   - Görevleri daha küçük parçalara bölün ve kaynak tüketimini etkili bir şekilde yönetmek için API kullanımını optimize edin.
+**S: Çok büyük belgeleri verimli bir şekilde nasıl ele almalı?**  
+A: Belgeyi daha küçük bölümlere ayırın, her bölümü ayrı ayrı işleyin ve ardından sonuçları birleştirin.
 
 ## Kaynaklar
 
-- [Aspose.Words Belgeleri](https://reference.aspose.com/words/java/)
-- [Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
+- [Aspose.Words Dokümantasyonu](https://reference.aspose.com/words/java/)
+- [Aspose.Words İndir](https://releases.aspose.com/words/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme Sürümü](https://releases.aspose.com/words/java/)
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
 - [Aspose Topluluk Desteği](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-01-16  
+**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose
