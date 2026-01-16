@@ -1,10 +1,13 @@
 ---
-"description": "Java के लिए Aspose.Words की शक्ति अनलॉक करें। सहज दस्तावेज़ प्रबंधन के लिए दस्तावेज़ विकल्प और सेटिंग्स में महारत हासिल करें। ऑप्टिमाइज़ करें, कस्टमाइज़ करें और बहुत कुछ करें।"
-"linktitle": "दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना"
-"url": "/hi/java/document-manipulation/using-document-options-and-settings/"
-"weight": 31
+date: 2026-01-16
+description: Aspose.Words for Java का उपयोग करके Word में वर्तनी त्रुटियों को हाइलाइट
+  करना सीखें, और प्रति पंक्ति अक्षर सेट करना, दृश्य विकल्पों को अनुकूलित करना, तथा
+  शैलियों को साफ़ करना कैसे करें, यह जानें।
+linktitle: Using Document Options and Settings
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words Java के साथ Word में वर्तनी त्रुटियों को हाइलाइट करें
+url: /hi/java/document-manipulation/using-document-options-and-settings/
+weight: 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +16,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करना
+# Aspose.Words for Java में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग
 
+## Aspose.Words for Java में दस्तावेज़ विकल्प और सेटिंग्स के उपयोग का परिचय
 
-## जावा के लिए Aspose.Words में दस्तावेज़ विकल्प और सेटिंग्स का उपयोग करने का परिचय
+इस व्यापक गाइड में, आप Aspose.Words for Java का उपयोग करके **Word में वर्तनी त्रुटियों को हाइलाइट करने** का तरीका सीखेंगे, साथ ही व्यूइंग विकल्प, पेज लेआउट, और स्टाइल क्लीनअप जैसी संबंधित सेटिंग्स में निपुणता प्राप्त करेंगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, नीचे दिए गए उदाहरण आपको मजबूत, त्रुटि‑सजग दस्तावेज़ बनाने में मदद करेंगे जो विभिन्न Word संस्करणों में काम करेंगे।
 
-इस व्यापक गाइड में, हम दस्तावेज़ विकल्पों और सेटिंग्स के साथ काम करने के लिए Aspose.Words for Java की शक्तिशाली सुविधाओं का लाभ उठाने का तरीका जानेंगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, आपको अपने दस्तावेज़ प्रसंस्करण कार्यों को बढ़ाने के लिए मूल्यवान जानकारी और व्यावहारिक उदाहरण मिलेंगे।
+## त्वरित उत्तर
+- **मैं Word में वर्तनी त्रुटियों को कैसे हाइलाइट कर सकता हूँ?** `Document` ऑब्जेक्ट पर `setShowSpellingErrors(true)` का उपयोग करें।  
+- **क्या मैं व्याकरणिक त्रुटियों को भी दिखा सकता हूँ?** हाँ—`setShowGrammaticalErrors(true)` को कॉल करें।  
+- **लाइन प्रति अक्षर सेट करने की विधि कौन सी है?** `getPageSetup().setCharactersPerLine(int)`।  
+- **कौन सा API विशिष्ट Word संस्करण के लिए ऑप्टिमाइज़ करता है?** `doc.getCompatibilityOptions().optimizeFor(MsWordVersion)`।  
+- **क्या अनउपयोगी स्टाइल्स को साफ़ करने का कोई तरीका है?** `CleanupOptions` के साथ `setUnusedStyles(true)` का उपयोग करें और `doc.cleanup(options)` को कॉल करें।
 
-## संगतता के लिए दस्तावेज़ों का अनुकूलन
+## Word में वर्तनी त्रुटियों को हाइलाइट कैसे करें?
+
+Aspose.Words वर्तनी‑त्रुटि हाइलाइटिंग को सक्षम करना आसान बनाता है। जब दस्तावेज़ Microsoft Word में खोला जाता है, तो गलत लिखे शब्द परिचित लाल रेखा के साथ दिखते हैं, जिससे अंतिम उपयोगकर्ता तुरंत समस्याओं को पहचान सकते हैं।
+
+## लाइन प्रति अक्षर कैसे सेट करें
+
+लाइन प्रति अक्षर की संख्या को नियंत्रित करना निश्चित‑चौड़ाई वाले लेआउट (जैसे कोड लिस्टिंग या पुरानी फ़ॉर्म) के लिए आवश्यक है। `PageSetup` क्लास `setCharactersPerLine(int)` प्रदान करती है जो आपको इस मान को सटीक रूप से निर्धारित करने देती है।
+
+## व्याकरणिक त्रुटियों को कैसे दिखाएँ
+
+वर्तनी के अलावा, आप व्याकरणिक‑त्रुटि प्रदर्शन को भी सक्षम कर सकते हैं। यह उन सामग्री के मसौदे के लिए उपयोगी है जिन्हें शैली गाइड का पालन करना होता है या प्रूफ़रीडिंग टूल बनाने के लिए।
+
+## संगतता के लिए दस्तावेज़ों का ऑप्टिमाइज़ेशन
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -28,9 +49,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx");
 ```
 
-दस्तावेज़ प्रबंधन का एक मुख्य पहलू Microsoft Word के विभिन्न संस्करणों के साथ संगतता सुनिश्चित करना है। Java के लिए Aspose.Words विशिष्ट Word संस्करणों के लिए दस्तावेज़ों को अनुकूलित करने का एक सीधा तरीका प्रदान करता है। उपरोक्त उदाहरण में, हम Word 2016 के लिए एक दस्तावेज़ को अनुकूलित करते हैं, जिससे निर्बाध संगतता सुनिश्चित होती है।
+दस्तावेज़ प्रबंधन का एक प्रमुख पहलू विभिन्न Microsoft Word संस्करणों के साथ संगतता सुनिश्चित करना है। Aspose.Words for Java विशिष्ट Word संस्करणों के लिए दस्तावेज़ों को ऑप्टिमाइज़ करने का सरल तरीका प्रदान करता है। ऊपर के उदाहरण में, हम एक दस्तावेज़ को Word 2016 के लिए ऑप्टिमाइज़ करते हैं, जिससे सहज संगतता सुनिश्चित होती है।
 
-## व्याकरणिक और वर्तनी संबंधी त्रुटियों की पहचान करना
+## व्याकरणिक और वर्तनी त्रुटियों की पहचान
 
 ```java
 @Test
@@ -43,16 +64,16 @@ public void showGrammaticalAndSpellingErrors() throws Exception
 }
 ```
 
-दस्तावेजों से निपटते समय सटीकता सर्वोपरि है। Aspose.Words for Java आपको अपने दस्तावेज़ों में व्याकरण और वर्तनी संबंधी त्रुटियों को उजागर करने में सक्षम बनाता है, जिससे प्रूफरीडिंग और संपादन अधिक कुशल हो जाता है।
+दस्तावेज़ों के साथ काम करते समय सटीकता अत्यंत महत्वपूर्ण है। Aspose.Words for Java आपको आपके दस्तावेज़ों में व्याकरणिक और वर्तनी त्रुटियों को हाइलाइट करने की सुविधा देता है, जिससे प्रूफ़रीडिंग और संपादन अधिक कुशल बनता है।
 
-## अप्रयुक्त शैलियों और सूचियों को साफ करना
+## अनउपयोगी स्टाइल्स और सूचियों को साफ़ करना
 
 ```java
 @Test
 public void cleanupUnusedStylesAndLists() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Unused styles.docx");
-    // सफ़ाई विकल्प परिभाषित करें
+    // Define cleanup options
     CleanupOptions cleanupOptions = new CleanupOptions();
     cleanupOptions.setUnusedLists(false);
     cleanupOptions.setUnusedStyles(true);
@@ -61,16 +82,16 @@ public void cleanupUnusedStylesAndLists() throws Exception
 }
 ```
 
-दस्तावेज़ की स्थिरता बनाए रखने के लिए दस्तावेज़ शैलियों और सूचियों को कुशलतापूर्वक प्रबंधित करना आवश्यक है। Aspose.Words for Java आपको अप्रयुक्त शैलियों और सूचियों को साफ़ करने की अनुमति देता है, जिससे एक सुव्यवस्थित और संगठित दस्तावेज़ संरचना सुनिश्चित होती है।
+दस्तावेज़ स्टाइल्स और सूचियों का कुशल प्रबंधन दस्तावेज़ की स्थिरता बनाए रखने के लिए आवश्यक है। Aspose.Words for Java आपको अनउपयोगी स्टाइल्स और सूचियों को साफ़ करने की अनुमति देता है, जिससे एक सुव्यवस्थित और संगठित दस्तावेज़ संरचना सुनिश्चित होती है।
 
-## डुप्लिकेट शैलियाँ हटाना
+## डुप्लिकेट स्टाइल्स को हटाना
 
 ```java
 @Test
 public void cleanupDuplicateStyle() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // डुप्लिकेट शैलियाँ साफ़ करें
+    // Clean duplicate styles
     CleanupOptions options = new CleanupOptions();
     options.setDuplicateStyle(true);
     doc.cleanup(options);
@@ -78,32 +99,32 @@ public void cleanupDuplicateStyle() throws Exception
 }
 ```
 
-डुप्लिकेट स्टाइल आपके दस्तावेज़ों में भ्रम और असंगति पैदा कर सकते हैं। Aspose.Words for Java के साथ, आप आसानी से डुप्लिकेट स्टाइल हटा सकते हैं, दस्तावेज़ की स्पष्टता और सुसंगतता बनाए रख सकते हैं।
+डुप्लिकेट स्टाइल्स आपके दस्तावेज़ों में भ्रम और असंगतता पैदा कर सकते हैं। Aspose.Words for Java के साथ, आप आसानी से डुप्लिकेट स्टाइल्स को हटा सकते हैं, जिससे दस्तावेज़ की स्पष्टता और संगति बनी रहती है।
 
-## दस्तावेज़ देखने के विकल्प अनुकूलित करना
+## दस्तावेज़ व्यूइंग विकल्पों को अनुकूलित करना
 
 ```java
 @Test
 public void viewOptions() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // देखने के विकल्प अनुकूलित करें
+    // Customize viewing options
     doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
     doc.getViewOptions().setZoomPercent(50);
     doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 }
 ```
 
-अपने दस्तावेज़ों के देखने के अनुभव को अनुकूलित करना महत्वपूर्ण है। Aspose.Words for Java आपको दस्तावेज़ पठनीयता बढ़ाने के लिए पृष्ठ लेआउट और ज़ूम प्रतिशत जैसे विभिन्न देखने के विकल्प सेट करने की अनुमति देता है।
+अपने दस्तावेज़ों के व्यूइंग अनुभव को अनुकूलित करना महत्वपूर्ण है। Aspose.Words for Java आपको विभिन्न व्यूइंग विकल्प सेट करने की अनुमति देता है, जैसे पेज लेआउट और ज़ूम प्रतिशत, जिससे दस्तावेज़ की पठनीयता बढ़ती है।
 
-## दस्तावेज़ पृष्ठ सेटअप कॉन्फ़िगर करना
+## दस्तावेज़ पेज सेटअप को कॉन्फ़िगर करना
 
 ```java
 @Test
 public void documentPageSetup() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // पेज सेटअप विकल्प कॉन्फ़िगर करें
+    // Configure page setup options
     doc.getFirstSection().getPageSetup().setLayoutMode(SectionLayoutMode.GRID);
     doc.getFirstSection().getPageSetup().setCharactersPerLine(30);
     doc.getFirstSection().getPageSetup().setLinesPerPage(10);
@@ -111,19 +132,19 @@ public void documentPageSetup() throws Exception
 }
 ```
 
-दस्तावेज़ स्वरूपण के लिए सटीक पृष्ठ सेटअप महत्वपूर्ण है। Aspose.Words for Java आपको लेआउट मोड, प्रति पंक्ति वर्ण और प्रति पृष्ठ पंक्तियाँ सेट करने की शक्ति देता है, जिससे यह सुनिश्चित होता है कि आपके दस्तावेज़ दिखने में आकर्षक हों।
+सटीक पेज सेटअप दस्तावेज़ फ़ॉर्मेटिंग के लिए आवश्यक है। Aspose.Words for Java आपको लेआउट मोड, **लाइन प्रति अक्षर**, और पेज प्रति पंक्तियों को सेट करने की शक्ति देता है, जिससे आपके दस्तावेज़ दृश्यात्मक रूप से आकर्षक बनते हैं।
 
-## संपादन भाषाएँ सेट करना
+## संपादन भाषाओं को सेट करना
 
 ```java
 @Test
 public void addJapaneseAsEditingLanguages() throws Exception
 {
     LoadOptions loadOptions = new LoadOptions();
-    // संपादन के लिए भाषा प्राथमिकताएँ निर्धारित करें
+    // Set language preferences for editing
     loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
     Document doc = new Document("Your Directory Path" + "No default editing language.docx", loadOptions);
-    // ओवरराइड की गई संपादन भाषा की जाँच करें
+    // Check the overridden editing language
     int localeIdFarEast = doc.getStyles().getDefaultFont().getLocaleIdFarEast();
     System.out.println(localeIdFarEast == (int) EditingLanguage.JAPANESE
             ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
@@ -131,18 +152,17 @@ public void addJapaneseAsEditingLanguages() throws Exception
 }
 ```
 
-संपादन भाषाएँ दस्तावेज़ प्रसंस्करण में महत्वपूर्ण भूमिका निभाती हैं। Aspose.Words for Java के साथ, आप अपने दस्तावेज़ की भाषाई ज़रूरतों के अनुरूप संपादन भाषाएँ सेट और कस्टमाइज़ कर सकते हैं।
-
+संपादन भाषाएँ दस्तावेज़ प्रसंस्करण में महत्वपूर्ण भूमिका निभाती हैं। Aspose.Words for Java के साथ, आप अपने दस्तावेज़ की भाषाई आवश्यकताओं के अनुसार संपादन भाषाओं को सेट और अनुकूलित कर सकते हैं।
 
 ## निष्कर्ष
 
-इस गाइड में, हमने Aspose.Words for Java में उपलब्ध विभिन्न दस्तावेज़ विकल्पों और सेटिंग्स के बारे में विस्तार से बताया है। ऑप्टिमाइज़ेशन और त्रुटि प्रदर्शन से लेकर स्टाइल क्लीनअप और देखने के विकल्पों तक, यह शक्तिशाली लाइब्रेरी आपके दस्तावेज़ों को प्रबंधित करने और अनुकूलित करने के लिए व्यापक क्षमताएँ प्रदान करती है।
+इस गाइड में, हमने Aspose.Words for Java में उपलब्ध विभिन्न दस्तावेज़ विकल्पों और सेटिंग्स को विस्तृत रूप से समझा। ऑप्टिमाइज़ेशन और त्रुटि प्रदर्शन से लेकर स्टाइल क्लीनअप और व्यूइंग विकल्पों तक, यह शक्तिशाली लाइब्रेरी आपके दस्तावेज़ों को प्रबंधित और अनुकूलित करने के लिए व्यापक क्षमताएँ प्रदान करती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### मैं किसी दस्तावेज़ को किसी विशिष्ट Word संस्करण के लिए कैसे अनुकूलित करूँ?
+### मैं किसी विशिष्ट Word संस्करण के लिए दस्तावेज़ को कैसे ऑप्टिमाइज़ करूँ?
 
-किसी दस्तावेज़ को किसी विशिष्ट Word संस्करण के लिए अनुकूलित करने के लिए, का उपयोग करें `optimizeFor` विधि और वांछित संस्करण निर्दिष्ट करें। उदाहरण के लिए, Word 2016 के लिए अनुकूलन करने के लिए:
+किसी विशिष्ट Word संस्करण के लिए दस्तावेज़ को ऑप्टिमाइज़ करने के लिए, `optimizeFor` मेथड का उपयोग करें और इच्छित संस्करण निर्दिष्ट करें। उदाहरण के लिए, Word 2016 के लिए ऑप्टिमाइज़ करने हेतु:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -150,9 +170,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "OptimizedForWord2016.docx");
 ```
 
-### मैं किसी दस्तावेज़ में व्याकरण और वर्तनी संबंधी त्रुटियों को कैसे उजागर कर सकता हूँ?
+### मैं दस्तावेज़ में व्याकरणिक और वर्तनी त्रुटियों को कैसे हाइलाइट करूँ?
 
-आप निम्नलिखित कोड का उपयोग करके किसी दस्तावेज़ में व्याकरणिक और वर्तनी संबंधी त्रुटियों का प्रदर्शन सक्षम कर सकते हैं:
+आप निम्नलिखित कोड का उपयोग करके दस्तावेज़ में व्याकरणिक और वर्तनी त्रुटियों को प्रदर्शित करने को सक्षम कर सकते हैं:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -161,13 +181,13 @@ doc.setShowSpellingErrors(true);
 doc.save("Your Directory Path" + "ShowErrors.docx");
 ```
 
-### अप्रयुक्त शैलियों और सूचियों को साफ़ करने का उद्देश्य क्या है?
+### अनउपयोगी स्टाइल्स और सूचियों को साफ़ करने का उद्देश्य क्या है?
 
-अप्रयुक्त शैलियों और सूचियों को साफ करने से स्वच्छ और संगठित दस्तावेज़ संरचना बनाए रखने में मदद मिलती है। यह अनावश्यक अव्यवस्था को दूर करता है, दस्तावेज़ की पठनीयता और स्थिरता में सुधार करता है।
+अनउपयोगी स्टाइल्स और सूचियों को साफ़ करने से एक साफ़ और व्यवस्थित दस्तावेज़ संरचना बनाए रखने में मदद मिलती है। यह अनावश्यक अव्यवस्था को हटाता है, जिससे दस्तावेज़ की पठनीयता और स्थिरता में सुधार होता है।
 
-### मैं किसी दस्तावेज़ से डुप्लिकेट शैलियाँ कैसे हटा सकता हूँ?
+### मैं दस्तावेज़ से डुप्लिकेट स्टाइल्स को कैसे हटा सकता हूँ?
 
-किसी दस्तावेज़ से डुप्लिकेट शैलियाँ हटाने के लिए, का उपयोग करें `cleanup` विधि के साथ `duplicateStyle` विकल्प सेट करें `true`यहाँ एक उदाहरण है:
+दस्तावेज़ से डुप्लिकेट स्टाइल्स को हटाने के लिए, `duplicateStyle` विकल्प को `true` सेट करके `cleanup` मेथड का उपयोग करें। यहाँ एक उदाहरण है:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,9 +197,9 @@ doc.cleanup(options);
 doc.save("Your Directory Path" + "CleanedDocument.docx");
 ```
 
-### मैं किसी दस्तावेज़ के लिए देखने के विकल्प को कैसे अनुकूलित करूँ?
+### मैं दस्तावेज़ के व्यूइंग विकल्पों को कैसे अनुकूलित करूँ?
 
-आप दस्तावेज़ देखने के विकल्पों को अनुकूलित कर सकते हैं `ViewOptions` क्लास. उदाहरण के लिए, दृश्य प्रकार को पेज लेआउट और ज़ूम को 50% पर सेट करने के लिए:
+आप `ViewOptions` क्लास का उपयोग करके दस्तावेज़ के व्यूइंग विकल्पों को अनुकूलित कर सकते हैं। उदाहरण के लिए, व्यू टाइप को पेज लेआउट पर सेट करने और ज़ूम को 50% करने के लिए:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -188,13 +208,23 @@ doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
 
+## अतिरिक्त टिप्स और सामान्य गलतियाँ
+
+- **वर्तनी और व्याकरण दोनों जांचें** को सक्षम करें जब आपको व्यापक प्रूफ़रीडिंग की आवश्यकता हो। इन फ़्लैग्स में से किसी एक को भूलने (`setShowGrammaticalErrors` या `setShowSpellingErrors`) से त्रुटियाँ अनदेखी रह सकती हैं।
+- **लाइन प्रति अक्षर सेट करते समय**, याद रखें कि यह मान चयनित फ़ॉन्ट और पेज मार्जिन के साथ इंटरैक्ट करता है। अप्रत्याशित लाइन ब्रेक से बचने के लिए वास्तविक दस्तावेज़ लेआउट के साथ परीक्षण करें।
+- **क्लीनअप ऑपरेशन्स मूल फ़ाइल पर अपरिवर्तनीय होते हैं**। हमेशा एक कॉपी पर काम करें या मूल स्टाइलिंग को संरक्षित रखने के लिए संस्करण नियंत्रण का उपयोग करें।
+- **संपादन भाषा प्राथमिकताएँ** स्पेल‑चेक व्यवहार को प्रभावित करती हैं। यदि आप बहुभाषी दस्तावेज़ों को लक्षित कर रहे हैं, तो सभी संबंधित भाषाओं को `LanguagePreferences` में जोड़ें।
+
+---
+
+**अंतिम अपडेट:** 2026-01-16  
+**परीक्षित संस्करण:** Aspose.Words for Java 24.12  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

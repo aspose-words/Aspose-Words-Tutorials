@@ -1,10 +1,13 @@
 ---
-"description": "Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana Belge Seçenekleri ve Ayarları. Optimize Edin, Özelleştirin ve Daha Fazlası."
-"linktitle": "Belge Seçeneklerini ve Ayarlarını Kullanma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Belge Seçenekleri ve Ayarlarını Kullanma"
-"url": "/tr/java/document-manipulation/using-document-options-and-settings/"
-"weight": 31
+date: 2026-01-16
+description: Aspose.Words for Java kullanarak Word’de yazım hatalarını nasıl vurgulayacağınızı
+  öğrenin ve satır başına karakter sayısını nasıl ayarlayacağınızı, görünüm seçeneklerini
+  nasıl özelleştireceğinizi ve stilleri nasıl temizleyeceğinizi keşfedin.
+linktitle: Using Document Options and Settings
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words Java ile Word'de Yazım Hatalarını Vurgulama
+url: /tr/java/document-manipulation/using-document-options-and-settings/
+weight: 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +16,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Belge Seçenekleri ve Ayarlarını Kullanma
+# Aspose.Words for Java'da Belge Seçenekleri ve Ayarlarını Kullanma
 
+## Aspose.Words for Java'da Belge Seçenekleri ve Ayarlarını Kullanma'ya Giriş
 
-## Aspose.Words for Java'da Belge Seçenekleri ve Ayarlarının Kullanımına Giriş
+Bu kapsamlı rehberde, Aspose.Words for Java kullanarak **Word'de yazım hatalarını nasıl vurgulayacağınızı** öğrenecek ve görüntüleme seçenekleri, sayfa düzeni ve stil temizliği gibi ilgili ayarları da kavrayacaksınız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, aşağıdaki örnekler Word sürümleri arasında çalışan sağlam, hata‑bilinçli belgeler oluşturmanıza yardımcı olacaktır.
 
-Bu kapsamlı kılavuzda, belge seçenekleri ve ayarlarıyla çalışmak için Aspose.Words for Java'nın güçlü özelliklerini nasıl kullanacağınızı keşfedeceğiz. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, belge işleme görevlerinizi geliştirmek için değerli içgörüler ve pratik örnekler bulacaksınız.
+## Hızlı Yanıtlar
+- **Word'de yazım hatalarını nasıl vurgulayabilirim?** `Document` nesnesi üzerinde `setShowSpellingErrors(true)` kullanın.  
+- **Dilbilgisi hatalarını da gösterebilir miyim?** Evet—`setShowGrammaticalErrors(true)` çağırın.  
+- **Satır başına karakter sayısını ayarlayan yöntem nedir?** `getPageSetup().setCharactersPerLine(int)`.  
+- **Belirli bir Word sürümü için hangi API optimize eder?** `doc.getCompatibilityOptions().optimizeFor(MsWordVersion)`.  
+- **Kullanılmayan stilleri temizlemenin bir yolu var mı?** `setUnusedStyles(true)` ile `CleanupOptions` kullanın ve `doc.cleanup(options)` çağırın.
 
-## Uyumluluk için Belgeleri Optimize Etme
+## Word'de yazım hatalarını nasıl vurgularım?
+
+Aspose.Words, yazım hatası vurgulamayı açmayı oldukça basit hale getirir. Belge Microsoft Word'de açıldığında, yanlış yazılmış kelimeler tanıdık kırmızı alt çizgiyle görünür ve son kullanıcıların sorunları anında fark etmesini sağlar.
+
+## Satır başına karakter sayısını nasıl ayarlarsınız
+
+Satır başına karakter sayısını kontrol etmek, sabit genişlikli düzenler (ör. kod listeleri veya eski formlar) için çok önemlidir. `PageSetup` sınıfı, bu değeri tam olarak tanımlamanızı sağlayan `setCharactersPerLine(int)` metodunu sunar.
+
+## Dilbilgisi hatalarını nasıl gösterirsiniz
+
+Yazımın ötesinde, dilbilgisi hatası gösterimini de etkinleştirebilirsiniz. Bu, stil kılavuzlarına uyması gereken içerik taslağı hazırlamak veya düzeltme araçları oluşturmak için faydalıdır.
+
+## Optimizing Documents for Compatibility
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -28,9 +49,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx");
 ```
 
-Belge yönetiminin önemli bir yönü, Microsoft Word'ün farklı sürümleriyle uyumluluğu sağlamaktır. Aspose.Words for Java, belirli Word sürümleri için belgeleri optimize etmenin basit bir yolunu sunar. Yukarıdaki örnekte, Word 2016 için bir belgeyi optimize ederek sorunsuz uyumluluğu garantiliyoruz.
+Belge yönetiminin temel bir yönü, Microsoft Word'ün farklı sürümleriyle uyumluluğu sağlamaktır. Aspose.Words for Java, belgeleri belirli Word sürümleri için optimize etmenin basit bir yolunu sunar. Yukarıdaki örnekte, belgeyi Word 2016 için optimize ediyoruz ve sorunsuz uyumluluk sağlıyoruz.
 
-## Dilbilgisi ve Yazım Hatalarını Belirleme
+## Identifying Grammatical and Spelling Errors
 
 ```java
 @Test
@@ -43,16 +64,16 @@ public void showGrammaticalAndSpellingErrors() throws Exception
 }
 ```
 
-Belgelerle uğraşırken doğruluk en önemli unsurdur. Aspose.Words for Java, belgelerinizdeki dil bilgisi ve yazım hatalarını vurgulamanızı sağlayarak düzeltme ve düzenlemeyi daha verimli hale getirir.
+Belgelerle çalışırken doğruluk çok önemlidir. Aspose.Words for Java, belgelerinizde dilbilgisi ve yazım hatalarını vurgulamanızı sağlar ve bu da düzeltme ve düzenleme sürecini daha verimli kılar.
 
-## Kullanılmayan Stilleri ve Listeleri Temizleme
+## Cleaning Up Unused Styles and Lists
 
 ```java
 @Test
 public void cleanupUnusedStylesAndLists() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Unused styles.docx");
-    // Temizleme seçeneklerini tanımlayın
+    // Define cleanup options
     CleanupOptions cleanupOptions = new CleanupOptions();
     cleanupOptions.setUnusedLists(false);
     cleanupOptions.setUnusedStyles(true);
@@ -61,16 +82,16 @@ public void cleanupUnusedStylesAndLists() throws Exception
 }
 ```
 
-Belge stilleri ve listelerini etkin bir şekilde yönetmek, belge tutarlılığını korumak için önemlidir. Java için Aspose.Words, kullanılmayan stilleri ve listeleri temizlemenize olanak tanır ve böylece akıcı ve düzenli bir belge yapısı sağlar.
+Belge stillerini ve listelerini verimli bir şekilde yönetmek, belge tutarlılığını korumak için gereklidir. Aspose.Words for Java, kullanılmayan stilleri ve listeleri temizlemenizi sağlar ve böylece akıcı ve düzenli bir belge yapısı elde edilir.
 
-## Yinelenen Stilleri Kaldırma
+## Removing Duplicate Styles
 
 ```java
 @Test
 public void cleanupDuplicateStyle() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // Temiz yinelenen stiller
+    // Clean duplicate styles
     CleanupOptions options = new CleanupOptions();
     options.setDuplicateStyle(true);
     doc.cleanup(options);
@@ -78,32 +99,32 @@ public void cleanupDuplicateStyle() throws Exception
 }
 ```
 
-Yinelenen stiller belgelerinizde karışıklığa ve tutarsızlığa yol açabilir. Java için Aspose.Words ile yinelenen stilleri kolayca kaldırabilir, belgenin netliğini ve tutarlılığını koruyabilirsiniz.
+Yinelenen stiller, belgelerinizde karışıklık ve tutarsızlığa yol açabilir. Aspose.Words for Java ile yinelenen stilleri kolayca kaldırabilir ve belge netliğini ve bütünlüğünü koruyabilirsiniz.
 
-## Belge Görüntüleme Seçeneklerini Özelleştirme
+## Customizing Document Viewing Options
 
 ```java
 @Test
 public void viewOptions() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // Görüntüleme seçeneklerini özelleştirin
+    // Customize viewing options
     doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
     doc.getViewOptions().setZoomPercent(50);
     doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 }
 ```
 
-Belgelerinizin görüntüleme deneyimini kişiselleştirmek çok önemlidir. Java için Aspose.Words, belge okunabilirliğini artırmak için sayfa düzeni ve yakınlaştırma yüzdesi gibi çeşitli görüntüleme seçenekleri ayarlamanıza olanak tanır.
+Belgelerinizin görüntüleme deneyimini özelleştirmek çok önemlidir. Aspose.Words for Java, sayfa düzeni ve yakınlaştırma yüzdesi gibi çeşitli görüntüleme seçeneklerini ayarlamanıza olanak tanır ve belge okunabilirliğini artırır.
 
-## Belge Sayfa Kurulumunu Yapılandırma
+## Configuring Document Page Setup
 
 ```java
 @Test
 public void documentPageSetup() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // Sayfa kurulum seçeneklerini yapılandırın
+    // Configure page setup options
     doc.getFirstSection().getPageSetup().setLayoutMode(SectionLayoutMode.GRID);
     doc.getFirstSection().getPageSetup().setCharactersPerLine(30);
     doc.getFirstSection().getPageSetup().setLinesPerPage(10);
@@ -111,19 +132,19 @@ public void documentPageSetup() throws Exception
 }
 ```
 
-Belge biçimlendirme için hassas sayfa düzeni çok önemlidir. Java için Aspose.Words, belgelerinizin görsel olarak çekici olmasını sağlayarak düzen modlarını, satır başına karakterleri ve sayfa başına satırları ayarlamanıza olanak tanır.
+Kesin sayfa ayarı, belge biçimlendirmesi için kritik öneme sahiptir. Aspose.Words for Java, düzen modlarını, **satır başına karakter sayısını** ve sayfa başına satır sayısını ayarlamanızı sağlar ve belgelerinizin görsel olarak çekici olmasını temin eder.
 
-## Düzenleme Dillerini Ayarlama
+## Setting Editing Languages
 
 ```java
 @Test
 public void addJapaneseAsEditingLanguages() throws Exception
 {
     LoadOptions loadOptions = new LoadOptions();
-    // Düzenleme için dil tercihlerini ayarlayın
+    // Set language preferences for editing
     loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
     Document doc = new Document("Your Directory Path" + "No default editing language.docx", loadOptions);
-    // Geçersiz kılınan düzenleme dilini kontrol edin
+    // Check the overridden editing language
     int localeIdFarEast = doc.getStyles().getDefaultFont().getLocaleIdFarEast();
     System.out.println(localeIdFarEast == (int) EditingLanguage.JAPANESE
             ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
@@ -131,18 +152,17 @@ public void addJapaneseAsEditingLanguages() throws Exception
 }
 ```
 
-Düzenleme dilleri belge işlemede hayati bir rol oynar. Aspose.Words for Java ile belgenizin dilsel ihtiyaçlarına uyacak şekilde düzenleme dillerini ayarlayabilir ve özelleştirebilirsiniz.
+Düzenleme dilleri, belge işleme sürecinde hayati bir rol oynar. Aspose.Words for Java ile belgeinizin dil ihtiyaçlarına uygun olarak düzenleme dillerini ayarlayabilir ve özelleştirebilirsiniz.
 
+## Conclusion
 
-## Çözüm
+Bu rehberde, Aspose.Words for Java'da mevcut olan çeşitli belge seçenekleri ve ayarlarını inceledik. Optimizasyondan hata gösterimine, stil temizliğinden görüntüleme seçeneklerine kadar, bu güçlü kütüphane belgelerinizi yönetmek ve özelleştirmek için kapsamlı yetenekler sunar.
 
-Bu kılavuzda, Aspose.Words for Java'da bulunan çeşitli belge seçenekleri ve ayarlarını inceledik. Optimizasyon ve hata görüntülemesinden stil temizleme ve görüntüleme seçeneklerine kadar, bu güçlü kitaplık belgelerinizi yönetmek ve özelleştirmek için kapsamlı yetenekler sunar.
+## FAQ's
 
-## SSS
+### Belirli bir Word sürümü için belgeyi nasıl optimize ederim?
 
-### Belirli bir Word sürümü için bir belgeyi nasıl optimize edebilirim?
-
-Belirli bir Word sürümü için bir belgeyi optimize etmek için şunu kullanın: `optimizeFor` yöntemini seçin ve istenen sürümü belirtin. Örneğin, Word 2016 için optimize etmek için:
+Belirli bir Word sürümü için belgeyi optimize etmek üzere `optimizeFor` metodunu kullanın ve istenen sürümü belirtin. Örneğin, Word 2016 için optimize etmek:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -150,9 +170,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "OptimizedForWord2016.docx");
 ```
 
-### Bir belgedeki dil bilgisi ve yazım hatalarını nasıl vurgulayabilirim?
+### Bir belgede dilbilgisi ve yazım hatalarını nasıl vurgularım?
 
-Aşağıdaki kodu kullanarak bir belgedeki dil bilgisi ve yazım hatalarının görüntülenmesini sağlayabilirsiniz:
+Aşağıdaki kodu kullanarak bir belgede dilbilgisi ve yazım hatalarının gösterimini etkinleştirebilirsiniz:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -163,11 +183,11 @@ doc.save("Your Directory Path" + "ShowErrors.docx");
 
 ### Kullanılmayan stilleri ve listeleri temizlemenin amacı nedir?
 
-Kullanılmayan stilleri ve listeleri temizlemek, temiz ve düzenli bir belge yapısının korunmasına yardımcı olur. Gereksiz karmaşayı ortadan kaldırarak belge okunabilirliğini ve tutarlılığını artırır.
+Kullanılmayan stilleri ve listeleri temizlemek, temiz ve düzenli bir belge yapısını korumaya yardımcı olur. Gereksiz kalabalığı ortadan kaldırır, belge okunabilirliğini ve tutarlılığını artırır.
 
-### Bir belgeden yinelenen stilleri nasıl kaldırabilirim?
+### Bir belgede yinelenen stilleri nasıl kaldırırım?
 
-Bir belgeden yinelenen stilleri kaldırmak için şunu kullanın: `cleanup` yöntemle `duplicateStyle` seçenek ayarlandı `true`İşte bir örnek:
+Bir belgede yinelenen stilleri kaldırmak için `duplicateStyle` seçeneği `true` olarak ayarlanmış `cleanup` metodunu kullanın. İşte bir örnek:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,9 +197,9 @@ doc.cleanup(options);
 doc.save("Your Directory Path" + "CleanedDocument.docx");
 ```
 
-### Bir belgenin görüntüleme seçeneklerini nasıl özelleştirebilirim?
+### Bir belgenin görüntüleme seçeneklerini nasıl özelleştiririm?
 
-Belge görüntüleme seçeneklerini kullanarak özelleştirebilirsiniz. `ViewOptions` sınıf. Örneğin, görünüm türünü sayfa düzeni olarak ayarlamak ve yakınlaştırmayı %50'ye çıkarmak için:
+`ViewOptions` sınıfını kullanarak belge görüntüleme seçeneklerini özelleştirebilirsiniz. Örneğin, görünüm tipini sayfa düzeni olarak ayarlamak ve yakınlaştırmayı %50 yapmak için:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -188,13 +208,23 @@ doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
 
+## Additional Tips & Common Pitfalls
+
+- **Hem yazım hem de dilbilgisi denetimlerini etkinleştirin** kapsamlı bir düzeltme gerektiğinde. Bayraklardan birini (`setShowGrammaticalErrors` veya `setShowSpellingErrors`) unutmak hataların gözden kaçmasına neden olabilir.
+- **Satır başına karakter sayısını ayarlarken**, değerin seçilen yazı tipi ve sayfa kenar boşluklarıyla etkileşime girdiğini unutmayın. Beklenmedik satır sonlarından kaçınmak için gerçek belge düzeniyle test edin.
+- **Temizleme işlemleri orijinal dosyada geri alınamaz**. Her zaman bir kopya üzerinde çalışın veya orijinal stilin korunması için sürüm kontrolü kullanın.
+- **Düzenleme dili tercihleri** yazım denetimi davranışını etkiler. Çok dilli belgeler hedefliyorsanız, ilgili tüm dilleri `LanguagePreferences` içine ekleyin.
+
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

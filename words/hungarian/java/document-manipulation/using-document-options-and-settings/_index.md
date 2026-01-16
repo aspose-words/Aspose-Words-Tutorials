@@ -1,10 +1,13 @@
 ---
-"description": "Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállítások és opciók a zökkenőmentes dokumentumkezeléshez. Optimalizálás, testreszabás és sok más."
-"linktitle": "Dokumentumbeállítások és -beállítások használata"
-"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
-"title": "Dokumentumbeállítások és -opciók használata az Aspose.Words for Java programban"
-"url": "/hu/java/document-manipulation/using-document-options-and-settings/"
-"weight": 31
+date: 2026-01-16
+description: Ismerje meg, hogyan emelheti ki a helyesírási hibákat a Wordben az Aspose.Words
+  for Java segítségével, és fedezze fel, hogyan állíthatja be a soronkénti karakterek
+  számát, testreszabhatja a nézetbeállításokat, valamint tisztíthatja meg a stílusokat.
+linktitle: Using Document Options and Settings
+second_title: Aspose.Words Java Document Processing API
+title: Helyesírási hibák kiemelése a Wordben az Aspose.Words Java segítségével
+url: /hu/java/document-manipulation/using-document-options-and-settings/
+weight: 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +16,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumbeállítások és -opciók használata az Aspose.Words for Java programban
+# Dokumentum opciók és beállítások használata az Aspose.Words for Java-ban
 
+## Bevezetés a dokumentum opciók és beállítások használatába az Aspose.Words for Java-ban
 
-## Bevezetés a dokumentumbeállítások és -opciók használatába az Aspose.Words for Java programban
+Ebben az átfogó útmutatóban megtanulja, **hogyan emelje ki a helyesírási hibákat a Wordben** az Aspose.Words for Java használatával, miközben elsajátítja a kapcsolódó beállításokat, például a megjelenítési opciókat, az oldalelrendezést és a stílus tisztítást. Akár tapasztalt fejlesztő, akár most kezd, az alábbi példák segítenek robusztus, hibákra figyelő dokumentumok létrehozásában, amelyek minden Word verzióval kompatibilisek.
 
-Ebben az átfogó útmutatóban azt vizsgáljuk meg, hogyan használhatjuk ki az Aspose.Words hatékony Java-funkcióit a dokumentumbeállítások és -opciók kezeléséhez. Akár tapasztalt fejlesztő vagy, akár most kezded, értékes betekintést és gyakorlati példákat találsz a dokumentumfeldolgozási feladatok fejlesztéséhez.
+## Gyors válaszok
+- **Hogyan emelhetem ki a helyesírási hibákat a Wordben?** Használja a `setShowSpellingErrors(true)` metódust a `Document` objektumon.  
+- **Megjeleníthetek grammatikai hibákat is?** Igen—hívja a `setShowGrammaticalErrors(true)` metódust.  
+- **Melyik metódus állítja be a soronkénti karakterek számát?** `getPageSetup().setCharactersPerLine(int)`.  
+- **Melyik API optimalizál egy adott Word verzióra?** `doc.getCompatibilityOptions().optimizeFor(MsWordVersion)`.  
+- **Van mód a nem használt stílusok tisztítására?** Használja a `CleanupOptions`-t a `setUnusedStyles(true)` beállítással, majd hívja a `doc.cleanup(options)` metódust.
 
-## Dokumentumok optimalizálása a kompatibilitás érdekében
+## Hogyan emeljük ki a helyesírási hibákat a Wordben?
+
+Az Aspose.Words egyszerűvé teszi a helyesírási hibák kiemelésének bekapcsolását. Amikor a dokumentumot a Microsoft Wordben nyitják meg, a helytelenül írt szavak a jól ismert piros aláhúzással jelennek meg, segítve a felhasználókat a hibák azonnali észlelésében.
+
+## Hogyan állítsuk be a soronkénti karakterek számát
+
+A soronkénti karakterek számának szabályozása elengedhetetlen a fix szélességű elrendezésekhez (pl. kódlisták vagy régi űrlapok). A `PageSetup` osztály a `setCharactersPerLine(int)` metódust biztosítja, amely lehetővé teszi ennek az értéknek a pontos meghatározását.
+
+## Hogyan jelenítsük meg a grammatikai hibákat
+
+A helyesírási hibákon túl lehetővé teheti a grammatikai hibák megjelenítését is. Ez hasznos a stílus útmutatók betartására szánt tartalom tervezésekor vagy a lektoráló eszközök építésekor.
+
+## Dokumentumok optimalizálása kompatibilitásra
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -28,9 +49,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx");
 ```
 
-A dokumentumkezelés egyik kulcsfontosságú aspektusa a Microsoft Word különböző verzióival való kompatibilitás biztosítása. Az Aspose.Words for Java egyszerű módszert kínál a dokumentumok optimalizálására adott Word-verziókhoz. A fenti példában egy dokumentumot optimalizálunk a Word 2016-hoz, biztosítva a zökkenőmentes kompatibilitást.
+A dokumentumkezelés egyik kulcsfontosságú szempontja a kompatibilitás biztosítása a Microsoft Word különböző verzióival. Az Aspose.Words for Java egyszerű módot kínál a dokumentumok optimalizálására adott Word verziókra. A fenti példában egy dokumentumot optimalizálunk a Word 2016-ra, ezzel biztosítva a zökkenőmentes kompatibilitást.
 
-## Nyelvtani és helyesírási hibák azonosítása
+## Grammatikai és helyesírási hibák azonosítása
 
 ```java
 @Test
@@ -43,7 +64,7 @@ public void showGrammaticalAndSpellingErrors() throws Exception
 }
 ```
 
-A pontosság kiemelkedő fontosságú a dokumentumok kezelésekor. Az Aspose.Words for Java lehetővé teszi a dokumentumokban található nyelvtani és helyesírási hibák kiemelését, így a korrektúra és a szerkesztés hatékonyabbá válik.
+A pontosság elengedhetetlen a dokumentumok kezelésekor. Az Aspose.Words for Java lehetővé teszi a grammatikai és helyesírási hibák kiemelését a dokumentumokban, ezáltal hatékonyabbá téve a lektorálást és a szerkesztést.
 
 ## Nem használt stílusok és listák tisztítása
 
@@ -52,7 +73,7 @@ A pontosság kiemelkedő fontosságú a dokumentumok kezelésekor. Az Aspose.Wor
 public void cleanupUnusedStylesAndLists() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Unused styles.docx");
-    // Tisztítási beállítások meghatározása
+    // Define cleanup options
     CleanupOptions cleanupOptions = new CleanupOptions();
     cleanupOptions.setUnusedLists(false);
     cleanupOptions.setUnusedStyles(true);
@@ -61,16 +82,16 @@ public void cleanupUnusedStylesAndLists() throws Exception
 }
 ```
 
-A dokumentumstílusok és listák hatékony kezelése elengedhetetlen a dokumentum konzisztenciájának fenntartásához. Az Aspose.Words for Java lehetővé teszi a nem használt stílusok és listák eltávolítását, biztosítva a dokumentum egyszerűsített és szervezett szerkezetét.
+A dokumentumstílusok és listák hatékony kezelése elengedhetetlen a dokumentumkonzisztencia fenntartásához. Az Aspose.Words for Java lehetővé teszi a nem használt stílusok és listák tisztítását, biztosítva egy letisztult és rendezett dokumentumszerkezetet.
 
-## Ismétlődő stílusok eltávolítása
+## Duplikált stílusok eltávolítása
 
 ```java
 @Test
 public void cleanupDuplicateStyle() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // Ismétlődő stílusok törlése
+    // Clean duplicate styles
     CleanupOptions options = new CleanupOptions();
     options.setDuplicateStyle(true);
     doc.cleanup(options);
@@ -78,23 +99,23 @@ public void cleanupDuplicateStyle() throws Exception
 }
 ```
 
-Az ismétlődő stílusok zavart és következetlenségeket okozhatnak a dokumentumokban. Az Aspose.Words for Java segítségével könnyedén eltávolíthatja az ismétlődő stílusokat, megőrizve a dokumentum érthetőségét és koherenciáját.
+A duplikált stílusok zavarhoz és következetlenséghez vezethetnek a dokumentumokban. Az Aspose.Words for Java segítségével egyszerűen eltávolíthatja a duplikált stílusokat, megőrizve a dokumentum átláthatóságát és koherenciáját.
 
-## Dokumentummegtekintési beállítások testreszabása
+## Dokumentum megjelenítési beállításainak testreszabása
 
 ```java
 @Test
 public void viewOptions() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // Megtekintési beállítások testreszabása
+    // Customize viewing options
     doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
     doc.getViewOptions().setZoomPercent(50);
     doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 }
 ```
 
-dokumentumok megtekintési élményének testreszabása kulcsfontosságú. Az Aspose.Words for Java lehetővé teszi különféle megtekintési beállítások, például az oldalelrendezés és a nagyítási százalék beállítását a dokumentum olvashatóságának javítása érdekében.
+A dokumentumok megjelenítési élményének testreszabása kulcsfontosságú. Az Aspose.Words for Java lehetővé teszi különféle megjelenítési opciók beállítását, például az oldalelrendezést és a nagyítási százalékot, a dokumentum olvashatóságának javítása érdekében.
 
 ## Dokumentum oldalbeállításainak konfigurálása
 
@@ -103,7 +124,7 @@ dokumentumok megtekintési élményének testreszabása kulcsfontosságú. Az As
 public void documentPageSetup() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // Oldalbeállítások konfigurálása
+    // Configure page setup options
     doc.getFirstSection().getPageSetup().setLayoutMode(SectionLayoutMode.GRID);
     doc.getFirstSection().getPageSetup().setCharactersPerLine(30);
     doc.getFirstSection().getPageSetup().setLinesPerPage(10);
@@ -111,7 +132,7 @@ public void documentPageSetup() throws Exception
 }
 ```
 
-A pontos oldalbeállítás kulcsfontosságú a dokumentum formázásához. Az Aspose.Words for Java lehetővé teszi az elrendezési módok, a soronkénti karakterek és az oldalankénti sorok beállítását, biztosítva, hogy dokumentumai vizuálisan vonzóak legyenek.
+A pontos oldalbeállítás elengedhetetlen a dokumentumformázáshoz. Az Aspose.Words for Java lehetővé teszi az elrendezési módok, **karakterek soronként**, és sorok oldalanként beállítását, biztosítva, hogy a dokumentumok vizuálisan vonzóak legyenek.
 
 ## Szerkesztési nyelvek beállítása
 
@@ -120,10 +141,10 @@ A pontos oldalbeállítás kulcsfontosságú a dokumentum formázásához. Az As
 public void addJapaneseAsEditingLanguages() throws Exception
 {
     LoadOptions loadOptions = new LoadOptions();
-    // Nyelvi beállítások megadása a szerkesztéshez
+    // Set language preferences for editing
     loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
     Document doc = new Document("Your Directory Path" + "No default editing language.docx", loadOptions);
-    // Ellenőrizze a felülírt szerkesztési nyelvet
+    // Check the overridden editing language
     int localeIdFarEast = doc.getStyles().getDefaultFont().getLocaleIdFarEast();
     System.out.println(localeIdFarEast == (int) EditingLanguage.JAPANESE
             ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
@@ -131,18 +152,17 @@ public void addJapaneseAsEditingLanguages() throws Exception
 }
 ```
 
-A szerkesztőnyelvek létfontosságú szerepet játszanak a dokumentumfeldolgozásban. Az Aspose.Words for Java segítségével beállíthatja és testreszabhatja a szerkesztőnyelveket a dokumentum nyelvi igényeinek megfelelően.
-
+A szerkesztési nyelvek kulcsfontosságú szerepet játszanak a dokumentumfeldolgozásban. Az Aspose.Words for Java segítségével beállíthatja és testreszabhatja a szerkesztési nyelveket, hogy megfeleljenek a dokumentum nyelvi igényeinek.
 
 ## Következtetés
 
-Ebben az útmutatóban részletesen áttekintettük az Aspose.Words for Java programban elérhető különféle dokumentumbeállításokat és opciókat. Az optimalizálástól és a hibamegjelenítéstől kezdve a stílustisztításon és a megtekintési lehetőségeken át ez a hatékony könyvtár széleskörű lehetőségeket kínál a dokumentumok kezeléséhez és testreszabásához.
+Ebben az útmutatóban részletesen megvizsgáltuk az Aspose.Words for Java által kínált különféle dokumentum opciókat és beállításokat. Az optimalizálástól és a hibamegjelenítéstől a stílus tisztításáig és a megjelenítési opciókig ez a hatékony könyvtár széleskörű lehetőségeket nyújt a dokumentumok kezelésére és testreszabására.
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### Hogyan optimalizálhatok egy dokumentumot egy adott Word verzióhoz?
+### Hogyan optimalizálok egy dokumentumot egy adott Word verzióra?
 
-Egy dokumentum adott Word-verzióhoz való optimalizálásához használja a `optimizeFor` metódust, és adja meg a kívánt verziót. Például a Word 2016-ra való optimalizáláshoz:
+Egy dokumentum egy adott Word verzióra történő optimalizálásához használja az `optimizeFor` metódust, és adja meg a kívánt verziót. Például a Word 2016-ra optimalizáláshoz:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -150,9 +170,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "OptimizedForWord2016.docx");
 ```
 
-### Hogyan emelhetem ki a nyelvtani és helyesírási hibákat egy dokumentumban?
+### Hogyan emelhetem ki a grammatikai és helyesírási hibákat egy dokumentumban?
 
-A következő kóddal engedélyezheti a nyelvtani és helyesírási hibák megjelenítését egy dokumentumban:
+A dokumentumban a grammatikai és helyesírási hibák megjelenítését a következő kóddal engedélyezheti:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -161,13 +181,13 @@ doc.setShowSpellingErrors(true);
 doc.save("Your Directory Path" + "ShowErrors.docx");
 ```
 
-### Mi a célja a nem használt stílusok és listák törlésének?
+### Mi a célja a nem használt stílusok és listák tisztításának?
 
-A nem használt stílusok és listák kitakarítása segít megőrizni a dokumentum szerkezetének tisztaságát és rendezettségét. Eltávolítja a felesleges rendetlenséget, javítja a dokumentum olvashatóságát és következetességét.
+A nem használt stílusok és listák tisztítása segít egy tiszta és rendezett dokumentumszerkezet fenntartásában. Eltávolítja a felesleges zsúfoltságot, javítva a dokumentum olvashatóságát és konzisztenciáját.
 
-### Hogyan távolíthatok el ismétlődő stílusokat egy dokumentumból?
+### Hogyan távolíthatok el duplikált stílusokat egy dokumentumból?
 
-dokumentumból ismétlődő stílusok eltávolításához használja a `cleanup` módszer a `duplicateStyle` opció beállítva erre: `true`Íme egy példa:
+A duplikált stílusok egy dokumentumból történő eltávolításához használja a `cleanup` metódust a `duplicateStyle` opció `true` értékkel. Íme egy példa:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -177,9 +197,9 @@ doc.cleanup(options);
 doc.save("Your Directory Path" + "CleanedDocument.docx");
 ```
 
-### Hogyan szabhatom testre egy dokumentum megtekintési beállításait?
+### Hogyan testreszabhatom egy dokumentum megjelenítési beállításait?
 
-A dokumentummegtekintési beállításokat testreszabhatja a `ViewOptions` osztály. Például a nézet típusának oldalelrendezésre állításához és 50%-os nagyításhoz:
+A dokumentum megjelenítési beállításait a `ViewOptions` osztály segítségével testreszabhatja. Például a nézet típusának oldalelrendezésre és a nagyítás 50%-ra állításához:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -188,13 +208,23 @@ doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
 
+## További tippek és gyakori buktatók
+
+- **Engedélyezze a helyesírási és a nyelvtani ellenőrzést** egy átfogó lektorálás esetén. Az egyik jelző (`setShowGrammaticalErrors` vagy `setShowSpellingErrors`) elfelejtése hibák észrevétlen maradásához vezethet.
+- **Karakterek soronként beállításakor** vegye figyelembe, hogy az érték a kiválasztott betűtípussal és az oldal margóival kölcsönhatásban van. Tesztelje a tényleges dokumentum elrendezésével, hogy elkerülje a váratlan sortöréseket.
+- **A tisztítási műveletek visszafordíthatatlanok** az eredeti fájlon. Mindig dolgozzon másolaton vagy használjon verziókezelést az eredeti stílus megőrzéséhez.
+- **A szerkesztési nyelvi beállítások** befolyásolják a helyesírás-ellenőrzés viselkedését. Ha többnyelvű dokumentumokra céloz, adja hozzá az összes releváns nyelvet a `LanguagePreferences`-hez.
+
+---
+
+**Legutóbb frissítve:** 2026-01-16  
+**Tesztelve ezzel:** Aspose.Words for Java 24.12  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,11 @@
 ---
-"description": "釋放 Aspose.Words for Java 的強大功能。掌握文件選項和設置，實現無縫文件管理。優化、客製化等等。"
-"linktitle": "使用文件選項和設置"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中使用文件選項和設置"
-"url": "/zh-hant/java/document-manipulation/using-document-options-and-settings/"
-"weight": 31
+date: 2026-01-16
+description: 學習如何在 Word 中使用 Aspose.Words for Java 標示拼寫錯誤，並了解如何設定每行字元數、客製化檢視選項以及清理樣式。
+linktitle: Using Document Options and Settings
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words Java 在 Word 中突顯拼寫錯誤
+url: /zh-hant/java/document-manipulation/using-document-options-and-settings/
+weight: 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,14 +14,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用文件選項和設置
+# 在 Aspose.Words for Java 中使用文件選項與設定
 
+## 介紹在 Aspose.Words for Java 中使用文件選項與設定
 
-## Aspose.Words for Java 文件選項和設定的使用簡介
+在本完整指南中，您將學習 **如何在 Word 中標示拼寫錯誤**，同時掌握相關設定，如檢視選項、頁面佈局與樣式清理。無論您是資深開發者或剛入門，以下範例都能協助您建立具備錯誤偵測功能的穩健文件，且相容於各版本的 Word。
 
-在本綜合指南中，我們將探討如何利用 Aspose.Words for Java 的強大功能來處理文件選項和設定。無論您是經驗豐富的開發人員還是剛起步，您都會找到有價值的見解和實際範例來增強您的文件處理任務。
+## 快速解答
+- **如何在 Word 中標示拼寫錯誤？** 使用 `setShowSpellingErrors(true)` 於 `Document` 物件。  
+- **我也能顯示文法錯誤嗎？** 可以——呼叫 `setShowGrammaticalErrors(true)`。  
+- **哪個方法設定每行字元數？** `getPageSetup().setCharactersPerLine(int)`。  
+- **哪個 API 可針對特定 Word 版本進行最佳化？** `doc.getCompatibilityOptions().optimizeFor(MsWordVersion)`。  
+- **有沒有方式清除未使用的樣式？** 使用 `CleanupOptions` 並呼叫 `setUnusedStyles(true)`，再執行 `doc.cleanup(options)`。
 
-## 最佳化文件的相容性
+## 如何在 Word 中標示拼寫錯誤？
+
+Aspose.Words 讓開啟拼寫錯誤標示變得相當簡單。當文件在 Microsoft Word 中開啟時，拼寫錯誤的單字會出現熟悉的紅色底線，協助最終使用者即時發現問題。
+
+## 如何設定每行字元數
+
+控制每行的字元數對於固定寬度的版面（例如程式碼清單或舊式表單）相當重要。`PageSetup` 類別提供 `setCharactersPerLine(int)`，讓您精確定義此數值。
+
+## 如何顯示文法錯誤
+
+除了拼寫，您也可以啟用文法錯誤的顯示。這對於必須遵循寫作指南的內容草稿或建構校對工具相當有用。
+
+## 為相容性最佳化文件
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -28,9 +47,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.OptimizeForMsWord.docx");
 ```
 
-文件管理的關鍵方面是確保與不同版本的 Microsoft Word 相容。 Aspose.Words for Java 提供了一種針對特定 Word 版本最佳化文件的直接方法。在上面的範例中，我們針對 Word 2016 優化了一個文檔，確保無縫相容。
+文件管理的一個關鍵面向是確保與不同版本的 Microsoft Word 相容。Aspose.Words for Java 提供簡易方式，讓文件針對特定 Word 版本進行最佳化。上述範例將文件最佳化為 Word 2016，確保無縫相容。
 
-## 辨識文法和拼字錯誤
+## 辨識文法與拼寫錯誤
 
 ```java
 @Test
@@ -43,16 +62,16 @@ public void showGrammaticalAndSpellingErrors() throws Exception
 }
 ```
 
-處理文件時準確性至關重要。 Aspose.Words for Java 可讓您突出顯示文件中的語法和拼字錯誤，從而使校對和編輯更加有效率。
+在處理文件時，準確性至關重要。Aspose.Words for Java 讓您在文件中標示文法與拼寫錯誤，提升校對與編輯效率。
 
-## 清理未使用的樣式和列表
+## 清理未使用的樣式與清單
 
 ```java
 @Test
 public void cleanupUnusedStylesAndLists() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Unused styles.docx");
-    // 定義清理選項
+    // Define cleanup options
     CleanupOptions cleanupOptions = new CleanupOptions();
     cleanupOptions.setUnusedLists(false);
     cleanupOptions.setUnusedStyles(true);
@@ -61,16 +80,16 @@ public void cleanupUnusedStylesAndLists() throws Exception
 }
 ```
 
-有效地管理文件樣式和清單對於維護文件一致性至關重要。 Aspose.Words for Java 可讓您清理未使用的樣式和列表，確保文件結構精簡且井然有序。
+有效管理文件樣式與清單對於維持文件一致性必不可少。Aspose.Words for Java 允許您清除未使用的樣式與清單，確保文件結構精簡有序。
 
-## 刪除重複的樣式
+## 移除重複樣式
 
 ```java
 @Test
 public void cleanupDuplicateStyle() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // 清理重複的樣式
+    // Clean duplicate styles
     CleanupOptions options = new CleanupOptions();
     options.setDuplicateStyle(true);
     doc.cleanup(options);
@@ -78,7 +97,7 @@ public void cleanupDuplicateStyle() throws Exception
 }
 ```
 
-重複的樣式可能會導致文件混亂和不一致。使用 Aspose.Words for Java，您可以輕鬆刪除重複的樣式，保持文件的清晰度和連貫性。
+重複的樣式會導致文件混亂與不一致。使用 Aspose.Words for Java，您可以輕鬆移除重複樣式，維持文件的清晰與連貫。
 
 ## 自訂文件檢視選項
 
@@ -87,23 +106,23 @@ public void cleanupDuplicateStyle() throws Exception
 public void viewOptions() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // 自訂檢視選項
+    // Customize viewing options
     doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
     doc.getViewOptions().setZoomPercent(50);
     doc.save("Your Directory Path" + "WorkingWithDocumentOptionsAndSettings.ViewOptions.docx");
 }
 ```
 
-客製化文件的檢視體驗至關重要。 Aspose.Words for Java 可讓您設定各種檢視選項，例如頁面佈局和縮放百分比，以增強文件的可讀性。
+為文件打造合適的檢視體驗相當重要。Aspose.Words for Java 讓您設定各種檢視選項，如頁面佈局與縮放比例，提升文件可讀性。
 
-## 配置文檔頁面設定
+## 設定文件頁面配置
 
 ```java
 @Test
 public void documentPageSetup() throws Exception
 {
     Document doc = new Document("Your Directory Path" + "Document.docx");
-    // 配置頁面設定選項
+    // Configure page setup options
     doc.getFirstSection().getPageSetup().setLayoutMode(SectionLayoutMode.GRID);
     doc.getFirstSection().getPageSetup().setCharactersPerLine(30);
     doc.getFirstSection().getPageSetup().setLinesPerPage(10);
@@ -111,7 +130,7 @@ public void documentPageSetup() throws Exception
 }
 ```
 
-精確的頁面設定對於文件格式至關重要。 Aspose.Words for Java 可讓您設定佈局模式、每行字元數和每頁行數，確保您的文件具有視覺吸引力。
+精確的頁面配置對於文件排版至關重要。Aspose.Words for Java 讓您設定版面模式、**每行字元數** 與每頁行數，確保文件視覺上賞心悅目。
 
 ## 設定編輯語言
 
@@ -120,10 +139,10 @@ public void documentPageSetup() throws Exception
 public void addJapaneseAsEditingLanguages() throws Exception
 {
     LoadOptions loadOptions = new LoadOptions();
-    // 設定編輯語言首選項
+    // Set language preferences for editing
     loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
     Document doc = new Document("Your Directory Path" + "No default editing language.docx", loadOptions);
-    // 檢查覆蓋的編輯語言
+    // Check the overridden editing language
     int localeIdFarEast = doc.getStyles().getDefaultFont().getLocaleIdFarEast();
     System.out.println(localeIdFarEast == (int) EditingLanguage.JAPANESE
             ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
@@ -131,18 +150,17 @@ public void addJapaneseAsEditingLanguages() throws Exception
 }
 ```
 
-編輯語言在文件處理中起著至關重要的作用。使用 Aspose.Words for Java，您可以設定和自訂編輯語言以滿足文件的語言需求。
-
+編輯語言在文件處理中扮演關鍵角色。使用 Aspose.Words for Java，您可以設定與自訂編輯語言，以符合文件的語言需求。
 
 ## 結論
 
-在本指南中，我們深入研究了 Aspose.Words for Java 中可用的各種文件選項和設定。從最佳化和錯誤顯示到樣式清理和檢視選項，這個強大的函式庫提供了管理和客製化文件的廣泛功能。
+在本指南中，我們深入探討了 Aspose.Words for Java 中各種文件選項與設定。從最佳化、錯誤顯示到樣式清理與檢視選項，這套功能強大的函式庫提供了廣泛的能力，協助您管理與自訂文件。
 
-## 常見問題解答
+## 常見問題
 
-### 如何針對特定 Word 版本優化文件？
+### 如何為特定的 Word 版本最佳化文件？
 
-若要針對特定 Word 版本最佳化文檔，請使用 `optimizeFor` 方法並指定所需的版本。例如，針對 Word 2016 進行最佳化：
+使用 `optimizeFor` 方法並指定目標版本即可。例如，要最佳化為 Word 2016：
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -150,9 +168,9 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
 doc.save("Your Directory Path" + "OptimizedForWord2016.docx");
 ```
 
-### 如何突出顯示文件中的語法和拼字錯誤？
+### 如何在文件中標示文法與拼寫錯誤？
 
-您可以使用以下程式碼在文件中顯示語法和拼字錯誤：
+您可以使用以下程式碼啟用文法與拼寫錯誤的顯示：
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -161,13 +179,13 @@ doc.setShowSpellingErrors(true);
 doc.save("Your Directory Path" + "ShowErrors.docx");
 ```
 
-### 清理未使用的樣式和清單的目的是什麼？
+### 清理未使用的樣式與清單的目的為何？
 
-清理未使用的樣式和清單有助於維護乾淨、有序的文件結構。它消除了不必要的混亂，並提高了文件的可讀性和一致性。
+清理未使用的樣式與清單有助於維持文件結構的整潔與有序。它會移除不必要的雜訊，提升文件的可讀性與一致性。
 
-### 如何從文件中刪除重複的樣式？
+### 如何從文件中移除重複樣式？
 
-若要從文件中刪除重複的樣式，請使用 `cleanup` 方法與 `duplicateStyle` 選項設定為 `true`。以下是一個例子：
+使用 `cleanup` 方法，將 `duplicateStyle` 選項設為 `true` 即可。以下為範例：
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -179,7 +197,7 @@ doc.save("Your Directory Path" + "CleanedDocument.docx");
 
 ### 如何自訂文件的檢視選項？
 
-您可以使用以下方式自訂文件檢視選項 `ViewOptions` 班級。例如，將視圖類型設定為頁面佈局並縮放至 50%：
+您可以使用 `ViewOptions` 類別自訂檢視選項。例如，將檢視類型設為頁面佈局並將縮放設定為 50%：
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -188,13 +206,23 @@ doc.getViewOptions().setZoomPercent(50);
 doc.save("Your Directory Path" + "CustomView.docx");
 ```
 
+## 其他提示與常見陷阱
+
+- **同時啟用拼寫與文法檢查**，以獲得完整的校對功能。忘記設定其中一個旗標（`setShowGrammaticalErrors` 或 `setShowSpellingErrors`）可能會導致錯誤未被偵測。  
+- **設定每行字元數時**，請留意該數值會與所選字型與頁邊距互動。務必以實際文件版面測試，以免出現意外的換行。  
+- **清理操作在原始檔案上是不可逆的**。請務必在副本上執行或使用版本控制，以保留原始樣式。  
+- **編輯語言偏好**會影響拼寫檢查行為。若您的文件需支援多語言，請將所有相關語言加入 `LanguagePreferences`。
+
+---
+
+**最後更新：** 2026-01-16  
+**測試環境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
