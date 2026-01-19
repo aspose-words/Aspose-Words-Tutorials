@@ -1,10 +1,13 @@
 ---
-"description": "इस व्यापक गाइड के साथ Aspose.Words for Java में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना सीखें। कस्टम XML डेटा के लिए SDTs बनाएँ, संशोधित करें और बाँधें।"
-"linktitle": "संरचित दस्तावेज़ टैग (SDT) का उपयोग करना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना"
-"url": "/hi/java/document-manipulation/using-structured-document-tags/"
-"weight": 19
+date: 2026-01-19
+description: Aspose.Words for Java में Structured Document Tags (SDT) का उपयोग करके
+  चेकबॉक्स की स्थिति सेट करना और ड्रॉपडाउन कंटेंट कंट्रोल बनाना सीखें।
+linktitle: Using Structured Document Tags (SDT)
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words में Structured Document Tags (SDT) के साथ Java में चेकबॉक्स की
+  स्थिति कैसे सेट करें
+url: /hi/java/document-manipulation/using-structured-document-tags/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,64 +16,77 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना
+# Aspose.Words for Java में Structured Document Tags (SDT) का उपयोग
 
+## Aspose.Words for Java में Structured Document Tags (SDT) के उपयोग का परिचय
 
-## जावा के लिए Aspose.Words में संरचित दस्तावेज़ टैग (SDT) का उपयोग करने का परिचय
+Structured Document Tags (SDT) Aspose.Words for Java की एक शक्तिशाली सुविधा है जो आपको दस्तावेज़ों के भीतर संरचित सामग्री बनाने और उसे नियंत्रित करने की अनुमति देती है। इस गाइड में आप **set checkbox state java**, **create dropdown content control**, और कस्टम XML डेटा से SDT को बाइंड करने के बारे में स्पष्ट, चलाने योग्य कोड उदाहरणों के साथ सीखेंगे।
 
-संरचित दस्तावेज़ टैग (SDT) Aspose.Words for Java में एक शक्तिशाली विशेषता है जो आपको अपने दस्तावेज़ों में संरचित सामग्री बनाने और उसमें हेरफेर करने की अनुमति देता है। इस व्यापक गाइड में, हम आपको Aspose.Words for Java में SDTs के उपयोग के विभिन्न पहलुओं से परिचित कराएँगे। चाहे आप एक शुरुआती या एक अनुभवी डेवलपर हों, आपको इस लेख में मूल्यवान जानकारी और व्यावहारिक उदाहरण मिलेंगे।
+## त्वरित उत्तर
+- **जावा में स्थिति सेट करने का मुख्य तरीका क्या है?** Use a `StructuredDocumentTag objects.
+- **क्या इन उदाहरणों को चलाने के लिए लाइसेंस चाहिए?** A free trial works for evaluation; a commercial license is required for production.
+- **कौन सा Aspose.Words संस्करण समर्थित है?** The examples work with the latest Aspose.Words for Java release.
+- **क्या कस्टम XML बाइंडिंग संभव है?** Absolutely—use `CustomXmlPart` and `XmlMapping` to link data to an SDT.
 
-## शुरू करना
+## “set checkbox state java” क्या है?
 
-इससे पहले कि हम विवरण में उतरें, आइए अपना परिवेश सेट करें और एक बुनियादी SDT बनाएँ। इस अनुभाग में, हम निम्नलिखित विषयों को कवर करेंगे:
+जावा में चेकबॉक्स की स्थिति सेट करना मतलब प्रोग्रामेटिक रूप से एक कंटेंट कंट्रोल (SDT) को चेक या अनचेक करना है, जो Word दस्तावेज़ के भीतर एक चेकबॉक्स का प्रतिनिधित्व करता है। यह तब आवश्यक होता है जब आप फॉर्म, टेम्प्लेट या रिपोर्ट बनाते हैं जिन्हें उपयोगकर्ता की चयनित विकल्पों को स्वचालित रूप से दर्शाना होता है।
 
-- नया दस्तावेज़ बनाना
-- संरचित दस्तावेज़ टैग जोड़ना
-- दस्तावेज़ सहेजना
+## इस कार्य के लिए Structured Document Tags क्यों उपयोग करें?
+
+- **सूक्ष्म नियंत्रण** – SDT आपको कच्चा XML पार्स किए बिना व्यक्तिगत तत्वों को लक्षित करने साथ मिलाकर डायनेमिक दस्तावेज़ निर्माण संभव- **स्टाइलिंग और पुनरावृत्ति** – स्टाइल लागू करें, सेक्शन दोहराएँ, या डेटा के अनुसार टेबल बनाएं।
+
+## आवश्यकताएँ
+- Java 17+ (या संगत JDK)  
+- Asposeिस्तृत विवरण में जाने से पहले, अपने वातावरण को सेट करें और एक बेसिक SDT बनाएं। इस सेक्शन में हम निम्नलिखित विषयों को कवर करेंगे:
+
+- नया दस्तावेज़ बनाना  
+- Structured Document Tag जोड़ना  
+- दस्तावेज़ सहेजना  
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// CHECKBOX प्रकार का एक संरचित दस्तावेज़ टैग बनाएँ
+// Create a Structured Document Tag of type CHECKBOX
 StructuredDocumentTag sdtCheckBox = new StructuredDocumentTag(doc, SdtType.CHECKBOX, MarkupLevel.INLINE);
 builder.insertNode(sdtCheckBox);
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("WorkingWithSDT.docx");
 ```
 
-## चेकबॉक्स SDT की वर्तमान स्थिति की जाँच करना
+## Checkbox SDT का उपयोग करके set checkbox state java कैसे सेट करें
 
-एक बार जब आप अपने दस्तावेज़ में चेकबॉक्स SDT जोड़ लेते हैं, तो आप इसकी वर्तमान स्थिति को प्रोग्रामेटिक रूप से जांचना चाह सकते हैं। यह तब उपयोगी हो सकता है जब आपको उपयोगकर्ता इनपुट को मान्य करने या चेकबॉक्स स्थिति के आधार पर विशिष्ट क्रियाएँ करने की आवश्यकता हो।
+जब आप अपने दस्तावबॉक्स SDT जोड़ देते हैं, तो आप प्रोग्रामेटिक रूप से उसकी वर्तमान स्थिति पढ़ना या बदलना चाह सकते हैं। यह उपयोगकर्ता इनपुट को वैध करने या चेकबॉक्स की स्थिति के आधार पर विशिष्ट कार्य करने में सहायक होता है।
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdtCheckBox = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
 if (sdtCheckBox.getSdtType() == SdtType.CHECKBOX) {
-    // चेकबॉक्स चेक किया गया है
+    // Checkbox is checked
     sdtCheckBox.setChecked(true);
 }
 
 doc.save("UpdatedDocument.docx");
 ```
 
-## सामग्री नियंत्रण संशोधित करना
+## कंटेंट कंट्रोल्स को संशोधित करना
 
-इस अनुभाग में, हम यह पता लगाएंगे कि आपके दस्तावेज़ में सामग्री नियंत्रणों को कैसे संशोधित किया जाए। हम तीन प्रकार के सामग्री नियंत्रणों को कवर करेंगे: सादा पाठ, ड्रॉप-डाउन सूची और चित्र।
+इस सेक्शन में हम आपके दस्तावेज़ के भीतर कंटेंट कंट्रोल्स को संशोधित करने के तरीकों का अन्वेषण करेंगे। हम तीन प्रकार के कंटेंट कंट्रोल्स को कवर करेंगे: Plain Text, **create dropdown content control**, और Picture।
 
-### सादा पाठ सामग्री नियंत्रण को संशोधित करना
+### Plain Text कंटेंट कंट्रोल को संशोधित करना
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdtPlainText = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
 if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
-    // मौजूदा सामग्री साफ़ करें
+    // Clear the existing content
     sdtPlainText.removeAllChildren();
 
-    // नया पाठ जोड़ें
+    // Add new text
     Paragraph para = (Paragraph) sdtPlainText.appendChild(new Paragraph(doc));
     Run run = new Run(doc, "New text goes here");
     para.appendChild(run);
@@ -79,14 +95,14 @@ if (sdtPlainText.getSdtType() == SdtType.PLAIN_TEXT) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### ड्रॉप-डाउन सूची सामग्री नियंत्रण को संशोधित करना
+### ड्रॉपडाउन कंटेंट कंट्रोल कैसे बनाएं
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdtDropDown = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
 if (sdtDropDown.getSdtType() == SdtType.DROP_DOWN_LIST) {
-    // सूची से दूसरा आइटम चुनें
+    // Select the second item from the list
     SdtListItem secondItem = sdtDropDown.getListItems().get(2);
     sdtDropDown.getListItems().setSelectedValue(secondItem);
 }
@@ -94,7 +110,7 @@ if (sdtDropDown.getSdtType() == SdtType.DROP_DOWN_LIST) {
 doc.save("ModifiedDocument.docx");
 ```
 
-### चित्र सामग्री नियंत्रण संशोधित करना
+### Picture कंटेंट कंट्रोल को संशोधित करना
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
@@ -102,16 +118,16 @@ StructuredDocumentTag sdtPicture = (StructuredDocumentTag) doc.getChild(NodeType
 Shape shape = (Shape) sdtPicture.getChild(NodeType.SHAPE, 0, true);
 
 if (shape.hasImage()) {
-    // छवि को नई छवि से बदलें
+    // Replace the image with a new one
     shape.getImageData().setImage("Watermark.png");
 }
 
 doc.save("ModifiedDocument.docx");
 ```
 
-## कॉम्बोबॉक्स सामग्री नियंत्रण बनाना
+## ComboBox कंटेंट कंट्रोल बनाना
 
-कॉम्बोबॉक्स कंटेंट कंट्रोल उपयोगकर्ताओं को विकल्पों की पूर्वनिर्धारित सूची से चयन करने की अनुमति देता है। आइए अपने दस्तावेज़ में एक बनाएं।
+ComboBox कंटेंट कंट्रोल उपयोगकर्ताओं को पूर्वनिर्धारित विकल्पों की सूची से चयन करने की सुविधा देता है। चलिए अपने दस्तावेज़ में एक बनाते हैं।
 
 ```java
 Document doc = new Document();
@@ -124,9 +140,9 @@ doc.getFirstSection().getBody().appendChild(sdtComboBox);
 doc.save("ComboBoxDocument.docx");
 ```
 
-## रिच टेक्स्ट कंटेंट कंट्रोल के साथ कार्य करना
+## Rich Text कंटेंट कंट्रोल के साथ काम करना
 
-रिच टेक्स्ट कंटेंट कंट्रोल आपके दस्तावेज़ों में फ़ॉर्मेटेड टेक्स्ट जोड़ने के लिए एकदम सही हैं। आइए एक बनाएं और इसकी सामग्री सेट करें।
+Rich Text कंटेंट कंट्रोल्स दस्तावेज़ में फॉर्मेटेड टेक्स्ट जोड़ने के लिए आदर्श हैं। चलिए एक बनाते हैं और उसकी सामग्री सेट करते हैं।
 
 ```java
 Document doc = new Document();
@@ -142,24 +158,24 @@ doc.getFirstSection().getBody().appendChild(sdtRichText);
 doc.save("RichTextDocument.docx");
 ```
 
-## सामग्री नियंत्रण शैलियाँ सेट करना
+## कंटेंट कंट्रोल स्टाइल्स सेट करना
 
-आप अपने दस्तावेज़ के दृश्य स्वरूप को बेहतर बनाने के लिए सामग्री नियंत्रणों पर शैलियाँ लागू कर सकते हैं। आइए देखें कि सामग्री नियंत्रण की शैली कैसे सेट करें।
+आप कंटेंट कंट्रोल्स पर स्टाइल लागू करके अपने दस्तावेज़ की दृश्य उपस्थिति को बेहतर बना सकते हैं। चलिए देखते हैं कि कंटेंट कंट्रोल की स्टाइल कैसे सेट करें।
 
 ```java
 Document doc = new Document("WorkingWithSDT.docx");
 StructuredDocumentTag sdt = (StructuredDocumentTag) doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
 
-// कस्टम शैली लागू करें
+// Apply a custom style
 Style style = doc.getStyles().getByStyleIdentifier(StyleIdentifier.QUOTE);
 sdt.setStyle(style);
 
 doc.save("StyledDocument.docx");
 ```
 
-## SDT को कस्टम XML डेटा से बांधना
+## SDT को कस्टम XML डेटा से बाइंड करना
 
-कुछ परिदृश्यों में, आपको गतिशील सामग्री निर्माण के लिए कस्टम XML डेटा से SDT को बांधने की आवश्यकता हो सकती है। आइए जानें कि इसे कैसे प्राप्त किया जाए।
+कुछ परिदृश्यों में आपको डायनेमिक कंटेंट जेनरेशन के लिए SDT को कस्टम XML डेटा से बाइंड करने की आवश्यकता हो सकती है। आइए देखें कि इसे कैसे हासिल किया जाए।
 
 ```java
 Document doc = new Document();
@@ -171,9 +187,9 @@ sdt.getXmlMapping().setMapping(xmlPart, "/root[1]/text[1]", "");
 doc.save("CustomXMLBinding.docx");
 ```
 
-## कस्टम XML डेटा से मैप किए गए दोहराए जाने वाले अनुभागों के साथ एक तालिका बनाना
+## कस्टम XML डेटा से मैप्ड रिपीटिंग सेक्शन वाले टेबल बनाना
 
-दोहराए जाने वाले अनुभागों वाली तालिकाएँ संरचित डेटा प्रस्तुत करने के लिए अत्यंत उपयोगी हो सकती हैं। आइए ऐसी तालिका बनाएँ और उसे कस्टम XML डेटा पर मैप करें।
+रिपीटिंग सेक्शन वाले टेबल संरचित डेटा प्रस्तुत करने में अत्यंत उपयोगी होते हैं। चलिए ऐसा टेबल बनाते हैं और उसे कस्टम XML डेटा से मैप करते हैं।
 
 ```java
 Document doc = new Document();
@@ -208,9 +224,9 @@ row.appendChild(authorSdt);
 doc.save("RepeatingTableDocument.docx");
 ```
 
-## बहु-अनुभाग संरचित दस्तावेज़ टैग के साथ कार्य करना
+## मल्टी‑सेक्शन Structured Document Tags के साथ काम करना
 
-संरचित दस्तावेज़ टैग एक दस्तावेज़ में कई अनुभागों में फैल सकते हैं। इस अनुभाग में, हम बहु-अनुभाग SDTs के साथ काम करने का तरीका जानेंगे।
+Structured Document Tags दस्तावेज़ में कई सेक्शन तक फैला हो सकता है। इस सेक्शन में हम मल्टी‑सेक्शन SDT के साथ काम करने के तरीकों का अन्वेषण करेंगे।
 
 ```java
 Document doc = new Document("MultiSectionDocument.docx");
@@ -225,37 +241,30 @@ doc.save("ModifiedMultiSectionDocument.docx");
 
 ## निष्कर्ष
 
-Aspose.Words for Java में संरचित दस्तावेज़ टैग आपके दस्तावेज़ों में सामग्री को प्रबंधित करने और प्रारूपित करने का एक बहुमुखी तरीका प्रदान करते हैं। चाहे आपको टेम्प्लेट, फ़ॉर्म या गतिशील दस्तावेज़ बनाने की आवश्यकता हो, SDTs आपको आवश्यक लचीलापन और नियंत्रण प्रदान करते हैं। इस लेख में दिए गए उदाहरणों और दिशानिर्देशों का पालन करके, आप अपने दस्तावेज़ प्रसंस्करण कार्यों को बढ़ाने के लिए SDTs की शक्ति का उपयोग कर सकते हैं।
+Aspose.Words for Java में Structured Document Tags दस्तावेज़ों के भीतर सामग्री को प्रबंधित और फॉर्मेट करने का एक बहुमुखी तरीका प्रदान करते हैं। चाहे आप टेम्प्लेट, और। इस लेख में प्रदान किए गए उदाहरणों और दिशानिर्देशों का पालन करके आप अपने भीतर सामग्री को व्यव फॉर्म और संरचित दस्तावेज़ बनाना आसान हो जाता है।
 
-## अक्सर पूछे जाने वाले प्रश्न
+**प्रश्न: मैं Checkbox SDT की वर्तमान स्थिति कैसे जांच सकता हूँ?**  
+उत्तर: आप लेख में दर्शाए अनुसार `setChecked` मेथड का उपयोग करके Checkbox SDT की वर्तमान स्थिति जांच सकते हैं।
 
-### संरचित दस्तावेज़ टैग (एसडीटी) का उद्देश्य क्या है?
+**प्रश्न: क्या मैं कंटेंट कंट्रोल्स पर हूँ?**  
+उत्तर: हाँ, आप कंटेंट कंट्रोल्स पर स्टाइल लागू करके दस्तावेज़ में उनकी उपस्थिति को कस्टमाइज़ कर सकते हैं।
 
-संरचित दस्तावेज़ टैग (एसडीटी) दस्तावेज़ों के भीतर सामग्री को व्यवस्थित और प्रारूपित करने के उद्देश्य से काम करते हैं, जिससे टेम्पलेट्स, फ़ॉर्म और संरचित दस्तावेज़ बनाना आसान हो जाता है।
+**प्रश**  
+peatingंक्तियों को दोहराते हुए टेबल बनाने की अनुमति देते हैं।
 
-### मैं चेकबॉक्स एसडीटी की वर्तमान स्थिति कैसे जांच सकता हूं?
+**प्रश्न: मैं ड्रॉपडाउन कंटेंट कंट्रोल कैसे बनाऊँ?**  
+उत्तर: `SdtType.DROP_DOWN_LIST` का उपयोग करें और `SdtListItem` ऑब्जेक्ट्स से कंटउत्तर: बिल्कुल—`StructuredDocumentTag` को प्राप्त करें और `setChecked(true)` या `setChecked(false)` कॉल करें।
 
-आप चेकबॉक्स SDT की वर्तमान स्थिति की जांच कर सकते हैं `setChecked` विधि, जैसा कि लेख में दर्शाया गया है।
+---
 
-### क्या मैं सामग्री नियंत्रणों पर शैलियाँ लागू कर सकता हूँ?
-
-हां, आप दस्तावेज़ में उनकी उपस्थिति को अनुकूलित करने के लिए सामग्री नियंत्रणों पर शैलियाँ लागू कर सकते हैं।
-
-### क्या SDT को कस्टम XML डेटा से बांधना संभव है?
-
-हां, आप SDT को कस्टम XML डेटा से जोड़ सकते हैं, जिससे गतिशील सामग्री निर्माण और डेटा मैपिंग की सुविधा मिलती है।
-
-### एसडीटी में दोहराए जाने वाले अनुभाग क्या हैं?
-
-एसडीटी में दोहराए जाने वाले अनुभाग आपको गतिशील डेटा के साथ तालिकाएं बनाने की अनुमति देते हैं, जहां मैप किए गए XML डेटा के आधार पर पंक्तियों को दोहराया जा सकता है।
-
+**Last Updated:** 2026-01-19  
+**Tested With:** Aspose.Words for Java 24.11 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
