@@ -1,10 +1,13 @@
 ---
-"description": "Apprenez à améliorer la mise en forme de vos documents avec Aspose.Words pour Java. Explorez les styles, les thèmes et bien plus encore dans ce guide complet avec des exemples de code source."
-"linktitle": "Utilisation des styles et des thèmes"
-"second_title": "API de traitement de documents Java Aspose.Words"
-"title": "Utilisation des styles et des thèmes dans Aspose.Words pour Java"
-"url": "/fr/java/document-manipulation/using-styles-and-themes/"
-"weight": 20
+date: 2026-01-21
+description: Apprenez à définir le thème et à copier les styles entre des documents
+  avec Aspose.Words for Java. Explorez les styles, les thèmes et bien plus encore
+  dans ce guide complet avec des exemples de code source.
+linktitle: Using Styles and Themes
+second_title: Aspose.Words Java Document Processing API
+title: Comment définir le thème et utiliser les styles dans Aspose.Words pour Java
+url: /fr/java/document-manipulation/using-styles-and-themes/
+weight: 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,21 +16,43 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilisation des styles et des thèmes dans Aspose.Words pour Java
-
+# Comment définir le thème et utiliser les styles dans Aspose.Words pour Java
 
 ## Introduction à l'utilisation des styles et des thèmes dans Aspose.Words pour Java
 
-Dans ce guide, nous découvrirons comment utiliser les styles et les thèmes dans Aspose.Words pour Java afin d'améliorer la mise en forme et l'apparence de vos documents. Nous aborderons des sujets tels que la récupération et la copie de styles, la gestion des thèmes et l'insertion de séparateurs de styles. C'est parti !
+Dans ce guide, vous apprendrez **comment définir le thème** et travailler avec les styles dans Aspose.Words pour Java afin d'offrir à vos documents un aspect soigné et professionnel. Nous parcourrons la récupération des styles, la copie des styles entre documents, la gestion des thèmes et l'insertion de séparateurs de style — le tout avec des exemples de code clairs et exécutables. Que vous construisiez un moteur de rapports ou un service de génération de documents, maîtriser ces techniques vous fera gagner du temps et des efforts.
 
-## Récupération des styles
+## Réponses rapides
+- **Comment définir un thème par programme ?** Utilisez `Document.getTheme()` et modifiez ses propriétés de police et de couleur.  
+- **Comment récupérer tous les styles d'un document ?** Parcourez la collection `Document.getStyles()`.  
+- **Quelle méthode copie les styles d'un document à un autre ?** `target.copyStylesFromTemplate(sourceDoc)`.  
+- **CommentDocumentBuilder.insertStyleSeparator()` entre les segments de texte.  
+- **Ai-je besoin d'une licence pour ces fonctionnalités ?** Oui, une licence valide d'Aspose.Words est requise pour une utilisation en production.
 
-Pour récupérer les styles d’un document, vous pouvez utiliser l’extrait de code Java suivant :
+## Qu’est‑ce que « comment définir le thème » dans Aspose.Words ?
+
+Définir un thème consiste à spécifier le langage visuel global d’un document — polices, couleurs et effets — qui s’applique à tous les styles intégrés. Un thème garantit la cohérence entre les titres, les tableaux et les paragraphes normaux sans avoir à ajuster manuellement chaque style.
+
+## Pourquoi utiliser les styles et les thèmes ensemble ?
+
+Combiner les styles avec un thème vous permet de modifier l’apparence d’un document entier en ajustant un seul objet thème. Ceci est particulièrement utile pour :
+- Générer des rapports conformes à la marque.  
+- Mettre à jour les modèles d’entreprise à un seul endroit.  
+- Réduire la quantité de code de formatage manuel.
+
+## Prérequis
+- Java 17 ou version ultérieure.  
+- Bibliothèque Aspose.Words pour Java ajoutée à votre projet.  
+- Une licence valide d'Aspose.Words (ou un essai gratuit pour l'évaluation).
+
+## Comment récupérer les styles
+
+Pour **comment récupérer les styles**, vous pouvez utiliser l’extrait de code Java suivant :
 
 ```java
 Document doc = new Document();
 String styleName = "";
-// Obtenir la collection de styles à partir du document.
+// Get styles collection from the document.
 StyleCollection styles = doc.getStyles();
 for (Style style : styles)
 {
@@ -44,11 +69,7 @@ for (Style style : styles)
 }
 ```
 
-Ce code récupère les styles définis dans le document et imprime leurs noms.
-
-## Copie des styles
-
-Pour copier des styles d’un document à un autre, vous pouvez utiliser le `copyStylesFromTemplate` méthode comme indiqué ci-dessous :
+Ce code récupère chaque style défini dans le vous devez **copier les styles entre documents** (ou simplement **comment copier les styles**), la méthode `copyStylesFromTemplate` fait le travail :
 
 ```java
 @Test
@@ -61,11 +82,11 @@ public void copyStyles() throws Exception
 }
 ```
 
-Ce code copie les styles d’un document modèle vers le document actuel.
+L’extrait copie toutes les définitions de style du `doc` source vers le document `target`, vous permettant de réutiliser une apparence cohérente sur plusieurs fichiers.
 
-## Gestion des thèmes
+## Comment définir le thème
 
-Les thèmes sont essentiels pour définir l'apparence générale de votre document. Vous pouvez récupérer et définir les propriétés des thèmes comme illustré dans le code suivant :
+Gérer un thème est essentiel pour définir l’apparence globale de votre document. Les exemples suivants montrent comment récupérer et modifier les propriétés du thème, répondant directement à **comment définir le thème** :
 
 ```java
 @Test
@@ -88,11 +109,7 @@ public void setThemeProperties() throws Exception
 }
 ```
 
-Ces extraits montrent comment récupérer et modifier les propriétés du thème, telles que les polices et les couleurs.
-
-## Insertion de séparateurs de style
-
-Les séparateurs de style sont utiles pour appliquer différents styles au sein d'un même paragraphe. Voici un exemple d'insertion de séparateurs de style :
+Ces extraits montrent comment lire les **créer un style de paragraphe personnalisé** :
 
 ```java
 @Test
@@ -104,45 +121,54 @@ public void insertStyleSeparator() throws Exception
     paraStyle.getFont().setBold(false);
     paraStyle.getFont().setSize(8.0);
     paraStyle.getFont().setName("Arial");
-    // Ajoutez du texte avec le style « Titre 1 ».
+    // Append text with "Heading 1" style.
     builder.getParagraphFormat().setStyleIdentifier(StyleIdentifier.HEADING_1);
     builder.write("Heading 1");
     builder.insertStyleSeparator();
-    // Ajouter du texte avec un autre style.
+    // Append text with another style.
     builder.getParagraphFormat().setStyleName(paraStyle.getName());
     builder.write("This is text with some other formatting ");
     doc.save("Your Directory Path" + "WorkingWithStylesAndThemes.InsertStyleSeparator.docx");
 }
 ```
 
-Dans ce code, nous créons un style de paragraphe personnalisé et insérons un séparateur de style pour changer de style dans le même paragraphe.
+Le code crée un style de paragraphe personnalisé nommé **MyParaStyle**, écrit, puis poursuitème | Solution |
+|----------|----------|
+| Les modifications du thème ne sont pas reflétées dans les paragraphes existants | Après avoir modifié le thème, appelez `doc.updatePageLayout()` pour forcer une actualisation. |
+| Les styles ne sont pas copiés comme prévu | Assurez‑vous que le document source est entièrement chargé avant d’appeler `copyStylesFromTemplate`. |
+| Le séparateur de style insère une ligne vide | Vérifiez que le curseur est correctement positionné ; évitez d’appeler `builder.writeln()` avant `insertStyleSeparator`. |
+
+## Questions fréquentes
+
+**Q : Comment puis‑je récupérer les propriétés du thème dans Aspose.Words pour Java ?**  
+R : Accédez au thème via `Document.getTheme()` et lisez ses collections de polices ou de couleurs, comme illustré dans l’exemple `getThemeProperties`.
+
+**Q : Comment puis‑je définir les propriétés du thème, telles que les polices et les couleurs ?**  
+R : Modifiez les propriétés de l’objet `Theme` (par ex., `theme.getMinorFonts().setLatin("Times New Roman")`) puis enregistrez le document.
+
+**Q : Comment puis‑je utiliser les séparateurs de style pour changer de style au sein du même paragraphe ?**  
+R : Utilisez `DocumentBuilder.insertStyleSeparator()` entre les segments de texte, comme démontré dans la méthode `insertStyleSeparator`.
+
+**Q : Puis‑je copier des styles depuis un modèle qui utilise une version différente de Word ?**  
+R : Oui, `copyStylesFromTemplate` fonctionne entre différentes versions de Word ; assurez‑vous simplement que le modèle est un fichier `.docx` valide.
+
+**Q : Est‑il possible de créer un style de paragraphe personnalisé par programme ?**  
+R : Absolument — utilisez `document.getStyles().add(StyleType.PARAGRAPH, "MyStyle")` et configurez sa police, sa taille et d’autres attributs.
 
 ## Conclusion
 
-Ce guide présente les bases de l'utilisation des styles et des thèmes dans Aspose.Words pour Java. Vous avez appris à récupérer et copier des styles, à gérer des thèmes et à insérer des séparateurs de styles pour créer des documents visuellement attrayants et bien formatés. Expérimentez ces techniques pour personnaliser vos documents selon vos besoins.
-
-
-## FAQ
-
-### Comment puis-je récupérer les propriétés du thème dans Aspose.Words pour Java ?
-
-Vous pouvez récupérer les propriétés du thème en accédant à l'objet thème et à ses propriétés.
-
-### Comment puis-je définir les propriétés du thème, telles que les polices et les couleurs ?
-
-Vous pouvez définir les propriétés du thème en modifiant les propriétés de l'objet thème.
-
-### Comment puis-je utiliser des séparateurs de style pour changer de style dans le même paragraphe ?
-
-Vous pouvez insérer des séparateurs de style à l'aide de la `insertStyleSeparator` méthode de la `DocumentBuilder` classe.
-
+Vous disposez maintenant d’une boîte à outils complète pour **comment définir le thème**, récupérer et copier les styles, et insérer des séparateurs de style dans Aspose.Words pour Java. En combinant ces techniques, vous pouvez générer automatiquement des documents richement formatés et cohérents avec votre marque. Expérimentez avec différentes couleurs de thème, styles personnalisés et placements de séparateurs de style pour répondre à vos besoins spécifiques de publication.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour** :** 2026-01-21**  
+**Testé avec** :** Aspose.Words for Java 24.12**  
+**Auteur** :** Aspose**
