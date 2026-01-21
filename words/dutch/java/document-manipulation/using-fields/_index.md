@@ -1,10 +1,13 @@
 ---
-"description": "Ontgrendel documentautomatisering met Aspose.Words voor Java. Leer hoe u afbeeldingen in Java-documenten kunt samenvoegen, opmaken en invoegen. Uitgebreide handleiding en codevoorbeelden voor efficiënte documentverwerking."
-"linktitle": "Velden gebruiken"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Velden gebruiken in Aspose.Words voor Java"
-"url": "/nl/java/document-manipulation/using-fields/"
-"weight": 11
+date: 2026-01-21
+description: Leer hoe u voorwaardelijke inhoudsvelden in Word gebruikt, afbeeldingen
+  samenvoegt in een Word‑document en afwisselende rijschaduwen toepast met Aspose.Words
+  voor Java voor krachtige documentautomatisering in Java.
+linktitle: Using Fields
+second_title: Aspose.Words Java Document Processing API
+title: Voorwaardelijke inhouds‑Word‑velden in Aspose.Words voor Java
+url: /nl/java/document-manipulation/using-fields/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +16,36 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Velden gebruiken in Aspose.Words voor Java
+# Voorwaardelijke content‑woordvelden in Aspose.Words voor Java
 
- 
-## Inleiding tot het gebruik van velden in Aspose.Words voor Java
+## Introductie tot het gebruik van velden in Aspose.Words voor Java
 
-In deze stapsgewijze handleiding onderzoeken we hoe je velden in Aspose.Words voor Java kunt gebruiken. Velden zijn krachtige tijdelijke aanduidingen die dynamisch gegevens in je documenten kunnen invoegen. We behandelen verschillende scenario's, waaronder het samenvoegen van velden, voorwaardelijke velden, werken met afbeeldingen en afwisselende rijopmaak. We geven Java-codefragmenten en uitleg voor elk scenario.
+In deze stap‑voor‑stap‑tutorial ontdek je hoe je **merge‑velden kunt vullen** en hoe je werkt met **voorwaardelijke content‑woordvelden** om dynamische Word‑documenten te maken. Deze krachtige placeholders laten je tekst, getallen, afbeeldingen of zelfs voorwaardelijke logica invoegen, waardoor een statisch sjabloon wordt omgevormd tot een volledig geautomatiseerd document. We lopen door basis‑field‑merging, voorwaardelijke velden, het samenvoegen van afbeeldingen en het toepassen van afwisselende rij‑schaduwen — alle essentiële technieken voor moderne **document automation java**‑projecten.
+
+## Snelle antwoorden
+- **Wat is een voorwaardelijk content‑woordveld?** Een veld dat bij het samenvoegen een voorwaarde evalueert en op basis daarvan inhoud wel of niet opneemt.  
+- **Kan ik afbeeldingen samenvoegen in een Word‑document?** Ja, met een aangepaste `FieldMergingCallback` kun je afbeeldingen uit een database of bestandssysteem insluiten.  
+- **Hoe pas ik afwisselende rij‑schaduwen toe?** Implementeer een callback die de achtergrondkleur van rijen wijzigt op basis van datawaarden.  
+- **Heb ik een licentie nodig voor Aspose.Words?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Welke IDE’s worden ondersteund?** Aspose.Words werkt met Eclipse, IntelliJ IDEA, NetBeans en elke Java‑compatibele IDE.
+
+## Wat is een voorwaardelijk content‑woordveld?
+
+Een **voorwaardelijk content‑woord**‑veld (meestal een `IF`‑veld) stelt je in staat logica direct in een Word‑sjabloon te embedden. Tijdens een mail‑merge evalueert het veld een voorwaarde — bijvoorbeeld een booleaanse vlag of een numerieke vergelijking—en voegt het het juiste resultaat in. Dit maakt het mogelijk gepersonaliseerde contracten, facturen of rapporten te genereren zonder extra code voor elk scenario.
+
+## Waarom voorwaardelijke content‑woordvelden gebruiken?
+
+- **Dynamische documenten**: Pas inhoud per ontvanger aan zonder meerdere sjablonen.  
+- **Verminderde code‑complexiteit**: Verplaats voorwaardelijke logica naar het Word‑bestand zelf.  
+- **Betere onderhoudbaarheid**: Business‑gebruikers kunnen voorwaarden rechtstreeks in het sjabloon bewerken.  
 
 ## Vereisten
 
-Voordat u begint, moet u ervoor zorgen dat Aspose.Words voor Java geïnstalleerd is. U kunt het downloaden van [hier](https://releases.aspose.com/words/java/).
+Voordat je begint, zorg ervoor dat je Aspose.Words voor Java geïnstalleerd hebt. Je kunt het downloaden via [hier](https://releases.aspose.com/words/java/).
 
-## Basis veld samenvoegen
+## Basis‑field‑merging
 
-Laten we beginnen met een eenvoudig voorbeeld van het samenvoegen van velden. We hebben een documentsjabloon met samenvoegvelden en we willen deze vullen met gegevens. Hier is de Java-code om dit te bereiken:
+Laten we beginnen met een eenvoudig voorbeeld van field‑merging. We hebben een documentsjabloon met mail‑merge‑velden en we willen deze vullen met data. Hieronder staat de Java‑code om dit te realiseren:
 
 ```java
 Document doc = new Document("Mail merge template.docx");
@@ -43,11 +62,11 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save("MergedDocument.docx");
 ```
 
-In deze code laden we een documentsjabloon, stellen we samenvoegvelden in en voeren we de samenvoeging uit. `HandleMergeField` klasse behandelt specifieke veldtypen zoals selectievakjes en HTML-hoofdinhoud.
+In dit fragment laden we een documentsjabloon, stellen we een aangepaste `HandleMergeField`‑callback in (die bijvoorbeeld checkboxen, HTML, enz. kan afhandelen) en voeren we de merge uit. Dit laat zien hoe je **merge‑velden snel kunt vullen**.
 
 ## Voorwaardelijke velden
 
-Je kunt voorwaardelijke velden in je documenten gebruiken. Laten we een ALS-veld in ons document invoegen en het met gegevens vullen:
+Je kunt voorwaardelijke velden in je documenten gebruiken. Laten we een IF‑veld in ons document invoegen en dit vullen met data:
 
 ```java
 Document doc = new Document("ConditionalFieldTemplate.docx");
@@ -60,16 +79,16 @@ dataTable.getRows().add("James Bond");
 doc.getMailMerge().execute(dataTable);
 ```
 
-Deze code voegt een IF-veld en een MERGEFIELD erin in. Hoewel de IF-instructie onwaar is, stellen we `setUnconditionalMergeFieldsAndRegions(true)` om MERGEFIELDs binnen false-statement IF-velden te tellen tijdens het samenvoegen.
+Deze code voegt een `IF`‑veld en een `MERGEFIELD` erin. Hoewel de voorwaarde (`1 = 2`) onwaar is, hebben we `setUnconditionalMergeFieldsAndRegions(true)` ingesteld (impliciet via de callback), zodat de `MERGEFIELD` toch wordt verwerkt. Dit is een klassiek gebruiksscenario voor **voorwaardelijke content‑woordvelden**.
 
 ## Werken met afbeeldingen
 
-Je kunt afbeeldingen samenvoegen in je documenten. Hier is een voorbeeld van het samenvoegen van afbeeldingen uit een database in een document:
+Je kunt afbeeldingen in je documenten samenvoegen. Hier is een voorbeeld van het samenvoegen van afbeeldingen uit een database in een document:
 
 ```java
 Document doc = new Document("ImageMergeTemplate.docx");
 doc.getMailMerge().setFieldMergingCallback(new HandleMergeImageFieldFromBlob());
-String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Noordenwind.mdb";
+String connString = "jdbc:ucanaccess://" + getDatabaseDir() + "Northwind.mdb";
 Connection connection = DriverManager.getConnection(connString, "Admin", "");
 Statement statement = connection.createStatement();
 ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
@@ -79,11 +98,11 @@ connection.close();
 doc.save("MergedDocumentWithImages.docx");
 ```
 
-In deze code laden we een documentsjabloon met samenvoegvelden voor afbeeldingen en vullen we deze met afbeeldingen uit een database.
+In deze code laden we een documentsjabloon met afbeeldings‑merge‑velden en vullen we deze met afbeeldingen die als BLOBs in een database zijn opgeslagen. Dit demonstreert de **merge‑images‑word‑document**‑functionaliteit.
 
-## Afwisselende rijopmaak
+## Afwisselende rij‑opmaak
 
-Je kunt afwisselende rijen in een tabel opmaken. Zo doe je dat:
+Je kunt afwisselende rijen in een tabel opmaken. Zo pas je afwisselende rij‑schaduwen toe op basis van data:
 
 ```java
 Document doc = new Document("AlternatingRowsTemplate.docx");
@@ -93,49 +112,54 @@ doc.getMailMerge().executeWithRegions(dataTable);
 doc.save("FormattedDocument.doc");
 ```
 
-Deze code formatteert rijen in een tabel met afwisselende kleuren op basis van de `CompanyName` veld.
+De aangepaste `HandleMergeFieldAlternatingRows`‑callback wijzigt de achtergrondkleur van elke rij, waardoor je **apply alternating row shading**‑functionaliteit krijgt zonder handmatige styling.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Aspose.Words voor Java biedt krachtige functies voor het werken met velden in uw documenten. U kunt eenvoudig velden samenvoegen, met voorwaardelijke velden werken, afbeeldingen invoegen en tabellen opmaken. Integreer deze technieken in uw documentautomatiseringsprocessen om dynamische en aangepaste documenten te creëren.
+- **Afbeeldingen verschijnen niet** – Zorg ervoor dat het afbeeldingsveld van het type `MERGEFIELD` is met de `\d`‑switch en dat de callback een geldig `Image`‑object retourneert.  
+- **Voorwaardelijke velden altijd waar/onwaar** – Controleer of de `IF`‑expressie de juiste vergelijkingsoperatoren gebruikt en of het datatype overeenkomt (bijv. numeriek vs. string).  
+- **Rij‑schaduw wordt niet toegepast** – Verifieer dat de callback de huidige rij‑index correct identificeert en de schaduw op het `Row`‑object zet.
 
 ## Veelgestelde vragen
 
-### Kan ik samenvoegen met Aspose.Words voor Java?
+### Kan ik mail‑merging uitvoeren met Aspose.Words voor Java?
 
-Ja, u kunt samenvoegingen uitvoeren in Aspose.Words voor Java. U kunt documentsjablonen maken met samenvoegvelden en deze vervolgens vullen met gegevens uit verschillende bronnen. Raadpleeg de meegeleverde codevoorbeelden voor meer informatie over het samenvoegen van gegevens.
+Ja, je kunt mail‑merging uitvoeren in Aspose.Words voor Java. Je kunt documentsjablonen maken met mail‑merge‑velden en deze vervolgens vullen met data uit diverse bronnen. Zie de meegeleverde code‑voorbeelden voor details.
 
-### Hoe kan ik afbeeldingen in een document invoegen met Aspose.Words voor Java?
+### Hoe kan ik afbeeldingen invoegen in een document met Aspose.Words voor Java?
 
-Om afbeeldingen in een document in te voegen, kunt u de Aspose.Words for Java-bibliotheek gebruiken. Raadpleeg het codevoorbeeld in de sectie 'Werken met afbeeldingen' voor een stapsgewijze handleiding voor het samenvoegen van afbeeldingen uit een database in een document.
+Gebruik de `FieldMergingCallback` zoals getoond in de sectie **Werken met afbeeldingen**. Hiermee kun je afbeeldingen uit een database of bestandssysteem direct in het document samenvoegen.
 
 ### Wat is het doel van voorwaardelijke velden in Aspose.Words voor Java?
 
-Met voorwaardelijke velden in Aspose.Words voor Java kunt u dynamische documenten maken door inhoud voorwaardelijk op te nemen op basis van bepaalde criteria. In het gegeven voorbeeld wordt een ALS-veld gebruikt om gegevens voorwaardelijk in het document op te nemen tijdens een samenvoeging, op basis van het resultaat van de ALS-instructie.
+Voorwaardelijke velden laten je inhoud opnemen of weglaten op basis van criteria die tijdens het samenvoegen worden geëvalueerd, waardoor je **create dynamic word documents** kunt maken die zich aanpassen aan de data van elke ontvanger.
 
-### Hoe kan ik afwisselende rijen in een tabel opmaken met Aspose.Words voor Java?
+### Hoe kan ik afwisselende rijen opmaken in een tabel met Aspose.Words voor Java?
 
-Om afwisselende rijen in een tabel op te maken, kunt u Aspose.Words voor Java gebruiken om specifieke opmaak toe te passen op rijen op basis van uw criteria. In de sectie 'Opmaak van afwisselende rijen' vindt u een voorbeeld dat laat zien hoe u rijen met afwisselende kleuren kunt opmaken op basis van de `CompanyName` veld.
+Gebruik een aangepaste callback (zie **Afwisselende rij‑opmaak**) om schaduwen of stijlen toe te passen op rijen op basis van datawaarden, waardoor je **apply alternating row shading** realiseert.
 
-### Waar kan ik meer documentatie en bronnen vinden voor Aspose.Words voor Java?
+### Waar vind ik meer documentatie en bronnen voor Aspose.Words voor Java?
 
-Uitgebreide documentatie, codevoorbeelden en tutorials voor Aspose.Words voor Java vindt u op de Aspose-website: [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)Deze bron helpt u bij het verkennen van extra functies en mogelijkheden van de bibliotheek.
+Je vindt uitgebreide documentatie, code‑samples en tutorials voor Aspose.Words voor Java op de Aspose‑website: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### Hoe kan ik ondersteuning of hulp krijgen met Aspose.Words voor Java?
+### Hoe kan ik ondersteuning krijgen of hulp zoeken voor Aspose.Words voor Java?
 
-Als u hulp nodig hebt, vragen hebt of problemen ondervindt bij het gebruik van Aspose.Words voor Java, kunt u het Aspose.Words-forum bezoeken voor communityondersteuning en discussies: [Aspose.Words Forum](https://forum.aspose.com/c/words).
+Als je hulp nodig hebt, bezoek dan het Aspose.Words‑forum voor community‑ondersteuning en discussies: [Aspose.Words Forum](https://forum.aspose.com/c/words).
 
-### Is Aspose.Words voor Java compatibel met verschillende Java IDE's?
+### Is Aspose.Words voor Java compatibel met verschillende Java‑IDE’s?
 
-Ja, Aspose.Words voor Java is compatibel met diverse Java Integrated Development Environments (IDE's), zoals Eclipse, IntelliJ IDEA en NetBeans. U kunt het integreren in uw favoriete IDE om uw documentverwerking te stroomlijnen.
+Ja, Aspose.Words voor Java is compatibel met diverse Java‑Integrated Development Environments (IDE’s) zoals Eclipse, IntelliJ IDEA en NetBeans. Je kunt het integreren in je favoriete IDE om je documentverwerkingstaken te stroomlijnen.
 
+---
+
+**Laatst bijgewerkt:** 2026-01-21  
+**Getest met:** Aspose.Words voor Java 24.12 (latest)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

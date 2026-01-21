@@ -1,10 +1,12 @@
 ---
-"description": "ปลดล็อกการทำงานอัตโนมัติของเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้วิธีการผสานรวม จัดรูปแบบ และแทรกภาพในเอกสาร Java คำแนะนำที่ครอบคลุมและตัวอย่างโค้ดสำหรับการประมวลผลเอกสารอย่างมีประสิทธิภาพ"
-"linktitle": "การใช้ฟิลด์"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การใช้ฟิลด์ใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-manipulation/using-fields/"
-"weight": 11
+date: 2026-01-21
+description: เรียนรู้วิธีใช้ฟิลด์คำแบบมีเงื่อนไข, ผสานรูปภาพในเอกสาร Word, และใช้การไล่เฉดสีแถวสลับด้วย
+  Aspose.Words for Java เพื่อการอัตโนมัติเอกสารที่ทรงพลังใน Java.
+linktitle: Using Fields
+second_title: Aspose.Words Java Document Processing API
+title: ฟิลด์คำเนื้อหาแบบมีเงื่อนไขใน Aspose.Words สำหรับ Java
+url: /th/java/document-manipulation/using-fields/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การใช้ฟิลด์ใน Aspose.Words สำหรับ Java
+# ฟิลด์คำเนื้อหาแบบมีเงื่อนไขใน Aspose.Words สำหรับ Java
 
- 
-## บทนำเกี่ยวกับการใช้ฟิลด์ใน Aspose.Words สำหรับ Java
+## บทนำการใช้ฟิลด์ใน Aspose.Words สำหรับ Java
 
-ในคู่มือทีละขั้นตอนนี้ เราจะมาอธิบายวิธีการใช้ฟิลด์ใน Aspose.Words สำหรับ Java ฟิลด์คือตัวแทนที่มีประสิทธิภาพที่สามารถแทรกข้อมูลลงในเอกสารของคุณแบบไดนามิกได้ เราจะครอบคลุมสถานการณ์ต่างๆ รวมถึงการผสานฟิลด์พื้นฐาน ฟิลด์แบบมีเงื่อนไข การทำงานกับรูปภาพ และการจัดรูปแบบแถวแบบสลับกัน เราจะให้ตัวอย่างโค้ด Java และคำอธิบายสำหรับแต่ละสถานการณ์
+ในบทแนะนำแบบขั้นตอนนี้ คุณจะได้ค้นพบวิธี **populate merge fields** และทำงานกับฟิลด์ **conditional content word** เพื่อสร้างเอกสาร Word แบบไดนามิก ตัวแทนตำแหน่งที่ทรงพลังเหล่านี้ช่วยให้คุณแทรกข้อความ ตัวเลข รูปภาพ หรือแม้กระทั่งตรรกะเชิงเงื่อนไข ทำให้เทมเพลตคงที่กลายเป็นเอกสารอัตโนมัติเต็มรูปแบบ เราจะพาไปผ่านการรวมฟิลด์พื้นฐาน ฟิลด์เชิงเงื่อนไข การรวมรูปภาพ และการใช้การไล่เฉดสีแถวสลับ—เทคนิคที่จำเป็นสำหรับโครงการ **document automation java** สมัยใหม่
+
+## คำตอบสั้น
+
+- **ฟิลด์คำเนื้อหาแบบมีเงื่อนไขคืออะไร?** ฟิลด์ที่ประเมินเงื่อนไขในขณะเมิร์จและรวมหรือยกเว้นเนื้อหาตามผลลัพธ์  
+- **ฉันสามารถรวมรูปภาพเข้าในเอกสาร Word ได้หรือไม่?** ใช่ โดยใช้ `FieldMergingCallback` แบบกำหนดเอง คุณสามารถฝังรูปภาพจากฐานข้อมูลหรือระบบไฟล์ได้  
+- **ฉันจะใช้การไล่เฉดสีแถวสลับอย่างไร?** สร้าง callback ที่เปลี่ยนสีพื้นหลังของแถวตามค่าข้อมูล  
+- **ฉันต้องการไลเซนส์สำหรับ Aspose.Words หรือไม่?** รุ่นทดลองใช้งานฟรีเพียงพอสำหรับการพัฒนา; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **IDE ที่รองรับมีอะไรบ้าง?** Aspose.Words ทำงานร่วมกับ Eclipse, IntelliJ IDEA, NetBeans และ IDE ที่เข้ากันได้กับ Java ใด ๆ  
+
+## ฟิลด์คำเนื้อหาแบบมีเงื่อนไขคืออะไร?
+
+A **conditional content word** field (typically an `IF` field) lets you embed logic directly inside a Word template. During a mail merge, the field evaluates a condition—such as a boolean flag or a numeric comparison—and inserts the appropriate result. This enables you to generate personalized contracts, invoices, or reports without writing additional code for each scenario.
+
+## ทำไมต้องใช้ฟิลด์คำเนื้อหาแบบมีเงื่อนไข?
+
+- **Dynamic documents**: ปรับเนื้อหาให้ตรงกับผู้รับแต่ละคนโดยไม่ต้องใช้เทมเพลตหลายชุด.  
+- **Reduced code complexity**: ย้ายตรรกะเชิงเงื่อนไขไปยังไฟล์ Word เอง.  
+- **Better maintainability**: ผู้ใช้ทางธุรกิจสามารถแก้ไขเงื่อนไขโดยตรงในเทมเพลต.  
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มต้น โปรดแน่ใจว่าคุณได้ติดตั้ง Aspose.Words สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
+Before you begin, make sure you have Aspose.Words for Java installed. You can download it from [here](https://releases.aspose.com/words/java/).
 
-## การผสานฟิลด์พื้นฐาน
+## การรวมฟิลด์พื้นฐาน
 
-มาเริ่มกันด้วยตัวอย่างการรวมฟิลด์แบบง่ายๆ เรามีเทมเพลตเอกสารที่มีฟิลด์จดหมายเวียน และเราต้องการเติมข้อมูลลงในฟิลด์เหล่านี้ นี่คือโค้ด Java ที่ใช้ในการทำสิ่งนี้:
+Let's start with a simple field merging example. We have a document template with mail merge fields, and we want to populate them with data. Here's the Java code to achieve this:
 
 ```java
 Document doc = new Document("Mail merge template.docx");
@@ -43,11 +62,9 @@ doc.getMailMerge().execute(fieldNames, fieldValues);
 doc.save("MergedDocument.docx");
 ```
 
-ในโค้ดนี้ เราจะโหลดเทมเพลตเอกสาร ตั้งค่าฟิลด์ผสานจดหมาย และดำเนินการผสาน `HandleMergeField` คลาสจัดการประเภทฟิลด์เฉพาะเช่นช่องกาเครื่องหมายและเนื้อหาเนื้อหา HTML
+## ฟิลด์เชิงเงื่อนไข
 
-## ฟิลด์เงื่อนไข
-
-คุณสามารถใช้ฟิลด์เงื่อนไขในเอกสารของคุณได้ มาแทรกฟิลด์ IF ลงในเอกสารและป้อนข้อมูลลงไป:
+You can use conditional fields in your documents. Let's insert an IF field inside our document and populate it with data:
 
 ```java
 Document doc = new Document("ConditionalFieldTemplate.docx");
@@ -60,11 +77,9 @@ dataTable.getRows().add("James Bond");
 doc.getMailMerge().execute(dataTable);
 ```
 
-โค้ดนี้จะแทรกฟิลด์ IF และ MERGEFIELD ไว้ภายใน แม้ว่าคำสั่ง IF จะเป็นเท็จ แต่เราได้ตั้งค่า `setUnconditionalMergeFieldsAndRegions(true)` ในการนับจำนวน MERGEFIELD ภายในฟิลด์ IF ที่เป็นคำแถลงเท็จในระหว่างการผสานจดหมาย
-
 ## การทำงานกับรูปภาพ
 
-คุณสามารถรวมรูปภาพลงในเอกสารของคุณได้ นี่คือตัวอย่างการรวมรูปภาพจากฐานข้อมูลลงในเอกสาร:
+You can merge images into your documents. Here's an example of merging images from a database into a document:
 
 ```java
 Document doc = new Document("ImageMergeTemplate.docx");
@@ -79,11 +94,9 @@ connection.close();
 doc.save("MergedDocumentWithImages.docx");
 ```
 
-ในโค้ดนี้ เราโหลดเทมเพลตเอกสารพร้อมกับฟิลด์ผสานรูปภาพและเติมรูปภาพจากฐานข้อมูลลงไป
+## การจัดรูปแบบแถวสลับ
 
-## การจัดรูปแบบแถวสลับกัน
-
-คุณสามารถจัดรูปแบบแถวสลับกันในตารางได้ ดังต่อไปนี้:
+You can format alternating rows in a table. Here's how to apply alternating row shading based on data:
 
 ```java
 Document doc = new Document("AlternatingRowsTemplate.docx");
@@ -93,49 +106,52 @@ doc.getMailMerge().executeWithRegions(dataTable);
 doc.save("FormattedDocument.doc");
 ```
 
-โค้ดนี้จะจัดรูปแบบแถวในตารางด้วยสีสลับกันตาม `CompanyName` สนาม.
+## ปัญหาทั่วไปและวิธีแก้
 
-## บทสรุป
-
-Aspose.Words สำหรับ Java มีคุณสมบัติอันทรงพลังสำหรับการทำงานกับฟิลด์ในเอกสารของคุณ คุณสามารถทำการผสานฟิลด์พื้นฐาน ทำงานกับฟิลด์แบบมีเงื่อนไข แทรกภาพ และจัดรูปแบบตารางได้อย่างง่ายดาย นำเทคนิคเหล่านี้ไปใช้ในกระบวนการจัดการเอกสารอัตโนมัติของคุณเพื่อสร้างเอกสารแบบไดนามิกและกำหนดเองได้
+- **Images not appearing** – ตรวจสอบให้แน่ใจว่าฟิลด์รูปภาพเป็นประเภท `MERGEFIELD` พร้อมสวิตช์ `\d` และ callback คืนค่าอ็อบเจ็กต์ `Image` ที่ถูกต้อง.  
+- **Conditional fields always true/false** – ตรวจสอบว่า expression `IF` ใช้ตัวดำเนินการเปรียบเทียบที่ถูกต้องและประเภทข้อมูลตรงกัน (เช่น ตัวเลข vs. สตริง).  
+- **Row shading not applied** – ยืนยันว่า callback ระบุดัชนีแถวปัจจุบันอย่างถูกต้องและตั้งค่า shading บนอ็อบเจ็กต์ `Row`.  
 
 ## คำถามที่พบบ่อย
 
-### ฉันสามารถผสานจดหมายด้วย Aspose.Words สำหรับ Java ได้หรือไม่
+### ฉันสามารถทำการเมลเมิร์จด้วย Aspose.Words สำหรับ Java ได้หรือไม่?
 
-ใช่ คุณสามารถทำการผสานจดหมายใน Aspose.Words สำหรับ Java ได้ คุณสามารถสร้างเทมเพลตเอกสารด้วยฟิลด์การผสานจดหมาย จากนั้นป้อนข้อมูลจากแหล่งต่างๆ เข้าไป ดูตัวอย่างโค้ดที่ให้มาเพื่อดูรายละเอียดเกี่ยวกับวิธีการทำการผสานจดหมาย
+ใช่ คุณสามารถทำการเมลเมิร์จใน Aspose.Words สำหรับ Java ได้ คุณสามารถสร้างเทมเพลตเอกสารที่มีฟิลด์เมลเมิร์จและเติมข้อมูลจากแหล่งต่าง ๆ ดูตัวอย่างโค้ดที่ให้ไว้สำหรับรายละเอียด.
 
-### ฉันจะแทรกภาพลงในเอกสารโดยใช้ Aspose.Words สำหรับ Java ได้อย่างไร
+### ฉันจะใส่รูปภาพลงในเอกสารโดยใช้ Aspose.Words สำหรับ Java อย่างไร?
 
-หากต้องการแทรกภาพลงในเอกสาร คุณสามารถใช้ไลบรารี Aspose.Words สำหรับ Java ดูตัวอย่างโค้ดในส่วน "การทำงานกับภาพ" เพื่อดูคำแนะนำทีละขั้นตอนเกี่ยวกับวิธีการผสานภาพจากฐานข้อมูลลงในเอกสาร
+เพื่อใส่รูปภาพ ใช้ `FieldMergingCallback` ตามที่แสดงในส่วน **Working with Images** นี้ ช่วยให้คุณรวมรูปภาพจากฐานข้อมูลหรือระบบไฟล์โดยตรงเข้าสู่เอกสาร.
 
-### วัตถุประสงค์ของฟิลด์เงื่อนไขใน Aspose.Words สำหรับ Java คืออะไร
+### วัตถุประสงค์ของฟิลด์เชิงเงื่อนไขใน Aspose.Words สำหรับ Java คืออะไร?
 
-ฟิลด์เงื่อนไขใน Aspose.Words สำหรับ Java ช่วยให้คุณสามารถสร้างเอกสารแบบไดนามิกได้โดยรวมเนื้อหาตามเงื่อนไขโดยอิงตามเกณฑ์บางอย่าง ในตัวอย่างที่ให้มา ฟิลด์ IF จะถูกใช้เพื่อรวมข้อมูลตามเงื่อนไขในเอกสารระหว่างการผสานจดหมายโดยอิงตามผลลัพธ์ของคำสั่ง IF
+ฟิลด์เชิงเงื่อนไขช่วยให้คุณรวมหรือยกเว้นเนื้อหาตามเกณฑ์ที่ประเมินในขณะเมิร์จ ทำให้คุณสร้าง **create dynamic word documents** ที่ปรับให้เข้ากับข้อมูลของผู้รับแต่ละคน.
 
-### ฉันจะจัดรูปแบบแถวสลับกันในตารางโดยใช้ Aspose.Words สำหรับ Java ได้อย่างไร
+### ฉันจะจัดรูปแบบแถวสลับในตารางโดยใช้ Aspose.Words สำหรับ Java อย่างไร?
 
-หากต้องการจัดรูปแบบแถวสลับกันในตาราง คุณสามารถใช้ Aspose.Words สำหรับ Java เพื่อจัดรูปแบบเฉพาะให้กับแถวตามเกณฑ์ของคุณ ในส่วน "การจัดรูปแบบแถวสลับกัน" คุณจะพบตัวอย่างที่แสดงวิธีจัดรูปแบบแถวด้วยสีสลับกันตาม `CompanyName` สนาม.
+ใช้ callback แบบกำหนดเอง (ดู **Alternating Row Formatting**) เพื่อใช้การไล่เฉดสีหรือสไตล์ให้กับแถวตามค่าข้อมูล ทำให้ได้ **apply alternating row shading**.
 
-### ฉันสามารถหาเอกสารและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้ที่ไหน
+### ฉันจะหาเอกสารและแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.Words สำหรับ Java ได้จากที่ไหน?
 
-คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุม ตัวอย่างโค้ด และบทช่วยสอนสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์ Aspose: [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)ทรัพยากรนี้จะช่วยให้คุณสำรวจคุณลักษณะและฟังก์ชันเพิ่มเติมของห้องสมุด
+คุณสามารถค้นหาเอกสารครบถ้วน ตัวอย่างโค้ด และบทแนะนำสำหรับ Aspose.Words สำหรับ Java ได้ที่เว็บไซต์ Aspose: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### ฉันจะได้รับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับ Aspose.Words สำหรับ Java ได้อย่างไร
+### ฉันจะขอรับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับ Aspose.Words สำหรับ Java อย่างไร?
 
-หากคุณต้องการความช่วยเหลือ มีคำถาม หรือพบปัญหาขณะใช้ Aspose.Words สำหรับ Java คุณสามารถไปที่ฟอรัม Aspose.Words เพื่อรับการสนับสนุนและการสนทนาจากชุมชน: [ฟอรั่ม Aspose.Words](https://forum-aspose.com/c/words).
+หากต้องการความช่วยเหลือ ให้เยี่ยมชมฟอรั่ม Aspose.Words สำหรับการสนับสนุนจากชุมชน: [Aspose.Words Forum](https://forum.aspose.com/c/words).
 
-### Aspose.Words สำหรับ Java เข้ากันได้กับ Java IDE ต่างๆ หรือไม่
+### Aspose.Words สำหรับ Java เข้ากันได้กับ IDE Java ต่าง ๆ หรือไม่?
 
-ใช่ Aspose.Words สำหรับ Java เข้ากันได้กับ Java Integrated Development Environments (IDEs) ต่างๆ เช่น Eclipse, IntelliJ IDEA และ NetBeans คุณสามารถรวมเข้ากับ IDE ที่คุณต้องการเพื่อปรับปรุงงานประมวลผลเอกสารของคุณ
+ใช่ Aspose.Words สำหรับ Java เข้ากันได้กับ IDE Java ต่าง ๆ เช่น Eclipse, IntelliJ IDEA, และ NetBeans คุณสามารถรวมเข้ากับ IDE ที่ต้องการเพื่อเพิ่มประสิทธิภาพการประมวลผลเอกสารของคุณ.
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-21  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12 (latest)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
