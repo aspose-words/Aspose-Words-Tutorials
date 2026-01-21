@@ -1,10 +1,12 @@
 ---
-"description": "Tìm hiểu cách bảo mật tài liệu Java Word của bạn bằng Aspose.Words for Java. Bảo vệ dữ liệu của bạn bằng mật khẩu và nhiều hơn thế nữa."
-"linktitle": "Bảo vệ tài liệu"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Bảo vệ tài liệu trong Aspose.Words cho Java"
-"url": "/vi/java/document-manipulation/protecting-documents/"
-"weight": 22
+date: 2026-01-21
+description: Tìm hiểu cách bảo vệ bằng mật khẩu cho tài liệu Word bằng Java và Aspose.Words.
+  Tuân thủ các thực hành tốt nhất cho việc bảo vệ Word chỉ đọc và bảo vệ tài liệu.
+linktitle: Protecting Documents
+second_title: Aspose.Words Java Document Processing API
+title: Bảo vệ Word bằng mật khẩu trong Java với Aspose.Words
+url: /vi/java/document-manipulation/protecting-documents/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,80 +15,95 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bảo vệ tài liệu trong Aspose.Words cho Java
+# Bảo vệ Word Java bằng mật **bảo vệ Word Java bằng mật khẩu** các tệp, việc bảo vệ tài liệu là hàng rào phòng thủ đầu tiên chống lại việc chỉnh sửa hoặc xem không được phép. một API đơn giản cho phép bạn áp dụng mật khẩu, thực thi chế độ chỉ đọc, và truy vấn trạng thái bảo vệ — tất cả đều tuân theo các thực hành tốt nhất về bảo vệ tài liệu.
 
+## Quick Answers
+- **Làm thế nào để thêm mật khẩu?** Use `doc.protect(ProtectionType.ALLOW_ONLY_FORM_FIELDS, "yourPassword")`.
+- **Tôi cóL?** Call `doc.unprotect()` on the loaded document.
+- **Làm sao kiểm tra loại bảo vệ hiện tại?** Use `doc.getProtectionType()` which returns an enum value.
+- **Có cần giấy phép không?** A valid Aspose.Words for Java license is needed for production use.
 
-## Giới thiệu về Bảo vệ Tài liệu
+## Bảo vệ Word Java bằng mật khẩu là gì?
+Password protecting a Word document means encrypting the file so that only users who know the correct password can open or modify it. This feature is essential for confidential contracts, financial reports, or any sensitive content you share electronically.
 
-Bảo vệ tài liệu là một tính năng quan trọng khi xử lý thông tin nhạy cảm. Aspose.Words for Java cung cấp các khả năng mạnh mẽ để bảo vệ tài liệu của bạn khỏi truy cập trái phép.
+## Tại sao nên sử dụng các thực hành tốt nhất cho bảo vệ tài liệu?
+- **Bảo mật:** Prevent accidental or malicious changes.
+- **Tuân thủ:** Meet regulatory requirements for handling confidential information.
+- **Kiểm soát:** Limit editing to specific parts (e.g., form fields) while keeping the rest read‑only.
+
+## Yêu cầu trước
+- Java Development Kit (JDK) 8 or higher.
+- Aspose.Words for Java library added to your project (Maven/Gradle or JAR).
+- A valid license file for production environments.
 
 ## Bảo vệ tài liệu bằng mật khẩu
 
-Để bảo vệ tài liệu của bạn, bạn có thể đặt mật khẩu. Chỉ những người dùng biết mật khẩu mới có thể truy cập tài liệu. Hãy xem cách thực hiện trong mã:
+To password protect a Word file, you load the document and call the `protect` method. Below is the exact code you need—no modifications required.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.protect(ProtectionType.ALLOW_ONLY_FORM_FIELDS, "password");
 ```
 
-Trong đoạn mã trên, chúng ta tải một tài liệu Word và bảo vệ nó bằng mật khẩu, chỉ cho phép chỉnh sửa các trường biểu mẫu.
+In this snippet, the document is opened, then protected so that only form fields can be edited. The password `"password"` must be supplied whenever the file is opened.
 
-## Xóa bỏ bảo vệ tài liệu
+### Mẹo chuyên nghiệp:
+If you want a **read only word protection** instead of form‑field editing, replace `ProtectionType.ALLOW_ONLY_FORM_FIELDS` with `ProtectionType.READ_ONLY`.
 
-Nếu bạn cần xóa chế độ bảo vệ khỏi tài liệu, Aspose.Words for Java sẽ giúp bạn thực hiện dễ dàng:
+## Xóa bảo vệ tài liệu
+
+When the protection is no longer needed, you can clear it with a single call:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 doc.unprotect();
 ```
 
-Các `unprotect` phương pháp này loại bỏ mọi biện pháp bảo vệ được áp dụng cho tài liệu, khiến tài liệu có thể truy cập mà không cần mật khẩu.
+The `unprotect` method strips any password or protection settings, returning the document to an unrestricted state.
 
 ## Kiểm tra loại bảo vệ tài liệu
 
-Bạn có thể muốn xác định loại bảo vệ được áp dụng cho tài liệu theo chương trình:
+Sometimes you need to programmatically discover how a document is protected. The API provides a getter for this purpose:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
 int protectionType = doc.getProtectionType();
 ```
 
-Các `getProtectionType` phương thức trả về một số nguyên biểu thị loại bảo vệ được áp dụng cho tài liệu.
+`getProtectionType()` returns an integer (or enum) that tells you whether the file is unprotected, read‑only, or limited to form fields.
 
-
-## Phần kết luận
-
-Trong bài viết này, chúng tôi đã khám phá cách bảo vệ tài liệu Word bằng Aspose.Words for Java. Chúng tôi đã học cách đặt mật khẩu để hạn chế quyền truy cập, xóa bảo vệ và kiểm tra loại bảo vệ. Bảo mật tài liệu là điều cần thiết và với Aspose.Words for Java, bạn có thể đảm bảo tính bảo mật của thông tin.
+## Các vấn đề thường gặp và giải pháp
+- **Quên mật khẩu?** The API cannot recover lost passwords; keep them in a secure password manager.
+- **Bảo vệ không được áp dụng?** Ensure you call `doc.save("output.docx")` after setting protection.
+- **Loại bảo vệ không đúng?** Verify you are using the correct `ProtectionType` constant for your scenario.
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào tôi có thể bảo vệ tài liệu mà không cần mật khẩu?
+**Q: Làm thế nào tôi có thể bảo vệ tài liệu mà không cần mật khẩu?**  
+A: Use a protection type like `ProtectionType.READ_ONLY` without supplying a password, which enforces read‑only word protection.
 
-Nếu bạn muốn bảo vệ tài liệu mà không cần mật khẩu, bạn có thể sử dụng các loại bảo vệ khác, chẳng hạn như `ProtectionType.NO_PROTECTION` hoặc `ProtectionType.READ_ONLY`.
+**Q: Tôi có thể thay đổi mật khẩu cho tài liệu đã bảo vệ không?**  
+A: Yes. Call `protect` again with the new password; the previous password is overwritten.
 
-### Tôi có thể thay đổi mật khẩu cho tài liệu được bảo vệ không?
+**Q: Điều gì sẽ xảy ra nếu tôi quên mật khẩu của tài liệu đã bảo vệ?**  
+A: The document cannot be opened without the password. Store passwords securely to avoid lock‑out.
 
-Có, bạn có thể thay đổi mật khẩu cho một tài liệu được bảo vệ bằng cách sử dụng `protect` phương pháp với mật khẩu mới.
+**Q: Tôi có thể bảo vệ các phần cụ thể của tài liệu không?**  
+A: Yes. Apply protection to individual nodes or ranges within the document tree to isolate sections.
 
-### Điều gì xảy ra nếu tôi quên mật khẩu cho tài liệu được bảo vệ?
+**Q: Có thể bảo vệ tài liệu ở các định dạng khác như PDF hoặc HTML không?**  
+A: Aspose.Words for Java primarily handles Word formats, but you can convert to PDF/HTML first and then apply protection using the respective Aspose libraries.
 
-Nếu bạn quên mật khẩu cho một tài liệu được bảo vệ, bạn sẽ không thể truy cập vào tài liệu đó. Hãy đảm bảo giữ mật khẩu ở nơi an toàn.
+---
 
-### Tôi có thể bảo vệ các phần cụ thể của tài liệu không?
-
-Có, bạn có thể bảo vệ các phần cụ thể của tài liệu bằng cách áp dụng tính năng bảo vệ cho từng phạm vi hoặc nút riêng lẻ trong tài liệu.
-
-### Có thể bảo vệ tài liệu ở các định dạng khác như PDF hoặc HTML không?
-
-Aspose.Words for Java chủ yếu xử lý các tài liệu Word, nhưng bạn có thể chuyển đổi tài liệu sang các định dạng khác như PDF hoặc HTML, sau đó áp dụng tính năng bảo vệ nếu cần.
-
+**Cập nhật lần cuối:** 2026-01-21  
+**Kiểm tra với:** Aspose.Words for Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
