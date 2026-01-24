@@ -1,10 +1,11 @@
 ---
-"description": "了解如何使用 Aspose.Words for Java 連線和附加文件。帶有程式碼範例的分步指南，用於高效文件操作。"
-"linktitle": "合併和附加文檔"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "合併和附加文檔"
-"url": "/zh-hant/java/document-merging/joining-appending-documents/"
-"weight": 11
+date: 2026-01-24
+description: 學習如何在使用 Aspose.Words for Java 合併與追加文件時保持原始格式，這是一份高效合併 docx 檔案的指南。
+linktitle: Keep Source Formatting While Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: 在合併與追加文件時保留來源格式
+url: /zh-hant/java/document-merging/joining-appending-documents/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,105 +14,137 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 合併和附加文檔
-
+# 保持來源格式同時合併與附加文件
 
 ## 介紹
 
-Aspose.Words for Java 是一個功能豐富的函式庫，可讓您處理各種文件格式，包括 DOC、DOCX、RTF 等。在處理文件操作時，連接和附加文件是一項常見任務，本指南將為您提供逐步說明和 Java 程式碼範例，以無縫實現此任務。
+Aspose.Words for Java 是一個功能豐富的程式庫，讓您在合併 Word 檔案、合併 docx 檔案 java，或附加多個文件時 **保持來源格式**。留往相當關鍵。在本教學中，我們將一步步說明完整流程——從專案設定到儲存最終合併文件——讓您自信掌握 document manipulation java。
 
-## 先決條件
+## 快速答覆
+- **合併文件時可以保持來源格式嗎？** 可以，使用 `ImportFormatMode.KEEP_SOURCE_FORMATTING`。
+- **哪個程式庫負責在 Java 中合併 Word 檔案？** Aspose.Words for Java。
+- **正式環境需要授權嗎？** 需要有效的 Aspose.Words 授權。
+- **支援哪些檔案格式？** DOC、DOCX、RTF、PDF、HTML 等等。
+- **可以附加超過兩個文件嗎？** 當然可以——重複呼叫 `appendDocument` 即可。
 
-在深入研究程式碼之前，請確保您已滿足以下先決條件：
+## 前置條件
 
-- 您的系統上安裝了 Java 開發工具包 (JDK)。
-- Java 函式庫的 Aspose.Words。您可以從下載 [這裡](https://releases。aspose.com/words/java/).
+在進入程式碼之前，請確保您已具備以下前置條件：
 
-## 步驟 1：設定 Java 項目
+- 已在系統上安裝 Java Development Kit (JDK)。  
+- Aspose.Words for Java 程式庫。您可以從 [here](https://releases.aspose.com/words/java/) 下載。
 
-首先，在您首選的整合開發環境 (IDE) 中建立一個新的 Java 專案。確保在專案的依賴項中包含 Aspose.Words 庫。
+## 步驟 1：設定 Java 專案
 
-## 步驟2：初始化Aspose.Words
+在您慣用的整合開發環境 (IDE) 中建立新 Java 專案。將 Aspose.Words JAR 加入專案的 classpath，或以 Maven / Gradle 方式宣告相依性。
 
-在您的 Java 程式碼中，匯入必要的 Aspose.Words 類別並初始化函式庫：
+## 步驟 2：初始化 Aspose.Words
+
+匯入必要的類別，並載入授權檔案，以解鎖所有功能——包括 **保持來源格式**：
 
 ```java
 import com.aspose.words.*;
 
 public class DocumentJoiner {
     public static void main(String[] args) throws Exception {
-        // 初始化 Aspose.Words
+        // Initialize Aspose.Words
         License license = new License();
         license.setLicense("Aspose.Words.Java.lic");
     }
 }
 ```
 
-確保更換 `"Aspose.Words.Java.lic"` 以及您的許可證文件的路徑。
+> **小技巧：** 為了安全，請將授權檔案放在 source‑control 之外的目錄。
 
-## 步驟3：載入文檔
+## 步驟 3：載入文件
 
-要加入或附加文檔，首先需要將它們載入到記憶體中。讓我們為該範例載入兩個範例文件：
+載入您想要合併的個別 Word 檔案。以下範例使用兩個樣本檔案，實際上您可以在迴圈中載入任意數量，以 **combine word files**。
 
 ```java
-// 載入來源文檔
+// Load the source documents
 Document doc1 = new Document("document1.docx");
 Document doc2 = new Document("document2.docx");
 ```
 
-## 步驟 4：合併文檔
+## 步驟 4：在保持來源格式的情況下合併文件
 
-現在我們已經加載了文檔，讓我們看看如何將它們合併在一起。在這個例子中，我們將加入 `doc2` 到最後 `doc1`：
+現在開始合併文件。保留每個文件原始樣式的關鍵是 `ImportFormatMode.KEEP_SOURCE_FORMATTING` 旗標。
 
 ```java
-// 連接文件
+// Join documents
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-這 `ImportFormatMode.KEEP_SOURCE_FORMATTING` 選項確保保留來源文件的格式。
+`KEEP_SOURCE_FORMATTING` 選項可確保字型、標題、表格與其他版面元素保持不變——這正是可靠的 **aspose document merging** 所需要的。
 
-## 步驟5：保存結果
+## 步驟 5：儲存結果
 
-若要將合併後的文件儲存到文件，可以使用以下程式碼：
+最後，將合併後的文件寫入磁碟（或串流）。輸出格式可以是 Aspose.Words 支援的任何類型。
 
 ```java
-// 儲存合併後的文檔
+// Save the joined document
 doc1.save("joined_document.docx");
 ```
 
-## 結論
+現在您已擁有一個單一檔案，且保留了每個原始片段的格式。
 
-恭喜！您已成功學習如何使用 Aspose.Words for Java 連線和附加文件。這個多功能函式庫使您能夠毫不費力地操作文檔，使其成為 Java 開發人員的寶貴工具。
+## 常見使用情境
 
-## 常見問題解答
+- **法律合約：** 附加多個條款，同時保留各方的品牌樣式。  
+- **自動化報表：** 將每月報表合併成年終總結，且不失去表格樣式。  
+- **內容出版：** 合併不同作者撰寫的章節，保持各自的標題樣式。
+
+## 疑難排解與技巧
+
+| 問題 | 解決方案 |
+|------|----------|
+| 合併後缺少字型 | 確認目標機器已安裝相同字型，或使用 `FontSettings` 內嵌字型。 |
+| 大型文件導致記憶體不足 | 分段處理文件或增加 JVM 堆積大小（`-Xmx2g`）。 |
+| 來源檔案之間樣式衝突 | 使用 `ImportFormatMode.KEEP_SOURCE_FORMATTING`（如上所示）或在合併前重新命名衝突的樣式。 |
+
+## 常見問答
 
 ### 如何安裝 Aspose.Words for Java？
 
-安裝 Aspose.Words for Java 非常簡單。您可以從 Aspose 網站下載 [這裡](https://releases.aspose.com/words/java/)。確保您擁有商業使用所需的許可證。
+安裝 Aspose.Words for Java 非常簡單。您可以從 Aspose 官方網站 [here](https://releases.aspose.com/words/java/) 下載。商業使用時請確保已取得必要的授權。
 
-### 我可以使用 Aspose.Words for Java 合併兩個以上的文件嗎？
+### 可以使用 Aspose.Words for Java 合併超過兩個文件嗎？
 
-是的，你可以使用 `appendDocument` 方法，如範例所示。
+可以，透過 `appendDocument` 方法依序附加多個文件，即可合併多個文件，如範例所示。
 
 ### Aspose.Words 適合大規模文件處理嗎？
 
-絕對地！ Aspose.Words 旨在高效處理大規模文檔，使其成為企業級應用程式的可靠選擇。
+絕對適合！Aspose.Words 設計用於高效處理大規模文件，是企業級應用的可靠選擇。
 
-### 使用 Aspose.Words 合併文件時有什麼限制嗎？
+### 在使用 Aspose.Words 合併文件時有什麼限制嗎？
 
-雖然 Aspose.Words 提供了強大的文件處理功能，但必須考慮文件的複雜性和大小以確保最佳效能。
+雖然 Aspose.Words 提供強大的文件操作功能，但仍需考量文件的複雜度與大小，以確保最佳效能。
 
-### 我需要支付授權費用才能使用 Aspose.Words for Java 嗎？
+### 使用 Aspose.Words for Java 必須付費取得授權嗎？
 
-是的，Aspose.Words for Java 需要有效的授權才能用於商業用途。您可以從 Aspose 網站取得許可證 [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)
+是的，商業使用必須擁有有效的 Aspose.Words 授權。您可於 Aspose 官方網站取得授權，參考 [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/)。
 
+## Frequently Asked Questions
+
+**Q: 如何一次附加超過兩個文件？**  
+A: 迭代 `Document` 物件集合，對主文件呼叫 `appendDocument` 即可。
+
+**Q: 程式庫是否也支援合併 PDF？**  
+A: 支援，Aspose.Words 能載入 PDF 並視為 Word 文件，使用相同 API 進行合併。
+
+**Q: 若需要變更特定附加文件的頁面方向，該怎麼做？**  
+A: 附加完成後，定位要修改的 Section，設定 `Section.PageSetup.Orientation` 即可。
+
+---
+
+**最後更新：** 2026-01-24  
+**測試環境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

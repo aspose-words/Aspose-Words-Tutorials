@@ -1,10 +1,13 @@
 ---
-"description": "Leer hoe u documenten kunt samenvoegen en toevoegen met Aspose.Words voor Java. Stapsgewijze handleiding met codevoorbeelden voor efficiënte documentbewerking."
-"linktitle": "Documenten samenvoegen en toevoegen"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Documenten samenvoegen en toevoegen"
-"url": "/nl/java/document-merging/joining-appending-documents/"
-"weight": 11
+date: 2026-01-24
+description: Leer hoe u de bronopmaak behoudt bij het samenvoegen en toevoegen van
+  documenten met Aspose.Words voor Java, een gids om docx‑bestanden efficiënt te combineren
+  in Java.
+linktitle: Keep Source Formatting While Joining and Appending Documents
+second_title: Aspose.Words Java Document Processing API
+title: Bronopmaak behouden bij het samenvoegen en toevoegen van documenten
+url: /nl/java/document-merging/joining-appending-documents/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,105 +16,137 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Documenten samenvoegen en toevoegen
+# Breng Opmaak van Bron Behoudt bij het Samenvoegen en Toevoegen van Documenten
 
+## Introductie
 
-## Invoering
+Aspose.Words for Java is een feature‑rich library die je **keep source formatting** laat behouden wanneer je Word‑bestanden combineert, docx‑files java samenvoegt, of meerdere documenten toevoegt. Of je nu een rapportage‑engine bouwt, contractassemblage automatiseert, of simpelweg PDF’s aan elkaar plakt, het behouden van de oorspronkelijke uitstraling van elke sectie is vaak cruciaal. In deze tutorial lopen we het volledige proces door — van project‑setup tot het opslaan van het uiteindelijke samengevoegde document — zodat je documentmanipulatie java met vertrouwen kunt beheersen.
 
-Aspose.Words voor Java is een bibliotheek met veel functies waarmee u met verschillende documentformaten kunt werken, waaronder DOC, DOCX, RTF en meer. Het samenvoegen en toevoegen van documenten is een veelvoorkomende taak bij het bewerken van documenten. Deze handleiding biedt u stapsgewijze instructies en Java-codevoorbeelden om dit naadloos te realiseren.
+## Snelle Antwoorden
+- **Kan ik de bronopmaak behouden bij het samenvoegen van documenten?** Ja, gebruik `ImportFormatMode.KEEP_SOURCE_FORMATTING`.
+- **Welke bibliotheek verwerkt het samenvoegen van Word‑bestanden in Java?** Aspose.Words for Java.
+- **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose.Words‑licentie is vereist.
+- **Welke bestandsformaten worden ondersteund?** DOC, DOCX, RTF, PDF, HTML, en meer.
+- **Kan ik meer dan twee documenten toevoegen?** Absoluut — roep `appendDocument` herhaaldelijk aan.
 
-## Vereisten
+## Voorwaarden
 
-Voordat we in de code duiken, moet u ervoor zorgen dat de volgende vereisten aanwezig zijn:
+Voordat we in de code duiken, zorg ervoor dat je de volgende voorwaarden hebt:
 
-- Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Aspose.Words voor Java-bibliotheek. Je kunt het downloaden van [hier](https://releases.aspose.com/words/java/).
+- Java Development Kit (JDK) geïnstalleerd op je systeem.  
+- Aspose.Words for Java bibliotheek. Je kunt deze downloaden van [here](https://releases.aspose.com/words/java/).
 
-## Stap 1: Uw Java-project instellen
+## Stap 1: Je Java‑project Instellen
 
-Om te beginnen, maak je een nieuw Java-project aan in je favoriete Integrated Development Environment (IDE). Zorg ervoor dat je de Aspose.Words-bibliotheek opneemt in de afhankelijkheden van je project.
+Maak een nieuw Java‑project aan in je favoriete Integrated Development Environment (IDE). Voeg de Aspose.Words‑JAR toe aan de classpath van je project of declareer deze als een Maven/Gradle‑dependency.
 
-## Stap 2: Aspose.Words initialiseren
+## Stap 2: Aspose.Words Initialiseren
 
-Importeer de benodigde Aspose.Words-klassen in uw Java-code en initialiseer de bibliotheek:
+Importeer de benodigde klassen en laad je licentie zodat alle functies — inclusief **keep source formatting** — ontgrendeld zijn:
 
 ```java
 import com.aspose.words.*;
 
 public class DocumentJoiner {
     public static void main(String[] args) throws Exception {
-        // Initialiseer Aspose.Words
+        // Initialize Aspose.Words
         License license = new License();
         license.setLicense("Aspose.Words.Java.lic");
     }
 }
 ```
 
-Zorg ervoor dat u vervangt `"Aspose.Words.Java.lic"` met het pad naar uw licentiebestand.
+> **Pro tip:** Houd het licentiebestand buiten je source‑control map voor veiligheid.
 
-## Stap 3: Documenten laden
+## Stap 3: Documenten Laden
 
-Om documenten samen te voegen of toe te voegen, moet u ze eerst in het geheugen laden. Laten we voor dit voorbeeld twee voorbeelddocumenten laden:
+Laad de individuele Word‑bestanden die je wilt combineren. Dit voorbeeld gebruikt twee voorbeeldbestanden, maar je kunt er zoveel laden als nodig is om **combine word files** in een lus te gebruiken.
 
 ```java
-// Laad de brondocumenten
+// Load the source documents
 Document doc1 = new Document("document1.docx");
 Document doc2 = new Document("document2.docx");
 ```
 
-## Stap 4: Documenten samenvoegen
+## Stap 4: Documenten Samenvoegen met Behoud van Bronopmaak
 
-Nu we onze documenten hebben geladen, laten we eens kijken hoe we ze kunnen samenvoegen. In dit voorbeeld zullen we: `doc2` tot het einde van `doc1`:
+Nu voegen we de documenten samen. De sleutel tot het behouden van de oorspronkelijke stijl van elk document is de `ImportFormatMode.KEEP_SOURCE_FORMATTING`‑vlag.
 
 ```java
-// Documenten samenvoegen
+// Join documents
 doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 ```
 
-De `ImportFormatMode.KEEP_SOURCE_FORMATTING` Met deze optie wordt ervoor gezorgd dat de opmaak van de brondocumenten behouden blijft.
+De `KEEP_SOURCE_FORMATTING`‑optie zorgt ervoor dat lettertypen, koppen, tabellen en andere layoutelementen ongewijzigd blijven — precies wat je nodig hebt voor betrouwbare **aspose document merging**.
 
-## Stap 5: Het resultaat opslaan
+## Stap 5: Het Resultaat Opslaan
 
-Om het samengevoegde document in een bestand op te slaan, kunt u de volgende code gebruiken:
+Schrijf tenslotte het gecombineerde document naar schijf (of een stream). Het uitvoerformaat kan elk type zijn dat door Aspose.Words wordt ondersteund.
 
 ```java
-// Sla het samengevoegde document op
+// Save the joined document
 doc1.save("joined_document.docx");
 ```
 
-## Conclusie
+Je hebt nu één bestand dat de opmaak van elk origineel onderdeel behoudt.
 
-Gefeliciteerd! Je hebt succesvol geleerd hoe je documenten kunt samenvoegen en toevoegen met Aspose.Words voor Java. Deze veelzijdige bibliotheek stelt je in staat om moeiteloos documenten te bewerken, wat het een onmisbaar hulpmiddel maakt voor Java-ontwikkelaars.
+## Veelvoorkomende Toepassingen
 
-## Veelgestelde vragen
+- **Juridische contracten:** Voeg meerdere clausules toe terwijl je de branding van elke partij behoudt.  
+- **Geautomatiseerde rapportage:** Combineer maandelijkse rapporten tot een jaareinde‑samenvatting zonder tabelstijlen te verliezen.  
+- **Contentpublicatie:** Voeg hoofdstukken samen die door verschillende auteurs zijn geschreven, waarbij hun verschillende kopstijlen behouden blijven.
 
-### Hoe installeer ik Aspose.Words voor Java?
+## Probleemoplossing & Tips
 
-Het installeren van Aspose.Words voor Java is eenvoudig. Je kunt het downloaden van de Aspose-website. [hier](https://releases.aspose.com/words/java/)Zorg ervoor dat u over de benodigde licentie beschikt voor commercieel gebruik.
+| Probleem | Oplossing |
+|----------|-----------|
+| Missing fonts after merge | Zorg ervoor dat de doelmachine dezelfde lettertypen geïnstalleerd heeft of embed ze met `FontSettings`. |
+| Large documents cause out‑of‑memory errors | Verwerk documenten in delen of vergroot de JVM‑heap‑grootte (`-Xmx2g`). |
+| Styles conflict between source files | Gebruik `ImportFormatMode.KEEP_SOURCE_FORMATTING` (zoals getoond) of hernoem conflicterende stijlen vóór het samenvoegen. |
 
-### Kan ik meer dan twee documenten samenvoegen met Aspose.Words voor Java?
+## Veelgestelde Vragen
 
-Ja, u kunt meerdere documenten samenvoegen door ze achtereenvolgens toe te voegen met behulp van de `appendDocument` methode, zoals getoond in het voorbeeld.
+### Hoe installeer ik Aspose.Words for Java?
 
-### Is Aspose.Words geschikt voor documentverwerking op grote schaal?
+Het installeren van Aspose.Words for Java is eenvoudig. Je kunt het downloaden van de Aspose‑website [here](https://releases.aspose.com/words/java/). Zorg ervoor dat je de benodigde licentie hebt voor commercieel gebruik.
 
-Absoluut! Aspose.Words is ontworpen om grootschalige documentverwerking efficiënt af te handelen, waardoor het een betrouwbare keuze is voor toepassingen op ondernemingsniveau.
+### Kan ik meer dan twee documenten samenvoegen met Aspose.Words for Java?
+
+Ja, je kunt meerdere documenten samenvoegen door ze opeenvolgend toe te voegen met de `appendDocument`‑methode, zoals getoond in het voorbeeld.
+
+### Is Aspose.Words geschikt voor grootschalige documentverwerking?
+
+Absoluut! Aspose.Words is ontworpen om grootschalige documentverwerking efficiënt aan te kunnen, waardoor het een betrouwbare keuze is voor enterprise‑toepassingen.
 
 ### Zijn er beperkingen bij het samenvoegen van documenten met Aspose.Words?
 
-Hoewel Aspose.Words robuuste mogelijkheden biedt voor documentmanipulatie, is het van essentieel belang om rekening te houden met de complexiteit en de grootte van uw documenten om optimale prestaties te garanderen.
+Hoewel Aspose.Words robuuste mogelijkheden voor documentmanipulatie biedt, is het belangrijk om de complexiteit en grootte van je documenten in overweging te nemen om optimale prestaties te garanderen.
 
-### Moet ik een licentie betalen om Aspose.Words voor Java te gebruiken?
+### Moet ik betalen voor een licentie om Aspose.Words for Java te gebruiken?
 
-Ja, Aspose.Words voor Java vereist een geldige licentie voor commercieel gebruik. U kunt een licentie verkrijgen via de Aspose-website. [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)
+Ja, Aspose.Words for Java vereist een geldige licentie voor commercieel gebruik. Je kunt een licentie verkrijgen via de Aspose‑website [Aspose.Words for Java documentation](https://reference.aspose.com/words/java/)
 
+## Veelgestelde Vragen
+
+**Q: Hoe kan ik meer dan twee documenten in één keer toevoegen?**  
+A: Loop door een collectie van `Document`‑objecten en roep `appendDocument` aan op het master‑document voor elke iteratie.
+
+**Q: Ondersteunt de bibliotheek ook het samenvoegen van PDF’s?**  
+A: Ja, Aspose.Words kan PDF‑bestanden laden en behandelen als Word‑documenten, waardoor je ze kunt samenvoegen met dezelfde API.
+
+**Q: Wat als ik de paginarichting van een specifiek toegevoegd document moet wijzigen?**  
+A: Na het toevoegen, zoek de secties die je wilt aanpassen en stel `Section.PageSetup.Orientation` dienovereenkomstig in.
+
+---
+
+**Laatst Bijgewerkt:** 2026-01-24  
+**Getest Met:** Aspose.Words for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
