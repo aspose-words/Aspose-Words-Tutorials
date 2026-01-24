@@ -1,10 +1,13 @@
 ---
-"description": "Ontdek de kracht van Aspose.Words voor Java. Leer XML-gegevensverwerking, samenvoegbewerkingen en Mustache-syntaxis met stapsgewijze tutorials."
-"linktitle": "XML-gegevens gebruiken"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "XML-gegevens gebruiken in Aspose.Words voor Java"
-"url": "/nl/java/document-manipulation/using-xml-data/"
-"weight": 12
+date: 2026-01-24
+description: Leer hoe u XML-gegevens kunt samenvoegen met Aspose.Words voor Java,
+  documentgeneratie in Java kunt automatiseren en Mustache-syntaxis kunt gebruiken
+  voor dynamische documenten.
+linktitle: Using XML Data
+second_title: Aspose.Words Java Document Processing API
+title: Hoe XML samenvoegen in Aspose.Words voor Java
+url: /nl/java/document-manipulation/using-xml-data/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XML-gegevens gebruiken in Aspose.Words voor Java
+# Hoe XML samenvoegen in Aspose.Words voor Java
 
+In deze uitgebreide gids ontdek je **hoe je XML**-gegevens kunt samenvoegen met Aspose.Words voor Java. We lopen door basis- en geneste mail‑merge‑scenario's, laten je zien hoe je **Mustache‑syntaxis** kunt **gebruiken**, en leggen uit hoe je **documentgeneratie in Java**‑stijl projecten kunt **automatiseren**. Aan het einde kun je gepersonaliseerde Word‑documenten rechtstreeks uit XML‑bronnen genereren met slechts een paar regels code.
 
-## Inleiding tot het gebruik van XML-gegevens in Aspose.Words voor Java
+## Snelle antwoorden
+- **Wat is de primaire klasse voor mail merge?** `Document` and its `MailMerge` property.  
+- **Kan ik geneste XML‑tabellen samenvoegen?** Ja – gebruik `executeWithRegions` voor hiërarchische gegevens.  
+- **Wordt Mustache‑syntaxis ondersteund?** Schakel het in met `setUseNonMergeFields(true)`.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële Aspose.Words‑licentie is vereist.  
+- **Welke Java‑versie is compatibel?** Java 8+ en hoger worden volledig ondersteund.
 
-In deze handleiding onderzoeken we hoe je met XML-gegevens kunt werken met Aspose.Words voor Java. Je leert hoe je samenvoegbewerkingen uitvoert, inclusief geneste samenvoegingen, en hoe je de Mustache-syntaxis gebruikt met een dataset. We bieden stapsgewijze instructies en broncodevoorbeelden om je op weg te helpen.
+## Wat is XML‑mail‑merge in Aspose.Words?
+XML‑mail‑merge stelt je in staat XML‑gebaseerde datasets te koppelen aan plaatshouders in een Word‑sjabloon. De engine vervangt elke plaatshouder door de overeenkomstige XML‑knooppuntwaarde, waardoor een voltooid document ontstaat zonder handmatige bewerking.
 
-## Vereisten
+## Waarom Aspose.Words gebruiken voor XML‑gebaseerde documentgeneratie?
+- **Automatiseer documentgeneratie Java**‑projecten zonder Microsoft Office‑afhankelijkheden.  
+- **Ondersteuning voor complexe hiërarchieën** – geneste tabellen, herhalende secties en conditionele inhoud.  
+- **Mustache‑syntaxis** biedt flexibele, niet‑merge‑field plaatshouders voor geavanceerde templating.  
+- **Cross‑platform** – werkt op Windows, Linux en macOS.
 
-Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
-- [Aspose.Words voor Java](https://products.aspose.com/words/java/) geïnstalleerd.
-- Voorbeeld-XML-gegevensbestanden voor klanten, bestellingen en leveranciers.
-- Voorbeeld Word-documenten voor samenvoegbestemmingen.
+## Voorwaarden
 
-## Samenvoegen met XML-gegevens
+- [Aspose.Words for Java](https://products.aspose.com/words/java/) geïnstalleerd (de nieuwste versie).  
+- Voorbeeld‑XML‑bestanden voor klanten, bestellingen en leveranciers (de tutorial gebruikt `Mail merge data - Customers.xml`, `Orders.xml` en `Vendors.xml`).  
+- Word‑sjabloondocumenten die merge‑velden bevatten (bijv. `Registration complete.docx`, `Invoice.docx`, `Vendor.docx`).  
 
-### 1. Basis samenvoeging
+## Hoe XML samenvoegen – Basis‑mail‑merge
 
-Voer de volgende stappen uit om een eenvoudige samenvoeging met XML-gegevens uit te voeren:
+Een basis‑mail‑merge haalt een enkele XML‑tabel in een Word‑sjabloon. Volg deze stappen:
+
+1. Laad het XML‑bestand in een `DataSet`.  
+2. Open het doel‑Word‑document.  
+3. Voer de merge uit met de tabelnaam.  
+4. Sla het samengevoegde document op.
 
 ```java
 DataSet customersDs = new DataSet();
@@ -41,9 +59,16 @@ doc.getMailMerge().execute(customersDs.getTables().get("Customer"));
 doc.save("Your Directory Path" + "BasicMailMerge.docx");
 ```
 
-### 2. Geneste samenvoeging
+**Pro tip:** Houd je XML‑structuur plat voor eenvoudige merges – elke tabel moet direct overeenkomen met een set merge‑velden.
 
-Gebruik de volgende code voor geneste samenvoegingen:
+## Hoe XML samenvoegen – Geneste mail‑merge
+
+Wanneer je XML ouder‑kind‑relaties bevat (bijv. bestellingen met regelitems), heb je een geneste merge nodig. De `executeWithRegions`‑methode verwerkt elke regio recursief.
+
+1. Laad de hiërarchische XML in een `DataSet`.  
+2. Schakel whitespace‑trimmen uit als je exacte opmaak nodig hebt.  
+3. Roep `executeWithRegions` aan om alle geneste tabellen te verwerken.  
+4. Sla het resultaat op.
 
 ```java
 DataSet pizzaDs = new DataSet();
@@ -54,9 +79,12 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## Mustache-syntaxis met behulp van DataSet
+**Veelvoorkomend valkuil:** Het vergeten instellen van `setTrimWhitespaces(false)` kan ongewenste spaties veroorzaken in het uiteindelijke document, vooral bij valuta‑ of numerieke velden.
 
-Om de Mustache-syntaxis te gebruiken met een DataSet, volgt u deze stappen:
+## Hoe Mustache‑syntaxis te gebruiken met een DataSet
+
+Mustache‑syntaxis stelt je in staat niet‑merge‑field plaatshouders (bijv. `{{CustomerName}}`) in je sjsteuning in met `setUse merge uit met regio's.  
+4. Sla de output op.
 
 ```java
 DataSet ds = new DataSet();
@@ -67,31 +95,43 @@ doc.getMailMerge().executeWithRegions(ds);
 doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 ```
 
-## Conclusie
+**Waarom Must gebruiken?** Het biedt een schone, taal‑agnostische manier om naar gegevens te verwijzen, waardoor je sjablonen makkelijker leesbaar en onderhoudbaar zijn, vooral bij **het genereren van documenten**‑gedreven XML‑workflows.
 
-In deze uitgebreide handleiding hebben we besproken hoe u XML-gegevens effectief kunt gebruiken met Aspose.Words voor Java. U hebt geleerd hoe u verschillende samenvoegbewerkingen uitvoert, waaronder basis- en geneste samenvoegbewerkingen, en hoe u de Mustache-syntaxis gebruikt met een dataset. Deze technieken stellen u in staat om documentgeneratie en -aanpassing eenvoudig te automatiseren.
+## Veelvoorkomende problemen en oplossingen
+
+| Probleem | Oplossing |
+|----------|-----------|
+| XML‑knooppunten komen niet overeen met‑ | Controleer of de XML‑elementnamen exact overeenkomen met de merge‑veldnamen (hoofdlettergevoelig). |
+| Whitespace verschijnt rond samengevoegde waarden | Gebruik `doc.getMailMerge().setTrimWhitespaces(false)` om de oorspronkelijke spatiëring te behouden. |
+| Geneste tabellen worden genegeerd | Zorg ervoor dat de regio van de bovenliggende tabel is gedefinieerd in het sjabloon (bijv. `{{#Orders}} … {{/Orders}}`). |
+| Mustache‑plaatshouders worden niet vervangen | Roep `setUseNonMergeFields(true)` aan vóór het uitvoeren van de merge. |
 
 ## Veelgestelde vragen
 
-### Hoe kan ik mijn XML-gegevens voorbereiden voor samenvoegen?
+### Hoe kan ik mijn XML‑gegevens voorbereiden voor mail‑merge?
 
-Zorg ervoor dat uw XML-gegevens de vereiste structuur hebben, met gedefinieerde tabellen en relaties, zoals weergegeven in de voorbeelden.
+Zorg ervoor dat je XML een tabelstructuur volgt waarbij elk `<TableName>`‑element rijen (`<Row>`) en kolommen bevat die overeenkomen met de merge‑velden in je Word‑sjabloon.
 
-### Kan ik het knipgedrag voor waarden bij samenvoegen aanpassen?
+### Kan ik het trim‑gedrag voor mail‑merge‑waarden aanpassen?
 
-Ja, u kunt bepalen of voorloop- en volgspaties worden bijgesneden tijdens het samenvoegen van e-mails door `doc.getMailMerge().setTrimWhitespaces(false)`.
+Ja. Gebruik `doc.getMailMerge().setTrimWhitespaces(false)` om voor‑ en achtervoegspele spaces precies te behouden zoals ze in de XML staan.
 
-### Wat is de Mustache-syntaxis en wanneer moet ik deze gebruiken?
+### Wat is de Mustache‑syntaxis, en wanneer moet ik deze gebruiken?
 
-Met de Mustache-syntaxis kunt u samenvoegvelden flexibeler opmaken. Gebruik `doc.getMailMerge().setUseNonMergeFields(true)` om Mustache-syntaxis in te schakelen.
+Mustache‑syntaxis (`{{FieldName}}`) biedt flexibele plaatshouders die niet beperkt zijn tot traditionele merge‑velden. Schakel het in met `setUseNonMergeFields(true)` wanneer je een schoner sjabloon‑projecten met deze aanpak?
 
+Integreer de bovenstaande code‑aties. evaluatie.
+
+---
+
+**Laatst bijgewerkt:** 2026-01-24  
+**Getest met:** Aspose.Words for Java (latest release)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

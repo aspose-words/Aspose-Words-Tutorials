@@ -1,10 +1,12 @@
 ---
-"description": "Sfrutta la potenza di Aspose.Words per Java. Impara la gestione dei dati XML, la stampa unione e la sintassi Mustache con tutorial passo passo."
-"linktitle": "Utilizzo di dati XML"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Utilizzo di dati XML in Aspose.Words per Java"
-"url": "/it/java/document-manipulation/using-xml-data/"
-"weight": 12
+date: 2026-01-24
+description: Scopri come unire dati XML con Aspose.Words per Java, automatizzare la
+  generazione di documenti Java e utilizzare la sintassi Mustache per documenti dinamici.
+linktitle: Using XML Data
+second_title: Aspose.Words Java Document Processing API
+title: Come unire XML in Aspose.Words per Java
+url: /it/java/document-manipulation/using-xml-data/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +15,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utilizzo di dati XML in Aspose.Words per Java
+# Come unire XML in Aspose.Words per Java
 
+In questa guida completa scoprirai **come unire dati XML** usando Aspose.Words per Java. Ti guideremo attraverso scenari di mail‑merge di base e nidificati, ti mostreremo come **usare la sintassi Mustache** e spiegheremo come **automatizzare progetti di generazione di documenti in stile Java**. Alla fine sarai in grado di generare documenti Word personalizzati direttamente da fonti XML con poche righe di codice.
 
-## Introduzione all'utilizzo dei dati XML in Aspose.Words per Java
+## Risposte rapide
+- **Qual è la classe principale per il mail merge?** `Document` e la sua proprietà `MailMerge`.  
+- **Posso unire tabelle XML nidificate?** Sì – usa `executeWithRegions` per dati gerarchici.  
+- **La sintassi Mustache è supportata?** Abilitala con `setUseNonMergeFields(true)`.  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza commerciale di Aspose.Words.  
+- **Quale versione di Java è compatibile?** Java 8+ e successive sono pienamente supportate.
 
-In questa guida, esploreremo come lavorare con i dati XML utilizzando Aspose.Words per Java. Imparerai a eseguire operazioni di stampa unione, incluse le operazioni di stampa unione nidificate, e a utilizzare la sintassi Mustache con un DataSet. Forniremo istruzioni dettagliate ed esempi di codice sorgente per aiutarti a iniziare.
+## Cos'è il Mail Merge XML in Aspose.Words?
+Il mail merge XML ti consente di collegare set di dati basati su XML a segnaposti in un modello Word. Il motore sostituisce ogni segnaposto con il valore del nodo XML corrispondente, producendo un documento finale senza modifiche manuali.
+
+## Perché usare Aspose.Words per la generazione di documenti basati su XML?
+- **Automatizza progetti di generazione di documenti Java** senza dipendenze da Microsoft Office.  
+- **Supporto per gerarchie complesse** – tabelle nidificate, sezioni ripetute e contenuti condizionali.  
+- **Sintassi Mustache** ti offre segnaposti flessibili, non‑campo‑merge, per templating avanzato.  
+- **Cross‑platform** – funziona su Windows, Linux e macOS.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere i seguenti prerequisiti:
-- [Aspose.Words per Java](https://products.aspose.com/words/java/) installato.
-- File di dati XML di esempio per clienti, ordini e fornitori.
-- Esempi di documenti Word per destinazioni di stampa unione.
+Prima di iniziare, assicurati di avere quanto segue:
 
-## Stampa unione con dati XML
+- [Aspose.Words for Java](https://products.aspose.com/words/java/) installato (l'ultima versione).  
+- File XML di esempio per clienti, ordini e fornitori (il tutorial utilizza `Mail merge data - Customers.xml`, `Orders.xml` e `Vendors.xml`).  
+- Documenti modello Word che contengono campi di merge (ad es., `Registration complete.docx`, `Invoice.docx`, `Vendor.docx`).  
 
-### 1. Unione di posta di base
+## Come unire XML – Mail Merge di base
 
-Per eseguire una stampa unione di base con dati XML, attenersi alla seguente procedura:
+Un mail merge di base importa una singola tabella XML in un modello Word. Segui questi passaggi:
+
+1. Carica il file XML in un `DataSet`.  
+2. Apri il documento Word di destinazione.  
+3. Esegui il merge usando il nome della tabella.  
+4. Salva il documento unito.
 
 ```java
 DataSet customersDs = new DataSet();
@@ -41,9 +60,16 @@ doc.getMailMerge().execute(customersDs.getTables().get("Customer"));
 doc.save("Your Directory Path" + "BasicMailMerge.docx");
 ```
 
-### 2. Unione di posta nidificata
+**Consiglio professionale:** Mantieni la struttura XML piatta per merge semplici – ogni tabella dovrebbe corrispondere direttamente a un insieme di campi di merge.
 
-Per le unioni di posta nidificate, utilizzare il seguente codice:
+## Come unire XML – Mail Merge nidificato
+
+Quando il tuo XML contiene relazioni padre‑figlio (ad es., ordini con righe di dettaglio), è necessario un merge nidificato. Il metodo `executeWithRegions` elabora ogni regione in modo ricorsivo.
+
+1. Carica l'XML gerarchico in un `DataSet`.  
+2. Disabilita il trimming degli spazi bianchi se hai bisogno di una formattazione esatta.  
+3. Chiama `executeWithRegions` per gestire tutte le tabelle nidificate.  
+4. Salva il risultato.
 
 ```java
 DataSet pizzaDs = new DataSet();
@@ -54,9 +80,16 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## Sintassi dei baffi utilizzando DataSet
+**Errore comune:** Dimenticare di impostare `setTrimWhitespaces(false)` può causare spazi indesiderati nel documento finale, specialmente per campi di valuta o numerici.
 
-Per sfruttare la sintassi Mustache con un DataSet, segui questi passaggi:
+## Come usare la sintassi Mustache con un DataSet
+
+La sintassi Mustache ti consente di inserire segnaposti non‑campo‑merge (ad es., `{{CustomerName}}`) all'interno del tuo modello. Abilitala ed esegui un merge basato su regioni.
+
+1. Carica l'XML del fornitore.  
+2. Attiva il supporto Mustache con `setUseNonMergeFields(true)`.  
+3. Esegui il merge con le regioni.  
+4. Salva l'output.
 
 ```java
 DataSet ds = new DataSet();
@@ -67,31 +100,42 @@ doc.getMailMerge().executeWithRegions(ds);
 doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 ```
 
-## Conclusione
+**Perché usare Mustache?** Fornisce un modo pulito e indipendente dal linguaggio per fare riferimento ai dati, rendendo i tuoi modelli più facili da leggere e mantenere, specialmente quando **generi documenti** in flussi di lavoro guidati da XML.
 
-In questa guida completa, abbiamo esplorato come utilizzare efficacemente i dati XML con Aspose.Words per Java. Abbiamo imparato a eseguire diverse operazioni di stampa unione, tra cui la stampa unione di base, la stampa unione nidificata e come utilizzare la sintassi Mustache con un DataSet. Queste tecniche consentono di automatizzare la generazione e la personalizzazione dei documenti con facilità.
+## Problemi comuni e soluzioni
 
-## Domande frequenti
+| Problema | Soluzione |
+|----------|-----------|
+| Nodi XML non corrispondenti ai campi di merge | Verifica che i nomi degli elementi XML corrispondano esattamente ai nomi dei campi di merge (case‑sensitive). |
+| Spazi bianchi appaiono attorno ai valori uniti | Usa `doc.getMailMerge().setTrimWhitespaces(false)` per preservare la spaziatura originale. |
+| Le tabelle nidificate vengono ignorate | Assicurati che la regione della tabella padre sia definita nel modello (ad es., `{{#Orders}} … {{/Orders}}`). |
+| Segnaposti Mustache non sostituiti | Chiama `setUseNonMergeFields(true)` prima di eseguire il merge. |
 
-### Come posso preparare i miei dati XML per la stampa unione?
+## FAQ
 
-Assicuratevi che i vostri dati XML seguano la struttura richiesta, con tabelle e relazioni definite, come mostrato negli esempi forniti.
+### Come posso preparare i miei dati XML per il mail merge?
+Assicurati che il tuo XML segua una struttura tabellare in cui ogni elemento `<TableName>` contiene righe (`<Row>`) e colonne che corrispondono ai campi di merge nel tuo modello Word.
 
-### Posso personalizzare il comportamento di ritaglio per i valori di unione dati?
+### Posso personalizzare il comportamento del trim per i valori del mail merge?
+Sì. Usa `doc.getMailMerge().setTrimWhitespaces(false)` per mantenere gli spazi iniziali/finali esattamente come appaiono nell'XML.
 
-Sì, puoi controllare se gli spazi iniziali e finali vengono tagliati durante la stampa unione utilizzando `doc.getMailMerge().setTrimWhitespaces(false)`.
+### Cos'è la sintassi Mustache e quando dovrei usarla?
+La sintassi Mustache (`{{FieldName}}`) consente segnaposti flessibili che non sono limitati ai tradizionali campi di merge. Abilitala con `setUseNonMergeFields(true)` quando hai bisogno di un modello più pulito o vuoi separare la logica dei dati dai codici dei campi Word.
 
-### Cos'è la sintassi di Mustache e quando dovrei usarla?
+### Come automatizzo i progetti Java di generazione di documenti con questo approccio?
+Integra i frammenti di codice sopra nel tuo livello di servizio, leggi XML da database o API, e invoca la routine di merge ogni volta che è necessario un nuovo documento (ad es., generazione di fatture, creazione di contratti).
 
-La sintassi Mustache consente di formattare i campi di unione di posta in modo più flessibile. Utilizzare `doc.getMailMerge().setUseNonMergeFields(true)` per abilitare la sintassi Mustache.
+### È necessaria una licenza commerciale per l'uso in produzione?
+Sì, Aspose.Words richiede una licenza valida per le distribuzioni in produzione. È disponibile una licenza temporanea gratuita per la valutazione.
 
+**Ultimo aggiornamento:** 2026-01-24  
+**Testato con:** Aspose.Words for Java (ultima versione)  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

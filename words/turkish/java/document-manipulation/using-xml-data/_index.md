@@ -1,10 +1,13 @@
 ---
-"description": "Java için Aspose.Words'ün Gücünü Açın. Adım Adım Eğitimlerle XML Veri İşleme, Posta Birleştirme ve Mustache Sözdizimini Öğrenin."
-"linktitle": "XML Verilerini Kullanma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Aspose.Words for Java'da XML Verilerinin Kullanımı"
-"url": "/tr/java/document-manipulation/using-xml-data/"
-"weight": 12
+date: 2026-01-24
+description: Aspose.Words for Java ile XML verilerini birleştirmeyi, Java’da belge
+  oluşturmayı otomatikleştirmeyi ve dinamik belgeler için Mustache sözdizimini kullanmayı
+  öğrenin.
+linktitle: Using XML Data
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java'da XML Nasıl Birleştirilir
+url: /tr/java/document-manipulation/using-xml-data/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java'da XML Verilerinin Kullanımı
+# XML'i Aspose.Words for Java ile Birleştirme
 
+Bu kapsamlı rehberde Aspose.Words for Java kullanarak **XML'i nasıl birleştireceğinizi** keşfedeceksiniz. Temel ve iç içe mail‑merge senaryolarını adım adım inceleyecek, **Mustache sözdizimini nasıl kullanacağınızı** gösterecek ve **Java tarzı belge oluşturma** projelerini nasıl otomatikleştireceğinizi açıklayacağız. Sonunda sadece birkaç satır kodla XML kaynaklarından doğrudan kişiselleştirilmiş Word belgeleri oluşturabileceksiniz.
 
-## Aspose.Words for Java'da XML Verilerinin Kullanımına Giriş
+## Hızlı Yanıtlar
+- **Mail merge için birincil sınıf nedir?** `Document` ve onun `MailMerge` özelliği.  
+- **İç içe XML tablolarını birleştirebilir miyim?** Evet – hiyerarşik veri için `executeWithRegions` kullanın.  
+- **Mustache sözdizimi destekleniyor mu?** `setUseNonMergeFields(true)` ile etkinleştirin.  
+- **Üretim için lisansa ihtiyacım var mı?** Ticari bir Aspose.Words lisansı gereklidir.  
+- **Hangi Java sürümü uyumludur?** Java 8+ ve üzeri tamamen desteklenir.
 
-Bu kılavuzda, Aspose.Words for Java kullanarak XML verileriyle nasıl çalışılacağını inceleyeceğiz. İç içe geçmiş posta birleştirmeleri de dahil olmak üzere posta birleştirme işlemlerini nasıl gerçekleştireceğinizi ve bir DataSet ile Mustache sözdizimini nasıl kullanacağınızı öğreneceksiniz. Başlamanıza yardımcı olmak için adım adım talimatlar ve kaynak kodu örnekleri sağlayacağız.
+## Aspose.Words'da XML Mail Merge Nedir?
+XML mail merge, XML tabanlı veri setlerini bir Word şablonundaki yer tutuculara bağlamanızı sağlar. Motor, her yer tutucuyu ilgili XML düğüm değeriyle değiştirerek manuel düzenleme gerektirmeyen tamamlanmış bir belge üretir.
 
-## Ön koşullar
+## XML‑Tabanlı Belge Oluşturma için Aspose.Words Neden Kullanılmalı?
+- **Microsoft Office bağımlılığı olmadan Java** projelerinde belge oluşturmayı otomatikleştirin.  
+- **Karmaşık hiyerarşiler için destek** – iç içe tablolar, yinelenen bölümler ve koşullu içerik.  
+- **Mustache sözdizimi**, gelişmiş şablonlama için esnek, merge‑field olmayan yer tutucular sağlar.  
+- **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.
 
-Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
-- [Java için Aspose.Words](https://products.aspose.com/words/java/) kuruldu.
-- Müşteriler, siparişler ve satıcılar için örnek XML veri dosyaları.
-- Posta birleştirme hedefleri için örnek Word belgeleri.
+## Önkoşullar
 
-## XML Verileriyle Posta Birleştirme
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-### 1. Temel Posta Birleştirme
+- [Aspose.Words for Java](https://products.aspose.com/words/java/) yüklü (en son sürüm).  
+- Müşteriler, siparişler ve satıcılar için örnek XML dosyaları (öğreticide `Mail merge data - Customers.xml`, `Orders.xml` ve `Vendors.xml` kullanılır).  
+- Birleştirme alanları içeren Word şablon belgeleri (ör. `Registration complete.docx`, `Invoice.docx`, `Vendor.docx`).  
 
-XML verileriyle temel bir posta birleştirme işlemi gerçekleştirmek için şu adımları izleyin:
+## XML'i Birleştirme – Temel Mail Merge
+
+Temel bir mail merge, tek bir XML tablosunu Word şablonuna aktarır. Aşağıdaki adımları izleyin:
+
+1. XML dosyasını bir `DataSet` içine yükleyin.  
+2. Hedef Word belgesini açın.  
+3. Birleştirmeyi tablo adıyla yürütün.  
+4. Birleştirilmiş belgeyi kaydedin.
 
 ```java
 DataSet customersDs = new DataSet();
@@ -41,9 +61,16 @@ doc.getMailMerge().execute(customersDs.getTables().get("Customer"));
 doc.save("Your Directory Path" + "BasicMailMerge.docx");
 ```
 
-### 2. İç İçe Posta Birleştirme
+**Pro ipucu:** Basit birleştirmeler için XML yapınızı düz tutun – her tablo doğrudan bir dizi birleştirme alanına eşlenmelidir.
 
-İç içe posta birleştirmeleri için aşağıdaki kodu kullanın:
+## XML'i Birleştirme – İç İçe Mail Merge
+
+XML'iniz ebeveyn‑çocuk ilişkileri (ör. satır öğeleri içeren siparişler) içerdiğinde, iç içe birleştirme gerekir. `executeWithRegions` yöntemi her bölgeyi özyinelemeli olarak işler.
+
+1. Hiyerarşik XML'i bir `DataSet` içine yükleyin.  
+2. Kesin biçimlendirme gerekiyorsa boşluk kırpmayı devre dışı bırakın.  
+3. Tüm iç içe tabloları işlemek için `executeWithRegions` çağırın.  
+4. Sonucu kaydedin.
 
 ```java
 DataSet pizzaDs = new DataSet();
@@ -54,9 +81,16 @@ doc.getMailMerge().executeWithRegions(pizzaDs);
 doc.save("Your Directory Path" + "NestedMailMerge.docx");
 ```
 
-## DataSet Kullanarak Mustache Sözdizimi
+**Yaygın tuzak:** `setTrimWhitespaces(false)` ayarlamayı unutmak, özellikle para birimi veya sayısal alanlarda, son belgede istenmeyen boşluklara neden olabilir.
 
-Mustache sözdizimini bir DataSet ile kullanmak için şu adımları izleyin:
+## Mustache Sözdizimini bir DataSet ile Kullanma
+
+Mustache sözdizimi, şablonunuzun içinde merge‑field olmayan yer tutucular (ör. `{{CustomerName}}`) eklemenizi sağlar. Bunu etkinleştirip bölge‑tabanlı birleştirme çalıştırın.
+
+1. Satıcı XML'ini yükleyin.  
+2. ` Mustache desteğini açın.  
+3. Bölgeyle birleştirmeyi yürütün.  
+4. Çıktıyı kaydedin.
 
 ```java
 DataSet ds = new DataSet();
@@ -67,31 +101,41 @@ doc.getMailMerge().executeWithRegions(ds);
 doc.save("Your Directory Path" + "MustacheSyntaxUsingDataSet.docx");
 ```
 
-## Çözüm
+**Mustache neden kullanılmalı?** Veriye referans vermek için temiz, dil‑bağımsız bir yol sunar; şablonlarınızı okumayı ve sürdürmeyi kolaylaştırır, özellikle **XML‑tabanlı belge oluşturma** iş akışlarında.
 
-Bu kapsamlı kılavuzda, Aspose.Words for Java ile XML verilerinin nasıl etkili bir şekilde kullanılacağını inceledik. Temel posta birleştirme, iç içe posta birleştirme ve bir DataSet ile Mustache sözdizimini nasıl kullanacağınız dahil olmak üzere çeşitli posta birleştirme işlemlerini nasıl gerçekleştireceğinizi öğrendiniz. Bu teknikler, belge oluşturma ve özelleştirmeyi kolaylıkla otomatikleştirmenizi sağlar.
+## Yaygın Sorunlar ve Çözümler
+
+| Sorun | Çözüm |
+|-------|----------|
+| XML düğümleri birleştirme alanlarıyla eşleşmiyor | XML öğesi adlarının birleştirme alanı adlarıyla tam olarak eşleştiğini (büyük/küçük harfe duyarlı) doğrulayın. |
+| Birleştirilen değerlerin etrafında boşluklar görünüyor | `doc.getMailMerge().setTrimWhitespaces(false)` kullanarak orijinal boşlukları koruyun. |
+| İç içırın. |
 
 ## SSS
 
-### XML verilerimi posta birleştirme için nasıl hazırlayabilirim?
+### XML verilerimi mail merge için nasıl hazırlayabilirim?
+XML'inizin, her `<TableName>` öğesinin satır (`<Row>`) ve sütunları içerdiği ve bunların Word şablonunuzdaki birleştirme alanlarıyla eşleştiği tablo benzeri bir yapıyı izlediğinden emin olun.
 
-Verilen örneklerde gösterildiği gibi, XML verilerinizin gerekli yapıyı izlediğinden, tabloların ve ilişkilerin tanımlandığından emin olun.
+### Mail merge değerleri için kırpma davranışını özelleştirebilir miyim?
+Evet. XML'de göründüğü gibi baştaki/sondaki boşlukları korumak için `doc.getMailMerge().setTrimWhitespaces(false)` kullanın.
 
-### Posta birleştirme değerleri için kırpma davranışını özelleştirebilir miyim?
+### Mustache sözdizimi nedir ve ne zaman kullanmalıyım?
+Mustache sözdizimi (`{{FieldName}}`), geleneksel birleştirme alanlarıyla sınırlı olmayan esnek yer tutucular sağlar. Daha temiz bir şablona ihtiyaç duyduğunuzda veya veri mantığını Word alan kodlarından ayırmak istediğinizde `setUseNonMergeFields(true)` ile etkinleştirin.
 
-Evet, posta birleştirme sırasında öndeki ve arkadaki boşlukların kırpılıp kırpılmayacağını kontrol edebilirsiniz. `doc.getMailMerge().setTrimWhitespaces(false)`.
+### Bu yaklaşım ile Java projelerinde belge oluşturmayı nasıl otomatikleştiririm?
+Yukarıdaki kod parçacıklarını hizmet katmanınıza entegre edin, XML'i veritabanlarından veya API'lerden okuyun ve yeni bir belge gerektiğinde (ör. fatura oluşturma, sözleşme hazırlama) birleştirme rutinini çağırın.
 
-### Mustache söz dizimi nedir ve ne zaman kullanmalıyım?
+### Üretim kullanımı için ticari lisans gerekli mi?
+Evet, Aspose.Words üretim ortamları için geçerli bir lisans gerektirir. Değerlendirme amacıyla ücretsiz geçici bir lisans mevcuttur.
 
-Mustache sözdizimi, posta birleştirme alanlarını daha esnek bir şekilde biçimlendirmenize olanak tanır. `doc.getMailMerge().setUseNonMergeFields(true)` Mustache sözdizimini etkinleştirmek için.
-
+**Son Güncelleme:** 2026-01-24  
+**Test Edilen:** Aspose.Words for Java (en son sürüm)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
