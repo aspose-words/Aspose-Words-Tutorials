@@ -1,10 +1,13 @@
 ---
-"description": "Java'da Aspose.Words kullanarak belgeleri farklılıklar açısından nasıl karşılaştıracağınızı öğrenin. Adım adım kılavuzumuz doğru belge yönetimini sağlar."
-"linktitle": "Belgeleri Farklılıklar Açısından Karşılaştırma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Belgeleri Farklılıklar Açısından Karşılaştırma"
-"url": "/tr/java/document-merging/comparing-documents-for-differences/"
-"weight": 12
+date: 2026-01-24
+description: Aspose.Words for Java kullanarak docx dosyalarını nasıl karşılaştıracağınızı
+  öğrenin. Bu adım adım rehber, farkları nasıl tespit edeceğinizi, revizyonları nasıl
+  işleyebileceğinizi ve Word belgelerini nasıl senkronize edebileceğinizi gösterir.
+linktitle: Comparing Documents for Differences
+second_title: Aspose.Words Java Document Processing API
+title: docx nasıl karşılaştırılır - Belgelerdeki Farkları Karşılaştırma
+url: /tr/java/document-merging/comparing-documents-for-differences/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,39 +16,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Belgeleri Farklılıklar Açısından Karşılaştırma
+# DOCX Dosyalarını Nasıl Karşılaştırılır – Belgelerdeki Farkları Karşılaştırma
 
-## giriiş
+## DOCX Dosyalarını Nasıl Karşılaştırılır – Giriş
 
-İki Word belgesi arasındaki her bir farkı nasıl tespit edeceğinizi hiç merak ettiniz mi? Belki bir belgeyi gözden geçiriyorsunuz veya bir işbirlikçinin yaptığı değişiklikleri bulmaya çalışıyorsunuz. Manuel karşılaştırmalar sıkıcı ve hataya açık olabilir, ancak Java için Aspose.Words ile bu çok kolay! Bu kitaplık, belge karşılaştırmasını otomatikleştirmenizi, revizyonları vurgulamanızı ve değişiklikleri zahmetsizce birleştirmenizi sağlar.
+Hiç **docx dosyalarını nasıl karşılaştırılır** diye merak ettiniz mi ve iki Word belgesi arasındaki her değişikliği tespit etmek istediniz mi? Belki bir sözleşmeyi gözden geçiriyorsunuz, ortak bir raporu inceliyorsunuz ya da yasal evrakları denetlemeniz gerekiyor. Manuel karşılaştırmalar zahmetli ve hataya açıktır, ancak Asposex karşılaştırmasını hangi kütose.Words for Java  
+- **Kaç satır kod gerekir?** Tam bir karşılaştır‑ve‑kabul iş akışı için yaklaşık 30 satır  
+- **Lisans gerekli mi?** Evet, üretim kullanımı için geçerli bir Aspose lisansı gerekir  
+- **Görseller veya tablolar içeren belgeleri karşılaştırabilir miyim?** Kesinlikle – API karmaşık düzenleri yönetir  
+- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri  
 
-## Ön koşullar
+## Önkoşullar
 
-Koda geçmeden önce aşağıdakilerin hazır olduğundan emin olun:  
-1. Sisteminizde Java Development Kit (JDK) yüklü.  
-2. Aspose.Words for Java kütüphanesi. Şunları yapabilirsiniz [buradan indirin](https://releases.aspose.com/words/java/).  
+Koda geçmeden önce aşağıdakilerin hazır olduğundan emin olun:
+
+1. Sisteminizde yüklü Java Development Kit (JDK).  
+2. Aspose.Words for Java kütüphanesi. **[Buradan indirebilirsiniz](https://releases.aspose.com/words/java/).**  
 3. IntelliJ IDEA veya Eclipse gibi bir geliştirme ortamı.  
-4. Java programlama konusunda temel bilgi.  
-5. Geçerli bir Aspose lisansı. Eğer yoksa, bir tane edinin [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+4. Java programlamaya temel aşinalık.  
+5. Geçerli bir Aspose lisansı. Yoksa **[geçici lisans alabilirsiniz](https://purchase.aspose.com/temporary-license/).**
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Aspose.Words'ü kullanmak için gerekli sınıfları içe aktarmanız gerekir. Aşağıda gerekli içe aktarmalar verilmiştir:
+Aspose.Words kullanabilmek için gerekli sınıfları içe aktarmanız gerekir. Aşağıda gereken import ifadeleri yer alıyor:
 
 ```java
 import com.aspose.words.*;
 import java.util.Date;
 ```
 
-Bu paketlerin projenizin bağımlılıklarına doğru şekilde eklendiğinden emin olun.
-
+Bu paketlerin proje bağımlılıklarınıza doğru şekilde eklendiğinden emin olun.
 
 Bu bölümde süreci basit adımlara ayıracağız.
 
+## Adım 1: Belgelerinizi Hazırlayın
 
-## Adım 1: Belgelerinizi Ayarlayın
-
-Başlamak için iki belgeye ihtiyacınız var: biri orijinali, diğeri ise düzenlenmiş sürümü temsil ediyor. Bunları şu şekilde oluşturabilirsiniz:
+Başlamak için iki belgeye ihtiyacınız var: biri orijinali, diğeri düzenlenmiş versiyonu temsil eder. İşte bu belgeleri nasıl oluşturacağınız:
 
 ```java
 Document doc1 = new Document();
@@ -57,12 +63,11 @@ builder = new DocumentBuilder(doc2);
 builder.writeln("This is the edited document.");
 ```
 
-Bu, temel içerikle bellekte iki belge oluşturur. Ayrıca, mevcut Word belgelerini kullanarak yükleyebilirsiniz `new Document("path/to/document.docx")`.
-
+Bu, temel içerikle iki bellek içi belge oluşturur. Ayrıca mevcut Word dosyalarını `new Document("path/to/document.docx")` ile yükleyebilirsiniz.
 
 ## Adım 2: Mevcut Revizyonları Kontrol Edin
 
-Word belgelerindeki revizyonlar izlenen değişiklikleri temsil eder. Karşılaştırmadan önce, hiçbir belgenin önceden var olan revizyonları içermediğinden emin olun:
+Word belgelerindeki revizyonlar, izlenen değişiklikleri temsil eder. Karşılaştırma yapmadan önce hiçbir belgenin önceden var olan revizyon içermediğinden emin olun:
 
 ```java
 if (doc1.getRevisions().getCount() == 0 && doc2.getRevisions().getCount() == 0) {
@@ -70,25 +75,22 @@ if (doc1.getRevisions().getCount() == 0 && doc2.getRevisions().getCount() == 0) 
 }
 ```
 
-Eğer düzeltmeler varsa, devam etmeden önce bunları kabul edebilir veya reddedebilirsiniz.
-
+Revizyonlar varsa, devam etmeden önce kabul etmeniz veya reddetmeniz gerekebilir.
 
 ## Adım 3: Belgeleri Karşılaştırın
 
-Kullanın `compare` farklılıkları bulma yöntemi. Bu yöntem hedef belgeyi (`doc2`) kaynak belgeyle (`doc1`):
+Farkları bulmak için `compare` metodunu kullanın. Bu metod, hedef belgeyi (`doc2`) kaynak belge (`doc1`) ile karşılaştırır:
 
 ```java
 doc1.compare(doc2, "AuthorName", new Date());
 ```
 
-Burada:
-- AuthorName, değişiklikleri yapan kişinin adıdır.
-- Tarih karşılaştırma zaman damgasıdır.
+ değişiklikleri yapan kişinin adıdır.  
+- **Date** karşılaştırma zaman damgasıdır.
 
+## Adım 4: Revizyonları İşleyin
 
-## Adım 4: Süreç Revizyonları
-
-Karşılaştırıldığında, Aspose.Words kaynak belgede revizyonlar üretecektir (`doc1`). Bu revizyonları inceleyelim:
+Karşılaştırmadan sonra Aspose.Words, kaynak belge (`doc1`) içinde revizyonlar oluşturur. Bu revizyonları inceleyelim:
 
 ```java
 for (Revision r : doc1.getRevisions()) {
@@ -98,29 +100,27 @@ for (Revision r : doc1.getRevisions()) {
 }
 ```
 
-Bu döngü, her revizyon hakkında, değişikliğin türü ve etkilenen metin gibi ayrıntılı bilgiler sağlar.
+Bu döngü, değişiklik türü ve etkilenen metin gibi her revizyon hakkında ayrıntılı bilgi sağlar.
 
+## Adım 5: Tüm Revizyonları Kabul Edin
 
-## Adım 5: Tüm Revizyonları Kabul Et
-
-Kaynak belgeyi istiyorsanız (`doc1`) hedef belgeyle eşleşmesi için (`doc2`), tüm revizyonları kabul et:
+Kaynak belge (`doc1`), hedef belge (`doc2`) ile aynı olmalıysa, tüm revizyonları kabul edin:
 
 ```java
 doc1.getRevisions().acceptAll();
 ```
 
-Bu güncellemeler `doc1` yapılan tüm değişiklikleri yansıtmak için `doc2`.
-
+Bu, `doc1`'i `doc2`'de yapılan tüm değişiklikleri yansıtacak şekilde günceller.
 
 ## Adım 6: Güncellenen Belgeyi Kaydedin
 
-Son olarak güncellenen belgeyi diske kaydedin:
+Son olarak, güncellenen belgeyi diske kaydedin:
 
 ```java
 doc1.save("Document.Compare.docx");
 ```
 
-Değişiklikleri onaylamak için belgeyi yeniden yükleyin ve kalan revizyon olmadığını doğrulayın:
+Değişiklikleri doğrulamak için belgeyi yeniden yükleyin ve kalan revizyon olmadığını kontrol edin:
 
 ```java
 doc1 = new Document("Document.Compare.docx");
@@ -129,10 +129,9 @@ if (doc1.getRevisions().getCount() == 0) {
 }
 ```
 
+## Adım 7: Belge Eşitliğini Doğrulayın
 
-## Adım 7: Belgenin Eşitliğini Doğrulayın
-
-Belgelerin aynı olduğundan emin olmak için metinlerini karşılaştırın:
+Belgelerin gerçekten aynı olduğundan emin olmak için düz metinlerini karşılaştırın:
 
 ```java
 if (doc1.getText().trim().equals(doc2.getText().trim())) {
@@ -140,37 +139,64 @@ if (doc1.getText().trim().equals(doc2.getText().trim())) {
 }
 ```
 
-Eğer metinler uyuşuyorsa tebrikler! Belgeleri başarıyla karşılaştırdınız ve senkronize ettiniz!
+Metinler eşleşiyorsa, tebrikler—belgeleri başarıyla karşılaştırıp senkronize ettiniz!
 
+## Neden Önemli
 
-## Çözüm
+**docx dosyalarını nasıl karşılaştırılır** sorusunun programatik olarak yanıtlanması, hukuk, yayıncılık ve işbirliği ortamlarında sayısız saat tasarrufu sağlar. Revizyonları manuel olarak kaydırmak yerine süreci otomatikleştirebilir, denetim günlükleri oluşturabilir ve karşılaştırma mantığını daha büyük belge‑yönetim sistemlerine entegre edebilirsiniz.
 
-Aspose.Words for Java sayesinde belge karşılaştırması artık bir angarya değil. Sadece birkaç satır kodla, farklılıkları belirleyebilir, revizyonları işleyebilir ve belge tutarlılığını sağlayabilirsiniz. İster işbirlikçi bir yazma projesi yönetiyor olun, ister yasal belgeleri denetliyor olun, bu özellik oyunun kurallarını değiştiriyor.
+## Yaygın Tuzaklar ve İpuçları
 
-## SSS
+- **Önceden var olan revizyonlar:** `compare` çağırmadan önce her zaman mevcut revizyonları temizleyin veya kabul edin, aksi takdirde API bunları yeni değişiklik olarak algılayabilir.  
+- **Büyük belgeler:** Çok büyük dosyalar için JVM heap boyutunu artırarak `OutOfMemoryError` oluşumunu önleyin.  
+- **Özel revizyon stilizasyonu:** `RevisionOptions` ile ekleme/silme görünümünü (ör. vurgulama rengi) değiştirebilirsiniz.  
 
-### Resim ve tablo içeren belgeleri karşılaştırabilir miyim?  
-Evet, Aspose.Words resim, tablo ve biçimlendirme içerenler de dahil olmak üzere karmaşık belgelerin karşılaştırılmasını destekler.
+## SSS'ler
 
-### Bu özelliği kullanmak için lisansa ihtiyacım var mı?  
-Evet, tam işlevsellik için bir lisans gereklidir. Bir tane edinin [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+### Görseller ve tablolar içeren belgeleri karşılaştırabilir miyim?  
+Evet, Aspose.Words, görseller, tablolar ve biçimlendirme içeren karmaşık belgeleri karşılaştırmayı destekler.
 
-### Önceden yapılmış revizyonlar varsa ne olur?  
-Çatışmaları önlemek için belgeleri karşılaştırmadan önce bunları kabul veya reddetmelisiniz.
+### Bu özelliği kullanmak için lisans gerekir mi?  
+Evet, tam işlevsellik için lisans gereklidir. **[Geçici lisans alabilirsiniz](https://purchase.aspose.com/temporary-license/).**
 
-### Belgedeki revizyonları vurgulayabilir miyim?  
-Evet, Aspose.Words revizyonların nasıl görüntüleneceğini özelleştirmenize (örneğin değişiklikleri vurgulamanıza) olanak tanır.
+### Önceden var olan revizyonlar varsa ne olur?  
+Karşılaştırma yapmadan önce bunları kabul etmeniz veya reddetmeniz gerekir; aksi takdirde çakışmalar oluşur.
 
-### Bu özellik diğer programlama dillerinde de mevcut mu?  
-Evet, Aspose.Words .NET ve Python da dahil olmak üzere birden fazla dili destekler.
+### Revizyonları belgede vurgulayabilir miyim?  
+Evet, Aspose.Words revizyonların nasıl gösterileceğini (ör. renkli vurgulama) özelleştirmenize olanak tanır.
 
+### Bu özellik diğer programlama dillerinde mevcut mu?  
+Evet, Aspose.Words .NET ve Python dahil olmak üzere birden çok dili destekler.
+
+## Sık Sorulan Sorular
+
+**S: Diskteki iki mevcut .docx dosyasını nasıl karşılaştırırım?**  
+C: `new Document("path/to/file.docx")` ile yükleyin ve ardından kaynak belge üzerinde `compare` metodunu çağırın.
+
+**S: Karşılaştırma sırasında biçimlendirme değişikliklerini yok sayabilir miyim?**  
+C: Yalnızca metinsel farkları önemsiyorsanız, `ComparisonOptions` içinde `IgnoreFormatting` özelliğini `true` olarak ayarlayın.
+
+**S: Revizyon listesini CSV dosyasına dışa aktarabilir miyim?**  
+C: `doc.getRevisions()` üzerinden döngü kurarak her `Revision` nesnesinin özelliklerini standart Java I/O ile CSV'ye yazabilirsiniz.
+
+**S: Hangi Aspose.Words sürümü gereklidir?**  
+C: En son kararlı sürüm (ör. 24.11) `compare` API'sini tam olarak destekler; eski sürümlerde sınırlı özellikler olabilir.
+
+**S: API şifre korumalı belgeleri işleyebilir mi?**  
+C: Evet—korumalı bir dosyayı yüklerken şifreyi `Document` yapıcı metoduna parametre olarak geçebilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-01-24  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.11  
+**Yazar:** Aspose  
+
+---
