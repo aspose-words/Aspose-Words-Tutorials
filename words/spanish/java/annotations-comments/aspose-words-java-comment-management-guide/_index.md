@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Aprenda a administrar comentarios y respuestas en documentos de Word con Aspose.Words para Java. Agregue, imprima, elimine, marque como completado y registre las marcas de tiempo de los comentarios fácilmente."
-"title": "Aspose.Words Java&#58; Dominando la gestión de comentarios en documentos de Word"
-"url": "/es/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-01-27'
+description: Aprenda cómo agregar comentarios en Java y añadir o eliminar comentarios
+  de palabras en documentos de Word usando Aspose.Words para Java. Administre, imprima,
+  elimine y añada marcas de tiempo a los comentarios sin esfuerzo.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+title: Agregar comentario Java con Aspose.Words – Gestión maestra de comentarios
+url: /es/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +18,31 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Aspose.Words Java: Dominando la gestión de comentarios en documentos de Word
+# Aspose.Words Java: Dominando la Gestión de Comentarios en Documentos Word
 
 ## Introducción
-Gestionar comentarios en un documento de Word mediante programación puede ser complicado, ya sea al añadir respuestas o marcar problemas como resueltos. Este tutorial te guía en el uso de la potente biblioteca Aspose.Words con Java para añadir, gestionar y analizar comentarios de forma eficiente.
+Si necesitas **add comment java** programáticamente y mantener control total sobre el ciclo de vida de los comentarios, has llegado al lugar correcto. Ya sea que estés construyendo una herramienta de revisión colaborativa o automatizando flujos de trabajo de documentos, gestionar los comentarios—añadir, responder, eliminar y rastrear marcas de tiempo—puede ser un punto crítico. En este tutorial recorreremos cada operación esencial usando Aspose.Words for Java, para que puedas **add remove word comments** con confianza, imprimirlos, marcarlos como completados y extraer marcas de tiempo UTC.
 
-**Lo que aprenderás:**
-- Añade comentarios y respuestas sin esfuerzo
-- Imprimir todos los comentarios y respuestas de nivel superior
-- Eliminar respuestas a comentarios o marcar comentarios como hechos
-- Recupere la fecha y hora UTC de los comentarios para un seguimiento preciso
+**Lo que aprenderás**
+- Cómo añadir comentarios y respuestas con una sola línea de código  
+- Cómo imprimir todos los comentarios de nivel superior y sus respuestas anidadas  
+- Cómo eliminar respuestas a comentarios o borrar completamente un hilo de comentarios  
+- Cómo marcar un comentario como completado (resuelto)  
+- Cómo obtener la fecha y hora exactas en UTC en que se creó un comentario  
 
-¿Listo para mejorar tus habilidades de gestión documental? Analicemos los requisitos previos antes de empezar.
+¿Listo? Asegurémonos de que tu entorno esté configurado antes de sumergirnos en el código.
 
-## Prerrequisitos
-Antes de empezar, asegúrese de tener las bibliotecas, las herramientas y el entorno necesarios configurados. Necesitará:
-- Kit de desarrollo de Java (JDK) instalado en su máquina
-- Familiaridad con conceptos básicos de programación Java
-- Un entorno de desarrollo integrado (IDE) como IntelliJ IDEA o Eclipse
+## Requisitos previos
+Antes de comenzar, asegúrate de tener lo siguiente:
+
+- Java Development Kit (JDK) 8 o superior instalado  
+- Conocimientos básicos de sintaxis Java y programación orientada a objetos  
+- Un IDE como IntelliJ IDEA o Eclipse para una gestión fácil del proyecto  
 
 ### Configuración de Aspose.Words para Java
-Aspose.Words es una biblioteca completa que permite trabajar con documentos de Word en varios formatos. Para empezar, incluya la siguiente dependencia en su proyecto:
+Aspose.Words es una biblioteca potente que te permite manipular documentos Word en muchos formatos. Añade la dependencia que corresponda a tu sistema de compilación:
 
-**Experto:**
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,52 +51,59 @@ Aspose.Words es una biblioteca completa que permite trabajar con documentos de W
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Adquisición de licencias
-Aspose.Words es una biblioteca de pago, pero puedes empezar con una prueba gratuita o solicitar una licencia temporal para acceder a todas sus funciones. Visita [página de compra](https://purchase.aspose.com/buy) para explorar las opciones de licencia.
+#### Obtención de licencia
+Aspose.Words es un producto comercial, pero puedes comenzar con una prueba gratuita o solicitar una licencia temporal para acceso completo a todas las funciones. Visita la [purchase page](https://purchase.aspose.com/buy) para explorar las opciones de licenciamiento.
+
+## Respuestas rápidas
+- **¿Puedo add comment java sin una licencia?** Sí, la versión de prueba funciona pero agrega marcas de agua de evaluación.  
+- **¿Qué método añade una respuesta?** `comment.addReply(author, initials, date, text)`.  
+- **¿Cómo marco un comentario como completado?** Llama a `comment.setDone(true)`.  
+- **¿Está disponible la marca de tiempo UTC?** Usa `comment.getDateTimeUtc()`.  
+- **¿Qué versión está probada?** Aspose.Words 25.3 (Java).
 
 ## Guía de implementación
-En esta sección, desglosaremos cada característica relacionada con la gestión de comentarios mediante Aspose.Words en Java.
+En las secciones siguientes desglosamos cada característica paso a paso, añadiendo contexto y consejos prácticos en el camino.
 
-### Función 1: Agregar comentario con respuesta
-**Descripción general**
-Esta función muestra cómo agregar un comentario y una respuesta en un documento de Word. Es ideal para la edición colaborativa de documentos, donde varios usuarios pueden compartir sus comentarios.
+### Característica 1: Añadir comentario con respuesta
+#### Visión general
+Añadir un comentario y una respuesta es la base de la edición colaborativa. Verás cómo crear un comentario, adjuntarlo a un párrafo y luego añadir una respuesta anidada.
 
 #### Pasos de implementación
-**Paso 1:** Inicializar el objeto de documento
+**Paso 1:** Inicializar el objeto Document  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 ```
 
-**Paso 2:** Crear y agregar un comentario
+**Paso 2:** Crear y añadir un comentario  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**Paso 3:** Añadir una respuesta al comentario
+**Paso 3:** Añadir una respuesta al comentario  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```
 
-### Función 2: Imprimir todos los comentarios
-**Descripción general**
-Esta función imprime todos los comentarios de nivel superior y sus respuestas, lo que facilita la revisión de comentarios en masa.
+### Característica 2: Imprimir todos los comentarios
+#### Visión general
+Al revisar un documento extenso, imprimir cada comentario de nivel superior junto con sus respuestas ahorra tiempo. Este fragmento recorre la carga de un documento y la enumeración de la jerarquía de comentarios.
 
 #### Pasos de implementación
-**Paso 1:** Cargar el documento
+**Paso 1:** Cargar el documento  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
 ```
 
-**Paso 2:** Recuperar e imprimir comentarios
+**Paso 2:** Recuperar e imprimir los comentarios  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -103,12 +117,12 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```
 
-### Función 3: Eliminar respuestas a comentarios
-**Descripción general**
-Elimine respuestas específicas o todas las respuestas de un comentario para mantener el documento limpio y organizado.
+### Característica 3: Eliminar respuestas a comentarios
+#### Visión general
+A veces un hilo de comentarios se vuelve ruidoso. Este ejemplo muestra cómo eliminar una única respuesta o limpiar toda la lista de respuestas.
 
 #### Pasos de implementación
-**Paso 1:** Inicializar y agregar comentarios con respuestas
+**Paso 1:** Inicializar y añadir comentarios con respuestas  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -118,18 +132,18 @@ comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
 ```
 
-**Paso 2:** Eliminar respuestas
+**Paso 2:** Eliminar respuestas  
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Eliminar una respuesta
-comment.removeAllReplies(); // Eliminar todas las respuestas restantes
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
 ```
 
-### Función 4: Marcar comentario como hecho
-**Descripción general**
-Marque los comentarios como resueltos para realizar un seguimiento eficiente de los problemas dentro de su documento.
+### Característica 4: Marcar comentario como completado
+#### Visión general
+Marcar un comentario como “done” indica que el problema ha sido resuelto. Esta bandera puede usarse en capas UI para filtrar retroalimentación completada.
 
 #### Pasos de implementación
-**Paso 1:** Crear un documento y agregar un comentario
+**Paso 1:** Crear un documento y añadir un comentario  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -138,7 +152,7 @@ Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
 ```
 
-**Paso 2:** Marcar el comentario como hecho
+**Paso 2:** Marcar el comentario como completado  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -146,12 +160,12 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```
 
-### Función 5: Obtener fecha y hora UTC a partir de un comentario
-**Descripción general**
-Recupere la fecha y hora UTC exactas en que se agregó un comentario para un seguimiento preciso.
+### Característica 5: Obtener fecha y hora UTC del comentario
+#### Visión general
+El registro preciso de marcas de tiempo es esencial para auditorías. Aspose.Words almacena la hora de creación en UTC, la cual puedes recuperar y comparar.
 
 #### Pasos de implementación
-**Paso 1:** Crear un documento con un comentario con marca de tiempo
+**Paso 1:** Crear un documento con un comentario con marca de tiempo  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -161,7 +175,7 @@ comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**Paso 2:** Guardar y recuperar la fecha UTC
+**Paso 2:** Guardar y recuperar la fecha UTC  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -170,46 +184,54 @@ assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```
 
 ## Aplicaciones prácticas
-Comprender y utilizar estas funciones puede mejorar significativamente la gestión de documentos en diversos escenarios:
-- **Edición colaborativa:** Facilite la colaboración del equipo con comentarios y respuestas.
-- **Revisión de documentos:** Agilice los procesos de revisión marcando los problemas como resueltos.
-- **Gestión de retroalimentación:** Realice un seguimiento de los comentarios utilizando marcas de tiempo precisas.
+Entender estas API puede mejorar drásticamente tus soluciones centradas en documentos:
 
-Estas capacidades se pueden integrar en sistemas más grandes, como plataformas de gestión de contenido o canales de procesamiento automatizado de documentos.
+- **Edición colaborativa:** Permite que varios revisores dejen retroalimentación, respondan y resuelvan problemas directamente en el archivo.  
+- **Pipelines de revisión de documentos:** Automatiza la extracción de comentarios para informes o verificaciones de cumplimiento.  
+- **Rastreos de auditoría:** Almacena marcas de tiempo UTC para propósitos legales o regulatorios.  
+
+Estos fragmentos pueden integrarse en sistemas más grandes como plataformas de gestión de contenido, generadores automáticos de informes o herramientas personalizadas de procesamiento de Word.
 
 ## Consideraciones de rendimiento
-Al trabajar con documentos grandes, tenga en cuenta los siguientes consejos para optimizar el rendimiento:
-- Limitar el número de comentarios procesados a la vez
-- Utilice estructuras de datos eficientes para almacenar y recuperar comentarios
-- Actualice Aspose.Words periódicamente para aprovechar las mejoras de rendimiento
+Al trabajar con archivos Word grandes (cientos de páginas, miles de comentarios), ten en cuenta estos consejos:
 
-## Conclusión
-Ya domina la adición, la gestión y el análisis de comentarios en Java con Aspose.Words. Con estas habilidades, podrá optimizar significativamente sus flujos de trabajo de gestión de documentos. Continúe explorando otras funciones de Aspose.Words para descubrir todo su potencial.
+- Procesa los comentarios en lotes en lugar de cargarlos todos en memoria a la vez.  
+- Reutiliza una única instancia `Document` al realizar múltiples operaciones.  
+- Actualiza a la última versión de Aspose.Words para beneficiarte de optimizaciones de rendimiento y correcciones de errores.
 
-**Próximos pasos:**
-- Experimente con funcionalidades adicionales de Aspose.Words
-- Integre la gestión de comentarios en sus proyectos existentes
-
-¿Listo para implementar estas soluciones? ¡Empieza hoy mismo y optimiza tus procesos de gestión de documentos!
+## Problemas comunes y soluciones
+| Problema | Por qué ocurre | Solución |
+|----------|----------------|----------|
+| **`NullPointerException` al acceder a respuestas** | El comentario no tiene respuestas (`getReplies()` devuelve vacío). | Siempre verifica `comment.getReplies().getCount() > 0` antes de acceder a un elemento. |
+| **Los comentarios no aparecen después de guardar** | El documento se guardó en una carpeta diferente o se sobrescribió. | Verifica que `YOUR_DOCUMENT_DIRECTORY` apunte a la ubicación deseada y que tengas permisos de escritura. |
+| **La marca de tiempo UTC difiere de la hora local** | `Date` usa la configuración regional del sistema; `getDateTimeUtc()` convierte a UTC. | Usa `new Date()` para la creación y confía en `getDateTimeUtc()` para un almacenamiento consistente. |
 
 ## Sección de preguntas frecuentes
-1. **¿Qué es Aspose.Words para Java?**
-   - Es una biblioteca que permite la manipulación de documentos de Word en varios formatos de forma programada.
-2. **¿Cómo instalo Aspose.Words para mi proyecto?**
-   - Agregue la dependencia de Maven o Gradle a su archivo de proyecto.
-3. **¿Puedo utilizar Aspose.Words sin una licencia?**
-   - Sí, con limitaciones. Considere obtener una licencia temporal o completa para tener acceso completo.
-4. **¿Cuáles son algunos problemas comunes al gestionar comentarios?**
-   - Asegúrese de que los métodos de carga de documentos y recuperación de comentarios sean adecuados; maneje las referencias nulas con cuidado.
-5. **¿Cómo puedo realizar un seguimiento de los cambios en varios documentos?**
-   - Implemente sistemas de control de versiones o utilice las funciones de Aspose.Words para rastrear las modificaciones de los documentos.
+1. **¿Qué es Aspose.Words for Java?**  
+   - Es una biblioteca que permite manipular documentos Word en varios formatos programáticamente.  
+
+2. **¿Cómo instalo Aspose.Words en mi proyecto?**  
+   - Añade la dependencia Maven o Gradle mostrada anteriormente a tu archivo de proyecto.  
+
+3. **¿Puedo usar Aspose.Words sin una licencia?**  
+   - Sí, con limitaciones (marcas de agua de evaluación y restricciones de funciones).  
+
+4. **¿Cuáles son algunos problemas comunes al gestionar comentarios?**  
+   - Asegúrate de cargar correctamente el documento, manejar referencias nulas para respuestas y verificar la jerarquía de comentarios.  
+
+5. **¿Cómo rastreo cambios en varios documentos?**  
+   - Implementa lógica de control de versiones en tu aplicación o usa las funciones integradas de seguimiento de revisiones de Aspose.Words.  
+
+---
+
+**Última actualización:** 2026-01-27  
+**Probado con:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

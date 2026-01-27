@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Tanuld meg, hogyan kezelheted a megjegyzéseket és válaszokat Word-dokumentumokban az Aspose.Words for Java segítségével. Könnyedén adhatsz hozzá, nyomtathatsz, eltávolíthatsz, megjelölhetsz készként, és nyomon követheted a megjegyzések időbélyegeit."
-"title": "Aspose.Words Java&#5; A megjegyzéskezelés elsajátítása Word dokumentumokban"
-"url": "/hu/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-01-27'
+description: Tanulja meg, hogyan adhat hozzá megjegyzéseket Java-ban, és hogyan kezelheti
+  a Word dokumentumok megjegyzéseit az Aspose.Words for Java segítségével. Kezelje,
+  nyomtassa, törölje és időbélyeggel lássa el a megjegyzéseket könnyedén.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+title: Megjegyzés hozzáadása Java-val az Aspose.Words segítségével – Master megjegyzéskezelés
+url: /hu/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +18,31 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
 # Aspose.Words Java: A megjegyzéskezelés elsajátítása Word dokumentumokban
 
-## Bevezetés
-A Word-dokumentumokon belüli megjegyzések programozott kezelése kihívást jelenthet, akár válaszokat ad hozzá, akár problémákat jelöl megoldottként. Ez az oktatóanyag végigvezeti Önt az Aspose.Words hatékony könyvtárának Java-val való használatán, amellyel hatékonyan adhat hozzá, kezelhet és elemezhet megjegyzéseket.
+## Introduction
+Ha programozott módon **add comment java** szeretnél hozzáadni megjegyzéseket, és teljes irányítást szeretnél a megjegyzés életciklus felett, jó helyen jársz. Akár együttműködő felülvizsgálati eszközt építesz, akár dokumentumfolyamatokat automatizálsz, a megjegyzések kezelése – hozzáadás, válaszadás, eltávolítás és az időbélyegek nyomon követése – gyakran nehézséget jelent. Ebben az útmutatóban minden alapvető műveletet végigvezetünk az Aspose.Words for Java használatával, így magabiztosan **add remove word comments** tudsz hozzáadni és eltávolítani a Word megjegyzéseket, kiírni őket, megjelölni „késznek”, és kinyerni az UTC időbélyegeket.
 
-**Amit tanulni fogsz:**
-- Könnyedén adhatsz hozzá megjegyzéseket és válaszokat
-- Az összes legfelső szintű megjegyzés és válasz nyomtatása
-- Hozzászólásokra adott válaszok eltávolítása vagy hozzászólások megjelölése készként
-- A pontos nyomon követés érdekében kérje le a megjegyzések UTC dátumát és időpontját
+**What You’ll Learn**
+- Hogyan adjunk hozzá megjegyzéseket és válaszokat egyetlen kódsorral  
+- Hogyan írjuk ki az összes felső‑szintű megjegyzést és azok beágyazott válaszait  
+- Hogyan távolítsuk el a megjegyzés válaszait vagy töröljük teljesen a megjegyzés szálat  
+- Hogyan jelöljük meg a megjegyzést késznek (megoldottként)  
+- Hogyan nyerjük ki a megjegyzés pontos UTC dátumát és időpontját  
 
-Készen állsz fejleszteni dokumentumkezelési készségeidet? Mielőtt belekezdenénk, nézzük meg az előfeltételeket.
+Készen állsz? Győződj meg róla, hogy a környezeted megfelelően be van állítva, mielőtt a kódba merülnél.
 
-## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a szükséges könyvtárakkal, eszközökkel és környezeti beállításokkal. Szüksége lesz:
-- Java fejlesztőkészlet (JDK) telepítve a gépeden
-- Ismerkedés az alapvető Java programozási fogalmakkal
-- Integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA vagy az Eclipse
+## Prerequisites
+Mielőtt elkezdenéd, győződj meg arról, hogy a következők rendelkezésre állnak:
 
-### Az Aspose.Words beállítása Java-hoz
-Az Aspose.Words egy átfogó függvénykönyvtár, amely lehetővé teszi a Word dokumentumok különböző formátumokban történő kezelését. A kezdéshez a következő függőséget kell beépíteni a projektbe:
+- Java Development Kit (JDK) 8 vagy újabb telepítve  
+- Alapvető Java szintaxis és objektum‑orientált programozás ismerete  
+- Egy IDE, például IntelliJ IDEA vagy Eclipse a könnyű projektkezeléshez  
 
-**Szakértő:**
+### Setting Up Aspose.Words for Java
+Az Aspose.Words egy erőteljes könyvtár, amely lehetővé teszi a Word dokumentumok sokféle formátumban történő manipulálását. Add hozzá a függőséget, amely megfelel a build rendszerednek:
+
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,52 +51,59 @@ Az Aspose.Words egy átfogó függvénykönyvtár, amely lehetővé teszi a Word
 </dependency>
 ```
 
-**Fokozat:**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Licencszerzés
-Az Aspose.Words egy fizetős könyvtár, de ingyenes próbaverzióval kezdheted, vagy ideiglenes licencet kérhetsz a funkcióihoz való teljes hozzáféréshez. Látogass el a [vásárlási oldal](https://purchase.aspose.com/buy) hogy felmérje a licencelési lehetőségeket.
+#### License Acquisition
+Az Aspose.Words kereskedelmi termék, de ingyenes próbaverzióval vagy ideiglenes licenccel is elkezdheted a teljes funkciók eléréséhez. Látogasd meg a [purchase page](https://purchase.aspose.com/buy) oldalt a licencelési lehetőségek megtekintéséhez.
 
-## Megvalósítási útmutató
-Ebben a részben lebontjuk az Aspose.Words Java-beli megjegyzéskezeléssel kapcsolatos funkciókat.
+## Quick Answers
+- **Can I add comment java without a license?** Igen, a próba működik, de értékelő vízjeleket ad hozzá.  
+- **Which method adds a reply?** `comment.addReply(author, initials, date, text)`.  
+- **How do I mark a comment as done?** Hívd meg a `comment.setDone(true)` metódust.  
+- **Is UTC timestamp available?** Használd a `comment.getDateTimeUtc()` metódust.  
+- **What version is tested?** Aspose.Words 25.3 (Java).
 
-### 1. funkció: Hozzászólás hozzáadása válasszal
-**Áttekintés**
-Ez a funkció bemutatja, hogyan lehet megjegyzést és választ hozzáadni egy Word-dokumentumhoz. Ideális közös dokumentumszerkesztéshez, ahol több felhasználó is visszajelzést adhat.
+## Implementation Guide
+Az alábbi szakaszokban lépésről‑lépésre bontjuk le minden funkciót, közben kontextust és gyakorlati tippeket adva.
 
-#### Megvalósítási lépések
-**1. lépés:** Dokumentumobjektum inicializálása
+### Feature 1: Add Comment with Reply
+#### Overview
+Megjegyzés és válasz hozzáadása az együttműködő szerkesztés alapja. Megmutatjuk, hogyan hozhatsz létre egy megjegyzést, csatolhatod egy bekezdéshez, majd hogyan adhatod hozzá a beágyazott választ.
+
+#### Implementation Steps
+**Step 1:** Initialize the Document Object  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 ```
 
-**2. lépés:** Hozz létre és adj hozzá egy megjegyzést
+**Step 2:** Create and Add a Comment  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**3. lépés:** Válasz hozzáadása a hozzászóláshoz
+**Step 3:** Add a Reply to the Comment  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```
 
-### 2. funkció: Az összes hozzászólás nyomtatása
-**Áttekintés**
-Ez a funkció kinyomtatja az összes legfelső szintű hozzászólást és a rájuk adott válaszokat, így könnyen áttekintheti a visszajelzéseket tömegesen.
+### Feature 2: Print All Comments
+#### Overview
+Nagy dokumentum felülvizsgálatakor minden felső‑szintű megjegyzés és annak válaszainak kiírása időt takarít meg. Ez a kódrészlet bemutatja a dokumentum betöltését és a megjegyzéshierarchia bejárását.
 
-#### Megvalósítási lépések
-**1. lépés:** Töltse be a dokumentumot
+#### Implementation Steps
+**Step 1:** Load the Document  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
 ```
 
-**2. lépés:** Megjegyzések lekérése és nyomtatása
+**Step 2:** Retrieve and Print Comments  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -103,12 +117,12 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```
 
-### 3. funkció: Hozzászólásokra adott válaszok eltávolítása
-**Áttekintés**
-Távolítson el adott válaszokat vagy az összes választ egy megjegyzésből, hogy a dokumentum tisztán és rendezetten maradjon.
+### Feature 3: Remove Comment Replies
+#### Overview
+Néha egy megjegyzés szál túl zajos lesz. Ez a példa megmutatja, hogyan törölhetsz egyetlen választ vagy tisztíthatod a teljes válaszlstát.
 
-#### Megvalósítási lépések
-**1. lépés:** Inicializálás és megjegyzések hozzáadása válaszokkal
+#### Implementation Steps
+**Step 1:** Initialize and Add Comments with Replies  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -118,18 +132,18 @@ comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
 ```
 
-**2. lépés:** Válaszok eltávolítása
+**Step 2:** Remove Replies  
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Egy válasz eltávolítása
-comment.removeAllReplies(); // Az összes fennmaradó válasz eltávolítása
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
 ```
 
-### 4. funkció: Hozzászólás megjelölése készként
-**Áttekintés**
-megjegyzéseket megoldottként jelölheti meg, hogy hatékonyan nyomon követhesse a dokumentumban található problémákat.
+### Feature 4: Mark Comment as Done
+#### Overview
+A megjegyzés „kész” jelölése azt jelzi, hogy a probléma megoldódott. Ez a jelző felhasználható a UI rétegekben a befejezett visszajelzések szűrésére.
 
-#### Megvalósítási lépések
-**1. lépés:** Dokumentum létrehozása és megjegyzés hozzáadása
+#### Implementation Steps
+**Step 1:** Create a Document and Add a Comment  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -138,7 +152,7 @@ Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
 ```
 
-**2. lépés:** Jelöld meg a hozzászólást készként
+**Step 2:** Mark the Comment as Done  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -146,12 +160,12 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```
 
-### 5. funkció: UTC dátum és idő lekérése megjegyzésből
-**Áttekintés**
-A pontos nyomon követés érdekében kérje le a megjegyzés hozzáadásának pontos UTC dátumát és időpontját.
+### Feature 5: Get UTC Date and Time from Comment
+#### Overview
+A pontos időbélyegzés elengedhetetlen az audit nyomvonalakhoz. Az Aspose.Words a létrehozási időt UTC-ben tárolja, amelyet lekérhetsz és összehasonlíthatsz.
 
-#### Megvalósítási lépések
-**1. lépés:** Időbélyeggel ellátott megjegyzéssel ellátott dokumentum létrehozása
+#### Implementation Steps
+**Step 1:** Create a Document with a Timestamped Comment  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -161,7 +175,7 @@ comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**2. lépés:** UTC dátum mentése és lekérése
+**Step 2:** Save and Retrieve the UTC Date  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -169,47 +183,55 @@ Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```
 
-## Gyakorlati alkalmazások
-Ezen funkciók megértése és használata jelentősen javíthatja a dokumentumkezelést különböző forgatókönyvekben:
-- **Közös szerkesztés:** A csapatmunka megkönnyítése megjegyzésekkel és válaszokkal.
-- **Dokumentumfelülvizsgálat:** Egyszerűsítse az ellenőrzési folyamatokat a problémák megoldottként való megjelölésével.
-- **Visszajelzéskezelés:** Kövesse nyomon a visszajelzéseket pontos időbélyegek segítségével.
+## Practical Applications
+Ezeknek az API-knak a megértése drámaian javíthatja a dokumentum‑központú megoldásaidat:
 
-Ezek a képességek integrálhatók nagyobb rendszerekbe, például tartalomkezelő platformokba vagy automatizált dokumentumfeldolgozó folyamatokba.
+- **Collaborative Editing:** Több értékelő is hagyhat visszajelzést, válaszolhat, és közvetlenül a fájlban oldhatja meg a problémákat.  
+- **Document Review Pipelines:** Automatizáld a megjegyzések kinyerését jelentésekhez vagy megfelelőségi ellenőrzésekhez.  
+- **Audit Trails:** Tárold az UTC időbélyegeket jogi vagy szabályozási célokra.  
 
-## Teljesítménybeli szempontok
-Nagyméretű dokumentumokkal való munka során a teljesítmény optimalizálása érdekében vegye figyelembe a következő tippeket:
-- Korlátozza az egyszerre feldolgozott megjegyzések számát
-- Hatékony adatszerkezetek használata a megjegyzések tárolására és visszakeresésére
-- Rendszeresen frissítsd az Aspose.Words-öt a teljesítményjavítások kihasználása érdekében.
+Ezek a kódrészletek beépíthetők nagyobb rendszerekbe, például tartalomkezelő platformokba, automatizált jelentésgenerátorokba vagy egyedi Word‑feldolgozó eszközökbe.
 
-## Következtetés
-Most már elsajátítottad a megjegyzések hozzáadását, kezelését és elemzését Java nyelven az Aspose.Words használatával. Ezekkel a készségekkel jelentősen javíthatod a dokumentumkezelési munkafolyamataidat. Folytasd az Aspose.Words egyéb funkcióinak felfedezését, hogy kiaknázd a benne rejlő összes lehetőséget.
+## Performance Considerations
+Nagy Word fájlok (százszáz oldal, több ezer megjegyzés) kezelésekor tartsd szem előtt a következő tippeket:
 
-**Következő lépések:**
-- Kísérletezzen további Aspose.Words funkciókkal
-- Integrálja a megjegyzéskezelést a meglévő projektjeibe
+- A megjegyzéseket kötegekben dolgozd fel, ahelyett, hogy egyszerre mindet a memóriába töltenéd.  
+- Használj egyetlen `Document` példányt több művelet végrehajtásához.  
+- Frissíts a legújabb Aspose.Words verzióra a teljesítményoptimalizációk és hibajavítások érdekében.
 
-Készen áll a megoldások bevezetésére? Kezdje el még ma, és egyszerűsítse dokumentumkezelési folyamatait!
+## Common Issues and Solutions
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **`NullPointerException` when accessing replies** | A megjegyzésnek nincsenek válaszai (`getReplies()` üreset ad vissza). | Mindig ellenőrizd, hogy `comment.getReplies().getCount() > 0` legyen, mielőtt egy elemet elérnél. |
+| **Comments not appearing after saving** | A dokumentumot egy másik mappába mentették vagy felülírták. | Ellenőrizd, hogy a `YOUR_DOCUMENT_DIRECTORY` a kívánt helyre mutat, és hogy van írási jogosultságod. |
+| **UTC timestamp differs from local time** | A `Date` a rendszer helyi beállításait használja; a `getDateTimeUtc()` UTC‑re konvertál. | Használd a `new Date()`-et a létrehozáshoz, és bízz a `getDateTimeUtc()`-ben a konzisztens tároláshoz. |
 
-## GYIK szekció
-1. **Mi az Aspose.Words Java-hoz?**
-   - Ez egy olyan könyvtár, amely lehetővé teszi a Word dokumentumok programozott kezelését különféle formátumokban.
-2. **Hogyan telepíthetem az Aspose.Words-öt a projektemhez?**
-   - Add hozzá a Maven vagy Gradle függőséget a projektfájlodhoz.
-3. **Használhatom az Aspose.Words-öt licenc nélkül?**
-   - Igen, korlátozásokkal. Fontolja meg egy ideiglenes vagy teljes hozzáférésű licenc beszerzését.
-4. **Milyen gyakori problémák merülhetnek fel a hozzászólások kezelésekor?**
-   - Biztosítsa a megfelelő dokumentumbetöltési és megjegyzés-lekérési módszereket; gondosan kezelje a null hivatkozásokat.
-5. **Hogyan követhetem nyomon a változásokat több dokumentumban?**
-   - Implementáljon verziókövető rendszereket, vagy használja az Aspose.Words funkcióit a dokumentumok módosításainak nyomon követéséhez.
+## FAQ Section
+1. **What is Aspose.Words for Java?**  
+   - Egy könyvtár, amely programozott módon lehetővé teszi a Word dokumentumok különböző formátumokban történő manipulálását.  
+
+2. **How do I install Aspose.Words for my project?**  
+   - Add a Maven vagy Gradle függőséget, amelyet korábban bemutattunk, a projektfájlodba.  
+
+3. **Can I use Aspose.Words without a license?**  
+   - Igen, korlátozásokkal (értékelő vízjelek és funkciókorlátozások).  
+
+4. **What are some common issues when managing comments?**  
+   - Biztosítsd a megfelelő dokumentumbetöltést, kezeld a null hivatkozásokat a válaszoknál, és ellenőrizd a megjegyzéshierarchiát.  
+
+5. **How do I track changes across multiple documents?**  
+   - Implementálj verziókezelési logikát az alkalmazásodban, vagy használd az Aspose.Words beépített revíziókövető funkcióit.  
+
+---
+
+**Last Updated:** 2026-01-27  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
