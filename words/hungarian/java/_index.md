@@ -1,9 +1,12 @@
 ---
-"description": "Sajátítsd el a dokumentumautomatizálás mesteri szintjét az Aspose.Words Java oktatóanyagokkal. Tanulj meg szövegszerkesztést, formázást, táblázatokat, biztonságot, konverziót és sok mást a hatékony dokumentumkezeléshez."
-"linktitle": "Aspose.Words Java oktatóanyagokhoz"
-"title": "Java dokumentumfeldolgozó API | Aspose.Words Java oktatóanyagokhoz"
-"url": "/hu/java/"
-"weight": 11
+date: 2026-01-29
+description: Tanulja meg, hogyan hozhat létre Word-dokumentumot az Aspose.Words for
+  Java segítségével, és egyszerűen konvertálhatja a Word-et PDF-be, egyesítheti a
+  dokumentumokat, vízjeleket adhat hozzá, valamint kinyerheti a szöveget.
+linktitle: Aspose.Words for Java Tutorials
+title: Word-dokumentum létrehozása Java-val | Aspose.Words oktatóanyagok
+url: /hu/java/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,133 +15,171 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumfeldolgozás Aspose.Words segítségével Java-ban
+# Dokumentumfeldolgozás az Aspose.Words For Java segítségével
 
 ## Átfogó Java dokumentumfeldolgozási megoldások
 
-Az Aspose.Words for Java egy hatékony és átfogó API-t biztosít a dokumentumok automatizálásához, kezeléséhez és kezeléséhez. Ezek az oktatóanyagok lépésről lépésre útmutatást nyújtanak a fejlesztőknek, akik robusztus dokumentumfeldolgozási megoldásokat szeretnének megvalósítani Java alkalmazásaikban.
+Az Aspose.Words for Java egy erőteljes, átfogó API-t biztosít, amely lehetővé teszi, hogy **create word document** fájlokat programozottan hozzunk létre, valamint manipuláljuk, konvertáljuk és magas hűségben rendereljük őket. Akár jelentéseket generálsz, szerződéseket építesz, vagy dokumentumáramlásokat automatizálsz, ezek az útmutatók lépésről‑lépésre nyújtanak útmutatást a robusztus dokumentumfeldolgozás beágyazásához Java alkalmazásaidba.
 
-Akár jelentéseket készít, akár szerződéseket generál, akár fejlett dokumentum-munkafolyamat-rendszereket épít, az Aspose.Words vállalati szintű eszközöket biztosít a Microsoft Word dokumentumok és más népszerű formátumok precíz és hatékony kezeléséhez.
+### Gyors válaszok
+- **Hogyan hozhatok létre Word dokumentumot Java-ban?** Használd az `Document` osztályt az Aspose.Words‑ból, és adj hozzá tartalmat programozottan.  
+- **Automatikusan konvertálhatom a Word-et PDF‑re?** Igen – az API egy soros konvertálást kínál a `Document.save("output.pdf")` segítségével.  
+- **Támogatott a több Word fájl egyesítése?** Teljes mértékben; használd a `Document.appendDocument()` metódust a dokumentumok kombinálásához.  
+- **Hogyan adhatok vízjelet egy Word fájlhoz?** Helyezz be egy vízjel alakzatot a fejléc/láblécbe az API‑n keresztül.  
+- **Kinyerhetem a sima szöveget egy Word dokumentumból?** Hívd meg a `Document.getText()` metódust az összes szövegtartalom lekéréséhez.
 
-### Miért érdemes az Aspose.Words-öt választani Java-hoz?
+## Mi az a “create word document” Java-ban?
 
-- **Teljes körű dokumentuméletciklus-kezelés**Dokumentumok programozott létrehozása, módosítása, konvertálása és renderelése
-- **Formátumhűség**: Tökéletes dokumentumformázás fenntartása a népszerű formátumok közötti konverziók során
-- **Teljesítményoptimalizált**: Nagy dokumentumok hatékony feldolgozása alacsony memóriaigény mellett
-- **Könnyű integráció**Minimális kóddal építsen be hatékony dokumentumkezelési funkciókat Java alkalmazásaiba
-- **Platformfüggetlenség**Bármely Java-t támogató környezetben futtatható, beleértve az asztali, webes és mobilalkalmazásokat is
+A Word dokumentum létrehozása azt jelenti, hogy kóddal generálunk egy `.docx` (vagy más Word formátumú) fájlt a kézi szerkesztés helyett. Az Aspose.Words for Java segítségével dokumentumokat építhetsz fel a semmiből, dinamikus adatokat tölthetsz be, és bármely támogatott formátumban mentheted őket.
 
-## Elérhető oktatóanyag-kategóriák
+## Miért használjuk az Aspose.Words for Java-t?
+- **Enterprise‑grade reliability** – összetett elrendezéseket és nagy fájlokat kezel anélkül, hogy a hűség elveszne.  
+- **Full format support** – létrehozhat, szerkeszthet, konvertálhat és renderelhet DOC, DOCX, RTF, HTML, PDF és egyéb formátumokat.  
+- **Performance‑focused** – alacsony memóriahasználat még hatalmas dokumentumok esetén is.  
+- **Platform‑agnostic** – bármely Java‑kompatibilis környezetben működik, az asztali gépektől a felhőig.
 
-### [MI és gépi tanulás integrációja](./ai-machine-learning-integration/)
-Fedezze fel a legmodernebb dokumentumkezelési lehetőségeket mesterséges intelligencia integrációs oktatóanyagokkal. Tanulja meg a szövegösszefoglaló, fordítási és egyéb intelligens dokumentumfeldolgozási funkciók megvalósítását.
+## Hogyan **create word document** az Aspose.Words for Java-val?
+Az alábbiakban egy tömör áttekintést találsz a tipikus munkafolyamatról:
 
-### [Első lépések](./getting-started/)
-Kezdje el az Aspose.Words használatát alapvető beállítási oktatóanyagokkal. Tanulja meg a licenckonfigurációt, a verziókezelést és a legfontosabb fogalmakat, hogy gyorsan elkezdhessen dokumentumközpontú alkalmazásokat készíteni.
+1. **Add the Aspose.Words library** to your project (Maven, Gradle, or manual JAR).  
+2. **Instantiate a `Document` object** – this represents the Word file in memory.  
+3. **Build the document structure** – sections, paragraphs, tables, images, etc.  
+4. **Save the document** to the desired format (`.docx`, `.pdf`, etc.).
 
-### [Dokumentumműveletek](./document-operations/)
-Sajátítsa el az alapvető dokumentumkezelési technikákat, beleértve a formátumkonvertálást, a biztonság megvalósítását és a haladó dokumentummanipulációt. Ezek az oktatóanyagok a Worddel és más dokumentumformátumokkal való munkavégzés alapvető műveleteit ismertetik.
+> **Pro tip:** Használd a `DocumentBuilder`‑t egy folyékony, könnyen olvasható módon a tartalom hozzáadásához.
 
-### [Tartalomkezelés](./content-management/)
-Tanulja meg a dokumentumtartalom programozott kezelését az építőelemekről, hiperhivatkozásokról, változókról, könyvjelzőkről és egyebekről szóló oktatóanyagok segítségével. Fejlessze alkalmazásait kifinomult tartalomkezelési képességekkel.
+## Gyakori felhasználási esetek
+- **Convert Word to PDF:** Ideális nyomtatható számlák vagy jelentések generálásához.  
+- **Merge Word documents:** Több szerződés vagy függelék egyetlen fájlba egyesítése.  
+- **Add watermark to Word:** Dokumentumok márkázása „Confidential” vagy vállalati logóval.  
+- **Extract text from Word:** Tartalom indexelése keresés vagy elemzés céljából.  
+- **Generate table Java:** Táblázatok feltöltése adatbázis‑lekérdezések vagy CSV‑fájlok alapján.
 
-### [Szövegszerkesztés](./word-processing/)
-Sajátítsa el az alapvető dokumentumkészítési és -szerkesztési technikákat. Hozzon létre dinamikus tartalmat, kezelje a különböző formátumokat, optimalizálja a dokumentumok betöltését és mentését, valamint hatékonyan manipulálja a dokumentum szerkezetét.
+## Available Tutorial Categories
 
-### [Táblázatfeldolgozás](./table-processing/)
-Sajátítsa el a táblázatok kezelésének mesteri szintjét oktatóanyagokkal, amelyek bemutatják a táblázatok létrehozását, adatforrásokból történő generálását, formázását és a táblázatelrendezések kezelését. Dobja fel dokumentumait jól strukturált táblázatos adatokkal.
+### [AI & Machine Learning Integration](./ai-machine-learning-integration/)
+Fedezd fel a dokumentumok legmodernebb képességeit AI integrációs útmutatókkal. Tanulj meg szövegösszefoglalást, fordítást és egyéb intelligens dokumentumfeldolgozási funkciókat megvalósítani.
 
-### [Dokumentumstílusok](./document-styling/)
-Ismerje meg a professzionális dokumentumstílusok alkalmazásának technikáit. Tanulja meg a formázást, a témákat, a vízjelezést és a fejléc/lábléc formázását, hogy vizuálisan vonzó dokumentumokat hozzon létre.
+### [Getting Started](./getting-started/)
+Kezdd el az Aspose.Words kalandodat alapvető beállítási útmutatókkal. Ismerd meg a licenc konfigurációt, verziókezelést és a dokumentum‑központú alkalmazások gyors indításához szükséges alapfogalmakat.
 
-### [Dokumentumok egyesítése](./document-merging/)
-Sajátítsa el a dokumentumegyesítési technikákat több fájl egységes dokumentumokká való egyesítéséhez. Tanulja meg kezelni az ütközéseket, megőrizni a formázást és optimalizálni az egyesítési folyamatot.
+### [Document Operations](./document-operations/)
+Mesterezz a dokumentumkezelés alaptechnikáiban, beleértve a formátumkonverziót, biztonsági megvalósítást és fejlett dokumentummódosítást. Ezek az útmutatók a Word és egyéb dokumentumformátumokkal való munkához szükséges alapvető műveleteket fedik le.
 
-### [Dokumentumkonvertálás](./document-converting/)
-Sajátítsa el a dokumentumok konvertálását különböző formátumok, például PDF, HTML, képek és egyebek között. Biztosítsa a formátumhűséget, és optimalizálja a konvertálási beállításokat az Ön egyedi igényei szerint.
+### [Content Management](./content-management/)
+Tanulj meg programozottan kezelni a dokumentumtartalmat útmutatókkal az építőelemekről, hiperhivatkozásokról, változókról, könyvjelzőkről és még sok másról. Bővítsd alkalmazásaidat kifinomult tartalommanipulációs képességekkel.
 
-### [Dokumentumnyomtatás](./document-printing/)
-Ismerje meg, hogyan valósíthat meg programozott dokumentumnyomtatást testreszabott nyomtatási beállításokkal, oldalkijelöléssel és kimenetvezérléssel asztali és szerveralkalmazásokban.
+### [Word Processing](./word-processing/)
+Ismerd meg a dokumentumlétrehozás és -szerkesztés alapjait. Hozz létre dinamikus tartalmat, kezeld a különböző formátumokat, optimalizáld a dokumentum betöltését és mentését, valamint hatékonyan manipuláld a dokumentumszerkezetet.
 
-### [Dokumentum renderelés](./document-rendering/)
-Tanuljon meg technikákat a dokumentumok különböző formátumokba történő renderelésére, a kimeneti minőség, a lapozás és a vizuális megjelenítés pontos szabályozásával.
+### [Table Processing](./table-processing/)
+Mesterezz a táblázatkezelésben útmutatókkal táblák létrehozásáról, adatforrásokból történő generálásról, formázásról és táblázatelrendezés kezeléséről. Gazdagítsd dokumentumaidat jól strukturált táblázati adatokkal.
 
-### [Dokumentumbiztonság](./document-security/)
-Igazoljon robusztus dokumentumvédelmet a titkosításról, jelszóvédelemről, digitális aláírásokról és engedélykezelésről szóló oktatóanyagok segítségével az érzékeny tartalmak védelme érdekében.
+### [Document Styling](./document-styling/)
+Fedezd fel a professzionális dokumentumstílusok alkalmazásának technikáit. Tanulj meg formázni, témákat használni, vízjelet elhelyezni és fejléc/lábléc stílusokat kialakítani a vizuálisan vonzó dokumentumok érdekében.
 
-### [Dokumentumfelosztás](./document-splitting/)
-Ismerje meg a dokumentumok kisebb részekre osztásának módszereit különböző kritériumok alapján. Kinyerjen meghatározott tartalmat, és hozzon létre több kimeneti fájlt egyetlen forrásdokumentumból.
+### [Document Merging](./document-merging/)
+Mesterezz a dokumentumok egyesítésének technikáiban, hogy több fájlt egy egységes dokumentummá fűzhess össze. Tanuld meg a konfliktusok kezelését, a formázás megőrzését és az egyesítési folyamat optimalizálását.
 
-### [Dokumentum felülvizsgálata](./document-revision/)
-Alapdokumentum-verziókövetés oktatóanyagokkal a változtatások kezeléséről, a verziókövetésről és a közös szerkesztési funkciókról.
+### [Document Converting](./document-converting/)
+Mesterezz a dokumentumok konvertálásában különböző formátumok között, beleértve a PDF‑et, HTML‑t, képeket és egyebeket. Biztosítsd a formátumhűséget és optimalizáld a konverziós beállításokat a saját igényeidhez.
 
-### [Dokumentum betöltése és mentése](./document-loading-and-saving/)
-Sajátítsa el a dokumentumok hatékony betöltésének és mentésének technikáit különböző formátumokban, optimalizált beállításokkal a különböző forgatókönyvekhez és követelményekhez.
+### [Document Printing](./document-printing/)
+Tanuld meg a programozott dokumentumnyomtatást testreszabott nyomtatási beállításokkal, oldalválasztással és kimenet‑vezérléssel asztali és szerveralkalmazásokhoz.
 
-### [Dokumentummanipuláció](./document-manipulation/)
-Átfogó megközelítéseket sajátíthat el a dokumentumszerkezet, -tartalom és -tulajdonságok manipulálására. Dokumentumösszetevők kinyerése, módosítása és rendszerezése a haladó dokumentumfeldolgozás érdekében.
+### [Document Rendering](./document-rendering/)
+Ismerd meg a dokumentumok különböző formátumokra történő renderelésének technikáit, pontos kimeneti minőség‑, oldaltördelés‑ és vizuális megjelenítés‑vezérléssel.
 
-### [Licencelés és konfiguráció](./licensing-and-configuration/)
-Konfigurálja hatékonyan az Aspose.Words programot licenckezeléssel, környezetbeállítással és optimalizálással kapcsolatos oktatóanyagok segítségével különböző telepítési forgatókönyvekhez.
+### [Document Security](./document-security/)
+Valósíts meg robusztus dokumentumvédelem útmutatókkal titkosításról, jelszóvédelemről, digitális aláírásról és jogosultságkezelésről a bizalmas tartalom védelme érdekében.
 
-### [Dokumentumelemek használata](./using-document-elements/)
-Ismerje meg, hogyan dolgozhat különböző dokumentumelemekkel, beleértve a mezőket, megjegyzéseket, listákat, szakaszokat és egyebeket, hogy hatékony és funkciókban gazdag dokumentumokat hozzon létre.
+### [Document Splitting](./document-splitting/)
+Fedezd fel a dokumentumok kisebb komponensekre bontásának módszereit különböző kritériumok alapján. Kivonj specifikus tartalmakat és hozz létre több kimeneti fájlt egyetlen forrásdokumentumból.
 
-### [Dokumentumok nyomtatása](./printing-documents/)
-Sajátítson el programozott nyomtatási technikákat testreszabott nyomtatási beállításokkal és kimeneti vezérléssel asztali és szerveralkalmazásokban egyaránt.
+### [Document Revision](./document-revision/)
+Mesterezz a dokumentumváltozatok nyomon követésében útmutatókkal a módosítások kezeléséről, verziókezelésről és együttműködő szerkesztési funkciókról.
 
-### [Dokumentumok renderelése](./rendering-documents/)
-Sajátítsa el a Word dokumentumok különböző formátumokba történő renderelésének technikáit, a kimeneti minőség és a megjelenítés precíz szabályozásával.
+### [Document Loading and Saving](./document-loading-and-saving/)
+Mesterezz a dokumentumok hatékony betöltésének és mentésének technikáiban különböző formátumokban, optimalizált beállításokkal különböző forgatókönyvekhez és követelményekhez.
 
-### [Dokumentumkonverzió és exportálás](./document-conversion-and-export/)
-Ismerjen meg hatékony módszereket dokumentumok formátumok közötti konvertálására és exportálására testreszabott beállításokkal a különböző felhasználási forgatókönyvekhez.
+### [Document Manipulation](./document-manipulation/)
+Tanulj meg átfogó megközelítéseket a dokumentumszerkezet, tartalom és tulajdonságok manipulálására. Kivonás, módosítás és szervezés a fejlett dokumentumfeldolgozáshoz.
 
-### [Biztonság és védelem](./security-protection/)
-Sajátítson el átfogó technikákat a dokumentumok védelmére, a digitális aláírások kezelésére és a dokumentumvédelmi funkciók megvalósítására a bizalmas információk védelme érdekében.
+### [Licensing and Configuration](./licensing-and-configuration/)
+Állítsd be hatékonyan az Aspose.Words‑ot licenckezeléssel, környezeti beállításokkal és optimalizálással különböző telepítési forgkönyvekhez.
 
-### [Körlevél és jelentéskészítés](./mail-merge-reporting/)
-Hatékony dokumentumgenerálás megvalósítása körlevelezési funkciókkal. Tanulja meg automatizálni a dokumentumok aláírását, testreszabni a körlevelezési műveleteket, valamint HTML-tartalommal és képekkel dolgozni.
+### [Using Document Elements](./using-document-elements/)
+Fedezd fel, hogyan dolgozz különböző dokumentumelemekkel, beleértve a mezőket, megjegyzéseket, listákat, szakaszokat és egyebeket, hogy erőteljes és funkciógazdag dokumentumokat hozz létre.
 
-### [Fejlécek, láblécek és oldalbeállítás](./headers-footers-page-setup/)
-Sajátítsd el a dokumentumelrendezés alapjait oktatóanyagokkal a fejlécekről, láblécekről és oldalbeállításokról. Tanuld meg, hogyan készíthetsz professzionális dokumentumterveket testreszabott margókkal, szegélyekkel és oldalelrendezésekkel.
+### [Printing Documents](./printing-documents/)
+Tanuld meg a programozott nyomtatás technikáit testreszabott nyomtatási beállításokkal és kimenet‑vezérléssel mind asztali, mind szerveralkalmazásokhoz.
 
-### [Jegyzetek és megjegyzések](./annotations-comments/)
-Együttműködési funkciók megvalósítása a dokumentumokhoz fűzött megjegyzésekkel és megjegyzésekkel kapcsolatos oktatóanyagok segítségével. Tanulja meg, hogyan kezelheti a dokumentumokon belüli visszajelzéseket a jobb csapatmunka érdekében.
+### [Rendering Documents](./rendering-documents/)
+Mesterezz a Word dokumentumok különböző formátumokra történő renderelésének technikáiban pontos kimeneti minőség‑ és megjelenítés‑vezérléssel.
 
-### [Speciális szövegfeldolgozás](./advanced-text-processing/)
-Implementáljon kifinomult szövegkezelési funkciókat oktatóanyagok segítségével a vezérlőkarakterekről, az elrendezéskezelésről és a bonyolult dokumentumforgatókönyvekhez kapcsolódó speciális szövegműveletekről.
+### [Document Conversion and Export](./document-conversion-and-export/)
+Tanulj meg hatékony módszereket a dokumentumok formátumok közötti konvertálására és testreszabott beállításokkal történő exportálására különböző felhasználási esetekhez.
 
-### [Dokumentum-összehasonlítás és -követés](./document-comparison-tracking/)
-Tanulja meg a dokumentumok hatékony összehasonlítását és a változások nyomon követését. Implementáljon verziókövetési és dokumentum-revíziós rendszereket az alkalmazásaiban.
+### [Security & Protection](./security-protection/)
+Ismerd meg a dokumentumok biztonságának átfogó technikáit, a digitális aláírások kezelését és a dokumentumvédelem funkcióinak megvalósítását a bizalmas információk védelme érdekében.
 
-### [Teljesítményoptimalizálás](./performance-optimization/)
-Növelje az alkalmazások teljesítményét a memóriakezelésről, a renderelés optimalizálásáról és a nagyméretű dokumentumfeldolgozáshoz szükséges hatékony dokumentumkezelési technikákról szóló oktatóanyagokkal.
+### [Mail Merge & Reporting](./mail-merge-reporting/)
+Valósíts meg erőteljes dokumentumgenerálást mail merge képességekkel. Tanulj meg automatizálni a dokumentum aláírását, testreszabni a mail merge műveleteket, és dolgozni HTML‑tartalommal és képekkel.
 
-### [Integráció és interoperabilitás](./integration-interoperability/)
-Integrálja az Aspose.Words-öt más rendszerekkel és technológiákkal. Tanuljon meg technikákat a zökkenőmentes dokumentumcsere biztosítására a különböző platformok és alkalmazások között.
+### [Headers, Footers & Page Setup](./headers-footers-page-setup/)
+Mesterezz a dokumentumelrendezésben útmutatókkal a fejléc, lábléc és oldalbeállítások terén. Tanulj meg professzionális dokumentumterveket létrehozni testreszabott margókkal, szegélyekkel és oldalelrendezésekkel.
 
-### [Formázás és stílusok](./formatting-styles/)
-Dokumentumformázás mesteri szintű elsajátítása oktatóanyagokkal a téma testreszabásáról, a szegélystílusról, az elválasztásról és a stíluskezelésről a professzionális dokumentumkészítéshez.
+### [Annotations & Comments](./annotations-comments/)
+Valósíts meg együttműködési funkciókat dokumentum‑annotációkkal és megjegyzésekkel. Tanulj meg visszajelzéseket kezelni a dokumentumokon belül a csapatmunka javítása érdekében.
 
-### [Táblázatok és listák](./tables-lists/)
-Ismerje meg a dokumentumokban található táblázatok és listák létrehozásának és kezelésének technikáit. Ismerje meg a cellaegyesítést, a listaészlelést, a Markdown konverziót és a dokumentumok közötti számozási ütközések feloldását.
+### [Advanced Text Processing](./advanced-text-processing/)
+Implementálj kifinomult szövegmanipulációs funkciókat útmutatókkal vezérlőkarakterekről, elrendezéskezelésről és fejlett szövegműveletekről összetett dokumentumszcenáriókhoz.
 
-### [Képek és alakzatok](./images-shapes/)
-Dobd fel dokumentumaidat vizuális elemekkel a képbeszúrásról, alakzatkezelésről és bélyegképek létrehozásáról szóló oktatóanyagok segítségével. Hozz létre professzionális megjelenésű dokumentumokat gazdag grafikus tartalommal.
+### [Document Comparison & Tracking](./document-comparison-tracking/)
+Tanuld meg a dokumentumok összehasonlítását és a változások nyomon követését hatékonyan. Valósíts meg verziókezelést és dokumentumrevíziós rendszereket alkalmazásaidban.
 
-## Engedje szabadjára dokumentumfeldolgozási lehetőségeit
+### [Performance Optimization](./performance-optimization/)
+Növeld az alkalmazás teljesítményét útmutatókkal memória‑kezelésről, renderelés‑optimalizálásról és hatékony dokumentumkezelési technikákról nagyméretű dokumentumfeldolgozáshoz.
 
-Az Aspose.Words for Java lehetővé teszi a fejlesztők számára, hogy minimális erőfeszítéssel hozzanak létre kifinomult dokumentumkezelési megoldásokat. Ezek az oktatóanyagok biztosítják azt a tudást és gyakorlati példákat, amelyekre szüksége van ahhoz, hogy vállalati szintű dokumentumautomatizálást valósítson meg alkalmazásaiban.
+### [Integration & Interoperability](./integration-interoperability/)
+Integráld az Aspose.Words‑ot más rendszerekkel és technológiákkal. Tanulj meg technikákat a zökkenőmentes dokumentumcsere biztosításához különböző platformok és alkalmazások között.
 
-Kezdje el átfogó oktatóanyag-gyűjteményünk felfedezését még ma, és alakítsa át a dokumentumfeldolgozáshoz való hozzáállását az Aspose.Words for Java segítségével.
+### [Formatting & Styles](./formatting-styles/)
+Mesterezz a dokumentumformázásban útmutatókkal téma‑testreszabásról, szegély‑stílusokról, elválasztásról és stíluskezelésről professzionális dokumentumgyártáshoz.
 
+### [Tables & Lists](./tables-lists/)
+Fedezd fel a táblák és listák létrehozásának és manipulálásának technikáit dokumentumokban. Tanulj meg cella‑egyesítést, lista‑felismerést, markdown‑konverziót és számozási konfliktusok megoldását dokumentumok között.
+
+### [Images & Shapes](./images-shapes/)
+Gazdagítsd dokumentumaidat vizuális elemekkel útmutatókkal képek beszúrásáról, alakzatok manipulálásáról és bélyegkép‑generálásról. Készíts professzionális megjelenésű dokumentumokat gazdag grafikai tartalommal.
+
+## Frequently Asked Questions
+
+**Q: Hogyan hozhatok létre programozottan Word dokumentumot Java-ban?**  
+A: Használd az `Document` osztályt a `DocumentBuilder`‑rel együtt, hogy szekciókat, bekezdéseket, táblázatokat és egyéb elemeket adj hozzá, majd hívd meg a `save("MyDocument.docx")`‑t.
+
+**Q: Konvertálhatom a Word fájlt PDF‑re anélkül, hogy elveszíteném a elrendezést?**  
+A: Igen. Az Aspose.Words megőrzi az elrendezés hűségét; egyszerűen hívd meg a `document.save("output.pdf")`‑t.
+
+**Q: Mi a legjobb módja több Word dokumentum egyesítésének?**  
+A: Töltsd be minden forrásdokumentumot, és használd a `targetDocument.appendDocument(sourceDocument, ImportFormatMode.KEEP_SOURCE_FORMATTING)`‑t.
+
+**Q: Hogyan adhatok vízjelet egy Word dokumentumhoz?**  
+A: Helyezz be egy `Shape`‑t a kívánt szöveggel vagy képpel a dokumentum fejlécébe/láblécébe, és állítsd be a forgatást és átlátszóságot.
+
+**Q: Lehet-e kinyerni a sima szöveget egy Word fájlból indexelés céljából?**  
+A: Teljesen. Használd a `document.getText()`‑t, hogy az összes szöveges tartalmat markup nélkül lekérd.
+
+---
+
+**Utoljára frissítve:** 2026-01-29  
+**Tesztelve a következővel:** Aspose.Words for Java 24.12  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
