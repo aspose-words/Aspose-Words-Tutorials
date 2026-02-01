@@ -1,10 +1,12 @@
 ---
-"description": "Tìm hiểu cách thao tác các tài liệu Word với Aspose.Words cho Java. Tạo, chỉnh sửa, hợp nhất và chuyển đổi tài liệu theo chương trình trong Java."
-"linktitle": "Hợp nhất tài liệu với DocumentBuilder"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Hợp nhất tài liệu với DocumentBuilder"
-"url": "/vi/java/document-merging/merging-documents-documentbuilder/"
-"weight": 13
+date: 2026-02-01
+description: Tìm hiểu cách Aspose.Words hợp nhất tài liệu, nối nhiều tệp docx và hợp
+  nhất tài liệu Word bằng Java sử dụng DocumentBuilder trong Aspose.Words for Java.
+linktitle: aspose words merge documents with DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: aspose words hợp nhất tài liệu bằng DocumentBuilder
+url: /vi/java/document-merging/merging-documents-documentbuilder/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,103 +15,92 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hợp nhất tài liệu với DocumentBuilder
+# aspose words merge documents với DocumentBuilder
 
+Trong hướng dẫn toàn diện này, bạn sẽ khám phá cách **aspose words merge documents** một cách hiệu quả bằng cách sử dụng lớp mạnh mẽ DocumentBuilder. Cho dù bạn cần **append multiple docx files** hay chỉ đơn giản là kết hợp một vài báo cáo thành một tệp Word duy nhất, bài hướng dẫn này sẽ dẫn bạn qua từng bước với các giải thích rõ ràng và mã Java đã sẵn sàng chạy cách lập trình, bao gồm việc chèn nội dung từ các tệp khác.  
+- **Tôi có thể merge bất kỳ số lượng file DOCX nào không?** Có – chỉ cần lặp lại vòng import cho mỗi tài liệu bổ sung.  
+- **Có cần giấy hợp lệ cho các triển khai thương mại. của nguồn.  
+Merge tài liệu với Aspose.Words có nghĩa là lấy nội dung của hai hoặc nhiều tệp Word và kết hợp chúng lại thành một tài liệu duy nhất, mạch lạc. Thư viện xử lý các cấu trúc phức tạp như header, footer, bảng và hình ảnh đồng thời giữ nguyên định dạng gốc.
 
-## Giới thiệu về việc hợp nhất tài liệu với DocumentBuilder
+## Why merge word documents java?
+- **Automation:** Giảm thiểu công việc sao chép‑dán thủ công trong các kịch bản xử lý hàng loạt.  
+- **Consistency:** Đảm bảo bố cục đồng nhất trên các báo cáo hoặc hợp đồng đã được kết hợp.  
+- **Scalability:** Dễ dàng tích hợp vào các ứng dụng phía server tạo PDF, email hoặc lưu trữ từ các tệp Word đã merge.
 
-Trong thế giới xử lý tài liệu, Aspose.Words for Java là một công cụ mạnh mẽ để thao tác và quản lý tài liệu. Một trong những tính năng chính của nó là khả năng hợp nhất tài liệu liền mạch bằng DocumentBuilder. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thực hiện điều này bằng các ví dụ mã, đảm bảo rằng bạn có thể khai thác khả năng này để nâng cao quy trình quản lý tài liệu của mình.
+## Prerequisites
+- Môi trường phát triển Java (JDK 8+)
+- Thư viện Aspose.Words for Java (tải **[here](https://releases.aspose.com/words/java/)**)
+- Kiến thức cơ bản về cú pháp Java và các khái niệm hướng đối tượng
 
-## Điều kiện tiên quyết
-
-Trước khi bắt đầu quá trình hợp nhất tài liệu, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
-
-- Môi trường phát triển Java đã được cài đặt
-- Aspose.Words cho Thư viện Java
-- Kiến thức cơ bản về lập trình Java
-
-## Bắt đầu
-
-Hãy bắt đầu bằng cách tạo một dự án Java mới và thêm thư viện Aspose.Words vào đó. Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/words/java/).
-
-## Tạo một tài liệu mới
-
-Để hợp nhất các tài liệu, chúng ta cần tạo một tài liệu mới để chèn nội dung của mình. Sau đây là cách bạn có thể thực hiện:
+## Getting Started
+Tạo một dự án Java mới (Maven, Gradle, hoặc IDE thông thường) và thêm JAR Aspose.Words vào classpath. Khi thư viện đã được tham chiếu, bạn đã sẵn sàng bắt đầu## Creating a New Document
+Đầu tiên, khởi tạo một `Document` rỗng và một `DocumentBuilder`. Tài liệu trống này sẽ đóng vai trò là container cho nội dung đã merge.
 
 ```java
-// Khởi tạo đối tượng Document
+// Initialize the Document object
 Document doc = new Document();
 
-// Khởi tạo DocumentBuilder
+// Initialize the DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Hợp nhất tài liệu
-
-Bây giờ, giả sử chúng ta có hai tài liệu hiện có mà chúng ta muốn hợp nhất. Chúng ta sẽ tải các tài liệu này và sau đó thêm nội dung vào tài liệu mới tạo của chúng ta bằng DocumentBuilder.
+ệp, duyệt qua các. Mẫu này có thể lặp lại cho bất kỳ tệp bổ sung nào.
 
 ```java
-// Tải các tài liệu cần được hợp nhất
+// Load the documents to be merged
 Document doc1 = new Document("document1.docx");
 Document doc2 = new Document("document2.docx");
 
-// Lặp lại các phần của tài liệu đầu tiên
+// Loop through the sections of the first document
 for (Section section : doc1.getSections()) {
-    // Lặp qua phần thân của mỗi phần
+    // Loop through the body of each section
     for (Node node : section.getBody()) {
-        // Nhập nút vào tài liệu mới
+        // Import the node into the new document
         Node importedNode = doc.importNode(node, true, ImportFormatMode.KEEP_SOURCE_FORMATTING);
         
-        // Chèn nút đã nhập bằng cách sử dụng DocumentBuilder
+        // Insert the imported node using the DocumentBuilder
         builder.insertNode(importedNode);
     }
 }
 ```
 
-Lặp lại quy trình tương tự cho tài liệu thứ hai (doc2) nếu bạn có nhiều tài liệu cần hợp nhất.
+Lặp (hoặc bất kỳ tài liệu tiếp theo) để tiếp tục append nội dung.
 
-## Lưu tài liệu đã hợp nhất
-
-Sau khi đã hợp nhất các tài liệu mong muốn, bạn có thể lưu tài liệu kết quả vào một tệp.
+## Saving the Merged Document
+Sau khi import tất cả các node mong muốn, chỉ cần lưu tài liệu đã kết hợp ra đĩa.
 
 ```java
-// Lưu tài liệu đã hợp nhất
+// Save the merged document
 doc.save("merged_document.docx");
 ```
 
-## Phần kết luận
+## Common Issues and Solutions
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Lost formatting | Imported nodes without `ImportFormatMode.KEEP_SOURCE_FORMATTING` | Use the `KEEP_SOURCE_FORMATTING` flag as shown above |
+| Large files cause memory pressure | Loading many large documents at once | Process documents sequentially and call `doc.cleanup()` after each import if needed |
+| Headers/ with different header/footer settings | Ensure each section’s header/footer### How can I merge multiple documents into one?
+Để merge nhiều tài liệu thành dẫn này. Tải mỗi tài liệu, import nội dung của chúng bằng DocumentBuilder, và lưu tài liệu đã merge.
 
-Xin chúc mừng! Bạn đã học cách hợp nhất các tài liệu bằng Aspose.Words for Java. Tính năng mạnh mẽ này có thể thay đổi cuộc chơi cho các tác vụ quản lý tài liệu của bạn. Thử nghiệm với các kết hợp tài liệu khác nhau và khám phá thêm các tùy chọn tùy chỉnh để phù hợp với nhu cầu của bạn.
+### Can I control the order of content when merging documents?
+Có, bạn có thể kiểm soát thứ tự nội dung bằng cách điều chỉnh trình tự import các node từ các tài liệu khác nhau. Điều này cho phép bạn tùy chỉnh quá trình merge tài liệu theo yêu cầu.
 
-## Câu hỏi thường gặp
+### Is Aspose.Words suitable for advanced document manipulation tasks?
+Chắc chắn! Aspose.Words for Java cung cấp một lo hạn ở merge, split, formatting và nhiều hơn hỗ trợ nhiều định dạng tài liệu, bao gồm DOC, RTF, HTML, PDF và các định dạng khác. Bạn có thể làm việc với các định dạng này tùy theo nhu cầu.
 
-### Làm thế nào tôi có thể gộp nhiều tài liệu thành một?
-
-Để hợp nhất nhiều tài liệu thành một, bạn có thể làm theo các bước được nêu trong hướng dẫn này. Tải từng tài liệu, nhập nội dung của chúng bằng DocumentBuilder và lưu tài liệu đã hợp nhất.
-
-### Tôi có thể kiểm soát thứ tự nội dung khi hợp nhất tài liệu không?
-
-Có, bạn có thể kiểm soát thứ tự nội dung bằng cách điều chỉnh trình tự nhập các nút từ các tài liệu khác nhau. Điều này cho phép bạn tùy chỉnh quy trình hợp nhất tài liệu theo yêu cầu của mình.
-
-### Aspose.Words có phù hợp cho các tác vụ xử lý tài liệu nâng cao không?
-
-Chắc chắn rồi! Aspose.Words for Java cung cấp nhiều tính năng để xử lý tài liệu nâng cao, bao gồm nhưng không giới hạn ở việc hợp nhất, tách, định dạng, v.v.
-
-### Aspose.Words có hỗ trợ các định dạng tài liệu khác ngoài DOCX không?
-
-Có, Aspose.Words hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm DOC, RTF, HTML, PDF, v.v. Bạn có thể làm việc với nhiều định dạng khác nhau tùy theo nhu cầu của mình.
-
-### Tôi có thể tìm thêm tài liệu và nguồn tài nguyên ở đâu?
-
-Bạn có thể tìm thấy tài liệu và nguồn tài nguyên toàn diện cho Aspose.Words for Java trên trang web Aspose: [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/).
-
+### Where can I find more documentation and resources?
+Bạn có thể tìm tài liệu và tài nguyên chi tiết cho Aspose.Words for Java trên trang web của Aspose: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/ **aspose words merge documents** bằng DocumentBuilder. Bằng cách theo dõi mẫu này, bạn có thể **append multiple docx files** hoặc **merge word documents java** trong bất kỳ quy trình làm việc nào dựa trên Java, giữ nguyên định dạng và cho phép kiểm soát toàn diện đầu ra cuối cùng. Hãy thử nghiệm với các tệp nguồn khác nhau, khám phá thêm các tính năng của DocumentBuilder (như chèn bảng hoặc hình ảnh), và tích hợp logic này vào các pipeline tự động lớn hơn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-01  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose

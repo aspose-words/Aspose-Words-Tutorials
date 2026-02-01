@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words for Java ile Word belgelerini nasıl düzenleyeceğinizi öğrenin. Java'da belgeleri programatik olarak oluşturun, düzenleyin, birleştirin ve dönüştürün."
-"linktitle": "Belgeleri DocumentBuilder ile Birleştirme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Belgeleri DocumentBuilder ile Birleştirme"
-"url": "/tr/java/document-merging/merging-documents-documentbuilder/"
-"weight": 13
+date: 2026-02-01
+description: Aspose.Words for Java'da DocumentBuilder kullanarak aspose words ile
+  belgeleri birleştirmeyi, birden fazla docx dosyasını eklemeyi ve Java'da Word belgelerini
+  birleştirmeyi öğrenin.
+linktitle: aspose words merge documents with DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: Aspose Words ile DocumentBuilder kullanarak belgeleri birleştirme
+url: /tr/java/document-merging/merging-documents-documentbuilder/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,103 +16,96 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Belgeleri DocumentBuilder ile Birleştirme
+# Aspose Words belgeleri Document Answers
+- **DocumentBuilder ne yapar?yalardan içerik eklemenize olanak tanır.  
+- **Herhangi bir sayıda DOCX dosyasını birleştirebilir miyim?** Evet – ek belge için içe aktarma döngüsünü tekrarlamanız yeterlidir.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari dağıtımlar için geçerli bir Aspose.Words for Java lisansı gereklidir.  
+- **Orijinal biçimlendirme korunur mu?** `ImportFormatMode.KEEP_SOURCE_FORMATTING` kullanarak kaynak stiller ve düzen korunur.  
+- **Hangi belge birleştirme nedir?
+Aspose.Words ile belgeleri birleştirmek, iki veya daha fazla Word dosyasının içeriğini alıp programlı olarak tek, tutarlı bir belgeye dönüştürmek anlamına gelir. Kütüphane, üstbilgi, altbilgi, tablo ve resim gibi karmaşık yapıları yönetirken orijinal biçimlendirmeyi korur.
 
-
-## DocumentBuilder ile Belgeleri Birleştirmeye Giriş
-
-Belge işleme dünyasında, Aspose.Words for Java belgeleri düzenlemek ve yönetmek için güçlü bir araç olarak öne çıkıyor. Temel özelliklerinden biri, DocumentBuilder kullanarak belgeleri sorunsuz bir şekilde birleştirme yeteneğidir. Bu adım adım kılavuzda, bunu kod örnekleriyle nasıl başaracağınızı keşfedeceğiz ve bu yeteneği belge yönetimi iş akışlarınızı geliştirmek için kullanabilmenizi sağlayacağız.
-
-## Ön koşullar
-
-Belge birleştirme sürecine başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
-
-- Java Geliştirme Ortamı Yüklendi
-- Java Kütüphanesi için Aspose.Words
-- Java programlamanın temel bilgisi
+## Java ile Word belgelerini neden birleştirmelisiniz?
+- **Otomasyon:** Toplu işleme senaryolarında manuel kopyala‑yapıştır çabasını azaltır.  
+- **Tutarlılık:** Birleştirilmiş raporlar veya sözleşmelerde tek tip bir düzen sağlar.  
+- **Ölçeklenebilirlik:** Birleştirilmiş Word dosyalarından PDF, e‑posta veya arşiv oluşturan sunucu‑tarafı uygulamalara kolayca entegre kütüphanesi (indir **[buradan](https://releases.aspose.com/words/java/)**)  
+- Java sözd
 
 ## Başlarken
-
-Yeni bir Java projesi oluşturarak ve Aspose.Words kütüphanesini ekleyerek başlayalım. Kütüphaneyi şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/).
+Yeni bir Java projes) oluşturun ve Aspose.Words JAR dosyasını sınıf yolunu ve birleştirme işlemlerine başlayabilirsiniz.
 
 ## Yeni Bir Belge Oluşturma
-
-Belgeleri birleştirmek için, içeriğimizi ekleyeceğimiz yeni bir belge oluşturmamız gerekir. Bunu şu şekilde yapabilirsiniz:
+İlk olarak boş bir `Document` ve bir `DocumentBuilder` örneği oluşturun. Bu boş belge, birleştirilmiş içeriğin konteyneri olarak hizmet verecek.
 
 ```java
-// Belge nesnesini başlatın
+// Initialize the Document object
 Document doc = new Document();
 
-// DocumentBuilder'ı başlatın
+// Initialize the DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-## Belgeleri Birleştirme
-
-Şimdi, birleştirmek istediğimiz iki mevcut belgemiz olduğunu varsayalım. Bu belgeleri yükleyeceğiz ve ardından DocumentBuilder kullanarak içeriği yeni oluşturulan belgemize ekleyeceğiz.
+## DocumentBuilder ile birden fazla docx dosyasını ekleme
+İki kaynak dosyanız olduğunu varsayalım: `document1.docx` ve `document2.docx`. Her dosyayı yükleyin, bölümlerini döngüyle gezerek hedef belgeye her düğümü içe aktarın. Aynı desen, ek dosyalar için de tekrarlanabilir.
 
 ```java
-// Birleştirilecek belgeleri yükleyin
+// Load the documents to be merged
 Document doc1 = new Document("document1.docx");
 Document doc2 = new Document("document2.docx");
 
-// İlk belgenin bölümleri arasında dolaşın
+// Loop through the sections of the first document
 for (Section section : doc1.getSections()) {
-    // Her bölümün gövdesinde döngü oluşturun
+    // Loop through the body of each section
     for (Node node : section.getBody()) {
-        // Düğümü yeni belgeye aktarın
+        // Import the node into the new document
         Node importedNode = doc.importNode(node, true, ImportFormatMode.KEEP_SOURCE_FORMATTING);
         
-        // İçeri aktarılan düğümü DocumentBuilder kullanarak ekleyin
+        // Insert the imported node using the DocumentBuilder
         builder.insertNode(importedNode);
     }
 }
 ```
 
-Birleştirilecek daha fazla belgeniz varsa, aynı işlemi ikinci belge (doc2) için tekrarlayın.
+`doc2` (veya sonraki belgeler) için aynı döngüyü tekrarlayarak içeriği eklemeye devam edin.
 
 ## Birleştirilmiş Belgeyi Kaydetme
-
-İstediğiniz belgeleri birleştirdikten sonra ortaya çıkan belgeyi bir dosyaya kaydedebilirsiniz.
+Tüm istenen düğümler içe aktarıldıktan sonra, birleşik belgeyi diske kaydedin.
 
 ```java
-// Birleştirilmiş belgeyi kaydet
+// Save the merged document
 doc.save("merged_document.docx");
 ```
 
-## Çözüm
-
-Tebrikler! Aspose.Words for Java kullanarak belgeleri birleştirmeyi öğrendiniz. Bu güçlü özellik, belge yönetimi görevleriniz için oyunun kurallarını değiştirebilir. Farklı belge kombinasyonlarını deneyin ve ihtiyaçlarınıza uygun daha fazla özelleştirme seçeneğini keşfedin.
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|-----|
+| Biçim kaybı | `ImportFormatMode.KEEP_SOURCE_FORMATTING` olmadan içe aktarılan düğümler | Yukarıda gösterildiği gibi `KEEP_SOURCE_FORMATTING` bayrağını kullanın |
+| Büyük dosyalar bellek anda yüklemek | Belgeleri sıralı işleyin ve gerekirse her içe aktarmadan sonra `doc.cleanup()` çağırın |
+| Üstbilgi/Altbilgi görünmüyor | Farklı üstbilgi/altbilgi ayarlarına sahip bölümler | Her bölümün üstbilgi/altbilgisopyalamanız gerekebilir |
 
 ## SSS
 
-### Birden fazla belgeyi nasıl birleştirebilirim?
+### Birden fazla belgeyi tek bir dosyada nasıl birleştirebilirim açıklanan adımları izleyin. Her belgeyi yükleyin, içeriğini DocumentBuilder ile içe aktarın ve birleştirilmiş belgeyi kaydedin.
 
-Birden fazla belgeyi birleştirmek için bu kılavuzda özetlenen adımları izleyebilirsiniz. Her belgeyi yükleyin, içeriklerini DocumentBuilder kullanarak içe aktarın ve birleştirilmiş belgeyi kaydedin.
+### Belgeleri birleştirirken içeriğin sırasını kontrol edebilir miyim?
+Evet, farklı belgelerden düğümleri içe aktardığınız sırayı ayarlayarak içeriğin sırasını kontrol edebilirsiniz. Bu sayede birleştirme sürecini gereksinimlerinize göre özelleştirebilirsiniz### Aspose.Wleri için uygun mu?
+Kesinlikle! Aspose.W geniş bir özellik yelpazesi sunar.
 
-### Belgeleri birleştirirken içerik sırasını kontrol edebilir miyim?
+### Aspose.Words Aspose.Words DOC olmak üzere çeşitli belge formatlarını destekler. İhtiyacınıza göre farklı formatlarla çalışabilirsiniz.
 
-Evet, farklı belgelerden düğümleri içe aktardığınız sırayı ayarlayarak içerik sırasını kontrol edebilirsiniz. Bu, belge birleştirme sürecini gereksinimlerinize göre özelleştirmenize olanak tanır.
+### Daha fazla dokümantasyon ve kaynak ner sitesinde Aspose.Words for Java için kapsamlı dokümantasyon ve kaynakları bulabilirsiniz: [Aspose.Words for Java Belgeleri](https://reference.aspose.com/words/java/).
 
-### Aspose.Words gelişmiş belge düzenleme görevleri için uygun mudur?
-
-Kesinlikle! Aspose.Words for Java, birleştirme, bölme, biçimlendirme ve daha fazlası dahil olmak üzere gelişmiş belge düzenleme için çok çeşitli özellikler sunar.
-
-### Aspose.Words DOCX dışında başka belge formatlarını da destekliyor mu?
-
-Evet, Aspose.Words DOC, RTF, HTML, PDF ve daha fazlası dahil olmak üzere çeşitli belge biçimlerini destekler. İhtiyaçlarınıza göre farklı biçimlerle çalışabilirsiniz.
-
-### Daha fazla doküman ve kaynağı nerede bulabilirim?
-
-Aspose.Words for Java için kapsamlı dokümanları ve kaynakları Aspose web sitesinde bulabilirsiniz: [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
-
+## Sonuçusunu kavradınız. Bu birleştirebilirsiniz**, biçimde tutarsınız. Farklı kaynak dosyalarla deney yapın, DocumentBuilder’ın ek özelliklerini (tablolar, resimler ekleme vb.) keşfedin ve bu mantığı daha büyük otomasyon hatlarına entegre edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-01  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose
