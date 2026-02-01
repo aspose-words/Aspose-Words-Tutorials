@@ -1,10 +1,12 @@
 ---
-"description": "了解如何使用 Aspose.Words for Java 格式化表格和套用樣式。本逐步指南涵蓋設定邊框、陰影儲存格以及套用表格樣式。"
-"linktitle": "格式化表格和表格樣式"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "格式化表格和表格樣式"
-"url": "/zh-hant/java/document-conversion-and-export/formatting-tables-and-table-styles/"
-"weight": 17
+date: 2026-02-01
+description: 學習如何格式化表格、套用表格樣式、設定表格邊框，以及使用 Aspose.Words for Java 自動調整表格大小。本指南將帶您一步步建立具專業樣式的
+  Word 表格。
+linktitle: Formatting Tables and Table Styles
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words for Java 格式化表格並套用表格樣式
+url: /zh-hant/java/document-conversion-and-export/formatting-tables-and-table-styles/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,76 +15,78 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 格式化表格和表格樣式
+# 如何使用 Aspose.Words for Java 格式化表格並套
 
+當您需要 **如何格式化表格** 在 Word 文件中時，Aspose.Words for Java 為您提供完整的工具組，讓您能以程式方式建立、樣表格格式化都能讓資料呈現得清格邊框、套用儲存格底色、使用自動調整表格功能，並套用預定義的表格樣式——全部以易於跟隨的 Java 程式碼示範。
 
-## 介紹
+## 快速解答
+- **建立表格的主要類別是什麼？** `DocumentBuilder` 用於建立和填充表格。  
+- **如何為整個表格設定邊框？** 使用 `table.setBordersStyleIdentifier(Style哪個方法可自動調整欄S)`。  
+- **是否可以使用條件格式化？** 您可以在程式碼中根據任何條件以程式方式變更儲存格底色或邊框。  
 
-在文件格式方面，表格在組織和清晰呈現資料方面起著至關重要的作用。如果您使用 Java 和 Aspose.Words，您可以使用強大的工具來建立和格式化文件中的表格。無論您設計簡單的表格還是套用進階樣式，Aspose.Words for Java 都提供了一系列功能來幫助您獲得專業的效果。
+## 什麼是 Aspose.Words 中的表格格式化？
 
-在本指南中，我們將引導您完成使用 Aspose.Words for Java 格式化表格和套用表格樣式的過程。您將學習如何設定表格邊框、套用儲存格底紋以及使用表格樣式來增強文件的外觀。最後，您將擁有創建格式良好的表格的技能，使您的數據脫穎而出。
+表格格式化是指定義視覺屬性——邊框、底與整體樣式——的過程，使表格看起來精緻且符合文件的設計語言。使用 Aspose.Words，您可以從 Java 完全掌控 Word 表格的每個細節。
 
-## 先決條件
+## 為什麼要套用表格樣式？
 
-在我們開始之前，您需要做好以下幾點：
+套用表格樣式可免除手動設定每個屬性。像 **MEDIUM_SHADING_1_ACCENT_1** 這類樣式會自動格式化標題列、條紋列與第一欄，讓多個表格保持一致的外觀。
 
-1. Java 開發工具包 (JDK)：確保您已安裝 JDK 8 或更高版本。 Aspose.Words for Java 需要相容的 JDK 才能正確運作。
-2. 整合開發環境 (IDE)：IntelliJ IDEA 或 Eclipse 等 IDE 將協助您管理 Java 專案並簡化開發流程。
-3. Aspose.Words for Java 函式庫：下載最新版本的 Aspose.Words for Java [這裡](https://releases.aspose.com/words/java/) 並將其包含在您的項目中。
-4. 範例程式碼：我們將使用一些範例程式碼片段，因此請確保您對 Java 程式設計以及如何將程式庫整合到專案中有基本的了解。
+## 前置條件DK) 8+** – 執行 Aspose.Words Java 的編輯器。  
+ 從 [here](https://releases.aspose** – 以便了解以下程式碼片段。  
 
-## 導入包
+## 匯入套件
 
-若要使用 Aspose.Words for Java，您需要將相關套件匯入到您的專案中。這些包提供了操作和格式化文件所需的類別和方法。
+要開始，匯入 Aspose.Words 命名空間：
 
 ```java
 import com.aspose.words.*;
 ```
 
-此導入語句可讓您存取在文件中建立和格式化表格所需的所有基本類別。
+此單一匯入即提供建立與格式化表格所需的全部類別。
 
 ## 步驟 1：格式化表格
 
-Aspose.Words for Java 中的表格格式化涉及設定邊框、陰影儲存格以及套用各種格式選項。您可以按照以下步驟操作：
+### 載入文件
 
-### 載入文檔
+首先，建立一個空白文件，並建立一個可協助插入內容的 `DocumentBuilder`。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
 
-### 建立並格式化表格
+###並套用儲存格底色，以說明如何 **設定表格邊框** 與 **建立 word table** 儲存格的不同背景顏色。
 
 ```java
 Table table = builder.startTable();
 builder.insertCell();
 
-// 設定整個表格的邊框。
+// Set the borders for the entire table.
 table.setBorders(LineStyle.SINGLE, 2.0, Color.BLACK);
         
-// 設定此儲存格的儲存格陰影。
+// Set the cell shading for this cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.RED);
 builder.writeln("Cell #1");
 
 builder.insertCell();
         
-// 為第二個儲存格指定不同的儲存格陰影。
+// Specify a different cell shading for the second cell.
 builder.getCellFormat().getShading().setBackgroundPatternColor(Color.GREEN);
 builder.writeln("Cell #2");
 
 builder.endRow();
 ```
 
-### 自訂單元格邊框
+### 自訂儲存格粗的邊框。
 
 ```java
-// 清除先前操作的儲存格格式。
+// Clear the cell formatting from previous operations.
 builder.getCellFormat().clearFormatting();
 
 builder.insertCell();
 
-// 為該行的第一個儲存格建立更大的邊框。
+// Create larger borders for the first cell of this row.
 builder.getCellFormat().getBorders().getLeft().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getRight().setLineWidth(4.0);
 builder.getCellFormat().getBorders().getTop().setLineWidth(4.0);
@@ -96,18 +100,15 @@ builder.writeln("Cell #4");
 doc.save("FormatTableAndCellWithDifferentBorders.docx");
 ```
 
-### 解釋
+#### 說明
 
-在此範例中：
-- 設定邊框：我們將整個表格的邊框設定為單線樣式，粗細為2.0磅。
-- 單元格陰影：第一個單元格為紅色陰影，第二個單元格為綠色陰影。這有助於從視覺上區分細胞。
-- 單元格邊框：對於第三個單元格，我們建立更粗的邊框，以突出顯示它與其他單元格的不同之處。
+- **設定邊框：** `table.setBorders` 為整個表格定義單線、2 點粗的邊框。  
+- **儲存格底色：** 背景顏色（紅、綠）使每個儲存格突出。  
+- **儲存格邊框：** 第三個儲存格的粗的邊框，示範如何套用表格樣式
 
-## 步驟2：套用表格樣式
+### 建立文件與表格
 
-Aspose.Words for Java 中的表格樣式可讓您將預先定義的格式選項套用至表格，從而更容易實現一致的外觀。以下是如何將樣式套用至表格的方法：
-
-### 建立文件和表格
+列。
 
 ```java
 Document doc = new Document();
@@ -115,22 +116,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.startTable();
         
-// 在設定任何表格格式之前，我們必須先插入至少一行。
+// We must insert at least one row first before setting any table formatting.
 builder.insertCell();
 ```
 
-### 套用表格樣式
+###特定樣式選項，例如條紋列與突顯的第一欄。
 
 ```java
-// 根據唯一樣式識別碼設定表格樣式。
+// Set the table style based on a unique style identifier.
 table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
         
-// 應用應按樣式格式化的功能。
+// Apply which features should be formatted by the style.
 table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
 table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
 ```
 
-### 新增表格數據
+### 新增表格資料
+
+現在填入示範資料。請注意 **auto fit table** 的使用，可自動調整欄寬。
 
 ```java
 builder.writeln("Item");
@@ -160,48 +163,43 @@ builder.endRow();
 doc.save("BuildTableWithStyle.docx");
 ```
 
-### 解釋
+#### 說明
 
-在此範例中：
-- 設定表格樣式：我們套用預先定義的樣式（`MEDIUM_SHADING_1_ACCENT_1`) 到表中。此樣式包括表格不同部分的格式。
-- 樣式選項：我們指定第一列、行帶和第一行應根據樣式選項進行格式化。
-- 自動調整：我們使用 `AUTO_FIT_TO_CONTENTS` 確保表格根據內容調整其大小。
+- **設定表格樣式：** `MEDIUM_SHADING_1_ACCENT_1` 提供乾淨且帶底紋的外觀。  
+- **樣式選項：條紋與首列會自動套用格式。  
+- **自動調整：** `AUTO_FIT_TO_CONTENTS`。  
 
-## 結論
+## 常見問題與解決方案
 
-就是這樣！您已成功使用 Aspose.Words for Java 格式化表格並套用樣式。利用這些技術，您可以建立不僅實用而且外觀美觀的表格。有效地格式化表格可以大大增強文件的可讀性和專業外觀。
+| 問題 | 解決方案 |
+|------|----------|
+| 邊框未 **before**，或在修改後重新整理 builder。 |
+| 合併儲存格未套用底色 | 在合併儲存格 **after** 後套用底色，使用| 表格寬度超出頁面邊_TO_CONTENTS)` 或設定明確的欄寬。 |
+| 迭代列/儲存格，根據業務邏輯套用底色或邊框。 |
 
-Aspose.Words for Java 是個強大的工具，提供豐富的文件操作功能。透過掌握表格格式和樣式，您就離充分利用這個函式庫的功能更近了一步。
+## 常見問答
 
-## 常見問題解答
+**Q: 我可以使用未包含在預？**  
+A: 是的，您可以使用 Aspose.Words for Java 定義並套用自訂樣式到表格。請參閱 [documentation](https://reference.aspose.com/words/java/) 以取得有關建立自訂樣式的更多資訊件格式化？**  
+A: 方法（例如 `setBackgroundPatternColor`、`getBorders().setLineWidth`），即可動態樣式化儲存格。
 
-### 1. 我可以使用預設選項中未包含的自訂表格樣式嗎？
+**Q: 我可以格式化表格中的合併儲存格嗎？**  
+A: 當然可以。使用 `Cell.merge` 合併儲存格後，對合併後的儲存格套框，即可看到變更。
 
-是的，您可以使用 Aspose.Words for Java 定義自訂樣式並將其套用到您的表格。檢查 [文件](https://reference.aspose.com/words/java/) 有關建立自訂樣式的更多詳細資訊。
+**Q: 是否可以動態調整表格版面？**  
+A: 可以，您可以在執行時根據內容或使用者輸入修改儲存格寬度、表格寬度，並套用 `autoFit`。
 
-### 2. 如何將條件格式應用於表格？
+**Q: 我在哪裡可以取得更多關於表格考，請造訪 [Aspose.Words API documentation](https://reference.aspose.com/words/java/)。  
 
-Aspose.Words for Java 可讓您根據條件以程式設計方式調整表格格式。這可以透過檢查程式碼中的特定標準並相應地應用格式來完成。
+---
 
-### 3. 我可以設定表格中合併儲存格的格式嗎？
-
-是的，您可以像格式化常規儲存格一樣格式化合併儲存格。確保在合併儲存格後套用格式以查看反映的變更。
-
-### 4. 是否可以動態調整表格佈局？
-
-是的，您可以根據內容或使用者輸入修改儲存格大小、表格寬度和其他屬性，動態調整表格佈局。
-
-### 5. 在哪裡可以獲得有關表格格式的更多資訊？
-
-如需更詳細的範例和選項，請訪問 [Aspose.Words API 文檔](https://reference。aspose.com/words/java/).
-
+**最後更新：** ** Aspose.Words for Java 24.12（撰寫時的最新版本）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
