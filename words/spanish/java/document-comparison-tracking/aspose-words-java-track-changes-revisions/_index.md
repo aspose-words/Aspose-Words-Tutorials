@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Aprenda a controlar los cambios y gestionar las revisiones en documentos de Word con Aspose.Words para Java. Domine la comparación de documentos, la gestión de revisiones en línea y mucho más con esta guía completa."
-"title": "Seguimiento de cambios en documentos de Word con Aspose.Words Java&#58; una guía completa para las revisiones de documentos"
-"url": "/es/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/"
-"weight": 1
+date: '2026-02-03'
+description: Aprende a usar Aspose.Words para rastrear cambios en Java y gestionar
+  revisiones en documentos de Word. Domina la comparación de documentos, el manejo
+  de revisiones en línea y mucho más con esta guía completa.
+keywords:
+- track changes
+- document revisions
+- inline revision handling
+title: Control de cambios en Aspose.Words para Java – Guía completa
+url: /es/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +18,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Seguimiento de cambios en documentos de Word con Aspose.Words Java: una guía completa para la revisión de documentos
+# Aspose.Words Seguimiento de Cambios en Java – Guía Completa
 
 ## Introducción
 
-Colaborar en documentos importantes puede ser un desafío debido a la complejidad de gestionar las revisiones. Con Aspose.Words para Java, puede realizar un seguimiento de cambios sin problemas en sus aplicaciones. Este tutorial le guía en la implementación del "Control de Cambios" mediante la gestión de revisiones en línea en Aspose.Words Java, una potente biblioteca que simplifica el procesamiento de documentos.
+Colaborar en documentos importantes puede ser un desafío porque llevar un registro de cada edición, inserción o eliminación rápidamente se vuelve abrumador. **Aspose.Words track changes** le brinda una forma confiable y programática de capturar esas ediciones directamente dentro de sus aplicaciones Java. En este tutorial recorreremos la configuración de la biblioteca, el manejo de revisiones en línea y la aplicación de técnicas de mejores prácticas para que pueda gestionar las revisiones de documentos con confianza.
 
-**Lo que aprenderás:**
-- Cómo configurar Aspose.Words con Maven o Gradle
-- Implementar varios tipos de revisiones (insertar, formatear, mover, eliminar)
-- Comprender y utilizar funciones clave para gestionar cambios en documentos
+**Lo que aprenderá**
+- Cómo configurar Aspose.Words con Maven o Gradle  
+- Implementación de varios tipos de revisión (inserción, formato, movimiento, eliminación)  
+- Comprender las características clave para gestionar cambios en documentos  
 
-Comencemos por configurar su entorno para que pueda dominar estas capacidades.
+Preparemos su entorno de desarrollo para que pueda comenzar a rastrear cambios de inmediato.
 
-## Prerrequisitos
+## Respuestas rápidas
+- **¿Qué hace Aspose.Words track changes?** Registra inserciones, eliminaciones, ediciones de formato y movimientos de texto como objetos de revisión que puede aceptar o rechazar programáticamente.  
+- **¿Qué versiones de Java son compatibles?** Java 8 o superior.  
+- **¿Necesito una licencia para desarrollo?** Una prueba gratuita funciona para evaluación; una licencia elimina las restricciones de evaluación procesar documentos grandes de maneraes para limitar el uso deords Track Estos nodos pueden colaborativa.
 
-Antes de comenzar, asegúrese de tener lo siguiente:
-- **Kit de desarrollo de Java (JDK):** Versión 8 o superior instalada en su sistema.
-- **Entorno de desarrollo integrado (IDE):** Como IntelliJ IDEA, Eclipse o NetBeans.
-- **Maven o Gradle:** Para administrar dependencias y construir su proyecto.
+## Requisitos previos
 
-También es necesario un conocimiento básico de programación Java para seguir los ejemplos de código proporcionados.
+- **Java Development Kit (JDK):** Versión 8 o superior.  
+- **IDE:** IntelliJ IDEA, Eclipse o NetBeans.  
+- **Herramienta de compilación:** Maven o Gradle para la gestión de dependencias.  
+
+Se asume un conocimiento básico de Java.
 
 ## Configuración de Aspose.Words
 
-Para integrar Aspose.Words en su proyecto, utilice Maven o Gradle para la gestión de dependencias.
-
 ### Configuración de Maven
 
-Agregue esta dependencia en su `pom.xml` archivo:
+Agregue la siguiente dependencia a su `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,22 +60,21 @@ Agregue esta dependencia en su `pom.xml` archivo:
 
 ### Configuración de Gradle
 
-Incluya esta línea en su `build.gradle` archivo:
+Incluya esta línea en su archivo `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Adquisición de licencias
+#### Obtención de licencia
 
-Aspose ofrece una prueba gratuita para que puedas evaluar sus funciones y determinar si se adapta a tus necesidades. Para empezar:
-1. **Prueba gratuita:** Descargue la biblioteca desde [Descargas de Aspose](https://releases.aspose.com/words/java/) y utilizarlo con limitaciones de evaluación.
-2. **Licencia temporal:** Obtenga una licencia temporal para uso extendido sin restricciones de evaluación visitando [Licencia temporal](https://purchase.aspose.com/temporary-license/).
-3. **Licencia de compra:** Considere comprar si necesita acceso completo a las funciones de Aspose.Words siguiendo las instrucciones en su página de compra.
+Aspose ofrece una prueba gratuita para probar sus funciones, lo que le permite evaluar si satisface sus necesidades.
+
+1. **Prueba gratuita:** Descargue la biblioteca desde [Aspose Downloads](https://releases.aspose.com/words/java/) y úsela con limitaciones de evaluación.  
+2. **Licencia temporal:** Obtenga una licencia temporal para uso extendido sin restricciones de evaluación visitando [Temporary License](https://purchase.aspose.com/temporary-license/).  
+3. **Comprar licencia:** Considere comprar si necesita acceso completo a las funciones de Aspose.Words siguiendo las instrucciones en su página de compra.
 
 #### Inicialización básica
-
-Para inicializar, cree una instancia de `Document` y empezar a trabajar con él:
 
 ```java
 import com.aspose.words.Document;
@@ -76,20 +82,20 @@ import com.aspose.words.Document;
 public class Main {
     public static void main(String[] args) throws Exception {
         Document doc = new Document("input.docx");
-        // Procesamiento adicional aquí
+        // Further processing here
     }
 }
 ```
 
 ## Guía de implementación
 
-En esta sección, exploraremos cómo manejar diferentes tipos de revisiones usando Aspose.Words Java.
+En esta sección exploraremos cómo manejar diferentes tipos de revisiones usando Aspose.Words Java.
 
 ### Manejo de revisiones en línea
 
-#### Descripción general
+#### Visión general
 
-Al realizar el seguimiento de cambios en un documento, es fundamental comprender y gestionar las revisiones en línea. Estas pueden incluir inserciones, eliminaciones, cambios de formato o movimientos de texto.
+Al rastrear cambios en un documento, comprender y gestionar las revisiones en línea es crucial. Estas pueden incluir inserciones, eliminaciones, cambios de formato o movimientos de texto.
 
 #### Implementación de código
 
@@ -106,10 +112,10 @@ public class RevisionHandler {
     public void handleRevisions() throws Exception {
         Document doc = new Document("Revision runs.docx");
 
-        // Comprobar el número de revisiones
+        // Check the number of revisions
         Assert.assertEquals(6, doc.getRevisions().getCount());
 
-        // Acceder al nodo padre de una revisión específica
+        // Accessing a specific revision's parent node
         Run run = (Run) doc.getRevisions().get(0).getParentNode();
 
         Paragraph paragraph = run.getParentParagraph();
@@ -117,73 +123,81 @@ public class RevisionHandler {
 
         Assert.assertEquals(runs.getCount(), 6);
 
-        // Identificar diferentes tipos de revisiones
-        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insertar revisión
-        Assert.assertTrue(runs.get(2).isFormatRevision());  // Revisión de formato
-        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Pasar de la revisión
-        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Pasar a revisión
-        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Eliminar revisión
+        // Identifying different types of revisions
+        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insert revision
+        Assert.assertTrue(runs.get(2).isFormatRevision());  // Format revision
+        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Move from revision
+        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Move to revision
+        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Delete revision
     }
 }
 ```
 
 #### Explicación
-- **Insertar revisión:** Se produce cuando se agrega texto mientras se realizan el seguimiento de los cambios.
-- **Revisión de formato:** Se activa mediante modificaciones de formato en el texto.
-- **Mover desde/a revisiones:** Representa el movimiento del texto dentro del documento, apareciendo en pares.
-- **Eliminar revisión:** Marca el texto eliminado como pendiente de aceptación o rechazo.
+- **Revisión de inserción:** Ocurre cuando se agrega texto mientras se rastrean los cambios.  
+- **Revisión de formato:** Se activa por modificaciones de formato en el texto.  
+- **Revisiones de mover de/a:** Representan el movimiento de texto dentro del documento, apareciendo en pares.  
+- **Revisión de eliminación:** Marca el texto eliminado pendiente de aceptación o rechazo.
 
 ### Aplicaciones prácticas
 
-A continuación se presentan algunos escenarios del mundo real en los que la gestión de revisiones resulta beneficiosa:
-1. **Edición colaborativa:** Los equipos pueden revisar y aprobar cambios de manera eficiente antes de finalizar un documento.
-2. **Revisión de documentos legales:** Los abogados pueden realizar un seguimiento de las modificaciones realizadas a los contratos, garantizando que todas las partes estén de acuerdo con la versión final.
-3. **Documentación del software:** Los desarrolladores pueden gestionar actualizaciones en documentos técnicos, manteniendo la claridad y la precisión.
+Aquí hay algunos escenarios del mundo real donde la gestión de revisiones es beneficiosa:
+
+1. **Edición colaborativa:** Los equipos pueden revisar y aprobar cambios de manera eficiente antes de finalizar un documento.  
+2. **Revisión de documentos legales:** Los abogados pueden rastrear enmiendas realizadas a contratos, asegurando que todas las partes estén de acuerdo con la versión final.  
+3. **Documentación de software:** Los desarrolladores pueden gestionar actualizaciones en manuales técnicos, manteniendo claridad y precisión.
 
 ### Consideraciones de rendimiento
 
-Para optimizar el rendimiento al gestionar documentos grandes con numerosas revisiones:
-- Minimice el uso de memoria procesando las secciones del documento de forma secuencial.
-- Utilice los métodos integrados de Aspose.Words para operaciones por lotes para reducir la sobrecarga.
+Para mantener un rendimiento óptimo al manejar documentos grandes con muchas revisiones:
+
+- Procese secciones del documento secuencialmente para limitar el consumo de memoria.  
+- Aproveche las operaciones por lotes de Aspose.Words (p. ej., `acceptAllRevisions()`) para reducir la sobrecarga.
 
 ## Conclusión
 
-Ya aprendió a implementar el control de cambios mediante la gestión de revisiones en línea en Aspose.Words Java. Al dominar estas técnicas, podrá mejorar la colaboración y mantener un control preciso sobre las modificaciones de documentos en sus aplicaciones.
+Ahora ha aprendido cómo implementar **Aspose.Words track changes** la colaboración, mantener un control de procesamiento de documentos.
 
-**Próximos pasos:**
-- Experimente con diferentes tipos de revisiones.
-- Integre Aspose.Words en proyectos más grandes para obtener soluciones integrales de procesamiento de documentos.
+**Próximos pasos**
+- Experimente con tipos de revisión adicionales (p. ej., manejo de comentarios).  
+- Integre Aspose.Words en flujos de trabajo más grandes, como generación automática de informes o gestión del ciclo de vida de contratos.
 
-## Sección de preguntas frecuentes
+## Preguntas frecuentes
 
-1. **¿Qué es un nodo en línea en Aspose.Words?**
-   - Un nodo en línea representa elementos de texto, como una línea o un formato de carácter dentro de un párrafo.
-2. **¿Cómo puedo empezar a realizar un seguimiento de las revisiones con Aspose.Words Java?**
-   - Utilice el `startTrackRevisions` método en tu `Document` instancia para comenzar a rastrear los cambios.
-3. **¿Puedo automatizar la aceptación o el rechazo de revisiones en un documento?**
-   - Sí, puedes aceptar o rechazar programáticamente todas las revisiones usando métodos como `acceptAllRevisions` o `rejectAllRevisions`.
-4. **¿Qué tipos de documentos admite Aspose.Words?**
-   - Admite DOCX, PDF, HTML y otros formatos populares, lo que permite una conversión flexible de documentos.
-5. **¿Cómo puedo manejar documentos grandes de manera eficiente con Aspose.Words?**
-   - Procese las secciones de forma incremental, aprovechando las operaciones por lotes para mantener el rendimiento.
+**P: ¿Qué es un nodo en línea en Aspose.Words?**  
+R: Un nodo en línea representa elementos de texto, como una ejecución o formato de caracteres dentro de un párrafo.
+
+**P: ¿Cómo comienzo a rastrear revisiones con Aspose.Words Java?**  
+R: Use el método `startTrackRevisions` en su instancia `Document` para comenzar a rastrear cambios.
+
+**P: ¿Puedo automatizar la aceptación o el rechazo de revisiones en un documento?**  
+R: Sí, puede aceptar o rechazar programáticamente todas las revisiones usando métodos como `acceptAllRevisions()` o `rejectAllRevisions()`.
+
+**P: ¿Qué formatos de archivo admite Aspose.Words?**  
+R: Admite DOCX, PDF, HTML y muchos otros formatos populares, lo que permite una conversión flexible de documentos.
+
+**P: ¿Cómo manejo documentos grandes de manera eficiente con Aspose.Words?**  
+R: Procese secciones de forma incremental y use APIs por lotes para mantener bajo el uso de memoria y alta el rendimiento.
 
 ## Recursos
 
-- [Documentación de Java de Aspose.Words](https://reference.aspose.com/words/java/)
+- [Documentación de Aspose.Words Java](https://reference.aspose.com/words/java/)
 - [Descargar Aspose.Words para Java](https://releases.aspose.com/words/java/)
 - [Comprar una licencia](https://purchase.aspose.com/buy)
 - [Prueba gratuita](https://releases.aspose.com/words/java/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
 
-¡Embárquese hoy mismo en su viaje con Aspose.Words Java y aproveche todo el potencial del procesamiento de documentos en sus aplicaciones!
+¡Emprenda su viaje con Aspose.Words Java hoy y aproveche todo el potencial del procesamiento de documentos en sus aplicaciones!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Tested With

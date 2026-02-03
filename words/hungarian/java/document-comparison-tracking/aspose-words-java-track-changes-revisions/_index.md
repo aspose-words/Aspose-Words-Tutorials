@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Ismerje meg, hogyan követheti nyomon a változtatásokat és kezelheti a revíziókat Word-dokumentumokban az Aspose.Words for Java segítségével. Sajátítsa el a dokumentumok összehasonlítását, a beágyazott revíziók kezelését és sok mást ebben az átfogó útmutatóban."
-"title": "Változások követése Word-dokumentumokban az Aspose.Words Java használatával – Teljes körű útmutató a dokumentumok módosításához"
-"url": "/hu/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/"
-"weight": 1
+date: '2026-02-03'
+description: Tanulja meg, hogyan használja az Aspose.Words nyomkövető változtatásait
+  Java-ban a Word-dokumentumok módosításainak kezelésére. Ismerje meg a dokumentum-összehasonlítást,
+  a beágyazott módosítások kezelését és még sok mást ebben az átfogó útmutatóban.
+keywords:
+- track changes
+- document revisions
+- inline revision handling
+title: Aspose.Words változások nyomon követése Java-ban – Teljes útmutató
+url: /hu/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +18,43 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Változások követése Word-dokumentumokban az Aspose.Words Java használatával: Teljes körű útmutató a dokumentumok módosításához
+# Aspose.Words Java-ban – Teljes útmutató
 
 ## Bevezetés
 
-A fontos dokumentumokon való együttműködés kihívást jelenthet a revíziók kezelésének összetettsége miatt. Az Aspose.Words for Java segítségével zökkenőmentesen nyomon követheti a változtatásokat az alkalmazásain belül. Ez az oktatóanyag végigvezeti Önt a „Változások követése” megvalósításán az Aspose.Words Java-ban található, a dokumentumfeldolgozási feladatokat leegyszerűsítő hatékony könyvtárban, amely beágyazott revíziókezelést használ.
+A fontos dokumentumokon való együttműködés kihívást jelenthet, mivel minden szerkesztés, beszúrás vagy törlés nyomon követése gyorsan elárasztóvá válik. **Aspose.Words track changes** megbízható, programozott módot biztosít ezeknek a módosításoknak a rögzítésére közvetlenül a Java‑alkalmazásaidban. Ebben az útmutatóban végigvezetünk a könyvtár beállításán, a beágyazott revíziók kezelésén, és a legjobb gyakorlatok alkalmazásán, hogy magabiztosan tudj dokumentumrevíziókat kezelni.
 
-**Amit tanulni fogsz:**
-- Az Aspose.Words beállítása Maven vagy Gradle használatával
-- Különböző típusú javítások végrehajtása (beszúrás, formázás, áthelyezés, törlés)
-- A dokumentumváltozások kezelésének főbb funkcióinak megértése és használata
+**Mit fogsz megtanulni**
+- Hogyan állítsd be az Aspose.Words‑t Maven‑ vagy Gradle‑al  
+- Különböző revíziótípusok (beszúrás, formázás, áthelyezés, törlés) implementálása  
+- A dokumentumváltozások kezelésének kulcsfontosságú funkciói  
 
-Kezdjük a környezet beállításával, hogy elsajátíthasd ezeket a képességeket.
+Készítsük elő a fejlesztői környezetet, hogy azonnal elkezdhessük a változások nyomon követését.
 
-## Előfeltételek
+## Gyors válaszok
+- **Mit csinál az Aspose.Words track changes?** Feljegyzi a beszúrásokat, törléseket, formázási módosításokat és a szöveg áthelyezéseket revízióobjektumokként, amelyeket programozottan elfogadhatsz vagy elutasíthatsz.  
+-?** Java 8 vagy újabb.  
+- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba verzió elegendő az értékeléshez; a licenc eltávolítja az értékelési korlátozásokat.  
+- **Hatékonyan tudok nagy dokumentumokat feldolgozni?** Igen – dolgozz szekciókonként, és használd a kötegelt API‑kat a memóriahasználat csökkentéséhez.  
+- **Az API kompatibilis a Maven‑nal és a Gradle‑lal?** Teljesen; mindkét építőeszköz támogatott.
 
-Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
-- **Java fejlesztőkészlet (JDK):** 8-as vagy újabb verzió telepítve a rendszerére.
-- **Integrált fejlesztői környezet (IDE):** Ilyen például az IntelliJ IDEA, az Eclipse vagy a NetBeans.
-- **Maven vagy Gradle:** Függőségek kezeléséhez és a projekt felépítéséhez.
+## Aspose.Words track changes áttekintése
 
-A megadott kódpéldák követéséhez a Java programozás alapvető ismerete is szükséges.
+Ha engedélyezed a nyomon követést, minden módosítás egy revíziócsomópontot hoz létre a dokumentumfában. Ezeket a csomópontokat ellenőrizheted, szűrheted, vagy programozottan elfogadhatod/elutasíthatod, így finomhangolt irányítást kapsz az együttműködéses szerkesztési helyzetek felett.
 
-## Az Aspose.Words beállítása
+## Előkövetelmények
 
-Az Aspose.Words projektbe való integrálásához használjon Mavent vagy Gradle-t a függőségek kezelésére.
+- **Java Development Kit (JDK):** 8-as vagy újabb verzió.  
+- **IDE:** IntelliJ IDEA, Eclipse vagy NetBeans.  
+- **Építőeszköz:** Maven vagy Gradle a függőségkezeléshez.  
+
+Alapvető Java‑ismeretek feltételezettek.
+
+## Aspose.Words beállítása
 
 ### Maven beállítás
 
-Adja hozzá ezt a függőséget a `pom.xml` fájl:
+Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
 
 ```xml
 <dependency>
@@ -51,24 +64,23 @@ Adja hozzá ezt a függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-### Gradle beállítása
+### Gradle beállítás
 
-Írd be ezt a sort a `build.gradle` fájl:
+Illeszd be ezt a sort a `build.gradle` fájlodba:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Licencszerzés
+#### Licenc beszerzése
 
-Az Aspose ingyenes próbaverziót kínál a funkcióinak teszteléséhez, lehetővé téve, hogy felmérje, megfelel-e az igényeinek. Kezdésként:
-1. **Ingyenes próbaverzió:** Töltsd le a könyvtárat innen [Aspose letöltések](https://releases.aspose.com/words/java/) és használja azt értékelési korlátozásokkal.
-2. **Ideiglenes engedély:** Szerezzen be ideiglenes licencet a hosszabbított használatra, értékelési korlátozások nélkül a következő címen: [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
-3. **Licenc vásárlása:** Fontold meg a vásárlást, ha teljes hozzáférésre van szükséged az Aspose.Words funkcióihoz a vásárlási oldalon található utasításokat követve.
+Az Aspose ingyenes próbaverziót kínál a funkciók teszteléséhez, amely lehetővé teszi, hogy felmérd, megfelel‑e az igényeidnek.
+
+1. **Ingyenes próba:** Töltsd le a könyvtárat az [Aspose Downloads](https://releases.aspose.com/words/java/) oldalról, és használd értékelési korlátozásokkal.  
+2. **Ideiglenes licenc:** Szerezz ideiglenes licencet a kiterjesztett használathoz értékelési korlátozások nélkül a [Temporary License](https://purchase.aspose.com/temporary-license/) oldalon.  
+3. **Licenc vásárlása:** Fontold meg a vásárlást, ha teljes hozzáférést szeretnél az Aspose.Words funkciókhoz, a vásárlási oldalukon leírtak szerint.
 
 #### Alapvető inicializálás
-
-Az inicializáláshoz hozzon létre egy példányt a következőből: `Document` és kezdj el vele dolgozni:
 
 ```java
 import com.aspose.words.Document;
@@ -76,24 +88,24 @@ import com.aspose.words.Document;
 public class Main {
     public static void main(String[] args) throws Exception {
         Document doc = new Document("input.docx");
-        // További feldolgozás itt
+        // Further processing here
     }
 }
 ```
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
-Ebben a részben azt vizsgáljuk meg, hogyan kezelhetjük a különböző típusú revíziókat az Aspose.Words Java használatával.
+Ebben a részben megvizsgáljuk, hogyan kezelhetők a különböző revíziótípusok az Aspose.Words Java‑val.
 
-### Beágyazott módosítások kezelése
+### Beágyazott revíziók kezelése
 
 #### Áttekintés
 
-Egy dokumentum változásainak nyomon követésekor kulcsfontosságú a beágyazott javítások megértése és kezelése. Ezek lehetnek beszúrások, törlések, formázási változtatások vagy szövegáthelyezések.
+A dokumentum változásainak nyomon követésekor elengedhetetlen a beágyazott revíziók megértése és kezelése. Ezek lehetnek beszúrások, törlések, formázási változások vagy szöveg‑áthelyezések.
 
 #### Kódmegvalósítás
 
-Az alábbiakban lépésről lépésre bemutatjuk, hogyan határozható meg egy inline csomópont revíziótípusa az Aspose.Words Java használatával:
+Az alábbi lépésről‑lépésre útmutató bemutatja, hogyan határozd meg egy beágyazott csomópát az Aspose.Words Java‑val:
 
 ```java
 import com.aspose.words.Document;
@@ -106,10 +118,10 @@ public class RevisionHandler {
     public void handleRevisions() throws Exception {
         Document doc = new Document("Revision runs.docx");
 
-        // Ellenőrizze a módosítások számát
+        // Check the number of revisions
         Assert.assertEquals(6, doc.getRevisions().getCount());
 
-        // Egy adott revízió szülőcsomópontjának elérése
+        // Accessing a specific revision's parent node
         Run run = (Run) doc.getRevisions().get(0).getParentNode();
 
         Paragraph paragraph = run.getParentParagraph();
@@ -117,73 +129,68 @@ public class RevisionHandler {
 
         Assert.assertEquals(runs.getCount(), 6);
 
-        // Különböző típusú revíziók azonosítása
-        Assert.assertTrue(runs.get(2).isInsertRevision());  // Változat beszúrása
-        Assert.assertTrue(runs.get(2).isFormatRevision());  // Formátumváltozat
-        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Áthelyezés a verzióból
-        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Áthelyezés a verzióra
-        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Verzió törlése
+        // Identifying different types of revisions
+        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insert revision
+        Assert.assertTrue(runs.get(2).isFormatRevision());  // Format revision
+        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Move from revision
+        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Move to revision
+        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Delete revision
     }
 }
 ```
 
 #### Magyarázat
-- **Revízió beszúrása:** Akkor fordul elő, ha szöveget adnak hozzá a változások követése közben.
-- **Formátumváltozat:** A szöveg formázási módosításai váltják ki.
-- **Áthelyezés a verziókból/hozzá:** A szöveg dokumentumon belüli mozgását ábrázolja, párosával megjelenve.
-- **Revízió törlése:** A törölt szöveget elfogadásra vagy elutasításra várva jelöli.
+- **Insert Revision:** Akkorveget adnak hozzá.  
+- **Format Revision:** Formázási módosítások által kiváltott revízió.  
+- **Move From/To Revisions:** A szöveg dokumentumon belüli áthely **Delete### Gy ahol aEgyüttműködő szerkesztés:** A cstekinthetik és jóváhagyhatják a változtatásokat a dokumentum véglegesítése előtt.  
+2. **Jogi dokumentumok felülvizsgálata:** Ügyvédek nyomon követhetik a szerződések mód aikztaságot és pontosságot.
 
-### Gyakorlati alkalmazások
+### Teljesítményfontosságú szempontok
 
-Íme néhány valós helyzet, ahol a módosítások kezelése előnyös:
-1. **Közös szerkesztés:** A csapatok hatékonyan áttekinthetik és jóváhagyhatják a módosításokat a dokumentum véglegesítése előtt.
-2. **Jogi dokumentumok felülvizsgálata:** Az ügyvédek nyomon követhetik a szerződések módosításait, biztosítva, hogy minden fél egyetértsen a végleges változattal.
-3. **Szoftverdokumentáció:** A fejlesztők kezelhetik a műszaki dokumentumok frissítéseit, megőrizve azok érthetőségét és pontosságát.
+A nagy mennyiségű revízióval rendelkező dokumentumok kezelésekor érdekében:
 
-### Teljesítménybeli szempontok
+- Dolgozz szekciókonként, hogy korlátozd a memóriahasználatot.  
+- Használd az Aspose.Wésban.umol).  
+- Integráld az Aspose.Words‑t nagyobb munkafolyamatokba, például automatizált jelentéskészítésbe vagy szerződés‑életciklus‑kezelésbe.
 
-A teljesítmény optimalizálása nagyméretű, számos módosítást tartalmazó dokumentumok kezelésekor:
-- A memóriahasználat minimalizálása a dokumentum szakaszainak szekvenciális feldolgozásával.
-- Használd az Aspose.Words beépített metódusait kötegelt műveletekhez a terhelés csökkentése érdekében.
+## Gyakran Ismételt Kérdések
 
-## Következtetés
+**K: Mi az a beágyazott csomópont az Aspose.Words‑ban?**  
+A: Egy beágyazott csomópont a szövegelemeket jelenti, például egy run‑t vagy karakterformázást egy bekezdésen belül.
 
-Most már megtanultad, hogyan valósíthatod meg a változtatások követését az Aspose.Words Java-ban található inline verziókezelés használatával. Ezen technikák elsajátításával javíthatod az együttműködést és precízen szabályozhatod a dokumentumok módosítását az alkalmazásaidban.
+**K: Hogyan indítsam el a revíziók nyomon követését az Aspose.Words Java‑val?**  
+A: Használd a `startTrackRevisions` metódust a `Document` példányodon a változások nyomon követésének megkezdéséhez.
 
-**Következő lépések:**
-- Kísérletezzen különböző típusú revíziókkal.
-- Integrálja az Aspose.Words-öt nagyobb projektekbe az átfogó dokumentumfeldolgozási megoldások érdekében.
+**K: Automatizálhatom a revíziók elfogadását vagy elutasítását egy dokumentumban?**  
+A: Igen, programozottan elfogadhatod vagy elutasíthatod az összes revíziót olyan metódusokkal, mint a `acceptAllRevisions()` vagy a `rejectAllRevisions()`.
 
-## GYIK szekció
+**K: Milyen fájlformátumokat támogat az Aspose.Words?**  
+A: Támogatja a DOCX, PDF, HTML és számos más népszerű formátumot, lehetővé téve a rugalmas dokumentumkonverziót.
 
-1. **Mi az a beágyazott csomópont az Aspose.Words-ben?**
-   - Egy soron belüli csomópont szöveges elemeket jelöl, például egy bekezdésen belüli karaktersorozatot vagy formázást.
-2. **Hogyan kezdhetem el a revíziók követését az Aspose.Words Java-ban?**
-   - Használd a `startTrackRevisions` módszer a `Document` példány a változások követésének megkezdéséhez.
-3. **Automatizálhatom a dokumentumban a javítások elfogadását vagy elutasítását?**
-   - Igen, programozottan elfogadhatja vagy elutasíthatja az összes módosítást olyan metódusokkal, mint a `acceptAllRevisions` vagy `rejectAllRevisions`.
-4. **Milyen típusú dokumentumokat támogat az Aspose.Words?**
-   - Támogatja a DOCX, PDF, HTML és más népszerű formátumokat, lehetővé téve a rugalmas dokumentumkonvertálást.
-5. **Hogyan kezelhetek nagyméretű dokumentumokat hatékonyan az Aspose.Words segítségével?**
-   - A szakaszok fokozatos feldolgozása, kötegelt műveletek kihasználásával a teljesítmény fenntartása érdekében.
+**K: Hogyan kezeljem hatékonyan a nagy dokumentumokat az Aspose.Words‑sal?**  
+A: Dolgozz szekciókonként, és használd a kötegelt API‑kat a memóriahasználat alacsonyan és a teljesítmény magas szinten tartásához.
 
-## Erőforrás
+## Források
 
-- [Aspose.Words Java dokumentáció](https://reference.aspose.com/words/java/)
-- [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/)
-- [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/words/java/)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-- [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
+- [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)  
+- [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)  
+- [Purchase a License](https://purchase.aspose.com/buy)  
+- [Free Trial](https://releases.aspose.com/words/java/)  
+- [Temporary License](https://purchase.aspose.com/temporary-license/)  
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
-Indulj el az Aspose.Words Java segítségével még ma, és használd ki a dokumentumfeldolgozásban rejlő összes lehetőséget az alkalmazásaidban!
+Vágj bele az Aspose.Words Java‑val még ma, és használd ki a dokumentumfeldolgozás teljes potenciálját alkalmazásaidban!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-03  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
