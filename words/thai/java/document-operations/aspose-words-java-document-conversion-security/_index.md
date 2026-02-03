@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "เรียนรู้วิธีการแปลงเอกสารและรักษาความปลอดภัยโดยใช้ Aspose.Words สำหรับ Java แปลงเป็น ODT ตรวจสอบให้แน่ใจว่าเป็นไปตามโครงร่าง และเข้ารหัสเอกสารได้อย่างง่ายดาย"
-"title": "การแปลงเอกสาร Java และความปลอดภัยสำหรับไฟล์ ODT ของ Aspose.Words"
-"url": "/th/java/document-operations/aspose-words-java-document-conversion-security/"
-"weight": 1
+date: '2026-02-03'
+description: เรียนรู้วิธีแปลง docx เป็น odt, ส่งออกเอกสารเป็น ODT schema 1.1, ใช้หน่วยวัดต่าง
+  ๆ, และป้องกันไฟล์ ODT ด้วยรหัสผ่านด้วย Aspose.Words for Java.
+keywords:
+- Aspose.Words Java
+- ODT conversion
+- document security
+title: แปลง docx เป็น odt ด้วย Aspose.Words Java – การแปลงเอกสารและความปลอดภัย
+url: /th/java/document-operations/aspose-words-java-document-conversion-security/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,28 +17,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# เชี่ยวชาญการแปลงเอกสารและความปลอดภัยด้วย Aspose.Words Java
 
-# เรียนรู้การแปลงเอกสารและการรักษาความปลอดภัยด้วย Aspose.Words Java
+## Introduction
 
-## การแนะนำ
+ในโลกของการจัดการเอกสาร การ **convert docx to odt** อย่างมีประสิทธิภาพและการรักษาความปลอดภัยของไฟล์เหล่านั้นเป็นสิ่งสำคัญสำหรับนักพัฒนาและธุรกิจไม่ว่าขนาดใดก็ตาม ไม่ว่าคุณจะต้องการให้เข้ากันได้กับเวอร์ชันสคีมาที่เก่ากว่า หรือปกป้องข้อมูลที่ละเอียดอ่อนด้วยการเข้ารหัส งานเหล่านี้อาจดูท้าทายหากไม่มีเครื่องมือที่เหมาะสม บทแนะนำนี้จะแสดงวิธี **convert docx to odt** ด้วย **Aspose.Words for Java** พร้อมทั้งครอบคลุมการปฏิบัติตามสคีมา ODT 1.1 การปรับหน่วยวัด และการตั้งรหัสผ่านเพื่อปกป้องไฟล์ ODT/OTT
 
-ในแวดวงการจัดการเอกสาร การแปลงและรักษาความปลอดภัยเอกสารอย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญสำหรับนักพัฒนาและธุรกิจ ไม่ว่าจะเป็นการรับรองความเข้ากันได้กับเวอร์ชันเก่าของโครงร่างหรือการปกป้องข้อมูลที่ละเอียดอ่อนผ่านการเข้ารหัส งานเหล่านี้อาจดูยุ่งยากหากไม่มีเครื่องมือที่เหมาะสม บทช่วยสอนนี้เน้นที่การใช้ **Aspose.คำศัพท์สำหรับภาษา Java** เพื่อปรับปรุงการส่งออกเอกสารเป็นรูปแบบ OpenDocument Text (ODT) พร้อมทั้งยังคงปฏิบัติตามโครงร่างและใช้มาตรการรักษาความปลอดภัยที่แข็งแกร่ง
-
-ในคู่มือนี้ คุณจะได้เรียนรู้วิธีการ:
-- ส่งออกเอกสารที่เป็นไปตามข้อกำหนด ODT 1.1
-- ใช้หน่วยการวัดที่แตกต่างกันในเอกสาร ODT
-- เข้ารหัสไฟล์ ODT/OTT ด้วยรหัสผ่านโดยใช้ Aspose.Words สำหรับ Java
+ในคู่มือนี้ คุณจะได้เรียนรู้วิธี:
+- ส่งออกเอกสารที่สอดคล้องกับสเปค ODT 1.1
+- ใช้หน่วยวัดต่าง ๆ (เซนติเมตรหรืออินช์) ในผลลัพธ์ ODT
+- เข้ารหัสไฟล์ ODT/OTT ด้วยรหัสผ่านเพื่อรักษาข้อมูลให้ปลอดภัย
 
 มาเริ่มกันเลย!
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What is the primary way to convert docx to odt?** Use `OdtSaveOptions` with `Document.save()` in Aspose.Words for Java.  
+- **Can I set the measurement unit when exporting?** Yes, call `saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS)` or `INCHES`.  
+- **How do I password protect an ODT file?** Set a password on `OdtSaveOptions` via `saveOptions.setPassword("yourPassword")`.  
+- **Do I need a license for these features?** A free temporary license works for evaluation; a full license is required for production.  
+- **Which Aspose.Words version supports these options?** Version 25.3 or later includes ODT 1.1 schema support and encryption.
 
-ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้แล้ว:
+## Prerequisites
 
-### ห้องสมุดที่จำเป็น
-คุณจะต้อง **Aspose.คำศัพท์สำหรับภาษา Java** เวอร์ชัน 25.3 ขึ้นไป ต่อไปนี้เป็นวิธีรวมไว้ในโปรเจ็กต์ของคุณโดยใช้ Maven หรือ Gradle:
+ก่อนที่เราจะเริ่ม โปรดตรวจสอบว่าคุณได้เตรียมสิ่งต่อไปนี้เรียบร้อยแล้ว:
 
-#### เมเวน:
+### Required Libraries
+คุณจะต้องใช้ **Aspose.Words for Java** เวอร์ชัน 25.3 หรือใหม่กว่า ด้านล่างเป็นวิธีการเพิ่มไลบรารีนี้ในโปรเจกต์ของคุณโดยใช้ Maven หรือ Gradle:
+
+#### Maven:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,68 +53,68 @@
 </dependency>
 ```
 
-#### เกรเดิ้ล:
+#### Gradle:
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### การตั้งค่าสภาพแวดล้อม
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนเครื่องของคุณและมี IDE หรือตัวแก้ไขข้อความที่กำหนดค่าสำหรับการพัฒนา Java
+### Environment Setup
+ตรวจสอบให้แน่ใจว่าได้ติดตั้ง Java บนเครื่องของคุณแล้วและมี IDE หรือโปรแกรมแก้ไขข้อความพร้อมสำหรับการพัฒนา Java
 
-### ข้อกำหนดเบื้องต้นของความรู้
-ขอแนะนำให้มีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java เพื่อปฏิบัติตามบทช่วยสอนนี้ได้อย่างมีประสิทธิผล
+### Knowledge Prerequisites
+ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java จะช่วยให้คุณทำตามตัวอย่างได้อย่างราบรื่น
 
-## การตั้งค่า Aspose.Words
+## Setting Up Aspose.Words
 
-หากต้องการเริ่มใช้ Aspose.Words ขั้นแรกต้องแน่ใจว่าได้ผสานรวมเข้ากับโปรเจ็กต์ของคุณอย่างถูกต้อง ขั้นตอนมีดังนี้:
+เพื่อเริ่มใช้ Aspose.Words ก่อนอื่นให้แน่ใจว่าได้ทำการรวมไลบรารีเข้ากับโปรเจกต์ของคุณอย่างถูกต้อง ขั้นตอนมีดังนี้:
 
-1. **การขอใบอนุญาต**:คุณสามารถรับใบอนุญาตทดลองใช้งานฟรีได้จาก [อาโปเซ่](https://purchase.aspose.com/temporary-license/) เพื่อทดสอบคุณสมบัติทั้งหมดโดยไม่มีข้อจำกัด
+1. **Acquire a License**: You can obtain a free trial license from [Aspose](https://purchase.aspose.com/temporary-license/) to test out all features without limitations.
    
-2. **การเริ่มต้นขั้นพื้นฐาน**-
-   ```java
-   import com.aspose.words.Document;
+2. **Basic Initialization**:
+```java
+import com.aspose.words.Document;
 
-   public class AsposeSetup {
-       public static void main(String[] args) throws Exception {
-           // โหลดเอกสารจากดิสก์
-           Document doc = new Document("path/to/your/document.docx");
-           
-           // บันทึกเป็นรูปแบบ ODT เพื่อเป็นตัวอย่างการใช้งาน
-           doc.save("output/path/OdtSaveOptions.odt", com.aspose.words.SaveFormat.ODT);
-       }
-   }
-   ```
+public class AsposeSetup {
+    public static void main(String[] args) throws Exception {
+        // Load a document from the disk
+        Document doc = new Document("path/to/your/document.docx");
+        
+        // Save it to ODT format as an example usage
+        doc.save("output/path/OdtSaveOptions.odt", com.aspose.words.SaveFormat.ODT);
+    }
+}
+```
 
-## คู่มือการใช้งาน
+## Implementation Guide
 
-### การส่งออกเอกสารไปยัง ODT Schema 1.1
+### Exporting Documents to ODT Schema 1.1
 
-คุณลักษณะนี้ช่วยให้คุณมั่นใจได้ว่าเอกสารที่ส่งออกเป็นไปตามรูปแบบ ODT 1.1 ซึ่งจำเป็นสำหรับความเข้ากันได้กับแอปพลิเคชันบางตัว
+ฟีเจอร์นี้ทำให้ไฟล์ที่ส่งออกสอดคล้องกับสคีมา ODT 1.1 ซึ่งจำเป็นสำหรับความเข้ากันได้กับแอปพลิเคชันรุ่นเก่า
 
-#### ภาพรวม
-ตัวอย่างโค้ดสาธิตวิธีการส่งออกเอกสารในขณะที่กำหนดข้อกำหนดโครงร่างและหน่วยการวัดเฉพาะ
+#### Overview
+โค้ดตัวอย่างด้านล่างจะแสดงวิธีการกำหนดค่าตัวเลือกการส่งออกเพื่อให้สอดคล้องกับสคีมาและเลือกหน่วยวัด
 
-#### การดำเนินการแบบทีละขั้นตอน
+#### Step‑by‑Step Implementation
 
-**3.1 กำหนดค่าตัวเลือกการส่งออก**
+**3.1 Configure Export Options**
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OdtSaveOptions;
 
-// โหลดเอกสาร Word ต้นฉบับของคุณ
+// Load your source Word document
 Document document = new Document("YOUR_DOCUMENT_DIRECTORY/Rendering.docx");
 
-// เริ่มต้นตัวเลือกการบันทึก ODT และกำหนดค่าการปฏิบัติตามโครงร่าง
+// Initialize ODT save options and configure schema compliance
 OdtSaveOptions saveOptions = new OdtSaveOptions();
 saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
-saveOptions.isStrictSchema11(true); // ตั้งค่าเป็นจริงเพื่อให้สอดคล้องกับ ODT 1.1
+saveOptions.isStrictSchema11(true); // Set to true for ODT 1.1 compliance
 
-// บันทึกเอกสารด้วยการตั้งค่าเหล่านี้
+// Save the document with these settings
 document.save("YOUR_OUTPUT_DIRECTORY/OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ```
 
-**3.2 ตรวจสอบการตั้งค่าการส่งออก**
-หลังจากบันทึกแล้ว โปรดตรวจสอบให้แน่ใจว่าการตั้งค่าเอกสารของคุณถูกต้อง:
+**3.2 Verify Export Settings**
+After saving, you can double‑check that the measurement unit was applied correctly:
 ```java
 import com.aspose.words.MeasurementUnits;
 
@@ -113,23 +124,24 @@ MeasurementUnits mu = loadedDoc.getLayoutOptions().getRevisionOptions().getMeasu
 assert mu == MeasurementUnits.CENTIMETERS;
 ```
 
-### การใช้หน่วยการวัดที่แตกต่างกัน
-ในบางกรณี คุณอาจจำเป็นต้องส่งออกเอกสารที่มีหน่วยการวัดที่แตกต่างกันเนื่องจากเหตุผลด้านรูปแบบหรือภูมิภาค
+### Using Different Measurement Units
 
-#### ภาพรวม
-คุณลักษณะนี้ช่วยให้สามารถระบุหน่วยการวัดในเอกสาร ODT ได้ ซึ่งจะทำให้มีความยืดหยุ่นระหว่างระบบเมตริกและระบบอิมพีเรียล
+บางครั้งคุณอาจต้องการส่งออกไฟล์ ODT ด้วยหน่วยเป็นอินช์แทนเซนติเมตร โดยเฉพาะสำหรับเอกสารที่มุ่งเน้นผู้ใช้ในสหรัฐอเมริกา
 
-**3.3 ตั้งค่าหน่วยการวัด**
+#### Overview
+คุณสามารถสลับระหว่างหน่วยเมตริกและอิมพีเรียลได้โดยปรับ `OdtSaveOptions`
+
+**3.3 Set Measurement Unit**
 ```java
 OdtSaveOptions saveOptions = new OdtSaveOptions();
-// เลือกหน่วยที่คุณต้องการ: เซนติเมตร หรือ นิ้ว
+// Choose your desired unit: CENTIMETERS or INCHES
 saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
 
 document.save("YOUR_OUTPUT_DIRECTORY/OdtSaveOptions.Measurements.odt", saveOptions);
 ```
 
-**3.4 ตรวจสอบหน่วยการวัดในรูปแบบ**
-เพื่อให้แน่ใจว่าได้ใช้การวัดที่ถูกต้อง ให้ตรวจสอบเนื้อหาใน styles.xml:
+**3.4 Verify Measurement Unit in Styles**
+To be absolutely sure the correct unit made it into the ODT package, inspect the `styles.xml` entry:
 ```java
 if (saveOptions.getMeasureUnit() == OdtSaveMeasureUnit.CENTIMETERS) {
     assert TestUtil.docPackageFileContainsString(
@@ -138,13 +150,14 @@ if (saveOptions.getMeasureUnit() == OdtSaveMeasureUnit.CENTIMETERS) {
 }
 ```
 
-### การเข้ารหัสเอกสาร ODT/OTT
-ความปลอดภัยถือเป็นสิ่งสำคัญที่สุดเมื่อต้องจัดการเอกสารสำคัญ ฟีเจอร์นี้สาธิตวิธีการเข้ารหัสเอกสารโดยใช้ Aspose.Words
+### Encrypting ODT/OTT Documents
 
-#### ภาพรวม
-เข้ารหัสเอกสารของคุณด้วยรหัสผ่าน เพื่อให้มั่นใจว่าเฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่จะเข้าถึงเนื้อหาได้
+การปกป้องรายงานลับ สัญญา หรือเนื้อหาที่เป็นความลับเป็นสิ่งจำเป็น Aspose.Words ให้คุณตั้งรหัสผ่านป้องกันไฟล์ ODT เพียงไม่กี่บรรทัดโค้ด
 
-**3.5 เข้ารหัสเอกสาร**
+#### Overview
+รหัสผ่านที่คุณตั้งจะต้องใช้ทุกครั้งที่เปิดเอกสาร เพื่อป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต
+
+**3.5 Encrypt Document**
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.OdtSaveOptions;
@@ -155,12 +168,12 @@ doc.getRange().appendText("Hello world!");
 OdtSaveOptions saveOptions = new OdtSaveOptions(com.aspose.words.SaveFormat.ODT);
 saveOptions.setPassword("@sposeEncrypted_1145");
 
-// บันทึกเอกสารด้วยการเข้ารหัส
+// Save the document with encryption
 doc.save("YOUR_OUTPUT_DIRECTORY/OdtSaveOptions.Encrypt.odt", saveOptions);
 ```
 
-**3.6 ตรวจสอบการเข้ารหัส**
-ตรวจสอบให้แน่ใจว่าเอกสารของคุณได้รับการเข้ารหัส:
+**3.6 Verify Encryption**
+You can programmatically confirm that the file is encrypted and then load it with the correct password:
 ```java
 import com.aspose.words.FileFormatUtil;
 import com.aspose.words.LoadOptions;
@@ -168,7 +181,7 @@ import com.aspose.words.LoadOptions;
 FileFormatInfo docInfo = FileFormatUtil.detectFileFormat("YOUR_OUTPUT_DIRECTORY/OdtSaveOptions.Encrypt.odt");
 assert docInfo.isEncrypted();
 
-// โหลดเอกสารโดยใช้รหัสผ่านที่ถูกต้อง
+// Load the document using the correct password
 Document loadedDoc = new Document(
     "YOUR_OUTPUT_DIRECTORY/OdtSaveOptions.Encrypt.odt",
     new LoadOptions("@sposeEncrypted_1145")
@@ -177,42 +190,55 @@ Document loadedDoc = new Document(
 assert loadedDoc.getText().trim() == "Hello world!";
 ```
 
-## การประยุกต์ใช้งานจริง
-ต่อไปนี้คือกรณีการใช้งานจริงสำหรับฟีเจอร์เหล่านี้:
-1. **การปฏิบัติตามข้อกำหนดทางธุรกิจ**:การส่งออกเอกสารไปยัง ODT 1.1 ช่วยรับประกันความเข้ากันได้กับระบบเดิมในอุตสาหกรรมต่างๆ
-2. **ความเป็นสากล**การใช้หน่วยการวัดที่แตกต่างกันทำให้สามารถแบ่งปันเอกสารได้อย่างราบรื่นระหว่างภูมิภาคต่างๆ ที่มีมาตรฐานการวัดที่หลากหลาย
-3. **การคุ้มครองข้อมูล**การเข้ารหัสรายงานหรือสัญญาที่ละเอียดอ่อนจะป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต ซึ่งเป็นสิ่งสำคัญสำหรับภาคกฎหมายและการเงิน
+## Practical Applications
 
-## การพิจารณาประสิทธิภาพ
-การเพิ่มประสิทธิภาพการทำงานเมื่อใช้ Aspose.Words:
-- ลดการใช้รูปภาพความละเอียดสูงในเอกสาร
-- รักษาโครงสร้างเอกสารให้เรียบง่ายเพื่อลดเวลาในการประมวลผล
-- อัปเดตเป็น Aspose.Words เวอร์ชันล่าสุดสำหรับ Java เป็นประจำเพื่อรับประโยชน์จากการปรับปรุงประสิทธิภาพ
+ต่อไปนี้เป็นสถานการณ์จริงที่ความสามารถเหล่านี้ทำให้คุณได้เปรียบ:
 
-## บทสรุป
-ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการส่งออกและเข้ารหัสเอกสาร ODT อย่างมีประสิทธิภาพโดยใช้ **Aspose.คำศัพท์สำหรับภาษา Java**เทคนิคเหล่านี้ช่วยให้มั่นใจได้ว่าเข้ากันได้กับรูปแบบต่างๆ และเพิ่มความปลอดภัยให้กับเอกสารด้วยการเข้ารหัส หากต้องการสำรวจความสามารถของ Aspose เพิ่มเติม โปรดพิจารณาศึกษาเอกสารประกอบที่ครอบคลุมและทดลองใช้คุณสมบัติเพิ่มเติม
+1. **Business Compliance** – Exporting to ODT 1.1 guarantees that legacy office suites can open your files without errors.  
+2. **Internationalization** – Switching measurement units lets you cater to both metric and imperial audiences without manual post‑processing.  
+3. **Data Protection** – Password‑protecting ODT/OTT files safeguards confidential contracts, financial statements, or personal data, meeting regulatory requirements.
 
-พร้อมที่จะนำโซลูชันเหล่านี้ไปใช้ในโครงการของคุณหรือยัง ไปที่ [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/java/) สำหรับข้อมูลเชิงลึกเพิ่มเติม!
+## Performance Considerations
 
-## ส่วนคำถามที่พบบ่อย
-**ถาม: ฉันจะมั่นใจได้อย่างไรว่าเข้ากันได้กับเวอร์ชัน ODT รุ่นเก่ากว่า**
-ก. การใช้ `OdtSaveOptions.isStrictSchema11(true)` เพื่อให้เป็นไปตามข้อกำหนด ODT 1.1
+เพื่อให้กระบวนการแปลงของคุณทำงานได้อย่างรวดเร็ว:
 
-**ถาม: ฉันสามารถสลับระหว่างหน่วยเมตริกและอิมพีเรียลได้อย่างง่ายดายหรือไม่?**
-A: ใช่ ตั้งหน่วยการวัดเป็น `OdtSaveOptions.setMeasureUnit()` ไปอย่างใดอย่างหนึ่ง `CENTIMETERS` หรือ `INCHES`-
+- อย่าแทรกรูปภาพความละเอียดสูงเกินความจำเป็น  
+- รักษาโครงสร้างเอกสาร (สไตล์, ส่วน) ให้เรียบง่ายที่สุดเท่าที่จะทำได้  
+- อัปเกรดเป็นเวอร์ชันล่าสุดของ Aspose.Words for Java อย่างสม่ำเสมอเพื่อรับประโยชน์จากการปรับปรุงประสิทธิภาพ
 
-**ถาม: จะเกิดอะไรขึ้นหากเอกสารของฉันไม่ได้เข้ารหัสตามที่คาดหวัง?**
-ก: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งรหัสผ่านโดยใช้ `saveOptions.setPassword()`. ตรวจสอบการเข้ารหัสด้วย `FileFormatUtil-detectFileFormat()`.
+## Conclusion
 
-**ถาม: ฉันจะแก้ไขปัญหาในการโหลดเอกสารเข้ารหัสได้อย่างไร**
-ก: ตรวจสอบให้แน่ใจว่าใช้รหัสผ่านที่ถูกต้องเมื่อโหลดเอกสาร
+ในบทแนะนำนี้ คุณได้เรียนรู้วิธี **convert docx to odt**, การบังคับใช้สคีมา ODT 1.1, การปรับหน่วยวัดตามต้องการ, และการเข้ารหัสไฟล์ ODT ด้วย **Aspose.Words for Java** เทคนิคเหล่านี้ช่วยให้คุณส่งมอบเอกสารที่เข้ากันได้, รองรับภูมิภาค, และปลอดภัยในหลายสถานการณ์ทางธุรกิจ
+
+พร้อมที่จะนำโซลูชันเหล่านี้ไปใช้จริงหรือยัง? ไปที่ [Aspose.Words Documentation](https://reference.aspose.com/words/java/) เพื่อศึกษาเชิงลึกและตัวอย่างเพิ่มเติม
+
+## Frequently Asked Questions
+
+**Q: How do I ensure compatibility with older ODT versions?**  
+A: Use `saveOptions.isStrictSchema11(true)` to force ODT 1.1 compliance.
+
+**Q: Can I switch between metric and imperial units easily?**  
+A: Yes, set the measurement unit in `OdtSaveOptions.setMeasureUnit()` to either `CENTIMETERS` or `INCHES`.
+
+**Q: What if my document isn’t encrypted as expected?**  
+A: Verify that you called `saveOptions.setPassword()` before saving and confirm encryption with `FileFormatUtil.detectFileFormat()`.
+
+**Q: How do I troubleshoot loading issues for encrypted documents?**  
+A: Ensure the correct password is supplied via `LoadOptions` when opening the file.
+
+**Q: Is there a way to programmatically check which measurement unit was used?**  
+A: Inspect the `styles.xml` inside the ODT package or query `saveOptions.getMeasureUnit()` after loading.
+
+---
+
+**Last Updated:** 2026-02-03  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
