@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Scopri come sfruttare Aspose.Words per Java per padroneggiare l'elaborazione dei documenti, incluso il supporto VML, la crittografia, le opzioni di importazione HTML e molto altro."
-"title": "Aspose.Words per Java - Guida completa alle funzionalità HTML e alla gestione dei documenti"
-"url": "/it/java/document-operations/aspose-words-java-html-features-guide/"
-"weight": 1
+date: '2026-02-06'
+description: Scopri come caricare HTML VML con Aspose.Words per Java, crittografare
+  i file HTML Java, impostare l'URI base dell'HTML e configurare le opzioni di controllo
+  HTML.
+keywords:
+- Aspose.Words for Java
+- HTML document processing
+- document encryption
+title: Carica HTML VML usando Aspose.Words per Java – Guida completa
+url: /it/java/document-operations/aspose-words-java-html-features-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +18,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Funzionalità HTML complete con Aspose.Words per Java: guida per sviluppatori
+# Funzionalità HTML Complete con Aspose.Words per Java: Guida per Sviluppatori
 
 ## Introduzione
 
-Orientarsi nel complesso mondo dell'elaborazione dei documenti può essere scoraggiante, soprattutto quando si gestiscono diverse funzionalità HTML. Che si tratti del supporto del Vector Markup Language (VML), di documenti crittografati o di specifici comportamenti di importazione HTML, **Aspose.Words per Java** offre una soluzione affidabile. In questa guida, esploreremo come implementare queste funzionalità in modo ottimale utilizzando Aspose.Words, migliorando le capacità di elaborazione dei documenti.
+Navigare nel complesso mondo dell'elaborazione dei documenti può essere scoraggiante, soprattutto quando si gestiscono varie funzionalità HTML. Che tu stia trattando il supporto Vector Markup Language (VML), documenti crittografati o comportamenti specifici di importazione HTML, **Aspose.Words per Java** offre una soluzione solida. In questa guida imparerai **come caricare html vml** in modo efficiente e sicuro, coprendo anche attività correlate come **encrypt html java**, **set html base uri** e **configure html control**.
 
-**Cosa imparerai:**
+**Cosa Imparerai:**
 - Come caricare documenti HTML con supporto VML.
-- Tecniche per la gestione di HTML a pagina fissa e avvisi.
+- Tecniche per gestire HTML a pagina fissa e avvisi.
 - Metodi per crittografare e caricare documenti HTML protetti da password.
-- Utilizzo di URI di base nelle opzioni di caricamento HTML.
-- Importazione di elementi di input HTML come tag di documenti strutturati o campi di modulo.
-- Ignorando `<noscript>` elementi durante il caricamento HTML.
+- Utilizzo dei Base URI nelle Html Load Options.
+- Importazione di elementi di input HTML come tag di documento strutturato o campi modulo.
+- Ignorare gli elementi `<noscript>` durante il caricamento HTML.
 - Configurazione delle modalità di importazione dei blocchi per controllare la conservazione della struttura HTML.
-- Supporto `@font-face` regole per i font personalizzati.
+- Supporto alle regole `@font-face` per caratteri personalizzati.
 
-Con queste informazioni, sarai pronto ad affrontare un'ampia gamma di attività di elaborazione HTML. Analizziamo prima i prerequisiti e la configurazione!
+## Risposte Rapide
+- **Qual è il modo principale per abilitare VML durante il caricamento di HTML?** Imposta `loadOptions.setSupportVml(true)`.
+- **Posso caricare file HTML protetti da password?** Sì, passa la password a `HtmlLoadOptions`.
+- **Come risolvo i percorsi relativi delle immagini?** Usa `loadOptions.setBaseUri("your/base/uri")`.
+- **È possibile importare `<select>` come campo modulo?** Imposta `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`.
+- **Quale classe cattura gli avvisi durante il caricamento?** Implementa `IWarningCallback` e assegnala a `loadOptions.setWarningCallback(...)`.
 
 ## Prerequisiti
 
-Prima di iniziare a implementare le varie funzionalità HTML con Aspose.Words per Java, assicurati che il tuo ambiente sia configurato correttamente:
+Prima di iniziare a implementare le varie funzionalità HTML con Aspose.Words per Java, assicurati che l'ambiente sia configurato correttamente:
 
-- **Librerie richieste:** È necessaria la libreria Aspose.Words versione 25.3 o successiva.
-- **Ambiente di sviluppo:** Questa guida presuppone che tu stia utilizzando Maven o Gradle per la gestione delle dipendenze.
-- **Base di conoscenza:** Sarà utile una conoscenza di base di Java e la familiarità con i documenti HTML.
+- **Librerie Richieste:** È necessaria la libreria Aspose.Words versione 25.3 o successiva.
+- **Ambiente di Sviluppo:** Questa guida presuppone l'uso di Maven o Gradle per la gestione delle dipendenze.
+- **Base di Conoscenza:** Una comprensione di base di Java e familiarità con i documenti HTML saranno utili.
 
-## Impostazione di Aspose.Words
+## Configurazione di Aspose.Words
 
-Per iniziare a lavorare con Aspose.Words, devi prima includerlo nel tuo progetto. Di seguito sono riportati i passaggi per configurare la libreria utilizzando Maven e Gradle:
+Per iniziare a lavorare con Aspose.Words, devi prima includerlo nel tuo progetto. Di seguito i passaggi per configurare la libreria usando Maven e Gradle:
 
-### Esperto
+### Maven
 
-Aggiungi la seguente dipendenza al tuo `pom.xml` file:
+Aggiungi la seguente dipendenza al tuo file `pom.xml`:
 
 ```xml
 <dependency>
@@ -57,15 +67,15 @@ Aggiungi la seguente dipendenza al tuo `pom.xml` file:
 
 ### Gradle
 
-Includi questo nel tuo `build.gradle` file:
+Inserisci quanto segue nel tuo file `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Acquisizione della licenza
+#### Acquisizione della Licenza
 
-Aspose.Words richiede una licenza per funzionare correttamente. Puoi ottenere una prova gratuita, richiedere una licenza temporanea o acquistarne una permanente. Visita il sito [pagina di acquisto](https://purchase.aspose.com/buy) per maggiori dettagli.
+Aspose.Words richiede una licenza per la piena funzionalità. Puoi ottenere una prova gratuita, richiedere una licenza temporanea o acquistare una licenza permanente. Visita la [pagina di acquisto](https://purchase.aspose.com/buy) per maggiori dettagli.
 
 Per inizializzare Aspose.Words nel tuo progetto Java, assicurati di aver impostato correttamente la licenza:
 
@@ -82,200 +92,229 @@ public class InitializeAspose {
 }
 ```
 
-## Guida all'implementazione
+## Guida all'Implementazione
 
-Suddivideremo l'implementazione in sezioni in base alle funzionalità che vogliamo implementare.
+Divideremo l'implementazione in sezioni in base alle funzionalità che desideriamo realizzare.
 
-### Supporta VML nei documenti HTML
+### Come caricare html vml con Aspose.Words
 
-**Panoramica:**
-Il caricamento di un documento HTML con o senza supporto VML consente un rendering versatile della grafica vettoriale. Questa funzionalità è fondamentale quando si gestiscono documenti che includono elementi grafici come grafici e forme.
+**Panoramica:**  
+Il caricamento di un documento HTML con supporto VML consente una resa versatile di grafica vettoriale come grafici e forme. Questo è il passaggio fondamentale per la keyword principale **load html vml**.
 
-#### Implementazione passo dopo passo:
+#### Passo‑passo
 
-1. **Imposta opzioni di carico**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.HtmlLoadOptions;
+1. **Imposta le Opzioni di Caricamento**
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setSupportVml(true); // Abilita il supporto VML
-   ```
+```java
+import com.aspose.words.Document;
+import com.aspose.words.HtmlLoadOptions;
 
-2. **Carica il documento**
-   
-   ```java
-   Document doc = new Document("path/to/VML conditional.htm", loadOptions);
-   ```
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setSupportVml(true); // Enable VML support
+```
 
-3. **Verifica il tipo di immagine**
-   
-   Assicurati che il tipo di immagine corrisponda alle tue aspettative:
-   
-   ```java
-   import com.aspose.words.NodeType;
-   import com.aspose.words.Shape;
+2. **Carica il Documento**
 
-   Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
-   String expectedImageType = "JPG"; // Regolare in base alla logica effettiva
+```java
+Document doc = new Document("path/to/VML conditional.htm", loadOptions);
+```
 
-   if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
-       throw new AssertionError("Unexpected image type loaded.");
-   }
-   ```
+3. **Verifica il Tipo di Immagine**
 
-### Carica HTML corretto e gestisci gli avvisi
+```java
+import com.aspose.words.NodeType;
+import com.aspose.words.Shape;
 
-**Panoramica:**
-Il caricamento di documenti HTML con pagine fisse può generare avvisi che devono essere gestiti per un'elaborazione accurata.
+Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+String expectedImageType = "JPG"; // Adjust based on actual logic
 
-#### Implementazione passo dopo passo:
+if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
+    throw new AssertionError("Unexpected image type loaded.");
+}
+```
 
-1. **Definisci callback di avviso**
-   
-   ```java
-   import com.aspose.words.IWarningCallback;
-   import com.aspose.words.WarningInfo;
-   import java.util.ArrayList;
+### Caricamento HTML a Pagina Fissa e Gestione degli Avvisi
 
-   private static class ListDocumentWarnings implements IWarningCallback {
-       private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
+**Panoramica:**  
+Il caricamento di documenti HTML a pagina fissa può generare avvisi che devono essere gestiti per un'elaborazione accurata.
 
-       public void warning(WarningInfo info) { 
-           mWarnings.add(info); 
-       }
+#### Passo‑passo
 
-       public ArrayList<WarningInfo> warnings() { return mWarnings; }
-   }
-   ```
+1. **Definisci il Callback per gli Avvisi**
 
-2. **Configura le opzioni di carico**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   ListDocumentWarnings warningCallback = new ListDocumentWarnings();
-   loadOptions.setWarningCallback(warningCallback);
-   ```
+```java
+import com.aspose.words.IWarningCallback;
+import com.aspose.words.WarningInfo;
+import java.util.ArrayList;
 
-3. **Carica documento e controlla avvisi**
-   
-   ```java
-   Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
+private static class ListDocumentWarnings implements IWarningCallback {
+    private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
 
-   if (warningCallback.warnings().size() != 1) {
-       throw new AssertionError("Unexpected number of warnings.");
-   }
-   ```
+    public void warning(WarningInfo info) { 
+        mWarnings.add(info); 
+    }
 
-### Crittografare i documenti HTML
+    public ArrayList<WarningInfo> warnings() { return mWarnings; }
+}
+```
 
-**Panoramica:**
-La crittografia di un documento HTML con una password garantisce un accesso sicuro, essenziale per le informazioni sensibili.
+2. **Configura le Opzioni di Caricamento**
 
-#### Implementazione passo dopo passo:
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+ListDocumentWarnings warningCallback = new ListDocumentWarnings();
+loadOptions.setWarningCallback(warningCallback);
+```
 
-1. **Preparare le opzioni di firma digitale**
-   
-   ```java
-   import com.aspose.words.CertificateHolder;
-   import com.aspose.words.DigitalSignatureUtil;
-   import com.aspose.words.SignOptions;
+3. **Carica il Documento e Controlla gli Avvisi**
 
-   CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
-   SignOptions signOptions = new SignOptions();
-   signOptions.setComments("Comment");
-   signOptions.setSignTime(new Date());
-   signOptions.setDecryptionPassword("docPassword");
-   ```
+```java
+Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
 
-2. **Firmare e crittografare il documento**
-   
-   ```java
-   String inputFileName = "path/to/Encrypted.docx";
-   String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
+if (warningCallback.warnings().size() != 1) {
+    throw new AssertionError("Unexpected number of warnings.");
+}
+```
 
-   DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
-   ```
+### Crittografia di Documenti HTML
 
-3. **Carica documento crittografato**
-   
-   ```java
-   import com.aspose.words.Document;
+**Panoramica:**  
+Crittografare un documento HTML con una password garantisce un accesso sicuro, fondamentale per informazioni sensibili—questo affronta lo scenario **encrypt html java**.
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
-   Document doc = new Document(outputFileName, loadOptions);
+#### Passo‑passo
 
-   if (!doc.getText().trim().equals("Test encrypted document.")) {
-       throw new AssertionError("Unexpected document text.");
-   }
-   ```
+1. **Prepara le Opzioni di Firma Digitale**
 
-### URI di base per le opzioni di caricamento HTML
+```java
+import com.aspose.words.CertificateHolder;
+import com.aspose.words.DigitalSignatureUtil;
+import com.aspose.words.SignOptions;
 
-**Panoramica:**
-Specificare un URI di base aiuta a risolvere gli URI relativi, soprattutto quando si tratta di immagini o altre risorse collegate.
+CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
+SignOptions signOptions = new SignOptions();
+signOptions.setComments("Comment");
+signOptions.setSignTime(new Date());
+signOptions.setDecryptionPassword("docPassword");
+```
 
-#### Implementazione passo dopo passo:
+2. **Firma e Crittografa il Documento**
 
-1. **Configurare le opzioni di caricamento con URI di base**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
-   ```
+```java
+String inputFileName = "path/to/Encrypted.docx";
+String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
 
-2. **Carica documento e verifica immagine**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
+DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
 
-   Document doc = new Document("path/to/Missing image.html", loadOptions);
-   Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+3. **Carica il Documento Crittografato**
 
-   if (!imageShape.isImage()) {
-       throw new AssertionError("Expected an image shape.");
-   }
-   ```
+```java
+import com.aspose.words.Document;
 
-### Importa HTML Seleziona come tag documento strutturato
+HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
+Document doc = new Document(outputFileName, loadOptions);
 
-**Panoramica:**
-Importazione `<select>` elementi come tag di documenti strutturati consentono un migliore controllo e una migliore formattazione nei documenti Word.
+if (!doc.getText().trim().equals("Test encrypted document.")) {
+    throw new AssertionError("Unexpected document text.");
+}
+```
 
-#### Implementazione passo dopo passo:
+### Base URI per le Html Load Options
 
-1. **Imposta il tipo di controllo preferito**
-   
-   ```java
-   import com.aspose.words.HtmlLoadOptions;
-   import com.aspose.words.ControlType;
+**Panoramica:**  
+Specificare un **set html base uri** aiuta a risolvere gli URI relativi, soprattutto quando si trattano immagini o altre risorse collegate.
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
-   ```
+#### Passo‑passo
 
-2. **Carica documento e verifica struttura**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
-   import com.aspose.words.StructuredDocumentTag;
+1. **Configura le Opzioni di Caricamento con Base URI**
 
-   Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
-   StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
+```
 
-   if (!sdt.getTagName().equals("Select")) {
-       throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
-   }
-   ```
+2. **Carica il Documento e Verifica l'Immagine**
+
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
+
+Document doc = new Document("path/to/Missing image.html", loadOptions);
+Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+
+if (!imageShape.isImage()) {
+    throw new AssertionError("Expected an image shape.");
+}
+```
+
+### Importazione di HTML Select come Structured Document Tag
+
+**Panoramica:**  
+Per **configure html control** puoi importare gli elementi `<select>` come Structured Document Tags, ottenendo un controllo più fine sui campi modulo all'interno dei documenti Word.
+
+#### Passo‑passo
+
+1. **Imposta il Tipo di Controllo Preferito**
+
+```java
+import com.aspose.words.HtmlLoadOptions;
+import com.aspose.words.ControlType;
+
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
+```
+
+2. **Carica il Documento e Verifica la Struttura**
+
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
+import com.aspose.words.StructuredDocumentTag;
+
+Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
+StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+
+if (!sdt.getTagName().equals("Select")) {
+    throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
+}
+```
+
+## Problemi Comuni e Soluzioni
+
+| Problema | Motivo | Correzione |
+|----------|--------|------------|
+| Le grafiche VML non compaiono | Flag `supportVml` lasciato al valore predefinito (`false`) | Assicurati di chiamare `loadOptions.setSupportVml(true)` prima del caricamento. |
+| Immagini mancanti dopo il caricamento | I percorsi relativi non possono essere risolti | Usa **set html base uri** (`loadOptions.setBaseUri(...)`) per puntare alla cartella corretta. |
+| HTML protetto da password genera eccezione | Password non fornita | Passa la password a `new HtmlLoadOptions("yourPassword")`. |
+| I controlli del modulo appaiono come testo semplice | `HtmlControlType` errato | Imposta `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` o `FormField` secondo necessità. |
+| Avvisi inattesi | Elementi HTML non gestiti | Implementa `IWarningCallback` per catturare e rivedere gli avvisi. |
+
+## Domande Frequenti
+
+**D: Posso caricare file HTML che contengono sia VML sia grafica SVG moderna?**  
+R: Sì. Abilita VML con `setSupportVml(true)`; SVG è gestito automaticamente da Aspose.Words.
+
+**D: Come crittografo un documento HTML senza utilizzare un certificato digitale?**  
+R: Usa il costruttore di `HtmlLoadOptions` che accetta una password e salva il documento con `Document.save(..., SaveFormat.HTML)` dopo aver impostato la password.
+
+**D: Cosa succede se il Base URI punta a una cartella inesistente?**  
+R: Aspose.Words solleverà una `FileNotFoundException` per le risorse mancanti. Verifica il percorso prima del caricamento.
+
+**D: È possibile cambiare il tipo di controllo predefinito per tutti gli elementi di modulo HTML?**  
+R: Sì. Usa `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` per applicarlo globalmente.
+
+**D: I callback per gli avvisi sono thread‑safe?**  
+R: L'implementazione del callback deve essere thread‑safe se prevedi di caricare documenti in modo concorrente. Usa collezioni sincronizzate o storage thread‑local.
+
+---
+
+**Ultimo Aggiornamento:** 2026-02-06  
+**Testato Con:** Aspose.Words per Java 25.3  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

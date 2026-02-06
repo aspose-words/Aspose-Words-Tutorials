@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Pelajari cara memanfaatkan Aspose.Words untuk Java untuk menguasai pemrosesan dokumen, termasuk dukungan VML, enkripsi, opsi impor HTML, dan banyak lagi."
-"title": "Panduan Lengkap Fitur HTML dan Penanganan Dokumen Aspose.Words untuk Java"
-"url": "/id/java/document-operations/aspose-words-java-html-features-guide/"
-"weight": 1
+date: '2026-02-06'
+description: Pelajari cara memuat HTML VML dengan Aspose.Words untuk Java, mengenkripsi
+  file HTML Java, mengatur URI dasar HTML, dan mengonfigurasi opsi kontrol HTML.
+keywords:
+- Aspose.Words for Java
+- HTML document processing
+- document encryption
+title: Muat HTML VML menggunakan Aspose.Words untuk Java – Panduan Lengkap
+url: /id/java/document-operations/aspose-words-java-html-features-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +17,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
 # Fitur HTML Komprehensif dengan Aspose.Words untuk Java: Panduan Pengembang
 
-## Perkenalan
+## Pendahuluan
 
-Menjelajahi dunia pemrosesan dokumen yang rumit bisa jadi menakutkan, terutama saat menangani berbagai fitur HTML. Baik Anda berurusan dengan dukungan Vector Markup Language (VML), dokumen terenkripsi, atau perilaku impor HTML tertentu, **Aspose.Words untuk Java** menawarkan solusi yang tangguh. Dalam panduan ini, kami akan membahas cara menerapkan fungsi-fungsi ini dengan lancar menggunakan Aspose.Words, yang akan meningkatkan kemampuan pemrosesan dokumen Anda.
+Menavigasi dunia pemrosesan dokumen yang kompleks dapat menjadi menakutkan, terutama saat menangani berbagai fitur HTML. Baik Anda berurusan dengan dukungan Vector Markup Language (VML), dokumen terenkripsi, atau perilaku impor HTML tertentu, **Aspose.Words for Java** menawarkan solusi yang kuat. Dalam panduan ini, Anda akan mempelajari **how to load html vml** secara efisien dan aman, sekaligus mencakup tugas terkait seperti **encrypt html java**, **set html base uri**, dan opsi **configure html control**.
 
 **Apa yang Akan Anda Pelajari:**
 - Cara memuat dokumen HTML dengan dukungan VML.
-- Teknik untuk menangani HTML halaman tetap dan peringatan.
-- Metode untuk mengenkripsi dan memuat dokumen HTML yang dilindungi kata sandi.
-- Memanfaatkan URI dasar dalam Opsi Muat HTML.
-- Mengimpor elemen input HTML sebagai tag dokumen terstruktur atau bidang formulir.
-- Mengabaikan `<noscript>` elemen selama pemuatan HTML.
-- Mengonfigurasi mode impor blok untuk mengendalikan pelestarian struktur HTML.
-- Mendukung `@font-face` aturan untuk font yang disesuaikan.
+- Teknik menangani HTML halaman tetap dan peringatan.
+- Metode mengenkripsi dan memuat dokumen HTML yang dilindungi kata sandi.
+- Menggunakan base URI dalam HTML Load Options.
+- Mengimpor elemen input HTML sebagai structured document tags atau form fields.
+- Mengabaikan elemen `<noscript>` selama pemuatan HTML.
+- Mengonfigurasi mode impor blok untuk mengontrol pelestarian struktur HTML.
+- Mendukung aturan `@font-face` untuk font yang disesuaikan.
 
-Dengan wawasan ini, Anda akan siap untuk menangani berbagai tugas pemrosesan HTML. Mari kita bahas prasyarat dan pengaturannya terlebih dahulu!
+## Jawaban Cepat
+- **Apa cara utama untuk mengaktifkan VML saat memuat HTML?** Set `loadOptions.setSupportVml(true)`.
+- **Apakah saya dapat memuat file HTML yang dilindungi kata sandi?** Ya, berikan kata sandi ke `HtmlLoadOptions`.
+- **Bagaimana cara menyelesaikan jalur gambar relatif?** Gunakan `loadOptions.setBaseUri("your/base/uri")`.
+- **Apakah memungkinkan mengimpor `<select>` sebagai form field?** Set `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`.
+- **Kelas apa yang menangkap peringatan selama pemuatan?** Implement `IWarningCallback` dan tetapkan ke `loadOptions.setWarningCallback(...)`.
 
 ## Prasyarat
 
-Sebelum kita mulai mengimplementasikan berbagai fitur HTML dengan Aspose.Words untuk Java, pastikan lingkungan Anda telah disiapkan dengan benar:
+Sebelum kita mulai mengimplementasikan berbagai fitur HTML dengan Aspose.Words untuk Java, pastikan lingkungan Anda sudah disiapkan dengan benar:
 
-- **Pustaka yang dibutuhkan:** Anda memerlukan pustaka Aspose.Words versi 25.3 atau yang lebih baru.
-- **Lingkungan Pengembangan:** Panduan ini mengasumsikan Anda menggunakan Maven atau Gradle untuk manajemen ketergantungan.
-- **Basis Pengetahuan:** Pemahaman dasar tentang Java dan keakraban dengan dokumen HTML akan bermanfaat.
+- **Perpustakaan yang Diperlukan:** Anda memerlukan perpustakaan Aspose.Words versi 25.3 atau lebih baru.
+- **Lingkungan Pengembangan:** Panduan ini mengasumsikan Anda menggunakan Maven atau Gradle untuk manajemen dependensi.
+- **Basis Pengetahuan:** Pemahaman dasar tentang Java dan familiaritas dengan dokumen HTML akan sangat membantu.
 
 ## Menyiapkan Aspose.Words
 
-Untuk mulai bekerja dengan Aspose.Words, pertama-tama Anda perlu memasukkannya ke dalam proyek Anda. Berikut adalah langkah-langkah untuk menyiapkan pustaka menggunakan Maven dan Gradle:
+Untuk mulai bekerja dengan Aspose.Words, pertama-tama Anda perlu menyertakannya dalam proyek Anda. Berikut langkah-langkah menyiapkan perpustakaan menggunakan Maven dan Gradle:
 
-### Pakar
+### Maven
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke file `pom.xml` Anda:
 
 ```xml
 <dependency>
@@ -55,9 +64,9 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 </dependency>
 ```
 
-### Bahasa Inggris Gradle
+### Gradle
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini dalam file `build.gradle` Anda:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
@@ -65,9 +74,9 @@ implementation 'com.aspose:aspose-words:25.3'
 
 #### Akuisisi Lisensi
 
-Aspose.Words memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh uji coba gratis, meminta lisensi sementara, atau membeli lisensi permanen. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Aspose.Words memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh percobaan gratis, meminta lisensi sementara, atau membeli lisensi permanen. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk detail lebih lanjut.
 
-Untuk menginisialisasi Aspose.Words di proyek Java Anda, pastikan Anda telah mengatur lisensi dengan benar:
+Untuk menginisialisasi Aspose.Words dalam proyek Java Anda, pastikan lisensi telah disiapkan dengan benar:
 
 ```java
 import com.aspose.words.License;
@@ -86,196 +95,225 @@ public class InitializeAspose {
 
 Kami akan membagi implementasi menjadi beberapa bagian berdasarkan fitur yang ingin kami terapkan.
 
-### Mendukung VML dalam Dokumen HTML
+### Cara memuat html vml dengan Aspose.Words
 
-**Ringkasan:**
-Memuat dokumen HTML dengan atau tanpa dukungan VML memungkinkan rendering grafis vektor yang serbaguna. Fitur ini penting saat menangani dokumen yang menyertakan elemen grafis seperti bagan dan bentuk.
+**Gambaran Umum:**  
+Memuat dokumen HTML dengan dukungan VML memungkinkan rendering vektor yang beragam seperti diagram dan bentuk. Ini adalah langkah inti untuk kata kunci utama **load html vml**.
 
-#### Implementasi Langkah demi Langkah:
+#### Langkah‑per‑Langkah
 
-1. **Siapkan Opsi Muatan**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.HtmlLoadOptions;
+1. **Siapkan Load Options**
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setSupportVml(true); // Aktifkan dukungan VML
-   ```
+```java
+import com.aspose.words.Document;
+import com.aspose.words.HtmlLoadOptions;
+
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setSupportVml(true); // Enable VML support
+```
 
 2. **Muat Dokumen**
-   
-   ```java
-   Document doc = new Document("path/to/VML conditional.htm", loadOptions);
-   ```
 
-3. **Verifikasi Jenis Gambar**
-   
-   Pastikan jenis gambar sesuai dengan harapan Anda:
-   
-   ```java
-   import com.aspose.words.NodeType;
-   import com.aspose.words.Shape;
+```java
+Document doc = new Document("path/to/VML conditional.htm", loadOptions);
+```
 
-   Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
-   String expectedImageType = "JPG"; // Sesuaikan berdasarkan logika aktual
+3. **Verifikasi Tipe Gambar**
 
-   if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
-       throw new AssertionError("Unexpected image type loaded.");
-   }
-   ```
+```java
+import com.aspose.words.NodeType;
+import com.aspose.words.Shape;
 
-### Muat HTML Tetap dan Tangani Peringatan
+Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+String expectedImageType = "JPG"; // Adjust based on actual logic
 
-**Ringkasan:**
+if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
+    throw new AssertionError("Unexpected image type loaded.");
+}
+```
+
+### Memuat HTML Tetap dan Menangani Peringatan
+
+**Gambaran Umum:**  
 Memuat dokumen HTML halaman tetap dapat menghasilkan peringatan yang perlu dikelola untuk pemrosesan yang akurat.
 
-#### Implementasi Langkah demi Langkah:
+#### Langkah‑per‑Langkah
 
-1. **Definisikan Panggilan Balik Peringatan**
-   
-   ```java
-   import com.aspose.words.IWarningCallback;
-   import com.aspose.words.WarningInfo;
-   import java.util.ArrayList;
+1. **Definisikan Warning Callback**
 
-   private static class ListDocumentWarnings implements IWarningCallback {
-       private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
+```java
+import com.aspose.words.IWarningCallback;
+import com.aspose.words.WarningInfo;
+import java.util.ArrayList;
 
-       public void warning(WarningInfo info) { 
-           mWarnings.add(info); 
-       }
+private static class ListDocumentWarnings implements IWarningCallback {
+    private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
 
-       public ArrayList<WarningInfo> warnings() { return mWarnings; }
-   }
-   ```
+    public void warning(WarningInfo info) { 
+        mWarnings.add(info); 
+    }
 
-2. **Konfigurasikan Opsi Muatan**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   ListDocumentWarnings warningCallback = new ListDocumentWarnings();
-   loadOptions.setWarningCallback(warningCallback);
-   ```
+    public ArrayList<WarningInfo> warnings() { return mWarnings; }
+}
+```
+
+2. **Konfigurasikan Load Options**
+
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+ListDocumentWarnings warningCallback = new ListDocumentWarnings();
+loadOptions.setWarningCallback(warningCallback);
+```
 
 3. **Muat Dokumen dan Periksa Peringatan**
-   
-   ```java
-   Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
 
-   if (warningCallback.warnings().size() != 1) {
-       throw new AssertionError("Unexpected number of warnings.");
-   }
-   ```
+```java
+Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
+
+if (warningCallback.warnings().size() != 1) {
+    throw new AssertionError("Unexpected number of warnings.");
+}
+```
 
 ### Enkripsi Dokumen HTML
 
-**Ringkasan:**
-Mengenkripsi dokumen HTML dengan kata sandi memastikan akses aman, yang penting untuk informasi sensitif.
+**Gambaran Umum:**  
+Mengenkripsi dokumen HTML dengan kata sandi memastikan akses yang aman, yang penting untuk informasi sensitif—ini menangani skenario **encrypt html java**.
 
-#### Implementasi Langkah demi Langkah:
+#### Langkah‑per‑Langkah
 
 1. **Siapkan Opsi Tanda Tangan Digital**
-   
-   ```java
-   import com.aspose.words.CertificateHolder;
-   import com.aspose.words.DigitalSignatureUtil;
-   import com.aspose.words.SignOptions;
 
-   CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
-   SignOptions signOptions = new SignOptions();
-   signOptions.setComments("Comment");
-   signOptions.setSignTime(new Date());
-   signOptions.setDecryptionPassword("docPassword");
-   ```
+```java
+import com.aspose.words.CertificateHolder;
+import com.aspose.words.DigitalSignatureUtil;
+import com.aspose.words.SignOptions;
+
+CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
+SignOptions signOptions = new SignOptions();
+signOptions.setComments("Comment");
+signOptions.setSignTime(new Date());
+signOptions.setDecryptionPassword("docPassword");
+```
 
 2. **Tandatangani dan Enkripsi Dokumen**
-   
-   ```java
-   String inputFileName = "path/to/Encrypted.docx";
-   String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
 
-   DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
-   ```
+```java
+String inputFileName = "path/to/Encrypted.docx";
+String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
 
-3. **Muat Dokumen Terenkripsi**
-   
-   ```java
-   import com.aspose.words.Document;
+DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
-   Document doc = new Document(outputFileName, loadOptions);
+3. **Muat Dokumen yang Dienkripsi**
 
-   if (!doc.getText().trim().equals("Test encrypted document.")) {
-       throw new AssertionError("Unexpected document text.");
-   }
-   ```
+```java
+import com.aspose.words.Document;
 
-### URI Dasar untuk Opsi Pemuatan HTML
+HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
+Document doc = new Document(outputFileName, loadOptions);
 
-**Ringkasan:**
-Menentukan URI dasar membantu menyelesaikan URI relatif, terutama saat menangani gambar atau sumber daya tertaut lainnya.
+if (!doc.getText().trim().equals("Test encrypted document.")) {
+    throw new AssertionError("Unexpected document text.");
+}
+```
 
-#### Implementasi Langkah demi Langkah:
+### Base URI untuk HTML Load Options
 
-1. **Konfigurasikan Opsi Muat dengan URI Dasar**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
-   ```
+**Gambaran Umum:**  
+Menentukan **set html base uri** membantu menyelesaikan URI relatif, terutama saat menangani gambar atau sumber daya tertaut lainnya.
+
+#### Langkah‑per‑Langkah
+
+1. **Konfigurasikan Load Options dengan Base URI**
+
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
+```
 
 2. **Muat Dokumen dan Verifikasi Gambar**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
 
-   Document doc = new Document("path/to/Missing image.html", loadOptions);
-   Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
 
-   if (!imageShape.isImage()) {
-       throw new AssertionError("Expected an image shape.");
-   }
-   ```
+Document doc = new Document("path/to/Missing image.html", loadOptions);
+Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
 
-### Impor HTML Pilih sebagai Tag Dokumen Terstruktur
+if (!imageShape.isImage()) {
+    throw new AssertionError("Expected an image shape.");
+}
+```
 
-**Ringkasan:**
-Pengimporan `<select>` elemen sebagai tag dokumen terstruktur memungkinkan kontrol dan pemformatan yang lebih baik dalam dokumen Word.
+### Impor HTML Select sebagai Structured Document Tag
 
-#### Implementasi Langkah demi Langkah:
+**Gambaran Umum:**  
+Untuk mengatur perilaku **configure html control**, Anda dapat mengimpor elemen `<select>` sebagai Structured Document Tags, memberi Anda kontrol lebih halus atas form field di dalam dokumen Word.
 
-1. **Tetapkan Jenis Kontrol Pilihan**
-   
-   ```java
-   import com.aspose.words.HtmlLoadOptions;
-   import com.aspose.words.ControlType;
+#### Langkah‑per‑Langkah
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
-   ```
+1. **Setel Tipe Kontrol yang Diinginkan**
+
+```java
+import com.aspose.words.HtmlLoadOptions;
+import com.aspose.words.ControlType;
+
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
+```
 
 2. **Muat Dokumen dan Verifikasi Struktur**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
-   import com.aspose.words.StructuredDocumentTag;
 
-   Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
-   StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
+import com.aspose.words.StructuredDocumentTag;
 
-   if (!sdt.getTagName().equals("Select")) {
-       throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
-   }
-   ```
+Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
+StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+
+if (!sdt.getTagName().equals("Select")) {
+    throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
+}
+```
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| Grafik VML tidak muncul | `supportVml` flag dibiarkan default (`false`) | Pastikan `loadOptions.setSupportVml(true)` sebelum memuat. |
+| Gambar tidak muncul setelah dimuat | Jalur relatif tidak dapat diselesaikan | Gunakan **set html base uri** (`loadOptions.setBaseUri(...)`) untuk mengarahkan ke folder yang tepat. |
+| HTML yang dilindungi kata sandi menghasilkan pengecualian | Kata sandi tidak diberikan | Berikan kata sandi ke `new HtmlLoadOptions("yourPassword")`. |
+| Kontrol form muncul sebagai teks biasa | `HtmlControlType` salah | Set `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` atau `FormField` sesuai kebutuhan. |
+| Peringatan tak terduga | Elemen HTML tidak ditangani | Implementasikan `IWarningCallback` untuk menangkap dan meninjau peringatan. |
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Bisakah saya memuat file HTML yang berisi VML dan grafik SVG modern?**  
+J: Ya. Aktifkan VML dengan `setSupportVml(true)`; SVG ditangani secara otomatis oleh Aspose.Words.
+
+**T: Bagaimana cara mengenkripsi dokumen HTML tanpa menggunakan sertifikat digital?**  
+J: Gunakan konstruktor `HtmlLoadOptions` yang menerima kata sandi dan simpan dokumen dengan `Document.save(..., SaveFormat.HTML)` setelah menetapkan kata sandi.
+
+**T: Apa yang terjadi jika base URI mengarah ke folder yang tidak ada?**  
+J: Aspose.Words akan melempar `FileNotFoundException` untuk sumber daya yang hilang. Verifikasi jalur sebelum memuat.
+
+**T: Apakah memungkinkan mengubah tipe kontrol default untuk semua elemen form HTML?**  
+J: Ya. Gunakan `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` untuk menerapkannya secara global.
+
+**T: Apakah warning callback bersifat thread‑safe?**  
+J: Implementasi callback harus thread‑safe jika Anda berencana memuat dokumen secara bersamaan. Gunakan koleksi yang disinkronkan atau penyimpanan thread‑local.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-06  
+**Diuji Dengan:** Aspose.Words for Java 25.3  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
