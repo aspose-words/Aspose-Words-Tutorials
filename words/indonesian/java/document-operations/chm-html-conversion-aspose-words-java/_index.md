@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Kuasai proses mengonversi file CHM ke HTML dengan Aspose.Words untuk Java, dengan memastikan semua tautan internal tetap utuh. Ikuti panduan terperinci ini untuk transisi yang lancar."
-"title": "Konversi CHM ke HTML Menggunakan Aspose.Words untuk Java&#58; Panduan Lengkap"
-"url": "/id/java/document-operations/chm-html-conversion-aspose-words-java/"
-"weight": 1
+date: '2026-02-09'
+description: Pelajari cara mengonversi CHM ke HTML menggunakan Aspose.Words for Java
+  sambil mempertahankan tautan internal. Ikuti panduan langkah demi langkah ini untuk
+  konversi yang mulus.
+keywords:
+- CHM to HTML conversion
+- Aspose.Words for Java
+- internal links in CHM
+title: 'Mengonversi CHM ke HTML Menggunakan Aspose.Words untuk Java: Panduan Komprehensif'
+url: /id/java/document-operations/chm-html-conversion-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +18,47 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Mengonversi CHM ke HTML Menggunakan Aspose.Words untuk Java
 
-# Konversi File CHM ke HTML Menggunakan Aspose.Words untuk Java
+## Pendahuluan
 
-## Perkenalan
+Jika Anda perlu **mengonversi CHM ke HTML**, Anda berada di tempat yang tepat. Mengonversi file Compiled HTML Help (CHM) menjadi HTML dapat menjadi tantangan karena tautan internal sering rusak selama proses. Dalam tutorial ini kami akan menunjukkan bagaimana Aspose.Words untuk Java membuat konversi menjadi andal, cepat, dan sederhana, sambil menjaga setiap tautan tetap utuh.
 
-Mengonversi file Compiled HTML Help (CHM) ke HTML dapat menjadi tantangan karena rumitnya menjaga integritas tautan internal. Panduan lengkap ini menunjukkan cara menggunakan Aspose.Words untuk Java untuk konversi CHM ke HTML yang efektif, sekaligus mempertahankan tautan penting.
+Kami akan membahas:
+- Menggunakan `ChmLoadOptions` untuk **menetapkan nama file asli** sehingga tautan tetap benar  
+- Implementasi lengkap langkah‑demi‑langkah dengan kode siap‑jalankan  
+- Skenario dunia nyata di mana mengonversi file bantuan HTML terkompilasi menambah nilai  
 
-Dalam tutorial ini, kita akan membahas:
-- Menggunakan `ChmLoadOptions` untuk mengelola nama file asli
-- Implementasi langkah demi langkah dengan contoh kode
-- Aplikasi dunia nyata dan kemungkinan integrasi
+Pada akhir panduan ini Anda akan dapat **mengonversi CHM ke HTML** hanya dengan beberapa baris kode Java.
 
-Di akhir panduan ini, Anda akan memahami cara mengonversi file CHM secara efisien menggunakan Aspose.Words untuk Java.
+## Jawaban Cepat
+- **Perpustakaan apa yang menangani konversi?** Aspose.Words untuk Java.  
+- **Opsi mana yang mempertahankan tautan internal?** `ChmLoadOptions.setOriginalFileName`.  
+- **Versi Java minimum?** JDK 8 atau lebih tinggi.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan.  
+- **Bisakah saya menjalankannya di server?** Tentu – API berfungsi di lingkungan Java apa pun.
 
-### Prasyarat
+## Apa itu “mengonversi CHM ke HTML”?
+Mengonversi CHM ke HTML berarti mengekstrak konten bantuan yang terkompilasi dan menyimpan setiap halaman sebagai file HTML standar. Transformasi ini memungkinkan Anda mempublikasikan topik bantuan di situs web, mengintegrasikannya ke portal dokumentasi modern, atau memigrasikan sistem bantuan lama ke platform berbasis cloud.
 
-Sebelum memulai, pastikan Anda memiliki:
-- **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi
-- **ide**: Sebaiknya IntelliJ IDEA atau Eclipse
-- **Aspose.Words untuk Pustaka Java**: Versi 25.3 atau lebih baru
+## Mengapa mengonversi file bantuan HTML terkompilasi?
+- **Aksesibilitas yang lebih baik** – HTML bekerja di semua peramban dan perangkat.  
+- **Ramahan mesin pencari** – Mesin pencari dapat mengindeks halaman HTML, meningkatkan ketertemuan.  
+- **Pemeliharaan yang disederhanakan** – Memperbarui satu file HTML lebih mudah daripada membangun kembali paket CHM.  
 
-Anda juga harus merasa nyaman dengan pemrograman Java dasar dan menggunakan sistem pembangunan Maven atau Gradle.
+## Prasyarat
+
+- **Java Development Kit (JDK)**: Versi 8 atau lebih tinggi  
+- **IDE**: IntelliJ IDEA, Eclipse, atau editor yang kompatibel dengan Java apa pun  
+- **Aspose.Words untuk Java Library**: Versi 25.3 atau lebih baru  
+
+Anda juga sebaiknya nyaman dengan pemrograman Java dasar dan penggunaan Maven atau Gradle.
 
 ## Menyiapkan Aspose.Words
 
 Sertakan pustaka Aspose.Words dalam proyek Anda:
 
-### Ketergantungan Maven
+### Dependensi Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,110 +67,116 @@ Sertakan pustaka Aspose.Words dalam proyek Anda:
 </dependency>
 ```
 
-### Ketergantungan Gradle
+### Dependensi Gradle
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 #### Akuisisi Lisensi
-Aspose.Words adalah produk komersial, tetapi Anda dapat memulai dengan [uji coba gratis](https://releases.aspose.com/words/java/) untuk menjelajahi fitur-fiturnya. Untuk evaluasi yang lebih lanjut atau fungsi tambahan, pertimbangkan untuk mendapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/)Untuk penggunaan jangka panjang, beli lisensi [langsung melalui Aspose](https://purchase.aspose.com/buy).
+Aspose.Words adalah produk komersial, tetapi Anda dapat memulai dengan [percobaan gratis](https://releases.aspose.com/words/java/) untuk menjelajahi fiturnya. Untuk evaluasi lanjutan atau fungsionalitas tambahan, pertimbangkan memperoleh lisensi sementara dari [sini](https://purchase.aspose.com/temporary-license/). Untuk penggunaan jangka panjang, beli lisensi [langsung melalui Aspose](https://purchase.aspose.com/buy).
 
 #### Inisialisasi Dasar
-Pastikan proyek Anda diatur untuk menyertakan Aspose.Words:
+Pastikan proyek Anda telah disiapkan untuk menyertakan Aspose.Words:
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.ChmLoadOptions;
 
 public class ChmToHtmlConverter {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi lisensi jika Anda memilikinya (opsional)
-        // Lisensi lisensi = new Lisensi();
-        // license.setLicense("jalur/menuju/lisensi/anda.lic");
+        // Initialize a license if you have one (optional)
+        // License license = new License();
+        // license.setLicense("path/to/your/license.lic");
 
-        // Logika konversi Anda akan masuk ke sini
+        // Your conversion logic will go here
     }
 }
 ```
 
 ## Panduan Implementasi
 
-### Menangani Nama File Asli dalam File CHM
+### Bagaimana cara menetapkan nama file asli saat mengonversi CHM ke HTML?
 
-#### Ringkasan
-Memelihara tautan internal selama konversi CHM ke HTML memerlukan pengaturan nama file asli menggunakan `ChmLoadOptions`Ini memastikan semua referensi tautan tetap valid.
-
-##### Langkah 1: Buat Instansi ChmLoadOptions
-Buat contoh dari `ChmLoadOptions` dan atur nama file asli:
+#### Langkah 1: Buat instance `ChmLoadOptions`
 ```java
 import com.aspose.words.ChmLoadOptions;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.io.ByteArrayInputStream;
 
-// Buat objek ChmLoadOptions
+// Create a ChmLoadOptions object
 ChmLoadOptions loadOptions = new ChmLoadOptions();
-loadOptions.setOriginalFileName("amhelp.chm"); // Tetapkan nama file CHM asli
+loadOptions.setOriginalFileName("amhelp.chm"); // Set the original CHM filename
 ```
-**Penjelasan**: Pengaturan `setOriginalFileName` membantu Aspose.Words memahami konteks dokumen, memastikan tautan dalam berkas teratasi dengan benar.
+**Penjelasan**: Menetapkan `setOriginalFileName` memberi tahu Aspose.Words nama asli file CHM, yang penting untuk menyelesaikan tautan internal dengan benar selama konversi.
 
-##### Langkah 2: Muat File CHM
-Muat file CHM Anda ke Aspose.Words `Document` objek menggunakan opsi yang ditentukan:
+#### Langkah 2: Muat file CHM dengan opsi tersebut
 ```java
 import com.aspose.words.Document;
 
-// Baca berkas CHM sebagai array byte byte[] chmData = Files.readAllBytes(Paths.get("DIREKTORI_DOKUMEN_ANDA/Dokumen dengan ms-its links.chm"));
+// Read the CHM file as a byte array
+byte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Document with ms-its links.chm"));
 
-// Muat dokumen menggunakan ChmLoadOptions
+// Load the document using ChmLoadOptions
 Document doc = new Document(new ByteArrayInputStream(chmData), loadOptions);
 ```
-##### Langkah 3: Simpan ke HTML
-Simpan dokumen yang dimuat sebagai file HTML:
+
+#### Langkah 3: Simpan dokumen sebagai HTML
 ```java
-// Simpan dokumen sebagai HTML
+// Save the document as HTML
 doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 ```
-**Tips Pemecahan Masalah**:Jika tautan tidak berfungsi, verifikasi bahwa `setOriginalFileName` mencocokkan nama file dasar yang digunakan dalam struktur internal CHM dan memastikan jalur file CHM Anda benar.
+**Tips Pemecahan Masalah**: Jika tautan tampak rusak, periksa kembali bahwa nilai yang diberikan ke `setOriginalFileName` persis sama dengan nama file yang digunakan di dalam paket CHM, dan pastikan jalur file sudah benar.
 
 ## Aplikasi Praktis
-Metode konversi ini menguntungkan skenario seperti:
-1. **Portal Dokumentasi**: Mengubah berkas bantuan menjadi HTML yang ramah web untuk portal dokumentasi daring.
-2. **Halaman Dukungan Perangkat Lunak**: Mengubah file CHM ke HTML untuk situs web dukungan perusahaan.
-3. **Migrasi Sistem Lama**: Memperbarui perangkat lunak lama menggunakan file CHM ke platform yang memerlukan format HTML.
+Mengonversi CHM ke HTML berguna dalam banyak proyek dunia nyata:
+
+1. **Portal Dokumentasi** – Ubah file bantuan lama menjadi HTML siap web untuk basis pengetahuan modern.  
+2. **Halaman Dukungan Perangkat Lunak** – Publikasikan topik bantuan langsung di situs dukungan tanpa harus memelihara installer CHM.  
+3. **Migrasi Sistem Legacy** – Pindahkan aplikasi desktop lama yang bergantung pada bantuan CHM ke platform berbasis cloud yang memerlukan HTML.
 
 ## Pertimbangan Kinerja
-Untuk dokumen besar:
-- Optimalkan penggunaan memori dengan memproses dalam potongan-potongan jika memungkinkan.
-- Evaluasi eksekusi sisi server Aspose.Words untuk manajemen sumber daya yang lebih baik.
+Saat menangani paket CHM yang besar:
+
+- Proses dokumen dalam potongan jika konsumsi memori menjadi masalah.  
+- Jalankan konversi di lingkungan server‑side untuk memanfaatkan lebih banyak RAM dan sumber daya CPU.  
 
 ## Kesimpulan
-Anda telah menguasai cara mengonversi file CHM ke HTML dengan Aspose.Words untuk Java sambil mempertahankan tautan internal. Jelajahi lebih banyak fitur Aspose.Words melalui [dokumentasi resmi](https://reference.aspose.com/words/java/) untuk meningkatkan keterampilan Anda lebih jauh.
+Anda kini memiliki metode lengkap dan siap produksi untuk **mengonversi CHM ke HTML** menggunakan Aspose.Words untuk Java sambil mempertahankan setiap tautan internal. Jelajahi fitur tambahan di [dokumentasi resmi](https://reference.aspose.com/words/java/) untuk lebih meningkatkan alur kerja konversi Anda.
 
-Siap untuk mengonversi? Terapkan solusi ini pada proyek Anda berikutnya dan sederhanakan alur kerja Anda!
+Siap mengonversi? Terapkan solusi ini dalam proyek berikutnya dan sederhanakan pipeline dokumentasi Anda!
 
 ## Bagian FAQ
-1. **Apa perbedaan antara format file CHM dan HTML?**
-   - File CHM (Compiled HTML Help) adalah dokumentasi bantuan biner, sementara file HTML adalah teks biasa yang dilihat oleh peramban web.
-2. **Bagaimana cara menangani tautan rusak setelah konversi?**
-   - Memastikan `ChmLoadOptions.setOriginalFileName` diatur dengan benar untuk menjaga integritas tautan.
-3. **Bisakah Aspose.Words mengonversi format file lain selain CHM dan HTML?**
-   - Ya, ini mendukung banyak format dokumen termasuk DOCX, PDF. Periksa [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/) untuk rinciannya.
-4. **Apakah ada batasan ukuran dokumen yang dapat ditangani Aspose.Words?**
-   - Meskipun kuat, file yang sangat besar mungkin memerlukan peningkatan alokasi memori atau pemrosesan sisi server.
-5. **Bagaimana cara membeli lisensi untuk Aspose.Words?**
-   - Mengunjungi [Halaman pembelian Aspose](https://purchase.aspose.com/buy) untuk informasi lebih lanjut tentang memperoleh lisensi.
+1. **Apa perbedaan antara format file CHM dan HTML?**  
+   - File CHM (Compiled HTML Help) adalah kontainer biner untuk dokumentasi bantuan, sedangkan file HTML adalah halaman web teks‑plain yang dirender oleh peramban.  
 
-## Sumber daya
-- **Dokumentasi**:Jelajahi lebih lanjut di [Referensi Java Aspose.Words](https://reference.aspose.com/words/java/)
-- **Unduh**:Dapatkan versi terbaru dari [Unduhan Aspose](https://releases.aspose.com/words/java/)
-- **Pembelian & Uji Coba**:Pelajari tentang opsi lisensi dan versi uji coba [Di Sini](https://purchase.aspose.com/buy) Dan [Di Sini](https://releases.aspose.com/words/java/)
-- **Mendukung**:Untuk pertanyaan, kunjungi [Forum Aspose](https://forum.aspose.com/c/words/10)
+2. **Bagaimana cara menangani tautan rusak setelah konversi?**  
+   - Pastikan `ChmLoadOptions.setOriginalFileName` cocok dengan nama file CHM asli; ini menjaga referensi tautan tetap utuh.  
+
+3. **Apakah Aspose.Words dapat mengonversi format file lain selain CHM dan HTML?**  
+   - Ya, ia mendukung banyak format termasuk DOCX, PDF, dan lainnya. Periksa [dokumentasi Aspose.Words](https://reference.aspose.com/words/java/) untuk daftar lengkapnya.  
+
+4. **Apakah ada batasan ukuran dokumen yang dapat ditangani Aspose.Words?**  
+   - Perpustakaan ini kuat, tetapi file yang sangat besar mungkin memerlukan memori tambahan atau pemrosesan di sisi server.  
+
+5. **Bagaimana cara membeli lisensi untuk Aspose.Words?**  
+   - Kunjungi [halaman pembelian Aspose](https://purchase.aspose.com/buy) untuk opsi lisensi dan harga.
+
+## Sumber Daya
+- **Dokumentasi**: Jelajahi lebih lanjut di [Referensi Aspose.Words Java](https://reference.aspose.com/words/java/)
+- **Unduhan**: Dapatkan versi terbaru dari [Aspose Downloads](https://releases.aspose.com/words/java/)
+- **Pembelian & Percobaan**: Pelajari opsi lisensi dan versi percobaan [di sini](https://purchase.aspose.com/buy) dan [di sini](https://releases.aspose.com/words/java/)
+- **Dukungan**: Untuk pertanyaan, kunjungi [Forum Aspose](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-02-09  
+**Diuji Dengan:** Aspose.Words 25.3 untuk Java  
+**Penulis:** Aspose

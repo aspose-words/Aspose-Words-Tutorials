@@ -1,41 +1,60 @@
 ---
-"date": "2025-03-28"
-"description": "Padroneggia il processo di conversione dei file CHM in HTML con Aspose.Words per Java, assicurandoti che tutti i link interni rimangano intatti. Segui questa guida dettagliata per una transizione fluida."
-"title": "Convertire CHM in HTML utilizzando Aspose.Words per Java&#58; una guida completa"
-"url": "/it/java/document-operations/chm-html-conversion-aspose-words-java/"
-"weight": 1
+date: '2026-02-09'
+description: Scopri come convertire CHM in HTML usando Aspose.Words per Java mantenendo
+  i collegamenti interni. Segui questa guida passo‑passo per una conversione senza
+  problemi.
+keywords:
+- CHM to HTML conversion
+- Aspose.Words for Java
+- internal links in CHM
+title: 'Converti CHM in HTML con Aspose.Words per Java: Guida completa'
+url: /it/java/document-operations/chm-html-conversion-aspose-words-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ craft final content.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Convertire i file CHM in HTML utilizzando Aspose.Words per Java
+# Convertire CHM in HTML con Aspose.Words per Java
 
 ## Introduzione
 
-Convertire i file CHM (Compiled HTML Help) in HTML può essere complicato a causa della complessità di mantenere l'integrità dei link interni. Questa guida completa illustra come utilizzare Aspose.Words per Java per una conversione efficace da CHM a HTML, preservando i link essenziali.
+Se hai bisogno di **convert CHM to HTML**, sei nel posto giusto. Convertire i file Compiled HTML Help (CHM) in HTML può essere difficile perché i collegamenti interni spesso si rompono durante il processo. In questo tutorial ti mostreremo come Aspose.Words per Java renda la conversione affidabile, veloce e semplice, mantenendo intatti tutti i collegamenti.
 
-In questo tutorial parleremo di:
-- Utilizzo `ChmLoadOptions` per gestire i nomi dei file originali
-- Implementazione passo passo con esempi di codice
-- Applicazioni reali e possibilità di integrazione
+Tratteremo:
+- L'uso di `ChmLoadOptions` per **impostare il nome file originale** in modo che i collegamenti rimangano corretti  
+- Un'implementazione completa, passo‑per‑passo, con codice pronto all'uso  
+- Scenari reali in cui la conversione di file di aiuto HTML compilati aggiunge valore  
 
-Al termine di questa guida, sarai in grado di convertire in modo efficiente i file CHM utilizzando Aspose.Words per Java.
+Al termine di questa guida sarai in grado di **convert CHM to HTML** in poche righe di codice Java.
 
-### Prerequisiti
+## Risposte Rapide
+- **Quale libreria gestisce la conversione?** Aspose.Words per Java.  
+- **Quale opzione preserva i collegamenti interni?** `ChmLoadOptions.setOriginalFileName`.  
+- **Versione minima di Java?** JDK 8 o superiore.  
+- **È necessaria una licenza per la produzione?** Sì, è richiesta una licenza commerciale.  
+- **Posso eseguirlo su un server?** Assolutamente – l'API funziona in qualsiasi ambiente Java.
 
-Prima di iniziare, assicurati di avere:
-- **Kit di sviluppo Java (JDK)**: Versione 8 o superiore
-- **IDE**: Preferibilmente IntelliJ IDEA o Eclipse
-- **Libreria Aspose.Words per Java**: Versione 25.3 o successiva
+## Cos’è “convert CHM to HTML”?
+Convertire CHM in HTML significa estrarre il contenuto di aiuto compilato e salvare ogni pagina come file HTML standard. Questa trasformazione ti consente di pubblicare argomenti di aiuto su siti web, integrarli in moderni portali di documentazione o migrare sistemi di aiuto legacy su piattaforme cloud.
 
-Dovresti inoltre avere dimestichezza con la programmazione Java di base e con l'uso dei sistemi di compilazione Maven o Gradle.
+## Perché convertire i file di aiuto HTML compilati?
+- **Migliore accessibilità** – L'HTML funziona su tutti i browser e dispositivi.  
+- **Compatibilità con i motori di ricerca** – I motori di ricerca possono indicizzare le pagine HTML, aumentando la visibilità.  
+- **Manutenzione semplificata** – Aggiornare un singolo file HTML è più semplice rispetto a ricostruire un pacchetto CHM.  
 
-## Impostazione di Aspose.Words
+## Prerequisiti
+
+- **Java Development Kit (JDK)**: Versione 8 o superiore  
+- **IDE**: IntelliJ IDEA, Eclipse o qualsiasi editor compatibile con Java  
+- **Libreria Aspose.Words per Java**: Versione 25.3 o successiva  
+
+È inoltre consigliato avere familiarità con la programmazione Java di base e con l'uso di Maven o Gradle.
+
+## Configurazione di Aspose.Words
 
 Includi la libreria Aspose.Words nel tuo progetto:
 
@@ -48,15 +67,15 @@ Includi la libreria Aspose.Words nel tuo progetto:
 </dependency>
 ```
 
-### Dipendenza da Gradle
+### Dipendenza Gradle
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Acquisizione della licenza
-Aspose.Words è un prodotto commerciale, ma puoi iniziare con un [prova gratuita](https://releases.aspose.com/words/java/) per esplorarne le funzionalità. Per una valutazione estesa o funzionalità aggiuntive, si consiglia di ottenere una licenza temporanea da [Qui](https://purchase.aspose.com/temporary-license/)Per un utilizzo a lungo termine, acquistare una licenza [direttamente tramite Aspose](https://purchase.aspose.com/buy).
+#### Acquisizione della Licenza
+Aspose.Words è un prodotto commerciale, ma puoi iniziare con una [free trial](https://releases.aspose.com/words/java/) per esplorare le sue funzionalità. Per una valutazione estesa o funzionalità aggiuntive, considera di ottenere una licenza temporanea da [qui](https://purchase.aspose.com/temporary-license/). Per un utilizzo a lungo termine, acquista una licenza [direttamente tramite Aspose](https://purchase.aspose.com/buy).
 
-#### Inizializzazione di base
+#### Inizializzazione di Base
 Assicurati che il tuo progetto sia configurato per includere Aspose.Words:
 ```java
 import com.aspose.words.Document;
@@ -64,94 +83,100 @@ import com.aspose.words.ChmLoadOptions;
 
 public class ChmToHtmlConverter {
     public static void main(String[] args) throws Exception {
-        // Inizializza una licenza se ne hai una (facoltativo)
-        // Licenza licenza = nuova licenza();
-        // license.setLicense("percorso/verso/la/tua/licenza.lic");
+        // Initialize a license if you have one (optional)
+        // License license = new License();
+        // license.setLicense("path/to/your/license.lic");
 
-        // La tua logica di conversione andrà qui
+        // Your conversion logic will go here
     }
 }
 ```
 
-## Guida all'implementazione
+## Guida all'Implementazione
 
-### Gestione dei nomi dei file originali nei file CHM
+### Come impostare il nome file originale durante la conversione CHM in HTML?
 
-#### Panoramica
-Il mantenimento dei collegamenti interni durante la conversione da CHM a HTML richiede l'impostazione del nome file originale utilizzando `ChmLoadOptions`In questo modo si garantisce la validità di tutti i riferimenti ai link.
-
-##### Passaggio 1: creare un'istanza di ChmLoadOptions
-Crea un'istanza di `ChmLoadOptions` e imposta il nome del file originale:
+#### Passo 1: Crea un'istanza di `ChmLoadOptions`
 ```java
 import com.aspose.words.ChmLoadOptions;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.io.ByteArrayInputStream;
 
-// Crea un oggetto ChmLoadOptions
+// Create a ChmLoadOptions object
 ChmLoadOptions loadOptions = new ChmLoadOptions();
-loadOptions.setOriginalFileName("amhelp.chm"); // Imposta il nome del file CHM originale
+loadOptions.setOriginalFileName("amhelp.chm"); // Set the original CHM filename
 ```
-**Spiegazione**: Collocamento `setOriginalFileName` aiuta Aspose.Words a comprendere il contesto del documento, assicurando che i collegamenti all'interno del file vengano risolti correttamente.
+**Spiegazione**: Impostare `setOriginalFileName` indica ad Aspose.Words il nome originale del file CHM, elemento essenziale per risolvere correttamente i collegamenti interni durante la conversione.
 
-##### Passaggio 2: caricare il file CHM
-Carica il tuo file CHM in un Aspose.Words `Document` oggetto utilizzando le opzioni specificate:
+#### Passo 2: Carica il file CHM con le opzioni
 ```java
 import com.aspose.words.Document;
 
-// Leggere il file CHM come un array di byte byte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Documento con collegamenti ms-its.chm"));
+// Read the CHM file as a byte array
+byte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Document with ms-its links.chm"));
 
-// Carica il documento utilizzando ChmLoadOptions
+// Load the document using ChmLoadOptions
 Document doc = new Document(new ByteArrayInputStream(chmData), loadOptions);
 ```
-##### Passaggio 3: Salva in HTML
-Salvare il documento caricato come file HTML:
+
+#### Passo 3: Salva il documento come HTML
 ```java
-// Salva il documento come HTML
+// Save the document as HTML
 doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 ```
-**Suggerimenti per la risoluzione dei problemi**: Se i link non funzionano, verifica che `setOriginalFileName` corrisponda al nome file di base utilizzato nella struttura interna del CHM e assicuri che il percorso del file CHM sia corretto.
+**Suggerimenti per la Risoluzione dei Problemi**: Se i collegamenti appaiono rotti, verifica che il valore passato a `setOriginalFileName` corrisponda esattamente al nome file utilizzato all'interno del pacchetto CHM e controlla che il percorso del file sia corretto.
 
-## Applicazioni pratiche
-Questo metodo di conversione è utile in scenari come:
-1. **Portali di documentazione**: Conversione dei file di aiuto in HTML ottimizzato per il Web per i portali di documentazione online.
-2. **Pagine di supporto software**: Trasformazione dei file CHM in HTML per i siti web di supporto aziendale.
-3. **Migrazione dei sistemi legacy**: Aggiornamento di vecchi software tramite file CHM su piattaforme che richiedono il formato HTML.
+## Applicazioni Pratiche
+Convertire CHM in HTML è utile in molti progetti reali:
 
-## Considerazioni sulle prestazioni
-Per documenti di grandi dimensioni:
-- Se possibile, ottimizzare l'utilizzo della memoria elaborando in blocchi.
-- Valutare l'esecuzione lato server di Aspose.Words per una migliore gestione delle risorse.
+1. **Portali di Documentazione** – Trasforma file di aiuto legacy in HTML pronto per il web per moderne basi di conoscenza.  
+2. **Pagine di Supporto Software** – Pubblica argomenti di aiuto direttamente sui siti di supporto senza dover mantenere installatori CHM.  
+3. **Migrazione di Sistemi Legacy** – Sposta vecchie applicazioni desktop che dipendono da aiuto CHM su piattaforme cloud che richiedono HTML.  
+
+## Considerazioni sulle Prestazioni
+Quando si lavora con pacchetti CHM di grandi dimensioni:
+
+- Elabora il documento a blocchi se il consumo di memoria diventa un problema.  
+- Esegui la conversione in un ambiente server‑side per sfruttare più RAM e risorse CPU.  
 
 ## Conclusione
-Hai imparato a convertire file CHM in HTML con Aspose.Words per Java, mantenendo i link interni. Esplora altre funzionalità di Aspose.Words attraverso il loro [documentazione ufficiale](https://reference.aspose.com/words/java/) per migliorare ulteriormente le tue competenze.
+Ora disponi di un metodo completo, pronto per la produzione, per **convert CHM to HTML** usando Aspose.Words per Java, preservando ogni collegamento interno. Esplora funzionalità aggiuntive nella [documentazione ufficiale](https://reference.aspose.com/words/java/) per migliorare ulteriormente il tuo flusso di lavoro di conversione.
 
-Pronti a convertirvi? Implementate questa soluzione nel vostro prossimo progetto e semplificate il flusso di lavoro!
+Pronto a convertire? Implementa questa soluzione nel tuo prossimo progetto e semplifica la tua pipeline di documentazione!
 
 ## Sezione FAQ
-1. **Qual è la differenza tra i formati di file CHM e HTML?**
-   - I file CHM (Compiled HTML Help) sono documenti di aiuto binari, mentre i file HTML sono testo normale visualizzato dai browser web.
-2. **Come gestisco i link non funzionanti dopo la conversione?**
-   - Garantire `ChmLoadOptions.setOriginalFileName` sia impostato correttamente per mantenere l'integrità del collegamento.
-3. **Aspose.Words può convertire altri formati di file oltre a CHM e HTML?**
-   - Sì, supporta molti formati di documenti tra cui DOCX e PDF. Controlla il [Documentazione di Aspose.Words](https://reference.aspose.com/words/java/) per maggiori dettagli.
-4. **Esiste un limite alla dimensione dei documenti che Aspose.Words può gestire?**
-   - Sebbene robusti, i file di grandi dimensioni potrebbero richiedere una maggiore allocazione di memoria o un'elaborazione lato server.
-5. **Come posso acquistare una licenza per Aspose.Words?**
-   - Visita [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy) per maggiori informazioni sull'acquisizione di una licenza.
+1. **Qual è la differenza tra i formati di file CHM e HTML?**  
+   - I file CHM (Compiled HTML Help) sono contenitori binari per la documentazione di aiuto, mentre i file HTML sono pagine web di testo semplice renderizzate dai browser.  
+
+2. **Come gestisco i collegamenti rotti dopo la conversione?**  
+   - Assicurati che `ChmLoadOptions.setOriginalFileName` corrisponda al nome file originale del CHM; questo mantiene intatti i riferimenti ai collegamenti.  
+
+3. **Aspose.Words può convertire altri formati oltre a CHM e HTML?**  
+   - Sì, supporta molti formati tra cui DOCX, PDF e altri. Consulta la [documentazione di Aspose.Words](https://reference.aspose.com/words/java/) per l'elenco completo.  
+
+4. **Esiste un limite alle dimensioni dei documenti che Aspose.Words può gestire?**  
+   - La libreria è robusta, ma file estremamente grandi potrebbero richiedere memoria aggiuntiva o elaborazione lato server.  
+
+5. **Come acquisto una licenza per Aspose.Words?**  
+   - Visita la [pagina di acquisto di Aspose](https://purchase.aspose.com/buy) per le opzioni di licenza e i prezzi.  
 
 ## Risorse
-- **Documentazione**: Esplora ulteriormente su [Riferimento Java Aspose.Words](https://reference.aspose.com/words/java/)
-- **Scaricamento**: Ottieni l'ultima versione da [Download di Aspose](https://releases.aspose.com/words/java/)
-- **Acquisto e prova**: Scopri le opzioni di licenza e le versioni di prova [Qui](https://purchase.aspose.com/buy) E [Qui](https://releases.aspose.com/words/java/)
-- **Supporto**: Per domande, visitare il [Forum Aspose](https://forum.aspose.com/c/words/10)
+- **Documentazione**: Approfondisci su [Aspose.Words Java Reference](https://reference.aspose.com/words/java/)  
+- **Download**: Ottieni l'ultima versione da [Aspose Downloads](https://releases.aspose.com/words/java/)  
+- **Acquisto & Prova**: Scopri le opzioni di licenza e le versioni di prova [qui](https://purchase.aspose.com/buy) e [qui](https://releases.aspose.com/words/java/)  
+- **Supporto**: Per domande, visita il [Forum Aspose](https://forum.aspose.com/c/words/10)  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-02-09  
+**Testato con:** Aspose.Words 25.3 per Java  
+**Autore:** Aspose

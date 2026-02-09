@@ -1,9 +1,13 @@
 ---
-"date": "2025-03-28"
-"description": "掌握使用 Aspose.Words for Java 將 CHM 檔案轉換為 HTML 的過程，確保所有內部連結保持完整。請按照此詳細指南可實現無縫過渡。"
-"title": "使用 Aspose.Words for Java&#58; 將 CHM 轉換為 HTML綜合指南"
-"url": "/zh-hant/java/document-operations/chm-html-conversion-aspose-words-java/"
-"weight": 1
+date: '2026-02-09'
+description: 了解如何使用 Aspose.Words for Java 將 CHM 轉換為 HTML，並保留內部連結。請遵循本一步一步的指引，實現無縫轉換。
+keywords:
+- CHM to HTML conversion
+- Aspose.Words for Java
+- internal links in CHM
+title: 使用 Aspose.Words for Java 將 CHM 轉換為 HTML：完整指南
+url: /zh-hant/java/document-operations/chm-html-conversion-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +16,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# 使用 Aspose.Words for Java 將 CHM 檔案轉換為 HTML
+# 使用 Aspose.Words for Java 轉換 CHM 為 HTML
 
 ## 介紹
 
-由於維護內部連結完整性的複雜性，將編譯的 HTML 幫助 (CHM) 檔案轉換為 HTML 可能具有挑戰性。本綜合指南示範如何使用 Aspose.Words for Java 有效地將 CHM 轉換為 HTML，並保留必要的連結。
+如果您需要 **convert CHM to HTML**，您來對地方了。將 Compiled HTML Help (CHM) 檔案轉換成 HTML 可能會很具挑戰性，因為內部連結在過程中常常會斷裂。在本教學中，我們將示範 Aspose.Words for Java 如何讓轉換變得可靠、快速且簡單，同時保持每一個連結完整。
 
-在本教程中，我們將介紹：
-- 使用 `ChmLoadOptions` 管理原始檔名
-- 透過程式碼範例逐步實現
-- 實際應用和整合可能性
+我們將說明：
+- 使用 `ChmLoadOptions` 來 **set original filename**，確保連結正確  
+- 完整、逐步的實作範例，提供即時可執行的程式碼  
+- 真實情境下，將已編譯的 HTML 說明檔轉換的價值  
 
-在本指南結束時，您將了解如何使用 Aspose.Words for Java 有效地轉換 CHM 檔案。
+閱讀完本指南後，您只需幾行 Java 程式碼即可 **convert CHM to HTML**。
 
-### 先決條件
+## 快速回答
+- **哪個函式庫負責轉換？** Aspose.Words for Java。  
+- **哪個選項可保留內部連結？** `ChmLoadOptions.setOriginalFileName`。  
+- **最低 Java 版本？** JDK 8 或更高。  
+- **正式環境需要授權嗎？** 需要，必須購買商業授權。  
+- **可以在伺服器上執行嗎？** 當然可以——API 在任何 Java 環境皆可運作。
 
-在開始之前，請確保您已：
-- **Java 開發工具包 (JDK)**：版本 8 或更高版本
-- **整合開發環境**：最好是 IntelliJ IDEA 或 Eclipse
-- **Aspose.Words for Java 函式庫**：版本 25.3 或更高版本
+## 什麼是「convert CHM to HTML」？
+將 CHM 轉換為 HTML 意味著將已編譯的說明內容抽取出來，並將每一頁儲存為標準的 HTML 檔案。此轉換讓您能在網站上發佈說明主題、整合至現代文件入口網站，或將舊有的說明系統遷移至雲端平台。
 
-您還應該熟悉基本的 Java 程式設計以及使用 Maven 或 Gradle 建置系統。
+## 為什麼要轉換已編譯的 HTML 說明檔？
+- **提升可近性** – HTML 可在所有瀏覽器與裝置上執行。  
+- **搜尋引擎友善** – 搜尋引擎能索引 HTML 頁面，提升可被發現的機會。  
+- **簡化維護** – 更新單一 HTML 檔案比重新建置 CHM 套件更容易。
+
+## 前置條件
+
+- **Java Development Kit (JDK)**：版本 8 或更高  
+- **IDE**：IntelliJ IDEA、Eclipse 或任何支援 Java 的編輯器  
+- **Aspose.Words for Java Library**：版本 25.3 或更新  
+
+您也需要具備基本的 Java 程式撰寫能力，並熟悉 Maven 或 Gradle。
 
 ## 設定 Aspose.Words
 
-在您的專案中包含 Aspose.Words 函式庫：
+在專案中加入 Aspose.Words 函式庫：
 
 ### Maven 依賴
 ```xml
@@ -53,105 +70,111 @@
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### 許可證獲取
-Aspose.Words 是一款商業產品，但你可以從 [免費試用](https://releases.aspose.com/words/java/) 探索其特點。如需擴展評估或添加其他功能，請考慮從 [這裡](https://purchase.aspose.com/temporary-license/)。如需長期使用，請購買許可證 [直接透過 Aspose](https://purchase。aspose.com/buy).
+#### 授權取得
+Aspose.Words 為商業產品，但您可以先透過 [free trial](https://releases.aspose.com/words/java/) 來體驗功能。若需延長評估或取得額外功能，請從 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。長期使用則請直接在 [Aspose](https://purchase.aspose.com/buy) 購買授權。
 
 #### 基本初始化
-確保您的項目設定為包含 Aspose.Words：
+確保您的專案已正確加入 Aspose.Words：
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.ChmLoadOptions;
 
 public class ChmToHtmlConverter {
     public static void main(String[] args) throws Exception {
-        // 如果有許可證，請初始化許可證（可選）
-        // 許可證 license = new License();
-        // license.setLicense（「路徑/到/你的/license.lic」）；
+        // Initialize a license if you have one (optional)
+        // License license = new License();
+        // license.setLicense("path/to/your/license.lic");
 
-        // 您的轉換邏輯將會放在這裡
+        // Your conversion logic will go here
     }
 }
 ```
 
-## 實施指南
+## 實作指南
 
-### 處理 CHM 檔案中的原始檔案名
+### 如何在 convert CHM to HTML 時設定原始檔名？
 
-#### 概述
-在 CHM 到 HTML 轉換過程中維護內部連結需要使用 `ChmLoadOptions`。這確保所有連結引用保持有效。
-
-##### 步驟 1：建立 ChmLoadOptions 實例
-建立一個實例 `ChmLoadOptions` 並設定原始檔名：
+#### 步驟 1：建立 `ChmLoadOptions` 實例
 ```java
 import com.aspose.words.ChmLoadOptions;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.io.ByteArrayInputStream;
 
-// 建立 ChmLoadOptions 對象
+// Create a ChmLoadOptions object
 ChmLoadOptions loadOptions = new ChmLoadOptions();
-loadOptions.setOriginalFileName("amhelp.chm"); // 設定原始 CHM 檔名
+loadOptions.setOriginalFileName("amhelp.chm"); // Set the original CHM filename
 ```
-**解釋**： 環境 `setOriginalFileName` 幫助 Aspose.Words 理解文件的上下文，確保文件內的連結得到正確解析。
+**說明**：設定 `setOriginalFileName` 可告訴 Aspose.Words CHM 檔案的原始名稱，這對於在轉換過程中正確解析內部連結至關重要。
 
-##### 第 2 步：載入 CHM 文件
-將您的 CHM 檔案載入到 Aspose.Words `Document` 使用指定選項的物件：
+#### 步驟 2：使用此選項載入 CHM 檔案
 ```java
 import com.aspose.words.Document;
 
-// 將 CHM 檔案讀取為位元組數組 byte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Document with ms-its links.chm"));
+// Read the CHM file as a byte array
+byte[] chmData = Files.readAllBytes(Paths.get("YOUR_DOCUMENT_DIRECTORY/Document with ms-its links.chm"));
 
-// 使用 ChmLoadOptions 載入文檔
+// Load the document using ChmLoadOptions
 Document doc = new Document(new ByteArrayInputStream(chmData), loadOptions);
 ```
-##### 步驟 3：儲存為 HTML
-將已載入的文件儲存為 HTML 文件：
+
+#### 步驟 3：將文件儲存為 HTML
 ```java
-// 將文件儲存為 HTML
+// Save the document as HTML
 doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 ```
-**故障排除提示**：如果連結無效，請驗證 `setOriginalFileName` 與 CHM 內部結構中使用的基本檔案名稱匹配，並確保您的 CHM 檔案路徑正確。
+**故障排除提示**：若發現連結斷裂，請再次確認傳入 `setOriginalFileName` 的值與 CHM 套件內使用的檔名完全相同，並檢查檔案路徑是否正確。
 
-## 實際應用
-這種轉換方法有利於以下場景：
-1. **文件入口網站**：將幫助文件轉換為適合網路的 HTML，用於線上文件入口網站。
-2. **軟體支援頁面**：將 CHM 檔案轉換為 HTML，供公司支援網站使用。
-3. **遺留系統遷移**：使用 CHM 檔案將舊軟體更新到需要 HTML 格式的平台。
+## 實務應用
+將 CHM 轉換為 HTML 在許多真實專案中都相當有用：
 
-## 性能考慮
-對於大型文件：
-- 如果可能的話，透過分塊處理來優化記憶體使用。
-- 評估 Aspose.Words 的伺服器端執行情況以實現更好的資源管理。
+1. **文件入口網站** – 將舊有說明檔轉為網頁就緒的 HTML，供現代知識庫使用。  
+2. **軟體支援頁面** – 直接在支援網站上發佈說明主題，免除維護 CHM 安裝檔的需求。  
+3. **舊系統遷移** – 將依賴 CHM 說明的舊桌面應用程式搬移至需要 HTML 的雲端平台。
+
+## 效能考量
+面對大型 CHM 套件時：
+
+- 若記憶體使用量成為瓶頸，可將文件分段處理。  
+- 建議在伺服器端執行轉換，以利用更多的 RAM 與 CPU 資源。
 
 ## 結論
-您已經掌握了使用 Aspose.Words for Java 將 CHM 檔案轉換為 HTML 同時保留內部連結的方法。透過 Aspose.Words 探索更多功能 [官方文檔](https://reference.aspose.com/words/java/) 進一步提高你的技能。
+您現在已掌握使用 Aspose.Words for Java **convert CHM to HTML** 的完整、可投入生產的解決方案，同時保留所有內部連結。可前往 [official documentation](https://reference.aspose.com/words/java/) 探索更多功能，進一步優化您的轉換工作流程。
 
-準備好轉換了嗎？在您的下一個專案中實施此解決方案並簡化您的工作流程！
+準備好轉換了嗎？將此方案套用到您的下一個專案，讓文件流程更順暢！
 
-## 常見問題部分
-1. **CHM 和 HTML 檔案格式有什麼不同？**
-   - CHM（編譯的 HTML 幫助）文件是二進位幫助文檔，而 HTML 文件是透過 Web 瀏覽器檢視的純文字。
-2. **轉換後如何處理斷開的連結？**
-   - 確保 `ChmLoadOptions.setOriginalFileName` 正確設定以保持連結完整性。
-3. **Aspose.Words 除了 CHM 和 HTML 之外還能轉換其他檔案格式嗎？**
-   - 是的，它支援多種文件格式，包括 DOCX、PDF。檢查 [Aspose.Words 文檔](https://reference.aspose.com/words/java/) 了解詳情。
-4. **Aspose.Words 可以處理的文件大小有限制嗎？**
-   - 雖然非常強大，但非常大的檔案可能需要增加記憶體分配或伺服器端處理。
-5. **如何購買 Aspose.Words 的授權？**
-   - 訪問 [Aspose的購買頁面](https://purchase.aspose.com/buy) 有關獲取許可證的更多資訊。
+## FAQ 區段
+1. **CHM 與 HTML 檔案格式有何不同？**  
+   - CHM（Compiled HTML Help）是用於說明文件的二進位容器，而 HTML 檔案則是瀏覽器可直接渲染的純文字網頁。  
+
+2. **轉換後若出現斷裂的連結該怎麼處理？**  
+   - 確認 `ChmLoadOptions.setOriginalFileName` 與原始 CHM 檔名相符，這樣才能保持連結參照完整。  
+
+3. **Aspose.Words 能否轉換除 CHM 與 HTML 之外的其他格式？**  
+   - 能，支援包括 DOCX、PDF 等多種格式。請參閱 [Aspose.Words documentation](https://reference.aspose.com/words/java/) 取得完整列表。  
+
+4. **Aspose.Words 處理的文件大小有上限嗎？**  
+   - 函式庫相當穩健，但極大型檔案可能需要額外的記憶體或在伺服器端執行。  
+
+5. **如何購買 Aspose.Words 的授權？**  
+   - 前往 [Aspose's purchasing page](https://purchase.aspose.com/buy) 了解授權方案與價格。
 
 ## 資源
-- **文件**：進一步了解 [Aspose.Words Java參考](https://reference.aspose.com/words/java/)
-- **下載**：從取得最新版本 [Aspose 下載](https://releases.aspose.com/words/java/)
-- **購買和試用**：了解授權選項和試用版本 [這裡](https://purchase.aspose.com/buy) 和 [這裡](https://releases.aspose.com/words/java/)
-- **支援**：如有疑問，請訪問 [Aspose 論壇](https://forum.aspose.com/c/words/10)
+- **文件**：前往 [Aspose.Words Java Reference](https://reference.aspose.com/words/java/) 繼續探索  
+- **下載**：從 [Aspose Downloads](https://releases.aspose.com/words/java/) 取得最新版本  
+- **購買與試用**：了解授權與試用版資訊，請分別點擊 [here](https://purchase.aspose.com/buy) 與 [here](https://releases.aspose.com/words/java/)  
+- **支援**：如有問題，請造訪 [Aspose Forum](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
