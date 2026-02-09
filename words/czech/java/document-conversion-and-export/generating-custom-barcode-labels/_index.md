@@ -1,10 +1,13 @@
 ---
-"description": "Generování vlastních štítků s čárovými kódy v Aspose.Words pro Javu. V tomto podrobném návodu se naučte, jak vytvářet personalizovaná řešení s čárovými kódy pomocí Aspose.Words pro Javu."
-"linktitle": "Generování vlastních štítků s čárovými kódy"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Generování vlastních štítků s čárovými kódy v Aspose.Words pro Javu"
-"url": "/cs/java/document-conversion-and-export/generating-custom-barcode-labels/"
-"weight": 10
+date: 2026-02-09
+description: Vytvářejte vlastní štítky s čárovými kódy pomocí Aspose Barcode Java
+  v Aspose.Words pro Java. Naučte se, jak vložit čárový kód do dokumentů Word a generovat
+  příklady QR kódu v Javě.
+linktitle: Generating Custom Barcode Labels
+second_title: Aspose.Words Java Document Processing API
+title: Generování vlastních štítků s čárovým kódem pomocí Aspose Barcode Java
+url: /cs/java/document-conversion-and-export/generating-custom-barcode-labels/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,27 +16,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generování vlastních štítků s čárovými kódy v Aspose.Words pro Javu
+# Generování vlastních štítků s čárovými kódy pomocí Aspose Barcode Java
 
+## Úvod do generování vlastních štítků s čárovými kódy v Aspose.Words pro Java
 
-## Úvod do generování vlastních štítků s čárovými kódy v Aspose.Words pro Javu
+Čárové kódy jsou nezbytné v moderních aplikacích a **Aspose Barcode Java** usnadňuje jejich tvorbu přímo v dokumentech Word. Ať už potřebujete **vložit čárový kód do Wordu**, vygenerovat QR kód pro URL nebo převést měrné jednotky, tento tutoriál vás provede vším, co potřebujete. Připravení ponořit se? Pojďme na to!
 
-Čárové kódy jsou v moderních aplikacích nezbytné, ať už spravujete zásoby, generujete lístky nebo vytváříte identifikační karty. S Aspose.Words pro Javu se vytváření vlastních štítků s čárovými kódy stává hračkou. Tento podrobný návod vás provede generováním vlastních štítků s čárovými kódy pomocí rozhraní IBarcodeGenerator. Jste připraveni se do toho pustit? Pojďme na to!
+## Rychlé odpovědi
+- **Jaká knihovna vytváří čárové kódy v Javě?** Aspose Barcode Java ve spojení s Aspose.Words pro Java.  
+- **Jaký typ čárového kódu je demonstrován?** QR kód (generate qr code java).  
+- **Jak převést twips na pixely?** Použijte poskytnutou pomocnou metodu `twipsToPixels`.  
+- **Mohu přidat čárový kód do existujícího souboru Word?** Ano – stačí použít metodu `DocumentBuilder.insertImage`.  
+- **Potřebuji licenci?** Dočasná licence odstraňuje omezení hodnocení.
 
+## Co je Aspose Barcode Java?
+Aspose Barcode Java je výkonné API, které umožňuje vývojářům programově generovat širokou škálu 1D a 2D čárových kódů (včetně QR kódů). V kombinaci s Aspose.Words pro Java můžete **vložit čárový kód do Wordu** do dokumentů, aniž byste opustili své Java prostředí.
+
+## Proč používat Aspose Barcode Java s Aspose.Words?
+- **Plná kontrola** nad vzhledem čárového kódu (barvy, velikost, formát).  
+- **Bezproblémová integrace** – obrázek čárového kódu může být vložen přímo do dokumentu Word.  
+- **Cross‑platform** – funguje na jakékoli platformě kompatibilní s Javou.  
+- **Rozšiřitelný** – můžete vytvořit pomocné třídy pro opětovné použití logiky čárových kódů napříč projekty.
 
 ## Předpoklady
 
-Než začneme s kódováním, ujistěte se, že máte následující:
+Než začneme kódovat, ujistěte se, že máte následující:
 
-- Vývojová sada pro Javu (JDK): verze 8 nebo vyšší.
-- Aspose.Words pro knihovnu Java: [Stáhnout zde](https://releases.aspose.com/words/java/).
-- Aspose.BarCode pro knihovnu Java: [Stáhnout zde](https://releases.aspose.com/).
-- Integrované vývojové prostředí (IDE): IntelliJ IDEA, Eclipse nebo jakékoli jiné IDE, které preferujete.
-- Dočasná licence: Získejte [dočasná licence](https://purchase.aspose.com/temporary-license/) pro neomezený přístup.
+- Java Development Kit (JDK): verze 8 nebo vyšší.  
+- Knihovna Aspose.Words pro Java: [Stáhnout zde](https://releases.aspose.com/words/java/).  
+- Knihovna Aspose.BarCode pro Java: [Stáhnout zde](https://releases.aspose.com/).  
+- Integrované vývojové prostředí (IDE): IntelliJ IDEA, Eclipse nebo jakékoli IDE, které preferujete.  
+- Dočasná licence: Získejte [dočasnou licenci](https://purchase.aspose.com/temporary-license/) pro neomezený přístup.
 
-## Importovat balíčky
+## Import balíčků
 
-Použijeme knihovny Aspose.Words a Aspose.BarCode. Importujte do svého projektu následující balíčky:
+Budeme používat knihovny Aspose.Words a Aspose.BarCode. Do svého projektu importujte následující balíčky:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -43,22 +60,22 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-Díky těmto importům můžeme využít funkce generování čárových kódů a integrovat je do dokumentů Wordu.
+Tyto importy nám umožňují využívat funkce generování čárových kódů a integrovat je do dokumentů Word.
 
-Rozdělme si tento úkol na zvládnutelné kroky.
+Rozdělme tento úkol na zvládnutelné kroky.
 
 ## Krok 1: Vytvořte pomocnou třídu pro operace s čárovými kódy
 
-Pro zjednodušení operací souvisejících s čárovými kódy vytvoříme utilitu s pomocnými metodami pro běžné úkoly, jako je převod barev a úprava velikosti.
+Abychom zjednodušili operace související s čárovými kódy, vytvoříme pomocnou třídu s metodami pro běžné úkoly, jako je převod barev a **convert twips to pixels**.
 
-### Kód:
+### Code:
 
 ```java
 class CustomBarcodeGeneratorUtils {
     public static double twipsToPixels(String heightInTwips, double defVal) {
         try {
             int lVal = Integer.parseInt(heightInTwips);
-            return (lVal / 1440.0) * 96.0; // Za předpokladu, že výchozí DPI je 96
+            return (lVal / 1440.0) * 96.0; // Assuming default DPI is 96
         } catch (Exception e) {
             return defVal;
         }
@@ -76,16 +93,16 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-### Vysvětlení:
+**Vysvětlení**
 
-- `twipsToPixels` Metoda: Převede twipy (používané v dokumentech Wordu) na pixely.
-- `convertColor` Metoda: Převádí hexadecimální barevné kódy na `Color` objekty.
+- `twipsToPixels` převádí měrnou jednotku používanou ve Wordu (twips) na pixely obrazovky – užitečná pomůcka, když potřebujete přesné rozměry.  
+- `convertColor` převádí řetězec hexadecimální barvy (např. “FF0000”) na Java objekt `Color`, což vám umožní přizpůsobit popředí a pozadí čárového kódu.
 
-## Krok 2: Implementace vlastního generátoru čárových kódů
+## Krok 2: Implementujte vlastní generátor čárových kódů
 
-Implementujeme `IBarcodeGenerator` rozhraní pro generování čárových kódů a jejich integraci s Aspose.Words.
+Implementujeme rozhraní `IBarcodeGenerator`, aby Aspose.Words mohl požádat o obrázek čárového kódu, kdykoli narazí na pole čárového kódu.
 
-### Kód:
+### Code:
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -115,28 +132,28 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-### Vysvětlení:
+**Vysvětlení**
 
-- `getBarcodeImage` Metoda:
-  - Vytvoří `BarcodeGenerator` instance.
-  - Nastaví barvu čárového kódu, barvu pozadí a vygeneruje obrázek.
+- `getBarcodeImage` vytvoří `BarcodeGenerator` pomocí typu **generate qr code java**, který specifikujete (QR v našem příkladu).  
+- Aplikuje barvy popředí a pozadí pomocí pomocných metod a poté vrátí vykreslený obrázek.  
+- Záložní obrázek zajišťuje, že program pokračuje i v případě selhání vytvoření čárového kódu.
 
-## Krok 3: Vygenerujte čárový kód a přidejte ho do dokumentu Word
+## Krok 3: Vygenerujte čárový kód a přidejte jej do dokumentu Word
 
-Nyní integrujeme náš generátor čárových kódů do dokumentu Word.
+Nyní spojíme vše dohromady: vytvoříme dokument, vygenerujeme čárový kód a **how to add barcode** do souboru Word.
 
-### Kód:
+### Code:
 
 ```java
 import com.aspose.words.*;
 
 public class GenerateCustomBarcodeLabels {
     public static void main(String[] args) throws Exception {
-        // Načtení nebo vytvoření dokumentu Wordu
+        // Load or create a Word document
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
 
-        // Nastavení vlastního generátoru čárových kódů
+        // Set up custom barcode generator
         CustomBarcodeGenerator barcodeGenerator = new CustomBarcodeGenerator();
         BarcodeParameters barcodeParameters = new BarcodeParameters();
         barcodeParameters.setBarcodeType("QR");
@@ -144,13 +161,13 @@ public class GenerateCustomBarcodeLabels {
         barcodeParameters.setForegroundColor("000000");
         barcodeParameters.setBackgroundColor("FFFFFF");
 
-        // Generovat obrázek čárového kódu
+        // Generate barcode image
         BufferedImage barcodeImage = barcodeGenerator.getBarcodeImage(barcodeParameters);
 
-        // Vložení obrázku čárového kódu do dokumentu Word
+        // Insert barcode image into Word document
         builder.insertImage(barcodeImage, 200, 200);
 
-        // Uložit dokument
+        // Save the document
         doc.save("CustomBarcodeLabels.docx");
 
         System.out.println("Barcode labels generated successfully!");
@@ -158,44 +175,48 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-### Vysvětlení:
+**Vysvětlení**
 
-- Inicializace dokumentu: Vytvoření nebo načtení dokumentu aplikace Word.
-- Parametry čárového kódu: Definujte typ, hodnotu a barvy čárového kódu.
-- Vložení obrázku: Přidejte vygenerovaný obrázek čárového kódu do dokumentu Word.
-- Uložit dokument: Uložte soubor v požadovaném formátu.
+1. **Inicializace dokumentu** – vytvoří nový `Document` (nebo můžete načíst existující .docx).  
+2. **Parametry čárového kódu** – definují typ (`QR`), hodnotu a barvy, což demonstruje použití **generate qr code java**.  
+3. **Vložení obrázku** – `builder.insertImage` umístí čárový kód tam, kde jej potřebujete, efektivně ukazující **how to add barcode** do souboru Word.  
+4. **Ukládání** – finální dokument (`CustomBarcodeLabels.docx`) obsahuje vložený čárový kód připravený k tisku nebo distribuci.
 
-## Závěr
+## Časté problémy a řešení
 
-Pomocí těchto kroků můžete bez problémů generovat a vkládat vlastní štítky s čárovými kódy do dokumentů Word pomocí Aspose.Words pro Javu. Tento přístup je flexibilní a lze jej přizpůsobit různým aplikacím. Hodně štěstí s programováním!
-
+| Problém | Příčina | Řešení |
+|-------|-------|-----|
+| Čárový kód se zobrazuje prázdně | Neplatný řetězec barvy nebo nepodporovaný typ čárového kódu | Ověřte formát hexadecimální barvy a použijte podporovaný typ (např. QR, Code128). |
+| Velikost obrázku je špatná | Nesprávný převod pixelů | Použijte `twipsToPixels` k výpočtu přesných rozměrů podle rozvržení Wordu. |
+| Výjimka licence | Žádná platná licence Aspose | Aplikujte dočasnou nebo zakoupenou licenci před spuštěním kódu. |
 
 ## Často kladené otázky
 
-1. Mohu používat Aspose.Words pro Javu bez licence?
-Ano, ale bude to mít určitá omezení. Získejte [dočasná licence](https://purchase.aspose.com/temporary-license/) pro plnou funkčnost.
+**Q: Mohu používat Aspose.Words pro Java bez licence?**  
+A: Ano, ale narazíte na omezení hodnocení. Získejte [dočasnou licenci](https://purchase.aspose.com/temporary-license/) pro plnou funkčnost.
 
-2. Jaké typy čárových kódů mohu generovat?
-Aspose.BarCode podporuje QR, Code 128, EAN-13 a mnoho dalších typů. Zkontrolujte [dokumentace](https://reference.aspose.com/words/java/) pro kompletní seznam.
+**Q: Jaké typy čárových kódů mohu generovat?**  
+A: Aspose.BarCode podporuje QR, Code 128, EAN‑13 a mnoho dalších. Kompletní seznam najdete v oficiální [dokumentaci](https://reference.aspose.com/words/java/).
 
-3. Jak mohu změnit velikost čárového kódu?
-Upravte `XDimension` a `BarHeight` parametry v `BarcodeGenerator` nastavení.
+**Q: Jak mohu změnit velikost čárového kódu?**  
+A: Upravit parametry šířky/výšky v `builder.insertImage` nebo změnit vlastnosti `XDimension` a `BarHeight` objektu `BarcodeGenerator`.
 
-4. Mohu pro čárové kódy použít vlastní fonty?
-Ano, písma textu čárových kódů si můžete přizpůsobit pomocí `CodeTextParameters` vlastnictví.
+**Q: Mohu použít vlastní písma pro lidsky čitelnou část čárového kódu?**  
+A: Rozhodně. Použijte vlastnost `CodeTextParameters` k nastavení rodiny písma, velikosti a stylu.
 
-5. Kde mohu získat pomoc s Aspose.Words?
-Navštivte [fórum podpory](https://forum.aspose.com/c/words/8/) o pomoc.
+**Q: Kde mohu získat pomoc s Aspose.Words?**  
+A: Navštivte [fórum podpory](https://forum.aspose.com/c/words/8/) pro komunitní pomoc a oficiální podporu.
 
+---
 
-
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

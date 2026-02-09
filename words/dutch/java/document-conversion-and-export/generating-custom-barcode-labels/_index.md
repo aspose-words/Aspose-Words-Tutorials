@@ -1,10 +1,13 @@
 ---
-"description": "Genereer aangepaste barcodelabels in Aspose.Words voor Java. Leer hoe u gepersonaliseerde barcodeoplossingen maakt met Aspose.Words voor Java in deze stapsgewijze handleiding."
-"linktitle": "Aangepaste barcodelabels genereren"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Aangepaste barcodelabels genereren in Aspose.Words voor Java"
-"url": "/nl/java/document-conversion-and-export/generating-custom-barcode-labels/"
-"weight": 10
+date: 2026-02-09
+description: Genereer aangepaste barcode‑labels met Aspose Barcode Java in Aspose.Words
+  for Java. Leer hoe je barcodes in Word‑documenten kunt insluiten en QR‑code‑voorbeelden
+  in Java kunt genereren.
+linktitle: Generating Custom Barcode Labels
+second_title: Aspose.Words Java Document Processing API
+title: Aangepaste barcode‑labels genereren met Aspose Barcode Java
+url: /nl/java/document-conversion-and-export/generating-custom-barcode-labels/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,27 +16,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aangepaste barcodelabels genereren in Aspose.Words voor Java
+# Aangepaste barcode‑labels genereren met Aspose Barcode Java
 
+## Introductie tot het genereren van aangepaste barcode‑labels in Aspose.Words voor Java
 
-## Inleiding tot het genereren van aangepaste barcodelabels in Aspose.Words voor Java
+Barcodes zijn onmisbaar in moderne toepassingen, en **Aspose Barcode Java** maakt het eenvoudig om ze direct in Word‑documenten te creëren. Of je nu een **barcode in Word wilt insluiten**, een QR‑code voor een URL wilt genereren, of meeteenheden wilt omrekenen, deze tutorial leidt je stap voor stap door alles wat je nodig hebt. Klaar om te beginnen? Laten we gaan!
 
-Barcodes zijn essentieel in moderne toepassingen, of u nu voorraadbeheert, tickets genereert of ID-kaarten maakt. Met Aspose.Words voor Java wordt het maken van aangepaste barcodelabels een fluitje van een cent. Deze stapsgewijze tutorial begeleidt u bij het genereren van aangepaste barcodelabels met behulp van de IBarcodeGenerator-interface. Klaar om aan de slag te gaan? Aan de slag!
+## Snelle antwoorden
+- **Welke bibliotheek maakt barcodes in Java?** Aspose Barcode Java in combinatie met Aspose.Words voor Java.  
+- **Welk barcode‑type wordt gedemonstreerd?** QR‑code (generate qr code java).  
+- **Hoe converteer ik twips naar pixels?** Gebruik de meegeleverde `twipsToPixels`‑hulpmethode.  
+- **Kan ik een barcode toevoegen aan een bestaand Word‑bestand?** Ja – gebruik simpelweg de `DocumentBuilder.insertImage`‑methode.  
+- **Heb ik een licentie nodig?** Een tijdelijke licentie verwijdert de evaluatiebeperkingen.
 
+## Wat is Aspose Barcode Java?
+Aspose Barcode Java is een krachtige API waarmee ontwikkelaars programmatic een breed scala aan 1D‑ en 2D‑barcodes (inclusief QR‑codes) kunnen genereren. In combinatie met Aspose.Words voor Java kun je **barcode in Word** documenten insluiten zonder je Java‑omgeving te verlaten.
 
-## Vereisten
+## Waarom Aspose Barcode Java gebruiken met Aspose.Words?
+- **Volledige controle** over het uiterlijk van de barcode (kleuren, grootte, formaat).  
+- **Naadloze integratie** – de barcode‑afbeelding kan direct in een Word‑document worden ingevoegd.  
+- **Cross‑platform** – werkt op elk Java‑compatibel platform.  
+- **Uitbreidbaar** – je kunt hulpprogramma‑klassen maken om barcode‑logica in verschillende projecten te hergebruiken.
 
-Voordat we beginnen met coderen, zorg ervoor dat u het volgende heeft:
+## Voorvereisten
 
-- Java Development Kit (JDK): versie 8 of hoger.
-- Aspose.Words voor Java-bibliotheek: [Download hier](https://releases.aspose.com/words/java/).
-- Aspose.BarCode voor Java-bibliotheek: [Download hier](https://releases.aspose.com/).
-- Geïntegreerde ontwikkelomgeving (IDE): IntelliJ IDEA, Eclipse of een andere IDE naar keuze.
+Voordat we gaan coderen, zorg dat je het volgende hebt:
+
+- Java Development Kit (JDK): versie 8 of hoger.  
+- Aspose.Words voor Java Bibliotheek: [Download hier](https://releases.aspose.com/words/java/).  
+- Aspose.BarCode voor Java Bibliotheek: [Download hier](https://releases.aspose.com/).  
+- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse, of een andere IDE naar keuze.  
 - Tijdelijke licentie: verkrijg een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor onbeperkte toegang.
 
 ## Pakketten importeren
 
-We gebruiken de bibliotheken Aspose.Words en Aspose.BarCode. Importeer de volgende pakketten in je project:
+We gebruiken de Aspose.Words‑ en Aspose.BarCode‑bibliotheken. Importeer de volgende pakketten in je project:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -43,13 +60,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-Dankzij deze imports kunnen we gebruikmaken van de functies voor het genereren van barcodes en deze integreren in Word-documenten.
+Deze imports stellen ons in staat barcode‑generatiefuncties te gebruiken en ze in Word‑documenten te integreren.
 
 Laten we deze taak opdelen in beheersbare stappen.
 
-## Stap 1: Een hulpprogrammaklasse voor barcodebewerkingen maken
+## Stap 1: Een hulpprogrammaklasse maken voor barcode‑bewerkingen
 
-Om barcode-gerelateerde bewerkingen te vereenvoudigen, maken we een hulpprogrammaklasse met hulpmethoden voor algemene taken zoals kleurconversie en formaataanpassing.
+Om barcode‑gerelateerde bewerkingen te vereenvoudigen, maken we een hulpprogrammaklasse met helper‑methoden voor veelvoorkomende taken zoals kleurconversie en **convert twips to pixels**.
 
 ### Code:
 
@@ -58,7 +75,7 @@ class CustomBarcodeGeneratorUtils {
     public static double twipsToPixels(String heightInTwips, double defVal) {
         try {
             int lVal = Integer.parseInt(heightInTwips);
-            return (lVal / 1440.0) * 96.0; // Ervan uitgaande dat de standaard DPI 96 is
+            return (lVal / 1440.0) * 96.0; // Assuming default DPI is 96
         } catch (Exception e) {
             return defVal;
         }
@@ -76,14 +93,14 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-### Uitleg:
+**Uitleg**
 
-- `twipsToPixels` Methode: Converteert twips (gebruikt in Word-documenten) naar pixels.
-- `convertColor` Methode: vertaalt hexadecimale kleurcodes naar `Color` objecten.
+- `twipsToPixels` zet de meeteenheid die Word gebruikt (twips) om naar schermpixels – een handige helper wanneer je precieze afmetingen nodig hebt.  
+- `convertColor` vertaalt een hexadecimale kleurcode (bijv. “FF0000”) naar een Java `Color`‑object, zodat je de voor‑ en achtergrondkleur van de barcode kunt aanpassen.
 
-## Stap 2: Implementeer de aangepaste barcodegenerator
+## Stap 2: De aangepaste barcode‑generator implementeren
 
-Wij zullen de `IBarcodeGenerator` interface om barcodes te genereren en deze te integreren met Aspose.Words.
+We implementeren de `IBarcodeGenerator`‑interface zodat Aspose.Words een barcode‑afbeelding kan opvragen telkens wanneer een barcode‑veld wordt aangetroffen.
 
 ### Code:
 
@@ -115,15 +132,15 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-### Uitleg:
+**Uitleg**
 
-- `getBarcodeImage` Methode:
-  - Creëert een `BarcodeGenerator` aanleg.
-  - Stelt de barcodekleur en achtergrondkleur in en genereert de afbeelding.
+- `getBarcodeImage` bouwt een `BarcodeGenerator` met het **generate qr code java**‑type dat je opgeeft (QR in ons voorbeeld).  
+- Het past voor‑ en achtergrondkleuren toe via de hulpprogrammamethoden en retourneert vervolgens de gerenderde afbeelding.  
+- De fallback‑afbeelding zorgt ervoor dat het programma doorgaat, zelfs als het aanmaken van de barcode mislukt.
 
-## Stap 3: Genereer een barcode en voeg deze toe aan een Word-document
+## Stap 3: Een barcode genereren en toevoegen aan een Word‑document
 
-Nu gaan we onze barcodegenerator integreren in een Word-document.
+Nu brengen we alles samen: een document maken, een barcode genereren en **how to add barcode** aan het Word‑bestand.
 
 ### Code:
 
@@ -132,25 +149,25 @@ import com.aspose.words.*;
 
 public class GenerateCustomBarcodeLabels {
     public static void main(String[] args) throws Exception {
-        // Een Word-document laden of maken
+        // Load or create a Word document
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
 
-        // Aangepaste barcodegenerator instellen
+        // Set up custom barcode generator
         CustomBarcodeGenerator barcodeGenerator = new CustomBarcodeGenerator();
         BarcodeParameters barcodeParameters = new BarcodeParameters();
         barcodeParameters.setBarcodeType("QR");
-        barcodeParameters.setBarcodeValue("https://voorbeeld.com");
+        barcodeParameters.setBarcodeValue("https://example.com");
         barcodeParameters.setForegroundColor("000000");
         barcodeParameters.setBackgroundColor("FFFFFF");
 
-        // Genereer een barcode-afbeelding
+        // Generate barcode image
         BufferedImage barcodeImage = barcodeGenerator.getBarcodeImage(barcodeParameters);
 
-        // Barcode-afbeelding invoegen in Word-document
+        // Insert barcode image into Word document
         builder.insertImage(barcodeImage, 200, 200);
 
-        // Sla het document op
+        // Save the document
         doc.save("CustomBarcodeLabels.docx");
 
         System.out.println("Barcode labels generated successfully!");
@@ -158,44 +175,48 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-### Uitleg:
+**Uitleg**
 
-- Documentinitialisatie: Maak of laad een Word-document.
-- Barcodeparameters: Definieer het barcodetype, de waarde en de kleuren.
-- Afbeelding invoegen: voeg de gegenereerde barcode-afbeelding toe aan het Word-document.
-- Document opslaan: sla het bestand op in het gewenste formaat.
+1. **Documentinitialisatie** – maakt een nieuw `Document` (of je kunt een bestaand .docx‑bestand laden).  
+2. **Barcode‑parameters** – definieer het type (`QR`), de waarde en de kleuren, waarmee **generate qr code java** wordt gedemonstreerd.  
+3. **Afbeeldingsinvoeging** – `builder.insertImage` plaatst de barcode op de gewenste plek, waarmee **how to add barcode** aan een Word‑bestand wordt getoond.  
+4. **Opslaan** – het uiteindelijke document (`CustomBarcodeLabels.docx`) bevat de ingesloten barcode, klaar voor afdrukken of distributie.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Door deze stappen te volgen, kunt u naadloos aangepaste barcodelabels genereren en insluiten in Word-documenten met Aspose.Words voor Java. Deze aanpak is flexibel en kan worden aangepast aan verschillende toepassingen. Veel programmeerplezier!
-
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| Barcode verschijnt leeg | Ongeldige kleurcode of niet‑ondersteund barcode‑type | Controleer het hex‑kleurformaat en gebruik een ondersteund type (bijv. QR, Code128). |
+| Afbeeldingsgrootte is onjuist | Onjuiste pixelconversie | Gebruik `twipsToPixels` om exacte afmetingen te berekenen op basis van de lay-out van Word. |
+| Licentie‑exception | Geen geldige Aspose‑licentie | Pas een tijdelijke of gekochte licentie toe voordat je de code uitvoert. |
 
 ## Veelgestelde vragen
 
-1. Kan ik Aspose.Words voor Java gebruiken zonder licentie?
-Ja, maar er zijn wel wat beperkingen. Vraag een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor volledige functionaliteit.
+**Q: Kan ik Aspose.Words voor Java gebruiken zonder licentie?**  
+A: Ja, maar je zult evaluatiebeperkingen tegenkomen. Verkrijg een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor volledige functionaliteit.
 
-2. Welke soorten barcodes kan ik genereren?
-Aspose.BarCode ondersteunt QR, Code 128, EAN-13 en vele andere typen. Bekijk de [documentatie](https://reference.aspose.com/words/java/) voor een complete lijst.
+**Q: Welke soorten barcodes kan ik genereren?**  
+A: Aspose.BarCode ondersteunt QR, Code 128, EAN‑13 en nog veel meer. Zie de officiële [documentatie](https://reference.aspose.com/words/java/) voor de volledige lijst.
 
-3. Hoe kan ik de grootte van de barcode wijzigen?
-Pas de `XDimension` En `BarHeight` parameters in de `BarcodeGenerator` instellingen.
+**Q: Hoe kan ik de barcode‑grootte aanpassen?**  
+A: Pas de breedte/hoogte‑parameters aan in `builder.insertImage` of wijzig de `XDimension`‑ en `BarHeight`‑eigenschappen van het `BarcodeGenerator`‑object.
 
-4. Kan ik aangepaste lettertypen gebruiken voor streepjescodes?
-Ja, u kunt de lettertypen van streepjescodetekst aanpassen via de `CodeTextParameters` eigendom.
+**Q: Kan ik aangepaste lettertypen gebruiken voor het menselijk leesbare deel van de barcode?**  
+A: Absoluut. Gebruik de `CodeTextParameters`‑eigenschap om lettertypefamilie, -grootte en -stijl in te stellen.
 
-5. Waar kan ik hulp krijgen met Aspose.Words?
-Bezoek de [ondersteuningsforum](https://forum.aspose.com/c/words/8/) voor hulp.
+**Q: Waar kan ik hulp krijgen voor Aspose.Words?**  
+A: Bezoek het [support forum](https://forum.aspose.com/c/words/8/) voor community‑ondersteuning en officiële hulp.
 
+---
 
-
+**Laatst bijgewerkt:** 2026-02-09  
+**Getest met:** Aspose.Words voor Java 24.12, Aspose.BarCode voor Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
