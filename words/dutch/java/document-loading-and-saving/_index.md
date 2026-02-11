@@ -130,6 +130,9 @@ Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg
 ### [Documentformaat bepalen in Aspose.Words for Java](./determining-document-format/)
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
+### [Hoe docx te herstellen – Complete gids om corrupte Word‑bestanden te lezen](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Leer stap‑voor‑stap hoe je beschadigde .docx‑bestanden kunt openen en herstellen met Aspose.Words for Java.
+
 ## Veelgestelde vragen
 
 **Q:** Hoe kan ik programmatisch **save images from word** documenten opslaan?  

@@ -34,6 +34,9 @@ Aspose.Words Java için bir kod eğitimi
 ### [Java için Aspose.Words'ü kullanarak Belge Sayfalarını Küçük Resim Olarak Nasıl Oluşturursunuz](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerini ve özel boyutlu bit eşlemlerini nasıl oluşturacağınızı öğrenin. Belge işleme yeteneklerinizi bugün geliştirin.
 
+### [Java ile Word'de Dikdörtgen Şekil Oluşturma – Tam Kılavuz](./create-rectangle-shape-in-word-with-java-full-guide/)
+Java kullanarak Word belgelerine dikdörtgen şekil eklemeyi ve özelleştirmeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

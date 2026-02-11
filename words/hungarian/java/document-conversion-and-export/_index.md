@@ -86,6 +86,21 @@ Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
 
+### [Képek beágyazása base64 formátumban a DOCX Markdown‑ra konvertálásakor Java‑ban](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Tanuld meg, hogyan ágyazz be képeket base64 kódolással a DOCX‑ből Markdown‑ba konvertálás során Java‑val.
+
+### [Hogyan exportáljunk LaTeX-et DOCX‑ből – Teljes Java útmutató](./how-to-export-latex-from-docx-complete-java-guide/)
+Tanuld meg, hogyan konvertálj DOCX fájlokat LaTeX formátumba Java‑val az Aspose.Words segítségével.
+
+### [DOCX mentése PDF‑ként Aspose.Words for Java‑val – Teljes Java útmutató](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Tanuld meg, hogyan konvertálj DOCX fájlokat PDF‑re az Aspose.Words for Java segítségével lépésről‑lépésre útmutatóban.
+
+### [Hogyan exportáljunk Markdown-et Word‑ből – Teljes Java útmutató](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Tanuld meg, hogyan konvertálj Word‑dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével lépésről‑lépésre.
+
+### [Hozzáférhető PDF generálása Word-ből az Aspose.Words for Java‑val](./generate-accessible-pdf-from-word-with-aspose-java/)
+Tanuld meg, hogyan hozhatsz létre hozzáférhető PDF-et Word dokumentumokból az Aspose.Words for Java használatával.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

@@ -39,6 +39,8 @@ Pelajari cara menyempurnakan dokumen Anda dengan bentuk dan grafik menggunakan A
 Temukan pencetakan dan rendering dokumen yang efisien menggunakan Aspose.Words untuk Java. Pelajari langkah demi langkah dengan contoh kode sumber.
 ### [Merender Dokumen ke HTML](./rendering-documents-html/)
 Pelajari cara mengubah dokumen menjadi HTML dengan mudah menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk konversi dokumen yang efisien.
+### [Cara Menangani Font di Java dengan Aspose.Words – Panduan Lengkap](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Pelajari cara mengelola font dalam aplikasi Java menggunakan Aspose.Words, termasuk penambahan, penggantian, dan pemuatan font secara dinamis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

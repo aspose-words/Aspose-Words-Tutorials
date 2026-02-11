@@ -130,6 +130,9 @@ Lär dig hur du sparar dokument som textfiler med Aspose.Words för Java. Följ 
 ### [Bestämma dokumentformat i Aspose.Words för Java](./determining-document-format/)
 Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera DOC, DOCX och mer. Organisera filer effektivt.
 
+### [Hur du återställer docx – Komplett guide för att läsa korrupta Word‑filer](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Lär dig hur du reparerar och läser korrupta .docx‑filer med Aspose.Words för Java i denna steg‑för‑steg‑guide.
+
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  

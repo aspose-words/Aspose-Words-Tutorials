@@ -69,6 +69,12 @@ Untuk informasi lebih lanjut, lihat [Dokumentasi API Aspose.Words for Java](http
 ### [Membuat Label Barcode Kustom di Aspose.Words for Java](./generating-custom-barcode-labels/)
 Buat Label Barcode Kustom di Aspose.Words for Java. Pelajari cara membuat solusi barcode yang dipersonalisasi menggunakan Aspose.Words for Java dalam panduan langkah demi langkah ini.
 
+### [Menyematkan Gambar sebagai Base64 saat Mengonversi DOCX ke Markdown di Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Pelajari cara menyematkan gambar dalam format Base64 saat mengonversi file DOCX ke Markdown menggunakan Aspose.Words for Java.
+
+### [Simpan docx sebagai pdf dengan Aspose.Words – Panduan Java Lengkap](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Panduan lengkap cara menyimpan file DOCX menjadi PDF menggunakan Aspose.Words for Java dalam beberapa langkah mudah.
+
 ### [Menggunakan Pembuatan Barcode di Aspose.Words for Java](./using-barcode-generation/)
 Pelajari cara menghasilkan barcode kustom di Java menggunakan Aspose.Words for Java. Panduan langkah demi langkah dengan kode sumber untuk pembuatan barcode. Tingkatkan otomatisasi dokumen dengan Aspose.Words.
 
@@ -86,6 +92,14 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
+
+### [Cara Mengekspor LaTeX dari DOCX – Panduan Lengkap Java](./how-to-export-latex-from-docx-complete-java-guide/)
+
+### [Cara Mengekspor Markdown dari Word menggunakan Java – Panduan Lengkap](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words for Java dalam panduan langkah demi langkah yang lengkap.
+
+### [Membuat PDF yang dapat diakses dari Word dengan Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+Pelajari cara menghasilkan PDF yang memenuhi standar aksesibilitas dari dokumen Word menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

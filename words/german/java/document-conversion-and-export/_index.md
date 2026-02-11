@@ -43,7 +43,7 @@ Ein Wasserzeichen ist ein schwaches Bild oder ein Text, der hinter dem Hauptinha
 - Eine gültige Aspose‑Lizenz für den Produktionseinsatz (kostenlose Testversion verfügbar).
 
 ## Erste Schritte mit Aspose.Words for Java
-Sind Sie neu bei Aspose.Words for Java? Keine Sorge! Dieses Tutorial führt Sie durch die Erstkonfiguration und bietet Ihnen eine solide Grundlage für die Arbeit mit dieser API. Sie sind im Handumdrehen einsatzbereit.
+Sind Sie neu bei Aspose.Words für Java? Keine Sorge! Dieses Tutorial führt Sie durch die Erstkonfiguration und bietet Ihnen eine solide Grundlage für die Arbeit mit dieser API. Sie sind im Handumdrehen einsatzbereit.
 
 ## Dokumente in verschiedene Formate konvertieren
 Eine der Hauptfunktionen von Aspose.Words for Java ist die Fähigkeit, **convert docx to pdf** und viele andere Formate nahtlos zu konvertieren. Egal, ob Sie eine DOCX‑Datei in PDF oder umgekehrt konvertieren müssen, dieses Tutorial führt Sie Schritt für Schritt durch den Prozess. Sie erhalten ein tiefes Verständnis der Konvertierungsoptionen und Anpassungsmöglichkeiten.
@@ -68,9 +68,9 @@ Weitere Informationen finden Sie im [Aspose.Words für Java API-Dokumentation](h
 2. Verwenden Sie `builder.insertWatermarkText("CONFIDENTIAL");` oder `builder.insertWatermarkImage(imageStream);`.  
 3. Speichern Sie das Dokument im gewünschten Format (PDF, DOCX usw.).
 
-Am Ende dieser Tutorials verfügen Sie über das Wissen und die Fähigkeiten, um Dokumentkonvertierungs‑ und Exportaufgaben mit Aspose.Words for Java sicher durchzuführen. Machen Sie sich bereit, Ihre Dokumentenverarbeitung zu optimieren und Ihre Produktivität mit dieser leistungsstarken API zu steigern.
+Am Ende dieser Tutorials verfügen Sie über das Wissen und die Fähigkeiten, um Dokumentkonvertierungs‑ und Exportaufgaben mit Aspose.Words für Java sicher durchzuführen. Machen Sie sich bereit, Ihre Dokumentenverarbeitung zu optimieren und Ihre Produktivität mit dieser leistungsstarken API zu steigern.
 
-Tauchen Sie also in die unten aufgeführten Tutorials ein und erschließen Sie das volle Potenzial von Aspose.Words for Java in Ihren dokumentbezogenen Projekten. Viel Spaß beim Programmieren!
+Tauchen Sie also in die unten aufgeführten Tutorials ein und erschließen Sie das volle Potenzial von Aspose.Words für Java in Ihren dokumentbezogenen Projekten. Viel Spaß beim Programmieren!
 
 Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/) an, und um zu beginnen, laden Sie sie von [hier](https://releases.aspose.com/words/java/) herunter. Wenn Sie Fragen haben oder Unterstützung benötigen, besuchen Sie unser [support forum](https://forum.aspose.com/).
 
@@ -95,6 +95,21 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
+
+### [Bilder als Base64 einbetten beim Konvertieren von DOCX nach Markdown in Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Erfahren Sie, wie Sie beim Konvertieren von DOCX nach Markdown Bilder als Base64‑String einbetten.
+
+### [Wie man LaTeX aus DOCX exportiert – vollständiger Java‑Leitfaden](./how-to-export-latex-from-docx-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java Inhalte aus DOCX in LaTeX konvertieren und dabei Formatierung beibehalten.
+
+### [DOCX als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung für Java‑Entwickler.
+
+### [Wie man Markdown aus Word mit Java exportiert – vollständiger Java‑Leitfaden](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word‑Dokumenten in Markdown konvertieren und dabei Formatierung beibehalten.
+
+### [Barrierefreies PDF aus Word mit Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java barrierefreie PDFs aus Word-Dokumenten erstellen und PDF/UA‑Konformität sicherstellen.
 
 ## Häufig gestellte Fragen
 
