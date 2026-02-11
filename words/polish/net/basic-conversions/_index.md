@@ -35,6 +35,9 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Zapisz PDF do formatu Word (Docx)](./pdf-to-docx/) | Dowiedz się, jak przekonwertować plik PDF na dokument Word (Docx) za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Idealne dla programistów. |
 | [Jak wyeksportować LaTeX z Worda – przewodnik krok po kroku](./how-to-export-latex-from-word-step-by-step-guide/) | Dowiedz się, jak wyeksportować dokument Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać plik DOCX jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Utwórz dostępny PDF – konwertuj Word do PDF z dostępnością](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word, zachowując strukturę i tagi dostępności przy użyciu Aspose.Words dla .NET. |
+| [Odzyskaj uszkodzony DOCX – pełny przewodnik naprawy, eksport do PDF i Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Dowiedz się, jak naprawić uszkodzony plik DOCX i wyeksportować go do PDF i formatu Markdown przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

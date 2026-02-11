@@ -34,7 +34,7 @@ Používáním Aspose.Words pro .NET a podle těchto tutoriálů zvládnete mani
 | [Detekce tvaru inteligentního umění](./detect-smart-art-shape/) | Naučte se, jak detekovat tvary SmartArt v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto komplexním průvodci. Ideální pro automatizaci pracovního postupu s dokumenty. |
 | [Aktualizace kresby Smart Art](./update-smart-art-drawing/) | Naučte se, jak aktualizovat kresby Smart Art v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Zajistěte, aby vaše vizuální prvky byly vždy přesné. |
 | [Vytvořit obdélníkový tvar ve Wordu s Aspose.Words – krok za krokem](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Naučte se, jak pomocí Aspose.Words vytvořit obdélníkový tvar ve Wordu krok za krokem. |
-
+| [Přidat stínový efekt k tvarům ve Wordu – kompletní průvodce C#](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Naučte se, jak přidat stínový efekt k tvarům v dokumentech Word pomocí Aspose.Words pro .NET v tomto podrobném průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

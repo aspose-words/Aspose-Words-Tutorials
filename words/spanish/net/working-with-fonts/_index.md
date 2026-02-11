@@ -20,7 +20,7 @@ Los tutoriales de Procesamiento de palabras con fuentes lo guiarán a través de
 
 Los tutoriales ofrecen explicaciones detalladas paso a paso de cada función, junto con código fuente en C# para ilustrar los conceptos. Aprenderá a usar las clases y métodos de la biblioteca Aspose.Words para .NET para realizar tareas específicas relacionadas con las fuentes en sus documentos de Word.
 
-Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de sustitución de fuentes, cargar fuentes desde directorios específicos o recibir notificaciones de fuentes, los tutoriales "Procesamiento de textos con fuentes" le proporcionarán el conocimiento para realizar estas tareas con facilidad.
+Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de sustitución de fuentes, cargar fuentes desde directorios específicos o recibir notificaciones de fuentes, los tutoriales "Procesamiento de textos con fuentes" le proporcionaràn el conocimiento para realizar estas tareas con facilidad.
 
  ## Tutoriales
 | Título | Descripción |
@@ -47,8 +47,8 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Recibir notificaciones de fuentes](./receive-notifications-of-fonts/) | Aprenda cómo recibir notificaciones de fuentes faltantes o sustituidas al usar Aspose.Words para .NET. |
 | [Recibir notificación de advertencia](./receive-warning-notification/) Aprenda cómo recibir una notificación de advertencia al usar Aspose.Words para .NET y administrar cualquier problema o advertencia en sus documentos. |
 | [Ejemplo de fuente de recurso de Steam](./resource-steam-font-source-example/) | Aprenda a utilizar la fuente de flujo de recursos para cargar fuentes personalizadas en Aspose.Words para .NET. |
-| [Obtener sustitución sin sufijos](./get-substitution-without-suffixes/) | En este tutorial, aprenda cómo obtener anulaciones sin sufijos en un documento de Word con Aspose.Words para .NET.
-
+| [Obtener sustitución sin sufijos](./get-substitution-without-suffixes/) | En este tutorial, aprenda cómo obtener anulaciones sin sufijos en un documento de Word con Aspose.Words para .NET. |
+| [Establecer devolución de llamada de advertencia en C# – Guía completa de manejo de fuentes](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Aprenda a configurar una devolución de llamada de advertencia para la gestión de fuentes en Aspose.Words para .NET con este tutorial paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,18 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [DOCX als TXT speichern – DOCX in Markdown konvertieren](./save-docx-as-txt-convert-docx-to-markdown/)
+Speichern Sie DOCX-Dateien als TXT und konvertieren Sie sie anschließend in Markdown – Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Word als Markdown speichern – Vollständige C#‑Anleitung](./how-to-save-word-as-markdown-complete-c-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown speichern – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Wie man Bilder in Markdown aus DOCX einbettet](./how-to-embed-images-in-markdown-from-docx/)
+Erfahren Sie, wie Sie Bilder aus DOCX-Dokumenten extrahieren und in Markdown einbetten.
+
+### [Wie man die Auflösung beim Konvertieren von DOCX in Markdown festlegt](./how-to-set-resolution-when-converting-docx-to-markdown/)
+Erfahren Sie, wie Sie die Bildauflösung beim Exportieren von DOCX nach Markdown mit Aspose.Words für .NET festlegen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

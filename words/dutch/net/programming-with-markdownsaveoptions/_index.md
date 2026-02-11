@@ -54,6 +54,18 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 
+### [Docx opslaan als txt – converteer docx naar markdown](./save-docx-as-txt-convert-docx-to-markdown/)
+
+Leer hoe u een DOCX-bestand opslaat als TXT en vervolgens converteert naar Markdown met Aspose.Words voor .NET.
+
+### [Hoe afbeeldingen in Markdown in te sluiten vanuit DOCX](./how-to-embed-images-in-markdown-from-docx/)
+
+Leer hoe u afbeeldingen uit een DOCX-document in Markdown kunt embedden met Aspose.Words voor .NET.
+
+### [Hoe resolutie in te stellen bij het converteren van DOCX naar Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
+
+Leer hoe u de resolutie configureert bij het omzetten van DOCX naar Markdown met Aspose.Words voor .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

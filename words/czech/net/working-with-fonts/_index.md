@@ -18,7 +18,7 @@
 
 Výukové programy pro práci s písmy ve Wordu vás provedou různými aspekty práce s písmy ve Wordu a umožní vám provádět operace, jako je změna formátování písma, načítání písem z konkrétních adresářů, správa nahrazujících písem a další.
 
-Výukové programy vám poskytnou podrobná vysvětlení krok za krokem pro každou funkci spolu se zdrojovým kódem v jazyce C# pro ilustraci konceptů. Naučíte se, jak používat třídy a metody z knihovny Aspose.Words pro .NET k provádění specifických úkolů souvisejících s písmy v dokumentech Word.
+Výukové programy vám poskytnou podrobné vysvětlení krok za krokem pro každou funkci spolu se zdrojovým kódem v jazyce C# pro ilustraci konceptů. Naučíte se, jak používat třídy a metody z knihovny Aspose.Words pro .NET k provádění specifických úkolů souvisejících s písmy v dokumentech Word.
 
 Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro nahrazování fontů, načíst fonty z konkrétních adresářů nebo dostávat oznámení o fontech, tutoriály „Zpracování textu pomocí fontů“ vám poskytnou znalosti, které vám pomohou tyto úkoly snadno zvládnout.
 
@@ -40,12 +40,13 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Nastavení složek s písmy s prioritou](./set-fonts-folders-with-priority/) | Naučte se, jak nastavit prioritu složek písem v dokumentech Word pomocí Aspose.Words pro .NET. Náš průvodce zajistí, že se vaše dokumenty pokaždé vykreslí perfektně. |
 | [Nastavení složky s fonty True Type](./set-true-type-fonts-folder/) | Naučte se, jak nastavit složku s písmy True Type v dokumentech Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu krok za krokem, abyste zajistili konzistentní správu písem. |
 | [Zadání výchozího písma při vykreslování](./specify-default-font-when-rendering/) | Naučte se, jak zadat výchozí písmo při vykreslování dokumentů Word pomocí Aspose.Words pro .NET. Zajistěte konzistentní vzhled dokumentu napříč platformami. |
-| [Nastavení písma s možnostmi načtení](./font-settings-with-load-options/) Naučte se, jak spravovat nastavení písma pomocí možností načítání v Aspose.Words pro .NET. Podrobný návod pro vývojáře, jak zajistit konzistentní vzhled písma v dokumentech Wordu.
+| [Nastavení písma s možnostmi načtení](./font-settings-with-load-options/) Naučte se, jak spravovat nastavení písma pomocí možností načítání v Aspose.Words pro .NET. Podrobný návod pro vývojáře, jak zajistit konzistentní vzhled písma v dokumentech Wordu. |
 | [Nastavit složku písem](./set-fonts-folder/) | Naučte se, jak nastavit vlastní složku s fonty v Aspose.Words pro .NET, abyste zajistili správné vykreslování dokumentů Wordu bez chybějících fontů. |
 | [Výchozí instance nastavení písma](./font-settings-default-instance/) | V tomto tutoriálu se naučíte, jak nakonfigurovat výchozí nastavení písma v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Zobrazit seznam dostupných písem](./get-list-of-available-fonts/) | Zjistěte, jak získat seznam dostupných písem pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. Zlepšete si své dovednosti v oblasti správy písem. |
 | [Dostávat oznámení o písmech](./receive-notifications-of-fonts/) | Zjistěte, jak dostávat upozornění na chybějící nebo nahrazená písma při používání Aspose.Words pro .NET. |
 | [Přijímat varovné oznámení](./receive-warning-notification/) Naučte se, jak přijímat varovné upozornění při používání Aspose.Words pro .NET a jak řešit případné problémy nebo varování v dokumentech. |
+| [Nastavit varovný callback v C# – Kompletní průvodce správou písem](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Naučte se, jak nastavit varovný callback v Aspose.Words pro .NET v C# a spravovat upozornění na písma. |
 | [Příklad zdroje písma Steam](./resource-steam-font-source-example/) | Naučte se, jak používat zdroj písem Resource Stream k načtení vlastních písem do Aspose.Words pro .NET. |
 | [Získat substituci bez přípon](./get-substitution-without-suffixes/) | V tomto tutoriálu se naučíte, jak získat přepsání bez přípon v dokumentu Word pomocí Aspose.Words pro .NET. |
 

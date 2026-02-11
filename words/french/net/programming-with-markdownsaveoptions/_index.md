@@ -25,6 +25,7 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Définir le dossier d'images](./set-images-folder/) | Convertissez des documents Word en Markdown avec un alignement de tableaux correct grâce à Aspose.Words pour .NET. Suivez notre guide détaillé pour des résultats parfaits. |
 | [Comment utiliser Markdown : convertir DOCX en Markdown avec des équations LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Apprenez à convertir des fichiers DOCX en Markdown en conservant les équations LaTeX grâce à Aspose.Words pour .NET. |
 | [Enregistrer docx en markdown – Guide complet C# avec extraction d'images](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Apprenez à enregistrer des fichiers DOCX en Markdown tout en extrayant les images grâce à Aspose.Words pour .NET. |
+| [Comment définir la résolution lors de la conversion de DOCX en Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/) | Apprenez à définir la résolution lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words pour .NET. |
 
 ### [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown – Convertir Word en Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
@@ -44,9 +45,15 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 
 ### [Comment exporter Markdown depuis Word – Guide complet C#](./how-to-export-markdown-from-word-complete-c-guide/)
 
+### [Comment enregistrer Word en Markdown – Guide complet C#](./how-to-save-word-as-markdown-complete-c-guide/)
+
 ### [Comment enregistrer le Markdown depuis DOCX – Guide étape par étape](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
+
+### [Enregistrer docx en txt – convertir docx en markdown](./save-docx-as-txt-convert-docx-to-markdown/)
+
+### [Comment intégrer des images dans Markdown depuis DOCX](./how-to-embed-images-in-markdown-from-docx/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

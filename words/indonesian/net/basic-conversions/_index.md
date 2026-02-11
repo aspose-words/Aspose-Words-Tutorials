@@ -33,8 +33,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Pdf sebagai Jpeg](./pdf-to-jpeg/) | Ubah PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar. Bahasa Indonesia: |
 | [Simpan PDF ke Format Word (Docx)](./pdf-to-docx/) | Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang. |
 | [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Panduan langkah demi langkah menyimpan dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Sempurna untuk pengembang. |
+| [Simpan docx sebagai pdf dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Panduan lengkap langkah demi langkah untuk menyimpan file DOCX sebagai PDF menggunakan Aspose.Words dalam C#. |
 | [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑demi‑Langkah](./how-to-export-latex-from-word-step-by-step-guide/) | Pelajari cara mengekspor dokumen Word ke format LaTeX dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
 | [Mengonversi Word ke PDF dalam C# menggunakan Aspose.Words – Panduan](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Panduan langkah demi langkah mengonversi dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Bahasa Indonesia: |
+| [Buat PDF Aksesibel – Mengonversi Word ke PDF dengan Aksesibilitas](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Pelajari cara membuat PDF yang memenuhi standar aksesibilitas dengan mengonversi dokumen Word menggunakan Aspose.Words untuk .NET. |
+| [Pulihkan DOCX Rusak – Panduan Lengkap untuk Memperbaiki, Ekspor PDF & Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Pelajari cara memperbaiki file DOCX yang rusak dan mengekspornya ke PDF atau Markdown menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
