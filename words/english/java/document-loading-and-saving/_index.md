@@ -92,6 +92,9 @@ Configuring RTF Load Options in Aspose.Words for Java. Learn how to recognize UT
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage Lists, Handle Spaces, and Control Text Direction.
 
+### [How to recover docx – Complete Guide to Read Corrupted Word Files](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Learn how to recover and read corrupted DOCX files using Aspose.Words for Java with step‑by‑step instructions and code samples.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle metafiles, and more. Your Word documents, your way.
 
@@ -158,4 +161,3 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -46,7 +46,7 @@ A seguir, um resumo conciso do fluxo de trabalho típico. (O código real é mos
 
 1. **Crie uma instância `Document`** – carregue o arquivo Word de origem (`.docx`, `.doc`, etc.).  
 2. **Itere pela `NodeCollection` do documento** para encontrar nós `Shape` que contêm imagens.  
-3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave-a em um arquivo usando `ImageData.save()`.
+3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave‑a em um arquivo usando `ImageData.save()`.
 
 > *Dica profissional:* `Document.getChildNodes(NodeType.SHAPE, true)` para recuperar todas as formas, incluindo as que estão dentro de cabeçalhos, rodapés e notas de rodapé.
 
@@ -58,7 +58,7 @@ Para realmente dominar a manipulação de documentos, é preciso primeiro compre
 
 #### Começando
 
-O primeiro passo da sua jornada é familiarizar-se com o básico. Vamos guiá-lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
+O primeiro passo da sua jornada é familiarizar‑se com o básico. Vamos guiá‑lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
 
 #### Carregando Documentos
 
@@ -98,6 +98,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Salvando Documentos no Formato RTF no Aspose.Words for Java](./saving-documents-as-rtf-format/)
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
+### [Como recuperar docx – Guia completo para ler arquivos Word corrompidos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
 ## Perguntas Frequentes
 

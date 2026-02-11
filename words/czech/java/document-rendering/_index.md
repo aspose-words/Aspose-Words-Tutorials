@@ -27,7 +27,7 @@ Aspose.Words pro Javu nabízí množství tutoriálů pro vykreslování dokumen
 Vykreslujte dokumenty bez námahy s tutoriály o vykreslování dokumentů v Aspose.Words pro Javu. Tyto průvodce nabízejí komplexní prozkoumání možností vykreslování a umožňují vám převádět dokumenty Wordu do různých formátů se zachováním jejich rozvržení a designu. Naučte se, jak vykreslovat dokumenty dávkově, přizpůsobovat nastavení výstupu a optimalizovat výkon vykreslování. Aspose.Words pro Javu vám umožňuje vytvářet vizuálně ohromující výstupy a efektivně spravovat úlohy zpracování textu a dokumentů. Zlepšete své dovednosti v oblasti vykreslování dokumentů a odemkněte nové možnosti s Aspose.Words pro Javu.
 
 ## Výukové programy pro vykreslování dokumentů
-### [Vykreslování hlavního dokumentu ](./master-document-rendering/)
+### [Vykreslování hlavního dokumentu](./master-document-rendering/)
 Naučte se vykreslování dokumentů s Aspose.Words pro Javu! Podrobný návod, včetně zdrojového kódu. Vylepšete aplikace pomocí bezproblémového zpracování dokumentů.
 ### [Vykreslování stránek dokumentu jako obrázků](./rendering-document-pages-images/)
 Naučte se, jak vykreslit stránky dokumentu jako obrázky pomocí Aspose.Words pro Javu. Podrobný návod s příklady kódu pro efektivní převod dokumentů.
@@ -39,6 +39,8 @@ Naučte se, jak vylepšit své dokumenty tvary a grafikou pomocí Aspose.Words p
 Objevte efektivní tisk a vykreslování dokumentů pomocí Aspose.Words pro Javu. Naučte se krok za krokem s příklady zdrojového kódu.
 ### [Vykreslování dokumentů do HTML](./rendering-documents-html/)
 Naučte se, jak snadno vykreslit dokumenty do HTML pomocí Aspose.Words pro Javu. Podrobný návod pro efektivní převod dokumentů.
+### [Jak pracovat s fonty v Javě pomocí Aspose.Words – Kompletní průvodce](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Naučte se spravovat fonty v Javě s Aspose.Words. Kompletní návod s ukázkami kódu pro správné zobrazení textu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

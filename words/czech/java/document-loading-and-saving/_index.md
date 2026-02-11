@@ -130,6 +130,8 @@ Naučte se ukládat dokumenty jako textové soubory pomocí Aspose.Words for Jav
 ### [Určování formátu dokumentu v Aspose.Words for Java](./determining-document-format/)
 Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory.
 
+### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ## Často kladené otázky
 
 **Q:** Jak mohu programově **uložit obrázky z Wordu** dokumentů?  

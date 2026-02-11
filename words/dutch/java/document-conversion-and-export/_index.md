@@ -43,7 +43,7 @@ Een watermark is een vage afbeelding of tekst die achter de hoofdinhoud van een 
 - Een geldige Aspose‑licentie voor productiegebruik (gratis proefversie beschikbaar).
 
 ## Aan de Slag met Aspose.Words for Java
-Ben je nieuw met Aspose.Words for Java? Geen zorgen! Deze tutorial leidt je door de eerste installatie en biedt je een solide basis om met deze API te werken. Je bent in een mum van tijd operationeel.
+Ben je nieuw met Aspose.Words for Java? Geen zorgen! deze tutorial leidt je door de eerste installatie en biedt je een solide basis om met deze API te werken. Je bent in een mum van tijd operationeel.
 
 ## Documenten Converteren naar Verschillende Formaten
 Een van de belangrijkste functies van Aspose.Words for Java is het vermogen om **convert docx to pdf** en vele andere formaten naadloos te converteren. Of je nu een DOCX‑bestand naar PDF moet converteren of omgekeerd, deze tutorial leidt je stap voor stap door het proces. Je krijgt een diepgaand begrip van de conversie‑opties en aanpassingsmogelijkheden.
@@ -88,6 +88,21 @@ Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tek
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
+
+### [Afbeeldingen insluiten als base64 bij het converteren van DOCX naar Markdown in Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Leer hoe je afbeeldingen omzet naar base64 en opneemt in Markdown bij het converteren van DOCX-bestanden met Aspose.Words for Java.
+
+### [Hoe Markdown vanuit Word exporteren – Complete Java-gids](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Leer hoe je met Aspose.Words for Java Markdown exporteert vanuit Word. Volg deze stap‑voor‑stap gids voor volledige controle.
+
+### [Hoe LaTeX vanuit DOCX exporteren – Complete Java-gids](./how-to-export-latex-from-docx-complete-java-guide/)
+Leer hoe u met Aspose.Words for Java LaTeX-code uit DOCX-bestanden kunt exporteren in een volledige stapsgewijze handleiding.
+
+### [DOCX opslaan als PDF met Aspose.Words – Complete Java-gids](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Leer hoe je een DOCX‑bestand opslaat als PDF met Aspose.Words in een volledige Java‑handleiding.
+
+### [Genereer Toegankelijke PDF vanuit Word met Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+Leer hoe je met Aspose.Words for Java een toegankelijke PDF genereert vanuit een Word‑document, inclusief tags en structuur.
 
 ## Veelgestelde Vragen
 

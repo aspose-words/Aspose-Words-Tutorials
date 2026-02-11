@@ -130,6 +130,9 @@ Zapisywanie dokumentów jako pliki tekstowe w Aspose.Words for Java. Dowiedz si�
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywać formaty dokumentów w Javie przy użyciu Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki efektywnie.
 
+### [Jak odzyskać docx – Kompletny przewodnik odczytu uszkodzonych plików Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Dowiedz się, jak odczytać i naprawić uszkodzone pliki DOCX przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jak programowo **save images from word** dokumenty?  
