@@ -31,10 +31,13 @@
 | [Μετατροπή Docx σε Txt](./docx-to-txt/) Μετατρέψτε DOCX σε TXT χρησιμοποιώντας το Aspose.Words για .NET με τον αναλυτικό οδηγό μας. Μάθετε να μετατρέπετε έγγραφα αποτελεσματικά και χωρίς κόπο. |
 | [Μετατροπή αρχείου κειμένου σε έγγραφο του Word](./txt-to-docx/) | Μάθετε πώς να μετατρέπετε αρχεία κειμένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Διαχειριστείτε αποτελεσματικά τις μετατροπές εγγράφων με τον ολοκληρωμένο οδηγό μας. | 
 | [Αποθήκευση PDF ως Jpeg](./pdf-to-jpeg/) | Μετατρέψτε εύκολα αρχεία PDF σε JPEG χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε τον λεπτομερή οδηγό μας με παραδείγματα και συχνές ερωτήσεις. Ιδανικό για προγραμματιστές και λάτρεις. |
-| [Αποθήκευση PDF σε μορφή Word (Docx)](./pdf-to-docx/) | Μάθετε πώς να μετατρέψετε ένα PDF σε έγγραφο Word (Docx) χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον λεπτομερή οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές. |
+| [Αποθήκευση PDF σε μορφή Word (Docx)](./pdf-to-docx/) | Μάθετε πώς να μετατρέψετε ένα PDF σε έγγραφο Word (Docx) χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον λεπτομερ... |
 | [Πώς να εξάγετε LaTeX από το Word – Οδηγός βήμα‑βήμα](./how-to-export-latex-from-word-step-by-step-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε μορφή LaTeX χρησιμοποιώντας το Aspose.Words για .NET με βήμα‑βήμα οδηγίες. |
 | [Μετατροπή Word σε PDF σε C# χρησιμοποιώντας το Aspose.Words – Οδηγός](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET σε C# με οδηγίες βήμα‑βήμα. |
 | [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
+| [Αποθήκευση docx ως PDF με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
+| [Δημιουργία Προσβάσιμου PDF – Μετατροπή Word σε PDF με Προσβασιμότητα](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Μάθετε πώς να δημιουργήσετε PDF με προσβασιμότητα μετατρέποντας έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Ανάκτηση Κατεστραμμένου DOCX – Πλήρης Οδηγός για Διόρθωση, Εξαγωγή PDF & Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX, να τα διορθώσετε και να τα εξάγετε ως PDF ή Markdown με το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

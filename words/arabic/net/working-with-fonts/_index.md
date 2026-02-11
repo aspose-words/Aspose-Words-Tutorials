@@ -48,7 +48,7 @@
 | [تلقي إشعار تحذير](./receive-warning-notification/) |تعرف على كيفية تلقي إشعار تحذير عند استخدام Aspose.Words لـ .NET وإدارة أي مشكلات أو تحذيرات في مستنداتك. |
 | [مثال على مصدر خط Steam](./resource-steam-font-source-example/) |تعرف على كيفية استخدام مصدر خط Resource Stream لتحميل الخطوط المخصصة في Aspose.Words لـ .NET. |
 | [الحصول على الاستبدال بدون لاحقات](./get-substitution-without-suffixes/) |في هذا البرنامج التعليمي، تعلم كيفية الحصول على تجاوزات بدون لاحقات في مستند Word باستخدام Aspose.Words لـ .NET. |
-
+| [تعيين رد نداء التحذير في C# – دليل كامل لمعالجة الخطوط](./set-warning-callback-in-c-complete-guide-to-font-handling/) |تعرف على كيفية تعيين رد نداء التحذير لمعالجة الخطوط باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

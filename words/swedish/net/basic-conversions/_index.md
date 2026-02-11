@@ -35,6 +35,9 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Exportera LaTeX från Word – steg‑för‑steg‑guide](./how-to-export-latex-from-word-step-by-step-guide/) | Lär dig hur du exporterar LaTeX från ett Word-dokument med Aspose.Words för .NET i en tydlig steg‑för‑steg‑guide. |
 | [Konvertera Word till PDF i C# med Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Lär dig hur du konverterar Word-dokument till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
 | [Spara Word som PDF med Aspose.Words – Komplett C#-guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
+| [Spara docx som PDF med Aspose.Words – Komplett C#-guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du konverterar docx-filer till PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
+| [Skapa tillgänglig PDF – Konvertera Word till PDF med tillgänglighet](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Lär dig hur du skapar PDF-filer med tillgänglighetsfunktioner från Word-dokument med Aspose.Words för .NET. |
+| [Återställ korrupt DOCX – Fullständig guide för att reparera, PDF- och Markdown-export](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Lär dig hur du reparerar skadade DOCX-filer och exporterar dem till PDF och Markdown med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,7 +25,7 @@ Apakah Anda ingin memformat teks dengan font yang berbeda, mengatur aturan pengg
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Pemformatan Font](./font-formatting/) | Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci. Bahasa Indonesia:
+| [Pemformatan Font](./font-formating/) | Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci. Bahasa Indonesia:
 | [Dapatkan Spasi Baris Font](./get-font-line-spacing/) | Pelajari cara mendapatkan spasi baris font menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang. Bahasa Indonesia:
 | [Periksa Efek Teks DrawingML](./check-drawingml-text-effect/) Pelajari cara memeriksa efek teks DrawingML dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Sempurnakan dokumen Anda dengan mudah. Bahasa Indonesia:
 | [Mengatur Pemformatan Font](./set-font-formatting/) | Pelajari cara mengatur format font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah terperinci kami untuk meningkatkan otomatisasi dokumen Anda. Bahasa Indonesia:
@@ -48,7 +48,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Terima Pemberitahuan Peringatan](./receive-warning-notification/) Pelajari cara menerima pemberitahuan peringatan saat menggunakan Aspose.Words untuk .NET dan mengelola masalah atau peringatan apa pun dalam dokumen Anda. Bahasa Indonesia:
 | [Contoh Sumber Font Steam Sumber Daya](./resource-steam-font-source-example/) | Pelajari cara menggunakan Resource Stream Font Source untuk memuat font kustom ke Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Dapatkan Substitusi Tanpa Sufiks](./get-substitution-without-suffixes/) | Dalam tutorial ini, pelajari cara mendapatkan penggantian tanpa sufiks dalam dokumen Word dengan Aspose.Words untuk .NET. |
-
+| [Atur callback peringatan di C# – Panduan Lengkap Penanganan Font](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Pelajari cara mengatur callback peringatan di C# untuk penanganan font dengan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

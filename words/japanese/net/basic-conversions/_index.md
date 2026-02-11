@@ -35,6 +35,9 @@
 | [Word から LaTeX をエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-latex-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を LaTeX 形式にエクスポートする方法をステップバイステップで解説します。 |
 | [C# で Word を PDF に変換する – ガイド](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Aspose.WordsでWordをPDFとして保存 – 完全なC#ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [Aspose.WordsでDocxをPDFとして保存 – 完全なC#ガイド](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Docx ファイルを PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [アクセシブルPDFの作成 – Word を PDF アクセシビリティに変換](./create-accessible-pdf-convert-word-to-pdf-accessibility/) Aspose.Words for .NET を使用して、Word 文書をアクセシブルな PDF に変換し、アクセシビリティ要件を満たす方法をステップバイステップで解説します。 |
+| [破損したDOCXの復元 – 修復、PDFおよびMarkdownエクスポートの完全ガイド](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) Aspose.Words for .NET を使用して、破損した DOCX を修復し、PDF と Markdown にエクスポートする方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
