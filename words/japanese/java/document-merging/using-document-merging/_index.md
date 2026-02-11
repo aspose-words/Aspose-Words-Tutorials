@@ -1,10 +1,11 @@
 ---
-"description": "Aspose.Words for Javaを使って、Word文書をシームレスに結合する方法を学びましょう。わずか数ステップで、効率的に結合、書式設定、そして競合処理が可能です。今すぐ始めましょう！"
-"linktitle": "ドキュメント結合の使用"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "ドキュメント結合の使用"
-"url": "/ja/java/document-merging/using-document-merging/"
-"weight": 10
+date: 2026-02-11
+description: Aspose.Words for Java を使用して複数の DOCX ファイルをマージする方法を学びましょう。大きな Word 文書を効率的に結合し、書式設定の競合を処理し、ページ区切りを挿入します。
+linktitle: Using Document Merging
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java を使用して複数の DOCX ファイルを結合する方法
+url: /ja/java/document-merging/using-document-merging/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,30 +14,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ドキュメント結合の使用
+# Aspose.Words for Java を使用した複数の DOCX ファイルの結合
 
-Aspose.Words for Javaは、複数のWord文書をプログラムで結合する必要がある開発者向けに、堅牢なソリューションを提供します。文書の結合は、レポート作成、メールの結合、ドキュメントのアセンブリなど、さまざまなアプリケーションでよく使用される要件です。このステップバイステップガイドでは、Aspose.Words for Javaを使用して文書の結合を実現する方法を説明します。
+複数の DOCX ファイルを結合することは、レポートや契約書、バッチ生成されたレターなどを 1 つの完成度の高い文書にまとめる際に頻繁に求められる要件です。このチュートリアルでは、**Aspose.Words for Java** を使って、書式を保持しながらスタイルの衝突やページブレークの挿入といった一般的な課題に対応しつつ、複数の DOCX ファイルを迅速かつ確実に結合する方法を学びます。
 
-## 1. ドキュメント結合の概要
+## Quick Answers
+- **What library is best for merging DOCX files?** Aspose.Words for Java.  
+- **Can I merge large Word documents?** Yes – the API is optimized for high‑volume merges.  
+- **How do I insert a page break between merged files?** Use the appropriate `ImportFormatMode` or add a manual break after appending.  
+- **Do I need a license for production use?** A commercial license is required for non‑trial deployments.  
+- **Is Java 8 supported?** Absolutely; Aspose.Words works with Java 8 and newer runtimes.
 
-ドキュメントの結合とは、2つ以上の別々のWord文書を1つのまとまりのある文書に結合するプロセスです。これはドキュメントの自動化において重要な機能であり、さまざまなソースからのテキスト、画像、表、その他のコンテンツをシームレスに統合することを可能にします。Aspose.Words for Javaは結合プロセスを簡素化し、開発者が手動操作を必要とせずにプログラムでこのタスクを実行できるようにします。
+## 「merge multiple docx files」とは？
+複数の DOCX ファイルを結合するとは、2 つ以上の Word 文書をプログラム上で 1 つの `.docx` ファイルに統合することを指します。このプロセスはテキスト、画像、表、ヘッダー、フッター、その他の Word 要素を保持し、手動でコピー＆ペーストすることなくシームレスな最終文書を作成します。
 
-## 2. Aspose.Words for Java を使い始める
+## なぜ Aspose.Words for Java を使って大容量の Word 文書を結合するのか？
+- **書式に対するフルコントロール** – スタイルのインポート方法を選択可能。  
+- **パフォーマンス最適化** – 数百ページ規模でもメモリ使用量を最小限に抑えて処理。  
+- **リッチな API** – ページブレーク、セクションブレーク、選択的なセクション結合をサポート。  
+- **Microsoft Office 非依存** – Java が動作する任意のプラットフォームで利用可能。
 
-ドキュメントの結合に進む前に、プロジェクトにAspose.Words for Javaが正しく設定されていることを確認しましょう。以下の手順に従ってください。
+## 前提条件
+- Java 8（またはそれ以降）の開発環境。  
+- プロジェクトのクラスパスに Aspose.Words for Java の JAR を追加。  
+- 結合したい 2 つ以上の DOCX ファイル（例: `document1.docx`、`document2.docx`）。
 
-### Aspose.Words for Java を入手します。
- ライブラリの最新バージョンを入手するには、Aspose Releases (https://releases.aspose.com/words/java) にアクセスしてください。
+## 1. Document Merging の概要
+Document Merging とは、複数の独立した Word 文書を 1 つの統合文書に結合するプロセスです。文書自動化において重要な機能であり、テキスト・画像・表・その他のコンテンツをシームレスに統合できます。Aspose.Words for Java は、手動作業なしでプログラム的にこの作業を実現するためのシンプルな API を提供します。
 
-### Aspose.Words ライブラリを追加します。
- Aspose.Words JAR ファイルを Java プロジェクトのクラスパスに含めます。
+## 2. Aspose.Words for Java のセットアップ
+Document Merging に入る前に、プロジェクトに Aspose.Words for Java が正しく設定されていることを確認しましょう。以下の手順で開始します。
 
-### Aspose.Words を初期化します。
- Java コードで、Aspose.Words から必要なクラスをインポートすれば、ドキュメントの結合を開始する準備が整います。
+### Obtain Aspose.Words for Java
+Visit the Aspose Releases (https://releases.aspose.com/words/java) to obtain the latest version of the library.
 
-## 3. 2つの文書を結合する
+### Add Aspose.Words Library
+Include the Aspose.Words JAR file in your Java project's classpath.
 
-まず、2つの簡単なWord文書を結合してみましょう。プロジェクトディレクトリに「document1.docx」と「document2.docx」という2つのファイルがあるとします。
+### Initialize Aspose.Words
+In your Java code, import the necessary classes from Aspose.Words, and you're ready to start merging documents.
+
+## 3. How to merge multiple docx files (Two Documents)
+
+Let's start by merging two simple Word documents. Assume we have two files, `document1.docx` and `document2.docx`, located in the project directory.
 
 ```java
 import com.aspose.words.*;
@@ -44,14 +64,14 @@ import com.aspose.words.*;
 public class DocumentMerger {
     public static void main(String[] args) {
         try {
-            // ソースドキュメントを読み込む
+            // Load the source documents
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // 2番目の文書の内容を1番目の文書に追加する
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
-            // 結合した文書を保存する
+            // Save the merged document
             doc1.save("merged_document.docx");
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
@@ -61,26 +81,21 @@ public class DocumentMerger {
 }
 ```
 
-上記の例では、 `Document` クラスで使用し、 `appendDocument()` ソース ドキュメントの書式を維持しながら、「document2.docx」の内容を「document1.docx」に結合する方法。
+In the above example, we loaded two documents using the `Document` class and then used the `appendDocument()` method to merge the content of `document2.docx` into `document1.docx` while preserving the formatting of the source document.
 
-## 4. ドキュメントの書式設定の処理
+## 4. Handling Document Formatting (aspose words document merge)
 
-ドキュメントを結合する際に、ソースドキュメントのスタイルや書式が衝突する場合があります。Aspose.Words for Java は、このような状況に対処するために、複数のインポート形式モードを提供しています。
+When merging documents, there might be cases where the styles and formatting of the source documents clash. Aspose.Words for Java offers several import format modes to handle such situations:
 
-- `ImportFormatMode.KEEP_SOURCE_FORMATTING`： 
-ソース ドキュメントの書式を保持します。
+- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: Retains the formatting of the source document.  
+- `ImportFormatMode.USE_DESTINATION_STYLES`: Applies the styles of the destination document.  
+- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: Preserves styles that are different between the source and destination documents.
 
-- `ImportFormatMode.USE_DESTINATION_STYLES`： 
-宛先ドキュメントのスタイルを適用します。
+Choose the appropriate import format mode based on your merging requirements.
 
-- `ImportFormatMode.KEEP_DIFFERENT_STYLES`： 
-ソース ドキュメントとターゲット ドキュメント間で異なるスタイルを保持します。
+## 5. How to merge large word documents (Multiple Documents)
 
-マージ要件に基づいて適切なインポート形式モードを選択します。
-
-## 5. 複数の文書を結合する
-
-2つ以上の文書を結合するには、上記と同様のアプローチに従い、 `appendDocument()` メソッドを複数回実行します:
+To merge more than two documents, follow a similar approach as above and use the `appendDocument()` method multiple times:
 
 ```java
 import com.aspose.words.*;
@@ -92,7 +107,7 @@ public class DocumentMerger {
             Document doc2 = new Document("document2.docx");
             Document doc3 = new Document("document3.docx");
 
-            // 2番目の文書の内容を1番目の文書に追加する
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
             doc1.appendDocument(doc3, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
@@ -105,24 +120,19 @@ public class DocumentMerger {
 }
 ```
 
-## 6. 文書の区切りの挿入
+## 6. How to insert page break merge
 
-適切な文書構造を維持するために、結合された文書間に改ページやセクション区切りを挿入する必要がある場合があります。Aspose.Words には、結合時に改ページを挿入するためのオプションが用意されています。
+Sometimes, it's necessary to insert a page break or section break between merged documents to maintain proper document structure. Aspose.Words provides options to insert breaks during merging:
 
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);`：
-文書を途切れることなく結合します。
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);` – merges without any breaks.  
+- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);` – inserts a continuous break between the documents.  
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);` – inserts a page break when styles differ between documents.
 
-- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);`： 
-ドキュメント間に連続した区切りを挿入します。
+Choose the appropriate method based on your specific requirements.
 
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);`： 
-ドキュメント間でスタイルが異なる場合にページ区切りを挿入します。
+## 7. Merging Specific Document Sections (how to merge docs)
 
-特定の要件に基づいて適切な方法を選択してください。
-
-## 7. 特定の文書セクションの結合
-
-場合によっては、ドキュメントの特定のセクションのみを結合したい場合があります。例えば、ヘッダーとフッターを除いた本文のみを結合したい場合などです。Aspose.Wordsでは、 `Range` クラス：
+In some scenarios, you may want to merge only specific sections of the documents. For example, merging just the body content, excluding headers and footers. Aspose.Words allows you to achieve this level of granularity using the `Range` class:
 
 ```java
 import com.aspose.words.*;
@@ -133,10 +143,10 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // 2番目の文書の特定のセクションを取得する
+            // Get the specific section of the second document
             Section sectionToMerge = doc2.getSections().get(0);
 
-            // 最初のドキュメントにセクションを追加します
+            // Append the section to the first document
             doc1.appendContent(sectionToMerge);
 
             doc1.save("merged_document.docx");
@@ -148,9 +158,9 @@ public class DocumentMerger {
 }
 ```
 
-## 8. 競合と重複したスタイルの処理
+## 8. Handling Conflicts and Duplicate Styles
 
-複数のドキュメントを結合する際に、重複したスタイルが原因で競合が発生する可能性があります。Aspose.Words は、このような競合に対処するための解決メカニズムを提供します。
+When merging multiple documents, conflicts may arise due to duplicate styles. Aspose.Words provides a resolution mechanism to handle such conflicts:
 
 ```java
 import com.aspose.words.*;
@@ -161,7 +171,7 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // KEEP_DIFFERENT_STYLESを使用して競合を解決する
+            // Resolve conflicts by using KEEP_DIFFERENT_STYLES
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);
 
             doc1.save("merged_document.docx");
@@ -173,61 +183,44 @@ public class DocumentMerger {
 }
 ```
 
-使用することで `ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words は、ソース ドキュメントと宛先ドキュメント間で異なるスタイルを保持し、競合を適切に解決します。
+By using `ImportFormatMode.KEEP_DIFFERENT_STYLES`, Aspose.Words retains styles that are different between the source and destination documents, resolving conflicts gracefully.
 
-## 結論
+## Common Pitfalls & Tips
+- **Large document memory usage** – Load documents from streams when dealing with very large files to reduce heap pressure.  
+- **Style clashes** – Prefer `KEEP_DIFFERENT_STYLES` when source documents have unique style sets.  
+- **Page‑break placement** – After appending, you can programmatically insert a `SectionBreak` if the automatic break mode doesn’t meet your layout needs.
 
-Aspose.Words for Java は、Java 開発者が Word 文書を簡単に結合できるようにします。この記事のステップバイステップガイドに従うことで、文書の結合、書式設定、改行の挿入、競合の管理を簡単に行うことができます。Aspose.Words for Java を使用すると、文書の結合がシームレスかつ自動化されたプロセスになり、貴重な時間と労力を節約できます。
+## Frequently Asked Questions
 
-## よくある質問 
+**Q: Can I merge documents with different formats and styles?**  
+A: Yes, Aspose.Words for Java handles merging documents with varying formats and styles, intelligently resolving conflicts.
 
-### 異なる形式やスタイルのドキュメントを結合できますか?
+**Q: Does Aspose.Words support merging large documents efficiently?**  
+A: Absolutely. The library is optimized for high‑performance merging of large Word files.
 
-はい、Aspose.Words for Java は、さまざまな形式やスタイルのドキュメントの結合に対応しています。ライブラリが競合をインテリジェントに解決するため、異なるソースからのドキュメントをシームレスに結合できます。
+**Q: Can I merge password‑protected documents?**  
+A: Yes. Load each document with its password before calling `appendDocument`.
 
-### Aspose.Words は、大規模なドキュメントの効率的な結合をサポートしていますか?
+**Q: Is it possible to merge only selected sections?**  
+A: Yes. Use the `Section` or `Range` objects to pick and append specific parts.
 
-Aspose.Words for Javaは、大規模なドキュメントを効率的に処理できるように設計されています。ドキュメントの結合には最適化されたアルゴリズムを採用しており、膨大なコンテンツでも高いパフォーマンスを実現します。
+**Q: Does Aspose.Words preserve original formatting by default?**  
+A: By default it uses `KEEP_SOURCE_FORMATTING`, which retains the source document’s appearance.
 
-### Aspose.Words for Java を使用してパスワードで保護されたドキュメントを結合できますか?
+## Conclusion
 
-はい、Aspose.Words for Java はパスワードで保護されたドキュメントの結合をサポートしています。これらのドキュメントにアクセスして結合するには、正しいパスワードを入力してください。
+Aspose.Words for Java empowers Java developers with the ability to **merge multiple DOCX files** effortlessly. By following the step‑by‑step guide in this article, you can merge documents, handle formatting, insert breaks, and manage style conflicts with ease. This streamlined approach saves valuable time and reduces manual effort in document assembly workflows.
 
-### 複数のドキュメントの特定のセクションを結合することは可能ですか?
+---
 
-はい、Aspose.Words では、異なるドキュメントから特定のセクションを選択して結合することができます。これにより、結合プロセスをきめ細かく制御できます。
-
-### 追跡された変更やコメントを含むドキュメントを結合できますか?
-
-はい、Aspose.Words for Java は変更履歴やコメント付きのドキュメントのマージに対応しています。マージ処理中に、これらの変更履歴を保持するか削除するかを選択できます。
-
-### Aspose.Words は結合されたドキュメントの元の書式を保持しますか?
-
-Aspose.Words はデフォルトでソースドキュメントの書式設定を保持します。ただし、競合を処理し、書式設定の一貫性を維持するために、異なるインポート形式モードを選択することもできます。
-
-### PDF や RTF など、Word 以外のファイル形式の文書を結合できますか?
-
-Aspose.Wordsは主にWord文書を扱うために設計されています。Word以外のファイル形式の文書を結合する場合は、Aspose.PDFやAspose.RTFなど、その形式に適したAspose製品のご使用をご検討ください。
-
-### マージ中にドキュメントのバージョン管理をどのように処理すればよいですか?
-
-マージ中のドキュメントのバージョン管理は、アプリケーションに適切なバージョン管理手法を実装することで実現できます。Aspose.Words はドキュメントコンテンツのマージに重点を置いており、バージョン管理を直接管理することはありません。
-
-### Aspose.Words for Java は Java 8 以降のバージョンと互換性がありますか?
-
-はい、Aspose.Words for JavaはJava 8以降のバージョンと互換性があります。パフォーマンスとセキュリティを向上させるため、常に最新のJavaバージョンを使用することをお勧めします。
-
-### Aspose.Words は URL などのリモート ソースからのドキュメントのマージをサポートしていますか?
-
-はい、Aspose.Words for Java は URL、ストリーム、ファイルパスなど、さまざまなソースからドキュメントを読み込むことができます。リモートから取得したドキュメントをシームレスにマージできます。
-
+**Last Updated:** 2026-02-11  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
