@@ -54,6 +54,10 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 
+### [Word opslaan als markdown met afbeeldingen – C# stap‑voor‑stap gids](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+
+Leer hoe u Word-documenten opslaat als Markdown met afbeeldingen, stap‑voor‑stap in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

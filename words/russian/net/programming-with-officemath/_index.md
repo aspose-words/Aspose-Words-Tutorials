@@ -21,6 +21,7 @@
 | Название | Описание |
 | --- | --- |
 | [Математические уравнения](./math-equations/) | Узнайте, как настраивать математические уравнения в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство с примерами, часто задаваемыми вопросами и многим другим. |
+| [Сохранить docx как txt – экспорт уравнений в LaTeX с Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) | Сохраните документ DOCX в формате TXT и экспортируйте уравнения в LaTeX с помощью Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

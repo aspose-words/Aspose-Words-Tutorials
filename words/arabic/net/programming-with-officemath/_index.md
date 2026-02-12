@@ -21,6 +21,7 @@
 | العنوان | الوصف |
 | --- | --- |
 | [معادلات الرياضيات](./math-equations/) | تعلّم كيفية إعداد المعادلات الرياضية في مستندات Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة والمزيد. |
+| [حفظ ملف docx كملف txt – تصدير المعادلات إلى LaTeX باستخدام Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) | تعرّف على كيفية حفظ ملف DOCX كملف TXT وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words لـ .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
