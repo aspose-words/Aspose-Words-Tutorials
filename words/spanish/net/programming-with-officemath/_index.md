@@ -20,8 +20,8 @@ Los tutoriales de Aspose.Words para .NET sobre procesamiento de textos con Offic
  ## Tutoriales
 | Título | Descripción |
 | --- | --- |
-| [Ecuaciones matemáticas](./math-equations/) Aprenda a configurar ecuaciones matemáticas en documentos de Word con Aspose.Words para .NET. Guía paso a paso con ejemplos, preguntas frecuentes y más.
-
+| [Ecuaciones matemáticas](./math-equations/) Aprenda a configurar ecuaciones matemáticas en documentos de Word con Aspose.Words para .NET. Guía paso a paso con ejemplos, preguntas frecuentes y más. |
+| [Guardar docx como txt – Exportar ecuaciones a LaTeX con Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) Exporta ecuaciones a LaTeX al guardar documentos Word como txt usando Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

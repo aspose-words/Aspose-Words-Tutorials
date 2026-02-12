@@ -21,6 +21,7 @@
 | Τίτλος | Περιγραφή |
 | --- | --- |
 | [Μαθηματικές Εξισώσεις](./math-equations/) | Μάθετε πώς να ρυθμίζετε μαθηματικές εξισώσεις σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Οδηγός βήμα προς βήμα με παραδείγματα, συχνές ερωτήσεις και πολλά άλλα. |
+| [Αποθήκευση docx ως txt – Εξαγωγή εξισώσεων σε LaTeX με το Aspose.Words](./save-docx-as-txt-export-equations-to-latex-with-aspose-words/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt και να εξάγετε εξισώσεις σε μορφή LaTeX χρησιμοποιώντας το Aspose.Words για .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

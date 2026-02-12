@@ -29,9 +29,9 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Agregar firma digital a PDF usando el titular del certificado](./digitally-signed-pdf-using-certificate-holder/) Proteja sus archivos PDF con una firma digital usando Aspose.Words para .NET. Siga esta guía paso a paso para agregar una firma digital a sus PDF fácilmente.
 | [Incrustar fuentes en un documento PDF](./embedded-all-fonts/) Incruste fuentes en documentos PDF fácilmente con Aspose.Words para .NET con esta guía detallada paso a paso. Asegúrese de que la apariencia sea uniforme en todos los dispositivos.
 | [Incrustar subconjuntos de fuentes en un documento PDF](./embedded-subset-fonts/) Reduzca el tamaño de sus archivos PDF incrustando solo los subconjuntos de fuentes necesarios con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus archivos PDF eficientemente.
-| [Reducir el tamaño del PDF deshabilitando las fuentes incrustadas](./disable-embed-windows-fonts/) Reduzca el tamaño de sus archivos PDF deshabilitando las fuentes incrustadas con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus documentos y optimizar su almacenamiento y uso compartido.
+| [Reducir el tamaño del PDF deshabilitando las fuentes incrustadas](./disable-embed-windows-fonts/) Reduzca el tamaño de sus archivos PDF deshabilitando las fuentes incrustadas con Aspose.Words para .NET. Siga la guía paso a paso para optimizar sus documentos y optimizar su almacenamiento y uso compartido.
 | [Optimice el tamaño de PDF con fuentes Arial y Times Roman incrustadas](./skip-embedded-arial-and-times-roman-fonts/) Optimice el tamaño de sus archivos PDF omitiendo las fuentes Arial y Times Roman incrustadas con Aspose.Words para .NET. Siga esta guía paso a paso para optimizar sus archivos PDF.
-| [Reducir el tamaño del archivo PDF al no incrustar fuentes principales](./avoid-embedding-core-fonts/) Aprenda a reducir el tamaño de sus archivos PDF sin incrustar fuentes principales con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus archivos PDF.
+| [Reducir el tamaño del archivo PDF al no incrustar fuentes principales](./avoid-embedding-core-fonts/) Aprenda a reducir el tamaño de sus archivos PDF sin incrustar fuentes principales con Aspose.Words para .NET. Siga la guía paso a paso para optimizar sus archivos PDF.
 | [Escapar URI en un documento PDF](./escape-uri/) Aprenda a escapar URIs en archivos PDF con Aspose.Words para .NET. Esta guía detallada le guiará paso a paso por el proceso.
 | [Exportar marcadores de encabezado y pie de página de un documento de Word a un documento PDF](./export-header-footer-bookmarks/) | Aprenda a exportar marcadores de encabezado y pie de página de un documento de Word a PDF usando Aspose.Words para .NET con nuestra guía paso a paso. |
 | [Reducir el tamaño de un PDF con la función Escalar fuentes WMF al tamaño de un metarchivo](./scale-wmf-fonts-to-metafile-size/) | Guía paso a paso para reducir el tamaño de PDF con escala de fuentes wmf al tamaño de metarchivo al convertir a PDF con Aspose.Words para .NET. |
@@ -45,7 +45,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Actualizar la última propiedad impresa en un documento PDF](./update-last-printed-property/) | Aprenda a actualizar la última propiedad impresa en un documento PDF usando Aspose.Words para .NET con nuestra guía paso a paso. |
 | [Renderizar efectos 3D DML 3D en un documento PDF](./dml-3deffects-rendering/) | Aprenda a renderizar impresionantes efectos DML 3D en documentos PDF usando Aspose.Words para .NET con esta completa guía paso a paso. |
 | [Interpolar imágenes en un documento PDF](./interpolate-images/) Aprenda a interpolar imágenes en un documento PDF con Aspose.Words para .NET con nuestra guía paso a paso. Mejore fácilmente la calidad de imagen de su PDF.
-
+| [Crear PDF accesible desde Word en C# – Guía completa](./create-accessible-pdf-from-word-in-c-complete-guide/) | Aprenda a generar PDFs accesibles desde documentos Word en C# con Aspose.Words para .NET siguiendo esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

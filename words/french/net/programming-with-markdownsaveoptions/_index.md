@@ -48,6 +48,10 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [Enregistrer Word en markdown avec images – Guide étape par étape C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+
+Apprenez à enregistrer des documents Word en Markdown avec extraction d'images grâce à Aspose.Words pour .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

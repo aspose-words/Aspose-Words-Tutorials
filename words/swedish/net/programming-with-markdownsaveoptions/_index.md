@@ -50,6 +50,9 @@ Lär dig spara DOCX som Markdown med en detaljerad steg‑för‑steg‑guide i 
 ### [Hur man exporterar Markdown från DOCX – Fullständig guide](./how-to-export-markdown-from-docx-complete-guide/)
 Lär dig exportera Markdown från DOCX-filer med en komplett guide i C#.
 
+### [Spara Word som Markdown med bilder – steg‑för‑steg‑guide i C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+Lär dig spara Word-dokument som Markdown med bildextraktion i en detaljerad steg‑för‑steg‑guide i C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
