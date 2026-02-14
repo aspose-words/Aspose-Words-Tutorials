@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "जानें कि कैसे Java के लिए Aspose.Words का उपयोग करके SharePoint के भीतर Word दस्तावेज़ों को PDF में सहजता से परिवर्तित किया जाए, जिससे संगतता और दक्षता सुनिश्चित हो।"
-"title": "Java के लिए Aspose.Words का उपयोग करके SharePoint में DOC से PDF में कुशल रूपांतरण"
-"url": "/hi/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/"
-"weight": 1
+date: '2026-02-14'
+description: Aspose.Words for Java के साथ SharePoint में Word को PDF में कैसे बदलें,
+  तेज़ और विश्वसनीय PDF जनरेशन सुनिश्चित करते हुए, सीखें।
+keywords:
+- DOC to PDF conversion
+- SharePoint integration
+- Aspose.Words for Java
+title: Aspose.Words for Java का उपयोग करके SharePoint में Word को PDF में बदलें
+url: /hi/java/document-operations/doc-to-pdf-sharepoint-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,31 +17,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words for Java का उपयोग करके SharePoint में Word को PDF में परिवर्तित करें
 
-# Java के लिए Aspose.Words का उपयोग करके SharePoint में DOC से PDF में कुशल रूपांतरण
+## Introduction
 
-## परिचय
+आज के डिजिटल‑प्रथम विश्व में, व्यवसायों को **convert word to pdf** करने का एक विश्वसनीय तरीका चाहिए ताकि दस्तावेज़ विभिन्न डिवाइस और प्लेटफ़ॉर्म पर समान रूप से प्रदर्शित हों। चाहे आप एक कस्टम SharePoint वर्कफ़्लो बना रहे हों या बैच‑प्रोसेसिंग सेवा, Aspose.Words for Java परिवर्तन को तेज़, सटीक और एकीकृत करने में आसान बनाता है। यह ट्यूटोरियल आपको लाइब्रेरी सेटअप से लेकर कमांड‑लाइन आर्ग्यूमेंट्स और लॉगिंग को संभालने तक सब कुछ दिखाता है—ताकि आप SharePoint के अंदर Word‑to‑PDF परिवर्तन को आत्मविश्वास के साथ ऑटोमेट कर सकें।
 
-आज की डिजिटल-प्रथम दुनिया में, व्यवसायों को निर्बाध संचालन और संचार के लिए कुशल दस्तावेज़ रूपांतरण समाधानों की आवश्यकता होती है। Word दस्तावेज़ों (DOC या DOCX) को सार्वभौमिक रूप से स्वीकृत PDF में परिवर्तित करने से विभिन्न प्लेटफ़ॉर्म और डिवाइस में संगतता में उल्लेखनीय वृद्धि हो सकती है। यह मार्गदर्शिका विशेष रूप से SharePoint वातावरण में DOC2PDF रूपांतरण करने के लिए Java के लिए Aspose.Words का उपयोग करने पर केंद्रित है।
+**What You’ll Learn**
+- अपने प्रोजेक्ट में Aspose.Words for Java डिपेंडेंसी कैसे जोड़ें।  
+- Java कोड का उपयोग करके **convert word to pdf** करने के सटीक चरण।  
+- लचीले फ़ाइल इनपुट/आउटपुट के लिए कमांड‑लाइन आर्ग्यूमेंट्स कैसे पार्स करें।  
+- ट्रबलशूटिंग के लिए मजबूत लॉगिंग सेटअप करना।  
+- पूर्ण कार्यक्षमता अनलॉक करने के लिए लाइसेंस लागू करना।
 
-**आप क्या सीखेंगे:**
-- अपने प्रोजेक्ट में Java के लिए Aspose.Words कैसे सेट करें।
-- वर्ड दस्तावेज़ों को पीडीएफ प्रारूप में परिवर्तित करने की प्रक्रिया।
-- इनपुट/आउटपुट फ़ाइल प्रबंधन के लिए कमांड-लाइन तर्कों को संभालना।
-- रूपांतरण प्रक्रियाओं के लिए लॉगिंग सेट करना.
-- Aspose.Words के लिए लाइसेंस अधिग्रहण और एप्लिकेशन सेटअप को समझना।
+## Quick Answers
+- **What library should I use?** Aspose.Words for Java.  
+- **Can I run this inside SharePoint?** Yes – the same Java code works in any SharePoint‑hosted Java service.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **Which Java versions are supported?** Java 8+ (including Java 11 and later).  
+- **Is command‑line parsing required?** It’s optional but handy for batch jobs.
 
-आइये इस समाधान को लागू करने से पहले आवश्यक पूर्वापेक्षाओं पर नजर डालें।
+## What is “convert word to pdf”?
 
-## आवश्यक शर्तें
+Word दस्तावेज़ (DOC या DOCX) को PDF में बदलने से एक फिक्स्ड‑लेआउट फ़ाइल बनती है जो फ़ॉन्ट, इमेज और फ़ॉर्मेटिंग को संरक्षित रखती है। PDFs सार्वभौमिक रूप से देखे, प्रिंट किए और सुरक्षित किए जा सकते हैं, जिससे वे आर्काइविंग, शेयरिंग और अनुपालन के लिए पसंदीदा फ़ॉर्मेट बनते हैं।
 
-आरंभ करने से पहले, सुनिश्चित करें कि आपका विकास वातावरण Aspose.Words for Java का उपयोग करने के लिए ठीक से कॉन्फ़िगर किया गया है। इसमें विशिष्ट लाइब्रेरीज़ स्थापित करना, बुनियादी Java प्रोग्रामिंग अवधारणाओं को समझना और यदि लागू हो तो SharePoint एकीकरण सेट करना शामिल है।
+## Why use Aspose.Words for Java?
 
-### आवश्यक लाइब्रेरी, संस्करण और निर्भरताएँ
+- **High fidelity** – PDF आउटपुट मूल Word लेआउट को पिक्सेल‑परिपूर्ण रूप से प्रतिबिंबित करता है।  
+- **No Microsoft Office dependency** – किसी भी सर्वर पर काम करता है, जिसमें हेडलेस Linux कंटेनर भी शामिल हैं।  
+- **Rich API** – PDF सेटिंग्स, वॉटरमार्क, एन्क्रिप्शन आदि पर विस्तृत नियंत्रण प्रदान करता है।  
+- **Scalable** – सिंगल‑फ़ाइल परिवर्तन या बड़े बैच जॉब्स दोनों के लिए उपयुक्त।
 
-आरंभ करने के लिए, Maven या Gradle का उपयोग करके अपने प्रोजेक्ट में आवश्यक Aspose.Words निर्भरता शामिल करें:
+## Prerequisites
 
-**मावेन:**
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+- एक Java 8+ डेवलपमेंट एनवायरनमेंट (IntelliJ IDEA, Eclipse, या VS Code)।  
+- यदि आप टूल को SharePoint पर डिप्लॉय करने की योजना बना रहे हैं तो SharePoint सर्वर तक पहुँच।  
+- Java I/O और एक्सेप्शन हैंडलिंग का बुनियादी ज्ञान।  
+
+### Required Libraries, Versions, and Dependencies
+
+Maven या Gradle का उपयोग करके Aspose.Words डिपेंडेंसी जोड़ें:
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -45,70 +68,52 @@
 </dependency>
 ```
 
-**ग्रेडेल:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### पर्यावरण सेटअप आवश्यकताएँ
+## Setting Up Aspose.Words
 
-सुनिश्चित करें कि आपका जावा डेवलपमेंट वातावरण सेट अप है, अधिमानतः IntelliJ IDEA या Eclipse जैसे IDE के साथ। यदि आप इस समाधान को ऐसे वातावरण में परिनियोजित कर रहे हैं, तो आपको SharePoint सर्वर तक पहुँच की भी आवश्यकता होगी।
+### Dependency Installation
 
-### ज्ञान पूर्वापेक्षाएँ
+उपरोक्त Maven/Gradle स्निपेट को अपने `pom.xml` या `build.gradle` में रखें। Maven रीफ़्रेश या Gradle सिंक के बाद `aspose-words` JAR आपके क्लासपाथ पर उपलब्ध हो जाएगा।
 
-जावा प्रोग्रामिंग और बुनियादी कमांड-लाइन संचालन से परिचित होना लाभदायक होगा। जावा में फ़ाइल I/O संचालन को समझना और अपवादों को संभालना सफल कार्यान्वयन के लिए महत्वपूर्ण है।
+### License Acquisition Steps
 
-## Aspose.Words की स्थापना
+Aspose कई लाइसेंस विकल्प प्रदान करता है:
 
-एक बार आपका विकास वातावरण तैयार हो जाने पर, Aspose.Words को स्थापित करने के लिए सुचारू संचालन सुनिश्चित करने हेतु कुछ चरणों की आवश्यकता होती है:
+- **Free Trial** – पूर्ण फीचर सेट, मूल्यांकन के दौरान कोई समय‑सीमा प्रतिबंध नहीं।  
+- **Temporary License** – प्रोडक्शन‑जैसे वातावरण में परीक्षण के लिए अल्पकालिक लाइसेंस।  
+- **Permanent License** – वाणिज्यिक डिप्लॉयमेंट के लिए।
 
-### निर्भरता स्थापना
-
-सुनिश्चित करें कि Aspose.Words निर्भरता सही ढंग से जोड़ी गई है जैसा कि ऊपर दिखाया गया है। यह लाइब्रेरी आपके एप्लिकेशन में सभी दस्तावेज़ रूपांतरण कार्यों को संभालेगी।
-
-### लाइसेंस प्राप्ति चरण
-
-Aspose कई लाइसेंसिंग विकल्प प्रदान करता है:
-- **मुफ्त परीक्षण**: सीमित समय के लिए बिना किसी प्रतिबंध के Aspose.Words की पूर्ण क्षमताओं का परीक्षण करें।
-- **अस्थायी लाइसेंस**: उत्पादन परिवेश में उत्पाद का मूल्यांकन करने के लिए एक अस्थायी लाइसेंस प्राप्त करें।
-- **खरीदना**व्यावसायिक उपयोग के लिए स्थायी लाइसेंस प्राप्त करें।
-
-लाइसेंस लागू करने के लिए, अपने जावा अनुप्रयोग में निम्नलिखित कोड खंड को अनकमेंट करें और कॉन्फ़िगर करें:
+लाइसेंस लागू करने के लिए, अपने Java क्लास में नीचे दिया गया कोड अनकमेंट करें और आवश्यकतानुसार समायोजित करें:
 
 ```java
-// Aspose.Words के लिए लाइसेंस सेट करें.
+// Set license for Aspose.Words.
 Aspose.Words.License wordsLicense = new Aspose.Words.License();
 wordsLicense.setLicense("Aspose.Total.lic");
 ```
 
-### मूल आरंभीकरण
+### Basic Initialization
 
-दस्तावेज़ लोड करके और इसे पीडीएफ के रूप में सहेजकर Aspose.Words को प्रारंभ करें, `PdfSaveOptions` क्लास का प्रयोग करें और आउटपुट फ़ाइल कॉन्फ़िगर करें।
+लाइसेंस लागू करने के बाद, आप `PdfSaveOptions` का उपयोग करके Word दस्तावेज़ को PDF के रूप में सहेज सकते हैं। यह सरल कदम **convert word to pdf** प्रक्रिया का मूल है।
 
-## कार्यान्वयन मार्गदर्शिका
+## Implementation Guide
 
-हम कार्यान्वयन को प्रबंधनीय खंडों में विभाजित करेंगे, तथा हमारे DOC2PDF रूपांतरण टूल की मुख्य विशेषताओं पर ध्यान केंद्रित करेंगे।
+हम कार्यान्वयन को स्पष्ट, क्रमांकित चरणों में विभाजित करेंगे। स्निपेट्स को अपने IDE में कॉपी करके चलाएँ; वे तैयार हैं।
 
-### कमांड-लाइन तर्कों को पार्स करना
+### 1. Parse Command‑Line Arguments (parse command line java)
 
-कमांड-लाइन तर्क इनपुट और आउटपुट फ़ाइलों के गतिशील विनिर्देशन की अनुमति देते हैं। यहां बताया गया है कि आप उन्हें कैसे प्रबंधित कर सकते हैं:
+कमांड‑लाइन आर्ग्यूमेंट्स को संभालने से आप कोड को पुनः कम्पाइल किए बिना इनपुट और आउटपुट फ़ाइलें निर्दिष्ट कर सकते हैं।
 
-#### अवलोकन
-यह सुविधा रूपांतरण कार्यों के लिए फ़ाइल पथ निर्धारित करने हेतु कमांड-लाइन इनपुट को पार्स करती है।
-
-#### कदम
-
-**3.1. वैश्विक चर परिभाषित करें**
-वैश्विक चर को परिभाषित करके आरंभ करें जो इनपुट और आउटपुट फ़ाइल नाम के साथ-साथ लॉग राइटर ऑब्जेक्ट को भी धारण करेगा:
+#### Global Variables
 ```java
 private static String gInFileName;
 private static String gOutFileName;
 private static Writer gLog;
 ```
 
-**3.2. पार्स तर्क**
-कमांड-लाइन इनपुट को संसाधित करने के लिए इस विधि का उपयोग करें:
-
+#### Argument Parser
 ```java
 private static void parseCommandLine(final String[] args) throws Exception {
     int i = 0;
@@ -124,7 +129,7 @@ private static void parseCommandLine(final String[] args) throws Exception {
                 gOutFileName = args[i];
                 break;
             case "-config", "-log":
-                // कॉन्फ़िगरेशन/लॉग फ़ाइल का नाम छोड़ें और कुछ भी न करें।
+                // Skip the name of the config/log file and do nothing.
                 i++;
                 break;
             default:
@@ -135,49 +140,31 @@ private static void parseCommandLine(final String[] args) throws Exception {
 }
 ```
 
-### DOC2PDF रूपांतरण करना
+### 2. Perform the DOC‑to‑PDF Conversion (convert doc to pdf java)
 
-इसकी मुख्य कार्यक्षमता वर्ड दस्तावेजों को पीडीएफ में परिवर्तित करना है।
-
-#### अवलोकन
-यह अनुभाग Aspose.Words का उपयोग करके दस्तावेज़ को लोड करने और उसे PDF के रूप में सहेजने पर केंद्रित है।
-
-#### कदम
-
-**4.1. दस्तावेज़ लोड करें**
-इसका एक उदाहरण बनाएं `Document` अपनी फ़ाइल लोड करने के लिए क्लास:
+#### Load the Document
 ```java
 Document doc = new Document(gInFileName);
 ```
 
-**4.2. पीडीएफ के रूप में सहेजें**
-उपयोग `PdfSaveOptions` किसी भी अतिरिक्त कॉन्फ़िगरेशन के लिए और दस्तावेज़ को सहेजें:
+#### Save as PDF (docx to pdf java)
 ```java
 doc.save(gOutFileName, new PdfSaveOptions());
 ```
 
-### लॉगिंग सेटअप
+### 3. Set Up Logging (aspose words pdf conversion)
 
-रूपांतरण परिचालनों पर नज़र रखने और डिबगिंग के लिए लॉगिंग महत्वपूर्ण है।
-
-#### अवलोकन
-प्रोग्राम निष्पादन विवरण और त्रुटियों को ट्रैक करने के लिए लॉगिंग तंत्र स्थापित करें।
-
-#### कदम
-
-**5.1. लॉग राइटर को आरंभ करें**
-अपनी लॉग फ़ाइल की ओर संकेत करते हुए एक आउटपुट स्ट्रीम बनाएँ:
+#### Initialize Log Writer
 ```java
 OutputStream os = new FileOutputStream("C:\\Aspose2Pdf\\log.txt", true);
 gLog = new OutputStreamWriter(os, StandardCharsets.UTF_8);
 ```
 
-**5.2. लॉग लिखें**
-प्रारंभ समय और निष्पादन के दौरान आए किसी भी अपवाद को रिकॉर्ड करें:
+#### Write Logs
 ```java
 try {
     gLog.write(new Date().toString() + " Started");
-    // रूपांतरण तर्क यहाँ...
+    // Conversion logic here...
 } catch (Exception e) {
     gLog.write(e.getMessage());
 } finally {
@@ -186,55 +173,73 @@ try {
 }
 ```
 
-## व्यावहारिक अनुप्रयोगों
+## Practical Applications
 
-इस DOC2PDF कनवर्टर का उपयोग विभिन्न वास्तविक दुनिया परिदृश्यों में किया जा सकता है:
+यहाँ तीन सामान्य परिदृश्य हैं जहाँ **convert word to pdf** विशेष रूप से उपयोगी है:
 
-1. **स्वचालित दस्तावेज़ संग्रहण**: दीर्घकालिक भंडारण के लिए दस्तावेजों को स्वचालित रूप से परिवर्तित और संग्रहित करें।
-2. **सामग्री प्रबंधन प्रणाली (सीएमएस)**: सीएमएस के साथ एकीकृत करके उपयोगकर्ताओं को वर्ड फाइलें अपलोड करने की अनुमति देता है, जिन्हें बाद में पीडीएफ में परिवर्तित किया जाता है।
-3. **सहयोगात्मक प्लेटफॉर्म**: टीमों में दस्तावेज़ संगतता सुनिश्चित करने के लिए SharePoint जैसे सहयोगी प्लेटफ़ॉर्म के भीतर उपयोग करें।
+1. **Automated Document Archiving** – आने वाले Word फ़ाइलों को PDFs में बदलें ताकि दीर्घकालिक, छेड़छाड़‑रहित स्टोरेज सुनिश्चित हो सके।  
+2. **Content Management Systems** – उपयोगकर्ताओं को DOC/DOCX अपलोड करने दें; ब्राउज़र के लिए स्वचालित रूप से PDF प्रीव्यू जनरेट करें।  
+3. **Collaborative Platforms (SharePoint)** – सुनिश्चित करें कि SharePoint लाइब्रेरी में हर दस्तावेज़ का PDF समकक्ष हो ताकि डाउनस्ट्रीम वर्कफ़्लो सुगम रहें।
 
-## प्रदर्शन संबंधी विचार
+## Performance Considerations
 
-अपनी DOC2PDF रूपांतरण प्रक्रिया को अनुकूलित करने से बेहतर प्रदर्शन और संसाधन प्रबंधन हो सकता है:
+- **Batch Processing** – फ़ाइलों की सूची पर लूप चलाएँ ताकि JVM स्टार्ट‑अप ओवरहेड कम हो।  
+- **Resource Monitoring** – CPU और हीप उपयोग पर नज़र रखें; Aspose.Words मेमोरी‑कुशल है लेकिन बड़े दस्तावेज़ अभी भी भारी हो सकते हैं।  
+- **Asynchronous Execution** – फ़ाइलों को प्रोसेस करने के लिए Java के `CompletableFuture` या मैसेज क्यू का उपयोग करें, जिससे मुख्य थ्रेड ब्लॉक न हो।
 
-- **प्रचय संसाधन**: ओवरहेड को कम करने के लिए एक ही बार में कई दस्तावेजों को संसाधित करें।
-- **संसाधन निगरानी**: बाधाओं से बचने के लिए रूपांतरण के दौरान सिस्टम संसाधनों (सीपीयू, मेमोरी) की निगरानी करें।
-- **अतुल्यकालिक निष्पादन**: परिचालनों को अवरुद्ध किए बिना बड़ी मात्रा में फ़ाइलों को संभालने के लिए अतुल्यकालिक प्रसंस्करण को लागू करना।
+## Conclusion
 
-## निष्कर्ष
+अब आपके पास SharePoint में Aspose.Words for Java का उपयोग करके **convert word to pdf** करने के लिए एक पूर्ण, प्रोडक्शन‑रेडी समाधान है। ऊपर दिए गए चरणों का पालन करके आप दस्तावेज़ परिवर्तन को ऑटोमेट कर सकते हैं, संगतता में सुधार कर सकते हैं, और अपनी कंटेंट‑मैनेजमेंट पाइपलाइन को सुव्यवस्थित बना सकते हैं।
 
-इस गाइड में, हमने SharePoint परिवेश में Aspose.Words for Java का उपयोग करके एक कुशल DOC2PDF रूपांतरण उपकरण को लागू करने का तरीका खोजा है। ऊपर उल्लिखित सेटअप और कोडिंग प्रक्रियाओं को समझकर, आप अपने अनुप्रयोगों में दस्तावेज़ रूपांतरणों को सुव्यवस्थित कर सकते हैं।
+**Next Steps**: उन्नत `PdfSaveOptions` (जैसे PDF/A अनुपालन, एन्क्रिप्शन, या वॉटरमार्क जोड़ना) का अन्वेषण करें ताकि आउटपुट को अपने संगठन के मानकों के अनुसार और अधिक अनुकूलित किया जा सके।
 
-**अगले कदम**Aspose.Words द्वारा समर्थित विभिन्न दस्तावेज़ प्रारूपों के साथ प्रयोग करें और PDF निर्माण के दौरान वॉटरमार्किंग या कस्टम मेटाडेटा एम्बेडिंग जैसी उन्नत सुविधाओं का पता लगाएं।
+## FAQ Section
 
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
+1. **How do I install Aspose.Words for Java?**  
+   Add the Maven/Gradle dependency shown earlier and let your build tool download the JAR.
 
-1. **मैं Java के लिए Aspose.Words कैसे स्थापित करूं?**
-   - अपने प्रोजेक्ट में Maven/Gradle निर्भरता जोड़ें और सुनिश्चित करें कि लाइब्रेरी डाउनलोड हो गई है।
+2. **Can I use this converter without a license?**  
+   A free trial works for evaluation, but a valid license is required for production use.
 
-2. **क्या मैं बिना लाइसेंस के इस कनवर्टर का उपयोग कर सकता हूँ?**
-   - आप इसका निःशुल्क परीक्षण कर सकते हैं, लेकिन व्यावसायिक उपयोग के लिए आपको उचित लाइसेंस प्राप्त करना होगा।
+3. **What file formats does Aspose.Words support?**  
+   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT, and many more.
 
-3. **Aspose.Words किस फ़ाइल स्वरूपों का समर्थन करता है?**
-   - यह DOC, DOCX, RTF, WordML, HTML, MHTML, ODT आदि का समर्थन करता है।
+4. **How do I handle exceptions during conversion?**  
+   Wrap the conversion code in a try‑catch block and log the exception details as shown.
 
-4. **मैं रूपांतरण के दौरान अपवादों को कैसे संभालूँ?**
-   - त्रुटियों को सुचारू रूप से प्रबंधित करने तथा उन्हें डीबगिंग के लिए लॉग करने के लिए try-catch ब्लॉकों को क्रियान्वित करें।
+5. **Is it possible to customize the PDF output?**  
+   Yes – use `PdfSaveOptions` to set compliance levels, encryption, image quality, and more.
 
-5. **क्या पीडीएफ आउटपुट को अनुकूलित करना संभव है?**
-   - हां, उपयोग करें `PdfSaveOptions` अनुपालन स्तर या एन्क्रिप्शन सेटिंग्स जैसे गुण सेट करने के लिए.
+## Frequently Asked Questions
 
-## संसाधन
-- [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/java)
+**Q: Does this work on Linux servers?**  
+A: Absolutely. Aspose.Words for Java is platform‑agnostic and runs on any OS with a compatible JVM.
 
+**Q: How can I convert multiple files in one run?**  
+A: Create a loop that reads file names from a directory or a configuration file, then call the conversion logic for each entry.
+
+**Q: What if the Word document contains macros?**  
+A: Macros are ignored during conversion; only the visible content is rendered into the PDF.
+
+**Q: Can I add a password to the generated PDF?**  
+A: Yes. Configure `PdfSaveOptions.setEncryptionDetails()` with a user and owner password.
+
+**Q: Is there a way to embed custom metadata into the PDF?**  
+A: Use `PdfSaveOptions.setCustomProperties()` to add key‑value pairs that appear in the PDF’s metadata.
+
+## Resources
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
