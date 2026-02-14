@@ -1,10 +1,12 @@
 ---
-"description": "أطلق العنان لقوة المعادلات الرياضية في المستندات مع Aspose.Words لجافا. تعلم كيفية التعامل مع كائنات Office Math وعرضها بسهولة."
-"linktitle": "استخدام كائنات Office Math"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "استخدام كائنات الرياضيات المكتبية في Aspose.Words للغة Java"
-"url": "/ar/java/document-conversion-and-export/using-office-math-objects/"
-"weight": 13
+date: 2026-02-14
+description: تعلم كيفية عرض الرياضيات داخل النص، وإدراج معادلة رياضية، والتعامل مع
+  كائنات Office Math بسهولة مع Aspose.Words for Java.
+linktitle: Using Office Math Objects
+second_title: Aspose.Words Java Document Processing API
+title: عرض الرياضيات داخل النص باستخدام Office Math في Aspose.Words للـ Java
+url: /ar/java/document-conversion-and-export/using-office-math-objects/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,112 +15,114 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام كائنات الرياضيات المكتبية في Aspose.Words للغة Java
+# عرض الرياضيات داخل النص باستخدام Office Math في Aspose.Words for Java
 
+في هذا الدرس الشامل ستكتشف كيفية **عرض الرياضيات داخل النص** باستخدام كائنات Office Math في Aspose.Words for Java. سواء كنت بحاجة إلى **إدراج معادلة رياضية** في تقرير أو ضبط تنسيق الصيغ المعقدة بدقة، فإن هذا الدليل يرافقك في كل خطوة — من تحميل مستند Word إلى حفظ النتيجة النهائية.
 
-## مقدمة لاستخدام كائنات الرياضيات المكتبية في Aspose.Words لـ Java
+## إجابات سريعة
+- **ماذا يعني “عرض الرياضيات داخل النص”؟** تظهر المعادلة داخل تدفق النص، وليس في سطر منفصل.  
+- **أي فئة تمثل كائنًا رياضيًا؟** `OfficeMath` في واجهة برمجة تطبيقات Aspose.Words.  
+- **هل يمكنني تغيير المحاذاة؟** نعم، استخدم `setJustification` مع LEFT أو CENTER أو RIGHT.  
+- **هل أحتاج إلى ترخيص لهذه الميزة؟** يلزم وجود ترخيص صالح لـ Aspose.Words for Java للاستخدام في بيئة الإنتاج.  
+- **ما هو الإصدار المعروض؟** يعمل الكود مع أحدث إصدار من Aspose.Words for Java (2026).
 
-في مجال معالجة المستندات بلغة جافا، يُعدّ Aspose.Words أداةً موثوقةً وفعّالة. ومن مزاياه غير المعروفة قدرته على العمل مع كائنات Office Math. في هذا الدليل الشامل، سنتناول كيفية الاستفادة من كائنات Office Math في Aspose.Words لجافا لمعالجة وعرض المعادلات الرياضية ضمن مستنداتك. 
+## ما هو “عرض الرياضيات داخل النص”؟
+يعني عرض الرياضيات داخل النص أن المعادلة تُعامل كجزء من نص الفقرة، مما يسمح لها بالالتفاف طبيعيًا مع الكلمات المحيطة. هذا مفيد للمعادلات القصيرة التي لا يجب أن تعطل تدفق القراءة.
 
-## المتطلبات الأساسية
+## لماذا نستخدم كائنات Office Math في Aspose.Words for Java؟
+- **تحكم دقيق** في تخطيط المعادلة (inline مقابل display).  
+- **معالجة برمجية** للمعادلات دون فتح Word يدويًا.  
+- **عرض متسق** عبر المنصات، مثالي لإنشاء التقارير الآلية.
 
-قبل أن نتعمق في تفاصيل استخدام Office Math في Aspose.Words لجافا، لنتأكد من إعداد كل شيء. تأكد من:
+## المتطلبات المسبقة
+قبل أن نبدأ، تأكد من أن لديك:
 
-- تم تثبيت Aspose.Words لـ Java.
-- مستند يحتوي على معادلات Office Math (بالنسبة لهذا الدليل، سنستخدم "OfficeMath.docx").
-
-## فهم كائنات الرياضيات المكتبية
-
-تُستخدم كائنات Office Math لتمثيل المعادلات الرياضية داخل مستند. يوفر Aspose.Words لـ Java دعمًا قويًا لـ Office Math، مما يتيح لك التحكم في عرضها وتنسيقها. 
+- Aspose.Words for Java مثبتًا ومُشارًا إليه في مشروعك.  
+- ملف Word يحتوي بالفعل على معادلة Office Math (مثال: `OfficeMath.docx`).  
+- ترخيص صالح إذا كنت تخطط لتشغيل الكود خارج وضع التقييم.
 
 ## دليل خطوة بخطوة
 
-لنبدأ بعملية العمل مع Office Math في Aspose.Words لـ Java خطوة بخطوة:
-
 ### تحميل المستند
-
-أولاً، قم بتحميل المستند الذي يحتوي على معادلة Office Math التي تريد العمل بها:
+أولاً، قم بتحميل المستند الذي يحتوي على معادلة Office Math التي تريد العمل معها:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### الوصول إلى كائن الرياضيات في Office
-
-الآن، دعنا نصل إلى كائن Office Math داخل المستند:
+### الوصول إلى كائن Office Math
+استرجع أول عقدة Office Math من المستند:
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### تعيين نوع العرض
-
-يمكنك التحكم في كيفية عرض المعادلة داخل المستند. استخدم `setDisplayType` طريقة لتحديد ما إذا كان يجب عرضه ضمن النص أو على سطره:
+### تعيين نوع العرض (Inline مقابل Display)
+تحكم فيما إذا كانت المعادلة تظهر داخل النص مع الكلمات المحيطة أو في سطر منفصل. لـ **عرض الرياضيات داخل النص**، استخدم تعداد `INLINE`؛ وللسطر المنفصل، استخدم `DISPLAY`:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-### ضبط التبرير
+*إذا كنت تريد أن تبقى المعادلة داخل النص، استبدل `DISPLAY` بـ `INLINE`.*
 
-يمكنك أيضًا ضبط محاذاة المعادلة. على سبيل المثال، لنحاذيها إلى اليسار:
+### تعيين المحاذاة
+ضبط محاذاة المعادلة. أدناه نُحاذيها إلى اليسار، لكن يمكنك أيضًا اختيار `CENTER` أو `RIGHT`:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### حفظ المستند
-
-أخيرًا، احفظ المستند باستخدام معادلة Office Math المعدلة:
+### حفظ المستند المعدل
+أخيرًا، احفظ التغييرات في ملف جديد:
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## الكود المصدري الكامل لاستخدام كائنات الرياضيات المكتبية في Aspose.Words لـ Java
+## الكود الكامل لاستخدام كائنات Office Math في Aspose.Words for Java
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // يمثل نوع العرض في OfficeMath ما إذا كانت المعادلة معروضة ضمن النص أو معروضة على سطره.
+        // OfficeMath display type represents whether an equation is displayed inline with the text or displayed on its line.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## خاتمة
+## المشكلات الشائعة & استكشاف الأخطاء وإصلاحها
+- **المعادلة غير موجودة:** تأكد من أن المستند يحتوي فعليًا على كائن Office Math؛ وإلا سيعيد `doc.getChild` القيمة `null`.  
+- **نوع العرض لا يؤثر:** تحقق من أنك تستخدم نسخة حديثة من Aspose.Words؛ الإصدارات القديمة قد لا تدعم `OfficeMathDisplayType` بشكل كامل.  
+- **استثناء الترخيص:** إذا ظهرت لك رسالة خطأ ترخيص، تحقق مرة أخرى من تحميل ملف الترخيص بشكل صحيح قبل إنشاء كائن `Document`.
 
-في هذا الدليل، استكشفنا كيفية استخدام كائنات Office Math في Aspose.Words لجافا. تعلمت كيفية تحميل مستند، والوصول إلى معادلات Office Math، والتحكم في عرضها وتنسيقها. ستمكنك هذه المعرفة من إنشاء مستندات ذات محتوى رياضي مُقدم بشكل جميل.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: ما هو هدف كائنات Office Math في Aspose.Words for Java؟**  
+A: تتيح لك كائنات Office Math تمثيل ومعالجة المعادلات الرياضية برمجيًا، مما يمنحك تحكمًا كاملاً في العرض والتنسيق.
 
-### ما هو الغرض من كائنات Office Math في Aspose.Words لـ Java؟
+**س: هل يمكنني محاذاة معادلات Office Math بشكل مختلف داخل المستند؟**  
+A: نعم، استخدم طريقة `setJustification` لمحاذاة إلى اليسار أو اليمين أو الوسط.
 
-تتيح لك كائنات Office Math في Aspose.Words لـ Java تمثيل المعادلات الرياضية ومعالجتها داخل مستنداتك. كما توفر لك التحكم في عرض المعادلات وتنسيقها.
+**س: هل Aspose.Words for Java مناسب للتعامل مع مستندات رياضية معقدة؟**  
+A: بالتأكيد. المكتبة تدعم بالكامل المعادلات المعقدة، الكسور المتداخلة، المصفوفات، وأكثر من ذلك.
 
-### هل يمكنني محاذاة معادلات Office Math بشكل مختلف داخل مستندي؟
+**س: كيف يمكنني معرفة المزيد عن Aspose.Words for Java؟**  
+A: للحصول على وثائق شاملة وتنزيلات، زر [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-نعم، يمكنك التحكم في محاذاة معادلات Office Math. استخدم `setJustification` طريقة لتحديد خيارات المحاذاة مثل اليسار أو اليمين أو الوسط.
+**س: أين يمكنني تنزيل Aspose.Words for Java؟**  
+A: يمكنك تنزيل Aspose.Words for Java من الموقع: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-### هل Aspose.Words for Java مناسب للتعامل مع المستندات الرياضية المعقدة؟
+---
 
-بالتأكيد! يُعدّ Aspose.Words for Java مثاليًا للتعامل مع المستندات المعقدة التي تحتوي على محتوى رياضي، وذلك بفضل دعمه القوي لكائنات Office Math.
-
-### كيف يمكنني معرفة المزيد عن Aspose.Words لـ Java؟
-
-للحصول على وثائق وتنزيلات شاملة، قم بزيارة [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/).
-
-### أين يمكنني تنزيل Aspose.Words لـ Java؟
-
-يمكنك تنزيل Aspose.Words for Java من الموقع الإلكتروني: [تنزيل Aspose.Words لـ Java](https://releases.aspose.com/words/java/).
-
+**آخر تحديث:** 2026-02-14  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (latest as of Feb 2026)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

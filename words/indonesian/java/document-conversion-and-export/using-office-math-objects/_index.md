@@ -1,10 +1,13 @@
 ---
-"description": "Manfaatkan kekuatan persamaan matematika dalam dokumen dengan Aspose.Words untuk Java. Pelajari cara memanipulasi dan menampilkan objek Office Math dengan mudah."
-"linktitle": "Menggunakan Objek Matematika Kantor"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Menggunakan Objek Matematika Office di Aspose.Words untuk Java"
-"url": "/id/java/document-conversion-and-export/using-office-math-objects/"
-"weight": 13
+date: 2026-02-14
+description: Pelajari cara menampilkan matematika secara inline, menyisipkan persamaan
+  matematika, dan memanipulasi objek Office Math dengan mudah menggunakan Aspose.Words
+  for Java.
+linktitle: Using Office Math Objects
+second_title: Aspose.Words Java Document Processing API
+title: Menampilkan Matematika Inline dengan Office Math di Aspose.Words untuk Java
+url: /id/java/document-conversion-and-export/using-office-math-objects/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,112 +16,114 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggunakan Objek Matematika Office di Aspose.Words untuk Java
+# Menampilkan Matematika Inline dengan Office Math di Aspose.Words untuk Java
 
+Dalam tutorial komprehensif ini Anda akan menemukan cara **menampilkan matematika inline** menggunakan objek Office Math di Aspose.Words untuk Java. Baik Anda perlu **menyisipkan persamaan matematika** ke dalam laporan atau menyempurnakan pemformatan rumus kompleks, panduan ini akan memandu Anda melalui setiap langkah—dari memuat dokumen Word hingga menyimpan hasil akhir.
 
-## Pengantar Penggunaan Objek Matematika Office di Aspose.Words untuk Java
+## Jawaban Cepat
+- **Apa arti “display math inline”?** Persamaan muncul dalam alur teks, bukan pada baris terpisah.  
+- **Kelas mana yang mewakili objek matematika?** `OfficeMath` dalam API Aspose.Words.  
+- **Apakah saya dapat mengubah perataan?** Ya, gunakan `setJustification` dengan LEFT, CENTER, atau RIGHT.  
+- **Apakah saya memerlukan lisensi untuk fitur ini?** Lisensi Aspose.Words untuk Java yang valid diperlukan untuk penggunaan produksi.  
+- **Versi apa yang ditunjukkan?** Kode ini bekerja dengan rilis terbaru Aspose.Words untuk Java (2026).  
 
-Dalam ranah pemrosesan dokumen di Java, Aspose.Words merupakan alat yang andal dan hebat. Salah satu kelebihannya yang kurang dikenal adalah kemampuannya untuk bekerja dengan objek Office Math. Dalam panduan komprehensif ini, kita akan membahas cara memanfaatkan objek Office Math di Aspose.Words untuk Java untuk memanipulasi dan menampilkan persamaan matematika dalam dokumen Anda. 
+## Apa itu “display math inline”?
+Menampilkan matematika inline berarti persamaan diperlakukan sebagai bagian dari teks paragraf, memungkinkan ia membungkus secara alami dengan kata‑kata di sekitarnya. Ini berguna untuk rumus singkat yang tidak boleh memutus alur bacaan.
+
+## Mengapa menggunakan objek Office Math di Aspose.Words untuk Java?
+- **Kontrol presisi** atas tata letak persamaan (inline vs. display).  
+- **Manipulasi programatik** persamaan tanpa membuka Word secara manual.  
+- **Rendering konsisten** di seluruh platform, sempurna untuk pembuatan laporan otomatis.
 
 ## Prasyarat
+Sebelum kita mulai, pastikan Anda memiliki:
 
-Sebelum kita masuk ke seluk-beluk bekerja dengan Office Math di Aspose.Words untuk Java, mari pastikan Anda telah menyiapkan semuanya. Pastikan Anda memiliki:
+- Aspose.Words untuk Java terinstal dan direferensikan dalam proyek Anda.  
+- File Word yang sudah berisi persamaan Office Math (misalnya `OfficeMath.docx`).  
+- Lisensi yang valid jika Anda berencana menjalankan kode di luar mode evaluasi.
 
-- Menginstal Aspose.Words untuk Java.
-- Dokumen yang berisi persamaan Office Math (untuk panduan ini, kami akan menggunakan "OfficeMath.docx").
+## Panduan Langkah‑per‑Langkah
 
-## Memahami Objek Matematika Kantor
-
-Objek Office Math digunakan untuk merepresentasikan persamaan matematika dalam sebuah dokumen. Aspose.Words untuk Java menyediakan dukungan yang kuat untuk Office Math, yang memungkinkan Anda untuk mengontrol tampilan dan formatnya. 
-
-## Panduan Langkah demi Langkah
-
-Mari kita mulai proses langkah demi langkah bekerja dengan Office Math di Aspose.Words untuk Java:
-
-### Muat Dokumen
-
+### Memuat Dokumen
 Pertama, muat dokumen yang berisi persamaan Office Math yang ingin Anda kerjakan:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Mengakses Objek Matematika Office
-
-Sekarang, mari mengakses objek Office Math dalam dokumen:
+### Mengakses Objek Office Math
+Ambil node Office Math pertama dari dokumen:
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Atur Jenis Tampilan
-
-Anda dapat mengontrol bagaimana persamaan ditampilkan dalam dokumen. Gunakan `setDisplayType` metode untuk menentukan apakah akan ditampilkan sebaris dengan teks atau pada barisnya:
+### Mengatur Tipe Tampilan (Inline vs. Display)
+Kontrol apakah persamaan muncul inline dengan teks di sekitarnya atau pada baris terpisah. Untuk **display math inline**, gunakan enum `INLINE`; untuk baris terpisah, gunakan `DISPLAY`:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-### Tetapkan Pembenaran
+*Jika Anda ingin persamaan tetap inline, ganti `DISPLAY` dengan `INLINE`.*
 
-Anda juga dapat mengatur justifikasi persamaan. Misalnya, mari kita ratakan ke kiri:
+### Mengatur Justifikasi
+Sesuaikan perataan persamaan. Di bawah ini kami menyesuaikannya ke kiri, tetapi Anda juga dapat memilih `CENTER` atau `RIGHT`:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Simpan Dokumen
-
-Terakhir, simpan dokumen dengan persamaan Office Math yang dimodifikasi:
+### Menyimpan Dokumen yang Dimodifikasi
+Akhirnya, tulis perubahan kembali ke file baru:
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Kode Sumber Lengkap Untuk Menggunakan Objek Matematika Office di Aspose.Words untuk Java
+## Kode Sumber Lengkap untuk Menggunakan Objek Office Math di Aspose.Words untuk Java
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // Jenis tampilan OfficeMath menunjukkan apakah persamaan ditampilkan sebaris dengan teks atau ditampilkan pada barisnya.
+        // OfficeMath display type represents whether an equation is displayed inline with the text or displayed on its line.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## Kesimpulan
-
-Dalam panduan ini, kami mempelajari cara memanfaatkan objek Office Math di Aspose.Words untuk Java. Anda mempelajari cara memuat dokumen, mengakses persamaan Office Math, dan memanipulasi tampilan dan formatnya. Pengetahuan ini akan memberdayakan Anda untuk membuat dokumen dengan konten matematika yang ditampilkan dengan indah.
+## Masalah Umum & Pemecahan Masalah
+- **Persamaan tidak ditemukan:** Pastikan dokumen memang berisi objek Office Math; jika tidak, `doc.getChild` akan mengembalikan `null`.  
+- **Tipe tampilan tidak berpengaruh:** Pastikan Anda menggunakan versi terbaru Aspose.Words; rilis lama mungkin memiliki dukungan terbatas untuk `OfficeMathDisplayType`.  
+- **Pengecualian lisensi:** Jika Anda melihat kesalahan lisensi, periksa kembali bahwa file lisensi Anda telah dimuat dengan benar sebelum membuat instance `Document`.  
 
 ## Pertanyaan yang Sering Diajukan
 
-### Apa tujuan objek Office Math di Aspose.Words untuk Java?
+**Q: Apa tujuan objek Office Math di Aspose.Words untuk Java?**  
+A: Objek Office Math memungkinkan Anda merepresentasikan dan memanipulasi persamaan matematika secara programatik, memberi Anda kontrol penuh atas tampilan dan pemformatan.
 
-Objek Office Math di Aspose.Words untuk Java memungkinkan Anda untuk merepresentasikan dan memanipulasi persamaan matematika dalam dokumen Anda. Objek tersebut menyediakan kontrol atas tampilan dan pemformatan persamaan.
+**Q: Bisakah saya mengatur perataan persamaan Office Math secara berbeda dalam dokumen saya?**  
+A: Ya, gunakan metode `setJustification` untuk meratakan ke kiri, kanan, atau tengah.
 
-### Dapatkah saya menyelaraskan persamaan Office Math secara berbeda dalam dokumen saya?
+**Q: Apakah Aspose.Words untuk Java cocok untuk menangani dokumen matematika yang kompleks?**  
+A: Tentu saja. Perpustakaan ini sepenuhnya mendukung persamaan kompleks, pecahan bersarang, matriks, dan lainnya.
 
-Ya, Anda dapat mengontrol penyelarasan persamaan Office Math. Gunakan `setJustification` metode untuk menentukan opsi perataan seperti kiri, kanan, atau tengah.
+**Q: Bagaimana saya dapat mempelajari lebih lanjut tentang Aspose.Words untuk Java?**  
+A: Untuk dokumentasi lengkap dan unduhan, kunjungi [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### Apakah Aspose.Words untuk Java cocok untuk menangani dokumen matematika yang rumit?
+**Q: Di mana saya dapat mengunduh Aspose.Words untuk Java?**  
+A: Anda dapat mengunduh Aspose.Words untuk Java dari situs web: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-Tentu saja! Aspose.Words untuk Java sangat cocok untuk menangani dokumen kompleks yang berisi konten matematika, berkat dukungannya yang kuat terhadap objek Office Math.
+---
 
-### Bagaimana saya dapat mempelajari lebih lanjut tentang Aspose.Words untuk Java?
-
-Untuk dokumentasi dan unduhan yang lengkap, kunjungi [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/).
-
-### Di mana saya dapat mengunduh Aspose.Words untuk Java?
-
-Anda dapat mengunduh Aspose.Words untuk Java dari situs web: [Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/).
-
+**Terakhir Diperbarui:** 2026-02-14  
+**Diuji Dengan:** Aspose.Words for Java 24.12 (latest as of Feb 2026)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

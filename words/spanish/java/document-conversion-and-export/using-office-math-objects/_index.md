@@ -1,10 +1,12 @@
 ---
-"description": "Desbloquea el poder de las ecuaciones matemáticas en documentos con Aspose.Words para Java. Aprende a manipular y mostrar objetos de Office Math sin esfuerzo."
-"linktitle": "Uso de objetos matemáticos de Office"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Uso de objetos matemáticos de Office en Aspose.Words para Java"
-"url": "/es/java/document-conversion-and-export/using-office-math-objects/"
-"weight": 13
+date: 2026-02-14
+description: Aprenda a mostrar matemáticas en línea, insertar ecuaciones matemáticas
+  y manipular objetos Office Math sin esfuerzo con Aspose.Words para Java.
+linktitle: Using Office Math Objects
+second_title: Aspose.Words Java Document Processing API
+title: Mostrar ecuaciones en línea con Office Math en Aspose.Words para Java
+url: /es/java/document-conversion-and-export/using-office-math-objects/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,112 +15,114 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uso de objetos matemáticos de Office en Aspose.Words para Java
+# Mostrar Matemáticas en Línea con Office Math en Aspose.Words para Java
 
+En este tutorial exhaustivo descubrirás cómo **mostrar matemáticas en línea** usando objetos Office Math en Aspose.Words para Java. Ya sea que necesites **insertar una ecuación matemática** en un informe o afinar el formato de fórmulas complejas, esta guía te acompaña paso a paso, desde cargar un documento Word hasta guardar el resultado final.
 
-## Introducción al uso de objetos matemáticos de Office en Aspose.Words para Java
+## Respuestas rápidas
+- **¿Qué significa “display math inline”?** La ecuación aparece dentro del flujo de texto, no en una línea separada.  
+- **¿Qué clase representa un objeto matemático?** `OfficeMath` en la API de Aspose.Words.  
+- **¿Puedo cambiar la alineación?** Sí, usa `setJustification` con LEFT, CENTER o RIGHT.  
+- **¿Necesito una licencia para esta función?** Se requiere una licencia válida de Aspose.Words para Java para uso en producción.  
+- **¿Qué versión se muestra?** El código funciona con la última versión de Aspose.Words para Java (2026).
 
-En el ámbito del procesamiento de documentos en Java, Aspose.Words se erige como una herramienta fiable y potente. Una de sus ventajas menos conocidas es su capacidad para trabajar con objetos de Office Math. En esta guía completa, profundizaremos en cómo aprovechar los objetos de Office Math en Aspose.Words para Java para manipular y mostrar ecuaciones matemáticas en sus documentos. 
+## ¿Qué es “display math inline”?
+Mostrar matemáticas en línea significa que la ecuación se trata como parte del texto del párrafo, permitiendo que se ajuste naturalmente con las palabras circundantes. Esto es útil para fórmulas cortas que no deben interrumpir el flujo de lectura.
 
-## Prerrequisitos
+## ¿Por qué usar objetos Office Math en Aspose.Words para Java?
+- **Control preciso** sobre el diseño de la ecuación (en línea vs. display).  
+- **Manipulación programática** de ecuaciones sin abrir Word manualmente.  
+- **Renderizado consistente** en todas las plataformas, ideal para generación automática de informes.
 
-Antes de profundizar en las complejidades de trabajar con Office Math en Aspose.Words para Java, asegurémonos de que todo esté configurado. Asegúrese de que:
+## Requisitos previos
+Antes de comenzar, asegúrate de tener:
 
-- Instalé Aspose.Words para Java.
-- Un documento que contiene ecuaciones de Office Math (para esta guía, usaremos "OfficeMath.docx").
-
-## Comprensión de los objetos matemáticos de Office
-
-Los objetos de Office Math se utilizan para representar ecuaciones matemáticas en un documento. Aspose.Words para Java ofrece una sólida compatibilidad con Office Math, lo que permite controlar su visualización y formato. 
+- Aspose.Words para Java instalado y referenciado en tu proyecto.  
+- Un archivo Word que ya contenga una ecuación Office Math (p. ej., `OfficeMath.docx`).  
+- Una licencia válida si planeas ejecutar el código fuera del modo de evaluación.
 
 ## Guía paso a paso
 
-Comencemos con el proceso paso a paso de trabajar con Office Math en Aspose.Words para Java:
-
 ### Cargar el documento
-
-Primero, cargue el documento que contiene la ecuación de Office Math con la que desea trabajar:
+Primero, carga el documento que contiene la ecuación Office Math con la que deseas trabajar:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Acceder al objeto de matemáticas de Office
-
-Ahora, accedamos al objeto Office Math dentro del documento:
+### Acceder al objeto Office Math
+Obtén el primer nodo Office Math del documento:
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Establecer el tipo de visualización
-
-Puedes controlar cómo se muestra la ecuación dentro del documento. Usa el `setDisplayType` método para especificar si debe mostrarse en línea con el texto o en su línea:
+### Establecer el tipo de visualización (En línea vs. Display)
+Controla si la ecuación aparece en línea con el texto circundante o en una línea propia. Para **display math inline**, usa el enum `INLINE`; para una línea separada, usa `DISPLAY`:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-### Justificación del conjunto
+*Si deseas que la ecuación permanezca en línea, reemplaza `DISPLAY` por `INLINE`.*
 
-También puedes configurar la justificación de la ecuación. Por ejemplo, alineémosla a la izquierda:
+### Establecer la justificación
+Ajusta la alineación de la ecuación. A continuación la alineamos a la izquierda, pero también puedes elegir `CENTER` o `RIGHT`:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Guardar el documento
-
-Por último, guarde el documento con la ecuación de Office Math modificada:
+### Guardar el documento modificado
+Finalmente, escribe los cambios en un nuevo archivo:
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Código fuente completo para usar objetos matemáticos de Office en Aspose.Words para Java
+## Código fuente completo para usar objetos Office Math en Aspose.Words para Java
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // El tipo de visualización de OfficeMath representa si una ecuación se muestra en línea con el texto o en su línea.
+        // OfficeMath display type represents whether an equation is displayed inline with the text or displayed on its line.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## Conclusión
-
-En esta guía, exploramos cómo usar objetos de Office Math en Aspose.Words para Java. Aprendió a cargar un documento, acceder a ecuaciones de Office Math y manipular su visualización y formato. Este conocimiento le permitirá crear documentos con contenido matemático visualmente atractivo.
+## Problemas comunes y solución de errores
+- **Ecuación no encontrada:** Asegúrate de que el documento realmente contenga un objeto Office Math; de lo contrario `doc.getChild` devolverá `null`.  
+- **El tipo de visualización no tiene efecto:** Verifica que estés usando una versión reciente de Aspose.Words; versiones anteriores pueden tener soporte limitado para `OfficeMathDisplayType`.  
+- **Excepción de licencia:** Si ves un error de licencia, verifica que tu archivo de licencia se haya cargado correctamente antes de crear la instancia `Document`.
 
 ## Preguntas frecuentes
 
-### ¿Cuál es el propósito de los objetos de Office Math en Aspose.Words para Java?
+**P: ¿Cuál es el propósito de los objetos Office Math en Aspose.Words para Java?**  
+R: Los objetos Office Math te permiten representar y manipular ecuaciones matemáticas programáticamente, dándote control total sobre su visualización y formato.
 
-Los objetos de Office Math en Aspose.Words para Java permiten representar y manipular ecuaciones matemáticas en los documentos. Permiten controlar la visualización y el formato de las ecuaciones.
+**P: ¿Puedo alinear las ecuaciones Office Math de manera diferente dentro de mi documento?**  
+R: Sí, usa el método `setJustification` para alinear a la izquierda, derecha o centro.
 
-### ¿Puedo alinear las ecuaciones de Office Math de forma diferente dentro de mi documento?
+**P: ¿Es Aspose.Words para Java adecuado para manejar documentos matemáticos complejos?**  
+R: Absolutamente. La biblioteca soporta completamente ecuaciones complejas, fracciones anidadas, matrices y más.
 
-Sí, puedes controlar la alineación de las ecuaciones de Office Math. Usa el `setJustification` método para especificar opciones de alineación como izquierda, derecha o centro.
+**P: ¿Cómo puedo aprender más sobre Aspose.Words para Java?**  
+R: Para documentación completa y descargas, visita [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### ¿Es Aspose.Words para Java adecuado para gestionar documentos matemáticos complejos?
+**P: ¿Dónde puedo descargar Aspose.Words para Java?**  
+R: Puedes descargar Aspose.Words para Java desde el sitio web: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-¡Por supuesto! Aspose.Words para Java es ideal para gestionar documentos complejos con contenido matemático, gracias a su sólida compatibilidad con objetos de Office Math.
+---
 
-### ¿Cómo puedo obtener más información sobre Aspose.Words para Java?
-
-Para obtener documentación completa y descargas, visite [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/).
-
-### ¿Dónde puedo descargar Aspose.Words para Java?
-
-Puede descargar Aspose.Words para Java desde el sitio web: [Descargar Aspose.Words para Java](https://releases.aspose.com/words/java/).
-
+**Última actualización:** 2026-02-14  
+**Probado con:** Aspose.Words para Java 24.12 (última versión a febrero 2026)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

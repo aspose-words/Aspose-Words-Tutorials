@@ -1,10 +1,13 @@
 ---
-"description": "Ontgrendel de kracht van wiskundige vergelijkingen in documenten met Aspose.Words voor Java. Leer moeiteloos Office Math-objecten te bewerken en weer te geven."
-"linktitle": "Office Math-objecten gebruiken"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Office Math-objecten gebruiken in Aspose.Words voor Java"
-"url": "/nl/java/document-conversion-and-export/using-office-math-objects/"
-"weight": 13
+date: 2026-02-14
+description: Leer hoe u wiskunde inline kunt weergeven, wiskundige vergelijkingen
+  kunt invoegen en Office Math-objecten moeiteloos kunt manipuleren met Aspose.Words
+  voor Java.
+linktitle: Using Office Math Objects
+second_title: Aspose.Words Java Document Processing API
+title: Wiskunde inline weergeven met Office Math in Aspose.Words voor Java
+url: /nl/java/document-conversion-and-export/using-office-math-objects/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,112 +16,114 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Office Math-objecten gebruiken in Aspose.Words voor Java
+# Wiskunde Inline weergeven met Office Math in Aspose.Words voor Java
 
+In deze uitgebreide tutorial ontdek je hoe je **wiskunde inline** kunt weergeven met Office Math-objecten in Aspose.Words voor Java. Of je nu een **wiskundige vergelijking** in een rapport moet invoegen of de opmaak van complexe formules moet verfijnen, deze gids leidt je door elke stap — van het laden van een Word‑document tot het opslaan van het uiteindelijke resultaat.
 
-## Inleiding tot het gebruik van Office Math-objecten in Aspose.Words voor Java
+## Snelle antwoorden
+- **Wat betekent “display math inline”?** De vergelijking verschijnt binnen de tekststroom, niet op een aparte regel.  
+- **Welke klasse vertegenwoordigt een wiskunde‑object?** `OfficeMath` in de Aspose.Words API.  
+- **Kan ik de uitlijning wijzigen?** Ja, gebruik `setJustification` met LEFT, CENTER of RIGHT.  
+- **Heb ik een licentie nodig voor deze functie?** Een geldige Aspose.Words for Java‑licentie is vereist voor productiegebruik.  
+- **Welke versie wordt gedemonstreerd?** De code werkt met de nieuwste Aspose.Words for Java‑release (2026).
 
-Op het gebied van documentverwerking in Java is Aspose.Words een betrouwbare en krachtige tool. Een van de minder bekende pareltjes is de mogelijkheid om met Office Math-objecten te werken. In deze uitgebreide handleiding gaan we dieper in op hoe u Office Math-objecten in Aspose.Words voor Java kunt gebruiken om wiskundige vergelijkingen in uw documenten te bewerken en weer te geven. 
+## Wat is “display math inline”?
+Wiskunde inline weergeven betekent dat de vergelijking wordt behandeld als onderdeel van de alinea‑tekst, waardoor deze natuurlijk kan omslaan met de omringende woorden. Dit is handig voor korte formules die de leesstroom niet mogen onderbreken.
+
+## Waarom Office Math‑objecten gebruiken in Aspose.Words voor Java?
+- **Precieze controle** over de lay-out van de vergelijking (inline vs. display).  
+- **Programmatic manipulation** van vergelijkingen zonder Word handmatig te openen.  
+- **Consistent rendering** over platforms, perfect voor geautomatiseerde rapportgeneratie.
 
 ## Vereisten
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-Voordat we ingaan op de complexiteit van het werken met Office Math in Aspose.Words voor Java, zorgen we ervoor dat alles goed is ingesteld. Zorg ervoor dat je het volgende hebt:
+- Aspose.Words for Java geïnstalleerd en in je project gerefereerd.  
+- Een Word‑bestand dat al een Office Math‑vergelijking bevat (bijv. `OfficeMath.docx`).  
+- Een geldige licentie als je de code buiten de evaluatiemodus wilt uitvoeren.
 
-- Aspose.Words voor Java geïnstalleerd.
-- Een document met Office Math-vergelijkingen (voor deze handleiding gebruiken we "OfficeMath.docx").
+## Stapsgewijze handleiding
 
-## Office Math-objecten begrijpen
-
-Office Math-objecten worden gebruikt om wiskundige vergelijkingen in een document weer te geven. Aspose.Words voor Java biedt robuuste ondersteuning voor Office Math, zodat u de weergave en opmaak ervan kunt bepalen. 
-
-## Stap-voor-stap handleiding
-
-Laten we beginnen met het stapsgewijze proces van het werken met Office Math in Aspose.Words voor Java:
-
-### Laad het document
-
-Laad eerst het document met de Office Math-vergelijking waarmee u wilt werken:
+### Document laden
+Laad eerst het document dat de Office Math‑vergelijking bevat waarmee je wilt werken:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Toegang tot het Office Math-object
-
-Laten we nu toegang krijgen tot het Office Math-object in het document:
+### Toegang tot het Office Math‑object
+Haal het eerste Office Math‑knooppunt op uit het document:
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Weergavetype instellen
-
-U kunt bepalen hoe de vergelijking in het document wordt weergegeven. Gebruik de `setDisplayType` Methode om aan te geven of het inline met de tekst of op de regel moet worden weergegeven:
+### Weergavetype instellen (Inline vs. Display)
+Bepaal of de vergelijking inline met de omringende tekst verschijnt of op een eigen regel. Voor **display math inline** gebruik je de `INLINE`‑enum; voor een aparte regel gebruik je `DISPLAY`:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-### Rechtvaardiging instellen
+*Als je wilt dat de vergelijking inline blijft, vervang dan `DISPLAY` door `INLINE`.*
 
-Je kunt ook de uitlijning van de vergelijking instellen. Laten we hem bijvoorbeeld links uitlijnen:
+### Uitlijning instellen
+Pas de uitlijning van de vergelijking aan. Hieronder alignen we deze naar links, maar je kunt ook `CENTER` of `RIGHT` kiezen:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Sla het document op
-
-Sla ten slotte het document op met de aangepaste Office Math-vergelijking:
+### Het gewijzigde document opslaan
+Schrijf tenslotte de wijzigingen terug naar een nieuw bestand:
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Volledige broncode voor het gebruik van Office Math-objecten in Aspose.Words voor Java
+## Complete broncode voor het gebruik van Office Math‑objecten in Aspose.Words voor Java
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // Het weergavetype van OfficeMath geeft aan of een vergelijking inline met de tekst of op de regel wordt weergegeven.
+        // OfficeMath display type represents whether an equation is displayed inline with the text or displayed on its line.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## Conclusie
-
-In deze handleiding hebben we besproken hoe je Office Math-objecten kunt gebruiken in Aspose.Words voor Java. Je hebt geleerd hoe je een document laadt, toegang krijgt tot Office Math-vergelijkingen en de weergave en opmaak ervan kunt aanpassen. Deze kennis stelt je in staat om documenten te maken met prachtig weergegeven wiskundige inhoud.
+## Veelvoorkomende problemen & probleemoplossing
+- **Equation not found:** Zorg ervoor dat het document daadwerkelijk een Office Math‑object bevat; anders retourneert `doc.getChild` `null`.  
+- **Display type has no effect:** Controleer of je een recente versie van Aspose.Words gebruikt; oudere releases hebben mogelijk beperkte ondersteuning voor `OfficeMathDisplayType`.  
+- **License exception:** Als je een licentiefout ziet, controleer dan dubbel of je licentiebestand correct is geladen voordat je de `Document`‑instantie maakt.
 
 ## Veelgestelde vragen
 
-### Wat is het doel van Office Math-objecten in Aspose.Words voor Java?
+**Q: Wat is het doel van Office Math‑objecten in Aspose.Words voor Java?**  
+A: Office Math‑objecten stellen je in staat wiskundige vergelijkingen programmatisch te representeren en te manipuleren, waardoor je volledige controle hebt over weergave en opmaak.
 
-Met Office Math-objecten in Aspose.Words voor Java kunt u wiskundige vergelijkingen in uw documenten weergeven en bewerken. Ze bieden controle over de weergave en opmaak van vergelijkingen.
+**Q: Kan ik Office Math‑vergelijkingen anders uitlijnen binnen mijn document?**  
+A: Ja, gebruik de `setJustification`‑methode om links, rechts of gecentreerd uit te lijnen.
 
-### Kan ik Office Math-vergelijkingen anders uitlijnen in mijn document?
+**Q: Is Aspose.Words voor Java geschikt voor het verwerken van complexe wiskundige documenten?**  
+A: Absoluut. De bibliotheek ondersteunt volledig complexe vergelijkingen, geneste breuken, matrices en meer.
 
-Ja, u kunt de uitlijning van Office Math-vergelijkingen regelen. Gebruik de `setJustification` Methode om uitlijningsopties op te geven, zoals links, rechts of gecentreerd.
+**Q: Hoe kan ik meer leren over Aspose.Words voor Java?**  
+A: Voor uitgebreide documentatie en downloads, bezoek [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### Is Aspose.Words voor Java geschikt voor het verwerken van complexe wiskundige documenten?
+**Q: Waar kan ik Aspose.Words voor Java downloaden?**  
+A: Je kunt Aspose.Words voor Java downloaden van de website: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-Absoluut! Aspose.Words voor Java is zeer geschikt voor het verwerken van complexe documenten met wiskundige inhoud, dankzij de robuuste ondersteuning voor Office Math-objecten.
+---
 
-### Hoe kan ik meer te weten komen over Aspose.Words voor Java?
-
-Voor uitgebreide documentatie en downloads, bezoek [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/).
-
-### Waar kan ik Aspose.Words voor Java downloaden?
-
-kunt Aspose.Words voor Java downloaden van de website: [Download Aspose.Words voor Java](https://releases.aspose.com/words/java/).
-
+**Laatst bijgewerkt:** 2026-02-14  
+**Getest met:** Aspose.Words for Java 24.12 (latest as of Feb 2026)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

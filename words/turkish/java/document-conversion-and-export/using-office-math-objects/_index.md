@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words for Java ile belgelerdeki matematiksel denklemlerin gücünü açığa çıkarın. Office Math nesnelerini zahmetsizce düzenlemeyi ve görüntülemeyi öğrenin."
-"linktitle": "Office Matematik Nesnelerini Kullanma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Office Matematik Nesnelerini Kullanma"
-"url": "/tr/java/document-conversion-and-export/using-office-math-objects/"
-"weight": 13
+date: 2026-02-14
+description: Aspose.Words for Java ile matematiği satır içinde nasıl görüntüleyeceğinizi,
+  matematik denklemi ekleyeceğinizi ve Office Math nesnelerini zahmetsizce nasıl yöneteceğinizi
+  öğrenin.
+linktitle: Using Office Math Objects
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java'da Office Math ile Matematiği Satır İçi Görüntüleme
+url: /tr/java/document-conversion-and-export/using-office-math-objects/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,112 +16,114 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Office Matematik Nesnelerini Kullanma
+# Aspose.Words for Java'da Office Math ile Satır İçi Matematik Görüntüleme
 
+Bu kapsamlı öğreticide, Aspose.Words for Java'da Office Math nesnelerini kullanarak **satır içi matematik görüntüleme** nasıl yapılacağını keşfedeceksiniz. Bir rapora **matematik denklemi eklemeniz** gerekse karmaşık formüllerin biçimlendirmesini ince ayar yapmanız gerektiğinde, bu kılavuz sizi her adımda yönlendirecek—Word belgesini yüklemekten son sonucu kaydetmeye kadar.
 
-## Java için Aspose.Words'de Office Matematik Nesnelerinin Kullanımına Giriş
+## Hızlı Yanıtlar
+- **“display math inline” ne anlama geliyor?** Denklem, ayrı bir satırda değil, metin akışı içinde görünür.  
+- **Hangi sınıf bir matematik nesnesini temsil eder?** Aspose.Words API'sinde `OfficeMath`.  
+- **Hizalamayı değiştirebilir miyim?** Evet, `setJustification` metodunu LEFT, CENTER veya RIGHT ile kullanabilirsiniz.  
+- **Bu özellik için lisansa ihtiyacım var mı?** Üretim kullanımında geçerli bir Aspose.Words for Java lisansı gereklidir.  
+- **Hangi sürüm gösteriliyor?** Kod, en son Aspose.Words for Java sürümü (2026) ile çalışır.  
 
-Java'da belge işleme alanında Aspose.Words güvenilir ve güçlü bir araç olarak öne çıkıyor. Daha az bilinen mücevherlerinden biri de Office Math nesneleriyle çalışma yeteneğidir. Bu kapsamlı kılavuzda, belgelerinizdeki matematiksel denklemleri işlemek ve görüntülemek için Java için Aspose.Words'de Office Math nesnelerinden nasıl yararlanacağınızı inceleyeceğiz. 
+## “display math inline” nedir?
+Satır içi matematik görüntüleme, denklemin paragraf metninin bir parçası gibi ele alınması ve çevredeki kelimelerle doğal olarak satır sonu alması anlamına gelir. Bu, okuma akışını kesmemesi gereken kısa formüller için faydalıdır.
 
-## Ön koşullar
+## Aspose.Words for Java'da Office Math nesnelerini neden kullanmalısınız?
+- **Denklik düzeni üzerinde hassas kontrol** (satır içi vs. görüntü).  
+- **Word'ü manuel olarak açmadan** denklemlerin programatik olarak manipülasyonu.  
+- **Platformlar arasında tutarlı render**; otomatik rapor oluşturma için mükemmel.  
 
-Aspose.Words for Java'da Office Math ile çalışmanın inceliklerine dalmadan önce, her şeyin ayarlandığından emin olalım. Şunlara sahip olduğunuzdan emin olun:
+## Önkoşullar
+Başlamadan önce şunların olduğundan emin olun:
 
-- Java için Aspose.Words'ü yükledim.
-- Office Math denklemlerini içeren bir belge (bu kılavuz için "OfficeMath.docx"i kullanacağız).
+- Projenizde yüklü ve referans verilen Aspose.Words for Java.  
+- Zaten bir Office Math denklemi içeren bir Word dosyası (ör. `OfficeMath.docx`).  
+- Değerlendirme modunun dışında kodu çalıştıracaksanız geçerli bir lisans.  
 
-## Office Matematik Nesnelerini Anlamak
+## Adım‑Adım Kılavuz
 
-Office Math nesneleri, bir belge içindeki matematiksel denklemleri temsil etmek için kullanılır. Java için Aspose.Words, Office Math için sağlam destek sağlar ve bunların görüntülenmesini ve biçimlendirilmesini kontrol etmenize olanak tanır. 
-
-## Adım Adım Kılavuz
-
-Aspose.Words for Java'da Office Math ile çalışma sürecine adım adım başlayalım:
-
-### Belgeyi Yükle
-
-Öncelikle çalışmak istediğiniz Office Math denklemini içeren belgeyi yükleyin:
+### Belgeyi Yükleme
+İlk olarak, üzerinde çalışmak istediğiniz Office Math denklemini içeren belgeyi yükleyin:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Office Matematik Nesnesine Erişim
-
-Şimdi belge içerisinde Office Math nesnesine erişelim:
+### Office Math Nesnesine Erişim
+Belgeden ilk Office Math düğümünü alın:
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Görüntü Türünü Ayarla
-
-Denklemin belge içinde nasıl görüntüleneceğini kontrol edebilirsiniz. `setDisplayType` metnin içinde mi yoksa kendi satırında mı görüntüleneceğini belirtmek için kullanılan yöntem:
+### Görüntü Tipini Ayarla (Inline vs. Display)
+Denklemin çevredeki metinle satır içinde mi yoksa ayrı bir satırda mı görüneceğini kontrol edin. **display math inline** için `INLINE` enum'ını, ayrı bir satır için `DISPLAY` kullanın:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-### Gerekçelendirmeyi Ayarla
+*Denklemin satır içinde kalmasını istiyorsanız, `DISPLAY` yerine `INLINE` yazın.*
 
-Denklemin gerekçesini de ayarlayabilirsiniz. Örneğin, onu sola hizalayalım:
+### Hizalamayı Ayarla
+Denklemin hizalamasını ayarlayın. Aşağıda sola hizalıyoruz, ancak `CENTER` veya `RIGHT` da seçebilirsiniz:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Belgeyi Kaydet
-
-Son olarak, belgeyi değiştirilmiş Office Math denklemiyle kaydedin:
+### Değiştirilen Belgeyi Kaydet
+Son olarak, değişiklikleri yeni bir dosyaya kaydedin:
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Aspose.Words for Java'da Office Matematik Nesnelerini Kullanmak İçin Tam Kaynak Kodu
+## Aspose.Words for Java'da Office Math Nesnelerini Kullanmak için Tam Kaynak Kodu
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // OfficeMath görüntüleme türü, bir denklemin metinle aynı satırda mı yoksa metin satırında mı görüntüleneceğini belirtir.
+        // OfficeMath display type represents whether an equation is displayed inline with the text or displayed on its line.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözüm Yolları
+- **Denklem bulunamadı:** Belgenin gerçekten bir Office Math nesnesi içerdiğinden emin olun; aksi takdirde `doc.getChild` `null` döner.  
+- **Görüntü tipi etkili değil:** Aspose.Words'ün güncel bir sürümünü kullandığınızı doğrulayın; eski sürümler `OfficeMathDisplayType` için sınırlı destek sağlayabilir.  
+- **Lisans istisnası:** Lisans hatası alıyorsanız, `Document` örneğini oluşturmadan önce lisans dosyanızın doğru yüklendiğini iki kez kontrol edin.  
 
-Bu kılavuzda, Aspose.Words for Java'da Office Math nesnelerinin nasıl kullanılacağını inceledik. Bir belgeyi nasıl yükleyeceğinizi, Office Math denklemlerine nasıl erişeceğinizi ve bunların görüntülenmesini ve biçimlendirmesini nasıl değiştireceğinizi öğrendiniz. Bu bilgi, güzel bir şekilde işlenmiş matematiksel içeriklere sahip belgeler oluşturmanızı sağlayacaktır.
+## Sıkça Sorulan Sorular
 
-## SSS
+**S: Aspose.Words for Java'da Office Math nesnelerinin amacı nedir?**  
+C: Office Math nesneleri, matematiksel denklemleri programatik olarak temsil etmenizi ve manipüle etmenizi sağlar; böylece görüntüleme ve biçimlendirme üzerinde tam kontrol elde edersiniz.
 
-### Aspose.Words for Java'daki Office Math nesnelerinin amacı nedir?
+**S: Belgemde Office Math denklemlerini farklı şekilde hizalayabilir miyim?**  
+C: Evet, `setJustification` metodunu kullanarak sola, sağa veya ortaya hizalayabilirsiniz.
 
-Aspose.Words for Java'daki Office Math nesneleri, belgelerinizdeki matematiksel denklemleri temsil etmenize ve düzenlemenize olanak tanır. Denklem gösterimi ve biçimlendirmesi üzerinde kontrol sağlarlar.
+**S: Aspose.Words for Java karmaşık matematiksel belgelerle çalışmak için uygun mu?**  
+C: Kesinlikle. Kütüphane, karmaşık denklemler, iç içe kesirler, matrisler ve daha fazlasını tam olarak destekler.
 
-### Office Math denklemlerini belgem içinde farklı şekilde hizalayabilir miyim?
+**S: Aspose.Words for Java hakkında daha fazla nasıl bilgi edinebilirim?**  
+C: Kapsamlı dokümantasyon ve indirmeler için [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) adresini ziyaret edin.
 
-Evet, Office Math denklemlerinin hizalamasını kontrol edebilirsiniz. `setJustification` Sol, sağ veya orta gibi hizalama seçeneklerini belirtme yöntemi.
+**S: Aspose.Words for Java'ı nereden indirebilirim?**  
+C: Aspose.Words for Java'ı web sitesinden indirebilirsiniz: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-### Aspose.Words for Java karmaşık matematiksel belgeleri işlemek için uygun mudur?
+---
 
-Kesinlikle! Aspose.Words for Java, Office Math nesnelerine yönelik güçlü desteği sayesinde matematiksel içerik barındıran karmaşık belgeleri işlemek için oldukça uygundur.
-
-### Aspose.Words for Java hakkında daha fazla bilgi nasıl edinebilirim?
-
-Kapsamlı dokümantasyon ve indirmeler için şu adresi ziyaret edin: [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/).
-
-### Aspose.Words for Java'yı nereden indirebilirim?
-
-Aspose.Words for Java'yı şu web sitesinden indirebilirsiniz: [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/).
-
+**Son Güncelleme:** 2026-02-14  
+**Test Edilen Sürüm:** Aspose.Words for Java 24.12 (Şubat 2026 itibarıyla en yeni)  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

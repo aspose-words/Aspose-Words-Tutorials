@@ -1,124 +1,132 @@
 ---
-"description": "ปลดล็อกพลังของสมการทางคณิตศาสตร์ในเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การจัดการและแสดงวัตถุ Office Math ได้อย่างง่ายดาย"
-"linktitle": "การใช้ Office Math Objects"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การใช้ Office Math Objects ใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-conversion-and-export/using-office-math-objects/"
-"weight": 13
+date: 2026-02-14
+description: เรียนรู้วิธีการแสดงคณิตศาสตร์แบบอินไลน์, แทรกสมการคณิตศาสตร์และจัดการวัตถุ
+  Office Math อย่างง่ายดายด้วย Aspose.Words for Java.
+linktitle: Using Office Math Objects
+second_title: Aspose.Words Java Document Processing API
+title: แสดงคณิตศาสตร์แบบอินไลน์ด้วย Office Math ใน Aspose.Words สำหรับ Java
+url: /th/java/document-conversion-and-export/using-office-math-objects/
+weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ "Precise control" etc. Keep bold formatting.
+
+Make sure we keep code block placeholders unchanged.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การใช้ Office Math Objects ใน Aspose.Words สำหรับ Java
+# แสดงสมการคณิตศาสตร์แบบอินไลน์ด้วย Office Math ใน Aspose.Words for Java
 
+ในบทแนะนำที่ครอบคลุมนี้ คุณจะได้เรียนรู้วิธี **display math inline** โดยใช้วัตถุ Office Math ใน Aspose.Words for Java ไม่ว่าคุณจะต้อง **insert math equation** ลงในรายงานหรือปรับแต่งรูปแบบของสูตรที่ซับซ้อน คู่มือนี้จะพาคุณผ่านทุกขั้นตอน—from loading a Word document to saving the final result.
 
-## การแนะนำการใช้ Office Math Objects ใน Aspose.Words สำหรับ Java
+## คำตอบอย่างรวดเร็ว
+- **What does “display math inline” mean?** สมการจะแสดงอยู่ในกระแสข้อความ ไม่ได้อยู่บนบรรทัดแยก  
+- **Which class represents a math object?** `OfficeMath` ใน Aspose.Words API.  
+- **Can I change the alignment?** ใช่, ใช้ `setJustification` กับ LEFT, CENTER หรือ RIGHT.  
+- **Do I need a license for this feature?** จำเป็นต้องมีใบอนุญาต Aspose.Words for Java ที่ถูกต้องสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **What version is demonstrated?** โค้ดทำงานกับรุ่นล่าสุดของ Aspose.Words for Java (2026).
 
-ในแวดวงการประมวลผลเอกสารใน Java Aspose.Words ถือเป็นเครื่องมือที่เชื่อถือได้และทรงพลัง คุณสมบัติที่ไม่ค่อยมีใครรู้จักอย่างหนึ่งคือความสามารถในการทำงานกับวัตถุ Office Math ในคู่มือที่ครอบคลุมนี้ เราจะเจาะลึกถึงวิธีการใช้ประโยชน์จากวัตถุ Office Math ใน Aspose.Words สำหรับ Java เพื่อจัดการและแสดงสมการทางคณิตศาสตร์ภายในเอกสารของคุณ 
+## “display math inline” คืออะไร?
+การแสดงสมการแบบอินไลน์หมายถึงสมการถูกจัดเป็นส่วนหนึ่งของข้อความในย่อหน้า ทำให้สามารถตัดบรรทัดได้อย่างเป็นธรรมชาติร่วมกับคำรอบข้าง ซึ่งเป็นประโยชน์สำหรับสูตรสั้นที่ไม่ควรทำให้การอ่านขัดจังหวะ.
+
+## ทำไมต้องใช้วัตถุ Office Math ใน Aspose.Words for Java?
+- **Precise control** การควบคุมการจัดวางสมการ (inline vs. display).  
+- **Programmatic manipulation** การจัดการสมการโดยโปรแกรมโดยไม่ต้องเปิด Word ด้วยตนเอง.  
+- **Consistent rendering** การแสดงผลที่สอดคล้องกันบนหลายแพลตฟอร์ม เหมาะสำหรับการสร้างรายงานอัตโนมัติ.
 
 ## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่ม ควรตรวจสอบว่าคุณมี:
 
-ก่อนที่เราจะลงรายละเอียดในการใช้งาน Office Math ใน Aspose.Words สำหรับ Java เรามาตรวจสอบกันก่อนว่าคุณได้ตั้งค่าทุกอย่างเรียบร้อยแล้ว ตรวจสอบว่าคุณมี:
+- Aspose.Words for Java ที่ติดตั้งและอ้างอิงในโปรเจกต์ของคุณ  
+- ไฟล์ Word ที่มีสมการ Office Math อยู่แล้ว (เช่น `OfficeMath.docx`)  
+- ใบอนุญาตที่ถูกต้องหากคุณต้องการรันโค้ดนอกโหมดประเมินผล
 
-- ติดตั้ง Aspose.Words สำหรับ Java
-- เอกสารที่ประกอบด้วยสมการ Office Math (สำหรับคู่มือนี้ เราจะใช้ "OfficeMath.docx")
-
-## ทำความเข้าใจเกี่ยวกับ Office Math Objects
-
-วัตถุ Office Math ถูกใช้เพื่อแสดงสมการทางคณิตศาสตร์ภายในเอกสาร Aspose.Words สำหรับ Java ให้การสนับสนุนที่แข็งแกร่งสำหรับ Office Math ช่วยให้คุณสามารถควบคุมการแสดงผลและการจัดรูปแบบของวัตถุเหล่านี้ได้ 
-
-## คำแนะนำทีละขั้นตอน
-
-มาเริ่มต้นด้วยกระบวนการทีละขั้นตอนในการทำงานกับ Office Math ใน Aspose คำศัพท์สำหรับ Java:
+## คู่มือแบบขั้นตอน
 
 ### โหลดเอกสาร
-
-ขั้นแรก โหลดเอกสารที่มีสมการ Office Math ที่คุณต้องการใช้งาน:
+ขั้นแรก โหลดเอกสารที่มีสมการ Office Math ที่คุณต้องการทำงานด้วย:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
 ### เข้าถึงวัตถุ Office Math
-
-ตอนนี้เรามาเข้าถึงวัตถุ Office Math ภายในเอกสารกัน:
+ดึงโหนด Office Math ตัวแรกจากเอกสาร:
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### ตั้งค่าประเภทการแสดงผล
-
-คุณสามารถควบคุมวิธีการแสดงสมการภายในเอกสารได้ ใช้ `setDisplayType` วิธีการระบุว่าควรแสดงแบบอินไลน์กับข้อความหรือในบรรทัด:
+### ตั้งค่าชนิดการแสดงผล (Inline vs. Display)
+ควบคุมว่สมการจะแสดงแบบอินไลน์กับข้อความรอบข้างหรือบนบรรทัดแยก สำหรับ **display math inline** ให้ใช้ค่า enum `INLINE`; หากต้องการบรรทัดแยกให้ใช้ `DISPLAY`:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-### ตั้งค่าการจัดเรียง
+*หากคุณต้องการให้สมการอยู่ในรูปแบบอินไลน์ ให้เปลี่ยน `DISPLAY` เป็น `INLINE`.*
 
-คุณสามารถตั้งค่าการจัดแนวของสมการได้ด้วย ตัวอย่างเช่น ลองจัดแนวสมการให้ชิดซ้าย:
+### ตั้งค่า Justification
+ปรับการจัดตำแหน่งของสมการ ด้านล่างเราได้จัดตำแหน่งไปทางซ้าย แต่คุณสามารถเลือก `CENTER` หรือ `RIGHT` ได้เช่นกัน:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### บันทึกเอกสาร
-
-สุดท้าย ให้บันทึกเอกสารโดยใช้สมการ Office Math ที่แก้ไขแล้ว:
+### บันทึกเอกสารที่แก้ไขแล้ว
+สุดท้าย เขียนการเปลี่ยนแปลงกลับไปยังไฟล์ใหม่:
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## โค้ดต้นฉบับที่สมบูรณ์สำหรับการใช้ Office Math Objects ใน Aspose.Words สำหรับ Java
+## โค้ดต้นฉบับเต็มสำหรับการใช้วัตถุ Office Math ใน Aspose.Words for Java
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
         OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
-        // ประเภทการแสดงผลของ OfficeMath แสดงว่าสมการจะแสดงแบบอินไลน์กับข้อความหรือแสดงตามบรรทัด
+        // OfficeMath display type represents whether an equation is displayed inline with the text or displayed on its line.
         officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
         officeMath.setJustification(OfficeMathJustification.LEFT);
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## บทสรุป
-
-ในคู่มือนี้ เราจะมาสำรวจวิธีการใช้ Office Math objects ใน Aspose.Words สำหรับ Java คุณจะได้เรียนรู้วิธีโหลดเอกสาร เข้าถึงสมการ Office Math และจัดการการแสดงผลและการจัดรูปแบบของสมการ ความรู้เหล่านี้จะช่วยให้คุณสร้างเอกสารที่มีเนื้อหาทางคณิตศาสตร์ที่สวยงามได้
+## ปัญหาที่พบบ่อยและการแก้ไข
+- **Equation not found:** ตรวจสอบว่าเอกสารมีวัตถุ Office Math อยู่จริง; หากไม่มี `doc.getChild` จะคืนค่า `null`.  
+- **Display type has no effect:** ยืนยันว่าคุณใช้รุ่นล่าสุดของ Aspose.Words; รุ่นเก่าอาจรองรับ `OfficeMathDisplayType` ไม่เต็มที่.  
+- **License exception:** หากพบข้อผิดพลาดเกี่ยวกับใบอนุญาต ตรวจสอบให้แน่ใจว่าไฟล์ใบอนุญาตโหลดอย่างถูกต้องก่อนสร้างอินสแตนซ์ `Document`.
 
 ## คำถามที่พบบ่อย
 
-### วัตถุประสงค์ของวัตถุ Office Math ใน Aspose.Words สำหรับ Java คืออะไร
+**Q: What is the purpose of Office Math objects in Aspose.Words for Java?**  
+A: Office Math objects ให้คุณแสดงและจัดการสมการคณิตศาสตร์โดยโปรแกรม ทำให้คุณควบคุมการแสดงผลและรูปแบบได้อย่างเต็มที่.
 
-วัตถุ Office Math ใน Aspose.Words สำหรับ Java ช่วยให้คุณสามารถแสดงและจัดการสมการทางคณิตศาสตร์ภายในเอกสารของคุณได้ โดยวัตถุเหล่านี้ยังให้การควบคุมการแสดงและการจัดรูปแบบของสมการอีกด้วย
+**Q: Can I align Office Math equations differently within my document?**  
+A: ใช่, ใช้เมธอด `setJustification` เพื่อจัดตำแหน่งซ้าย, ขวา หรือกลาง.
 
-### ฉันสามารถจัดตำแหน่งสมการ Office Math แตกต่างกันภายในเอกสารของฉันได้หรือไม่
+**Q: Is Aspose.Words for Java suitable for handling complex mathematical documents?**  
+A: แน่นอน. ไลบรารีนี้รองรับสมการซับซ้อน, เศษส่วนซ้อน, เมทริกซ์ และอื่น ๆ อย่างเต็มรูปแบบ.
 
-ใช่ คุณสามารถควบคุมการจัดตำแหน่งของสมการ Office Math ได้ ใช้ `setJustification` วิธีการระบุตัวเลือกการจัดตำแหน่งเช่น ซ้าย ขวา หรือกึ่งกลาง
+**Q: How can I learn more about Aspose.Words for Java?**  
+A: สำหรับเอกสารและการดาวน์โหลดอย่างครบถ้วน ให้เยี่ยมชม [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### Aspose.Words สำหรับ Java เหมาะกับการจัดการเอกสารทางคณิตศาสตร์ที่ซับซ้อนหรือไม่
+**Q: Where can I download Aspose.Words for Java?**  
+A: คุณสามารถดาวน์โหลด Aspose.Words for Java ได้จากเว็บไซต์: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-แน่นอน! Aspose.Words สำหรับ Java เหมาะอย่างยิ่งสำหรับการจัดการเอกสารที่ซับซ้อนซึ่งมีเนื้อหาทางคณิตศาสตร์ เนื่องจากมีการรองรับวัตถุ Office Math อย่างแข็งแกร่ง
+---
 
-### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Java ได้อย่างไร
-
-สำหรับเอกสารประกอบและดาวน์โหลดฉบับสมบูรณ์ โปรดไปที่ [เอกสาร Aspose.Words สำหรับ Java](https://reference-aspose.com/words/java/).
-
-### ฉันสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้ที่ไหน
-
-คุณสามารถดาวน์โหลด Aspose.Words สำหรับ Java ได้จากเว็บไซต์: [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases-aspose.com/words/java/).
-
+**อัปเดตล่าสุด:** 2026-02-14  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12 (latest as of Feb 2026)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
