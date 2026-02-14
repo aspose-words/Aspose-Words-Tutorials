@@ -34,6 +34,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [스마트 아트 모양 감지](./detect-smart-art-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에서 SmartArt 도형을 감지하는 방법을 이 포괄적인 가이드를 통해 알아보세요. 문서 워크플로 자동화에 매우 유용합니다. |
 | [스마트 아트 드로잉 업데이트](./update-smart-art-drawing/) | Aspose.Words for .NET을 사용하여 Word 문서의 Smart Art 그림을 업데이트하는 방법을 단계별 가이드를 통해 알아보세요. 시각적 표현이 항상 정확한지 확인하세요. |
 | [Aspose.Words를 사용하여 Word에서 사각형 도형 만들기 – 단계별 가이드](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Aspose.Words for .NET을 사용하여 Word 문서에 사각형 도형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다. |
+| [C#에서 도형에 그림자 추가 – 그림자 효과 적용 완전 가이드](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aspose.Words for .NET을 사용하여 Word 문서에서 도형에 그림자를 적용하는 방법을 단계별 가이드를 통해 알아보세요. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

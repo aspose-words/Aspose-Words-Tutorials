@@ -35,6 +35,8 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | [Jak exportovat LaTeX z Wordu – krok za krokem](./how-to-export-latex-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat obsah Wordu do formátu LaTeX. Praktický průvodce s ukázkovým kódem. |
 | [Převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C#. Praktický návod s ukázkovým kódem. |
 | [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s podrobným návodem a ukázkovým kódem. |
+| [Vytvořit přístupný PDF z DOCX – Kompletní průvodce Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Naučte se, jak pomocí Aspose.Words vytvořit přístupný PDF soubor z DOCX s podrobným návodem a ukázkovým kódem. |
+| [Převod PNG na Base64 v C# – Kompletní průvodce](./convert-png-to-base64-in-c-complete-guide/) | Naučte se, jak převést PNG na Base64 v C# pomocí .NET. Praktický průvodce s ukázkovým kódem a tipy pro efektivní použití. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

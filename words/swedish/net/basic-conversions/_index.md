@@ -35,6 +35,8 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Exportera LaTeX från Word – steg‑för‑steg‑guide](./how-to-export-latex-from-word-step-by-step-guide/) | Lär dig hur du exporterar LaTeX från ett Word-dokument med Aspose.Words för .NET i en tydlig steg‑för‑steg‑guide. |
 | [Konvertera Word till PDF i C# med Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Lär dig hur du konverterar Word-dokument till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
 | [Spara Word som PDF med Aspose.Words – Komplett C#-guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
+| [Skapa tillgänglig PDF från DOCX – Komplett Aspose‑guide](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett DOCX‑dokument med Aspose.Words för .NET i en komplett steg‑för‑steg‑guide. |
+| [Konvertera PNG till Base64 i C# – Komplett guide](./convert-png-to-base64-in-c-complete-guide/) | Lär dig hur du konverterar PNG-bilder till Base64-strängar i C# med vår kompletta guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

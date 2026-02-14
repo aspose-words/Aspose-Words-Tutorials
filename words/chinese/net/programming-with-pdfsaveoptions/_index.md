@@ -45,7 +45,8 @@ Aspose.Words for .NET 教程“使用 PdfSaveOptions 进行文字处理”将引
 | [更新 PDF 文档中的最后打印属性](./update-last-printed-property/) 通过我们的分步指南了解如何使用 Aspose.Words for .NET 更新 PDF 文档中最后打印的属性。|
 | [在 PDF 文档中渲染 3D DML 3DEffects](./dml-3deffects-rendering/) | 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 在 PDF 文档中呈现令人惊叹的 3D DML 效果。|
 | [在 PDF 文档中插入图像](./interpolate-images/) 学习如何使用 Aspose.Words for .NET 在 PDF 文档中插入图像，并遵循我们的分步指南。轻松提升 PDF 图像质量。|
-
+| [在 C# 中将文档保存为 PDF – 导出 Docx 并监控字体更改的完整指南](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) 通过本完整指南，学习在 C# 使用 Aspose.Words 将 Docx 导出为 PDF，并实时监控字体更改。|
+| [将 docx 保存为 PDF 并导出形状 – 完整指南](./save-docx-as-pdf-with-shape-export-complete-guide/) 使用 Aspose.Words for .NET 将 docx 文档保存为 PDF 并导出其中的形状，完整分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

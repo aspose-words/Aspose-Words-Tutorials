@@ -35,6 +35,8 @@ Basic Conversions проведет вас через базовые преобр
 | [Как экспортировать LaTeX из Word – пошаговое руководство](./how-to-export-latex-from-word-step-by-step-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
+| [Создать доступный PDF из DOCX – Полное руководство Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Узнайте, как создать доступный PDF из DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
+| [Конвертировать PNG в Base64 в C# – Полное руководство](./convert-png-to-base64-in-c-complete-guide/) | Узнайте, как преобразовать изображение PNG в строку Base64 в C# с помощью подробного пошагового руководства. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

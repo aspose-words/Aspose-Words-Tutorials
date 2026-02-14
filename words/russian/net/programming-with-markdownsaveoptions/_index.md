@@ -29,9 +29,12 @@
 | [Конвертировать docx в markdown – пошаговое руководство C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Подробное пошаговое руководство по конвертации файлов DOCX в Markdown с использованием C# и Aspose.Words. |
 | [Сохранить docx как markdown – Полное руководство C# с уравнениями LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Полное руководство по конвертации DOCX в Markdown с поддержкой уравнений LaTeX на C#. |
 | [Сохранить docx как markdown – Полное руководство C# с извлечением изображений](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Полное руководство по сохранению DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
+| [Сохранить Word как markdown – извлечь изображения из DOCX](./save-word-as-markdown-extract-images-from-docx/) | Сохраните документ Word в формате Markdown с извлечением изображений из DOCX, используя Aspose.Words для .NET. |
 | [Как экспортировать Markdown из Word – Полное руководство C#](./how-to-export-markdown-from-word-complete-c-guide/) | Полное руководство по экспорту Markdown из Word с использованием C# и Aspose.Words. |
 | [Как сохранить Markdown из DOCX – пошаговое руководство](./how-to-save-markdown-from-docx-step-by-step-guide/) | Подробное руководство по сохранению документа DOCX в формате Markdown с пошаговыми инструкциями на C#. |
 | [Как экспортировать Markdown из DOCX – Полное руководство](./how-to-export-markdown-from-docx-complete-guide/) | Полное руководство по экспорту Markdown из DOCX с использованием Aspose.Words для .NET. |
+| [Сохранить docx как markdown – экспортировать уравнения Word в LaTeX на C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Экспортируйте уравнения из Word в LaTeX при сохранении DOCX в Markdown с помощью C# и Aspose.Words. |
+| [Сохранить разрывы строк: конвертировать DOCX в Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Сохраните разрывы строк при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

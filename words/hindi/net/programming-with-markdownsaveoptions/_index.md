@@ -28,10 +28,13 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [मार्कडाउन का उपयोग कैसे करें: LaTeX समीकरणों के साथ DOCX को मार्कडाउन में परिवर्तित करें](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | DOCX फ़ाइलों को LaTeX समीकरणों के साथ मार्कडाउन में बदलने की चरण-दर-स्टेप मार्गदर्शिका। |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण C# गाइड](./convert-docx-to-markdown-step-by-step-c-guide/) | DOCX फ़ाइलों को C# में चरण‑दर‑चरण मार्कडाउन में बदलने की गाइड। |
 | [DOCX को मार्कडाउन में सहेजें – LaTeX समीकरणों के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | C# में LaTeX समीकरणों के साथ DOCX को मार्कडाउन में बदलने की पूरी गाइड। |
+| [DOCX को मार्कडाउन के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें C# में](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | C# में Word दस्तावेज़ के समीकरणों को LaTeX में निर्यात करके DOCX को मार्कडाउन में बदलने की गाइड। |
 | [DOCX को मार्कडाउन के रूप में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण C# गाइड](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ DOCX को मार्कडाउन में बदलने की पूरी गाइड। C# में चरण‑दर‑चरण प्रक्रिया। |
+| [Word को Markdown के रूप में सहेजें – DOCX से छवियों को निकालें](./save-word-as-markdown-extract-images-from-docx/) | DOCX फ़ाइल से छवियों को निकालते हुए Word को Markdown में बदलने की विस्तृत गाइड। |
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./how-to-save-markdown-from-docx-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [DOCX से Markdown निर्यात कैसे करें – पूरी गाइड](./how-to-export-markdown-from-docx-complete-guide/) | DOCX फ़ाइल को Markdown में निर्यात करने की विस्तृत चरण‑दर‑चरण गाइड। |
+| [लाइन ब्रेक संरक्षित रखें: DOCX को मार्कडाउन में बदलें](./preserve-line-breaks-convert-docx-to-markdown/) | DOCX फ़ाइल में लाइन ब्रेक को संरक्षित रखते हुए उसे मार्कडाउन में बदलने की चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
