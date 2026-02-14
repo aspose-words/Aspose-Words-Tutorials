@@ -35,6 +35,8 @@
 | [حفظ ملف PDF بصيغة Jpeg](./pdf-to-jpeg/) حوّل ملفات PDF إلى JPEG بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل مع الأمثلة والأسئلة الشائعة. مثالي للمطورين والهواة.
 | [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين.
 | [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة](./how-to-export-latex-from-word-step-by-step-guide/) | تعلّم كيفية تصدير مستندات Word إلى صيغة LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF قابل للوصول من DOCX – دليل Aspose الكامل](./create-accessible-pdf-from-docx-complete-aspose-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [تحويل PNG إلى Base64 في C# – دليل كامل](./convert-png-to-base64-in-c-complete-guide/) | تعرّف على كيفية تحويل ملفات PNG إلى سلاسل Base64 باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

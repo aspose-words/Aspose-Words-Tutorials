@@ -46,6 +46,14 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX
 
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
+### [Word opslaan als markdown – afbeeldingen extraheren uit docx](./save-word-as-markdown-extract-images-from-docx/)
+
+Leer hoe u afbeeldingen uit een DOCX extraheert bij het opslaan als Markdown met Aspose.Words voor .NET.
+
+### [Docx opslaan als markdown – Word‑vergelijkingen exporteren naar LaTeX in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
+
+Leer hoe u Word‑vergelijkingen exporteert naar LaTeX bij het opslaan van een docx als markdown met C#.
+
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
@@ -53,6 +61,10 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
+
+### [Regelafbrekingen behouden: DOCX naar Markdown converteren](./preserve-line-breaks-convert-docx-to-markdown/)
+
+Leer hoe u regelafbrekingen behoudt bij het converteren van DOCX-bestanden naar Markdown met Aspose.Words voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

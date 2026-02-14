@@ -42,6 +42,12 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [حفظ docx كـ markdown – تصدير معادلات Word إلى LaTeX في C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
+
+### [حفظ Word كـ markdown – استخراج الصور من docx](./save-word-as-markdown-extract-images-from-docx/)
+
+### [الحفاظ على فواصل الأسطر: تحويل DOCX إلى Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

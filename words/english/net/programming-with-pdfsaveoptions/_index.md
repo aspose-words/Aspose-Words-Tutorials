@@ -38,7 +38,7 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Reduce PDF Size with Scale Wmf Fonts To Metafile Size](./scale-wmf-fonts-to-metafile-size/) | Step-by-step guide to reduce pdf size with scale wmf fonts to metafile size size when converting to PDF with Aspose.Words for .NET. |
 | [Imporove PDF Text Postioning with Additional Text Positioning](./additional-text-positioning/) | Learn how to improve PDF text positioning with Aspose.Words for .NET in a few easy steps. Enhance your document's appearance. |
 | [Convert Word Document To PDF 1.7](./conversion-to-pdf-17/) | Effortlessly convert Word documents to PDF 1.7 using Aspose.Words for .NET. Follow this guide to ensure your documents are universally accessible and professionally formatted. |
-| [Reduce PDF Document Size with Downsampling Images](./downsampling-images/) | Reduce PDF document size by downsampling images using Aspose.Words for .NET. Optimize your PDFs for faster upload and download times. |
+| [Reduce PDF Size with Downsampling Images](./downsampling-images/) | Reduce PDF document size by downsampling images using Aspose.Words for .NET. Optimize your PDFs for faster upload and download times. |
 | [Set Outline Options in a PDF Document](./set-outline-options/) | Learn how to set outline options in a PDF document using Aspose.Words for .NET. Enhance PDF navigation by configuring heading levels and expanded outlines. |
 | [Export Custom Properties in a PDF Document](./custom-properties-export/) | Learn how to export custom properties in a PDF document using Aspose.Words for .NET with our detailed, step-by-step guide. |
 | [Export Word Document Structure to PDF Document](./export-document-structure/) | Export the structure of a Word document to a PDF with Aspose.Words for .NET. Follow our step-by-step guide to preserve document layout and improve PDF navigation. |
@@ -46,6 +46,8 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Update Last Printed Property in PDF Document](./update-last-printed-property/) | Learn how to update the last printed property in a PDF document using Aspose.Words for .NET with our step-by-step guide. |
 | [Render 3D DML 3DEffects in a PDF Document](./dml-3deffects-rendering/) | Learn how to render stunning 3D DML effects in PDF documents using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [Interpolate Images in a PDF Document](./interpolate-images/) | Learn how to interpolate images in a PDF document using Aspose.Words for .NET with our step-by-step guide. Improve your PDF's image quality easily. |
+| [Save Document as PDF in C# – Complete Guide to Export Docx and Monitor Font Changes](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Learn how to export DOCX to PDF in C# using Aspose.Words, monitor font changes, and ensure accurate conversion with detailed steps. |
+| [Save docx as pdf with Shape Export – Complete Guide](./save-docx-as-pdf-with-shape-export-complete-guide/) | Learn how to export a DOCX to PDF while preserving shapes using Aspose.Words for .NET in this comprehensive step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -49,6 +49,14 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [DOCX als Markdown speichern – Word‑Gleichungen nach LaTeX exportieren in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
+Erfahren Sie, wie Sie Word‑Gleichungen beim Export nach Markdown in LaTeX‑Formeln umwandeln.
+
+### [Word als Markdown speichern – Bilder aus DOCX extrahieren](./save-word-as-markdown-extract-images-from-docx/)
+
+### [Zeilenumbrüche beibehalten: DOCX in Markdown konvertieren](./preserve-line-breaks-convert-docx-to-markdown/)
+Erfahren Sie, wie Sie beim Konvertieren von DOCX nach Markdown Zeilenumbrüche erhalten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

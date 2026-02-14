@@ -34,6 +34,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Deteksi Bentuk Seni Cerdas](./detect-smart-art-shape/) | Pelajari cara mendeteksi bentuk SmartArt dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna untuk mengotomatiskan alur kerja dokumen Anda. Bahasa Indonesia:
 | [Perbarui Gambar Seni Cerdas](./update-smart-art-drawing/) | Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan visual Anda selalu akurat. |
 | [Buat Bentuk Persegi Panjang di Word dengan Aspose.Words – Panduan langkah demi langkah](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
+| [Menambahkan Bayangan ke Bentuk di C# – Panduan Lengkap Menerapkan Efek Bayangan](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
