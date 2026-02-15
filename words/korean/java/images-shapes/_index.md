@@ -34,6 +34,9 @@ Aspose.Words Java에 대한 코드 튜토리얼
 ### [Aspose.Words for Java를 사용하여 문서 페이지를 썸네일로 렌더링하는 방법](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사용자 지정 크기 비트맵을 생성하는 방법을 알아보세요. 지금 바로 문서 처리 능력을 향상시키세요.
 
+### [Java로 Word에서 사각형 모양 만들기 – 전체 가이드](./create-rectangle-shape-in-word-with-java-full-guide/)
+Java와 Aspose.Words를 활용해 Word 문서에 사각형 모양을 삽입하고 설정하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

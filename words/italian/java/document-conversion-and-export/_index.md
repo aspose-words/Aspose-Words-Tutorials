@@ -83,6 +83,18 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
+### [Converti docx in txt – Esporta le equazioni Word come LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Scopri come convertire file DOCX in TXT ed esportare le equazioni Word in formato LaTeX con Aspose.Words per Java.
+
+### [Salva docx come pdf con Java – Guida completa passo‑passo](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Scopri come salvare un file DOCX come PDF usando Aspose.Words per Java con una guida dettagliata passo‑passo.
+
+### [Esporta Word in Markdown – Guida completa per Java](./export-word-to-markdown-full-java-guide/)
+Scopri come convertire documenti Word in formato Markdown usando Aspose.Words per Java con esempi passo‑passo.
+
+### [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-step-by-step-guide/)
+Scopri come generare PDF accessibili da documenti Word con Aspose.Words per Java, passo dopo passo.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

@@ -130,6 +130,10 @@ Tanulja meg, hogyan mentse a dokumentumokat szövegfájlokként az Aspose.Words 
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
 Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.Words‑szal. Azonosítsa a DOC, DOCX és egyéb formátumokat. Hatékony fájlkezelés.
 
+### [Helyreállítási mód beállítása a sérült Word dokumentumok helyreállításához](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Hiányzó betűtípusok lekérése Java‑ban – Aspose.Words útmutató](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+
 ## Gyakran Ismételt Kérdések
 
 **Q:** Hogyan tudom programozottan **save images from word** dokumentumokból a képeket menteni?  

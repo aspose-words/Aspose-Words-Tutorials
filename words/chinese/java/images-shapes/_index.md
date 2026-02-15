@@ -34,6 +34,9 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Words for Java 将文档页面渲染为缩略图](./render-word-pages-thumbnails-aspose-java/)
 了解如何使用 Aspose.Words for Java 生成高质量的 Word 文档缩略图和自定义大小的位图。立即提升您的文档处理能力。
 
+### [使用 Java 在 Word 中创建矩形形状 – 完整指南](./create-rectangle-shape-in-word-with-java-full-guide/)
+学习如何使用 Aspose.Words for Java 在文档中插入并自定义矩形形状，实现专业排版效果。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

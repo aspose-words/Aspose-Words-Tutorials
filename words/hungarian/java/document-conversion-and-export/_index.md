@@ -77,6 +77,9 @@ Tanuld meg, hogyan hozz létre és testre szabj diagramokat az Aspose.Words for 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Használd ki a matematikai egyenletek erejét a dokumentumokban az Aspose.Words for Java‑val. Tanuld meg, hogyan manipulálj és jeleníts meg Office Math objektumokat könnyedén.
 
+### [DOCX konvertálása TXT‑re – Word egyenletek exportálása LaTeX‑ba](./convert-docx-to-txt-export-word-equations-as-latex/)
+Tanuld meg, hogyan konvertálj DOCX fájlokat TXT formátumba, és exportáld a Word egyenleteket LaTeX kóddá.
+
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Használd ki a dokumentumalakzatok erejét az Aspose.Words for Java‑ban. Tanuld meg, hogyan hozz létre vizuálisan vonzó dokumentumokat lépésről‑lépésre példákkal.
 
@@ -85,6 +88,15 @@ Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
+
+### [DOCX mentése PDF‑ként Java‑val – Teljes lépésről‑lépésre útmutató](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat PDF‑re Java‑val egy részletes, könnyen követhető útmutató segítségével.
+
+### [Word exportálása Markdownba – Teljes Java útmutató](./export-word-to-markdown-full-java-guide/)
+Tanulja meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével.
+
+### [Akadálymentes PDF létrehozása Word‑ből – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre hozzáférhető PDF dokumentumot Word fájlból az Aspose.Words for Java segítségével.
 
 ## Gyakran Ismételt Kérdések
 

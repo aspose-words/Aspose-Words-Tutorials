@@ -90,6 +90,21 @@ Lär dig hur du lägger till vattenstämplar i dokument med Aspose.Words for Jav
 ### [Formatera tabeller och tabellstilar i Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Lär dig hur du formaterar tabeller och tillämpar tabellstilar i Aspose.Words for Java. Utforska steg‑för‑steg‑guider med källkod för effektiv tabellformatering. Förbättra ditt dokumentlayout med Aspose.Words.
 
+### [Konvertera docx till txt – Exportera Word‑ekvationer som LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Lär dig hur du konverterar DOCX‑filer till TXT och exporterar Word‑ekvationer som LaTeX‑kod.
+
+### [Spara docx som pdf med Java – Komplett steg‑för‑steg‑guide](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Lär dig hur du sparar DOCX som PDF med Java i en komplett steg‑för‑steg‑guide.
+
+### [Skapa tillgänglig PDF från Word – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-step-by-step-guide/)
+Lär dig hur du konverterar Word‑dokument till tillgängliga PDF‑filer med Aspose.Words, inklusive taggar och strukturell korrekthet.
+
+### [Exportera Word till Markdown – Fullständig Java‑guide](./export-word-to-markdown-full-java-guide/)
+Lär dig hur du konverterar Word‑dokument till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+
+### [Konvertera DOCX till Markdown med Math‑export – Fullständig Java‑guide](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+Lär dig hur du konverterar DOCX‑filer till Markdown och exporterar Word‑ekvationer som LaTeX med Aspose.Words for Java.
+
 ## Vanliga frågor
 
 **Q: Hur lägger jag till en vattenstämpel i en befintlig PDF med Aspose.Words?**  

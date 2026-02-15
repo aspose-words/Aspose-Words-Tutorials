@@ -41,7 +41,7 @@ Lưu hình ảnh từ Word có nghĩa là lập trình tìm mọi hình ảnh đ
 - Aspose.Words for Java JAR (phiên bản mới nhất).  
 - Giấy phép Aspose hợp lệ cho môi trường sản xuất (tùy chọn cho bản dùng thử).
 
-## Cách lưu hình ảnh từ Word bằng Aspose.Words for Java
+## Cách lưu hình ảnh từ Word bằng Aspose.Words cho Java
 Dưới đây là quy trình ngắn gọn cho workflow tiêu chuẩn. (Mã thực tế được hiển thị trong các tutorial liên kết; ở đây chúng tôi tập trung vào lý thuyết.)
 
 1. **Tạo một thể hiện `Document`** – tải file Word nguồn (`.docx`, `.doc`, v.v.).  
@@ -129,6 +129,11 @@ Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words f
 
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
+
+### [Cách lấy phông chữ thiếu trong Java – Hướng dẫn Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Học cách phát hiện và tải các phông chữ thiếu khi xử lý tài liệu Word trong Java bằng Aspose.Words.
+
+### [Đặt chế độ khôi phục để phục hồi tài liệu Word bị hỏng](./set-recovery-mode-to-recover-broken-word-document/)
 
 ## Câu Hỏi Thường Gặp
 

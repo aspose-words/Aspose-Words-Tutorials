@@ -79,6 +79,9 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
+### [แปลง docx เป็น txt – ส่งออกสมการ Word เป็น LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น TXT และส่งออกสมการ Word เป็นรูปแบบ LaTeX ด้วย Aspose.Words for Java
+
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
@@ -87,6 +90,15 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [บันทึก docx เป็น pdf ด้วย Java – คู่มือขั้นตอนเต็ม](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF ด้วย Java อย่างละเอียดด้วย Aspose.Words ในขั้นตอนครบถ้วน.
+
+### [Export Word to Markdown – Full Java Guide](./export-word-to-markdown-full-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown ด้วย Java อย่างละเอียดโดยใช้ Aspose.Words
+
+### [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือขั้นตอนเต็ม](./create-accessible-pdf-from-word-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดในขั้นตอนต่อขั้นตอน
 
 ## คำถามที่พบบ่อย
 
