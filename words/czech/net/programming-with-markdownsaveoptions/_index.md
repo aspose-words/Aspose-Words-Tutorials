@@ -32,6 +32,8 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Exportovat Markdown z Wordu – kompletní průvodce v C#](./how-to-export-markdown-from-word-complete-c-guide/) | Naučte se, jak exportovat Markdown z Wordu pomocí kompletního průvodce v C#. |
 | [Jak uložit Markdown z DOCX – krok za krokem průvodce](./how-to-save-markdown-from-docx-step-by-step-guide/) | Naučte se krok za krokem ukládat soubory DOCX jako Markdown pomocí Aspose.Words pro .NET. |
 | [Jak exportovat Markdown z DOCX – Kompletní průvodce](./how-to-export-markdown-from-docx-complete-guide/) | Naučte se, jak exportovat Markdown z DOCX pomocí kompletního průvodce. |
+| [Jak exportovat LaTeX z Wordu – převod DOCX do Markdown a TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Naučte se exportovat LaTeX z dokumentu Word a převést DOCX do formátů Markdown a TXT pomocí Aspose.Words pro .NET. |
+| [Určete příponu souboru při převodu DOCX na markdown – Kompletní průvodce](./determine-file-extension-while-converting-docx-to-markdown-c/) | Naučte se, jak zjistit a nastavit správnou příponu souboru při konverzi DOCX do Markdownu pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

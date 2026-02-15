@@ -16,7 +16,7 @@
 # Conversões básicas
 
 
-Conversões Básicas orienta você nas conversões básicas de documentos usando a biblioteca Aspose.Words para .NET. Os tutoriais oferecem explicações passo a passo, código-fonte detalhado e exemplos práticos para converter documentos do Word para diferentes formatos, como PDF, HTML, EPUB, imagens e muito mais. Você também aprenderá a especificar opções de conversão, gerenciar fontes, imagens e layouts. Este recurso é essencial para desenvolvedores que desejam automatizar conversões de documentos usando o Aspose.Words para .NET, proporcionando total flexibilidade e controle sobre o processo de conversão.
+Conversões Básicas orienta você nas conversões básicas de documentos usando a biblioteca Aspose.Words para .NET. Os tutoriais oferecem explicações passo a passo, código‑fonte detalhado e exemplos práticos para converter documentos do Word para diferentes formatos, como PDF, HTML, EPUB, imagens e muito mais. Você também aprenderá a especificar opções de conversão, gerenciar fontes, imagens e layouts. Este recurso é essencial para desenvolvedores que desejam automatizar conversões de documentos usando o Aspose.Words para .NET, proporcionando total flexibilidade e controle sobre o processo de conversão.
 
  ## Tutoriais
 | Título | Descrição |
@@ -26,13 +26,14 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Converter arquivo do Word em PDF](./docx-to-pdf/) Aprenda a converter facilmente arquivos do Word para PDF usando o Aspose.Words para .NET com nosso guia. Perfeito para desenvolvedores que buscam conversão de documentos rápida e confiável. | 
 | [Converter Docx em Byte](./docx-to-byte/) | Aprenda a converter Docx em array de bytes no .NET usando Aspose.Words para um processamento eficiente de documentos. Guia passo a passo incluído. |  
 | [Converter Docx para Epub](./docx-to-epub/) | Converta DOCX para EPUB facilmente com o Aspose.Words para .NET. Siga nosso tutorial para uma integração perfeita com seus aplicativos .NET. |
-| [Converter Docx para Mhtml e enviar e-mail](./docx-to-mhtml-and-sending-email/) | Aprenda a converter DOCX para MHTML e enviar e-mails usando o Aspose.Words para .NET neste guia passo a passo. Aumente sua produtividade com automação fácil. |
+| [Converter Docx para Mhtml e enviar e‑mail](./docx-to-mhtml-and-sending-email/) | Aprenda a converter DOCX para MHTML e enviar e‑mails usando o Aspose.Words para .NET neste guia passo a passo. Aumente sua produtividade com automação fácil. |
 | [Converter arquivo de texto em documento do Word](./txt-to-docx/) | Aprenda a converter arquivos de texto em documentos do Word usando o Aspose.Words para .NET. Gerencie conversões de documentos com eficiência com nosso guia completo. | 
 | [Salvar PDF como JPEG](./pdf-to-jpeg/) | Converta PDFs em JPEGs sem esforço usando o Aspose.Words para .NET. Siga nosso guia detalhado com exemplos e perguntas frequentes. Perfeito para desenvolvedores e entusiastas. |
 | [Salvar PDF em formato Word (Docx)](./pdf-to-docx/) | Aprenda a converter um PDF para um documento do Word (Docx) usando o Aspose.Words para .NET neste guia passo a passo detalhado. Perfeito para desenvolvedores. |
 | [Como Exportar LaTeX do Word – Guia Passo a Passo](./how-to-export-latex-from-word-step-by-step-guide/) | Aprenda a exportar conteúdo LaTeX de documentos Word usando Aspose.Words para .NET. Guia passo a passo com exemplos de código. |
 | [Converter Word para PDF em C# usando Aspose.Words – Guia](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aprenda a converter documentos Word para PDF em C# usando Aspose.Words com este guia passo a passo. |
 | [Salvar Word como PDF com Aspose.Words – Guia Completo C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aprenda a salvar documentos Word como PDF usando Aspose.Words em C#. Guia completo passo a passo. |
+| [Criar PDF acessível a partir do Word – Guia passo a passo](./create-accessible-pdf-from-word-step-by-step-guide/) | Aprenda a criar PDFs acessíveis a partir de documentos Word usando Aspose.Words para .NET. Guia passo a passo com exemplos de código. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
