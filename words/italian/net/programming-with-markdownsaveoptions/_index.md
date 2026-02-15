@@ -30,8 +30,10 @@
 | [Salva docx come markdown – Guida completa C# con equazioni LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Impara a convertire file DOCX in Markdown includendo equazioni LaTeX con una guida completa in C#. |
 | [Salva docx come markdown – Guida completa C# con estrazione immagini](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Impara a convertire file DOCX in Markdown includendo l'estrazione delle immagini con una guida completa in C#. |
 | [Come esportare Markdown da Word – Guida completa C#](./how-to-export-markdown-from-word-complete-c-guide/) | Scopri come esportare documenti Word in Markdown con una guida completa in C#. |
-| [Come esportare Markdown da DOCX – Guida completa](./how-to-export-markdown-from-docx-complete-guide/) | Scopri come esportare documenti DOCX in Markdown con una guida completa in C#. |
+| [Come esportare Markdown da DOCX – Guida completa](./how-to-export-markdown-from-docx-complete-guide/) | Scopri come esportare documenti DOCX in Markdown con una guida completa. |
 | [Come salvare Markdown da DOCX – Guida passo‑passo](./how-to-save-markdown-from-docx-step-by-step-guide/) | Scopri come salvare documenti DOCX in Markdown con una guida passo‑passo completa. |
+| [Come esportare LaTeX da Word – Converti DOCX in Markdown e TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Scopri come esportare contenuti LaTeX da documenti Word, convertendo DOCX in Markdown e file TXT con Aspose.Words per .NET. |
+| [determinare l'estensione del file durante la conversione da DOCX a Markdown – Guida completa](./determine-file-extension-while-converting-docx-to-markdown-c/) | Scopri come identificare e impostare l'estensione corretta dei file durante la conversione da DOCX a Markdown con Aspose.Words per .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

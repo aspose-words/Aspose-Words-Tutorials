@@ -33,6 +33,8 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
 | [How to Save Markdown from DOCX – Step‑by‑Step Guide](./how-to-save-markdown-from-docx-step-by-step-guide/) | Learn how to save DOCX as Markdown with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [How to Export LaTeX from Word – Convert DOCX to Markdown & TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Learn how to export LaTeX from Word and convert DOCX to Markdown and TXT using Aspose.Words for .NET. |
+| [determine file extension while converting DOCX to Markdown – Complete Guide](./determine-file-extension-while-converting-docx-to-markdown-c/) | Learn how to determine file extensions when converting DOCX to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

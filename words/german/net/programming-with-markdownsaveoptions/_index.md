@@ -49,6 +49,11 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [Wie man LaTeX aus Word exportiert – DOCX in Markdown und TXT konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
+Erfahren Sie, wie Sie LaTeX‑Formeln aus Word extrahieren und DOCX‑Dateien in Markdown‑ und Text‑Formate konvertieren.
+
+### [Dateierweiterung beim Konvertieren von DOCX zu Markdown bestimmen – Vollständige Anleitung](./determine-file-extension-while-converting-docx-to-markdown-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
