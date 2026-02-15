@@ -67,10 +67,8 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ## 文档转换与导出教程
 ### [在 Aspose.Words for Java 中生成自定义条形码标签](./generating-custom-barcode-labels/)
 
-使用 Aspose.Words for Java 生成自定义条形码标签。本指南将逐步指导您如何使用 Aspose.Words for Java 创建个性化条形码解决方案。
-
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
-学习如何使用 Aspose.Words for Java 在 Java 中生成自定义条形码。包含条形码生成源代码的分步指南。使用 Aspose.Words 增强文档自动化。
+学习如何使用 Aspose.Words for Java 在 Java 中生成自定义条形码。包含条码生成源代码的分步指南。使用 Aspose.Words 增强文档自动化。
 
 ### [在 Aspose.Words for Java 中使用图表](./using-charts/)
 学习如何在 Aspose.Words for Java 中创建和自定义图表。探索数据可视化的图表类型、格式和轴属性。
@@ -86,6 +84,14 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
 了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
+
+### [使用 Java 将 docx 保存为 PDF – 完整分步指南](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+
+### [从 Word 创建可访问 PDF – 分步指南](./create-accessible-pdf-from-word-step-by-step-guide/)
+
+### [将 Word 导出为 Markdown – 完整 Java 指南](./export-word-to-markdown-full-java-guide/)
+
+### [将 DOCX 转换为 Markdown（含数学导出） – 完整 Java 指南](./convert-docx-to-markdown-with-math-export-full-java-guide/)
 
 ## 常见问题
 

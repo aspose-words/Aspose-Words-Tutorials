@@ -95,6 +95,18 @@ weight: 22
 ### [تنسيق الجداول وأنماط الجداول في Aspose.Words for Java](./formatting-tables-and-table-styles/)
 تعلم كيفية تنسيق الجداول وتطبيق أنماط الجداول في Aspose.Words for Java. استكشف أدلة خطوة بخطوة مع الشيفرة المصدرية لتنسيق فعال للجداول. حسّن تخطيط مستندك باستخدام Aspose.Words.
 
+### [تحويل docx إلى txt – تصدير معادلات Word كـ LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+تحويل مستندات DOCX إلى ملفات TXT وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words for Java.
+
+### [حفظ docx كـ pdf باستخدام Java – دليل خطوة بخطوة كامل](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل وحفظ مستندات DOCX إلى PDF باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [تصدير Word إلى Markdown – دليل Java كامل](./export-word-to-markdown-full-java-guide/)
+تعلم كيفية تحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

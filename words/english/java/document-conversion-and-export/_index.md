@@ -78,7 +78,6 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
@@ -86,6 +85,21 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [Convert docx to txt – Export Word Equations as LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Convert docx to txt and export Word equations as LaTeX using Aspose.Words for Java. Step‑by‑step guide with source code.
+
+### [Save docx as pdf with Java – Complete Step‑by‑Step Guide](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Learn how to convert DOCX files to PDF using Aspose.Words for Java with a detailed, step‑by‑step guide.
+
+### [Export Word to Markdown – Full Java Guide](./export-word-to-markdown-full-java-guide/)
+Export Word documents to Markdown with Aspose.Words for Java. Follow this step‑by‑step guide to convert DOCX files into clean Markdown.
+
+### [Convert DOCX to Markdown with Math Export – Full Java Guide](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+Convert DOCX files to Markdown while exporting embedded Math equations using Aspose.Words for Java. Complete step‑by‑step guide.
+
+### [Create Accessible PDF from Word – Step‑by‑Step Guide](./create-accessible-pdf-from-word-step-by-step-guide/)
+Learn how to generate accessible PDFs from Word documents using Aspose.Words for Java, ensuring compliance with accessibility standards.
 
 ## Frequently Asked Questions
 

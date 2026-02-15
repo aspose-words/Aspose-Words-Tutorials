@@ -34,6 +34,9 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Cách kết xuất các trang tài liệu dưới dạng hình thu nhỏ bằng Aspose.Words cho Java](./render-word-pages-thumbnails-aspose-java/)
 Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy chỉnh kích thước của tài liệu Word bằng Aspose.Words for Java. Nâng cao khả năng xử lý tài liệu của bạn ngay hôm nay.
 
+### [Tạo hình chữ nhật trong Word bằng Java – Hướng dẫn đầy đủ](./create-rectangle-shape-in-word-with-java-full-guide/)
+Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)

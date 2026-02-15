@@ -34,6 +34,9 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Comment afficher des pages de document sous forme de vignettes avec Aspose.Words pour Java](./render-word-pages-thumbnails-aspose-java/)
 Apprenez à générer des miniatures de haute qualité et des bitmaps de taille personnalisée pour vos documents Word avec Aspose.Words pour Java. Améliorez vos capacités de gestion de documents dès aujourd'hui.
 
+### [Créer une forme rectangulaire dans Word avec Java – Guide complet](./create-rectangle-shape-in-word-with-java-full-guide/)
+Apprenez à créer et personnaliser une forme rectangulaire dans un document Word en utilisant Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

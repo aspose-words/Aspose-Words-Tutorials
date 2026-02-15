@@ -89,6 +89,18 @@ Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Perso
 ### [Formatando Tabelas e Estilos de Tabela no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código‑fonte para formatação eficaz de tabelas. Melhore o layout do seu documento com Aspose.Words.
 
+### [Converter docx para txt – Exportar Equações do Word como LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Aprenda a converter documentos DOCX em arquivos TXT e exportar equações do Word para LaTeX usando Aspose.Words para Java.
+
+### [Salvar docx como pdf com Java – Guia Completo Passo a Passo](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Aprenda a converter arquivos DOCX para PDF usando Aspose.Words para Java com um tutorial detalhado passo a passo.
+
+### [Exportar Word para Markdown – Guia Completo Java](./export-word-to-markdown-full-java-guide/)
+Exportar Word para Markdown usando Aspose.Words para Java. Guia completo passo a passo para converter documentos Word em Markdown.
+
+### [Criar PDF Acessível a partir do Word – Guia Passo a Passo](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words for Java, seguindo um guia detalhado passo a passo.
+
 ## Perguntas Frequentes
 
 **Q: Como adiciono uma marca d'água a um PDF existente usando Aspose.Words?**  
@@ -98,7 +110,7 @@ A: Carregue o documento, use `DocumentBuilder.insertWatermarkText` ou `insertWat
 A: Sim. Aspose.Words preserva layout, fontes e gráficos durante a conversão.
 
 **Q: Como gero etiquetas de código de barras personalizadas em Java?**  
-A: Use a API de código de barras fornecida pelo Aspose.Words, especifique o tipo de código de barras e insira‑o como imagem ou forma.
+A: Use a API de código de barras fornecida pelo Aspose.Words, especifique o tipo de código de barras e insira‑lo como imagem ou forma.
 
 **Q: Qual a melhor forma de formatar tabelas de maneira consistente?**  
 A: Aplique um TableStyle via o método `Table.setStyleIdentifier` ou use a galeria de estilos integrada.

@@ -31,7 +31,7 @@ weight: 14
 Word दस्तावेज़ (DOC, DOCX, RTF, आदि) को PDF फ़ाइल में बदलना का अर्थ है स्रोत फ़ाइल की लेआउट, स्टाइल, इमेज और टेक्स्ट को एक स्थिर‑लेआउट, प्लेटफ़ॉर्म‑स्वतंत्र फ़ॉर्मैट में परिवर्तित करना। Aspose.Words for Java यह रूपांतरण सर्वर‑साइड पर करता है बिना Microsoft Office की आवश्यकता के, जिससे विभिन्न वातावरणों में सुसंगत परिणाम मिलते हैं।
 
 ## दस्तावेज़ रूपांतरण के लिए Aspose.Words for Java क्यों उपयोग करें?
-- **उपुट PDF मूल Word लेआउट को प्रतिबिंबित करता है, जिसमें टेबल, हेडर/फ़ूटर और जटिल ग्राफ़िक्स शामिल हैं।  
+- **उपयोग PDF मूल Word लेआउट को प्रतिबिंबित करता है, जिसमें टेबल, हेडर/फ़ूटर और जटिल ग्राफ़िक्स शामिल हैं।  
 - **कोई बाहरी निर्भरताएँ नहीं** – Office इंस्टॉलेशन या नेटिव लाइब्रेरी की आवश्यकता नहीं।  
 - **समृद्ध API** – एक ही लाइब्रेरी में `docx to pdf java`, `export documents to pdf`, `convert word to html`, और `convert html to word` को सपोर्ट करता है।  
 - **स्केलेबल** – बैच प्रोसेसिंग, क्लाउड सेवाओं या डेस्कटॉप यूटिलिटीज़ के लिए आदर्श।  
@@ -97,6 +97,9 @@ Aspose.Words for Java के साथ HTML को Word दस्तावेज
 
 ### [Document Conversion with SaveOptions](./document-conversion-saveoptions/)
 Aspose.Words for Java का उपयोग करके DOCX को EPUB में कुशलता से बदलें। इस चरण‑दर‑चरण गाइड में सहेजने के विकल्प को अनुकूलित करना, सामग्री को विभाजित करना और दस्तावेज़ गुणों को निर्यात करना सीखें।
+
+### [Aspose.Words के साथ docx को markdown के रूप में सहेजें – पूर्ण गाइड](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइलों को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [Converting Documents to Images](./converting-documents-images/)
 Aspose.Words for Java के साथ Word दस्तावेज़ों को इमेज में बदलना सीखें। कोड उदाहरण और अक्सर पूछे जाने वाले प्रश्नों के साथ चरण‑दर‑चरण गाइड।
