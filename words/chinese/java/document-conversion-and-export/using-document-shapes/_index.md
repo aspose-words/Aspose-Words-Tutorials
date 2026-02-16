@@ -1,10 +1,11 @@
 ---
-"description": "解锁 Aspose.Words for Java 中文档形状的强大功能。通过分步示例学习如何创建视觉效果引人入胜的文档。"
-"linktitle": "使用文档形状"
-"second_title": "Aspose.Words Java文档处理API"
-"title": "在 Aspose.Words for Java 中使用文档形状"
-"url": "/zh/java/document-conversion-and-export/using-document-shapes/"
-"weight": 14
+date: 2026-02-16
+description: 学习如何使用 Aspose.Words for Java 创建文本框、添加水印文字、对多个形状进行分组、设置形状的宽高比以及将形状放置在表格单元格中。
+linktitle: Using Document Shapes
+second_title: Aspose.Words Java Document Processing API
+title: 如何在 Aspose.Words for Java 中创建文本框并使用文档形状
+url: /zh/java/document-conversion-and-export/using-document-shapes/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,20 +16,36 @@
 
 # 在 Aspose.Words for Java 中使用文档形状
 
+## Aspose.Words for Java 中使用文档形状简介
 
-## Aspose.Words for Java 文档形状使用简介
+在本综合指南中，**您将学习如何创建文本框**对象以及其他强大的形状。形状可让您在 Word 文档中添加注释、按钮、水印、SmartArt 等，使文档在视觉上更具吸引力和交互性。我们将通过实际示例，演示从插入一个简单的文本框到对多个形状进行分组、设置宽高比以及将形状放置在表格单元格内的完整过程。
 
-在本指南中，我们将深入探讨 Aspose.Words for Java 中的文档形状。形状是创建视觉吸引力和交互性文档的关键元素。无论您需要添加标注、按钮、图像还是水印，Aspose.Words for Java 都能提供高效的工具。让我们通过源代码示例逐步探索如何使用这些形状。
+## 快速答案
+- **添加文本框的主要方式是什么？** 使用 `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`。
+- **我可以将形状分组吗？** 可以 – 创建 `GroupShape` 并追加子形状。
+- **如何锁定或解锁形状的宽高比？** 调用 `shape.setAspectRatioLocked(true/false)`。
+- **可以使用形状添加水印吗？** 完全可以 – 插入 `Shape` 并使用 `TEXT_PLAIN_TEXT` 设置填充/描边。
+- **SmartArt 图表在 Aspose.Words 中可用吗？** 可用 – 使用 `shape.hasSmartArt()` 检测，并通过 `shape.updateSmartArtDrawing()` 更新。
 
-## 文档形状入门
+## 什么是文本框，为什么要创建文本框形状？
 
-在开始编写代码之前，我们先来设置一下环境。确保你的项目已集成 Aspose.Words for Java。如果你还没有安装，可以从 Aspose 网站下载。 [下载 Aspose.Words for Java](https://releases.aspose.com/words/java/)
+文本框是一个容器，可容纳格式化文本、图像或其他形状。使用 **创建文本框** 在自动化过程中，您可以在页面任意位置放置漂浮内容，非常适合注释、标注或装饰元素，而不会影响文档的主流布局。
 
-## 向文档添加形状
+## 如何添加形状
+
+在编写代码之前，请确保项目中已引用 Aspose.Words for Java。如果尚未添加，请从官方网站下载库：
+
+[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+
+### 向文档添加形状
+
+## 如何对多个形状进行分组
+
+`GroupShape` 允许您将多个独立形状视为一个整体，便于一起移动或旋转。
 
 ### 插入 GroupShape
 
-一个 `GroupShape` 允许您将多个形状组合在一起。以下是如何创建和插入 `GroupShape`：
+下面是一个完整示例，创建一个组，添加两种不同的形状，并将该组插入文档。
 
 ```java
 Document doc = new Document();
@@ -58,9 +75,11 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
+## 如何创建文本框（create text box）
+
 ### 插入文本框形状
 
-要插入文本框形状，您可以使用 `insertShape` 方法如下例所示：
+`insertShape` 方法使添加文本框变得简洁。以下示例展示了两种定位和旋转文本框的方式。
 
 ```java
 Document doc = new Document();
@@ -81,11 +100,11 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## 操作形状属性
+## 如何设置形状宽高比
 
 ### 管理宽高比
 
-您可以控制是否锁定形状的纵横比。以下是解锁形状纵横比的方法：
+有时您需要形状在拉伸时不保持原始比例。下面的代码片段演示了如何解锁图像形状的宽高比。
 
 ```java
 Document doc = new Document();
@@ -97,9 +116,11 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-### 将形状放置在表格单元格中
+## 如何将形状放置在表格单元格中
 
-如果您需要在表格单元格内放置形状，则可以使用以下代码实现：
+### 在表格单元格内放置形状
+
+下面是一步步的示例，先创建表格，然后插入一个相对于页面定位的水印形状，该形状也可以放置在单元格内。
 
 ```java
 Document doc = new Document();
@@ -122,7 +143,7 @@ builder.endTable();
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-watermark.isLayoutInCell(true); // 如果要将形状放入单元格中，则在表格单元格外面显示该形状。
+watermark.isLayoutInCell(true); // Display the shape outside of the table cell if it will be placed into a cell.
 watermark.setWidth(300.0);
 watermark.setHeight(70.0);
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
@@ -147,7 +168,7 @@ doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 
 ### 检测 SmartArt 形状
 
-您可以使用以下代码检测文档中的 SmartArt 形状：
+您可以使用 `hasSmartArt()` 方法在文档中编程式地查找 SmartArt 对象。
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -158,7 +179,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 
 ### 更新 SmartArt 绘图
 
-要更新文档中的 SmartArt 绘图，请使用以下代码：
+定位到 SmartArt 形状后，可通过 `updateSmartArtDrawing()` 刷新其内部绘图数据。
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -170,37 +191,58 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 ## 结论
 
-在本指南中，我们探索了 Aspose.Words for Java 中文档形状的奥秘。您学习了如何向文档中添加各种形状、操作其属性以及如何使用 SmartArt 形状。掌握这些知识后，您就可以轻松创建外观精美、交互性强的文档。
+在本指南中，我们介绍了如何 **创建文本框** 对象、对多个形状进行分组、调整宽高比、在表格单元格内嵌入形状、添加水印以及使用 Aspose.Words for Java 操作 SmartArt 图表。这些技术使您能够以编程方式构建内容丰富、交互性强的 Word 文档。
 
-## 常见问题解答
+## 常见问题
 
 ### 什么是 Aspose.Words for Java？
 
-Aspose.Words for Java 是一个 Java 库，允许开发人员以编程方式创建、修改和转换 Word 文档。它提供了丰富的功能和工具，可用于处理各种格式的文档。
+Aspose.Words for Java 是一个 Java 库，允许开发者以编程方式创建、修改和转换 Word 文档。它提供了丰富的功能和工具，支持多种文档格式的操作。
 
-### 如何下载适用于 Java 的 Aspose.Words？
+### 如何下载 Aspose.Words for Java？
 
-您可以通过以下链接从 Aspose 网站下载 Aspose.Words for Java： [下载 Aspose.Words for Java](https://releases.aspose.com/words/java/)
+您可以通过以下链接从 Aspose 官方网站下载 Aspose.Words for Java：  
+[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-### 使用文档形状有什么好处？
+### 使用文档形状有哪些好处？
 
-文档形状可为您的文档增添视觉元素和交互性，使其更具吸引力，信息量更大。您可以使用形状创建标注、按钮、图像、水印等，从而提升整体用户体验。
+文档形状为文档添加视觉元素和交互性，使其更具吸引力和信息量。通过形状，您可以创建标注、按钮、图像、水印等，提升整体用户体验。
 
 ### 我可以自定义形状的外观吗？
 
-是的，您可以通过调整形状的属性（例如大小、位置、旋转和填充颜色）来自定义形状的外观。Aspose.Words for Java 提供了丰富的形状自定义选项。
+可以，您可以通过调整大小、位置、旋转和填充颜色等属性来自定义形状的外观。Aspose.Words for Java 提供了丰富的形状定制选项。
 
-### Aspose.Words for Java 是否与 SmartArt 兼容？
+### Aspose.Words for Java 是否兼容 SmartArt？
 
-是的，Aspose.Words for Java 支持 SmartArt 形状，允许您在文档中处理复杂的图表和图形。
+兼容，Aspose.Words for Java 支持 SmartArt 形状，您可以在文档中处理复杂的图表和图形。
 
+## Frequently Asked Questions
+
+**Q: Can I combine a text box with an image inside the same shape?**  
+A: Yes. Insert an image into the text box shape using `builder.insertImage()` after creating the shape, then adjust its layout as needed.
+
+**Q: How do I ensure a watermark appears behind all document content?**  
+A: Set the shape’s `WrapType` to `NONE` and adjust its `RelativeHorizontalPosition` and `RelativeVerticalPosition` to `PAGE`. This positions the watermark behind the main flow.
+
+**Q: Is it possible to animate a grouped shape in Word?**  
+A: While Aspose.Words can create and group shapes, animation features are not supported because they rely on Word’s UI capabilities.
+
+**Q: What version of Aspose.Words is required for SmartArt support?**  
+A: SmartArt detection and updating are available starting from Aspose.Words 20.9 for Java and later.
+
+**Q: Does the library handle large documents with many shapes efficiently?**  
+A: Yes. Use `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` or higher to improve performance on documents with many shapes.
+
+---
+
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

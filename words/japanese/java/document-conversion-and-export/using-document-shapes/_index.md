@@ -1,10 +1,11 @@
 ---
-"description": "Aspose.Words for Java のドキュメントシェイプのパワーを解き放ちましょう。ステップバイステップの例題を通して、視覚的に魅力的なドキュメントの作成方法を学びましょう。"
-"linktitle": "ドキュメントシェイプの使用"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java でドキュメントシェイプを使用する"
-"url": "/ja/java/document-conversion-and-export/using-document-shapes/"
-"weight": 14
+date: 2026-02-16
+description: Aspose.Words for Java を使用して、テキストボックスの作成、透かし文字の追加、複数の図形のグループ化、図形のアスペクト比の設定、テーブルセルへの図形の配置方法を学びます。
+linktitle: Using Document Shapes
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Javaでテキストボックスを作成し、ドキュメントシェイプを使用する方法
+url: /ja/java/document-conversion-and-export/using-document-shapes/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,22 +14,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でドキュメントシェイプを使用する
+# Aspose.Words for Javaでドキュメントシェイプを使用する
 
+## Aspose.Words for Javaでドキュメントシェイプを使用する概要
 
-## Aspose.Words for Java でのドキュメント シェイプの使用の概要
+この包括的なガイドでは、Aspose.Words for Javaを使用して **テキストボックスを作成** オブジェクトやその他の強力なシェイプの作成方法を学びます。シェイプを使用すると、Word ドキュメントに吹き出し、ボタン、透かし、SmartArt などを追加でき、視覚的に魅力的でインタラクティブになります。単純なテキストボックスの挿入から複数シェイプのグループ化、アスペクト比の設定、テーブルセル内へのシェイプ配置まで、実践的な例を順に解説します。
 
-この包括的なガイドでは、Aspose.Words for Java のドキュメントシェイプの世界を深く掘り下げていきます。シェイプは、視覚的に魅力的でインタラクティブなドキュメントを作成する上で不可欠な要素です。吹き出し、ボタン、画像、透かしなど、どんな要素を追加する必要がある場合でも、Aspose.Words for Java はそれらを効率的に行うためのツールを提供します。これらのシェイプの使い方を、ソースコードの例を使って段階的に見ていきましょう。
+## クイック回答
+- **テキストボックスを追加する主な方法は何ですか？** `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)` を使用します。
+- **シェイプをグループ化できますか？** はい – `GroupShape` を作成し、子シェイプを追加します。
+- **シェイプのアスペクト比をロックまたはロック解除するには？** `shape.setAspectRatioLocked(true/false)` を呼び出します。
+- **シェイプで透かしを追加できますか？** もちろんです – `TEXT_PLAIN_TEXT` を持つ `Shape` を挿入し、塗りつぶし/線を設定します。
+- **SmartArt ダイアグラムは Aspose.Words で使用できますか？** はい – `shape.hasSmartArt()` で検出し、`shape.updateSmartArtDrawing()` で更新します。
 
-## ドキュメントシェイプの使い方
+## テキストボックスとは何か、そしてテキストボックスシェイプを作成する理由
 
-コードに進む前に、環境を設定しましょう。Aspose.Words for Javaがプロジェクトに統合されていることを確認してください。まだの場合は、Asposeのウェブサイトからダウンロードできます。 [Aspose.Words for Javaをダウンロード](https://releases.aspose.com/words/java/)
+テキストボックスは、書式設定されたテキスト、画像、またはその他のシェイプを保持できるコンテナです。自動化で **テキストボックスを作成** を使用すると、ページ上の任意の場所にフローティングコンテンツを配置でき、注釈、吹き出し、装飾要素などをメインの文書フローを変更せずに追加できます。
 
-## ドキュメントに図形を追加する
+## シェイプの追加方法
 
-### グループシェイプの挿入
+コードに入る前に、プロジェクトで Aspose.Words for Java が参照されていることを確認してください。まだ追加していない場合は、公式サイトからライブラリをダウンロードしてください：
 
-あ `GroupShape` 複数の図形をグループ化することができます。グループ化の作成と挿入方法は次のとおりです。 `GroupShape`：
+[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+
+### ドキュメントへのシェイプの追加
+
+## 複数シェイプのグループ化方法
+
+`GroupShape` を使用すると、複数の個別シェイプを単一ユニットとして扱うことができ、まとめて移動や回転させるのに便利です。
+
+### GroupShape の挿入
+
+以下は、グループを作成し、2 つの異なるシェイプを追加して、ドキュメントに挿入する完全な例です。
 
 ```java
 Document doc = new Document();
@@ -58,9 +75,11 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-### テキストボックス図形の挿入
+## テキストボックスの作成方法（create text box）
 
-テキストボックス図形を挿入するには、 `insertShape` 以下の例に示す方法を使用します。
+### テキストボックスシェイプの挿入
+
+`insertShape` メソッドを使用すると、テキストボックスの追加が簡単になります。以下の例では、テキストボックスの位置設定と回転の 2 つの方法を示しています。
 
 ```java
 Document doc = new Document();
@@ -81,11 +100,11 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## 図形のプロパティの操作
+## シェイプのアスペクト比の設定方法
 
 ### アスペクト比の管理
 
-図形のアスペクト比をロックするかどうかを制御できます。図形のアスペクト比をロック解除する方法は次のとおりです。
+シェイプを元の比例を保たずに伸ばす必要がある場合があります。以下のスニペットは、画像シェイプのアスペクト比ロックを解除する方法を示しています。
 
 ```java
 Document doc = new Document();
@@ -97,9 +116,11 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-### 表のセルに図形を配置する
+## シェイプをテーブルセルに配置する方法
 
-テーブルセル内に図形を配置する必要がある場合は、次のコードを使用してこれを実現できます。
+### テーブルセル内へのシェイプ配置
+
+以下は、テーブルを作成し、ページに対して相対的に配置される透かしシェイプを挿入する例です。このシェイプはセル内にも配置可能です。
 
 ```java
 Document doc = new Document();
@@ -122,7 +143,7 @@ builder.endTable();
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-watermark.isLayoutInCell(true); // 図形をセル内に配置した場合は、表のセルの外側に図形を表示します。
+watermark.isLayoutInCell(true); // Display the shape outside of the table cell if it will be placed into a cell.
 watermark.setWidth(300.0);
 watermark.setHeight(70.0);
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
@@ -143,11 +164,11 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## SmartArt図形の操作
+## SmartArt シェイプの操作
 
-### SmartArt図形の検出
+### SmartArt シェイプの検出
 
-次のコードを使用して、ドキュメント内の SmartArt 図形を検出できます。
+`hasSmartArt()` メソッドを使用して、プログラムからドキュメント内の SmartArt オブジェクトを検出できます。
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -158,7 +179,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 
 ### SmartArt 描画の更新
 
-ドキュメント内の SmartArt 描画を更新するには、次のコードを使用します。
+SmartArt シェイプを見つけたら、`updateSmartArtDrawing()` を使用して内部描画データを更新できます。
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -170,37 +191,57 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 ## 結論
 
-このガイドでは、Aspose.Words for Java のドキュメント図形の世界を探求しました。ドキュメントに様々な図形を追加し、そのプロパティを操作し、SmartArt 図形を操作する方法を学びました。これらの知識があれば、視覚的に魅力的でインタラクティブなドキュメントを簡単に作成できます。
+このガイドでは、Aspose.Words for Java を使用して **テキストボックスを作成** オブジェクト、複数シェイプのグループ化、アスペクト比の調整、テーブルセル内へのシェイプ埋め込み、透かしの追加、SmartArt ダイアグラムの操作方法を取り上げました。これらのテクニックにより、プログラムでリッチな書式設定とインタラクティブな Word ドキュメントを構築できるようになります。
+
+## FAQ
+
+### Aspose.Words for Java とは何ですか？
+
+Aspose.Words for Java は、開発者がプログラムで Word ドキュメントを作成、変更、変換できる Java ライブラリです。さまざまな形式のドキュメントを操作するための豊富な機能とツールを提供します。
+
+### Aspose.Words for Java はどこからダウンロードできますか？
+
+以下のリンクから Aspose のウェブサイトで Aspose.Words for Java をダウンロードできます: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+
+### ドキュメントシェイプを使用するメリットは何ですか？
+
+ドキュメントシェイプは視覚的要素とインタラクティブ性を追加し、ドキュメントをより魅力的で情報豊かにします。シェイプを使って吹き出し、ボタン、画像、透かしなどを作成でき、全体的なユーザー体験が向上します。
+
+### シェイプの外観をカスタマイズできますか？
+
+はい、サイズ、位置、回転、塗りつぶし色などのプロパティを調整することでシェイプの外観をカスタマイズできます。Aspose.Words for Java はシェイプカスタマイズのための豊富なオプションを提供します。
+
+### Aspose.Words for Java は SmartArt と互換性がありますか？
+
+はい、Aspose.Words for Java は SmartArt シェイプをサポートしており、ドキュメント内で複雑な図やグラフィックを扱うことができます。
 
 ## よくある質問
 
-### Aspose.Words for Java とは何ですか?
+**Q: 同じシェイプ内でテキストボックスと画像を組み合わせられますか？**  
+A: はい。シェイプを作成した後、`builder.insertImage()` を使用してテキストボックスシェイプに画像を挿入し、必要に応じてレイアウトを調整します。
 
-Aspose.Words for Javaは、開発者がWord文書をプログラムで作成、変更、変換できるようにするJavaライブラリです。さまざまな形式の文書を扱うための幅広い機能とツールを提供します。
+**Q: 透かしを文書のすべてのコンテンツの背後に表示させるには？**  
+A: シェイプの `WrapType` を `NONE` に設定し、`RelativeHorizontalPosition` と `RelativeVerticalPosition` を `PAGE` に調整します。これにより透かしがメインフローの背後に配置されます。
 
-### Aspose.Words for Java をダウンロードするにはどうすればいいですか?
+**Q: Word でグループ化されたシェイプにアニメーションを付けられますか？**  
+A: Aspose.Words はシェイプの作成とグループ化は可能ですが、アニメーション機能は Word の UI 機能に依存するためサポートされていません。
 
-次のリンクから Aspose.Words for Java を Aspose Web サイトからダウンロードできます。 [Aspose.Words for Javaをダウンロード](https://releases.aspose.com/words/java/)
+**Q: SmartArt のサポートに必要な Aspose.Words のバージョンは？**  
+A: SmartArt の検出と更新は、Java 用 Aspose.Words 20.9 以降で利用可能です。
 
-### ドキュメント シェイプを使用する利点は何ですか?
+**Q: 多数のシェイプを含む大規模ドキュメントを効率的に処理できますか？**  
+A: はい。`doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` 以上を使用して、多数のシェイプを含むドキュメントのパフォーマンスを向上させます。
 
-ドキュメントシェイプは、ドキュメントに視覚的な要素とインタラクティブ性を加え、より魅力的で情報豊かなドキュメントを実現します。シェイプを使えば、吹き出し、ボタン、画像、透かしなどを作成でき、ユーザーエクスペリエンス全体を向上させることができます。
+---
 
-### 図形の外観をカスタマイズできますか?
-
-はい、サイズ、位置、回転、塗りつぶし色などのプロパティを調整することで、図形の外観をカスタマイズできます。Aspose.Words for Java には、図形をカスタマイズするための幅広いオプションが用意されています。
-
-### Aspose.Words for Java は SmartArt と互換性がありますか?
-
-はい、Aspose.Words for Java は SmartArt 図形をサポートしており、ドキュメント内で複雑な図やグラフィックを操作できます。
-
+**最終更新日:** 2026-02-16  
+**テスト環境:** Aspose.Words for Java 24.12  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

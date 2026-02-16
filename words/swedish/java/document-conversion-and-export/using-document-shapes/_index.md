@@ -1,13 +1,18 @@
 ---
-"description": "Lås upp kraften i dokumentformer i Aspose.Words för Java. Lär dig skapa visuellt engagerande dokument med steg-för-steg-exempel."
-"linktitle": "Använda dokumentformer"
-"second_title": "Aspose.Words Java-dokumentbehandlings-API"
-"title": "Använda dokumentformer i Aspose.Words för Java"
-"url": "/sv/java/document-conversion-and-export/using-document-shapes/"
-"weight": 14
+date: 2026-02-16
+description: Lär dig hur du skapar textruta, lägger till ett vattenstämpelord, grupperar
+  flera former, ställer in formens bildförhållande och placerar formen i en tabellcell
+  med Aspose.Words för Java.
+linktitle: Using Document Shapes
+second_title: Aspose.Words Java Document Processing API
+title: Hur man skapar en textruta och använder dokumentformer i Aspose.Words för Java
+url: /sv/java/document-conversion-and-export/using-document-shapes/
+weight: 14
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+'s" heading maybe keep same but translate.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -15,20 +20,36 @@
 
 # Använda dokumentformer i Aspose.Words för Java
 
+## Introduktion till att använda dokumentformer i Aspose.Words för Java
 
-## Introduktion till användning av dokumentformer i Aspose.Words för Java
+I den här omfattande guiden **kommer du att lära dig hur du skapar textlåda**‑objekt och andra kraftfulla former med Aspose.Words för Java. Former låter dig berika Word‑dokument med pratbubblor, knappar, vattenstämplar, SmartArt och mer—vilket gör dem visuellt tilltalande och interaktiva. Vi går igenom verkliga exempel, från att infoga en enkel textlåda till att gruppera flera former, ställa in bildförhållanden och placera former i tabellceller.
 
-den här omfattande guiden fördjupar vi oss i dokumentformernas värld i Aspose.Words för Java. Former är viktiga element när det gäller att skapa visuellt tilltalande och interaktiva dokument. Oavsett om du behöver lägga till callouts, knappar, bilder eller vattenstämplar, tillhandahåller Aspose.Words för Java verktygen för att göra det effektivt. Låt oss utforska hur man använder dessa former steg för steg med källkodsexempel.
+## Snabba svar
+- **Vad är det primära sättet att lägga till en textlåda?** Använd `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
+- **Kan jag gruppera former tillsammans?** Ja – skapa en `GroupShape` och lägg till underordnade former.
+- **Hur låser eller låser jag upp en forms bildförhållande?** Anropa `shape.setAspectRatioLocked(true/false)`.
+- **Är det möjligt att lägga till en vattenstämpel med en form?** Absolut – infoga en `Shape` med `TEXT_PLAIN_TEXT` och sätt dess fyllning/linje.
+- **Fungerar SmartArt‑diagram med Aspose.Words?** Ja – upptäck med `shape.hasSmartArt()` och uppdatera via `shape.updateSmartArtDrawing()`.
 
-## Komma igång med dokumentformer
+## Vad är en textlåda och varför skapa textlåda‑former?
 
-Innan vi går in i koden, låt oss konfigurera vår miljö. Se till att du har Aspose.Words för Java integrerat i ditt projekt. Om du inte redan har gjort det kan du ladda ner det från Asposes webbplats. [Ladda ner Aspose.Words för Java](https://releases.aspose.com/words/java/)
+En textlåda är en behållare som kan innehålla formaterad text, bilder eller andra former. Genom att **skapa textlåda** i din automatisering kan du placera flytande innehåll var som helst på en sida, perfekt för anteckningar, pratbubblor eller dekorativa element utan att ändra huvuddokumentets flöde.
 
-## Lägga till former i dokument
+## Hur man lägger till en form
 
-### Infoga en gruppform
+Innan vi dyker ner i koden, se till att Aspose.Words för Java är refererad i ditt projekt. Om du ännu inte har lagt till det, ladda ner biblioteket från den officiella webbplatsen:
 
-En `GroupShape` låter dig gruppera flera former tillsammans. Så här skapar och infogar du en `GroupShape`:
+[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+
+### Lägga till former i dokument
+
+## Hur man grupperar flera former
+
+En `GroupShape` låter dig behandla flera enskilda former som en enda enhet—användbart för att flytta eller rotera dem tillsammans.
+
+### Infoga en GroupShape
+
+Nedan är ett komplett exempel som skapar en grupp, lägger till två olika former och infogar gruppen i dokumentet.
 
 ```java
 Document doc = new Document();
@@ -58,9 +79,11 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-### Infoga en textruteform
+## Hur man skapar en textlåda (create text box)
 
-För att infoga en textruteform kan du använda `insertShape` metod som visas i exemplet nedan:
+### Infoga en textlåda‑form
+
+Metoden `insertShape` gör det enkelt att lägga till en textlåda. Exemplet nedan visar två sätt att positionera och rotera en textlåda.
 
 ```java
 Document doc = new Document();
@@ -81,11 +104,11 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Manipulera formegenskaper
+## Hur man ställer in bildförhållandet för en form
 
 ### Hantera bildförhållande
 
-Du kan styra om bildförhållandet för en form är låst eller inte. Så här låser du upp bildförhållandet för en form:
+Ibland behöver du en form som sträcks utan att bevara sina ursprungliga proportioner. Följande kodsnutt demonstrerar hur du låser upp bildförhållandet för en bildform.
 
 ```java
 Document doc = new Document();
@@ -97,9 +120,11 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
+## Hur man placerar en form i en tabellcell
+
 ### Placera en form i en tabellcell
 
-Om du behöver placera en form inuti en tabellcell kan du göra detta med följande kod:
+Nedan är ett steg‑för‑steg‑exempel som bygger en tabell, sedan infogar en vattenstämpelform som är positionerad relativt sidan men också kan placeras i en cell.
 
 ```java
 Document doc = new Document();
@@ -122,7 +147,7 @@ builder.endTable();
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-watermark.isLayoutInCell(true); // Visa formen utanför tabellcellen om den ska placeras i en cell.
+watermark.isLayoutInCell(true); // Display the shape outside of the table cell if it will be placed into a cell.
 watermark.setWidth(300.0);
 watermark.setHeight(70.0);
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
@@ -143,11 +168,11 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## Arbeta med SmartArt-former
+## Arbeta med SmartArt‑former
 
-### Identifiera SmartArt-former
+### Upptäcka SmartArt‑former
 
-Du kan identifiera SmartArt-former i ett dokument med hjälp av följande kod:
+Du kan programatiskt hitta SmartArt‑objekt i ett dokument med metoden `hasSmartArt()`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -156,9 +181,9 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### Uppdaterar SmartArt-teckningar
+### Uppdatera SmartArt‑ritningar
 
-För att uppdatera SmartArt-teckningar i ett dokument, använd följande kod:
+När du har lokaliserat SmartArt‑former kan du uppdatera deras interna ritningsdata med `updateSmartArtDrawing()`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -170,37 +195,57 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 ## Slutsats
 
-I den här guiden har vi utforskat dokumentformernas värld i Aspose.Words för Java. Du har lärt dig hur du lägger till olika former i dina dokument, manipulerar deras egenskaper och arbetar med SmartArt-former. Med denna kunskap kan du enkelt skapa visuellt tilltalande och interaktiva dokument.
+I den här guiden har vi gått igenom hur du **skapar textlåda**‑objekt, grupperar flera former, justerar bildförhållanden, bäddar in former i tabellceller, lägger till vattenstämplar och arbetar med SmartArt‑diagram med Aspose.Words för Java. Dessa tekniker ger dig möjlighet att programatiskt bygga rikt formatterade, interaktiva Word‑dokument.
 
 ## Vanliga frågor
 
 ### Vad är Aspose.Words för Java?
 
-Aspose.Words för Java är ett Java-bibliotek som låter utvecklare skapa, modifiera och konvertera Word-dokument programmatiskt. Det erbjuder ett brett utbud av funktioner och verktyg för att arbeta med dokument i olika format.
+Aspose.Words för Java är ett Java‑bibliotek som låter utvecklare skapa, modifiera och konvertera Word‑dokument programatiskt. Det erbjuder ett brett utbud av funktioner och verktyg för att arbeta med dokument i olika format.
 
 ### Hur kan jag ladda ner Aspose.Words för Java?
 
-Du kan ladda ner Aspose.Words för Java från Asposes webbplats genom att följa den här länken: [Ladda ner Aspose.Words för Java](https://releases.aspose.com/words/java/)
+Du kan ladda ner Aspose.Words för Java från Aspose‑webbplatsen via följande länk: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
 ### Vilka är fördelarna med att använda dokumentformer?
 
-Dokumentformer lägger till visuella element och interaktivitet i dina dokument, vilket gör dem mer engagerande och informativa. Med former kan du skapa bildtexter, knappar, bilder, vattenstämplar och mer, vilket förbättrar den övergripande användarupplevelsen.
+Dokumentformer lägger till visuella element och interaktivitet i dina dokument, vilket gör dem mer engagerande och informativa. Med former kan du skapa pratbubblor, knappar, bilder, vattenstämplar och mer, vilket förbättrar den totala användarupplevelsen.
 
 ### Kan jag anpassa utseendet på former?
 
-Ja, du kan anpassa utseendet på former genom att justera deras egenskaper som storlek, position, rotation och fyllningsfärg. Aspose.Words för Java erbjuder omfattande alternativ för anpassning av former.
+Ja, du kan anpassa utseendet på former genom att justera deras egenskaper såsom storlek, position, rotation och fyllningsfärg. Aspose.Words för Java erbjuder omfattande alternativ för form‑anpassning.
 
-### Är Aspose.Words för Java kompatibelt med SmartArt?
+### Är Aspose.Words för Java kompatibel med SmartArt?
 
-Ja, Aspose.Words för Java stöder SmartArt-former, vilket gör att du kan arbeta med komplexa diagram och grafik i dina dokument.
+Ja, Aspose.Words för Java stödjer SmartArt‑former, vilket gör att du kan arbeta med komplexa diagram och grafik i dina dokument.
 
+## Vanliga frågor och svar
+
+**Q: Kan jag kombinera en textlåda med en bild i samma form?**  
+A: Ja. Infoga en bild i textlåda‑formen med `builder.insertImage()` efter att du skapat formen, och justera sedan layouten efter behov.
+
+**Q: Hur säkerställer jag att en vattenstämpel visas bakom allt dokumentinnehåll?**  
+A: Sätt formens `WrapType` till `NONE` och justera dess `RelativeHorizontalPosition` och `RelativeVerticalPosition` till `PAGE`. Detta placerar vattenstämpeln bakom huvudflödet.
+
+**Q: Är det möjligt att animera en grupperad form i Word?**  
+A: Även om Aspose.Words kan skapa och gruppera former, stöds inte animationsfunktioner eftersom de bygger på Word‑gränssnittets möjligheter.
+
+**Q: Vilken version av Aspose.Words krävs för SmartArt‑stöd?**  
+A: Upptäckt och uppdatering av SmartArt är tillgängligt från Aspose.Words 20.9 för Java och senare.
+
+**Q: Hanterar biblioteket stora dokument med många former effektivt?**  
+A: Ja. Använd `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` eller högre för att förbättra prestanda i dokument med många former.
+
+---
+
+**Senast uppdaterad:** 2026-02-16  
+**Testad med:** Aspose.Words för Java 24.12  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

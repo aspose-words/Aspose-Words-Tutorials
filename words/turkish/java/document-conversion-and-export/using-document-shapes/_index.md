@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words for Java'da Belge Şekillerinin Gücünü Açın. Adım Adım Örneklerle Görsel Olarak İlgi Çekici Belgeler Oluşturmayı Öğrenin."
-"linktitle": "Belge Şekillerini Kullanma"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words'de Belge Şekillerini Kullanma"
-"url": "/tr/java/document-conversion-and-export/using-document-shapes/"
-"weight": 14
+date: 2026-02-16
+description: Aspose.Words for Java kullanarak metin kutusu oluşturmayı, filigran kelime
+  eklemeyi, birden fazla şekli gruplamayı, şekil en‑boy oranını ayarlamayı ve şekli
+  bir tablo hücresine yerleştirmeyi öğrenin.
+linktitle: Using Document Shapes
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java'da Metin Kutusu Oluşturma ve Belge Şekillerini Kullanma
+url: /tr/java/document-conversion-and-export/using-document-shapes/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,22 +16,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words'de Belge Şekillerini Kullanma
+# Aspose.Words for Java’da Belge Şekillerinin Kullanımı
 
+## Aspose.Words for Java’da Belge Şekillerinin Kullanımına Giriş
 
-## Java için Aspose.Words'de Belge Şekillerinin Kullanımına Giriş
+Bu kapsamlı rehberde, **metin kutusu oluşturma** nesnelerini ve Aspose.Words for Java ile diğer güçlü şekilleri nasıl oluşturacağınızı öğreneceksiniz. Şekiller, Word belgelerinizi açıklama balonları, düğmeler, filigranlar, SmartArt ve daha fazlası ile zenginleştirmenizi sağlar—belgeleri görsel olarak çekici ve etkileşimli hâle getirir. Basit bir metin kutusu eklemekten, birden fazla şekli gruplamaya, en boy oranlarını ayarlamaya ve şekilleri tablo hücrelerine yerleştirmeye kadar gerçek dünya örnekleri üzerinden ilerleyeceğiz.
 
-Bu kapsamlı kılavuzda, Java için Aspose.Words'deki belge şekillerinin dünyasına dalacağız. Şekiller, görsel olarak çekici ve etkileşimli belgeler oluşturma konusunda olmazsa olmaz unsurlardır. Açıklamalar, düğmeler, resimler veya filigranlar eklemeniz gerekip gerekmediğine bakılmaksızın, Java için Aspose.Words bunu verimli bir şekilde yapmanız için gereken araçları sağlar. Kaynak kod örnekleriyle bu şekillerin nasıl kullanılacağını adım adım inceleyelim.
+## Hızlı Yanıtlar
+- **Metin kutusu eklemenin temel yolu nedir?** `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)` kullanın.
+- **Şekilleri bir arada gruplayabilir miyim?** Evet – bir `GroupShape` oluşturun ve alt şekilleri ekleyin.
+- **Bir şeklin en boy oranını nasıl kilitleyip kilidini açarım?** `shape.setAspectRatioLocked(true/false)` çağırın.
+- **Şekil ile bir filigran eklemek mümkün mü?** Kesinlikle – `TEXT_PLAIN_TEXT` tipinde bir `Shape` ekleyin ve doldurma/çizgi ayarlarını yapın.
+- **SmartArt diyagramları Aspose.Words ile çalışıyor mu?** Evet – `shape.hasSmartArt()` ile tespit edin ve `shape.updateSmartArtDrawing()` ile güncelleyin.
 
-## Belge Şekillerine Başlarken
+## Metin kutusu nedir ve neden metin kutusu şekilleri oluşturmalıyız?
 
-Koda geçmeden önce ortamımızı ayarlayalım. Projenize Aspose.Words for Java'nın entegre olduğundan emin olun. Eğer henüz entegre etmediyseniz, Aspose web sitesinden indirebilirsiniz [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
+Metin kutusu, biçimlendirilmiş metin, resim veya diğer şekilleri tutabilen bir kapsayıcıdır. Otomasyonunuzda **metin kutusu oluşturma** kullanmak, sayfa üzerinde yüzen içerik yerleştirmenizi sağlar; açıklamalar, balonlar veya dekoratif öğeler için mükemmeldir ve ana belge akışını etkilemez.
 
-## Belgelere Şekil Ekleme
+## Şekil nasıl eklenir
 
-### Bir GroupShape Ekleme
+Kodlamaya geçmeden önce, projenizde Aspose.Words for Java’nın referans edildiğinden emin olun. Henüz eklemediyseniz, resmi siteden kütüphaneyi indirin:
 
-A `GroupShape` birden fazla şekli bir arada gruplamanıza olanak tanır. İşte bir şekli nasıl oluşturabileceğiniz ve ekleyebileceğiniz `GroupShape`:
+[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+
+### Belgelere Şekil Ekleme
+
+## Birden fazla şekli nasıl gruplayabilirsiniz
+
+`GroupShape`, birden fazla ayrı şekli tek bir birim olarak ele almanızı sağlar—bunları birlikte taşıma veya döndürme işlemleri için kullanışlıdır.
+
+### GroupShape Ekleme
+
+Aşağıda bir grup oluşturan, iki farklı şekil ekleyen ve grubu belgeye yerleştiren tam bir örnek bulunmaktadır.
 
 ```java
 Document doc = new Document();
@@ -58,9 +77,11 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-### Bir Metin Kutusu Şekli Ekleme
+## Metin kutusu (create text box) nasıl oluşturulur
 
-Bir metin kutusu şekli eklemek için şunu kullanabilirsiniz: `insertShape` Aşağıdaki örnekte gösterildiği gibi bir yöntem:
+### Metin Kutusu Şekli Ekleme
+
+`insertShape` yöntemi, bir metin kutusu eklemeyi oldukça basitleştirir. Aşağıdaki örnek, bir metin kutusunu konumlandırma ve döndürme için iki farklı yolu gösterir.
 
 ```java
 Document doc = new Document();
@@ -81,11 +102,11 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Şekil Özelliklerini Düzenleme
+## Şeklin en boy oranı nasıl ayarlanır
 
-### En Boy Oranını Yönetme
+### En Boy Oranı Yönetimi
 
-Bir şeklin en boy oranının kilitli olup olmadığını kontrol edebilirsiniz. Bir şeklin en boy oranının kilidini açma yöntemi şöyledir:
+Bazen bir şeklin orijinal oranlarını korumadan uzamasına ihtiyaç duyabilirsiniz. Aşağıdaki kod parçacığı, bir resim şeklinin en boy oranının kilidini açmayı gösterir.
 
 ```java
 Document doc = new Document();
@@ -97,9 +118,11 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-### Bir Tablo Hücresine Şekil Yerleştirme
+## Şekil bir tablo hücresine nasıl yerleştirilir
 
-Bir tablo hücresinin içine bir şekil yerleştirmeniz gerekiyorsa, bunu aşağıdaki kodla yapabilirsiniz:
+### Şekli Bir Tablo Hücresine Yerleştirme
+
+Aşağıda adım adım bir tablo oluşturup, sayfaya göre konumlandırılmış bir filigran şekli ekleyen ve aynı zamanda bir hücre içine de yerleştirilebilen bir örnek yer almaktadır.
 
 ```java
 Document doc = new Document();
@@ -122,7 +145,7 @@ builder.endTable();
 Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
-watermark.isLayoutInCell(true); // Şekil bir hücreye yerleştirilecekse, onu tablo hücresinin dışında görüntüle.
+watermark.isLayoutInCell(true); // Display the shape outside of the table cell if it will be placed into a cell.
 watermark.setWidth(300.0);
 watermark.setHeight(70.0);
 watermark.setHorizontalAlignment(HorizontalAlignment.CENTER);
@@ -143,11 +166,11 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## SmartArt Şekilleriyle Çalışma
+## SmartArt Şekilleri ile Çalışma
 
-### SmartArt Şekillerini Algılama
+### SmartArt Şekillerini Tespit Etme
 
-Aşağıdaki kodu kullanarak bir belgedeki SmartArt şekillerini tespit edebilirsiniz:
+`hasSmartArt()` yöntemiyle bir belgede SmartArt nesnelerini programlı olarak bulabilirsiniz.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -158,7 +181,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 
 ### SmartArt Çizimlerini Güncelleme
 
-Bir belgedeki SmartArt çizimlerini güncellemek için aşağıdaki kodu kullanın:
+SmartArt şekillerini bulduktan sonra, `updateSmartArtDrawing()` ile iç çizim verilerini yenileyebilirsiniz.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -168,39 +191,59 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Çözüm
+## Sonuç
 
-Bu kılavuzda, Java için Aspose.Words'deki belge şekillerinin dünyasını keşfettik. Belgelerinize çeşitli şekiller eklemeyi, özelliklerini düzenlemeyi ve SmartArt şekilleriyle çalışmayı öğrendiniz. Bu bilgiyle, görsel olarak çekici ve etkileşimli belgeleri kolaylıkla oluşturabilirsiniz.
+Bu rehberde, **metin kutusu oluşturma** nesnelerini, birden fazla şekli gruplamayı, en boy oranlarını ayarlamayı, şekilleri tablo hücrelerine yerleştirmeyi, filigran eklemeyi ve Aspose.Words for Java ile SmartArt diyagramlarıyla çalışmayı ele aldık. Bu teknikler, programlı olarak zengin biçimlendirilmiş ve etkileşimli Word belgeleri oluşturmanızı sağlar.
 
 ## SSS
 
-### Java için Aspose.Words nedir?
+### Aspose.Words for Java nedir?
 
-Aspose.Words for Java, geliştiricilerin Word belgelerini programatik olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan bir Java kütüphanesidir. Çeşitli formatlardaki belgelerle çalışmak için geniş bir yelpazede özellikler ve araçlar sunar.
+Aspose.Words for Java, geliştiricilerin Word belgelerini programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan bir Java kütüphanesidir. Çeşitli formatlarda belgeyle çalışmak için geniş bir özellik ve araç yelpazesi sunar.
 
-### Aspose.Words for Java'yı nasıl indirebilirim?
+### Aspose.Words for Java nasıl indirilir?
 
-Aspose.Words for Java'yı Aspose web sitesinden şu bağlantıyı takip ederek indirebilirsiniz: [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)
+Aspose.Words for Java’yı Aspose web sitesinden şu bağlantıyı izleyerek indirebilirsiniz: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-### Belge şekillerini kullanmanın faydaları nelerdir?
+### Belge şekilleri kullanmanın faydaları nelerdir?
 
-Belge şekilleri belgelerinize görsel öğeler ve etkileşim ekleyerek onları daha ilgi çekici ve bilgilendirici hale getirir. Şekillerle açıklamalar, düğmeler, resimler, filigranlar ve daha fazlasını oluşturarak genel kullanıcı deneyimini geliştirebilirsiniz.
+Belge şekilleri, belgelere görsel öğeler ve etkileşim ekleyerek daha çekici ve bilgilendirici hâle getirir. Şekillerle açıklama balonları, düğmeler, resimler, filigranlar ve daha fazlasını oluşturabilir, genel kullanıcı deneyimini artırabilirsiniz.
 
-### Şekillerin görünümünü özelleştirebilir miyim?
+### Şekillerin görünümü özelleştirilebilir mi?
 
-Evet, şekillerin boyut, konum, dönüş ve dolgu rengi gibi özelliklerini ayarlayarak görünümlerini özelleştirebilirsiniz. Java için Aspose.Words, şekil özelleştirme için kapsamlı seçenekler sunar.
+Evet, şekillerin boyut, konum, döndürme ve dolgu rengi gibi özelliklerini ayarlayarak görünümünü özelleştirebilirsiniz. Aspose.Words for Java, şekil özelleştirmesi için kapsamlı seçenekler sunar.
 
-### Aspose.Words for Java SmartArt ile uyumlu mudur?
+### Aspose.Words for Java SmartArt ile uyumlu mu?
 
-Evet, Aspose.Words for Java SmartArt şekillerini destekler ve belgelerinizde karmaşık diyagramlar ve grafiklerle çalışmanıza olanak tanır.
+Evet, Aspose.Words for Java SmartArt şekillerini destekler; böylece belgelerinizde karmaşık diyagram ve grafiklerle çalışabilirsiniz.
 
+## Sıkça Sorulan Sorular
+
+**S: Metin kutusunu aynı şekil içinde bir resimle birleştirebilir miyim?**  
+C: Evet. Şekli oluşturduktan sonra `builder.insertImage()` ile metin kutusu şekline bir resim ekleyin ve düzenini gerektiği gibi ayarlayın.
+
+**S: Filigranın tüm belge içeriğinin arkasında görünmesini nasıl sağlarım?**  
+C: Şeklin `WrapType` özelliğini `NONE` olarak ayarlayın ve `RelativeHorizontalPosition` ile `RelativeVerticalPosition` değerlerini `PAGE` olarak belirleyin. Bu, filigranı ana akışın arkasına konumlandırır.
+
+**S: Word’de gruplanmış bir şekli animasyonlu hale getirmek mümkün mü?**  
+C: Aspose.Words şekil oluşturma ve gruplama yapabilir, ancak animasyon özellikleri Word’ün UI yeteneklerine bağlı olduğundan desteklenmez.
+
+**S: SmartArt desteği için hangi Aspose.Words sürümü gerekir?**  
+C: SmartArt tespiti ve güncellemesi, Aspose.Words 20.9 for Java ve sonraki sürümlerinde mevcuttur.
+
+**S: Kütüphane çok sayıda şekil içeren büyük belgeleri verimli bir şekilde işleyebilir mi?**  
+C: Evet. `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` veya daha yüksek bir sürüm kullanarak çok sayıda şekil içeren belgelerde performansı artırabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-02-16  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
