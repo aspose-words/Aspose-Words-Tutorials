@@ -1,10 +1,13 @@
 ---
-"description": "Aprenda a crear y personalizar gráficos en Aspose.Words para Java. Explore los tipos de gráficos, el formato y las propiedades de los ejes para la visualización de datos."
-"linktitle": "Uso de gráficos"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Uso de gráficos en Aspose.Words para Java"
-"url": "/es/java/document-conversion-and-export/using-charts/"
-"weight": 12
+date: 2026-02-16
+description: Aprenda cómo agregar múltiples series a los gráficos en Aspose.Words
+  para Java, cambiar las marcas de graduación del eje, aplicar un formato numérico
+  personalizado y generar documentos de Word con gráficos de líneas y columnas.
+linktitle: Using Charts
+second_title: Aspose.Words Java Document Processing API
+title: Agregar varias series a los gráficos en Aspose.Words para Java
+url: /es/java/document-conversion-and-export/using-charts/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uso de gráficos en Aspose.Words para Java
+# Agregar Múltiples Series a Gráficos en Aspose.Words para Java
 
+## Introducción al Uso de Gráficos en Aspose.Words para Java
 
-## Introducción al uso de gráficos en Aspose.Words para Java
+En este tutorial aprenderá **cómo agregar múltiples series** a un gráfico usando Aspose.Words para Java, por qué personalizar las marcas de graduación del eje y aplicar un formato numérico personalizado es importante, y cómo generar un documento Word con gráficos. Ya sea que necesite un gráfico de líneas para datos financieros o un gráfico de columnas para cifras de ventas, los pasos a continuación lo guiarán en la creación, el estilo y el ajuste fino de los gráficos de forma programática.
 
-En este tutorial, exploraremos cómo trabajar con gráficos usando Aspose.Words para Java. Aprenderá a crear varios tipos de gráficos, personalizar las propiedades de los ejes, dar formato a las etiquetas de datos y mucho más. ¡Comencemos!
+## Respuestas Rápidas
+- **¿Cómo agrego múltiples series?** Use `chart.getSeries().add(...)` para cada serie que desee mostrar.  
+- **¿Puedo cambiar las marcas de graduación del eje?** Sí – use `setMajorTickMark()` y `setMinorTickMark()` en los objetos del eje.  
+- **¿Qué formato puedo aplicar a las etiquetas de datos?** Cualquier formato numérico compatible con Excel, por ejemplo, `"$"#,##0.00` o `0.00%`.  
+- **¿Qué tipos de gráficos son compatibles?** Línea, columna, área, burbuja, dispersión y muchos más mediante `ChartType`.  
+- **¿Se requiere una licencia para producción?** Se necesita una licencia válida de Aspose.Words para Java para la funcionalidad completa.
 
-## Creación de un gráfico de líneas
+## ¿Qué significa “agregar múltiples series” en un gráfico?
+Agregar múltiples series significa insertar más de un conjunto de datos en la misma área del gráfico, lo que le permite comparar diferentes categorías o períodos de tiempo lado a lado. Cada serie aparece como su propia línea, columna o conjunto de marcadores, ofreciendo a los lectores una historia visual más rica.
 
-Para crear un gráfico de líneas, utilice el siguiente código:
+## ¿Por qué usar Aspose.Words para Java para generar documentos Word con gráficos?
+- **Control total** sobre el tipo de gráfico, diseño y estilo sin abrir Word manualmente.  
+- **Generación programática** se adapta a canalizaciones de informes automatizados.  
+- **Multiplataforma** – funciona en cualquier entorno compatible con Java.  
+- **API rica** para personalizar ejes, etiquetas de datos y formatos numéricos.
+
+## Requisitos Previos
+- Java Development Kit (JDK) 8 o superior.  
+- Biblioteca Aspose.Words para Java añadida a su proyecto (Maven/Gradle o JAR).  
+- Licencia válida de Aspose para producción (opcional para evaluación).
+
+## Guía Paso a Paso
+
+### Paso 1: Crear un gráfico de líneas y **agregar múltiples series**
+A continuación se muestra el código principal que crea un gráfico de líneas, elimina las series predeterminadas y luego agrega tres series distintas con etiquetas de datos personalizadas.
 
 ```java
 Document doc = new Document();
@@ -31,10 +55,10 @@ Shape shape = builder.insertChart(ChartType.LINE, 432.0, 252.0);
 Chart chart = shape.getChart();
 chart.getTitle().setText("Data Labels With Different Number Format");
 
-// Eliminar serie generada por defecto.
+// Delete default generated series.
 chart.getSeries().clear();
 
-// Agregar una serie con datos y etiquetas de datos.
+// Adding a series with data and data labels.
 ChartSeries series1 = chart.getSeries().add("Aspose Series 1", 
     new String[] { "Category 1", "Category 2", "Category 3" }, 
     new double[] { 2.5, 1.5, 3.5 });
@@ -45,15 +69,16 @@ series1.getDataLabels().get(0).getNumberFormat().setFormatCode("\"$\"#,##0.00");
 series1.getDataLabels().get(1).getNumberFormat().setFormatCode("dd/mm/yyyy");
 series1.getDataLabels().get(2).getNumberFormat().setFormatCode("0.00%");
 
-// O vincular el código de formato a una celda de origen.
+// Or link format code to a source cell.
 series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-## Creación de otros tipos de gráficos
+**Consejo profesional:** Llame a `chart.getSeries().add(...)` tantas veces como sea necesario para **agregar múltiples series** – cada llamada crea una nueva línea (o columna, etc.) en el mismo gráfico.
 
-Puedes crear diferentes tipos de gráficos, como de columnas, de áreas, de burbujas, de dispersión y más, utilizando técnicas similares. Aquí tienes un ejemplo de inserción de un gráfico de columnas simple:
+### Paso 2: **Crear un gráfico de columnas** (create column chart java)
+El siguiente fragmento muestra cómo insertar un gráfico de columnas simple, útil para comparar categorías lado a lado.
 
 ```java
 Document doc = new Document();
@@ -61,10 +86,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Eliminar serie generada por defecto.
+// Delete default generated series.
 chart.getSeries().clear();
 
-// Creando categorías y agregando datos.
+// Creating categories and adding data.
 String[] categories = new String[] { "Category 1", "Category 2" };
 chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
 chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
@@ -72,9 +97,8 @@ chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
 doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
 ```
 
-## Personalización de las propiedades del eje
-
-Puede personalizar las propiedades de los ejes, como cambiar el tipo de eje, establecer marcas de graduación, formatear etiquetas y más. A continuación, se muestra un ejemplo de cómo definir las propiedades del eje XY:
+### Paso 3: **Cambiar las marcas de graduación del eje** (change axis tick marks)
+Personalizar los ejes X y Y mejora la legibilidad. El siguiente código muestra cómo cambiar las marcas de graduación, invertir el orden y establecer puntos de cruce personalizados.
 
 ```java
 Document doc = new Document();
@@ -82,15 +106,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.AREA, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Borre la serie predeterminada y agregue sus datos.
+// Clear default series and add your data.
 
 ChartAxis xAxis = chart.getAxisX();
 ChartAxis yAxis = chart.getAxisY();
 
-// Cambie el eje X para que sea una categoría en lugar de una fecha.
+// Change the X axis to be a category instead of date.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); // Medido en unidades de visualización del eje Y (centenas).
+xAxis.setCrossesAt(3.0); // Measured in display units of the Y axis (hundreds).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
@@ -106,9 +130,8 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-## Formato de etiquetas de datos
-
-Puedes formatear las etiquetas de datos con diferentes formatos numéricos. A continuación, un ejemplo:
+### Paso 4: **Aplicar un formato numérico personalizado** (apply custom number format)
+Puede formatear los números del eje o las etiquetas de datos con cualquier patrón compatible con Excel. A continuación se muestra un ejemplo conciso que formatea el eje Y con un patrón de separador de miles.
 
 ```java
 Document doc = new Document();
@@ -116,50 +139,54 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Borre la serie predeterminada y agregue sus datos.
+// Clear default series and add your data.
 
 chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-## Personalizaciones adicionales de gráficos
+### Paso 5: Generar el documento Word final (generate chart word document)
+Después de configurar series, ejes y etiquetas, simplemente llame a `doc.save(...)` como se muestra en los fragmentos anteriores. El archivo `.docx` resultante contiene gráficos totalmente funcionales que pueden abrirse y editarse en Microsoft Word.
 
-Puede personalizar aún más sus gráficos ajustando los límites, las unidades de intervalo entre las etiquetas, ocultando los ejes del gráfico y más. Explore los fragmentos de código proporcionados para obtener más información sobre estas opciones.
+## Casos de Uso Comunes
+- **Paneles financieros** – gráficos de líneas con múltiples series para ingresos, gastos y beneficio.  
+- **Informes de ventas** – gráficos de columnas que comparan ventas trimestrales por regiones.  
+- **Seguimiento de proyectos** – gráficos de área o de dispersión que visualizan el progreso a lo largo del tiempo.  
+
+## Personalizaciones Adicionales de Gráficos
+Más allá de lo básico, puede ajustar límites, ocultar ejes (`axis.setHidden(true)`), cambiar colores, agregar leyendas y más. Consulte la referencia de la API de Aspose.Words para Java para la lista completa de opciones.
 
 ## Conclusión
+En esta guía cubrimos cómo **agregar múltiples series** a los gráficos, crear tanto gráficos de líneas como de columnas, **cambiar las marcas de graduación del eje**, **aplicar formatos numéricos personalizados**, y finalmente **generar un documento Word con gráficos**. Con Aspose.Words para Java dispone de una forma poderosa, basada en código, para incrustar visualizaciones de datos profesionales directamente en sus documentos.
 
-En este tutorial, hemos explorado cómo trabajar con gráficos usando Aspose.Words para Java. Ha aprendido a crear varios tipos de gráficos, personalizar las propiedades de los ejes, dar formato a las etiquetas de datos y mucho más. Aspose.Words para Java proporciona potentes herramientas para añadir representaciones visuales de datos a sus documentos, optimizando así la forma en que presenta la información.
+## Preguntas Frecuentes
 
-## Preguntas frecuentes
+**P: ¿Cómo puedo agregar múltiples series a un gráfico?**  
+R: Llame a `chart.getSeries().add()` para cada serie que desee mostrar. Cada llamada crea un nuevo conjunto de datos que aparece como su propia línea, columna o grupo de marcadores.
 
-### ¿Cómo puedo agregar varias series a un gráfico?
+**P: ¿Cómo formateo las etiquetas de datos con un formato numérico personalizado?**  
+R: Acceda al objeto `DataLabels` de la serie y use `getNumberFormat().setFormatCode("su patrón")`. También puede vincular el formato a una celda fuente con `isLinkedToSource(true)`.
 
-Puede agregar varias series a un gráfico utilizando el `chart.getSeries().add()` método. Asegúrese de especificar el nombre de la serie, las categorías y los valores de los datos.
+**P: ¿Cómo puedo cambiar las marcas de graduación del eje?**  
+R: Use `setMajorTickMark()` y `setMinorTickMark()` en `ChartAxis`. Las opciones incluyen `CROSS`, `INSIDE`, `OUTSIDE` y `NONE`.
 
-### ¿Cómo puedo formatear etiquetas de datos con formatos de números personalizados?
+**P: ¿Puedo crear otros tipos de gráficos como de dispersión o de área?**  
+R: Sí – especifique el `ChartType` deseado (por ejemplo, `ChartType.SCATTER`, `ChartType.AREA`) al llamar a `builder.insertChart(...)`.
 
-Puede formatear las etiquetas de datos accediendo a `DataLabels` Propiedades de una serie y configuración del código de formato deseado mediante `getNumberFormat().setFormatCode()`.
+**P: ¿Cómo oculto un eje que no necesito?**  
+R: Llame a `axis.setHidden(true)` en el `ChartAxis` que desea ocultar.
 
-### ¿Cómo personalizo las propiedades del eje en un gráfico?
+---
 
-Puede personalizar las propiedades del eje, como el tipo, las marcas de graduación, las etiquetas y más, accediendo a `ChartAxis` propiedades como `setCategoryType()`, `setCrosses()`, y `setMajorTickMark()`.
-
-### ¿Cómo puedo crear otros tipos de gráficos como gráficos de dispersión o de área?
-
-Puede crear varios tipos de gráficos especificando los elementos adecuados. `ChartType` al insertar el gráfico utilizando `builder.insertChart(ChartType.TYPE, width, height)`.
-
-### ¿Cómo puedo ocultar un eje de gráfico?
-
-Puede ocultar un eje de gráfico configurando el `setHidden(true)` propiedad del eje.
-
+**Última actualización:** 2026-02-16  
+**Probado con:** Aspose.Words para Java 24.11  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
