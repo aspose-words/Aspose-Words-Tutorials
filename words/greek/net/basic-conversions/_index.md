@@ -37,6 +37,7 @@
 | [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
 | [πώς να δημιουργήσετε pdf από Word – Πλήρης Οδηγός C#](./how-to-create-pdf-from-word-complete-c-guide/) | Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
 | [Αποθήκευση docx ως pdf με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε αρχεία docx ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
+| [Αποθήκευση docx ως txt – Πλήρης Οδηγός για Εξαγωγή Εξισώσεων Word σε LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Μάθετε πώς να εξάγετε εξισώσεις Word σε LaTeX αποθηκεύοντας αρχεία DOCX ως TXT με το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,7 @@
 | [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为 PDF，提供完整的分步指南和代码示例。|
 | [如何从 Word 创建 PDF – 完整 C# 指南](./how-to-create-pdf-from-word-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档创建为 PDF，提供完整的分步指南和代码示例。|
 | [使用 Aspose.Words 将 Docx 保存为 PDF – 完整 C# 指南](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Docx 文档保存为 PDF，提供完整的分步指南和代码示例。|
+| [将 Docx 保存为 Txt – 导出 Word 方程为 LaTeX 完整指南](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | 学习如何使用 Aspose.Words for .NET 将 Docx 转换为 Txt，并导出 Word 中的数学公式为 LaTeX，提供完整步骤和代码示例。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

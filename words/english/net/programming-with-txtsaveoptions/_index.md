@@ -31,6 +31,7 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 | [Convert docx to txt – Complete Guide to Saving Word as Plain Text](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Learn how to convert DOCX to TXT using Aspose.Words for .NET with detailed steps and code examples. |
 | [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Learn how to convert DOCX files to plain text using Aspose.Words for .NET with a complete C# guide. |
 | [Save docx as txt – Quick Guide for C# Developers](./save-docx-as-txt-quick-guide-for-c-developers/) | Learn how to quickly convert DOCX files to TXT using Aspose.Words for .NET with C# code examples and key options. |
+| [Save docx as txt – Preserve Line Breaks & Spaces in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Learn how to save a DOCX as TXT while preserving line breaks and spaces using Aspose.Words for .NET in C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

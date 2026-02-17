@@ -74,7 +74,7 @@
 | [كيفية التقاط الخطوط في Aspose.Words – دليل كامل](./how-to-capture-fonts-in-aspose-words-complete-guide/) |تعرف على كيفية التقاط الخطوط في Aspose.Words من خلال دليل شامل خطوة بخطوة. |
 | [كيفية تحميل ملف DOCX واكتشاف الخطوط المفقودة – دليل C# كامل](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) |تعلم كيفية تحميل مستندات DOCX واكتشاف الخطوط المفقودة باستخدام Aspose.Words لـ .NET في دليل C# خطوة بخطوة. |
 | [تمكين تحذيرات استبدال الخط في Aspose.Words – دليل شامل](./enable-font-substitution-warnings-in-aspose-words-complete-g/) |تعلم كيفية تمكين إشعارات التحذير عند استبدال الخطوط في مستندات Word باستخدام Aspose.Words. |
-
+| [c# تحميل مستند Word – اكتشاف ومعالجة الخطوط المفقودة](./c-load-word-document-detect-handle-missing-fonts/) |تعلم كيفية تحميل مستند Word واكتشاف الخطوط المفقودة ومعالجتها باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

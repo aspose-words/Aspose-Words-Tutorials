@@ -30,6 +30,7 @@ Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olara
 | [docx'i txt'ye Dönüştür – Düz Metin Olarak Word Kaydetme Tam Kılavuzu](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Aspose.Words for .NET kullanarak docx dosyalarını düz metin (txt) formatına nasıl dönüştüreceğinizi öğrenin. |
 | [Belgeyi TXT Olarak Kaydet – DOCX'i Düz Metne Dönüştürmek İçin Tam C# Kılavuzu](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aspose.Words for .NET kullanarak DOCX dosyalarını düz metin (TXT) formatına dönüştürmeyi adım adım gösteren kapsamlı C# rehberi. |
 | [docx'i txt olarak kaydet – C# geliştiricileri için hızlı rehber](./save-docx-as-txt-quick-guide-for-c-developers/) | C# ile docx dosyalarını txt formatına hızlıca dönüştürmeyi gösteren adım adım rehber. |
+| [C#'ta docx'i txt olarak kaydet – Satır Sonlarını ve Boşlukları Koru](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Aspose.Words for .NET kullanarak docx dosyalarını txt formatına dönüştürürken satır sonları ve boşlukların korunmasını gösteren adım adım kılavuz. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Spara Word som PDF med Aspose.Words – Komplett C#-guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
 | [Skapa PDF från Word – Komplett C#‑guide](./how-to-create-pdf-from-word-complete-c-guide/) | Lär dig hur du skapar PDF från Word med en komplett C#‑guide. |
 | [Spara docx som PDF med Aspose.Words – Komplett C#-guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar DOCX-filer som PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
+| [Spara docx som txt – Komplett guide för att exportera Word‑ekvationer som LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Lär dig hur du sparar DOCX som TXT och exporterar ekvationer till LaTeX med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,6 +30,7 @@
 | [Конвертация docx в txt – Полное руководство по сохранению Word в виде простого текста](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Узнайте, как конвертировать документы DOCX в TXT с помощью Aspose.Words для .NET, используя полное руководство и примеры кода. |
 | [Сохранить документ как TXT – Полное руководство C# по конвертации DOCX в простой текст](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Узнайте, как сохранять документы Word в формате TXT с помощью Aspose.Words для .NET и C#. |
 | [Сохранить docx как txt – Быстрое руководство для разработчиков C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Узнайте, как быстро сохранить документ DOCX в формате TXT с помощью Aspose.Words для .NET на C#. |
+| [Сохранить docx как txt – Сохранить разрывы строк и пробелы в C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Узнайте, как сохранять документы docx в формате txt, сохраняя разрывы строк и пробелы, используя Aspose.Words для .NET и C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

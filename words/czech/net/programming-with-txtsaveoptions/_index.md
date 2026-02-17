@@ -30,7 +30,7 @@ Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro 
 | [Převod docx na txt – Kompletní průvodce ukládáním Wordu jako prostý text](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Naučte se, jak převést soubory DOCX na prostý text TXT pomocí Aspose.Words pro .NET. |
 | [Uložení dokumentu jako TXT – Kompletní průvodce C# pro převod DOCX na prostý text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Naučte se, jak pomocí Aspose.Words pro .NET převést soubory DOCX do formátu TXT pomocí kompletního C# průvodce. |
 | [Uložení docx jako txt – Rychlý průvodce pro vývojáře C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Naučte se rychle převést soubory DOCX do formátu TXT pomocí Aspose.Words pro .NET v C#. |
-
+| [Uložení docx jako txt – Zachování konců řádků a mezer v C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Naučte se, jak uložit soubor docx jako txt a zachovat konce řádků a mezery pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

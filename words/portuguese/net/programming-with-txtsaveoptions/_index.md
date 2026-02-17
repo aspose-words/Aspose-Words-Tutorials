@@ -28,9 +28,9 @@ Graças a estes tutoriais, você poderá explorar ao máximo as funcionalidades 
 | [Use o caractere de tabulação por nível para recuo de lista](./use-tab-character-per-level-for-list-indentation/) | Aprenda a criar listas multinível com recuo por tabulação usando o Aspose.Words para .NET. Siga este guia para obter uma formatação precisa de listas em seus documentos. |
 | [Use caractere de espaço por nível para recuo de lista](./use-space-character-per-level-for-list-indentation/) | Aprenda a criar listas multinível com recuo de caracteres de espaço no Aspose.Words para .NET. Guia passo a passo para formatação precisa de documentos. |
 | [Converter docx para txt – Guia completo para salvar Word como texto simples](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Aprenda a converter documentos DOCX em arquivos TXT usando Aspose.Words para .NET, com opções avançadas de formatação e codificação. |
-
 | [Salvar documento como TXT – Guia completo em C# para converter DOCX em texto simples](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aprenda a converter arquivos DOCX em texto puro usando Aspose.Words para .NET com um guia passo a passo em C#. |
 | [Salvar docx como txt – Guia rápido para desenvolvedores C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Aprenda a converter arquivos DOCX em TXT rapidamente usando Aspose.Words para .NET, com exemplos práticos para desenvolvedores C#. |
+| [Salvar docx como txt – Preservar Quebras de Linha e Espaços em C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Aprenda a salvar documentos DOCX como arquivos TXT preservando quebras de linha e espaços usando C# e Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
