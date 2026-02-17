@@ -31,7 +31,9 @@
 | [docx를 markdown으로 저장 – 이미지 추출 포함 전체 C# 가이드](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 docx 파일을 markdown으로 변환하는 전체 C# 가이드 |
 | [Word에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 내보내는 전체 C# 가이드 |
 | [DOCX에서 Markdown 저장 방법 – 단계별 가이드](./how-to-save-markdown-from-docx-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 저장하는 단계별 가이드를 제공합니다. |
+| [Markdown 저장 방법 – 전체 C# 가이드](./how-to-save-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Markdown을 저장하는 전체 C# 가이드를 제공합니다. |
 | [DOCX에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-docx-complete-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 내보내는 전체 C# 가이드 |
+| [docx를 markdown으로 저장 및 이미지 추출 – C# 가이드](./save-docx-as-markdown-extract-images-c-guide/) | Aspose.Words for .NET을 사용해 docx 파일을 markdown으로 변환하고 이미지 추출까지 수행하는 단계별 C# 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
