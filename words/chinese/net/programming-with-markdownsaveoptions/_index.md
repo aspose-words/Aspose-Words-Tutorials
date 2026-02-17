@@ -39,6 +39,10 @@
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。
 
+### [将 docx 保存为 markdown 并提取图像 – C# 指南](./save-docx-as-markdown-extract-images-c-guide/)
+
+使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。
+
 ### [如何从 Word 导出 Markdown – 完整 C# 指南](./how-to-export-markdown-from-word-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
@@ -50,6 +54,10 @@
 ### [如何从 DOCX 导出 Markdown – 完整 C# 指南](./how-to-export-markdown-from-docx-complete-guide/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
+
+### [如何保存 Markdown – 完整 C# 指南](./how-to-save-markdown-complete-c-guide/)
+
+使用 Aspose.Words for .NET 将文档保存为 Markdown，提供完整的 C# 示例和分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,7 @@
 | [字体设置默认实例](./font-settings-default-instance/) 在本教程中，学习如何使用 Aspose.Words for .NET 在 Word 文档中配置默认字体设置。|
 | [获取可用字体列表](./get-list-of-available-fonts/) 在本详细分步教程中，了解如何使用 Aspose.Words for .NET 获取可用字体列表。提升您的字体管理技能。|
 | [接收字体通知](./receive-notifications-of-fonts/) 了解如何在使用 Aspose.Words for .NET 时接收丢失或替换的字体通知。|
+| [c# 加载 Word 文档 – 检测并处理缺失字体](./c-load-word-document-detect-handle-missing-fonts/) 了解如何使用 Aspose.Words for .NET 在加载 Word 文档时检测并处理缺失的字体。|
 | [接收警告通知](./receive-warning-notification/) 了解如何在使用 Aspose.Words for .NET 时接收警告通知并管理文档中的任何问题或警告。|
 | [资源 Steam 字体源示例](./resource-steam-font-source-example/) 了解如何使用资源流字体源将自定义字体加载到 Aspose.Words for .NET 中。|
 | [获取不带后缀的替换](./get-substitution-without-suffixes/) 在本教程中，学习如何使用 Aspose.Words for .NET 在 Word 文档中获取无后缀覆盖。|

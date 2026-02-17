@@ -42,6 +42,10 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [حفظ docx كـ markdown واستخراج الصور – دليل C#](./save-docx-as-markdown-extract-images-c-guide/)
+
+### [كيفية حفظ Markdown – دليل C# كامل](./how-to-save-markdown-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
