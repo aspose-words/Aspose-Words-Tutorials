@@ -83,6 +83,24 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
+### [Converti DOCX in PDF con esportazione di forme in linea – Guida passo‑passo](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Converti documenti DOCX in PDF mantenendo le forme in linea, con esempi di codice passo‑passo.
+
+### [Salva docx come markdown in Java – Guida completa passo‑step‑by‑step](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Impara a convertire documenti DOCX in formato Markdown usando Aspose.Words per Java con esempi pratici passo‑passo.
+
+### [Crea markdown da documento – Esporta e salva immagini](./create-markdown-from-document-export-and-save-images/)
+Impara a generare file markdown da un documento Word e a esportare le immagini incorporate con Aspose.Words per Java.
+
+### [Come esportare LaTeX da DOCX – Guida alla conversione da Word a TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Scopri come convertire documenti DOCX in file di testo LaTeX usando Aspose.Words per Java, passo‑passo con esempi di codice.
+
+### [Creare PDF UA in Java – Guida completa](./create-pdf-ua-in-java-complete-guide/)
+Scopri come generare PDF conformi a PDF/UA in Java con Aspose.Words, passo‑passo con esempi di codice.
+
+### [Come recuperare DOCX, esportare in Markdown e PDF/UA – Guida completa Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Scopri come ripristinare documenti DOCX danneggiati, convertirli in Markdown e generare PDF/UA con Aspose.Words per Java.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

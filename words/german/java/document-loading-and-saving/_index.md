@@ -88,11 +88,17 @@ Lernen Sie, wie Sie HTML‑Dokumente in Java mit Aspose.Words für Java laden un
 ### [Arbeiten mit Ladeoptionen in Aspose.Words für Java](./using-load-options/)
 Meistern Sie Ladeoptionen in Aspose.Words für Java. Passen Sie das Laden von Dokumenten an, behandeln Sie Verschlüsselungen, konvertieren Sie Shapes, setzen Sie Word‑Versionen und mehr für effiziente Java‑Dokumentenverarbeitung.
 
+### [Ladeoptionen in Java erstellen – Fehlende Schriftarten erkennen & DOCX laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Lernen Sie, wie Sie Ladeoptionen konfigurieren, fehlende Schriftarten erkennen und DOCX-Dateien korrekt laden.
+
 ### [Konfigurieren von RTF‑Ladeoptionen in Aspose.Words für Java](./configuring-rtf-load-options/)
 Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie Sie UTF‑8‑Text in RTF‑Dokumenten erkennen. Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
 
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
+
+### [Wie man DOCX wiederherstellt – Beschädigte Dateien mit Wiederherstellungsoptionen laden](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Lernen Sie, beschädigte DOCX-Dateien zu laden und mit Wiederherstellungsoptionen zu reparieren.
 
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.

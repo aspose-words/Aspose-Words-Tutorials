@@ -94,6 +94,21 @@ Naučte se přidávat vodoznaky do dokumentů v Aspose.Words for Java. Přizpůs
 ### [Formátování tabulek a stylů tabulek v Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java. Prozkoumejte krok‑za‑krokem průvodce se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení vašich dokumentů s Aspose.Words.
 
+### [Jak exportovat LaTeX z DOCX – Průvodce převodem Word do TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Naučte se exportovat LaTeX z DOCX a převést Word do TXT pomocí Aspose.Words for Java.
+
+### [Převod DOCX na PDF s exportem vložených tvarů – krok za krokem](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Naučte se, jak převést DOCX na PDF a zachovat vložené tvary pomocí Aspose.Words for Java v podrobném průvodci.
+
+### [Vytvořit markdown z dokumentu – Export a uložení obrázků](./create-markdown-from-document-export-and-save-images/)
+Naučte se převést dokument do markdownu a exportovat a uložit vložené obrázky pomocí Aspose.Words for Java.
+
+### [Vytvořit PDF UA v Javě – kompletní průvodce](./create-pdf-ua-in-java-complete-guide/)
+Naučte se vytvořit PDF s podporou ukrajinských znaků v Javě pomocí Aspose.Words, včetně nastavení kódování a formátování.
+
+### [Jak obnovit DOCX, exportovat do Markdown a PDF/UA – kompletní průvodce pro Javu](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Naučte se obnovit poškozené DOCX soubory a exportovat je do Markdownu a PDF/UA pomocí Aspose.Words for Java.
+
 ## Často kladené otázky
 
 **Q: Jak přidám vodoznak do existujícího PDF pomocí Aspose.Words?**  

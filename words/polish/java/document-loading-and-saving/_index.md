@@ -88,6 +88,9 @@ Dowiedz się, jak ładować i zapisywać dokumenty HTML w Javie przy użyciu Asp
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumentów, obsługuj szyfrowanie, konwertuj kształty, ustaw wersje Word i wiele więcej dla efektywnego przetwarzania dokumentów w Javie.
 
+### [Utwórz Opcje Ładowania w Javie – Wykryj Brakujące Czcionki i Jak Ładować DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Dowiedz się, jak tworzyć opcje ładowania w Javie, wykrywać brakujące czcionki i prawidłowo ładować pliki DOCX przy użyciu Aspose.Words.
+
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Konfigurowanie opcji ładowania RTF w Aspose.Words for Java. Dowiedz się, jak rozpoznawać tekst UTF‑8 w dokumentach RTF. Przewodnik krok po kroku z przykładami kodu.
 
@@ -129,6 +132,9 @@ Zapisywanie dokumentów jako pliki tekstowe w Aspose.Words for Java. Dowiedz si�
 
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywać formaty dokumentów w Javie przy użyciu Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki efektywnie.
+
+### [Jak odzyskać DOCX – Ładowanie uszkodzonych plików z opcjami odzyskiwania](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Dowiedz się, jak wczytać uszkodzony plik DOCX i odzyskać jego zawartość przy użyciu opcji odzyskiwania w Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

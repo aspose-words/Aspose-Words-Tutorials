@@ -81,10 +81,22 @@ Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. O
 ### [Java용 Aspose.Words에서 문서 모양 사용](./using-document-shapes/)
 
 ### [Java용 Aspose.Words에서 문서에 워터마크 사용](./using-watermarks-to-documents/)
-Aspose.Words for Java로 문서에 워터마크를 추가하는 방법. 텍스트 및 이미지 워터마크를 맞춤 설정하여 전문적인 문서를 만들 수 있습니다.
 
 ### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
 Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테이블 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
+
+### [Java에서 docx를 마크다운으로 저장 – 단계별 완전 가이드](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+
+### [문서에서 마크다운 만들기 – 이미지 내보내기 및 저장](./create-markdown-from-document-export-and-save-images/)
+
+### [DOCX에서 LaTeX 내보내기 방법 – Word를 TXT로 변환 가이드](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+
+### [인라인 도형 내보내기를 포함한 DOCX를 PDF로 변환 – 단계별 가이드](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+
+### [Java에서 PDF/UA 생성 – 완전 가이드](./create-pdf-ua-in-java-complete-guide/)
+
+### [Java에서 DOCX 복구 및 마크다운·PDF/UA 내보내기 – 완전 가이드](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+손상된 DOCX 파일을 복구하고, 마크다운과 PDF/UA 형식으로 내보내는 전체 과정과 코드를 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

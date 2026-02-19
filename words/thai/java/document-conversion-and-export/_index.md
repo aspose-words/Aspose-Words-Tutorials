@@ -88,6 +88,24 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
+### [บันทึก docx เป็น markdown ใน Java – คู่มือขั้นตอนเต็ม](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java อย่างละเอียด พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอน.
+
+### [สร้าง markdown จากเอกสาร – ส่งออกและบันทึกรูปภาพ](./create-markdown-from-document-export-and-save-images/)
+สร้างไฟล์ markdown จากเอกสารและบันทึกรูปภาพที่ฝังอยู่ด้วย Aspose.Words for Java อย่างละเอียด
+
+### [วิธีส่งออก LaTeX จาก DOCX – คู่มือแปลง Word เป็น TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็นไฟล์ LaTeX หรือ TXT ด้วย Aspose.Words for Java อย่างละเอียดในขั้นตอนเดียว.
+
+### [แปลง DOCX เป็น PDF พร้อมการส่งออก Inline Shape – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+เรียนรู้วิธีแปลง DOCX เป็น PDF พร้อมส่งออก Inline Shape ด้วย Aspose.Words for Java ในคู่มือขั้นตอนเต็มนี้.
+
+### [สร้าง PDF UA ด้วย Java – คู่มือเต็ม](./create-pdf-ua-in-java-complete-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF UA ใน Java อย่างละเอียดด้วย Aspose.Words พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอน.
+
+### [วิธีกู้คืน DOCX, ส่งออกเป็น Markdown และ PDF/UA – คู่มือ Java ฉบับเต็ม](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายและส่งออกเป็น Markdown หรือ PDF/UA ด้วย Aspose.Words for Java อย่างละเอียด.
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันจะเพิ่มลายน้ำให้กับ PDF ที่มีอยู่โดยใช้ Aspose.Words อย่างไร?**  

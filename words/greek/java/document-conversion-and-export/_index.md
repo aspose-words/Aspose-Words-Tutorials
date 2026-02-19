@@ -81,10 +81,30 @@ weight: 22
 Αποκτήστε τη Δύναμη των Σχημάτων Εγγράφου στο Aspose.Words for Java. Μάθετε να δημιουργείτε οπτικά ελκυστικά έγγραφα με παραδείγματα βήμα‑βήμα.
 
 ### [Χρήση Υδατογραφημάτων σε Έγγραφα στο Aspose.Words for Java](./using-watermarks-to-documents/)
-Μάθετε πώς να προσθέτετε υδατογραφήματα σε έγγραφα στο Aspose.Words for Java. Προσαρμόστε υδατογραφήματα κειμένου και εικόνας για επαγγελματικά έγγραφα.
+Μάθετε πώς να προσθέτετε υδατογραφήματα σε έγγραφα στο Aspose.Words for Java. Προσαρμόστε υδ
+
+ατογραφήματα κειμένου και εικόνας για επαγγελματικά έγγραφα.
 
 ### [Μορφοποίηση Πινάκων και Στυλ Πινάκων στο Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words for Java. Εξερευνήστε οδηγούς βήμα‑βήμα με κώδικα προέλευσης για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
+
+### [Αποθήκευση docx ως markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, με πλήρη βήματα και παραδείγματα κώδικα.
+
+### [Create markdown from document – Export and save images](./create-markdown-from-document-export-and-save-images/)
+Μάθετε πώς να μετατρέψετε έγγραφα σε markdown και να αποθηκεύσετε τις ενσωματωμένες εικόνες χρησιμοποιώντας Aspose.Words for Java.
+
+### [Πώς να εξάγετε LaTeX από DOCX – Οδηγός Μετατροπής Word σε TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Μάθετε πώς να εξάγετε περιεχόμενο LaTeX από αρχεία DOCX και να το μετατρέψετε σε αρχείο TXT χρησιμοποιώντας Aspose.Words for Java.
+
+### [Μετατροπή DOCX σε PDF με εξαγωγή ενσωματωμένου σχήματος – Οδηγός βήμα‑βήμα](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF διατηρώντας τα ενσωματωμένα σχήματα, με πλήρη βήμα‑βήμα οδηγίες.
+
+### [Δημιουργία PDF UA σε Java – Πλήρης Οδηγός](./create-pdf-ua-in-java-complete-guide/)
+Μάθετε πώς να δημιουργήσετε PDF με υποστήριξη UA σε Java χρησιμοποιώντας Aspose.Words, βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+
+### [Πώς να Ανακτήσετε DOCX, Εξαγωγή σε Markdown & PDF/UA – Πλήρης Οδηγός Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Μάθετε πώς να ανακτήσετε αρχεία DOCX, να τα μετατρέψετε σε Markdown και PDF/UA χρησιμοποιώντας Aspose.Words for Java.
 
 ## Συχνές Ερωτήσεις
 

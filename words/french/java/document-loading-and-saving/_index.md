@@ -88,6 +88,9 @@ Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words 
 ### [Travailler avec les options de chargement dans Aspose.Words for Java](./using-load-options/)
 Maîtrisez les options de chargement dans Aspose.Words for Java. Personnalisez le chargement de documents, gérez le chiffrement, convertissez les formes, définissez les versions Word, et plus encore pour un traitement efficace des documents Java.
 
+### [Créer des options de chargement en Java – Détecter les polices manquantes et comment charger un DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Apprenez à créer des LoadOptions pour détecter les polices manquantes et charger correctement les fichiers DOCX avec Aspose.Words for Java.
+
 ### [Configuration des options de chargement RTF dans Aspose.Words for Java](./configuring-rtf-load-options/)
 Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez à reconnaître le texte UTF‑8 dans les documents RTF. Guide étape par étape avec des exemples de code.
 
@@ -129,6 +132,9 @@ Apprenez à enregistrer des documents au format texte avec Aspose.Words for Java
 
 ### [Détermination du format de document avec Aspose.Words for Java](./determining-document-format/)
 Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identifiez DOC, DOCX, et plus encore. Organisez vos fichiers efficacement.
+
+### [Comment récupérer un DOCX – Charger des fichiers corrompus avec les options de récupération](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Apprenez à charger des fichiers DOCX corrompus et à récupérer le contenu grâce aux options de récupération d'Aspose.Words for Java.
 
 ## Foire aux questions
 

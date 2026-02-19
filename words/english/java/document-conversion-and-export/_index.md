@@ -78,7 +78,6 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
@@ -86,6 +85,24 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [Save docx as markdown in Java – Complete Step‑by‑Step Guide](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Learn how to convert DOCX files to Markdown using Aspose.Words for Java with a detailed, step‑by‑step example.
+
+### [how to export latex from DOCX – Convert Word to TXT Guide](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Export LaTeX from DOCX using Aspose.Words for Java. Learn how to convert Word documents to LaTeX/TXT format in this step‑by‑step guide.
+
+### [Convert DOCX to PDF with Inline Shape Export – Step‑by‑Step Guide](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Learn how to convert DOCX to PDF while preserving inline shapes using Aspose.Words for Java in a detailed step‑by‑step guide.
+
+### [Create markdown from document – Export and save images](./create-markdown-from-document-export-and-save-images/)
+Learn how to convert a document to markdown while extracting and saving embedded images using Aspose.Words for Java.
+
+### [Create PDF UA in Java – Complete Guide](./create-pdf-ua-in-java-complete-guide/)
+Create PDF/UA compliant documents in Java using Aspose.Words. Step‑by‑step guide covering setup, conversion, and validation.
+
+### [How to Recover DOCX, Export to Markdown & PDF/UA – Complete Java Guide](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Learn how to recover corrupted DOCX files, convert them to Markdown, and generate PDF/UA compliant documents using Aspose.Words for Java.
 
 ## Frequently Asked Questions
 

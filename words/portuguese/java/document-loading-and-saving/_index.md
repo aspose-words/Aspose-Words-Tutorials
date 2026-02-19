@@ -84,6 +84,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 
 ### [Carregando e Salvando Documentos HTML com Aspose.Words for Java](./loading-and-saving-html-documents/)
 ### [Trabalhando com Opções de Carregamento no Aspose.Words for Java](./using-load-options/)
+### [Criar Opções de Carregamento em Java – Detectar Fontes Ausentes e Como Carregar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 ### [Configurando Opções de Carregamento RTF no Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [Carregando Arquivos de Texto com Aspose.Words for Java](./loading-text-files/)
 ### [Opções Avançadas de Salvamento com Aspose.Words for Java](./advance-saving-options/)
@@ -98,6 +99,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Salvando Documentos no Formato RTF no Aspose.Words for Java](./saving-documents-as-rtf-format/)
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
+### [Como Recuperar DOCX – Carregar Arquivos Corrompidos com Opções de Recuperação](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ## Perguntas Frequentes
 

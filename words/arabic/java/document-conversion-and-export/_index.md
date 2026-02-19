@@ -95,6 +95,24 @@ weight: 22
 ### [تنسيق الجداول وأنماط الجداول في Aspose.Words for Java](./formatting-tables-and-table-styles/)
 تعلم كيفية تنسيق الجداول وتطبيق أنماط الجداول في Aspose.Words for Java. استكشف أدلة خطوة بخطوة مع الشيفرة المصدرية لتنسيق فعال للجداول. حسّن تخطيط مستندك باستخدام Aspose.Words.
 
+### [حفظ ملف docx كـ markdown في Java – دليل شامل خطوة بخطوة](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+تعلم كيفية حفظ مستندات DOCX كملفات Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [كيفية تصدير LaTeX من DOCX – دليل تحويل Word إلى TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+تعلم كيفية استخراج محتوى LaTeX من ملفات DOCX وتحويله إلى صيغة TXT باستخدام Aspose.Words for Java.
+
+### [تحويل DOCX إلى PDF مع تصدير الشكل المضمن – دليل خطوة بخطوة](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+تعلم تحويل ملفات DOCX إلى PDF مع تصدير الأشكال المضمنة خطوة بخطوة باستخدام Aspose.Words for Java.
+
+### [إنشاء ملف markdown من المستند – تصدير وحفظ الصور](./create-markdown-from-document-export-and-save-images/)
+تعلم كيفية تحويل مستند إلى تنسيق markdown وتصدير الصور المضمنة وحفظها خطوة بخطوة باستخدام Aspose.Words for Java.
+
+### [إنشاء PDF UA في Java – دليل شامل](./create-pdf-ua-in-java-complete-guide/)
+دليل شامل لإنشاء ملفات PDF UA باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [كيفية استعادة ملف DOCX وتصديره إلى Markdown & PDF/UA – دليل Java شامل](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+تعلم استعادة ملفات DOCX التالفة وتصديرها إلى Markdown وPDF/UA باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

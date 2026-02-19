@@ -88,6 +88,8 @@ Ismerje meg, hogyan töltsön be és mentse a HTML dokumentumokat Java‑ban az 
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
 Load Options mesterfogásai az Aspose.Words for Java‑ban. Testreszabott dokumentumbetöltés, titkosítás kezelése, alakzatok konvertálása, Word verziók beállítása és még sok más a hatékony Java dokumentumfeldolgozáshoz.
 
+### [Load Options létrehozása Java-ban – Hiányzó betűtípusok észlelése és DOCX betöltése](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
 RTF Load Options konfigurálása az Aspose.Words for Java‑ban. Tanulja meg, hogyan ismerje fel az UTF‑8 szöveget RTF dokumentumokban. Lépésről‑lépésre útmutató kódrészletekkel.
 
@@ -129,6 +131,8 @@ Tanulja meg, hogyan mentse a dokumentumokat szövegfájlokként az Aspose.Words 
 
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
 Tanulja meg, hogyan ismerje fel a dokumentumformátumokat Java‑ban az Aspose.Words‑szal. Azonosítsa a DOC, DOCX és egyéb formátumokat. Hatékony fájlkezelés.
+
+### [Hogyan állítsuk helyre a DOCX-et – Sérült fájlok betöltése helyreállítási beállításokkal](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ## Gyakran Ismételt Kérdések
 
