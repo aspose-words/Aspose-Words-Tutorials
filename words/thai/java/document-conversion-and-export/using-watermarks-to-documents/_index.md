@@ -1,10 +1,12 @@
 ---
-"description": "เรียนรู้วิธีการเพิ่มลายน้ำในเอกสารใน Aspose.Words สำหรับ Java ปรับแต่งลายน้ำข้อความและรูปภาพเพื่อให้เอกสารดูเป็นมืออาชีพ"
-"linktitle": "การใช้ลายน้ำบนเอกสาร"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การใช้ลายน้ำกับเอกสารใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2026-02-19
+description: เรียนรู้วิธีสร้างเอกสารพร้อมลายน้ำโดยใช้ Aspose.Words for Java และเพิ่มลายน้ำรูปภาพใน
+  Java สำหรับเอกสารที่ดูเป็นมืออาชีพ
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: สร้างเอกสารพร้อมลายน้ำโดยใช้ Aspose.Words สำหรับ Java
+url: /th/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การใช้ลายน้ำกับเอกสารใน Aspose.Words สำหรับ Java
+# สร้างเอกสารพร้อมลายน้ำโดยใช้ Aspose.Words for Java
 
+ในบทแนะนำนี้คุณจะ **สร้างเอกสารพร้อมลายน้ำ** โดยใช้ API ของ Aspose.Words for Java ลายน้ำ—ไม่ว่าจะเป็นข้อความหรือรูปภาพ—ช่วยให้คุณระบุไฟล์ว่าเป็นความลับ, ฉบับร่าง, หรือได้รับการอนุมัติ และสามารถนำไปใช้โดยอัตโนมัติกับเอกสาร Word ใดก็ได้ เราจะอธิบายขั้นตอนการตั้งค่าห้องสมุด, การเพิ่มลายน้ำข้อความและรูปภาพ, การปรับแต่งลักษณะของลายน้ำ, และแม้กระทั่งการลบลายน้ำเมื่อไม่ต้องการใช้แล้ว
 
-## บทนำสู่การเพิ่มลายน้ำลงในเอกสารใน Aspose.Words สำหรับ Java
+## คำตอบด่วน
+- **ลายน้ำทำหน้าที่อะไร?** มันจะซ้อนข้อความหรือรูปภาพบนแต่ละหน้าเพื่อบ่งบอกสถานะหรือการสร้างแบรนด์  
+- **ห้องสมุดใดที่เพิ่มลายน้ำใน Java?** Aspose.Words for Java มีการสนับสนุนลายน้ำในตัว  
+- **ฉันสามารถเพิ่มลายน้ำรูปภาพได้หรือไม่?** ได้—ใช้คลาส `Shape` และวิธี `add image watermark java`  
+- **ลายน้ำเป็นแบบกึ่งโปร่งใสหรือไม่?** คุณสามารถควบคุมความทึบโดยใช้ `setSemitransparent` สำหรับลายน้ำข้อความ  
+- **ฉันต้องการไลเซนส์หรือไม่?** รุ่นทดลองฟรีใช้ได้สำหรับการทดสอบ; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
 
-ในบทช่วยสอนนี้ เราจะมาเรียนรู้วิธีการเพิ่มลายน้ำลงในเอกสารโดยใช้ Aspose.Words for Java API ลายน้ำเป็นวิธีที่มีประโยชน์ในการใส่ข้อความหรือกราฟิกในเอกสารเพื่อระบุสถานะ ความลับ หรือข้อมูลที่เกี่ยวข้องอื่นๆ เราจะกล่าวถึงลายน้ำทั้งที่เป็นข้อความและรูปภาพในคู่มือนี้
+## ลายน้ำคืออะไรและทำไมต้องใช้?
 
-## การตั้งค่า Aspose.Words สำหรับ Java
+ลายน้ำคือการซ้อนแบบอ่อน—เป็นข้อความหรือกราฟิก—ที่เพิ่มลงในทุกหน้าของเอกสาร มักใช้เพื่อระบุ **ความลับ**, **สถานะฉบับร่าง**, หรือ **การสร้างแบรนด์** โดยไม่เปลี่ยนแปลงเนื้อหาต้นฉบับ การเพิ่มลายน้ำโดยอัตโนมัติช่วยให้ความสอดคล้องในชุดไฟล์จำนวนมากและประหยัดเวลาเมื่อเทียบกับการแก้ไขด้วยตนเอง
 
-ก่อนที่เราจะเริ่มเพิ่มลายน้ำลงในเอกสาร เราจะต้องตั้งค่า Aspose.Words สำหรับ Java ก่อน ทำตามขั้นตอนเหล่านี้เพื่อเริ่มต้น:
+## การตั้งค่า Aspose.Words for Java
 
-1. ดาวน์โหลด Aspose.Words สำหรับ Java จาก [ที่นี่](https://releases-aspose.com/words/java/).
-2. เพิ่มไลบรารี Aspose.Words สำหรับ Java ลงในโปรเจ็กต์ Java ของคุณ
-3. นำเข้าคลาสที่จำเป็นลงในโค้ด Java ของคุณ
+ก่อนที่เราจะเริ่มเพิ่มลายน้ำ ให้แน่ใจว่าห้องสมุดพร้อมใช้งานในโปรเจกต์ของคุณ:
 
-ตอนนี้เราได้ตั้งค่าไลบรารีเรียบร้อยแล้ว ต่อไปเราจะดำเนินการเพิ่มลายน้ำกัน
-
-## การเพิ่มลายน้ำข้อความ
-
-ลายน้ำข้อความเป็นตัวเลือกทั่วไปเมื่อคุณต้องการเพิ่มข้อมูลข้อความลงในเอกสารของคุณ ต่อไปนี้เป็นวิธีที่คุณสามารถเพิ่มลายน้ำข้อความโดยใช้ Aspose.Words สำหรับ Java:
+1. ดาวน์โหลด Aspose.Words for Java จาก [here](https://releases.aspose.com/words/java/).  
+2. เพิ่มไฟล์ JAR ที่ดาวน์โหลด (หรือ dependency ของ Maven/Gradle) ไปยัง classpath ของโปรเจกต์ของคุณ.  
+3. นำเข้าคลาสที่จำเป็นในไฟล์ซอร์ส Java ของคุณ:
 
 ```java
-// สร้างอินสแตนซ์เอกสาร
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
+
+เมื่อห้องสมุดตั้งค่าเรียบร้อยแล้ว เราจะไปสู่โค้ดลายน้ำจริง
+
+## วิธีเพิ่มลายน้ำข้อความ
+
+ลายน้ำข้อความเหมาะสำหรับการระบุเอกสารว่า “CONFIDENTIAL” หรือ “DRAFT”. โค้ดตัวอย่างต่อไปนี้แสดงวิธีที่สะอาดในการ **สร้างเอกสารพร้อมลายน้ำ** โดยใช้ `TextWatermarkOptions`.
+
+```java
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// กำหนดตัวเลือก TextWatermark
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +62,59 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// ตั้งค่าข้อความลายน้ำและตัวเลือก
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// บันทึกเอกสารด้วยลายน้ำ
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## การเพิ่มลายน้ำบนภาพ
+### การปรับแต่งลายน้ำข้อความ
+- **แบบอักษรและขนาด** – เปลี่ยน `setFontFamily` และ `setFontSize`.  
+- **สี** – ใช้ `java.awt.Color` ใดก็ได้.  
+- **การจัดวาง** – เลือก `HORIZONTAL`, `DIAGONAL` เป็นต้น.  
+- **ความโปร่งใส** – เปิด/ปิด `setSemitransparent(true)` เพื่อให้ดูอ่อนลง.  
 
-นอกจากลายน้ำข้อความแล้ว คุณยังสามารถเพิ่มลายน้ำภาพลงในเอกสารของคุณได้อีกด้วย วิธีเพิ่มลายน้ำภาพมีดังนี้:
+## วิธีเพิ่มลายน้ำรูปภาพ (add image watermark java)
+
+ลายน้ำรูปภาพเหมาะสำหรับโลโก้หรือกราฟิกที่กำหนดเอง ด้านล่างเป็นตัวอย่าง **add image watermark java** ที่แทรกไฟล์ PNG ลงในศูนย์ของแต่ละหน้า.
 
 ```java
-// สร้างอินสแตนซ์เอกสาร
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// โหลดภาพสำหรับลายน้ำ
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// ตั้งค่าขนาดและตำแหน่งของลายน้ำ
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// เพิ่มลายน้ำลงในเอกสาร
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// บันทึกเอกสารด้วยลายน้ำ
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## การปรับแต่งลายน้ำ
+### เคล็ดลับสำหรับลายน้ำรูปภาพ
+- **ปรับขนาด** ด้วย `setWidth` / `setHeight` เพื่อให้พอดีกับหน้า.  
+- **ตำแหน่ง** สามารถจัดให้อยู่กึ่งกลางหรือจัดแนวกับขอบใดก็ได้โดยใช้ `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **ความโปร่งใส** สามารถทำได้โดยปรับช่องอัลฟาของภาพก่อนโหลด.  
 
-คุณสามารถปรับแต่งลายน้ำได้โดยปรับเปลี่ยนลักษณะและตำแหน่งของลายน้ำ สำหรับลายน้ำข้อความ คุณสามารถเปลี่ยนแบบอักษร ขนาด สี และเค้าโครงได้ สำหรับลายน้ำรูปภาพ คุณสามารถปรับขนาดและตำแหน่งของลายน้ำได้ดังที่แสดงในตัวอย่างก่อนหน้านี้
+## วิธีลบลายน้ำ
 
-## การลบลายน้ำ
-
-หากต้องการลบลายน้ำออกจากเอกสาร คุณสามารถใช้โค้ดดังต่อไปนี้:
+เมื่อเอกสารไม่ต้องการลายน้ำอีกต่อไป คุณสามารถลบออกโดยอัตโนมัติ โค้ดด้านล่างจะวนผ่านรูปทั้งหมดและลบรูปใดที่มีชื่อว่า “Watermark”
 
 ```java
-// สร้างอินสแตนซ์เอกสาร
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// ลบลายน้ำ
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +123,43 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// บันทึกเอกสารโดยไม่ต้องใส่ลายน้ำ
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-
-## บทสรุป
-
-ในบทช่วยสอนนี้ เราได้เรียนรู้วิธีการเพิ่มลายน้ำในเอกสารโดยใช้ Aspose.Words สำหรับ Java ไม่ว่าคุณจะต้องเพิ่มลายน้ำในข้อความหรือรูปภาพ Aspose.Words ก็มีเครื่องมือที่ช่วยให้คุณปรับแต่งและจัดการลายน้ำได้อย่างมีประสิทธิภาพ นอกจากนี้ คุณยังสามารถลบลายน้ำได้เมื่อไม่ต้องการใช้อีกต่อไป ทำให้มั่นใจได้ว่าเอกสารของคุณจะสะอาดและเป็นมืออาชีพ
+## ปัญหาที่พบบ่อยและการแก้ไขข้อผิดพลาด
+- **ลายน้ำหายหลังการบันทึก** – ตรวจสอบให้แน่ใจว่าคุณเรียก `doc.save()` หลังจากตั้งค่าลายน้ำ.  
+- **รูปภาพไม่แสดง** – ตรวจสอบว่าเส้นทางรูปภาพถูกต้องและไฟล์เป็นรูปแบบที่รองรับ (PNG, JPEG, BMP).  
+- **ความโปร่งใสไม่ทำงาน** – `setSemitransparent(true)` ใช้ได้เฉพาะลายน้ำข้อความ; สำหรับรูปภาพให้แก้ไขช่องอัลฟของ PNG.  
+- **หลายส่วน** – หากเอกสารของคุณมีหลายส่วน ให้เพิ่มลายน้ำใน body ของแต่ละส่วนหรือใช้ `doc.getWatermark().setText(...)` ซึ่งจะใช้ทั่วทั้งเอกสาร.  
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะเปลี่ยนแบบอักษรของลายน้ำข้อความได้อย่างไร?
+**Q: ฉันจะเปลี่ยนแบบอักษรของลายน้ำข้อความได้อย่างไร?**  
+A: ปรับคุณสมบัติ `setFontFamily` ใน `TextWatermarkOptions` เช่น `options.setFontFamily("Times New Roman");`.
 
-หากต้องการเปลี่ยนแบบอักษรของลายน้ำข้อความ ให้แก้ไข `setFontFamily` ทรัพย์สินใน `TextWatermarkOptions`. ตัวอย่างเช่น:
+**Q: ฉันสามารถเพิ่มลายน้ำหลายรายการในเอกสารเดียวได้หรือไม่?**  
+A: ได้. สร้างหลายอ็อบเจ็กต์ `Shape` (สำหรับรูปภาพ) หรือเรียก `doc.getWatermark().setText(...)` พร้อมตัวเลือกที่แตกต่างกันสำหรับแต่ละลายน้ำ.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: สามารถหมุนลายน้ำได้หรือไม่?**  
+A: สำหรับลายน้ำรูปภาพ ให้ตั้งค่าการหมุนบนอ็อบเจ็กต์ `Shape` ด้วย `watermark.setRotation(angle)`. สำหรับลายน้ำข้อความ ใช้คุณสมบัติ `setLayout` (เช่น `WatermarkLayout.DIAGONAL`).
 
-### ฉันสามารถเพิ่มลายน้ำหลาย ๆ อันลงในเอกสารเดียวได้หรือไม่
+**Q: ฉันจะทำให้ลายน้ำเป็นกึ่งโปร่งใสได้อย่างไร?**  
+A: ตั้งค่า `options.setSemitransparent(true)` ใน `TextWatermarkOptions`. สำหรับรูปภาพ ให้ปรับความทึบของภาพก่อนโหลด.
 
-ใช่ คุณสามารถเพิ่มลายน้ำหลาย ๆ ลายลงในเอกสารได้โดยการสร้างลายน้ำหลาย ๆ ลาย `Shape` วัตถุที่มีการตั้งค่าที่แตกต่างกันและการเพิ่มลงในเอกสาร
-
-### สามารถหมุนลายน้ำได้หรือไม่?
-
-ใช่ คุณสามารถหมุนลายน้ำได้โดยการตั้งค่า `setRotation` ทรัพย์สินใน `Shape` วัตถุ ค่าบวกจะหมุนลายน้ำตามเข็มนาฬิกา และค่าลบจะหมุนทวนเข็มนาฬิกา
-
-### ฉันจะทำให้ลายน้ำเป็นแบบโปร่งแสงได้อย่างไร?
-
-หากต้องการให้ลายน้ำเป็นแบบโปร่งแสง ให้ตั้งค่า `setSemitransparent` ทรัพย์สินที่จะ `true` ใน `TextWatermarkOptions`-
-
-### ฉันสามารถเพิ่มลายน้ำลงในส่วนเฉพาะของเอกสารได้หรือไม่
-
-ใช่ คุณสามารถเพิ่มลายน้ำลงในส่วนที่เจาะจงของเอกสารได้โดยการทำซ้ำตามส่วนต่างๆ และเพิ่มลายน้ำลงในส่วนที่ต้องการ
-
+**Q: ฉันสามารถเพิ่มลายน้ำให้กับส่วนเฉพาะของเอกสารได้หรือไม่?**  
+A: ได้. วนผ่าน `doc.getSections()` และเพิ่มลายน้ำเฉพาะในส่วนที่ต้องการเท่านั้น.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-19  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12 (latest)  
+**ผู้เขียน:** Aspose

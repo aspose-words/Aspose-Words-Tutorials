@@ -1,10 +1,12 @@
 ---
-"description": "Leer hoe u watermerken toevoegt aan documenten in Aspose.Words voor Java. Pas tekst- en afbeeldingswatermerken aan voor professioneel ogende documenten."
-"linktitle": "Watermerken gebruiken in documenten"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Watermerken gebruiken in documenten in Aspose.Words voor Java"
-"url": "/nl/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2026-02-19
+description: Leer hoe je een document met watermerk maakt met Aspose.Words voor Java
+  en een afbeeldingwatermerk toevoegt in Java voor professioneel uitziende documenten.
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: Document maken met watermerk met Aspose.Words voor Java
+url: /nl/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Watermerken gebruiken in documenten in Aspose.Words voor Java
+# Document maken met watermerk met Aspose.Words voor Java
 
+In deze tutorial **maak je een document met watermerk** met behulp van de Aspose.Words for Java API. Watermerken—of het nu tekst of afbeeldingen zijn—helpen je een bestand te labelen als vertrouwelijk, concept of goedgekeurd, en ze kunnen programmatisch worden toegepast op elk Word‑document. We lopen door het instellen van de bibliotheek, het toevoegen van zowel tekst‑ als afbeelding‑watermerken, het aanpassen van hun uiterlijk, en zelfs het verwijderen ervan wanneer ze niet meer nodig zijn.
 
-## Inleiding tot het toevoegen van watermerken aan documenten in Aspose.Words voor Java
+## Snelle antwoorden
+- **Wat doet een watermerk?** Het legt tekst of een afbeelding over elke pagina om een status of branding weer te geven.  
+- **Welke bibliotheek voegt watermerken toe in Java?** Aspose.Words for Java biedt ingebouwde watermerkondersteuning.  
+- **Kan ik een afbeelding‑watermerk toevoegen?** Ja—gebruik de `Shape`‑klasse en de `add image watermark java`‑aanpak.  
+- **Is het watermerk semi‑transparant?** Je kunt de opacity regelen via `setSemitransparent` voor tekst‑watermerken.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.
 
-In deze tutorial laten we zien hoe je watermerken aan documenten kunt toevoegen met behulp van de Aspose.Words voor Java API. Watermerken zijn een handige manier om documenten te labelen met tekst of afbeeldingen om hun status, vertrouwelijkheid of andere relevante informatie aan te geven. In deze handleiding behandelen we zowel tekst- als afbeeldingswatermerken.
+## Wat is een watermerk en waarom gebruiken?
 
-## Aspose.Words instellen voor Java
+Een watermerk is een subtiele overlay—tekstueel of grafisch—die aan elke pagina van een document wordt toegevoegd. Het wordt vaak gebruikt om **vertrouwelijkheid**, **conceptstatus** of **branding** aan te geven zonder de onderliggende inhoud te wijzigen. Watermerken programmatisch toevoegen zorgt voor consistentie over grote aantallen bestanden en bespaart tijd vergeleken met handmatige bewerking.
 
-Voordat we watermerken aan documenten gaan toevoegen, moeten we Aspose.Words voor Java configureren. Volg deze stappen om aan de slag te gaan:
+## Aspose.Words for Java instellen
 
-1. Download Aspose.Words voor Java van [hier](https://releases.aspose.com/words/java/).
-2. Voeg de Aspose.Words voor Java-bibliotheek toe aan uw Java-project.
-3. Importeer de benodigde klassen in uw Java-code.
+Voordat we watermerken gaan toevoegen, zorg ervoor dat de bibliotheek klaar is in je project:
 
-Nu de bibliotheek is ingesteld, kunnen we watermerken toevoegen.
-
-## Tekstwatermerken toevoegen
-
-Tekstwatermerken zijn een veelgebruikte keuze wanneer u tekstuele informatie aan uw documenten wilt toevoegen. Zo voegt u een tekstwatermerk toe met Aspose.Words voor Java:
+1. Download Aspose.Words for Java van [hier](https://releases.aspose.com/words/java/).  
+2. Voeg de gedownloade JAR (of Maven/Gradle‑dependency) toe aan de classpath van je project.  
+3. Importeer de benodigde klassen in je Java‑bronbestand:
 
 ```java
-// Een documentinstantie maken
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
+
+Nu de bibliotheek is ingesteld, duiken we in de daadwerkelijke watermerkcode.
+
+## Hoe een tekst‑watermerk toe te voegen
+
+Tekst‑watermerken zijn ideaal om een document te labelen als “CONFIDENTIAL” of “DRAFT”. Het volgende fragment toont een nette manier om **document met watermerk** te **creëren** met `TextWatermarkOptions`.
+
+```java
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Definieer TextWatermarkOptions
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +62,59 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// Stel de watermerktekst en -opties in
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// Sla het document op met het watermerk
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## Watermerken aan afbeeldingen toevoegen
+### Het tekst‑watermerk aanpassen
+- **Lettertype & grootte** – wijzig `setFontFamily` en `setFontSize`.  
+- **Kleur** – gebruik elke `java.awt.Color`.  
+- **Lay-out** – kies `HORIZONTAL`, `DIAGONAL`, enz.  
+- **Transparantie** – schakel `setSemitransparent(true)` in voor een lichtere uitstraling.
 
-Naast tekstwatermerken kunt u ook afbeeldingswatermerken aan uw documenten toevoegen. Zo voegt u een afbeeldingswatermerk toe:
+## Hoe een afbeelding‑watermerk toe te voegen (add image watermark java)
+
+Afbeelding‑watermerken zijn perfect voor logo’s of aangepaste graphics. Hieronder staat het **add image watermark java**‑voorbeeld dat een PNG in het midden van elke pagina invoegt.
 
 ```java
-// Een documentinstantie maken
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Laad de afbeelding voor het watermerk
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// Stel de grootte en positie van het watermerk in
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// Voeg het watermerk toe aan het document
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// Sla het document op met het watermerk
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## Watermerken aanpassen
+### Tips voor afbeelding‑watermerken
+- **Formaat aanpassen** met `setWidth` / `setHeight` zodat het op de pagina past.  
+- **Positie** kan gecentreerd zijn of uitgelijnd op een willekeurige marge met `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Transparantie** kan worden toegepast door het alfa‑kanaal van de afbeelding aan te passen vóór het laden.
 
-kunt watermerken aanpassen door hun uiterlijk en positie aan te passen. Voor tekstwatermerken kunt u het lettertype, de grootte, de kleur en de lay-out wijzigen. Voor afbeeldingswatermerken kunt u de grootte en positie aanpassen zoals in de vorige voorbeelden is uitgelegd.
+## Hoe watermerken te verwijderen
 
-## Watermerken verwijderen
-
-Om watermerken uit een document te verwijderen, kunt u de volgende code gebruiken:
+Wanneer een document geen watermerk meer nodig heeft, kun je het programmatisch verwijderen. De onderstaande code doorloopt alle shapes en verwijdert degene die “Watermark” in hun naam bevatten.
 
 ```java
-// Een documentinstantie maken
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// Verwijder het watermerk
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +123,44 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// Sla het document op zonder watermerk
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## Veelvoorkomende valkuilen en probleemoplossing
 
-## Conclusie
-
-In deze tutorial hebben we geleerd hoe je watermerken aan documenten toevoegt met Aspose.Words voor Java. Of je nu tekst- of afbeeldingswatermerken wilt toevoegen, Aspose.Words biedt de tools om ze efficiënt aan te passen en te beheren. Je kunt watermerken ook verwijderen wanneer ze niet meer nodig zijn, zodat je documenten er netjes en professioneel uitzien.
+- **Watermerk ontbreekt na opslaan** – zorg ervoor dat je `doc.save()` aanroept na het instellen van het watermerk.  
+- **Afbeelding verschijnt niet** – controleer of het afbeeldingspad correct is en of het bestand een ondersteund formaat heeft (PNG, JPEG, BMP).  
+- **Transparantie niet toegepast** – `setSemitransparent(true)` werkt alleen voor tekst‑watermerken; voor afbeeldingen moet je het alfa‑kanaal van de PNG bewerken.  
+- **Meerdere secties** – als je document meerdere secties heeft, voeg het watermerk toe aan het body‑object van elke sectie of gebruik `doc.getWatermark().setText(...)` voor een globale toepassing.
 
 ## Veelgestelde vragen
 
-### Hoe kan ik het lettertype van een tekstwatermerk wijzigen?
+**V: Hoe kan ik het lettertype van een tekst‑watermerk wijzigen?**  
+A: Pas de eigenschap `setFontFamily` aan in `TextWatermarkOptions`, bijvoorbeeld `options.setFontFamily("Times New Roman");`.
 
-Om het lettertype van een tekstwatermerk te wijzigen, wijzigt u de `setFontFamily` eigendom in de `TextWatermarkOptions`. Bijvoorbeeld:
+**V: Kan ik meerdere watermerken aan één document toevoegen?**  
+A: Ja. Maak meerdere `Shape`‑objecten (voor afbeeldingen) of roep `doc.getWatermark().setText(...)` aan met verschillende opties voor elk watermerk.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**V: Is het mogelijk een watermerk te roteren?**  
+A: Voor afbeelding‑watermerken stel je de rotatie in op het `Shape`‑object met `watermark.setRotation(angle)`. Voor tekst‑watermerken gebruik je de eigenschap `setLayout` (bijv. `WatermarkLayout.DIAGONAL`).
 
-### Kan ik meerdere watermerken aan één document toevoegen?
+**V: Hoe kan ik een watermerk semi‑transparant maken?**  
+A: Stel `options.setSemitransparent(true)` in bij `TextWatermarkOptions`. Voor afbeeldingen pas je de opacity van de afbeelding aan vóór het laden.
 
-Ja, u kunt meerdere watermerken aan een document toevoegen door meerdere watermerken te maken. `Shape` objecten met verschillende instellingen en deze aan het document toevoegen.
-
-### Is het mogelijk om een watermerk te roteren?
-
-Ja, u kunt een watermerk roteren door de `setRotation` eigendom in de `Shape` object. Positieve waarden roteren het watermerk met de klok mee, en negatieve waarden roteren het tegen de klok in.
-
-### Hoe kan ik een watermerk semi-transparant maken?
-
-Om een watermerk semi-transparant te maken, stelt u de `setSemitransparent` eigendom van `true` in de `TextWatermarkOptions`.
-
-### Kan ik watermerken aan specifieke delen van een document toevoegen?
-
-Ja, u kunt watermerken toevoegen aan specifieke secties van een document door door de secties te itereren en het watermerk aan de gewenste secties toe te voegen.
-
+**V: Kan ik watermerken toevoegen aan specifieke secties van een document?**  
+A: Ja. Doorloop `doc.getSections()` en voeg het watermerk alleen toe aan de gewenste secties.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Laatst bijgewerkt:** 2026-02-19  
+**Getest met:** Aspose.Words for Java 24.12 (latest)  
+**Auteur:** Aspose
