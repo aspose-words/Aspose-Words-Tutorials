@@ -27,7 +27,8 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 | [Dodaj znaczniki Bidi w dokumencie Word](./add-bidi-marks/) | Dowiedz się, jak dodawać znaki dwukierunkowe (Bidi) w dokumentach Worda przy użyciu Aspose.Words dla .NET z tego przewodnika. Zapewnij właściwy kierunek tekstu dla treści wielojęzycznych. |
 | [Użyj znaku tabulacji na poziomie, aby uzyskać wcięcie listy](./use-tab-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciami tabulacyjnymi przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby uzyskać precyzyjne formatowanie listy w dokumentach. |
 | [Użyj znaku spacji na każdym poziomie do wcięcia listy](./use-space-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem znaku spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentu. |
-
+| [Jak wyeksportować LaTeX z DOCX – konwertuj DOCX do TXT w C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Dowiedz się, jak przekształcić dokument DOCX w plik LaTeX, a następnie zapisać go jako TXT przy użyciu Aspose.Words dla .NET w C#. |
+| [Zapisz dokument jako TXT w C# – konwertuj DOCX do TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | Dowiedz się, jak zapisać dokument Word jako plik TXT w C# przy użyciu Aspose.Words, konwertując DOCX do formatu tekstowego. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

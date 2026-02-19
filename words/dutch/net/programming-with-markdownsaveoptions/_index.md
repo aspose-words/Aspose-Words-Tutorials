@@ -34,6 +34,10 @@ Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteer
 
 Leer hoe u DOCX-bestanden naar Markdown converteert, inclusief LaTeX‑vergelijkingen, met Aspose.Words voor .NET.
 
+### [Hoe Aspose te gebruiken: DOCX naar Markdown converteren met LaTeX‑vergelijkingen](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
+
+Leer hoe u Aspose.Words gebruikt om DOCX-bestanden naar Markdown met LaTeX‑vergelijkingen te converteren.
+
 ### [Docx naar markdown converteren – Stapsgewijze C#-gids](./convert-docx-to-markdown-step-by-step-c-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een gedetailleerde stap‑voor‑stap C#‑handleiding.
@@ -45,6 +49,10 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
+
+### [Word naar Markdown converteren – Afbeeldingen extraheren in C#](./convert-word-to-markdown-extract-images-in-c/)
+
+Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met C#.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 

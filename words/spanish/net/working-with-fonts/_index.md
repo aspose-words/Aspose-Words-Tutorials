@@ -27,7 +27,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | --- | --- |
 | [Formato de fuente](./font-formatting/) | Aprenda a formatear fuentes en documentos de Word usando Aspose.Words para .NET con una guía detallada paso a paso. |
 | [Obtener el interlineado de la fuente](./get-font-line-spacing/) Aprenda a obtener el interlineado de fuentes con Aspose.Words para .NET con este tutorial paso a paso. Ideal para desarrolladores.
-| [Comprobar el efecto de texto de DrawingML](./check-drawingml-text-effect/) Aprenda a comprobar los efectos de texto de DrawingML en documentos de Word con Aspose.Words para .NET con nuestra guía detallada paso a paso. Mejore sus documentos fácilmente.
+| [Comprobar el efecto de texto de DrawingML](./check-drawingml-text-effect/) Aprenda a comprobar los efectos texto de DrawingML en documentos de Word con Aspose.Words para .NET con nuestra guía detallada paso a paso. Mejore sus documentos fácilmente.
 | [Establecer el formato de fuente](./set-font-formatting/) Aprenda a configurar el formato de fuente en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso para optimizar la automatización de sus documentos.
 | [Establecer marca de énfasis de fuente](./set-font-emphasis-mark/) Aprenda a establecer marcas de énfasis de fuente en documentos de Word con Aspose.Words para .NET con esta guía detallada paso a paso. Ideal para desarrolladores .NET.
 | [Establecer carpetas de fuentes](./set-fonts-folders/) Aprenda a configurar carpetas de fuentes personalizadas en Aspose.Words para .NET con esta guía completa paso a paso. Ideal para desarrolladores que buscan mejorar las fuentes de sus documentos.
@@ -47,8 +47,8 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Recibir notificaciones de fuentes](./receive-notifications-of-fonts/) | Aprenda cómo recibir notificaciones de fuentes faltantes o sustituidas al usar Aspose.Words para .NET. |
 | [Recibir notificación de advertencia](./receive-warning-notification/) Aprenda cómo recibir una notificación de advertencia al usar Aspose.Words para .NET y administrar cualquier problema o advertencia en sus documentos. |
 | [Ejemplo de fuente de recurso de Steam](./resource-steam-font-source-example/) | Aprenda a utilizar la fuente de flujo de recursos para cargar fuentes personalizadas en Aspose.Words para .NET. |
-| [Obtener sustitución sin sufijos](./get-substitution-without-suffixes/) | En este tutorial, aprenda cómo obtener anulaciones sin sufijos en un documento de Word con Aspose.Words para .NET.
-
+| [Obtener sustitución sin sufijos](./get-substitution-without-suffixes/) | En este tutorial, aprenda cómo obtener anulaciones sin sufijos en un documento de Word con Aspose.Words para .NET. |
+| [Capturar advertencias de fuentes en C# – Guía completa de programación](./capture-font-warnings-in-c-complete-programming-guide/) | Aprenda a capturar advertencias de fuentes en Aspose.Words para .NET usando C# con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

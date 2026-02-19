@@ -27,7 +27,8 @@ Graças a estes tutoriais, você poderá explorar ao máximo as funcionalidades 
 | [Adicionar marcas Bidi em um documento do Word](./add-bidi-marks/) | Aprenda a adicionar marcas bidirecionais (Bidi) em documentos do Word usando o Aspose.Words para .NET com este guia. Garanta a direção correta do texto para conteúdo multilíngue. |
 | [Use o caractere de tabulação por nível para recuo de lista](./use-tab-character-per-level-for-list-indentation/) | Aprenda a criar listas multinível com recuo por tabulação usando o Aspose.Words para .NET. Siga este guia para obter uma formatação precisa de listas em seus documentos. |
 | [Use caractere de espaço por nível para recuo de lista](./use-space-character-per-level-for-list-indentation/) | Aprenda a criar listas multinível com recuo de caracteres de espaço no Aspose.Words para .NET. Guia passo a passo para formatação precisa de documentos. |
-
+| [Como Exportar LaTeX de DOCX – Converter DOCX para TXT em C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Aprenda a converter documentos DOCX em arquivos TXT com suporte a LaTeX usando Aspose.Words para .NET em C#. |
+| [Salvar documento como TXT em C# – Converter DOCX para TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | Aprenda a salvar documentos como TXT usando C# com Aspose.Words, convertendo arquivos DOCX para TXT de forma simples. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

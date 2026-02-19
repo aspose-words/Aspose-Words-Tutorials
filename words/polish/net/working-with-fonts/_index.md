@@ -48,7 +48,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czcionek
 | [Otrzymaj powiadomienie ostrzegawcze](./receive-warning-notification/) Dowiedz się, jak otrzymywać powiadomienia ostrzegawcze podczas korzystania z Aspose.Words dla platformy .NET i jak zarządzać wszelkimi problemami lub ostrzeżeniami w dokumentach. |
 | [Przykład źródła czcionki Steam](./resource-steam-font-source-example/) | Dowiedz się, jak używać źródła czcionek strumienia zasobów do ładowania niestandardowych czcionek do Aspose.Words dla platformy .NET. |
 | [Uzyskaj zamiennik bez sufiksów](./get-substitution-without-suffixes/) | W tym samouczku dowiesz się, jak uzyskać nadpisania bez sufiksów w dokumencie programu Word za pomocą Aspose.Words dla platformy .NET. |
-
+| [Przechwytywanie ostrzeżeń czcionek w C# – Kompletny przewodnik programistyczny](./capture-font-warnings-in-c-complete-programming-guide/) | Dowiedz się, jak przechwytywać ostrzeżenia dotyczące czcionek w Aspose.Words dla .NET przy użyciu C# w tym szczegółowym przewodniku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

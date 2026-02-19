@@ -1,205 +1,220 @@
 ---
 category: general
-date: 2025-12-29
-description: สร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words C#. เรียนรู้การตั้งค่าความโปร่งใสของรูป,
-  ตั้งค่าสีเงา, และบันทึกเอกสาร Word อย่างง่ายดาย.
+date: 2026-02-18
+description: สร้างรูปสี่เหลี่ยมโดยใช้ Aspose.Words และเรียนรู้วิธีเพิ่มเงา ตั้งขนาดรูปทรง
+  และบันทึกเอกสาร Word ในเวลาไม่กี่นาที
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: th
-og_description: สร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words C#. คู่มือนี้แสดงวิธีตั้งค่าความโปร่งใสของรูปทรง,
-  ตั้งค่าสีเงา, และบันทึกเอกสาร Word.
-og_title: สร้างรูปสี่เหลี่ยมใน Word – บทเรียน Aspose.Words อย่างสมบูรณ์
+og_description: สร้างรูปสี่เหลี่ยมในไฟล์ Word, เรียนรู้วิธีเพิ่มเงา, ตั้งค่าขนาดรูป,
+  และบันทึกเอกสารด้วย Aspose.Words ใน C#
+og_title: สร้างรูปสี่เหลี่ยมใน Word – คู่มือ Aspose.Words อย่างสมบูรณ์
 tags:
 - Aspose.Words
 - C#
-- Word Automation
-title: สร้างรูปสี่เหลี่ยมใน Word ด้วย Aspose.Words – คู่มือแบบทีละขั้นตอน
+- Word automation
+title: สร้างรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย Aspose.Words – คู่มือแบบทีละขั้นตอน
 url: /th/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+"เขียนโค้ดให้สนุก!"
+
+Also translate "Step 1: Initialize the document – the foundation of **how to create document**" etc.
+
+Make sure to keep bold formatting.
+
+Also blockquote > lines.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างรูปสี่เหลี่ยมใน Word – บทเรียน Aspose.Words อย่างครบถ้วน
+# สร้างรูปสี่เหลี่ยมใน Word ด้วย Aspose.Words – คู่มือขั้นตอนโดยละเอียด
 
-เคยต้อง **สร้างรูปสี่เหลี่ยม** ในเอกสาร Word แต่ไม่รู้จะเริ่มจากตรงไหนหรือไม่? คุณไม่ได้เป็นคนเดียว; นักพัฒนาหลายคนเจออุปสรรคนี้เมื่อต้องทำอัตโนมัติรายงานหรือใบแจ้งหนี้ ในคู่มือนี้เราจะพาคุณผ่านขั้นตอนที่แน่นอนเพื่อ **สร้างรูปสี่เหลี่ยม**, ตั้งค่าความโปร่งใสของรูป, ตั้งค่าสีเงา, และสุดท้าย **บันทึกเอกสาร Word** ด้วย Aspose.Words for .NET  
+เคยต้อง **สร้างรูปสี่เหลี่ยม** ในไฟล์ Word แต่ไม่รู้จะเริ่มต้นอย่างไรหรือไม่? คุณไม่ได้เป็นคนเดียว—นักพัฒนามักถามว่า “จะเพิ่มเงาให้รูปแล้วยังคงให้เอกสารแก้ไขได้อย่างไร?” ในบทเรียนนี้เราจะตอบคำถามนั้นและยังแสดงให้คุณเห็น **วิธีเพิ่มเงา**, **ตั้งขนาดรูป**, และ **บันทึกไฟล์ Word** ทั้งหมดในกระบวนการเดียวที่ราบรื่น
 
-เราจะครอบคลุมทุกอย่างตั้งแต่การสร้างอ็อบเจ็กต์ Document เริ่มต้นจนถึงไฟล์ `.docx` สุดท้ายบนดิสก์, ดังนั้นเมื่ออ่านจบคุณจะสามารถ **สร้างเอกสาร Word** ด้วยโปรแกรมได้โดยไม่ต้องเดา ไม่ต้องอ้างอิงภายนอก, เพียงโซลูชันที่พร้อมคัดลอก‑วางเข้าโปรเจกต์ของคุณ
+เราจะพาคุณผ่านทุกขั้นตอนที่ต้องการ ตั้งแต่การเริ่มต้นเอกสารใหม่ (ใช่, นั่นคือขั้นตอนแรกของ **วิธีสร้างเอกสาร**) จนถึงการบันทึกไฟล์ *.docx* สุดท้ายบนดิสก์ ไม่ต้องอ้างอิงภายนอก เพียงตัวอย่างที่สามารถคัดลอก‑วางไปยัง Visual Studio แล้วรันได้ทันที
+
+---
 
 ## ข้อกำหนดเบื้องต้น
 
-- .NET 6.0 หรือใหม่กว่า (โค้ดนี้ยังทำงานกับ .NET Framework 4.7+)
-- NuGet package ของ Aspose.Words for .NET (`Install-Package Aspose.Words`)
-- ความคุ้นเคยพื้นฐานกับไวยากรณ์ C#
-- IDE ที่คุณชอบ (Visual Studio, Rider, VS Code ฯลฯ)
+- .NET 6+ (หรือ .NET Framework 4.7+). Aspose.Words ทำงานกับ runtime .NET ใดก็ได้ที่ทันสมัย
+- ใบอนุญาต Aspose.Words ที่ถูกต้อง (หรือคีย์ทดลองฟรี) – หากไม่มีจะเห็นลายน้ำ
+- Visual Studio, Rider, หรือเครื่องมือแก้ไข C# ที่คุณชื่นชอบ
+- ความรู้พื้นฐาน C#—ไม่ต้องซับซ้อน เพียงสามารถรันแอปคอนโซลได้
 
-> **เคล็ดลับ:** หากคุณใช้รุ่นทดลองฟรีของ Aspose.Words, ไลบรารีจะใส่ลายน้ำในไฟล์ผลลัพธ์ สำหรับการใช้งานจริงคุณต้องมีไลเซนส์ที่ถูกต้อง
+> **เคล็ดลับระดับมืออาชีพ:** หากคุณใช้ Mac, โค้ดเดียวกันทำงานได้บน .NET 6 กับ VS Code—แค่ตรวจสอบให้แน่ใจว่าได้อ้างอิงแพคเกจ NuGet `Aspose.Words`
 
-## ขั้นตอนที่ 1: เริ่มต้น Document และ Builder
+---
 
-สิ่งแรกที่เราทำคือสร้างเอกสาร Word ว่างเปล่าใหม่และ `DocumentBuilder` ที่ช่วยให้เราสามารถแทรกเนื้อหาได้ คิดว่า Builder คือปากกาเสมือนที่วาดบนหน้า
+## ขั้นตอนที่ 1: เริ่มต้นเอกสาร – พื้นฐานของ **วิธีสร้างเอกสาร**
+
+ก่อนที่เราจะวาดอะไรได้ เราต้องมีผืนผ้าใบเปล่า Aspose.Words เรียกสิ่งนี้ว่า `Document`  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **ทำไมถึงสำคัญ:** หากไม่มี `DocumentBuilder` คุณจะต้องจัดการกับโครงสร้างโหนดระดับต่ำโดยตรง ซึ่งทำให้เกิดข้อผิดพลาดได้ง่ายและอ่านยาก
+> **ทำไมจึงสำคัญ:** วัตถุ `Document` แทนไฟล์ *.docx* ทั้งหมด รูป, ย่อหน้า, และส่วนต่าง ๆ ที่คุณเพิ่มจะเป็นลูกของวัตถุนี้ การเริ่มต้นด้วยเอกสารเปล่าช่วยให้ไม่มีสไตล์ที่ซ่อนอยู่มาขัดขวางรูปสี่เหลี่ยมของคุณ
 
-## ขั้นตอนที่ 2: สร้างรูปสี่เหลี่ยม
+---
 
-ตอนนี้เราจะ **สร้างรูปสี่เหลี่ยม** จริง ๆ เมธอด `InsertShape` รับค่า `ShapeType` enum, ความกว้าง, และความสูง (หน่วยเป็น points) วัตถุ `Shape` ที่คืนค่ามาจะให้เราปรับคุณสมบัติด้านภาพต่อไป
+## ขั้นตอนที่ 2: กำหนดรูปสี่เหลี่ยมและ **ตั้งขนาดรูป**
+
+รูปสี่เหลี่ยมคือเพียง `Shape` ที่มี `ShapeType.Rectangle` เราจะกำหนดขนาดอย่างชัดเจนเพื่อให้แสดงตามที่ต้องการ  
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-ในขณะนี้รูปสี่เหลี่ยมเป็นกล่องสีดำทึบที่ยึดกับย่อหน้าปัจจุบัน คุณสามารถย้าย, ปรับขนาด, หรือแม้แต่หมุนมันในภายหลังได้หากต้องการ
+> **ความหมายของตัวเลข:** Aspose.Words ใช้หน่วยจุด (1 pt = 1/72 in) ปรับค่าตามการจัดวางของคุณ; สำหรับหน้า A4 ปกติ 200 pt เป็นความกว้างที่พอเหมาะ
 
-![สร้างรูปสี่เหลี่ยมพร้อมเงา](/images/rectangle-shadow.png "เอกสาร Word แสดงรูปสี่เหลี่ยมพร้อมเงาสีเทา")
+---
 
-*Image alt text: สร้างรูปสี่เหลี่ยมพร้อมเงาในเอกสาร Word*
+## ขั้นตอนที่ 3: **วิธีเพิ่มเงา** – ทำให้รูปโดดเด่น
 
-## ขั้นตอนที่ 3: ตั้งค่าความโปร่งใสของรูป
-
-ความโปร่งใสคือระดับ “มองทะลุ” ของสีเติมรูป Aspose.Words ใช้คุณสมบัติ `Transparency` ที่มีค่าตั้งแต่ `0.0` (ทึบ) ถึง `1.0` (โปร่งใสเต็ม) ที่นี่เราจะ **ตั้งค่าความโปร่งใสของรูป** เป็น 40 % เพื่อให้ข้อความพื้นหลังยังอ่านได้
+เงาช่วยให้มองเห็นว่ารูป “ลอย” จากหน้า `Shadow` ให้คุณปรับสี, ระยะ, ความโปร่งใส, และความเบลอ  
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **กรณีพิเศษ:** หากต้องการรูปที่มองไม่เห็นเลยแต่ยังต้องการให้เงาปรากฏ, ตั้งค่า `Transparency` เป็น `1.0` แล้วกำหนดความกว้างเส้นขอบที่ไม่เป็นศูนย์
+> **ทำไมต้องใช้ความโปร่งใส?** เงาที่ทึบเต็มจะดูแข็งกระด้าง การตั้งค่าเป็น 0.4 ทำให้เอฟเฟกต์ดูอ่อนโยนและเป็นมืออาชีพ
 
-## ขั้นตอนที่ 4: ตั้งค่าเงา
+---
 
-เงาตกแบบละเอียดจะเพิ่มความลึก เราจะ **ตั้งค่าสีเงา** เป็นสีเทากลาง, ปรับรัศมีเบลอ, และเลื่อนตำแหน่งเล็กน้อยทั้งแนวนอนและแนวตั้ง
+## ขั้นตอนที่ 4: กำหนดตำแหน่งรูปสี่เหลี่ยม – การไหลแบบ inline กับข้อความรอบข้าง
+
+หากต้องการให้รูปทำงานเหมือนอักขระในย่อหน้า ตั้ง `WrapType` เป็น `Inline` วิธีนี้ทำให้การจัดวางคาดเดาได้ง่าย โดยเฉพาะเมื่อเอกสารถูกแก้ไขในภายหลัง  
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **ทำไมถึงสำคัญ:** เงาที่คมเกินไปหรือสีเข้มเกินไปอาจดูเหมือนข้อบกพร่องของการพิมพ์ ปรับค่า `Blur` และ `Transparency` จนรู้สึกเป็นธรรมชาติ
+> **กรณีพิเศษ:** หากต้องการให้รูปลอยเหนือข้อความ (เช่น ลายน้ำ) ให้เปลี่ยน `WrapType` เป็น `Square` หรือ `BehindText`
 
-## ขั้นตอนที่ 5: บันทึกเอกสาร Word
+---
 
-สุดท้ายเราจะ **บันทึกเอกสาร Word** ลงดิสก์ เมธอด `Save` จะกำหนดรูปแบบไฟล์อัตโนมัติตามส่วนขยาย; `.docx` คือรูปแบบ OpenXML สมัยใหม่
+## ขั้นตอนที่ 5: แทรกรูปลงในเนื้อหาเอกสาร
+
+ตอนนี้เราจะวางรูปสี่เหลี่ยมลงในย่อหน้าแรก หากเอกสารยังไม่มีเนื้อหา `FirstParagraph` จะถูกสร้างโดยอัตโนมัติ  
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-หากโฟลเดอร์ไม่มีอยู่, Aspose.Words จะโยน `ArgumentException` ตรวจสอบให้แน่ใจว่าเส้นทางถูกต้องหรือสร้างไดเรกทอรีล่วงหน้า
+> **เคล็ดลับ:** คุณสามารถสร้างย่อหน้าใหม่ก่อนแล้วค่อยต่อรูปเข้าไป—เป็นประโยชน์เมื่อต้องการข้อความรอบ ๆ รูป
 
-## ตัวอย่างทำงานเต็มรูปแบบ
+---
 
-ด้านล่างเป็นโปรแกรมที่พร้อมรันครบทุกขั้นตอน คัดลอกไปยังโปรเจกต์คอนโซลใหม่และกด **F5**
+## ขั้นตอนที่ 6: **บันทึกไฟล์ Word** – ขั้นตอนสุดท้าย
+
+เมื่อทุกอย่างพร้อม การบันทึกไฟล์ทำได้ในบรรทัดเดียว เลือกพาธใดก็ได้ที่คุณต้องการ; ตัวอย่างใช้พาธตัวแปรที่คุณควรแทนที่ด้วยไดเรกทอรีของคุณเอง  
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **ผลลัพธ์:** เปิดไฟล์ *.docx* ที่สร้างขึ้นใน Microsoft Word คุณจะเห็นรูปสี่เหลี่ยมที่มีเงาสีดำ, กว้าง 200 pt และสูง 100 pt, อยู่ในแนว inline กับย่อหน้าแรก
+
+---
+
+## ผลลัพธ์ที่คาดหวัง
+
+เมื่อคุณเปิด **ShadowShape.docx**, เอกสารจะแสดง:
+
+- ย่อหน้าเดียวที่มีรูปสี่เหลี่ยม
+- รูปมีเงาสีดำอ่อนที่เลื่อนออก 5 pt
+- ขนาดรูปตรงกับค่าที่ตั้งในขั้นตอน 2
+- ไม่มีข้อความเพิ่มเติมปรากฏ เว้นแต่คุณจะเพิ่มเอง
+
+หากรูปไม่แสดง ตรวจสอบว่าคุณอ้างอิงเวอร์ชัน Aspose.Words ที่ถูกต้องและใบอนุญาต (หรือรุ่นทดลอง) ยังใช้งานอยู่
+
+---
+
+## คำถามทั่วไปและรูปแบบต่าง ๆ
+
+| คำถาม | คำตอบ |
+|----------|--------|
+| *ฉันสามารถเปลี่ยนสีเงาเป็นสีอื่นที่ไม่ใช่สีดำได้หรือไม่?* | แน่นอน—ตั้งค่า `rectangleShape.Shadow.Color = Color.Blue;` หรือ `System.Drawing.Color` ใดก็ได้ |
+| *ถ้าต้องการรูปสี่เหลี่ยมขนาดใหญ่ขึ้นล่ะ?* | ปรับค่า `Width` และ `Height` ตามต้องการ จำไว้ว่าเป็นหน่วยจุด; 72 pt = 1 in |
+| *สามารถวางรูปที่ตำแหน่งคงที่ได้หรือไม่?* | ทำได้—ใช้ `WrapType = WrapType.Absolute` แล้วตั้งค่า `Top`/`Left` |
+| *ทำงานกับ .NET Core ได้หรือไม่?* | ทำได้ Aspose.Words รองรับหลายแพลตฟอร์ม; เพียงติดตั้งแพคเกจ NuGet สำหรับ .NET Standard |
+| *ฉันสามารถใส่ข้อความภายในรูปสี่เหลี่ยมได้หรือไม่?* | ไม่โดยตรง; คุณต้องใช้รูป `TextBox` แทนรูปสี่เหลี่ยมธรรมดา |
+
+---
+
+## ตัวอย่างทำงานเต็ม (พร้อมคัดลอก‑วาง)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### ผลลัพธ์ที่คาดหวัง
-
-เปิด `ShadowRectangle.docx` ด้วย Microsoft Word คุณควรเห็นรูปสี่เหลี่ยมสีเทาอ่อนพร้อมเงานุ่มเล็กน้อยที่เลื่อนตำแหน่งเล็กน้อย, ทั้งสองแสดงที่ความโปร่งใส 40 % รูปอยู่บนหน้าเปล่า, พร้อมสำหรับเนื้อหาเพิ่มเติม
-
-## คำถามที่พบบ่อยและการปรับใช้
-
-**ต้องการรูปแบบอื่น?**  
-เปลี่ยน `ShapeType.Rectangle` เป็นค่า enum อื่น (`Ellipse`, `Triangle`, `Star` ฯลฯ) ส่วนโค้ดที่เหลือคงเดิม
-
-**เปลี่ยนสีเส้นขอบได้หรือไม่?**  
-ได้—ใช้ `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` และอาจตั้งค่า `rectangleShape.StrokeWeight = 1.5;`
-
-**วางรูปที่ตำแหน่งเฉพาะบนหน้าอย่างไร?**  
-ตั้งค่า `rectangleShape.WrapType = WrapType.None;` แล้วปรับ `rectangleShape.Left` และ `rectangleShape.Top` (หน่วยเป็น points)
-
-**ใส่ข้อความภายในรูปได้หรือไม่?**  
-ทำได้เลย หลังจากสร้างรูปให้เรียก `rectangleShape.AppendChild(new Paragraph(document))` แล้วเพิ่ม `Run` ที่มีข้อความของคุณ อย่าลืมตั้งค่า `rectangleShape.TextBox` หากต้องการฟอร์แมตขั้นสูง
-
-## เคล็ดลับระดับมืออาชีพและข้อควรระวัง
-
-- **ใส่ไลเซนส์ตั้งแต่ต้น:** หากลืมใส่ไลเซนส์ Aspose.Words จะใส่ลายน้ำบนหน้าแรก ซึ่งอาจทำให้การทดสอบสับสน
-- **เคล็ดลับประสิทธิภาพ:** เมื่อสร้างเอกสารหลายไฟล์ในลูป, ใช้ `Document` ตัวเดียวและเรียก `document.RemoveAllChildren();` หลังแต่ละการบันทึก เพื่อลดภาระ GC
-- **ความมองเห็นของเงา:** บนหน้าจอความละเอียดต่ำเงาอ่อนอาจมองไม่เห็น เพิ่มค่า `Blur` หรือ `OffsetX/Y` เพื่อดีบัก แล้วลดลงสำหรับการผลิต
-
-## ขั้นตอนต่อไป
-
-ตอนนี้คุณรู้วิธี **สร้างรูปสี่เหลี่ยม**, **ตั้งค่าความโปร่งใสของรูป**, **ตั้งค่าสีเงา**, และ **บันทึกเอกสาร Word** แล้ว ลองขยายบทเรียนต่อ:
-
-- เพิ่มหลายรูปและจัดกลุ่ม
-- แทรกรูปสี่เหลี่ยมลงในเซลล์ตารางสำหรับเลย์เอาต์รายงาน
-- ผสานรูปกับ `DocumentBuilder.InsertHtml` เพื่อวางเนื้อหา HTML‑styled
-- สำรวจเอฟเฟกต์ภาพอื่น ๆ เช่น `Glow` หรือ `Reflection` เพื่อสร้างเอกสารที่ดูเหมือน UI มากขึ้น
-
-ทดลอง, ทำให้พัง, แล้วปรับปรุงต่อ—การสร้างเอกสารแบบโปรแกรมเป็นสนามเด็กเล่นที่การออกแบบภาพมาบรรจบกับโค้ด
+เรียกใช้โปรแกรม, ไปที่ `C:\Temp\ShadowShape.docx`, แล้วคุณจะเห็นรูปสี่เหลี่ยมที่มีเงาตามที่อธิบายไว้
 
 ---
 
-*ขอให้สนุกกับการเขียนโค้ด! หากเจออุปสรรคใด ๆ แสดงความคิดเห็นด้านล่าง เราจะช่วยกันแก้ไข*
+## สรุป
+
+คุณได้เรียนรู้วิธี **สร้างรูปสี่เหลี่ยม** ในไฟล์ Word ด้วย Aspose.Words, วิธี **ตั้งขนาดรูป**, **เพิ่มเงา**, และสุดท้าย **บันทึกไฟล์ Word** พร้อมการเปลี่ยนแปลงทั้งหมด กระบวนการทั้งหมด—from **วิธีสร้างเอกสาร** ถึงการบันทึกผลลัพธ์—ใช้เพียงไม่กี่บรรทัดของ C# และสามารถขยายต่อเพื่อจัดวางที่ซับซ้อนยิ่งขึ้นได้
+
+พร้อมรับความท้าทายต่อไปหรือยัง? ลองเปลี่ยนรูปสี่เหลี่ยมเป็นรูปมุมโค้ง, ทดลองสีเงาต่าง ๆ, หรือฝังรูปภายในเซลล์ตาราง การปรับแต่งแต่ละครั้งจะช่วยย้ำแนวคิดหลักที่เราได้อธิบายไว้
+
+หากคุณพบว่าคู่มือเล่มนี้เป็นประโยชน์ อย่าลืมแชร์, แสดงความคิดเห็นพร้อมตัวอย่างของคุณ, หรือสำรวจบทเรียนอื่น ๆ ของเราที่เกี่ยวกับการอัตโนมัติ Word เช่น การแทรกรูปภาพหรือการสร้างตารางด้วย Aspose.Words. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
