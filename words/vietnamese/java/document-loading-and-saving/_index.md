@@ -41,7 +41,7 @@ Lưu hình ảnh từ Word có nghĩa là lập trình tìm mọi hình ảnh đ
 - Aspose.Words for Java JAR (phiên bản mới nhất).  
 - Giấy phép Aspose hợp lệ cho môi trường sản xuất (tùy chọn cho bản dùng thử).
 
-## Cách lưu hình ảnh từ Word bằng Aspose.Words for Java
+## Cách lưu hình ảnh từ Word bằng Aspose.Words cho Java
 Dưới đây là quy trình ngắn gọn cho workflow tiêu chuẩn. (Mã thực tế được hiển thị trong các tutorial liên kết; ở đây chúng tôi tập trung vào lý thuyết.)
 
 1. **Tạo một thể hiện `Document`** – tải file Word nguồn (`.docx`, `.doc`, v.v.).  
@@ -87,6 +87,12 @@ Học cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words for J
 
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Làm chủ Load Options trong Aspose.Words for Java. Tùy chỉnh quá trình tải tài liệu, xử lý mã hoá, chuyển đổi shape, thiết lập phiên bản Word và hơn thế nữa để tối ưu quá trình xử lý tài liệu Java.
+
+### [Tạo Load Options trong Java – Phát hiện Phông chữ Thiếu & Cách Tải DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Học cách tạo Load Options trong Java để phát hiện phông chữ thiếu và tải tài liệu DOCX một cách hiệu quả.
+
+### [Cách Khôi Phục DOCX – Tải Tệp Bị Hỏng với Tùy Chọn Khôi Phục](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Học cách khôi phục các tệp DOCX bị hỏng bằng các tùy chọn tải khôi phục trong Aspose.Words for Java.
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.

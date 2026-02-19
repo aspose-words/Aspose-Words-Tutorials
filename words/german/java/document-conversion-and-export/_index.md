@@ -68,9 +68,9 @@ Weitere Informationen finden Sie im [Aspose.Words für Java API-Dokumentation](h
 2. Verwenden Sie `builder.insertWatermarkText("CONFIDENTIAL");` oder `builder.insertWatermarkImage(imageStream);`.  
 3. Speichern Sie das Dokument im gewünschten Format (PDF, DOCX usw.).
 
-Am Ende dieser Tutorials verfügen Sie über das Wissen und die Fähigkeiten, um Dokumentkonvertierungs‑ und Exportaufgaben mit Aspose.Words for Java sicher durchzuführen. Machen Sie sich bereit, Ihre Dokumentenverarbeitung zu optimieren und Ihre Produktivität mit dieser leistungsstarken API zu steigern.
+Am Ende dieser Tutorials verfügen Sie über das Wissen und die Fähigkeiten, um Dokumentkonvertierungs‑ und Exportaufgaben mit Aspose.Words für Java sicher durchzuführen. Machen Sie sich bereit, Ihre Dokumentenverarbeitung zu optimieren und Ihre Produktivität mit dieser leistungsstarken API zu steigern.
 
-Tauchen Sie also in die unten aufgeführten Tutorials ein und erschließen Sie das volle Potenzial von Aspose.Words for Java in Ihren dokumentbezogenen Projekten. Viel Spaß beim Programmieren!
+Tauchen Sie also in die unten aufgeführten Tutorials ein und erschließen Sie das volle Potenzial von Aspose.Words für Java in Ihren dokumentbezogenen Projekten. Viel Spaß beim Programmieren!
 
 Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/) an, und um zu beginnen, laden Sie sie von [hier](https://releases.aspose.com/words/java/) herunter. Wenn Sie Fragen haben oder Unterstützung benötigen, besuchen Sie unser [support forum](https://forum.aspose.com/).
 
@@ -95,6 +95,24 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
+
+### [DOCX als Markdown in Java speichern – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX‑Dateien in Markdown konvertieren und speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
+### [Markdown aus Dokument erstellen – Exportieren und Bilder speichern](./create-markdown-from-document-export-and-save-images/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Dokument in Markdown konvertieren und dabei alle Bilder exportieren und speichern.
+
+### [Wie man LaTeX aus DOCX exportiert – Word nach TXT konvertieren Anleitung](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Erfahren Sie, wie Sie LaTeX aus einer DOCX‑Datei exportieren und Word‑Dokumente in reine Text‑(TXT‑)Dateien konvertieren.
+
+### [DOCX zu PDF mit Inline‑Shape‑Export konvertieren – Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei Inline‑Shapes korrekt exportieren.
+
+### [Wie man DOCX wiederherstellt, nach Markdown & PDF/UA exportiert – Vollständige Java-Anleitung](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Erfahren Sie, wie Sie beschädigte DOCX-Dateien reparieren, in Markdown konvertieren und PDF/UA-konforme PDFs mit Aspose.Words für Java erstellen.
+
+### [PDF‑UA in Java erstellen – Vollständige Anleitung](./create-pdf-ua-in-java-complete-guide/)
+Erfahren Sie, wie Sie PDF‑UA‑konforme Dokumente in Java mit Aspose.Words erstellen, inklusive Einstellungen und Validierung.
 
 ## Häufig gestellte Fragen
 

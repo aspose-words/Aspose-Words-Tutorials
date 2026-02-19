@@ -81,11 +81,29 @@ Unlock the power of mathematical equations in documents with Aspose.Words for Ja
 ### [Używanie kształtów dokumentu w Aspose.Words for Java](./using-document-shapes/)
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
+### [Konwersja DOCX do PDF z eksportem kształtów wstawionych – przewodnik krok po kroku](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Dowiedz się, jak konwertować pliki DOCX do PDF z eksportem kształtów wstawionych, krok po kroku z przykładami kodu.
+
 ### [Używanie znaków wodnych w dokumentach w Aspose.Words for Java](./using-watermarks-to-documents/)
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional‑looking documents.
 
 ### [Formatowanie tabel i stylów tabel w Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [Zapisz docx jako markdown w Javie – Kompletny przewodnik krok po kroku](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w Javie przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
+### [Utwórz markdown z dokumentu – Eksportuj i zapisz obrazy](./create-markdown-from-document-export-and-save-images/)
+Dowiedz się, jak konwertować dokument do formatu Markdown i wyodrębniać osadzone obrazy przy użyciu Aspose.Words for Java.
+
+### [Jak wyeksportować LaTeX z DOCX – przewodnik konwersji Word do TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Dowiedz się, jak przekształcić dokument Word (DOCX) w plik LaTeX/TXT przy użyciu Aspose.Words for Java.
+
+### [Utwórz PDF UA w Javie – Kompletny przewodnik](./create-pdf-ua-in-java-complete-guide/)
+Dowiedz się, jak tworzyć dokumenty PDF/UA w Javie przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
+
+### [Jak odzyskać DOCX, wyeksportować do Markdown i PDF/UA – Kompletny przewodnik Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Dowiedz się, jak naprawić uszkodzony plik DOCX, a następnie wyeksportować go do formatu Markdown oraz PDF/UA przy użyciu Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

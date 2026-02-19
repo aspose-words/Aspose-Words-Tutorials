@@ -87,6 +87,24 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
+### [Simpan docx sebagai markdown di Java – Panduan Lengkap Langkah demi Langkah](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Simpan file DOCX sebagai markdown di Java dengan panduan langkah demi langkah lengkap.
+
+### [Buat markdown dari dokumen – Ekspor dan simpan gambar](./create-markdown-from-document-export-and-save-images/)
+Ekspor konten dokumen ke markdown dan simpan semua gambar yang tersemat secara otomatis.
+
+### [Mengonversi DOCX ke PDF dengan Ekspor Bentuk Inline – Panduan Langkah demi Langkah](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Pelajari cara mengonversi file DOCX ke PDF sambil mengekspor bentuk inline menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+
+### [Cara Mengekspor LaTeX dari DOCX – Panduan Mengonversi Word ke TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Pelajari cara mengekspor konten LaTeX dari file DOCX dan mengonversinya menjadi file TXT menggunakan Aspose.Words for Java.
+
+### [Buat PDF UA di Java – Panduan Lengkap](./create-pdf-ua-in-java-complete-guide/)
+Panduan langkah demi langkah untuk membuat PDF dengan dukungan Unicode Arabic (UA) menggunakan Aspose.Words for Java.
+
+### [Cara Memulihkan DOCX, Mengekspor ke Markdown & PDF/UA – Panduan Lengkap Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Panduan langkah demi langkah untuk memulihkan file DOCX, mengekspor ke format Markdown, dan menghasilkan PDF/UA menggunakan Aspose.Words for Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

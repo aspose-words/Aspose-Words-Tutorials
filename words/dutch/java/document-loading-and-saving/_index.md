@@ -88,6 +88,9 @@ Leer hoe je HTML-documenten kunt laden en opslaan in Java met Aspose.Words for J
 ### [Werken met laadopties in Aspose.Words for Java](./using-load-options/)
 Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel encryptie, converteer shapes, stel Word‑versies in en meer voor efficiënte Java‑documentverwerking.
 
+### [Load-opties maken in Java – Ontdek ontbrekende lettertypen en hoe DOCX te laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Leer hoe je LoadOptions configureert om ontbrekende lettertypen te detecteren en DOCX-bestanden correct te laden met Aspose.Words for Java.
+
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.
 
@@ -129,6 +132,9 @@ Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg
 
 ### [Documentformaat bepalen in Aspose.Words for Java](./determining-document-format/)
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
+
+### [Hoe DOCX te herstellen – Corruptte bestanden laden met herstelopties](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Leer hoe je beschadigde DOCX‑bestanden kunt laden en herstellen met Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

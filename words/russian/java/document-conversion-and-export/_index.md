@@ -99,6 +99,24 @@ weight: 22
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words for Java. Исследуйте пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет ваших документов с Aspose.Words.
 
+### [Сохранить docx как markdown в Java — Полное пошаговое руководство](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Узнайте, как сохранить документ DOCX в формате Markdown с помощью Aspose.Words for Java в полном пошаговом руководстве.
+
+### [Как экспортировать LaTeX из DOCX – Руководство по конвертации Word в TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Узнайте, как преобразовать документ DOCX в LaTeX и сохранить его как TXT с помощью Aspose.Words for Java.
+
+### [Конвертировать DOCX в PDF с экспортом встроенных фигур – пошаговое руководство](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Узнайте, как экспортировать встроенные фигуры при конвертации DOCX в PDF с помощью Aspose.Words for Java.
+
+### [Создание markdown из документа – экспорт и сохранение изображений](./create-markdown-from-document-export-and-save-images/)
+Узнайте, как преобразовать документ в markdown и экспортировать вложенные изображения с помощью Aspose.Words for Java.
+
+### [Как восстановить DOCX, экспортировать в Markdown и PDF/UA – Полное руководство на Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Узнайте, как восстановить повреждённый DOCX, сохранить его как Markdown и создать PDF/UA с помощью Aspose.Words for Java.
+
+### [Создание PDF UA в Java – Полное руководство](./create-pdf-ua-in-java-complete-guide/)
+Узнайте, как создать PDF с поддержкой украинского языка в Java с помощью Aspose.Words.
+
 ## Часто задаваемые вопросы
 
 **Q: Как добавить водяной знак в существующий PDF с помощью Aspose.Words?**  

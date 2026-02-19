@@ -34,6 +34,9 @@
 ### [วิธีการเรนเดอร์หน้าเอกสารเป็นภาพขนาดย่อโดยใช้ Aspose.Words สำหรับ Java](./render-word-pages-thumbnails-aspose-java/)
 เรียนรู้วิธีสร้างภาพขนาดย่อคุณภาพสูงและบิตแมปขนาดกำหนดเองของเอกสาร Word ด้วย Aspose.Words สำหรับ Java ปรับปรุงความสามารถในการจัดการเอกสารของคุณวันนี้
 
+### [เพิ่มเงาให้กับรูปร่างใน Word – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)
