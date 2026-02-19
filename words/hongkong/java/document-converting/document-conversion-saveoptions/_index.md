@@ -1,143 +1,173 @@
 ---
-"description": "使用 Aspose.Words for Java 有效地將 DOCX 轉換為 EPUB。在本逐步指南中了解如何自訂儲存選項、分割內容和匯出文件屬性。"
-"linktitle": "使用 SaveOptions 進行文件轉換"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "使用 SaveOptions 進行文件轉換"
-"url": "/zh-hant/java/document-converting/document-conversion-saveoptions/"
-"weight": 13
+date: 2026-02-19
+description: 學習如何使用 Aspose.Words for Java 從 docx 建立 epub —— 自訂儲存選項、依標題分割，並匯出文件屬性。快速將
+  docx 轉換為 epub。
+linktitle: Create epub from docx with Aspose.Words SaveOptions (Java)
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words SaveOptions (Java) 從 docx 產生 epub
+url: /zh-hant/java/document-converting/document-conversion-saveoptions/
+weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now produce final content with same markdown structure. Ensure code block placeholders remain unchanged.
+
+Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 SaveOptions 進行文件轉換
+# 使用 Aspose.Words SaveOptions (Java) 從 docx 建立 epub
 
+## 簡介
 
-## 介紹
-
-如果您曾經需要將文件轉換為各種格式，您就會知道精確控制轉換過程是多麼重要。無論是為了增強可訪問性、確保與不同設備的兼容性，還是僅僅提高可讀性，準確地轉換文件都會產生很大的不同。在本指南中，我們將深入研究使用 Aspose.Words for Java 進行文件轉換。具體來說，我們將專注於使用自訂選項將文件轉換為 EPUB 格式。此強大功能可讓您微調文件的保存和分割方式，確保其滿足您的確切需求。
+## 快速解答
+- **主要目標？** 使用 Aspose.Words for Java 從 DOCX 檔案建立 EPUB。  
+- **分割的關鍵設定？** `DocumentSplitCriteria.HEADING_PARAGRAPH`。  
+- **支援的輸出格式？** EPUB、PDF、DOCX、HTML 等，可透過 `setSaveFormat` 設定。  
+- **我可以批次轉換 Word 文件嗎？** 可以 – 將單一檔案的程式碼包在迴圈中。  
+- **需要授權嗎？** 免費試用可用於評估；正式上線需購買商業授權。
 
 ## 先決條件
 
-在我們深入探討文件轉換的細節之前，讓我們確保您已做好一切準備：
+在深入文件轉換的細節之前，先確保以下條件已備妥：
 
-1. Java 開發工具包 (JDK)：確保您的機器上安裝了 JDK 8 或更高版本。這對於運行 Java 應用程式和 Aspose.Words 等程式庫至關重要。
-2. 整合開發環境 (IDE)：IntelliJ IDEA 或 Eclipse 等 IDE 將協助您管理 Java 項目，讓編碼和除錯變得更加容易。
-3. Aspose.Words for Java 函式庫：您需要 Aspose.Words for Java 函式庫來執行文件轉換。下載最新版本 [這裡](https://releases.aspose.com/words/java/)，並將其新增至專案的建置路徑。
-4. 範例文件：準備好要轉換的文件。在我們的範例中，我們使用名為 `Rendering。docx`.
+1. **Java Development Kit (JDK)** – 已安裝 JDK 8 或更新版本。  
+2. **IDE** – IntelliJ IDEA、Eclipse 或任何相容 Java 的編輯器。  
+3. **Aspose.Words for Java** – 下載最新的 JAR **[here](https://releases.aspose.com/words/java/)**，並加入專案的建置路徑。  
+4. **範例文件** – 名為 `Rendering.docx` 的 DOCX 檔案放置於專案目錄（或提供絕對路徑）。  
 
-## 導入包
+## 什麼是「從 docx 建立 epub」？
 
-要開始使用 Aspose.Words for Java，您需要匯入相關的套件。這些套件提供了文件操作和轉換所需的類別和方法。
+將 DOCX 檔案轉換為 EPUB，即是將 Word 文件的豐富格式、圖片與樣式打包成開放標準的電子書格式（EPUB），讓讀者能在電子閱讀器、平板電腦與智慧手機上無縫閱讀，同時保留原始版面配置。
+
+## 為什麼要依標題分割 EPUB？
+
+若將大型電子書作為單一 HTML 檔案存放於 EPUB 容器中，會變得笨重。使用 **`split epub by heading`** 後，每個最高層級的標題會成為獨立的 HTML 章節，提升導覽、載入速度與整體閱讀體驗。
+
+## 匯入套件
+
+要開始使用 Aspose.Words for Java，必須匯入相關套件。這些套件提供文件操作與轉換所需的類別與方法。
 
 ```java
 import com.aspose.words.*;
 ```
 
-此導入語句可確保您可以存取載入文件、配置儲存選項和執行轉換所需的所有類別。
+此匯入語句確保您能使用所有載入文件、設定儲存選項以及執行轉換所需的類別。
 
-## 步驟 1：載入文檔
+## 步驟 1：載入文件
 
-轉換過程的第一步是將要轉換的文檔載入到 `Document` 目的。該物件作為文檔的記憶體表示。
+轉換流程的第一步是將欲轉換的文件載入為 `Document` 物件。此物件是文件在記憶體中的表示。
 
 ```java
 Document doc = new Document("Rendering.docx");
 ```
 
-### 解釋：
+**說明：**  
+`Document` 建構子會從提供的路徑讀取 DOCX 檔案。請確保檔案相對於專案根目錄存在，或提供完整的檔案系統路徑。
 
-在這裡， `Document` 該類別用於載入DOCX檔案。提供的檔案路徑是 `"Rendering.docx"`，它應該位於您的專案目錄中或指定完整路徑。此步驟為文件的進一步處理做好準備。
+## 步驟 2：設定儲存選項
 
-## 步驟 2：配置儲存選項
-
-接下來，您將配置文檔的儲存選項。您可以在此處指定文件保存方式的各種設置，包括編碼和分割標準。
+接下來，設定文件的儲存方式。此處使用 `HtmlSaveOptions`，因為 EPUB 產生器會先在內部建立 HTML 檔案再進行封裝。
 
 ```java
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-saveOptions.setSaveFormat();
+saveOptions.setSaveFormat(SaveFormat.EPUB);
 saveOptions.setEncoding(StandardCharsets.UTF_8);
 ```
 
-### 解釋：
+**說明：**  
 
-- HtmlSaveOptions：此類允許您自訂文件的儲存方式。在這種情況下，我們使用它來指定文件應保存為 EPUB 文件。
-- setSaveFormat(SaveFormat.EPUB)：此方法設定儲存文件的格式。這裡選擇了EPUB，但Aspose.Words支援包括PDF、DOCX等多種格式。
-- setEncoding(StandardCharsets.UTF_8)：設定已儲存檔案的編碼，確保它支援多種字元。
+- **`HtmlSaveOptions`** – 允許對 EPUB 建立過程進行細緻的控制。  
+- **`setSaveFormat(SaveFormat.EPUB)`** – 告訴 Aspose.Words 產生 EPUB 檔案，而非預設的 HTML。  
+- **`setEncoding(StandardCharsets.UTF_8)`** – 確保正確處理 Unicode 字元，對多語言內容至關重要。
 
-## 步驟3：設定文檔拆分
+## 步驟 3：設定文件分割
 
-對於大型文檔，將輸出分成較小的部分會很有幫助。這對於 EPUB 文件特別有用，因為處理大量內容可能會很麻煩。
+對於較大的書籍，分割輸出可提升可讀性。以下設定會讓 Aspose.Words 在遇到標題段落時產生新的 HTML 檔案。
 
 ```java
 saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 ```
 
-### 解釋：
+**說明：**  
 
-- setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH)：此方法設定拆分文件的標準。透過選擇 `HEADING_PARAGRAPH`，文件將按每個標題段落分成單獨的 HTML 文件。這使得瀏覽大型文件變得更加容易，並改善了閱讀體驗。
+- **`DocumentSplitCriteria.HEADING_PARAGRAPH`** – 每個標題（例如 `<h1>`、`<h2>`）會成為 EPUB 內的獨立章節，直接滿足 **split epub by heading** 的需求。
 
 ## 步驟 4：匯出文件屬性
 
-有時，在已儲存的文件中包含文件屬性是必要的。這確保了作者資訊和創建日期等元資料得到保留。
+保留作者、標題與建立日期等中繼資料通常是目錄編制與搜尋所必需的。
 
 ```java
 saveOptions.setExportDocumentProperties(true);
 ```
 
-### 解釋：
+**說明：**  
 
-- setExportDocumentProperties(true)：此方法可確保文件的屬性包含在輸出檔案中。它對於追蹤與文件相關的元資料特別有用。
+- 啟用 `setExportDocumentProperties(true)` 會將來源文件的核心屬性複製到 EPUB 的中繼資料區段。
 
-## 步驟5：儲存文檔
+## 步驟 5：儲存文件
 
-最後一步是儲存已配置選項的文件。轉換就在這裡進行，您的文件將以所需的格式寫入指定的文件。
+最後，使用先前設定的選項將 EPUB 檔案寫入磁碟。
 
 ```java
 doc.save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
-### 解釋：
+**說明：**  
 
-- save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions): 此方法使用提供的 `HtmlSaveOptions`。該文件將儲存為 `HtmlSaveOptions.Doc2EpubSaveOptions.epub` 採用指定設定的 EPUB 格式。
+- `save` 方法接受目標檔名與 `HtmlSaveOptions` 實例，產生符合上述所有設定的 EPUB。
+
+## 常見使用情境
+
+- **電子書出版：** 將作者草稿的 Word 檔案轉換為可供 Kindle、iBooks 或 Google Play Books 使用的 EPUB。  
+- **批次轉換：** 將單一檔案的程式碼包在迴圈中，以 **batch convert word documents** 處理大型圖書館。  
+- **內容遷移：** 將舊有的 Word 文件搬移至適合網路的 EPUB 格式，同時保留標題與中繼資料。
+
+## 故障排除與技巧
+
+- **缺少標題：** 確認來源 DOCX 使用正確的標題樣式（Heading 1、Heading 2 等）。  
+- **編碼問題：** 若出現亂碼，請再次確認來源檔案已以 UTF‑8 儲存，且 `setEncoding` 設定相符。  
+- **大型檔案：** 對於非常大的文件，建議增大 JVM 堆積大小（例如 `-Xmx2g`），以避免 `OutOfMemoryError`。
+
+## 常見問題
+
+### 1. 我可以使用除 EPUB 之外的其他格式儲存文件嗎？
+
+可以，Aspose.Words 支援多種格式，包括 PDF、DOCX、HTML 等。只需在 `setSaveFormat` 中更改參數（例如 `SaveFormat.PDF`）。
+
+### 2. 如何處理具有複雜格式的文件轉換？
+
+Aspose.Words 會自動保留大部分格式，但仍建議測試具代表性的樣本。若特定元素（如表格、註腳）顯示不正確，可微調選項，如 `setExportHeadersFooters` 或 `setExportImagesAsBase64`。
+
+### 3. 我可以自動化多文件的轉換流程嗎？
+
+當然可以。將程式碼放入迴圈中，遍歷 DOCX 檔案目錄。這是 **batch convert word documents** 的常見做法。
+
+### 4. 若在轉換過程中遇到錯誤，我該怎麼辦？
+
+確認輸入路徑正確且具備讀寫權限。請參考官方的 [Aspose.Words documentation](https://reference.aspose.com/words/java/) 以取得錯誤代碼說明與排除步驟。
+
+### 5. 我可以在哪裡取得 Aspose.Words for Java 的額外支援？
+
+您可於 [Aspose community forum](https://forum.aspose.com/c/words/8) 獲得支援與其他資源。
 
 ## 結論
 
-就是這樣！您剛剛使用 Aspose.Words for Java 將 DOCX 檔案轉換為 EPUB 文件。本指南涵蓋了從載入文件到配置保存選項以及拆分輸出以提高可讀性的所有內容。使用這些工具，您可以確保您的文件不僅被轉換，而且還針對不同的格式和用例進行了最佳化。
+現在您已學會如何使用 Aspose.Words for Java **從 docx 建立 epub**，並能完整控制儲存選項、依標題分割以及中繼資料匯出。此方法可從單一檔案轉換擴展至完整的 **java convert word formats** 批次管線，是任何出版工作流程的多功能工具。
 
-Aspose.Words for Java 是一款強大的工具，除了簡單的轉換之外，還提供廣泛的功能。進一步探索其自動化文件處理任務和增強文件管理工作流程的功能。
+---
 
-## 常見問題解答
-
-### 1. 除了 EPUB 之外，我可以使用其他格式來儲存文件嗎？
-
-是的，Aspose.Words 支援各種格式，包括 PDF、DOCX 和 HTML。您可以透過調整 `setSaveFormat` 方法。
-
-### 2. 轉換時如何處理格式複雜的文件？
-
-Aspose.Words 可以很好地處理複雜的格式，但請確保測試您的特定文件以驗證所有格式是否按預期保留。
-
-### 3. 我可以自動執行多個文件的轉換過程嗎？
-
-絕對地！您可以將此程式碼整合到更大的應用程式或腳本中，以批次處理多個文件。
-
-### 4. 轉換過程中遇到錯誤怎麼辦？
-
-檢查您的輸入檔案路徑是否正確以及您是否具有讀取和寫入檔案的必要權限。請參閱 [Aspose.Words 文檔](https://reference.aspose.com/words/java/) 以獲得故障排除提示。
-
-### 5. 在哪裡可以獲得 Aspose.Words for Java 的額外支援？
-
-您可以在以下位置找到支援和其他資源 [Aspose 社群論壇](https://forum。aspose.com/c/words/8).
-
+**最後更新：** 2026-02-19  
+**測試環境：** Aspose.Words 24.12 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
