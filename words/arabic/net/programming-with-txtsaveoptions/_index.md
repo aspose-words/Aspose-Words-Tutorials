@@ -24,10 +24,11 @@
  ## دروس تعليمية
 | العنوان | الوصف |
 | --- | --- |
-| [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات.
+| [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات. |
 | [استخدم حرف Tab لكل مستوى لتقسيم القائمة](./use-tab-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع مسافات بادئة مبوبة باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل لتنسيق القوائم بدقة في مستنداتك. |
 | [استخدم حرف المسافة لكل مستوى لتجويف القائمة](./use-space-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع إضافة مسافة بادئة في Aspose.Words لـ .NET. دليل خطوة بخطوة لتنسيق المستندات بدقة. |
-
+| [كيفية تصدير LaTeX من DOCX – تحويل DOCX إلى TXT في C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | تعلم كيفية استخراج صيغ LaTeX من مستندات DOCX وتحويلها إلى ملفات TXT باستخدام C# و Aspose.Words. |
+| [حفظ المستند كملف TXT في C# – تحويل DOCX إلى TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | تعلم كيفية حفظ مستند Word كملف نصي TXT باستخدام C# و Aspose.Words وتحويل DOCX إلى TXT بسهولة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

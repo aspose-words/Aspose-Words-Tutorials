@@ -27,7 +27,8 @@ Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro 
 | [Přidání oboustranných značek v dokumentu Word](./add-bidi-marks/) | Naučte se v tomto průvodci, jak přidávat obousměrné (Bidi) značky do dokumentů Wordu pomocí Aspose.Words pro .NET. Zajistěte správný směr textu pro vícejazyčný obsah. |
 | [Použít tabulátor na úroveň pro odsazení seznamu](./use-tab-character-per-level-for-list-indentation/) | Naučte se, jak vytvářet víceúrovňové seznamy s odsazením pomocí tabulátorů pomocí Aspose.Words pro .NET. Pro přesné formátování seznamů ve vašich dokumentech postupujte podle tohoto návodu. |
 | [Použijte mezeru na úroveň pro odsazení seznamu](./use-space-character-per-level-for-list-indentation/) | Naučte se, jak v Aspose.Words pro .NET vytvářet víceúrovňové seznamy s odsazením mezer. Podrobný návod pro přesné formátování dokumentů. |
-
+| [Jak exportovat LaTeX z DOCX – převést DOCX na TXT v C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Naučte se, jak převést dokument DOCX na LaTeX a následně uložit jako TXT pomocí Aspose.Words pro .NET v C#. |
+| [Uložit dokument jako TXT v C# – převést DOCX na TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | Naučte se, jak uložit dokument DOCX jako textový soubor TXT pomocí Aspose.Words pro .NET v jazyce C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

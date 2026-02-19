@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2025-12-29
-description: Aspose.Words C# kullanarak bir Word belgesinde dikdörtgen şekil oluşturun.
-  Şekil şeffaflığını ayarlamayı, gölge rengini belirlemeyi öğrenin ve Word belgesini
-  zahmetsizce kaydedin.
+date: 2026-02-18
+description: Aspose.Words kullanarak dikdörtgen şekil oluşturun ve gölge eklemeyi,
+  şekil boyutunu ayarlamayı ve birkaç dakika içinde Word belgesini kaydetmeyi öğrenin.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: tr
-og_description: Aspose.Words C# ile bir Word belgesine dikdörtgen şekil oluşturun.
-  Bu kılavuz, şekil şeffaflığını ayarlamayı, gölge rengini belirlemeyi ve Word belgesini
-  kaydetmeyi gösterir.
-og_title: Word'de dikdörtgen şekli oluşturma – Tam Aspose.Words Eğitimi
+og_description: Word dosyasında dikdörtgen şekil oluşturun, gölge eklemeyi öğrenin,
+  şekil boyutunu ayarlayın ve belgeyi C# ile Aspose.Words kullanarak kaydedin.
+og_title: Word’de dikdörtgen şekli oluşturma – Tam Aspose.Words Eğitimi
 tags:
 - Aspose.Words
 - C#
-- Word Automation
-title: Aspose.Words ile Word'de dikdörtgen şekli oluşturma – Adım adım rehber
+- Word automation
+title: Aspose.Words ile Word'de Dikdörtgen Şekli Oluşturma – Adım Adım Kılavuz
 url: /tr/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
@@ -28,180 +26,167 @@ url: /tr/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'de Dikdörtgen Şekli Oluşturma – Tam Aspose.Words Öğreticisi
+# Word'de Aspose.Words ile dikdörtgen şekli oluşturma – Adım Adım Kılavuz
 
-Bir Word belgesinde **dikdörtgen şekli oluşturma** ihtiyacı hiç duydunuz mu, ama nereden başlayacağınızı bilemediniz mi? Yalnız değilsiniz; birçok geliştirici raporlar veya faturalar otomatikleştirirken bu engelle karşılaşıyor. Bu rehberde, bir dikdörtgen şekli oluşturma, şekil şeffaflığını ayarlama, gölge rengini belirleme ve sonunda Aspose.Words for .NET kullanarak **Word belgesini kaydetme** adımlarını adım adım göstereceğiz.  
+Word dosyasında **dikdörtgen şekli oluşturma** ihtiyacı hiç duydunuz mu ama nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—geliştiriciler sık sık “bir şekle gölge nasıl eklerim ve belge hâlâ düzenlenebilir kalır?” diye sorar. Bu öğreticide bu soruya yanıt verecek ve ayrıca **gölge ekleme**, **şekil boyutunu ayarlama** ve **Word belgesini kaydetme** konularını tek bir akıcı adımda göstereceğiz.
 
-İlk belge nesnesinden diskteki son `.docx` dosyasına kadar her şeyi ele alacağız, böylece sonunda **Word belgesi oluşturma** işlemini tahmin etmeden programatik olarak yapabileceksiniz. Harici referanslar yok, sadece projenize kopyalayıp yapıştırabileceğiniz bağımsız bir çözüm.
+İhtiyacınız olan her şeyi adım adım göstereceğiz; yeni bir belge başlatmaktan (evet, bu **belge oluşturma** için ilk adımdır) final *.docx* dosyasını diske kaydetmeye kadar. Harici referanslar yok, sadece Visual Studio'ya kopyalayıp yapıştırabileceğiniz ve bugün çalıştırabileceğiniz bağımsız bir örnek.
 
-## Gereksinimler
+---
 
-- .NET 6.0 veya üzeri (kod .NET Framework 4.7+ ile de çalışır)
-- Aspose.Words for .NET NuGet paketi (`Install-Package Aspose.Words`)
-- C# sözdizimi hakkında temel bilgi
-- Tercih ettiğiniz bir IDE (Visual Studio, Rider, VS Code vb.)
+## Önkoşullar
 
-> **Pro ipucu:** Aspose.Words ücretsiz deneme sürümünü kullanıyorsanız, kütüphane çıktı dosyasına bir filigran ekleyecektir. Üretim ortamında geçerli bir lisansa ihtiyacınız olacak.
+- .NET 6+ (veya .NET Framework 4.7+). Aspose.Words, herhangi bir yeni .NET çalışma zamanıyla çalışır.
+- Geçerli bir Aspose.Words lisansı (veya ücretsiz değerlendirme anahtarı) – aksi takdirde filigran görürsünüz.
+- Tercih ettiğiniz Visual Studio, Rider veya herhangi bir C# editörü.
+- Temel C# bilgisi—fantezi bir şey yok, sadece bir konsol uygulaması çalıştırabilme yeteneği.
 
-## 1. Adım: Belge ve Builder'ı Başlatma
+> **Pro ipucu:** Mac kullanıyorsanız, aynı kod .NET 6 altında VS Code ile çalışır—sadece `Aspose.Words` NuGet paketine referans verdiğinizden emin olun.
 
-İlk olarak boş bir Word belgesi ve içerik eklememizi sağlayan bir `DocumentBuilder` oluşturuyoruz. Builder, sayfada çizen sanal bir kalem gibi düşünülebilir.
+## 1. Adım: Belgeyi Başlatma – **belge oluşturma** temelini oluşturur
+
+Herhangi bir şey çizmeye başlamadan önce boş bir tuvale ihtiyacımız var. Aspose.Words buna `Document` adını verir.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Neden önemli:** Bir `DocumentBuilder` olmadan düşük seviyeli düğüm ağacını doğrudan manipüle etmeniz gerekir; bu hataya açık ve okunması zor bir yöntemdir.
+> **Neden önemli:** `Document` nesnesi tüm *.docx* dosyasını temsil eder. Eklediğiniz tüm şekiller, paragraflar ve bölümler bu nesnenin alt öğeleri olur. Temiz bir belgeyle başlamak, gizli stillerin dikdörtgeninizi etkilemesini önler.
 
-## 2. Adım: Dikdörtgen Şekli Oluşturma
+## 2. Adım: Dikdörtgeni Tanımlama ve **şekil boyutunu ayarlama**
 
-Şimdi **dikdörtgen şekli oluşturuyoruz**. `InsertShape` yöntemi bir `ShapeType` enum’u, genişlik ve yükseklik (puan cinsinden) alır. Dönen `Shape` nesnesi, görsel özellikleri daha sonra ayarlamamıza olanak tanır.
+Dikdörtgen sadece `ShapeType.Rectangle` tipinde bir `Shape`'dır. Ona tam olarak istenen şekilde görünmesi için açık boyutlar vereceğiz.  
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-Bu aşamada dikdörtgen, mevcut paragrafın içine sabitlenmiş katı siyah bir kutudur. İsterseniz daha sonra taşıyabilir, yeniden boyutlandırabilir veya döndürebilirsiniz.
+> **Sayıların anlamı:** Aspose.Words puan (point) birimini kullanır (1 pt = 1/72 in). Değerleri düzeninize göre ayarlayın; tipik bir A4 sayfası için 200 pt rahat bir genişliktir.
 
-![gölge ile dikdörtgen şekli oluştur](/images/rectangle-shadow.png "Gri gölge ile bir dikdörtgen şekli gösteren bir Word belgesi")
+## 3. Adım: **Gölge ekleme** – şekli öne çıkarmak
 
-*Görsel alt metni: Word belgesinde gölge ile dikdörtgen şekli oluşturma*
-
-## 3. Adım: Şekil Şeffaflığını Ayarlama
-
-Şeffaflık, şeklin dolgusunun “görünürlük” seviyesidir. Aspose.Words, `0.0` (opak) ile `1.0` (tamamen şeffaf) arasında bir `Transparency` özelliği kullanır. Burada **şekil şeffaflığını** %40 olarak ayarlıyoruz, böylece altındaki metin okunabilir kalıyor.
+Gölge, şeklin sayfadan “kaldırılmış” olduğunu görsel olarak belirtir. `Shadow` özelliği renk, mesafe, şeffaflık ve bulanıklık ayarlarını yapmanıza olanak tanır.  
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Köşe durumu:** Şekli tamamen görünmez ama gölgenin görünür olmasını istiyorsanız, `Transparency` değerini `1.0` yapın ve şekle sıfır olmayan bir kontur genişliği verin.
+> **Neden şeffaflık kullanmalı?** Tamamen opak bir gölge sert görünebilir. 0.4 olarak ayarlamak efekti ince ve profesyonel kılar.
 
-## 4. Adım: Gölgeyi Yapılandırma
+## 4. Adım: Dikdörtgeni Konumlandırma – çevredeki metinle satır içi akış
 
-Hafif bir gölge derinlik katar. **Gölge rengini** orta gri olarak ayarlayacağız, bulanıklık yarıçapını düzenleyecek ve hem yatay hem de dikey olarak birkaç puan kaydıracağız.
+Şeklin bir paragrafta karakter gibi davranmasını istiyorsanız, `WrapType` özelliğini `Inline` olarak ayarlayın. Bu, özellikle belge daha sonra düzenlendiğinde, düzenin öngörülebilir kalmasını sağlar.  
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Neden önemli:** Çok keskin veya çok koyu bir gölge, baskı hatası gibi görünebilir. `Blur` ve `Transparency` değerlerini doğal bir görünüm elde edene kadar ayarlayın.
+> **Köşe durum:** Dikdörtgenin metnin üzerinde (ör. bir filigran) yüzmesi gerekiyorsa, `WrapType`'ı `Square` veya `BehindText` olarak değiştirin.
 
-## 5. Adım: Word Belgesini Kaydetme
+## 5. Adım: Şekli belge gövdesine ekleme
 
-Son olarak **Word belgesini** diske kaydediyoruz. `Save` yöntemi uzantıya göre dosya formatını otomatik belirler; `.docx` modern OpenXML formatıdır.
+Şimdi dikdörtgeni ilk paragraf içine yerleştiriyoruz. Belge henüz içeriğe sahip değilse, `FirstParagraph` otomatik olarak oluşturulur.  
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Klasör mevcut değilse, Aspose.Words bir `ArgumentException` fırlatır. Yolun geçerli olduğundan emin olun veya klasörü önceden oluşturun.
+> **İpucu:** Önce yeni bir paragraf oluşturup ardından şekli ekleyebilirsiniz—çevresinde metin gerektiğinde faydalıdır.
 
-## Tam Çalışan Örnek
+## 6. Adım: **Word belgesini kaydetme** – son adım
 
-Aşağıda tüm adımları bir araya getiren, çalıştırmaya hazır tam program yer alıyor. Yeni bir konsol projesine yapıştırın ve **F5** tuşuna basın.
+Her şey yerli yerinde olduğunda, dosyayı kaydetmek tek satırda yapılır. İstediğiniz yolu seçin; örnek, kendi dizininizle değiştirmeniz gereken bir yer tutucu kullanır.  
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Sonuç:** Oluşturulan *.docx* dosyasını Microsoft Word'de açın. İlk paragrafla satır içinde, 200 pt genişliğinde ve 100 pt yüksekliğinde, siyah gölgeli bir dikdörtgen göreceksiniz.
+
+## Beklenen çıktı
+
+**ShadowShape.docx** dosyasını açtığınızda, belge şu şekilde gösterir:
+
+- Dikdörtgen şekli içeren tek bir paragraf.
+- Dikdörtgen, 5 pt kaydırılmış ince bir siyah gölgeye sahiptir.
+- Şekil boyutu, 2. Adımda ayarlanan boyutlarla eşleşir.
+- Elle eklemediğiniz sürece ekstra metin görünmez.
+
+Şekil görünmezse, doğru Aspose.Words sürümüne referans verdiğinizi ve lisansınızın (veya deneme sürümünün) aktif olduğunu iki kez kontrol edin.
+
+## Yaygın Sorular & Varyasyonlar
+
+| Soru | Cevap |
+|----------|--------|
+| *Gölge rengini siyah dışındaki bir renge değiştirebilir miyim?* | Kesinlikle—`rectangleShape.Shadow.Color = Color.Blue;` ya da herhangi bir `System.Drawing.Color` ayarlayın. |
+| *Daha büyük bir dikdörtgene ihtiyacım olursa ne yapmalıyım?* | `Width` ve `Height` değerlerini ayarlayın. Bunların puan cinsinden olduğunu unutmayın; 72 pt = 1 in. |
+| *Şekli mutlak bir konuma yerleştirmek mümkün mü?* | Evet—`WrapType = WrapType.Absolute` kullanın ve `Top`/`Left` özelliklerini ayarlayın. |
+| *Bu .NET Core ile çalışır mı?* | Evet. Aspose.Words çapraz platformdur; sadece .NET Standard için NuGet paketini kurun. |
+| *Dikdörtgenin içine metin ekleyebilir miyim?* | Doğrudan değil; düz bir dikdörtgen yerine bir `TextBox` şekli eklemeniz gerekir. |
+
+## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Beklenen Sonuç
+Programı çalıştırın, `C:\Temp\ShadowShape.docx` konumuna gidin ve açıklanan şekilde gölgeli bir dikdörtgen göreceksiniz.
 
-`ShadowRectangle.docx` dosyasını Microsoft Word’de açın. %40 şeffaflıkta, hafifçe kaydırılmış yumuşak bir gölgeye sahip açık gri bir dikdörtgen görmelisiniz. Şekil boş bir sayfada durur, ek içerik eklemeye hazırdır.
+## Sonuç
 
-## Sık Sorulan Sorular & Varyasyonlar
+Artık Aspose.Words kullanarak bir Word dosyasında **dikdörtgen şekli oluşturma**, **şekil boyutunu ayarlama**, **gölge ekleme** ve sonunda **Word belgesini kaydetme** konularını biliyorsunuz. Tüm süreç—**belge oluşturma** adımından sonucu kalıcı hale getirmeye kadar—birkaç C# satırı içinde sığar ve daha karmaşık düzenler için genişletilebilir.
 
-**Farklı bir şekle ihtiyacım olursa?**  
-`ShapeType.Rectangle` yerine başka bir enum değeri (`Ellipse`, `Triangle`, `Star` vb.) kullanın. Kodun geri kalanı aynı kalır.
+Bir sonraki meydan okumaya hazır mısınız? Dikdörtgeni yuvarlatılmış köşeli bir şekille değiştirin, farklı gölge renkleriyle deney yapın veya şekli bir tablo hücresine yerleştirin. Her ayar, burada ele aldığımız temel kavramları pekiştirir.
 
-**Kontur rengini değiştirebilir miyim?**  
-Evet—`rectangleShape.StrokeColor = System.Drawing.Color.Blue;` satırını ekleyin ve isteğe bağlı olarak `rectangleShape.StrokeWeight = 1.5;` ayarlayın.
-
-**Şekli sayfada belirli bir konuma nasıl yerleştiririm?**  
-`rectangleShape.WrapType = WrapType.None;` yapın ve ardından `rectangleShape.Left` ve `rectangleShape.Top` özelliklerini (puan cinsinden) ayarlayın.
-
-**Dikdörtgenin içine metin ekleyebilir miyim?**  
-Kesinlikle. Şekli oluşturduktan sonra `rectangleShape.AppendChild(new Paragraph(document))` çağırıp bir `Run` ekleyerek metninizi yerleştirebilirsiniz. Daha zengin biçimlendirme isterseniz `rectangleShape.TextBox` özelliklerini ayarlamayı unutmayın.
-
-## Pro İpuçları & Tuzaklar
-
-- **Erken lisanslayın:** Lisans eklemeyi unutursanız, Aspose.Words ilk sayfaya bir filigran ekler; bu test aşamasında kafa karıştırıcı olabilir.
-- **Performans ipucu:** Döngü içinde çok sayıda belge üretirken tek bir `Document` örneğini yeniden kullanın ve her kaydetmeden sonra `document.RemoveAllChildren();` çağırarak gereksiz GC baskısını önleyin.
-- **Gölge görünürlüğü:** Düşük çözünürlüklü ekranlarda ince bir gölge görünmez olabilir. Hata ayıklama sırasında `Blur` veya `OffsetX/Y` değerlerini artırın, ardından üretim için geri düşürün.
-
-## Sonraki Adımlar
-
-Artık **dikdörtgen şekli oluşturma**, **şekil şeffaflığını ayarlama**, **gölge rengini belirleme** ve **Word belgesini kaydetme** konularını biliyorsunuz; şimdi öğreticiyi genişletmeyi düşünün:
-
-- Birden fazla şekil ekleyip gruplayın.
-- Rapor düzeni için dikdörtgeni bir tablo hücresinin içine yerleştirin.
-- Şekli `DocumentBuilder.InsertHtml` ile birleştirerek HTML‑styled içerik üst üste bindirin.
-- `Glow` veya `Reflection` gibi diğer görsel efektleri keşfederek daha zengin UI‑benzeri belgeler oluşturun.
-
-Deneyin, hatalar yapın ve ardından iyileştirin—programatik belge üretimi, görsel tasarımın kodla buluştuğu bir oyun alanıdır.
-
----
-
-*Kodlamanın tadını çıkarın! Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın; birlikte çözüm bulalım.*
+Bu kılavuzu faydalı bulduysanız, paylaşın, kendi varyasyonlarınızı yorum olarak bırakın veya Aspose.Words ile resim ekleme ya da tablo oluşturma gibi Word otomasyonu üzerine diğer öğreticilerimizi keşfedin. Kodlamanın tadını çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

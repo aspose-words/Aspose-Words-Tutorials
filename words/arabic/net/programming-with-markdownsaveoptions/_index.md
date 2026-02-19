@@ -42,6 +42,10 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [كيفية استخدام Aspose – تحويل DOCX إلى Markdown مع معادلات LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
+
+### [تحويل Word إلى Markdown – استخراج الصور في C#](./convert-word-to-markdown-extract-images-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

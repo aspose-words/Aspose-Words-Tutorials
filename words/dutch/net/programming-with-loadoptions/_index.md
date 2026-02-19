@@ -33,6 +33,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Metabestanden naar PNG converteren](./convert-metafiles-to-png/) | Converteer metabestanden eenvoudig naar PNG in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Vereenvoudig uw documentbeheer. |
 | [Chm-bestanden laden in Word-document](./load-chm/) | Laad CHM-bestanden eenvoudig in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Perfect voor het consolideren van uw technische documentatie. |
 | [Hoe een DOCX te herstellen met Aspose.Words – stap voor stap](./how-to-recover-docx-with-aspose-words-step-by-step/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze handleiding. |
+| [Hoe DOCX-bestanden te herstellen in C# – volledige gids](./how-to-recover-docx-files-in-c-complete-guide/) | Leer hoe u DOCX-bestanden in C# kunt herstellen met een volledige stap‑voor‑stap gids. |
 | [Aspose Load Options – DOCX laden met aangepaste lettertype‑instellingen](./aspose-load-options-load-docx-with-custom-font-settings/) | Leer hoe u een DOCX-document kunt laden met aangepaste lettertype‑instellingen via LoadOptions in Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -44,12 +44,16 @@
 ### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็ม C#](./how-to-export-markdown-from-docx-complete-guide/)
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [วิธีใช้ Aspose – แปลง DOCX เป็น Markdown พร้อมสมการ LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
+แปลงไฟล์ DOCX เป็น Markdown พร้อมรองรับสมการ LaTeX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
+### [แปลง Word เป็น Markdown – สกัดรูปภาพใน C#](./convert-word-to-markdown-extract-images-in-c/)
+แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพโดยใช้ C# และ Aspose.Words
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

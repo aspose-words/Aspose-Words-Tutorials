@@ -32,6 +32,9 @@ Lär dig skapa tillgängliga PDF-filer och konvertera Word-dokument till Markdow
 ### [Hur man använder Markdown: Konvertera DOCX till Markdown med LaTeX-ekvationer](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/)
 Lär dig konvertera DOCX-filer till Markdown med LaTeX-ekvationer med Aspose.Words för .NET.
 
+### [Hur man använder Aspose – Konvertera DOCX till Markdown med LaTeX‑ekvationer](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
+Lär dig konvertera DOCX-filer till Markdown med LaTeX‑ekvationer med Aspose.Words för .NET.
+
 ### [Konvertera docx till markdown – Steg‑för‑steg C#‑guide](./convert-docx-to-markdown-step-by-step-c-guide/)
 Lär dig konvertera DOCX-filer till Markdown med en detaljerad steg‑för‑steg‑guide i C#.
 
@@ -49,6 +52,9 @@ Lär dig spara DOCX som Markdown med en detaljerad steg‑för‑steg‑guide i 
 
 ### [Hur man exporterar Markdown från DOCX – Fullständig guide](./how-to-export-markdown-from-docx-complete-guide/)
 Lär dig exportera Markdown från DOCX-filer med en komplett guide i C#.
+
+### [Konvertera Word till Markdown – Extrahera bilder i C#](./convert-word-to-markdown-extract-images-in-c/)
+Lär dig extrahera bilder när du konverterar Word-dokument till Markdown med C# och Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

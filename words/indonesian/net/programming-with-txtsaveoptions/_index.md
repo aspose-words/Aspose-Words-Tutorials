@@ -27,7 +27,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tambahkan Tanda Bidi di Dokumen Word](./add-bidi-marks/) | Pelajari cara menambahkan tanda dua arah (Bidi) dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan ini. Pastikan arah teks yang tepat untuk konten multibahasa. Bahasa Indonesia:
 | [Gunakan Karakter Tab Per Level Untuk Indentasi Daftar](./use-tab-character-per-level-for-list-indentation/) | Pelajari cara membuat daftar bertingkat dengan indentasi tab menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk pemformatan daftar yang tepat dalam dokumen Anda. Bahasa Indonesia:
 | [Gunakan Karakter Spasi Per Level Untuk Indentasi Daftar](./use-space-character-per-level-for-list-indentation/) | Pelajari cara membuat daftar bertingkat dengan indentasi karakter spasi di Aspose.Words untuk .NET. Panduan langkah demi langkah untuk pemformatan dokumen yang tepat. |
-
+| [Cara Mengekspor LaTeX dari DOCX – Mengonversi DOCX ke TXT dalam C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Pelajari cara mengekspor konten LaTeX dari file DOCX dan mengonversinya menjadi berkas TXT menggunakan C# dengan Aspose.Words. |
+| [Simpan Dokumen sebagai TXT di C# – Konversi DOCX ke TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | Pelajari cara menyimpan dokumen sebagai berkas TXT menggunakan C# dengan Aspose.Words, mengonversi DOCX ke TXT dengan mudah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

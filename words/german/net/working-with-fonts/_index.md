@@ -48,7 +48,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Warnbenachrichtigung erhalten](./receive-warning-notification/) Erfahren Sie, wie Sie bei der Verwendung von Aspose.Words für .NET eine Warnbenachrichtigung erhalten und etwaige Probleme oder Warnungen in Ihren Dokumenten verwalten. |
 | [Beispiel für eine Steam-Schriftartquelle für Ressourcen](./resource-steam-font-source-example/) | Erfahren Sie, wie Sie mit der Resource Stream Font Source benutzerdefinierte Schriftarten in Aspose.Words für .NET laden. |
 | [Substitution ohne Suffixe erhalten](./get-substitution-without-suffixes/) | In diesem Lernprogramm erfahren Sie, wie Sie mit Aspose.Words für .NET suffixlose Überschreibungen in einem Word-Dokument erhalten. |
-
+| [Erfassen von Schriftartwarnungen in C# – Komplettprogrammierleitfaden](./capture-font-warnings-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie in C# Schriftartwarnungen mit Aspose.Words für .NET erfassen und verarbeiten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
