@@ -34,6 +34,7 @@
 | [Загрузить файлы CHM в документ Word](./load-chm/) | Легко загружайте файлы CHM в документы Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Идеально подходит для консолидации вашей технической документации. |
 | [Как восстановить DOCX с помощью Aspose.Words – пошагово](./how-to-recover-docx-with-aspose-words-step-by-step/) | Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words, следуя пошаговому руководству. |
 | [Aspose Load Options – Загрузка DOCX с пользовательскими настройками шрифтов](./aspose-load-options-load-docx-with-custom-font-settings/) | Узнайте, как загрузить DOCX, задав пользовательские параметры шрифтов с помощью LoadOptions в Aspose.Words для .NET. |
+| [Восстановление повреждённых файлов DOCX в C# – Полное руководство](./recover-corrupted-docx-files-in-c-complete-guide/) | Узнайте, как восстановить повреждённые DOCX файлы в C# с помощью Aspose.Words, следуя пошаговому полному руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

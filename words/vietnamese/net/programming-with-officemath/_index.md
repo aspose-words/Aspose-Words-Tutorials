@@ -21,6 +21,7 @@ Hướng dẫn Aspose.Words for .NET về Xử lý Words với OfficeMath sẽ h
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Phương trình toán học](./math-equations/) | Tìm hiểu cách cấu hình các phương trình toán học trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ, câu hỏi thường gặp và nhiều hơn nữa. |
+| [Cách lưu DOCX dưới dạng TXT với xuất LaTeX Math](./how-to-save-docx-as-txt-with-latex-math-export/) | Hướng dẫn lưu tài liệu DOCX dưới dạng TXT đồng thời xuất các công thức toán học dưới dạng LaTeX. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

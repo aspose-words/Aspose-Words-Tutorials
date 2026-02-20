@@ -15,7 +15,7 @@
 
 # Ordbehandling med Loadoptions
 
-Handledningarna för Aspose.Words för .NET erbjuder en värdefull resurs för utvecklare som vill bemästra ordbehandling med LoadOptions. Dessa handledningar täcker i detalj de olika funktionerna och teknikerna för att ladda Word-dokument i .NET-applikationer. Oavsett om du behöver ange specifika laddningsalternativ, hantera fel vid laddning av dokument eller anpassa teckensnittsinställningar, kommer dessa handledningar att ta dig steg för steg för att uppnå dina mål.
+Handledningarna för Aspose.Words för .NET erbjuder en värdefull resurs för utvecklare som vill bemästra ordbehandling med LoadOptions. Dessa handledningar täcker i detalj de olika funktionerna och teknikerna för att ladda Word-dokument i .NET-applikationer. Oavsett om du behöver ange specifika laddningsalternativ, hantera fel vid laddning av dokument eller anpassa teckensnittinställningar, kommer dessa handledningar att ta dig steg för steg för att uppnå dina mål.
 
 I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in Word-dokument med anpassade inställningar. Du utforskar koncept som att hantera saknade teckensnitt, återställa från laddningsfel, optimera prestanda och mer. Varje steg förklaras i detalj med tydliga och koncisa kodexempel som hjälper dig att förstå och tillämpa koncepten snabbt.
 
@@ -34,6 +34,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Ladda CHM-filer i Word-dokument](./load-chm/) | Ladda enkelt CHM-filer till Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för att konsolidera din tekniska dokumentation. |
 | [Återställ docx med Aspose.Words – steg för steg](./how-to-recover-docx-with-aspose-words-step-by-step/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words för .NET i en enkel steg-för-steg-guide. |
 | [Aspose Load Options – Ladda DOCX med anpassade teckensnittinställningar](./aspose-load-options-load-docx-with-custom-font-settings/) | Lär dig hur du laddar ett DOCX-dokument med egna teckensnittinställningar via Aspose Load Options i .NET. |
+| [Återställ korrupta DOCX-filer i C# – Komplett guide](./recover-corrupted-docx-files-in-c-complete-guide/) | Lär dig hur du återställer skadade DOCX-filer med C# och Aspose.Words i en detaljerad steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,9 @@
 | [將 PDF 儲存為 Jpeg](./pdf-to-jpeg/) |使用 Aspose.Words for .NET 輕鬆將 PDF 轉換為 JPEG。請遵循我們的詳細指南，其中包含範例和常見問題。非常適合開發人員和愛好者。 |
 | [將 PDF 儲存為 Word 格式 (Docx)](./pdf-to-docx/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 將 PDF 轉換為 Word 文件 (Docx)。非常適合開發人員。 |
 | [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 C# 教學](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Word 檔案儲存為 PDF，提供程式碼範例與最佳實踐。 |
+| [從 Word 建立 PDF – 完整 C# 教學（含字體偵測）](./create-pdf-from-word-complete-c-guide-with-font-detection/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 PDF，並自動偵測字體。提供完整步驟與程式碼範例。 |
+| [在 C# 中從 DOCX 建立 PDF – 完整指南（含形狀匯出）](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，並匯出文件中的形狀，提供完整步驟與程式碼範例。 |
+| [在 C# 中將 Word 儲存為 PDF – 完整無障礙轉換指南](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Word 檔案儲存為 PDF，並確保符合無障礙標準。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

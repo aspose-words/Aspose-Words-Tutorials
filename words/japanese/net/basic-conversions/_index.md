@@ -35,7 +35,9 @@
 | [Word から LaTeX をエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-latex-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を LaTeX 形式にエクスポートする方法をステップバイステップで解説します。 |
 | [C# で Word を PDF に変換する – ガイド](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Aspose.WordsでWordをPDFとして保存 – 完全なC#ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
-
+| [C# で Word を PDF として保存 – 完全アクセシブル変換ガイド](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) Aspose.Words for .NET を使用して、C# で Word 文書を PDF に変換し、アクセシビリティ対応を行う完全ガイドです。 |
+| [Word から PDF を作成 – フォント検出付き 完全 C# ガイド](./create-pdf-from-word-complete-c-guide-with-font-detection/) Aspose.Words for .NET を使用して、フォント検出機能付きで Word 文書から PDF を生成する完全な C# 手順を解説します。 |
+| [C# で DOCX から PDF を作成 – シェイプエクスポート付き 完全ガイド](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) Aspose.Words for .NET を使用して、C# で DOCX から PDF に変換し、図形を正しくエクスポートする方法をステップバイステップで解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -34,6 +34,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Načtení souborů CHM do dokumentu Word](./load-chm/) | Snadno načtěte soubory CHM do dokumentů Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro konsolidaci vaší technické dokumentace. |
 | [Jak obnovit DOCX pomocí Aspose.Words – krok za krokem](./how-to-recover-docx-with-aspose-words-step-by-step/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory DOCX krok za krokem. |
 | [Aspose Load Options – Načíst DOCX s vlastními nastaveními písma](./aspose-load-options-load-docx-with-custom-font-settings/) | Naučte se, jak načíst soubor DOCX s vlastními nastaveními písma pomocí Aspose.LoadOptions v .NET. |
+| [Obnovení poškozených souborů DOCX v C# – Kompletní průvodce](./recover-corrupted-docx-files-in-c-complete-guide/) | Naučte se, jak v C# obnovit poškozené soubory DOCX pomocí Aspose.Words – podrobný krok za krokem návod. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

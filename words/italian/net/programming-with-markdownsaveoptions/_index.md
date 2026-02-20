@@ -29,9 +29,11 @@
 | [Converti docx in markdown – Guida passo‑passo C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Scopri come convertire file DOCX in Markdown con una guida dettagliata passo‑passo in C#. |
 | [Salva docx come markdown – Guida completa C# con equazioni LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Impara a convertire file DOCX in Markdown includendo equazioni LaTeX con una guida completa in C#. |
 | [Salva docx come markdown – Guida completa C# con estrazione immagini](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Impara a convertire file DOCX in Markdown includendo l'estrazione delle immagini con una guida completa in C#. |
+| [Salva immagini Word durante la conversione da Word a Markdown – Guida completa C#](./save-word-images-while-converting-word-to-markdown-complete/) | Impara a estrarre e salvare le immagini da documenti Word durante la conversione in Markdown con una guida completa in C#. |
 | [Come esportare Markdown da Word – Guida completa C#](./how-to-export-markdown-from-word-complete-c-guide/) | Scopri come esportare documenti Word in Markdown con una guida completa in C#. |
 | [Come esportare Markdown da DOCX – Guida completa](./how-to-export-markdown-from-docx-complete-guide/) | Scopri come esportare documenti DOCX in Markdown con una guida completa in C#. |
 | [Come salvare Markdown da DOCX – Guida passo‑passo](./how-to-save-markdown-from-docx-step-by-step-guide/) | Scopri come salvare documenti DOCX in Markdown con una guida passo‑passo completa. |
+| [Converti docx in markdown in C# – Guida passo‑passo](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Scopri come convertire file DOCX in Markdown usando C# con una guida dettagliata passo‑passo. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
