@@ -35,6 +35,9 @@
 | [Πώς να εξάγετε LaTeX από το Word – Οδηγός βήμα‑βήμα](./how-to-export-latex-from-word-step-by-step-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε μορφή LaTeX χρησιμοποιώντας το Aspose.Words για .NET με βήμα‑βήμα οδηγίες. |
 | [Μετατροπή Word σε PDF σε C# χρησιμοποιώντας το Aspose.Words – Οδηγός](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET σε C# με οδηγίες βήμα‑βήμα. |
 | [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
+| [Αποθήκευση Word ως PDF σε C# – Πλήρης Οδηγός Προσβάσιμης Μετατροπής](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Μάθετε πώς να αποθηκεύετε Word ως PDF σε C# με πλήρη οδηγό προσβάσιμης μετατροπής. |
+| [Δημιουργία PDF από Word – Πλήρης Οδηγός C# με Ανίχνευση Γραμματοσειρών](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Μάθετε πώς να δημιουργείτε PDF από Word με Aspose.Words για .NET, χρησιμοποιώντας πλήρη οδηγό C# και ανίχνευση γραμματοσειρών. |
+| [Δημιουργία PDF από DOCX σε C# – Πλήρης Οδηγός με Εξαγωγή Σχημάτων](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Μάθετε πώς να δημιουργείτε PDF από αρχεία DOCX σε C# με πλήρη οδηγό, συμπεριλαμβανομένης της εξαγωγής σχημάτων. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

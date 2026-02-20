@@ -35,6 +35,9 @@ Basic Conversions проведет вас через базовые преобр
 | [Как экспортировать LaTeX из Word – пошаговое руководство](./how-to-export-latex-from-word-step-by-step-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
+| [Сохранить Word как PDF в C# – Полное руководство по доступному преобразованию](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Подробное руководство по конвертации Word в PDF в C# с учётом доступности, включая примеры кода и настройки. |
+| [Создать PDF из Word – Полное руководство C# с определением шрифтов](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Узнайте, как создать PDF из документа Word в C#, автоматически определяя используемые шрифты для точного отображения. |
+| [Создать PDF из DOCX в C# – Полное руководство с экспортом фигур](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Полное руководство по созданию PDF из DOCX в C# с экспортом фигур, включая примеры кода и настройки. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

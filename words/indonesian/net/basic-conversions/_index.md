@@ -33,8 +33,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Pdf sebagai Jpeg](./pdf-to-jpeg/) | Ubah PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar. Bahasa Indonesia: |
 | [Simpan PDF ke Format Word (Docx)](./pdf-to-docx/) | Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang. |
 | [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Panduan langkah demi langkah menyimpan dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Sempurna untuk pengembang. |
+| [Simpan Word sebagai PDF di C# – Panduan Konversi Aksesibel Lengkap](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Panduan langkah demi langkah menyimpan dokumen Word ke PDF dengan aksesibilitas penuh menggunakan Aspose.Words di C#. |
 | [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑demi‑Langkah](./how-to-export-latex-from-word-step-by-step-guide/) | Pelajari cara mengekspor dokumen Word ke format LaTeX dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
 | [Mengonversi Word ke PDF dalam C# menggunakan Aspose.Words – Panduan](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Panduan langkah demi langkah mengonversi dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Bahasa Indonesia: |
+| [Buat PDF dari DOCX di C# – Panduan Lengkap dengan Ekspor Bentuk](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Pelajari cara membuat PDF dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan lengkap termasuk cara mengekspor bentuk. |
+| [Buat PDF dari Word – Panduan Lengkap C# dengan Deteksi Font](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Panduan langkah demi langkah membuat PDF dari dokumen Word menggunakan Aspose.Words untuk .NET dengan deteksi font otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

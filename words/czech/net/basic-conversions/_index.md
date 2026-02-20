@@ -35,6 +35,9 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | [Jak exportovat LaTeX z Wordu – krok za krokem](./how-to-export-latex-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat obsah Wordu do formátu LaTeX. Praktický průvodce s ukázkovým kódem. |
 | [Převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C#. Praktický návod s ukázkovým kódem. |
 | [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s podrobným návodem a ukázkovým kódem. |
+| [Uložit Word jako PDF v C# – Kompletní průvodce přístupnou konverzí](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s plnou podporou přístupnosti a podrobným ukázkovým kódem. |
+| [Vytvořit PDF z Wordu – Kompletní průvodce C# s detekcí fontů](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s detekcí fonts a podrobným návodem. |
+| [Vytvořit PDF z DOCX v C# – Kompletní průvodce s exportem tvarů](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Naučte se, jak převést DOCX do PDF v C# s kompletním průvodcem zahrnujícím export tvarů. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

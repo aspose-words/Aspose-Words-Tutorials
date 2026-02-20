@@ -35,6 +35,9 @@
 | [PDF im Word-Format (Docx) speichern](./pdf-to-docx/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein PDF in ein Word-Dokument (Docx) konvertieren. Perfekt für Entwickler. |
 | [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-latex-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus Word-Dokumenten exportieren – detaillierte Anleitung mit Codebeispielen. |
 | [Word als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
+| [Word als PDF speichern in C# – Vollständiger barrierefreier Konvertierungsleitfaden](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Erfahren Sie, wie Sie Word-Dokumente in C# barrierefrei als PDF speichern – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words. |
+| [PDF aus Word erstellen – Vollständige C#‑Anleitung mit Schriftart‑Erkennung](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Erfahren Sie, wie Sie mit Aspose.Words PDFs aus Word generieren und automatisch Schriftarten erkennen – komplette C#‑Anleitung. |
+| [PDF aus DOCX in C# erstellen – Vollständige Anleitung mit Shape-Export](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX in PDF konvertieren und dabei Shapes exportieren – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,9 @@
 | [Word에서 LaTeX 내보내기 – 단계별 가이드](./how-to-export-latex-from-word-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에서 LaTeX 코드를 추출하고 내보내는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words를 사용해 Word를 PDF로 변환 – 가이드](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 Word를 PDF로 저장 – 완전한 C# 가이드](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words와 C#을 활용해 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
+| [Word에서 PDF 만들기 – 폰트 감지를 포함한 완전한 C# 가이드](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Aspose.Words for .NET을 사용하여 Word 문서를 PDF로 변환하고, 폰트 감지를 통해 정확한 레이아웃을 유지하는 전체 C# 가이드입니다. |
+| [C#에서 DOCX를 PDF로 변환 – 도형 내보내기 포함 전체 가이드](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Aspose.Words for .NET을 사용해 C#에서 DOCX 파일을 PDF로 변환하고 도형을 정확히 내보내는 전체 단계별 가이드입니다. |
+| [C#에서 Word를 PDF로 저장 – 완전한 접근성 변환 가이드](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 PDF로 변환하고 접근성을 완전하게 보장하는 전체 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

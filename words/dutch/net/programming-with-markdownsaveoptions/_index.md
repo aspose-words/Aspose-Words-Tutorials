@@ -54,6 +54,12 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 
+### [Opslaan van Word-afbeeldingen tijdens het converteren van Word naar Markdown – Complete C#-gids](./save-word-images-while-converting-word-to-markdown-complete/)
+
+### [Docx naar markdown converteren in C# – Stapsgewijze gids](./convert-docx-to-markdown-in-c-step-by-step-guide/)
+
+Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑voor‑stap C#‑handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

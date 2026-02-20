@@ -36,6 +36,9 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [How to Export LaTeX from Word – Step‑by‑Step Guide](./how-to-export-latex-from-word-step-by-step-guide/) | Learn how to export LaTeX from Word using Aspose.Words for .NET. Step‑by‑step guide with code examples for developers. |
 | [convert word to pdf in C# using Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Learn how to convert Word documents to PDF in C# using Aspose.Words. Step‑by‑step guide with code examples for developers. |
 | [Save Word as PDF with Aspose.Words – Complete C# Guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save Word documents as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
+| [Save Word as PDF in C# – Complete Accessible Conversion Guide](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Learn how to convert Word documents to accessible PDFs in C# using Aspose.Words, with step‑by‑step guidance and code examples. |
+| [Create PDF from Word – Complete C# Guide with Font‑Detection](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Learn how to create PDF from Word using Aspose.Words for .NET with font detection. Step‑by‑step guide with code examples. |
+| [Create PDF from DOCX in C# – Full Guide with Shape Export](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Learn how to create PDFs from DOCX in C# using Aspose.Words, including exporting shapes. Step-by-step guide with code examples. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

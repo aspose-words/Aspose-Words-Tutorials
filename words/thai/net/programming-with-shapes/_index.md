@@ -34,6 +34,7 @@
 - [ตรวจจับรูปทรงศิลปะอัจฉริยะ](./detect-smart-art-shape/) | เรียนรู้วิธีการตรวจจับรูปทรง SmartArt ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ เหมาะอย่างยิ่งสำหรับการสร้างระบบอัตโนมัติในเวิร์กโฟลว์เอกสารของคุณ -
 | [อัพเดท Smart Art Drawing](./update-smart-art-drawing/) | เรียนรู้วิธีอัปเดตภาพวาด Smart Art ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ รับรองว่าภาพของคุณจะถูกต้องเสมอ
 - [สร้างรูปสี่เหลี่ยมใน Word ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | เรียนรู้วิธีสร้างรูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+- [วิธีแก้ไขเงารูปร่างใน C# ด้วย Aspose.Words – คู่มือทีละขั้นตอน](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | เรียนรู้วิธีปรับเปลี่ยนเงาของรูปร่างในเอกสาร Word ด้วย C# และ Aspose.Words ผ่านขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

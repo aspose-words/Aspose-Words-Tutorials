@@ -21,6 +21,7 @@ OfficeMath के साथ वर्ड प्रोसेसिंग पर A
 | शीर्षक | विवरण |
 | --- | --- |
 | [गणित समीकरण](./math-equations/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में गणितीय समीकरणों को कॉन्फ़िगर करना सीखें। उदाहरणों, अक्सर पूछे जाने वाले प्रश्नों और अधिक के साथ चरण-दर-चरण मार्गदर्शिका। |
+| [LaTeX गणित निर्यात के साथ DOCX को TXT के रूप में सहेजना कैसे करें](./how-to-save-docx-as-txt-with-latex-math-export/) | .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइल को TXT में बदलें, साथ ही LaTeX गणित निर्यात शामिल करें। |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
