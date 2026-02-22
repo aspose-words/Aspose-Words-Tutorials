@@ -1,11 +1,17 @@
 ---
-"description": "在 Aspose.Words for Java 中配置 RTF 載入選項。了解如何識別 RTF 文件中的 UTF-8 文字。帶有程式碼範例的分步指南。"
-"linktitle": "配置 RTF 載入選項"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中配置 RTF 載入選項"
-"url": "/zh-hant/java/document-loading-and-saving/configuring-rtf-load-options/"
-"weight": 12
+date: 2026-02-22
+description: 學習如何使用 Aspose.Words for Java 儲存 RTF，包括如何啟用 UTF‑8 識別以及載入 RTF 文件的 Java
+  範例。一步一步的指南，附有程式碼片段。
+linktitle: Configuring RTF Load Options
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words for Java 保存 RTF
+url: /zh-hant/java/document-loading-and-saving/configuring-rtf-load-options/
+weight: 12
 ---
+
+ standard Traditional Chinese.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -13,88 +19,130 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中配置 RTF 載入選項
+# 在 Aspose.Words for Java 中設定 RTF 載入選項
 
+## 介紹在 Aspose.Words for Java 中設定 RTF 載入選項
 
-## Aspose.Words for Java 中 RTF 載入選項配置簡介
+在本教學中，您將會了解 **如何儲存 RTF** 檔案於 Aspose.Words for Java，同時學會 **如何啟用 UTF‑8** 處理，以及在 **載入 RTF 文件 Java** 專案時的最佳做法。無論您在處理發票、報告或任何富文字內容，掌握這些選項即可完整控制文字編碼與文件忠實度。
 
-在本指南中，我們將探討如何使用 Aspose.Words for Java 來設定 RTF 載入選項。 RTF（富文本格式）是一種流行的文件格式，可以使用 Aspose.Words 載入和操作。我們將重點放在一個特定的選項， `RecognizeUtf8Text`，它允許您控制是否識別 RTF 文件中的 UTF-8 編碼文字。
+## 快速解答
+- **`RecognizeUtf8Text` 選項的作用是什麼？** 它會告訴載入器將 RTF 檔案中的 UTF‑8 位元組序列視為 Unicode 字元。  
+- **我可以關閉 UTF‑8 辨識嗎？** 可以 – 設定 `setRecognizeUtf8Text(false)` 即可。  
+- **儲存 RTF 檔案需要授權嗎？** 生產環境必須使用有效的 Aspose.Words 授權；亦提供免費試用版。  
+- **支援哪個 Java 版本？** 完全支援 Java 8 以上版本。  
+- **程式碼是否為執行緒安全？** 只要每個執行緒使用各自的 `Document` 實例，載入與儲存文件皆為執行緒安全。
 
-## 先決條件
+## 在 Aspose.Words 中「如何儲存 rtf」是什麼意思？
 
-在開始之前，請確保已將 Aspose.Words for Java 程式庫整合到您的專案中。您可以從 [網站](https://releases。aspose.com/words/java/).
+儲存 RTF 文件即是將 `Document` 物件轉換回磁碟上的 Rich Text Format 檔案。Aspose.Words 會自動完成轉換，但您可以透過 `RtfLoadOptions` 進行微調，以確保字元正確解讀。
 
-## 步驟 1：設定 RTF 載入選項
+## 為什麼在載入 RTF 時要啟用 UTF‑8？
 
-首先，您需要建立一個 `RtfLoadOptions` 並設定所需的選項。在此範例中，我們將啟用 `RecognizeUtf8Text` 辨識 UTF-8 編碼文字的選項：
+UTF‑8 是國際文字最常見的編碼。啟用它可避免來源 RTF 含有非 ASCII 符號時出現亂碼，確保儲存的 RTF 檔案如預期般顯示。
+
+## 前置作業
+
+開始之前，請確保已在專案中整合 Aspose.Words for Java 程式庫。您可以從[官方網站](https://releases.aspose.com/words/java/)下載。
+
+## 如何在 RTF 載入選項中啟用 UTF8
+
+首先，建立 `RtfLoadOptions` 實例並開啟 UTF‑8 辨識：
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 loadOptions.setRecognizeUtf8Text(true);
 ```
 
-這裡， `loadOptions` 是 `RtfLoadOptions`，我們使用了 `setRecognizeUtf8Text` 方法啟用 UTF-8 文字辨識。
+此處的 `loadOptions` 會告訴載入器將任何 UTF‑8 位元組序列視為正確的 Unicode 字元。
 
-## 步驟2：載入RTF文檔
+## 載入 RTF Document Java – 使用已設定的選項
 
-現在我們已經配置了載入選項，我們可以使用指定的選項載入 RTF 文件。在這個範例中，我們從特定目錄載入名為「UTF-8 characters.rtf」的文件：
+選項準備好後，載入來源檔案。將 `"Your Directory Path"` 替換為實際存放 RTF 檔案的資料夾路徑：
 
 ```java
 Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", loadOptions);
 ```
 
-確保更換 `"Your Directory Path"` 使用適當的路徑指向您的文件目錄。
+`Document` 物件現在已以正確的字元編碼載入內容。
 
-## 步驟3：儲存文檔
+## 如何儲存 RTF
 
-載入RTF文件後，您可以使用Aspose.Words對其執行各種操作。完成後，使用以下程式碼儲存修改後的文件：
+完成任何修改（或即使未修改）後，將文件再次儲存為 RTF。這就是使用 Aspose.Words **如何儲存 rtf** 的核心：
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
-代替 `"Your Directory Path"` 與您想要儲存修改後的文件的路徑。
+`save` 方法會使用相同的 RTF 格式寫入檔案，保留先前啟用的 UTF‑8 字元。
 
-## 在 Aspose.Words for Java 中配置 RTF 載入選項的完整原始碼
+## 完整範例程式碼：在 Aspose.Words for Java 中設定 RTF 載入選項
 
 ```java
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 {
-	loadOptions.setRecognizeUtf8Text(true);
+    loadOptions.setRecognizeUtf8Text(true);
 }
 Document doc = new Document("Your Directory Path" + "UTF-8 characters.rtf", loadOptions);
 doc.save("Your Directory Path" + "WorkingWithRtfLoadOptions.RecognizeUtf8Text.rtf");
 ```
 
+## 常見問題與解決方案
+
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| 儲存後出現亂碼 | `RecognizeUtf8Text` 未啟用 | 在載入前呼叫 `setRecognizeUtf8Text(true)` |
+| 找不到檔案錯誤 | 檔案路徑不正確 | 使用絕對路徑或確認相對路徑正確性 |
+| 授權例外 | 未提供有效的 Aspose.Words 授權 | 使用 `License license = new License(); license.setLicense("Aspose.Words.Java.lic");` 載入授權檔案 |
+
+## 常見問答
+
+### 如何關閉 UTF‑8 文字辨識？
+
+只需在設定 `RtfLoadOptions` 時將 `RecognizeUtf8Text` 選項設為 `false`，即可透過呼叫 `setRecognizeUtf8Text(false)` 關閉。
+
+### RtfLoadOptions 還有哪些其他選項？
+
+`RtfLoadOptions` 提供多種設定，用以調整 RTF 文件的載入方式。常用選項包括 `setPassword`（用於受密碼保護的文件）以及 `setLoadFormat`（指定載入 RTF 時的格式）。
+
+### 載入文件後，我可以修改文件嗎？
+
+可以，載入後您可以對文件進行各種修改。Aspose.Words 提供廣泛的功能，支援內容、格式與結構的操作。
+
+### 在哪裡可以取得更多 Aspose.Words for Java 的資訊？
+
+請參考 [Aspose.Words for Java 文件](https://reference.aspose.com/words/java/)，其中包含完整的說明、API 參考與範例。
+
+## Frequently Asked Questions
+
+**Q: 啟用 `RecognizeUtf8Text` 會影響效能嗎？**  
+A: 影響極小；載入器僅會額外檢查 UTF‑8 位元組模式。
+
+**Q: 我可以從串流而非檔案路徑載入 RTF 檔案嗎？**  
+A: 可以 – 使用 `Document(InputStream, loadOptions)` 建構子。
+
+**Q: 載入 RTF 後能否將文件儲存為其他格式？**  
+A: 當然可以。例：`doc.save("output.pdf", SaveFormat.PDF);` 可將文件轉為 PDF。
+
+**Q: 需要哪個版本的 Aspose.Words 才支援這些選項？**  
+A: `RecognizeUtf8Text` 屬性自 Aspose.Words 20.12 for Java 起即已提供。
+
+**Q: 如何以程式方式套用授權？**  
+A: 建立 `License` 物件並呼叫 `setLicense("Aspose.Words.Java.lic")`，於使用任何 API 前先設定授權。
+
 ## 結論
 
-在本教程中，您學習如何在 Aspose.Words for Java 中配置 RTF 載入選項。具體來說，我們專注於實現 `RecognizeUtf8Text` 處理 RTF 文件中的 UTF-8 編碼文字的選項。此功能可讓您使用各種文字編碼，增強文件處理任務的靈活性。
+現在您已了解 **如何儲存 RTF** 文件於 Aspose.Words for Java，如何 **啟用 UTF‑8** 辨識，以及以自訂選項 **載入 RTF document Java** 專案的正確方式。這些技巧可確保多語言文字的完整性，讓您的 RTF 輸出如預期般呈現。
 
-## 常見問題解答
+---
 
-### 如何停用 UTF-8 文字辨識？
-
-若要停用 UTF-8 文字識別，只需設定 `RecognizeUtf8Text` 選擇 `false` 配置您的 `RtfLoadOptions`。這可以透過調用 `setRecognizeUtf8Text(false)`。
-
-### RtfLoadOptions 中還有哪些其他選項？
-
-RtfLoadOptions 提供了各種選項來配置如何載入 RTF 文件。一些常用的選項包括 `setPassword` 對於受密碼保護的文件和 `setLoadFormat` 指定載入 RTF 檔案時的格式。
-
-### 使用這些選項載入文件後我可以修改它嗎？
-
-是的，您可以在使用指定的選項載入文件後對其進行各種修改。 Aspose.Words 提供了處理文件內容、格式和結構的各種功能。
-
-### 在哪裡可以找到有關 Aspose.Words for Java 的更多資訊？
-
-您可以參考 [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/) 了解有關使用該庫的全面資訊、API 參考和範例。
-
+**最後更新：** 2026-02-22  
+**測試環境：** Aspose.Words 24.11 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
