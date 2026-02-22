@@ -37,10 +37,20 @@ Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C# termas
 Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
 ### [Cara Mengekspor Markdown dari Word – Panduan Lengkap C#](./how-to-export-markdown-from-word-complete-c-guide/)
 Pelajari cara mengekspor dokumen Word ke Markdown dengan panduan lengkap C#.
+### [Cara Menyimpan Markdown dari Word – Panduan Lengkap C#](./how-to-save-markdown-from-word-complete-c-guide/)
+Pelajari cara menyimpan dokumen Word sebagai Markdown dengan panduan lengkap C#.
 ### [Cara Menyimpan Markdown dari DOCX – Panduan Langkah‑demi‑Langkah](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Pelajari cara menyimpan file DOCX sebagai Markdown dengan panduan langkah demi langkah menggunakan C#.
 ### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
 Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
+### [Cara Mengekspor Markdown dari DOCX – Panduan Langkah‑demi‑Langkah Lengkap](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
+Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan langkah demi langkah yang lengkap.
+### [Cara Mengekspor Markdown dari DOCX dengan Gambar – Panduan Lengkap](./how-to-export-markdown-from-docx-with-images-complete-guide/)
+Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
+### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
+Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
+### [Cara Mengekspor Markdown dari DOCX dengan Gambar – Panduan Lengkap](./how-to-export-markdown-from-docx-with-images-complete-guide/)
+Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

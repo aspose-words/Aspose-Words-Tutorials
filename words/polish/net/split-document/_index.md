@@ -26,7 +26,7 @@ Split Document to kompleksowe źródło, które wyjaśnia, jak podzielić dokume
 | [Podziel dokument Word według strony](./page-by-page/) | Dowiedz się, jak podzielić dokument Word według strony za pomocą Aspose.Words dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne do wydajnego zarządzania dużymi dokumentami. |
 | [Scalanie dokumentów](./merge-documents/) | Przewodnik krok po kroku objaśniający kod źródłowy C# funkcji scalania dokumentów Aspose.Words dla platformy .NET |
 | [Podziel dokument Word według zakresu stron](./by-page-range/) | Dowiedz się, jak podzielić dokument Word według zakresu stron za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów. |
-
+| [Utwórz PDF ze stron – Przewodnik wyodrębniania konkretnych stron](./create-pdf-from-pages-extract-specific-pages-guide/) | Dowiedz się, jak przy użyciu Aspose.PDF dla .NET utworzyć plik PDF z wybranymi stronami, korzystając z prostego przewodnika krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -26,7 +26,7 @@
 | [Word-Dokument nach Seite aufteilen](./page-by-page/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie ein Word-Dokument mit Aspose.Words für .NET seitenweise aufteilen. Perfekt für die effiziente Verwaltung großer Dokumente. |
 | [Dokumente zusammenführen](./merge-documents/) | Schritt-für-Schritt-Anleitung zur Erläuterung des C#-Quellcodes der Funktion „Dokumente zusammenführen“ von Aspose.Words für .NET |
 | [Word-Dokument nach Seitenbereich aufteilen](./by-page-range/) | Erfahren Sie in unserer detaillierten Schritt-für-Schritt-Anleitung, wie Sie ein Word-Dokument mit Aspose.Words für .NET nach Seitenbereich aufteilen. Perfekt für Entwickler. |
-
+| [PDF aus Seiten erstellen – Anleitung zum Extrahieren bestimmter Seiten](./create-pdf-from-pages-extract-specific-pages-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET bestimmte Seiten aus einem Dokument extrahieren und als PDF speichern. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

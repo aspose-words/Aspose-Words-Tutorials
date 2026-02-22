@@ -27,7 +27,7 @@ Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olara
 | [Word Belgesine Bidi İşaretleri Ekleme](./add-bidi-marks/) | Bu kılavuzla Aspose.Words for .NET kullanarak Word belgelerine çift yönlü (Bidi) işaretlerin nasıl ekleneceğini öğrenin. Çok dilli içerik için uygun metin yönünü sağlayın. |
 | [Liste Girintisi İçin Seviye Başına Sekme Karakteri Kullan](./use-tab-character-per-level-for-list-indentation/) | Aspose.Words for .NET kullanarak sekmeli girintili çok seviyeli listeler oluşturmayı öğrenin. Belgelerinizde hassas liste biçimlendirmesi için bu kılavuzu izleyin. |
 | [Liste Girintisi İçin Seviye Başına Boşluk Karakteri Kullan](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET'te boşluk karakteri girintili çok seviyeli listelerin nasıl oluşturulacağını öğrenin. Hassas belge biçimlendirmesi için adım adım kılavuz. |
-
+| [DOCX'i TXT Olarak Kaydet – Word Denklemlerini LaTeX'e Dönüştür](./save-docx-as-txt-export-word-equations-to-latex/) | Bu eğitimde, DOCX dosyasını TXT formatına kaydederken Word denklemlerini LaTeX koduna nasıl dönüştüreceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Detect Smart Art Shape](./detect-smart-art-shape/) | Learn how to detect SmartArt shapes in Word documents using Aspose.Words for .NET with this comprehensive, guide. Perfect for automating your document workflow. |
 | [Update Smart Art Drawing](./update-smart-art-drawing/) | Learn how to update Smart Art drawings in Word documents using Aspose.Words for .NET with this step-by-step guide. Ensure your visuals are always accurate. |
 | [Create rectangle shape in Word with Aspose.Words – Step‑by‑step guide](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Learn how to create rectangle shapes in Word documents using Aspose.Words for .NET with this step‑by‑step guide. |
+| [Add Shadow to Shape – Step‑by‑Step Guide for C# Developers](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Learn how to add shadow to shapes in Word documents using Aspose.Words for .NET with this step‑by‑step guide for C# developers. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

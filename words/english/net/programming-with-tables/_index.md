@@ -48,6 +48,7 @@ By following these tutorials, you will be able to fully exploit the table manipu
 | [Get Floating Table Position](./get-floating-table-position/) | Learn how to get floating table positions in Word documents using Aspose.Words for .NET. This detailed, step-by-step guide will walk you through everything you need to know. |
 | [Floating Table Position](./floating-table-position/) | Learn how to control the floating position of tables in Word documents using Aspose.Words for .NET with our detailed, step-by-step guide. |
 | [Set Relative Horizontal Or Vertical Position](./set-relative-horizontal-or-vertical-position/) | Learn how to set relative horizontal and vertical positions for tables in Word documents using Aspose.Words for .NET with this step-by-step guide. |
+| [Hide Row in Table with C# – Simple Guide to Removing Table Rows](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Learn how to hide/remove rows in Word tables using Aspose.Words for .NET with C#. Follow this simple step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

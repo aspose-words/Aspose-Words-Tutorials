@@ -21,11 +21,12 @@ Split Document è una risorsa completa che spiega come suddividere un documento 
 | Titolo | Descrizione |
 | --- | --- |
 | [Dividi documento Word per intestazioni HTML](./by-headings-html/) | Scopri come dividere un documento Word in HTML utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata e passo dopo passo. |
-| [Dividi documento Word per sezioni HTML](./by-sections-html/) Scopri come suddividere un documento Word in sezioni HTML utilizzando Aspose.Words per .NET con questa guida dettagliata, passo dopo passo.
+| [Dividi documento Word per sezioni HTML](./by-sections-html/) Scopri come suddividere un documento Word in sezioni HTML utilizzando Aspose.Words per .NET con questa guida dettagliata, passo dopo passo. |
 | [Dividi documento Word per sezioni](./by-sections/) | Scopri come suddividere un documento Word in sezioni utilizzando Aspose.Words per .NET. Segui questa guida dettagliata e passo passo per una gestione efficiente dei documenti. |
 | [Dividi documento Word per pagina](./page-by-page/) | Scopri come dividere un documento Word per pagina utilizzando Aspose.Words per .NET con questa guida dettagliata e passo passo. Perfetta per gestire in modo efficiente documenti di grandi dimensioni. |
 | [Unisci documenti](./merge-documents/) | Guida passo passo per spiegare il codice sorgente C# della funzionalità Merge Documents di Aspose.Words per .NET |
 | [Dividi documento Word per intervallo di pagine](./by-page-range/) | Scopri come dividere un documento Word per intervallo di pagine utilizzando Aspose.Words per .NET con la nostra guida dettagliata passo passo. Perfetta per gli sviluppatori. |
+| [Crea PDF da pagine – Guida all'estrazione di pagine specifiche](./create-pdf-from-pages-extract-specific-pages-guide/) | Scopri come creare un PDF estratto da pagine specifiche con Aspose.Words per .NET. Segui la guida passo passo per selezionare e salvare le pagine desiderate. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

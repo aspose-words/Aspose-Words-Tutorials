@@ -39,10 +39,19 @@
 ### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
 เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C#
 
+### [วิธีบันทึก Markdown จาก Word – คู่มือเต็ม C#](./how-to-save-markdown-from-word-complete-c-guide/)
+เรียนรู้ขั้นตอนการบันทึกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C#
+
 ### [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็ม C#](./how-to-export-markdown-from-docx-complete-guide/)
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+
+### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็มขั้นตอนโดยขั้นตอน](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown อย่างละเอียดตามขั้นตอนด้วย Aspose.Words สำหรับ .NET
+
+### [วิธีส่งออก Markdown จาก DOCX พร้อมรูปภาพ – คู่มือเต็ม](./how-to-export-markdown-from-docx-with-images-complete-guide/)
+เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown พร้อมการสกัดรูปภาพอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
