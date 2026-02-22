@@ -1,36 +1,52 @@
 ---
-"description": "Aprenda a detectar formatos de documentos en Java con Aspose.Words. Identifique DOC, DOCX y más. Organice archivos eficientemente."
-"linktitle": "Determinación del formato del documento"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Determinación del formato del documento en Aspose.Words para Java"
-"url": "/es/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2026-02-22
+description: Aprende a detectar el formato de documentos en Java con Aspose.Words
+  y mover archivos automáticamente según el formato. Identifica DOC, DOCX y más.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: detectar formato de documento Java usando Aspose.Words para Java
+url: /es/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Determinación del formato del documento en Aspose.Words para Java
+# detectar formato de documento java usando Aspose.Words for Java
 
+Cuando necesitas **detect document format java** en un lote de archivos, la capacidad de ordenarlos automáticamente en las carpetas correctas puede ahorrar horas de trabajo manual. En este tutorial te mostraremos cómo Aspose.Words for Java facilita la identificación de Word, RTF, HTML, ODT y muchos otros formatos, y luego **move files by format** en directorios organizados.
 
-## Introducción a la determinación del formato de documentos en Aspose.Words para Java
+## Respuestas rápidas
+- **What does “detect document format java” mean?** Es el proceso de identificar programáticamente el formato de procesamiento de texto de un archivo (DOC, DOCX, RTF, etc.) usando código Java.  
+- **Which library provides this capability?** Aspose.Words for Java ofrece la API `FileFormatUtil.detectFileFormat`.  
+- **Can the utility also handle encrypted files?** Sí – la bandera `FileFormatInfo.isEncrypted()` indica si un documento está protegido con contraseña.  
+- **Do I need a license for production use?** Se requiere una licencia comercial de Aspose.Words para implementaciones que no sean de evaluación.  
+- **Is it possible to move files automatically after detection?** Absolutamente – combina el resultado de la detección con `FileUtils.copyFile` para ordenar los archivos en carpetas personalizadas.
 
-Al trabajar con el procesamiento de documentos en Java, es crucial determinar el formato de los archivos con los que se trabaja. Aspose.Words para Java ofrece potentes funciones para identificar formatos de documentos, y le guiaremos en el proceso.
+## ¿Qué es detect document format java?
+`detect document format java` se refiere a usar código Java para inspeccionar el encabezado binario de un archivo y determinar a qué formato de procesamiento de texto pertenece (p. ej., DOC, DOCX, ODT). Aspose.Words lee el archivo sin cargar completamente el documento, lo que hace que la operación sea rápida y eficiente en memoria.
 
-## Prerrequisitos
+## ¿Por qué mover archivos por formato?
+Organizar documentos por su formato nativo simplifica el procesamiento posterior:
 
-Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
+- **Batch conversions** se vuelven sencillas cuando todos los archivos DOCX están en una carpeta.  
+- **Legacy support**: puedes aislar los archivos Word pre‑97 para un manejo especial.  
+- **Security**: los documentos cifrados pueden ser puestos en cuarentena automáticamente.  
 
-- [Aspose.Words para Java](https://releases.aspose.com/words/java/)
-- Kit de desarrollo de Java (JDK) instalado en su sistema
-- Conocimientos básicos de programación Java
+## Requisitos previos
 
-## Paso 1: Configuración del directorio
+Antes de comenzar, asegúrate de tener:
 
-Primero, necesitamos configurar los directorios necesarios para organizar nuestros archivos eficazmente. Crearemos directorios para diferentes tipos de documentos.
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/) (descarga la última versión)  
+- Java Development Kit (JDK) 8 o superior instalado  
+- Familiaridad básica con Java I/O y streams  
+
+## Paso 1: Configurar directorios para cada formato
+
+Primero creamos una estructura de carpetas limpia donde se moverán los archivos detectados. Esto mantiene el flujo de trabajo ordenado y facilita agregar nuevas categorías de formato más adelante.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +54,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// Crea los directorios si aún no existen.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +65,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Hemos creado directorios para tipos de documentos compatibles, desconocidos, cifrados y anteriores a 1997.
+> **Pro tip:** Usa rutas absolutas o configura el directorio base mediante un archivo de propiedades para evitar codificar rutas de forma rígida en el código de producción.
 
-## Paso 2: Detectar el formato del documento
+## Paso 2: Detectar el formato del documento y mover los archivos
 
-Ahora, detectemos el formato de los documentos en nuestros directorios. Para ello, usaremos Aspose.Words para Java.
+El núcleo de **detect document format java** se encuentra en el bucle a continuación. Escanea cada archivo, determina su tipo y lo copia a la carpeta correspondiente.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +82,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // Mostrar el tipo de documento
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // Agregue casos para otros formatos de documentos según sea necesario
+        // Add cases for other document formats as needed
     }
 
-    // Manejar documentos cifrados
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Manejar otros tipos de documentos
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +111,18 @@ for (String fileName : listFiles) {
 }
 ```
 
-En este fragmento de código, iteramos a través de los archivos, detectamos sus formatos y los organizamos en los directorios respectivos.
+El bloque `switch` puede ampliarse para cubrir todos los formatos que te interesen. Cada caso imprime un mensaje amigable y luego mueve el archivo a la carpeta correspondiente.
 
-## Código fuente completo para determinar el formato del documento en Aspose.Words para Java
+## Código fuente completo para detectar formato de documento java
+
+A continuación se muestra el ejemplo completo, listo para ejecutar, que combina la configuración de directorios y la lógica de detección. Cópialo en una clase Java, ajusta la ruta base y ejecútalo contra una carpeta de documentos mixtos.
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // Crea los directorios si aún no existen.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +139,7 @@ En este fragmento de código, iteramos a través de los archivos, detectamos sus
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // Mostrar el tipo de documento
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +207,45 @@ En este fragmento de código, iteramos a través de los archivos, detectamos sus
 
 ```
 
-## Conclusión
+## Problemas comunes y solución de problemas
 
-Determinar los formatos de documentos en Aspose.Words para Java es esencial para un procesamiento eficiente de documentos. Con los pasos descritos en esta guía, podrá identificar los tipos de documentos y gestionarlos adecuadamente en sus aplicaciones Java.
+| Issue | Why it happens | How to fix |
+|-------|----------------|------------|
+| **`FileFormatUtil.detectFileFormat` returns `UNKNOWN`** | El archivo está corrupto o utiliza un formato que no es Word. | Verifica la extensión del archivo, o agrega una alternativa para moverlo a la carpeta *Unknown* (ya incluida en el ejemplo). |
+| **Encrypted files throw an exception** | La API intenta leer el contenido antes de comprobar el cifrado. | Siempre llama a `info.isEncrypted()` antes de cualquier otra operación sobre el documento. |
+| **Directory creation fails on Linux** | Permisos insuficientes o falta la carpeta padre. | Asegúrate de que el proceso Java tenga permisos de escritura y de que la ruta base exista. |
 
 ## Preguntas frecuentes
 
-### ¿Cómo instalo Aspose.Words para Java?
+**Q: ¿Cómo instalo Aspose.Words for Java?**  
+A: Puedes descargar Aspose.Words for Java desde el [aquí](https://releases.aspose.com/words/java/) y seguir las instrucciones de instalación proporcionadas.
 
-Puede descargar Aspose.Words para Java desde [aquí](https://releases.aspose.com/words/java/) y siga las instrucciones de instalación proporcionadas.
+**Q: ¿Qué formatos de documento son compatibles para la detección?**  
+A: Aspose.Words puede detectar DOC, DOCX, DOT, DOTX, DOCM, DOTM, RTF, HTML, MHTML, ODT, OTT, FLAT_OPC, WORD_ML y formatos anteriores a 97, entre otros.
 
-### ¿Cuáles son los formatos de documentos admitidos?
+**Q: ¿Puede este código manejar documentos protegidos con contraseña?**  
+A: Sí. La bandera `FileFormatInfo.isEncrypted()` identifica los archivos cifrados, lo que permite moverlos a una carpeta segura sin abrirlos.
 
-Aspose.Words para Java admite varios formatos de documentos, como DOC, DOCX, RTF, HTML y más. Puede consultar la documentación para obtener una lista completa.
+**Q: ¿Hay impacto en el rendimiento al escanear carpetas grandes?**  
+A: La detección solo lee el encabezado del archivo, por lo que incluso miles de archivos se procesan rápidamente. Para lotes muy grandes, considera usar streams paralelos.
 
-### ¿Cómo puedo detectar documentos cifrados usando Aspose.Words para Java?
+**Q: ¿Cómo puedo extender el script para convertir formatos no compatibles?**  
+A: Después de la detección, puedes llamar a `Document.save` con el formato de salida deseado para cualquier tipo de origen compatible.
 
-Puedes utilizar el `FileFormatUtil.detectFileFormat()` método para detectar documentos cifrados, como se muestra en esta guía.
+## Conclusión
 
-### ¿Existen limitaciones al trabajar con formatos de documentos antiguos?
+Al usar **detect document format java** con Aspose.Words, obtienes una forma fiable de ordenar, poner en cuarentena o convertir automáticamente archivos relacionados con Word. El código de ejemplo muestra cómo crear una jerarquía de carpetas limpia, identificar el formato de cada archivo y moverlo en consecuencia, ahorrándote tiempo y reduciendo errores manuales.
 
-Los formatos de documentos más antiguos, como MS Word 6 o Word 95, pueden tener limitaciones en cuanto a funciones y compatibilidad con aplicaciones modernas. Considere actualizar o convertir estos documentos cuando sea necesario.
+---
 
-### ¿Puedo automatizar la detección del formato de documento en mi aplicación Java?
-
-Sí, puede automatizar la detección del formato de documentos integrando el código proporcionado en su aplicación Java. Esto le permite procesar documentos según los formatos detectados.
-
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

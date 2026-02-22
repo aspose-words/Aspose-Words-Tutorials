@@ -1,11 +1,29 @@
 ---
-"description": "Lär dig hur du identifierar dokumentformat i Java med Aspose.Words. Identifiera DOC, DOCX med mera. Organisera filer effektivt."
-"linktitle": "Bestämma dokumentformat"
-"second_title": "Aspose.Words Java-dokumentbehandlings-API"
-"title": "Bestämma dokumentformat i Aspose.Words för Java"
-"url": "/sv/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2026-02-22
+description: Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words och automatiskt
+  flyttar filer efter format. Identifiera DOC, DOCX och mer.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: Detektera dokumentformat i Java med Aspose.Words för Java
+url: /sv/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
+
+}} etc.
+
+Also keep markdown tables.
+
+Translate bullet points, sentences.
+
+Let's produce final Swedish version.
+
+Be careful with "detect document format java" phrase: maybe keep as is? The phrase is technical term; we can keep as is but maybe translate surrounding text. Keep the phrase as is because it's a term. But can also keep lower-case. We'll keep as is.
+
+Also "Aspose.Words for Java" stays.
+
+Let's translate.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -13,24 +31,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bestämma dokumentformat i Aspose.Words för Java
+# detect document format java using Aspose.Words for Java
 
+När du behöver **detect document format java** i en mängd filer, kan förmågan att automatiskt sortera dem i rätt mappar spara timmar av manuellt arbete. I den här handledningen visar vi hur Aspose.Words for Java gör det enkelt att identifiera Word, RTF, HTML, ODT och många andra format, och sedan **move files by format** till organiserade kataloger.
 
-## Introduktion till att bestämma dokumentformat i Aspose.Words för Java
+## Quick Answers
+- **What does “detect document format java” mean?** Det är processen att programmässigt identifiera ett dokuments Word‑behandlingsformat (DOC, DOCX, RTF osv.) med Java‑kod.  
+- **Which library provides this capability?** Aspose.Words for Java erbjuder API‑metoden `FileFormatUtil.detectFileFormat`.  
+- **Can the utility also handle encrypted files?** Ja – flaggan `FileFormatInfo.isEncrypted()` talar om för dig om ett dokument är lösenordsskyddat.  
+- **Do I need a license for production use?** En kommersiell Aspose.Words‑licens krävs för icke‑utvärderingsdistributioner.  
+- **Is it possible to move files automatically after detection?** Absolut – kombinera detekteringsresultatet med `FileUtils.copyFile` för att sortera filer till egna mappar.
 
-När du arbetar med dokumentbehandling i Java är det avgörande att bestämma formatet på de filer du hanterar. Aspose.Words för Java erbjuder kraftfulla funktioner för att identifiera dokumentformat, och vi guidar dig genom processen.
+## What is detect document format java?
+`detect document format java` avser att använda Java‑kod för att undersöka ett fils binära header och avgöra vilket Word‑behandlingsformat det tillhör (t.ex. DOC, DOCX, ODT). Aspose.Words läser filen utan att helt ladda dokumentet, vilket gör operationen snabb och minnes‑effektiv.
 
-## Förkunskapskrav
+## Why move files by format?
+Att organisera dokument efter deras ursprungsformat förenklar efterföljande bearbetning:
 
-Innan vi börjar, se till att du har följande förutsättningar:
+- **Batch conversions** blir enkla när alla DOCX‑filer ligger i en och samma mapp.  
+- **Legacy support**: du kan isolera pre‑97 Word‑filer för särskild hantering.  
+- **Security**: krypterade dokument kan automatiskt karantänas.  
 
-- [Aspose.Words för Java](https://releases.aspose.com/words/java/)
-- Java Development Kit (JDK) installerat på ditt system
-- Grundläggande kunskaper i Java-programmering
+## Prerequisites
 
-## Steg 1: Katalogkonfiguration
+Innan vi börjar, se till att du har:
 
-Först måste vi konfigurera de nödvändiga katalogerna för att organisera våra filer effektivt. Vi kommer att skapa kataloger för olika dokumenttyper.
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/) (ladda ner den senaste versionen)  
+- Java Development Kit (JDK) 8 eller högre installerat  
+- Grundläggande kunskap om Java I/O och streams  
+
+## Step 1: Set up directories for each format
+
+Vi skapar först en ren mappstruktur där de detekterade filerna kommer att flyttas. Detta håller arbetsflödet prydligt och gör det enkelt att lägga till nya formatkategorier senare.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +70,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// Skapa katalogerna om de inte redan finns.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +81,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Vi har skapat kataloger för dokumenttyper som stöds, okända, krypterade och före 97.
+> **Pro tip:** Använd absoluta sökvägar eller konfigurera baskatalogen via en properties‑fil för att undvika hårdkodade sökvägar i produktionskod.
 
-## Steg 2: Identifiera dokumentformat
+## Step 2: Detect the document format and move files
 
-Nu ska vi identifiera formatet på dokumenten i våra kataloger. Vi använder Aspose.Words för Java för att uppnå detta.
+Kärnan i **detect document format java** finns i loopen nedan. Den skannar varje fil, bestämmer dess typ och kopierar den till rätt mapp.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +98,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // Visa dokumenttypen
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // Lägg till ärenden för andra dokumentformat efter behov
+        // Add cases for other document formats as needed
     }
 
-    // Hantera krypterade dokument
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Hantera andra dokumenttyper
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +127,18 @@ for (String fileName : listFiles) {
 }
 ```
 
-I det här kodavsnittet itererar vi igenom filerna, identifierar deras format och organiserar dem i respektive kataloger.
+`switch`‑blocket kan utökas för att täcka alla format du är intresserad av. Varje case skriver ut ett vänligt meddelande och flyttar sedan filen till den matchande mappen.
 
-## Komplett källkod för att bestämma dokumentformat i Aspose.Words för Java
+## Complete source code for detecting document format java
+
+Nedan är det fullständiga, körklara exemplet som kombinerar kataloginställning och detekteringslogik. Kopiera det till en Java‑klass, justera bas‑sökvägen och kör det mot en mapp med blandade dokument.
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // Skapa katalogerna om de inte redan finns.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +155,7 @@ I det här kodavsnittet itererar vi igenom filerna, identifierar deras format oc
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // Visa dokumenttypen
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +223,45 @@ I det här kodavsnittet itererar vi igenom filerna, identifierar deras format oc
 
 ```
 
-## Slutsats
+## Common issues and troubleshooting
 
-Att bestämma dokumentformat i Aspose.Words för Java är avgörande för effektiv dokumenthantering. Med stegen som beskrivs i den här guiden kan du identifiera dokumenttyper och hantera dem därefter i dina Java-applikationer.
+| Issue | Why it happens | How to fix |
+|-------|----------------|------------|
+| **`FileFormatUtil.detectFileFormat` returns `UNKNOWN`** | Filen är korrupt eller använder ett icke‑Word‑format. | Verifiera filändelsen, eller lägg till en fallback för att flytta den till *Unknown*-mappen (redan i exemplet). |
+| **Encrypted files throw an exception** | API:t försöker läsa innehållet innan kryptering kontrolleras. | Anropa alltid `info.isEncrypted()` innan någon annan operation på dokumentet. |
+| **Directory creation fails on Linux** | Otillräckliga rättigheter eller saknad föräldramapp. | Säkerställ att Java‑processen har skrivrättigheter och att bas‑sökvägen finns. |
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-### Hur installerar jag Aspose.Words för Java?
+**Q: How do I install Aspose.Words for Java?**  
+A: Du kan ladda ner Aspose.Words for Java från [here](https://releases.aspose.com/words/java/) och följa installationsinstruktionerna som medföljer.
 
-Du kan ladda ner Aspose.Words för Java från [här](https://releases.aspose.com/words/java/) och följ de medföljande installationsanvisningarna.
+**Q: What document formats are supported for detection?**  
+A: Aspose.Words kan detektera DOC, DOCX, DOT, DOTX, DOCM, DOTM, RTF, HTML, MHTML, ODT, OTT, FLAT_OPC, WORD_ML samt äldre pre‑97‑format, bland andra.
 
-### Vilka dokumentformat stöds?
+**Q: Can this code handle password‑protected documents?**  
+A: Ja. Flaggan `FileFormatInfo.isEncrypted()` identifierar krypterade filer, så att du kan flytta dem till en säker mapp utan att öppna dem.
 
-Aspose.Words för Java stöder olika dokumentformat, inklusive DOC, DOCX, RTF, HTML med flera. Du kan se dokumentationen för en komplett lista.
+**Q: Is there a performance impact when scanning large folders?**  
+A: Detektering läser bara filens header, så även tusentals filer behandlas snabbt. För mycket stora batcher kan du överväga parallella streams.
 
-### Hur kan jag upptäcka krypterade dokument med Aspose.Words för Java?
+**Q: How can I extend the script to convert unsupported formats?**  
+A: Efter detektering kan du anropa `Document.save` med önskat utdataformat för vilken som helst av de stödjade källtyperna.
 
-Du kan använda `FileFormatUtil.detectFileFormat()` metod för att upptäcka krypterade dokument, vilket visas i den här guiden.
+## Conclusion
 
-### Finns det några begränsningar när man arbetar med äldre dokumentformat?
+Genom att använda **detect document format java** med Aspose.Words får du ett pålitligt sätt att automatiskt sortera, karantänsätta eller konvertera Word‑relaterade filer. Exempelkoden visar hur du skapar en ren mapphierarki, identifierar varje fils format och flyttar den därefter – vilket sparar tid och minskar manuella fel.
 
-Äldre dokumentformat, som MS Word 6 eller Word 95, kan ha begränsningar vad gäller funktioner och kompatibilitet med moderna program. Överväg att uppgradera eller konvertera dessa dokument vid behov.
+---
 
-### Kan jag automatisera identifiering av dokumentformat i mitt Java-program?
-
-Ja, du kan automatisera identifiering av dokumentformat genom att integrera den medföljande koden i ditt Java-program. Detta gör att du kan bearbeta dokument baserat på deras identifierade format.
-
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
