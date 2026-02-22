@@ -31,9 +31,12 @@
 | [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Εξαγωγή Εικόνων](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# και εξαγωγή εικόνων. |
 | [Πώς να εξάγετε Markdown από το Word – Πλήρης οδηγός C#](./how-to-export-markdown-from-word-complete-c-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε μορφή Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Πώς να εξάγετε Markdown από DOCX – Πλήρης Οδηγός](./how-to-export-markdown-from-docx-complete-guide/) | Μάθετε πώς να εξάγετε έγγραφα DOCX σε μορφή Markdown με οδηγό βήμα‑βήμα C# χρησιμοποιώντας Aspose.Words. |
+| [Πώς να εξάγετε Markdown από DOCX – Πλήρης Οδηγός βήμα‑βήμα](./how-to-export-markdown-from-docx-complete-step-by-step-guide/) | Μάθετε πώς να εξάγετε αρχεία DOCX σε μορφή Markdown με πλήρη οδηγό βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](./how-to-save-markdown-from-docx-step-by-step-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown με οδηγίες βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
+| [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης οδηγός C#](./how-to-save-markdown-from-word-complete-c-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να εξάγετε Markdown από το Word – Πλήρης οδηγός C#](./how-to-export-markdown-from-word-complete-c-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε μορφή Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](./how-to-save-markdown-from-docx-step-by-step-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown με οδηγίες βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
+| [Πώς να εξάγετε Markdown από DOCX με εικόνες – Πλήρης οδηγός](./how-to-export-markdown-from-docx-with-images-complete-guide/) | Μάθετε πώς να εξάγετε Markdown από αρχεία DOCX συμπεριλαμβάνοντας εικόνες με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

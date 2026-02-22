@@ -38,7 +38,7 @@ En suivant ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités
 | [Gardez la table ensemble](./keep-table-together/) | Découvrez comment éviter que les tableaux ne se répartissent sur plusieurs pages dans vos documents Word grâce à Aspose.Words pour .NET. Suivez notre guide pour conserver des documents professionnels et lisibles. |
 | [Fusion verticale](./vertical-merge/) Maîtrisez la fusion verticale dans les tableaux Word avec Aspose.Words pour .NET grâce à ce guide détaillé. Apprenez les instructions étape par étape pour une mise en forme professionnelle de vos documents. |
 | [Fusion horizontale](./horizontal-merge/) | Apprenez à fusionner horizontalement des cellules dans un document Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel détaillé, étape par étape. |
-| [Convertir en cellules fusionnées horizontalement](./convert-to-horizontally-merged-cells/) Convertissez des cellules fusionnées verticalement en cellules fusionnées horizontalement dans des documents Word avec Aspose.Words pour .NET. Guide étape par étape pour une mise en page de tableau fluide.
+| [Convertir en cellules fusionnées horizontalement](./convert-to-horizontally-merged-cells/) Convertissez des cellules fusionnées verticalement en cellules fusionnées horizontalement dans des documents Word avec Aspose.Words pour .NET. Guide étape par étape pour une mise en page de tableau fluide. |
 | [Répéter les lignes sur les pages suivantes](./repeat-rows-on-subsequent-pages/) | Apprenez à créer des documents Word avec des en-têtes de tableau répétitifs grâce à Aspose.Words pour .NET. Suivez ce guide pour des documents professionnels et soignés. |
 | [Ajuster automatiquement à la fenêtre](./auto-fit-to-page-width/) | Ajustez facilement et automatiquement les tableaux à la fenêtre de vos documents Word grâce à Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour des documents plus clairs et professionnels. |
 | [Paramètres de largeur préférés](./preferred-width-settings/) Apprenez à créer des tableaux avec des paramètres de largeur absolue, relative et automatique dans Aspose.Words pour .NET avec ce guide étape par étape. |
@@ -47,7 +47,7 @@ En suivant ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités
 | [Obtenir la position de la table flottante](./get-floating-table-position/) | Apprenez à obtenir des positions de tableau flottantes dans vos documents Word avec Aspose.Words pour .NET. Ce guide détaillé, étape par étape, vous expliquera tout ce que vous devez savoir. |
 | [Position de la table flottante](./floating-table-position/) | Apprenez à contrôler la position flottante des tableaux dans les documents Word à l'aide d'Aspose.Words pour .NET avec notre guide détaillé étape par étape. |
 | [Définir la position horizontale ou verticale relative](./set-relative-horizontal-or-vertical-position/) Apprenez à définir des positions horizontales et verticales relatives pour les tableaux dans les documents Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
-
+| [Masquer une ligne dans un tableau avec C#](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Apprenez à masquer ou supprimer des lignes de tableau dans Word avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,13 +29,13 @@ Niezależnie od tego, czy musisz zastąpić określone słowa, zaktualizować sz
 | [Zamień tekst Word zawierający znaki meta](./replace-text-containing-meta-characters/) | Dowiedz się, jak zastąpić tekst zawierający znaki meta w dokumentach Word za pomocą Aspose.Words dla .NET. Skorzystaj z naszego szczegółowego, angażującego samouczka, aby płynnie manipulować tekstem. |
 | [Ignoruj tekst wewnątrz pól](./ignore-text-inside-fields/) | Dowiedz się, jak manipulować tekstem wewnątrz pól w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten samouczek zawiera wskazówki krok po kroku z praktycznymi przykładami. |
 | [Ignoruj tekst wewnątrz Usuń wersje](./ignore-text-inside-delete-revisions/) Dowiedz się, jak obsługiwać śledzone wersje w dokumentach Worda, korzystając z Aspose.Words dla .NET. Opanuj automatyzację dokumentów dzięki temu kompleksowemu samouczkowi. |
-| [Ignoruj tekst wewnątrz wstawianych wersji](./ignore-text-inside-insert-revisions/) | Dowiedz się, jak skutecznie zarządzać rewizjami dokumentów za pomocą Aspose.Words dla .NET. Odkryj techniki ignorowania tekstu wewnątrz wstawianych rewizji w celu usprawnienia edycji. |
+| [Ignoruj tekst wewnątrz wstawianych wersji](./ignore-text-inside-insert-revisions/) | Dowiedz się, jak skutecznie zarządzać rewizjami dokumentów za pomocą Aspose.Words dla .NET. Odkryj techniki ignorowania tekstu wewnątrz wstawionych rewizji w celu usprawnienia edycji. |
 | [Zamień tekst w stopce](./replace-text-in-footer/) | Dowiedz się, jak zastąpić tekst w stopce dokumentu Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby opanować zastępowanie tekstu ze szczegółowymi przykładami. |
 | [Zamień na wyrażenie regularne](./replace-with-regex/) | Dowiedz się, jak używać wyrażeń regularnych do znajdowania i zamieniania w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby opanować manipulację tekstem. |
 | [Rozpoznawanie i zastępowanie w ramach wzorców zastępczych](./recognize-and-substitutions-within-replacement-patterns/) | Dowiedz się, jak rozpoznawać i podstawiać tekst w obrębie wzorców zastępczych za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku ze szczegółowymi przykładami. |
 | [Zamień na ciąg](./replace-with-string/) | Dowiedz się, jak zamieniać ciągi w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować edycję dokumentów. |
 | [Zamień tekst w tabeli](./replace-text-in-table/) | Bezproblemowo zamienisz tekst w tabeli programu Word za pomocą narzędzia Aspose.Words dla platformy .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. |
-
+| [Zamień tekst w DOCX przy użyciu C# – przewodnik krok po kroku](./replace-text-in-docx-with-c-step-by-step-guide/) | Dowiedz się, jak w prosty sposób zamienić tekst w plikach DOCX przy użyciu C# i Aspose.Words dla .NET, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

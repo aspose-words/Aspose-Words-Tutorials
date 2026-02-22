@@ -15,7 +15,7 @@
 
 # Tách tài liệu Word
 
-Split Document là một nguồn tài nguyên toàn diện giải thích cách chia một tài liệu thành các phần riêng biệt bằng cách sử dụng thư viện Aspose.Words for .NET. Các hướng dẫn cung cấp các giải thích từng bước chi tiết, các ví dụ về mã nguồn hoàn chỉnh và các mẹo thực tế để chia một tài liệu theo các điều kiện khác nhau, chẳng hạn như số trang, phần, đoạn văn, v.v. Tài nguyên này rất cần thiết cho các nhà phát triển muốn tự động hóa quy trình chia các tài liệu lớn và đơn giản hóa việc quản lý các phần riêng lẻ. Với Aspose.Words for .NET, bạn có thể dễ dàng trích xuất, lưu và thao tác các phần khác nhau của một tài liệu, cải thiện đáng kể hiệu quả và tính linh hoạt của quy trình xử lý tài liệu của bạn.
+Split Document là một nguồn tài nguyên toàn diện giải thích cách chia một tài liệu thành các phần riêng biệt bằng cách sử dụng thư viện Aspose.Words for .NET. Các hướng dẫn cung cấp các giải thích từng bước chi tiết, các ví dụ về mã nguồn hoàn chỉnh và các mẹo thực tế để chia một tài liệu theo các điều kiện khác nhau, chẳng hạn như số trang, phần, đoạn văn, v.t. Tài nguyên này rất cần thiết cho các nhà phát triển muốn tự động hóa quy trình chia các tài liệu lớn và đơn giản hóa việc quản lý các phần riêng lẻ. Với Aspose.Words for .NET, bạn có thể dễ dàng trích xuất, lưu và thao tác các phần khác nhau của một tài liệu, cải thiện đáng kể hiệu quả và tính linh hoạt của quy trình xử lý tài liệu của bạn.
 
  ## Hướng dẫn
 | Tiêu đề | Mô tả |
@@ -26,7 +26,7 @@ Split Document là một nguồn tài nguyên toàn diện giải thích cách c
 | [Chia tài liệu Word theo trang](./page-by-page/) | Tìm hiểu cách chia tài liệu Word theo trang bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo để quản lý hiệu quả các tài liệu lớn. |
 | [Hợp nhất tài liệu](./merge-documents/) | Hướng dẫn từng bước giải thích mã nguồn C# của tính năng Merge Documents của Aspose.Words cho .NET |
 | [Chia tài liệu Word theo phạm vi trang](./by-page-range/) | Tìm hiểu cách chia tài liệu Word theo phạm vi trang bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển. |
-
+| [Tạo PDF từ các trang – Hướng dẫn trích xuất các trang cụ thể](./create-pdf-from-pages-extract-specific-pages-guide/) | Tìm hiểu cách tạo PDF từ các trang được chọn bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

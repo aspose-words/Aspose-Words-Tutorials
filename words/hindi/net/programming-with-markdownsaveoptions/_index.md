@@ -30,8 +30,11 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन में सहेजें – LaTeX समीकरणों के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | C# में LaTeX समीकरणों के साथ DOCX को मार्कडाउन में बदलने की पूरी गाइड। |
 | [DOCX को मार्कडाउन के रूप में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण C# गाइड](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | इमेज एक्सट्रैक्शन के साथ DOCX को मार्कडाउन में बदलने की पूरी गाइड। C# में चरण‑दर‑चरण प्रक्रिया। |
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
+| [Word से Markdown सहेजें – पूर्ण C# गाइड](./how-to-save-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में सहेजने की पूरी C# गाइड |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./how-to-save-markdown-from-docx-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [DOCX से Markdown निर्यात कैसे करें – पूरी गाइड](./how-to-export-markdown-from-docx-complete-guide/) | DOCX फ़ाइल को Markdown में निर्यात करने की विस्तृत चरण‑दर‑चरण गाइड। |
+| [DOCX से मार्कडाउन निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-markdown-from-docx-complete-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में निर्यात करने की पूर्ण चरण‑दर‑चरण गाइड। |
+| [DOCX से इमेज के साथ मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-docx-with-images-complete-guide/) | DOCX फ़ाइलों को इमेज के साथ मार्कडाउन में निर्यात करने की पूरी चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

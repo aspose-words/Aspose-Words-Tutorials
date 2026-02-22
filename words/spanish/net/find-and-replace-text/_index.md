@@ -28,14 +28,14 @@ Ya sea que necesite reemplazar palabras específicas, actualizar plantillas de t
 | [Metacaracteres en el patrón de búsqueda](./meta-characters-in-search-pattern/) Aprenda a usar metacaracteres en patrones de búsqueda con Aspose.Words para .NET con esta guía detallada paso a paso. Optimice el procesamiento de sus documentos.
 | [Reemplazar texto que contiene metacaracteres en Word](./replace-text-containing-meta-characters/) Aprenda a reemplazar texto con metacaracteres en documentos de Word con Aspose.Words para .NET. Siga nuestro tutorial detallado y atractivo para una manipulación de texto fluida.
 | [Ignorar texto dentro de los campos](./ignore-text-inside-fields/) Aprenda a manipular texto dentro de campos en documentos de Word con Aspose.Words para .NET. Este tutorial ofrece una guía paso a paso con ejemplos prácticos.
-| [Ignorar texto dentro de Eliminar revisiones](./ignore-text-inside-delete-revisions/) Aprenda a gestionar las revisiones con seguimiento en documentos de Word con Aspose.Words para .NET. Domine la automatización de documentos con este completo tutorial.
+| [Ignorar texto dentro de Eliminar revisiones](./ignore-text-inside-delete-revisions/) Aprende a gestionar las revisiones con seguimiento en documentos de Word con Aspose.Words para .NET. Domine la automatización de documentos con este completo tutorial.
 | [Ignorar texto dentro de las revisiones de inserción](./ignore-text-inside-insert-revisions/) Aprenda a gestionar eficazmente las revisiones de documentos con Aspose.Words para .NET. Descubra técnicas para ignorar el texto dentro de las revisiones de inserción y optimizar la edición.
 | [Reemplazar texto en el pie de página](./replace-text-in-footer/) Aprenda a reemplazar texto en el pie de página de un documento de Word con Aspose.Words para .NET. Siga esta guía para dominar el reemplazo de texto con ejemplos detallados.
 | [Reemplazar con expresiones regulares](./replace-with-regex/) Aprenda a usar expresiones regulares para buscar y reemplazar en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso para dominar la manipulación de texto.
 | [Reconocer y sustituciones dentro de patrones de reemplazo](./recognize-and-substitutions-within-replacement-patterns/) Aprenda a reconocer y sustituir texto dentro de patrones de reemplazo con Aspose.Words para .NET. Guía paso a paso con ejemplos detallados.
 | [Reemplazar con cadena](./replace-with-string/) Aprenda a reemplazar cadenas en documentos de Word con Aspose.Words para .NET con esta guía paso a paso. Ideal para desarrolladores que buscan automatizar la edición de documentos.
 | [Reemplazar texto en la tabla](./replace-text-in-table/) | Reemplace sin esfuerzo texto en una tabla de Word usando Aspose.Words para .NET con esta guía detallada paso a paso. |
-
+| [Reemplazar texto en DOCX con C# – Guía paso a paso](./replace-text-in-docx-with-c-step-by-step-guide/) Aprenda a reemplazar texto en archivos DOCX usando C# con Aspose.Words para .NET, siguiendo una guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

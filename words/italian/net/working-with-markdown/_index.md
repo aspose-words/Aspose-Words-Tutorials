@@ -40,7 +40,7 @@
 | [Leggi il documento Markdown](./read-markdown-document/) Impara a leggere e manipolare documenti Markdown usando Aspose.Words per .NET con questo tutorial dettagliato e passo dopo passo. Perfetto per sviluppatori di tutti i livelli. |
 | [Enfasi](./emphases/) | Scopri come creare testo enfatizzato in Markdown usando Aspose.Words per .NET. Questa guida illustra gli stili grassetto, corsivo e combinato con istruzioni dettagliate. |
 | [Utilizzare la fonte di avviso](./use-warning-source/) | Padroneggia Aspose.Words per .NET con questa guida dettagliata sull'utilizzo della classe WarningSource per la gestione degli avvisi di Markdown. Perfetta per gli sviluppatori C#. |
-
+| [Carica file Markdown in un documento – Tutorial completo di parsing](./load-markdown-file-into-a-document-complete-parsing-tutorial/) | Scopri come caricare un file Markdown in un documento Word e analizzarlo completamente con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

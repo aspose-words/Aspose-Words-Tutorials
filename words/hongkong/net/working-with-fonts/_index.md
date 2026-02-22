@@ -1,5 +1,5 @@
 ---
-"description": "使用字體進行文字處理教學教您如何使用 Aspose.Words for .NET 在 Word 中處理字體。格式化、替換、通知等等。"
+"description": "使用字體進行文字處理教您如何使用 Aspose.Words for .NET 在 Word 中處理字體。格式化、替換、通知等等。"
 "linktitle": "使用字型進行文字處理"
 "second_title": "Aspose.Words文件處理API"
 "title": "使用字型進行文字處理"
@@ -48,6 +48,7 @@
 | [接收警告通知](./receive-warning-notification/) |了解如何在使用 Aspose.Words for .NET 時接收警告通知並管理文件中的任何問題或警告。 |
 | [資源 Steam 字體來源範例](./resource-steam-font-source-example/) |了解如何使用資源流字體來源將自訂字體載入到 Aspose.Words for .NET 中。 |
 | [取得不含後綴的替換](./get-substitution-without-suffixes/) |在本教學中，學習如何使用 Aspose.Words for .NET 在 Word 文件中取得無後綴覆蓋。 |
+| [如何在載入 DOCX 檔案時啟用警告並偵測缺少的字體](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) |了解如何在使用 Aspose.Words for .NET 載入 DOCX 檔案時啟用警告並偵測缺少的字體。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

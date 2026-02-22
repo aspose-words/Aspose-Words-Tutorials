@@ -28,6 +28,7 @@
 | [รับช่วงหน้า Jpeg](./get-jpeg-page-range/) | แปลงหน้าเฉพาะของเอกสาร Word เป็น JPEG ด้วยการตั้งค่าแบบกำหนดเองโดยใช้ Asp Aspose.Words สำหรับ .NET เรียนรู้วิธีการปรับความสว่าง ความคมชัด และความละเอียดทีละขั้นตอน -
 | [การบันทึกหน้าการโทรกลับ](./page-saving-callback/) | เรียนรู้การบันทึกแต่ละหน้าของเอกสาร Word เป็นรูปภาพ PNG แยกกันโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
 - [วิธีตั้งค่า DPI เมื่อแปลง Word เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | เรียนรู้วิธีตั้งค่า DPI ในการแปลงไฟล์ Word เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [บันทึก Word เป็นภาพด้วย C# – คู่มือทีละขั้นตอน](./save-word-as-images-with-c-step-by-step-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็นไฟล์ภาพหลายรูปแบบด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
