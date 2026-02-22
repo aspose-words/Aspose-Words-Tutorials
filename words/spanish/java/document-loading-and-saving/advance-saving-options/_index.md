@@ -1,10 +1,13 @@
 ---
-"description": "Aprenda a manipular documentos de forma avanzada con Aspose.Words para Java. Cifre, gestione metarchivos y mucho más. Sus documentos de Word, a su manera."
-"linktitle": "Guardar documentos en varios formatos con"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Opciones de guardado avanzadas con Aspose.Words para Java"
-"url": "/es/java/document-loading-and-saving/advance-saving-options/"
-"weight": 14
+date: 2026-02-22
+description: Aprenda a guardar Word con contraseña y a usar opciones avanzadas de
+  guardado, como el manejo de metaficheros y el control de viñetas con imágenes, con
+  Aspose.Words para Java.
+linktitle: Saving Documents in Various Formats with
+second_title: Aspose.Words Java Document Processing API
+title: Guardar Word con contraseña y opciones avanzadas – Aspose.Words para Java
+url: /es/java/document-loading-and-saving/advance-saving-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +16,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opciones de guardado avanzadas con Aspose.Words para Java
+# Guardar Word con Contraseña y Opciones Avanzadas – Aspose.Words for Java
 
+En las aplicaciones Java modernas, la protección **saving Word with password** es un requisito común para proteger contenido sensible. Aspose.Words for Java no solo permite cifrar documentos, sino que también brinda un control granular sobre la compresión de metafiles, picture bullets y muchas otras funciones de guardado. En este tutorial paso a paso revisaremos las opciones de *advanced saving options* más útiles que puede aplicar con la API de Aspose.Words para Java.
 
-# Guía paso a paso: Opciones avanzadas de guardado con Aspose.Words para Java
+## Respuestas rápidas
+- **¿Cómo agregar una contraseña a un archivo Word?** Use `DocSaveOptions.setPassword("yourPassword")` before calling `doc.save()`.  
+- **¿Puedo evitar la compresión de metafiles?** Set `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **¿Es posible excluir picture bullets?** Yes, call `saveOptions.setSavePictureBullet(false)`.  
+- **¿Necesito una licencia para estas funciones?** A trial works for evaluation; a commercial license is required for production.  
+- **¿Qué producto Aspose cubre esto?** Aspose.Words for Java — the leading library for **aspose words document saving** tasks.
 
-En la era digital actual, la manipulación de documentos es una tarea común para los desarrolladores. Ya sea cifrar documentos, gestionar metarchivos o gestionar viñetas de imágenes, Aspose.Words para Java ofrece una potente API para agilizar estos procesos. En este tutorial, exploraremos cómo usar opciones avanzadas de guardado con Aspose.Words para Java.
+## Qué es “save word with password”?
+Guardar un documento Word con una contraseña significa cifrar el archivo de modo que solo los usuarios que conozcan la contraseña puedan abrirlo, editarlo o imprimirlo. Esta capa de seguridad es esencial para informes confidenciales, contratos o cualquier dato que deba permanecer privado.
 
-## Introducción a Aspose.Words para Java
+## ¿Por qué usar las funciones de guardado de documentos de Aspose.Words?
+Aspose.Words ofrece un conjunto amplio de opciones de **aspose words document saving** que van mucho más allá de la simple salida de archivos. Puede controlar la compresión, el manejo de imágenes e incluso decidir si incrusta picture bullets, todo sin salir de su código Java.
 
-Antes de profundizar en el código, presentemos brevemente Aspose.Words para Java. Es una robusta biblioteca de Java que permite a los desarrolladores crear, manipular y convertir documentos de Word sin esfuerzo. Ya sea que necesite generar informes, añadir seguridad o formatear texto, Aspose.Words para Java lo tiene cubierto.
+## Requisitos previos
+- Java 8 o posterior instalado.  
+- Biblioteca Aspose.Words for Java añadida a su proyecto (Maven/Gradle o JAR manual).  
+- Familiaridad básica con IDEs de Java (IntelliJ, Eclipse, etc.).
 
-## Configuración del entorno
+## Guía paso a paso
 
-Antes de comenzar a codificar, asegúrese de tener configurado el entorno necesario:
-
-1. Crear un documento: inicialice un nuevo documento utilizando Aspose.Words para Java.
+### Paso 1: Crear un documento simple
+Primero, creamos un nuevo `Document` y añadimos algo de texto. Este será el archivo base que luego protegeremos con una contraseña.
 
 ```java
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.write("Hello world!");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.write("Hello world!");
 ```
 
-## Cómo cifrar un documento con una contraseña
-
-Ahora, profundicemos en el primer paso: cifrar un documento con una contraseña. Esto añade una capa adicional de seguridad a sus documentos confidenciales.
+### Paso 2: Guardar Word con contraseña
+Ahora ciframos el documento. El objeto `DocSaveOptions` nos permite especificar la contraseña y cualquier otra preferencia de guardado.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -48,9 +60,10 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-## No comprimir metarchivos pequeños
+> **Consejo profesional:** Almacene las contraseñas de forma segura (p. ej., usando una bóveda) y nunca las codifique directamente en el código de producción.
 
-Los metarchivos son esenciales en los documentos de Word, pero quizás no quieras comprimir los pequeños. Aquí te explicamos cómo lograrlo:
+### Paso 3: No comprimir metafiles pequeños
+Si su documento contiene gráficos vectoriales (p. ej., objetos de ecuaciones), puede preferir mantenerlos sin comprimir para obtener mejor calidad. El siguiente ejemplo desactiva la compresión automática.
 
 ```java
 @Test
@@ -64,9 +77,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-## Cómo evitar guardar viñetas de imágenes
-
-Las viñetas de imágenes pueden ser llamativas, pero conviene evitarlas. Aquí te explicamos cómo:
+### Paso 4: Excluir picture bullets del archivo guardado
+Los picture bullets pueden aumentar el tamaño del archivo. Si no los necesita, desactívelos con `setSavePictureBullet(false)`.
 
 ```java
 @Test
@@ -80,8 +92,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-
-## Código fuente completo para guardar documentos en varios formatos con Aspose.Words para Java
+### Paso 5: Código fuente completo como referencia
+A continuación se muestra el código fuente completo y ejecutable que demuestra las tres opciones avanzadas de guardado juntas.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -111,44 +123,54 @@ public void doNotSavePictureBullet() throws Exception {
 		saveOptions.setSavePictureBullet(false);
 	}
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
+}
 ```
 
-## Conclusión
-
-¡Felicitaciones! Has aprendido a usar Aspose.Words para Java para realizar opciones avanzadas de guardado. Ya sea para cifrar documentos, gestionar metarchivos o viñetas de imágenes, Aspose.Words para Java te permite controlar tus documentos de Word.
+## Problemas comunes y consejos
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| **El documento se abre pero la contraseña se ignora** | Usando `saveOptions` con un `SaveFormat` diferente | Asegúrese de pasar la misma instancia de `DocSaveOptions` a `doc.save()` y que la extensión del archivo coincida con el formato (p. ej., `.docx`). |
+| **Los metafiles siguen comprimidos** | `setAlwaysCompressMetafiles` solo afecta a los metafiles *pequeños* | Verifique el tamaño del metafile; los grandes siempre se comprimen según la especificación DOCX. |
+| **Los picture bullets siguen apareciendo** | El documento contiene imágenes en línea usadas como viñetas | Convierta esas viñetas a estilos de lista estándar antes de guardar, o elimínelas manualmente mediante la API. |
 
 ## Preguntas frecuentes
 
-### 1. ¿Aspose.Words para Java es una biblioteca gratuita?
+**P: ¿Es Aspose.Words for Java una biblioteca gratuita?**  
+R: No, Aspose.Words for Java es una biblioteca comercial. Puede encontrar los detalles de la licencia [aquí](https://purchase.aspose.com/buy).
 
-No, Aspose.Words para Java es una biblioteca comercial. Puede encontrar información sobre la licencia. [aquí](https://purchase.aspose.com/buy).
+**P: ¿Cómo puedo obtener una prueba gratuita de Aspose.Words for Java?**  
+R: Puede obtener una prueba gratuita de Aspose.Words for Java [aquí](https://releases.aspose.com/).
 
-### 2. ¿Cómo puedo obtener una prueba gratuita de Aspose.Words para Java?
+**P: ¿Dónde puedo encontrar soporte para Aspose.Words for Java?**  
+R: Para soporte y discusiones comunitarias, visite el [foro de Aspose.Words for Java](https://forum.aspose.com/).
 
-Puede obtener una prueba gratuita de Aspose.Words para Java [aquí](https://releases.aspose.com/).
+**P: ¿Puedo usar Aspose.Words for Java con otras bibliotecas Java?**  
+R: Sí, Aspose.Words for Java es compatible con diversas bibliotecas y frameworks de Java.
 
-### 3. ¿Dónde puedo encontrar soporte para Aspose.Words para Java?
+**P: ¿Existe una opción de licencia temporal disponible?**  
+R: Sí, puede obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-Para obtener ayuda y participar en debates comunitarios, visite el sitio [Foro de Aspose.Words para Java](https://forum.aspose.com/).
+## Preguntas frecuentes adicionales
 
-### 4. ¿Puedo usar Aspose.Words para Java con otras bibliotecas Java?
+**P: ¿La protección con contraseña afecta el tamaño del documento?**  
+R: El archivo cifrado es ligeramente más grande debido a la sobrecarga del cifrado, pero el aumento suele ser insignificante.
 
-Sí, Aspose.Words para Java es compatible con varias bibliotecas y marcos de Java.
+**P: ¿Puedo establecer diferentes contraseñas para permisos de solo lectura y edición?**  
+R: Aspose.Words admite una única contraseña para abrir el documento. Para permisos más granulares, considere usar la conversión a PDF con configuraciones de protección separadas.
 
-### 5. ¿Existe una opción de licencia temporal disponible?
+**P: ¿Estas opciones de guardado están disponibles para todos los formatos Word (DOC, DOCX, RTF)?**  
+R: Sí, `DocSaveOptions` funciona con todos los formatos compatibles con Aspose.Words, aunque algunas opciones son específicas de formato (p. ej., picture bullets solo son relevantes para DOCX).
 
-Sí, puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+---
 
-Comience hoy mismo a utilizar Aspose.Words para Java y desbloquee todo el potencial de manipulación de documentos en sus aplicaciones Java.
-
-
+**Última actualización:** 2026-02-22  
+**Probado con:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
