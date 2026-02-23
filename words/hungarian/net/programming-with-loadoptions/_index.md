@@ -34,6 +34,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [CHM fájlok betöltése Word dokumentumba](./load-chm/) | Ezzel a lépésről lépésre haladó útmutatóval könnyedén betölthet CHM fájlokat Word dokumentumokba az Aspose.Words for .NET segítségével. Tökéletes a műszaki dokumentáció összevonásához. |
 | [Hogyan állítsuk helyre a DOCX-et az Aspose.Words segítségével – lépésről lépésre](./how-to-recover-docx-with-aspose-words-step-by-step/) | Ismerje meg, hogyan lehet helyreállítani sérült DOCX fájlokat az Aspose.Words for .NET használatával, részletes lépésekkel. |
 | [Aspose Load Options – DOCX betöltése egyedi betűtípus-beállításokkal](./aspose-load-options-load-docx-with-custom-font-settings/) | Tanulja meg, hogyan használhatja a LoadOptions-t DOCX fájlok egyedi betűtípus-beállításokkal történő betöltéséhez az Aspose.Words for .NET-ben. |
+| [Aspose Load Options konfigurálása C#-ban – Teljes útmutató](./configure-aspose-load-options-in-c-complete-guide/) | Ismerje meg, hogyan konfigurálhatja az Aspose Load Options beállításait C#-ban a Word-dokumentumok betöltéséhez. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

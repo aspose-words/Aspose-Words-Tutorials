@@ -34,6 +34,7 @@
 | [Εντοπισμός Έξυπνου Σχήματος Τέχνης](./detect-smart-art-shape/) | Μάθετε πώς να εντοπίζετε σχήματα SmartArt σε έγγραφα του Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον ολοκληρωμένο οδηγό. Ιδανικό για την αυτοματοποίηση της ροής εργασίας των εγγράφων σας. |
 | [Ενημέρωση Σχεδίου Smart Art](./update-smart-art-drawing/) | Μάθετε πώς να ενημερώνετε σχέδια Smart Art σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό βήμα προς βήμα. Βεβαιωθείτε ότι τα γραφικά σας είναι πάντα ακριβή. |
 | [Δημιουργία σχήματος ορθογωνίου στο Word με Aspose.Words – Οδηγός βήμα προς βήμα](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες. |
+| [Δημιουργία κενού εγγράφου Word με Aspose.Words – Οδηγός βήμα‑βήμα](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
