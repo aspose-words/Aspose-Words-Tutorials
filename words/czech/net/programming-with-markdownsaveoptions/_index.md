@@ -30,8 +30,10 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Převod DOCX do Markdown – krok za krokem průvodce v C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Naučte se převádět soubory DOCX do formátu Markdown pomocí Aspose.Words pro .NET v podrobném průvodci krok za krokem. |
 | [Uložení docx jako markdown – Kompletní průvodce v C# s rovnicemi LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Naučte se převádět soubory DOCX do Markdownu a zachovat LaTeX rovnice pomocí Aspose.Words pro .NET. |
 | [Exportovat Markdown z Wordu – kompletní průvodce v C#](./how-to-export-markdown-from-word-complete-c-guide/) | Naučte se, jak exportovat Markdown z Wordu pomocí kompletního průvodce v C#. |
+| [Jak uložit Markdown z Wordu – Kompletní průvodce](./how-to-save-markdown-from-word-complete-guide/) | Naučte se, jak uložit Markdown z Wordu pomocí kompletního průvodce v C# s Aspose.Words pro .NET. |
 | [Jak uložit Markdown z DOCX – krok za krokem průvodce](./how-to-save-markdown-from-docx-step-by-step-guide/) | Naučte se krok za krokem ukládat soubory DOCX jako Markdown pomocí Aspose.Words pro .NET. |
 | [Jak exportovat Markdown z DOCX – Kompletní průvodce](./how-to-export-markdown-from-docx-complete-guide/) | Naučte se, jak exportovat Markdown z DOCX pomocí kompletního průvodce. |
+| [Jak exportovat LaTeX z Wordu – převést DOCX do Markdownu](./how-to-export-latex-from-word-convert-docx-to-markdown/) | Naučte se exportovat LaTeX z dokumentů Word do formátu Markdown pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

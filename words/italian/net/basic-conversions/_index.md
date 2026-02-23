@@ -23,7 +23,8 @@
 | --- | --- |
 | [Convertire Doc in Docx](./doc-to-docx/) | Scopri come convertire DOC in DOCX usando Aspose.Words per .NET. Guida passo passo con esempi di codice. Perfetto per gli sviluppatori. |
 | [Convertire Docx in Rtf](./docx-to-rtf/) | Scopri come convertire DOCX in RTF utilizzando Aspose.Words per .NET con la nostra guida passo passo. Conversione semplice per un'elaborazione impeccabile dei documenti. |  
-| [Converti file Word in PDF](./docx-to-pdf/) Scopri come convertire facilmente i file Word in PDF utilizzando Aspose.Words per .NET con la nostra guida. Perfetto per gli sviluppatori che cercano una conversione dei documenti rapida e affidabile. | 
+| [Converti file Word in PDF](./docx-to-pdf/) Scopri come convertire facilmente i file Word in PDF utilizzando Aspose.Words per .NET con la nostra guida. Perfetto per gli sviluppatori che cercano una conversione dei documenti rapida e affidabile. |
+| [Tutorial Word a PDF: Converti DOCX in PDF con Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Scopri come convertire file DOCX in PDF usando Aspose.Words per .NET con esempi di codice e istruzioni passo passo. |
 | [Convertire Docx in Byte](./docx-to-byte/) | Scopri come convertire i file Docx in array di byte in .NET utilizzando Aspose.Words per un'elaborazione efficiente dei documenti. Guida passo passo inclusa. |  
 | [Convertire Docx in Epub](./docx-to-epub/) | Converti facilmente DOCX in EPUB con Aspose.Words per .NET. Segui il nostro tutorial per una perfetta integrazione nelle tue applicazioni .NET. |
 | [Convertire Docx in Mhtml e inviare e-mail](./docx-to-mhtml-and-sending-email/) | Scopri come convertire DOCX in MHTML e inviare email utilizzando Aspose.Words per .NET in questa guida passo passo. Aumenta la tua produttività con una facile automazione. |

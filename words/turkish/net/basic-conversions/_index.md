@@ -34,6 +34,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [Metin Dosyasını Word Belgesine Dönüştür](./txt-to-docx/) | Aspose.Words for .NET kullanarak metin dosyalarını Word belgelerine nasıl dönüştüreceğinizi öğrenin. Kapsamlı kılavuzumuzla belge dönüşümlerini verimli bir şekilde yönetin. | 
 | [PDF'yi Jpeg olarak kaydet](./pdf-to-jpeg/) | Aspose.Words for .NET kullanarak PDF'leri zahmetsizce JPEG'lere dönüştürün. Örnekler ve SSS içeren ayrıntılı kılavuzumuzu takip edin. Geliştiriciler ve meraklılar için mükemmel. |
 | [PDF'yi Word Formatına (Docx) Kaydet](./pdf-to-docx/) | Bu ayrıntılı, adım adım kılavuzda Aspose.Words for .NET kullanarak bir PDF'yi Word belgesine (Docx) nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için mükemmel. |
+| [Word'ten PDF'ye Eğitim: DOCX'i Aspose.Words ile PDF'ye Dönüştür](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Aspose.Words for .NET kullanarak DOCX dosyalarını PDF'ye dönüştürmeyi adım adım öğrenin. Pratik örnekler ve kod açıklamaları. |
 | [Word'den LaTeX'e Nasıl Dışa Aktarılır – Adım Adım Kılavuz](./how-to-export-latex-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX formatına nasıl dışa aktarım yapacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
