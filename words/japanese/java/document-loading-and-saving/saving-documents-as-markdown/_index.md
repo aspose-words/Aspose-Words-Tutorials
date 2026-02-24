@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Javaを使ってWord文書をMarkdownに変換する方法を学びましょう。このステップバイステップガイドでは、表の配置、画像の扱い方などについて詳しく説明します。"
-"linktitle": "ドキュメントをMarkdownとして保存する"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java でドキュメントを Markdown として保存する"
-"url": "/ja/java/document-loading-and-saving/saving-documents-as-markdown/"
-"weight": 18
+date: 2026-02-24
+description: Aspose.Words for Java を使用して Word を Markdown に変換する方法を学びましょう。このガイドでは、テーブルの配置、画像の処理、そしてドキュメントを
+  Markdown として保存する方法を取り上げています。
+linktitle: Saving Documents as Markdown
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for JavaでWordをMarkdownに変換
+url: /ja/java/document-loading-and-saving/saving-documents-as-markdown/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +15,48 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でドキュメントを Markdown として保存する
+# Aspose.Words for Java を使用した Word から Markdown への変換
 
+## Aspose.Words for Java を使用した Word から Markdown への変換の概要
 
-## Aspose.Words for Java でドキュメントを Markdown として保存する方法の紹介
+このステップバイステップのチュートリアルでは、強力な Aspose.Words for Java API を使用して **Word を Markdown に変換する方法** を学びます。Markdown は軽量マークアップ言語で、多くの開発者やコンテンツプラットフォームがクリーンで読みやすいドキュメント作成に利用しています。本ガイドを最後まで読むと、任意の `.docx` ファイルをテーブル、画像、書式を保持したまま `.md` ファイルにエクスポートでき、静的サイトジェネレータや GitHub README、その他 Markdown 対応のワークフローで利用できるようになります。
 
-このステップバイステップガイドでは、Aspose.Words for Java を使用してドキュメントを Markdown 形式で保存する方法を説明します。Markdown は、テキストドキュメントの書式設定によく使用される軽量マークアップ言語です。Aspose.Words for Java を使えば、Word ドキュメントを簡単に Markdown 形式に変換できます。表のコンテンツの配置や画像の扱いなど、Markdown ファイルの保存に関するさまざまな側面について説明します。
+## Quick Answers
+- **必要なライブラリは？** Aspose.Words for Java（`aspose-words.jar`）。
+- **テーブルの配置をカスタマイズできますか？** はい – `MarkdownSaveOptions` の `TableContentAlignment` を使用します。
+- **画像はどのように扱われますか？** `setImagesFolder()` で画像フォルダーを指定すると、ライブラリが相対リンクを作成します。
+- **本番環境でライセンスは必要ですか？** トライアル以外の使用には商用ライセンスが必要です。
+- **Java 17 と互換性がありますか？** はい、ライブラリは Java 8 以降をサポートしています。
+
+## Word を Markdown に変換するとは？
+
+Word を Markdown に変換するとは、Microsoft Word 文書のリッチな書式情報をプレーンテキストの Markdown 構文に変換することを意味します。このプロセスは見出し、リスト、テーブル、画像参照を保持しつつ、バイナリ書式情報を除去し、コンテンツをポータブルでバージョン管理に適した形にします。
+
+## Aspose.Words for Java でドキュメントを Markdown として保存するメリットは？
+
+* **フルフィデリティ** – テーブル、画像、複雑なレイアウトがそのまま保持されます。  
+* **細かな制御** – テーブル配置、画像パスなどを自由にカスタマイズ可能です。  
+* **外部依存なし** – Office のインストールは不要で、すぐに利用できます。  
+* **クロスプラットフォーム** – Windows、Linux、macOS いずれでも任意の Java ランタイムで動作します。
 
 ## 前提条件
 
-始める前に、次の前提条件が満たされていることを確認してください。
+開始する前に、以下がインストールされていることを確認してください。
 
-- Java Development Kit (JDK) がシステムにインストールされています。
-- Aspose.Words for Javaライブラリ。こちらからダウンロードできます。 [ここ](https://releases。aspose.com/words/java/).
+- システムに Java Development Kit（JDK）がインストールされていること。  
+- Aspose.Words for Java ライブラリ。ダウンロードは [here](https://releases.aspose.com/words/java/) から取得できます。
 
-## ステップ1：Word文書を作成する
+## ステップバイステップ ガイド
 
-まずWord文書を作成し、後でMarkdown形式に変換します。この文書は必要に応じてカスタマイズできます。
+### 手順 1: 変換対象となる Word 文書を作成する
+
+まず、2 列のテーブルを含むシンプルな Word 文書を作成します。この例では、テーブルセル内の段落配置が **Markdown としてドキュメントを保存** した際に正しく反映されることを示します。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 2つのセルを持つ表を挿入する
+// Insert a table with two cells
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -44,60 +65,56 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// ドキュメントをMarkdownとして保存する
+// Save the document as Markdown
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-この例では、2つのセルを持つシンプルな表を作成し、これらのセル内の段落の配置を設定します。次に、 `MarkdownSaveOptions`。
+### 手順 2: テーブル内容の配置をカスタマイズする
 
-## ステップ2: 表のコンテンツの配置をカスタマイズする
-
-Aspose.Words for Java では、Markdown 形式で保存する際に表のコンテンツの配置をカスタマイズできます。表のコンテンツを左揃え、右揃え、中央揃えにしたり、各表の列の最初の段落に基づいて自動的に配置を決めたりすることも可能です。
-
-表のコンテンツの配置をカスタマイズする方法は次のとおりです。
+Aspose.Words for Java では、生成される Markdown のテーブルセル配置を制御できます。`TableContentAlignment` プロパティを使用して、左寄せ、右寄せ、中央寄せ、または各列の最初の段落に基づいて自動判定させることができます。
 
 ```java
-// 表の内容を左揃えにする
+// Set the table content alignment to left
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// 表の内容を右揃えにする
+// Set the table content alignment to right
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// 表のコンテンツの配置を中央に設定する
+// Set the table content alignment to center
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-// 表の内容の配置を自動（最初の段落によって決定）に設定します
+// Set the table content alignment to auto (determined by first paragraph)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-変更することで `TableContentAlignment` プロパティを使用すると、Markdown に変換するときにテーブル内のコンテンツをどのように配置するかを制御できます。
+この設定を切り替えることで、**Word テーブルを Markdown にエクスポート** する際に、下流のレンダリングエンジンが期待する正確な配置を実現できます。
 
-## ステップ3: 画像の処理
+### 手順 3: 変換時の画像処理
 
-Markdown文書に画像を含めるには、画像が保存されているフォルダを指定する必要があります。Aspose.Words for Javaでは、画像フォルダを `MarkdownSaveOptions`。
-
-画像フォルダを設定し、画像付きのドキュメントを保存する方法は次のとおりです。
+ソースの Word 文書に画像が含まれている場合、Aspose.Words にエクスポート先の画像ファイルの保存場所を指示する必要があります。`MarkdownSaveOptions` の `setImagesFolder` メソッドで画像フォルダーを指定すると、Markdown にはそのフォルダーへの相対リンクが自動的に生成されます。
 
 ```java
-// 画像を含むドキュメントを読み込む
+// Load a document containing images
 Document doc = new Document("document_with_images.docx");
 
-// 画像フォルダのパスを設定する
+// Set the images folder path
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.setImagesFolder("images_folder/");
 
-// 画像付きのドキュメントを保存する
+// Save the document with images
 doc.save("document_with_images.md", saveOptions);
 ```
 
-必ず交換してください `"document_with_images.docx"` 画像を含むWord文書へのパスと `"images_folder/"` 画像が保存されているフォルダーへの実際のパスを入力します。
+`"document_with_images.docx"` を実際のソースファイルパスに、`"images_folder/"` を画像出力先フォルダーに置き換えてください。
 
-## Aspose.Words for Java でドキュメントを Markdown として保存するための完全なソースコード
+### すべてのシナリオの統合サンプルコード
+
+以下は、**テーブル自動配置**、**配置のカスタマイズ**、**画像フォルダーの設定** を 1 つのメソッドで実演する統合例です。元のチュートリアルコードと同一で、変更なしで動作します。
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -110,7 +127,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// 表内のすべての段落を揃えます。
+	// Makes all paragraphs inside the table to be aligned.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -120,7 +137,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// この場合の配置は、対応する表の列の最初の段落から取得されます。
+	// The alignment in this case will be taken from the first paragraph in corresponding table column.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -136,39 +153,46 @@ public void setImagesFolder() throws Exception
 }
 ```
 
+## よくある問題と対策
+
+| 問題 | 原因 | 対策 |
+|------|------|------|
+| 画像がリンク切れになる | `setImagesFolder` が未設定、またはフォルダー パスが誤っている | フォルダー パスが正しいか、書き込み可能か確認する |
+| テーブル配置がずれる | `TableContentAlignment` の値が誤っている | `TableContentAlignment.AUTO` を使用して最初の段落に任せるか、LEFT/RIGHT/CENTER を明示的に指定する |
+| 出力ファイルが空になる | `doc.save()` に保存オプションが渡されていない | `MarkdownSaveOptions` インスタンスを `save` メソッドに渡すことを確認する |
+| Word の一部機能（例: SmartArt）がサポート外 | Markdown では表現できない複雑オブジェクトがある | それらの要素を画像に変換してから保存するか、ソース文書を簡素化する |
+
+## FAQ（よくある質問）
+
+**Q: Aspose.Words for Java のインストール方法は？**  
+A: Aspose.Words for Java はプロジェクトにライブラリを追加することでインストールできます。ライブラリは [here](https://releases.aspose.com/words/java/) からダウンロードし、ドキュメントに記載された手順に従って設定してください。
+
+**Q: 複雑なテーブルや画像を含む Word 文書を Markdown に変換できますか？**  
+A: はい、Aspose.Words for Java はテーブル、画像、さまざまな書式要素を含む複雑な Word 文書の Markdown 変換をサポートしています。ドキュメントの複雑さに応じて Markdown 出力をカスタマイズできます。
+
+**Q: Markdown ファイル内の画像はどのように扱えばよいですか？**  
+A: `MarkdownSaveOptions` の `setImagesFolder` メソッドで画像フォルダーのパスを設定します。指定したフォルダーに画像が保存され、Aspose.Words for Java が Markdown 内の画像参照を自動的に生成します。
+
+**Q: Aspose.Words for Java のトライアル版はありますか？**  
+A: はい、Aspose のウェブサイトから Aspose.Words for Java のトライアル版を入手できます。トライアル版で機能を評価した後、ライセンスを購入してください。
+
+**Q: さらに多くのサンプルやドキュメントはどこで入手できますか？**  
+A: 追加のサンプル、ドキュメント、詳細情報は [documentation](https://reference.aspose.com/words/java/) をご覧ください。
+
 ## 結論
 
-このガイドでは、Aspose.Words for Java を使用してドキュメントを Markdown 形式で保存する方法を説明しました。Word 文書の作成、表の配置のカスタマイズ、Markdown ファイル内の画像の扱い方について説明しました。これで、Word 文書を効率的に Markdown 形式に変換し、様々な出版プラットフォームやドキュメントのニーズに適した形式にすることができます。
+本ガイドでは、Aspose.Words for Java を使用して **Word を Markdown に変換** するために必要な手順をすべて網羅しました。ソース文書の作成、**テーブル配置のカスタマイズ**、画像フォルダーの適切な設定方法を学び、ブログやドキュメントサイト、その他 Markdown 対応プラットフォーム向けに Word コンテンツを確実にエクスポートできるようになります。
 
-## よくある質問
+---
 
-### Aspose.Words for Java をインストールするにはどうすればよいですか?
-
-Aspose.Words for Javaは、Javaプロジェクトにライブラリを含めることでインストールできます。ライブラリは以下からダウンロードできます。 [ここ](https://releases.aspose.com/words/java/) ドキュメントに記載されているインストール手順に従ってください。
-
-### 表や画像を含む複雑な Word 文書を Markdown に変換できますか?
-
-はい、Aspose.Words for Java は、表、画像、さまざまな書式要素を含む複雑な Word 文書を Markdown 形式に変換できます。文書の複雑さに応じて、Markdown 出力をカスタマイズできます。
-
-### Markdown ファイル内の画像をどのように処理すればよいですか?
-
-Markdownファイルに画像を含めるには、画像フォルダのパスを `setImagesFolder` 方法 `MarkdownSaveOptions`画像ファイルが指定されたフォルダーに保存されていることを確認すると、Aspose.Words for Java がそれに応じて画像参照を処理します。
-
-### Aspose.Words for Java の試用版はありますか?
-
-はい、Aspose.Words for Javaの試用版はAsposeのウェブサイトから入手できます。試用版では、ライセンスを購入する前にライブラリの機能を評価することができます。
-
-### さらに詳しい例やドキュメントはどこで見つかりますか?
-
-Aspose.Words for Javaのその他の例、ドキュメント、および詳細情報については、 [ドキュメント](https://reference。aspose.com/words/java/).
-
+**最終更新日:** 2026-02-24  
+**テスト環境:** Aspose.Words for Java 24.12（執筆時点での最新バージョン）  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

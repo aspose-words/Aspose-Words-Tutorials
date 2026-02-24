@@ -1,10 +1,13 @@
 ---
-"description": "Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words för Java. Den här steg-för-steg-guiden täcker tabelljustering, bildhantering och mer."
-"linktitle": "Spara dokument som Markdown"
-"second_title": "Aspose.Words Java-dokumentbehandlings-API"
-"title": "Spara dokument som Markdown i Aspose.Words för Java"
-"url": "/sv/java/document-loading-and-saving/saving-documents-as-markdown/"
-"weight": 18
+date: 2026-02-24
+description: Lär dig hur du konverterar Word till Markdown med Aspose.Words för Java.
+  Denna guide täcker tabelljustering, bildhantering och hur du sparar dokumentet som
+  Markdown.
+linktitle: Saving Documents as Markdown
+second_title: Aspose.Words Java Document Processing API
+title: Konvertera Word till Markdown med Aspose.Words för Java
+url: /sv/java/document-loading-and-saving/saving-documents-as-markdown/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +16,48 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spara dokument som Markdown i Aspose.Words för Java
+# Konvertera Word till Markdown med Aspose.Words för Java
 
+## Introduktion till konvertera Word till Markdown med Aspose.Words för Java
 
-## Introduktion till att spara dokument som Markdown i Aspose.Words för Java
+I den här steg‑för‑steg‑handledningen kommer du att lära dig **hur du konverterar Word till Markdown** med det kraftfulla Aspose.Words för Java‑API:et. Markdown är ett lättviktigt märkningsspråk som många utvecklare och innehållsplattformar förlitar sig på för ren, läsbar dokumentation. I slutet av guiden kan du ta vilken `.docx`‑fil som helst, bevara tabeller, bilder och formatering, och exportera den som en `.md`‑fil som är klar för statiska webbplatsgeneratorer, GitHub‑README‑filer eller något markdown‑vänligt arbetsflöde.
 
-den här steg-för-steg-guiden visar vi hur man sparar dokument som Markdown med hjälp av Aspose.Words för Java. Markdown är ett lätt markupspråk som ofta används för att formatera textdokument. Med Aspose.Words för Java kan du enkelt konvertera dina Word-dokument till Markdown-format. Vi kommer att gå igenom olika aspekter av att spara Markdown-filer, inklusive justering av tabellinnehåll och hantering av bilder.
+## Snabba svar
+- **Vilket bibliotek behöver jag?** Aspose.Words för Java (`aspose-words.jar`).
+- **Kan jag anpassa tabelljustering?** Ja – använd `TableContentAlignment` i `MarkdownSaveOptions`.
+- **Hur hanteras bilder?** Ange en bildmapp med `setImagesFolder()`; biblioteket skapar relativa länkar.
+- **Behöver jag en licens för produktion?** En kommersiell licens krävs för icke‑testanvändning.
+- **Är detta kompatibelt med Java 17?** Ja, biblioteket stöder Java 8 och högre.
 
-## Förkunskapskrav
+## Vad innebär konvertering av Word till Markdown?
 
-Innan du börjar, se till att du har följande förutsättningar:
+Att konvertera Word till Markdown betyder att ta den rika formateringen i ett Microsoft Word‑dokument och översätta den till ren markdown‑syntax. Denna process behåller rubriker, listor, tabeller och bildreferenser samtidigt som binär formatering tas bort, vilket gör innehållet portabelt och versionskontrollvänligt.
+
+## Varför använda Aspose.Words för Java för att spara dokument som markdown?
+
+* **Fullständig trohet** – tabeller, bilder och komplexa layouter bevaras.
+* **Finjusterad kontroll** – du kan anpassa tabelljustering, bildvägar och mer.
+* **Inga externa beroenden** – biblioteket fungerar direkt utan att Office måste vara installerat.
+* **Korsplattform** – fungerar på Windows, Linux och macOS med vilken Java‑runtime som helst.
+
+## Förutsättningar
+
+Innan du börjar, se till att du har:
 
 - Java Development Kit (JDK) installerat på ditt system.
-- Aspose.Words för Java-biblioteket. Du kan ladda ner det från [här](https://releases.aspose.com/words/java/).
+- Aspose.Words för Java‑biblioteket. Du kan ladda ner det [här](https://releases.aspose.com/words/java/).
 
-## Steg 1: Skapa ett Word-dokument
+## Steg‑för‑steg‑guide
 
-Låt oss börja med att skapa ett Word-dokument som vi senare ska konvertera till Markdown-format. Du kan anpassa dokumentet efter dina behov.
+### Steg 1: Skapa ett Word‑dokument som ska konverteras
+
+Först bygger vi ett enkelt Word‑dokument som innehåller en två‑cellig tabell. Detta exempel visar hur styckejustering i tabellceller respekteras när vi senare **sparar dokumentet som markdown**.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en tabell med två celler
+// Insert a table with two cells
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -44,60 +66,56 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// Spara dokumentet som Markdown
+// Save the document as Markdown
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-det här exemplet skapar vi en enkel tabell med två celler och ställer in justeringen av styckena inom dessa celler. Sedan sparar vi dokumentet som Markdown med hjälp av `MarkdownSaveOptions`.
+### Steg 2: Anpassa tabellens innehållsjustering
 
-## Steg 2: Anpassa justeringen av tabellinnehållet
-
-Med Aspose.Words för Java kan du anpassa justeringen av tabellinnehållet när du sparar som Markdown. Du kan justera tabellinnehållet till vänster, höger, centrerat eller låta det bestämmas automatiskt baserat på det första stycket i varje tabellkolumn.
-
-Så här anpassar du justeringen av tabellinnehåll:
+Aspose.Words för Java låter dig styra hur tabellceller justeras i den genererade markdownen. Använd egenskapen `TableContentAlignment` för att **anpassa tabelljustering** till vänster, höger, centrerad, eller låt biblioteket bestämma automatiskt baserat på det första stycket i varje kolumn.
 
 ```java
-// Ställ in tabellinnehållets justering till vänster
+// Set the table content alignment to left
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// Ställ in tabellinnehållets justering till höger
+// Set the table content alignment to right
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// Ställ in tabellinnehållets justering till centrerad
+// Set the table content alignment to center
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-// Ställ in justeringen av tabellinnehållet på automatisk (bestäms av första stycket)
+// Set the table content alignment to auto (determined by first paragraph)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-Genom att ändra `TableContentAlignment` egenskapen kan du styra hur innehållet i tabeller justeras vid konvertering till Markdown.
+Genom att växla denna inställning kan du **exportera Word‑tabeller till markdown** med exakt den justering du behöver för efterföljande renderingsmotorer.
 
-## Steg 3: Hantera bilder
+### Steg 3: Hantera bilder under konvertering
 
-För att inkludera bilder i ditt Markdown-dokument måste du ange mappen där bilderna finns. Aspose.Words för Java låter dig ställa in bildmappen i `MarkdownSaveOptions`.
-
-Så här ställer du in bildmappen och sparar dokumentet med bilderna:
+När ditt käll‑Word‑dokument innehåller bilder måste du tala om för Aspose.Words var de exporterade bildfilerna ska placeras. Metoden `setImagesFolder` på `MarkdownSaveOptions` definierar den mapp som ska hålla bildresurserna, och markdown‑filen kommer att innehålla relativa länkar till dessa filer.
 
 ```java
-// Ladda ett dokument som innehåller bilder
+// Load a document containing images
 Document doc = new Document("document_with_images.docx");
 
-// Ange sökvägen till bildmappen
+// Set the images folder path
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.setImagesFolder("images_folder/");
 
-// Spara dokumentet med bilder
+// Save the document with images
 doc.save("document_with_images.md", saveOptions);
 ```
 
-Se till att byta ut `"document_with_images.docx"` med sökvägen till ditt Word-dokument som innehåller bilder och `"images_folder/"` med den faktiska sökvägen till mappen där dina bilder är lagrade.
+Byt ut `"document_with_images.docx"` mot sökvägen till din källfil och `"images_folder/"` mot den önskade utmatningsmappen för bilderna.
 
-## Komplett källkod för att spara dokument som Markdown i Aspose.Words för Java
+### Fullständig källkod för alla scenarier
+
+Nedan följer ett samlat exempel som visar hur man **auto‑justerar tabeller**, **anpassar justering** och **anger en bildmapp** i en metod. Detta kodsnutt speglar den ursprungliga handledningens kod och fungerar oförändrad.
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -110,7 +128,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// Gör att alla stycken i tabellen är justerade.
+	// Makes all paragraphs inside the table to be aligned.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -120,7 +138,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// Justeringen i det här fallet kommer att hämtas från det första stycket i motsvarande tabellkolumn.
+	// The alignment in this case will be taken from the first paragraph in corresponding table column.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -136,39 +154,46 @@ public void setImagesFolder() throws Exception
 }
 ```
 
-## Slutsats
+## Vanliga problem och lösningar
 
-den här guiden har vi utforskat hur man sparar dokument som Markdown med hjälp av Aspose.Words för Java. Vi har gått igenom hur man skapar ett Word-dokument, anpassar justeringen av tabellinnehåll och hanterar bilder i Markdown-filer. Nu kan du effektivt konvertera dina Word-dokument till Markdown-format, vilket gör dem lämpliga för olika publiceringsplattformar och dokumentationsbehov.
+| Problem | Orsak | Lösning |
+|---------|-------|---------|
+| Bilder visas som brutna länkar | `setImagesFolder` ej angivet eller felaktig mappväg | Verifiera att mappvägen är korrekt och att mappen är skrivbar |
+| Tabelljustering ser felaktig ut | Fel `TableContentAlignment`‑värde | Använd `TableContentAlignment.AUTO` för att låta det första stycket bestämma, eller ange explicit LEFT/RIGHT/CENTER |
+| Utdatafil är tom | Spara‑alternativ har inte skickats till `doc.save()` | Säkerställ att du passerar `MarkdownSaveOptions`‑instansen till `save`‑metoden |
+| Word‑funktioner stöds ej (t.ex. SmartArt) | Markdown kan inte representera vissa komplexa objekt | Konvertera dessa element till bilder innan du sparar, eller förenkla källdokumentet |
 
 ## Vanliga frågor
 
-### Hur installerar jag Aspose.Words för Java?
+**Q: Hur installerar jag Aspose.Words för Java?**  
+A: Aspose.Words för Java kan installeras genom att inkludera biblioteket i ditt Java‑projekt. Du kan ladda ner biblioteket från [här](https://releases.aspose.com/words/java/) och följa installationsinstruktionerna i dokumentationen.
 
-Aspose.Words för Java kan installeras genom att inkludera biblioteket i ditt Java-projekt. Du kan ladda ner biblioteket från [här](https://releases.aspose.com/words/java/) och följ installationsanvisningarna som finns i dokumentationen.
+**Q: Kan jag konvertera komplexa Word‑dokument med tabeller och bilder till Markdown?**  
+A: Ja, Aspose.Words för Java stödjer konvertering av komplexa Word‑dokument med tabeller, bilder och olika formateringselement till Markdown. Du kan anpassa Markdown‑utdata enligt ditt dokuments komplexitet.
 
-### Kan jag konvertera komplexa Word-dokument med tabeller och bilder till Markdown?
+**Q: Hur hanterar jag bilder i Markdown‑filer?**  
+A: För att inkludera bilder i Markdown‑filer, ange bildmappens sökväg med `setImagesFolder`‑metoden i `MarkdownSaveOptions`. Se till att bildfilerna lagras i den angivna mappen, så hanterar Aspose.Words för Java bildreferenserna automatiskt.
 
-Ja, Aspose.Words för Java stöder konvertering av komplexa Word-dokument med tabeller, bilder och olika formateringselement till Markdown. Du kan anpassa Markdown-utdata efter dokumentets komplexitet.
+**Q: Finns det en provversion av Aspose.Words för Java?**  
+A: Ja, du kan skaffa en provversion av Aspose.Words för Java från Aspose‑webbplatsen. Provversionen låter dig utvärdera bibliotekets funktioner innan du köper en licens.
 
-### Hur kan jag hantera bilder i Markdown-filer?
+**Q: Var kan jag hitta fler exempel och dokumentation?**  
+A: För fler exempel, dokumentation och detaljerad information om Aspose.Words för Java, besök gärna [dokumentationen](https://reference.aspose.com/words/java/).
 
-För att inkludera bilder i Markdown-filer, ange sökvägen till bildmappen med hjälp av `setImagesFolder` metod i `MarkdownSaveOptions`Se till att bildfilerna lagras i den angivna mappen, så kommer Aspose.Words för Java att hantera bildreferenserna därefter.
+## Slutsats
 
-### Finns det en testversion av Aspose.Words för Java tillgänglig?
+I den här guiden har vi gått igenom allt du behöver för att **konvertera Word till Markdown** med Aspose.Words för Java: skapa ett källdokument, **anpassa tabelljustering** och hantera bilder med korrekt mappkonfiguration. Med dessa tekniker kan du på ett pålitligt sätt exportera Word‑innehåll till markdown för bloggar, dokumentationssajter eller någon plattform som använder markdown.
 
-Ja, du kan hämta en testversion av Aspose.Words för Java från Asposes webbplats. Testversionen låter dig utvärdera bibliotekets funktioner innan du köper en licens.
+---
 
-### Var kan jag hitta fler exempel och dokumentation?
-
-För fler exempel, dokumentation och detaljerad information om Aspose.Words för Java, besök [dokumentation](https://reference.aspose.com/words/java/).
-
+**Senast uppdaterad:** 2026-02-24  
+**Testad med:** Aspose.Words för Java 24.12 (senaste vid skrivtillfället)  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

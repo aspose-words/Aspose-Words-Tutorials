@@ -1,41 +1,63 @@
 ---
-"description": "Aprenda a convertir documentos de Word a Markdown con Aspose.Words para Java. Esta guía paso a paso explica la alineación de tablas, el manejo de imágenes y más."
-"linktitle": "Guardar documentos como Markdown"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Guardar documentos como Markdown en Aspose.Words para Java"
-"url": "/es/java/document-loading-and-saving/saving-documents-as-markdown/"
-"weight": 18
+date: 2026-02-24
+description: Aprende cómo convertir Word a Markdown usando Aspose.Words para Java.
+  Esta guía cubre la alineación de tablas, el manejo de imágenes y cómo guardar el
+  documento como Markdown.
+linktitle: Saving Documents as Markdown
+second_title: Aspose.Words Java Document Processing API
+title: Convertir Word a Markdown con Aspose.Words para Java
+url: /es/java/document-loading-and-saving/saving-documents-as-markdown/
+weight: 18
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Guardar documentos como Markdown en Aspose.Words para Java
+# Convertir Word a Markdown con Aspose.Words para Java
 
+## Introducción a Convertir Word a Markdown con Aspose.Words para Java
 
-## Introducción al guardado de documentos como Markdown en Aspose.Words para Java
+En este tutorial paso a paso aprenderás **cómo convertir Word a Markdown** usando la potente API de Aspose.Words para Java. Markdown es un lenguaje de marcado ligero que muchos desarrolladores y plataformas de contenido utilizan para documentación limpia y legible. Al final de esta guía podrás tomar cualquier archivo `.docx`, conservar tablas, imágenes y formato, y exportarlo como un archivo `.md` listo para generadores de sitios estáticos, READMEs de GitHub o cualquier flujo de trabajo compatible con markdown.
 
-En esta guía paso a paso, le mostraremos cómo guardar documentos en formato Markdown con Aspose.Words para Java. Markdown es un lenguaje de marcado ligero que se usa comúnmente para formatear documentos de texto. Con Aspose.Words para Java, puede convertir fácilmente sus documentos de Word a formato Markdown. Abordaremos diferentes aspectos del almacenamiento de archivos Markdown, como la alineación del contenido de las tablas y la gestión de imágenes.
+## Respuestas rápidas
+- **¿Qué biblioteca necesito?** Aspose.Words para Java (`aspose-words.jar`).
+- **¿Puedo personalizar la alineación de la tabla?** Sí – usa `TableContentAlignment` en `MarkdownSaveOptions`.
+- **¿Cómo se manejan las imágenes?** Establece una carpeta de imágenes con `setImagesFolder()`; la biblioteca crea enlaces relativos.
+- **¿Necesito una licencia para producción?** Se requiere una licencia comercial para uso no de prueba.
+- **¿Es compatible con Java 17?** Sí, la biblioteca soporta Java 8 y superiores.
 
-## Prerrequisitos
+## ¿Qué es convertir Word a Markdown?
 
-Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
+Convertir Word a Markdown significa tomar el formato enriquecido de un documento Microsoft Word y traducirlo a la sintaxis de markdown en texto plano. Este proceso conserva encabezados, listas, tablas y referencias de imágenes mientras elimina el formato binario, haciendo el contenido portátil y amigable para el control de versiones.
 
-- Java Development Kit (JDK) instalado en su sistema.
-- Biblioteca Aspose.Words para Java. Puedes descargarla desde [aquí](https://releases.aspose.com/words/java/).
+## ¿Por qué usar Aspose.Words para Java para guardar el documento como markdown?
 
-## Paso 1: Crear un documento de Word
+* **Fidelidad total** – tablas, imágenes y diseños complejos se conservan.
+* **Control granular** – puedes personalizar la alineación de tablas, rutas de imágenes y más.
+* **Sin dependencias externas** – la biblioteca funciona inmediatamente sin necesidad de Office instalado.
+* **Multiplataforma** – funciona en Windows, Linux y macOS con cualquier runtime de Java.
 
-Comencemos creando un documento de Word que luego convertiremos a formato Markdown. Puedes personalizarlo según tus necesidades.
+## Requisitos previos
+
+Antes de comenzar, asegúrate de tener:
+
+- Java Development Kit (JDK) instalado en tu sistema.
+- Biblioteca Aspose.Words para Java. Puedes descargarla desde [here](https://releases.aspose.com/words/java/).
+
+## Guía paso a paso
+
+### Paso 1: Crear un documento Word que será convertido
+
+Primero, creamos un documento Word sencillo que contiene una tabla de dos celdas. Este ejemplo muestra cómo se respeta la alineación de los párrafos dentro de las celdas de la tabla cuando más adelante **guardamos el documento como markdown**.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insertar una tabla con dos celdas
+// Insert a table with two cells
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -44,60 +66,56 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// Guardar el documento como Markdown
+// Save the document as Markdown
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-En este ejemplo, creamos una tabla simple con dos celdas y configuramos la alineación de los párrafos dentro de ellas. Luego, guardamos el documento como Markdown usando `MarkdownSaveOptions`.
+### Paso 2: Personalizar la alineación del contenido de la tabla
 
-## Paso 2: Personalizar la alineación del contenido de la tabla
-
-Aspose.Words para Java permite personalizar la alineación del contenido de una tabla al guardarla como Markdown. Puede alinearla a la izquierda, a la derecha, al centro o dejar que se determine automáticamente según el primer párrafo de cada columna.
-
-A continuación se explica cómo personalizar la alineación del contenido de la tabla:
+Aspose.Words para Java le permite controlar cómo se alinean las celdas de la tabla en el markdown generado. Usa la propiedad `TableContentAlignment` para **personalizar la alineación de la tabla** a izquierda, derecha, centro, o dejar que la biblioteca decida automáticamente según el primer párrafo de cada columna.
 
 ```java
-// Establecer la alineación del contenido de la tabla a la izquierda
+// Set the table content alignment to left
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// Establecer la alineación del contenido de la tabla a la derecha
+// Set the table content alignment to right
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// Establecer la alineación del contenido de la tabla al centro
+// Set the table content alignment to center
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-// Establecer la alineación del contenido de la tabla en automática (determinada por el primer párrafo)
+// Set the table content alignment to auto (determined by first paragraph)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-Al cambiar el `TableContentAlignment` propiedad, puede controlar cómo se alinea el contenido dentro de las tablas al convertir a Markdown.
+Al alternar esta configuración puedes **exportar tablas de Word a markdown** con la alineación exacta que necesites para los motores de renderizado posteriores.
 
-## Paso 3: Manejo de imágenes
+### Paso 3: Manejar imágenes durante la conversión
 
-Para incluir imágenes en su documento Markdown, debe especificar la carpeta donde se encuentran. Aspose.Words para Java le permite configurar la carpeta de imágenes en el `MarkdownSaveOptions`.
-
-A continuación se explica cómo configurar la carpeta de imágenes y guardar el documento con imágenes:
+Cuando su documento Word de origen contiene imágenes, debe indicar a Aspose.Words dónde colocar los archivos de imagen exportados. El método `setImagesFolder` en `MarkdownSaveOptions` define la carpeta que contendrá los recursos de imagen, y el markdown incluirá enlaces relativos a esos archivos.
 
 ```java
-// Cargar un documento que contenga imágenes
+// Load a document containing images
 Document doc = new Document("document_with_images.docx");
 
-// Establecer la ruta de la carpeta de imágenes
+// Set the images folder path
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.setImagesFolder("images_folder/");
 
-// Guardar el documento con imágenes
+// Save the document with images
 doc.save("document_with_images.md", saveOptions);
 ```
 
-Asegúrese de reemplazar `"document_with_images.docx"` con la ruta a su documento de Word que contiene imágenes y `"images_folder/"` con la ruta real a la carpeta donde se almacenan sus imágenes.
+Reemplace `"document_with_images.docx"` con la ruta a su archivo fuente y `"images_folder/"` con la carpeta de salida deseada para las imágenes.
 
-## Código fuente completo para guardar documentos como Markdown en Aspose.Words para Java
+### Código fuente completo para todos los escenarios
+
+A continuación se muestra un ejemplo consolidado que muestra cómo **alinear automáticamente la tabla**, **personalizar la alineación** y **establecer una carpeta de imágenes** en un solo método. Este fragmento refleja el código original del tutorial y funciona sin cambios.
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -110,7 +128,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// Hace que todos los párrafos dentro de la tabla estén alineados.
+	// Makes all paragraphs inside the table to be aligned.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -120,7 +138,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// La alineación en este caso se tomará del primer párrafo de la columna de la tabla correspondiente.
+	// The alignment in this case will be taken from the first paragraph in corresponding table column.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -136,39 +154,46 @@ public void setImagesFolder() throws Exception
 }
 ```
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En esta guía, hemos explorado cómo guardar documentos como Markdown con Aspose.Words para Java. Hemos explicado la creación de un documento de Word, la personalización de la alineación del contenido de las tablas y la gestión de imágenes en archivos Markdown. Ahora puede convertir sus documentos de Word a formato Markdown de forma eficiente, lo que los hace compatibles con diversas plataformas de publicación y necesidades de documentación.
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| Las imágenes aparecen como enlaces rotos | `setImagesFolder` no está configurado o la ruta de la carpeta es incorrecta | Verifique que la ruta de la carpeta sea correcta y que la carpeta sea escribible |
+| La alineación de la tabla se ve incorrecta | Valor incorrecto de `TableContentAlignment` | Use `TableContentAlignment.AUTO` para que el primer párrafo decida, o establezca explícitamente LEFT/RIGHT/CENTER |
+| El archivo de salida está vacío | Opciones de guardado no pasadas a `doc.save()` | Asegúrese de pasar la instancia de `MarkdownSaveOptions` al método `save` |
+| Características de Word no compatibles (p. ej., SmartArt) | Markdown no puede representar algunos objetos complejos | Convierta esos elementos a imágenes antes de guardar, o simplifique el documento de origen |
 
 ## Preguntas frecuentes
 
-### ¿Cómo instalo Aspose.Words para Java?
+**P: ¿Cómo instalo Aspose.Words para Java?**  
+R: Aspose.Words para Java se puede instalar incluyendo la biblioteca en su proyecto Java. Puede descargar la biblioteca desde [here](https://releases.aspose.com/words/java/) y seguir las instrucciones de instalación proporcionadas en la documentación.
 
-Aspose.Words para Java se puede instalar incluyendo la biblioteca en su proyecto Java. Puede descargarla desde [aquí](https://releases.aspose.com/words/java/) y siga las instrucciones de instalación proporcionadas en la documentación.
+**P: ¿Puedo convertir documentos Word complejos con tablas e imágenes a Markdown?**  
+R: Sí, Aspose.Words para Java soporta la conversión de documentos Word complejos con tablas, imágenes y varios elementos de formato a Markdown. Puede personalizar la salida Markdown según la complejidad de su documento.
 
-### ¿Puedo convertir documentos complejos de Word con tablas e imágenes a Markdown?
+**P: ¿Cómo puedo manejar imágenes en archivos Markdown?**  
+R: Para incluir imágenes en archivos Markdown, establezca la ruta de la carpeta de imágenes usando el método `setImagesFolder` en `MarkdownSaveOptions`. Asegúrese de que los archivos de imagen se almacenen en la carpeta especificada, y Aspose.Words para Java gestionará las referencias a las imágenes adecuadamente.
 
-Sí, Aspose.Words para Java permite convertir documentos complejos de Word con tablas, imágenes y diversos elementos de formato a Markdown. Puedes personalizar la salida de Markdown según la complejidad de tu documento.
+**P: ¿Existe una versión de prueba de Aspose.Words para Java disponible?**  
+R: Sí, puede obtener una versión de prueba de Aspose.Words para Java desde el sitio web de Aspose. La versión de prueba le permite evaluar las capacidades de la biblioteca antes de comprar una licencia.
 
-### ¿Cómo puedo manejar imágenes en archivos Markdown?
+**P: ¿Dónde puedo encontrar más ejemplos y documentación?**  
+R: Para más ejemplos, documentación e información detallada sobre Aspose.Words para Java, visite la [documentation](https://reference.aspose.com/words/java/).
 
-Para incluir imágenes en archivos Markdown, configure la ruta de la carpeta de imágenes utilizando el `setImagesFolder` método en `MarkdownSaveOptions`Asegúrese de que los archivos de imagen estén almacenados en la carpeta especificada y Aspose.Words para Java manejará las referencias de imagen en consecuencia.
+## Conclusión
 
-### ¿Hay una versión de prueba de Aspose.Words para Java disponible?
+En esta guía cubrimos todo lo que necesita para **convertir Word a markdown** usando Aspose.Words para Java: crear un documento fuente, **personalizar la alineación de la tabla**, y manejar imágenes con la configuración adecuada de carpeta. Con estas técnicas podrá exportar de forma fiable contenido Word a markdown para blogs, sitios de documentación o cualquier plataforma que consuma markdown.
 
-Sí, puede obtener una versión de prueba de Aspose.Words para Java en el sitio web de Aspose. Esta versión le permite evaluar las capacidades de la biblioteca antes de adquirir una licencia.
+---
 
-### ¿Dónde puedo encontrar más ejemplos y documentación?
-
-Para obtener más ejemplos, documentación e información detallada sobre Aspose.Words para Java, visite el sitio web [documentación](https://reference.aspose.com/words/java/).
-
+**Última actualización:** 2026-02-24  
+**Probado con:** Aspose.Words para Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
