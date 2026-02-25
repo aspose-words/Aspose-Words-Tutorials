@@ -48,6 +48,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Waarschuwingsmelding ontvangen](./receive-warning-notification/) Leer hoe u een waarschuwingsmelding ontvangt wanneer u Aspose.Words voor .NET gebruikt en hoe u problemen of waarschuwingen in uw documenten beheert. |
 | [Bron van Steam-lettertypebronvoorbeeld](./resource-steam-font-source-example/) | Leer hoe u de Resource Stream Font Source gebruikt om aangepaste lettertypen in Aspose.Words voor .NET te laden. |
 | [Substitutie verkrijgen zonder achtervoegsels](./get-substitution-without-suffixes/) | In deze tutorial leert u hoe u achtervoegselloze overschrijvingen in een Word-document kunt gebruiken met Aspose.Words voor .NET. |
+| [Hoe lettertypen in Word-documenten detecteren – Complete C#-gids](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET lettertypen in Word-documenten detecteert met een volledige C#-handleiding. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

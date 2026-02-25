@@ -1,21 +1,18 @@
 ---
 category: general
-date: 2025-12-29
-description: Cara mengekspor markdown dari file DOCX menggunakan Aspose.Words. Pelajari
-  cara mengonversi Word ke markdown, menambahkan line break markdown, dan menyimpan
-  DOCX sebagai markdown.
+date: 2026-02-24
+description: Pelajari cara mengekspor markdown dari Word menggunakan Aspose.Words,
+  mengonversi Word ke markdown, dan mengunggah gambar ke cloud dalam beberapa langkah.
 draft: false
 keywords:
 - how to export markdown
 - convert word to markdown
-- how to convert docx
-- add line break markdown
-- save docx as markdown
+- upload images to cloud
+- export docx as markdown
 language: id
-og_description: Cara mengekspor markdown dari file DOCX menggunakan Aspose.Words.
-  Tutorial ini menunjukkan cara mengonversi Word ke markdown, menambahkan markdown
-  baris baru, dan menyimpan docx sebagai markdown.
-og_title: Cara Mengekspor Markdown dari Word – Panduan Lengkap C#
+og_description: cara mengekspor markdown dari Word? Panduan ini menunjukkan cara mengekspor
+  markdown, mengonversi docx, dan mengunggah gambar ke cloud dengan Aspose.Words.
+og_title: cara mengekspor markdown dari Word – Tutorial C# Langkah demi Langkah
 tags:
 - Aspose.Words
 - C#
@@ -24,189 +21,177 @@ title: Cara Mengekspor Markdown dari Word – Panduan Lengkap C#
 url: /id/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengekspor Markdown dari Word – Panduan Lengkap C#
+# cara mengekspor markdown dari Word menggunakan Aspose.Words
 
-Pernah bertanya-tanya **bagaimana cara mengekspor markdown** dari dokumen Word tanpa kehilangan format? Anda bukan satu-satunya. Banyak pengembang membutuhkan cara yang andal untuk **mengonversi Word ke markdown**, terutama saat memigrasikan dokumentasi atau memasukkan konten ke dalam generator situs statis.  
+Pernah bertanya-tanya **bagaimana cara mengekspor markdown** dari dokumen Word tanpa kehilangan gambar berharga Anda? Anda bukan satu-satunya—para pengembang terus-menerus menanyakan *“Bisakah saya mengonversi Word ke markdown dan tetap menyimpan gambar yang dihosting di tempat yang aman?”* Jawaban singkatnya **ya**, dan jawaban panjangnya adalah cuplikan C# yang rapi yang melakukan pekerjaan berat untuk Anda.
 
-Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk mengambil file `.docx`, mengonfigurasi Aspose.Words sehingga paragraf kosong menjadi pemutusan baris, dan akhirnya **menyimpan docx sebagai markdown**. Pada akhir tutorial Anda akan memiliki program C# siap‑jalankan yang melakukan seluruh pekerjaan, plus tip untuk menangani kasus tepi seperti tabel, gambar, dan gaya khusus.
+Dalam tutorial ini kami akan membahas seluruh proses: memuat *.docx*, mengonfigurasi `MarkdownSaveOptions`, menulis `IResourceSavingCallback` khusus yang **mengunggah gambar ke cloud**, dan akhirnya menyimpan hasilnya sebagai file *.md* yang bersih. Pada akhir tutorial Anda akan dapat *mengonversi Word ke markdown* dan *mengekspor docx sebagai markdown* hanya dengan beberapa baris kode.
 
-> **Pro tip:** Jika Anda sudah menggunakan Aspose.Words untuk tugas dokumen lainnya, Anda dapat menggunakan kembali objek `Document` yang sama – tidak memerlukan dependensi tambahan.
+> **Apa yang Anda butuhkan**  
+> - .NET 6+ (atau runtime .NET terbaru apa pun)  
+> - Aspose.Words untuk .NET (versi percobaan gratis sudah cukup untuk percobaan)  
+> - Bucket cloud atau endpoint CDN dimana Anda dapat POST data biner (contoh menggunakan URL placeholder)  
 
-## Apa yang Anda Butuhkan
+![bagaimana mengekspor markdown flowchart](image.png "bagaimana mengekspor markdown")
 
-- **.NET 6+** (kode ini juga berfungsi di .NET Framework, tetapi .NET 6 adalah LTS saat ini)
-- **Aspose.Words for .NET** – Anda dapat mengunduhnya dari NuGet (`Install-Package Aspose.Words`)
-- Sebuah contoh file **input.docx** (file Word apa pun dapat digunakan; kami akan memperlakukan paragraf kosong secara khusus)
-- Visual Studio, VS Code, atau editor C# apa pun yang Anda suka
+## Langkah 1 – Muat DOCX (konversi word ke markdown)
 
-Tidak diperlukan perpustakaan markdown pihak ketiga; Aspose.Words melakukan pekerjaan berat.
-
-## Cara Mengekspor Markdown dari Dokumen Word (Langkah‑per‑Langkah)
-
-Berikut adalah program lengkap yang dapat dijalankan. Simpan sebagai `Program.cs` dan jalankan dari baris perintah atau IDE Anda.
+Hal pertama yang kami lakukan adalah membaca dokumen sumber. Aspose.Words mengabstraksi parsing OpenXML yang berantakan, sehingga Anda cukup menunjukannya ke jalur file atau stream.
 
 ```csharp
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the source Word document.
-        // Replace "YOUR_DIRECTORY" with the actual folder path.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document wordDocument = new Document(inputPath);
+// Load the source .docx that contains images, tables, etc.
+Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        // 2️⃣ Configure Markdown save options.
-        // We want empty paragraphs to become line breaks.
-        MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+*Mengapa ini penting*: memuat dokumen memberi kami model objek lengkap yang mempertahankan setiap sumber daya yang disematkan. Jika Anda melewatkan langkah ini dan mencoba membaca file secara manual, Anda akan kehilangan hubungan antara gambar dan placeholder-nya—sesuatu yang sering membuat konverter pemula gagal.
+
+## Langkah 2 – Konfigurasikan MarkdownSaveOptions (cara mengekspor markdown)
+
+Sekarang kami memberi tahu Aspose.Words bahwa kami menginginkan Markdown sebagai format keluaran. Kelas `MarkdownSaveOptions` memungkinkan Anda menyisipkan callback yang dipicu untuk **setiap sumber daya eksternal** (seperti gambar). Di situlah nanti kami akan **mengunggah gambar ke cloud**.
+
+```csharp
+// Prepare options for Markdown export and attach a callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // The callback will decide where each image lives on the web
+    ResourceSavingCallback = new MyResourceCallback()
+};
+```
+
+Perhatikan properti `ResourceSavingCallback`. Tanpa itu, Aspose akan menaruh setiap gambar di samping file `.md` di disk—pendekatan yang baik untuk pengujian lokal, tetapi tidak ideal ketika Anda membutuhkan URL publik. Dengan menyediakan implementasi khusus kami memperoleh kontrol penuh atas URI akhir.
+
+## Langkah 3 – Implementasikan Resource‑Saving Callback (unggah gambar ke cloud)
+
+Berikut adalah inti dari solusi. Kelas `MyResourceCallback` mengimplementasikan `IResourceSavingCallback`. Untuk setiap aliran gambar yang kami terima, kami mengunggahnya ke CDN (atau endpoint HTTP apa pun yang Anda pilih) dan kemudian mengganti referensi lokal dengan URL publik yang dikembalikan.
+
+```csharp
+public class MyResourceCallback : IResourceSavingCallback
+{
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        // Upload the resource (image, SVG, etc.) and obtain its public URL
+        string cloudUrl = UploadToCloud(args.Stream, args.FileName);
+        args.Uri = cloudUrl;                     // URL that will appear in the Markdown
+        args.KeepOriginalDocumentUri = false;   // Skip writing a local copy
+    }
+
+    private string UploadToCloud(Stream data, string name)
+    {
+        // 👉 Insert your real cloud‑API logic here.
+        // For demo purposes we just pretend the upload succeeded.
+        // In production you would POST `data` to your storage service
+        // and return the resulting HTTPS URL.
+        return $"https://mycdn.example.com/{name}";
+    }
+}
+```
+
+### Mengapa callback khusus?
+
+1. **Kontrol atas penamaan** – Anda dapat menambahkan GUID, timestamp, atau konvensi apa pun yang diharapkan CDN Anda.  
+2. **Keamanan** – Anda dapat menambahkan header otentikasi sebelum panggilan HTTP.  
+3. **Kinerja** – Anda dapat mengelompokkan unggahan atau menggunakan I/O async jika Anda memproses banyak dokumen.  
+
+Jika Anda belum memiliki bucket cloud, banyak penyedia (Amazon S3, Azure Blob, Google Cloud Storage) menawarkan REST API sederhana yang cocok dengan pola ini.
+
+## Langkah 4 – Simpan dokumen sebagai Markdown
+
+Dengan callback yang terhubung, langkah akhir adalah satu baris kode yang menghasilkan file Markdown. Semua gambar yang direferensikan dalam dokumen kini akan mengarah ke URL yang dikembalikan oleh `UploadToCloud`.
+
+```csharp
+// Save the document as Markdown; the callback rewrites image URIs automatically
+sourceDocument.Save("YOUR_DIRECTORY/output.md", markdownOptions);
+```
+
+### Output yang Diharapkan
+
+Buka `output.md` di editor apa pun dan Anda akan melihat sesuatu seperti:
+
+```markdown
+# Sample Heading
+
+Here is an image that was originally in the Word file:
+
+![Image1](https://mycdn.example.com/Image1.png)
+
+And a paragraph of text that came straight from the DOCX.
+```
+
+Jika Anda membuka pratinjau Markdown (VS Code, GitHub, dll.) gambar akan ditampilkan dari lokasi CDN—tanpa file lokal diperlukan.
+
+## Kesulitan Umum & Kasus Tepi
+
+| Situation | What to Watch For | Quick Fix |
+|-----------|-------------------|-----------|
+| **Gambar besar** | Pengunggahan mungkin timeout atau melebihi kuota | Ubah ukuran atau kompres sebelum mengunggah; gunakan `System.Drawing` untuk memperkecil stream |
+| **Format non‑PNG** | Beberapa CDN menolak tipe mime tertentu | Deteksi ekstensi `args.FileName`, konversi ke PNG secara langsung |
+| **Kredensial cloud hilang** | `UploadToCloud` mengembalikan 401 | Simpan kredensial dengan aman (Azure Key Vault, AWS Secrets Manager) dan sisipkan ke dalam callback |
+| **Link relatif di DOCX asli** | Aspose mungkin mempertahankan jalur relatif | Timpa `args.Uri` terlepas dari nilai asli (seperti yang kami lakukan) |
+| **Beberapa dokumen secara paralel** | Kondisi balapan pada nama file yang sama | Tambahkan GUID ke `name` di dalam `UploadToCloud` |
+
+Menangani kasus tepi ini membuat solusi Anda cukup kuat untuk jalur produksi.
+
+## Bonus: Mengubah Cuplikan menjadi Library yang Dapat Digunakan Kembali
+
+Jika Anda menemukan diri Anda mengonversi puluhan dokumen per hari, pertimbangkan untuk membungkus logika di atas ke dalam helper statis:
+
+```csharp
+public static class WordToMarkdownConverter
+{
+    public static void Convert(string inputPath, string outputPath, Func<Stream, string, string> uploader)
+    {
+        Document doc = new Document(inputPath);
+        var options = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak
+            ResourceSavingCallback = new LambdaResourceCallback(uploader)
         };
-
-        // 3️⃣ Save the document as a Markdown file.
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-        wordDocument.Save(outputPath, markdownOptions);
-
-        Console.WriteLine($"✅ Success! Markdown saved to {outputPath}");
+        doc.Save(outputPath, options);
     }
-}
-```
 
-### Mengapa Langkah-Langkah Ini Penting
-
-1. **Loading the DOCX** – `new Document(path)` mengurai file Word ke dalam model objek Aspose, menampilkan paragraf, tabel, gambar, dll.  
-2. **Setting `EmptyParagraphExportMode`** – Secara default Aspose mungkin mengabaikan paragraf kosong, yang akan menghilangkan pemutusan baris dalam markdown yang dihasilkan. `AddLineBreak` memaksa literal `\n` dalam output, memberikan perilaku **add line break markdown** yang Anda harapkan.  
-3. **Saving as Markdown** – Metode `Save` menulis file `.md` menggunakan opsi yang kami definisikan, secara efektif **convert word to markdown** dalam satu baris kode.
-
-## Mengonversi Word ke Markdown Menggunakan Aspose.Words – Variasi Umum
-
-Meskipun potongan kode di atas mencakup dasar-dasarnya, skenario dunia nyata sering memerlukan penanganan tambahan.
-
-### H3: Mempertahankan Tabel
-
-Aspose secara otomatis menerjemahkan tabel Word ke dalam sintaks pipa markdown. Jika Anda menemukan penyelarasan tidak tepat, Anda dapat menyesuaikan `TableExportMode`:
-
-```csharp
-markdownOptions.TableExportMode = TableExportMode.Markdown;
-```
-
-### H3: Mengekspor Gambar
-
-Gambar disimpan sebagai file terpisah di sebelah markdown secara default. Untuk menyematkannya sebagai Base64 (berguna untuk dokumen satu‑file), atur:
-
-```csharp
-markdownOptions.ImageSavingCallback = new ImageSavingCallback();
-```
-
-(Implementasi `ImageSavingCallback` berada di luar panduan ini, tetapi dokumentasi Aspose memiliki contoh singkat.)
-
-### H3: Mengontrol Tingkat Heading
-
-Jika dokumen sumber Anda menggunakan gaya heading khusus, Anda dapat memetakannya ke heading markdown melalui `HeadingExportLevel`:
-
-```csharp
-markdownOptions.HeadingExportLevel = 3; // forces ### for all headings
-```
-
-## Menambahkan Pemutusan Baris di Markdown – Mengontrol Paragraf Kosong
-
-Inti dari **add line break markdown** adalah `EmptyParagraphExportMode`. Ada tiga opsi:
-
-| Mode | Result in Markdown |
-|------|--------------------|
-| `AddLineBreak` | Menyisipkan baris kosong (`\n`) – ideal untuk spasi paragraf |
-| `Preserve` | Menjaga paragraf kosong sebagai tag HTML `<p>` kosong (bukan markdown tipikal) |
-| `Ignore` | Mengabaikan paragraf kosong sepenuhnya – berguna untuk output yang ringkas |
-
-Memilih `AddLineBreak` biasanya yang Anda inginkan ketika Anda membutuhkan jeda visual tanpa membuat heading atau item daftar baru.
-
-## Menyimpan DOCX sebagai Markdown – Contoh Lengkap yang Berfungsi dengan Penanganan Kesalahan
-
-Kode produksi harus mengantisipasi file yang hilang, masalah izin, dan elemen yang tidak didukung. Berikut versi yang lebih kuat:
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class MarkdownExporter
-{
-    static void Main()
+    private class LambdaResourceCallback : IResourceSavingCallback
     {
-        string inputFile = @"YOUR_DIRECTORY\input.docx";
-        string outputFile = @"YOUR_DIRECTORY\output.md";
+        private readonly Func<Stream, string, string> _uploader;
+        public LambdaResourceCallback(Func<Stream, string, string> uploader) => _uploader = uploader;
 
-        try
+        public void ResourceSaving(ResourceSavingArgs args)
         {
-            // Verify the source file exists.
-            if (!File.Exists(inputFile))
-                throw new FileNotFoundException("Input DOCX not found.", inputFile);
-
-            // Load the document.
-            Document doc = new Document(inputFile);
-
-            // Set up markdown options.
-            MarkdownSaveOptions opts = new MarkdownSaveOptions
-            {
-                EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak,
-                // Optional: keep tables as markdown, preserve images as files.
-                TableExportMode = TableExportMode.Markdown
-            };
-
-            // Save as markdown.
-            doc.Save(outputFile, opts);
-
-            Console.WriteLine($"✅ {Path.GetFileName(outputFile)} created successfully.");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error exporting markdown: {ex.Message}");
-            // In a real app you might log the stack trace or rethrow.
+            args.Uri = _uploader(args.Stream, args.FileName);
+            args.KeepOriginalDocumentUri = false;
         }
     }
 }
 ```
 
-**Expected output:** Buka `output.md` di penampil markdown apa pun (VS Code, GitHub, MkDocs) dan Anda akan melihat konten Word asli, dengan paragraf kosong ditampilkan sebagai baris kosong—tepat efek **add line break markdown** yang kami inginkan.
+Anda kini dapat memanggil:
 
-## Ilustrasi Gambar
+```csharp
+WordToMarkdownConverter.Convert(
+    "input.docx",
+    "output.md",
+    (stream, name) => UploadToCloud(stream, name) // your real uploader
+);
+```
 
-Berikut adalah tangkapan layar cepat dari file markdown yang dihasilkan dibuka di VS Code.  
-*(Gambar ini bersifat ilustratif; ganti dengan milik Anda sendiri jika dipublikasikan.)*
-
-![how to export markdown example](https://example.com/placeholder-image.png)
-
-*Alt text:* contoh cara mengekspor markdown – menampilkan pratinjau markdown dari DOCX yang dikonversi
-
-## Pertanyaan yang Sering Diajukan
-
-- **Apakah ini bekerja dengan file .doc?**  
-  Ya. Aspose.Words mendukung baik `.doc` maupun `.docx`. Cukup ubah ekstensi file di `inputPath`.
-
-- **Bagaimana jika dokumen saya berisi catatan kaki?**  
-  Catatan kaki diekspor sebagai referensi markdown inline secara default. Anda dapat menyesuaikannya melalui `FootnoteExportMode`.
-
-- **Bisakah saya memproses banyak file secara batch?**  
-  Tentu saja. Bungkus logika inti dalam loop `foreach` pada sebuah direktori dan sesuaikan nama file output sesuai kebutuhan.
-
-- **Apakah perpustakaan ini gratis?**  
-  Aspose.Words menawarkan percobaan gratis dengan fungsionalitas penuh. Untuk produksi Anda memerlukan lisensi, tetapi penggunaan API tetap sama.
+Pola ini memisahkan kepedulian, menjaga program utama Anda tetap rapi, dan membuat unit‑testing uploader menjadi sederhana.
 
 ## Kesimpulan
 
-Kami telah membahas **bagaimana cara mengekspor markdown** dari dokumen Word menggunakan Aspose.Words, mendemonstrasikan alur kerja **convert word to markdown**, menjelaskan pengaturan **add line break markdown**, dan menampilkan program lengkap **save docx as markdown** yang dapat Anda masukkan ke dalam proyek .NET apa pun.  
+Kami telah membahas **cara mengekspor markdown** dari file Word, menunjukkan cara **mengonversi Word ke markdown**, mendemonstrasikan cara bersih untuk **mengunggah gambar ke cloud**, dan akhirnya menghasilkan file **ekspor docx sebagai markdown** yang siap untuk GitHub, situs statis, atau konsumen downstream mana pun. Poin pentingnya adalah:
 
-Dengan pengetahuan ini Anda dapat mengotomatisasi pipeline dokumentasi, memigrasikan dokumen lama, atau sekadar menjaga konten Anda dalam format ringan yang ramah kontrol versi. Selanjutnya, coba tambahkan penanganan gambar khusus atau integrasikan exporter ke dalam langkah build CI/CD—kotak peralatan konvers markdown Anda kini lengkap.
+* Gunakan `MarkdownSaveOptions` dengan `IResourceSavingCallback` khusus untuk mengontrol URI gambar.  
+* Jaga logika unggahan Anda terisolasi—ini meningkatkan kemampuan pengujian dan memungkinkan Anda mengganti CDN tanpa menyentuh kode konversi.  
+* Antisipasi kasus tepi (file besar, otentikasi, tabrakan penamaan) lebih awal untuk menghindari kejutan di produksi.
 
-Selamat coding, dan semoga markdown Anda selalu ditampilkan persis seperti yang Anda harapkan!
+Siap untuk langkah selanjutnya? Coba ganti placeholder `UploadToCloud` dengan panggilan Azure Blob yang sebenarnya, atau bereksperimen dengan unggahan async untuk batch besar. Polanya tetap sama; hanya detail penyimpanan yang berubah.
+
+Jika Anda mengalami kendala, tinggalkan komentar di bawah—selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

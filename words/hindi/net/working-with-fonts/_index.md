@@ -48,6 +48,7 @@
 | [चेतावनी अधिसूचना प्राप्त करें](./receive-warning-notification/) जानें कि .NET के लिए Aspose.Words का उपयोग करते समय चेतावनी अधिसूचना कैसे प्राप्त करें और अपने दस्तावेज़ों में किसी भी समस्या या चेतावनी का प्रबंधन कैसे करें। |
 | [संसाधन स्टीम फ़ॉन्ट स्रोत उदाहरण](./resource-steam-font-source-example/) | .NET के लिए Aspose.Words में कस्टम फ़ॉन्ट लोड करने के लिए संसाधन स्ट्रीम फ़ॉन्ट स्रोत का उपयोग करना सीखें। |
 | [प्रत्यय के बिना प्रतिस्थापन प्राप्त करें](./get-substitution-without-suffixes/) | इस ट्यूटोरियल में, Aspose.Words for .NET के साथ Word दस्तावेज़ में प्रत्यय रहित ओवरराइड प्राप्त करना सीखें। |
+| [Word दस्तावेज़ों में फ़ॉन्ट का पता कैसे लगाएँ – पूर्ण C# गाइड](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Word दस्तावेज़ों में प्रयुक्त फ़ॉन्ट्स को पहचानने के लिए .NET के लिए Aspose.Words के साथ चरण-दर-चरण C# गाइड। |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

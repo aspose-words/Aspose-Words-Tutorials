@@ -1,211 +1,205 @@
 ---
 category: general
-date: 2025-12-29
-description: Cách xuất markdown từ tệp DOCX bằng Aspose.Words. Tìm hiểu cách chuyển
-  đổi Word sang markdown, thêm ngắt dòng markdown và lưu docx dưới dạng markdown.
+date: 2026-02-24
+description: Tìm hiểu cách xuất markdown từ Word bằng Aspose.Words, chuyển đổi Word
+  sang markdown và tải ảnh lên đám mây trong vài bước.
 draft: false
 keywords:
 - how to export markdown
 - convert word to markdown
-- how to convert docx
-- add line break markdown
-- save docx as markdown
+- upload images to cloud
+- export docx as markdown
 language: vi
-og_description: Cách xuất markdown từ tệp DOCX bằng Aspose.Words. Hướng dẫn này cho
-  bạn biết cách chuyển Word sang markdown, thêm markdown ngắt dòng và lưu docx dưới
-  dạng markdown.
-og_title: Cách xuất Markdown từ Word – Hướng dẫn C# toàn diện
+og_description: Cách xuất markdown từ Word? Hướng dẫn này cho thấy cách xuất markdown,
+  chuyển đổi docx và tải hình ảnh lên đám mây với Aspose.Words.
+og_title: cách xuất markdown từ Word – Hướng dẫn C# từng bước
 tags:
 - Aspose.Words
 - C#
 - Markdown
-title: Cách xuất Markdown từ Word – Hướng dẫn C# đầy đủ
+title: cách xuất markdown từ Word – Hướng dẫn C# đầy đủ
 url: /vi/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
+
+them unchanged.
+
+Check any other markdown elements: blockquote already translated.
+
+Make sure we keep code block placeholders unchanged.
+
+Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Xuất Markdown từ Word – Hướng Dẫn Đầy Đủ bằng C#
+# cách xuất markdown từ Word bằng Aspose.Words
 
-Bạn đã bao giờ tự hỏi **cách xuất markdown** từ tài liệu Word mà không mất định dạng chưa? Bạn không phải là người duy nhất. Nhiều nhà phát triển cần một cách đáng tin cậy để **chuyển đổi Word sang markdown**, đặc biệt khi di chuyển tài liệu hoặc đưa nội dung vào các trình tạo trang tĩnh.  
+Bạn đã bao giờ tự hỏi **cách xuất markdown** từ một tài liệu Word mà không mất các hình ảnh quý giá của mình chưa? Bạn không phải là người duy nhất—các nhà phát triển liên tục hỏi *“Liệu tôi có thể chuyển đổi Word sang markdown và vẫn giữ các hình ảnh được lưu trữ ở nơi an toàn?”* Câu trả lời ngắn là **có**, và câu trả lời dài là một đoạn mã C# gọn gàng thực hiện phần công việc nặng cho bạn.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua các bước chính xác để lấy một file `.docx`, cấu hình Aspose.Words sao cho các đoạn trống trở thành ngắt dòng, và cuối cùng **lưu docx dưới dạng markdown**. Khi hoàn thành, bạn sẽ có một chương trình C# sẵn sàng chạy để thực hiện toàn bộ công việc, cùng với các mẹo xử lý các trường hợp đặc biệt như bảng, hình ảnh và kiểu dáng tùy chỉnh.
+Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình: tải một *.docx*, cấu hình `MarkdownSaveOptions`, viết một `IResourceSavingCallback` tùy chỉnh để **tải lên hình ảnh lên đám mây**, và cuối cùng lưu kết quả dưới dạng tệp *.md* sạch sẽ. Khi kết thúc, bạn sẽ có thể *chuyển đổi Word sang markdown* và *xuất docx thành markdown* chỉ với vài dòng mã.
 
-> **Pro tip:** Nếu bạn đã sử dụng Aspose.Words cho các tác vụ tài liệu khác, bạn có thể tái sử dụng cùng một đối tượng `Document` – không cần phụ thuộc thêm nào.
+> **Bạn sẽ cần**  
+> - .NET 6+ (hoặc bất kỳ runtime .NET nào mới)  
+> - Aspose.Words for .NET (bản dùng thử miễn phí hoạt động tốt cho việc thử nghiệm)  
+> - Một bucket đám mây hoặc endpoint CDN nơi bạn có thể POST dữ liệu nhị phân (ví dụ sử dụng URL placeholder)  
 
-## Những Gì Bạn Cần Chuẩn Bị
+![luồng công việc xuất markdown](image.png "cách xuất markdown")
 
-- **.NET 6+** (mã cũng chạy trên .NET Framework, nhưng .NET 6 là LTS hiện tại)
-- **Aspose.Words for .NET** – bạn có thể tải từ NuGet (`Install-Package Aspose.Words`)
-- Một file mẫu **input.docx** (bất kỳ file Word nào cũng được; chúng ta sẽ xử lý các đoạn trống đặc biệt)
-- Visual Studio, VS Code, hoặc bất kỳ trình soạn thảo C# nào bạn thích
+## Bước 1 – Tải DOCX (chuyển đổi word sang markdown)
 
-Không cần thư viện markdown của bên thứ ba; Aspose.Words sẽ làm phần việc nặng.
-
-## Cách Xuất Markdown từ Tài Liệu Word (Bước‑từng‑Bước)
-
-Dưới đây là chương trình đầy đủ, có thể chạy ngay. Lưu lại dưới tên `Program.cs` và chạy từ dòng lệnh hoặc IDE của bạn.
+Điều đầu tiên chúng ta làm là đọc tài liệu nguồn. Aspose.Words trừu tượng hoá việc phân tích OpenXML phức tạp, vì vậy bạn chỉ cần chỉ đến đường dẫn tệp hoặc một luồng.
 
 ```csharp
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
-{
-    static void Main()
-    {
-        // 1️⃣ Load the source Word document.
-        // Replace "YOUR_DIRECTORY" with the actual folder path.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document wordDocument = new Document(inputPath);
+// Load the source .docx that contains images, tables, etc.
+Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+```
 
-        // 2️⃣ Configure Markdown save options.
-        // We want empty paragraphs to become line breaks.
-        MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+*Tại sao điều này quan trọng*: việc tải tài liệu cung cấp cho chúng ta một mô hình đối tượng đầy đủ giữ lại mọi tài nguyên nhúng. Nếu bạn bỏ qua bước này và cố gắng đọc tệp thủ công, bạn sẽ mất mối quan hệ giữa hình ảnh và vị trí giữ chỗ của chúng—điều thường làm rối các bộ chuyển đổi chưa tinh vi.
+
+## Bước 2 – Cấu hình MarkdownSaveOptions (cách xuất markdown)
+
+Bây giờ chúng ta thông báo cho Aspose.Words rằng chúng ta muốn Markdown làm định dạng đầu ra. Lớp `MarkdownSaveOptions` cho phép bạn gắn một callback được kích hoạt cho **mỗi tài nguyên bên ngoài** (như hình ảnh). Đó là nơi chúng ta sẽ **tải lên hình ảnh lên đám mây** sau này.
+
+```csharp
+// Prepare options for Markdown export and attach a callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // The callback will decide where each image lives on the web
+    ResourceSavingCallback = new MyResourceCallback()
+};
+```
+
+Chú ý thuộc tính `ResourceSavingCallback`. Nếu không có nó, Aspose sẽ ghi mọi hình ảnh cạnh tệp `.md` trên đĩa—cách tiếp cận ổn cho việc thử nghiệm cục bộ, nhưng không lý tưởng khi bạn cần một URL công cộng. Bằng cách cung cấp một triển khai tùy chỉnh, chúng ta có toàn quyền kiểm soát URI cuối cùng.
+
+## Bước 3 – Triển khai Callback Lưu Tài Nguyên (tải lên hình ảnh lên đám mây)
+
+Dưới đây là phần cốt lõi của giải pháp. Lớp `MyResourceCallback` triển khai `IResourceSavingCallback`. Đối với mỗi luồng hình ảnh chúng ta nhận được, chúng ta tải nó lên một CDN (hoặc bất kỳ endpoint HTTP nào bạn muốn) và sau đó thay thế tham chiếu cục bộ bằng URL công cộng được trả về.
+
+```csharp
+public class MyResourceCallback : IResourceSavingCallback
+{
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        // Upload the resource (image, SVG, etc.) and obtain its public URL
+        string cloudUrl = UploadToCloud(args.Stream, args.FileName);
+        args.Uri = cloudUrl;                     // URL that will appear in the Markdown
+        args.KeepOriginalDocumentUri = false;   // Skip writing a local copy
+    }
+
+    private string UploadToCloud(Stream data, string name)
+    {
+        // 👉 Insert your real cloud‑API logic here.
+        // For demo purposes we just pretend the upload succeeded.
+        // In production you would POST `data` to your storage service
+        // and return the resulting HTTPS URL.
+        return $"https://mycdn.example.com/{name}";
+    }
+}
+```
+
+### Tại sao cần callback tùy chỉnh?
+
+1. **Kiểm soát việc đặt tên** – bạn có thể thêm tiền tố GUID, dấu thời gian, hoặc bất kỳ quy ước nào mà CDN của bạn yêu cầu.  
+2. **Bảo mật** – bạn có thể thêm header xác thực trước khi gọi HTTP.  
+3. **Hiệu năng** – bạn có thể tải lên theo lô hoặc sử dụng I/O bất đồng bộ nếu đang xử lý nhiều tài liệu.  
+
+Nếu bạn chưa có bucket đám mây, nhiều nhà cung cấp (Amazon S3, Azure Blob, Google Cloud Storage) cung cấp một REST API đơn giản phù hợp với mẫu này.
+
+## Bước 4 – Lưu tài liệu dưới dạng Markdown
+
+Với callback đã được kết nối, bước cuối cùng là một dòng lệnh tạo ra tệp Markdown. Tất cả các hình ảnh được tham chiếu trong tài liệu bây giờ sẽ trỏ tới các URL mà `UploadToCloud` trả về.
+
+```csharp
+// Save the document as Markdown; the callback rewrites image URIs automatically
+sourceDocument.Save("YOUR_DIRECTORY/output.md", markdownOptions);
+```
+
+### Kết quả mong đợi
+
+Mở `output.md` trong bất kỳ trình soạn thảo nào và bạn sẽ thấy một thứ gì đó như sau:
+
+```markdown
+# Sample Heading
+
+Here is an image that was originally in the Word file:
+
+![Image1](https://mycdn.example.com/Image1.png)
+
+And a paragraph of text that came straight from the DOCX.
+```
+
+Nếu bạn mở bản xem trước Markdown (VS Code, GitHub, v.v.) hình ảnh sẽ được hiển thị từ vị trí CDN—không cần tệp cục bộ.
+
+## Những Cạm Bẫy Thường Gặp & Trường Hợp Cạnh
+
+| Tình huống | Điều cần chú ý | Cách khắc phục nhanh |
+|-----------|-------------------|-----------|
+| **Hình ảnh lớn** | Việc tải lên có thể hết thời gian chờ hoặc vượt quá hạn mức | Thay đổi kích thước hoặc nén trước khi tải lên; sử dụng `System.Drawing` để thu nhỏ các luồng |
+| **Định dạng không phải PNG** | Một số CDN từ chối một số loại mime nhất định | Phát hiện phần mở rộng của `args.FileName`, chuyển đổi sang PNG ngay lập tức |
+| **Thiếu thông tin xác thực đám mây** | `UploadToCloud` trả về lỗi 401 | Lưu trữ thông tin xác thực một cách an toàn (Azure Key Vault, AWS Secrets Manager) và truyền chúng vào callback |
+| **Liên kết tương đối trong DOCX gốc** | Aspose có thể giữ lại đường dẫn tương đối | Ghi đè `args.Uri` bất kể giá trị gốc (như chúng tôi đã làm) |
+| **Nhiều tài liệu đồng thời** | Điều kiện tranh chấp trên cùng một tên tệp | Thêm GUID vào `name` trong `UploadToCloud` |
+
+Việc xử lý các trường hợp cạnh này giúp giải pháp của bạn đủ mạnh mẽ cho các pipeline sản xuất.
+
+## Thêm: Chuyển Đoạn Mã Thành Thư Viện Tái Sử Dụng
+
+Nếu bạn thấy mình đang chuyển đổi hàng chục tài liệu mỗi ngày, hãy cân nhắc đóng gói logic trên vào một helper tĩnh:
+
+```csharp
+public static class WordToMarkdownConverter
+{
+    public static void Convert(string inputPath, string outputPath, Func<Stream, string, string> uploader)
+    {
+        Document doc = new Document(inputPath);
+        var options = new MarkdownSaveOptions
         {
-            EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak
+            ResourceSavingCallback = new LambdaResourceCallback(uploader)
         };
-
-        // 3️⃣ Save the document as a Markdown file.
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-        wordDocument.Save(outputPath, markdownOptions);
-
-        Console.WriteLine($"✅ Success! Markdown saved to {outputPath}");
+        doc.Save(outputPath, options);
     }
-}
-```
 
-### Tại Sao Các Bước Này Quan Trọng
-
-1. **Tải DOCX** – `new Document(path)` phân tích file Word thành mô hình đối tượng của Aspose, cho phép truy cập các đoạn, bảng, hình ảnh, v.v.  
-2. **Đặt `EmptyParagraphExportMode`** – Mặc định Aspose có thể bỏ qua các đoạn trống, khiến các ngắt dòng trong markdown bị mất. `AddLineBreak` buộc chèn một ký tự `\n` thực tế trong đầu ra, mang lại hành vi **add line break markdown** mà bạn mong muốn.  
-3. **Lưu dưới dạng Markdown** – Phương thức `Save` ghi file `.md` sử dụng các tùy chọn đã định nghĩa, thực hiện **convert word to markdown** chỉ trong một dòng mã.
-
-## Chuyển Đổi Word sang Markdown Bằng Aspose.Words – Các Biến Thể Thông Thường
-
-Mặc dù đoạn mã trên đã bao phủ những điều cơ bản, trong thực tế thường cần một số xử lý bổ sung.
-
-### H3: Bảo Quản Bảng
-
-Aspose tự động chuyển các bảng Word thành cú pháp pipe của markdown. Nếu bạn thấy căn chỉnh không đúng, có thể điều chỉnh `TableExportMode`:
-
-```csharp
-markdownOptions.TableExportMode = TableExportMode.Markdown;
-```
-
-### H3: Xuất Hình Ảnh
-
-Mặc định hình ảnh được lưu thành các file riêng bên cạnh markdown. Để nhúng chúng dưới dạng Base64 (hữu ích cho tài liệu một file), hãy đặt:
-
-```csharp
-markdownOptions.ImageSavingCallback = new ImageSavingCallback();
-```
-
-(Việc triển khai `ImageSavingCallback` nằm ngoài phạm vi hướng dẫn này, nhưng tài liệu Aspose có ví dụ ngắn gọn.)
-
-### H3: Kiểm Soát Cấp Độ Tiêu Đề
-
-Nếu tài liệu nguồn của bạn sử dụng các kiểu tiêu đề tùy chỉnh, bạn có thể ánh xạ chúng thành tiêu đề markdown qua `HeadingExportLevel`:
-
-```csharp
-markdownOptions.HeadingExportLevel = 3; // forces ### for all headings
-```
-
-## Thêm Ngắt Dòng trong Markdown – Kiểm Soát Các Đoạn Trống
-
-Điểm then chốt của **add line break markdown** là `EmptyParagraphExportMode`. Có ba tùy chọn:
-
-| Mode | Kết quả trong Markdown |
-|------|------------------------|
-| `AddLineBreak` | Chèn một dòng trống (`\n`) – lý tưởng cho khoảng cách đoạn |
-| `Preserve` | Giữ đoạn trống dưới dạng thẻ HTML `<p>` rỗng (không phải markdown thông thường) |
-| `Ignore` | Bỏ qua đoạn trống hoàn toàn – hữu ích cho đầu ra gọn gàng |
-
-Chọn `AddLineBreak` thường là lựa chọn bạn muốn khi cần một khoảng cách trực quan mà không tạo tiêu đề hay mục danh sách mới.
-
-## Lưu DOCX dưới dạng Markdown – Ví Dụ Hoàn Chỉnh với Xử Lý Lỗi
-
-Mã sản xuất nên dự đoán các trường hợp file thiếu, vấn đề quyền truy cập và các thành phần không được hỗ trợ. Dưới đây là phiên bản mạnh mẽ hơn:
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class MarkdownExporter
-{
-    static void Main()
+    private class LambdaResourceCallback : IResourceSavingCallback
     {
-        string inputFile = @"YOUR_DIRECTORY\input.docx";
-        string outputFile = @"YOUR_DIRECTORY\output.md";
+        private readonly Func<Stream, string, string> _uploader;
+        public LambdaResourceCallback(Func<Stream, string, string> uploader) => _uploader = uploader;
 
-        try
+        public void ResourceSaving(ResourceSavingArgs args)
         {
-            // Verify the source file exists.
-            if (!File.Exists(inputFile))
-                throw new FileNotFoundException("Input DOCX not found.", inputFile);
-
-            // Load the document.
-            Document doc = new Document(inputFile);
-
-            // Set up markdown options.
-            MarkdownSaveOptions opts = new MarkdownSaveOptions
-            {
-                EmptyParagraphExportMode = EmptyParagraphExportMode.AddLineBreak,
-                // Optional: keep tables as markdown, preserve images as files.
-                TableExportMode = TableExportMode.Markdown
-            };
-
-            // Save as markdown.
-            doc.Save(outputFile, opts);
-
-            Console.WriteLine($"✅ {Path.GetFileName(outputFile)} created successfully.");
-        }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"❌ Error exporting markdown: {ex.Message}");
-            // In a real app you might log the stack trace or rethrow.
+            args.Uri = _uploader(args.Stream, args.FileName);
+            args.KeepOriginalDocumentUri = false;
         }
     }
 }
 ```
 
-**Kết quả mong đợi:** Mở `output.md` bằng bất kỳ trình xem markdown nào (VS Code, GitHub, MkDocs) và bạn sẽ thấy nội dung Word gốc, với các đoạn trống được hiển thị dưới dạng dòng trống — chính xác hiệu ứng **add line break markdown** mà chúng ta muốn.
+Bây giờ bạn có thể gọi:
 
-## Hình Minh Họa
+```csharp
+WordToMarkdownConverter.Convert(
+    "input.docx",
+    "output.md",
+    (stream, name) => UploadToCloud(stream, name) // your real uploader
+);
+```
 
-Dưới đây là một ảnh chụp nhanh của file markdown đã tạo mở trong VS Code.  
-*(Hình ảnh chỉ mang tính minh họa; hãy thay bằng hình của bạn nếu đăng tải.)*
-
-![how to export markdown example](https://example.com/placeholder-image.png)
-
-*Alt text:* ví dụ xuất markdown – hiển thị bản preview markdown của một DOCX đã chuyển đổi
-
-## Câu Hỏi Thường Gặp
-
-- **Điều này có hoạt động với file .doc không?**  
-  Có. Aspose.Words hỗ trợ cả `.doc` và `.docx`. Chỉ cần thay đổi phần mở rộng trong `inputPath`.
-
-- **Nếu tài liệu của tôi có chú thích dưới chân trang thì sao?**  
-  Chú thích được xuất dưới dạng tham chiếu markdown nội tuyến theo mặc định. Bạn có thể tùy chỉnh chúng qua `FootnoteExportMode`.
-
-- **Tôi có thể xử lý hàng loạt nhiều file không?**  
-  Chắc chắn. Đặt logic chính vào một vòng lặp `foreach` qua một thư mục và điều chỉnh tên file đầu ra cho phù hợp.
-
-- **Thư có miễn phí không?**  
-  Aspose.Words cung cấp bản dùng thử miễn phí với đầy đủ chức năng. Đối với môi trường sản xuất bạn sẽ cần giấy phép, nhưng cách sử dụng API vẫn không thay đổi.
+Mẫu này tách biệt các mối quan tâm, giữ cho chương trình chính gọn gàng, và làm cho việc kiểm thử đơn vị cho uploader trở nên đơn giản.
 
 ## Kết Luận
 
-Chúng ta đã tìm hiểu **cách xuất markdown** từ tài liệu Word bằng Aspose.Words, trình bày quy trình **convert word to markdown**, giải thích cài đặt **add line break markdown**, và cung cấp một chương trình **save docx as markdown** hoàn chỉnh mà bạn có thể đưa vào bất kỳ dự án .NET nào.  
+Chúng tôi đã trình bày **cách xuất markdown** từ tệp Word, chỉ cho bạn cách **chuyển đổi Word sang markdown**, trình bày một cách sạch sẽ để **tải lên hình ảnh lên đám mây**, và cuối cùng tạo ra một tệp **xuất docx thành markdown** sẵn sàng cho GitHub, các trang tĩnh, hoặc bất kỳ người tiêu dùng nào. Những điểm chính cần nhớ là:
 
-Với kiến thức này, bạn có tự động hoá quy trình tài liệu, di chuyển các tài liệu cũ, hoặc đơn giản là giữ nội dung ở định dạng nhẹ, thân thiện với hệ thống kiểm soát phiên bản. Tiếp theo, hãy thử thêm xử lý hình ảnh tùy chỉnh hoặc tích hợp bộ chuyển đổi vào bước CI/CD — bộ công cụ chuyển đổi markdown của bạn giờ đã sẵn sàng.
+* Sử dụng `MarkdownSaveOptions` cùng với một `IResourceSavingCallback` tùy chỉnh để kiểm soát URI của hình ảnh.  
+* Giữ logic tải lên riêng biệt—điều này cải thiện khả năng kiểm thử và cho phép bạn thay đổi CDN mà không cần chỉnh sửa mã chuyển đổi.  
+* Dự đoán trước các trường hợp cạnh (tệp lớn, xác thực, xung đột tên) sớm để tránh bất ngờ trong môi trường sản xuất.
 
-Chúc lập trình vui vẻ, và hy vọng markdown của bạn luôn hiển thị đúng như mong muốn!
+Sẵn sàng cho bước tiếp theo? Hãy thử thay thế `UploadToCloud` placeholder bằng một cuộc gọi Azure Blob thực tế, hoặc thử nghiệm tải lên bất đồng bộ cho các lô lớn. Mẫu vẫn giữ nguyên; chỉ các chi tiết lưu trữ thay đổi.
+
+Nếu bạn gặp bất kỳ khó khăn nào, hãy để lại bình luận bên dưới—chúc lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
