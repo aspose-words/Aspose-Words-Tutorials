@@ -26,13 +26,13 @@ Akár kezdő, akár tapasztalt fejlesztő vagy, az Aspose.Words for .NET szöveg
 | --- | --- |
 | [Változók lekérése](./get-variables/) | Sajátítsd el az Aspose.Words for .NET használatát. Tanuld meg, hogyan tölthetsz be és kinyerhetsz változókat Word dokumentumokból ezzel a lépésről lépésre szóló útmutatóval. |
 | [Tulajdonságok felsorolása](./enumerate-properties/) Tanulja meg, hogyan sorolhatja fel a tulajdonságokat egy Word-dokumentumban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes minden képzettségi szintű fejlesztő számára. |
-| [Egyéni dokumentumtulajdonságok hozzáadása](./add-custom-document-properties/) | Ismerje meg, hogyan adhat hozzá egyéni dokumentumtulajdonságokat Word-fájlokhoz az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat, hogy további metaadatokkal bővíthesse dokumentumait. |
-| [Egyéni dokumentumtulajdonságok eltávolítása](./remove-custom-document-properties/) | Egyéni dokumentumtulajdonságok eltávolítása Word-fájlokból az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a gyors és egyszerű megoldásért. Tökéletes fejlesztők számára. |
+| [Egyéni dokumentumtulajdonságok hozzáadása](./add-custom-document-properties/) | Ismerje meg, hogyan adhat hozzá egyéni dokumentumtulajdonságokat Word-fájlokhoz az Aspose.Words for .NET használatával. Kövesse lépésről szóló útmutatónkat, hogy további metaadatokkal bővíthesse dokumentumait. |
+| [Egyéni dokumentumtulajdonságok eltávolítása](./remove-custom-document-properties/) | Egyéni dokumentumtulajdonságok eltávolítása Word-fájlokból az Aspose.Words for .NET segítségével. Kövesse lépésről szintre... |
 | [Személyes adatok eltávolítása](./remove-personal-information/) | Tanulja meg, hogyan távolíthat el személyes adatokat a dokumentumokból az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Egyszerűsítse a dokumentumkezelést. |
 | [Tartalomra mutató hivatkozás konfigurálása](./configuring-link-to-content/) | Tanulja meg, hogyan konfigurálhat egy Word-dokumentum tartalmára mutató hivatkozást az Aspose.Words for .NET használatával részletes, lépésről lépésre bemutató oktatóanyagunkkal. |
 | [Mértékegységek közötti átváltás](./convert-between-measurement-units/) | Tanulja meg, hogyan válthat mértékegységeket az Aspose.Words for .NET programban. Kövesse lépésről lépésre szóló útmutatónkat a dokumentum margóinak, fejléceinek és lábléceinek hüvelykben és pontokban történő beállításához. |
 | [Használjon vezérlőkaraktereket](./use-control-characters/) | Fedezze fel, hogyan automatizálhatja a Word-dokumentumokkal kapcsolatos feladatokat az Aspose.Words for .NET segítségével. Ez az útmutató a beállítást, a szövegcserét és egyebeket ismerteti, így a munkafolyamat hatékonyabbá válik. |
-
+| [Hogyan számoljuk meg a lapokat egy Word-dokumentumban – Recover & Count](./how-to-count-pages-in-a-word-document-recover-count/) | Tanulja meg, hogyan számolhatja meg a Word-dokumentum lapjait az Aspose.Words for .NET használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

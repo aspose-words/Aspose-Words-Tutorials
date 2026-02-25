@@ -45,7 +45,7 @@
 | [อัปเดตคุณสมบัติที่พิมพ์ล่าสุดในเอกสาร PDF](./update-last-printed-property/) | เรียนรู้วิธีอัปเดตคุณสมบัติที่พิมพ์ล่าสุดในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเรา
 - [เรนเดอร์ 3D DML 3DEffects ในเอกสาร PDF](./dml-3deffects-rendering/) | เรียนรู้วิธีการเรนเดอร์เอฟเฟ็กต์ DML สามมิติอันน่าทึ่งในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 - [การแทรกภาพในเอกสาร PDF](./interpolate-images/) | เรียนรู้วิธีการแทรกรูปภาพในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงคุณภาพรูปภาพใน PDF ของคุณได้อย่างง่ายดาย |
-
+- [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ครบถ้วน](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย Aspose.Words ใน C# อย่างละเอียดตามขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

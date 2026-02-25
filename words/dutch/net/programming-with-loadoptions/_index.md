@@ -22,18 +22,19 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
  ## Zelfstudies
 | Titel | Beschrijving |
 | --- | --- |
-| [Onjuiste velden in Word-document bijwerken](./update-dirty-fields/) Werk moeiteloos gewijzigde velden in uw Word-documenten bij met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze handleiding. |
+| [Onjuiste velden in Word-document bijwerken](./update-dirty-fields/) | Werk moeiteloos gewijzigde velden in uw Word-documenten bij met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze handleiding. |
 | [Versleuteld laden in Word-document](./load-encrypted-document/) | Leer hoe u versleutelde Word-documenten kunt laden en opslaan met Aspose.Words voor .NET. Beveilig uw documenten eenvoudig met nieuwe wachtwoorden. Inclusief stapsgewijze handleiding. |
 | [Vorm converteren naar Office Math](./convert-shape-to-office-math/) | Leer hoe u vormen naar Office Math in Word-documenten kunt converteren met Aspose.Words voor .NET met onze gids. Verbeter moeiteloos de opmaak van uw document. |
 | [Stel Ms Word-versie in](./set-ms-word-version/) | Leer hoe u MS Word-versies instelt met Aspose.Words voor .NET met onze gedetailleerde handleiding. Perfect voor ontwikkelaars die documentbewerking willen stroomlijnen. |
 | [Gebruik tijdelijke map in Word-document](./use-temp-folder/) | Leer hoe u de prestaties van uw .NET-toepassingen kunt verbeteren door een tijdelijke map te gebruiken tijdens het laden van Word-documenten met Aspose.Words. |
-| [Waarschuwingscallback in Word-document](./warning-callback/) Leer hoe u waarschuwingen in Word-documenten kunt detecteren en verwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. Zorg voor een robuuste documentverwerking. |
+| [Waarschuwingscallback in Word-document](./warning-callback/) | Leer hoe u waarschuwingen in Word-documenten kunt detecteren en verwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. Zorg voor een robuuste documentverwerking. |
 | [Laden met codering in Word-document](./load-with-encoding/) | Leer hoe u een Word-document met specifieke codering laadt met Aspose.Words voor .NET. Stapsgewijze handleiding met gedetailleerde uitleg. |
 | [PDF-afbeeldingen overslaan](./skip-pdf-images/) | Leer hoe u afbeeldingen kunt overslaan bij het laden van PDF-documenten met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding voor naadloze tekstextractie. |
 | [Metabestanden naar PNG converteren](./convert-metafiles-to-png/) | Converteer metabestanden eenvoudig naar PNG in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Vereenvoudig uw documentbeheer. |
 | [Chm-bestanden laden in Word-document](./load-chm/) | Laad CHM-bestanden eenvoudig in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Perfect voor het consolideren van uw technische documentatie. |
 | [Hoe een DOCX te herstellen met Aspose.Words – stap voor stap](./how-to-recover-docx-with-aspose-words-step-by-step/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze handleiding. |
 | [Aspose Load Options – DOCX laden met aangepaste lettertype‑instellingen](./aspose-load-options-load-docx-with-custom-font-settings/) | Leer hoe u een DOCX-document kunt laden met aangepaste lettertype‑instellingen via LoadOptions in Aspose.Words voor .NET. |
+| [Aspose Load Options – DOCX naar Markdown en PDF converteren](./aspose-load-options-convert-docx-to-markdown-pdf/) | Leer hoe u met LoadOptions een DOCX-document kunt omzetten naar Markdown en PDF met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

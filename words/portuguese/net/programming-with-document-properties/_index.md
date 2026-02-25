@@ -15,9 +15,9 @@
 
 # Processamento de texto com propriedades do documento
 
-Os tutoriais do Aspose.Words para .NET sobre Processamento de Texto com Propriedades de Documentos oferecem uma visão aprofundada do gerenciamento de propriedades de documentos em seus projetos. Nestes tutoriais, você aprenderá como acessar, modificar e excluir propriedades como título, autor, palavras-chave, etc., para personalizar seus documentos do Word. Você também aprenderá como adicionar propriedades personalizadas para atender às suas necessidades específicas.
+Os tutoriais do Aspose.Words para .NET sobre Processamento de Texto com Propriedades de Documentos oferecem uma visão aprofundada do gerenciamento de propriedades de documentos em seus projetos. Nestes tutoriais, você aprenderá como acessar, modificar e excluir propriedades como título, autor, palavras‑chave, etc., para personalizar seus documentos do Word. Você também aprenderá como adicionar propriedades personalizadas para atender às suas necessidades específicas.
 
-Estes tutoriais guiarão você passo a passo para usar a biblioteca Aspose.Words para .NET para interagir com as propriedades do documento. Você aprenderá a extrair propriedades existentes, definir novos valores e remover propriedades indesejadas. Ao entender como manipular as propriedades do documento, você poderá criar documentos profissionais do Word e personalizá-los de acordo com suas necessidades.
+Estes tutoriais guiarão você passo a passo para usar a biblioteca Aspose.Words para .NET para interagir com as propriedades do documento. Você aprenderá a extrair propriedades existentes, definir novos valores e remover propriedades indesejadas. Ao entender como manipular as propriedades do documento, você poderá criar documentos profissionais do Word e personalizá‑los de acordo com suas necessidades.
 
 Seja você um desenvolvedor iniciante ou experiente, os tutoriais do Aspose.Words para .NET sobre processamento de texto com propriedades de documento fornecerão a você o conhecimento e as habilidades para gerenciar com eficiência as propriedades do seu documento do Word e otimizar seu fluxo de trabalho de desenvolvimento.
 
@@ -32,7 +32,7 @@ Seja você um desenvolvedor iniciante ou experiente, os tutoriais do Aspose.Word
 | [Configurando Link para Conteúdo](./configuring-link-to-content/) | Aprenda como configurar um link para o conteúdo em um documento do Word usando o Aspose.Words para .NET com nosso tutorial detalhado passo a passo. |
 | [Converter entre unidades de medida](./convert-between-measurement-units/) | Aprenda a converter unidades de medida no Aspose.Words para .NET. Siga nosso guia passo a passo para definir margens, cabeçalhos e rodapés do documento em polegadas e pontos. |
 | [Use caracteres de controle](./use-control-characters/) | Descubra como automatizar tarefas em documentos do Word usando o Aspose.Words para .NET. Este guia aborda configuração, substituição de texto e muito mais, tornando seu fluxo de trabalho eficiente. |
-
+| [Como contar páginas em um documento Word – Recuperar e contar](./how-to-count-pages-in-a-word-document-recover-count/) | Aprenda a contar páginas em documentos Word usando Aspose.Words para .NET com este tutorial passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

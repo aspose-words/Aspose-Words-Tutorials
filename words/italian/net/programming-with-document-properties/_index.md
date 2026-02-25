@@ -25,14 +25,14 @@ Che tu sia un principiante o uno sviluppatore esperto, i tutorial di Aspose.Word
 | Titolo | Descrizione |
 | --- | --- |
 | [Ottieni variabili](./get-variables/) | Padroneggia Aspose.Words per .NET. Impara a caricare ed estrarre variabili dai documenti Word con questa guida passo passo. |
-| [Enumerare le proprietà](./enumerate-properties/) Scopri come enumerare le proprietà in un documento Word utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetta per sviluppatori di tutti i livelli. |
+| [Enumerare le proprietà](./enumerate-properties/) | Scopri come enumerare le proprietà in un documento Word utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetta per sviluppatori di tutti i livelli. |
 | [Aggiungi proprietà personalizzate del documento](./add-custom-document-properties/) | Scopri come aggiungere proprietà personalizzate ai documenti Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per arricchire i tuoi documenti con metadati aggiuntivi. |
 | [Rimuovi proprietà documento personalizzate](./remove-custom-document-properties/) | Rimuovi le proprietà personalizzate dei documenti nei file Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per una soluzione rapida e semplice. Perfetto per gli sviluppatori. |
 | [Rimuovere le informazioni personali](./remove-personal-information/) | Scopri come rimuovere le informazioni personali dai documenti utilizzando Aspose.Words per .NET con questa guida passo passo. Semplifica la gestione dei documenti. |
-| [Configurazione del collegamento al contenuto](./configuring-link-to-content/) | Scopri come configurare un collegamento al contenuto di un documento Word utilizzando Aspose.Words per .NET con il nostro tutorial dettagliato e passo dopo passo.
+| [Configurazione del collegamento al contenuto](./configuring-link-to-content/) | Scopri come configurare un collegamento al contenuto di un documento Word utilizzando Aspose.Words per .NET con il nostro tutorial dettagliato e passo dopo passo. |
 | [Convertire tra unità di misura](./convert-between-measurement-units/) | Scopri come convertire le unità di misura in Aspose.Words per .NET. Segui la nostra guida passo passo per impostare margini, intestazioni e piè di pagina del documento in pollici e punti. |
 | [Usa caratteri di controllo](./use-control-characters/) | Scopri come automatizzare le attività dei documenti Word utilizzando Aspose.Words per .NET. Questa guida illustra la configurazione, la sostituzione del testo e altro ancora, rendendo efficiente il tuo flusso di lavoro. |
-
+| [Come contare le pagine in un documento Word – Recupera e conta](./how-to-count-pages-in-a-word-document-recover-count/) | Scopri come contare le pagine di un documento Word usando Aspose.Words per .NET, con esempi pratici per recuperare e contare le pagine. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
