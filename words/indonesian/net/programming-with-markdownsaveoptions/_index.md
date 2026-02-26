@@ -41,6 +41,10 @@ Pelajari cara mengekspor dokumen Word ke Markdown dengan panduan lengkap C#.
 Pelajari cara menyimpan file DOCX sebagai Markdown dengan panduan langkah demi langkah menggunakan C#.
 ### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
 Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
+### [Cara Menyimpan Markdown – Mengonversi Word ke Markdown & Mengekspor Matematika dengan Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
+Pelajari cara menyimpan dokumen sebagai Markdown, mengonversi Word ke Markdown, dan mengekspor persamaan matematika menggunakan Aspose.Words.
+### [Buat folder C# – Konversi Word ke Markdown & Ekstrak Gambar](./create-folder-c-convert-word-to-markdown-extract-images/)
+Pelajari cara membuat folder, mengonversi dokumen Word ke Markdown, dan mengekstrak gambar menggunakan Aspose.Words untuk .NET dengan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Chm Dosyalarını Word Belgesine Yükle](./load-chm/) | Bu adım adım eğitimle CHM dosyalarını Aspose.Words for .NET kullanarak Word belgelerine kolayca yükleyin. Teknik belgelerinizi birleştirmek için mükemmeldir. |
 | [Aspose.Words ile docx Dosyasını Adım Adım Kurtarma](./how-to-recover-docx-with-aspose-words-step-by-step/) | Aspose.Words kullanarak bozuk bir docx dosyasını nasıl kurtaracağınızı adım adım öğrenin. |
 | [Aspose Load Options – Özel Yazı Tipi Ayarlarıyla DOCX Yükle](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words for .NET ile özel yazı tipi ayarları kullanarak DOCX dosyalarını nasıl yükleyeceğinizi adım adım öğrenin. |
+| [C# ile DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Aspose.Words for .NET ile bozuk bir DOCX dosyasını C# içinde adım adım nasıl kurtaracağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

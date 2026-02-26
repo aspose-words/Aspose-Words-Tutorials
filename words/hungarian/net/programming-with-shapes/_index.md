@@ -34,6 +34,7 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Smart Art alakzat észlelése](./detect-smart-art-shape/) | Tanulja meg, hogyan észlelheti a SmartArt alakzatokat Word-dokumentumokban az Aspose.Words for .NET segítségével ebből az átfogó útmutatóból. Tökéletes a dokumentum-munkafolyamatok automatizálásához. |
 | [Smart Art rajz frissítése](./update-smart-art-drawing/) | Tanulja meg, hogyan frissítheti a Smart Art rajzokat Word dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Gondoskodjon arról, hogy a vizuális elemek mindig pontosak legyenek. |
 | [Téglalap alakzat létrehozása Wordben az Aspose.Words segítségével – Lépésről lépésre útmutató](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Tanulja meg, hogyan hozhat létre téglalap alakzatot Word dokumentumokban az Aspose.Words for .NET segítségével lépésről lépésre. |
+| [Téglalap alakzat létrehozása Wordben – Teljes Aspose.Words útmutató](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Részletes, teljes körű útmutató a téglalap alakzat Wordben történő létrehozásához az Aspose.Words használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

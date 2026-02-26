@@ -35,7 +35,7 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [URI ucieczki w dokumencie PDF](./escape-uri/) Dowiedz się, jak uciec URI w plikach PDF za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik przeprowadzi Cię przez ten proces krok po kroku. |
 | [Eksportuj nagłówek, stopkę i zakładki dokumentu Word do dokumentu PDF](./export-header-footer-bookmarks/) | Dowiedz się, jak eksportować zakładki nagłówka i stopki z dokumentu Word do pliku PDF za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Zmniejsz rozmiar pliku PDF za pomocą funkcji Skaluj czcionki WMF do rozmiaru metapliku](./scale-wmf-fonts-to-metafile-size/) | Przewodnik krok po kroku, jak zmniejszyć rozmiar pliku PDF, skalując czcionki WMF do rozmiaru metapliku podczas konwersji do pliku PDF za pomocą Aspose.Words dla platformy .NET. |
-| [Popraw pozycjonowanie tekstu PDF dzięki dodatkowemu pozycjonowaniu tekstu](./additional-text-positioning/) | Dowiedz się, jak poprawić pozycjonowanie tekstu PDF za pomocą Aspose.Words dla .NET w kilku prostych krokach. Popraw wygląd swojego dokumentu. |
+| [Popraw pozycjonowanie tekstu PDF dzięki dodatkowi pozycjonowania tekstu](./additional-text-positioning/) | Dowiedz się, jak poprawić pozycjonowanie tekstu PDF za pomocą Aspose.Words dla .NET w kilku prostych krokach. Popraw wygląd swojego dokumentu. |
 | [Konwertuj dokument Word do PDF 1.7](./conversion-to-pdf-17/) | Bezproblemowa konwersja dokumentów Word do PDF 1.7 przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby mieć pewność, że Twoje dokumenty są powszechnie dostępne i profesjonalnie sformatowane. |
 | [Zmniejsz rozmiar dokumentu PDF dzięki próbkowaniu obrazów w dół](./downsampling-images/) | Zmniejsz rozmiar dokumentu PDF, zmniejszając próbkowanie obrazów za pomocą Aspose.Words dla .NET. Zoptymalizuj pliki PDF, aby przyspieszyć czas przesyłania i pobierania. |
 | [Ustawianie opcji konspektu w dokumencie PDF](./set-outline-options/) | Dowiedz się, jak ustawić opcje konspektu w dokumencie PDF za pomocą Aspose.Words for .NET. Ulepsz nawigację w pliku PDF, konfigurując poziomy nagłówków i rozszerzone konspekty. |
@@ -45,7 +45,7 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Aktualizuj ostatnio wydrukowaną właściwość w dokumencie PDF](./update-last-printed-property/) | Dowiedz się, jak zaktualizować ostatnią wydrukowaną właściwość w dokumencie PDF za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Renderuj efekty 3D DML 3DEffects w dokumencie PDF](./dml-3deffects-rendering/) | Dowiedz się, jak renderować niesamowite efekty 3D DML w dokumentach PDF za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |
 | [Interpolacja obrazów w dokumencie PDF](./interpolate-images/) | Dowiedz się, jak interpolować obrazy w dokumencie PDF za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Łatwo popraw jakość obrazu w swoim pliku PDF. |
-
+| [Utwórz dostępny PDF z Word – Kompletny przewodnik Aspose.Words](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word, spełniające standardy WCAG, używając Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

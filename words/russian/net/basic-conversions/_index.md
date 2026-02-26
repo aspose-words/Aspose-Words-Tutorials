@@ -33,6 +33,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить PDF как JPEG](./pdf-to-jpeg/) | Легко конвертируйте PDF в JPEG с помощью Aspose.Words для .NET. Следуйте нашему подробному руководству с примерами и часто задаваемыми вопросами. Идеально подходит для разработчиков и энтузиастов. |
 | [Сохранить PDF в формате Word (Docx)](./pdf-to-docx/) | Узнайте, как преобразовать PDF в документ Word (Docx) с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Идеально подходит для разработчиков. |
 | [Как экспортировать LaTeX из Word – пошаговое руководство](./how-to-export-latex-from-word-step-by-step-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
+| [Как экспортировать LaTeX из Word – пошаговое руководство C#](./how-to-export-latex-from-word-step-by-step-c-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, используя C#. |
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
 

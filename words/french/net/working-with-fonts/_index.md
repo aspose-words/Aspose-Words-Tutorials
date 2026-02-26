@@ -43,11 +43,12 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Paramètres de police avec options de chargement](./font-settings-with-load-options/) Apprenez à gérer les paramètres de police avec les options de chargement dans Aspose.Words pour .NET. Guide étape par étape pour les développeurs afin de garantir une apparence cohérente des polices dans les documents Word.
 | [Définir le dossier des polices](./set-fonts-folder/) | Apprenez à définir un dossier de polices personnalisé dans Aspose.Words pour .NET pour garantir que vos documents Word sont rendus correctement sans polices manquantes. |
 | [Paramètres de police Instance par défaut](./font-settings-default-instance/) | Dans ce didacticiel, découvrez comment configurer les paramètres de police par défaut dans un document Word avec Aspose.Words pour .NET. |
-| [Obtenir la liste des polices disponibles](./get-list-of-available-fonts/) Découvrez comment obtenir la liste des polices disponibles avec Aspose.Words pour .NET grâce à ce tutoriel détaillé, étape par étape. Améliorez vos compétences en gestion des polices.
+| [Obtenir la liste des polices disponibles](./get-list-of-available-fonts/) Découvrez comment obtenir la liste des polices disponibles avec Aspose.Words pour .NET grâce à ce tutoriel détaillé, étape par étape. Améliorez vos compétences en gestion des polices. |
 | [Recevoir des notifications de polices](./receive-notifications-of-fonts/) | Découvrez comment recevoir des notifications de polices manquantes ou remplacées lors de l'utilisation d'Aspose.Words pour .NET. |
 | [Recevoir une notification d'avertissement](./receive-warning-notification/) Apprenez à recevoir une notification d'avertissement lors de l'utilisation d'Aspose.Words pour .NET et à gérer les problèmes ou les avertissements dans vos documents. |
 | [Exemple de source de police Steam](./resource-steam-font-source-example/) | Apprenez à utiliser la source de polices Resource Stream pour charger des polices personnalisées dans Aspose.Words pour .NET. |
 | [Obtenir une substitution sans suffixes](./get-substitution-without-suffixes/) | Dans ce didacticiel, découvrez comment obtenir des remplacements sans suffixe dans un document Word avec Aspose.Words pour .NET. |
+| [Gérer les polices manquantes en C# avec Aspose.Words – Guide complet](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Apprenez à gérer les polices manquantes dans vos documents Word en C# avec Aspose.Words grâce à ce guide complet étape par étape. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
