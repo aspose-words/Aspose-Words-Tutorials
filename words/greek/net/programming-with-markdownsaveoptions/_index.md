@@ -34,6 +34,8 @@
 | [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](./how-to-save-markdown-from-docx-step-by-step-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown με οδηγίες βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 | [Πώς να εξάγετε Markdown από το Word – Πλήρης οδηγός C#](./how-to-export-markdown-from-word-complete-c-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε μορφή Markdown με πλήρη οδηγό C# χρησιμοποιώντας Aspose.Words. |
 | [Πώς να αποθηκεύσετε Markdown από DOCX – Οδηγός βήμα‑βήμα](./how-to-save-markdown-from-docx-step-by-step-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως Markdown με οδηγίες βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
+| [Πώς να αποθηκεύσετε Markdown – Μετατροπή Word σε Markdown & Εξαγωγή Μαθηματικών με Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown και να εξάγετε μαθηματικούς τύπους με το Aspose.Words για .NET. |
+| [Δημιουργία φακέλου C# – Μετατροπή Word σε Markdown & Εξαγωγή εικόνων](./create-folder-c-convert-word-to-markdown-extract-images/) | Μάθετε πώς να δημιουργήσετε φάκελο και να μετατρέψετε έγγραφα Word σε Markdown, εξάγοντας τις εικόνες, με C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

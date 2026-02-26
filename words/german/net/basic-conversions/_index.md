@@ -34,6 +34,7 @@
 | [PDF als JPEG speichern](./pdf-to-jpeg/) | Konvertieren Sie PDFs mühelos in JPEGs mit Aspose.Words für .NET. Folgen Sie unserer ausführlichen Anleitung mit Beispielen und FAQs. Ideal für Entwickler und Enthusiasten. |
 | [PDF im Word-Format (Docx) speichern](./pdf-to-docx/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein PDF in ein Word-Dokument (Docx) konvertieren. Perfekt für Entwickler. |
 | [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-latex-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus Word-Dokumenten exportieren – detaillierte Anleitung mit Codebeispielen. |
+| [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-export-latex-from-word-step-by-step-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus Word in C# exportieren – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |
 | [Word als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

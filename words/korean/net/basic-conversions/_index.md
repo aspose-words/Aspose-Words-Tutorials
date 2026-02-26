@@ -33,6 +33,7 @@
 | [PDF를 Jpeg로 저장](./pdf-to-jpeg/) | Aspose.Words for .NET을 사용하여 PDF를 JPEG로 손쉽게 변환하세요. 자세한 가이드와 예시, FAQ를 참고하세요. 개발자와 애호가에게 안성맞춤입니다. |
 | [PDF를 Word 형식(Docx)으로 저장](./pdf-to-docx/) | Aspose.Words for .NET을 사용하여 PDF를 Word 문서(Docx)로 변환하는 방법을 단계별로 자세히 알아보세요. 개발자에게 안성맞춤입니다. |
 | [Word에서 LaTeX 내보내기 – 단계별 가이드](./how-to-export-latex-from-word-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에서 LaTeX 코드를 추출하고 내보내는 방법을 단계별로 안내합니다. |
+| [Word에서 LaTeX 내보내기 – 단계별 C# 가이드](./how-to-export-latex-from-word-step-by-step-c-guide/) | Aspose.Words와 C#를 활용해 Word 문서에서 LaTeX 코드를 추출하고 내보내는 단계별 가이드입니다. |
 | [C#에서 Aspose.Words를 사용해 Word를 PDF로 변환 – 가이드](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 Word를 PDF로 저장 – 완전한 C# 가이드](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words와 C#을 활용해 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
 
