@@ -48,6 +48,8 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [Comment enregistrer le Markdown depuis Word avec images – Guide complet C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

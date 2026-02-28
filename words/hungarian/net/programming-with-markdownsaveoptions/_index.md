@@ -37,6 +37,8 @@ Ismerje meg, hogyan mentheti el a DOCX fájlokat Markdown formátumba lépésrő
 Ismerje meg, hogyan exportálhatja a Word dokumentumokat Markdown formátumba egy teljes C# útmutatóval.
 ### [Hogyan exportáljunk Markdownot DOCX‑ből – Teljes útmutató](./how-to-export-markdown-from-docx-complete-guide/)
 Ismerje meg, hogyan exportálhatja a DOCX fájlokat Markdown formátumba egy teljes útmutatóval.
+### [Hogyan mentse el a Markdownot a Wordből képekkel – Teljes C# útmutató](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
+Ismerje meg, hogyan mentheti el a Word dokumentumokat Markdown formátumba képekkel egy teljes C# útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
