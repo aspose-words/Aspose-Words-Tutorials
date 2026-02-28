@@ -45,6 +45,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Laatst afgedrukte eigenschap in PDF-document bijwerken](./update-last-printed-property/) | Leer hoe u de laatst afgedrukte eigenschap in een PDF-document kunt bijwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [3D DML 3D-effecten renderen in een PDF-document](./dml-3deffects-rendering/) | Leer hoe u verbluffende 3D DML-effecten kunt maken in PDF-documenten met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. |
 | [Afbeeldingen in een PDF-document interpoleren](./interpolate-images/) | Leer hoe u afbeeldingen in een PDF-document kunt interpoleren met Aspose.Words voor .NET met onze stapsgewijze handleiding. Verbeter eenvoudig de beeldkwaliteit van uw PDF. |
+| [Docx naar pdf converteren – Complete gids voor toegankelijke PDF's](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Leer hoe u docx-bestanden naar toegankelijke PDF's converteert met Aspose.Words voor .NET, inclusief toegankelijkheidsopties en best practices. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -44,6 +44,9 @@
 ### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็ม C#](./how-to-export-markdown-from-docx-complete-guide/)
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
+### [วิธีบันทึก Markdown จาก Word พร้อมรูปภาพ – คู่มือเต็ม C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการจัดการรูปภาพอย่างละเอียดด้วย C#
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
