@@ -87,6 +87,18 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
+### [Cara Menyisipkan Gambar Saat Mengonversi Word ke Markdown – Panduan Lengkap](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Pelajari cara menyisipkan gambar secara otomatis saat mengonversi dokumen Word ke format Markdown menggunakan Aspose.Words for Java.
+
+### [Simpan docx sebagai txt – Panduan Cepat C# dengan Ekspor Matematika LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Pelajari cara menyimpan file DOCX menjadi TXT menggunakan C# serta mengekspor persamaan LaTeX secara otomatis.
+
+### [Membuat PDF Aksesibel dari Word – Panduan Langkah-demi-Langkah](./create-accessible-pdf-from-word-step-by-step-guide/)
+Pelajari cara menghasilkan PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words for Java dalam panduan langkah demi langkah ini.
+
+### [Opsi Penyimpanan PDF – Mengonversi DOCX ke PDF di Java dengan Kontrol Penuh](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Pelajari cara menggunakan opsi penyimpanan PDF untuk mengonversi DOCX ke PDF dengan kontrol penuh atas kualitas dan pengaturan dokumen.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

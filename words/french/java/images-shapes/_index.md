@@ -34,6 +34,9 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Comment afficher des pages de document sous forme de vignettes avec Aspose.Words pour Java](./render-word-pages-thumbnails-aspose-java/)
 Apprenez à générer des miniatures de haute qualité et des bitmaps de taille personnalisée pour vos documents Word avec Aspose.Words pour Java. Améliorez vos capacités de gestion de documents dès aujourd'hui.
 
+### [Appliquer un effet d'ombre à une forme en C# – Guide étape par étape](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Découvrez comment ajouter un effet d'ombre à une forme en C# avec Aspose.Words, étape par étape.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

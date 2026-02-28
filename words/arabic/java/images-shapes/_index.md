@@ -34,6 +34,9 @@
 ### [كيفية عرض صفحات المستندات كصور مصغرة باستخدام Aspose.Words لـ Java](./render-word-pages-thumbnails-aspose-java/)
 تعلّم كيفية إنشاء صور مصغرة عالية الجودة وخرائط نقطية بأحجام مخصصة لمستندات Word باستخدام Aspose.Words لجافا. حسّن قدراتك على التعامل مع المستندات اليوم.
 
+### [تطبيق تأثير الظل على شكل في C# – دليل خطوة بخطوة](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+تعلم كيفية إضافة تأثير الظل إلى الأشكال في C# باستخدام Aspose.Words خطوةً بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

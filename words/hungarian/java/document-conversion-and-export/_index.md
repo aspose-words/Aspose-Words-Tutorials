@@ -69,7 +69,7 @@ További információkért tekintsd meg az [Aspose.Words for Java API Documentat
 Egyedi vonalkód címkék generálása az Aspose.Words for Java‑val. Tanuld meg, hogyan hozhatsz létre személyre szabott vonalkód megoldásokat az Aspose.Words for Java segítségével ebben a lépésről‑lépésre útmutatóban.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generáláshoz. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
+Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generálásához. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Tanuld meg, hogyan hozz létre és testre szabj diagramokat az Aspose.Words for Java‑ban. Fedezd fel a diagramtípusokat, formázást és tengelybeállításokat az adatok vizualizálásához.
@@ -85,6 +85,18 @@ Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
+
+### [DOCX mentése TXT‑ként – Gyors C# útmutató LaTeX matematikai exporttal](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Tanuld meg, hogyan mentheted a DOCX fájlokat egyszerű szövegként (TXT), miközben a LaTeX matematikai képleteket is exportálod C#‑ban.
+
+### [How to Embed Images When Converting Word to Markdown – Complete Guide](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Tanuld meg, hogyan ágyazz be képeket a Word dokumentumok Markdown‑ba konvertálása során, lépésről‑lépésre útmutatóval.
+
+### [Akadálymentes PDF létrehozása Word‑ből – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-step-by-step-guide/)
+Tanulja meg, hogyan konvertáljon Word dokumentumot hozzáférhető PDF‑be az Aspose.Words for Java segítségével, a legfontosabb beállításokkal.
+
+### [PDF mentési beállítások – DOCX konvertálása PDF‑be Java‑ban teljes irányítással](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Ismerje meg, hogyan állíthatja be a PDF mentési opciókat a DOCX fájlok konvertálásához PDF‑be Java‑ban, teljes testreszabás mellett.
 
 ## Gyakran Ismételt Kérdések
 

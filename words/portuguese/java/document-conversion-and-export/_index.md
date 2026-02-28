@@ -89,6 +89,18 @@ Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Perso
 ### [Formatando Tabelas e Estilos de Tabela no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código‑fonte para formatação eficaz de tabelas. Melhore o layout do seu documento com Aspose.Words.
 
+### [Salvar docx como txt – Guia rápido em C# com exportação de matemática LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Aprenda a converter arquivos DOCX para TXT usando C# e exportar equações LaTeX incorporadas de forma simples.
+
+### [Como Incorporar Imagens ao Converter Word para Markdown – Guia Completo](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Aprenda a inserir imagens corretamente ao converter documentos Word para Markdown usando Aspose.Words for Java, passo a passo.
+
+### [Criar PDF acessível a partir do Word – Guia passo a passo](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words for Java, seguindo um guia detalhado passo a passo.
+
+### [Opções de salvamento PDF – Converter DOCX para PDF em Java com Controle Total](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Descubra como usar PdfSaveOptions para converter DOCX em PDF em Java, ajustando qualidade, compressão e outras configurações avançadas.
+
 ## Perguntas Frequentes
 
 **Q: Como adiciono uma marca d'água a um PDF existente usando Aspose.Words?**  
