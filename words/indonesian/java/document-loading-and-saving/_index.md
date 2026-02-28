@@ -83,54 +83,23 @@ Pengaturan dokumen adalah kunci untuk menghasilkan dokumen yang disesuaikan deng
 ## Tutorial Terkait – Memuat, Menyimpan, dan Mengonversi
 
 ### [Memuat dan Menyimpan Dokumen HTML dengan Aspose.Words untuk Java](./loading-and-saving-html-documents/)
-Pelajari cara memuat dan menyimpan dokumen HTML di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode untuk integrasi dokumen yang mulus.
-
 ### [Bekerja dengan Opsi Pemuatan di Aspose.Words untuk Java](./using-load-options/)
-Menguasai Opsi Pemuatan di Aspose.Words untuk Java. Sesuaikan pemuatan dokumen, tangani enkripsi, konversi shape, atur versi Word, dan lainnya untuk pemrosesan dokumen Java yang efisien.
-
 ### [Mengonfigurasi Opsi Pemuatan RTF di Aspose.Words untuk Java](./configuring-rtf-load-options/)
-Mengonfigurasi Opsi Pemuatan RTF di Aspose.Words untuk Java. Pelajari cara mengenali teks UTF-8 dalam dokumen RTF. Panduan langkah demi langkah dengan contoh kode.
-
 ### [Memuat File Teks dengan Aspose.Words untuk Java](./loading-text-files/)
-Manfaatkan Kekuatan Aspose.Words untuk Java. Pelajari cara Memuat Dokumen Teks, Mengelola Daftar, Menangani Spasi, dan Mengontrol Arah Teks.
-
 ### [Opsi Penyimpanan Lanjutan dengan Aspose.Words untuk Java](./advance-saving-options/)
-Pelajari manipulasi dokumen lanjutan dengan Aspose.Words untuk Java. Enkripsi, menangani metafile, dan lainnya. Dokumen Word Anda, cara Anda.
-
 ### [Menyimpan Dokumen HTML dengan Tata Letak Tetap di Aspose.Words untuk Java](./saving-html-documents-with-fixed-layout/)
-Pelajari cara menyimpan dokumen HTML dengan tata letak tetap di Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami untuk format dokumen yang mulus.
-
 ### [Opsi Penyimpanan Dokumen HTML Lanjutan dengan Aspose.Words Java](./advance-html-documents-saving-options/)
-Dalam tutorial ini, kami membahas berbagai opsi penyimpanan dokumen HTML lanjutan dengan Aspose.Words untuk Java. Opsi-opsi ini memungkinkan Anda membuat HTML berkualitas tinggi.
-
 ### [Menyimpan Gambar dari Dokumen di Aspose.Words untuk Java](./saving-images-from-documents/)
-Pelajari cara menyimpan gambar dari dokumen menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah kami yang komprehensif. Sesuaikan format, kompresi, dan lainnya.
-
 ### [Menyimpan Dokumen sebagai Markdown di Aspose.Words untuk Java](./saving-documents-as-markdown/)
-Pelajari cara mengonversi dokumen Word ke Markdown dengan Aspose.Words untuk Java. Panduan langkah demi langkah ini mencakup penyelarasan tabel, penanganan gambar, dan lainnya.
-
 ### [Menyimpan Dokumen dalam Format ODT di Aspose.Words untuk Java](./saving-documents-as-odt-format/)
-Pelajari cara menyimpan dokumen dalam format ODT menggunakan Aspose.Words untuk Java. Pastikan kompatibilitas dengan suite kantor sumber terbuka.
-
 ### [Menyimpan Dokumen dalam Format OOXML di Aspose.Words untuk Java](./saving-documents-as-ooxml-format/)
-Pelajari cara menyimpan dokumen dalam format OOXML dengan Aspose.Words untuk Java. Amankan, optimalkan, dan sesuaikan file Anda dengan mudah.
-
 ### [Menyimpan Dokumen dalam Format PCL di Aspose.Words untuk Java](./saving-documents-as-pcl-format/)
-Pelajari cara menyimpan dokumen dalam format PCL menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dan contoh kode untuk konversi dokumen yang efisien.
-
 ### [Menyimpan Dokumen sebagai PDF di Aspose.Words untuk Java](./saving-documents-as-pdf/)
-Pelajari cara menyimpan dokumen Word sebagai PDF menggunakan Aspose.Words untuk Java. Sesuaikan font, properti, dan kualitas gambar. Panduan komprehensif untuk konversi PDF.
-
 ### [Menyimpan Dokumen dalam Format RTF di Aspose.Words untuk Java](./saving-documents-as-rtf-format/)
-Pelajari cara menyimpan dokumen dalam format RTF menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan kode sumber untuk konversi dokumen yang efisien.
-
 ### [Menyimpan Dokumen sebagai File Teks di Aspose.Words untuk Java](./saving-documents-as-text-files/)
-Pelajari cara menyimpan dokumen sebagai file teks di Aspose.Words untuk Java. Ikuti panduan langkah demi langkah kami dengan contoh kode Java.
-
 ### [Menentukan Format Dokumen di Aspose.Words untuk Java](./determining-document-format/)
-Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
-Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
+### [Memulihkan File DOCX dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -89,6 +89,33 @@ Aprende a agregar marcas de agua a documentos en Aspose.Words for Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. Explora guías paso a paso con código fuente para un formateo de tablas eficaz. Mejora el diseño de tus documentos con Aspose.Words.
 
+### [Guardar docx como txt – Guía rápida en C# con exportación de matemáticas LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Aprenda a convertir documentos DOCX a archivos de texto plano y exportar ecuaciones LaTeX usando C# y Aspose.Words.
+
+### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
+Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.
+
+### [Crear markdown desde Word – Guía completa en C#](./create-markdown-from-word-complete-c-guide/)
+Aprenda a generar archivos markdown a partir de documentos Word usando C# con esta guía paso a paso.
+
+### [Crear PDF a partir de DOCX en C# – Guía completa de programación](./create-pdf-from-docx-in-c-complete-programming-guide/)
+Aprenda a generar archivos PDF a partir de documentos DOCX en C# con Aspose.Words mediante una guía paso a paso.
+
+### [Incrustar imágenes en markdown – Guía completa para convertir documentos Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
+Aprenda a incrustar imágenes en archivos markdown al convertir documentos Word, con ejemplos paso a paso.
+
+### [Crear PDF accesible desde Word – Convertir a PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
+
+### [Cómo incrustar imágenes al convertir Word a Markdown – Guía completa](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Aprenda a incrustar imágenes al convertir documentos Word a Markdown con Aspose.Words, paso a paso y con ejemplos completos.
+
+### [Crear PDF accesible desde Word – Guía paso a paso](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word usando Aspose.Words para Java. Guía paso a paso.
+
+### [Opciones de guardado PDF – Convertir DOCX a PDF en Java con control total](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Aprende a usar PdfSaveOptions para convertir DOCX a PDF en Java con control total sobre la salida.
+
 ## Preguntas frecuentes
 
 **Q: ¿Cómo agrego una marca de agua a un PDF existente usando Aspose.Words?**  
@@ -111,21 +138,6 @@ A: Sí, se requiere una licencia comercial para implementaciones en producción;
 **Última actualización:** 2025-12-10  
 **Probado con:** Aspose.Words for Java 24.12  
 **Autor:** Aspose  
-
-### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
-Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.
-
-### [Crear markdown desde Word – Guía completa en C#](./create-markdown-from-word-complete-c-guide/)
-Aprenda a generar archivos markdown a partir de documentos Word usando C# con esta guía paso a paso.
-
-### [Crear PDF a partir de DOCX en C# – Guía completa de programación](./create-pdf-from-docx-in-c-complete-programming-guide/)
-Aprenda a generar archivos PDF a partir de documentos DOCX en C# con Aspose.Words mediante una guía paso a paso.
-
-### [Incrustar imágenes en markdown – Guía completa para convertir documentos Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
-Aprenda a incrustar imágenes en archivos markdown al convertir documentos Word, con ejemplos paso a paso.
-
-### [Crear PDF accesible desde Word – Convertir a PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
-Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

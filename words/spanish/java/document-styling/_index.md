@@ -38,11 +38,13 @@ Aprenda a aplicar estilos y fuentes en documentos con Aspose.Words para Java. Gu
 ### [Cómo dar estilo a párrafos y textos en documentos](./styling-paragraphs-text/)
 Aprenda a aplicar estilo a párrafos y texto en documentos con Aspose.Words para Java. Guía paso a paso con código fuente para un formato de documentos eficaz.
 ### [Personalización de temas de documentos](./customizing-document-themes/)
-Aprenda a personalizar temas de documentos con Aspose.Words para Java. Esta guía completa ofrece instrucciones paso a paso y ejemplos de código fuente.
+Aprende a personalizar temas de documentos con Aspose.Words para Java. Esta guía completa ofrece instrucciones paso a paso y ejemplos de código fuente.
 ### [Marca de agua del documento y configuración de página](./document-watermarking-page-setup/)
 Aprenda a aplicar marcas de agua y configurar páginas con Aspose.Words para Java. Una guía completa con código fuente.
 ### [Estilo de encabezado y pie de página del documento](./document-header-footer-styling/)
 Aprenda a aplicar estilo a encabezados y pies de página de documentos con Aspose.Words para Java en esta guía detallada. Incluye instrucciones paso a paso y código fuente.
+### [Cómo detectar fuentes en documentos Word de Java – Guía completa](./how-to-detect-fonts-in-java-word-documents-complete-guide/)
+Aprenda a identificar fuentes en documentos Word usando Aspose.Words para Java. Guía paso a paso con ejemplos de código. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
