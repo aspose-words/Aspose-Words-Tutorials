@@ -89,6 +89,18 @@ Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tek
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
 
+### [Hoe Markdown vanuit Word opslaan – Complete gids](./how-to-save-markdown-from-word-complete-guide/)
+Leer hoe je een Word‑document kunt exporteren naar Markdown met Aspose.Words for Java in deze volledige handleiding.
+
+### [Hoe Markdown vanuit Word exporteren – Stap‑voor‑stap Java‑gids](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Leer hoe je met Aspose.Words for Java een Word‑document naar Markdown exporteert, stap voor stap met voorbeeldcode.
+
+### [Word opslaan als PDF met Aspose.Words – Stap‑voor‑stap Java‑gids](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Leer hoe je een Word‑document in één stap naar PDF converteert met Aspose.Words voor Java, inclusief code‑voorbeeld en instellingen.
+
+### [Maak Toegankelijke PDF vanuit DOCX in Java – Volledige Gids](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt vanuit een DOCX‑bestand, inclusief tags en structuur.
+
 ## Veelgestelde Vragen
 
 **Q: Hoe voeg ik een watermark toe aan een bestaande PDF met Aspose.Words?**  

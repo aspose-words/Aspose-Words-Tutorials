@@ -72,7 +72,7 @@ Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words 
 Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
 
 ### [Utilisation de la génération de codes-barres dans Aspose.Words pour Java](./using-barcode-generation/)
-Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words pour Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
+Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words for Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
 
 ### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
 Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
@@ -88,6 +88,18 @@ Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java.
 
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+
+### [Comment enregistrer le Markdown depuis Word – Guide complet](./how-to-save-markdown-from-word-complete-guide/)
+Apprenez à convertir vos documents Word en fichiers Markdown en conservant la mise en forme, grâce à un guide complet pas à pas.
+
+### [Comment exporter le Markdown depuis Word – Guide Java étape par étape](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Apprenez à exporter du Markdown depuis Word en Java avec Aspose.Words grâce à un guide détaillé étape par étape.
+
+### [Enregistrer Word en PDF avec Aspose.Words – Guide Java étape par étape](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Apprenez à convertir un document Word en PDF en Java avec Aspose.Words grâce à un guide détaillé étape par étape.
+
+### [Créer un PDF accessible à partir de DOCX en Java – Guide complet](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Apprenez à convertir un fichier DOCX en PDF accessible en Java avec Aspose.Words, en respectant les normes d’accessibilité.
 
 ## Questions fréquentes
 
