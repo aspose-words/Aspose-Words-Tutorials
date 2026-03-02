@@ -34,6 +34,7 @@
 | [Φόρτωση αρχείων Chm σε έγγραφο του Word](./load-chm/) | Φορτώστε εύκολα αρχεία CHM σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτό το βήμα προς βήμα σεμινάριο. Ιδανικό για την ενοποίηση της τεχνικής σας τεκμηρίωσης. |
 | [Πώς να ανακτήσετε docx με το Aspose.Words – βήμα προς βήμα](./how-to-recover-docx-with-aspose-words-step-by-step/) | Μάθετε πώς να ανακτήσετε αρχεία docx που έχουν καταστραφεί ή χαλασμένα χρησιμοποιώντας το Aspose.Words για .NET, βήμα προς βήμα οδηγός. |
 | [Aspose Load Options – Φόρτωση DOCX με προσαρμοσμένες ρυθμίσεις γραμματοσειράς](./aspose-load-options-load-docx-with-custom-font-settings/) | Μάθετε πώς να φορτώνετε αρχεία DOCX χρησιμοποιώντας το Aspose Load Options με προσαρμοσμένες ρυθμίσεις γραμματοσειράς για ακριβή απόδοση κειμένου. |
+| [Ανάκτηση Κατεστραμμένων Αρχείων Word – Οδηγός Βήμα‑βήμα για Προγραμματιστές C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία Word σε C# με το Aspose.Words για .NET, ακολουθώντας βήμα‑βήμα οδηγίες. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

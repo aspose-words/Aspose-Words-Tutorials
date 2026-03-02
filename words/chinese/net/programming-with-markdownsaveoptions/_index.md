@@ -51,6 +51,14 @@
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
 
+### [如何从 Word 保存 Markdown – 完整 C# 指南](./how-to-save-markdown-from-word-complete-c-guide/)
+
+使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和分步指南。
+
+### [使用 Aspose 从 Word 创建 Markdown – 步骤指南](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+
+本指南展示如何使用 Aspose.Words for .NET 将 Word 文档逐步转换为 Markdown，提供完整示例代码。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
