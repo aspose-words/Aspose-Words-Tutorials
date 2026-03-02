@@ -40,6 +40,18 @@ Leer hoe je met Aspose.Words voor Python Markdown-bestanden vanuit Word kunt ops
 ### [Herstel beschadigde DOCX & Converteer Word naar Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Leer hoe je beschadigde DOCX-bestanden kunt herstellen en Word-documenten naar Markdown kunt converteren met Aspose.Words voor Python.
 
+### [Hoe LaTeX te exporteren vanuit Word – Converteer DOCX naar Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Leer hoe je met Aspose.Words voor Python LaTeX kunt exporteren vanuit Word en DOCX-bestanden naar Markdown converteert.
+
+### [PDF maken vanuit Word – Complete Python-gids met Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+Leer hoe je met Aspose.Words voor Python Word-documenten naar PDF converteert in een volledige gids.
+
+### [Maak toegankelijke PDF vanuit Word met Python – Stapsgewijze gids](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+Leer hoe je met Aspose.Words voor Python toegankelijke PDF's maakt vanuit Word, met volledige stapsgewijze instructies.
+
+### [Word opslaan als Markdown – Complete gids met PDF/A‑UA-export](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+Leer hoe je met Aspose.Words voor Python Word-documenten opslaat als Markdown en exporteert naar PDF/A‑UA.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

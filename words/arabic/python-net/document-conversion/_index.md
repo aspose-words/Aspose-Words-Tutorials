@@ -37,6 +37,14 @@
 تعلم كيفية استخراج وحفظ محتوى Markdown من مستندات Word باستخدام Aspose.Words لبايثون.
 ### [استعادة DOCX التالف وتحويل Word إلى Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 تعلم كيفية إصلاح ملفات DOCX التالفة وتحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+تعلم كيفية استخراج LaTeX من مستندات Word وتحويلها إلى Markdown باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF من Word – دليل بايثون كامل مع Aspose.Words](./create-pdf-from-word-complete-python-guide-with-aspose-words/)
+دليل شامل لإنشاء PDF من مستند Word باستخدام Aspose.Words لبايثون.
+### [إنشاء PDF قابل للوصول من Word باستخدام بايثون – دليل خطوة بخطوة](./create-accessible-pdf-from-word-with-python-step-by-step-gui/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لبايثون لضمان إمكانية الوصول.
+### [حفظ Word كـ Markdown – دليل كامل مع تصدير PDF/A‑UA](./save-word-as-markdown-complete-guide-with-pdf-a-ua-export/)
+تعلم كيفية حفظ مستندات Word كملفات Markdown مع تصدير PDF/A‑UA باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
