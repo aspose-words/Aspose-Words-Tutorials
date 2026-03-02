@@ -88,6 +88,18 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
+### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์](./how-to-save-markdown-from-word-complete-guide/)
+เรียนรู้วิธีแปลงเอกสาร Word เป็นไฟล์ Markdown อย่างละเอียดด้วย Aspose.Words for Java.
+
+### [How to Export Markdown from Word – Step‑by‑Step Java Guide](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+เรียนรู้วิธีส่งออก Markdown จาก Word ด้วย Aspose.Words for Java อย่างละเอียดตามขั้นตอน
+
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือขั้นตอน Java](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย Aspose.Words for Java อย่างละเอียดตามขั้นตอน
+
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ใน Java – คู่มือเต็ม](./create-accessible-pdf-from-docx-in-java-full-guide/)
+เรียนรู้วิธีแปลง DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้เครื่องมือช่วยเหลือโดยใช้ Aspose.Words for Java อย่างละเอียด
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันจะเพิ่มลายน้ำให้กับ PDF ที่มีอยู่โดยใช้ Aspose.Words อย่างไร?**  
