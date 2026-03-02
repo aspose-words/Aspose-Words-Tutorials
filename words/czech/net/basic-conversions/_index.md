@@ -23,7 +23,7 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | --- | --- |
 | [Převod Doc do Docx](./doc-to-docx/) | Naučte se, jak převést DOC do DOCX pomocí Aspose.Words pro .NET. Podrobný návod s příklady kódu. Ideální pro vývojáře. |
 | [Převod Docx do RTF](./docx-to-rtf/) | Naučte se, jak převést DOCX do RTF pomocí Aspose.Words pro .NET s naším podrobným návodem. Snadná konverze pro bezproblémové zpracování dokumentů. |  
-| [Převod souboru Wordu do PDF](./docx-to-pdf/) Naučte se, jak snadno převést soubory Wordu do PDF pomocí Aspose.Words pro .NET s naším průvodcem. Ideální pro vývojáře, kteří hledají rychlý a spolehlivý převod dokumentů. |
+| [Převod souboru Wordu do PDF](./docx-to-pdf/) | Naučte se, jak snadno převést soubory Wordu do PDF pomocí Aspose.Words pro .NET s naším průvodcem. Ideální pro vývojáře, kteří hledají rychlý a spolehlivý převod dokumentů. |
 | [Převést Docx na bajty](./docx-to-byte/) | Naučte se, jak převést Docx do bajtového pole v .NET pomocí Aspose.Words pro efektivní zpracování dokumentů. Součástí je podrobný návod. |  
 | [Převod Docx do Epub](./docx-to-epub/) | Snadno převeďte DOCX do EPUB s Aspose.Words pro .NET. Postupujte podle našeho návodu pro bezproblémovou integraci do vašich .NET aplikací. |
 | [Převod Docx do Mhtml a odesílání e-mailů](./docx-to-mhtml-and-sending-email/) | Naučte se v tomto podrobném návodu, jak převést DOCX do MHTML a odesílat e-maily pomocí Aspose.Words pro .NET. Zvyšte svou produktivitu snadnou automatizací. |
@@ -35,6 +35,7 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | [Jak exportovat LaTeX z Wordu – krok za krokem](./how-to-export-latex-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat obsah Wordu do formátu LaTeX. Praktický průvodce s ukázkovým kódem. |
 | [Převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C#. Praktický návod s ukázkovým kódem. |
 | [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s podrobným návodem a ukázkovým kódem. |
+| [Uložit Word jako PDF pomocí Aspose.Words – Krok za krokem](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C# krok za krokem s praktickým příkladem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

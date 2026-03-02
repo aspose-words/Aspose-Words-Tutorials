@@ -35,6 +35,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [PDF'yi Jpeg olarak kaydet](./pdf-to-jpeg/) | Aspose.Words for .NET kullanarak PDF'leri zahmetsizce JPEG'lere dönüştürün. Örnekler ve SSS içeren ayrıntılı kılavuzumuzu takip edin. Geliştiriciler ve meraklılar için mükemmel. |
 | [PDF'yi Word Formatına (Docx) Kaydet](./pdf-to-docx/) | Bu ayrıntılı, adım adım kılavuzda Aspose.Words for .NET kullanarak bir PDF'yi Word belgesine (Docx) nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için mükemmel. |
 | [Word'den LaTeX'e Nasıl Dışa Aktarılır – Adım Adım Kılavuz](./how-to-export-latex-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX formatına nasıl dışa aktarım yapacağınızı adım adım öğrenin. |
+| [Word'ü PDF olarak kaydet – Aspose.Words Adım Adım Rehberi](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerini PDF'ye dönüştürmenin adım adım rehberi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

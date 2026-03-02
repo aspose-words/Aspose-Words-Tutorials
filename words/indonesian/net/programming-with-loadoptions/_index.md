@@ -22,18 +22,19 @@ Dalam tutorial ini, Anda akan mempelajari cara menggunakan LoadOptions untuk mem
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Memperbarui Bidang Kotor di Dokumen Word](./update-dirty-fields/) Perbarui bidang kotor dalam dokumen Word Anda dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
-| [Muat Terenkripsi Dalam Dokumen Word](./load-encrypted-document/) | Pelajari cara memuat dan menyimpan dokumen Word terenkripsi menggunakan Aspose.Words untuk .NET. Amankan dokumen Anda dengan kata sandi baru dengan mudah. Panduan langkah demi langkah disertakan. Bahasa Indonesia:
-| [Ubah Bentuk Ke Matematika Kantor](./convert-shape-to-office-math/) | Pelajari cara mengonversi bentuk ke Office Math dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurnakan format dokumen Anda dengan mudah. Bahasa Indonesia:
-| [Atur Versi Ms Word](./set-ms-word-version/) | Pelajari cara mengatur versi MS Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyederhanakan manipulasi dokumen. Bahasa Indonesia:
-| [Gunakan Folder Temp Dalam Dokumen Word](./use-temp-folder/) | Pelajari cara meningkatkan kinerja aplikasi .NET Anda dengan menggunakan folder sementara saat memuat dokumen Word dengan Aspose.Words. Bahasa Indonesia:
-| [Peringatan Panggilan Balik Dalam Dokumen Word](./warning-callback/) Pelajari cara menangkap dan menangani peringatan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan pemrosesan dokumen yang kuat. Bahasa Indonesia:
-| [Muat Dengan Pengodean Dalam Dokumen Word](./load-with-encoding/) | Pelajari cara memuat dokumen Word dengan pengodean tertentu menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci. Bahasa Indonesia:
-| [Lewati Gambar Pdf](./skip-pdf-images/) | Pelajari cara melewati gambar saat memuat dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk ekstraksi teks yang lancar. Bahasa Indonesia:
-| [Konversi Metafile ke PNG](./convert-metafiles-to-png/) | Ubah metafile menjadi PNG dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sederhanakan pengelolaan dokumen Anda. Bahasa Indonesia:
+| [Memperbarui Bidang Kotor di Dokumen Word](./update-dirty-fields/) | Perbarui bidang kotor dalam dokumen Word Anda dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia: |
+| [Muat Terenkripsi Dalam Dokumen Word](./load-encrypted-document/) | Pelajari cara memuat dan menyimpan dokumen Word terenkripsi menggunakan Aspose.Words untuk .NET. Amankan dokumen Anda dengan kata sandi baru dengan mudah. Panduan langkah demi langkah disertakan. Bahasa Indonesia: |
+| [Ubah Bentuk Ke Matematika Kantor](./convert-shape-to-office-math/) | Pelajari cara mengonversi bentuk ke Office Math dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurnakan format dokumen Anda dengan mudah. Bahasa Indonesia: |
+| [Atur Versi Ms Word](./set-ms-word-version/) | Pelajari cara mengatur versi MS Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci kami. Sempurna bagi pengembang yang ingin menyederhanakan manipulasi dokumen. Bahasa Indonesia: |
+| [Gunakan Folder Temp Dalam Dokumen Word](./use-temp-folder/) | Pelajari cara meningkatkan kinerja aplikasi .NET Anda dengan menggunakan folder sementara saat memuat dokumen Word dengan Aspose.Words. Bahasa Indonesia: |
+| [Peringatan Panggilan Balik Dalam Dokumen Word](./warning-callback/) | Pelajari cara menangkap dan menangani peringatan dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan pemrosesan dokumen yang kuat. Bahasa Indonesia: |
+| [Muat Dengan Pengodean Dalam Dokumen Word](./load-with-encoding/) | Pelajari cara memuat dokumen Word dengan pengodean tertentu menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan penjelasan terperinci. Bahasa Indonesia: |
+| [Lewati Gambar Pdf](./skip-pdf-images/) | Pelajari cara melewati gambar saat memuat dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk ekstraksi teks yang lancar. Bahasa Indonesia: |
+| [Konversi Metafile ke PNG](./convert-metafiles-to-png/) | Ubah metafile menjadi PNG dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sederhanakan pengelolaan dokumen Anda. Bahasa Indonesia: |
 | [Memuat File Chm Dalam Dokumen Word](./load-chm/) | Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda. |
 | [Cara Memulihkan DOCX dengan Aspose.Words – Langkah demi Langkah](./how-to-recover-docx-with-aspose-words-step-by-step/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah. |
-| [Aspose Load Options – Muat DOCX dengan Pengaturan Font Kustom](./aspose-load-options-load-docx-with-custom-font-settings/) Pelajari cara memuat file DOCX dengan pengaturan font khusus menggunakan Aspose Load Options dalam .NET. |
+| [Aspose Load Options – Muat DOCX dengan Pengaturan Font Kustom](./aspose-load-options-load-docx-with-custom-font-settings/) | Pelajari cara memuat file DOCX dengan pengaturan font khusus menggunakan Aspose Load Options dalam .NET. |
+| [Memulihkan File Word Rusak – Panduan Langkah demi Langkah untuk Pengembang C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Pelajari cara memulihkan file Word yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah untuk pengembang C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

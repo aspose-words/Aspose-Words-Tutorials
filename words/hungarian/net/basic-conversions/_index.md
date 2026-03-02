@@ -26,7 +26,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Word fájl konvertálása PDF-be](./docx-to-pdf/) Tanulja meg, hogyan konvertálhat egyszerűen Word-fájlokat PDF-be az Aspose.Words for .NET segítségével útmutatónkkal. Tökéletes azoknak a fejlesztőknek, akik gyors és megbízható dokumentumkonverziót keresnek. | 
 | [Docx konvertálása bájtba](./docx-to-byte/) | Tanulja meg, hogyan konvertálhat Docx fájlokat bájttömbökké .NET-ben az Aspose.Words segítségével a hatékony dokumentumfeldolgozás érdekében. Lépésről lépésre útmutató mellékelve. |  
 | [Docx konvertálása Epub-ba](./docx-to-epub/) | Konvertálj DOCX fájlokat egyszerűen EPUB-ba az Aspose.Words for .NET segítségével. Kövesd az oktatóanyagunkat a .NET alkalmazásaidba való zökkenőmentes integrációhoz. |
-| [Docx konvertálása Mhtml-be és e-mail küldése](./docx-to-mhtml-and-sending-email/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat MHTML formátumba, és hogyan küldhet e-maileket az Aspose.Words for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Növelje termelékenységét egyszerű automatizálással. |
+| [Docx konvertálása Mhtml-be és e-mail küldése](./docx-to-mhtml-and-sending-email/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat MHTML formátumba, és hogyan küldhet e-maileket az Aspose.Words for .NET segítségével ebben a lépésről‑lépésre szóló útmutatóban. Növelje termelékenységét egyszerű automatizálással. |
 | [Docx fájl konvertálása Markdown-ra](./docx-to-markdown/) | Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdown formátumba az Aspose.Words for .NET segítségével. Kövesse részletes útmutatónkat a .NET-alkalmazásokba való zökkenőmentes integrációhoz. |
 | [Docx konvertálása Txt-be](./docx-to-txt/) Konvertáljon DOCX fájlokat TXT fájlokká az Aspose.Words for .NET segítségével lépésről lépésre bemutató útmutatónkkal. Tanulja meg, hogyan alakíthatja át dokumentumait hatékonyan és könnyedén. |
 | [Szövegfájl konvertálása Word-dokumentummá](./txt-to-docx/) | Tanulja meg, hogyan konvertálhat szövegfájlokat Word-dokumentumokká az Aspose.Words for .NET segítségével. Átfogó útmutatónkkal hatékonyan kezelheti a dokumentumkonverziókat. | 
@@ -35,6 +35,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [LaTeX exportálása Wordből – Lépésről‑lépésre útmutató](./how-to-export-latex-from-word-step-by-step-guide/) | Tanulja meg, hogyan exportálhat LaTeX-et Word dokumentumokból az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 | [Word konvertálása PDF-be C#-ban az Aspose.Words – Útmutató](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Tanulja meg, hogyan konvertálhat Word dokumentumokat PDF-be C#-ban az Aspose.Words használatával. |
 | [Word mentése PDF-be az Aspose.Words segítségével – Teljes C# útmutató](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Tanulja meg, hogyan menthet Word dokumentumokat PDF-be C#-ban az Aspose.Words használatával, részletes lépésekkel. |
+| [Word mentése PDF-be az Aspose.Words segítségével – Lépésről‑lépésre útmutató](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Ismerje meg, hogyan konvertálhat Word dokumentumokat PDF-be az Aspose.Words használatával részletes, lépésről‑lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
