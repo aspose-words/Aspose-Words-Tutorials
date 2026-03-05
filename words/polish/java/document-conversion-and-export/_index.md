@@ -69,6 +69,9 @@ Po więcej informacji zapoznaj się z [Aspose.Words for Java API Documentation](
 
 ## Samouczki dotyczące konwersji i eksportu dokumentów
 
+### [Eksport DOCX do PDF – Kompletny przewodnik tworzenia dostępnych plików PDF](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Dowiedz się, jak eksportować DOCX do PDF, zapewniając dostępność – tagowanie, struktura i konwersja do PDF/A.
+
 ### [Używanie generowania kodów kreskowych w Aspose.Words for Java](./using-barcode-generation/)
 Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step‑by‑step guide with source code for barcode generation. Enhance document automation with Aspose.Words.
 
@@ -86,6 +89,9 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 
 ### [Formatowanie tabel i stylów tabel w Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [Docx do PDF – konwersja Word do PDF przy użyciu LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Dowiedz się, jak szybko przekształcić dokumenty Word w PDF przy użyciu platformy LowCode i Aspose.Words.
 
 ## Najczęściej zadawane pytania
 

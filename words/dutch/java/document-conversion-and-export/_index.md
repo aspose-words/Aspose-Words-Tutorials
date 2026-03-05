@@ -86,6 +86,9 @@ Ontgrendel de kracht van documentvormen in Aspose.Words for Java. Leer visueel a
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tekst‑ en afbeelding‑watermarks aan voor professioneel uitziende documenten.
 
+### [docx naar pdf tutorial – Converteer Word naar PDF met LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Leer hoe u met LowCode een DOCX‑bestand naar PDF converteert in Aspose.Words for Java.
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
 

@@ -34,7 +34,7 @@ weight: 12
 - **High fidelity** – Εγγυάται ότι το παραγόμενο έγγραφο φαίνεται ακριβώς όπως σχεδιάστηκε.  
 - **Performance‑tuned** – Βελτιστοποιημένο για μεγάλες παρτίδες και σενάρια υψηλής απόδοσης.  
 
-## Πώς να Εισάγετε Control Characters, Search‑Replace Κείμενο και να Διαχειριστείτε τη Διάταξη Εγγράφου;
+## Πώς να Εισάγετε Control Characters, Search‑replace Κείμενο και να Διαχειριστείτε τη Διάταξη Εγγράφου;
 Το Aspose.Words παρέχει ειδικές κλάσεις για κάθε μία από αυτές τις εργασίες:
 
 - **Insert control characters** – Χρησιμοποιήστε `DocumentBuilder.insertControlCharacter(ControlChar)` για να προσθέσετε αλλαγές γραμμής, αλλαγές σελίδας ή άλλα μη‑εκτυπώσιμα σύμβολα.  
@@ -63,6 +63,9 @@ weight: 12
 
 ### [Κατακτώντας το Aspose.Words Java&#58; Πλήρης Οδηγός για LayoutCollector & LayoutEnumerator για Επεξεργασία Κειμένου](./aspose-words-java-layoutcollector-enumerator-guide/)
 Αποκτήστε τη δύναμη του **LayoutCollector** και του **LayoutEnumerator** του Aspose.Words Java για προχωρημένη επεξεργασία κειμένου. Μάθετε πώς να διαχειρίζεστε αποδοτικά τις διατάξεις εγγράφων, να αναλύετε τη σελιδοποίηση και να ελέγχετε την αρίθμηση σελίδων.
+
+### [Δημιουργία σχήματος ορθογωνίου στο Word με C# – Οδηγός βήμα‑βήμα](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Μάθετε πώς να σχεδιάσετε και να τοποθετήσετε ένα σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words for C#.
 
 ## Συνηθισμένες Περιπτώσεις Χρήσης
 

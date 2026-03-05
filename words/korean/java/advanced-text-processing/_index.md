@@ -63,6 +63,9 @@ Aspose.Words for Java를 사용한 제어 문자 마스터: 고급 텍스트 처
 ### [Mastering Aspose.Words Java: A Complete Guide to LayoutCollector & LayoutEnumerator for Text Processing](./aspose-words-java-layoutcollector-enumerator-guide/)
 Aspose.Words Java 마스터하기: 텍스트 처리를 위한 LayoutCollector 및 LayoutEnumerator 완전 가이드
 
+### [C#로 Word에서 사각형 도형 만들기 – 단계별 가이드](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+C# 코드를 이용해 Word 문서에 사각형 도형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
+
 ## Common Use Cases
 
 | 시나리오 | 도움이 되는 방법 |

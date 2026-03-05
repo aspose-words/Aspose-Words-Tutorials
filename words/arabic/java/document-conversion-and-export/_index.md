@@ -95,6 +95,9 @@ weight: 22
 ### [تنسيق الجداول وأنماط الجداول في Aspose.Words for Java](./formatting-tables-and-table-styles/)
 تعلم كيفية تنسيق الجداول وتطبيق أنماط الجداول في Aspose.Words for Java. استكشف أدلة خطوة بخطوة مع الشيفرة المصدرية لتنسيق فعال للجداول. حسّن تخطيط مستندك باستخدام Aspose.Words.
 
+### [تصدير DOCX إلى PDF – دليل شامل لإنشاء ملفات PDF قابلة للوصول](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+دليل شامل لتصدير مستندات DOCX إلى PDF مع مراعاة إمكانية الوصول.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

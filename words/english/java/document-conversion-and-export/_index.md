@@ -87,6 +87,12 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
+### [Export DOCX to PDF – Complete Guide to Creating Accessible PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Learn how to export DOCX files to PDF while ensuring accessibility compliance, with step‑by‑step instructions using Aspose.Words for Java.
+
+### [docx to pdf tutorial – Convert Word to PDF with LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Learn how to convert DOCX to PDF using LowCode solutions with Aspose.Words for Java in a quick step‑by‑step guide.
+
 ## Frequently Asked Questions
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  

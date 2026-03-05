@@ -130,6 +130,9 @@ Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speiche
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
 Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
 
+### [Wie man DOCX wiederherstellt – Wiederherstellungsmodus festlegen und Warnungen anzeigen](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und Warnungen anzeigen lassen, um beschädigte DOCX‑Dateien mit Aspose.Words für Java zu reparieren.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

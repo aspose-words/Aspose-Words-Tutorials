@@ -96,6 +96,12 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
 
+### [Exportieren von DOCX nach PDF – Komplettleitfaden zur Erstellung barrierefreier PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Erfahren Sie, wie Sie DOCX‑Dateien in PDF konvertieren und dabei barrierefreie PDFs mit Tags, Lesezeichen und korrekter Struktur erzeugen.
+
+### [docx‑to‑pdf‑Tutorial – Word mit LowCode in PDF konvertieren](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Erfahren Sie, wie Sie mit LowCode Word‑Dokumente schnell und einfach in PDF umwandeln, ohne umfangreichen Code zu schreiben.
+
 ## Häufig gestellte Fragen
 
 **Q: Wie füge ich einem bestehenden PDF mit Aspose.Words ein Wasserzeichen hinzu?**  
