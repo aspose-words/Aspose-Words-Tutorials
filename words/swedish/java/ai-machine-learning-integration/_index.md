@@ -67,6 +67,9 @@ Exportera det berikade dokumentet till det format du behöver—PDF, DOCX, HTML 
 ### [Behärska textbehandling i Java: Använd Aspose.Words & AI‑modeller för sammanfattning och översättning](./java-aspose-words-text-processing/)
 Lär dig hur du automatiserar textsammanfattning och översättning med Aspose.Words för Java med OpenAI:s GPT‑4 och Googles Gemini. Förbättra dina Java‑applikationer idag.
 
+### [Hur man konfigurerar LLM – Ersätt text i DOCX med AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Lär dig konfigurera en stor språkmodell för att automatiskt ersätta text i DOCX-filer med AI‑genererat innehåll.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java‑dokumentation](https://reference.aspose.com/words/java/)

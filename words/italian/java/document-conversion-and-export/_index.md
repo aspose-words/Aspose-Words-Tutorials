@@ -83,6 +83,9 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
+### [Tutorial docx to pdf – Converti Word in PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Scopri come convertire file DOCX in PDF usando LowCode con Aspose.Words per Java in pochi passaggi.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

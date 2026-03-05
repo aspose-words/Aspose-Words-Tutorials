@@ -89,6 +89,12 @@ Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java.
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
 
+### [Export DOCX vers PDF – Guide complet pour créer des PDF accessibles](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Apprenez à convertir des fichiers DOCX en PDF accessibles, en respectant les normes d’accessibilité et en conservant la mise en page.
+
+### [Tutoriel docx vers pdf – Convertir Word en PDF avec LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Apprenez à convertir des fichiers DOCX en PDF en utilisant la plateforme LowCode, avec un exemple complet et du code prêt à l’emploi.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

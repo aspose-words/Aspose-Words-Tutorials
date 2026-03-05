@@ -83,6 +83,12 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 在 Aspose.Words for Java 中格式化表格與表格樣式。學習如何在 Aspose.Words for Java 中格式化表格與套用表格樣式。透過逐步指南與原始碼，實作有效的表格格式化。提升文件版面配置與 Aspose.Words。
 
+### [匯出 DOCX 為 PDF – 完整的可存取 PDF 建立指南](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+說明如何使用 Aspose.Words for Java 將 DOCX 檔案匯出為符合可存取性標準的 PDF，涵蓋標籤、結構與文字層級設定。
+
+### [docx 轉 PDF 教學 – 使用 LowCode 將 Word 轉換為 PDF](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+說明如何使用 LowCode 平台將 DOCX 檔案快速轉換為 PDF，適用於無程式碼開發者。
+
 ## 常見問題
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  

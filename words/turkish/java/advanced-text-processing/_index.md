@@ -64,6 +64,9 @@ Learn how to manage and insert **control characters** in documents using Aspose.
 ### [Mastering Aspose.Words Java&#58; A Complete Guide to LayoutCollector & LayoutEnumerator for Text Processing](./aspose-words-java-layoutcollector-enumerator-guide/)
 Unlock the power of Aspose.Words Java's **LayoutCollector** and **LayoutEnumerator** for advanced text processing. Learn how to efficiently manage document layouts, analyze pagination, and control page numbering.
 
+### [C# ile Word'de Dikdörtgen Şekli Oluşturma – Adım Adım Kılavuz](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+C# kullanarak Word belgesine dikdörtgen şekli ekleme, konumlandırma ve biçimlendirme adımlarını öğrenin.
+
 ## Common Use Cases
 
 | Scenario | How It Helps |

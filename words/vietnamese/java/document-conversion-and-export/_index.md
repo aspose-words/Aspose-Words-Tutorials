@@ -74,7 +74,7 @@ Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words for Java. Tìm hiểu cá
 Sử dụng tạo mã vạch trong Aspose.Words for Java. Tìm hiểu cách tạo mã vạch tùy chỉnh trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm mã nguồn cho việc tạo mã vạch. Nâng cao tự động hoá tài liệu với Aspose.Words.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-Sử dụng biểu đồ trong Aspose.Words for Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words for Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
+Sử dụng biểu đồ trong Aspose.Words cho Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words for Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Sử dụng đối tượng Office Math trong Aspose.Words for Java. Khai thác sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words for Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
@@ -87,6 +87,9 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu c
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Định dạng bảng và kiểu bảng trong Aspose.Words for Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words for Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
+
+### [Xuất DOCX sang PDF – Hướng Dẫn Toàn Diện Để Tạo PDF Truy cập Được](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Xuất tài liệu DOCX sang PDF một cách toàn diện, bao gồm hướng dẫn tạo PDF có khả năng truy cập cho người khuyết tật.
 
 ## Câu hỏi thường gặp
 

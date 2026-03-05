@@ -89,6 +89,12 @@ Aprende a agregar marcas de agua a documentos en Aspose.Words for Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. Explora guías paso a paso con código fuente para un formateo de tablas eficaz. Mejora el diseño de tus documentos con Aspose.Words.
 
+### [Exportar DOCX a PDF – Guía completa para crear PDFs accesibles](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+Aprende a exportar documentos DOCX a PDF accesibles siguiendo esta guía completa, con ejemplos de cumplimiento PDF/UA usando Aspose.Words for Java.
+
+### [docx a pdf tutorial – Convertir Word a PDF con LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+Aprende a convertir documentos Word a PDF usando LowCode con Aspose.Words, sin necesidad de programar extensamente.
+
 ## Preguntas frecuentes
 
 **Q: ¿Cómo agrego una marca de agua a un PDF existente usando Aspose.Words?**  

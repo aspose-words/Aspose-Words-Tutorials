@@ -66,6 +66,9 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
+### [How to Configure LLM – Replace Text in DOCX with AI](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+Learn how to set up a large language model to automatically replace text in DOCX files using Aspose.Words for Java.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

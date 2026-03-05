@@ -75,6 +75,10 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
 
+### [LLM の設定方法 – AI で DOCX のテキストを置換する](./how-to-configure-llm-replace-text-in-docx-with-ai/)
+
+AI を活用して LLM を設定し、DOCX 内のテキストを自動的に置換する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

@@ -64,6 +64,9 @@ Dowiedz się, jak zarządzać i wstawiać **znaki kontrolne** w dokumentach przy
 ### [Mistrzostwo Aspose.Words Java&#58; Kompletny przewodnik po LayoutCollector i LayoutEnumerator dla przetwarzania tekstu](./aspose-words-java-layoutcollector-enumerator-guide/)
 Odkryj moc **LayoutCollector** i **LayoutEnumerator** w Aspose.Words Java dla zaawansowanego przetwarzania tekstu. Naucz się efektywnie zarządzać układem dokumentów, analizować paginację i kontrolować numerację stron.
 
+### [Tworzenie prostokątnego kształtu w Wordzie przy użyciu C# – przewodnik krok po kroku](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+Dowiedz się, jak programowo dodać prostokątny kształt do dokumentu Word przy użyciu Aspose.Words i języka C#.
+
 ## Typowe scenariusze użycia
 
 | Scenariusz | Jak to pomaga |

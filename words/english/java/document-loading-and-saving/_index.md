@@ -86,6 +86,8 @@ Learn how to load and save HTML documents in Java using Aspose.Words for Java. S
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Mastering Load Options in Aspose.Words for Java. Customize document loading, handle encryption, convert shapes, set Word versions, and more for efficient Java document processing.
 
+### [How to Recover DOCX – Set Recovery Mode & Display Warnings](./how-to-recover-docx-set-recovery-mode-display-warnings/)
+
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configuring RTF Load Options in Aspose.Words for Java. Learn how to recognize UTF-8 text in RTF documents. Step-by-step guide with code examples.
 
@@ -158,4 +160,3 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
