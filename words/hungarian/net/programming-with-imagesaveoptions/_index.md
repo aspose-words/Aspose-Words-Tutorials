@@ -28,7 +28,7 @@ Az oktatóanyagok a képmanipuláció alapvető fogalmait is lefedik, beleértve
 | [JPEG oldaltartomány beolvasása](./get-jpeg-page-range/) | Word dokumentumok adott oldalainak JPEG formátumba konvertálása egyéni beállításokkal az Aspose.Words for .NET segítségével. Tanulja meg, hogyan állíthatja be a fényerőt, a kontrasztot és a felbontást lépésről lépésre. |
 | [Oldalmentés visszahívása](./page-saving-callback/) | Tanuld meg, hogyan mentheted el egy Word-dokumentum minden oldalát külön PNG-képként az Aspose.Words for .NET segítségével részletes, lépésről lépésre szóló útmutatónkkal. |
 | [Hogyan állítsuk be a DPI-t a Word PNG-re konvertálásakor – Teljes C# útmutató](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Ismerje meg, hogyan állíthatja be a DPI értéket a Word dokumentum PNG formátumba konvertálásakor C#-ban, részletes lépésekkel. |
-
+| [Word konvertálása PNG-re – Oldalak egyesítése függőleges csíkba](./convert-word-to-png-merge-pages-into-a-vertical-strip/) | Tanulja meg, hogyan konvertálhatja a Word-dokumentumokat PNG-re, és egyesítheti az oldalakat egy függőleges csíkba az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
