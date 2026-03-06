@@ -42,6 +42,7 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Améliorez le traitement de vos documents avec Aspose.Words pour .NET et Google AI pour créer des résumés concis sans effort. |
 | [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) | Bénéficiez d'une synthèse efficace de vos documents grâce à Aspose.Words pour .NET et aux puissants modèles d'OpenAI. Découvrez dès maintenant ce guide complet. |
 | [Travailler avec les options de résumé](./working-with-summarize-options/) | Apprenez à résumer efficacement des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape sur l'intégration de modèles d'IA pour des informations rapides. |
+| [Comment résumer des documents Word – Guide complet C#](./how-to-summarize-word-documents-complete-c-guide/) | Apprenez à résumer des documents Word avec Aspose.Words pour .NET en C#, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

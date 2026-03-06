@@ -15,7 +15,7 @@
 
 # Procesamiento de palabras con opciones de guardado de imágenes
 
-Los tutoriales de Aspose.Words para .NET sobre procesamiento de texto con ImageSaveOptions te ayudarán a dominar las funciones avanzadas de manipulación de imágenes en tus documentos de Word. Estos tutoriales paso a paso te guiarán en el uso de las opciones para guardar imágenes, incluyendo la compresión, la selección del formato, la configuración de la calidad y más. Aprenderás a personalizar el procesamiento de imágenes al generar o convertir documentos, lo que te permitirá controlar con precisión la apariencia y el tamaño de las imágenes en tus archivos de Word.
+Los tutoriales de Aspose.Words para .NET sobre procesamiento de texto con ImageSaveOptions te ayudarán a dominar las funciones avanzadas de manipulación de imágenes en tus documentos de Word. Estos tutoriales paso a paso te guiarán en el uso de las opciones para guardar imágenes, incluyendo la compresión, la selección del formato, la configuración de la calidad y más. Aprenderá a personalizar el procesamiento de imágenes al generar o convertir documentos, lo que le permitirá controlar con precisión la apariencia y el tamaño de las imágenes en sus archivos de Word.
 
 Los tutoriales también abarcan los conceptos básicos de la manipulación de imágenes, incluyendo la inserción, eliminación, redimensionamiento y recorte de imágenes en un documento de Word con Aspose.Words para .NET. Aprenderá a extraer imágenes de documentos de Word, reemplazarlas con otras imágenes y ajustar su posición, alineación y ajuste. Estos tutoriales le permitirán crear flujos de trabajo automatizados y eficientes para la gestión de imágenes en sus documentos de Word, brindándole las habilidades para manipular los elementos visuales de sus archivos de Word de forma fácil y eficiente.
 
@@ -28,6 +28,7 @@ Los tutoriales también abarcan los conceptos básicos de la manipulación de im
 | [Obtener rango de páginas JPEG](./get-jpeg-page-range/) | Convierte páginas específicas de documentos de Word a JPEG con configuraciones personalizadas usando Aspose.Words para .NET. Aprende a ajustar el brillo, el contraste y la resolución paso a paso. |
 | [Devolución de llamada para guardar página](./page-saving-callback/) | Aprenda a guardar cada página de un documento de Word como una imagen PNG separada usando Aspose.Words para .NET con nuestra guía detallada paso a paso. |
 | [Cómo establecer DPI al convertir Word a PNG – Guía completa en C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aprenda a establecer la resolución DPI al convertir documentos Word a imágenes PNG usando Aspose.Words para .NET con esta guía paso a paso en C#. |
+| [Crear cuadrícula PNG a partir de documento Word – Guía paso a paso](./create-png-grid-from-word-document-step-by-step-guide/) | Aprenda a crear una cuadrícula de imágenes PNG a partir de un documento Word con Aspose.Words para .NET paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

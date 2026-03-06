@@ -21,7 +21,7 @@ De Aspose.Words voor .NET-tutorials over tekstverwerking met OfficeMath begeleid
 | Titel | Beschrijving |
 | --- | --- |
 | [Wiskundige vergelijkingen](./math-equations/) | Leer hoe u wiskundige vergelijkingen in Word-documenten configureert met Aspose.Words voor .NET. Stapsgewijze handleiding met voorbeelden, veelgestelde vragen en meer. |
-
+| [Hoe vergelijkingen in Word naar LaTeX converteren – Opslaan als TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Leer hoe u wiskundige vergelijkingen in Word kunt exporteren naar LaTeX en opslaan als TXT-bestand. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

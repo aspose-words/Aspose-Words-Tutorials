@@ -21,6 +21,7 @@ Os tutoriais do Aspose.Words para .NET sobre Processamento de Texto com o Office
 | Título | Descrição |
 | --- | --- |
 | [Equações matemáticas](./math-equations/) | Aprenda a configurar equações matemáticas em documentos do Word usando o Aspose.Words para .NET. Guia passo a passo com exemplos, perguntas frequentes e muito mais. |
+| [Como converter equações no Word para LaTeX – Salvar como TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Aprenda a converter equações do Word para LaTeX e salvá‑las como arquivos TXT usando Aspose.Words para .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
