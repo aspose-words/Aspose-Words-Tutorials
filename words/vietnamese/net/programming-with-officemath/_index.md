@@ -21,6 +21,7 @@ Hướng dẫn Aspose.Words for .NET về Xử lý Words với OfficeMath sẽ h
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Phương trình toán học](./math-equations/) | Tìm hiểu cách cấu hình các phương trình toán học trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ, câu hỏi thường gặp và nhiều hơn nữa. |
+| [Cách chuyển đổi phương trình trong Word sang LaTeX – Lưu dưới dạng TXT](./how-to-convert-equations-in-word-to-latex-save-as-txt/) | Hướng dẫn chuyển các phương trình trong tài liệu Word sang định dạng LaTeX và lưu dưới dạng tệp TXT bằng Aspose.Words cho .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

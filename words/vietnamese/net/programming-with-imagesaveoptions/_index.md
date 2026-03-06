@@ -28,6 +28,7 @@ Các hướng dẫn cũng đề cập đến các khái niệm cơ bản về th
 | [Lấy phạm vi trang Jpeg](./get-jpeg-page-range/) | Chuyển đổi các trang cụ thể của tài liệu Word sang JPEG với các thiết lập tùy chỉnh bằng Aspose.Words cho .NET. Tìm hiểu cách điều chỉnh độ sáng, độ tương phản và độ phân giải từng bước. |
 | [Gọi lại lưu trang](./page-saving-callback/) | Học cách lưu từng trang của tài liệu Word dưới dạng ảnh PNG riêng biệt bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. |
 | [Cách Đặt DPI Khi Chuyển Đổi Word Sang PNG – Hướng Dẫn C# Đầy Đủ](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Hướng dẫn chi tiết cách thiết lập DPI khi chuyển đổi tài liệu Word sang PNG bằng C# trong Aspose.Words cho .NET. |
+| [Tạo lưới PNG từ tài liệu Word – Hướng dẫn từng bước](./create-png-grid-from-word-document-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo lưới ảnh PNG từ tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

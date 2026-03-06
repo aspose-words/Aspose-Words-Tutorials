@@ -22,7 +22,7 @@ Words Processing with MarkdownSaveOptions adalah sumber daya mendalam yang meman
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ekspor ke Markdown dengan Penyelarasan Konten Tabel](./export-into-markdown-with-table-content-alignment/) | Pelajari cara mengekspor dokumen Word ke Markdown dengan tabel yang selaras menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk tabel Markdown yang sempurna. Bahasa Indonesia:
-| [Atur Folder Gambar](./set-images-folder/) Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk hasil yang sempurna. |
+| [Atur Folder Gambar](./set-images-folder/) Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti pandilan terperinci kami untuk hasil yang sempurna. |
 ### [Simpan Word sebagai PDF dan Pulihkan Word yang Rusak – Konversi Word ke Markdown dalam C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Pelajari cara menyimpan dokumen Word sebagai PDF dan memulihkan Word yang rusak, serta mengonversi Word ke Markdown menggunakan C#.
 ### [Buat PDF yang Dapat Diakses dan Konversi Word ke Markdown – Panduan Lengkap C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
@@ -41,6 +41,10 @@ Pelajari cara mengekspor dokumen Word ke Markdown dengan panduan lengkap C#.
 Pelajari cara menyimpan file DOCX sebagai Markdown dengan panduan langkah demi langkah menggunakan C#.
 ### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
 Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
+### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
+Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
+### [Simpan Word sebagai Markdown – Panduan Lengkap C# dengan Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
+Pelajari cara menyimpan dokumen Word sebagai Markdown dengan panduan lengkap C# menggunakan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

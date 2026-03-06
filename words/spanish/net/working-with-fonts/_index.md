@@ -46,6 +46,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Obtener lista de fuentes disponibles](./get-list-of-available-fonts/) Descubre cómo obtener una lista de fuentes disponibles con Aspose.Words para .NET en este detallado tutorial paso a paso. Mejora tus habilidades de gestión de fuentes.
 | [Recibir notificaciones de fuentes](./receive-notifications-of-fonts/) | Aprenda cómo recibir notificaciones de fuentes faltantes o sustituidas al usar Aspose.Words para .NET. |
 | [Recibir notificación de advertencia](./receive-warning-notification/) Aprenda cómo recibir una notificación de advertencia al usar Aspose.Words para .NET y administrar cualquier problema o advertencia en sus documentos. |
+| [Capturar advertencias de fuentes en C# – Guía completa](./capture-font-warnings-in-c-complete-guide/) | Aprenda a capturar advertencias de fuentes en Aspose.Words para .NET usando C# con esta guía paso a paso. |
 | [Ejemplo de fuente de recurso de Steam](./resource-steam-font-source-example/) | Aprenda a utilizar la fuente de flujo de recursos para cargar fuentes personalizadas en Aspose.Words para .NET. |
 | [Obtener sustitución sin sufijos](./get-substitution-without-suffixes/) | En este tutorial, aprenda cómo obtener anulaciones sin sufijos en un documento de Word con Aspose.Words para .NET.
 

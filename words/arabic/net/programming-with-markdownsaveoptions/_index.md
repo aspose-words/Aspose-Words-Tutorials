@@ -34,13 +34,15 @@
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
-### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
+### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-complete-c-guide-with-image-extraction/)
 
 ### [كيفية تصدير Markdown من Word – دليل C# كامل](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
+
+### [حفظ Word كـ markdown – دليل C# كامل مع Aspose.Words](./save-word-as-markdown-complete-c-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
