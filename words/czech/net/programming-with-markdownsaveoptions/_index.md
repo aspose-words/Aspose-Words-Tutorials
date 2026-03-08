@@ -23,6 +23,7 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | --- | --- |
 | [Export do Markdownu se zarovnáním obsahu tabulky](./export-into-markdown-with-table-content-alignment/) | Naučte se, jak exportovat dokumenty Wordu do Markdownu se zarovnanými tabulkami pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu pro perfektní tabulky v Markdownu. |
 | [Nastavit složku s obrázky](./set-images-folder/) | Převeďte dokumenty Wordu do Markdownu se správným zarovnáním tabulek pomocí Aspose.Words pro .NET. Pro perfektní výsledky se řiďte naším podrobným návodem. |
+| [Vlastní složka s obrázky – Převod Wordu do Markdownu pomocí Aspose.Words](./custom-image-folder-convert-word-to-markdown-with-aspose-wor/) | Naučte se nastavit vlastní složku pro ukládání obrázků při převodu dokumentů Word do Markdownu s Aspose.Words. |
 | [Uložení docx jako markdown – Kompletní průvodce v C# s extrakcí obrázků](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Naučte se převádět soubory DOCX do Markdownu a extrahovat obrázky pomocí Aspose.Words pro .NET. |
 | [Uložte Word jako PDF a obnovte poškozený Word – Převod Wordu do Markdownu v C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Vytvořte přístupný PDF a převod Wordu do Markdownu – Kompletní průvodce v C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Kompletní průvodce v C# pro vytvoření přístupného PDF a konverzi Wordu do Markdownu. |
@@ -32,6 +33,7 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Exportovat Markdown z Wordu – kompletní průvodce v C#](./how-to-export-markdown-from-word-complete-c-guide/) | Naučte se, jak exportovat Markdown z Wordu pomocí kompletního průvodce v C#. |
 | [Jak uložit Markdown z DOCX – krok za krokem průvodce](./how-to-save-markdown-from-docx-step-by-step-guide/) | Naučte se krok za krokem ukládat soubory DOCX jako Markdown pomocí Aspose.Words pro .NET. |
 | [Jak exportovat Markdown z DOCX – Kompletní průvodce](./how-to-export-markdown-from-docx-complete-guide/) | Naučte se, jak exportovat Markdown z DOCX pomocí kompletního průvodce. |
+| [Převod docx do markdown s Aspose.Words – Kompletní průvodce](./convert-docx-to-markdown-with-aspose-words-complete-guide/) | Naučte se převádět soubory DOCX do formátu Markdown pomocí Aspose.Words pro .NET v kompletním průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [So beheben Sie Grammatikfehler in DOCX-Dateien mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Erfahren Sie, wie Sie Grammatikfehler in DOCX-Dateien mit C# automatisch korrigieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [Word-Dokument mit lokalem LLM zusammenfassen – C#‑Leitfaden](./summarize-word-document-with-local-llm-c-guide/) | Erfahren Sie, wie Sie ein Word-Dokument mit einem lokalen LLM in C# zusammenfassen – kompakte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

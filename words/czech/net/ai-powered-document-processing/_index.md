@@ -42,6 +42,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
+| [Jak opravit gramatiku v souborech DOCX pomocí C# – Kompletní průvodce krok za krokem](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Naučte se pomocí Aspose.Words pro .NET opravit gramatické chyby v DOCX souborech pomocí C# v podrobném průvodci. |
+| [Shrnutí Word dokumentu s lokálním LLM – průvodce v C#](./summarize-word-document-with-local-llm-c-guide/) | Naučte se, jak pomocí lokálního modelu LLM v C# shrnout Word dokumenty bez odesílání dat do cloudu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

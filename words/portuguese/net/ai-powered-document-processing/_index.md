@@ -39,9 +39,11 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | Título | Descrição |
 | --- | --- |
 | [Trabalhando com modelo de IA](./working-with-ai-model/) | Aprenda a usar o Aspose.Words para .NET para resumir documentos com IA. Passos simples para aprimorar o gerenciamento de documentos. |
-| [Trabalhando com o modelo de IA do Google](./working-with-google-ai-model/) Melhore o processamento de seus documentos com o Aspose.Words para .NET e o Google AI para criar resumos concisos sem esforço. |
+| [Trabalhando com o modelo de IA do Google](./working-with-google-ai-model/) | Melhore o processamento de seus documentos com o Aspose.Words para .NET e o Google AI para criar resumos concisos sem esforço. |
 | [Trabalhando com o modelo de IA aberta](./working-with-open-ai-model/) | Desbloqueie a sumarização eficiente de documentos usando o Aspose.Words para .NET com os poderosos modelos da OpenAI. Mergulhe neste guia completo agora mesmo. |
 | [Trabalhando com opções de resumo](./working-with-summarize-options/) | Aprenda a resumir documentos do Word de forma eficaz usando o Aspose.Words para .NET com nosso guia passo a passo sobre integração de modelos de IA para obter insights rápidos. |
+| [Como corrigir gramática em arquivos DOCX com C# – Guia completo passo a passo](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Aprenda a identificar e corrigir erros gramaticais em documentos DOCX usando C# e Aspose.Words, com instruções detalhadas passo a passo. |
+| [Resumir documento Word com LLM local – Guia C#](./summarize-word-document-with-local-llm-c-guide/) | Aprenda a usar um modelo de linguagem local em C# para resumir documentos Word rapidamente com Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

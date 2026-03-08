@@ -34,6 +34,7 @@
 | [اكتشاف شكل الفن الذكي](./detect-smart-art-shape/) تعرّف على كيفية اكتشاف أشكال SmartArt في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل الشامل. مثالي لأتمتة سير عمل مستنداتك. |
 | [تحديث رسم الفن الذكي](./update-smart-art-drawing/) | تعرّف على كيفية تحديث رسومات Smart Art في مستندات Word باستخدام Aspose.Words for .NET من خلال هذا الدليل المفصل. تأكد من دقة رسوماتك دائمًا. |
 | [إنشاء شكل مستطيل في Word باستخدام Aspose.Words – دليل خطوة بخطوة](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | تعلم كيفية إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words خطوة بخطوة. |
+| [إضافة ظل إلى الشكل في Word باستخدام Aspose.Words – خطوة بخطوة](./add-shadow-to-shape-in-word-with-aspose-words-step-by-step/) | تعرّف على كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words للـ .NET من خلال دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

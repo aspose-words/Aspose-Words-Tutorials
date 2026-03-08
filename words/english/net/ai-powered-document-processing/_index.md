@@ -43,6 +43,8 @@ Finally, don’t forget to check out our [Working With Summarize Options](./work
 | [Working With Google AI Model](./working-with-google-ai-model/) | Elevate your document processing with Aspose.Words for .NET and Google AI to create concise summaries effortlessly. |
 | [Working With Open AI Model](./working-with-open-ai-model/) | Unlock efficient document summarization using Aspose.Words for .NET with OpenAI's powerful models. Dive into this comprehensive guide now. |
 | [Working With Summarize Options](./working-with-summarize-options/) | Learn to effectively summarize Word documents using Aspose.Words for .NET with our step-by-step guide on integrating AI models for quick insights. |
+| [How to Fix Grammar in DOCX Files with C# – Full Step‑by‑Step Guide](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Learn to automatically correct grammar in DOCX files using Aspose.Words for .NET and C# in a detailed step-by-step guide. |
+| [Summarize Word Document with Local LLM – C# Guide](./summarize-word-document-with-local-llm-c-guide/) | Learn to summarize Word documents using a local LLM with C# and Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

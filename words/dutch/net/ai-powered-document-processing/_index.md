@@ -42,6 +42,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met het Google AI-model](./working-with-google-ai-model/) Verbeter uw documentverwerking met Aspose.Words voor .NET en Google AI om moeiteloos beknopte samenvattingen te maken. |
 | [Werken met een open AI-model](./working-with-open-ai-model/) | Ontgrendel efficiënte documentsamenvattingen met Aspose.Words voor .NET met de krachtige modellen van OpenAI. Duik nu in deze uitgebreide handleiding. |
 | [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [Hoe grammatica in DOCX-bestanden te repareren met C# – Volledige stapsgewijze handleiding](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | Leer hoe u grammaticale fouten in DOCX-bestanden automatisch corrigeert met C# en Aspose.Words. |
+| [Samenvatten van Word-document met lokale LLM – C#-gids](./summarize-word-document-with-local-llm-c-guide/) | Leer hoe u een Word-document lokaal samenvat met een LLM in C# met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

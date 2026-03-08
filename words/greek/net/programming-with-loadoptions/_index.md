@@ -33,6 +33,7 @@
 | [Μετατροπή μετααρχείων σε png](./convert-metafiles-to-png/) | Μετατρέψτε εύκολα μετααρχεία σε PNG σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτό το βήμα προς βήμα σεμινάριο. Απλοποιήστε τη διαχείριση εγγράφων σας. |
 | [Φόρτωση αρχείων Chm σε έγγραφο του Word](./load-chm/) | Φορτώστε εύκολα αρχεία CHM σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτό το βήμα προς βήμα σεμινάριο. Ιδανικό για την ενοποίηση της τεχνικής σας τεκμηρίωσης. |
 | [Πώς να ανακτήσετε docx με το Aspose.Words – βήμα προς βήμα](./how-to-recover-docx-with-aspose-words-step-by-step/) | Μάθετε πώς να ανακτήσετε αρχεία docx που έχουν καταστραφεί ή χαλασμένα χρησιμοποιώντας το Aspose.Words για .NET, βήμα προς βήμα οδηγός. |
+| [Πώς να ανακτήσετε docx – Πλήρης Οδηγός με Aspose.Words Recovery](./how-to-recover-docx-full-guide-with-aspose-words-recovery/) | Μάθετε πώς να ανακτήσετε αρχεία docx με πλήρη οδηγό και το Aspose.Words Recovery, βήμα προς βήμα. |
 | [Aspose Load Options – Φόρτωση DOCX με προσαρμοσμένες ρυθμίσεις γραμματοσειράς](./aspose-load-options-load-docx-with-custom-font-settings/) | Μάθετε πώς να φορτώνετε αρχεία DOCX χρησιμοποιώντας το Aspose Load Options με προσαρμοσμένες ρυθμίσεις γραμματοσειράς για ακριβή απόδοση κειμένου. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

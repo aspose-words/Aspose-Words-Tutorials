@@ -23,12 +23,14 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | --- | --- |
 | [Konvertera dokument till docx](./doc-to-docx/) | Lär dig hur du konverterar DOC till DOCX med Aspose.Words för .NET. Steg-för-steg-guide med kodexempel. Perfekt för utvecklare. |
 | [Konvertera Docx till Rtf](./docx-to-rtf/) | Lär dig hur du konverterar DOCX till RTF med Aspose.Words för .NET med vår steg-för-steg-guide. Enkel konvertering för sömlös dokumentbehandling. |  
-| [Konvertera Word-fil till PDF](./docx-to-pdf/) Lär dig hur du enkelt konverterar Word-filer till PDF med Aspose.Words för .NET med vår guide. Perfekt för utvecklare som söker snabb och pålitlig dokumentkonvertering. | 
+| [Konvertera Word-fil till PDF](./docx-to-pdf/) Lär dig hur du enkelt konverterar Word-filer till PDF med Aspose.Words för .NET med vår guide. Perfekt för utvecklare som söker snabb och pålitlig dokumentkonvertering. |
+| [docx till pdf‑handledning – Konvertera Word till PDF i C#](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | Lär dig hur du konverterar DOCX-filer till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
 | [Konvertera Docx till Byte](./docx-to-byte/) | Lär dig hur du konverterar Docx till byte array i .NET med hjälp av Aspose.Words för effektiv dokumenthantering. Steg-för-steg-guide ingår. |  
 | [Konvertera Docx till Epub](./docx-to-epub/) | Konvertera DOCX till EPUB enkelt med Aspose.Words för .NET. Följ vår handledning för sömlös integration i dina .NET-applikationer. |
 | [Konvertera docx till mhtml och skicka e-post](./docx-to-mhtml-and-sending-email/) | Lär dig hur du konverterar DOCX till MHTML och skickar e-postmeddelanden med Aspose.Words för .NET i den här steg-för-steg-guiden. Öka din produktivitet med enkel automatisering. |
 | [Konvertera Docx-fil till Markdown](./docx-to-markdown/) | Lär dig hur du konverterar DOCX-filer till Markdown med Aspose.Words för .NET. Följ vår detaljerade guide för sömlös integration i dina .NET-applikationer. |
 | [Konvertera docx till text](./docx-to-txt/) Konvertera DOCX till TXT med Aspose.Words för .NET med vår steg-för-steg-guide. Lär dig att transformera dokument effektivt och enkelt. |
+| [Spara docx som txt – konvertera docx, extrahera LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | Lär dig hur du sparar DOCX som TXT och extraherar LaTeX med Aspose.Words för .NET i en steg‑för‑steg‑guide. |
 | [Konvertera textfil till Word-dokument](./txt-to-docx/) | Lär dig hur du konverterar textfiler till Word-dokument med Aspose.Words för .NET. Hantera dokumentkonverteringar effektivt med vår omfattande guide. | 
 | [Spara PDF som JPEG](./pdf-to-jpeg/) | Konvertera enkelt PDF-filer till JPEG-filer med Aspose.Words för .NET. Följ vår detaljerade guide med exempel och vanliga frågor. Perfekt för utvecklare och entusiaster. |
 | [Spara PDF till Word-format (Docx)](./pdf-to-docx/) | Lär dig hur du konverterar en PDF till ett Word-dokument (Docx) med Aspose.Words för .NET i den här detaljerade steg-för-steg-guiden. Perfekt för utvecklare. |
