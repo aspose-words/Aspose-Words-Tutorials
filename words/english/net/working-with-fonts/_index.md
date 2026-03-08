@@ -49,6 +49,7 @@ Whether you want to format text with different fonts, set font substitution rule
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
 | [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |
+| [Custom Font Settings in C# – Load Word & Handle Missing Fonts](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | Learn how to load Word documents with custom font settings in C# and handle missing fonts using Aspose.Words for .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

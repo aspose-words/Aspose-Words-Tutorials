@@ -28,6 +28,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Dapatkan Rentang Halaman Jpeg](./get-jpeg-page-range/) | Ubah halaman tertentu dari dokumen Word menjadi JPEG dengan pengaturan khusus menggunakan Aspose.Words untuk .NET. Pelajari cara menyesuaikan kecerahan, kontras, dan resolusi langkah demi langkah. Bahasa Indonesia:
 | [Panggilan Balik Penyimpanan Halaman](./page-saving-callback/) | Pelajari cara menyimpan setiap halaman dokumen Word sebagai gambar PNG terpisah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. |
 | [Cara Mengatur DPI Saat Mengonversi Word ke PNG – Panduan Lengkap C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Pelajari cara mengatur DPI saat mengonversi dokumen Word ke PNG menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Mengonversi Word ke PNG – Panduan Lengkap C#](./convert-word-to-png-complete-c-guide/) | Panduan lengkap mengonversi dokumen Word menjadi gambar PNG dengan Aspose.Words untuk .NET menggunakan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

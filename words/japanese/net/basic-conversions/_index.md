@@ -23,7 +23,8 @@
 | --- | --- |
 | [DocをDocxに変換する](./doc-to-docx/) Aspose.Words for .NET を使用して DOC を DOCX に変換する方法を学びましょう。コード例付きのステップバイステップガイド。開発者に最適です。 |
 | [DocxをRtfに変換する](./docx-to-rtf/) Aspose.Words for .NET を使用して DOCX を RTF に変換する方法を、ステップバイステップガイドで学習しましょう。簡単な変換で、シームレスなドキュメント処理が可能になります。 |  
-| [WordファイルをPDFに変換する](./docx-to-pdf/) Aspose.Words for .NET を使ってWordファイルをPDFに簡単に変換する方法を、ガイドでご紹介します。迅速かつ確実なドキュメント変換を求める開発者に最適です。 | 
+| [WordファイルをPDFに変換する](./docx-to-pdf/) Aspose.Words for .NET を使ってWordファイルをPDFに簡単に変換する方法を、ガイドでご紹介します。迅速かつ確実なドキュメント変換を求める開発者に最適です。 |
+| [docx を pdf に変換するチュートリアル – C# で Word を PDF に変換](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) Aspose.Words for .NET を使用して C# で DOCX を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Docxをバイトに変換](./docx-to-byte/) Aspose.Wordsを使用して.NETでDocxファイルをバイト配列に変換し、効率的なドキュメント処理を実現する方法を学びましょう。ステップバイステップガイド付き。 |  
 | [DocxをEPUBに変換する](./docx-to-epub/) Aspose.Words for .NETを使えば、DOCXからEPUBへの変換が簡単です。チュートリアルに従って、.NETアプリケーションにシームレスに統合しましょう。 |
 | [DocxをMHTMLに変換してメールを送信する](./docx-to-mhtml-and-sending-email/) このステップバイステップガイドでは、Aspose.Words for .NET を使用してDOCXをMHTMLに変換し、メールを送信する方法を学習します。簡単な自動化で生産性を向上させましょう。 |
@@ -35,6 +36,7 @@
 | [Word から LaTeX をエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-latex-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書を LaTeX 形式にエクスポートする方法をステップバイステップで解説します。 |
 | [C# で Word を PDF に変換する – ガイド](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Aspose.WordsでWordをPDFとして保存 – 完全なC#ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [Docx を Txt として保存する方法 – Docx を変換し LaTeX を抽出](./how-to-save-docx-as-txt-convert-docx-extract-latex/) Aspose.Words for .NET を使用して DOCX を TXT に変換し、LaTeX を抽出する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

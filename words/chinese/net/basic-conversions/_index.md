@@ -24,11 +24,13 @@
 | [将 Doc 转换为 Docx](./doc-to-docx/) | 学习如何使用 Aspose.Words for .NET 将 DOC 转换为 DOCX。分步指南，包含代码示例。非常适合开发人员。|
 | [Docx 转 Rtf](./docx-to-rtf/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 RTF，并遵循我们的分步指南。轻松转换，实现无缝文档处理。|  
 | [将Word文件转换为PDF](./docx-to-pdf/) 学习如何使用 Aspose.Words for .NET 轻松将 Word 文件转换为 PDF，本指南将指导您完成。非常适合寻求快速可靠文档转换的开发人员。| 
+| [docx 转 pdf 教程 – 在 C# 中将 Word 转换为 PDF](./docx-to-pdf-tutorial-convert-word-to-pdf-in-c/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供分步指南和代码示例。|
 | [将 Docx 转换为字节](./docx-to-byte/) 学习如何使用 Aspose.Words 在 .NET 中将 Docx 转换为字节数组，以实现高效的文档处理。内含分步指南。|  
 | [将 Docx 转换为 Epub](./docx-to-epub/) | 使用 Aspose.Words for .NET 轻松将 DOCX 转换为 EPUB。按照我们的教程，将其无缝集成到您的 .NET 应用程序中。|
 | [将 Docx 转换为 Mhtml 并发送电子邮件](./docx-to-mhtml-and-sending-email/) 在本分步指南中学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 MHTML 并发送电子邮件。轻松实现自动化，提升您的工作效率。|
 | [将 Docx 文件转换为 Markdown](./docx-to-markdown/) | 了解如何使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown。请遵循我们的详细指南，实现与您的 .NET 应用程序的无缝集成。|
 | [Docx 转 Txt](./docx-to-txt/) 使用 Aspose.Words for .NET 将 DOCX 转换为 TXT，并遵循我们的分步指南。学习如何高效轻松地转换文档。|
+| [如何将 docx 保存为 txt – 转换 docx，提取 LaTeX](./how-to-save-docx-as-txt-convert-docx-extract-latex/) | 学习使用 Aspose.Words for .NET 将 DOCX 转换为 TXT 并提取 LaTeX 内容，提供分步指南和代码示例。|
 | [将文本文件转换为 Word 文档](./txt-to-docx/) 了解如何使用 Aspose.Words for .NET 将文本文件转换为 Word 文档。使用我们全面的指南高效管理文档转换。| 
 | [将 PDF 保存为 Jpeg](./pdf-to-jpeg/) | 使用 Aspose.Words for .NET 轻松将 PDF 转换为 JPEG。遵循我们包含示例和常见问题解答的详细指南。非常适合开发人员和爱好者。|
 | [将 PDF 保存为 Word 格式 (Docx)](./pdf-to-docx/) | 学习如何使用 Aspose.Words for .NET 将 PDF 转换为 Word 文档 (Docx)，本指南详细分步，非常适合开发人员。|

@@ -42,6 +42,8 @@
 | [使用 Google AI 模型](./working-with-google-ai-model/) |使用 Aspose.Words for .NET 和 Google AI 提升您的文件處理能力，輕鬆建立簡潔的摘要。 |
 | [使用開放的人工智慧模型](./working-with-open-ai-model/) |使用 Aspose.Words for .NET 和 OpenAI 強大的模型實現高效的文檔摘要。立即深入了解這份綜合指南。 |
 | [使用匯總選項](./working-with-summarize-options/) |透過我們關於整合 AI 模型以獲得快速洞察的逐步指南，學習使用 Aspose.Words for .NET 有效地總結 Word 文件。 |
+| [如何使用 C# 修復 DOCX 檔案的文法 – 完整分步指南](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) |使用 Aspose.Words for .NET 與 C# 逐步修正 DOCX 文件中的語法錯誤，提高文件品質。 |
+| [使用本地 LLM 摘要 Word 文件 – C# 指南](./summarize-word-document-with-local-llm-c-guide/) |使用 Aspose.Words for .NET 結合本地大型語言模型，以 C# 實作文件摘要，提升離線處理效率。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

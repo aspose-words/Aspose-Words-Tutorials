@@ -48,7 +48,7 @@
 | [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 | [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
-
+| [การตั้งค่าแบบอักษรแบบกำหนดเองใน C# – โหลด Word และจัดการแบบอักษรที่หายไป](./custom-font-settings-in-c-load-word-handle-missing-fonts/) | เรียนรู้วิธีตั้งค่าแบบอักษรแบบกำหนดเองใน C# เพื่อโหลดไฟล์ Word และจัดการกับแบบอักษรที่ขาดหาย |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

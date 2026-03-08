@@ -48,7 +48,7 @@
 | [警告通知を受け取る](./receive-warning-notification/) Aspose.Words for .NET の使用時に警告通知を受信し、ドキュメント内の問題や警告を管理する方法について説明します。 |
 | [リソース Steam フォントソースの例](./resource-steam-font-source-example/) リソース ストリーム フォント ソースを使用してカスタム フォントを Aspose.Words for .NET に読み込む方法を学習します。 |
 | [接尾辞なしの置換を取得する](./get-substitution-without-suffixes/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書でサフィックスなしのオーバーライドを取得する方法を学習します。 |
-
+| [C# のカスタムフォント設定 – Word の読み込みと不足フォントの処理](./custom-font-settings-in-c-load-word-handle-missing-fonts/) Aspose.Words for .NET を使用して、Word 文書を読み込み、不足フォントを処理する方法をステップバイステップで学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@
 | [การทำงานกับโมเดล AI ของ Google](./working-with-google-ai-model/) ยกระดับการประมวลผลเอกสารของคุณด้วย Aspose.Words สำหรับ .NET และ Google AI เพื่อสร้างบทสรุปสั้นๆ ได้โดยไม่ต้องใช้ความพยายาม -
 | [การทำงานกับโมเดล AI แบบเปิด](./working-with-open-ai-model/) | ปลดล็อกการสรุปเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมด้วยโมเดลอันทรงพลังของ OpenAI เจาะลึกคู่มือฉบับสมบูรณ์นี้เลยตอนนี้ -
 | [การทำงานกับตัวเลือกการสรุป](./working-with-summarize-options/) | เรียนรู้การสรุปเอกสาร Word ได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนในการบูรณาการโมเดล AI เพื่อรับข้อมูลเชิงลึกอย่างรวดเร็ว |
+- [สรุปเอกสาร Word ด้วย Local LLM – คู่มือ C#](./summarize-word-document-with-local-llm-c-guide/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET ร่วมกับ Local LLM เพื่อสรุปเอกสาร Word ด้วย C# อย่างมีประสิทธิภาพ -
+- [วิธีแก้ไขไวยากรณ์ในไฟล์ DOCX ด้วย C# – คู่มือเต็มขั้นตอน](./how-to-fix-grammar-in-docx-files-with-c-full-step-by-step-gu/) | เรียนรู้วิธีใช้ Aspose.Words สำหรับ .NET กับ C# เพื่อแก้ไขไวยากรณ์ในไฟล์ DOCX อย่างละเอียดและเป็นขั้นตอน -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
