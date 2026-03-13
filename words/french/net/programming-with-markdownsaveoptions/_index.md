@@ -48,6 +48,10 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown avec Aspose.Words](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
+
+### [Enregistrer Word en Markdown – Guide complet pour convertir DOCX et extraire les images](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
