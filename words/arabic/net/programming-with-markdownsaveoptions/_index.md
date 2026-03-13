@@ -42,6 +42,10 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown باستخدام Aspose.Words](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
+
+### [حفظ Word كـ Markdown – دليل كامل لتحويل DOCX واستخراج الصور](./save-word-as-markdown-complete-guide-to-convert-docx-and-ext/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
