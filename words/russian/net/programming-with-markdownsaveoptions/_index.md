@@ -29,9 +29,12 @@
 | [Конвертировать docx в markdown – пошаговое руководство C#](./convert-docx-to-markdown-step-by-step-c-guide/) | Подробное пошаговое руководство по конвертации файлов DOCX в Markdown с использованием C# и Aspose.Words. |
 | [Сохранить docx как markdown – Полное руководство C# с уравнениями LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Полное руководство по конвертации DOCX в Markdown с поддержкой уравнений LaTeX на C#. |
 | [Сохранить docx как markdown – Полное руководство C# с извлечением изображений](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Полное руководство по сохранению DOCX в Markdown с извлечением изображений на C# с использованием Aspose.Words. |
+| [Конвертировать Word в Markdown – Полное руководство с извлечением изображений](./convert-word-to-markdown-full-guide-with-image-extraction/) | Полное руководство по конвертации Word в Markdown с извлечением изображений с использованием Aspose.Words для .NET. |
 | [Как экспортировать Markdown из Word – Полное руководство C#](./how-to-export-markdown-from-word-complete-c-guide/) | Полное руководство по экспорту Markdown из Word с использованием C# и Aspose.Words. |
 | [Как сохранить Markdown из DOCX – пошаговое руководство](./how-to-save-markdown-from-docx-step-by-step-guide/) | Подробное руководство по сохранению документа DOCX в формате Markdown с пошаговыми инструкциями на C#. |
 | [Как экспортировать Markdown из DOCX – Полное руководство](./how-to-export-markdown-from-docx-complete-guide/) | Полное руководство по экспорту Markdown из DOCX с использованием Aspose.Words для .NET. |
+| [Как конвертировать уравнения из Word в Markdown – Полное руководство C#](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) | Конвертируйте уравнения из Word в Markdown с помощью Aspose.Words для .NET, используя C#. |
+| [Конвертировать docx в markdown – Полное руководство с сохранением разрывов строк](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Конвертируйте документы DOCX в Markdown, сохраняя разрывы строк, с помощью Aspose.Words для .NET. Подробное пошаговое руководство. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

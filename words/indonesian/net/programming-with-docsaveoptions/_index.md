@@ -27,7 +27,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Enkripsi Dokumen Dengan Kata Sandi](./encrypt-document-with-password/) | Pelajari cara mengenkripsi dokumen dengan kata sandi menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Amankan informasi sensitif Anda dengan mudah. Bahasa Indonesia:
 | [Jangan Kompres Metafile Kecil](./do-not-compress-small-metafiles/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna memastikan metafile kecil dalam dokumen Word tidak terkompresi, sehingga kualitas dan integritasnya tetap terjaga. Panduan langkah demi langkah disertakan. Bahasa Indonesia:
 | [Jangan Simpan Gambar Bullet](./do-not-save-picture-bullet/) pelajari cara menangani poin-poin gambar di Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Sederhanakan pengelolaan dokumen dan buat dokumen Word profesional dengan mudah. |
-
+| [Cara Menyimpan Dokumen yang Diedit di C# dengan Aspose.Words – Panduan Langkah‑demi‑Langkah](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Pelajari cara menyimpan dokumen yang telah diedit menggunakan Aspose.Words di C# dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

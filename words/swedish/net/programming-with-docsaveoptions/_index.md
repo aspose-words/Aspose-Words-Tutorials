@@ -27,7 +27,7 @@ Genom att följa dessa handledningar lär du dig de bästa metoderna för att sp
 | [Kryptera dokument med lösenord](./encrypt-document-with-password/) | Lär dig hur du krypterar ett dokument med ett lösenord med Aspose.Words för .NET i den här detaljerade steg-för-steg-guiden. Skydda din känsliga information utan ansträngning. |
 | [Komprimera inte små metafiler](./do-not-compress-small-metafiles/) | Lär dig hur du använder Aspose.Words för .NET för att säkerställa att små metafiler i Word-dokument inte komprimeras, vilket bevarar deras kvalitet och integritet. Steg-för-steg-guide ingår. |
 | [Spara inte bildpunkten](./do-not-save-picture-bullet/) lär dig hur man hanterar bildpunkter i Aspose.Words för .NET med vår steg-för-steg-guide. Förenkla dokumenthanteringen och skapa professionella Word-dokument utan ansträngning. |
-
+| [Hur du sparar redigerat dokument i C# med Aspose.Words – Steg‑för‑steg‑guide](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Lär dig hur du sparar ett redigerat Word-dokument i C# med Aspose.Words i en tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
