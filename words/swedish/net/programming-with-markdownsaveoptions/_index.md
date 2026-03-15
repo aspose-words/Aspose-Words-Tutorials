@@ -41,6 +41,9 @@ Lär dig spara DOCX-filer som Markdown med en komplett C#-guide som inkluderar L
 ### [Spara docx som markdown – Fullständig C#-guide med bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Lär dig spara DOCX-filer som Markdown och extrahera bilder med en komplett C#-guide.
 
+### [Konvertera Word till Markdown – Fullständig guide med bildextraktion](./convert-word-to-markdown-full-guide-with-image-extraction/)
+Lär dig konvertera Word-dokument till Markdown och extrahera bilder med en komplett guide.
+
 ### [Hur man exporterar Markdown från Word – Fullständig C#-guide](./how-to-export-markdown-from-word-complete-c-guide/)
 Lär dig exportera Word-dokument till Markdown med en komplett C#‑guide som täcker alla steg.
 
@@ -49,6 +52,12 @@ Lär dig spara DOCX som Markdown med en detaljerad steg‑för‑steg‑guide i 
 
 ### [Hur man exporterar Markdown från DOCX – Fullständig guide](./how-to-export-markdown-from-docx-complete-guide/)
 Lär dig exportera Markdown från DOCX-filer med en komplett guide i C#.
+
+### [Hur man konverterar ekvationer från Word till Markdown – Fullständig C#-guide](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
+Lär dig konvertera ekvationer från Word-dokument till Markdown med en komplett C#‑guide.
+
+### [Konvertera docx till markdown – Fullständig guide med bevarande av radbrytningar](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
+Lär dig konvertera DOCX till Markdown och bevara radbrytningar för exakt textformat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

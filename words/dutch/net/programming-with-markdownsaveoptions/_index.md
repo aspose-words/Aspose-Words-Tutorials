@@ -46,6 +46,10 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX
 
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
+### [Word naar Markdown converteren – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-full-guide-with-image-extraction/)
+
+Leer hoe u Word-documenten converteert naar Markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
+
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
@@ -53,6 +57,14 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
+
+### [Hoe vergelijkingen van Word naar Markdown converteren – Complete C#-gids](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/)
+
+Leer hoe u wiskundige vergelijkingen uit Word-documenten converteert naar Markdown met een volledige C#‑handleiding.
+
+### [Docx naar markdown converteren – Complete gids met behoud van regeleinden](./convert-docx-to-markdown-complete-guide-with-line-break-pres/)
+
+Leer hoe u docx-bestanden naar markdown converteert met behoud van regeleinden in een volledige C#‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

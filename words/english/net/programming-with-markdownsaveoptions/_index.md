@@ -29,10 +29,13 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
+| [Convert Word to Markdown – Full Guide with Image Extraction](./convert-word-to-markdown-full-guide-with-image-extraction/) | Learn how to convert Word documents to Markdown with image extraction using Aspose.Words for .NET. |
 | [Convert docx to markdown – Step‑by‑Step C# Guide](./convert-docx-to-markdown-step-by-step-c-guide/) | Learn how to convert DOCX files to Markdown in C# with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [Convert docx to markdown – Complete Guide with Line‑Break Preservation](./convert-docx-to-markdown-complete-guide-with-line-break-pres/) | Learn how to convert DOCX files to Markdown while preserving line breaks using Aspose.Words for .NET. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
 | [How to Save Markdown from DOCX – Step‑by‑Step Guide](./how-to-save-markdown-from-docx-step-by-step-guide/) | Learn how to save DOCX as Markdown with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [How to Convert Equations from Word to Markdown – Complete C# Guide](./how-to-convert-equations-from-word-to-markdown-complete-c-gu/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

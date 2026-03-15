@@ -37,7 +37,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Giảm kích thước PDF bằng cách sử dụng Scale Wmf Fonts To Metafile Size](./scale-wmf-fonts-to-metafile-size/) | Hướng dẫn từng bước để giảm kích thước tệp PDF bằng cách sử dụng công cụ scale wmf fonts thành kích thước tệp metafile khi chuyển đổi sang PDF bằng Aspose.Words cho .NET. |
 | [Cải thiện vị trí văn bản PDF với vị trí văn bản bổ sung](./additional-text-positioning/) | Tìm hiểu cách cải thiện vị trí văn bản PDF bằng Aspose.Words cho .NET qua một vài bước đơn giản. Cải thiện giao diện tài liệu của bạn. |
 | [Chuyển đổi tài liệu Word sang PDF 1.7](./conversion-to-pdf-17/) | Chuyển đổi tài liệu Word sang PDF 1.7 dễ dàng bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn này để đảm bảo tài liệu của bạn có thể truy cập được trên toàn thế giới và được định dạng chuyên nghiệp. |
-| [Giảm kích thước tài liệu PDF bằng cách giảm kích thước hình ảnh](./downsampling-images/) | Giảm kích thước tài liệu PDF bằng cách giảm kích thước hình ảnh bằng Aspose.Words cho .NET. Tối ưu hóa PDF của bạn để tải lên và tải xuống nhanh hơn. |
+| [Giảm kích thước PDF bằng cách giảm kích thước hình ảnh](./downsampling-images/) | Giảm kích thước tài liệu PDF bằng cách giảm kích thước hình ảnh bằng Aspose.Words cho .NET. Tối ưu hóa PDF của bạn để tải lên và tải xuống nhanh hơn. |
 | [Thiết lập tùy chọn phác thảo trong tài liệu PDF](./set-outline-options/) | Tìm hiểu cách thiết lập tùy chọn phác thảo trong tài liệu PDF bằng Aspose.Words cho .NET. Cải thiện điều hướng PDF bằng cách cấu hình mức tiêu đề và phác thảo mở rộng. |
 | [Xuất Thuộc tính Tùy chỉnh trong Tài liệu PDF](./custom-properties-export/) | Tìm hiểu cách xuất các thuộc tính tùy chỉnh trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. |
 | [Xuất cấu trúc tài liệu Word sang tài liệu PDF](./export-document-structure/) | Xuất cấu trúc của tài liệu Word sang PDF bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để bảo toàn bố cục tài liệu và cải thiện điều hướng PDF. |
@@ -45,7 +45,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Cập nhật Thuộc tính được In Lần cuối trong Tài liệu PDF](./update-last-printed-property/) | Tìm hiểu cách cập nhật thuộc tính in cuối cùng trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
 | [Kết xuất 3D DML 3DEffects trong Tài liệu PDF](./dml-3deffects-rendering/) | Tìm hiểu cách tạo hiệu ứng DML 3D tuyệt đẹp trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Chèn hình ảnh vào tài liệu PDF](./interpolate-images/) | Tìm hiểu cách chèn hình ảnh vào tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện chất lượng hình ảnh PDF của bạn một cách dễ dàng. |
-
+| [Tạo PDF UA từ Word trong C# – Hướng dẫn từng bước](./create-pdf-ua-from-word-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF UA từ Word bằng C# với Aspose.Words, bao gồm các bước thiết lập và mã mẫu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

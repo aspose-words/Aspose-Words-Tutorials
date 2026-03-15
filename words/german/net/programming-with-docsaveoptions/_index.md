@@ -27,7 +27,7 @@ In diesen Tutorials lernen Sie die besten Vorgehensweisen zum Speichern Ihrer Do
 | [Dokument mit Passwort verschlüsseln](./encrypt-document-with-password/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie ein Dokument mit einem Kennwort mit Aspose.Words für .NET verschlüsseln. Schützen Sie Ihre vertraulichen Informationen mühelos. |
 | [Kleine Metadateien nicht komprimieren](./do-not-compress-small-metafiles/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET sicherstellen, dass kleine Metadateien in Word-Dokumenten nicht komprimiert werden und so ihre Qualität und Integrität erhalten bleibt. Schritt-für-Schritt-Anleitung inklusive. |
 | [Bildaufzählungszeichen nicht speichern](./do-not-save-picture-bullet/) Erfahren Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie Bildaufzählungszeichen in Aspose.Words für .NET verwenden. Vereinfachen Sie die Dokumentenverwaltung und erstellen Sie mühelos professionelle Word-Dokumente. |
-
+| [Wie man ein bearbeitetes Dokument in C# mit Aspose.Words speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) | Erfahren Sie, wie Sie ein bearbeitetes Dokument in C# mit Aspose.Words speichern, inklusive Code‑Beispielen und Tipps. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

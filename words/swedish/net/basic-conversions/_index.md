@@ -24,6 +24,7 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Konvertera dokument till docx](./doc-to-docx/) | Lär dig hur du konverterar DOC till DOCX med Aspose.Words för .NET. Steg-för-steg-guide med kodexempel. Perfekt för utvecklare. |
 | [Konvertera Docx till Rtf](./docx-to-rtf/) | Lär dig hur du konverterar DOCX till RTF med Aspose.Words för .NET med vår steg-för-steg-guide. Enkel konvertering för sömlös dokumentbehandling. |  
 | [Konvertera Word-fil till PDF](./docx-to-pdf/) Lär dig hur du enkelt konverterar Word-filer till PDF med Aspose.Words för .NET med vår guide. Perfekt för utvecklare som söker snabb och pålitlig dokumentkonvertering. | 
+| [Konvertera DOCX till PDF – Generera tillgänglig PDF (PDF/UA)](./convert-docx-to-pdf-generate-accessible-pdf-pdf-ua/) | Lär dig hur du konverterar DOCX till PDF med PDF/UA‑standard för tillgänglighet med Aspose.Words för .NET. |
 | [Konvertera Docx till Byte](./docx-to-byte/) | Lär dig hur du konverterar Docx till byte array i .NET med hjälp av Aspose.Words för effektiv dokumenthantering. Steg-för-steg-guide ingår. |  
 | [Konvertera Docx till Epub](./docx-to-epub/) | Konvertera DOCX till EPUB enkelt med Aspose.Words för .NET. Följ vår handledning för sömlös integration i dina .NET-applikationer. |
 | [Konvertera docx till mhtml och skicka e-post](./docx-to-mhtml-and-sending-email/) | Lär dig hur du konverterar DOCX till MHTML och skickar e-postmeddelanden med Aspose.Words för .NET i den här steg-för-steg-guiden. Öka din produktivitet med enkel automatisering. |

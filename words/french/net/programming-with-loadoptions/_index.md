@@ -34,6 +34,7 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Charger des fichiers Chm dans un document Word](./load-chm/) | Chargez facilement des fichiers CHM dans des documents Word avec Aspose.Words pour .NET grâce à ce tutoriel étape par étape. Idéal pour consolider votre documentation technique. |
 | [Comment récupérer un docx avec Aspose.Words – étape par étape](./how-to-recover-docx-with-aspose-words-step-by-step/) | Apprenez à récupérer un fichier DOCX endommagé avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
 | [Aspose Load Options – Charger un DOCX avec des paramètres de police personnalisés](./aspose-load-options-load-docx-with-custom-font-settings/) | Apprenez à charger un fichier DOCX en spécifiant des polices personnalisées grâce aux LoadOptions d'Aspose.Words pour .NET. |
+| [Charger un document Word corrompu – Détecter les problèmes et récupérer un docx endommagé en C#](./load-corrupted-word-document-detect-issues-recover-damaged-d/) | Apprenez à détecter les problèmes d'un document Word corrompu et à récupérer un fichier DOCX endommagé avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

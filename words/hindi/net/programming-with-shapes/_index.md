@@ -34,6 +34,7 @@
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में स्मार्ट आर्ट ड्रॉइंग को अपडेट करना सीखें। सुनिश्चित करें कि आपके दृश्य हमेशा सटीक हों। |
 | [Aspose.Words के साथ Word में आयत आकार बनाएं – चरण‑दर‑चरण गाइड](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार बनाने और अनुकूलित करने के चरण‑दर‑चरण निर्देश। |
+| [C# में आकृति में छाया जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-c-complete-aspose-words-guide/) | C# में Aspose.Words का उपयोग करके आकृति में छाया जोड़ने और अनुकूलित करने का चरण‑दर‑चरण मार्गदर्शक। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

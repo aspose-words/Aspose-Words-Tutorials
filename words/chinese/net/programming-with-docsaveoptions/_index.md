@@ -27,7 +27,7 @@ Aspose.Words for .NET 教程“使用 DocSaveOptions 进行文字处理”提供
 | [使用密码加密文档](./encrypt-document-with-password/) 在本指南中，学习如何使用 Aspose.Words for .NET 加密文档，并设置密码。轻松保护您的敏感信息。|
 | [不要压缩小的图元文件](./do-not-compress-small-metafiles/) 了解如何使用 Aspose.Words for .NET 确保 Word 文档中的小型元文件不被压缩，从而保持其质量和完整性。内含分步指南。|
 | [不保存图片项目符号](./do-not-save-picture-bullet/) 学习如何在 Aspose.Words for .NET 中处理图片项目符号，并遵循我们的分步指南。简化文档管理，轻松创建专业的 Word 文档。|
-
+| [如何使用 Aspose.Words 在 C# 中保存已编辑文档 – 步骤指南](./how-to-save-edited-document-in-c-with-aspose-words-step-by-s/) 本教程演示如何使用 Aspose.Words for .NET 在 C# 中保存已编辑的 Word 文档，提供详细的代码示例和步骤说明。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
