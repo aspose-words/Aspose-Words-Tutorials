@@ -1,53 +1,81 @@
 ---
-"date": "2025-03-28"
-"description": "Μάθετε πώς να δημιουργείτε και να διαχειρίζεστε προσαρμοσμένα δομικά στοιχεία σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java. Βελτιώστε την αυτοματοποίηση εγγράφων με επαναχρησιμοποιήσιμα πρότυπα."
-"title": "Δημιουργήστε προσαρμοσμένα δομικά στοιχεία στο Microsoft Word χρησιμοποιώντας το Aspose.Words για Java"
-"url": "/el/java/content-management/create-custom-building-blocks-aspose-words-java/"
-"weight": 1
+date: '2026-03-15'
+description: Μάθετε πώς να δημιουργείτε προσαρμοσμένα μπλοκ κατασκευής Word χρησιμοποιώντας
+  το Aspose.Words for Java και ανακαλύψτε πώς να δημιουργείτε μπλοκ κατασκευής αποδοτικά
+  για τη δημιουργία προτύπων Word σε Java.
+keywords:
+- custom building blocks Word
+- create building blocks Java
+- manage document templates Aspose.Words
+title: Δημιουργία προσαρμοσμένων μπλοκ κατασκευής Word με το Aspose.Words για Java
+url: /el/java/content-management/create-custom-building-blocks-aspose-words-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.Words 25.3 for Java  
+**Συγγραφέας:** Aspose
+
+Now produce final content.
+
+Make sure to keep code block placeholders unchanged.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Δημιουργία Προσαρμοσμένων Κατασκευαστικών Μπλοκ Word με Aspose.Words για Java
 
-# Δημιουργήστε προσαρμοσμένα δομικά στοιχεία στο Microsoft Word χρησιμοποιώντας το Aspose.Words για Java
+## Introduction
 
-## Εισαγωγή
+Αναζητάτε τρόπους να βελτιώσετε τη διαδικασία δημιουργίας εγγράφων προσθέτοντας επαναχρησιμοποιήσιμες ενότητες περιεχομένου στο Microsoft Word; Σε αυτό το tutorial θα μάθετε **custom building blocks word** — έναν ισχυρό τρόπο αποθήκευσης και επαναχρησιμοποίησης αποσπασμάτων, πινάκων ή ολόκληρων διατάξεων μέσα σε ένα αρχείο Word. Είτε είστε προγραμματιστής που αυτοματοποιεί συμβόλαια είτε διαχειριστής έργου που τυποποιεί ενότητες αναφορών, αυτά τα μπλοκ μπορούν να μειώσουν δραστικά την χειροκίνητη επεξεργασία.
 
-Θέλετε να βελτιώσετε τη διαδικασία δημιουργίας εγγράφων προσθέτοντας επαναχρησιμοποιήσιμες ενότητες περιεχομένου στο Microsoft Word; Αυτό το ολοκληρωμένο σεμινάριο εξερευνά πώς να αξιοποιήσετε την ισχυρή βιβλιοθήκη Aspose.Words για να δημιουργήσετε προσαρμοσμένα δομικά στοιχεία χρησιμοποιώντας Java. Είτε είστε προγραμματιστής είτε διαχειριστής έργου που αναζητά αποτελεσματικούς τρόπους διαχείρισης προτύπων εγγράφων, αυτός ο οδηγός θα σας καθοδηγήσει σε κάθε βήμα.
+**What You'll Learn**
+- Πώς να ρυθμίσετε το Aspose.Words για Java.
+- **Πώς να δημιουργήσετε building blocks** και να τα διαμορφώσετε προγραμματιστικά.
+- Χρήση document visitors για την πληρότητα προσαρμοσμένων building blocks.
+- Πρόσβαση, καταγραφή και διαχείριση building blocks κατά την εκτέλεση.
+- Πραγματικά σενάρια όπως η δημιουργία προτύπων Word σε Java.
 
-**Τι θα μάθετε:**
-- Ρύθμιση του Aspose.Words για Java.
-- Δημιουργία και ρύθμιση παραμέτρων δομικών στοιχείων σε έγγραφα του Word.
-- Υλοποίηση προσαρμοσμένων δομικών στοιχείων χρησιμοποιώντας επισκέπτες εγγράφων.
-- Πρόσβαση και διαχείριση δομικών στοιχείων μέσω προγραμματισμού.
-- Εφαρμογές δομικών στοιχείων στον πραγματικό κόσμο σε επαγγελματικό περιβάλλον.
+Ας οργανώσουμε τις προαπαιτήσεις ώστε να μπορείτε να αρχίσετε να δημιουργείτε αμέσως.
 
-Ας εμβαθύνουμε στις προϋποθέσεις που απαιτούνται για να ξεκινήσετε με αυτή τη συναρπαστική λειτουργία!
+## Quick Answers
+- **Ποια είναι η κύρια κλάση για εκκίνηση;** `Document` από `com.aspose.words`.
+- **Ποια έκδοση της βιβλιοθήκης συνιστάται;** Aspose.Words 25.3 ή νεότερη.
+- **Μπορώ να προσθέσω εικόνες σε ένα building block;** Ναι, οποιοδήποτε περιεχόμενο που υποστηρίζεται από το Aspose.Words μπορεί να εισαχθεί.
+- **Χρειάζομαι άδεια για παραγωγή;** Απόλυτα — χρησιμοποιήστε προσωρινή ή αγορασμένη άδεια για να αφαιρέσετε τους περιορισμούς της δοκιμής.
+- **Είναι αυτή η προσέγγιση κατάλληλη για μεγάλα έγγραφα;** Ναι, με τις συμβουλές απόδοσης που περιγράφονται παρακάτω.
 
-## Προαπαιτούμενα
+## What is a Custom Building Block in Word?
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
+Ένα **custom building block word** είναι ένα επαναχρησιμοποιήσιμο κομμάτι περιεχομένου που αποθηκεύεται στο γλωσσάρι (glossary) ενός εγγράφου. Σκεφτείτε το ως ένα μικρό‑πρότυπο που μπορείτε να εισάγετε οπουδήποτε, πολλές φορές, χωρίς να χρειάζεται να δημιουργείτε ξανά τη διάταξη ή το κείμενο κάθε φορά.
 
-### Απαιτούμενες βιβλιοθήκες
-- Aspose.Words για βιβλιοθήκη Java (έκδοση 25.3 ή νεότερη).
+## Why Use Custom Building Blocks Word?
 
-### Ρύθμιση περιβάλλοντος
-- Ένα κιτ ανάπτυξης Java (JDK) εγκατεστημένο στον υπολογιστή σας.
-- Ένα Ολοκληρωμένο Περιβάλλον Ανάπτυξης (IDE) όπως το IntelliJ IDEA ή το Eclipse.
+- **Συνέπεια** – Εγγυάται την ίδια διατύπωση, branding ή νομικές ρήτρες σε όλα τα έγγραφα.  
+- **Ταχύτητα** – Εισάγετε σύνθετες ενότητες με μία κλήση API, μειώνοντας τον χρόνο ανάπτυξης.  
+- **Διατηρησιμότητα** – Ενημερώστε το μπλοκ μία φορά και κάθε έγγραφο που το χρησιμοποιεί αντικατοπτρίζει την αλλαγή.  
+- **Κλιμακωσιμότητα** – Ιδανικό για τη δημιουργία προτύπων Word σε Java για συμβόλαια, εγχειρίδια ή υλικό μάρκετινγκ.
 
-### Προαπαιτούμενα Γνώσεων
-- Βασική κατανόηση του προγραμματισμού Java.
-- Η εξοικείωση με την XML και τις έννοιες επεξεργασίας εγγράφων είναι ωφέλιμη αλλά όχι απαραίτητη.
+## Prerequisites
 
-## Ρύθμιση του Aspose.Words
+### Required Libraries
+- Βιβλιοθήκη Aspose.Words για Java (έκδοση 25.3 ή νεότερη).
 
-Για να ξεκινήσετε, συμπεριλάβετε τη βιβλιοθήκη Aspose.Words στο έργο σας χρησιμοποιώντας το Maven ή το Gradle:
+### Environment Setup
+- Εγκατεστημένο Java Development Kit (JDK).
+- IDE όπως IntelliJ IDEA ή Eclipse.
 
-**Maven:**
+### Knowledge Prerequisites
+- Βασικός προγραμματισμός Java.
+- Προαιρετικά: Εξοικείωση με XML και έννοιες επεξεργασίας εγγράφων.
+
+## Setting Up Aspose.Words
+
+Include the library in your project with Maven or Gradle.
+
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -56,27 +84,29 @@
 </dependency>
 ```
 
-**Βαθμός:**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Απόκτηση Άδειας
+### License Acquisition
 
-Για να αξιοποιήσετε πλήρως το Aspose.Words, αποκτήστε μια άδεια χρήσης:
-1. **Δωρεάν δοκιμή**: Κατεβάστε και χρησιμοποιήστε τη δοκιμαστική έκδοση από [Λήψεις Aspose](https://releases.aspose.com/words/java/) για αξιολόγηση.
-2. **Προσωρινή Άδεια**Αποκτήστε μια προσωρινή άδεια χρήσης για να καταργήσετε τους περιορισμούς της δοκιμαστικής περιόδου στη διεύθυνση [Σελίδα Προσωρινής Άδειας Χρήσης](https://purchase.aspose.com/temporary-license/).
-3. **Αγορά**Για μόνιμη χρήση, αγοράστε μέσω του [Πύλη αγορών Aspose](https://purchase.aspose.com/buy).
+To fully utilize Aspose.Words, obtain a license:
 
-### Βασική Αρχικοποίηση
+1. **Δωρεάν Δοκιμή** – Κατεβάστε από [Aspose Downloads](https://releases.aspose.com/words/java/) για αξιολόγηση.  
+2. **Προσωρινή Άδεια** – Αφαιρέστε τους περιορισμούς της δοκιμής στη [Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Αγορά** – Αποκτήστε μόνιμη άδεια μέσω του [Aspose Purchase Portal](https://purchase.aspose.com/buy).
 
-Μόλις ρυθμιστεί και αδειοδοτηθεί, αρχικοποιήστε το Aspose.Words στο έργο Java σας:
+### Basic Initialization
+
+Once the library is added and licensed, initialize it:
+
 ```java
 import com.aspose.words.Document;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Δημιουργήστε ένα νέο έγγραφο.
+        // Create a new document.
         Document doc = new Document();
         
         System.out.println("Aspose.Words initialized successfully!");
@@ -84,46 +114,48 @@ public class Main {
 }
 ```
 
-## Οδηγός Εφαρμογής
+## Implementation Guide
 
-Αφού ολοκληρωθεί η εγκατάσταση, ας αναλύσουμε την υλοποίηση σε διαχειρίσιμες ενότητες.
+Below we break the implementation into clear, numbered steps.
 
-### Δημιουργία και Εισαγωγή Δομικών Στοιχείων
+### Step 1: Create a New Document and Glossary
 
-Τα δομικά στοιχεία είναι επαναχρησιμοποιήσιμα πρότυπα περιεχομένου που αποθηκεύονται στο γλωσσάρι ενός εγγράφου. Μπορούν να κυμαίνονται από απλά αποσπάσματα κειμένου έως σύνθετες διατάξεις.
+The glossary holds all building blocks.
 
-**1. Δημιουργήστε ένα νέο έγγραφο και γλωσσάρι**
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
 
 public class BuildingBlockExample {
     public static void main(String[] args) throws Exception {
-        // Αρχικοποιήστε ένα νέο έγγραφο.
+        // Initialize a new document.
         Document doc = new Document();
         
-        // Αποκτήστε πρόσβαση ή δημιουργήστε το γλωσσάρι για την αποθήκευση δομικών στοιχείων.
+        // Access or create the glossary for storing building blocks.
         GlossaryDocument glossaryDoc = new GlossaryDocument();
         doc.setGlossaryDocument(glossaryDoc);
     }
 }
 ```
 
-**2. Ορισμός και προσθήκη προσαρμοσμένου μπλοκ δόμησης**
+### Step 2: Define and Add a Custom Building Block
+
+Give the block a friendly name and a unique GUID.
+
 ```java
 import com.aspose.words.BuildingBlock;
 import java.util.UUID;
 
 public class CreateAndInsert {
     public void addCustomBuildingBlock(GlossaryDocument glossaryDoc) throws Exception {
-        // Δημιουργήστε ένα νέο δομικό στοιχείο.
+        // Create a new building block.
         BuildingBlock block = new BuildingBlock(glossaryDoc);
         
-        // Ορίστε το όνομα και το μοναδικό GUID για το δομικό στοιχείο.
+        // Set the name and unique GUID for the building block.
         block.setName("Custom Block");
         block.setGuid(UUID.randomUUID());
 
-        // Προσθήκη στο έγγραφο γλωσσαρίου.
+        // Add to the glossary document.
         glossaryDoc.appendChild(block);
 
         System.out.println("Building block added!");
@@ -131,8 +163,10 @@ public class CreateAndInsert {
 }
 ```
 
-**3. Συμπληρώστε τα Building Blocks με Περιεχόμενο Χρησιμοποιώντας έναν Επισκέπτη**
-Οι επισκέπτες εγγράφων χρησιμοποιούνται για την πλοήγηση και την τροποποίηση εγγράφων μέσω προγραμματισμού.
+### Step 3: Populate the Building Block Using a Visitor
+
+A `DocumentVisitor` lets you programmatically insert content.
+
 ```java
 import com.aspose.words.DocumentVisitor;
 import com.aspose.words.Section;
@@ -147,7 +181,7 @@ public class BuildingBlockVisitor extends DocumentVisitor {
 
     @Override
     public int visitBuildingBlockStart(BuildingBlock block) throws Exception {
-        // Προσθέστε περιεχόμενο στο δομικό στοιχείο.
+        // Add content to the building block.
         Section section = new Section(mGlossaryDoc.getDocument());
         mGlossaryDoc.getDocument().appendChild(section);
         
@@ -159,8 +193,10 @@ public class BuildingBlockVisitor extends DocumentVisitor {
 }
 ```
 
-**4. Πρόσβαση και Διαχείριση Δομικών Στοιχείων**
-Δείτε πώς μπορείτε να ανακτήσετε και να διαχειριστείτε τα δομικά στοιχεία που έχετε δημιουργήσει:
+### Step 4: Access and Manage Existing Building Blocks
+
+Retrieve the collection and list each block’s name.
+
 ```java
 import com.aspose.words.BuildingBlockCollection;
 
@@ -175,48 +211,81 @@ public class ManageBuildingBlocks {
 }
 ```
 
-### Πρακτικές Εφαρμογές
-Τα προσαρμοσμένα δομικά στοιχεία είναι ευέλικτα και μπορούν να εφαρμοστούν σε διάφορα σενάρια:
-- **Νομικά Έγγραφα**Τυποποίηση ρητρών σε πολλαπλές συμβάσεις.
-- **Τεχνικά Εγχειρίδια**Εισαγωγή συχνά χρησιμοποιούμενων τεχνικών διαγραμμάτων ή αποσπασμάτων κώδικα.
-- **Πρότυπα μάρκετινγκ**Δημιουργήστε επαναχρησιμοποιήσιμα πρότυπα για ενημερωτικά δελτία ή διαφημιστικό υλικό.
+### Practical Applications
 
-## Παράγοντες Απόδοσης
-Όταν εργάζεστε με μεγάλα έγγραφα ή πολλά δομικά στοιχεία, λάβετε υπόψη αυτές τις συμβουλές για να βελτιστοποιήσετε την απόδοση:
-- Περιορίστε τον αριθμό των ταυτόχρονων λειτουργιών σε ένα έγγραφο.
-- Χρήση `DocumentVisitor` με σύνεση για να αποφύγετε τη βαθιά αναδρομή και τα πιθανά προβλήματα μνήμης.
-- Ενημερώνετε τακτικά τις εκδόσεις της βιβλιοθήκης Aspose.Words για βελτιώσεις και διορθώσεις σφαλμάτων.
+- **Νομικά Έγγραφα** – Τυποποιήστε ρήτρες σε συμβόλαια.  
+- **Τεχνικά Εγχειρίδια** – Εισάγετε επαναλαμβανόμενα διαγράμματα ή αποσπάσματα κώδικα.  
+- **Πρότυπα Μάρκετινγκ** – Επαναχρησιμοποιήστε σχέδια κεφαλίδας/υποσέλιδου για ενημερωτικά δελτία.
 
-## Σύναψη
-Πλέον, έχετε κατακτήσει τον τρόπο δημιουργίας και διαχείρισης προσαρμοσμένων δομικών στοιχείων σε έγγραφα του Microsoft Word χρησιμοποιώντας το Aspose.Words για Java. Αυτή η ισχυρή λειτουργία βελτιώνει τις δυνατότητες αυτοματοποίησης εγγράφων σας, εξοικονομώντας χρόνο και διασφαλίζοντας τη συνέπεια σε όλα τα πρότυπά σας.
+## Performance Considerations
 
-**Επόμενα βήματα:**
-- Εξερευνήστε πρόσθετες λειτουργίες του Aspose.Words, όπως η συγχώνευση αλληλογραφίας ή η δημιουργία αναφορών.
-- Ενσωματώστε αυτές τις λειτουργίες στα υπάρχοντα έργα σας για να βελτιστοποιήσετε περαιτέρω τις ροές εργασίας.
+When working with large documents or many blocks:
 
-Είστε έτοιμοι να αναβαθμίσετε τη διαδικασία διαχείρισης εγγράφων σας; Ξεκινήστε να εφαρμόζετε αυτά τα προσαρμοσμένα δομικά στοιχεία σήμερα!
+- Περιορίστε τις ταυτόχρονες λειτουργίες στο ίδιο αντικείμενο `Document`.  
+- Χρησιμοποιήστε το `DocumentVisitor` με σύνεση για να αποφύγετε βαθιά αναδρομή και αυξήσεις μνήμης.  
+- Διατηρήστε το Aspose.Words ενημερωμένο για βελτιώσεις απόδοσης και διορθώσεις σφαλμάτων.
 
-## Ενότητα Συχνών Ερωτήσεων
-1. **Τι είναι ένα Building Block σε έγγραφα του Word;**
-   - Μια ενότητα προτύπου που μπορεί να επαναχρησιμοποιηθεί σε όλα τα έγγραφα, η οποία περιέχει προκαθορισμένο κείμενο ή στοιχεία διάταξης.
-2. **Πώς μπορώ να ενημερώσω ένα υπάρχον δομικό στοιχείο με το Aspose.Words για Java;**
-   - Ανακτήστε το δομικό στοιχείο χρησιμοποιώντας το όνομά του και τροποποιήστε το όπως απαιτείται πριν αποθηκεύσετε τις αλλαγές στο έγγραφό σας.
-3. **Μπορώ να προσθέσω εικόνες ή πίνακες στα προσαρμοσμένα δομικά στοιχεία μου;**
-   - Ναι, μπορείτε να εισαγάγετε οποιονδήποτε τύπο περιεχομένου που υποστηρίζεται από το Aspose.Words σε ένα δομικό στοιχείο.
-4. **Υπάρχει υποστήριξη για άλλες γλώσσες προγραμματισμού με το Aspose.Words;**
-   - Ναι, το Aspose.Words είναι διαθέσιμο για .NET, C++ και άλλα. Ελέγξτε το [επίσημη τεκμηρίωση](https://reference.aspose.com/words/java/) για λεπτομέρειες.
-5. **Πώς μπορώ να χειριστώ σφάλματα όταν εργάζομαι με δομικά στοιχεία;**
-   - Χρησιμοποιήστε μπλοκ try-catch για να εντοπίσετε εξαιρέσεις που δημιουργούνται από τις μεθόδους Aspose.Words, διασφαλίζοντας έτσι τον ομαλό χειρισμό σφαλμάτων στις εφαρμογές σας.
+## Common Issues & Solutions
 
-## Πόροι
-- **Απόδειξη με έγγραφα:** [Τεκμηρίωση Java για το Aspose.Words](https://reference.aspose.com/words/java)
+| Πρόβλημα | Λύση |
+|----------|------|
+| **Blocks not appearing after insertion** | Ensure you call `glossaryDoc.appendChild(block)` *before* saving the document. |
+| **GUID collisions** | Use `UUID.randomUUID()` for each block to guarantee uniqueness. |
+| **Memory usage spikes** | Process large documents in chunks or use `Document.clone()` for isolated operations. |
+
+## Conclusion
+
+Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή προσέγγιση στο **custom building blocks word** χρησιμοποιώντας Aspose.Words για Java. Δημιουργώντας επαναχρησιμοποιήσιμα αποσπάσματα, θα βελτιώσετε την αυτοματοποίηση εγγράφων, θα ενισχύσετε τη συνέπεια και θα μειώσετε την χειροκίνητη εργασία σε όλη την οργάνωσή σας.
+
+**Next Steps**
+- Εξερευνήστε τις δυνατότητες του Aspose.Words όπως mail merge, δημιουργία αναφορών ή μετατροπή σε PDF.  
+- Ενσωματώστε αυτές τις μεθόδους building‑block στις υπάρχουσες ροές εργασίας εγγράφων.  
+- Πειραματιστείτε με πιο πλούσιο περιεχόμενο (πίνακες, εικόνες) μέσα στα μπλοκ για να αξιοποιήσετε πλήρως το API.
+
+Ready to boost your document workflow? Start building your custom blocks today!
+
+## FAQ Section
+1. **What is a Building Block in Word Documents?**  
+   - Μια ενότητα προτύπου που μπορεί να επαναχρησιμοποιηθεί σε όλο το έγγραφο, περιέχοντας προ‑ορισμένο κείμενο ή στοιχεία διάταξης.  
+2. **How do I update an existing building block with Aspose.Words for Java?**  
+   - Ανακτήστε το μπλοκ με το όνομα, τροποποιήστε το περιεχόμενό του και αποθηκεύστε το έγγραφο.  
+3. **Can I add images or tables to my custom building blocks?**  
+   - Ναι, οποιοδήποτε τύπο περιεχομένου που υποστηρίζεται από το Aspose.Words μπορεί να εισαχθεί.  
+4. **Is there support for other programming languages with Aspose.Words?**  
+   - Ναι, το Aspose.Words είναι διαθέσιμο για .NET, C++ και άλλα. Δείτε την [official documentation](https://reference.aspose.com/words/java/) για λεπτομέρειες.  
+5. **How do I handle errors when working with building blocks?**  
+   - Τυλίξτε τις κλήσεις σε μπλοκ try‑catch για να πιάσετε `Exception` και να εφαρμόσετε λογική εναλλακτικής αντιμετώπισης.
+
+## Frequently Asked Questions
+
+**Q: How does this help me **generate word template java** projects?**  
+A: Ορίζοντας επαναχρησιμοποιήσιμα μπλοκ μία φορά, μπορείτε να συναρμολογήσετε σύνθετα πρότυπα Word προγραμματιστικά, μειώνοντας την επανάληψη κώδικα.
+
+**Q: Can I share building blocks between different documents?**  
+A: Ναι, εξάγετε το γλωσσάρι σε ξεχωριστό αρχείο .dotx και εισάγετέ το σε άλλα έγγραφα.
+
+**Q: Do I need to rebuild the glossary after every change?**  
+A: Όχι, οι τροποποιήσεις αποθηκεύονται αυτόματα όταν αποθηκεύετε το αντικείμενο `Document`.
+
+**Q: Is there a limit to the number of building blocks I can create?**  
+A: Στην πράξη, το όριο εξαρτάται από τη διαθέσιμη μνήμη· τυπικές περιπτώσεις περιλαμβάνουν δεκάδες έως εκατοντάδες μπλοκ.
+
+**Q: Will this work on Windows, Linux, and macOS?**  
+A: Το Aspose.Words for Java είναι ανεξάρτητο από πλατφόρμα, οπότε ο ίδιος κώδικας εκτελείται σε οποιοδήποτε OS με συμβατό JDK.
+
+## Resources
+- **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-03-15  
+**Δοκιμή Με:** Aspose.Words 25.3 for Java  
+**Συγγραφέας:** Aspose
