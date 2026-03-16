@@ -40,12 +40,12 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Réduisez la taille des documents PDF grâce au sous-échantillonnage des images](./downsampling-images/) Réduisez la taille de vos documents PDF en sous-échantillonnant les images avec Aspose.Words pour .NET. Optimisez vos PDF pour des temps de téléchargement plus rapides.
 | [Définir les options de plan dans un document PDF](./set-outline-options/) | Apprenez à définir les options de plan dans un document PDF avec Aspose.Words pour .NET. Améliorez la navigation PDF en configurant les niveaux de titre et les plans étendus. |
 | [Exporter les propriétés personnalisées dans un document PDF](./custom-properties-export/) | Apprenez à exporter des propriétés personnalisées dans un document PDF à l'aide d'Aspose.Words pour .NET avec notre guide détaillé étape par étape. |
-| [Exporter la structure d'un document Word vers un document PDF](./export-document-structure/) Exportez la structure d'un document Word au format PDF avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour préserver la mise en page du document et améliorer la navigation dans les PDF.
+| [Exporter la structure d'un document Word vers un document PDF](./export-document-structure/) Exportez la structure d'un document Word au format PDF avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour préserver la mise en page du document et améliorer la navigation dans les PDF. |
 | [Compression d'image dans un document PDF](./image-compression/) Apprenez à compresser des images dans des documents PDF avec Aspose.Words pour .NET. Suivez ce guide pour optimiser la taille et la qualité de vos fichiers. |
 | [Mettre à jour la dernière propriété imprimée dans le document PDF](./update-last-printed-property/) | Apprenez à mettre à jour la dernière propriété imprimée dans un document PDF à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape. |
 | [Rendu 3D DML 3DEffects dans un document PDF](./dml-3deffects-rendering/) | Apprenez à restituer de superbes effets DML 3D dans des documents PDF à l'aide d'Aspose.Words pour .NET avec ce guide complet étape par étape. |
 | [Interpoler des images dans un document PDF](./interpolate-images/) | Découvrez comment interpoler des images dans un document PDF avec Aspose.Words pour .NET grâce à notre guide étape par étape. Améliorez facilement la qualité d'image de votre PDF. |
-
+| [Comment créer un PDF à partir de Word en C# – Guide complet](./how-to-create-pdf-from-word-in-c-complete-guide/) | Apprenez à générer un PDF à partir d'un document Word en C# avec Aspose.Words, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
-| [Word Belgesindeki Kirli Alanları Güncelle](./update-dirty-fields/) Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki kirli alanları zahmetsizce güncelleyin. |
+| [Word Belgesindeki Kirli Alanları Güncelle](./update-dirty-fields/) | Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki kirli alanları zahmetsizce güncelleyin. |
 | [Word Belgesinde Şifrelenmiş Olarak Yükle](./load-encrypted-document/) | Aspose.Words for .NET kullanarak şifrelenmiş Word belgelerini nasıl yükleyeceğinizi ve kaydedeceğinizi öğrenin. Belgelerinizi yeni parolalarla kolayca güvence altına alın. Adım adım kılavuz dahildir. |
 | [Şekli Office Matematiğine Dönüştür](./convert-shape-to-office-math/) | Aspose.Words for .NET rehberimizle Word belgelerindeki şekilleri Office Math'e nasıl dönüştüreceğinizi öğrenin. Belge biçimlendirmenizi zahmetsizce geliştirin. |
 | [Ms Word Sürümünü Ayarla](./set-ms-word-version/) | Ayrıntılı kılavuzumuzla Aspose.Words for .NET kullanarak MS Word sürümlerini nasıl ayarlayacağınızı öğrenin. Belge düzenlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir. |
@@ -34,6 +34,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Chm Dosyalarını Word Belgesine Yükle](./load-chm/) | Bu adım adım eğitimle CHM dosyalarını Aspose.Words for .NET kullanarak Word belgelerine kolayca yükleyin. Teknik belgelerinizi birleştirmek için mükemmeldir. |
 | [Aspose.Words ile docx Dosyasını Adım Adım Kurtarma](./how-to-recover-docx-with-aspose-words-step-by-step/) | Aspose.Words kullanarak bozuk bir docx dosyasını nasıl kurtaracağınızı adım adım öğrenin. |
 | [Aspose Load Options – Özel Yazı Tipi Ayarlarıyla DOCX Yükle](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words for .NET ile özel yazı tipi ayarları kullanarak DOCX dosyalarını nasıl yükleyeceğinizi adım adım öğrenin. |
+| [DOCX Dosyasını Kurtarma – Bozuk Dosyalar İçin Adım Adım Kılavuz](./how-to-recover-docx-step-by-step-guide-for-corrupt-files/) | Aspose.Words for .NET ile bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
