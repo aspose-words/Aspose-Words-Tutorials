@@ -1,53 +1,68 @@
 ---
-"date": "2025-03-28"
-"description": "เรียนรู้วิธีการสร้างและจัดการบล็อกการสร้างแบบกำหนดเองในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java ปรับปรุงการทำงานอัตโนมัติของเอกสารด้วยเทมเพลตที่นำมาใช้ซ้ำได้"
-"title": "สร้างบล็อกอาคารแบบกำหนดเองใน Microsoft Word โดยใช้ Aspose.Words สำหรับ Java"
-"url": "/th/java/content-management/create-custom-building-blocks-aspose-words-java/"
-"weight": 1
+date: '2026-03-17'
+description: เรียนรู้วิธีสร้างบล็อกการสร้างแบบกำหนดเองใน Word ด้วย Aspose.Words for
+  Java รวมถึงวิธีเพิ่มเนื้อหาและตั้งค่า Aspose.Words for Java สำหรับเทมเพลตที่นำกลับมาใช้ใหม่ได้
+keywords:
+- custom building blocks Word
+- create building blocks Java
+- manage document templates Aspose.Words
+title: สร้างบล็อกการสร้างแบบกำหนดเองใน Word ด้วย Aspose.Words สำหรับ Java
+url: /th/java/content-management/create-custom-building-blocks-aspose-words-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ markdown.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# สร้าง custom building blocks word ด้วย Aspose.Words for Java
 
-# สร้างบล็อกอาคารแบบกำหนดเองใน Microsoft Word โดยใช้ Aspose.Words สำหรับ Java
+## บทนำ
 
-## การแนะนำ
+หากคุณต้องการ **create custom building blocks word** ที่สามารถนำกลับมาใช้ใหม่ได้ในหลายเอกสาร คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายกระบวนการทั้งหมด—ตั้งแต่การตั้งค่า Aspose.Words for Java ไปจนถึงการเพิ่มเนื้อหาโดยโปรแกรมและการจัดการบล็อกที่นำกลับมาใช้ใหม่ ไม่ว่าคุณจะทำอัตโนมัติสัญญา คู่มือเทคนิค หรือใบปลิวการตลาด custom building blocks จะช่วยให้เอกสารของคุณสอดคล้องกันและลดเวลาในการพัฒนา
 
-คุณกำลังมองหาวิธีปรับปรุงกระบวนการสร้างเอกสารของคุณโดยการเพิ่มส่วนเนื้อหาที่นำมาใช้ซ้ำได้ใน Microsoft Word หรือไม่ บทช่วยสอนที่ครอบคลุมนี้จะอธิบายวิธีใช้ประโยชน์จากไลบรารี Aspose.Words ที่ทรงพลังเพื่อสร้างบล็อกการสร้างแบบกำหนดเองโดยใช้ Java ไม่ว่าคุณจะเป็นนักพัฒนาหรือผู้จัดการโครงการที่กำลังมองหาวิธีที่มีประสิทธิภาพในการจัดการเทมเพลตเอกสาร คู่มือนี้จะแนะนำคุณในแต่ละขั้นตอน
+**สิ่งที่คุณจะได้เรียนรู้**
+- วิธี **setup Aspose.Words Java** ในโครงการ Maven หรือ Gradle.  
+- กระบวนการขั้นตอน‑ต่อ‑ขั้นตอนเพื่อ **how to add content** ไปยัง building block ด้วย document visitor.  
+- เทคนิคสำหรับการเข้าถึง, รายการ, และอัปเดต custom building blocks โดยโปรแกรม.  
+- สถานการณ์จริงที่ custom building blocks word ช่วยประหยัดหลายชั่วโมงของการแก้ไขด้วยมือ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- การตั้งค่า Aspose.Words สำหรับ Java
-- การสร้างและกำหนดค่าบล็อกอาคารในเอกสาร Word
-- การนำบล็อกอาคารแบบกำหนดเองมาใช้โดยใช้ผู้เยี่ยมชมเอกสาร
-- การเข้าถึงและการจัดการบล็อคอาคารผ่านโปรแกรม
-- การประยุกต์ใช้บล็อคตัวต่อในโลกแห่งความเป็นจริงในสภาพแวดล้อมทางวิชาชีพ
+มาเริ่มกันเลย!
 
-มาเจาะลึกข้อกำหนดเบื้องต้นที่จำเป็นในการเริ่มต้นใช้งานฟังก์ชันที่น่าตื่นเต้นนี้กันดีกว่า!
+## คำตอบอย่างรวดเร็ว
+- **วัตถุประสงค์หลักของ custom building blocks word คืออะไร?** ส่วนเนื้อหาที่สามารถนำกลับมาใช้ใหม่ได้และสามารถแทรกลงในเอกสาร Word โดยโปรแกรม.  
+- **ต้องใช้ไลบรารีใด?** Aspose.Words for Java (เวอร์ชัน 25.3 หรือใหม่กว่า).  
+- **ต้องมีใบอนุญาตหรือไม่?** ใช่ – การทดลองใช้ฟรีหรือใบอนุญาตถาวรจะลบข้อจำกัดการประเมิน.  
+- **สามารถเพิ่มรูปภาพหรือ ตารางได้หรือไม่?** แน่นอน – เนื้อหาใด ๆ ที่ Aspose.Words รองรับสามารถวางไว้ใน building block ได้.  
+- **วิธีนี้เหมาะกับเอกสารขนาดใหญ่หรือไม่?** ใช่, พร้อมกับเคล็ดลับประสิทธิภาพที่อธิบายต่อไป.
+
+## custom building blocks word คืออะไร?
+
+Custom building blocks word จะถูกเก็บไว้ใน glossary ของเอกสาร Word และทำหน้าที่เหมือนเทมเพลตขนาดเล็ก พวกมันช่วยให้คุณแทรกข้อความที่กำหนดไว้ล่วงหน้า ตาราง รูปภาพ หรือแม้กระทั่งเลย์เอาต์ที่ซับซ้อนด้วยการเรียกครั้งเดียว เพื่อให้ความสอดคล้องกันในทุกไฟล์ที่สร้างขึ้น
+
+## ทำไมต้องใช้ Aspose.Words for Java เพื่อจัดการพวกมัน?
+
+Aspose.Words ให้ API ที่หลากหลายและไม่ขึ้นกับภาษา ซึ่งทำให้ซับซ้อนของรูปแบบไฟล์ Word ถูกแอบซ่อนไว้ คุณจะได้:
+- การควบคุมโครงสร้างเอกสารอย่างเต็มที่โดยไม่ต้องติดตั้ง Microsoft Word.  
+- การประมวลผลประสิทธิภาพสูง แม้กับไฟล์ขนาดใหญ่.  
+- การสนับสนุนข้ามแพลตฟอร์ม ทำให้โค้ดอัตโนมัติของคุณพกพาได้
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-
-### ห้องสมุดที่จำเป็น
-- Aspose.Words สำหรับไลบรารี Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
-
-### การตั้งค่าสภาพแวดล้อม
-- Java Development Kit (JDK) ติดตั้งอยู่บนเครื่องของคุณ
-- สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
-
-### ข้อกำหนดเบื้องต้นของความรู้
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
-- ความคุ้นเคยกับ XML และแนวคิดการประมวลผลเอกสารนั้นมีประโยชน์แต่ไม่จำเป็น
+- **Aspose.Words for Java** library (v25.3 หรือใหม่กว่า).  
+- Java Development Kit (JDK 8 หรือใหม่กว่า).  
+- IDE เช่น IntelliJ IDEA หรือ Eclipse.  
+- ความรู้พื้นฐานของ Java; ความคุ้นเคยกับ XML เป็นประโยชน์แต่ไม่จำเป็น.
 
 ## การตั้งค่า Aspose.Words
 
-ในการเริ่มต้น ให้รวมไลบรารี Aspose.Words ไว้ในโปรเจ็กต์ของคุณโดยใช้ Maven หรือ Gradle:
+เพิ่มไลบรารีลงในโครงการของคุณด้วย Maven หรือ Gradle.
 
-**เมเวน:**
+**Maven**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -56,27 +71,27 @@
 </dependency>
 ```
 
-**เกรเดิ้ล:**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### การขอใบอนุญาต
+### การรับใบอนุญาต
 
-หากต้องการใช้ Aspose.Words ได้อย่างเต็มประสิทธิภาพ กรุณาขอรับใบอนุญาต:
-1. **ทดลองใช้งานฟรี**:ดาวน์โหลดและใช้งานเวอร์ชั่นทดลองใช้ได้จาก [ดาวน์โหลด Aspose](https://releases.aspose.com/words/java/) เพื่อการประเมินผล
-2. **ใบอนุญาตชั่วคราว**:รับใบอนุญาตชั่วคราวเพื่อลบข้อจำกัดการทดลองใช้งานได้ที่ [หน้าใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
-3. **ซื้อ**: สำหรับการใช้งานถาวร ให้ซื้อผ่าน [พอร์ทัลการซื้อ Aspose](https://purchase-aspose.com/buy).
+เพื่อเปิดใช้งานฟังก์ชันเต็ม:
 
-### การเริ่มต้นขั้นพื้นฐาน
+1. **Free Trial** – ดาวน์โหลดจาก [Aspose Downloads](https://releases.aspose.com/words/java/) เพื่อประเมิน.  
+2. **Temporary License** – รับคีย์ระยะสั้นได้ที่ [Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Permanent Purchase** – ซื้อใบอนุญาตผ่าน [Aspose Purchase Portal](https://purchase.aspose.com/buy).
 
-เมื่อตั้งค่าและได้รับอนุญาตแล้ว ให้เริ่มต้น Aspose.Words ในโปรเจ็กต์ Java ของคุณ:
+### การเริ่มต้นพื้นฐาน
+
 ```java
 import com.aspose.words.Document;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // สร้างเอกสารใหม่
+        // Create a new document.
         Document doc = new Document();
         
         System.out.println("Aspose.Words initialized successfully!");
@@ -84,46 +99,44 @@ public class Main {
 }
 ```
 
-## คู่มือการใช้งาน
+## คู่มือการนำไปใช้
 
-เมื่อการตั้งค่าเสร็จสมบูรณ์แล้ว เรามาแบ่งการใช้งานออกเป็นส่วนๆ ที่จัดการได้
+ด้านล่างเราจะแบ่งการนำไปใช้เป็นขั้นตอนที่ชัดเจนและเป็นลำดับเลข
 
-### การสร้างและการแทรกบล็อกอาคาร
+### ขั้นตอนที่ 1: สร้าง Document ใหม่และ Glossary
 
-บล็อกอาคารเป็นเทมเพลตเนื้อหาที่สามารถนำมาใช้ซ้ำได้ซึ่งจัดเก็บไว้ในคลังคำศัพท์ของเอกสาร อาจเป็นตั้งแต่ข้อความสั้นๆ ไปจนถึงรูปแบบที่ซับซ้อน
-
-**1. สร้างเอกสารและคำศัพท์ใหม่**
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.GlossaryDocument;
 
 public class BuildingBlockExample {
     public static void main(String[] args) throws Exception {
-        // สร้างเอกสารใหม่
+        // Initialize a new document.
         Document doc = new Document();
         
-        // เข้าถึงหรือสร้างคำศัพท์เพื่อจัดเก็บบล็อกอาคาร
+        // Access or create the glossary for storing building blocks.
         GlossaryDocument glossaryDoc = new GlossaryDocument();
         doc.setGlossaryDocument(glossaryDoc);
     }
 }
 ```
 
-**2. กำหนดและเพิ่มบล็อกอาคารที่กำหนดเอง**
+### ขั้นตอนที่ 2: กำหนดและเพิ่ม Custom Building Block
+
 ```java
 import com.aspose.words.BuildingBlock;
 import java.util.UUID;
 
 public class CreateAndInsert {
     public void addCustomBuildingBlock(GlossaryDocument glossaryDoc) throws Exception {
-        // สร้างบล็อกอาคารใหม่
+        // Create a new building block.
         BuildingBlock block = new BuildingBlock(glossaryDoc);
         
-        // ตั้งชื่อและ GUID ที่ไม่ซ้ำกันให้กับบล็อกอาคาร
+        // Set the name and unique GUID for the building block.
         block.setName("Custom Block");
         block.setGuid(UUID.randomUUID());
 
-        // เพิ่มเข้าในเอกสารคำศัพท์
+        // Add to the glossary document.
         glossaryDoc.appendChild(block);
 
         System.out.println("Building block added!");
@@ -131,8 +144,8 @@ public class CreateAndInsert {
 }
 ```
 
-**3. เติมเนื้อหาลงในบล็อกอาคารโดยใช้ผู้เยี่ยมชม**
-ผู้เยี่ยมชมเอกสารใช้สำหรับการสำรวจและแก้ไขเอกสารผ่านโปรแกรม
+### ขั้นตอนที่ 3: เติม Building Blocks ด้วยเนื้อหาโดยใช้ Visitor
+
 ```java
 import com.aspose.words.DocumentVisitor;
 import com.aspose.words.Section;
@@ -147,7 +160,7 @@ public class BuildingBlockVisitor extends DocumentVisitor {
 
     @Override
     public int visitBuildingBlockStart(BuildingBlock block) throws Exception {
-        // เพิ่มเนื้อหาลงในบล็อกอาคาร
+        // Add content to the building block.
         Section section = new Section(mGlossaryDoc.getDocument());
         mGlossaryDoc.getDocument().appendChild(section);
         
@@ -159,8 +172,8 @@ public class BuildingBlockVisitor extends DocumentVisitor {
 }
 ```
 
-**4. การเข้าถึงและการจัดการบล็อกอาคาร**
-ต่อไปนี้เป็นวิธีดึงข้อมูลและจัดการบล็อคอาคารที่คุณสร้างขึ้น:
+### ขั้นตอนที่ 4: การเข้าถึงและจัดการ Building Blocks
+
 ```java
 import com.aspose.words.BuildingBlockCollection;
 
@@ -175,48 +188,71 @@ public class ManageBuildingBlocks {
 }
 ```
 
-### การประยุกต์ใช้งานจริง
-บล็อกอาคารแบบกำหนดเองมีความหลากหลายและสามารถนำไปใช้ในสถานการณ์ต่างๆ ได้:
-- **เอกสารทางกฎหมาย**:กำหนดมาตรฐานข้อกำหนดในสัญญาต่าง ๆ
-- **คู่มือทางเทคนิค**:แทรกไดอะแกรมทางเทคนิคหรือชิ้นส่วนโค้ดที่ใช้บ่อย
-- **เทมเพลตการตลาด**:สร้างเทมเพลตที่สามารถใช้ซ้ำได้สำหรับจดหมายข่าวหรือสื่อส่งเสริมการขาย
+## การประยุกต์ใช้งานจริงของ custom building blocks word
 
-## การพิจารณาประสิทธิภาพ
-เมื่อทำงานกับเอกสารขนาดใหญ่หรือองค์ประกอบการสร้างจำนวนมาก ควรพิจารณาเคล็ดลับเหล่านี้เพื่อเพิ่มประสิทธิภาพการทำงาน:
-- จำกัดจำนวนการดำเนินการพร้อมกันบนเอกสาร
-- ใช้ `DocumentVisitor` อย่างชาญฉลาดเพื่อหลีกเลี่ยงการเรียกซ้ำแบบลึกและปัญหาหน่วยความจำที่อาจเกิดขึ้น
-- อัปเดตเวอร์ชันไลบรารี Aspose.Words เป็นประจำเพื่อปรับปรุงและแก้ไขจุดบกพร่อง
+- **Legal Documents** – ข้อกำหนดมาตรฐานที่ต้องปรากฏในทุกสัญญา.  
+- **Technical Manuals** – แผนภาพซ้ำ, โค้ดสแนป, หรือหมายเหตุเตือน.  
+- **Marketing Materials** – ส่วนหัว, ส่วนท้าย, หรือส่วนเรียกให้ดำเนินการที่มีแบรนด์คงที่ในจดหมายข่าว.
 
-## บทสรุป
-ตอนนี้คุณได้เรียนรู้วิธีการสร้างและจัดการบล็อกการสร้างแบบกำหนดเองในเอกสาร Microsoft Word โดยใช้ Aspose.Words สำหรับ Java แล้ว ฟีเจอร์อันทรงพลังนี้จะช่วยเพิ่มความสามารถในการจัดการเอกสารอัตโนมัติ ช่วยประหยัดเวลา และรับรองความสอดคล้องกันในเทมเพลตทั้งหมดของคุณ
+## พิจารณาด้านประสิทธิภาพ
 
-**ขั้นตอนต่อไป:**
-- สำรวจคุณลักษณะเพิ่มเติมของ Aspose เช่น การผสานจดหมายหรือการสร้างรายงาน
-- บูรณาการฟังก์ชันการทำงานเหล่านี้เข้าในโครงการที่มีอยู่ของคุณเพื่อปรับปรุงเวิร์กโฟลว์ให้ดียิ่งขึ้น
+เมื่อทำงานกับบล็อกจำนวนมากหรือขนาดใหญ่:
 
-พร้อมที่จะยกระดับกระบวนการจัดการเอกสารของคุณหรือยัง เริ่มนำองค์ประกอบพื้นฐานที่กำหนดเองเหล่านี้มาใช้ตั้งแต่วันนี้!
+- **Batch operations** – จำกัดการแก้ไขพร้อมกันเพื่อหลีกเลี่ยงการเพิ่มขึ้นของหน่วยความจำ.  
+- **Visitor usage** – ทำให้ตรรกะของ visitor ไม่ลึกเกินไป; การเรียกซ้ำลึกอาจทำให้เกิด stack overflow.  
+- **Library updates** – อัปเกรด Aspose.Words อย่างสม่ำเสมอเพื่อรับประโยชน์จากการปรับปรุงประสิทธิภาพและการแก้ไขบั๊ก.
+
+## สรุป
+
+คุณมีวิธีการที่ครบถ้วนและพร้อมใช้งานในระดับผลิตเพื่อ **create custom building blocks word** ด้วย Aspose.Words for Java แล้ว โดยการฝังส่วนที่นำกลับมาใช้ใหม่โดยตรงลงใน glossary ของเอกสาร คุณสามารถเร่งกระบวนการทำงานแบบเทมเพลตได้อย่างมหาศาลพร้อมรับประกันความสอดคล้อง
+
+**ขั้นตอนต่อไป**
+- ทดลองแทรกรูปภาพหรือ ตารางลงใน building blocks ของคุณ.  
+- ผสานเทคนิคนี้กับการ mail‑merge ของ Aspose.Words เพื่อสร้างรายงานอัตโนมัติอย่างเต็มรูปแบบ.  
+- สำรวจคุณสมบัติที่หลากหลายของ Aspose.Words เช่น การแปลงเอกสาร, การใส่ลายน้ำ, และลายเซ็นดิจิทัล.
+
+พร้อมที่จะทำให้การอัตโนมัติเอกสารของคุณเป็นเรื่องง่ายขึ้นหรือยัง? เริ่มสร้าง custom blocks ของคุณวันนี้!
 
 ## ส่วนคำถามที่พบบ่อย
-1. **Building Block ในเอกสาร Word คืออะไร?**
-   - ส่วนเทมเพลตที่สามารถนำมาใช้ซ้ำได้ทั่วทั้งเอกสาร ซึ่งประกอบด้วยข้อความที่กำหนดไว้ล่วงหน้าหรือองค์ประกอบเค้าโครง
-2. **ฉันจะอัปเดตบล็อกอาคารที่มีอยู่ด้วย Aspose.Words สำหรับ Java ได้อย่างไร**
-   - ดึงข้อมูลบล็อกอาคารโดยใช้ชื่อและปรับเปลี่ยนตามต้องการก่อนบันทึกการเปลี่ยนแปลงลงในเอกสารของคุณ
-3. **ฉันสามารถเพิ่มรูปภาพหรือตารางลงในบล็อกอาคารที่กำหนดเองของฉันได้หรือไม่**
-   - ใช่ คุณสามารถแทรกประเภทเนื้อหาใดๆ ที่ได้รับการรองรับโดย Aspose.Words ลงในบล็อกอาคารได้
-4. **มีการสนับสนุนภาษาการเขียนโปรแกรมอื่น ๆ ด้วย Aspose.Words หรือไม่**
-   - ใช่ Aspose.Words พร้อมใช้งานสำหรับ .NET, C++ และอื่นๆ ตรวจสอบ [เอกสารอย่างเป็นทางการ](https://reference.aspose.com/words/java/) สำหรับรายละเอียดเพิ่มเติม
-5. **ฉันจะจัดการข้อผิดพลาดเมื่อทำงานกับบล็อกอาคารได้อย่างไร**
-   - ใช้บล็อก try-catch เพื่อจับข้อยกเว้นที่เกิดจากวิธี Aspose.Words ช่วยให้จัดการข้อผิดพลาดในแอปพลิเคชันของคุณได้อย่างราบรื่น
+1. **Building Block ในเอกสาร Word คืออะไร?**  
+   ส่วนเทมเพลตที่สามารถนำกลับมาใช้ใหม่ได้ทั่วเอกสาร, มีข้อความหรือองค์ประกอบการจัดวางที่กำหนดไว้ล่วงหน้า.
 
-## ทรัพยากร
-- **เอกสารประกอบ:** [เอกสาร Java ของ Aspose.Words](https://reference.aspose.com/words/java)
+2. **ฉันจะอัปเดต Building Block ที่มีอยู่แล้วด้วย Aspose.Words for Java อย่างไร?**  
+   ดึงบล็อกตามชื่อ, แก้ไขเนื้อหาผ่าน `DocumentVisitor` หรือการจัดการโหนดโดยตรง, แล้วบันทึกเอกสาร.
+
+3. **ฉันสามารถเพิ่มรูปภาพหรือ ตารางลงใน custom building blocks ได้หรือไม่?**  
+   ได้, เนื้อหาใด ๆ ที่ Aspose.Words รองรับ (รูปภาพ, ตาราง, แผนภูมิ ฯลฯ) สามารถแทรกได้.
+
+4. **มีการสนับสนุนภาษาโปรแกรมอื่น ๆ กับ Aspose.Words หรือไม่?**  
+   มี, Aspose.Words ยังมีให้สำหรับ .NET, C++, และแพลตฟอร์มอื่น ๆ ดูที่ [official documentation](https://reference.aspose.com/words/java/) สำหรับรายละเอียด.
+
+5. **ฉันจะจัดการข้อผิดพลาดเมื่อทำงานกับ building blocks อย่างไร?**  
+   ห่อการเรียก Aspose.Words ด้วยบล็อก try‑catch และบันทึกรายละเอียดของ `Exception` เพื่อให้การทำงานล้มเหลวอย่างราบรื่น.
+
+### คำถามที่พบบ่อยเพิ่มเติม
+
+**Q: custom building blocks ทำงานกับเอกสารที่มีรหัสผ่านหรือไม่?**  
+A: ทำได้. เปิดเอกสารด้วยรหัสผ่านที่เหมาะสม, แก้ไข glossary, แล้วบันทึกกลับด้วยการป้องกันเดียวกัน.
+
+**Q: ฉันสามารถลบ building block โดยโปรแกรมได้หรือไม่?**  
+A: ดึงอ็อบเจกต์ `BuildingBlock` แล้วเรียก `remove()` บนโหนดพาเรนท์เพื่อทำการลบจาก glossary.
+
+**Q: มีขีดจำกัดจำนวน building blocks ที่สามารถเก็บได้หรือไม่?**  
+A: โดยหลักไม่มี; ขีดจำกัดขึ้นอยู่กับขนาดเอกสารและหน่วยความจำที่มี.
+
+## แหล่งข้อมูล
+- **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-17  
+**ทดสอบด้วย:** Aspose.Words for Java 25.3  
+**ผู้เขียน:** Aspose
