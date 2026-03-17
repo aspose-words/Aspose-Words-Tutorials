@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Узнайте, как эффективно организовать закладки в PDF-файлах с помощью Aspose.Words для Java. Улучшите читаемость и навигацию с помощью этого всеобъемлющего руководства."
-"title": "Мастер уровней структуры закладок в PDF-файлах с использованием Aspose.Words Java"
-"url": "/ru/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-03-17'
+description: Узнайте, как добавить закладки, установить уровни структуры и сохранить
+  PDF с закладками, используя Aspose.Words для Java.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: Как добавить закладки и уровни в PDF‑файлы – Aspose.Words Java
+url: /ru/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +17,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Управление уровнями оглавления закладок в PDF с использованием Aspose.Words Java
 
-# Мастер уровней структуры закладок в PDF-файлах с использованием Aspose.Words Java
+## Introduction
+В этом руководстве вы узнаете **как добавить закладки** и установить уровни оглавления при конвертации документов Word в PDF с помощью Aspose.Words for Java. Трудно управлять закладками во время конвертации? Этот учебник проведёт вас через создание вложенных закладок, настройку их иерархии и сохранение PDF, удобного для навигации.
 
-## Введение
-Не можете управлять закладками при конвертации документов Word в PDF? В этом руководстве вы узнаете, как использовать Aspose.Words для Java для эффективной организации закладок документов, делая их профессиональными и простыми в навигации.
-
-**Что вы узнаете:**
-- Настройка и использование Aspose.Words для Java
+**What You'll Learn**
+- Настройка и использование Aspose.Words for Java
 - Создание вложенных закладок в документах Word
-- Настройте уровни структуры закладок для лучшей организации
-- Сохраняйте документы в формате PDF со структурированными закладками
+- Конфигурация уровней оглавления закладок для лучшей организации
+- Сохранение документов в PDF с структурированными закладками
 
-Давайте рассмотрим предварительные условия, прежде чем начать!
-
-### Предпосылки
+### Prerequisites
 Перед началом убедитесь, что у вас есть:
-- **Библиотеки и зависимости**: Aspose.Words для Java (версия 25.3 или более поздняя).
-- **Настройка среды**: JDK, установленный на вашем компьютере, а также совместимая среда IDE, например IntelliJ IDEA или Eclipse.
-- **Необходимые знания**: Базовые знания программирования на Java и знакомство с системами сборки Maven или Gradle.
+- **Библиотеки и зависимости**: Aspose.Words for Java (версия 25.3 или новее).
+- **Настройка окружения**: установленный JDK и совместимая IDE, например IntelliJ IDEA или Eclipse.
+- **Базовые знания**: базовое понимание программирования на Java и знакомство с системами сборки Maven или Gradle.
 
-## Настройка Aspose.Words
-Для начала включите необходимые зависимости в свой проект. Вот как это можно сделать с помощью Maven и Gradle:
+## Quick Answers
+- **What is the primary way to add bookmarks?** Use `DocumentBuilder.startBookmark()` and `endBookmark()` methods.  
+- **Can I set hierarchy for PDF bookmarks?** Yes—configure `BookmarksOutlineLevelCollection` via `PdfSaveOptions`.  
+- **Do I need a license to generate PDFs with bookmarks?** A free trial works for testing; a permanent license is required for production.  
+- **Which keyword best describes this process?** *how to add bookmarks* (primary).  
+- **Is there built‑in troubleshooting for missing bookmarks?** Yes—check bookmark start/end pairing and outline level assignments.
 
-**Мейвен:**
+## How to Add Bookmarks in PDFs
+Создание закладок с Aspose.Words простое. Ниже мы разбиваем реализацию на понятные шаги.
+
+### Setting Up Aspose.Words
+Чтобы начать, включите необходимые зависимости в ваш проект.
+
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +56,136 @@
 </dependency>
 ```
 
-**Градл:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Приобретение лицензии
-Aspose.Words — это коммерческий продукт, но вы можете начать с бесплатной пробной версии, чтобы изучить его возможности. Вот шаги:
-1. **Бесплатная пробная версия**: Скачать с [Страница релиза Aspose](https://releases.aspose.com/words/java/) для проверки полных возможностей.
-2. **Временная лицензия**Подайте заявку на временную лицензию по адресу [Страница временной лицензии Aspose](https://purchase.aspose.com/temporary-license/) если необходимо.
-3. **Покупка**: Для постоянного использования приобретите лицензию у [Портал закупок Aspose](https://purchase.aspose.com/buy).
+### License Acquisition
+Aspose.Words — коммерческий продукт, но вы можете начать с бесплатной пробной версии, чтобы изучить его возможности. Выполните следующие шаги:
+1. **Free Trial**: Download from [страница релизов Aspose](https://releases.aspose.com/words/java/) to test full capabilities.  
+2. **Temporary License**: Apply for a temporary license at [страница временной лицензии Aspose](https://purchase.aspose.com/temporary-license/) if needed.  
+3. **Purchase**: For ongoing use, purchase a license from [портал покупки Aspose](https://purchase.aspose.com/buy).
 
-Получив файл лицензии, инициализируйте его в своем проекте, чтобы разблокировать все функции Aspose.Words.
+После получения файла лицензии инициализируйте её в вашем проекте, чтобы разблокировать все функции Aspose.Words.
 
-## Руководство по внедрению
-Давайте разобьем реализацию на управляемые разделы:
+## Creating Nested Bookmarks
+**Overview**: Learn how to create nested bookmarks within a Word document using Aspose.Words for Java.
 
-### Создание вложенных закладок
-**Обзор**: Узнайте, как создавать вложенные закладки в документе Word с помощью Aspose.Words для Java.
-
-#### Шаг 1: Инициализация документа и конструктора
+### Step 1: Initialize Document and Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Это настроит среду документа Word, в которую вы сможете вставлять контент.
+Этот код подготавливает окружение вашего документа Word, где вы сможете начинать вставлять содержимое.
 
-#### Шаг 2: Вставьте вложенные закладки
-Начните с создания основной закладки:
+### Step 2: Insert Nested Bookmarks
+Start by creating a primary bookmark:
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Теперь вложите в него еще одну закладку:
+
+Now, nest another bookmark within it:
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Завершить вложенную закладку
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Завершите внешнюю закладку:
+
+Complete the outer bookmark:
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Шаг 3: Добавьте дополнительные закладки
-Продолжайте добавлять закладки по мере необходимости. Например, отдельная третья закладка:
+### Step 3: Add Additional Bookmarks
+Continue adding bookmarks as needed. For example, a separate third bookmark:
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### Настройка уровней структуры закладок
-**Обзор**: Организуйте свои закладки, установив их уровни структуры для лучшей навигации в PDF-файле.
+## Configuring Bookmark Outline Levels
+**Overview**: Organize your bookmarks by setting their outline levels for better navigation in the PDF.
 
-#### Шаг 1: Настройка параметров сохранения PDF
+### Step 1: Set Up PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Этот фрагмент кода инициализирует параметры, которые вы будете использовать для сохранения документа в формате PDF с организованными закладками.
+Этот фрагмент кода инициализирует параметры, которые вы будете использовать при сохранении документа в PDF с упорядоченными закладками.
 
-#### Шаг 2: Добавьте уровни структуры
-Назначьте уровни каждой закладке, которые определят их иерархию:
+### Step 2: Add Outline Levels
+Assign levels to each bookmark, which will determine their hierarchy:
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Вложена в Закладку 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
 
-#### Шаг 3: Сохраните документ.
-Наконец, сохраните документ в формате PDF со следующими настройками:
+### Step 3: Save the Document
+Finally, save your document as a PDF with these settings:
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
 
-### Советы по устранению неполадок
-- **Отсутствующие закладки**: Убедитесь, что каждый `startBookmark` имеет соответствующий `endBookmark`.
-- **Неправильные уровни**: Проверьте иерархию, проверив родительско-дочерние отношения в вашем коде.
+## Troubleshooting Tips
+- **Missing Bookmarks**: Ensure each `startBookmark` has a corresponding `endBookmark`.  
+- **Incorrect Levels**: Verify the hierarchy by checking parent‑child relationships in your code.  
+- **pdf bookmark troubleshooting**: If bookmarks don’t appear in the generated PDF, double‑check that `PdfSaveOptions` is correctly passed to `doc.save()`.
 
-## Практические применения
-Вот несколько сценариев, где вы можете применить эти знания:
-1. **Юридические документы**: Организуйте разделы и подразделы для удобства поиска.
-2. **Отчеты**: Используйте вложенные закладки для навигации по сложным структурам данных.
-3. **Образовательный материал**: Эффективно структурируйте главы, подглавы и ключевые моменты.
+## Practical Applications
+Here are some scenarios where you can apply this knowledge:
+1. **Legal Documents** – Organize sections and subsections for quick reference.  
+2. **Reports** – Use nested bookmarks to navigate complex data structures.  
+3. **Educational Material** – Structure chapters, sub‑chapters, and key points efficiently.  
 
-## Соображения производительности
-- Оптимизируйте размер документа, удалив ненужное содержимое перед сохранением.
-- Эффективно управляйте использованием памяти при работе с большими документами.
+## Performance Considerations
+- Optimize document size by removing unnecessary content before saving.  
+- Manage memory usage effectively when handling large documents, especially for **word to pdf bookmarks** conversions.
 
-## Заключение
-Теперь вы узнали, как эффективно реализовать уровни структуры закладок с помощью Aspose.Words для Java. Этот навык значительно улучшит навигацию по вашим PDF-файлам, сделав их более удобными для пользователя и профессиональными.
+## Conclusion
+You've now learned **how to add bookmarks** and configure outline levels using Aspose.Words for Java. This skill dramatically improves the navigability of your PDFs, making them more user‑friendly and professional.
 
-**Следующие шаги**: Поэкспериментируйте с различными структурами документов или интегрируйте эту функцию в более крупное приложение, чтобы увидеть ее преимущества в действии.
+**Next Steps**: Experiment with different document structures or integrate this functionality into a larger application to see its benefits in action.
 
-## Раздел часто задаваемых вопросов
-1. **Как установить Aspose.Words для Java?**
-   - Включите его как зависимость через Maven или Gradle, затем настройте файл лицензии.
-2. **Могу ли я использовать закладки без уровней структуры?**
-   - Да, но использование уровней структуры улучшает навигацию в PDF-файлах.
-3. **Каковы ограничения на вложенность закладок?**
-   - Строгих ограничений нет, но примите во внимание читабельность и структуру для пользователей.
-4. **Как Aspose обрабатывает большие документы?**
-   - Он эффективно управляет ресурсами, хотя для очень больших файлов рекомендуется оптимизация.
-5. **Можно ли изменить закладки после сохранения PDF-файла?**
-   - Да, с помощью Aspose.PDF для Java можно редактировать закладки после конвертации.
+## FAQ Section
+1. **How do I install Aspose.Words for Java?**  
+   - Include it as a dependency via Maven or Gradle, then set up your license file.  
+2. **Can I use bookmarks without outline levels?**  
+   - Yes, but using outline levels improves navigation in PDFs.  
+3. **What are the limits on bookmark nesting?**  
+   - There’s no strict limit, but consider readability and structure for users.  
+4. **How does Aspose handle large documents?**  
+   - It efficiently manages resources, though optimization is recommended for very large files.  
+5. **Can I modify bookmarks after saving the PDF?**  
+   - Yes, using Aspose.PDF for Java to edit bookmarks post‑conversion.  
 
-## Ресурсы
-- [Документация Aspose.Words](https://reference.aspose.com/words/java/)
-- [Загрузить последние релизы](https://releases.aspose.com/words/java/)
-- [Купить лицензию](https://purchase.aspose.com/buy)
-- [Бесплатная пробная версия](https://releases.aspose.com/words/java/)
-- [Заявление на временную лицензию](https://purchase.aspose.com/temporary-license/)
-- [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
+**Additional Q&A**
+- **Q: Does this method also work for Word to PDF bookmarks?**  
+  A: Absolutely – the same bookmark creation logic applies when you convert Word to PDF.  
+- **Q: How can I generate PDF with bookmarks in a single line of code?**  
+  A: By chaining `DocumentBuilder` calls and passing configured `PdfSaveOptions` to `doc.save()`.  
 
+## Resources
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Latest Releases](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/words/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2026-03-17  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
