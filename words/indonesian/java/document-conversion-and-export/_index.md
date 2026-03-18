@@ -87,6 +87,18 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
+### [Simpan Word sebagai Teks – Ekspor Persamaan ke LaTeX dengan Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Pelajari cara menyimpan dokumen Word sebagai file teks dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
+
+### [Mengonversi DOCX ke Markdown – Panduan Java dengan Ekstraksi Gambar](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Pelajari cara mengonversi file DOCX menjadi Markdown di Java, termasuk mengekstrak gambar secara otomatis.
+
+### [Membuat PDF UA di Java – mengonversi DOCX ke PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Pelajari cara membuat PDF UA di Java dengan mengonversi file DOCX ke PDF menggunakan Aspose.Words.
+
+### [Ekspor Word ke Markdown – Panduan Java menggunakan Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Pelajari cara mengekspor dokumen Word ke format Markdown menggunakan Aspose.Words dalam panduan Java langkah demi langkah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

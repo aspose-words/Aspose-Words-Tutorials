@@ -29,7 +29,7 @@ Renderize documentos sem esforço com os tutoriais do Aspose.Words para Java sob
 ## Tutoriais de renderização de documentos
 ### [Renderização de Documentos Mestre ](./master-document-rendering/)
 Aprenda a renderizar documentos com o Aspose.Words para Java! Tutorial passo a passo, código-fonte incluído. Aprimore aplicativos com processamento de documentos integrado.
-### [Renderizando páginas de documentos como imagens](./rendering-document-pages-images/)
+### [Renderando páginas de documentos como imagens](./rendering-document-pages-images/)
 Aprenda a renderizar páginas de documentos como imagens usando o Aspose.Words para Java. Guia passo a passo com exemplos de código para conversão eficiente de documentos.
 ### [Geração de miniaturas de documentos](./document-thumbnail-generation/)
 Aprenda a gerar miniaturas de documentos usando o Aspose.Words para Java. Aprimore a experiência do usuário com pré-visualizações visuais.
@@ -39,6 +39,8 @@ Aprenda a aprimorar seus documentos com formas e gráficos usando o Aspose.Words
 Descubra como imprimir e renderizar documentos de forma eficiente usando o Aspose.Words para Java. Aprenda passo a passo com exemplos de código-fonte.
 ### [Renderizando documentos para HTML](./rendering-documents-html/)
 Aprenda a converter documentos para HTML sem esforço com o Aspose.Words para Java. Guia passo a passo para uma conversão eficiente de documentos.
+### [Tutorial de Callback de Aviso do Aspose – Detectar e Rastrear Fontes Ausentes](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Aprenda a usar o callback de avisos do Aspose.Words para Java para detectar e rastrear fontes ausentes durante a renderização de documentos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

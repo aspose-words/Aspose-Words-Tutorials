@@ -86,6 +86,18 @@ weight: 22
 ### [Μορφοποίηση Πινάκων και Στυλ Πινάκων στο Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words for Java. Εξερευνήστε οδηγούς βήμα‑βήμα με κώδικα προέλευσης για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
 
+### [Αποθήκευση Word ως κείμενο – Εξαγωγή εξισώσεων σε LaTeX με Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε αρχείο κειμένου και να εξάγετε μαθηματικές εξισώσεις σε μορφή LaTeX.
+
+### [Μετατροπή DOCX σε Markdown – Οδηγός Java με Εξαγωγή Εικόνων](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown σε Java, εξάγοντας ταυτόχρονα τις εικόνες τους.
+
+### [Δημιουργία PDF UA σε Java – μετατροπή DOCX σε PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Μάθετε πώς να δημιουργήσετε PDF UA από αρχεία DOCX χρησιμοποιώντας Aspose.Words for Java, με παραδείγματα κώδικα.
+
+### [Εξαγωγή Word σε Markdown – Οδηγός Java με χρήση Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown σε Java χρησιμοποιώντας το Aspose.Words.
+
 ## Συχνές Ερωτήσεις
 
 **Π: Πώς προσθέτω υδατογράφημα σε υπάρχον PDF χρησιμοποιώντας το Aspose.Words;**  

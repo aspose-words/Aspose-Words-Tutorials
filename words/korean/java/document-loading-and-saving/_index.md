@@ -97,6 +97,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words for Java로 문서를 RTF 형식으로 저장](./saving-documents-as-rtf-format/)
 ### [Aspose.Words for Java로 문서를 텍스트 파일로 저장](./saving-documents-as-text-files/)
 ### [Aspose.Words for Java에서 문서 형식 판별](./determining-document-format/)
+### [Aspose.Words for Java를 사용하여 docx 복구 – 복구 모드 활성화](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
 
 ## 자주 묻는 질문
 
