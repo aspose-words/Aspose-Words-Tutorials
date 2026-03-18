@@ -45,6 +45,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Cài đặt phông chữ Phiên bản mặc định](./font-settings-default-instance/) | Trong hướng dẫn này, hãy tìm hiểu cách cấu hình cài đặt phông chữ mặc định trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Nhận danh sách các phông chữ có sẵn](./get-list-of-available-fonts/) | Khám phá cách lấy danh sách phông chữ khả dụng bằng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết này. Nâng cao kỹ năng quản lý phông chữ của bạn. |
 | [Nhận thông báo về phông chữ](./receive-notifications-of-fonts/) | Tìm hiểu cách nhận thông báo về phông chữ bị thiếu hoặc thay thế khi sử dụng Aspose.Words cho .NET. |
+| [Cách phát hiện phông chữ trong C# – Sử dụng Callback với Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Tìm hiểu cách phát hiện các phông chữ trong tài liệu Word bằng C# và callback trong Aspose.Words. |
 | [Nhận thông báo cảnh báo](./receive-warning-notification/) Tìm hiểu cách nhận thông báo cảnh báo khi sử dụng Aspose.Words cho .NET và quản lý mọi sự cố hoặc cảnh báo trong tài liệu của bạn. |
 | [Nguồn Phông chữ Steam Ví dụ](./resource-steam-font-source-example/) | Tìm hiểu cách sử dụng Resource Stream Font Source để tải phông chữ tùy chỉnh vào Aspose.Words cho .NET. |
 | [Nhận thay thế không có hậu tố](./get-substitution-without-suffixes/) | Trong hướng dẫn này, hãy tìm hiểu cách ghi đè không có hậu tố trong tài liệu Word bằng Aspose.Words cho .NET. |
