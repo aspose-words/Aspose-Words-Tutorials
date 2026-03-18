@@ -84,8 +84,20 @@ Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Vi
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional‑looking documents.
 
+### [Convert DOCX to Markdown – Java Guide with Image Extraction](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Convert DOCX to Markdown in Java, extracting images and preserving formatting. Step‑by‑step guide with sample code.
+
+### [Export Word to Markdown – Java Guide using Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Learn how to export Word documents to Markdown format using Aspose.Words for Java, preserving text and images.
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [Save Word as Text – Export Equations to LaTeX with Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Learn how to save a Word document as plain text and export embedded equations to LaTeX using Aspose.Words for Java.
+
+### [create pdf ua in Java – convert docx to pdf](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Learn how to convert DOCX to PDF in Java with Aspose.Words, supporting Ukrainian (UA) characters and proper formatting.
 
 ## Frequently Asked Questions
 

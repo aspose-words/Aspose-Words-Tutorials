@@ -39,6 +39,8 @@ Pelajari cara menyempurnakan dokumen Anda dengan bentuk dan grafik menggunakan A
 Temukan pencetakan dan rendering dokumen yang efisien menggunakan Aspose.Words untuk Java. Pelajari langkah demi langkah dengan contoh kode sumber.
 ### [Merender Dokumen ke HTML](./rendering-documents-html/)
 Pelajari cara mengubah dokumen menjadi HTML dengan mudah menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah untuk konversi dokumen yang efisien.
+### [Tutorial Callback Peringatan Aspose – Deteksi dan Lacak Font yang Hilang](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Pelajari cara menggunakan callback peringatan Aspose untuk mendeteksi dan melacak font yang hilang selama proses rendering dokumen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -130,6 +130,9 @@ Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words f
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
 
+### [Cách khôi phục docx với Aspose.Words – Bật chế độ khôi phục](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Học cách bật chế độ khôi phục để phục hồi tài liệu docx bị hỏng bằng Aspose.Words.
+
 ## Câu Hỏi Thường Gặp
 
 **Hỏi:** Làm thế nào để **lưu hình ảnh từ Word** một cách lập trình?  

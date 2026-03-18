@@ -94,6 +94,9 @@ Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie 
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
 
+### [Wie man DOCX mit Aspose.Words wiederherstellt – Wiederherstellungsmodus aktivieren](./how-to-recover-docx-with-aspose-words-enable-recovery-mode/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words wiederherstellen, indem Sie den Wiederherstellungsmodus aktivieren.
+
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.
 

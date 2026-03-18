@@ -80,25 +80,20 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 在 Aspose.Words for Java 中為文件使用浮水印。了解如何在 Aspose.Words for Java 中為文件加入浮水印。自訂文字與圖片浮水印，打造專業外觀的文件。
 
+### [在 Java 中建立 PDF UA – 將 DOCX 轉換為 PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+說明如何在 Java 中使用 Aspose.Words 產生符合 PDF/UA 標準的 PDF，並將 DOCX 檔案轉換為 PDF。
+
+### [將 DOCX 轉換為 Markdown – Java 指南（含圖像提取）](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+說明如何使用 Aspose.Words for Java 將 DOCX 轉換為 Markdown，並提取文件中的圖像。
+
+### [將 Word 匯出為 Markdown – 使用 Aspose.Words 的 Java 指南](./export-word-to-markdown-java-guide-using-aspose-words/)
+說明如何使用 Aspose.Words for Java 將 Word 文件轉換為 Markdown，並示範圖像提取與格式保持。
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 在 Aspose.Words for Java 中格式化表格與表格樣式。學習如何在 Aspose.Words for Java 中格式化表格與套用表格樣式。透過逐步指南與原始碼，實作有效的表格格式化。提升文件版面配置與 Aspose.Words。
 
-## 常見問題
-
-**Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
-A: 載入文件，使用 `DocumentBuilder.insertWatermarkText` 或 `insertWatermarkImage`，然後儲存為 PDF。
-
-**Q: Can I convert a DOCX file to PDF without losing complex layouts?**  
-A: 可以。Aspose.Words 在轉換過程中保留版面配置、字型與圖形。
-
-**Q: How do I generate custom barcode labels in Java?**  
-A: 使用 Aspose.Words 提供的條碼 API，指定條碼類型，並以影像或形狀方式插入。
-
-**Q: What is the best way to format tables consistently?**  
-A: 透過 `Table.setStyleIdentifier` 方法套用 TableStyle，或使用內建的樣式庫。
-
-**Q: Is a license required for commercial use?**  
-A: 是，需要商業授權才能在正式環境部署；亦提供免費試用供評估。
+### [將 Word 儲存為文字 – 使用 Aspose.Words 匯出方程式為 LaTeX](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+示篯如何將 Word 文件儲存為純文字，同時將文件中的方程式匯出為 LaTeX 代碼。
 
 ---
 

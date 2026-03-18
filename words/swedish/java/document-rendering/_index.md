@@ -39,6 +39,8 @@ Lär dig hur du kan förbättra dina dokument med former och grafik med Aspose.W
 Upptäck effektiv dokumentutskrift och rendering med Aspose.Words för Java. Lär dig steg för steg med källkodsexempel.
 ### [Rendera dokument till HTML](./rendering-documents-html/)
 Lär dig hur du enkelt renderar dokument till HTML med Aspose.Words för Java. Steg-för-steg-guide för effektiv dokumentkonvertering.
+### [Aspose varningsåteruppringning – upptäck och spåra saknade teckensnitt](./aspose-warning-callback-tutorial-detect-and-track-missing-fo/)
+Lär dig hur du använder varningsåteruppringning för att upptäcka och spåra saknade teckensnitt i dokument med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

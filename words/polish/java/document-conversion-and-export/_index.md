@@ -87,6 +87,18 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 ### [Formatowanie tabel i stylów tabel w Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
+### [Zapisz dokument Word jako tekst – eksportuj równania do LaTeX przy użyciu Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Dowiedz się, jak zapisać dokument Word jako plik tekstowy i wyeksportować równania do formatu LaTeX przy użyciu Aspose.Words.
+
+### [Konwertuj DOCX do Markdown – przewodnik Java z wyodrębnianiem obrazów](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Dowiedz się, jak przekształcić pliki DOCX na format Markdown w Javie, zachowując obrazy i ich wyodrębnianie.
+
+### [Eksportuj Word do Markdown – przewodnik Java przy użyciu Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Dowiedz się, jak wyeksportować dokumenty Word do formatu Markdown w Javie przy użyciu Aspose.Words. Przewodnik krok po kroku z przykładami kodu.
+
+### [Utwórz PDF UA w Javie – konwertuj DOCX do PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Dowiedz się, jak utworzyć dokument PDF/UA z pliku DOCX przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  

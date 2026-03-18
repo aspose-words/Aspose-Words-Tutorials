@@ -94,6 +94,18 @@ Naučte se přidávat vodoznaky do dokumentů v Aspose.Words for Java. Přizpůs
 ### [Formátování tabulek a stylů tabulek v Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java. Prozkoumejte krok‑za‑krokem průvodce se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení vašich dokumentů s Aspose.Words.
 
+### [Uložení Wordu jako text – Export rovnic do LaTeXu pomocí Aspose.Words](./save-word-as-text-export-equations-to-latex-with-aspose-word/)
+Učte se, jak převést dokument Word na čistý text a exportovat rovnice do formátu LaTeX pomocí Aspose.Words.
+
+### [Převod DOCX na Markdown – Průvodce pro Javu s extrakcí obrázků](./convert-docx-to-markdown-java-guide-with-image-extraction/)
+Naučte se převést soubory DOCX do formátu Markdown v Javě a extrahovat vložené obrázky pro další zpracování.
+
+### [Export Word do Markdown – průvodce v Javě pomocí Aspose.Words](./export-word-to-markdown-java-guide-using-aspose-words/)
+Naučte se exportovat dokumenty Word do formátu Markdown v Javě pomocí Aspose.Words.
+
+### [Vytvořit PDF UA v Javě – převod DOCX do PDF](./create-pdf-ua-in-java-convert-docx-to-pdf/)
+Naučte se, jak v Javě vytvořit PDF UA a převést soubor DOCX do PDF pomocí Aspose.Words.
+
 ## Často kladené otázky
 
 **Q: Jak přidám vodoznak do existujícího PDF pomocí Aspose.Words?**  
