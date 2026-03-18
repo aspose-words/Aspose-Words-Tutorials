@@ -48,7 +48,7 @@
 | [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 | [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
-
+- [วิธีตรวจจับแบบอักษรใน C# – ใช้ Callback กับ Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | เรียนรู้วิธีตรวจจับแบบอักษรในเอกสาร Word ด้วย C# โดยใช้ Callback ของ Aspose.Words -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ Whether you want to format text with different fonts, set font substitution rule
 | [Font Settings Default Instance](./font-settings-default-instance/) | In this tutorial, learn how to configure default font settings in a Word document with Aspose.Words for .NET. |
 | [Get List Of Available Fonts](./get-list-of-available-fonts/) | Discover how to get a list of available fonts using Aspose.Words for .NET in this detailed step-by-step tutorial. Boost your font management skills. |
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |
+| [How to Detect Fonts in C# – Use Callback with Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Learn how to detect fonts using a callback in Aspose.Words for .NET with C# in this step-by-step tutorial. |
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
 | [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |

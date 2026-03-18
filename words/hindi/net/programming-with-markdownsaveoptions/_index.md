@@ -32,6 +32,7 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./how-to-save-markdown-from-docx-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [DOCX से Markdown निर्यात कैसे करें – पूरी गाइड](./how-to-export-markdown-from-docx-complete-guide/) | DOCX फ़ाइल को Markdown में निर्यात करने की विस्तृत चरण‑दर‑चरण गाइड। |
+| [Word को Markdown में बदलें और DOCX से छवियों को निकालें (C#)](./convert-word-to-markdown-extract-images-from-docx-c/) | DOCX फ़ाइल से छवियों को निकालते हुए Word को Markdown में बदलने की विस्तृत गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

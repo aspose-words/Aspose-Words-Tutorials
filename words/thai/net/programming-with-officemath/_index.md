@@ -21,7 +21,7 @@
 | ชื่อเรื่อง | คำอธิบาย |
 -
 - [สมการคณิตศาสตร์](./math-equations/) | เรียนรู้วิธีการกำหนดค่าสมการทางคณิตศาสตร์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่าง คำถามที่พบบ่อย และอื่นๆ |
-
+- [บันทึก docx เป็น txt – คู่มือ C# ฉบับสมบูรณ์สำหรับส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-c-guide-to-export-word-math-as-lat/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt และส่งออกสมการ Word เป็น LaTeX ด้วย C# อย่างละเอียด |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

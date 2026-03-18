@@ -43,12 +43,12 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Lettertype-instellingen met laadopties](./font-settings-with-load-options/) Leer hoe u lettertype-instellingen beheert met laadopties in Aspose.Words voor .NET. Stapsgewijze handleiding voor ontwikkelaars om een consistente lettertypeweergave in Word-documenten te garanderen.|
 | [Map met lettertypen instellen](./set-fonts-folder/) | Leer hoe u een aangepaste lettertypemap instelt in Aspose.Words voor .NET, zodat uw Word-documenten correct worden weergegeven en er geen lettertypen ontbreken. |
 | [Lettertype-instellingen Standaardinstantie](./font-settings-default-instance/) | In deze tutorial leert u hoe u standaardlettertype-instellingen in een Word-document kunt configureren met Aspose.Words voor .NET. |
-| [Lijst met beschikbare lettertypen ophalen](./get-list-of-available-fonts/) Ontdek hoe je een lijst met beschikbare lettertypen kunt verkrijgen met Aspose.Words voor .NET in deze gedetailleerde stapsgewijze tutorial. Verbeter je vaardigheden in lettertypebeheer.
+| [Lijst met beschikbare lettertypen ophalen](./get-list-of-available-fonts/) Ontdek hoe je een lijst met beschikbare lettertypen kunt verkrijgen met Aspose.Words voor .NET in deze gedetailleerde stapsgewijze tutorial. Verbeter je vaardigheden in lettertypebeheer. |
 | [Ontvang meldingen over lettertypen](./receive-notifications-of-fonts/) | Leer hoe u meldingen over ontbrekende of vervangen lettertypen ontvangt wanneer u Aspose.Words voor .NET gebruikt. |
 | [Waarschuwingsmelding ontvangen](./receive-warning-notification/) Leer hoe u een waarschuwingsmelding ontvangt wanneer u Aspose.Words voor .NET gebruikt en hoe u problemen of waarschuwingen in uw documenten beheert. |
 | [Bron van Steam-lettertypebronvoorbeeld](./resource-steam-font-source-example/) | Leer hoe u de Resource Stream Font Source gebruikt om aangepaste lettertypen in Aspose.Words voor .NET te laden. |
 | [Substitutie verkrijgen zonder achtervoegsels](./get-substitution-without-suffixes/) | In deze tutorial leert u hoe u achtervoegselloze overschrijvingen in een Word-document kunt gebruiken met Aspose.Words voor .NET. |
-
+| [Hoe lettertypen detecteren in C# – Callback gebruiken met Aspose.Words](./how-to-detect-fonts-in-c-use-callback-with-aspose-words/) | Leer hoe u lettertypen detecteert in C# met een callback in Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
