@@ -99,6 +99,21 @@ weight: 22
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words for Java. Исследуйте пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет ваших документов с Aspose.Words.
 
+### [Конвертация docx в markdown с Aspose.Words — Полное руководство](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words для Java. Пошаговое руководство с примерами кода.
+
+### [Как сохранить DOCX как текст — Полное руководство по конвертации DOCX в TXT с экспортом формул](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Узнайте, как преобразовать файлы DOCX в текстовый формат TXT, включая экспорт математических формул, с помощью Aspose.Words для Java.
+
+### [Создание PDF из Word – пошаговое руководство для Java‑разработчиков](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Узнайте, как с помощью Aspose.Words for Java преобразовать документ Word в PDF шаг за шагом.
+
+### [Создание доступного PDF из Word — Полное руководство](./create-accessible-pdf-from-word-full-guide/)
+Узнайте, как с помощью Aspose.Words for Java преобразовать документ Word в PDF, соответствующий стандартам доступности (PDF/UA).
+
+### [Конвертация docx в markdown в C# — Полное руководство](./convert-docx-to-markdown-in-c-complete-guide/)
+Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words для C#. Пошаговое руководство с примерами кода.
+
 ## Часто задаваемые вопросы
 
 **Q: Как добавить водяной знак в существующий PDF с помощью Aspose.Words?**  

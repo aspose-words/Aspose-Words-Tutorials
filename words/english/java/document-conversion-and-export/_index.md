@@ -78,7 +78,6 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
@@ -86,6 +85,21 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [Convert docx to markdown with Aspose.Words – Complete Guide](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Learn how to convert DOCX files to Markdown format using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [Convert docx to markdown in C# – Complete Guide](./convert-docx-to-markdown-in-c-complete-guide/)
+Learn how to convert DOCX files to Markdown format using Aspose.Words for C# in a comprehensive step‑by‑step guide.
+
+### [Create PDF from Word – Step‑by‑Step Guide for Java Developers](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Learn how to generate PDF files from Word documents using Aspose.Words for Java in a clear step‑by‑step guide.
+
+### [Create Accessible PDF from Word – Full Guide](./create-accessible-pdf-from-word-full-guide/)
+Learn how to generate accessible PDF files from Word documents using Aspose.Words for Java, covering tagging, structure, and compliance.
+
+### [How to Save DOCX as Text – Complete Guide to Convert DOCX to TXT with Math Export](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Learn how to convert DOCX files to plain text, preserving mathematical equations, using Aspose.Words for Java in this comprehensive guide.
 
 ## Frequently Asked Questions
 

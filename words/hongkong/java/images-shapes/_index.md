@@ -34,6 +34,9 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Words for Java 將文件頁面渲染為縮圖](./render-word-pages-thumbnails-aspose-java/)
 了解如何使用 Aspose.Words for Java 產生 Word 文件的高品質縮圖和自訂大小的點陣圖。立即增強您的文件處理能力。
 
+### [如何在 Aspose.Words 中為形狀設定陰影 – 完整指南](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+了解如何在 Aspose.Words for Java 中為形狀添加陰影效果，並自訂其屬性以提升文件的視覺效果。
+
 ## 其他資源
 
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)

@@ -34,6 +34,9 @@
 ### [Πώς να αποδώσετε σελίδες εγγράφων ως μικρογραφίες χρησιμοποιώντας το Aspose.Words για Java](./render-word-pages-thumbnails-aspose-java/)
 Μάθετε πώς να δημιουργείτε μικρογραφίες υψηλής ποιότητας και bitmap προσαρμοσμένου μεγέθους για έγγραφα Word με το Aspose.Words για Java. Βελτιώστε τις δυνατότητες χειρισμού εγγράφων σας σήμερα.
 
+### [Πώς να ορίσετε σκιά σε σχήμα στο Aspose.Words – Πλήρης οδηγός](./how-to-set-shadow-on-a-shape-in-aspose-words-complete-guide/)
+Μάθετε πώς να προσθέσετε σκιά σε σχήματα με το Aspose.Words για Java, βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)

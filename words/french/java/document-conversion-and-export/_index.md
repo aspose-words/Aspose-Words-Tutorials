@@ -89,6 +89,21 @@ Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java.
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
 
+### [Convertir docx en markdown avec Aspose.Words – Guide complet](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words, étape par étape, pour une conversion fiable et personnalisable.
+
+### [Convertir docx en markdown en C# – Guide complet](./convert-docx-to-markdown-in-c-complete-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown en C# avec Aspose.Words, étape par étape, incluant le code source complet.
+
+### [Créer un PDF à partir de Word – Guide étape par étape pour les développeurs Java](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Apprenez à convertir des documents Word en PDF avec Aspose.Words for Java, étape par étape, incluant le code source complet.
+
+### [Créer un PDF accessible à partir de Word – Guide complet](./create-accessible-pdf-from-word-full-guide/)
+Apprenez à générer des PDF accessibles depuis des documents Word en respectant les normes d’accessibilité, avec Aspose.Words for Java.
+
+### [Comment enregistrer un DOCX en texte – Guide complet pour convertir DOCX en TXT avec exportation des formules](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Apprenez à enregistrer des fichiers DOCX au format texte (TXT) et à exporter les équations mathématiques avec Aspose.Words for Java.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

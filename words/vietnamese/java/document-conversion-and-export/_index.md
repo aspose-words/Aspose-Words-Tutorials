@@ -88,6 +88,21 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu c
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Định dạng bảng và kiểu bảng trong Aspose.Words for Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words for Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
 
+### [Chuyển đổi docx sang markdown với Aspose.Words – Hướng dẫn toàn diện](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java, hướng dẫn chi tiết từng bước.
+
+### [Chuyển đổi docx sang markdown trong C# – Hướng Dẫn Toàn Diện](./convert-docx-to-markdown-in-c-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng C#, bao gồm mã nguồn mẫu và tùy chỉnh.
+
+### [Cách Lưu DOCX dưới dạng Văn bản – Hướng Dẫn Toàn Diện để Chuyển DOCX sang TXT với Xuất Toán Học](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng TXT, bao gồm xuất công thức toán học và giữ nguyên nội dung.
+
+### [Tạo PDF từ Word – Hướng Dẫn Từng Bước cho Các Nhà Phát Triển Java](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words for Java, bao gồm các tùy chọn lưu và tối ưu chất lượng.
+
+### [Tạo PDF Truy cập được từ Word – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-word-full-guide/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập, tuân thủ tiêu chuẩn WCAG, từ tài liệu Word bằng Aspose.Words for Java.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  
