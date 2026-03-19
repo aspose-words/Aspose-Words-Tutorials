@@ -89,6 +89,21 @@ Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Perso
 ### [Formatando Tabelas e Estilos de Tabela no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código‑fonte para formatação eficaz de tabelas. Melhore o layout do seu documento com Aspose.Words.
 
+### [Converter docx para markdown com Aspose.Words – Guia Completo](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Aprenda a converter documentos DOCX para Markdown usando Aspose.Words para Java neste guia completo.
+
+### [Converter docx para markdown em C# – Guia Completo](./convert-docx-to-markdown-in-c-complete-guide/)
+Aprenda a converter documentos DOCX para Markdown usando C# e Aspose.Words neste guia completo passo a passo.
+
+### [Como Salvar DOCX como Texto – Guia Completo para Converter DOCX em TXT com Exportação de Matemática](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Aprenda a salvar documentos DOCX como arquivos de texto simples, incluindo a exportação de equações matemáticas para TXT.
+
+### [Criar PDF a partir de Word – Guia passo a passo para desenvolvedores Java](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Aprenda a gerar arquivos PDF a partir de documentos Word usando Aspose.Words for Java em um tutorial detalhado passo a passo.
+
+### [Criar PDF Acessível a partir de Word – Guia Completo](./create-accessible-pdf-from-word-full-guide/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word, garantindo conformidade com normas de acessibilidade, usando Aspose.Words para Java.
+
 ## Perguntas Frequentes
 
 **Q: Como adiciono uma marca d'água a um PDF existente usando Aspose.Words?**  
@@ -98,7 +113,7 @@ A: Carregue o documento, use `DocumentBuilder.insertWatermarkText` ou `insertWat
 A: Sim. Aspose.Words preserva layout, fontes e gráficos durante a conversão.
 
 **Q: Como gero etiquetas de código de barras personalizadas em Java?**  
-A: Use a API de código de barras fornecida pelo Aspose.Words, especifique o tipo de código de barras e insira‑o como imagem ou forma.
+A: Use a API de código de barras fornecida pelo Aspose.Words, especifique o tipo de código de barras e insira‑lo como imagem ou forma.
 
 **Q: Qual a melhor forma de formatar tabelas de maneira consistente?**  
 A: Aplique um TableStyle via o método `Table.setStyleIdentifier` ou use a galeria de estilos integrada.

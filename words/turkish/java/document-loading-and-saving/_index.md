@@ -130,6 +130,9 @@ Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğin
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
 Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin.
 
+### [docx dosyasını kurtarma – Kurtarma Modunu Etkinleştir ve Uyarıları Oku](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Aspose.Words for Java’da bozuk docx dosyalarını kurtarmak için kurtarma modunu etkinleştirin ve uyarı mesajlarını okuyun.
+
 ## Sıkça Sorulan Sorular
 
 **S:** **save images from word** belgelerini programlı olarak nasıl **kaydederim**?  

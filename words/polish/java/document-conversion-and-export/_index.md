@@ -87,6 +87,21 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 ### [Formatowanie tabel i stylów tabel w Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
+### [Jak zapisać DOCX jako tekst – Kompletny przewodnik konwersji DOCX do TXT z eksportem matematyki](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Dowiedz się, jak konwertować pliki DOCX do zwykłego tekstu przy użyciu Aspose.Words for Java, w tym eksportować równania matematyczne.
+
+### [Konwertuj docx do markdown przy użyciu Aspose.Words – Kompletny przewodnik](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
+
+### [Konwertuj docx do markdown w C# – Kompletny przewodnik](./convert-docx-to-markdown-in-c-complete-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown w języku C# przy użyciu Aspose.Words. Kompletny przewodnik z przykładami kodu.
+
+### [Tworzenie PDF z Worda – przewodnik krok po kroku dla programistów Java](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Dowiedz się, jak w prostych krokach wygenerować plik PDF z dokumentu Word przy użyciu Aspose.Words for Java.
+
+### [Tworzenie dostępnego PDF z Worda – pełny przewodnik](./create-accessible-pdf-from-word-full-guide/)
+Dowiedz się, jak generować pliki PDF spełniające standardy dostępności z dokumentów Word przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  

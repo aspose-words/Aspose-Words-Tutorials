@@ -83,6 +83,21 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 在 Aspose.Words for Java 中格式化表格與表格樣式。學習如何在 Aspose.Words for Java 中格式化表格與套用表格樣式。透過逐步指南與原始碼，實作有效的表格格式化。提升文件版面配置與 Aspose.Words。
 
+### [從 Word 建立 PDF – Java 開發者逐步指南](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+教您如何使用 Aspose.Words for Java 將 Word 文件轉換為 PDF，提供完整的程式碼範例與步驟說明。
+
+### [使用 Aspose.Words 將 docx 轉換為 markdown – 完整指南](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+說明如何使用 Aspose.Words for Java 將 DOCX 檔案轉換為 Markdown 格式，提供完整步驟與範例程式碼。
+
+### [使用 Aspose.Words for C# 將 docx 轉換為 markdown – 完整指南](./convert-docx-to-markdown-in-c-complete-guide/)
+說明如何使用 Aspose.Words for C# 將 DOCX 檔案轉換為 Markdown 格式，提供完整步驟與範例程式碼。
+
+### [如何將 DOCX 儲存為文字 – 完整指南：將 DOCX 轉換為 TXT 並匯出數學](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+在 Aspose.Words for Java 中將 DOCX 另存為純文字檔，並支援數學公式的匯出。
+
+### [從 Word 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-word-full-guide/)
+說明如何使用 Aspose.Words for Java 從 Word 文件生成符合 PDF/UA 標準的可存取 PDF，提供完整步驟與範例程式碼。
+
 ## 常見問題
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  

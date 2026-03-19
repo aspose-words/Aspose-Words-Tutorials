@@ -27,7 +27,7 @@ Aspose.Words para Java oferece uma variedade de tutoriais para renderização de
 Renderize documentos sem esforço com os tutoriais do Aspose.Words para Java sobre renderização de documentos. Esses guias oferecem uma exploração abrangente das opções de renderização, permitindo converter documentos do Word para diferentes formatos, preservando seu layout e design. Aprenda a renderizar documentos em lotes, personalizar as configurações de saída e otimizar o desempenho da renderização. O Aspose.Words para Java permite que você crie resultados visualmente impressionantes e gerencie tarefas de processamento de texto e documentos com eficiência. Aprimore suas habilidades de renderização de documentos e descubra novas possibilidades com o Aspose.Words para Java.
 
 ## Tutoriais de renderização de documentos
-### [Renderização de Documentos Mestre ](./master-document-rendering/)
+### [Renderização de Documentos Mestre](./master-document-rendering/)
 Aprenda a renderizar documentos com o Aspose.Words para Java! Tutorial passo a passo, código-fonte incluído. Aprimore aplicativos com processamento de documentos integrado.
 ### [Renderizando páginas de documentos como imagens](./rendering-document-pages-images/)
 Aprenda a renderizar páginas de documentos como imagens usando o Aspose.Words para Java. Guia passo a passo com exemplos de código para conversão eficiente de documentos.
@@ -39,6 +39,8 @@ Aprenda a aprimorar seus documentos com formas e gráficos usando o Aspose.Words
 Descubra como imprimir e renderizar documentos de forma eficiente usando o Aspose.Words para Java. Aprenda passo a passo com exemplos de código-fonte.
 ### [Renderizando documentos para HTML](./rendering-documents-html/)
 Aprenda a converter documentos para HTML sem esforço com o Aspose.Words para Java. Guia passo a passo para uma conversão eficiente de documentos.
+### [Como Capturar Avisos – Detectar Fontes Ausentes no Aspose.Words](./how-to-capture-warnings-detect-missing-fonts-in-aspose-words/)
+Aprenda a capturar avisos e detectar fontes ausentes ao processar documentos com Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

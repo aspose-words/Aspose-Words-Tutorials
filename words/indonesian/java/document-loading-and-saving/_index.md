@@ -132,6 +132,9 @@ Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikas
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
 
+### [Cara memulihkan docx – Aktifkan Mode Pemulihan & Baca Peringatan](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Panduan memulihkan file DOCX dengan mengaktifkan mode pemulihan dan meninjau peringatan untuk menghindari kehilangan data.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

@@ -114,6 +114,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Determinando el formato de documento en Aspose.Words for Java](./determining-document-format/)
 
+### [Cómo recuperar docx – Habilitar modo de recuperación y leer advertencias](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

@@ -66,25 +66,17 @@ További információkért tekintsd meg az [Aspose.Words for Java API Documentat
 
 ## Dokumentumkonverzió és Export Bemutatók
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Egyedi vonalkód címkék generálása az Aspose.Words for Java‑val. Tanuld meg, hogyan hozhatsz létre személyre szabott vonalkód megoldásokat az Aspose.Words for Java segítségével ebben a lépésről‑lépésre útmutatóban.
-
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generáláshoz. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
-
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-Tanuld meg, hogyan hozz létre és testre szabj diagramokat az Aspose.Words for Java‑ban. Fedezd fel a diagramtípusokat, formázást és tengelybeállításokat az adatok vizualizálásához.
-
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-Használd ki a matematikai egyenletek erejét a dokumentumokban az Aspose.Words for Java‑val. Tanuld meg, hogyan manipulálj és jeleníts meg Office Math objektumokat könnyedén.
-
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Használd ki a dokumentumalakzatok erejét az Aspose.Words for Java‑ban. Tanuld meg, hogyan hozz létre vizuálisan vonzó dokumentumokat lépésről‑lépésre példákkal.
-
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑val. Testreszabhatod a szöveges és képes vízjeleket professzionális megjelenésű dokumentumokhoz.
-
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
+### [DOCX konvertálása Markdown formátumba az Aspose.Words‑al – Teljes útmutató](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+### [DOCX konvertálása Markdown formátumba C#‑ban – Teljes útmutató](./convert-docx-to-markdown-in-c-complete-guide/)
+### [Hogyan mentse a DOCX-et szövegként – Teljes útmutató a DOCX TXT‑re konvertálásához matematikai exporttal](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+### [PDF létrehozása Word‑ből – Lépésről‑lépésre útmutató Java fejlesztőknek](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+### [Akadálymentes PDF létrehozása Word‑ből – Teljes útmutató](./create-accessible-pdf-from-word-full-guide/)
 
 ## Gyakran Ismételt Kérdések
 

@@ -68,6 +68,9 @@ weight: 22
 ### [Δημιουργία Προσαρμοσμένων Ετικετών Barcode στο Aspose.Words for Java](./generating-custom-barcode-labels/)
 Δημιουργήστε Προσαρμοσμένες Ετικέτες Barcode στο Aspose.Words for Java. Μάθετε πώς να δημιουργείτε εξατομικευμένες λύσεις barcode χρησιμοποιώντας το Aspose.Words for Java σε αυτόν τον οδηγό βήμα‑βήμα.
 
+### [Δημιουργία PDF από Word – Οδηγός βήμα‑βήμα για προγραμματιστές Java](./create-pdf-from-word-step-by-step-guide-for-java-developers/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF με Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
 ### [Χρήση Δημιουργίας Barcode στο Aspose.Words for Java](./using-barcode-generation/)
 Μάθετε πώς να δημιουργείτε προσαρμοσμένα barcode σε Java χρησιμοποιώντας το Aspose.Words for Java. Οδηγός βήμα‑βήμα με κώδικα προέλευσης για δημιουργία barcode. Ενισχύστε την αυτοματοποίηση εγγράφων με το Aspose.Words.
 
@@ -85,6 +88,18 @@ weight: 22
 
 ### [Μορφοποίηση Πινάκων και Στυλ Πινάκων στο Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words for Java. Εξερευνήστε οδηγούς βήμα‑βήμα με κώδικα προέλευσης για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
+
+### [Μετατροπή docx σε markdown με Aspose.Words – Πλήρης Οδηγός](./convert-docx-to-markdown-with-aspose-words-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Μετατροπή docx σε markdown σε C# – Πλήρης Οδηγός](./convert-docx-to-markdown-in-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας το Aspose.Words for C#, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Πώς να αποθηκεύσετε DOCX ως κείμενο – Πλήρης οδηγός μετατροπής DOCX σε TXT με εξαγωγή μαθηματικών](./how-to-save-docx-as-text-complete-guide-to-convert-docx-to-t/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε αρχείο κειμένου TXT, διατηρώντας εξαγωγή μαθηματικών τύπων, χρησιμοποιώντας Aspose.Words for Java.
+
+### [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-full-guide/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας το Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ## Συχνές Ερωτήσεις
 

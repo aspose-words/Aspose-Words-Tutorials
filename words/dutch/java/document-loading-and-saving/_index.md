@@ -94,6 +94,9 @@ Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tek
 ### [Tekstbestanden laden met Aspose.Words for Java](./loading-text-files/)
 Ontgrendel de kracht van Aspose.Words for Java. Leer tekstdocumenten te laden, lijsten te beheren, spaties te behandelen en tekstrichting te controleren.
 
+### [Hoe een docx te herstellen – Herstelmodus inschakelen en waarschuwingen lezen](./how-to-recover-docx-enable-recovery-mode-read-warnings/)
+Leer hoe je docx-bestanden kunt herstellen door herstelmodus in te schakelen en waarschuwingen te lezen met Aspose.Words for Java.
+
 ### [Geavanceerde opslaanopties met Aspose.Words for Java](./advance-saving-options/)
 Leer geavanceerde documentmanipulatie met Aspose.Words for Java. Versleutel, behandel metafiles en meer. Jouw Word‑documenten, op jouw manier.
 
