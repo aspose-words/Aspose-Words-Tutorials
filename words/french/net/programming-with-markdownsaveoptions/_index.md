@@ -36,17 +36,19 @@ Apprenez à créer des PDF accessibles et à convertir des documents Word en Mar
 
 ### [Convertir docx en markdown – Guide étape par étape C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
-Apprenez à convertir des fichiers DOCX en Markdown avec un guide complet étape par étape en C#.
+### [Enregistrer docx en markdown – Guide étape par étape C#](./save-docx-as-markdown-step-by-step-c-tutorial/)
 
 ### [Enregistrer docx en markdown – Guide complet C# avec équations LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-
-Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les équations LaTeX avec Aspose.Words pour .NET.
 
 ### [Comment exporter Markdown depuis Word – Guide complet C#](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [Comment enregistrer le Markdown depuis DOCX – Guide étape par étape](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
+
+### [Convertir Word en Markdown avec Aspose.Words – Guide complet C#](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+
+Apprenez à convertir des documents Word en Markdown avec Aspose.Words grâce à un guide complet en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

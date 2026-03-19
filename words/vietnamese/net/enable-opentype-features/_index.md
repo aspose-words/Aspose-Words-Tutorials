@@ -21,6 +21,7 @@ Tìm hiểu cách bật các tính năng OpenType trong tài liệu Word của b
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Tính năng loại mở](./open-type-features/) | Tìm hiểu cách bật tính năng OpenType trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
+| [Tạo tài liệu Word với phông chữ biến đổi – Hướng dẫn](./create-word-document-with-variable-font-guide/) | Hướng dẫn cách tạo tài liệu Word sử dụng phông chữ biến đổi bằng Aspose.Words cho .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

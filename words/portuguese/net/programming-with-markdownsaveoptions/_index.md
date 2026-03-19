@@ -50,6 +50,11 @@ Aprenda a exportar documentos DOCX para Markdown usando C# com Aspose.Words, pas
 ### [Como salvar Markdown de DOCX – Guia passo a passo](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Aprenda a salvar documentos DOCX como arquivos Markdown passo a passo usando Aspose.Words para .NET.
 
+### [Converter Word para Markdown com Aspose.Words – Guia Completo em C#](./convert-word-to-markdown-with-aspose-words-full-c-guide/)
+
+### [Salvar docx como markdown – Tutorial passo a passo em C#](./save-docx-as-markdown-step-by-step-c-tutorial/)
+Aprenda a converter arquivos DOCX para Markdown passo a passo usando C# com Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

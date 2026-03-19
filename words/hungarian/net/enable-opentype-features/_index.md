@@ -21,7 +21,7 @@ Ismerje meg, hogyan engedélyezheti az OpenType funkciókat Word-dokumentumokban
 | Cím | Leírás |
 | --- | --- |
 | [Nyílt típusú funkciók](./open-type-features/) | Ismerje meg, hogyan engedélyezheti az OpenType funkciókat a Word-dokumentumokban az Aspose.Words for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból. |
-
+| [Word-dokumentum létrehozása változó betűtípussal – Útmutató](./create-word-document-with-variable-font-guide/) | Ismerje meg, hogyan hozhat létre Word-dokumentumot változó betűtípussal az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

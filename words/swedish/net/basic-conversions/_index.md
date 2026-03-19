@@ -29,12 +29,14 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Konvertera docx till mhtml och skicka e-post](./docx-to-mhtml-and-sending-email/) | Lär dig hur du konverterar DOCX till MHTML och skickar e-postmeddelanden med Aspose.Words för .NET i den här steg-för-steg-guiden. Öka din produktivitet med enkel automatisering. |
 | [Konvertera Docx-fil till Markdown](./docx-to-markdown/) | Lär dig hur du konverterar DOCX-filer till Markdown med Aspose.Words för .NET. Följ vår detaljerade guide för sömlös integration i dina .NET-applikationer. |
 | [Konvertera docx till text](./docx-to-txt/) Konvertera DOCX till TXT med Aspose.Words för .NET med vår steg-för-steg-guide. Lär dig att transformera dokument effektivt och enkelt. |
+| [Konvertera docx till txt – Exportera Word-ekvationer som LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Lär dig hur du konverterar DOCX till TXT och exporterar ekvationer som LaTeX med Aspose.Words för .NET. |
 | [Konvertera textfil till Word-dokument](./txt-to-docx/) | Lär dig hur du konverterar textfiler till Word-dokument med Aspose.Words för .NET. Hantera dokumentkonverteringar effektivt med vår omfattande guide. | 
 | [Spara PDF som JPEG](./pdf-to-jpeg/) | Konvertera enkelt PDF-filer till JPEG-filer med Aspose.Words för .NET. Följ vår detaljerade guide med exempel och vanliga frågor. Perfekt för utvecklare och entusiaster. |
 | [Spara PDF till Word-format (Docx)](./pdf-to-docx/) | Lär dig hur du konverterar en PDF till ett Word-dokument (Docx) med Aspose.Words för .NET i den här detaljerade steg-för-steg-guiden. Perfekt för utvecklare. |
 | [Exportera LaTeX från Word – steg‑för‑steg‑guide](./how-to-export-latex-from-word-step-by-step-guide/) | Lär dig hur du exporterar LaTeX från ett Word-dokument med Aspose.Words för .NET i en tydlig steg‑för‑steg‑guide. |
 | [Konvertera Word till PDF i C# med Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Lär dig hur du konverterar Word-dokument till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
 | [Spara Word som PDF med Aspose.Words – Komplett C#-guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar Word-dokument som PDF med Aspose.Words i C#. Steg‑för‑steg‑guide med kodexempel. |
+| [Konvertera DOCX till PDF i C# – Steg‑för‑steg‑guide](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Lär dig hur du konverterar DOCX till PDF i C# med Aspose.Words. Steg‑för‑steg‑guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

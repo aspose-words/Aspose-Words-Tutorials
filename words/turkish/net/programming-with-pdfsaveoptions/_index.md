@@ -45,14 +45,12 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [PDF Belgesinde Son Yazdırılan Özelliği Güncelle](./update-last-printed-property/) | Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla bir PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini öğrenin.
 | [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin.
 | [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
-
+| [C#'ta Word'ü PDF Olarak Kaydet – Şekil Dışa Aktarımlı DOCX'ten PDF'ye Tam Kılavuz](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyalarını şekil dışa aktarımıyla PDF'ye dönüştürmeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
