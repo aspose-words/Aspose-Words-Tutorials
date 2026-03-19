@@ -16,7 +16,7 @@
 # Základní konverze
 
 
-Základní konverze vás provede základními konverzemi dokumentů pomocí knihovny Aspose.Words pro .NET. Návody poskytují podrobné vysvětlení, podrobný zdrojový kód a praktické příklady pro převod dokumentů Word do různých formátů, jako jsou PDF, HTML, EPUB, obrázky a další. Naučíte se také, jak nastavit možnosti převodu, spravovat fonty, obrázky a rozvržení. Tento zdroj je nezbytný pro vývojáře, kteří chtějí automatizovat konverze dokumentů pomocí knihovny Aspose.Words pro .NET, a poskytuje jim plnou flexibilitu a kontrolu nad procesem konverze.
+Základní konverze vás provede základními konveremi dokumentů pomocí knihovny Aspose.Words pro .NET. Návody poskytují podrobné vysvětlení, podrobný zdrojový kód a praktické příklady pro převod dokumentů Word do různých formátů, jako jsou PDF, HTML, EPUB, obrázky a další. Naučíte se také, jak nastavit možnosti převodu, spravovat fonty, obrázky a rozvržení. Tento zdroj je nezbytný pro vývojáře, kteří chtějí automatizovat konverze dokumentů pomocí knihovny Aspose.Words pro .NET, a poskytuje jim plnou flexibilitu a kontrolu nad procesem konverze.
 
  ## Návody
 | Název | Popis |
@@ -29,12 +29,14 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | [Převod Docx do Mhtml a odesílání e-mailů](./docx-to-mhtml-and-sending-email/) | Naučte se v tomto podrobném návodu, jak převést DOCX do MHTML a odesílat e-maily pomocí Aspose.Words pro .NET. Zvyšte svou produktivitu snadnou automatizací. |
 | [Převod souboru DOCX do formátu Markdown](./docx-to-markdown/) | Naučte se, jak převést soubory DOCX do Markdownu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou integraci do vašich .NET aplikací. |
 | [Převod Docx do Txt](./docx-to-txt/) Převeďte DOCX do TXT pomocí Aspose.Words pro .NET s naším podrobným návodem. Naučte se transformovat dokumenty efektivně a bez námahy. |
+| [Převod docx na txt – Export rovnic Wordu jako LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Naučte se, jak převést soubory DOCX na TXT a exportovat rovnice Wordu do LaTeXu pomocí Aspose.Words pro .NET. |
 | [Převod textového souboru do dokumentu Word](./txt-to-docx/) | Naučte se, jak převádět textové soubory do dokumentů Wordu pomocí Aspose.Words pro .NET. Efektivně spravujte převody dokumentů s naším komplexním průvodcem. | 
 | [Uložit PDF jako JPEG](./pdf-to-jpeg/) | Snadno převádějte PDF do JPEG pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu s příklady a častými dotazy. Ideální pro vývojáře a nadšence. |
 | [Uložit PDF do formátu Word (Docx)](./pdf-to-docx/) | Naučte se v tomto podrobném návodu krok za krokem, jak převést PDF do dokumentu Word (Docx) pomocí Aspose.Words pro .NET. Ideální pro vývojáře. |
 | [Jak exportovat LaTeX z Wordu – krok za krokem](./how-to-export-latex-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat obsah Wordu do formátu LaTeX. Praktický průvodce s ukázkovým kódem. |
 | [Převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C#. Praktický návod s ukázkovým kódem. |
 | [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s podrobným návodem a ukázkovým kódem. |
+| [Převod DOCX do PDF v C# – Průvodce krok za krokem](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Naučte se, jak převést DOCX do PDF v C# pomocí Aspose.Words. Praktický krok‑za‑krokem návod s ukázkovým kódem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

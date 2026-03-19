@@ -34,6 +34,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Smart Art-Form erkennen](./detect-smart-art-shape/) | Erfahren Sie in diesem umfassenden Leitfaden, wie Sie mit Aspose.Words für .NET SmartArt-Formen in Word-Dokumenten erkennen. Perfekt für die Automatisierung Ihres Dokumenten-Workflows. |
 | [Smart Art-Zeichnung aktualisieren](./update-smart-art-drawing/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Smart Art-Zeichnungen in Word-Dokumenten mit Aspose.Words für .NET aktualisieren. Stellen Sie sicher, dass Ihre Visualisierungen stets präzise sind. |
 | [Rechteckform in Word mit Aspose.Words – Schritt-für-Schritt-Anleitung](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word-Dokument einfügen und anpassen. |
+| [Word-Dokument erstellen – Rechteckform und Schatten hinzufügen](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein Rechteck mit Schatten zu einem Word-Dokument hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

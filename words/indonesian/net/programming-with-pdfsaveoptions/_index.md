@@ -45,7 +45,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Perbarui Properti Terakhir Dicetak dalam Dokumen PDF](./update-last-printed-property/) | Pelajari cara memperbarui properti cetak terakhir dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia:
 | [Render 3D DML 3D Effects dalam Dokumen PDF](./dml-3deffects-rendering/) | Pelajari cara membuat efek DML 3D yang menakjubkan dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
 | [Interpolasi Gambar dalam Dokumen PDF](./interpolate-images/) | Pelajari cara menginterpolasi gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kualitas gambar PDF Anda dengan mudah. |
-
+| [Simpan Word sebagai PDF di C# – Panduan Lengkap Mengonversi DOCX ke PDF dengan Ekspor Bentuk](./save-word-as-pdf-in-c-full-guide-to-convert-docx-to-pdf-with/) | Pelajari cara menyimpan dokumen Word ke PDF di C# termasuk mengekspor bentuk dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

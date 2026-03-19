@@ -21,7 +21,7 @@
 标题 | 描述 |
 | --- | --- |
 | [开放式特征](./open-type-features/) 通过这份详细的分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中启用 OpenType 功能。|
-
+| [使用可变字体创建 Word 文档 – 指南](./create-word-document-with-variable-font-guide/) 通过本指南了解如何使用 Aspose.Words for .NET 在 Word 文档中使用可变字体创建内容。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

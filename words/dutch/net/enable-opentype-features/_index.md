@@ -21,6 +21,7 @@ Leer hoe u OpenType-functies in uw Word-documenten kunt inschakelen met Aspose.W
 | Titel | Beschrijving |
 | --- | --- |
 | [Open Type-functies](./open-type-features/) | Leer hoe u OpenType-functies in Word-documenten kunt inschakelen met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. |
+| [Word-document maken met variabele lettertype – Gids](./create-word-document-with-variable-font-guide/) | Leer hoe u een Word-document maakt met een variabel lettertype met behulp van Aspose.Words voor .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

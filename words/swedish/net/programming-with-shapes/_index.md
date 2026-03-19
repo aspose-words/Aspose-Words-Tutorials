@@ -34,6 +34,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Identifiera smart konstform](./detect-smart-art-shape/) | Lär dig hur du identifierar SmartArt-former i Word-dokument med Aspose.Words för .NET med den här omfattande guiden. Perfekt för att automatisera ditt dokumentarbetsflöde. |
 | [Uppdatera Smart Art-teckning](./update-smart-art-drawing/) | Lär dig hur du uppdaterar Smart Art-ritningar i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Se till att dina bilder alltid är korrekta. |
 | [Skapa rektangelform i Word med Aspose.Words – Steg‑för‑steg‑guide](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Lär dig hur du skapar en rektangel i Word-dokument med Aspose.Words i en tydlig steg‑för‑steg‑guide. |
+| [Skapa Word-dokument – Så lägger du till en rektangelform och skugga](./create-word-document-how-to-add-rectangle-shape-and-shadow/) | Lär dig hur du skapar ett Word-dokument och lägger till en rektangelform med skuggeffekt med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

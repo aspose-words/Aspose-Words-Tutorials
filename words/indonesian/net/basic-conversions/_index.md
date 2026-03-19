@@ -35,6 +35,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Panduan langkah demi langkah menyimpan dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Sempurna untuk pengembang. |
 | [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑demi‑Langkah](./how-to-export-latex-from-word-step-by-step-guide/) | Pelajari cara mengekspor dokumen Word ke format LaTeX dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
 | [Mengonversi Word ke PDF dalam C# menggunakan Aspose.Words – Panduan](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Panduan langkah demi langkah mengonversi dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Bahasa Indonesia: |
+| [Mengonversi DOCX ke PDF dalam C# – Panduan Langkah‑demi‑Langkah](./convert-docx-to-pdf-in-c-step-by-step-guide/) | Panduan langkah demi langkah mengonversi DOCX ke PDF menggunakan Aspose.Words dalam C#. Bahasa Indonesia: |
+| [Konversi docx ke txt – Ekspor Persamaan Word sebagai LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/) | Pelajari cara mengonversi DOCX ke TXT dan mengekspor persamaan Word sebagai LaTeX menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

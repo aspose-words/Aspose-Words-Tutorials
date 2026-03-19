@@ -34,6 +34,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Chm-bestanden laden in Word-document](./load-chm/) | Laad CHM-bestanden eenvoudig in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze tutorial. Perfect voor het consolideren van uw technische documentatie. |
 | [Hoe een DOCX te herstellen met Aspose.Words – stap voor stap](./how-to-recover-docx-with-aspose-words-step-by-step/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met Aspose.Words in een stapsgewijze handleiding. |
 | [Aspose Load Options – DOCX laden met aangepaste lettertype‑instellingen](./aspose-load-options-load-docx-with-custom-font-settings/) | Leer hoe u een DOCX-document kunt laden met aangepaste lettertype‑instellingen via LoadOptions in Aspose.Words voor .NET. |
+| [Hoe DOCX-bestanden te herstellen – herstelmodus instellen met Aspose](./how-to-recover-docx-files-set-recovery-mode-with-aspose/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen door de herstelmodus in te stellen met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
