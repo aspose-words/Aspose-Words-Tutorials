@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Dowiedz się, jak skutecznie organizować zakładki w plikach PDF za pomocą Aspose.Words for Java. Popraw czytelność i nawigację dzięki temu kompleksowemu przewodnikowi."
-"title": "Opanuj poziomy konspektu zakładek w plikach PDF za pomocą Aspose.Words Java"
-"url": "/pl/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-03-20'
+description: Poznaj sposób tworzenia zagnieżdżonych zakładek i generowania PDF z zakładkami
+  przy użyciu Aspose.Words for Java, co poprawia czytelność i nawigację.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: Utwórz zagnieżdżone zakładki w plikach PDF przy użyciu Aspose.Words Java
+url: /pl/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,28 +17,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Utwórz zagnieżdżone zakładki w plikach PDF przy użyciu Aspose.Words Java
 
-# Opanuj poziomy konspektu zakładek w plikach PDF za pomocą Aspose.Words Java
+## Wprowadzenie
+Jeśli kiedykolwiek miałeś problem z utrzymaniem zakładek PDF w porządku po konwersji dokumentu Word, nie jesteś sam. W tym samouczku **utworzysz zagnieżdżone zakładki** i dowiesz się, jak **generować PDF z zakładkami**, które są łatwe w nawigacji. Przejdziemy przez konfigurację Aspose.Words, budowanie hierarchii zakładek, przypisywanie poziomów konturu oraz ostateczny eksport czystego PDF‑a.
 
-## Wstęp
-Masz problemy z zarządzaniem zakładkami podczas konwersji dokumentów Word na pliki PDF? Ten samouczek pokaże Ci, jak używać Aspose.Words for Java, aby skutecznie organizować zakładki dokumentów, dzięki czemu będą profesjonalne i łatwe w nawigacji.
+**Czego się nauczysz**
+- Jak skonfigurować Aspose.Words dla Javy
+- Jak **utworzyć zagnieżdżone zakładki** w dokumencie Word
+- Jak skonfigurować poziomy konturu zakładek dla przejrzystej nawigacji w PDF
+- Jak **generować PDF z zakładkami**, które odzwierciedlają zdefiniowaną hierarchię
 
-**Czego się nauczysz:**
-- Konfiguracja i używanie Aspose.Words dla Java
-- Tworzenie zagnieżdżonych zakładek w dokumentach programu Word
-- Skonfiguruj poziomy zarysu zakładek, aby zapewnić lepszą organizację
-- Zapisz dokumenty w formacie PDF ze strukturalnymi zakładkami
-
-Zanim zaczniemy, omówmy najpierw wymagania wstępne!
+### Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do budowania dokumentów?** `DocumentBuilder`
+- **Która metoda dodaje zakładkę?** `startBookmark(String name)`
+- **Jak ustawić poziom konturu dla zakładki?** `outlineLevels.add(name, level)`
+- **Czy potrzebna jest licencja do produkcji?** Tak, zakupiona licencja odblokowuje pełne funkcje.
+- **Czy mogę używać tego z Maven lub Gradle?** Oczywiście – oba są obsługiwane.
 
 ### Wymagania wstępne
-Przed rozpoczęciem upewnij się, że masz:
-- **Biblioteki i zależności**:Aspose.Words dla Java (wersja 25.3 lub nowsza).
-- **Konfiguracja środowiska**: Pakiet JDK zainstalowany na Twoim komputerze wraz ze zgodnym środowiskiem IDE, takim jak IntelliJ IDEA lub Eclipse.
-- **Wymagania wstępne dotyczące wiedzy**:Podstawowa znajomość programowania w Javie i znajomość systemów budowania Maven lub Gradle.
+Zanim zaczniemy, upewnij się, że masz:
+- **Aspose.Words for Java** (wersja 25.3 lub nowsza).  
+- Zainstalowany JDK oraz IDE, takie jak IntelliJ IDEA lub Eclipse.  
+- Podstawową znajomość Javy oraz doświadczenie z Maven lub Gradle.
 
-## Konfigurowanie Aspose.Words
-Na początek uwzględnij niezbędne zależności w swoim projekcie. Oto, jak możesz to zrobić za pomocą Maven i Gradle:
+## Co to jest „tworzenie zagnieżdżonych zakładek”?
+Tworzenie zagnieżdżonych zakładek oznacza umieszczanie jednej zakładki wewnątrz drugiej, tworząc hierarchię rodzic‑dziecko. Gdy dokument zostanie zapisany jako PDF, relacje te pojawiają się jako zwijalne pozycje w panelu zakładek PDF, co znacznie ułatwia przeglądanie dużych dokumentów.
+
+## Dlaczego używać poziomów konturu przy generowaniu PDF z zakładkami?
+Poziomy konturu definiują wizualną hierarchię zakładek w przeglądarce PDF. Zakładka poziomu 1 pojawia się jako pozycja najwyższego poziomu, poziomu 2 jako dziecko, itd. Odpowiednie poziomy konturu zamieniają płaską listę zakładek w uporządkowany spis treści, co jest szczególnie cenne w umowach prawnych, raportach technicznych i e‑bookach.
+
+## Konfiguracja Aspose.Words
+Dodaj bibliotekę do swojego projektu przy użyciu Maven lub Gradle.
 
 **Maven:**
 ```xml
@@ -44,127 +59,134 @@ Na początek uwzględnij niezbędne zależności w swoim projekcie. Oto, jak mo�
 </dependency>
 ```
 
-**Stopień:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Nabycie licencji
-Aspose.Words jest produktem komercyjnym, ale możesz zacząć od bezpłatnej wersji próbnej, aby poznać jego funkcje. Oto kroki:
-1. **Bezpłatna wersja próbna**: Pobierz z [Strona wydania Aspose](https://releases.aspose.com/words/java/) aby przetestować pełne możliwości.
-2. **Licencja tymczasowa**:Złóż wniosek o tymczasową licencję w [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) jeśli to konieczne.
-3. **Zakup**:Aby korzystać z usługi w trybie ciągłym, należy zakupić licencję od [Portal zakupowy Aspose](https://purchase.aspose.com/buy).
+### Uzyskanie licencji
+Aspose.Words jest produktem komercyjnym, ale możesz rozpocząć od darmowej wersji próbnej.
 
-Gdy już masz plik licencji, zainicjuj go w swoim projekcie, aby odblokować wszystkie funkcje Aspose.Words.
+1. **Darmowa wersja próbna** – Pobierz z [strony wydania Aspose](https://releases.aspose.com/words/java/), aby przetestować pełne możliwości.  
+2. **Licencja tymczasowa** – Złóż wniosek na [stronie licencji tymczasowej Aspose](https://purchase.aspose.com/temporary-license/) w celu krótkoterminowej oceny.  
+3. **Zakup** – Uzyskaj stałą licencję w [portalu zakupowym Aspose](https://purchase.aspose.com/buy).
 
-## Przewodnik wdrażania
-Podzielmy implementację na łatwiejsze do opanowania sekcje:
+Po uzyskaniu pliku `.lic` załaduj go w swoim kodzie, aby odblokować wszystkie funkcje.
 
-### Tworzenie zagnieżdżonych zakładek
-**Przegląd**:Dowiedz się, jak tworzyć zagnieżdżone zakładki w dokumencie Word za pomocą Aspose.Words for Java.
+## Przewodnik po implementacji
+Poniżej znajdziesz krok po kroku instrukcję tworzenia dokumentu, dodawania zagnieżdżonych zakładek, przypisywania poziomów konturu i zapisywania wyniku jako PDF.
 
-#### Krok 1: Zainicjuj dokument i kreator
+### Krok 1: Inicjalizacja dokumentu i buildera
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Spowoduje to utworzenie środowiska dokumentu Word, w którym możesz rozpocząć wstawianie treści.
+Tworzy to pusty dokument Word oraz obiekt builder, którego użyjesz do wstawiania tekstu i zakładek.
 
-#### Krok 2: Wstaw zagnieżdżone zakładki
-Zacznij od utworzenia zakładki głównej:
+### Krok 2: Utwórz pierwszą (nadrzędną) zakładkę
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Teraz umieść w nim kolejną zakładkę:
+Wywołanie `startBookmark` otwiera nową zakładkę o nazwie **Bookmark 1**. Wszystko, co napiszesz po tym wywołaniu, będzie należało do tej zakładki, aż ją zamkniesz.
+
+### Krok 3: Zagnieźdź drugą zakładkę wewnątrz pierwszej
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Zakończ zagnieżdżoną zakładkę
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Wypełnij zewnętrzną zakładkę:
+Ponieważ ta zakładka jest uruchamiana **po** pierwszej i zamykana **przed** pierwszą, staje się dzieckiem **Bookmark 1**.
+
+### Krok 4: Zamknij nadrzędną zakładkę
 ```java
 builder.endBookmark("Bookmark 1");
 ```
+Teraz hierarchia wygląda tak:
 
-#### Krok 3: Dodaj dodatkowe zakładki
-Kontynuuj dodawanie zakładek w razie potrzeby. Na przykład, osobna trzecia zakładka:
+- Bookmark 1 (poziom 1)  
+  - Bookmark 2 (poziom 2)
+
+### Krok 5: Dodaj niezależną trzecią zakładkę
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
+Ta zakładka znajduje się na najwyższym poziomie, oddzielnie od pierwszych dwóch.
 
-### Konfigurowanie poziomów konspektu zakładek
-**Przegląd**: Zorganizuj swoje zakładki, ustawiając ich poziomy konspektu, aby ułatwić nawigację w pliku PDF.
-
-#### Krok 1: Skonfiguruj PdfSaveOptions
+### Krok 6: Skonfiguruj poziomy konturu dla eksportu PDF
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Ten fragment kodu inicjuje opcje, których będziesz używać do zapisywania dokumentu w formacie PDF z uporządkowanymi zakładkami.
+Obiekt `PdfSaveOptions` pozwala kontrolować, jak zakładki będą wyświetlane w finalnym PDF‑ie.
 
-#### Krok 2: Dodaj poziomy konturu
-Przypisz każdej zakładce poziomy, które określą jej hierarchię:
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Zagnieżdżone pod zakładką 1
-outlineLevels.add("Bookmark 3", 3);
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
+outlineLevels.add("Bookmark 3", 1);
 ```
+Tutaj przypisujemy poziom 1 do zakładek najwyższego poziomu oraz poziom 2 do zagnieżdżonej.
 
-#### Krok 3: Zapisz dokument
-Na koniec zapisz dokument w formacie PDF, używając następujących ustawień:
+### Krok 7: Zapisz dokument jako PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
+Wynikowy PDF wyświetli czysty, zwijalny panel zakładek, który odzwierciedla zdefiniowaną hierarchię.
 
-### Porady dotyczące rozwiązywania problemów
-- **Brakujące zakładki**:Upewnij się, że każdy `startBookmark` ma odpowiednik `endBookmark`.
-- **Nieprawidłowe poziomy**: Sprawdź hierarchię, sprawdzając relacje nadrzędny-podrzędny w swoim kodzie.
+## Typowe problemy i rozwiązania
+- **Brakujące zakładki** – Każde `startBookmark` musi mieć odpowiadające `endBookmark`. Pominięcie któregoś spowoduje, że zakładka zostanie pominięta w PDF‑ie.  
+- **Nieprawidłowe poziomy konturu** – Sprawdź dokładnie nazwy przekazywane do `outlineLevels.add`. Literówka oznacza, że poziom nie zostanie zastosowany.  
+- **Duże dokumenty** – W przypadku bardzo dużych plików wywołaj `doc.removeMacros()` lub usuń nieużywane style przed zapisem, aby utrzymać rozmiar PDF w rozsądnych granicach.
 
-## Zastosowania praktyczne
-Oto kilka scenariuszy, w których możesz zastosować tę wiedzę:
-1. **Dokumenty prawne**:Zorganizuj sekcje i podsekcje, aby ułatwić wyszukiwanie.
-2. **Raporty**:Używaj zagnieżdżonych zakładek do nawigacji po złożonych strukturach danych.
-3. **Materiały edukacyjne**:Skuteczne tworzenie struktury rozdziałów, podrozdziałów i punktów kluczowych.
+## Praktyczne zastosowania
+1. **Umowy prawne** – Szybkie przechodzenie między klauzulami i podklauzulami.  
+2. **Raporty techniczne** – Nawigacja po sekcjach, tabelach i rysunkach bez przewijania.  
+3. **Materiał e‑learningowy** – Udostępnienie klikalnego spisu treści dla studentów.
 
-## Rozważania dotyczące wydajności
-- Zoptymalizuj rozmiar dokumentu, usuwając niepotrzebne treści przed zapisaniem.
-- Zarządzaj efektywnie wykorzystaniem pamięci podczas pracy z dużymi dokumentami.
+## Wskazówki dotyczące wydajności
+- Usuń nieużywane zasoby (obrazy, style) przed zapisem.  
+- Korzystaj z API strumieniowych, jeśli przetwarzasz PDF‑y większe niż 100 MB, aby utrzymać niskie zużycie pamięci.
 
-## Wniosek
-Teraz nauczyłeś się, jak skutecznie implementować poziomy konspektu zakładek za pomocą Aspose.Words dla Java. Ta umiejętność znacznie poprawi nawigowalność Twoich plików PDF, czyniąc je bardziej przyjaznymi dla użytkownika i profesjonalnymi.
+## Podsumowanie
+Teraz wiesz, jak **utworzyć zagnieżdżone zakładki**, przypisać poziomy konturu i **generować PDF z zakładkami**, które są zarówno funkcjonalne, jak i przyjazne dla użytkownika. Eksperymentuj z głębszymi hierarchiami lub włącz tę logikę do swojego potoku generowania dokumentów, aby uzyskać jeszcze większą automatyzację.
 
-**Następne kroki**:Eksperymentuj z różnymi strukturami dokumentów lub zintegruj tę funkcjonalność z większą aplikacją, aby zobaczyć jej zalety w działaniu.
+## Najczęściej zadawane pytania
 
-## Sekcja FAQ
-1. **Jak zainstalować Aspose.Words dla Java?**
-   - Dodaj go jako zależność za pomocą Maven lub Gradle, a następnie skonfiguruj plik licencji.
-2. **Czy mogę używać zakładek bez poziomów konspektu?**
-   - Tak, ale korzystanie z poziomów konspektu usprawnia nawigację w plikach PDF.
-3. **Jakie są ograniczenia zagnieżdżania zakładek?**
-   - Nie ma ścisłych ograniczeń, ale należy wziąć pod uwagę czytelność i strukturę dla użytkowników.
-4. **W jaki sposób Aspose radzi sobie z dużymi dokumentami?**
-   - Efektywnie zarządza zasobami, choć w przypadku bardzo dużych plików zalecana jest optymalizacja.
-5. **Czy mogę modyfikować zakładki po zapisaniu pliku PDF?**
-   - Tak, można użyć Aspose.PDF dla Java do edycji zakładek po konwersji.
+**Q: Jak zainstalować Aspose.Words dla Java?**  
+A: Dodaj zależność Maven lub Gradle pokazane powyżej, a następnie załaduj plik licencji w czasie wykonywania.
+
+**Q: Czy mogę używać zakładek bez ustawiania poziomów konturu?**  
+A: Tak, ale PDF wyświetli płaską listę, co może być trudne do nawigacji w złożonych dokumentach.
+
+**Q: Czy istnieje limit głębokości zagnieżdżania zakładek?**  
+A: Technicznie nie, ale zachowaj hierarchię w rozsądnych granicach (3‑4 poziomy), aby utrzymać czytelność.
+
+**Q: Jak Aspose radzi sobie z bardzo dużymi dokumentami?**  
+A: Strumieniuje zawartość i oferuje narzędzia do zarządzania pamięcią; jednak nadal warto usuwać nieużywane elementy.
+
+**Q: Czy mogę edytować zakładki po utworzeniu PDF‑a?**  
+A: Oczywiście – użyj Aspose.PDF for Java, aby zmodyfikować tytuły zakładek, ich cele lub poziomy konturu po generacji.
 
 ## Zasoby
-- [Dokumentacja Aspose.Words](https://reference.aspose.com/words/java/)
-- [Pobierz najnowsze wydania](https://releases.aspose.com/words/java/)
-- [Kup licencję](https://purchase.aspose.com/buy)
-- [Bezpłatna wersja próbna](https://releases.aspose.com/words/java/)
-- [Wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
-
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Latest Releases](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/words/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-20  
+**Testowano z:** Aspose.Words for Java 25.3  
+**Autor:** Aspose
