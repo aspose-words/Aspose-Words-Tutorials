@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "เรียนรู้วิธีจัดการไฮเปอร์ลิงก์ในเอกสาร Word อย่างมีประสิทธิภาพด้วย Aspose.Words สำหรับ Java ปรับปรุงเวิร์กโฟลว์เอกสารของคุณและเพิ่มประสิทธิภาพลิงก์ด้วยคู่มือทีละขั้นตอนของเรา"
-"title": "การจัดการไฮเปอร์ลิงก์ใน Word โดยใช้ Aspose.Words Java คู่มือฉบับสมบูรณ์"
-"url": "/th/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-03-20'
+description: เรียนรู้วิธีดึงไฮเปอร์ลิงก์จากเอกสาร Word ด้วย Aspose.Words for Java
+  และจัดการหรืออัปเดตลิงก์เป็นกลุ่มอย่างมีประสิทธิภาพ
+keywords:
+- Hyperlink Management in Word
+- Aspose.Words Java Hyperlinks
+- Manage Word Document Links
+title: วิธีสกัดลิงก์ไฮเปอร์จาก Word ด้วย Aspose.Words Java
+url: /th/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +17,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# การจัดการไฮเปอร์ลิงก์ขั้นสูงใน Word ด้วย Aspose.Words Java
 
-# จัดการไฮเปอร์ลิงก์อย่างมืออาชีพใน Word ด้วย Aspose.Words Java
+## Introduction
 
-## การแนะนำ
+หากคุณต้องการ **วิธีการดึงไฮเปอร์ลิงก์** จากไฟล์ Microsoft Word และต้องการให้ลิงก์เป็นระเบียบ คุณมาถูกที่แล้ว ด้วย **Aspose.Words for Java** คุณสามารถดึงลิงก์ทุกอันโดยโปรแกรม, แก้ไขเป้าหมายของลิงก์, และแม้กระทั่งอัปเดตลิงก์เป็นกลุ่มในเอกสารขนาดใหญ่ คู่มือนี้จะพาคุณผ่านการดึงไฮเปอร์ลิงก์ทั้งหมด, การจัดการลิงก์, และการตั้งค่าเป้าหมายไฮเปอร์ลิงก์ใหม่ — ทั้งหมดด้วยตัวอย่างที่ชัดเจนและเป็นจริง
 
-การจัดการไฮเปอร์ลิงก์ในเอกสาร Microsoft Word มักจะทำให้รู้สึกยุ่งยาก โดยเฉพาะเมื่อต้องจัดการกับเอกสารจำนวนมาก **Aspose.คำศัพท์สำหรับภาษา Java**นักพัฒนาจะได้รับเครื่องมืออันทรงพลังเพื่อลดความซับซ้อนในการจัดการไฮเปอร์ลิงก์ คู่มือที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการแยก อัปเดต และเพิ่มประสิทธิภาพไฮเปอร์ลิงก์ภายในไฟล์ Word ของคุณ
+### What You'll Learn
+- **วิธีการดึงไฮเปอร์ลิงก์** จากเอกสาร Word ด้วย Aspose.Words.  
+- วิธี **จัดการไฮเปอร์ลิงก์** (เพิ่ม, แก้ไข หรือ ลบ) ด้วยคลาส `Hyperlink`.  
+- เทคนิคสำหรับ **batch update hyperlinks** เพื่อประหยัดเวลาในไฟล์ขนาดใหญ่.  
+- ขั้นตอนในการ **load Word document** อย่างถูกต้องและเริ่มต้นไลบรารี.  
+- เคล็ดลับด้านประสิทธิภาพสำหรับการจัดการเอกสารขนาดใหญ่อย่างมีประสิทธิภาพ.
 
-### สิ่งที่คุณจะได้เรียนรู้:
-- วิธีการแยกไฮเปอร์ลิงก์ทั้งหมดจากเอกสารโดยใช้ Aspose.Words
-- การใช้ประโยชน์จาก `Hyperlink` คลาสสำหรับจัดการแอตทริบิวต์ไฮเปอร์ลิงก์
-- แนวทางปฏิบัติที่ดีที่สุดสำหรับการจัดการลิงก์ทั้งภายในและภายนอก
-- การตั้งค่า Aspose.Words ในสภาพแวดล้อม Java ของคุณ
-- การใช้งานในโลกแห่งความเป็นจริงและการพิจารณาประสิทธิภาพ
+---
 
-เจาะลึกการจัดการไฮเปอร์ลิงก์ที่มีประสิทธิภาพด้วย **Aspose.คำศัพท์สำหรับภาษา Java** เพื่อเพิ่มประสิทธิภาพเวิร์กโฟลว์เอกสารของคุณ!
+## Quick Answers
+- **What is the primary class for loading a document?** `com.aspose.words.Document`.  
+- **Which method extracts hyperlink nodes?** Use `selectNodes("//FieldStart")` and filter by `FieldType.FIELD_HYPERLINK`.  
+- **Can I change a link’s URL in bulk?** Yes – iterate through `Hyperlink` objects and call `setTarget(...)`.  
+- **Do I need a license for development?** A free trial license works for testing; a full license is required for production.  
+- **Is batch processing safe for large files?** Process in chunks and release resources between batches to keep memory usage low.
 
-## ข้อกำหนดเบื้องต้น
+---
 
-ก่อนที่จะเริ่มต้น ให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้:
+## What is Hyperlink Extraction?
 
-### ไลบรารีและการอ้างอิงที่จำเป็น
-- **Aspose.คำศัพท์สำหรับภาษา Java**:ไลบรารีหลักที่เราจะใช้ในบทช่วยสอนนี้
+การดึงไฮเปอร์ลิงก์หมายถึงการสแกนไฟล์ Word เพื่อค้นหาฟิลด์ทุกอันที่เป็นลิงก์, อ่านที่อยู่ของลิงก์, และหากต้องการก็ทำการแก้ไข การทำเช่นนี้สำคัญสำหรับการปฏิบัติตามมาตรฐานเอกสาร, การปรับ SEO, หรือการย้ายลิงก์หลังการออกแบบเว็บไซต์ใหม่
 
-### การตั้งค่าสภาพแวดล้อม
-- ติดตั้ง Java Development Kit (JDK) เวอร์ชัน 8 ขึ้นไปบนเครื่องของคุณ
+## Why Use Aspose.Words for Java?
 
-### ข้อกำหนดเบื้องต้นของความรู้
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
-- ขอแนะนำให้มีความคุ้นเคยกับเครื่องมือสร้าง Maven หรือ Gradle แต่ไม่ใช่บังคับ
+Aspose.Words ให้ **pure Java API** ที่ทำงานได้โดยไม่ต้องติดตั้ง Microsoft Office มันเข้าใจโครงสร้างภายในของ Word ทำให้คุณสามารถค้นหาและแก้ไขไฮเปอร์ลิงก์ได้อย่างมั่นใจ ไม่ว่าจะเป็นลิงก์ไปยังเว็บไซต์ภายนอกหรือบุ๊กมาร์คภายใน
 
-## การตั้งค่า Aspose.Words
+## Prerequisites
 
-การเริ่มใช้งาน **Aspose.คำศัพท์สำหรับภาษา Java**รวมไว้ในโครงการของคุณดังนี้:
+- **Java Development Kit (JDK) 8+** ที่ติดตั้งแล้ว  
+- ไลบรารี **Aspose.Words for Java** (เวอร์ชัน 25.3 หรือใหม่กว่า)  
+- ความคุ้นเคยพื้นฐานกับ Java และ Maven/Gradle (ไม่บังคับแต่เป็นประโยชน์)
 
-### ข้อมูลการพึ่งพา
+## Setting Up Aspose.Words
 
-**เมเวน:**
+### Dependency Information
+
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -57,22 +68,25 @@
 </dependency>
 ```
 
-**เกรเดิ้ล:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### การขอใบอนุญาต
-คุณสามารถเริ่มต้นด้วย **ใบอนุญาตทดลองใช้งานฟรี** เพื่อสำรวจความสามารถของ Aspose.Words หากเหมาะสม ให้พิจารณาซื้อหรือสมัครใบอนุญาตเต็มรูปแบบชั่วคราว เยี่ยมชม [หน้าการซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
+### License Acquisition
 
-### การเริ่มต้นขั้นพื้นฐาน
-นี่คือวิธีการตั้งค่าสภาพแวดล้อมของคุณ:
+คุณสามารถเริ่มต้นด้วย **free trial license** เพื่อสำรวจความสามารถของ Aspose.Words หากตรงกับความต้องการของคุณ ควรพิจารณาซื้อไลเซนส์เต็มรูปแบบ เยี่ยมชม [purchase page](https://purchase.aspose.com/buy) เพื่อดูรายละเอียดเพิ่มเติม
+
+### Basic Initialization
+
+นี่คือตัวอย่างโค้ดสั้น ๆ ที่โหลดเอกสารและยืนยันการทำงาน:
+
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // โหลดเอกสารของคุณ
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
@@ -80,98 +94,122 @@ class InitializeAsposeWords {
 }
 ```
 
-## คู่มือการใช้งาน
+## How to Extract Hyperlinks from a Document
 
-มาลองดูวิธีการนำการจัดการไฮเปอร์ลิงก์ไปใช้กับเอกสาร Word กัน
+### Step 1: Load the Word Document
 
-### คุณสมบัติ 1: เลือกไฮเปอร์ลิงก์จากเอกสาร
+ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ชี้ไปยังตำแหน่งที่ถูกต้อง:
 
-**ภาพรวม**: แยกไฮเปอร์ลิงก์ทั้งหมดจากเอกสาร Word ของคุณโดยใช้ Aspose.Words Java ใช้ XPath เพื่อระบุ `FieldStart` โหนดที่ระบุไฮเปอร์ลิงก์ที่มีศักยภาพ
-
-#### ขั้นตอนที่ 1: โหลดเอกสาร
-ตรวจสอบให้แน่ใจว่าคุณระบุเส้นทางที่ถูกต้องสำหรับเอกสารของคุณ:
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 ```
 
-#### ขั้นตอนที่ 2: เลือกโหนดไฮเปอร์ลิงก์
-ใช้ XPath เพื่อค้นหา `FieldStart` โหนดที่แสดงฟิลด์ไฮเปอร์ลิงก์ในเอกสาร Word:
+### Step 2: Select Hyperlink Nodes
+
+ใช้ XPath เพื่อค้นหาโหนด `FieldStart` ทุกอันที่เป็นฟิลด์ไฮเปอร์ลิงก์:
+
 ```java
-NodeList fieldStarts = doc.selectNodes("//การเริ่มฟิลด์");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // ตัวแทนสำหรับการจัดการเพิ่มเติม
+        // Placeholder for further manipulation
     }
 }
 ```
 
-### คุณลักษณะที่ 2: การนำคลาสไฮเปอร์ลิงก์ไปใช้
+### Step 3: Work with the `Hyperlink` Object
 
-**ภาพรวม**: เดอะ `Hyperlink` คลาสนี้รวมและอนุญาตให้คุณจัดการคุณสมบัติของไฮเปอร์ลิงก์ภายในเอกสารของคุณได้
+คลาส `Hyperlink` ให้คุณควบคุมคุณสมบัติของลิงก์แต่ละอันได้อย่างเต็มที่
 
-#### ขั้นตอนที่ 1: เริ่มต้นวัตถุไฮเปอร์ลิงก์
-สร้างอินสแตนซ์โดยส่งผ่าน `FieldStart` โหนด:
+#### Initialize Hyperlink Object
+
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
 ```
 
-#### ขั้นตอนที่ 2: จัดการคุณสมบัติของไฮเปอร์ลิงก์
-เข้าถึงและปรับแต่งคุณสมบัติ เช่น ชื่อ URL เป้าหมาย หรือสถานะท้องถิ่น:
-- **รับชื่อ**-
+#### Manage Hyperlink Properties
+
+- **Get Name**  
   ```java
   String linkName = hyperlink.getName();
   ```
-- **กำหนดเป้าหมายใหม่**-
+
+- **Set New Target** (useful for batch updates)  
   ```java
-  hyperlink.setTarget("https://ตัวอย่าง.com");
+  hyperlink.setTarget("https://example.com");
   ```
-- **ตรวจสอบลิงค์ท้องถิ่น**-
+
+- **Check if the Link Is Local**  
   ```java
   boolean isLocalLink = hyperlink.isLocal();
   ```
 
-## การประยุกต์ใช้งานจริง
-1. **การปฏิบัติตามเอกสาร**:อัปเดตไฮเปอร์ลิงก์ที่ล้าสมัยเพื่อความถูกต้อง
-2. **การเพิ่มประสิทธิภาพ SEO**: ปรับเปลี่ยนเป้าหมายลิงก์เพื่อให้เครื่องมือค้นหามองเห็นได้ดีขึ้น
-3. **การแก้ไขแบบร่วมมือกัน**:อำนวยความสะดวกให้สมาชิกในทีมเพิ่มหรือแก้ไขลิงก์เอกสารได้อย่างง่ายดาย
+## How to Manage Hyperlinks in Bulk (Batch Update)
 
-## การพิจารณาประสิทธิภาพ
-- **การประมวลผลแบบแบตช์**จัดการเอกสารขนาดใหญ่เป็นชุดเพื่อเพิ่มประสิทธิภาพการใช้หน่วยความจำ
-- **ประสิทธิภาพของนิพจน์ทั่วไป**:ปรับแต่งรูปแบบ regex ภายใน `Hyperlink` คลาสสำหรับเวลาการดำเนินการที่รวดเร็วยิ่งขึ้น
+เมื่อคุณต้องการเขียนทับ URL หลายสิบหรือหลายร้อยรายการ — เช่น หลังการย้ายโดเมน — ให้ห่อวงจรการดึงข้อมูลไว้ในขั้นตอนแบบแบตช์:
 
-## บทสรุป
-หากทำตามคำแนะนำนี้ คุณจะได้ใช้ประโยชน์จากความสามารถอันทรงพลังของ Aspose.Words Java ในการจัดการไฮเปอร์ลิงก์เอกสาร Word สำรวจเพิ่มเติมโดยการรวมโซลูชันเหล่านี้เข้าในเวิร์กโฟลว์ของคุณและค้นพบคุณสมบัติเพิ่มเติมที่ Aspose.Words นำเสนอ
+1. **Collect** all `Hyperlink` objects into a list.  
+2. **Iterate** and call `setTarget(newUrl)` for each.  
+3. **Save** the document once after processing to avoid excessive I/O.
 
-พร้อมที่จะพัฒนาทักษะการจัดการเอกสารของคุณหรือยัง เจาะลึกรายละเอียดเพิ่มเติม [เอกสารประกอบ Aspose.Words](https://reference.aspose.com/words/java/) เพื่อฟังก์ชันเพิ่มเติม!
+> **Pro tip:** Use `doc.updateFields()` after batch updates to ensure Word’s internal field results stay in sync.
 
-## ส่วนคำถามที่พบบ่อย
-1. **Aspose.Words Java ใช้ทำอะไร?**
-   - เป็นไลบรารีสำหรับการสร้าง แก้ไข และแปลงเอกสาร Word ในแอปพลิเคชัน Java
-2. **ฉันจะอัปเดตไฮเปอร์ลิงก์หลายรายการพร้อมกันได้อย่างไร?**
-   - ใช้ `SelectHyperlinks` คุณลักษณะในการทำซ้ำและอัปเดตไฮเปอร์ลิงก์แต่ละรายการตามต้องการ
-3. **Aspose.Words สามารถจัดการการแปลง PDF ได้หรือไม่?**
-   - ใช่ รองรับรูปแบบเอกสารต่างๆ รวมถึง PDF
-4. **มีวิธีทดสอบคุณลักษณะของ Aspose.Words ก่อนซื้อหรือไม่**
-   - แน่นอน! เริ่มต้นด้วย [ใบอนุญาตทดลองใช้งานฟรี](https://releases.aspose.com/words/java/) มีอยู่ในเว็บไซต์ของพวกเขา
-5. **จะเกิดอะไรขึ้นหากฉันประสบปัญหาในการอัปเดตไฮเปอร์ลิงก์?**
-   - ตรวจสอบรูปแบบ regex ของคุณและตรวจสอบให้แน่ใจว่าตรงกับการจัดรูปแบบของเอกสารของคุณอย่างถูกต้อง
+## Common Use Cases
 
-## ทรัพยากร
-- **เอกสารประกอบ**:สำรวจเพิ่มเติมได้ที่ [เอกสาร Java ของ Aspose.Words](https://reference.aspose.com/words/java/)
-- **ดาวน์โหลด Aspose.Words**: รับเวอร์ชั่นล่าสุด [ที่นี่](https://releases.aspose.com/words/java/)
-- **ซื้อใบอนุญาต**: ซื้อตรงจาก [อาโปเซ่](https://purchase.aspose.com/buy)
-- **ทดลองใช้งานฟรี**:ลองก่อนซื้อด้วย [ใบอนุญาตทดลองใช้งานฟรี](https://releases.aspose.com/words/java/)
-- **ฟอรั่มสนับสนุน**: เข้าร่วมชุมชนได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10) เพื่อการสนทนาและขอความช่วยเหลือ
+| Scenario | Why It Matters |
+|----------|----------------|
+| **Document compliance** | Outdated links can cause legal or branding issues. |
+| **SEO optimization** | Updating link targets improves search engine crawling. |
+| **Collaborative editing** | Centralized script ensures every team member works with the same link set. |
+
+## Performance Considerations
+
+- **Batch Processing:** Process large files in smaller chunks to keep memory consumption low.  
+- **Regular Expressions:** If you filter URLs with regex, compile the pattern once outside the loop for speed.  
+
+## Conclusion
+
+You now have a solid, production‑ready approach to **how to extract hyperlinks** and **how to manage hyperlinks** in Word documents using Aspose.Words for Java. Integrate these snippets into your document pipeline, automate bulk updates, and keep your links accurate and SEO‑friendly.
+
+Ready for the next step? Dive deeper into the [Aspose.Words documentation](https://reference.aspose.com/words/java/) for more advanced features like hyperlink validation, custom field handling, and document conversion.
+
+## Frequently Asked Questions
+
+**Q: What is Aspose.Words Java used for?**  
+A: It's a library for creating, modifying, and converting Word documents in Java applications.
+
+**Q: How do I update multiple hyperlinks at once?**  
+A: Use the extraction loop shown above, then call `setTarget(...)` on each `Hyperlink` object inside a batch routine.
+
+**Q: Can Aspose.Words handle PDF conversion too?**  
+A: Yes, it supports conversion to PDF and many other formats.
+
+**Q: Is there a way to test Aspose.Words features before purchasing?**  
+A: Absolutely! Start with the [free trial license](https://releases.aspose.com/words/java/) available on their website.
+
+**Q: What if I encounter issues with hyperlink updates?**  
+A: Verify your regex patterns and ensure they match the document’s hyperlink format. Also, confirm that the document is saved after changes.
+
+## Resources
+- **Documentation:** Explore more at [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
+- **Download Aspose.Words:** Get the latest version [here](https://releases.aspose.com/words/java/)
+- **Purchase License:** Buy directly from [Aspose](https://purchase.aspose.com/buy)
+- **Free Trial:** Try before you buy with a [free trial license](https://releases.aspose.com/words/java/)
+- **Support Forum:** Join the community at [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2026-03-20  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
