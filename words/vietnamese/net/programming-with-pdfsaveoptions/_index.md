@@ -45,7 +45,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Cập nhật Thuộc tính được In Lần cuối trong Tài liệu PDF](./update-last-printed-property/) | Tìm hiểu cách cập nhật thuộc tính in cuối cùng trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. |
 | [Kết xuất 3D DML 3DEffects trong Tài liệu PDF](./dml-3deffects-rendering/) | Tìm hiểu cách tạo hiệu ứng DML 3D tuyệt đẹp trong tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Chèn hình ảnh vào tài liệu PDF](./interpolate-images/) | Tìm hiểu cách chèn hình ảnh vào tài liệu PDF bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện chất lượng hình ảnh PDF của bạn một cách dễ dàng. |
-
+| [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn từng bước](./create-accessible-pdf-from-word-step-by-step-guide/) | Tìm hiểu cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,7 +28,7 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 | [Add Bidi Marks in Word Document](./add-bidi-marks/) | Learn how to add bidirectional (Bidi) marks in Word documents using Aspose.Words for .NET with this guide. Ensure proper text direction for multi-language content. |
 | [Use Tab Character Per Level For List Indentation](./use-tab-character-per-level-for-list-indentation/) | Learn how to create multi-level lists with tabbed indentation using Aspose.Words for .NET. Follow this guide for precise list formatting in your documents. |
 | [Use Space Character Per Level For List Indentation](./use-space-character-per-level-for-list-indentation/) | Learn how to create multi-level lists with space character indentation in Aspose.Words for .NET. Step-by-step guide for precise document formatting. |
-
+| [How to Export LaTeX from Word – Convert DOCX to TXT with Equations](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Learn how to export LaTeX from Word by converting DOCX to TXT while preserving equations using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,7 +27,7 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Bidi-markeringen toevoegen aan een Word-document](./add-bidi-marks/) | Leer hoe u bidirectionele (Bidi) markeringen toevoegt aan Word-documenten met Aspose.Words voor .NET met deze handleiding. Zorg voor de juiste tekstrichting voor meertalige content. |
 | [Gebruik tabteken per niveau voor lijstinspringing](./use-tab-character-per-level-for-list-indentation/) | Leer hoe u lijsten met meerdere niveaus en tab-inspringing maakt met Aspose.Words voor .NET. Volg deze handleiding voor nauwkeurige lijstopmaak in uw documenten. |
 | [Gebruik spatieteken per niveau voor lijstinspringing](./use-space-character-per-level-for-list-indentation/) | Leer hoe u lijsten met meerdere niveaus met spatie-inspringing maakt in Aspose.Words voor .NET. Stapsgewijze handleiding voor nauwkeurige documentopmaak. |
-
+| [Hoe LaTeX exporteren vanuit Word – DOCX naar TXT met vergelijkingen](./how-to-export-latex-from-word-convert-docx-to-txt-with-equat/) | Leer hoe u LaTeX-code uit een Word-document exporteert en DOCX naar TXT converteert, inclusief formules, met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
