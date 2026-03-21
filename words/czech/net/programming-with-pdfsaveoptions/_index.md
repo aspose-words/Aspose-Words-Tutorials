@@ -45,7 +45,7 @@ Ať už chcete převést dokumenty Wordu do PDF pro online distribuci, archivaci
 | [Aktualizovat poslední vytištěnou vlastnost v dokumentu PDF](./update-last-printed-property/) | Naučte se, jak aktualizovat poslední vytištěnou vlastnost v dokumentu PDF pomocí Aspose.Words pro .NET s naším podrobným návodem. |
 | [Renderování 3D DML 3DEfektů v PDF dokumentu](./dml-3deffects-rendering/) | Naučte se, jak vykreslit úžasné 3D DML efekty v PDF dokumentech pomocí Aspose.Words pro .NET s tímto komplexním podrobným návodem. |
 | [Interpolace obrázků v dokumentu PDF](./interpolate-images/) | Naučte se, jak interpolovat obrázky v PDF dokumentu pomocí Aspose.Words pro .NET s naším podrobným návodem. Snadno vylepšete kvalitu obrázků ve vašem PDF. |
-
+| [Vytvoření přístupného PDF z Wordu – krok za krokem](./create-accessible-pdf-from-word-step-by-step-guide/) | Naučte se, jak vytvořit přístupný PDF soubor z dokumentu Word pomocí Aspose.Words pro .NET v tomto podrobném návodu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
