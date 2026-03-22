@@ -43,6 +43,7 @@ Whether you want to format text with different fonts, set font substitution rule
 | [Specify Default Font When Rendering](./specify-default-font-when-rendering/) | Learn how to specify a default font when rendering Word documents using Aspose.Words for .NET. Ensure consistent document appearance across platforms. |
 | [Font Settings With Load Options](./font-settings-with-load-options/) | Learn how to manage font settings with load options in Aspose.Words for .NET. Step-by-step guide for developers to ensure consistent font appearance in Word documents.|
 | [Set Fonts Folder](./set-fonts-folder/) | Learn how to set a custom fonts folder in Aspose.Words for .NET to ensure your Word documents are rendered correctly without missing fonts. |
+| [Save Word Document – Detect Missing Fonts with Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Learn how to save a Word document while detecting missing fonts using Aspose.Words for .NET. |
 | [Font Settings Default Instance](./font-settings-default-instance/) | In this tutorial, learn how to configure default font settings in a Word document with Aspose.Words for .NET. |
 | [Get List Of Available Fonts](./get-list-of-available-fonts/) | Discover how to get a list of available fonts using Aspose.Words for .NET in this detailed step-by-step tutorial. Boost your font management skills. |
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |

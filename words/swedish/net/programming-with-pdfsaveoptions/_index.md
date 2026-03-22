@@ -45,7 +45,8 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Uppdatera senast utskrivna egenskap i PDF-dokument](./update-last-printed-property/) | Lär dig hur du uppdaterar den senast utskrivna egenskapen i ett PDF-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. |
 | [Rendera 3D DML 3DEffects i ett PDF-dokument](./dml-3deffects-rendering/) | Lär dig hur du renderar fantastiska 3D DML-effekter i PDF-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-guiden. |
 | [Interpolera bilder i ett PDF-dokument](./interpolate-images/) | Lär dig hur du interpolerar bilder i ett PDF-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. Förbättra enkelt bildkvaliteten på din PDF. |
-
+| [Spara DOCX som PDF i C# – Komplett Aspose.Words-guide](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Lär dig hur du konverterar DOCX-filer till PDF med C# och Aspose.Words i en komplett steg-för-steg-guide. |
+| [Hur man ställer in PDF-alternativ i C# – Konvertera Word till PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Lär dig hur du konfigurerar PDF-alternativ i C# för att konvertera Word-dokument till PDF med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

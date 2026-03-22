@@ -21,6 +21,7 @@
 | Название | Описание |
 | --- | --- |
 | [Математические уравнения](./math-equations/) | Узнайте, как настраивать математические уравнения в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство с примерами, часто задаваемыми вопросами и многим другим. |
+| [Конвертировать Word в LaTeX – Полное руководство C# по экспорту Office Math в LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Узнайте, как экспортировать математические уравнения Office Math из Word в LaTeX с помощью C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

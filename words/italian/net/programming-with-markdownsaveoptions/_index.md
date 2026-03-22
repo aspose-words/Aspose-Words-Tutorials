@@ -32,6 +32,8 @@
 | [Come esportare Markdown da Word – Guida completa C#](./how-to-export-markdown-from-word-complete-c-guide/) | Scopri come esportare documenti Word in Markdown con una guida completa in C#. |
 | [Come esportare Markdown da DOCX – Guida completa](./how-to-export-markdown-from-docx-complete-guide/) | Scopri come esportare documenti DOCX in Markdown con una guida completa in C#. |
 | [Come salvare Markdown da DOCX – Guida passo‑passo](./how-to-save-markdown-from-docx-step-by-step-guide/) | Scopri come salvare documenti DOCX in Markdown con una guida passo‑passo completa. |
+| [Salva Word come Markdown – Guida completa per convertire Word in Markdown e estrarre immagini](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Impara a convertire documenti Word in Markdown e a estrarre le immagini con una guida completa passo‑passo in C#. |
+| [Salva DOCX come Markdown con Aspose.Words – Guida completa C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Impara a convertire file DOCX in Markdown usando Aspose.Words con una guida completa in C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

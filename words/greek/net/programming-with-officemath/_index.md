@@ -21,6 +21,7 @@
 | Τίτλος | Περιγραφή |
 | --- | --- |
 | [Μαθηματικές Εξισώσεις](./math-equations/) | Μάθετε πώς να ρυθμίζετε μαθηματικές εξισώσεις σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Οδηγός βήμα προς βήμα με παραδείγματα, συχνές ερωτήσεις και πολλά άλλα. |
+| [Μετατροπή Word σε LaTeX – Πλήρης Οδηγός C# για Εξαγωγή Office Math ως LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Μάθετε πώς να μετατρέπετε έγγραφα Word σε LaTeX, εξάγοντας μαθηματικές εξισώσεις Office Math με C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

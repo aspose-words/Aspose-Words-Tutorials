@@ -21,6 +21,7 @@ Aspose.Words för .NET-handledningarna om ordbehandling med OfficeMath guidar di
 | Titel | Beskrivning |
 | --- | --- |
 | [Matematiska ekvationer](./math-equations/) | Lär dig hur du konfigurerar matematiska ekvationer i Word-dokument med Aspose.Words för .NET. Steg-för-steg-guide med exempel, vanliga frågor och mer. |
+| [Konvertera Word till LaTeX – Komplett C#-guide för att exportera Office Math som LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Lär dig hur du konverterar Word-dokument till LaTeX och exporterar Office Math-ekvationer med C# i Aspose.Words för .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
