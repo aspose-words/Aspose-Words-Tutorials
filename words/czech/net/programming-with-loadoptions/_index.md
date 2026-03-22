@@ -22,17 +22,18 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
  ## Návody
 | Název | Popis |
 | --- | --- |
-| [Aktualizovat nečistá pole v dokumentu Word](./update-dirty-fields/) Snadno aktualizujte nefunkční pole ve vašich dokumentech Word pomocí Aspose.Words pro .NET s tímto komplexním a podrobným návodem. |
+| [Aktualizovat nečistá pole v dokumentu Word](./update-dirty-fields/) | Snadno aktualizujte nefunkční pole ve vašich dokumentech Word pomocí Aspose.Words pro .NET s tímto komplexním a podrobným návodem. |
 | [Načíst zašifrovaný dokument Word](./load-encrypted-document/) | Naučte se, jak načítat a ukládat šifrované dokumenty Wordu pomocí Aspose.Words pro .NET. Snadno zabezpečte své dokumenty novými hesly. Součástí je podrobný návod. |
 | [Převod tvaru do matematických formátů Office](./convert-shape-to-office-math/) | Naučte se, jak převádět tvary do formátu Office Math v dokumentech Word pomocí Aspose.Words pro .NET s naším průvodcem. Vylepšete formátování dokumentů bez námahy. |
 | [Nastavení verze MS Word](./set-ms-word-version/) | Naučte se, jak nastavit verze MS Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem. Ideální pro vývojáře, kteří chtějí zefektivnit práci s dokumenty. |
 | [Použití dočasné složky v dokumentu Word](./use-temp-folder/) | Naučte se, jak zvýšit výkon vašich .NET aplikací pomocí dočasné složky při načítání dokumentů Wordu pomocí Aspose.Words. |
-| [Zpětné volání varování v dokumentu Word](./warning-callback/) Naučte se, jak zachytit a zpracovat varování v dokumentech Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Zajistěte robustní zpracování dokumentů. |
+| [Zpětné volání varování v dokumentu Word](./warning-callback/) | Naučte se, jak zachytit a zpracovat varování v dokumentech Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Zajistěte robustní zpracování dokumentů. |
 | [Načíst s kódováním v dokumentu Word](./load-with-encoding/) | Naučte se, jak načíst dokument Wordu se specifickým kódováním pomocí Aspose.Words pro .NET. Podrobný návod s podrobným vysvětlením. |
 | [Přeskočit obrázky PDF](./skip-pdf-images/) | Naučte se, jak přeskakovat obrázky při načítání PDF dokumentů pomocí Aspose.Words pro .NET. Postupujte podle tohoto podrobného návodu pro bezproblémovou extrakci textu. |
 | [Převod metasouborů do formátu Png](./convert-metafiles-to-png/) | Snadno převeďte metasoubory do formátu PNG v dokumentech Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Zjednodušte si správu dokumentů. |
 | [Načtení souborů CHM do dokumentu Word](./load-chm/) | Snadno načtěte soubory CHM do dokumentů Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro konsolidaci vaší technické dokumentace. |
 | [Jak obnovit DOCX pomocí Aspose.Words – krok za krokem](./how-to-recover-docx-with-aspose-words-step-by-step/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory DOCX krok za krokem. |
+| [Jak obnovit soubory Word – kompletní průvodce s Aspose.Words](./how-to-recover-word-files-complete-guide-with-aspose-words/) | Naučte se, jak pomocí Aspose.Words obnovit poškozené soubory Word krok za krokem. |
 | [Aspose Load Options – Načíst DOCX s vlastními nastaveními písma](./aspose-load-options-load-docx-with-custom-font-settings/) | Naučte se, jak načíst soubor DOCX s vlastními nastaveními písma pomocí Aspose.LoadOptions v .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

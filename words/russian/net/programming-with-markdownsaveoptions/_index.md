@@ -32,6 +32,8 @@
 | [Как экспортировать Markdown из Word – Полное руководство C#](./how-to-export-markdown-from-word-complete-c-guide/) | Полное руководство по экспорту Markdown из Word с использованием C# и Aspose.Words. |
 | [Как сохранить Markdown из DOCX – пошаговое руководство](./how-to-save-markdown-from-docx-step-by-step-guide/) | Подробное руководство по сохранению документа DOCX в формате Markdown с пошаговыми инструкциями на C#. |
 | [Как экспортировать Markdown из DOCX – Полное руководство](./how-to-export-markdown-from-docx-complete-guide/) | Полное руководство по экспорту Markdown из DOCX с использованием Aspose.Words для .NET. |
+| [Сохранить Word как Markdown – Полное руководство по конвертации Word в Markdown и извлечению изображений](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/) | Полное руководство по сохранению Word в Markdown с извлечением изображений с помощью Aspose.Words для .NET. |
+| [Сохранить DOCX как Markdown с Aspose.Words – Полное руководство C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/) | Подробное руководство по сохранению DOCX в Markdown с использованием Aspose.Words и C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

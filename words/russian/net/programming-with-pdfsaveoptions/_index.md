@@ -45,6 +45,8 @@
 | [Обновить последнее напечатанное свойство в документе PDF](./update-last-printed-property/) | Узнайте, как обновить последнее напечатанное свойство в документе PDF с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. |
 | [Визуализация 3D DML 3DEffects в PDF-документе](./dml-3deffects-rendering/) | Узнайте, как визуализировать потрясающие 3D-эффекты DML в документах PDF с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. |
 | [Интерполяция изображений в PDF-документе](./interpolate-images/) | Узнайте, как интерполировать изображения в PDF-документе с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Улучшите качество изображений в PDF-файле легко. |
+| [Как установить параметры PDF в C# – Преобразовать Word в PDF](./how-to-set-pdf-options-in-c-convert-word-to-pdf/) | Узнайте, как настроить параметры PDF при конвертации Word в PDF с помощью Aspose.Words для .NET на C#. |
+| [Сохранить DOCX в PDF на C# – Полное руководство Aspose.Words](./save-docx-as-pdf-in-c-complete-aspose-words-guide/) | Полное руководство по сохранению DOCX в PDF с помощью Aspose.Words для .NET на C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

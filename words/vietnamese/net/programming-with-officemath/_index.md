@@ -21,6 +21,7 @@ Hướng dẫn Aspose.Words for .NET về Xử lý Words với OfficeMath sẽ h
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Phương trình toán học](./math-equations/) | Tìm hiểu cách cấu hình các phương trình toán học trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ, câu hỏi thường gặp và nhiều hơn nữa. |
+| [Chuyển đổi Word sang LaTeX – Hướng dẫn C# đầy đủ để xuất Office Math dưới dạng LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang LaTeX, bao gồm xuất các công thức Office Math bằng C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -24,7 +24,7 @@ Apakah Anda ingin memformat teks dengan font yang berbeda, mengatur aturan pengg
 
  ## Tutorial
 | Judul | Deskripsi |
-Bahasa Indonesia: --- | --- Bahasa Indonesia:
+Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Pemformatan Font](./font-formatting/) | Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci. Bahasa Indonesia:
 | [Dapatkan Spasi Baris Font](./get-font-line-spacing/) | Pelajari cara mendapatkan spasi baris font menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang. Bahasa Indonesia:
 | [Periksa Efek Teks DrawingML](./check-drawingml-text-effect/) Pelajari cara memeriksa efek teks DrawingML dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Sempurnakan dokumen Anda dengan mudah. Bahasa Indonesia:
@@ -48,6 +48,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Terima Pemberitahuan Peringatan](./receive-warning-notification/) Pelajari cara menerima pemberitahuan peringatan saat menggunakan Aspose.Words untuk .NET dan mengelola masalah atau peringatan apa pun dalam dokumen Anda. Bahasa Indonesia:
 | [Contoh Sumber Font Steam Sumber Daya](./resource-steam-font-source-example/) | Pelajari cara menggunakan Resource Stream Font Source untuk memuat font kustom ke Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Dapatkan Substitusi Tanpa Sufiks](./get-substitution-without-suffixes/) | Dalam tutorial ini, pelajari cara mendapatkan penggantian tanpa sufiks dalam dokumen Word dengan Aspose.Words untuk .NET. |
+| [Simpan Dokumen Word – Deteksi Font yang Hilang dengan Aspose.Words](./save-word-document-detect-missing-fonts-with-aspose-words/) | Pelajari cara menyimpan dokumen Word sambil mendeteksi font yang hilang menggunakan Aspose.Words untuk .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

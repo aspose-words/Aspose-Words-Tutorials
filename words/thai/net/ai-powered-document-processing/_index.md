@@ -42,6 +42,7 @@
 | [การทำงานกับโมเดล AI ของ Google](./working-with-google-ai-model/) ยกระดับการประมวลผลเอกสารของคุณด้วย Aspose.Words สำหรับ .NET และ Google AI เพื่อสร้างบทสรุปสั้นๆ ได้โดยไม่ต้องใช้ความพยายาม -
 | [การทำงานกับโมเดล AI แบบเปิด](./working-with-open-ai-model/) | ปลดล็อกการสรุปเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมด้วยโมเดลอันทรงพลังของ OpenAI เจาะลึกคู่มือฉบับสมบูรณ์นี้เลยตอนนี้ -
 | [การทำงานกับตัวเลือกการสรุป](./working-with-summarize-options/) | เรียนรู้การสรุปเอกสาร Word ได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนในการบูรณาการโมเดล AI เพื่อรับข้อมูลเชิงลึกอย่างรวดเร็ว |
+- [วิธีตรวจสอบไวยากรณ์และสรุปเอกสาร Word ด้วย Aspose.Words AI](./how-to-check-grammar-and-summarize-word-document-with-aspose/) | เรียนรู้การใช้ Aspose.Words AI เพื่อตรวจสอบไวยากรณ์และสรุปเนื้อหาในเอกสาร Word อย่างมีประสิทธิภาพ -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

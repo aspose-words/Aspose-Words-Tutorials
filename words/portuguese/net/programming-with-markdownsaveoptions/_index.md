@@ -41,6 +41,9 @@ Aprenda a converter arquivos DOCX para Markdown em C# com instruções detalhada
 ### [Salvar docx como markdown – Guia completo em C# com extração de imagens](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Aprenda a converter arquivos DOCX para Markdown em C#, extrair imagens e mantendo a formatação com Aspose.Words.
 
+### [Salvar DOCX como Markdown com Aspose.Words – Guia Completo em C#](./save-docx-as-markdown-with-aspose-words-complete-c-guide/)
+Aprenda a converter arquivos DOCX para Markdown usando Aspose.Words em C#, com exemplos detalhados.
+
 ### [Como Exportar Markdown do Word – Guia Completo em C#](./how-to-export-markdown-from-word-complete-c-guide/)
 Aprenda a exportar documentos Word para Markdown usando C# com Aspose.Words, passo a passo e exemplos de código.
 
@@ -49,6 +52,9 @@ Aprenda a exportar documentos DOCX para Markdown usando C# com Aspose.Words, pas
 
 ### [Como salvar Markdown de DOCX – Guia passo a passo](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Aprenda a salvar documentos DOCX como arquivos Markdown passo a passo usando Aspose.Words para .NET.
+
+### [Salvar Word como Markdown – Guia Completo para Converter Word em Markdown e Extrair Imagens](./save-word-as-markdown-complete-guide-to-convert-word-to-mark/)
+Aprenda a converter documentos Word para Markdown e extrair imagens usando Aspose.Words para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

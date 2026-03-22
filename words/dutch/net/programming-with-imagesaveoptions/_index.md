@@ -28,6 +28,7 @@ De tutorials behandelen ook de basisprincipes van beeldmanipulatie, waaronder he
 | [Jpeg-paginabereik ophalen](./get-jpeg-page-range/) Converteer specifieke pagina's van Word-documenten naar JPEG met aangepaste instellingen met Aspose.Words voor .NET. Leer stap voor stap hoe u helderheid, contrast en resolutie aanpast. |
 | [Terugbelfunctie voor opslaan van pagina's](./page-saving-callback/) | Leer hoe u elke pagina van een Word-document als een aparte PNG-afbeelding kunt opslaan met Aspose.Words voor .NET met behulp van onze gedetailleerde, stapsgewijze handleiding. |
 | [Hoe DPI in te stellen bij het converteren van Word naar PNG – Complete C#-gids](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Leer hoe u de DPI-instelling kunt aanpassen bij het converteren van Word-documenten naar PNG met Aspose.Words voor .NET in C#. |
+| [Maak PNG-raster van Word-document – Complete gids](./create-png-grid-from-word-document-complete-guide/) | Leer hoe u een PNG-raster maakt van een Word-document met Aspose.Words voor .NET in deze volledige stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

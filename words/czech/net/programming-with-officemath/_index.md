@@ -21,7 +21,7 @@ Výukové programy Aspose.Words pro .NET o zpracování textu v OfficeMath vás 
 | Název | Popis |
 | --- | --- |
 | [Matematické rovnice](./math-equations/) | Naučte se, jak konfigurovat matematické rovnice v dokumentech Wordu pomocí Aspose.Words pro .NET. Podrobný návod s příklady, nejčastějšími dotazy a dalšími informacemi. |
-
+| [Převod Wordu na LaTeX – Kompletní průvodce C# pro export Office Math jako LaTeX](./convert-word-to-latex-complete-c-guide-to-export-office-math/) | Naučte se, jak pomocí Aspose.Words pro .NET převést rovnice Office Math z dokumentu Word do LaTeXu v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
