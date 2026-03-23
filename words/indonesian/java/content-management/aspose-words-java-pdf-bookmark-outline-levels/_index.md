@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Pelajari cara mengatur bookmark secara efektif dalam PDF menggunakan Aspose.Words untuk Java. Tingkatkan keterbacaan dan navigasi dengan panduan lengkap ini."
-"title": "Tingkat Garis Besar Penanda Buku Utama dalam PDF Menggunakan Aspose.Words Java"
-"url": "/id/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-03-23'
+description: Pelajari cara menambahkan bookmark dan mengonfigurasi tingkat outline
+  saat mengonversi dokumen Word ke PDF menggunakan Aspose.Words for Java. Panduan
+  ini mencakup konversi bookmark Word ke PDF dan meningkatkan navigasi.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: Cara Menambahkan Bookmark di PDF dengan Aspose.Words Java
+url: /id/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +18,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara Menambahkan Bookmark pada PDF dengan Aspose.Words Java
 
-# Tingkat Garis Besar Penanda Buku Utama dalam PDF Menggunakan Aspose.Words Java
+## Introduction
+Jika Anda pernah kesulitan **menambahkan bookmark** yang membuat PDF mudah dinavigasi, Anda berada di tempat yang tepat. Pada tutorial ini kami akan membahas **cara menambahkan bookmark** dan mengatur level outline saat mengonversi dokumen Word ke PDF menggunakan Aspose.Words untuk Java. Pada akhir tutorial Anda akan memahami alur kerja lengkap—dari membuat bookmark bersarang dalam file Word hingga mengekspor PDF yang bersih, dapat dicari, dengan hierarki bookmark yang logis.
 
-## Perkenalan
-Kesulitan mengelola bookmark saat mengonversi dokumen Word ke PDF? Tutorial ini akan menunjukkan cara menggunakan Aspose.Words untuk Java untuk mengatur bookmark dokumen Anda secara efektif, menjadikannya profesional dan mudah dinavigasi.
+**Apa yang akan Anda pelajari**
+- Menyiapkan Aspose.Words untuk Java dalam proyek Anda  
+- Membuat bookmark bersarang di dalam dokumen Word  
+- Mengonfigurasi level outline bookmark untuk pengalaman navigasi PDF yang rapi  
+- Menyimpan dokumen sebagai PDF sambil mempertahankan struktur bookmark  
 
-**Apa yang Akan Anda Pelajari:**
-- Siapkan dan gunakan Aspose.Words untuk Java
-- Membuat bookmark bersarang di dokumen Word
-- Konfigurasikan tingkat garis besar penanda buku untuk organisasi yang lebih baik
-- Simpan dokumen sebagai PDF dengan penanda terstruktur
+### Quick Answers
+- **Apa manfaat utama menambahkan bookmark?** Bookmark memungkinkan pembaca melompat langsung ke bagian tertentu, meningkatkan kegunaan.  
+- **Perpustakaan mana yang menangani bookmark PDF di Java?** Aspose.Words untuk Java (dengan opsional Aspose.PDF untuk pemrosesan lanjutan).  
+- **Apakah saya memerlukan lisensi untuk fitur ini?** Versi percobaan dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya mengontrol hierarki bookmark?** Ya, dengan mengatur level outline melalui `PdfSaveOptions`.  
+- **Apakah pendekatan ini cocok untuk dokumen besar?** Tentu—Aspose.Words mengalirkan konten secara efisien.
 
-Mari kita bahas prasyaratnya sebelum memulai!
+## What is “how to add bookmarks” in the context of PDF conversion?
+Menambahkan bookmark berarti menyisipkan anchor bernama dalam dokumen Word yang dibawa ke PDF. Ketika PDF dibuka, bookmark ini muncul di panel navigasi, memungkinkan pengguna menemukan bab, bagian, atau titik khusus secara instan.
 
-### Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
-- **Perpustakaan dan Ketergantungan**: Aspose.Words untuk Java (versi 25.3 atau yang lebih baru).
-- **Pengaturan Lingkungan**: JDK terinstal di komputer Anda bersama dengan IDE yang kompatibel seperti IntelliJ IDEA atau Eclipse.
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
+## Why use Aspose.Words for Java to convert Word → PDF bookmarks?
+Aspose.Words mempertahankan hierarki bookmark persis seperti yang Anda definisikan di Word, tidak seperti banyak konverter gratis yang meratakan atau menghilangkannya. Ia juga memungkinkan Anda menetapkan **outline levels**, memberi kontrol detail atas tampilan daftar isi PDF.
 
-## Menyiapkan Aspose.Words
-Untuk memulai, sertakan dependensi yang diperlukan dalam proyek Anda. Berikut cara melakukannya menggunakan Maven dan Gradle:
+## Prerequisites
+- **Libraries**: Aspose.Words untuk Java (25.3 atau lebih baru).  
+- **Development environment**: JDK 8 atau lebih baru, IDE seperti IntelliJ IDEA atau Eclipse.  
+- **Build tool**: Maven atau Gradle (sesuai pilihan Anda).  
+- **Pengetahuan dasar Java** dan familiaritas dengan Maven/Gradle.
 
-**Pakar:**
+### Setting Up Aspose.Words
+Tambahkan perpustakaan ke proyek Anda menggunakan salah satu cuplikan di bawah ini.
+
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +60,150 @@ Untuk memulai, sertakan dependensi yang diperlukan dalam proyek Anda. Berikut ca
 </dependency>
 ```
 
-**Gradasi:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Akuisisi Lisensi
-Aspose.Words adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya. Berikut langkah-langkahnya:
-1. **Uji Coba Gratis**:Unduh dari [Halaman rilis Aspose](https://releases.aspose.com/words/java/) untuk menguji kemampuan penuh.
-2. **Lisensi Sementara**Ajukan permohonan lisensi sementara di [Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/) jika diperlukan.
-3. **Pembelian**:Untuk penggunaan berkelanjutan, beli lisensi dari [Portal pembelian Aspose](https://purchase.aspose.com/buy).
+### License Acquisition
+Aspose.Words bersifat komersial, tetapi Anda dapat memulai dengan percobaan gratis:
 
-Setelah Anda memiliki berkas lisensi, inisialisasikan dalam proyek Anda untuk membuka fitur lengkap Aspose.Words.
+1. **Free Trial** – Unduh dari [Aspose's release page](https://releases.aspose.com/words/java/) untuk menguji semua kemampuan.  
+2. **Temporary License** – Ajukan di [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/) untuk proyek jangka pendek.  
+3. **Purchase** – Dapatkan lisensi permanen melalui [Aspose’s purchasing portal](https://purchase.aspose.com/buy).
 
-## Panduan Implementasi
-Mari kita uraikan implementasinya menjadi beberapa bagian yang dapat dikelola:
+Setelah memperoleh file `.lic`, muat file tersebut saat aplikasi dimulai untuk membuka semua fitur.
 
-### Membuat Bookmark Bersarang
-**Ringkasan**: Pelajari cara membuat penanda halaman bersarang dalam dokumen Word menggunakan Aspose.Words untuk Java.
+## Step‑by‑Step Guide
 
-#### Langkah 1: Inisialisasi Dokumen dan Pembuat
+### Creating Nested Bookmarks
+**Overview:** Kami akan membuat dokumen Word sederhana dengan tiga bookmark, di mana satu bookmark berada di dalam bookmark lain.
+
+#### Step 1: Initialize Document and Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Ini menyiapkan lingkungan dokumen Word Anda tempat Anda dapat mulai menyisipkan konten.
+Ini membuat dokumen Word kosong dan objek builder yang memungkinkan kita menyisipkan teks serta bookmark.
 
-#### Langkah 2: Masukkan Bookmark Bersarang
-Mulailah dengan membuat penanda utama:
+#### Step 2: Insert the First (parent) Bookmark
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Sekarang, tambahkan penanda lain di dalamnya:
+
+#### Step 3: Nest a Second Bookmark Inside the First
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Akhiri penanda buku bersarang
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Lengkapi penanda luar:
+
+#### Step 4: Close the Parent Bookmark
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Langkah 3: Tambahkan Bookmark Tambahan
-Terus tambahkan penanda sesuai kebutuhan. Misalnya, penanda ketiga yang terpisah:
+#### Step 5: Add an Independent Third Bookmark
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### Mengonfigurasi Tingkat Garis Besar Bookmark
-**Ringkasan**: Atur penanda buku Anda dengan mengatur tingkat garis besarnya untuk navigasi yang lebih baik dalam PDF.
+Pada titik ini dokumen Word berisi hierarki yang jelas yang nantinya dapat diterjemahkan ke level outline PDF.
 
-#### Langkah 1: Siapkan PdfSaveOptions
+### Configuring Bookmark Outline Levels
+**Overview:** Level outline memberi tahu penampil PDF seberapa dalam setiap bookmark berada di panel navigasi.
+
+#### Step 1: Prepare `PdfSaveOptions`
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Potongan kode ini menginisialisasi opsi yang akan Anda gunakan untuk menyimpan dokumen Anda sebagai PDF dengan penanda yang terorganisir.
 
-#### Langkah 2: Tambahkan Level Garis Besar
-Tetapkan level pada setiap penanda, yang akan menentukan hierarkinya:
+#### Step 2: Assign Levels to Each Bookmark
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Ditempatkan di bawah Bookmark 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
+Level 1 muncul di tingkat teratas, level 2 sebagai anak, dan seterusnya.
 
-#### Langkah 3: Simpan Dokumen
-Terakhir, simpan dokumen Anda sebagai PDF dengan pengaturan berikut:
+#### Step 3: Save the Document as PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
+PDF yang dihasilkan akan menampilkan panel bookmark terstruktur yang mencerminkan hierarki yang telah kita definisikan.
 
-### Tips Pemecahan Masalah
-- **Bookmark yang Hilang**: Pastikan setiap `startBookmark` memiliki yang sesuai `endBookmark`.
-- **Level yang Salah**Verifikasi hierarki dengan memeriksa hubungan induk-anak dalam kode Anda.
+## Common Issues and Solutions
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Bookmark menghilang di PDF | `PdfSaveOptions` tidak dikonfigurasi | Pastikan `outlineLevels` ditambahkan sebelum menyimpan. |
+| Bookmark bersarang muncul di level teratas | Nomor level salah | Verifikasi bahwa bookmark anak menerima level numerik yang lebih tinggi. |
+| Tidak ada pemanggilan `endBookmark` | Pemanggilan start/end tidak seimbang | Periksa kembali setiap `startBookmark` memiliki `endBookmark` yang cocok. |
 
-## Aplikasi Praktis
-Berikut adalah beberapa skenario di mana Anda dapat menerapkan pengetahuan ini:
-1. **Dokumen Hukum**: Atur bagian dan subbagian untuk referensi mudah.
-2. **Laporan**: Gunakan penanda bersarang untuk menavigasi struktur data yang kompleks.
-3. **Materi Pendidikan**: Menyusun bab, sub-bab, dan poin-poin utama secara efisien.
+## Practical Applications
+- **Legal contracts** – Lompat cepat ke klausul dan sub‑klausul.  
+- **Technical reports** – Navigasi bagian besar seperti metodologi, hasil, dan lampiran.  
+- **E‑learning PDFs** – Sediakan daftar isi yang dapat diklik untuk setiap bab.
 
-## Pertimbangan Kinerja
-- Optimalkan ukuran dokumen dengan menghapus konten yang tidak diperlukan sebelum menyimpannya.
-- Kelola penggunaan memori secara efektif saat menangani dokumen besar.
+## Performance Tips
+- Hapus bagian yang tidak terpakai sebelum menyimpan untuk menjaga PDF tetap ringan.  
+- Gunakan streaming (`doc.save(OutputStream)`) untuk file sangat besar guna mengurangi jejak memori.
 
-## Kesimpulan
-Anda kini telah mempelajari cara menerapkan level kerangka penanda halaman secara efektif menggunakan Aspose.Words untuk Java. Keterampilan ini akan sangat meningkatkan kemudahan navigasi PDF Anda, membuatnya lebih ramah pengguna dan profesional.
+## Conclusion
+Anda kini mengetahui **cara menambahkan bookmark** dan mengatur level outline-nya saat mengonversi dokumen Word ke PDF dengan Aspose.Words untuk Java. Teknik ini secara dramatis meningkatkan navigasi PDF, menjadikan dokumen Anda lebih profesional dan ramah pengguna.
 
-**Langkah Berikutnya**: Bereksperimenlah dengan struktur dokumen yang berbeda atau integrasikan fungsi ini ke dalam aplikasi yang lebih besar untuk melihat manfaatnya dalam tindakan.
+**Langkah selanjutnya:** Coba tambahkan ikon khusus ke bookmark melalui objek `PdfBookmark`, atau integrasikan alur kerja ini ke layanan pemrosesan batch yang secara otomatis mengonversi banyak file Word.
 
-## Bagian FAQ
-1. **Bagaimana cara menginstal Aspose.Words untuk Java?**
-   - Sertakan sebagai dependensi melalui Maven atau Gradle, lalu atur berkas lisensi Anda.
-2. **Bisakah saya menggunakan penanda buku tanpa level garis besar?**
-   - Ya, tetapi penggunaan level garis besar meningkatkan navigasi dalam PDF.
-3. **Apa saja batasan pada penumpukan penanda buku?**
-   - Tidak ada batasan yang ketat, tetapi pertimbangkan keterbacaan dan struktur bagi pengguna.
-4. **Bagaimana Aspose menangani dokumen besar?**
-   - Ia mengelola sumber daya secara efisien, meskipun pengoptimalan direkomendasikan untuk file yang sangat besar.
-5. **Bisakah saya mengubah penanda buku setelah menyimpan PDF?**
-   - Ya, menggunakan Aspose.PDF untuk Java untuk mengedit bookmark pasca konversi.
+## FAQ Section
+1. **Bagaimana cara menginstal Aspose.Words untuk Java?**  
+   Tambahkan sebagai dependensi melalui Maven atau Gradle, lalu siapkan file lisensi Anda.  
+2. **Apakah saya dapat menggunakan bookmark tanpa level outline?**  
+   Ya, tetapi level outline memberikan hierarki yang lebih jelas di penampil PDF.  
+3. **Apa batasan pada nesting bookmark?**  
+   Tidak ada batasan ketat, tetapi jaga struktur tetap dapat dibaca oleh pengguna akhir.  
+4. **Bagaimana Aspose menangani dokumen besar?**  
+   Ia mengalirkan konten secara efisien; tetap pertimbangkan optimasi sumber daya untuk file yang sangat besar.  
+5. **Bisakah saya memodifikasi bookmark setelah menyimpan PDF?**  
+   Ya—gunakan Aspose.PDF untuk Java guna mengedit bookmark setelah konversi.
 
-## Sumber daya
-- [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/)
-- [Unduh Rilisan Terbaru](https://releases.aspose.com/words/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/words/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10)
+## Frequently Asked Questions
 
+**Q: Apakah metode ini bekerja dengan versi Aspose.Words terbaru?**  
+A: Tentu saja. API untuk level outline bookmark telah stabil sejak versi 20.  
+
+**Q: Apakah diperlukan perpustakaan Aspose.PDF terpisah untuk melihat bookmark?**  
+A: Tidak. Bookmark disematkan dalam PDF dan terlihat di penampil PDF standar mana pun.  
+
+**Q: Bisakah saya mengubah judul bookmark secara programatis setelah PDF dibuat?**  
+A: Ya, dengan memuat PDF menggunakan Aspose.PDF dan memperbarui koleksi `PdfBookmark`.  
+
+**Q: Apakah pendekatan ini bekerja di platform non‑Windows?**  
+A: Aspose.Words untuk Java bersifat platform‑independen; ia berjalan di sistem operasi apa pun yang mendukung JDK yang didukung.  
+
+**Q: Bagaimana cara menguji hierarki bookmark tanpa membuka PDF?**  
+A: Gunakan `PdfBookmarkCollection` dari Aspose.PDF untuk menelusuri dan memverifikasi level secara programatis.
+
+---
+
+**Last Updated:** 2026-03-23  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
+
+**Resources**  
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)  
+- [Download Latest Releases](https://releases.aspose.com/words/java/)  
+- [Purchase a License](https://purchase.aspose.com/buy)  
+- [Free Trial](https://releases.aspose.com/words/java/)  
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)  
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
