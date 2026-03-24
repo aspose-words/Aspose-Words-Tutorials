@@ -32,6 +32,8 @@
 | [Word에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 내보내는 전체 C# 가이드 |
 | [DOCX에서 Markdown 저장 방법 – 단계별 가이드](./how-to-save-markdown-from-docx-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 저장하는 단계별 가이드를 제공합니다. |
 | [DOCX에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-docx-complete-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 내보내는 전체 C# 가이드 |
+| [docx를 markdown으로 저장 – 빈 단락 포함 전체 가이드](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/) | Aspose.Words for .NET을 사용하여 빈 단락이 포함된 docx 파일을 Markdown으로 변환하는 전체 가이드 |
+| [링크 내보내기: C#에서 DOCX를 Markdown으로 변환하는 방법](./how-to-export-links-convert-docx-to-markdown-in-c/) | Aspose.Words for .NET을 사용하여 DOCX 파일의 링크를 Markdown으로 내보내는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

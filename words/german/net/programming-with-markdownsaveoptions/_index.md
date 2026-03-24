@@ -49,6 +49,12 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit leeren Absätzen](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und leere Absätze korrekt behandeln – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Wie man Links exportiert: DOCX in Markdown konvertieren in C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
+Erfahren Sie, wie Sie Links aus DOCX‑Dateien in Markdown exportieren – komplette Anleitung in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

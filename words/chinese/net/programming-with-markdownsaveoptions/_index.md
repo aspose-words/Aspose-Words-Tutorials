@@ -51,6 +51,14 @@
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
 
+### [将 docx 保存为 markdown – 完整指南（含空段落）](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+
+使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，处理空段落，提供完整的 C# 示例和步骤指南。
+
+### [如何导出链接：在 C# 中将 DOCX 转换为 Markdown](./how-to-export-links-convert-docx-to-markdown-in-c/)
+
+使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，并演示如何导出链接，提供完整的 C# 示例和步骤。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

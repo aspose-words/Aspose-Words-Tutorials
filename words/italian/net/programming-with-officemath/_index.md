@@ -21,6 +21,7 @@ tutorial di Aspose.Words per .NET sull'elaborazione testi con OfficeMath vi guid
 | Titolo | Descrizione |
 | --- | --- |
 | [Equazioni matematiche](./math-equations/) | Scopri come configurare equazioni matematiche nei documenti Word utilizzando Aspose.Words per .NET. Guida dettagliata con esempi, FAQ e altro ancora. |
+| [Salva docx come txt – Esporta Word Math in LaTeX in C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Impara a salvare documenti .docx come file .txt ed esportare le equazioni Word Math in LaTeX usando C# e Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

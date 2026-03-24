@@ -35,6 +35,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Zapisz PDF do formatu Word (Docx)](./pdf-to-docx/) | Dowiedz się, jak przekonwertować plik PDF na dokument Word (Docx) za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Idealne dla programistów. |
 | [Jak wyeksportować LaTeX z Worda – przewodnik krok po kroku](./how-to-export-latex-from-word-step-by-step-guide/) | Dowiedz się, jak wyeksportować dokument Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Jak utworzyć PDF z Worda w C# – Przewodnik krok po kroku](./how-to-create-pdf-from-word-in-c-step-by-step-guide/) | Dowiedz się, jak w prosty sposób wygenerować plik PDF z dokumentu Word przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
