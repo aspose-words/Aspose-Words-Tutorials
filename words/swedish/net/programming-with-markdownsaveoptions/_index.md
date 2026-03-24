@@ -50,6 +50,12 @@ Lär dig spara DOCX som Markdown med en detaljerad steg‑för‑steg‑guide i 
 ### [Hur man exporterar Markdown från DOCX – Fullständig guide](./how-to-export-markdown-from-docx-complete-guide/)
 Lär dig exportera Markdown från DOCX-filer med en komplett guide i C#.
 
+### [Spara docx som markdown – Fullständig guide med tomma stycken](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+Lär dig spara DOCX-filer som Markdown och hantera tomma stycken med en komplett C#‑guide.
+
+### [Hur man exporterar länkar: Konvertera DOCX till Markdown i C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
+Lär dig hur du exporterar länkar när du konverterar DOCX-filer till Markdown med C# och Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

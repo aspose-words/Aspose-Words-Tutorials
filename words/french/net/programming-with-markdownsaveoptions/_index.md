@@ -48,6 +48,14 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [Enregistrer docx en markdown – Guide complet avec paragraphes vides](./save-docx-as-markdown-complete-guide-with-empty-paragraphs/)
+
+Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les paragraphes vides grâce à Aspose.Words pour .NET.
+
+### [Comment exporter des liens : convertir DOCX en Markdown en C#](./how-to-export-links-convert-docx-to-markdown-in-c/)
+
+Apprenez à exporter les liens d'un document DOCX vers Markdown en utilisant C# et Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
