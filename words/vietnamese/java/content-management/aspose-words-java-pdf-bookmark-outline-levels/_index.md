@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách sắp xếp dấu trang hiệu quả trong PDF bằng Aspose.Words for Java. Tăng khả năng đọc và điều hướng với hướng dẫn toàn diện này."
-"title": "Đánh dấu trang chính phác thảo các cấp độ trong PDF bằng cách sử dụng Aspose.Words Java"
-"url": "/vi/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-03-25'
+description: Tìm hiểu cách tạo bookmark và tạo PDF có bookmark bằng Aspose.Words for
+  Java. Hướng dẫn chi tiết này bao gồm việc lồng bookmark, cấp độ đề mục và xuất PDF.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: Cách tạo dấu trang trong PDF bằng Aspose.Words cho Java
+url: /vi/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +17,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Đánh dấu trang chính phác thảo các cấp độ trong PDF bằng cách sử dụng Aspose.Words Java
+# Tạo Các Cấp Độ Đánh Dấu (Bookmark) Trong PDF Sử Dụng Aspose.Words Java
 
 ## Giới thiệu
-Bạn đang gặp khó khăn trong việc quản lý dấu trang khi chuyển đổi tài liệu Word thành PDF? Hướng dẫn này sẽ chỉ cho bạn cách sử dụng Aspose.Words for Java để sắp xếp dấu trang tài liệu của bạn một cách hiệu quả, giúp chúng trở nên chuyên nghiệp và dễ điều hướng.
+Nếu bạn cần **cách tạo bookmark** giúp PDF của bạn dễ dàng điều hướng, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi qua cách cài đặt Aspose.Words cho Java, tạo các bookmark lồng nhau, gán cấp độ outline, và cuối cùng **tạo PDF với bookmark** trông chuyên nghiệp và thân thiện với người dùng. Khi hoàn thành, bạn sẽ có một mẫu có thể tái sử dụng trong bất kỳ dự án Java nào.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập và sử dụng Aspose.Words cho Java
-- Tạo dấu trang lồng nhau trong tài liệu Word
-- Cấu hình mức phác thảo dấu trang để tổ chức tốt hơn
-- Lưu tài liệu dưới dạng PDF với dấu trang có cấu trúc
+**Bạn sẽ học được**
+- Cài đặt và cấp phép Aspose.Words cho Java  
+- Tạo bookmark lồng nhau trong tài liệu Word  
+- Cấu hình cấp độ outline cho bookmark để điều hướng theo cấp bậc  
+- Lưu tài liệu dưới dạng PDF với các bookmark được cấu trúc đúng  
 
-Chúng ta hãy cùng xem qua các điều kiện tiên quyết trước khi bắt đầu!
+### Câu trả lời nhanh
+- **Lớp chính để xây dựng tài liệu là gì?** `DocumentBuilder`  
+- **Tôi có thể lồng bookmark không?** Có, chỉ cần bắt đầu một bookmark mới trước khi kết thúc bookmark cha.  
+- **Làm sao để đặt cấp độ outline?** Sử dụng `PdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels()`.  
+- **Có cần giấy phép để xuất PDF không?** Bản dùng thử hoạt động, nhưng giấy phép sẽ loại bỏ các giới hạn đánh giá.  
+- **Cụm từ khóa mục tiêu của hướng dẫn này là gì?** *cách tạo bookmark*  
 
-### Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện và các phụ thuộc**: Aspose.Words cho Java (phiên bản 25.3 trở lên).
-- **Thiết lập môi trường**: JDK được cài đặt trên máy của bạn cùng với IDE tương thích như IntelliJ IDEA hoặc Eclipse.
-- **Điều kiện tiên quyết về kiến thức**: Hiểu biết cơ bản về lập trình Java và quen thuộc với hệ thống xây dựng Maven hoặc Gradle.
+## “cách tạo bookmark” trong Aspose.Words là gì?
+Bookmark là các vị trí có tên bên trong tài liệu Word, trở thành các mục có thể nhấp được trong khung outline của PDF. Chúng cho phép người đọc nhảy trực tiếp tới các phần, bảng hoặc hình mà không cần cuộn.
 
-## Thiết lập Aspose.Words
-Để bắt đầu, hãy bao gồm các dependency cần thiết trong dự án của bạn. Sau đây là cách bạn có thể thực hiện bằng Maven và Gradle:
+## Tại sao phải tạo PDF với bookmark?
+Nhúng bookmark trong quá trình tạo PDF giúp bạn tránh bước xử lý hậu kỳ, cải thiện khả năng truy cập, và mang lại cho các tài liệu pháp lý hoặc kỹ thuật một cấu trúc sạch sẽ, có thể tìm kiếm được.
 
-**Chuyên gia:**
+## Yêu cầu trước
+- **Thư viện và phụ thuộc**: Aspose.Words cho Java (phiên bản 25.3 hoặc mới hơn).  
+- **Môi trường**: JDK 8 hoặc mới hơn, IntelliJ IDEA/Eclipse, và Maven hoặc Gradle.  
+- **Kiến thức**: Java cơ bản, tệp cấu hình Maven/Gradle, và hiểu biết cơ bản về PDF.
+
+## Cài đặt Aspose.Words
+Để bắt đầu, thêm các phụ thuộc cần thiết vào dự án của bạn. Dưới đây là cách thực hiện với Maven và Gradle:
+
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +58,133 @@ Trước khi bắt đầu, hãy đảm bảo bạn có:
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Mua lại giấy phép
-Aspose.Words là một sản phẩm thương mại, nhưng bạn có thể bắt đầu dùng thử miễn phí để khám phá các tính năng của nó. Sau đây là các bước:
-1. **Dùng thử miễn phí**: Tải xuống từ [Trang phát hành của Aspose](https://releases.aspose.com/words/java/) để kiểm tra toàn bộ khả năng.
-2. **Giấy phép tạm thời**Nộp đơn xin cấp giấy phép tạm thời tại [Trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/) nếu cần.
-3. **Mua**: Để sử dụng liên tục, hãy mua giấy phép từ [Cổng mua sắm của Aspose](https://purchase.aspose.com/buy).
+### Cách nhận giấy phép
+Aspose.Words là sản phẩm thương mại, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí để khám phá các tính năng. Thực hiện các bước sau:
 
-Sau khi có tệp giấy phép, hãy khởi tạo nó trong dự án của bạn để mở khóa đầy đủ các tính năng của Aspose.Words.
+1. **Bản dùng thử**: Tải xuống từ [trang phát hành của Aspose](https://releases.aspose.com/words/java/) để kiểm tra đầy đủ khả năng.  
+2. **Giấy phép tạm thời**: Đăng ký giấy phép tạm thời tại [trang giấy phép tạm thời của Aspose](https://purchase.aspose.com/temporary-license/) nếu cần.  
+3. **Mua giấy phép**: Đối với việc sử dụng lâu dài, mua giấy phép từ [cổng mua hàng của Aspose](https://purchase.aspose.com/buy).
 
-## Hướng dẫn thực hiện
-Chúng ta hãy chia nhỏ quá trình triển khai thành các phần dễ quản lý hơn:
+Sau khi có tệp giấy phép, khởi tạo nó trong dự án để mở khóa tất cả tính năng của Aspose.Words.
 
-### Tạo dấu trang lồng nhau
-**Tổng quan**: Tìm hiểu cách tạo dấu trang lồng nhau trong tài liệu Word bằng Aspose.Words cho Java.
+## Hướng dẫn triển khai
+Chúng ta sẽ chia triển khai thành hai phần logic: tạo bookmark lồng nhau và cấu hình cấp độ outline cho chúng.
 
-#### Bước 1: Khởi tạo Tài liệu và Trình xây dựng
+### Cách tạo bookmark trong tài liệu Word
+**Tổng quan** – Phần này trình bày đoạn mã chính xác bạn cần để **cách tạo bookmark** mà sau này có thể xuất ra dạng PDF có cấu trúc cấp bậc.
+
+#### Bước 1: Khởi tạo Document và Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Thao tác này sẽ thiết lập môi trường tài liệu Word nơi bạn có thể bắt đầu chèn nội dung.
+Đối tượng `Document` đại diện cho tệp Word, trong khi `DocumentBuilder` cho phép bạn chèn văn bản, hình ảnh và bookmark.
 
-#### Bước 2: Chèn các dấu trang lồng nhau
-Bắt đầu bằng cách tạo dấu trang chính:
+#### Bước 2: Chèn bookmark lồng nhau
+Bắt đầu với một bookmark chính:
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Bây giờ, hãy lồng thêm một dấu trang khác vào bên trong:
+Bây giờ lồng một bookmark khác bên trong bookmark đầu tiên:
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Kết thúc dấu trang lồng nhau
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Hoàn thành dấu trang bên ngoài:
+Đóng bookmark ngoài cùng:
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Bước 3: Thêm dấu trang bổ sung
-Tiếp tục thêm dấu trang khi cần. Ví dụ, một dấu trang thứ ba riêng biệt:
+#### Bước 3: Thêm các bookmark độc lập khác
+Bạn có thể tiếp tục thêm bao nhiêu bookmark tùy thích. Ví dụ, một bookmark thứ ba riêng biệt:
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### Cấu hình mức phác thảo dấu trang
-**Tổng quan**: Sắp xếp các dấu trang của bạn bằng cách thiết lập mức độ phác thảo để điều hướng tốt hơn trong PDF.
+### Cách tạo PDF với bookmark và cấp độ outline
+**Tổng quan** – Sau khi các bookmark đã tồn tại trong tài liệu Word, chúng ta cấu hình cấu trúc cấp bậc trước khi lưu dưới dạng PDF.
 
 #### Bước 1: Thiết lập PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Đoạn mã này khởi tạo các tùy chọn bạn sẽ sử dụng để lưu tài liệu dưới dạng PDF với các dấu trang được sắp xếp hợp lý.
+Các tùy chọn này chỉ cho Aspose.Words cách chuyển đổi bookmark Word thành các mục outline trong PDF.
 
-#### Bước 2: Thêm Mức phác thảo
-Gán các cấp độ cho từng dấu trang, điều này sẽ xác định thứ bậc của chúng:
+#### Bước 2: Gán cấp độ outline
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Lồng vào dưới Bookmark 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
+Số nguyên xác định độ sâu – `1` là cấp độ cao nhất, `2` là cấp con, và tiếp tục như vậy.
 
-#### Bước 3: Lưu tài liệu
-Cuối cùng, hãy lưu tài liệu của bạn dưới dạng PDF với các thiết lập sau:
+#### Bước 3: Lưu tài liệu dưới dạng PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
+PDF kết quả sẽ hiển thị một khung bookmark gọn gàng phản ánh cấu trúc bạn đã định nghĩa.
 
 ### Mẹo khắc phục sự cố
-- **Thiếu dấu trang**: Đảm bảo mỗi `startBookmark` có một tương ứng `endBookmark`.
-- **Mức độ không chính xác**: Xác minh hệ thống phân cấp bằng cách kiểm tra mối quan hệ cha-con trong mã của bạn.
+- **Bookmark bị thiếu** – Kiểm tra lại rằng mỗi `startBookmark` đều có `endBookmark` tương ứng.  
+- **Cấp độ không đúng** – Đảm bảo các số cấp độ tương ứng với quan hệ cha‑con mong muốn.  
+- **Vấn đề giấy phép** – Nếu thấy dấu watermark đánh giá, chắc chắn tệp giấy phép đã được tải đúng trước bất kỳ thao tác nào trên tài liệu.
 
 ## Ứng dụng thực tế
-Sau đây là một số tình huống mà bạn có thể áp dụng kiến thức này:
-1. **Văn bản pháp lý**: Sắp xếp các phần và tiểu phần để dễ tham khảo.
-2. **Báo cáo**: Sử dụng dấu trang lồng nhau để điều hướng các cấu trúc dữ liệu phức tạp.
-3. **Tài liệu giáo dục**: Cấu trúc các chương, tiểu chương và các điểm chính một cách hiệu quả.
+Dưới đây là các kịch bản thường gặp mà **cách tạo bookmark** và **tạo PDF với bookmark** đặc biệt hữu ích:
 
-## Cân nhắc về hiệu suất
-- Tối ưu hóa kích thước tài liệu bằng cách loại bỏ nội dung không cần thiết trước khi lưu.
-- Quản lý hiệu quả việc sử dụng bộ nhớ khi xử lý các tài liệu lớn.
+1. **Hợp đồng pháp lý** – Nhảy nhanh tới các điều khoản, định nghĩa hoặc phụ lục.  
+2. **Báo cáo tài chính** – Điều hướng giữa các phần, bảng và biểu đồ mà không cần cuộn.  
+3. **Tài liệu e‑Learning** – Cung cấp mục lục có thể nhấp cho các chương và tiểu chương.  
 
-## Phần kết luận
-Bây giờ bạn đã biết cách triển khai hiệu quả các cấp độ phác thảo dấu trang bằng Aspose.Words for Java. Kỹ năng này sẽ cải thiện đáng kể khả năng điều hướng của tệp PDF, giúp chúng thân thiện với người dùng và chuyên nghiệp hơn.
+## Các lưu ý về hiệu năng
+- **Kích thước tài liệu** – Loại bỏ các kiểu hoặc hình ảnh không dùng trước khi lưu để giữ PDF nhẹ.  
+- **Quản lý bộ nhớ** – Đối với tệp rất lớn, cân nhắc gọi `doc.updatePageLayout()` sau các chỉnh sửa lớn để giải phóng tài nguyên.
 
-**Các bước tiếp theo**:Thử nghiệm với nhiều cấu trúc tài liệu khác nhau hoặc tích hợp chức năng này vào một ứng dụng lớn hơn để thấy được lợi ích của nó khi sử dụng.
+## Kết luận
+Bạn đã có một phương pháp hoàn chỉnh, sẵn sàng sản xuất để **cách tạo bookmark**, gán cấp độ outline, và **tạo PDF với bookmark** bằng Aspose.Words cho Java. Áp dụng mẫu này vào quy trình tài liệu của bạn để cung cấp các PDF được định dạng đẹp, dễ dàng điều hướng mỗi lần.
 
-## Phần Câu hỏi thường gặp
-1. **Làm thế nào để cài đặt Aspose.Words cho Java?**
-   - Bao gồm nó như một phần phụ thuộc thông qua Maven hoặc Gradle, sau đó thiết lập tệp giấy phép của bạn.
-2. **Tôi có thể sử dụng dấu trang mà không cần mức phác thảo không?**
-   - Có, nhưng sử dụng các mức phác thảo sẽ cải thiện khả năng điều hướng trong tệp PDF.
-3. **Giới hạn về việc lồng dấu trang là gì?**
-   - Không có giới hạn nghiêm ngặt, nhưng hãy cân nhắc đến khả năng đọc và cấu trúc cho người dùng.
-4. **Aspose xử lý các tài liệu lớn như thế nào?**
-   - Nó quản lý tài nguyên một cách hiệu quả, mặc dù việc tối ưu hóa được khuyến khích đối với các tệp rất lớn.
-5. **Tôi có thể sửa đổi dấu trang sau khi lưu PDF không?**
-   - Có, sử dụng Aspose.PDF cho Java để chỉnh sửa dấu trang sau khi chuyển đổi.
+**Bước tiếp theo**: Thử thêm biểu tượng tùy chỉnh cho bookmark, hoặc kết hợp cách này với Aspose.PDF để thực hiện các tác vụ hậu xử lý như thêm chữ ký số.
+
+## Phần Câu hỏi Thường gặp
+1. **Làm sao cài đặt Aspose.Words cho Java?**  
+   - Thêm nó như một phụ thuộc qua Maven hoặc Gradle, sau đó thiết lập tệp giấy phép.  
+2. **Có thể sử dụng bookmark mà không có cấp độ outline không?**  
+   - Có, nhưng việc sử dụng cấp độ outline sẽ cải thiện khả năng điều hướng trong PDF.  
+3. **Giới hạn về độ sâu lồng bookmark là bao nhiêu?**  
+   - Không có giới hạn nghiêm ngặt, nhưng hãy giữ cấu trúc hợp lý cho người dùng cuối.  
+4. **Aspose xử lý tài liệu lớn như thế nào?**  
+   - Nó quản lý tài nguyên hiệu quả, mặc dù vẫn nên tối ưu cho các tệp rất lớn.  
+5. **Có thể chỉnh sửa bookmark sau khi lưu PDF không?**  
+   - Có, bạn có thể dùng Aspose.PDF cho Java để chỉnh sửa bookmark sau khi chuyển đổi.
 
 ## Tài nguyên
 - [Tài liệu Aspose.Words](https://reference.aspose.com/words/java/)
-- [Tải xuống bản phát hành mới nhất](https://releases.aspose.com/words/java/)
+- [Tải bản phát hành mới nhất](https://releases.aspose.com/words/java/)
 - [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/words/java/)
-- [Đơn xin cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+- [Bản dùng thử](https://releases.aspose.com/words/java/)
+- [Đăng ký giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-03-25  
+**Được kiểm tra với:** Aspose.Words 25.3 cho Java  
+**Tác giả:** Aspose

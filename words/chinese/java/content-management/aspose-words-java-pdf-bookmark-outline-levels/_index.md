@@ -1,9 +1,13 @@
 ---
-"date": "2025-03-28"
-"description": "学习如何使用 Aspose.Words for Java 在 PDF 中有效地组织书签。本指南内容详尽，助您提升 PDF 的可读性和导航性。"
-"title": "使用 Aspose.Words Java 掌握 PDF 中的书签大纲级别"
-"url": "/zh/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-03-25'
+description: 了解如何使用 Aspose.Words for Java 创建书签并生成带书签的 PDF。本分步指南涵盖书签嵌套、大纲级别以及 PDF 导出。
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: 如何使用 Aspose.Words for Java 在 PDF 中创建书签
+url: /zh/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +16,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 使用 Aspose.Words Java 在 PDF 中掌握书签大纲级别
 
-# 使用 Aspose.Words Java 掌握 PDF 中的书签大纲级别
+## Introduction
+如果您需要 **how to create bookmarks**（创建书签）让您的 PDF 易于导航，您来对地方了。在本教程中，我们将演示如何设置 Aspose.Words for Java、创建嵌套书签、分配大纲级别，最后 **generating PDF with bookmarks**（生成带书签的 PDF），使其看起来专业且用户友好。完成后，您将拥有一个可在任何 Java 项目中复用的模式。
 
-## 介绍
-将 Word 文档转换为 PDF 时，书签管理困难？本教程将向您展示如何使用 Aspose.Words for Java 有效地组织文档书签，使其更专业且易于浏览。
+**What You’ll Learn**
+- 安装并授权 Aspose.Words for Java  
+- 在 Word 文档中创建嵌套书签  
+- 配置书签大纲级别以实现层次化导航  
+- 将文档保存为具有正确结构书签的 PDF  
 
-**您将学到什么：**
-- 设置并使用 Aspose.Words for Java
-- 在 Word 文档中创建嵌套书签
-- 配置书签大纲级别以更好地组织
-- 将文档保存为带有结构化书签的 PDF
+### Quick Answers
+- **What is the primary class for building documents?** `DocumentBuilder`  
+- **Can I nest bookmarks?** 可以，只需在结束父书签之前开始一个新书签。  
+- **How do I set outline levels?** 使用 `PdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels()`。  
+- **Do I need a license for PDF export?** 试用版可以使用，但许可证可去除评估限制。  
+- **Which keyword phrase does this tutorial target?** *how to create bookmarks*  
 
-开始之前，让我们先了解一下先决条件！
+## What is “how to create bookmarks” in Aspose.Words?
+在 Aspose.Words 中，“how to create bookmarks” 是指什么？
 
-### 先决条件
-在开始之前，请确保您已：
-- **库和依赖项**：Aspose.Words for Java（版本 25.3 或更高版本）。
-- **环境设置**：您的机器上安装了 JDK 以及兼容的 IDE，如 IntelliJ IDEA 或 Eclipse。
-- **知识前提**：对 Java 编程有基本的了解，并熟悉 Maven 或 Gradle 构建系统。
+Bookmarks are named locations inside a Word document that become clickable entries in the PDF outline pane. They let readers jump directly to sections, tables, or figures without scrolling.
 
-## 设置 Aspose.Words
-首先，在你的项目中添加必要的依赖项。以下是使用 Maven 和 Gradle 的步骤：
+## Why generate PDF with bookmarks?
+Embedding bookmarks during PDF creation saves you a post‑processing step, improves accessibility, and gives legal or technical documents a clean, searchable structure.
 
-**Maven：**
+## Prerequisites
+- **Libraries and Dependencies**: Aspose.Words for Java (version 25.3 or later)。  
+- **Environment**: JDK 8 or newer, IntelliJ IDEA/Eclipse, and Maven or Gradle。  
+- **Knowledge**: Basic Java, Maven/Gradle build files, and familiarity with PDF concepts。
+
+## Setting Up Aspose.Words
+To begin, include the necessary dependencies in your project. Here’s how you can do it using Maven and Gradle:
+
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +59,133 @@
 </dependency>
 ```
 
-**Gradle：**
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### 许可证获取
-Aspose.Words 是一款商业产品，但您可以先免费试用，探索其功能。具体步骤如下：
-1. **免费试用**：下载自 [Aspose 的发布页面](https://releases.aspose.com/words/java/) 测试全部功能。
-2. **临时执照**：申请临时驾照 [Aspose 的临时许可证页面](https://purchase.aspose.com/temporary-license/) 如果需要的话。
-3. **购买**：如需继续使用，请从 [Aspose 的采购门户](https://purchase。aspose.com/buy).
+### License Acquisition
+Aspose.Words is a commercial product, but you can start with a free trial to explore its features. Follow these steps:
 
-获得许可证文件后，请在项目中初始化它以解锁 Aspose.Words 的全部功能。
+1. **Free Trial**: Download from [Aspose's release page](https://releases.aspose.com/words/java/) to test full capabilities.  
+2. **Temporary License**: Apply for a temporary license at [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/) if needed.  
+3. **Purchase**: For ongoing use, purchase a license from [Aspose’s purchasing portal](https://purchase.aspose.com/buy)。
 
-## 实施指南
-让我们将实现分解为可管理的部分：
+Once you have your license file, initialize it in your project to unlock all features of Aspose.Words.
 
-### 创建嵌套书签
-**概述**：了解如何使用 Aspose.Words for Java 在 Word 文档中创建嵌套书签。
+## Implementation Guide
+We’ll split the implementation into two logical parts: creating nested bookmarks and configuring their outline levels.
 
-#### 步骤 1：初始化文档和生成器
+### How to Create Bookmarks in a Word Document
+**Overview** – This section shows the exact code you need to **how to create bookmarks** that can later be exported as a PDF hierarchy.
+
+#### Step 1: Initialize Document and Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-这将设置您的 Word 文档环境，您可以在其中开始插入内容。
+The `Document` object represents the Word file, while `DocumentBuilder` lets you insert text, images, and bookmarks.
 
-#### 第 2 步：插入嵌套书签
-首先创建主书签：
+#### Step 2: Insert Nested Bookmarks
+Start with a primary bookmark:
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-现在，在其中嵌套另一个书签：
+Now nest another bookmark inside the first one:
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // 结束嵌套书签
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-完成外部书签：
+Close the outer bookmark:
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### 步骤 3：添加其他书签
-根据需要继续添加书签。例如，单独的第三个书签：
+#### Step 3: Add Additional Independent Bookmarks
+You can keep adding as many as you need. For example, a separate third bookmark:
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### 配置书签大纲级别
-**概述**：通过设置大纲级别来组织书签，以便在 PDF 中更好地导航。
+### How to Generate PDF with Bookmarks and Outline Levels
+**Overview** – After the bookmarks exist in the Word document, we configure their outline hierarchy before saving as PDF.
 
-#### 步骤 1：设置 PdfSaveOptions
+#### Step 1: Set Up PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-此代码片段初始化了用于将文档保存为带有组织书签的 PDF 的选项。
+These options tell Aspose.Words how to translate Word bookmarks into PDF outline entries.
 
-#### 步骤 2：添加大纲级别
-为每个书签分配级别，这将决定它们的层次结构：
+#### Step 2: Assign Outline Levels
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // 嵌套在书签 1 下
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
+The integer defines the depth – `1` is top‑level, `2` is a child, and so on.
 
-#### 步骤3：保存文档
-最后，使用以下设置将文档保存为 PDF：
+#### Step 3: Save the Document as PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
+The resulting PDF will display a tidy bookmark pane reflecting the hierarchy you defined.
 
-### 故障排除提示
-- **缺少书签**：确保每个 `startBookmark` 有相应的 `endBookmark`。
-- **级别不正确**：通过检查代码中的父子关系来验证层次结构。
+### Troubleshooting Tips
+- **Missing Bookmarks** – Double‑check that every `startBookmark` has a matching `endBookmark`。  
+- **Incorrect Levels** – Verify the level numbers correspond to the intended parent‑child relationship。  
+- **License Issues** – If you see evaluation watermarks, ensure the license file is correctly loaded before any document operation。
 
-## 实际应用
-以下是您可以应用这些知识的一些场景：
-1. **法律文件**：组织章节和小节以便于参考。
-2. **报告**：使用嵌套书签来导航复杂的数据结构。
-3. **教育材料**：有效地构建章节、子章节和重点。
+## Practical Applications
+Here are common scenarios where **how to create bookmarks** and **generate PDF with bookmarks** are especially valuable:
 
-## 性能考虑
-- 通过在保存之前删除不必要的内容来优化文档大小。
-- 处理大型文档时有效管理内存使用情况。
+1. **Legal Contracts** – 快速跳转到条款、定义或附件。  
+2. **Financial Reports** – 在章节、表格和图表之间导航，无需滚动。  
+3. **E‑Learning Materials** – 为章节和子章节提供可点击的目录。
 
-## 结论
-现在您已经学习了如何使用 Aspose.Words for Java 高效地实现书签大纲级别。这项技能将极大地提升 PDF 的可导航性，使其更加用户友好且专业。
+## Performance Considerations
+- **Document Size** – 在保存前移除未使用的样式或图像，以保持 PDF 轻量。  
+- **Memory Management** – 对于非常大的文件，建议在重大编辑后调用 `doc.updatePageLayout()` 以释放资源。
 
-**后续步骤**：尝试不同的文档结构或将此功能集成到更大的应用程序中，以了解其实际优势。
+## Conclusion
+You now have a complete, production‑ready method for **how to create bookmarks**, assign outline levels, and **generate PDF with bookmarks** using Aspose.Words for Java. Incorporate this pattern into your document pipelines to deliver polished, navigable PDFs every time.
 
-## 常见问题解答部分
-1. **如何安装 Aspose.Words for Java？**
-   - 通过 Maven 或 Gradle 将其作为依赖项包含在内，然后设置您的许可证文件。
-2. **我可以使用没有大纲级别的书签吗？**
-   - 是的，但使用大纲级别可以改善 PDF 中的导航。
-3. **书签嵌套有哪些限制？**
-   - 没有严格的限制，但要考虑用户的可读性和结构。
-4. **Aspose 如何处理大型文档？**
-   - 它有效地管理资源，但建议对非常大的文件进行优化。
-5. **保存 PDF 后我可以修改书签吗？**
-   - 是的，使用 Aspose.PDF for Java 在转换后编辑书签。
+**Next Steps**: Try adding custom icons to bookmarks, or combine this approach with Aspose.PDF for post‑processing tasks like adding digital signatures.
 
-## 资源
-- [Aspose.Words 文档](https://reference.aspose.com/words/java/)
-- [下载最新版本](https://releases.aspose.com/words/java/)
-- [购买许可证](https://purchase.aspose.com/buy)
-- [免费试用](https://releases.aspose.com/words/java/)
-- [临时执照申请](https://purchase.aspose.com/temporary-license/)
-- [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+## FAQ Section
+1. **How do I install Aspose.Words for Java?**  
+   - 通过 Maven 或 Gradle 将其作为依赖项引入，然后设置许可证文件。  
+2. **Can I use bookmarks without outline levels?**  
+   - 可以，但使用大纲级别可提升 PDF 的导航体验。  
+3. **What are the limits on bookmark nesting?**  
+   - 没有严格限制，但请保持层级对终端用户合理。  
+4. **How does Aspose handle large documents?**  
+   - 它高效管理资源，但对非常大的文件仍建议进行优化。  
+5. **Can I modify bookmarks after saving the PDF?**  
+   - 可以，您可以使用 Aspose.PDF for Java 在转换后编辑书签。
 
+## Resources
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Latest Releases](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/words/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最后更新：** 2026-03-25  
+**测试环境：** Aspose.Words 25.3 for Java  
+**作者：** Aspose
