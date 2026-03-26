@@ -48,7 +48,7 @@
 | [경고 알림 수신](./receive-warning-notification/) Aspose.Words for .NET을 사용할 때 경고 알림을 받는 방법과 문서의 문제나 경고를 관리하는 방법을 알아보세요. |
 | [리소스 Steam 글꼴 소스 예시](./resource-steam-font-source-example/) | Aspose.Words for .NET에 사용자 정의 글꼴을 로드하기 위해 Resource Stream 글꼴 소스를 사용하는 방법을 알아보세요. |
 | [접미사 없이 대체 가져오기](./get-substitution-without-suffixes/) | 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에서 접미사 없는 재정의를 얻는 방법을 알아봅니다. |
-
+| [Word 문서 로드 시 경고 콜백 만들기 – 완전 가이드](./create-warning-callback-for-loading-word-documents-complete/) | Aspose.Words for .NET을 사용하여 Word 문서를 로드할 때 경고 콜백을 설정하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

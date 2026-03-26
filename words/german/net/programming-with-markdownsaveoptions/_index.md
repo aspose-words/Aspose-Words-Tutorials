@@ -26,10 +26,10 @@
 | [Wie man Markdown verwendet: DOCX in Markdown mit LaTeX‑Gleichungen konvertieren](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren, um mathematische Inhalte korrekt zu erhalten. |
 
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
-Erfahren Sie, wie Sie Word-Dokumente als PDF speichern, beschädigte Word-Dateien wiederherstellen und sie in Markdown konvertieren.
+Erfahren Sie, wie Sie Word‑Dokumente als PDF speichern, beschädigte Word-Dateien wiederherstellen und sie in Markdown konvertieren.
 
 ### [Erstellen Sie barrierefreies PDF und konvertieren Sie Word zu Markdown – Vollständige C#‑Anleitung](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
-Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word-Dokumente in Markdown konvertieren – komplette C#‑Anleitung.
+Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word‑Dokumente in Markdown konvertieren – komplette C#‑Anleitung.
 
 ### [DOCX in Markdown konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](./convert-docx-to-markdown-step-by-step-c-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – detaillierte Schritt‑für‑Schritt‑Anleitung in C#.
@@ -48,6 +48,12 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Wie man Word zu Markdown in C# konvertiert – Vollständige C#‑Anleitung](./how-to-convert-word-to-markdown-in-c-complete-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [DOCX in Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-markdown-in-c-complete-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
