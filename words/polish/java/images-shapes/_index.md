@@ -34,6 +34,9 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Jak renderować strony dokumentu jako miniatury za pomocą Aspose.Words dla Java](./render-word-pages-thumbnails-aspose-java/)
 Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestandardowych rozmiarach dokumentów Word za pomocą Aspose.Words for Java. Zwiększ możliwości obsługi dokumentów już dziś.
 
+### [Utwórz dokument PDF z kształtem prostokąta – pełny przewodnik C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Pełny przewodnik w języku C# pokazujący, jak utworzyć dokument PDF i dodać do niego prostokątny kształt przy użyciu Aspose.Words.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

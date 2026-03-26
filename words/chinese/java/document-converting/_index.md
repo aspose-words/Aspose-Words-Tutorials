@@ -100,6 +100,9 @@ weight: 14
 ### [将文档转换为图像](./converting-documents-images/)
 了解如何使用 Aspose.Words for Java 将 Word 文档转换为图像。分步指南，附带代码示例和常见问题解答。
 
+### [在 Java 中将 DOCX 转换为 PDF – 简单低代码指南](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+了解如何使用 Aspose.Words 在 Java 中通过低代码方式快速将 DOCX 文件转换为 PDF。
+
 ## 常见问题
 
 **Q:** *我可以将受密码保护的 Word 文件转换为 PDF 吗？*  

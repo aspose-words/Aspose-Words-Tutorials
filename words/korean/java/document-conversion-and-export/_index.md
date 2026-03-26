@@ -73,18 +73,33 @@ Aspose.Words for Java에서 사용자 정의 객체 생성. 중세 가이드를 
 Aspose.Words for Java를 활용한 개체 생성 방법. 코드를 포함하는 연결 가이드를 통해 Java에서 사용할 수 있도록 생성하고 문서 통화를 강화할 수 있습니다.
 
 ### [Java용 Aspose.Words에서 차트 사용](./using-charts/)
-Aspose.Words for Java에서 차트를 작성하는 사용자 정의 방법. 차트 유형, 형식 및 축 속성을 탐색하여 데이터를 적합하게 구현합니다.
+Java용 Aspose.Words에서 차트를 작성하는 사용자 정의 방법. 차트 유형, 형식 및 축 속성을 탐색하여 데이터를 적합하게 구현합니다.
 
 ### [Java용 Aspose.Words에서 Office 수학 개체 사용](./using-office-math-objects/)
 Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. Office Math를 처리하고 표시하는 방법을 배웁니다.
 
+### [Java로 문서를 PDF로 저장 – 전체 Aspose 가이드](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Aspose.Words for Java를 사용해 DOCX를 PDF로 변환하고 저장하는 전체 단계별 가이드.
+
+### [Word를 PDF로 변환 – 접근성 PDF 생성](./convert-word-to-pdf-generate-accessible-pdf/)
+Aspose.Words for Java를 사용해 Word 문서를 접근성 PDF로 변환하는 단계별 가이드.
+
+### [Word 이미지 저장 – Java로 DOCX를 Markdown으로 변환](./save-word-images-convert-docx-to-markdown-with-java/)
+Aspose.Words for Java를 사용해 DOCX 파일에서 이미지를 추출하고 Markdown 파일로 저장하는 방법을 단계별로 안내합니다.
+
+### [Word에서 PNG 만들기 – 완전 단계별 가이드](./create-png-from-word-complete-step-by-step-guide/)
+
 ### [Java용 Aspose.Words에서 문서 모양 사용](./using-document-shapes/)
 
 ### [Java용 Aspose.Words에서 문서에 워터마크 사용](./using-watermarks-to-documents/)
-Aspose.Words for Java로 문서에 워터마크를 추가하는 방법. 텍스트 및 이미지 워터마크를 맞춤 설정하여 전문적인 문서를 만들 수 있습니다.
 
 ### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
-Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테이블 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
+
+### [C#로 DOCX에서 LaTeX 내보내기 – Word를 Markdown으로 변환](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+
+### [docx를 txt로 저장 – 전체 C# 가이드](./save-docx-as-txt-full-c-guide/)
+
+### [DOCX를 Markdown으로 내보내기 – 전체 C# 가이드](./export-docx-as-markdown-complete-c-guide/)
 
 ## 자주 묻는 질문
 

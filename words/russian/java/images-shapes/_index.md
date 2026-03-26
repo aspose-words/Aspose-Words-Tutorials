@@ -34,6 +34,9 @@
 ### [Как визуализировать страницы документа в виде миниатюр с помощью Aspose.Words для Java](./render-word-pages-thumbnails-aspose-java/)
 Узнайте, как создавать высококачественные миниатюры и растровые изображения документов Word с помощью Aspose.Words для Java. Расширьте свои возможности обработки документов сегодня.
 
+### [Создание PDF-документа с прямоугольной фигурой – Полное руководство C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Подробный пример создания PDF с прямоугольной фигурой в Aspose.Words для C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

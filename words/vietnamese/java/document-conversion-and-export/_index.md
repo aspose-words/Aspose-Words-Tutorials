@@ -68,25 +68,46 @@ Vì vậy, hãy khám phá các hướng dẫn dưới đây và khai thác tố
 
 ## Các hướng dẫn chuyển đổi và xuất tài liệu
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words for Java. Tìm hiểu cách tạo các giải pháp mã vạch cá nhân hoá bằng Aspose.Words for Java trong hướng dẫn chi tiết này.
+Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words cho Java. Tìm hiểu cách tạo các giải pháp mã vạch cá nhân hoá bằng Aspose.Words cho Java trong hướng dẫn chi tiết này.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Sử dụng tạo mã vạch trong Aspose.Words for Java. Tìm hiểu cách tạo mã vạch tùy chỉnh trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm mã nguồn cho việc tạo mã vạch. Nâng cao tự động hoá tài liệu với Aspose.Words.
+Sử dụng tạo mã vạch trong Aspose.Words cho Java. Tìm hiểu cách tạo mã vạch tùy chỉnh trong Java bằng Aspose.Words cho Java. Hướng dẫn chi tiết kèm mã nguồn cho việc tạo mã vạch. Nâng cao tự động hoá tài liệu với Aspose.Words.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-Sử dụng biểu đồ trong Aspose.Words for Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words for Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
+Sử dụng biểu đồ trong Aspose.Words cho Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words cho Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-Sử dụng đối tượng Office Math trong Aspose.Words for Java. Khai thác sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words for Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
+Sử dụng đối tượng Office Math trong Aspose.Words cho Java. Khai thác sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words cho Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Sử dụng hình dạng tài liệu trong Aspose.Words for Java. Khai thác sức mạnh của các hình dạng tài liệu trong Aspose.Words for Java. Học cách tạo các tài liệu hấp dẫn về mặt hình ảnh với các ví dụ từng bước.
+Sử dụng hình dạng tài liệu trong Aspose.Words cho Java. Khai thác sức mạnh của các hình dạng tài liệu trong Aspose.Words cho Java. Học cách tạo các tài liệu hấp dẫn về mặt hình ảnh với các ví dụ từng bước.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu cách thêm watermark vào tài liệu trong Aspose.Words for Java. Tùy chỉnh watermark dạng văn bản và hình ảnh cho các tài liệu chuyên nghiệp.
+Sử dụng Watermark cho tài liệu trong Aspose.Words cho Java. Tìm hiểu cách thêm watermark vào tài liệu trong Aspose.Words cho Java. Tùy chỉnh watermark dạng văn bản và hình ảnh cho các tài liệu chuyên nghiệp.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Định dạng bảng và kiểu bảng trong Aspose.Words for Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words for Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
+Định dạng bảng và kiểu bảng trong Aspose.Words cho Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words cho Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
+
+### [Cách Xuất LaTeX từ DOCX – Chuyển Đổi Word sang Markdown bằng C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Hướng dẫn xuất tài liệu LaTeX từ file DOCX và chuyển đổi Word sang Markdown sử dụng C# với Aspose.Words.
+
+### [Lưu docx dưới dạng txt – Hướng dẫn đầy đủ C#](./save-docx-as-txt-full-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng TXT bằng Aspose.Words cho C#.
+
+### [Xuất DOCX dưới dạng Markdown – Hướng dẫn đầy đủ C#](./export-docx-as-markdown-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng C# sử dụng Aspose.Words.
+
+### [Lưu tài liệu dưới dạng PDF với Java – Hướng dẫn đầy đủ Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Java sử dụng Aspose.Words, bao gồm các tùy chọn lưu và tối ưu chất lượng.
+
+### [Lưu Hình Ảnh Word – Chuyển Đổi DOCX sang Markdown với Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Hướng dẫn trích xuất hình ảnh từ tài liệu Word và chuyển đổi nội dung DOCX sang định dạng Markdown bằng Java.
+
+### [Tạo PNG từ Word – Hướng Dẫn Chi Tiết Từng Bước](./create-png-from-word-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách trích xuất hình ảnh PNG từ tài liệu Word bằng Aspose.Words for Java, bao gồm các tùy chọn lưu và tùy chỉnh.
+
+### [Chuyển đổi Word sang PDF – Tạo PDF có thể truy cập](./convert-word-to-pdf-generate-accessible-pdf/)
+Hướng dẫn chuyển đổi tài liệu Word sang PDF với khả năng truy cập, đáp ứng tiêu chuẩn WCAG và bảo đảm nội dung có thể đọc được.
 
 ## Câu hỏi thường gặp
 

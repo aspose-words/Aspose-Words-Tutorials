@@ -101,6 +101,9 @@ weight: 14
 ### [การแปลงเอกสารเป็นภาพ](./converting-documents-images/)
 เรียนรู้วิธีแปลงเอกสาร Word เป็นภาพด้วย Aspose.Words for Java. คู่มือขั้นตอนพร้อมตัวอย่างโค้ดและคำถามที่พบบ่อย.
 
+### [แปลง DOCX เป็น PDF ใน Java – คู่มือ Low‑Code ง่าย](./convert-docx-to-pdf-in-java-simple-low-code-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วยโค้ดเพียงไม่กี่บรรทัดโดยใช้ Aspose.Words for Java อย่างง่ายและรวดเร็ว.
+
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถแปลงไฟล์ Word ที่ป้องกันด้วยรหัสผ่านเป็น PDF ได้หรือไม่?*  

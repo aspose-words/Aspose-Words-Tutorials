@@ -86,8 +86,29 @@ Desbloqueie o Poder das Formas de Documento no Aspose.Words para Java. Aprenda a
 ### [Usando Marcas d'água em Documentos no Aspose.Words para Java](./using-watermarks-to-documents/)
 Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Personalize marcas d'água de texto e imagem para documentos com aparência profissional.
 
+### [Salvar documento como PDF com Java – Guia Completo Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Aprenda a salvar documentos como PDF usando Aspose.Words for Java, com exemplos completos e opções avançadas de configuração.
+
+### [Criar PNG a partir do Word – Guia Completo Passo a Passo](./create-png-from-word-complete-step-by-step-guide/)
+Aprenda a gerar imagens PNG a partir de documentos Word usando Aspose.Words for Java neste tutorial passo a passo.
+
+### [Converter Word para PDF – Gerar PDF Acessível](./convert-word-to-pdf-generate-accessible-pdf/)
+Aprenda a converter documentos Word em PDFs acessíveis, atendendo às normas de acessibilidade, usando Aspose.Words for Java.
+
 ### [Formatando Tabelas e Estilos de Tabela no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código‑fonte para formatação eficaz de tabelas. Melhore o layout do seu documento com Aspose.Words.
+
+### [Como Exportar LaTeX de DOCX – Converter Word para Markdown com C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Aprenda a exportar documentos DOCX para LaTeX e convertê‑los em Markdown usando C# e Aspose.Words.
+
+### [Salvar Imagens do Word – Converter DOCX para Markdown com Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Aprenda a extrair imagens de documentos Word e convertê‑los para Markdown usando Aspose.Words for Java em poucos passos.
+
+### [Salvar docx como txt – Guia Completo em C#](./save-docx-as-txt-full-c-guide/)
+Aprenda a converter arquivos DOCX para TXT usando Aspose.Words em C# com um guia passo a passo completo.
+
+### [Exportar DOCX como Markdown – Guia Completo em C#](./export-docx-as-markdown-complete-c-guide/)
+Aprenda a exportar documentos DOCX para Markdown usando C# com Aspose.Words.
 
 ## Perguntas Frequentes
 

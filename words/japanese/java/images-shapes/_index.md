@@ -34,6 +34,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Words for Java を使用してドキュメントページをサムネイルとしてレンダリングする方法](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java を使って、Word 文書の高品質なサムネイルとカスタムサイズのビットマップを生成する方法を学びましょう。今すぐドキュメント処理能力を強化しましょう。
 
+### [矩形シェイプを使用した PDF ドキュメント作成 – 完全 C# ガイド](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+C# を使用して矩形シェイプを含む PDF ドキュメントを作成する完全ガイドです。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

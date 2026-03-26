@@ -83,6 +83,27 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
+### [Come esportare LaTeX da DOCX – Convertire Word in Markdown con C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Scopri come trasformare documenti DOCX in LaTeX e Markdown usando C# e Aspose.Words, con esempi passo‑passo.
+
+### [Salva DOCX come TXT – Guida completa C#](./save-docx-as-txt-full-c-guide/)
+Scopri come salvare documenti DOCX come file di testo TXT usando C# con Aspose.Words, passo dopo passo.
+
+### [Esporta DOCX come Markdown – Guida completa C#](./export-docx-as-markdown-complete-c-guide/)
+Scopri come esportare documenti DOCX in formato Markdown usando C# e Aspose.Words, con esempi passo‑passo.
+
+### [Salva documento come PDF con Java – Guida completa Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Scopri come salvare documenti in PDF usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
+### [Salva immagini Word – Converti DOCX in Markdown con Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Scopri come estrarre immagini da documenti Word e convertirli in Markdown usando Aspose.Words per Java.
+
+### [Converti Word in PDF – Genera PDF accessibile](./convert-word-to-pdf-generate-accessible-pdf/)
+Scopri come convertire documenti Word in PDF accessibili usando Aspose.Words per Java, garantendo conformità WCAG.
+
+### [Crea PNG da Word – Guida completa passo‑passo](./create-png-from-word-complete-step-by-step-guide/)
+Scopri come estrarre immagini PNG da documenti Word usando Aspose.Words per Java, con esempi di codice dettagliati.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

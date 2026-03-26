@@ -53,7 +53,7 @@ Utiliza tu cliente HTTP preferido para enviar el texto del documento al modelo d
 Con Aspose.Words puedes crear un nuevo `DocumentBuilder`, moverte a la ubicación deseada y escribir la cadena generada por IA directamente en el archivo.
 
 ### Paso 4: Guarda o exporta
-Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o incluso EPUB.
+Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o incluso EPUB。
 
 > **Pro tip:** Cachea las respuestas de IA para documentos recurrentes para reducir costos de API y latencia.
 
@@ -61,12 +61,15 @@ Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o in
 - **Automatización de documentos con IA**: completa contratos automáticamente con cláusulas específicas del cliente generadas al vuelo.  
 - **Generación de contenido con IA**: crea folletos de marketing donde las descripciones de productos son escritas por GPT‑4.  
 - **Traducir documentos al estilo IA**: produce instantáneamente versiones multilingües de manuales usando modelos de traducción IA.  
-- **Procesamiento inteligente de documentos**: extrae entidades clave (fechas, importes) de facturas mediante NLP e intégralas en informes resumidos.
+- **Procesamiento inteligente de documentos**: extrae entidades clave (fechas, importes) de facturas mediante NLP e intégralas en informes resumidos。
 
 ## Tutoriales disponibles
 
 ### [Domina el procesamiento de texto en Java: Usando Aspose.Words y modelos de IA para resumir y traducir](./java-aspose-words-text-processing/)
 Aprende a automatizar la resumición y traducción de texto usando Aspose.Words para Java con GPT‑4 de OpenAI y Gemini de Google. Mejora tus aplicaciones Java hoy.
+
+### [Crear modelo de IA personalizado – Editar párrafos de Word en Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Aprende a crear y usar un modelo de IA propio para modificar párrafos en documentos Word con Aspose.Words y Java.
 
 ## Recursos adicionales
 
@@ -80,19 +83,19 @@ Aprende a automatizar la resumición y traducción de texto usando Aspose.Words 
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar IA para traducir un documento PDF sin convertirlo primero?**  
-R: Sí. Extrae el texto del PDF con Aspose.Words, envíalo a un modelo de traducción IA y luego reconstruye el PDF con el texto traducido.
+R: Sí. Extrae el texto del PDF con Aspose.Words, envíalo a un modelo de traducción IA y luego reconstruye el PDF con el texto traducido。
 
 **P: ¿Cómo afecta la automatización de documentos con IA al rendimiento?**  
-R: El trabajo pesado lo realiza el servicio externo de IA; Aspose.Words solo maneja la manipulación del documento, lo que es altamente eficiente incluso para archivos grandes.
+R: El trabajo pesado lo realiza el servicio externo de IA; Aspose.Words solo maneja la manipulación del documento, lo que es altamente eficiente incluso para archivos grandes。
 
 **P: ¿Es seguro enviar documentos confidenciales a un servicio de IA?**  
-R: Elige un proveedor que ofrezca cifrado de extremo a extremo y garantías de privacidad de datos, o ejecuta un modelo auto‑alojado dentro de tu entorno seguro.
+R: Elige un proveedor que ofrezca cifrado de extremo a extremo y garantías de privacidad de datos, o ejecuta un modelo auto‑alojado dentro de tu entorno seguro。
 
 **P: ¿Qué pasa si la IA devuelve un marcado mal formado?**  
-R: Valida la salida de IA antes de insertarla. Usa los métodos de `DocumentBuilder` de Aspose.Words que escapan automáticamente los caracteres inseguros.
+R: Valida la salida de IA antes de insertarla. Usa los métodos de `DocumentBuilder` de Aspose.Words que escapan automáticamente los caracteres inseguros。
 
 **P: ¿Necesito volver a entrenar los modelos para lenguaje específico de dominio?**  
-R: Para la mayoría de los casos, los modelos pre‑entrenados funcionan bien. Si necesitas mayor precisión, considera afinar un modelo con tu propio corpus y luego llamarlo mediante la misma API.
+R: Para la mayoría de los casos, los modelos pre‑entrenados funcionan bien. Si necesitas mayor precisión, considera afinar un modelo con tu propio corpus y luego llamarlo mediante la misma API。
 
 ---
 

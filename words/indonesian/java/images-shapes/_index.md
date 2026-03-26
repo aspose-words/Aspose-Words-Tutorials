@@ -34,6 +34,9 @@ Tutorial kode untuk Aspose.Words Java
 ### [Cara Membuat Halaman Dokumen sebagai Thumbnail menggunakan Aspose.Words untuk Java](./render-word-pages-thumbnails-aspose-java/)
 Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus dari dokumen Word dengan Aspose.Words untuk Java. Tingkatkan kemampuan penanganan dokumen Anda hari ini.
 
+### [Buat Dokumen PDF dengan Bentuk Persegi Panjang – Panduan Lengkap C#](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Panduan lengkap C# untuk membuat dokumen PDF dengan menambahkan bentuk persegi panjang menggunakan Aspose.Words.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

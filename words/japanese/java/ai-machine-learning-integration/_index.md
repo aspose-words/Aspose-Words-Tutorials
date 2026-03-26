@@ -73,7 +73,7 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 ### [Java のテキスト処理マスター：Aspose.Words と AI モデルを使用した要約と翻訳](./java-aspose-words-text-processing/)
 
-OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
+### [カスタム AI モデルの作成 – Java で Word の段落を編集](./create-custom-ai-model-edit-word-paragraphs-in-java/)
 
 ## 追加リソース
 

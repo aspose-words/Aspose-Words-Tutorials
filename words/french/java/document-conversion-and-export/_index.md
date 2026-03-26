@@ -63,7 +63,7 @@ L’exportation de documents est un aspect crucial du travail avec des documents
 
 À la fin de ces tutoriels, vous disposerez des connaissances et compétences nécessaires pour effectuer en toute confiance les tâches de conversion et d’exportation de documents avec Aspose.Words for Java. Préparez‑vous à rationaliser votre traitement de documents et à améliorer votre productivité grâce à cette API puissante.
 
-Alors, plongez dans les tutoriels listés ci‑dessous et exploitez tout le potentiel d’Aspose.Words for Java dans vos projets liés aux documents. Bon codage !
+Alors, plongez dans les tutoriels listés ci‑dessous et exploitez tout le potentiel d’Aspose.Words pour Java dans vos projets liés aux documents. Bon codage !
 
 Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words for Java](https://reference.aspose.com/words/java/), et pour commencer, téléchargez‑la depuis [ici](https://releases.aspose.com/words/java/). Si vous avez des questions ou besoin d’assistance, n’hésitez pas à vous rendre sur notre [forum de support](https://forum.aspose.com/).
 
@@ -88,6 +88,27 @@ Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java.
 
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+
+### [Comment exporter LaTeX depuis DOCX – Convertir Word en Markdown avec C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Apprenez à extraire du LaTeX d'un fichier DOCX et à le convertir en Markdown en utilisant C# avec Aspose.Words.
+
+### [Enregistrer les images Word – Convertir DOCX en Markdown avec Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Apprenez à extraire et enregistrer les images d'un fichier DOCX tout en le convertissant en Markdown avec Aspose.Words for Java.
+
+### [Créer un PNG à partir de Word – Guide complet étape par étape](./create-png-from-word-complete-step-by-step-guide/)
+Apprenez à extraire des images PNG depuis un document Word en suivant un guide complet avec du code Java.
+
+### [Exporter DOCX en Markdown – Guide complet C#](./export-docx-as-markdown-complete-c-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown avec C#, étape par étape, grâce à ce guide complet.
+
+### [Enregistrer docx en txt – Guide complet C#](./save-docx-as-txt-full-c-guide/)
+Apprenez à convertir des fichiers DOCX en fichiers texte brut (TXT) en utilisant Aspose.Words avec C# grâce à ce guide complet.
+
+### [Enregistrement d'un document au format PDF avec Java – Guide complet Aspose.Words](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Apprenez à convertir et enregistrer des documents Word en PDF en une seule ligne de code avec Aspose.Words for Java.
+
+### [Convertir Word en PDF – Générer un PDF accessible](./convert-word-to-pdf-generate-accessible-pdf/)
+Apprenez à convertir des documents Word en PDF tout en respectant les normes d’accessibilité, incluant les balises et le texte alternatif.
 
 ## Questions fréquentes
 

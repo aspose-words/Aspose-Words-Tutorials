@@ -98,6 +98,8 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Salvando Documentos no Formato RTF no Aspose.Words for Java](./saving-documents-as-rtf-format/)
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
+### [Recuperar Documento Word Corrompido Usando Aspose.Words – Guia](./recover-corrupted-word-document-using-aspose-words-guide/)
+### [Tutorial de Callback de Aviso – Carregar Documento Word em Java](./warning-callback-tutorial-load-word-document-in-java/)
 
 ## Perguntas Frequentes
 
