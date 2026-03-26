@@ -67,6 +67,9 @@ AI document processing ผสานการจัดการเอกสาร
 ### [การประมวลผลข้อความขั้นสูงใน Java&#58; การใช้ Aspose.Words & AI Models สำหรับสรุปและการแปล](./java-aspose-words-text-processing/)
 เรียนรู้วิธีอัตโนมัติการสรุปและการแปลข้อความด้วย Aspose.Words for Java ร่วมกับ OpenAI's GPT‑4 และ Google Gemini ปรับปรุงแอปพลิเคชัน Java ของคุณวันนี้
 
+### [สร้างโมเดล AI กำหนดเอง – แก้ไขย่อหน้า Word ใน Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+เรียนรู้วิธีสร้างโมเดล AI ของคุณเองและใช้เพื่อแก้ไขย่อหน้าของเอกสาร Word ด้วย Aspose.Words for Java
+
 ## Additional Resources
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

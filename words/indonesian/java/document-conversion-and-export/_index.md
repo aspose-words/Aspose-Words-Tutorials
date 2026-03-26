@@ -87,6 +87,27 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
+### [Cara Mengekspor LaTeX dari DOCX – Mengonversi Word ke Markdown dengan C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Pelajari cara mengekspor konten LaTeX dari file DOCX dan mengonversinya menjadi Markdown menggunakan C# dengan Aspose.Words.
+
+### [Simpan DOCX sebagai TXT – Panduan Lengkap C#](./save-docx-as-txt-full-c-guide/)
+Pelajari cara menyimpan file DOCX menjadi file teks (TXT) menggunakan Aspose.Words for C# dalam panduan langkah demi langkah lengkap.
+
+### [Ekspor DOCX sebagai Markdown – Panduan Lengkap C#](./export-docx-as-markdown-complete-c-guide/)
+Pelajari cara mengekspor file DOCX menjadi Markdown menggunakan C# dengan Aspose.Words dalam panduan langkah demi langkah lengkap.
+
+### [Simpan dokumen sebagai PDF dengan Java – Panduan Lengkap Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Panduan lengkap untuk menyimpan dokumen sebagai PDF menggunakan Aspose.Words for Java dengan contoh kode langkah demi langkah.
+
+### [Konversi Word ke PDF – Hasilkan PDF yang Aksesibel](./convert-word-to-pdf-generate-accessible-pdf/)
+Pelajari cara mengonversi dokumen Word ke PDF yang memenuhi standar aksesibilitas dengan Aspose.Words for Java.
+
+### [Menyimpan Gambar Word – Mengonversi DOCX ke Markdown dengan Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Pelajari cara mengekstrak gambar dari dokumen Word dan mengonversinya menjadi file Markdown menggunakan Aspose.Words for Java.
+
+### [Buat PNG dari Word – Panduan Lengkap Langkah demi Langkah](./create-png-from-word-complete-step-by-step-guide/)
+Pelajari cara mengekspor dokumen Word menjadi gambar PNG dengan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

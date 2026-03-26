@@ -87,6 +87,27 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 ### [Formatowanie tabel i stylów tabel w Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
+### [Zapisz obrazy Word – konwertuj DOCX do Markdown w Javie](./save-word-images-convert-docx-to-markdown-with-java/)
+Dowiedz się, jak wyodrębnić i zapisać obrazy z dokumentów Word oraz konwertować DOCX do Markdown przy użyciu Aspose.Words for Java.
+
+### [Jak wyeksportować LaTeX z DOCX – konwertuj Word na Markdown przy użyciu C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Dowiedz się, jak przekształcić dokument DOCX w LaTeX i Markdown przy użyciu C# oraz Aspose.Words.
+
+### [Eksportuj DOCX jako Markdown – Kompletny przewodnik C#](./export-docx-as-markdown-complete-c-guide/)
+Dowiedz się, jak wyeksportować pliki DOCX jako Markdown w C# przy użyciu Aspose.Words. Przewodnik krok po kroku z przykładami kodu.
+
+### [Zapisz docx jako txt – Pełny przewodnik C#](./save-docx-as-txt-full-c-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu TXT w C# przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
+### [Zapisz dokument jako PDF w Javie – Kompletny przewodnik Aspose](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Dowiedz się, jak w prosty sposób zapisać dokument jako PDF w Javie przy użyciu Aspose.Words, z pełnym przykładem kodu.
+
+### [Konwertuj Word do PDF – Generuj dostępny PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+Dowiedz się, jak konwertować dokumenty Word do PDF, zapewniając ich dostępność zgodnie z wymogami, przy użyciu Aspose.Words for Java.
+
+### [Tworzenie PNG z Worda – Kompletny przewodnik krok po kroku](./create-png-from-word-complete-step-by-step-guide/)
+Dowiedz się, jak wygenerować plik PNG z dokumentu Word przy użyciu Aspose.Words for Java – pełny przewodnik z przykładami kodu.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  

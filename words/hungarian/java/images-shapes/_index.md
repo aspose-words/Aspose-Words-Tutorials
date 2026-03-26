@@ -34,6 +34,9 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Hogyan jelenítsünk meg dokumentumoldalakat bélyegképként az Aspose.Words for Java használatával?](./render-word-pages-thumbnails-aspose-java/)
 Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi méretű bitképeket Word-dokumentumokból az Aspose.Words for Java segítségével. Fejlessze dokumentumkezelési képességeit még ma!
 
+### [PDF dokumentum létrehozása téglalap alakzattal – Teljes C# útmutató](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot téglalap alakzattal C#-ban, részletes útmutatóval.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

@@ -70,22 +70,50 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 使用 Aspose.Words for Java 生成自定义条形码标签。本指南将逐步指导您如何使用 Aspose.Words for Java 创建个性化条形码解决方案。
 
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
-学习如何使用 Aspose.Words for Java 在 Java 中生成自定义条形码。包含条形码生成源代码的分步指南。使用 Aspose.Words 增强文档自动化。
+
+学习如何使用 Aspose.Words for Java 在 Java 中生成自定义条形码。包含条码生成源代码的分步指南。使用 Aspose.Words 增强文档自动化。
 
 ### [在 Aspose.Words for Java 中使用图表](./using-charts/)
+
 学习如何在 Aspose.Words for Java 中创建和自定义图表。探索数据可视化的图表类型、格式和轴属性。
 
 ### [在 Aspose.Words for Java 中使用 Office Math 对象](./using-office-math-objects/)
+
 使用 Aspose.Words for Java 解锁文档中数学公式的强大功能。学习如何轻松操作和显示 Office Math 对象。
 
 ### [在 Aspose.Words for Java 中使用文档形状](./using-document-shapes/)
+
 解锁 Aspose.Words for Java 中文档形状的强大功能。通过分步示例学习如何创建视觉效果引人入胜的文档。
 
 ### [在 Aspose.Words for Java 中使用水印文档](./using-watermarks-to-documents/)
+
 了解如何在 Aspose.Words for Java 中为文档添加水印。自定义文本和图像水印，打造专业水印的文档。
 
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
+
 了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
+
+### [使用 Java 将文档保存为 PDF – 完整 Aspose 指南](./save-document-as-pdf-with-java-complete-aspose-guide/)
+
+完整指南教您使用 Aspose.Words for Java 将文档保存为 PDF，包括代码示例和高级选项。
+
+### [将 Word 转换为 PDF – 生成可访问的 PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+
+### [在 Aspose.Words for C# 中导出 LaTeX（将 Word 转换为 Markdown）](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+
+使用 Aspose.Words for C# 将 DOCX 文档导出为 LaTeX 或 Markdown，实现高保真 Word 转换。
+
+### [将 docx 保存为 txt – 完整 C# 指南](./save-docx-as-txt-full-c-guide/)
+
+学习如何使用 Aspose.Words for C# 将 DOCX 文档导出为纯文本文件，提供完整代码示例和关键设置说明。
+
+### [将 docx 导出为 Markdown – 完整 C# 指南](./export-docx-as-markdown-complete-c-guide/)
+
+### [保存 Word 图像 – 使用 Java 将 DOCX 转换为 Markdown](./save-word-images-convert-docx-to-markdown-with-java/)
+
+### [从 Word 创建 PNG – 完整分步指南](./create-png-from-word-complete-step-by-step-guide/)
+
+本指南详细演示如何使用 Aspose.Words for Java 将 Word 文档导出为 PNG 图像，包含完整代码示例和关键设置。
 
 ## 常见问题
 

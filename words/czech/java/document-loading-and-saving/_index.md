@@ -83,52 +83,23 @@ Nastavení dokumentu jsou klíčem k dodání dokumentů přizpůsobených vaši
 ## Související tutoriály – Načítání, ukládání a konverze
 
 ### [Načítání a ukládání HTML dokumentů s Aspose.Words for Java](./loading-and-saving-html-documents/)
-Naučte se načítat a ukládat HTML dokumenty v Javě pomocí Aspose.Words for Java. Průvodce krok za krokem s ukázkami kódu pro plynulou integraci dokumentů.
-
 ### [Práce s možnostmi načítání v Aspose.Words for Java](./using-load-options/)
-Ovládání možností načítání v Aspose.Words for Java. Přizpůsobte načítání dokumentů, zpracovávejte šifrování, převádějte tvary, nastavujte verze Wordu a další pro efektivní zpracování dokumentů v Javě.
-
 ### [Konfigurace RTF možností načítání v Aspose.Words for Java](./configuring-rtf-load-options/)
-Konfigurace RTF možností načítání v Aspose.Words for Java. Naučte se rozpoznávat UTF-8 text v RTF dokumentech. Průvodce krok za krokem s ukázkami kódu.
-
 ### [Načítání textových souborů s Aspose.Words for Java](./loading-text-files/)
-Odemkněte sílu Aspose.Words for Java. Naučte se načítat textové dokumenty, spravovat seznamy, zacházet s mezerami a řídit směr textu.
-
 ### [Pokročilé možnosti ukládání s Aspose.Words for Java](./advance-saving-options/)
-Naučte se pokročilou manipulaci s dokumenty pomocí Aspose.Words for Java. Šifrování, zpracování metafiles a další. Vaše Word dokumenty, vaším způsobem.
-
 ### [Ukládání HTML dokumentů s pevnou rozlohou v Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
-Naučte se ukládat HTML dokumenty s pevnou rozlohou v Aspose.Words for Java. Postupujte podle našeho průvodce krok za krokem pro plynulé formátování dokumentů.
-
 ### [Pokročilé možnosti ukládání HTML dokumentů s Aspose.Words Java](./advance-html-documents-saving-options/)
-V tomto tutoriálu jsme pokryli různé pokročilé možnosti ukládání HTML dokumentů s Aspose.Words for Java. Tyto možnosti vám umožní vytvářet vysoce kvalitní HTML.
-
 ### [Ukládání obrázků z dokumentů v Aspose.Words for Java](./saving-images-from-documents/)
-Naučte se ukládat obrázky z dokumentů pomocí Aspose.Words for Java s naším komplexním průvodcem krok za krokem. Přizpůsobte formáty, kompresi a další.
-
 ### [Ukládání dokumentů jako Markdown v Aspose.Words for Java](./saving-documents-as-markdown/)
-Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java. Tento průvodce krok za krokem pokrývá zarovnání tabulek, zpracování obrázků a další.
-
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
-Naučte se ukládat dokumenty ve formátu ODT pomocí Aspose.Words for Java. Zajistěte kompatibilitu s open-source kancelářskými balíčky.
-
 ### [Ukládání dokumentů ve formátu OOXML v Aspose.Words for Java](./saving-documents-as-ooxml-format/)
-Naučte se ukládat dokumenty ve formátu OOXML pomocí Aspose.Words for Java. Zabezpečte, optimalizujte a přizpůsobte své soubory bez námahy.
-
 ### [Ukládání dokumentů ve formátu PCL v Aspose.Words for Java](./saving-documents-as-pcl-format/)
-Naučte se ukládat dokumenty ve formátu PCL pomocí Aspose.Words for Java. Průvodce krok za krokem a ukázky kódu pro efektivní konverzi dokumentů.
-
 ### [Ukládání dokumentů jako PDF v Aspose.Words for Java](./saving-documents-as-pdf/)
-Naučte se ukládat Word dokumenty jako PDF pomocí Aspose.Words for Java. Přizpůsobte písma, vlastnosti a kvalitu obrázků. Kompletní průvodce pro konverzi do PDF.
-
 ### [Ukládání dokumentů ve formátu RTF v Aspose.Words for Java](./saving-documents-as-rtf-format/)
-Naučte se ukládat dokumenty ve formátu RTF pomocí Aspose.Words for Java. Průvodce krok za krokem se zdrojovým kódem pro efektivní konverzi dokumentů.
-
 ### [Ukládání dokumentů jako textové soubory v Aspose.Words for Java](./saving-documents-as-text-files/)
-Naučte se ukládat dokumenty jako textové soubory pomocí Aspose.Words for Java. Postupujte podle našeho průvodce krok za krokem s ukázkami kódu v Javě.
-
 ### [Určování formátu dokumentu v Aspose.Words for Java](./determining-document-format/)
-Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory.
+### [Obnovení poškozeného dokumentu Word pomocí Aspose.Words – Průvodce](./recover-corrupted-word-document-using-aspose-words-guide/)
+### [varování callback tutoriál – Načtení dokumentu Word v Javě](./warning-callback-tutorial-load-word-document-in-java/)
 
 ## Často kladené otázky
 

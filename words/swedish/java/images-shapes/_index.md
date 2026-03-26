@@ -34,6 +34,9 @@ En kodhandledning för Aspose.Words Java
 ### [Hur man renderar dokumentsidor som miniatyrer med Aspose.Words för Java](./render-word-pages-thumbnails-aspose-java/)
 Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassad storlek av Word-dokument med Aspose.Words för Java. Förbättra dina dokumenthanteringsfunktioner idag.
 
+### [Skapa PDF-dokument med en rektangelform – Fullständig C#-guide](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Lär dig hur du skapar ett PDF-dokument och lägger till en rektangelform med Aspose.PDF för C#.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

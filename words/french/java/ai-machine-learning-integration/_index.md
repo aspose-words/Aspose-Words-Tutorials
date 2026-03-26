@@ -68,6 +68,9 @@ Exportez le document enrichi au format dont vous avez besoin—PDF, DOCX, HTML o
 ### [Maîtriser le traitement de texte en Java : Utiliser Aspose.Words & les modèles d'IA pour la synthèse et la traduction](./java-aspose-words-text-processing/)
 Apprenez à automatiser la synthèse et la traduction de texte en utilisant Aspose.Words pour Java avec le GPT‑4 d'OpenAI et le Gemini de Google. Améliorez vos applications Java dès aujourd'hui.
 
+### [Créer un modèle IA personnalisé – Modifier les paragraphes Word en Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Apprenez à créer votre propre modèle d'IA et à l'utiliser pour modifier automatiquement les paragraphes des documents Word avec Aspose.Words en Java.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

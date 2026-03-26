@@ -114,6 +114,10 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Determinando el formato de documento en Aspose.Words for Java](./determining-document-format/)
 
+### [Recuperar documento Word dañado usando Aspose.Words – Guía](./recover-corrupted-word-document-using-aspose-words-guide/)
+
+### [Tutorial de devolución de llamada de advertencia – Cargar documento Word en Java](./warning-callback-tutorial-load-word-document-in-java/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

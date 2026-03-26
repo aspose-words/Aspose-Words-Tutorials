@@ -67,6 +67,9 @@ AI‑обработка документов сочетает традицион
 ### [Мастер обработки текста в Java: использование Aspose.Words и AI‑моделей для суммаризации и перевода](./java-aspose-words-text-processing/)
 Узнайте, как автоматизировать суммаризацию текста и перевод с помощью Aspose.Words for Java, используя GPT‑4 от OpenAI и Gemini от Google. Улучшайте свои Java‑приложения уже сегодня.
 
+### [Создание пользовательской AI‑модели — редактирование абзацев Word в Java](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Научитесь создавать собственную AI‑модель и использовать её для автоматического редактирования абзацев в документах Word с помощью Aspose.Words for Java.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words for Java](https://reference.aspose.com/words/java/)

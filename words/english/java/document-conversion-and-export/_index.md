@@ -78,14 +78,34 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-
-Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
+Unlock the Power of Document Shapes in Aspose.Words for Java. Learn Create Visually Engaging Documents with Step‑by‑Step Examples.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional‑looking documents.
 
+### [Save document as pdf with Java – Complete Aspose Guide](./save-document-as-pdf-with-java-complete-aspose-guide/)
+Learn how to save documents as PDF using Aspose.Words for Java with a comprehensive step‑by‑step guide.
+
+### [Create PNG from Word – Complete Step‑by‑Step Guide](./create-png-from-word-complete-step-by-step-guide/)
+Learn how to convert Word documents to PNG images using Aspose.Words for Java in a detailed step‑by‑step guide.
+
+### [Convert Word to PDF – Generate Accessible PDF](./convert-word-to-pdf-generate-accessible-pdf/)
+Learn how to convert Word documents to accessible PDF using Aspose.Words for Java, ensuring compliance with accessibility standards.
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [How to Export LaTeX from DOCX – Convert Word to Markdown with C#](./how-to-export-latex-from-docx-convert-word-to-markdown-with/)
+Learn how to export LaTeX from DOCX and convert Word to Markdown using C# with Aspose.Words.
+
+### [Save docx as txt – Full C# Guide](./save-docx-as-txt-full-c-guide/)
+Save DOCX files as plain text using Aspose.Words for C#. Step‑by‑step guide with code examples.
+
+### [Export DOCX as Markdown – Complete C# Guide](./export-docx-as-markdown-complete-c-guide/)
+Export DOCX files to Markdown with Aspose.Words for C#. Full step‑by‑step guide covering extraction and formatting.
+
+### [Save Word Images – Convert DOCX to Markdown with Java](./save-word-images-convert-docx-to-markdown-with-java/)
+Save Word Images – Convert DOCX to Markdown with Java. Learn how to extract images from DOCX and convert content to Markdown using Aspose.Words for Java.
 
 ## Frequently Asked Questions
 

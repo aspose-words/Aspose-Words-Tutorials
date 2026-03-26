@@ -68,6 +68,9 @@ Wyeksportuj wzbogacony dokument do potrzebnego formatu — PDF, DOCX, HTML lub n
 ### [Mistrzowskie przetwarzanie tekstu w Javie&#58; użycie Aspose.Words i modeli AI do podsumowywania i tłumaczenia](./java-aspose-words-text-processing/)
 Dowiedz się, jak automatyzować podsumowywanie tekstu i tłumaczenie przy użyciu Aspose.Words for Java z GPT‑4 od OpenAI i Gemini od Google. Ulepsz swoje aplikacje Java już dziś.
 
+### [Utwórz własny model AI – Edytuj akapity Word w Javie](./create-custom-ai-model-edit-word-paragraphs-in-java/)
+Dowiedz się, jak zbudować własny model AI i używać go do dynamicznej edycji akapitów w dokumentach Word przy użyciu Aspose.Words w Javie.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Words for Java](https://reference.aspose.com/words/java/)

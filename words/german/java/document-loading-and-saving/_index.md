@@ -88,6 +88,9 @@ Lernen Sie, wie Sie HTML‑Dokumente in Java mit Aspose.Words für Java laden un
 ### [Arbeiten mit Ladeoptionen in Aspose.Words für Java](./using-load-options/)
 Meistern Sie Ladeoptionen in Aspose.Words für Java. Passen Sie das Laden von Dokumenten an, behandeln Sie Verschlüsselungen, konvertieren Sie Shapes, setzen Sie Word‑Versionen und mehr für effiziente Java‑Dokumentenverarbeitung.
 
+### [Warnungs‑Callback‑Tutorial – Word‑Dokument in Java laden](./warning-callback-tutorial-load-word-document-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Warnungen beim Laden von Word‑Dokumenten abfangen und verarbeiten.
+
 ### [Konfigurieren von RTF‑Ladeoptionen in Aspose.Words für Java](./configuring-rtf-load-options/)
 Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie Sie UTF‑8‑Text in RTF‑Dokumenten erkennen. Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
 
@@ -129,6 +132,9 @@ Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speiche
 
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
 Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
+
+### [Beschädigtes Word‑Dokument mit Aspose.Words wiederherstellen – Leitfaden](./recover-corrupted-word-document-using-aspose-words-guide/)
+Erfahren Sie, wie Sie beschädigte Word‑Dateien mit Aspose.Words für Java reparieren und wiederherstellen – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

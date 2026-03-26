@@ -83,7 +83,7 @@ Les paramètres du document sont la clé pour fournir des documents adaptés à 
 ## Tutoriels associés – Chargement, Enregistrement et Conversion
 
 ### [Chargement et enregistrement de documents HTML avec Aspose.Words for Java](./loading-and-saving-html-documents/)
-Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words for Java. Guide étape par étape avec des exemples de code pour une intégration transparente des documents.
+Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words for Java. Guide étape par étape avec des exemples de code.
 
 ### [Travailler avec les options de chargement dans Aspose.Words for Java](./using-load-options/)
 Maîtrisez les options de chargement dans Aspose.Words for Java. Personnalisez le chargement de documents, gérez le chiffrement, convertissez les formes, définissez les versions Word, et plus encore pour un traitement efficace des documents Java.
@@ -129,6 +129,12 @@ Apprenez à enregistrer des documents au format texte avec Aspose.Words for Java
 
 ### [Détermination du format de document avec Aspose.Words for Java](./determining-document-format/)
 Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identifiez DOC, DOCX, et plus encore. Organisez vos fichiers efficacement.
+
+### [Récupérer un document Word corrompu avec Aspose.Words – Guide](./recover-corrupted-word-document-using-aspose-words-guide/)
+Apprenez à restaurer des documents Word endommagés avec Aspose.Words, étape par étape, en Java.
+
+### [Tutoriel de rappel d’avertissement – Charger un document Word en Java](./warning-callback-tutorial-load-word-document-in-java/)
+Apprenez à gérer les avertissements lors du chargement d’un document Word en Java avec Aspose.Words.
 
 ## Foire aux questions
 

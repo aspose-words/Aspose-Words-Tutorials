@@ -34,6 +34,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [So rendern Sie Dokumentseiten als Miniaturansichten mit Aspose.Words für Java](./render-word-pages-thumbnails-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten und Bitmaps in benutzerdefinierter Größe von Word-Dokumenten erstellen. Verbessern Sie noch heute Ihre Dokumentenverwaltung.
 
+### [PDF-Dokument mit einer Rechteckform erstellen – Vollständige C#-Anleitung](./create-pdf-document-with-a-rectangle-shape-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# ein PDF-Dokument erstellen und ein Rechteck als Form hinzufügen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
