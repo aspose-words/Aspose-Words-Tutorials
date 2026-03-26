@@ -45,6 +45,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Mettre à jour la dernière propriété imprimée dans le document PDF](./update-last-printed-property/) | Apprenez à mettre à jour la dernière propriété imprimée dans un document PDF à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape. |
 | [Rendu 3D DML 3DEffects dans un document PDF](./dml-3deffects-rendering/) | Apprenez à restituer de superbes effets DML 3D dans des documents PDF à l'aide d'Aspose.Words pour .NET avec ce guide complet étape par étape. |
 | [Interpoler des images dans un document PDF](./interpolate-images/) | Découvrez comment interpoler des images dans un document PDF avec Aspose.Words pour .NET grâce à notre guide étape par étape. Améliorez facilement la qualité d'image de votre PDF. |
+| [Créer un PDF accessible à partir de Word – Guide complet C#](./create-accessible-pdf-from-word-complete-c-guide/) | Apprenez à générer des PDF accessibles depuis Word en C# avec Aspose.Words, en suivant ce guide complet étape par étape. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
