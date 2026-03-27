@@ -35,6 +35,7 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Cómo exportar LaTeX desde Word – Guía paso a paso](./how-to-export-latex-from-word-step-by-step-guide/) Aprenda a exportar contenido LaTeX desde Word usando Aspose.Words para .NET con esta guía paso a paso.
 | [Convertir Word a PDF en C# usando Aspose.Words – Guía](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aprenda a convertir documentos Word a PDF en C# con Aspose.Words. Guía paso a paso con ejemplos de código.
 | [Guardar Word como PDF con Aspose.Words – Guía completa en C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aprenda a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso a paso con ejemplos de código. |
+| [Convertir Word a PDF con Aspose.Words – Guía completa](./convert-word-to-pdf-with-aspose-words-complete-guide/) Aprenda a convertir documentos Word a PDF usando Aspose.Words con una guía completa paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

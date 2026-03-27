@@ -48,6 +48,7 @@
 | [接收警告通知](./receive-warning-notification/) |了解如何在使用 Aspose.Words for .NET 時接收警告通知並管理文件中的任何問題或警告。 |
 | [資源 Steam 字體來源範例](./resource-steam-font-source-example/) |了解如何使用資源流字體來源將自訂字體載入到 Aspose.Words for .NET 中。 |
 | [取得不含後綴的替換](./get-substitution-without-suffixes/) |在本教學中，學習如何使用 Aspose.Words for .NET 在 Word 文件中取得無後綴覆蓋。 |
+| [Aspose 字體替換 – 如何在 C# 中配置字體設定](./aspose-font-substitution-how-to-configure-font-settings-in-c/) |了解如何在 C# 中使用 Aspose.Words for .NET 配置字體替換設定，確保文件正確呈現。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

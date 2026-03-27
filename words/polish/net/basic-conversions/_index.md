@@ -23,7 +23,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | --- | --- |
 | [Konwertuj Doc do Docx](./doc-to-docx/) | Dowiedz się, jak przekonwertować DOC na DOCX za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami kodu. Idealny dla programistów. |
 | [Konwertuj Docx do RTF](./docx-to-rtf/) | Dowiedz się, jak przekonwertować DOCX na RTF za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Łatwa konwersja dla bezproblemowego przetwarzania dokumentów. |  
-| [Konwertuj plik Word do PDF](./docx-to-pdf/) Dowiedz się, jak łatwo konwertować pliki Word do PDF za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Idealne dla programistów poszukujących szybkiej i niezawodnej konwersji dokumentów. | 
+| [Konwertuj plik Word do PDF](./docx-to-pdf/) Dowiedz się, jak łatwo konwertować pliki Word do PDF za pomocą Aspose.Words dla .NET z naszym przewodnikiem. Idealne dla programistów poszukujących szybkiej i niezawodnej konwersji dokumentów. |
 | [Konwertuj Word do PDF w C# przy użyciu Aspose.Words – przewodnik](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Dowiedz się, jak w prosty sposób konwertować dokumenty Word do PDF w C# przy użyciu biblioteki Aspose.Words. |
 | [Konwertuj Docx na Bajt](./docx-to-byte/) | Dowiedz się, jak przekonwertować Docx na tablicę bajtów w .NET przy użyciu Aspose.Words w celu wydajnego przetwarzania dokumentów. Zawiera przewodnik krok po kroku. |  
 | [Konwertuj Docx do Epub](./docx-to-epub/) | Łatwa konwersja DOCX do EPUB za pomocą Aspose.Words dla .NET. Skorzystaj z naszego samouczka, aby zapewnić sobie bezproblemową integrację z aplikacjami .NET. |
@@ -35,6 +35,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Zapisz PDF do formatu Word (Docx)](./pdf-to-docx/) | Dowiedz się, jak przekonwertować plik PDF na dokument Word (Docx) za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Idealne dla programistów. |
 | [Jak wyeksportować LaTeX z Worda – przewodnik krok po kroku](./how-to-export-latex-from-word-step-by-step-guide/) | Dowiedz się, jak wyeksportować dokument Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Konwertuj Word do PDF przy użyciu Aspose.Words – Kompletny przewodnik](./convert-word-to-pdf-with-aspose-words-complete-guide/) | Kompletny przewodnik, jak konwertować dokumenty Word do PDF przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

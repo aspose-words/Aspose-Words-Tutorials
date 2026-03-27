@@ -42,6 +42,12 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+### [إنشاء markdown من Word – دليل C# كامل](./create-markdown-from-word-full-c-guide/)
+
+### [كيفية تصدير LaTeX من DOCX – تحويل إلى Markdown](./how-to-export-latex-from-docx-convert-to-markdown/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

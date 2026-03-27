@@ -26,7 +26,7 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | --- | --- |
 | [Dokumenttitel in der Fenstertitelleiste anzeigen](./display-doc-title-in-window-titlebar/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET den Dokumenttitel in der Fenstertitelleiste Ihrer PDFs anzeigen. |
 | [PDF-Renderwarnungen](./pdf-render-warnings/) | Schritt-für-Schritt-Anleitung zum Umgang mit PDF-Rendering-Warnungen mit Aspose.Words für .NET. |
-| [Fügen Sie mithilfe des Zertifikatsinhabers eine digitale Signatur zu PDF hinzu](./digitally-signed-pdf-using-certificate-holder/) | Sichern Sie Ihre PDF-Dateien mit einer digitalen Signatur mit Aspose.Words für .NET. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihren PDFs mühelos eine digitale Signatur hinzuzufügen. |
+| [Fügen Sie mithilfe des Zertifikatsinhabers eine digitale Signatur zu PDF hinzufügen](./digitally-signed-pdf-using-certificate-holder/) | Sichern Sie Ihre PDF-Dateien mit einer digitalen Signatur mit Aspose.Words für .NET. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihren PDFs mühelos eine digitale Signatur hinzuzufügen. |
 | [Schriftarten in PDF-Dokumente einbetten](./embedded-all-fonts/) | Betten Sie Schriftarten mühelos in PDF-Dokumente ein – mit Aspose.Words für .NET und dieser detaillierten Schritt-für-Schritt-Anleitung. Sorgen Sie für ein einheitliches Erscheinungsbild auf allen Geräten. |
 | [Einbetten von Teilmengen von Schriftarten in PDF-Dokumente](./embedded-subset-fonts/) Reduzieren Sie die PDF-Dateigröße, indem Sie mit Aspose.Words für .NET nur die benötigten Schriftarten einbetten. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Ihre PDFs effizient zu optimieren. |
 | [Reduzieren Sie die PDF-Größe, indem Sie eingebettete Schriftarten deaktivieren](./disable-embed-windows-fonts/) | Reduzieren Sie die PDF-Größe, indem Sie eingebettete Schriftarten mit Aspose.Words für .NET deaktivieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Ihre Dokumente für effizientes Speichern und Teilen zu optimieren. |
@@ -45,7 +45,7 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Zuletzt gedruckte Eigenschaft im PDF-Dokument aktualisieren](./update-last-printed-property/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die zuletzt gedruckte Eigenschaft in einem PDF-Dokument mit Aspose.Words für .NET aktualisieren. |
 | [Rendern Sie 3D-DML-3DEffects in einem PDF-Dokument](./dml-3deffects-rendering/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET beeindruckende 3D-DML-Effekte in PDF-Dokumenten rendern. |
 | [Interpolieren von Bildern in einem PDF-Dokument](./interpolate-images/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Bilder in einem PDF-Dokument interpolieren. Verbessern Sie ganz einfach die Bildqualität Ihres PDFs. |
-
+| [Wie man PDF aus DOCX mit Aspose.Words speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-pdf-from-docx-with-aspose-words-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX‑Dokument in ein PDF konvertieren und speichern – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
