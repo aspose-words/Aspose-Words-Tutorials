@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Aprenda a organizar marcadores eficazmente en archivos PDF con Aspose.Words para Java. Mejore la legibilidad y la navegación con esta guía completa."
-"title": "Niveles de esquema de marcadores maestros en archivos PDF con Aspose.Words Java"
-"url": "/es/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-03-28'
+description: Aprende cómo agregar marcadores PDF y gestionar marcadores anidados en
+  PDF usando Aspose.Words para Java. Mejora la navegación del documento con niveles
+  de esquema claros.
+keywords:
+- Aspose.Words Java PDF bookmarks
+- nested bookmarks in PDFs
+- bookmark outline levels
+title: Agregar marcadores y niveles de esquema PDF usando Aspose.Words Java
+url: /es/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +18,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Niveles de esquema de marcadores maestros en archivos PDF con Aspose.Words Java
+# Añadir marcadores PDF y niveles de esquema usando Aspose.Words Java
 
 ## Introducción
-¿Tienes dificultades para gestionar tus marcadores al convertir documentos de Word a PDF? Este tutorial te mostrará cómo usar Aspose.Words para Java para organizar tus marcadores de documentos eficazmente, haciéndolos profesionales y fáciles de navegar.
+Si tienes problemas para **añadir marcadores PDF** que se mantengan organizados al convertir documentos Word a PDFs, has llegado al lugar correcto. En este tutorial recorreremos cómo usar Aspose.Words para Java para crear **marcadores anidados en PDF**, asignar niveles de esquema y producir un archivo PDF limpio y navegable.
 
-**Lo que aprenderás:**
-- Configurar y utilizar Aspose.Words para Java
-- Crear marcadores anidados en documentos de Word
-- Configurar los niveles de esquema de marcadores para una mejor organización
-- Guardar documentos como PDF con marcadores estructurados
+**Lo que aprenderás**
+- Configurar Aspose.Words para Java en tu proyecto  
+- Crear **marcadores anidados en PDF** directamente desde un documento Word  
+- Configurar los niveles de esquema de los marcadores para una vista jerárquica  
+- Guardar el documento final como PDF con marcadores estructurados correctamente  
 
-¡Repasemos los requisitos previos antes de comenzar!
+### Respuestas rápidas
+- **¿Cuál es el beneficio principal de añadir marcadores PDF?** Mejora la navegación y la experiencia del usuario en documentos extensos.  
+- **¿Qué biblioteca permite crear marcadores PDF fácilmente en Java?** Aspose.Words para Java.  
+- **¿Necesito una licencia para usar las funciones de marcadores?** Una prueba gratuita funciona para evaluación; se requiere una licencia para producción.  
+- **¿Puedo establecer diferentes niveles de esquema para cada marcador?** Sí, usando `BookmarksOutlineLevelCollection` en `PdfSaveOptions`.  
+- **¿Este método es compatible con la última versión de Aspose.Words?** Absolutamente – funciona con la versión 25.3 y posteriores.
 
-### Prerrequisitos
-Antes de comenzar, asegúrese de tener:
-- **Bibliotecas y dependencias**:Aspose.Words para Java (versión 25.3 o posterior).
-- **Configuración del entorno**:Un JDK instalado en su máquina junto con un IDE compatible como IntelliJ IDEA o Eclipse.
-- **Requisitos previos de conocimiento**:Comprensión básica de programación Java y familiaridad con los sistemas de compilación Maven o Gradle.
+## ¿Qué es “añadir marcadores PDF”?
+Añadir marcadores PDF significa insertar entradas clicables en el panel de navegación del PDF que apuntan a secciones específicas del documento. Cuando se combinan con niveles de esquema, estos marcadores forman una estructura tipo árbol que refleja la jerarquía de tu documento.
+
+## ¿Por qué usar marcadores anidados en PDF?
+Los marcadores anidados permiten a los lectores profundizar desde secciones de alto nivel hasta subsecciones detalladas sin tener que desplazarse por páginas. Esto es especialmente valioso para **contratos legales**, **informes técnicos** y **manuales de e‑learning** donde la referencia rápida es esencial.
+
+## Requisitos previos
+- **Bibliotecas y dependencias**: Aspose.Words para Java (versión 25.3 o posterior).  
+- **Entorno**: JDK 8+ y un IDE como IntelliJ IDEA o Eclipse.  
+- **Conocimientos**: Java básico, familiaridad con Maven o Gradle.
 
 ## Configuración de Aspose.Words
-Para empezar, incluye las dependencias necesarias en tu proyecto. Puedes hacerlo usando Maven y Gradle de la siguiente manera:
+Para comenzar, incluye las dependencias necesarias en tu proyecto. Así es como hacerlo con Maven y Gradle:
 
-**Experto:**
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -49,122 +64,129 @@ Para empezar, incluye las dependencias necesarias en tu proyecto. Puedes hacerlo
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Adquisición de licencias
-Aspose.Words es un producto comercial, pero puedes empezar con una prueba gratuita para explorar sus funciones. Estos son los pasos:
-1. **Prueba gratuita**: Descargar desde [Página de lanzamiento de Aspose](https://releases.aspose.com/words/java/) para probar todas las capacidades.
-2. **Licencia temporal**:Solicite una licencia temporal en [Página de licencia temporal de Aspose](https://purchase.aspose.com/temporary-license/) Si es necesario.
-3. **Compra**:Para uso continuo, compre una licencia de [Portal de compras de Aspose](https://purchase.aspose.com/buy).
+### Obtención de licencia
+Aspose.Words es un producto comercial, pero puedes iniciar con una prueba gratuita:
 
-Una vez que tenga su archivo de licencia, inicialícelo en su proyecto para desbloquear todas las funciones de Aspose.Words.
+1. **Prueba gratuita** – Descárgala desde [la página de lanzamientos de Aspose](https://releases.aspose.com/words/java/) para probar todas las capacidades.  
+2. **Licencia temporal** – Solicítala en [la página de licencias temporales de Aspose](https://purchase.aspose.com/temporary-license/) si necesitas una clave a corto plazo.  
+3. **Compra** – Obtén una licencia permanente en [el portal de compras de Aspose](https://purchase.aspose.com/buy).
+
+Después de obtener el archivo de licencia, cárgalo en tu código para desbloquear todas las funciones.
 
 ## Guía de implementación
-Dividamos la implementación en secciones manejables:
+Desglosaremos la implementación en pasos claros y numerados.
 
-### Creación de marcadores anidados
-**Descripción general**:Aprenda a crear marcadores anidados dentro de un documento de Word usando Aspose.Words para Java.
-
-#### Paso 1: Inicializar el documento y el constructor
+### Paso 1: Inicializar Document y Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Esto configura el entorno de su documento de Word donde puede comenzar a insertar contenido.
+Esto crea un nuevo documento Word que rellenaremos con contenido y marcadores.
 
-#### Paso 2: Insertar marcadores anidados
-Comience creando un marcador principal:
+### Paso 2: Insertar marcadores anidados
+#### Crear el primer marcador (padre)
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Ahora, anide otro marcador dentro de él:
+
+#### Anidar un marcador hijo dentro del padre
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Finalizar el marcador anidado
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Completa el marcador exterior:
+
+#### Cerrar el marcador padre
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Paso 3: Agregar marcadores adicionales
-Continúe añadiendo marcadores según sea necesario. Por ejemplo, un tercer marcador aparte:
+#### Añadir un tercer marcador independiente
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### Configuración de los niveles de esquema de marcadores
-**Descripción general**:Organiza tus marcadores configurando sus niveles de esquema para una mejor navegación en el PDF.
-
-#### Paso 1: Configurar PdfSaveOptions
+### Paso 3: Configurar niveles de esquema de los marcadores
+#### Configurar `PdfSaveOptions`
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Este fragmento de código inicializa las opciones que utilizará para guardar su documento como PDF con marcadores organizados.
 
-#### Paso 2: Agregar niveles de contorno
-Asigna niveles a cada marcador, lo que determinará su jerarquía:
+#### Asignar niveles de jerarquía
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Anidado bajo el Marcador 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
 
-#### Paso 3: Guardar el documento
-Por último, guarde su documento como PDF con esta configuración:
+#### Guardar el documento como PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
 
-### Consejos para la solución de problemas
-- **Marcadores faltantes**:Asegúrese de que cada uno `startBookmark` tiene un correspondiente `endBookmark`.
-- **Niveles incorrectos**:Verifique la jerarquía verificando las relaciones padre-hijo en su código.
+### Problemas comunes y soluciones
+- **Marcadores ausentes** – Verifica que cada `startBookmark` tenga un `endBookmark` correspondiente.  
+- **Jerarquía de esquema incorrecta** – Revisa los números de nivel; un número menor indica un nivel superior en el panel de navegación.  
+- **Documentos grandes** – Llama a `doc.optimizeResources()` antes de guardar para reducir el consumo de memoria.
 
 ## Aplicaciones prácticas
-A continuación se presentan algunos escenarios en los que puedes aplicar este conocimiento:
-1. **Documentos legales**:Organiza secciones y subsecciones para facilitar su referencia.
-2. **Informes**:Utilice marcadores anidados para navegar por estructuras de datos complejas.
-3. **Material educativo**:Estructure capítulos, subcapítulos y puntos clave de manera eficiente.
+1. **Documentos legales** – Salta rápidamente a cláusulas y subcláusulas.  
+2. **Informes anuales** – Navega entre capítulos, secciones y tablas de contenido.  
+3. **Material educativo** – Proporciona a los estudiantes un syllabus clicable dentro del PDF.
 
 ## Consideraciones de rendimiento
-- Optimice el tamaño del documento eliminando el contenido innecesario antes de guardarlo.
-- Administre el uso de memoria de manera eficaz al manejar documentos grandes.
+- Elimina cualquier imagen innecesaria o secciones ocultas antes de la conversión.  
+- Usa APIs de streaming para archivos extremadamente grandes y mantener bajo el uso de memoria.
 
 ## Conclusión
-Ya has aprendido a implementar eficazmente los niveles de esquema de marcadores con Aspose.Words para Java. Esta habilidad mejorará enormemente la navegabilidad de tus PDF, haciéndolos más intuitivos y profesionales.
+Ahora tienes un método completo y listo para producción para **añadir marcadores PDF**, configurar sus niveles de esquema y generar un PDF bien estructurado usando Aspose.Words para Java. Esta técnica mejora drásticamente la usabilidad del documento y te brinda un control granular sobre la navegación del PDF.
 
-**Próximos pasos**:Experimente con diferentes estructuras de documentos o integre esta funcionalidad en una aplicación más grande para ver sus beneficios en acción.
+**Próximos pasos** – Prueba combinar este enfoque con Aspose.PDF para Java para editar o añadir marcadores adicionales después de crear el PDF.
 
 ## Sección de preguntas frecuentes
-1. **¿Cómo instalo Aspose.Words para Java?**
-   - Inclúyalo como una dependencia a través de Maven o Gradle, luego configure su archivo de licencia.
-2. **¿Puedo usar marcadores sin niveles de contorno?**
-   - Sí, pero el uso de niveles de esquema mejora la navegación en archivos PDF.
-3. **¿Cuáles son los límites para anidar marcadores?**
-   - No hay un límite estricto, pero considere la legibilidad y la estructura para los usuarios.
-4. **¿Cómo gestiona Aspose los documentos grandes?**
-   - Administra los recursos de forma eficiente, aunque se recomienda la optimización para archivos muy grandes.
-5. **¿Puedo modificar los marcadores después de guardar el PDF?**
-   - Sí, uso Aspose.PDF para Java para editar marcadores después de la conversión.
+1. **¿Cómo instalo Aspose.Words para Java?**  
+   Inclúyelo como una dependencia de Maven o Gradle y carga tu archivo de licencia en tiempo de ejecución.  
+2. **¿Puedo usar marcadores sin niveles de esquema?**  
+   Sí, pero los niveles de esquema proporcionan una vista jerárquica que facilita mucho la navegación.  
+3. **¿Cuáles son los límites de anidación de marcadores?**  
+   No hay un límite estricto, pero mantén la jerarquía lógica para una mejor experiencia de usuario.  
+4. **¿Cómo maneja Aspose documentos grandes?**  
+   Transmite los recursos de forma eficiente; sin embargo, deberías llamar a `optimizeResources()` para archivos muy extensos.  
+5. **¿Puedo modificar los marcadores después de guardar el PDF?**  
+   Absolutamente – usa Aspose.PDF para Java para editar los marcadores después de la conversión.
+
+## Preguntas frecuentes adicionales
+**P: ¿Esta técnica funciona al convertir DOCX a PDF?**  
+R: Sí, los mismos pasos de creación de marcadores se aplican sin importar el formato Word de origen.
+
+**P: ¿Es posible establecer colores o íconos personalizados para los marcadores?**  
+R: La apariencia del marcador la controla el visor PDF; Aspose.Words se centra en la jerarquía y el nombre.
+
+**P: ¿Los niveles de esquema aparecerán en todos los lectores PDF?**  
+R: La mayoría de los lectores modernos (Adobe Acrobat, Foxit, Chrome) respetan la jerarquía de esquema definida por Aspose.Words.
 
 ## Recursos
-- [Documentación de Aspose.Words](https://reference.aspose.com/words/java/)
-- [Descargar los últimos lanzamientos](https://releases.aspose.com/words/java/)
-- [Comprar una licencia](https://purchase.aspose.com/buy)
-- [Prueba gratuita](https://releases.aspose.com/words/java/)
-- [Solicitud de licencia temporal](https://purchase.aspose.com/temporary-license/)
+- [Documentación de Aspose.Words](https://reference.aspose.com/words/java/)  
+- [Descargar últimas versiones](https://releases.aspose.com/words/java/)  
+- [Comprar una licencia](https://purchase.aspose.com/buy)  
+- [Prueba gratuita](https://releases.aspose.com/words/java/)  
+- [Solicitud de licencia temporal](https://purchase.aspose.com/temporary-license/)  
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**Última actualización:** 2026-03-28  
+**Probado con:** Aspose.Words 25.3 para Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
