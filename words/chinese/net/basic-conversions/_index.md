@@ -24,6 +24,7 @@
 | [将 Doc 转换为 Docx](./doc-to-docx/) | 学习如何使用 Aspose.Words for .NET 将 DOC 转换为 DOCX。分步指南，包含代码示例。非常适合开发人员。|
 | [Docx 转 Rtf](./docx-to-rtf/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 RTF，并遵循我们的分步指南。轻松转换，实现无缝文档处理。|  
 | [将Word文件转换为PDF](./docx-to-pdf/) 学习如何使用 Aspose.Words for .NET 轻松将 Word 文件转换为 PDF，本指南将指导您完成。非常适合寻求快速可靠文档转换的开发人员。| 
+| [使用 C# 将 Word 转换为 PDF – 步骤指南](./create-pdf-from-word-in-c-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供分步指南和代码示例。|
 | [将 Docx 转换为字节](./docx-to-byte/) 学习如何使用 Aspose.Words 在 .NET 中将 Docx 转换为字节数组，以实现高效的文档处理。内含分步指南。|  
 | [将 Docx 转换为 Epub](./docx-to-epub/) | 使用 Aspose.Words for .NET 轻松将 DOCX 转换为 EPUB。按照我们的教程，将其无缝集成到您的 .NET 应用程序中。|
 | [将 Docx 转换为 Mhtml 并发送电子邮件](./docx-to-mhtml-and-sending-email/) 在本分步指南中学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 MHTML 并发送电子邮件。轻松实现自动化，提升您的工作效率。|

@@ -48,8 +48,7 @@
 | [Λήψη ειδοποίησης προειδοποίησης](./receive-warning-notification/) Μάθετε πώς να λαμβάνετε μια ειδοποίηση προειδοποίησης όταν χρησιμοποιείτε το Aspose.Words για .NET και να διαχειρίζεστε τυχόν προβλήματα ή προειδοποιήσεις στα έγγραφά σας. |
 | [Παράδειγμα Πηγής Γραμματοσειράς Πόρων Steam](./resource-steam-font-source-example/) | Μάθετε πώς να χρησιμοποιείτε το Resource Stream Font Source για να φορτώνετε προσαρμοσμένες γραμματοσειρές στο Aspose.Words για .NET. |
 | [Λήψη αντικατάστασης χωρίς επιθήματα](./get-substitution-without-suffixes/) | Σε αυτό το σεμινάριο, μάθετε πώς να λαμβάνετε παρακάμψεις χωρίς επιθήματα σε ένα έγγραφο του Word με το Aspose.Words για .NET. |
-
-
+| [Πώς να Καταγράψετε Προειδοποιήσεις στο Aspose.Words – Πλήρης Οδηγός C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Μάθετε πώς να εντοπίζετε και να διαχειρίζεστε προειδοποιήσεις κατά την επεξεργασία εγγράφων Word με το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

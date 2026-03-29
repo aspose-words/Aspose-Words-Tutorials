@@ -33,6 +33,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Konvertera metafiler till png](./convert-metafiles-to-png/) | Konvertera enkelt metafiler till PNG i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Förenkla din dokumenthantering. |
 | [Ladda CHM-filer i Word-dokument](./load-chm/) | Ladda enkelt CHM-filer till Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för att konsolidera din tekniska dokumentation. |
 | [Återställ docx med Aspose.Words – steg för steg](./how-to-recover-docx-with-aspose-words-step-by-step/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words för .NET i en enkel steg-för-steg-guide. |
+| [Hur man återställer DOCX-filer i C# – Steg‑för‑steg‑guide](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Lär dig hur du återställer DOCX-filer i C# med en tydlig steg‑för‑steg‑guide. |
 | [Aspose Load Options – Ladda DOCX med anpassade teckensnittinställningar](./aspose-load-options-load-docx-with-custom-font-settings/) | Lär dig hur du laddar ett DOCX-dokument med egna teckensnittinställningar via Aspose Load Options i .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

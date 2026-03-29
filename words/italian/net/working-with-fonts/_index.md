@@ -45,7 +45,8 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Impostazioni font Istanza predefinita](./font-settings-default-instance/) | In questo tutorial imparerai come configurare le impostazioni predefinite dei caratteri in un documento Word con Aspose.Words per .NET. |
 | [Ottieni l'elenco dei font disponibili](./get-list-of-available-fonts/) | Scopri come ottenere un elenco dei font disponibili utilizzando Aspose.Words per .NET in questo tutorial dettagliato passo dopo passo. Migliora le tue competenze nella gestione dei font. |
 | [Ricevi notifiche sui font](./receive-notifications-of-fonts/) | Scopri come ricevere notifiche relative a font mancanti o sostituiti quando utilizzi Aspose.Words per .NET. |
-| [Ricevi notifica di avviso](./receive-warning-notification/) Scopri come ricevere una notifica di avviso quando usi Aspose.Words per .NET e come gestire eventuali problemi o avvisi nei tuoi documenti.
+| [Ricevi notifica di avviso](./receive-warning-notification/) Scopri come ricevere una notifica di avviso quando usi Aspose.Words per .NET e come gestire eventuali problemi o avvisi nei tuoi documenti. |
+| [Come catturare gli avvisi in Aspose.Words – Guida completa C#](./how-to-capture-warnings-in-aspose-words-complete-c-guide/) | Scopri come catturare gli avvisi durante l'elaborazione dei documenti con Aspose.Words per .NET usando C#. |
 | [Esempio di sorgente del font Steam Resource](./resource-steam-font-source-example/) | Scopri come utilizzare Resource Stream Font Source per caricare font personalizzati in Aspose.Words per .NET. |
 | [Ottieni la sostituzione senza suffissi](./get-substitution-without-suffixes/) | In questo tutorial imparerai come ottenere override senza suffisso in un documento Word con Aspose.Words per .NET. |
 

@@ -34,6 +34,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить PDF в формате Word (Docx)](./pdf-to-docx/) | Узнайте, как преобразовать PDF в документ Word (Docx) с помощью Aspose.Words для .NET в этом подробном пошаговом руководстве. Идеально подходит для разработчиков. |
 | [Как экспортировать LaTeX из Word – пошаговое руководство](./how-to-export-latex-from-word-step-by-step-guide/) | Узнайте, как экспортировать документ Word в LaTeX с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
+| [Создать PDF из Word в C# – пошаговое руководство](./create-pdf-from-word-in-c-step-by-step-guide/) | Узнайте, как создать PDF из документа Word в C# с помощью Aspose.Words. Пошаговое руководство с примерами кода. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

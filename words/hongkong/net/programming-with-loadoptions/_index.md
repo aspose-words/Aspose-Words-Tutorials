@@ -33,6 +33,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [將圖元檔轉換為 Png](./convert-metafiles-to-png/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆將 Word 文件中的元檔案轉換為 PNG。簡化您的文件管理。 |
 | [在 Word 文件中載入 Chm 文件](./load-chm/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆地將 CHM 檔案載入到 Word 文件中。非常適合整合您的技術文件。 |
 | [如何使用 Aspose.Words 復原 docx – 步驟說明](./how-to-recover-docx-with-aspose-words-step-by-step/) |了解如何使用 Aspose.Words 逐步復原受損的 docx 文件，確保資料完整性。 |
+| [如何在 C# 中復原 DOCX 檔案 – 步驟說明](./how-to-recover-docx-files-in-c-step-by-step-guide/) |了解如何使用 Aspose.Words for .NET 逐步復原受損的 DOCX 檔案，確保資料完整性。 |
 | [Aspose 載入選項 – 使用自訂字體設定載入 DOCX](./aspose-load-options-load-docx-with-custom-font-settings/) |了解如何使用 Aspose.Words for .NET 的 LoadOptions 以自訂字體設定載入 DOCX 文件，提升文件顯示效果。 |
 
 
