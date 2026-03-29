@@ -33,7 +33,8 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Guardar PDF como JPEG](./pdf-to-jpeg/) Convierte fácilmente archivos PDF a JPEG con Aspense.Words para .NET. Sigue nuestra guía detallada con ejemplos y preguntas frecuentes. Ideal para desarrolladores y aficionados.
 | [Guardar PDF en formato Word (Docx)](./pdf-to-docx/) Aprenda a convertir un PDF a un documento de Word (Docx) con Aspose.Words para .NET con esta guía detallada paso a paso. Ideal para desarrolladores.
 | [Cómo exportar LaTeX desde Word – Guía paso a paso](./how-to-export-latex-from-word-step-by-step-guide/) Aprenda a exportar contenido LaTeX desde Word usando Aspose.Words para .NET con esta guía paso a paso.
-| [Convertir Word a PDF en C# usando Aspose.Words – Guía](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aprenda a convertir documentos Word a PDF en C# con Aspose.Words. Guía paso a paso con ejemplos de código.
+| [Convertir Word a PDF en C# usando Aspose.Words – Guía paso a paso](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aprenda a convertir documentos Word a PDF en C# con Aspose.Words. Guía paso a paso con ejemplos de código.
+| [Crear PDF desde Word en C# – Guía paso a paso](./create-pdf-from-word-in-c-step-by-step-guide/) Aprenda a crear PDFs a partir de documentos Word en C# usando Aspose.Words. Guía paso a paso con ejemplos de código.
 | [Guardar Word como PDF con Aspose.Words – Guía completa en C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aprenda a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso a paso con ejemplos de código. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

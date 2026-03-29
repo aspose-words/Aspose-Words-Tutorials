@@ -32,6 +32,8 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
 | [DOCX को मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./how-to-save-markdown-from-docx-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में बदलने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 | [DOCX से Markdown निर्यात कैसे करें – पूरी गाइड](./how-to-export-markdown-from-docx-complete-guide/) | DOCX फ़ाइल को Markdown में निर्यात करने की विस्तृत चरण‑दर‑चरण गाइड। |
+| [DOCX को मार्कडाउन के रूप में सहेजें – Aspose.Words के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) | Aspose.Words का उपयोग करके C# में DOCX को मार्कडाउन में बदलने की विस्तृत गाइड। |
+| [आकार छायाओं और PDF/UA के साथ Word को Markdown में निर्यात करें](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) | आकार छायाओं और PDF/UA समर्थन के साथ Word को Markdown में निर्यात करने की विस्तृत गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

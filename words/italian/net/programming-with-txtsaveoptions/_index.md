@@ -27,7 +27,7 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | [Aggiungere segni Bidi nel documento Word](./add-bidi-marks/) | Scopri come aggiungere marcatori bidirezionali (Bidi) nei documenti Word utilizzando Aspose.Words per .NET con questa guida. Garantisci il corretto orientamento del testo per i contenuti multilingue. |
 | [Usa il carattere di tabulazione per livello per l'indentazione dell'elenco](./use-tab-character-per-level-for-list-indentation/) | Scopri come creare elenchi multilivello con rientro a tabulazione utilizzando Aspose.Words per .NET. Segui questa guida per formattare gli elenchi in modo preciso nei tuoi documenti. |
 | [Usa il carattere spazio per livello per l'indentazione dell'elenco](./use-space-character-per-level-for-list-indentation/) | Scopri come creare elenchi multilivello con rientro tramite spazi in Aspose.Words per .NET. Guida passo passo per una formattazione precisa dei documenti. |
-
+| [Salva docx come txt – Esporta Math in LaTeX con Aspose.Words](./save-docx-as-txt-export-math-to-latex-with-aspose-words/) | Scopri come esportare le equazioni Math da un file DOCX a LaTeX durante la conversione in TXT con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

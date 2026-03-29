@@ -45,7 +45,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [PDF Belgesinde Son Yazdırılan Özelliği Güncelle](./update-last-printed-property/) | Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla bir PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini öğrenin.
 | [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin.
 | [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
-
+| [Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

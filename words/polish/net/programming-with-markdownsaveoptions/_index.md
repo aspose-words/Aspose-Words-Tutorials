@@ -46,6 +46,12 @@ Kompletny przewodnik krok po kroku, jak zapisać plik DOCX jako Markdown przy u�
 ### [Jak wyeksportować Markdown z DOCX – Kompletny przewodnik](./how-to-export-markdown-from-docx-complete-guide/)
 Kompletny przewodnik pokazujący, jak wyeksportować pliki DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
+### [Zapisz docx jako markdown – Kompletny przewodnik C# z Aspose.Words](./save-docx-as-markdown-complete-c-guide-with-aspose-words/)
+Kompletny przewodnik C# wyjaśniający, jak zapisać plik DOCX jako Markdown przy użyciu Aspose.Words.
+
+### [Eksportuj Word do Markdown z cieniami kształtów i PDF/UA](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/)
+Dowiedz się, jak wyeksportować dokumenty Word do formatu Markdown, zachowując cienie kształtów i zgodność z PDF/UA przy użyciu Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

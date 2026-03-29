@@ -34,6 +34,7 @@
 | [Αποθήκευση PDF σε μορφή Word (Docx)](./pdf-to-docx/) | Μάθετε πώς να μετατρέψετε ένα PDF σε έγγραφο Word (Docx) χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον λεπτομερή οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές. |
 | [Πώς να εξάγετε LaTeX από το Word – Οδηγός βήμα‑βήμα](./how-to-export-latex-from-word-step-by-step-guide/) | Μάθετε πώς να εξάγετε έγγραφα Word σε μορφή LaTeX χρησιμοποιώντας το Aspose.Words για .NET με βήμα‑βήμα οδηγίες. |
 | [Μετατροπή Word σε PDF σε C# χρησιμοποιώντας το Aspose.Words – Οδηγός](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET σε C# με οδηγίες βήμα‑βήμα. |
+| [Δημιουργία PDF από Word σε C# – Οδηγός βήμα‑βήμα](./create-pdf-from-word-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργείτε PDF από έγγραφα Word σε C# χρησιμοποιώντας το Aspose.Words με οδηγίες βήμα‑βήμα. |
 | [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

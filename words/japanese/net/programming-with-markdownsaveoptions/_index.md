@@ -32,6 +32,8 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Word から Markdown をエクスポートする方法 – 完全 C# ガイド](./how-to-export-markdown-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown にエクスポートする完全な C# ガイドです。ステップバイステップで解説します。 |
 | [DOCX から Markdown にエクスポートする方法 – 完全ガイド](./how-to-export-markdown-from-docx-complete-guide/) Aspose.Words for .NET を使用して、DOCX 文書を Markdown にエクスポートする完全なガイドです。ステップバイステップで解説します。 |
 | [DOCX から Markdown に保存する方法 – ステップバイステップ ガイド](./how-to-save-markdown-from-docx-step-by-step-guide/) Aspose.Words for .NET を使用して、DOCX ファイルを Markdown に変換し保存する手順をステップバイステップで解説します。 |
+| [docx を Markdown に保存 – Aspose.Words 完全 C# ガイド](./save-docx-as-markdown-complete-c-guide-with-aspose-words/) Aspose.Words for .NET を使用して、docx ファイルを Markdown に変換し、完全な C# ガイドで手順を解説します。 |
+| [シェイプの影とPDF/UA付きでWordをMarkdownにエクスポート](./export-word-to-markdown-with-shape-shadows-and-pdf-ua/) Aspose.Words for .NET を使用し、シェイプの影やPDF/UA情報を保持したまま Word 文書を Markdown にエクスポートする方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
