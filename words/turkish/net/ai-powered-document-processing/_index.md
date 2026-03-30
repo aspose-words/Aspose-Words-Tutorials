@@ -41,7 +41,9 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [AI Modeli ile Çalışma](./working-with-ai-model/) | AI ile belgeleri özetlemek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Belge yönetimini geliştirmek için kolay adımlar. |
 | [Google AI Modeli ile Çalışma](./working-with-google-ai-model/) Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun. |
 | [Açık AI Modeli ile Çalışma](./working-with-open-ai-model/) | OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın. |
-| [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin.
+| [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin. |
+| [C# ile Word'de Dilbilgisi Kontrolü Nasıl Yapılır – Tam Kılavuz](./how-to-check-grammar-in-word-with-c-complete-guide/) | C# kullanarak Aspose.Words ile Word belgelerinizde dilbilgisi kontrolü yapmayı öğrenin. |
+| [AI ile Özet Oluşturma – C# Aspose Words Eğitimi](./create-summary-with-ai-c-aspose-words-tutorial/) | AI kullanarak C# ile Aspose.Words ile belge özetleme adımlarını öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

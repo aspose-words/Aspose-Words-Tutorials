@@ -28,6 +28,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [设置 Ms Word 版本](./set-ms-word-version/) 通过我们的详细指南，了解如何使用 Aspose.Words for .NET 设置 MS Word 版本。非常适合希望简化文档操作的开发人员。|
 | [在 Word 文档中使用临时文件夹](./use-temp-folder/) 了解如何在使用 Aspose.Words 加载 Word 文档时使用临时文件夹来提高 .NET 应用程序的性能。|
 | [Word 文档中的警告回调](./warning-callback/) 学习如何使用 Aspose.Words for .NET 捕获和处理 Word 文档中的警告，并遵循我们的分步指南。确保文档处理稳健。|
+| [如何捕获警告 – 为缺失字体配置加载选项](./how-to-capture-warnings-configure-load-options-for-missing-f/) 了解如何在加载文档时捕获缺失字体的警告，并使用 LoadOptions 进行相应配置。|
 | [在 Word 文档中加载编码](./load-with-encoding/) 了解如何使用 Aspose.Words for .NET 加载具有特定编码的 Word 文档。分步指南，详细解释。|
 | [跳过 PDF 图像](./skip-pdf-images/) 了解如何使用 Aspose.Words for .NET 加载 PDF 文档时跳过图片。按照本分步指南操作，即可实现无缝文本提取。|
 | [将图元文件转换为 Png](./convert-metafiles-to-png/) | 按照本分步教程，使用 Aspose.Words for .NET 轻松将 Word 文档中的元文件转换为 PNG。简化您的文档管理。|

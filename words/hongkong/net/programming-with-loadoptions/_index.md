@@ -34,7 +34,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [在 Word 文件中載入 Chm 文件](./load-chm/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆地將 CHM 檔案載入到 Word 文件中。非常適合整合您的技術文件。 |
 | [如何使用 Aspose.Words 復原 docx – 步驟說明](./how-to-recover-docx-with-aspose-words-step-by-step/) |了解如何使用 Aspose.Words 逐步復原受損的 docx 文件，確保資料完整性。 |
 | [Aspose 載入選項 – 使用自訂字體設定載入 DOCX](./aspose-load-options-load-docx-with-custom-font-settings/) |了解如何使用 Aspose.Words for .NET 的 LoadOptions 以自訂字體設定載入 DOCX 文件，提升文件顯示效果。 |
-
+| [如何捕獲警告 – 為缺失字體配置載入選項](./how-to-capture-warnings-configure-load-options-for-missing-f/) |了解如何使用 Aspose.Words for .NET 捕獲警告，並透過載入選項處理缺失字體。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

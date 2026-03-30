@@ -24,7 +24,8 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | --- | --- |
 | [Convert Doc To Docx](./doc-to-docx/) | Learn how to convert DOC to DOCX using Aspose.Words for .NET. Step-by-step guide with code examples. Perfect for developers.  |
 | [Convert Docx To Rtf](./docx-to-rtf/) | Learn how to convert DOCX to RTF using Aspose.Words for .NET with our step-by-step guide. Easy conversion for seamless document processing. |  
-| [Convert Word File to PDF](./docx-to-pdf/) | Learn how to easily convert Word files to PDF using Aspose.Words for .NET with our guide. Perfect for developers seeking quick and reliable document conversion. | 
+| [Convert Word File to PDF](./docx-to-pdf/) | Learn how to easily convert Word files to PDF using Aspose.Words for .NET with our guide. Perfect for developers seeking quick and reliable document conversion. |
+| [Create Accessible PDF from DOCX – Step‑by‑Step C# Guide](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Learn how to generate accessible PDFs from DOCX using Aspose.Words for .NET with a step‑by‑step C# guide. |
 | [Convert Docx To Byte](./docx-to-byte/) | Learn how to convert Docx to byte array in .NET using Aspose.Words for efficient document processing. Step-by-step guide included. |  
 | [Convert Docx To Epub](./docx-to-epub/) | Convert DOCX to EPUB easily with Aspose.Words for .NET. Follow our tutorial for seamless integration into your .NET applications. |
 | [Convert Docx To Mhtml And Sending Email](./docx-to-mhtml-and-sending-email/) | Learn how to convert DOCX to MHTML and send emails using Aspose.Words for .NET in this step-by-step guide. Boost your productivity with easy automation. |
@@ -34,6 +35,7 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [Save Pdf as Jpeg](./pdf-to-jpeg/) | Effortlessly convert PDFs to JPEGs using Aspose.Words for .NET. Follow our detailed guide with examples and FAQs. Perfect for developers and enthusiasts. |
 | [Save PDF To Word Format (Docx)](./pdf-to-docx/) | Learn how to convert a PDF to a Word document (Docx) using Aspose.Words for .NET in this detailed, step-by-step guide. Perfect for developers. |
 | [How to Export LaTeX from Word – Step‑by‑Step Guide](./how-to-export-latex-from-word-step-by-step-guide/) | Learn how to export LaTeX from Word using Aspose.Words for .NET. Step‑by‑step guide with code examples for developers. |
+| [How to Export LaTeX from DOCX – Convert to TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Learn how to export LaTeX from DOCX and convert it to TXT using Aspose.Words for .NET. Step‑by‑step guide with code examples. |
 | [convert word to pdf in C# using Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Learn how to convert Word documents to PDF in C# using Aspose.Words. Step‑by‑step guide with code examples for developers. |
 | [Save Word as PDF with Aspose.Words – Complete C# Guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save Word documents as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
 

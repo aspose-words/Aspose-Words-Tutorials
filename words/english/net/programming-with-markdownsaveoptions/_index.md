@@ -29,10 +29,14 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
+| [How to Save Markdown – Full Guide with Image Extraction](./how-to-save-markdown-full-guide-with-image-extraction/) | Learn how to save Markdown with full image extraction using Aspose.Words for .NET. |
 | [Convert docx to markdown – Step‑by‑Step C# Guide](./convert-docx-to-markdown-step-by-step-c-guide/) | Learn how to convert DOCX files to Markdown in C# with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [Convert docx to markdown – Complete C# Guide](./convert-docx-to-markdown-complete-c-guide/) | A comprehensive C# guide to convert DOCX files to Markdown using Aspose.Words, covering all options and best practices. |
 | [How to Export Markdown from Word – Complete C# Guide](./how-to-export-markdown-from-word-complete-c-guide/) |  |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
 | [How to Save Markdown from DOCX – Step‑by‑Step Guide](./how-to-save-markdown-from-docx-step-by-step-guide/) | Learn how to save DOCX as Markdown with a detailed step‑by‑step guide using Aspose.Words for .NET. |
+| [Create markdown file from Word – Full Guide to Export Equations](./create-markdown-file-from-word-full-guide-to-export-equation/) | Learn how to create a markdown file from Word documents, exporting equations accurately using Aspose.Words for .NET. |
+| [Remove Empty Paragraphs – Convert Word to Markdown in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/) | Learn how to remove empty paragraphs when converting Word documents to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

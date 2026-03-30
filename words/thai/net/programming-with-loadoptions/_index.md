@@ -33,6 +33,7 @@
 | [แปลงไฟล์ Metafile เป็น PNG](./convert-metafiles-to-png/) | แปลงไฟล์เมตาเป็น PNG ในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ ทำให้การจัดการเอกสารของคุณง่ายขึ้น |
 | [โหลดไฟล์ CHM ในเอกสาร Word](./load-chm/) | โหลดไฟล์ CHM ลงในเอกสาร Word ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการรวบรวมเอกสารทางเทคนิคของคุณ |
 | [Aspose Load Options – โหลดไฟล์ DOCX พร้อมการตั้งค่าแบบอักษรที่กำหนดเอง](./aspose-load-options-load-docx-with-custom-font-settings/) | เรียนรู้วิธีโหลดไฟล์ DOCX พร้อมการตั้งค่าแบบอักษรแบบกำหนดเองโดยใช้ Aspose.Words สำหรับ .NET |
+| [วิธีจับคำเตือน – กำหนดค่า LoadOptions สำหรับแบบอักษรที่หายไป](./how-to-capture-warnings-configure-load-options-for-missing-f/) | เรียนรู้วิธีจับคำเตือนและกำหนดค่า LoadOptions เพื่อจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

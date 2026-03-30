@@ -38,10 +38,12 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
  ## Tutorial Pemrosesan Dokumen Bertenaga AI
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Bekerja dengan Model AI](./working-with-ai-model/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen. Bahasa Indonesia:
-| [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
-| [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
+| [Bekerja dengan Model AI](./working-with-ai-model/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen. Bahasa Indonesia: |
+| [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) | Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia: |
+| [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia: |
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
+| [Buat Ringkasan dengan AI – Tutorial C# Aspose Words](./create-summary-with-ai-c-aspose-words-tutorial/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan AI dengan C# dan Aspose.Words. |
+| [Cara Memeriksa Tata Bahasa di Word dengan C# – Panduan Lengkap](./how-to-check-grammar-in-word-with-c-complete-guide/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan C# dengan Aspose.Words secara lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

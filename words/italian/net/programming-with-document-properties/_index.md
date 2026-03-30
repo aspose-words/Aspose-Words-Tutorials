@@ -29,10 +29,10 @@ Che tu sia un principiante o uno sviluppatore esperto, i tutorial di Aspose.Word
 | [Aggiungi proprietà personalizzate del documento](./add-custom-document-properties/) | Scopri come aggiungere proprietà personalizzate ai documenti Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per arricchire i tuoi documenti con metadati aggiuntivi. |
 | [Rimuovi proprietà documento personalizzate](./remove-custom-document-properties/) | Rimuovi le proprietà personalizzate dei documenti nei file Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per una soluzione rapida e semplice. Perfetto per gli sviluppatori. |
 | [Rimuovere le informazioni personali](./remove-personal-information/) | Scopri come rimuovere le informazioni personali dai documenti utilizzando Aspose.Words per .NET con questa guida passo passo. Semplifica la gestione dei documenti. |
-| [Configurazione del collegamento al contenuto](./configuring-link-to-content/) | Scopri come configurare un collegamento al contenuto di un documento Word utilizzando Aspose.Words per .NET con il nostro tutorial dettagliato e passo dopo passo.
+| [Configurazione del collegamento al contenuto](./configuring-link-to-content/) | Scopri come configurare un collegamento al contenuto di un documento Word utilizzando Aspose.Words per .NET con il nostro tutorial dettagliato e passo dopo passo. |
 | [Convertire tra unità di misura](./convert-between-measurement-units/) | Scopri come convertire le unità di misura in Aspose.Words per .NET. Segui la nostra guida passo passo per impostare margini, intestazioni e piè di pagina del documento in pollici e punti. |
 | [Usa caratteri di controllo](./use-control-characters/) | Scopri come automatizzare le attività dei documenti Word utilizzando Aspose.Words per .NET. Questa guida illustra la configurazione, la sostituzione del testo e altro ancora, rendendo efficiente il tuo flusso di lavoro. |
-
+| [Verifica il conteggio delle pagine nei documenti Word – Recupera file corrotti](./check-page-count-in-word-docs-recover-corrupted-files/) | Scopri come controllare il numero di pagine e recuperare documenti Word corrotti con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

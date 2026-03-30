@@ -38,8 +38,14 @@ Aprenda a converter documentos DOCX para Markdown preservando equações LaTeX c
 ### [Converter docx para markdown – Guia passo a passo em C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 Aprenda a converter arquivos DOCX para Markdown em C# com instruções detalhadas e exemplos de código usando Aspose.Words.
 
+### [Converter docx para markdown – Guia completo em C#](./convert-docx-to-markdown-complete-c-guide/)
+Aprenda a converter documentos DOCX para Markdown com um guia completo em C#, incluindo exemplos de código e melhores práticas usando Aspose.Words.
+
 ### [Salvar docx como markdown – Guia completo em C# com extração de imagens](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Aprenda a converter arquivos DOCX para Markdown em C#, extrair imagens e mantendo a formatação com Aspose.Words.
+
+### [Salvar Markdown – Guia completo com extração de imagens](./how-to-save-markdown-full-guide-with-image-extraction/)
+Aprenda a salvar documentos como arquivos Markdown extraindo imagens e preservando a formatação com Aspose.Words.
 
 ### [Como Exportar Markdown do Word – Guia Completo em C#](./how-to-export-markdown-from-word-complete-c-guide/)
 Aprenda a exportar documentos Word para Markdown usando C# com Aspose.Words, passo a passo e exemplos de código.
@@ -49,6 +55,12 @@ Aprenda a exportar documentos DOCX para Markdown usando C# com Aspose.Words, pas
 
 ### [Como salvar Markdown de DOCX – Guia passo a passo](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Aprenda a salvar documentos DOCX como arquivos Markdown passo a passo usando Aspose.Words para .NET.
+
+### [Criar arquivo markdown a partir do Word – Guia completo para exportar equações](./create-markdown-file-from-word-full-guide-to-export-equation/)
+Aprenda a criar arquivos Markdown a partir de documentos Word, exportando equações corretamente com Aspose.Words para .NET.
+
+### [Remover parágrafos vazios – Converter Word para Markdown em C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+Aprenda a remover parágrafos vazios ao converter documentos Word para Markdown usando Aspose.Words em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,10 @@ Leer hoe u DOCX-bestanden naar Markdown converteert, inclusief LaTeX‑vergelijk
 
 Leer hoe u docx-bestanden naar markdown converteert met een gedetailleerde stap‑voor‑stap C#‑handleiding.
 
+### [Docx converteren naar markdown – Complete C#-gids](./convert-docx-to-markdown-complete-c-guide/)
+
+Leer hoe u docx-bestanden naar markdown converteert met een volledige C#‑gids.
+
 ### [Docx opslaan als markdown – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX‑vergelijkingen.
@@ -45,6 +49,10 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
+
+### [Hoe Markdown op te slaan – Volledige gids met afbeeldingsextractie](./how-to-save-markdown-full-guide-with-image-extraction/)
+
+Leer hoe u Markdown-bestanden opslaat en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
@@ -54,12 +62,18 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Maak markdown‑bestand van Word – Volledige gids voor het exporteren van vergelijkingen](./create-markdown-file-from-word-full-guide-to-export-equation/)
 
+Leer hoe u een markdown‑bestand maakt vanuit Word en formules exporteert met Aspose.Words voor .NET.
+
+### [Lege alinea's verwijderen – Converteer Word naar Markdown in C#](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+
+Leer hoe u lege alinea's uit Word-documenten verwijdert tijdens de conversie naar Markdown met Aspose.Words voor .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

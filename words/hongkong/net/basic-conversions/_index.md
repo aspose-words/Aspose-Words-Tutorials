@@ -31,10 +31,12 @@
 | [將 Docx 檔案轉換為 Markdown](./docx-to-markdown/) | 了解如何使用 Aspose.Words for .NET 將 DOCX 檔案轉換為 Markdown。按照我們的詳細指南，實現 .NET 應用程式中的無縫整合。 |
 | [Docx 轉 Txt](./docx-to-txt/) |依照我們的逐步指南，使用 Aspose.Words for .NET 將 DOCX 轉換為 TXT。學習有效率、輕鬆地轉換文件。 |
 | [如何從 Word 匯出 LaTeX – 步驟說明指南](./how-to-export-latex-from-word-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 從 Word 文件匯出 LaTeX，提供逐步說明與範例程式碼，適合開發人員。 |
+| [如何從 DOCX 匯出 LaTeX – 轉換為 TXT](./how-to-export-latex-from-docx-convert-to-txt/) | 了解如何使用 Aspose.Words for .NET 從 DOCX 匯出 LaTeX 並轉換為 TXT。提供逐步指南與程式碼範例。 |
 | [將文字文件轉換為 Word 文件](./txt-to-docx/) |了解如何使用 Aspose.Words for .NET 將文字檔案轉換為 Word 文件。使用我們全面的指南有效地管理文件轉換。 | 
 | [將 PDF 儲存為 Jpeg](./pdf-to-jpeg/) |使用 Aspose.Words for .NET 輕鬆將 PDF 轉換為 JPEG。請遵循我們的詳細指南，其中包含範例和常見問題。非常適合開發人員和愛好者。 |
 | [將 PDF 儲存為 Word 格式 (Docx)](./pdf-to-docx/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 將 PDF 轉換為 Word 文件 (Docx)。非常適合開發人員。 |
 | [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 C# 教學](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Word 檔案儲存為 PDF，提供程式碼範例與最佳實踐。 |
+| [從 DOCX 建立可存取 PDF – 步驟說明 C# 教學](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為符合可存取性標準的 PDF，提供完整步驟與程式碼範例。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

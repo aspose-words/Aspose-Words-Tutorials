@@ -16,7 +16,7 @@ url: /net/programming-with-document-properties/
 
 # Words Processing with Document Properties
 
-The Aspose.Words for .NET tutorials on Words Processing with document properties provide an in-depth look at managing document properties in your projects. In these tutorials, you will learn how to access, modify and delete properties such as title, author, keywords, etc., to personalize your Word documents. You'll also learn how to add custom properties to meet your specific needs.
+The Aspose.Words for .NET tutorials on Words Processing with document properties provide an in-depth look at managing document properties in your projects. In these tutorials, you will learn how to access, modify and delete properties such as title, author, keywords, etc., to personalize your Word documents.
 
 These tutorials will guide you step by step to use the Aspose.Words for .NET library to interact with document properties. You will learn how to extract existing properties, set new values, and remove unwanted properties. By understanding how to manipulate document properties, you will be able to create professional Word documents and customize them to suit your requirements.
 
@@ -33,6 +33,7 @@ Whether you are a beginner or an experienced developer, the Aspose.Words for .NE
 | [Configuring Link To Content](./configuring-link-to-content/) | Learn how to configure a link to content in a Word document using Aspose.Words for .NET with our detailed, step-by-step tutorial. |
 | [Convert Between Measurement Units](./convert-between-measurement-units/) | Learn how to convert measurement units in Aspose.Words for .NET. Follow our step-by-step guide to set document margins, headers, and footers in inches and points. |
 | [Use Control Characters](./use-control-characters/) | Discover how to automate Word document tasks using Aspose.Words for .NET. This guide covers setup, text replacement, and more, making your workflow efficient. |
+| [Check Page Count in Word Docs – Recover Corrupted Files](./check-page-count-in-word-docs-recover-corrupted-files/) | Learn how to check page count in Word documents and recover corrupted files using Aspose.Words for .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

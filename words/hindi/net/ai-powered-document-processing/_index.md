@@ -42,6 +42,8 @@
 | [गूगल AI मॉडल के साथ काम करना](./working-with-google-ai-model/) .NET और Google AI के लिए Aspose.Words के साथ अपने दस्तावेज़ प्रसंस्करण को उन्नत करें और आसानी से संक्षिप्त सारांश बनाएं। |
 | [ओपन एआई मॉडल के साथ काम करना](./working-with-open-ai-model/) | OpenAI के शक्तिशाली मॉडल के साथ .NET के लिए Aspose.Words का उपयोग करके कुशल दस्तावेज़ सारांश अनलॉक करें। अब इस व्यापक गाइड में गोता लगाएँ। |
 | [सारांश विकल्पों के साथ कार्य करना](./working-with-summarize-options/) | त्वरित जानकारी के लिए AI मॉडल को एकीकृत करने पर हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को प्रभावी ढंग से सारांशित करना सीखें। |
+| [C# के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-c-complete-guide/) | C# का उपयोग करके Aspose.Words के साथ Word दस्तावेज़ों में व्याकरण जांच करने की पूरी प्रक्रिया सीखें। |
+| [AI के साथ सारांश बनाएं – C# Aspose Words ट्यूटोरियल](./create-summary-with-ai-c-aspose-words-tutorial/) | C# में Aspose.Words का उपयोग करके AI के साथ दस्तावेज़ सारांश बनाना सीखें। तेज़ और सटीक परिणाम प्राप्त करें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

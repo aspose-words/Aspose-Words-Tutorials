@@ -30,9 +30,9 @@ Akár kezdő, akár tapasztalt fejlesztő vagy, az Aspose.Words for .NET szöveg
 | [Egyéni dokumentumtulajdonságok eltávolítása](./remove-custom-document-properties/) | Egyéni dokumentumtulajdonságok eltávolítása Word-fájlokból az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a gyors és egyszerű megoldásért. Tökéletes fejlesztők számára. |
 | [Személyes adatok eltávolítása](./remove-personal-information/) | Tanulja meg, hogyan távolíthat el személyes adatokat a dokumentumokból az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Egyszerűsítse a dokumentumkezelést. |
 | [Tartalomra mutató hivatkozás konfigurálása](./configuring-link-to-content/) | Tanulja meg, hogyan konfigurálhat egy Word-dokumentum tartalmára mutató hivatkozást az Aspose.Words for .NET használatával részletes, lépésről lépésre bemutató oktatóanyagunkkal. |
-| [Mértékegységek közötti átváltás](./convert-between-measurement-units/) | Tanulja meg, hogyan válthat mértékegységeket az Aspose.Words for .NET programban. Kövesse lépésről lépésre szóló útmutatónkat a dokumentum margóinak, fejléceinek és lábléceinek hüvelykben és pontokban történő beállításához. |
+| [Mértékegységek közötti átváltás](./convert-between-measurement-units/) | Tanulja meg, hogyan válthat mértékegységeket az Aspove.Words for .NET programban. Kövesse lépésről lépésre szóló útmutatónkat a dokumentum margóinak, fejléceinek és lábléceinek hüvelykben és pontokban történő beállításához. |
 | [Használjon vezérlőkaraktereket](./use-control-characters/) | Fedezze fel, hogyan automatizálhatja a Word-dokumentumokkal kapcsolatos feladatokat az Aspose.Words for .NET segítségével. Ez az útmutató a beállítást, a szövegcserét és egyebeket ismerteti, így a munkafolyamat hatékonyabbá válik. |
-
+| [Oldalszám ellenőrzése Word dokumentumokban – Sérült fájlok helyreállítása](./check-page-count-in-word-docs-recover-corrupted-files/) | Tanulja meg, hogyan ellenőrizheti az oldalszámot Word dokumentumokban, és állíthatja helyre a sérült fájlokat az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
