@@ -34,7 +34,9 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Zapisz PDF jako JPEG](./pdf-to-jpeg/) | Bezproblemowa konwersja plików PDF do JPEG za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem z przykładami i FAQ. Idealne dla programistów i entuzjastów. |
 | [Zapisz PDF do formatu Word (Docx)](./pdf-to-docx/) | Dowiedz się, jak przekonwertować plik PDF na dokument Word (Docx) za pomocą Aspose.Words dla .NET w tym szczegółowym przewodniku krok po kroku. Idealne dla programistów. |
 | [Jak wyeksportować LaTeX z Worda – przewodnik krok po kroku](./how-to-export-latex-from-word-step-by-step-guide/) | Dowiedz się, jak wyeksportować dokument Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
+| [Jak wyeksportować LaTeX z DOCX – konwersja do TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Dowiedz się, jak wyeksportować LaTeX z pliku DOCX i zapisać go jako TXT przy użyciu Aspose.Words dla .NET. |
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Utwórz dostępny PDF z DOCX – przewodnik krok po kroku w C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET wygenerować PDF spełniający standardy dostępności z pliku DOCX w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

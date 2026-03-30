@@ -33,8 +33,10 @@
 | [Salva il PDF come JPEG](./pdf-to-jpeg/) | Converti facilmente i PDF in JPEG utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata con esempi e FAQ. Perfetto per sviluppatori e appassionati. |
 | [Salva PDF in formato Word (Docx)](./pdf-to-docx/) | Scopri come convertire un PDF in un documento Word (Docx) utilizzando Aspose.Words per .NET in questa guida dettagliata e passo passo. Perfetta per gli sviluppatori. |
 | [Come esportare LaTeX da Word – Guida passo‑passo](./how-to-export-latex-from-word-step-by-step-guide/) | Scopri come esportare contenuti LaTeX da documenti Word usando Aspose.Words per .NET, con esempi pratici e istruzioni dettagliate. |
+| [Come esportare LaTeX da DOCX – Converti in TXT](./how-to-export-latex-from-docx-convert-to-txt/) | Scopri come esportare contenuti LaTeX da un documento DOCX e convertirli in file TXT usando Aspose.Words per .NET. |
 | [Convertire Word in PDF in C# usando Aspose.Words – Guida](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Scopri come convertire documenti Word in PDF con C# usando Aspose.Words, con esempi di codice e passaggi dettagliati. |
 | [Salva Word come PDF con Aspose.Words – Guida completa C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare documenti Word in PDF usando Aspose.Words con una guida completa in C#. |
+| [Crea PDF accessibile da DOCX – Guida passo‑passo C#](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | Impara a generare PDF accessibili da file DOCX usando Aspose.Words per .NET con esempi C# dettagliati. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

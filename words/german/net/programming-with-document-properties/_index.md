@@ -32,7 +32,7 @@ Egal, ob Sie Anfänger oder erfahrener Entwickler sind, die Aspose.Words für .N
 | [Link zum Inhalt konfigurieren](./configuring-link-to-content/) | Erfahren Sie in unserem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET einen Link zum Inhalt eines Word-Dokuments konfigurieren. |
 | [Umrechnung zwischen Maßeinheiten](./convert-between-measurement-units/) | Erfahren Sie, wie Sie Maßeinheiten in Aspose.Words für .NET konvertieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Dokumentränder, Kopf- und Fußzeilen in Zoll und Punkten festzulegen. |
 | [Steuerzeichen verwenden](./use-control-characters/) | Erfahren Sie, wie Sie Word-Dokumentaufgaben mit Aspose.Words für .NET automatisieren. Diese Anleitung behandelt Einrichtung, Textersetzung und mehr und sorgt so für einen effizienten Workflow. |
-
+| [Seitenzahl in Word-Dokumenten prüfen – Beschädigte Dateien wiederherstellen](./check-page-count-in-word-docs-recover-corrupted-files/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die Seitenzahl prüfen und beschädigte Word-Dateien wiederherstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

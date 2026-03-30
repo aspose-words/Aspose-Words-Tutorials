@@ -39,6 +39,10 @@
 
 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。
 
+### [如何保存 Markdown – 完整指南（含图像提取）](./how-to-save-markdown-full-guide-with-image-extraction/)
+
+使用 Aspose.Words for .NET 将文档保存为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和步骤指南。
+
 ### [如何从 Word 导出 Markdown – 完整 C# 指南](./how-to-export-markdown-from-word-complete-c-guide/)
 
 使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
@@ -50,6 +54,18 @@
 ### [如何从 DOCX 导出 Markdown – 完整 C# 指南](./how-to-export-markdown-from-docx-complete-guide/)
 
 使用 Aspose.Words for .NET 将 DOCX 文档导出为 Markdown，提供完整的 C# 示例和分步指南。
+
+### [从 Word 创建 Markdown 文件 – 导出公式完整指南](./create-markdown-file-from-word-full-guide-to-export-equation/)
+
+使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并导出公式，提供完整的 C# 示例和步骤指南。
+
+### [删除空段落 – 在 C# 中将 Word 转换为 Markdown](./remove-empty-paragraphs-convert-word-to-markdown-in-c/)
+
+使用 Aspose.Words for .NET 在 C# 中删除文档中的空段落，并将 Word 转换为 Markdown，提供完整示例和步骤指南。
+
+### [将 docx 转换为 markdown – 完整 C# 指南](./convert-docx-to-markdown-complete-c-guide/)
+
+使用 Aspose.Words for .NET 将 docx 文档完整转换为 Markdown，提供详细的 C# 示例和分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

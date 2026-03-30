@@ -32,7 +32,7 @@ Ať už jste začátečník nebo zkušený vývojář, tutoriály Aspose.Words p
 | [Konfigurace odkazu na obsah](./configuring-link-to-content/) | Naučte se, jak nakonfigurovat odkaz na obsah v dokumentu Word pomocí Aspose.Words pro .NET v našem podrobném návodu krok za krokem. |
 | [Převod mezi měrnými jednotkami](./convert-between-measurement-units/) | Naučte se, jak převádět měrné jednotky v Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu k nastavení okrajů, záhlaví a zápatí dokumentu v palcích a bodech. |
 | [Používejte řídicí znaky](./use-control-characters/) | Zjistěte, jak automatizovat úlohy s dokumenty Wordu pomocí Aspose.Words pro .NET. Tato příručka se zabývá nastavením, nahrazováním textu a dalšími funkcemi, které zefektivní váš pracovní postup. |
-
+| [Zkontrolujte počet stránek v dokumentech Word – Obnovte poškozené soubory](./check-page-count-in-word-docs-recover-corrupted-files/) | Naučte se, jak zjistit počet stránek v dokumentu Word a obnovit poškozené soubory pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

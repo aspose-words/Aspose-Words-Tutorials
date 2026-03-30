@@ -33,8 +33,10 @@
 | [将 PDF 保存为 Jpeg](./pdf-to-jpeg/) | 使用 Aspose.Words for .NET 轻松将 PDF 转换为 JPEG。遵循我们包含示例和常见问题解答的详细指南。非常适合开发人员和爱好者。|
 | [将 PDF 保存为 Word 格式 (Docx)](./pdf-to-docx/) | 学习如何使用 Aspose.Words for .NET 将 PDF 转换为 Word 文档 (Docx)，本指南详细分步，非常适合开发人员。|
 | [如何从 Word 导出 LaTeX – 步骤指南](./how-to-export-latex-from-word-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 将 Word 文档导出为 LaTeX，提供分步指南和代码示例，帮助开发者实现文档转换。|
+| [如何从 DOCX 导出 LaTeX – 转换为 TXT](./how-to-export-latex-from-docx-convert-to-txt/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 导出为 LaTeX 并转换为 TXT，提供分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 转换为 PDF（C#）指南](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为 PDF，提供完整的分步指南和代码示例。|
+| [从 DOCX 创建可访问 PDF – 步骤式 C# 指南](./create-accessible-pdf-from-docx-step-by-step-c-guide/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为可访问的 PDF，提供分步指南和代码示例，帮助开发者实现无障碍文档。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

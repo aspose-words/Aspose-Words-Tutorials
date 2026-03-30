@@ -25,14 +25,14 @@ Cho dù bạn là người mới bắt đầu hay là nhà phát triển có kin
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Nhận biến](./get-variables/) | Làm chủ Aspose.Words cho .NET. Học cách tải và trích xuất biến từ tài liệu Word với hướng dẫn từng bước này. |
-| [Liệt kê các thuộc tính](./enumerate-properties/) Tìm hiểu cách liệt kê các thuộc tính trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng. |
+| [Liệt kê các thuộc tính](./enumerate-properties/) | Tìm hiểu cách liệt kê các thuộc tính trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng. |
 | [Thêm Thuộc tính Tài liệu Tùy chỉnh](./add-custom-document-properties/) | Tìm hiểu cách thêm thuộc tính tài liệu tùy chỉnh vào tệp Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn bằng siêu dữ liệu bổ sung. |
 | [Xóa Thuộc tính Tài liệu Tùy chỉnh](./remove-custom-document-properties/) | Xóa thuộc tính tài liệu tùy chỉnh trong tệp Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có giải pháp nhanh chóng và dễ dàng. Hoàn hảo cho nhà phát triển. |
 | [Xóa thông tin cá nhân](./remove-personal-information/) | Tìm hiểu cách xóa thông tin cá nhân khỏi tài liệu bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý tài liệu. |
 | [Cấu hình liên kết đến nội dung](./configuring-link-to-content/) | Tìm hiểu cách cấu hình liên kết đến nội dung trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước của chúng tôi. |
 | [Chuyển đổi giữa các đơn vị đo lường](./convert-between-measurement-units/) | Tìm hiểu cách chuyển đổi đơn vị đo lường trong Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đặt lề, tiêu đề và chân trang tài liệu theo inch và điểm. |
 | [Sử dụng ký tự điều khiển](./use-control-characters/) | Khám phá cách tự động hóa các tác vụ tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm thiết lập, thay thế văn bản và nhiều hơn nữa, giúp quy trình làm việc của bạn hiệu quả hơn. |
-
+| [Kiểm tra số trang trong tài liệu Word – Phục hồi tệp bị hỏng](./check-page-count-in-word-docs-recover-corrupted-files/) | Hướng dẫn kiểm tra số trang trong tài liệu Word và phục hồi các tệp bị hỏng bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
