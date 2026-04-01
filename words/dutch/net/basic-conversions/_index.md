@@ -34,6 +34,7 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [PDF opslaan als Jpeg](./pdf-to-jpeg/) | Converteer moeiteloos PDF's naar JPEG's met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding met voorbeelden en veelgestelde vragen. Perfect voor ontwikkelaars en liefhebbers. |
 | [PDF opslaan in Word-formaat (Docx)](./pdf-to-docx/) | Leer hoe u een PDF naar een Word-document (Docx) converteert met Aspose.Words voor .NET in deze gedetailleerde, stapsgewijze handleiding. Perfect voor ontwikkelaars. |
 | [Hoe LaTeX vanuit Word exporteren – Stapsgewijze handleiding](./how-to-export-latex-from-word-step-by-step-guide/) | Leer hoe u LaTeX vanuit Word kunt exporteren met Aspose.Words voor .NET in een stapsgewijze handleiding. |
+| [Hoe LaTeX vanuit Word exporteren – Complete C#‑gids](./how-to-export-latex-from-word-complete-c-guide/) | Leer hoe u LaTeX vanuit Word exporteert met Aspose.Words voor .NET in een volledige C#‑gids. |
 | [Word opslaan als PDF met Aspose.Words – Complete C#-gids](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
