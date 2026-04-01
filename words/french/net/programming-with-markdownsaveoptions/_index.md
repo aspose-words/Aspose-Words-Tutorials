@@ -48,6 +48,10 @@ Apprenez à enregistrer des fichiers DOCX en Markdown tout en conservant les éq
 
 ### [Comment exporter Markdown depuis DOCX – Guide complet](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [Créer du markdown à partir de Word avec Aspose.Words – Guide complet C#](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
+Apprenez à générer du markdown à partir de documents Word en C# avec Aspose.Words, étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

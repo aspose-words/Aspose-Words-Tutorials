@@ -34,6 +34,7 @@
 | [تحميل ملفات Chm في مستند Word](./load-chm/) حمّل ملفات CHM بسهولة إلى مستندات Word باستخدام Aspose.Words for .NET مع هذا البرنامج التعليمي خطوة بخطوة. مثالي لتجميع وثائقك التقنية. |
 | [استعادة ملف DOCX باستخدام Aspose.Words – خطوة بخطوة](./how-to-recover-docx-with-aspose-words-step-by-step/) | تعلّم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET. |
 | [خيارات التحميل في Aspose – تحميل DOCX بإعدادات خطوط مخصصة](./aspose-load-options-load-docx-with-custom-font-settings/) | تعلّم كيفية تحميل مستند DOCX مع إعدادات خطوط مخصصة باستخدام Aspose Load Options لتحسين مظهر المستند. |
+| [كيفية استعادة ملف DOCX – دليل خطوة بخطوة لإصلاح ملفات Word التالفة](./how-to-recover-docx-step-by-step-guide-to-fix-corrupted-word/) | تعلم كيفية إصلاح ملفات DOCX التالفة خطوة بخطوة باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Dapatkan Daftar Font yang Tersedia](./get-list-of-available-fonts/) | Temukan cara mendapatkan daftar font yang tersedia menggunakan Aspose.Words untuk .NET dalam tutorial langkah demi langkah yang terperinci ini. Tingkatkan keterampilan manajemen font Anda. Bahasa Indonesia:
 | [Terima Pemberitahuan Font](./receive-notifications-of-fonts/) | Pelajari cara menerima pemberitahuan font hilang atau diganti saat menggunakan Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Terima Pemberitahuan Peringatan](./receive-warning-notification/) Pelajari cara menerima pemberitahuan peringatan saat menggunakan Aspose.Words untuk .NET dan mengelola masalah atau peringatan apa pun dalam dokumen Anda. Bahasa Indonesia:
+| [Aktifkan Peringatan Font di Aspose.Words – Panduan Lengkap C#](./enable-font-warnings-in-aspose-words-complete-c-guide/) | Pelajari cara mengaktifkan peringatan font di Aspose.Words untuk .NET dengan panduan lengkap C#. |
 | [Contoh Sumber Font Steam Sumber Daya](./resource-steam-font-source-example/) | Pelajari cara menggunakan Resource Stream Font Source untuk memuat font kustom ke Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Dapatkan Substitusi Tanpa Sufiks](./get-substitution-without-suffixes/) | Dalam tutorial ini, pelajari cara mendapatkan penggantian tanpa sufiks dalam dokumen Word dengan Aspose.Words untuk .NET. |
 

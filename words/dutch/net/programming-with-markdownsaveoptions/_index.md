@@ -54,6 +54,10 @@ Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met ee
 
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 
+### [Maak markdown van Word met Aspose.Words – Volledige C#‑gids](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
+Leer hoe u met Aspose.Words markdown genereert vanuit Word met een volledige C#‑handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

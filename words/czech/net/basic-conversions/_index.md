@@ -33,6 +33,7 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | [Uložit PDF jako JPEG](./pdf-to-jpeg/) | Snadno převádějte PDF do JPEG pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu s příklady a častými dotazy. Ideální pro vývojáře a nadšence. |
 | [Uložit PDF do formátu Word (Docx)](./pdf-to-docx/) | Naučte se v tomto podrobném návodu krok za krokem, jak převést PDF do dokumentu Word (Docx) pomocí Aspose.Words pro .NET. Ideální pro vývojáře. |
 | [Jak exportovat LaTeX z Wordu – krok za krokem](./how-to-export-latex-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat obsah Wordu do formátu LaTeX. Praktický průvodce s ukázkovým kódem. |
+| [Jak exportovat LaTeX z Wordu – kompletní průvodce C#](./how-to-export-latex-from-word-complete-c-guide/) | Kompletní návod, jak pomocí Aspose.Words pro .NET exportovat LaTeX z Wordu v C#. Praktické ukázky a tipy. |
 | [Převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C#. Praktický návod s ukázkovým kódem. |
 | [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s podrobným návodem a ukázkovým kódem. |
 

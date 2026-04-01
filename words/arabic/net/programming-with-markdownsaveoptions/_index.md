@@ -42,6 +42,8 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [إنشاء markdown من Word باستخدام Aspose.Words – دليل C# كامل](./create-markdown-from-word-with-aspose-words-full-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
