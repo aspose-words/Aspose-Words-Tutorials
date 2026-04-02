@@ -35,6 +35,7 @@
 | [如何从 Word 导出 LaTeX – 步骤指南](./how-to-export-latex-from-word-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 将 Word 文档导出为 LaTeX，提供分步指南和代码示例，帮助开发者实现文档转换。|
 | [使用 Aspose.Words 将 Word 转换为 PDF（C#）指南](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为 PDF，提供完整的分步指南和代码示例。|
+| [将 docx 保存为 txt 并导出 Word 方程为 LaTeX](./save-docx-as-txt-and-export-word-equations-to-latex/) | 学习使用 Aspose.Words for .NET 将 docx 转换为 txt 并导出 Word 方程为 LaTeX，提供分步指南和代码示例。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
