@@ -35,6 +35,7 @@ Základní konverze vás provede základními konverzemi dokumentů pomocí knih
 | [Jak exportovat LaTeX z Wordu – krok za krokem](./how-to-export-latex-from-word-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat obsah Wordu do formátu LaTeX. Praktický průvodce s ukázkovým kódem. |
 | [Převod Wordu do PDF v C# pomocí Aspose.Words – Průvodce](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Naučte se, jak převést dokument Word do PDF pomocí Aspose.Words v C#. Praktický návod s ukázkovým kódem. |
 | [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s podrobným návodem a ukázkovým kódem. |
+| [Uložit docx jako txt a exportovat rovnice Wordu do LaTeXu](./save-docx-as-txt-and-export-word-equations-to-latex/) | Naučte se, jak uložit DOCX jako TXT a exportovat rovnice Wordu do LaTeXu pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

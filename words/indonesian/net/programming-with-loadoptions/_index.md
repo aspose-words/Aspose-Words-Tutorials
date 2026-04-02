@@ -33,6 +33,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi Metafile ke PNG](./convert-metafiles-to-png/) | Ubah metafile menjadi PNG dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sederhanakan pengelolaan dokumen Anda. Bahasa Indonesia:
 | [Memuat File Chm Dalam Dokumen Word](./load-chm/) | Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda. |
 | [Cara Memulihkan DOCX dengan Aspose.Words – Langkah demi Langkah](./how-to-recover-docx-with-aspose-words-step-by-step/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah. |
+| [Cara Memulihkan DOCX dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-recover-docx-with-aspose-words-step-by-step-guide/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Aspose Load Options – Muat DOCX dengan Pengaturan Font Kustom](./aspose-load-options-load-docx-with-custom-font-settings/) Pelajari cara memuat file DOCX dengan pengaturan font khusus menggunakan Aspose Load Options dalam .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

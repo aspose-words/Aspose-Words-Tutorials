@@ -42,6 +42,10 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [كيفية استخدام Aspose لتحويل DOCX إلى Markdown مع تصدير الرياضيات](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/)
+
+### [حفظ Word كـ Markdown – دليل C# كامل لتصدير صور Word](./save-word-as-markdown-complete-c-guide-to-export-word-images/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

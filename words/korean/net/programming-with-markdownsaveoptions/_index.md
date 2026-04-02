@@ -32,6 +32,8 @@
 | [Word에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 내보내는 전체 C# 가이드 |
 | [DOCX에서 Markdown 저장 방법 – 단계별 가이드](./how-to-save-markdown-from-docx-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 저장하는 단계별 가이드를 제공합니다. |
 | [DOCX에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-docx-complete-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 Markdown으로 내보내는 전체 C# 가이드 |
+| [Aspose를 사용하여 DOCX를 수학 내보내기와 함께 Markdown으로 변환하는 방법](./how-to-use-aspose-to-convert-docx-to-markdown-with-math-expo/) | Aspose.Words for .NET을 활용해 DOCX 파일의 수학 수식까지 포함하여 Markdown으로 변환하는 단계별 가이드 |
+| [Word를 Markdown으로 저장 – 이미지 내보내기를 위한 전체 C# 가이드](./save-word-as-markdown-complete-c-guide-to-export-word-images/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 저장하면서 이미지 내보내는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
