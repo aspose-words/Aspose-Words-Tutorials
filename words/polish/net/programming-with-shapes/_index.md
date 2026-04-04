@@ -34,6 +34,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Wykryj kształt Smart Art](./detect-smart-art-shape/) | Dowiedz się, jak wykrywać kształty SmartArt w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne do automatyzacji przepływu pracy nad dokumentami. |
 | [Aktualizuj rysunek Smart Art](./update-smart-art-drawing/) | Dowiedz się, jak aktualizować rysunki Smart Art w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje wizualizacje są zawsze dokładne. |
 | [Utwórz prostokątny kształt w Wordzie za pomocą Aspose.Words – przewodnik krok po kroku](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Dowiedz się, jak utworzyć prostokątny kształt w dokumencie Word przy użyciu Aspose.Words, korzystając z naszego szczegółowego przewodnika krok po kroku. |
+| [Utwórz prostokątny kształt i dodaj cień w C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Dowiedz się, jak utworzyć prostokątny kształt i dodać cień w dokumentach Word przy użyciu Aspose.Words dla .NET w C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

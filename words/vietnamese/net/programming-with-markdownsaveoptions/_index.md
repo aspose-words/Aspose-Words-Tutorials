@@ -32,6 +32,7 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Lưu docx thành markdown – Hướng dẫn đầy đủ C# với trích xuất hình ảnh](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Hướng dẫn chi tiết cách lưu file docx thành markdown và trích xuất hình ảnh bằng C# và Aspose.Words. |
 | [Xuất Markdown từ Word – Hướng dẫn đầy đủ C#](./how-to-export-markdown-from-word-complete-c-guide/) | Hướng dẫn chi tiết cách xuất tài liệu Word sang định dạng Markdown bằng C# và Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
 | [Xuất Markdown từ DOCX – Hướng dẫn đầy đủ](./how-to-export-markdown-from-docx-complete-guide/) | Hướng dẫn chi tiết cách xuất file DOCX sang Markdown bằng C# và Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
+| [Lưu hình ảnh Word khi chuyển đổi sang Markdown – Hướng dẫn đầy đủ C#](./save-word-images-while-converting-to-markdown-complete-c-gui/) | Hướng dẫn chi tiết cách lưu hình ảnh từ tài liệu Word khi chuyển đổi sang Markdown bằng C# và Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
