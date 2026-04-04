@@ -34,6 +34,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Detecteer slimme kunstvorm](./detect-smart-art-shape/) | Leer hoe u SmartArt-vormen in Word-documenten kunt detecteren met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor het automatiseren van uw documentworkflow. |
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met de stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
 | [Rechthoekvorm maken in Word met Aspose.Words – Stapsgewijze handleiding](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Leer hoe u een rechthoekvorm toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
+| [Rechthoekvorm maken en schaduw toevoegen in C#](./create-rectangle-shape-and-how-to-add-shadow-in-c/) | Leer hoe u een rechthoekvorm maakt en er een schaduw aan toevoegt in Word-documenten met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

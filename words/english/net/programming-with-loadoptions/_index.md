@@ -29,11 +29,13 @@ In these tutorials, you will learn how to use LoadOptions to load Word documents
 | [Set Ms Word Version](./set-ms-word-version/) | Learn how to set MS Word versions using Aspose.Words for .NET with our detailed guide. Perfect for developers looking to streamline document manipulation. |
 | [Use Temp Folder In Word Document](./use-temp-folder/) | Learn how to enhance the performance of your .NET applications by using a temporary folder while loading Word documents with Aspose.Words. |
 | [Warning Callback In Word Document](./warning-callback/) | Learn how to catch and handle warnings in Word documents using Aspose.Words for .NET with our step-by-step guide. Ensure robust document processing. |
+| [How to Capture Warnings in C# – Detect Missing Fonts & Log Substitution](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Learn how to capture warnings, detect missing fonts, and log font substitutions in Aspose.Words for .NET using C#. |
 | [Load With Encoding In Word Document](./load-with-encoding/) | Learn how to load a Word document with specific encoding using Aspose.Words for .NET. Step-by-step guide with detailed explanations. |
 | [Skip Pdf Images](./skip-pdf-images/) | Learn how to skip images when loading PDF documents using Aspose.Words for .NET. Follow this step-by-step guide for seamless text extraction. |
 | [Convert Metafiles To Png](./convert-metafiles-to-png/) | Easily convert metafiles to PNG in Word documents using Aspose.Words for .NET with this step-by-step tutorial. Simplify your document management. |
 | [Load Chm Files In Word Document](./load-chm/) | Easily load CHM files into Word documents using Aspose.Words for .NET with this step-by-step tutorial. Perfect for consolidating your technical documentation. |
 | [how to recover docx with Aspose.Words – step by step](./how-to-recover-docx-with-aspose-words-step-by-step/) | Learn how to recover corrupted DOCX files using Aspose.Words for .NET with this detailed step-by-step guide. |
+| [Recover Corrupted Word File and Display Recovery Mode in C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Learn how to recover corrupted Word files and display recovery mode using Aspose.Words for .NET in C#. |
 | [Aspose Load Options – Load DOCX with Custom Font Settings](./aspose-load-options-load-docx-with-custom-font-settings/) | Learn how to load DOCX files with custom font settings using Aspose Load Options in .NET. Step-by-step guide. |
 
 

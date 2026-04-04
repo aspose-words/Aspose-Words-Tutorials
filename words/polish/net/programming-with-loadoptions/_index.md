@@ -34,6 +34,8 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Załaduj pliki Chm w dokumencie Word](./load-chm/) | Łatwo ładuj pliki CHM do dokumentów Word za pomocą Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do konsolidacji dokumentacji technicznej. |
 | [Jak odzyskać plik docx za pomocą Aspose.Words – krok po kroku](./how-to-recover-docx-with-aspose-words-step-by-step/) | Dowiedz się, jak odzyskać uszkodzone pliki docx przy użyciu Aspose.Words w kilku prostych krokach. |
 | [Aspose Load Options – Ładowanie DOCX z niestandardowymi ustawieniami czcionek](./aspose-load-options-load-docx-with-custom-font-settings/) | Dowiedz się, jak ładować dokumenty DOCX z własnymi ustawieniami czcionek przy użyciu Aspose Load Options w .NET. |
+| [Odzyskaj uszkodzony plik Word i wyświetl tryb odzyskiwania w C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Dowiedz się, jak przywrócić uszkodzony plik Word i pokazać tryb odzyskiwania przy użyciu Aspose.Words w C#. |
+| [Jak przechwycić ostrzeżenia w C# – wykrywać brakujące czcionki i rejestrować podstawienia](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Dowiedz się, jak w C# przechwytywać ostrzeżenia o brakujących czcionkach i zapisywać informacje o podstawieniach czcionek. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

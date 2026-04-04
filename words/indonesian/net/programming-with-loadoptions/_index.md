@@ -34,6 +34,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Memuat File Chm Dalam Dokumen Word](./load-chm/) | Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda. |
 | [Cara Memulihkan DOCX dengan Aspose.Words – Langkah demi Langkah](./how-to-recover-docx-with-aspose-words-step-by-step/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Aspose Load Options – Muat DOCX dengan Pengaturan Font Kustom](./aspose-load-options-load-docx-with-custom-font-settings/) Pelajari cara memuat file DOCX dengan pengaturan font khusus menggunakan Aspose Load Options dalam .NET. |
+| [Pulihkan File Word Rusak dan Tampilkan Mode Pemulihan di C#](./recover-corrupted-word-file-and-display-recovery-mode-in-c/) | Pelajari cara memulihkan file Word yang rusak dan menampilkan mode pemulihan menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
+| [Cara Menangkap Peringatan di C# – Deteksi Font Hilang & Log Substitusi](./how-to-capture-warnings-in-c-detect-missing-fonts-log-substi/) | Pelajari cara menangkap peringatan font yang hilang dan mencatat substitusi font menggunakan Aspose.Words di C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
