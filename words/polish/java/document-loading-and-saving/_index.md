@@ -130,6 +130,12 @@ Zapisywanie dokumentów jako pliki tekstowe w Aspose.Words for Java. Dowiedz si�
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywać formaty dokumentów w Javie przy użyciu Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki efektywnie.
 
+### [Odzyskaj uszkodzony dokument Word – Kompletny przewodnik Java](./recover-broken-word-document-complete-java-guide/)
+Dowiedz się, jak odzyskać uszkodzone dokumenty Word przy użyciu Aspose.Words for Java, z praktycznymi przykładami kodu krok po kroku.
+
+### [Rejestrowanie ostrzeżeń o podstawianiu czcionek – wykrywanie brakujących czcionek](./capture-font-substitution-warnings-detect-missing-fonts/)
+Dowiedz się, jak przechwytywać ostrzeżenia o podstawianiu czcionek i wykrywać brakujące czcionki w dokumentach przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jak programowo **save images from word** dokumenty?  

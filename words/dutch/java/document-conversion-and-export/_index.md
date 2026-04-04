@@ -89,6 +89,21 @@ Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tek
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
 
+### [DOCX naar Markdown – volledige Java‑gids met Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Leer hoe je DOCX‑bestanden converteert naar Markdown met Aspose.Words for Java in een volledige stap‑voor‑stap gids.
+
+### [DOCX opslaan als markdown met Java – volledige gids](./save-docx-as-markdown-with-java-full-guide/)
+Leer hoe je een DOCX‑bestand omzet en opslaat als Markdown met Aspose.Words for Java in deze uitgebreide stap‑voor‑stap gids.
+
+### [docx opslaan als txt – Complete C#-gids met wiskunde‑export](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Leer hoe je een DOCX‑bestand opslaat als TXT in C# en wiskundige objecten exporteert.
+
+### [PDF-opslagopties: DOCX naar PDF converteren met Shape‑tags](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Leer hoe je PDF‑opslagopties gebruikt om een DOCX‑bestand naar PDF te converteren met behoud van Shape‑tags.
+
+### [Maak een Toegankelijke PDF van DOCX – Complete Programmeergids](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Leer hoe je een toegankelijke PDF maakt van een DOCX‑bestand met Aspose.Words for Java in deze volledige stap‑voor‑stap gids.
+
 ## Veelgestelde Vragen
 
 **Q: Hoe voeg ik een watermark toe aan een bestaande PDF met Aspose.Words?**  

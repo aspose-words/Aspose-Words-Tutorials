@@ -89,6 +89,18 @@ Aprende a agregar marcas de agua a documentos en Aspose.Words for Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. Explora guías paso a paso con código fuente para un formateo de tablas eficaz. Mejora el diseño de tus documentos con Aspose.Words.
 
+### [Convertir DOCX a Markdown – Guía completa de Java con Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Aprende a convertir documentos DOCX a Markdown usando Aspose.Words for Java en esta guía paso a paso.
+
+### [Guardar docx como markdown con Java – Guía completa](./save-docx-as-markdown-with-java-full-guide/)
+Aprende a convertir documentos DOCX a archivos markdown usando Aspose.Words for Java en esta guía paso a paso.
+
+### [Opciones de guardado PDF: Convertir DOCX a PDF con etiquetas de forma](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Aprenda a usar las opciones de guardado PDF para convertir DOCX a PDF conservando etiquetas de forma en Aspose.Words for Java.
+
+### [Crear PDF accesible desde DOCX – Guía completa de programación](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aprenda a generar PDFs accesibles a partir de documentos DOCX con Aspose.Words para Java.
+
 ## Preguntas frecuentes
 
 **Q: ¿Cómo agrego una marca de agua a un PDF existente usando Aspose.Words?**  
@@ -126,6 +138,9 @@ Aprenda a incrustar imágenes en archivos markdown al convertir documentos Word,
 
 ### [Crear PDF accesible desde Word – Convertir a PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
 Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
+
+### [Guardar docx como txt – Guía completa en C# con exportación de matemáticas](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Aprende a guardar documentos DOCX como archivos TXT en C#, incluyendo la exportación de ecuaciones matemáticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

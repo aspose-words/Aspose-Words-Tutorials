@@ -79,27 +79,24 @@ Aspose.Words for Java で文書内の数式の力を引き出します。Office 
 
 ### [Aspose.Words for Java でドキュメントシェイプを使用する](./using-document-shapes/)
 
+### [PDF 保存オプション: Shape タグで DOCX を PDF に変換](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Shape タグを利用して DOCX を PDF に変換し、PDF 保存オプションをカスタマイズする方法を解説します。
+
 ### [Aspose.Words for Java でドキュメントにウォーターマークを使用する](./using-watermarks-to-documents/)
 Aspose.Words for Java で文書にウォーターマークを追加する方法を学びます。テキストや画像のウォーターマークをカスタマイズして、プロフェッショナルな文書を作成します。
 
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 Aspose.Words for Java でテーブルの書式設定とテーブルスタイルの適用方法を学びます。効果的なテーブル書式設定のためのソースコード付きステップバイステップガイドを探ります。Aspose.Words で文書レイアウトを強化します。
 
-## よくある質問
-**Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  
-A: ドキュメントをロードし、`DocumentBuilder.insertWatermarkText` または `insertWatermarkImage` を使用し、PDF として保存します。
+### [Aspose.Words を使用した docx から markdown への変換 – 完全な Java ガイド](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
 
-**Q: 複雑なレイアウトを失うことなく DOCX ファイルを PDF に変換できますか？**  
-A: はい。Aspose.Words は変換中にレイアウト、フォント、グラフィックを保持します。
+### [Java で docx を markdown に保存 – 完全ガイド](./save-docx-as-markdown-with-java-full-guide/)
 
-**Q: Java でカスタムバーコードラベルを生成するにはどうすればよいですか？**  
-A: Aspose.Words が提供するバーコード API を使用し、バーコードタイプを指定して画像またはシェイプとして挿入します。
+### [DOCX を TXT に保存 – 数式エクスポート付き 完全 C# ガイド](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Aspose.Words を使用して DOCX を TXT に変換し、数式をエクスポートする方法を C# で詳しく解説します。
 
-**Q: テーブルを一貫して書式設定する最適な方法は何ですか？**  
-A: `Table.setStyleIdentifier` メソッドで TableStyle を適用するか、組み込みのスタイルギャラリーを使用します。
-
-**Q: 商用利用にはライセンスが必要ですか？**  
-A: はい、商用利用には本番環境でのデプロイに商用ライセンスが必要です。評価用に無料トライアルが利用可能です。
+### [DOCX からアクセシブル PDF を作成する – 完全プログラミングガイド](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aspose.Words for Java を使用して、DOCX ファイルからアクセシブルな PDF を生成する方法をステップバイステップで解説します。
 
 ---
 

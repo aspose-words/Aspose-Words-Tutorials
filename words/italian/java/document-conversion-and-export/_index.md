@@ -83,6 +83,21 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
+### [Salva docx come txt – Guida completa C# con esportazione Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Scopri come convertire file DOCX in testo semplice TXT usando C# e includere l'esportazione di oggetti Math con Aspose.Words.
+
+### [Converti docx in markdown – Guida completa Java con Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Scopri come convertire file DOCX in Markdown usando Aspose.Words per Java con esempi pratici passo‑passo.
+
+### [Salva docx come markdown con Java – Guida completa](./save-docx-as-markdown-with-java-full-guide/)
+Scopri come convertire file DOCX in Markdown con Java usando Aspose.Words, con esempi pratici passo‑passo.
+
+### [Opzioni di salvataggio PDF: Converti DOCX in PDF con tag forma](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Scopri come utilizzare le opzioni di salvataggio PDF per convertire documenti DOCX in PDF mantenendo i tag delle forme.
+
+### [Crea PDF accessibile da DOCX – Guida completa di programmazione](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Scopri come generare PDF accessibili da file DOCX con Aspose.Words per Java, includendo tag di accessibilità e conformità PDF/UA.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  
