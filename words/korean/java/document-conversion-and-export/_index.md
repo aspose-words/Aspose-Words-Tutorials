@@ -84,7 +84,18 @@ Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. O
 Aspose.Words for Java로 문서에 워터마크를 추가하는 방법. 텍스트 및 이미지 워터마크를 맞춤 설정하여 전문적인 문서를 만들 수 있습니다.
 
 ### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
-Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테이블 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
+Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테표 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
+
+### [docx를 markdown으로 변환 – Aspose.Words와 함께하는 전체 Java 가이드](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+
+### [Java로 docx를 마크다운으로 저장 – 전체 가이드](./save-docx-as-markdown-with-java-full-guide/)
+
+### [docx를 txt로 저장 – 수학 내보내기가 포함된 완전한 C# 가이드](./save-docx-as-txt-complete-c-guide-with-math-export/)
+
+### [PDF 저장 옵션: Shape 태그를 사용하여 DOCX를 PDF로 변환](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+
+### [DOCX에서 접근 가능한 PDF 생성 – 전체 프로그래밍 가이드](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 접근성 PDF로 변환하는 단계별 가이드.
 
 ## 자주 묻는 질문
 

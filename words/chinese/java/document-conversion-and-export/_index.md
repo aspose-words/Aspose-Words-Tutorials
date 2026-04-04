@@ -87,6 +87,26 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
 了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
 
+### [在 Aspose.Words for Java 中将 docx 转换为 markdown – 完整 Java 指南](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+
+本教程详细演示如何使用 Aspose.Words for Java 将 DOCX 文档转换为 Markdown 格式，涵盖代码示例和关键设置。
+
+### [在 Aspose.Words for Java 中将 docx 保存为 markdown – 完整 Java 指南](./save-docx-as-markdown-with-java-full-guide/)
+
+本教程演示如何使用 Aspose.Words for Java 将 DOCX 文档保存为 Markdown 格式，包含完整代码示例和关键设置。
+
+### [将 docx 保存为 txt – 完整 C# 指南（含数学导出）](./save-docx-as-txt-complete-c-guide-with-math-export/)
+
+本指南展示如何使用 Aspose.Words for C# 将 DOCX 文档保存为 TXT，并导出其中的数学公式。
+
+### [在 Aspose.Words for Java 中使用 PDF 保存选项：将 DOCX 转换为带形状标签的 PDF](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+
+演示如何使用 Aspose.Words for Java 的 PDF 保存选项，将 DOCX 文档转换为包含形状标签的 PDF 文件。
+
+### [在 Aspose.Words for Java 中创建可访问 PDF – 完整编程指南](./create-accessible-pdf-from-docx-complete-programming-guide/)
+
+本指南展示如何使用 Aspose.Words for Java 将 DOCX 文档转换为符合可访问性标准的 PDF，包括标签、结构和属性设置。
+
 ## 常见问题
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  

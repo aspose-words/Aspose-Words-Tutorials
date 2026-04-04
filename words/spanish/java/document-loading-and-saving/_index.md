@@ -114,6 +114,10 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Determinando el formato de documento en Aspose.Words for Java](./determining-document-format/)
 
+### [Recuperar documento de Word dañado – Guía completa de Java](./recover-broken-word-document-complete-java-guide/)
+
+### [Capturar advertencias de sustitución de fuentes – Detectar fuentes faltantes](./capture-font-substitution-warnings-detect-missing-fonts/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

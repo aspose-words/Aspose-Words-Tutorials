@@ -78,7 +78,6 @@ Learn how to create and customize charts in Aspose.Words for Java. Explore chart
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
@@ -86,6 +85,21 @@ Learn how to add watermarks to documents in Aspose.Words for Java. Customize tex
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
+
+### [convert docx to markdown – Full Java Guide with Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Learn how to convert DOCX files to Markdown using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [Save docx as markdown with Java – Full Guide](./save-docx-as-markdown-with-java-full-guide/)
+Learn how to convert DOCX files to Markdown using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [save docx as txt – Complete C# Guide with Math Export](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Learn how to save DOCX files as TXT using C#, including exporting embedded Math equations.
+
+### [pdf save options: Convert DOCX to PDF with Shape Tags](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Convert DOCX to PDF with Shape Tags using PDF save options in Aspose.Words for Java. Learn how to preserve shape tags during conversion.
+
+### [Create Accessible PDF from DOCX – Complete Programming Guide](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Learn how to generate accessible PDFs from DOCX using Aspose.Words for Java, ensuring compliance with accessibility standards.
 
 ## Frequently Asked Questions
 

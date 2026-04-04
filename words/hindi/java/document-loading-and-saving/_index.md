@@ -82,74 +82,58 @@ Aspose.Words for Java की बहुमुखी प्रतिभा का 
 
 ## Related Tutorials – Load, Save, and Convert
 
-### [Aspose.Words for Java के साथ HTML दस्तावेज़ लोडिंग और सेविंग](./loading-and-saving-html-documents/)
-Aspose.Words for Java के साथ HTML दस्तावेज़ लोडिंग और सेविंग सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
+### [Aspose.Words के साथ HTML दस्तावेज़ लोडिंग और सेविंग](./loading-and-saving-html-documents/)
+Aspose.Words के साथ HTML दस्तावेज़ लोडिंग और सेविंग सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java में लोड विकल्पों के साथ काम करना](./using-load-options/)
-Aspose.Words for Java में लोड विकल्पों को मास्टर करें। दस्तावेज़ लोडिंग को कस्टमाइज़ करें, एन्क्रिप्शन संभालें, शैप्स को कनवर्ट करें, Word वर्ज़न सेट करें और अधिक।
+### [Aspose.Words में लोड विकल्पों के साथ काम करना](./using-load-options/)
+Aspose.Words में लोड विकल्पों को मास्टर करें। दस्तावेज़ लोडिंग को कस्टमाइज़ करें, एन्क्रिप्शन संभालें, शैप्स को कनवर्ट करें, Word वर्ज़न सेट करें और अधिक।
 
-### [Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करना](./configuring-rtf-load-options/)
-Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करें। RTF दस्तावेज़ में UTF-8 टेक्स्ट को पहचानना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
+### [Aspose.Words में RTF लोड विकल्पों को कॉन्फ़िगर करना](./configuring-rtf-load-options/)
+Aspose.Words में RTF लोड विकल्पों को कॉन्फ़िगर करें। RTF दस्तावेज़ में UTF-8 टेक्स्ट को पहचानना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java के साथ टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
-Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
+### [Aspose.Words की टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
+Aspose.Words की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
 
-### [Aspose.Words for Java के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
-Aspose.Words for Java के साथ उन्नत दस्तावेज़ मैनिपुलेशन सीखें। एन्क्रिप्ट करें, मेटा फ़ाइलें हैंडल करें और अधिक। आपका Word दस्तावेज़, आपका तरीका।
+### [Aspose.Words के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
+Aspose.Words के साथ उन्नत दस्तावेज़ मैनिपुलेशन सीखें। एन्क्रिप्ट करें, मेटा फ़ाइलें हैंडल करें और अधिक। आपका Word दस्तावेज़, आपका तरीका।
 
-### [Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ सेव करना](./saving-html-documents-with-fixed-layout/)
-Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ कैसे सेव करें सीखें। सहज दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण‑दर‑चरण गाइड।
+### [Aspose.Words में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ सेव करना](./saving-html-documents-with-fixed-layout/)
+Aspose.Words में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ कैसे सेव करें सीखें। सहज दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words Java के साथ उन्नत HTML दस्तावेज़ सेविंग विकल्प](./advance-html-documents-saving-options/)
-इस ट्यूटोरियल में हमने Aspose.Words for Java के साथ विभिन्न उन्नत HTML दस्तावेज़ सेविंग विकल्पों को कवर किया है। ये विकल्प आपको हाई‑क्वालिटी HTML बनाने में सक्षम बनाते हैं।
+### [Aspose.Words के साथ उन्नत HTML दस्तावेज़ सेविंग विकल्प](./advance-html-documents-saving-options/)
+इस ट्यूटोरियल में हमने Aspose.Words के साथ विभिन्न उन्नत HTML दस्तावेज़ सेविंग विकल्पों को कवर किया है। ये विकल्प आपको हाई‑क्वालिटी HTML बनाने में सक्षम बनाते हैं।
 
-### [Aspose.Words for Java में दस्तावेज़ों से इमेज सेव करना](./saving-images-from-documents/)
-Aspose.Words for Java के साथ दस्तावेज़ों से इमेज कैसे सेव करें, हमारे व्यापक चरण‑दर‑चरण गाइड के साथ सीखें। फ़ॉर्मैट, कॉम्प्रेशन आदि को कस्टमाइज़ करें।
+### [Aspose.Words में दस्तावेज़ों से इमेज सेव करना](./saving-images-from-documents/)
+Aspose.Words के साथ दस्तावेज़ों से इमेज कैसे सेव करें, हमारे व्यापक चरण‑दर‑चरण गाइड के साथ सीखें। फ़ॉर्मैट, कॉम्प्रेशन आदि को कस्टमाइज़ करें।
 
-### [Aspose.Words for Java में दस्तावेज़ों को मार्कडाउन के रूप में सेव करना](./saving-documents-as-markdown/)
-Aspose.Words for Java के साथ Word दस्तावेज़ को मार्कडाउन में कनवर्ट करना सीखें। यह चरण‑दर‑चरण गाइड टेबल अलाइनमेंट, इमेज हैंडलिंग आदि को कवर करता है।
+### [Aspose.Words में दस्तावेज़ों को मार्कडाउन के रूप में सेव करना](./saving-documents-as-markdown/)
+Aspose.Words के साथ Word दस्तावेज़ को मार्कडाउन में कनवर्ट करना सीखें। यह चरण‑दर‑चरण गाइड टेबल अलाइनमेंट, इमेज हैंडलिंग आदि को कवर करता है।
 
-### [Aspose.Words for Java में दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना](./saving-documents-as-odt-format/)
-Aspose.Words for Java का उपयोग करके दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना सीखें। ओपन‑सोर्स ऑफिस सूट्स के साथ संगतता सुनिश्चित करें।
+### [Aspose.Words में दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना](./saving-documents-as-odt-format/)
+Aspose.Words का उपयोग करके दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना सीखें। ओपन‑सोर्स ऑफिस सूट्स के साथ संगतता सुनिश्चित करें।
 
-### [Aspose.Words for Java में दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना](./saving-documents-as-ooxml-format/)
-Aspose.Words for Java के साथ दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
+### [Aspose.Words में दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना](./saving-documents-as-ooxml-format/)
+Aspose.Words के साथ दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
 
-### [Aspose.Words for Java में दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना](./saving-documents-as-pcl-format/)
-Aspose.Words for Java का उपयोग करके दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए चरण‑दर‑चरण गाइड और कोड उदाहरण।
+### [Aspose.Words में दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना](./saving-documents-as-pcl-format/)
+Aspose.Words का उपयोग करके दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए चरण‑दर‑चरण गाइड और कोड उदाहरण।
 
-### [Aspose.Words for Java में दस्तावेज़ों को PDF के रूप में सेव करना](./saving-documents-as-pdf/)
-Aspose.Words for Java के साथ Word दस्तावेज़ को PDF में सेव करना सीखें। फ़ॉन्ट, प्रॉपर्टी और इमेज क्वालिटी को कस्टमाइज़ करें। PDF कनवर्ज़न के लिए व्यापक गाइड।
+### [Aspose.Words में दस्तावेज़ों को PDF के रूप में सेव करना](./saving-documents-as-pdf/)
+Aspose.Words के साथ Word दस्तावेज़ को PDF में सेव करना सीखें। फ़ॉन्ट, प्रॉपर्टी और इमेज क्वालिटी को कस्टमाइज़ करें। PDF कनवर्ज़न के लिए व्यापक गाइड।
 
-### [Aspose.Words for Java में दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना](./saving-documents-as-rtf-format/)
-Aspose.Words for Java का उपयोग करके दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए कोड के साथ चरण‑दर‑चरण गाइड।
+### [Aspose.Words में दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना](./saving-documents-as-rtf-format/)
+Aspose.Words का उपयोग करके दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए कोड के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
-Aspose.Words for Java के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
+### [Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
+Aspose.Words के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
+### [Aspose.Words में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
-## अक्सर पूछे जाने वाले प्रश्न
+### [फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – लापता फ़ॉन्ट्स का पता लगाएँ](./capture-font-substitution-warnings-detect-missing-fonts/)
+Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करके लापता फ़ॉन्ट्स की पहचान करें।
 
-**Q:** मैं प्रोग्रामेटिकली **Word से इमेज कैसे सेव करूँ** दस्तावेज़ों में?  
-**A:** `new Document("file.docx")` से दस्तावेज़ लोड करें, इमेज वाले `Shape` नोड्स पर इटररेट करें, और प्रत्येक के लिए `shape.getImageData().save("image.png")` कॉल करें।
-
-**Q:** इमेज निकालने के बाद क्या मैं **save pdf java** भी कर सकता हूँ?  
-**A:** हाँ। प्रोसेसिंग के बाद `document.save("output.pdf")` कॉल करें – लाइब्रेरी स्वचालित रूप से PDF कनवर्ज़न संभालती है।
-
-**Q:** **convert word html java** का सबसे अच्छा तरीका क्या है?  
-**A:** Word फ़ाइल लोड करें और `document.save("output.html", SaveFormat.HTML)` उपयोग करें; आप `HtmlSaveOptions` के साथ फाइन‑ट्यून भी कर सकते हैं।
-
-**Q:** कस्टम विकल्पों के साथ **load html document java** कैसे लोड करूँ?  
-**A:** `Document` ऑब्जेक्ट बनाते समय `LoadOptions` (जैसे `new LoadOptions(LoadFormat.HTML)`) का उपयोग करें।
-
-**Q:** क्या मैक्रो वाले **load docx java** फ़ाइलों को लोड करने का सरल तरीका है?  
-**A:** हाँ – `LoadOptions.setLoadFormat(LoadFormat.DOCX)` सेट करें और यदि फ़ाइल प्रोटेक्टेड है तो `LoadOptions.setPassword()` सक्षम करें।
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose
+### [टूटा हुआ Word दस्तावेज़ पुनर्प्राप्त करें – पूर्ण Java गाइड](./recover-broken-word-document-complete-java-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

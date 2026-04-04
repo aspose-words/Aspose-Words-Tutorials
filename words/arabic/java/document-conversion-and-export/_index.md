@@ -77,6 +77,9 @@ weight: 22
 ### [إنشاء ملصقات باركود مخصصة في Aspose.Words for Java](./generating-custom-barcode-labels/)
 إنشاء ملصقات باركود مخصصة في Aspose.Words for Java. تعلم كيفية إنشاء حلول باركود مخصصة باستخدام Aspose.Words for Java في هذا الدليل خطوة بخطوة.
 
+### [إنشاء PDF قابل للوصول من DOCX – دليل برمجة كامل](./create-accessible-pdf-from-docx-complete-programming-guide/)
+تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ### [استخدام إنشاء الباركود في Aspose.Words for Java](./using-barcode-generation/)
 تعلم كيفية إنشاء باركود مخصص في Java باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع الشيفرة المصدرية لإنشاء الباركود. عزز أتمتة المستندات باستخدام Aspose.Words.
 
@@ -92,8 +95,20 @@ weight: 22
 ### [استخدام العلامات المائية في المستندات في Aspose.Words for Java](./using-watermarks-to-documents/)
 تعلم كيفية إضافة علامات مائية إلى المستندات في Aspose.Words for Java. خصص علامات مائية نصية وصورية للحصول على مستندات ذات مظهر احترافي.
 
+### [خيارات حفظ PDF: تحويل DOCX إلى PDF مع علامات الشكل](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF مع الحفاظ على علامات الشكل باستخدام خيارات حفظ PDF في Aspose.Words for Java.
+
 ### [تنسيق الجداول وأنماط الجداول في Aspose.Words for Java](./formatting-tables-and-table-styles/)
 تعلم كيفية تنسيق الجداول وتطبيق أنماط الجداول في Aspose.Words for Java. استكشف أدلة خطوة بخطوة مع الشيفرة المصدرية لتنسيق فعال للجداول. حسّن تخطيط مستندك باستخدام Aspose.Words.
+
+### [تحويل docx إلى markdown – دليل Java كامل مع Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+تعلم كيفية تحويل مستندات DOCX إلى صيغة Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [حفظ docx كملف markdown باستخدام Java – دليل كامل](./save-docx-as-markdown-with-java-full-guide/)
+حفظ مستندات DOCX كملفات Markdown باستخدام Java مع Aspose.Words. دليل شامل خطوة بخطوة.
+
+### [حفظ docx كملف txt – دليل C# كامل مع تصدير Math](./save-docx-as-txt-complete-c-guide-with-math-export/)
+دليل شامل بلغة C# لحفظ مستندات DOCX كملفات TXT مع تصدير المعادلات الرياضية.
 
 ## الأسئلة المتكررة
 

@@ -69,7 +69,7 @@ További információkért tekintsd meg az [Aspose.Words for Java API Documentat
 Egyedi vonalkód címkék generálása az Aspose.Words for Java‑val. Tanuld meg, hogyan hozhatsz létre személyre szabott vonalkód megoldásokat az Aspose.Words for Java segítségével ebben a lépésről‑lépésre útmutatóban.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generáláshoz. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
+Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generálásához. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Tanuld meg, hogyan hozz létre és testre szabj diagramokat az Aspose.Words for Java‑ban. Fedezd fel a diagramtípusokat, formázást és tengelybeállításokat az adatok vizualizálásához.
@@ -85,6 +85,20 @@ Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
+
+### [DOCX konvertálása markdownra – Teljes Java útmutató az Aspose.Words segítségével](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba Java‑ban az Aspose.Words használatával, lépésről‑lépésre.
+
+### [Save docx as markdown with Java – Full Guide](./save-docx-as-markdown-with-java-full-guide/)
+
+### [DOCX mentése TXT‑ként – Teljes C# útmutató matematikai exporttal](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Tanuld meg, hogyan konvertálj DOCX fájlokat TXT formátumba C#-ban, beleértve a matematikai egyenletek exportálását.
+
+### [PDF mentési beállítások: DOCX konvertálása PDF‑re alakzatcímkékkel](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Ismerje meg, hogyan használhatja a Shape Tags funkciót a DOCX PDF‑re konvertálásakor a mentési beállításokban.
+
+### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes programozási útmutató](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat akadálymentes PDF‑formátumba az Aspose.Words for Java segítségével.
 
 ## Gyakran Ismételt Kérdések
 

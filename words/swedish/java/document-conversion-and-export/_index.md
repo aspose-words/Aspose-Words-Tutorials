@@ -90,6 +90,21 @@ Lär dig hur du lägger till vattenstämplar i dokument med Aspose.Words for Jav
 ### [Formatera tabeller och tabellstilar i Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Lär dig hur du formaterar tabeller och tillämpar tabellstilar i Aspose.Words for Java. Utforska steg‑för‑steg‑guider med källkod för effektiv tabellformatering. Förbättra ditt dokumentlayout med Aspose.Words.
 
+### [Konvertera DOCX till Markdown – Fullständig Java‑guide med Aspose.Words](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+Lär dig hur du konverterar DOCX‑filer till Markdown med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+
+### [Spara DOCX som Markdown – Fullständig Java‑guide](./save-docx-as-markdown-with-java-full-guide/)
+Lär dig hur du sparar DOCX‑filer som Markdown med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+
+### [Spara docx som txt – Komplett C#‑guide med Math‑export](./save-docx-as-txt-complete-c-guide-with-math-export/)
+Lär dig hur du sparar DOCX‑filer som TXT i C# och exporterar matematiska objekt med Aspose.Words.
+
+### [PDF‑sparalternativ: Konvertera DOCX till PDF med formtaggar](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+Lär dig hur du använder PDF‑sparalternativ för att konvertera DOCX‑filer till PDF med formtaggar i Aspose.Words for Java.
+
+### [Skapa tillgänglig PDF från DOCX – Komplett programmeringsguide](./create-accessible-pdf-from-docx-complete-programming-guide/)
+Lär dig hur du konverterar DOCX till en tillgänglig PDF med fullständig kodexempel och bästa praxis.
+
 ## Vanliga frågor
 
 **Q: Hur lägger jag till en vattenstämpel i en befintlig PDF med Aspose.Words?**  

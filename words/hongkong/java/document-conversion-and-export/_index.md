@@ -63,25 +63,28 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ## 文件轉換與匯出教學
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-在 Aspose.Words for Java 中產生自訂條碼標籤。學習如何使用 Aspose.Words for Java 以逐步指南建立個人化條碼解決方案。
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-在 Aspose.Words for Java 中使用條碼產生。了解如何在 Java 中使用 Aspose.Words for Java 產生自訂條碼。提供逐步指南與條碼產生的原始碼。提升文件自動化與 Aspose.Words。
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-在 Aspose.Words for Java 中使用圖表。學習如何在 Aspose.Words for Java 中建立與自訂圖表。探索圖表類型、格式設定與座標軸屬性，以進行資料視覺化。
 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-在 Aspose.Words for Java 中使用 Office 數學物件。發掘在文件中使用數學方程式的威力，透過 Aspose.Words for Java 操作與顯示 Office Math 物件，輕鬆完成。
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-在 Aspose.Words for Java 中使用文件形狀。發掘 Aspose.Words for Java 中文件形狀的強大功能。學習以逐步範例建立視覺吸引力的文件。
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-在 Aspose.Words for Java 中為文件使用浮水印。了解如何在 Aspose.Words for Java 中為文件加入浮水印。自訂文字與圖片浮水印，打造專業外觀的文件。
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
-在 Aspose.Words for Java 中格式化表格與表格樣式。學習如何在 Aspose.Words for Java 中格式化表格與套用表格樣式。透過逐步指南與原始碼，實作有效的表格格式化。提升文件版面配置與 Aspose.Words。
+
+### [在 Aspose.Words for Java 中將 DOCX 轉換為 Markdown – 完整 Java 指南](./convert-docx-to-markdown-full-java-guide-with-aspose-words/)
+
+### [使用 Java 將 docx 儲存為 markdown – 完整指南](./save-docx-as-markdown-with-java-full-guide/)
+
+### [將 docx 儲存為 txt – 完整 C# 指南與數學匯出](./save-docx-as-txt-complete-c-guide-with-math-export/)
+
+### [PDF 儲存選項：使用形狀標籤將 DOCX 轉換為 PDF](./pdf-save-options-convert-docx-to-pdf-with-shape-tags/)
+
+### [從 DOCX 建立可存取的 PDF – 完整程式設計指南](./create-accessible-pdf-from-docx-complete-programming-guide/)
 
 ## 常見問題
 

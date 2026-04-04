@@ -132,6 +132,12 @@ Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikas
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
 
+### [Pulihkan Dokumen Word Rusak – Panduan Java Lengkap](./recover-broken-word-document-complete-java-guide/)
+Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words untuk Java dengan panduan lengkap dan contoh kode.
+
+### [Menangkap Peringatan Substitusi Font – Deteksi Font yang Hilang](./capture-font-substitution-warnings-detect-missing-fonts/)
+Pelajari cara menangkap peringatan substitusi font dan mengidentifikasi font yang tidak tersedia saat memuat dokumen dengan Aspose.Words untuk Java.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  
