@@ -32,6 +32,8 @@
 | [將 docx 儲存為 markdown – 完整 C# 指南（含圖像提取）](./save-docx-as-markdown-full-c-guide-with-image-extraction/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 Markdown，並提取圖像。 |
 | [如何將 Word 匯出為 Markdown – 完整 C# 指南](./how-to-export-markdown-from-word-complete-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件匯出為 Markdown，提供完整步驟與範例程式碼。 |
 | [如何將 DOCX 匯出為 Markdown – 完整 C# 指南](./how-to-export-markdown-from-docx-complete-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 匯出為 Markdown，提供完整步驟與範例程式碼。 |
+| [將 DOCX 轉換為 Markdown – 從 DOCX 中提取圖像 (使用 Aspose.Words)](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/) |示篯如何使用 Aspose.Words for .NET 將 DOCX 轉換為 Markdown，並提取圖像。 |
+| [將 Word 轉換為 Markdown – 完整指南，含 PDF/UA 匯出](./convert-word-to-markdown-full-guide-with-pdf-ua-export/) |示範如何使用 Aspose.Words for .NET 將 Word 文件轉換為 Markdown，並同時匯出符合 PDF/UA 標準的 PDF。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

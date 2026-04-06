@@ -27,7 +27,7 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Lägg till Bidi-markeringar i Word-dokument](./add-bidi-marks/) | Lär dig hur du lägger till dubbelriktade (Bidi) tecken i Word-dokument med Aspose.Words för .NET med den här guiden. Säkerställ korrekt textriktning för flerspråkigt innehåll. |
 | [Använd tabbtecken per nivå för listindrag](./use-tab-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor i flera nivåer med tabbindrag med Aspose.Words för .NET. Följ den här guiden för exakt listformatering i dina dokument. |
 | [Använd mellanslagstecken per nivå för listindrag](./use-space-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor med flera nivåer med mellanslag i Aspose.Words för .NET. Steg-för-steg-guide för exakt dokumentformatering. |
-
+| [Spara docx som txt – Exportera Word-ekvationer till LaTeX med C#](./save-docx-as-txt-export-word-equations-to-latex-with-c/) | Lär dig hur du sparar DOCX som TXT och konverterar Word-ekvationer till LaTeX med C# i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

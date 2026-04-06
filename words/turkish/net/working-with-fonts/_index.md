@@ -25,6 +25,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
+| [Aspose Yazı Tipi İkamesi – Word Belgelerinde Eksik Yazı Tiplerini Algıla](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aspose.Words for .NET kullanarak Word belgelerindeki eksik yazı tiplerini nasıl tespit edeceğinizi öğrenin. |
 | [Yazı Tipi Biçimlendirme](./font-formatting/) | Aspose.Words for .NET kullanarak Word belgelerindeki yazı tiplerini nasıl biçimlendireceğinizi ayrıntılı, adım adım bir kılavuzla öğrenin. |
 | [Yazı Tipi Satır Aralığını Al](./get-font-line-spacing/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak yazı tipi satır aralığını nasıl elde edeceğinizi öğrenin. Geliştiriciler için mükemmel. |
 | [DrawingML Metin Efektini Kontrol Et](./check-drawingml-text-effect/) Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerindeki DrawingML metin efektlerini nasıl kontrol edeceğinizi öğrenin. Belgelerinizi kolaylıkla geliştirin. |
@@ -40,7 +41,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
 | [Font Klasörlerini Öncelikli Olarak Ayarla](./set-fonts-folders-with-priority/) | Aspose.Words for .NET kullanarak Word belgelerinde font klasörlerini öncelikli olarak nasıl ayarlayacağınızı öğrenin. Kılavuzumuz belgelerinizin her seferinde mükemmel şekilde işlenmesini sağlar. |
 | [True Type Yazı Tipleri Klasörünü Ayarla](./set-true-type-fonts-folder/) | Aspose.Words for .NET kullanarak Word belgelerinde True Type Fonts klasörünün nasıl ayarlanacağını öğrenin. Tutarlı font yönetimini sağlamak için ayrıntılı, adım adım kılavuzumuzu izleyin. |
 | [İşleme Sırasında Varsayılan Yazı Tipini Belirle](./specify-default-font-when-rendering/) | Aspose.Words for .NET kullanarak Word belgelerini işlerken varsayılan yazı tipini nasıl belirleyeceğinizi öğrenin. Platformlar arasında tutarlı belge görünümünü sağlayın. |
-| [Yükleme Seçenekleriyle Yazı Tipi Ayarları](./font-settings-with-load-options/) Aspose.Words for .NET'te yükleme seçenekleriyle yazı tipi ayarlarının nasıl yönetileceğini öğrenin. Geliştiricilerin Word belgelerinde tutarlı yazı tipi görünümünü sağlamaları için adım adım kılavuz.
+| [Yükleme Seçenekleriyle Yazı Tipi Ayarları](./font-settings-with-load-options/) Aspose.Words for .NET'te yükleme seçenekleriyle yazı tipi ayarlarının nasıl yönetileceğini öğrenin. Geliştiricilerin Word belgelerinde tutarlı yazı tipi görünümünü sağlamaları için adım adım kılavuz. |
 | [Yazı Tipleri Klasörünü Ayarla](./set-fonts-folder/) | Word belgelerinizin eksik yazı tipleri olmadan doğru şekilde işlenmesini sağlamak için Aspose.Words for .NET'te özel yazı tipleri klasörünün nasıl ayarlanacağını öğrenin. |
 | [Yazı Tipi Ayarları Varsayılan Örnek](./font-settings-default-instance/) | Bu eğitimde, Aspose.Words for .NET ile bir Word belgesinde varsayılan yazı tipi ayarlarının nasıl yapılandırılacağını öğrenin. |
 | [Mevcut Yazı Tiplerinin Listesini Alın](./get-list-of-available-fonts/) | Bu detaylı adım adım eğitimde Aspose.Words for .NET kullanarak mevcut fontların listesini nasıl alacağınızı keşfedin. Font yönetimi becerilerinizi artırın. |
