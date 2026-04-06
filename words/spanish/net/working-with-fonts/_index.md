@@ -39,7 +39,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Establecer carpetas de fuentes del sistema y carpetas personalizadas](./set-fonts-folders-system-and-custom-folder/) Aprenda a configurar carpetas de fuentes personalizadas y del sistema en documentos de Word usando Aspose.Words para .NET, garantizando que sus documentos se muestren correctamente en diferentes entornos. |
 | [Establecer carpetas de fuentes con prioridad](./set-fonts-folders-with-priority/) Aprenda a configurar carpetas de fuentes con prioridad en documentos de Word con Aspose.Words para .NET. Nuestra guía garantiza que sus documentos se visualicen perfectamente en todo momento.
 | [Establecer carpeta de fuentes True Type](./set-true-type-fonts-folder/) Aprenda a configurar una carpeta de fuentes True Type en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso para garantizar una gestión de fuentes consistente.
-| [Especificar la fuente predeterminada al renderizar](./specify-default-font-when-rendering/) Aprenda a especificar una fuente predeterminada al renderizar documentos de Word con Aspose.Words para .NET. Asegúrese de que la apariencia de los documentos sea uniforme en todas las plataformas.
+| [Especificar la fuente predeterminada al renderizar](./specify-default-font-when-rendering/) Aprende a especificar una fuente predeterminada al renderizar documentos de Word con Aspose.Words para .NET. Asegúrese de que la apariencia de los documentos sea uniforme en todas las plataformas.
 | [Configuración de fuente con opciones de carga](./font-settings-with-load-options/) Aprenda a administrar la configuración de fuentes con las opciones de carga en Aspose.Words para .NET. Guía paso a paso para desarrolladores que garantiza una apariencia uniforme de las fuentes en documentos de Word.
 | [Establecer carpeta de fuentes](./set-fonts-folder/) | Aprenda a configurar una carpeta de fuentes personalizadas en Aspose.Words para .NET para garantizar que sus documentos de Word se representen correctamente sin fuentes faltantes. |
 | [Configuración de fuente Instancia predeterminada](./font-settings-default-instance/) | En este tutorial, aprenda a configurar la configuración de fuente predeterminada en un documento de Word con Aspose.Words para .NET.
@@ -48,7 +48,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Recibir notificación de advertencia](./receive-warning-notification/) Aprenda cómo recibir una notificación de advertencia al usar Aspose.Words para .NET y administrar cualquier problema o advertencia en sus documentos. |
 | [Ejemplo de fuente de recurso de Steam](./resource-steam-font-source-example/) | Aprenda a utilizar la fuente de flujo de recursos para cargar fuentes personalizadas en Aspose.Words para .NET. |
 | [Obtener sustitución sin sufijos](./get-substitution-without-suffixes/) | En este tutorial, aprenda cómo obtener anulaciones sin sufijos en un documento de Word con Aspose.Words para .NET.
-
+| [Sustitución de fuentes Aspose – Detectar fuentes faltantes en documentos de Word](./aspose-font-substitution-detect-missing-fonts-in-word-docume/) | Aprenda a detectar fuentes faltantes en documentos de Word con Aspose.Words para .NET mediante la sustitución de fuentes. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

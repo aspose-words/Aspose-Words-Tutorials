@@ -36,11 +36,15 @@
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 
+### [تحويل DOCX إلى Markdown – استخراج الصور من DOCX باستخدام Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
+
 ### [كيفية تصدير Markdown من Word – دليل C# كامل](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
+
+### [تحويل Word إلى Markdown – دليل كامل مع تصدير PDF/UA](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,7 +21,7 @@
  ## Anleitungen
 | Titel | Beschreibung |
 | --- | --- |
-| [Exportieren in Markdown mit Ausrichtung des Tabelleninhalts](./export-into-markdown-with-table-content-alignment/) | Erfahren Sie, wie Sie Word-Dokumente mit ausgerichteten Tabellen mit Aspose.Words für .NET in Markdown exportieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für perfekte Markdown-Tabellen. |
+| [Exportieren in Markdown mit Ausrichtung des Tabelleninhalts](./export-into-markdown-with-table-content-alignment/) | Erfahren Sie, wie Sie Word-Dokumente mit ausgerichteten Tabellen mit Aspose.Words für .NET in Markdown exportieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für perfekte Markdown-Tabellen. |
 | [Bilderordner festlegen](./set-images-folder/) Konvertieren Sie Word-Dokumente mit Aspose.Words für .NET in Markdown mit korrekter Tabellenausrichtung. Folgen Sie unserer ausführlichen Anleitung für perfekte Ergebnisse. |
 | [Wie man Markdown verwendet: DOCX in Markdown mit LaTeX‑Gleichungen konvertieren](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren, um mathematische Inhalte korrekt zu erhalten. |
 
@@ -48,6 +48,12 @@ Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Sch
 
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Anleitung](./how-to-export-markdown-from-docx-complete-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [DOCX in Markdown konvertieren – Bildextraktion aus DOCX mit Aspose.Words](./convert-docx-to-markdown-extract-images-from-docx-with-aspos/)
+Erfahren Sie, wie Sie Bilder aus DOCX‑Dateien extrahieren und das Dokument in Markdown konvertieren – vollständige Anleitung in C#.
+
+### [Word in Markdown konvertieren – Vollständige Anleitung mit PDF/UA-Export](./convert-word-to-markdown-full-guide-with-pdf-ua-export/)
+Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und gleichzeitig einen PDF/UA‑Export für barrierefreie PDFs erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
