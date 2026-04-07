@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Scopri come organizzare efficacemente i segnalibri nei PDF utilizzando Aspose.Words per Java. Migliora la leggibilità e la navigazione con questa guida completa."
-"title": "Gestire i livelli di struttura dei segnalibri nei PDF utilizzando Aspose.Words Java"
-"url": "/it/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-04-07'
+description: Scopri come creare segnalibri PDF nidificati, generare PDF con segnalibri
+  e salvare i segnalibri PDF di Word utilizzando Aspose.Words per Java.
+keywords:
+- create nested pdf bookmarks
+- generate pdf with bookmarks
+- save word pdf bookmarks
+title: Crea segnalibri PDF nidificati in Java con Aspose.Words
+url: /it/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +17,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Gestire i livelli di struttura dei segnalibri nei PDF utilizzando Aspose.Words Java
+# Crea segnalibri PDF nidificati in Java con Aspose.Words
 
 ## Introduzione
-Hai difficoltà a gestire i segnalibri durante la conversione di documenti Word in PDF? Questo tutorial ti mostrerà come utilizzare Aspose.Words per Java per organizzare efficacemente i segnalibri dei tuoi documenti, rendendoli professionali e facili da usare.
+In questo tutorial imparerai a **creare segnalibri PDF nidificati** utilizzando Aspose.Words per Java, consentendo di generare PDF con segnalibri e salvare i segnalibri PDF di Word con una gerarchia di outline pulita. Ti guideremo attraverso la configurazione della libreria, la creazione di segnalibri nidificati, l'assegnazione dei livelli di outline e l'esportazione del PDF finale.
 
-**Cosa imparerai:**
-- Impostare e utilizzare Aspose.Words per Java
-- Creare segnalibri nidificati nei documenti di Word
-- Configura i livelli di struttura dei segnalibri per una migliore organizzazione
-- Salva i documenti come PDF con segnalibri strutturati
-
-Prima di iniziare, rivediamo i prerequisiti!
+**Cosa imparerai**
+- Installa e licenzia Aspose.Words per Java
+- Crea segnalibri nidificati all'interno di un documento Word
+- Configura i livelli di outline dei segnalibri per una navigazione strutturata
+- Salva il documento come PDF che preserva la gerarchia dei segnalibri
 
 ### Prerequisiti
-Prima di iniziare, assicurati di avere:
-- **Librerie e dipendenze**: Aspose.Words per Java (versione 25.3 o successiva).
-- **Configurazione dell'ambiente**: Un JDK installato sul computer insieme a un IDE compatibile come IntelliJ IDEA o Eclipse.
-- **Prerequisiti di conoscenza**: Conoscenza di base della programmazione Java e familiarità con i sistemi di compilazione Maven o Gradle.
+- **Librerie e dipendenze**: Aspose.Words per Java (25.3 o più recente)  
+- **Ambiente**: JDK 8+ e un IDE come IntelliJ IDEA o Eclipse  
+- **Competenze di base**: familiarità con Java, Maven o Gradle e il concetto di segnalibri PDF  
 
-## Impostazione di Aspose.Words
-Per iniziare, includi le dipendenze necessarie nel tuo progetto. Ecco come puoi farlo usando Maven e Gradle:
+## Risposte rapide
+- **Cosa significa “creare segnalibri PDF nidificati”?**  
+  Significa costruire una gerarchia di segnalibri in cui i segnalibri figlio sono inseriti all'interno dei segnalibri genitore, proprio come capitoli e sotto‑capitoli in un libro.  
+- **Quale prodotto Aspose gestisce la conversione PDF?**  
+  Aspose.Words per Java converte Word in PDF preservando i livelli di outline dei segnalibri.  
+- **È necessaria una licenza per lo sviluppo?**  
+  Puoi iniziare con una prova gratuita; è disponibile una licenza temporanea per test a breve termine.  
+- **Posso impostare livelli di outline personalizzati?**  
+  Sì – la `BookmarksOutlineLevelCollection` ti consente di assegnare qualsiasi livello intero a ciascun segnalibro.  
+- **Questo approccio è compatibile con documenti di grandi dimensioni?**  
+  Assolutamente. Aspose.Words trasmette i dati in modo efficiente, ma dovresti rimuovere i contenuti inutilizzati per mantenere la dimensione del file ottimale.
 
-**Esperto:**
+## Cos'è “creare segnalibri PDF nidificati”?
+I segnalibri PDF nidificati sono una struttura ad albero che appare nei pannelli di navigazione dei visualizzatori PDF. Consentono ai lettori di saltare direttamente a sezioni, sottosezioni o paragrafi specifici, migliorando l'usabilità del documento—soprattutto per contratti legali, rapporti tecnici o e‑book.
+
+## Perché usare Aspose.Words per i livelli di outline dei segnalibri?
+Aspose.Words fornisce un'API fluida per definire i segnalibri mentre costruisci il documento, quindi mappa automaticamente quei segnalibri alle voci di outline PDF. Questo elimina l'elaborazione manuale post‑processo e garantisce che la navigazione del PDF rifletta la gerarchia originale di Word.
+
+## Configurazione di Aspose.Words
+Aggiungi la libreria al tuo progetto usando Maven o Gradle.
+
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +63,133 @@ Per iniziare, includi le dipendenze necessarie nel tuo progetto. Ecco come puoi 
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### Acquisizione della licenza
-Aspose.Words è un prodotto commerciale, ma puoi iniziare con una prova gratuita per esplorarne le funzionalità. Ecco i passaggi:
-1. **Prova gratuita**: Scarica da [Pagina di rilascio di Aspose](https://releases.aspose.com/words/java/) per testarne tutte le capacità.
-2. **Licenza temporanea**Richiedi una licenza temporanea presso [Pagina della licenza temporanea di Aspose](https://purchase.aspose.com/temporary-license/) se necessario.
-3. **Acquistare**: Per un utilizzo continuativo, acquistare una licenza da [Portale acquisti di Aspose](https://purchase.aspose.com/buy).
+Aspose.Words è una libreria commerciale, ma puoi valutarla gratuitamente.
 
-Una volta ottenuto il file di licenza, inizializzalo nel tuo progetto per sbloccare tutte le funzionalità di Aspose.Words.
+1. **Prova gratuita** – Scarica dalla [pagina di rilascio di Aspose](https://releases.aspose.com/words/java/) per esplorare tutte le funzionalità.  
+2. **Licenza temporanea** – Richiedi nella [pagina della licenza temporanea di Aspose](https://purchase.aspose.com/temporary-license/) per progetti a breve termine.  
+3. **Acquisto** – Ottieni una licenza completa dal [portale di acquisto di Aspose](https://purchase.aspose.com/buy).
+
+Dopo aver ricevuto il file `.lic`, caricalo all'avvio dell'applicazione per sbloccare tutte le funzionalità.
 
 ## Guida all'implementazione
-Suddividiamo l'implementazione in sezioni gestibili:
+Divideremo l'implementazione in due parti logiche: creare segnalibri nidificati e configurare i loro livelli di outline.
 
-### Creazione di segnalibri annidati
-**Panoramica**: Scopri come creare segnalibri annidati all'interno di un documento Word utilizzando Aspose.Words per Java.
+### Creazione di segnalibri nidificati
+**Panoramica** – Questa sezione mostra come incorporare segnalibri gerarchici direttamente in un documento Word.
 
-#### Passaggio 1: inizializzare il documento e il builder
+#### Passo 1: Inizializza Document e Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-In questo modo viene configurato l'ambiente del documento Word in cui è possibile iniziare a inserire contenuti.
+Il `DocumentBuilder` ti offre un modo comodo per inserire testo, tabelle e segnalibri.
 
-#### Passaggio 2: inserire segnalibri annidati
-Inizia creando un segnalibro principale:
+#### Passo 2: Inserisci segnalibri primari e nidificati
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Ora, nidifica un altro segnalibro al suo interno:
+Ora aggiungi un segnalibro figlio all'interno del primo:
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Termina il segnalibro nidificato
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Completa il segnalibro esterno:
+Chiudi il segnalibro esterno:
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Passaggio 3: aggiungere segnalibri aggiuntivi
-Continua ad aggiungere segnalibri secondo necessità. Ad esempio, un terzo segnalibro separato:
+#### Passo 3: Aggiungi un segnalibro di livello superiore separato
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
+Puoi ripetere questi passaggi per costruire una gerarchia profonda quanto necessario.
 
-### Configurazione dei livelli di struttura dei segnalibri
-**Panoramica**: Organizza i tuoi segnalibri impostandone i livelli di struttura per una migliore navigazione nel PDF.
+### Configurazione dei livelli di outline dei segnalibri
+**Panoramica** – Dopo che i segnalibri esistono, definisci i loro livelli di outline affinché i visualizzatori PDF li mostrino correttamente.
 
-#### Passaggio 1: imposta PdfSaveOptions
+#### Passo 1: Configura PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Questo frammento di codice inizializza le opzioni che utilizzerai per salvare il tuo documento come PDF con segnalibri organizzati.
+`PdfSaveOptions` controlla come il documento Word viene renderizzato come PDF.
 
-#### Passaggio 2: aggiungere livelli di struttura
-Assegnare dei livelli a ciascun segnalibro, che ne determineranno la gerarchia:
+#### Passo 2: Assegna i livelli a ciascun segnalibro
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Annidato sotto Segnalibro 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
+Il livello 1 appare come voce di livello superiore, il livello 2 come figlio, e così via.
 
-#### Passaggio 3: salvare il documento
-Infine, salva il documento come PDF con queste impostazioni:
+#### Passo 3: Salva il documento come PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
+Il PDF risultante mostrerà un pannello di segnalibri a tre livelli che rispecchia la struttura definita.
 
 ### Suggerimenti per la risoluzione dei problemi
-- **Segnalibri mancanti**: Assicurare che ciascuno `startBookmark` ha un corrispondente `endBookmark`.
-- **Livelli errati**: Verifica la gerarchia controllando le relazioni padre-figlio nel codice.
+- **Segnalibri mancanti** – Verifica che ogni `startBookmark` abbia un `endBookmark` corrispondente.  
+- **Gerarchia errata** – Controlla nuovamente i numeri dei livelli di outline; un figlio deve avere un livello più alto del suo genitore.  
+- **Errori di licenza** – Assicurati che il file di licenza sia caricato prima di chiamare qualsiasi API Aspose; altrimenti vedrai filigrane di valutazione.
 
 ## Applicazioni pratiche
-Ecco alcuni scenari in cui puoi applicare queste conoscenze:
-1. **Documenti legali**: Organizza sezioni e sottosezioni per una facile consultazione.
-2. **Rapporti**: Utilizza segnalibri annidati per navigare in strutture dati complesse.
-3. **Materiale didattico**: Strutturare capitoli, sottocapitoli e punti chiave in modo efficiente.
+1. **Contratti legali** – Salta rapidamente a clausole, sotto‑clausole e allegati.  
+2. **Rapporti tecnici** – Naviga specifiche di grandi dimensioni con segnalibri a livello di capitolo.  
+3. **Materiali e‑learning** – Fornisci agli studenti accesso immediato a lezioni e quiz.
 
 ## Considerazioni sulle prestazioni
-- Ottimizza le dimensioni del documento rimuovendo i contenuti non necessari prima di salvarlo.
-- Gestire in modo efficace l'utilizzo della memoria quando si gestiscono documenti di grandi dimensioni.
+- **Dimensione del documento** – Rimuovi stili inutilizzati o sezioni nascoste prima di salvare per mantenere il PDF leggero.  
+- **Gestione della memoria** – Per file molto grandi, considera lo streaming del documento o l'uso di `Document.optimizeResources()`.
 
 ## Conclusione
-Ora hai imparato come implementare efficacemente i livelli di struttura dei segnalibri utilizzando Aspose.Words per Java. Questa competenza migliorerà notevolmente la navigabilità dei tuoi PDF, rendendoli più intuitivi e professionali.
+Ora disponi di un metodo completo e pronto per la produzione per **creare segnalibri PDF nidificati**, **generare PDF con segnalibri** e **salvare i segnalibri PDF di Word** utilizzando Aspose.Words per Java. Integra questo modello nei tuoi flussi di reporting o generazione di documenti per fornire PDF curati e navigabili.
 
-**Prossimi passi**: sperimenta diverse strutture di documenti o integra questa funzionalità in un'applicazione più ampia per vederne i vantaggi in azione.
+## Domande frequenti
 
-## Sezione FAQ
-1. **Come faccio a installare Aspose.Words per Java?**
-   - Includilo come dipendenza tramite Maven o Gradle, quindi configura il tuo file di licenza.
-2. **Posso usare i segnalibri senza livelli di struttura?**
-   - Sì, ma l'utilizzo dei livelli di struttura migliora la navigazione nei PDF.
-3. **Quali sono i limiti all'annidamento dei segnalibri?**
-   - Non esiste un limite preciso, ma è importante considerare la leggibilità e la struttura per gli utenti.
-4. **Come gestisce Aspose i documenti di grandi dimensioni?**
-   - Gestisce le risorse in modo efficiente, anche se per i file di grandi dimensioni si consiglia l'ottimizzazione.
-5. **Posso modificare i segnalibri dopo aver salvato il PDF?**
-   - Sì, utilizzo Aspose.PDF per Java per modificare i segnalibri dopo la conversione.
+**Q: Come installo Aspose.Words per Java?**  
+A: Aggiungi la dipendenza Maven o Gradle mostrata sopra, quindi carica il file di licenza a runtime.
+
+**Q: Posso usare i segnalibri senza impostare i livelli di outline?**  
+A: Sì, ma la navigazione PDF sarà piatta, rendendo più difficile per i lettori comprendere la gerarchia del documento.
+
+**Q: Esiste un limite a quanto in profondità i segnalibri possono essere nidificati?**  
+A: Tecnica­mente no, ma mantieni la gerarchia ragionevole (3‑5 livelli) per preservare la leggibilità nella maggior parte dei visualizzatori PDF.
+
+**Q: Come gestisce Aspose.Words documenti molto grandi?**  
+A: Trasmette i contenuti e offre `optimizeResources()` per ridurre il consumo di memoria, anche se dovresti comunque testare con le dimensioni specifiche dei tuoi file.
+
+**Q: Posso modificare i segnalibri dopo la creazione del PDF?**  
+A: Assolutamente—usa Aspose.PDF per Java per modificare i titoli dei segnalibri, le destinazioni o i livelli di outline dopo la generazione.
 
 ## Risorse
 - [Documentazione di Aspose.Words](https://reference.aspose.com/words/java/)
 - [Scarica le ultime versioni](https://releases.aspose.com/words/java/)
 - [Acquista una licenza](https://purchase.aspose.com/buy)
 - [Prova gratuita](https://releases.aspose.com/words/java/)
-- [Domanda di licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- [Applicazione per licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**Ultimo aggiornamento:** 2026-04-07  
+**Testato con:** Aspose.Words 25.3 per Java  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

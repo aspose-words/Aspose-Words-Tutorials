@@ -1,9 +1,14 @@
 ---
-"date": "2025-03-28"
-"description": "Apprenez à organiser efficacement les signets dans vos PDF avec Aspose.Words pour Java. Améliorez la lisibilité et la navigation grâce à ce guide complet."
-"title": "Maîtriser les niveaux de contour des signets dans les PDF avec Aspose.Words Java"
-"url": "/fr/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-04-07'
+description: Apprenez à créer des signets PDF imbriqués, à générer des PDF avec des
+  signets et à enregistrer les signets PDF de Word à l'aide d'Aspose.Words pour Java.
+keywords:
+- create nested pdf bookmarks
+- generate pdf with bookmarks
+- save word pdf bookmarks
+title: Créer des signets PDF imbriqués en Java avec Aspose.Words
+url: /fr/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +17,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Maîtriser les niveaux de contour des signets dans les PDF avec Aspose.Words Java
+# Créer des signets PDF imbriqués en Java avec Aspose.Words
 
 ## Introduction
-Vous avez du mal à gérer vos signets lors de la conversion de documents Word en PDF ? Ce tutoriel vous montrera comment utiliser Aspose.Words pour Java pour organiser efficacement vos signets, les rendant ainsi professionnels et faciles à parcourir.
+Dans ce tutoriel, vous apprendrez comment **créer des signets PDF imbriqués** à l'aide d'Aspose.Words pour Java, vous permettant de générer des PDF avec des signets et d'enregistrer les signets PDF Word avec une hiérarchie d'outline propre. Nous parcourrons la configuration de la bibliothèque, la création de signets imbriqués, l'attribution des niveaux d'outline et l'exportation du PDF final.
 
-**Ce que vous apprendrez :**
-- Configurer et utiliser Aspose.Words pour Java
-- Créer des signets imbriqués dans des documents Word
-- Configurer les niveaux de contour des signets pour une meilleure organisation
-- Enregistrer des documents au format PDF avec des signets structurés
-
-Passons en revue les prérequis avant de commencer !
+**Ce que vous allez apprendre**
+- Installer et licencier Aspose.Words pour Java
+- Construire des signets imbriqués dans un document Word
+- Configurer les niveaux d'outline des signets pour une navigation structurée
+- Enregistrer le document en PDF qui préserve la hiérarchie des signets
 
 ### Prérequis
 Avant de commencer, assurez-vous d'avoir :
-- **Bibliothèques et dépendances**:Aspose.Words pour Java (version 25.3 ou ultérieure).
-- **Configuration de l'environnement**:Un JDK installé sur votre machine avec un IDE compatible comme IntelliJ IDEA ou Eclipse.
-- **Prérequis en matière de connaissances**:Compréhension de base de la programmation Java et familiarité avec les systèmes de construction Maven ou Gradle.
+- **Bibliothèques & dépendances** : Aspose.Words pour Java (25.3 ou plus récent)  
+- **Environnement** : JDK 8+ et un IDE tel qu'IntelliJ IDEA ou Eclipse  
+- **Compétences de base** : Familiarité avec Java, Maven ou Gradle, et le concept de signets PDF  
 
-## Configuration d'Aspose.Words
-Pour commencer, incluez les dépendances nécessaires à votre projet. Voici comment procéder avec Maven et Gradle :
+## Réponses rapides
+- **Que signifie « créer des signets PDF imbriqués » ?**  
+  Cela signifie construire une hiérarchie de signets où les signets enfants sont placés à l'intérieur des signets parents, comme les chapitres et sous‑chapitres d'un livre.  
+- **Quel produit Aspose gère la conversion PDF ?**  
+  Aspose.Words pour Java convertit Word en PDF tout en préservant les niveaux d'outline des signets.  
+- **Ai-je besoin d'une licence pour le développement ?**  
+  Vous pouvez commencer avec un essai gratuit ; une licence temporaire est disponible pour les tests à court terme.  
+- **Puis-je définir des niveaux d'outline personnalisés ?**  
+  Oui – la `BookmarksOutlineLevelCollection` vous permet d'assigner n'importe quel niveau entier à chaque signet.  
+- **Cette approche est‑elle compatible avec de gros documents ?**  
+  Absolument. Aspose.Words diffuse les données efficacement, mais vous devez supprimer le contenu inutilisé pour garder la taille du fichier optimale.
 
-**Expert :**
+## Qu’est‑ce que « créer des signets PDF imbriqués » ?
+Les signets PDF imbriqués sont une structure en forme d'arbre qui apparaît dans les panneaux de navigation des visionneuses PDF. Ils permettent aux lecteurs de sauter directement vers des sections, sous‑sections ou paragraphes spécifiques, améliorant la convivialité du document—en particulier pour les **contrats juridiques**, les **rapports techniques** ou les **e‑books**.
+
+## Pourquoi utiliser Aspose.Words pour les niveaux d'outline des signets ?
+Aspose.Words fournit une API fluide pour définir les signets pendant la construction du document, puis mappe automatiquement ces signets aux entrées d'outline du PDF. Cela élimine le post‑traitement manuel et garantit que la navigation du PDF reflète la hiérarchie originale du document Word.
+
+## Configurer Aspose.Words
+Ajoutez la bibliothèque à votre projet en utilisant Maven ou Gradle.
+
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +64,133 @@ Pour commencer, incluez les dépendances nécessaires à votre projet. Voici com
 </dependency>
 ```
 
-**Gradle :**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### Acquisition de licence
-Aspose.Words est un produit commercial, mais vous pouvez commencer par un essai gratuit pour découvrir ses fonctionnalités. Voici la procédure :
-1. **Essai gratuit**: Télécharger depuis [Page de sortie d'Aspose](https://releases.aspose.com/words/java/) pour tester toutes les capacités.
-2. **Licence temporaire**:Demandez un permis temporaire à [Page de licence temporaire d'Aspose](https://purchase.aspose.com/temporary-license/) si nécessaire.
-3. **Achat**: Pour une utilisation continue, achetez une licence auprès de [Portail d'achat d'Aspose](https://purchase.aspose.com/buy).
+Aspose.Words est une bibliothèque commerciale, mais vous pouvez l'évaluer gratuitement.
 
-Une fois que vous avez votre fichier de licence, initialisez-le dans votre projet pour débloquer toutes les fonctionnalités d'Aspose.Words.
+1. **Essai gratuit** – Téléchargez depuis la [page de diffusion d'Aspose](https://releases.aspose.com/words/java/) pour explorer toutes les fonctionnalités.  
+2. **Licence temporaire** – Postulez sur la [page de licence temporaire d'Aspose](https://purchase.aspose.com/temporary-license/) pour des projets à court terme.  
+3. **Achat** – Obtenez une licence complète via le [portail d'achat d'Aspose](https://purchase.aspose.com/buy).
 
-## Guide de mise en œuvre
-Décomposons la mise en œuvre en sections gérables :
+Après avoir reçu le fichier `.lic`, chargez‑le au démarrage de l'application pour débloquer toutes les fonctionnalités.
+
+## Guide d'implémentation
+Nous diviserons l'implémentation en deux parties logiques : création de signets imbriqués et configuration de leurs niveaux d'outline.
 
 ### Création de signets imbriqués
-**Aperçu**: Apprenez à créer des signets imbriqués dans un document Word à l'aide d'Aspose.Words pour Java.
+**Vue d'ensemble** – Cette section montre comment intégrer des signets hiérarchiques directement dans un document Word.
 
-#### Étape 1 : Initialiser le document et le générateur
+#### Étape 1 : Initialiser le Document et le Builder
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-Cela configure votre environnement de document Word dans lequel vous pouvez commencer à insérer du contenu.
+Le `DocumentBuilder` vous offre un moyen pratique d'insérer du texte, des tableaux et des signets.
 
-#### Étape 2 : Insérer des signets imbriqués
-Commencez par créer un signet principal :
+#### Étape 2 : Insérer des signets primaires et imbriqués
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-Maintenant, insérez un autre signet à l'intérieur :
+Ajoutez maintenant un signet enfant à l'intérieur du premier :
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Terminer le signet imbriqué
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-Complétez le marque-page extérieur :
+Fermez le signet externe :
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### Étape 3 : ajouter des signets supplémentaires
-Ajoutez des signets selon vos besoins. Par exemple, un troisième signet distinct :
+#### Étape 3 : Ajouter un signet de niveau supérieur distinct
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
+Vous pouvez répéter ces étapes pour construire une hiérarchie aussi profonde que nécessaire.
 
-### Configuration des niveaux de contour des signets
-**Aperçu**:Organisez vos signets en définissant leurs niveaux de contour pour une meilleure navigation dans le PDF.
+### Configuration des niveaux d'outline des signets
+**Vue d'ensemble** – Une fois les signets créés, définissez leurs niveaux d'outline afin que les visionneuses PDF les affichent correctement.
 
-#### Étape 1 : Configurer PdfSaveOptions
+#### Étape 1 : Configurer PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-Cet extrait de code initialise les options que vous utiliserez pour enregistrer votre document au format PDF avec des signets organisés.
+`PdfSaveOptions` contrôle la façon dont le document Word est rendu en PDF.
 
-#### Étape 2 : Ajouter des niveaux de contour
-Attribuez des niveaux à chaque signet, qui détermineront leur hiérarchie :
+#### Étape 2 : Attribuer les niveaux à chaque signet
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Imbriqué sous le signet 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
+Le niveau 1 apparaît comme une entrée de niveau supérieur, le niveau 2 comme un enfant, etc.
 
-#### Étape 3 : Enregistrer le document
-Enfin, enregistrez votre document au format PDF avec ces paramètres :
+#### Étape 3 : Enregistrer le document en PDF
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
+Le PDF résultant affichera un volet de signets à trois niveaux qui reflète la structure que vous avez définie.
 
 ### Conseils de dépannage
-- **Signets manquants**:Assurez-vous que chaque `startBookmark` a un correspondant `endBookmark`.
-- **Niveaux incorrects**: Vérifiez la hiérarchie en vérifiant les relations parent-enfant dans votre code.
+- **Signets manquants** – Vérifiez que chaque `startBookmark` possède un `endBookmark` correspondant.  
+- **Hiérarchie incorrecte** – Revérifiez les numéros de niveau d'outline ; un enfant doit avoir un niveau supérieur à celui de son parent.  
+- **Erreurs de licence** – Assurez‑vous que le fichier de licence est chargé avant d'appeler les API Aspose ; sinon, vous verrez des filigranes d'évaluation.
 
 ## Applications pratiques
-Voici quelques scénarios dans lesquels vous pouvez appliquer ces connaissances :
-1. **Documents juridiques**:Organisez les sections et les sous-sections pour une référence facile.
-2. **Rapports**:Utilisez des signets imbriqués pour parcourir des structures de données complexes.
-3. **Matériel pédagogique**: Structurez efficacement les chapitres, les sous-chapitres et les points clés.
+1. **Contrats juridiques** – Accédez rapidement aux clauses, sous‑clauses et annexes.  
+2. **Rapports techniques** – Naviguez dans de grandes spécifications avec des signets au niveau des chapitres.  
+3. **Matériel d'e‑learning** – Offrez aux apprenants un accès instantané aux leçons et aux questionnaires.
 
-## Considérations relatives aux performances
-- Optimisez la taille du document en supprimant le contenu inutile avant de l'enregistrer.
-- Gérez efficacement l’utilisation de la mémoire lors du traitement de documents volumineux.
+## Considérations de performance
+- **Taille du document** – Supprimez les styles inutilisés ou les sections cachées avant l'enregistrement pour garder le PDF léger.  
+- **Gestion de la mémoire** – Pour des fichiers très volumineux, envisagez de diffuser le document ou d'utiliser `Document.optimizeResources()`.
 
 ## Conclusion
-Vous savez maintenant comment implémenter efficacement les niveaux hiérarchiques des signets avec Aspose.Words pour Java. Cette compétence améliorera considérablement la navigabilité de vos PDF, les rendant plus conviviaux et professionnels.
+Vous disposez maintenant d'une méthode complète, prête pour la production, pour **créer des signets PDF imbriqués**, **générer des PDF avec des signets**, et **enregistrer les signets PDF Word** à l'aide d'Aspose.Words pour Java. Intégrez ce modèle dans vos pipelines de reporting ou de génération de documents pour fournir des PDF soignés et navigables.
 
-**Prochaines étapes**:Expérimentez différentes structures de documents ou intégrez cette fonctionnalité dans une application plus grande pour voir ses avantages en action.
+## Questions fréquemment posées
 
-## Section FAQ
-1. **Comment installer Aspose.Words pour Java ?**
-   - Incluez-le en tant que dépendance via Maven ou Gradle, puis configurez votre fichier de licence.
-2. **Puis-je utiliser des signets sans niveaux de contour ?**
-   - Oui, mais l’utilisation de niveaux hiérarchiques améliore la navigation dans les PDF.
-3. **Quelles sont les limites de l’imbrication des signets ?**
-   - Il n'y a pas de limite stricte, mais pensez à la lisibilité et à la structure pour les utilisateurs.
-4. **Comment Aspose gère-t-il les documents volumineux ?**
-   - Il gère efficacement les ressources, bien que l'optimisation soit recommandée pour les fichiers très volumineux.
-5. **Puis-je modifier les signets après avoir enregistré le PDF ?**
-   - Oui, j'utilise Aspose.PDF pour Java pour modifier les signets après la conversion.
+**Q : Comment installer Aspose.Words pour Java ?**  
+A : Ajoutez la dépendance Maven ou Gradle indiquée ci‑dessus, puis chargez votre fichier de licence à l'exécution.
+
+**Q : Puis‑je utiliser les signets sans définir les niveaux d'outline ?**  
+A : Oui, mais la navigation du PDF sera plate, ce qui rendra plus difficile la compréhension de la hiérarchie du document par les lecteurs.
+
+**Q : Y a‑t‑il une limite à la profondeur d'imbrication des signets ?**  
+A : Techniquement non, mais maintenez une hiérarchie raisonnable (3‑5 niveaux) pour préserver la lisibilité dans la plupart des visionneuses PDF.
+
+**Q : Comment Aspose.Words gère‑t‑il les très gros documents ?**  
+A : Il diffuse le contenu et propose `optimizeResources()` pour réduire la consommation de mémoire, bien que vous deviez tout de même tester avec vos tailles de fichiers spécifiques.
+
+**Q : Puis‑je modifier les signets après la création du PDF ?**  
+A : Absolument — utilisez Aspose.PDF pour Java afin de modifier les titres des signets, leurs destinations ou les niveaux d'outline après génération.
 
 ## Ressources
-- [Documentation Aspose.Words](https://reference.aspose.com/words/java/)
-- [Télécharger les dernières versions](https://releases.aspose.com/words/java/)
-- [Acheter une licence](https://purchase.aspose.com/buy)
-- [Essai gratuit](https://releases.aspose.com/words/java/)
-- [Demande de permis temporaire](https://purchase.aspose.com/temporary-license/)
-- [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+- [Aspose.Words Documentation](https://reference.aspose.com/words/java/)
+- [Download Latest Releases](https://releases.aspose.com/words/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/words/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Dernière mise à jour :** 2026-04-07  
+**Testé avec :** Aspose.Words 25.3 pour Java  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
