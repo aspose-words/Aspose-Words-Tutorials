@@ -34,9 +34,9 @@ Neste tutorial, percorreremos os passos exatos para **convert word to pdf** com 
 
 Cobriremos tudo, desde o pacote NuGet necessário até a verificação das tags de acessibilidade. Sem referências externas, apenas uma solução autônoma, pronta para copiar e colar, que você pode executar hoje.  
 
-## Prerequisites
+## Pré-requisitos
 
-Before we dive in, make sure you have:
+Antes de começarmos, certifique-se de ter:
 
 - .NET 6.0 SDK ou posterior (o código também funciona com .NET Core)
 - Visual Studio 2022 (ou qualquer IDE de sua preferência)
@@ -48,9 +48,9 @@ dotnet add package Aspose.Words
 
 É isso. Sem DLLs extras, sem arquivos de configuração ocultos.
 
-## Step 1: Load the Word Document
+## Passo 1: Carregar o documento do Word
 
-The first thing you need to do is read the source DOCX file. Think of `Document` as the bridge between your Word content and the PDF engine.
+A primeira coisa a fazer é ler o arquivo DOCX de origem. Considere o "Documento" como a ponte entre o conteúdo do seu Word e o mecanismo de PDF.
 
 ```csharp
 using Aspose.Words;
@@ -62,9 +62,9 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx");
 
 *Por que isso importa*: Carregar o arquivo em um objeto `Aspose.Words.Document` lhe dá acesso total à estrutura do documento — parágrafos, tabelas, cabeçalhos e até metadados ocultos. Se você pular esta etapa e tentar transmitir bytes brutos, perderá a capacidade de ajustar as opções de acessibilidade posteriormente.
 
-## Step 2: Configure PDF Save Options for Accessibility
+## Passo 2: Configurar as opções de salvamento de PDF para acessibilidade
 
-Now we tell the library to enforce PDF/UA‑1 compliance. This standard treats certain elements (like `<hr>`) as *artifacts*, which improves how assistive technologies interpret the layout.
+Agora, instruímos a biblioteca a aplicar a conformidade com o padrão PDF/UA-1. Esse padrão trata certos elementos (como `<hr>`) como *artefatos*, o que melhora a forma como as tecnologias assistivas interpretam o layout.
 
 ```csharp
 // Create PDF save options and enable PDF/UA‑1 compliance
@@ -77,9 +77,9 @@ PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 
 *Por que é essencial*: Sem definir `PdfCompliance.PdfUa1`, o PDF gerado pode parecer bom na tela, mas falhará em uma auditoria de acessibilidade. O sinalizador de conformidade adiciona automaticamente as tags necessárias, a ordem lógica de leitura e os metadados da estrutura do documento.
 
-## Step 3: Save the Document as an Accessible PDF
+## Etapa 3: Salvar o documento como um PDF acessível
 
-Finally, write the PDF to disk using the options we just defined.
+Por fim, grave o PDF no disco usando as opções que acabamos de definir.
 
 ```csharp
 // Save the document as an accessible PDF using the configured options
@@ -90,21 +90,21 @@ doc.Save("YOUR_DIRECTORY/Accessible.pdf", pdfSaveOptions);
 
 *Texto alternativo da imagem*: exemplo de pdf acessível
 
-## Step 4: Verify the PDF/UA‑1 Compliance (Optional but Recommended)
+## Etapa 4: Verificar a conformidade com PDF/UA-1 (Opcional, mas recomendado)
 
-While the library does the tagging for you, it’s good practice to double‑check. You can use free tools like **PDF Accessibility Checker (PAC)** or **Adobe Acrobat Pro**:
+Embora a biblioteca faça a marcação para você, é uma boa prática verificar novamente. Você pode usar ferramentas gratuitas como o **PDF Accessibility Checker (PAC)** ou o **Adobe Acrobat Pro**:
 
-1. Abra `Accessible.pdf` no verificador.
+1. Abra `Accessible.pdf` no selecionador.
 2. Execute uma validação *PDF/UA‑1*.
-3. Procure por quaisquer avisos — a maioria será resolvida automaticamente, mas estilos personalizados ocasionais podem precisar de marcação manual.
+3. Procure por quaisquer avisos - a maioria será resolvida automaticamente, mas estilos personalizados ocasionais podem precisar de marcação manual.
 
-If you spot a problem, you can adjust the `PdfSaveOptions` further, for example by setting `EmbedFullFonts = true` to ensure all text renders correctly on any device.
+Se você detectar um problema, poderá ajustar ainda mais `PdfSaveOptions`, por exemplo, definindo `EmbedFullFonts = true` para garantir que todo o texto seja renderizado corretamente em qualquer dispositivo.
 
-## Advanced Tips & Common Pitfalls
+## Dicas Avançadas e Armadilhas Comuns
 
-### 1. Converting Word to PDF in a Web API
+### 1. Convertendo Word para PDF em uma API Web
 
-If you’re exposing this functionality via an ASP.NET Core endpoint, remember to stream the PDF back instead of writing to disk:
+Se você estiver expondo essa funcionalidade por meio de um endpoint ASP.NET Core, lembre-se de transmitir o PDF de volta em vez de gravá-lo em disco:
 
 ```csharp
 [HttpPost("api/convert")]
@@ -119,13 +119,13 @@ public IActionResult ConvertToPdf(IFormFile file)
 }
 ```
 
-### 2. When to Use `save docx as pdf` vs. `export docx to pdf`
+### 2. Quando usar `salvar docx como pdf` vs. `exportar docx para pdf`
 
-Both phrases refer to the same operation, but **export docx to pdf** is often used when you’re moving the file out of a document management system, while **save docx as pdf** fits better for desktop utilities. The code above works for both scenarios.
+Ambas as frases se referem à mesma operação, mas **exportar docx para pdf** é frequentemente usado quando você está movendo o arquivo para fora de um sistema de gerenciamento de documentos, enquanto **salvar docx como pdf** é mais adequado para utilitários de desktop. O código acima funciona para ambos os cenários.
 
-### 3. Handling Large Documents
+### 3. Lidando com documentos grandes
 
-For massive DOCX files, consider enabling **progress monitoring**:
+Para arquivos DOCX muito grandes, considere habilitar o **monitoramento de progresso**:
 
 ```csharp
 pdfSaveOptions.ProgressCallback = (sent, total) =>
@@ -134,15 +134,15 @@ pdfSaveOptions.ProgressCallback = (sent, total) =>
 };
 ```
 
-This prevents your API from timing out and gives users visual feedback.
+Isso evita que sua API expire e fornece feedback visual aos usuários.
 
-### 4. Preserving Custom Styles
+### 4. Preservando estilos personalizados
 
-If your Word file uses custom heading styles, they’ll be carried over automatically. However, if you need to map a non‑standard style to a proper PDF heading tag, use the `PdfSaveOptions.CustomHeadingStyle` collection.
+Se o seu arquivo do Word usa estilos de título personalizados, eles serão mantidos automaticamente. No entanto, se você precisar mapear um estilo não padrão para uma tag de cabeçalho PDF adequada, use a coleção `PdfSaveOptions.CustomHeadingStyle`.
 
-## Full Working Example
+## Exemplo completo e funcional
 
-Below is a complete, ready‑to‑run console program that ties everything together. Copy‑paste it into a new .NET console project and hit **F5**.
+Abaixo está um programa de console completo e pronto para executar que integra tudo. Copie e cole-o em um novo projeto de console .NET e pressione **F5**.
 
 ```csharp
 using System;
@@ -183,19 +183,19 @@ namespace AccessiblePdfDemo
 
 **Resultado esperado**: O programa cria `Accessible.pdf` na pasta especificada. Abrir o arquivo em um leitor de PDF que suporte acessibilidade (por exemplo, Adobe Acrobat Reader) mostrará a ordem de leitura correta, cabeçalhos marcados e tabelas acessíveis — exatamente o que o PDF/UA‑1 exige.
 
-## Conclusion
+## Conclusão
 
-We’ve just shown you how to **create accessible PDF** from a Word document using C#. By loading the DOCX, configuring `PdfSaveOptions` for PDF/UA‑1 compliance, and saving the file, you can reliably **convert word to pdf** and **save docx as pdf** without sacrificing accessibility.  
+Acabamos de mostrar como **criar PDF acessível** a partir de um documento do Word usando C#. Ao carregar o DOCX, configurar `PdfSaveOptions` para conformidade com PDF/UA‑1 e salvar o arquivo, você pode **converter word em pdf** com segurança e **salvar docx como pdf** sem sacrificar a acessibilidade.
 
-If you’re ready to go further, try experimenting with:
+Se você estiver pronto para ir mais longe, tente experimentar:
 
-- **Export docx to pdf** em um cenário de serviço web.
+- **Exportar docx para pdf** em um cenário de serviço web.
 - Adicionar tags personalizadas para tabelas complexas.
-- Automatizar conversões em lote para uma pasta inteira de documentos.
+- Automatizar ofertas em lote para uma massa inteira de documentos.
 
-Lembre‑se, um PDF acessível não é apenas um recurso opcional — é um requisito para software inclusivo. Experimente, ajuste as opções para se adequar ao seu projeto e permita que seus usuários desfrutem de conteúdo que funciona para todos.
+Lembre‑se, um PDF acessível não é apenas um recurso opcional — é um requisito para software inclusivo. Experimente, ajuste as opções para se adequar ao seu projeto e permitir que seus usuários desfrutem de conteúdo que funciona para todos.
 
-Feliz codificação, e que seus PDFs estejam sempre legíveis!
+Feliz acordo, e que seus PDFs estejam sempre legíveis!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

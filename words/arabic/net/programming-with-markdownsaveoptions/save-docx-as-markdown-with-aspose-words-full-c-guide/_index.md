@@ -33,7 +33,7 @@ url: /ar/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-asp
 
 في هذا الدرس سنستعرض كل ما تحتاجه لتحويل ملف `.docx` إلى مستند Markdown، مع الحفاظ على معادلاتك سليمة، وفهم الفروقات الصغيرة التي غالبًا ما تُربك الناس. في النهاية ستتمكن من **convert word to markdown** بثقة، سواء كنت تتعامل مع ملف واحد أو تقوم بأتمتة عملية دفعة.
 
-## Prerequisites
+## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من وجود ما يلي:
 
@@ -50,7 +50,7 @@ dotnet add package Aspose.Words
 
 الآن، دعنا نتعمق.
 
-## Step 1: Load the Source Document – the Starting Point for any Conversion
+## الخطوة 1: تحميل المستند المصدر – نقطة البداية لأي عملية تحويل
 
 أول شيء تقوم به عندما تريد **save docx as markdown** هو تحميل الملف الأصلي إلى كائن Aspose `Document`. هذه الخطوة تمنح المكتبة وصولًا كاملًا إلى بنية المستند، الأنماط، وبشكل حاسم، أي كائنات رياضية مدمجة.
 
@@ -69,7 +69,7 @@ Console.WriteLine($"Document loaded: {doc.PageCount} pages.");
 > 
 > **Pro tip:** إذا كنت تتعامل مع العديد من الملفات، غلف عملية التحميل داخل كتلة `try/catch` للتعامل مع المستندات التالفة بأناقة.
 
-## Step 2: Configure Markdown Save Options – tell Aspose How to Treat Math
+## الخطوة 2: ضبط خيارات حفظ Markdown - تحديد كيفية تعامل Aspose مع المعادلات الرياضية
 
 بعد ذلك، نحتاج إلى إخبار Aspose أننا نريد **convert word to markdown**، وبشكل خاص أن أي Office Math يجب أن يُصدّر كـ LaTeX. يتم التحكم في ذلك عبر `MarkdownSaveOptions.OfficeMathExportMode`.
 
@@ -88,7 +88,7 @@ var mdOptions = new MarkdownSaveOptions
 
 > **Why this matters:** بشكل افتراضي، سيقوم Aspose بعرض الرياضيات كصور، مما يفسد فكرة سير عمل Markdown النظيف. التحويل إلى `LaTeX` يبقي معادلاتك قابلة للتحرير وتظهر بشكل جميل على المنصات التي تدعم MathJax أو KaTeX.
 
-## Step 3: Save the Document as Markdown – the Final Transformation
+## الخطوة 3: حفظ المستند بصيغة Markdown - التحويل النهائي
 
 الآن نحن جاهزون فعليًا لـ **save docx as markdown**. طريقة `Document.Save` تأخذ مسار الهدف والخيارات التي قمنا بتكوينها للتو.
 
@@ -102,7 +102,7 @@ Console.WriteLine($"Conversion complete! Markdown saved to: {outputPath}");
 
 هذا كل شيء. تشغيل البرنامج سيولد ملف `.md` حيث كل فقرة، عنوان، قائمة، ومعادلة تظهر بالضبط حيث تتوقعها.
 
-### Expected Output
+### الناتج المتوقع
 
 بافتراض أن `input.docx` يحتوي على معادلة بسيطة مثل *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}*، فإن مقتطف Markdown الناتج سيبدو هكذا:
 
@@ -116,7 +116,7 @@ $$
 
 جميع المحتويات الأخرى (نص، عناوين، صور) ستمثل باستخدام صsyntax Markdown القياسي.
 
-## Step 4: Verify the Result – Quick Checks to Ensure a Successful Conversion
+## الخطوة 4: التحقق من النتيجة - فحوصات سريعة لضمان نجاح التحويل
 
 بعد التحويل، من الحكمة فتح `output.md` في عارض Markdown يدعم LaTeX (مثل VS Code مع إضافة *Markdown+Math*، GitHub، أو مولد موقع ثابت). ابحث عن:
 
@@ -126,7 +126,7 @@ $$
 
 إذا كان هناك أي شيء غير صحيح، أعد فحص إعدادات `MarkdownSaveOptions`. على سبيل المثال، ضبط `ExportHeadersAsHtml = true` سيضمّن وسوم HTML `<h1>` بدلاً من رموز Markdown `#` – وهذا ليس مثاليًا لسلاسل أنابيب Markdown النقية.
 
-## Common Pitfalls & How to Avoid Them
+## الأخطاء الشائعة وكيفية تجنبها
 
 | المشكلة | لماذا يحدث | الحل |
 |-------|----------------|-----|
@@ -135,7 +135,7 @@ $$
 | غياب العناوين | المستند يستخدم أنماط مخصصة غير مرتبطة بالعناوين | استخدم `MarkdownSaveOptions.HeadingStyleIdentifier` لتعيين الأنماط المخصصة |
 | ملف ناتج كبير | الصور المشفرة بـ Base64 يمكن أن تملأ markdown | فكّر في `ExportImagesAsBase64 = false` واحتفظ بالصور في مجلد منفصل |
 
-## Step 5: Automating Batch Conversions – Scaling Up
+## الخطوة 5: أتمتة التحويلات المجمعة - التوسع
 
 إذا كنت بحاجة إلى **convert word to markdown** لعشرات أو مئات الملفات، غلف المنطق داخل حلقة:
 
@@ -153,7 +153,7 @@ foreach (var file in docxFiles)
 
 هذه القطعة تعيد استخدام كائن `mdOptions` نفسه، مما يضمن تصدير رياضيات متسق عبر الدفعة بأكملها.
 
-## Step 6: Going Beyond – What If I Need Other Formats?
+## الخطوة 6: تجاوز الحدود - ماذا لو احتجت إلى تنسيقات أخرى؟
 
 Aspose.Words ليس مقيدًا بـ Markdown. يمكن حفظ نفس كائن `Document` كـ HTML، PDF، أو حتى نص عادي. إذا احتجت يومًا إلى **how to export math** إلى PDF، فقط استبدل خيارات الحفظ:
 
@@ -168,7 +168,7 @@ document.Save("output.pdf", pdfOptions);
 
 هذه المرونة تسمح لك ببناء خط أنابيب تحويل واحد ينتج عدة مخرجات من المصدر نفسه.
 
-## Full Working Example – All Steps in One File
+## مثال عملي كامل - جميع الخطوات في ملف واحد
 
 فيما يلي البرنامج الكامل القابل للتنفيذ الذي يدمج كل ما ناقشنا. انسخه‑الصقه في مشروع تطبيق Console جديد واضغط **Run**.
 
@@ -213,7 +213,7 @@ namespace DocxToMarkdownDemo
 
 شغّله، افتح `output.md`، وسترى مستندك مُحوَّل بالكامل، معادلات معروضة كـ LaTeX، وصور مضمَّنة.
 
-## Conclusion
+## خاتمة
 
 لقد غطينا **how to save docx as markdown** باستخدام Aspose.Words، استكشفنا سير عمل **convert word to markdown**، وتعمقنا في **how to export math** بحيث تبقى المعادلات واضحة وقابلة للتحرير. الآن تعرف الخط الكامل – من تحميل `.docx`، تكوين `MarkdownSaveOptions`، إلى حفظ ملف `.md` النهائي – ورأيت نصائح عملية للمعالجة الدفعية وحل المشكلات.
 

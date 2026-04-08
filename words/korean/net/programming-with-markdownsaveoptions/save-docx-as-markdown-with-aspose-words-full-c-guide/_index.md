@@ -33,7 +33,7 @@ url: /ko/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-asp
 
 이 튜토리얼에서는 `.docx` 파일을 Markdown 문서로 변환하고, 수식을 그대로 유지하며, 종종 사람들을 곤란하게 만드는 작은 미묘함들을 이해하는 데 필요한 모든 과정을 단계별로 살펴보겠습니다. 끝까지 읽으면 단일 파일이든 배치 작업을 자동화하든 **word를 markdown으로 변환**하는 방법을 자신 있게 사용할 수 있게 됩니다.
 
-## Prerequisites
+## 필수 조건
 
 시작하기 전에 아래 항목들을 준비하세요:
 
@@ -50,7 +50,7 @@ dotnet add package Aspose.Words
 
 자, 본격적으로 시작해봅시다.
 
-## Step 1: Load the Source Document – the Starting Point for any Conversion
+## 1단계: 원본 문서 불러오기 – 모든 변환의 시작점
 
 **docx를 markdown으로 저장**하려면 가장 먼저 원본 파일을 Aspose `Document` 객체에 로드합니다. 이 단계는 라이브러리에게 문서 구조, 스타일, 그리고 무엇보다도 포함된 수식 객체에 대한 전체 접근 권한을 부여합니다.
 
@@ -69,7 +69,7 @@ Console.WriteLine($"Document loaded: {doc.PageCount} pages.");
 > 
 > **Pro tip:** 많은 파일을 다룰 경우 `try/catch` 블록으로 로드를 감싸서 손상된 문서를 우아하게 처리하세요.
 
-## Step 2: Configure Markdown Save Options – tell Aspose How to Treat Math
+## 2단계: 마크다운 저장 옵션 구성 – Aspose에서 수학 연산을 처리하는 방법 설정
 
 다음으로 Aspose에 **word를 markdown으로 변환**하고, 모든 Office Math를 LaTeX로 내보내도록 지시해야 합니다. 이는 `MarkdownSaveOptions.OfficeMathExportMode`를 통해 제어됩니다.
 
@@ -88,7 +88,7 @@ var mdOptions = new MarkdownSaveOptions
 
 > **Why this matters:** 기본 설정에서는 Aspose가 수식을 이미지로 렌더링하는데, 이는 깔끔한 markdown 워크플로우의 목적에 어긋납니다. `LaTeX`로 전환하면 수식을 편집 가능하게 유지하고 MathJax 또는 KaTeX를 지원하는 플랫폼에서 아름답게 렌더링됩니다.
 
-## Step 3: Save the Document as Markdown – the Final Transformation
+## 3단계: 문서를 마크다운 형식으로 저장 – 최종 변환
 
 이제 실제로 **docx를 markdown으로 저장**할 준비가 되었습니다. `Document.Save` 메서드는 대상 경로와 방금 구성한 옵션을 인수로 받습니다.
 
@@ -102,7 +102,7 @@ Console.WriteLine($"Conversion complete! Markdown saved to: {outputPath}");
 
 이게 전부입니다. 프로그램을 실행하면 모든 단락, 제목, 목록, 수식이 정확히 기대한 위치에 배치된 `.md` 파일이 생성됩니다.
 
-### Expected Output
+### 예상 출력
 
 `input.docx`에 *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}* 와 같은 간단한 수식이 포함되어 있다고 가정하면, 결과 Markdown 조각은 다음과 같이 나타납니다:
 
@@ -116,7 +116,7 @@ $$
 
 다른 모든 콘텐츠(텍스트, 제목, 이미지)는 표준 Markdown 구문으로 표현됩니다.
 
-## Step 4: Verify the Result – Quick Checks to Ensure a Successful Conversion
+## 4단계: 결과 검증 – 변환 성공 여부를 확인하는 간단한 검사
 
 변환 후에는 LaTeX를 지원하는 Markdown 미리보기(예: *Markdown+Math* 확장 기능이 설치된 VS Code, GitHub, 정적 사이트 생성기 등)에서 `output.md`를 열어 확인하는 것이 좋습니다. 확인 항목:
 
@@ -126,16 +126,16 @@ $$
 
 뭔가 이상하면 `MarkdownSaveOptions` 설정을 다시 확인하세요. 예를 들어 `ExportHeadersAsHtml = true` 로 설정하면 Markdown `#` 기호 대신 HTML `<h1>` 태그가 삽입되어 순수 Markdown 파이프라인에 적합하지 않습니다.
 
-## Common Pitfalls & How to Avoid Them
+## 일반적인 문제점 및 해결 방법
 
-| Issue | Why it Happens | Fix |
+| 문제 | 발생 원인 | 해결 방법 |
 |-------|----------------|-----|
 | 수식이 이미지로 표시됨 | 기본 `OfficeMathExportMode`가 `Image` | `OfficeMathExportMode = OfficeMathExportMode.LaTeX` 로 설정 |
 | .md 파일에서 이미지가 깨짐 | `ExportImagesAsBase64 = false` 이고 상대 경로가 누락됨 | `ExportImagesAsBase64 = true` 로 활성화하거나 이미지 파일을 markdown과 함께 복사 |
 | 제목이 누락됨 | 문서가 사용자 정의 스타일을 사용하고 있어 제목으로 매핑되지 않음 | `MarkdownSaveOptions.HeadingStyleIdentifier` 로 사용자 정의 스타일 매핑 |
 | 출력 파일이 너무 큼 | Base64 인코딩된 이미지가 markdown을 부풀림 | `ExportImagesAsBase64 = false` 로 설정하고 이미지를 별도 폴더에 보관 |
 
-## Step 5: Automating Batch Conversions – Scaling Up
+## 5단계: 일괄 변환 자동화 – 확장성 향상
 
 수십 개 또는 수백 개의 파일에 대해 **word를 markdown으로 변환**해야 한다면 로직을 루프 안에 넣으세요:
 
@@ -153,7 +153,7 @@ foreach (var file in docxFiles)
 
 이 스니펫은 동일한 `mdOptions` 객체를 재사용하므로 배치 전체에 걸쳐 일관된 수식 내보내기를 보장합니다.
 
-## Step 6: Going Beyond – What If I Need Other Formats?
+## 6단계: 다른 형식 지원 – 다른 형식이 필요한 경우 어떻게 해야 할까요?
 
 Aspose.Words는 Markdown에만 국한되지 않습니다. 동일한 `Document` 객체를 HTML, PDF 또는 일반 텍스트로 저장할 수 있습니다. PDF로 **수식을 내보내는** 방법이 필요하다면 저장 옵션만 교체하면 됩니다:
 
@@ -168,7 +168,7 @@ document.Save("output.pdf", pdfOptions);
 
 이 유연성을 활용하면 하나의 변환 파이프라인으로 동일한 소스에서 여러 아티팩트를 출력할 수 있습니다.
 
-## Full Working Example – All Steps in One File
+## 전체 작동 예제 – 모든 단계가 하나의 파일에 포함됨
 
 아래는 지금까지 논의한 모든 내용을 포함한 완전한 실행 가능한 프로그램입니다. 새 콘솔 앱 프로젝트에 복사‑붙여넣기하고 **Run**을 클릭하세요.
 
@@ -213,7 +213,7 @@ namespace DocxToMarkdownDemo
 
 실행 후 `output.md`를 열면 문서가 완전히 변환되고, 수식은 LaTeX로 렌더링되며, 이미지가 포함된 것을 확인할 수 있습니다.
 
-## Conclusion
+## 결론
 
 Aspose.Words를 사용해 **docx를 markdown으로 저장**하는 방법을 다루었고, **word를 markdown으로 변환** 워크플로우를 탐색했으며, 수식이 선명하고 편집 가능하도록 **수식을 내보내는** 방법을 깊이 파헤쳤습니다. 이제 `.docx` 로드 → `MarkdownSaveOptions` 구성 → 최종 `.md` 저장까지 전체 파이프라인을 이해했으며, 배치 처리와 문제 해결을 위한 실용적인 팁도 확인했습니다.
 

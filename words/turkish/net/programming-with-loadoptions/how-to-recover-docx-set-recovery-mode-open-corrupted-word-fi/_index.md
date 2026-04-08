@@ -36,7 +36,7 @@ Hiç **docx dosyalarını nasıl kurtarabileceğinizi** merak ettiniz mi? Belki 
 
 > **Ne elde edeceksiniz:** Bozuk bir *.docx* dosyasını yükleyen, kurtarmayı deneyen ve temiz bir kopya kaydeden tam, çalıştırılabilir bir kod parçacığı. Ayrıca sorun giderme ve çözümü genişletme ipuçları.
 
-## Prerequisites
+## Önkoşullar
 
 İlerlemeye başlamadan önce şunların yüklü olduğundan emin olun:
 
@@ -55,7 +55,7 @@ Hepsi bu – ekstra bir kütüphane gerekmez.
 
 ![how to recover docx example](/images/recover-docx.png "how to recover docx illustration")
 
-## Step 1: Set Recovery Mode – Tell Aspose.Words What to Do
+## Adım 1: Kurtarma Modunu Ayarlayın – Aspose.Words'e Ne Yapacağını Söyleyin
 
 **how to recover docx** konusunun kalbi `LoadOptions` nesnesindedir. Varsayılan olarak Aspose.Words bozuk bir dosyayla karşılaştığında bir istisna fırlatır. `RecoveryMode` değerini `Recover` olarak değiştirmek, kütüphaneye mümkün olan en iyi düzeltmeyi yapmasını söyler.
 
@@ -74,7 +74,7 @@ LoadOptions loadOptions = new LoadOptions
 **Neden önemli:**  
 Bir Word dosyası hasar gördüğünde, içindeki XML parçaları eksik ya da hatalı olabilir. `RecoveryMode.Recover` mümkün olanı ayrıştırır, okunamayan parçaları atar ve kullanılabilir bir `Document` nesnesi yeniden oluşturur. Bu bayrak olmadan sadece genel bir `FileCorruptedException` alırsınız ve takılı kalırsınız.
 
-## Step 2: Open Corrupted Word Document Using the Configured Options
+## Adım 2: Yapılandırılmış Seçenekleri Kullanarak Bozuk Word Belgesini Açın
 
 Artık **kurtarma modunu ayarladığımıza** göre, sorunlu dosyayı güvenle yüklemeyi deneyebiliriz. `new Document(path, loadOptions)` yapıcısı tüm ağır işi yapar.
 
@@ -98,7 +98,7 @@ catch (Exception ex)
 
 **İpucu:** Yüklemeyi bir `try/catch` bloğuna alın. Kurtarma etkin olsa bile bazı dosyalar onarılamaz ve kullanıcıyı bilgilendirmek ya da hatayı loglamak için nazik bir geri dönüş mekanizması gerekir.
 
-## Step 3: Verify the Recovered Document – Quick Checks Before Saving
+## Adım 3: Kurtarılan Belgeyi Doğrulayın – Kaydetmeden Önce Hızlı Kontroller
 
 Dosyanın açılması, mükemmel olduğu anlamına gelmez. Hızlı bir tutarlılık kontrolü, boş ya da kısmen kurtarılmış bir belgeyi kaydetmenizi önler.
 
@@ -118,7 +118,7 @@ else
 
 Bu bölümü daha karmaşık kontrollerle genişletebilirsiniz: sayfa sayısı, belirli yer imleri veya gerekli tablolar. Önemli olan **hasarlı word belgesini** yalnızca ihtiyacınız olan verileri içeriyorsa kurtarmaktır.
 
-## Step 4: Save the Clean Copy – Finish the Recovery Cycle
+## Adım 4: Temiz Kopyayı Kaydedin – Kurtarma Döngüsünü Tamamlayın
 
 Doğrulama başarılıysa, onarılan dosyayı yeni bir konuma kaydedin. Bu, **how to recover docx** sürecinin son adımıdır.
 
@@ -132,7 +132,7 @@ Console.WriteLine($"💾 Recovered document saved to: {outputPath}");
 
 İçeriği Word olmayan kullanıcılarla paylaşmanız gerekiyorsa, diğer formatları (PDF, HTML) da seçebilirsiniz.
 
-## Step 5: Optional – Automate Recovery for Multiple Files
+## Adım 5: İsteğe Bağlı – Birden Çok Dosya İçin Kurtarmayı Otomatikleştirin
 
 Gerçek dünyada birden fazla bozuk raporla karşılaşabilirsiniz. İşte bir klasördeki **bozuk word** dosyalarını **açan**, kurtarmayı deneyen ve sonuçları loglayan kompakt bir döngü.
 
@@ -156,26 +156,27 @@ foreach (var file in Directory.GetFiles(folder, "*.docx"))
 
 Bu kod parçacığı, **hasarlı word belge** koleksiyonlarını minimum kodla nasıl **kurtarabileceğinizi** gösterir.
 
-## Common Pitfalls & How to Avoid Them
+## Sık Karşılaşılan Hatalar ve Bunlardan Nasıl Kaçınılır
 
-| Issue | Why it Happens | Fix |
+| Sorun | Neden Olur | Çözüm |
 |-------|----------------|-----|
 | **NullReferenceException after load** | Recovery stripped a required part, leaving the document tree empty. | Perform the content‑check shown in Step 3 before accessing nodes. |
 | **License warning** | Using an evaluation copy without setting the license. | Call `License license = new License(); license.SetLicense("Aspose.Words.lic");` at app start. |
 | **Large files cause OutOfMemory** | Recovery may temporarily allocate extra buffers. | Increase process memory limit or run on a 64‑bit runtime. |
 | **Missing images after recovery** | Corrupted image parts are discarded. | If images are critical, ask the source for a fresh copy; recovery can’t reconstruct lost binary data. |
 
-## Recap – What We Covered
 
-* **How to recover docx** by configuring `LoadOptions.RecoveryMode = Recover`.  
-* **Set recovery mode** to tell Aspose.Words to attempt fixes.  
-* **Open corrupted word** files safely with the configured options.  
-* Validate the recovered content before **saving the recovered document**.  
-* Optional batch processing to **recover damaged word document** sets.
+## Özet – Ele Aldığımız Konular
+
+* `LoadOptions.RecoveryMode = Recover` ayarını yaparak **docx dosyalarını nasıl kurtaracağınızı** öğrendik.
+* Aspose.Words'e düzeltme girişiminde bulunmasını söylemek için **kurtarma modunu ayarlayın**.
+* Yapılandırılmış seçeneklerle **bozuk word** dosyalarını güvenli bir şekilde açın.
+* Kurtarılan belgeyi kaydetmeden önce **kurtarılan içeriği doğrulayın**.
+* Hasarlı Word belgesi setlerini kurtarmak için isteğe bağlı toplu işlem.
 
 Artık C# içinde kırık Word dosyalarını kurtarmak için kendine yeterli, üretim‑hazır bir tarifiniz var. Doğrulama mantığını kendi alanınıza göre (ör. gerekli tabloları ya da özel XML’i kontrol etmek) uyarlamaktan çekinmeyin.
 
-## Next Steps
+## Sonraki Adımlar
 
 * **recover damaged word** PDF’lerini, `Document`’i PDF olarak kaydedip düzen sorunlarını kontrol ederek keşfedin.  
 * Bu yaklaşımı Azure Functions ile bir talep üzerine dosya‑kurtarma API’si haline getirin.  

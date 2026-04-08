@@ -154,7 +154,7 @@ foreach (var file in Directory.GetFiles(folder, "*.docx"))
 
 このスニペットは、最小限のコードで **recover damaged word document** コレクションを処理する方法を示しています。
 
-## Common Pitfalls & How to Avoid Them
+## よくある落とし穴とその回避方法
 
 | 問題 | 発生理由 | 対策 |
 |------|----------|------|
@@ -163,7 +163,7 @@ foreach (var file in Directory.GetFiles(folder, "*.docx"))
 | **Large files cause OutOfMemory** | 復元処理が一時的に余分なバッファを確保する | プロセスのメモリ上限を増やすか、64ビットランタイムで実行 |
 | **Missing images after recovery** | 破損した画像パーツが破棄される | 画像が重要な場合は送信元に新しいコピーを依頼。復元では失われたバイナリデータは再構築できません |
 
-## Recap – What We Covered
+## まとめ – 学習内容
 
 * `LoadOptions.RecoveryMode = Recover` を設定して **how to recover docx** を実現  
 * **Set recovery mode** により Aspose.Words に修復を指示  
@@ -173,7 +173,7 @@ foreach (var file in Directory.GetFiles(folder, "*.docx"))
 
 これで C# で壊れた Word ファイルを救出するための、自己完結型・本番環境対応レシピが完成です。検証ロジックはドメインに合わせて（例：必須テーブルやカスタム XML のチェック）自由にカスタマイズしてください。
 
-## Next Steps
+## 次のステップ
 
 * `Document` を PDF として保存し、**recover damaged word** PDF のレイアウト問題を確認  
 * Azure Functions と組み合わせてオンデマンドのファイル復元 API を構築  

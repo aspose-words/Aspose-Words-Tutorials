@@ -49,7 +49,7 @@ dotnet add package Aspose.Words
 
 それでは、実装に取り掛かりましょう。
 
-## Step 1: Load the Source Document – the Starting Point for any Conversion
+## ステップ 1: ソース ドキュメントを読み込む – あらゆる変換の出発点
 
 **docx を markdown として保存**する最初のステップは、元のファイルを Aspose の `Document` オブジェクトに読み込むことです。このステップにより、ライブラリは文書の構造、スタイル、そして何より埋め込まれた数式オブジェクトにフルアクセスできます。
 
@@ -67,7 +67,7 @@ Console.WriteLine($"Document loaded: {doc.PageCount} pages.");
 > **Why this matters:** この方法でファイルを読み込むと、Word で見えるのと全く同じ内容（隠れた数式オブジェクトを含む）を変換エンジンが認識します。  
 > **Pro tip:** 多数のファイルを扱う場合は、`try/catch` ブロックでラップし、破損した文書を優雅に処理できるようにしましょう。
 
-## Step 2: Configure Markdown Save Options – tell Aspose How to Treat Math
+## ステップ 2: Markdown 保存オプションを設定する – Aspose に数式の処理方法を指示する
 
 次に、**word を markdown に変換**したいこと、そして Office Math を LaTeX としてエクスポートしたいことを Aspose に指示します。これは `MarkdownSaveOptions.OfficeMathExportMode` で制御します。
 
@@ -86,7 +86,7 @@ var mdOptions = new MarkdownSaveOptions
 
 > **Why this matters:** デフォルトでは Aspose は数式を画像として出力しますが、これはクリーンな markdown ワークフローの目的に反します。`LaTeX` に切り替えることで、数式を編集可能なまま、MathJax や KaTeX 対応プラットフォームで美しく表示できます。
 
-## Step 3: Save the Document as Markdown – the Final Transformation
+## ステップ 3: ドキュメントを Markdown 形式で保存する – 最終的な変換
 
 いよいよ **docx を markdown として保存**です。`Document.Save` メソッドに出力パスと先ほど設定したオプションを渡します。
 
@@ -100,7 +100,7 @@ Console.WriteLine($"Conversion complete! Markdown saved to: {outputPath}");
 
 以上です。プログラムを実行すると、段落、見出し、リスト、数式がすべて期待通りの位置に配置された `.md` ファイルが生成されます。
 
-### Expected Output
+### 期待される出力
 
 `input.docx` にシンプルな数式 *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}* が含まれていると仮定すると、生成される Markdown の抜粋は次のようになります。
 
@@ -114,7 +114,7 @@ $$
 
 その他のコンテンツ（テキスト、見出し、画像）は標準的な Markdown 記法で表現されます。
 
-## Step 4: Verify the Result – Quick Checks to Ensure a Successful Conversion
+## ステップ 4: 結果を確認する – 変換が成功したことを確認するための簡単なチェック
 
 変換後は、LaTeX に対応した Markdown プレビューア（例: *Markdown+Math* 拡張機能付き VS Code、GitHub、または静的サイトジェネレータ）で `output.md` を開き、以下を確認してください。
 
@@ -124,16 +124,16 @@ $$
 
 何か問題があれば、`MarkdownSaveOptions` の設定を再確認してください。たとえば `ExportHeadersAsHtml = true` にすると、Markdown の `#` 記号ではなく HTML の `<h1>` タグが埋め込まれ、純粋な Markdown パイプラインには不向きです。
 
-## Common Pitfalls & How to Avoid Them
+## よくある落とし穴とその回避方法
 
-| Issue | Why it Happens | Fix |
+| 問題 | 原因 | 解決策 |
 |-------|----------------|-----|
 | 数式が画像として出力される | デフォルトの `OfficeMathExportMode` が `Image` になっている | `OfficeMathExportMode = OfficeMathExportMode.LaTeX` に設定 |
 | .md ファイル内の画像が壊れる | `ExportImagesAsBase64 = false` で相対パスが欠落している | `ExportImagesAsBase64 = true` にするか、画像ファイルを markdown と同じフォルダに配置 |
 | 見出しが欠落する | カスタムスタイルが見出しにマッピングされていない | `MarkdownSaveOptions.HeadingStyleIdentifier` でカスタムスタイルをマッピング |
 | 出力ファイルが大きくなる | Base64 エンコードされた画像が markdown を肥大化させる | `ExportImagesAsBase64 = false` にして画像を別フォルダに保存 |
 
-## Step 5: Automating Batch Conversions – Scaling Up
+## ステップ 5: バッチ変換の自動化 – スケールアップ
 
 数十〜数百のファイルを **word を markdown に変換**する必要がある場合は、ロジックをループで包みます。
 
@@ -151,7 +151,7 @@ foreach (var file in docxFiles)
 
 このスニペットは同じ `mdOptions` オブジェクトを再利用するため、バッチ全体で一貫した数式エクスポートが保証されます。
 
-## Step 6: Going Beyond – What If I Need Other Formats?
+## ステップ 6: さらに – 他の形式が必要な場合は？
 
 Aspose.Words は Markdown に限りません。同じ `Document` オブジェクトを使って HTML、PDF、プレーンテキストなどにも保存できます。たとえば **math を PDF にエクスポート**したい場合は、保存オプションだけを入れ替えます。
 
@@ -166,7 +166,7 @@ document.Save("output.pdf", pdfOptions);
 
 この柔軟性により、同一ソースから複数の成果物を出力する単一パイプラインを構築できます。
 
-## Full Working Example – All Steps in One File
+## 完全な動作例 – すべてのステップを 1 つのファイルにまとめる
 
 以下は、ここまで説明したすべてを組み込んだ完全な実行可能プログラムです。新しいコンソールアプリプロジェクトに貼り付けて **Run** してください。
 
@@ -211,7 +211,7 @@ namespace DocxToMarkdownDemo
 
 実行後に `output.md` を開くと、文書が完全に変換され、数式は LaTeX で、画像は埋め込み形式で表示されます。
 
-## Conclusion
+## まとめ
 
 Aspose.Words を使った **docx を markdown として保存** の方法、**word を markdown に変換** の全工程、そして **math をエクスポート** して数式を編集可能かつ美しく保つ手順を網羅しました。`.docx` の読み込み、`MarkdownSaveOptions` の設定、最終的な `.md` 保存までのパイプラインが理解でき、バッチ処理やトラブルシューティングの実践的なコツも学べました。
 

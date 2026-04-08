@@ -53,7 +53,7 @@ Word 文書を読み込む際にフォントが不足している可能性があ
 
 ---
 
-## Step 1 – Define a Warning Callback to Capture Font Substitution
+## ステップ 1 – フォント置換を捕捉するための警告コールバックを定義する
 
 パズルの最初のピースは、`IWarningCallback` を実装したクラスです。Aspose.Words は、何か注目すべきこと（例：フォントが見つからない）に遭遇すると `Warning` メソッドを呼び出します。
 
@@ -82,7 +82,7 @@ class FontWarningCallback : IWarningCallback
 
 ---
 
-## Step 2 – Configure LoadOptions with the Callback
+## ステップ 2 – コールバックを使用して LoadOptions を設定する
 
 ハンドラができたので、Aspose.Words にそれを使用させる必要があります。ここで **how to use LoadOptions** の実践例を示します。
 
@@ -98,7 +98,7 @@ var loadOptions = new LoadOptions
 
 ---
 
-## Step 3 – Load the Document Using the Configured Options
+## ステップ 3 – 設定したオプションを使用してドキュメントを読み込む
 
 `LoadOptions` が準備できたら、文書の読み込みはシンプルです。Aspose.Words は見つからないフォントがあるたびに自動的にコールバックを呼び出します。
 
@@ -126,11 +126,11 @@ Console.WriteLine("✅ Document loaded successfully.");
 
 ---
 
-## Step 4 – (Optional) Continue Processing the Document
+## ステップ 4 – (オプション) ドキュメントの処理を続行する
 
 通常、ファイルを読み込むだけでなく、さらに処理を行いたいものです。以下は、警告設定とシームレスに連携できる一般的なロード後アクションです。
 
-### 4.1 Save the Document as PDF
+### 4.1 ドキュメントを PDF として保存する
 
 ```csharp
 // Convert to PDF – the substituted fonts are already baked into the layout.
@@ -138,7 +138,7 @@ doc.Save("output.pdf", SaveFormat.Pdf);
 Console.WriteLine("📄 PDF saved as output.pdf");
 ```
 
-### 4.2 Replace Missing Fonts with a Known Fallback
+### 4.2 欠落しているフォントを既知の代替フォントで置き換える
 
 特定の代替フォント（例：*“Calibri”*）を使用したい場合は、保存前に `FontSettings` を調整します：
 
@@ -152,7 +152,7 @@ doc.Save("output-with-fallback.pdf", SaveFormat.Pdf);
 Console.WriteLine("🔄 PDF saved with explicit fallback fonts.");
 ```
 
-### 4.3 Log All Warnings to a File
+### 4.3 すべての警告をファイルにログ記録する
 
 ```csharp
 class FileLoggingWarningCallback : IWarningCallback
@@ -189,7 +189,7 @@ var loadOptionsWithFileLog = new LoadOptions
 
 ---
 
-## Full Working Example – All Pieces Together
+## 完全な動作例 – すべての要素を組み合わせたもの
 
 以下は、全体の流れを示す完全な実行可能プログラムです。コンソールプロジェクトに貼り付け、Aspose.Words NuGet パッケージを追加すればすぐに動作します。
 
@@ -251,23 +251,23 @@ class Program
 
 ---
 
-## Frequently Asked Questions (FAQs)
+## よくある質問 (FAQ)
 
-**Q: Does this work for DOC, RTF, or HTML files?**  
+**Q: これは DOC、RTF、または HTML ファイルでも動作しますか？**
 A: はい。`LoadOptions` はフォーマットに依存せず、正しいファイルパスを渡すだけで、すべてのサポート対象フォーマットでフォント不足の警告コールバックが発火します。
 
-**Q: Can I suppress the warnings entirely?**  
+**Q: 警告を完全に抑制できますか？** 
 A: `new IWarningCallback { Warning = _ => {} }` のように何もしないコールバックを割り当てるか、`LoadOptions.WarningCallback = null` に設定すれば警告を抑制できます。ただし、可視性が失われると重要なフォント問題を見逃す可能性があります。
 
-**Q: What if I need to replace missing fonts with embedded ones?**  
+**Q: 欠落しているフォントを埋め込んだフォントで置き換える必要がある場合はどうすればよいですか？** 
 A: `FontSettings` に代替フォントファイルを追加する（`AddFontSource`）ことで埋め込みフォントに置き換えることができます。置換ルールと組み合わせればシームレスに実現できます。
 
-**Q: Is the callback thread‑safe?**  
+**Q: コールバックはスレッドセーフですか？**
 A: 大規模文書を並列でロードする場合、コールバックは複数スレッドから呼び出される可能性があります。共有リソース（例：ログファイル）は適切に同期してください。
 
 ---
 
-## Conclusion
+## まとめ
 
 本稿では **how to use LoadOptions** を活用して **Handle Missing Fonts** をエレガントに処理する方法を解説しました。`IWarningCallback` を実装し、`LoadOptions` に紐付けて文書を読み込むだけで、フォント置換イベントをリアルタイムに取得できます。その後、ログに記録したり、代替フォントを埋め込んだりして、期待通りの出力を実現できます。
 

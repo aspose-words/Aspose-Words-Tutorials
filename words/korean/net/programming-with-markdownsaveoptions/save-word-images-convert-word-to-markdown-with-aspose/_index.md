@@ -45,7 +45,7 @@ url: /ko/net/programming-with-markdownsaveoptions/save-word-images-convert-word-
 
 ---
 
-## Step 1 – Add Aspose.Words to Your Project
+## 1단계 – 프로젝트에 Aspose.Words 추가
 
 먼저 라이브러리를 솔루션에 추가합니다. 가장 쉬운 방법은 NuGet을 이용하는 것입니다:
 
@@ -74,7 +74,7 @@ using Aspose.Words.Saving;
 
 ---
 
-## Step 2 – Create a Callback to Control Image Saving
+## 2단계 – 이미지 저장 제어 콜백 생성
 
 Aspose.Words는 외부 리소스(이미지, 폰트 등)를 쓸 때마다 콜백을 호출합니다. `IResourceSavingCallback`을 구현하면 각 그림이 **어디에** 저장되고 **어떻게** 이름이 지정될지 직접 결정할 수 있습니다.
 
@@ -104,7 +104,7 @@ class MyCallback : IResourceSavingCallback
 
 ---
 
-## Step 3 – Load the Source Word Document
+## 3단계 – 원본 Word 문서 불러오기
 
 이제 변환하려는 `.docx` 파일을 Aspose에 지정합니다. `YOUR_DIRECTORY`를 실제 경로로 교체하세요.
 
@@ -117,7 +117,7 @@ Document document = new Document(@"YOUR_DIRECTORY/input.docx");
 
 ---
 
-## Step 4 – Configure MarkdownSaveOptions and Attach the Callback
+## 4단계 – MarkdownSaveOptions 설정 및 콜백 연결
 
 `MarkdownSaveOptions` 객체를 사용하면 내보내기를 세밀하게 조정할 수 있습니다. 여기서는 Step 2에서 만든 `MyCallback`을 연결합니다.
 
@@ -140,7 +140,7 @@ MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 
 ---
 
-## Step 5 – Save the Document as Markdown
+## 5단계 – 문서를 Markdown 형식으로 저장
 
 마지막으로 Aspose에게 Markdown 파일을 작성하도록 지시합니다. 모든 이미지는 지정한 폴더에 저장되고, Markdown은 상대 경로로 이미지를 참조합니다.
 
@@ -162,7 +162,7 @@ Resources/
 
 ---
 
-## Common Questions & Edge‑Case Handling
+## 일반적인 질문 및 예외 처리
 
 ### 특정 네이밍 스킴이 필요하면?
 
@@ -198,7 +198,7 @@ using (var md5 = System.Security.Cryptography.MD5.Create())
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## 전체 작동 예제 (복사-붙여넣기 가능)
 
 아래는 전체 프로그램을 하나의 파일에 넣은 예시입니다. `YOUR_DIRECTORY`를 실제 폴더 경로로 교체하세요.
 
@@ -248,7 +248,7 @@ class Program
 
 ---
 
-## Conclusion
+## 결론
 
 이제 Aspose.Words를 사용해 **docx with images**를 Markdown으로 **convert docx with images**할 때 **save word images**를 수행하는 방법을 배웠습니다. 커스텀 `IResourceSavingCallback`을 연결하면 각 그림이 정확히 어디에 저장될지 제어할 수 있어, 깔끔한 폴더 구조와 `output.md` 내부의 안정적인 링크를 확보할 수 있습니다.  
 

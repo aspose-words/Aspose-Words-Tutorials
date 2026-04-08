@@ -34,7 +34,7 @@ url: /ru/net/programming-with-markdownsaveoptions/save-docx-as-markdown-with-asp
 
 В этом руководстве мы пройдемся по всем шагам, необходимым для конвертации файла `.docx` в документ Markdown, сохраняя уравнения неизменными, и разберём небольшие нюансы, которые часто ставят людей в тупик. К концу вы сможете **convert word to markdown** уверенно, будь то одиночный файл или автоматизированная пакетная обработка.
 
-## Prerequisites
+## Предварительные условия
 
 Прежде чем начать, убедитесь, что у вас есть:
 
@@ -51,7 +51,7 @@ dotnet add package Aspose.Words
 
 Теперь давайте приступим к делу.
 
-## Step 1: Load the Source Document – the Starting Point for any Conversion
+## Шаг 1: Загрузка исходного документа – отправная точка для любого преобразования
 
 Первое, что нужно сделать, когда вы хотите **save docx as markdown**, — загрузить оригинальный файл в объект Aspose `Document`. Этот шаг даёт библиотеке полный доступ к структуре документа, стилям и, что особенно важно, к встроенным объектам математики.
 
@@ -70,7 +70,7 @@ Console.WriteLine($"Document loaded: {doc.PageCount} pages.");
 > 
 > **Pro tip:** Если вы обрабатываете множество файлов, оберните загрузку в блок `try/catch`, чтобы корректно обрабатывать повреждённые документы.
 
-## Step 2: Configure Markdown Save Options – tell Aspose How to Treat Math
+## Шаг 2: Настройка параметров сохранения Markdown – укажите Aspose, как обрабатывать математические выражения
 
 Далее нам нужно сообщить Aspose, что мы хотим **convert word to markdown** и, конкретно, что любой Office Math следует экспортировать как LaTeX. Это управляется свойством `MarkdownSaveOptions.OfficeMathExportMode`.
 
@@ -89,7 +89,7 @@ var mdOptions = new MarkdownSaveOptions
 
 > **Why this matters:** По умолчанию Aspose будет рендерить математику как изображения, что противоречит цели чистого рабочего процесса markdown. Переключение на `LaTeX` сохраняет ваши уравнения редактируемыми и красиво отображается на платформах, поддерживающих MathJax или KaTeX.
 
-## Step 3: Save the Document as Markdown – the Final Transformation
+## Шаг 3: Сохранение документа в формате Markdown – окончательное преобразование
 
 Теперь мы готовы действительно **save docx as markdown**. Метод `Document.Save` принимает путь назначения и только что настроенные параметры.
 
@@ -103,7 +103,7 @@ Console.WriteLine($"Conversion complete! Markdown saved to: {outputPath}");
 
 Вот и всё. Запуск программы создаст файл `.md`, где каждый абзац, заголовок, список и уравнение находятся точно там, где вы ожидаете.
 
-### Expected Output
+### Ожидаемый результат
 
 Предположим, что `input.docx` содержит простое уравнение вроде *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}*, тогда полученный фрагмент Markdown будет выглядеть так:
 
@@ -117,7 +117,7 @@ $$
 
 Весь остальной контент (текст, заголовки, изображения) будет представлен с помощью стандартного синтаксиса Markdown.
 
-## Step 4: Verify the Result – Quick Checks to Ensure a Successful Conversion
+## Шаг 4: Проверка результата – быстрые проверки для обеспечения успешного преобразования
 
 После конвертации рекомендуется открыть `output.md` в просмотрщике Markdown, поддерживающем LaTeX (например, VS Code с расширением *Markdown+Math*, GitHub или генератор статических сайтов). Проверьте:
 
@@ -127,16 +127,16 @@ $$
 
 Если что‑то выглядит неверно, дважды проверьте настройки `MarkdownSaveOptions`. Например, установка `ExportHeadersAsHtml = true` вставит HTML‑теги `<h1>` вместо символов Markdown `#` — не идеально для чистых Markdown‑конвейеров.
 
-## Common Pitfalls & How to Avoid Them
+## Распространенные ошибки и как их избежать
 
-| Issue | Why it Happens | Fix |
+| Проблема | Почему это происходит | Решение |
 |-------|----------------|-----|
 | Equations appear as images | Default `OfficeMathExportMode` is `Image` | Set `OfficeMathExportMode = OfficeMathExportMode.LaTeX` |
 | Images are broken in the .md file | `ExportImagesAsBase64 = false` and relative paths are missing | Enable `ExportImagesAsBase64 = true` or copy image files alongside the markdown |
 | Missing headings | Document uses custom styles not mapped to headings | Use `MarkdownSaveOptions.HeadingStyleIdentifier` to map custom styles |
 | Large output file | Base64‑encoded images can bloat the markdown | Consider `ExportImagesAsBase64 = false` and keep images in a separate folder |
 
-## Step 5: Automating Batch Conversions – Scaling Up
+## Шаг 5: Автоматизация пакетных преобразований – масштабирование
 
 Если вам нужно **convert word to markdown** для десятков или сотен файлов, оберните логику в цикл:
 
@@ -154,7 +154,7 @@ foreach (var file in docxFiles)
 
 Этот фрагмент переиспользует один объект `mdOptions`, обеспечивая единообразный экспорт математики для всей партии.
 
-## Step 6: Going Beyond – What If I Need Other Formats?
+## Шаг 6: Дальнейшие шаги – что делать, если нужны другие форматы?
 
 Aspose.Words не ограничивается только Markdown. Тот же объект `Document` можно сохранить как HTML, PDF или даже простой текст. Если когда‑нибудь понадобится **how to export math** в PDF, просто замените параметры сохранения:
 
@@ -169,7 +169,7 @@ document.Save("output.pdf", pdfOptions);
 
 Эта гибкость позволяет построить единый конвертирующий конвейер, который генерирует несколько артефактов из одного источника.
 
-## Full Working Example – All Steps in One File
+## Полный рабочий пример – все шаги в одном файле
 
 Ниже представлен полностью готовый к запуску пример программы, включающий всё обсужденное. Скопируйте‑вставьте его в новый проект Console App и нажмите **Run**.
 
@@ -214,7 +214,7 @@ namespace DocxToMarkdownDemo
 
 Запустите, откройте `output.md`, и вы увидите полностью преобразованный документ, уравнения в виде LaTeX и встроенные изображения.
 
-## Conclusion
+## Заключение
 
 Мы рассмотрели **how to save docx as markdown** с помощью Aspose.Words, изучили процесс **convert word to markdown** и подробно разобрали **how to export math**, чтобы уравнения оставались чёткими и редактируемыми. Теперь вы знаете весь конвейер — от загрузки `.docx`, настройки `MarkdownSaveOptions`, до сохранения финального `.md`‑файла, а также получили практические советы по пакетной обработке и отладке.
 
