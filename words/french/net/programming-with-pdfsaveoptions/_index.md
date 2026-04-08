@@ -47,6 +47,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Interpoler des images dans un document PDF](./interpolate-images/) | Découvrez comment interpoler des images dans un document PDF avec Aspose.Words pour .NET grâce à notre guide étape par étape. Améliorez facilement la qualité d'image de votre PDF. |
 | [Enregistrer un docx en PDF avec Aspose.Words – Guide complet C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Apprenez à convertir un fichier DOCX en PDF en C# avec Aspose.Words grâce à ce guide complet étape par étape. |
 | [Créer un PDF accessible à partir de Word avec C# – Guide étape par étape](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Apprenez à créer un PDF accessible à partir d'un document Word en C# avec Aspose.Words, étape par étape. |
+| [Créer un PDF accessible en C# – Tutoriel d'accessibilité PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Apprenez à générer des PDF accessibles conformes aux normes d'accessibilité avec Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

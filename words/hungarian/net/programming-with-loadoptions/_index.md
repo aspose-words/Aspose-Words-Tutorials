@@ -22,12 +22,12 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
  ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [Piszkos mezők frissítése Word dokumentumban](./update-dirty-fields/) Könnyedén frissítheti Word-dokumentumainak piszkos mezőit az Aspose.Words for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval. |
+| [Piszkos mezők frissítése Word dokumentumban](./update-dirty-fields/) | Könnyedén frissítheti Word-dokumentumainak piszkos mezőit az Aspose.Words for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval. |
 | [Titkosított Word-dokumentum betöltése](./load-encrypted-document/) | Ismerje meg, hogyan tölthet be és menthet titkosított Word-dokumentumokat az Aspose.Words for .NET segítségével. Védje dokumentumait egyszerűen új jelszavakkal. Lépésről lépésre útmutató mellékelve. |
 | [Alakzat konvertálása Office matematikai képletté](./convert-shape-to-office-math/) | Útmutatónkkal megtanulhatja, hogyan konvertálhat alakzatokat Office Math formátumba Word dokumentumokban az Aspose.Words for .NET segítségével. Könnyedén formázhatja dokumentumait. |
 | [Ms Word verzió beállítása](./set-ms-word-version/) | Tanulja meg, hogyan állíthatja be az MS Word verzióit az Aspose.Words for .NET segítségével részletes útmutatónkkal. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a dokumentumkezelést. |
 | [Ideiglenes mappa használata Word dokumentumban](./use-temp-folder/) | Ismerje meg, hogyan növelheti .NET alkalmazásai teljesítményét egy ideiglenes mappa használatával Word-dokumentumok Aspose.Words segítségével történő betöltésekor. |
-| [Figyelmeztetés visszahívása Word dokumentumban](./warning-callback/) Tanulja meg, hogyan észlelheti és kezelheti a figyelmeztetéseket a Word-dokumentumokban az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatónkkal. Biztosítsa a robusztus dokumentumfeldolgozást. |
+| [Figyelmeztetés visszahívása Word dokumentumban](./warning-callback/) | Tanulja meg, hogyan észlelheti és kezelheti a figyelmeztetéseket a Word-dokumentumokban az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatónkkal. Biztosítsa a robusztus dokumentumfeldolgozást. |
 | [Kódolás betöltése Word dokumentumban](./load-with-encoding/) | Tanulja meg, hogyan tölthet be egy Word dokumentumot adott kódolással az Aspose.Words for .NET használatával. Lépésről lépésre útmutató részletes magyarázatokkal. |
 | [Pdf képek kihagyása](./skip-pdf-images/) | Ismerje meg, hogyan hagyhatja ki a képeket PDF dokumentumok betöltésekor az Aspose.Words for .NET használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes szövegkinyeréshez. |
 | [Metafájlok konvertálása png-vé](./convert-metafiles-to-png/) | Könnyedén konvertálhat metafájlokat PNG formátumba Word dokumentumokban az Aspose.Words for .NET segítségével ezzel a lépésről lépésre bemutató útmutatóval. Egyszerűsítse dokumentumkezelését. |
@@ -35,6 +35,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Hogyan állítsuk helyre a DOCX-et az Aspose.Words segítségével – lépésről lépésre](./how-to-recover-docx-with-aspose-words-step-by-step/) | Ismerje meg, hogyan lehet helyreállítani sérült DOCX fájlokat az Aspose.Words for .NET használatával, részletes lépésekkel. |
 | [Aspose Load Options – DOCX betöltése egyedi betűtípus-beállításokkal](./aspose-load-options-load-docx-with-custom-font-settings/) | Tanulja meg, hogyan használhatja a LoadOptions-t DOCX fájlok egyedi betűtípus-beállításokkal történő betöltéséhez az Aspose.Words for .NET-ben. |
 | [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és az oldalszám lekéréséhez](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) Ismerje meg, hogyan nyithat meg és helyreállíthat sérült DOCX fájlokat, valamint hogyan számolhatja meg az oldalak számát az Aspose.Words for .NET segítségével. |
+| [Hogyan állítsuk helyre a docx-et – C# útmutató sérült Word fájlokhoz](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

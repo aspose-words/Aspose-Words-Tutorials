@@ -35,6 +35,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Cập nhật Bản vẽ nghệ thuật thông minh](./update-smart-art-drawing/) | Tìm hiểu cách cập nhật bản vẽ Smart Art trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đảm bảo hình ảnh của bạn luôn chính xác. |
 | [Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn từng bước](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Tìm hiểu cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Tạo hình chữ nhật trong Word bằng C# – Hướng dẫn từng bước](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Tìm hiểu cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Hướng dẫn bóng đổ hình dạng Aspose.Words – Thêm bóng đổ cho hình dạng Word trong C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Hướng dẫn cách thêm bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

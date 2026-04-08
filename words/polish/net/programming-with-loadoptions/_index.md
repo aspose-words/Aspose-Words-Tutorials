@@ -35,6 +35,7 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Jak odzyskać plik docx za pomocą Aspose.Words – krok po kroku](./how-to-recover-docx-with-aspose-words-step-by-step/) | Dowiedz się, jak odzyskać uszkodzone pliki docx przy użyciu Aspose.Words w kilku prostych krokach. |
 | [Aspose Load Options – Ładowanie DOCX z niestandardowymi ustawieniami czcionek](./aspose-load-options-load-docx-with-custom-font-settings/) | Dowiedz się, jak ładować dokumenty DOCX z własnymi ustawieniami czcionek przy użyciu Aspose Load Options w .NET. |
 | [Odzyskaj uszkodzony plik Word – Kompletny przewodnik otwierania uszkodzonego DOCX i uzyskiwania liczby stron](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Dowiedz się, jak odzyskać uszkodzony plik Word, otworzyć uszkodzony DOCX i uzyskać liczbę stron przy użyciu Aspose.Words dla .NET. |
+| [Jak odzyskać docx – przewodnik C# dla uszkodzonych plików Word](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Dowiedz się, jak naprawić uszkodzone pliki DOCX w C# przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

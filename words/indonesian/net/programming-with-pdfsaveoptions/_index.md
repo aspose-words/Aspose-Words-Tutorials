@@ -47,6 +47,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Interpolasi Gambar dalam Dokumen PDF](./interpolate-images/) | Pelajari cara menginterpolasi gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kualitas gambar PDF Anda dengan mudah. |
 | [Buat PDF Aksesibel dari Word dengan C# – Panduan Langkah‑per‑Langkah](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET dengan C# dalam panduan langkah demi langkah ini. Bahasa Indonesia: |
 | [Simpan docx sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Panduan lengkap langkah demi langkah untuk menyimpan file DOCX menjadi PDF menggunakan Aspose.Words dengan C#. |
+| [Buat PDF Aksesibel di C# – Tutorial Aksesibilitas PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Pelajari cara membuat PDF yang dapat diakses menggunakan Aspose.Words untuk .NET dengan C#, termasuk menambahkan tag struktural dan teks alternatif. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

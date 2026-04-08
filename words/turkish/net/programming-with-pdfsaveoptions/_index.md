@@ -47,6 +47,11 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
 | [Aspose.Words ile docx dosyasını pdf olarak kaydet – Tam C# Kılavuzu](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words kullanarak C# ile docx dosyasını PDF'ye dönüştürmenin tüm adımlarını öğrenin. |
 | [C# ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | C# kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
+| [PDF Belgesinde Görüntü Sıkıştırma](./image-compression/) | Aspose.Words for .NET kullanarak PDF belgelerindeki resimleri nasıl sıkıştıracağınızı öğrenin. Optimize edilmiş dosya boyutu ve kalitesi için bu kılavuzu izleyin. |
+| [PDF Belgesinde Son Yazdırılan Özelliği Güncelle](./update-last-printed-property/) | Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla bir PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini öğrenin. |
+| [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin. |
+| [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
+| [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Eğitimi](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aspose.Words for .NET kullanarak C# ile erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

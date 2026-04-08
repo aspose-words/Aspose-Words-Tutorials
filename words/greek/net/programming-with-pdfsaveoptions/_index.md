@@ -47,6 +47,7 @@
 | [Παρεμβολή εικόνων σε ένα έγγραφο PDF](./interpolate-images/) | Μάθετε πώς να παρεμβάλλετε εικόνες σε ένα έγγραφο PDF χρησιμοποιώντας το Aspose.Words για .NET με τον αναλυτικό μας οδηγό. Βελτιώστε εύκολα την ποιότητα εικόνας του PDF σας. |
 | [Αποθήκευση docx ως pdf με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε βήμα προς βήμα πώς να μετατρέψετε αρχεία docx σε pdf χρησιμοποιώντας Aspose.Words με C#. |
 | [Δημιουργία προσβάσιμου PDF από Word με C# – Οδηγός βήμα προς βήμα](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Δημιουργία προσβάσιμου PDF σε C# – Εγχειρίδιο προσβασιμότητας PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα αρχεία PDF με το Aspose.Words για .NET, ακολουθώντας βήμα-βήμα οδηγίες. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

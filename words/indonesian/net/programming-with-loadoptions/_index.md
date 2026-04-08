@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Memulihkan DOCX dengan Aspose.Words – Langkah demi Langkah](./how-to-recover-docx-with-aspose-words-step-by-step/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Aspose Load Options – Muat DOCX dengan Pengaturan Font Kustom](./aspose-load-options-load-docx-with-custom-font-settings/) Pelajari cara memuat file DOCX dengan pengaturan font khusus menggunakan Aspose Load Options dalam .NET. |
 | [Pulihkan File Word Rusak – Panduan Lengkap Membuka DOCX Korup & Mendapatkan Jumlah Halaman](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Pelajari cara memulihkan file Word yang rusak, membuka DOCX korup, dan menghitung jumlah halaman dengan Aspose.Words untuk .NET. |
+| [Cara Memulihkan DOCX – Panduan C# untuk File Word yang Rusak](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

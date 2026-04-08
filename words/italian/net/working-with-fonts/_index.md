@@ -49,6 +49,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Esempio di sorgente del font Steam Resource](./resource-steam-font-source-example/) | Scopri come utilizzare Resource Stream Font Source per caricare font personalizzati in Aspose.Words per .NET. |
 | [Ottieni la sostituzione senza suffissi](./get-substitution-without-suffixes/) | In questo tutorial imparerai come ottenere override senza suffisso in un documento Word con Aspose.Words per .NET. |
 | [Come rilevare i font in Aspose.Words – Gestire avvisi e impostazioni](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Scopri come rilevare i font, gestire avvisi e impostazioni in Aspose.Words per .NET con questa guida passo passo. |
+| [Come catturare i font in Aspose.Words – Guida completa](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Scopri come catturare i font nei documenti Word con Aspose.Words, passo dopo passo, con esempi di codice C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

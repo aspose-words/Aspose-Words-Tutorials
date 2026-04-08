@@ -35,6 +35,8 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
 | [Como recuperar docx com Aspose.Words – passo a passo](./how-to-recover-docx-with-aspose-words-step-by-step/) | Aprenda a recuperar arquivos DOCX corrompidos usando Aspose.Words passo a passo. |
 | [Aspose Load Options – Carregar DOCX com Configurações de Fonte Personalizadas](./aspose-load-options-load-docx-with-custom-font-settings/) | Aprenda a carregar documentos DOCX usando LoadOptions com fontes personalizadas no Aspose.Words para .NET. Guia passo a passo incluído. |
 | [Recuperar Arquivo Word Danificado – Guia Completo para Abrir DOCX Corrompido e Obter Contagem de Páginas](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Aprenda a reparar arquivos Word danificados, abrir DOCX corrompidos e obter a contagem de páginas usando Aspose.Words para .NET. |
+| [Como recuperar docx – Guia C# para arquivos Word corrompidos](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Aprenda a recuperar arquivos DOCX corrompidos usando C# com Aspose.Words para .NET. Guia passo a passo para restaurar documentos. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

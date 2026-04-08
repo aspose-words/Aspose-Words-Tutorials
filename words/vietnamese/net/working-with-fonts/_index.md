@@ -16,7 +16,7 @@
 # Xử lý từ ngữ bằng phông chữ
 
 
-Hướng dẫn Xử lý văn bản bằng phông chữ sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau của Xử lý văn bản bằng phông chữ, cho phép bạn thực hiện các thao tác như thay đổi định dạng phông chữ, tải phông chữ từ các thư mục cụ thể, quản lý phông chữ thay thế, v.v.
+Hướng dẫn Xử lý văn bản bằng phông chữ sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau của Xử lý văn bản bằng phông chữ, cho phép bạn thực hiện các thao tác như thay đổi định dạng phông chữ, tải phông chữ từ các thư mục cụ thể, quản lý phông chữ thay thế, v.t.
 
 Các hướng dẫn cung cấp cho bạn các giải thích từng bước chi tiết cho từng tính năng, cùng với mã nguồn ngôn ngữ C# để minh họa các khái niệm. Bạn sẽ học cách sử dụng các lớp và phương thức từ Thư viện Aspose.Words cho .NET để thực hiện các tác vụ liên quan đến phông chữ cụ thể trong tài liệu Word của bạn.
 
@@ -49,6 +49,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Nguồn Phông chữ Steam Ví dụ](./resource-steam-font-source-example/) | Tìm hiểu cách sử dụng Resource Stream Font Source để tải phông chữ tùy chỉnh vào Aspose.Words cho .NET. |
 | [Nhận thay thế không có hậu tố](./get-substitution-without-suffixes/) | Trong hướng dẫn này, hãy tìm hiểu cách ghi đè không có hậu tố trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách phát hiện phông chữ trong Aspose.Words – Xử lý cảnh báo & cài đặt](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Tìm hiểu cách phát hiện phông chữ, quản lý cảnh báo và cấu hình cài đặt phông chữ trong Aspose.Words cho .NET. |
+| [Cách bắt phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách bắt và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

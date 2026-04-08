@@ -35,6 +35,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Aspose.Words ile docx Dosyasını Adım Adım Kurtarma](./how-to-recover-docx-with-aspose-words-step-by-step/) | Aspose.Words kullanarak bozuk bir docx dosyasını nasıl kurtaracağınızı adım adım öğrenin. |
 | [Aspose Load Options – Özel Yazı Tipi Ayarlarıyla DOCX Yükle](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words for .NET ile özel yazı tipi ayarları kullanarak DOCX dosyalarını nasıl yükleyeceğinizi adım adım öğrenin. |
 | [Hasarlı Word Dosyasını Kurtar – Bozuk DOCX Dosyasını Açma ve Sayfa Sayısını Öğrenme Tam Kılavuzu](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Aspose.Words for .NET kullanarak bozuk DOCX dosyalarını nasıl açıp sayfa sayısını alacağınızı adım adım öğrenin. |
+| [docx Kurtarma – Bozuk Word Dosyaları için C# Kılavuzu](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Aspose.Words for .NET kullanarak bozuk .docx dosyalarını nasıl kurtaracağınızı ve C# ile yeniden kullanılabilir hale getireceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

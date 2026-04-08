@@ -54,6 +54,11 @@ Aprenda a exportar equações LaTeX de documentos Word para Markdown usando Aspo
 
 ### [Converter Word para Markdown – Incorporar Imagens como Base64](./convert-word-to-markdown-embed-images-as-base64/)
 Aprenda a converter documentos Word para Markdown incorporando imagens como Base64 usando Aspose.Words para .NET.
+### [Como salvar Markdown a partir do Word – Guia completo em C#](./how-to-save-markdown-from-word-complete-c-guide/)
+Aprenda a salvar documentos Word como arquivos Markdown usando C# com Aspose.Words.
+
+### [Como salvar Markdown a partir do Word – Guia completo](./how-to-save-markdown-from-word-complete-guide/)
+Aprenda a salvar documentos Word como arquivos Markdown usando Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

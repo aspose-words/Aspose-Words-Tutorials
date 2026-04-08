@@ -35,6 +35,7 @@
 | [Ενημέρωση Σχεδίου Smart Art](./update-smart-art-drawing/) | Μάθετε πώς να ενημερώνετε σχέδια Smart Art σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό βήμα προς βήμα. Βεβαιωθείτε ότι τα γραφικά σας είναι πάντα ακριβή. |
 | [Δημιουργία σχήματος ορθογωνίου στο Word με Aspose.Words – Οδηγός βήμα προς βήμα](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες. |
 | [Δημιουργία ορθογωνίου σχήματος στο Word με C# – Οδηγός βήμα‑βήμα](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό. |
+| [Aspose.Words Tutorial Σκιά Σχήματος – Προσθήκη Σκιάς σε Σχήμα Word σε C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Μάθετε πώς να προσθέσετε σκιά σε σχήμα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

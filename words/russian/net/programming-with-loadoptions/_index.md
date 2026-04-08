@@ -35,6 +35,7 @@
 | [Как восстановить DOCX с помощью Aspose.Words – пошагово](./how-to-recover-docx-with-aspose-words-step-by-step/) | Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words, следуя пошаговому руководству. |
 | [Aspose Load Options – Загрузка DOCX с пользовательскими настройками шрифтов](./aspose-load-options-load-docx-with-custom-font-settings/) | Узнайте, как загрузить DOCX, задав пользовательские параметры шрифтов с помощью LoadOptions в Aspose.Words для .NET. |
 | [Восстановление повреждённого файла Word – Полное руководство по открытию повреждённого DOCX и получению количества страниц](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Узнайте, как открыть повреждённый DOCX, восстановить документ и определить количество страниц с помощью Aspose.Words для .NET. |
+| [Как восстановить docx – руководство C# для повреждённых файлов Word](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Узнайте, как восстановить повреждённые файлы DOCX в C# с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

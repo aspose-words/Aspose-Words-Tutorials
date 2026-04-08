@@ -50,6 +50,7 @@
 | [प्रत्यय के बिना प्रतिस्थापन प्राप्त करें](./get-substitution-without-suffixes/) | इस ट्यूटोरियल में, Aspose.Words for .NET के साथ Word दस्तावेज़ में प्रत्यय रहित ओवरराइड प्राप्त करना सीखें। |
 | [Aspose.Words में फ़ॉन्ट्स का पता कैसे लगाएँ – चेतावनियों और सेटिंग्स को संभालें](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aspose.Words में फ़ॉन्ट पहचान, चेतावनी प्रबंधन और फ़ॉन्ट सेटिंग्स को कैसे संभालें, इस चरण-दर-चरण मार्गदर्शिका में सीखें। |
 
+| [Aspose.Words में फ़ॉन्ट्स को कैप्चर करने का तरीका – पूर्ण गाइड](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aspose.Words के साथ फ़ॉन्ट कैप्चर करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

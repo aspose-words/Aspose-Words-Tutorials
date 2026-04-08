@@ -50,6 +50,7 @@
 | [Λήψη αντικατάστασης χωρίς επιθήματα](./get-substitution-without-suffixes/) | Σε αυτό το σεμινάριο, μάθετε πώς να λαμβάνετε παρακάμψεις χωρίς επιθήματα σε ένα έγγραφο του Word με το Aspose.Words για .NET. |
 | [Πώς να ανιχνεύσετε γραμματοσειρές στο Aspose.Words – Διαχείριση προειδοποιήσεων & ρυθμίσεων](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές, να διαχειρίζεστε προειδοποιήσεις και να ρυθμίζετε τις επιλογές γραμματοσειρών στο Aspose.Words. |
 
+| [Πώς να Καταγράψετε Γραμματοσειρές στο Aspose.Words – Πλήρης Οδηγός](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Μάθετε πώς να εντοπίζετε και να αποθηκεύετε όλες τις γραμματοσειρές ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

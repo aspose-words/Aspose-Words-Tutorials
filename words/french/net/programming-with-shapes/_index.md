@@ -35,6 +35,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Mettre à jour Smart Art Drawing](./update-smart-art-drawing/) | Apprenez à mettre à jour vos dessins Smart Art dans des documents Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Assurez-vous que vos visuels sont toujours précis. |
 | [Créer une forme rectangulaire dans Word avec Aspose.Words – Guide étape par étape](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Apprenez à créer une forme rectangulaire dans un document Word avec Aspose.Words grâce à ce guide détaillé étape par étape. |
 | [Créer une forme rectangulaire dans Word avec C# – Guide étape par étape](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Apprenez à créer une forme rectangulaire dans Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
+| [Tutoriel Ombre de forme Aspose.Words – Ajouter une ombre à une forme Word en C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Apprenez à ajouter une ombre à une forme dans un document Word avec Aspose.Words pour .NET en C# grâce à ce guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

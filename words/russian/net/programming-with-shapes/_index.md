@@ -35,6 +35,7 @@
 | [Обновление Smart Art Drawing](./update-smart-art-drawing/) | Узнайте, как обновить рисунки Smart Art в документах Word с помощью Aspose.Words для .NET с помощью этого пошагового руководства. Убедитесь, что ваши визуальные эффекты всегда точны. |
 | [Создать прямоугольную форму в Word с Aspose.Words – пошаговое руководство](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Узнайте, как создать прямоугольную форму в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать прямоугольную форму в Word с помощью C# – пошаговое руководство](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как создать прямоугольную форму в документе Word с помощью C# в этом пошаговом руководстве. |
+| [Учебник по теням фигур Aspose.Words – Добавление тени к фигуре Word в C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

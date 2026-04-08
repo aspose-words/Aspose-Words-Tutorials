@@ -34,6 +34,8 @@
 | [如何將 DOCX 匯出為 Markdown – 完整 C# 指南](./how-to-export-markdown-from-docx-complete-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 匯出為 Markdown，提供完整步驟與範例程式碼。 |
 | [如何從 Word 匯出 LaTeX：使用 Aspose 將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) |示範如何使用 Aspose.Words for .NET 從 Word 匯出 LaTeX 方程式並轉換為 Markdown。 |
 | [將 Word 轉換為 Markdown – 嵌入圖像為 Base64](./convert-word-to-markdown-embed-images-as-base64/) |示範如何使用 Aspose.Words for .NET 將 Word 匯出為 Markdown，並將圖像嵌入為 Base64 編碼。 |
+| [如何將 Markdown 從 Word 儲存 – 完整 C# 指南](./how-to-save-markdown-from-word-complete-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件儲存為 Markdown，完整步驟指南。 |
+| [如何將 Markdown 從 Word 儲存 – 完整指南](./how-to-save-markdown-from-word-complete-guide/) |示範如何使用 Aspose.Words for .NET 將 Word 文件儲存為 Markdown，完整步驟指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

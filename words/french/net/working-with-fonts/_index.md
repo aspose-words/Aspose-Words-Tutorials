@@ -40,6 +40,7 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Définir les dossiers de polices avec priorité](./set-fonts-folders-with-priority/) | Apprenez à définir des dossiers de polices prioritaires dans vos documents Word avec Aspose.Words pour .NET. Notre guide garantit un rendu parfait de vos documents à chaque fois. |
 | [Définir le dossier des polices True Type](./set-true-type-fonts-folder/) | Apprenez à définir un dossier de polices True Type dans vos documents Word avec Aspose.Words pour .NET. Suivez notre guide détaillé étape par étape pour une gestion cohérente des polices. |
 | [Spécifier la police par défaut lors du rendu](./specify-default-font-when-rendering/) | Apprenez à spécifier une police par défaut lors du rendu de documents Word avec Aspose.Words pour .NET. Assur une apparence cohérente des documents sur toutes les plateformes. |
+| [Spécifier la police par défaut lors du rendu](./specify-default-font-when-rendering/) | Apprenez à spécifier une police par défaut lors du rendu de documents Word avec Aspose.Words pour .NET. Assurez une apparence cohérente des documents sur toutes les plateformes. |
 | [Paramètres de police avec options de chargement](./font-settings-with-load-options/) Apprenez à gérer les paramètres de police avec les options de chargement dans Aspose.Words pour .NET. Guide étape par étape pour les développeurs afin de garantir une apparence cohérente des polices dans les documents Word. |
 | [Définir le dossier des polices](./set-fonts-folder/) | Apprenez à définir un dossier de polices personnalisé dans Aspose.Words pour .NET pour garantir que vos documents Word sont rendus correctement sans polices manquantes. |
 | [Paramètres de police Instance par défaut](./font-settings-default-instance/) | Dans ce didacticiel, découvrez comment configurer les paramètres de police par défaut dans un document Word avec Aspose.Words pour .NET. |
@@ -49,6 +50,7 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Exemple de source de police Steam](./resource-steam-font-source-example/) | Apprenez à utiliser la source de polices Resource Stream pour charger des polices personnalisées dans Aspose.Words pour .NET. |
 | [Obtenir une substitution sans suffixes](./get-substitution-without-suffixes/) | Dans ce didacticiel, découvrez comment obtenir des remplacements sans suffixe dans un document Word avec Aspose.Words pour .NET. |
 | [Comment détecter les polices dans Aspose.Words – Gérer les avertissements et les paramètres](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Apprenez à détecter les polices, gérer les avertissements de police manquante et configurer les paramètres de police dans Aspose.Words pour .NET. |
+| [Comment capturer les polices dans Aspose.Words – Guide complet](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Apprenez à capturer les polices utilisées dans vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

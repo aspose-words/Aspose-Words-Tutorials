@@ -47,6 +47,7 @@
 | [استيفاء الصور في مستند PDF](./interpolate-images/) | تعلّم كيفية دمج الصور في مستند PDF باستخدام Aspose.Words for .NET من خلال دليلنا المفصل. حسّن جودة صور ملف PDF بسهولة. |
 | [حفظ ملف docx كـ pdf باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | دليل شامل خطوة بخطوة لتحويل ملفات docx إلى pdf باستخدام Aspose.Words في بيئة C#. |
 | [إنشاء ملف PDF يمكن الوصول إليه من Word باستخدام C# – دليل خطوة بخطوة](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words وC# باتباع دليلنا التفصيلي خطوة بخطوة. |
+| [إنشاء ملف PDF قابل للوصول في C# – دليل إمكانية الوصول إلى PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

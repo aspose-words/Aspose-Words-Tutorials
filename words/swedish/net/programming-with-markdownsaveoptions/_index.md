@@ -54,6 +54,11 @@ Lär dig exportera LaTeX från Word och konvertera DOCX till Markdown med Aspose
 
 ### [Konvertera Word till Markdown – Bädda in bilder som Base64](./convert-word-to-markdown-embed-images-as-base64/)
 Lär dig konvertera Word-dokument till Markdown och bädda in bilder som Base64‑strängar för enkel distribution.
+### [Hur man sparar Markdown från Word – Komplett C#-guide](./how-to-save-markdown-from-word-complete-c-guide/)
+Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett C#‑guide.
+
+### [Hur man sparar Markdown från Word – Komplett guide](./how-to-save-markdown-from-word-complete-guide/)
+Lär dig steg‑för‑steg hur du sparar Word‑dokument som Markdown med en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
