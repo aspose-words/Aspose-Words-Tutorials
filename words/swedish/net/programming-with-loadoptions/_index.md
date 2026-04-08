@@ -34,6 +34,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Ladda CHM-filer i Word-dokument](./load-chm/) | Ladda enkelt CHM-filer till Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för att konsolidera din tekniska dokumentation. |
 | [Återställ docx med Aspose.Words – steg för steg](./how-to-recover-docx-with-aspose-words-step-by-step/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words för .NET i en enkel steg-för-steg-guide. |
 | [Aspose Load Options – Ladda DOCX med anpassade teckensnittinställningar](./aspose-load-options-load-docx-with-custom-font-settings/) | Lär dig hur du laddar ett DOCX-dokument med egna teckensnittinställningar via Aspose Load Options i .NET. |
+| [Återställ korrupt DOCX – Komplett C#-guide för att reparera och spara filer](./recover-corrupted-docx-complete-c-guide-to-fix-and-save-file/) | Lär dig hur du reparerar skadade DOCX-filer och sparar dem igen med Aspose.Words för .NET i en komplett C#‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
