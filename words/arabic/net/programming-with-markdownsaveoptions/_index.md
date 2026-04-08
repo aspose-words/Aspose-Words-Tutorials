@@ -42,6 +42,8 @@
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
 
+### [حفظ Word كـ Markdown مع مجلد صور مخصص – دليل كامل](./save-word-as-markdown-with-custom-image-folder-full-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

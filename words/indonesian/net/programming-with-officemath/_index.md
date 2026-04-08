@@ -21,6 +21,7 @@ Tutorial Aspose.Words untuk .NET tentang Pemrosesan Kata dengan OfficeMath akan 
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Persamaan Matematika](./math-equations/) | Pelajari cara mengonfigurasi persamaan matematika dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh, Tanya Jawab Umum, dan banyak lagi. |
+| [Simpan docx sebagai txt – Ekspor Word Math ke LaTeX dalam C#](./save-docx-as-txt-export-word-math-to-latex-in-c/) | Pelajari cara mengekspor persamaan Word ke format LaTeX dan menyimpan dokumen docx sebagai file txt menggunakan C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
