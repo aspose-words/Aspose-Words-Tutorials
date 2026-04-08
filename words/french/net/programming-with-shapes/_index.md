@@ -26,7 +26,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | --- | --- |
 | [Ajouter une forme de groupe](./add-group-shape/) | Apprenez à ajouter des formes de groupe à des documents Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel complet, étape par étape. |
 | [Insérer une forme](./insert-shape/) | Apprenez à insérer et à manipuler des formes dans des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape. |
-| [Rapport hauteur/largeur verrouillé](./aspect-ratio-locked/) | Apprenez à verrouiller les proportions des formes dans vos documents Word avec Aspose.Words pour .NET. Suivez ce guide étape par étape pour conserver les proportions de vos images et formes. |
+| [Rapport hauteur/largeur verrouillé](./aspect-ratio-locked/) | Apprenez à verrouiller les proportions des formes dans vos documents Word avec Aspose.Words pour .NET. Suivez ce guide étape par étape pour conserver les proportions d'images et formes. |
 | [Disposition dans la cellule](./layout-in-cell/) | Apprenez à définir la disposition des cellules avec Aspose.Words pour .NET grâce à ce guide complet. Idéal pour les développeurs souhaitant personnaliser leurs documents Word. |
 | [Ajouter des coins coupés](./add-corners-snipped/) | Apprenez à ajouter une forme aux coins coupés à vos documents Word avec Aspose.Words pour .NET. Ce guide étape par étape vous permettra d'améliorer facilement vos documents. |
 | [Obtenir les points de limites de forme réels](./get-actual-shape-bounds-points/) | Découvrez comment obtenir les points limites des formes dans des documents Word avec Aspose.Words pour .NET. Apprenez à manipuler les formes avec précision grâce à ce guide détaillé. |
@@ -34,6 +34,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Détecter la forme d'une œuvre d'art intelligente](./detect-smart-art-shape/) | Découvrez comment détecter les formes SmartArt dans vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet. Idéal pour automatiser votre flux de travail documentaire. |
 | [Mettre à jour Smart Art Drawing](./update-smart-art-drawing/) | Apprenez à mettre à jour vos dessins Smart Art dans des documents Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Assurez-vous que vos visuels sont toujours précis. |
 | [Créer une forme rectangulaire dans Word avec Aspose.Words – Guide étape par étape](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Apprenez à créer une forme rectangulaire dans un document Word avec Aspose.Words grâce à ce guide détaillé étape par étape. |
+| [Créer une forme rectangulaire dans Word avec C# – Guide étape par étape](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Apprenez à créer une forme rectangulaire dans Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

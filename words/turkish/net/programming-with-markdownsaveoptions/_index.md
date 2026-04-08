@@ -32,6 +32,8 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [Word'den Markdown Dışa Aktarma – Tam C# Rehberi](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerini Markdown formatına dışa aktarmayı öğrenin. Tam C# rehberiyle adım adım ilerleyin. |
 | [DOCX'ten Markdown Kaydetme – Adım Adım Rehber](./how-to-save-markdown-from-docx-step-by-step-guide/) | Aspose.Words for .NET kullanarak DOCX dosyasını Markdown formatına kaydetmeyi adım adım öğrenin. |
 | [DOCX'ten Markdown Dışa Aktarma – Tam Rehber](./how-to-export-markdown-from-docx-complete-guide/) | Aspose.Words for .NET kullanarak DOCX dosyasını Markdown formatına dışa aktarmayı adım adım öğrenin. |
+| [Word'ten LaTeX Dışa Aktarma: DOCX'i Aspose ile Markdown'a Dönüştür](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX içeriğini dışa aktarın ve DOCX dosyalarını Markdown'a dönüştürün. |
+| [Word'ü Markdown'a Dönüştür – Görüntüleri Base64 Olarak Göm](./convert-word-to-markdown-embed-images-as-base64/) | Aspose.Words for .NET kullanarak Word belgelerini Markdown'a dönüştürürken görüntüleri Base64 kodlu olarak gömün. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
