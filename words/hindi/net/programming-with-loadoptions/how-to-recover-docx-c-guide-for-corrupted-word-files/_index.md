@@ -38,7 +38,7 @@ url: /hi/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrup
 
 ---
 
-## Prerequisites
+## ज़रूरी शर्तें
 
 शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
@@ -51,12 +51,12 @@ url: /hi/net/programming-with-loadoptions/how-to-recover-docx-c-guide-for-corrup
 
 ![Diagram illustrating how to recover docx using Aspose.Words](/images/recover-docx-diagram.png){: .center-image alt="docx को पुनर्प्राप्त करने की प्रक्रिया का अवलोकन"}
 
-## ## Aspose.Words के साथ docx को पुनर्प्राप्त करने का तरीका
+## ## Aspose.Words के साथ docx को रिकवर करने का तरीका
 
 **Why Aspose.Words?**  
 यह लाइब्रेरी एक बिल्ट‑इन `RecoveryMode` enum के साथ आती है जो टूटे हुए Word फ़ाइल में अभी भी मौजूद हिस्सों को पढ़ने की कोशिश कर सकता है। नेटिव `System.IO.Packaging` दृष्टिकोण के विपरीत, यह पहली त्रुटि पर अपवाद नहीं फेंकता—यह जितना संभव हो सके जोड़ने की कोशिश करता है। यही **recover corrupted word** हैंडलिंग का मूल है।
 
-### Step 1 – Choose a recovery mode
+### स्टेप 1 – रिकवरी मोड चुनें
 
 हम एक `LoadOptions` ऑब्जेक्ट बनाते हैं और `RecoveryMode` को `RecoverCorruptedDocument` पर सेट करते हैं। यह इंजन को सहनशील बनाता है।
 
@@ -74,7 +74,7 @@ LoadOptions loadOptions = new LoadOptions
 
 *Pro tip:* यदि आपको केवल एन्क्रिप्शन त्रुटियों को अनदेखा करना है, तो `IgnoreEncryption` एक और फ़्लैग है जिसे आप यहाँ जोड़ सकते हैं। लेकिन अधिकांश टूटे फ़ाइलों के लिए, `RecoverCorruptedDocument` ही सबसे उपयुक्त है।
 
-### Step 2 – Load the document with recovery
+### स्टेप 2 – रिकवरी के साथ डॉक्यूमेंट लोड करें
 
 अब हम संदिग्ध फ़ाइल का पाथ `Document` कंस्ट्रक्टर में पास करते हैं, साथ में हमारे `loadOptions` भी। यदि फ़ाइल आंशिक रूप से पढ़ी जा सकती है, तो Aspose.Words फिर भी एक `Document` ऑब्जेक्ट बनाता है।
 
@@ -86,7 +86,7 @@ Document doc = new Document(filePath, loadOptions);
 
 इस बिंदु पर आप `doc.IsEncrypted` या `doc.OriginalFormat` की जाँच कर सकते हैं यह सत्यापित करने के लिए कि वास्तव में क्या पार्स हुआ। लाइब्रेरी चुपचाप अनपढ़ हिस्सों को छोड़ देती है, और आपको वही मिल जाता है जो बचा है।
 
-### Step 3 – Get page count docx after recovery
+### स्टेप 3 – रिकवरी के बाद पेज काउंट docx पाएं
 
 रिकवरी के बाद डेवलपर्स को अक्सर सबसे ज़रूरी चीज़ होती है कि कितने पृष्ठ सफलतापूर्वक पुनर्स्थापित हुए। `PageCount` प्रॉपर्टी यही करती है।
 
@@ -98,7 +98,7 @@ Console.WriteLine($"Document recovered with {pageCount} page(s).");
 
 यदि मूल फ़ाइल में 10 पृष्ठ थे और केवल 7 बच पाए, तो `pageCount` 7 होगा। यह जानकारी अक्सर यह तय करने के लिए पर्याप्त होती है कि आप प्रोसेसिंग जारी रखें या उपयोगकर्ता से नई कॉपी माँगें।
 
-### Step 4 – Continue processing the recovered document
+### स्टेप 4 – रिकवर किए गए डॉक्यूमेंट को प्रोसेस करना जारी रखें
 
 अब आप `doc` को किसी भी सामान्य Word दस्तावेज़ की तरह व्यवहार कर सकते हैं: नई फ़ाइल के रूप में सहेजें, PDF में बदलें, टेक्स्ट निकालें, आदि। नीचे एक त्वरित उदाहरण है जो साफ़ कॉपी सहेजता है।
 
@@ -113,9 +113,9 @@ Console.WriteLine($"Recovered document saved to {cleanPath}");
 
 ---
 
-## ## Load docx with recovery options – deeper look
+## ## रिकवरी ऑप्शन के साथ docx लोड करें – और गहराई से देखें
 
-### Understanding `LoadOptions`
+### `LoadOptions` को समझना
 
 `LoadOptions` सिर्फ फ़्लैग्स का बैग नहीं है; यह आपको नियंत्रित करने की भी सुविधा देता है:
 
@@ -128,7 +128,7 @@ Console.WriteLine($"Recovered document saved to {cleanPath}");
 
 जब आप केवल **recover corrupted word** की परवाह करते हैं, तो आप अन्य प्रॉपर्टीज़ को उनके डिफ़ॉल्ट पर छोड़ सकते हैं। यदि बाद में आपको पासवर्ड‑प्रोटेक्टेड फ़ाइलों को सपोर्ट करना हो, तो बस `Password` भरें।
 
-### When recovery fails
+### जब रिकवरी फेल हो जाती है
 
 सबसे अच्छे रिकवरी इंजन की भी सीमाएँ होती हैं। यदि Aspose.Words `CorruptedFileException` फेंकता है, तो इसका मतलब है कि फ़ाइल की संरचना इतनी टूटी हुई है कि कोई उपयोगी पुनर्निर्माण संभव नहीं। ऐसे में:
 
@@ -138,7 +138,7 @@ Console.WriteLine($"Recovered document saved to {cleanPath}");
 
 ---
 
-## ## Get page count docx – why it matters
+## ## पेज काउंट docx पाएं – यह क्यों ज़रूरी है
 
 आप सोच सकते हैं, “रिकवरी के बाद पेज काउंट की परवाह क्यों?” यहाँ कुछ वास्तविक‑दुनिया के परिदृश्य हैं:
 
@@ -150,7 +150,7 @@ Console.WriteLine($"Recovered document saved to {cleanPath}");
 
 ---
 
-## ## Handling recover corrupted word – common pitfalls
+## ## खराब वर्ड को रिकवर करना – आम दिक्कतें
 
 | समस्या | लक्षण | समाधान |
 |---------|---------|-----|
@@ -161,7 +161,7 @@ Console.WriteLine($"Recovered document saved to {cleanPath}");
 
 ---
 
-## ## Tips for load word document c# projects
+## ## लोड वर्ड डॉक्यूमेंट c# प्रोजेक्ट्स के लिए टिप्स
 
 - **Cache the license**: एप्लिकेशन स्टार्टअप पर अपना Aspose.Words लाइसेंस एक बार लोड करें; बार‑बार कॉल करने से रिकवरी धीमी हो जाती है।  
 - **Parallel processing**: यदि आपके पास कई फ़ाइलें हैं, तो `Parallel.ForEach` का उपयोग करें और थ्रेड‑सेफ़ लाइसेंस इंस्टेंस के साथ बैच रिकवरी को तेज़ करें।  
@@ -170,7 +170,7 @@ Console.WriteLine($"Recovered document saved to {cleanPath}");
 
 ---
 
-## Conclusion
+## निष्कर्ष
 
 हमने **how to recover docx** फ़ाइलों को Aspose.Words का उपयोग करके कवर किया, **load docx with recovery** सेटिंग्स दिखायीं, **page count docx** निकाला, और सामान्य **recover corrupted word** किनारे के मामलों को संभाला। इस ज्ञान के साथ आप अब आत्मविश्वास से किसी भी C# एप्लिकेशन में “टूटा हुआ Word फ़ाइल ठीक करें” फीचर जोड़ सकते हैं और अपने दस्तावेज़ पाइपलाइन को सुचारु रूप से चलाते रह सकते हैं।
 

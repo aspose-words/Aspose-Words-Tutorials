@@ -27,54 +27,54 @@ url: /zh/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-pdf-acce
 
 # 在 C# 中创建可访问的 PDF – PDF 可访问性教程
 
-Ever wondered how to **create accessible PDF** files directly from your C# application? You're not the only one—developers across the globe are scrambling to meet PDF/UA‑2 standards without pulling their hair out.  
+您是否曾想过如何直接从 C# 应用程序创建无障碍 PDF 文件？您并非孤例——全球各地的开发者都在努力满足 PDF/UA-2 标准，却苦于无奈。
 
-The good news is that with a few lines of code you can tag PDF for accessibility, export as accessible PDF, and sleep easy knowing your documents are compliant. In this tutorial we’ll walk through everything you need, from project setup to verification, so you can confidently **create accessible PDF** files that work with screen readers and assistive technology.
+好消息是，只需几行代码，您就可以为 PDF 添加无障碍标签，导出为无障碍 PDF，然后安心地知道您的文档符合规范。在本教程中，我们将逐步讲解从项目设置到验证所需的一切，让您能够自信地创建可与屏幕阅读器和辅助技术兼容的无障碍 PDF 文件。
 
-## What You’ll Learn
+## 您将学到什么
 
-- How to install and reference the Aspose.PDF library for .NET.  
-- The exact code needed to **tag PDF for accessibility** using PDF/UA‑2 compliance.  
-- Tips for exporting an accessible PDF and validating the result.  
-- Common pitfalls and edge‑case handling when you **save document accessible pdf**.  
+- 如何安装和引用适用于 .NET 的 Aspose.PDF 库。
+- 使用 PDF/UA-2 规范为 PDF 添加无障碍标签所需的完整代码。
+- 导出无障碍 PDF 并验证结果的技巧。
+- 保存文档为无障碍 PDF 时常见的陷阱和特殊情况处理方法。
 
-No prior experience with PDF accessibility is required; just a working C# environment and a curiosity to make your documents inclusive.
+无需任何 PDF 无障碍方面的经验；只需一个可用的 C# 环境，以及对创建无障碍文档的好奇心即可。
 
-## Prerequisites
+## 前提条件
 
-Before we dive in, make sure you have:
+在开始之前，请确保您已具备以下条件：
 
-1. .NET 6.0 (or later) SDK installed.  
-2. Visual Studio 2022 (or any IDE you prefer).  
-3. An active Aspose.PDF for .NET license (the free trial works for testing).  
+1. 已安装 .NET 6.0（或更高版本）SDK。
+2. Visual Studio 2022（或您喜欢的任何 IDE）。
+3. 有效的 Aspose.PDF for .NET 许可证（免费试用版可用于测试）。
 
-If any of these are missing, pause now and get them set up—otherwise you’ll hit compilation errors later.
+如果缺少任何一项，请立即暂停并进行设置——否则稍后会遇到编译错误。
 
-![Create accessible PDF example](https://example.com/images/create-accessible-pdf.png "Create accessible PDF example")
+![创建无障碍 PDF 示例](https://example.com/images/create-accessible-pdf.png "创建无障碍 PDF 示例")
 
-> *Pro tip:* The free trial of Aspose.PDF includes full functionality, so you can test the entire workflow before purchasing a license.
+> *专业提示：* Aspose.PDF 的免费试用版包含所有功能，因此您可以在购买许可证之前测试整个工作流程。
 
-## Step 1 – Install Aspose.PDF via NuGet
+## 步骤 1 – 通过 NuGet 安装 Aspose.PDF
 
-The first thing you need is the PDF library that understands accessibility tags. Open your terminal or Package Manager Console and run:
+您首先需要的是能够识别辅助功能标签的 PDF 库。打开终端或程序包管理器控制台并运行：
 
 ```powershell
 dotnet add package Aspose.PDF
 ```
 
-Or, if you’re inside Visual Studio:
+或者，如果您在 Visual Studio 中：
 
 ```powershell
 Install-Package Aspose.PDF
 ```
 
-This pulls in the latest version (as of January 2026 it’s 23.9) which fully supports PDF/UA‑2 compliance.  
+这将引入最新版本（截至 2026 年 1 月为 23.9），该版本完全支持 PDF/UA-2 合规性。
 
-> *Why this matters:* Older versions only offered basic PDF generation; the newer builds include the `PdfCompliance.PdfUa2` enum we’ll need to **create accessible PDF** files.
+> *重要性：* 旧版本仅提供基本的 PDF 生成功能；新版本包含我们需要用来**创建无障碍 PDF** 文件的 `PdfCompliance.PdfUa2` 枚举。
 
-## Step 2 – Create or Load a Document
+## 步骤 2 – 创建或加载文档
 
-You can start from scratch or load an existing PDF that you want to make accessible. Here’s both approaches side by side:
+您可以从头开始创建，也可以加载一个现有的、需要使其无障碍的 PDF 文件。以下是两种方法的对比：
 
 ```csharp
 using Aspose.Pdf;
@@ -93,11 +93,11 @@ class Program
         // Document doc = new Document(@"C:\Docs\original.pdf");
 ```
 
-Notice the comment blocks—choose the path that fits your scenario. The `Document` class is the entry point for any PDF manipulation, and the `Page` object gives you a canvas to work on.
+请注意注释块——选择适合您场景的路径。`Document` 类是所有 PDF 操作的入口点，而 `Page` 对象则为您提供了一个工作画布。
 
-## Step 3 – Configure PDF Save Options for UA‑2 Compliance
+## 步骤 3 – 配置 PDF 保存选项以符合 UA-2 标准
 
-Now comes the heart of the tutorial: configuring the save options so the output is **tag PDF for accessibility** and meets the PDF/UA‑2 standard. This is the step that actually embeds the required structure tags.
+现在到了本教程的核心部分：配置保存选项，使输出的 PDF **添加辅助功能标签**，并符合 PDF/UA-2 标准。此步骤将实际嵌入所需的结构标签。
 
 ```csharp
         // Step 3: Prepare save options with UA‑2 compliance
@@ -115,11 +115,11 @@ Now comes the heart of the tutorial: configuring the save options so the output 
         };
 ```
 
-Setting `Compliance = PdfCompliance.PdfUa2` tells Aspose to generate the necessary logical structure (tags, language, reading order) automatically. The `DocumentInfo` section is a nice extra—screen readers read the title first, improving the user experience.
+设置 `Compliance = PdfCompliance.PdfUa2` 会指示 Aspose 自动生成必要的逻辑结构（标签、语言、阅读顺序）。`DocumentInfo` 部分是一个很棒的附加功能——屏幕阅读器会先朗读标题，从而提升用户体验。
 
-## Step 4 – Export as Accessible PDF
+## 步骤 4 – 导出为无障碍 PDF
 
-With the options ready, saving the file is a breeze. We’ll write the output to a folder called `Output` inside the project directory.
+选项准备就绪后，保存文件就非常简单了。我们将输出文件写入项目目录下的名为 `Output` 的文件夹中。
 
 ```csharp
         // Step 4: Save the document as an accessible PDF
@@ -131,32 +131,39 @@ With the options ready, saving the file is a breeze. We’ll write the output to
 }
 ```
 
-Running this program produces `Accessible.pdf`. Open it in Adobe Acrobat Reader and check **File > Properties > Description**—you’ll see “PDF/UA‑2” under the “PDF/A” tab, confirming that you have successfully **exported as accessible PDF**.
+运行此程序会生成 `Accessible.pdf` 文件。在 Adob​​e Acrobat Reader 中打开它，然后检查**文件 > 属性 > 描述**——您会在“PDF/A”选项卡下看到“PDF/UA-2”，这确认您已成功**导出为无障碍 PDF**。
 
-## Step 5 – Verify Accessibility (Optional but Recommended)
+## 步骤 5 – 验证无障碍性（可选，但推荐）
 
-Even though Aspose does most of the heavy lifting, it’s good practice to run a quick validation. Adobe Acrobat Pro offers a built‑in “Accessibility Check” that flags any missing tags or language attributes.
+尽管 Aspose 会完成大部分繁重的工作，但进行快速验证仍然是一个好习惯。Adobe Acrobat Pro 提供了一个内置的“无障碍检查”功能，可以标记任何缺失的标签或语言属性。
 
-1. Open `Accessible.pdf` in Acrobat Pro.  
-2. Choose **Tools > Accessibility > Full Check**.  
-3. Run the default settings; you should see a green checkmark or only minor warnings.
+1. 在 Acrobat Pro 中打开 `Accessible.pdf`。
 
-If you encounter warnings, you can programmatically add missing tags using the `StructureElements` API—but that’s beyond the scope of this quick tutorial. The key takeaway: after you **save document accessible pdf**, a simple validation ensures compliance before distribution.
+2. 选择**工具 > 无障碍 > 完整检查**。
 
-## Common Pitfalls & How to Avoid Them
+3. 运行默认设置；您应该会看到一个绿色对勾或只有一些轻微的警告。
 
-| Pitfall | Why it Happens | Fix |
+如果您遇到警告，可以使用 `StructureElements` API 以编程方式添加缺失的标签——但这超出了本快速教程的范围。关键要点：**保存可访问的 PDF 文档**后，简单的验证即可确保在分发前符合规范。
+
+## 常见陷阱及避免方法
+
+| 陷阱 | 原因 | 解决方法 |
+
 |---------|----------------|-----|
-| Missing `PdfCompliance.PdfUa2` | Default save options produce a plain PDF without tags. | Always set `Compliance = PdfCompliance.PdfUa2` before saving. |
-| Using an old Aspose.PDF version | Older releases don’t support PDF/UA‑2. | Update to the latest NuGet package (≥ 23.9). |
-| Forgetting to set document language | Assistive tech may read text in the wrong language. | Set `DocumentInfo.Language = "en-US"` or appropriate locale. |
-| Saving to a read‑only folder | File write fails silently in some environments. | Ensure the output directory exists and has write permissions. |
 
-Addressing these early saves you from endless debugging later on.
+| 缺少 `PdfCompliance.PdfUa2` | 默认保存选项会生成不带标签的纯 PDF。 | 保存前务必设置 `Compliance = PdfCompliance.PdfUa2`。 |
 
-## Full Working Example
+| 使用旧版本的 Aspose.PDF | 旧版本不支持 PDF/UA-2。 | 更新到最新的 NuGet 包（≥23.9）。 |
 
-Below is the complete, ready‑to‑run program that incorporates all the steps above. Copy‑paste it into a new console project and hit **F5**.
+| 忘记设置文档语言 | 辅助技术可能会读取错误的语言。 | 设置 `DocumentInfo.Language = "en-US"` 或相应的语言环境。 |
+
+| 保存到只读文件夹 | 在某些环境下，文件写入会静默失败。 | 确保输出目录存在且具有写入权限。 |
+
+及早解决这些问题可以避免日后无休止的调试。
+
+## 完整运行示例
+
+以下是包含上述所有步骤的完整程序，可直接运行。将其复制粘贴到新的控制台项目中，然后按 **F5** 键。
 
 ```csharp
 using System;
@@ -199,11 +206,11 @@ class AccessiblePdfCreator
 }
 ```
 
-Running this code yields an `Accessible.pdf` that is fully tagged, ready for distribution, and passes basic accessibility checks.
+运行此代码将生成一个已完全标记、可直接分发且通过基本辅助功能检查的 `Accessible.pdf` 文件。
 
-## Conclusion
+## 结论
 
-You now have a solid, end‑to‑end recipe to **create accessible PDF** files in C#. By installing Aspose.PDF, configuring `PdfSaveOptions` with `PdfCompliance.PdfUa2`, and exporting the result, you’ve learned how to **tag PDF for accessibility**, **export
+现在，您已经掌握了使用 C# 创建辅助功能 PDF 文件的完整流程。通过安装 Aspose.PDF、使用 `PdfCompliance.PdfUa2` 配置 `PdfSaveOptions` 并导出结果，您已经学会了如何为 PDF 添加辅助功能标记并导出文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

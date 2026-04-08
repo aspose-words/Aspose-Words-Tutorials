@@ -24,13 +24,13 @@ url: /ja/net/programming-with-shapes/aspose-words-shape-shadow-tutorial-add-a-sh
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape
+# Aspose.Words シェイプシャドウチュートリアル – Word シェイプに影を追加する
 
 Word の図形に **影を追加したい** が、どこから始めればいいか分からないことはありませんか？レポートやプレゼンテーション、マーケティング用パンフレットなどで、さりげない影が図を際立たせますが、Word の UI では手間がかかります。  
 
 良いニュースは、**Aspose.Words の図形影チュートリアル** が、手動で調整することなく、プログラムで影を思い通りにスタイル設定できる点です。このガイドでは、DOCX を読み込み、図形を見つけ、影のプロパティを調整し、結果を保存するまでを C# で解説します。最後まで読めば、任意の Aspose.Words プロジェクトに貼り付け可能な再利用可能なコードスニペットが手に入ります。
 
-## What You’ll Learn
+## 学習内容
 
 - Aspose.Words で DOCX を開き、最初の `Shape` ノードを取得する方法。  
 - 透明度、ぼかし、距離、角度、色を制御する `ShadowFormat` プロパティ。  
@@ -38,7 +38,7 @@ Word の図形に **影を追加したい** が、どこから始めればいい
 - よくある落とし穴（例：影が設定されていない図形、カラー スペースの問題）。  
 - コピー＆ペーストしてすぐに使える完全な実行例。
 
-### Prerequisites
+### 前提条件
 
 - **Aspose.Words for .NET**（バージョン 23.12 以上）を NuGet 経由でインストール済み。  
 - C# と .NET プロジェクト構成の基本的な理解。  
@@ -52,7 +52,7 @@ dotnet add package Aspose.Words
 
 それではコードを見ていきましょう。
 
-## Step 1 – Load the Source Document (Primary Keyword in Action)
+## ステップ 1 – ソースドキュメントを読み込む（プライマリキーワードの動作）
 
 最初に行うべきことは、変更したい文書を開くことです。このステップはシンプルですが非常に重要です。`Document` インスタンスが無ければ、以降の API 呼び出しは例外を投げます。
 
@@ -68,7 +68,7 @@ Document doc = new Document(@"YOUR_DIRECTORY\input.docx");
 > **Why this matters:**  
 > ファイルを読み込むことでメモリ上に DOM（Document Object Model）が生成されます。その後のノード走査はすべてこのモデルに対して行われるため、ここでのミスは空のツリーを検索することにつながります。
 
-## Step 2 – Retrieve the Target Shape
+## ステップ 2 – ターゲットシェイプを取得する
 
 複数の図形がある場合はもっと高度なセレクタが必要になることもありますが、ほとんどのチュートリアルでは最初の図形で概念を示すのに十分です。
 
@@ -85,7 +85,7 @@ if (shape == null)
 > **Pro tip:**  
 > `GetChild` の `isDeep` に `true` を指定すると文書全体を走査し、テーブルやグループ内にネストされた図形も取得できます。トップレベルの図形だけが対象なら `false` に設定してください。
 
-## Step 3 – Access and Adjust the Shadow Format
+## ステップ 3 – 影の書式にアクセスして調整する
 
 ここからが **add shadow to word shape** 操作の核心です。各 `Shape` には影のスタイル設定に必要なすべてを提供する `ShadowFormat` オブジェクトがあります。
 
@@ -101,9 +101,9 @@ shadow.Angle        = 45;     // Direction in degrees (0 = left, 90 = up)
 shadow.Color        = Color.Black; // Classic black shadow
 ```
 
-### What Each Property Does
+### 各プロパティの機能
 
-| Property | Effect | Typical Range |
+| プロパティ | 効果 | 標準範囲 |
 |----------|--------|---------------|
 | **Transparency** | 不透明度を制御します。`0` は完全に不透明、`1` は透明です。 | 0.0 – 0.9 |
 | **BlurRadius** | 影のエッジのぼやけ具合を決定します。数値が大きいほど光源が柔らかくなります。 | 0 – 10 |
@@ -114,7 +114,7 @@ shadow.Color        = Color.Black; // Classic black shadow
 > **Why you should adjust these:**  
 > 平坦でハードエッジの影は安っぽく見えます。`BlurRadius` と `Transparency` を調整することで、実際の照明を模した自然でプロフェッショナルな外観が得られます。
 
-## Step 4 – Save the Document and Verify the Result
+## ステップ 4 – ドキュメントを保存して結果を確認する
 
 影の調整が終わったら、単にファイルを保存します。元のファイルを上書きしても、新しい出力ファイルを作成しても構いません。
 
@@ -128,7 +128,7 @@ System.Diagnostics.Process.Start(@"YOUR_DIRECTORY\output.docx");
 
 `output.docx` を開くと、同じ図形に対して設定したソフトで角度のある影が適用されていることが確認できます。
 
-### Expected Visual Outcome
+### 期待される視覚的結果
 
 ![Word shape with a soft black shadow applied using Aspose.Words](/images/shape-shadow-example.png "Aspose.Words shape shadow tutorial – shadow preview")
 
@@ -136,9 +136,9 @@ System.Diagnostics.Process.Start(@"YOUR_DIRECTORY\output.docx");
 
 影が薄すぎる場合は `Transparency` を低い値（例：`0.15`）に上げてください。影が鋭すぎる場合は `BlurRadius` を `8` や `10` に上げて調整します。デザインに合う最適なバランスになるまで試してみましょう。
 
-## Step 5 – Handling Edge Cases and Variations
+## ステップ 5 – 特殊なケースとバリエーションの処理
 
-### Multiple Shapes
+### 複数のシェイプ
 
 文書に複数の図形があり、特定の図形（例：名前が付いた画像）のみを対象にしたい場合は LINQ クエリを使用します。
 
@@ -154,7 +154,7 @@ if (targetShape != null)
 }
 ```
 
-### No Existing Shadow
+### 既存の影がない場合
 
 一部の図形は `ShadowFormat.IsVisible = false` で開始します。影を表示させるには `IsVisible` を `true` に設定してください。
 
@@ -162,7 +162,7 @@ if (targetShape != null)
 shadow.IsVisible = true;
 ```
 
-### Color Compatibility
+### 色の互換性
 
 カラー影（例：青いグロー）が必要な場合は、半透明の色を選択します。
 
@@ -170,11 +170,11 @@ shadow.IsVisible = true;
 shadow.Color = Color.FromArgb(128, 0, 0, 255); // 50 % transparent blue
 ```
 
-### Compatibility with Older Word Versions
+### 旧バージョンの Word との互換性
 
 Aspose.Words は影データを Word 2007 以降で動作する形式で書き込みます。ただし、非常に古いバージョン（Word 2003）では `BlurRadius` などのプロパティが無視されます。これらをサポートする必要がある場合は、ぼかしを低めに設定し、出力結果をテストしてください。
 
-## Full Working Example
+## 完全な動作例
 
 以下はコンソール アプリに貼り付けて実行できる完全なプログラムです。すべての手順、エラーハンドリング、コメントが含まれています。
 
@@ -225,7 +225,7 @@ namespace ShapeShadowDemo
 
 プログラムを実行し、`output.docx` を開くと、洗練された影効果が確認できます。これが **Aspose.Words shape shadow tutorial** の全容です。
 
-## Conclusion
+## まとめ
 
 今回、C# を使用して **Aspose.Words shape shadow tutorial** を実装し、Word の図形に **add shadow to a Word shape** する方法を学びました。文書の読み込み、図形の取得、`ShadowFormat` の調整、保存と検証まで、各ステップの背後にある理由も解説しました。  
 

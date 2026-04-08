@@ -43,7 +43,7 @@ url: /zh-hant/net/programming-with-officemath/save-docx-as-txt-export-word-math-
 
 ---
 
-## Prerequisites
+## 前提條件
 
 在開始之前，請確保您具備以下條件：
 
@@ -58,7 +58,7 @@ url: /zh-hant/net/programming-with-officemath/save-docx-as-txt-export-word-math-
 
 ---
 
-## Step 1: Load the Source Document (Primary Keyword in Action)
+## 步驟 1：載入來源文件（主關鍵字範例）
 
 首先，您需要透過載入原始 Word 檔案，取得 **save docx as txt** 相容的輸入。
 
@@ -85,7 +85,7 @@ class Program
 
 ---
 
-## Step 2: Configure TXT Save Options – Export Math as LaTeX
+## 步驟 2：設定 TXT 儲存選項 – 將數學公式匯出為 LaTeX 格式
 
 接著告訴 Aspose，當我們 **save docx as txt** 時，所有數學都應以 LaTeX 形式輸出。這正是 `OfficeMathExportMode` 發揮作用的地方。
 
@@ -102,7 +102,7 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 
 ---
 
-## Step 3: Save the Document as a Plain‑Text File
+## 步驟 3：將文件另存為純文字文件
 
 設定完成後，最後一步就是實際 **save docx as txt**。輸出將是一個 `.txt` 檔案，普通段落以一般文字呈現，且每個方程式皆以 `$…$`（行內）或 `$$…$$`（區塊）包圍的 LaTeX 代碼顯示。
 
@@ -116,7 +116,7 @@ doc.Save(outputPath, txtOptions);
 Console.WriteLine($"Document successfully saved as txt at: {outputPath}");
 ```
 
-### Expected Output
+### 預期輸出
 
 若 `MathSample.docx` 中包含方程式 *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}*，產生的 `MathSample.txt` 會出現類似以下的行：
 
@@ -128,7 +128,7 @@ $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 ---
 
-## Full Working Example (All Steps Combined)
+## 完整範例（所有步驟的組合）
 
 以下是完整、獨立的程式範例。將它貼到新的 Console App 專案中，調整檔案路徑後執行，即可立即運作。
 
@@ -167,7 +167,7 @@ namespace DocxToTxtWithLatex
 
 ---
 
-## Frequently Asked Questions & Edge Cases
+## 常見問題及特殊狀況
 
 ### 1. 我的文件包含 *嵌套* 方程式怎麼辦？
 嵌套的 Office Math 物件（例如根號內的分式）全部支援。Aspose 會遍歷方程式樹並輸出正確的嵌套 LaTeX 語法。只要使用 Aspose.Words 24.5 以上版本；舊版可能會遺失部分嵌套。
@@ -186,7 +186,7 @@ Word Interop 會直接剝除 Office Math，留下亂碼。Aspose 的 `OfficeMath
 
 ---
 
-## Pro Tips & Best Practices
+## 專業技巧及最佳實踐
 
 | 小技巧 | 為什麼有幫助 |
 |--------|------------|
@@ -198,7 +198,7 @@ Word Interop 會直接剝除 Office Math，留下亂碼。Aspose 的 `OfficeMath
 
 ---
 
-## Conclusion
+## 結論
 
 我們已示範如何在 **save docx as txt** 的同時，保留每個方程式為乾淨的 LaTeX——這正是您在 **convert word to txt** 後端科學管線所需要的。只要將 `OfficeMathExportMode` 設為 `LaTeX`，即可在 Microsoft Word 與任何 LaTeX 工作流程之間建立可靠的橋樑，無論是研究論文產生器或學習管理系統。
 

@@ -45,24 +45,17 @@ By the end you’ll be able to **save docx as txt** with LaTeX math, ready for a
 
 ---
 
-## Prerequisites
+## Vereisten
 
-Before we dive in, make sure you have:
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
 
-| Requirement | Reason |
-|-------------|--------|
-| **Aspose.Words for .NET** (v24.5 or later) | Provides `TxtSaveOptions` and the `OfficeMathExportMode` enum. |
-| **.NET 6.0+** (or .NET Framework 4.7.2+) | Required runtime for the library. |
-| A sample **.docx** containing at least one equation | To see the LaTeX conversion in action. |
-| Visual Studio 2022 (or any IDE you prefer) | For easy project setup. |
+| Vereiste | Reden |
 
-That’s it—no extra NuGet packages beyond Aspose.Words.
+| ... ---
 
----
+## Stap 1: Het brondocument laden (Primaire sleutelwoord in actie)
 
-## Step 1: Load the Source Document (Primary Keyword in Action)
-
-The first thing you need to do is **save docx as txt**‑compatible input by loading the original Word file.
+De eerste stap is het opslaan van een docx-bestand als txt-bestand door het originele Word-bestand te laden.
 
 ```csharp
 using Aspose.Words;
@@ -83,13 +76,13 @@ class Program
 }
 ```
 
-> **Why this matters:** Loading the document gives you access to the internal `OfficeMath` objects, which you’ll later ask Aspose to render as LaTeX. Skipping this step would make it impossible to **how to export math** correctly.
+> **Waarom dit belangrijk is:** Door het document te laden krijgt u toegang tot de interne `OfficeMath`-objecten, die u later aan Aspose vraagt ​​om als LaTeX weer te geven. Als u deze stap overslaat, is het onmogelijk om **wiskundige formules correct te exporteren**.
 
 ---
 
-## Step 2: Configure TXT Save Options – Export Math as LaTeX
+## Stap 2: TXT-opslagopties configureren – Wiskundige formules exporteren als LaTeX
 
-Now we tell Aspose that when we **save docx as txt**, any math should be emitted as LaTeX code. This is where the `OfficeMathExportMode` comes into play.
+Nu vertellen we Aspose dat wanneer we een docx-bestand opslaan als txt, alle wiskundige formules als LaTeX-code moeten worden weergegeven. Dit is waar de `OfficeMathExportMode` in beeld komt.
 
 ```csharp
 // Step 2: Create TXT save options with LaTeX export for equations
@@ -100,13 +93,13 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 };
 ```
 
-> **Pro tip:** If you omit `OfficeMathExportMode`, Aspose will fall back to a plain‑text representation (often Unicode symbols) which looks messy in most LaTeX pipelines. Setting it to `LaTeX` is the recommended way to **convert word equations latex** reliably.
+**Pro-tip:** Als u `OfficeMathExportMode` weglaat, zal Aspose terugvallen op een weergave in platte tekst (vaak Unicode-symbolen), wat er in de meeste LaTeX-pipelines rommelig uitziet. Het instellen op `LaTeX` is de aanbevolen manier om **woordvergelijkingen betrouwbaar naar LaTeX te converteren**.
 
 ---
 
-## Step 3: Save the Document as a Plain‑Text File
+## Stap 3: Sla het document op als een platte tekstbestand
 
-With the options ready, the final step is to actually **save docx as txt**. The output will be a `.txt` file where regular paragraphs appear as ordinary text and every equation appears as a LaTeX block surrounded by `$…$` or `$$…$$` depending on its inline/block nature.
+Nu de opties klaar zijn, is de laatste stap het daadwerkelijk **opslaan van het docx-bestand als txt**. De uitvoer is een `.txt`-bestand waarin gewone alinea's als gewone tekst worden weergegeven en elke vergelijking als een LaTeX-blok wordt weergegeven, omgeven door `$…$` of `$$…$$`, afhankelijk van of het een inline- of blokvergelijking betreft.
 
 ```csharp
 // Step 3: Define the output path and save the document
@@ -118,21 +111,21 @@ doc.Save(outputPath, txtOptions);
 Console.WriteLine($"Document successfully saved as txt at: {outputPath}");
 ```
 
-### Expected Output
+### Verwachte uitvoer
 
-If `MathSample.docx` contained an equation like *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}*, the resulting `MathSample.txt` will include a line similar to:
+Als `MathSample.docx` een vergelijking bevat zoals *x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}*, dan zal het resulterende `MathSample.txt` een regel bevatten die lijkt op:
 
 ```
 $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 ```
 
-All surrounding text remains untouched, making the file ready for downstream text processing or LaTeX compilation.
+Alle omringende tekst blijft ongewijzigd, waardoor het bestand klaar is voor verdere tekstverwerking of LaTeX-compilatie.
 
 ---
 
-## Full Working Example (All Steps Combined)
+## Volledig werkend voorbeeld (alle stappen gecombineerd)
 
-Below is the complete, self‑contained program. Copy‑paste it into a new Console App project, adjust the file paths, and run—it should work out of the box.
+Hieronder vindt u het complete, zelfstandige programma. Kopieer het naar een nieuw Console App-project, pas de bestandspaden aan en voer het uit — het zou direct moeten werken.
 
 ```csharp
 using System;
@@ -165,52 +158,55 @@ namespace DocxToTxtWithLatex
 }
 ```
 
-Run the program, open `MathSample.txt`, and you’ll see your regular text plus LaTeX‑formatted equations. That’s the whole **save docx as txt** workflow.
+Voer het programma uit, open `MathSample.txt` en u ziet uw gewone tekst plus de in LaTeX opgemaakte vergelijkingen. Dat is de volledige workflow voor het opslaan van een docx-bestand als een txt-bestand.
 
 ---
 
-## Frequently Asked Questions & Edge Cases
+## Veelgestelde vragen en uitzonderingen
 
-### 1. What if my document contains *nested* equations?
-Nested Office Math objects (e.g., a fraction inside a square root) are fully supported. Aspose traverses the equation tree and emits the correct nested LaTeX syntax. Just make sure you’re using Aspose.Words 24.5+; older versions may drop some nesting.
+### 1. Wat als mijn document *geneste* vergelijkingen bevat?
 
-### 2. My equations contain symbols that don’t have a LaTeX equivalent. What happens?
-Aspose attempts a best‑effort conversion. If a symbol isn’t recognized, it falls back to the Unicode character. You can post‑process the resulting `.txt` to replace those symbols manually or use a custom mapping function.
+Geneste Office Math-objecten (bijv. een breuk in een wortel) worden volledig ondersteund. Aspose doorloopt de vergelijkingsboom en genereert de correcte geneste LaTeX-syntaxis. Zorg er wel voor dat u Aspose.Words24.5 of hoger gebruikt; oudere versies kunnen bepaalde geneste structuren negeren.
 
-### 3. Can I control the delimiter style (`$…$` vs `$$…$$`)?
-The library currently uses inline `$…$` for inline equations and `$$…$$` for display (block) equations. If you need a different convention, you can run a simple string replace on the output file after saving.
+### 2. Mijn vergelijkingen bevatten symbolen die geen LaTeX-equivalent hebben. Wat gebeurt er?
 
-### 4. Does this approach work on macOS/Linux?
-Yes—Aspose.Words for .NET is cross‑platform when running on .NET 6+. Just adjust the file paths to use forward slashes or `Path.Combine`.
+Aspose probeert een zo goed mogelijke conversie uit te voeren. Als een symbool niet wordt herkend, wordt teruggevallen op het Unicode-teken. U kunt het resulterende `.txt`-bestand nabewerken om die symbolen handmatig te vervangen of een aangepaste mappingfunctie gebruiken.
 
-### 5. How does this differ from a plain **convert word to txt** using Word Interop?
-Word Interop can strip out Office Math entirely, leaving you with garbled characters. Aspose’s `OfficeMathExportMode.LaTeX` preserves the mathematical meaning, which is essential for scientific workflows.
+### 3. Kan ik de stijl van de scheidingstekens (`$…$` versus `$$…$$`) aanpassen?
 
----
+De bibliotheek gebruikt momenteel inline `$…$` voor inline vergelijkingen en `$$…$$` voor weergavevergelijkingen (blokvergelijkingen). Als u een andere conventie nodig hebt, kunt u na het opslaan een eenvoudige tekenreeksvervanging uitvoeren op het uitvoerbestand.
 
-## Pro Tips & Best Practices
+### 4. Werkt deze aanpak op macOS/Linux?
 
-| Tip | Why It Helps |
-|-----|--------------|
-| **Use the latest Aspose.Words version** | Newer releases fix edge‑case bugs in equation parsing and improve LaTeX fidelity. |
-| **Validate the output with a LaTeX compiler** | A quick `pdflatex` run on the generated file catches malformed equations early. |
-| **Batch process multiple .docx files** | Wrap the code in a `foreach (var file in Directory.GetFiles(..., "*.docx"))` loop to automate large migrations. |
-| **Log the conversion status** | Write the count of equations converted to a log file; useful for audit trails. |
-| **Combine with a spell‑checker** | After conversion, run a simple text‑spell check to clean up any stray symbols. |
+Ja, Aspose.Words voor .NET is platformonafhankelijk wanneer het wordt uitgevoerd op .NET 6 of hoger. Pas de bestandspaden aan zodat ze schuine strepen naar voren gebruiken of gebruik `Path.Combine`.
+
+### 5. Wat is het verschil met een gewone **conversie van Word naar TXT** met behulp van Word Interop?
+
+Word Interop kan Office Math volledig verwijderen, waardoor u onleesbare tekens overhoudt. Aspose's `OfficeMathExportMode.LaTeX` behoudt de wiskundige betekenis, wat essentieel is voor wetenschappelijke workflows.
 
 ---
 
-## Conclusion
+## Pro-tips en beste werkwijzen
 
-We’ve just shown you how to **save docx as txt** while preserving every equation as clean LaTeX—exactly what you need when you **convert word to txt** for scientific pipelines. By setting `OfficeMathExportMode` to `LaTeX`, you get a reliable bridge between Microsoft Word and any LaTeX‑based workflow, be it a research paper generator or a learning‑management system.
+| Tip | Waarom het helpt |
 
-Now that you’ve mastered this conversion, why not explore related topics? You could:
+| ... Na de conversie kunt u een eenvoudige spellingcontrole uitvoeren om eventuele ongewenste symbolen te verwijderen. |
 
-* **How to export math** from PowerPoint slides using Aspose.Slides.  
-* **Convert Word equations to MathML** for web‑based rendering.  
-* Automate a bulk **docx math to latex** migration across a document repository.
+---
 
-Give it a try, tweak the code for your own environment, and let us know how it went. Happy coding, and may your LaTeX always compile on the first run!
+## Conclusie
+
+We hebben u zojuist laten zien hoe u **docx-bestanden als txt kunt opslaan** en tegelijkertijd elke vergelijking als schone LaTeX kunt behouden – precies wat u nodig hebt wanneer u **Word-bestanden naar txt converteert** voor wetenschappelijke workflows. Door `OfficeMathExportMode` in te stellen op `LaTeX`, krijgt u een betrouwbare verbinding tussen Microsoft Word en elke op LaTeX gebaseerde workflow, of het nu een tool voor het genereren van wetenschappelijke artikelen of een leerbeheersysteem is.
+
+Nu u deze conversie onder de knie hebt, kunt u zich verdiepen in gerelateerde onderwerpen. U kunt bijvoorbeeld:
+
+* **Wiskundige formules exporteren** vanuit PowerPoint-dia's met Aspose.Slides.
+
+* **Word-vergelijkingen converteren naar MathML** voor weergave op het web.
+
+* Een bulkmigratie van **docx-wiskundige formules naar LaTeX** automatiseren in een documentrepository.
+
+Probeer het eens, pas de code aan je eigen omgeving aan en laat ons weten hoe het gegaan is. Veel plezier met programmeren, en moge je LaTeX altijd in één keer compileren!
 
 ---
 

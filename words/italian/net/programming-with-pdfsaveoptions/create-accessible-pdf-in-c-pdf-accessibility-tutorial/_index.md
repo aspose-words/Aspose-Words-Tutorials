@@ -56,7 +56,7 @@ Se manca qualcosa, fermati ora e sistemalo—altrimenti incontrerai errori di co
 
 > *Consiglio professionale:* La versione di prova gratuita di Aspose.PDF include tutte le funzionalità, così puoi testare l'intero flusso di lavoro prima di acquistare una licenza.
 
-## Step 1 – Install Aspose.PDF via NuGet
+## Passaggio 1 – Installare Aspose.PDF tramite NuGet
 
 La prima cosa di cui hai bisogno è la libreria PDF che comprende i tag di accessibilità. Apri il terminale o la Console di Gestione Pacchetti e esegui:
 
@@ -74,7 +74,7 @@ Questo scarica l'ultima versione (a gennaio 2026 è la 23.9) che supporta pi
 
 > *Perché è importante:* Le versioni più vecchie offrivano solo la generazione di PDF di base; le versioni più recenti includono l'enumerazione `PdfCompliance.PdfUa2` di cui avremo bisogno per **creare PDF accessibili**.
 
-## Step 2 – Create or Load a Document
+## Passaggio 2 – Creare o caricare un documento
 
 Puoi partire da zero o caricare un PDF esistente che desideri rendere accessibile. Ecco entrambe le soluzioni affiancate:
 
@@ -97,7 +97,7 @@ class Program
 
 Nota i blocchi di commento—scegli il percorso che meglio si adatta al tuo scenario. La classe `Document` è il punto di ingresso per qualsiasi manipolazione PDF, e l'oggetto `Page` ti fornisce una tela su cui lavorare.
 
-## Step 3 – Configure PDF Save Options for UA‑2 Compliance
+## Passaggio 3 – Configurare le opzioni di salvataggio PDF per la conformità UA-2
 
 Ora arriva il cuore del tutorial: configurare le opzioni di salvataggio affinché l'output sia **tag PDF for accessibility** e rispetti lo standard PDF/UA‑2. Questo è il passaggio che effettivamente inserisce i tag di struttura richiesti.
 
@@ -119,7 +119,7 @@ Ora arriva il cuore del tutorial: configurare le opzioni di salvataggio affinch�
 
 Impostare `Compliance = PdfCompliance.PdfUa2` indica ad Aspose di generare automaticamente la struttura logica necessaria (tag, lingua, ordine di lettura). La sezione `DocumentInfo` è un extra utile—gli screen reader leggono prima il titolo, migliorando l'esperienza utente.
 
-## Step 4 – Export as Accessible PDF
+## Passaggio 4 – Esportare come PDF accessibile
 
 Con le opzioni pronte, salvare il file è un gioco da ragazzi. Scriveremo l'output in una cartella chiamata `Output` all'interno della directory del progetto.
 
@@ -135,7 +135,7 @@ Con le opzioni pronte, salvare il file è un gioco da ragazzi. Scriveremo l'outp
 
 Eseguendo questo programma otterrai `Accessible.pdf`. Aprilo in Adobe Acrobat Reader e controlla **File > Proprietà > Descrizione**—vedrai “PDF/UA‑2” nella scheda “PDF/A”, confermando che hai **esportato come PDF accessibile** con successo.
 
-## Step 5 – Verify Accessibility (Optional but Recommended)
+## Passaggio 5 – Verificare l'accessibilità (facoltativo ma consigliato)
 
 Anche se Aspose si occupa della maggior parte del lavoro, è buona pratica eseguire una rapida validazione. Adobe Acrobat Pro offre un “Controllo Accessibilità” integrato che segnala eventuali tag o attributi di lingua mancanti.
 
@@ -145,7 +145,7 @@ Anche se Aspose si occupa della maggior parte del lavoro, è buona pratica esegu
 
 Se incontri avvisi, puoi aggiungere programmaticamente i tag mancanti usando l'API `StructureElements`—ma questo va oltre lo scopo di questo breve tutorial. L'insegnamento chiave: dopo aver **salvato un documento PDF accessibile**, una semplice validazione garantisce la conformità prima della distribuzione.
 
-## Common Pitfalls & How to Avoid Them
+## Errori comuni e come evitarli
 
 | Problema | Perché accade | Soluzione |
 |----------|----------------|-----------|
@@ -156,7 +156,7 @@ Se incontri avvisi, puoi aggiungere programmaticamente i tag mancanti usando l'A
 
 Affrontare questi problemi fin dall'inizio ti evita ore di debug interminabili in seguito.
 
-## Full Working Example
+## Esempio completo funzionante
 
 Di seguito trovi il programma completo, pronto per l'esecuzione, che incorpora tutti i passaggi descritti. Copialo in un nuovo progetto console e premi **F5**.
 
@@ -203,7 +203,7 @@ class AccessiblePdfCreator
 
 Eseguendo questo codice otterrai un `Accessible.pdf` completamente taggato, pronto per la distribuzione e conforme ai controlli di accessibilità di base.
 
-## Conclusion
+## Conclusione
 
 Ora disponi di una ricetta solida, end‑to‑end, per **creare PDF accessibili** in C#. Installando Aspose.PDF, configurando `PdfSaveOptions` con `PdfCompliance.PdfUa2` ed esportando il risultato, hai imparato come **tag PDF for accessibility**, **export
 

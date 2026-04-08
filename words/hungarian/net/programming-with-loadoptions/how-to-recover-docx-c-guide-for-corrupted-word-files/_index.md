@@ -38,7 +38,7 @@ Ebben az útmutatóban egy gyakorlati megoldáson megyünk keresztül a **Aspose
 
 ---
 
-## Prerequisites
+## Előfeltételek
 
 Mielőtt belevágnánk, győződj meg róla, hogy rendelkezel a következőkkel:
 
@@ -53,12 +53,12 @@ Ennyi. Nem szükséges semmilyen extra NuGet csomag a `Aspose.Words`‑en kívü
 
 ---
 
-## ## hogyan állítsuk helyre a docx az Aspose.Words‑szal
+## ## hogyan állítsuk helyre a docx fájlt az Aspose.Words‑szal
 
 **Miért Aspose.Words?**  
 A könyvtár beépített `RecoveryMode` enum‑mal rendelkezik, amely megpróbálja beolvasni mindazt, ami még érintetlen egy sérült Word fájlban. A natív `System.IO.Packaging` megközelítéssel ellentétben nem dob kivételt az első hiba jelzésénél – megpróbálja összerakni, amit csak tud. Ez a **recover corrupted word** kezelésének a lényege.
 
-### Step 1 – Choose a recovery mode
+### 1. lépés – Helyreállítási mód kiválasztása
 
 Először létrehozunk egy `LoadOptions` objektumot, és beállítjuk a `RecoveryMode`‑t `RecoverCorruptedDocument`‑re. Ez azt mondja a motornak, hogy legyen engedékeny.
 
@@ -76,7 +76,7 @@ LoadOptions loadOptions = new LoadOptions
 
 *Pro tip:* Ha csak a titkosítási hibákat szeretnéd figyelmen kívül hagyni, a `IgnoreEncryption` egy másik flag, amelyet itt kombinálhatsz. De a legtöbb törött fájl esetén a `RecoverCorruptedDocument` a megfelelő választás.
 
-### Step 2 – Load the document with recovery
+### 2. lépés – A dokumentum betöltése helyreállítással
 
 Most a gyanús fájl útvonalát adjuk át a `Document` konstruktorának, a `loadOptions`‑t felhasználva. Ha a fájl részben olvasható, az Aspose.Words még mindig létrehoz egy `Document` objektumot.
 
@@ -88,7 +88,7 @@ Document doc = new Document(filePath, loadOptions);
 
 Ekkor ellenőrizheted a `doc.IsEncrypted` vagy a `doc.OriginalFormat` értékét, hogy lásd, mi került ténylegesen beolvasásra. A könyvtár csendben kihagyja a nem olvasható részeket, és csak a megmaradtakat hagyja meg.
 
-### Step 3 – Get page count docx after recovery
+### 3. lépés – Oldalszám lekérése docx fájlban a helyreállítás után
 
 A leggyakoribb igény a helyreállítás után a sikeresen visszaállított oldalak száma. A `PageCount` tulajdonság pontosan ezt adja vissza.
 
@@ -100,7 +100,7 @@ Console.WriteLine($"Document recovered with {pageCount} page(s).");
 
 Ha az eredeti fájl 10 oldalas volt, és csak 7 maradt meg, a `pageCount` értéke 7 lesz. Ez az információ gyakran elegendő ahhoz, hogy eldöntsd, folytathatod-e a feldolgozást, vagy friss másolatot kell kérned a felhasználótól.
 
-### Step 4 – Continue processing the recovered document
+### 4. lépés – A helyreállított dokumentum feldolgozásának folytatása
 
 Innen már úgy kezelheted a `doc`‑ot, mint bármely más Word dokumentumot: mentheted új fájlként, konvertálhatod PDF‑be, kinyerheted a szöveget stb. Az alábbi gyors példa egy tiszta másolat mentését mutatja.
 
@@ -115,22 +115,23 @@ Ez a teljes **load word document c#** munkafolyamat egy sérült forrás esetén
 
 ---
 
-## ## Load docx with recovery options – mélyebb betekintés
+## ## Docx betöltése helyreállítási lehetőségekkel – mélyebb besorolás
 
-### Understanding `LoadOptions`
+### A `LoadOptions` ismertetése
 
 A `LoadOptions` nem csak egy zászlók gyűjteménye; lehetővé teszi a következők szabályozását:
 
-| Property | What it does | Typical value for recovery |
-|----------|--------------|----------------------------|
-| `Password` | Supplies a password for encrypted files | `null` unless needed |
-| `LoadFormat` | Forces a specific file format | `LoadFormat.Docx` (optional) |
-| `Encoding` | Sets character encoding for plain‑text imports | Default UTF‑8 |
-| `RecoveryMode` | Determines how aggressively to fix errors | `RecoverCorruptedDocument` |
+| Tulajdonság | Mit csinál | Tipikus érték a helyreállításhoz |
+
+-----------|----------------|--------------------------|
+| `Password` | Jelszót ad a titkosított fájlokhoz | `null` szükségtelenül |
+| `LoadFormat` | Adott fájlformátum kikényszerítése | `LoadFormat.Docx` (opcionális) |
+| `Kódolás` | Beállítja a sima szöveges import karakterkódolását | Alapértelmezett UTF-8 |
+| `RecoveryMode` | Meghatározza, hogy milyen agresszívan kell kijavítani a hibákat | `RecoverCorruptedDocument` |
 
 Ha csak a **recover corrupted word** funkcióra van szükséged, a többi tulajdonságot hagyhatod az alapértelmezett értéken. Ha később jelszóval védett fájlokat is támogatni szeretnél, egyszerűen töltsd ki a `Password` mezőt.
 
-### When recovery fails
+### Ha a helyreállítás sikertelen
 
 Még a legjobb helyreállító motor is korlátokkal rendelkezik. Ha az Aspose.Words `CorruptedFileException`‑t dob, az azt jelenti, hogy a fájl szerkezete túlzottan sérült ahhoz, hogy bármilyen hasznos rekonstrukciót végezzen. Ilyenkor:
 

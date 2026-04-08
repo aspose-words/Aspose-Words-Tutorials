@@ -32,7 +32,7 @@ url: /ru/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 
 Мы рассмотрим всё необходимое: загрузку `.docx`, извлечение изображений, создание **папки ресурсов**, и, наконец, запись markdown‑файла. К концу вы получите готовый фрагмент кода, который можно вставить в любое C#‑приложение консоли или веб‑приложение.
 
-## Prerequisites
+## Предварительные условия
 
 Прежде чем погрузиться в детали, убедитесь, что у вас есть:
 
@@ -43,7 +43,7 @@ url: /ru/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 
 Дополнительные пакеты NuGet не требуются, кроме Aspose.Words.
 
-## Step 1 – Load the Source Document
+## Шаг 1 – Загрузка исходного документа
 
 Первое, что нам нужно сделать, — прочитать файл Word в объект `Aspose.Words.Document`. Этот объект даёт полный доступ к содержимому документа, включая изображения, которые вы позже извлечёте.
 
@@ -61,7 +61,7 @@ Document document = new Document(sourcePath);
 
 > **Почему это важно:** Загрузка файла как `Document` абстрагирует сложную структуру OOXML, позволяя работать с объектами высокого уровня, такими как изображения, таблицы и абзацы.
 
-## Step 2 – Implement a Resource‑Saving Callback
+## Шаг 2 – Реализация функции обратного вызова для сохранения ресурсов
 
 Aspose.Words позволяет подключиться к процессу сохранения через `IResourceSavingCallback`. Мы используем его, чтобы контролировать, куда будет сохраняться каждое извлечённое изображение. Обратный вызов создаст **папку ресурсов**, названную в честь исходного документа, и запишет туда каждый файл изображения.
 
@@ -87,7 +87,7 @@ class ResourceSavingCallback : IResourceSavingCallback
 
 > **Pro tip:** Если вам нужна более плоская структура (все изображения в одной папке), просто замените `Path.Combine(..., args.DocumentName)` на постоянное имя папки.
 
-## Step 3 – Configure Markdown Save Options
+## Шаг 3 – Настройка параметров сохранения в формате Markdown
 
 Теперь мы указываем Aspose.Words использовать Markdown в качестве формата вывода и подключаем наш обратный вызов. На этом этапе фактически происходит операция **конвертировать docx в markdown**.
 
@@ -102,7 +102,7 @@ MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 
 > **Что происходит под капотом?** Библиотека проходит по документу, преобразует параграфы, таблицы и другие элементы в синтаксис Markdown, делегируя каждую операцию записи изображения нашему обратному вызову.
 
-## Step 4 – Save the Document as Markdown
+## Шаг 4 – Сохранение документа в формате Markdown
 
 Наконец, записываем markdown‑файл на диск. Изображения уже будут сохранены в папку, которую мы создали на предыдущем шаге.
 
@@ -115,14 +115,14 @@ Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
 Console.WriteLine("🖼️ Images extracted to the Resources folder.");
 ```
 
-### Expected Result
+### Ожидаемый результат
 
 * `WithImages.md` — чистый markdown‑файл, где каждая ссылка на изображение выглядит как `![Image](Resources/input.docx/image001.png)`.  
 * `Resources/input.docx/` — подпапка, содержащая все извлечённые изображения (PNG, JPEG и т.д.).
 
 Вы можете открыть markdown‑файл в любом просмотрщике (VS Code, GitHub, MkDocs) и увидеть картинки точно там, где они были в оригинальном документе Word.
 
-## How to Extract Images Without Converting to Markdown (Bonus)
+## Как извлечь изображения без преобразования в Markdown (бонус)
 
 Иногда нужны только картинки, без markdown. Вы можете переиспользовать тот же код обратного вызова, но вызвать `document.Save` с другим форматом, например `SaveFormat.Html`. Изображения будут сохранены в ту же папку, а HTML‑файл можно удалить после.
 
@@ -137,16 +137,16 @@ document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 
 > **Почему это работает:** Сохранение в HTML также вызывает обратный вызов ресурсов, предоставляя быстрое решение «как извлечь изображения» без дополнительного кода.
 
-## Common Pitfalls & How to Avoid Them
+## Распространенные ошибки и как их избежать
 
-| Issue | Why it Happens | Fix |
+| Проблема | Почему это происходит | Решение |
 |-------|----------------|-----|
-| Images end up with duplicate names | Multiple images share the same original filename inside Word. | Append a GUID or an incrementing counter inside the callback (`args.ResourceFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";`). |
-| Markdown links point to a non‑existent folder | The `Resources` folder path is wrong relative to the markdown file. | Use `Path.GetRelativePath` to compute a relative path, or keep the folder next to the markdown file as shown above. |
-| Aspose.Words throws `FileNotFoundException` | The source `.docx` path is incorrect. | Verify the absolute path with `Path.GetFullPath` before creating the `Document`. |
-| Large documents cause out‑of‑memory errors | The library loads the whole document into memory. | Stream the document using `Document.Load` overloads that accept a `FileStream` with `ReadOnly` mode. |
+| Изображения получаются с одинаковыми именами | Несколько изображений имеют одно и то же исходное имя файла в Word. | Добавьте GUID или увеличивающийся счетчик в функцию обратного вызова (`args.ResourceFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";`). |
+| Ссылки Markdown указывают на несуществующую папку | Путь к папке `Resources` указан неверно относительно файла Markdown. | Используйте `Path.GetRelativePath` для вычисления относительного пути или оставьте папку рядом с файлом Markdown, как показано выше. |
+| Aspose.Words выдает `FileNotFoundException` | Путь к исходному файлу `.docx` указан неверно. | Перед созданием `Document` проверьте абсолютный путь с помощью `Path.GetFullPath`. |
+| Большие документы вызывают ошибки нехватки памяти | Библиотека загружает весь документ в память. | Передавайте документ потоком, используя перегрузки `Document.Load`, которые принимают `FileStream` в режиме `ReadOnly`. |
 
-## Full Working Example (Copy‑Paste)
+## Полный рабочий пример (скопируйте и вставьте)
 
 Ниже представлен *полный* код программы, который можно собрать и запустить. Замените `YOUR_DIRECTORY` на реальный путь к папке на вашем компьютере.
 
@@ -199,7 +199,7 @@ namespace DocxToMarkdown
 
 Запустите программу (`dotnet run` или нажмите **F5** в Visual Studio) — вы увидите сообщения в консоли, подтверждающие успешное выполнение.
 
-## Testing Your Output
+## Проверка результата
 
 Откройте `WithImages.md` в markdown‑просмотрщике:
 
@@ -213,7 +213,7 @@ Here is an image extracted from the original Word file:
 
 Если изображение отображается, вы успешно **как сохранить markdown** с сохранением визуального контента. Если нет — проверьте относительный путь, выведенный в консоль.
 
-## Extending the Solution
+## Расширение решения
 
 * **Batch conversion** — переберите каталог `.docx`‑файлов, переиспользуя тот же обратный вызов.  
 * **Custom image formats** — конвертируйте все изображения в WebP внутри обратного вызова для уменьшения размера файлов.  
@@ -221,7 +221,7 @@ Here is an image extracted from the original Word file:
 
 Все эти варианты по‑прежнему отвечают на главный вопрос: **как сохранить markdown** из Word с чистым workflow **create resources folder**.
 
-## Conclusion
+## Заключение
 
 Теперь вы знаете **как сохранить markdown** из документа Word, **конвертировать docx в markdown** и **извлекать изображения из Word** с помощью Aspose.Words. Ключом является `IResourceSavingCallback`, который даёт полный контроль над тем, куда попадает каждая картинка, эффективно позволяя **create resources folder** структуры, соответствующие вашему проекту.
 

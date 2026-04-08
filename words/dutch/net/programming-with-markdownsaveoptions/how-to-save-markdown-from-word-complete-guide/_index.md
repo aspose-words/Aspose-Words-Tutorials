@@ -33,7 +33,7 @@ Heb je je ooit afgevraagd **hoe je markdown** direct vanuit een Word‑document 
 
 We behandelen alles wat je nodig hebt: een `.docx` laden, afbeeldingen extraheren, een **resources folder** maken, en uiteindelijk het markdown‑bestand schrijven. Aan het einde heb je een kant‑klaar code‑fragment dat je in elke C#‑console‑ of web‑app kunt plakken.
 
-## Prerequisites
+## Vereisten
 
 Voor je begint, zorg dat je het volgende hebt:
 
@@ -44,7 +44,7 @@ Voor je begint, zorg dat je het volgende hebt:
 
 Er zijn geen extra NuGet‑pakketten nodig naast Aspose.Words.
 
-## Step 1 – Load the Source Document
+## Stap 1 – Laad het brondocument
 
 Het eerste wat we moeten doen is het Word‑bestand lezen in een `Aspose.Words.Document`‑object. Dit object geeft ons volledige toegang tot de inhoud van het document, inclusief de afbeeldingen die je later zult extraheren.
 
@@ -62,7 +62,7 @@ Document document = new Document(sourcePath);
 
 > **Why this matters:** Het laden van het bestand als een `Document` abstraheert de complexe OOXML‑structuur, waardoor we kunnen werken met high‑level objecten zoals afbeeldingen, tabellen en alinea’s.
 
-## Step 2 – Implement a Resource‑Saving Callback
+## Stap 2 – Implementeer een callback voor het besparen van resources
 
 Aspose.Words laat je inhaken op het opslaan‑proces via `IResourceSavingCallback`. We gebruiken dit om te bepalen waar elke geëxtraheerde afbeelding terechtkomt. De callback maakt een **resources folder** aan die de naam van het bron‑document draagt en schrijft elk afbeeldingsbestand daarheen.
 
@@ -88,7 +88,7 @@ class ResourceSavingCallback : IResourceSavingCallback
 
 > **Pro tip:** Als je een plattere structuur wilt (alle afbeeldingen in één map), vervang dan `Path.Combine(..., args.DocumentName)` door een vaste mapnaam.
 
-## Step 3 – Configure Markdown Save Options
+## Stap 3 – Configureer de Markdown-opslagopties
 
 Nu vertellen we Aspose.Words om Markdown te gebruiken als uitvoerformaat en koppelen we onze callback. Deze stap is waar de **convert docx to markdown**‑operatie daadwerkelijk plaatsvindt.
 
@@ -103,7 +103,7 @@ MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 
 > **What’s happening under the hood?** De bibliotheek doorloopt het document, converteert alinea‑runs, tabellen en andere elementen naar Markdown‑syntaxis, terwijl elke afbeeldings‑schrijfbewerking wordt gedelegeerd aan de callback die we hebben opgegeven.
 
-## Step 4 – Save the Document as Markdown
+## Stap 4 – Sla het document op als Markdown
 
 Tot slot schrijven we het markdown‑bestand naar schijf. De afbeeldingen zijn al opgeslagen in de map die we in de vorige stap hebben aangemaakt.
 
@@ -116,14 +116,14 @@ Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
 Console.WriteLine("🖼️ Images extracted to the Resources folder.");
 ```
 
-### Expected Result
+### Verwacht resultaat
 
 * `WithImages.md` – een schoon markdown‑bestand waarin elke afbeeldingsreferentie er zo uitziet: `![Image](Resources/input.docx/image001.png)`.  
 * `Resources/input.docx/` – een sub‑map met alle geëxtraheerde afbeeldingen (PNG, JPEG, enz.).
 
 Je kunt het markdown‑bestand openen in elke viewer (VS Code, GitHub, MkDocs) en de afbeeldingen precies op de plek zien waar ze in het originele Word‑bestand stonden.
 
-## How to Extract Images Without Converting to Markdown (Bonus)
+## Hoe afbeeldingen te extraheren zonder te converteren naar Markdown (bonus)
 
 Soms heb je alleen de afbeeldingen nodig, niet de markdown. Je kunt dezelfde callback‑logica hergebruiken maar `document.Save` aanroepen met een ander formaat, bijvoorbeeld `SaveFormat.Html`. De afbeeldingen worden naar dezelfde map opgeslagen, en je kunt het HTML‑bestand daarna negeren.
 
@@ -138,7 +138,7 @@ document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 
 > **Why this works:** Het opslaan als HTML triggert ook de resource‑callback, waardoor je een snelle “how to extract images”‑oplossing krijgt zonder extra code.
 
-## Common Pitfalls & How to Avoid Them
+## Veelvoorkomende valkuilen en hoe u ze kunt vermijden
 
 | Probleem | Waarom het gebeurt | Oplossing |
 |----------|--------------------|-----------|
@@ -147,7 +147,7 @@ document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 | Aspose.Words throws `FileNotFoundException` | Het pad naar de bron‑`.docx` is onjuist. | Controleer het absolute pad met `Path.GetFullPath` voordat je het `Document` maakt. |
 | Grote documenten veroorzaken out‑of‑memory‑fouten | De bibliotheek laadt het volledige document in het geheugen. | Stream het document met `Document.Load`‑overloads die een `FileStream` in `ReadOnly`‑modus accepteren. |
 
-## Full Working Example (Copy‑Paste)
+## Volledig werkend voorbeeld (kopiëren en plakken)
 
 Hieronder staat het *entire* programma dat je kunt compileren en uitvoeren. Vervang `YOUR_DIRECTORY` door een echte map op je machine.
 
@@ -200,7 +200,7 @@ namespace DocxToMarkdown
 
 Run het programma (`dotnet run` of druk op **F5** in Visual Studio) en je ziet de console‑berichten die het succes bevestigen.
 
-## Testing Your Output
+## Uw uitvoer testen
 
 Open `WithImages.md` in een markdown‑previewer:
 
@@ -214,7 +214,7 @@ Here is an image extracted from the original Word file:
 
 Als de afbeelding verschijnt, heb je succesvol **how to save markdown** uitgevoerd terwijl je de visuele inhoud behoudt. Zo niet, controleer dan het relatieve pad dat door de console wordt weergegeven.
 
-## Extending the Solution
+## De oplossing uitbreiden
 
 * **Batch conversion** – Loop door een map met `.docx`‑bestanden en hergebruik dezelfde callback‑logica.  
 * **Custom image formats** – Converteer alle afbeeldingen naar WebP binnen de callback voor kleinere bestandsgroottes.  
@@ -222,7 +222,7 @@ Als de afbeelding verschijnt, heb je succesvol **how to save markdown** uitgevoe
 
 Al deze variaties beantwoorden nog steeds de kernvraag: **how to save markdown** vanuit Word met een schone **create resources folder**‑workflow.
 
-## Conclusion
+## Conclusie
 
 Je weet nu **how to save markdown** vanuit een Word‑document, **convert docx to markdown**, en **extract images from Word** met Aspose.Words. De sleutel is de `IResourceSavingCallback`, die je volledige controle geeft over waar elke afbeelding terechtkomt, waardoor je effectief **create resources folder**‑structuren kunt maken die passen bij de opzet van je project.
 
