@@ -34,7 +34,7 @@ url: /hi/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed
 
 इस ट्यूटोरियल में हम एक पूर्ण, तैयार‑चलाने‑योग्य समाधान के माध्यम से चलेंगे जो **Word को markdown के रूप में सहेजता है**, **इमेजेज़ को base64 में एम्बेड करता है**, और यहाँ तक कि आपको दिखाता है कि **Word से markdown कैसे जेनरेट करें** Aspose.Words for .NET का उपयोग करके। अंत तक, आपके पास एक ही `.md` फ़ाइल होगी जो मूल दस्तावेज़ की तरह ही रेंडर होगी—कोई बाहरी इमेज फ़ोल्डर की आवश्यकता नहीं।
 
-## What You’ll Need
+## आपको क्या चाहिए
 
 - **.NET 6.0 या बाद का संस्करण** (जो भी NuGet पैकेज को रेफ़र कर सके)
 - **Aspose.Words for .NET** (टेस्टिंग के लिए फ्री ट्रायल ठीक है)
@@ -47,7 +47,7 @@ url: /hi/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed
 dotnet add package Aspose.Words
 ```
 
-## Step 1: Load the Word Document — the starting point for **convert word to markdown**
+## स्टेप 1: वर्ड डॉक्यूमेंट लोड करें—**वर्ड को मार्कडाउन में बदलने** के लिए शुरुआती पॉइंट
 
 सबसे पहले हमें `.docx` को मेमोरी में लाना होगा। यहीं से रूपांतरण का जादू शुरू होता है।
 
@@ -64,7 +64,7 @@ Document document = new Document("YOUR_DIRECTORY/input.docx");
 > **Why this matters:**  
 > डॉक्यूमेंट को लोड करने से Aspose को टेक्स्ट, स्टाइल्स और हर एम्बेडेड रिसोर्स तक पूरी पहुँच मिलती है। इस स्टेप के बिना, बदलने के लिए कुछ नहीं रहेगा।
 
-## Step 2: Set Up MarkdownSaveOptions with a Resource‑Saving Callback
+## स्टेप 2: रिसोर्स-सेविंग कॉलबैक के साथ मार्कडाउनसेवऑप्शन सेट अप करें
 
 Aspose आपको हर रिसोर्स (जैसे इमेजेज़) को इंटरसेप्ट करने की सुविधा देता है, जो सामान्यतः डिस्क पर लिखा जाता है। एक कस्टम `IResourceSavingCallback` प्रदान करके, हम डिफ़ॉल्ट फ़ाइल‑आधारित सेविंग को **base64 इमेज डेटा यूआरआई** से बदल सकते हैं।
 
@@ -76,7 +76,7 @@ MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
 };
 ```
 
-### The Custom Handler – Turning images into Base64
+### कस्टम हैंडलर – इमेज को बेस64 में बदलना
 
 नीचे पूरी इम्प्लीमेंटेशन दी गई है। ध्यान दें कि हम `args.ResourceType == ResourceType.Image` की जाँच करते हैं और फिर:
 
@@ -111,7 +111,7 @@ class MyResourceHandler : IResourceSavingCallback
 
 > **Pro tip:** यदि आपके स्रोत Word में PNG उपयोग हो रहे हैं, तो `ImageSaveOptions.DefaultJpeg` को `ImageSaveOptions.DefaultPng` से बदलें और MIME टाइप को उसी अनुसार बदलें (`image/png`)।
 
-## Step 3: Save the Document as Markdown – the final **save word as markdown** step
+## स्टेप 3: डॉक्यूमेंट को मार्कडाउन के तौर पर सेव करें – आखिरी **वर्ड को मार्कडाउन के तौर पर सेव करें** स्टेप
 
 अब जब कॉलबैक तैयार है, असली सेविंग एक‑लाइनर है।
 
@@ -122,7 +122,7 @@ document.Save("YOUR_DIRECTORY/output.md", markdownSaveOptions);
 
 जब आप `output.md` को किसी भी markdown व्यूअर (VS Code प्रीव्यू, GitHub, आदि) में खोलेंगे, तो आपको टेक्स्ट बिल्कुल मूल Word फ़ाइल जैसा दिखेगा, और तस्वीरें इनलाइन बिना किसी अलग इमेज फ़ाइल के दिखाई देंगी।
 
-## Expected Output
+## उम्मीद का आउटपुट
 
 ```markdown
 # Sample Title
@@ -134,22 +134,22 @@ Here’s a paragraph that originally lived in Word.
 
 `![Embedded Image]` लाइन एक **base64 इमेज डेटा यूआरआई** है—पूरा इमेज वहीं एन्कोडेड है। कोई अतिरिक्त फ़ोल्डर नहीं, कोई टूटे लिंक नहीं।
 
-## Edge Cases & How to Handle Them
+## एज केस और उन्हें कैसे हैंडल करें
 
-| Situation | What to Do |
+| सिचुएशन | क्या करें |
 |-----------|------------|
 | **Large Images** – Base64 आकार को ~33% बढ़ा देता है | रूपांतरण से पहले रीसाइज़ करने पर विचार करें: `args.ResourceData.Save(ms, new ImageSaveOptions { ImageResolution = 72 })`. |
 | **Non‑JPEG Images** (PNG, GIF) | मूल फ़ॉर्मेट को `args.ResourceData.ImageType` से पहचानें और सही MIME टाइप सेट करें (`image/png`, `image/gif`). |
 | **Very Long Documents** (सैकड़ों इमेजेज़) | मेमोरी उपयोग पर नज़र रखें; यदि RAM खत्म हो जाए तो प्रत्येक इमेज को अस्थायी रूप से डिस्क पर स्ट्रीम कर सकते हैं। |
 | **Need Separate Image Files** (जैसे static साइट के लिए) | उन इमेजेज़ के लिए कॉलबैक से `false` रिटर्न करें जिन्हें आप फ़ाइलों के रूप में रखना चाहते हैं, और Aspose को फ़ोल्डर में लिखने दें। |
 
-## Common Questions (Answered Up Front)
+## आम सवाल (जिनके जवाब पहले ही दे दिए गए हैं)
 
 - **क्या यह .doc फ़ाइलों के साथ काम करता है?** हाँ—Aspose.Words लेगेसी `.doc` फ़ाइलों को भी उसी तरह लोड कर सकता है जैसे आप `.docx` लोड करते हैं। बस `new Document("myfile.doc")` को पॉइंट करें।
 - **टेबल्स और फुटनोट्स का क्या?** ये Markdown एक्सपोर्टर द्वारा पूरी तरह सपोर्टेड हैं। टेबल्स markdown टेबल्स बन जाते हैं; फुटनोट्स इनलाइन रेफ़रेंसेज़ बन जाते हैं।
 - **क्या मैं markdown फ्लेवर बदल सकता हूँ?** `MarkdownSaveOptions` में `MarkdownVersion` प्रॉपर्टी है (CommonMark, GitHub, आदि)। यदि आपको कोई विशेष सिंटैक्स चाहिए तो सेव करने से पहले इसे सेट करें।
 
-## Full, Ready‑to‑Run Sample
+## पूरा, रेडी-टू-रन सैंपल
 
 नीचे पूरा प्रोग्राम दिया गया है जिसे आप कॉन्सोल ऐप में कॉपी‑पेस्ट कर सकते हैं। इसमें सभी `using` स्टेटमेंट्स, हैंडलर क्लास, और एरर हैंडलिंग शामिल है।
 
@@ -212,11 +212,11 @@ namespace WordToMarkdownDemo
 
 प्रोग्राम चलाएँ, जेनरेट हुई `output.md` खोलें, और आपको अपने Word फ़ाइल की एक परफेक्ट markdown प्रतिलिपि दिखेगी—**convert word to markdown** अब पहले से कहीं आसान है।
 
-## Recap
+## रीकैप
 
 हमने **convert word to markdown** की समस्या को इमेजेज़ को इनलाइन रखते हुए शुरू किया। डॉक्यूमेंट को लोड करके, `MarkdownSaveOptions` कॉलबैक कॉन्फ़िगर करके, और फ़ाइल को सेव करके, हमने एक साफ़ **save word as markdown** समाधान हासिल किया जो **base64 इमेज डेटा यूआरआई** स्ट्रिंग्स उत्पन्न करता है। अब आप जानते हैं कि **इमेजेज़ को base64 में एम्बेड कैसे करें**, एज केस कैसे हैंडल करें, और विभिन्न इमेज टाइप्स के लिए प्रोसेस को कैसे ट्यून करें।
 
-## What’s Next?
+## आगे क्या?
 
 - **HTML जेनरेट करें markdown की बजाय** – `MarkdownSaveOptions` को `HtmlSaveOptions` से बदलें और वही कॉलबैक पुनः उपयोग करें।
 - **कई फ़ाइलों को बैच में बदलें** – लॉजिक को फ़ोल्डर के ऊपर `foreach` लूप में रैप करें।

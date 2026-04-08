@@ -28,13 +28,13 @@ url: /it/net/programming-with-markdownsaveoptions/convert-word-to-markdown-embed
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Word to Markdown – Embed Images as Base64
+# Conversione da Word a Markdown – Incorporamento di immagini come Base64
 
 Ti è mai capitato di **convertire Word in markdown** ma di incepparti con le immagini? Non sei l’unico. Word ama memorizzare le foto come file separati, mentre markdown preferisce quelle piccole stringhe `data:image/...;base64,` che tengono tutto ordinato in un unico file.  
 
 In questo tutorial percorreremo una soluzione completa, pronta‑da‑eseguire che **salva Word come markdown**, **incorpora le immagini in base64**, e ti mostrerà anche come **generare markdown da Word** usando Aspose.Words per .NET. Alla fine avrai un unico file `.md` che si renderizza esattamente come il documento originale—senza cartelle di immagini esterne.
 
-## What You’ll Need
+## Cosa ti serve
 
 - **.NET 6.0 o successivo** (qualsiasi cosa possa fare riferimento a un pacchetto NuGet)
 - **Aspose.Words per .NET** (la versione di prova gratuita è sufficiente per i test)
@@ -47,7 +47,7 @@ Se li hai già, ottimo—passiamo subito al codice. Altrimenti, installare il pa
 dotnet add package Aspose.Words
 ```
 
-## Step 1: Load the Word Document — the starting point for **convert word to markdown**
+## Passaggio 1: Carica il documento Word – il punto di partenza per la **conversione da Word a Markdown**
 
 Per prima cosa dobbiamo caricare il `.docx` in memoria. È qui che inizia la magia della conversione.
 
@@ -64,7 +64,7 @@ Document document = new Document("YOUR_DIRECTORY/input.docx");
 > **Why this matters:**  
 > Loading the document gives Aspose full access to the text, styles, and every embedded resource. Without this step, there’s nothing to convert.
 
-## Step 2: Set Up MarkdownSaveOptions with a Resource‑Saving Callback
+## Passaggio 2: Configura MarkdownSaveOptions con una funzione di callback per il risparmio di risorse
 
 Aspose ti permette di intercettare ogni risorsa (come le immagini) che normalmente verrebbe scritta su disco. Fornendo un `IResourceSavingCallback` personalizzato, possiamo sostituire il salvataggio basato su file con un **data uri immagine base64**.
 
@@ -76,7 +76,7 @@ MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
 };
 ```
 
-### The Custom Handler – Turning images into Base64
+### Il gestore personalizzato – Conversione delle immagini in Base64
 
 Di seguito trovi l’implementazione completa. Nota come controlliamo `args.ResourceType == ResourceType.Image` e poi:
 
@@ -111,7 +111,7 @@ class MyResourceHandler : IResourceSavingCallback
 
 > **Pro tip:** If your source Word uses PNGs, swap `ImageSaveOptions.DefaultJpeg` with `ImageSaveOptions.DefaultPng` and change the MIME type accordingly (`image/png`).
 
-## Step 3: Save the Document as Markdown – the final **save word as markdown** step
+## Passaggio 3: Salva il documento come Markdown – l'ultimo passaggio per **salvare Word come Markdown**
 
 Ora che il callback è pronto, il salvataggio vero e proprio è una singola riga.
 
@@ -122,7 +122,7 @@ document.Save("YOUR_DIRECTORY/output.md", markdownSaveOptions);
 
 Quando apri `output.md` in qualsiasi visualizzatore markdown (anteprima di VS Code, GitHub, ecc.), vedrai il testo esattamente come nel file Word originale, e le immagini appariranno in linea senza file immagine separati.
 
-## Expected Output
+## Output previsto
 
 ```markdown
 # Sample Title
@@ -134,24 +134,26 @@ Here’s a paragraph that originally lived in Word.
 
 La riga `![Embedded Image]` è un **data uri immagine base64**—l’intera immagine è codificata proprio lì. Nessuna cartella extra, nessun link rotto.
 
-## Edge Cases & How to Handle Them
+## Casi limite e come gestirli
 
-| Situation | What to Do |
+| Situazione | Cosa fare |
+
 |-----------|------------|
-| **Large Images** – Base64 inflates size by ~33% | Consider resizing before conversion: `args.ResourceData.Save(ms, new ImageSaveOptions { ImageResolution = 72 })`. |
-| **Non‑JPEG Images** (PNG, GIF) | Detect the original format via `args.ResourceData.ImageType` and set the correct MIME type (`image/png`, `image/gif`). |
-| **Very Long Documents** (hundreds of images) | Keep an eye on memory usage; you can stream each image to disk temporarily if the process runs out of RAM. |
-| **Need Separate Image Files** (e.g., for a static site) | Return `false` from the callback for images you want to keep as files, and let Aspose write them to a folder. |
+| **Immagini di grandi dimensioni** – Base64 aumenta le dimensioni di circa il 33% | Valuta la possibilità di ridimensionare prima della conversione: `args.ResourceData.Save(ms, new ImageSaveOptions { ImageResolution = 72 })`. |
+| **Immagini non JPEG** (PNG, GIF) | Rileva il formato originale tramite `args.ResourceData.ImageType` e imposta il tipo MIME corretto (`image/png`, `image/gif`). |
+**Documenti molto lunghi** (centinaia di immagini) | Monitora l'utilizzo della memoria; puoi caricare temporaneamente ogni immagine su disco se il processo esaurisce la RAM. |
+**Necessità di file immagine separati** (ad esempio, per un sito statico) | Restituisci `false` dalla funzione di callback per le immagini che desideri conservare come file e lascia che Aspose le scriva in una cartella. |
 
-## Common Questions (Answered Up Front)
+## Domande frequenti (con risposta immediata)
 
-- **Does this work with .doc files?** Yes—Aspose.Words can load legacy `.doc` files the same way you load `.docx`. Just point `new Document("myfile.doc")` at it.
-- **What about tables and footnotes?** They are fully supported by the Markdown exporter. Tables become markdown tables; footnotes become inline references.
-- **Can I change the markdown flavor?** `MarkdownSaveOptions` has a `MarkdownVersion` property (CommonMark, GitHub, etc.). Set it before saving if you need a specific syntax.
 
-## Full, Ready‑to‑Run Sample
+- **Funziona con i file .doc?** Sì, Aspose.Words può caricare i file `.doc` legacy nello stesso modo in cui carichi i file `.docx`. Basta specificare il percorso del file con `new Document("myfile.doc")`.
+- **E per quanto riguarda tabelle e note a piè di pagina?** Sono completamente supportate dall'esportatore Markdown. Le tabelle diventano tabelle Markdown; Le note a piè di pagina diventano riferimenti in linea.
+- **Posso cambiare la sintassi Markdown?** `MarkdownSaveOptions` ha una proprietà `MarkdownVersion` (CommonMark, GitHub, ecc.). Impostala prima di salvare se hai bisogno di una sintassi specifica.
 
-Below is the complete program you can copy‑paste into a console app. It includes all using statements, the handler class, and error handling.
+## Esempio completo e pronto all'uso
+
+Di seguito è riportato il programma completo che puoi copiare e incollare in un'applicazione console. Include tutte le istruzioni `using`, la classe gestore e la gestione degli errori.
 
 ```csharp
 using System;
@@ -212,11 +214,11 @@ namespace WordToMarkdownDemo
 
 Run the program, open the generated `output.md`, and you’ll see a perfect markdown replica of your Word file—**convert word to markdown** has never been simpler.
 
-## Recap
+## Riepilogo
 
 We started with the problem of **convert word to markdown** while keeping images inline. By loading the document, configuring a `MarkdownSaveOptions` callback, and saving the file, we achieved a clean **save word as markdown** solution that produces **base64 image data uri** strings. You now also know how to **embed images as base64**, handle edge cases, and tweak the process for different image types.
 
-## What’s Next?
+## Cosa c'è dopo?
 
 - **Generate HTML instead of markdown** – swap `MarkdownSaveOptions` for `HtmlSaveOptions` and reuse the same callback.
 - **Batch convert multiple files** – wrap the logic in a `foreach` loop over a folder.

@@ -33,21 +33,21 @@ Heb je je ooit afgevraagd **hoe je lettertypen** in een Word‑document kunt det
 
 In deze tutorial lopen we stap voor stap door **hoe je lettertypen** kunt detecteren met Aspose.Words, laten we **hoe je waarschuwingen afhandelt** zien, en passen we **Aspose lettertype‑instellingen** aan zodat je **waarschuwingen** precies kunt configureren zoals jij dat nodig hebt. Aan het einde heb je een kant‑klaar fragment dat elke substitutie die Aspose uitvoert afdrukt, en weet je hoe je het kunt aanpassen voor je eigen projecten.
 
-## Prerequisites
+## Vereisten
 
-- .NET 6+ (of .NET Framework 4.6+).  
-- Aspose.Words for .NET geïnstalleerd via NuGet (`Install-Package Aspose.Words`).  
-- Een Word‑bestand dat opzettelijk naar een ontbrekend lettertype verwijst (bijv. *DocumentWithMissingFonts.docx*).  
+- .NET6+ (van .NET Framework 4.6+).
+- Aspose.Words voor .NET defect via NuGet (`Install-Package Aspose.Words`).
+- Een Word‑bestand dat gekozen is voor een ontbrekend lettertype (bijv. *DocumentWithMissingFonts.docx*).
 
-Als je dit al hebt, geweldig—laten we beginnen.
+Als je dit allemaal hebt, geweldig – laten we beginnen.
 
-![how to detect fonts screenshot](https://example.com/detect-fonts.png "how to detect fonts example output")
+![screenshot van lettertypen detecteren](https://example.com/detect-fonts.png "voorbeelduitvoer van lettertypen detecteren")
 
-## How to Detect Fonts with Aspose.Words
+## Lettertypen detecteren met Aspose.Words
 
-De eerste stap is Aspose.Words laten weten dat je geïnteresseerd bent in lettertype‑substitutie‑gebeurtenissen. Dit doe je door een aangepaste waarschuwing‑callback te leveren via **Aspose lettertype‑instellingen**. De callback ontvangt een `WarningInfo`‑object voor elke substitutie, waardoor je **lettertypen** tijdens runtime kunt **detecteren**.
+De eerste stap is Aspose.Words laten weten dat je geïnteresseerd bent in lettertype‑substitutie‑gebeurtenissen. Dit doe je door een aangepaste waarschuwing‑callback te leveren via **Aspose lettertype‑instellingen**. De callback ontvangt een `WarningInfo`‑object voor elke vervanging, waardoor je **lettertypen** tijdens runtime **detecteren** kunt.
 
-### Step 1: Create a Warning Callback Class
+### Stap 1: Maak een waarschuwings-callback-klasse
 
 Implementeer de `IWarningCallback`‑interface. Binnen de `Warning`‑methode filter je op `WarningType.FontSubstitution` en log je de details.
 
@@ -74,7 +74,7 @@ class FontSubstitutionWarningHandler : IWarningCallback
 
 > **Pro tip:** De `info.Description`‑string bevat zowel de naam van het ontbrekende lettertype als het vervangende lettertype dat Aspose heeft gekozen. Je kunt deze parseren als je een gestructureerd rapport nodig hebt.
 
-### Step 2: Configure LoadOptions with Aspose Font Settings
+### Stap 2: Configureer LoadOptions met Aspose-lettertype-instellingen
 
 Maak een `LoadOptions`‑instantie, koppel een nieuw `FontSettings`‑object, en wijs de `WarningCallback` toe aan de handler die we zojuist hebben gebouwd. Dit vertelt Aspose **hoe je waarschuwingen configureert**.
 
@@ -96,7 +96,7 @@ loadOptions.FontSettings.SetFontsFolder(@"C:\MyCustomFonts", false);
 
 Die regel laat een andere kant van **aspose font settings** zien — je bepaalt precies waar Aspose naar lettertypen zoekt voordat het besluit te substitueren.
 
-### Step 3: Load the Document and Trigger the Callback
+### Stap 3: Laad het document en activeer de callback
 
 Laad nu het doel‑document met de `loadOptions`. Terwijl Aspose het bestand parseert, activeert elke ontbrekende lettertype‑waarschuwing de callback, waardoor **lettertypen** on‑the‑fly worden **gedetecteerd**.
 
@@ -112,7 +112,7 @@ Font substituted: Font 'Comic Sans MS' was not found. Substituted with 'Arial'.
 Font substituted: Font 'Times New Roman' was not found. Substituted with 'Calibri'.
 ```
 
-### Step 4: (Optional) Collect Warnings for Later Use
+### Stap 4: (Optioneel) Verzamel waarschuwingen voor later gebruik
 
 Als je de substitutie‑gegevens wilt opslaan voor een rapport, wijzig je de handler zodat deze berichten in een lijst verzamelt.
 
@@ -134,7 +134,7 @@ class FontSubstitutionWarningHandler : IWarningCallback
 
 Later kun je `handler.Substitutions` naar een JSON‑bestand schrijven, naar een log‑service sturen, of weergeven in een UI.
 
-### Step 5: Verify the Result Programmatically
+### Stap 5: Controleer het resultaat programmatisch
 
 Soms wil je bevestigen dat er *geen* substitutie heeft plaatsgevonden (bijv. in een CI‑build). Hier is een snelle controle:
 
@@ -156,36 +156,36 @@ else
 
 Dat fragment demonstreert **hoe je waarschuwingen afhandelt** op een deterministische manier, waardoor je volledige controle hebt over de build‑pipeline.
 
-## Frequently Asked Questions (and Edge Cases)
+## Veelgestelde vragen (en randgevallen)
 
-**What if I need to ignore certain substitutions?**  
-Je kunt conditionele logica toevoegen binnen `Warning` en simpelweg terugkeren zonder te loggen voor lettertypen die je acceptabel vindt.
+**Wat moet ik doen als ik bepaalde vervangingen moet negeren?**
+Je kunt conditionele logica toevoegen binnen `Waarschuwing` en herhaaldelijk terugkerend zonder te loggen voor lettertypen die je acceptabel vindt.
 
-**Can I suppress all warnings and just get a boolean result?**  
+**Kan ik alle waarschuwingen onderdrukken en alleen een Booleaans resultaat krijgen?**
 Ja—stel `loadOptions.WarningCallback = null` en inspecteer daarna `doc.FontInfo` na het laden (hoewel je dan de gedetailleerde log verliest).
 
-**Does this work with PDF conversion?**  
-Absoluut. Hetzelfde waarschuwingsmechanisme wordt geactiveerd wanneer je `doc.Save("out.pdf")` aanroept. De callback vangt alle lettertype‑wisselingen tijdens de conversiestap.
+**Werkt dit met PDF-conversie?**
+Absoluut. Hetzelfde waarschuwingsmechanisme wordt geactiveerd wanneer je `doc.Save("out.pdf")` aanroept. De callback vangt alle lettertype-wisselingen tijdens de conversiestap op.
 
-**Is there a performance hit?**  
-De overhead is minimaal—slechts een paar extra method‑calls per ontbrekend lettertype. Voor grote batches kun je overwegen de resultaten te cachen.
+**Is er een prestatiehit?**
+De overhead is minimaal – slechts een paar extra method‑calls per ontbrekend lettertype. Voor grote batches kun je de resultaten overwegen om te cachen.
 
-## Wrap‑Up: What We Covered
+## Afronding: wat we hebben besproken
 
-- **Hoe je lettertypen detecteert** door een aangepaste `IWarningCallback` te implementeren.  
-- **Hoe je waarschuwingen afhandelt** via `LoadOptions.WarningCallback`.  
-- Het afstemmen van **Aspose lettertype‑instellingen** (toevoegen van aangepaste lettertype‑mappen, in‑/uitschakelen van waarschuwingen).  
-- **Hoe je waarschuwingen configureert** voor zowel directe console‑output als latere analyse.  
+- **Hoe je lettertype detecteert** door een aangepaste `IWarningCallback` te implementeren.
+- **Hoe je waarschuwingen afhandelt** via `LoadOptions.WarningCallback`.
+- Het aanpassen van **Aspose lettertype‑instellingen** (toevoegen van aangepaste lettertype‑kaarten, in‑/uitschakelen van waarschuwingen).
+- **Hoe je waarschuwingen configureert** voor zowel directe console-uitvoer als latere analyse.
 
-Met deze onderdelen kun je met vertrouwen Word‑documenten verwerken, garanderen dat ontbrekende lettertypen worden gemarkeerd, en je output consistent houden over verschillende omgevingen.
+Met deze onderdelen kun je met vertrouwen Word-documenten verwerken, waardoor ontbrekende lettertypen gemarkeerd worden, en je output consistent behouden over verschillende omgevingen.
 
-## Next Steps
+## Volgende stappen
 
-- Verken `FontSettings.SubstitutionSettings` voor meer gedetailleerde controle (bijv. specifieke ontbrekende lettertypen mappen naar gekozen substituten).  
-- Combineer deze aanpak met Aspose.PDF om PDF’s te genereren die exact dezelfde typografie behouden.  
-- Automatiseer de waarschuwing‑check in een CI/CD‑pipeline om releases te blokkeren die lettertype‑problemen bevatten—perfect voor teams die **waarschuwingen afhandelen** als onderdeel van kwaliteits‑gates.
+- Verken `FontSettings.SubstitutionSettings` voor meer gedetailleerde controle (bijv. specifieke ontbrekende lettertypen mappen naar gekozen substituten).
+- Combineer deze aanpak met Aspose.PDF om PDF’s te genereren die exact dezelfde typografie behouden.
+- Automatiseer de waarschuwing-check in een CI/CD-pipeline om releases te elimineren die lettertype-problemen bevatten – perfect voor teams die **waarschuwingen afhandelen** als onderdeel van kwaliteitspoorten.
 
-Heb je meer vragen over **aspose font settings** of heb je hulp nodig bij het integreren hiervan in een grotere service? Laat een reactie achter hieronder, en happy coding!
+Heb je meer vragen over **stel lettertype-instellingen** of heb je hulp nodig bij het gevolg hiervan in een grotere service? Laat een reactie achter hieronder, en veel codeerplezier!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

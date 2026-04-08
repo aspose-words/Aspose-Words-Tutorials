@@ -34,7 +34,7 @@ Valaha is szükséged volt **save document as txt** funkcióra, de nem tudtad, h
 
 Ebben az útmutatóban lépésről‑lépésre végigvezetünk a **save document as txt** folyamatán az Aspose.Words for .NET segítségével, miközben megmutatjuk, hogyan **export equations to LaTeX** formátumban, hogy ne vesszen el semmilyen tudományos tartalom. A végére magabiztosan tudod majd **convert word file txt** stílusban, és még azt is láthatod, hogyan **save docx as txt** tömeges esetekben.
 
-## What You’ll Need
+## Amire szükséged lesz
 
 - **Aspose.Words for .NET** (23.12 vagy újabb verzió) – a könyvtár, amely a konverziót hajtja végre.
 - .NET fejlesztői környezet (Visual Studio, VS Code, Rider… bármelyik megfelel).
@@ -43,7 +43,7 @@ Más függőségekre nincs szükség, a kód .NET 6+, .NET Framework 4.7+ 
 
 > **Pro tip:** Ha még nincs licenced, kezdhetsz egy ingyenes értékelő kulccsal az Aspose weboldaláról – tökéletesen alkalmas tanulási célokra.
 
-## Step 1: Load the Source Document
+## 1. lépés: A forrásdokumentum betöltése
 
 Az első lépés a DOCX fájl megnyitása. Tekintsd a `Document` osztályt egy vékony burkolatnak a Word fájl körül; betölti az összes elemet – szöveget, stílusokat, képeket és matematikát – a memóriába.
 
@@ -58,7 +58,7 @@ Document document = new Document(@"C:\MyDocs\input.docx");
 **Miért fontos:**  
 Ha egyszerű `File.ReadAllText`‑el próbálod beolvasni a fájlt, csak a nyers XML‑et kapod, nem a megjelenített szöveget. A `Document` elemzi a Word formátumot, így a későbbi lépések hozzáférhetnek a tényleges tartalomhoz és a matematikai objektumokhoz, amelyeket exportálni fogunk.
 
-## Step 2: Configure TXT Save Options (Export Equations to LaTeX)
+## 2. lépés: TXT mentési beállítások konfigurálása (egyenletek exportálása LaTeX-be)
 
 Az egyszerű szövegfájlok nem tudják közvetlenül tárolni az Office Math‑ot, ezért azt mondjuk az Aspose.Words‑nek, hogy minden egyenletet LaTeX jelölésre konvertáljon. Így a keletkező `.txt` fájl még mindig tartalmazza a teljes matematikai jelentést.
 
@@ -74,7 +74,7 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 **Miért fontos:**  
 `OfficeMathExportMode` beállítása nélkül az Aspose.Words vagy eltávolítja az egyenleteket, vagy helyettesítő szöveggel helyettesíti őket. A `LaTeX` választásával egy hordozható reprezentációt kapsz, amelyet sok tudományos eszköz megért.
 
-## Step 3: Save the Document as a Plain‑Text File
+## 3. lépés: A dokumentum mentése egyszerű szöveges fájlként
 
 Most kiírjuk a tartalmat egy `.txt` fájlba, a korábban definiált beállításokkal. Ez az a pillanat, amikor a **save document as txt** művelet ténylegesen megtörténik.
 
@@ -85,7 +85,7 @@ document.Save(@"C:\MyDocs\Math.txt", txtOptions);
 
 Amikor megnyitod a `Math.txt`‑t, a szokásos bekezdéseket LaTeX részletek, például `\displaystyle \int_{0}^{\infty} e^{-x} dx` váltják fel. Ez a **export equations to latex** rész a háttérben működik.
 
-## Full Working Example (All Steps in One File)
+## Teljes munkapélda (minden lépés egy fájlban)
 
 Az alábbiakban a teljes, azonnal futtatható program látható. Másold be egy új konzolos projektbe, add hozzá az Aspose.Words NuGet csomagot, és nyomd meg az **F5**‑öt.
 
@@ -137,17 +137,17 @@ E = mc^{2}
 
 Ha az eredeti DOCX egy összetettebb integrált tartalmaz, a teljes LaTeX reprezentációt fogod látni.
 
-## Frequently Asked Questions & Edge Cases
+## Gyakran ismételt kérdések és szélsőséges esetek
 
-### 1. What if my DOCX has no equations?
+### 1. Mi van, ha a DOCX fájlomban nincsenek egyenletek?
 
 A kód továbbra is működik; az `OfficeMathExportMode` egyszerűen nem konvertál semmit, így egy tiszta szövegfájlt kapsz. Nem szükséges extra kezelést alkalmazni.
 
-### 2. Can I **convert docx to txt** without LaTeX (plain ASCII)?
+### 2. **Konvertálhatok docx fájlokat txt-be** LaTeX nélkül (sima ASCII)?
 
 Természetesen. Hagyd ki az `OfficeMathExportMode` sort, vagy állítsd `OfficeMathExportMode.Text`‑re. Az egyenletek egyszerű szöveges ekvivalensek lesznek, ami formázásveszteséggel járhat.
 
-### 3. How do I **save docx as txt** in bulk?
+### 3. Hogyan menthetem el docx fájlokat txt formátumban** tömegesen?
 
 Csomagold a fő logikát egy `foreach` ciklusba, amely bejárja a mappában lévő összes `.docx` fájlt. Teljesítmény szempontjából érdemes egyetlen `TxtSaveOptions` példányt újrahasználni.
 
@@ -160,22 +160,22 @@ foreach (var file in files)
 }
 ```
 
-### 4. What about non‑Latin characters?
+### 4. Mi a helyzet a nem latin karakterekkel?
 
 Az Aspose.Words tiszteletben tartja a dokumentum kódolását. Ha konkrét kódlapot szeretnél, állítsd be `txtOptions.Encoding = Encoding.UTF8;` mentés előtt.
 
-### 5. Is the **export equations to latex** feature limited to certain versions?
+### 5. Az **egyenletek exportálása latexbe** funkció bizonyos verziókra korlátozódik?
 
 A LaTeX exportot az Aspose.Words 20.10‑es verziója vezette be. Ha régebbi verziót használsz, frissíts, vagy térj vissza egyszerű szöveges exportáláshoz.
 
-## Common Pitfalls & Pro Tips
+## Gyakori buktatók és profi tippek
 
 - **Ne felejtsd el a `using Aspose.Words.Saving;`‑t** – enélkül a fordító nem ismeri a `TxtSaveOptions`‑t.
 - **Fájlutak:** Használj verbatim stringeket (`@"C:\Path\file.docx"`) vagy escapeld a backslash‑eket; különben *Invalid path* hibákat kapsz.
 - **Teljesítmény:** Több ezer fájl konvertálásakor újrahasználd egyetlen `TxtSaveOptions` objektumot, és tiltsd le a `SaveFormat.AutoDetectEncoding`‑t, ha már tudod a célkódolást.
 - **Tesztelés:** Nyisd meg a keletkezett `.txt`‑t egy olyan kódszerkesztőben, amely a rejtett karaktereket is mutatja (pl. VS Code), hogy ellenőrizd, a LaTeX részletek nem sérültek-e a sorvége‑konverziók során.
 
-## Conclusion
+## Összegzés
 
 Most már van egy megbízható módszered a **save document as txt** végrehajtására, miközben minden egyenletet LaTeX jelölésként őrzöl meg. Akár **convert word file txt**, akár **convert docx to txt**, vagy egyszerűen **save docx as txt** a további feldolgozáshoz, a háromlépéses megközelítés – betöltés, konfigurálás, mentés – minden esetet lefed.
 

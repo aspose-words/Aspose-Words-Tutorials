@@ -30,7 +30,7 @@ Word 文書に **長方形シェイプを作成** したいけど、どこから
 
 プロジェクトのセットアップから影のプロパティ調整までを網羅し、実行可能なコードサンプルで締めくくります。余計な説明は省き、実務ですぐに使えるポイントだけをお届けします。
 
-## What You’ll Learn
+## 学習内容
 
 - C# で Aspose.Words（または Open XML）を使って **長方形シェイプを作成** する方法  
 - 奥行きを出すために **シェイプに影を付ける** 正確なプロパティ  
@@ -38,7 +38,7 @@ Word 文書に **長方形シェイプを作成** したいけど、どこから
 - Microsoft Word で正しく開くようにファイルを保存する方法  
 - 実務で役立つコツ、落とし穴、バリエーション  
 
-### Prerequisites
+### 前提条件
 
 - .NET 6.0 以上（コードは .NET Core と .NET Framework でも動作）  
 - Word ファイルを操作できる NuGet パッケージ – ここでは API がシンプルな **Aspose.Words for .NET** を使用します。Open XML SDK を好む場合は概念は同じですが、クラスが異なります。  
@@ -46,7 +46,7 @@ Word 文書に **長方形シェイプを作成** したいけど、どこから
 
 > **Pro tip:** 予算が限られている場合は、Aspose の無料トライアルを利用すると学習に最適です。テスト時はライセンス行をコメントアウトに置き換えてください。
 
-## Step 1: Install the Word‑Processing Library
+## ステップ1：ワープロライブラリをインストールする
 
 まず、ライブラリをプロジェクトに追加します。ソリューションフォルダーでターミナルを開き、次のコマンドを実行してください。
 
@@ -56,7 +56,7 @@ dotnet add package Aspose.Words
 
 Open XML SDK を使用する場合は `dotnet add package DocumentFormat.OpenXml` がコマンドになります。このガイドは Aspose.Words 前提ですが、API 呼び出しを置き換えるだけで簡単に対応できます。
 
-## Step 2: Create a New Blank Document
+## ステップ2：新しい空白文書を作成する
 
 ライブラリの準備ができたら、**長方形シェイプを作成** するためにクリーンな `Document` オブジェクトから始めます。これが新しいキャンバスです。
 
@@ -72,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 `DocumentBuilder` は低レベルのノードツリーに深入りせずにコンテンツを挿入できる高レベル API を提供します。
 
-## Step 3: Insert the Rectangle Shape
+## ステップ3：長方形を挿入する
 
 `DocumentBuilder` が手元にあれば、**Word にシェイプを挿入** できます。`InsertShape` メソッドはシェイプの種類とサイズ（幅・高さ）をポイント単位で受け取ります。
 
@@ -83,7 +83,7 @@ Shape rectangle = builder.InsertShape(ShapeType.Rectangle, 150, 80);
 
 この時点で長方形は文書に表示されますが、やや平坦に見えます。次のステップで影を付けます。
 
-## Step 4: Add Shadow to the Shape
+## ステップ4：図形に影を追加する
 
 影はシェイプに奥行きを与えます。`Shadow` オブジェクトでぼかし、距離、角度、色、透明度を細かく調整できます。以下は多くのレポートでうまく機能する設定例です。
 
@@ -107,7 +107,7 @@ rectangle.Shadow = new Shadow
 
 よりドラマチックにしたい場合は `BlurRadius` を上げ、`Transparency` を下げます。逆にほぼ見えないほど控えめにしたい場合は数値を入れ替えてください。
 
-## Step 5: Save the Document
+## ステップ5：文書を保存する
 
 最後にファイルをディスクに書き出します。`Save` メソッドは拡張子からフォーマットを自動判別するので、`.docx` とすれば最新の Word 形式になります。
 
@@ -123,7 +123,7 @@ document.Save(outputPath);
 
 *Image alt text: Wordで影付きの長方形シェイプを作成*
 
-## Full Working Example
+## 完全な動作例
 
 すべてをまとめた、すぐに実行できる完全版プログラムです。コンソールアプリにコピペして **F5** を押すだけです。
 
@@ -165,29 +165,29 @@ namespace WordShapeDemo
 }
 ```
 
-### Expected Result
+### 期待される結果
 
 - 生成された `ShadowRectangle.docx` には、カーソル位置に **1 つの長方形シェイプ** が中央に配置されています。  
 - 長方形には **30 % 透明な黒色のソフト影** が 45° の角度でオフセットされています。  
 - それ以外のコンテンツは追加されず、ファイルは軽量で他のレポートに埋め込みやすい状態です。
 
-## Common Questions & Edge Cases
+## よくある質問と例外的なケース
 
-### What if I need a different shape?
+### 別の図形が必要な場合はどうすればよいですか？
 
 `ShapeType.Rectangle` を任意の `ShapeType` 列挙値（例：`Ellipse`、`Triangle`）に置き換えるだけです。影の API は同じなので、設定を再利用できます。
 
-### How do I change the fill color?
+### 塗りつぶしの色を変更するにはどうすればよいですか？
 
 ```csharp
 rect.FillColor = Color.LightBlue;   // or any System.Drawing.Color
 ```
 
-### Can I add the shape to a specific paragraph?
+### 特定の段落に図形を追加できますか？
 
 はい。`InsertShape` を呼び出す前に `builder.MoveToParagraph(index)` で `DocumentBuilder` を目的の段落に移動させます。これでシェイプが正確に必要な位置に挿入されます。
 
-### What about older Word formats (.doc)?
+### 古いWord形式（.doc）の場合はどうなりますか？
 
 拡張子を変更するだけです：
 
@@ -197,18 +197,18 @@ doc.Save(@"C:\Temp\ShadowRectangle.doc", SaveFormat.Doc);
 
 影機能は Word 2003 以降でサポートされているため、効果は維持されます。
 
-### Using Open XML SDK instead of Aspose?
+### Asposeの代わりにOpen XML SDKを使用する場合は？
 
 手順は同じです：`WordprocessingDocument` を作成し、`Drawing` 要素を追加し、`<a:shadow>` プロパティを設定します。XML は冗長になりますが、サイズ、ぼかし、距離、角度といった概念は同一です。
 
-## Tips to Avoid Pitfalls
+## 落とし穴を避けるためのヒント
 
 - **ライセンスを忘れずに**。有料版 Aspose を使用する場合、ライセンスが無いと透かしが入ります。  
 - **単位はポイント** です。ピクセルではありません。一般的な画面ピクセルは約 0.75 pt なので、サイズはそれに合わせて調整してください。  
 - **`WrapType` が `Inline` の場合、影のプロパティは無視されます**。影を正しく描画させるには `WrapType = WrapType.Square` のようにフローティングシェイプを使用してください。  
 - **ネットワーク共有へ保存する場合は権限に注意**。パスが正しくアクセスできるか事前にテストしましょう。
 
-## Conclusion
+## まとめ
 
 これで C# を使って Word 文書に **長方形シェイプを作成**し、**シェイプに影を付ける** 方法、そして **c# generate word document** ファイルをすぐに配布できる手順が身につきました。ライブラリのインストール、`Document` のインスタンス化、シェイプの挿入、影の設定、保存というコアステップは覚えやすく、他のシェイプや色、動的データにも簡単に応用できます。
 

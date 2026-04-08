@@ -40,7 +40,7 @@ Word 문서에서 **create rectangle shape**가 필요했지만 어디서 시작
 - 파일을 저장하여 Microsoft Word에서 올바르게 열리는 방법  
 - 실제 시나리오를 위한 팁, 함정 및 변형  
 
-### Prerequisites
+### 필수 조건
 
 - .NET 6.0 이상 (코드는 .NET Core 및 .NET Framework에서도 동작합니다)  
 - Word 파일을 조작할 수 있는 NuGet 패키지 – 우리는 API가 간결한 **Aspose.Words for .NET**를 사용할 것입니다. Open XML SDK를 선호한다면 개념은 동일하지만 클래스만 다릅니다.  
@@ -48,7 +48,7 @@ Word 문서에서 **create rectangle shape**가 필요했지만 어디서 시작
 
 > **Pro tip:** 예산이 제한된 경우 Aspose에서 제공하는 무료 체험판을 활용하면 학습에 충분합니다. 테스트할 때는 라이선스 라인을 주석 처리하면 됩니다.
 
-## Step 1: Install the Word‑Processing Library
+## 1단계: 워드 프로세싱 라이브러리 설치
 
 먼저 라이브러리를 프로젝트에 추가합니다. 솔루션 폴더에서 터미널을 열고 다음 명령을 실행하세요:
 
@@ -58,7 +58,7 @@ dotnet add package Aspose.Words
 
 Open XML SDK를 사용하는 경우 명령은 `dotnet add package DocumentFormat.OpenXml`이 됩니다. 이 가이드의 나머지 부분은 Aspose.Words를 기준으로 설명하지만, API 호출을 교체하는 것은 간단합니다.
 
-## Step 2: Create a New Blank Document
+## 2단계: 새 빈 문서 만들기
 
 라이브러리가 준비되었으니, 깨끗한 `Document` 객체를 시작점으로 **create rectangle shape**를 할 수 있습니다. 이것을 새로운 캔버스로 생각하세요.
 
@@ -74,7 +74,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 `DocumentBuilder`는 저수준 노드 트리를 직접 다루지 않고도 콘텐츠를 삽입할 수 있는 고수준 인터페이스를 제공합니다.
 
-## Step 3: Insert the Rectangle Shape
+## 3단계: 사각형 도형 삽입
 
 빌더를 이용해 **insert shape in Word**를 수행합니다. `InsertShape` 메서드는 모양 유형과 크기(너비, 높이)를 포인트 단위로 받습니다.
 
@@ -85,7 +85,7 @@ Shape rectangle = builder.InsertShape(ShapeType.Rectangle, 150, 80);
 
 이 시점에서 사각형이 문서에 나타나지만 다소 평면적으로 보입니다. 다음 단계에서 이를 개선합니다.
 
-## Step 4: Add Shadow to the Shape
+## 4단계: 도형에 그림자 추가
 
 그림자는 모양에 깊이감을 부여합니다. `Shadow` 객체를 사용하면 블러, 거리, 각도, 색상 및 투명도를 세밀하게 조정할 수 있습니다. 아래는 대부분의 보고서에 잘 맞는 전체 설정 예시입니다.
 
@@ -109,7 +109,7 @@ rectangle.Shadow = new Shadow
 
 더 극적인 효과가 필요하면 `BlurRadius`를 늘리고 `Transparency`를 낮추세요. 거의 보이지 않을 정도의 미세한 상승 효과를 원한다면 그 값을 반대로 설정하면 됩니다.
 
-## Step 5: Save the Document
+## 5단계: 문서 저장
 
 마지막으로 파일을 디스크에 기록합니다. `Save` 메서드는 파일 확장자를 기반으로 형식을 자동 감지하므로 `.docx`를 사용하면 최신 Word 형식으로 저장됩니다.
 
@@ -125,7 +125,7 @@ Microsoft Word에서 `ShadowRectangle.docx`를 열면 부드러운 그림자가 
 
 *Image alt text: Word에서 그림자와 함께 사각형 모양 만들기*
 
-## Full Working Example
+## 전체 작동 예시
 
 전체 코드를 한 번에 확인해 보세요. 아래 코드를 콘솔 앱에 복사‑붙여넣기하고 **F5**를 눌러 실행하면 됩니다.
 
@@ -167,29 +167,29 @@ namespace WordShapeDemo
 }
 ```
 
-### Expected Result
+### 예상 결과
 
 - 생성된 `ShadowRectangle.docx`에는 커서가 위치한 곳을 중심으로 **one rectangle shape**가 포함됩니다.  
 - 사각형은 45° 각도로 오프셋된 **soft, 30 % transparent black shadow**을 표시합니다.  
 - 다른 내용은 추가되지 않아 파일이 가볍고, 큰 보고서에 쉽게 삽입할 수 있습니다.
 
-## Common Questions & Edge Cases
+## 일반적인 질문 및 예외 상황
 
-### What if I need a different shape?
+### 다른 도형이 필요한 경우는 어떻게 해야 하나요?
 
 `ShapeType.Rectangle`를 원하는 다른 `ShapeType` 열거값(예: `Ellipse`, `Triangle`)으로 교체하면 됩니다. 그림자 API는 동일하게 동작하므로 설정을 재사용할 수 있습니다.
 
-### How do I change the fill color?
+### 채우기 색상은 어떻게 변경하나요?
 
 ```csharp
 rect.FillColor = Color.LightBlue;   // or any System.Drawing.Color
 ```
 
-### Can I add the shape to a specific paragraph?
+### 특정 단락에 도형을 추가할 수 있나요?
 
 예. `InsertShape`를 호출하기 전에 `builder.MoveToParagraph(index)`를 사용해 `DocumentBuilder`를 목표 단락으로 이동하면 모양이 정확히 원하는 위치에 삽입됩니다.
 
-### What about older Word formats (.doc)?
+### 이전 Word 형식(.doc)은 어떻게 처리하나요?
 
 확장자를 다음과 같이 변경하면 됩니다:
 
@@ -199,18 +199,18 @@ doc.Save(@"C:\Temp\ShadowRectangle.doc", SaveFormat.Doc);
 
 그림자 기능은 Word 2003 이후 버전에서 지원되므로 여전히 효과를 확인할 수 있습니다.
 
-### Using Open XML SDK instead of Aspose?
+### Aspose 대신 Open XML SDK를 사용하는 경우는 어떻게 되나요?
 
 절차는 동일합니다: `WordprocessingDocument`를 생성하고 `Drawing` 요소를 추가한 뒤 `<a:shadow>` 속성을 설정합니다. XML이 더 길어지지만 크기, 블러, 거리, 각도와 같은 개념은 동일합니다.
 
-## Tips to Avoid Pitfalls
+## 주의 사항
 
 - **Don’t forget the license**를 사용 중인 유료 Aspose 버전에 적용하세요. 그렇지 않으면 워터마크가 표시됩니다.  
 - **Units are points**, 픽셀이 아니라 포인트 단위입니다. 일반 화면 픽셀은 약 0.75 pt이므로 크기를 적절히 조정하세요.  
 - **Shadow properties are ignored**는 모양의 `WrapType`이 `Inline`으로 설정된 경우 무시됩니다. 그림자 렌더링을 적용하려면 `WrapType = WrapType.Square`와 같이 플로팅 형태로 설정하세요.  
 - **Saving to a network share**는 적절한 권한이 필요할 수 있으니, 경로를 먼저 테스트해 보세요.
 
-## Conclusion
+## 결론
 
 이제 C#를 사용해 Word 문서에 **create rectangle shape**를 삽입하고, **add shadow to shape**를 적용하며, **c# generate word document** 파일을 즉시 사용할 수 있게 만드는 방법을 알게 되었습니다. 핵심 단계—라이브러리 설치, `Document` 인스턴스 생성, 모양 삽입, 그림자 설정, 저장—은 기억하기 쉽고 다른 모양, 색상 또는 동적 데이터에도 손쉽게 적용할 수 있습니다.
 

@@ -31,7 +31,7 @@ url: /ja/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-gui
 
 このチュートリアルでは、Aspose.Words for .NET を使用して**save document as txt**する正確な手順を解説し、さらに**export equations to LaTeX**して科学的コンテンツを失わない方法も紹介します。最後まで読めば、**convert word file txt**スタイルで自信を持って変換でき、バッチシナリオで**save docx as txt**する方法も確認できます。
 
-## What You’ll Need
+## 必要なもの
 
 - **Aspose.Words for .NET**（バージョン 23.12 以降） – 変換を支えるライブラリです。  
 - .NET 開発環境（Visual Studio、VS Code、Rider など、どれでも可）。  
@@ -40,7 +40,7 @@ url: /ja/net/programming-with-txtsaveoptions/save-document-as-txt-complete-c-gui
 
 > **Pro tip:** ライセンスをまだお持ちでない場合は、Aspose のウェブサイトから無料評価キーを取得できます – 学習目的での使用には十分です。
 
-## Step 1: Load the Source Document
+## ステップ1：ソースドキュメントを読み込む
 
 最初に DOCX ファイルを開きます。`Document` は Word ファイルの薄いラッパーで、テキスト、スタイル、画像、数式すべてをメモリに読み込みます。
 
@@ -55,7 +55,7 @@ Document document = new Document(@"C:\MyDocs\input.docx");
 **Why this matters:**  
 `File.ReadAllText` のような単純な読み取りでは、生の XML が得られるだけで、レンダリングされたテキストは取得できません。`Document` は Word 形式を解析し、後続のステップで実際のコンテンツや数式オブジェクトにアクセスできるようにします。
 
-## Step 2: Configure TXT Save Options (Export Equations to LaTeX)
+## ステップ2：TXT保存オプションを設定する（数式をLaTeXにエクスポートする）
 
 プレーンテキストファイルは Office Math を直接保存できないため、Aspose.Words に各数式を LaTeX マークアップに変換させます。これにより、生成された `.txt` に完全な数式情報が残ります。
 
@@ -71,7 +71,7 @@ TxtSaveOptions txtOptions = new TxtSaveOptions
 **Why this matters:**  
 `OfficeMathExportMode` を設定しないと、Aspose.Words は数式を削除するかプレースホルダーに置き換えてしまいます。`LaTeX` を選択すれば、多くの科学ツールが理解できるポータブルな表現が得られます。
 
-## Step 3: Save the Document as a Plain‑Text File
+## ステップ3：ドキュメントをプレーンテキストファイルとして保存する
 
 先ほど定義したオプションを使って、コンテンツを `.txt` ファイルに書き出します。これが実際に **save document as txt** が行われる瞬間です。
 
@@ -82,7 +82,7 @@ document.Save(@"C:\MyDocs\Math.txt", txtOptions);
 
 `Math.txt` を開くと、通常の段落と `\displaystyle \int_{0}^{\infty} e^{-x} dx` のような LaTeX スニペットが交互に現れます。これが **export equations to latex** が裏で機能している部分です。
 
-## Full Working Example (All Steps in One File)
+## 完全な動作例（すべての手順を1つのファイルにまとめたもの）
 
 以下は完全に実行可能なプログラムです。新しいコンソールプロジェクトに貼り付け、Aspose.Words NuGet パッケージを追加し、**F5** で実行してください。
 
@@ -134,17 +134,17 @@ E = mc^{2}
 
 元の DOCX により複雑な積分が含まれていれば、完全な LaTeX 表現が出力されます。
 
-## Frequently Asked Questions & Edge Cases
+## よくある質問と例外的なケース
 
-### 1. What if my DOCX has no equations?
+### 1. DOCXファイルに数式が含まれていない場合はどうすればよいですか？
 
 コードはそのまま動作します。`OfficeMathExportMode` には変換対象がないだけなので、クリーンなテキストファイルが得られます。特別な処理は不要です。
 
-### 2. Can I **convert docx to txt** without LaTeX (plain ASCII)?
+### 2. LaTeXを使用せずに（プレーンASCIIで）docxをtxtに変換できますか？
 
 もちろんです。`OfficeMathExportMode` 行を削除するか、`OfficeMathExportMode.Text` に設定すれば、数式はプレーンテキストの代替表現に置き換わりますが、書式は失われる可能性があります。
 
-### 3. How do I **save docx as txt** in bulk?
+### 3. docxファイルをまとめてtxtとして保存するにはどうすればよいですか？
 
 コアロジックを `foreach` ループでラップし、フォルダー内のすべての `.docx` ファイルを列挙します。パフォーマンス向上のため、`TxtSaveOptions` のインスタンスは1つだけ再利用してください。
 
@@ -157,22 +157,22 @@ foreach (var file in files)
 }
 ```
 
-### 4. What about non‑Latin characters?
+### 4. ラテン文字以外の文字はどうなりますか？
 
 Aspose.Words はドキュメントのエンコーディングを尊重します。特定のコードページが必要な場合は、保存前に `txtOptions.Encoding = Encoding.UTF8;` などと設定してください。
 
-### 5. Is the **export equations to latex** feature limited to certain versions?
+### 5. **数式をLaTeXにエクスポートする**機能は特定のバージョンに限定されていますか？
 
 LaTeX エクスポートは Aspose.Words 20.10 で導入されました。古いバージョンをご使用の場合はアップグレードするか、プレーンテキストエクスポートにフォールバックしてください。
 
-## Common Pitfalls & Pro Tips
+## よくある落とし穴とプロのヒント
 
 - **`using Aspose.Words.Saving;` を忘れずに** – これがないとコンパイラが `TxtSaveOptions` を認識しません。  
 - **ファイルパス:** 逐語的文字列 (`@"C:\Path\file.docx"`) を使用するか、バックスラッシュをエスケープしてください。さもなくば *Invalid path* エラーが発生します。  
 - **パフォーマンス:** 数千ファイルを変換する場合は、`TxtSaveOptions` オブジェクトを1つだけ再利用し、エンコーディングが分かっているなら `SaveFormat.AutoDetectEncoding` を無効にします。  
 - **テスト:** 生成された `.txt` を隠し文字も表示できるエディタ（例: VS Code）で開き、LaTeX スニペットが改行変換で壊れていないか確認しましょう。
 
-## Conclusion
+## まとめ
 
 これで **save document as txt** しながら、すべての数式を LaTeX マークアップとして保持する信頼できる方法が手に入りました。**convert word file txt**、**convert docx to txt**、あるいは単に **save docx as txt** が必要な場合でも、ロード → 設定 → 保存 の3ステップで対応可能です。  
 
