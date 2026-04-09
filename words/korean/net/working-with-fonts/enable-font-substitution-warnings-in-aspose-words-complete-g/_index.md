@@ -50,7 +50,7 @@ url: /ko/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-word
 
 ---
 
-## Step 1: Set Up LoadOptions to Enable Font Substitution Warnings  
+## 1단계: 글꼴 대체 경고를 활성화하도록 LoadOptions 설정  
 
 먼저 Aspose.Words에 누락된 폰트에 관심이 있음을 알려야 합니다. 기본적으로 라이브러리는 내부적으로만 경고를 기록합니다. `SubstitutionWarningLevel`을 `Typical`(또는 가장 자세한 출력을 원한다면 `All`)로 설정하면 스위치가 켜집니다.
 
@@ -75,7 +75,7 @@ loadOptions.FontSettings.SubstitutionWarningLevel = FontSubstitutionWarningLevel
 
 ---
 
-## Step 2: Load the Document Using the Configured Options  
+## 2단계: 설정된 옵션을 사용하여 문서 로드  
 
 경고 시스템이 준비되었으니, 앞서 만든 `LoadOptions`를 사용해 DOCX를 로드합니다. 경로는 절대 경로나 상대 경로나 상관없으며, 파일이 존재하는지만 확인하면 됩니다.
 
@@ -92,7 +92,7 @@ Aspose.Words는 문서의 XML을 파싱하고 각 `<w:font>` 요소를 해석한
 
 ---
 
-## Step 3: Iterate Over Warnings and Extract Missing Font Details  
+## 3단계: 경고를 반복하고 누락된 글꼴 세부 정보 추출 
 
 문서가 메모리에 로드되면 `Warnings` 컬렉션에 모든 `FontSubstitutionWarning`이 들어 있습니다. 이를 순회하면서 원하는 타입만 필터링하고 친절한 보고서를 출력합니다.
 
@@ -132,7 +132,7 @@ Substituted with: Times New Roman
 
 ---
 
-## Step 4: Optional – Collect the Data into a List for Further Processing  
+## 4단계: (선택 사항) - 추가 처리를 위해 데이터를 목록으로 수집 
 
 보고서를 CSV로 내보내거나 API로 전송하거나 메모리에 보관하고 싶다면, 경고 정보를 강타입 리스트에 저장할 수 있습니다.
 
@@ -168,13 +168,13 @@ File.WriteAllLines(@"C:\Docs\MissingFontsReport.csv", csvLines);
 
 ---
 
-## Step 5: Handling Edge Cases and Common Pitfalls  
+## 5단계: 예외 상황 및 일반적인 문제점 처리
 
-### Multiple Missing Fonts in a Single Run  
+### 한 번의 실행에서 여러 글꼴이 누락된 경우
 
 대기업 템플릿은 종종 수십 개의 사용자 지정 폰트를 참조합니다. 경고 컬렉션이 커질 수 있지만, 앞서 보여준 순회 방식은 선형적으로 확장되므로 성능에 큰 영향을 주지 않습니다. 출력이 가독성을 유지하도록 페이지별이나 스타일별로 그룹화하면 더 깊은 분석에 도움이 됩니다.
 
-### Custom Font Folders  
+### 사용자 지정 글꼴 폴더  
 
 비표준 디렉터리(예: 공유 네트워크 드라이브)에 폰트를 보관한다면 Aspose.Words에 해당 위치를 알려야 합니다:
 
@@ -184,7 +184,7 @@ loadOptions.FontSettings.SetFontsFolder(@"\\fileserver\SharedFonts", recursive: 
 
 문서를 로드하기 **전에** 이 설정을 하면 라이브러리가 폰트를 찾아낼 수 있어 일부 경고를 완전히 없앨 수 있습니다.
 
-### Suppressing Specific Warnings  
+### 특정 경고 숨기기 
 
 특정 대체가 허용 가능한 경우(예: 장식용 폰트를 교체해도 괜찮을 때)에는 나중에 해당 경고를 필터링할 수 있습니다:
 
@@ -194,13 +194,13 @@ missingFonts = missingFonts
     .ToList();
 ```
 
-### Version Compatibility  
+### 버전 호환성
 
 `FontSubstitutionWarningLevel` 열거형은 Aspose.Words 20.12부터 안정적으로 제공됩니다. 오래된 버전을 사용 중이라면 경고 레벨 기능을 사용하려면 업그레이드가 필요합니다.
 
 ---
 
-## Full Working Example  
+## 전체 작동 예제
 
 아래는 앞서 설명한 모든 단계를 포함한 완전 실행 가능한 프로그램입니다. 새 콘솔 프로젝트에 붙여넣고 Aspose.Words NuGet 패키지를 추가한 뒤, `docPath`를 누락된 폰트를 참조하는 문서로 지정하면 됩니다.
 
@@ -276,7 +276,7 @@ namespace FontWarningDemo
 
 ---
 
-## Conclusion  
+## 결론
 
 Aspose.Words에서 **폰트 대체 경고를 활성화**하는 방법을 초기 설정부터 누락된 폰트 목록 추출까지 모두 다뤘습니다. 위 단계들을 따르면 문서를 감사하고 시각적 일관성을 보장하며, 서버에서 렌더링할 때 발생할 수 있는 불쾌한 서프라이즈를 방지할 수 있습니다.
 

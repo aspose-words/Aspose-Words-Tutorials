@@ -44,7 +44,7 @@ Word では問題なく開けるのに、コード内で例外が発生する DO
 
 ---
 
-## Step 1 – Install Aspose.Words and Add Namespaces
+## ステップ 1 – Aspose.Words をインストールし、名前空間を追加する
 
 まずは NuGet からライブラリを取得し、必要な名前空間をインポートします。
 
@@ -61,13 +61,13 @@ using Aspose.Words.Loading;
 
 ---
 
-## Step 2 – Choose a Recovery Mode (Primary H2 with Keyword)
+## ステップ 2 – リカバリ モードを選択する (キーワード付きプライマリ H2)
 
-### Recover Corrupted Document – Setting the Right Recovery Mode
+### 破損したドキュメントのリカバリ – 適切なリカバリ モードの設定
 
 Aspose.Words には 3 つの復元動作が用意されています。
 
-| Mode | What Happens | When to Use |
+| モード | 動作 | 使用場面 |
 |------|--------------|------------|
 | **PromptUser** | ダイアログを表示（または独自のプロンプトを実装）し、ファイルの修復を試みます。 | ユーザーが判断できるインタラクティブなツールに最適です。 |
 | **Silent** | 自動的に修復を試み、UI を表示しません。 | バッチジョブやサービス向けに適しています。 |
@@ -88,7 +88,7 @@ LoadOptions loadOptions = new LoadOptions
 
 ---
 
-## Step 3 – Load the DOCX with Recovery
+## ステップ 3 – リカバリモードで DOCX ファイルを読み込む
 
 先ほど設定した `LoadOptions` を使って **load docx with recovery** を実行します。ファイルが破損している場合、モードに応じて修復または警告が発生します。
 
@@ -113,7 +113,7 @@ catch (Exception ex)
 
 ---
 
-## Step 4 – Inspect Warnings and Prompt the User
+## ステップ 4 – 警告を確認し、ユーザーに確認を促す
 
 Aspose.Words は検出した問題を `Warnings` コレクションに記録します。これを列挙してユーザーに次のアクションを選ばせましょう。
 
@@ -147,7 +147,7 @@ else
 
 ---
 
-## Step 5 – Work With the Recovered Document
+## ステップ5 – 復元したドキュメントの操作
 
 ここまででドキュメントはメモリ上に復元されました。あとは内容を読み取ったり、クリーンなコピーとして保存したり、必要な操作を自由に行えます。
 
@@ -174,7 +174,7 @@ Clean copy saved to: C:\Temp\clean_copy.docx
 
 ---
 
-## Full Working Example
+## 完全な動作例
 
 以下が全体のプログラムです。新しいコンソールプロジェクトに貼り付けて **F5** キーで実行してください。
 
@@ -247,9 +247,9 @@ class RecoverCorruptedDocument
 
 ---
 
-## Edge Cases & Variations
+## エッジケースとバリエーション
 
-| Scenario | What to Change | Why |
+| シナリオ | 変更内容 | 変更理由 |
 |----------|----------------|-----|
 | **Batch processing** (no user interaction) | `RecoveryMode = RecoveryMode.Silent` に設定し、コンソールプロンプトを削除する。 | パイプラインを自動的に進めるため。 |
 | **Strict validation** (fail fast) | `RecoveryMode.ThrowException` を使用し、ロード呼び出しを try/catch で囲んで例外をログに記録する。 | 部分的に修復されたファイルで作業しないことを保証。 |
@@ -258,7 +258,7 @@ class RecoverCorruptedDocument
 
 ---
 
-## Practical Tips (E‑E‑A‑T Signals)
+## 実践的なヒント（E-E-A-T信号）
 
 - **必ずバックアップ** を取ってから復元を試みましょう。処理中にファイルの一部が上書きされる可能性があります。  
 - **警告はファイルに記録** して後で分析できるようにしましょう。多くの場合、根本原因（欠落パーツ、XML の破損など）を示唆しています。  
@@ -268,7 +268,7 @@ class RecoverCorruptedDocument
 
 ---
 
-## Conclusion
+## 結論
 
 これで **recover corrupted document** ファイルを C# で **set recovery mode**、**load docx with recovery**、そして **prompt user on error** とともに扱う方法がマスターできました。完全なサンプルはコンソールアプリ、サービス、UI プロジェクトのいずれでも動作するエンドツーエンドのフローを示しています。
 
