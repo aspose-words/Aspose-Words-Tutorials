@@ -88,6 +88,21 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu c
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Định dạng bảng và kiểu bảng trong Aspose.Words for Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words for Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
 
+### [Aspose.Words to PDF – Chuyển DOCX sang PDF trong Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose.Words for Java trong một dòng mã.
+
+### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
+
+### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
+
+### [Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình chuyển đổi từ DOCX, bao gồm các tùy chọn và ví dụ mã nguồn.
+
+### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  
