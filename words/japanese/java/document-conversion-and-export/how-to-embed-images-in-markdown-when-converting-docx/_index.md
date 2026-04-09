@@ -119,7 +119,7 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Step 4 – Save the Document as Markdown
+## ステップ4 – ドキュメントをMarkdown形式で保存する
 
 最後に、先ほど設定したオプションを使って Aspose.Words に Markdown ファイルを書き出すよう指示します。
 
@@ -137,7 +137,7 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Full Working Example (All Steps in One Place)
+## 完全な動作例（すべての手順を1か所にまとめています）
 
 以下は IDE にコピーペーストできる完全なソースファイルです。`YOUR_DIRECTORY` を実際のパスに置き換えてください。
 
@@ -196,9 +196,9 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Common Questions & Edge Cases
+## よくある質問と例外ケース
 
-### What if an image is a JPEG instead of PNG?
+### 画像がPNGではなくJPEGの場合はどうなりますか？
 
 上記コールバックは常に URI のプレフィックスを `image/png` にしています。JPEG の場合は、`args.getData()` の先頭数バイトを調べるか、`args.getFileName()` から MIME タイプを推測してください：
 
@@ -209,21 +209,21 @@ String mime = args.getFileName().toLowerCase().endsWith(".jpg") ||
 args.setUri("data:" + mime + ";base64," + base64);
 ```
 
-### Can I change the size threshold?
+### サイズしきい値を変更できますか？
 
 もちろんです。`10_000` バイトの上限は単なる例です。帯域幅に余裕があるなら 50 KB 以上に引き上げても構いません。逆に、極限まで軽量な Markdown が必要なら下げてください。
 
-### Does this work with tables or other Word objects?
+### 表やその他のWordオブジェクトにも対応していますか？
 
 はい。Aspose.Words はテーブル、リスト、フットノートさえも自動的に Markdown に変換します。リソースコールバックは画像のみをフックするので、他の要素に対して追加コードは不要です。
 
-### What about non‑ASCII filenames?
+### 非ASCIIファイル名の場合はどうなりますか？
 
 API は `markdown_resources` フォルダーに書き込む際、Unicode ファイル名を安全にエンコードします。ファイルシステムが UTF‑8 をサポートしていること（ほとんどの最新 OS が対応）を確認してください。
 
 ---
 
-## Pro Tips for a Smooth Conversion
+### スムーズな変換のためのプロのヒント
 
 - **Keep the output folder clean.** `Files.createDirectories` は変換ごとに一度だけ実行するか、毎回フォルダーを削除して新規作成すると便利です。  
 - **Validate the Markdown.** `markdownlint` などのツールで、破損した Base64 文字列が混入していないかチェックできます。  

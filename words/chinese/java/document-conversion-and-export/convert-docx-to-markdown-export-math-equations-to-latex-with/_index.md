@@ -42,7 +42,7 @@ url: /zh/java/document-conversion-and-export/convert-docx-to-markdown-export-mat
 
 > **Pro tip:** 如果你使用 Maven，请在 `pom.xml` 中添加 Aspose.Words 依赖。如果你更喜欢 Gradle，同样的坐标可以放在 `dependencies` 块中。
 
-## Step 1: Install Aspose.Words for Java
+## 步骤 1：安装 Aspose.Words for Java
 
 首先——将库添加到项目中。以下是 Maven 代码片段：
 
@@ -62,7 +62,7 @@ implementation 'com.aspose:aspose-words:24.9'
 
 一旦 JAR 位于类路径上，你就可以开始加载 Word 文档了。
 
-## Step 2: Load the Source DOCX Containing Equations
+## 步骤 2：加载包含公式的源 DOCX 文件
 
 加载文件非常直接。关键是指向正确的路径——相对路径在开发期间有效，但在生产环境中使用绝对路径更安全。
 
@@ -80,7 +80,7 @@ public class MarkdownMathExport {
 
 > **Why this matters:** `Document` 会解析整个 DOCX，包括隐藏的 Office Math 对象。如果跳过此步骤或使用错误的文件路径，后续导出将生成空的 Markdown 文件。
 
-## Step 3: Choose How to Export Math – LaTeX or Plain Text
+## 步骤 3：选择导出方式 – LaTeX 或纯文本
 
 Aspose.Words 为你提供两种合理的模式：
 
@@ -101,7 +101,7 @@ Aspose.Words 为你提供两种合理的模式：
 
 > **How it works:** `MarkdownSaveOptions` 对象告诉 Aspose.Words 在转换过程中如何翻译 Office Math 对象。只需一行代码即可在 `LATEX` 与 `TXT` 之间切换——无需重写整个流水线。
 
-## Step 4: Save the Document as Markdown
+## 步骤 4：将文档另存为 Markdown 格式
 
 现在把所有步骤串联起来，写入输出文件。
 
@@ -115,7 +115,7 @@ Aspose.Words 为你提供两种合理的模式：
 
 运行 `main` 方法将生成 `output.md`。如果你在支持 LaTeX 的 Markdown 查看器中打开它（例如使用 *Markdown+Math* 扩展的 VS Code），公式将会美观地渲染。
 
-### Expected Output
+### 预期输出
 
 假设 `input.docx` 包含单个公式 `a^2 + b^2 = c^2`，生成的 Markdown 将类似如下：
 
@@ -135,13 +135,13 @@ a^2 + b^2 = c^2
 
 两者皆可；选择取决于你的下游渲染流水线。
 
-## Advanced: Handling Edge Cases
+## 高级技巧：处理特殊情况
 
-### Multiple Equations in One Paragraph
+### 一个段落中包含多个公式
 
 当段落中包含多个行内公式时，Aspose.Words 会分别包装每一个。无需额外处理，但你可能想在它们之间添加空行以提升可读性。
 
-### Images and Other Media
+### 图片和其他媒体
 
 `MarkdownSaveOptions` 也支持图像导出。如果需要保留图像，请设置：
 
@@ -157,7 +157,7 @@ markdownOptions.setImageSavingCallback(new ImageSavingCallback() {
 
 现在你的 `output.md` 将引用旁边的 `images/` 文件夹。
 
-### Large Documents and Memory Usage
+### 大型文档和内存使用情况
 
 对于超大 DOCX 文件，考虑启用流式处理：
 
@@ -169,7 +169,7 @@ Document largeDoc = new Document("bigfile.docx", loadOptions);
 
 流式处理可保持低内存占用，这对服务器端批量转换至关重要。
 
-## Common Pitfalls & Tips
+## 常见问题及技巧
 
 | 症状 | 可能原因 | 解决办法 |
 |---------|--------------|-----|
@@ -178,11 +178,11 @@ Document largeDoc = new Document("bigfile.docx", loadOptions);
 | LaTeX 在查看器中未渲染 | 查看器不支持 MathJax | 使用支持的查看器，如带相应扩展的 VS Code 或 GitHub |
 | 图片损坏 | 相对图片路径错误 | 使用 `setImageSavingCallback` 控制输出文件夹 |
 
-### Pro tip
+### 专业提示
 
 如果你计划 **save document as markdown** 用于静态站点生成器，快速在生成的文件中 grep 检查所有 `$...$` 块是否正确闭合。缺少 `$` 会导致整页破坏。
 
-## Full Working Example
+## 完整示例
 
 下面是完整的、可直接复制粘贴的程序。它包含了上文讨论的所有可选部分，你可以根据需要注释掉不需要的代码段。
 
@@ -239,7 +239,7 @@ java -cp ".:aspose-words-24.9.jar" MarkdownMathExport input.docx output.md
 
 此时你应该能在 `output.md` 旁看到一个 `images/` 文件夹（如果你的 DOCX 中有图片）。在支持 LaTeX 的查看器中打开该 Markdown 文件，以确认公式如预期显示。
 
-## Conclusion
+## 结论
 
 我们已经逐步演示了如何 **convert docx to markdown**，并掌握了 **how to export math** 的两种方式（LaTeX 或纯文本）。从安装 Aspose.Words、加载 Word 文件、配置 `MarkdownSaveOptions`，到处理图像和大文档，你现在拥有一个可靠的生产级解决方案。
 

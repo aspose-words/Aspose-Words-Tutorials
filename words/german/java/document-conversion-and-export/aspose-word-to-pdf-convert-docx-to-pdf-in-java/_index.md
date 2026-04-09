@@ -36,18 +36,18 @@ In diesem Tutorial gehen wir ein komplettes, sofort ausführbares Beispiel durch
 
 > **Pro tip:** Aspose.Words funktioniert sowohl mit .NET als auch mit Java, aber die Java‑API spiegelt die .NET‑API fast 1:1 wider, sodass der hier geschriebene Code später mit minimalen Änderungen portiert werden kann.
 
-## Prerequisites
+## Voraussetzungen
 
-Bevor wir loslegen, stellen Sie sicher, dass Sie folgendes haben:
+Bevor wir loslegen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- **Java 17** (oder ein aktuelles JDK) installiert und `JAVA_HOME` gesetzt.
+- **Java17** (oder ein aktuelles JDK) installiert und `JAVA_HOME` gesetzt.
 - **Maven** oder **Gradle** zur Verwaltung von Abhängigkeiten.
 - Eine **Aspose.Words for Java** Lizenz (die kostenlose Testversion funktioniert zum Testen, fügt jedoch ein Wasserzeichen hinzu).
-- Eine Beispiel‑`input.docx`, die mindestens eine schwebende Form (Bild, Textfeld usw.) enthält, damit Sie den Effekt der Option `ExportFloatingShapesAsInlineTag` sehen können.
+- Ein Beispiel‑`input.docx`, das mindestens eine schwebende Form (Bild, Textfeld usw.) enthält, damit Sie den Effekt der Option `ExportFloatingShapesAsInlineTag` sehen können.
 
 Falls Ihnen etwas davon unbekannt ist, keine Panik – Sie können eine Testlizenz von der Aspose‑Website erhalten, und Maven wird die Bibliothek automatisch für Sie herunterladen.
 
-## Step 1: Set Up the Project and Add Aspose.Words
+## Schritt 1: Richten Sie das Projekt ein und fügen Sie Aspose.Words hinzu
 
 Zuerst erstellen Sie ein neues Maven‑Projekt (oder verwenden Ihr bevorzugtes Build‑Tool). Fügen Sie die Aspose.Words‑Abhängigkeit zu Ihrer `pom.xml` hinzu:
 
@@ -70,7 +70,7 @@ Falls Sie Gradle bevorzugen, ist das Äquivalent:
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-## Step 2: Load Your DOCX File
+## Schritt 2: DOCX-Datei laden
 
 Jetzt, wo die Bibliothek im Klassenpfad ist, können wir eine DOCX‑Datei laden. Die Klasse `Document` ist der Einstiegspunkt für jede Operation.
 
@@ -86,7 +86,7 @@ public class PdfFloatingShapeTag {
 
 > **Explanation:** Der Konstruktor liest die Datei in den Speicher, parst alle Absätze, Tabellen, Bilder und ja—schwebende Formen. Wenn die Datei fehlt, wirft Aspose eine klare `FileNotFoundException`, die Sie abfangen können, um eine benutzerfreundlichere UI zu erhalten.
 
-## Step 3: Configure PDF Save Options
+## Schritt 3: PDF-Speicheroptionen konfigurieren
 
 Standardmäßig rendert Aspose.Words schwebende Formen so, wie sie im Originallayout erscheinen. Manchmal müssen diese Formen zu regulären Inline‑`<span>`‑Tags werden – besonders wenn das nachgelagerte System nur einfaches HTML‑ähnliches Markup versteht. Genau hier glänzt `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)`.
 
@@ -103,7 +103,7 @@ Standardmäßig rendert Aspose.Words schwebende Formen so, wie sie im Originalla
 
 > **Why enable this option?** Beim Konvertieren für Web‑Vorschau oder OCR‑Pipelines vereinfachen Inline‑Tags die nachgelagerte Verarbeitung. Ohne diese Option würde das PDF die Form als separates Objekt einbetten, was bestimmte Parser zum Scheitern bringen kann.
 
-## Step 4: Save the Document as PDF
+## Schritt 4: Dokument als PDF speichern
 
 Mit den konfigurierten Optionen ist der letzte Schritt ein Einzeiler, der das PDF auf die Festplatte schreibt.
 
@@ -121,7 +121,7 @@ Mit den konfigurierten Optionen ist der letzte Schritt ein Einzeiler, der das PD
 
 Das Ausführen dieser Klasse liest `input.docx`, wendet die Konvertierung schwebender Formen an und erzeugt `output.pdf`. Öffnen Sie das PDF – Sie sollten sehen, dass jedes zuvor schwebende Bild jetzt wie ein Inline‑Element wirkt (Sie können dies überprüfen, indem Sie den umgebenden Text auswählen).
 
-### Full Source Listing
+### Vollständige Quellcode-Liste
 
 Zur Vereinfachung finden Sie hier die gesamte Klasse in einem Block:
 
@@ -146,7 +146,7 @@ public class PdfFloatingShapeTag {
 }
 ```
 
-## Step 5: Verify the Result (What to Look For)
+## Schritt 5: Ergebnis überprüfen (Worauf Sie achten sollten)
 
 Nach Abschluss des Programms:
 
@@ -162,9 +162,9 @@ Wenn etwas nicht stimmt, berücksichtigen Sie diese Anpassungen:
 | Verzerrte Zeichen | Vergewissern Sie sich, dass das Quell‑DOCX Unicode‑Schriften verwendet; setzen Sie ggf. `PdfSaveOptions.setFontEmbeddingMode(FontEmbeddingMode.EMBED_ALL)`. |
 | Wasserzeichen aus Testversion | Gültige Lizenz anwenden: `License license = new License(); license.setLicense("Aspose.Words.lic");` |
 
-## Common Variations & Edge Cases
+## Häufige Varianten & Sonderfälle
 
-### Converting Multiple Files in a Batch
+### Stapelverarbeitung mehrerer Dateien
 
 Wenn Sie **convert docx to pdf** für einen gesamten Ordner benötigen, kapseln Sie die Logik in einer Schleife:
 
@@ -177,7 +177,7 @@ for (File file : folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".d
 }
 ```
 
-### Handling Password‑Protected DOCX Files
+### Umgang mit passwortgeschützten DOCX-Dateien
 
 Aspose.Words kann verschlüsselte Dateien öffnen:
 
@@ -187,7 +187,7 @@ loadOptions.setPassword("mySecret");
 Document protectedDoc = new Document("protected.docx", loadOptions);
 ```
 
-### Streaming Conversion (No Disk I/O)
+### Streaming-Konvertierung (ohne Festplattenzugriff)
 
 Für Web‑Dienste möchten Sie vielleicht **how save docx pdf** direkt in einen Stream schreiben:
 
@@ -198,14 +198,14 @@ byte[] pdfBytes = pdfStream.toByteArray();
 // send pdfBytes as HTTP response
 ```
 
-## Visual Result
+## Visuelles Ergebnis
 
 Unten sehen Sie einen Screenshot des erzeugten PDFs (schwebende Form als Inline‑Text gerendert).  
 ![aspose word to pdf Ausgabe Beispiel](https://example.com/images/aspose-word-to-pdf-output.png)
 
 *Der Alt‑Text des Bildes enthält das Haupt‑Keyword und erfüllt damit SEO‑Anforderungen.*
 
-## Recap & Next Steps
+## Zusammenfassung & Nächste Schritte
 
 Wir haben einen **complete aspose word to pdf** Workflow behandelt:
 

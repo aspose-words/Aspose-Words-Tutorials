@@ -48,7 +48,7 @@ Dalam tutorial ini Anda akan belajar secara tepat **how to convert docx to txt**
 
 Berikut inti solusi. Setiap langkah dipisahkan ke dalam bagiannya masing‑masing sehingga Anda dapat memilih apa yang diperlukan.
 
-### Step 1: Load the Source Document
+### Langkah 1: Muat Dokumen Sumber
 
 Pertama kami membuka file `.docx` yang ingin dikonversi. Kelas `Document` menangani baik format `.docx` maupun format `.doc` lama, sehingga Anda tidak perlu khawatir tentang kompatibilitas.
 
@@ -64,7 +64,7 @@ Document doc = new Document("YOUR_DIRECTORY/input.docx", loadOpts);
 
 *Why this matters:* Memuat dengan opsi eksplisit dapat mencegah kegagalan diam ketika file berisi konten kompleks seperti objek OLE yang disematkan. Ini juga memastikan pustaka mengetahui bahwa Anda berurusan dengan DOCX modern.
 
-### Step 2: Configure TXT Save Options for Math Export
+### Langkah 2: Konfigurasi Opsi Simpan TXT untuk Ekspor Matematika
 
 Inti dari “how to export math” terletak pada enum `OfficeMathExportMode`. Anda memiliki tiga pilihan:
 
@@ -87,7 +87,7 @@ txtOpts.setOfficeMathExportMode(OfficeMathExportMode.TXT);
 
 *Why this matters:* Jika Anda melewatkan langkah ini, pustaka secara default menggunakan `OfficeMathExportMode.IMAGE`, meninggalkan placeholder yang tidak dapat dibaca seperti `[Image: Equation]`. Menetapkannya ke `TXT` meratakan persamaan menjadi string linear yang dapat dicari.
 
-### Step 3: Save the Document as a TXT File
+### Langkah 3: Simpan Dokumen sebagai File TXT
 
 Sekarang kami menulis output. Metode `save` menerima jalur target dan opsi yang baru saja kami konfigurasikan.
 
@@ -101,7 +101,7 @@ System.out.println("Document successfully saved as txt!");
 
 Itu saja—tiga langkah singkat, dan Anda memiliki representasi teks‑biasa dari file Word Anda, lengkap dengan ekspresi matematika linear.
 
-### Full Working Example
+### Contoh Lengkap
 
 Menggabungkan semuanya, berikut kelas yang siap dijalankan. Silakan salin‑tempel ke IDE Anda.
 
@@ -143,11 +143,11 @@ Perhatikan bagaimana persamaan muncul sebagai ekspresi linear (`a + b = c`). Itu
 
 ---
 
-## How to Convert DOCX to TXT – Common Variations
+## Cara Mengonversi DOCX ke TXT – Variasi Umum
 
 Meskipun kode di atas mencakup skenario paling umum, proyek dunia nyata sering memerlukan penanganan tambahan. Berikut beberapa kasus “bagaimana jika” yang mungkin Anda temui.
 
-### Converting Multiple Files in a Batch
+### Mengonversi Beberapa File Secara Massal
 
 Jika Anda memiliki folder penuh dokumen Word, bungkus logika konversi dalam loop:
 
@@ -164,7 +164,7 @@ for (File file : folder.listFiles((dir, name) -> name.endsWith(".docx"))) {
 
 **Pro tip:** Gunakan `java.nio.file.Files` untuk penanganan error yang lebih baik dan kinerja saat menangani ribuan file.
 
-### Handling Encoding Issues
+### Menangani Masalah Pengkodean
 
 File teks biasa default ke UTF‑8 di Aspose.Words, tetapi sistem lama mungkin mengharapkan ANSI atau ISO‑8859‑1. Anda dapat memaksa enkoding seperti ini:
 
@@ -172,7 +172,7 @@ File teks biasa default ke UTF‑8 di Aspose.Words, tetapi sistem lama mungkin m
 txtOpts.setEncoding(java.nio.charset.StandardCharsets.ISO_8859_1);
 ```
 
-### Preserving Line Breaks
+### Mempertahankan Pemisah Baris
 
 Kadang‑kadang logika pemotongan baris otomatis menggabungkan paragraf panjang. Untuk menjaga pemutusan baris Word asli, aktifkan:
 
@@ -185,7 +185,7 @@ Flag tambahan ini opsional, tetapi dapat membuat perbedaan besar ketika **how to
 
 ---
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah konversi akan menghapus gambar?**  
 A: Ya. Karena kami menyimpan ke teks biasa, gambar dihilangkan secara sengaja. Jika Anda membutuhkannya, pertimbangkan mengekspor ke HTML sebagai gantinya.
@@ -201,23 +201,23 @@ A: Periksa konsol untuk pengecualian, pastikan bahwa `.docx` sumber memang beris
 
 ---
 
-## Image Illustration
+## Ilustrasi Gambar
 
 Berikut skema alur konversi. Teks alt mencakup kata kunci utama untuk SEO.
 
-![Diagram alur konversi save document as txt – menunjukkan pemuatan DOCX, pengaturan opsi TXT, dan penulisan ke file TXT](/images/save-doc-as-txt-flow.png)
+![Diagram alur konversi simpan dokumen sebagai txt – menunjukkan pemuatan DOCX, pengaturan opsi TXT, dan penulisan ke file TXT](/images/save-doc-as-txt-flow.png)
 
 ---
 
-## Wrap‑Up
+## Penutupan
 
-Anda kini tahu **how to save document as txt** menggunakan Aspose.Words, dan telah melihat beberapa cara **convert docx to txt** sambil mengendalikan perilaku ekspor matematika. Pola inti—load, configure `TxtSaveOptions`, save—mencakup 95 % skenario dunia nyata.  
+Anda kini mengetahui **cara menyimpan dokumen sebagai txt** menggunakan Aspose.Words, dan telah melihat beberapa cara **mengonversi docx ke txt** sambil mengendalikan perilaku ekspor matematika. Pola inti—muat, konfigurasikan `TxtSaveOptions`, simpan—mencakup 95% skenario dunia nyata.
 
-Jika Anda siap menggali lebih dalam, coba ganti `OfficeMathExportMode.TXT` dengan `MATHML` dan alirkan hasilnya ke parser MathML. Atau bereksperimen dengan flag `PreserveTableLayout` untuk menjaga data tabel tetap terbaca. Bagaimanapun, fondasi yang baru Anda bangun akan sangat berguna untuk tugas pemrosesan dokumen di masa depan.
+Jika Anda siap menggali lebih dalam, coba ganti `OfficeMathExportMode.TXT` dengan `MATHML` dan alirkan hasilnya ke parser MathML. Atau bereksperimen dengan flag `PreserveTableLayout` untuk menjaga tabel data tetap terbaca. Bagaimanapun, fondasi yang baru Anda bangun akan sangat berguna untuk tugas mengurus dokumen di masa depan.
 
 ---
 
-### Next Steps & Related Topics
+### Langkah Selanjutnya & Topik Terkait
 
 * **How to export math** dalam format lain (HTML, PDF) – cukup ubah `SaveFormat`.  
 * **How to convert docx** lewat baris perintah menggunakan Aspose.Words untuk Java CLI.  

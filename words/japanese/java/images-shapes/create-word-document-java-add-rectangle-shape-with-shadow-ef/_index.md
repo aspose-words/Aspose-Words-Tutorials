@@ -26,22 +26,22 @@ url: /ja/java/images-shapes/create-word-document-java-add-rectangle-shape-with-s
 
 # Create Word Document Java – 四角形シェイプに影効果を追加
 
-Ever needed to **create word document java** and make it look a bit more polished? Maybe you’re building a report generator and a plain page just won’t cut it. The good news? With Aspose.Words for Java you can drop a rectangle shape onto a document, give it a splash of color, and even toss a subtle shadow on it—all in a handful of lines.
+**JavaでWord文書を作成する**際に、もう少し洗練された見た目にしたいと思ったことはありませんか？例えば、レポートジェネレーターを作成していて、シンプルなページでは物足りないと感じているかもしれません。そんな時に役立つのが、Aspose.Words for Javaです。たった数行のコードで、文書に長方形を配置し、色を付け、さらに微妙な影まで加えることができます。
 
 このチュートリアルでは、四角形シェイプを追加し、塗りつぶし色を設定し、シェイプに影を適用して Word ファイルを少しだけプロフェッショナルに見せる方法を順を追って解説します。最後まで読むと、プロジェクトにコピペできる実行可能なサンプルが手に入ります。
 
 ## 必要なもの
 
-- **Java 17** (or any recent JDK) – the code uses the standard language features.
-- **Aspose.Words for Java** library – version 23.9 or newer is recommended.
-- An IDE or text editor of your choice – IntelliJ IDEA, Eclipse, VS Code… you decide.
-- A folder where the generated `ShadowShape.docx` will be saved.
+- **Java 17**（または最新のJDK） – コードは標準言語機能を使用します。
+- **Aspose.Words for Java**ライブラリ – バージョン23.9以降を推奨します。
+- お好みのIDEまたはテキストエディタ – IntelliJ IDEA、Eclipse、VS Codeなど、ご自由にお使いください。
+- 生成された`ShadowShape.docx`を保存するフォルダ。
 
 追加の設定ウィザードは不要です。Aspose.Words の JAR をクラスパスに追加すればすぐに使えます。
 
 ## ステップ 1: プロジェクトの設定と Aspose.Words のインポート
 
-First things first, create a new Maven (or Gradle) project and pull in the Aspose.Words dependency. Here’s a minimal `pom.xml` snippet for Maven:
+まず最初に、新しいMaven（またはGradle）プロジェクトを作成し、Aspose.Wordsの依存関係を追加してください。Maven用の最小限の`pom.xml`スニペットは以下のとおりです。
 
 ```xml
 <dependencies>
@@ -54,13 +54,13 @@ First things first, create a new Maven (or Gradle) project and pull in the Aspos
 </dependencies>
 ```
 
-If you’re not using Maven, just drop the JAR file into your `libs` folder and add it to the build path.
+Mavenを使用していない場合は、JARファイルを`libs`フォルダにドロップし、ビルドパスに追加してください。
 
-> **Pro tip:** Aspose offers a free trial license that you can embed with `License license = new License(); license.setLicense("Aspose.Words.lic");`. Skip it for quick tests; the library works in evaluation mode.
+> **ヒント:** Asposeは無料のトライアルライセンスを提供しており、`License license = new License(); license.setLicense("Aspose.Words.lic");`で組み込むことができます。簡単なテストの場合は、このライセンスは不要です。ライブラリは評価モードで動作します。
 
 ## ステップ 2: 新しい Document と Builder の作成
 
-Now we’ll actually **create word document java** objects. The `Document` class represents the whole .docx file, while `DocumentBuilder` lets us insert content.
+それでは、実際にWord文書のJavaオブジェクトを作成します。`Document`クラスは.docxファイル全体を表し、`DocumentBuilder`クラスはコンテンツを挿入するためのものです。
 
 ```java
 import com.aspose.words.*;
@@ -72,11 +72,11 @@ public class ShadowEffectDemo {
         DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-At this point you have an empty document ready to receive shapes, paragraphs, or anything else you might need.
+この時点で、図形、段落、その他必要なものを追加できる空の文書が作成されています。
 
 ## ステップ 3: 四角形シェイプの挿入と塗りつぶし色の設定
 
-Adding a shape is as simple as calling `insertShape`. We’ll use the **add rectangle shape** technique, which falls under the secondary keyword *add rectangle shape*.
+図形を追加するには、`insertShape`を呼び出すだけです。ここでは、セカンダリキーワード`*add rectangle shape*`に含まれる`**add rectangle shape**という手法を使用します。
 
 ```java
         // Insert a rectangle shape – 200pt wide, 100pt tall
@@ -86,11 +86,11 @@ Adding a shape is as simple as calling `insertShape`. We’ll use the **add rect
         rectangle.setFillColor(java.awt.Color.ORANGE);
 ```
 
-Why orange? It stands out in a sea of white, but you can swap it for any `java.awt.Color` you like. This step covers the secondary keyword *set shape fill color*.
+なぜオレンジ色なのかというと、白一色の中で目立つためですが、`java.awt.Color`で指定する任意の色に変更することもできます。この手順では、セカンダリキーワード`*set shape fill color*`について説明します。
 
 ## ステップ 4: 影の外観を設定 – シェイプに影を適用
 
-Now comes the fun part: giving the rectangle a subtle drop shadow. The Aspose API exposes a `ShadowFormat` object that controls every aspect of the shadow.
+さあ、ここからが楽しい部分です。長方形に控えめなドロップシャドウを適用してみましょう。Aspose APIは、シャドウのあらゆる側面を制御できる`ShadowFormat`オブジェクトを提供しています。
 
 ```java
         // Get the shadow format object for the shape
@@ -120,11 +120,11 @@ Now comes the fun part: giving the rectangle a subtle drop shadow. The Aspose AP
         shadow.setScale(1.0);
 ```
 
-That block of code **apply shadow to shape** exactly as the secondary keyword suggests. You can tweak `blur`, `offsetX/Y`, and `transparency` to suit your design language. For instance, a larger `offsetX` creates a more dramatic cast, while a higher `transparency` makes the shadow whisper rather than shout.
+このコードブロックは、セカンダリキーワードが示すとおり、図形に影を適用します。`blur`、`offsetX/Y`、`transparency`を調整することで、デザインに合わせて影の表現を変えることができます。例えば、`offsetX`を大きくすると影がよりドラマチックになり、`transparency`を大きくすると影が控えめになります。
 
 ## ステップ 5: ドキュメントの保存
 
-Finally, we write the document to disk. Choose a folder you have write access to, and give the file a clear name.
+最後に、ドキュメントをディスクに書き込みます。書き込み権限のあるフォルダを選択し、ファイル名を分かりやすいものにしてください。
 
 ```java
         // Save the result – adjust the path as needed
@@ -133,33 +133,33 @@ Finally, we write the document to disk. Choose a folder you have write access to
 }
 ```
 
-When you open `ShadowShape.docx` in Microsoft Word or LibreOffice, you’ll see a bright orange rectangle with a soft gray shadow hovering just beneath it.
+Microsoft WordまたはLibreOfficeで`ShadowShape.docx`を開くと、明るいオレンジ色の長方形とそのすぐ下に浮かぶ柔らかな灰色の影が表示されます。
 
 ![create word document java with rectangle shape](/images/shadow-rectangle.png "create word document java – rectangle with shadow")
 
-*Image alt text includes the primary keyword, satisfying the SEO rule.*
+*画像altテキストにはプライマリキーワードが含まれており、SEOルールを満たしています。*
 
 ## よくある質問とエッジケース
 
 ### 別のシェイプが必要な場合は？
 
-Aspose.Words supports dozens of `ShapeType` values – stars, arrows, callouts, you name it. Simply replace `ShapeType.RECTANGLE` with `ShapeType.OVAL` or any other enum constant. The same **how to add shape** steps apply.
+Aspose.Words は、星、矢印、吹き出しなど、数十種類の `ShapeType` 値をサポートしています。`ShapeType.RECTANGLE` を `ShapeType.OVAL` またはその他の列挙定数に置き換えるだけで使用できます。**図形の追加方法**の手順は同じです。
 
 ### シェイプを特定の段落に追加するには？
 
-Instead of inserting the shape directly with the builder, you can create it first (`new Shape(document, ShapeType.RECTANGLE)`) and then add it to a `Paragraph` via `paragraph.appendChild(shape)`. This gives you finer control over layout.
+ビルダーで図形を直接挿入する代わりに、まず図形を作成し (`new Shape(document, ShapeType.RECTANGLE)`)、次に `paragraph.appendChild(shape)` を使用して `Paragraph` に追加することもできます。これにより、レイアウトをより細かく制御できます。
 
 ### 単色の代わりにグラデーション塗りを適用できますか？
 
-Yes! Use `rectangle.getFill().setFillType(FillType.GRADIENT)` and define a `LinearGradientFill`. The API is a bit more verbose, but it works great for modern designs.
+はい！`rectangle.getFill().setFillType(FillType.GRADIENT)` を使用して `LinearGradientFill` を定義します。API は少し冗長になりますが、最新のデザインに最適です。
 
 ### 古い Word バージョンとの互換性は？
 
-Aspose.Words saves in the .docx format by default, which is supported by Word 2007+ and LibreOffice. If you need .doc, call `document.save("file.doc", SaveFormat.DOC)`. Shadow rendering may differ slightly, but the shape itself remains intact.
+Aspose.Words はデフォルトで .docx 形式で保存します。これは Word 2007 以降および LibreOffice でサポートされています。.doc 形式が必要な場合は、`document.save("file.doc", SaveFormat.DOC)` を呼び出してください。影のレンダリングは若干異なる場合がありますが、形状自体はそのまま維持されます。
 
 ## 完全動作例（コピー＆ペースト可能）
 
-Below is the entire program, ready to compile and run. Replace `YOUR_DIRECTORY` with an actual path on your machine.
+以下にコンパイルして実行できるプログラム全体を示します。`YOUR_DIRECTORY` を実際のパスに置き換えてください。
 
 ```java
 import com.aspose.words.*;
@@ -192,15 +192,15 @@ public class ShadowEffectDemo {
 }
 ```
 
-Running this code produces a Word file that contains the orange rectangle with a soft gray shadow—exactly what we set out to achieve when we wanted to **create word document java** with a styled shape.
+このコードを実行すると、オレンジ色の四角形に淡いグレーの影が付いたWordファイルが生成されます。これはまさに、スタイル付き図形を含むWord文書をJavaで作成したいという私たちの目標達成です。
 
 ## 結論
 
-You now have a solid, end‑to‑end recipe for **create word document java** that *adds rectangle shape*, *sets shape fill color*, and *applies shadow to shape*. The approach is straightforward, the API is fluent, and you can extend it in countless ways—different shapes, gradient fills, or even multiple shadows per shape.
+これで、四角形を追加し、塗りつぶしの色を設定し、影を適用するという、Word文書作成のための確実なエンドツーエンドのレシピが完成しました。このアプローチはシンプルで、APIは使いやすく、さまざまな図形、グラデーション塗りつぶし、あるいは図形ごとに複数の影を適用するなど、無数の方法で拡張できます。
 
-What’s next? Try layering several shapes, experiment with `ShadowStyle.ETCHED` for a different visual feel, or combine this with table generation to build fully‑fledged reports. The possibilities are only limited by your imagination (and maybe the Aspose license tier).
+次は？複数の図形を重ねてみたり、`ShadowStyle.ETCHED`を使って異なる視覚効果を試してみたり、テーブル生成と組み合わせて本格的なレポートを作成したりしてみましょう。可能性はあなたの想像力（そしておそらくAsposeライセンスのティア）によってのみ制限されます。
 
-If you ran into any hiccups or have ideas for further enhancements, drop a comment below. Happy coding, and enjoy making those Word documents look a little less bland!
+何か問題が発生したり、さらなる機能強化のアイデアがあれば、下のコメント欄にご記入ください。コーディングを楽しんで、Word文書を少しでも魅力的にしましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

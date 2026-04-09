@@ -26,13 +26,13 @@ url: /tr/java/images-shapes/create-word-document-java-add-rectangle-shape-with-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Word Document Java – Add Rectangle Shape with Shadow Effect
+# Java ile Word Belgesi Oluşturma – Gölge Efektli Dikdörtgen Şekli Ekleme
 
 Hiç **create word document java** oluşturup biraz daha şık bir görünüm elde etmek istediniz mi? Belki bir rapor üreticisi geliştiriyorsunuz ve sade bir sayfa yeterli gelmiyor. İyi haber? Aspose.Words for Java ile bir belgeye dikdörtgen şekil ekleyebilir, ona renk verebilir ve hatta hafif bir gölge de ekleyebilirsiniz—tek bir kaç satır kodla.
 
 Bu öğreticide tam olarak bunu yapacağız: bir dikdörtgen şekil ekleme, dolgu rengini ayarlama ve şekle gölge uygulama. Sonunda kendi projenize kopyalayıp yapıştırabileceğiniz çalıştırılabilir bir örnek elde edeceksiniz.
 
-## What You’ll Need
+## İhtiyacınız Olanlar
 
 - **Java 17** (veya daha yeni bir JDK) – kod standart dil özelliklerini kullanır.
 - **Aspose.Words for Java** kütüphanesi – 23.9 veya daha yeni bir sürüm önerilir.
@@ -41,7 +41,7 @@ Bu öğreticide tam olarak bunu yapacağız: bir dikdörtgen şekil ekleme, dolg
 
 Ek bir yapılandırma sihirbazına gerek yok; sadece Aspose.Words JAR dosyasını sınıf yolunuza ekleyin, hazırsınız.
 
-## Step 1: Set Up the Project and Import Aspose.Words
+## Adım 1: Projeyi Kurun ve Aspose.Words'ü İçe Aktarın
 
 İlk olarak yeni bir Maven (veya Gradle) projesi oluşturun ve Aspose.Words bağımlılığını ekleyin. İşte Maven için minimal bir `pom.xml` kesiti:
 
@@ -60,7 +60,7 @@ Maven kullanmıyorsanız, JAR dosyasını `libs` klasörünüze koyup derleme yo
 
 > **Pro tip:** Aspose, `License license = new License(); license.setLicense("Aspose.Words.lic");` ile gömebileceğiniz ücretsiz bir deneme lisansı sunar. Hızlı testler için atlayabilirsiniz; kütüphane değerlendirme modunda çalışır.
 
-## Step 2: Create a New Document and Builder
+## Adım 2: Yeni Bir Belge ve Oluşturucu Oluşturun
 
 Şimdi **create word document java** nesnelerini oluşturacağız. `Document` sınıfı tüm .docx dosyasını temsil ederken, `DocumentBuilder` içerik eklememizi sağlar.
 
@@ -76,7 +76,7 @@ public class ShadowEffectDemo {
 
 Bu noktada şekiller, paragraflar veya ihtiyacınız olan başka öğeler için hazır boş bir belgeniz var.
 
-## Step 3: Insert a Rectangle Shape and Set Its Fill Color
+## Adım 3: Bir Dikdörtgen Şekli Ekleyin ve Dolgu Rengini Ayarlayın
 
 Şekil eklemek `insertShape` çağrısı kadar basittir. **add rectangle shape** tekniğini kullanacağız; bu, ikincil anahtar kelime *add rectangle shape* altında yer alır.
 
@@ -90,7 +90,7 @@ Bu noktada şekiller, paragraflar veya ihtiyacınız olan başka öğeler için 
 
 Neden turuncu? Beyaz bir alanda öne çıkar, ancak istediğiniz herhangi bir `java.awt.Color` ile değiştirebilirsiniz. Bu adım ikincil anahtar kelime *set shape fill color*’ı kapsar.
 
-## Step 4: Configure the Shadow Appearance – Apply Shadow to Shape
+## Adım 4: Gölge Görünümünü Yapılandırın – Şekle Gölge Uygulayın
 
 Şimdi eğlenceli kısım: dikdörtgene hafif bir gölge eklemek. Aspose API, gölgenin her yönünü kontrol eden bir `ShadowFormat` nesnesi sunar.
 
@@ -124,7 +124,7 @@ Neden turuncu? Beyaz bir alanda öne çıkar, ancak istediğiniz herhangi bir `j
 
 Bu kod bloğu **apply shadow to shape** ikincil anahtar kelimeyi tam olarak uygular. `blur`, `offsetX/Y` ve `transparency` değerlerini tasarım dilinize göre ayarlayabilirsiniz. Örneğin, daha büyük bir `offsetX` daha dramatik bir gölge yaratırken, yüksek bir `transparency` gölgeyi fısıltı gibi yapar.
 
-## Step 5: Save the Document
+## Adım 5: Belgeyi Kaydedin
 
 Son olarak belgeyi diske yazdırıyoruz. Yazma izniniz olan bir klasör seçin ve dosyaya açıklayıcı bir ad verin.
 
@@ -141,27 +141,27 @@ Son olarak belgeyi diske yazdırıyoruz. Yazma izniniz olan bir klasör seçin v
 
 *Görsel alt metni anahtar kelimeyi içerir, SEO kuralını karşılar.*
 
-## Common Questions & Edge Cases
+## Yaygın Sorular ve Son Durumlar
 
-### What if I need a different shape?
+### Farklı bir şekle ihtiyacım olursa ne olur?
 
-Aspose.Words, `ShapeType` değerleri bakımından onlarca seçenek sunar – yıldızlar, oklar, balonlar vb. `ShapeType.RECTANGLE` yerine `ShapeType.OVAL` ya da başka bir enum sabiti koymanız yeterli. Aynı **how to add shape** adımları geçerli olur.
+Aspose.Words, `ShapeType` değerleri bakımından onlarca seçenek sunar – yıldızlar, oklar, balonlar vb. `ShapeType.RECTANGLE` yerine `ShapeType.OVAL` ya da başka bir enum sabiti koymanız yeterli. Aynı **nasıl şekil eklenir** adımların geçerli olur.
 
-### How do I add the shape to a specific paragraph?
+### Şekli belirli bir paragrafa nasıl eklerim?
 
-Şekli doğrudan builder ile eklemek yerine önce (`new Shape(document, ShapeType.RECTANGLE)`) oluşturup, ardından `paragraph.appendChild(shape)` ile bir `Paragraph` içine ekleyebilirsiniz. Bu, yerleşim üzerinde daha ince kontrol sağlar.
+Şekli doğrudan builder ile seçme yerine önce (`new Shape(document, ShapeType.RECTANGLE)`) oluşturup, ardından `paragraph.appendChild(shape)` ile bir `Paragraph` içine girebilirsiniz. Bu, yerleşimin daha iyi kontrol edilmesini sağlar.
 
-### Can I apply a gradient fill instead of a solid color?
+### Düz renk yerine degrade dolgu uygulayabilir miyim?
 
-Evet! `rectangle.getFill().setFillType(FillType.GRADIENT)` ve bir `LinearGradientFill` tanımlayın. API biraz daha ayrıntılıdır, ancak modern tasarımlar için harikadır.
+Evet! `rectangle.getFill().setFillType(FillType.GRADIENT)` ve bir `LinearGradientFill` tanımlayın. API biraz daha ayrıntılıdır, ancak modern yapılar için harikadır.
 
-### What about compatibility with older Word versions?
+### Eski Word sürümleriyle uyumluluk ne olacak?
 
-Aspose.Words varsayılan olarak .docx formatında kaydeder; bu format Word 2007+ ve LibreOffice tarafından desteklenir. .doc gerekir ise `document.save("file.doc", SaveFormat.DOC)` çağrısını yapın. Gölge render’ı biraz farklı olabilir, ancak şekil aynı kalır.
+Aspose.Words varsayılan olarak .docx formatındadır; bu format Word2007+ ve LibreOffice tarafından desteklenir. .doc gerekir ise `document.save("file.doc", SaveFormat.DOC)` çağrısını yapın. Gölge render'ı biraz farklı olabilir, ancak şekil aynı kalır.
 
-## Full Working Example (Copy‑Paste Ready)
+## Tam Çalışma Örneği (Kopyala-Yapıştır'a Hazır)
 
-Aşağıda tüm program yer alıyor, derlenip çalıştırılmaya hazır. `YOUR_DIRECTORY` kısmını makinenizdeki gerçek bir yol ile değiştirin.
+Aşağıda tüm program yer alıyor, derlenip çalıştırılmaya hazır. `YOUR_DIRECTORY` kısmının makinenizdeki gerçek bir yol ile onaylandı.
 
 ```java
 import com.aspose.words.*;
@@ -196,7 +196,7 @@ public class ShadowEffectDemo {
 
 Bu kodu çalıştırdığınızda, turuncu dikdörtgen ve yumuşak gri gölge içeren bir Word dosyası elde edeceksiniz—tam da **create word document java** ile stilize bir şekil eklemek istediğimizde hedeflediğimiz sonuç.
 
-## Conclusion
+## Çözüm
 
 Artık **create word document java** için *add rectangle shape*, *set shape fill color* ve *apply shadow to shape* adımlarını içeren eksiksiz bir tarifiniz var. Yaklaşım basit, API akıcı ve sayısız şekilde genişletilebilir—farklı şekiller, degrade dolgu ya da şekil başına birden fazla gölge gibi.
 

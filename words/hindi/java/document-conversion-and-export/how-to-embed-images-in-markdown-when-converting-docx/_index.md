@@ -37,7 +37,7 @@ url: /hi/java/document-conversion-and-export/how-to-embed-images-in-markdown-whe
 
 ---
 
-## What You’ll Need
+## आपको क्या चाहिए
 
 - **Java 17** (या कोई भी नया JDK) – API Java‑केन्द्रित है, लेकिन अवधारणाएँ अन्य भाषाओं में भी लागू होती हैं।
 - **Aspose.Words for Java** – एक कमर्शियल लाइब्रेरी जो DOCX → Markdown कन्वर्ज़न को सपोर्ट करती है।
@@ -48,7 +48,7 @@ url: /hi/java/document-conversion-and-export/how-to-embed-images-in-markdown-whe
 
 ---
 
-## Step 1 – Add Aspose.Words to Your Project (convert docx to markdown)
+## स्टेप 1 – अपने प्रोजेक्ट में Aspose.Words जोड़ें (docx को markdown में बदलें)
 
 यदि आप Maven उपयोग कर रहे हैं, तो नीचे दिया गया स्निपेट अपने `pom.xml` में डालें। पढ़ते समय संस्करण को नवीनतम रिलीज़ से बदलने में संकोच न करें।
 
@@ -64,7 +64,7 @@ url: /hi/java/document-conversion-and-export/how-to-embed-images-in-markdown-whe
 
 ---
 
-## Step 2 – Load the Source DOCX Document
+## स्टेप 2 – सोर्स DOCX डॉक्यूमेंट लोड करें
 
 पहले, API को उस Word फ़ाइल की ओर इशारा करें जिसे आप ट्रांसफ़ॉर्म करना चाहते हैं। `Document` कंस्ट्रक्टर सभी काम कर देता है—कोई मैन्युअल XML पार्सिंग आवश्यक नहीं।
 
@@ -81,7 +81,7 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Step 3 – Prepare MarkdownSaveOptions with a Resource‑Saving Callback
+## स्टेप 3 – रिसोर्स-सेविंग कॉलबैक के साथ MarkdownSaveOptions तैयार करें
 
 यह **इमेजेज़ को एम्बेड करने** का सही तरीका है। कॉलबैक आपको प्रत्येक रिसोर्स (इमेज, स्टाइल आदि) के लिए एक हुक देता है जिसे कन्वर्टर लिखना चाहता है।
 
@@ -113,7 +113,7 @@ public class MarkdownResourceCallback {
         });
 ```
 
-### Why a callback?
+### कॉलबैक क्यों?
 
 - **Control:** आप तय कर सकते हैं कि इमेज इनलाइन Base64 स्ट्रिंग बन जाए या अलग फ़ाइल।
 - **Performance:** छोटे आइकॉन Markdown का हिस्सा बन जाते हैं, जिससे अतिरिक्त HTTP रिक्वेस्ट नहीं करनी पड़ती।
@@ -121,7 +121,7 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Step 4 – Save the Document as Markdown
+## स्टेप 4 – डॉक्यूमेंट को Markdown के तौर पर सेव करें
 
 अंत में, Aspose.Words को बताएं कि हमने अभी कॉन्फ़िगर किए गए विकल्पों का उपयोग करके Markdown फ़ाइल लिखे।
 
@@ -139,7 +139,7 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Full Working Example (All Steps in One Place)
+## पूरा वर्किंग उदाहरण (सभी स्टेप्स एक ही जगह पर)
 
 नीचे पूरा सोर्स फ़ाइल दिया गया है, जिसे आप अपने IDE में कॉपी‑पेस्ट कर सकते हैं। `YOUR_DIRECTORY` को अपने मशीन पर वास्तविक पाथ से बदलें।
 
@@ -198,9 +198,9 @@ public class MarkdownResourceCallback {
 
 ---
 
-## Common Questions & Edge Cases
+## आम सवाल और एज केस
 
-### What if an image is a JPEG instead of PNG?
+### अगर कोई इमेज PNG के बजाय JPEG हो तो क्या होगा?
 
 ऊपर दिया गया कॉलबैक हमेशा URI को `image/png` से प्रीफ़िक्स करता है। JPEG के लिए, आप `args.getData()` के पहले कुछ बाइट्स देख सकते हैं या `args.getFileName()` का उपयोग करके सही MIME टाइप का अनुमान लगा सकते हैं:
 
@@ -211,21 +211,21 @@ String mime = args.getFileName().toLowerCase().endsWith(".jpg") ||
 args.setUri("data:" + mime + ";base64," + base64);
 ```
 
-### Can I change the size threshold?
+### क्या मैं साइज़ थ्रेशहोल्ड बदल सकता हूँ?
 
 बिल्कुल। `10_000` बाइट की सीमा सिर्फ़ एक उदाहरण है। यदि आपके पास बैंडविड्थ की पर्याप्त गुंजाइश है, तो इसे 50 KB या उससे अधिक कर सकते हैं। उल्टा, यदि आपको अल्ट्रा‑लाइट Markdown फ़ाइल चाहिए तो इसे घटा सकते हैं।
 
-### Does this work with tables or other Word objects?
+### क्या यह टेबल या दूसरे Word ऑब्जेक्ट के साथ काम करता है?
 
 हां। Aspose.Words स्वचालित रूप से टेबल, लिस्ट और यहाँ तक कि फुटनोट्स को भी Markdown में बदल देता है। रिसोर्स कॉलबैक केवल इमेजेज़ को इंटरसेप्ट करता है, इसलिए अन्य एलिमेंट्स के लिए अतिरिक्त कोड की ज़रूरत नहीं है।
 
-### What about non‑ASCII filenames?
+### नॉन-ASCII फ़ाइलनेम के बारे में क्या?
 
 API `markdown_resources` फ़ोल्डर में लिखते समय Unicode फ़ाइल नामों को सुरक्षित रूप से एन्कोड कर देती है। बस यह सुनिश्चित करें कि आपका फ़ाइल सिस्टम UTF‑8 को सपोर्ट करता हो (ज्यादातर आधुनिक OS ऐसा करते हैं)।
 
 ---
 
-## Pro Tips for a Smooth Conversion
+## आसान कन्वर्ज़न के लिए प्रो टिप्स
 
 - **Keep the output folder clean.** `Files.createDirectories` को प्रत्येक कन्वर्ज़न पर केवल एक बार चलाएँ, या हर रन से पहले फ़ोल्डर को डिलीट करके नया शुरू करें।
 - **Validate the Markdown.** `markdownlint` जैसे टूल्स बेस64 स्ट्रिंग में गड़बड़ी से उत्पन्न अनचाहे कैरेक्टर पकड़ सकते हैं।

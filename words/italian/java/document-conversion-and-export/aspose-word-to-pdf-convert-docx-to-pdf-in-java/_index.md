@@ -47,7 +47,7 @@ Prima di immergerci, assicurati di avere:
 
 Se qualcosa di tutto ciò ti è sconosciuto, non farti prendere dal panico—puoi scaricare una licenza di prova dal sito di Aspose, e Maven scaricherà automaticamente la libreria per te.
 
-## Step 1: Configura il progetto e aggiungi Aspose.Words
+## Passo 1: Configura il progetto e aggiungi Aspose.Words
 
 Per prima cosa, crea un nuovo progetto Maven (o usa il tuo tool di build preferito). Aggiungi la dipendenza Aspose.Words al tuo `pom.xml`:
 
@@ -70,7 +70,7 @@ Se preferisci Gradle, l'equivalente è:
 implementation 'com.aspose:aspose-words:24.9'
 ```
 
-## Step 2: Carica il tuo file DOCX
+## Passo 2: Carica il tuo file DOCX
 
 Ora che la libreria è nel classpath, possiamo caricare un file DOCX. La classe `Document` è il punto di ingresso per ogni operazione.
 
@@ -86,7 +86,7 @@ public class PdfFloatingShapeTag {
 
 > **Spiegazione:** Il costruttore legge il file in memoria, analizzando tutti i paragrafi, tabelle, immagini e, sì, le forme fluttuanti. Se il file manca, Aspose lancia una chiara `FileNotFoundException`, che puoi catturare per un'interfaccia più amichevole.
 
-## Step 3: Configura le opzioni di salvataggio PDF
+## Passo 3: Configura le opzioni di salvataggio PDF
 
 Per impostazione predefinita, Aspose.Words renderizza le forme fluttuanti così come appaiono nel layout originale. Talvolta è necessario che queste forme diventino normali tag `<span>` inline—specialmente quando il sistema a valle comprende solo markup HTML‑like semplice. È qui che `PdfSaveOptions.setExportFloatingShapesAsInlineTag(true)` brilla.
 
@@ -103,7 +103,7 @@ Per impostazione predefinita, Aspose.Words renderizza le forme fluttuanti così 
 
 > **Perché abilitare questa opzione?** Quando si converte per anteprime web o per pipeline OCR, i tag inline semplificano l'elaborazione successiva. Senza di essa, il PDF incorporerebbe la forma come oggetto separato, il che può rompere alcuni parser.
 
-## Step 4: Salva il documento come PDF
+## Passaggio 4: Salva il documento come PDF
 
 Con le opzioni pronte, l'ultimo passo è una singola riga che scrive il PDF su disco.
 
@@ -146,7 +146,7 @@ public class PdfFloatingShapeTag {
 }
 ```
 
-## Step 5: Verifica il risultato (cosa controllare)
+## Passo 5: Verifica il risultato (cosa controllare)
 
 Dopo che il programma termina:
 

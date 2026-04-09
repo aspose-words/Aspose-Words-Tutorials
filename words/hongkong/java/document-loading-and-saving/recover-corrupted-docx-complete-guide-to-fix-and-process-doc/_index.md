@@ -43,7 +43,7 @@ url: /zh-hant/java/document-loading-and-saving/recover-corrupted-docx-complete-g
 
 ---
 
-## Step 1: Set Up Aspose.Words and Prepare Load Options to **recover corrupted docx**
+## 步驟 1：設定 Aspose.Words 並準備載入選項以**恢復損壞的 docx 檔案**
 
 首先必須告訴 Aspose.Words 你希望它在發生錯誤時嘗試修復，而不是直接中止。這可以透過建立 `LoadOptions` 實例，並呼叫 `setRecoveryMode(RecoveryMode.RECOVER)` 來完成。
 
@@ -68,7 +68,7 @@ public class RecoveryModeDemo {
 
 ---
 
-## Step 2: Load the Possibly Damaged File
+## 步驟 2：載入可能損壞的文件
 
 設定好恢復旗標後，就可以像載入一般文件一樣載入檔案。若路徑錯誤或檔案已無法修復，仍會拋出例外，但大多數常見的損毀情況都會被優雅處理。
 
@@ -85,7 +85,7 @@ public class RecoveryModeDemo {
 
 ---
 
-## Step 3: Verify the Recovery by **Getting Document Page Count**
+## 步驟 3：透過**取得文件頁數**驗證恢復狀況
 
 恢復完成後，快速檢查 Aspose.Words 認為文件有多少頁。如果頁數合理（例如非空檔案不會是 0），就能確定修復成功。
 
@@ -107,7 +107,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Step 4: (Optional) Save the Fixed Document for Future Use
+## 步驟 4：（選用）儲存修復後的文件以備將來使用
 
 大多數開發者會在修復後將乾淨的副本寫回磁碟。保存非常簡單：
 
@@ -130,9 +130,9 @@ Recovered document has 12 pages.
 
 ---
 
-## Step 5: Common Pitfalls & How to **Fix Corrupted Docx** Effectively
+## 步驟 5：常見陷阱及如何**有效修復損壞的 docx 檔案**
 
-| Pitfall | Symptom | Fix |
+| 陷阱 | 症狀 | 解決方法 |
 |---------|---------|-----|
 | **Missing fonts** | 文字在恢復後出現亂碼或缺失。 | 安裝原始文件使用的相同字型，或在保存時嵌入字型（`doc.save(..., SaveOptions.createSaveOptions(SaveFormat.DOCX))`）。 |
 | **Encrypted DOCX** | 即使開啟恢復模式仍拋出 `Incorrect password` 例外。 | 在載入前使用 `LoadOptions.setPassword("yourPassword")` 提供密碼。 |
@@ -141,7 +141,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Step 6: Extending the Example – From **Recover Corrupted Docx** to PDF Conversion
+## 步驟 6：擴充範例 – 從**恢復損壞的 docx 檔案**到 PDF 轉換
 
 如果需要將修復後的文件輸出為 PDF，只需再加入幾行程式碼：
 
@@ -158,7 +158,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## 完整工作範例（可直接複製貼上）
 
 以下是一個完整、可自行執行的 Java 程式，涵蓋上述所有步驟。請將佔位路徑替換為實際檔案位置，然後以普通 Java 應用程式方式執行。
 
@@ -209,7 +209,7 @@ PDF version created at: YOUR_DIRECTORY/Recovered.pdf
 
 ---
 
-## Conclusion
+## 結論
 
 現在你已完全掌握如何使用 Aspose.Words for Java **recover corrupted docx**。透過 **enabling recovery mode**，讓函式庫有權修復破損的 XML 部分；再以 **get document page count** 確認修復是否成功。之後，你可以進一步 **fix corrupted docx**——保存、轉 PDF，甚至以程式方式編輯內容。
 

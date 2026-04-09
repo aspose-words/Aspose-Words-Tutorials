@@ -26,22 +26,25 @@ url: /hi/java/images-shapes/create-word-document-java-add-rectangle-shape-with-s
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Word Document Java – Add Rectangle Shape with Shadow Effect
+# वर्ड डॉक्यूमेंट जावा बनाएं – शैडो इफ़ेक्ट के साथ रेक्टेंगल शेप जोड़ें
 
-क्या आपको कभी **create word document java** बनाना पड़ा और उसे थोड़ा अधिक पेशेवर दिखाना था? शायद आप एक रिपोर्ट जेनरेटर बना रहे हैं और साधारण पेज पर्याप्त नहीं है। अच्छी खबर? Aspose.Words for Java के साथ आप दस्तावेज़ में एक rectangle shape जोड़ सकते हैं, उसे रंग दे सकते हैं, और यहाँ तक कि एक हल्का shadow भी लगा सकते हैं—सिर्फ कुछ लाइनों में।
+क्या आपको कभी **create word document java** बनाना पड़ा और उसे थोड़ा ज़्यादा प्रोफेशनल दिखाना था? शायद आप एक रिपोर्ट जेनरेटर बना रहे हैं और साधारण पेज काफी नहीं है। अच्छी खबर? Aspose.Words for Java के साथ आप डॉक्यूमेंट में एक रेक्टेंगल शेप जोड़ सकते हैं, उसे कलर दे सकते हैं, और यहाँ तक कि एक हल्का शैडो भी लगा सकते हैं—सिर्फ़ कुछ लेडीज़ में।
 
-इस ट्यूटोरियल में हम ठीक वही करेंगे: rectangle shape कैसे जोड़ें, उसकी fill color सेट करें, और shape पर shadow लागू करें ताकि आपका Word फ़ाइल थोड़ा अधिक प्रोफ़ेशनल लगे। अंत तक आपके पास एक runnable example होगा जिसे आप अपने प्रोजेक्ट में copy‑paste कर सकते हैं।
+इस ट्यूटोरियल में हम ठीक वही करेंगे: रेक्टेंगल शेप कैसे जोड़ें, उसका फिल कलर सेट करें, और शेप पर शैडो लगाएं ताकि आपका वर्ड फ़ाइल थोड़ा ज़्यादा प्रोफेशनल लगे। अंत तक आपके पास एक रन करने लायक उदाहरण होगा जिसे आप अपने प्रोजेक्ट में कॉपी-पेस्ट कर सकते हैं।
 
-## What You’ll Need
+## आपको क्या चाहिए
 
-- **Java 17** (या कोई भी नया JDK) – कोड मानक भाषा सुविधाओं का उपयोग करता है।
-- **Aspose.Words for Java** लाइब्रेरी – संस्करण 23.9 या उससे नया अनुशंसित है।
-- आपका पसंदीदा IDE या टेक्स्ट एडिटर – IntelliJ IDEA, Eclipse, VS Code… आप चुनें।
-- एक फ़ोल्डर जहाँ जनरेट किया गया `ShadowShape.docx` सहेजा जाएगा।
+- **Java17** (या कोई भी नया JDK) – कोड स्टैंडर्ड भाषा सुविधाओं का इस्तेमाल करता है।
 
-कोई अतिरिक्त configuration wizardry की जरूरत नहीं; बस Aspose.Words JAR को अपने classpath में जोड़ें और आप तैयार हैं।
+- **Aspose.Words for Java** लाइब्रेरी – Version23.9 या उससे नया रिकमेंडेड है।
 
-## Step 1: Set Up the Project and Import Aspose.Words
+- आपका पसंदीदा IDE या Text Editor – IntelliJ IDEA, Eclipse, VSCode… आप चुनें।
+
+- एक फ़ोल्डर जहाँ जेनरेट किया गया `ShadowShape.docx` सहेजा जाएगा।
+
+कोई अतिरिक्त configuration wizardry की ज़रूरत नहीं; बस Aspose.Words JAR को अपने classpath में जोड़ें और आप तैयार हैं।
+
+## स्टेप 1: प्रोजेक्ट सेट अप करें और Aspose.Words को इंपोर्ट करें
 
 सबसे पहले, एक नया Maven (या Gradle) प्रोजेक्ट बनाएं और Aspose.Words dependency जोड़ें। Maven के लिए यहाँ एक न्यूनतम `pom.xml` स्निपेट है:
 
@@ -60,7 +63,7 @@ url: /hi/java/images-shapes/create-word-document-java-add-rectangle-shape-with-s
 
 > **Pro tip:** Aspose एक मुफ्त trial license प्रदान करता है जिसे आप `License license = new License(); license.setLicense("Aspose.Words.lic");` के साथ एम्बेड कर सकते हैं। तेज़ टेस्ट के लिए इसे छोड़ दें; लाइब्रेरी evaluation mode में काम करती है।
 
-## Step 2: Create a New Document and Builder
+## स्टेप 2: एक नया डॉक्यूमेंट और बिल्डर बनाएं
 
 अब हम वास्तव में **create word document java** ऑब्जेक्ट्स बनाएंगे। `Document` क्लास पूरी .docx फ़ाइल का प्रतिनिधित्व करती है, जबकि `DocumentBuilder` हमें कंटेंट इन्सर्ट करने देता है।
 
@@ -76,7 +79,7 @@ public class ShadowEffectDemo {
 
 इस चरण के बाद आपके पास एक खाली दस्तावेज़ तैयार है जिसमें आप shapes, paragraphs या कोई भी चीज़ जोड़ सकते हैं।
 
-## Step 3: Insert a Rectangle Shape and Set Its Fill Color
+## स्टेप 3: एक रेक्टेंगल शेप डालें और उसका फिल कलर सेट करें
 
 Shape जोड़ना इतना सरल है जितना `insertShape` को कॉल करना। हम **add rectangle shape** तकनीक का उपयोग करेंगे, जो secondary keyword *add rectangle shape* के अंतर्गत आता है।
 
@@ -90,7 +93,7 @@ Shape जोड़ना इतना सरल है जितना `insertSh
 
 ऑरेंज क्यों? यह सफ़ेद पृष्ठभूमि में उभर कर दिखता है, लेकिन आप इसे किसी भी `java.awt.Color` में बदल सकते हैं। यह चरण secondary keyword *set shape fill color* को कवर करता है।
 
-## Step 4: Configure the Shadow Appearance – Apply Shadow to Shape
+## स्टेप 4: शैडो अपीयरेंस कॉन्फ़िगर करें – शेप पर शैडो अप्लाई करें
 
 अब आता है मज़ेदार हिस्सा: rectangle को एक subtle drop shadow देना। Aspose API एक `ShadowFormat` ऑब्जेक्ट प्रदान करता है जो shadow के हर पहलू को नियंत्रित करता है।
 
@@ -124,7 +127,7 @@ Shape जोड़ना इतना सरल है जितना `insertSh
 
 यह कोड ब्लॉक **apply shadow to shape** ठीक उसी तरह करता है जैसा secondary keyword सुझाता है। आप `blur`, `offsetX/Y`, और `transparency` को अपनी डिज़ाइन भाषा के अनुसार समायोजित कर सकते हैं। उदाहरण के लिए, बड़ा `offsetX` अधिक नाटकीय छाया बनाता है, जबकि उच्च `transparency` shadow को फुसफुसाते जैसा बनाता है।
 
-## Step 5: Save the Document
+## स्टेप 5: डॉक्यूमेंट सेव करें
 
 अंत में, दस्तावेज़ को डिस्क पर लिखते हैं। वह फ़ोल्डर चुनें जहाँ आपके पास लिखने की अनुमति हो, और फ़ाइल को एक स्पष्ट नाम दें।
 
@@ -141,25 +144,25 @@ Shape जोड़ना इतना सरल है जितना `insertSh
 
 *Image alt text includes the primary keyword, satisfying the SEO rule.*
 
-## Common Questions & Edge Cases
+## आम सवाल और एज केस
 
-### What if I need a different shape?
+### अगर मुझे अलग शेप चाहिए तो क्या होगा?
 
-Aspose.Words कई `ShapeType` मानों का समर्थन करता है – stars, arrows, callouts, आप जो चाहें। बस `ShapeType.RECTANGLE` को `ShapeType.OVAL` या किसी अन्य enum constant से बदल दें। वही **how to add shape** कदम लागू होते हैं।
+Aspose.Words कई `ShapeType` मानों का सपोर्ट करता है – स्टार्स, एरो, कॉलआउट्स, आप जो चुनते हैं। बस `ShapeType.RECTANGLE` को `ShapeType.OVAL` या किसी और एनम कॉन्स्टेंट से बदल दें। वही **शेप कैसे जोड़ें** कदम लागू होते हैं।
 
-### How do I add the shape to a specific paragraph?
+### मैं किसी खास पैराग्राफ में शेप कैसे जोड़ूं?
 
-Builder के साथ सीधे shape इन्सर्ट करने के बजाय, आप पहले shape बना सकते हैं (`new Shape(document, ShapeType.RECTANGLE)`) और फिर उसे `Paragraph` में `paragraph.appendChild(shape)` के ज़रिए जोड़ सकते हैं। इससे लेआउट पर अधिक नियंत्रण मिलता है।
+बिल्डर के साथ सीधे शेप इन्सर्ट करने के बजाय, आप पहले शेप बना सकते हैं (`new Shape(document, ShapeType.RECTANGLE)`) और फिर उसे `Paragraph` में `paragraph.appendChild(shape)` के मैप जोड़ सकते हैं। इससे लेआउट पर ज़्यादा कंट्रोल मिलता है।
 
-### Can I apply a gradient fill instead of a solid color?
+### क्या मैं सॉलिड कलर के बजाय ग्रेडिएंट फिल लगा सकता हूं?
 
-हां! `rectangle.getFill().setFillType(FillType.GRADIENT)` उपयोग करें और एक `LinearGradientFill` परिभाषित करें। API थोड़ा अधिक verbose है, लेकिन आधुनिक डिज़ाइनों के लिए बहुत अच्छा काम करता है।
+हां! `rectangle.getFill().setFillType(FillType.GRADIENT)` का इस्तेमाल करें और एक `LinearGradientFill` को डिफाइन करें। API थोड़ा ज़्यादा वर्बोज़ है, लेकिन आधुनिक डिज़ाइनों के लिए बहुत अच्छा काम करता है।
 
-### What about compatibility with older Word versions?
+### पुराने Word वर्शन के साथ कम्पैटिबिलिटी के बारे में क्या?
 
-Aspose.Words डिफ़ॉल्ट रूप से .docx फॉर्मेट में सहेजता है, जो Word 2007+ और LibreOffice द्वारा समर्थित है। यदि आपको .doc चाहिए, तो `document.save("file.doc", SaveFormat.DOC)` कॉल करें। Shadow rendering में थोड़ा अंतर हो सकता है, लेकिन shape स्वयं बना रहता है।
+Aspose.Words ज़रूरी रूप से .docx फ़ॉर्मेट में सहेजता है, जो Word2007+ और LibreOffice द्वारा सपोर्टेड है। अगर आपको .doc चाहिए, तो `document.save("file.doc", SaveFormat.DOC)` कॉल करें। शैडो रेंडरिंग में थोड़ा अंतर हो सकता है, लेकिन शेप खुद बना रहता है।
 
-## Full Working Example (Copy‑Paste Ready)
+## पूरा वर्किंग उदाहरण (कॉपी-पेस्ट रेडी)
 
 नीचे पूरा प्रोग्राम दिया गया है, जिसे आप तुरंत compile और run कर सकते हैं। `YOUR_DIRECTORY` को अपने मशीन पर वास्तविक पाथ से बदलें।
 
@@ -196,7 +199,7 @@ public class ShadowEffectDemo {
 
 इस कोड को चलाने पर एक Word फ़ाइल बनती है जिसमें ऑरेंज rectangle और एक नरम ग्रे shadow होता है—बिल्कुल वही जो हमने **create word document java** के साथ एक styled shape बनाने के लिए लक्ष्य रखा था।
 
-## Conclusion
+## निष्कर्ष
 
 अब आपके पास **create word document java** के लिए एक ठोस, end‑to‑end रेसिपी है जो *adds rectangle shape*, *sets shape fill color*, और *applies shadow to shape* करती है। तरीका सीधा है, API fluent है, और आप इसे अनगिनत तरीकों से विस्तारित कर सकते हैं—विभिन्न shapes, gradient fills, या यहाँ तक कि एक shape पर कई shadows।
 

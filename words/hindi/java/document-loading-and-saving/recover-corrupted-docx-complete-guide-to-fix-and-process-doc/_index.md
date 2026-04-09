@@ -48,7 +48,7 @@ url: /hi/java/document-loading-and-saving/recover-corrupted-docx-complete-guide-
 
 ---
 
-## Step 1: Set Up Aspose.Words and Prepare Load Options to **recover corrupted docx**
+## स्टेप 1: Aspose.Words सेट अप करें और **खराब docx को रिकवर करने** के लिए लोड ऑप्शन तैयार करें
 
 सबसे पहले आपको Aspose.Words को यह बताना होगा कि वह त्रुटियों पर एबॉर्ट करने के बजाय मरम्मत का प्रयास करे। यह `LoadOptions` इंस्टेंस बनाकर और `setRecoveryMode(RecoveryMode.RECOVER)` को कॉल करके किया जाता है।
 
@@ -73,11 +73,11 @@ public class RecoveryModeDemo {
 
 ---
 
-## Step 2: Load the Possibly Damaged File
+## स्टेप 2: शायद डैमेज हुई फ़ाइल लोड करें
 
 अब जब recovery फ़्लैग सेट हो गया है, फ़ाइल को उसी तरह लोड करें जैसे आप किसी अन्य दस्तावेज़ को लोड करते हैं। यदि पाथ गलत है या फ़ाइल मरम्मत से बाहर है, तो आपको फिर भी एक्सेप्शन मिलेगा, लेकिन अधिकांश सामान्य करप्शन परिदृश्य सहजता से संभाले जाएंगे।
 
-```java
+```javad
             // -------------------------------------------------
             // 2️⃣  Load the potentially corrupted DOCX
             // -------------------------------------------------
@@ -90,7 +90,7 @@ public class RecoveryModeDemo {
 
 ---
 
-## Step 3: Verify the Recovery by **Getting Document Page Count**
+## स्टेप 3: **डॉक्यूमेंट पेज काउंट** लेकर रिकवरी वेरिफ़ाई करें
 
 पुनर्प्राप्ति के बाद एक त्वरित sanity check यह है कि Aspose.Words से पूछें कि दस्तावेज़ में कितने पेज हैं। यदि काउंट उचित है (जैसे, खाली नहीं होने वाली फ़ाइल के लिए शून्य नहीं), तो आप आश्वस्त हो सकते हैं कि मरम्मत सफल रही।
 
@@ -112,7 +112,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Step 4: (Optional) Save the Fixed Document for Future Use
+## स्टेप 4: (ऑप्शनल) ठीक किए गए डॉक्यूमेंट को भविष्य में इस्तेमाल के लिए सेव करें
 
 अधिकांश डेवलपर्स मरम्मत के बाद डिस्क पर एक साफ़ कॉपी चाहते हैं। सहेजना सीधा‑सादा है:
 
@@ -135,7 +135,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Step 5: Common Pitfalls & How to **Fix Corrupted Docx** Effectively
+## स्टेप 5: आम दिक्कतें और **खराब Docx को असरदार तरीके से कैसे ठीक करें**
 
 | समस्या | लक्षण | समाधान |
 |---------|---------|-----|
@@ -146,7 +146,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Step 6: Extending the Example – From **Recover Corrupted Docx** to PDF Conversion
+## स्टेप 6: उदाहरण को बढ़ाना – **खराब Docx को रिकवर करने** से PDF कन्वर्ज़न तक
 
 यदि आपको मरम्मत किए गए दस्तावेज़ को PDF के रूप में वितरित करना है, तो बस कुछ लाइनों को जोड़ें:
 
@@ -163,7 +163,7 @@ Recovered document has 12 pages.
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## पूरा काम करने वाला उदाहरण (कॉपी-पेस्ट के लिए तैयार)
 
 नीचे पूरा, स्व-निहित Java प्रोग्राम दिया गया है जिसमें ऊपर बताए सभी चरण शामिल हैं। प्लेसहोल्डर पाथ को अपने वास्तविक फ़ाइल लोकेशन से बदलें और इसे सामान्य Java एप्लिकेशन की तरह चलाएँ।
 
@@ -214,7 +214,7 @@ PDF version created at: YOUR_DIRECTORY/Recovered.pdf
 
 ---
 
-## Conclusion
+## निष्कर्ष
 
 अब आप जानते हैं कि Aspose.Words for Java के साथ **corrupted docx** फ़ाइलों को कैसे **recover** किया जाता है। **recovery mode** को **enable** करके लाइब्रेरी को टूटे हुए XML भागों को ठीक करने की अनुमति मिलती है, और **get document page count** से आप पुष्टि कर सकते हैं कि मरम्मत सफल रही। इसके बाद आप **fix corrupted docx** को आगे बढ़ा सकते हैं—सहेजना, PDF में कन्वर्ट करना, या प्रोग्रामेटिकली कंटेंट एडिट करना।
 
