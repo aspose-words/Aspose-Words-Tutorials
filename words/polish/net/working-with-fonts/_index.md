@@ -50,6 +50,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czcionek
 | [Uzyskaj zamiennik bez sufiksów](./get-substitution-without-suffixes/) | W tym samouczku dowiesz się, jak uzyskać nadpisania bez sufiksów w dokumencie programu Word za pomocą Aspose.Words dla platformy .NET. |
 | [Jak wykrywać czcionki w Aspose.Words – obsługa ostrzeżeń i ustawień](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Dowiedz się, jak wykrywać czcionki w Aspose.Words oraz obsługiwać ostrzeżenia i ustawienia. |
 | [Jak przechwycić czcionki w Aspose.Words – Kompletny przewodnik](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Dowiedz się, jak przechwycić czcionki w Aspose.Words, korzystając z pełnego przewodnika krok po kroku. |
+| [Jak załadować DOCX i wykrywać brakujące czcionki – kompletny przewodnik C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Dowiedz się, jak załadować plik DOCX i wykrywać brakujące czcionki przy użyciu Aspose.Words dla .NET w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

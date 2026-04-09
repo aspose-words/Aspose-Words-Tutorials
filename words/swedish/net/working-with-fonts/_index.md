@@ -50,6 +50,8 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hämta substitution utan suffix](./get-substitution-without-suffixes/) | I den här handledningen lär du dig hur du får suffixlösa åsidosättningar i ett Word-dokument med Aspose.Words för .NET. |
 | [Hur man upptäcker teckensnitt i Aspose.Words – Hantera varningar och inställningar](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Lär dig hur du identifierar teckensnitt, hanterar varningsmeddelanden och justerar inställningar i Aspose.Words för .NET. |
 | [Hur man fångar teckensnitt i Aspose.Words – Komplett guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Lär dig hur du fångar teckensnitt i Aspose.Words med en komplett steg-för-steg-guide. |
+| [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#-guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Lär dig hur du laddar DOCX-filer och identifierar saknade teckensnitt med Aspose.Words för .NET i en komplett C#-guide. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@
 | [Μετατροπή Word σε Markdown – Ενσωμάτωση εικόνων ως Base64](./convert-word-to-markdown-embed-images-as-base64/) | Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown ενσωματώνοντας εικόνες σε μορφή Base64. |
 | [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός C#](./how-to-save-markdown-from-word-complete-c-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown με πλήρη οδηγό C# χρησιμοποιώντας το Aspose.Words. |
 | [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός](./how-to-save-markdown-from-word-complete-guide/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown με πλήρη οδηγό, χρησιμοποιώντας το Aspose.Words. |
+| [Πώς να εξάγετε LaTeX: Μετατροπή DOCX σε Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Μάθετε πώς να εξάγετε LaTeX, μετατρέποντας αρχεία DOCX σε μορφές Markdown και TXT με Aspose.Words για .NET. |
+| [Πώς να μετονομάσετε εικόνες κατά τη μετατροπή DOCX σε Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Μάθετε πώς να μετονομάσετε εικόνες κατά τη μετατροπή DOCX σε Markdown χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

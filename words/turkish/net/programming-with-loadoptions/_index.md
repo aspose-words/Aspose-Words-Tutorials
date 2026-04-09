@@ -22,12 +22,12 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
-| [Word Belgesindeki Kirli Alanları Güncelle](./update-dirty-fields/) Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki kirli alanları zahmetsizce güncelleyin. |
+| [Word Belgesindeki Kirli Alanları Güncelle](./update-dirty-fields/) | Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinizdeki kirli alanları zahmetsizce güncelleyin. |
 | [Word Belgesinde Şifrelenmiş Olarak Yükle](./load-encrypted-document/) | Aspose.Words for .NET kullanarak şifrelenmiş Word belgelerini nasıl yükleyeceğinizi ve kaydedeceğinizi öğrenin. Belgelerinizi yeni parolalarla kolayca güvence altına alın. Adım adım kılavuz dahildir. |
 | [Şekli Office Matematiğine Dönüştür](./convert-shape-to-office-math/) | Aspose.Words for .NET rehberimizle Word belgelerindeki şekilleri Office Math'e nasıl dönüştüreceğinizi öğrenin. Belge biçimlendirmenizi zahmetsizce geliştirin. |
 | [Ms Word Sürümünü Ayarla](./set-ms-word-version/) | Ayrıntılı kılavuzumuzla Aspose.Words for .NET kullanarak MS Word sürümlerini nasıl ayarlayacağınızı öğrenin. Belge düzenlemeyi kolaylaştırmak isteyen geliştiriciler için mükemmeldir. |
 | [Word Belgesinde Temp Klasörünü Kullanın](./use-temp-folder/) | Aspose.Words ile Word belgelerini yüklerken geçici bir klasör kullanarak .NET uygulamalarınızın performansını nasıl artıracağınızı öğrenin. |
-| [Word Belgesinde Uyarı Geri Araması](./warning-callback/) Aspose.Words for .NET'i kullanarak Word belgelerindeki uyarıları nasıl yakalayacağınızı ve işleyeceğinizi adım adım kılavuzumuzla öğrenin. Sağlam belge işlemeyi garantileyin. |
+| [Word Belgesinde Uyarı Geri Araması](./warning-callback/) | Aspose.Words for .NET'i kullanarak Word belgelerindeki uyarıları nasıl yakalayacağınızı ve işleyeceğinizi adım adım kılavuzumuzla öğrenin. Sağlam belge işlemeyi garantileyin. |
 | [Word Belgesinde Kodlamayla Yükle](./load-with-encoding/) | Aspose.Words for .NET kullanarak belirli bir kodlamayla bir Word belgesinin nasıl yükleneceğini öğrenin. Ayrıntılı açıklamalarla adım adım kılavuz. |
 | [PDF Görüntülerini Atla](./skip-pdf-images/) | Aspose.Words for .NET kullanarak PDF belgelerini yüklerken resimleri nasıl atlayacağınızı öğrenin. Sorunsuz metin çıkarma için bu adım adım kılavuzu izleyin. |
 | [Meta Dosyalarını PNG'ye Dönüştür](./convert-metafiles-to-png/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki meta dosyalarını kolayca PNG'ye dönüştürün. Belge yönetiminizi basitleştirin. |
@@ -36,6 +36,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [Aspose Load Options – Özel Yazı Tipi Ayarlarıyla DOCX Yükle](./aspose-load-options-load-docx-with-custom-font-settings/) | Aspose.Words for .NET ile özel yazı tipi ayarları kullanarak DOCX dosyalarını nasıl yükleyeceğinizi adım adım öğrenin. |
 | [Hasarlı Word Dosyasını Kurtar – Bozuk DOCX Dosyasını Açma ve Sayfa Sayısını Öğrenme Tam Kılavuzu](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Aspose.Words for .NET kullanarak bozuk DOCX dosyalarını nasıl açıp sayfa sayısını alacağınızı adım adım öğrenin. |
 | [docx Kurtarma – Bozuk Word Dosyaları için C# Kılavuzu](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Aspose.Words for .NET kullanarak bozuk .docx dosyalarını nasıl kurtaracağınızı ve C# ile yeniden kullanılabilir hale getireceğinizi öğrenin. |
+| [Aspose.Words ile C#'ta Word Belgesini Kurtar](./recover-word-document-with-aspose-words-in-c/) | Aspose.Words for .NET kullanarak C# ile bozuk bir Word belgesini nasıl kurtaracağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

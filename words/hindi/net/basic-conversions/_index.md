@@ -35,6 +35,7 @@
 | [Word से LaTeX निर्यात कैसे करें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-export-latex-from-word-step-by-step-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ से LaTeX फ़ॉर्मेट में निर्यात करने का चरण‑दर‑चरण मार्गदर्शन। |
 | [C# में Aspose.Words का उपयोग करके वर्ड को PDF में बदलें – गाइड](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | C# में Aspose.Words से Word फ़ाइल को PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
 | [Aspose.Words के साथ Word को PDF के रूप में सहेजें – पूर्ण C# गाइड](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके C# में Word फ़ाइल को PDF में सहेजने की पूरी गाइड। |
+| [Aspose.Words के साथ docx को pdf के रूप में सहेजें – पूर्ण C# गाइड](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके Docx को PDF में बदलने की पूरी C# गाइड। चरण‑दर‑स्टेप मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

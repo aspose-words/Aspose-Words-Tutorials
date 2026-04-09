@@ -36,6 +36,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Aspose Load Options – Ladda DOCX med anpassade teckensnittinställningar](./aspose-load-options-load-docx-with-custom-font-settings/) | Lär dig hur du laddar ett DOCX-dokument med egna teckensnittinställningar via Aspose Load Options i .NET. |
 | [Återställ skadad Word-fil – Komplett guide för att öppna korrupt DOCX & få sidantal](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Lär dig hur du reparerar skadade Word-dokument, öppnar korrupta DOCX-filer och hämtar sidantalet med Aspose.Words för .NET. |
 | [Hur du återställer docx – C#-guide för korrupta Word-filer](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Lär dig återställa skadade .docx-filer med C# och Aspose.Words för .NET i denna steg-för-steg-guide. |
+| [Återställ Word-dokument med Aspose.Words i C#](./recover-word-document-with-aspose-words-in-c/) | Lär dig hur du återställer skadade Word-dokument med Aspose.Words i C# genom en steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

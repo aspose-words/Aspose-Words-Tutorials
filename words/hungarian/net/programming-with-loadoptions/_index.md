@@ -36,6 +36,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Aspose Load Options – DOCX betöltése egyedi betűtípus-beállításokkal](./aspose-load-options-load-docx-with-custom-font-settings/) | Tanulja meg, hogyan használhatja a LoadOptions-t DOCX fájlok egyedi betűtípus-beállításokkal történő betöltéséhez az Aspose.Words for .NET-ben. |
 | [Sérült Word fájl helyreállítása – Teljes útmutató a sérült DOCX megnyitásához és az oldalszám lekéréséhez](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) Ismerje meg, hogyan nyithat meg és helyreállíthat sérült DOCX fájlokat, valamint hogyan számolhatja meg az oldalak számát az Aspose.Words for .NET segítségével. |
 | [Hogyan állítsuk helyre a docx-et – C# útmutató sérült Word fájlokhoz](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat C#-ban az Aspose.Words for .NET segítségével. |
+| [Word dokumentum helyreállítása Aspose.Words használatával C#-ban](./recover-word-document-with-aspose-words-in-c/) | Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words for .NET és C# segítségével, lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

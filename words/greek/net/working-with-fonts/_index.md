@@ -49,6 +49,7 @@
 | [Παράδειγμα Πηγής Γραμματοσειράς Πόρων Steam](./resource-steam-font-source-example/) | Μάθετε πώς να χρησιμοποιείτε το Resource Stream Font Source για να φορτώνετε προσαρμοσμένες γραμματοσειρές στο Aspose.Words για .NET. |
 | [Λήψη αντικατάστασης χωρίς επιθήματα](./get-substitution-without-suffixes/) | Σε αυτό το σεμινάριο, μάθετε πώς να λαμβάνετε παρακάμψεις χωρίς επιθήματα σε ένα έγγραφο του Word με το Aspose.Words για .NET. |
 | [Πώς να ανιχνεύσετε γραμματοσειρές στο Aspose.Words – Διαχείριση προειδοποιήσεων & ρυθμίσεων](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Μάθετε πώς να εντοπίζετε γραμματοσειρές, να διαχειρίζεστε προειδοποιήσεις και να ρυθμίζετε τις επιλογές γραμματοσειρών στο Aspose.Words. |
+| [Πώς να φορτώσετε DOCX και να εντοπίσετε ελλιπείς γραμματοσειρές – Πλήρης οδηγός C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Μάθετε πώς να φορτώσετε αρχεία DOCX και να εντοπίσετε ελλιπείς γραμματοσειρές με το Aspose.Words για .NET σε πλήρη οδηγό C#. |
 
 | [Πώς να Καταγράψετε Γραμματοσειρές στο Aspose.Words – Πλήρης Οδηγός](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Μάθετε πώς να εντοπίζετε και να αποθηκεύετε όλες τις γραμματοσειρές ενός εγγράφου Word χρησιμοποιώντας το Aspose.Words για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

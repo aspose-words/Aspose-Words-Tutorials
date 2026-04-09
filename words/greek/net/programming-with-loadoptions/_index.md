@@ -36,6 +36,7 @@
 | [Aspose Load Options – Φόρτωση DOCX με προσαρμοσμένες ρυθμίσεις γραμματοσειράς](./aspose-load-options-load-docx-with-custom-font-settings/) | Μάθετε πώς να φορτώνετε αρχεία DOCX χρησιμοποιώντας το Aspose Load Options με προσαρμοσμένες ρυθμίσεις γραμματοσειράς για ακριβή απόδοση κειμένου. |
 | [Ανάκτηση Κατεστραμμένου Αρχείου Word – Πλήρης Οδηγός για Άνοιγμα Κατεστραμμένου DOCX & Λήψη Αριθμού Σελίδων](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Μάθετε πώς να ανοίξετε και να επαναφέρετε κατεστραμμένα αρχεία DOCX, εξάγοντας τον αριθμό σελίδων με το Aspose.Words για .NET. |
 | [πώς να ανακτήσετε docx – οδηγός C# για κατεστραμμένα αρχεία Word](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Μάθετε πώς να επαναφέρετε αρχεία docx που έχουν καταστραφεί, χρησιμοποιώντας C# και Aspose.Words για .NET. |
+| [Ανάκτηση εγγράφου Word με Aspose.Words σε C#](./recover-word-document-with-aspose-words-in-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα ή χαλασμένα έγγραφα Word χρησιμοποιώντας Aspose.Words σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

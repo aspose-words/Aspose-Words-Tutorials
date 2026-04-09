@@ -37,6 +37,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Rechthoekvorm maken in Word met Aspose.Words – Stapsgewijze handleiding](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Leer hoe u een rechthoekvorm toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
 | [Aspose.Words Vormschaduw Tutorial – Voeg een schaduw toe aan een Word-vorm in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
+| [Leeg Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Leer hoe u een leeg Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

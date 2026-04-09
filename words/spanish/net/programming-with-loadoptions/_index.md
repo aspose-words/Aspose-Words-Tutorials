@@ -35,6 +35,7 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Aspose Load Options – Cargar DOCX con Configuración de Fuente Personalizada](./aspose-load-options-load-docx-with-custom-font-settings/) Aprenda a cargar documentos DOCX especificando fuentes personalizadas con Aspose.LoadOptions en .NET. |
 | [Recuperar archivo Word dañado – Guía completa para abrir DOCX corrupto y obtener el recuento de páginas](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) Aprenda a reparar archivos Word dañados, abrir DOCX corruptos y obtener el número de páginas con Aspose.Words para .NET. |
 | [Cómo recuperar docx – Guía C# para archivos Word corruptos](./how-to-recover-docx-c-guide-for-corrupted-word-files/) Aprenda a recuperar archivos DOCX dañados usando C# con Aspose.Words para .NET. |
+| [Recuperar documento Word con Aspose.Words en C#](./recover-word-document-with-aspose-words-in-c/) Aprenda a recuperar documentos Word dañados usando Aspose.Words en C# con ejemplos paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

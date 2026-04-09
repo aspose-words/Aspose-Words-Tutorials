@@ -50,6 +50,7 @@ Egal, ob Sie Text mit unterschiedlichen Schriftarten formatieren, Regeln für di
 | [Substitution ohne Suffixe erhalten](./get-substitution-without-suffixes/) | In diesem Lernprogramm erfahren Sie, wie Sie mit Aspose.Words für .NET suffixlose Überschreibungen in einem Word-Dokument erhalten. |
 | [Schriftarten in Aspose.Words erkennen – Warnungen & Einstellungen handhaben](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Erfahren Sie, wie Sie in Aspose.Words Schriftarten erkennen, Warnungen verwalten und Einstellungen anpassen. |
 | [Wie man Schriftarten in Aspose.Words erfasst – Komplettanleitung](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Schriftarten erfassen und in Ihren Word-Dokumenten verwalten. |
+| [Wie man DOCX lädt und fehlende Schriftarten erkennt – Vollständige C#-Anleitung](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET DOCX-Dateien laden und fehlende Schriftarten erkennen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

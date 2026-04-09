@@ -36,6 +36,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [Aspose Load Options – カスタムフォント設定でDOCXを読み込む](./aspose-load-options-load-docx-with-custom-font-settings/) Aspose.Words for .NET の LoadOptions を使用し、カスタムフォント設定で DOCX を読み込む方法をステップバイステップで解説します。 |
 | [破損したWordファイルの復元 – 壊れたDOCXを開きページ数を取得する完全ガイド](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) 破損したDOCXファイルを復元し、ページ数を取得する手順をステップバイステップで解説します。 |
 | [docx を復元する方法 – 破損した Word ファイルの C# ガイド](./how-to-recover-docx-c-guide-for-corrupted-word-files/) 破損した docx ファイルを C# で復元する手順とコード例をステップバイステップで解説します。 |
+| [C# で Aspose.Words を使用して Word 文書を復元する](./recover-word-document-with-aspose-words-in-c/) Aspose.Words for .NET を使用し、C# で破損した Word 文書を復元する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

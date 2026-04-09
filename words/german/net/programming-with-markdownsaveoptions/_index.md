@@ -59,6 +59,12 @@ Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern, inklusive Codebei
 ### [Wie man Markdown aus Word speichert – Vollständige Anleitung](./how-to-save-markdown-from-word-complete-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente vollständig als Markdown speichern – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
+### [Wie man LaTeX exportiert: DOCX nach Markdown & TXT konvertieren](./how-to-export-latex-convert-docx-to-markdown-txt/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Inhalten in Markdown und TXT exportieren.
+
+### [Wie man Bilder beim Konvertieren von DOCX zu Markdown umbenennt](./how-to-rename-images-when-converting-docx-to-markdown/)
+Erfahren Sie, wie Sie Bilder beim Export von DOCX nach Markdown umbenennen, um klare Dateinamen zu erhalten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

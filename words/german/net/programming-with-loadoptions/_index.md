@@ -36,6 +36,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Aspose Load Options – DOCX mit benutzerdefinierten Schriftarteinstellungen laden](./aspose-load-options-load-docx-with-custom-font-settings/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX-Dateien mit benutzerdefinierten Schriftarteinstellungen laden. |
 | [Beschädigte Word-Datei wiederherstellen – Komplettanleitung zum Öffnen beschädigter DOCX & Seitenzahl ermitteln](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET öffnen, reparieren und die Seitenzahl ermitteln. |
 | [Wie man docx wiederherstellt – C#-Leitfaden für beschädigte Word-Dateien](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET und C# wiederherstellen können. |
+| [Word-Dokument mit Aspose.Words in C# wiederherstellen](./recover-word-document-with-aspose-words-in-c/) | Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words in C# wiederherstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

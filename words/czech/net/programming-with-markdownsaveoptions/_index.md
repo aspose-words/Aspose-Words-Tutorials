@@ -36,6 +36,8 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Převod Wordu do Markdownu – Vložit obrázky jako Base64](./convert-word-to-markdown-embed-images-as-base64/) | Naučte se, jak při konverzi Wordu do Markdownu vložit obrázky přímo jako Base64 kód, aby byly soubory samostatné. |
 | [Jak uložit Markdown z Wordu – Kompletní průvodce v C#](./how-to-save-markdown-from-word-complete-c-guide/) | Kompletní průvodce v C# pro uložení dokumentu Word jako Markdown pomocí Aspose.Words. |
 | [Jak uložit Markdown z Wordu – Kompletní průvodce](./how-to-save-markdown-from-word-complete-guide/) | Kompletní průvodce pro uložení dokumentu Word jako Markdown pomocí Aspose.Words. |
+| [Jak exportovat LaTeX: převod DOCX do Markdown a TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Naučte se exportovat LaTeX převodem souborů DOCX do formátů Markdown a TXT pomocí Aspose.Words pro .NET. |
+| [Jak přejmenovat obrázky při převodu DOCX do Markdownu](./how-to-rename-images-when-converting-docx-to-markdown/) | Naučte se, jak při konverzi DOCX do Markdownu přejmenovat obrázky pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

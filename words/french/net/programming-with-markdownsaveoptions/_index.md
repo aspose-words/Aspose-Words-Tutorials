@@ -59,6 +59,10 @@ Apprenez à enregistrer un document Word au format Markdown avec un guide comple
 
 Apprenez à enregistrer un document Word au format Markdown avec un guide complet utilisant Aspose.Words.
 
+### [Comment exporter LaTeX : convertir DOCX en Markdown et TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
+
+### [Comment renommer les images lors de la conversion de DOCX en Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

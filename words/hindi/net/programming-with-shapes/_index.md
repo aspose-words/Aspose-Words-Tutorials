@@ -40,6 +40,7 @@
 | [स्मार्ट आर्ट आकार का पता लगाएं](./detect-smart-art-shape/) | इस व्यापक गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में SmartArt आकृतियों का पता लगाना सीखें। आपके दस्तावेज़ वर्कफ़्लो को स्वचालित करने के लिए बिल्कुल सही। |
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण-दर-श... |
 | [Aspose.Words आकृति शैडो ट्यूटोरियल – C# में Word आकृति में शैडो जोड़ें](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | C# में Aspose.Words का उपयोग करके Word आकृति में शैडो कैसे जोड़ें, इस चरण-दर-चरण ट्यूटोरियल के साथ सीखें। |
+| [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

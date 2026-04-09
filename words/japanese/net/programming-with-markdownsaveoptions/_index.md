@@ -36,6 +36,8 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Word を Markdown に変換 – 画像を Base64 として埋め込む](./convert-word-to-markdown-embed-images-as-base64/) Aspose.Words for .NET を使用して、Word 文書を Markdown に変換し、画像を Base64 エンコードで埋め込む方法を解説します。 |
 | [Word から Markdown を保存する方法 – 完全 C# ガイド](./how-to-save-markdown-from-word-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown に保存する手順をステップバイステップで解説します。 |
 | [Word から Markdown を保存する方法 – 完全 ガイド](./how-to-save-markdown-from-word-complete-guide/) Aspose.Words for .NET を使用して、Word 文書を Markdown に保存する完全ガイドです。ステップバイステップで解説します。 |
+| [LaTeX をエクスポートする方法：DOCX を Markdown と TXT に変換](./how-to-export-latex-convert-docx-to-markdown-txt/) Aspose.Words for .NET を使用して、DOCX ファイルを LaTeX 形式でエクスポートし、Markdown と TXT に変換する手順を解説します。 |
+| [DOCX を Markdown に変換する際の画像リネーム方法](./how-to-rename-images-when-converting-docx-to-markdown/) Aspose.Words for .NET を使用して、DOCX から Markdown へ変換する際に画像ファイル名を自動的に変更する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

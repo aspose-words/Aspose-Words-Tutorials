@@ -50,6 +50,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Helyettesítés kérése utótagok nélkül](./get-substitution-without-suffixes/) | Ebben az oktatóanyagban megtudhatja, hogyan lehet utótag nélküli felülírásokat beállítani egy Word-dokumentumban az Aspose.Words for .NET segítségével. |
 | [Betűtípusok észlelése – Figyelmeztetések és beállítások kezelése](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Ismerje meg, hogyan észlelhet betűtípusokat, kezelheti a figyelmeztetéseket és konfigurálhatja a beállításokat az Aspose.Words for .NET-ben. |
 | [Betűk rögzítése az Aspose.Words-ben – Teljes útmutató](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Ismerje meg, hogyan rögzítheti a betűket az Aspose.Words használatával egy részletes, lépésről lépésre útmutatóban. |
+| [Hogyan töltsön be DOCX-et és észlelje a hiányzó betűtípusokat – Teljes C# útmutató](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Tanulja meg, hogyan tölthet be DOCX fájlokat és észlelheti a hiányzó betűtípusokat az Aspose.Words for .NET segítségével C#-ban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
