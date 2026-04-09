@@ -1,8 +1,8 @@
 ---
 "description": "Aspose.Words for .NET'te PDF kaydetme seçenekleriyle Word İşlemeyi keşfedin. Adım adım eğitimler ve örnek kodlar aracılığıyla Word belgelerini gelişmiş özelliklerle PDF'ye nasıl dönüştüreceğinizi öğrenin."
-"linktitle": "Pdfsaveoptions ile Kelime İşleme"
+"linktitle": "Pdfsaveoptions ile Kelime İşlemeyi"
 "second_title": "Aspose.Words Belge İşleme API'si"
-"title": "Pdfsaveoptions ile Kelime İşleme"
+"title": "Pdfsaveoptions ile Kelime İşlemeyi"
 "url": "/tr/net/programming-with-pdfsaveoptions/"
 "weight": 1680
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pdfsaveoptions ile Kelime İşleme
+# Pdfsaveoptions ile Kelime İşlemeyi
 
 Aspose.Words for .NET eğitimleri, PdfSaveOptions ile Words Processing'in PDF kaydetme seçenekleriyle Words Processing'in çeşitli özellikleri ve teknikleri konusunda size yol gösterir. Bu eğitimler, düzen ayarlarını, yazı tiplerini, görüntüleri, meta verileri ve daha fazlasını değiştirerek Word'den PDF'ye dönüştürmeyi nasıl özelleştireceğinizi anlamanıza yardımcı olur.
 
@@ -52,6 +52,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin. |
 | [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
 | [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Eğitimi](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aspose.Words for .NET kullanarak C# ile erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
+| [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-complete-guide/) | Bu kapsamlı rehberde, Word belgelerinden erişilebilir PDF oluşturmak için gerekli adımları ve ayarları öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

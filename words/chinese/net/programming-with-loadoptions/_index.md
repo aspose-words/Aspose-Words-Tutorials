@@ -37,6 +37,8 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
 | [如何恢复 docx – C# 损坏 Word 文件指南](./how-to-recover-docx-c-guide-for-corrupted-word-files/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 docx 文件，步骤详尽，帮助您修复损坏的 Word 文档。|
 | [使用 Aspose.Words 在 C# 中恢复 Word 文档](./recover-word-document-with-aspose-words-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 Word 文档，分步指南帮助您快速修复文件。|
+| [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文档，确保文档完整性。|
+| [如何在 Aspose.Words 中使用 LoadOptions – 完整指南](./how-to-use-loadoptions-in-aspose-words-complete-guide/) 本完整指南详细演示了在 Aspose.Words for .NET 中使用 LoadOptions 加载和自定义 Word 文档的步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

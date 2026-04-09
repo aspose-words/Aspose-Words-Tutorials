@@ -28,6 +28,7 @@ Gracias a estos tutoriales, podrá aprovechar al máximo las funcionalidades de 
 | [Usar carácter de tabulación por nivel para sangría de lista](./use-tab-character-per-level-for-list-indentation/) Aprenda a crear listas multinivel con sangría de tabulación usando Aspose.Words para .NET. Siga esta guía para un formato de lista preciso en sus documentos.
 | [Utilice el carácter de espacio por nivel para la sangría de la lista](./use-space-character-per-level-for-list-indentation/) Aprenda a crear listas multinivel con sangría de espacios en Aspose.Words para .NET. Guía paso a paso para un formato preciso de documentos.
 | [Guardar documento como TXT – Guía completa en C# para convertir DOCX a texto plano](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) Aprenda a convertir documentos DOCX a texto plano usando Aspose.Words para .NET con una guía completa en C#.
+| [Guardar docx como txt – Guía rápida para desarrolladores C#](./save-docx-as-txt-quick-guide-for-c-developers/) Aprenda a guardar documentos DOCX como archivos TXT rápidamente usando Aspose.Words para .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

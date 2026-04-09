@@ -28,6 +28,7 @@
 | [استخدم حرف Tab لكل مستوى لتقسيم القائمة](./use-tab-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع مسافات بادئة مبوبة باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل لتنسيق القوائم بدقة في مستنداتك. |
 | [استخدم حرف المسافة لكل مستوى لتجويف القائمة](./use-space-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع إضافة مسافة بادئة في Aspose.Words لـ .NET. دليل خطوة بخطوة لتنسيق المستندات بدقة. |
 | [حفظ المستند كملف TXT – دليل C# كامل لتحويل DOCX إلى نص عادي](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | تعلم كيفية تحويل مستندات DOCX إلى نص عادي باستخدام Aspose.Words لـ .NET مع مثال كامل بلغة C#. |
+| [حفظ docx كـ txt – دليل سريع لمطوري C#](./save-docx-as-txt-quick-guide-for-c-developers/) | دليل سريع يوضح كيفية حفظ مستندات docx كملفات نصية txt باستخدام Aspose.Words لـ .NET في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

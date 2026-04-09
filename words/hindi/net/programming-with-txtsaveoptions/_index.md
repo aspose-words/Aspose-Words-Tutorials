@@ -28,6 +28,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
 | [सूची इंडेंटेशन के लिए प्रति स्तर टैब वर्ण का उपयोग करें](./use-tab-character-per-level-for-list-indentation/) | .NET के लिए Aspose.Words का उपयोग करके टैब्ड इंडेंटेशन के साथ बहु-स्तरीय सूचियाँ बनाना सीखें। अपने दस्तावेज़ों में सटीक सूची स्वरूपण के लिए इस गाइड का पालन करें। |
 | [सूची इंडेंटेशन के लिए प्रति स्तर स्पेस वर्ण का उपयोग करें](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET में स्पेस कैरेक्टर इंडेंटेशन के साथ मल्टी-लेवल सूचियाँ बनाने का तरीका जानें। सटीक दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण-दर-चरण मार्गदर्शिका। |
 | [DOCX को साधारण टेक्स्ट में बदलने के लिए पूर्ण C# गाइड – दस्तावेज़ को TXT के रूप में सहेजें](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | DOCX फ़ाइल को TXT में बदलने के लिए चरण-दर-चरण C# कोड और सेटिंग्स सीखें। |
+| [docx को txt के रूप में सहेजें – C# डेवलपर्स के लिए त्वरित गाइड](./save-docx-as-txt-quick-guide-for-c-developers/) | C# डेवलपर्स के लिए docx फ़ाइल को txt में बदलने का त्वरित मार्गदर्शन। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertiere
 ### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [DOCX als Markdown speichern – Vollständige C#‑Anleitung mit Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
+
 ### [Wie man Markdown aus Word exportiert – Vollständige C#‑Anleitung](./how-to-export-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
@@ -64,6 +67,9 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Inhalten in Markdown und TXT ex
 
 ### [Wie man Bilder beim Konvertieren von DOCX zu Markdown umbenennt](./how-to-rename-images-when-converting-docx-to-markdown/)
 Erfahren Sie, wie Sie Bilder beim Export von DOCX nach Markdown umbenennen, um klare Dateinamen zu erhalten.
+
+### [Word‑Bilder speichern – Word in Markdown konvertieren mit Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konvertieren nach Markdown mit Aspose beibehalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

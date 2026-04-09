@@ -29,6 +29,7 @@
 | [Χρήση κενού διαστήματος ανά επίπεδο για εσοχή λίστας](./use-space-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή διαστήματος στο Aspose.Words για .NET. Οδηγός βήμα προς βήμα για ακριβή μορφοποίηση εγγράφων. |
 | [Αποθήκευση εγγράφου ως TXT – Πλήρης οδηγός C# για μετατροπή DOCX σε απλό κείμενο](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε κείμενο TXT χρησιμοποιώντας το Aspose.Words για .NET με πλήρη παράδειγμα C#. |
 
+| [Αποθήκευση docx ως txt – Γρήγορος οδηγός για προγραμματιστές C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt γρήγορα χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

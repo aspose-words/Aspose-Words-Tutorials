@@ -37,6 +37,8 @@
 | [Восстановление повреждённого файла Word – Полное руководство по открытию повреждённого DOCX и получению количества страниц](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Узнайте, как открыть повреждённый DOCX, восстановить документ и определить количество страниц с помощью Aspose.Words для .NET. |
 | [Как восстановить docx – руководство C# для повреждённых файлов Word](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Узнайте, как восстановить повреждённые файлы DOCX в C# с помощью Aspose.Words для .NET. |
 | [Восстановление документа Word с Aspose.Words на C#](./recover-word-document-with-aspose-words-in-c/) | Узнайте, как восстановить повреждённый документ Word с помощью Aspose.Words в C#. |
+| [Как восстановить DOCX – установить режим восстановления и открыть повреждённые файлы Word](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Узнайте, как включить режим восстановления и открыть повреждённые файлы DOCX с помощью Aspose.Words для .NET. |
+| [Как использовать LoadOptions в Aspose.Words – Полное руководство](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Полное руководство по использованию LoadOptions в Aspose.Words для .NET с примерами кода. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,7 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Använd tabbtecken per nivå för listindrag](./use-tab-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor i flera nivåer med tabbindrag med Aspose.Words för .NET. Följ den här guiden för exakt listformatering i dina dokument. |
 | [Använd mellanslagstecken per nivå för listindrag](./use-space-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor med flera nivåer med mellanslag i Aspose.Words för .NET. Steg-för-steg-guide för exakt dokumentformatering. |
 | [Spara dokument som TXT – Komplett C#-guide för att konvertera DOCX till vanlig text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Lär dig hur du med Aspose.Words för .NET konverterar DOCX-filer till ren text med en komplett C#-guide. |
+| [Spara docx som txt – Snabbguide för C#-utvecklare](./save-docx-as-txt-quick-guide-for-c-developers/) | Lär dig snabbt hur du konverterar DOCX-filer till TXT med C# i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

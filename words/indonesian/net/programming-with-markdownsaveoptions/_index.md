@@ -53,6 +53,10 @@ Pelajari cara menyimpan dokumen Word ke format Markdown dengan panduan lengkap.
 Pelajari cara mengekspor konten LaTeX dengan mengonversi file DOCX menjadi format Markdown dan TXT menggunakan Aspose.Words untuk .NET.
 ### [Cara Mengganti Nama Gambar Saat Mengonversi DOCX ke Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Pelajari cara mengganti nama gambar secara otomatis saat mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk .NET.
+### [Simpan docx sebagai markdown dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+Pelajari cara mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words dengan panduan lengkap C#.
+### [Simpan Gambar Word – Konversi Word ke Markdown dengan Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+Pelajari cara mengekspor gambar dari dokumen Word saat mengonversinya ke format Markdown menggunakan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

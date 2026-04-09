@@ -66,6 +66,12 @@ Lär dig exportera LaTeX från DOCX och spara som både Markdown och TXT med Asp
 ### [Hur man byter namn på bilder när man konverterar DOCX till Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Lär dig hur du automatiskt byter namn på bilder under konvertering av DOCX-filer till Markdown med Aspose.Words för .NET.
 
+### [Spara docx som markdown med Aspose.Words – Fullständig C#-guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+Lär dig spara DOCX som Markdown med en komplett C#‑guide som använder Aspose.Words.
+
+### [Spara Word-bilder – Konvertera Word till Markdown med Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+Lär dig spara bilder från Word och konvertera dokument till Markdown med Aspose.Words för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

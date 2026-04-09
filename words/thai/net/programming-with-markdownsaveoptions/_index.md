@@ -58,6 +58,11 @@
 ### [วิธีเปลี่ยนชื่อรูปภาพเมื่อแปลง DOCX เป็น Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 เรียนรู้วิธีตั้งชื่อรูปภาพใหม่ระหว่างการแปลงไฟล์ DOCX ไปเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [บันทึก docx เป็น markdown ด้วย Aspose.Words – คู่มือเต็ม C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+
+### [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

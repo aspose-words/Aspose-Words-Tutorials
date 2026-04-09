@@ -52,6 +52,10 @@
 
 ### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 
+### [حفظ docx كـ markdown مع Aspose.Words – دليل C# كامل](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+
+### [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

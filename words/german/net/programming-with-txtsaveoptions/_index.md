@@ -28,6 +28,8 @@ Dank dieser Tutorials können Sie die Funktionalitäten von Aspose.Words für .N
 | [Tabulatorzeichen pro Ebene für Listeneinrückung verwenden](./use-tab-character-per-level-for-list-indentation/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET mehrstufige Listen mit Tabulatoreinrückung erstellen. Folgen Sie dieser Anleitung für eine präzise Listenformatierung in Ihren Dokumenten. |
 | [Leerzeichen pro Ebene für Listeneinrückung verwenden](./use-space-character-per-level-for-list-indentation/) | Erfahren Sie, wie Sie in Aspose.Words für .NET mehrstufige Listen mit Leerzeicheneinrückung erstellen. Schritt-für-Schritt-Anleitung zur präzisen Dokumentformatierung. |
 | [Dokument als TXT speichern – Vollständiger C#-Leitfaden zur Konvertierung von DOCX in Klartext](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in eine reine Textdatei konvertieren. |
+| [DOCX als TXT speichern – Schnellleitfaden für C#-Entwickler](./save-docx-as-txt-quick-guide-for-c-developers/) | Erfahren Sie, wie Sie ein DOCX-Dokument schnell in eine TXT-Datei konvertieren, mit Beispielcode für C#-Entwickler. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

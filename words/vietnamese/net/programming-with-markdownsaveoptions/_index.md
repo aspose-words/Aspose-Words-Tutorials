@@ -23,6 +23,7 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | --- | --- |
 | [Xuất sang Markdown với căn chỉnh nội dung bảng](./export-into-markdown-with-table-content-alignment/) | Tìm hiểu cách xuất tài liệu Word sang Markdown với các bảng được căn chỉnh bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có các bảng Markdown hoàn hảo. |
 | [Thiết lập thư mục hình ảnh](./set-images-folder/) | Chuyển đổi tài liệu Word sang Markdown với căn chỉnh bảng phù hợp bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi để có kết quả hoàn hảo. |
+| [Lưu hình ảnh Word – Chuyển Word sang Markdown với Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) | Hướng dẫn lưu hình ảnh từ tài liệu Word và chuyển sang định dạng Markdown bằng Aspose.Words cho .NET. |
 | [Lưu Word thành PDF và Khôi phục Word bị Hỏng – Chuyển đổi Word sang Markdown trong C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/) |  |
 | [Tạo PDF có thể truy cập và Chuyển đổi Word sang Markdown – Hướng dẫn đầy đủ C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Hướng dẫn chi tiết cách tạo PDF có thể truy cập và chuyển đổi tài liệu Word sang Markdown bằng C# và Aspose.Words. |
 | [Cách sử dụng Markdown: Chuyển DOCX sang Markdown với các phương trình LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Hướng dẫn chuyển DOCX sang Markdown, giữ nguyên công thức LaTeX bằng Aspose.Words cho .NET. |
@@ -38,6 +39,7 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Cách lưu Markdown từ Word – Hướng dẫn đầy đủ](./how-to-save-markdown-from-word-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng Markdown bằng Aspose.Words. |
 | [Cách xuất LaTeX: Chuyển DOCX sang Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Hướng dẫn chi tiết cách xuất nội dung LaTeX từ DOCX sang Markdown và TXT bằng C# và Aspose.Words. |
 | [Cách đổi tên hình ảnh khi chuyển DOCX sang Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Hướng dẫn chi tiết cách đổi tên các hình ảnh trong quá trình chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho .NET. |
+| [Lưu docx thành markdown với Aspose.Words – Hướng dẫn đầy đủ C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Hướng dẫn chi tiết cách lưu file docx thành markdown bằng C# với Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

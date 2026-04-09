@@ -33,10 +33,12 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Metadateien in PNG konvertieren](./convert-metafiles-to-png/) | Konvertieren Sie Metadateien in Word-Dokumenten mit Aspose.Words für .NET ganz einfach in PNG – mit dieser Schritt-für-Schritt-Anleitung. Vereinfachen Sie Ihre Dokumentenverwaltung. |
 | [Chm-Dateien in Word-Dokument laden](./load-chm/) | Laden Sie CHM-Dateien mit Aspose.Words für .NET ganz einfach in Word-Dokumente. Mit dieser Schritt-für-Schritt-Anleitung können Sie CHM-Dateien ganz einfach in Word-Dokumente laden. Perfekt für die Konsolidierung Ihrer technischen Dokumentation. |
 | [Wie man DOCX mit Aspose.Words wiederherstellt – Schritt für Schritt](./how-to-recover-docx-with-aspose-words-step-by-step/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET wiederherstellen – detaillierte Schritt-für-Schritt-Anleitung. |
+| [Wie man DOCX wiederherstellt – Wiederherstellungsmodus festlegen und beschädigte Word-Dateien öffnen](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Erfahren Sie, wie Sie den Wiederherstellungsmodus aktivieren und beschädigte DOCX‑Dateien mit Aspose.Words für .NET öffnen. |
 | [Aspose Load Options – DOCX mit benutzerdefinierten Schriftarteinstellungen laden](./aspose-load-options-load-docx-with-custom-font-settings/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX-Dateien mit benutzerdefinierten Schriftarteinstellungen laden. |
 | [Beschädigte Word-Datei wiederherstellen – Komplettanleitung zum Öffnen beschädigter DOCX & Seitenzahl ermitteln](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET öffnen, reparieren und die Seitenzahl ermitteln. |
 | [Wie man docx wiederherstellt – C#-Leitfaden für beschädigte Word-Dateien](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET und C# wiederherstellen können. |
 | [Word-Dokument mit Aspose.Words in C# wiederherstellen](./recover-word-document-with-aspose-words-in-c/) | Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words in C# wiederherstellen. |
+| [Wie man LoadOptions in Aspose.Words verwendet – Komplettanleitung](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie LoadOptions in Aspose.Words umfassend einsetzen, um Dokumente flexibel zu laden und zu konfigurieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

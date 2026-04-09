@@ -28,6 +28,8 @@ Grâce à ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités 
 | [Utiliser le caractère de tabulation par niveau pour l'indentation de la liste](./use-tab-character-per-level-for-list-indentation/) | Apprenez à créer des listes à plusieurs niveaux avec indentation tabulée avec Aspose.Words pour .NET. Suivez ce guide pour une mise en forme précise des listes dans vos documents. |
 | [Utiliser un caractère d'espace par niveau pour l'indentation de la liste](./use-space-character-per-level-for-list-indentation/) | Apprenez à créer des listes à plusieurs niveaux avec indentation par espace dans Aspose.Words pour .NET. Guide étape par étape pour une mise en forme précise des documents. |
 | [Enregistrer le document au format TXT – Guide complet C# pour convertir DOCX en texte brut](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Apprenez à convertir des fichiers DOCX en texte brut avec Aspose.Words pour .NET en suivant ce guide complet en C#. |
+| [Enregistrer docx en txt – Guide rapide pour les développeurs C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Apprenez à convertir rapidement un fichier DOCX en TXT avec Aspose.Words pour .NET en quelques lignes de code C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

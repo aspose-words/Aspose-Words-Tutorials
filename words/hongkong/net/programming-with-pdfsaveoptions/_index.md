@@ -48,6 +48,7 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [使用 Aspose.Words 將 docx 另存為 PDF – 完整 C# 指南](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.Words 將 docx 檔案轉換為高品質 PDF。 |
 | [使用 C# 從 Word 建立可存取的 PDF – 步驟指南](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) |了解如何使用 Aspose.Words for .NET 以 C# 從 Word 文件生成符合可存取性標準的 PDF。 |
 | [在 C# 中建立可存取的 PDF – PDF 可存取性教學](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) |使用 Aspose.Words for .NET 在 C# 中建立符合可存取性標準的 PDF 文件。 |
+| [從 Word 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-word-complete-guide/) |了解如何使用 Aspose.Words for .NET 從 Word 文件建立符合無障礙標準的 PDF，完整步驟指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

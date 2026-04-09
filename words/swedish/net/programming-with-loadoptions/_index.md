@@ -15,7 +15,7 @@
 
 # Ordbehandling med Loadoptions
 
-Handledningarna för Aspose.Words för .NET erbjuder en värdefull resurs för utvecklare som vill bemästra ordbehandling med LoadOptions. Dessa handledningar täcker i detalj de olika funktionerna och teknikerna för att ladda Word-dokument i .NET-applikationer. Oavsett om du behöver ange specifika laddningsalternativ, hantera fel vid laddning av dokument eller anpassa teckensnittsinställningar, kommer dessa handledningar att ta dig steg för steg för att uppnå dina mål.
+Handledningarna för Aspose.Words för .NET erbjuder en värdefull resurs för utvecklare som vill bemästra ordbehandling med LoadOptions. Dessa handledningar täcker i detalj de olika funktionerna och teknikerna för att ladda Word-dokument i .NET-applikationer. Oavsett om du behöver ange specifika laddningsalternativ, hantera fel vid laddning av dokument eller anpassa teckensnittinställningar, kommer dessa handledningar att ta dig steg för steg för att uppnå dina mål.
 
 I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in Word-dokument med anpassade inställningar. Du utforskar koncept som att hantera saknade teckensnitt, återställa från laddningsfel, optimera prestanda och mer. Varje steg förklaras i detalj med tydliga och koncisa kodexempel som hjälper dig att förstå och tillämpa koncepten snabbt.
 
@@ -37,6 +37,8 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Återställ skadad Word-fil – Komplett guide för att öppna korrupt DOCX & få sidantal](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Lär dig hur du reparerar skadade Word-dokument, öppnar korrupta DOCX-filer och hämtar sidantalet med Aspose.Words för .NET. |
 | [Hur du återställer docx – C#-guide för korrupta Word-filer](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Lär dig återställa skadade .docx-filer med C# och Aspose.Words för .NET i denna steg-för-steg-guide. |
 | [Återställ Word-dokument med Aspose.Words i C#](./recover-word-document-with-aspose-words-in-c/) | Lär dig hur du återställer skadade Word-dokument med Aspose.Words i C# genom en steg-för-steg-guide. |
+| [så här återställer du docx – ställ in återställningsläge & öppna korrupta Word-filer](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Lär dig hur du sätter återställningsläge och öppnar skadade Word-filer med Aspose.Words för .NET. |
+| [Så här använder du LoadOptions i Aspose.Words – Komplett guide](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Lär dig steg för steg hur du använder LoadOptions för att anpassa inläsning av Word-dokument med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

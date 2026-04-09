@@ -29,6 +29,7 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | [Usa il carattere spazio per livello per l'indentazione dell'elenco](./use-space-character-per-level-for-list-indentation/) | Scopri come creare elenchi multilivello con rientro tramite spazi in Aspose.Words per .NET. Guida passo passo per una formattazione precisa dei documenti. |
 | [Salva documento come TXT – Guida completa C# per convertire DOCX in testo semplice](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Scopri come salvare un documento Word come file di testo semplice usando Aspose.Words per .NET con un esempio completo in C#. |
 
+| [Salva docx come txt – Guida rapida per sviluppatori C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Scopri come convertire rapidamente file DOCX in TXT usando Aspose.Words per .NET con esempi di codice C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

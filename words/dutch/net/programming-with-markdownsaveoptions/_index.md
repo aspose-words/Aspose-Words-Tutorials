@@ -62,6 +62,10 @@ Leer hoe u LaTeX exporteert door DOCX-bestanden om te zetten naar Markdown en TX
 ### [Hoe afbeeldingen hernoemen bij het converteren van DOCX naar Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
 Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX naar Markdown met Aspose.Words voor .NET.
 
+### [Docx opslaan als markdown met Aspose.Words – Volledige C#-gids](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+
+### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

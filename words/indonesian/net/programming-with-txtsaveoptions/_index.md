@@ -28,6 +28,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Gunakan Karakter Tab Per Level Untuk Indentasi Daftar](./use-tab-character-per-level-for-list-indentation/) | Pelajari cara membuat daftar bertingkat dengan indentasi tab menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk pemformatan daftar yang tepat dalam dokumen Anda. Bahasa Indonesia:
 | [Gunakan Karakter Spasi Per Level Untuk Indentasi Daftar](./use-space-character-per-level-for-list-indentation/) | Pelajari cara membuat daftar bertingkat dengan indentasi karakter spasi di Aspose.Words untuk .NET. Panduan langkah demi langkah untuk pemformatan dokumen yang tepat. |
 | [Simpan Dokumen sebagai TXT – Panduan Lengkap C# untuk Mengonversi DOCX ke Teks Biasa](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Pelajari cara menyimpan dokumen Word sebagai file teks menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Simpan docx sebagai txt – Panduan Cepat untuk Pengembang C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Pelajari cara menyimpan file docx sebagai txt dengan cepat menggunakan Aspose.Words untuk .NET dalam bahasa C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
