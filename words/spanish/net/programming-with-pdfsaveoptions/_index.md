@@ -80,6 +80,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Renderizar efectos 3D DML 3D en un documento PDF](./dml-3deffects-rendering/) | Aprenda a renderizar impresionantes efectos DML 3D en documentos PDF usando Aspose.Words para .NET con esta completa guía paso a paso. |
 | [Interpolar imágenes en un documento PDF](./interpolate-images/) | Aprenda a interpolar imágenes en un documento PDF con Aspose.Words para .NET con nuestra guía paso a paso. Mejore fácilmente la calidad de imagen de su PDF. |
 | [Crear PDF accesible desde Word – Guía completa](./create-accessible-pdf-from-word-complete-guide/) | Aprenda a crear PDFs accesibles desde documentos Word con Aspose.Words para .NET siguiendo esta guía completa paso a paso. |
+| [Crear PDF accesible – Guía paso a paso para cumplimiento PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Guía paso a paso para crear PDFs accesibles cumpliendo con PDF/UA usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

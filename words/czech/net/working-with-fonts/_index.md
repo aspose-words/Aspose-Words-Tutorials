@@ -42,6 +42,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Zadání výchozího písma při vykreslování](./specify-default-font-when-rendering/) | Naučte se, jak zadat výchozí písmo při vykreslování dokumentů Word pomocí Aspose.Words pro .NET. Zajistěte konzistentní vzhled dokumentu napříč platformami. |
 | [Nastavení písma s možnostmi načtení](./font-settings-with-load-options/) Naučte se, jak spravovat nastavení písma pomocí možností načítání v Aspose.Words pro .NET. Podrobný návod pro vývojáře, jak zajistit konzistentní vzhled písma v dokumentech Wordu. |
 | [Nastavit složku písem](./set-fonts-folder/) | Naučte se, jak nastavit vlastní složku s fonty v Aspose.Words pro .NET, abyste zajistili správné vykreslování dokumentů Wordu bez chybějících fontů. |
+| [Nastavit složku písem](./set-fonts-folder/) | Naučte se, jak nastavit vlastní složku s fonty v Aspose.Words pro .NET, abyste zajistili správné vykreslování dokumentů Word bez chybějících fontů. |
 | [Výchozí instance nastavení písma](./font-settings-default-instance/) | V tomto tutoriálu se naučíte, jak nakonfigurovat výchozí nastavení písma v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Zobrazit seznam dostupných písem](./get-list-of-available-fonts/) | Zjistěte, jak získat seznam dostupných písem pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. Zlepšete si své dovednosti v oblasti správy písem. |
 | [Dostávat oznámení o písmech](./receive-notifications-of-fonts/) | Zjistěte, jak dostávat upozornění na chybějící nebo nahrazená písma při používání Aspose.Words pro .NET. |
@@ -50,6 +51,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Získat substituci bez přípon](./get-substitution-without-suffixes/) | V tomto tutoriálu se naučíte, jak získat přepsání bez přípon v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Jak detekovat písma v Aspose.Words – Zpracování varování a nastavení](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Naučte se, jak detekovat písma, zpracovávat varování a konfigurovat nastavení písem v Aspose.Words pro .NET. |
 | [Jak zachytit písma v Aspose.Words – kompletní průvodce](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Naučte se, jak zachytit písma v Aspose.Words pomocí kompletního průvodce krok za krokem. |
+| [Povolit varování o nahrazování písem v Aspose.Words – Kompletní průvodce](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Naučte se, jak povolit varování o nahrazování písem v Aspose.Words pomocí podrobného průvodce krok za krokem. |
 
 | [Jak načíst DOCX a detekovat chybějící písma – Kompletní průvodce C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Naučte se, jak načíst soubor DOCX a zjistit chybějící písma pomocí Aspose.Words pro .NET v tomto kompletním C# průvodci. |
 

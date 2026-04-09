@@ -51,6 +51,7 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 
 | [Képek interpolálása egy PDF dokumentumban](./interpolate-images/) | Tanulja meg, hogyan interpolálhat képeket egy PDF dokumentumban az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatóval. Javítsa PDF-je képminőségét könnyedén. |
 | [Hozzon létre akadálymentes PDF-et Wordből – Teljes útmutató](./create-accessible-pdf-from-word-complete-guide/) | Lépésről lépésre útmutató az akadálymentes PDF-ek létrehozásához Word dokumentumokból az Aspose.Words for .NET használatával. |
+| [Hozzon létre hozzáférhető PDF-et – Lépésről lépésre útmutató a PDF/UA megfeleléshez](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Tanulja meg, hogyan készíthet PDF/UA szabványú, akadálymentes PDF-et az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

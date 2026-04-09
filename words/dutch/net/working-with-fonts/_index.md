@@ -52,6 +52,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Hoe lettertypen vast te leggen in Aspose.Words – Complete gids](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Leer hoe u lettertypen kunt vastleggen met Aspose.Words voor .NET in deze uitgebreide stap‑voor‑stap handleiding. |
 
 | [DOCX laden en ontbrekende lettertypen detecteren – Complete C#-gids](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Leer hoe u een DOCX-bestand laadt en ontbrekende lettertypen detecteert met Aspose.Words voor .NET in deze stapsgewijze C#-handleiding. |
+| [Waarschuwingen voor lettertypevervanging inschakelen in Aspose.Words – Complete gids](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Leer hoe u waarschuwingen voor lettertypevervanging inschakelt in Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

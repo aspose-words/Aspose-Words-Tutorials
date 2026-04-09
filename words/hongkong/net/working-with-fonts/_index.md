@@ -46,6 +46,7 @@
 | [取得可用字體列表](./get-list-of-available-fonts/) |在本詳細的逐步教學中了解如何使用 Aspose.Words for .NET 取得可用字體清單。提升您的字體管理技能。 |
 | [接收字體通知](./receive-notifications-of-fonts/) |了解如何在使用 Aspose.Words for .NET 時接收遺失或取代的字體通知。 |
 | [接收警告通知](./receive-warning-notification/) |了解如何在使用 Aspose.Words for .NET 時接收警告通知並管理文件中的任何問題或警告。 |
+| [在 Aspose.Words 中啟用字體替換警告 – 完整指南](./enable-font-substitution-warnings-in-aspose-words-complete-g/) |了解如何在 Aspose.Words for .NET 中啟用字體替換警告，以便在文件處理時接收相關通知。 |
 | [資源 Steam 字體來源範例](./resource-steam-font-source-example/) |了解如何使用資源流字體來源將自訂字體載入到 Aspose.Words for .NET 中。 |
 | [取得不含後綴的替換](./get-substitution-without-suffixes/) |在本教學中，學習如何使用 Aspose.Words for .NET 在 Word 文件中取得無後綴覆蓋。 |
 | [如何偵測 Aspose.Words 中的字體 – 處理警告與設定](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) |了解如何在 Aspose.Words 中偵測字體、處理字體相關警告並設定字體選項。 |
