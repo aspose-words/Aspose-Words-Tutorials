@@ -34,7 +34,7 @@ url: /hi/net/programming-with-shapes/create-blank-word-document-with-shadowed-re
 
 ---
 
-## What You’ll Need
+## आपको क्या चाहिए
 
 - **Aspose.Words for .NET** (v24.10 या नया) – वह लाइब्रेरी जो नीचे सभी चीज़ों को शक्ति देती है।  
 - एक .NET डेवलपमेंट एनवायरनमेंट (Visual Studio, Rider, या `dotnet` CLI)।  
@@ -44,7 +44,7 @@ url: /hi/net/programming-with-shapes/create-blank-word-document-with-shadowed-re
 
 ---
 
-## Step 1: Create a Blank Word Document
+## स्टेप 1: एक खाली वर्ड डॉक्यूमेंट बनाएं
 
 पहला काम एक खाली `Document` ऑब्जेक्ट बनाना है। इसे एक नई कैनवास की तरह समझें—जैसे आप मैन्युअली नया Word फ़ाइल खोलते हैं।
 
@@ -62,7 +62,7 @@ Document document = new Document();   // This creates an empty .docx in memory
 
 ---
 
-## Step 2: Define a Rectangle Shape (Rectangle Shape Word)
+## स्टेप 2: एक रेक्टेंगल शेप बनाएं (रेक्टेंगल शेप वर्ड)
 
 अब हमें काम करने के लिए एक शैप चाहिए। आयत सबसे सरल ज्यामिति है और बैनर, प्लेसहोल्डर, या साधारण UI मॉक‑अप्स के लिए उपयुक्त है।
 
@@ -80,7 +80,7 @@ Shape rectangleShape = new Shape(document, ShapeType.Rectangle)
 
 ---
 
-## Step 3: Apply a Shadow to the Shape (How to Add Shadow)
+## स्टेप 3: शेप पर शैडो लगाएं (शैडो कैसे जोड़ें)
 
 शैडो गहराई देता है, जिससे एक सपाट आयत एक फिजिकल ऑब्जेक्ट जैसा महसूस होता है। Aspose.Words एक `Shadow` प्रॉपर्टी प्रदान करता है जहाँ आप रंग, दूरी, ब्लर और ट्रांसपरेंसी को ट्यून कर सकते हैं।
 
@@ -106,7 +106,7 @@ rectangleShape.Shadow.Transparency = 0.2;               // 0 = opaque, 1 = fully
 
 ---
 
-## Step 4: Insert the Shape into the Document (Insert Shape Word)
+## स्टेप 4: डॉक्यूमेंट में शेप डालें (इन्सर्ट शेप वर्ड)
 
 आयत तैयार है, अब इसे रखने की जगह चाहिए। सबसे आसान जगह दस्तावेज़ के बॉडी के पहले पैराग्राफ में है।
 
@@ -122,7 +122,7 @@ document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
 ---
 
-## Step 5: Save the Word File
+## स्टेप 5: वर्ड फ़ाइल सेव करें
 
 अंतिम कदम इन‑मेमोरी डॉक्यूमेंट को डिस्क पर सेव करना है। ऐसी फ़ोल्डर चुनें जहाँ आपके पास लिखने की अनुमति हो, और फ़ाइल को एक अर्थपूर्ण नाम दें।
 
@@ -137,7 +137,7 @@ document.Save(outputPath);
 
 ---
 
-## Full Working Example
+## पूरा वर्किंग उदाहरण
 
 नीचे पूरा प्रोग्राम दिया गया है जिसे आप कॉन्सोल एप्लिकेशन में कॉपी‑पेस्ट कर सकते हैं। इसमें सभी `using` डायरेक्टिव्स, शैप निर्माण, शैडो कॉन्फ़िगरेशन, इन्सर्शन, और सेविंग शामिल है।
 
@@ -184,40 +184,40 @@ class Program
 
 ---
 
-## Common Questions & Edge Cases
+## आम सवाल और एज केस
 
-### What if I need a different shape?
+### अगर मुझे अलग शेप चाहिए तो क्या होगा?
 
-`ShapeType.Rectangle` को किसी भी अन्य `ShapeType` enum वैल्यू (`Ellipse`, `Triangle`, `Star`, आदि) से बदलें। शैडो प्रॉपर्टीज़ वही रहती हैं।
+`ShapeType.Rectangle` को किसी भी दूसरे `ShapeType` एनम वैल्यू (`Ellipse`, `Triangle`, `Star`, आदि) से बदलें। शैडो प्रॉपर्टीज़ वही रहती हैं।
 
-### Can I add multiple shadows?
+### क्या मैं कई शैडो जोड़ सकता हूँ?
 
-Aspose.Words एक शैप पर केवल एक ही शैडो सपोर्ट करता है। यदि आपको लेयर्ड इफ़ेक्ट चाहिए, तो अलग‑अलग शैडो सेटिंग्स के साथ दो ओवरलैपिंग शैप बनाएं।
+Aspose.Words एक शेप पर सिर्फ़ एक ही शैडो सपोर्ट करता है। अगर आपको लेयर्ड इफ़ेक्ट चाहिए, तो अलग-अलग शैडो सेटिंग्स के साथ दो शिफ्टिंग शेप बनाएँ।
 
-### How does this work on .NET Core?
+### यह .NET Core पर कैसे काम करता है?
 
-एक ही API .NET 6/7/8 पर काम करता है। बस **Aspose.Words.NETCore** पैकेज (या स्टैंडर्ड पैकेज, जो अब क्रॉस‑प्लेटफ़ॉर्म है) को रेफ़रेंस करें।
+एक ही API .NET6/7/8 पर काम करता है। बस **Aspose.Words.NETCore** पैकेज (या स्टैंडर्ड पैकेज, जो अब क्रॉस-प्लेटफ़ॉर्म है) को रेफ़रेंस करें।
 
-### Is `System.Drawing` still supported on Linux?
+### क्या `System.Drawing` अभी भी Linux पर सपोर्टेड है?
 
-`System.Drawing.Common` .NET 6 से केवल Windows‑only है। क्रॉस‑प्लेटफ़ॉर्म प्रोजेक्ट्स के लिए `Aspose.Drawing` (एक अलग NuGet) उपयोग करें या `Aspose.Words` द्वारा परिभाषित रंगों को ही इस्तेमाल करें।
+`System.Drawing.Common` .NET6 से सिर्फ़ Windows‑only है। Cross‑platform प्रोजेक्ट्स के लिए `Aspose.Drawing` (एक अलग NuGet) इस्तेमाल करें या `Aspose.Words` द्वारा डिफाइन किए गए रंगों को ही इस्तेमाल करें।
 
-### What about DPI scaling?
+### DPI स्केलिंग के बारे में क्या?
 
-शैप डाइमेंशन पॉइंट्स में होते हैं (1 pt = 1/72 इंच)। यदि आपको किसी विशिष्ट DPI के लिए पिक्सेल‑परफ़ेक्ट साइज चाहिए, तो पॉइंट्स को `pixels * 72 / dpi` के रूप में कैलकुलेट करें।
+शेप डाइमेंशन पॉइंट्स में होते हैं (1pt = 1/72इंच)। अगर आपको किसी खास DPI के लिए पिक्सेल‑परफेक्ट साइज़ चाहिए, तो पॉइंट्स को `pixels * 72 / dpi` के रूप में कैलकुलेट करें।
 
 ---
 
 ## Pro Tips & Gotchas
 
-- **Pro tip:** `rectangleShape.WrapType = WrapType.Inline;` सेट करें यदि आप चाहते हैं कि शैप टेक्स्ट के साथ फ्लो करे, न कि फ्लोट करे।  
-- **Watch out for:** शैडो को एनेबल करना न भूलें (`Enabled = true`)। अन्य सेटिंग्स चुपचाप इग्नोर हो जाएँगी।  
-- **Performance note:** बहुत सारे शैप्स को टाइट लूप में जोड़ना धीमा हो सकता है। उन्हें एक ही `Section` में बैच करें और अंत में एक बार `document.UpdatePageLayout()` कॉल करें।  
-- **Version check:** शैडो API Aspose.Words 20.2 में इंट्रोड्यूस किया गया था। यदि आप पुराने वर्ज़न पर हैं, तो प्रॉपर्टीज़ मिस होने से बचने के लिए अपग्रेड करें।
+- **Pro tip:** `rectangleShape.WrapType = WrapType.Inline;` सेट करें अगर आप चाहते हैं कि शेप टेक्स्ट के साथ फ़्लो करे, न कि फ़्लो करे।
+- **इस बात का ध्यान रखें:** शैडो को इनेबल करना न भूलें (`Enabled = true`)। अन्य सेटिंग्स टॉगल इग्नोर हो जाएँगी।
+- **परफॉरमेंस नोट:** बहुत सारे शेप्स को टाइट लूप में जोड़कर धीमा हो सकता है। उन्हें एक ही `Section` में बैच करें और अंत में एक बार `document.UpdatePageLayout()` कॉल करें।
+- **वर्जन चेक:** शैडो API Aspose.Words 20.2 में इंट्रोड्यूस किया गया था। यदि आप पुराने वर्जन पर हैं, तो प्रॉपर्टीज़ मिस होने से बचने के लिए अपग्रेड करें।
 
 ---
 
-## Conclusion
+## निष्कर्ष
 
 हमने **ब्लैंक वर्ड** डॉक्यूमेंट बनाया, एक **rectangle shape word** तैयार किया, **how to add shadow** सीखा, और अंत में **insert shape word** कंटेंट को एक पॉलिश्ड **add shape shadow** इफ़ेक्ट के साथ डाला—सब Aspose.Words for .NET का उपयोग करके।  
 

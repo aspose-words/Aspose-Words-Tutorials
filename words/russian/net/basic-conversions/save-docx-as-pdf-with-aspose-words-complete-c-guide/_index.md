@@ -41,18 +41,23 @@ url: /ru/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-gui
 
 ---
 
-## Prerequisites
+## Предварительные условия
 
-Before we dive in, make sure you have:
+Прежде чем мы начнем, убедитесь, что у вас есть:
 
 | Требование | Зачем это нужно |
-|-------------|----------------|
-| .NET 6.0 or later (or .NET Framework 4.7.2+) | Aspose.Words 23.10+ targets these runtimes. |
-| A valid Aspose.Words for .NET license (or you can use the free evaluation) | The library throws a trial watermark without a license. |
-| `input.docx` placed in a folder you can reference from code | Our examples assume a simple file path. |
-| Visual Studio 2022 (or any C# editor) | Makes debugging a breeze. |
 
-If any of these sound unfamiliar, just install the .NET SDK from Microsoft’s site and grab Aspose.Words via NuGet:
+|-------------|----------------|
+
+| .NET 6.0 или более поздняя версия (или .NET Framework 4.7.2+) | Aspose.Words 23.10+ ориентирован на эти среды выполнения. |
+
+| Действующая лицензия Aspose.Words для .NET (или вы можете использовать бесплатную ознакомительную версию) | Библиотека выдает водяной знак пробной версии без лицензии. |
+
+| Файл `input.docx`, размещенный в папке, на которую можно ссылаться из кода | В наших примерах предполагается простой путь к файлу. |
+
+| Visual Studio 2022 (или любой редактор C#) | Облегчает отладку. |
+
+Если что-то из этого вам незнакомо, просто установите .NET SDK с сайта Microsoft и получите Aspose.Words через NuGet:
 
 ```bash
 dotnet add package Aspose.Words
@@ -60,11 +65,11 @@ dotnet add package Aspose.Words
 
 ---
 
-## Save docx as pdf with Aspose.Words
+## Сохранение docx в pdf с помощью Aspose.Words
 
-### Step 1 – Load the Word document
+### Шаг 1 – Загрузка документа Word
 
-The first thing we need is a `Document` object that represents the source .docx. Think of it as opening a book before you start copying pages.
+Первое, что нам нужно, это объект `Document`, представляющий исходный файл .docx. Представьте, что вы открываете книгу перед тем, как начать копировать страницы.
 
 ```csharp
 using Aspose.Words;
@@ -83,11 +88,11 @@ namespace DocxToPdfDemo
             Document doc = new Document(sourcePath);
 ```
 
-> **Pro tip:** If you run into a `FileNotFoundException`, double‑check the path and ensure the file isn’t locked by another process.
+> **Совет:** Если вы столкнулись с ошибкой `FileNotFoundException`, дважды проверьте путь и убедитесь, что файл не заблокирован другим процессом.
 
-### Step 2 – Configure PDF/UA options (Generate accessible PDF)
+### Шаг 2 – Настройка параметров PDF/UA (Создание доступного PDF-файла)
 
-Accessibility isn’t an afterthought; it’s a requirement for many public‑sector projects. The `PdfSaveOptions` class lets us tell Aspose.Words to embed the right tags, structure, and metadata.
+Доступность — это не второстепенный вопрос; это требование для многих проектов государственного сектора. Класс `PdfSaveOptions` позволяет нам указать Aspose.Words, какие теги, структура и метаданные следует внедрить.
 
 ```csharp
             // Create a PdfSaveOptions instance
@@ -101,11 +106,11 @@ Accessibility isn’t an afterthought; it’s a requirement for many public‑se
             };
 ```
 
-If you’re targeting the newer PDF/UA‑2 spec, just swap `PdfUa1` for `PdfUa2`. Most compliance tests (e.g., PAC 2021) still accept UA‑1, so this setting works in the wild.
+Если вы ориентируетесь на более новую спецификацию PDF/UA-2, просто замените `PdfUa1` на `PdfUa2`. Большинство тестов на соответствие (например, PAC 2021) по-прежнему принимают UA-1, поэтому эта настройка работает на практике.
 
-### Step 3 – Save the file (How to create pdf/ua)
+### Шаг 3 – Сохранение файла (Как создать pdf/ua)
 
-Now the heavy lifting is done. One call to `Document.Save` writes the output file while respecting all the accessibility flags we set.
+Теперь основная работа выполнена. Один вызов `Document.Save` записывает выходной файл, учитывая все установленные нами флаги доступности.
 
 ```csharp
             // Destination path for the PDF/UA file
@@ -120,15 +125,16 @@ Now the heavy lifting is done. One call to `Document.Save` writes the output fil
 }
 ```
 
-Run the program (`dotnet run` or press **F5** in Visual Studio) and you’ll find `output.pdf` next to your source file. Open it in Adobe Acrobat Reader and check **File → Properties → Description → PDF/A and PDF/UA** – you should see “PDF/UA‑1” listed.
+Запустите программу (`dotnet run` или нажмите **F5** в Visual Studio), и вы найдете `output.pdf` рядом с исходным файлом. Откройте его в Adobe Acrobat Reader и установите флажок **Файл → Свойства → Описание → PDF/A и PDF/UA** – вы должны увидеть в списке «PDF/UA-1».
+
 
 ---
 
-## How to convert docx pdf – Handling Common Pitfalls
+## Как преобразовать docx в pdf — Как избежать распространенных ошибок
 
-### Missing Fonts
+### Отсутствующие шрифты
 
-If the original Word document uses a font that isn’t installed on the server, Aspose.Words substitutes a fallback, which can break the layout. To avoid surprises:
+Если в исходном документе Word используется шрифт, который не установлен на сервере, Aspose.Words заменяет его резервным, что может нарушить разметку. Чтобы избежать неожиданностей:
 
 ```csharp
 // Register a font folder (optional but recommended)
@@ -137,9 +143,9 @@ fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
 doc.FontSettings = fontSettings;
 ```
 
-### Large Documents
+### Большие документы
 
-When dealing with files over 100 MB, consider streaming the output to avoid memory spikes:
+При работе с файлами размером более 100 МБ рекомендуется использовать потоковую передачу выходных данных, чтобы избежать скачков потребления памяти:
 
 ```csharp
 using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
@@ -148,9 +154,9 @@ using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 }
 ```
 
-### Verifying PDF/UA Compliance Programmatically
+### Программная проверка соответствия PDF/UA
 
-Aspose.Words can run a quick validation pass:
+Aspose.Words может выполнить быструю проверку:
 
 ```csharp
 PdfSaveOptions validationOptions = new PdfSaveOptions
@@ -163,13 +169,13 @@ PdfSaveOptions validationOptions = new PdfSaveOptions
 doc.Save(@"temp_validation.pdf", validationOptions);
 ```
 
-If the document isn’t compliant, an exception will tell you exactly which element is missing a tag.
+Если документ не соответствует требованиям, исключение точно укажет, какой элемент не имеет тега.
 
----
+--
 
-## Full Working Example (Copy‑Paste Ready)
+## Полный рабочий пример (готов к копированию и вставке)
 
-Below is the **entire** program you can drop into a new console project. No hidden dependencies, no extra snippets.
+Ниже приведена **вся** программа, которую вы можете добавить в новый консольный проект. Никаких скрытых зависимостей, никаких дополнительных фрагментов кода.
 
 ```csharp
 using Aspose.Words;
@@ -226,33 +232,33 @@ namespace DocxToPdfDemo
 }
 ```
 
-> **What you should see:** After the run completes, `output.pdf` opens cleanly in any PDF viewer, and accessibility tools (like the built‑in Acrobat checker) report zero errors.
+> **Что вы должны увидеть:** После завершения выполнения файл `output.pdf` корректно откроется в любом средстве просмотра PDF-файлов, а инструменты проверки доступности (например, встроенная проверка Acrobat) не выдадут никаких ошибок.
 
 ---
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-**Q: Does this work with .NET Core?**  
-A: Absolutely. The same code runs on .NET 6, .NET 7, or the classic .NET Framework as long as you reference the correct Aspose.Words NuGet package.
+**В: Работает ли это с .NET Core?**
+О: Безусловно. Тот же код работает на .NET6, .NET7 или классическом .NET Framework, если вы укажете правильный пакет NuGet Aspose.Words.
 
-**Q: Can I convert multiple DOCX files in a batch?**  
-A: Yes. Wrap the `Document` loading and `Save` logic in a `foreach` loop that iterates over files in a directory. Remember to reuse a single `PdfSaveOptions` instance for performance.
+**В: Можно ли конвертировать несколько файлов DOCX одновременно?**
+О: Да. Оберните логику загрузки `Документа` и `Сохранения` в цикл `foreach`, который будет перебирать файлы в каталоге. Не забудьте повторно использовать один экземпляр `PdfSaveOptions` для повышения производительности.
 
-**Q: What if I need PDF/A instead of PDF/UA?**  
-A: Switch the `Compliance` property to `PdfCompliance.PdfA1b` (or `PdfA2b` for newer versions). The rest of the code stays identical.
+**В: Что делать, если мне нужен PDF/A вместо PDF/UA?**
+О: Измените свойство `Compliance` на `PdfCompliance.PdfA1b` (или `PdfA2b` для более новых версий). Остальная часть кода остаётся неизменной.
 
-**Q: Is there a way to add a custom PDF/UA tag to a specific paragraph?**  
-A: You can use `Paragraph.ParagraphFormat.StructureTag` to assign a semantic tag before saving.
+**В: Можно ли добавить пользовательский тег PDF/UA к конкретному абзацу?**
+О: Вы можете использовать `Paragraph.ParagraphFormat.StructureTag` для присвоения семантического тега перед сохранением.
 
----
+--
 
-## Conclusion
+## Заключение
 
-We’ve just covered **how to save docx as pdf** using Aspose.Words, explored the nuances of **convert word to pdf**, and demonstrated how to **generate accessible pdf** that satisfies **how to create pdf/ua** requirements. The complete, copy‑paste‑ready example should get you up and running in minutes, whether you’re building a one‑off converter or embedding the logic into a larger document‑processing pipeline.
+Мы только что рассмотрели **как сохранить docx в формате PDF** с помощью Aspose.Words, изучили нюансы **преобразования Word в PDF** и продемонстрировали, как **создать доступный PDF**, который удовлетворяет **требованиям к созданию PDF/UA**. Полный, готовый к копированию и вставке пример позволит вам начать работу за считанные минуты, независимо от того, создаете ли вы разовый конвертер или встраиваете логику в более крупный конвейер обработки документов.
 
-Next steps? Try adding images, tables, or even watermarks to the PDF – all with the same `PdfSaveOptions` object. If you’re curious about optimizing performance for large batches, look into Aspose.Words’ **LoadOptions** and **MemoryOptimization** features. And, of course, experiment with `PdfUa2` if your organization mandates the newest accessibility standard.
+Дальнейшие шаги? Попробуйте добавить изображения, таблицы или даже водяные знаки в PDF — все с помощью одного и того же объекта `PdfSaveOptions`. Если вас интересует оптимизация производительности для больших пакетов, изучите функции **LoadOptions** и **MemoryOptimization** в Aspose.Words. И, конечно же, поэкспериментируйте с `PdfUa2`, если ваша организация требует соблюдения новейшего стандарта доступности.
 
-Happy coding, and may your PDFs always be accessible! 🚀
+Удачного кодирования, и пусть ваши PDF-файлы всегда будут доступны! 🚀
 
 ![save docx as pdf example](/images/save-docx-as-pdf.png){alt="save docx as pdf using Aspose.Words"}
 

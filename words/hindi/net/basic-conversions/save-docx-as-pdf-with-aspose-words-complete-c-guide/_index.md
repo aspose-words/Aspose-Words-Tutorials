@@ -41,7 +41,7 @@ url: /hi/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-gui
 
 ---
 
-## Prerequisites
+## ज़रूरी शर्तें
 
 | आवश्यकता | क्यों महत्वपूर्ण है |
 |-------------|----------------|
@@ -58,9 +58,9 @@ dotnet add package Aspose.Words
 
 ---
 
-## Save docx as pdf with Aspose.Words
+## Aspose.Words से docx को pdf के तौर पर सेव करें
 
-### Step 1 – Load the Word document
+### स्टेप 1 – Word डॉक्यूमेंट लोड करें
 
 पहला काम हमें एक `Document` ऑब्जेक्ट चाहिए जो स्रोत .docx को दर्शाता है। इसे आप पृष्ठों की कॉपी शुरू करने से पहले किताब खोलने के समान समझें।
 
@@ -101,7 +101,7 @@ namespace DocxToPdfDemo
 
 यदि आप नई PDF/UA‑2 स्पेसिफिकेशन को लक्षित कर रहे हैं, तो बस `PdfUa1` को `PdfUa2` से बदल दें। अधिकांश अनुपालन परीक्षण (जैसे PAC 2021) अभी भी UA‑1 को स्वीकार करते हैं, इसलिए यह सेटिंग वास्तविक दुनिया में काम करती है।
 
-### Step 3 – Save the file (How to create pdf/ua)
+### स्टेप 3 – फ़ाइल सेव करें (pdf/ua कैसे बनाएं)
 
 अब भारी काम हो चुका है। `Document.Save` को एक बार कॉल करने से आउटपुट फ़ाइल लिखी जाती है और हमने सेट किए सभी एक्सेसिबिलिटी फ़्लैग्स का सम्मान किया जाता है।
 
@@ -122,9 +122,9 @@ namespace DocxToPdfDemo
 
 ---
 
-## How to convert docx pdf – Handling Common Pitfalls
+## docx को pdf में कैसे कन्वर्ट करें – आम गलतियों से निपटना
 
-### Missing Fonts
+### फ़ॉन्ट्स का न होना
 
 यदि मूल Word दस्तावेज़ में ऐसा फ़ॉन्ट उपयोग किया गया है जो सर्वर पर स्थापित नहीं है, तो Aspose.Words एक फॉलबैक फ़ॉन्ट का उपयोग करता है, जिससे लेआउट बिगड़ सकता है। आश्चर्य से बचने के लिए:
 
@@ -135,7 +135,7 @@ fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
 doc.FontSettings = fontSettings;
 ```
 
-### Large Documents
+### बड़े डॉक्यूमेंट्स
 
 जब फ़ाइलें 100 MB से अधिक हों, तो मेमोरी स्पाइक से बचने के लिए आउटपुट को स्ट्रीम करने पर विचार करें:
 
@@ -146,7 +146,7 @@ using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 }
 ```
 
-### Verifying PDF/UA Compliance Programmatically
+### प्रोग्रामेटिकली PDF/UA कम्प्लायंस वेरिफ़ाई करना
 
 Aspose.Words एक त्वरित वैलिडेशन पास चला सकता है:
 
@@ -165,7 +165,7 @@ doc.Save(@"temp_validation.pdf", validationOptions);
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## पूरा वर्किंग उदाहरण (कॉपी-पेस्ट रेडी)
 
 नीचे **पूरा** प्रोग्राम है जिसे आप नई कंसोल प्रोजेक्ट में डाल सकते हैं। कोई छिपी हुई निर्भरताएँ नहीं, कोई अतिरिक्त स्निपेट नहीं।
 
@@ -228,7 +228,7 @@ namespace DocxToPdfDemo
 
 ---
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या यह .NET Core के साथ काम करता है?**  
 A: बिल्कुल। वही कोड .NET 6, .NET 7, या क्लासिक .NET Framework पर चलता है बशर्ते आप सही Aspose.Words NuGet पैकेज रेफ़र करें।
@@ -244,7 +244,7 @@ A: आप `Paragraph.ParagraphFormat.StructureTag` का उपयोग कर
 
 ---
 
-## Conclusion
+## निष्कर्ष
 
 हमने अभी-अभी **docx को pdf के रूप में सहेजने** के बारे में Aspose.Words का उपयोग करके बताया, **word को pdf में बदलने** की बारीकियों को समझा, और यह दर्शाया कि **एक्सेसिबल pdf कैसे जनरेट करें** जो **pdf/ua कैसे बनाएं** आवश्यकताओं को पूरा करता है। पूरा, कॉपी‑पेस्ट‑रेडी उदाहरण आपको मिनटों में चलाने में मदद करेगा, चाहे आप एक‑बार का कन्वर्टर बना रहे हों या बड़े दस्तावेज़‑प्रोसेसिंग पाइपलाइन में लॉजिक एम्बेड कर रहे हों।
 

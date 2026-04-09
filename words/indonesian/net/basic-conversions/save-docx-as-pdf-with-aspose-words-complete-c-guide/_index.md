@@ -29,31 +29,31 @@ url: /id/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# save docx as pdf – A Complete C# Tutorial
+# simpan docx sebagai pdf – Tutorial C# Lengkap
 
-Pernah perlu **save docx as pdf** tetapi tidak yakin pustaka mana yang akan memberikan hasil yang bersih dan dapat diakses? Anda tidak sendirian. Banyak pengembang menemui kendala ketika ingin **convert word to pdf** sambil tetap mematuhi standar PDF/UA.  
+Pernah perlu **menyimpan docx sebagai pdf** tetapi tidak yakin pustaka mana yang akan memberikan hasil yang bersih dan dapat diakses? Anda tidak sendirian. Banyak pengembang mengatasi kendala ketika ingin **convert word to pdf** sambil tetap mematuhi standar PDF/UA.
 
-Dalam panduan ini kami akan menelusuri seluruh proses—dari memuat file .docx, mengonfigurasi opsi yang tepat, hingga akhirnya menghasilkan **PDF yang dapat diakses** yang lolos pemeriksaan PDF/UA. Pada akhir tutorial Anda akan tahu persis **how to convert docx pdf** dengan Aspose.Words dan bahkan memahami **how to create pdf/ua** untuk pengguna yang mengandalkan teknologi bantu.
+Dalam panduan ini kami akan menelusuri seluruh proses—dari memuat file .docx, mengonfigurasi opsi yang tepat, hingga akhirnya menghasilkan **PDF yang dapat diakses** yang lolos pemeriksaan PDF/UA. Pada akhir tutorial Anda akan mengetahui **cara mengonversi docx pdf** dengan Aspose.Words dan bahkan memahami **cara membuat pdf/ua** untuk pengguna yang mengandalkan teknologi bantu.
 
-> **Apa yang akan Anda dapatkan**  
-> * Aplikasi konsol C# siap‑jalankan yang **saves docx as pdf** dalam satu baris kode.  
-> * Wawasan tentang kelas `PdfSaveOptions` dan mengapa flag `PdfCompliance.PdfUa1` penting.  
-> * Tips menangani kasus tepi seperti font yang hilang atau dokumen berukuran besar.
+> **Apa yang akan Anda dapatkan**
+> * Aplikasi konsol C# siap‑jalankan yang **menyimpan docx sebagai pdf** dalam satu baris kode.
+> * Wawasan tentang kelas `PdfSaveOptions` dan mengapa flag `PdfCompliance.PdfUa1` penting.
+> *Tips menangani kasus tepi seperti font yang hilang atau dokumen berukuran besar.
 
 ---
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
-| Requirement | Why it matters |
+| Persyaratan | Mengapa itu penting |
 |-------------|----------------|
-| .NET 6.0 atau lebih baru (atau .NET Framework 4.7.2+) | Aspose.Words 23.10+ menargetkan runtime ini. |
+| .NET6.0 atau lebih baru (atau .NET Framework4.7.2+) | Aspose.Words 23.10+ menargetkan runtime ini. |
 | Lisensi Aspose.Words for .NET yang valid (atau Anda dapat menggunakan evaluasi gratis) | Pustaka akan menampilkan watermark percobaan tanpa lisensi. |
-| `input.docx` ditempatkan di folder yang dapat direferensikan dari kode | Contoh kami mengasumsikan jalur file sederhana. |
-| Visual Studio 2022 (atau editor C# apa pun) | Memudahkan proses debugging. |
+| `input.docx` Ditempatkan di folder yang dapat direferensikan dari kode | Contoh kami mengasumsikan jalur file sederhana. |
+| Visual Studio2022 (atau editor C# apa pun) | Memudahkan proses debugging. |
 
-Jika ada yang belum familiar, cukup instal .NET SDK dari situs Microsoft dan dapatkan Aspose.Words lewat NuGet:
+Jika ada yang belum familiar, cukup instal .NET SDK dari situs Microsoft dan dapatkan Aspose.Words melalui NuGet:
 
 ```bash
 dotnet add package Aspose.Words
@@ -61,11 +61,11 @@ dotnet add package Aspose.Words
 
 ---
 
-## Save docx as pdf with Aspose.Words
+## Simpan docx sebagai pdf dengan Aspose.Words
 
-### Step 1 – Load the Word document
+### Langkah 1 – Muat dokumen Word
 
-Hal pertama yang kita perlukan adalah objek `Document` yang mewakili .docx sumber. Anggap saja Anda membuka sebuah buku sebelum mulai menyalin halaman.
+Hal pertama yang kita perlukan adalah objek `Dokumen` yang mewakili sumber .docx. Anggap saja Anda membuka sebuah buku sebelum mulai menyalin halaman.
 
 ```csharp
 using Aspose.Words;
@@ -86,7 +86,7 @@ namespace DocxToPdfDemo
 
 > **Pro tip:** Jika Anda menemui `FileNotFoundException`, periksa kembali jalur file dan pastikan file tidak terkunci oleh proses lain.
 
-### Step 2 – Configure PDF/UA options (Generate accessible PDF)
+### Langkah 2 – Konfigurasi opsi PDF/UA (Hasilkan PDF yang mudah diakses)
 
 Aksesibilitas bukan hal tambahan; ia merupakan keharusan bagi banyak proyek sektor publik. Kelas `PdfSaveOptions` memungkinkan kita memberi tahu Aspose.Words untuk menyematkan tag, struktur, dan metadata yang tepat.
 
@@ -104,7 +104,7 @@ Aksesibilitas bukan hal tambahan; ia merupakan keharusan bagi banyak proyek sekt
 
 Jika Anda menargetkan spesifikasi PDF/UA‑2 yang lebih baru, cukup ganti `PdfUa1` dengan `PdfUa2`. Sebagian besar tes kepatuhan (misalnya PAC 2021) masih menerima UA‑1, sehingga pengaturan ini bekerja di lingkungan produksi.
 
-### Step 3 – Save the file (How to create pdf/ua)
+### Langkah 3 – Simpan file (Cara membuat pdf/ua)
 
 Sekarang pekerjaan berat selesai. Satu panggilan ke `Document.Save` menulis file output sambil menghormati semua flag aksesibilitas yang telah kita set.
 
@@ -125,9 +125,9 @@ Jalankan program (`dotnet run` atau tekan **F5** di Visual Studio) dan Anda akan
 
 ---
 
-## How to convert docx pdf – Handling Common Pitfalls
+## Cara mengkonversi docx ke pdf – Mengatasi Kesalahan Umum
 
-### Missing Fonts
+### Font yang Hilang
 
 Jika dokumen Word asli menggunakan font yang tidak terpasang di server, Aspose.Words akan menggantinya dengan fallback, yang dapat merusak tata letak. Untuk menghindari kejutan:
 
@@ -138,7 +138,7 @@ fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
 doc.FontSettings = fontSettings;
 ```
 
-### Large Documents
+### Dokumen Berukuran Besar
 
 Saat menangani file berukuran lebih dari 100 MB, pertimbangkan streaming output untuk menghindari lonjakan memori:
 
@@ -149,7 +149,7 @@ using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 }
 ```
 
-### Verifying PDF/UA Compliance Programmatically
+### Memverifikasi Kepatuhan PDF/UA Secara Terprogram
 
 Aspose.Words dapat menjalankan validasi cepat:
 
@@ -168,7 +168,7 @@ Jika dokumen tidak memenuhi standar, sebuah exception akan memberi tahu Anda ele
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Contoh Lengkap yang Berfungsi (Siap Disalin-Tempel)
 
 Berikut adalah program **seluruhnya** yang dapat Anda masukkan ke dalam proyek konsol baru. Tanpa dependensi tersembunyi, tanpa potongan kode tambahan.
 
@@ -227,31 +227,31 @@ namespace DocxToPdfDemo
 }
 ```
 
-> **What you should see:** After the run completes, `output.pdf` opens cleanly in any PDF viewer, and accessibility tools (like the built‑in Acrobat checker) report zero errors.
+> **Yang seharusnya Anda lihat:** Setelah proses selesai, `output.pdf` akan terbuka dengan bersih di penampil PDF apa pun, dan alat aksesibilitas (seperti pemeriksa Acrobat bawaan) akan melaporkan nol kesalahan.
 
 ---
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Does this work with .NET Core?**  
-A: Absolutely. The same code runs on .NET 6, .NET 7, or the classic .NET Framework as long as you reference the correct Aspose.Words NuGet package.
+**T: Apakah ini berfungsi dengan .NET Core?**
+J: Tentu saja. Kode yang sama berjalan di .NET6, .NET7, atau .NET Framework klasik selama Anda mereferensikan paket NuGet Aspose.Words yang benar.
 
-**Q: Can I convert multiple DOCX files in a batch?**  
-A: Yes. Wrap the `Document` loading and `Save` logic in a `foreach` loop that iterates over files in a directory. Remember to reuse a single `PdfSaveOptions` instance for performance.
+**T: Dapatkah saya mengonversi beberapa file DOCX sekaligus?**
+J: Ya. Bungkus logika pemuatan `Document` dan `Save` dalam perulangan `foreach` yang mengulang file dalam direktori. Ingat untuk menggunakan kembali satu instance `PdfSaveOptions` untuk performa yang lebih baik.
 
-**Q: What if I need PDF/A instead of PDF/UA?**  
-A: Switch the `Compliance` property to `PdfCompliance.PdfA1b` (or `PdfA2b` for newer versions). The rest of the code stays identical.
+**T: Bagaimana jika saya memerlukan PDF/A, bukan PDF/UA?**
+J: Ganti properti `Compliance` ke `PdfCompliance.PdfA1b` (atau `PdfA2b` untuk versi yang lebih baru). Kode lainnya tetap sama.
 
-**Q: Is there a way to add a custom PDF/UA tag to a specific paragraph?**  
-A: You can use `Paragraph.ParagraphFormat.StructureTag` to assign a semantic tag before saving.
+**T: Apakah ada cara untuk menambahkan tag PDF/UA khusus ke paragraf tertentu?**
+J: Anda dapat menggunakan `Paragraph.ParagraphFormat.StructureTag` untuk menetapkan tag semantik sebelum menyimpan.
 
 ---
 
-## Conclusion
+## Kesimpulan
 
-Kami baru saja membahas **how to save docx as pdf** menggunakan Aspose.Words, mengeksplorasi nuansa **convert word to pdf**, dan mendemonstrasikan cara **generate accessible pdf** yang memenuhi persyaratan **how to create pdf/ua**. Contoh lengkap yang siap disalin‑tempel seharusnya membuat Anda dapat langsung bekerja dalam hitungan menit, baik Anda membangun konverter satu‑kali atau menyematkan logika ini ke dalam pipeline pemrosesan dokumen yang lebih besar.
+Kami saja membahas **cara menyimpan docx sebagai pdf** menggunakan Aspose.Words, mengeksplorasi nuansa baru **convert word to pdf**, dan mendemonstrasikan cara **menghasilkan pdf yang dapat diakses** yang memenuhi persyaratan **cara membuat pdf/ua**. Contoh lengkap yang siap pendingin‑tempel seharusnya membuat Anda dapat langsung menghitung menit, baik Anda membangun konverter satu‑kali atau menyematkan logika ini ke dalam pipeline memproses dokumen yang bekerja lebih besar.
 
-Langkah selanjutnya? Coba tambahkan gambar, tabel, atau bahkan watermark ke PDF – semua dengan objek `PdfSaveOptions` yang sama. Jika Anda penasaran tentang mengoptimalkan kinerja untuk batch besar, lihat fitur **LoadOptions** dan **MemoryOptimization** dari Aspose.Words. Dan tentu saja, bereksperimenlah dengan `PdfUa2` jika organisasi Anda mewajibkan standar aksesibilitas terbaru.
+Langkah selanjutnya? Coba tambahkan gambar, tabel, atau bahkan watermark ke PDF – semua dengan objek `PdfSaveOptions` yang sama. Jika Anda penasaran tentang mengoptimalkan kinerja untuk batch besar, lihat fitur **LoadOptions** dan **MemoryOptimization** dari Aspose.Words. Dan tentu saja, bereksperimenlah dengan `PdfUa2` jika organisasi Anda menjamin standar aksesibilitas terbaru.
 
 Selamat coding, semoga PDF Anda selalu dapat diakses! 🚀
 

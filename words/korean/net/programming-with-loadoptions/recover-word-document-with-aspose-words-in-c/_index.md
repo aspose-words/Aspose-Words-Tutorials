@@ -55,7 +55,7 @@ url: /ko/net/programming-with-loadoptions/recover-word-document-with-aspose-word
 
 ---
 
-## ## Recover Word Document – Configuring LoadOptions
+## ## 워드 문서 복구 - 로드 옵션 구성
 
 첫 번째 단계는 손상된 파일을 만나면 Aspose가 어떻게 동작할지 알려주는 것입니다. 기본적으로 라이브러리는 예외를 발생시키지만, 우리는 **경고와 함께 복구**하도록 요청할 수 있습니다.
 
@@ -76,7 +76,7 @@ LoadOptions loadOptions = new LoadOptions
 
 ---
 
-## ## How to Recover Word File – Loading the Document
+## ## 워드 파일 복구 방법 - 문서 불러오기
 
 옵션이 준비되었으니 이제 `Document` 생성자에 전달하면 됩니다. 아래 코드는 지정한 폴더에 있는 `Corrupt.docx` 파일을 로드하는 예시입니다.
 
@@ -90,7 +90,7 @@ Document doc = new Document(filePath, loadOptions);
 
 ---
 
-## ## How to Recover Word File – Inspecting WarningInfo
+## ## 워드 파일 복구 방법 - 경고 정보 확인
 
 각 경고는 `WarningInfo` 인스턴스입니다. 컬렉션을 순회하면서 각각을 출력하면 Aspose가 복구했거나 무시한 내용을 투명하게 확인할 수 있습니다.
 
@@ -116,7 +116,7 @@ foreach (WarningInfo warning in doc.WarningInfo)
 
 ---
 
-## ## Recover Corrupted DOCX – Saving the Fixed Version
+## ## 손상된 DOCX 파일 복구 - 복구된 버전 저장
 
 경고를 확인한 뒤에는 정리된 문서를 새 파일에 저장할 수 있습니다. Aspose는 내부 ZIP 구조를 다시 작성하면서 손상된 부분을 제거합니다.
 
@@ -132,7 +132,7 @@ Console.WriteLine($"Recovered document saved to: {recoveredPath}");
 
 ---
 
-## ## Load Corrupted Word Document – Edge Cases & Tips
+## ## 손상된 워드 문서 불러오기 - 예외 상황 및 팁
 
 ### 1. 비밀번호 보호 파일  
 손상된 문서가 동시에 비밀번호로 보호되어 있다면 `LoadOptions`에 비밀번호를 추가합니다:
@@ -154,7 +154,7 @@ File.AppendAllText("recovery.log",
 
 ---
 
-## ## How to Recover Word File – Full Working Example
+## ## 워드 파일 복구 방법 - 전체 작동 예제
 
 아래는 모든 과정을 하나로 묶은 완전한 실행 가능한 프로그램 예시입니다. 콘솔 앱 프로젝트에 붙여넣고 파일 경로만 조정한 뒤 **F5** 키를 눌러 실행하세요.
 
@@ -216,7 +216,7 @@ Recovered document saved to: C:\Temp\Recovered.docx
 
 ---
 
-## ## Frequently Asked Questions (FAQ)
+## ## 자주 묻는 질문(FAQ)
 
 **Q: 오래된 `.doc` 파일에도 적용되나요?**  
 A: 네. Aspose.Words는 `.doc`와 `.docx`를 동일하게 처리하므로 경로의 파일 확장자만 바꾸면 됩니다.
@@ -229,7 +229,7 @@ A: 거의 없습니다. 경고를 추가로 파싱하는 데 파일당 약 5‑1
 
 ---
 
-## Conclusion
+## 결론
 
 당신은 이제 **Aspose.Words를 사용해 Word 문서를 복구**하고, 경고 세부 정보를 검사하며, 후속 사용을 위해 깨끗한 사본을 저장하는 방법을 배웠습니다. 이 접근 방식은 단일 파일 상황과 대량 배치 작업 모두에 적용 가능하며, 비밀번호 보호 파일이나 부분 다운로드된 파일 같은 에지 케이스도 우아하게 처리합니다.
 
