@@ -222,6 +222,8 @@ Känn dig fri att lämna en kommentar om du stöter på problem, och lycka till 
 ![Recover Word Document example screenshot showing warning list in console](/images/recover-word-document-console.png "Recover Word Document console output")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
