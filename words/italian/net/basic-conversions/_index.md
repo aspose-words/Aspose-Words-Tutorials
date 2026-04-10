@@ -29,6 +29,7 @@
 | [Convertire Docx in Mhtml e inviare e-mail](./docx-to-mhtml-and-sending-email/) | Scopri come convertire DOCX in MHTML e inviare email utilizzando Aspose.Words per .NET in questa guida passo passo. Aumenta la tua produttività con una facile automazione. |
 | [Converti file Docx in Markdown](./docx-to-markdown/) | Scopri come convertire i file DOCX in Markdown utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata per un'integrazione perfetta nelle tue applicazioni .NET. |
 | [Convertire Docx in Txt](./docx-to-txt/) Converti DOCX in TXT utilizzando Aspose.Words per .NET con la nostra guida passo passo. Impara a trasformare i documenti in modo efficiente e senza sforzo. |
+| [Convertire docx in txt – Guida completa per Word Math a LaTeX](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) | Scopri come convertire file DOCX in TXT mantenendo le equazioni Word in LaTeX con Aspose.Words per .NET. Guida passo passo. |
 | [Converti file di testo in documento Word](./txt-to-docx/) | Scopri come convertire file di testo in documenti Word utilizzando Aspose.Words per .NET. Gestisci in modo efficiente le conversioni dei documenti con la nostra guida completa. | 
 | [Salva il PDF come JPEG](./pdf-to-jpeg/) | Converti facilmente i PDF in JPEG utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata con esempi e FAQ. Perfetto per sviluppatori e appassionati. |
 | [Salva PDF in formato Word (Docx)](./pdf-to-docx/) | Scopri come convertire un PDF in un documento Word (Docx) utilizzando Aspose.Words per .NET in questa guida dettagliata e passo passo. Perfetta per gli sviluppatori. |
@@ -36,6 +37,7 @@
 | [Convertire Word in PDF in C# usando Aspose.Words – Guida](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Scopri come convertire documenti Word in PDF con C# usando Aspose.Words, con esempi di codice e passaggi dettagliati. |
 | [Salva Word come PDF con Aspose.Words – Guida completa C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare documenti Word in PDF usando Aspose.Words con una guida completa in C#. |
 | [Salva Docx come PDF con Aspose.Words – Guida completa C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare i file Docx come PDF usando Aspose.Words con una guida completa in C#. |
+| [Crea PDF da Word in C# – Guida completa](./create-pdf-from-word-in-c-full-guide/) | Scopri come generare PDF da documenti Word usando C# e Aspose.Words con una guida passo passo completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

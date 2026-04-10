@@ -27,7 +27,8 @@
 - [รูปแบบ 1Bpp ดัชนี](./format-1bpp-indexed/) | เรียนรู้วิธีการแปลงเอกสาร Word เป็นรูปภาพที่มีดัชนี 1Bpp โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลงที่ง่ายดาย -
 | [รับช่วงหน้า Jpeg](./get-jpeg-page-range/) | แปลงหน้าเฉพาะของเอกสาร Word เป็น JPEG ด้วยการตั้งค่าแบบกำหนดเองโดยใช้ Asp Aspose.Words สำหรับ .NET เรียนรู้วิธีการปรับความสว่าง ความคมชัด และความละเอียดทีละขั้นตอน -
 | [การบันทึกหน้าการโทรกลับ](./page-saving-callback/) | เรียนรู้การบันทึกแต่ละหน้าของเอกสาร Word เป็นรูปภาพ PNG แยกกันโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
-- [วิธีตั้งค่า DPI เมื่อแปลง Word เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | เรียนรู้วิธีตั้งค่า DPI ในการแปลงไฟล์ Word เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
+- [วิธีตั้งค่า DPI เมื่อแปลง Word เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | เรียนรู้วิธีตั้งค่า DPI ในการแปลงไฟล์ Word เป็น PNG ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา
+- [วิธีตั้งค่า DPI – ส่งออก Word เป็น PNG Grid ใน C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | เรียนรู้วิธีตั้งค่า DPI เมื่อส่งออกไฟล์ Word เป็น PNG Grid ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

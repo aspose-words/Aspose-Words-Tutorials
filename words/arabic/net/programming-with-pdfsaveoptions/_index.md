@@ -50,6 +50,7 @@
 | [إنشاء ملف PDF قابل للوصول في C# – دليل إمكانية الوصول إلى PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول من Word – دليل كامل](./create-accessible-pdf-from-word-complete-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول – دليل خطوة بخطوة للامتثال لمعيار PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |تعرف على كيفية إنشاء ملفات PDF قابلة للوصول وفقًا لمعيار PDF/UA باستخدام Aspose.Words لـ .NET من خلال دليل خطوة بخطوة. |
+| [إنشاء ملف PDF قابل للوصول – تحويل Word إلى PDF باستخدام C#](./create-accessible-pdf-convert-word-to-pdf-with-c/) | دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

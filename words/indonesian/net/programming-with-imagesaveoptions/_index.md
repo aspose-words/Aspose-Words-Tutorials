@@ -22,12 +22,13 @@ Tutorial ini juga mencakup konsep dasar manipulasi gambar, termasuk memasukkan, 
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff](./expose-threshold-control-for-tiff-binarization/) | Pelajari cara mengekspos kontrol ambang batas untuk binerisasi TIFF dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
-| [Dapatkan Rentang Halaman Tiff](./get-tiff-page-range/) | Pelajari cara mengonversi rentang halaman tertentu dari dokumen Word ke file TIFF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:
-| [Format 1Bpp Terindeks](./format-1bpp-indexed/) | Pelajari cara mengonversi dokumen Word menjadi gambar berindeks 1Bpp menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi mudah. Bahasa Indonesia:
-| [Dapatkan Rentang Halaman Jpeg](./get-jpeg-page-range/) | Ubah halaman tertentu dari dokumen Word menjadi JPEG dengan pengaturan khusus menggunakan Aspose.Words untuk .NET. Pelajari cara menyesuaikan kecerahan, kontras, dan resolusi langkah demi langkah. Bahasa Indonesia:
+| [Mengekspos Kontrol Ambang Batas Untuk Binarisasi Tiff](./expose-threshold-control-for-tiff-binarization/) | Pelajari cara mengekspos kontrol ambang batas untuk binerisasi TIFF dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia: |
+| [Dapatkan Rentang Halaman Tiff](./get-tiff-page-range/) | Pelajari cara mengonversi rentang halaman tertentu dari dokumen Word ke file TIFF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia: |
+| [Format 1Bpp Terindeks](./format-1bpp-indexed/) | Pelajari cara mengonversi dokumen Word menjadi gambar berindeks 1Bpp menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk konversi mudah. Bahasa Indonesia: |
+| [Dapatkan Rentang Halaman Jpeg](./get-jpeg-page-range/) | Ubah halaman tertentu dari dokumen Word menjadi JPEG dengan pengaturan khusus menggunakan Aspose.Words untuk .NET. Pelajari cara menyesuaikan kecerahan, kontras, dan resolusi langkah demi langkah. Bahasa Indonesia: |
 | [Panggilan Balik Penyimpanan Halaman](./page-saving-callback/) | Pelajari cara menyimpan setiap halaman dokumen Word sebagai gambar PNG terpisah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. |
 | [Cara Mengatur DPI Saat Mengonversi Word ke PNG – Panduan Lengkap C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Pelajari cara mengatur DPI saat mengonversi dokumen Word ke PNG menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Cara Mengatur DPI – Ekspor Word ke Grid PNG dalam C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) | Pelajari cara mengekspor dokumen Word ke grid PNG dengan mengatur DPI menggunakan Aspose.Words untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

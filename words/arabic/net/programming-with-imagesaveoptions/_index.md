@@ -28,6 +28,7 @@
 | [الحصول على نطاق صفحات Jpeg](./get-jpeg-page-range/) حوّل صفحات محددة من مستندات Word إلى صيغة JPEG بإعدادات مخصصة باستخدام Aspose.Words لـ .NET. تعلّم كيفية ضبط السطوع والتباين والدقة خطوة بخطوة.
 | [استدعاء حفظ الصفحة](./page-saving-callback/) |تعلم كيفية حفظ كل صفحة من مستند Word كصورة PNG منفصلة باستخدام Aspose.Words for .NET مع دليلنا المفصل خطوة بخطوة. |
 | [كيفية ضبط DPI عند تحويل Word إلى PNG – دليل C# كامل](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) |تعلم كيفية تعيين قيمة DPI عند تحويل مستندات Word إلى PNG باستخدام Aspose.Words for .NET مع مثال كامل بلغة C#. |
+| [كيفية ضبط DPI – تصدير Word إلى شبكة PNG في C#](./how-to-set-dpi-export-word-to-png-grid-in-c/) |تعلم كيفية تعيين DPI عند تصدير مستند Word إلى شبكة من صور PNG باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
