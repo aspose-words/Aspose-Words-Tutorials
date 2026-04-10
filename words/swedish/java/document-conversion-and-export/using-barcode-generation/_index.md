@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Använda streckkodsgenerering i Aspose.Words för Java
@@ -97,10 +95,7 @@ För omfattande dokumentation och fler kodexempel, besök [Aspose.Words för Jav
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
