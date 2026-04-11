@@ -1,9 +1,13 @@
 ---
-"date": "2025-03-28"
-"description": "了解如何使用 Aspose.Words for Java 在 PDF 中有效地組織書籤。透過這份綜合指南增強可讀性和導航性。"
-"title": "使用 Aspose.Words Java 掌握 PDF 中的書籤大綱級別"
-"url": "/zh-hant/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-04-11'
+description: 學習如何在 Java 使用 Aspose.Words 儲存 PDF 並保留書籤與大綱層級。包括轉換技巧、程式碼範例及疑難排解。
+keywords:
+- save pdf with bookmarks
+- convert word pdf java
+- aspose words java pdf
+title: 使用 Aspose.Words Java 保存帶書籤的 PDF
+url: /zh-hant/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,30 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# 使用 Aspose.Words Java 掌握 PDF 中的書籤大綱級別
+# 使用 Aspose.Words Java 儲存含書籤的 PDF
 
 ## 介紹
-將 Word 文件轉換為 PDF 時難以管理書籤？本教學將向您展示如何使用 Aspose.Words for Java 有效地組織您的文件書籤，使其專業且易於瀏覽。
+如果您需要 **儲存含書籤的 PDF**，且書籤能呈現清晰的層次結構，您來對地方了。在本教學中，我們將示範如何將 Word 文件轉換為 PDF，並設定書籤的大綱層級，使最終的 PDF 便於讀者和審閱者瀏覽。  
 
-**您將學到什麼：**
-- 設定並使用 Aspose.Words for Java
-- 在 Word 文件中建立巢狀書籤
-- 配置書籤大綱層級以更好地組織
-- 將文件儲存為具有結構化書籤的 PDF
+**您將學會**
+- 如何在 Java 中設定 Aspose.Words  
+- 如何在 Word 文件中建立巢狀書籤  
+- 如何指派大綱層級，使 PDF 書籤呈現邏輯樹狀結構  
+- 如何使用最新的 Aspose.Words API **儲存含書籤的 PDF**  
 
-在開始之前，讓我們先來了解先決條件！
+### 快速問答
+- **將 Word 轉換為 PDF 時可以加入書籤嗎？** 是的，Aspose.Words 允許您在儲存前定義書籤。  
+- **使用此功能需要授權嗎？** 免費試用可供評估；購買授權即可解鎖全部功能。  
+- **需要哪個版本的 Java？** Java 8 或更高版本。  
+- **大綱層級設定是可選的嗎？** 雖然可選，但強烈建議設定以提升導覽體驗。  
+- **PDF 會保留書籤層次結構嗎？** 當然會——您設定的層級會成為 PDF 的書籤樹。  
 
-### 先決條件
-在開始之前，請確保您已：
-- **庫和依賴項**：Aspose.Words for Java（版本 25.3 或更高版本）。
-- **環境設定**：您的機器上安裝了 JDK 以及相容的 IDE，如 IntelliJ IDEA 或 Eclipse。
-- **知識前提**：對 Java 程式設計有基本的了解，並熟悉 Maven 或 Gradle 建置系統。
+### 前置條件
+在開始之前，請確保您已具備以下條件：
 
-## 設定 Aspose.Words
-首先，在您的專案中包含必要的依賴項。使用 Maven 和 Gradle 執行此操作的方法如下：
+- **函式庫與相依性**：Aspose.Words for Java（版本 25.3 或更新）。  
+- **環境**：JDK 8 以上，並使用 IntelliJ IDEA 或 Eclipse 等 IDE。  
+- **基礎知識**：熟悉 Java、Maven 或 Gradle，以及 Word 中書籤的概念。  
 
-**Maven：**
+## 如何儲存含書籤與大綱層級的 PDF
+
+### 設定 Aspose.Words
+使用 Maven 或 Gradle 將 Aspose.Words 函式庫加入您的專案。
+
+**Maven**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +55,123 @@
 </dependency>
 ```
 
-**Gradle：**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### 許可證獲取
-Aspose.Words 是一款商業產品，但您可以先免費試用以探索其功能。步驟如下：
-1. **免費試用**：下載自 [Aspose 的發佈頁面](https://releases.aspose.com/words/java/) 測試全部功能。
-2. **臨時執照**：申請臨時駕照 [Aspose 的臨時許可證頁面](https://purchase.aspose.com/temporary-license/) 如果需要的話。
-3. **購買**：如需繼續使用，請從 [Aspose 的購買門戶](https://purchase。aspose.com/buy).
+#### 授權取得
+Aspose.Words 為商業產品，但您可以先使用免費試用版。
 
-取得許可證文件後，請在項目中初始化它以解鎖 Aspose.Words 的全部功能。
+1. **免費試用** – 從 [Aspose 的發行頁面](https://releases.aspose.com/words/java/) 下載，以測試完整功能。  
+2. **臨時授權** – 前往 [Aspose 的臨時授權頁面](https://purchase.aspose.com/temporary-license/) 申請短期評估。  
+3. **購買** – 從 [Aspose 授權購買入口](https://purchase.aspose.com/buy) 取得永久授權。  
 
-## 實施指南
-讓我們將實作分解為可管理的部分：
+取得 `.lic` 檔案後，於應用程式啟動時載入，即可解鎖所有功能。
 
-### 建立嵌套書籤
-**概述**：了解如何使用 Aspose.Words for Java 在 Word 文件中建立巢狀書籤。
+### 建立巢狀書籤（步驟 1）
+首先，建立一個 Word 文件，並插入能反映您期望層次結構的書籤。
 
-#### 步驟 1：初始化文件和產生器
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ```
-這將設定您的 Word 文件環境，您可以在其中開始插入內容。
 
-#### 第 2 步：插入巢狀書籤
-首先建立主書籤：
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
 ```
-現在，在其中嵌套另一個書籤：
+
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // 結束嵌套書籤
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
 ```
-完成外部書籤：
+
 ```java
 builder.endBookmark("Bookmark 1");
 ```
 
-#### 步驟 3：新增其他書籤
-根據需要繼續添加書籤。例如，單獨的第三個書籤：
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
 ```
 
-### 配置書籤大綱級別
-**概述**：透過設定大綱層級來組織書籤，以便在 PDF 中更好地導航。
+### 設定書籤大綱層級（步驟 2）
+現在告訴 Aspose.Words 這些書籤在 PDF 書籤窗格中應如何顯示。
 
-#### 步驟 1：設定 PdfSaveOptions
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
 ```
-此程式碼片段初始化了用於將文件儲存為帶有組織書籤的 PDF 的選項。
 
-#### 步驟 2：新增大綱級別
-為每個書籤分配級別，這將決定它們的層次結構：
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // 嵌套在書籤 1 下
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
 ```
 
-#### 步驟3：儲存文檔
-最後，使用以下設定將文件儲存為 PDF：
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 ```
 
-### 故障排除提示
-- **缺少書籤**：確保每個 `startBookmark` 有相應的 `endBookmark`。
-- **等級不正確**：透過檢查程式碼中的父子關係來驗證層次結構。
+開啟產生的 PDF 後，您會看到一個三層書籤樹，與您在 Word 文件中定義的結構相呼應。
 
-## 實際應用
-以下是一些可以應用這些知識的場景：
-1. **法律文件**：組織章節和小節以便於參考。
-2. **報告**：使用巢狀書籤來導航複雜的資料結構。
-3. **教育材料**：有效地建構章節、子章節和重點。
+## 為何在 Java 中使用 Aspose.Words 轉換 Word 為 PDF？
+- **高保真度**：版面配置、字型與複雜元素皆得以保留。  
+- **程式化控制**：您可直接從 Java 新增或修改書籤、大綱層級以及其他多項 PDF 功能。  
+- **效能**：能有效處理大型文件，特別是遵循以下效能建議時。  
 
-## 性能考慮
-- 透過在儲存之前刪除不必要的內容來優化文件大小。
-- 處理大型文件時有效管理記憶體使用量。
+## 實務應用
+1. **法律合約** – 快速瀏覽條款與子條款。  
+2. **年度報告** – 為讀者提供可點擊的目錄。  
+3. **線上學習模組** – 在單一 PDF 中組織章節、節點與測驗。  
 
-## 結論
-現在您已經了解如何使用 Aspose.Words for Java 有效地實作書籤大綱層級。這項技能將大大增強您的 PDF 的可導航性，使其更加用戶友好和專業。
+## 效能考量
+- 儲存前移除未使用的樣式或隱藏區段，以保持 PDF 輕量。  
+- 對於極大文件，使用 `doc.optimizeResources()` 以降低記憶體使用量。  
 
-**後續步驟**：嘗試不同的文件結構或將此功能整合到更大的應用程式中，以了解其實際優勢。
+## 常見問題與解決方案
+- **書籤遺失** – 確認每個 `startBookmark` 都有對應的 `endBookmark`。  
+- **層次不正確** – 確保大綱層級數字反映父子關係（數字越小層級越高）。  
+- **授權未套用** – 在任何 Aspose.Words API 呼叫前載入授權檔案，否則會出現試用水印。  
 
-## 常見問題部分
-1. **如何安裝 Aspose.Words for Java？**
-   - 透過 Maven 或 Gradle 將其作為依賴項包含在內，然後設定您的授權檔案。
-2. **我可以使用沒有大綱層級的書籤嗎？**
-   - 是的，但使用大綱層級可以改善 PDF 中的導覽。
-3. **書籤嵌套有哪些限制？**
-   - 沒有嚴格的限制，但要考慮使用者的可讀性和結構。
-4. **Aspose 如何處理大型文件？**
-   - 它有效地管理資源，但建議對非常大的文件進行最佳化。
-5. **儲存 PDF 後我可以修改書籤嗎？**
-   - 是的，使用 Aspose.PDF for Java 在轉換後編輯書籤。
+## 常見問答
+
+**Q: 如何安裝 Aspose.Words for Java？**  
+A: 加入上述的 Maven 或 Gradle 相依性，然後在執行時載入授權檔案。  
+
+**Q: 可以在不設定大綱層級的情況下建立書籤嗎？**  
+A: 可以，但 PDF 只會顯示平面書籤列表，導覽會較困難。  
+
+**Q: 書籤的巢狀深度有限制嗎？**  
+A: 技術上沒有限制，但請保持層次易讀——通常三至四層最佳。  
+
+**Q: Aspose.Words 能有效處理大型 Word 檔案嗎？**  
+A: 它會串流內容並提供最佳化方法；但對於極大文件，建議考慮分割。  
+
+**Q: PDF 儲存後可以編輯書籤嗎？**  
+A: 可以，您可使用 Aspose.PDF for Java 在轉換後修改書籤。  
 
 ## 資源
-- [Aspose.Words 文檔](https://reference.aspose.com/words/java/)
-- [下載最新版本](https://releases.aspose.com/words/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
-- [免費試用](https://releases.aspose.com/words/java/)
-- [臨時執照申請](https://purchase.aspose.com/temporary-license/)
+- [Aspose.Words 文件說明](https://reference.aspose.com/words/java/)  
+- [下載最新版本](https://releases.aspose.com/words/java/)  
+- [購買授權](https://purchase.aspose.com/buy)  
+- [免費試用](https://releases.aspose.com/words/java/)  
+- [臨時授權申請](https://purchase.aspose.com/temporary-license/)  
 - [Aspose 支援論壇](https://forum.aspose.com/c/words/10)
 
+---
+
+**最後更新：** 2026-04-11  
+**測試環境：** Aspose.Words 25.3 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
