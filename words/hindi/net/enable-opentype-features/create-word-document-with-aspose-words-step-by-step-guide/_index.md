@@ -31,7 +31,7 @@ url: /hi/net/enable-opentype-features/create-word-document-with-aspose-words-ste
 
 हम Aspose.Words for .NET लाइब्रेरी का उपयोग करेंगे, जो लो‑लेवल Office Open XML विवरणों को एब्स्ट्रैक्ट कर देती है और आपको कंटेंट पर फोकस करने देती है। इस गाइड के अंत तक आपके पास एक रन करने योग्य C# कंसोल ऐप होगा जो Word दस्तावेज़ बनाता है, OpenType कॉन्फ़िगर करता है, स्टाइल्ड टेक्स्ट की एक लाइन लिखता है, और फ़ाइल को डिस्क पर सेव करता है। कोई बाहरी टूल नहीं, कोई मैन्युअल XML नहीं—सिर्फ साफ़, पढ़ने योग्य कोड।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
 - .NET 6.0 या बाद का (कोड .NET Framework 4.6+ पर भी काम करता है)
 - एक वैध Aspose.Words for .NET लाइसेंस या मुफ्त इवैल्यूएशन की
@@ -42,7 +42,7 @@ url: /hi/net/enable-opentype-features/create-word-document-with-aspose-words-ste
 
 ---
 
-## Step 1 – Create a Word Document
+## स्टेप 1 – एक वर्ड डॉक्यूमेंट बनाएं
 
 सबसे पहला काम है एक खाली `Document` ऑब्जेक्ट को इंस्टैंशिएट करना। इसे ऐसे समझें जैसे आप एक नई, खाली Word फ़ाइल खोल रहे हैं जिसे बाद में भरेंगे।
 
@@ -58,7 +58,7 @@ Document document = new Document();
 
 ---
 
-## Step 2 – Initialize a DocumentBuilder
+## स्टेप 2 – एक डॉक्यूमेंटबिल्डर शुरू करें
 
 `DocumentBuilder` Aspose का फ्रेंडली रैपर है कंटेंट लिखने के लिए। यह दस्तावेज़ के अंदर वर्तमान कर्सर लोकेशन को जानता है और आपको टेक्स्ट, शेप्स आदि को सरल मेथड कॉल्स से जोड़ने देता है।
 
@@ -71,7 +71,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 ---
 
-## Step 3 – How to Set OpenType Variation Settings
+## स्टेप 3 – ओपनटाइप वेरिएशन सेटिंग्स कैसे सेट करें
 
 अब आती है मज़ेदार भाग: वैरिएबल‑वेट फ़ॉन्ट को कॉन्फ़िगर करना। OpenType वैरिएशन एक्सिसेज़ (जैसे `wght` वजन के लिए और `wdth` चौड़ाई के लिए) आपको एक ही फ़ॉन्ट फ़ाइल को कई स्टैटिक फ़ॉन्ट्स लोड किए बिना फाइन‑ट्यून करने की सुविधा देते हैं।
 
@@ -89,7 +89,7 @@ builder.Font.OpenTypeFontVariationSettings = new OpenTypeFontVariationSettings
 
 ---
 
-## Step 4 – Write Text Using the Configured Font
+## स्टेप 4 – कॉन्फ़िगर किए गए फ़ॉन्ट का इस्तेमाल करके टेक्स्ट लिखें
 
 फ़ॉन्ट और उसकी वैरिएशन्स तैयार होने के बाद, अब आप एक लाइन टेक्स्ट जोड़ सकते हैं जो हेवी‑कंडेन्स्ड स्टाइल को दिखाए।
 
@@ -102,7 +102,7 @@ builder.Writeln("Heavy‑condensed text using OpenType variations.");
 
 ---
 
-## Step 5 – Save Document as DOCX
+## स्टेप 5 – डॉक्यूमेंट को DOCX के तौर पर सेव करें
 
 अंत में, हम इन‑मेरी डॉक्यूमेंट को एक फिजिकल `.docx` फ़ाइल में सेव करते हैं। यहीं पर **save document as docx** का महत्व सामने आता है।
 
@@ -121,7 +121,7 @@ document.Save("YOUR_DIRECTORY/VarFont.docx");
 
 ---
 
-## Full Working Example
+## पूरा काम करने का उदाहरण
 
 सब कुछ मिलाकर, यहाँ पूरा प्रोग्राम है जिसे आप नई Console App प्रोजेक्ट में कॉपी‑पेस्ट कर सकते हैं।
 
@@ -173,9 +173,9 @@ Document created and saved to: C:\Temp\VarFont.docx
 
 ---
 
-## Common Questions & Edge Cases
+## आम सवाल और एज केस
 
-### What if the variable‑weight font isn’t installed?
+### अगर वेरिएबल-वेट फ़ॉन्ट इंस्टॉल नहीं है तो क्या होगा?
 
 Aspose.Words डिफ़ॉल्ट फ़ॉन्ट पर फॉल्बैक कर देगा और वैरिएशन एक्सिसेज़ को इग्नोर कर देगा, जिससे सामान्य‑वज़न का लुक दिखेगा। प्रभाव सुनिश्चित करने के लिए, या तो फ़ॉन्ट फ़ाइल को अपने एप्लिकेशन के साथ बंडल करें और `FontSettings` के ज़रिए रजिस्टर करें, या लक्ष्य मशीन पर फ़ॉन्ट इंस्टॉल रखें।
 
@@ -185,7 +185,7 @@ fontSettings.SetFontsFolder(@"C:\MyFonts", true);
 document.FontSettings = fontSettings;
 ```
 
-### Can I set multiple OpenType axes?
+### क्या मैं कई OpenType एक्सिस सेट कर सकता हूँ?
 
 बिल्कुल। `OpenTypeFontVariationSettings` कलेक्शन में आप कितनी भी टैग्स (`ital`, `opsz`, `GRAD`, आदि) रख सकते हैं। बस और की/वैल्यू पेयर जोड़ें:
 
@@ -194,13 +194,13 @@ builder.Font.OpenTypeFontVariationSettings.Add("ital", 1); // italic
 builder.Font.OpenTypeFontVariationSettings.Add("opsz", 14); // optical size
 ```
 
-### Does this work for older .NET Framework versions?
+### क्या यह पुराने .NET Framework वर्शन के लिए काम करता है?
 
 हां। API सतह .NET Framework 4.5+ और .NET Core/5/6 में स्थिर है। बस अपने टार्गेट फ्रेमवर्क के लिए उपयुक्त Aspose.Words DLL रेफ़रेंस करें।
 
 ---
 
-## Conclusion
+## निष्कर्ष
 
 अब आपके पास एक ठोस, एंड‑टू‑एंड उदाहरण है कि कैसे **create word document** प्रोग्रामेटिकली किया जाए, सटीक **OpenType** वैरिएशन सेटिंग्स लागू की जाएँ, और Aspose.Words for .NET का उपयोग करके **save document as docx** किया जाए। कदम सरल हैं: `Document` इंस्टैंशिएट करें, `DocumentBuilder` जोड़ें, फ़ॉन्ट के OpenType एक्सिसेज़ को ट्यून करें, कंटेंट लिखें, और फ़ाइल को सेव करें।
 

@@ -31,18 +31,18 @@ Heb je ooit **een Word‑document moeten maken** vanuit code, maar wist je niet 
 
 We gebruiken de Aspose.Words for .NET‑bibliotheek, die de low‑level Office Open XML‑details abstraheert en je laat focussen op de inhoud. Aan het einde van deze gids heb je een werkende C#‑console‑app die een Word‑document maakt, OpenType configureert, een regel gestylede tekst schrijft en het bestand naar schijf schrijft. Geen externe tools, geen handmatig XML‑klussen – gewoon schone, leesbare code.
 
-## Prerequisites
+## Vereisten
 
-- .NET 6.0 of later (de code werkt ook op .NET Framework 4.6+)
-- Een geldige Aspose.Words for .NET‑licentie of een gratis evaluatiesleutel
+- .NET6.0 of later (de code werkt ook op .NET Framework4.6+)
+- Een geldige Aspose.Words voor .NET‑licentie van een gratis evaluatiesleutel
 - Basiskennis van C#‑syntaxis en Visual Studio (of een andere IDE naar keuze)
-- Optioneel: een variabele‑gewicht‑lettertype zoals **Roboto Flex** geïnstalleerd op je machine (het voorbeeld maakt hier gebruik van)
+- Optioneel: een variabel‑gewicht‑lettertype zoals **Roboto Flex** defect op je machine (het voorbeeld maakt hier gebruik van)
 
-> **Pro tip:** Als je nog geen licentie hebt, kun je een tijdelijke evaluatiesleutel aanvragen op de website van Aspose – plaats deze gewoon in je project‑`App.config` of stel hem programmatically in.
+> **Pro tip:** Als je nog geen licentie hebt, kun je een tijdelijke evaluatiesleutel aanvragen op de website van Aspose – plaats deze gewoon in je project‑`App.config` of stel hem programmatisch in.
 
 ---
 
-## Step 1 – Create a Word Document
+## Stap 1 – Maak een Word-document
 
 Het allereerste wat je moet doen is een lege `Document`‑object instantieren. Beschouw het als het openen van een nieuw, leeg Word‑bestand dat je later gaat vullen.
 
@@ -58,7 +58,7 @@ Document document = new Document();
 
 ---
 
-## Step 2 – Initialize a DocumentBuilder
+## Stap 2 – Een DocumentBuilder initialiseren
 
 `DocumentBuilder` is de vriendelijke wrapper van Aspose voor het schrijven van inhoud. Hij kent de huidige cursorpositie binnen het document en laat je tekst, vormen en meer toevoegen met eenvoudige methodes.
 
@@ -71,7 +71,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 ---
 
-## Step 3 – How to Set OpenType Variation Settings
+## Stap 3 – OpenType-variatie-instellingen configureren
 
 Nu komen we bij het sappige gedeelte: het configureren van een variabele‑gewicht‑lettertype. OpenType‑variatie‑assen (zoals `wght` voor gewicht en `wdth` voor breedte) laten je één lettertype‑bestand fijn afstemmen in plaats van meerdere statische lettertypen te laden.
 
@@ -89,7 +89,7 @@ builder.Font.OpenTypeFontVariationSettings = new OpenTypeFontVariationSettings
 
 ---
 
-## Step 4 – Write Text Using the Configured Font
+## Stap 4 – Tekst schrijven met het geconfigureerde lettertype
 
 Met het lettertype en de variaties klaar, kun je nu een regel tekst toevoegen die de heavy‑condensed stijl laat zien.
 
@@ -102,7 +102,7 @@ builder.Writeln("Heavy‑condensed text using OpenType variations.");
 
 ---
 
-## Step 5 – Save Document as DOCX
+## Stap 5 – Document opslaan als DOCX
 
 Tot slot slaan we het in‑geheugen‑document op als een fysiek `.docx`‑bestand. Hier komt de uitdrukking **save document as docx** eindelijk van pas.
 
@@ -121,7 +121,7 @@ document.Save("YOUR_DIRECTORY/VarFont.docx");
 
 ---
 
-## Full Working Example
+## Volledig werkend voorbeeld
 
 Alles samengevoegd, hier is het volledige programma dat je kunt copy‑pasten in een nieuw Console‑App‑project.
 
@@ -173,9 +173,9 @@ Open het resulterende `VarFont.docx` in Microsoft Word en je ziet de regel weerg
 
 ---
 
-## Common Questions & Edge Cases
+## Veelgestelde vragen en uitzonderingen
 
-### What if the variable‑weight font isn’t installed?
+### Wat als het lettertype met variabele dikte niet is geïnstalleerd?
 
 Aspose.Words zal terugvallen op het standaardlettertype en de variatie‑assen negeren, wat kan leiden tot een gewone gewicht‑weergave. Om het effect te garanderen, kun je het lettertype‑bestand bij je applicatie bundelen en registreren via `FontSettings`, of ervoor zorgen dat de doelmachine het lettertype geïnstalleerd heeft.
 
@@ -185,7 +185,7 @@ fontSettings.SetFontsFolder(@"C:\MyFonts", true);
 document.FontSettings = fontSettings;
 ```
 
-### Can I set multiple OpenType axes?
+### Kan ik meerdere OpenType-assen instellen?
 
 Absoluut. De `OpenTypeFontVariationSettings`‑collectie kan een willekeurig aantal tags bevatten (`ital`, `opsz`, `GRAD`, etc.). Voeg gewoon meer sleutel/waarde‑paren toe:
 
@@ -194,13 +194,13 @@ builder.Font.OpenTypeFontVariationSettings.Add("ital", 1); // italic
 builder.Font.OpenTypeFontVariationSettings.Add("opsz", 14); // optical size
 ```
 
-### Does this work for older .NET Framework versions?
+### Werkt dit ook voor oudere .NET Framework-versies?
 
 Ja. Het API‑oppervlak is stabiel over .NET Framework 4.5+ en .NET Core/5/6. Verwijs gewoon naar de juiste Aspose.Words‑DLL voor je doel‑framework.
 
 ---
 
-## Conclusion
+## Conclusie
 
 Je hebt nu een solide, end‑to‑end‑voorbeeld van hoe je **create word document** programmatically maakt, precieze **OpenType**‑variatie‑instellingen toepast en **save document as docx** met Aspose.Words for .NET. De stappen zijn eenvoudig: instantiate een `Document`, plug een `DocumentBuilder` in, pas de OpenType‑assen van het lettertype aan, schrijf je inhoud, en persisteer het bestand.
 

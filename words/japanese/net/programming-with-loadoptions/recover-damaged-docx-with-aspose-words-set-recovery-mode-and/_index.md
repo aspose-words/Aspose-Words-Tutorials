@@ -26,26 +26,25 @@ url: /ja/net/programming-with-loadoptions/recover-damaged-docx-with-aspose-words
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 破損した docx の復元 – Aspose.Words リカバリーモード 完全ガイド
+**破損したdocx**ファイルが開かないという問題に遭遇したことはありませんか？ あなただけではありません。Word文書の破損は、特に突然のシャットダウンやネットワーク障害の後など、意外と頻繁に発生します。朗報です。Aspose.Wordsを使えば、わずか数行のC#コードで**破損したdocx**ファイルを**修復**でき、すぐに編集作業を再開できます。
 
-Ever stumbled upon a **recover damaged docx** file that refuses to open? You're not the only one—corrupted Word documents pop up more often than we'd like, especially after abrupt shutdowns or network glitches. The good news? With Aspose.Words you can **recover damaged docx** files in a few lines of C# code, and you’ll be back to editing in no time.
-
-> **Pro tip:** Even if your file isn’t completely broken, enabling recovery mode can still improve load speed by skipping unnecessary validation.
+> **プロのヒント:** ファイルが完全に破損していなくても、リカバリモードを有効にすることで、不要な検証をスキップし、読み込み速度を向上させることができます。
 
 ---
 
 ## 必要なもの
 
-- **Aspose.Words for .NET** (the latest NuGet package, version 24.5 or newer).  
-- A .NET development environment (Visual Studio, Rider, or VS Code).  
-- The **damaged docx** you want to fix (we’ll call it `input.docx`).  
+- **Aspose.Words for .NET**（最新のNuGetパッケージ、バージョン24.5以降）
+- .NET開発環境（Visual Studio、Rider、またはVS Code）
+- 修復したい**破損したdocx**ファイル（ここでは`input.docx`とします）
+追加のライブラリや複雑な設定は不要です。必要なのは基本機能だけです。
 
-No extra libraries, no complicated configuration—just the basics.
 
 ---
 
 ## 破損した docx – LoadOptions の設定
 
-The heart of the solution lies in **Aspose.LoadOptions**. This object tells Aspose.Words how to treat problematic parts of a file. By default, the library throws an exception when it encounters corruption. We’ll change that behavior.
+このソリューションの中核となるのは、**Aspose.LoadOptions** です。このオブジェクトは、Aspose.Words に対して、ファイル内の問題のある部分をどのように処理するかを指示します。デフォルトでは、ライブラリは破損を検出すると例外をスローします。この動作を変更します。
 
 ```csharp
 using Aspose.Words;
@@ -59,34 +58,32 @@ LoadOptions loadOptions = new LoadOptions
 };
 ```
 
-**Why this matters:**  
-- `RecoveryMode.SkipCorruptedParts` tells the engine to ignore unreadable sections while still constructing the rest of the document.  
-- `RecoveryMode.RecoverAll` attempts a deeper fix but can be slower.  
-- `RecoveryMode.ThrowException` is the strict default—use it only when you need to abort on any error.
+**なぜこれが重要なのか:** - `RecoveryMode.SkipCorruptedParts` は、読み取り不能なセクションを無視して、ドキュメントの残りの部分を構築するようにエンジンに指示します。
 
-If you’re dealing with a **recover corrupted word** scenario where you need every paragraph intact, you might switch to `RecoverAll`. For quick previews, `SkipCorruptedParts` is usually the sweet spot.
+- `RecoveryMode.RecoverAll` はより徹底的な修復を試みますが、処理が遅くなる場合があります。
+- `RecoveryMode.ThrowException` は厳密なデフォルトです。エラーが発生した場合に処理を中止する必要がある場合にのみ使用してください。
+すべての段落をそのまま保持する必要がある **破損した Word 文書の復元** シナリオを扱う場合は、`RecoverAll` に切り替えると良いでしょう。迅速なプレビューが必要な場合は、通常 `SkipCorruptedParts` が最適です。
 
 ---
 
 ## リカバリーモードの設定 – ドキュメントの読み込み
 
-Now that we have our `LoadOptions`, we simply pass it to the `Document` constructor. This is where the **load word document recovery** actually happens.
+`LoadOptions` を取得したら、それを `Document` コンストラクタに渡します。ここで実際に **Word 文書の復元**処理が行われます。
 
 ```csharp
 // Step 3: Load the potentially damaged DOCX using the configured options
 Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
 ```
 
-When this line runs, Aspose.Words reads `input.docx`, applies the chosen recovery strategy, and returns a `Document` object that you can manipulate—save, edit, or export to PDF, HTML, etc.
+この行が実行されると、Aspose.Words は `input.docx` を読み込み、選択された復元戦略を適用し、操作可能な `Document` オブジェクトを返します。このオブジェクトは、保存、編集、または PDF、HTML などへのエクスポートが可能です。
 
-**Common question:** *What if the file path is wrong?*  
-Aspose will throw a `FileNotFoundException` before even touching the recovery logic, so double‑check your path or use `Path.Combine` for safety.
+**よくある質問:** *ファイルパスが間違っている場合はどうなりますか？* Aspose は復元ロジックを実行する前に `FileNotFoundException` をスローします。そのため、パスを再確認するか、安全のために `Path.Combine` を使用してください。
 
 ---
 
 ## aspose load options – エッジケースの微調整
 
-The `LoadOptions` class offers more than just `RecoveryMode`. Here are a few settings you might find handy when **recover damaged docx** files:
+`LoadOptions` クラスには `RecoveryMode` 以外にも多くのオプションがあります。破損した `docx` ファイルを復元する際に役立つ設定をいくつかご紹介します。
 
 | プロパティ | 典型的な使用例 | 例 |
 |----------|-------------|---------|
@@ -94,42 +91,44 @@ The `LoadOptions` class offers more than just `RecoveryMode`. Here are a few set
 | `Encoding` | Force a specific text encoding (rare for DOCX) | `loadOptions.Encoding = Encoding.UTF8;` |
 | `ValidateStructure` | Skip structural validation for speed | `loadOptions.ValidateStructure = false;` |
 
-A practical scenario: you receive a DOCX from a legacy system that sometimes adds invisible control characters. Setting `ValidateStructure = false` can prevent unnecessary failures during **recover corrupted word** attempts.
+具体的な例として、レガシーシステムからDOCXファイルを受け取った場合、そのファイルには目に見えない制御文字が挿入されていることがあります。`Val​​idateStructure = false`を設定することで、**破損したワードの復元**処理中に発生する不要なエラーを防ぐことができます。
 
 ---
 
 ## Word ドキュメントのリカバリ – 修復ファイルの保存
 
-Once the document is loaded, you can save it in the same format or convert it to a fresh file. Saving essentially rewrites the internal XML, stripping out the corrupted bits that were skipped.
+ドキュメントを読み込んだら、同じ形式で保存するか、新しいファイルに変換できます。保存すると、内部のXMLが書き換えられ、スキップされた破損部分が削除されます。
 
 ```csharp
 // Step 4: Save the recovered document to a new file
 document.Save("YOUR_DIRECTORY/output_recovered.docx");
 ```
 
-If you prefer a different format (PDF, HTML, etc.), just change the extension or use an overload:
+別の形式（PDF、HTMLなど）が必要な場合は、拡張子を変更するか、オーバーロードを使用してください。
 
 ```csharp
 document.Save("output.pdf", SaveFormat.Pdf);
 ```
 
-**Why save?**  
-Even though the in‑memory `Document` is usable, persisting it cleans up the broken parts, giving you a clean file you can share with colleagues who don’t have Aspose installed.
+**保存する理由** メモリ上の `Document` は使用可能ですが、永続化することで破損部分がクリーンアップされ、Aspose がインストールされていない同僚と共有できるクリーンなファイルが作成されます。
 
 ---
 
 ## 実践的なヒントと落とし穴
 
-- **Pro tip:** Always keep a backup of the original file. Skipping corrupted parts is irreversible once you overwrite the source.  
-- **Watch out for:** Large documents (>100 MB) may consume significant memory during recovery. Consider loading with `LoadOptions.LoadFormat = LoadFormat.Docx` explicitly to avoid auto‑detection overhead.  
-- **Edge case:** Some corrupted files contain broken images. If you need to preserve them, use `RecoveryMode.RecoverAll` and then manually inspect `document.GetChildNodes(NodeType.Shape, true)`.  
-- **Performance tip:** Disable `ValidateStructure` when you’re confident the file’s core XML is intact; this can shave seconds off loading time.
+- **プロのヒント:** 必ず元のファイルのバックアップを作成してください。破損部分をスキップすると、ソースを上書きした後は元に戻せません。
+
+- **注意:** 100MB を超える大きなドキュメントは、復元中に大量のメモリを消費する可能性があります。自動検出のオーバーヘッドを回避するために、`LoadOptions.LoadFormat = LoadFormat.Docx` を明示的に指定して読み込むことを検討してください。
+
+- **特殊なケース:** 破損したファイルには、破損した画像が含まれている場合があります。画像を保持する必要がある場合は、`RecoveryMode.RecoverAll` を使用し、`document.GetChildNodes(NodeType.Shape, true)` を手動で検査してください。
+
+- **パフォーマンスのヒント:** ファイルのコア XML が破損していないことが確実な場合は、`ValidateStructure` を無効にしてください。これにより、読み込み時間を数秒短縮できます。
 
 ---
 
 ## 完全な動作例
 
-Below is a self‑contained console app that demonstrates the entire workflow—from setting the recovery mode to saving the repaired document.
+以下に、リカバリモードの設定から修復済みドキュメントの保存まで、ワークフロー全体を示す独立したコンソールアプリケーションを示します。
 
 ```csharp
 // ------------------------------------------------------------
@@ -181,30 +180,33 @@ Document loaded successfully.
 Recovered file saved to: C:\Docs\output_recovered.docx
 ```
 
-If the original `input.docx` contained corrupted paragraphs, they will be omitted in `output_recovered.docx`, but the rest of the content (styles, tables, images) remains intact.
+元の `input.docx` に破損した段落が含まれている場合、それらは `output_recovered.docx` から除外されますが、その他のコンテンツ（スタイル、表、画像）はそのまま保持されます。
 
 ---
 
 ## よくある質問
 
-**Q: Does this work with .doc (binary) files?**  
-A: Yes. `LoadOptions` works with any format Aspose.Words supports. Just change the file extension; the same recovery mode applies.
+**Q: .doc（バイナリ）ファイルでも動作しますか？
 
-**Q: Can I recover a password‑protected DOCX?**  
-A: Absolutely. Set `loadOptions.Password` before loading. The recovery mode will still apply after decryption.
+** 回答: はい。`LoadOptions` は Aspose.Words がサポートするすべての形式に対応しています。ファイル拡張子を変更するだけで、同じ復元モードが適用されます。
 
-**Q: What if I need the corrupted text for forensic analysis?**  
-A: Use `RecoveryMode.RecoverAll`. It attempts to keep as much data as possible, though you may still need to parse the resulting XML manually.
+**Q: パスワードで保護された DOCX ファイルを復元できますか？
+
+** 回答: はい、可能です。読み込み前に `loadOptions.Password` を設定してください。復号化後も復元モードは適用されます。
+
+**Q: 破損したテキストをフォレンジック分析に使用する必要がある場合はどうすればよいですか？
+
+** 回答: `RecoveryMode.RecoverAll` を使用してください。可能な限り多くのデータを保持しようとしますが、結果として得られる XML を手動で解析する必要がある場合があります。
 
 ---
 
 ## 結論
 
-We've covered everything you need to **recover damaged docx** files using Aspose.Words: configuring **aspose load options**, **set recovery mode**, handling **recover corrupted word** scenarios, and finally persisting a clean document. The code is short, the concepts are clear, and the approach scales from tiny reports to massive contracts.
+Aspose.Words を使用して破損した docx ファイルを復元するために必要なすべての手順を網羅しました。Aspose の読み込みオプションの設定、復元モードの設定、破損した Word ファイルの復元シナリオの処理、そして最終的にクリーンなドキュメントの保存方法まで解説しています。コードは簡潔で、概念は明確、そしてこのアプローチは小規模なレポートから大規模な契約書まで幅広く対応できます。
 
-Next steps? Try swapping the output format to PDF, explore custom error logging, or integrate this logic into a web API that auto‑repairs uploaded documents. The possibilities are endless, and with the right **load word document recovery** strategy, corrupted Word files will no longer be a roadblock.
+次のステップは？出力形式を PDF に変更したり、カスタムエラーログを検討したり、このロジックを Web API に統合してアップロードされたドキュメントを自動修復したりしてみましょう。可能性は無限大です。適切な Word ドキュメント復元戦略を用いれば、破損した Word ファイルはもはや障害にはなりません。
 
-Happy coding, and may your documents stay ever‑ready!  
+コーディングを楽しんで、ドキュメントが常に準備万端の状態であることを願っています！  
 
 ---
 

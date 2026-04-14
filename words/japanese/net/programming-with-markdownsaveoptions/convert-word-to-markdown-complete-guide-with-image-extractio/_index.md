@@ -29,7 +29,7 @@ url: /ja/net/programming-with-markdownsaveoptions/convert-word-to-markdown-compl
 
 # Word を Markdown に変換 – 画像抽出付き完全ガイド
 
-Ever needed to **convert Word to markdown** but worried the pictures would get lost? You're not alone. Many developers hit that snag when migrating documentation or static sites, and the missing images turn the whole thing into a mess.  
+Word文書をMarkdown形式に変換する必要があるけれど、画像が失われるのではないかと心配したことはありませんか？そんな悩みを抱えているのはあなただけではありません。多くの開発者がドキュメントや静的サイトを移行する際にこの問題に直面し、画像が失われることで作業全体が混乱してしまうのです。 
 
 このチュートリアルでは、**Word を markdown に変換**し、**docx から画像を抽出**して、すぐに公開できる markdown フォルダーを作成するクリーンでプログラム的な方法を解説します。最後まで読むと、Aspose.Words for .NET を使って *Word 画像のエクスポート方法* と *docx から markdown を生成する方法* が正確に分かります。
 
@@ -55,7 +55,7 @@ Ever needed to **convert Word to markdown** but worried the pictures would get l
 
 ## 手順 1 – Aspose.Words のインストール
 
-First thing’s first, add the library to your project:
+まず最初に、ライブラリをプロジェクトに追加してください。
 
 ```bash
 dotnet add package Aspose.Words
@@ -65,7 +65,7 @@ dotnet add package Aspose.Words
 
 ## 手順 2 – ソース Word ドキュメントの読み込み
 
-We start by creating a `Document` object that points at the `.docx` containing your images.
+まず、画像を含む `.docx` ファイルを指す `Document` オブジェクトを作成します。
 
 ```csharp
 using System;
@@ -79,13 +79,13 @@ string sourcePath = @"C:\Projects\Docs\WithImages.docx";
 Document doc = new Document(sourcePath);
 ```
 
-Why this matters: the `Document` class abstracts the entire Word file, giving us access to text, styles, and the crucial *resource collection* where images live.  
+なぜこれが重要なのかというと、`Document` クラスは Word ファイル全体を抽象化し、テキスト、スタイル、そして画像が格納されている重要な *リソース コレクション* にアクセスできるようにするからです。 
 
 このクラスは Word ファイル全体を抽象化し、テキスト、スタイル、そして画像が格納されている重要な *リソースコレクション* へアクセスできるようにします。
 
 ## 手順 3 – リソースコールバック付き Markdown 保存オプションの設定
 
-Aspose.Words lets us hook into the saving process via `IResourceSavingCallback`. This is the heart of **how to export Word images** while converting.
+Aspose.Words では、`IResourceSavingCallback` を介して保存処理にフックできます。これが、変換時に Word 画像をエクスポートする方法の中核となる部分です。
 
 ```csharp
 // Define where the markdown and images will be written
@@ -109,7 +109,7 @@ Notice we pass `resourcesFolder` to the callback constructor – this keeps the 
 
 ## 手順 4 – 画像保存コールバックの実装
 
-Here’s the class that decides **where and how each image gets saved**. It gives each picture a unique filename to avoid collisions.
+コールバックのコンストラクタに`resourcesFolder`を渡していることに注目してください。これにより、ロジックが整理され、フォルダパスを再利用できます。
 
 ```csharp
 class ImageSavingCallback : IResourceSavingCallback
@@ -140,7 +140,7 @@ class ImageSavingCallback : IResourceSavingCallback
 
 ## 手順 5 – ドキュメントを Markdown として保存
 
-Now we finally perform the conversion. The callback runs automatically for every external resource (i.e., each image).
+さて、いよいよ変換処理を実行します。コールバックは、外部リソース（つまり、各画像）ごとに自動的に実行されます。
 
 ```csharp
 // Perform the conversion
@@ -185,7 +185,7 @@ Aspose.Words は CommonMark 仕様に準拠しており、GitHub でも同様に
 
 ## 完全動作例（コピー＆ペースト用）
 
-Below is the complete program you can drop into a console app and run instantly.
+以下に、コンソールアプリケーションに組み込んですぐに実行できる完全なプログラムを示します。
 
 ```csharp
 using System;

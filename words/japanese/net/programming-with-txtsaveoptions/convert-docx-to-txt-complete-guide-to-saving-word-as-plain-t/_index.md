@@ -43,7 +43,7 @@ url: /ja/net/programming-with-txtsaveoptions/convert-docx-to-txt-complete-guide-
 
 ---
 
-## Step 1: Install Aspose.Words and Prepare Your Project
+## ステップ 1: Aspose.Words をインストールし、プロジェクトを準備する
 
 **convert docx to txt** を行う前に、まず Aspose.Words ライブラリをプロジェクトに導入する必要があります。
 
@@ -66,7 +66,7 @@ using Aspose.Words.Saving;
 
 ---
 
-## Step 2: Load the Source Word Document
+## ステップ 2: ソース Word 文書を読み込む
 
 変換パイプラインの最初の論理的ステップは、ソースファイルを読み込むことです。ここでは既知のディレクトリから `input.docx` をロードします。
 
@@ -89,7 +89,7 @@ Console.WriteLine("✅ Document loaded successfully.");
 
 ---
 
-## Step 3: Configure TxtSaveOptions for LaTeX Export
+## ステップ 3: LaTeX エクスポート用の TxtSaveOptions を設定する
 
 デフォルトでは `Document.Save` は生テキストをダンプし、数式は破棄されます。数式を残すために `OfficeMathExportMode` を `LaTeX` に設定します。
 
@@ -111,7 +111,7 @@ Console.WriteLine("🔧 TxtSaveOptions configured to export equations as LaTeX."
 
 ---
 
-## Step 4: Save the Document as a Plain‑Text File
+## ステップ 4: 文書をプレーンテキストファイルとして保存する
 
 これで主要な処理は完了です。先ほど作成したオプションを使って `Save` を呼び出すだけです。
 
@@ -136,7 +136,7 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 
 ---
 
-## Step 5: (Optional) Batch Conversion for Multiple Files
+## ステップ 5: (オプション) 複数ファイルのバッチ変換
 
 実務では数十個の `.docx` ファイルを一括処理することがよくあります。同じロジックをループで包むだけです。
 
@@ -159,27 +159,27 @@ foreach (string file in System.IO.Directory.GetFiles(sourceFolder, "*.docx"))
 
 ---
 
-## Common Questions & Edge Cases
+## よくある質問と例外ケース
 
-### 1. *What if my document contains images?*
+### 1. *文書に画像が含まれている場合はどうなりますか？*
 `TxtSaveOptions` はプレーンテキストでは画像を表現できないため無視します。画像参照を保持したい場合は、HTML (`HtmlSaveOptions`) にエクスポートして不要なタグを除去する方法を検討してください。
 
-### 2. *Will the LaTeX output always be syntactically correct?*
+### 2. *LaTeX 出力は常に構文的に正しいですか？*
 Aspose.Words はほとんどの組み込み数式タイプに対して標準準拠の LaTeX を生成します。ただし、カスタムエディタや破損したマークアップがあると予期しないトークンが出力されることがあります。大量処理の前にサンプル出力を必ず確認してください。
 
-### 3. *Can I control the encoding of the output file?*
+### 3. *出力ファイルのエンコーディングを制御できますか？*
 はい。`txtOptions.Encoding` を `System.Text.Encoding.UTF8`（デフォルト）や必要な他のエンコーディングに設定できます。
 
 ```csharp
 txtOptions.Encoding = System.Text.Encoding.UTF8;
 ```
 
-### 4. *Is a license required for production use?*
+### 4. *実運用で使用するにはライセンスが必要ですか？*
 Aspose.Words は透かしなしの変換が可能な無料トライアルを提供しています。商用プロジェクトでは、パフォーマンスを最大化し評価制限を解除するためにライセンスを取得してください。
 
 ---
 
-## Full Working Example
+## 完全な動作例
 
 以下は `Program.cs` にコピペできる、すべての手順と基本的なエラーハンドリングを含んだ完全なプログラムです。
 
@@ -237,7 +237,7 @@ namespace DocxToTxtConverter
 
 ---
 
-## Conclusion
+## 結論
 
 Aspose.Words を使って **convert docx to txt** するために必要なすべての手順を網羅しました。ライブラリのインストールから LaTeX エクスポートの設定、バッチ処理までカバーしています。重要なポイントは `TxtSaveOptions.OfficeMathExportMode = OfficeMathExportMode.LaTeX` が、Word の隠れた数式をクリーンな LaTeX 文字列に変換する魔法のスイッチであることです。これにより、*how to export latex equations* の古典的な課題が解決します。
 

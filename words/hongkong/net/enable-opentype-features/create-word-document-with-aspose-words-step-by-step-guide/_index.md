@@ -28,7 +28,7 @@ url: /zh-hant/net/enable-opentype-features/create-word-document-with-aspose-word
 
 我們將使用 Aspose.Words for .NET 函式庫，它將低階的 Office Open XML 細節抽象化，讓你專注於內容本身。完成本指南後，你將擁有一個可執行的 C# 主控台應用程式，能夠建立 Word 文件、設定 OpenType、寫入一行樣式化文字，並將檔案寫入磁碟。無需外部工具、無需手動編寫 XML——只有乾淨、易讀的程式碼。
 
-## Prerequisites
+## 前提條件
 
 - .NET 6.0 或更新版本（此程式碼亦相容 .NET Framework 4.6+）
 - 有效的 Aspose.Words for .NET 授權或免費評估金鑰
@@ -39,7 +39,7 @@ url: /zh-hant/net/enable-opentype-features/create-word-document-with-aspose-word
 
 ---
 
-## Step 1 – Create a Word Document
+## 步驟 1 – 建立 Word 文檔
 
 首先，你需要建立一個空的 `Document` 物件。把它想像成開啟一個全新、空白的 Word 檔案，之後再逐步填入內容。
 
@@ -55,7 +55,7 @@ Document document = new Document();
 
 ---
 
-## Step 2 – Initialize a DocumentBuilder
+## 步驟 2 – 初始化 DocumentBuilder
 
 `DocumentBuilder` 是 Aspose 提供的友善介面，用於寫入內容。它會追蹤文件內目前的游標位置，讓你只需呼叫簡單的方法即可加入文字、圖形等。
 
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 ---
 
-## Step 3 – How to Set OpenType Variation Settings
+## 步驟 3 – 如何設定 OpenType 變體設置
 
 接下來進入重點：設定可變粗細字型。OpenType 變體軸（例如 `wght` 代表粗細、`wdth` 代表寬度）讓你在單一字型檔案中微調，而不必載入多個靜態字型。
 
@@ -86,7 +86,7 @@ builder.Font.OpenTypeFontVariationSettings = new OpenTypeFontVariationSettings
 
 ---
 
-## Step 4 – Write Text Using the Configured Font
+## 步驟 4 – 使用設定的字體輸入文字
 
 字型與變體設定完成後，你現在可以加入一行文字，展示濃縮粗體的效果。
 
@@ -99,7 +99,7 @@ builder.Writeln("Heavy‑condensed text using OpenType variations.");
 
 ---
 
-## Step 5 – Save Document as DOCX
+## 步驟 5 – 將文件另存為 DOCX 格式
 
 最後，將記憶體中的文件寫入實體的 `.docx` 檔案。這就是 **save document as docx** 真正發揮作用的時候。
 
@@ -116,7 +116,7 @@ document.Save("YOUR_DIRECTORY/VarFont.docx");
 
 ---
 
-## Full Working Example
+## 完整範例
 
 將所有步驟整合起來，以下是完整的程式碼範例，你可以直接貼到新的 Console App 專案中。
 
@@ -168,9 +168,9 @@ Document created and saved to: C:\Temp\VarFont.docx
 
 ---
 
-## Common Questions & Edge Cases
+## 常見問題及特殊狀況
 
-### What if the variable‑weight font isn’t installed?
+### 如果未安裝可變字重字體怎麼辦？
 
 Aspose.Words 會回退至預設字型，且忽略變體軸設定，導致呈現為一般粗細。若要確保效果，請將字型檔案隨應用程式一起打包，並透過 `FontSettings` 註冊，或確保目標機器已安裝該字型。
 
@@ -180,7 +180,7 @@ fontSettings.SetFontsFolder(@"C:\MyFonts", true);
 document.FontSettings = fontSettings;
 ```
 
-### Can I set multiple OpenType axes?
+### 我可以設定多個 OpenType 軸嗎？
 
 絕對可以。`OpenTypeFontVariationSettings` 集合可容納任意數量的標籤（如 `ital`、`opsz`、`GRAD` 等）。只要再加入更多鍵/值對即可：
 
@@ -189,13 +189,13 @@ builder.Font.OpenTypeFontVariationSettings.Add("ital", 1); // italic
 builder.Font.OpenTypeFontVariationSettings.Add("opsz", 14); // optical size
 ```
 
-### Does this work for older .NET Framework versions?
+### 這是否適用於舊版的 .NET Framework？
 
 可以。API 在 .NET Framework 4.5+ 以及 .NET Core/5/6 之間保持相容。只要引用對應目標框架的 Aspose.Words DLL 即可。
 
 ---
 
-## Conclusion
+## 結論
 
 現在你已掌握一個完整的範例，能夠 **create word document**、套用精確的 **OpenType** 變體設定，並使用 Aspose.Words for .NET **save document as docx**。步驟相當直接：建立 `Document`、初始化 `DocumentBuilder`、調整字型的 OpenType 軸、寫入內容，最後將檔案寫出。
 

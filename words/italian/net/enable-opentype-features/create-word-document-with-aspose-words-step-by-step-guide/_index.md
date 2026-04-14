@@ -27,24 +27,24 @@ url: /it/net/enable-opentype-features/create-word-document-with-aspose-words-ste
 
 # Crea documento Word con Aspose.Words – Guida passo‑passo
 
-Ti è mai capitato di dover **create word document** dal codice ma non sapevi da dove cominciare? Non sei solo: molti sviluppatori si trovano davanti allo stesso ostacolo al loro primo tentativo di generare file Word in modo programmatico. In questo tutorial vedrai esattamente come creare un nuovo `.docx`, applicare un font a peso variabile e infine **save document as docx** senza alcuna difficoltà. Inoltre, ti mostreremo **how to set OpenType** per ottenere l’aspetto “heavy‑condensed” che hai sempre desiderato.
+Ti è mai capitato di dover **creare un documento word** dal codice ma non sapevi da dove cominciare? Non sei solo: molti sviluppatori si trovano davanti allo stesso ostacolo al loro primo tentativo di generare file Word in modo programmatico. In questo tutorial vedrai esattamente come creare un nuovo `.docx`, applicare un font a peso variabile e infine **salvare il documento come docx** senza alcuna difficoltà. Inoltre, ti mostreremo **how to set OpenType** per ottenere l'aspetto “heavy‑condensed” che hai sempre desiderato.
 
-Useremo la libreria Aspose.Words per .NET, che astrae i dettagli a basso livello di Office Open XML e ti permette di concentrarti sul contenuto. Alla fine di questa guida avrai un’app console C# funzionante che crea un documento Word, configura OpenType, scrive una riga di testo formattato e salva il file su disco. Nessun tool esterno, nessuna manipolazione manuale di XML—solo codice pulito e leggibile.
+Useremo la libreria Aspose.Words per .NET, che astrae i dettagli a basso livello di Office Open XML e ti permette di concentrarti sul contenuto. Alla fine di questa guida avrai un'app console C# funzionante che crea un documento Word, configura OpenType, scrive una riga di testo formattato e salva il file su disco. Nessun tool esterno, nessuna manipolazione manuale di XML: solo codice pulito e leggibile.
 
 ## Prerequisiti
 
 - .NET 6.0 o versioni successive (il codice funziona anche su .NET Framework 4.6+)
 - Una licenza valida di Aspose.Words per .NET o una chiave di valutazione gratuita
-- Familiarità di base con la sintassi C# e Visual Studio (o qualsiasi IDE tu preferisca)
-- Facoltativo: un font a peso variabile come **Roboto Flex** installato sul tuo computer (l’esempio lo utilizza)
+- Familiarità di base con la sintassi C# e Visual Studio (o qualsiasi IDE che preferisci)
+- Facoltativo: un font a peso variabile come **Roboto Flex** installato sul tuo computer (l'esempio lo utilizza)
 
-> **Pro tip:** Se non hai ancora una licenza, puoi richiedere una chiave di valutazione temporanea dal sito di Aspose—basta inserirla nel file `App.config` del progetto o impostarla programmaticamente.
+> **Suggerimento:** Se non hai ancora una licenza, puoi richiedere una chiave di valutazione temporanea dal sito di Aspose: basta inserirla nel file `App.config` del progetto o impostarla a livello di codice.
 
 ---
 
-## Step 1 – Create a Word Document
+## Passaggio 1: crea un documento Word
 
-La prima cosa da fare è istanziare un oggetto `Document` vuoto. Pensalo come l’apertura di un nuovo file Word vuoto che riempirai in seguito.
+La prima cosa da fare è istanziare un oggetto `Documento` vuoto. Pensalo come l'apertura di un nuovo file Word vuoto che riempirai in seguito.
 
 ```csharp
 using Aspose.Words;
@@ -58,7 +58,7 @@ Document document = new Document();
 
 ---
 
-## Step 2 – Initialize a DocumentBuilder
+## Passaggio 2 – Inizializzare un DocumentBuilder
 
 `DocumentBuilder` è il wrapper amichevole di Aspose per scrivere contenuti. Conosce la posizione corrente del cursore all’interno del documento e ti consente di aggiungere testo, forme e altro con semplici chiamate di metodo.
 
@@ -71,7 +71,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 ---
 
-## Step 3 – How to Set OpenType Variation Settings
+## Passaggio 3 – Come impostare le varianti OpenType
 
 Ora arriviamo alla parte più interessante: configurare un font a peso variabile. Gli assi di variazione OpenType (come `wght` per il peso e `wdth` per la larghezza) ti permettono di regolare finemente un unico file di font invece di caricare più font statici.
 
@@ -89,7 +89,7 @@ builder.Font.OpenTypeFontVariationSettings = new OpenTypeFontVariationSettings
 
 ---
 
-## Step 4 – Write Text Using the Configured Font
+## Passaggio 4 – Scrivere il testo utilizzando il font configurato
 
 Con il font e le sue variazioni pronti, puoi ora aggiungere una riga di testo che mostri lo stile heavy‑condensed.
 
@@ -102,7 +102,7 @@ builder.Writeln("Heavy‑condensed text using OpenType variations.");
 
 ---
 
-## Step 5 – Save Document as DOCX
+## Passaggio 5 – Salvare il documento in formato DOCX
 
 Infine, persisti il documento in memoria su un file fisico `.docx`. È qui che la frase **save document as docx** entra in gioco.
 
@@ -121,7 +121,7 @@ document.Save("YOUR_DIRECTORY/VarFont.docx");
 
 ---
 
-## Full Working Example
+## Esempio completo funzionante
 
 Mettendo tutto insieme, ecco il programma completo che puoi copiare‑incollare in un nuovo progetto Console App.
 
@@ -173,9 +173,9 @@ Apri il file `VarFont.docx` generato in Microsoft Word e vedrai la riga resa in 
 
 ---
 
-## Common Questions & Edge Cases
+## Domande frequenti e casi limite
 
-### What if the variable‑weight font isn’t installed?
+### Cosa succede se il font a spessore variabile non è installato?
 
 Aspose.Words tornerà al font predefinito e ignorerà gli assi di variazione, il che può portare a un aspetto a peso normale. Per garantire l’effetto, includi il file del font nella tua applicazione e registralo tramite `FontSettings`, oppure assicurati che la macchina di destinazione abbia il font installato.
 
@@ -185,7 +185,7 @@ fontSettings.SetFontsFolder(@"C:\MyFonts", true);
 document.FontSettings = fontSettings;
 ```
 
-### Can I set multiple OpenType axes?
+### È possibile impostare più assi OpenType?
 
 Assolutamente. La collezione `OpenTypeFontVariationSettings` può contenere un numero qualsiasi di tag (`ital`, `opsz`, `GRAD`, ecc.). Basta aggiungere altre coppie chiave/valore:
 
@@ -194,13 +194,13 @@ builder.Font.OpenTypeFontVariationSettings.Add("ital", 1); // italic
 builder.Font.OpenTypeFontVariationSettings.Add("opsz", 14); // optical size
 ```
 
-### Does this work for older .NET Framework versions?
+### Funziona anche con le versioni precedenti di .NET Framework?
 
 Sì. La superficie API è stabile su .NET Framework 4.5+ e .NET Core/5/6. Basta referenziare il DLL Aspose.Words appropriato per il framework di destinazione.
 
 ---
 
-## Conclusion
+## Conclusione
 
 Ora disponi di un esempio solido, end‑to‑end, su come **create word document** programmaticamente, applicare precise impostazioni **OpenType** e **save document as docx** usando Aspose.Words per .NET. I passaggi sono semplici: istanzia un `Document`, collega un `DocumentBuilder`, regola gli assi OpenType del font, scrivi il contenuto e persisti il file.
 

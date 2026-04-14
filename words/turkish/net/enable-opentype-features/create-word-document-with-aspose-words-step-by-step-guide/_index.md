@@ -27,24 +27,24 @@ url: /tr/net/enable-opentype-features/create-word-document-with-aspose-words-ste
 
 # Aspose.Words ile Word Belgesi Oluşturma – Adım Adım Kılavuz
 
-Koddan **word document** oluşturmanız gerektiğinde nereden başlayacağınızı bilemediniz mi? Yalnız değilsiniz—birçok geliştirici, Word dosyalarını programlı olarak üretmeye ilk kez çalıştıklarında aynı duvara çarpar. Bu öğreticide, yeni bir `.docx` dosyasını nasıl başlatacağınızı, değişken ağırlıklı bir font uygulayacağınızı ve sonunda **save document as docx** işlemini sorunsuz bir şekilde nasıl yapacağınızı göreceksiniz. Ayrıca, hayal ettiğiniz ağır‑kondanse görünümü elde etmeniz için **how to set OpenType** varyasyon ayarlarını nasıl yapacağınızı adım adım inceleyeceğiz.
+Koddan **word belgesi** oluşturmanız dünyanın neresinde olursanız olun bilemediniz mi? Yalnız olmasaydı—birçok geliştirici, Word'ü programlı olarak üretmeye ilk kez çalıştıklarında aynı soğutucularda çarpar. Bu öğreticide, yeni bir `.docx` dosyasını nasıl başlatacağınızı, değişken ağırlıklı bir yazı tipini uygulayacağınızı ve sonunda **belgeyi docx olarak kaydet** işlemi sorunsuz bir şekilde nasıl kalıcı hale getireceğini öğrenin. Ayrıca, hayalinizdeki ağır‑kondanse görünümünü elde etmek için **OpenType'ın nasıl ayarlanacağı** değişimlerin nasıl gerçekleştirildiğini adım adım inceleyerek başlatın.
 
-Aspose.Words for .NET kütüphanesini kullanacağız; bu kütüphane düşük seviyeli Office Open XML detaylarını soyutlayarak içeriğe odaklanmanızı sağlar. Bu rehberin sonunda, bir Word belgesi oluşturan, OpenType ayarlarını yapılandıran, stillendirilmiş bir metin satırı yazan ve dosyayı diske kaydeden çalıştırılabilir bir C# konsol uygulamanız olacak. Harici araçlar, manuel XML düzenlemeleri yok—sadece temiz, okunabilir kod.
+Aspose.Words for .NET kütüphanesini kullanacağız; bu kapasite düşük seviyeli Office Open XML ayrıntılarını soyutlayarak kapsamı odaklanmanızı sağlar. Bu rehberin sonunda, OpenType yapılandırılan, stilize edilmiş bir metin dosyası yazan ve diske kaydeden çalıştırılabilir bir C# konsol uygulamanız olacak bir Word belgesi oluşturan. Harici araçlar, manuel XML düzenlemeleri yok—sadece temiz, okunabilir kod.
 
-## Prerequisites
+## Önkoşullar
 
-- .NET 6.0 veya üzeri (kod .NET Framework 4.6+ üzerinde de çalışır)
-- Geçerli bir Aspose.Words for .NET lisansı veya ücretsiz bir değerlendirme anahtarı
-- C# sözdizimi ve Visual Studio (veya tercih ettiğiniz herhangi bir IDE) hakkında temel bilgi
+- .NET 6.0 veya üzeri (kod .NET Framework 4.6+ üzerinde çalışır)
+- yasal bir Aspose.Words for .NET lisansı veya ücretsiz bir değerlendirme anahtarı
+- C# söz dizimi ve Visual Studio (veya tercih ettiğiniz herhangi bir IDE) hakkında temel bilgiler
 - İsteğe bağlı: Makinenizde **Roboto Flex** gibi bir değişken‑ağırlıklı font yüklü olması (örnek bu fontu kullanıyor)
 
-> **Pro tip:** Henüz bir lisansınız yoksa, Aspose’un web sitesinden geçici bir değerlendirme anahtarı talep edebilir ve bunu projenizin `App.config` dosyasına ekleyebilir ya da programatik olarak ayarlayabilirsiniz.
+> **Pro ipucu:** Henüz bir lisansınız yoksa, Aspose'un web sitesindeki geçici bir değerlendirme formunu talep edebilir ve bunu projenizin `App.config` dosyasını da programatik olarak ayarlayabilirsiniz.
 
 ---
 
-## Step 1 – Create a Word Document
+## Adım 1 – Bir Word Belgesi Oluşturun
 
-İlk yapmanız gereken, boş bir `Document` nesnesi örneklemektir. Bunu, daha sonra dolduracağınız yeni, boş bir Word dosyasını açmak gibi düşünün.
+İlk yapılması gereken, boş bir `Belge` nesnesi kullanmaktır. Bunu, daha sonra dolduracağınız yeni, boş bir Word miktarını açmak gibi düşünün.
 
 ```csharp
 using Aspose.Words;
@@ -58,7 +58,7 @@ Document document = new Document();
 
 ---
 
-## Step 2 – Initialize a DocumentBuilder
+## Adım 2 – DocumentBuilder'ı Başlatma
 
 `DocumentBuilder`, içerik yazmak için Aspose’un dostça sarmalayıcısıdır. Belge içindeki mevcut imleç konumunu bilir ve metin, şekil gibi öğeleri basit metot çağrılarıyla eklemenizi sağlar.
 
@@ -71,7 +71,7 @@ DocumentBuilder builder = new DocumentBuilder(document);
 
 ---
 
-## Step 3 – How to Set OpenType Variation Settings
+## Adım 3 – OpenType Varyasyon Ayarlarını Nasıl Yaparsınız
 
 Şimdi en lezzetli kısma geliyoruz: değişken‑ağırlıklı bir font yapılandırmak. OpenType varyasyon eksenleri (ör. ağırlık için `wght` ve genişlik için `wdth`) tek bir font dosyasını birden çok statik font yüklemek yerine ince ayar yapmanıza olanak tanır.
 
@@ -89,7 +89,7 @@ builder.Font.OpenTypeFontVariationSettings = new OpenTypeFontVariationSettings
 
 ---
 
-## Step 4 – Write Text Using the Configured Font
+## Adım 4 – Yapılandırılmış Yazı Tipini Kullanarak Metin Yazma
 
 Font ve varyasyonları hazır olduğunda, ağır‑kondanse stili sergileyen bir metin satırı ekleyebilirsiniz.
 
@@ -102,7 +102,7 @@ builder.Writeln("Heavy‑condensed text using OpenType variations.");
 
 ---
 
-## Step 5 – Save Document as DOCX
+## Adım 5 – Belgeyi DOCX Olarak Kaydetme
 
 Son olarak, bellekteki belgeyi fiziksel bir `.docx` dosyasına kaydediyoruz. İşte **save document as docx** ifadesinin nihai anlam kazandığı nokta.
 
@@ -121,7 +121,7 @@ document.Save("YOUR_DIRECTORY/VarFont.docx");
 
 ---
 
-## Full Working Example
+## Tam Çalışma Örneği
 
 Her şeyi bir araya getirdiğimizde, yeni bir Console App projesine kopyalayıp yapıştırabileceğiniz tam program aşağıdadır.
 
@@ -173,9 +173,9 @@ Oluşturulan `VarFont.docx` dosyasını Microsoft Word’de açın; satırın ka
 
 ---
 
-## Common Questions & Edge Cases
+## Sıkça Sorulan Sorular ve İstisnai Durumlar
 
-### What if the variable‑weight font isn’t installed?
+### Değişken ağırlıklı yazı tipi yüklü değilse ne olur?
 
 Aspose.Words, varsayılan fonta geri döner ve varyasyon eksenlerini yok sayar; bu da normal‑ağırlık bir görünümle sonuçlanabilir. Etkiyi garanti altına almak için ya font dosyasını uygulamanızla birlikte paketleyip `FontSettings` üzerinden kaydedin, ya da hedef makinede fontun yüklü olduğundan emin olun.
 
@@ -185,7 +185,7 @@ fontSettings.SetFontsFolder(@"C:\MyFonts", true);
 document.FontSettings = fontSettings;
 ```
 
-### Can I set multiple OpenType axes?
+### Birden fazla OpenType ekseni ayarlayabilir miyim?
 
 Kesinlikle. `OpenTypeFontVariationSettings` koleksiyonu, (`ital`, `opsz`, `GRAD` vb.) herhangi sayıda etiket tutabilir. Daha fazla anahtar/değer çifti ekleyin:
 
@@ -194,13 +194,13 @@ builder.Font.OpenTypeFontVariationSettings.Add("ital", 1); // italic
 builder.Font.OpenTypeFontVariationSettings.Add("opsz", 14); // optical size
 ```
 
-### Does this work for older .NET Framework versions?
+### Bu, eski .NET Framework sürümleri için de geçerli mi?
 
 Evet. API yüzeyi .NET Framework 4.5+ ve .NET Core/5/6 arasında sabittir. Hedef framework’ünüz için uygun Aspose.Words DLL’sini referans gösterin.
 
 ---
 
-## Conclusion
+## Sonuç
 
 Artık **create word document** işlemini programlı olarak nasıl yapacağınızı, hassas **OpenType** varyasyon ayarlarını nasıl uygulayacağınızı ve Aspose.Words for .NET kullanarak **save document as docx** işlemini nasıl gerçekleştireceğinizi gösteren sağlam, uçtan uca bir örneğe sahipsiniz. Adımlar basit: bir `Document` örnekleyin, bir `DocumentBuilder` bağlayın, fontun OpenType eksenlerini ayarlayın, içeriğinizi yazın ve dosyayı kalıcı hale getirin.
 

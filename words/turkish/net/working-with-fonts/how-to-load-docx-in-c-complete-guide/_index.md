@@ -28,36 +28,36 @@ url: /tr/net/working-with-fonts/how-to-load-docx-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Load DOCX in C# – Complete Guide
+# C#'da DOCX Yükleme – Tam Kılavuz
 
-Ever wondered **how to load docx** files in a .NET application without pulling your hair out over missing fonts? You're not the only one. In many real‑world projects, a Word document arrives with a handful of custom fonts that aren’t installed on the server, and the whole thing breaks or looks awful.  
+Bir .NET uygulamasında eksik yazı tipleri yüzünden saçınızı yolmadan **docx** dosyalarını nasıl yükleyeceğinizi hiç merak ettiniz mi? Yalnız değilsiniz. Birçok gerçek dünya projesinde, sunucuda kurulu olmayan bir avuç özel yazı tipiyle gelen bir Word belgesi, her şeyi bozar veya berbat görünür.
 
-In this tutorial we’ll show you exactly **how to load docx** with Aspose.Words, how to **detect missing fonts**, and how to **customize font settings** so the document renders just the way you expect. By the end you’ll also know how to **load word document** safely, handle font substitution warnings, and even point the engine at your own font folder.
+Bu eğitimde, Aspose.Words ile **docx dosyalarını nasıl yükleyeceğinizi**, **eksik yazı tiplerini nasıl tespit edeceğinizi** ve belgenin tam olarak beklediğiniz gibi görüntülenmesi için **yazı tipi ayarlarını nasıl özelleştireceğinizi** tam olarak göstereceğiz. Sonunda, **Word belgesini** güvenli bir şekilde nasıl yükleyeceğinizi, yazı tipi değiştirme uyarılarını nasıl ele alacağınızı ve hatta motoru kendi yazı tipi klasörünüze nasıl yönlendireceğinizi de öğreneceksiniz.
 
-> **Pro tip:** All the code below runs on .NET 6+ and requires only the Aspose.Words NuGet package.
+> **Profesyonel ipucu:** Aşağıdaki tüm kodlar .NET6+ üzerinde çalışır ve yalnızca Aspose.Words NuGet paketini gerektirir.
 
 ---
 
-## What You’ll Need
+## İhtiyacınız Olanlar
 
-- **Aspose.Words for .NET** (latest version as of 2026)
-- A **.NET 6** (or later) console or web project
-- The **DOCX** file you want to test (`input.docx` in the example)
-- (Optional) a folder with custom fonts you want the loader to use
+- **Aspose.Words for .NET** (2026 itibariyle en son sürüm)
+- Bir **.NET 6** (veya daha yeni) konsol veya web projesi
+- Test etmek istediğiniz **DOCX** dosyası (örnekte `input.docx`)
+- (İsteğe bağlı) Yükleyicinin kullanmasını istediğiniz özel yazı tiplerini içeren bir klasör
 
-If you’ve never added a NuGet package, just run:
+Daha önce hiç NuGet paketi eklemediyseniz, sadece şunu çalıştırın:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Now that the groundwork is out of the way, let’s dive into the actual steps.
+Temel hazırlıklar tamamlandığına göre, gerçek adımlara geçelim.
 
 ---
 
-## Step 1 – Create Load Options to Control Document Loading
+## Adım 1 – Belge Yüklemeyi Kontrol Etmek İçin Yükleme Seçenekleri Oluşturma
 
-The first thing you do when you want to **load word document** files is create a `LoadOptions` instance. This object tells Aspose.Words how to behave while parsing the file.
+**Word belgesi** dosyalarını yüklemek istediğinizde yapacağınız ilk şey, bir `LoadOptions` örneği oluşturmaktır. Bu nesne, Aspose.Words'e dosyayı ayrıştırırken nasıl davranacağını söyler.
 
 ```csharp
 using Aspose.Words;
@@ -67,14 +67,14 @@ using Aspose.Words.Fonts;
 LoadOptions loadOptions = new LoadOptions();
 ```
 
-> **Why?**  
-> `LoadOptions` gives you a hook into the loading pipeline. Without it you can’t intercept missing‑font events or tell the library where to look for additional fonts.
+> **Neden?**
+> `LoadOptions`, yükleme hattına müdahale etmenizi sağlar. Bu olmadan, eksik yazı tipi olaylarını yakalayamaz veya kütüphaneye ek yazı tiplerini nerede arayacağını söyleyemezsiniz.
 
 ---
 
-## Step 2 – Set Up Font Settings and Listen for Substitution Warnings
+## Adım 2 – Yazı Tipi Ayarlarını Kurma ve Değiştirme Uyarılarını Dinleme
 
-Missing fonts are the most common nuisance when you **how to handle fonts** in a DOCX. Aspose.Words can automatically substitute them, but you often want to know *which* fonts were swapped. That’s where `FontSettings.SubstitutionWarning` shines.
+Eksik yazı tipleri, bir DOCX dosyasında **yazı tiplerini nasıl ele alacağınız** konusunda en sık karşılaşılan sorundur. Aspose.Words bunları otomatik olarak değiştirebilir, ancak genellikle *hangi* yazı tiplerinin değiştirildiğini bilmek istersiniz. İşte burada `FontSettings.SubstitutionWarning` devreye giriyor.
 
 ```csharp
 // Step 2: Configure FontSettings and subscribe to warnings
@@ -88,42 +88,42 @@ loadOptions.FontSettings.SubstitutionWarning += (sender, e) =>
 };
 ```
 
-### Customizing the Font Search Path (Optional)
+### Yazı Tipi Arama Yolunu Özelleştirme (İsteğe Bağlı)
 
-If you have a folder called `MyFonts` that contains the missing fonts, tell Aspose.Words to look there:
+Eksik yazı tiplerini içeren `MyFonts` adlı bir klasörünüz varsa, Aspose.Words'e oraya bakmasını söyleyin:
 
 ```csharp
 string customFontFolder = Path.Combine(Environment.CurrentDirectory, "MyFonts");
 loadOptions.FontSettings.SetFontsFolder(customFontFolder, true);
 ```
+> **Neden özel bir klasör eklemelisiniz?**
 
-> **Why add a custom folder?**  
-> It lets you **detect missing fonts** before the document is rendered, and you can ship the exact fonts you need with your application, avoiding surprise substitutions.
+> Belge oluşturulmadan önce **eksik yazı tiplerini tespit etmenizi** sağlar ve uygulamanızla birlikte tam olarak ihtiyacınız olan yazı tiplerini gönderebilir, sürpriz ikame işlemlerinden kaçınabilirsiniz.
 
 ---
 
-## Step 3 – Load the DOCX Using the Configured Options
+## Adım 3 – Yapılandırılmış Seçenekleri Kullanarak DOCX Dosyasını Yükleme
 
-Now comes the moment of truth: actually loading the file. Because we passed the `loadOptions` with our font configuration, the library will respect all the rules we set up.
+Şimdi gerçeğin anı geldi: dosyayı gerçekten yüklemek. `loadOptions` parametresini yazı tipi yapılandırmamızla birlikte geçirdiğimiz için, kütüphane kurduğumuz tüm kurallara uyacaktır.
 
 ```csharp
 // Step 3: Load the document with our custom load options
 Document document = new Document("YOUR_DIRECTORY/input.docx", loadOptions);
 ```
 
-If any fonts were missing, the console will print messages like:
+Herhangi bir yazı tipi eksikse, konsol şu gibi mesajlar yazdıracaktır:
 
 ```
 Font 'MyCustomFont' was substituted with 'Arial Unicode MS'.
 ```
 
-That output is your **detect missing fonts** signal. You can log it, throw an exception, or replace the substitution logic entirely.
+Bu çıktı, **eksik yazı tiplerini tespit etme** sinyalinizdir. Bunu kaydedebilir, bir istisna fırlatabilir veya ikame mantığını tamamen değiştirebilirsiniz.
 
 ---
 
-## Step 4 – Verify the Loaded Document (Optional but Recommended)
+## Adım 4 – Yüklenen Belgeyi Doğrulama (İsteğe Bağlı ancak Önerilir)
 
-After loading, you might want to confirm that the document looks right, especially if you plan to convert it to PDF or render it as an image.
+Yükleme işleminden sonra, özellikle PDF'ye dönüştürmeyi veya görüntü olarak oluşturmayı planlıyorsanız, belgenin doğru göründüğünü doğrulamak isteyebilirsiniz.
 
 ```csharp
 // Optional: Save as PDF to verify rendering
@@ -131,13 +131,13 @@ document.Save("output.pdf", SaveFormat.Pdf);
 Console.WriteLine("Document saved as PDF – check the output for font correctness.");
 ```
 
-Saving to PDF forces Aspose.Words to rasterize the text with the resolved fonts, giving you a quick visual check.
+PDF'ye kaydetmek, Aspose.Words'ün metni çözümlenmiş yazı tipleriyle rasterleştirmesini sağlar ve size hızlı bir görsel kontrol imkanı sunar.
 
 ---
 
-## Full Working Example
+## Tam Çalışan Örnek
 
-Putting everything together, here’s a single, self‑contained program you can copy‑paste into `Program.cs` and run:
+Her şeyi bir araya getirerek, `Program.cs` dosyasına kopyalayıp yapıştırabileceğiniz ve çalıştırabileceğiniz tek, bağımsız bir program aşağıdadır:
 
 ```csharp
 using System;
@@ -177,22 +177,22 @@ class Program
 }
 ```
 
-**Expected output** (assuming `input.docx` references a missing font called *FancyFont*):
+**Beklenen Çıktı** (`input.docx` dosyasının *FancyFont* adlı eksik bir yazı tipine referans verdiğini varsayarak):
 
 ```
 Font 'FancyFont' was substituted with 'Arial Unicode MS'.
 Document loaded and saved as PDF: C:\YourProject\output.pdf
 ```
 
-If no substitution occurs, you’ll see only the final line.
+Eğer herhangi bir değiştirme gerçekleşmezse, yalnızca son satırı görürsünüz.
 
 ---
 
-## Common Questions & Edge Cases
+## Sıkça Sorulan Sorular ve İstisnai Durumlar
 
-### What if I want to **prevent** substitution altogether?
+### Değiştirmeyi tamamen **engellemek** istersem ne yapmalıyım?
 
-You can disable automatic font substitution by clearing the `DefaultFontName` and handling the warning as an error:
+`DefaultFontName`'i temizleyerek ve uyarıyı hata olarak ele alarak otomatik yazı tipi değiştirmeyi devre dışı bırakabilirsiniz:
 
 ```csharp
 loadOptions.FontSettings.SubstitutionWarning += (s, e) =>
@@ -202,7 +202,7 @@ loadOptions.FontSettings.SubstitutionWarning += (s, e) =>
 };
 ```
 
-### How do I **load word document** from a stream instead of a file path?
+### Dosya yolundan ziyade bir akıştan Word belgesini nasıl **yükleyebilirim**?
 
 ```csharp
 using (FileStream stream = File.OpenRead("input.docx"))
@@ -211,30 +211,30 @@ using (FileStream stream = File.OpenRead("input.docx"))
 }
 ```
 
-### Can I **customize font settings** per document instead of globally?
+### Yazı tipi ayarlarını genel olarak değil de belge bazında özelleştirebilir miyim?
 
-Yes—create a new `FontSettings` instance for each `LoadOptions` you pass. This isolates the configuration per load operation.
+Evet—geçirdiğiniz her `LoadOptions` için yeni bir `FontSettings` örneği oluşturun. Bu, yapılandırmayı yükleme işlemine göre ayırır.
 
-### What about **Unicode characters** that aren’t covered by any installed font?
+### Yüklü hiçbir yazı tipinde bulunmayan **Unicode karakterleri** ne olacak?
 
-Aspose.Words will fall back to the first font that contains the required glyphs. If none do, the character appears as a missing glyph (often a square). Adding a comprehensive Unicode font (e.g., *Arial Unicode MS*) to your custom folder solves this.
+Aspose.Words, gerekli glifleri içeren ilk yazı tipine geri döner. Hiçbiri içermiyorsa, karakter eksik bir glif (genellikle bir kare) olarak görünür. Özel klasörünüze kapsamlı bir Unicode yazı tipi (örneğin, *Arial Unicode MS*) eklemek bunu çözer.
 
 ---
 
-## Conclusion
+## Sonuç
 
-We’ve walked through **how to load docx** files in C# using Aspose.Words, shown you how to **detect missing fonts**, and demonstrated ways to **customize font settings** for reliable rendering. By creating `LoadOptions`, wiring up `FontSettings.SubstitutionWarning`, and optionally pointing the engine at your own font folder, you gain full control over the loading process.  
+Aspose.Words kullanarak C#'ta **docx** dosyalarını nasıl yükleyeceğinizi, **eksik yazı tiplerini nasıl tespit edeceğinizi** ve güvenilir görüntüleme için **yazı tipi ayarlarını nasıl özelleştireceğinizi** gösterdik. `LoadOptions` oluşturarak, `FontSettings.SubstitutionWarning`'ı bağlayarak ve isteğe bağlı olarak motoru kendi yazı tipi klasörünüze yönlendirerek, yükleme işlemi üzerinde tam kontrol elde edersiniz.
 
-Now you can confidently **load word document** assets in any .NET service, web app, or console tool—without worrying about surprise font swaps or broken layouts.
+Artık herhangi bir .NET servisinde, web uygulamasında veya konsol aracında **Word belgesi** varlıklarını güvenle yükleyebilirsiniz; sürpriz yazı tipi değişimleri veya bozuk düzenler konusunda endişelenmenize gerek yok.
 
-### What’s Next?
+### Sonraki Adımlar?
 
-- Explore **font substitution rules** (e.g., `FontSettings.SubstitutionSettings.DefaultFontName`).
-- Try **embedding fonts** directly into the DOCX before loading.
-- Convert the loaded document to **HTML** or **image** formats while preserving exact typography.
-- Dive into **advanced font fallback** strategies for multilingual documents.
+- **Yazı tipi değiştirme kurallarını** keşfedin (örneğin, `FontSettings.SubstitutionSettings.DefaultFontName`).
+- Yüklemeden önce yazı tiplerini doğrudan DOCX'e **gömmeyi** deneyin.
+- Yüklenen belgeyi tam tipografiyi koruyarak **HTML** veya **resim** formatlarına dönüştürün.
+- Çok dilli belgeler için **gelişmiş yazı tipi yedekleme** stratejilerine dalın.
 
-Feel free to experiment, share your findings, or ask questions in the comments. Happy coding!
+Deney yapmaktan, bulgularınızı paylaşmaktan veya yorumlarda sorular sormaktan çekinmeyin. Mutlu kodlamalar!
 
 ---
 

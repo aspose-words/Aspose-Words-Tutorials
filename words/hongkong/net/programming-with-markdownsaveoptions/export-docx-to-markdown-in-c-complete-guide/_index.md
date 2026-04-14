@@ -36,7 +36,7 @@ url: /zh-hant/net/programming-with-markdownsaveoptions/export-docx-to-markdown-i
 
 ---
 
-## Prerequisites & Setup
+## 前提條件和設置
 
 在開始寫程式碼之前，請先確認以下項目：
 
@@ -55,7 +55,7 @@ dotnet add package Aspose.Words
 
 ---
 
-## Step 1: Load the Source Word Document  
+## 步驟 1：載入來源 Word 文檔 
 
 首先要把 .docx 檔案載入記憶體。Aspose.Words 的 `Document` 類別負責所有繁重的工作——解析 OOXML、建立內部物件模型，並提供之後可調整的屬性。
 
@@ -75,7 +75,7 @@ Console.WriteLine($"Loaded document with {document.Sections.Count} section(s).")
 
 ---
 
-## Step 2: Configure Markdown Save Options  
+## 步驟 2：設定 Markdown 儲存選項  
 
 Aspose.Words 透過 `MarkdownSaveOptions` 提供對 Markdown 輸出的細緻控制。最常遇到的障礙是 **empty paragraphs**——預設情況下它們可能會被移除，導致最終 `.md` 檔案失去換行。以下範例將匯出模式設為 **Preserve**，當然你也可以改成 `Remove` 以取得更緊湊的版面。
 
@@ -102,7 +102,7 @@ Console.WriteLine($"ExportImagesAsBase64: {markdownOptions.ExportImagesAsBase64}
 
 ---
 
-## Step 3: Save the Document as Markdown  
+## 步驟 3：將文件儲存為 Markdown 格式  
 
 現在文件已載入且選項設定完畢，最後一步只需要一行程式碼：呼叫 `Save`，傳入目標路徑與剛才建立的 `MarkdownSaveOptions` 物件。
 
@@ -132,9 +132,9 @@ Second paragraph after an empty line.
 
 ---
 
-## Step 4: Verify the Output & Common Pitfalls  
+## 步驟 4：驗證輸出及常見問題
 
-### Verify the Markdown
+### 驗證 Markdown
 
 在 Markdown 預覽工具（VS Code、GitHub，或靜態網站產生器）中開啟產生的檔案，檢查以下項目：
 
@@ -142,9 +142,9 @@ Second paragraph after an empty line.
 2. 表格正確呈現（若設定了旗標則為 GitHub 風格）。
 3. 圖片內嵌顯示（Base64 方式在大多數檢視器中皆可正常顯示）。
 
-### Common Issues and How to Fix Them
+### 常見問題及解決方法
 
-| Symptom | Likely Cause | Fix |
+| 症狀 | 可能原因 | 解決方法 |
 |---------|--------------|-----|
 | Images missing or broken | `ExportImagesAsBase64` 設為 `false` 且圖片存放於外部 | 設定 `ExportImagesAsBase64 = true` 或透過 `ImageFolder` 指定自訂圖片資料夾 |
 | Empty lines collapsed | `EmptyParagraphExportMode` 保持預設值 (`Remove`) | 如步驟 2 所示改為 `Preserve` |
@@ -153,7 +153,7 @@ Second paragraph after an empty line.
 
 ---
 
-## Step 5: Wrap It All Up – Full Working Example  
+## 步驟 5：總結 – 完整範例
 
 以下是可直接貼到 Console App 的 *完整* 程式碼。只要把 `YOUR_DIRECTORY` 替換成放置 `.docx` 檔案的路徑即可。
 
@@ -195,7 +195,7 @@ namespace DocxToMarkdownDemo
 
 ---
 
-## Bonus: Exporting Multiple Files in a Batch  
+## 額外內容：批次匯出多個文件
 
 如果需要 **convert word to markdown** 多個文件，只要把邏輯包在簡單的迴圈裡：
 
@@ -214,7 +214,7 @@ foreach (var file in docxFiles)
 
 ---
 
-## Conclusion  
+## 結論
 
 總結來說，使用 Aspose.Words 在 C# 中 **export docx to markdown** 非常簡單：載入文件、設定 `MarkdownSaveOptions`（特別是 `EmptyParagraphExportMode`），最後呼叫 `Save`。現在你已掌握可靠的 **convert Word to markdown** 方法，能保留空段落、內嵌圖片，甚至產生 GitHub 風格的表格——只要幾行程式碼。
 

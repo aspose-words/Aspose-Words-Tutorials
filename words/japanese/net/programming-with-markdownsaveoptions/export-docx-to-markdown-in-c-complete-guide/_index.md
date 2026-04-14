@@ -54,7 +54,7 @@ dotnet add package Aspose.Words
 
 ---
 
-## Step 1: Load the Source Word Document  
+## ステップ1：ソースとなるWord文書を読み込む 
 
 最初に行うべきことは、.docx ファイルをメモリに読み込むことです。Aspose.Words の `Document` クラスが OOXML の解析、内部オブジェクトモデルの構築、後で調整可能なプロパティの公開といった重い処理をすべて担当します。
 
@@ -74,7 +74,7 @@ Console.WriteLine($"Loaded document with {document.Sections.Count} section(s).")
 
 ---
 
-## Step 2: Configure Markdown Save Options  
+## ステップ2：Markdown保存オプションを設定する 
 
 Aspose.Words は `MarkdownSaveOptions` を通じて Markdown 出力を細かく制御できます。最も一般的な落とし穴は **空の段落** です。デフォルトでは削除されてしまい、最終的な `.md` ファイルで改行が失われることがあります。以下ではエクスポートモードを **Preserve** に設定していますが、レイアウトを詰めたい場合は `Remove` を選択することも可能です。
 
@@ -101,7 +101,7 @@ Console.WriteLine($"ExportImagesAsBase64: {markdownOptions.ExportImagesAsBase64}
 
 ---
 
-## Step 3: Save the Document as Markdown  
+## ステップ3：文書をMarkdown形式で保存する
 
 文書が読み込まれ、オプションが設定されたので、最後のステップはワンライナーです。`Save` メソッドに出力先パスと先ほど作成した `MarkdownSaveOptions` オブジェクトを渡すだけです。
 
@@ -131,9 +131,9 @@ Second paragraph after an empty line.
 
 ---
 
-## Step 4: Verify the Output & Common Pitfalls  
+## ステップ4：出力結果の確認とよくある落とし穴
 
-### Verify the Markdown
+### Markdownの確認
 
 生成されたファイルを Markdown プレビューア（VS Code、GitHub、または静的サイトジェネレータ）で開き、以下を確認してください。
 
@@ -141,7 +141,7 @@ Second paragraph after an empty line.
 2. テーブルが正しくレンダリングされていること（フラグを設定した場合は GitHub 形式）。  
 3. 画像がインラインで表示されていること（Base64 埋め込みはほとんどのビューアで機能します）。
 
-### Common Issues and How to Fix Them
+### よくある問題とその解決方法
 
 | 症状 | 考えられる原因 | 対処法 |
 |------|----------------|--------|
@@ -152,7 +152,7 @@ Second paragraph after an empty line.
 
 ---
 
-## Step 5: Wrap It All Up – Full Working Example  
+## ステップ5：まとめ – 完全な動作例  
 
 以下はコンソールアプリにコピペできる **完全版** プログラムです。抜けはありませんので、`YOUR_DIRECTORY` を .docx ファイルが格納されているパスに置き換えるだけです。
 
@@ -194,7 +194,7 @@ namespace DocxToMarkdownDemo
 
 ---
 
-## Bonus: Exporting Multiple Files in a Batch  
+## ボーナス：複数ファイルの一括エクスポート 
 
 多数の文書を **convert word to markdown** したい場合は、ロジックをシンプルなループで包んでください。
 
@@ -213,7 +213,7 @@ foreach (var file in docxFiles)
 
 ---
 
-## Conclusion  
+## まとめ 
 
 要するに、C# で Aspose.Words を使って **docx を markdown にエクスポート** する手順はシンプルです：文書を読み込み、`MarkdownSaveOptions`（特に `EmptyParagraphExportMode`）を設定し、`Save` を呼び出すだけです。これで **Word を markdown に変換** し、空段落を保持し、画像を埋め込み、GitHub 形式のテーブルも生成できる信頼性の高い方法が手に入ります。
 

@@ -45,7 +45,7 @@ Aspose 사용 경험은 필요 없으며, C# 및 .NET에 대한 기본 이해만
 
 ---
 
-## Step 1: Install Aspose.Words for .NET
+## 1단계: Aspose.Words for .NET 설치
 
 코드를 작성하기 전에 무거운 작업을 수행해줄 라이브러리가 필요합니다.
 
@@ -60,7 +60,7 @@ dotnet add package Aspose.Words
 
 ---
 
-## Step 2: Load the Source Word Document
+## 2단계: 원본 Word 문서 불러오기
 
 라이브러리가 준비되었으니 이제 `.docx`를 메모리로 불러옵니다.
 
@@ -79,7 +79,7 @@ Document document = new Document(inputPath);
 
 ---
 
-## Step 3: Configure Markdown Save Options for LaTeX Export
+## 3단계: LaTeX 내보내기를 위한 Markdown 저장 옵션 구성
 
 기본적으로 Aspose.Words는 Markdown 저장 시 수식을 이미지로 덤프합니다. 우리는 LaTeX가 필요하므로 `OfficeMathExportMode`를 조정합니다.
 
@@ -98,7 +98,7 @@ MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 
 ---
 
-## Step 4: Save the Document as a Markdown File
+## 4단계: 문서를 Markdown 파일로 저장
 
 옵션을 준비했으니 이제 Markdown 파일을 실제로 저장합니다.
 
@@ -128,9 +128,9 @@ $$
 
 ---
 
-## Step 5: Verify the Result and Common Pitfalls
+## 5단계: 결과 및 일반적인 문제점 확인
 
-### Quick sanity check
+### 간단한 검증
 
 ```csharp
 Console.WriteLine(File.ReadAllText(outputPath));
@@ -138,9 +138,9 @@ Console.WriteLine(File.ReadAllText(outputPath));
 
 위 스니펫을 실행하면 콘솔에 Markdown이 출력됩니다—개발 중 빠른 검증에 유용합니다.
 
-### Common issues and fixes
+### 일반적인 문제 및 해결 방법
 
-| Issue | Likely cause | Fix |
+| 문제 | 예상 원인 | 해결 방법 |
 |-------|--------------|-----|
 | 수식이 이미지로 표시됨 | `OfficeMathExportMode`가 기본값(`Image`)으로 남아 있음 | `OfficeMathExportMode = OfficeMathExportMode.LaTeX` 로 설정 |
 | LaTeX 기호가 깨짐 | DOCX가 생성된 시스템에 폰트가 없음 | 원본 Office 폰트를 설치하거나 DOCX에 폰트를 임베드 |
@@ -148,7 +148,7 @@ Console.WriteLine(File.ReadAllText(outputPath));
 
 ---
 
-## Bonus: Automating the Whole Process for Multiple Files
+## 보너스: 여러 파일에 대한 전체 프로세스 자동화
 
 폴더에 Word 파일이 많이 있다면 작은 루프를 이용해 일괄 변환할 수 있습니다:
 
@@ -170,7 +170,7 @@ foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 
 ---
 
-## Conclusion
+## 결론
 
 Aspose.Words를 사용해 Word 문서에서 **LaTeX를 내보내는 방법**을 설치부터 엣지 케이스 처리, 배치 처리까지 모두 다루었습니다. `MarkdownSaveOptions`에 `OfficeMathExportMode.LaTeX`를 설정하면 **word를 markdown으로 변환**하면서 수식을 깔끔한 LaTeX 형태로 유지하고, 정적 사이트 생성기, Jupyter Notebook, 혹은 LaTeX‑aware 렌더러와 원활히 호환되는 **markdown 파일**을 저장할 수 있습니다.
 
