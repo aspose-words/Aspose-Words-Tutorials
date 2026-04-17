@@ -40,6 +40,9 @@ Aprenda a guardar documentos de Word como archivos Markdown usando Aspose.Words 
 ### [Recuperar DOCX dañado y convertir Word a Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Aprenda a reparar archivos DOCX dañados y convertirlos a Markdown con Aspose.Words para Python.
 
+### [Crear PDF UA desde Word – Guía paso a paso](./create-pdf-ua-from-word-step-by-step-guide/)
+Aprenda a generar PDFs compatibles con PDF/UA a partir de documentos Word usando Aspose.Words para Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
