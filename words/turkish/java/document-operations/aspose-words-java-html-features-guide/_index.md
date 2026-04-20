@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "VML desteği, şifreleme, HTML içe aktarma seçenekleri ve daha fazlası dahil olmak üzere belge işleme konusunda uzmanlaşmak için Aspose.Words for Java'yı nasıl kullanacağınızı öğrenin."
-"title": "Aspose.Words for Java&#58; Kapsamlı HTML Özellikleri ve Belge İşleme Kılavuzu"
-"url": "/tr/java/document-operations/aspose-words-java-html-features-guide/"
-"weight": 1
+date: '2026-02-06'
+description: Aspose.Words for Java ile HTML VML nasıl yüklenir, HTML Java dosyaları
+  nasıl şifrelenir, HTML temel URI'si nasıl ayarlanır ve HTML kontrol seçenekleri
+  nasıl yapılandırılır öğrenin.
+keywords:
+- Aspose.Words for Java
+- HTML document processing
+- document encryption
+title: Aspose.Words for Java kullanarak HTML VML yükleme – Tam Kılavuz
+url: /tr/java/document-operations/aspose-words-java-html-features-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +18,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words for Java ile Kapsamlı HTML Özellikleri: Geliştirici Rehberi
 
-# Java için Aspose.Words ile Kapsamlı HTML Özellikleri: Bir Geliştiricinin Kılavuzu
+## Giriş
 
-## giriiş
+Belge işleme dünyasının karmaşık yapısında gezinmek zorlayıcı olabilir, özellikle çeşitli HTML özellikleriyle uğraşırken. Vector Markup Language (VML) desteği, şifreli belgeler veya belirli HTML içe aktarma davranışlarıyla ilgileniyor olsanız, **Aspose.Words for Java** sağlam bir çözüm sunar. Bu rehberde **how to load html vml**'yi verimli ve güvenli bir şekilde nasıl yapacağınızı öğrenecek, ayrıca **encrypt html java**, **set html base uri**, ve **configure html control** gibi ilgili görevleri de kapsayacaksınız.
 
-Karmaşık belge işleme dünyasında gezinmek, özellikle çeşitli HTML özelliklerini ele alırken göz korkutucu olabilir. İster Vektör İşaretleme Dili (VML) desteği, ister şifrelenmiş belgeler veya belirli HTML içe aktarma davranışlarıyla uğraşıyor olun, **Java için Aspose.Words** sağlam bir çözüm sunar. Bu kılavuzda, bu işlevleri Aspose.Words kullanarak sorunsuz bir şekilde nasıl uygulayacağınızı ve belge işleme yeteneklerinizi nasıl geliştireceğinizi inceleyeceğiz.
+**Öğrenecekleriniz:**
+- HTML belgelerini VML desteğiyle nasıl yükleyeceğinizi.
+- Sabit sayfa HTML ve uyarıların işlenmesi teknikleri.
+- Şifreli ve parola korumalı HTML belgelerinin şifrelenmesi ve yüklenmesi yöntemleri.
+- HTML Load Options içinde temel URI'ların kullanılması.
+- HTML giriş öğelerinin yapılandırılmış belge etiketleri veya form alanları olarak içe aktarılması.
+- `<noscript>` öğelerinin HTML yüklemesi sırasında yok sayılması.
+- HTML yapı korumasını kontrol etmek için blok içe aktarma modlarının yapılandırılması.
+- Özel yazı tipleri için `@font-face` kurallarının desteklenmesi.
 
-**Ne Öğreneceksiniz:**
-- VML desteğiyle HTML dokümanları nasıl yüklenir.
-- Sabit sayfa HTML ve uyarıları işleme teknikleri.
-- Parola korumalı HTML belgelerini şifreleme ve yükleme yöntemleri.
-- HTML Yükleme Seçeneklerinde temel URI'leri kullanma.
-- HTML giriş öğelerini yapılandırılmış belge etiketleri veya form alanları olarak içe aktarma.
-- Görmezden gelmek `<noscript>` HTML yükleme sırasında öğeler.
-- HTML yapısının korunmasını kontrol etmek için blok içe aktarma modlarını yapılandırma.
-- Destek `@font-face` özelleştirilmiş yazı tipleri için kurallar.
+## Hızlı Yanıtlar
+- **HTML yüklerken VML'i etkinleştirmenin temel yolu nedir?** `loadOptions.setSupportVml(true)` ayarlayın.
+- **Parola korumalı HTML dosyalarını yükleyebilir miyim?** Evet, parolayı `HtmlLoadOptions`'a geçirin.
+- **Göreceli resim yollarını nasıl çözerim?** `loadOptions.setBaseUri("your/base/uri")` kullanın.
+- **`<select>` öğesini bir form alanı olarak içe aktarmak mümkün mü?** `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` ayarlayın.
+- **Yükleme sırasında uyarıları yakalayan sınıf hangisidir?** `IWarningCallback` uygulayın ve `loadOptions.setWarningCallback(...)`'a atayın.
 
-Bu içgörülerle, çok çeşitli HTML işleme görevlerini ele almak için iyi donanımlı olacaksınız. Önce ön koşullara ve kuruluma bir göz atalım!
+## Önkoşullar
 
-## Ön koşullar
+Aspose.Words for Java ile çeşitli HTML özelliklerini uygulamaya başlamadan önce, ortamınızın doğru şekilde ayarlandığından emin olun:
 
-Aspose.Words for Java ile çeşitli HTML özelliklerini uygulamaya başlamadan önce, ortamınızın düzgün bir şekilde ayarlandığından emin olun:
+- **Gerekli Kütüphaneler:** Aspose.Words kütüphanesinin 25.3 veya daha yeni bir sürümüne ihtiyacınız var.
+- **Geliştirme Ortamı:** Bu rehber, bağımlılık yönetimi için Maven veya Gradle kullandığınızı varsayar.
+- **Bilgi Temeli:** Java'ya temel bir anlayış ve HTML belgelerine aşinalık faydalı olacaktır.
 
-- **Gerekli Kütüphaneler:** Aspose.Words kütüphanesinin 25.3 veya üzeri sürümüne ihtiyacınız var.
-- **Geliştirme Ortamı:** Bu kılavuz, bağımlılık yönetimi için Maven veya Gradle kullandığınızı varsayar.
-- **Bilgi Bankası:** Java'da temel bir anlayışa ve HTML belgelerine aşinalığa sahip olmak faydalı olacaktır.
+## Aspose.Words Kurulumu
 
-## Aspose.Words'ü Kurma
+Aspose.Words ile çalışmaya başlamak için önce projeye eklemeniz gerekir. Aşağıda kütüphaneyi Maven ve Gradle kullanarak kurma adımları verilmiştir:
 
-Aspose.Words ile çalışmaya başlamak için öncelikle onu projenize dahil etmeniz gerekir. Aşağıda Maven ve Gradle kullanarak kütüphaneyi kurma adımları verilmiştir:
+### Maven
 
-### Usta
-
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+Aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <dependency>
@@ -57,17 +67,17 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 
 ### Gradle
 
-Bunu da ekleyin `build.gradle` dosya:
+`build.gradle` dosyanıza şunu ekleyin:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Lisans Edinimi
+#### Lisans Alımı
 
-Aspose.Words tam işlevsellik için bir lisans gerektirir. Ücretsiz bir deneme edinebilir, geçici bir lisans talep edebilir veya kalıcı bir lisans satın alabilirsiniz. Ziyaret edin [satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
+Aspose.Words tam işlevsellik için bir lisans gerektirir. Ücretsiz deneme alabilir, geçici bir lisans talep edebilir veya kalıcı bir lisans satın alabilirsiniz. Daha fazla detay için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
 
-Java projenizde Aspose.Words'ü başlatmak için lisanslamayı doğru şekilde ayarladığınızdan emin olun:
+Java projenizde Aspose.Words'i başlatmak için lisanslamayı doğru şekilde yaptığınızdan emin olun:
 
 ```java
 import com.aspose.words.License;
@@ -82,200 +92,229 @@ public class InitializeAspose {
 }
 ```
 
-## Uygulama Kılavuzu
+## Uygulama Rehberi
 
 Uygulamayı, uygulamak istediğimiz özelliklere göre bölümlere ayıracağız.
 
-### HTML Belgelerinde VML'yi Destekleyin
+### Aspose.Words ile html vml nasıl yüklenir
 
-**Genel Bakış:**
-VML desteğiyle veya desteği olmadan bir HTML belgesi yüklemek, vektör grafiklerinin çok yönlü işlenmesine olanak tanır. Bu özellik, grafikler ve şekiller gibi grafiksel öğeler içeren belgelerle uğraşırken çok önemlidir.
+**Genel Bakış:**  
+VML desteğiyle bir HTML belgesi yüklemek, grafikler ve şekiller gibi vektör grafiklerin çok yönlü işlenmesini sağlar. Bu, temel anahtar kelime **load html vml** için temel adımdır.
 
-#### Adım Adım Uygulama:
+#### Adım‑adım
 
-1. **Yükleme Seçeneklerini Ayarla**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.HtmlLoadOptions;
+1. **Yükleme Seçeneklerini Ayarlama**
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setSupportVml(true); // VML desteğini etkinleştir
-   ```
+```java
+import com.aspose.words.Document;
+import com.aspose.words.HtmlLoadOptions;
 
-2. **Belgeyi Yükle**
-   
-   ```java
-   Document doc = new Document("path/to/VML conditional.htm", loadOptions);
-   ```
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setSupportVml(true); // Enable VML support
+```
 
-3. **Görüntü Türünü Doğrula**
-   
-   Görüntü türünün beklentilerinizle uyumlu olduğundan emin olun:
-   
-   ```java
-   import com.aspose.words.NodeType;
-   import com.aspose.words.Shape;
+2. **Belgeyi Yükleme**
 
-   Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
-   String expectedImageType = "JPG"; // Gerçek mantığa göre ayarlayın
+```java
+Document doc = new Document("path/to/VML conditional.htm", loadOptions);
+```
 
-   if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
-       throw new AssertionError("Unexpected image type loaded.");
-   }
-   ```
+3. **Görsel Türünü Doğrulama**
 
-### HTML Sabit Yükle ve Uyarıları İşle
+```java
+import com.aspose.words.NodeType;
+import com.aspose.words.Shape;
 
-**Genel Bakış:**
-Sabit sayfalı HTML belgelerinin yüklenmesi, doğru işleme için yönetilmesi gereken uyarılar üretebilir.
+Shape imageShape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+String expectedImageType = "JPG"; // Adjust based on actual logic
 
-#### Adım Adım Uygulama:
+if (!imageShape.getImageData().getImageType().toString().equals(expectedImageType)) {
+    throw new AssertionError("Unexpected image type loaded.");
+}
+```
 
-1. **Uyarı Geri Aramasını Tanımla**
-   
-   ```java
-   import com.aspose.words.IWarningCallback;
-   import com.aspose.words.WarningInfo;
-   import java.util.ArrayList;
+### Sabit HTML Yükleme ve Uyarıları İşleme
 
-   private static class ListDocumentWarnings implements IWarningCallback {
-       private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
+**Genel Bakış:**  
+Sabit sayfa HTML belgelerini yüklemek, doğru işleme için yönetilmesi gereken uyarılar üretebilir.
 
-       public void warning(WarningInfo info) { 
-           mWarnings.add(info); 
-       }
+#### Adım‑adım
 
-       public ArrayList<WarningInfo> warnings() { return mWarnings; }
-   }
-   ```
+1. **Uyarı Geri Çağrısını Tanımlama**
 
-2. **Yükleme Seçeneklerini Yapılandırın**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   ListDocumentWarnings warningCallback = new ListDocumentWarnings();
-   loadOptions.setWarningCallback(warningCallback);
-   ```
+```java
+import com.aspose.words.IWarningCallback;
+import com.aspose.words.WarningInfo;
+import java.util.ArrayList;
 
-3. **Belgeyi Yükle ve Uyarıları Kontrol Et**
-   
-   ```java
-   Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
+private static class ListDocumentWarnings implements IWarningCallback {
+    private final ArrayList<WarningInfo> mWarnings = new ArrayList<>();
 
-   if (warningCallback.warnings().size() != 1) {
-       throw new AssertionError("Unexpected number of warnings.");
-   }
-   ```
+    public void warning(WarningInfo info) { 
+        mWarnings.add(info); 
+    }
 
-### HTML Belgelerini Şifrele
+    public ArrayList<WarningInfo> warnings() { return mWarnings; }
+}
+```
 
-**Genel Bakış:**
-Bir HTML belgesinin parola ile şifrelenmesi, hassas bilgiler için olmazsa olmaz olan güvenli erişimi sağlar.
+2. **Yükleme Seçeneklerini Yapılandırma**
 
-#### Adım Adım Uygulama:
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+ListDocumentWarnings warningCallback = new ListDocumentWarnings();
+loadOptions.setWarningCallback(warningCallback);
+```
 
-1. **Dijital İmza Seçeneklerini Hazırlayın**
-   
-   ```java
-   import com.aspose.words.CertificateHolder;
-   import com.aspose.words.DigitalSignatureUtil;
-   import com.aspose.words.SignOptions;
+3. **Belgeyi Yükleme ve Uyarıları Kontrol Etme**
 
-   CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
-   SignOptions signOptions = new SignOptions();
-   signOptions.setComments("Comment");
-   signOptions.setSignTime(new Date());
-   signOptions.setDecryptionPassword("docPassword");
-   ```
+```java
+Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
 
-2. **Belgeyi İmzala ve Şifrele**
-   
-   ```java
-   String inputFileName = "path/to/Encrypted.docx";
-   String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
+if (warningCallback.warnings().size() != 1) {
+    throw new AssertionError("Unexpected number of warnings.");
+}
+```
 
-   DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
-   ```
+### HTML Belgelerini Şifreleme
 
-3. **Şifrelenmiş Belgeyi Yükle**
-   
-   ```java
-   import com.aspose.words.Document;
+**Genel Bakış:**  
+Bir HTML belgesini parola ile şifrelemek, hassas bilgiler için güvenli erişim sağlar—bu, **encrypt html java** senaryosunu ele alır.
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
-   Document doc = new Document(outputFileName, loadOptions);
+#### Adım‑adım
 
-   if (!doc.getText().trim().equals("Test encrypted document.")) {
-       throw new AssertionError("Unexpected document text.");
-   }
-   ```
+1. **Dijital İmza Seçeneklerini Hazırlama**
+
+```java
+import com.aspose.words.CertificateHolder;
+import com.aspose.words.DigitalSignatureUtil;
+import com.aspose.words.SignOptions;
+
+CertificateHolder certificateHolder = CertificateHolder.create("path/to/morzal.pfx", "aw");
+SignOptions signOptions = new SignOptions();
+signOptions.setComments("Comment");
+signOptions.setSignTime(new Date());
+signOptions.setDecryptionPassword("docPassword");
+```
+
+2. **Belgeyi İmzalama ve Şifreleme**
+
+```java
+String inputFileName = "path/to/Encrypted.docx";
+String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.html";
+
+DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
+
+3. **Şifreli Belgeyi Yükleme**
+
+```java
+import com.aspose.words.Document;
+
+HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
+Document doc = new Document(outputFileName, loadOptions);
+
+if (!doc.getText().trim().equals("Test encrypted document.")) {
+    throw new AssertionError("Unexpected document text.");
+}
+```
 
 ### HTML Yükleme Seçenekleri için Temel URI
 
-**Genel Bakış:**
-Temel bir URI belirtmek, özellikle resimler veya diğer bağlantılı kaynaklarla uğraşırken, göreli URI'lerin çözülmesine yardımcı olur.
+**Genel Bakış:**  
+**set html base uri** belirtmek, özellikle resimler veya diğer bağlı kaynaklarla çalışırken göreceli URI'ların çözülmesine yardımcı olur.
 
-#### Adım Adım Uygulama:
+#### Adım‑adım
 
-1. **Yükleme Seçeneklerini Temel URI ile Yapılandırın**
-   
-   ```java
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
-   ```
+1. **Temel URI ile Yükleme Seçeneklerini Yapılandırma**
 
-2. **Belgeyi Yükle ve Resmi Doğrula**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
+```java
+HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
+```
 
-   Document doc = new Document("path/to/Missing image.html", loadOptions);
-   Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+2. **Belgeyi Yükleme ve Görseli Doğrulama**
 
-   if (!imageShape.isImage()) {
-       throw new AssertionError("Expected an image shape.");
-   }
-   ```
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
 
-### HTML Seç'i Yapılandırılmış Belge Etiketi Olarak İçe Aktar
+Document doc = new Document("path/to/Missing image.html", loadOptions);
+Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
 
-**Genel Bakış:**
-İthalat `<select>` Öğeleri yapılandırılmış belge etiketleri olarak kullanmak Word belgelerinde daha iyi kontrol ve biçimlendirme sağlar.
+if (!imageShape.isImage()) {
+    throw new AssertionError("Expected an image shape.");
+}
+```
 
-#### Adım Adım Uygulama:
+### HTML Select'i Yapılandırılmış Belge Etiketi Olarak İçe Aktarma
 
-1. **Tercih Edilen Kontrol Türünü Ayarla**
-   
-   ```java
-   import com.aspose.words.HtmlLoadOptions;
-   import com.aspose.words.ControlType;
+**Genel Bakış:**  
+**configure html control** davranışını ayarlamak için, `<select>` öğelerini Yapılandırılmış Belge Etiketleri olarak içe aktarabilir, Word belgelerindeki form alanları üzerinde daha ince kontrol elde edebilirsiniz.
 
-   HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-   loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
-   ```
+#### Adım‑adım
 
-2. **Belgeyi Yükle ve Yapıyı Doğrula**
-   
-   ```java
-   import com.aspose.words.Document;
-   import com.aspose.words.NodeType;
-   import com.aspose.words.StructuredDocumentTag;
+1. **Tercih Edilen Kontrol Türünü Ayarlama**
 
-   Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
-   StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+```java
+import com.aspose.words.HtmlLoadOptions;
+import com.aspose.words.ControlType;
 
-   if (!sdt.getTagName().equals("Select")) {
-       throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
-   }
-   ```
+HtmlLoadOptions loadOptions = new HtmlLoadOptions();
+loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
+```
+
+2. **Belgeyi Yükleme ve Yapıyı Doğrulama**
+
+```java
+import com.aspose.words.Document;
+import com.aspose.words.NodeType;
+import com.aspose.words.StructuredDocumentTag;
+
+Document doc = new Document("path/to/Input HTML with select element.html", loadOptions);
+StructuredDocumentTag sdt = (StructuredDocumentTag)doc.getChild(NodeType.STRUCTURED_DOCUMENT_TAG, 0, true);
+
+if (!sdt.getTagName().equals("Select")) {
+    throw new AssertionError("Expected a Structured Document Tag with tag name 'Select'.");
+}
+```
+
+## Yaygın Sorunlar ve Çözümler
+
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| VML grafikleri görünmüyor | `supportVml` bayrağı varsayılan (`false`) olarak bırakıldı | Yüklemeden önce `loadOptions.setSupportVml(true)` ayarlandığından emin olun. |
+| Yükleme sonrası resimler eksik | Göreceli yollar çözülemedi | **set html base uri** (`loadOptions.setBaseUri(...)`) kullanarak doğru klasöre işaret edin. |
+| Parola korumalı HTML istisna fırlatıyor | Parola sağlanmadı | Parolayı `new HtmlLoadOptions("yourPassword")`'a geçirin. |
+| Form kontrolleri düz metin olarak görünüyor | Yanlış `HtmlControlType` | Gerekli olduğunda `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` veya `FormField` ayarlayın. |
+| Beklenmeyen uyarılar | İşlenmemiş HTML öğeleri | Uyarıları yakalamak ve incelemek için `IWarningCallback` uygulayın. |
+
+## Sıkça Sorulan Sorular
+
+**S: VML ve modern SVG grafiklerini içeren HTML dosyalarını yükleyebilir miyim?**  
+C: Evet. VML'i `setSupportVml(true)` ile etkinleştirin; SVG otomatik olarak Aspose.Words tarafından işlenir.
+
+**S: Dijital sertifika kullanmadan bir HTML belgesini nasıl şifrelerim?**  
+C: Parola kabul eden `HtmlLoadOptions` yapıcıyı kullanın ve parolayı ayarladıktan sonra belgeyi `Document.save(..., SaveFormat.HTML)` ile kaydedin.
+
+**S: Temel URI var olmayan bir klasöre işaret ederse ne olur?**  
+C: Aspose.Words eksik kaynaklar için bir `FileNotFoundException` fırlatır. Yüklemeden önce yolu doğrulayın.
+
+**S: Tüm HTML form öğeleri için varsayılan kontrol tipini değiştirmek mümkün mü?**  
+C: Evet. Global olarak uygulamak için `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` kullanın.
+
+**S: Uyarı geri çağrıları thread‑safe mi?**  
+C: Belgeleri eşzamanlı olarak yüklemeyi planlıyorsanız, geri çağrı uygulaması thread‑safe olmalıdır. Senkronize koleksiyonlar veya thread‑local depolama kullanın.
+
+---
+
+**Son Güncelleme:** 2026-02-06  
+**Test Edilen Versiyon:** Aspose.Words for Java 25.3  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

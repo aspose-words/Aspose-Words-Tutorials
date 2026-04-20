@@ -1,9 +1,16 @@
 ---
-"date": "2025-03-28"
-"description": "Hướng dẫn mã cho Aspose.Words Java"
-"title": "Làm chủ Aspose.Words cho Java&#58; Xử lý ngoại lệ và định dạng"
-"url": "/vi/java/document-operations/aspose-words-java-handling-exceptions-formats/"
-"weight": 1
+date: '2026-02-06'
+description: Tìm hiểu cách xác minh chữ ký số, phát hiện mã hoá tệp và xử lý ngoại
+  lệ bằng Aspose.Words cho Java.
+keywords:
+- Aspose.Words for Java
+- FileCorruptedException handling
+- file encoding detection
+- digital signature verification
+- extract images from documents
+title: Xác minh Chữ ký số với Aspose.Words cho Java
+url: /vi/java/document-operations/aspose-words-java-handling-exceptions-formats/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,33 +19,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Làm chủ Aspose.Words: Xử lý ngoại lệ và định dạng tệp trong Java
+# Xác minh Chữ ký số và Xử lý Ngoại lệ & Định dạng với Aspose.Words cho Java
 
 ## Giới thiệu
 
-Bạn có đang gặp phải những thách thức khi xử lý tài liệu trong Java, đặc biệt là khi xử lý lỗi tệp hoặc phát hiện mã hóa không? Với "Aspose.Words for Java", bạn có thể quản lý liền mạch những vấn đề này và nhiều vấn đề khác. Hướng dẫn này sẽ hướng dẫn bạn cách xử lý các ngoại lệ như `FileCorruptedException`phát hiện mã hóa, làm việc với chữ ký số và trích xuất hình ảnh—tất cả đều sử dụng thư viện Aspose.Words mạnh mẽ.
+Bạn có cần **verify digital signature** trên các tài liệu Word đồng thời xử lý các tệp bị hỏng, phát hiện mã hoá, hoặc trích xuất hình ảnh nhúng không? Với **Aspose.Words for Java**, bạn có thể giải quyết tất cả những thách thức này trong một API sạch sẽ. Hướng dẫn này sẽ dẫn bạn qua việc bắt `FileCorruptedException`, phát hiện mã hoá tệp, ánh xạ các loại media, kiểm tra mã hoá, xác minh chữ ký số, tự động lưu các định dạng được phát hiện, và trích xuất hình ảnh từ các tệp Word.
 
-**Những gì bạn sẽ học được:**
-- Cách phát hiện và xử lý ngoại lệ hỏng tệp trong Java.
-- Phát hiện mã hóa tệp cho tài liệu HTML.
-- Ánh xạ các loại phương tiện sang các định dạng tải/lưu Aspose tương ứng.
-- Phát hiện trạng thái mã hóa tài liệu và chữ ký số.
-- Trích xuất hình ảnh từ tài liệu một cách hiệu quả.
+**Bạn sẽ học được**
 
-Với những kỹ năng này, bạn sẽ được trang bị tốt để giải quyết các nhiệm vụ xử lý tài liệu phức tạp một cách dễ dàng. Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi thiết lập môi trường của bạn!
+- Bắt và xử lý các ngoại lệ hỏng tệp trong Java.  
+- **detect file encoding java** cho tài liệu HTML hoặc văn bản.  
+- **detect file format java** và ánh xạ các loại media sang định dạng lưu của Aspose.  
+- **detect document encryption** và làm việc với các tệp được mã hoá.  
+- **verify digital signature** trên tài liệu Word.  
+- **extract images from word** tài liệu để tái sử dụng hoặc phân tích.
 
-## Điều kiện tiên quyết
+Hãy chắc chắn môi trường phát triển của bạn đã sẵn sàng trước khi chúng ta bắt đầu với mã.
 
-Để làm theo hướng dẫn này, hãy đảm bảo bạn có:
-- Đã cài đặt Java Development Kit (JDK) phiên bản 8 trở lên.
-- Hiểu biết cơ bản về lập trình Java và xử lý ngoại lệ.
-- Maven hoặc Gradle để quản lý sự phụ thuộc.
+## Câu trả lời nhanh
+- **Làm thế nào để tôi xác minh một chữ ký số?** Sử dụng `FileFormatUtil.detectFileFormat(...).hasDigitalSignature()`.  
+- **Ngoại lệ nào cho biết tệp bị hỏng?** `FileCorruptedException`.  
+- **Aspose.Words có thể phát hiện mã hoá HTML không?** Có, thông qua `FileFormatUtil.detectFileFormat`.  
+- **Có cách nào để tự động lưu một tài liệu có phần mở rộng không xác định không?** Chuyển đổi định dạng tải được phát hiện sang định dạng lưu bằng `FileFormatUtil.loadFormatToSaveFormat`.  
+- **Làm thế nào để tôi trích xuất hình ảnh từ tệp Word?** Duyệt qua các nút `Shape` và gọi `shape.getImageData().save(...)`.
 
-### Thư viện và thiết lập môi trường cần thiết
-Đảm bảo dự án của bạn bao gồm thư viện Aspose.Words. Dưới đây là hướng dẫn thiết lập sử dụng Maven và Gradle:
+## Yêu cầu trước
 
-**Chuyên gia:**
+- Java Development Kit (JDK) 8 hoặc mới hơn.  
+- Kiến thức cơ bản về Java, đặc biệt là xử lý ngoại lệ.  
+- Maven hoặc Gradle để quản lý phụ thuộc.
+
+### Thư viện cần thiết và Cài đặt môi trường
+Add Aspose.Words to your project:
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -47,17 +60,16 @@ Với những kỹ năng này, bạn sẽ được trang bị tốt để giải
 </dependency>
 ```
 
-**Cấp độ:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Các bước xin cấp giấy phép
-Bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để khám phá toàn bộ khả năng của Aspose.Words for Java trước khi mua.
+### Các bước lấy giấy phép
+Bắt đầu với bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để mở khóa toàn bộ tính năng trước khi mua.
 
-## Thiết lập Aspose.Words
+## Cài đặt Aspose.Words
 
-Để bắt đầu sử dụng Aspose.Words, hãy tích hợp thư viện vào dự án của bạn như được hiển thị ở trên và thiết lập giấy phép hợp lệ. Sau đây là cách bạn có thể khởi tạo:
+Initialize the library and apply your license:
 
 ```java
 import com.aspose.words.License;
@@ -66,17 +78,14 @@ License license = new License();
 license.setLicense("Aspose.Words.lic");
 ```
 
-Thiết lập này cho phép bạn tận dụng tất cả các tính năng mà không có bất kỳ hạn chế nào.
+Bây giờ bạn đã sẵn sàng sử dụng toàn bộ API mà không bị giới hạn đánh giá.
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-### Xử lý FileCorruptedException
+### Cách xử lý FileCorruptedException trong Java
 
-**Tổng quan:**
-Xử lý lỗi tệp một cách khéo léo là rất quan trọng đối với các ứng dụng xử lý tài liệu mạnh mẽ.
-
-#### Bắt ngoại lệ
-Để bắt một `FileCorruptedException` khi tải một tài liệu có khả năng bị hỏng, hãy sử dụng mã sau:
+**Tổng quan**  
+Xử lý đầu vào bị hỏng một cách nhẹ nhàng ngăn ứng dụng của bạn bị sập.
 
 ```java
 import com.aspose.words.Document;
@@ -88,15 +97,13 @@ try {
     System.out.println(e.getMessage());
 }
 ```
-**Giải thích:** Mã này sẽ cố gắng tải một tài liệu và phát hiện những ngoại lệ liên quan đến lỗi tệp, ghi lại thông báo lỗi để điều tra thêm.
 
-### Phát hiện mã hóa trong các tệp HTML
+Khối catch ghi lại lỗi, cho bạn cơ hội thông báo cho người dùng hoặc thử lại với tệp khác.
 
-**Tổng quan:**
-Việc phát hiện mã hóa chính xác của tệp HTML sẽ đảm bảo tệp đó được xử lý chính xác.
+### Cách phát hiện mã hoá tệp java
 
-#### Phát hiện mã hóa
-Sử dụng Aspose.Words để phát hiện và xác minh định dạng tệp và mã hóa:
+**Tổng quan**  
+Phát hiện đúng mã hoá của tệp HTML đảm bảo các ký tự hiển thị đúng như mong muốn.
 
 ```java
 import com.aspose.words.FileFormatInfo;
@@ -106,15 +113,13 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat("YOUR_DOCUMENT_DIRECTORY/D
 System.out.println("Load Format: " + LoadFormat.toString(info.getLoadFormat()));
 System.out.println("Encoding: " + (info.getEncoding() != null ? info.getEncoding().name() : "None"));
 ```
-**Giải thích:** Đoạn mã này phát hiện định dạng tệp và mã hóa của tài liệu HTML, đảm bảo nó khớp với các giá trị mong đợi.
 
-### Ánh xạ các loại phương tiện truyền thông sang định dạng tệp
+Đoạn mã in ra cả định dạng tải được phát hiện và mã ký tự.
 
-**Tổng quan:**
-Việc chuyển đổi chuỗi loại phương tiện sang định dạng tải/lưu của Aspose giúp tăng cường khả năng tương tác với nhiều loại nội dung khác nhau.
+### Cách phát hiện định dạng tệp java
 
-#### Sử dụng tiện ích loại nội dung
-Sau đây là cách bạn có thể ánh xạ chuỗi loại phương tiện:
+**Tổng quan**  
+Ánh xạ một MIME type (loại media) sang định dạng nội bộ của Aspose giúp đơn giản hoá việc xử lý loại nội dung.
 
 ```java
 import com.aspose.words.FileFormatUtil;
@@ -122,15 +127,13 @@ import com.aspose.words.FileFormatUtil;
 FileFormatInfo info = FileFormatUtil.contentTypeToSaveFormat("image/jpeg");
 System.out.println("Save Format: " + info.getLoadFormat());
 ```
-**Giải thích:** Mã này ánh xạ `image/jpeg` kiểu nội dung sang định dạng lưu của Aspose, hỗ trợ cho các tác vụ chuyển đổi tệp.
 
-### Phát hiện mã hóa tài liệu
+Việc chuyển đổi này hữu ích khi bạn nhận tệp qua HTTP và cần quyết định cách xử lý chúng.
 
-**Tổng quan:**
-Việc phát hiện xem tài liệu có được mã hóa hay không sẽ đảm bảo việc xử lý và kiểm soát truy cập an toàn.
+### Cách phát hiện mã hoá tài liệu
 
-#### Kiểm tra mã hóa
-Để kiểm tra trạng thái mã hóa:
+**Tổng quan**  
+Biết tài liệu có được mã hoá hay không cho phép bạn quyết định có nên yêu cầu mật khẩu hay không.
 
 ```java
 import com.aspose.words.Document;
@@ -144,15 +147,13 @@ doc.save("YOUR_OUTPUT_DIRECTORY/File.DetectDocumentEncryption.odt", saveOptions)
 FileFormatInfo info = FileFormatUtil.detectFileFormat("YOUR_OUTPUT_DIRECTORY/File.DetectDocumentEncryption.odt");
 System.out.println("Is Encrypted: " + info.isEncrypted());
 ```
-**Giải thích:** Đoạn mã này lưu tài liệu bằng cách mã hóa và sau đó kiểm tra xem tài liệu đó đã được mã hóa hay chưa.
 
-### Phát hiện chữ ký số
+Mã đầu tiên tạo một tệp ODT được mã hoá, sau đó xác minh trạng thái mã hoá của nó.
 
-**Tổng quan:**
-Xác minh chữ ký số đảm bảo tính xác thực của tài liệu.
+### Cách xác minh chữ ký số
 
-#### Phát hiện chữ ký
-Để phát hiện chữ ký số:
+**Tổng quan**  
+Xác minh chữ ký số xác nhận tính xác thực và toàn vẹn của tài liệu.
 
 ```java
 import com.aspose.words.FileFormatInfo;
@@ -161,15 +162,13 @@ import org.bouncycastle.cert.jcajce.JcaCertStore;
 FileFormatInfo info = FileFormatUtil.detectFileFormat("YOUR_DOCUMENT_DIRECTORY/Document.docx");
 System.out.println("Has Digital Signature: " + info.hasDigitalSignature());
 ```
-**Giải thích:** Mã này kiểm tra xem tài liệu có chứa chữ ký số hay không, xác nhận tính toàn vẹn của tài liệu.
 
-### Lưu tài liệu vào các định dạng đã phát hiện
+Nếu `hasDigitalSignature()` trả về `true`, tài liệu có một chữ ký hợp lệ.
 
-**Tổng quan:**
-Tự động lưu tài liệu theo đúng định dạng dựa trên các loại tệp được phát hiện giúp tối ưu hóa hiệu quả quy trình làm việc.
+### Lưu tài liệu sang định dạng đã phát hiện
 
-#### Chức năng tự động lưu
-Sau đây là cách bạn có thể lưu tài liệu theo định dạng đã phát hiện:
+**Tổng quan**  
+Tự động lưu tài liệu ở định dạng gốc của nó giúp đơn giản hoá quy trình xử lý hàng loạt.
 
 ```java
 import com.aspose.words.Document;
@@ -182,15 +181,13 @@ Document doc = new Document(docStream);
 int saveFormat = FileFormatUtil.loadFormatToSaveFormat(info.getLoadFormat());
 doc.save("YOUR_OUTPUT_DIRECTORY/Detected_Format.docx", saveFormat);
 ```
-**Giải thích:** Đoạn mã này phát hiện định dạng của tài liệu không có phần mở rộng và lưu lại theo định dạng đó.
 
-### Trích xuất hình ảnh từ tài liệu
+Ngay cả khi không có phần mở rộng tệp, Aspose.Words vẫn có thể xác định định dạng đúng và lưu nó một cách thích hợp.
 
-**Tổng quan:**
-Việc trích xuất hình ảnh từ tài liệu có thể rất cần thiết để phân tích hoặc sử dụng lại nội dung.
+### Cách trích xuất hình ảnh từ word
 
-#### Quá trình trích xuất hình ảnh
-Để trích xuất hình ảnh:
+**Tổng quan**  
+Việc trích xuất hình ảnh nhúng cho phép tái sử dụng chúng trong các trang web, bộ sưu tập hoặc dự án phân tích dữ liệu.
 
 ```java
 import com.aspose.words.Document;
@@ -210,71 +207,76 @@ for (Shape shape : (Iterable<Shape>) shapes) {
     }
 }
 ```
-**Giải thích:** Mã này lặp lại các hình dạng trong tài liệu, lưu lại từng hình ảnh tìm thấy.
+
+Mỗi hình ảnh được lưu với tên tệp tuần tự và phần mở rộng tệp đúng.
 
 ## Ứng dụng thực tế
 
-1. **Dịch vụ xác thực tài liệu:**
-   Sử dụng Aspose.Words để xác thực tính toàn vẹn của tệp và phát hiện mã hóa để trao đổi tài liệu an toàn.
-   
-2. **Hệ thống quản lý nội dung (CMS):**
-   Tự động phát hiện loại phương tiện và định dạng để hợp lý hóa việc tải lên và quản lý nội dung.
+1. **Dịch vụ xác thực tài liệu** – Phát hiện hỏng, mã hoá và chữ ký trước khi chấp nhận tệp từ đối tác.  
+2. **Hệ thống quản lý nội dung (CMS)** – Tự động phát hiện loại media và mã hoá để đơn giản hoá việc tải lên.  
+3. **Công cụ pháp lý & tuân thủ** – Xác minh chữ ký số để đảm bảo tài liệu không bị giả mạo.  
+4. **Quy trình trích xuất dữ liệu** – Lấy hình ảnh từ hợp đồng, báo cáo hoặc tài liệu marketing để lưu trữ.  
+5. **Báo cáo tự động** – Lưu báo cáo được tạo ra ở định dạng ban đầu, ngay cả khi thiếu phần mở rộng.
 
-3. **Xác minh chữ ký số:**
-   Thực hiện kiểm tra chữ ký trong phần mềm pháp lý để đảm bảo tính xác thực của tài liệu trước khi xử lý.
+## Các cân nhắc về hiệu năng
 
-4. **Công cụ trích xuất dữ liệu:**
-   Trích xuất hình ảnh từ tài liệu để lưu trữ kỹ thuật số hoặc phân tích dữ liệu.
-
-5. **Tạo báo cáo tự động:**
-   Lưu báo cáo theo định dạng phù hợp dựa trên loại tệp được phát hiện, đảm bảo khả năng tương thích trên nhiều nền tảng.
-
-## Cân nhắc về hiệu suất
-
-- Sử dụng cách xử lý ngoại lệ hiệu quả để giảm thiểu chi phí hiệu suất.
-- Lưu trữ các định dạng và mã hóa tài liệu thường dùng để tăng tốc thời gian xử lý.
-- Tối ưu hóa việc sử dụng tài nguyên bằng cách quản lý việc phân bổ bộ nhớ cho các tài liệu lớn.
-
-## Phần kết luận
-
-Hướng dẫn này cung cấp hướng dẫn toàn diện để thành thạo Aspose.Words trong Java, tập trung vào việc xử lý các ngoại lệ và định dạng tệp. Bạn đã học cách phát hiện lỗi tệp, xử lý mã hóa, quản lý chữ ký số, v.v. Để nâng cao hơn nữa kỹ năng của mình, hãy khám phá các tính năng bổ sung của Aspose.Words và tích hợp chúng vào các dự án của bạn.
-
-**Các bước tiếp theo:** Thử nghiệm với các loại tài liệu và kịch bản khác nhau để củng cố hiểu biết của bạn. Cân nhắc tích hợp Aspose.Words với các thư viện Java khác để có giải pháp xử lý tài liệu mạnh mẽ.
+- Sử dụng xử lý ngoại lệ mục tiêu để tránh chi phí không cần thiết của try/catch.  
+- Lưu vào bộ nhớ đệm kết quả `FileFormatInfo` cho các loại tệp được xử lý thường xuyên.  
+- Giải phóng các đối tượng `Document` kịp thời để giải phóng bộ nhớ khi xử lý tệp lớn.
 
 ## Phần Câu hỏi thường gặp
 
-**Câu hỏi 1: Làm thế nào để xử lý các định dạng tệp không được hỗ trợ trong Aspose.Words?**
-A1: Sử dụng `FileFormatUtil` lớp để phát hiện các định dạng được hỗ trợ và triển khai cơ chế dự phòng cho các định dạng không được hỗ trợ.
+**Q1: Làm thế nào để tôi xử lý các định dạng tệp không được hỗ trợ trong Aspose.Words?**  
+A1: Sử dụng `FileFormatUtil` để phát hiện các định dạng được hỗ trợ trước; đối với các loại không được hỗ trợ, chuyển sang bộ phân tích tùy chỉnh hoặc từ chối tệp.
 
-**Câu hỏi 2: Aspose.Words có thể xử lý các tài liệu lớn một cách hiệu quả không?**
-A2: Có, nhưng hãy đảm bảo quản lý bộ nhớ tối ưu bằng cách cấu hình cài đặt JVM một cách phù hợp.
+**Q2: Aspose.Words có thể xử lý tài liệu lớn một cách hiệu quả không?**  
+A2: Có, nhưng cần điều chỉnh cài đặt heap của JVM và cân nhắc sử dụng API streaming cho các tệp rất lớn.
 
-**Câu hỏi 3: Những vấn đề thường gặp khi phát hiện chữ ký số là gì?**
-A3: Đảm bảo tài liệu được ký đúng bằng chứng chỉ hợp lệ. Xác minh rằng tất cả các thư viện cần thiết để xác minh chữ ký đều được bao gồm.
+**Q3: Những cạm bẫy phổ biến khi phát hiện chữ ký số là gì?**  
+A3: Đảm bảo chuỗi chứng chỉ ký được tin cậy và các thư viện BouncyCastle cần thiết có trong classpath.
 
-**Câu hỏi 4: Làm thế nào để thiết lập Aspose.Words trong một dự án Java hiện có?**
-A4: Thêm phụ thuộc Maven hoặc Gradle, cấu hình giấy phép và đảm bảo môi trường của bạn đáp ứng các điều kiện tiên quyết.
+**Q4: Làm thế nào để tôi tích hợp Aspose.Words vào một dự án Maven hiện có?**  
+A4: Thêm phụ thuộc Maven đã hiển thị ở trên, đặt file giấy phép của bạn vào classpath, và xây dựng lại dự án.
 
-**Câu hỏi 5: Có hạn chế nào khi trích xuất hình ảnh bằng Aspose.Words không?**
-A5: Việc trích xuất thường hiệu quả, nhưng hiệu suất có thể thay đổi tùy theo kích thước và độ phức tạp của tài liệu.
+**Q5: Có giới hạn nào về hiệu năng khi trích xuất hình ảnh không?**  
+A5: Việc trích xuất nhanh cho các tài liệu điển hình; các tệp có rất nhiều hình ảnh có thể cần tinh chỉnh bộ nhớ thêm.
+
+## Câu hỏi thường gặp
+
+**Q: Aspose.Words có hỗ trợ các tệp Word được bảo vệ bằng mật khẩu (được mã hoá) không?**  
+A: Có. Tải tài liệu với mật khẩu thích hợp hoặc sử dụng `LoadOptions` để chỉ định các tham số giải mã.
+
+**Q: Tôi có thể xác minh chữ ký số mà không tải toàn bộ tài liệu không?**  
+A: Phương thức `FileFormatUtil.detectFileFormat` chỉ đọc thông tin header cần thiết cho việc phát hiện chữ ký, nên nhẹ nhàng.
+
+**Q: Có cách nào để xử lý hàng loạt nhiều tệp để phát hiện mã hoá không?**  
+A: Lặp qua các tệp, gọi `detectFileFormat` cho mỗi tệp và ghi lại `info.isEncrypted()` – cách tiếp cận này mở rộng tốt.
+
+**Q: Aspose.Words có thể trích xuất những định dạng hình ảnh nào?**  
+A: PNG, JPEG, BMP, GIF, TIFF và EMF được hỗ trợ qua `shape.getImageData().getImageType()`.
+
+**Q: Tôi có cần giấy phép riêng cho mỗi sản phẩm Aspose không?**  
+A: Có, mỗi thư viện Aspose (Words, PDF, Cells, v.v.) yêu cầu một file giấy phép riêng.
 
 ## Tài nguyên
 
-- **Tài liệu:** [Tài liệu Java Aspose.Words](https://reference.aspose.com/words/java/)
-- **Tải xuống:** [Bản phát hành Java của Aspose.Words](https://releases.aspose.com/words/java/)
-- **Mua:** [Mua Aspose.Words](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí:** [Nhận bản dùng thử miễn phí Aspose.Words](https://releases.aspose.com/words/java/)
-- **Giấy phép tạm thời:** [Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- **Ủng hộ:** [Diễn đàn Aspose cho các từ](https://forum.aspose.com/c/words/10)
+- **Tài liệu:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
+- **Tải về:** [Aspose.Words Java Releases](https://releases.aspose.com/words/java/)
+- **Mua:** [Buy Aspose.Words](https://purchase.aspose.com/buy)
+- **Dùng thử miễn phí:** [Get a Free Trial of Aspose.Words](https://releases.aspose.com/words/java/)
+- **Giấy phép tạm thời:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Hỗ trợ:** [Aspose Forum for Words](https://forum.aspose.com/c/words/10)
 
-Bằng cách thành thạo các kỹ thuật này, bạn sẽ có đủ khả năng xử lý các thách thức về xử lý tài liệu một cách tự tin bằng cách sử dụng Aspose.Words trong Java.
+---
+
+**Cập nhật lần cuối:** 2026-02-06  
+**Được kiểm tra với:** Aspose.Words 25.3 for Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
