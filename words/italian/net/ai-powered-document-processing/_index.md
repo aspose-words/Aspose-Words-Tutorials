@@ -39,9 +39,10 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | Titolo | Descrizione |
 | --- | --- |
 | [Lavorare con il modello AI](./working-with-ai-model/) | Scopri come utilizzare Aspose.Words per .NET per riassumere i documenti con l'intelligenza artificiale. Semplici passaggi per migliorare la gestione dei documenti. |
-| [Lavorare con il modello AI di Google](./working-with-google-ai-model/) Migliora l'elaborazione dei tuoi documenti con Aspose.Words per .NET e Google AI per creare riepiloghi concisi senza sforzo. |
+| [Lavorare con il modello AI di Google](./working-with-google-ai-model/) | Migliora l'elaborazione dei tuoi documenti con Aspose.Words per .NET e Google AI per creare riepiloghi concisi senza sforzo. |
 | [Lavorare con il modello di intelligenza artificiale aperta](./working-with-open-ai-model/) | Ottieni un riepilogo efficiente dei documenti utilizzando Aspose.Words per .NET con i potenti modelli di OpenAI. Scopri subito questa guida completa. |
 | [Lavorare con le opzioni di riepilogo](./working-with-summarize-options/) | Impara a riassumere in modo efficace i documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata sull'integrazione dei modelli di intelligenza artificiale per ottenere informazioni rapide. |
+| [Controllare la grammatica in C# con Aspose.Words AI](./how-to-check-grammar-in-c-with-aspose-words-ai/) | Scopri come verificare la grammatica dei documenti usando l'AI di Aspose.Words in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

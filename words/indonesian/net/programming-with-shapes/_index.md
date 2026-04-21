@@ -32,12 +32,12 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Dapatkan Titik Batas Bentuk Aktual](./get-actual-shape-bounds-points/) | Temukan cara mendapatkan titik batas bentuk yang sebenarnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. Pelajari manipulasi bentuk yang tepat dengan panduan terperinci ini. Bahasa Indonesia:
 | [Jangkar Vertikal](./vertical-anchor/) | Pelajari cara mengatur posisi jangkar vertikal untuk kotak teks dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah yang mudah disertakan.Bahasa Indonesia:
 | [Deteksi Bentuk Seni Cerdas](./detect-smart-art-shape/) | Pelajari cara mendeteksi bentuk SmartArt dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan lengkap ini. Sempurna untuk mengotomatiskan alur kerja dokumen Anda. Bahasa Indonesia:
-| [Perbarui Gambar Seni Cerdas](./update-smart-art-drawing/) | Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Pastikan visual Anda selalu akurat. |
+| [Perbarui Gambar Seni Cerdas](./update-smart-art-drawing/) | Pelajari cara memperbarui gambar Smart Art dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan langkah demi langkah ini. Pastikan visual Anda selalu akurat. |
 | [Buat Bentuk Persegi Panjang di Word dengan Aspose.Words – Panduan langkah demi langkah](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words dengan panduan langkah demi langkah. |
 | [Buat bentuk persegi panjang di Word menggunakan C# – Panduan Langkah demi Langkah](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 | [Tutorial Bayangan Bentuk Aspose.Words – Tambahkan Bayangan pada Bentuk Word di C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. Bahasa Indonesia: |
-
 | [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Berbayang – Panduan Langkah demi Langkah](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk persegi panjang berbayang dengan Aspose.Words untuk .NET secara langkah demi langkah. |
+| [Buat Dokumen Word dengan Persegi Panjang Berbayang – Panduan Lengkap](./create-word-document-with-shadowed-rectangle-complete-guide/) | Pelajari cara membuat dokumen Word dengan persegi panjang berbayang menggunakan Aspose.Words untuk .NET secara langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@
 | [將 PDF 儲存為 Word 格式 (Docx)](./pdf-to-docx/) |透過本詳細的逐步指南了解如何使用 Aspose.Words for .NET 將 PDF 轉換為 Word 文件 (Docx)。非常適合開發人員。 |
 | [使用 Aspose.Words 將 Word 儲存為 PDF – 完整 C# 教學](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Word 檔案儲存為 PDF，提供程式碼範例與最佳實踐。 |
 | [使用 Aspose.Words 將 Docx 儲存為 PDF – 完整 C# 教學](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Docx 檔案儲存為 PDF，提供程式碼範例與最佳實踐。 |
+| [使用 C# 將 Docx 轉換為 PDF – 步驟說明指南](./convert-docx-to-pdf-with-c-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 Docx 檔案轉換為 PDF，提供完整步驟與程式碼範例。 |
+| [從 Word 建立可存取 PDF – 步驟說明指南](./create-accessible-pdf-from-word-step-by-step-guide/) | 了解如何使用 Aspose.Words for .NET 從 Word 建立可存取的 PDF，提供逐步說明與程式碼範例。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

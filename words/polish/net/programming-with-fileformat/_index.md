@@ -27,6 +27,7 @@ Niezależnie od tego, czy chcesz generować raporty, tworzyć niestandardowe dok
 | [Wykryj format pliku dokumentu](./detect-file-format/) | Dowiedz się, jak wykrywać formaty plików dokumentów za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |
 | [Wykryj podpis cyfrowy w dokumencie Word](./detect-document-signatures/) | Dowiedz się, jak wykrywać podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Zweryfikuj zaszyfrowany dokument Word](./verify-encrypted-document/) | Dowiedz się, jak sprawdzić stan szyfrowania dokumentu Word za pomocą Aspose.Words dla .NET, korzystając z tego przewodnika krok po kroku. |
+| [Jak odzyskać DOCX – przewodnik krok po kroku dla uszkodzonych plików](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Dowiedz się, jak przywrócić uszkodzone pliki DOCX przy użyciu Aspose.Words dla .NET w prostym przewodniku krok po kroku. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

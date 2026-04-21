@@ -43,6 +43,8 @@
 | [Πώς να μετονομάσετε εικόνες κατά τη μετατροπή DOCX σε Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Μάθετε πώς να μετονομάσετε εικόνες κατά τη μετατροπή DOCX σε Markdown χρησιμοποιώντας Aspose.Words για .NET. |
 | [Αποθήκευση docx ως markdown με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
 | [Αποθήκευση εικόνων Word – Μετατροπή Word σε Markdown με Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) | Μάθετε πώς να αποθηκεύσετε εικόνες από έγγραφα Word και να τα μετατρέψετε σε Markdown με Aspose.Words. |
+| [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός για Εξαγωγή Εικόνων και Μετατροπή DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως Markdown, εξάγοντας εικόνες και μετατρέποντας DOCX, με πλήρη οδηγό. |
+| [Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός για Εξαγωγή Word σε Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε Markdown με πλήρη οδηγό βήμα‑βήμα χρησιμοποιώντας Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

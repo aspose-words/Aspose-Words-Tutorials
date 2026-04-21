@@ -27,7 +27,7 @@ Aspose.Words for .NET の Words 処理に関するチュートリアルは、ア
 | [ドキュメントファイル形式の検出](./detect-file-format/) この包括的なステップバイステップ ガイドで、Aspose.Words for .NET を使用してドキュメント ファイル形式を検出する方法を学習します。 |
 | [Word文書のデジタル署名を検出する](./detect-document-signatures/) ステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書内のデジタル署名を検出する方法を学習します。 |
 | [暗号化されたWord文書を検証する](./verify-encrypted-document/) このステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書の暗号化状態を確認する方法を学習します。 |
-
+| [DOCX の復元方法 – 破損ファイルのステップバイステップ ガイド](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) 破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

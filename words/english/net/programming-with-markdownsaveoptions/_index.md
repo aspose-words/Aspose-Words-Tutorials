@@ -40,8 +40,10 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [Convert Word to Markdown – Embed Images as Base64](./convert-word-to-markdown-embed-images-as-base64/) | Learn how to embed images as Base64 when converting Word documents to Markdown using Aspose.Words for .NET. |
 | [How to Save Markdown from Word – Complete C# Guide](./how-to-save-markdown-from-word-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words in C# with a comprehensive step-by-step guide. |
 | [How to Save Markdown from Word – Complete Guide](./how-to-save-markdown-from-word-complete-guide/) | Learn how to save Word documents as Markdown using Aspose.Words with a comprehensive step-by-step guide. |
+| [How to Save Markdown from Word – Complete Guide to Extract Images and Convert DOCX](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/) | Learn how to extract images and convert DOCX to Markdown using Aspose.Words for .NET in a complete step‑by‑step guide. |
 | [How to Rename Images When Converting DOCX to Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Learn how to rename images during DOCX to Markdown conversion using Aspose.Words for .NET. |
 | [Save Word Images – Convert Word to Markdown with Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) |  |
+| [Convert DOCX to Markdown – Complete Guide to Export Word to Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/) | Learn how to convert DOCX files to Markdown with a comprehensive guide covering export options using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

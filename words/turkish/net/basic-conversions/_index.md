@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Temel Dönüşümler
+# Temel Dönüşmler
 
 
 Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge dönüştürmelerinde size yol gösterir. Eğitimler, Word belgelerini PDF, HTML, EPUB, resimler ve daha fazlası gibi farklı biçimlere dönüştürmek için adım adım açıklamalar, ayrıntılı kaynak kodu ve pratik örnekler sunar. Ayrıca dönüştürme seçeneklerini nasıl belirleyeceğinizi, yazı tiplerini, resimleri ve düzenleri nasıl yöneteceğinizi de öğreneceksiniz. Bu kaynak, Aspose.Words for .NET kullanarak belge dönüştürmelerini otomatikleştirmek isteyen geliştiriciler için olmazsa olmazdır ve dönüştürme süreci üzerinde tam esneklik ve kontrol sağlar.
@@ -24,6 +24,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [Doc'u Docx'e Dönüştür](./doc-to-docx/) | Aspose.Words for .NET kullanarak DOC'u DOCX'e nasıl dönüştüreceğinizi öğrenin. Kod örnekleriyle adım adım kılavuz. Geliştiriciler için mükemmel. |
 | [Docx'i Rtf'ye Dönüştür](./docx-to-rtf/) | Aspose.Words for .NET kullanarak DOCX'i RTF'ye nasıl dönüştüreceğinizi adım adım kılavuzumuzla öğrenin. Sorunsuz belge işleme için kolay dönüştürme. |  
 | [Word Dosyasını PDF'ye Dönüştür](./docx-to-pdf/) Aspose.Words for .NET rehberimizle Word dosyalarını PDF'ye nasıl kolayca dönüştürebileceğinizi öğrenin. Hızlı ve güvenilir belge dönüşümü arayan geliştiriciler için mükemmeldir. |
+| [Docx'i C# ile PDF'ye Dönüştür – Adım Adım Kılavuz](./convert-docx-to-pdf-with-c-step-by-step-guide/) | Aspose.Words for .NET ve C# kullanarak DOCX dosyalarını PDF'ye dönüştürmenin adım adım rehberi. |
 | [Word'ü PDF olarak kaydet – Aspose.Words Tam C# Rehberi](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerini PDF'ye dönüştürmenin adım adım rehberi. |
 | [Docx'i PDF olarak kaydet – Aspose.Words Tam C# Rehberi](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyalarını PDF'ye dönüştürmenin ayrıntılı rehberi. |
 | [C# ile Word'ü PDF'ye Dönüştür – Aspose.Words Rehberi](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerini PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin. |
@@ -36,6 +37,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [PDF'yi Jpeg olarak kaydet](./pdf-to-jpeg/) | Aspose.Words for .NET kullanarak PDF'leri zahmetsizce JPEG'lere dönüştürün. Örnekler ve SSS içeren ayrıntılı kılavuzumuzu takip edin. Geliştiriciler ve meraklılar için mükemmel. |
 | [PDF'yi Word Formatına (Docx) Kaydet](./pdf-to-docx/) | Bu ayrıntılı, adım adım kılavuzda Aspose.Words for .NET kullanarak bir PDF'yi Word belgesine (Docx) nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için mükemmel. |
 | [Word'den LaTeX'e Nasıl Dışa Aktarılır – Adım Adım Kılavuz](./how-to-export-latex-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX formatına nasıl dışa aktarım yapacağınızı adım adım öğrenin. |
+| [Word'den Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
