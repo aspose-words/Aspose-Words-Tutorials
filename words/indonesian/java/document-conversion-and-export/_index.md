@@ -93,14 +93,32 @@ Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java
 ### [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Pelajari cara mengonversi file DOCX menjadi markdown dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
 
+### [Simpan docx sebagai markdown – Panduan Langkah‑per‑Langkah Java](./save-docx-as-markdown-step-by-step-java-guide/)
+Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
+### [Simpan docx sebagai markdown dengan Java – Panduan Lengkap Langkah‑per‑Langkah](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Pelajari cara menyimpan file DOCX menjadi markdown menggunakan Java dengan Aspose.Words dalam panduan langkah demi langkah lengkap.
+
+### [Unggah Gambar ke CDN Saat Mengonversi DOCX ke Markdown – Panduan Java Lengkap](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+Pelajari cara mengunggah gambar ke CDN secara otomatis saat mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words for Java.
+
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
 
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
+### [Cara Menyimpan DOCX sebagai TXT – Panduan Lengkap](./how-to-save-docx-as-txt-complete-guide/)
+Pelajari cara menyimpan file DOCX menjadi TXT dengan Aspose.Words for Java dalam panduan lengkap langkah demi langkah.
+
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Buat PDF Aksesibel dari DOCX menggunakan Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas dengan Aspose.Words.
+
+### [Buat PDF Aksesibel – Panduan Langkah‑per‑Langkah Mengonversi Word ke PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesibilitas dalam panduan langkah demi langkah ini.
 
 ## Pertanyaan yang Sering Diajukan
 

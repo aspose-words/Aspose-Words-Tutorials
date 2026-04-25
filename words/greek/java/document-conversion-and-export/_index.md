@@ -66,7 +66,7 @@ weight: 22
 
 ## Εκπαιδευτικά Σεμινάρια Μετατροπής και Εξαγωγής Εγγράφων
 ### [Δημιουργία Προσαρμοσμένων Ετικετών Barcode στο Aspose.Words for Java](./generating-custom-barcode-labels/)
-Δημιουργήστε Προσαρμοσμένες Ετικέτες Barcode στο Aspose.Words for Java. Μάθετε πώς να δημιουργείτε εξατομικευμένες λύσεις barcode χρησιμοποιώντας το Aspose.Words for Java σε αυτόν τον οδηγό βήμα‑βήμα.
+Δημιουργήστε Προσαρμοσμένες Ετικέτες Barcode ...
 
 ### [Χρήση Δημιουργίας Barcode στο Aspose.Words for Java](./using-barcode-generation/)
 Μάθετε πώς να δημιουργείτε προσαρμοσμένα barcode σε Java χρησιμοποιώντας το Aspose.Words for Java. Οδηγός βήμα‑βήμα με κώδικα προέλευσης για δημιουργία barcode. Ενισχύστε την αυτοματοποίηση εγγράφων με το Aspose.Words.
@@ -89,7 +89,16 @@ weight: 22
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words for Java. Εξερευνήστε οδηγούς βήμα‑βήμα με κώδικα προέλευσης για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
 
 ### [Μετατροπή docx σε markdown – Εξαγωγή μαθηματικών εξισώσεων σε LaTeX με Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε εξισώσεις Math σε LaTeX χρησιμοποιώντας το Aspose.Words.
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε εξισώσεις Math σε LaTeX χρησιμοποιώντας το Aspose.Words for Java.
+
+### [Αποθήκευση docx ως markdown – Οδηγός βήμα‑βήμα για Java](./save-docx-as-markdown-step-by-step-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown ακολουθώντας βήμα‑βήμα οδηγίες.
+
+### [Αποθήκευση docx ως markdown με Java – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown χρησιμοποιώντας Java και το Aspose.Words, ακολουθώντας πλήρη βήμα‑βήμα οδηγίες.
+
+### [Μεταφόρτωση Εικόνων σε CDN Κατά τη Μετατροπή DOCX σε Markdown – Πλήρης Οδηγός Java](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+Μάθετε πώς να ανεβάζετε εικόνες σε CDN αυτόματα κατά τη μετατροπή αρχείων DOCX σε Markdown χρησιμοποιώντας Aspose.Words for Java.
 
 ### [Πώς να ενσωματώσετε εικόνες σε Markdown κατά τη μετατροπή DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown όταν μετατρέπετε DOCX με Aspose.Words for Java.
@@ -97,11 +106,20 @@ weight: 22
 ### [Αποθήκευση Εγγράφου ως TXT – Σύντομος Οδηγός για Εξαγωγή Μαθηματικών Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Μάθετε πώς να αποθηκεύετε έγγραφα Word ως αρχείο κειμένου TXT, διατηρώντας εξαγόμενα μαθηματικά στοιχεία.
 
+### [Πώς να αποθηκεύσετε DOCX ως TXT – Πλήρης Οδηγός](./how-to-save-docx-as-txt-complete-guide/)
+Μάθετε πώς να αποθηκεύσετε αρχεία DOCX ως TXT με πλήρη οδηγό βήμα‑βήμα, διατηρώντας τη μορφοποίηση και τα δεδομένα.
+
 ### [Aspose.Words σε PDF – Μετατροπή DOCX σε PDF με Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words for Java με λίγες γραμμές κώδικα.
 
 ### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός](./create-accessible-pdf-from-docx-complete-guide/)
-Δημιουργήστε PDF προσβάσιμο από DOCX με πλήρη οδηγίες, εξασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας.
+Δημιουργήστε PDF προσβάσιμο από DOCX με πλήρη οδηγίες, εξασφαλίζοντας συμμόρφωση με πρότυπα προσβασιμότητας.
+
+### [Δημιουργία Προσβάσιμου PDF από DOCX χρησιμοποιώντας το Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Μάθετε πώς να μετατρέψετε DOCX σε προσβάσιμο PDF με το Aspose.Words, διασφαλίζοντας συμμόρφωση με πρότυπα προσβασιμότητας.
+
+### [Δημιουργία Προσβάσιμου PDF – Οδηγός Βήμα‑Βήμα για τη Μετατροπή Word σε PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφο Word, ακολουθώντας βήμα‑βήμα οδηγίες για συμμόρφωση με πρότυπα προσβασιμότητας.
 
 ## Συχνές Ερωτήσεις
 

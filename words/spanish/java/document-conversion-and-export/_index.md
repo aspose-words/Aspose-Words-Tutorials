@@ -92,6 +92,12 @@ Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. 
 ### [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a convertir documentos DOCX a Markdown y exportar ecuaciones matemáticas a LaTeX usando Aspose.Words.
 
+### [Guardar docx como markdown – Guía paso a paso en Java](./save-docx-as-markdown-step-by-step-java-guide/)
+Aprenda a convertir documentos DOCX a archivos markdown usando Aspose.Words for Java con ejemplos claros.
+
+### [Guardar docx como markdown con Java – Guía completa paso a paso](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Aprenda a convertir documentos DOCX a archivos markdown usando Aspose.Words for Java con ejemplos claros y paso a paso.
+
 ### [Guardar documento como TXT – Guía rápida para exportar ecuaciones de Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aprenda a guardar documentos Word como archivos TXT y exportar ecuaciones matemáticas manteniendo el formato.
 
@@ -118,6 +124,18 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
+
+### [Crear PDF accesible desde DOCX usando Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos DOCX usando Aspose.Words.
+
+### [Crear PDF accesible – Guía paso a paso para convertir Word a PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Aprenda a generar PDFs accesibles cumpliendo con PDF/UA a partir de documentos Word usando Aspose.Words for Java.
+
+### [Cómo guardar DOCX como TXT – Guía completa](./how-to-save-docx-as-txt-complete-guide/)
+Aprenda a guardar documentos DOCX como archivos TXT usando Aspose.Words for Java con ejemplos paso a paso.
+
+### [Cargar imágenes a CDN mientras se convierte DOCX a Markdown – Guía completa en Java](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+Aprenda a subir imágenes a un CDN durante la conversión de DOCX a Markdown usando Aspose.Words for Java en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
