@@ -1,26 +1,23 @@
 ---
 category: general
-date: 2026-01-11
-description: Pelajari cara menyimpan dokumen sebagai txt dan mengekspor matematika
-  dari Word ke LaTeX. Panduan langkah demi langkah yang mencakup mengonversi docx
-  ke LaTeX dan mengekspor persamaan ke LaTeX.
+date: 2026-04-24
+description: Simpan dokumen sebagai txt dan konversi Word ke LaTeX dengan Aspose.Words.
+  Pelajari cara mengekspor persamaan matematika Word ke LaTeX dengan cepat.
 draft: false
 keywords:
 - save document as txt
-- how to export math
-- convert docx to latex
-- convert word equations latex
-- export equations to latex
+- convert word to latex
+- convert word equations to latex
+- export word math latex
 language: id
-og_description: Simpan dokumen sebagai txt dan ekspor matematika dari Word ke LaTeX.
-  Tutorial C# lengkap yang mencakup cara mengekspor persamaan ke LaTeX dan mengonversi
-  docx ke LaTeX.
-og_title: Simpan Dokumen sebagai Txt – Ekspor Matematika Word ke LaTeX (Panduan C#)
+og_description: Simpan dokumen sebagai txt dan konversi persamaan Word ke LaTeX menggunakan
+  C#. Panduan lengkap langkah demi langkah dengan kode.
+og_title: Simpan Dokumen sebagai TXT – Ekspor Matematika Word ke LaTeX
 tags:
 - Aspose.Words
 - C#
 - LaTeX
-title: Simpan Dokumen sebagai Txt – Ekspor Matematika Word ke LaTeX dalam C#
+title: Simpan Dokumen sebagai TXT – Ekspor Matematika Word ke LaTeX dalam C#
 url: /id/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/
 ---
 
@@ -28,140 +25,206 @@ url: /id/net/programming-with-officemath/save-document-as-txt-export-word-math-t
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Dokumen sebagai Txt – Ekspor Matematika Word ke LaTeX dalam C#
+# Simpan Dokumen sebagai TXT – Ekspor Word Math ke LaTeX di C#
 
-Pernahkah Anda perlu **save document as txt** sambil mempertahankan setiap persamaan ditampilkan dengan sempurna dalam LaTeX? Anda bukan satu-satunya. Banyak pengembang mengalami kebuntuan ketika objek OfficeMath Word menghilang setelah ekspor teks biasa, meninggalkan kumpulan simbol yang tidak dapat dibaca.  
+Pernahkah Anda perlu **save document as txt** sambil mempertahankan persamaan rumit Anda? Anda bukan satu‑satunya. Fitur bawaan Word “Save as plain text” membuang Office Math, meninggalkan teks yang tidak dapat dibaca. Bagaimana kalau Anda bisa menyimpan persamaan‑persamaan itu, tetapi dalam LaTeX yang bersih?
 
-Berita baik? Dengan beberapa baris C# Anda dapat memberi tahu Aspose.Words untuk menghasilkan file `.txt` di mana setiap objek matematika diubah menjadi kode LaTeX yang bersih. Dalam tutorial ini kami akan membahas langkah‑langkah tepat, menjelaskan **how to export math** dari `.docx`, dan bahkan menyentuh cara alternatif untuk **convert docx to latex** jika Anda tidak menggunakan Aspose.
+Dalam tutorial ini kita akan melangkah melalui cara **convert Word to LaTeX**‑ready text menggunakan Aspose.Words untuk .NET. Pada akhir tutorial Anda akan memiliki file `.txt` di mana setiap persamaan direpresentasikan sebagai markup LaTeX yang tepat, siap ditempelkan ke makalah atau file markdown. Tanpa konverter eksternal, tanpa menyalin‑tempel manual—hanya beberapa baris C#.
 
-Pada akhir tutorial Anda akan memiliki potongan kode yang dapat dijalankan yang **exports equations to latex**, gambaran jelas mengapa setiap pengaturan penting, dan beberapa tips untuk menghindari jebakan umum.
+## Apa yang Akan Anda Pelajari
 
-## Apa yang Anda Butuhkan
+- Cara memuat file `.docx` dengan Aspose.Words.  
+- Mengonfigurasi `TxtSaveOptions` sehingga Office Math diekspor sebagai LaTeX.  
+- Menyimpan hasilnya ke file teks biasa yang dapat dibuka di editor apa pun.  
+- Penanganan kasus tepi untuk persamaan inline vs. display, serta tip cepat untuk memproses batch banyak dokumen.
 
-- **.NET 6+** (kode ini juga berfungsi di .NET Framework, tetapi kami akan menargetkan .NET 6 untuk modernitas)  
-- **Aspose.Words for .NET** paket NuGet (versi percobaan gratis sudah cukup)  
-- File Word (`input.docx`) yang berisi setidaknya satu objek OfficeMath (misalnya rumus yang Anda ketik dengan editor persamaan Word)  
-- IDE apa pun yang Anda suka – Visual Studio, VS Code, Rider – pilihannya terserah Anda.
+### Prasyarat
 
-Itu saja. Tidak ada pustaka tambahan, tidak ada konverter eksternal. Mari kita mulai.
+- .NET 6.0 atau lebih baru (kode ini juga bekerja dengan .NET Framework 4.6+).  
+- Paket NuGet Aspose.Words untuk .NET (`Install-Package Aspose.Words`).  
+- Dokumen Word yang berisi setidaknya satu persamaan (objek Office Math).
 
-![save document as txt example](image.png "Screenshot showing a .txt file with LaTeX equations – save document as txt")
+---
 
-## Langkah 1: Muat Dokumen Sumber dan Siapkan Opsi Penyimpanan TXT
+## Langkah 1: Instal Aspose.Words dan Siapkan Proyek
 
-Hal pertama yang kami lakukan adalah membuka file Word. Kemudian kami membuat instance `TxtSaveOptions` dan memberi tahu Aspose bahwa setiap OfficeMath yang ditemukannya harus diekspor sebagai LaTeX. Inilah inti dari **how to export math** dengan benar.
+Pertama, tambahkan pustaka ke proyek Anda. Buka terminal di folder solusi dan jalankan:
+
+```bash
+dotnet add package Aspose.Words
+```
+
+> **Pro tip:** Jika Anda menggunakan Visual Studio, UI NuGet Package Manager juga dapat dipakai—cari “Aspose.Words” dan klik Install.
+
+Sekarang buat aplikasi console baru (atau letakkan kode ke dalam yang sudah ada). Direktif `using` yang diperlukan adalah:
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
+```
 
-class ExportMathToLatex
+Ini akan membawa kelas `Document` dan tipe `TxtSaveOptions` ke dalam ruang lingkup.
+
+## Langkah 2: Muat Dokumen Sumber
+
+Kita perlu memberi tahu Aspose.Words lokasi file Word yang berisi persamaan. Ganti `YOUR_DIRECTORY/input.docx` dengan jalur sebenarnya di mesin Anda.
+
+```csharp
+// Load the source .docx file
+Document doc = new Document(@"C:\MyDocs\input.docx");
+```
+
+> **Mengapa ini penting:** Memuat dokumen memberi Aspose.Words akses penuh ke objek Office Math internal, yang sebaliknya tidak terlihat oleh pengekspor teks sederhana.
+
+## Langkah 3: Konfigurasikan TxtSaveOptions untuk Ekspor LaTeX
+
+Keajaiban terjadi pada objek `TxtSaveOptions`. Dengan mengatur `OfficeMathExportMode` ke `LaTeX`, setiap persamaan diubah menjadi ekivalen LaTeX‑nya.
+
+```csharp
+// Configure save options to export Office Math as LaTeX
+TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    static void Main()
+    // Export all Office Math objects as LaTeX code
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+
+    // Optional: keep line breaks similar to the original layout
+    PreserveTableLayout = true
+};
+```
+
+> **Bagaimana jika Anda membutuhkan MathML?** Ubah `OfficeMathExportMode` menjadi `MathML`. API yang sama mendukung beberapa format output.
+
+## Langkah 4: Simpan Dokumen sebagai Teks Biasa
+
+Sekarang kita menulis file keluar. File `Math.txt` yang dihasilkan akan berisi teks biasa ditambah fragmen LaTeX untuk setiap persamaan.
+
+```csharp
+// Save the document as a .txt file with LaTeX equations
+doc.Save(@"C:\MyDocs\Math.txt", txtOptions);
+Console.WriteLine("Document saved as txt with LaTeX equations.");
+```
+
+Menjalankan program menghasilkan file yang tampak kira‑kira seperti ini:
+
+```
+This is a simple paragraph.
+
+Here is an inline equation: $E = mc^2$
+
+And a displayed equation:
+\[
+\int_{0}^{\infty} e^{-x} \, dx = 1
+\]
+```
+
+Perhatikan bagaimana persamaan inline menggunakan `$…$` sementara persamaan display dibungkus dengan `\[` dan `\]`. Itu adalah konvensi LaTeX standar, dan Aspose.Words melakukannya secara otomatis.
+
+## Langkah 5: Verifikasi Output (Opsional)
+
+Jika Anda ingin memastikan LaTeX yang dihasilkan valid, Anda dapat memberi file `.txt` ke kompiler LaTeX seperti `pdflatex` atau renderer daring seperti Overleaf. Teks tersebut harus dapat dikompilasi tanpa error, dan persamaan akan muncul persis seperti di Word.
+
+```bash
+pdflatex Math.txt
+```
+
+Jika muncul “Undefined control sequence”, pastikan paket LaTeX yang diperlukan (misalnya `amsmath`) sudah dimasukkan ke preamble saat Anda menyisipkan teks ke dalam dokumen LaTeX yang lebih besar.
+
+## Menangani Variasi Umum
+
+### Mengonversi Banyak File dalam Satu Folder
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\MyDocs\", "*.docx");
+foreach (var file in files)
+{
+    Document d = new Document(file);
+    d.Save(Path.ChangeExtension(file, ".txt"), txtOptions);
+}
+Console.WriteLine("Batch conversion complete.");
+```
+
+### Menangani Persamaan Inline vs. Display
+
+Aspose.Words secara otomatis mendeteksi tipe persamaan berdasarkan tata letaknya di Word. Jika Anda perlu memaksa gaya tertentu, Anda dapat memproses output setelahnya:
+
+```csharp
+string txt = File.ReadAllText(@"C:\MyDocs\Math.txt");
+txt = txt.Replace("$", "\\(").Replace("$", "\\)"); // forces inline math delimiters
+File.WriteAllText(@"C:\MyDocs\Math_fixed.txt", txt);
+```
+
+### Mengekspor ke Format Lain
+
+Jika LaTeX bukan target Anda, cukup ganti mode ekspor:
+
+```csharp
+txtOptions.OfficeMathExportMode = OfficeMathExportMode.MathML; // for MathML
+```
+
+Atau gunakan `HtmlSaveOptions` jika Anda lebih suka MathML yang disisipkan dalam HTML.
+
+---
+
+## Contoh Lengkap yang Siap Jalan
+
+Berikut adalah program lengkap yang siap dijalankan. Salin‑tempel ke `Program.cs` pada proyek console .NET.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+namespace WordToLatexTxt
+{
+    class Program
     {
-        // Step 1: Load the .docx that contains OfficeMath objects
-        Document doc = new Document(@"YOUR_DIRECTORY\input.docx");
-
-        // Step 2: Configure TXT options – the key line for LaTeX export
-        TxtSaveOptions txtOptions = new TxtSaveOptions
+        static void Main(string[] args)
         {
-            // This tells Aspose to turn each equation into LaTeX syntax
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
+            // 1️⃣ Load the source document
+            Document doc = new Document(@"C:\MyDocs\input.docx");
 
-        // Step 3: Save as plain‑text; the math will be LaTeX now
-        doc.Save(@"YOUR_DIRECTORY\Math.txt", txtOptions);
-        Console.WriteLine("Document saved as txt with LaTeX equations.");
+            // 2️⃣ Set up save options to export Office Math as LaTeX
+            TxtSaveOptions saveOptions = new TxtSaveOptions
+            {
+                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                PreserveTableLayout = true
+            };
+
+            // 3️⃣ Save as plain‑text with LaTeX equations
+            string outputPath = @"C:\MyDocs\Math.txt";
+            doc.Save(outputPath, saveOptions);
+
+            Console.WriteLine($"✅ Saved document as txt at: {outputPath}");
+            Console.WriteLine("Open the file to see LaTeX‑formatted equations.");
+        }
     }
 }
 ```
 
-**Mengapa ini penting:**  
-- `OfficeMathExportMode.LaTeX` adalah saklar yang mengubah representasi internal OfficeMath menjadi sesuatu yang dipahami oleh prosesor LaTeX.  
-- Tanpanya, pengekspor akan kembali ke fallback Unicode biasa, yang terlihat seperti `∑` atau bahkan teks yang berantakan di banyak editor.
+Jalankan program (`dotnet run`), buka `Math.txt`, dan Anda akan melihat konten Word Anda dengan persamaan LaTeX tetap utuh.
 
-## Langkah 2: Verifikasi Output – Seperti Apa .txt-nya
+---
 
-Jalankan program, lalu buka `Math.txt` di editor teks apa pun (Notepad, VS Code, Sublime). Anda harus melihat sesuatu yang mirip dengan:
+## Pertanyaan yang Sering Diajukan
 
-```
-Here is a simple equation:
-\[
-E = mc^{2}
-\]
+**T: Apakah ini bekerja dengan file .doc lama?**  
+J: Ya—Aspose.Words dapat membuka file `.doc` lama, tetapi persamaan kompleks mungkin disimpan sebagai gambar. Dalam kasus itu pengekspor akan menggantinya dengan komentar placeholder.
 
-And a more complex integral:
-\[
-\int_{0}^{\infty} e^{-x^{2}} \,dx = \frac{\sqrt{\pi}}{2}
-\]
-```
+**T: Bagaimana jika persamaan mengandung simbol khusus?**  
+J: Aspose.Words memetakan sebagian besar simbol Office Math ke perintah LaTeX standar. Untuk simbol yang benar‑benar khusus, Anda mungkin perlu mengedit LaTeX yang dihasilkan secara manual.
 
-Jika Anda menemukan delimiter `\[` dan `\]`, Anda telah berhasil **exported equations to latex**. Delimiter tersebut adalah cara standar untuk menyisipkan matematika gaya tampilan dalam dokumen LaTeX.
+**T: Apakah outputnya ber‑encoding UTF‑8?**  
+J: Secara default, `TxtSaveOptions` menulis UTF‑8, yang aman untuk kebanyakan bahasa dan simbol.
 
-### Pemeriksaan cepat
+---
 
-Salin potongan LaTeX ke renderer daring seperti Overleaf atau LaTeX‑Live. Itu harus dapat dikompilasi tanpa error. Jika Anda mendapatkan pesan “undefined control sequence”, periksa kembali bahwa Anda menggunakan versi terbaru Aspose.Words – build lama kadang-kadang tidak mendukung fitur OfficeMath terbaru.
+## Kesimpulan
 
-## Langkah 3: Jalur Alternatif – Convert Docx to LaTeX Tanpa TxtSaveOptions
+Sekarang Anda tahu cara **save document as txt** sambil mempertahankan setiap persamaan sebagai markup LaTeX yang bersih. Pendekatan ini memungkinkan Anda **convert Word to LaTeX** tanpa alat pihak ketiga, dan dapat diskalakan dari satu file ke seluruh folder. Selanjutnya, Anda dapat menjelajahi **convert word equations to LaTeX** untuk pemrosesan batch, atau menyelam ke **export word math latex** untuk pipeline HTML atau Markdown.
 
-Kadang-kadang Anda mungkin menginginkan file `.tex` lengkap daripada pembungkus teks biasa. Meskipun jalur `TxtSaveOptions` adalah yang paling sederhana, Aspose juga menyediakan kelas khusus `LatexSaveOptions`. Berikut versi singkatnya:
-
-```csharp
-using Aspose.Words.Saving;
-
-// ...
-
-LatexSaveOptions latexOptions = new LatexSaveOptions
-{
-    // Preserve the original document structure
-    ExportHeadersFooters = true,
-    // Optional: embed images as base64 strings
-    ExportImagesAsBase64 = true
-};
-
-doc.Save(@"YOUR_DIRECTORY\FullDocument.tex", latexOptions);
-```
-
-**Kapan menggunakan ini:**  
-- Anda membutuhkan file sumber LaTeX lengkap dengan bagian, judul, dan gambar.  
-- Alur kerja hilir Anda melibatkan kompiler LaTeX (pdflatex, xelatex, dll.) bukan sekadar copy‑paste cepat.
-
-Kedua pendekatan **convert docx to latex**, tetapi metode `TxtSaveOptions` bersinar ketika Anda hanya peduli pada teks dan persamaan – sempurna untuk dimasukkan ke pipeline markdown atau pemrosesan berbasis skrip sederhana.
-
-## Kesalahan Umum & Tips Pro
-
-| Pitfall | Why it Happens | Fix |
-|---------|----------------|-----|
-| **Missing LaTeX delimiters** | Menggunakan `OfficeMathExportMode.Text` alih-alih `LaTeX`. | Pastikan `OfficeMathExportMode.LaTeX` sudah diatur. |
-| **Equations appear as Unicode symbols** | Versi Aspose.Words yang lebih lama (< 22.1) tidak mendukung ekspor LaTeX. | Perbarui paket NuGet ke rilis stabil terbaru. |
-| **File path errors** | Path yang ditulis keras tanpa escape backslash. | Gunakan string verbatim `@"C:\path\file.docx"` atau `Path.Combine`. |
-| **Large documents slow down** | Menyimpan dokumen besar dengan banyak persamaan dapat memakan banyak memori. | Panggil `doc.UpdatePageLayout()` sebelum menyimpan, atau bagi dokumen. |
-
-**Tip pro:** Jika Anda berencana memproses banyak file secara batch, bungkus logika penyimpanan dalam blok `try…catch` dan catat setiap `Aspose.Words.FileFormatException`. Dengan begitu satu persamaan yang rusak tidak akan menghentikan seluruh proses.
-
-## Kasus Tepi – Bagaimana Jika Dokumen Saya Tidak Memiliki OfficeMath?
-
-Pen­gekspor akan menulis teks biasa saja. Tidak ada delimiter LaTeX yang ditambahkan, yang mana tidak masalah. Jika Anda *harus* memiliki pembungkus LaTeX terlepas dari itu, Anda dapat secara manual menambahkan `\[` `\]` di awal dan akhir seluruh output:
-
-```csharp
-string content = File.ReadAllText(@"YOUR_DIRECTORY\Math.txt");
-File.WriteAllText(@"YOUR_DIRECTORY\MathWrapped.txt", $"\\[\n{content}\n\\]");
-```
-
-## Menyimpulkan Semua
-
-Kami telah membahas cara **save document as txt** sambil mengubah setiap objek OfficeMath menjadi LaTeX bersih, mengeksplorasi jalur alternatif **convert docx to latex** menggunakan `LatexSaveOptions`, dan mendiskusikan tips praktis untuk **export equations to latex** dalam proyek dunia nyata.  
-
-Inti utama: atur `OfficeMathExportMode` ke `LaTeX` dan biarkan Aspose menangani pekerjaan berat. Dari situ Anda dapat memasukkan `.txt` yang dihasilkan ke alat hilir mana pun – generator markdown, pipeline situs statis, atau bahkan parser khusus.
-
-### Langkah Selanjutnya
-
-- Coba rangkaikan ekspor ini dengan generator markdown untuk menghasilkan file `.md` yang menyisipkan LaTeX secara langsung.  
-- Jelajahi `LatexSaveOptions` untuk konversi dokumen penuh, terutama jika Anda membutuhkan gambar atau tabel.  
-- Jika Anda memiliki anggaran terbatas, pertimbangkan **Open XML SDK** gratis – memerlukan pekerjaan manual lebih banyak tetapi masih dapat mengekstrak XML OfficeMath dan menerjemahkannya ke LaTeX dengan pemetaan khusus.
-
-Ada pertanyaan tentang persamaan tertentu atau format file lain? Tinggalkan komentar, dan kami akan memecahkan masalah bersama. Selamat coding, semoga LaTeX Anda selalu berhasil dikompilasi pada percobaan pertama!
+Silakan bereksperimen—ganti `OfficeMathExportMode` ke MathML, sesuaikan penanganan line‑break, atau integrasikan potongan kode ini ke dalam alur kerja generasi dokumen yang lebih besar. Selamat coding, semoga persamaan Anda selalu ter‑render dengan sempurna!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
