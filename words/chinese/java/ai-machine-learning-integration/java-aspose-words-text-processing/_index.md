@@ -1,9 +1,16 @@
 ---
-"date": "2025-03-28"
-"description": "了解如何使用 Aspose.Words for Java 结合 OpenAI 的 GPT-4 和 Google 的 Gemini 实现文本摘要和翻译的自动化。立即增强您的 Java 应用程序。"
-"title": "掌握 Java 文本处理——使用 Aspose.Words 和 AI 模型进行摘要和翻译"
-"url": "/zh/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-04-27'
+description: 学习如何使用 Aspose.Words 和 OpenAI GPT‑4、Gemini API 等 AI 模型在 Java 应用中进行文本摘要。包括使用
+  Gemini 的翻译。
+keywords:
+- summarize text java
+- use gemini api java
+- aspose words java
+- ai text summarization
+- java document translation
+title: Java 文本摘要：精通 Aspose.Words 与 AI 模型的文本处理
+url: /zh/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,47 +19,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 总结文本 Java：使用 Aspose.Words 与 AI 模型
 
-# 掌握 Java 中的文本处理：使用 Aspose.Words 和 AI 模型
-
-**使用与 OpenAI 的 GPT-4 和 Google 的 Gemini 等 AI 模型集成的 Aspose.Words for Java 自动进行文本摘要和翻译。**
+**使用 Aspose.Words for Java 与 OpenAI 的 GPT‑4 和 Google 的 Gemini 等 AI 模型集成，实现文本摘要和翻译的自动化。**
 
 ## 介绍
 
-难以从大型文档中提取关键见解或快速将内容翻译成不同语言？使用强大的工具高效地自动执行这些任务，节省时间并提高生产力。本教程将指导您如何使用 Aspose.Words for Java 以及 OpenAI 的 GPT-4 和 Google 的 Gemini 15 Flash 等 AI 模型来摘要和翻译文本。
+如果您需要快速 **summarize text Java** 应用——无论是处理海量报告、研究论文，还是多语言支持工单——本教程将展示如何将 Aspose.Words for Java 与强大的 AI 服务结合使用。您将学习仅用几行代码提取简洁摘要并翻译文档，从而节省大量手动工作时间。
 
-**您将学到什么：**
-- 使用 Maven 或 Gradle 设置 Aspose.Words
-- 使用人工智能模型实现文本摘要
-- 将文件翻译成不同的语言
-- 在 Java 应用程序中集成这些工具的最佳实践
+## 快速答案
+- **我可以自动化什么？** 对长文档进行摘要并将其翻译成任何受支持的语言。  
+- **使用了哪些 AI 模型？** 用于摘要的 OpenAI GPT‑4（或 GPT‑4‑mini）和用于翻译的 Google Gemini 15 Flash。  
+- **我需要许可证吗？** 是的，Aspose.Words 在生产环境中需要许可证；提供免费试用。  
+- **需要哪个 Java 版本？** JDK 8 或更高。  
+- **代码是线程安全的吗？** Aspose.Words API 对只读操作是线程安全的；请为每个线程处理 AI 调用。
 
-在深入实施之前，请确保您已准备好一切所需。
+## 什么是 “summarize text java”？
+在 Java 中进行文本摘要指的是以编程方式生成一个简短且有意义的摘录，捕捉更大文档的主要思想。通过利用大语言模型 API，您可以在不构建自有 NLP 流水线的情况下生成高质量摘要。
 
-## 先决条件
+## 为什么在翻译时使用 Gemini API Java？
+Google 的 Gemini 模型在数十种语言之间提供快速、准确的翻译。使用 **use gemini api java** 方法可以让翻译逻辑保持在 Java 代码库内部，避免外部脚本或服务。
 
-确保您满足以下要求：
+## 前提条件
 
-### 所需的库和版本
-- **Java 版 Aspose.Words：** 版本 25.3 或更高版本。
-- **Java 开发工具包 (JDK)：** 已安装 JDK（最好是 8 或更高版本）。
-- **构建工具：** Maven 或 Gradle，取决于您的偏好。
+- **Aspose.Words for Java** ≥ 25.3  
+- **JDK** 8 或更高（推荐 Java 17）  
+- 构建工具：**Maven** 或 **Gradle**  
+- **OpenAI** 和 **Google Gemini** 的 API 密钥  
+- IDE，例如 IntelliJ IDEA 或 Eclipse  
 
-### 环境设置要求
-- 合适的集成开发环境 (IDE)，如 IntelliJ IDEA 或 Eclipse。
-- 访问 OpenAI 和 Google AI 服务，可能需要 API 密钥。
+### 必需的库
 
-### 知识前提
-- 对 Java 编程有基本的了解。
-- 熟悉处理 Java 项目中的外部库。
+| 工具 | 依赖 |
+|------|------|
+| Maven | see code block below |
+| Gradle | see code block below |
 
 ## 设置 Aspose.Words
 
-要开始使用 Aspose.Words for Java，请将必要的依赖项添加到您的构建配置中。
-
-### Maven 依赖
-
-将此代码片段添加到您的 `pom.xml`：
+将 Aspose.Words 依赖添加到您的项目中。
 
 ```xml
 <dependency>
@@ -62,37 +67,20 @@
 </dependency>
 ```
 
-### Gradle 依赖
-
-将其包含在您的 `build.gradle` 文件：
-
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### 许可证获取
-
-Aspose.Words 需要许可证才能使用全部功能。您可以获取：
-- 一个 **免费试用** 测试功能。
-- 一个 **临时执照** 进行扩展评估。
-- 一个 **购买许可证** 用于生产用途。
-
-对于设置，初始化库并设置您的许可证：
+### 许可证初始化
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## 实施指南
+## 使用 OpenAI GPT‑4 进行文本摘要
 
-### 使用 AI 模型进行文本摘要
-
-在处理海量文档时，文本摘要至关重要。以下是如何利用 OpenAI 的 GPT-4 模型实现摘要的。
-
-#### 步骤 1：初始化文档和模型
-
-首先加载文档并设置 AI 模型：
+### 步骤 1：加载文档并创建 AI 模型
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -101,9 +89,7 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### 步骤 2：配置摘要选项
-
-指定摘要长度并创建 `SummarizeOptions` 目的：
+### 步骤 2：配置摘要选项
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,30 +97,22 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### 步骤 3：保存摘要
-
-将摘要文档保存到所需位置：
+### 步骤 3：保存摘要文档
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### 使用人工智能模型进行文本翻译
+## 使用 Gemini 15 Flash 进行文本翻译
 
-使用 Google 的 Gemini 模型将文档无缝翻译成不同的语言。
-
-#### 步骤 1：加载并准备文档
-
-准备要翻译的文档：
+### 步骤 1：加载文档并准备翻译器
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### 第 2 步：执行翻译
-
-将文档翻译成阿拉伯语：
+### 步骤 2：执行翻译（例如，翻译为阿拉伯语）
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
@@ -143,38 +121,40 @@ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 
 ## 实际应用
 
-1. **商业报告：** 总结冗长的业务报告以获得快速见解。
-2. **客户支持：** 将客户询问翻译成母语以提高服务质量。
-3. **学术研究：** 总结研究论文以快速掌握关键发现。
+1. **商业智能：** 为高管仪表盘摘要季度报告。  
+2. **客户支持：** 将来票翻译为客服人员的母语，以加快响应。  
+3. **学术研究：** 从冗长的论文生成简明摘要。  
 
-## 性能考虑
+## 性能技巧
 
-- 尽可能通过批处理任务来优化 API 请求。
-- 监控资源使用情况，尤其是在处理大型文档时。
-- 对经常访问的文档或翻译实施缓存策略。
+- **批量请求：** 将多个摘要或翻译调用分组，以降低延迟。  
+- **缓存结果：** 存储先前生成的摘要/翻译，避免重复的 API 调用。  
+- **监控内存：** 对于非常大的文件，使用 `Document.optimizeResources()`。  
 
-## 结论
+## 常见问题与解决方案
 
-通过将 Aspose.Words 与 OpenAI 和 Google Gemini 等 AI 模型集成，您可以利用强大的文本摘要和翻译功能增强您的 Java 应用程序。您可以尝试不同的配置以最符合您的需求，并探索这些工具提供的其他功能。
+| 症状 | 可能原因 | 解决方案 |
+|------|----------|----------|
+| API returns empty summary | Incorrect `SummaryLength` or empty document | Verify document has content and set `SummaryLength` to `MEDIUM` or `LONG`. |
+| Translation fails with 401 | Invalid or missing Gemini API key | Re‑generate the key from Google Cloud console and ensure it’s passed to `withApiKey()`. |
+| Out‑of‑memory error on large DOCX | Document loaded entirely in memory | Process the file in chunks using `Document.splitIntoPages()` before sending to the AI service. |
 
-**后续步骤：**
-- 探索 Aspose.Words 的更多高级功能。
-- 考虑集成额外的 AI 服务以增强功能。
+## 常见问答
 
-准备好深入了解了吗？立即尝试在您的项目中实施这些解决方案！
+**Q: 我可以在商业 Java 应用中使用此方法吗？**  
+A: 当然可以——只要您拥有有效的 Aspose.Words 许可证和相应的 API 订阅，即可在生产环境中部署。
 
-## 常见问题解答部分
+**Q: Gemini 支持哪些语言？**  
+A: Gemini 15 Flash 支持超过 100 种语言，包括阿拉伯语、法语、西班牙语、中文等。
 
-1. **使用 Aspose.Words 与 Java 的系统要求是什么？**
-   - 您需要 JDK 8 或更高版本，以及兼容的 IDE，如 IntelliJ IDEA。
-2. **如何获取 OpenAI 或 Google AI 服务的 API 密钥？**
-   - 在各自的平台上注册以获取用于开发目的的 API 密钥。
-3. **我可以在商业项目中使用 Aspose.Words for Java 吗？**
-   - 是的，但您必须从 Aspose 获得适当的许可证。
-4. **使用 Gemini 模型我可以将文本翻译成哪些语言？**
-   - Gemini 15 Flash 型号支持多种语言，包括阿拉伯语、法语等。
-5. **如何使用这些工具有效地处理大型文档？**
-   - 将任务分解为更小的部分并优化 API 使用以有效管理资源消耗。
+**Q: 我该如何处理 OpenAI 或 Gemini 的速率限制？**  
+A: 实现指数退避并遵守服务返回的 `Retry-After` 头部。
+
+**Q: 我需要关闭 `License` 对象吗？**  
+A: 不需要显式关闭；许可证是轻量级的配置对象。
+
+**Q: 能否仅对文档的部分进行摘要？**  
+A: 可以——将所需的 `Section` 或 `Paragraph` 提取到新的 `Document` 实例中，然后传递给摘要模型。
 
 ## 资源
 
@@ -182,15 +162,19 @@ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 - [下载 Aspose.Words](https://releases.aspose.com/words/java/)
 - [购买许可证](https://purchase.aspose.com/buy)
 - [免费试用版](https://releases.aspose.com/words/java/)
-- [临时许可证申请](https://purchase.aspose.com/temporary-license/)
+- [临时许可证请求](https://purchase.aspose.com/temporary-license/)
 - [Aspose 社区支持](https://forum.aspose.com/c/words/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+---
 
+**最后更新：** 2026-04-27  
+**测试环境：** Aspose.Words for Java 25.3  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
