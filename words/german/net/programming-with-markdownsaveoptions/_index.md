@@ -74,6 +74,9 @@ Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konverti
 ### [Word in Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [Markdown‑Bild relativer Pfad – Word zu Markdown konvertieren](./markdown-image-relative-path-convert-word-to-markdown/)
+Erfahren Sie, wie Sie beim Konvertieren von Word nach Markdown relative Bildpfade korrekt setzen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

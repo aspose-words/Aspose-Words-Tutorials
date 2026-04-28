@@ -70,6 +70,10 @@
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和详细步骤指南。
 
+### [markdown 图像相对路径 – 将 Word 转换为 Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
+
+使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并使用相对路径保存图像。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
