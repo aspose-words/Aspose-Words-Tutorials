@@ -68,6 +68,9 @@
 ### [บันทึกเอกสาร Word เป็น PostScript พร้อมการตั้งค่าการพับหนังสือใน Java โดยใช้ Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 เรียนรู้วิธีการแปลงเอกสาร Word เป็นหนังสือเล่มเล็กด้วยผลลัพธ์คุณภาพระดับมืออาชีพโดยใช้ Aspose.Words สำหรับ Java คู่มือนี้ครอบคลุมถึงการบันทึกเป็น PostScript และการกำหนดค่าการพับหนังสือ
 
+### [วนซ้ำการเตือนเอกสาร: ตรวจจับฟอนต์ที่หายไปใน Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+เรียนรู้วิธีวนซ้ำการเตือนเอกสารเพื่อค้นหาฟอนต์ที่หายไปใน Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

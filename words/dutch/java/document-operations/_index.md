@@ -68,6 +68,9 @@ Een codetutorial voor Aspose.Words Java
 ### [Sla Word-documenten op als PostScript met boekvouwinstellingen in Java met Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Leer hoe u Word-documenten kunt converteren naar brochures met een professionele uitvoer met Aspose.Words voor Java. Deze handleiding behandelt het opslaan als PostScript en het configureren van de vouwinstellingen voor brochures.
 
+### [Itereren door documentwaarschuwingen: ontbrekende lettertypen detecteren in Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Leer hoe u ontbrekende lettertypen in documenten detecteert en waarschuwingen verwerkt met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

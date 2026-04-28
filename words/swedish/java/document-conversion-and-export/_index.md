@@ -84,11 +84,23 @@ Utnyttja kraften i matematiska ekvationer i dokument med Aspose.Words for Java. 
 ### [Spara dokument som TXT – Snabbguide för export av Word-matematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Lär dig hur du sparar ett Word‑dokument som TXT och exporterar matematiska ekvationer med Aspose.Words.
 
+### [Spara dokument som TXT – Konvertera DOCX till text med LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
+Lär dig hur du sparar ett DOCX‑dokument som TXT och exporterar matematiska ekvationer till LaTeX med Aspose.Words.
+
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Lär dig hur du konverterar DOCX-filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
+Lär dig hur du konverterar DOCX‑filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
+
+### [Spara docx som markdown – Komplett C#‑guide](./save-docx-as-markdown-complete-c-guide/)
+Lär dig hur du konverterar DOCX‑filer till Markdown med C# och Aspose.Words i en komplett steg‑för‑steg‑guide.
+
+### [Exportera Markdown från Word – Komplett guide](./how-to-export-markdown-from-word-complete-guide/)
+Lär dig hur du exporterar innehåll från Word till Markdown med Aspose.Words for Java i en steg‑för‑steg‑guide.
 
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words for Java i några enkla steg.
+Lär dig hur du konverterar DOCX‑filer till PDF med Aspose.Words for Java i några enkla steg.
+
+### [Spara dokument som PDF med Java – Komplett steg‑för‑steg‑guide](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+Lär dig hur du sparar ett Word‑dokument som PDF i Java med Aspose.Words i en komplett steg‑för‑steg‑guide.
 
 ### [Använda dokumentformer i Aspose.Words for Java](./using-document-shapes/)
 Utnyttja kraften i dokumentformer i Aspose.Words for Java. Lär dig att skapa visuellt engagerande dokument med steg‑för‑steg‑exempel.
@@ -100,10 +112,16 @@ Lär dig hur du lägger till vattenstämplar i dokument med Aspose.Words for Jav
 Lär dig hur du formaterar tabeller och tillämpar tabellstilar i Aspose.Words for Java. Utforska steg‑för‑steg‑guider med källkod för effektiv tabellformatering. Förbättra ditt dokumentlayout med Aspose.Words.
 
 ### [Hur man bäddar in bilder i Markdown vid konvertering av DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
-Lär dig hur du bäddar in bilder i Markdown när du konverterar DOCX-filer med Aspose.Words.
+Lär dig hur du bäddar in bilder i Markdown när du konverterar DOCX‑filer med Aspose.Words.
 
 ### [Skapa tillgänglig PDF från DOCX – Komplett guide](./create-accessible-pdf-from-docx-complete-guide/)
 Lär dig hur du konverterar DOCX till en tillgänglig PDF med fullständig steg‑för‑steg‑guide och bästa praxis.
+
+### [Skapa tillgänglig PDF – Java‑guide för konvertering av Word‑dokument](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+Lär dig hur du konverterar Word‑dokument till tillgängliga PDF‑filer med Aspose.Words for Java, inklusive taggning och PDF/UA‑stöd.
+
+### [Skapa PDF UA‑dokument med Aspose.Words – Fullständig Java‑guide](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+Lär dig hur du skapar PDF/UA‑dokument med Aspose.Words för Java, inklusive tillgänglighetsinställningar och bästa praxis.
 
 ## Vanliga frågor
 

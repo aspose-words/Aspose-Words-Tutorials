@@ -68,6 +68,9 @@ Un tutorial de código para Aspose.Words Java
 ### [Guardar documentos de Word como PostScript con configuración de plegado de libro en Java usando Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Aprenda a convertir documentos de Word en folletos con calidad profesional usando Aspose.Words para Java. Esta guía explica cómo guardar como PostScript y configurar los ajustes de plegado de libros.
 
+### [Iterar advertencias de documento: Detectar fuentes faltantes en Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Aprenda a iterar advertencias de documentos y detectar fuentes faltantes en Java usando Aspose.Words.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

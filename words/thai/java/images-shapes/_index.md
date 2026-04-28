@@ -37,6 +37,9 @@
 ### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงา](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
+### [วิธีตั้งเงาบนรูปร่างใน C# – เพิ่มเงารูปร่างได้อย่างง่ายดาย](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างใน C# ด้วย Aspose.Words อย่างง่ายและรวดเร็ว
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

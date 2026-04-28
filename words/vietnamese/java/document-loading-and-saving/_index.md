@@ -95,7 +95,7 @@ Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu
 Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
 
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
-Mở khóa sức mạnh của Aspose.Words for Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
+Mở khóa sức mạnh của Aspose.Words cho Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Học các tùy chọn lưu nâng cao với Aspose.Words for Java. Mã hoá, xử lý metafile và hơn thế nữa. Tài liệu Word của bạn, cách của bạn.
@@ -134,6 +134,8 @@ Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words f
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
 
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Khôi phục tài liệu Word – Hướng dẫn toàn diện để thiết lập chế độ khôi phục trong Java](./recover-word-document-complete-guide-to-set-recovery-mode-in/)
 
 ## Câu Hỏi Thường Gặp
 
