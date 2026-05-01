@@ -1,23 +1,22 @@
 ---
 category: general
-date: 2025-12-29
-description: كيفية تصدير LaTeX من Word باستخدام Aspose.Words – تعلم تحويل Word إلى
-  LaTeX، حفظ ملف docx كملف txt، ومعالجة المعادلات كنص عادي.
+date: 2026-05-01
+description: تعلم كيفية تصدير LaTeX من ملف Word، وتحويل Word إلى txt، والحفاظ على
+  الجداول باستخدام Aspose.Words في C#.
 draft: false
 keywords:
 - how to export latex
-- convert word to latex
-- how to save txt
+- convert word to txt
+- convert word to plain text
 - save docx as txt
-- convert word equations latex
+- how to preserve tables
 language: ar
-og_description: كيفية تصدير LaTeX من Word باستخدام Aspose.Words. يوضح هذا الدليل كيفية
-  تحويل Word إلى LaTeX، وحفظ ملف docx كملف txt، والحفاظ على المعادلات دون تعديل.
-og_title: كيفية تصدير LaTeX من Word – دليل C# سريع
+og_description: اكتشف كيفية تصدير LaTeX من Word، وتحويل Word إلى نص عادي، والحفاظ
+  على تنسيق الجدول كما هو باستخدام Aspose.Words.
+og_title: كيفية تصدير LaTeX من Word – دورة C# كاملة
 tags:
 - Aspose.Words
 - C#
-- LaTeX
 - Document Conversion
 title: كيفية تصدير LaTeX من Word – دليل خطوة بخطوة
 url: /ar/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/
@@ -27,178 +26,215 @@ url: /ar/net/basic-conversions/how-to-export-latex-from-word-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تصدير LaTeX من Word – دليل خطوة بخطوة
+# كيفية تصدير LaTeX من Word – دليل C# كامل
 
-هل تساءلت يومًا **كيف تصدر LaTeX من Word** دون فقدان أي من تلك المعادلات المعقدة في Office Math؟ لست وحدك. يواجه العديد من المطورين صعوبة عندما يحاولون *تحويل Word إلى LaTeX* للأوراق الأكاديمية، التقارير العلمية، أو خطوط النشر الآلية.  
+هل تساءلت يومًا **how to export LaTeX** من مستند Word دون فقدان أي من المعادلات الرياضية؟ لست وحدك. يحتاج العديد من المطورين إلى تحويل ملف .docx يحتوي على Office Math إلى LaTeX نظيف مع **convert Word to txt** للمعالجة اللاحقة. في هذا الدليل سنستعرض حلًا عمليًا جاهزًا للتنفيذ يحافظ على **preserves tables**، يمنحك ملف نصي عادي، ويحتفظ بترميز LaTeX تمامًا حيث تحتاجه.
 
-في هذا الدرس سنستعرض مثالًا كاملًا وجاهزًا للتنفيذ بلغة C# يوضح **كيفية تصدير LaTeX** باستخدام Aspose.Words، ويشرح **كيفية حفظ ملفات txt** التي تحتوي على تنسيق LaTeX، ويغطي أيضًا تفاصيل **convert word equations latex** حتى لا يضيع شيء أثناء التحويل.
-
-> **نصيحة احترافية:** نفس النهج يعمل مع أي ملف .docx لديك—فقط وجه الكود إلى مسار ملف مختلف.
-
----
+سنغطي كل شيء من تحميل الملف المصدر إلى تعديل `TxtSaveOptions` بحيث يكون الناتج قابلًا للقراءة من قبل الإنسان والآلة على حد سواء. بنهاية هذا الدليل ستكون قادرًا على **save docx as txt**, **convert Word to plain text**, وتعرف **how to preserve tables** أثناء التصدير. لا سكربتات خارجية، لا نسخ ولصق يدوي—فقط كود C# يمكنك وضعه في أي مشروع .NET.
 
 ## ما ستحتاجه
 
-قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
+- **Aspose.Words for .NET** (أحدث نسخة، 2024.x أو أحدث). حزمة NuGet هي `Aspose.Words`.
+- بيئة تطوير .NET (Visual Studio، VS Code، Rider—أي منها).
+- ملف Word (`.docx`) يحتوي على معادلات Office Math وعلى الأقل جدول واحد (لرؤية سحر حفظ الجداول).
 
-| المتطلب | لماذا هو مهم |
-|--------------|----------------|
-| **.NET 6.0+** (أو .NET Framework 4.6+) | Aspose.Words يستهدف بيئات .NET الحديثة. |
-| **حزمة NuGet Aspose.Words for .NET** (`Aspose.Words`) | المكتبة تقوم بالمعالجة الثقيلة لتحليل Word وإنتاج LaTeX. |
-| **ملف .docx تجريبي** يحتوي على معادلة Office Math واحدة على الأقل | لتشاهد تحويل LaTeX عمليًا. |
-| **Visual Studio 2022** (أو أي بيئة تطوير تفضلها) | يجعل من السهل تصحيح الأخطاء وتشغيل العينة. |
-
-إذا لم تقم بتثبيت حزمة NuGet بعد، نفّذ:
-
-```bash
-dotnet add package Aspose.Words
-```
-
-هذا كل شيء—لا تحتاج إلى DLLs إضافية، ولا إلى COM interop، فقط مكتبة مُدارة نظيفة.
+هذا كل شيء. إذا كان لديك هذه المتطلبات، استمر في القراءة؛ وإلا قم بتحميل حزمة NuGet وعينة DOCX قبل المتابعة.
 
 ---
 
-## كيفية تصدير LaTeX من Word – نظرة عامة
+## كيفية تصدير LaTeX من مستند Word
 
-إليك المخطط العام لما سننجزه:
+فيما يلي جوهر الدرس—ثلاث خطوات مختصرة تجيب على سؤال **how to export latex** وتتعامل أيضًا مع الأهداف الثانوية لـ **convert word to txt**, **convert word to plain text**, **save docx as txt**, و **how to preserve tables**.
 
-1. **تحميل** مستند Word المصدر (`.docx`).  
-2. **تهيئة** `TxtSaveOptions` بحيث يتم تصدير أي كائنات Office Math كرموز LaTeX.  
-3. **حفظ** المستند كملف نص عادي (`.txt`) يمكنك تمريره مباشرة إلى أي مُترجم LaTeX.
+### الخطوة 1: تحميل ملف DOCX
 
-![مثال على تصدير LaTeX من Word](image.png "مثال على تصدير LaTeX من Word")
-
----
-
-## الخطوة 1: تحميل مستند Word
-
-أولًا، افتح ملف .docx الذي تريد تحويله. فئة `Document` تُجرد كل XML الداخلي، وتوفر لك نموذج كائن سهل الاستخدام.
+أولًا نحتاج إلى قراءة مستند Word إلى كائن `Aspose.Words.Document`. هذه الخطوة هي نفسها سواء كنت ستقوم بـ **convert word to txt** أو **save docx as txt** لاحقًا.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Replace with the actual path to your .docx file
-string inputPath = @"C:\MyProjects\WordSamples\input.docx";
+// Replace with the path to your source file
+string inputPath = @"C:\Samples\input.docx";
 
-// Load the document into memory
 Document doc = new Document(inputPath);
 ```
 
-**لماذا هذا مهم:**  
-تحميل الملف مبكرًا يتيح لنا فحص محتوياته (مثل عدد المعادلات) قبل أن نقرر كيفية تسلسله. إذا كان الملف تالفًا، ستُطلق `Document` استثناءً واضحًا، مما يحفظك من مخرجات غامضة لاحقًا.
+> **لماذا هذا مهم:** تحميل الملف ينشئ تمثيلًا في الذاكرة لجميع عناصر Word—الفقرات، الجداول، وكائنات Office Math. بدون هذا الكائن لا يمكنك تعديل خيارات التصدير.
 
----
+### الخطوة 2: ضبط `TxtSaveOptions` لـ LaTeX وتنسيق الجداول
 
-## الخطوة 2: تهيئة TxtSaveOptions لتصدير LaTeX
+فئة `TxtSaveOptions` تتيح لك التحكم بدقة في كيفية إنشاء ملف النص العادي. خاصيتان أساسيتان لسيناريونا:
 
-السحر يحدث داخل `TxtSaveOptions`. بتعيين `OfficeMathExportMode` إلى `LaTeX`، يتحول كل كائن Office Math إلى تمثيله المقابل في LaTeX.
+| Property | What it does | Why you need it |
+|----------|--------------|-----------------|
+| `OfficeMathExportMode` | يحدد طريقة عرض Office Math. ضبطه على `LaTeX` يحول المعادلات إلى صيغة LaTeX. | هذا هو جوهر **how to export latex**. |
+| `PreserveTableLayout` | عندما تكون `true`، يضيف Aspose مسافات بيضاء بحيث تحتفظ الجداول بمظهر شبكي. | هذا يحقق **how to preserve tables** أثناء **convert word to txt**. |
 
 ```csharp
-// Prepare save options – this is where we tell Aspose to emit LaTeX for equations
-TxtSaveOptions txtOptions = new TxtSaveOptions
+TxtSaveOptions saveOptions = new TxtSaveOptions
 {
-    // Export Office Math equations as LaTeX strings
+    // Export all Office Math as LaTeX code
     OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-    
-    // Optional: preserve line breaks exactly as they appear in Word
-    PreserveTableLayout = true,
-    
-    // Optional: specify UTF‑8 encoding (important for special symbols)
-    Encoding = System.Text.Encoding.UTF8
+
+    // Keep tables readable in the plain‑text output
+    PreserveTableLayout = true
 };
 ```
 
-**لماذا اخترنا هذه الإعدادات:**  
+> **نصيحة احترافية:** إذا كنت تحتاج فقط إلى LaTeX الخام دون أي تنسيق للجداول، اضبط `PreserveTableLayout` على `false`. يصبح الملف أصغر، لكنك تفقد إشارة الجدول البصرية.
 
-- `OfficeMathExportMode.LaTeX` هو الوضع الوحيد الذي يضمن ترجمة رياضية دقيقة.  
-- `PreserveTableLayout` يحافظ على مظهر الجداول كما هو في Word، وهو مفيد عندما تُدرج الناتج لاحقًا في بيئة LaTeX `tabular`.  
-- UTF‑8 يضمن بقاء الأحرف مثل “α”، “β”، أو “∑” عبر العملية.
+### الخطوة 3: حفظ المستند كنص عادي
 
-إذا احتجت يومًا **convert word to latex** بدون غلاف النص العادي، يمكنك التحويل إلى `SaveFormat.LaTeX` بدلاً من ذلك—نصيحة سريعة للسيناريوهات المتقدمة.
-
----
-
-## الخطوة 3: حفظ المستند كملف نصي
-
-الآن نكتب النص الغني بـ LaTeX إلى القرص. يمكن لاحقًا إعادة تسمية ملف `.txt` إلى `.tex`، أو تمريره مباشرة إلى مُترجم LaTeX.
+الآن نكتب المستند إلى ملف `.txt` باستخدام الخيارات التي عرفناها. هذا السطر الواحد ينجز **convert word to plain text**, **save docx as txt**, وبالطبع **how to export latex** دفعة واحدة.
 
 ```csharp
-// Destination file – you can change the extension to .tex if you prefer
-string outputPath = @"C:\MyProjects\WordSamples\output.txt";
+// Output path – change as needed
+string outputPath = @"C:\Samples\output.txt";
 
-// Save using the configured options
-doc.Save(outputPath, txtOptions);
-
-Console.WriteLine($"✅ LaTeX export complete! File saved to: {outputPath}");
+doc.Save(outputPath, saveOptions);
 ```
 
-**ما ستجده في `output.txt`:**  
+بعد انتهاء العملية، افتح `output.txt`. سترى:
 
-```
-\begin{equation}
-E = mc^{2}
-\end{equation}
-```
+- مقاطع LaTeX مثل `\frac{a}{b}` لكل معادلة Office Math.
+- جداول مُصوَّرة باستخدام أحرف `|` و `-`، مع الحفاظ على محاذاة الأعمدة.
+- فقرات عادية كنص، جاهزة لأي محلل لاحق.
 
-جميع الفقرات الأخرى تظهر كنص عادي، بينما تُحاط أي معادلة Office Math ببيئة LaTeX `equation` (أو `inline` إذا كانت داخلية في Word). هذا يلبي متطلبات **convert word equations latex** بشكل مثالي.
+### مثال كامل يعمل
 
----
-
-## الحالات الخاصة والأسئلة الشائعة
-
-| الحالة | ما الذي يجب فعله |
-|-----------|------------|
-| **لا توجد معادلات في المصدر** | لا يزال التحويل يعمل؛ ستحصل فقط على نص عادي. لا يُضاف أي كود LaTeX إضافي. |
-| **مستندات كبيرة جدًا (>100 ميغابايت)** | فكر في تدفق الإخراج باستخدام `MemoryStream` لتقليل استهلاك الذاكرة. |
-| **بنى رياضية غير مدعومة** | تغطي Aspose.Words 99 % من Office Math. للحالات النادرة، قد تحتاج إلى معالجة LaTeX يدويًا بعد التحويل. |
-| **تحتاج ملف .tex بدلًا من .txt** | غيّر `outputPath` لينتهي بـ `.tex` واختياريًا اضبط `txtOptions.Encoding` إلى `Encoding.UTF8`. |
-| **التشغيل على Linux/macOS** | الكود نفسه يعمل—فقط تأكد من أن مسارات الملفات تستخدم الشرطات المائلة للأمام أو `Path.Combine`. |
-
----
-
-## ملخص سريع: كيفية حفظ TXT مع معادلات LaTeX
-
-1. **تحميل** ملف .docx (`Document`).  
-2. **تعيين** `OfficeMathExportMode = LaTeX` في `TxtSaveOptions`.  
-3. **حفظ** الملف (`doc.Save`) باستخدام هذه الخيارات.
-
-هذا هو سير العمل الكامل لـ **how to save txt** مع معادلات بصيغة LaTeX.
-
----
-
-## إضافي: أتمتة التحويل لعدة ملفات
-
-إذا كان لديك مجلد مليء بملفات Word، يمكنك تغليف المنطق السابق داخل حلقة بسيطة:
+نجمع كل ما سبق في برنامج مستقل يمكنك تجميعه وتشغيله اليوم:
 
 ```csharp
-string sourceFolder = @"C:\MyProjects\WordSamples\Batch";
-string destFolder   = @"C:\MyProjects\WordSamples\BatchOutput";
+using System;
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
+class ExportLatexDemo
 {
-    Document batchDoc = new Document(file);
-    string fileName = Path.GetFileNameWithoutExtension(file);
-    string outPath  = Path.Combine(destFolder, $"{fileName}.txt");
+    static void Main()
+    {
+        // 1️⃣ Load the source DOCX
+        string inputPath = @"C:\Samples\input.docx";
+        Document doc = new Document(inputPath);
 
-    batchDoc.Save(outPath, txtOptions);
-    Console.WriteLine($"Converted {fileName}.docx → {fileName}.txt");
+        // 2️⃣ Configure export options for LaTeX and tables
+        TxtSaveOptions options = new TxtSaveOptions
+        {
+            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            PreserveTableLayout = true
+        };
+
+        // 3️⃣ Save as plain‑text (this is the step that does the conversion)
+        string outputPath = @"C:\Samples\output.txt";
+        doc.Save(outputPath, options);
+
+        Console.WriteLine($"✅ Done! LaTeX exported and tables preserved at: {outputPath}");
+    }
 }
 ```
 
-بهذا يمكنك **convert word to latex** دفعيًا—مثالي للمجموعات البحثية التي تستقبل عشرات المخطوطات يوميًا.
+**الناتج المتوقع** (مقتطف):
+
+```
+This is a sample paragraph.
+
+| Column A | Column B |
+|----------|----------|
+| 1        | 2        |
+| 3        | 4        |
+
+Here is an equation in LaTeX:
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+```
+
+لاحظ كيف يحافظ الجدول على شبكته وتظهر المعادلة كـ LaTeX نظيف. هذا هو الحل المثالي عندما **convert word to txt** وتحتاج إلى تمثيل دقيق لكل من البنية والرياضيات.
 
 ---
 
-## الخاتمة
+## نصائح لتحويل Word إلى TXT وحفظ الجداول
 
-غطّينا **كيفية تصدير LaTeX من Word** خطوة بخطوة، وأظهرنا **كيفية حفظ ملفات txt** التي تحتفظ بكل معادلة Office Math، وحتى شرحنا لكيفية **convert word equations latex** دون فقدان الدقة.  
+بينما يعمل نهج الثلاث خطوات في معظم الحالات، غالبًا ما تواجه المشاريع الواقعية تحديات. إليك بعض الاقتراحات العملية لجعل خط أنابيب **convert word to plain text** أكثر صلابة.
 
-بضع أسطر من C# ومكتبة Aspose.Words القوية تمكنك من تحويل أي .docx إلى نص جاهز لـ LaTeX، جاهز للإدراج في أوراق علمية، كتب دراسية، أو خطوط نشر آلية.  
+### استخدم ترميزًا موحدًا
 
-**ما الخطوة التالية؟** جرّب تمرير الـ `.txt` المُولد (أو أعد تسميته إلى `.tex`) إلى `pdflatex` أو `xelatex` لإنتاج PDF، أو است `SaveFormat.LaTeX` للحصول على ملف `.tex` مباشر. إذا أردت **save docx as txt** مع الحفاظ على التنسيق، جرب `PreserveTableLayout` وتخصيص معالجة فواصل الأسطر.
+القيمة الافتراضية لـ `TxtSaveOptions` هي UTF‑8، والتي تدعم معظم الأحرف. إذا كنت تحتاج إلى صفحة ترميز مختلفة (مثلاً الأنظمة القديمة التي تتوقع Windows‑1252)، اضبط خاصية `Encoding`:
 
-هل لديك أسئلة حول الحالات الخاصة، الترخيص، أو تحسين الأداء؟ اترك تعليقًا أدناه—برمجة سعيدة!
+```csharp
+options.Encoding = System.Text.Encoding.GetEncoding(1252);
+```
+
+### قص المسافات الزائدة
+
+الجداول ذات الأعمدة العديدة قد تولد أسطرًا طويلة. بعد الحفظ، قد ترغب في معالجة الملف لاحقًا لتقليص مسافات متعددة إلى تبويب واحد:
+
+```csharp
+string content = System.IO.File.ReadAllText(outputPath);
+content = System.Text.RegularExpressions.Regex.Replace(content, @" {2,}", "\t");
+System.IO.File.WriteAllText(outputPath, content);
+```
+
+### التعامل مع الجداول المتداخلة
+
+إذا كان ملف DOCX يحتوي على جداول داخل جداول، سيظل `PreserveTableLayout` يحافظ على الهرمية البصرية، لكن المسافات البادئة قد تبدو غريبة. حل سريع هو استبدال المسافات البادئة بعلامة مخصصة (مثل `>>`) حتى يتمكن المحللون اللاحقون من اكتشاف مستويات التداخل.
+
+### معالجة دفعات متعددة من الملفات
+
+عندما تحتاج إلى **convert word to txt** لعشرات المستندات، ضع المنطق داخل حلقة:
+
+```csharp
+foreach (var file in Directory.GetFiles(@"C:\Samples", "*.docx"))
+{
+    Document d = new Document(file);
+    string outFile = Path.ChangeExtension(file, ".txt");
+    d.Save(outFile, options);
+}
+```
+
+بهذه الطريقة يمكنك **save docx as txt** على نطاق واسع دون تدخل يدوي.
+
+---
+
+## الأخطاء الشائعة وكيفية تجنبها
+
+1. **نسيان وضع وضع تصدير LaTeX** – إذا نسيت ضبط `OfficeMathExportMode = OfficeMathExportMode.LaTeX`، ستعود المعادلات إلى نص عادي (مثل “Equation 1”). تأكد دائمًا من فحص كتلة الخيارات.
+2. **فقدان تنسيق الجدول** – القيمة الافتراضية لـ `PreserveTableLayout` هي `false`. إذا ظهر الناتج كنص متكتل، ربما لم تقم بتفعيل العلامة.
+3. **مسارات الملفات تحتوي على مسافات** – استخدام السلاسل الخام (`@"C:\My Folder\input.docx"`) يجنب مشاكل الهروب. وإلا ستحصل على استثناء `FileNotFoundException`.
+4. **عدم توافق الإصدارات** – الإصدارات القديمة من Aspose.Words (< 21.9) لا تدعم `OfficeMathExportMode`. قم بالترقية إلى أحدث حزمة لضمان عمل **how to export latex**.
+5. **أخطاء الترميز للأحرف غير ASCII** – إذا ظهرت رموز �، اضبط صراحةً `options.Encoding` إلى UTF‑8 أو صفحة الترميز المناسبة.
+
+---
+
+## توسيع الحل: من TXT إلى Markdown أو HTML
+
+أحيانًا تحتاج إلى أكثر من نص عادي—ربما ملف Markdown لا يزال يحتوي على كتل LaTeX. يمكن استبدال `TxtSaveOptions` بـ `HtmlSaveOptions` أو `MarkdownSaveOptions`:
+
+```csharp
+var mdOptions = new MarkdownSaveOptions
+{
+    ExportDocumentStructure = true,
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+};
+doc.Save("output.md", mdOptions);
+```
+
+هذا التغيير الصغير يتيح لك الحصول على مخرجات شبيهة بـ **convert word to txt** مع الحفاظ على صيغة markdown التي تفضلها.
+
+---
+
+## الخلاصة
+
+استعرضنا إجابة كاملة وجاهزة للإنتاج على سؤال **how to export latex** من مستند Word، مع إظهار كيفية **convert word to txt**, **convert word to plain text**, **save docx as txt**, و **how to preserve tables**. النقاط الأساسية هي:
+
+- تحميل الـ DOCX باستخدام `Aspose.Words.Document`.
+- ضبط `TxtSaveOptions.OfficeMathExportMode = LaTeX` و `PreserveTableLayout = true`.
+- استدعاء `doc.Save(outputPath, options)` للحصول على ملف نصي غني بـ LaTeX.
+
+جرّبه على ملفاتك الخاصة، جرب تعديل الترميز، ولا تتردد في معالجة دفعات كاملة من المجلدات. إذا صادفت حالات خاصة—جداول متداخلة، أحرف غريبة، أو إصدارات قديمة من Aspose—ارجع إلى أقسام “النصائح” و“الأخطاء الشائعة” للحصول على حلول سريعة.
+
+هل أنت مستعد للخطوة التالية؟ جرّب تحويل نفس الـ DOCX إلى Markdown، أو استخدم ملف `.txt` الناتج في مولّد مواقع ثابتة يعرض LaTeX على الويب. الاحتمالات لا حصر لها، والآن لديك أساس قوي لأي سير عمل **convert word to txt**.
+
+برمجة سعيدة، ونتمنى أن تُترجم LaTeX بنجاح من المرة الأولى!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

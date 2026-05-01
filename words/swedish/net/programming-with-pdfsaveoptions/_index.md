@@ -28,7 +28,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Varningar för PDF-rendering](./pdf-render-warnings/) | Steg-för-steg-guide för att hantera varningar om PDF-rendering med Aspose.Words för .NET. |
 | [Lägg till digital signatur till PDF med hjälp av certifikatinnehavaren](./digitally-signed-pdf-using-certificate-holder/) | Säkra dina PDF-filer med en digital signatur med Aspose.Words för .NET. Följ den här steg-för-steg-guiden för att enkelt lägga till en digital signatur till dina PDF-filer. |
 | [Bädda in teckensnitt i PDF-dokument](./embedded-all-fonts/) | Bädda in teckensnitt i PDF-dokument utan problem med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. Säkerställ ett enhetligt utseende på alla enheter. |
-| [Bädda in delmängdsteckensnitt i PDF-dokument](./embedded-subset-fonts/) Minska PDF-filstorleken genom att endast bädda in nödvändiga teckensnittsdelmängder med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att optimera dina PDF-filer effektivt. |
+| [Bädda in delmängdsteckensnitt i PDF-dokument](./embedded-subset-fonts/) Minska PDF-filstorleken genom att endast bädda in nödvändiga teckensnittdelmängder med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att optimera dina PDF-filer effektivt. |
 | [Minska PDF-storleken genom att inaktivera inbäddade teckensnitt](./disable-embed-windows-fonts/) | Minska PDF-storleken genom att inaktivera inbäddade teckensnitt med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att optimera dina dokument för effektiv lagring och delning. |
 | [Optimera PDF-storleken med att hoppa över inbäddade Arial- och Times Roman-teckensnitt](./skip-embedded-arial-and-times-roman-fonts/) | Optimera PDF-storleken genom att hoppa över inbäddade Arial- och Times Roman-teckensnitt med Aspose.Words för .NET. Följ den här steg-för-steg-guiden för att effektivisera dina PDF-filer. |
 | [Minska PDF-filstorleken genom att inte bädda in kärnteckensnitt](./avoid-embedding-core-fonts/) | Lär dig hur du minskar PDF-filstorleken genom att inte bädda in kärnteckensnitt med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att optimera dina PDF-filer. |
@@ -50,6 +50,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Skapa tillgänglig PDF i C# – PDF-tillgänglighetstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Lär dig skapa tillgängliga PDF-filer i C# med Aspose.Words och följa WCAG-riktlinjer. |
 | [Skapa tillgänglig PDF från Word – Komplett guide](./create-accessible-pdf-from-word-complete-guide/) | Lär dig hur du skapar tillgängliga PDF-filer från Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Skapa tillgänglig PDF – Steg‑för‑steg guide för PDF/UA‑efterlevnad](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Lär dig hur du skapar PDF-filer som uppfyller PDF/UA‑standarder för tillgänglighet med Aspose.Words för .NET. |
+| [Spara dokument som pdf med Aspose.Words – Komplett C#-guide](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar ett dokument som PDF med Aspose.Words i en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
