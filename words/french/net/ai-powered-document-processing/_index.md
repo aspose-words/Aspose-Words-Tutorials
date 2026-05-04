@@ -39,9 +39,12 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | Titre | Description |
 | --- | --- |
 | [Travailler avec un modèle d'IA](./working-with-ai-model/) | Apprenez à utiliser Aspose.Words pour .NET pour synthétiser des documents avec l'IA. Étapes simples pour améliorer la gestion des documents. |
-| [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) Améliorez le traitement de vos documents avec Aspose.Words pour .NET et Google AI pour créer des résumés concis sans effort. |
+| [Travailler avec le modèle d'IA de Google](./working-with-google-ai-model/) | Améliorez le traitement de vos documents avec Aspose.Words pour .NET et Google AI pour créer des résumés concis sans effort. |
 | [Travailler avec un modèle d'IA ouvert](./working-with-open-ai-model/) | Bénéficiez d'une synthèse efficace de vos documents grâce à Aspose.Words pour .NET et aux puissants modèles d'OpenAI. Découvrez dès maintenant ce guide complet. |
 | [Travailler avec les options de résumé](./working-with-summarize-options/) | Apprenez à résumer efficacement des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape sur l'intégration de modèles d'IA pour des informations rapides. |
+| [Comment utiliser un LLM avec Aspose.Words – Réécrire des paragraphes en C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Utilisez un modèle de langage pour réécrire automatiquement des paragraphes Word en C# avec Aspose.Words. |
+| [Comment vérifier la grammaire en C# – Guide complet pour les documents Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Apprenez à vérifier la grammaire des documents Word en C# avec Aspose.Words grâce à ce guide complet. |
+| [Résumer un document Word en C# – Guide complet utilisant Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Apprenez à résumer des documents Word en C# avec le modèle Claude d'Anthropic via Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

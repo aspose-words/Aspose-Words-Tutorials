@@ -36,6 +36,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Word konvertálása PDF-be C#-ban az Aspose.Words – Útmutató](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Tanulja meg, hogyan konvertálhat Word dokumentumokat PDF-be C#-ban az Aspose.Words használatával. |
 | [Word mentése PDF-be az Aspose.Words segítségével – Teljes C# útmutató](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Tanulja meg, hogyan menthet Word dokumentumokat PDF-be C#-ban az Aspose.Words használatával, részletes lépésekkel. |
 | [Docx mentése PDF-be az Aspose.Words segítségével – Teljes C# útmutató](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Tanulja meg, hogyan menthet docx fájlokat PDF-be C#-ban az Aspose.Words használatával, részletes lépésekkel. |
+| [Hozzon létre akadálymentes PDF-et DOCX-ből C#-ban – Hogyan konvertáljon Word-et PDF-be](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Tanulja meg, hogyan hozhat létre hozzáférhető PDF-et DOCX fájlból C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

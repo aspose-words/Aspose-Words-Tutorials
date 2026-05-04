@@ -42,6 +42,9 @@
 | [Εργασία με το μοντέλο τεχνητής νοημοσύνης της Google](./working-with-google-ai-model/) Αναβαθμίστε την επεξεργασία εγγράφων με το Aspose.Words για .NET και Google AI για να δημιουργήσετε συνοπτικές περιλήψεις χωρίς κόπο. |
 | [Εργασία με ανοιχτό μοντέλο τεχνητής νοημοσύνης](./working-with-open-ai-model/) | Ξεκλειδώστε αποτελεσματική σύνοψη εγγράφων χρησιμοποιώντας το Aspose.Words για .NET με τα ισχυρά μοντέλα του OpenAI. Βουτήξτε σε αυτόν τον ολοκληρωμένο οδηγό τώρα. |
 | [Εργασία με επιλογές σύνοψης](./working-with-summarize-options/) | Μάθετε να συνοψίζετε αποτελεσματικά έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με τον αναλυτικό οδηγό μας για την ενσωμάτωση μοντέλων AI για γρήγορες πληροφορίες. |
+| [Σύνοψη εγγράφου Word σε C# – Πλήρης οδηγός με χρήση του Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Μάθετε πώς να χρησιμοποιήσετε το μοντέλο Anthropic Claude για να συνοψίσετε έγγραφα Word σε C# με το Aspose.Words. |
+| [Πώς να χρησιμοποιήσετε LLM με το Aspose.Words – Επαναγράψτε παραγράφους σε C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Μάθετε πώς να ενσωματώσετε μοντέλα γλώσσας για την επαναγραφή παραγράφων σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
+| [Πώς να ελέγξετε τη γραμματική σε C# – Πλήρης οδηγός για έγγραφα Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Μάθετε πώς να ενσωματώσετε έλεγχο γραμματικής σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET και C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
