@@ -42,11 +42,11 @@ Ein Wasserzeichen ist ein schwaches Bild oder ein Text, der hinter dem Hauptinha
 - Aspose.Words for Java‑Bibliothek (Download von der offiziellen Website).  
 - Eine gültige Aspose‑Lizenz für den Produktionseinsatz (kostenlose Testversion verfügbar).
 
-## Erste Schritte mit Aspose.Words for Java
-Sind Sie neu bei Aspose.Words for Java? Keine Sorge! Dieses Tutorial führt Sie durch die Erstkonfiguration und bietet Ihnen eine solide Grundlage für die Arbeit mit dieser API. Sie sind im Handumdrehen einsatzbereit.
+## Erste Schritte mit Aspose.Words für Java
+Sind Sie neu bei Aspose.Words für Java? Keine Sorge! Dieses Tutorial führt Sie durch die Erstkonfiguration und bietet Ihnen eine solide Grundlage für die Arbeit mit dieser API. Sie sind im Handumdrehen einsatzbereit.
 
 ## Dokumente in verschiedene Formate konvertieren
-Eine der Hauptfunktionen von Aspose.Words for Java ist die Fähigkeit, **convert docx to pdf** und viele andere Formate nahtlos zu konvertieren. Egal, ob Sie eine DOCX‑Datei in PDF oder umgekehrt konvertieren müssen, dieses Tutorial führt Sie Schritt für Schritt durch den Prozess. Sie erhalten ein tiefes Verständnis der Konvertierungsoptionen und Anpassungsmöglichkeiten.
+Eine der Hauptfunktionen von Aspose.Words für Java ist die Fähigkeit, **convert docx to pdf** und viele andere Formate nahtlos zu konvertieren. Egal, ob Sie eine DOCX‑Datei in PDF oder umgekehrt konvertieren müssen, dieses Tutorial führt Sie Schritt für Schritt durch den Prozess. Sie erhalten ein tiefes Verständnis der Konvertierungsoptionen und Anpassungsmöglichkeiten.
 
 ### So konvertieren Sie DOCX zu PDF
 1. Laden Sie die DOCX‑Datei mit `Document doc = new Document("input.docx");`.  
@@ -99,7 +99,16 @@ Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for
 ### [Dokument als TXT speichern – Schnellleitfaden zum Exportieren von Word-Mathematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
 
+### [DOCX als TXT speichern – Word‑Gleichungen nach LaTeX exportieren](./save-docx-as-txt-export-word-equations-to-latex/)
+Erfahren Sie, wie Sie DOCX‑Dateien als TXT speichern und darin enthaltene Word‑Gleichungen in LaTeX‑Formeln konvertieren.
+
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+
+### [Wie man Markdown aus Word speichert – Vollständiger Java‑Leitfaden](./how-to-save-markdown-from-word-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Word‑Dokumente direkt als Markdown speichern – Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie man die Auflösung beim Speichern von Word als Markdown festlegt](./how-to-set-resolution-when-saving-word-as-markdown/)
+Erfahren Sie, wie Sie beim Exportieren von Word-Dokumenten nach Markdown die Bildauflösung festlegen, um optimale Qualität zu erhalten.
 
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
@@ -108,7 +117,10 @@ Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfü
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
 
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+
+### [Word als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein Word‑Dokument vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

@@ -67,7 +67,8 @@ weight: 20
 ## Διαθέσιμοι Οδηγοί
 
 ### [Αριστεία Επεξεργασία Κειμένου σε Java&#58; Χρήση Aspose.Words & Μοντέλων AI για Σύνοψη και Μετάφραση](./java-aspose-words-text-processing/)
-Μάθετε πώς να αυτοματοποιήσετε τη σύνοψη κειμένου και τη μετάφραση χρησιμοποιώντας το Aspose.Words for Java με το GPT‑4 της OpenAI και το Gemini της Google. Βελτιώστε τις εφαρμογές Java σας σήμερα.
+
+### [Δημιουργία εγγράφου Word σε Java με προσαρμοσμένο LLM έλεγχο γραμματικής](./create-word-document-java-with-custom-llm-grammar-check/)
 
 ## Πρόσθετοι Πόροι
 

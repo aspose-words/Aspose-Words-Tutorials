@@ -95,10 +95,16 @@ Learn how to convert documents to different formats using Aspose.Words for Java.
 Convert HTML to Word documents effortlessly with Aspose.Words for Java. Learn how to perform this conversion in just a few steps with our comprehensive guide.
 
 ### [Konwersja dokumentów przy użyciu SaveOptions](./document-conversion-saveoptions/)
-Efektywna konwersja DOCX do EPUB przy użyciu Aspose.Words for Java. Dowiedz się, jak dostosować opcje zapisu, podzielić zawartość i wyeksportować właściwości dokumentu w tym przewodniku krok po kroku.
+Efektywna konwersja DOCX do EPUB przy użyciu Aspose.Words dla Java. Dowiedz się, jak dostosować opcje zapisu, podzielić zawartość i wyeksportować właściwości dokumentu w tym przewodniku krok po kroku.
 
 ### [Konwertowanie dokumentów do obrazów](./converting-documents-images/)
 Dowiedz się, jak konwertować dokumenty Word na obrazy przy użyciu Aspose.Words for Java. Przewodnik krok po kroku, zawierający przykłady kodu i FAQ.
+
+### [Konwertuj DOCX do PDF w Javie – Przewodnik po dostępnych PDF](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+Dowiedz się, jak tworzyć dostępne pliki PDF z DOCX w Javie, zachowując strukturę i czytelność dla osób niepełnosprawnych.
+
+### [Zapisz Word jako Markdown – Kompletny przewodnik Java (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Dowiedz się, jak konwertować dokumenty Word do formatu Markdown w Javie przy użyciu Aspose.Words, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

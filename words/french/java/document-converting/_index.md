@@ -76,7 +76,7 @@ Utilisez `PdfSaveOptions` pour définir la compression des images, incorporer to
 Chargez chaque document, appelez `mainDoc.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)`, puis enregistrez le document combiné en PDF.
 
 ### Convertir Word en HTML puis revenir en arrière
-D’abord, `document.save("temp.html", SaveFormat.HTML)`. Pour reconvertir le HTML en Word, chargez le fichier HTML avec `new Document("temp.html")` et enregistrez-le en DOCX.
+D’abord, `document.save("temp.html", SaveFormat.HTML)`. Pour reconvertir le HTML en Word, chargez le fichier HTML avec `new Document("temp.html")` et enregistrez‑le en DOCX.
 
 ### Convertir du HTML en documents Word
 Exploitez `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` puis `doc.save("output.docx")`.
@@ -100,6 +100,11 @@ Convertissez efficacement DOCX en EPUB avec Aspose.Words for Java. Apprenez à p
 
 ### [Convertir des documents en images](./converting-documents-images/)
 Apprenez à convertir des documents Word en images avec Aspose.Words for Java. Guide pas à pas, complet avec des exemples de code et des FAQ.
+
+### [Convertir DOCX en PDF en Java – Guide PDF accessible](./convert-docx-to-pdf-in-java-accessible-pdf-guide/)
+
+### [Enregistrer Word au format Markdown – Guide Java complet (2026)](./save-word-as-markdown-complete-java-guide-2026/)
+Apprenez à convertir des documents Word en fichiers Markdown avec Aspose.Words for Java grâce à ce guide complet et à jour.
 
 ## FAQ
 

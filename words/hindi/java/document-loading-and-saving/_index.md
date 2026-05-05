@@ -91,7 +91,7 @@ Aspose.Words for Java में लोड विकल्पों को मा
 ### [Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करना](./configuring-rtf-load-options/)
 Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करें। RTF दस्तावेज़ में UTF-8 टेक्स्ट को पहचानना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java के साथ टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
+### [Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
 Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
 
 ### [Aspose.Words for Java के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
@@ -124,18 +124,21 @@ Aspose.Words for Java के साथ Word दस्तावेज़ को P
 ### [Aspose.Words for Java में दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना](./saving-documents-as-rtf-format/)
 Aspose.Words for Java का उपयोग करके दस्तावेज़ को RTF फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए कोड के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
+### [Aspose.Words में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
 Aspose.Words for Java के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
+### [Aspose.Words में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
 ### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
 
+### [Aspose.Words LoadOptions – जावा में करप्ट Word दस्तावेज़ पुनर्प्राप्त करें](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Aspose.Words LoadOptions का उपयोग करके जावा में करप्ट Word फ़ाइलों को पुनर्प्राप्त और प्रोसेस करें।
+
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
+
+### [Aspose फ़ॉन्ट प्रतिस्थापन ट्यूटोरियल – गायब फ़ॉन्ट्स को संभालें](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
