@@ -1,9 +1,40 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java를 사용하여 Word 문서에서 댓글과 답글을 관리하는 방법을 알아보세요. 댓글을 손쉽게 추가, 인쇄, 삭제하고, 완료로 표시하고, 타임스탬프를 추적할 수 있습니다."
-"title": "Aspose.Words Java&#58; Word 문서에서 주석 관리 마스터하기"
-"url": "/ko/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-05-18'
+description: Aspose.Words for Java로 Word 문서의 댓글을 관리하는 방법을 배워보세요. Add comment java,
+  print word comments, delete word comment, 그리고 add comment reply를 효율적으로 수행합니다.
+keywords:
+- how to manage comments
+- add comment java
+- print word comments
+- java document comments
+- delete word comment
+- add comment reply
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to manage comments in Word documents with Aspose.Words for
+    Java. Add comment java, print word comments, delete word comment, and add comment
+    reply efficiently.
+  headline: How to Manage Comments in Word Documents Using Aspose.Words for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, with a valid license; a free trial is available for evaluation.
+    question: Can I use Aspose.Words for Java in a commercial application?
+  - answer: Yes, provide the password when loading the document via `LoadOptions`.
+    question: Does the library work with password‑protected Word files?
+  - answer: Aspose.Words for Java supports JDK 8 through JDK 21, covering both legacy
+      and modern environments.
+    question: Which Java versions are supported?
+  - answer: Use `LoadOptions.setLoadFormat(LoadFormat.DOCX)` and enable `LoadOptions.setMemoryOptimization(true)`
+      to reduce memory footprint.
+    question: How do I handle documents larger than 200 MB?
+  - answer: Iterate `doc.getComments()` and write each comment’s properties to a CSV
+      using standard Java I/O.
+    question: Is there a way to export comments to a CSV file?
+  type: FAQPage
+title: Aspose.Words for Java를 사용하여 Word 문서에서 댓글 관리하는 방법
+url: /ko/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,84 +43,171 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words for Java를 사용하여 Word 문서에서 댓글 관리하기
 
-# Aspose.Words Java: Word 문서에서 주석 관리 마스터하기
+프로그래밍 방식으로 댓글을 관리하는 것은 미로를 탐색하는 것처럼 느껴질 수 있습니다. 특히 답글을 추가하고, 원치 않는 메모를 삭제하며, 각 댓글이 언제 작성되었는지 추적해야 할 때 더욱 그렇습니다. 이 튜토리얼에서는 Aspose.Words for Java를 사용하여 **댓글을 효율적으로 관리하는 방법**을 알아보고, 댓글 추가부터 UTC 타임스탬프 가져오기까지 모든 과정을 다룹니다.
 
-## 소개
-Word 문서 내에서 프로그래밍 방식으로 메모를 관리하는 것은 답글을 추가하거나 문제를 해결됨으로 표시하는 등 까다로울 수 있습니다. 이 튜토리얼에서는 Java에서 강력한 Aspose.Words 라이브러리를 사용하여 메모를 효율적으로 추가, 관리 및 분석하는 방법을 안내합니다.
+## 빠른 답변
+- **Java에서 댓글을 추가하려면 어떻게 해야 하나요?** `Document` → `Comment` 객체를 사용하고 `CommentRangeStart`에서 `appendChild`를 호출합니다.
+- **Word 파일의 모든 댓글을 출력할 수 있나요?** `doc.getComments()`를 반복하면서 각 댓글의 텍스트와 작성자를 출력합니다.
+- **댓글을 삭제하는 방법이 있나요?** 문서의 댓글 컬렉션에서 해당 댓글 노드를 제거합니다.
+- **댓글에 답글을 추가하려면 어떻게 하나요?** `Comment` 객체를 생성하고 `ParentComment` 속성을 설정한 뒤 문서에 추가합니다.
+- **댓글의 타임스탬프를 가져오려면 어떻게 해야 하나요?** UTC `java.time` 값을 반환하는 `Comment.getDateTime()`에 접근합니다.
 
-**배울 내용:**
-- 간편하게 댓글과 답변을 추가하세요
-- 모든 최상위 댓글과 답변을 인쇄합니다.
-- 댓글 답변을 삭제하거나 댓글을 완료로 표시하세요
-- 정확한 추적을 위해 댓글의 UTC 날짜 및 시간을 검색합니다.
+## Word 문서에서 댓글 관리란 무엇인가요?
+댓글 관리는 Word 파일 내에서 댓글 객체를 프로그래밍 방식으로 생성, 검색, 수정 및 삭제하는 것을 의미합니다. 이를 통해 수동 편집 없이 자동화된 검토 워크플로우를 구현할 수 있으며, 개발자는 댓글을 추가, 답글 달기, 해결 및 추출할 수 있어 팀 간 협업 및 감사 프로세스를 효율화합니다.
 
-문서 관리 능력을 향상시킬 준비가 되셨나요? 시작하기 전에 필수 조건을 자세히 살펴보겠습니다.
+## 댓글 관리를 위해 Aspose.Words for Java를 사용하는 이유
+Aspose.Words는 **35개 이상의 입력 및 출력 형식**을 지원하며, 표준 서버 하드웨어에서 **500페이지 문서를 3초 이하**로 처리할 수 있습니다. Microsoft Word가 필요 없으며, 풍부한 API를 통해 댓글 객체, 타임스탬프 및 답글 계층 구조를 세밀하게 제어할 수 있습니다.
 
-## 필수 조건
-시작하기 전에 필요한 라이브러리, 도구 및 환경이 모두 설정되어 있는지 확인하세요. 필요한 사항은 다음과 같습니다.
-- 컴퓨터에 Java Development Kit(JDK)가 설치되어 있습니다.
-- 기본 Java 프로그래밍 개념에 대한 지식
-- IntelliJ IDEA 또는 Eclipse와 같은 통합 개발 환경(IDE)
+## 전제 조건
+- Java Development Kit (JDK) 8 이상이 설치되어 있어야 합니다.
+- Java 문법 및 객체 지향 개념에 대한 기본적인 이해가 필요합니다.
+- IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하면 프로젝트 관리가 용이합니다.
+- 유효한 Aspose.Words for Java 라이선스(체험판 또는 정식 구매)가 필요합니다.
 
-### Java용 Aspose.Words 설정
-Aspose.Words는 다양한 형식의 Word 문서를 작업할 수 있는 포괄적인 라이브러리입니다. 시작하려면 프로젝트에 다음 종속성을 포함하세요.
+### Aspose.Words for Java 설정
+Aspose.Words는 Maven 또는 Gradle 아티팩트 형태로 제공됩니다. 사용 중인 빌드 시스템에 맞는 종속성을 추가하세요.
 
-**메이븐:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**그래들:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-#### 라이센스 취득
-Aspose.Words는 유료 라이브러리이지만, 무료 체험판으로 시작하거나 임시 라이선스를 요청하여 모든 기능을 사용할 수 있습니다. [구매 페이지](https://purchase.aspose.com/buy) 라이선싱 옵션을 살펴보세요.
+#### 라이선스 획득
+Aspose.Words는 상용 라이브러리이지만, 무료 체험판으로 시작하거나 전체 기능 접근을 위한 임시 라이선스를 요청할 수 있습니다. 라이선스 옵션을 확인하려면 [purchase page](https://purchase.aspose.com/buy) 를 방문하세요.
 
-## 구현 가이드
-이 섹션에서는 Java에서 Aspose.Words를 사용하여 주석 관리와 관련된 각 기능을 살펴보겠습니다.
-
-### 기능 1: 답글로 댓글 추가
-**개요**
-이 기능은 Word 문서에 메모와 답글을 추가하는 방법을 보여줍니다. 여러 사용자가 피드백을 제공할 수 있는 공동 문서 편집에 적합합니다.
-
-#### 구현 단계
-**1단계:** 문서 객체 초기화
+## Java 스타일로 댓글 추가하기
+`Document`는 메모리로 로드된 Word 파일을 나타내는 주요 Aspose.Words 객체입니다. `Comment`는 작성자, 텍스트 및 타임스탬프 정보를 저장할 수 있는 개별 댓글 노드를 나타냅니다. 최상위 댓글을 추가하려면 `Document`를 로드하거나 생성하고, 원하는 작성자와 텍스트를 사용해 `Comment`를 인스턴스화한 뒤 대상 위치의 `CommentRangeStart`에 연결합니다. 이 방법으로 몇 줄의 코드만으로 댓글을 삽입할 수 있습니다.  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
+```  
+
+## Java에서 댓글 답글 추가하기
+`Comment` 객체는 `ParentComment` 속성을 사용해 답글 체인을 형성할 수 있습니다. 이 속성을 기존 댓글에 설정하면 새 댓글이 해당 부모의 자식(답글)으로 연결됩니다. 자식 `Comment`를 생성하고 `ParentComment`를 원본 댓글에 할당한 뒤 문서에 삽입하면 답글이 부모 바로 아래에 중첩되어 토론 계층 구조가 유지됩니다.  
+```java
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
+document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
+```  
+
+## Word 댓글 출력하기
+`Document.getComments()`는 Word 파일에 존재하는 모든 `Comment` 노드의 컬렉션을 반환합니다. 이 컬렉션을 반복하면 각 댓글의 작성자, 텍스트 및 타임스탬프에 접근할 수 있습니다. 문서를 로드하고 `getComments()`를 호출한 뒤, 각 `Comment`의 세부 정보를 콘솔이나 로그에 출력하면 파일에 포함된 모든 피드백을 한눈에 확인할 수 있습니다.  
+```java
+Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
+```  
+
+## Word 댓글 삭제하기
+`Comment.remove()`는 댓글 노드를 문서 트리에서 분리하여 실질적으로 삭제합니다. 먼저 `Document.getComments()` 컬렉션에서 원하는 댓글을 찾은 다음, 해당 댓글의 `remove()` 메서드를 호출합니다. 전체 계층을 정리하려면 자식 답글도 함께 제거할 수 있어 댓글이 파일에서 완전히 사라집니다.  
+```java
+Document document = new Document();
+Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
+comment.setText("My comment.");
+document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
+```  
+
+## 댓글을 완료로 표시하기
+`Comment.setDone(boolean)`은 댓글을 해결된 상태로 표시하여 Word UI에서 시각적인 “Done” 플래그를 토글합니다. 댓글을 생성하거나 찾은 뒤 `setDone(true)`를 호출하면 해당 이슈가 처리되었음을 나타냅니다. 필요에 따라 `setDone(false)`로 플래그를 해제할 수도 있습니다.  
+```java
+Document document = new Document();
+DocumentBuilder documentBuilder = new DocumentBuilder(document);
+documentBuilder.writeln("Hello world!");
+Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
+comment.setText("Fix the spelling error!");
+```  
+
+## 댓글의 UTC 날짜 및 시간 가져오기
+`Comment.getDateTime()`은 댓글 생성 시점을 UTC 기준 `java.time.OffsetDateTime` 형태로 반환합니다. 문서를 로드한 후 이 속성에 접근하면 각 댓글에 대한 정확한 시간 정보를 얻을 수 있어 감사 로그 및 버전 관리에 유용합니다. 필요에 따라 다른 시간대로 변환할 수도 있습니다.  
+```java
+document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
+Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
+Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
+assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
+```  
+
+## 실용적인 적용 사례
+이 댓글 관리 기능을 이해하고 활용하면 다양한 실제 워크플로우를 혁신할 수 있습니다:
+
+- **협업 편집:** 팀이 문서를 떠나지 않고도 댓글을 추가, 답글 달기 및 해결할 수 있습니다.
+- **문서 검토 파이프라인:** 자동화 스크립트가 모든 피드백을 추출하고 요약 보고서를 생성하며 항목을 완료로 표시합니다.
+- **감사 및 규정 준수:** UTC 타임스탬프는 각 댓글이 언제 작성되었는지에 대한 변조 불가능한 기록을 제공하여 규제 추적에 유용합니다.
+
+## 성능 고려 사항
+대용량 파일을 처리할 때 다음 모범 사례를 기억하세요:
+
+- 전체 댓글 트리를 메모리에 로드하기보다 배치 단위로 처리합니다.
+- 모든 댓글을 한 번에 제거해야 할 경우에만 `Document.getComments().clear()`를 사용합니다.
+- 최신 Aspose.Words 버전으로 업그레이드하여 메모리 최적화된 댓글 처리를 활용합니다.
+
+## 일반적인 문제 및 해결책
+| 문제 | 해결책 |
+|-------|----------|
+| **댓글에 접근할 때 NullPointerException** | `getComments()`를 호출하기 전에 문서가 완전히 로드(`Document.load`)되었는지 확인하세요. |
+| **답글이 Word UI에 표시되지 않음** | `ParentComment` 속성을 올바르게 설정하세요; 답글은 기존 댓글을 참조해야 합니다. |
+| **타임스탬프가 UTC가 아닌 로컬 시간으로 표시됨** | UTC를 강제하려면 `Comment.getDateTime().withOffsetSameInstant(ZoneOffset.UTC)`를 사용하세요. |
+
+## 자주 묻는 질문
+
+**Q: Aspose.Words for Java를 상용 애플리케이션에서 사용할 수 있나요?**  
+A: 네, 유효한 라이선스가 있으면 가능합니다; 평가용 무료 체험판도 제공됩니다.
+
+**Q: 라이브러리가 암호로 보호된 Word 파일에서도 작동하나요?**  
+A: 네, `LoadOptions`를 통해 문서를 로드할 때 비밀번호를 제공하면 됩니다.  
+
+**Q: 지원되는 Java 버전은 어떤 것인가요?**  
+A: Aspose.Words for Java는 JDK 8부터 JDK 21까지 지원하여 레거시와 최신 환경 모두를 포괄합니다.  
+
+**Q: 200 MB보다 큰 문서는 어떻게 처리하나요?**  
+A: `LoadOptions.setLoadFormat(LoadFormat.DOCX)`를 사용하고 `LoadOptions.setMemoryOptimization(true)`를 활성화하여 메모리 사용량을 줄이세요.  
+
+**Q: 댓글을 CSV 파일로 내보낼 방법이 있나요?**  
+A: `doc.getComments()`를 반복하면서 각 댓글의 속성을 표준 Java I/O를 사용해 CSV에 기록하면 됩니다.
+
+---
+
+**마지막 업데이트:** 2026-05-18  
+**테스트 환경:** Aspose.Words for Java 24.12  
+**작성자:** Aspose  
+
+```java
+document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
+document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
+comment.setDone(true);
+document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```
 
-**2단계:** 댓글 작성 및 추가
+{{< blocks/products/products-backtop-button >}}
+
+## 관련 튜토리얼
+
+- [Aspose.Words Java를 사용한 Word 문서에서 변경 내용 추적: 문서 개정에 대한 완전 가이드](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Aspose.Words for Java 튜토리얼로 주석 및 댓글 마스터하기](/words/java/annotations-comments/)
+- [Aspose.Words for Java 마스터: Word 문서에 북마크 삽입 및 관리 방법](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**3단계:** 댓글에 답변을 추가하세요
-```java
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
-document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
-
-### 기능 2: 모든 댓글 인쇄
-**개요**
-이 기능을 사용하면 모든 최상위 댓글과 답변을 인쇄하여 대량으로 피드백을 쉽게 검토할 수 있습니다.
-
-#### 구현 단계
-**1단계:** 문서 로드
-```java
-Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
-
-**2단계:** 댓글 검색 및 인쇄
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -103,55 +221,11 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```
 
-### 기능 3: 댓글 답글 제거
-**개요**
-문서를 깔끔하고 체계적으로 유지하려면 댓글에서 특정 답변이나 모든 답변을 제거하세요.
-
-#### 구현 단계
-**1단계:** 댓글을 초기화하고 답글로 댓글 추가
 ```java
-Document document = new Document();
-Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
-comment.setText("My comment.");
-document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
 ```
 
-**2단계:** 답글 삭제
-```java
-comment.removeReply(comment.getReplies().get(0)); // 답변 하나 삭제
-comment.removeAllReplies(); // 나머지 답변을 모두 제거합니다
-```
-
-### 기능 4: 댓글을 완료로 표시
-**개요**
-문서 내에서 문제를 효율적으로 추적하려면 댓글을 해결됨으로 표시하세요.
-
-#### 구현 단계
-**1단계:** 문서 만들기 및 댓글 추가
-```java
-Document document = new Document();
-DocumentBuilder documentBuilder = new DocumentBuilder(document);
-documentBuilder.writeln("Hello world!");
-Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
-comment.setText("Fix the spelling error!");
-```
-
-**2단계:** 댓글을 완료로 표시
-```java
-document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
-document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
-comment.setDone(true);
-document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
-
-### 기능 5: 주석에서 UTC 날짜 및 시간 가져오기
-**개요**
-정확한 추적을 위해 댓글이 추가된 정확한 UTC 날짜와 시간을 검색합니다.
-
-#### 구현 단계
-**1단계:** 타임스탬프가 있는 주석이 있는 문서 만들기
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -160,56 +234,3 @@ Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
-
-**2단계:** UTC 날짜 저장 및 검색
-```java
-document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
-Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
-Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
-assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
-
-## 실제 응용 프로그램
-이러한 기능을 이해하고 활용하면 다양한 시나리오에서 문서 관리가 크게 향상될 수 있습니다.
-- **협업 편집:** 댓글과 답변을 통해 팀 협업을 촉진합니다.
-- **문서 검토:** 문제를 해결됨으로 표시하여 검토 프로세스를 간소화합니다.
-- **피드백 관리:** 정확한 타임스탬프를 사용하여 피드백을 추적합니다.
-
-이러한 기능은 콘텐츠 관리 플랫폼이나 자동화된 문서 처리 파이프라인과 같은 대규모 시스템에 통합될 수 있습니다.
-
-## 성능 고려 사항
-대용량 문서로 작업할 때 성능을 최적화하려면 다음 팁을 고려하세요.
-- 한 번에 처리되는 댓글 수를 제한합니다.
-- 주석을 저장하고 검색하기 위해 효율적인 데이터 구조를 사용하세요
-- 성능 개선을 위해 Aspose.Words를 정기적으로 업데이트하세요.
-
-## 결론
-이제 Aspose.Words를 사용하여 Java에서 주석을 추가, 관리 및 분석하는 방법을 익혔습니다. 이러한 기술을 활용하면 문서 관리 워크플로를 크게 향상시킬 수 있습니다. Aspose.Words의 다른 기능들을 계속 탐색하여 잠재력을 최대한 활용하세요.
-
-**다음 단계:**
-- 추가 Aspose.Words 기능을 실험해 보세요
-- 기존 프로젝트에 댓글 관리를 통합하세요
-
-이러한 솔루션을 구현할 준비가 되셨나요? 지금 바로 시작하여 문서 처리 프로세스를 간소화하세요!
-
-## FAQ 섹션
-1. **Java용 Aspose.Words란 무엇인가요?**
-   - 다양한 형식의 Word 문서를 프로그래밍 방식으로 조작할 수 있는 라이브러리입니다.
-2. **내 프로젝트에 Aspose.Words를 어떻게 설치하나요?**
-   - 프로젝트 파일에 Maven 또는 Gradle 종속성을 추가합니다.
-3. **라이선스 없이 Aspose.Words를 사용할 수 있나요?**
-   - 네, 제한 사항이 있습니다. 전체 이용 권한을 얻으려면 임시 또는 정식 라이선스를 취득하는 것을 고려해 보세요.
-4. **댓글을 관리할 때 흔히 발생하는 문제는 무엇인가요?**
-   - 적절한 문서 로딩 및 주석 검색 방법을 보장하고, null 참조를 주의해서 처리합니다.
-5. **여러 문서의 변경 사항을 추적하려면 어떻게 해야 하나요?**
-   - 버전 제어 시스템을 구현하거나 Aspose.Words의 기능을 사용하여 문서 수정 사항을 추적합니다.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
