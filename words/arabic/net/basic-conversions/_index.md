@@ -27,14 +27,15 @@
 | [تحويل Word إلى PDF باستخدام C# و Aspose.Words – دليل](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | تعرّف على كيفية تحويل مستندات Word إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
 | [حفظ ملف Docx كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | تعلّم كيفية حفظ ملفات Docx بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
+| [تحويل DOCX إلى PDF باستخدام C# – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-c-complete-step-by-step-guide/) | تعرّف على كيفية تحويل ملفات DOCX إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية وشاملة. |
 | [تحويل Docx إلى بايت](./docx-to-byte/) | تعلّم كيفية تحويل ملفات Docx إلى مصفوفة بايت في .NET باستخدام Aspose.Words لمعالجة مستندات فعّالة. دليل خطوة بخطوة مُرفق. |  
 | [تحويل Docx إلى Epub](./docx-to-epub/) حوّل ملفات DOCX إلى EPUB بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا التعليمي لدمجها بسلاسة في تطبيقات .NET.
 | [تحويل Docx إلى Mhtml وإرسال البريد الإلكتروني](./docx-to-mhtml-and-sending-email/) | تعلّم كيفية تحويل DOCX إلى MHTML وإرسال رسائل البريد الإلكتروني باستخدام Aspose.Words لـ .NET في هذا الدليل التفصيلي. حسّن إنتاجيتك مع الأتمة السهلة. |
 | [تحويل ملف Docx إلى Markdown](./docx-to-markdown/) | تعلّم كيفية تحويل ملفات DOCX إلى Markdown باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل لدمجها بسلاسة في تطبيقات .NET. |
-| [تحويل Docx إلى Txt](./docx-to-txt/) حوّل ملفات DOCX إلى TXT باستخدام Aspose.Words لـ .NET مع دليلنا المفصل. تعلّم كيفية تحويل المستندات بكفاءة ويسر.
+| [تحويل Docx إلى Txt](./docx-to-txt/) حوّل ملفات DOCX إلى TXT باستخدام Aspose.Words لـ .NET مع دليلنا المفصل. تعلّم كيفية تحويل المستندات بكفاءة ويسر. |
 | [تحويل ملف نصي إلى مستند Word](./txt-to-docx/) | تعلّم كيفية تحويل ملفات النصوص إلى مستندات وورد باستخدام Aspose.Words لـ .NET. أدر تحويلات المستندات بكفاءة من خلال دليلنا الشامل. | 
-| [حفظ ملف PDF بصيغة Jpeg](./pdf-to-jpeg/) حوّل ملفات PDF إلى JPEG بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل مع الأمثلة والأسئلة الشائعة. مثالي للمطورين والهواة.
-| [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين.
+| [حفظ ملف PDF بصيغة Jpeg](./pdf-to-jpeg/) حوّل ملفات PDF إلى JPEG بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل مع الأمثلة والأسئلة الشائعة. مثالي للمطورين والهواة. |
+| [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين. |
 | [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة](./how-to-export-latex-from-word-step-by-step-guide/) | تعلّم كيفية تصدير مستندات Word إلى صيغة LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

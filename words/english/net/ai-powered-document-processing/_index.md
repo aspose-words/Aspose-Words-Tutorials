@@ -43,6 +43,8 @@ Finally, don’t forget to check out our [Working With Summarize Options](./work
 | [Working With Google AI Model](./working-with-google-ai-model/) | Elevate your document processing with Aspose.Words for .NET and Google AI to create concise summaries effortlessly. |
 | [Working With Open AI Model](./working-with-open-ai-model/) | Unlock efficient document summarization using Aspose.Words for .NET with OpenAI's powerful models. Dive into this comprehensive guide now. |
 | [Working With Summarize Options](./working-with-summarize-options/) | Learn to effectively summarize Word documents using Aspose.Words for .NET with our step-by-step guide on integrating AI models for quick insights. |
+| [Call OpenAI API from C# – Complete Guide to Rewrite Word Paragraphs](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Learn how to call OpenAI API from C# to rewrite Word paragraphs using Aspose.Words for .NET. |
+| [How to Check Grammar in C# with Aspose.Words AI – Complete Guide](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Learn how to use Aspose.Words AI in C# to automatically check and correct grammar in Word documents. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

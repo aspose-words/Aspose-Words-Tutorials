@@ -28,6 +28,7 @@ Výukové programy se také zabývají základními koncepty manipulace s obráz
 | [Získat rozsah stránek JPEG](./get-jpeg-page-range/) | Převeďte konkrétní stránky dokumentů Word do formátu JPEG s vlastním nastavením pomocí Aspose.Words pro .NET. Naučte se krok za krokem upravovat jas, kontrast a rozlišení. |
 | [Zpětné volání pro uložení stránky](./page-saving-callback/) | Naučte se ukládat každou stránku dokumentu Word jako samostatný obrázek PNG pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. |
 | [Jak nastavit DPI při převodu Wordu na PNG – Kompletní průvodce v C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Naučte se nastavit DPI při konverzi dokumentu Word do PNG pomocí Aspose.Words pro .NET v C#. |
+| [Uložení Wordu jako PNG – Kompletní průvodce Aspose.Words](./save-word-as-png-complete-aspose-words-guide/) | Naučte se, jak uložit dokument Word jako PNG pomocí Aspose.Words pro .NET s podrobným návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

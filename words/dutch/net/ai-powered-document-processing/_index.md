@@ -42,6 +42,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met het Google AI-model](./working-with-google-ai-model/) Verbeter uw documentverwerking met Aspose.Words voor .NET en Google AI om moeiteloos beknopte samenvattingen te maken. |
 | [Werken met een open AI-model](./working-with-open-ai-model/) | Ontgrendel efficiënte documentsamenvattingen met Aspose.Words voor .NET met de krachtige modellen van OpenAI. Duik nu in deze uitgebreide handleiding. |
 | [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [OpenAI API aanroepen vanuit C# – Complete gids voor het herschrijven van Word-paragrafen](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Leer hoe u met C# de OpenAI API gebruikt om Word-paragrafen automatisch te herschrijven en te verbeteren. |
+| [Hoe grammatica te controleren in C# met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Leer hoe u met Aspose.Words AI grammatica controleert in C# voor nauwkeurige documenten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

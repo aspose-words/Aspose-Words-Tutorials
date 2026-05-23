@@ -50,7 +50,8 @@
 - [สร้าง PDF ที่เข้าถึงได้ใน C# – บทเรียนการทำ PDF ให้เข้าถึงได้](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ใน C#
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนครบถ้วน
 - [การแทรกภาพในเอกสาร PDF](./interpolate-images/) | เรียนรู้วิธีการแทรกรูปภาพในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงคุณภาพรูปภาพใน PDF ของคุณได้อย่างง่ายดาย |
-- [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วยคู่มือทีละขั้นตอนจาก Aspose.Words สำหรับ .NET |
+- [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วยคู่มือทีละขั้นตอนจาก Aspose.Words สำหรับ .NET
+- [บันทึก Word เป็น PDF – คู่มือฉบับสมบูรณ์พร้อมการเข้าถึง](./save-word-as-pdf-complete-guide-with-accessibility/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างครบถ้วนพร้อมการทำให้เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [设置 Ms Word 版本](./set-ms-word-version/) 通过我们的详细指南，了解如何使用 Aspose.Words for .NET 设置 MS Word 版本。非常适合希望简化文档操作的开发人员。|
 | [在 Word 文档中使用临时文件夹](./use-temp-folder/) 了解如何在使用 Aspose.Words 加载 Word 文档时使用临时文件夹来提高 .NET 应用程序的性能。|
 | [Word 文档中的警告回调](./warning-callback/) 学习如何使用 Aspose.Words for .NET 捕获和处理 Word 文档中的警告，并遵循我们的分步指南。确保文档处理稳健。|
+| [设置警告回调 aspose – Word 文档加载完整指南](./set-warning-callback-aspose-complete-guide-for-word-document/) 了解如何在 Aspose.Words for .NET 中使用 LoadOptions 设置警告回调，以捕获并处理 Word 文档加载过程中的警告信息。|
 | [在 Word 文档中加载编码](./load-with-encoding/) 了解如何使用 Aspose.Words for .NET 加载具有特定编码的 Word 文档。分步指南，详细解释。|
 | [跳过 PDF 图像](./skip-pdf-images/) 了解如何使用 Aspose.Words for .NET 加载 PDF 文档时跳过图片。按照本分步指南操作，即可实现无缝文本提取。|
 | [将图元文件转换为 Png](./convert-metafiles-to-png/) | 按照本分步教程，使用 Aspose.Words for .NET 轻松将 Word 文档中的元文件转换为 PNG。简化您的文档管理。|
@@ -37,7 +38,7 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
 | [如何恢复 docx – C# 损坏 Word 文件指南](./how-to-recover-docx-c-guide-for-corrupted-word-files/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 docx 文件，步骤详尽，帮助您修复损坏的 Word 文档。|
 | [使用 Aspose.Words 在 C# 中恢复 Word 文档](./recover-word-document-with-aspose-words-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 Word 文档，分步指南帮助您快速修复文件。|
-| [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文档，确保文档完整性。|
+| [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文件，确保文档完整性。|
 | [如何在 Aspose.Words 中使用 LoadOptions – 完整指南](./how-to-use-loadoptions-in-aspose-words-complete-guide/) 本完整指南详细演示了在 Aspose.Words for .NET 中使用 LoadOptions 加载和自定义 Word 文档的步骤。|
 | [在 C# 中恢复损坏文档 – 设置恢复模式并提示用户](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) 了解如何在 C# 使用 Aspose.Words 设置恢复模式并提示用户，以恢复损坏的文档。|
 

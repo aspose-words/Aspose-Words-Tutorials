@@ -42,6 +42,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Praca z modelem Google AI](./working-with-google-ai-model/) Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
 | [Praca z otwartym modelem AI](./working-with-open-ai-model/) | Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz. |
 | [Praca z opcjami podsumowania](./working-with-summarize-options/) | Naucz się skutecznie podsumowywać dokumenty Word za pomocą Aspose.Words dla platformy .NET dzięki naszemu przewodnikowi krok po kroku dotyczącemu integrowania modeli AI w celu szybkiego uzyskiwania analiz. |
+| [Wywołaj API OpenAI z C# – Kompletny przewodnik po przepisaniu akapitów Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Dowiedz się, jak używać API OpenAI w C# do automatycznego przekształcania i przepisywania akapitów w dokumentach Word. |
+| [Jak sprawdzić gramatykę w C# przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Dowiedz się, jak wykorzystać AI Aspose.Words w C# do automatycznej korekty gramatycznej dokumentów Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
