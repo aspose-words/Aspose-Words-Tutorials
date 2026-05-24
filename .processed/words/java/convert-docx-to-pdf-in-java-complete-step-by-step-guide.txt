@@ -1,0 +1,7 @@
+Title: Convert docx to pdf in Java – Complete Step‑by‑Step Guide
+Slug: convert-docx-to-pdf-in-java-complete-step-by-step-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-24T01:58:22.332204
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, save word as pdf, how to export shapes, java docx to pdf
+PRNumber: 191
