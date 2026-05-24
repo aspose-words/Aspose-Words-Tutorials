@@ -1,0 +1,7 @@
+Title: Add shadow to shape in Java – Complete Programming Guide
+Slug: add-shadow-to-shape-in-java-complete-programming-guide
+Category: images-shapes
+ProcessedDate: 2026-05-24T01:58:18.924336
+SourceRepo: AI Search API
+Keywords: add shadow to shape, change shadow color, load word document, set shadow blur, set shadow angle
+PRNumber: 191
