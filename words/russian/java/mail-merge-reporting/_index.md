@@ -41,6 +41,9 @@
 ### [Переименование полей слияния слов с помощью Aspose.Words для Java](./rename-word-merge-fields-aspose-words-java/)
 Учебник по коду для Aspose.Words Java
 
+### [Создание шаблона слияния писем и конвертация DOCX в PDF на C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Узнайте, как создать шаблон слияния писем и преобразовать DOCX в PDF с помощью Aspose.Words для C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

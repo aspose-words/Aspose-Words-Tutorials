@@ -41,6 +41,9 @@
 ### [Μετονομασία πεδίων συγχώνευσης Word με Aspose.Words για Java](./rename-word-merge-fields-aspose-words-java/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
 
+### [Δημιουργία προτύπου συγχώνευσης αλληλογραφίας και μετατροπή DOCX σε PDF σε C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Μάθετε πώς να δημιουργήσετε ένα πρότυπο συγχώνευσης αλληλογραφίας και να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words για C#.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)

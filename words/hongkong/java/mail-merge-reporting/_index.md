@@ -41,6 +41,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Words for Java 重新命名 Word 合併字段](./rename-word-merge-fields-aspose-words-java/)
 Aspose.Words Java 程式碼教程
 
+### [在 C# 中建立郵件合併範本並將 DOCX 轉換為 PDF](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+說明如何使用 Aspose.Words for C# 建立郵件合併範本，並將 DOCX 檔案轉換為 PDF。
+
 ## 其他資源
 
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)

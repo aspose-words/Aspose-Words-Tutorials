@@ -67,6 +67,9 @@ Exporteer het verrijkte document naar het formaat dat je nodig hebt—PDF, DOCX,
 ### [Beheers tekstverwerking in Java: Aspose.Words & AI‑modellen gebruiken voor samenvatting en vertaling](./java-aspose-words-text-processing/)
 Leer hoe je tekstsamenvatting en vertaling kunt automatiseren met Aspose.Words voor Java en OpenAI's GPT‑4 en Google's Gemini. Verbeter vandaag nog je Java‑applicaties.
 
+### [Bouw Grammaticacontroleur Java – Complete Stapsgewijze Gids](./build-grammar-checker-java-complete-step-by-step-guide/)
+Leer hoe je een grammaticacontroleur bouwt in Java met Aspose.Words, inclusief AI‑integratie voor foutdetectie en correcties.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words for Java Documentatie](https://reference.aspose.com/words/java/)

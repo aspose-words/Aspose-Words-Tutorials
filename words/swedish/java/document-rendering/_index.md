@@ -39,6 +39,8 @@ Lär dig hur du kan förbättra dina dokument med former och grafik med Aspose.W
 Upptäck effektiv dokumentutskrift och rendering med Aspose.Words för Java. Lär dig steg för steg med källkodsexempel.
 ### [Rendera dokument till HTML](./rendering-documents-html/)
 Lär dig hur du enkelt renderar dokument till HTML med Aspose.Words för Java. Steg-för-steg-guide för effektiv dokumentkonvertering.
+### [Registrera varningsåteruppringning i Java – Komplett programmeringsguide](./register-warning-callback-in-java-complete-programming-guide/)
+Lär dig hur du registrerar en varningsåteruppringning i Aspose.Words för Java för att hantera varningar under bearbetning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

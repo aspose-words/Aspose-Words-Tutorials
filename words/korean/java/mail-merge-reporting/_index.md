@@ -41,6 +41,9 @@ Aspose.Words Java에 대한 코드 튜토리얼
 ### [Aspose.Words for Java를 사용하여 Word 병합 필드 이름 바꾸기](./rename-word-merge-fields-aspose-words-java/)
 Aspose.Words Java에 대한 코드 튜토리얼
 
+### [C#에서 메일 병합 템플릿 만들기 및 DOCX를 PDF로 변환](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+C#을 사용하여 메일 병합 템플릿을 생성하고 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

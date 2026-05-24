@@ -39,6 +39,8 @@ Tanuld meg, hogyan gazdagíthatod dokumentumaidat alakzatokkal és grafikákkal 
 Fedezze fel a hatékony dokumentumnyomtatást és -renderelést az Aspose.Words for Java használatával. Tanuljon lépésről lépésre forráskódpéldákkal.
 ### [Dokumentumok HTML-re renderelése](./rendering-documents-html/)
 Tanuld meg, hogyan renderelhetsz dokumentumokat könnyedén HTML-be az Aspose.Words for Java segítségével. Lépésről lépésre útmutató a hatékony dokumentumkonverzióhoz.
+### [Figyelmeztető visszahívás regisztrálása Java-ban – Teljes programozási útmutató](./register-warning-callback-in-java-complete-programming-guide/)
+Ismerje meg, hogyan regisztrálhat figyelmeztető visszahívást az Aspose.Words for Java-ban, részletes példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

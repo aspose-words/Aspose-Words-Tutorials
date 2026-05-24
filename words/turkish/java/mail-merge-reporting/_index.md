@@ -41,6 +41,9 @@ Aspose.Words Java için bir kod eğitimi
 ### [Java için Aspose.Words ile Word Birleştirme Alanlarını Yeniden Adlandırın](./rename-word-merge-fields-aspose-words-java/)
 Aspose.Words Java için bir kod eğitimi
 
+### [C#'ta Mail Birleştirme Şablonu Oluşturun ve DOCX'i PDF'ye Dönüştürün](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+C# kullanarak mail birleştirme şablonu oluşturmayı ve DOCX dosyalarını PDF'ye dönüştürmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)
