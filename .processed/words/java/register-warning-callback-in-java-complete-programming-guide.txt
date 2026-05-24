@@ -1,0 +1,7 @@
+Title: Register Warning Callback in Java – Complete Programming Guide
+Slug: register-warning-callback-in-java-complete-programming-guide
+Category: document-rendering
+ProcessedDate: 2026-05-24T01:58:20.624141
+SourceRepo: AI Search API
+Keywords: register warning callback, detect missing fonts
+PRNumber: 191
