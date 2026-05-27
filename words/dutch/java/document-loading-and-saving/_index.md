@@ -134,6 +134,10 @@ Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Leer hoe je een beschadigd DOCX‑bestand herstelt en veilig verwerkt met Aspose.Words for Java.
+
+### [Open beschadigd Word‑document – herstelmodus instellen in Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+Leer hoe je een beschadigd Word‑document opent en de herstelmodus configureert met Aspose.Words for Java.
 
 ## Veelgestelde vragen
 

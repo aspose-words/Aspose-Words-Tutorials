@@ -95,6 +95,9 @@ Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java
 ### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
 
+### [Salvar Word como Markdown – Exportar Matemática para LaTeX com Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Aprenda a salvar documentos Word como arquivos Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words for Java.
+
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
 
@@ -103,6 +106,15 @@ Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspo
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Salvar Documento como PDF com Aspose.Words Java – Guia Completo de Acessibilidade](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Aprenda a salvar documentos como PDF totalmente acessíveis usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Criar PDF Acessível em Java – Guia Completo de Marcação](./create-accessible-pdf-in-java-full-tagging-guide/)
+Aprenda a gerar PDFs totalmente acessíveis em Java usando Aspose.Words, com tags completas para conformidade de acessibilidade.
+
+### [Exportar docx para txt com Java – Guia de Programação Completo](./export-docx-to-txt-with-java-complete-programming-guide/)
+Aprenda a exportar documentos DOCX para arquivos TXT usando Aspose.Words for Java neste guia completo, com exemplos de código passo a passo.
 
 ## Perguntas Frequentes
 

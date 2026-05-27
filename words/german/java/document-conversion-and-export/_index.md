@@ -99,16 +99,31 @@ Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for
 ### [Dokument als TXT speichern – Schnellleitfaden zum Exportieren von Word-Mathematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
 
+### [DOCX nach TXT exportieren mit Java – Vollständiger Programmierleitfaden](./export-docx-to-txt-with-java-complete-programming-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java in Textdateien exportieren – Schritt‑für‑Schritt‑Anleitung.
+
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+
+### [Word als Markdown speichern – Mathematik nach LaTeX exportieren mit Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und mathematische Formeln als LaTeX exportieren.
 
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
+
+### [Bilder als Base64 einbetten beim Konvertieren von DOCX zu Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Erfahren Sie, wie Sie Bilder aus DOCX beim Konvertieren zu Markdown als Base64‑Kodierung einbetten, um korrekte Darstellung sicherzustellen.
 
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
 
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+
+### [Dokument als PDF speichern mit Aspose.Words Java – Vollständiger Leitfaden zur Barrierefreiheit](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs erstellen, die den PDF/UA‑Barrierefreiheitsstandards entsprechen.
+
+### [Barrierefreies PDF in Java erstellen – Vollständiger Tagging-Leitfaden](./create-accessible-pdf-in-java-full-tagging-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein vollständig getaggtes, barrierefreies PDF in Java erstellen.
 
 ## Häufig gestellte Fragen
 

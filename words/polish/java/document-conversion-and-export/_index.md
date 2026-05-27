@@ -90,17 +90,32 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania matematyczne jako LaTeX przy użyciu biblioteki Aspose.Words dla Javy.
 
+### [Zapisz Word jako markdown – eksportuj równania do LaTeX w Javie](./save-word-as-markdown-export-math-to-latex-with-java/)
+Dowiedz się, jak zapisać dokument Word w formacie markdown i wyeksportować równania matematyczne do LaTeX przy użyciu Aspose.Words for Java.
+
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
 
+### [Osadzanie obrazów jako Base64 przy konwertowaniu DOCX do Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Dowiedz się, jak osadzać obrazy jako Base64 przy konwertowaniu DOCX do Markdown przy użyciu Aspose.Words for Java.
+
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.
+
+### [Eksport docx do txt w Javie – Kompletny przewodnik programistyczny](./export-docx-to-txt-with-java-complete-programming-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Java wyeksportować plik DOCX do formatu TXT w pełnym przewodniku programistycznym.
 
 ### [Aspose.Words do PDF – konwertuj DOCX do PDF w Javie](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy użyciu biblioteki Aspose.Words.
 
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
+
+### [Zapisz dokument jako PDF przy użyciu Aspose.Words Java – kompletny przewodnik po dostępności](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Pełny przewodnik, jak zapisać dokument jako PDF z pełną dostępnością przy użyciu Aspose.Words for Java.
+
+### [Tworzenie dostępnego PDF w Javie – pełny przewodnik tagowania](./create-accessible-pdf-in-java-full-tagging-guide/)
+Dowiedz się, jak w pełni otagować dokument PDF w Javie, aby spełniał standardy dostępności i był przyjazny dla czytników ekranowych.
 
 ## Najczęściej zadawane pytania
 
