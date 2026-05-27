@@ -80,25 +80,29 @@ Aspose.Words for Java で文書内の数式の力を引き出します。Office 
 ### [Aspose.Words for Java でドキュメントシェイプを使用する](./using-document-shapes/)
 
 ### [Aspose.Words for Java でドキュメントにウォーターマークを使用する](./using-watermarks-to-documents/)
-Aspose.Words for Java で文書にウォーターマークを追加する方法を学びます。テキストや画像のウォーターマークをカスタマイズして、プロフェッショナルな文書を作成します。
 
 ### [Aspose.Words for Java で DOCX を PDF に変換](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Aspose.Words for Java を使用して DOCX ファイルを PDF に変換する手順をステップバイステップで解説します。
 
 ### [DOCX からアクセシブル PDF を作成 – 完全ガイド](./create-accessible-pdf-from-docx-complete-guide/)
-DOCX ファイルをアクセシブルな PDF に変換する手順とベストプラクティスをステップバイステップで解説します。
+
+### [Aspose.Words for Java でアクセシブル PDF を作成 – 完全タグ付けガイド](./create-accessible-pdf-in-java-full-tagging-guide/)
+Aspose.Words for Java を使用して、アクセシブル PDF を作成し、完全なタグ付けを実装する方法をステップバイステップで解説します。
 
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
-Aspose.Words for Java でテーブルの書式設定とテーブルスタイルの適用方法を学びます。効果的なテーブル書式設定のためのソースコード付きステップバイステップガイドを探ります。Aspose.Words で文書レイアウトを強化します。
 
 ### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
+
+### [Word を markdown に保存 – Java で数式を LaTeX にエクスポート](./save-word-as-markdown-export-math-to-latex-with-java/)
 
 ### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
-Aspose.Words for Java を使用して DOCX を Markdown に変換する際、画像を正しく埋め込む手順をステップバイステップで解説します。
+
+### [DOCX を Markdown に変換する際に画像を Base64 として埋め込む](./embed-images-as-base64-when-converting-docx-to-markdown/)
 
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Aspose.Words for Java を使用して、Word 文書を TXT 形式で保存し、数式をエクスポートする方法をステップバイステップで解説します。
+
+### [Aspose.Words Java で文書を PDF として保存 – 完全アクセシビリティガイド](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+
+### [Aspose.Words for Java で docx を txt にエクスポート – 完全プログラミングガイド](./export-docx-to-txt-with-java-complete-programming-guide/)
 
 ---
 

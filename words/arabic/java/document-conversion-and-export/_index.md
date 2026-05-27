@@ -98,8 +98,14 @@ weight: 22
 ### [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
 
+### [حفظ مستند Word كملف markdown – تصدير المعادلات إلى LaTeX باستخدام Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+تعلم كيفية حفظ مستند Word كملف markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words for Java.
+
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
+
+### [تصدير docx إلى txt باستخدام Java – دليل برمجة كامل](./export-docx-to-txt-with-java-complete-programming-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى TXT باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
@@ -107,8 +113,17 @@ weight: 22
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
 
+### [تضمين الصور كـ Base64 عند تحويل DOCX إلى Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+تعلم كيفية تضمين الصور في ملفات Markdown كبيانات Base64 أثناء تحويل مستندات DOCX باستخدام Aspose.Words.
+
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [حفظ المستند كملف PDF باستخدام Aspose.Words Java – دليل الوصول الكامل](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+تعلم كيفية حفظ المستندات كملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [إنشاء PDF ميسّر في Java – دليل كامل للوسم](./create-accessible-pdf-in-java-full-tagging-guide/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة مع وسم كامل باستخدام Aspose.Words for Java لضمان توافق مع معايير الوصول.
 
 ## الأسئلة المتكررة
 
