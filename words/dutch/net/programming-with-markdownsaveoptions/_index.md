@@ -41,11 +41,9 @@ Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#�
 ### [Docx opslaan als markdown – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
-
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#-handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
@@ -71,6 +69,11 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 ### [Docx opslaan als markdown met Aspose.Words – Volledige C#-gids](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 
 ### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+
+### [Maak assets-map voor het converteren van Word naar Markdown](./create-assets-folder-for-convert-word-to-markdown/)
+Leer hoe u een assets‑map maakt voor het converteren van Word naar Markdown met Aspose.Words voor .NET.
+
+### [Opslaan van Word als Markdown – Complete gids met Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

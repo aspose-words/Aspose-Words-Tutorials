@@ -41,6 +41,10 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Cách xuất LaTeX: Chuyển DOCX sang Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Hướng dẫn chi tiết cách xuất nội dung LaTeX từ DOCX sang Markdown và TXT bằng C# và Aspose.Words. |
 | [Cách đổi tên hình ảnh khi chuyển DOCX sang Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Hướng dẫn chi tiết cách đổi tên các hình ảnh trong quá trình chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho .NET. |
 | [Lưu docx thành markdown với Aspose.Words – Hướng dẫn đầy đủ C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Hướng dẫn chi tiết cách lưu file docx thành markdown bằng C# với Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
+| [Tạo thư mục tài nguyên cho chuyển Word sang Markdown](./create-assets-folder-for-convert-word-to-markdown/) | Hướng dẫn tạo thư mục lưu trữ tài nguyên khi chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words cho .NET. |
+| [Cách lưu Markdown từ Word – Hướng dẫn đầy đủ C#](./how-to-save-markdown-from-word-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng Markdown bằng C# và Aspose.Words. |
+| [Cách lưu Markdown từ Word – Hướng dẫn đầy đủ](./how-to-save-markdown-from-word-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng Markdown bằng Aspose.Words. |
+| [Lưu Word thành Markdown – Hướng dẫn đầy đủ với Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/) | Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng Markdown bằng Aspose.Words cho .NET, bao gồm các tùy chọn và ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

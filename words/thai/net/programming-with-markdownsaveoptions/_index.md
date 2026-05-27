@@ -23,8 +23,12 @@
 -
 - [ส่งออกเป็นมาร์กดาวน์พร้อมการจัดตำแหน่งเนื้อหาตาราง](./export-into-markdown-with-table-content-alignment/) | เรียนรู้วิธีการส่งออกเอกสาร Word เป็น Markdown พร้อมจัดตารางให้ตรงกันโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างตาราง Markdown ที่สมบูรณ์แบบ -
 | [ตั้งค่าโฟลเดอร์รูปภาพ](./set-images-folder/) แปลงเอกสาร Word เป็น Markdown พร้อมจัดวางตารางให้เหมาะสมโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำโดยละเอียดของเราเพื่อผลลัพธ์ที่สมบูรณ์แบบ |
-### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
+### [สร้างโฟลเดอร์ Assets สำหรับแปลง Word เป็น Markdown](./create-assets-folder-for-convert-word-to-markdown/)
+วิธีสร้างโฟลเดอร์ Assets เพื่อจัดเก็บไฟล์และรูปภาพเมื่อแปลง Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
+
+### [บันทึก Word เป็น PDF และกู้คืน Word ที่เสียหาย – แปลง Word เป็น Markdown ด้วย C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
+ 
 ### [สร้าง PDF ที่เข้าถึงได้และแปลง Word เป็น Markdown – คู่มือเต็ม C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 สร้าง PDF ที่เข้าถึงได้และแปลงไฟล์ Word เป็น Markdown ด้วย C# อย่างละเอียด
 
@@ -48,10 +52,10 @@
 ### [แปลง Word เป็น Markdown – ฝังรูปภาพเป็น Base64](./convert-word-to-markdown-embed-images-as-base64/)
 เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown พร้อมฝังรูปภาพเป็น Base64 ด้วย Aspose.Words สำหรับ .NET
 ### [วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับเต็ม](./how-to-save-markdown-from-word-complete-c-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือเต็ม](./how-to-save-markdown-from-word-complete-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีส่งออก LaTeX: แปลง DOCX เป็น Markdown และ TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
@@ -64,6 +68,9 @@
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+
+### [บันทึก Word เป็น Markdown – คู่มือเต็มกับ Aspose.Words](./save-word-as-markdown-complete-guide-with-aspose-words/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

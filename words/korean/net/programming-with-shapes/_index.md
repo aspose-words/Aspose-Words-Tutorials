@@ -37,6 +37,7 @@ Aspose.Words for .NET을 사용하고 이 튜토리얼을 따라 하면 Word 문
 | [C#를 사용하여 Word에서 사각형 모양 만들기 – 단계별 가이드](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET을 사용해 C#로 Word 문서에 사각형 도형을 삽입하고 설정하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words 도형 그림자 튜토리얼 – C#에서 Word 도형에 그림자 추가](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aspose.Words for .NET을 사용하여 C# 코드로 Word 도형에 그림자를 적용하는 방법을 단계별로 안내합니다. |
 | [그림자 사각형 모양이 있는 빈 Word 문서 만들기 – 단계별 가이드](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words for .NET을 사용하여 그림자 효과가 있는 사각형 모양을 포함한 빈 Word 문서를 만드는 방법을 단계별로 안내합니다. |
+| [C#를 사용하여 Word 문서 만들기 – 사각형 도형 및 그림자 삽입](./create-word-document-insert-rectangle-shape-shadow-in-c/) | C# 코드로 Word 문서에 사각형 도형을 삽입하고 그림자를 적용하는 단계별 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
