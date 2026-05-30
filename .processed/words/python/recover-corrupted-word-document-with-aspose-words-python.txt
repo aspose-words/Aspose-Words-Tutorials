@@ -1,0 +1,7 @@
+Title: Recover Corrupted Word Document with Aspose.Words Python
+Slug: recover-corrupted-word-document-with-aspose-words-python
+Category: document-operations
+ProcessedDate: 2026-05-30T09:35:03.677979
+SourceRepo: AI Search API
+Keywords: recover corrupted word document, how to recover corrupted docx
+PRNumber: 196
