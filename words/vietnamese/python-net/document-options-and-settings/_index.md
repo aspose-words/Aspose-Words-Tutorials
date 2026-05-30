@@ -49,6 +49,8 @@ Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Wor
 Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
 ### [Mở rộng chức năng tài liệu bằng tiện ích mở rộng web](./document-functionality-web-extensions/)
 Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
+### [Làm cho PDF có khả năng truy cập với Aspose.Words – Hướng dẫn chi tiết từng bước](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Tìm hiểu cách làm cho PDF có khả năng truy cập bằng Aspose.Words trong Python. Hướng dẫn chi tiết từng bước với mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

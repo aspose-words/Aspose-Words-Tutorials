@@ -37,6 +37,9 @@
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
+### [Как вставить прямоугольник и добавить тень в Word с помощью Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Узнайте, как добавить прямоугольник и применить к нему тень в документе Word с помощью Aspose.Words для Python-net.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

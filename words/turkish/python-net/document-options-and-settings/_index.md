@@ -49,6 +49,8 @@ Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şeki
 Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Web Uzantıları ile Belge İşlevselliğini Genişletme](./document-functionality-web-extensions/)
 Aspose.Words for Python kullanarak web uzantılarıyla belge işlevselliğini nasıl genişleteceğinizi öğrenin. Sorunsuz entegrasyon için kaynak kodlu adım adım kılavuz.
+### [Aspose.Words ile PDF'yi Erişilebilir Hale Getirme – Tam Adım Adım Kılavuz](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Aspose.Words kullanarak PDF belgelerini erişilebilir kılmak için tam adım adım rehber. Kod örnekleriyle nasıl yapılacağını öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
