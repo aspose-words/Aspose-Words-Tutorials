@@ -37,6 +37,9 @@ Aspose.Words for Python을 사용하여 RTF 문서의 이미지 처리를 최적
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Python용 Aspose.Words를 사용하여 SVG 출력을 최적화하는 방법을 알아보세요. 이 가이드에서는 이미지 유사 속성, 텍스트 렌더링, 보안 강화와 같은 사용자 지정 기능을 다룹니다.
 
+### [Aspose를 사용하여 Word에 사각형을 삽입하고 그림자를 추가하는 방법](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Aspose.Words를 사용해 Word 문서에 사각형을 삽입하고 그림자를 적용하는 단계별 가이드를 확인하세요.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)

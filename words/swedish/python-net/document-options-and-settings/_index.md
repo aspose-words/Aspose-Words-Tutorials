@@ -49,6 +49,8 @@ Lär dig hur du effektivt hanterar Word-dokument med Aspose.Words för Python. S
 Lär dig hur du hanterar dokumentegenskaper och metadata med Aspose.Words för Python. Steg-för-steg-guide med källkod.
 ### [Utöka dokumentfunktionalitet med webbtillägg](./document-functionality-web-extensions/)
 Lär dig hur du utökar dokumentfunktionalitet med webbtillägg med Aspose.Words för Python. Steg-för-steg-guide med källkod för sömlös integration.
+### [Gör PDF tillgänglig med Aspose.Words – Komplett steg‑för‑steg‑guide](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Lär dig hur du gör PDF-filer tillgängliga enligt standarder med Aspose.Words i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

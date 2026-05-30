@@ -49,6 +49,8 @@ Tanuld meg, hogyan manipulálhatsz hatékonyan Word dokumentumokat az Aspose.Wor
 Tanuld meg, hogyan kezelheted a dokumentumok tulajdonságait és metaadatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal.
 ### [Dokumentumfunkciók bővítése webbővítményekkel](./document-functionality-web-extensions/)
 Ismerje meg, hogyan bővítheti a dokumentumok funkcionalitását webbővítményekkel az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes integrációhoz.
+### [PDF hozzáférhetővé tétele az Aspose.Words segítségével – Teljes lépésről‑lépésre útmutató](./make-pdf-accessible-with-aspose-words-complete-step-by-step/)
+Tanulja meg, hogyan teheti PDF-jét hozzáférhetővé a WCAG szabványoknak megfelelően az Aspose.Words használatával, részletes példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
