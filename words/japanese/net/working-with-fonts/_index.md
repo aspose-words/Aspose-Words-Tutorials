@@ -44,6 +44,7 @@
 | [読み込みオプションによるフォント設定](./font-settings-with-load-options/) Aspose.Words for .NET の読み込みオプションを使用してフォント設定を管理する方法を学びます。Word 文書で一貫したフォント表示を実現するための開発者向けステップバイステップガイドです。|
 | [フォントフォルダの設定](./set-fonts-folder/) Aspose.Words for .NET でカスタム フォント フォルダーを設定し、フォントが失われることなく Word 文書が正しくレンダリングされるようにする方法を説明します。 |
 | [フォント設定のデフォルトインスタンス](./font-settings-default-instance/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書の既定のフォント設定を構成する方法を学習します。 |
+| [フォント設定の設定方法 – 欠落フォントを処理する](./how-to-set-fontsettings-handle-missing-fonts/) Aspose.Words for .NET を使用して、欠落フォントを検出し、適切に処理するための FontSettings の設定方法をステップバイステップで学びます。 |
 | [利用可能なフォントのリストを取得する](./get-list-of-available-fonts/) Aspose.Words for .NET を使用して利用可能なフォントのリストを取得する方法を、この詳細なステップバイステップのチュートリアルで学びましょう。フォント管理スキルを向上させましょう。 |
 | [フォントの通知を受け取る](./receive-notifications-of-fonts/) Aspose.Words for .NET の使用時に、不足フォントまたは代替フォントの通知を受け取る方法について説明します。 |
 | [警告通知を受け取る](./receive-warning-notification/) Aspose.Words for .NET の使用時に警告通知を受信し、ドキュメント内の問題や警告を管理する方法について説明します。 |

@@ -43,6 +43,7 @@
 | [로드 옵션이 있는 글꼴 설정](./font-settings-with-load-options/) Aspose.Words for .NET에서 글꼴 로드 옵션을 사용하여 글꼴 설정을 관리하는 방법을 알아보세요. 개발자가 Word 문서에서 일관된 글꼴 모양을 유지할 수 있도록 단계별 가이드를 제공합니다.|
 | [글꼴 폴더 설정](./set-fonts-folder/) | Aspose.Words for .NET에서 사용자 지정 글꼴 폴더를 설정하는 방법을 알아봅니다. 이렇게 하면 Word 문서에서 글꼴이 누락되지 않고 올바르게 렌더링됩니다. |
 | [글꼴 설정 기본 인스턴스](./font-settings-default-instance/) | 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에서 기본 글꼴 설정을 구성하는 방법을 알아봅니다. |
+| [FontSettings 설정 – 누락된 글꼴 처리](./how-to-set-fontsettings-handle-missing-fonts/) | Aspose.Words for .NET에서 FontSettings를 설정하여 누락된 글꼴을 처리하는 방법을 단계별로 안내합니다. |
 | [사용 가능한 글꼴 목록 가져오기](./get-list-of-available-fonts/) | Aspose.Words for .NET을 사용하여 사용 가능한 글꼴 목록을 가져오는 방법을 이 자세한 단계별 튜토리얼에서 알아보세요. 글꼴 관리 기술을 향상시키세요. |
 | [글꼴 알림 받기](./receive-notifications-of-fonts/) | Aspose.Words for .NET을 사용할 때 누락되거나 대체된 글꼴 알림을 받는 방법을 알아보세요. |
 | [경고 알림 수신](./receive-warning-notification/) Aspose.Words for .NET을 사용할 때 경고 알림을 받는 방법과 문서의 문제나 경고를 관리하는 방법을 알아보세요. |
