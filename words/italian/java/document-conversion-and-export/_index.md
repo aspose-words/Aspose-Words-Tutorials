@@ -86,17 +86,29 @@ Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per 
 ### [Converti docx in markdown – Esporta equazioni matematiche in LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Scopri come trasformare documenti DOCX in markdown e convertire le equazioni matematiche in LaTeX usando Aspose.Words.
 
+### [Esporta Word in Markdown – Guida Java Completa](./export-word-to-markdown-complete-java-guide/)
+Scopri come convertire documenti Word in Markdown usando Aspose.Words per Java con esempi passo‑passo.
+
+### [Esporta DOCX in Markdown – Guida Java Completa](./export-docx-as-markdown-complete-java-guide/)
+Scopri come convertire file DOCX in Markdown con Aspose.Words per Java, con esempi dettagliati passo‑passo.
+
 ### [Come incorporare immagini in Markdown durante la conversione di DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Scopri come includere immagini nei file Markdown generati dalla conversione di documenti DOCX con Aspose.Words for Java.
 
 ### [Salva documento come TXT – Guida rapida all'esportazione di equazioni Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in modo semplice e veloce.
 
+### [Salva come testo semplice – Guida completa per esportare equazioni Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Scopri come esportare documenti Word in formato TXT mantenendo le equazioni matematiche con Aspose.Words per Java.
+
 ### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
 
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
+
+### [Creare documento conforme a PDF/UA-2 – Guida Java completa](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Impara a generare documenti PDF/UA‑2 conformi con Aspose.Words per Java, passo dopo passo, con esempi di codice.
 
 ## Domande frequenti
 

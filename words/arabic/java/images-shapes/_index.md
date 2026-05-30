@@ -37,6 +37,9 @@
 ### [إنشاء مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 تعلم كيفية إضافة شكل مستطيل بظل إلى مستند Word باستخدام Aspose.Words for Java
 
+### [إنشاء شكل صندوق نص في Java – دليل كامل لإضافة الظلال](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+تعلم كيفية إنشاء شكل صندوق نص وإضافة تأثير الظل في مستندات Word باستخدام Aspose.Words for Java
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

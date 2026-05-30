@@ -75,7 +75,7 @@ Görsel sıkıştırması ayarlamak, tüm yazı tiplerini gömmek veya PDF/A‑1
 Her belgeyi yükleyin, `mainDoc.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)` çağırın, ardından birleşik belgeyi PDF olarak kaydedin.
 
 ### Word'ü HTML'ye ve Tekrar Geri Dönüştürme
-İlk olarak `document.save("temp.html", SaveFormat.HTML)` çağırın. HTML'yi tekrar Word'e dönüştürmek için `new Document("temp.html")` ile HTML dosyasını yükleyin ve DOCX olarak kaydedin.
+İlk olarak `document.save("temp.html", SaveFormat.HTML)` çağırın. HTML'yi tekrar Word'e dönüştürmek için `new Document("temp.html")` ile HTML dosyasını yükin ve DOCX olarak kaydedin.
 
 ### HTML'yi Word Belgelerine Dönüştürme
 `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` satırını kullanın ve ardından `doc.save("output.docx")` ile kaydedin.
@@ -99,6 +99,9 @@ Aspose.Words for Java ile DOCX'i EPUB'a verimli bir şekilde dönüştürün. Ka
 
 ### [Converting Documents to Images](./converting-documents-images/)
 Aspose.Words for Java kullanarak Word belgelerini görüntülere dönüştürmeyi öğrenin. Kod örnekleri ve SSS bölümüyle adım‑adım rehber.
+
+### [Aspose.Words ile docx'i PDF'ye kaydet – Tam Java Rehberi](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java ile docx dosyalarını PDF'ye dönüştürme sürecini ayrıntılı olarak keşfedin.
 
 ## Sıkça Sorulan Sorular
 
