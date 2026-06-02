@@ -50,9 +50,9 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Příklad zdroje písma Steam](./resource-steam-font-source-example/) | Naučte se, jak používat zdroj písem Resource Stream k načtení vlastních písem do Aspose.Words pro .NET. |
 | [Získat substituci bez přípon](./get-substitution-without-suffixes/) | V tomto tutoriálu se naučíte, jak získat přepsání bez přípon v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Jak detekovat písma v Aspose.Words – Zpracování varování a nastavení](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Naučte se, jak detekovat písma, zpracovávat varování a konfigurovat nastavení písem v Aspose.Words pro .NET. |
+| [Jak zacházet s fonty v .NET – detekovat chybějící fonty](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Naučte se, jak detekovat chybějící fonty v .NET pomocí Aspose.Words v tomto podrobném tutoriálu. |
 | [Jak zachytit písma v Aspose.Words – kompletní průvodce](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Naučte se, jak zachytit písma v Aspose.Words pomocí kompletního průvodce krok za krokem. |
 | [Povolit varování o nahrazování písem v Aspose.Words – Kompletní průvodce](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Naučte se, jak povolit varování o nahrazování písem v Aspose.Words pomocí podrobného průvodce krok za krokem. |
-
 | [Jak načíst DOCX a detekovat chybějící písma – Kompletní průvodce C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Naučte se, jak načíst soubor DOCX a zjistit chybějící písma pomocí Aspose.Words pro .NET v tomto kompletním C# průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

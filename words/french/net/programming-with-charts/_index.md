@@ -42,7 +42,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Définir les options par défaut pour les étiquettes de données dans un graphique](./default-options-for-data-labels/) | Apprenez à définir les options par défaut des étiquettes de données d'un graphique avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour créer et personnaliser facilement des graphiques. |
 | [Personnaliser un seul point de données dans un graphique](./single-chart-data-point/) | Découvrez comment personnaliser des points de données de graphiques individuels avec Aspose.Words pour .NET grâce à un guide détaillé étape par étape. Améliorez vos graphiques avec des marqueurs et des tailles uniques. |
 | [Personnaliser une série de graphiques unique dans un graphique](./single-chart-series/) | Apprenez à personnaliser des séries de graphiques uniques dans un document Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour une expérience fluide. |
-
+| [Afficher la légende du graphique dans Word avec C# – Guide complet étape par étape](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Apprenez à afficher et personnaliser la légende d’un graphique dans Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

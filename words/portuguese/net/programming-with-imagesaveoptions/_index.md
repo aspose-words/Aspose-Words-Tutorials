@@ -28,7 +28,7 @@ Os tutoriais também abordam os conceitos básicos de manipulação de imagens, 
 | [Obter intervalo de páginas JPEG](./get-jpeg-page-range/) | Converta páginas específicas de documentos do Word para JPEG com configurações personalizadas usando o Aspose.Words para .NET. Aprenda a ajustar brilho, contraste e resolução passo a passo. |
 | [Retorno de chamada para salvar página](./page-saving-callback/) | Aprenda a salvar cada página de um documento do Word como uma imagem PNG separada usando o Aspose.Words para .NET com nosso guia detalhado passo a passo. |
 | [Como Definir DPI ao Converter Word para PNG – Guia Completo em C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aprenda a definir o DPI ao converter documentos Word para PNG usando Aspose.Words para .NET com este guia passo a passo. |
-
+| [Converter docx para png – Guia completo passo a passo](./convert-docx-to-png-complete-step-by-step-guide/) | Aprenda a converter documentos docx em imagens PNG usando Aspose.Words para .NET com este guia passo a passo detalhado. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

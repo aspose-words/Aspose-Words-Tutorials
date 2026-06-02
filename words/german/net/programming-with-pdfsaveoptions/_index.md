@@ -50,6 +50,8 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Barrierefreies PDF in C# erstellen – PDF-Zugänglichkeitstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET barrierefreie PDFs in C# erzeugen. |
 | [Barrierefreies PDF aus Word erstellen – Komplettanleitung](./create-accessible-pdf-from-word-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus einem Word-Dokument erstellen. |
 | [Erstellen eines barrierefreien PDFs – Schritt‑für‑Schritt‑Anleitung für PDF/UA‑Konformität](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF erstellen, das den PDF/UA‑Barrierefreiheitsstandards entspricht. |
+| [Wie man PDF aus Word mit Inline-Shape-Export speichert – Vollständige Anleitung](./how-to-save-pdf-from-word-with-inline-shape-export-complete/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET PDFs aus Word exportieren und Inline-Shapes korrekt einbetten. |
+| [Erstellen Sie ein PDF/UA‑2‑konformes Dokument – Vollständige C#‑Anleitung](./create-pdf-ua-2-compliant-document-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF/UA‑2‑konformes Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

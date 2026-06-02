@@ -52,6 +52,7 @@
 | [Aspose.Words에서 글꼴 감지 – 경고 및 설정 처리](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aspose.Words에서 글꼴을 감지하고 경고와 설정을 관리하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴을 캡처하는 방법 – 완전 가이드](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 문서에서 사용된 글꼴을 캡처하고 관리하는 방법을 단계별로 안내합니다. |
 | [DOCX 로드 및 누락된 글꼴 감지 – 완전 C# 가이드](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aspose.Words for .NET을 사용해 DOCX 파일을 로드하고 누락된 글꼴을 감지하는 방법을 단계별 C# 가이드로 제공합니다. |
+| [.NET에서 글꼴 처리 방법 – 누락된 글꼴 감지](./how-to-handle-fonts-in-net-detect-missing-fonts/) | Aspose.Words for .NET을 사용하여 문서에서 누락된 글꼴을 감지하고 처리하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,7 +42,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Nastavení výchozích možností pro popisky dat v grafu](./default-options-for-data-labels/) | Naučte se, jak nastavit výchozí možnosti pro popisky dat v grafu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a bez námahy si vytvořte a upravte grafy. |
 | [Přizpůsobení jednoho datového bodu v grafu](./single-chart-data-point/) | Naučte se, jak přizpůsobit jednotlivé datové body grafu pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. Vylepšete své grafy jedinečnými značkami a velikostmi. |
 | [Přizpůsobení jedné série grafů v grafu](./single-chart-series/) | Naučte se, jak přizpůsobit jednotlivé série grafů v dokumentu Word pomocí Aspose.Words pro .NET. Pro bezproblémový zážitek postupujte podle našeho podrobného návodu. |
-
+| [Zobrazit legendu grafu ve Wordu pomocí C# – Kompletní krok za krokem průvodce](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Naučte se, jak ve Wordu zobrazit legendu grafu pomocí C# pomocí podrobného průvodce krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

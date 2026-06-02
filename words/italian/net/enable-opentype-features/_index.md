@@ -20,8 +20,8 @@ Scopri come abilitare le funzionalità OpenType nei tuoi documenti Word con Aspo
  ## Tutorial
 | Titolo | Descrizione |
 | --- | --- |
-| [Funzionalità di tipo aperto](./open-type-features/) | Scopri come abilitare le funzionalità OpenType nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata e passo dopo passo.
-
+| [Funzionalità di tipo aperto](./open-type-features/) | Scopri come abilitare le funzionalità OpenType nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata e passo dopo passo. |
+| [Utilizza Font a Peso Variabile in C# – Guida Completa alla Programmazione](./use-variable-weight-font-in-c-complete-programming-guide/) | Scopri come utilizzare i font a peso variabile in C# con Aspose.Words per .NET in questa guida completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

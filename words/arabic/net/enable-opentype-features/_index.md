@@ -21,6 +21,7 @@
 | العنوان | الوصف |
 | --- | --- |
 | [ميزات النوع المفتوح](./open-type-features/) |تعرف على كيفية تمكين ميزات OpenType في مستندات Word باستخدام Aspose.Words لـ .NET باستخدام هذا الدليل المفصل خطوة بخطوة. |
+| [استخدام خط الوزن المتغيّر في C# – دليل برمجة كامل](./use-variable-weight-font-in-c-complete-programming-guide/) |تعرف على كيفية استخدام خطوط الوزن المتغيّر في C# مع Aspose.Words عبر دليل برمجة شامل. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -21,7 +21,7 @@
 标题 | 描述 |
 | --- | --- |
 | [开放式特征](./open-type-features/) 通过这份详细的分步指南了解如何使用 Aspose.Words for .NET 在 Word 文档中启用 OpenType 功能。|
-
+| [在 C# 中使用可变粗细字体 – 完整编程指南](./use-variable-weight-font-in-c-complete-programming-guide/) 通过本完整指南，了解如何在 C# 中使用 Aspose.Words for .NET 实现可变粗细字体，以提升文档排版效果。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

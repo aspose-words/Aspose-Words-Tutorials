@@ -43,6 +43,7 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Set Default Options For Data Labels In A Chart](./default-options-for-data-labels/) | Learn how to set default options for data labels in a chart using Aspose.Words for .NET. Follow our step-by-step guide to create and customize charts effortlessly. |
 | [Customize A Single Chart Data Point In A Chart](./single-chart-data-point/) | Learn how to customize single chart data points using Aspose.Words for .NET in a detailed step-by-step guide. Enhance your charts with unique markers and sizes. |
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
+| [Show Chart Legend in Word with C# – Complete Step‑by‑Step Guide](./show-chart-legend-in-word-with-c-complete-step-by-step-guide/) | Learn how to display chart legends in Word documents using Aspose.Words for .NET with C#. Follow our step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
