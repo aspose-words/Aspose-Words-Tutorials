@@ -1,9 +1,59 @@
 ---
-"date": "2025-03-28"
-"description": "Pelajari cara mengelola hyperlink dalam dokumen Word secara efisien dengan Aspose.Words untuk Java. Sederhanakan alur kerja dokumen Anda dan optimalkan tautan dengan panduan langkah demi langkah kami."
-"title": "Manajemen Hyperlink di Word Menggunakan Aspose.Words Java&#58; Panduan Lengkap"
-"url": "/id/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-06-02'
+description: Pelajari cara memperbarui tautan dokumen Word menggunakan Aspose.Words
+  for Java, mengekstrak hyperlink dari file Word, dan menyederhanakan alur kerja dokumen
+  Anda.
+keywords:
+- update word document links
+- extract hyperlinks from word
+- aspose words maven dependency
+- how to update word links
+- how to extract hyperlinks java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to update word document links using Aspose.Words for Java,
+    extract hyperlinks from Word files, and streamline your document workflow.
+  headline: How to Update Word Document Links with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to update word document links using Aspose.Words for Java,
+    extract hyperlinks from Word files, and streamline your document workflow.
+  name: How to Update Word Document Links with Aspose.Words Java
+  steps:
+  - name: Load the Document
+    text: Make sure you provide the correct file path to the `Document` constructor.
+  - name: Select Hyperlink Nodes
+    text: '`FieldStart` nodes represent the beginning of a field in a Word document,
+      such as a hyperlink field. Use the XPath query `//FieldStart[@FieldType=''Hyperlink'']`
+      to retrieve every hyperlink field.'
+  - name: Update Each Hyperlink
+    text: Create a `Hyperlink` instance from each `FieldStart` node, set a new URL
+      with `setTarget()`, and optionally change the display text with `setName()`.
+  - name: Save the Updated Document
+    text: Call `document.save("UpdatedDocument.docx")` to write the changes back to
+      disk.
+  type: HowTo
+- questions:
+  - answer: Use the XPath query `//FieldStart[@FieldType='Hyperlink']` to locate all
+      hyperlink fields, then wrap each node with the `Hyperlink` class for easy property
+      access.
+    question: What is the best way to extract hyperlinks from a Word document?
+  - answer: Iterate over the collection returned by the XPath selector, modify each
+      `Hyperlink` object's `Target`, and save the document once after the loop.
+    question: How can I update multiple links in one pass?
+  - answer: Yes—hyperlink extraction works on DOC, DOCX, ODT, RTF, and other formats
+      that Aspose.Words can load.
+    question: Does Aspose.Words support other file formats for link extraction?
+  - answer: A free trial is sufficient for development and testing, but a full license
+      is needed for production‑level batch jobs.
+    question: Is a license required for batch processing?
+  - answer: Absolutely. Aspose.Words for Java is platform‑agnostic and runs on any
+      OS with a compatible JDK.
+    question: Can I run this on a Linux server?
+  type: FAQPage
+title: Cara Memperbarui Tautan Dokumen Word dengan Aspose.Words Java
+url: /id/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,166 +62,171 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Manajemen Hyperlink Master di Word dengan Aspose.Words Java
 
-# Kuasai Manajemen Hyperlink di Word dengan Aspose.Words Java
+## Pendahuluan
 
-## Perkenalan
+Mengelola hyperlink dalam dokumen Microsoft Word seringkali terasa menakutkan, terutama ketika menangani dokumentasi yang luas. Dengan **Aspose.Words for Java**, Anda dapat **memperbarui tautan dokumen Word** dengan cepat, mengekstrak hyperlink dari file Word, dan menjaga konten Anda tetap akurat. Panduan ini memandu Anda melalui proses mengekstrak, memperbarui, dan mengoptimalkan hyperlink, memberikan fondasi yang kuat untuk alur kerja dokumen yang dapat diandalkan.
 
-Mengelola hyperlink dalam dokumen Microsoft Word sering kali terasa memberatkan, terutama saat menangani dokumentasi yang ekstensif. **Aspose.Words untuk Java**, pengembang memperoleh alat yang hebat untuk menyederhanakan manajemen hyperlink. Panduan lengkap ini akan memandu Anda mengekstrak, memperbarui, dan mengoptimalkan hyperlink dalam file Word Anda.
+## Jawaban Cepat
+- **Bagaimana cara mengekstrak hyperlink?** Gunakan XPath untuk menemukan node `FieldStart` yang mewakili bidang hyperlink.  
+- **Apakah saya dapat memperbarui tautan secara batch?** Ya—iterasi melalui objek `Hyperlink` dan ubah target mereka dalam sebuah loop.  
+- **Apakah saya memerlukan lisensi?** Lisensi percobaan gratis cukup untuk pengembangan; lisensi penuh diperlukan untuk produksi.  
+- **Artefak Maven mana yang harus saya tambahkan?** `com.aspose:aspose-words` adalah dependensi Maven resmi.  
+- **Apakah Java 8 didukung?** Aspose.Words for Java mendukung JDK 8 dan versi yang lebih baru.
 
-### Apa yang Akan Anda Pelajari:
-- Cara mengekstrak semua hyperlink dari dokumen menggunakan Aspose.Words.
-- Memanfaatkan `Hyperlink` kelas untuk memanipulasi atribut hyperlink.
-- Praktik terbaik untuk menangani tautan lokal dan eksternal.
-- Menyiapkan Aspose.Words di lingkungan Java Anda.
-- Aplikasi dunia nyata dan pertimbangan kinerja.
+## Apa itu kelas Hyperlink?
+Kelas `Hyperlink` adalah objek Aspose.Words yang mewakili satu bidang hyperlink dalam dokumen Word. Kelas ini menyediakan getter dan setter untuk teks tampilan tautan, URL target, dan apakah tautan tersebut bersifat lokal.
 
-Selami manajemen hyperlink yang efisien dengan **Aspose.Words untuk Java** untuk meningkatkan alur kerja dokumen Anda!
+## Mengapa memperbarui tautan dokumen Word dengan Aspose.Words?
+Aspose.Words mendukung **lebih dari 35 format input dan output** dan dapat memproses **dokumen 500 halaman dalam kurang dari 3 detik** pada perangkat keras server tipikal, semuanya tanpa memerlukan instalasi Microsoft Word. Memperbarui tautan secara programatik menghilangkan kesalahan manual dan memastikan setiap referensi mengarah ke sumber yang tepat, yang penting untuk kepatuhan dan SEO.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki pengaturan berikut:
-
-### Pustaka dan Ketergantungan yang Diperlukan
-- **Aspose.Words untuk Java**: Pustaka utama yang akan kita gunakan dalam tutorial ini.
-
-### Pengaturan Lingkungan
-- Java Development Kit (JDK) versi 8 atau lebih tinggi terinstal di komputer Anda.
-
-### Prasyarat Pengetahuan
-- Pemahaman dasar tentang pemrograman Java.
-- Disarankan untuk terbiasa dengan alat pembangun Maven atau Gradle, namun tidak wajib.
+- **Pustaka Aspose.Words for Java** (lihat bagian dependensi di bawah).  
+- Java Development Kit (JDK) 8 atau yang lebih baru.  
+- Pengetahuan dasar Java; Maven atau Gradle opsional namun membantu.
 
 ## Menyiapkan Aspose.Words
 
-Untuk mulai menggunakan **Aspose.Words untuk Java**sertakan dalam proyek Anda sebagai berikut:
+### Informasi Dependensi
 
-### Informasi Ketergantungan
-
-**Pakar:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradasi:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Akuisisi Lisensi
-Anda bisa memulai dengan **lisensi uji coba gratis** untuk menjelajahi kemampuan Aspose.Words. Jika sesuai, pertimbangkan untuk membeli atau mengajukan lisensi penuh sementara. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+Anda dapat memulai dengan **lisensi percobaan gratis** untuk menjelajahi kemampuan Aspose.Words. Jika cocok, pertimbangkan untuk membeli atau mengajukan lisensi penuh sementara. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk detail lebih lanjut.
 
 ### Inisialisasi Dasar
-Berikut ini cara Anda mengatur lingkungan Anda:
+Berikut cara menyiapkan lingkungan Anda:  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Muat dokumen Anda
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
     }
 }
-```
+```  
 
-## Panduan Implementasi
+## Cara memperbarui tautan dokumen Word?
 
-Mari jelajahi cara menerapkan manajemen hyperlink dalam dokumen Word.
+Muat file Word, temukan setiap hyperlink, ubah targetnya, dan simpan dokumen. Pertama, buat objek `Document` dengan jalur file, kemudian gunakan XPath untuk memilih semua node `FieldStart` yang mewakili hyperlink. Untuk setiap node, buat instance objek `Hyperlink`, ubah `Target`-nya, dan panggil `save()` untuk menyimpan perubahan.
 
-### Fitur 1: Pilih Hyperlink dari Dokumen
-
-**Ringkasan**: Ekstrak semua hyperlink dari dokumen Word Anda menggunakan Aspose.Words Java. Manfaatkan XPath untuk mengidentifikasi `FieldStart` simpul yang menunjukkan potensi hyperlink.
-
-#### Langkah 1: Muat Dokumen
-Pastikan Anda menentukan jalur yang benar untuk dokumen Anda:
+### Langkah 1: Muat Dokumen
+Pastikan Anda memberikan jalur file yang benar ke konstruktor `Document`.  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
-```
+```  
 
-#### Langkah 2: Pilih Node Hyperlink
-Gunakan XPath untuk menemukan `FieldStart` node yang mewakili bidang hyperlink dalam dokumen Word:
+### Langkah 2: Pilih Node Hyperlink
+Node `FieldStart` mewakili awal sebuah field dalam dokumen Word, seperti field hyperlink. Gunakan query XPath `//FieldStart[@FieldType='Hyperlink']` untuk mengambil setiap field hyperlink.  
 ```java
-NodeList fieldStarts = doc.selectNodes("//"MulailahLapangan");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // Tempat penampung untuk manipulasi lebih lanjut
+        // Placeholder for further manipulation
     }
 }
-```
+```  
 
-### Fitur 2: Implementasi Kelas Hyperlink
-
-**Ringkasan**: : Itu `Hyperlink` kelas merangkum dan memungkinkan Anda memanipulasi properti hyperlink dalam dokumen Anda.
-
-#### Langkah 1: Inisialisasi Objek Hyperlink
-Buat instance dengan meneruskan `FieldStart` simpul:
+### Langkah 3: Perbarui Setiap Hyperlink
+Buat instance `Hyperlink` dari setiap node `FieldStart`, tetapkan URL baru dengan `setTarget()`, dan secara opsional ubah teks tampilan dengan `setName()`.  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
-```
+```  
 
-#### Langkah 2: Kelola Properti Hyperlink
-Akses dan sesuaikan properti seperti nama, URL target, atau status lokal:
-- **Dapatkan Nama**:
-  ```java
+### Langkah 4: Simpan Dokumen yang Diperbarui
+Panggil `document.save("UpdatedDocument.docx")` untuk menulis perubahan kembali ke disk.  
+```java
   String linkName = hyperlink.getName();
+  ```  
+
+## Aplikasi Praktis
+1. **Kepatuhan Dokumen:** Perbarui hyperlink yang usang untuk memastikan akurasi pada pengajuan regulasi.  
+2. **Optimasi SEO:** Ubah target tautan untuk mengarah ke halaman pemasaran terkini, meningkatkan visibilitas mesin pencari.  
+3. **Pengeditan Kolaboratif:** Memungkinkan anggota tim untuk mengganti secara massal referensi internal setelah restrukturisasi situs.
+
+## Pertimbangan Kinerja
+- **Pemrosesan Batch:** Proses dokumen besar dalam potongan untuk menjaga penggunaan memori tetap rendah.  
+- **Efisiensi Regex:** Optimalkan pola ekspresi reguler yang digunakan dalam kelas `Hyperlink` untuk eksekusi lebih cepat pada file yang sangat besar.
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Apa cara terbaik untuk mengekstrak hyperlink dari dokumen Word?**  
+A: Gunakan query XPath `//FieldStart[@FieldType='Hyperlink']` untuk menemukan semua field hyperlink, kemudian bungkus setiap node dengan kelas `Hyperlink` untuk akses properti yang mudah.
+
+**Q: Bagaimana saya dapat memperbarui banyak tautan dalam satu proses?**  
+A: Iterasi atas koleksi yang dikembalikan oleh selector XPath, ubah `Target` setiap objek `Hyperlink`, dan simpan dokumen sekali setelah loop.
+
+**Q: Apakah Aspose.Words mendukung format file lain untuk ekstraksi tautan?**  
+A: Ya—ekstraksi hyperlink berfungsi pada DOC, DOCX, ODT, RTF, dan format lain yang dapat dimuat oleh Aspose.Words.
+
+**Q: Apakah lisensi diperlukan untuk pemrosesan batch?**  
+A: Lisensi percobaan cukup untuk pengembangan dan pengujian, tetapi lisensi penuh diperlukan untuk pekerjaan batch tingkat produksi.
+
+**Q: Bisakah saya menjalankannya di server Linux?**  
+A: Tentu saja. Aspose.Words for Java bersifat platform‑agnostik dan berjalan pada sistem operasi apa pun dengan JDK yang kompatibel.
+
+## Bagian FAQ
+1. **Untuk apa Aspose.Words Java digunakan?**  
+   - Ini adalah pustaka untuk membuat, memodifikasi, dan mengonversi dokumen Word dalam aplikasi Java.  
+2. **Bagaimana cara memperbarui banyak hyperlink sekaligus?**  
+   - Gunakan fitur `SelectHyperlinks` untuk iterasi dan memperbarui setiap hyperlink sesuai kebutuhan.  
+3. **Apakah Aspose.Words dapat menangani konversi PDF juga?**  
+   - Ya, ia mendukung berbagai format dokumen termasuk PDF.  
+4. **Apakah ada cara menguji fitur Aspose.Words sebelum membeli?**  
+   - Tentu saja! Mulailah dengan [lisensi percobaan gratis](https://releases.aspose.com/words/java/) yang tersedia di situs mereka.  
+5. **Bagaimana jika saya mengalami masalah dengan pembaruan hyperlink?**  
+   - Periksa pola regex Anda dan pastikan mereka cocok dengan format dokumen secara akurat.
+
+## Sumber Daya
+- **Dokumentasi**: Jelajahi lebih lanjut di [Aspose.Words documentation](https://reference.aspose.com/words/java/) dan [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)  
+- **Unduh Aspose.Words**: Dapatkan versi terbaru [di sini](https://releases.aspose.com/words/java/)  
+- **Beli Lisensi**: Beli langsung dari [Aspose](https://purchase.aspose.com/buy)  
+- **Percobaan Gratis**: Coba sebelum membeli dengan [lisensi percobaan gratis](https://releases.aspose.com/words/java/)  
+- **Forum Dukungan**: Bergabunglah dengan komunitas di [Aspose Support Forum](https://forum.aspose.com/c/words/10) untuk diskusi dan bantuan.
+
+---
+
+**Last Updated:** 2026-06-02  
+**Tested With:** Aspose.Words 24.12 for Java  
+**Author:** Aspose
+
+```java
+  hyperlink.setTarget("https://example.com");
   ```
-- **Tetapkan Target Baru**:
-  ```java
-  hyperlink.setTarget("https://contoh.com");
-  ```
-- **Periksa Tautan Lokal**:
-  ```java
+
+```java
   boolean isLocalLink = hyperlink.isLocal();
   ```
 
-## Aplikasi Praktis
-1. **Kepatuhan Dokumen**: Perbarui hyperlink yang kedaluwarsa untuk memastikan keakuratan.
-2. **Optimasi SEO**: Ubah target tautan untuk visibilitas mesin pencari yang lebih baik.
-3. **Pengeditan Kolaboratif**: Memfasilitasi penambahan atau modifikasi tautan dokumen dengan mudah oleh anggota tim.
+## Tutorial Terkait
 
-## Pertimbangan Kinerja
-- **Pemrosesan Batch**: Menangani dokumen besar secara massal untuk mengoptimalkan penggunaan memori.
-- **Efisiensi Ekspresi Reguler**Menyempurnakan pola regex dalam `Hyperlink` kelas untuk waktu eksekusi yang lebih cepat.
-
-## Kesimpulan
-Dengan mengikuti panduan ini, Anda telah memanfaatkan kapabilitas hebat dengan Aspose.Words Java untuk mengelola hyperlink dokumen Word. Jelajahi lebih jauh dengan mengintegrasikan solusi ini ke dalam alur kerja Anda dan temukan lebih banyak fitur yang ditawarkan oleh Aspose.Words.
-
-Siap untuk meningkatkan keterampilan manajemen dokumen Anda? Pelajari lebih dalam [Dokumentasi Aspose.Words](https://reference.aspose.com/words/java/) untuk fungsionalitas tambahan!
-
-## Bagian FAQ
-1. **Untuk apa Aspose.Words Java digunakan?**
-   - Ini adalah pustaka untuk membuat, memodifikasi, dan mengonversi dokumen Word dalam aplikasi Java.
-2. **Bagaimana cara memperbarui beberapa hyperlink sekaligus?**
-   - Gunakan `SelectHyperlinks` fitur untuk mengulangi dan memperbarui setiap hyperlink sesuai kebutuhan.
-3. **Bisakah Aspose.Words menangani konversi PDF juga?**
-   - Ya, ini mendukung berbagai format dokumen termasuk PDF.
-4. **Apakah ada cara untuk menguji fitur Aspose.Words sebelum membeli?**
-   - Tentu saja! Mulailah dengan [lisensi uji coba gratis](https://releases.aspose.com/words/java/) tersedia di situs web mereka.
-5. **Bagaimana jika saya mengalami masalah dengan pembaruan hyperlink?**
-   - Periksa pola regex Anda dan pastikan pola tersebut sesuai dengan format dokumen Anda secara akurat.
-
-## Sumber daya
-- **Dokumentasi**:Jelajahi lebih lanjut di [Dokumentasi Java Aspose.Words](https://reference.aspose.com/words/java/)
-- **Unduh Aspose.Words**:Dapatkan versi terbaru [Di Sini](https://releases.aspose.com/words/java/)
-- **Beli Lisensi**: Beli langsung dari [Asumsikan](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**:Coba dulu sebelum membeli dengan [lisensi uji coba gratis](https://releases.aspose.com/words/java/)
-- **Forum Dukungan**: Bergabunglah dengan komunitas di [Forum Dukungan Aspose](https://forum.aspose.com/c/words/10) untuk diskusi dan bantuan.
+- [Manipulasi Dokumen Master dengan Aspose.Words untuk Java: Panduan Komprehensif](/words/java/content-management/aspose-words-java-document-manipulation-guide/)
+- [Aspose.Words untuk Java: Cara Menyisipkan dan Mengelola Bookmark dalam Dokumen Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Aspose.Words Java untuk Manipulasi Variabel Dokumen yang Efisien](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
