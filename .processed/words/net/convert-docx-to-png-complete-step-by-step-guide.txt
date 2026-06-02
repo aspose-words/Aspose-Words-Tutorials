@@ -1,0 +1,7 @@
+Title: Convert docx to png – Complete Step‑by‑Step Guide
+Slug: convert-docx-to-png-complete-step-by-step-guide
+Category: programming-with-imagesaveoptions
+ProcessedDate: 2026-06-02T12:33:43.893639
+SourceRepo: AI Search API
+Keywords: convert docx to png, save images to folder, export word pages as images, set image resolution 300 dpi, save word pages as png
+PRNumber: 197
