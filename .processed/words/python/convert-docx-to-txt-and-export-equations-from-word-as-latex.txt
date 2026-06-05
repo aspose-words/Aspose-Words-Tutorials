@@ -1,0 +1,7 @@
+Title: convert docx to txt and export equations from Word as LaTeX – Complete Guide
+Slug: convert-docx-to-txt-and-export-equations-from-word-as-latex
+Category: document-conversion
+ProcessedDate: 2026-06-05T15:48:49.123823
+SourceRepo: AI Search API
+Keywords: convert docx to txt, export equations from word, export word equations latex, save word as txt, export word math latex
+PRNumber: 200
