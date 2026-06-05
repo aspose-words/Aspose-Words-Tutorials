@@ -1,0 +1,7 @@
+Title: Convert Word equations to LaTeX – Save as .md
+Slug: convert-word-equations-to-latex-save-as-md
+Category: document-conversion
+ProcessedDate: 2026-06-05T15:48:45.057332
+SourceRepo: AI Search API
+Keywords: convert word equations to latex, save word document as .md
+PRNumber: 200
