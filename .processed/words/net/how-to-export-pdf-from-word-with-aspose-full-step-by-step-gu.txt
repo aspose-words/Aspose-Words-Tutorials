@@ -1,0 +1,7 @@
+Title: How to Export PDF from Word with Aspose – Full Step‑by‑Step Guide
+Slug: how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-05T14:53:54.979089
+SourceRepo: AI Search API
+Keywords: how to export pdf, save document pdf, convert word pdf, aspose pdf example, export word shapes
+PRNumber: 198
