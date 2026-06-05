@@ -1,0 +1,7 @@
+Title: Tag PDF for Accessibility in C# – Complete Guide
+Slug: tag-pdf-for-accessibility-in-c-complete-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-05T14:53:58.984183
+SourceRepo: AI Search API
+Keywords: tag pdf for accessibility, save word as pdf, export docx to pdf, generate accessible pdf, make pdf accessible
+PRNumber: 198
