@@ -1,0 +1,7 @@
+Title: How to Export Math from Word to LaTeX – Complete Guide
+Slug: how-to-export-math-from-word-to-latex-complete-guide
+Category: programming-with-officemath
+ProcessedDate: 2026-06-05T14:53:50.554072
+SourceRepo: AI Search API
+Keywords: how to export math, convert word equations latex, save word plain text, export word math latex
+PRNumber: 198
