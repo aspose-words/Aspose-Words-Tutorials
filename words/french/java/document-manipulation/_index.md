@@ -80,6 +80,8 @@ Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Word
 Apprenez à améliorer la mise en forme de vos documents avec Aspose.Words pour Java. Explorez les styles, les thèmes et bien plus encore dans ce guide complet avec des exemples de code source.
 ### [Génération d'une table des matières dans Aspose.Words pour Java](./generating-table-of-contents/)
 Apprenez à générer et personnaliser une table des matières (TOC) avec Aspose.Words pour Java. Créez facilement des documents organisés et professionnels.
+### [Étiquetage d'accessibilité PDF en Java – Générer des PDF accessibles](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Apprenez à créer des PDF accessibles en ajoutant des balises d'accessibilité avec Aspose.Words pour Java.
 ### [Protection des documents dans Aspose.Words pour Java](./protecting-documents/)
 Apprenez à sécuriser vos documents Word Java avec Aspose.Words pour Java. Protégez vos données avec un mot de passe et bien plus encore.
 ### [Division de documents en pages dans Aspose.Words pour Java](./splitting-documents-into-pages/)

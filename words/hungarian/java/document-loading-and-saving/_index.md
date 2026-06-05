@@ -100,6 +100,7 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
 ### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Hiányzó betűkészlet helyettesítésének észlelése Java‑ban – Teljes Aspose.Words útmutató](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
 
 ## Gyakran Ismételt Kérdések
 
