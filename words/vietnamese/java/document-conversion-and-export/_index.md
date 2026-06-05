@@ -94,6 +94,9 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
+### [Xuất Word sang Markdown trong Java – Lưu Tài Liệu dưới dạng Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java.
+
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
 
@@ -102,6 +105,12 @@ Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình ch
 
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Cách Xuất LaTeX từ DOCX sang TXT với Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Hướng dẫn chi tiết cách xuất công thức LaTeX từ tài liệu DOCX thành tệp TXT bằng Aspose.Words cho Java.
+
+### [Cách Lưu PDF Từ Word Với Các Hình Inline – Hướng Dẫn Toàn Diễn](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng PDF đồng thời giữ nguyên các hình Inline trong tài liệu.
 
 ## Câu hỏi thường gặp
 
