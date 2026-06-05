@@ -36,8 +36,8 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Aktualizuj rysunek Smart Art](./update-smart-art-drawing/) | Dowiedz się, jak aktualizować rysunki Smart Art w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Upewnij się, że Twoje wizualizacje są zawsze dokładne. |
 | [Utwórz prostokątny kształt w Wordzie za pomocą Aspose.Words – przewodnik krok po kroku](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Dowiedz się, jak utworzyć prostokątny kształt w dokumencie Word przy użyciu Aspose.Words, korzystając z naszego szczegółowego przewodnika krok po kroku. |
 | [Utwórz pusty dokument Word z cieniowanym prostokątnym kształtem – przewodnik krok po kroku](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Dowiedz się, jak utworzyć pusty dokument Word z cieniowanym prostokątnym kształtem przy użyciu Aspose.Words dla .NET, krok po kroku. |
-
 | [Utwórz prostokątny kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć prostokątny kształt w dokumencie Word, korzystając z Aspose.Words dla .NET – kompletny przewodnik krok po kroku. |
+| [Jak dodać cień w Wordzie – kompletny przewodnik po kształtach](./how-to-add-shadow-word-complete-guide-for-shapes/) | Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla .NET, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@ Aspose.Words for .NET 教程“使用 PdfSaveOptions 进行文字处理”将引
 | [在 C# 中创建可访问的 PDF – PDF 可访问性教程](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) 通过本分步指南了解如何使用 Aspose.Words for .NET 在 C# 中生成符合可访问性标准的 PDF 文档。|
 | [从 Word 创建可访问的 PDF – 完整指南](./create-accessible-pdf-from-word-complete-guide/) | 了解如何使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，包括标签、替代文本和文档结构等。|
 | [创建可访问的 PDF – PDF/UA 合规的分步指南](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) 通过本分步指南了解如何使用 Aspose.Words for .NET 创建符合 PDF/UA 标准的可访问 PDF 文档。|
+| [使用 C# 为 PDF 添加可访问性标签 – 完整指南](./tag-pdf-for-accessibility-in-c-complete-guide/) 通过本完整分步指南，使用 Aspose.Words for .NET 在 C# 中为 PDF 添加可访问性标签，满足 PDF/UA 标准。|
+| [如何使用 Aspose 将 Word 导出为 PDF – 完整分步指南](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) 通过本完整的分步指南，学习使用 Aspose 将 Word 文档导出为 PDF，确保高质量转换。|
+| [使用 C# 将文档保存为 PDF 并进行字体替换 – 完整指南](./save-document-pdf-with-font-substitution-in-c-complete-guide/) 通过本完整分步指南，了解如何在 C# 中使用 Aspose.Words 将 Word 文档保存为 PDF，并在转换过程中进行字体替换。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

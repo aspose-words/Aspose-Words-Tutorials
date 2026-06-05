@@ -48,9 +48,11 @@ Che tu voglia convertire documenti Word in PDF per la distribuzione online, l'ar
 | [Salva DOCX come PDF con Aspose.Words – Guida completa C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Guida completa in C# per convertire documenti DOCX in PDF usando Aspose.Words. |
 | [Crea PDF accessibile da Word con C# – Guida passo‑passo](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Scopri come generare PDF accessibili da documenti Word usando Aspose.Words per .NET con C#, includendo tag di accessibilità e struttura semantica. |
 | [Crea PDF accessibile in C# – Tutorial di accessibilità PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Scopri come generare PDF accessibili in C# con Aspose.Words per .NET, includendo tag di struttura, testo alternativo e impostazioni di lettura. |
-
 | [Crea PDF accessibile da Word – Guida completa](./create-accessible-pdf-from-word-complete-guide/) | Scopri come creare PDF accessibili da documenti Word con questa guida completa, includendo impostazioni di accessibilità e best practice. |
 | [Crea PDF accessibile – Guida passo passo per la conformità PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Scopri come creare PDF accessibili conformi a PDF/UA con Aspose.Words per .NET in questa guida dettagliata. |
+| [Come esportare PDF da Word con Aspose – Guida completa passo‑passo](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Scopri come esportare PDF da documenti Word usando Aspose con una guida dettagliata passo dopo passo. |
+| [Tag PDF per l'accessibilità in C# – Guida completa](./tag-pdf-for-accessibility-in-c-complete-guide/) | Scopri come aggiungere tag di accessibilità ai PDF usando Aspose.Words per .NET con C#, garantendo conformità PDF/UA. |
+| [Salva documento PDF con sostituzione dei font in C# – Guida completa](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Scopri come salvare un documento PDF sostituendo i font in C# con Aspose.Words per .NET in questa guida completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
