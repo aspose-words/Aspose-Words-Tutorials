@@ -60,6 +60,9 @@ Aspose.Words Python-net 程式碼教學
 ### [恢復損壞的 DOCX – 開啟與載入 Word 文件](./recover-corrupted-docx-open-load-word-document/)
 了解如何使用 Aspose.Words for Python-net 復原受損的 DOCX 檔案，並成功開啟與載入 Word 文件。
 
+### [如何恢復 DOCX – 完整指南：修復損壞的 Word 文件](./how-to-recover-docx-complete-guide-to-restoring-corrupted-wo/)
+了解如何使用 Aspose.Words for Python-net 完整復原受損的 DOCX 檔案，並成功載入與修復文件。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

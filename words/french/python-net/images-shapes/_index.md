@@ -37,6 +37,9 @@ Apprenez à optimiser la sortie SVG avec Aspose.Words pour Python. Ce guide couv
 ### [Comment ajouter une ombre en C# – Guide complet de programmation](./how-to-add-shadow-in-c-complete-programming-guide/)
 Apprenez à ajouter des ombres aux objets dans vos documents C# avec Aspose.Words.
 
+### [Créer un document Word avec Python – Guide d'ajout d'ombre à une forme](./create-word-document-python-add-shadow-to-shape-guide/)
+Apprenez à créer un document Word en Python et à ajouter une ombre aux formes pour améliorer l'apparence de vos documents.
+
 ## Ressources supplémentaires
 
 - [Aspose.Words pour la documentation Python-net](https://docs.aspose.com/words/python-net/)
