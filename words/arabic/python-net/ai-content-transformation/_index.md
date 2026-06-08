@@ -28,6 +28,9 @@
 ### [تلخيص وترجمة الذكاء الاصطناعي في بايثون: دليل Aspose.Words وOpenAI](./ai-summarization-translation-aspose-openai-python/)
 تعرّف على كيفية أتمتة تلخيص وترجمة الذكاء الاصطناعي باستخدام Aspose.Words لـ Python وOpenAI. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
 
+### [إنشاء ملخص المستند بايثون – دليل شامل باستخدام Aspose.Words للذكاء الاصطناعي](./create-document-summary-python-full-guide-using-aspose-words/)
+تعلم كيفية إنشاء ملخصات المستندات باستخدام Aspose.Words وذكاء اصطناعي في بايثون خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

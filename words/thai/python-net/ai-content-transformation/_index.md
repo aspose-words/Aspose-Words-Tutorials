@@ -28,6 +28,9 @@
 ### [การสรุปและการแปลด้วย AI ใน Python: Aspose.Words และคู่มือ OpenAI](./ai-summarization-translation-aspose-openai-python/)
 เรียนรู้วิธีการสรุปและแปล AI โดยอัตโนมัติโดยใช้ Aspose.Words สำหรับ Python และ OpenAI คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
+### [สร้างสรุปเอกสารด้วย Python – คู่มือเต็มการใช้ Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+เรียนรู้วิธีสร้างสรุปเอกสารอัตโนมัติด้วย Python และ Aspose.Words AI พร้อมตัวอย่างโค้ดเต็มรูปแบบ
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

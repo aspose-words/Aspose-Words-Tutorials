@@ -40,6 +40,21 @@ Leer hoe je met Aspose.Words voor Python Markdown-bestanden vanuit Word kunt ops
 ### [Herstel beschadigde DOCX & Converteer Word naar Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Leer hoe je beschadigde DOCX-bestanden kunt herstellen en Word-documenten naar Markdown kunt converteren met Aspose.Words voor Python.
 
+### [DOCX opslaan als markdown met LaTeX‑vergelijkingen – Python‑gids](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden kunt omzetten naar markdown, inclusief LaTeX‑vergelijkingen.
+
+### [Word opslaan als PDF met Aspose.Words – Complete Python-gids](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Leer hoe je met Aspose.Words voor Python Word-documenten kunt opslaan als PDF.
+
+### [Maak een toegankelijke PDF vanuit Word – Complete programmeergids](./create-accessible-pdf-from-word-complete-programming-guide/)
+Leer hoe je met Aspose.Words voor Python toegankelijke PDF's kunt maken vanuit Word-documenten.
+
+### [DOCX exporteren als markdown – Volledige stap‑voor‑stap gids](./export-docx-as-markdown-full-step-by-step-guide/)
+Leer hoe je met Aspose.Words voor Python DOCX-bestanden kunt exporteren naar markdown met een volledige stap‑voor‑stap handleiding.
+
+### [PNG‑raster maken vanuit Word‑document – Complete stap‑voor‑stap gids](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Leer hoe je met Aspose.Words voor Python een PNG‑raster uit een Word‑document kunt maken, stap voor stap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

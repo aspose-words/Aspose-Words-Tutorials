@@ -28,6 +28,9 @@ Im sich rasant entwickelnden Bereich der künstlichen Intelligenz ist die effekt
 ### [KI-Zusammenfassung und -Übersetzung in Python: Aspose.Words- und OpenAI-Handbuch](./ai-summarization-translation-aspose-openai-python/)
 Erfahren Sie, wie Sie KI-Zusammenfassungen und -Übersetzungen mit Aspose.Words für Python und OpenAI automatisieren. Dieser Leitfaden behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
+### [Dokumentzusammenfassung erstellen mit Python – Vollständiger Leitfaden unter Verwendung von Aspose.Words KI](./create-document-summary-python-full-guide-using-aspose-words/)
+Erfahren Sie, wie Sie mit Aspose.Words KI in Python automatisch Dokumentzusammenfassungen erzeugen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)
