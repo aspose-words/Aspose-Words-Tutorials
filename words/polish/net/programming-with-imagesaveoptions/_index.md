@@ -28,6 +28,7 @@ Samouczki obejmują również podstawowe koncepcje manipulacji obrazami, w tym w
 | [Pobierz zakres stron Jpeg](./get-jpeg-page-range/) | Konwertuj określone strony dokumentów Word na JPEG z niestandardowymi ustawieniami za pomocą Aspose.Words dla .NET. Dowiedz się, jak krok po kroku dostosować jasność, kontrast i rozdzielczość. |
 | [Wywołanie zwrotne zapisywania strony](./page-saving-callback/) | Dowiedz się, jak zapisać każdą stronę dokumentu Word jako osobny obraz PNG za pomocą Aspose.Words dla .NET dzięki naszemu szczegółowemu przewodnikowi krok po kroku. |
 | [Jak ustawić DPI przy konwertowaniu Word na PNG – Kompletny przewodnik C#](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Dowiedz się, jak ustawić DPI podczas konwersji dokumentu Word do obrazu PNG w C# przy użyciu Aspose.Words. |
+| [Konwertuj DOCX do PNG – Kompletny przewodnik C#](./convert-docx-to-png-complete-c-guide/) | Dowiedz się, jak skonwertować dokument DOCX do obrazu PNG w C# przy użyciu Aspose.Words, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

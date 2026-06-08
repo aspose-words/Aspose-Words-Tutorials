@@ -35,7 +35,7 @@ Quer você precise substituir palavras específicas, atualizar modelos de texto 
 | [Reconhecer e Substituir Dentro de Padrões de Substituição](./recognize-and-substitutions-within-replacement-patterns/) | Aprenda a reconhecer e substituir texto dentro de padrões de substituição usando o Aspose.Words para .NET. Guia passo a passo com exemplos detalhados. |
 | [Substituir por string](./replace-with-string/) | Aprenda a substituir strings em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. Perfeito para desenvolvedores que buscam automatizar a edição de documentos. |
 | [Substituir texto na tabela](./replace-text-in-table/) | Substitua facilmente o texto na tabela do Word usando o Aspose.Words para .NET com este guia detalhado passo a passo. |
-
+| [Como Reescrever Parágrafos com IA em C# – Guia Completo](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) | Aprenda a usar IA para reescrever parágrafos em C# com um guia completo passo a passo usando Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
