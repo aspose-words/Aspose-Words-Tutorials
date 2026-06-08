@@ -1,0 +1,7 @@
+Title: How to Use LoadOptions to Detect Missing Fonts
+Slug: how-to-use-loadoptions-to-detect-missing-fonts
+Category: programming-with-loadoptions
+ProcessedDate: 2026-06-08T18:48:05.100440
+SourceRepo: AI Search API
+Keywords: how to use loadoptions, detect missing fonts
+PRNumber: 201
