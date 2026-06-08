@@ -39,6 +39,7 @@
 اكتشف طباعة وعرض المستندات بكفاءة باستخدام Aspose.Words لجافا. تعلّم خطوة بخطوة مع أمثلة على أكواد المصدر.
 ### [تحويل المستندات إلى HTML](./rendering-documents-html/)
 تعلّم كيفية تحويل المستندات إلى HTML بسهولة باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لتحويل المستندات بكفاءة.
+### [العثور على الخطوط المفقودة في Java باستخدام Aspose.Words – دليل كامل](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

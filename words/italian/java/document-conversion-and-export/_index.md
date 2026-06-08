@@ -86,14 +86,26 @@ Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per 
 ### [Converti docx in markdown – Esporta equazioni matematiche in LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Scopri come trasformare documenti DOCX in markdown e convertire le equazioni matematiche in LaTeX usando Aspose.Words.
 
+### [Converti Word in Markdown con Java – Guida completa](./convert-word-to-markdown-with-java-full-guide/)
+Scopri come convertire documenti Word in Markdown usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
 ### [Come incorporare immagini in Markdown durante la conversione di DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Scopri come includere immagini nei file Markdown generati dalla conversione di documenti DOCX con Aspose.Words for Java.
 
 ### [Salva documento come TXT – Guida rapida all'esportazione di equazioni Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in modo semplice e veloce.
 
+### [Salva documento come DOCX con Aspose.Words – Guida completa per Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Scopri come salvare un documento in formato DOCX usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
 ### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
+
+### [Salva Word come PDF con Aspose.Words – Guida completa Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Scopri come convertire documenti Word in PDF usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
+### [Crea file PDF/UA conforme con Java – Guida completa Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Impara a generare file PDF/UA conformi usando Aspose.Words per Java, con esempi passo‑passo per l'accessibilità dei PDF.
 
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.

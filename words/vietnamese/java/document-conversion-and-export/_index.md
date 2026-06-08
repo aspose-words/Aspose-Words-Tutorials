@@ -91,8 +91,14 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu c
 ### [Aspose.Words to PDF – Chuyển DOCX sang PDF trong Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose.Words for Java trong một dòng mã.
 
+### [Lưu Word thành PDF với Aspose.Words – Hướng Dẫn Java Toàn Diện](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words for Java trong một dự án thực tế.
+
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
+
+### [Chuyển Word sang Markdown với Java – Hướng Dẫn Toàn Diện](./convert-word-to-markdown-with-java-full-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java, bao gồm ví dụ mã nguồn và tùy chỉnh.
 
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
@@ -102,6 +108,12 @@ Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình ch
 
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Tạo Tệp PDF/UA Tuân Thủ với Java – Hướng Dẫn Toàn Diện Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/UA đáp ứng tiêu chuẩn truy cập bằng Aspose.Words for Java trong một dự án thực tế.
+
+### [Lưu Tài Liệu dưới dạng DOCX với Aspose.Words – Hướng Dẫn Java Toàn Diện](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng DOCX bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ## Câu hỏi thường gặp
 

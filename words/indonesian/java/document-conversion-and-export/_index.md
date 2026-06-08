@@ -87,6 +87,9 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 ### [Aspose Word ke PDF – Mengonversi DOCX ke PDF di Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words for Java dengan contoh kode lengkap.
 
+### [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap Java](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words for Java dengan contoh kode lengkap.
+
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
@@ -99,8 +102,17 @@ Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi D
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
+### [Simpan Dokumen sebagai DOCX dengan Aspose.Words – Panduan Lengkap Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Pelajari cara menyimpan dokumen sebagai file DOCX menggunakan Aspose.Words for Java dengan contoh kode lengkap.
+
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Mengonversi Word ke Markdown dengan Java – Panduan Lengkap](./convert-word-to-markdown-with-java-full-guide/)
+Pelajari cara mengonversi file Word menjadi Markdown menggunakan Aspose.Words for Java dengan contoh kode lengkap.
+
+### [Buat File PDF/UA yang Mematuhi Standar dengan Java – Panduan Lengkap Aspose.Words](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Pelajari cara membuat file PDF/UA yang sesuai standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

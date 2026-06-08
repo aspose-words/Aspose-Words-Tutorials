@@ -39,6 +39,8 @@ Dowiedz się, jak wzbogacić swoje dokumenty o kształty i grafikę, korzystają
 Odkryj wydajne drukowanie i renderowanie dokumentów za pomocą Aspose.Words dla Java. Ucz się krok po kroku z przykładami kodu źródłowego.
 ### [Renderowanie dokumentów do HTML](./rendering-documents-html/)
 Dowiedz się, jak bez wysiłku renderować dokumenty do HTML za pomocą Aspose.Words dla Java. Przewodnik krok po kroku dotyczący wydajnej konwersji dokumentów.
+### [Znajdowanie brakujących czcionek w Javie z Aspose.Words – Kompletny przewodnik](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Dowiedz się, jak wykrywać i rozwiązywać problemy z brakującymi czcionkami w dokumentach Word przy użyciu Aspose.Words dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
