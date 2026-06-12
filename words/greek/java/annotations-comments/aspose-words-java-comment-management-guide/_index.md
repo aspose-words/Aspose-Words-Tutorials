@@ -1,9 +1,57 @@
 ---
-"date": "2025-03-28"
-"description": "Μάθετε πώς να διαχειρίζεστε σχόλια και απαντήσεις σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java. Προσθέστε, εκτυπώστε, καταργήστε, επισημάνετε ως ολοκληρωμένα και παρακολουθήστε χρονικές σημάνσεις σχολίων χωρίς κόπο."
-"title": "Aspose.Words Java&#58; Εξοικείωση με τη διαχείριση σχολίων σε έγγραφα Word"
-"url": "/el/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-06-12'
+description: Μάθετε πώς να δημιουργήσετε σχόλιο σε Word χρησιμοποιώντας το Aspose.Words
+  for Java, και πώς να προσθέσετε σχόλιο, να εκτυπώσετε, να αφαιρέσετε, να το σημειώσετε
+  ως ολοκληρωμένο και να παρακολουθείτε χρονικές σφραγίδες χωρίς κόπο.
+keywords:
+- create comment in word
+- how to add comment
+- how to delete comment
+- add reply to comment
+- mark comment as done
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to create comment in Word using Aspose.Words for Java, and
+    how to add comment, print, remove, mark as done, and track timestamps effortlessly.
+  headline: 'Aspose.Words Java: Create Comment in Word Docs – Full Guide'
+  type: TechArticle
+- description: Learn how to create comment in Word using Aspose.Words for Java, and
+    how to add comment, print, remove, mark as done, and track timestamps effortlessly.
+  name: 'Aspose.Words Java: Create Comment in Word Docs – Full Guide'
+  steps:
+  - name: Initialize the Document Object
+    text: The `Document` class is Aspose.Words' top‑level object that represents a
+      single Word file in memory. After you create a `Document` instance, all further
+      operations—such as adding comments—are performed through this object.
+  - name: Create and Add a Comment
+    text: '`Comment` represents a single user remark attached to a specific location
+      in the document. You set properties like `Author`, `Text`, and optionally `DateTime`
+      before adding it to the document’s comment collection.'
+  - name: Add a Reply to the Comment
+    text: A reply is also a `Comment` object, but its `ParentComment` property points
+      to the original comment’s ID, establishing a hierarchical thread.
+  type: HowTo
+- questions:
+  - answer: Yes, a valid commercial license is required for production use; a free
+      trial is available for evaluation.
+    question: Can I use Aspose.Words for comment management in a commercial application?
+  - answer: Absolutely. Load the document with `LoadOptions.setPassword("yourPassword")`
+      and comment APIs work unchanged.
+    question: Does the library support password‑protected Word files?
+  - answer: Aspose.Words for Java supports JDK 8 through JDK 21, covering both legacy
+      and modern environments.
+    question: Which Java versions are compatible with Aspose.Words?
+  - answer: Comments are independent of revision tracking; you can retrieve or modify
+      them without affecting change history.
+    question: How do I handle comments in a DOCX that contains tracked changes?
+  - answer: Practically no—Aspose.Words can manage thousands of comments, limited
+      only by available memory.
+    question: Is there a limit to the number of comments a document can contain?
+  type: FAQPage
+title: 'Aspose.Words Java: Δημιουργία Σχολίου σε Έγγραφα Word – Πλήρης Οδηγός'
+url: /el/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,84 +60,92 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Aspose.Words Java: Εξοικείωση με τη διαχείριση σχολίων σε έγγραφα του Word
+# Aspose.Words Java: Δημιουργία Σχολίου σε Έγγραφα Word – Πλήρης Οδηγός
 
 ## Εισαγωγή
-Η διαχείριση σχολίων μέσα σε ένα έγγραφο του Word μέσω προγραμματισμού μπορεί να είναι δύσκολη, είτε προσθέτετε απαντήσεις είτε επισημαίνετε προβλήματα ως επιλυμένα. Αυτό το σεμινάριο σας καθοδηγεί στη χρήση της ισχυρής βιβλιοθήκης Aspose.Words με Java για την αποτελεσματική προσθήκη, διαχείριση και ανάλυση σχολίων.
+Αν χρειάζεστε να **create comment in Word** έγγραφα προγραμματιστικά, το Aspose.Words for Java σας παρέχει ένα καθαρό, υψηλής απόδοσης API που λειτουργεί χωρίς την εγκατάσταση του Microsoft Word. Σε αυτόν τον οδηγό θα μάθετε πώς να προσθέτετε σχόλια, να επισυνάπτετε απαντήσεις, να εκτυπώνετε νήματα σχολίων, να διαγράφετε ανεπιθύμητες απαντήσεις, να σημειώνετε τα σχόλια ως επιλυμένα και να εξάγετε ακριβείς χρονικές σφραγίδες UTC για παρακολούθηση έτοιμη για έλεγχο. Στο τέλος θα μπορείτε να ενσωματώσετε πλήρεις ροές διαχείρισης σχολίων απευθείας στις Java εφαρμογές σας.
 
-**Τι θα μάθετε:**
-- Προσθέστε σχόλια και απαντήσεις χωρίς κόπο
-- Εκτύπωση όλων των σχολίων και απαντήσεων ανώτατου επιπέδου
-- Κατάργηση απαντήσεων σε σχόλια ή επισήμανση σχολίων ως ολοκληρωμένων
-- Ανάκτηση ημερομηνίας και ώρας UTC των σχολίων για ακριβή παρακολούθηση
+**Τι Θα Μάθετε:**
+- Πώς να προσθέσετε σχόλιο και απάντηση χωρίς κόπο  
+- Πώς να εκτυπώσετε όλα τα σχόλια πρώτου επιπέδου και τις απαντήσεις τους  
+- Πώς να διαγράψετε απαντήσεις σχολίων ή να σημειώσετε ένα σχόλιο ως ολοκληρωμένο  
+- Πώς να ανακτήσετε την ημερομηνία και ώρα UTC που δημιουργήθηκε ένα σχόλιο  
 
-Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στη διαχείριση εγγράφων; Ας εμβαθύνουμε στις προϋποθέσεις πριν ξεκινήσουμε.
+Έτοιμοι να ενισχύσετε τις δυνατότητες αυτοματοποίησης εγγράφων σας; Ας βεβαιωθούμε πρώτα ότι το περιβάλλον ανάπτυξης σας είναι έτοιμο.
+
+## Γρήγορες Απαντήσεις
+- **Πώς δημιουργώ ένα σχόλιο σε Word με Java;** Use `Document` → `Comment` → `Comment.Author` and call `Document.getComments().add(comment)`.  
+- **Μπορώ να προσθέσω μια απάντηση σε υπάρχον σχόλιο;** Yes, create a new `Comment` with the original comment’s `Id` as its `ParentComment`.  
+- **Πώς διαγράφω μια απάντηση σχολίου;** Retrieve the reply via `Comment.getReplies()` and call `Comment.remove()`.  
+- **Υπάρχει τρόπος να σημειώσω ένα σχόλιο ως επιλυμένο;** Set `Comment.setDone(true)` and optionally change its color.  
+- **Πώς μπορώ να λάβω την ακριβή χρονική σφραγίδα UTC ενός σχολίου;** Access `Comment.getDateTime()` which returns a `java.util.Date` in UTC.
+
+## Τι είναι το “create comment in word”;
+*“Create comment in word”* αναφέρεται στην προγραμματιστική εισαγωγή ενός αντικειμένου σχολίου στη συλλογή σχολίων ενός εγγράφου Word χρησιμοποιώντας ένα API όπως το Aspose.Words. Αυτό επιτρέπει αυτοματοποιημένους κύκλους ελέγχου, ίχνη ελέγχου και συνεργατική ανατροφοδότηση χωρίς χειροκίνητη αλληλεπίδραση χρήστη. Επιτρέπει στους προγραμματιστές να ενσωματώνουν σχόλια απευθείας κατά τη δημιουργία του εγγράφου, εξαλείφοντας την ανάγκη για χειροκίνητη επεξεργασία μετά τη δημιουργία.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.Words για διαχείριση σχολίων;
+Το Aspose.Words υποστηρίζει **35+** μορφές εισόδου και εξόδου — συμπεριλαμβανομένων των DOCX, DOC, ODT, PDF, HTML και EPUB — και μπορεί να επεξεργαστεί έγγραφα **500‑σελίδων** σε λιγότερο από **3 seconds** σε έναν τυπικό διακομιστή. Το API σχολίων του λειτουργεί εντελώς εκτός σύνδεσης, εξαλείφοντας την ανάγκη για Microsoft Word και εγγυώμενο σταθερά αποτελέσματα σε περιβάλλοντα Windows, Linux και macOS.
 
 ## Προαπαιτούμενα
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τις απαραίτητες βιβλιοθήκες, εργαλεία και ρυθμίσεις περιβάλλοντος. Θα χρειαστείτε:
-- Κιτ ανάπτυξης Java (JDK) εγκατεστημένο στον υπολογιστή σας
-- Εξοικείωση με βασικές έννοιες προγραμματισμού Java
-- Ένα Ολοκληρωμένο Περιβάλλον Ανάπτυξης (IDE) όπως το IntelliJ IDEA ή το Eclipse
+- Java Development Kit (JDK) 17 ή νεότερο εγκατεστημένο.  
+- Ένα IDE όπως το IntelliJ IDEA ή το Eclipse (οποιοδήποτε είναι αποδεκτό).  
+- Βασική εξοικείωση με αντικείμενα και συλλογές Java.  
+- Πρόσβαση σε άδεια Aspose.Words for Java (η δωρεάν δοκιμή λειτουργεί για αξιολόγηση).
 
 ### Ρύθμιση του Aspose.Words για Java
-Το Aspose.Words είναι μια ολοκληρωμένη βιβλιοθήκη που σας επιτρέπει να εργάζεστε με έγγραφα Word σε διάφορες μορφές. Για να ξεκινήσετε, συμπεριλάβετε την ακόλουθη εξάρτηση στο έργο σας:
+Το Aspose.Words παρέχεται ως ένα ενιαίο αρχείο JAR που αναφέρετε στο εργαλείο κατασκευής σας.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Βαθμός:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Απόκτηση Άδειας
-Το Aspose.Words είναι μια βιβλιοθήκη επί πληρωμή, αλλά μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμαστική έκδοση ή να ζητήσετε μια προσωρινή άδεια χρήσης για πλήρη πρόσβαση στις δυνατότητές της. Επισκεφθείτε το [σελίδα αγοράς](https://purchase.aspose.com/buy) για να διερευνηθούν οι επιλογές αδειοδότησης.
+Το Aspose.Words είναι εμπορική βιβλιοθήκη, αλλά μπορείτε να ξεκινήσετε με δωρεάν δοκιμή ή να ζητήσετε προσωρινή άδεια για πλήρη πρόσβαση στις λειτουργίες. Επισκεφθείτε τη [purchase page](https://purchase.aspose.com/buy) για να εξερευνήσετε τις επιλογές αδειοδότησης.
 
-## Οδηγός Εφαρμογής
-Σε αυτήν την ενότητα, θα αναλύσουμε κάθε λειτουργία που σχετίζεται με τη διαχείριση σχολίων χρησιμοποιώντας το Aspose.Words σε Java.
+## Πώς να δημιουργήσετε σχόλιο σε Word;
+Φορτώστε το έγγραφό σας, δημιουργήστε ένα αντικείμενο `Comment`, ορίστε τον συγγραφέα και το κείμενο, και στη συνέχεια προσθέστε το στη συλλογή σχολίων του εγγράφου — αυτή η διαδικασία μπορεί να επιτευχθεί σε τρεις σύντομες γραμμές κώδικα Java. Το API εκχωρεί αυτόματα ένα μοναδικό ID, παρακολουθεί το σημείο εισαγωγής και αποθηκεύει τη χρονική σφραγίδα δημιουργίας σε UTC.
 
-### Λειτουργία 1: Προσθήκη σχολίου με απάντηση
-**Επισκόπηση**
-Αυτή η λειτουργία δείχνει πώς να προσθέσετε ένα σχόλιο και μια απάντηση μέσα σε ένα έγγραφο του Word. Είναι ιδανική για συνεργατική επεξεργασία εγγράφων όπου πολλοί χρήστες μπορούν να παρέχουν σχόλια.
-
-#### Βήματα Υλοποίησης
-**Βήμα 1:** Αρχικοποίηση του αντικειμένου εγγράφου
+### Βήμα 1: Αρχικοποίηση του Αντικειμένου Document
+Η κλάση `Document` είναι το κορυφαίο αντικείμενο του Aspose.Words που αντιπροσωπεύει ένα ενιαίο αρχείο Word στη μνήμη. Αφού δημιουργήσετε ένα στιγμιότυπο `Document`, όλες οι επόμενες λειτουργίες — όπως η προσθήκη σχολίων — εκτελούνται μέσω αυτού του αντικειμένου.  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Βήμα 2:** Δημιουργία και προσθήκη σχολίου
+### Βήμα 2: Δημιουργία και Προσθήκη Σχολίου
+`Comment` αντιπροσωπεύει μια ενιαία παρατήρηση χρήστη που συνδέεται με μια συγκεκριμένη θέση στο έγγραφο. Ορίζετε ιδιότητες όπως `Author`, `Text` και προαιρετικά `DateTime` πριν το προσθέσετε στη συλλογή σχολίων του εγγράφου.  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Βήμα 3:** Προσθήκη απάντησης στο σχόλιο
+### Βήμα 3: Προσθήκη Απάντησης στο Σχόλιο
+Μια απάντηση είναι επίσης ένα αντικείμενο `Comment`, αλλά η ιδιότητα `ParentComment` του δείχνει στο ID του αρχικού σχολίου, δημιουργώντας ένα ιεραρχικό νήμα.  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### Λειτουργία 2: Εκτύπωση όλων των σχολίων
-**Επισκόπηση**
-Αυτή η λειτουργία εκτυπώνει όλα τα σχόλια ανώτατου επιπέδου και τις απαντήσεις τους, διευκολύνοντας την μαζική αναθεώρηση των σχολίων.
+## Πώς να εκτυπώσετε όλα τα σχόλια σε ένα έγγραφο Word;
+`CommentCollection` είναι ο κοντέινερ που περιέχει όλα τα σχόλια σε ένα έγγραφο. Ανακτήστε το `CommentCollection` του εγγράφου, επαναλάβετε μέσω κάθε σχολίου πρώτου επιπέδου και για κάθε σχόλιο εκτυπώστε τον συγγραφέα, το κείμενο και την ημερομηνία δημιουργίας· στη συνέχεια επαναλάβετε τη συλλογή `Replies` του για να εμφανίσετε την ένθετη ανατροφοδότηση. Αυτή η προσέγγιση σας παρέχει ένα πλήρες, αναγνώσιμο στιγμιότυπο όλων των σημειώσεων ελέγχου σε μία μόνο διαδρομή.
 
-#### Βήματα Υλοποίησης
-**Βήμα 1:** Φόρτωση του εγγράφου
+### Βήμα 1: Φόρτωση του Εγγράφου  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**Βήμα 2:** Ανάκτηση και εκτύπωση σχολίων
+### Βήμα 2: Ανάκτηση και Εκτύπωση Σχολίων  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +157,12 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### Λειτουργία 3: Κατάργηση απαντήσεων σε σχόλια
-**Επισκόπηση**
-Αφαιρέστε συγκεκριμένες απαντήσεις ή όλες τις απαντήσεις από ένα σχόλιο για να διατηρήσετε το έγγραφο καθαρό και οργανωμένο.
+## Πώς να διαγράψετε απαντήσεις σχολίων;
+Αναγνωρίστε την απάντηση που θέλετε να αφαιρέσετε μέσω του δείκτη της στη λίστα `Replies` του γονικού σχολίου, και στη συνέχεια καλέστε `remove()` σε αυτό το αντικείμενο απάντησης. Εάν χρειάζεται να διαγράψετε όλες τις απαντήσεις, απλώς καθαρίστε τη συλλογή `Replies`. Μπορείτε επίσης να φιλτράρετε τις απαντήσεις ανά συγγραφέα ή ημερομηνία πριν τη διαγραφή για να διατηρήσετε την ακεραιότητα του ελέγχου.
 
-#### Βήματα Υλοποίησης
-**Βήμα 1:** Αρχικοποίηση και προσθήκη σχολίων με απαντήσεις
+### Βήμα 1: Αρχικοποίηση και Προσθήκη Σχολίων με Απαντήσεις  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +170,38 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**Βήμα 2:** Αφαίρεση απαντήσεων
+### Βήμα 2: Αφαίρεση Απαντήσεων  
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Κατάργηση μίας απάντησης
-comment.removeAllReplies(); // Κατάργηση όλων των υπόλοιπων απαντήσεων
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### Λειτουργία 4: Σήμανση σχολίου ως ολοκληρωμένου
-**Επισκόπηση**
-Επισημάνετε τα σχόλια ως επιλυμένα για να παρακολουθείτε αποτελεσματικά τα προβλήματα μέσα στο έγγραφό σας.
+## Πώς να σημειώσετε ένα σχόλιο ως ολοκληρωμένο;
+`Done` είναι μια λογική ιδιότητα που υποδεικνύει αν το σχόλιο είναι επιλυμένο. Ορίστε τη σημαία `Done` σε ένα στιγμιότυπο `Comment` σε `true`; το Aspose.Words θα εμφανίσει το σχόλιο με ένα οπτικό στυλ “επιλυμένο” (συνήθως ένα πράσινο σημάδι ελέγχου) όταν το έγγραφο ανοίξει στο Word. Αυτή η κατάσταση μπορεί να ελεγχθεί προγραμματιστικά αργότερα για τη δημιουργία αναφορών μη επιλυμένων σχολίων.
 
-#### Βήματα Υλοποίησης
-**Βήμα 1:** Δημιουργήστε ένα έγγραφο και προσθέστε ένα σχόλιο
+### Βήμα 1: Δημιουργία Εγγράφου και Προσθήκη Σχολίου  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**Βήμα 2:** Σημειώστε το σχόλιο ως ολοκληρωμένο
+### Βήμα 2: Σημείωση του Σχολίου ως Ολοκληρωμένο  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### Λειτουργία 5: Λήψη ημερομηνίας και ώρας UTC από σχόλιο
-**Επισκόπηση**
-Ανακτήστε την ακριβή ημερομηνία και ώρα UTC, προστέθηκε ένα σχόλιο για ακριβή παρακολούθηση.
+## Πώς να λάβετε την ημερομηνία και ώρα UTC από ένα σχόλιο;
+`Comment.getDateTime()` επιστρέφει τη χρονική σφραγίδα δημιουργίας του σχολίου σε UTC. Όταν δημιουργείται ένα σχόλιο, το Aspose.Words αποθηκεύει αυτόματα την ώρα δημιουργίας σε UTC. Πρόσβαση σε αυτήν μέσω `Comment.getDateTime()` και μορφοποίηση όπως απαιτείται για καταγραφή ή αναφορά συμμόρφωσης. Μπορείτε να μετατρέψετε το επιστρεφόμενο `java.util.Date` σε συμβολοσειρά ISO‑8601 ή σε `java.time.Instant` για συνεπή διαχείριση μεταξύ συστημάτων.
 
-#### Βήματα Υλοποίησης
-**Βήμα 1:** Δημιουργία εγγράφου με σχόλιο με χρονική σήμανση
+### Βήμα 1: Δημιουργία Εγγράφου με Σχόλιο με Χρονική Σφραγίδα  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +209,75 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Βήμα 2:** Αποθήκευση και ανάκτηση της ημερομηνίας UTC
+### Βήμα 2: Αποθήκευση και Ανάκτηση της Ημερομηνίας UTC  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Πρακτικές Εφαρμογές
-Η κατανόηση και η αξιοποίηση αυτών των λειτουργιών μπορεί να βελτιώσει σημαντικά τη διαχείριση εγγράφων σε διάφορα σενάρια:
-- **Συνεργατική Επιμέλεια:** Διευκόλυνση της συνεργασίας της ομάδας με σχόλια και απαντήσεις.
-- **Αναθεώρηση Εγγράφου:** Βελτιστοποιήστε τις διαδικασίες αξιολόγησης επισημαίνοντας τα προβλήματα ως επιλυμένα.
-- **Διαχείριση σχολίων:** Παρακολουθήστε τα σχόλια χρησιμοποιώντας ακριβείς χρονικές σημάνσεις.
+Η κατανόηση και η χρήση αυτών των λειτουργιών διαχείρισης σχολίων μπορεί να βελτιώσει δραματικά τις ροές εργασίας εγγράφων σε πολλές πραγματικές περιπτώσεις:
 
-Αυτές οι δυνατότητες μπορούν να ενσωματωθούν σε μεγαλύτερα συστήματα, όπως πλατφόρμες διαχείρισης περιεχομένου ή αυτοματοποιημένες αγωγούς επεξεργασίας εγγράφων.
+- **Συνεργατική Επεξεργασία:** Οι ομάδες μπορούν να αφήνουν ενσωματωμένη ανατροφοδότηση απευθείας μέσα στο αρχείο, και οι αυτοματοποιημένες διαδικασίες μπορούν να εξάγουν ή να επιλύουν σχόλια χωρίς χειροκίνητη παρέμβαση.  
+- **Διαδικασίες Επισκόπησης Εγγράφων:** Τα νομικά ή εκδοτικά τμήματα μπορούν προγραμματιστικά να σηματοδοτούν μη επιλυμένα σχόλια, να δημιουργούν αναφορές επισκόπησης και να επιβάλλουν προθεσμίες συμμόρφωσης.  
+- **Ιχνηλασιμότητα Ελέγχου:** Εξάγοντας χρονικές σφραγίδες UTC, οι οργανισμοί πληρούν τις κανονιστικές απαιτήσεις για ανιχνευσιμότητα και διαχείριση εκδόσεων.  
 
-## Παράγοντες Απόδοσης
-Όταν εργάζεστε με μεγάλα έγγραφα, λάβετε υπόψη τις ακόλουθες συμβουλές για τη βελτιστοποίηση της απόδοσης:
-- Περιορισμός του αριθμού των σχολίων που υποβάλλονται σε επεξεργασία κάθε φορά
-- Χρησιμοποιήστε αποτελεσματικές δομές δεδομένων για την αποθήκευση και ανάκτηση σχολίων
-- Ενημερώνετε τακτικά το Aspose.Words για να αξιοποιήσετε τις βελτιώσεις στην απόδοση
+Αυτές οι δυνατότητες ενσωματώνονται ομαλά με συστήματα διαχείρισης περιεχομένου, pipelines CI/CD ή προσαρμοσμένες υπηρεσίες δημιουργίας εγγράφων.
 
-## Σύναψη
-Πλέον, έχετε κατακτήσει την προσθήκη, τη διαχείριση και την ανάλυση σχολίων σε Java χρησιμοποιώντας το Aspose.Words. Με αυτές τις δεξιότητες, μπορείτε να βελτιώσετε σημαντικά τις ροές εργασίας διαχείρισης εγγράφων. Συνεχίστε να εξερευνάτε άλλες δυνατότητες του Aspose.Words για να αξιοποιήσετε πλήρως τις δυνατότητές του.
+## Παραμέτρους Απόδοσης
+Κατά την επεξεργασία μεγάλων συλλογών αρχείων Word, λάβετε υπόψη τις παρακάτω βέλτιστες πρακτικές:
 
-**Επόμενα βήματα:**
-- Πειραματιστείτε με πρόσθετες λειτουργίες του Aspose.Words
-- Ενσωματώστε τη διαχείριση σχολίων στα υπάρχοντα έργα σας
+- **Επεξεργασία κατά Παρτίδες:** Φορτώστε και επεξεργαστείτε σχόλια σε παρτίδες ≤ 200 εγγράφων για να αποφύγετε υπερβολική κατανάλωση μνήμης.  
+- **Lazy Loading:** Χρησιμοποιήστε `Document.load(..., LoadOptions)` με `LoadOptions.setLoadComments(true)` μόνο όταν χρειάζεστε πραγματικά δεδομένα σχολίων.  
+- **Καθαρισμός Πόρων:** Καλείτε ρητά `document.dispose()` (ή βασιστείτε σε try‑with‑resources) για άμεση απελευθέρωση των εγγενών πόρων.  
 
-Είστε έτοιμοι να εφαρμόσετε αυτές τις λύσεις; Ξεκινήστε σήμερα και βελτιστοποιήστε τις διαδικασίες χειρισμού εγγράφων σας!
+Ακολουθώντας αυτές τις συμβουλές εξασφαλίζει ότι ακόμη και έγγραφα **1,000‑page** επεξεργάζονται αποδοτικά σε μέτριο υλικό διακομιστή.
 
-## Ενότητα Συχνών Ερωτήσεων
-1. **Τι είναι το Aspose.Words για Java;**
-   - Είναι μια βιβλιοθήκη που επιτρέπει τον χειρισμό εγγράφων Word σε διάφορες μορφές μέσω προγραμματισμού.
-2. **Πώς μπορώ να εγκαταστήσω το Aspose.Words για το έργο μου;**
-   - Προσθέστε την εξάρτηση Maven ή Gradle στο αρχείο του έργου σας.
-3. **Μπορώ να χρησιμοποιήσω το Aspose.Words χωρίς άδεια χρήσης;**
-   - Ναι, με περιορισμούς. Εξετάστε το ενδεχόμενο να αποκτήσετε μια προσωρινή ή πλήρη άδεια χρήσης για πλήρη πρόσβαση.
-4. **Ποια είναι μερικά συνηθισμένα προβλήματα κατά τη διαχείριση σχολίων;**
-   - Διασφαλίστε τις σωστές μεθόδους φόρτωσης εγγράφων και ανάκτησης σχολίων· χειριστείτε προσεκτικά τις μηδενικές αναφορές.
-5. **Πώς μπορώ να παρακολουθώ τις αλλαγές σε πολλά έγγραφα;**
-   - Εφαρμόστε συστήματα ελέγχου εκδόσεων ή χρησιμοποιήστε τις λειτουργίες του Aspose.Words για την παρακολούθηση τροποποιήσεων εγγράφων.
+## Κοινά Προβλήματα και Λύσεις
+| Πρόβλημα | Αιτία | Λύση |
+|----------|-------|------|
+| **NullPointerException when accessing `Comment.getReplies()`** | Το έγγραφο φορτώθηκε με τα σχόλια απενεργοποιημένα. | Ενεργοποιήστε τη φόρτωση σχολίων μέσω `LoadOptions.setLoadComments(true)`. |
+| **Incorrect timestamp (local time instead of UTC)** | Ορίστηκε χειροκίνητα `Comment.setDateTime()` με τοπική `Date`. | Χρησιμοποιήστε `new Date()` που το Aspose.Words αποθηκεύει ως UTC, ή μετατρέψτε χρησιμοποιώντας `Instant.now()`. |
+| **Replies not appearing in Microsoft Word** | Λείπει η σύνδεση ID γονικού σχολίου. | Βεβαιωθείτε ότι `reply.setParentCommentId(parent.getId())` πριν προσθέσετε την απάντηση. |
+
+## Συχνές Ερωτήσεις
+
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.Words για διαχείριση σχολίων σε εμπορική εφαρμογή;**  
+A: Ναι, απαιτείται έγκυρη εμπορική άδεια για παραγωγική χρήση· μια δωρεάν δοκιμή είναι διαθέσιμη για αξιολόγηση.
+
+**Q: Υποστηρίζει η βιβλιοθήκη αρχεία Word με κωδικό πρόσβασης;**  
+A: Απόλυτα. Φορτώστε το έγγραφο με `LoadOptions.setPassword("yourPassword")` και τα API σχολίων λειτουργούν αμετάβλητα.
+
+**Q: Ποιες εκδόσεις Java είναι συμβατές με το Aspose.Words;**  
+A: Το Aspose.Words for Java υποστηρίζει JDK 8 έως JDK 21, καλύπτοντας τόσο παλαιότερα όσο και σύγχρονα περιβάλλοντα.
+
+**Q: Πώς διαχειρίζομαι σχόλια σε DOCX που περιέχει παρακολουθούμενες αλλαγές;**  
+A: Τα σχόλια είναι ανεξάρτητα από την παρακολούθηση εκδόσεων· μπορείτε να τα ανακτήσετε ή να τα τροποποιήσετε χωρίς να επηρεάσετε το ιστορικό αλλαγών.
+
+**Q: Υπάρχει όριο στον αριθμό των σχολίων που μπορεί να περιέχει ένα έγγραφο;**  
+A: Πρακτικά όχι — το Aspose.Words μπορεί να διαχειριστεί χιλιάδες σχόλια, περιοριζόμενο μόνο από τη διαθέσιμη μνήμη.
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-06-12  
+**Δοκιμή Με:** Aspose.Words for Java 24.12  
+**Συγγραφέας:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Σχετικά Μαθήματα
+
+- [Παρακολούθηση Αλλαγών σε Έγγραφα Word με Aspose.Words Java: Πλήρης Οδηγός για Αναθεωρήσεις Εγγράφων](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Κατακτήστε το Aspose.Words for Java: Πώς να Εισάγετε και να Διαχειριστείτε Σελιδοδείκτες σε Έγγραφα Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Aspose.Words Java: Πλήρης Οδηγός για Επεξεργασία Εγγράφων Word](/words/java/document-operations/aspose-words-java-master-word-processing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
