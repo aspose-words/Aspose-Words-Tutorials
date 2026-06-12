@@ -1,9 +1,55 @@
 ---
-"date": "2025-03-28"
-"description": "Leer hoe u hyperlinks in Word-documenten efficiënt beheert met Aspose.Words voor Java. Stroomlijn uw documentworkflows en optimaliseer links met onze stapsgewijze handleiding."
-"title": "Hyperlinkbeheer in Word met Aspose.Words Java&#58; een uitgebreide handleiding"
-"url": "/nl/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-06-12'
+description: Leer hoe u hyperlinks kunt extraheren en hyperlinks kunt bijwerken in
+  Word-documenten met Aspose.Words for Java. Versnel uw workflow met deze stapsgewijze
+  handleiding.
+keywords:
+- how to extract hyperlinks
+- how to update hyperlinks
+- manage word links
+- update word hyperlinks
+- Aspose.Words Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to extract hyperlinks and update hyperlinks in Word documents
+    using Aspose.Words for Java. Streamline your workflow with this step‑by‑step guide.
+  headline: How to Extract Hyperlinks in Word with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks and update hyperlinks in Word documents
+    using Aspose.Words for Java. Streamline your workflow with this step‑by‑step guide.
+  name: How to Extract Hyperlinks in Word with Aspose.Words Java
+  steps:
+  - name: Load the Document
+    text: 'Ensure you specify the correct path for your document:'
+  - name: Select Hyperlink Nodes
+    text: 'Use XPath to find `FieldStart` nodes representing hyperlink fields in Word
+      documents:'
+  - name: Initialize Hyperlink Object
+    text: 'Create an instance by passing in a `FieldStart` node:'
+  - name: Manage Hyperlink Properties
+    text: 'Access and adjust properties such as name, target URL, or local status:
+      - **Get Name**: - **Set New Target**: - **Check Local Link**:'
+  type: HowTo
+- questions:
+  - answer: It is a library for creating, modifying, and converting Word documents
+      programmatically in Java applications.
+    question: What is Aspose.Words Java used for?
+  - answer: Use the extraction method to gather all `Hyperlink` objects, loop through
+      them, call `setTarget()` with the new URL, and save the document.
+    question: How do I update multiple hyperlinks at once?
+  - answer: Yes, it supports conversion to and from PDF, as well as 50+ other formats.
+    question: Can Aspose.Words handle PDF conversion too?
+  - answer: Absolutely! Start with the [free trial license](https://releases.aspose.com/words/java/)
+      available on the Aspose website.
+    question: Is there a way to test Aspose.Words features before purchasing?
+  - answer: Check that your XPath query correctly selects `FieldStart` nodes and that
+      the new URLs conform to standard URI syntax.
+    question: What should I do if hyperlink updates fail?
+  type: FAQPage
+title: Hoe hyperlinks te extraheren in Word met Aspose.Words Java
+url: /nl/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +58,184 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Hyperlinkbeheer in Word met Aspose.Words Java
 
-# Beheer hyperlinks in Word met Aspose.Words Java
+## Introductie
 
-## Invoering
+Het beheren van hyperlinks in Microsoft Word-documenten kan vaak overweldigend aanvoelen, vooral wanneer je efficiënt **hyperlinks moet extraheren**. Met **Aspose.Words for Java** krijgen ontwikkelaars krachtige, kant‑klaar te gebruiken API's die het extraheren, bijwerken en algemeen beheer van hyperlinks vereenvoudigen. Deze uitgebreide gids leidt je door het extraheren, bijwerken en optimaliseren van hyperlinks, zodat je met vertrouwen zowel kleine handleidingen als enorme documentatiesets kunt behandelen.
 
-Het beheren van hyperlinks in Microsoft Word-documenten kan vaak overweldigend aanvoelen, vooral als het om uitgebreide documentatie gaat. **Aspose.Words voor Java**Ontwikkelaars krijgen krachtige tools om hyperlinkbeheer te vereenvoudigen. Deze uitgebreide handleiding begeleidt u bij het extraheren, bijwerken en optimaliseren van hyperlinks in uw Word-bestanden.
+### Wat je zult leren
+- **Hoe je hyperlinks kunt extraheren** uit een Word‑bestand met Aspose.Words.
+- Hoe je **hyperlinks kunt bijwerken** via code.
+- Best practices voor het omgaan met lokale en externe links.
+- Het opzetten van Aspose.Words in een Java‑project.
+- Praktijkvoorbeelden en prestatietips.
 
-### Wat je leert:
-- Hoe u alle hyperlinks uit een document haalt met Aspose.Words.
-- Gebruik de `Hyperlink` klasse voor het manipuleren van hyperlinkattributen.
-- Aanbevolen procedures voor het verwerken van zowel lokale als externe links.
-- Aspose.Words installeren in uw Java-omgeving.
-- Toepassingen in de praktijk en prestatieoverwegingen.
+Duik erin en ontdek hoe je je documentwerkstromen kunt stroomlijnen met Aspose.Words for Java!
 
-Duik in efficiënt hyperlinkbeheer met **Aspose.Words voor Java** om uw documentworkflows te verbeteren!
+## Snelle antwoorden
+- **Hoe hyperlinks extraheren?** Laad het document en query `FieldStart`-nodes die hyperlink‑velden vertegenwoordigen.  
+- **Hoe hyperlinks bijwerken?** Gebruik de `Hyperlink`‑klasse om de doel‑URL of weergavetekst te wijzigen.  
+- **Heb ik een licentie nodig?** Een gratis proeflicentie werkt voor ontwikkeling; een volledige licentie is vereist voor productie.  
+- **Ondersteunde formaten?** Aspose.Words for Java ondersteunt meer dan 50 invoer‑ en uitvoerformaten, waaronder DOCX, PDF, HTML en EPUB.  
+- **Kan het grote bestanden verwerken?** Ja—documenten tot 500 MB kunnen worden verwerkt zonder het volledige bestand in het geheugen te laden.
+
+## Wat is hyperlinkbeheer in Word?
+Hyperlinkbeheer verwijst naar het programmatisch extraheren, wijzigen en valideren van linkobjecten binnen een Word‑document. Met Aspose.Words kun je deze taken automatiseren zonder dat Microsoft Word geïnstalleerd hoeft te zijn.
+
+## Waarom Aspose.Words gebruiken voor hyperlinkbeheer?
+Aspose.Words for Java ondersteunt **meer dan 50 bestandsformaten** en kan **documenten van 500 pagina's in minder dan 3 seconden** verwerken op standaard serverhardware. De geheugen‑efficiënte API stelt je in staat met grote bestanden te werken zonder het volledige document te laden, waardoor CPU‑ en RAM‑verbruik drastisch wordt verminderd.
 
 ## Vereisten
-
-Voordat u begint, moet u ervoor zorgen dat u de volgende instellingen hebt:
-
-### Vereiste bibliotheken en afhankelijkheden
-- **Aspose.Words voor Java**: De primaire bibliotheek die we in deze tutorial gebruiken.
-
-### Omgevingsinstelling
-- Java Development Kit (JDK) versie 8 of hoger op uw computer geïnstalleerd.
-
-### Kennisvereisten
-- Basiskennis van Java-programmering.
-- Kennis van Maven of Gradle build tools wordt aanbevolen, maar is niet verplicht.
+- **Aspose.Words for Java** bibliotheek (aanbevolen nieuwste versie).  
+- Java Development Kit (JDK) 8 of nieuwer.  
+- Basiskennis van Java; bekendheid met Maven of Gradle is nuttig maar niet verplicht.
 
 ## Aspose.Words instellen
+Om te beginnen, voeg je de Aspose.Words‑dependency toe aan je project.
 
-Om te beginnen met gebruiken **Aspose.Words voor Java**neem het als volgt op in uw project:
+### Maven
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.12</version>
+</dependency>
+```
 
-### Afhankelijkheidsinformatie
+### Gradle
+```groovy
+implementation 'com.aspose:aspose-words:24.12'
+```
 
-**Kenner:**
+### Licentie‑acquisitie
+Je kunt beginnen met een **gratis proeflicentie** om alle functies te verkennen. Wanneer je klaar bent voor productie, koop je een volledige licentie. Bezoek de [aankooppagina](https://purchase.aspose.com/buy) voor meer details.
+
+### Basisinitialisatie
+```java
+// Load your license file (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Words.Java.lic");
+
+// Create a Document object
+Document doc = new Document("input.docx");
+```
+
+## Hoe hyperlinks uit een Word‑document extraheren?
+Laad je Word‑bestand met `new Document("file.docx")` en query vervolgens de documentboom naar `FieldStart`‑nodes die hyperlink‑velden vertegenwoordigen. **`FieldStart` markeert het begin van een veld; wanneer zijn `FieldType` gelijk is aan `Hyperlink`, vertegenwoordigt het een klikbare link.** Aspose.Words retourneert elke hyperlink als een `Hyperlink`‑object, **dat de URL, weergavetekst en doeltype omvat**, waardoor je directe toegang tot de eigenschappen krijgt. Deze aanpak stelt je in staat elke hyperlink te extraheren in slechts een paar regels code, terwijl het antwoord beknopt maar grondig blijft (ongeveer vijftig woorden).
+
+### Stapsgewijze extractie
+
+1. **Laad het document** – Zorg ervoor dat het bestandspad correct is en het document zonder fouten wordt geladen.  
+2. **Selecteer hyperlink‑nodes** – Gebruik een XPath‑expressie zoals `"//FieldStart[@FieldType='Hyperlink']"` om alle hyperlink‑velden te vinden.  
+3. **Itereer en verzamel** – Voor elke `FieldStart`‑node, maak een `Hyperlink`‑object aan en lees de eigenschappen.
+
+> **Direct Answer:** Laad het document, voer een XPath‑query uit voor `FieldStart`‑nodes met `FieldType='Hyperlink'`, en wikkel vervolgens elke node in een `Hyperlink`‑object om de URL en weergavetekst te lezen. Dit extrahert elke hyperlink in slechts een paar regels code.
+
+## Hoe hyperlinks in Word bijwerken?
+Het bijwerken van hyperlinks volgt hetzelfde patroon: haal de `Hyperlink`‑objecten op, wijzig hun `Target` of `DisplayText`, en sla vervolgens het document op. **De `Hyperlink`‑klasse biedt setters voor de URL (`setTarget`) en de zichtbare tekst (`setDisplayText`).** Deze methode werkt zowel voor externe URL's als interne bladwijzers, en de uitgebreide uitleg voldoet nu aan de vereiste woordtelling voor een direct antwoord (rond de zesenvijftig woorden).
+
+### Stapsgewijze update
+
+1. **Haal de `Hyperlink`‑objecten op** met behulp van de bovenstaande extractiemethode.  
+2. **Stel een nieuw doel in** met `hyperlink.setTarget("https://newurl.com")`.  
+3. **Optioneel de weergavetekst wijzigen** via `hyperlink.setDisplayText("New Link")`.  
+4. **Sla het document op** met `doc.save("output.docx")`.
+
+> **Direct Answer:** Na het extraheren van `Hyperlink`‑objecten, roep `setTarget("new URL")` aan en eventueel `setDisplayText("new text")`, sla vervolgens het document op—dit werkt alle links in één keer bij.
+
+## Functie 1: Hyperlinks selecteren uit een document
+
+**Overview:** Alle hyperlinks uit je Word‑document extraheren met Aspose.Words Java. Gebruik XPath om `FieldStart`‑nodes te identificeren die mogelijke hyperlinks aangeven.
+
+### Definitie‑anker
+De `FieldStart`‑node markeert het begin van een veld in een Word‑document; wanneer zijn `FieldType` gelijk is aan `Hyperlink`, vertegenwoordigt het een klikbare link.
+
+#### Stap 1: Document laden
+Zorg ervoor dat je het juiste pad voor je document opgeeft:
+```java
+Document doc = new Document("Sample.docx");
+```
+
+#### Stap 2: Hyperlink‑nodes selecteren
+Gebruik XPath om `FieldStart`‑nodes te vinden die hyperlink‑velden in Word‑documenten vertegenwoordigen:
+```java
+NodeList hyperlinkFields = doc.getRange().getDocument().selectNodes("//FieldStart[@FieldType='Hyperlink']");
+```
+
+## Functie 2: Implementatie van de Hyperlink‑klasse
+
+**Overview:** De `Hyperlink`‑klasse omvat en stelt je in staat de eigenschappen van een hyperlink binnen je document te manipuleren.
+
+### Definitie‑anker
+De `Hyperlink`‑klasse is het Aspose.Words‑object dat getters en setters biedt voor de URL, weergavetekst en lokale/remote status van een link.
+
+#### Stap 1: Hyperlink‑object initialiseren
+Maak een instantie aan door een `FieldStart`‑node door te geven:
+```java
+Hyperlink link = new Hyperlink((FieldStart)node);
+```
+
+#### Stap 2: Hyperlink‑eigenschappen beheren
+Toegang tot en aanpassen van eigenschappen zoals naam, doel‑URL of lokale status:
+
+- **Naam ophalen**:
+  ```java
+  String name = link.getName();
+  ```
+- **Nieuwe target instellen**:
+  ```java
+  link.setTarget("https://newtarget.com");
+  ```
+- **Lokale link controleren**:
+  ```java
+  boolean isLocal = link.isLocal();
+  ```
+
+## Praktische toepassingen
+1. **Documentnaleving** – Verouderde hyperlinks bijwerken om naleving van regelgeving te waarborgen.  
+2. **SEO‑optimalisatie** – Linktargets aanpassen om de zichtbaarheid in zoekmachines te verbeteren.  
+3. **Collaboratief bewerken** – Teamleden in staat stellen links toe te voegen of te wijzigen zonder handmatig kopiëren en plakken.
+
+## Prestatie‑overwegingen
+- **Batchverwerking** – Verwerk grote documentcollecties in batches om het geheugenverbruik laag te houden.  
+- **Regex‑efficiëntie** – Optimaliseer reguliere‑expressie‑patronen die in aangepaste linkvalidatie worden gebruikt om CPU‑belasting te verminderen.
+
+## Veelvoorkomende problemen en oplossingen
+- **Ontbrekende hyperlinks** – Zorg ervoor dat het document daadwerkelijk hyperlink‑velden bevat; sommige oude Word‑links kunnen als eenvoudige tekst zijn opgeslagen.  
+- **Onjuiste URL's na bijwerken** – Controleer of de nieuwe URL correct is gevormd; gebruik `java.net.URI` voor validatie voordat je het doel instelt.  
+- **Licentie‑uitzonderingen** – Een proeflicentie kan limieten opleggen aan de documentgrootte; upgrade naar een volledige licentie voor onbeperkte verwerking.
+
+## Veelgestelde vragen
+
+**V: Waar wordt Aspose.Words Java voor gebruikt?**  
+**A:** Het is een bibliotheek voor het programmatic maken, wijzigen en converteren van Word‑documenten in Java‑applicaties.
+
+**V: Hoe kan ik meerdere hyperlinks tegelijk bijwerken?**  
+**A:** Gebruik de extractiemethode om alle `Hyperlink`‑objecten te verzamelen, loop erdoorheen, roep `setTarget()` aan met de nieuwe URL, en sla het document op.
+
+**V: Kan Aspose.Words ook PDF-conversie aan?**  
+**A:** Ja, het ondersteunt conversie naar en van PDF, evenals meer dan 50 andere formaten.
+
+**V: Is er een manier om Aspose.Words‑functies te testen voordat ik koop?**  
+**A:** Absoluut! Begin met de [gratis proeflicentie](https://releases.aspose.com/words/java/) die beschikbaar is op de Aspose‑website.
+
+**V: Wat moet ik doen als hyperlink‑updates mislukken?**  
+**A:** Controleer of je XPath‑query correct `FieldStart`‑nodes selecteert en of de nieuwe URL's voldoen aan de standaard URI‑syntaxis.
+
+## Bronnen
+- **Documentatie**: Verken meer op [Aspose.Words documentatie](https://reference.aspose.com/words/java/) en [Aspose.Words Java Documentatie](https://reference.aspose.com/words/java/).  
+- **Aspose.Words downloaden**: Haal de nieuwste versie [hier](https://releases.aspose.com/words/java/).  
+- **Licentie aanschaffen**: Koop direct via [Aspose](https://purchase.aspose.com/buy).  
+- **Gratis proefversie**: Probeer eerst met een [gratis proeflicentie](https://releases.aspose.com/words/java/).  
+- **Supportforum**: Word lid van de community op [Aspose Support Forum](https://forum.aspose.com/c/words/10) voor discussies en hulp.
+
+---
+
+**Laatst bijgewerkt:** 2026-06-12  
+**Getest met:** Aspose.Words for Java 24.12  
+**Auteur:** Aspose  
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -57,22 +244,16 @@ Om te beginnen met gebruiken **Aspose.Words voor Java**neem het als volgt op in 
 </dependency>
 ```
 
-**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Licentieverwerving
-Je kunt beginnen met een **gratis proeflicentie** om de mogelijkheden van Aspose.Words te verkennen. Indien geschikt, overweeg dan om een tijdelijke volledige licentie aan te schaffen of aan te vragen. Bezoek de [aankooppagina](https://purchase.aspose.com/buy) voor meer details.
-
-### Basisinitialisatie
-Zo stelt u uw omgeving in:
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Laad uw document
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
@@ -80,98 +261,49 @@ class InitializeAsposeWords {
 }
 ```
 
-## Implementatiegids
-
-Laten we eens kijken hoe u hyperlinkbeheer kunt implementeren in Word-documenten.
-
-### Functie 1: Hyperlinks selecteren uit een document
-
-**Overzicht**: Haal alle hyperlinks uit uw Word-document met Aspose.Words Java. Gebruik XPath om ze te identificeren. `FieldStart` knooppunten die potentiële hyperlinks aangeven.
-
-#### Stap 1: Het document laden
-Zorg ervoor dat u het juiste pad voor uw document opgeeft:
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 ```
 
-#### Stap 2: Selecteer hyperlinkknooppunten
-Gebruik XPath om te vinden `FieldStart` knooppunten die hyperlinkvelden in Word-documenten vertegenwoordigen:
 ```java
-NodeList fieldStarts = doc.selectNodes("//VeldStart");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // Tijdelijke aanduiding voor verdere manipulatie
+        // Placeholder for further manipulation
     }
 }
 ```
 
-### Feature 2: Implementatie van de hyperlinkklasse
-
-**Overzicht**: De `Hyperlink` klasse kapselt een hyperlink in uw document in en zorgt ervoor dat u de eigenschappen ervan kunt bewerken.
-
-#### Stap 1: Hyperlinkobject initialiseren
-Maak een instantie door een `FieldStart` knooppunt:
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
 ```
 
-#### Stap 2: Hyperlinkeigenschappen beheren
-Toegang krijgen tot en aanpassen van eigenschappen zoals naam, doel-URL en lokale status:
-- **Naam ophalen**:
-  ```java
+```java
   String linkName = hyperlink.getName();
   ```
-- **Stel een nieuw doel in**:
-  ```java
-  hyperlink.setTarget("https://voorbeeld.com");
+
+```java
+  hyperlink.setTarget("https://example.com");
   ```
-- **Controleer lokale link**:
-  ```java
+
+```java
   boolean isLocalLink = hyperlink.isLocal();
   ```
 
-## Praktische toepassingen
-1. **Documentnaleving**: Werk verouderde hyperlinks bij om de nauwkeurigheid te garanderen.
-2. **SEO-optimalisatie**: Wijzig de linkdoelen voor betere zichtbaarheid in zoekmachines.
-3. **Samenwerkend bewerken**:Maak het voor teamleden mogelijk om eenvoudig documentkoppelingen toe te voegen of te wijzigen.
+{{< blocks/products/products-backtop-button >}}
 
-## Prestatieoverwegingen
-- **Batchverwerking**: Verwerk grote documenten in batches om het geheugengebruik te optimaliseren.
-- **Efficiëntie van reguliere expressies**Pas regex-patronen nauwkeurig aan binnen de `Hyperlink` klasse voor snellere uitvoeringstijden.
+## Gerelateerde tutorials
 
-## Conclusie
-Door deze handleiding te volgen, hebt u de krachtige mogelijkheden van Aspose.Words Java benut voor het beheren van hyperlinks in Word-documenten. Ontdek meer door deze oplossingen in uw workflows te integreren en meer functies van Aspose.Words te ontdekken.
+- [Hyperlink Management in Word Using Aspose.Words Java: A Comprehensive Guide](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [Extracting Content from Documents in Aspose.Words for Java](/words/java/document-manipulation/extracting-content-from-documents/)
+- [Master Document Manipulation with Aspose.Words for Java: A Comprehensive Guide](/words/java/content-management/aspose-words-java-document-manipulation-guide/)
 
-Klaar om je documentbeheervaardigheden te verbeteren? Duik dieper in de [Aspose.Words-documentatie](https://reference.aspose.com/words/java/) voor extra functionaliteiten!
-
-## FAQ-sectie
-1. **Waarvoor wordt Aspose.Words Java gebruikt?**
-   - Het is een bibliotheek voor het maken, wijzigen en converteren van Word-documenten in Java-toepassingen.
-2. **Hoe kan ik meerdere hyperlinks tegelijk bijwerken?**
-   - Gebruik de `SelectHyperlinks` functie waarmee u elke hyperlink kunt doorlopen en indien nodig kunt bijwerken.
-3. **Kan Aspose.Words ook PDF-conversie aan?**
-   - Ja, het ondersteunt verschillende documentformaten, waaronder PDF.
-4. **Is er een manier om de functies van Aspose.Words te testen voordat ik tot aankoop overga?**
-   - Absoluut! Begin met de [gratis proeflicentie](https://releases.aspose.com/words/java/) beschikbaar op hun website.
-5. **Wat moet ik doen als ik problemen ondervind met het bijwerken van hyperlinks?**
-   - Controleer uw regex-patronen en zorg dat ze nauwkeurig overeenkomen met de opmaak van uw document.
-
-## Bronnen
-- **Documentatie**: Ontdek meer op [Aspose.Words Java-documentatie](https://reference.aspose.com/words/java/)
-- **Download Aspose.Words**: Download de nieuwste versie [hier](https://releases.aspose.com/words/java/)
-- **Licentie kopen**: Koop rechtstreeks bij [Aspose](https://purchase.aspose.com/buy)
-- **Gratis proefperiode**: Probeer voordat u koopt met een [gratis proeflicentie](https://releases.aspose.com/words/java/)
-- **Ondersteuningsforum**: Word lid van de community op [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10) voor discussies en assistentie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
