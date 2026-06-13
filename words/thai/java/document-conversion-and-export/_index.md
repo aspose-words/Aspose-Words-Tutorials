@@ -97,11 +97,29 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [บันทึกเอกสารเป็น TXT – คู่มือด่วนสำหรับการส่งออกสมการ Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น TXT พร้อมส่งออกสมการคณิตศาสตร์อย่างง่ายและรวดเร็วด้วย Aspose.Words for Java
 
+### [บันทึก DOCX เป็น TXT – คู่มือฉบับสมบูรณ์](./how-to-save-docx-as-txt-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT อย่างละเอียดด้วย Aspose.Words for Java ในคู่มือฉบับสมบูรณ์นี้
+
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX ด้วย Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ Java อย่างง่าย
+
+### [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนโดยละเอียดเพื่อแปลง Word เป็น PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ที่รองรับการเข้าถึงสำหรับทุกคนด้วยขั้นตอนละเอียด
+
+### [บันทึก docx เป็น markdown – คู่มือขั้นตอนโดยละเอียดสำหรับ Java](./save-docx-as-markdown-step-by-step-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Java
+
+### [บันทึก docx เป็น markdown ด้วย Java – คู่มือขั้นตอนโดยละเอียด](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown ด้วย Java อย่างละเอียดตามขั้นตอนครบถ้วน
+
+### [อัปโหลดรูปภาพไปยัง CDN ระหว่างการแปลง DOCX เป็น Markdown – คู่มือเต็ม Java](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+เรียนรู้วิธีอัปโหลดรูปภาพไปยัง CDN ระหว่างการแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java อย่างละเอียด
 
 ## คำถามที่พบบ่อย
 
