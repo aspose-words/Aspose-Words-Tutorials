@@ -65,6 +65,9 @@
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
+### [เส้นทางรูปภาพแบบสัมพันธ์ใน Markdown – แปลง Word เป็น Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
+เรียนรู้วิธีกำหนดเส้นทางรูปภาพแบบสัมพันธ์เมื่อแปลงไฟล์ Word เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

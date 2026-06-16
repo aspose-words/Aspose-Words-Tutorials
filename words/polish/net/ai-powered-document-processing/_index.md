@@ -39,9 +39,10 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | Tytuł | Opis |
 | --- | --- |
 | [Praca z modelem AI](./working-with-ai-model/) | Dowiedz się, jak używać Aspose.Words dla .NET do podsumowywania dokumentów za pomocą AI. Proste kroki w celu ulepszenia zarządzania dokumentami. |
-| [Praca z modelem Google AI](./working-with-google-ai-model/) Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
+| [Praca z modelem Google AI](./working-with-google-ai-model/) | Ulepsz przetwarzanie dokumentów dzięki Aspose.Words for .NET i Google AI, aby bez wysiłku tworzyć zwięzłe podsumowania. |
 | [Praca z otwartym modelem AI](./working-with-open-ai-model/) | Odblokuj wydajne podsumowanie dokumentów za pomocą Aspose.Words dla .NET z potężnymi modelami OpenAI. Zanurz się w tym kompleksowym przewodniku już teraz. |
 | [Praca z opcjami podsumowania](./working-with-summarize-options/) | Naucz się skutecznie podsumowywać dokumenty Word za pomocą Aspose.Words dla platformy .NET dzięki naszemu przewodnikowi krok po kroku dotyczącemu integrowania modeli AI w celu szybkiego uzyskiwania analiz. |
+| [Połączenie z lokalnym modelem LLM w C# – Kompletny przewodnik programistyczny](./connect-to-local-llm-in-c-complete-programming-guide/) | Dowiedz się, jak w C# podłączyć lokalny model LLM i wykorzystać go w Aspose.Words do przetwarzania dokumentów. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
