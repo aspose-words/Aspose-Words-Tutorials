@@ -40,6 +40,8 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Word-Dokument mit Aspose.Words in C# wiederherstellen](./recover-word-document-with-aspose-words-in-c/) | Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words in C# wiederherstellen. |
 | [Wie man LoadOptions in Aspose.Words verwendet – Komplettanleitung](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie LoadOptions in Aspose.Words umfassend einsetzen, um Dokumente flexibel zu laden und zu konfigurieren. |
 | [Beschädigtes Dokument in C# wiederherstellen – Wiederherstellungsmodus festlegen & Benutzer auffordern](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Erfahren Sie, wie Sie beschädigte Dokumente in C# mit Aspose.Words wiederherstellen, den Wiederherstellungsmodus aktivieren und den Benutzer informieren. |
+| [Beschädigte Word-Datei in C# öffnen – Komplettanleitung](./open-corrupted-word-file-in-c-complete-guide/) | Erfahren Sie, wie Sie beschädigte Word-Dateien in C# mit Aspose.Words öffnen, reparieren und wiederherstellen – Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man LoadOptions verwendet, um fehlende Schriftarten zu erkennen](./how-to-use-loadoptions-to-detect-missing-fonts/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LoadOptions einsetzen, um fehlende Schriftarten beim Laden von Dokumenten zu erkennen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

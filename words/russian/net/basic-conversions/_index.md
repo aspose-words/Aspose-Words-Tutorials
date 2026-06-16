@@ -36,6 +36,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
 | [Сохранить DOCX как PDF с Aspose.Words – Полное руководство C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ DOCX в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
+| [Конвертировать DOCX в TXT – Полное руководство C# для уравнений LaTeX](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Узнайте, как конвертировать DOCX в TXT, сохранив уравнения LaTeX, используя Aspose.Words для .NET в полном руководстве на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -19,7 +19,7 @@ Samouczki Aspose.Words for .NET dotyczące przetwarzania słów z PdfSaveOptions
 
 Dowiesz się, jak dostosować opcje jakości obrazu, wybrać poziom kompresji obrazów, ustawić ustawienia zabezpieczeń PDF, takie jak szyfrowanie i uprawnienia, a nawet wstawiać znaki wodne do generowanych plików PDF. Samouczki zawierają również szczegółowe przykłady kodu, które pomogą Ci ćwiczyć te funkcje w swoich projektach.
 
-Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu dystrybucji online, archiwizacji lub drukowania, te samouczki dostarczają wiedzy, aby osiągnąć dokładne, wysokiej jakości wyniki. Dzięki Aspose.Words dla .NET i PdfSaveOptions możesz zoptymalizować proces konwersji plików i uzyskać pliki PDF, które spełniają Twoje specyficzne potrzeby.
+Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu dystrybucji online, archiwizacji lub drukowania, te samouczki dostarczają wiedzy, aby osiągnąć dokładne, wysokiej jakości wyniki. Dzięki Aspose.Words dla .NET i PdfSaveOptions możesz zoptymalizować proces konwersji plików i uzyskać pliki PDF, które spełniają Twoje specficzne potrzeby.
 
  ## Samouczki
 | Tytuł | Opis |
@@ -50,6 +50,7 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Utwórz dostępny PDF w C# – Samouczek dostępności PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Dowiedz się, jak generować dostępne pliki PDF w C# przy użyciu Aspose.Words, spełniające standardy WCAG. |
 | [Utwórz dostępny PDF z Worda – Kompletny przewodnik](./create-accessible-pdf-from-word-complete-guide/) | Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word, spełniając standardy dostępności. |
 | [Utwórz dostępny PDF – przewodnik krok po kroku dla zgodności PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Dowiedz się, jak tworzyć dostępne pliki PDF zgodne ze standardem PDF/UA, krok po kroku. |
+| [Utwórz dostępny PDF z Aspose.Words – Kompletny przewodnik](./create-accessible-pdf-with-aspose-words-complete-guide/) | Dowiedz się, jak w pełni konwertować dokumenty do dostępnych plików PDF przy użyciu Aspose.Words, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
