@@ -80,6 +80,9 @@ Használd ki a matematikai egyenletek erejét a dokumentumokban az Aspose.Words 
 ### [Dokumentum mentése TXT‑ként – Gyors útmutató a Word‑matematika exportálásához](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Ismerje meg, hogyan menthet Word‑dokumentumot TXT formátumba, miközben a beágyazott matematikai egyenleteket is exportálja.
 
+### [DOCX mentése TXT‑ként – Word egyenletek exportálása LaTeX‑be](./save-docx-as-txt-export-word-equations-to-latex/)
+Tanulja meg, hogyan mentse a DOCX fájlokat TXT‑be, és exportálja a Word egyenleteket LaTeX‑formátumba.
+
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Használd ki a dokumentumalakzatok erejét az Aspose.Words for Java‑ban. Tanuld meg, hogyan hozz létre vizuálisan vonzó dokumentumokat lépésről‑lépésre példákkal.
 
@@ -98,8 +101,17 @@ Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor 
 ### [Aspose Word to PDF – DOCX konvertálása PDF‑be Java‑ban](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.Words segítségével.
 
+### [Word mentése PDF‑ként az Aspose.Words‑szal – Teljes Java útmutató](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Lépésről‑lépésre útmutató a Word dokumentumok PDF‑be konvertálásához az Aspose.Words for Java használatával.
+
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
+
+### [Hogyan állítsuk be a felbontást a Word Markdown‑be mentésekor](./how-to-set-resolution-when-saving-word-as-markdown/)
+Tanulja meg, hogyan állíthatja be a képfelbontást a Word dokumentumok Markdown formátumba mentésekor az Aspose.Words for Java használatával.
+
+### [Hogyan mentse a Word dokumentumot Markdown‑ként – Teljes Java útmutató](./how-to-save-markdown-from-word-complete-java-guide/)
+Tanulja meg, hogyan menthet Word dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével, lépésről‑lépésre útmutató.
 
 ## Gyakran Ismételt Kérdések
 

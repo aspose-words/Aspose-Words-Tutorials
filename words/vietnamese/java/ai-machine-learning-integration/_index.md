@@ -67,6 +67,9 @@ Xuất tài liệu đã được làm giàu sang định dạng bạn cần—PD
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 Tìm hiểu cách tự động hoá tóm tắt và dịch văn bản bằng Aspose.Words for Java kết hợp với GPT‑4 của OpenAI và Gemini của Google. Nâng cao ứng dụng Java của bạn ngay hôm nay.
 
+### [Tạo tài liệu Word bằng Java với Kiểm tra Ngữ pháp LLM Tùy chỉnh](./create-word-document-java-with-custom-llm-grammar-check/)
+Hướng dẫn tạo tài liệu Word trong Java và tích hợp mô hình ngôn ngữ tùy chỉnh để kiểm tra ngữ pháp tự động.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

@@ -97,8 +97,14 @@ Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
 
+### [Jak nastavit rozlišení při ukládání Wordu jako Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+Naučte se nastavit rozlišení obrázků při konverzi Wordu do Markdownu pomocí Aspose.Words.
+
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
+
+### [Uložit DOCX jako TXT – Export rovnic Word do LaTeXu](./save-docx-as-txt-export-word-equations-to-latex/)
+Naučte se uložit soubor DOCX jako TXT a exportovat rovnice Word do LaTeXu pomocí Aspose.Words.
 
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
@@ -106,8 +112,14 @@ Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedn
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
 
+### [Jak uložit Markdown z Wordu – kompletní průvodce v Javě](./how-to-save-markdown-from-word-complete-java-guide/)
+Naučte se uložit obsah Wordu jako soubory Markdown pomocí Aspose.Words for Java v podrobném průvodci.
+
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Uložit Word jako PDF pomocí Aspose.Words – Kompletní průvodce pro Javu](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Naučte se, jak pomocí Aspose.Words for Java převést soubor Word do PDF s podrobným krok‑za‑krokem návodem.
 
 ## Často kladené otázky
 

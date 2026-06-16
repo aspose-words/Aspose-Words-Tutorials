@@ -91,7 +91,7 @@ Aspose.Words for Java’da Yükleme Seçeneklerini ustalıkla kullanın. Belge y
 ### [Aspose.Words for Java’da RTF Yükleme Seçeneklerini Yapılandırma](./configuring-rtf-load-options/)
 Aspose.Words for Java’da RTF Yükleme Seçeneklerini yapılandırın. RTF belgelerinde UTF-8 metni tanıma yöntemlerini öğrenin. Adım adım kılavuz ve kod örnekleri.
 
-### [Aspose.Words for Java ile Metin Dosyalarını Yükleme](./loading-text-files/)
+### [Aspose.Words for Java’nun Metin Dosyalarını Yükleme](./loading-text-files/)
 Aspose.Words for Java’nun gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
 
 ### [Aspose.Words for Java’da Gelişmiş Kaydetme Seçenekleri](./advance-saving-options/)
@@ -128,12 +128,17 @@ Aspose.Words for Java ile belgeleri RTF formatında nasıl kaydedeceğinizi öğ
 Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğinizi öğrenin. Java kod örnekleriyle adım adım rehberimizi izleyin.
 
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
-Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin.
+Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin. 
+
+### [Aspose.Words for Java LoadOptions – Bozuk Word Belgelerini Kurtarma](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Java’da Aspose.Words LoadOptions kullanarak bozuk Word dosyalarını nasıl kurtaracağınızı adım adım öğrenin.
 
 ### [Bozuk docx dosyasını kurtarma – Belgeleri Düzeltme ve İşleme Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve işleyebileceğinizi öğrenin.
+
+### [Aspose Yazı Tipi Değiştirme Eğitimi – Eksik Yazı Tiplerini Ele Alma](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Java’da eksik yazı tiplerini yakalayarak ve değiştirme uyarılarını yöneterek belge işleme sürecinizi iyileştirin.
 
 ## Sıkça Sorulan Sorular
 

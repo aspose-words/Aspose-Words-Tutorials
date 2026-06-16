@@ -99,7 +99,9 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ### [Dokumentumok mentése szövegfájlokként Aspose.Words for Java‑val](./saving-documents-as-text-files/)
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
 ### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Aspose.Words LoadOptions – Sérült Word dokumentumok helyreállítása Java‑ban](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Aspose betűtípus helyettesítési útmutató – Hiányzó betűtípusok kezelése](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ## Gyakran Ismételt Kérdések
 
