@@ -93,14 +93,26 @@ Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java
 ### [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Pelajari cara mengonversi file DOCX menjadi markdown dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
 
+### [Ekspor Word ke Markdown – Panduan Lengkap Java](./export-word-to-markdown-complete-java-guide/)
+Pelajari cara mengekspor dokumen Word ke format Markdown dengan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
+
+### [Ekspor DOCX sebagai Markdown – Panduan Lengkap Java](./export-docx-as-markdown-complete-java-guide/)
+Pelajari cara mengekspor file DOCX menjadi format Markdown secara lengkap menggunakan Aspose.Words for Java.
+
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
 
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
+### [Simpan sebagai Teks Biasa – Panduan Lengkap Mengekspor Persamaan Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Pelajari cara menyimpan dokumen Word sebagai file teks biasa sambil mengekspor persamaan matematika menggunakan Aspose.Words for Java.
+
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Buat Dokumen yang Mematuhi PDF/UA-2 – Panduan Lengkap Java](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Pelajari cara membuat dokumen PDF/UA-2 yang sesuai standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah lengkap.
 
 ## Pertanyaan yang Sering Diajukan
 

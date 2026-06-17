@@ -94,14 +94,26 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
+### [Xuất Word sang Markdown – Hướng Dẫn Java Toàn Diện](./export-word-to-markdown-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang Markdown bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
+
+### [Xuất DOCX thành Markdown – Hướng Dẫn Java Toàn Diện](./export-docx-as-markdown-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words for Java, kèm ví dụ mã nguồn.
+
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
+
+### [Lưu dưới dạng văn bản thuần – Hướng Dẫn Toàn Diện Xuất Công Thức Toán Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng TXT và xuất các công thức toán học một cách nhanh chóng.
 
 ### [Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình chuyển đổi từ DOCX, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Tạo Tài Liệu Tuân Thủ PDF/UA-2 – Hướng Dẫn Java Toàn Diện](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu đáp ứng chuẩn PDF/UA‑2 bằng Aspose.Words for Java, bao gồm các tùy chọn truy cập và lưu trữ.
 
 ## Câu hỏi thường gặp
 

@@ -45,7 +45,7 @@ Salvar imagens do Word significa localizar programaticamente cada imagem incorpo
 A seguir, um resumo conciso do fluxo de trabalho típico. (O código real é mostrado nos tutoriais vinculados; aqui nos concentramos no raciocínio.)
 
 1. **Crie uma instância `Document`** – carregue o arquivo Word de origem (`.docx`, `.doc`, etc.).  
-2. **Itere pela `NodeCollection` do documento** para encontrar nós `Shape` que contêm imagens.  
+2. **Itere pela `NodeCollection` do documento`** para encontrar nós `Shape` que contêm imagens.  
 3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave-a em um arquivo usando `ImageData.save()`.
 
 > *Dica profissional:* `Document.getChildNodes(NodeType.SHAPE, true)` para recuperar todas as formas, incluindo as que estão dentro de cabeçalhos, rodapés e notas de rodapé.
@@ -99,7 +99,9 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Recuperar docx corrompido usando Aspose.Words Java](./recover-corrupted-docx-using-aspose-words-java/)
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Registrar callback de aviso em Java – Rastrear fontes ausentes](./register-warning-callback-in-java-track-missing-fonts/)
 
 ## Perguntas Frequentes
 

@@ -91,6 +91,9 @@ Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel enc
 ### [Lettertypevervangingswaarschuwingen vastleggen in Java met Aspose.Words – Complete gids](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Leer hoe je lettertypevervangingswaarschuwingen kunt vastleggen en verwerken tijdens het laden van documenten met Aspose.Words voor Java.
 
+### [Waarschuwingscallback registreren in Java – Ontbrekende lettertypen bijhouden](./register-warning-callback-in-java-track-missing-fonts/)
+Leer hoe je een waarschuwingscallback registreert om ontbrekende lettertypen te detecteren tijdens het laden van documenten.
+
 ### [RTF‑laadopties configureren in Aspose.Words for Java](./configuring-rtf-load-options/)
 Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tekst in RTF‑documenten herkent. Stapsgewijze gids met code‑voorbeelden.
 
@@ -134,6 +137,9 @@ Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Beschadigde docx herstellen met Aspose.Words for Java](./recover-corrupted-docx-using-aspose-words-java/)
+Leer hoe je beschadigde DOCX-bestanden kunt repareren met Aspose.Words voor Java in een paar eenvoudige stappen.
 
 ## Veelgestelde vragen
 

@@ -70,6 +70,12 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์เป็นรูปแบบ LaTeX ด้วย Aspose.Words
 
+### [ส่งออก Word เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./export-word-to-markdown-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words for Java
+
+### [ส่งออก DOCX เป็น Markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./export-docx-as-markdown-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย Aspose.Words for Java
+
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
 
@@ -97,11 +103,17 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [บันทึกเอกสารเป็น TXT – คู่มือด่วนสำหรับการส่งออกสมการ Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น TXT พร้อมส่งออกสมการคณิตศาสตร์อย่างง่ายและรวดเร็วด้วย Aspose.Words for Java
 
+### [บันทึกเป็นข้อความธรรมดา – คู่มือฉบับสมบูรณ์สำหรับการส่งออกสมการ Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็นข้อความธรรมดา พร้อมส่งออกสมการอย่างครบถ้วนด้วย Aspose.Words
+
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [สร้างเอกสารที่เป็นไปตามมาตรฐาน PDF/UA-2 – คู่มือฉบับสมบูรณ์สำหรับ Java](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF/UA‑2 ที่เป็นไปตามมาตรฐานโดยใช้ Aspose.Words for Java
 
 ## คำถามที่พบบ่อย
 
