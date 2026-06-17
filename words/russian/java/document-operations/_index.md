@@ -68,6 +68,9 @@
 ### [Сохранение документов Word в формате PostScript с настройками книжного сгиба в Java с помощью Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Узнайте, как преобразовать документы Word в буклеты с профессиональным качеством вывода с помощью Aspose.Words for Java. В этом руководстве рассматривается сохранение в формате PostScript и настройка параметров книжного сгиба.
 
+### [Итерация предупреждений документа: обнаружение отсутствующих шрифтов в Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Узнайте, как перебрать предупреждения документа и выявить недостающие шрифты при работе с Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

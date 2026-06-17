@@ -66,7 +66,10 @@ Ismerd meg, hogyan optimalizálhatod az RTF exportálást az Aspose.Words for Ja
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Word dokumentumok mentése PostScript formátumban könyvhajtogatási beállításokkal Java-ban az Aspose.Words használatával](./aspose-words-java-postscript-book-fold-settings/)
-Ismerje meg, hogyan konvertálhat Word-dokumentumokat professzionális minőségű füzetekké az Aspose.Words for Java segítségével. Ez az útmutató a PostScript formátumban történő mentést és a könyvhajtogatási beállítások konfigurálását ismerteti.
+Ismerje meg, hogyan konvertálhat Word-dokumentumokat professzionális minőségű füzetekké az Aspose.Words for Java segítségével. Ez az útmutató a PostScript formátumban történő mentés és a könyvhajtogatási beállítások konfigurálását ismerteti.
+
+### [Dokumentumfigyelmeztetések iterálása: Hiányzó betűtípusok észlelése Java-ban](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Ismerje meg, hogyan iterálhat a dokumentumfigyelmeztetéseken, és észlelheti a hiányzó betűtípusokat Java-ban az Aspose.Words segítségével.
 
 ## További források
 

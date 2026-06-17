@@ -69,7 +69,7 @@ További információkért tekintsd meg az [Aspose.Words for Java API Documentat
 Egyedi vonalkód címkék generálása az Aspose.Words for Java‑val. Tanuld meg, hogyan hozhatsz létre személyre szabott vonalkód megoldásokat az Aspose.Words for Java segítségével ebben a lépésről‑lépésre útmutatóban.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generáláshoz. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
+Tanuld meg, hogyan generálj egyedi vonalkódokat Java‑ban az Aspose.Words for Java használatával. Lépésről‑lépésre útmutató forráskóddal a vonalkód generálásához. Növeld a dokumentum automatizálást az Aspose.Words‑szal.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Tanuld meg, hogyan hozz létre és testre szabj diagramokat az Aspose.Words for Java‑ban. Fedezd fel a diagramtípusokat, formázást és tengelybeállításokat az adatok vizualizálásához.
@@ -79,6 +79,9 @@ Használd ki a matematikai egyenletek erejét a dokumentumokban az Aspose.Words 
 
 ### [Dokumentum mentése TXT‑ként – Gyors útmutató a Word‑matematika exportálásához](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Ismerje meg, hogyan menthet Word‑dokumentumot TXT formátumba, miközben a beágyazott matematikai egyenleteket is exportálja.
+
+### [Dokumentum mentése TXT‑ként – DOCX konvertálása szöveggé LaTeX‑kel](./save-document-as-txt-convert-docx-to-text-with-latex/)
+Ismerje meg, hogyan menthet Word‑dokumentumot TXT formátumba, miközben a beágyazott matematikai egyenleteket LaTeX‑be exportálja.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Használd ki a dokumentumalakzatok erejét az Aspose.Words for Java‑ban. Tanuld meg, hogyan hozz létre vizuálisan vonzó dokumentumokat lépésről‑lépésre példákkal.
@@ -92,14 +95,29 @@ Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat
 ### [DOCX konvertálása markdownra – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba, és exportáld a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
 
+### [DOCX mentése markdownként – Teljes C# útmutató](./save-docx-as-markdown-complete-c-guide/)
+Tanuld meg, hogyan mentheted a DOCX fájlokat markdown formátumba C#‑ban az Aspose.Words segítségével.
+
 ### [Hogyan ágyazzunk be képeket a Markdownba a DOCX konvertálásakor](./how-to-embed-images-in-markdown-when-converting-docx/)
 Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor az Aspose.Words for Java használatával.
 
 ### [Aspose Word to PDF – DOCX konvertálása PDF‑be Java‑ban](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.Words segítségével.
 
+### [Dokumentum mentése PDF‑ként Java‑val – Teljes lépésről‑lépésre útmutató](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként Java‑val az Aspose.Words for Java‑val, részletes lépésekkel.
+
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
+
+### [Akadálymentes PDF létrehozása – Java útmutató a Word dokumentumok konvertálásához](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+Ismerje meg, hogyan hozhat létre akadálymentes PDF-et a Word dokumentumok Java‑val történő konvertálásakor az Aspose.Words segítségével.
+
+### [Hogyan exportáljunk Markdown‑t a Word‑ból – Teljes útmutató](./how-to-export-markdown-from-word-complete-guide/)
+Tanulja meg, hogyan exportálja a Word dokumentumot Markdown formátumba Aspose.Words for Java‑val, lépésről‑lépésre útmutatóval.
+
+### [PDF UA dokumentum létrehozása Aspose.Words használatával – Teljes Java útmutató](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+Tanulja meg, hogyan hozhat létre PDF/UA kompatibilis dokumentumot Aspose.Words for Java-val, lépésről‑lépésre útmutatóval.
 
 ## Gyakran Ismételt Kérdések
 
