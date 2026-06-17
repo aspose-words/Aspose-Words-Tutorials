@@ -1,28 +1,24 @@
 ---
 category: general
-date: 2026-01-11
-description: Tanulja meg, hogyan mentse el a dokumentumot txt formátumban, és exportálja
-  a matematikát a Wordből LaTeX-be. Lépésről‑lépésre útmutató a docx LaTeX‑re konvertálásáról
-  és a képletek LaTeX‑be exportálásáról.
+date: 2026-04-24
+description: Mentse a dokumentumot txt formátumban, és konvertálja a Wordet LaTeX-re
+  az Aspose.Words segítségével. Tanulja meg, hogyan exportálhatja a Word matematikai
+  egyenleteket gyorsan LaTeX-be.
 draft: false
 keywords:
 - save document as txt
-- how to export math
-- convert docx to latex
-- convert word equations latex
-- export equations to latex
+- convert word to latex
+- convert word equations to latex
+- export word math latex
 language: hu
-og_description: Mentse a dokumentumot txt formátumban, és exportálja a matematikát
-  a Wordből LaTeX-be. Teljes C# oktatóanyag, amely bemutatja, hogyan exportálhatók
-  egyenletek LaTeX-be, és hogyan konvertálható a docx LaTeX-be.
-og_title: Dokumentum mentése Txt formátumban – Word matematikai képletek exportálása
-  LaTeX-be (C# útmutató)
+og_description: Mentse a dokumentumot txt formátumba, és konvertálja a Word egyenleteket
+  LaTeX-re C#‑al. Teljes lépésről‑lépésre útmutató kóddal.
+og_title: Dokumentum mentése TXT‑ként – Word Math exportálása LaTeX‑be
 tags:
 - Aspose.Words
 - C#
 - LaTeX
-title: Dokumentum mentése Txt-ként – Word matematikai képletek exportálása LaTeX-be
-  C#-ban
+title: Dokumentum mentése TXT‑ként – Word‑matematika exportálása LaTeX‑be C#‑ban
 url: /hu/net/programming-with-officemath/save-document-as-txt-export-word-math-to-latex-in-c/
 ---
 
@@ -30,140 +26,204 @@ url: /hu/net/programming-with-officemath/save-document-as-txt-export-word-math-t
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentum mentése txt‑ként – Word matematikák exportálása LaTeX‑be C#‑ban
+# Dokumentum mentése TXT‑ként – Word Math exportálása LaTeX‑be C#‑ban
 
-Valaha szükséged volt **dokumentum mentése txt‑ként** funkcióra, miközben minden egyenletet tökéletesen LaTeX‑ben rendereltél? Nem vagy egyedül. Sok fejlesztő szembesül a problémával, amikor a Word OfficeMath objektumai eltűnnek egy egyszerű szöveges export után, és olvashatatlan szimbólumok maradnak.
+Valaha szükséged volt **save document as txt**‑re, miközben a bonyolult egyenleteket érintetlenül szeretnéd megtartani? Nem vagy egyedül. A Word beépített „Save as plain text” funkciója eldobja az Office Math‑ot, és olvashatatlan szöveget hagy hátra. Mi lenne, ha megtarthatnád az egyenleteket, de tiszta LaTeX formában?
 
-Jó hír? Néhány C#‑sorral megmondhatod az Aspose.Words‑nek, hogy egy `.txt` fájlt generáljon, ahol minden matematikai objektum tiszta LaTeX kóddá alakul. Ebben az útmutatóban lépésről lépésre végigvezetünk, elmagyarázzuk, hogyan **exportáljunk matematikát** egy `.docx`‑ből, és még alternatív módszereket is érintünk a **docx latex‑re konvertálására**, ha nem az Aspose‑t használod.
+Ebben az útmutatóban lépésről lépésre végigvezetünk a pontos lépéseken, hogy a **convert Word to LaTeX**‑kész szöveget készítsük az Aspose.Words for .NET segítségével. A végére egy `.txt` fájlt kapsz, ahol minden egyenlet megfelelő LaTeX jelöléssel van ábrázolva, készen áll, hogy egy cikkbe vagy markdown fájlba illeszd. Nincs szükség külső konverterekre, nincs manuális másolás‑beillesztés—csak néhány C# sor.
 
-A végére egy futtatható kódrészletet kapsz, amely **egyenleteket exportál latex‑be**, egyértelmű képet arról, miért fontos minden beállítás, és néhány tippet a gyakori buktatók elkerüléséhez.
+## Mit fogsz megtanulni
 
-## Amire szükséged lesz
+- Hogyan tölts be egy `.docx` fájlt az Aspose.Words segítségével.
+- A `TxtSaveOptions` konfigurálása úgy, hogy az Office Math LaTeX‑ként legyen exportálva.
+- Az eredmény mentése egyszerű szövegfájlba, amelyet bármely szerkesztőben megnyithatsz.
+- Szélhelyzetek kezelése beágyazott vs. megjelenített egyenletek esetén, valamint egy gyors tipp több dokumentum kötegelt feldolgozásához.
 
-- **.NET 6+** (a kód .NET Framework‑ön is működik, de a modernitás kedvéért .NET 6‑ra célozunk)  
-- **Aspose.Words for .NET** NuGet csomag (az ingyenes próba megfelelő)  
-- Egy Word fájl (`input.docx`), amely legalább egy OfficeMath objektumot tartalmaz (gondolj egy képletre, amit a Word egyenlet szerkesztőjével írtál)  
-- Bármilyen IDE, amit kedvelsz – Visual Studio, VS Code, Rider – a választás a tiéd.
+### Előfeltételek
 
-Ennyi. Nincs extra könyvtár, nincs külső konverter. Merüljünk bele.
+- .NET 6.0 vagy újabb (a kód .NET Framework 4.6+‑vel is működik).
+- Aspose.Words for .NET NuGet csomag (`Install-Package Aspose.Words`).
+- Egy Word dokumentum, amely legalább egy egyenletet (Office Math objektum) tartalmaz.
 
-![save document as txt example](image.png "Screenshot showing a .txt file with LaTeX equations – save document as txt")
+---
 
-## 1. lépés: A forrásdokumentum betöltése és a TXT mentési beállítások előkészítése
+## 1. lépés: Aspose.Words telepítése és a projekt beállítása
 
-Az első lépés a Word fájl megnyitása. Ezután létrehozunk egy `TxtSaveOptions` példányt, és megmondjuk az Aspose‑nak, hogy minden OfficeMath objektumot LaTeX‑ként exportáljon. Ez a **hogyan exportáljunk matematikát** helyes módjának a lényege.
+Először add hozzá a könyvtárat a projekthez. Nyiss egy terminált a megoldás mappájában, és futtasd:
+
+```bash
+dotnet add package Aspose.Words
+```
+
+> **Pro tipp:** Ha Visual Studio‑t használsz, a NuGet Package Manager UI is tökéletesen működik—keresd meg a „Aspose.Words”‑t, és kattints a Install‑re.
+
+Most hozz létre egy új konzolos alkalmazást (vagy illeszd be a kódot egy meglévőbe). A szükséges `using` direktívák:
 
 ```csharp
 using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
+```
 
-class ExportMathToLatex
+## 2. lépés: Forrásdokumentum betöltése
+
+Meg kell mutatnunk az Aspose.Words‑nek a Word fájlt, amely az egyenleteket tartalmazza. Cseréld le a `YOUR_DIRECTORY/input.docx`‑t a saját géped tényleges elérési útjára.
+
+```csharp
+// Load the source .docx file
+Document doc = new Document(@"C:\MyDocs\input.docx");
+```
+
+> **Miért fontos:** A dokumentum betöltése teljes hozzáférést biztosít az Aspose.Words‑nek a belső Office Math objektumokhoz, amelyek egy egyszerű szövegexporter számára egyébként láthatatlanok.
+
+## 3. lépés: TxtSaveOptions konfigurálása LaTeX exporthoz
+
+A varázslat a `TxtSaveOptions` objektumban történik. Ha az `OfficeMathExportMode`‑t `LaTeX`‑re állítod, minden egyenlet a LaTeX megfelelőjévé alakul.
+
+```csharp
+// Configure save options to export Office Math as LaTeX
+TxtSaveOptions txtOptions = new TxtSaveOptions
 {
-    static void Main()
+    // Export all Office Math objects as LaTeX code
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+
+    // Optional: keep line breaks similar to the original layout
+    PreserveTableLayout = true
+};
+```
+
+> **Mi van, ha MathML‑re van szükséged?** Állítsd az `OfficeMathExportMode`‑t `MathML`‑re. Ugyanaz az API több kimeneti formátumot is támogat.
+
+## 4. lépés: Dokumentum mentése egyszerű szövegként
+
+Most kiírjuk a fájlt. A keletkező `Math.txt` egyszerű szöveget és LaTeX töredékeket tartalmaz minden egyenlethez.
+
+```csharp
+// Save the document as a .txt file with LaTeX equations
+doc.Save(@"C:\MyDocs\Math.txt", txtOptions);
+Console.WriteLine("Document saved as txt with LaTeX equations.");
+```
+
+A program futtatása egy ilyen kinézetű fájlt eredményez:
+
+```
+This is a simple paragraph.
+
+Here is an inline equation: $E = mc^2$
+
+And a displayed equation:
+\[
+\int_{0}^{\infty} e^{-x} \, dx = 1
+\]
+```
+
+Vedd észre, hogy a beágyazott egyenlet `$…$`‑t használ, míg a megjelenített egyenlet `\[` és `\]` közé van helyezve. Ez a szabványos LaTeX konvenció, és az Aspose.Words automatikusan így jár el.
+
+## 5. lépés: Kimenet ellenőrzése (opcionális)
+
+Ha szeretnéd ellenőrizni, hogy a LaTeX helyes, betáplálhatod a `.txt`‑t egy LaTeX fordítóba, például `pdflatex`‑be, vagy egy online renderelőbe, mint az Overleaf. A szövegnek hibák nélkül kell lefordulnia, és az egyenletek pontosan úgy fognak megjelenni, ahogy a Word‑ben voltak.
+
+```bash
+pdflatex Math.txt
+```
+
+Ha a „Undefined control sequence” hibát kapod, ellenőrizd, hogy a szükséges LaTeX csomagok (pl. `amsmath`) szerepelnek-e a preambulumodban, amikor a szöveget egy nagyobb LaTeX dokumentumba ágyazod.
+
+## Gyakori változatok kezelése
+
+### Több fájl konvertálása egy mappában
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\MyDocs\", "*.docx");
+foreach (var file in files)
+{
+    Document d = new Document(file);
+    d.Save(Path.ChangeExtension(file, ".txt"), txtOptions);
+}
+Console.WriteLine("Batch conversion complete.");
+```
+
+### Beágyazott vs. megjelenített egyenletek kezelése
+
+Az Aspose.Words automatikusan felismeri az egyenlet típusát a Word‑beli elrendezés alapján. Ha egy adott stílust szeretnél kényszeríteni, utófeldolgozhatod a kimenetet:
+
+```csharp
+string txt = File.ReadAllText(@"C:\MyDocs\Math.txt");
+txt = txt.Replace("$", "\\(").Replace("$", "\\)"); // forces inline math delimiters
+File.WriteAllText(@"C:\MyDocs\Math_fixed.txt", txt);
+```
+
+### Exportálás más formátumokba
+
+Ha a LaTeX nem a cél, egyszerűen váltsd át az export módot:
+
+```csharp
+txtOptions.OfficeMathExportMode = OfficeMathExportMode.MathML; // for MathML
+```
+
+Vagy használd a `HtmlSaveOptions`‑t, ha inkább MathML‑t szeretnél HTML‑be ágyazni.
+
+---
+
+## Teljes működő példa
+
+Alább a teljes, futtatható program. Másold be a `Program.cs`‑be egy .NET konzolos projektben.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+namespace WordToLatexTxt
+{
+    class Program
     {
-        // Step 1: Load the .docx that contains OfficeMath objects
-        Document doc = new Document(@"YOUR_DIRECTORY\input.docx");
-
-        // Step 2: Configure TXT options – the key line for LaTeX export
-        TxtSaveOptions txtOptions = new TxtSaveOptions
+        static void Main(string[] args)
         {
-            // This tells Aspose to turn each equation into LaTeX syntax
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
+            // 1️⃣ Load the source document
+            Document doc = new Document(@"C:\MyDocs\input.docx");
 
-        // Step 3: Save as plain‑text; the math will be LaTeX now
-        doc.Save(@"YOUR_DIRECTORY\Math.txt", txtOptions);
-        Console.WriteLine("Document saved as txt with LaTeX equations.");
+            // 2️⃣ Set up save options to export Office Math as LaTeX
+            TxtSaveOptions saveOptions = new TxtSaveOptions
+            {
+                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                PreserveTableLayout = true
+            };
+
+            // 3️⃣ Save as plain‑text with LaTeX equations
+            string outputPath = @"C:\MyDocs\Math.txt";
+            doc.Save(outputPath, saveOptions);
+
+            Console.WriteLine($"✅ Saved document as txt at: {outputPath}");
+            Console.WriteLine("Open the file to see LaTeX‑formatted equations.");
+        }
     }
 }
 ```
 
-**Miért fontos ez:**  
-- `OfficeMathExportMode.LaTeX` az a kapcsoló, amely a belső OfficeMath ábrázolást olyan formátummá alakítja, amit a LaTeX processzor megért.  
-- Enélkül az exportáló egy egyszerű Unicode visszaesést alkalmazna, ami `∑` vagy akár torz szöveg formájában jelenik meg sok szerkesztőben.
+Futtasd a programot (`dotnet run`), nyisd meg a `Math.txt`‑t, és láthatod a Word tartalmat LaTeX egyenletekkel érintetlenül.
 
-## 2. lépés: Az eredmény ellenőrzése – Hogyan néz ki a .txt
+---
 
-Futtasd a programot, majd nyisd meg a `Math.txt`‑t bármely szövegszerkesztőben (Notepad, VS Code, Sublime). Valami ilyesmit kell látnod:
+## Gyakran Ismételt Kérdések
 
-```
-Here is a simple equation:
-\[
-E = mc^{2}
-\]
+**K: Működik ez régebbi .doc fájlokkal?**  
+V: Igen—az Aspose.Words meg tud nyitni régi `.doc` fájlokat, de a komplex egyenletek képként tárolódhatnak. Ebben az esetben az exportáló egy helyőrző megjegyzésre tér vissza.
 
-And a more complex integral:
-\[
-\int_{0}^{\infty} e^{-x^{2}} \,dx = \frac{\sqrt{\pi}}{2}
-\]
-```
+**K: Mi van, ha egy egyenlet egyedi szimbólumokat tartalmaz?**  
+V: Az Aspose.Words a legtöbb Office Math szimbólumot szabványos LaTeX parancsokra térképezi. Valóban egyedi szimbólumok esetén előfordulhat, hogy manuálisan kell szerkesztened a generált LaTeX‑et.
 
-Ha észreveszed a `\[` és `\]` határolókat, akkor sikeresen **egyenleteket exportáltál latex‑be**. Ezek a határolók a standard módja a display‑stílusú matematika beágyazásának LaTeX dokumentumokba.
+**K: UTF‑8 kódolású a kimenet?**  
+V: Alapértelmezés szerint a `TxtSaveOptions` UTF‑8‑at ír, ami a legtöbb nyelv és szimbólum esetén biztonságos.
 
-### Gyors épségellenőrzés
+---
 
-Másold a LaTeX kódrészletet egy online renderelőbe, például Overleaf vagy LaTeX‑Live. Hiba nélkül le kell fordulnia. Ha “undefined control sequence” üzeneteket kapsz, ellenőrizd, hogy a legfrissebb Aspose.Words verziót használod‑e – a régebbi build‑ek néha kihagyják az újabb OfficeMath funkciókat.
+## Következtetés
 
-## 3. lépés: Alternatív útvonalak – Docx konvertálása LaTeX‑re TxtSaveOptions nélkül
+Most már tudod, hogyan **save document as txt**‑t végezhetsz, miközben minden egyenletet tiszta LaTeX jelöléssel őrzöl meg. Ez a megközelítés lehetővé teszi a **convert Word to LaTeX**‑t külső eszközök nélkül, és skálázható egyetlen fájlból egész mappákra. Legközelebb érdemes lehet a **convert word equations to LaTeX**‑t batch feldolgozáshoz felfedezni, vagy belemerülni az **export word math latex** témába HTML vagy Markdown csővezetékekhez.
 
-Néha egy teljes `.tex` fájlt szeretnél a sima szöveges csomagolás helyett. Bár a `TxtSaveOptions` út a legegyszerűbb, az Aspose egy dedikált `LatexSaveOptions` osztályt is kínál. Íme egy tömör változat:
-
-```csharp
-using Aspose.Words.Saving;
-
-// ...
-
-LatexSaveOptions latexOptions = new LatexSaveOptions
-{
-    // Preserve the original document structure
-    ExportHeadersFooters = true,
-    // Optional: embed images as base64 strings
-    ExportImagesAsBase64 = true
-};
-
-doc.Save(@"YOUR_DIRECTORY\FullDocument.tex", latexOptions);
-```
-
-**Mikor érdemes ezt használni:**  
-- Amikor egy teljes LaTeX forrásfájlt szeretnél szekciókkal, címsorokkal és képekkel.  
-- Ha a downstream munkafolyamatod egy LaTeX fordítót (pdflatex, xelatex, stb.) igényel, nem csak gyors másolás‑beillesztést.
-
-Mindkét megközelítés **docx latex‑re konvertál**, de a `TxtSaveOptions` módszer akkor jön jól, ha csak a szövegre és az egyenletekre van szükséged – tökéletes markdown csővezetékekhez vagy egyszerű szkript‑alapú feldolgozáshoz.
-
-## Gyakori buktatók és profi tippek
-
-| Pitfall | Why it Happens | Fix |
-|---------|----------------|-----|
-| **Missing LaTeX delimiters** | Az `OfficeMathExportMode.Text` használata a `LaTeX` helyett. | Győződj meg róla, hogy az `OfficeMathExportMode.LaTeX` be van állítva. |
-| **Equations appear as Unicode symbols** | A régebbi Aspose.Words verzió (< 22.1) nem támogatja a LaTeX exportot. | Frissítsd a NuGet csomagot a legújabb stabil kiadásra. |
-| **File path errors** | Keménykódolt útvonalak, amelyeknél a visszaperjelek nincsenek escape‑elve. | Használj verbatim stringeket `@"C:\path\file.docx"` vagy `Path.Combine`. |
-| **Large documents slow down** | Nagy dokumentumok sok egyenlettel való mentése memóriaigényes lehet. | Hívd meg a `doc.UpdatePageLayout()` metódust mentés előtt, vagy oszd fel a dokumentumot. |
-
-**Pro tip:** Ha sok fájlt szeretnél kötegelt módon feldolgozni, csomagold a mentési logikát egy `try…catch` blokkba, és naplózd a `Aspose.Words.FileFormatException`‑t. Így egyetlen hibás egyenlet sem állítja le a teljes futást.
-
-## Szélsőséges esetek – Mi van, ha a dokumentumom nem tartalmaz OfficeMath‑ot?
-
-Az exportáló egyszerűen a normál szöveget írja ki. Nem ad hozzá LaTeX határolókat, ami rendben van. Ha *mindenképpen* szeretnél LaTeX csomagolást, manuálisan elő- és utótagként hozzáadhatod a `\[` `\]` karaktereket a teljes kimenethez:
-
-```csharp
-string content = File.ReadAllText(@"YOUR_DIRECTORY\Math.txt");
-File.WriteAllText(@"YOUR_DIRECTORY\MathWrapped.txt", $"\\[\n{content}\n\\]");
-```
-
-## Összegzés
-
-Megmutattuk, hogyan **dokumentumot menthetünk txt‑ként**, miközben minden OfficeMath objektumot tiszta LaTeX‑be alakítunk, bemutattuk az alternatív **docx latex‑re konvertálás** útvonalat a `LatexSaveOptions` használatával, és gyakorlati tippeket vitattunk meg a **egyenletek exportálásáról latex‑be** valós projektekben.  
-
-A fő tanulság: állítsd be az `OfficeMathExportMode`‑t `LaTeX`‑re, és hagyd, hogy az Aspose végezze a nehéz munkát. Ettől a ponttól a kapott `.txt`‑t bármely downstream eszközbe betáplálhatod – markdown generátorokba, statikus weboldal pipeline‑okba, vagy akár egyedi parser‑ekbe.
-
-### Következő lépések
-
-- Próbáld meg összekapcsolni ezt az exportot egy markdown generátorral, hogy `.md` fájlokat hozz létre, amelyek közvetlenül beágyazzák a LaTeX‑et.  
-- Fedezd fel a `LatexSaveOptions`‑t a teljes dokumentum konvertálásához, különösen ha ábrákra vagy táblázatokra van szükséged.  
-- Ha szűk a költségvetésed, nézd meg az ingyenes **Open XML SDK**‑t – több manuális munkát igényel, de még mindig ki tudja nyerni az OfficeMath XML‑t és LaTeX‑re fordítani egy egyedi mapperrel.
-
-Van kérdésed egy konkrét egyenlettel vagy egy másik fájlformátummal kapcsolatban? Írj egy megjegyzést, és együtt megoldjuk. Boldog kódolást, és legyen a LaTeX‑ed mindig első próbálásra lefordítható!
+Nyugodtan kísérletezz—cseréld le az `OfficeMathExportMode`‑t MathML‑re, finomítsd a sortörés‑kezelést, vagy integráld ezt a kódrészletet egy nagyobb dokumentum‑generálási munkafolyamatba. Boldog kódolást, és legyenek az egyenleteid mindig tökéletesen megjelenítve!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

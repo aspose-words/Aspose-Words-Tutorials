@@ -39,9 +39,11 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bekerja dengan Model AI](./working-with-ai-model/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen. Bahasa Indonesia:
-| [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
+| [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) | Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
 | [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
+| [Ringkas Dokumen Word dengan LLM Lokal – Panduan Langkah‑per‑Langkah C#](./summarize-word-document-with-a-local-llm-step-by-step-c-guid/) | Pelajari cara menggunakan LLM lokal untuk meringkas dokumen Word dengan C# secara mudah dan efisien. |
+| [Periksa Tata Bahasa Word dengan Aspose.Words AI – Panduan Lengkap](./check-word-grammar-with-aspose-words-ai-complete-guide/) | Pelajari cara memeriksa dan memperbaiki tata bahasa dokumen Word menggunakan AI Aspose.Words dalam panduan lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
