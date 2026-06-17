@@ -29,6 +29,7 @@ Graças a estes tutoriais, você poderá explorar ao máximo as funcionalidades 
 | [Use caractere de espaço por nível para recuo de lista](./use-space-character-per-level-for-list-indentation/) | Aprenda a criar listas multinível com recuo de caracteres de espaço no Aspose.Words para .NET. Guia passo a passo para formatação precisa de documentos. |
 | [Salvar documento como TXT – Guia completo em C# para converter DOCX em texto simples](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aprenda a converter arquivos DOCX em texto puro usando Aspose.Words para .NET com um guia passo a passo em C#. |
 | [Salvar docx como txt – Guia rápido para desenvolvedores C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Aprenda a converter arquivos DOCX em TXT rapidamente usando Aspose.Words para .NET, com exemplos práticos para desenvolvedores C#. |
+| [Criar txt a partir de documento em C# – Exportar equações para LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Aprenda a exportar equações de documentos Word para LaTeX ao gerar arquivos TXT usando Aspose.Words para .NET em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

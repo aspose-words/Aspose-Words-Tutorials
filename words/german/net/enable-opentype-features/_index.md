@@ -21,6 +21,7 @@ Erfahren Sie, wie Sie OpenType-Funktionen in Ihren Word-Dokumenten mit Aspose.Wo
 | Titel | Beschreibung |
 | --- | --- |
 | [Offene Typfunktionen](./open-type-features/) | Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie OpenType-Funktionen in Word-Dokumenten mit Aspose.Words für .NET aktivieren. |
+| [Verwendung von variablen Schriftgewichten in C# – Vollständiger Programmierleitfaden](./use-variable-weight-font-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie variable Gewichtsschriften in C# mit Aspose.Words verwenden, um dynamische Typografie zu erstellen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

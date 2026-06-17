@@ -35,7 +35,7 @@ Oavsett om du behöver ersätta specifika ord, uppdatera textmallar eller anpass
 | [Igenkänn och substitutioner inom ersättningsmönster](./recognize-and-substitutions-within-replacement-patterns/) | Lär dig hur du känner igen och ersätter text i ersättningsmönster med Aspose.Words för .NET. Steg-för-steg-guide med detaljerade exempel. |
 | [Ersätt med sträng](./replace-with-string/) | Lär dig hur du ersätter strängar i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare som vill automatisera dokumentredigering. |
 | [Ersätt text i tabell](./replace-text-in-table/) | Ersätt enkelt text i Word-tabeller med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
-
+| [Ersätt text i docx med C# – Fullständig steg‑för‑steg‑guide](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Lär dig hur du ersätter text i docx-filer med C# i en komplett steg‑för‑steg‑guide med kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

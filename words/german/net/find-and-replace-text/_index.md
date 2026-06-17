@@ -35,7 +35,7 @@ Ob Sie bestimmte Wörter ersetzen, Textvorlagen aktualisieren oder den Inhalt vo
 | [Erkennen und Ersetzen innerhalb von Ersatzmustern](./recognize-and-substitutions-within-replacement-patterns/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in Ersetzungsmustern erkennen und ersetzen. Schritt-für-Schritt-Anleitung mit ausführlichen Beispielen. |
 | [Durch Zeichenfolge ersetzen](./replace-with-string/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Zeichenfolgen in Word-Dokumenten mit Aspose.Words für .NET ersetzen. Ideal für Entwickler, die die Dokumentbearbeitung automatisieren möchten. |
 | [Text in Tabelle ersetzen](./replace-text-in-table/) | Ersetzen Sie mit Aspose.Words für .NET mühelos Text in Word-Tabellen mit dieser detaillierten Schritt-für-Schritt-Anleitung. |
-
+| [Text in docx mit C# ersetzen – Vollständige Schritt‑für‑Schritt‑Anleitung](./replace-text-in-docx-with-c-full-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in DOCX-Dateien mithilfe von C# vollständig und schrittweise ersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

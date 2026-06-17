@@ -52,7 +52,7 @@
 | [获取不带后缀的替换](./get-substitution-without-suffixes/) 在本教程中，学习如何使用 Aspose.Words for .NET 在 Word 文档中获取无后缀覆盖。|
 | [如何在 Aspose.Words 中捕获字体 – 完整指南](./how-to-capture-fonts-in-aspose-words-complete-guide/) 通过本完整指南学习如何在 Aspose.Words 中捕获字体，确保文档字体完整并避免缺失。|
 | [如何加载 DOCX 并检测缺失字体 – 完整 C# 指南](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) 通过本完整的 C# 示例学习如何加载 DOCX 文档并检测缺失的字体，确保文档渲染一致。|
-
+| [如何在 .NET 中处理字体 – 检测缺失字体](./how-to-handle-fonts-in-net-detect-missing-fonts/) 学习如何在 Aspose.Words for .NET 中检测缺失字体并进行相应处理的完整分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

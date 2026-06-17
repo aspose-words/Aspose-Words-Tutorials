@@ -21,7 +21,7 @@ Aprenda a habilitar las funciones OpenType en sus documentos de Word con Aspose.
 | Título | Descripción |
 | --- | --- |
 | [Características de tipo abierto](./open-type-features/) | Aprenda cómo habilitar las funciones OpenType en documentos de Word usando Aspose.Words para .NET con esta guía detallada paso a paso. |
-
+| [Usar fuentes de peso variable en C# – Guía completa de programación](./use-variable-weight-font-in-c-complete-programming-guide/) | Aprenda a usar fuentes de peso variable en C# con esta guía completa de programación. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
