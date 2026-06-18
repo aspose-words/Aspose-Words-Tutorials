@@ -72,6 +72,9 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 
 ### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
+### [Document opslaan als Markdown met C# – Volledige gids](./save-document-as-markdown-with-c-full-guide/)
+Leer hoe u documenten opslaat als Markdown met C# in een volledige stap‑voor‑stap handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
