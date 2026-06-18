@@ -33,6 +33,7 @@
 | [フォントフォルダを設定する](./set-fonts-folders/) Aspose.Words for .NET でカスタムフォントフォルダーを設定する方法を、ステップバイステップで解説する包括的なガイドです。ドキュメントフォントの強化を目指す開発者に最適です。 |
 | [フォント置換を有効/無効にする](./enable-disable-font-substitution/) Aspose.Words for .NET を使用して、Word 文書のフォント置換を有効または無効にする方法を学びます。すべてのプラットフォームでドキュメントの外観の一貫性を確保します。 |
 | [Aspose.Words でフォント置換警告を有効にする – 完全ガイド](./enable-font-substitution-warnings-in-aspose-words-complete-g/) Aspose.Words for .NET を使用して、フォント置換警告を有効にする方法をステップバイステップで学びます。 |
+| [Aspose.Words でフォント置換を処理する – 完全プログラミングガイド](./handle-font-substitution-in-aspose-words-complete-programmin/) Aspose.Words for .NET を使用してフォント置換を管理する完全ガイドです。 |
 | [フォントフォールバック設定](./set-font-fallback-settings/) Aspose.Words for .NET でフォント置換設定を設定し、Word 文書でフォント置換をカスタマイズする方法を学習します。 |
 | [Noto フォールバック設定を読み込む](./load-noto-fallback-settings/) Aspose.Words for .NET を使用して、Word 文書に Noto フォールバック設定を読み込む方法を学びます。ステップバイステップのガイドに従って、すべての文字が正しく表示されるようにしてください。 |
 | [フォントフォルダのデフォルトインスタンスを設定する](./set-fonts-folders-default-instance/) Aspose.Words for .NET のデフォルトインスタンスのフォントフォルダーを設定する方法を、ステップバイステップのチュートリアルで学びましょう。Word 文書を簡単にカスタマイズできます。 |

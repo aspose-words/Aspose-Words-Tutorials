@@ -18,7 +18,7 @@
 
 Handledningar för ordbehandling med teckensnitt guidar dig genom olika aspekter av ordbehandling med teckensnitt, så att du kan utföra åtgärder som att ändra teckensnittsformatering, läsa in teckensnitt från specifika kataloger, hantera ersättningsteckensnitt och mer.
 
-Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittsrelaterade uppgifter i dina Word-dokument.
+Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittrelaterade uppgifter i dina Word-dokument.
 
 Oavsett om du vill formatera text med olika teckensnitt, ange regler för teckensnittsersättning, ladda teckensnitt från specifika kataloger eller ta emot teckensnittmeddelanden, kommer handledningarna i "Ordbehandling med teckensnitt" att ge dig kunskapen för att enkelt utföra dessa uppgifter.
 
@@ -32,6 +32,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Ställ in teckensnittsmarkering](./set-font-emphasis-mark/) | Lär dig hur du ställer in betoningstecken i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. Perfekt för .NET-utvecklare. |
 | [Ställ in teckensnittsmappar](./set-fonts-folders/) | Lär dig hur du ställer in anpassade teckensnittsmappar i Aspose.Words för .NET med den här omfattande steg-för-steg-guiden. Perfekt för utvecklare som vill förbättra dokumentteckensnitt. |
 | [Aktivera Inaktivera teckensnittsersättning](./enable-disable-font-substitution/) | Lär dig hur du aktiverar eller inaktiverar teckensnittsersättning i Word-dokument med Aspose.Words för .NET. Se till att dina dokument ser enhetliga ut på alla plattformar. |
+| [Hantera teckensnittsersättning i Aspose.Words – Komplett programmeringsguide](./handle-font-substitution-in-aspose-words-complete-programmin/) | Lär dig hur du hanterar teckensnittsersättning i Aspose.Words för .NET med en komplett steg-för-steg-programmeringsguide. |
 | [Ange alternativa teckensnittsinställningar](./set-font-fallback-settings/) | Lär dig hur du ställer in inställningar för teckensnittsersättning i Aspose.Words för .NET och anpassar teckensnittsersättning i dina Word-dokument. |
 | [Ladda Noto-alternativinställningar](./load-noto-fallback-settings/) | Lär dig hur du laddar Noto-alternativinställningar i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att säkerställa att alla tecken visas korrekt. |
 | [Ange standardinstans för teckensnittsmappar](./set-fonts-folders-default-instance/) | Lär dig hur du ställer in teckensnittsmappar för standardinstansen i Aspose.Words för .NET med den här steg-för-steg-handledningen. Anpassa dina Word-dokument utan ansträngning. |

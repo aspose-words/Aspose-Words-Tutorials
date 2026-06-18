@@ -35,7 +35,8 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Smart Art-Zeichnung aktualisieren](./update-smart-art-drawing/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Smart Art-Zeichnungen in Word-Dokumenten mit Aspose.Words für .NET aktualisieren. Stellen Sie sicher, dass Ihre Visualisierungen stets präzise sind. |
 | [Rechteckform in Word mit Aspose.Words – Schritt-für-Schritt-Anleitung](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word-Dokument einfügen und anpassen. |
 | [Rechteckform in Word mit C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word‑Dokument einfügen – Schritt für Schritt in C#. |
-| [Aspose.Words Formschatten-Tutorial – Schatten zu Word-Form in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und das Layout verbessern. |
+| [Aspose.Words Formschatten-Tutorial – Schatten zu Word-Form in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word‑Formen hinzufügen und das Layout verbessern. |
+| [Schatten zu Form in Word mit Aspose.Words – Komplettanleitung](./add-shadow-to-shape-in-word-with-aspose-words-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Formen in Word hinzufügen und das Layout optimieren. |
 
 | [Leeres Word-Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine schattierte Rechteckform hinzufügen. |
 
