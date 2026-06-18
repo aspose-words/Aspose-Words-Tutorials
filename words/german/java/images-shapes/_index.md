@@ -37,6 +37,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 ### [Word-Dokument in Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck mit Schatten in ein Word-Dokument einfügt.
 
+### [Word-Dokument in Java erstellen – Schatten zu Form hinzufügen](./create-word-document-java-add-shadow-to-shape-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java einer Form einen Schatteneffekt hinzufügt.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

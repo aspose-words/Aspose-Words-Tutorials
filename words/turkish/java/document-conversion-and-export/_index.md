@@ -95,11 +95,20 @@ Aspose.Words kullanarak docx dosyasını markdown’a dönüştürün ve matemat
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.
 
+### [DOCX'i TXT olarak kaydet ve LaTeX Matematik Dışa Aktar – Tam Java Rehberi](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Aspose.Words for Java kullanarak docx dosyasını txt formatına kaydedin ve içinde bulunan matematik denklemlerini LaTeX'e dışa aktarın.
+
 ### [Aspose Word to PDF – Java’da DOCX'i PDF'e Dönüştürme](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekilde PDF formatına dönüştürün.
 
 ### [DOCX'ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişilebilirlik özelliklerini ayarlamayı adım adım öğrenin.
+
+### [Java ile PDF/UA‑1 Uyumlu Dosya Oluşturma – Tam Kılavuz](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Java ve Aspose.Words for Java kullanarak PDF/UA‑1 standartlarına uygun erişilebilir PDF dosyaları oluşturmayı öğrenin.
+
+### [PDF/UA uyumlu belge oluşturma – Tam Java Rehberi](./create-pdf-ua-compliant-document-complete-java-guide/)
+Java ve Aspose.Words for Java ile PDF/UA uyumlu belge oluşturmayı adım adım öğrenin.
 
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.

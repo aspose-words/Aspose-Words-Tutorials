@@ -95,13 +95,22 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
+Hướng dẫn nhanh cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học.
+
+### [Lưu docx dưới dạng txt với xuất công thức LaTeX – Hướng dẫn Java toàn diện](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu DOCX thành tệp TXT đồng thời xuất công thức toán học dưới dạng LaTeX bằng Aspose.Words for Java.
 
 ### [Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình chuyển đổi từ DOCX, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Tạo Tệp PDF/UA‑1 Tuân Thủ với Java – Hướng Dẫn Toàn Diện](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo tệp PDF/UA‑1 đáp ứng tiêu chuẩn truy cập bằng Aspose.Words for Java.
+
+### [Tạo tài liệu PDF/UA‑1 tuân thủ – Hướng dẫn Java toàn diện](./create-pdf-ua-compliant-document-complete-java-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/UA‑1 tuân thủ tiêu chuẩn truy cập bằng Aspose.Words for Java.
 
 ## Câu hỏi thường gặp
 

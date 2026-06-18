@@ -97,9 +97,13 @@ Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzu
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
 
 ### [Dokument als TXT speichern – Schnellleitfaden zum Exportieren von Word-Mathematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
+Erfahren Sie, wie Sie Word‑Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
+
+### [DOCX als TXT speichern mit LaTeX‑Mathematik‑Export – Vollständige Java‑Anleitung](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien als TXT speichern und mathematische Formeln im LaTeX‑Format exportieren – komplette Anleitung für Java.
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei mathematische Formeln in LaTeX‑Syntax exportieren.
 
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
@@ -109,6 +113,12 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konv
 
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+
+### [PDF/UA‑1‑konforme Datei mit Java erstellen – Komplettanleitung](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java PDF/UA‑1‑konforme PDFs erzeugen und Barrierefreiheitsstandards erfüllen.
+
+### [PDF/UA‑konformes Dokument erstellen – Vollständige Java‑Anleitung](./create-pdf-ua-compliant-document-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF/UA‑konformes Dokument erstellen und Barrierefreiheitsstandards erfüllen.
 
 ## Häufig gestellte Fragen
 

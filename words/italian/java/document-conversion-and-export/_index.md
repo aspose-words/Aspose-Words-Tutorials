@@ -98,6 +98,15 @@ Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi p
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
 
+### [Salva docx come txt con esportazione LaTeX delle equazioni – Guida completa Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Scopri come salvare file DOCX in TXT mantenendo le equazioni in formato LaTeX usando Aspose.Words per Java.
+
+### [Crea file PDF/UA‑1 conforme con Java – Guida completa](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Scopri come generare file PDF/UA‑1 conformi usando Aspose.Words per Java, con esempi passo‑passo e impostazioni di accessibilità.
+
+### [Crea documento PDF/UA conforme – Guida completa Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Scopri come generare documenti PDF/UA‑1 conformi con Aspose.Words per Java, passo passo, con esempi di codice.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

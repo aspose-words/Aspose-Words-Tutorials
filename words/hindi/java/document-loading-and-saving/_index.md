@@ -131,11 +131,14 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
 ### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
 
+### [जावा में भ्रष्ट DOCX को पुनर्प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./recover-corrupted-docx-in-java-complete-programming-guide/)
+
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
+
+### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को लॉग करें](./log-font-substitution-warnings-in-java-with-aspose-words/)
+जावा में Aspose.Words का उपयोग करके फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे कैप्चर और लॉग करें, इस चरण‑दर‑चरण गाइड में जानें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

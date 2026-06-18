@@ -81,7 +81,10 @@ Aprenda a criar e personalizar gráficos no Aspose.Words para Java. Explore tipo
 Desbloqueie o poder de equações matemáticas em documentos com Aspose.Words para Java. Aprenda a manipular e exibir objetos Office Math sem esforço.
 
 ### [Salvar Documento como TXT – Guia Rápido para Exportar Equações do Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Aprenda a salvar documentos Word como arquivos TXT preservando equações matemáticas usando Aspose.Words para Java.
+Aprenda a salvar documentos Word como arquivos TXT preservando equações matemáticas usando Aspose.Words for Java.
+
+### [Salvar docx como txt com exportação de matemática LaTeX – Guia completo em Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Aprenda a salvar arquivos DOCX como TXT preservando equações em LaTeX usando Aspose.Words for Java neste guia completo.
 
 ### [Usando Formas de Documento no Aspose.Words para Java](./using-document-shapes/)
 Desbloqueie o Poder das Formas de Documento no Aspose.Words para Java. Aprenda a criar documentos visualmente atraentes com exemplos passo a passo.
@@ -103,6 +106,12 @@ Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspo
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Criar Arquivo Compatível com PDF/UA‑1 usando Java – Guia Completo](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Aprenda a gerar arquivos PDF/UA‑1 totalmente compatíveis em Java usando Aspose.Words, com passo a passo detalhado.
+
+### [Criar documento PDF/UA compatível – Guia completo em Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Aprenda a criar documentos PDF/UA compatíveis em Java usando Aspose.Words, com instruções passo a passo e melhores práticas.
 
 ## Perguntas Frequentes
 

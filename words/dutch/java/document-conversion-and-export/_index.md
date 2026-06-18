@@ -92,6 +92,12 @@ Leer hoe je DOCX-bestanden eenvoudig naar PDF converteert met Aspose.Words for J
 ### [Maak Toegankelijke PDF van DOCX – Complete Gids](./create-accessible-pdf-from-docx-complete-guide/)
 Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, inclusief tags, structuur en leesbaarheid voor schermlezers.
 
+### [Maak PDF/UA‑1‑conforme bestand met Java – Complete gids](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Leer hoe je met Aspose.Words for Java een PDF/UA‑1‑conforme file maakt, inclusief toegankelijkheidsopties en validatie.
+
+### [PDF/UA‑conform document maken – Complete Java‑gids](./create-pdf-ua-compliant-document-complete-java-guide/)
+Leer hoe je met Aspose.Words for Java een PDF/UA‑conform document maakt, inclusief toegankelijkheidsinstellingen en validatie.
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
 
@@ -103,6 +109,9 @@ Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van D
 
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
+
+### [DOCX opslaan als TXT met LaTeX‑wiskunde‑export – Complete Java‑gids](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Leer hoe je een DOCX‑bestand opslaat als TXT en wiskundige formules exporteert naar LaTeX met Aspose.Words for Java.
 
 ## Veelgestelde Vragen
 
