@@ -23,7 +23,7 @@
 | [Μαθηματικές Εξισώσεις](./math-equations/) | Μάθετε πώς να ρυθμίζετε μαθηματικές εξισώσεις σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. Οδηγός βήμα προς βήμα με παραδείγματα, συχνές ερωτήσεις και πολλά άλλα. |
 | [Αποθήκευση docx ως txt – Εξαγωγή Word Math σε LaTeX με C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | Μάθετε πώς να μετατρέπετε αρχεία docx σε txt και να εξάγετε μαθηματικά Word σε LaTeX χρησιμοποιώντας C#. |
 | [Αποθήκευση Εγγράφου ως Txt – Εξαγωγή Μαθηματικών Word σε LaTeX σε C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | Μάθετε πώς να αποθηκεύετε έγγραφα ως αρχείο κειμένου και να εξάγετε μαθηματικά Word σε LaTeX χρησιμοποιώντας C#. |
-
+| [Πώς να Εξάγετε LaTeX από το Word – Πλήρης Οδηγός Προγραμματισμού](./how-to-export-latex-from-word-complete-programming-guide/) | Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET σε πλήρη βήμα-βήμα οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

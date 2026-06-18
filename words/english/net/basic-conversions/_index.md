@@ -37,6 +37,8 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [convert word to pdf in C# using Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Learn how to convert Word documents to PDF in C# using Aspose.Words. Step‑by‑step guide with code examples for developers. |
 | [Save Word as PDF with Aspose.Words – Complete C# Guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save Word documents as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
 | [save docx as pdf with Aspose.Words – Complete C# Guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save DOCX as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
+| [Save DOCX as PDF with Aspose.Words – Complete Step‑by‑Step Guide](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Learn how to save DOCX as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
+| [How to Mail Merge and Convert DOCX to PDF in C# – Complete Aspose Guide](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Learn how to perform mail merge and convert DOCX to PDF using Aspose.Words for .NET in C#. Detailed step‑by‑step guide with code examples. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

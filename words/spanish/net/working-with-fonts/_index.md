@@ -20,7 +20,7 @@ Los tutoriales de Procesamiento de palabras con fuentes lo guiarán a través de
 
 Los tutoriales ofrecen explicaciones detalladas paso a paso de cada función, junto con código fuente en C# para ilustrar los conceptos. Aprenderá a usar las clases y métodos de la biblioteca Aspose.Words para .NET para realizar tareas específicas relacionadas con las fuentes en sus documentos de Word.
 
-Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de sustitución de fuentes, cargar fuentes desde directorios específicos o recibir notificaciones de fuentes, los tutoriales "Procesamiento de textos con fuentes" le proporcionarán el conocimiento para realizar estas tareas con facilidad.
+Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de sustitución de fuentes, cargar fuentes desde directorios específicos o recibir notificaciones de fuentes, los tutoriales "Procesamiento de textos con fuentes" le proporcionaràn el conocimiento para realizar estas tareas con facilidad.
 
  ## Tutoriales
 | Título | Descripción |
@@ -53,6 +53,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Cómo capturar fuentes en Aspose.Words – Guía completa](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aprenda a capturar fuentes en documentos de Word usando Aspose.Words con esta guía paso a paso completa. |
 | [Cómo cargar DOCX y detectar fuentes faltantes – Guía completa en C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aprenda a cargar documentos DOCX y detectar fuentes faltantes usando Aspose.Words para .NET con esta guía paso a paso en C#. |
 | [Habilitar advertencias de sustitución de fuentes en Aspose.Words – Guía completa](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Aprenda a habilitar advertencias de sustitución de fuentes en Aspose.Words con esta guía completa paso a paso. |
+| [Manejar la sustitución de fuentes en Aspose.Words – Guía completa de programación](./handle-font-substitution-in-aspose-words-complete-programmin/) | Aprenda a gestionar la sustitución de fuentes en Aspose.Words con esta guía completa paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

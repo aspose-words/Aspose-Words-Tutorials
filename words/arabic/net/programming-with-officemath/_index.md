@@ -22,8 +22,8 @@
 | --- | --- |
 | [معادلات الرياضيات](./math-equations/) | تعلّم كيفية إعداد المعادلات الرياضية في مستندات Word باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة وأسئلة شائعة والمزيد. |
 | [حفظ ملف docx كملف txt – تصدير معادلات Word إلى LaTeX باستخدام C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | تعلّم كيفية حفظ مستندات docx كملفات txt وتصدير معادلات Word إلى تنسيق LaTeX باستخدام C#. |
-
 | [حفظ المستند كملف Txt – تصدير معادلات Word إلى LaTeX في C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | تعلم كيفية حفظ مستند Word كملف نصي وتصدير المعادلات إلى LaTeX باستخدام C# و Aspose.Words. |
+| [كيفية تصدير LaTeX من Word – دليل برمجة كامل](./how-to-export-latex-from-word-complete-programming-guide/) | تعلم كيفية تصدير معادلات LaTeX من مستندات Word باستخدام Aspose.Words و C# في دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

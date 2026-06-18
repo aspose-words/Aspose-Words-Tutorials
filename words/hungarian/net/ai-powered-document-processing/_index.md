@@ -42,6 +42,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
+| [Bekezdés újraírása AI-val C#-ban – Hogyan konfiguráljunk helyi LLM-et](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Ismerje meg, hogyan használhatja a helyi nagy nyelvi modellt a bekezdések AI-alapú újraírásához C#-ban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,6 +23,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Persamaan Matematika](./math-equations/) | Pelajari cara mengonfigurasi persamaan matematika dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh, Tanya Jawab Umum, dan banyak lagi. |
 | [Simpan docx sebagai txt – Ekspor Word Math ke LaTeX dengan C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | Pelajari cara menyimpan dokumen .docx sebagai file .txt dan mengekspor persamaan Word Math ke format LaTeX menggunakan C#. |
 | [Simpan Dokumen sebagai Txt – Ekspor Matematika Word ke LaTeX dalam C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | Pelajari cara menyimpan dokumen sebagai file txt dan mengekspor persamaan Word ke format LaTeX menggunakan C#. |
+| [Cara Mengekspor LaTeX dari Word – Panduan Pemrograman Lengkap](./how-to-export-latex-from-word-complete-programming-guide/) | Pelajari cara mengekspor persamaan LaTeX dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode lengkap. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
