@@ -13,7 +13,7 @@ Fedezz fel átfogó, lépésről lépésre bemutató útmutatókat a kép- és a
 
 ## Áttekintés
 
-Az Aspose.Words Python-net oktatóanyagok „Képek és alakzatok” kategóriája a fejlesztők számára készült, akik vizuális elemekkel szeretnék zökkenőmentesen bővíteni műszaki dokumentációjukat. Ezek az oktatóanyagok az Aspose.Words, egy sokoldalú dokumentumkezelő könyvtár robusztus funkcióinak kihasználására összpontosítanak, amely lehetővé teszi a képek és alakzatok hatékony integrálását a Word-fájlokba a Python-net használatával. Akár jelentéseket szeretne automatizálni, akár dinamikus prezentációkat létrehozni, akár egyszerűen csak vonzóbb tartalmat szeretne hozzáadni dokumentumaihoz, ezek az útmutatók lépésről lépésre bemutatják a pontosságot és a hatékonyságot. Az oktatóanyagokban vázolt technikák elsajátításával a fejlesztők javíthatják a dokumentumok esztétikáját és funkcionalitását, végső soron meggyőzőbb és vizuálisan vonzóbb műszaki dokumentációt készítve. A gyakorlati alkalmazásra összpontosítva ez a kategória felvértezi Önt a dokumentumautomatizálás és -kezelés valós kihívásainak kezeléséhez szükséges készségekkel.
+Az Aspose.Words Python-net oktatóanyagok „Képek és alakzatok” kategóriája a fejlesztők számára készült, akik vizuális elemekkel szeretnék zökkenőmentesen bővíteni műszaki dokumentációjukat. Ezek az oktatóanyagok az Aspose.Words, egy sokoldalú dokumentumkezelő könyvtár robusztus funkcióinak kihasználására összpontosítanak, amely lehetővé teszi a képek és alakzatok hatékony integrálását a Word-fájlokba a Python-net használatával. Akár jelentéseket szeretné automatizálni, akár dinamikus prezentációkat létrehozni, akár egyszerűen csak vonzóbb tartalmat szeretne hozzáadni dokumentumaihoz, ezek az útmutatók lépésről lépésre bemutatják a pontosságot és a hatékonyságot. Az oktatóanyagokban vázolt technikák elsajátításával a fejlesztők javíthatják a dokumentumok esztétikáját és funkcionalitását, végső soron meggyőzőbb és vizuálisan vonzóbb műszaki dokumentációt készítve. A gyakorlati alkalmazásra összpontosítva ez a kategória felvértezi Önt a dokumentumautomatizálás és -kezelés valós kihívásainak kezeléséhez szükséges készségekkel.
 
 ## Amit tanulni fogsz
 
@@ -36,6 +36,9 @@ Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python
 
 ### [Hogyan adjunk árnyékot C#-ban – Teljes programozási útmutató](./how-to-add-shadow-in-c-complete-programming-guide/)
 Ismerd meg, hogyan alkalmazhatsz árnyékhatást C#-ban az Aspose.Words segítségével, lépésről lépésre útmutató.
+
+### [Hogyan mentse el a dokumentumot árnyékolt téglalappal – Teljes Python útmutató](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Tanulja meg, hogyan menthet el egy Word dokumentumot árnyékolt téglalappal a Python‑net és az Aspose.Words segítségével.
 
 ## További források
 

@@ -37,6 +37,9 @@ Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. P
 ### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
 Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap ini.
 
+### [Cara Menyimpan Dokumen dengan Persegi Panjang Berbayangan – Panduan Python Lengkap](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Pelajari cara menyimpan dokumen Word dengan menambahkan persegi panjang berbayangan menggunakan Aspose.Words untuk Python.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)
