@@ -37,6 +37,9 @@ Tìm hiểu cách tối ưu hóa đầu ra SVG bằng Aspose.Words cho Python. H
 ### [Cách Thêm Bóng Đổ trong C# – Hướng Dẫn Lập Trình Đầy Đủ](./how-to-add-shadow-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng trong tài liệu Word bằng C# và Aspose.Words.
 
+### [Cách Lưu Tài Liệu với Hình Chữ Nhật Có Bóng Đổ – Hướng Dẫn Python Đầy Đủ](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Hướng dẫn chi tiết cách lưu tài liệu Word với hình chữ nhật có bóng đổ bằng Aspose.Words cho Python.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)

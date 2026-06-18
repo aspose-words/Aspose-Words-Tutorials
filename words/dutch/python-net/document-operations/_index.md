@@ -28,37 +28,43 @@ De categorie 'Documentbewerkingen' is speciaal ontwikkeld voor ontwikkelaars die
 Leer hoe u PDF's kunt bewerken met Aspose.Words voor Python. Converteer, bewerk en verwerk versleutelde documenten eenvoudig.
 
     ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
-Leer hoe u Microsoft Word (DOCX)-documenten kunt converteren naar vaste XAML-documenten met behulp van Aspose.Words voor Python. Zo zorgt u voor efficiënt resourcebeheer en een integer ontwerp.
+    Leer hoe u Microsoft Word (DOCX)-documenten kunt converteren naar vaste XAML-documenten met behulp van Aspose.Words voor Python. Zo zorgt u voor efficiënt resourcebeheer en een integer ontwerp.
 
     ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
-Leer hoe u RTF-documenten efficiënt laadt en UTF-8-codering detecteert met Aspose.Words voor Python. Verbeter de nauwkeurigheid van tekstverwerking in uw projecten.
+    Leer hoe u RTF-documenten efficiënt laadt en UTF-8-codering detecteert met Aspose.Words voor Python. Verbeter de nauwkeurigheid van tekstverwerking in uw projecten.
 
     ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
-Leer hoe u verbroken links in .chm-bestanden kunt herstellen met behulp van de krachtige Aspose.Words-bibliotheek. Verbeter de betrouwbaarheid van uw documenten en de gebruikerservaring met deze stapsgewijze handleiding.
+    Leer hoe u verbroken links in .chm-bestanden kunt herstellen met behulp van de krachtige Aspose.Words-bibliotheek. Verbeter de betrouwbaarheid van uw documenten en de gebruikerservaring met deze stapsgewijze handleiding.
 
     ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
-Leer hoe je Aspose.Words voor Python gebruikt om Word-documenten te converteren naar afzonderlijke HTML-pagina's met behulp van aangepaste callbacks. Perfect voor documentbeheer en webpublicatie.
+    Leer hoe je Aspose.Words voor Python gebruikt om Word-documenten te converteren naar afzonderlijke HTML-pagina's met behulp van aangepaste callbacks. Perfect voor documentbeheer en webpublicatie.
 
     ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
-Leer hoe u markdown-bestanden efficiënt kunt beheren en verwerken met de MarkdownLoadOptions-functie van Aspose.Words in Python. Verbeter uw documentworkflows met nauwkeurige controle over de opmaak.
+    Leer hoe u markdown-bestanden efficiënt kunt beheren en verwerken met de MarkdownLoadOptions-functie van Aspose.Words in Python. Verbeter uw documentworkflows met nauwkeurige controle over de opmaak.
 
     ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
-Leer hoe u Microsoft Word-documenten kunt laden, beheren en automatiseren met Aspose.Words in Python. Stroomlijn uw documentverwerkingstaken moeiteloos.
+    Leer hoe u Microsoft Word-documenten kunt laden, beheren en automatiseren met Aspose.Words in Python. Stroomlijn uw documentverwerkingstaken moeiteloos.
 
     ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
-Een codetutorial voor Aspose.Words Python-net
+    Een codetutorial voor Aspose.Words Python-net
 
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
-Leer hoe u kopniveaus kunt beperken en digitale handtekeningen kunt toepassen in XPS-documenten met Aspose.Words voor Python, waarmee u de beveiliging en navigatie van documenten verbetert.
+    Leer hoe u kopniveaus kunt beperken en digitale handtekeningen kunt toepassen in XPS-documenten met Aspose.Words voor Python, waarmee u de beveiliging en navigatie van documenten verbetert.
 
     ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
-Een codetutorial voor Aspose.Words Python-net
+    Een codetutorial voor Aspose.Words Python-net
 
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
-Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken.
+    Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken.
 
     ### [Herstel beschadigd DOCX – Open & laad Word-document](./recover-corrupted-docx-open-load-word-document/)
-Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
+    Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
+
+    ### [Herstel beschadigd DOCX – Complete gids met Aspose.Words voor Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+    Leer hoe u beschadigde DOCX-bestanden volledig kunt herstellen met Aspose.Words voor Python.
+
+    ### [Hoe DOCX-bestanden te herstellen in Python – Document laden met herstel via Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+    Leer hoe u beschadigde DOCX-bestanden kunt herstellen en laden met Aspose.Words in Python.
 
 ## Aanvullende bronnen
 
