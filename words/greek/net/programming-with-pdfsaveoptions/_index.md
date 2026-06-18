@@ -48,8 +48,11 @@
 | [Αποθήκευση docx ως pdf με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε βήμα προς βήμα πώς να μετατρέψετε αρχεία docx σε pdf χρησιμοποιώντας Aspose.Words με C#. |
 | [Δημιουργία προσβάσιμου PDF από Word με C# – Οδηγός βήμα προς βήμα](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Δημιουργία προσβάσιμου PDF σε C# – Εγχειρίδιο προσβασιμότητας PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα αρχεία PDF με το Aspose.Words για .NET, ακολουθώντας βήμα-βήμα οδηγίες. |
-| [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word, ακολουθώντας τα πρότυπα προσβασιμότητας, με πλήρη βήμα-βήμα οδηγό. |
+| [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word, ακολουθώντας τα πρότυπα προσβασιμότητας, με πλήρη βήμα‑βήμα οδηγό. |
 | [Δημιουργία προσβάσιμου PDF – Οδηγός βήμα‑προς‑βήμα για συμμόρφωση PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Μάθετε πώς να δημιουργήσετε PDF που πληρούν τα πρότυπα προσβασιμότητας PDF/UA με αναλυτικό βήμα‑βήμα οδηγό. |
+| [Πώς να εξάγετε PDF από Word με Aspose – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Μάθετε πώς να εξάγετε PDF από έγγραφο Word χρησιμοποιώντας Aspose, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
+| [Επισήμανση PDF για προσβασιμότητα σε C# – Πλήρης Οδηγός](./tag-pdf-for-accessibility-in-c-complete-guide/) | Μάθετε πώς να προσθέσετε ετικέτες προσβασιμότητας σε αρχεία PDF χρησιμοποιώντας C# με το Aspose.Words για .NET. |
+| [Αποθήκευση εγγράφου PDF με αντικατάσταση γραμματοσειράς σε C# – Πλήρης Οδηγός](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα PDF με αντικατάσταση γραμματοσειρών χρησιμοποιώντας Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

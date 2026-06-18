@@ -23,6 +23,7 @@ Samouczki Aspose.Words for .NET dotyczące przetwarzania słów za pomocą Offic
 | [Równania matematyczne](./math-equations/) | Dowiedz się, jak skonfigurować równania matematyczne w dokumentach Word za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku z przykładami, często zadawanymi pytaniami i nie tylko. |
 | [Zapisz docx jako txt – Eksportuj matematyczne elementy Word do LaTeX w C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | Dowiedz się, jak zapisać dokument docx jako plik txt i wyeksportować równania Word do formatu LaTeX przy użyciu C#. |
 | [Zapisz dokument jako Txt – Eksportuj równania Word do LaTeX w C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | Dowiedz się, jak zapisać dokument jako plik txt i wyeksportować równania Word do formatu LaTeX przy użyciu C#. |
+| [Jak wyeksportować równania z Worda do LaTeX – Kompletny przewodnik](./how-to-export-math-from-word-to-latex-complete-guide/) | Dowiedz się, jak w pełni wyeksportować równania matematyczne z dokumentów Word do formatu LaTeX przy użyciu C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
