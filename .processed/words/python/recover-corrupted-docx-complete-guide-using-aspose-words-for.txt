@@ -1,0 +1,7 @@
+Title: Recover Corrupted DOCX – Complete Guide Using Aspose.Words for Python
+Slug: recover-corrupted-docx-complete-guide-using-aspose-words-for
+Category: document-operations
+ProcessedDate: 2026-06-18T03:44:46.402039
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, export word to markdown, convert equations to latex, how to recover document, how to convert equations
+PRNumber: 206
