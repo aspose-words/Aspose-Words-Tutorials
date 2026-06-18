@@ -99,8 +99,17 @@ Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi D
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
+### [Simpan docx sebagai txt dengan Ekspor Matematika LaTeX – Panduan Lengkap Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Pelajari cara menyimpan file DOCX sebagai TXT sambil mengekspor persamaan LaTeX menggunakan Aspose.Words for Java.
+
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Buat File PDF/UA‑1 yang Mematuhi Standar dengan Java – Panduan Lengkap](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Panduan lengkap untuk menghasilkan file PDF/UA‑1 yang sesuai standar aksesibilitas menggunakan Aspose.Words for Java.
+
+### [Buat Dokumen PDF/UA yang Mematuhi Standar – Panduan Lengkap Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Pelajari cara membuat dokumen PDF/UA‑1 yang mematuhi standar aksesibilitas menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 
