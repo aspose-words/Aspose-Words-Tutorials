@@ -27,6 +27,7 @@ Of u nu rapporten moet genereren, aangepaste documenten moet maken, Word-documen
 | [Documentbestandsindeling detecteren](./detect-file-format/) | Leer hoe u documentbestandsindelingen kunt detecteren met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze handleiding. |
 | [Digitale handtekening detecteren in Word-document](./detect-document-signatures/) | Leer hoe u digitale handtekeningen in Word-documenten kunt detecteren met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [Verifieer gecodeerd Word-document](./verify-encrypted-document/) | Leer hoe u de encryptiestatus van een Word-document kunt verifiëren met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
+| [DOCX herstellen – Stapsgewijze handleiding voor beschadigde bestanden](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Leer hoe u beschadigde DOCX-bestanden kunt herstellen met een gedetailleerde, stap‑voor‑stap handleiding. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

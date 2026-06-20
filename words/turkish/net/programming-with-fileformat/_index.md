@@ -24,10 +24,10 @@ Raporlar oluşturmanız, özel belgeler oluşturmanız, Word belge görevlerini 
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
-| [Belge Dosya Biçimini Algıla](./detect-file-format/) | Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak belge dosya biçimlerini nasıl algılayacağınızı öğrenin.
-| [Word Belgesinde Dijital İmzayı Algıla](./detect-document-signatures/) | Aspose.Words for .NET'i kullanarak Word belgelerindeki dijital imzaların nasıl tespit edileceğini adım adım kılavuzumuzla öğrenin.
-| [Şifrelenmiş Word Belgesini Doğrula](./verify-encrypted-document/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesinin şifreleme durumunu nasıl doğrulayacağınızı öğrenin.
-
+| [Belge Dosya Biçimini Algıla](./detect-file-format/) | Bu kapsamlı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak belge dosya biçimlerini nasıl algılayacağınızı öğrenin. |
+| [Word Belgesinde Dijital İmzayı Algıla](./detect-document-signatures/) | Aspose.Words for .NET'i kullanarak Word belgelerindeki dijital imzaların nasıl tespit edileceğini adım adım kılavuzumuzla öğrenin. |
+| [Şifrelenmiş Word Belgesini Doğrula](./verify-encrypted-document/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesinin şifreleme durumunu nasıl doğrulayacağınızı öğrenin. |
+| [DOCX Kurtarma – Bozuk Dosyalar İçin Adım Adım Kılavuz](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Aspose.Words for .NET kullanarak bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

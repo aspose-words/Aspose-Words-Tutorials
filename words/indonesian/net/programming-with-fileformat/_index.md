@@ -27,7 +27,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Deteksi Format File Dokumen](./detect-file-format/) | Pelajari cara mendeteksi format file dokumen menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
 | [Mendeteksi Tanda Tangan Digital pada Dokumen Word](./detect-document-signatures/) | Pelajari cara mendeteksi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia:
 | [Verifikasi Dokumen Word yang Terenkripsi](./verify-encrypted-document/) | Pelajari cara memverifikasi status enkripsi dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
-
+| [Cara Memulihkan DOCX – Panduan Langkah-demi-Langkah untuk File Rusak](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

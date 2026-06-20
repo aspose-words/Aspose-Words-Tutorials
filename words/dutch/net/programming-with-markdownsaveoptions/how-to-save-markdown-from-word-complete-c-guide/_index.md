@@ -1,27 +1,26 @@
 ---
 category: general
-date: 2026-01-05
-description: Hoe markdown op te slaan vanuit een Word‑bestand met Aspose.Words. Leer
-  hoe je Word naar markdown converteert, wiskunde exporteert als LaTeX en een docx
-  in enkele minuten als markdown opslaat.
+date: 2026-04-21
+description: Leer hoe je markdown kunt opslaan vanuit een DOCX‑bestand met Aspose.Words.
+  Inclusief het converteren van docx naar markdown en het exporteren van vergelijkingen
+  als LaTeX.
 draft: false
 keywords:
 - how to save markdown
+- convert docx to markdown
 - convert word to markdown
-- how to export math
-- how to convert docx
-- save docx as markdown
+- how to export equations
+- save word as markdown
 language: nl
-og_description: Hoe je markdown opslaat vanuit een Word‑document met Aspose.Words.
-  Deze stapsgewijze tutorial laat zien hoe je Word naar markdown converteert, wiskunde
-  exporteert als LaTeX en docx opslaat als markdown.
+og_description: Hoe markdown op te slaan vanuit een Word‑document met Aspose.Words.
+  Stapsgewijze handleiding die het converteren van docx naar markdown en het exporteren
+  van vergelijkingen behandelt.
 og_title: Hoe Markdown vanuit Word op te slaan – Complete C#-gids
 tags:
 - Aspose.Words
 - C#
-- Markdown
-- LaTeX
-title: Hoe Markdown vanuit Word op te slaan – Complete C#‑gids
+- Markdown conversion
+title: Hoe Markdown vanuit Word op te slaan – Complete C#-gids
 url: /nl/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/
 ---
 
@@ -29,234 +28,209 @@ url: /nl/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe Markdown op te slaan vanuit Word – Complete C# Gids
+# Hoe Markdown op te slaan vanuit Word – Complete C#‑gids
 
-Heb je je ooit afgevraagd **hoe je markdown kunt opslaan** vanuit een Word‑document zonder die vervelende vergelijkingen te verliezen? Je bent niet de enige. Veel ontwikkelaars lopen tegen een muur aan wanneer ze **word naar markdown moeten converteren** terwijl ze Office Math behouden als LaTeX, vooral voor static‑site generators of documentatie‑pijplijnen.
+Heb je je ooit afgevraagd **hoe je markdown** uit een Word‑document kunt opslaan zonder die vervelende vergelijkingen te verliezen? Je bent niet de enige. In veel projecten—documentatiesites, statische blogs of zelfs interne wiki’s—moeten ontwikkelaars DOCX‑bestanden naar markdown converteren terwijl wiskunde behouden blijft. Het goede nieuws? Met Aspose.Words kun je dat in slechts een paar regels C# doen.
 
-In deze tutorial lopen we een schone, end‑to‑end oplossing door die laat zien **hoe je markdown kunt opslaan**, **hoe je wiskunde exporteert**, en zelfs hoe je **docx als markdown opslaat** on‑the‑fly. Tegen het einde heb je een kant‑klaar C#‑fragment dat `input.docx` neemt en een perfect geformatteerd `output.md`‑bestand produceert, compleet met LaTeX‑omsloten vergelijkingen.
+In deze tutorial lopen we stap voor stap door **docx naar markdown converteren**, laten we je zien **hoe je vergelijkingen exporteert** als LaTeX, en eindigen we met een schoon `.md`‑bestand dat je rechtstreeks in een static‑site generator kunt gebruiken. Geen externe scripts, geen handmatig kopiëren‑plakken—alleen pure code.
 
-> **Wat je zult leren**
-> * Installeer en verwijs naar Aspose.Words for .NET.  
-> * Laad een DOCX‑bestand (ja, **hoe je docx converteert**).  
-> * Configureer `MarkdownSaveOptions` om Office Math als LaTeX te exporteren.  
-> * Sla het resultaat op als een Markdown‑bestand (de kern van **hoe je markdown opslaat**).  
-> * Handhaaf veelvoorkomende valkuilen — ontbrekende lettertypen, niet‑ondersteunde vergelijkingen en grote documenten.
+## Wat je zult leren
 
-Geen poespas, alleen de feiten die je nodig hebt om vandaag aan de slag te gaan.
+- Vereisten en NuGet‑pakketten die je nodig hebt.  
+- Hoe je een Word‑document (`.docx`) laadt in C#.  
+- Het configureren van `MarkdownSaveOptions` zodat vergelijkingen LaTeX worden (`hoe je vergelijkingen exporteert`).  
+- Het opslaan van het resultaat als een markdown‑bestand (`word opslaan als markdown`).  
+- Veelvoorkomende valkuilen bij het **converteren van word naar markdown** en hoe je ze kunt vermijden.
 
----
-
-## Hoe Markdown op te slaan vanuit Word – Overzicht
-
-Voordat we in de code duiken, laten we duidelijk maken waarom dit belangrijk is. Markdown is de lingua franca van moderne documentatie, maar Word blijft het favoriete authoring‑tool in veel bedrijven. De kloof overbruggen betekent dat je je schrijvers tevreden kunt houden terwijl je schone, versie‑gecontroleerde Markdown naar static site generators, Git‑gebaseerde wikis of CI‑pijplijnen voedt. De sleutel is **hoe je wiskunde exporteert** correct; platte tekst verliest de structuur van vergelijkingen, maar LaTeX houdt ze leesbaar en renderbaar.
+Aan het einde van deze gids heb je een kant‑en‑klaar console‑applicatie die elk Word‑bestand omzet naar markdown met perfect weergegeven vergelijkingen.
 
 ---
+
+![Diagram dat de stroom van DOCX → Aspose.Words → Markdown‑bestand toont (hoe markdown op te slaan)](https://example.com/markdown-flow.png "voorbeeld van hoe markdown op te slaan")
 
 ## Vereisten
 
-- **.NET 6.0** of later (de API werkt zowel op .NET Core als .NET Framework).  
-- **Aspose.Words for .NET** – je kunt een gratis proefversie van de Aspose‑website halen of een NuGet‑pakket gebruiken: `Install-Package Aspose.Words`.  
-- Een **Word‑document** (`.docx`) dat minstens één Office Math‑object bevat.  
-- Een IDE naar keuze (Visual Studio, Rider of VS Code).  
+Voordat we beginnen, zorg dat je het volgende hebt:
 
-Dat is alles — geen extra bibliotheken, geen ingewikkelde command‑line tools.
+- .NET 6.0 SDK of later (de code werkt ook met .NET Framework, maar .NET 6 wordt aanbevolen).  
+- Visual Studio 2022 of VS Code met de C#‑extensie.  
+- Een actieve **Aspose.Words for .NET**‑licentie (je kunt beginnen met een gratis proefversie; de API werkt zonder licentie maar voegt een watermerk toe).  
+- Een voorbeeld‑Word‑document (`input.docx`) dat minstens één vergelijking bevat—bij voorkeur een OfficeMath‑object.
 
----
+Als een van deze onbekend klinkt, geen paniek. Het installeren van het NuGet‑pakket is zo eenvoudig als het uitvoeren van:
 
-## Stap 1: Installeer Aspose.Words en voeg Using‑directieven toe
-
-Zorg er eerst voor dat de Aspose.Words‑assembly is verwezen. Voer in de Package Manager Console uit:
-
-```powershell
-Install-Package Aspose.Words
+```bash
+dotnet add package Aspose.Words
 ```
 
-Voeg vervolgens de benodigde `using`‑statements toe aan de bovenkant van je C#‑bestand:
+Nu we klaar zijn, laten we de handen uit de mouwen steken.
+
+## Stap 1: Laad het bron‑Word‑document
+
+Het eerste wat je moet doen is het DOCX‑bestand in het geheugen laden. Dit is de basis van elke **convert docx to markdown**‑operatie.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+
+// Replace with the actual path on your machine
+string inputPath = @"C:\Projects\MarkdownExport\input.docx";
+
+// Load the document
+Document document = new Document(inputPath);
 ```
 
-> **Pro tip:** Als je een specifiek platform target (bijv. Linux‑containers), gebruik dan de `-Runtime`‑switch om de juiste native binaries op te halen.
+> **Waarom dit belangrijk is:** `Document` is het kernobjectmodel van Aspose.Words. Het parseert het Word‑bestand, lost stijlen op en bouwt een interne representatie die de saver later kan vertalen naar markdown. Het overslaan van deze stap of een verkeerd pad doorgeven resulteert in een `FileNotFoundException`.
 
----
+## Stap 2: Configureer Markdown‑opslaan‑opties (Exporteren van vergelijkingen als LaTeX)
 
-## Stap 2: Laad de DOCX die je wilt converteren (Hoe je DOCX converteert)
-
-Nu **converteer je docx** daadwerkelijk naar een in‑memory `Document`‑object. In deze stap vertel je Aspose.Words welk bestand gelezen moet worden.
+Out‑of‑the‑box kan Aspose.Words markdown genereren, maar vergelijkingen zijn een lastig beest. Standaard worden ze afbeeldingen, wat het doel van een schoon markdown‑bestand ondermijnt. Om **hoe je vergelijkingen exporteert** als LaTeX te doen, moet je de `MarkdownSaveOptions` aanpassen.
 
 ```csharp
-// Replace the path with your actual file location
-string inputPath = @"C:\Projects\Docs\input.docx";
-
-Document doc = new Document(inputPath);
-```
-
-Waarom houden we het bestand in het geheugen? Omdat we zo de opslaan‑opties kunnen aanpassen — zoals **hoe je wiskunde exporteert** — voordat we iets naar schijf schrijven. Het betekent ook dat je meerdere conversies kunt ketenen (bijv. DOCX → HTML → Markdown) zonder tijdelijke bestanden te beheren.
-
----
-
-## Stap 3: Configureer MarkdownSaveOptions (Converteer Word naar Markdown & Exporteer Wiskunde)
-
-Hier is het hart van **hoe je markdown opslaat**: we maken een `MarkdownSaveOptions`‑instantie aan en vertellen deze Office Math als LaTeX te renderen. De enum `OfficeMathExportMode.LaTeX` doet precies dat.
-
-```csharp
-MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+// Create save options for markdown
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Export all Office Math objects as LaTeX equations
+    // This tells Aspose.Words to render OfficeMath as LaTeX
     OfficeMathExportMode = OfficeMathExportMode.LaTeX,
 
-    // Optional: preserve original line breaks for better diff‑ability
+    // Optional: keep line breaks as they appear in Word
     ExportHeadersFooters = false,
-    ExportImagesAsBase64 = true
+    ExportDocumentStructure = true
 };
 ```
 
-Een paar opmerkingen:
+> **Pro‑tip:** Als je geen LaTeX nodig hebt en PNG‑afbeeldingen prima vindt, stel dan `OfficeMathExportMode = OfficeMathExportMode.Image`. Voor de meeste static‑site generators is LaTeX echter de nettere keuze.
 
-- **`OfficeMathExportMode.LaTeX`** is de aanbevolen modus voor static site generators die MathJax of KaTeX begrijpen.  
-- Het instellen van `ExportImagesAsBase64` houdt de markdown zelf‑containend — handig wanneer je het bestand naar een repo pusht die afbeeldingen niet apart host.  
-- Als je platte Unicode‑wiskunde nodig hebt, verwissel dan `LaTeX` voor `Unicode`.
+## Stap 3: Sla het document op als een markdown‑bestand
 
----
-
-## Stap 4: Sla het document op als Markdown (Sla DOCX op als Markdown)
-
-Tot slot schrijven we het Markdown‑bestand naar schijf. Dit is het letterlijke antwoord op **hoe je markdown opslaat** in C#.
+Nu schrijven we de markdown daadwerkelijk naar schijf. Dit is het moment waarop je eindelijk **word opslaat als markdown**.
 
 ```csharp
-string outputPath = @"C:\Projects\Docs\output.md";
+// Destination path for the markdown file
+string outputPath = @"C:\Projects\MarkdownExport\output.md";
 
-doc.Save(outputPath, mdOptions);
-Console.WriteLine($"✅ Markdown saved to {outputPath}");
+// Save using the configured options
+document.Save(outputPath, markdownOptions);
+
+Console.WriteLine($"✅ Successfully saved markdown to: {outputPath}");
 ```
 
-Wanneer je `output.md` opent, zie je reguliere Markdown‑syntaxis, en alle vergelijkingen verschijnen omsloten door `$…$` (inline) of `$$…$$` (display) blokken, klaar voor MathJax‑rendering.
-
-**Verwacht fragment** (ervan uitgaande dat de oorspronkelijke DOCX een eenvoudige vergelijking `a^2 + b^2 = c^2` bevatte):
+Wanneer je `output.md` opent, zie je gewone markdown‑tekst, en elke vergelijking verschijnt als volgt:
 
 ```markdown
-Here is a classic Pythagorean theorem:
-
-$$a^2 + b^2 = c^2$$
+$$
+\frac{a}{b} = c
+$$
 ```
 
-Als je bron‑document afbeeldingen bevat, worden deze ingebed als base‑64‑strings direct na de `![](...)`‑markup.
+Dat is pure LaTeX, klaar voor MathJax of KaTeX op je site.
 
----
+## Volledig werkend voorbeeld
 
-## Stap 5: Verifieer het resultaat en pas aan indien nodig
-
-Na de conversie open je het Markdown‑bestand in je favoriete editor (VS Code, Typora of zelfs GitHub‑preview). Controleer dat:
-
-1. Alle koppen (`#`, `##`, etc.) overeenkomen met de oorspronkelijke Word‑stijlen.  
-2. Vergelijkingen correct renderen — de meeste editors tonen de LaTeX‑code, terwijl browsers met MathJax de opgemaakte wiskunde tonen.  
-3. Afbeeldingen verschijnen waar verwacht.  
-
-Als er iets niet klopt, kun je de `MarkdownSaveOptions` aanpassen:
-
-| Optie | Wat het regelt | Typische aanpassing |
-|--------|------------------|----------------------|
-| `ExportHeadersFooters` | Opnemen van header/footer‑tekst | Zet op `true` als je ze nodig hebt |
-| `ExportImagesAsBase64` | Inline‑afbeeldingen vs. externe bestanden | Schakel uit (`false`) en geef een mappad op |
-| `ExportTableColumnHeaders` | Eerste rij als header behandelen | Inschakelen voor CSV‑achtige tabellen |
-
----
-
-## Veelvoorkomende valkuilen & randgevallen (Hoe je wiskunde veilig exporteert)
-
-### 1. Ontbrekende lettertypen of symbolen
-Als het Word‑bestand een aangepast lettertype voor symbolen gebruikt, kan Aspose.Words terugvallen op een standaard glyph, waardoor de LaTeX onleesbaar wordt. Oplossing? Installeer het ontbrekende lettertype op de machine die de conversie uitvoert, of embed het lettertype in de DOCX (`File → Options → Save → Embed fonts`).
-
-### 2. Zeer grote documenten
-Het verwerken van een DOCX van 200 pagina’s kan veel geheugen vragen. Overweeg `LoadOptions` met `LoadFormat.Docx` en `MemoryUsageSetting` te gebruiken om het bestand te streamen in plaats van het in één keer te laden.
+Alles bij elkaar, hier is het complete console‑programma dat je kunt kopiëren‑plakken in een nieuw .NET‑project:
 
 ```csharp
-LoadOptions loadOpts = new LoadOptions
-{
-    LoadFormat = LoadFormat.Docx,
-    MemoryUsageSetting = MemoryUsageSetting.MemoryOptimized
-};
-
-Document largeDoc = new Document(inputPath, loadOpts);
-```
-
-### 3. Niet‑ondersteunde vergelijkingseigenschappen
-Aspose.Words ondersteunt het merendeel van Office Math, maar een handvol nieuwere constructies (bijv. matrix‑haakjes met aangepaste delimiters) kunnen terugvallen op een platte‑tekstrepresentatie. In zulke gevallen kun je de Markdown post‑processen met een regex om tijdelijke aanduidingen te vervangen door de gewenste LaTeX.
-
----
-
-## Volledig werkend voorbeeld (Alle stappen in één bestand)
-
-Hieronder vind je een compleet, copy‑and‑paste‑klaar programma dat **hoe je markdown opslaat**, **hoe je docx converteert**, en **hoe je wiskunde exporteert** in één keer demonstreert.
-
-```csharp
-// ------------------------------------------------------------
-// How to Save Markdown from Word – Complete Example
-// ------------------------------------------------------------
 using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
+namespace WordToMarkdown
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Define input and output paths
-        string inputPath = @"C:\Projects\Docs\input.docx";
-        string outputPath = @"C:\Projects\Docs\output.md";
-
-        // 2️⃣ Load the DOCX (how to convert docx)
-        Document doc = new Document(inputPath);
-
-        // 3️⃣ Prepare Markdown options (convert word to markdown + how to export math)
-        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+        static void Main(string[] args)
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-            ExportHeadersFooters = false,
-            ExportImagesAsBase64 = true,
-            ExportTableColumnHeaders = true
-        };
+            // -------------------------------------------------
+            // 1️⃣ Load the source Word document (convert docx to markdown)
+            // -------------------------------------------------
+            string inputPath = @"C:\Projects\MarkdownExport\input.docx";
+            Document document = new Document(inputPath);
 
-        // 4️⃣ Save as Markdown (save docx as markdown)
-        doc.Save(outputPath, mdOptions);
+            // -------------------------------------------------
+            // 2️⃣ Configure markdown options (how to export equations)
+            // -------------------------------------------------
+            MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+            {
+                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                ExportHeadersFooters = false,
+                ExportDocumentStructure = true
+            };
 
-        Console.WriteLine($"✅ Successfully saved Markdown to: {outputPath}");
+            // -------------------------------------------------
+            // 3️⃣ Save as .md (save word as markdown)
+            // -------------------------------------------------
+            string outputPath = @"C:\Projects\MarkdownExport\output.md";
+            document.Save(outputPath, markdownOptions);
+
+            Console.WriteLine($"✅ Markdown file created at: {outputPath}");
+        }
     }
 }
 ```
 
-Voer het programma uit (`dotnet run` als je de .NET CLI gebruikt) en controleer `output.md`. Je zou schone Markdown met LaTeX‑vergelijkingen moeten zien, klaar voor elke static‑site generator.
+### Verwacht resultaat
 
----
+- **`output.md`** bevat platte markdown.  
+- Alle OfficeMath‑objecten worden gerenderd als LaTeX‑blokken.  
+- Afbeeldingen, tabellen en lijsten worden getrouw gereproduceerd.
 
-## Bonus: Het proces automatiseren voor meerdere bestanden
+Open het bestand met een markdown‑viewer die LaTeX ondersteunt (bijv. VS Code met de *Markdown+Math*‑extensie) en je ziet de vergelijkingen prachtig weergegeven.
 
-Heb je een map vol Word‑bestanden, wikkel dan de bovenstaande logica in een eenvoudige lus:
+## Veelgestelde vragen & randgevallen
+
+### Wat als mijn DOCX geen vergelijkingen bevat?
+
+De instelling `OfficeMathExportMode` wordt genegeerd en de saver gedraagt zich als een normale markdown‑export. Je krijgt nog steeds een schoon `.md`‑bestand.
+
+### Hoe ga ik om met aangepaste stijlen?
+
+Aspose.Words respecteert de ingebouwde Word‑stijlen standaard. Voor aangepaste stijlen moet je ze mogelijk handmatig mappen na export, of de `MarkdownSaveOptions` aanpassen door `CustomStyles` in te stellen (een geavanceerder onderwerp buiten deze gids).
+
+### Kan ik meerdere bestanden in één batch converteren?
+
+Absoluut. Plaats de laad‑/opsla‑logica in een `foreach`‑lus over een map met `.docx`‑bestanden. Zorg er wel voor dat elke output een unieke naam krijgt, bijvoorbeeld met `Path.GetFileNameWithoutExtension`.
 
 ```csharp
-string sourceFolder = @"C:\Projects\Docs\WordFiles";
-string targetFolder = @"C:\Projects\Docs\Markdown";
-
-foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
+foreach (var file in Directory.GetFiles(@"C:\Docs\", "*.docx"))
 {
-    string outFile = Path.Combine(targetFolder,
-        Path.GetFileNameWithoutExtension(file) + ".md");
-
     Document doc = new Document(file);
-    doc.Save(outFile, mdOptions);
-    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(outFile)}");
+    string mdPath = Path.ChangeExtension(file, ".md");
+    doc.Save(mdPath, markdownOptions);
 }
 ```
 
-Dat kleine fragment maakt **hoe je docx converteert** tot een batch‑operatie, perfect voor CI‑pijplijnen die documentatie bij elke commit moeten publiceren.
+### Werkt dit op Linux/macOS?
+
+Ja. Aspose.Words is cross‑platform en dezelfde code draait onder .NET 6 op Linux of macOS. Pas alleen de bestandspaden aan naar schuine strepen of gebruik `Path.Combine`.
+
+### Wat als het document erg groot is (honderden pagina’s)?
+
+De bibliotheek streamt het document, zodat het geheugenverbruik redelijk blijft. Zeer grote bestanden kunnen echter enkele seconden duren om te verwerken—niets wat je niet kunt opvangen met een eenvoudige voortgangsindicator.
+
+## Tips & tricks uit de praktijk
+
+- **Pro‑tip:** Schakel `ExportHeadersFooters` uit als je geen header/footer‑tekst in je markdown wilt hebben.  
+- **Let op:** Ingebedde lettertypen in vergelijkingen. Als de LaTeX‑output er vreemd uitziet, controleer dan of de oorspronkelijke Word‑vergelijking standaard‑symbolen gebruikt.  
+- **Meestal:** De standaard `ExportDocumentStructure`‑vlag behoudt de hiërarchie van koppen (`#`, `##`, etc.), waardoor de markdown klaar is voor een inhoudsopgave.  
+- **Vaak:** Na conversie kun je een linter zoals *markdownlint* draaien om vreemde spaties of inconsistente kopniveaus op te sporen.
+
+## Volgende stappen
+
+Nu je weet **hoe je markdown opslaat** vanuit Word, kun je verder gaan met:
+
+- **Docx naar markdown** converteren voor een volledige documentatierespository (batch‑verwerking).  
+- De conversie integreren in een CI‑pipeline zodat elke PR automatisch markdown‑bronnen bijwerkt.  
+- Andere Aspose.Words‑opslaan‑opties gebruiken, zoals `HtmlSaveOptions`, als je een hybride HTML/markdown‑workflow nodig hebt.  
+
+Ben je benieuwd naar meer geavanceerde scenario’s—zoals het behouden van opmerkingen, het verwerken van revisies, of het aanpassen van afbeeldingsafhandeling—bekijk dan de officiële Aspose‑documentatie of de community‑forums. Daar vind je talloze voorbeelden die aansluiten bij wat we hier behandeld hebben.
 
 ---
 
-## Conclusie
+### TL;DR
 
-We hebben alles behandeld wat je moet weten over **hoe je markdown opslaat** vanuit een Word‑document met behulp van Aspose.Words for .NET. Door de bovenstaande stappen te volgen kun je **convert
+We hebben een eenvoudige C#‑snippet getoond die **word naar markdown converteert**, de exporter configureert om **hoe je vergelijkingen exporteert** als LaTeX, en tenslotte **word opslaat als markdown**. Met slechts drie stappen—laden, configureren, opslaan—kun je de transformatie van elk DOCX‑bestand automatiseren naar schone markdown die klaar is voor static‑site generators.
+
+Probeer het, pas de opties naar eigen smaak aan, en laat de markdown stromen. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

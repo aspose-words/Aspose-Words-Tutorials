@@ -28,7 +28,7 @@
 | [Jpeg पेज रेंज प्राप्त करें](./get-jpeg-page-range/) | .NET के लिए Aspose.Words का उपयोग करके कस्टम सेटिंग्स के साथ Word दस्तावेज़ों के विशिष्ट पृष्ठों को JPEG में बदलें। चरण-दर-स्टेप चमक, कंट्रास्ट और रिज़ॉल्यूशन को समायोजित करना सीखें। |
 | [पेज सेविंग कॉलबैक](./page-saving-callback/) | हमारे विस्तृत, चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ के प्रत्येक पृष्ठ को एक अलग PNG छवि के रूप में सहेजना सीखें। |
 | [Word को PNG में बदलते समय DPI सेट करना – पूर्ण C# गाइड](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलते समय DPI कैसे सेट करें, इस पूर्ण गाइड में सीखें। |
-
+| [Word को PNG में बदलते समय रिज़ॉल्यूशन सेट करना – पूर्ण गाइड](./how-to-set-resolution-when-converting-word-to-png-complete-g/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PNG में बदलते समय रिज़ॉल्यूशन कैसे सेट करें, इस पूर्ण गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
