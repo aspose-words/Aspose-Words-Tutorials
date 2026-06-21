@@ -40,6 +40,8 @@
 | [Πώς να ανακτήσετε docx – ορίστε λειτουργία ανάκτησης & ανοίξτε κατεστραμμένα αρχεία Word](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Μάθετε πώς να ενεργοποιήσετε τη λειτουργία ανάκτησης και να ανοίξετε κατεστραμμένα αρχεία Word με το Aspose.Words για .NET. |
 | [Πώς να χρησιμοποιήσετε το LoadOptions στο Aspose.Words – Πλήρης Οδηγός](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Μάθετε πώς να χρησιμοποιείτε το LoadOptions στο Aspose.Words με πλήρη οδηγό βήμα προς βήμα. |
 | [Ανάκτηση Κατεστραμμένου Εγγράφου σε C# – Ορισμός Λειτουργίας Ανάκτησης & Ειδοποίηση Χρήστη](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# ορίζοντας λειτουργία ανάκτησης και εμφανίζοντας προτροπή στον χρήστη. |
+| [Ανάκτηση κατεστραμμένου docx με Aspose.Words – Πλήρης Οδηγός Βήμα‑βήμα](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία docx χρησιμοποιώντας Aspose.Words με πλήρη βήμα‑βήμα οδηγία. |
+| [Ενεργοποίηση προειδοποιήσεων αντικατάστασης γραμματοσειράς σε C# με Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Μάθετε πώς να ενεργοποιήσετε προειδοποιήσεις όταν γίνεται αντικατάσταση γραμματοσειρών σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,7 @@ Nhờ các hướng dẫn này, bạn sẽ có thể khai thác đầy đủ cá
 | [Sử dụng ký tự khoảng trắng cho mỗi cấp độ để thụt lề danh sách](./use-space-character-per-level-for-list-indentation/) | Tìm hiểu cách tạo danh sách nhiều cấp với thụt lề ký tự khoảng trắng trong Aspose.Words cho .NET. Hướng dẫn từng bước để định dạng tài liệu chính xác. |
 | [Lưu tài liệu dưới dạng TXT – Hướng dẫn C# đầy đủ để chuyển DOCX sang văn bản thuần](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang tệp TXT bằng C# trong Aspose.Words cho .NET. |
 | [Lưu file docx thành txt – Hướng dẫn nhanh cho lập trình viên C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Hướng dẫn nhanh cách chuyển đổi tài liệu docx sang định dạng txt trong C# bằng Aspose.Words. |
+| [Cách xuất LaTeX từ Word – Hướng dẫn đầy đủ để xuất LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Hướng dẫn chi tiết cách xuất tài liệu Word sang định dạng LaTeX bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

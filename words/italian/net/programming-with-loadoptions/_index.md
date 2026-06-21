@@ -31,7 +31,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Carica con codifica nel documento Word](./load-with-encoding/) | Scopri come caricare un documento Word con una codifica specifica utilizzando Aspose.Words per .NET. Guida passo passo con spiegazioni dettagliate. |
 | [Salta le immagini PDF](./skip-pdf-images/) | Scopri come ignorare le immagini durante il caricamento di documenti PDF utilizzando Aspose.Words per .NET. Segui questa guida passo passo per un'estrazione di testo impeccabile. |
 | [Convertire Metafile in PNG](./convert-metafiles-to-png/) | Converti facilmente i metafile in PNG nei documenti Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Semplifica la gestione dei tuoi documenti. |
-| [Carica file CHM nel documento Word](./load-chm/) | Carica facilmente file CHM in documenti Word utilizzando Aspose.Words per .NET con questo tutorial passo passo. Perfetto per consolidare la tua documentazione tecnica. |
+| [Carica file CHM nel documento Word](./load-chm/) | Carica facilmente file CHM in documenti Word utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetto per consolidare la tua documentazione tecnica. |
 | [Come recuperare un docx con Aspose.Words – passo passo](./how-to-recover-docx-with-aspose-words-step-by-step/) | Scopri come ripristinare documenti docx corrotti usando Aspose.Words per .NET con questa guida dettagliata passo passo. |
 | [Recupera documento Word con Aspose.Words in C#](./recover-word-document-with-aspose-words-in-c/) | Scopri come recuperare documenti Word danneggiati usando Aspose.Words per .NET in C# con questa guida passo passo. |
 | [Aspose Load Options – Carica DOCX con impostazioni di font personalizzate](./aspose-load-options-load-docx-with-custom-font-settings/) | Scopri come caricare file DOCX specificando impostazioni di font personalizzate con Aspose Load Options. |
@@ -41,6 +41,8 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Aspose Load Options – Carica DOCX con impostazioni di font personalizzate](./aspose-load-options-load-docx-with-custom-font-settings/) | Scopri come caricare file DOCX specificando impostazioni di font personalizzate con Aspose Load Options. |
 | [Come utilizzare LoadOptions in Aspose.Words – Guida completa](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Scopri come utilizzare LoadOptions in Aspose.Words per .NET con questa guida completa passo passo. |
 | [Recupera documento corrotto in C# – Imposta modalità di recupero e avvisa l'utente](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Scopri come recuperare documenti corrotti in C# impostando la modalità di recupero e mostrando un prompt all'utente. |
+| [Recupera docx corrotto con Aspose.Words – Guida completa passo‑passo](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Scopri come recuperare file DOCX corrotti usando Aspose.Words per .NET con una guida completa passo passo. |
+| [Abilita avvisi di sostituzione dei font in C# con Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Scopri come abilitare gli avvisi di sostituzione dei font in C# usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

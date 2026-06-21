@@ -50,6 +50,8 @@ Aspose.Words for .NET 教程“使用 PdfSaveOptions 进行文字处理”将引
 | [在 C# 中创建可访问的 PDF – PDF 可访问性教程](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) 通过本分步指南了解如何使用 Aspose.Words for .NET 在 C# 中生成符合可访问性标准的 PDF 文档。|
 | [从 Word 创建可访问的 PDF – 完整指南](./create-accessible-pdf-from-word-complete-guide/) | 了解如何使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，包括标签、替代文本和文档结构等。|
 | [创建可访问的 PDF – PDF/UA 合规的分步指南](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) 通过本分步指南了解如何使用 Aspose.Words for .NET 创建符合 PDF/UA 标准的可访问 PDF 文档。|
+| [使用 Aspose.Words 将 DOCX 转换为 PDF – 完整编程指南](./convert-docx-to-pdf-with-aspose-words-complete-programming-g/) | 通过本完整指南，使用 Aspose.Words 将 DOCX 文档转换并保存为 PDF，涵盖代码示例和最佳实践。|
+| [从 DOCX 创建可访问的 PDF – 完整编程指南](./create-accessible-pdf-from-docx-complete-programming-guide/) 通过本完整编程指南，使用 Aspose.Words for .NET 将 DOCX 文档转换为符合可访问性标准的 PDF，涵盖代码示例和最佳实践。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

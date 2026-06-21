@@ -29,7 +29,7 @@ Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro 
 | [Použijte mezeru na úroveň pro odsazení seznamu](./use-space-character-per-level-for-list-indentation/) | Naučte se, jak v Aspose.Words pro .NET vytvářet víceúrovňové seznamy s odsazením mezer. Podrobný návod pro přesné formátování dokumentů. |
 | [Uložení dokumentu jako TXT – Kompletní průvodce C# pro převod DOCX na prostý text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Naučte se, jak pomocí Aspose.Words pro .NET převést soubory DOCX do formátu TXT pomocí kompletního C# průvodce. |
 | [Uložení docx jako txt – Rychlý průvodce pro vývojáře C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Naučte se rychle převést soubory DOCX do formátu TXT pomocí Aspose.Words pro .NET v C#. |
-
+| [Jak exportovat LaTeX z Wordu – Kompletní průvodce exportem LaTeXu](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Naučte se, jak pomocí Aspose.Words pro .NET exportovat dokumenty Word do formátu LaTeX pomocí podrobného průvodce. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
