@@ -34,6 +34,10 @@ Dengan menguasai otomatisasi kata menggunakan Aspose.Words untuk Python, pengemb
 ## Tutorial Otomatisasi Kata dalam Python
 ### [Otomatisasi Kata Menjadi Mudah](./word-automation-made-easy/)
 Otomatiskan pemrosesan kata dengan mudah menggunakan Aspose.Words untuk Python. Buat, format, dan manipulasi dokumen secara terprogram. Tingkatkan produktivitas sekarang!
+### [Ganti teks docx dengan Python – Panduan Langkah‑demi‑Langkah Lengkap](./replace-text-docx-with-python-full-step-by-step-guide/)
+Pelajari cara mengganti teks dalam file DOCX menggunakan Python secara lengkap dengan contoh kode langkah demi langkah.
+### [Cara Menggunakan Aspose untuk Mengotomatisasi Koreksi Tata Bahasa di Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Pelajari cara menggunakan Aspose untuk secara otomatis memperbaiki tata bahasa dalam dokumen menggunakan Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

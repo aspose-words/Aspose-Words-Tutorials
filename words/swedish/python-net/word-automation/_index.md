@@ -35,6 +35,12 @@ Genom att bemästra ordautomation med hjälp av Aspose.Words för Python kan utv
 ### [Ordautomatisering gjort enkelt](./word-automation-made-easy/)
 Automatisera ordbehandling enkelt med Aspose.Words för Python. Skapa, formatera och manipulera dokument programmatiskt. Öka produktiviteten nu!
 
+### [Ersätt text i docx med Python – Fullständig steg‑för‑steg‑guide](./replace-text-docx-with-python-full-step-by-step-guide/)
+Lär dig hur du ersätter text i DOCX-filer med Python med en detaljerad steg‑för‑steg‑guide.
+
+### [Hur du använder Aspose för att automatisera grammatikkorrigering i Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Lär dig automatisera grammatikkorrigering i dina dokument med Aspose och Python för förbättrad textkvalitet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

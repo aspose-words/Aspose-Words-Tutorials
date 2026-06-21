@@ -35,6 +35,12 @@
 ### [Автоматизация Word стала проще](./word-automation-made-easy/)
 Автоматизируйте обработку Word с легкостью с помощью Aspose.Words для Python. Создавайте, форматируйте и управляйте документами программно. Повысьте производительность прямо сейчас!
 
+### [Заменить текст в docx с помощью Python – Полное пошаговое руководство](./replace-text-docx-with-python-full-step-by-step-guide/)
+Полное руководство по замене текста в файлах docx с помощью Aspose.Words для Python. Пошаговые инструкции и примеры кода.
+
+### [Как использовать Aspose для автоматизации исправления грамматики в Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Узнайте, как автоматизировать проверку и исправление грамматики в документах с помощью Aspose.Words для Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

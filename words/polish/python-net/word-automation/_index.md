@@ -35,12 +35,16 @@ Opanowując automatyzację słów za pomocą Aspose.Words for Python, programiś
 ### [Łatwa automatyzacja słów](./word-automation-made-easy/)
 Zautomatyzuj przetwarzanie tekstu z łatwością, korzystając z Aspose.Words dla Pythona. Twórz, formatuj i manipuluj dokumentami programowo. Zwiększ produktywność już teraz!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Zastąp tekst w docx przy użyciu Pythona – Pełny przewodnik krok po kroku](./replace-text-docx-with-python-full-step-by-step-guide/)
+Dowiedz się, jak programowo zamienić tekst w plikach docx przy użyciu Aspose.Words for Python w kilku prostych krokach.
 
+### [Jak używać Aspose do automatyzacji korekty gramatycznej w Pythonie](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Dowiedz się, jak automatycznie poprawiać błędy gramatyczne w dokumentach przy użyciu Aspose.Words w Pythonie.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

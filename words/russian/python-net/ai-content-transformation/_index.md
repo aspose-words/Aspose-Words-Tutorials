@@ -28,6 +28,9 @@
 ### [Резюмирование и перевод ИИ на Python: руководство по Aspose.Words и OpenAI](./ai-summarization-translation-aspose-openai-python/)
 Узнайте, как автоматизировать реферирование и перевод ИИ с помощью Aspose.Words для Python и OpenAI. Это руководство охватывает настройку, реализацию и практическое применение.
 
+### [Создание резюме документа на Python – Полное руководство с использованием Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Подробное руководство по созданию резюме документа в Python с помощью AI функций Aspose.Words.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

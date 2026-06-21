@@ -28,6 +28,9 @@ Dans le domaine en constante évolution de l'intelligence artificielle, transfor
 ### [Synthèse et traduction de l'IA en Python : Aspose.Words et guide OpenAI](./ai-summarization-translation-aspose-openai-python/)
 Apprenez à automatiser la synthèse et la traduction d'IA avec Aspose.Words pour Python et OpenAI. Ce guide couvre la configuration, la mise en œuvre et les applications pratiques.
 
+### [Créer un résumé de document Python – Guide complet utilisant l'IA d'Aspose.Words](./create-document-summary-python-full-guide-using-aspose-words/)
+Apprenez à générer automatiquement des résumés de documents avec Aspose.Words et l'IA en Python.
+
 ## Ressources supplémentaires
 
 - [Aspose.Words pour la documentation Python-net](https://docs.aspose.com/words/python-net/)

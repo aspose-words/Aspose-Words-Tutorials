@@ -35,10 +35,25 @@ Bằng cách làm chủ việc chuyển đổi tài liệu với Aspose.Words fo
 Học chuyển đổi tài liệu Python với Aspose.Words for Python. Chuyển đổi, thao tác và tùy chỉnh tài liệu dễ dàng. Tăng năng suất ngay!
 
 ### [Cách lưu Markdown từ Word – Hướng dẫn Python đầy đủ](./how-to-save-markdown-from-word-complete-python-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words cho Python.
 
 ### [Khôi phục DOCX bị hỏng & Chuyển Word sang Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
-Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words for Python.
+Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words cho Python.
+
+### [Lưu docx thành markdown với công thức LaTeX – Hướng dẫn Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang Markdown, bảo toàn công thức LaTeX bằng Aspose.Words cho Python.
+
+### [Lưu Word thành PDF với Aspose.Words – Hướng dẫn Python đầy đủ](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
+
+### [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn lập trình đầy đủ](./create-accessible-pdf-from-word-complete-programming-guide/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho Python.
+
+### [Xuất docx thành markdown – Hướng dẫn đầy đủ từng bước](./export-docx-as-markdown-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất tệp DOCX thành Markdown bằng Aspose.Words cho Python.
+
+### [Tạo lưới PNG từ tài liệu Word – Hướng dẫn chi tiết từng bước](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Hướng dẫn chi tiết cách tạo lưới PNG từ tài liệu Word bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
