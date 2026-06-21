@@ -88,6 +88,9 @@ Aspose.Words for Java ile etkili belge dönüştürmeyi öğrenin. Dosyaları so
 ### [Exporting Documents to PDF](./exporting-documents-to-pdf/)
 Aspose.Words for Java kullanarak belgeleri PDF'ye dışa aktarmayı öğrenin. Bu adım‑adım kılavuz, sorunsuz belge dönüşümü için süreci basitleştirir.
 
+### [Aspose Kullanımı: Java’da DOCX’i PDF’e Dönüştürme – Tam Kılavuz](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
+Java’da Aspose.Words kullanarak DOCX dosyalarını PDF formatına dönüştürmenin adım adım tam rehberi.
+
 ### [Converting Documents to Different Formats](./converting-documents-different-formats/)
 Aspose.Words for Java ile belgeleri farklı formatlara dönüştürmeyi öğrenin. Verimli belge dönüşümü için adım‑adım rehber.
 
@@ -99,6 +102,12 @@ Aspose.Words for Java ile DOCX'i EPUB'a verimli bir şekilde dönüştürün. Ka
 
 ### [Converting Documents to Images](./converting-documents-images/)
 Aspose.Words for Java kullanarak Word belgelerini görüntülere dönüştürmeyi öğrenin. Kod örnekleri ve SSS bölümüyle adım‑adım rehber.
+
+### [docx'i markdown'a dönüştür – Tam Adım‑Adım Kılavuz](./convert-docx-to-markdown-complete-step-by-step-guide/)
+Aspose.Words for Java kullanarak DOCX dosyalarını markdown formatına dönüştürmeyi adım adım öğrenin.
+
+### [docx'i markdown'a dönüştür – Tam Kılavuz](./convert-docx-to-markdown-complete-guide/)
+Aspose.Words for Java ile DOCX dosyalarını markdown formatına eksiksiz ve adım adım dönüştürmeyi öğrenin.
 
 ## Sıkça Sorulan Sorular
 

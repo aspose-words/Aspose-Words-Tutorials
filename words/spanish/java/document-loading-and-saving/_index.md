@@ -114,9 +114,13 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Determinando el formato de documento en Aspose.Words for Java](./determining-document-format/)
 
-### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide/)
+
+### [Recuperar docx corrupto en Java – Guía completa](./recover-corrupted-docx-in-java-complete-guide/)
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Cómo establecer una devolución de llamada en Aspose.Words Java – Detectar y manejar fuentes faltantes](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
 
 ## Preguntas frecuentes
 

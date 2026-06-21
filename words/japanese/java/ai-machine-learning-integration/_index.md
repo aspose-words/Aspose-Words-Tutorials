@@ -75,6 +75,10 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
 
+### [Java で Word ドキュメントを要約する – 完全ステップバイステップガイド](./summarize-word-document-in-java-complete-step-by-step-guide/)
+
+Java と Aspose.Words を使って、Word 文書を自動要約する手順を詳しく解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

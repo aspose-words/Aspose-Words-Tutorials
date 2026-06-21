@@ -68,6 +68,9 @@ Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o in
 ### [Domina el procesamiento de texto en Java: Usando Aspose.Words y modelos de IA para resumir y traducir](./java-aspose-words-text-processing/)
 Aprende a automatizar la resumición y traducción de texto usando Aspose.Words para Java con GPT‑4 de OpenAI y Gemini de Google. Mejora tus aplicaciones Java hoy.
 
+### [Resumir documento Word en Java – Guía completa paso a paso](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Aprende a extraer y resumir automáticamente el contenido de archivos DOCX usando Aspose.Words para Java y modelos de IA.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

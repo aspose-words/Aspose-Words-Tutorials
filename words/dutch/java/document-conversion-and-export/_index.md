@@ -89,6 +89,9 @@ Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tek
 ### [Aspose Word naar PDF – DOCX naar PDF converteren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Leer hoe je DOCX-bestanden eenvoudig naar PDF converteert met Aspose.Words for Java in één regel code.
 
+### [Document opslaan als PDF – Complete Aspose.Words-gids](./save-document-as-pdf-complete-aspose-words-guide/)
+Leer hoe je met Aspose.Words for Java een document volledig naar PDF opslaat, inclusief opties voor kwaliteit en beveiliging.
+
 ### [Maak Toegankelijke PDF van DOCX – Complete Gids](./create-accessible-pdf-from-docx-complete-guide/)
 Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, inclusief tags, structuur en leesbaarheid voor schermlezers.
 
@@ -101,8 +104,17 @@ Leer hoe je DOCX-bestanden omzet naar Markdown en wiskundige vergelijkingen expo
 ### [Hoe afbeeldingen inbedden in Markdown bij het converteren van DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van DOCX met Aspose.Words for Java.
 
+### [Word opslaan als Markdown in Java – Complete gids](./save-word-as-markdown-in-java-complete-guide/)
+Leer hoe je een Word‑document opslaat als Markdown met Aspose.Words for Java in deze volledige gids.
+
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
+
+### [Create PDF UA with Aspose.Words – Complete Guide](./create-pdf-ua-with-aspose-words-complete-guide/)
+Leer hoe u PDF/UA (toegankelijke PDF) maakt met Aspose.Words voor Java, inclusief instellingen voor toegankelijkheid en validatie.
+
+### [Set Pages Per Sheet in Word to PNG Conversion – Complete Guide](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Leer hoe je het aantal pagina's per vel instelt bij het converteren van Word‑documenten naar PNG‑afbeeldingen met Aspose.Words for Java.
 
 ## Veelgestelde Vragen
 

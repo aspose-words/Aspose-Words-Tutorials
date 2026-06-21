@@ -95,14 +95,26 @@ Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java
 ### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
 
+### [Salvar Word como Markdown em Java – Guia Completo](./save-word-as-markdown-in-java-complete-guide/)
+Aprenda a converter documentos Word para Markdown em Java usando Aspose.Words, com exemplos de código e opções avançadas.
+
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
+
+### [Salvar Documento como PDF – Guia Completo do Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Aprenda a salvar documentos em PDF usando Aspose.Words for Java, cobrindo opções avançadas e boas práticas em um guia completo.
+
+### [Criar PDF UA com Aspose.Words – Guia Completo](./create-pdf-ua-with-aspose-words-complete-guide/)
+Aprenda a gerar PDFs compatíveis com o padrão PDF/UA usando Aspose.Words para Java, garantindo acessibilidade completa.
 
 ### [Como Incorporar Imagens em Markdown ao Converter DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words for Java.
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Definir Páginas por Folha na Conversão de Word para PNG – Guia Completo](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Aprenda a configurar o número de páginas por folha ao converter documentos Word em imagens PNG usando Aspose.Words for Java.
 
 ## Perguntas Frequentes
 

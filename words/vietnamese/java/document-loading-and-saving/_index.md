@@ -107,7 +107,7 @@ Học cách lưu tài liệu HTML với bố cục cố định trong Aspose.Wor
 Trong tutorial này, chúng tôi đã đề cập đến các tùy chọn lưu HTML nâng cao với Aspose.Words for Java. Những tùy chọn này cho phép bạn tạo HTML chất lượng cao.
 
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
-Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
+Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
 
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
 Học cách chuyển đổi tài liệu Word sang Markdown với Aspose.Words for Java. Hướng dẫn chi tiết này bao gồm căn chỉnh bảng, xử lý hình ảnh và các yếu tố khác.
@@ -133,7 +133,12 @@ Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words f
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
 
+### [Cách thiết lập callback trong Aspose.Words Java – Phát hiện và Xử lý phông chữ bị thiếu](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Học cách thiết lập callback để phát hiện và xử lý các phông chữ thiếu khi tải tài liệu bằng Aspose.Words cho Java.
+
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Khôi phục docx bị hỏng trong Java – Hướng dẫn toàn diện](./recover-corrupted-docx-in-java-complete-guide/)
 
 ## Câu Hỏi Thường Gặp
 

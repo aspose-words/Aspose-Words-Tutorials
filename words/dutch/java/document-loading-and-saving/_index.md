@@ -135,6 +135,12 @@ Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer D
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Beschadigde docx herstellen in Java – Complete gids](./recover-corrupted-docx-in-java-complete-guide/)
+Leer hoe je beschadigde DOCX‑bestanden kunt repareren en verwerken met Aspose.Words for Java.
+
+### [Hoe een callback instellen in Aspose.Words Java – Ontbrekende lettertypen detecteren en afhandelen](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Leer hoe je een callback configureert om ontbrekende lettertypen te detecteren en af te handelen in Aspose.Words for Java.
+
 ## Veelgestelde vragen
 
 **Q:** Hoe kan ik programmatisch **save images from word** documenten opslaan?  

@@ -104,6 +104,18 @@ Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
 
+### [Enregistrer Word au format Markdown en Java – Guide complet](./save-word-as-markdown-in-java-complete-guide/)
+Apprenez à convertir des documents Word en Markdown avec Aspose.Words for Java, étape par étape.
+
+### [Enregistrer le document au format PDF – Guide complet Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Apprenez à enregistrer un document Word en PDF avec Aspose.Words for Java, incluant les options avancées et la conformité PDF/A.
+
+### [Créer un PDF UA avec Aspose.Words – Guide complet](./create-pdf-ua-with-aspose-words-complete-guide/)
+Apprenez à générer des PDF conformes à l’UA (Universal Accessibility) avec Aspose.Words en suivant ce guide complet.
+
+### [Définir le nombre de pages par feuille lors de la conversion Word en PNG dans Aspose.Words pour Java – Guide complet](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Apprenez à configurer le nombre de pages par feuille lors de la conversion de documents Word en images PNG avec Aspose.Words for Java.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  
