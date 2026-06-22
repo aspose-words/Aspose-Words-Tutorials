@@ -116,6 +116,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Recuperar docx corrupto con Aspose.Words – Guía completa Java](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## Preguntas frecuentes

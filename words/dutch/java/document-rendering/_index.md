@@ -39,6 +39,8 @@ Leer hoe u uw documenten kunt verfraaien met vormen en afbeeldingen met Aspose.W
 Ontdek hoe u efficiënt documenten kunt printen en renderen met Aspose.Words voor Java. Leer stap voor stap met broncodevoorbeelden.
 ### [Documenten naar HTML renderen](./rendering-documents-html/)
 Leer hoe u moeiteloos documenten naar HTML kunt renderen met Aspose.Words voor Java. Stapsgewijze handleiding voor efficiënte documentconversie.
+### [Ontdek ontbrekende lettertypen in Java met Aspose.Words – Complete gids](./find-missing-fonts-in-java-with-aspose-words-complete-guide/)
+Leer hoe u ontbrekende lettertypen in Java kunt vinden met Aspose.Words. Stapsgewijze handleiding met codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

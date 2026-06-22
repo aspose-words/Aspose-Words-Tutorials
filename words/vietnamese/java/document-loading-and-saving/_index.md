@@ -135,6 +135,8 @@ Học cách phát hiện định dạng tài liệu trong Java với Aspose.Word
 
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Recover corrupted docx with Aspose.Words – Complete Java Guide](./recover-corrupted-docx-with-aspose-words-complete-java-guide/)
+
 ## Câu Hỏi Thường Gặp
 
 **Hỏi:** Làm thế nào để **lưu hình ảnh từ Word** một cách lập trình?  
