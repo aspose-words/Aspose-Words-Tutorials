@@ -60,6 +60,9 @@
 ### [กู้ไฟล์ DOCX ที่เสียหาย – เปิดและโหลดเอกสาร Word](./recover-corrupted-docx-open-load-word-document/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและเปิดโหลดด้วย Aspose.Words สำหรับ Python-net
 
+### [กู้ไฟล์ DOCX ที่เสียหาย – คู่มือฉบับสมบูรณ์ในการเปิดไฟล์ Word ด้วย Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและเปิดไฟล์ Word ด้วย Aspose.Words สำหรับ Python‑net อย่างครบถ้วน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

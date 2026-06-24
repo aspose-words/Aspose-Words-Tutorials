@@ -33,10 +33,21 @@
 ## Εκπαιδευτικά σεμινάρια μετατροπής εγγράφων Python
 ### [Μετατροπή εγγράφων Python - Ο πλήρης οδηγός](./python-document-conversion/)
 Μάθετε μετατροπή εγγράφων Python με το Aspose.Words για Python. Μετατρέψτε, χειριστείτε και προσαρμόστε έγγραφα χωρίς κόπο. Αυξήστε την παραγωγικότητα τώρα!
+
 ### [Πώς να αποθηκεύσετε Markdown από το Word – Πλήρης οδηγός Python](./how-to-save-markdown-from-word-complete-python-guide/)
 Μάθετε πώς να αποθηκεύσετε περιεχόμενο Word ως Markdown χρησιμοποιώντας Aspose.Words για Python. Ο πλήρης οδηγός.
+
 ### [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+
+### [Αποθήκευση Word ως Markdown – Πλήρης Οδηγός με Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Μάθετε πώς να αποθηκεύσετε αρχεία Word ως Markdown χρησιμοποιώντας το Aspose.Words για Python. Ο πλήρης οδηγός.
+
+### [Αποθήκευση docx ως pdf με Aspose.Words – Οδηγός βήμα‑βήμα](./save-docx-as-pdf-with-aspose-words-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε pdf χρησιμοποιώντας Aspose.Words για Python, με αναλυτικά βήματα και δείγματα κώδικα.
+
+### [Εξαγωγή Word σε Markdown – Πλήρης Οδηγός με Εξαγωγή Εικόνων σε Python](./export-word-to-markdown-full-guide-with-image-extraction-in/)
+Μάθετε πώς να εξάγετε έγγραφα Word σε Markdown με εξαγωγή εικόνων χρησιμοποιώντας Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
