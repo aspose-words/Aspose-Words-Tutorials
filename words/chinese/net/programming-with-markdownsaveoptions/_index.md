@@ -25,7 +25,7 @@
 | [设置图像文件夹](./set-images-folder/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown 文档，并保持表格对齐。请遵循我们详细的指南，以获得完美的结果。|
 | [如何使用 Markdown：将 DOCX 转换为带 LaTeX 方程的 Markdown](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) 使用 Aspose.Words for .NET 将 DOCX 文档转换为包含 LaTeX 方程的 Markdown，提供完整示例和步骤。|
 | [将 docx 转换为 markdown – 步骤详解 C# 指南](./convert-docx-to-markdown-step-by-step-c-guide/) 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，提供完整示例和分步指南。|
-| [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，包含 LaTeX 方程，提供完整示例和分步指南。|
+| [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，包含 LaTeX 方程，提供完整的 C# 示例和分步指南。|
 | [如何导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) 使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 方程导出为 Markdown，提供完整示例和步骤。|
 | [将 Word 转换为 Markdown – 将图像嵌入为 Base64](./convert-word-to-markdown-embed-images-as-base64/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并将图像嵌入为 Base64 编码，确保文档自包含。|
 | [如何将 Markdown 从 Word 保存 – 完整 C# 指南](./how-to-save-markdown-from-word-complete-c-guide/) 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和步骤指南。|
@@ -69,6 +69,14 @@
 ### [将 Word 转换为 markdown – 完整 C# 指南（含图像提取）](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和详细步骤指南。
+
+### [保存 docx 为 markdown – 完整指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-guide-with-latex-equations/)
+
+使用 Aspose.Words for .NET 将 docx 文档保存为 markdown，包含 LaTeX 方程，提供完整的 C# 示例和详细指南。
+
+### [自定义图像文件夹导出 Markdown（含图像） – 完整指南](./custom-image-folder-for-export-markdown-with-images-complete/)
+
+使用 Aspose.Words for .NET 将 Word 文档导出为 Markdown，并将图像保存到自定义文件夹，提供完整的 C# 示例和步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

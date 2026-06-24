@@ -29,6 +29,7 @@
 | [Используйте пробел на каждом уровне для отступа списка](./use-space-character-per-level-for-list-indentation/) | Узнайте, как создавать многоуровневые списки с отступом в виде пробела в Aspose.Words для .NET. Пошаговое руководство по точному форматированию документов. |
 | [Сохранить документ как TXT – Полное руководство C# по конвертации DOCX в простой текст](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Узнайте, как сохранять документы Word в формате TXT с помощью Aspose.Words для .NET и C#. |
 | [Сохранить docx как txt – Быстрое руководство для разработчиков C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Узнайте, как быстро сохранить документ DOCX в формате TXT с помощью Aspose.Words для .NET на C#. |
+| [Как экспортировать LaTeX из Word – Полное руководство по экспорту LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Узнайте, как экспортировать документы Word в формат LaTeX с помощью Aspose.Words для .NET, следуя пошаговым инструкциям и примерам кода. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

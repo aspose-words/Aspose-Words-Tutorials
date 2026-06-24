@@ -28,6 +28,7 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Définir la version de MS Word](./set-ms-word-version/) | Découvrez comment définir les versions de MS Word avec Aspose.Words pour .NET grâce à notre guide détaillé. Idéal pour les développeurs souhaitant simplifier la manipulation de leurs documents. |
 | [Utiliser le dossier temporaire dans un document Word](./use-temp-folder/) | Apprenez à améliorer les performances de vos applications .NET en utilisant un dossier temporaire lors du chargement de documents Word avec Aspose.Words. |
 | [Rappel d'avertissement dans un document Word](./warning-callback/) | Découvrez comment détecter et gérer les avertissements dans les documents Word avec Aspose.Words pour .NET grâce à notre guide étape par étape. Assurez un traitement fiable des documents. |
+| [Activer les avertissements de substitution de police en C# avec Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Apprenez à activer les avertissements de substitution de police lors du chargement de documents Word avec Aspose.Words en C#. |
 | [Charger avec codage dans un document Word](./load-with-encoding/) | Apprenez à charger un document Word avec un encodage spécifique grâce à Aspose.Words pour .NET. Guide étape par étape avec explications détaillées. |
 | [Ignorer les images PDF](./skip-pdf-images/) | Apprenez à ignorer les images lors du chargement de documents PDF avec Aspose.Words pour .NET. Suivez ce guide étape par étape pour une extraction de texte fluide. |
 | [Convertir les métafichiers en PNG](./convert-metafiles-to-png/) | Convertissez facilement des métafichiers au format PNG dans vos documents Word avec Aspose.Words pour .NET grâce à ce tutoriel étape par étape. Simplifiez la gestion de vos documents. |
@@ -40,6 +41,7 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Comment récupérer un docx – définir le mode de récupération et ouvrir des fichiers Word corrompus](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Apprenez à activer le mode de récupération et à ouvrir des fichiers Word corrompus avec Aspose.Words pour .NET. |
 | [Comment utiliser LoadOptions dans Aspose.Words – Guide complet](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Apprenez à exploiter pleinement LoadOptions avec Aspose.Words grâce à ce guide complet, étape par étape. |
 | [Récupérer un document corrompu en C# – Définir le mode de récupération et inviter l'utilisateur](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Apprenez à récupérer un document Word corrompu en C# en configurant le mode de récupération et en demandant à l'utilisateur. |
+| [Récupérer un docx corrompu avec Aspose.Words – Guide complet étape par étape](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Apprenez à récupérer un fichier DOCX corrompu avec Aspose.Words grâce à un guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

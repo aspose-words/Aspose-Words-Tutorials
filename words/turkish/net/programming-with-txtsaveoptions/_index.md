@@ -29,6 +29,7 @@ Bu eğitimler sayesinde, Aspose.Words for .NET'in işlevselliklerinden tam olara
 | [Liste Girintisi İçin Seviye Başına Boşluk Karakteri Kullan](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET'te boşluk karakteri girintili çok seviyeli listelerin nasıl oluşturulacağını öğrenin. Hassas belge biçimlendirmesi için adım adım kılavuz. |
 | [Belgeyi TXT Olarak Kaydet – DOCX'i Düz Metne Dönüştürmek İçin Tam C# Kılavuzu](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aspose.Words for .NET kullanarak DOCX dosyalarını düz metin (TXT) formatına dönüştürmeyi adım adım gösteren kapsamlı C# rehberi. |
 | [docx'i txt olarak kaydet – C# geliştiricileri için hızlı rehber](./save-docx-as-txt-quick-guide-for-c-developers/) | C# ile docx dosyalarını txt formatına hızlıca dönüştürmeyi gösteren adım adım rehber. |
+| [Word'den LaTeX'e Aktarma – LaTeX Aktarımı İçin Tam Kılavuz](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX formatına nasıl dönüştüreceğinizi adım adım gösteren kapsamlı rehber. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

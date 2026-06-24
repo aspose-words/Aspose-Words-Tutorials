@@ -34,24 +34,23 @@
 
 ### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมสมการ LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
-### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
-
-### [วิธีส่งออก Markdown จาก Word – คู่มือเต็ม C#](./how-to-export-markdown-from-word-complete-c-guide/)
-เรียนรู้ขั้นตอนการส่งออกไฟล์ Word เป็น Markdown อย่างครบถ้วนด้วย C+
+### [บันทึก docx เป็น markdown – คู่มือเต็ม C# พร้อมการสกัดรูปภาพ](./save-docx-as-markdown-full-c-guide-with-image-extracti/)
 
 ### [วิธีบันทึก Markdown จาก DOCX – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็ม C#](./how-to-export-markdown-from-docx-complete-guide/)
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+
 ### [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 ### [แปลง Word เป็น Markdown – ฝังรูปภาพเป็น Base64](./convert-word-to-markdown-embed-images-as-base64/)
 เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown พร้อมฝังรูปภาพเป็น Base64 ด้วย Aspose.Words สำหรับ .NET
+
 ### [วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับเต็ม](./how-to-save-markdown-from-word-complete-c-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือเต็ม](./how-to-save-markdown-from-word-complete-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีส่งออก LaTeX: แปลง DOCX เป็น Markdown และ TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
@@ -63,7 +62,12 @@
 ### [บันทึกรูปภาพ Word – แปลง Word เป็น Markdown ด้วย Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [โฟลเดอร์รูปภาพกำหนดเองสำหรับการส่งออก Markdown พร้อมรูปภาพ – คู่มือเต็ม](./custom-image-folder-for-export-markdown-with-images-complete/)
+ตั้งค่าโฟลเดอร์รูปภาพที่กำหนดเองเมื่อส่งออกเป็น Markdown พร้อมการฝังรูปภาพ – คำแนะนำครบถ้วน
+
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+
+### [บันทึก docx เป็น markdown – คู่มือเต็มพร้อมสมการ LaTeX](./save-docx-as-markdown-complete-guide-with-latex-equations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

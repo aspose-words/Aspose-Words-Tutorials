@@ -28,8 +28,8 @@
 | [Χρήση χαρακτήρα Tab ανά επίπεδο για εσοχή λίστας](./use-tab-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή με στηλοθέτες χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε αυτόν τον οδηγό για ακριβή μορφοποίηση λιστών στα έγγραφά σας. |
 | [Χρήση κενού διαστήματος ανά επίπεδο για εσοχή λίστας](./use-space-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή διαστήματος στο Aspose.Words για .NET. Οδηγός βήμα προς βήμα για ακριβή μορφοποίηση εγγράφων. |
 | [Αποθήκευση εγγράφου ως TXT – Πλήρης οδηγός C# για μετατροπή DOCX σε απλό κείμενο](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε κείμενο TXT χρησιμοποιώντας το Aspose.Words για .NET με πλήρη παράδειγμα C#. |
-
 | [Αποθήκευση docx ως txt – Γρήγορος οδηγός για προγραμματιστές C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt γρήγορα χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
+| [Πώς να εξάγετε LaTeX από το Word – Πλήρης οδηγός εξαγωγής LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό βήμα-βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

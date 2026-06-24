@@ -28,6 +28,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [MS Word-Version festlegen](./set-ms-word-version/) | Erfahren Sie in unserer ausführlichen Anleitung, wie Sie MS Word-Versionen mit Aspose.Words für .NET festlegen. Ideal für Entwickler, die die Dokumentbearbeitung optimieren möchten. |
 | [Temp-Ordner im Word-Dokument verwenden](./use-temp-folder/) | Erfahren Sie, wie Sie die Leistung Ihrer .NET-Anwendungen verbessern, indem Sie beim Laden von Word-Dokumenten mit Aspose.Words einen temporären Ordner verwenden. |
 | [Warnrückruf im Word-Dokument](./warning-callback/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Warnungen in Word-Dokumenten erfassen und behandeln. Sorgen Sie für eine robuste Dokumentverarbeitung. |
+| [Font-Substitutionswarnungen in C# mit Aspose.Words aktivieren](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Erfahren Sie, wie Sie in Aspose.Words für .NET Warnungen bei Schriftart-Substitutionen aktivieren und behandeln. |
 | [Mit Kodierung in Word-Dokument laden](./load-with-encoding/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einer bestimmten Kodierung laden. Schritt-für-Schritt-Anleitung mit ausführlichen Erklärungen. |
 | [PDF-Bilder überspringen](./skip-pdf-images/) | Erfahren Sie, wie Sie beim Laden von PDF-Dokumenten mit Aspose.Words für .NET Bilder überspringen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine nahtlose Textextraktion. |
 | [Metadateien in PNG konvertieren](./convert-metafiles-to-png/) | Konvertieren Sie Metadateien in Word-Dokumenten mit Aspose.Words für .NET ganz einfach in PNG – mit dieser Schritt-für-Schritt-Anleitung. Vereinfachen Sie Ihre Dokumentenverwaltung. |
@@ -40,6 +41,7 @@ In diesen Tutorials lernen Sie, wie Sie mit LoadOptions Word-Dokumente mit benut
 | [Word-Dokument mit Aspose.Words in C# wiederherstellen](./recover-word-document-with-aspose-words-in-c/) | Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words in C# wiederherstellen. |
 | [Wie man LoadOptions in Aspose.Words verwendet – Komplettanleitung](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Erfahren Sie, wie Sie LoadOptions in Aspose.Words umfassend einsetzen, um Dokumente flexibel zu laden und zu konfigurieren. |
 | [Beschädigtes Dokument in C# wiederherstellen – Wiederherstellungsmodus festlegen & Benutzer auffordern](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Erfahren Sie, wie Sie beschädigte Dokumente in C# mit Aspose.Words wiederherstellen, den Wiederherstellungsmodus aktivieren und den Benutzer informieren. |
+| [Beschädigtes DOCX mit Aspose.Words wiederherstellen – Komplett‑Anleitung Schritt für Schritt](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words Schritt für Schritt vollständig wiederherstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
