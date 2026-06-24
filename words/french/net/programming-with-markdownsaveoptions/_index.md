@@ -71,6 +71,8 @@ Apprenez à enregistrer un document Word au format Markdown avec un guide comple
 
 ### [Convertir Word en Markdown en C# – Guide complet avec extraction d'images](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
+### [Télécharger des images vers CDN dans la conversion DOCX en Markdown – Guide complet](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

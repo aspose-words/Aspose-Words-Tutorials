@@ -42,6 +42,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
+| [Tutorial LLM local – Cómo llamar a un LLM local y ejecutar una corrección gramatical](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Aprenda a integrar un LLM local con Aspose.Words para .NET y realizar correcciones gramaticales en sus documentos. |
+| [Crear informe de resumen en C# – Guía completa paso a paso](./create-summary-report-in-c-complete-step-by-step-guide/) | Aprenda a generar informes resumidos en C# con Aspose.Words, siguiendo una guía detallada paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Tạo PDF có thể truy cập trong C# – Hướng dẫn truy cập PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập, bao gồm thẻ, cấu trúc và nội dung cho người dùng khuyết tật bằng Aspose.Words cho .NET. |
 | [Tạo PDF có khả năng truy cập từ Word – Hướng dẫn đầy đủ](./create-accessible-pdf-from-word-complete-guide/) | Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập từ tài liệu Word bằng Aspose.Words cho .NET. |
 | [Tạo PDF có thể truy cập – Hướng dẫn từng bước để tuân thủ PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn PDF/UA để đảm bảo khả năng truy cập cho mọi người. |
+| [Tạo tệp PDF/UA tuân thủ từ Word – Hướng dẫn xuất đầy đủ](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Hướng dẫn đầy đủ cách tạo tệp PDF/UA tuân thủ tiêu chuẩn từ tài liệu Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

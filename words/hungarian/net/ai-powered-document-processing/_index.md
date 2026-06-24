@@ -38,10 +38,12 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
  ## Mesterséges intelligencia által vezérelt dokumentumfeldolgozási oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [AI-modell használata](./working-with-ai-model/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et dokumentumok mesterséges intelligencia segítségével történő összefoglalására. Egyszerű lépések a dokumentumkezelés fejlesztéséhez.
+| [AI-modell használata](./working-with-ai-model/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et dokumentumok mesterséges intelligencia segítségével történő összefoglalására. Egyszerű lépések a dokumentumkezelés fejlesztéséhez. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
+| [Helyi LLM oktatóanyag – Hogyan hívj meg egy helyi LLM-et és futtass helyesírás-ellenőrzést](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Tanulja meg, hogyan használhat helyi LLM-et a szöveg helyesírás-ellenőrzésére az Aspose.Words for .NET segítségével. |
+| [Összegző jelentés létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-summary-report-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre összegző jelentést C#‑ban az Aspose.Words for .NET segítségével, részletes, lépésről‑lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
