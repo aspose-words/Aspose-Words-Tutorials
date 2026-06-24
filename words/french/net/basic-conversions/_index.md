@@ -35,6 +35,7 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Enregistrer un PDF au format Jpeg](./pdf-to-jpeg/) | Convertissez facilement des PDF en JPEG avec Aspose.Words pour .NET. Suivez notre guide détaillé avec exemples et FAQ. Idéal pour les développeurs et les passionnés. |
 | [Enregistrer un PDF au format Word (Docx)](./pdf-to-docx/) | Découvrez comment convertir un PDF en document Word (Docx) avec Aspose.Words pour .NET grâce à ce guide détaillé, étape par étape. Idéal pour les développeurs. |
 | [Convertir Word en PDF en C# avec Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Apprenez à convertir un document Word en PDF en C# avec Aspose.Words grâce à ce guide étape par étape. |
+| [Créer un PDF à partir de DOCX en C# – Guide étape par étape](./create-pdf-from-docx-in-c-step-by-step-guide/) | Apprenez à générer un PDF à partir d'un fichier DOCX en C# avec Aspose.Words, guide complet pas à pas. |
 | [Comment exporter LaTeX depuis Word – Guide étape par étape](./how-to-export-latex-from-word-step-by-step-guide/) | Apprenez à exporter le contenu d'un document Word au format LaTeX avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

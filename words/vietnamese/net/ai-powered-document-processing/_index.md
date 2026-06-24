@@ -42,6 +42,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
 | [Làm việc với mô hình AI mở](./working-with-open-ai-model/) | Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay. |
 | [Làm việc với tùy chọn tóm tắt](./working-with-summarize-options/) | Học cách tóm tắt tài liệu Word hiệu quả bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi về cách tích hợp các mô hình AI để có thông tin chi tiết nhanh chóng. |
+| [Hướng dẫn LLM cục bộ – Cách gọi LLM cục bộ và chạy kiểm tra ngữ pháp](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Hướng dẫn cách gọi LLM cục bộ và thực hiện kiểm tra ngữ pháp bằng Aspose.Words. |
+| [Tạo báo cáo tóm tắt bằng C# – Hướng dẫn chi tiết từng bước](./create-summary-report-in-c-complete-step-by-step-guide/) | Hướng dẫn toàn diện tạo báo cáo tóm tắt tài liệu bằng C# với Aspose.Words, từng bước cụ thể và dễ hiểu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

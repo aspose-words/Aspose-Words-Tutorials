@@ -25,7 +25,7 @@ Apakah Anda ingin memformat teks dengan font yang berbeda, mengatur aturan pengg
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Pemformatan Font](./font-formatting/) | Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci. Bahasa Indonesia:
+| [Pemformatan Font](./font-formating/) | Pelajari cara memformat font dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang terperinci. Bahasa Indonesia:
 | [Dapatkan Spasi Baris Font](./get-font-line-spacing/) | Pelajari cara mendapatkan spasi baris font menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang. Bahasa Indonesia:
 | [Periksa Efek Teks DrawingML](./check-drawingml-text-effect/) Pelajari cara memeriksa efek teks DrawingML dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah kami. Sempurnakan dokumen Anda dengan mudah. Bahasa Indonesia:
 | [Mengatur Pemformatan Font](./set-font-formatting/) | Pelajari cara mengatur format font dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah terperinci kami untuk meningkatkan otomatisasi dokumen Anda. Bahasa Indonesia:
@@ -51,8 +51,8 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Dapatkan Substitusi Tanpa Sufiks](./get-substitution-without-suffixes/) | Dalam tutorial ini, pelajari cara mendapatkan penggantian tanpa sufiks dalam dokumen Word dengan Aspose.Words untuk .NET. |
 | [Cara Mendeteksi Font di Aspose.Words – Menangani Peringatan & Pengaturan](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Pelajari cara mendeteksi font, menangani peringatan, dan mengatur pengaturan font dalam Aspose.Words untuk .NET. |
 | [Cara Memuat DOCX dan Mendeteksi Font yang Hilang – Panduan Lengkap C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Pelajari cara memuat file DOCX dan mendeteksi font yang hilang menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
-
 | [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Pelajari cara menangkap font yang digunakan dalam dokumen Word dengan Aspose.Words melalui panduan lengkap langkah demi langkah. |
+| [Cara Menggunakan IWarningCallback – Mendeteksi Font yang Hilang dengan Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Pelajari cara menggunakan IWarningCallback untuk mendeteksi font yang hilang dalam dokumen Word dengan Aspose.Words. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
 | [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
+| [Buat laporan ringkasan dalam C# – Panduan Langkah‑per‑Langkah Lengkap](./create-summary-report-in-c-complete-step-by-step-guide/) | Pelajari cara membuat laporan ringkasan menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Tutorial LLM Lokal – Cara Memanggil LLM Lokal dan Menjalankan Pemeriksaan Tata Bahasa](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Pelajari cara mengintegrasikan LLM lokal dengan Aspose.Words untuk .NET dan melakukan pemeriksaan tata bahasa secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
