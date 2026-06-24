@@ -72,7 +72,13 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [將 docx 轉換為 markdown – 使用 Aspose.Words 匯出數學方程式至 LaTeX](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
+### [將 DOCX 轉換為 Markdown – 完整指南與數學匯出](./convert-docx-to-markdown-complete-guide-with-math-export/)
+
+### [Convert docx to markdown – Complete Java Guide](./convert-docx-to-markdown-complete-java-guide/)
+
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+
+### [將 docx 轉換為 PDF – 完整步驟指南](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 
@@ -85,6 +91,12 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 ### [如何在將 DOCX 轉換為 Markdown 時嵌入圖像](./how-to-embed-images-in-markdown-when-converting-docx/)
 
 ### [從 DOCX 建立可存取 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
+
+### [從 DOCX 建立可存取 PDF – 完整步驟指南](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+
+### [將 docx 儲存為 markdown：使用 Aspose.Words 轉換 docx 為 markdown](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+
+### [如何從 Word 儲存 PNG – 完整步驟指南](./how-to-save-png-from-word-complete-step-by-step-guide/)
 
 ## 常見問題
 

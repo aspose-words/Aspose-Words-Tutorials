@@ -41,6 +41,9 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Rinominare i campi di unione di parole con Aspose.Words per Java](./rename-word-merge-fields-aspose-words-java/)
 Un tutorial sul codice per Aspose.Words Java
 
+### [Crea modello di stampa unione e converti DOCX in PDF in C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Scopri come creare un modello di stampa unione e convertire file DOCX in PDF utilizzando Aspose.Words per C#.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

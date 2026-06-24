@@ -89,20 +89,37 @@ Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tek
 ### [Aspose Word naar PDF – DOCX naar PDF converteren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Leer hoe je DOCX-bestanden eenvoudig naar PDF converteert met Aspose.Words for Java in één regel code.
 
+### [DOCX naar PDF converteren in Java – Complete stap‑voor‑stap gids](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Leer hoe je DOCX‑bestanden naar PDF converteert in Java met een volledige stap‑voor‑stap handleiding.
+
 ### [Maak Toegankelijke PDF van DOCX – Complete Gids](./create-accessible-pdf-from-docx-complete-guide/)
 Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, inclusief tags, structuur en leesbaarheid voor schermlezers.
+
+### [Maak Toegankelijke PDF van DOCX – Complete Stap‑voor‑Stap Gids](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, stap voor stap, inclusief tags en structuur voor schermlezers.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
 
+### [DOCX naar Markdown converteren – Complete Java‑gids](./convert-docx-to-markdown-complete-java-guide/)
+Leer hoe je DOCX-bestanden converteert naar Markdown met Aspose.Words for Java in een volledige stap‑voor‑stap gids.
+
 ### [DOCX naar Markdown converteren – Wiskundige vergelijkingen exporteren naar LaTeX met Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Leer hoe je DOCX-bestanden omzet naar Markdown en wiskundige vergelijkingen exporteert naar LaTeX met Aspose.Words.
+
+### [DOCX naar Markdown converteren – Complete gids met wiskunde‑export](./convert-docx-to-markdown-complete-guide-with-math-export/)
+Leer hoe je DOCX-bestanden converteert naar Markdown en wiskundige vergelijkingen exporteert met Aspose.Words.
 
 ### [Hoe afbeeldingen inbedden in Markdown bij het converteren van DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van DOCX met Aspose.Words for Java.
 
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
+
+### [Docx opslaan als Markdown: Docx naar Markdown converteren met Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Leer hoe je een DOCX‑bestand omzet naar Markdown met Aspose.Words in Java, inclusief voorbeeldcode en exportopties.
+
+### [Hoe PNG opslaan vanuit Word – Complete stap‑voor‑stap gids](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Leer hoe je PNG‑afbeeldingen uit een Word‑document opslaat met Aspose.Words for Java in een volledige stap‑voor‑stap gids.
 
 ## Veelgestelde Vragen
 

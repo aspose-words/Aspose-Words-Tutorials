@@ -41,6 +41,9 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Đổi tên các trường hợp nhập từ bằng Aspose.Words cho Java](./rename-word-merge-fields-aspose-words-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
+### [Tạo mẫu Mail Merge và chuyển DOCX sang PDF trong C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Hướng dẫn cách tạo mẫu Mail Merge và chuyển tài liệu DOCX sang PDF bằng C# sử dụng Aspose.Words.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)

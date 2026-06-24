@@ -41,6 +41,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Words for Java で Word の結合フィールドの名前を変更する](./rename-word-merge-fields-aspose-words-java/)
 Aspose.Words Javaのコードチュートリアル
 
+### [C# でメールマージテンプレートを作成し、DOCX を PDF に変換する](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Aspose.Words for C# を使用して、メールマージ用テンプレートを作成し、DOCX ファイルを PDF に変換する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

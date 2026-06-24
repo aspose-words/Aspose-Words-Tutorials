@@ -41,6 +41,9 @@ Een codetutorial voor Aspose.Words Java
 ### [Hernoem woordsamenvoegvelden met Aspose.Words voor Java](./rename-word-merge-fields-aspose-words-java/)
 Een codetutorial voor Aspose.Words Java
 
+### [Maak mailmerge-sjabloon en converteer DOCX naar PDF in C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Leer hoe u een mailmerge-sjabloon maakt en DOCX-bestanden naar PDF converteert met Aspose.Words voor C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

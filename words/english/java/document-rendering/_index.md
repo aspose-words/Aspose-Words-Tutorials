@@ -40,6 +40,8 @@ Learn how to enhance your documents with shapes and graphics using Aspose.Words 
 Discover efficient document printing and rendering using Aspose.Words for Java. Learn step-by-step with source code examples.
 ### [Rendering Documents to HTML](./rendering-documents-html/)
 Learn how to render documents to HTML effortlessly with Aspose.Words for Java. Step-by-step guide for efficient document conversion.
+### [Register Warning Callback in Java – Complete Programming Guide](./register-warning-callback-in-java-complete-programming-guide/)
+Learn how to register a warning callback in Java using Aspose.Words. Step-by-step guide with code examples for handling warnings.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
