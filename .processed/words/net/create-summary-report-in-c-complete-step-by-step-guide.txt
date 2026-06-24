@@ -1,0 +1,7 @@
+Title: Create summary report in C# – Complete Step‑by‑Step Guide
+Slug: create-summary-report-in-c-complete-step-by-step-guide
+Category: ai-powered-document-processing
+ProcessedDate: 2026-06-24T10:52:24.536043
+SourceRepo: AI Search API
+Keywords: create summary report, how to summarize word, summarize docx google, display ai summary, load word file c#
+PRNumber: 210
