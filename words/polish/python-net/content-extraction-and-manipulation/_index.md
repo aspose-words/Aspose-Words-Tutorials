@@ -46,6 +46,8 @@ Wydajnie wyodrębniaj zawartość z dokumentów Word za pomocą Aspose.Words dla
 Poznaj zaawansowane techniki znajdowania i zamieniania w dokumentach Worda za pomocą Aspose.Words dla Pythona. Zamień tekst, użyj wyrażeń regularnych, formatowania i nie tylko.
 ### [Usuwanie i udoskonalanie zawartości w dokumentach programu Word](./remove-content-documents/)
 Dowiedz się, jak skutecznie usuwać i udoskonalać zawartość dokumentów Word za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z przykładami kodu źródłowego.
+### [Jak ustawić wywołanie zwrotne przy eksportowaniu obrazów z DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Dowiedz się, jak skonfigurować callback, aby kontrolować eksport obrazów z dokumentu DOCX przy użyciu Aspose.Words dla Pythona.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

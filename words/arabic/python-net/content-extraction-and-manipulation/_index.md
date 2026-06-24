@@ -46,6 +46,8 @@
 تعلّم تقنيات البحث والاستبدال المتقدمة في مستندات Word باستخدام Aspose.Words لـ Python. استبدل النصوص، واستخدم التعبيرات العادية، والتنسيق، والمزيد.
 ### [إزالة المحتوى وتحسينه في مستندات Word](./remove-content-documents/)
 تعلّم كيفية إزالة المحتوى وتحسينه بكفاءة في مستندات Word باستخدام Aspose.Words لـ Python. دليل خطوة بخطوة مع أمثلة على الكود المصدري.
+### [كيفية تعيين رد نداء لتصدير الصور من DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+تعلم كيفية تعيين رد نداء لتصدير الصور من ملفات DOCX باستخدام Aspose.Words للغة بايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

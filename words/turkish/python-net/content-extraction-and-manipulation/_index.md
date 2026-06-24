@@ -46,6 +46,8 @@ Python için Aspose.Words'ü kullanarak Word belgelerinden içerikleri verimli b
 Python için Aspose.Words kullanarak Word belgelerinde gelişmiş bul ve değiştir tekniklerini öğrenin. Metni değiştirin, regex kullanın, biçimlendirme yapın ve daha fazlasını yapın.
 ### [Word Belgelerindeki İçeriği Kaldırma ve Düzenleme](./remove-content-documents/)
 Python için Aspose.Words'ü kullanarak Word belgelerindeki içerikleri nasıl etkili bir şekilde kaldıracağınızı ve iyileştireceğinizi öğrenin. Kaynak kod örnekleriyle adım adım kılavuz.
+### [DOCX'ten Görüntü Dışa Aktarma İçin Geri Çağırma Ayarlama](./how-to-set-callback-for-exporting-images-from-docx/)
+Python için Aspose.Words'ü kullanarak DOCX dosyalarından görüntüleri dışa aktarırken geri çağırma (callback) nasıl ayarlanır öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

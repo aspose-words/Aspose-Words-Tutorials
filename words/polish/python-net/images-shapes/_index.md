@@ -37,6 +37,9 @@ Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pytho
 ### [Jak dodać cień w C# – Kompletny przewodnik programistyczny](./how-to-add-shadow-in-c-complete-programming-guide/)
 Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, krok po kroku.
 
+### [Tworzenie prostokątnego kształtu w Pythonie – Kompletny przewodnik Aspose.Words](./create-rectangle-shape-in-python-complete-aspose-words-guide/)
+Dowiedz się, jak w Pythonie przy użyciu Aspose.Words dodać i skonfigurować prostokątny kształt w dokumencie Word.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
