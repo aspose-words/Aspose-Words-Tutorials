@@ -67,6 +67,15 @@ Exportálja a gazdagított dokumentumot a szükséges formátumba—PDF, DOCX, H
 ### [Mesteri szövegfeldolgozás Java-ban&#58; Aspose.Words és AI modellek használata összefoglaláshoz és fordításhoz](./java-aspose-words-text-processing/)
 Tanulja meg, hogyan automatizálja a szövegösszefoglalást és fordítást az Aspose.Words for Java-val, az OpenAI GPT‑4 és a Google Gemini segítségével. Fejlessze Java alkalmazásait még ma.
 
+### [Nyelvhelyesség-ellenőrzés futtatása DOCX-ben Java‑ban – Teljes programozási útmutató](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Ismerje meg, hogyan használhatja az Aspose.Words for Java-t a DOCX dokumentumok nyelvhelyesség‑ellenőrzésére, részletes példákkal.
+
+### [Dokumentum összefoglaló létrehozása Java-ban az Aspose.Words segítségével – Teljes útmutató](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Tanulja meg, hogyan készíthet AI‑alapú összefoglalókat dokumentumokról Java és Aspose.Words használatával, lépésről‑lépésre.
+
+### [Hogyan használjuk a Gemini-t a DOCX spanyolra fordításához – Teljes Java útmutató](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Tanulja meg, hogyan fordítson DOCX fájlokat spanyolra a Gemini AI és az Aspose.Words for Java segítségével.
+
 ## További források
 
 - [Aspose.Words for Java dokumentáció](https://reference.aspose.com/words/java/)

@@ -67,6 +67,15 @@ Xuất tài liệu đã được làm giàu sang định dạng bạn cần—PD
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 Tìm hiểu cách tự động hoá tóm tắt và dịch văn bản bằng Aspose.Words for Java kết hợp với GPT‑4 của OpenAI và Gemini của Google. Nâng cao ứng dụng Java của bạn ngay hôm nay.
 
+### [Chạy Kiểm Tra Ngữ Pháp trên DOCX trong Java – Hướng Dẫn Lập Trình Đầy Đủ](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách tích hợp Aspose.Words để kiểm tra ngữ pháp tài liệu DOCX trong Java bằng API AI.
+
+### [Tạo Tóm Tắt Tài Liệu trong Java với Aspose.Words – Hướng Dẫn Đầy Đủ](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Words for Java để tạo bản tóm tắt tự động cho tài liệu.
+
+### [Cách Sử Dụng Gemini Để Dịch DOCX Sang Tiếng Tây Ban Nha – Hướng Dẫn Java Đầy Đủ](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Hướng dẫn chi tiết cách tích hợp Gemini API vào Aspose.Words Java để dịch tài liệu DOCX sang tiếng Tây Ban Nha một cách tự động.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

@@ -92,17 +92,32 @@ Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words po
 ### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
 
+### [Convertir docx en markdown avec Java – Guide complet de programmation](./convert-docx-to-markdown-with-java-complete-programming-guid/)
+Apprenez à convertir des fichiers DOCX en Markdown en Java avec un guide complet et du code source détaillé.
+
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
 ### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
 
+### [Comment utiliser Aspose pour Java : convertir DOCX en PDF](./how-to-use-aspose-for-java-convert-docx-to-pdf/)
+Apprenez à convertir des fichiers DOCX en PDF en une seule ligne de code avec Aspose pour Java.
+
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
 
+### [Créer un PDF accessible à partir de Word – Guide complet](./create-accessible-pdf-from-word-complete-guide/)
+Apprenez à créer des PDF accessibles à partir de documents Word en respectant les normes d'accessibilité.
+
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
+
+### [Convertir docx en txt et exporter les équations Word en LaTeX – Guide complet](./convert-docx-to-txt-and-export-word-math-latex-complete-guid/)
+Apprenez à convertir des fichiers DOCX en texte brut tout en exportant les équations Word au format LaTeX.
+
+### [Exporter Word en PNG – Guide complet Java pour convertir DOCX en images](./export-word-to-png-complete-java-guide-for-converting-docx-t/)
+Apprenez à convertir des documents DOCX en images PNG avec Aspose.Words for Java grâce à un guide étape par étape.
 
 ## Questions fréquentes
 

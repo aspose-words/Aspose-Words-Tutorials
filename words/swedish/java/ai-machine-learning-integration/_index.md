@@ -67,6 +67,15 @@ Exportera det berikade dokumentet till det format du behöver—PDF, DOCX, HTML 
 ### [Behärska textbehandling i Java: Använd Aspose.Words & AI‑modeller för sammanfattning och översättning](./java-aspose-words-text-processing/)
 Lär dig hur du automatiserar textsammanfattning och översättning med Aspose.Words för Java med OpenAI:s GPT‑4 och Googles Gemini. Förbättra dina Java‑applikationer idag.
 
+### [Kör grammatikkontroll på DOCX i Java – Komplett programmeringsguide](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Lär dig hur du använder Aspose.Words för Java för att köra grammatikkontroll på DOCX-filer med AI‑driven analys.
+
+### [Skapa dokumentsammanfattning i Java med Aspose.Words – Fullständig guide](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Lär dig hur du genererar automatiska sammanfattningar av dokument i Java med Aspose.Words och AI‑modeller.
+
+### [Hur man använder Gemini för att översätta DOCX till spanska – Komplett Java‑guide](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Lär dig hur du använder Gemini för att översätta DOCX‑dokument till spanska med Aspose.Words för Java.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java‑dokumentation](https://reference.aspose.com/words/java/)
