@@ -52,7 +52,7 @@
 | [Как обнаружить шрифты в Aspose.Words – Обрабатывать предупреждения и настройки](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Узнайте, как обнаруживать шрифты, управлять предупреждениями и настраивать параметры шрифтов в Aspose.Words для .NET. |
 | [Как захватить шрифты в Aspose.Words – Полное руководство](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Узнайте, как захватывать шрифты в Aspose.Words с помощью полного пошагового руководства. |
 | [Как загрузить DOCX и обнаружить отсутствующие шрифты – Полное руководство C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Узнайте, как загрузить документ DOCX и определить недостающие шрифты с помощью Aspose.Words для .NET в полном руководстве на C#. |
-
+| [Aspose Замена шрифтов: Обнаружение отсутствующих шрифтов в документах Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Узнайте, как обнаружить недостающие шрифты в документах Word с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

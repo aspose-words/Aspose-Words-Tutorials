@@ -72,6 +72,9 @@ Aprenda a renomear imagens durante a conversão de DOCX para Markdown usando Asp
 ### [Salvar imagens do Word – Converter Word para Markdown com Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Aprenda a extrair e salvar imagens de documentos Word ao convertê-los para Markdown usando Aspose.Words.
 
+### [Como salvar imagens – Converter DOCX para Markdown com Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/)
+Aprenda a salvar imagens ao converter arquivos DOCX para Markdown usando Aspose.Words.
+
 ### [Converter Word para Markdown em C# – Guia completo com extração de imagens](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Aprenda a converter documentos Word para Markdown em C#, extraindo imagens e preservando a formatação usando Aspose.Words.
 

@@ -42,6 +42,9 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Arbeta med Googles AI-modell](./working-with-google-ai-model/) Förbättra din dokumenthantering med Aspose.Words för .NET och Google AI för att enkelt skapa koncisa sammanfattningar. |
 | [Arbeta med öppen AI-modell](./working-with-open-ai-model/) | Lås upp effektiv dokumentsammanfattning med Aspose.Words för .NET och OpenAI:s kraftfulla modeller. Fördjupa dig i den här omfattande guiden nu. |
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
+| [Hur du använder LLM med Aspose.Words – Omskriv stycken i C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Lär dig hur du integrerar en LLM för att automatiskt omskriva stycken i Word-dokument med C# och Aspose.Words. |
+| [Hur man kontrollerar grammatik i C# – Komplett guide för Word-dokument](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Lär dig hur du använder Aspose.Words för .NET för att automatiskt kontrollera grammatik i Word-dokument med C#. |
+| [Sammanfatta Word-dokument i C# – Komplett guide med Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Lär dig hur du använder Anthropic Claude för att automatiskt sammanfatta Word-dokument med C# och Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,9 @@ Finally, don’t forget to check out our [Working With Summarize Options](./work
 | [Working With Google AI Model](./working-with-google-ai-model/) | Elevate your document processing with Aspose.Words for .NET and Google AI to create concise summaries effortlessly. |
 | [Working With Open AI Model](./working-with-open-ai-model/) | Unlock efficient document summarization using Aspose.Words for .NET with OpenAI's powerful models. Dive into this comprehensive guide now. |
 | [Working With Summarize Options](./working-with-summarize-options/) | Learn to effectively summarize Word documents using Aspose.Words for .NET with our step-by-step guide on integrating AI models for quick insights. |
+| [How to Use LLM with Aspose.Words – Rewrite Paragraphs in C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Learn to rewrite paragraphs using LLM with Aspose.Words for .NET in C#, enhancing content with AI-driven transformations. |
+| [How to Check Grammar in C# – Complete Guide for Word Documents](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Learn to check grammar in Word documents using Aspose.Words for .NET in C#, ensuring accurate content with AI-driven tools. |
+| [Summarize Word Document in C# – Complete Guide Using Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Learn to summarize Word documents in C# using Anthropic Claude with Aspose.Words for .NET for accurate, AI-driven summaries. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

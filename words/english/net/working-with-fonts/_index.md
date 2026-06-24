@@ -53,6 +53,7 @@ Whether you want to format text with different fonts, set font substitution rule
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |
 | [How to Capture Fonts in Aspose.Words – Complete Guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Learn how to capture fonts in Aspose.Words with a complete step-by-step guide and code examples. |
 | [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Learn how to load a DOCX file and detect missing fonts using Aspose.Words for .NET in this complete C# guide. |
+| [Aspose Font Substitution: Detect Missing Fonts in Word Docs](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Learn how to detect missing fonts in Word documents using Aspose.Words for .NET with this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

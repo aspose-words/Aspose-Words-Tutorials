@@ -42,6 +42,9 @@
 | [Google AI モデルの操作](./working-with-google-ai-model/) Aspose.Words for .NET と Google AI を使用してドキュメント処理を強化し、簡潔な要約を簡単に作成します。 |
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
+| [LLM を使用した Aspose.Words – C# で段落を書き換える方法](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) Aspose.Words と LLM を組み合わせ、C# で段落を書き換える手順を学び、文書を自動的に改善します。 |
+| [C# で文法チェックする方法 – Word 文書の完全ガイド](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) Aspose.Words for .NET と C# を使用して、Word 文書の文法チェックを自動化する完全ガイドです。 |
+| [C# で Word 文書を要約する – Anthropic Claude を使用した完全ガイド](./summarize-word-document-in-c-complete-guide-using-anthropic/) Anthropic Claude を活用し、C# で Word 文書を自動要約する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
