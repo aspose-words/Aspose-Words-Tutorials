@@ -67,6 +67,15 @@ Exportujte obohacený dokument do požadovaného formátu — PDF, DOCX, HTM
 ### [Mistrovské zpracování textu v Javě: Použití Aspose.Words a AI modelů pro shrnutí a překlad](./java-aspose-words-text-processing/)
 Naučte se automatizovat shrnutí a překlad textu pomocí Aspose.Words pro Java s OpenAI GPT‑4 a Google Gemini. Vylepšete své Java aplikace ještě dnes.
 
+### [Spusťte kontrolu gramatiky v DOCX v Javě – Kompletní programovací průvodce](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Words pro Java provést automatickou kontrolu gramatiky v DOCX souborech pomocí AI.
+
+### [Vytvořte souhrn dokumentu v Javě s Aspose.Words – Kompletní průvodce](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Naučte se, jak pomocí Aspose.Words v Javě vytvořit automatický souhrn dokumentu s využitím AI.
+
+### [Jak použít Gemini pro překlad DOCX do španělštiny – Kompletní průvodce v Javě](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Naučte se, jak pomocí Gemini přeložit DOCX soubory do španělštiny v Javě pomocí AI.
+
 ## Další zdroje
 
 - [Dokumentace Aspose.Words pro Java](https://reference.aspose.com/words/java/)

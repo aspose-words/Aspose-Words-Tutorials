@@ -83,34 +83,24 @@ Các cài đặt tài liệu là chìa khóa để cung cấp tài liệu phù h
 ## Các Tutorial Liên Quan – Tải, Lưu và Chuyển Đổi
 
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
-Học cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn cho việc tích hợp tài liệu liền mạch.
 
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
-Làm chủ Load Options trong Aspose.Words for Java. Tùy chỉnh quá trình tải tài liệu, xử lý mã hoá, chuyển đổi shape, thiết lập phiên bản Word và hơn thế nữa để tối ưu quá trình xử lý tài liệu Java.
 
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
-Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
 
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
-Mở khóa sức mạnh của Aspose.Words for Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
-Học các tùy chọn lưu nâng cao với Aspose.Words for Java. Mã hoá, xử lý metafile và hơn thế nữa. Tài liệu Word của bạn, cách của bạn.
 
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
-Học cách lưu tài liệu HTML với bố cục cố định trong Aspose.Words for Java. Thực hiện theo hướng dẫn từng bước để định dạng tài liệu mượt mà.
 
 ### [Advance HTML Documents Saving Options with Aspose.Words Java](./advance-html-documents-saving-options/)
-Trong tutorial này, chúng tôi đã đề cập đến các tùy chọn lưu HTML nâng cao với Aspose.Words for Java. Những tùy chọn này cho phép bạn tạo HTML chất lượng cao.
 
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
-Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
 
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
-Học cách chuyển đổi tài liệu Word sang Markdown với Aspose.Words for Java. Hướng dẫn chi tiết này bao gồm căn chỉnh bảng, xử lý hình ảnh và các yếu tố khác.
 
 ### [Saving Documents as ODT Format in Aspose.Words for Java](./saving-documents-as-odt-format/)
 Học cách lưu tài liệu ở định dạng ODT bằng Aspose.Words for Java. Đảm bảo tương thích với các bộ công cụ văn phòng mã nguồn mở.
@@ -124,8 +114,11 @@ Học cách lưu tài liệu ở định dạng PCL bằng Aspose.Words for Java
 ### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
 Học cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words for Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện cho việc chuyển đổi sang PDF.
 
+### [Lưu tài liệu Word với Aspose.Words – Hướng dẫn Java toàn diện](./save-word-document-with-aspose-words-complete-java-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word bằng Aspose.Words cho Java, bao gồm các tùy chọn, định dạng và ví dụ thực tế.
+
 ### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
-Học cách lưu tài liệu ở định dạng RTF bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
+Học cách lưu tài liệu ở định dạng RTF bằng Aspose.Words cho Java. Hướng dẫn chi tiết kèm mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
 
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
 Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words for Java. Thực hiện theo hướng dẫn chi tiết kèm ví dụ mã Java.

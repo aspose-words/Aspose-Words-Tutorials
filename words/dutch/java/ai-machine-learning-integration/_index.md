@@ -67,6 +67,15 @@ Exporteer het verrijkte document naar het formaat dat je nodig hebt—PDF, DOCX,
 ### [Beheers tekstverwerking in Java: Aspose.Words & AI‑modellen gebruiken voor samenvatting en vertaling](./java-aspose-words-text-processing/)
 Leer hoe je tekstsamenvatting en vertaling kunt automatiseren met Aspose.Words voor Java en OpenAI's GPT‑4 en Google's Gemini. Verbeter vandaag nog je Java‑applicaties.
 
+### [Voer grammatica-controle uit op DOCX in Java – Complete programmeergids](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Leer hoe je met Aspose.Words voor Java grammatica-controle op DOCX-bestanden uitvoert en resultaten verwerkt met AI‑modellen.
+
+### [Document Samenvatting maken in Java met Aspose.Words – Volledige Gids](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Leer hoe je met Aspose.Words voor Java automatisch een samenvatting van documenten genereert en deze in verschillende formaten opslaat.
+
+### [Hoe Gemini te gebruiken voor het vertalen van DOCX naar Spaans – Complete Java-gids](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Leer hoe je met Gemini AI DOCX-bestanden automatisch naar het Spaans vertaalt met Aspose.Words en Java.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words for Java Documentatie](https://reference.aspose.com/words/java/)
