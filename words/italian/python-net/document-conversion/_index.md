@@ -40,6 +40,15 @@ Scopri come esportare documenti Word in Markdown usando Aspose.Words per Python.
 ### [Recupera DOCX corrotti e converti Word in Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Impara a riparare file DOCX danneggiati e convertirli in Markdown con Aspose.Words per Python.
 
+### [Salva DOCX come TXT – Guida completa per esportare le equazioni Word](./save-docx-as-txt-complete-guide-to-export-word-equations/)
+Scopri come esportare le equazioni di Word in file TXT usando Aspose.Words per Python. Guida passo passo per una conversione efficace.
+
+### [Salva Word come PDF – Genera PDF/A‑2U accessibile con Aspose.Words](./save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo/)
+Impara a salvare documenti Word in PDF/A‑2U accessibile usando Aspose.Words per Python, garantendo conformità e accessibilità.
+
+### [Recupera DOCX corrotti e converti in PDF con Aspose.Words (Python)](./recover-corrupted-docx-and-convert-to-pdf-with-aspose-words/)
+Ripara file DOCX danneggiati e trasformali in PDF usando Aspose.Words per Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
