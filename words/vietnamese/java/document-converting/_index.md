@@ -101,6 +101,15 @@ Chuyển đổi DOCX sang EPUB một cách hiệu quả bằng Aspose.Words cho 
 ### [Chuyển đổi tài liệu sang hình ảnh](./converting-documents-images/)
 Tìm hiểu cách chuyển đổi tài liệu Word sang hình ảnh bằng Aspose.Words cho Java. Hướng dẫn từng bước, kèm theo các ví dụ mã và câu hỏi thường gặp.
 
+### [Chuyển đổi docx sang markdown – Hướng dẫn chi tiết từng bước](./convert-docx-to-markdown-complete-step-by-step-guide/)
+Hướng dẫn đầy đủ cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java.
+
+### [Chuyển đổi docx sang markdown – Hướng dẫn toàn diện](./convert-docx-to-markdown-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java.
+
+### [Cách sử dụng Aspose: Chuyển đổi DOCX sang PDF trong Java – Hướng dẫn toàn diện](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF trong Java bằng Aspose.Words, bao gồm các bước cấu hình và ví dụ mã.
+
 ## Câu hỏi thường gặp
 
 **Q:** *Tôi có thể chuyển đổi các tệp Word được bảo vệ bằng mật khẩu sang PDF không?*  

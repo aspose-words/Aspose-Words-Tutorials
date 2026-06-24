@@ -100,8 +100,20 @@ weight: 22
 ### [Aspose.Words σε PDF – Μετατροπή DOCX σε PDF με Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words for Java με λίγες γραμμές κώδικα.
 
+### [Αποθήκευση Εγγράφου ως PDF – Πλήρης Οδηγός Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words for Java με πλήρη οδηγό βήμα‑βήμα.
+
+### [Δημιουργία PDF UA με Aspose.Words – Πλήρης Οδηγός](./create-pdf-ua-with-aspose-words-complete-guide/)
+Μάθετε πώς να δημιουργήσετε PDF με υποστήριξη UA (Unicode) χρησιμοποιώντας το Aspose.Words σε Java, βήμα‑βήμα οδηγός.
+
 ### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός](./create-accessible-pdf-from-docx-complete-guide/)
-Δημιουργήστε PDF προσβάσιμο από DOCX με πλήρη οδηγίες, εξασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας.
+Δημιουργήστε PDF προσ...
+
+### [Αποθήκευση Word ως Markdown σε Java – Πλήρης Οδηγός](./save-word-as-markdown-in-java-complete-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Ορισμός Σελίδων ανά Φύλλο στη Μετατροπή Word σε PNG – Πλήρης Οδηγός](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Μάθετε πώς να ορίζετε πολλές σελίδες ανά φύλλο κατά τη μετατροπή εγγράφων Word σε PNG με Aspose.Words for Java.
 
 ## Συχνές Ερωτήσεις
 

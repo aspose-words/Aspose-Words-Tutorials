@@ -37,6 +37,9 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 ### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
+### [Word dokumentum mentése – Téglalap alakzat és árnyék hozzáadása Java-ban](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Ismerje meg, hogyan menthet Word dokumentumot, miközben téglalap alakzatot és árnyékot ad hozzá Java-ban az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)
