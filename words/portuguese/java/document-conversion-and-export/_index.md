@@ -95,14 +95,29 @@ Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java
 ### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
 
+### [Converter DOCX para Markdown com Imagens Incorporadas – Guia Java](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+Aprenda a converter documentos DOCX para Markdown preservando imagens incorporadas usando Aspose.Words para Java.
+
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
+
+### [Tutorial docx para pdf: Converta arquivos Word com Aspose em Java](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+Aprenda a converter arquivos DOCX para PDF usando Aspose.Words for Java em poucos passos.
 
 ### [Como Incorporar Imagens em Markdown ao Converter DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words for Java.
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Criar PDF Acessível a partir do Word – Guia Completo para Exportar Word para PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Converter DOCX para PDF com Aspose.Words – Guia Completo](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+Aprenda a converter documentos DOCX em PDF usando Aspose.Words for Java com exemplos passo a passo e opções avançadas de configuração.
+
+### [Converter DOCX para PNG – Guia Completo Java com Layout de Grade](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+Aprenda a converter documentos DOCX em imagens PNG usando Aspose.Words for Java, incluindo como organizar o conteúdo em um layout de grade.
 
 ## Perguntas Frequentes
 

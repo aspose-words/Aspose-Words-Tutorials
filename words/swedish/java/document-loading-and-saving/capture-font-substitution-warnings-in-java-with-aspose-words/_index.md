@@ -1,25 +1,50 @@
 ---
 category: general
-date: 2026-01-11
-description: Lär dig hur du fångar varningar om teckensnittssubstitution med Aspose.Words
-  för Java. Denna steg‑för‑steg‑handledning täcker också LoadOptions och varningsåteruppringningar.
+date: 2026-06-27
+description: Lär dig hur du fångar varningar för teckensnittssubstitution i Java med
+  Aspose.Words. Denna steg‑för‑steg‑handledning täcker också varnings‑callback‑funktioner
+  och användning av LoadOptions.
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: sv
-og_description: Fånga varningar om teckensnittssubstitution med Aspose.Words för Java.
-  Följ den här guiden för att konfigurera LoadOptions och en varningsåteruppringning
-  för pålitlig dokumentladdning.
-og_title: Fånga varningar om teckensnittssubstitution i Java – Fullständig handledning
+og_description: Fånga varningar om teckensnittssubstitution i Java med Aspose.Words.
+  Följ den här guiden för att konfigurera varningsåteruppringningar, använda LoadOptions
+  och hantera saknade teckensnitt.
+og_title: Fånga varningar om teckensnittssubstitution i Java – Aspose.Words-handledning
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: Fånga varningar om teckensnittsbyte i Java med Aspose.Words – Komplett guide
+- Document Conversion
+title: Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett
+  guide
 url: /sv/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -27,195 +52,188 @@ url: /sv/java/document-loading-and-saving/capture-font-substitution-warnings-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fånga varningar för teckensnittssubstitution – Fullständig Java‑handledning
+# Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide
 
-Har du någonsin behövt **fånga varningar för teckensnittssubstitution** när du öppnar ett Word‑dokument med saknade teckensnitt? Det är ett vanligt huvudvärk, särskilt när du genererar PDF‑filer eller skriver ut på en server som inte har alla teckensnitt installerade. Den goda nyheten? Aspose.Words for Java gör det enkelt—bara konfigurera ett `LoadOptions`‑objekt och anslut en varnings‑callback. I den här guiden kommer du att se exakt hur du gör det, varför det är viktigt och vad du kan förvänta dig när varningen avfyras.
+Har du någonsin behövt **fånga varningar om teckensnittssubstitution** när du laddar en DOCX som använder exotiska teckensnitt? Du är inte ensam. I många verkliga projekt—tänk automatiska rapportgeneratorer eller batch‑dokumentkonverterare—utlöser saknade teckensnitt tysta substitutioner som kan förstöra layoutens noggrannhet.  
 
-Vi kommer också att beröra relaterade ämnen som **Aspose.Words font substitution**, att använda en **Java warning callback**, och bästa praxis för **LoadOptions usage**. I slutet har du ett färdigt kodexempel som loggar varje saknat‑teckensnitt‑händelse, så att din efterföljande bearbetning aldrig överraskar dig.
+Lyckligtvis erbjuder Aspose.Words ett enkelt sätt att lyssna på dessa varningar. I den här handledningen går vi igenom hur du konfigurerar **LoadOptions**, kopplar en **Aspose.Words varnings‑callback**, och skriver ut varje *teckensnittssubstitution*‑meddelande till konsolen. I slutet vet du exakt när ett teckensnitt har bytts ut och hur du kan reagera programmässigt.
 
-## Förutsättningar
+> **Vad du får:** ett fullt körbart Java‑exempel, en förklaring av *varför* varje del är viktig, samt tips för att hantera kantfall som anpassade teckensnittskataloger.
 
-- Java 17 (eller någon nyare JDK) installerad och konfigurerad.
-- Aspose.Words for Java 23.10 (eller nyare) på din classpath.
-- Ett Word‑dokument som refererar till ett teckensnitt du inte har lokalt (t.ex. `DocWithMissingFont.docx`).
-- Grundläggande kunskap om Java try/catch‑block—inget avancerat.
+## Förutsättningar och vad du behöver
 
-Om någon av dessa känns obekant, pausa ett ögonblick och installera biblioteket från Maven Central:
+Innan vi dyker ner, se till att du har:
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+- Java 8 eller nyare installerat (koden fungerar även med Java 11+).
+- Den senaste Aspose.Words for Java JAR (ladda ner från den officiella webbplatsen eller Maven Central).
+- En DOCX‑fil som refererar till teckensnitt som inte är installerade på din maskin (t.ex. en *font‑rich.docx* som du kan hitta i Aspose‑demopaketet).
+- En bra IDE (IntelliJ IDEA, Eclipse eller till och med VS Code med Java‑tillägg).
 
-Nu när grunderna är lagda, låt oss gå in i koden.
+Inga externa bibliotek utöver Aspose.Words krävs, och exemplet körs i en enkel `main`‑metod.
 
-## Steg 1: Ställ in en varnings‑callback för att **fånga varningar för teckensnittssubstitution**
+## Steg 1: Ställ in LoadOptions – Ingångspunkten för anpassad laddning
 
-Det första du behöver är en callback som Aspose.Words kommer att anropa när den stöter på ett saknat teckensnitt. Det är här vi **fångar varningar för teckensnittssubstitution**. Callbacken implementerar `IWarningCallback`‑gränssnittet och kontrollerar `WarningType`.
+`LoadOptions` är Aspose.Words konfigurationsbehållare som talar om för biblioteket *hur* ett dokument ska läsas. Som standard ersätter det tyst saknade teckensnitt, men du kan ändra det beteendet med en varnings‑callback.
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**Varför detta är viktigt:** Utan en callback byter Aspose.Words tyst ut det saknade teckensnittet mot ett standardteckensnitt, och du får aldrig veta att den visuella utmatningen har förändrats. Genom att fånga varningen kan du logga, varna eller till och med avbryta inläsningen om det saknade teckensnittet är kritiskt.
+**Varför detta är viktigt:** Utan `LoadOptions` laddas dokumentet tyst, och du förlorar insyn i saknade teckensnitt. Genom att skapa en instans får du en krok för varningssystemet.
 
-## Steg 2: Konfigurera **LoadOptions** och registrera callbacken
+## Steg 2: Definiera en varnings‑callback för att *fånga varningar om teckensnittssubstitution*
 
-Nu skapar vi en `LoadOptions`‑instans och fäster vår `FontWarningCallback`. Detta steg är avgörande för **LoadOptions usage** och säkerställer att varje dokumentladdning går igenom samma varningsfilter.
+Aspose.Words skickar varningshändelser via `IWarningCallback`‑gränssnittet. Implementera det inline (eller som en separat klass) och filtrera på `WarningType.FONT_SUBSTITUTION`.
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-**Tips:** Du kan återanvända samma `LoadOptions`‑objekt för flera dokument, vilket sparar några rader kod och garanterar konsekvent hantering av **document loading warnings** i hela din applikation.
+**Förklaring:**  
+- `info.getWarningType()` anger varningens kategori.  
+- `WarningType.FONT_SUBSTITUTION` är enum‑värdet vi är intresserade av.  
+- `info.getDescription()` innehåller ett mänskligt läsbart meddelande, t.ex. *“Font 'Comic Sans MS' not found, substituted with 'Arial'.”*  
 
-## Steg 3: Ladda dokumentet och observera resultatet
+Genom att skriva ut beskrivningen **fångar du varningar om teckensnittssubstitution** i realtid.
 
-Med callbacken ansluten, ladda helt enkelt din Word‑fil. Om dokumentet refererar till ett teckensnitt som inte är installerat, kommer callbacken att avfyras och skriva ut detaljer till konsolen.
+## Steg 3: Ladda dokumentet med de konfigurerade LoadOptions
+
+Nu när callbacken är på plats, ladda din DOCX. Varnings‑callbacken avfyras automatiskt under parsning.
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### Förväntad konsolutmatning
+Byt ut `YOUR_DIRECTORY` mot den faktiska sökvägen till din testfil. När `Document`‑konstruktorn körs, utlöser varje saknat teckensnitt den tidigare definierade callbacken, och du ser substitutionsmeddelandena i konsolen.
 
-Om vi antar att `DocWithMissingFont.docx` refererar till det saknade teckensnittet *“Comic Sans MS”*, kommer du att se något liknande:
+## Steg 4: Verifiera det laddade dokumentet (valfritt men hjälpsamt)
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-Om dokumentet **inte innehåller några saknade teckensnitt**, kommer konsolen bara att visa den sista raden, vilket bekräftar att din callback inte genererade några falska positiva.
-
-## Steg 4: Hantera kantfall och vanliga fallgropar
-
-### Flera saknade teckensnitt
-
-Om ett dokument använder flera otillgängliga teckensnitt, körs callbacken en gång per teckensnitt. Du får en serie meddelanden, var och en med sin egen `source` och `description`. Ingen extra kod krävs—se bara till att ditt loggningssystem kan hantera snabba på varandra följande anrop.
-
-### Undertrycka varningar
-
-I sällsynta fall kan du vilja ignorera vissa substitutioner (t.ex. du vet att en viss reserv är acceptabel). Utöka callback‑logiken:
+Efter laddning kanske du vill bekräfta dokumentets integritet—sidantal, textutdrag osv. Detta steg krävs inte för att fånga varningar, men det hjälper dig att se effekten av substitutioner.
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### Trådsäkerhet
+Om ett teckensnitt har substituerats kan layouten förändras något; att kontrollera sidantalet kan avslöja sådana förändringar.
 
-Aspose.Words `LoadOptions` är inte trådsäker som standard. Om du laddar dokument parallellt, skapa en separat `LoadOptions`‑instans per tråd, eller synkronisera callbacken för att undvika race‑condition.
+## Steg 5: Avancerat – Hantera substituerade teckensnitt programmässigt
 
-## Steg 5: Verifiera det ersatta teckensnittet i det resulterande dokumentet
-
-Efter inläsning kan du vilja bekräfta att substitutionen faktiskt har skett. API:et låter dig iterera över alla runs och inspektera det faktiska teckensnittsnamnet:
+Ibland vill du inte bara logga varningen—du kan behöva bädda in ett reservteckensnitt eller justera stil. Nedan är ett snabbt mönster du kan använda.
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-Detta kodexempel skriver ut varje text‑run med sitt slutgiltiga teckensnitt. Det är en praktisk kontroll när du bygger automatiserade PDF‑konverteringspipelines.
+Genom att peka Aspose.Words mot en mapp som innehåller de ursprungliga teckensnitten kan du *förhindra* substitution helt och hållet. Om mappen saknas fångar varnings‑callbacken fortfarande händelsen, vilket ger dig en reservstrategi.
 
 ## Fullständigt fungerande exempel
 
-När vi sätter ihop allt, här är det kompletta, färdiga programmet:
+När allt sätts ihop, här är det kompletta, färdiga programmet:
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-Spara detta som `FontSubstitutionInfo.java`, kompilera med `javac` och kör `java FontSubstitutionInfo`. Du bör se varningsmeddelandena (om några) följt av listan över runs och deras slutgiltiga teckensnitt.
+**Förväntad konsolutskrift** (när ett saknat teckensnitt påträffas):
 
-## Visuell hjälp
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![Skärmbild av konsolutmatning som visar varningar för teckensnittssubstitution](/images/font-substitution-warning.png "exempel på fånga varningar för teckensnittssubstitution")
+Om alla teckensnitt finns kvar, förblir callbacken tyst—inget skrivs ut, vilket är precis vad du kan förvänta dig.
 
-*Alt‑text:* **capture font substitution warnings** – konsolutmatning efter att ha laddat ett dokument med saknade teckensnitt.
+## Vanliga fallgropar & pro‑tips
+
+| Fallgropar | Varför det händer | Lösning |
+|------------|-------------------|---------|
+| **Callbacken avfyras aldrig** | Du glömde att fästa callbacken till `LoadOptions` **eller** använde standardkonstruktorn för `Document` utan att skicka `loadOptions`. | Anropa alltid `loadOptions.setWarningCallback(...)` **och** använd överlagringen `new Document(path, loadOptions)`. |
+| **För många varningar skräpar ner loggen** | Stora dokument med många saknade teckensnitt genererar en varning per substitution. | Filtrera ytterligare genom att kontrollera `info.getDescription()` för specifika teckensnittsnamn, eller samla varningar i en lista för senare bearbetning. |
+| **Substituerade teckensnitt påverkar layouten** | Reservteckensnittet kan ha andra mått (storlek, avstånd). | Tillhandahåll en anpassad teckensnittsmapp (se Steg 5) eller justera dokumentets stil efter laddning. |
+| **Körning på en huvudlös server** | Standardreservteckensnittet kan förlita sig på systemteckensnitt som inte är installerade på servern. | Leverera de nödvändiga teckensnitten med din applikation och peka `FontSettings` till den mappen. |
+
+## Vanliga frågor
+
+**Q: Fungerar detta med PDF eller andra format?**  
+A: Ja. Varnings‑callbacken är format‑agnostisk; den avfyras för alla dokumenttyper som Aspose.Words laddar (DOC, DOCX, RTF, HTML osv.). Den enda skillnaden är vilka varningar som kan visas.
+
+**Q: Kan jag fånga andra varningstyper, som varningar om *bildupplösning*?**  
+A: Absolut. Inuti `warning`‑metoden kan du inspektera `info.getWarningType()` för andra enum‑värden såsom `WarningType.IMAGE_RESOLUTION`. Hantera dem därefter.
+
+**Q: Vad händer om jag behöver listan över substituerade teckensnitt efter att dokumentet har laddats?**  
+A: Spara varje `info.getDescription()` i en `List<String>` i callbacken. Efter laddning har du en samling som du kan logga, skicka till en övervakningstjänst eller använda för att starta en teckensnitts‑nedladdningsrutin.
 
 ## Slutsats
 
-Du vet nu hur du **fångar varningar för teckensnittssubstitution** med Aspose.Words for Java. Genom att konfigurera ett `LoadOptions`‑objekt och tillhandahålla en anpassad `IWarningCallback` får du full insyn i alla saknade‑teckensnitt‑händelser som annars tyst kan påverka dokumentets utseende. Denna teknik kopplar direkt in i **Aspose.Words font substitution**‑hantering, säkerställer pålitliga **document loading warnings**, och ger dig flexibiliteten att logga, varna eller avbryta baserat på dina affärsregler.
+Du vet nu **hur du fångar varningar om teckensnittssubstitution** i Java med Aspose.Words, varför varje del av pusslet är viktig, och hur du kan utöka lösningen för verkliga scenarier. Genom att utnyttja `LoadOptions`, en `Aspose.Words warning callback` och valfri `FontSettings` får du full insyn i saknade teckensnitt och kan hålla dina dokumentkonverterings‑pipelines pålitliga.
 
-### Vad blir nästa steg?
+Redo för nästa steg? Prova att ersätta `System.out.println` med en logger som SLF4J, eller integrera varningslistan i ett UI som varnar användare innan de slutför en batch‑konvertering. Du kan också utforska **Aspose.Words warning callback** för andra varningstyper, såsom *ej stödda funktioner* eller *varningar om högupplösta bilder*.
 
-- Utforska **Java warning callback**‑mönster för andra varningstyper (t.ex. `DEPRECATED_FEATURE`).
-- Kombinera detta tillvägagångssätt med **PDF conversion** för att garantera att ersatta teckensnitt inte förstör layouten.
-- Fördjupa dig i **LoadOptions usage**—experimentera med `Password`, `Encoding` och `ResourceLoadingCallback` för mer avancerade scenarier.
+Lycka till med kodandet, och må dina PDF‑filer aldrig drabbas av oväntade teckensnittssubstitutioner igen! 
 
-Känn dig fri att justera callbacken, dirigera varningar till ett loggningsramverk, eller till och med kasta ett anpassat undantag om ett kritiskt teckensnitt saknas. Himlen är gränsen, och nu har du en solid grund att bygga vidare på.
+![Skärmbild som visar konsolutdata för fångade varningar om teckensnittssubstitution](image-placeholder.png "fånga varningar om teckensnittssubstitution")
 
-Lycka till med kodandet, och må dina dokument alltid renderas precis som du förväntar dig!
+
+## Vad du bör lära dig härnäst?
+
+Följande handledningar täcker närliggande ämnen som bygger på teknikerna som demonstreras i den här guiden. Varje resurs innehåller kompletta fungerande kodexempel med steg‑för‑steg‑förklaringar för att hjälpa dig bemästra ytterligare API‑funktioner och utforska alternativa implementationsmetoder i dina egna projekt.
+
+- [Aktivera varningar om teckensnittssubstitution i Aspose.Words – Komplett guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [Hur man ställer in LoadOptions i Aspose.Words för Java](/words/english/java/document-loading-and-saving/using-load-options/)
+- [Hur man skapar PDF‑dokument med Aspose.Words för Java | Document Processing API](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

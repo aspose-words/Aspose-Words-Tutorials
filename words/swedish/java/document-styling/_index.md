@@ -43,6 +43,8 @@ Lär dig hur du anpassar dokumentteman med Aspose.Words för Java. Den här omfa
 Lär dig hur du använder vattenstämplar och konfigurerar sidkonfigurationer med Aspose.Words för Java. En omfattande guide med källkod.
 ### [Formatering av dokumentsidhuvud och sidfot](./document-header-footer-styling/)
 Lär dig hur du formaterar dokumentsidhuvuden och sidfot med Aspose.Words för Java i den här detaljerade guiden. Steg-för-steg-instruktioner och källkod ingår.
+### [Ändra teckensnittsstil i Word-dokument – Komplett C#-guide](./change-font-style-in-word-documents-complete-c-guide/)
+Lär dig hur du ändrar teckensnittsstil i Word-dokument med Aspose.Words för C#. Steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
