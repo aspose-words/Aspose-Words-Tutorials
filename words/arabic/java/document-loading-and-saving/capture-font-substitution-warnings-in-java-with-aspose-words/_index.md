@@ -1,24 +1,47 @@
 ---
 category: general
-date: 2026-01-11
-description: تعلم كيفية التقاط تحذيرات استبدال الخطوط باستخدام Aspose.Words للغة Java.
-  يغطي هذا الدليل خطوة بخطوة أيضًا خيارات التحميل واستدعاءات التحذير.
+date: 2026-06-27
+description: تعلم كيفية التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words.
+  يغطي هذا الدليل خطوة بخطوة أيضًا استدعاءات التحذير واستخدام LoadOptions.
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: ar
-og_description: التقاط تحذيرات استبدال الخطوط باستخدام Aspose.Words for Java. اتبع
-  هذا الدليل لإعداد LoadOptions واستدعاء التحذير لتحميل المستندات بشكل موثوق.
-og_title: التقاط تحذيرات استبدال الخط في جافا – دليل كامل
+og_description: التقاط تحذيرات استبدال الخطوط في جافا باستخدام Aspose.Words. اتبع
+  هذا الدليل لإعداد ردود التحذير، واستخدام LoadOptions، ومعالجة الخطوط المفقودة.
+og_title: التقاط تحذيرات استبدال الخطوط في جافا – دليل Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: التقاط تحذيرات استبدال الخطوط في جافا باستخدام Aspose.Words – دليل كامل
+- Document Conversion
+title: التقاط تحذيرات استبدال الخطوط في جافا باستخدام Aspose.Words – الدليل الكامل
 url: /ar/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -26,197 +49,188 @@ url: /ar/java/document-loading-and-saving/capture-font-substitution-warnings-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التقاط تحذيرات استبدال الخط – دليل Java الكامل
+# التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل كامل
 
-هل احتجت يوماً إلى **التقاط تحذيرات استبدال الخط** عند فتح مستند Word يحتوي على خطوط مفقودة؟ هذا الأمر يسبب صداعاً شائعاً، خاصةً عندما تقوم بإنشاء ملفات PDF أو الطباعة على خادم لا يملك جميع الخطوط المثبتة. الخبر السار؟ Aspose.Words for Java يجعل الأمر سهلًا—فقط قم بتهيئة كائن `LoadOptions` وربطه بواجهة رد نداء التحذير. في هذا الدليل ستتعرف على كيفية القيام بذلك، ولماذا هو مهم، وما الذي تتوقعه عندما يتم إطلاق التحذير.
+هل احتجت يومًا إلى **التقاط تحذيرات استبدال الخطوط** أثناء تحميل ملف DOCX يستخدم خطوطًا نادرة؟ لست وحدك. في العديد من المشاريع الواقعية—مثل مولدات التقارير الآلية أو محولات المستندات الدفعية—تؤدي الخطوط المفقودة إلى استبدالات صامتة يمكن أن تفسد دقة التخطيط.  
 
-سنتطرق أيضاً إلى مواضيع ذات صلة مثل **استبدال خطوط Aspose.Words**، واستخدام **رد نداء التحذير في Java**، وأفضل الممارسات لـ **استخدام LoadOptions**. في النهاية ستحصل على مقطع جاهز للتنفيذ يسجل كل حدث خط مفقود، بحيث لا يفاجئك أي شيء في عمليات المعالجة اللاحقة.
+لحسن الحظ، توفر لك Aspose.Words طريقة نظيفة للاستماع إلى تلك التحذيرات. في هذا البرنامج التعليمي سنستعرض كيفية تكوين **LoadOptions**، وربط **Aspose.Words warning callback**، وطباعة كل إشعار *استبدال خط* إلى وحدة التحكم. في النهاية ستعرف بالضبط متى تم استبدال خط وكيفية التعامل معه برمجيًا.
 
-## المتطلبات المسبقة
+> **ما ستحصل عليه:** مقطع Java قابل للتنفيذ بالكامل، شرح *لماذا* كل جزء مهم، ونصائح للتعامل مع الحالات الخاصة مثل مجلدات الخطوط المخصصة.
+
+## المتطلبات المسبقة وما ستحتاجه
 
 قبل أن نبدأ، تأكد من وجود ما يلي:
 
-- Java 17 (أو أي JDK حديث) مثبت ومُعد.
-- Aspose.Words for Java 23.10 (أو أحدث) موجود في مسار الـ classpath.
-- مستند Word يشير إلى خط غير موجود محليًا (مثال: `DocWithMissingFont.docx`).
-- إلمام أساسي بكتل try/catch في Java—لا شيء معقد.
+- Java 8 أو أحدث (الكود يعمل أيضًا مع Java 11+).
+- أحدث ملف JAR لـ Aspose.Words for Java (حمّله من الموقع الرسمي أو Maven Central).
+- ملف DOCX يحتوي على خطوط غير مثبتة على جهازك (مثلاً *font‑rich.docx* الموجود في مجموعة عروض Aspose).
+- بيئة تطوير متكاملة (IntelliJ IDEA، Eclipse، أو حتى VS Code مع ملحقات Java).
 
-إذا كان أي من هذه غير مألوف لك، خذ لحظة لتثبيت المكتبة من Maven Central:
+لا توجد مكتبات خارجية مطلوبة بخلاف Aspose.Words، والمثال يعمل داخل طريقة `main` عادية.
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+## الخطوة 1: إعداد LoadOptions – نقطة الدخول للتحميل المخصص
 
-الآن بعد أن تم إعداد الأساسيات، لننتقل إلى الكود.
-
-## الخطوة 1: إعداد رد نداء التحذير **للتقاط تحذيرات استبدال الخط**
-
-أول شيء تحتاجه هو رد نداء ستستدعيه Aspose.Words كلما صادفت خطًا مفقودًا. هنا نُـ **نلتقط تحذيرات استبدال الخط**. يقوم رد النداء بتنفيذ واجهة `IWarningCallback` ويتفقد `WarningType`.
+`LoadOptions` هي حقيبة إعدادات Aspose.Words التي تخبر المكتبة *كيف* تقرأ المستند. بشكل افتراضي، تستبدل الخطوط المفقودة صامتًا، لكن يمكنك تغيير هذا السلوك باستخدام رد نداء التحذير.
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**لماذا هذا مهم:** بدون رد نداء، تقوم Aspose.Words باستبدال الخط المفقود بخط افتراضي بصمت، ولن تعرف أن المظهر البصري قد تغير. من خلال التقاط التحذير، يمكنك تسجيله، أو إرسال تنبيه، أو حتى إيقاف التحميل إذا كان الخط المفقود حاسمًا.
+**لماذا هذا مهم:** بدون `LoadOptions`، يتم تحميل المستند بهدوء، وتفقد القدرة على رؤية الخطوط المفقودة. بإنشاء نسخة تحصل على نقطة ربط لنظام التحذير.
 
-## الخطوة 2: تهيئة **LoadOptions** وتسجيل رد النداء
+## الخطوة 2: تعريف رد نداء التحذير *لالتقاط تحذيرات استبدال الخطوط*
 
-الآن ننشئ كائن `LoadOptions` ونربط به `FontWarningCallback` الخاص بنا. هذه الخطوة أساسية لاستخدام **LoadOptions** وتضمن أن كل تحميل مستند يمر عبر نفس مرشح التحذير.
+تُرسل Aspose.Words أحداث التحذير عبر واجهة `IWarningCallback`. نفّذها داخلًا (أو كفئة منفصلة) وقم بفلترة `WarningType.FONT_SUBSTITUTION`.
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-**نصيحة:** يمكنك إعادة استخدام نفس كائن `LoadOptions` لعدة مستندات، مما يوفر بعض الأسطر المتكررة ويضمن معالجة **تحذيرات تحميل المستند** بشكل متسق عبر تطبيقك.
+**الشرح:**  
+- `info.getWarningType()` يُظهر لك فئة التحذير.  
+- `WarningType.FONT_SUBSTITUTION` هو قيمة الـ enum التي نهتم بها.  
+- `info.getDescription()` يحتوي على رسالة قابلة للقراءة للبشر، مثل *“Font 'Comic Sans MS' not found, substituted with 'Arial'.”*  
 
-## الخطوة 3: تحميل المستند ومراقبة الناتج
+بطباعة الوصف، **تلتقط تحذيرات استبدال الخطوط** في الوقت الفعلي.
 
-بعد ربط رد النداء، ما عليك سوى تحميل ملف Word. إذا كان المستند يشير إلى خط غير مثبت، سيُطلق رد النداء ويطبع التفاصيل على وحدة التحكم.
+## الخطوة 3: تحميل المستند باستخدام LoadOptions المُكوَّن
+
+الآن بعد أن تم إعداد رد النداء، حمّل ملف DOCX. سيُطلق رد النداء تلقائيًا أثناء التحليل.
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### ناتج وحدة التحكم المتوقع
+استبدل `YOUR_DIRECTORY` بالمسار الفعلي لملف الاختبار الخاص بك. عندما يُنفّذ مُنشئ `Document`، أي خط مفقود سيُفعّل رد النداء المُعرّف سابقًا، وسترى رسائل الاستبدال على وحدة التحكم.
 
-بافتراض أن `DocWithMissingFont.docx` يشير إلى الخط المفقود *“Comic Sans MS”*، سترى شيئًا مشابهًا لـ:
+## الخطوة 4: التحقق من المستند المحمَّل (اختياري لكن مفيد)
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-إذا كان المستند **لا يحتوي على خطوط مفقودة**، ستظهر السطر الأخير فقط في وحدة التحكم، مؤكدًا أن رد النداء لم ينتج أي إنذارات زائفة.
-
-## الخطوة 4: معالجة الحالات الخاصة والمشكلات الشائعة
-
-### عدة خطوط مفقودة
-
-إذا استخدم المستند عدة خطوط غير متوفرة، سيُنفّذ رد النداء مرةً لكل خط. ستحصل على سلسلة من الرسائل، كل منها يحتوي على `source` و `description` خاصين به. لا تحتاج إلى كود إضافي—فقط تأكد من أن نظام التسجيل الخاص بك يستطيع التعامل مع استدعاءات سريعة متتالية.
-
-### كتم التحذيرات
-
-في حالات نادرة قد ترغب في تجاهل بعض الاستبدالات (مثلاً، تعرف أن بديلًا معينًا مقبول). قم بتمديد منطق رد النداء:
+بعد التحميل، قد ترغب في التأكد من سلامة المستند—عدد الصفحات، استخراج النص، إلخ. هذه الخطوة ليست ضرورية لالتقاط التحذيرات، لكنها تساعدك على رؤية تأثير الاستبدالات.
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### أمان الخيوط (Thread Safety)
+إذا تم استبدال خط، قد يتغير التخطيط قليلًا؛ فحص عدد الصفحات يمكن أن يكشف عن هذه التغييرات.
 
-`LoadOptions` في Aspose.Words غير آمن للخيط (thread‑safe) بشكل افتراضي. إذا كنت تقوم بتحميل مستندات بشكل متوازي، أنشئ كائن `LoadOptions` منفصل لكل خيط، أو قم بمزامنة رد النداء لتجنب حالات السباق.
+## الخطوة 5: متقدم – التعامل مع الخطوط المستبدلة برمجيًا
 
-## الخطوة 5: التحقق من الخط المستبدل في المستند الناتج
-
-بعد التحميل، قد ترغب في التأكد من أن الاستبدال فعلاً حدث. تتيح لك الـ API التجول عبر جميع الـ runs وفحص اسم الخط الفعلي:
+أحيانًا لا تريد فقط تسجيل التحذير—قد تحتاج إلى تضمين خط احتياطي أو تعديل الأنماط. إليك نمطًا سريعًا يمكنك اعتماده.
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-هذا المقتطف يطبع كل run نصي مع الخط النهائي الخاص به. إنه فحص سريع مفيد عندما تبني خطوط أنابيب تحويل PDF تلقائية.
+بإشارة Aspose.Words إلى مجلد يحتوي على الخطوط الأصلية، يمكنك *منع* الاستبدال تمامًا. إذا كان المجلد مفقودًا، يظل رد النداء يلتقط الحدث، مما يمنحك استراتيجية احتياطية.
 
-## مثال عملي كامل
+## مثال كامل يعمل
 
 بدمج كل ما سبق، إليك البرنامج الكامل الجاهز للتنفيذ:
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-احفظه باسم `FontSubstitutionInfo.java`، ثم قم بترجمته باستخدام `javac` وشغّله عبر `java FontSubstitutionInfo`. يجب أن ترى رسائل التحذير (إن وجدت) متبوعةً بقائمة الـ runs وخطوطها النهائية.
+**الناتج المتوقع على وحدة التحكم** (عند مواجهة خط مفقود):
 
-## دليل بصري
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![لقطة شاشة لإخراج وحدة التحكم تُظهر تحذيرات استبدال الخط](/images/font-substitution-warning.png "مثال على التقاط تحذيرات استبدال الخط")
+إذا كانت جميع الخطوط موجودة، يبقى رد النداء صامتًا—لا يُطبع شيء، وهذا هو السلوك المتوقع.
 
-*نص بديل:* **التقاط تحذيرات استبدال الخط** – إخراج وحدة التحكم بعد تحميل مستند يحتوي على خطوط مفقودة.
+## الأخطاء الشائعة ونصائح الخبراء
+
+| المشكلة | لماذا تحدث | الحل |
+|---------|------------|------|
+| **رد النداء لا يُنفّذ أبدًا** | نسيت ربط رد النداء بـ `LoadOptions` **أو** استخدمت المُنشئ الافتراضي لـ `Document` دون تمرير `loadOptions`. | احرص دائمًا على استدعاء `loadOptions.setWarningCallback(...)` **واستخدام** النسخة `new Document(path, loadOptions)`. |
+| **الكثير من التحذيرات يملأ السجل** | المستندات الكبيرة التي تحتوي على خطوط مفقودة كثيرة تُولّد تحذيرًا لكل استبدال. | قم بفلترة إضافية عبر فحص `info.getDescription()` لأسماء خطوط محددة، أو جمع التحذيرات في قائمة لمعالجتها لاحقًا. |
+| **الخطوط المستبدلة تؤثر على التخطيط** | الخط الاحتياطي قد يختلف في القياسات (الحجم، التباعد). | قدم مجلد خطوط مخصص (انظر الخطوة 5) أو عدّل أنماط المستند بعد التحميل. |
+| **التنفيذ على خادم بدون واجهة رسومية** | قد يعتمد الاستبدال الافتراضي على خطوط نظام غير مثبتة على الخادم. | وزّع الخطوط المطلوبة مع تطبيقك ووجّه `FontSettings` إلى ذلك المجلد. |
+
+## الأسئلة المتكررة
+
+**س: هل يعمل هذا مع PDF أو صيغ أخرى؟**  
+ج: نعم. رد النداء غير مرتبط بالصيغ؛ يُطلق لأي نوع مستند تقوم Aspose.Words بتحميله (DOC، DOCX، RTF، HTML، إلخ). الاختلاف الوحيد هو مجموعة التحذيرات التي قد تظهر.
+
+**س: هل يمكنني التقاط أنواع تحذيرات أخرى، مثل تحذيرات *دقة الصورة*؟**  
+ج: بالتأكيد. داخل طريقة `warning`، افحص `info.getWarningType()` لقيم enum أخرى مثل `WarningType.IMAGE_RESOLUTION`. ثم عالجها حسب الحاجة.
+
+**س: ماذا لو أردت قائمة بالخطوط المستبدلة بعد تحميل المستند؟**  
+ج: احفظ كل `info.getDescription()` في `List<String>` داخل رد النداء. بعد التحميل، ستحصل على مجموعة يمكنك تسجيلها، إرسالها إلى خدمة مراقبة، أو استخدامها لتشغيل روتين تنزيل خطوط.
 
 ## الخلاصة
 
-أصبح بإمكانك الآن **التقاط تحذيرات استبدال الخط** باستخدام Aspose.Words for Java. من خلال تهيئة كائن `LoadOptions` وتوفير `IWarningCallback` مخصص، تحصل على رؤية كاملة لأي أحداث خطوط مفقودة قد تؤثر صامتًا على مظهر المستند. هذه التقنية تتكامل مباشرةً مع معالجة **استبدال خطوط Aspose.Words**، وتضمن تحذيرات تحميل مستند موثوقة، وتمنحك المرونة لتسجيلها أو تنبيهها أو إيقافها وفقًا لقواعد عملك.
+أنت الآن تعرف **كيفية التقاط تحذيرات استبدال الخطوط** في Java باستخدام Aspose.Words، ولماذا كل جزء من اللغز مهم، وكيفية توسيع الحل لسيناريوهات العالم الحقيقي. من خلال الاستفادة من `LoadOptions`، و`Aspose.Words warning callback`، و`FontSettings` الاختيارية، تحصل على رؤية كاملة للخطوط المفقودة وتستطيع الحفاظ على موثوقية خطوط تحويل المستندات.
 
-### ما التالي؟
+هل أنت مستعد للخطوة التالية؟ جرّب استبدال `System.out.println` بمسجل مثل SLF4J، أو دمج قائمة التحذيرات في واجهة مستخدم تنبه المستخدمين قبل إتمام تحويل دفعة. يمكنك أيضًا استكشاف **Aspose.Words warning callback** لأنواع تحذيرات أخرى، مثل *الميزات غير المدعومة* أو تنبيهات *الصور عالية الدقة*.  
 
-- استكشف أنماط **رد نداء التحذير في Java** لأنواع تحذيرات أخرى (مثل `DEPRECATED_FEATURE`).
-- اجمع هذه الطريقة مع **تحويل PDF** لضمان أن الخطوط المستبدلة لا تُفسد التخطيط.
-- تعمق أكثر في **استخدام LoadOptions**—جرّب `Password`، `Encoding`، و `ResourceLoadingCallback` لسيناريوهات أكثر تقدماً.
+برمجة سعيدة، ولتظل ملفات PDF الخاصة بك خالية من استبدالات الخطوط غير المتوقعة! 
 
-لا تتردد في تعديل رد النداء، توجيه التحذيرات إلى إطار تسجيل، أو حتى رمي استثناء مخصص إذا كان خط حاسم مفقود. السماء هي الحد، والآن لديك أساس صلب للبناء عليه.
+![لقطة شاشة تُظهر ناتج وحدة التحكم للتحذيرات الملتقطة لاستبدال الخطوط](image-placeholder.png "التقاط تحذيرات استبدال الخطوط")
 
-برمجة سعيدة، ولتظهر مستنداتك دائمًا كما تتوقع!
+
+## ماذا يجب أن تتعلم بعد ذلك؟
+
+الدروس التالية تغطي مواضيع ذات صلة وثيقة تُكمل التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف نهج تنفيذ بديلة في مشاريعك.
+
+- [Enable Font Substitution Warnings in Aspose.Words – Complete Guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [How to Set LoadOptions in Aspose.Words for Java](/words/english/java/document-loading-and-saving/using-load-options/)
+- [How to Create PDF Documents with Aspose.Words for Java | Document Processing API](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -35,7 +35,9 @@ Aspose.Words Java için bir kod eğitimi
 Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerini ve özel boyutlu bit eşlemlerini nasıl oluşturacağınızı öğrenin. Belge işleme yeteneklerinizi bugün geliştirin.
 
 ### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Java kullanarak Word belgesine gölge efektiyle dikdörtgen şekil eklemeyi öğrenin.
+
+### [Java'da Şekil Bulanıklık Yarıçapını Yapılandırma – Tam Kılavuz](./configure-shape-blur-radius-in-java-complete-guide/)
+Java kullanarak Aspose.Words'te şekil bulanıklık yarıçapını nasıl ayarlayacağınızı öğrenin.
 
 ## Ek Kaynaklar
 

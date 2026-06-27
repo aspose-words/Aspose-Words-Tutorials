@@ -43,6 +43,8 @@ Apprenez à personnaliser les thèmes de vos documents avec Aspose.Words pour Ja
 Apprenez à appliquer des filigranes et à configurer des pages avec Aspose.Words pour Java. Un guide complet avec code source.
 ### [Style d'en-tête et de pied de page du document](./document-header-footer-styling/)
 Apprenez à styliser les en-têtes et pieds de page de vos documents avec Aspose.Words pour Java dans ce guide détaillé. Instructions étape par étape et code source inclus.
+### [Modifier le style de police dans les documents Word – Guide complet C#](./change-font-style-in-word-documents-complete-c-guide/)
+Apprenez à modifier le style de police dans les documents Word avec Aspose.Words pour C#. Guide complet avec exemples de code source. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

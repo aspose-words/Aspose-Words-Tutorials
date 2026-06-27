@@ -1,25 +1,48 @@
 ---
 category: general
-date: 2026-01-11
-description: Naučte se zachytávat varování o nahrazení písma pomocí Aspose.Words pro
-  Java. Tento tutoriál krok za krokem také pokrývá LoadOptions a zpětné volání varování.
+date: 2026-06-27
+description: Naučte se zachytávat varování o nahrazení písma v Javě pomocí Aspose.Words.
+  Tento krok‑za‑krokem tutoriál také pokrývá zpětná volání varování a použití LoadOptions.
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: cs
-og_description: Zachyťte varování o nahrazení písma pomocí Aspose.Words pro Javu.
-  Postupujte podle tohoto návodu k nastavení LoadOptions a zpětného volání varování
-  pro spolehlivé načítání dokumentů.
-og_title: Zachycení varování o nahrazení fontů v Javě – kompletní tutoriál
+og_description: Zachyťte varování o nahrazování písem v Javě pomocí Aspose.Words.
+  Postupujte podle tohoto návodu k nastavení zpětných volání varování, použití LoadOptions
+  a zpracování chybějících písem.
+og_title: Zachycení varování o substituci písma v Javě – tutoriál Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: Zachycení upozornění na nahrazení písma v Javě s Aspose.Words – Kompletní průvodce
+- Document Conversion
+title: Zachycení upozornění na nahrazení fontů v Javě s Aspose.Words – Kompletní průvodce
 url: /cs/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -27,197 +50,188 @@ url: /cs/java/document-loading-and-saving/capture-font-substitution-warnings-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zachycení varování o nahrazení písma – kompletní Java tutoriál
+# Zachycení varování o náhradě fontů v Javě s Aspose.Words – Kompletní průvodce
 
-Už jste někdy potřebovali **zachytit varování o nahrazení písma** při otevírání Word dokumentu s chybějícími fonty? Je to častý problém, zejména když generujete PDF nebo tisknete na serveru, který nemá nainstalována všechna písma. Dobrá zpráva? Aspose.Words for Java to řeší jednoduše – stačí nakonfigurovat objekt `LoadOptions` a připojit varovný callback. V tomto průvodci uvidíte přesně, jak na to, proč je to důležité a co očekávat, když se varování spustí.
+Už jste někdy potřebovali **zachytit varování o náhradě fontů** při načítání DOCX, který používá exotické typy písma? Nejste v tom sami. V mnoha reálných projektech—například automatizovaných generátorech zpráv nebo dávkových konvertorech dokumentů—chybějící fonty spouštějí tiché náhrady, které mohou narušit věrnost rozvržení.  
 
-Dotkneme se také souvisejících témat, jako je **Aspose.Words font substitution**, použití **Java warning callback** a osvědčené postupy pro **LoadOptions usage**. Na konci budete mít připravený úryvek kódu, který zaznamená každou událost chybějícího fontu, takže vaše následné zpracování vás nikdy nepřekvapí.
+Naštěstí vám Aspose.Words poskytuje čistý způsob, jak naslouchat těmto varováním. V tomto tutoriálu vás provedeme konfigurací **LoadOptions**, nastavením **Aspose.Words warning callback** a výpisem každého *varování o náhradě fontu* do konzole. Na konci přesně vědět, kdy byl font vyměněn a jak na to programově reagovat.
 
-## Požadavky
+> **Co získáte:** plně spustitelný úryvek Java kódu, vysvětlení *proč* je každá část důležitá a tipy pro zvládání okrajových případů, jako jsou vlastní složky s fonty.
 
-Než se pustíme dál, ujistěte se, že máte:
+## Požadavky a co budete potřebovat
 
-- Java 17 (nebo jakýkoli aktuální JDK) nainstalovaný a nakonfigurovaný.
-- Aspose.Words for Java 23.10 (nebo novější) na classpath.
-- Word dokument, který odkazuje na písmo, které nemáte lokálně (např. `DocWithMissingFont.docx`).
-- Základní znalost Java bloků try/catch – nic složitého.
+Before we dive in, make sure you have:
 
-Pokud vám některá z těchto položek není známá, zastavte se na chvíli a nainstalujte knihovnu z Maven Central:
+- Java 8 nebo novější nainstalované (kód funguje také s Java 11+).
+- Nejnovější Aspose.Words for Java JAR (stáhněte z oficiálního webu nebo Maven Central).
+- DOCX soubor, který odkazuje na fonty neinstalované ve vašem systému (např. *font‑rich.docx* naleznete v demo sadě Aspose).
+- Přijatelné IDE (IntelliJ IDEA, Eclipse nebo i VS Code s rozšířeními pro Java).
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+Kromě Aspose.Words nejsou vyžadovány žádné externí knihovny a příklad běží v jednoduché metodě `main`.
 
-Nyní, když je vše připraveno, pojďme na kód.
+## Krok 1: Nastavení LoadOptions – Vstupní bod pro vlastní načítání
 
-## Krok 1: Nastavte varovný callback pro **zachycení varování o nahrazení písma**
-
-První, co potřebujete, je callback, který Aspose.Words zavolá vždy, když narazí na chybějící font. Zde **zachytíme varování o nahrazení písma**. Callback implementuje rozhraní `IWarningCallback` a kontroluje `WarningType`.
+`LoadOptions` je konfigurační objekt Aspose.Words, který knihovně říká *jak* dokument načíst. Ve výchozím nastavení tiše nahrazuje chybějící fonty, ale můžete toto chování změnit pomocí varovacího callbacku.
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**Proč je to důležité:** Bez callbacku Aspose.Words tiše nahrazuje chybějící font výchozím, a nikdy se nedozvíte, že se vizuální výstup změnil. Zachycením varování můžete logovat, upozorňovat nebo dokonce přerušit načítání, pokud je chybějící font kritický.
+**Proč je to důležité:** Bez `LoadOptions` se dokument načte tiše a ztratíte přehled o chybějících fontech. Vytvořením instance získáte háček do varovacího systému.
 
-## Krok 2: Nakonfigurujte **LoadOptions** a zaregistrujte callback
+## Krok 2: Definování varovacího callbacku pro *zachycení varování o náhradě fontů*
 
-Nyní vytvoříme instanci `LoadOptions` a připojíme náš `FontWarningCallback`. Tento krok je zásadní pro **LoadOptions usage** a zajišťuje, že každé načtení dokumentu projde stejným varovným filtrem.
+Aspose.Words vysílá varovné události přes rozhraní `IWarningCallback`. Implementujte jej inline (nebo jako samostatnou třídu) a filtrujte podle `WarningType.FONT_SUBSTITUTION`.
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-Tip: Můžete znovu použít stejný objekt `LoadOptions` pro více dokumentů, což ušetří několik řádků boilerplate kódu a zaručí konzistentní zpracování **document loading warnings** napříč aplikací.
+**Vysvětlení:**  
+- `info.getWarningType()` vám říká kategorii varování.  
+- `WarningType.FONT_SUBSTITUTION` je hodnota výčtu, o kterou nám jde.  
+- `info.getDescription()` obsahuje lidsky čitelnou zprávu, např. *„Font 'Comic Sans MS' nebyl nalezen, byl nahrazen fontem 'Arial'.“*  
 
-## Krok 3: Načtěte dokument a pozorujte výstup
+Tisknutím popisu **zachytíte varování o náhradě fontů** v reálném čase.
 
-S připojeným callbackem stačí načíst váš Word soubor. Pokud dokument odkazuje na písmo, které není nainstalováno, callback se spustí a vypíše podrobnosti do konzole.
+## Krok 3: Načtení dokumentu pomocí nakonfigurovaných LoadOptions
+
+Jakmile je callback nastaven, načtěte svůj DOCX. Varovací callback se spustí automaticky během parsování.
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### Očekávaný výstup v konzoli
+Nahraďte `YOUR_DIRECTORY` skutečnou cestou k vašemu testovacímu souboru. Když se spustí konstruktor `Document`, jakýkoli chybějící font spustí dříve definovaný callback a na konzoli uvidíte zprávy o náhradě.
 
-Za předpokladu, že `DocWithMissingFont.docx` odkazuje na chybějící font *“Comic Sans MS”*, uvidíte něco podobného:
+## Krok 4: Ověření načteného dokumentu (volitelné, ale užitečné)
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-Pokud dokument **neobsahuje žádná chybějící písma**, konzole zobrazí jen poslední řádek, což potvrzuje, že váš callback nevytvořil žádné falešné poplachy.
-
-## Krok 4: Řešení okrajových případů a běžných úskalí
-
-### Více chybějících písem
-
-Pokud dokument používá několik nedostupných fontů, callback se spustí jednou pro každý font. Dostanete sérii zpráv, každou s vlastním `source` a `description`. Žádný další kód není potřeba – jen se ujistěte, že váš logovací systém zvládne rychlé po sobě jdoucí volání.
-
-### Potlačení varování
-
-V ojedinělých případech můžete chtít ignorovat určité nahrazení (např. víte, že konkrétní fallback je přijatelný). Rozšiřte logiku callbacku:
+Po načtení můžete chtít ověřit integritu dokumentu—počet stránek, extrakci textu atd. Tento krok není nutný pro zachycení varování, ale pomůže vám vidět dopad náhrad.
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### Bezpečnost vlákna
+Pokud byl font nahrazen, rozvržení se může mírně posunout; kontrola počtu stránek může odhalit takové změny.
 
-Aspose.Words `LoadOptions` není ve výchozím nastavení thread‑safe. Pokud načítáte dokumenty paralelně, vytvořte samostatnou instanci `LoadOptions` pro každé vlákno nebo synchronizujte callback, aby nedošlo k závodním podmínkám.
+## Krok 5: Pokročilé – Programové zpracování nahrazených fontů
 
-## Krok 5: Ověření nahrazeného písma ve výsledném dokumentu
-
-Po načtení můžete chtít potvrdit, že nahrazení skutečně proběhlo. API vám umožní iterovat přes všechny běhy (runs) a zkontrolovat efektivní název písma:
+Někdy nechcete jen zaznamenat varování—můžete potřebovat vložit náhradní font nebo upravit stylování. Níže je rychlý vzor, který můžete použít.
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-Tento úryvek vypíše každý textový běh s jeho finálním fontem. Je to užitečná kontrola, když stavíte automatizované pipeline pro konverzi do PDF.
+Nasměrováním Aspose.Words na složku, která obsahuje originální fonty, můžete *zabránit* náhradě úplně. Pokud složka chybí, varovací callback stále zachytí událost a poskytne vám náhradní strategii.
 
 ## Kompletní funkční příklad
 
-Spojením všech částí získáte kompletní, připravený program:
+Spojením všech částí získáte kompletní, připravený k spuštění program:
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-Uložte jej jako `FontSubstitutionInfo.java`, zkompilujte pomocí `javac` a spusťte `java FontSubstitutionInfo`. Měli byste vidět varovné zprávy (pokud nějaké jsou) následované seznamem běhů a jejich finálních fontů.
+**Očekávaný výstup do konzole** (když je detekován chybějící font):
 
-## Vizuální pomůcka
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![Snímek obrazovky výstupu konzole zobrazující varování o nahrazení písma](/images/font-substitution-warning.png "příklad zachycení varování o nahrazení písma")
+Pokud jsou všechny fonty přítomny, callback zůstane tichý—nic se nevytiskne, což je přesně to, co byste očekávali.
 
-*Alt text:* **zachycení varování o nahrazení písma** – výstup v konzoli po načtení dokumentu s chybějícími písmy.
+## Časté úskalí a profesionální tipy
+
+| Pitfall | Why it happens | Fix |
+|---------|----------------|-----|
+| **Callback se nikdy nespustí** | Zapomněli jste připojit callback k `LoadOptions` **nebo** použili výchozí konstruktor `Document` bez předání `loadOptions`. | Vždy zavolejte `loadOptions.setWarningCallback(...)` **a** použijte přetížený konstruktor `new Document(path, loadOptions)`. |
+| **Příliš mnoho varování zaplňuje log** | Velké dokumenty s mnoha chybějícími fonty generují varování pro každou náhradu. | Dále filtrujte kontrolou `info.getDescription()` na konkrétní názvy fontů, nebo agregujte varování do seznamu pro pozdější zpracování. |
+| **Nahrazené fonty ovlivňují rozvržení** | Náhradní font může mít jiné metriky (velikost, rozestupy). | Poskytněte vlastní složku s fonty (viz Krok 5) nebo po načtení upravte styl dokumentu. |
+| **Běh na serveru bez grafického rozhraní** | Výchozí náhrada fontu může spoléhat na systémové fonty, které na serveru nejsou nainstalovány. | Distribuujte potřebné fonty s aplikací a nasměrujte `FontSettings` na tuto složku. |
+
+## Často kladené otázky
+
+**Q: Funguje to i s PDF nebo jinými formáty?**  
+A: Ano. Varovací callback je nezávislý na formátu; spouští se pro jakýkoli typ dokumentu, který Aspose.Words načítá (DOC, DOCX, RTF, HTML, atd.). Jediný rozdíl je v množině varování, která se může objevit.
+
+**Q: Mohu zachytit i jiné typy varování, například varování o *rozlišení obrázku*?**  
+A: Rozhodně. V metodě `warning` zkontrolujte `info.getWarningType()` na jiné hodnoty výčtu, jako je `WarningType.IMAGE_RESOLUTION`. Pak je můžete zpracovat podle potřeby.
+
+**Q: Co když potřebuji seznam nahrazených fontů po načtení dokumentu?**  
+A: Uložte každé `info.getDescription()` do `List<String>` uvnitř callbacku. Po načtení budete mít kolekci, kterou můžete zaznamenat, odeslat do monitorovací služby nebo použít k spuštění rutiny pro stažení fontů.
 
 ## Závěr
 
-Nyní víte, jak **zachytit varování o nahrazení písma** pomocí Aspose.Words for Java. Nakonfigurováním objektu `LoadOptions` a poskytnutím vlastního `IWarningCallback` získáte úplnou přehlednost o všech událostech chybějícího fontu, které by jinak tiše ovlivnily vzhled dokumentu. Tento postup se přímo integruje do **Aspose.Words font substitution** handling, zajišťuje spolehlivé **document loading warnings** a dává vám flexibilitu logovat, upozorňovat nebo přerušovat podle vašich obchodních pravidel.
+Nyní víte **jak zachytit varování o náhradě fontů** v Javě pomocí Aspose.Words, proč je každá část důležitá a jak rozšířit řešení pro reálné scénáře. Využitím `LoadOptions`, `Aspose.Words warning callback` a volitelných `FontSettings` získáte úplný přehled o chybějících fontech a můžete udržet spolehlivé pipeline pro konverzi dokumentů.
 
-### Co dál?
+Jste připraveni na další krok? Zkuste nahradit `System.out.println` loggerem jako SLF4J, nebo integrovat seznam varování do UI, které uživatele upozorní před dokončením dávkové konverze. Můžete také prozkoumat **Aspose.Words warning callback** pro jiné typy varování, jako jsou *nepodporované funkce* nebo *varování o vysokém rozlišení obrázku*.
 
-- Prozkoumejte vzory **Java warning callback** pro jiné typy varování (např. `DEPRECATED_FEATURE`).
-- Kombinujte tento přístup s **PDF konverzí**, aby bylo zajištěno, že nahrazená písma neporuší rozvržení.
-- Ponořte se hlouběji do **LoadOptions usage** – experimentujte s `Password`, `Encoding` a `ResourceLoadingCallback` pro pokročilejší scénáře.
+Šťastné programování a ať vaše PDF už nikdy netrpí nečekanými výměnami fontů!
 
-Neváhejte upravit callback, směrovat varování do logovacího frameworku nebo dokonce vyhodit vlastní výjimku, pokud chybí kritické písmo. Možnosti jsou neomezené a nyní máte pevný základ, na kterém můžete stavět.
+![Snímek obrazovky zobrazující výstup do konzole zachycených varování o náhradě fontů](image-placeholder.png "zachycení varování o náhradě fontů")
 
-Šťastné programování a ať se vaše dokumenty vždy vykreslí přesně tak, jak očekáváte!
+
+## Co byste se měli naučit dál?
+
+Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní přístupy k implementaci ve vašich projektech.
+
+- [Povolení varování o náhradě fontů v Aspose.Words – Kompletní průvodce](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [Jak nastavit LoadOptions v Aspose.Words pro Java](/words/english/java/document-loading-and-saving/using-load-options/)
+- [Jak vytvořit PDF dokumenty s Aspose.Words pro Java | Document Processing API](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

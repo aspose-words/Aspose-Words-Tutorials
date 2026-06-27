@@ -68,6 +68,12 @@ Exportieren Sie das angereicherte Dokument in das gewünschte Format – PDF, DO
 ### [Meisterhafte Textverarbeitung in Java&#58; Verwendung von Aspose.Words & AI‑Modellen für Zusammenfassung und Übersetzung](./java-aspose-words-text-processing/)
 Erfahren Sie, wie Sie die Textzusammenfassung und -übersetzung mit Aspose.Words für Java und OpenAI‑GPT‑4 sowie Googles Gemini automatisieren können. Verbessern Sie noch heute Ihre Java‑Anwendungen.
 
+### [Wie man Grammatik in Java-Dokumenten prüft – Vollständiger Programmierleitfaden](./how-to-check-grammar-in-java-documents-complete-programming/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Grammatikprüfungen automatisieren und fehlerfreie Dokumente erstellen.
+
+### [Word‑Dokument in Java mit selbstgehosteter KI zusammenfassen – Vollständige Anleitung](./summarize-word-document-in-java-with-self-hosted-ai-full-gui/)
+Erfahren Sie, wie Sie ein Word‑Dokument in Java mithilfe einer selbstgehosteten KI zusammenfassen und automatisieren können.
+
 ## Zusätzliche Ressourcen
 
 - [Aspose.Words für Java Dokumentation](https://reference.aspose.com/words/java/)

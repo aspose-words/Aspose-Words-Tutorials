@@ -43,6 +43,8 @@ Naučte se, jak si přizpůsobit motivy dokumentů pomocí Aspose.Words pro Javu
 Naučte se, jak aplikovat vodoznaky a nastavit konfigurace stránek pomocí Aspose.Words pro Javu. Komplexní průvodce se zdrojovým kódem.
 ### [Styl záhlaví a zápatí dokumentu](./document-header-footer-styling/)
 Naučte se v tomto podrobném průvodci, jak upravovat styly záhlaví a zápatí dokumentů pomocí Aspose.Words pro Javu. Součástí je podrobný návod a zdrojový kód.
+### [Změna stylu písma v dokumentech Word – Kompletní průvodce v C#](./change-font-style-in-word-documents-complete-c-guide/)
+Naučte se, jak změnit styl písma v dokumentech Word pomocí Aspose.Words pro Javu. Kompletní průvodce s ukázkami kódu v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

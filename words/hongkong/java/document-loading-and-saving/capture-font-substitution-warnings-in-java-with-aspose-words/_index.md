@@ -1,22 +1,45 @@
 ---
 category: general
-date: 2026-01-11
-description: 學習如何使用 Aspose.Words for Java 捕捉字型替換警告。本分步教學亦涵蓋 LoadOptions 與警告回呼。
+date: 2026-06-27
+description: 學習如何在 Java 中使用 Aspose.Words 捕捉字型取代警告。本分步教學亦會介紹警告回呼以及 LoadOptions 的使用。
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: zh-hant
-og_description: 使用 Aspose.Words for Java 捕捉字型替換警告。請依照本指南設定 LoadOptions 及警告回呼，以確保文件載入的可靠性。
-og_title: 在 Java 中捕捉字型替換警告 – 完整教學
+og_description: 捕捉 Java 中使用 Aspose.Words 的字型替換警告。請依照本指南設定警告回呼、使用 LoadOptions，並處理缺少的字型。
+og_title: 在 Java 中捕捉字型替換警告 – Aspose.Words 教程
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: 在 Java 中使用 Aspose.Words 捕捉字型替換警告 – 完整指南
+- Document Conversion
+title: 在 Java 中使用 Aspose.Words 捕捉字體替換警告 – 完整指南
 url: /zh-hant/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -24,195 +47,188 @@ url: /zh-hant/java/document-loading-and-saving/capture-font-substitution-warning
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 捕捉字型替代警告 – 完整 Java 教程
+# 在 Java 中使用 Aspose.Words 捕捉字型替換警告 – 完整指南
 
-有沒有曾經在開啟缺少字型的 Word 文件時需要**捕捉字型替代警告**？這是常見的麻煩，尤其是當你在伺服器上產生 PDF 或列印，而該伺服器未安裝所有字型。好消息是？Aspose.Words for Java 讓這變得輕鬆——只需設定 `LoadOptions` 物件並掛接警告回呼。在本指南中，你將看到如何操作、為何重要，以及警告觸發時會發生什麼。
+是否曾在載入使用稀有字型的 DOCX 時，需要 **捕捉字型替換警告**？你並不是唯一遇到這個問題的人。在許多實務專案中——例如自動化報表產生器或批次文件轉換工具——缺少的字型會悄悄被替換，導致版面配置失真。
 
-我們還會涉及相關主題，如 **Aspose.Words 字型替代**、使用 **Java 警告回呼**，以及 **LoadOptions 使用** 的最佳實踐。完成後，你將擁有一段可直接執行的程式碼片段，能記錄每一次缺字型事件，讓後續處理不會出乎意料。
+幸好，Aspose.Words 提供了簡潔的方式來監聽這些警告。在本教學中，我們將說明如何設定 **LoadOptions**、掛接 **Aspose.Words 警告回呼**，以及將每個 *字型替換* 訊息印出至主控台。完成後，你將能精確掌握字型何時被替換，並以程式方式作出回應。
 
-## 前置條件
+> **你將得到：** 完整可執行的 Java 程式碼、每段程式碼意義的說明，以及處理自訂字型目錄等邊緣案例的技巧。
 
-- 已安裝並設定 Java 17（或任何較新的 JDK）。
-- 在 classpath 中加入 Aspose.Words for Java 23.10（或更新版本）。
-- 一個引用了本機未安裝字型的 Word 文件（例如 `DocWithMissingFont.docx`）。
-- 基本了解 Java 的 try/catch 區塊——不需要太高深。
+## 前置條件與所需環境
 
-如果上述任一項目不熟悉，請稍作停頓，從 Maven Central 安裝此函式庫：
+在開始之前，請確保你已具備：
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+- 已安裝 Java 8 或更新版本（程式碼同樣支援 Java 11+）。
+- 最新的 Aspose.Words for Java JAR（可從官方網站或 Maven Central 下載）。
+- 一個引用了本機未安裝字型的 DOCX 檔案（例如 Aspose 示範套件中的 *font‑rich.docx*）。
+- 一個好用的 IDE（IntelliJ IDEA、Eclipse，或是安裝 Java 擴充套件的 VS Code）。
 
-現在基礎已就緒，讓我們進入程式碼。
+除 Aspose.Words 之外，無需其他外部函式庫，範例可在純 `main` 方法中執行。
 
-## 步驟 1：設定警告回呼以**捕捉字型替代警告**
+## 步驟 1：設定 LoadOptions – 自訂載入的入口點
 
-你首先需要的是一個回呼，Aspose.Words 在遇到缺少字型時會呼叫它。這就是我們**捕捉字型替代警告**的地方。此回呼實作 `IWarningCallback` 介面，並檢查 `WarningType`。
+`LoadOptions` 是 Aspose.Words 用來告訴函式庫 *如何* 讀取文件的設定容器。預設情況下，它會靜默替換缺少的字型，但你可以透過警告回呼改變此行為。
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**為什麼這很重要：** 若沒有回呼，Aspose.Words 會悄悄將缺少的字型換成預設字型，你永遠不會知道視覺輸出已變更。透過捕捉警告，你可以記錄、提醒，甚至在缺少關鍵字型時中止載入。
+**為什麼重要：** 若不使用 `LoadOptions`，文件會安靜地載入，無法得知缺少的字型。建立此實例即可為警告系統提供掛點。
 
-## 步驟 2：設定 **LoadOptions** 並註冊回呼
+## 步驟 2：定義警告回呼以 *捕捉字型替換警告*
 
-現在我們建立 `LoadOptions` 實例，並附加我們的 `FontWarningCallback`。此步驟對於 **LoadOptions 使用** 至關重要，確保每次文件載入都會經過相同的警告過濾。
+Aspose.Words 會透過 `IWarningCallback` 介面傳遞警告事件。你可以在同一檔案內實作（或另建類別），並篩選 `WarningType.FONT_SUBSTITUTION`。
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-**提示：** 你可以在多個文件間重複使用同一個 `LoadOptions` 物件，這樣可以減少程式碼量，並確保在整個應用程式中一致處理 **文件載入警告**。
+**說明：**  
+- `info.getWarningType()` 會回傳警告的類別。  
+- `WarningType.FONT_SUBSTITUTION` 是我們關注的列舉值。  
+- `info.getDescription()` 包含可讀的訊息，例如 *“Font 'Comic Sans MS' not found, substituted with 'Arial'.”*  
 
-## 步驟 3：載入文件並觀察輸出
+透過印出 description，你即可 **即時捕捉字型替換警告**。
 
-將回呼掛接好後，只需載入你的 Word 檔案。若文件引用了未安裝的字型，回呼會被觸發，並將詳細資訊印到主控台。
+## 步驟 3：使用已設定的 LoadOptions 載入文件
+
+回呼設定完成後，使用 `Document` 讀取 DOCX。警告回呼會在解析過程自動觸發。
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### 預期的主控台輸出
+將 `YOUR_DIRECTORY` 替換為實際的測試檔案路徑。當 `Document` 建構子執行時，任何缺字型都會觸發先前定義的回呼，並在主控台顯示替換訊息。
 
-假設 `DocWithMissingFont.docx` 引用了缺少的字型 *“Comic Sans MS”*，你會看到類似以下的訊息：
+## 步驟 4：驗證已載入的文件（可選但有幫助）
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-如果文件**沒有缺少字型**，主控台只會顯示最後一行，證實你的回呼沒有產生任何誤報。
-
-## 步驟 4：處理邊緣情況與常見陷阱
-
-### 多個缺少字型
-
-若文件使用了多個不可用的字型，回呼會對每個字型執行一次。你會收到一連串訊息，每個都有自己的 `source` 與 `description`。不需要額外程式碼——只要確保你的日誌系統能處理快速連續的呼叫即可。
-
-### 抑制警告
-
-在罕見情況下，你可能想忽略某些替代（例如，你知道特定的備援是可接受的）。擴充回呼邏輯：
+載入後，你可能想確認文件的完整性——頁數、文字抽取等。此步驟對捕捉警告不是必須，但能讓你觀察替換對版面的影響。
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### 執行緒安全性
+若字型被替換，版面可能會略有移位；檢查頁數即可發現此類變化。
 
-Aspose.Words 的 `LoadOptions` 預設並非執行緒安全。若你平行載入文件，請為每個執行緒建立獨立的 `LoadOptions` 實例，或同步回呼以避免競爭條件。
+## 步驟 5：進階 – 程式化處理被替換的字型
 
-## 步驟 5：驗證結果文件中的替代字型
-
-載入後，你可能想確認替代已確實發生。API 允許你遍歷所有 run，檢查實際使用的字型名稱：
+有時你不只想記錄警告，還需要嵌入備援字型或調整樣式。以下提供一個快速範例供你參考。
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-此程式碼片段會印出每個文字 run 及其最終字型。當你建構自動化 PDF 轉換流程時，這是一個方便的完整性檢查。
+透過將 Aspose.Words 指向包含原始字型的資料夾，你可以 *防止* 替換發生。若資料夾不存在，警告回呼仍會捕捉事件，讓你有後備策略。
 
 ## 完整可執行範例
 
-將所有部份整合起來，以下是完整、可直接執行的程式：
+將上述步驟整合，以下是完整、可直接執行的程式：
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-將此檔案儲存為 `FontSubstitutionInfo.java`，使用 `javac` 編譯，然後執行 `java FontSubstitutionInfo`。你應該會看到警告訊息（若有），接著是 run 列表及其最終字型。
+**預期的主控台輸出**（當遇到缺少的字型時）：
 
-## 視覺說明
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![顯示字型替代警告的主控台輸出截圖](/images/font-substitution-warning.png "捕捉字型替代警告範例")
+若所有字型皆已安裝，回呼將保持沉默——不會印出任何內容，這正是我們所期待的行為。
 
-*Alt text:* **捕捉字型替代警告** – 載入缺少字型的文件後的主控台輸出。
+## 常見陷阱與專業提示
+
+| 陷阱 | 為何會發生 | 解決方式 |
+|------|------------|----------|
+| **回呼從未觸發** | 你忘記將回呼掛到 `LoadOptions` **或** 使用了不帶 `loadOptions` 參數的 `Document` 預設建構子。 | 必須呼叫 `loadOptions.setWarningCallback(...)` **且** 使用 `new Document(path, loadOptions)` 的重載版本。 |
+| **警告過多佔滿日誌** | 大型文件中缺少多個字型會產生每個替換一次的警告。 | 進一步篩選 `info.getDescription()` 只保留特定字型名稱，或將警告聚合至列表，稍後一次處理。 |
+| **替換字型影響版面** | 替代字型的度量（大小、間距）可能與原字型不同。 | 參考步驟 5提供自訂字型資料夾，或在載入後調整文件樣式。 |
+| **在無頭伺服器上執行** | 預設的字型備援可能依賴未安裝於伺服器的系統字型。 | 隨應用程式一起部署所需字型，並使用 `FontSettings` 指向該資料夾。 |
+
+## 常見問答
+
+**Q: 這個機制能用於 PDF 或其他格式嗎？**  
+A: 能。警告回呼與格式無關，會在 Aspose.Words 載入任何文件類型（DOC、DOCX、RTF、HTML 等）時觸發。唯一差別是不同格式可能產生的警告類型。
+
+**Q: 我可以捕捉其他類型的警告，例如 *影像解析度* 警告嗎？**  
+A: 當然可以。在 `warning` 方法內檢查 `info.getWarningType()`，若值為 `WarningType.IMAGE_RESOLUTION`，即可自行處理。
+
+**Q: 載入文件後，我該如何取得所有被替換的字型清單？**  
+A: 在回呼中將每筆 `info.getDescription()` 存入 `List<String>`。文件載入完成後，你就擁有一個可供記錄、傳送至監控服務，或觸發字型下載流程的集合。
 
 ## 結論
 
-現在你已了解如何使用 Aspose.Words for Java **捕捉字型替代警告**。透過設定 `LoadOptions` 物件並提供自訂的 `IWarningCallback`，你可以完整掌握任何缺少字型的事件，避免它們悄悄影響文件外觀。此技巧直接結合 **Aspose.Words 字型替代** 處理，確保可靠的 **文件載入警告**，並讓你依據業務規則彈性地記錄、提醒或中止。
+現在你已掌握 **在 Java 中使用 Aspose.Words 捕捉字型替換警告** 的完整方法，了解每個環節的意義，並能依實際需求擴充解決方案。透過 `LoadOptions`、`Aspose.Words 警告回呼`，以及可選的 `FontSettings`，你可以完整掌握缺字型情況，確保文件轉換流程的可靠性。
 
-### 接下來？
+準備好下一步了嗎？試著把 `System.out.println` 換成 SLF4J 等日誌框架，或將警告清單整合至 UI，於批次轉換前即時提醒使用者。你也可以探索 **Aspose.Words 警告回呼** 的其他類型，例如 *不支援的功能* 或 *高解析度影像* 警告。
 
-- 探索 **Java 警告回呼** 的其他警告類型模式（例如 `DEPRECATED_FEATURE`）。
-- 將此方法與 **PDF 轉換** 結合，確保替代字型不會破壞版面配置。
-- 更深入了解 **LoadOptions 使用**——嘗試 `Password`、`Encoding` 與 `ResourceLoadingCallback` 以應對更進階的情境。
+祝程式開發順利，願你的 PDF 再也不會因意外的字型替換而出問題！
 
-隨意調整回呼、將警告導向日誌框架，或在關鍵字型缺失時拋出自訂例外。沒有任何限制，現在你已擁有堅實的基礎可供構建。
+![Screenshot showing console output of captured font substitution warnings](image-placeholder.png "capture font substitution warnings")
 
-祝開發愉快，願你的文件永遠如預期般正確呈現！
+
+## 接下來你可以學習什麼？
+
+以下教學與本指南緊密相關，能進一步深化你所學的技巧。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你在專案中靈活運用其他 API 功能或探索替代實作方式。
+
+- [Enable Font Substitution Warnings in Aspose.Words – Complete Guide](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [How to Set LoadOptions in Aspose.Words for Java](/words/english/java/document-loading-and-saving/using-load-options/)
+- [How to Create PDF Documents with Aspose.Words for Java | Document Processing API](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

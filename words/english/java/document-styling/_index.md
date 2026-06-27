@@ -44,6 +44,8 @@ Learn how to customize document themes using Aspose.Words for Java. This compreh
 Learn how to apply watermarks and set up page configurations with Aspose.Words for Java. A comprehensive guide with source code.
 ### [Document Header and Footer Styling](./document-header-footer-styling/)
 Learn how to style document headers and footers using Aspose.Words for Java in this detailed guide. Step-by-step instructions and source code included.
+### [Change Font Style in Word Documents – Complete C# Guide](./change-font-style-in-word-documents-complete-c-guide/)
+Learn how to change font styles in Word documents using Aspose.Words for C#. Step-by-step guide with source code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

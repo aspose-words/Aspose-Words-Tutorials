@@ -1,27 +1,50 @@
 ---
 category: general
-date: 2026-01-11
-description: Apprenez à capturer les avertissements de substitution de police avec
-  Aspose.Words pour Java. Ce tutoriel étape par étape couvre également les LoadOptions
-  et les rappels d’avertissement.
+date: 2026-06-27
+description: Apprenez à capturer les avertissements de substitution de police en Java
+  à l’aide d’Aspose.Words. Ce tutoriel pas à pas couvre également les rappels d’avertissement
+  et l’utilisation de LoadOptions.
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: fr
-og_description: Capturez les avertissements de substitution de police avec Aspose.Words
-  pour Java. Suivez ce guide pour configurer LoadOptions et un rappel d’avertissement
-  afin de charger les documents de manière fiable.
+og_description: Capturez les avertissements de substitution de polices en Java avec
+  Aspose.Words. Suivez ce guide pour configurer les callbacks d’avertissement, utiliser
+  LoadOptions et gérer les polices manquantes.
 og_title: Capturer les avertissements de substitution de police en Java – Tutoriel
-  complet
+  Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: Capturer les avertissements de substitution de police en Java avec Aspose.Words
+- Document Conversion
+title: Capture des avertissements de substitution de police en Java avec Aspose.Words
   – Guide complet
 url: /fr/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
@@ -30,195 +53,187 @@ url: /fr/java/document-loading-and-saving/capture-font-substitution-warnings-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Capture des avertissements de substitution de police – Tutoriel complet Java
+# Capturer les avertissements de substitution de police en Java avec Aspose.Words – Guide complet
 
-Vous avez déjà eu besoin de **capturer les avertissements de substitution de police** lors de l'ouverture d'un document Word avec des polices manquantes ? C’est un problème fréquent, surtout lorsque vous générez des PDF ou imprimez sur un serveur qui ne possède pas toutes les polices installées. Bonne nouvelle ? Aspose.Words for Java rend cela simple — il suffit de configurer un objet `LoadOptions` et d’y brancher un rappel d’avertissement. Dans ce guide, vous verrez exactement comment faire, pourquoi c’est important, et à quoi vous attendre lorsque l’avertissement se déclenche.
+Vous avez déjà eu besoin de **capturer les avertissements de substitution de police** lors du chargement d'un DOCX utilisant des polices exotiques ? Vous n'êtes pas le seul. Dans de nombreux projets réels—pensez aux générateurs de rapports automatisés ou aux convertisseurs de documents par lots—les polices manquantes déclenchent des substitutions silencieuses qui peuvent ruiner la fidélité de la mise en page.  
 
-Nous aborderons également des sujets connexes comme **Aspose.Words font substitution**, l’utilisation d’un **Java warning callback**, et les meilleures pratiques pour **LoadOptions usage**. À la fin, vous disposerez d’un extrait prêt à l’exécution qui consigne chaque événement de police manquante, afin que votre traitement en aval ne vous surprenne jamais.
+Heureusement, Aspose.Words vous offre un moyen simple d'écouter ces avertissements. Dans ce tutoriel, nous parcourrons la configuration de **LoadOptions**, le branchement d'un **callback d'avertissement Aspose.Words**, et l'affichage de chaque avis de *substitution de police* dans la console. À la fin, vous saurez exactement quand une police a été remplacée et comment réagir programmatiquement.
 
-## Prérequis
+> **Ce que vous obtiendrez :** un extrait Java entièrement exécutable, une explication du *pourquoi* chaque élément est important, et des conseils pour gérer les cas limites comme les répertoires de polices personnalisées.
 
-- Java 17 (ou tout JDK récent) installé et configuré.
-- Aspose.Words for Java 23.10 (ou plus récent) sur votre classpath.
-- Un document Word qui référence une police que vous n’avez pas localement (par ex., `DocWithMissingFont.docx`).
-- Familiarité de base avec les blocs try/catch Java — rien de compliqué.
+## Prérequis et ce dont vous aurez besoin
 
-Si l’un de ces points vous est inconnu, faites une pause et installez la bibliothèque depuis Maven Central :
+Before we dive in, make sure you have:
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+- Java 8 ou une version plus récente installée (le code fonctionne également avec Java 11+).
+- Le dernier JAR Aspose.Words for Java (téléchargez-le depuis le site officiel ou Maven Central).
+- Un fichier DOCX qui référence des polices non installées sur votre machine (par ex., un *font‑rich.docx* que vous pouvez trouver dans le jeu de démonstration Aspose).
+- Un IDE décente (IntelliJ IDEA, Eclipse, ou même VS Code avec les extensions Java).
 
-Maintenant que les bases sont en place, passons au code.
+Aucune bibliothèque externe au-delà d'Aspose.Words n'est requise, et l'exemple s'exécute dans une simple méthode `main`.
 
-## Étape 1 : Configurer un rappel d’avertissement pour **capturer les avertissements de substitution de police**
+## Étape 1 : Configurer LoadOptions – Le point d'entrée pour le chargement personnalisé
 
-La première chose dont vous avez besoin est un rappel que Aspose.Words invoquera chaque fois qu’il rencontre une police manquante. C’est ici que nous **capturons les avertissements de substitution de police**. Le rappel implémente l’interface `IWarningCallback` et vérifie le `WarningType`.
+`LoadOptions` est le sac de configuration d'Aspose.Words qui indique à la bibliothèque *comment* lire un document. Par défaut, il substitue silencieusement les polices manquantes, mais vous pouvez modifier ce comportement avec un callback d'avertissement.
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**Pourquoi c’est important :** Sans rappel, Aspose.Words remplace silencieusement la police manquante par une police par défaut, et vous ne savez jamais que le rendu visuel a changé. En capturant l’avertissement, vous pouvez consigner, alerter, ou même interrompre le chargement si la police manquante est critique.
+**Pourquoi c'est important :** Sans `LoadOptions`, le document se charge silencieusement et vous perdez la visibilité sur les polices manquantes. En créant une instance, vous obtenez un point d'accroche pour le système d'avertissement.
 
-## Étape 2 : Configurer **LoadOptions** et enregistrer le rappel
+## Étape 2 : Définir un callback d'avertissement pour *capturer les avertissements de substitution de police*
 
-Nous créons maintenant une instance de `LoadOptions` et y attachons notre `FontWarningCallback`. Cette étape est essentielle pour **LoadOptions usage** et garantit que chaque chargement de document passe par le même filtre d’avertissement.
+Aspose.Words transmet les événements d'avertissement via l'interface `IWarningCallback`. Implémentez‑la en ligne (ou comme classe séparée) et filtrez pour `WarningType.FONT_SUBSTITUTION`.
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-**Astuce :** Vous pouvez réutiliser le même objet `LoadOptions` pour plusieurs documents, ce qui économise quelques lignes de code répétitif et garantit une gestion cohérente des **document loading warnings** dans votre application.
+**Explication :**  
+- `info.getWarningType()` indique la catégorie de l'avertissement.  
+- `WarningType.FONT_SUBSTITUTION` est la valeur d'énumération qui nous intéresse.  
+- `info.getDescription()` contient un message lisible par l'homme, par ex., *« Police 'Comic Sans MS' non trouvée, substituée par 'Arial' ». *
 
-## Étape 3 : Charger le document et observer la sortie
+En affichant la description, vous **capturez les avertissements de substitution de police** en temps réel.
 
-Avec le rappel configuré, chargez simplement votre fichier Word. Si le document référence une police qui n’est pas installée, le rappel se déclenchera et affichera les détails dans la console.
+## Étape 3 : Charger le document en utilisant les LoadOptions configurés
+
+Maintenant que le callback est en place, chargez votre DOCX. Le callback d'avertissement se déclenche automatiquement pendant l'analyse.
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### Sortie console attendue
+Remplacez `YOUR_DIRECTORY` par le chemin réel de votre fichier de test. Lorsque le constructeur `Document` s'exécute, toute police manquante déclenche le callback défini précédemment, et vous verrez les messages de substitution dans la console.
 
-En supposant que `DocWithMissingFont.docx` référence la police manquante *« Comic Sans MS »*, vous verrez quelque chose comme :
+## Étape 4 : Vérifier le document chargé (facultatif mais utile)
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-Si le document ne contient **aucune police manquante**, la console affichera uniquement la ligne finale, confirmant que votre rappel n’a généré aucun faux positif.
-
-## Étape 4 : Gestion des cas limites et des pièges courants
-
-### Polices manquantes multiples
-
-Si un document utilise plusieurs polices indisponibles, le rappel s’exécute une fois par police. Vous recevrez une série de messages, chacun avec son propre `source` et `description`. Aucun code supplémentaire n’est requis — assurez‑vous simplement que votre système de journalisation peut gérer des appels successifs rapides.
-
-### Suppression des avertissements
-
-Dans de rares cas, vous pourriez vouloir ignorer certaines substitutions (par ex., vous savez qu’un remplacement particulier est acceptable). Étendez la logique du rappel :
+Après le chargement, vous pouvez vouloir confirmer l'intégrité du document — nombre de pages, extraction de texte, etc. Cette étape n'est pas requise pour capturer les avertissements, mais elle vous aide à voir l'impact des substitutions.
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### Sécurité des threads
+Si une police a été substituée, la mise en page peut légèrement changer ; vérifier le nombre de pages peut révéler ces modifications.
 
-`LoadOptions` d’Aspose.Words n’est pas thread‑safe par défaut. Si vous chargez des documents en parallèle, créez une instance distincte de `LoadOptions` par thread, ou synchronisez le rappel pour éviter les conditions de concurrence.
+## Étape 5 : Avancé – Gérer les polices substituées programmatiquement
 
-## Étape 5 : Vérifier la police substituée dans le document résultant
-
-Après le chargement, vous pouvez vouloir confirmer que la substitution a bien eu lieu. L’API vous permet d’itérer sur tous les runs et d’inspecter le nom de police effectif :
+Parfois, vous ne voulez pas seulement consigner l'avertissement — vous pourriez devoir intégrer une police de secours ou ajuster le style. Voici un modèle rapide que vous pouvez adopter.
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-Cet extrait affiche chaque run de texte avec sa police finale. C’est une vérification de bon sens pratique lorsque vous construisez des pipelines automatisés de conversion PDF.
+En indiquant à Aspose.Words un dossier contenant les polices originales, vous pouvez *éviter* totalement la substitution. Si le dossier est absent, le callback d'avertissement capture toujours l'événement, vous offrant une stratégie de secours.
 
 ## Exemple complet fonctionnel
 
-En rassemblant tous les éléments, voici le programme complet, prêt à l’exécution :
+En assemblant le tout, voici le programme complet, prêt à être exécuté :
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-Enregistrez ceci sous le nom `FontSubstitutionInfo.java`, compilez avec `javac`, et exécutez `java FontSubstitutionInfo`. Vous devriez voir les messages d’avertissement (le cas échéant) suivis de la liste des runs et de leurs polices finales.
+**Sortie console attendue** (lorsqu'une police manquante est rencontrée) :
 
-## Aide visuelle
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![Capture d'écran de la sortie console montrant les avertissements de substitution de police](/images/font-substitution-warning.png "exemple d'avertissement de substitution de police")
+Si toutes les polices sont présentes, le callback reste silencieux—rien n'est affiché, ce qui est exactement ce à quoi vous vous attendez.
 
-*Texte alternatif :* **capture font substitution warnings** – sortie console après le chargement d’un document avec des polices manquantes.
+## Pièges courants & astuces pro
+
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| **Le callback ne se déclenche jamais** | Vous avez oublié d'attacher le callback à `LoadOptions` **ou** vous avez utilisé le constructeur par défaut de `Document` sans passer `loadOptions`. | Appelez toujours `loadOptions.setWarningCallback(...)` **et** utilisez la surcharge `new Document(path, loadOptions)`. |
+| **Trop d'avertissements encombrent le journal** | Les gros documents avec de nombreuses polices manquantes génèrent un avertissement par substitution. | Filtrez davantage en vérifiant `info.getDescription()` pour des noms de police spécifiques, ou regroupez les avertissements dans une liste pour un traitement ultérieur. |
+| **Les polices substituées affectent la mise en page** | La police de secours peut avoir des métriques différentes (taille, espacement). | Fournissez un dossier de polices personnalisé (voir Étape 5) ou ajustez le style du document après le chargement. |
+| **Exécution sur un serveur sans interface graphique** | Le remplacement de police par défaut peut dépendre de polices système non installées sur le serveur. | Incluez les polices requises avec votre application et pointez `FontSettings` vers ce dossier. |
+
+## Questions fréquentes
+
+**Q : Cela fonctionne-t-il avec le PDF ou d’autres formats ?**  
+R : Oui. Le callback d'avertissement est indépendant du format ; il se déclenche pour tout type de document qu'Aspose.Words charge (DOC, DOCX, RTF, HTML, etc.). La seule différence réside dans l'ensemble des avertissements qui peuvent apparaître.
+
+**Q : Puis‑je capturer d'autres types d'avertissements, comme les avertissements de *résolution d'image* ?**  
+R : Absolument. Dans la méthode `warning`, inspectez `info.getWarningType()` pour d'autres valeurs d'énumération telles que `WarningType.IMAGE_RESOLUTION`. Puis gérez‑les en conséquence.
+
+**Q : Et si j’ai besoin de la liste des polices substituées après le chargement du document ?**  
+R : Enregistrez chaque `info.getDescription()` dans une `List<String>` à l'intérieur du callback. Après le chargement, vous disposerez d'une collection que vous pourrez consigner, envoyer à un service de surveillance, ou utiliser pour déclencher une routine de téléchargement de polices.
 
 ## Conclusion
 
-Vous savez maintenant comment **capturer les avertissements de substitution de police** avec Aspose.Words for Java. En configurant un objet `LoadOptions` et en fournissant un `IWarningCallback` personnalisé, vous obtenez une visibilité totale sur tout événement de police manquante qui pourrait autrement affecter silencieusement l’apparence de votre document. Cette technique s’intègre directement à la gestion de **Aspose.Words font substitution**, assure des **document loading warnings** fiables, et vous offre la flexibilité de consigner, alerter ou interrompre selon vos règles métier.
+Vous savez maintenant **comment capturer les avertissements de substitution de police** en Java avec Aspose.Words, pourquoi chaque élément du puzzle est important, et comment étendre la solution pour des scénarios réels. En exploitant `LoadOptions`, un `callback d'avertissement Aspose.Words` et éventuellement `FontSettings`, vous obtenez une visibilité complète sur les polices manquantes et pouvez garantir la fiabilité de vos pipelines de conversion de documents.
 
-### Et après ?
+Prêt pour l'étape suivante ? Essayez de remplacer le `System.out.println` par un logger comme SLF4J, ou intégrez la liste des avertissements dans une interface qui alerte les utilisateurs avant qu'ils finalisent une conversion par lots. Vous pouvez également explorer le **callback d'avertissement Aspose.Words** pour d'autres types d'avertissements, tels que les *fonctionnalités non prises en charge* ou les alertes d'*image haute résolution*.
 
-- Explorer les modèles de **Java warning callback** pour d’autres types d’avertissements (par ex., `DEPRECATED_FEATURE`).
-- Combiner cette approche avec la **PDF conversion** pour garantir que les polices substituées ne cassent pas la mise en page.
-- Approfondir l’utilisation de **LoadOptions usage** — expérimenter avec `Password`, `Encoding` et `ResourceLoadingCallback` pour des scénarios plus avancés.
+Bon codage, et que vos PDF ne subissent plus jamais de substitutions de police inattendues !
 
-N’hésitez pas à ajuster le rappel, à diriger les avertissements vers un framework de journalisation, ou même à lancer une exception personnalisée si une police critique est manquante. Les possibilités sont infinies, et vous disposez maintenant d’une base solide pour construire.
+![Screenshot showing console output of captured font substitution warnings](image-placeholder.png "capture font substitution warnings")
 
-Bon codage, et que vos documents s’affichent toujours exactement comme vous le souhaitez !
+## Que devriez‑vous apprendre ensuite ?
+
+Les tutoriels suivants couvrent des sujets étroitement liés qui s'appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets et fonctionnels avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités d'API supplémentaires et explorer des approches d'implémentation alternatives dans vos propres projets.
+
+- [Activer les avertissements de substitution de police dans Aspose.Words – Guide complet](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [Comment définir LoadOptions dans Aspose.Words pour Java](/words/english/java/document-loading-and-saving/using-load-options/)
+- [Comment créer des documents PDF avec Aspose.Words pour Java | API de traitement de documents](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

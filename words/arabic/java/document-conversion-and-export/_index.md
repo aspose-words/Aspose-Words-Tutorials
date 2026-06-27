@@ -104,11 +104,26 @@ weight: 22
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
 
+### [تحويل DOCX إلى PDF باستخدام Aspose.Words – دليل شامل](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words للـ Java. دليل شامل يشرح الخطوات التفصيلية لإنشاء ملفات PDF بجودة عالية.
+
+### [دليل تحويل docx إلى pdf: تحويل ملفات Word باستخدام Aspose في Java](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
 
+### [تحويل docx إلى markdown مع صور مدمجة – دليل Java](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown مع تضمين الصور باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [إنشاء ملف PDF ميسّر من Word – دليل شامل لتصدير Word إلى PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+تعلم كيفية تحويل مستندات Word إلى ملفات PDF ميسّرة تتوافق مع معايير الوصول باستخدام Aspose.Words.
+
+### [تحويل DOCX إلى PNG – دليل Java كامل مع تخطيط الشبكة](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+دليل شامل لتحويل ملفات DOCX إلى صور PNG باستخدام Aspose.Words for Java مع تخطيط شبكة لتنسيق الصفحات.
 
 ## الأسئلة المتكررة
 
