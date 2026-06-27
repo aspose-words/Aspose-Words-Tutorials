@@ -34,6 +34,9 @@
 ### [综合指南：使用 Python 创建 Word 文档](./creating-word-documents-using-python/)
 使用 Aspose.Words 和 Python 创建动态 Word 文档。自动化内容、格式设置等操作。高效简化文档生成。
 
+### [使用 Aspose.Words Python 创建符合 PDF/UA 标准的文档 – 完整指南](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+完整指南教您使用 Aspose.Words for Python 生成符合 PDF/UA 标准的文档，确保可访问性和合规性。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

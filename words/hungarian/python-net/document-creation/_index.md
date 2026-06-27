@@ -34,6 +34,9 @@ Az Aspose.Words for Python segítségével történő dokumentumkészítés elsa
 ### [Átfogó útmutató: Word dokumentumok létrehozása Python használatával](./creating-word-documents-using-python/)
 Dinamikus Word-dokumentumok létrehozása Python használatával az Aspose.Words segítségével. Automatizálja a tartalmat, a formázást és egyebeket. Hatékonyan egyszerűsítse a dokumentumgenerálást.
 
+### [PDF/UA kompatibilis dokumentumok létrehozása az Aspose.Words Python segítségével – Teljes útmutató](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+PDF/UA szabványnak megfelelő dokumentumok létrehozása Pythonban az Aspose.Words használatával, részletes lépésekkel és példákkal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -34,6 +34,9 @@
 ### [Πλήρης οδηγός: Δημιουργία εγγράφων Word χρησιμοποιώντας Python](./creating-word-documents-using-python/)
 Δημιουργήστε δυναμικά έγγραφα Word χρησιμοποιώντας Python με το Aspose.Words. Αυτοματοποιήστε περιεχόμενο, μορφοποίηση και πολλά άλλα. Βελτιστοποιήστε αποτελεσματικά τη δημιουργία εγγράφων.
 
+### [Δημιουργία εγγράφων συμβατών με PDF/UA με το Aspose.Words για Python – Πλήρης Οδηγός](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Δημιουργήστε έγγραφα PDF/UA συμβατά χρησιμοποιώντας Aspose.Words για Python. Εξασφαλίστε προσβασιμότητα και συμμόρφωση.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

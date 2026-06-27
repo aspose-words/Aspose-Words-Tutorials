@@ -34,6 +34,9 @@ Geliştiriciler, Python için Aspose.Words ile belge oluşturma konusunda uzmanl
 ### [Kapsamlı Kılavuz: Python Kullanarak Word Belgeleri Oluşturma](./creating-word-documents-using-python/)
 Aspose.Words ile Python kullanarak dinamik Word belgeleri oluşturun. İçeriği, biçimlendirmeyi ve daha fazlasını otomatikleştirin. Belge oluşturmayı verimli bir şekilde kolaylaştırın.
 
+### [Aspose.Words Python ile PDF/UA uyumlu belgeler oluşturma – Tam Kılavuz](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Aspose.Words Python kullanarak PDF/UA standartlarına uygun belgeler oluşturmayı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

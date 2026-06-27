@@ -34,6 +34,9 @@
 ### [व्यापक गाइड: पायथन का उपयोग करके वर्ड दस्तावेज़ बनाना](./creating-word-documents-using-python/)
 Aspose.Words के साथ Python का उपयोग करके गतिशील Word दस्तावेज़ बनाएँ। सामग्री, स्वरूपण, और बहुत कुछ स्वचालित करें। दस्तावेज़ निर्माण को कुशलतापूर्वक सरल बनाएँ।
 
+### [Aspose.Words Python के साथ PDF/UA अनुरूप दस्तावेज़ बनाना – पूर्ण गाइड](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Aspose.Words Python का उपयोग करके PDF/UA मानकों के अनुरूप दस्तावेज़ बनाने की पूरी प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
