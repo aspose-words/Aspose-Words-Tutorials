@@ -1,0 +1,7 @@
+Title: Configure Shape Blur Radius in Java – Complete Guide
+Slug: configure-shape-blur-radius-in-java-complete-guide
+Category: images-shapes
+ProcessedDate: 2026-06-27T15:22:10.292366
+SourceRepo: AI Search API
+Keywords: configure shape blur radius
+PRNumber: 214
