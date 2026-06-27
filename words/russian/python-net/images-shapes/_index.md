@@ -37,6 +37,9 @@
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
+### [Как вставить прямоугольную фигуру в Python – Полное руководство Aspose.Words](./how-to-insert-rectangle-shape-in-python-complete-aspose-word/)
+Узнайте, как вставить прямоугольную форму в документы Word с помощью Aspose.Words для Python.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

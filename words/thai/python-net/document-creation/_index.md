@@ -33,6 +33,8 @@
 ## บทช่วยสอนการสร้างเอกสาร Aspose.Words สำหรับ Python
 ### [คู่มือครอบคลุม: การสร้างเอกสาร Word โดยใช้ Python](./creating-word-documents-using-python/)
 สร้างเอกสาร Word แบบไดนามิกโดยใช้ Python กับ Aspose.Words สร้างเนื้อหา การจัดรูปแบบ และอื่นๆ โดยอัตโนมัติ ปรับปรุงการสร้างเอกสารอย่างมีประสิทธิภาพ
+### [สร้างเอกสารที่เป็นไปตามมาตรฐาน PDF/UA ด้วย Aspose.Words Python – คู่มือเต็ม](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+เรียนรู้วิธีสร้างเอกสาร PDF/UA ที่สอดคล้องมาตรฐานด้วย Aspose.Words for Python อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
