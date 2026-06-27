@@ -28,6 +28,9 @@
 ### [Word als PDF speichern und beschädigtes Word wiederherstellen – Word in Markdown konvertieren in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Erfahren Sie, wie Sie Word-Dokumente als PDF speichern, beschädigte Word-Dateien wiederherstellen und sie in Markdown konvertieren.
 
+### [Word-Dokument wiederherstellen mit Aspose.Words – Vollständige Anleitung](./recover-word-document-with-aspose-words-full-guide/)
+Erfahren Sie, wie Sie beschädigte Word-Dokumente mit Aspose.Words wiederherstellen – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 ### [Erstellen Sie barrierefreies PDF und konvertieren Sie Word zu Markdown – Vollständige C#‑Anleitung](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
 Erfahren Sie, wie Sie ein barrierefreies PDF erstellen und Word-Dokumente in Markdown konvertieren – komplette C#‑Anleitung.
 
@@ -73,6 +76,9 @@ Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konverti
 
 ### [Word in Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [DOCX zu Markdown konvertieren und Bilder aus DOCX speichern](./convert-docx-to-markdown-save-images-from-docx/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren und speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
