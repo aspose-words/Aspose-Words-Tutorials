@@ -48,8 +48,10 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Spara docx som pdf med Aspose.Words – Komplett C#-guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Lär dig hur du sparar DOCX som PDF med Aspose.Words i en komplett C#-guide. |
 | [Skapa tillgänglig PDF från Word med C# – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett Word-dokument med C# i en detaljerad steg‑för‑steg‑guide. |
 | [Skapa tillgänglig PDF i C# – PDF-tillgänglighetstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Lär dig skapa tillgängliga PDF-filer i C# med Aspose.Words och följa WCAG-riktlinjer. |
+| [Skapa tillgänglig PDF i C# – Steg‑för‑steg‑guide](./create-accessible-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF i C# med Aspose.Words genom en detaljerad steg‑för‑steg‑guide. |
 | [Skapa tillgänglig PDF från Word – Komplett guide](./create-accessible-pdf-from-word-complete-guide/) | Lär dig hur du skapar tillgängliga PDF-filer från Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Skapa tillgänglig PDF – Steg‑för‑steg guide för PDF/UA‑efterlevnad](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Lär dig hur du skapar PDF-filer som uppfyller PDF/UA‑standarder för tillgänglighet med Aspose.Words för .NET. |
+| [Spara dokument som PDF i C# – Exportera inline‑former](./save-document-as-pdf-in-c-export-inline-shapes/) | Lär dig hur du sparar ett Word‑dokument som PDF i C# och exporterar inbäddade inline‑former med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

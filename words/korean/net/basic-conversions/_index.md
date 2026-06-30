@@ -29,6 +29,7 @@
 | [Docx를 MHTML로 변환하고 이메일 보내기](./docx-to-mhtml-and-sending-email/) | 이 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 DOCX를 MHTML로 변환하고 이메일을 보내는 방법을 알아보세요. 간편한 자동화로 생산성을 높여 보세요. |
 | [Docx 파일을 마크다운으로 변환](./docx-to-markdown/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 마크다운으로 변환하는 방법을 알아보세요. .NET 애플리케이션과의 원활한 통합을 위한 자세한 가이드를 참고하세요. |
 | [Docx를 Txt로 변환](./docx-to-txt/) | Aspose.Words for .NET을 사용하여 단계별 가이드를 통해 DOCX를 TXT로 변환하세요. 문서를 효율적이고 간편하게 변환하는 방법을 알아보세요. |
+| [C#에서 Docx를 Txt로 변환 – 완전 프로그래밍 가이드](./convert-docx-to-txt-with-c-complete-programming-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Docx 파일을 Txt 형식으로 변환하는 전체 단계별 가이드입니다. |
 | [텍스트 파일을 Word 문서로 변환](./txt-to-docx/) | Aspose.Words for .NET을 사용하여 텍스트 파일을 Word 문서로 변환하는 방법을 알아보세요. 포괄적인 가이드를 통해 문서 변환을 효율적으로 관리하세요. | 
 | [PDF를 Jpeg로 저장](./pdf-to-jpeg/) | Aspose.Words for .NET을 사용하여 PDF를 JPEG로 손쉽게 변환하세요. 자세한 가이드와 예시, FAQ를 참고하세요. 개발자와 애호가에게 안성맞춤입니다. |
 | [PDF를 Word 형식(Docx)으로 저장](./pdf-to-docx/) | Aspose.Words for .NET을 사용하여 PDF를 Word 문서(Docx)로 변환하는 방법을 단계별로 자세히 알아보세요. 개발자에게 안성맞춤입니다. |
