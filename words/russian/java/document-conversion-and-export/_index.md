@@ -85,22 +85,25 @@ weight: 22
 Откройте для себя мощь форм документов в Aspose.Words для Java. Научитесь создавать визуально привлекательные документы с помощью пошаговых примеров.
 
 ### [Использование водяных знаков в документах в Aspose.Words для Java](./using-watermarks-to-documents/)
-Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
+Узнайте, как добавлять водяные знаки в документы в Aspose.Words for Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
 
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
-Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Изучите пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет документа с помощью Aspose.Words.
+Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words for Java. Изучите пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет документа с помощью Aspose.Words.
 
-### [Использование фигур в документах в Aspose.Words for Java](./using-document-shapes/)
+### [Использование фигур в документах в Aspose.Words для Java](./using-document-shapes/)
 Откройте мощь фигур в документах с Aspose.Words for Java. Научитесь создавать визуально привлекательные документы с пошаговыми примерами.
 
-### [Использование водяных знаков в документах в Aspose.Words for Java](./using-watermarks-to-documents/)
+### [Использование водяных знаков в документах в Aspose.Words для Java](./using-watermarks-to-documents/)
 Узнайте, как добавить водяные знаки в документы с помощью Aspose.Words for Java. Настройте текстовые и графические водяные знаки для профессионального вида документов.
 
-### [Форматирование таблиц и стилей таблиц в Aspose.Words for Java](./formatting-tables-and-table-styles/)
+### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words for Java. Исследуйте пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет ваших документов с Aspose.Words.
 
 ### [Конвертировать docx в markdown – экспортировать математические уравнения в LaTeX с помощью Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Преобразуйте DOCX в markdown и экспортируйте уравнения Math в LaTeX с помощью Aspose.Words.
+
+### [Конвертировать DOCX в Markdown – Полное руководство на Java](./convert-docx-to-markdown-complete-java-tutorial/)
+Пошаговое руководство по конвертации DOCX в Markdown с использованием Aspose.Words for Java, включая экспорт формул и изображений.
 
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
@@ -113,6 +116,12 @@ weight: 22
 
 ### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
 Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
+
+### [Java docx в PDF – Создание доступного PDF с Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Пошаговое руководство по конвертации DOCX в доступный PDF с помощью Aspose.Words for Java.
+
+### [Сохранить Word как Markdown – Полное руководство по конвертации DOCX в Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Пошаговое руководство по сохранению документов Word в формате Markdown с использованием Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 

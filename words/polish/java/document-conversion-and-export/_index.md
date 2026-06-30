@@ -90,6 +90,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania matematyczne jako LaTeX przy użyciu biblioteki Aspose.Words dla Javy.
 
+### [Konwertuj DOCX do Markdown – Kompletny samouczek Java](./convert-docx-to-markdown-complete-java-tutorial/)
+Pełny przewodnik, jak w Javie konwertować pliki DOCX do formatu Markdown przy użyciu Aspose.Words, z przykładami kodu.
+
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
 
@@ -101,6 +104,11 @@ Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy u
 
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
+
+### [Zapisz Word jako Markdown – Kompletny przewodnik konwersji DOCX do Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+
+### [Java docx do PDF – Generowanie dostępnego PDF przy użyciu Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Dowiedz się, jak konwertować pliki DOCX do PDF spełniających standardy dostępności, w tym tagowanie i strukturę, przy użyciu Aspose.Words dla Javy.
 
 ## Najczęściej zadawane pytania
 

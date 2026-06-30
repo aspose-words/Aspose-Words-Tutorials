@@ -135,6 +135,9 @@ Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifik
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
 
+### [Konfigurace LoadOptions pro varování – Kompletní průvodce v Javě](./configure-loadoptions-for-warnings-complete-java-guide/)
+Naučte se, jak nastavit LoadOptions pro zachycení varování při načítání dokumentů v Aspose.Words for Java.
+
 ## Často kladené otázky
 
 **Q:** Jak mohu programově **uložit obrázky z Wordu** dokumentů?  

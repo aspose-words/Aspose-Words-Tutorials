@@ -136,6 +136,9 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend m
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
 
+### [LoadOptions für Warnungen konfigurieren – Vollständiger Java‑Leitfaden](./configure-loadoptions-for-warnings-complete-java-guide/)
+Erfahren Sie, wie Sie LoadOptions einstellen, um Warnungen beim Laden von Dokumenten in Aspose.Words für Java zu erfassen und zu verwalten.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  
