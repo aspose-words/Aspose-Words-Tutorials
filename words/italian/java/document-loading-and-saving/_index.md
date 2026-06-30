@@ -83,13 +83,13 @@ Le impostazioni del documento sono la chiave per fornire file su misura per le t
 ## Tutorial Correlati – Caricamento, Salvataggio e Conversione
 
 ### [Caricamento e Salvataggio di Documenti HTML con Aspose.Words per Java](./loading-and-saving-html-documents/)
-Impara a caricare e salvare documenti HTML in Java usando Aspose.Words per Java. Guida passo‑per‑passo con esempi di codice per un'integrazione fluida dei documenti.
+Impara a caricare e salvare documenti HTML in Java usando Aspose.Words per Java. Guida passo‑per‑step con esempi di codice per un'integrazione fluida dei documenti.
 
 ### [Lavorare con le Opzioni di Caricamento in Aspose.Words per Java](./using-load-options/)
 Padroneggia le Load Options in Aspose.Words per Java. Personalizza il caricamento dei documenti, gestisci la crittografia, converti forme, imposta versioni Word e molto altro per una gestione efficiente dei documenti Java.
 
 ### [Configurare le Opzioni di Caricamento RTF in Aspose.Words per Java](./configuring-rtf-load-options/)
-Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑passo con esempi di codice.
+Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑step con esempi di codice.
 
 ### [Caricamento di File di Testo con Aspose.Words per Java](./loading-text-files/)
 Sblocca la potenza di Aspose.Words per Java. Impara a caricare documenti di testo, gestire elenchi, spazi e direzione del testo.
@@ -98,7 +98,7 @@ Sblocca la potenza di Aspose.Words per Java. Impara a caricare documenti di test
 Scopri la manipolazione avanzata dei documenti con Aspose.Words per Java. Cripta, gestisci metafile e molto altro. I tuoi documenti Word, a modo tuo.
 
 ### [Salvataggio di Documenti HTML con Layout Fisso in Aspose.Words per Java](./saving-html-documents-with-fixed-layout/)
-Impara a salvare documenti HTML con layout fisso in Aspose.Words per Java. Segui la nostra guida passo‑per‑passo per una formattazione fluida dei documenti.
+Impara a salvare documenti HTML con layout fisso in Aspose.Words per Java. Segui la nostra guida passo‑per‑step per una formattazione fluida dei documenti.
 
 ### [Opzioni Avanzate di Salvataggio di Documenti HTML con Aspose.Words Java](./advance-html-documents-saving-options/)
 In questo tutorial abbiamo coperto varie opzioni avanzate di salvataggio di documenti HTML con Aspose.Words per Java. Queste opzioni ti consentono di creare HTML di alta qualità.
@@ -107,10 +107,10 @@ In questo tutorial abbiamo coperto varie opzioni avanzate di salvataggio di docu
 Scopri come riparare file DOCX corrotti, recuperarne il contenuto e continuare l'elaborazione con Aspose.Words per Java.
 
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
-Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑passo. Personalizza formati, compressione e altro.
+Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑step. Personalizza formati, compressione e altro.
 
 ### [Salvataggio di Documenti come Markdown in Aspose.Words per Java](./saving-documents-as-markdown/)
-Impara a convertire documenti Word in Markdown con Aspose.Words per Java. Questa guida passo‑per‑passo copre l'allineamento delle tabelle, la gestione delle immagini e altro.
+Impara a convertire documenti Word in Markdown con Aspose.Words per Java. Questa guida passo‑per‑step copre l'allineamento delle tabelle, la gestione delle immagini e altro.
 
 ### [Salvataggio di Documenti in Formato ODT in Aspose.Words per Java](./saving-documents-as-odt-format/)
 Impara a salvare documenti in formato ODT usando Aspose.Words per Java. Garantisce la compatibilità con suite di ufficio open‑source.
@@ -119,22 +119,25 @@ Impara a salvare documenti in formato ODT usando Aspose.Words per Java. Garantis
 Impara a salvare documenti in formato OOXML con Aspose.Words per Java. Sicuro, ottimizzato e personalizzabile senza sforzo.
 
 ### [Salvataggio di Documenti in Formato PCL in Aspose.Words per Java](./saving-documents-as-pcl-format/)
-Impara a salvare documenti in formato PCL usando Aspose.Words per Java. Guida passo‑per‑passo ed esempi di codice per una conversione efficiente.
+Impara a salvare documenti in formato PCL usando Aspose.Words per Java. Guida passo‑per‑step ed esempi di codice per una conversione efficiente.
 
 ### [Salvataggio di Documenti come PDF in Aspose.Words per Java](./saving-documents-as-pdf/)
 Impara a salvare documenti Word come PDF usando Aspose.Words per Java. Personalizza caratteri, proprietà e qualità delle immagini. Guida completa per la conversione PDF.
 
 ### [Salvataggio di Documenti in Formato RTF in Aspose.Words per Java](./saving-documents-as-rtf-format/)
-Impara a salvare documenti in formato RTF usando Aspose.Words per Java. Guida passo‑per‑passo con codice sorgente per una conversione efficiente.
+Impara a salvare documenti in formato RTF usando Aspose.Words per Java. Guida passo‑per‑step con codice sorgente per una conversione efficiente.
 
 ### [Salvataggio di Documenti come File di Testo in Aspose.Words per Java](./saving-documents-as-text-files/)
-Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la nostra guida passo‑per‑passo con esempi di codice Java.
+Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la nostra guida passo‑per‑step con esempi di codice Java.
 
 ### [Determinare il Formato del Documento in Aspose.Words per Java](./determining-document-format/)
 Impara a rilevare i formati dei documenti in Java con Aspose.Words. Identifica DOC, DOCX e altri. Organizza i file in modo efficiente.
 
 ### [Cattura gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Scopri come intercettare e gestire gli avvisi di sostituzione dei font durante l'elaborazione dei documenti Word in Java con Aspose.Words.
+
+### [Configurare LoadOptions per gli avvisi – Guida completa Java](./configure-loadoptions-for-warnings-complete-java-guide/)
+Impara a configurare le LoadOptions per catturare gli avvisi di sostituzione dei font in Java con Aspose.Words.
 
 ## Domande Frequenti
 

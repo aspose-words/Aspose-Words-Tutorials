@@ -84,6 +84,7 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 
 ### [HTML dokumentumok betöltése és mentése Aspose.Words for Java‑val](./loading-and-saving-html-documents/)
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
+### [LoadOptions konfigurálása figyelmeztetésekhez – Teljes Java útmutató](./configure-loadoptions-for-warnings-complete-java-guide/)
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
 ### [Szövegfájlok betöltése Aspose.Words for Java‑val](./loading-text-files/)
 ### [Haladó mentési beállítások Aspose.Words for Java‑val](./advance-saving-options/)
