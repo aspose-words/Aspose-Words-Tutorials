@@ -42,6 +42,7 @@
 | [设置 True Type 字体文件夹](./set-true-type-fonts-folder/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中设置 True Type 字体文件夹。请遵循我们详细的分步指南，确保字体管理的一致性。|
 | [渲染时指定默认字体](./specify-default-font-when-rendering/) 了解如何在使用 Aspose.Words for .NET 渲染 Word 文档时指定默认字体。确保跨平台文档外观一致。|
 | [带有加载选项的字体设置](./font-settings-with-load-options/) 了解如何使用 Aspose.Words for .NET 中的加载选项管理字体设置。为开发人员提供分步指南，以确保 Word 文档中的字体外观一致。|
+| [如何在 .NET 中加载字体 – 设置字体设置和警告](./how-to-load-fonts-in-net-set-font-settings-warnings/) 学习如何在 Aspose.Words for .NET 中加载字体并配置字体设置和警告，以确保文档渲染一致。|
 | [设置字体文件夹](./set-fonts-folder/) 了解如何在 Aspose.Words for .NET 中设置自定义字体文件夹，以确保您的 Word 文档正确呈现且不会丢失字体。|
 | [字体设置默认实例](./font-settings-default-instance/) 在本教程中，学习如何使用 Aspose.Words for .NET 在 Word 文档中配置默认字体设置。|
 | [获取可用字体列表](./get-list-of-available-fonts/) 在本详细分步教程中，了解如何使用 Aspose.Words for .NET 获取可用字体列表。提升您的字体管理技能。|
