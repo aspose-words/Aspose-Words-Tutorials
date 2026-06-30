@@ -40,6 +40,21 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 ### [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do formatu Markdown przy użyciu Aspose.Words for Python.
 
+### [Konwersja docx do markdown – kompletny przewodnik z równaniami LaTeX](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown, zachowując równania LaTeX przy użyciu Aspose.Words for Python.
+
+### [Zapisz docx jako pdf w Pythonie – konwertuj docx do pdf i eksportuj kształty](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python konwertować pliki DOCX do PDF, zachowując i eksportując kształty.
+
+### [Tworzenie dostępnych PDF – konwersja Word do PDF w Pythonie](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python tworzyć dostępne pliki PDF z dokumentów Word, zachowując zgodność z WCAG.
+
+### [Jak zmienić nazwy obrazów podczas konwertowania DOCX na Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji plików DOCX do formatu Markdown przy użyciu Aspose.Words for Python.
+
+### [Zapisz jako PDF przy użyciu Aspose.Words – Kompletny przewodnik programistyczny](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words zapisać dokumenty jako PDF, korzystając z pełnego przewodnika programistycznego.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

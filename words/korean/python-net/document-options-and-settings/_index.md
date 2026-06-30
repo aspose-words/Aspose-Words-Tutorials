@@ -49,6 +49,8 @@ Aspose.Words for Python을 사용하여 Word 문서를 효율적으로 조작하
 Aspose.Words for Python을 사용하여 문서 속성 및 메타데이터를 관리하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
 ### [웹 확장을 사용하여 문서 기능 확장](./document-functionality-web-extensions/)
 Aspose.Words for Python을 사용하여 웹 확장 기능으로 문서 기능을 확장하는 방법을 알아보세요. 원활한 통합을 위한 소스 코드가 포함된 단계별 가이드입니다.
+### [DOCX 복구 방법 – Aspose.Words 완전 가이드](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Aspose.Words를 사용하여 손상된 DOCX 파일을 복구하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
