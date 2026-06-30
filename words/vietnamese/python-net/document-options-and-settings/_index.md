@@ -49,6 +49,8 @@ Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Wor
 Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
 ### [Mở rộng chức năng tài liệu bằng tiện ích mở rộng web](./document-functionality-web-extensions/)
 Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
+### [Cách Khôi Phục DOCX – Hướng Dẫn Toàn Diện với Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Hướng dẫn chi tiết cách khôi phục tài liệu DOCX bị hỏng bằng Aspose.Words, bao gồm các bước và ví dụ mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
