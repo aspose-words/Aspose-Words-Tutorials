@@ -1,0 +1,7 @@
+Title: Java docx to PDF – Generate Accessible PDF with Aspose.Words
+Slug: java-docx-to-pdf-generate-accessible-pdf-with-aspose-words
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-30T20:23:41.577407
+SourceRepo: AI Search API
+Keywords: java docx to pdf, generate accessible pdf, convert word to accessible pdf, save accessible pdf, tag artifacts pdf
+PRNumber: 217
