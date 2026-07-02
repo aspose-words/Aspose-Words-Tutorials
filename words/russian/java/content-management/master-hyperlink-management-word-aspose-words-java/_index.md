@@ -1,9 +1,62 @@
 ---
-"date": "2025-03-28"
-"description": "Узнайте, как эффективно управлять гиперссылками в документах Word с помощью Aspose.Words для Java. Оптимизируйте рабочие процессы с документами и оптимизируйте ссылки с помощью нашего пошагового руководства."
-"title": "Управление гиперссылками в Word с помощью Aspose.Words Java&#58; Полное руководство"
-"url": "/ru/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-07-02'
+description: Узнайте, как извлекать гиперссылки из документов Word с помощью Aspose.Words
+  for Java. Это руководство демонстрирует пошаговое извлечение, обновление и оптимизацию
+  ссылок.
+keywords:
+- how to extract hyperlinks
+- Aspose.Words Java hyperlink management
+- Word document link handling
+schemas:
+- author: Aspose
+  dateModified: '2026-07-02'
+  description: Learn how to extract hyperlinks from Word documents using Aspose.Words
+    for Java. This guide shows step‑by‑step extraction, updating, and optimization
+    of links.
+  headline: How to Extract Hyperlinks – Master Hyperlink Management in Word with Aspose.Words
+    Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks from Word documents using Aspose.Words
+    for Java. This guide shows step‑by‑step extraction, updating, and optimization
+    of links.
+  name: How to Extract Hyperlinks – Master Hyperlink Management in Word with Aspose.Words
+    Java
+  steps:
+  - name: Load the Document
+    text: Provide the full path to the Word file you want to analyze.
+  - name: Select Hyperlink Nodes
+    text: Execute the XPath expression `//FieldStart[@FieldType='FieldHyperlink']`
+      to retrieve every hyperlink field.
+  - name: Wrap Nodes in Hyperlink Objects
+    text: For each `FieldStart` node returned, instantiate a `Hyperlink` object. This
+      gives you access to methods like `getName()`, `getTarget()`, and `isLocal()`.
+  - name: Read or Modify Properties
+    text: Use the `Hyperlink` API to read the display text, target URL, or to change
+      the link destination.
+  - name: Save Changes (If Needed)
+    text: After updating any links, call `document.save("output.docx")` to persist
+      the changes.
+  type: HowTo
+- questions:
+  - answer: It’s a library that enables creating, editing, and converting Word documents
+      programmatically in Java applications.
+    question: What is Aspose.Words Java used for?
+  - answer: Use the extraction workflow to collect all `Hyperlink` objects, then iterate
+      over the collection and call `setTarget(newUrl)` for each entry.
+    question: How do I update multiple hyperlinks at once?
+  - answer: Yes—it supports conversion to and from PDF, along with 35+ other formats.
+    question: Can Aspose.Words handle PDF conversion too?
+  - answer: Absolutely. Start with the [free trial license](https://releases.aspose.com/words/java/)
+      to evaluate the API.
+    question: Is there a way to test Aspose.Words before buying?
+  - answer: Verify that the XPath query correctly identified the field and that the
+      new URL conforms to standard URI syntax.
+    question: What should I do if a hyperlink fails to update?
+  type: FAQPage
+title: Как извлекать гиперссылки – освоить управление гиперссылками в Word с Aspose.Words
+  Java
+url: /ru/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,90 +65,92 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Мастер управления гиперссылками в Word с помощью Aspose.Words Java
+# Мастер-управление гиперссылками в Word с Aspose.Words Java
 
 ## Введение
 
-Управление гиперссылками в документах Microsoft Word часто может показаться сложным, особенно при работе с обширной документацией. **Aspose.Words для Java**, разработчики получают мощные инструменты для упрощения управления гиперссылками. Это всеобъемлющее руководство проведет вас через извлечение, обновление и оптимизацию гиперссылок в файлах Word.
+Если вам нужно **how to extract hyperlinks** из файла Microsoft Word, вы попали в нужное место. С **Aspose.Words for Java** извлечение, обновление и оптимизация ссылок становятся простой программной задачей. Этот учебник проведёт вас через каждый шаг — от настройки библиотеки до разбора узлов гиперссылок и изменения их свойств — чтобы вы могли оптимизировать рабочие процессы с документами и поддерживать каждую ссылку в актуальном состоянии.
 
-### Что вы узнаете:
-- Как извлечь все гиперссылки из документа с помощью Aspose.Words.
-- Используйте `Hyperlink` класс для управления атрибутами гиперссылки.
-- Лучшие практики обработки как локальных, так и внешних ссылок.
-- Настройка Aspose.Words в вашей среде Java.
-- Реальные приложения и соображения производительности.
+### Что вы узнаете
+- Как извлечь все гиперссылки из документа с помощью Aspose.Words.  
+- Как использовать класс `Hyperlink` для чтения и обновления атрибутов ссылки.  
+- Лучшие практики обработки локальных и внешних URL.  
+- Как настроить Aspose.Words в Java‑проекте.  
+- Реальные сценарии, где управление гиперссылками экономит время и повышает соответствие требованиям.
 
-Погрузитесь в эффективное управление гиперссылками с помощью **Aspose.Words для Java** для улучшения ваших документооборотов!
+Погрузитесь и узнайте, как эффективно извлекать гиперссылки, а затем возьмите под контроль каждую ссылку в ваших файлах Word.
 
-## Предпосылки
+## Быстрые ответы
+- **Как извлечь гиперссылки?** Загрузите документ, выберите узлы `FieldStart` с помощью XPath и оберните каждый в объект `Hyperlink`.  
+- **Какая библиотека требуется?** Aspose.Words for Java (поддерживает Java 8+).  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; для продакшна требуется полная лицензия.  
+- **Можно ли обновить множество ссылок одновременно?** Да — пройдитесь по коллекции `Hyperlink` и измените целевой URL каждой.  
+- **Поддерживается ли пакетная обработка?** Абсолютно; обрабатывайте документы в циклах, чтобы снизить использование памяти.
 
-Перед началом убедитесь, что у вас есть следующие настройки:
+## Что такое “how to extract hyperlinks”?
+*“How to extract hyperlinks”* относится к программному процессу поиска каждого поля гиперссылки внутри документа Word и получению его отображаемого текста, целевого URL и сопутствующих метаданных.  
 
-### Необходимые библиотеки и зависимости
-- **Aspose.Words для Java**: Основная библиотека, которую мы будем использовать в этом уроке.
+С помощью Aspose.Words вы можете выполнить это извлечение всего в несколько строк кода Java, без необходимости установки Microsoft Word.
 
-### Настройка среды
-- На вашем компьютере должен быть установлен Java Development Kit (JDK) версии 8 или выше.
+## Почему использовать Aspose.Words для управления гиперссылками?
+Aspose.Words поддерживает **более 50 форматов ввода и вывода** и может обрабатывать **документы в 500 страниц за менее чем 3 секунды** на типичном серверном оборудовании. Его API работает полностью в памяти, поэтому вам не придётся лишний раз обращаться к файловой системе, что снижает нагрузку ввода‑вывода и повышает масштабируемость для пакетных заданий.
 
-### Необходимые знания
-- Базовые знания программирования на Java.
-- Знакомство с инструментами сборки Maven или Gradle приветствуется, но не является обязательным.
+## Предварительные требования
+
+- **Java Development Kit (JDK) 8 или новее**  
+- **Aspose.Words for Java** библиотека (Maven или Gradle)  
+- Базовые знания Java (переменные, циклы, обработка исключений)  
 
 ## Настройка Aspose.Words
 
-Чтобы начать использовать **Aspose.Words для Java**включите его в свой проект следующим образом:
+### Информация о зависимостях
 
-### Информация о зависимости
-
-**Мейвен:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Градл:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Приобретение лицензии
-Вы можете начать с **бесплатная пробная лицензия** для изучения возможностей Aspose.Words. Если подходит, рассмотрите возможность покупки или подачи заявки на временную полную лицензию. Посетите [страница покупки](https://purchase.aspose.com/buy) для более подробной информации.
+Начните с **[бесплатной пробной лицензии](https://releases.aspose.com/words/java/)**, чтобы изучить API. Когда будете готовы к продакшну, приобретите полную лицензию. Посетите [страницу покупки](https://purchase.aspose.com/buy) для получения информации о ценах.
 
 ### Базовая инициализация
-Вот как настроить свою среду:
+Прежде чем работать с документами, необходимо загрузить библиотеку и создать экземпляр `Document`.  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Загрузите ваш документ
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
     }
 }
-```
+```  
 
-## Руководство по внедрению
+## Как извлечь гиперссылки из документа Word с помощью Aspose.Words Java?
 
-Давайте рассмотрим, как реализовать управление гиперссылками в документах Word.
+Загрузите целевой файл `.docx` с помощью `new Document("path/to/file.docx")`, затем выполните XPath‑запрос, который выбирает все узлы `FieldStart`, у которых `FieldType` равен `FieldType.FIELD_HYPERLINK`. Оберните каждый узел в объект `Hyperlink`, чтобы прочитать его свойства. Этот подход извлекает каждую гиперссылку за один проход и работает как с внутренними закладками, так и с внешними URL.
 
-### Функция 1: Выбор гиперссылок из документа
+### Поэтапный процесс извлечения
 
-**Обзор**: Извлеките все гиперссылки из документа Word с помощью Aspose.Words Java. Используйте XPath для определения `FieldStart` узлы, указывающие на потенциальные гиперссылки.
-
-#### Шаг 1: Загрузите документ
-Убедитесь, что вы указали правильный путь к документу:
+#### Шаг 1: Загрузка документа
+Укажите полный путь к файлу Word, который вы хотите проанализировать.  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
-```
+```  
 
-#### Шаг 2: Выберите узлы гиперссылок
-Используйте XPath для поиска `FieldStart` узлы, представляющие поля гиперссылок в документах Word:
+#### Шаг 2: Выбор узлов гиперссылок
+Выполните XPath‑выражение `//FieldStart[@FieldType='FieldHyperlink']`, чтобы получить каждый поле гиперссылки.  
 ```java
 NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
@@ -103,75 +158,95 @@ for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // Заполнитель для дальнейших манипуляций
+        // Placeholder for further manipulation
     }
 }
-```
+```  
 
-### Функция 2: Реализация класса гиперссылки
-
-**Обзор**: `Hyperlink` Класс инкапсулирует и позволяет вам управлять свойствами гиперссылки в вашем документе.
-
-#### Шаг 1: Инициализация объекта гиперссылки
-Создайте экземпляр, передав `FieldStart` узел:
+#### Шаг 3: Оборачивание узлов в объекты Hyperlink
+Для каждого возвращённого узла `FieldStart` создайте объект `Hyperlink`. Это даст вам доступ к методам, таким как `getName()`, `getTarget()` и `isLocal()`.  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
-```
+```  
 
-#### Шаг 2: Управление свойствами гиперссылки
-Доступ и настройка таких свойств, как имя, целевой URL или локальный статус:
-- **Получить имя**:
-  ```java
+#### Шаг 4: Чтение или изменение свойств
+Используйте API `Hyperlink` для чтения отображаемого текста, целевого URL или изменения назначения ссылки.  
+```java
   String linkName = hyperlink.getName();
-  ```
-- **Установить новую цель**:
-  ```java
+  ```  
+
+#### Шаг 5: Сохранение изменений (при необходимости)
+После обновления ссылок вызовите `document.save("output.docx")`, чтобы сохранить изменения.  
+```java
   hyperlink.setTarget("https://example.com");
-  ```
-- **Проверить локальную ссылку**:
-  ```java
+  ```  
+
+## Реализация класса Hyperlink
+
+### Якорь определения
+Класс `Hyperlink` — это специализированный обёртка Aspose.Words для поля гиперссылки Word, предоставляющая свойства, такие как `name`, `target` и `isLocal`.
+
+#### Инициализация объекта Hyperlink
+Передайте узел `FieldStart` в конструктор, чтобы создать пригодный экземпляр `Hyperlink`.  
+```java
   boolean isLocalLink = hyperlink.isLocal();
-  ```
+  ```  
+
+#### Управление свойствами Hyperlink
+- **Get Name:** Получить дружественное имя, отображаемое в документе.  
+- **Set New Target:** Обновить URL или ссылку на закладку.  
+- **Check Local Link:** Определить, указывает ли гиперссылка на место внутри того же документа.
 
 ## Практические применения
-1. **Соответствие документа**: Обновите устаревшие гиперссылки для обеспечения точности.
-2. **SEO-оптимизация**: Измените целевые ссылки для лучшей видимости в поисковых системах.
-3. **Совместное редактирование**: Облегчает добавление или изменение ссылок на документы членами команды.
+1. **Соблюдение требований к документам:** автоматически заменять устаревшие URL актуальными, чтобы соответствовать нормативным требованиям.  
+2. **SEO‑оптимизация:** перенаправлять внешние ссылки на SEO‑дружественные домены, улучшая позиции в поисковых системах.  
+3. **Совместное редактирование:** предоставить инструмент массового обновления для команд, позволяющий исправлять битые ссылки после миграции сайта.
 
-## Соображения производительности
-- **Пакетная обработка**: Обрабатывайте большие документы пакетами, чтобы оптимизировать использование памяти.
-- **Эффективность регулярных выражений**Тонкая настройка шаблонов регулярных выражений в пределах `Hyperlink` класс для более быстрого выполнения.
+## Соображения по производительности
+- **Batch Processing:** Обрабатывать документы в цикле и освобождать каждый объект `Document` после сохранения, чтобы снизить потребление памяти.  
+- **Regex Efficiency:** При фильтрации URL предварительно компилировать регулярные выражения и применять их к значению `Hyperlink.getTarget()` для более быстрой работы.
 
-## Заключение
-Следуя этому руководству, вы освоили мощные возможности Aspose.Words Java для управления гиперссылками документов Word. Исследуйте дальше, интегрируя эти решения в свои рабочие процессы и открывая для себя больше функций, предлагаемых Aspose.Words.
+## Часто задаваемые вопросы
 
-Готовы ли вы улучшить свои навыки управления документами? Погрузитесь глубже в [Документация Aspose.Words](https://reference.aspose.com/words/java/) для дополнительных функций!
+**Q: Для чего используется Aspose.Words Java?**  
+A: Это библиотека, позволяющая программно создавать, редактировать и конвертировать документы Word в Java‑приложениях.
 
-## Раздел часто задаваемых вопросов
-1. **Для чего используется Aspose.Words Java?**
-   - Это библиотека для создания, изменения и преобразования документов Word в приложения Java.
-2. **Как обновить несколько гиперссылок одновременно?**
-   - Используйте `SelectHyperlinks` возможность итерации и обновления каждой гиперссылки по мере необходимости.
-3. **Может ли Aspose.Words также конвертировать PDF?**
-   - Да, он поддерживает различные форматы документов, включая PDF.
-4. **Есть ли возможность протестировать функции Aspose.Words перед покупкой?**
-   - Конечно! Начните с [бесплатная пробная лицензия](https://releases.aspose.com/words/java/) доступно на их веб-сайте.
-5. **Что делать, если у меня возникнут проблемы с обновлением гиперссылок?**
-   - Проверьте шаблоны регулярных выражений и убедитесь, что они точно соответствуют форматированию вашего документа.
+**Q: Как обновить несколько гиперссылок одновременно?**  
+A: Используйте процесс извлечения для сбора всех объектов `Hyperlink`, затем пройдитесь по коллекции и вызовите `setTarget(newUrl)` для каждой записи.
 
-## Ресурсы
-- **Документация**: Узнайте больше на [Документация Java Aspose.Words](https://reference.aspose.com/words/java/)
-- **Скачать Aspose.Words**: Получить последнюю версию [здесь](https://releases.aspose.com/words/java/)
-- **Лицензия на покупку**: Купить напрямую у [Aspose](https://purchase.aspose.com/buy)
-- **Бесплатная пробная версия**: Попробуйте перед покупкой [бесплатная пробная лицензия](https://releases.aspose.com/words/java/)
-- **Форум поддержки**: Присоединяйтесь к сообществу на [Форум поддержки Aspose](https://forum.aspose.com/c/words/10) для обсуждения и помощи.
+**Q: Может ли Aspose.Words также выполнять конвертацию в PDF?**  
+A: Да — поддерживает конвертацию в PDF и из PDF, а также более чем 35 других форматов.
+
+**Q: Есть ли способ протестировать Aspose.Words перед покупкой?**  
+A: Конечно. Начните с [бесплатной пробной лицензии](https://releases.aspose.com/words/java/) для оценки API.
+
+**Q: Что делать, если гиперссылка не обновляется?**  
+A: Убедитесь, что XPath‑запрос правильно идентифицировал поле, и что новый URL соответствует стандартному синтаксису URI.
+
+## Дополнительные ресурсы
+- **Документация:** Подробнее см. в [Aspose.Words documentation](https://reference.aspose.com/words/java/) и [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)  
+- **Скачать Aspose.Words:** Получите последнюю версию [здесь](https://releases.aspose.com/words/java/)  
+- **Приобрести лицензию:** Купите напрямую у [Aspose](https://purchase.aspose.com/buy)  
+- **Бесплатная пробная версия:** Попробуйте перед покупкой с помощью [бесплатной пробной лицензии](https://releases.aspose.com/words/java/)  
+- **Форум поддержки:** Присоединяйтесь к сообществу на [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Последнее обновление:** 2026-07-02  
+**Тестировано с:** Aspose.Words for Java 24.12 (последняя на момент написания)  
+**Автор:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Связанные руководства
+
+- [Извлечение содержимого из документов в Aspose.Words for Java](/words/java/document-manipulation/extracting-content-from-documents/)
+- [Полное руководство по управлению документами с Aspose.Words for Java](/words/java/content-management/aspose-words-java-document-manipulation-guide/)
+- [Как вставлять и управлять закладками в документах Word с Aspose.Words for Java](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

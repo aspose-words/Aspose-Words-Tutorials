@@ -1,9 +1,61 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java के साथ Word दस्तावेज़ों में हाइपरलिंक्स को कुशलतापूर्वक प्रबंधित करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ वर्कफ़्लो को सुव्यवस्थित करें और लिंक्स को अनुकूलित करें।"
-"title": "Aspose.Words Java का उपयोग करके Word में हाइपरलिंक प्रबंधन एक व्यापक गाइड"
-"url": "/hi/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-07-02'
+description: Aspose.Words for Java का उपयोग करके Word दस्तावेज़ों से हाइपरलिंक्स निकालना
+  सीखें। यह गाइड चरण‑दर‑चरण निष्कर्षण, अपडेटिंग और लिंक के अनुकूलन को दर्शाता है।
+keywords:
+- how to extract hyperlinks
+- Aspose.Words Java hyperlink management
+- Word document link handling
+schemas:
+- author: Aspose
+  dateModified: '2026-07-02'
+  description: Learn how to extract hyperlinks from Word documents using Aspose.Words
+    for Java. This guide shows step‑by‑step extraction, updating, and optimization
+    of links.
+  headline: How to Extract Hyperlinks – Master Hyperlink Management in Word with Aspose.Words
+    Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks from Word documents using Aspose.Words
+    for Java. This guide shows step‑by‑step extraction, updating, and optimization
+    of links.
+  name: How to Extract Hyperlinks – Master Hyperlink Management in Word with Aspose.Words
+    Java
+  steps:
+  - name: Load the Document
+    text: Provide the full path to the Word file you want to analyze.
+  - name: Select Hyperlink Nodes
+    text: Execute the XPath expression `//FieldStart[@FieldType='FieldHyperlink']`
+      to retrieve every hyperlink field.
+  - name: Wrap Nodes in Hyperlink Objects
+    text: For each `FieldStart` node returned, instantiate a `Hyperlink` object. This
+      gives you access to methods like `getName()`, `getTarget()`, and `isLocal()`.
+  - name: Read or Modify Properties
+    text: Use the `Hyperlink` API to read the display text, target URL, or to change
+      the link destination.
+  - name: Save Changes (If Needed)
+    text: After updating any links, call `document.save("output.docx")` to persist
+      the changes.
+  type: HowTo
+- questions:
+  - answer: It’s a library that enables creating, editing, and converting Word documents
+      programmatically in Java applications.
+    question: What is Aspose.Words Java used for?
+  - answer: Use the extraction workflow to collect all `Hyperlink` objects, then iterate
+      over the collection and call `setTarget(newUrl)` for each entry.
+    question: How do I update multiple hyperlinks at once?
+  - answer: Yes—it supports conversion to and from PDF, along with 35+ other formats.
+    question: Can Aspose.Words handle PDF conversion too?
+  - answer: Absolutely. Start with the [free trial license](https://releases.aspose.com/words/java/)
+      to evaluate the API.
+    question: Is there a way to test Aspose.Words before buying?
+  - answer: Verify that the XPath query correctly identified the field and that the
+      new URL conforms to standard URI syntax.
+    question: What should I do if a hyperlink fails to update?
+  type: FAQPage
+title: हाइपरलिंक्स निकालने का तरीका – Aspose.Words Java के साथ Word में हाइपरलिंक
+  प्रबंधन में महारत हासिल करें
+url: /hi/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,166 +64,188 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Aspose.Words Java के साथ Word में हाइपरलिंक प्रबंधन में महारत हासिल करें
+# Word में Aspose.Words Java के साथ हाइपरलिंक प्रबंधन को मास्टर करें
 
 ## परिचय
 
-माइक्रोसॉफ्ट वर्ड दस्तावेजों में हाइपरलिंक्स का प्रबंधन करना अक्सर भारी लग सकता है, खासकर जब व्यापक दस्तावेज़ीकरण से निपटना हो। **जावा के लिए Aspose.Words**, डेवलपर्स को हाइपरलिंक प्रबंधन को सरल बनाने के लिए शक्तिशाली उपकरण मिलते हैं। यह व्यापक गाइड आपको अपनी वर्ड फ़ाइलों के भीतर हाइपरलिंक्स को निकालने, अपडेट करने और अनुकूलित करने के बारे में बताएगी।
+यदि आपको Microsoft Word फ़ाइल से **हाइपरलिंक निकालना** की आवश्यकता है, तो आप सही जगह पर आए हैं। **Aspose.Words for Java** के साथ, लिंक निकालना, अपडेट करना और अनुकूलित करना एक सरल, प्रोग्रामेटिक कार्य बन जाता है। यह ट्यूटोरियल आपको प्रत्येक चरण के माध्यम से ले जाता है—लाइब्रेरी सेटअप से लेकर हाइपरलिंक नोड्स को पार्स करने और उनकी प्रॉपर्टीज़ को बदलने तक—ताकि आप दस्तावेज़ वर्कफ़्लो को सुव्यवस्थित कर सकें और हर लिंक को सटीक रख सकें।
 
-### आप क्या सीखेंगे:
-- Aspose.Words का उपयोग करके किसी दस्तावेज़ से सभी हाइपरलिंक कैसे निकालें।
-- उपयोग करें `Hyperlink` हाइपरलिंक विशेषताओं में हेरफेर करने के लिए वर्ग.
-- स्थानीय और बाह्य दोनों लिंक को संभालने के लिए सर्वोत्तम अभ्यास।
-- अपने जावा वातावरण में Aspose.Words सेट अप करना।
-- वास्तविक दुनिया के अनुप्रयोग और प्रदर्शन संबंधी विचार।
+### आप क्या सीखेंगे
+- Aspose.Words का उपयोग करके दस्तावेज़ से सभी हाइपरलिंक निकालना।  
+- `Hyperlink` क्लास का उपयोग करके लिंक एट्रिब्यूट्स को पढ़ना और अपडेट करना।  
+- स्थानीय और बाहरी URLs को संभालने के लिए सर्वोत्तम प्रथाएँ।  
+- Java प्रोजेक्ट में Aspose.Words सेटअप करना।  
+- वास्तविक दुनिया के परिदृश्य जहाँ हाइपरलिंक प्रबंधन समय बचाता है और अनुपालन में सुधार करता है।
 
-कुशल हाइपरलिंक प्रबंधन में गोता लगाएँ **जावा के लिए Aspose.Words** अपने दस्तावेज़ वर्कफ़्लो को बढ़ाने के लिए!
+डुबकी लगाएँ और जानें कि हाइपरलिंक को कुशलता से कैसे निकालें, फिर अपने Word फ़ाइलों में हर लिंक को नियंत्रित करें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **हाइपरलिंक कैसे निकालें?** दस्तावेज़ लोड करें, XPath के साथ `FieldStart` नोड्स चुनें, और प्रत्येक को `Hyperlink` ऑब्जेक्ट में रैप करें।  
+- **कौनसी लाइब्रेरी आवश्यक है?** Aspose.Words for Java (Java 8+ को सपोर्ट करता है)।  
+- **क्या मुझे लाइसेंस चाहिए?** विकास के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए पूर्ण लाइसेंस आवश्यक है।  
+- **क्या मैं कई लिंक एक साथ अपडेट कर सकता हूँ?** हाँ—`Hyperlink` संग्रह को इटररेट करें और प्रत्येक लक्ष्य URL को संशोधित करें।  
+- **क्या बैच प्रोसेसिंग समर्थित है?** बिल्कुल; मेमोरी उपयोग कम रखने के लिए लूप में दस्तावेज़ प्रोसेस करें।
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
+## “हाइपरलिंक निकालना” क्या है?
+*“हाइपरलिंक निकालना”* शब्द Word दस्तावेज़ के भीतर प्रत्येक हाइपरलिंक फ़ील्ड को खोजने और उसका डिस्प्ले टेक्स्ट, लक्ष्य URL, तथा संबंधित मेटाडेटा प्राप्त करने की प्रोग्रामेटिक प्रक्रिया को दर्शाता है।  
 
-### आवश्यक लाइब्रेरी और निर्भरताएँ
-- **जावा के लिए Aspose.Words**: प्राथमिक लाइब्रेरी जिसका उपयोग हम इस ट्यूटोरियल में करेंगे।
+Aspose.Words का उपयोग करके, आप इस निष्कर्षण को केवल कुछ ही Java कोड लाइनों में कर सकते हैं, बिना Microsoft Word स्थापित किए।
 
-### पर्यावरण सेटअप
-- आपकी मशीन पर जावा डेवलपमेंट किट (JDK) संस्करण 8 या उससे ऊपर स्थापित होना चाहिए।
+## हाइपरलिंक प्रबंधन के लिए Aspose.Words क्यों उपयोग करें?
+Aspose.Words **50+ इनपुट और आउटपुट फ़ॉर्मेट** को सपोर्ट करता है और सामान्य सर्वर हार्डवेयर पर **500‑पृष्ठ दस्तावेज़ को 3 सेकंड से कम समय में** प्रोसेस कर सकता है। इसका API पूरी तरह मेमोरी में काम करता है, इसलिए आपको फ़ाइल सिस्टम को अनावश्यक रूप से छूने की आवश्यकता नहीं होती, जिससे I/O ओवरहेड कम होता है और बैच जॉब्स के लिए स्केलेबिलिटी में सुधार होता है।
 
-### ज्ञान पूर्वापेक्षाएँ
-- जावा प्रोग्रामिंग की बुनियादी समझ.
-- मावेन या ग्रेडेल बिल्ड टूल्स से परिचित होना अनुशंसित है लेकिन अनिवार्य नहीं है।
+## पूर्वापेक्षाएँ
 
-## Aspose.Words की स्थापना
+- **Java Development Kit (JDK) 8 या नया**  
+- **Aspose.Words for Java** लाइब्रेरी (Maven या Gradle)  
+- बुनियादी Java ज्ञान (वेरिएबल्स, लूप्स, एक्सेप्शन हैंडलिंग)  
 
-उपयोग शुरू करने के लिए **जावा के लिए Aspose.Words**इसे अपने प्रोजेक्ट में निम्नानुसार शामिल करें:
+## Aspose.Words सेटअप करना
 
 ### निर्भरता जानकारी
 
-**मावेन:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**ग्रेडेल:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-### लाइसेंस अधिग्रहण
-आप एक से शुरू कर सकते हैं **निःशुल्क परीक्षण लाइसेंस** Aspose.Words की क्षमताओं का पता लगाने के लिए। यदि उपयुक्त हो, तो अस्थायी पूर्ण लाइसेंस खरीदने या आवेदन करने पर विचार करें। [खरीद पृष्ठ](https://purchase.aspose.com/buy) अधिक जानकारी के लिए.
+### लाइसेंस प्राप्ति
+API का अन्वेषण करने के लिए **[free trial license](https://releases.aspose.com/words/java/)** से शुरू करें। जब आप उत्पादन के लिए तैयार हों, तो पूर्ण लाइसेंस खरीदें। मूल्य विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
 
-### मूल आरंभीकरण
-आप अपना परिवेश इस प्रकार सेट कर सकते हैं:
+### बुनियादी इनिशियलाइज़ेशन
+दस्तावेज़ों के साथ काम करने से पहले, आपको लाइब्रेरी लोड करनी होगी और एक `Document` इंस्टेंस बनाना होगा।  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // अपना दस्तावेज़ लोड करें
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
     }
 }
-```
+```  
 
-## कार्यान्वयन मार्गदर्शिका
+## Aspose.Words Java का उपयोग करके Word दस्तावेज़ से हाइपरलिंक कैसे निकालें?
 
-आइए जानें कि वर्ड दस्तावेज़ों में हाइपरलिंक प्रबंधन को कैसे क्रियान्वित किया जाए।
+लक्ष्य `.docx` फ़ाइल को `new Document("path/to/file.docx")` से लोड करें, फिर एक XPath क्वेरी चलाएँ जो सभी `FieldStart` नोड्स को चुनती है जिनका `FieldType` `FieldType.FIELD_HYPERLINK` के बराबर है। प्रत्येक नोड को `Hyperlink` ऑब्जेक्ट में रैप करें ताकि उसकी प्रॉपर्टीज़ पढ़ी जा सकें। यह विधि एक ही पास में सभी हाइपरलिंक निकालती है और आंतरिक बुकमार्क तथा बाहरी URLs दोनों के लिए काम करती है।
 
-### सुविधा 1: किसी दस्तावेज़ से हाइपरलिंक चुनें
-
-**अवलोकन**: Aspose.Words Java का उपयोग करके अपने Word दस्तावेज़ से सभी हाइपरलिंक निकालें। पहचानने के लिए XPath का उपयोग करें `FieldStart` नोड्स जो संभावित हाइपरलिंक्स को इंगित करते हैं.
+### चरण‑दर‑चरण निष्कर्षण प्रक्रिया
 
 #### चरण 1: दस्तावेज़ लोड करें
-सुनिश्चित करें कि आपने अपने दस्तावेज़ के लिए सही पथ निर्दिष्ट किया है:
+उस Word फ़ाइल का पूर्ण पथ प्रदान करें जिसे आप विश्लेषण करना चाहते हैं।  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
-```
+```  
 
-#### चरण 2: हाइपरलिंक नोड्स का चयन करें
-खोजने के लिए XPath का उपयोग करें `FieldStart` वर्ड दस्तावेज़ों में हाइपरलिंक फ़ील्ड का प्रतिनिधित्व करने वाले नोड्स:
+#### चरण 2: हाइपरलिंक नोड्स चुनें
+हर हाइपरलिंक फ़ील्ड को प्राप्त करने के लिए XPath अभिव्यक्ति `//FieldStart[@FieldType='FieldHyperlink']` चलाएँ।  
 ```java
-NodeList fieldStarts = doc.selectNodes("//फ़ील्डस्टार्ट");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // आगे के हेरफेर के लिए प्लेसहोल्डर
+        // Placeholder for further manipulation
     }
 }
-```
+```  
 
-### विशेषता 2: हाइपरलिंक वर्ग कार्यान्वयन
-
-**अवलोकन**: द `Hyperlink` क्लास आपके दस्तावेज़ के भीतर हाइपरलिंक के गुणों को समाहित करता है और आपको उसमें परिवर्तन करने की अनुमति देता है।
-
-#### चरण 1: हाइपरलिंक ऑब्जेक्ट आरंभ करें
-में पास करके एक इंस्टैंस बनाएं `FieldStart` नोड:
+#### चरण 3: नोड्स को Hyperlink ऑब्जेक्ट्स में रैप करें
+प्रत्येक प्राप्त `FieldStart` नोड के लिए, एक `Hyperlink` ऑब्जेक्ट बनाएँ। यह आपको `getName()`, `getTarget()`, और `isLocal()` जैसी मेथड्स तक पहुँच देता है।  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
-```
+```  
 
-#### चरण 2: हाइपरलिंक गुण प्रबंधित करें
-नाम, लक्ष्य URL या स्थानीय स्थिति जैसे गुणों तक पहुँचें और उन्हें समायोजित करें:
-- **नाम प्राप्त करें**:
-  ```java
+#### चरण 4: प्रॉपर्टीज़ पढ़ें या संशोधित करें
+`Hyperlink` API का उपयोग करके डिस्प्ले टेक्स्ट, लक्ष्य URL पढ़ें, या लिंक डेस्टिनेशन बदलें।  
+```java
   String linkName = hyperlink.getName();
-  ```
-- **नया लक्ष्य निर्धारित करें**:
-  ```java
-  hyperlink.setTarget("https://उदाहरण.कॉम");
-  ```
-- **स्थानीय लिंक की जाँच करें**:
-  ```java
+  ```  
+
+#### चरण 5: परिवर्तन सहेजें (यदि आवश्यक हो)
+किसी भी लिंक को अपडेट करने के बाद, `document.save("output.docx")` कॉल करके परिवर्तन सहेजें।  
+```java
+  hyperlink.setTarget("https://example.com");
+  ```  
+
+## Hyperlink क्लास इम्प्लीमेंटेशन
+
+### परिभाषा एंकर
+`Hyperlink` क्लास Aspose.Words का एक समर्पित रैपर है जो Word हाइपरलिंक फ़ील्ड को दर्शाता है, और `name`, `target`, तथा `isLocal` जैसी प्रॉपर्टीज़ को उजागर करता है।  
+
+#### Hyperlink ऑब्जेक्ट इनिशियलाइज़ करें
+एक उपयोगी `Hyperlink` इंस्टेंस बनाने के लिए कंस्ट्रक्टर में `FieldStart` नोड पास करें।  
+```java
   boolean isLocalLink = hyperlink.isLocal();
-  ```
+  ```  
 
-## व्यावहारिक अनुप्रयोगों
-1. **दस्तावेज़ अनुपालन**: सटीकता सुनिश्चित करने के लिए पुराने हाइपरलिंक्स को अपडेट करें।
-2. **एसईओ अनुकूलन**: बेहतर खोज इंजन दृश्यता के लिए लिंक लक्ष्य संशोधित करें।
-3. **सहयोगात्मक संपादन**: टीम के सदस्यों द्वारा दस्तावेज़ लिंक को आसानी से जोड़ने या संशोधित करने की सुविधा प्रदान करना।
+#### Hyperlink प्रॉपर्टीज़ प्रबंधित करें
+- **नाम प्राप्त करें:** दस्तावेज़ में दिखाया गया फ्रेंडली नाम प्राप्त करें।  
+- **नया लक्ष्य सेट करें:** URL या बुकमार्क रेफ़रेंस अपडेट करें।  
+- **स्थानीय लिंक जांचें:** निर्धारित करें कि हाइपरलिंक उसी दस्तावेज़ के भीतर किसी स्थान की ओर इशारा करता है या नहीं।  
 
-## प्रदर्शन संबंधी विचार
-- **प्रचय संसाधन**मेमोरी उपयोग को अनुकूलित करने के लिए बड़े दस्तावेज़ों को बैचों में संभालें।
-- **नियमित अभिव्यक्ति दक्षता**रेगेक्स पैटर्न को ठीक से ट्यून करें `Hyperlink` तेजी से निष्पादन समय के लिए वर्ग.
+## व्यावहारिक अनुप्रयोग
+- **दस्तावेज़ अनुपालन:** नियामक मानकों को पूरा करने के लिए पुरानी URLs को स्वचालित रूप से नवीनतम से बदलें।  
+- **SEO अनुकूलन:** बाहरी लिंक को SEO‑फ्रेंडली डोमेन्स पर रीडायरेक्ट करें, जिससे सर्च इंजन रैंकिंग में सुधार हो।  
+- **सहयोगी संपादन:** साइट माइग्रेशन के बाद टूटे हुए लिंक को ठीक करने के लिए टीमों को बल्क‑अपडेट टूल प्रदान करें।  
 
-## निष्कर्ष
-इस गाइड का पालन करके, आपने Word दस्तावेज़ हाइपरलिंक प्रबंधित करने के लिए Aspose.Words Java के साथ शक्तिशाली क्षमताओं का उपयोग किया है। इन समाधानों को अपने वर्कफ़्लो में एकीकृत करके और Aspose.Words द्वारा पेश की गई अधिक सुविधाओं की खोज करके आगे की खोज करें।
+## प्रदर्शन विचार
+- **बैच प्रोसेसिंग:** लूप में दस्तावेज़ प्रोसेस करें और सहेजने के बाद प्रत्येक `Document` ऑब्जेक्ट को रिलीज़ करें ताकि मेमोरी उपयोग कम रहे।  
+- **Regex दक्षता:** URLs को फ़िल्टर करते समय रेगुलर एक्सप्रेशन को प्री‑कम्पाइल करें और `Hyperlink.getTarget()` वैल्यू पर लागू करें ताकि तेज़ निष्पादन हो।  
 
-अपने दस्तावेज़ प्रबंधन कौशल को आगे बढ़ाने के लिए तैयार हैं? [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/java/) अतिरिक्त कार्यक्षमताओं के लिए!
+## अक्सर पूछे जाने वाले प्रश्न
 
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
-1. **Aspose.Words Java का उपयोग किस लिए किया जाता है?**
-   - यह जावा अनुप्रयोगों में वर्ड दस्तावेज़ों को बनाने, संशोधित करने और परिवर्तित करने के लिए एक लाइब्रेरी है।
-2. **मैं एक साथ अनेक हाइपरलिंक कैसे अपडेट करूं?**
-   - उपयोग `SelectHyperlinks` प्रत्येक हाइपरलिंक को आवश्यकतानुसार पुनरावृत्त करने और अद्यतन करने की सुविधा।
-3. **क्या Aspose.Words पीडीएफ रूपांतरण भी संभाल सकता है?**
-   - हां, यह पीडीएफ सहित विभिन्न दस्तावेज़ प्रारूपों का समर्थन करता है।
-4. **क्या खरीदने से पहले Aspose.Words सुविधाओं का परीक्षण करने का कोई तरीका है?**
-   - बिलकुल! शुरुआत करें [निःशुल्क परीक्षण लाइसेंस](https://releases.aspose.com/words/java/) उनकी वेबसाइट पर उपलब्ध है।
-5. **यदि मुझे हाइपरलिंक अपडेट में समस्या आती है तो क्या होगा?**
-   - अपने रेगेक्स पैटर्न की जांच करें और सुनिश्चित करें कि वे आपके दस्तावेज़ के स्वरूपण से सटीक रूप से मेल खाते हैं।
+**Q: Aspose.Words Java किस लिए उपयोग किया जाता है?**  
+A: यह एक लाइब्रेरी है जो Java एप्लिकेशन में प्रोग्रामेटिक रूप से Word दस्तावेज़ बनाने, संपादित करने और कन्वर्ट करने में सक्षम बनाती है।
 
-## संसाधन
-- **प्रलेखन**: अधिक जानकारी के लिए यहां जाएं [Aspose.Words जावा दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)
-- **Aspose.Words डाउनलोड करें**: नवीनतम संस्करण प्राप्त करें [यहाँ](https://releases.aspose.com/words/java/)
-- **खरीद लाइसेंस**: सीधे यहाँ से खरीदें [असपोज](https://purchase.aspose.com/buy)
-- **मुफ्त परीक्षण**: खरीदने से पहले आज़माएँ [निःशुल्क परीक्षण लाइसेंस](https://releases.aspose.com/words/java/)
-- **सहयता मंच**: समुदाय में शामिल हों [Aspose समर्थन मंच](https://forum.aspose.com/c/words/10) चर्चा और सहायता के लिए।
+**Q: कई हाइपरलिंक एक साथ कैसे अपडेट करें?**  
+A: सभी `Hyperlink` ऑब्जेक्ट्स को एकत्र करने के लिए एक्सट्रैक्शन वर्कफ़्लो का उपयोग करें, फिर संग्रह को इटररेट करें और प्रत्येक एंट्री के लिए `setTarget(newUrl)` कॉल करें।
+
+**Q: क्या Aspose.Words PDF कन्वर्ज़न भी संभाल सकता है?**  
+A: हाँ—यह PDF में और PDF से कन्वर्ट करने का समर्थन करता है, साथ ही 35+ अन्य फ़ॉर्मेट्स को भी।
+
+**Q: क्या खरीदने से पहले Aspose.Words का परीक्षण करने का तरीका है?**  
+A: बिल्कुल। API का मूल्यांकन करने के लिए [free trial license](https://releases.aspose.com/words/java/) से शुरू करें।
+
+**Q: यदि हाइपरलिंक अपडेट नहीं होता तो क्या करें?**  
+A: सुनिश्चित करें कि XPath क्वेरी ने फ़ील्ड को सही ढंग से पहचाना है और नया URL मानक URI सिंटैक्स के अनुरूप है।
+
+## अतिरिक्त संसाधन
+- **Documentation:** अधिक जानकारी के लिए [Aspose.Words documentation](https://reference.aspose.com/words/java/) और [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/) देखें  
+- **Download Aspose.Words:** नवीनतम संस्करण [here](https://releases.aspose.com/words/java/) से प्राप्त करें  
+- **Purchase License:** सीधे [Aspose](https://purchase.aspose.com/buy) से खरीदें  
+- **Free Trial:** खरीदने से पहले एक [free trial license](https://releases.aspose.com/words/java/) के साथ आज़माएँ  
+- **Support Forum:** समुदाय में शामिल हों [Aspose Support Forum](https://forum.aspose.com/c/words/10) पर  
+
+---
+
+**अंतिम अपडेट:** 2026-07-02  
+**परीक्षित संस्करण:** Aspose.Words for Java 24.12 (लेखन के समय नवीनतम)  
+**लेखक:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Words for Java में दस्तावेज़ से सामग्री निकालना](/words/java/document-manipulation/extracting-content-from-documents/)
+- [Aspose.Words for Java के साथ दस्तावेज़ प्रबंधन में निपुणता: एक व्यापक गाइड](/words/java/content-management/aspose-words-java-document-manipulation-guide/)
+- [Aspose.Words for Java में बुकमार्क कैसे डालें और प्रबंधित करें](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

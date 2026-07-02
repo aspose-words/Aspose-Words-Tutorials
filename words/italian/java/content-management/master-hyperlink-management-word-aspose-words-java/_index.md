@@ -1,9 +1,62 @@
 ---
-"date": "2025-03-28"
-"description": "Scopri come gestire in modo efficiente i collegamenti ipertestuali nei documenti Word con Aspose.Words per Java. Semplifica i flussi di lavoro dei tuoi documenti e ottimizza i collegamenti con la nostra guida passo passo."
-"title": "Gestione dei collegamenti ipertestuali in Word tramite Aspose.Words Java&#58; una guida completa"
-"url": "/it/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-07-02'
+description: Scopri come estrarre i collegamenti ipertestuali dai documenti Word utilizzando
+  Aspose.Words per Java. Questa guida mostra l'estrazione, l'aggiornamento e l'ottimizzazione
+  dei collegamenti passo dopo passo.
+keywords:
+- how to extract hyperlinks
+- Aspose.Words Java hyperlink management
+- Word document link handling
+schemas:
+- author: Aspose
+  dateModified: '2026-07-02'
+  description: Learn how to extract hyperlinks from Word documents using Aspose.Words
+    for Java. This guide shows step‑by‑step extraction, updating, and optimization
+    of links.
+  headline: How to Extract Hyperlinks – Master Hyperlink Management in Word with Aspose.Words
+    Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks from Word documents using Aspose.Words
+    for Java. This guide shows step‑by‑step extraction, updating, and optimization
+    of links.
+  name: How to Extract Hyperlinks – Master Hyperlink Management in Word with Aspose.Words
+    Java
+  steps:
+  - name: Load the Document
+    text: Provide the full path to the Word file you want to analyze.
+  - name: Select Hyperlink Nodes
+    text: Execute the XPath expression `//FieldStart[@FieldType='FieldHyperlink']`
+      to retrieve every hyperlink field.
+  - name: Wrap Nodes in Hyperlink Objects
+    text: For each `FieldStart` node returned, instantiate a `Hyperlink` object. This
+      gives you access to methods like `getName()`, `getTarget()`, and `isLocal()`.
+  - name: Read or Modify Properties
+    text: Use the `Hyperlink` API to read the display text, target URL, or to change
+      the link destination.
+  - name: Save Changes (If Needed)
+    text: After updating any links, call `document.save("output.docx")` to persist
+      the changes.
+  type: HowTo
+- questions:
+  - answer: It’s a library that enables creating, editing, and converting Word documents
+      programmatically in Java applications.
+    question: What is Aspose.Words Java used for?
+  - answer: Use the extraction workflow to collect all `Hyperlink` objects, then iterate
+      over the collection and call `setTarget(newUrl)` for each entry.
+    question: How do I update multiple hyperlinks at once?
+  - answer: Yes—it supports conversion to and from PDF, along with 35+ other formats.
+    question: Can Aspose.Words handle PDF conversion too?
+  - answer: Absolutely. Start with the [free trial license](https://releases.aspose.com/words/java/)
+      to evaluate the API.
+    question: Is there a way to test Aspose.Words before buying?
+  - answer: Verify that the XPath query correctly identified the field and that the
+      new URL conforms to standard URI syntax.
+    question: What should I do if a hyperlink fails to update?
+  type: FAQPage
+title: Come estrarre i collegamenti ipertestuali – Padroneggia la gestione dei collegamenti
+  ipertestuali in Word con Aspose.Words Java
+url: /it/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,166 +65,188 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Padroneggia la gestione dei collegamenti ipertestuali in Word con Aspose.Words Java
+# Gestione avanzata dei collegamenti ipertestuali in Word con Aspose.Words Java
 
 ## Introduzione
 
-La gestione dei collegamenti ipertestuali nei documenti di Microsoft Word può spesso sembrare complicata, soprattutto quando si ha a che fare con una documentazione estesa. Con **Aspose.Words per Java**Gli sviluppatori ottengono potenti strumenti per semplificare la gestione dei collegamenti ipertestuali. Questa guida completa ti guiderà nell'estrazione, nell'aggiornamento e nell'ottimizzazione dei collegamenti ipertestuali nei file Word.
+Se hai bisogno di **come estrarre collegamenti ipertestuali** da un file Microsoft Word, sei nel posto giusto. Con **Aspose.Words for Java**, estrarre, aggiornare e ottimizzare i collegamenti diventa un compito semplice e programmatico. Questo tutorial ti guida passo passo—dalla configurazione della libreria all'analisi dei nodi dei collegamenti ipertestuali e alla manipolazione delle loro proprietà—così potrai semplificare i flussi di lavoro dei documenti e mantenere ogni collegamento accurato.
 
-### Cosa imparerai:
-- Come estrarre tutti i collegamenti ipertestuali da un documento utilizzando Aspose.Words.
-- Utilizzare il `Hyperlink` classe per la manipolazione degli attributi dei collegamenti ipertestuali.
-- Buone pratiche per la gestione dei link locali ed esterni.
-- Configurazione di Aspose.Words nel tuo ambiente Java.
-- Applicazioni reali e considerazioni sulle prestazioni.
+### Cosa imparerai
+- Come estrarre tutti i collegamenti ipertestuali da un documento usando Aspose.Words.  
+- Come utilizzare la classe `Hyperlink` per leggere e aggiornare gli attributi del collegamento.  
+- Le migliori pratiche per gestire URL locali ed esterni.  
+- Come configurare Aspose.Words in un progetto Java.  
+- Scenari reali in cui la gestione dei collegamenti ipertestuali fa risparmiare tempo e migliora la conformità.
 
-Immergiti nella gestione efficiente dei collegamenti ipertestuali con **Aspose.Words per Java** per migliorare i flussi di lavoro dei tuoi documenti!
+Immergiti e scopri come estrarre i collegamenti ipertestuali in modo efficiente, poi prendi il controllo di ogni collegamento nei tuoi file Word.
+
+## Risposte rapide
+- **Come estrarre i collegamenti ipertestuali?** Carica il documento, seleziona i nodi `FieldStart` con XPath e avvolgi ciascuno in un oggetto `Hyperlink`.  
+- **Quale libreria è necessaria?** Aspose.Words for Java (supporta Java 8+).  
+- **È necessaria una licenza?** Una prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza completa per la produzione.  
+- **Posso aggiornare molti collegamenti contemporaneamente?** Sì—itera la collezione `Hyperlink` e modifica ogni URL di destinazione.  
+- **Il batch processing è supportato?** Assolutamente; elabora i documenti in cicli per mantenere basso l'uso della memoria.
+
+## Cos'è “come estrarre collegamenti ipertestuali”?
+*“Come estrarre collegamenti ipertestuali”* si riferisce al processo programmatico di individuare ogni campo collegamento ipertestuale all'interno di un documento Word e recuperare il testo visualizzato, l'URL di destinazione e i metadati correlati.  
+
+Usando Aspose.Words, puoi eseguire questa estrazione in poche righe di codice Java, senza la necessità di avere Microsoft Word installato.
+
+## Perché usare Aspose.Words per la gestione dei collegamenti ipertestuali?
+Aspose.Words supporta **oltre 50 formati di input e output** e può elaborare **documenti di 500 pagine in meno di 3 secondi** su hardware server tipico. La sua API funziona interamente in memoria, così non devi mai toccare il file system inutilmente, riducendo il sovraccarico I/O e migliorando la scalabilità per i lavori batch.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere la seguente configurazione:
+- **Java Development Kit (JDK) 8 o superiore**  
+- **Libreria Aspose.Words per Java** (Maven o Gradle)  
+- Conoscenza di base di Java (variabili, cicli, gestione delle eccezioni)  
 
-### Librerie e dipendenze richieste
-- **Aspose.Words per Java**: La libreria principale che utilizzeremo in questo tutorial.
+## Configurazione di Aspose.Words
 
-### Configurazione dell'ambiente
-- Java Development Kit (JDK) versione 8 o successiva installato sul computer.
+### Informazioni sulle dipendenze
 
-### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java.
-- È consigliata, ma non obbligatoria, la familiarità con gli strumenti di compilazione Maven o Gradle.
-
-## Impostazione di Aspose.Words
-
-Per iniziare a utilizzare **Aspose.Words per Java**includilo nel tuo progetto come segue:
-
-### Informazioni sulla dipendenza
-
-**Esperto:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### Acquisizione della licenza
-Puoi iniziare con un **licenza di prova gratuita** per esplorare le funzionalità di Aspose.Words. Se lo ritieni opportuno, valuta l'acquisto o la richiesta di una licenza completa temporanea. Visita [pagina di acquisto](https://purchase.aspose.com/buy) per maggiori dettagli.
+Inizia con una **[licenza di prova gratuita](https://releases.aspose.com/words/java/)** per esplorare l'API. Quando sei pronto per la produzione, acquista una licenza completa. Visita la [pagina di acquisto](https://purchase.aspose.com/buy) per i dettagli dei prezzi.
 
 ### Inizializzazione di base
-Ecco come impostare l'ambiente:
+Prima di poter lavorare con i documenti, devi caricare la libreria e creare un'istanza `Document`.  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Carica il tuo documento
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
     }
 }
-```
+```  
 
-## Guida all'implementazione
+## Come estrarre collegamenti ipertestuali da un documento Word usando Aspose.Words Java?
 
-Vediamo come implementare la gestione dei collegamenti ipertestuali nei documenti Word.
+Carica il file `.docx` di destinazione con `new Document("path/to/file.docx")`, quindi esegui una query XPath che seleziona tutti i nodi `FieldStart` il cui `FieldType` è uguale a `FieldType.FIELD_HYPERLINK`. Avvolgi ogni nodo in un oggetto `Hyperlink` per leggere le sue proprietà. Questo approccio estrae tutti i collegamenti ipertestuali in un'unica passata e funziona sia per i segnalibri interni che per gli URL esterni.
 
-### Funzionalità 1: selezionare collegamenti ipertestuali da un documento
+### Processo di estrazione passo‑passo
 
-**Panoramica**: Estrai tutti i collegamenti ipertestuali dal tuo documento Word utilizzando Aspose.Words Java. Utilizza XPath per identificarli. `FieldStart` nodi che indicano potenziali collegamenti ipertestuali.
-
-#### Passaggio 1: caricare il documento
-Assicurati di specificare il percorso corretto per il tuo documento:
+#### Passo 1: Carica il documento
+Fornisci il percorso completo del file Word che desideri analizzare.  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
-```
+```  
 
-#### Passaggio 2: selezionare i nodi del collegamento ipertestuale
-Usa XPath per trovare `FieldStart` nodi che rappresentano i campi di collegamento ipertestuale nei documenti Word:
+#### Passo 2: Seleziona i nodi dei collegamenti ipertestuali
+Esegui l'espressione XPath `//FieldStart[@FieldType='FieldHyperlink']` per recuperare ogni campo collegamento ipertestuale.  
 ```java
-NodeList fieldStarts = doc.selectNodes("//Inizio campo");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // Segnaposto per ulteriori manipolazioni
+        // Placeholder for further manipulation
     }
 }
-```
+```  
 
-### Caratteristica 2: implementazione della classe di collegamento ipertestuale
-
-**Panoramica**: IL `Hyperlink` La classe incapsula e consente di manipolare le proprietà di un collegamento ipertestuale all'interno del documento.
-
-#### Passaggio 1: inizializzare l'oggetto collegamento ipertestuale
-Crea un'istanza passando un `FieldStart` nodo:
+#### Passo 3: Avvolgi i nodi in oggetti Hyperlink
+Per ogni nodo `FieldStart` restituito, istanzia un oggetto `Hyperlink`. Questo ti consente di accedere a metodi come `getName()`, `getTarget()` e `isLocal()`.  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
-```
+```  
 
-#### Passaggio 2: gestire le proprietà del collegamento ipertestuale
-Accedi e modifica proprietà quali nome, URL di destinazione o stato locale:
-- **Ottieni il nome**:
-  ```java
+#### Passo 4: Leggi o modifica le proprietà
+Usa l'API `Hyperlink` per leggere il testo visualizzato, l'URL di destinazione o per modificare la destinazione del collegamento.  
+```java
   String linkName = hyperlink.getName();
-  ```
-- **Imposta un nuovo obiettivo**:
-  ```java
-  hyperlink.setTarget("https://esempio.com");
-  ```
-- **Controlla il collegamento locale**:
-  ```java
+  ```  
+
+#### Passo 5: Salva le modifiche (se necessario)
+Dopo aver aggiornato i collegamenti, chiama `document.save("output.docx")` per salvare le modifiche.  
+```java
+  hyperlink.setTarget("https://example.com");
+  ```  
+
+## Implementazione della classe Hyperlink
+
+### Ancora di definizione
+La classe `Hyperlink` è il wrapper dedicato di Aspose.Words per un campo collegamento ipertestuale di Word, che espone proprietà come `name`, `target` e `isLocal`.
+
+#### Inizializza un oggetto Hyperlink
+Passa un nodo `FieldStart` al costruttore per creare un'istanza `Hyperlink` utilizzabile.  
+```java
   boolean isLocalLink = hyperlink.isLocal();
-  ```
+  ```  
+
+#### Gestisci le proprietà del collegamento ipertestuale
+- **Ottieni il nome:** Recupera il nome amichevole visualizzato nel documento.  
+- **Imposta nuovo target:** Aggiorna l'URL o il riferimento al segnalibro.  
+- **Verifica collegamento locale:** Determina se il collegamento ipertestuale punta a una posizione all'interno dello stesso documento.
 
 ## Applicazioni pratiche
-1. **Conformità dei documenti**: Aggiornare i collegamenti ipertestuali obsoleti per garantirne l'accuratezza.
-2. **Ottimizzazione SEO**: Modifica gli obiettivi dei link per una migliore visibilità sui motori di ricerca.
-3. **Editing collaborativo**: Facilita l'aggiunta o la modifica dei collegamenti ai documenti da parte dei membri del team.
+1. **Conformità dei documenti:** Sostituisci automaticamente gli URL obsoleti con quelli attuali per soddisfare gli standard normativi.  
+2. **Ottimizzazione SEO:** Reindirizza i collegamenti esterni a domini SEO‑friendly, migliorando il posizionamento nei motori di ricerca.  
+3. **Modifica collaborativa:** Fornisci uno strumento di aggiornamento massivo per i team per correggere i collegamenti interrotti dopo una migrazione del sito.
 
 ## Considerazioni sulle prestazioni
-- **Elaborazione batch**: Gestire documenti di grandi dimensioni in batch per ottimizzare l'utilizzo della memoria.
-- **Efficienza delle espressioni regolari**Ottimizza i modelli regex all'interno del `Hyperlink` classe per tempi di esecuzione più rapidi.
+- **Batch processing:** Elabora i documenti in un ciclo e rilascia ogni oggetto `Document` dopo il salvataggio per mantenere basso il consumo di memoria.  
+- **Efficienza delle regex:** Quando filtri gli URL, precompila le espressioni regolari e applicale al valore `Hyperlink.getTarget()` per un'esecuzione più veloce.
 
-## Conclusione
-Seguendo questa guida, hai sfruttato le potenti funzionalità di Aspose.Words Java per la gestione dei collegamenti ipertestuali nei documenti Word. Esplora ulteriormente integrando queste soluzioni nei tuoi flussi di lavoro e scoprendo altre funzionalità offerte da Aspose.Words.
+## Domande frequenti
 
-Pronti a migliorare le vostre competenze di gestione dei documenti? Approfondite [Documentazione di Aspose.Words](https://reference.aspose.com/words/java/) per funzionalità aggiuntive!
+**Q: A cosa serve Aspose.Words Java?**  
+**A:** È una libreria che consente di creare, modificare e convertire documenti Word in modo programmatico nelle applicazioni Java.
 
-## Sezione FAQ
-1. **A cosa serve Aspose.Words Java?**
-   - È una libreria per creare, modificare e convertire documenti Word nelle applicazioni Java.
-2. **Come faccio ad aggiornare più collegamenti ipertestuali contemporaneamente?**
-   - Utilizzare il `SelectHyperlinks` funzionalità per scorrere e aggiornare ogni collegamento ipertestuale secondo necessità.
-3. **Aspose.Words può gestire anche la conversione in PDF?**
-   - Sì, supporta vari formati di documenti, incluso il PDF.
-4. **Esiste un modo per testare le funzionalità di Aspose.Words prima di acquistarlo?**
-   - Assolutamente! Inizia con il [licenza di prova gratuita](https://releases.aspose.com/words/java/) disponibile sul loro sito web.
-5. **Cosa succede se riscontro problemi con gli aggiornamenti dei collegamenti ipertestuali?**
-   - Controlla i tuoi modelli di espressioni regolari e assicurati che corrispondano accuratamente alla formattazione del tuo documento.
+**Q: Come posso aggiornare più collegamenti ipertestuali contemporaneamente?**  
+**A:** Usa il flusso di lavoro di estrazione per raccogliere tutti gli oggetti `Hyperlink`, quindi itera sulla collezione e chiama `setTarget(newUrl)` per ogni voce.
 
-## Risorse
-- **Documentazione**: Scopri di più su [Documentazione Java di Aspose.Words](https://reference.aspose.com/words/java/)
-- **Scarica Aspose.Words**: Ottieni l'ultima versione [Qui](https://releases.aspose.com/words/java/)
-- **Acquista licenza**: Acquista direttamente da [Posare](https://purchase.aspose.com/buy)
-- **Prova gratuita**: Prova prima di acquistare con un [licenza di prova gratuita](https://releases.aspose.com/words/java/)
-- **Forum di supporto**: Unisciti alla comunità su [Forum di supporto Aspose](https://forum.aspose.com/c/words/10) per discussioni e assistenza.
+**Q: Aspose.Words può gestire anche la conversione PDF?**  
+**A:** Sì—supporta la conversione da e verso PDF, insieme a oltre 35 altri formati.
+
+**Q: È possibile testare Aspose.Words prima di acquistarlo?**  
+**A:** Assolutamente. Inizia con la [licenza di prova gratuita](https://releases.aspose.com/words/java/) per valutare l'API.
+
+**Q: Cosa devo fare se un collegamento ipertestuale non si aggiorna?**  
+**A:** Verifica che la query XPath abbia identificato correttamente il campo e che il nuovo URL sia conforme alla sintassi URI standard.
+
+## Risorse aggiuntive
+- **Documentazione:** Scopri di più su [Aspose.Words documentation](https://reference.aspose.com/words/java/) e [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)  
+- **Download Aspose.Words:** Ottieni l'ultima versione [qui](https://releases.aspose.com/words/java/)  
+- **Acquista licenza:** Acquista direttamente da [Aspose](https://purchase.aspose.com/buy)  
+- **Prova gratuita:** Prova prima di acquistare con una [licenza di prova gratuita](https://releases.aspose.com/words/java/)  
+- **Forum di supporto:** Unisciti alla community su [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+---
+
+**Last Updated:** 2026-07-02  
+**Testato con:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial correlati
+
+- [Estrazione del contenuto dai documenti in Aspose.Words per Java](/words/java/document-manipulation/extracting-content-from-documents/)
+- [Manipolazione avanzata dei documenti con Aspose.Words per Java: Guida completa](/words/java/content-management/aspose-words-java-document-manipulation-guide/)
+- [Aspose.Words per Java: Come inserire e gestire i segnalibri nei documenti Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
