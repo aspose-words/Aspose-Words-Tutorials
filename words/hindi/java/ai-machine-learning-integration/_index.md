@@ -68,6 +68,9 @@ Aspose.Words के साथ आप एक नया `DocumentBuilder` बन�
 ### [जावा में टेक्स्ट प्रोसेसिंग में महारत&#58; सारांश और अनुवाद के लिए Aspose.Words & AI मॉडल का उपयोग](./java-aspose-words-text-processing/)
 Aspose.Words for Java के साथ OpenAI के GPT‑4 और Google के Gemini का उपयोग करके टेक्स्ट सारांश और अनुवाद को स्वचालित करना सीखें। आज ही अपने जावा एप्लिकेशन को बेहतर बनाएं।
 
+### [Self‑Hosted LLM के साथ जावा में Word दस्तावेज़ का सारांश – पूर्ण गाइड](./summarize-word-document-in-java-with-self-hosted-llm-full-gu/)
+Self‑Hosted LLM का उपयोग करके जावा में Word फ़ाइल का स्वचालित सारांश बनाना सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.Words for Java दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)

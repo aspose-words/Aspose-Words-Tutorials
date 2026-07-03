@@ -81,7 +81,10 @@ Aspose.Words for Java में डॉक्यूमेंट शेप्स �
 Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क कैसे जोड़ें, सीखें। पेशेवर दिखने वाले दस्तावेज़ों के लिए टेक्स्ट और इमेज वॉटरमार्क को कस्टमाइज़ करें।
 
 ### [Aspose.Words for Java में DOCX को PDF में बदलें](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को आसानी से PDF में बदलें। चरण‑दर‑स्टेप कोड उदाहरण।
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को आसानी से PDF में बदलें। चरण‑दर‑स्टेप गाइड।
+
+### [DOCX को PDF में बदलें – Word को Markdown में निर्यात (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को PDF में बदलें और Word को Markdown में निर्यात करने की प्रक्रिया सीखें।
 
 ### [Aspose.Words for Java में टेबल्स और टेबल स्टाइल्स को फ़ॉर्मेट करना](./formatting-tables-and-table-styles/)
 Aspose.Words for Java में टेबल्स को फ़ॉर्मेट करना और टेबल स्टाइल्स लागू करना सीखें। प्रभावी टेबल फ़ॉर्मेटिंग के लिए स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएं।
@@ -91,28 +94,25 @@ Aspose.Words for Java में टेबल्स को फ़ॉर्मे�
 ### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को TXT फ़ाइल में बदलें और गणितीय समीकरणों को निर्यात करने की प्रक्रिया सीखें।
 
-### [DOCX को मार्कडाउन में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
-DOCX को मार्कडाउन में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+### [DOCX को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
+DOCX को markdown में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
+### [docx को markdown में छवियों के साथ बदलें – पूर्ण Java गाइड](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Aspose.Words for Java का उपयोग करके docx को markdown में छवियों सहित बदलने की पूरी प्रक्रिया सीखें।
 
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX फ़ाइल को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
 
-## अक्सर पूछे जाने वाले प्रश्न
+### [Word से एक्सेसिबल PDF बनाना – Word को PDF में बदलने की गाइड](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Word दस्तावेज़ को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
 
-**Q: Aspose.Words का उपयोग करके मौजूदा PDF में वॉटरमार्क कैसे जोड़ूँ?**  
-A: दस्तावेज़ लोड करें, `DocumentBuilder.insertWatermarkText` या `insertWatermarkImage` का उपयोग करें, फिर PDF के रूप में सहेजें।
+### [DOCX को मार्कडाउन के रूप में सहेजें – LaTeX समीकरणों और इमेज रिज़ॉल्यूशन के साथ पूर्ण गाइड](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को मार्कडाउन में बदलें, LaTeX समीकरण और इमेज रिज़ॉल्यूशन को सही तरीके से निर्यात करें।
 
-**Q: क्या मैं DOCX फ़ाइल को PDF में बिना जटिल लेआउट खोए बदल सकता हूँ?**  
-A: हाँ। Aspose.Words रूपांतरण के दौरान लेआउट, फ़ॉन्ट और ग्राफ़िक्स को बरकरार रखता है।
+### [फ़्लोटिंग शैप्स को इनलाइन निर्यात – PDF रूपांतरण की पूर्ण गाइड](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
 
-**Q: जावा में कस्टम बारकोड लेबल कैसे जेनरेट करूँ?**  
-A: Aspose.Words द्वारा प्रदान किए गए बारकोड API का उपयोग करें, बारकोड प्रकार निर्दिष्ट करें, और इसे इमेज या शेप के रूप में डालें।
-
-**Q: टेबल्स को लगातार फ़ॉर्मेट करने का सबसे अच्छा तरीका क्या है?**  
-A: `Table.setStyleIdentifier` मेथड के माध्यम से TableStyle लागू करें या बिल्ट‑इन स्टाइल गैलरी का उपयोग करें।
-
-**Q: क्या व्यावसायिक उपयोग के लिए लाइसेंस आवश्यक है?**  
-A: हाँ, उत्पादन डिप्लॉयमेंट के लिए एक व्यावसायिक लाइसेंस आवश्यक है; मूल्यांकन के लिए एक फ़्री ट्रायल उपलब्ध है।
+### [PNG निर्यात के लिए रिज़ॉल्यूशन सेट करने का तरीका – पूर्ण जावा गाइड](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Aspose.Words for Java में PNG निर्यात के रिज़ॉल्यूशन को कैसे सेट करें, चरण‑दर‑स्टेप कोड उदाहरण के साथ।
 
 ---
 

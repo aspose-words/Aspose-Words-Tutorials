@@ -107,7 +107,12 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة.
 ### [استعادة ملف docx تالف – دليل شامل للإصلاح ومعالجة المستندات](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها ومعالجتها باستخدام Aspose.Words for Java.
+### [ضبط وضع الاستعادة في Aspose.Words للـ Java – دليل كامل](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
+تعلم كيفية تمكين وضبط وضع الاستعادة في Aspose.Words للـ Java مع دليل شامل خطوة بخطوة.
 ### [التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل شامل](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [تسجيل رد نداء التحذير في Java – اكتشاف الخطوط المفقودة بسهولة](./register-warning-callback-in-java-detect-missing-fonts-easil/)
+تعلم كيفية تسجيل رد نداء التحذير في Aspose.Words for Java لاكتشاف الخطوط المفقودة وإدارتها بسهولة.
 
 #### الحفظ بصيغ مختلفة
 

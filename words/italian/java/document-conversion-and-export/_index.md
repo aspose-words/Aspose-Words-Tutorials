@@ -86,8 +86,14 @@ Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per 
 ### [Converti docx in markdown – Esporta equazioni matematiche in LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Scopri come trasformare documenti DOCX in markdown e convertire le equazioni matematiche in LaTeX usando Aspose.Words.
 
+### [Salva docx come markdown – Guida completa con equazioni LaTeX e risoluzione immagini](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Scopri come convertire DOCX in markdown mantenendo le equazioni LaTeX e controllando la risoluzione delle immagini.
+
 ### [Come incorporare immagini in Markdown durante la conversione di DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Scopri come includere immagini nei file Markdown generati dalla conversione di documenti DOCX con Aspose.Words for Java.
+
+### [Converti docx in markdown con immagini – Guida Java completa](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Scopri come convertire file DOCX in markdown mantenendo le immagini, con esempi Java passo‑passo.
 
 ### [Salva documento come TXT – Guida rapida all'esportazione di equazioni Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in modo semplice e veloce.
@@ -95,8 +101,20 @@ Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in mod
 ### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
 
+### [Converti DOCX in PDF – Esporta Word in Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Scopri come convertire DOCX in PDF ed esportare Word in Markdown con Aspose.Words per Java.
+
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
+
+### [Crea PDF accessibile da Word – Guida alla conversione da Word a PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Scopri come generare PDF accessibili da documenti Word mantenendo struttura, tag e contenuti per l'accessibilità.
+
+### [Esporta forme fluttuanti inline – Guida completa alla conversione PDF](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Scopri come esportare forme fluttuanti inline durante la conversione PDF con Aspose.Words per Java, passo passo.
+
+### [Come impostare la risoluzione per l'esportazione PNG – Guida completa Java](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Scopri come configurare la risoluzione delle immagini PNG esportate con Aspose.Words per Java per ottenere la qualità desiderata.
 
 ## Domande frequenti
 

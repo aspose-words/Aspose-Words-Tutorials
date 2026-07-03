@@ -118,6 +118,10 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [Establecer modo de recuperación en Aspose.Words for Java – Guía completa](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
+
+### [Registrar devolución de llamada de advertencia en Java – Detectar fuentes faltantes fácilmente](./register-warning-callback-in-java-detect-missing-fonts-easil/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

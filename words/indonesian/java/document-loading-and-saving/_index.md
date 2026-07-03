@@ -138,6 +138,12 @@ Pelajari cara memulihkan file DOCX yang rusak, memperbaikinya, dan melanjutkan p
 ### [Menangkap Peringatan Substitusi Font di Java dengan Aspose.Words – Panduan Lengkap](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Pelajari cara menangkap peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
 
+### [Atur Mode Pemulihan di Aspose.Words untuk Java – Panduan Lengkap](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
+Pelajari cara mengaktifkan mode pemulihan di Aspose.Words untuk Java untuk memperbaiki dokumen Word yang rusak secara otomatis.
+
+### [Daftarkan callback peringatan di Java – Deteksi font yang hilang dengan mudah](./register-warning-callback-in-java-detect-missing-fonts-easil/)
+Pelajari cara mendaftarkan callback peringatan di Java untuk mendeteksi font yang hilang dengan mudah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  
