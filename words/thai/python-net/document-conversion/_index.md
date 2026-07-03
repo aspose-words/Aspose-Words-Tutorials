@@ -40,6 +40,15 @@
 ### [กู้ไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose.Words for Python
 
+### [บันทึกไฟล์ docx เป็น markdown – คู่มือฉบับสมบูรณ์ในการแปลง Word เป็น Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+เรียนรู้วิธีบันทึกไฟล์ docx เป็น Markdown อย่างละเอียดด้วย Aspose.Words for Python
+
+### [บันทึก DOCX เป็น PDF ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์แบบขั้นตอนต่อขั้นตอน](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF อย่างละเอียดด้วย Aspose.Words for Python พร้อมขั้นตอนและตัวอย่างโค้ด
+
+### [สร้าง PDF ที่เข้าถึงได้ – คู่มือฉบับสมบูรณ์กับ Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐานด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

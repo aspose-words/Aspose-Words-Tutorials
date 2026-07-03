@@ -49,6 +49,8 @@
 学习如何使用 Aspose.Words for Python 管理文档属性和元数据。包含源代码的分步指南。
 ### [使用 Web 扩展来扩展文档功能](./document-functionality-web-extensions/)
 学习如何使用 Aspose.Words for Python 通过 Web 扩展程序扩展文档功能。包含无缝集成源代码的分步指南。
+### [Aspose 字体警告处理程序 – 检测缺失字体并自定义文档加载](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+学习如何使用 Aspose.Words for Python 捕获字体缺失警告并自定义文档加载行为，确保文档渲染一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

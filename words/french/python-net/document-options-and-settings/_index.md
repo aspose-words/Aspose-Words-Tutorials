@@ -49,6 +49,8 @@ Apprenez à manipuler efficacement des documents Word avec Aspose.Words pour Pyt
 Apprenez à gérer les propriétés et les métadonnées de vos documents avec Aspose.Words pour Python. Guide étape par étape avec code source.
 ### [Extension des fonctionnalités des documents avec les extensions Web](./document-functionality-web-extensions/)
 Découvrez comment étendre les fonctionnalités de vos documents avec des extensions Web grâce à Aspose.Words pour Python. Guide étape par étape avec code source pour une intégration fluide.
+### [Gestionnaire d'avertissement de police Aspose – Détecter les polices manquantes et personnaliser le chargement du document](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Apprenez à gérer les avertissements de police, détecter les polices manquantes et personnaliser le chargement de documents avec Aspose.Words pour Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
