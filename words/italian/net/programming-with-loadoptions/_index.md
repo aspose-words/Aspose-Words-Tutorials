@@ -41,6 +41,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Aspose Load Options – Carica DOCX con impostazioni di font personalizzate](./aspose-load-options-load-docx-with-custom-font-settings/) | Scopri come caricare file DOCX specificando impostazioni di font personalizzate con Aspose Load Options. |
 | [Come utilizzare LoadOptions in Aspose.Words – Guida completa](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Scopri come utilizzare LoadOptions in Aspose.Words per .NET con questa guida completa passo passo. |
 | [Recupera documento corrotto in C# – Imposta modalità di recupero e avvisa l'utente](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Scopri come recuperare documenti corrotti in C# impostando la modalità di recupero e mostrando un prompt all'utente. |
+| [Recupera documento Word corrotto usando Aspose.Words C#](./recover-corrupted-word-document-using-aspose-words-c/) | Scopri come recuperare documenti Word corrotti con Aspose.Words per .NET in C#, passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
