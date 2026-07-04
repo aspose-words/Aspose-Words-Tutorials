@@ -36,6 +36,8 @@
 | [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-latex-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus Word-Dokumenten exportieren – detaillierte Anleitung mit Codebeispielen. |
 | [Word als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
 | [Docx als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
+| [DOCX als PDF speichern mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words problemlos als PDF speichern – umfassende Schritt‑für‑Schritt‑Anleitung. |
+| [Mail Merge durchführen und DOCX in PDF konvertieren in C# – Vollständige Aspose‑Anleitung](./how-to-mail-merge-and-convert-docx-to-pdf-in-c-complete-aspo/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Mail Merge durchführen und DOCX in PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

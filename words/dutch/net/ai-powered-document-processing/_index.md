@@ -42,6 +42,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met het Google AI-model](./working-with-google-ai-model/) Verbeter uw documentverwerking met Aspose.Words voor .NET en Google AI om moeiteloos beknopte samenvattingen te maken. |
 | [Werken met een open AI-model](./working-with-open-ai-model/) | Ontgrendel efficiënte documentsamenvattingen met Aspose.Words voor .NET met de krachtige modellen van OpenAI. Duik nu in deze uitgebreide handleiding. |
 | [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [Paragraaf herschrijven met AI in C# – Hoe een lokaal LLM te configureren](./rewrite-paragraph-with-ai-in-c-how-to-configure-local-llm/) | Leer hoe u met Aspose.Words en een lokaal LLM paragrafen automatisch kunt herschrijven in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

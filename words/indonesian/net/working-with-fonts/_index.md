@@ -54,6 +54,9 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 
 | [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Pelajari cara menangkap font yang digunakan dalam dokumen Word dengan Aspose.Words melalui panduan lengkap langkah demi langkah. |
 
+### [Menangani Substitusi Font di Aspose.Words – Panduan Pemrograman Lengkap](./handle-font-substitution-in-aspose-words-complete-programmin/)
+Pelajari cara menangani substitusi font dalam Aspose.Words dengan panduan pemrograman lengkap untuk .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

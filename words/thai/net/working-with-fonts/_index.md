@@ -47,6 +47,7 @@
 | [รับการแจ้งเตือนแบบอักษร](./receive-notifications-of-fonts/) | เรียนรู้วิธีรับการแจ้งเตือนแบบอักษรที่ขาดหายหรือถูกแทนที่เมื่อใช้ Aspose.Words สำหรับ .NET -
 | [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 - [เปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words – คู่มือฉบับสมบูรณ์](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | เรียนรู้วิธีเปิดใช้งานการแจ้งเตือนการทดแทนแบบอักษรใน Aspose.Words สำหรับ .NET เพื่อให้คุณทราบเมื่อแบบอักษรถูกแทนที่ -
+- [จัดการการทดแทนแบบอักษรใน Aspose.Words – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./handle-font-substitution-in-aspose-words-complete-programmin/) | เรียนรู้วิธีจัดการการทดแทนแบบอักษรอย่างละเอียดใน Aspose.Words สำหรับ .NET ด้วยคู่มือการเขียนโปรแกรมฉบับสมบูรณ์ -
 | [ตัวอย่างแหล่งที่มาของฟอนต์ Steam](./resource-steam-font-source-example/) | เรียนรู้วิธีใช้ Resource Stream Font Source เพื่อโหลดแบบอักษรที่กำหนดเองลงใน Aspose.Words สำหรับ .NET -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 - [วิธีตรวจจับแบบอักษรใน Aspose.Words – จัดการการแจ้งเตือนและการตั้งค่า](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | เรียนรู้วิธีตรวจจับแบบอักษรใน Aspose.Words พร้อมจัดการการแจ้งเตือนและตั้งค่าการแทนที่แบบอักษรเพื่อให้เอกสารแสดงผลอย่างถูกต้อง -
