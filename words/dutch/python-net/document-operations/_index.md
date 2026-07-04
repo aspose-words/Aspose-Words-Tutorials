@@ -58,7 +58,10 @@ Een codetutorial voor Aspose.Words Python-net
 Leer hoe u Word-documenten naar PostScript-formaat converteert met Aspose.Words voor Python. Deze handleiding behandelt de installatie, conversie en opties voor het vouwen van boeken.
 
     ### [Herstel beschadigd DOCX – Open & laad Word-document](./recover-corrupted-docx-open-load-word-document/)
-Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
+    Leer hoe u beschadigde DOCX-bestanden kunt herstellen en openen met Aspose.Words voor Python-net.
+
+    ### [Herstel beschadigd DOCX – Complete gids voor het openen van Word-bestanden met Aspose](./recover-corrupted-docx-complete-guide-to-opening-word-files/)
+    Ontdek een volledige gids om beschadigde DOCX-bestanden te herstellen en te openen met Aspose.Words voor Python-net.
 
 ## Aanvullende bronnen
 

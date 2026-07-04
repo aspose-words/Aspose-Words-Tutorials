@@ -34,6 +34,9 @@ Erfahren Sie, wie Sie die Bildverarbeitung in RTF-Dokumenten mit Aspose.Words f�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Erfahren Sie, wie Sie die SVG-Ausgabe mit Aspose.Words für Python optimieren. Diese Anleitung behandelt benutzerdefinierte Funktionen wie bildähnliche Eigenschaften, Textdarstellung und Sicherheitsverbesserungen.
 
+    ### [Rechteckform in Python erstellen – Aspose.Words Tutorial](./create-rectangle-shape-in-python-aspose-words-tutorial/)
+    Erfahren Sie, wie Sie mit Aspose.Words für Python ein Rechteck als Form in ein Word-Dokument einfügen und anpassen.
+
 ### [Wie man Schatten in C# hinzufügt – Vollständiger Programmierleitfaden](./how-to-add-shadow-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie Schatten zu C#-Grafiken hinzufügen und das Erscheinungsbild Ihrer Anwendungen verbessern.
 
