@@ -101,8 +101,20 @@ Leer hoe je DOCX-bestanden omzet naar Markdown en wiskundige vergelijkingen expo
 ### [Hoe afbeeldingen inbedden in Markdown bij het converteren van DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van DOCX met Aspose.Words for Java.
 
+### [Hoe de resolutie instellen bij het opslaan van Word als Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+Leer hoe je de resolutie kunt instellen bij het exporteren van een Word‑document naar Markdown met Aspose.Words for Java.
+
+### [Hoe Markdown vanuit Word opslaan – Complete Java-gids](./how-to-save-markdown-from-word-complete-java-guide/)
+Leer hoe je een Word‑document omzet en opslaat als Markdown met Aspose.Words for Java in deze volledige gids.
+
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
+
+### [DOCX opslaan als TXT – Exporteer Word‑vergelijkingen naar LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+Leer hoe je een DOCX‑bestand opslaat als TXT en Word‑vergelijkingen exporteert naar LaTeX met Aspose.Words for Java.
+
+### [Word opslaan als PDF met Aspose.Words – volledige Java‑gids](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Leer hoe je met Aspose.Words for Java een Word‑document in één stap naar PDF converteert, inclusief opties voor kwaliteit en beveiliging.
 
 ## Veelgestelde Vragen
 

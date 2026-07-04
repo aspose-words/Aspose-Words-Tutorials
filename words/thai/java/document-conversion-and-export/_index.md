@@ -97,11 +97,23 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [บันทึกเอกสารเป็น TXT – คู่มือด่วนสำหรับการส่งออกสมการ Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น TXT พร้อมส่งออกสมการคณิตศาสตร์อย่างง่ายและรวดเร็วด้วย Aspose.Words for Java
 
+### [บันทึก docx เป็น txt – ส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมแปลงสมการ Word ไปเป็นรูปแบบ LaTeX ด้วย Aspose.Words for Java
+
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
+### [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือเต็ม Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF อย่างเต็มรูปแบบด้วย Aspose.Words สำหรับ Java
+
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [วิธีตั้งความละเอียดเมื่อบันทึก Word เป็น Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+เรียนรู้วิธีกำหนดความละเอียดของภาพเมื่อบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words
+
+### [วิธีบันทึก Markdown จาก Word – คู่มือฉบับสมบูรณ์สำหรับ Java](./how-to-save-markdown-from-word-complete-java-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Aspose.Words for Java ในคู่มือฉบับสมบูรณ์
 
 ## คำถามที่พบบ่อย
 

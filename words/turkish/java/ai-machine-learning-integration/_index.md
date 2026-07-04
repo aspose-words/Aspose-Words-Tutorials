@@ -65,7 +65,8 @@ Zenginleştirilmiş belgeyi ihtiyacınız olan formata dışa aktarın—PDF, DO
 ## Mevcut Eğitimler
 
 ### [Java'da Metin İşlemede Ustalaşın&#58; Özetleme ve Çeviri için Aspose.Words & AI Modelleri Kullanımı](./java-aspose-words-text-processing/)
-OpenAI'nin GPT‑4 ve Google'ın Gemini'si ile Aspose.Words for Java kullanarak metin özetleme ve çeviriyi nasıl otomatikleştireceğinizi öğrenin. Java uygulamalarınızı bugün geliştirin.
+
+### [Java ile Özel LLM Dilbilgisi Kontrolü Kullanarak Word Belgesi Oluşturma](./create-word-document-java-with-custom-llm-grammar-check/)
 
 ## Ek Kaynaklar
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)

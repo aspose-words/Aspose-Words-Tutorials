@@ -68,6 +68,9 @@ Wyeksportuj wzbogacony dokument do potrzebnego formatu — PDF, DOCX, HTML lub n
 ### [Mistrzowskie przetwarzanie tekstu w Javie&#58; użycie Aspose.Words i modeli AI do podsumowywania i tłumaczenia](./java-aspose-words-text-processing/)
 Dowiedz się, jak automatyzować podsumowywanie tekstu i tłumaczenie przy użyciu Aspose.Words for Java z GPT‑4 od OpenAI i Gemini od Google. Ulepsz swoje aplikacje Java już dziś.
 
+### [Tworzenie dokumentu Word w Javie z niestandardową kontrolą gramatyki LLM](./create-word-document-java-with-custom-llm-grammar-check/)
+Dowiedz się, jak generować dokument Word w Javie i integrować własny model LLM do sprawdzania gramatyki.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Words for Java](https://reference.aspose.com/words/java/)

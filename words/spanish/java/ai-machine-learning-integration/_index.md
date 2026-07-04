@@ -53,7 +53,7 @@ Utiliza tu cliente HTTP preferido para enviar el texto del documento al modelo d
 Con Aspose.Words puedes crear un nuevo `DocumentBuilder`, moverte a la ubicación deseada y escribir la cadena generada por IA directamente en el archivo.
 
 ### Paso 4: Guarda o exporta
-Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o incluso EPUB.
+Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o incluso EPUB。
 
 > **Pro tip:** Cachea las respuestas de IA para documentos recurrentes para reducir costos de API y latencia.
 
@@ -67,6 +67,9 @@ Exporta el documento enriquecido al formato que necesites—PDF, DOCX, HTML o in
 
 ### [Domina el procesamiento de texto en Java: Usando Aspose.Words y modelos de IA para resumir y traducir](./java-aspose-words-text-processing/)
 Aprende a automatizar la resumición y traducción de texto usando Aspose.Words para Java con GPT‑4 de OpenAI y Gemini de Google. Mejora tus aplicaciones Java hoy.
+
+### [Crear documento Word en Java con verificación gramatical de LLM personalizado](./create-word-document-java-with-custom-llm-grammar-check/)
+Aprende a generar documentos Word en Java y a usar un modelo LLM personalizado para corregir gramática automáticamente.
 
 ## Recursos adicionales
 

@@ -67,6 +67,9 @@ Exportera det berikade dokumentet till det format du behöver—PDF, DOCX, HTML 
 ### [Behärska textbehandling i Java: Använd Aspose.Words & AI‑modeller för sammanfattning och översättning](./java-aspose-words-text-processing/)
 Lär dig hur du automatiserar textsammanfattning och översättning med Aspose.Words för Java med OpenAI:s GPT‑4 och Googles Gemini. Förbättra dina Java‑applikationer idag.
 
+### [Skapa Word-dokument i Java med anpassad LLM-grammatikgranskning](./create-word-document-java-with-custom-llm-grammar-check/)
+Lär dig skapa Word-dokument i Java och använda en anpassad LLM för grammatikkontroll.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java‑dokumentation](https://reference.aspose.com/words/java/)
