@@ -28,6 +28,7 @@ Handledningarna täcker även de grundläggande koncepten för bildmanipulation,
 | [Hämta JPEG-sidintervall](./get-jpeg-page-range/) | Konvertera specifika sidor i Word-dokument till JPEG med anpassade inställningar med Aspose.Words för .NET. Lär dig hur du justerar ljusstyrka, kontrast och upplösning steg för steg. |
 | [Återuppringning av sida](./page-saving-callback/) | Lär dig att spara varje sida i ett Word-dokument som en separat PNG-bild med Aspose.Words för .NET med vår detaljerade steg-för-steg-guide. |
 | [Hur du anger DPI när du konverterar Word till PNG – Komplett C#-guide](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Lär dig hur du ställer in DPI för PNG-export från Word med Aspose.Words för .NET i en komplett C#-guide. |
+| [Exportera Word som PNG – Konvertera DOCX till en bild](./export-word-as-png-convert-docx-to-one-image/) | Lär dig hur du exporterar ett Word-dokument till en enda PNG-bild med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
