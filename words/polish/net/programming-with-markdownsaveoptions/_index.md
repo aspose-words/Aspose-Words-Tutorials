@@ -35,11 +35,15 @@ Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentó
 ### [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Kompletny przewodnik C# konwertujący pliki DOCX na Markdown z obsługą równań LaTeX przy użyciu Aspose.Words.
 
+### [Zapisz docx jako markdown – Eksportuj równania Word do LaTeX przy użyciu Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+Dowiedz się, jak wyeksportować równania matematyczne z dokumentu Word do formatu LaTeX podczas konwersji do Markdown przy użyciu Aspose.Words.
+
 ### [Zapisz docx jako markdown – Pełny przewodnik C# z wyodrębnianiem obrazów](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
 
 ### [Zapisz docx jako markdown – Pełny przewodnik C# z Aspose.Words](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisać plik DOCX jako Markdown przy użyciu Aspose.Words.
+
 ### [Konwertuj Word do Markdown w C# – Pełny przewodnik z wyodrębnianiem obrazów](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Kompletny przewodnik C# konwertujący dokumenty Word do formatu Markdown z wyodrębnianiem obrazów.
 
@@ -66,6 +70,9 @@ Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji dokument
 
 ### [Zapisz obrazy Word – konwertuj Word do Markdown przy użyciu Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Dowiedz się, jak wyodrębnić obrazy z dokumentu Word i zapisać je podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
+
+### [Prześlij obrazy do chmury podczas konwertowania Worda na Markdown](./upload-images-to-cloud-when-converting-word-to-markdown/)
+Dowiedz się, jak automatycznie przesyłać obrazy do chmury podczas konwersji dokumentów Word do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

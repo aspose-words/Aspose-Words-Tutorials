@@ -65,6 +65,9 @@
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
+### [บันทึก docx เป็น markdown – ส่งออกสมการ Word ไปเป็น LaTeX ด้วย Aspose.Words](./save-docx-as-markdown-export-word-math-to-latex-with-aspose/)
+เรียนรู้วิธีส่งออกสมการจากไฟล์ Word ไปเป็น LaTeX ระหว่างการแปลงเป็น Markdown ด้วย Aspose.Words
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
