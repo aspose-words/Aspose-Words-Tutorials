@@ -68,6 +68,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Words を使用して Java でブック折り設定付きの Word 文書を PostScript として保存する](./aspose-words-java-postscript-book-fold-settings/)
 Aspose.Words for Java を使用して、Word 文書をプロ品質の冊子に変換する方法を学びます。このガイドでは、PostScript 形式での保存と冊子の折り方の設定について説明します。
 
+### [ドキュメント警告の反復処理: Java で欠落フォントを検出](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Aspose.Words for Java を使用して、ドキュメントの警告を反復し、欠落フォントを検出する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

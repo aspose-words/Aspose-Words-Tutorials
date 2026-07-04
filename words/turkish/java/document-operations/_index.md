@@ -68,6 +68,9 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Words kullanarak Java'da Word Belgelerini Kitap Katlama Ayarlarıyla PostScript Olarak Kaydetme](./aspose-words-java-postscript-book-fold-settings/)
 Word belgelerini Aspose.Words for Java kullanarak profesyonel kalitede çıktıya sahip kitapçıklara nasıl dönüştüreceğinizi öğrenin. Bu kılavuz PostScript olarak kaydetmeyi ve kitap katlama ayarlarını yapılandırmayı kapsar.
 
+### [Belge Uyarılarını Döngüyle İşleme: Java'da Eksik Yazı Tiplerini Tespit Etme](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Java uygulamalarında Aspose.Words ile belge uyarılarını dolaşarak eksik yazı tiplerini nasıl tespit edeceğinizi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

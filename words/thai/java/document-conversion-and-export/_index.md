@@ -70,6 +70,9 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์เป็นรูปแบบ LaTeX ด้วย Aspose.Words
 
+### [บันทึก docx เป็น markdown – คู่มือฉบับสมบูรณ์ C#](./save-docx-as-markdown-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown อย่างครบถ้วนด้วย C# และ Aspose.Words
+
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
 
@@ -97,11 +100,26 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [บันทึกเอกสารเป็น TXT – คู่มือด่วนสำหรับการส่งออกสมการ Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น TXT พร้อมส่งออกสมการคณิตศาสตร์อย่างง่ายและรวดเร็วด้วย Aspose.Words for Java
 
+### [บันทึกเอกสารเป็น TXT – แปลง DOCX เป็นข้อความพร้อม LaTeX](./save-document-as-txt-convert-docx-to-text-with-latex/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT และแปลงเนื้อหาเป็น LaTeX ด้วย Aspose.Words for Java
+
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
+### [บันทึกเอกสารเป็น PDF ด้วย Java – คู่มือขั้นตอนเต็มรูปแบบ](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกเอกสารเป็น PDF ด้วย Java โดยใช้ Aspose.Words ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [สร้าง PDF ที่เข้าถึงได้ – คู่มือ Java สำหรับแปลงเอกสาร Word](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words for Java อย่างละเอียด
+
+### [สร้าง PDF UA ด้วย Aspose.Words – คู่มือเต็ม Java](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF UA ด้วย Aspose.Words สำหรับ Java อย่างละเอียดและครบถ้วน
+
+### [วิธีส่งออก Markdown จาก Word – คู่มือฉบับสมบูรณ์](./how-to-export-markdown-from-word-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น Markdown อย่างละเอียดด้วย Aspose.Words พร้อมขั้นตอนและตัวอย่างโค้ด
 
 ## คำถามที่พบบ่อย
 

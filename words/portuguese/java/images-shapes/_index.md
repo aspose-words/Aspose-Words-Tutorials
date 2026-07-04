@@ -37,6 +37,9 @@ Aprenda a gerar miniaturas de alta qualidade e bitmaps de tamanho personalizado 
 ### [Criar documento Word Java – Adicionar forma retangular com efeito de sombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Aprenda a inserir uma forma retangular com sombra em documentos Word usando Aspose.Words para Java.
 
+### [Como definir sombra em uma forma em C# – Adicione sombra à forma facilmente](./how-to-set-shadow-on-a-shape-in-c-add-shape-shadow-easily/)
+Aprenda a aplicar sombra a formas em C# com Aspose.Words, facilitando a personalização visual dos documentos.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

@@ -68,6 +68,9 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Enregistrer des documents Word au format PostScript avec les paramètres de pliage en livre en Java à l'aide d'Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Apprenez à convertir des documents Word en brochures avec un rendu de qualité professionnelle grâce à Aspose.Words pour Java. Ce guide explique comment enregistrer au format PostScript et configurer les paramètres de pliage.
 
+### [Itérer les avertissements de document : détecter les polices manquantes en Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Apprenez à parcourir les avertissements d’un document et à identifier les polices manquantes avec Aspose.Words pour Java.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

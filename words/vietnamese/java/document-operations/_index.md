@@ -45,13 +45,13 @@ Tìm hiểu cách tận dụng Aspose.Words for Java để làm chủ quá trìn
 Tìm hiểu cách chuyển đổi tài liệu Word thành tệp SVG chất lượng cao bằng Aspose.Words for Java. Khám phá các tùy chọn nâng cao như quản lý tài nguyên, kiểm soát độ phân giải hình ảnh và nhiều hơn nữa.
 
 ### [Chuyển đổi CHM sang HTML bằng Aspose.Words cho Java: Hướng dẫn toàn diện](./chm-html-conversion-aspose-words-java/)
-Làm chủ quy trình chuyển đổi tệp CHM sang HTML bằng Aspose.Words for Java, đảm bảo tất cả các liên kết nội bộ vẫn còn nguyên vẹn. Làm theo hướng dẫn chi tiết này để có quá trình chuyển đổi liền mạch.
+Làm chủ quy trình chuyển đổi tệp CHM sang HTML bằng Aspose.Words cho Java, đảm bảo tất cả các liên kết nội bộ vẫn còn nguyên vẹn. Làm theo hướng dẫn chi tiết này để có quá trình chuyển đổi liền mạch.
 
 ### [Chuyển đổi DOC sang PDF hiệu quả trong SharePoint bằng Aspose.Words cho Java](./doc-to-pdf-sharepoint-aspose-words-java/)
 Tìm hiểu cách chuyển đổi liền mạch tài liệu Word sang PDF trong SharePoint bằng Aspose.Words for Java, đảm bảo khả năng tương thích và hiệu quả.
 
 ### [Chuyển đổi RTF sang DOCX dễ dàng với Aspose.Words cho Java: Hướng dẫn đầy đủ](./convert-rtf-docx-aspose-words-java/)
-Tìm hiểu cách chuyển đổi tệp RTF sang định dạng DOCX bằng Aspose.Words for Java. Đơn giản hóa quy trình chuyển đổi tài liệu của bạn một cách dễ dàng.
+Tìm hiểu cách chuyển đổi tệp RTF sang định dạng DOCX bằng Aspose.Words cho Java. Đơn giản hóa quy trình chuyển đổi tài liệu của bạn một cách dễ dàng.
 
 ### [Cách tải tài liệu RTF với mã hóa UTF-8 trong Java bằng Aspose.Words](./load-rtf-with-utf8-java-asposewords/)
 Tìm hiểu cách tải và quản lý các tài liệu RTF chứa văn bản UTF-8 bằng thư viện Aspose.Words cho Java. Đảm bảo biểu diễn ký tự chính xác trong ứng dụng của bạn.
@@ -67,6 +67,9 @@ Hướng dẫn mã cho Aspose.Words Java
 
 ### [Lưu tài liệu Word dưới dạng PostScript với Cài đặt Book Fold trong Java bằng Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Tìm hiểu cách chuyển đổi tài liệu Word thành sách nhỏ với đầu ra chất lượng chuyên nghiệp bằng Aspose.Words for Java. Hướng dẫn này bao gồm lưu dưới dạng PostScript và cấu hình cài đặt gấp sách.
+
+### [Duyệt các cảnh báo tài liệu: Phát hiện phông chữ thiếu trong Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Hướng dẫn cách duyệt các cảnh báo tài liệu và phát hiện phông chữ thiếu khi sử dụng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 
