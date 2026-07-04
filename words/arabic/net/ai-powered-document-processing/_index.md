@@ -42,6 +42,7 @@
 | [العمل مع نموذج الذكاء الاصطناعي من Google](./working-with-google-ai-model/) |قم بترقية معالجة المستندات لديك باستخدام Aspose.Words for .NET وGoogle AI لإنشاء ملخصات موجزة بسهولة. |
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
+| [كيفية استدعاء CheckGrammar في C# – دليل شامل](./how-to-call-checkgrammar-in-c-complete-guide/) | تعلم كيفية استدعاء طريقة CheckGrammar في Aspose.Words لـ .NET باستخدام C# لتحسين التدقيق اللغوي. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

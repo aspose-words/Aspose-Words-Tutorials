@@ -34,6 +34,7 @@
 | [Salva PDF in formato Word (Docx)](./pdf-to-docx/) | Scopri come convertire un PDF in un documento Word (Docx) utilizzando Aspose.Words per .NET in questa guida dettagliata e passo passo. Perfetta per gli sviluppatori. |
 | [Come esportare LaTeX da Word – Guida passo‑passo](./how-to-export-latex-from-word-step-by-step-guide/) | Scopri come esportare contenuti LaTeX da documenti Word usando Aspose.Words per .NET, con esempi pratici e istruzioni dettagliate. |
 | [Convertire Word in PDF in C# usando Aspose.Words – Guida](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Scopri come convertire documenti Word in PDF con C# usando Aspose.Words, con esempi di codice e passaggi dettagliati. |
+| [Converti docx in PDF in C# – Guida completa passo‑passo](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Scopri come convertire file DOCX in PDF usando C# e Aspose.Words con una guida completa passo‑passo. |
 | [Salva Word come PDF con Aspose.Words – Guida completa C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare documenti Word in PDF usando Aspose.Words con una guida completa in C#. |
 | [Salva Docx come PDF con Aspose.Words – Guida completa C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare i file Docx come PDF usando Aspose.Words con una guida completa in C#. |
 

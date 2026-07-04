@@ -39,9 +39,10 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | Titel | Beskrivning |
 | --- | --- |
 | [Arbeta med AI-modell](./working-with-ai-model/) | Lär dig hur du använder Aspose.Words för .NET för att sammanfatta dokument med AI. Enkla steg för att förbättra dokumenthanteringen. |
-| [Arbeta med Googles AI-modell](./working-with-google-ai-model/) Förbättra din dokumenthantering med Aspose.Words för .NET och Google AI för att enkelt skapa koncisa sammanfattningar. |
+| [Arbeta med Googles AI-modell](./working-with-google-ai-model/) | Förbättra din dokumenthantering med Aspose.Words för .NET och Google AI för att enkelt skapa koncisa sammanfattningar. |
 | [Arbeta med öppen AI-modell](./working-with-open-ai-model/) | Lås upp effektiv dokumentsammanfattning med Aspose.Words för .NET och OpenAI:s kraftfulla modeller. Fördjupa dig i den här omfattande guiden nu. |
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
+| [Hur man anropar CheckGrammar i C# – Komplett guide](./how-to-call-checkgrammar-in-c-complete-guide/) | Lär dig steg för steg hur du använder Aspose.Words för .NET för att anropa CheckGrammar-funktionen i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
