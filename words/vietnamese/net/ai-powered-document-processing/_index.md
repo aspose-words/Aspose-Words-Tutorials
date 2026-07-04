@@ -39,9 +39,11 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Làm việc với mô hình AI](./working-with-ai-model/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để tóm tắt tài liệu bằng AI. Các bước dễ dàng để nâng cao quản lý tài liệu. |
-| [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
+| [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) | Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
 | [Làm việc với mô hình AI mở](./working-with-open-ai-model/) | Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay. |
 | [Làm việc với tùy chọn tóm tắt](./working-with-summarize-options/) | Học cách tóm tắt tài liệu Word hiệu quả bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi về cách tích hợp các mô hình AI để có thông tin chi tiết nhanh chóng. |
+| [Gọi API OpenAI từ C# – Hướng dẫn toàn diện để viết lại các đoạn văn Word](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Hướng dẫn chi tiết cách sử dụng API OpenAI trong C# để tự động viết lại các đoạn văn trong tài liệu Word. |
+| [Cách kiểm tra ngữ pháp trong C# với Aspose.Words AI – Hướng dẫn toàn diện](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Hướng dẫn chi tiết cách sử dụng AI của Aspose.Words trong C# để kiểm tra và cải thiện ngữ pháp tài liệu Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

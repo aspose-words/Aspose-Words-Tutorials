@@ -42,6 +42,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
+| [Volání OpenAI API z C# – Kompletní průvodce přepisem odstavců ve Wordu](./call-openai-api-from-c-complete-guide-to-rewrite-word-paragr/) | Naučte se, jak pomocí OpenAI API v C# přepsat odstavce v dokumentu Word a automatizovat úpravy textu. |
+| [Jak zkontrolovat gramatiku v C# pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-in-c-with-aspose-words-ai-complete-guid/) | Naučte se, jak pomocí Aspose.Words AI v C# automaticky kontrolovat gramatiku v dokumentech Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

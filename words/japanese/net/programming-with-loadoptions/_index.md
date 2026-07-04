@@ -40,6 +40,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [C# で Aspose.Words を使用して Word 文書を復元する](./recover-word-document-with-aspose-words-in-c/) Aspose.Words for .NET を使用し、C# で破損した Word 文書を復元する手順をステップバイステップで解説します。 |
 | [Aspose.Words で LoadOptions を使用する方法 – 完全ガイド](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Aspose.Words の LoadOptions を活用して、文書読み込みや設定を詳細に解説する包括的なステップバイステップガイドです。 |
 | [C# で破損した文書を復元 – 復元モードを設定しユーザーに促す](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Aspose.Words for .NET の LoadOptions を使用し、破損した文書を復元モードで読み込み、ユーザーに復元を促す手順を解説します。 |
+| [Asposeで警告コールバックを設定する – Word文書読み込みの完全ガイド](./set-warning-callback-aspose-complete-guide-for-word-document/) Aspose.Words の LoadOptions で警告コールバックを設定し、Word 文書の読み込み時に発生する警告を捕捉・処理する完全ガイドです。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

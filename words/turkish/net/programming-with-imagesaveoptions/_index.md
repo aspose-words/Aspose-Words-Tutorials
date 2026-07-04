@@ -15,9 +15,7 @@
 
 # Imagesaveoptions ile Kelime İşleme
 
-Aspose.Words for .NET öğreticileri ImageSaveOptions ile Word İşleme konusunda Word belgelerinizdeki gelişmiş görüntü işleme özelliklerinde ustalaşmanıza yardımcı olacaktır. Bu adım adım öğreticiler, sıkıştırma, görüntü biçimini seçme, görüntü kalitesini ayarlama ve daha fazlası dahil olmak üzere görüntü kaydetme seçeneklerini kullanma konusunda size rehberlik edecektir. Belgeleri oluştururken veya dönüştürürken görüntü işlemeyi nasıl özelleştireceğinizi öğreneceksiniz ve bu da Word dosyalarınızdaki görüntülerin görünümü ve boyutu üzerinde size kesin bir kontrol sağlayacaktır.
-
-Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ekleme, silme, yeniden boyutlandırma ve kırpma gibi temel resim düzenleme kavramlarını da kapsar. Word belgelerinden resimleri nasıl çıkaracağınızı, bunları başka resimlerle nasıl değiştireceğinizi ve konumlarını, hizalamalarını ve sarmalarını nasıl ayarlayacağınızı öğreneceksiniz. Bu eğitimler, Word belgelerinizdeki resimleri yönetmek için otomatik ve etkili iş akışları oluşturmanıza olanak tanıyarak, Word dosyalarınızın görsel öğelerini kolayca ve etkili bir şekilde düzenleme becerileri kazandırır.
+Aspose.Words for .NET öğreticileri ImageSaveOptions ile Word İşleme konusunda Word belgelerinizdeki gelişmiş görüntü işleme özelliklerinde ustalaşmanıza yardımcı olacaktır. Bu adım adım öğreticiler, sıkıştırma, görüntü biçimini seçme, görüntü kalitesini ayarlama ve daha fazlası dahil olmak üzere görüntü kaydetme seçeneklerini kullanma konusunda size rehberlik edecektir. Belgeleri oluştururken veya dönüştürürken görüntü işlemeyi nasıl özelleştireceğinizi öğreneceksiniz ve bu da Word dosyalarınızın görsel öğelerini kolayca ve etkili bir şekilde düzenleme becerileri kazandırır.
 
  ## Eğitimler
 | Başlık | Açıklama |
@@ -28,6 +26,7 @@ Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ek
 | [Jpeg Sayfa Aralığını Al](./get-jpeg-page-range/) | Aspose.Words for .NET kullanarak Word belgelerinin belirli sayfalarını özel ayarlarla JPEG'e dönüştürün. Parlaklığı, kontrastı ve çözünürlüğü adım adım nasıl ayarlayacağınızı öğrenin. |
 | [Sayfa Kaydetme Geri Araması](./page-saving-callback/) | Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak bir Word belgesinin her sayfasını ayrı bir PNG resmi olarak kaydetmeyi öğrenin. |
 | [Word'ü PNG'ye Dönüştürürken DPI Nasıl Ayarlanır – Tam C# Rehberi](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerini PNG'ye dönüştürürken DPI ayarını nasıl yapılandıracağınızı adım adım öğrenin. |
+| [Word'ü PNG'ye Kaydet – Tam Aspose.Words Rehberi](./save-word-as-png-complete-aspose-words-guide/) | Aspose.Words for .NET kullanarak bir Word belgesini PNG formatına nasıl kaydedeceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
