@@ -90,7 +90,10 @@ Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑
 Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
 
 ### [DOCX konvertálása markdownra – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba, és exportáld a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
+Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba, és exportálja a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
+
+### [Word konvertálása Markdownra Java-val – Teljes útmutató](./convert-word-to-markdown-with-java-full-guide/)
+Tanulja meg, hogyan konvertálja a Word dokumentumokat Markdown formátumba Java és Aspose.Words segítségével, lépésről‑lépésre.
 
 ### [Hogyan ágyazzunk be képeket a Markdownba a DOCX konvertálásakor](./how-to-embed-images-in-markdown-when-converting-docx/)
 Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor az Aspose.Words for Java használatával.
@@ -98,8 +101,16 @@ Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor 
 ### [Aspose Word to PDF – DOCX konvertálása PDF‑be Java‑ban](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.Words segítségével.
 
+### [Word mentése PDF‑ként az Aspose.Words‑szal – Teljes Java útmutató](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot PDF‑ként az Aspose.Words Java API‑val lépésről‑lépésre.
+
+### [PDF/UA kompatibilis fájl létrehozása Java‑val – Teljes Aspose.Words útmutató](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
+
+### [Dokumentum mentése DOCX formátumba az Aspose.Words segítségével – Teljes Java útmutató](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Tanulja meg, hogyan menthet Word dokumentumot DOCX formátumba az Aspose.Words Java API-val, részletes lépésekkel és példakóddal.
 
 ## Gyakran Ismételt Kérdések
 
