@@ -42,6 +42,9 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
+| [Shrňte Word dokument v C# – Kompletní průvodce s využitím Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Naučte se, jak pomocí Aspose.Words a modelu Anthropic Claude automaticky shrnout Word dokumenty v C#. |
+| [Jak použít LLM s Aspose.Words – Přepsat odstavce v C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Naučte se, jak pomocí LLM v Aspose.Words přepsat odstavce v C# pro vylepšený obsah a styl dokumentů. |
+| [Jak zkontrolovat gramatiku v C# – Kompletní průvodce pro Word dokumenty](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Naučte se, jak pomocí Aspose.Words pro .NET a C# kontrolovat gramatiku ve Word dokumentech a zlepšit kvalitu textu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

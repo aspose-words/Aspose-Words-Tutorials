@@ -39,9 +39,12 @@ Por fim, não se esqueça de conferir nosso [Trabalhando com opções de resumo]
 | Título | Descrição |
 | --- | --- |
 | [Trabalhando com modelo de IA](./working-with-ai-model/) | Aprenda a usar o Aspose.Words para .NET para resumir documentos com IA. Passos simples para aprimorar o gerenciamento de documentos. |
-| [Trabalhando com o modelo de IA do Google](./working-with-google-ai-model/) Melhore o processamento de seus documentos com o Aspose.Words para .NET e o Google AI para criar resumos concisos sem esforço. |
+| [Trabalhando com o modelo de IA do Google](./working-with-google-ai-model/) | Melhore o processamento de seus documentos com o Aspose.Words para .NET e o Google AI para criar resumos concisos sem esforço. |
 | [Trabalhando com o modelo de IA aberta](./working-with-open-ai-model/) | Desbloqueie a sumarização eficiente de documentos usando o Aspose.Words para .NET com os poderosos modelos da OpenAI. Mergulhe neste guia completo agora mesmo. |
 | [Trabalhando com opções de resumo](./working-with-summarize-options/) | Aprenda a resumir documentos do Word de forma eficaz usando o Aspose.Words para .NET com nosso guia passo a passo sobre integração de modelos de IA para obter insights rápidos. |
+| [Como usar LLM com Aspose.Words – Reescrever parágrafos em C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Aprenda a utilizar LLMs com Aspose.Words para reescrever parágrafos em C#, melhorando a clareza e o estilo do texto. |
+| [Como Verificar Gramática em C# – Guia Completo para Documentos Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Aprenda a usar Aspose.Words para .NET e verificar gramática em documentos Word com C# de forma eficaz. |
+| [Resumir documento Word em C# – Guia completo usando Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Aprenda a resumir documentos Word com C# usando o modelo Claude da Anthropic, passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

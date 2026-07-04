@@ -50,7 +50,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Substitutie verkrijgen zonder achtervoegsels](./get-substitution-without-suffixes/) | In deze tutorial leert u hoe u achtervoegselloze overschrijvingen in een Word-document kunt gebruiken met Aspose.Words voor .NET. |
 | [Hoe lettertypen detecteren in Aspose.Words – waarschuwingen en instellingen afhandelen](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Leer hoe u ontbrekende of vervangende lettertypen detecteert en waarschuwingen en instellingen beheert met Aspose.Words voor .NET. |
 | [Hoe lettertypen vast te leggen in Aspose.Words – Complete gids](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Leer hoe u lettertypen kunt vastleggen met Aspose.Words voor .NET in deze uitgebreide stap‑voor‑stap handleiding. |
-
+| [Aspose Lettertypevervanging: Ontdek ontbrekende lettertypen in Word-documenten](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Leer hoe u ontbrekende lettertypen in Word-documenten detecteert met Aspose.Words voor .NET. |
 | [DOCX laden en ontbrekende lettertypen detecteren – Complete C#-gids](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Leer hoe u een DOCX-bestand laadt en ontbrekende lettertypen detecteert met Aspose.Words voor .NET in deze stapsgewijze C#-handleiding. |
 | [Waarschuwingen voor lettertypevervanging inschakelen in Aspose.Words – Complete gids](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Leer hoe u waarschuwingen voor lettertypevervanging inschakelt in Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 

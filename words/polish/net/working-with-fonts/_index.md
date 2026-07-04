@@ -52,7 +52,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czcionek
 | [Jak przechwycić czcionki w Aspose.Words – Kompletny przewodnik](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Dowiedz się, jak przechwycić czcionki w Aspose.Words, korzystając z pełnego przewodnika krok po kroku. |
 | [Jak załadować DOCX i wykrywać brakujące czcionki – kompletny przewodnik C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Dowiedz się, jak załadować plik DOCX i wykrywać brakujące czcionki przy użyciu Aspose.Words dla .NET w C#. |
 | [Włącz ostrzeżenia o podstawianiu czcionek w Aspose.Words – Kompletny przewodnik](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Dowiedz się, jak włączyć ostrzeżenia o podstawianiu czcionek w Aspose.Words, aby monitorować brakujące lub zastąpione czcionki. |
-
+| [Podstawianie czcionek Aspose: wykrywanie brakujących czcionek w dokumentach Word](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) | Dowiedz się, jak wykrywać brakujące czfonty w dokumentach Word przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

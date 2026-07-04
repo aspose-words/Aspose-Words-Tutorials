@@ -38,10 +38,13 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
  ## Mesterséges intelligencia által vezérelt dokumentumfeldolgozási oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [AI-modell használata](./working-with-ai-model/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et dokumentumok mesterséges intelligencia segítségével történő összefoglalására. Egyszerű lépések a dokumentumkezelés fejlesztéséhez.
-| [A Google AI modelljével való munka](./working-with-google-ai-model/) Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
+| [AI-modell használata](./working-with-ai-model/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et dokumentumok mesterséges intelligencia segítségével történő összefoglalására. Egyszerű lépések a dokumentumkezelés fejlesztéséhez. |
+| [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
+| [Hogyan használjuk az LLM-et az Aspose.Words-szal – Bekezdések átírása C#-ban](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Tanulja meg, hogyan használhatja az LLM-et az Aspose.Words-ben a bekezdések C#-os átírásához. |
+| [Hogyan ellenőrzze a nyelvtant C#-ban – Teljes útmutató Word dokumentumokhoz](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et a nyelvtani ellenőrzéshez C#-ban Word dokumentumokban. |
+| [Word-dokumentum összefoglalása C#-ban – Teljes útmutató az Anthropic Claude használatával](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Ismerje meg, hogyan használhatja az Anthropic Claude modellt Word-dokumentumok C#-os összefoglalásához az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

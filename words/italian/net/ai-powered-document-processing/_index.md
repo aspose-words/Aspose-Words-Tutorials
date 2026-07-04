@@ -42,6 +42,9 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Lavorare con il modello AI di Google](./working-with-google-ai-model/) Migliora l'elaborazione dei tuoi documenti con Aspose.Words per .NET e Google AI per creare riepiloghi concisi senza sforzo. |
 | [Lavorare con il modello di intelligenza artificiale aperta](./working-with-open-ai-model/) | Ottieni un riepilogo efficiente dei documenti utilizzando Aspose.Words per .NET con i potenti modelli di OpenAI. Scopri subito questa guida completa. |
 | [Lavorare con le opzioni di riepilogo](./working-with-summarize-options/) | Impara a riassumere in modo efficace i documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata sull'integrazione dei modelli di intelligenza artificiale per ottenere informazioni rapide. |
+| [Come utilizzare LLM con Aspose.Words – Riscrivere i paragrafi in C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Scopri come impiegare un modello LLM con Aspose.Words per .NET per riscrivere automaticamente i paragrafi in C#. |
+| [Come controllare la grammatica in C# – Guida completa per documenti Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Scopri come utilizzare Aspose.Words per .NET per verificare la grammatica nei documenti Word con C# in modo semplice ed efficace. |
+| [Riassumere documento Word in C# – Guida completa usando Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Scopri come utilizzare il modello Anthropic Claude con Aspose.Words per .NET per riassumere automaticamente i documenti Word in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

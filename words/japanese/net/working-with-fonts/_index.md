@@ -52,7 +52,7 @@
 | [接尾辞なしの置換を取得する](./get-substitution-without-suffixes/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書でサフィックスなしのオーバーライドを取得する方法を学習します。 |
 | [Aspose.Words でフォントをキャプチャする方法 – 完全ガイド](./how-to-capture-fonts-in-aspose-words-complete-guide/) Aspose.Words for .NET を使用してフォントをキャプチャする完全ガイドです。 |
 | [DOCX を読み込んで欠落フォントを検出する完全 C# ガイド](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) Aspose.Words for .NET を使用して DOCX を読み込み、欠落しているフォントを検出する方法をステップバイステップで解説します。 |
-
+| [Aspose フォント置換: Word 文書で欠落フォントを検出する](./aspose-font-substitution-detect-missing-fonts-in-word-docs/) Aspose.Words for .NET を使用して、Word 文書で欠落フォントを検出する方法をステップバイステップで学びます。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

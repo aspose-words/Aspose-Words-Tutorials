@@ -42,6 +42,9 @@
 | [العمل مع نموذج الذكاء الاصطناعي من Google](./working-with-google-ai-model/) |قم بترقية معالجة المستندات لديك باستخدام Aspose.Words for .NET وGoogle AI لإنشاء ملخصات موجزة بسهولة. |
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
+| [كيفية استخدام LLM مع Aspose.Words – إعادة كتابة الفقرات في C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | تعلم كيفية دمج نموذج اللغة الكبيرة مع Aspose.Words لإعادة كتابة فقرات مستندات Word باستخدام C#. |
+| [كيفية فحص القواعد النحوية في C# – دليل كامل لمستندات Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | تعلم كيفية فحص القواعد النحوية في مستندات Word باستخدام Aspose.Words لـ .NET وC#. |
+| [تلخيص مستند Word في C# – دليل كامل باستخدام Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | تعلم كيفية تلخيص مستندات Word باستخدام Aspose.Words لـ .NET مع نموذج Anthropic Claude في دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

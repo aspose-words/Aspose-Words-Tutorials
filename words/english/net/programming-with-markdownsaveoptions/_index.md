@@ -42,6 +42,7 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [How to Save Markdown from Word – Complete Guide](./how-to-save-markdown-from-word-complete-guide/) | Learn how to save Word documents as Markdown using Aspose.Words with a comprehensive step-by-step guide. |
 | [How to Rename Images When Converting DOCX to Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Learn how to rename images during DOCX to Markdown conversion using Aspose.Words for .NET. |
 | [Save Word Images – Convert Word to Markdown with Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) |  |
+| [How to Save Images – Convert DOCX to Markdown with Aspose.Words](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Learn how to extract and save images while converting DOCX to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

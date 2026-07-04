@@ -38,10 +38,13 @@ Terakhir, jangan lupa untuk memeriksa [Bekerja Dengan Opsi Ringkasan](./working-
  ## Tutorial Pemrosesan Dokumen Bertenaga AI
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Bekerja dengan Model AI](./working-with-ai-model/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen. Bahasa Indonesia:
-| [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
-| [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
+| [Bekerja dengan Model AI](./working-with-ai-model/) | Pelajari cara menggunakan Aspose.Words untuk .NET guna meringkas dokumen dengan AI. Langkah mudah untuk meningkatkan manajemen dokumen. Bahasa Indonesia: |
+| [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia: |
+| [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia: |
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
+| [Cara Menggunakan LLM dengan Aspose.Words – Menulis Ulang Paragraf dalam C#](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Pelajari cara menggunakan model bahasa besar (LLM) dengan Aspose.Words untuk menulis ulang paragraf secara otomatis dalam C#. |
+| [Cara Memeriksa Tata Bahasa di C# – Panduan Lengkap untuk Dokumen Word](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Pelajari cara memeriksa tata bahasa dokumen Word menggunakan Aspose.Words untuk .NET dalam C# dengan panduan lengkap. |
+| [Ringkas Dokumen Word di C# – Panduan Lengkap Menggunakan Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Pelajari cara merangkum dokumen Word secara otomatis menggunakan model Anthropic Claude dengan Aspose.Words untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

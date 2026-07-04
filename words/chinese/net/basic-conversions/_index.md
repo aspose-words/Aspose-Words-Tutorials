@@ -36,6 +36,7 @@
 | [使用 Aspose.Words 将 Word 转换为 PDF（C#）指南](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为 PDF，提供完整的分步指南和代码示例。|
 | [使用 Aspose.Words 将 Docx 保存为 PDF – 完整 C# 指南](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Docx 文档保存为 PDF，提供完整的分步指南和代码示例。|
+| [在 C# 中从 DOCX 创建可访问 PDF – 将 Word 转换为 PDF 的方法](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | 学习使用 Aspose.Words for .NET 在 C# 将 DOCX 转换为符合可访问性标准的 PDF，提供代码示例和详细步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@
 | [DOCX를 Markdown으로 변환할 때 이미지 이름 바꾸기](./how-to-rename-images-when-converting-docx-to-markdown/) | Aspose.Words for .NET을 사용하여 DOCX를 Markdown으로 변환하면서 이미지 파일 이름을 원하는 대로 바꾸는 방법을 단계별로 안내합니다. |
 | [Aspose.Words를 사용하여 docx를 markdown으로 저장 – 전체 C# 가이드](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown 형식으로 저장하는 전체 C# 가이드를 제공합니다. |
 | [Word 이미지 저장 – Aspose로 Word를 Markdown으로 변환](./save-word-images-convert-word-to-markdown-with-aspose/) | Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 추출하고 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
+| [이미지 저장 – Aspose.Words로 DOCX를 Markdown으로 변환](./how-to-save-images-convert-docx-to-markdown-with-aspose-word/) | Aspose.Words for .NET을 사용하여 DOCX 문서의 이미지를 추출하고 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

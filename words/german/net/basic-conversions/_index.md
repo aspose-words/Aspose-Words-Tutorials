@@ -36,6 +36,7 @@
 | [Wie man LaTeX aus Word exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-latex-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus Word-Dokumenten exportieren – detaillierte Anleitung mit Codebeispielen. |
 | [Word als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
 | [Docx als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
+| [Barrierefreies PDF aus DOCX in C# erstellen – So konvertieren Sie Word zu PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX in C# erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

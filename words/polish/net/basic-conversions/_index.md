@@ -36,6 +36,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Jak wyeksportować LaTeX z Worda – przewodnik krok po kroku](./how-to-export-latex-from-word-step-by-step-guide/) | Dowiedz się, jak wyeksportować dokument Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
 | [Zapisz DOCX jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument DOCX jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Utwórz dostępny PDF z DOCX w C# – Jak przekonwertować Word na PDF](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Dowiedz się, jak utworzyć dostępny plik PDF z dokumentu DOCX w C# przy użyciu Aspose.Words, zapewniając zgodność z WCAG. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

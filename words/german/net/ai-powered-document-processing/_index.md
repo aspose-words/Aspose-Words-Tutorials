@@ -42,6 +42,9 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [LLM mit Aspose.Words verwenden – Absätze in C# umschreiben](./how-to-use-llm-with-aspose-words-rewrite-paragraphs-in-c/) | Erfahren Sie, wie Sie mit LLMs und Aspose.Words in C# Absätze neu formulieren, um Inhalte zu verbessern und zu vereinfachen. |
+| [Wie man Grammatik in C# prüft – Vollständiger Leitfaden für Word-Dokumente](./how-to-check-grammar-in-c-complete-guide-for-word-documents/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Grammatik in C#-Anwendungen prüfen und Word-Dokumente automatisch korrigieren. |
+| [Word-Dokument zusammenfassen in C# – Vollständiger Leitfaden mit Anthropic Claude](./summarize-word-document-in-c-complete-guide-using-anthropic/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und Anthropic Claude Word-Dokumente in C# effizient zusammenfassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

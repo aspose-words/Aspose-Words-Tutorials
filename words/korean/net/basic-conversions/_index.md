@@ -36,6 +36,7 @@
 | [C#에서 Aspose.Words를 사용해 Word를 PDF로 변환 – 가이드](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words로 Word를 PDF로 저장 – 완전한 C# 가이드](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words와 C#을 활용해 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [Aspose.Words로 Docx를 PDF로 저장 – 완전한 C# 가이드](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words와 C#을 사용해 Docx 파일을 PDF로 변환하는 전체 단계별 가이드입니다. |
+| [C#에서 DOCX를 사용해 접근성 PDF 만들기 – Word를 PDF로 변환하는 방법](./create-accessible-pdf-from-docx-in-c-how-to-convert-word-to/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 접근성 PDF로 변환하는 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
