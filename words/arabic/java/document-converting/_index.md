@@ -89,6 +89,9 @@ weight: 14
 ### [تصدير المستندات إلى PDF](./exporting-documents-to-pdf/)
 تعرف على كيفية تصدير المستندات إلى PDF باستخدام Aspose.Words for Java. هذا الدليل خطوة بخطوة يبسط العملية لتحويل المستندات بسلاسة.
 
+### [حفظ ملف docx كـ pdf باستخدام Aspose.Words – دليل Java كامل](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+دليل شامل يوضح كيفية حفظ مستندات DOCX كملفات PDF باستخدام Aspose.Words في Java خطوة بخطوة.
+
 ### [تحويل المستندات إلى صيغ مختلفة](./converting-documents-different-formats/)
 تعرف على كيفية تحويل المستندات إلى صيغ مختلفة باستخدام Aspose.Words for Java. دليل خطوة بخطوة لتحويل المستندات بفعالية.
 

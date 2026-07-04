@@ -101,6 +101,9 @@ Converta DOCX para EPUB de forma eficiente usando Aspose.Words para Java. Aprend
 ### [Convertendo documentos para imagens](./converting-documents-images/)
 Aprenda a converter documentos Word para imagens usando Aspose.Words para Java. Guia passo‑a‑passo, completo com exemplos de código e FAQs.
 
+### [Salvar DOCX como PDF com Aspose.Words – Guia Completo em Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aprenda passo a passo como salvar arquivos DOCX como PDF usando Aspose.Words para Java, com opções avançadas e exemplos de código.
+
 ## Perguntas frequentes
 
 **Q:** *Posso converter arquivos Word protegidos por senha para PDF?*  

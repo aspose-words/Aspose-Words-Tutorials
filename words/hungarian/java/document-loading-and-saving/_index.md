@@ -83,23 +83,44 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ## Kapcsolódó oktatóanyagok – Betöltés, mentés és konvertálás
 
 ### [HTML dokumentumok betöltése és mentése Aspose.Words for Java‑val](./loading-and-saving-html-documents/)
+
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
+
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
+
 ### [Szövegfájlok betöltése Aspose.Words for Java‑val](./loading-text-files/)
+
 ### [Haladó mentési beállítások Aspose.Words for Java‑val](./advance-saving-options/)
+
 ### [HTML dokumentumok mentése fix elrendezéssel Aspose.Words for Java‑ban](./saving-html-documents-with-fixed-layout/)
+
 ### [Haladó HTML dokumentumok mentési beállításai Aspose.Words Java‑val](./advance-html-documents-saving-options/)
+
 ### [Képek mentése dokumentumokból Aspose.Words for Java‑val](./saving-images-from-documents/)
+
 ### [Dokumentumok mentése Markdown formátumban Aspose.Words for Java‑val](./saving-documents-as-markdown/)
+
 ### [Dokumentumok mentése ODT formátumban Aspose.Words for Java‑val](./saving-documents-as-odt-format/)
+
 ### [Dokumentumok mentése OOXML formátumban Aspose.Words for Java‑val](./saving-documents-as-ooxml-format/)
+
 ### [Dokumentumok mentése PCL formátumban Aspose.Words for Java‑val](./saving-documents-as-pcl-format/)
+
 ### [Dokumentumok mentése PDF‑ként Aspose.Words for Java‑val](./saving-documents-as-pdf/)
+
 ### [Dokumentumok mentése RTF formátumban Aspose.Words for Java‑val](./saving-documents-as-rtf-format/)
+
 ### [Dokumentumok mentése szövegfájlokként Aspose.Words for Java‑val](./saving-documents-as-text-files/)
+
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
+
 ### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Sérült docx helyreállítása Aspose.Words Java használatával](./recover-corrupted-docx-using-aspose-words-java/)
+
 ### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Figyelmeztető visszahívás regisztrálása Java-ban – Hiányzó betűtípusok nyomon követése](./register-warning-callback-in-java-track-missing-fonts/)
 
 ## Gyakran Ismételt Kérdések
 
