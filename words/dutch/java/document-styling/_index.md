@@ -43,6 +43,8 @@ Leer hoe u documentthema's kunt aanpassen met Aspose.Words voor Java. Deze uitge
 Leer hoe u watermerken kunt toepassen en paginaconfiguraties kunt instellen met Aspose.Words voor Java. Een uitgebreide handleiding met broncode.
 ### [Stijl van documentkoptekst en -voettekst](./document-header-footer-styling/)
 Leer hoe je documentkopteksten en -voetteksten kunt stylen met Aspose.Words voor Java in deze gedetailleerde handleiding. Inclusief stapsgewijze instructies en broncode.
+### [Standaardlettertype-instellingen instellen in Aspose.Words voor Java – Complete gids](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Leer hoe u standaardlettertype-instellingen configureert in Aspose.Words voor Java met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

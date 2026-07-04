@@ -97,6 +97,9 @@ Débloquez la puissance d'Aspose.Words for Java. Apprenez à charger des documen
 ### [Récupérer un docx corrompu – Guide complet pour réparer et traiter les documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Apprenez à réparer les fichiers DOCX endommagés, récupérer le contenu et le traiter avec Aspose.Words for Java.
 
+### [Ouvrir un document Word corrompu – Définir le mode de récupération en Java](./open-corrupted-word-document-set-recovery-mode-in-java/)
+Apprenez à ouvrir des documents Word corrompus en Java en activant le mode de récupération d'Aspose.Words.
+
 ### [Options avancées d'enregistrement avec Aspose.Words for Java](./advance-saving-options/)
 Apprenez la manipulation avancée de documents avec Aspose.Words for Java. Chiffrez, gérez les métafichiers, et plus encore. Vos documents Word, à votre façon.
 

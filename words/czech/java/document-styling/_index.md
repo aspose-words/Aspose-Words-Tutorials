@@ -43,6 +43,8 @@ Naučte se, jak si přizpůsobit motivy dokumentů pomocí Aspose.Words pro Javu
 Naučte se, jak aplikovat vodoznaky a nastavit konfigurace stránek pomocí Aspose.Words pro Javu. Komplexní průvodce se zdrojovým kódem.
 ### [Styl záhlaví a zápatí dokumentu](./document-header-footer-styling/)
 Naučte se v tomto podrobném průvodci, jak upravovat styly záhlaví a zápatí dokumentů pomocí Aspose.Words pro Javu. Součástí je podrobný návod a zdrojový kód.
+### [Nastavení výchozího písma v Aspose.Words pro Javu – Kompletní průvodce](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Naučte se, jak nastavit výchozí písmo pro všechny dokumenty pomocí Aspose.Words pro Javu s praktickými ukázkami kódu. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

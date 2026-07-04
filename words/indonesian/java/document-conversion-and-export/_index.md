@@ -93,14 +93,29 @@ Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java
 ### [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Pelajari cara mengonversi file DOCX menjadi markdown dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
 
+### [Simpan Word sebagai Markdown – Ekspor Matematika ke LaTeX dengan Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Simpan dokumen Word sebagai file markdown dan ekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words for Java.
+
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
+
+### [Menyematkan Gambar sebagai Base64 saat Mengonversi DOCX ke Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Pelajari cara menyisipkan gambar dalam format Base64 selama konversi DOCX ke Markdown menggunakan Aspose.Words for Java.
 
 ### [Simpan Dokumen sebagai TXT – Panduan Cepat Mengekspor Matematika Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaan matematika dengan Aspose.Words.
 
+### [Ekspor docx ke txt dengan Java – Panduan Pemrograman Lengkap](./export-docx-to-txt-with-java-complete-programming-guide/)
+Pelajari cara mengekspor file DOCX menjadi TXT menggunakan Aspose.Words for Java dengan contoh kode lengkap.
+
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Simpan Dokumen sebagai PDF dengan Aspose.Words Java – Panduan Aksesibilitas Lengkap](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Pelajari cara menyimpan dokumen sebagai PDF yang sepenuhnya dapat diakses menggunakan Aspose.Words for Java, termasuk tag, teks alternatif, dan struktur.
+
+### [Buat PDF Aksesibel di Java – Panduan Tagging Lengkap](./create-accessible-pdf-in-java-full-tagging-guide/)
+Pelajari cara membuat PDF yang sepenuhnya dapat diakses dengan tag lengkap menggunakan Aspose.Words for Java.
 
 ## Pertanyaan yang Sering Diajukan
 

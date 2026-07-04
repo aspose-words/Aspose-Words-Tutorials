@@ -44,6 +44,8 @@ Learn how to customize document themes using Aspose.Words for Java. This compreh
 Learn how to apply watermarks and set up page configurations with Aspose.Words for Java. A comprehensive guide with source code.
 ### [Document Header and Footer Styling](./document-header-footer-styling/)
 Learn how to style document headers and footers using Aspose.Words for Java in this detailed guide. Step-by-step instructions and source code included.
+### [Set Default Font Settings in Aspose.Words for Java – Complete Guide](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Learn how to configure default font settings globally in Aspose.Words for Java with code examples and step-by-step instructions.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

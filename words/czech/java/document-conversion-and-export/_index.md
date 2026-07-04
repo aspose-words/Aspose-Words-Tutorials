@@ -97,8 +97,14 @@ Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
 
+### [Uložení Wordu jako Markdown – Export matematických rovnic do LaTeXu v Javě](./save-word-as-markdown-export-math-to-latex-with-java/)
+Naučte se uložit dokument Word jako Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words for Java.
+
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
+
+### [Export docx do txt pomocí Javy – Kompletní programovací průvodce](./export-docx-to-txt-with-java-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Words for Java exportovat soubory DOCX do formátu TXT v několika krocích.
 
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
@@ -106,8 +112,17 @@ Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedn
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
 
+### [Vkládání obrázků jako Base64 při konverzi DOCX do Markdownu](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Naučte se, jak při převodu DOCX na Markdown vložit obrázky jako Base64 kód, aby se zobrazily přímo v Markdown souboru.
+
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Uložit dokument jako PDF pomocí Aspose.Words pro Java – Kompletní průvodce přístupností](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Naučte se, jak vytvořit PDF s plnou přístupností (WCAG) pomocí Aspose.Words for Java, včetně nastavení značek a struktury dokumentu.
+
+### [Vytvořit přístupný PDF v Javě – Kompletní průvodce značkováním](./create-accessible-pdf-in-java-full-tagging-guide/)
+Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s plným značkováním pro přístupnost podle WCAG.
 
 ## Často kladené otázky
 

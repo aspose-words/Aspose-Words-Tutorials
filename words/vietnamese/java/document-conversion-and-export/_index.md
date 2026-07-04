@@ -41,7 +41,7 @@ A watermark là một hình ảnh hoặc văn bản mờ được đặt phía s
 - Thư viện Aspose.Words for Java (tải về từ trang chính thức).  
 - Giấy phép Aspose hợp lệ cho việc sử dụng trong môi trường sản xuất (có bản dùng thử miễn phí).
 
-## Bắt đầu với Aspose.Words for Java
+## Bắt đầu với Aspose.Words cho Java
 Bạn mới bắt đầu với Aspose.Words for Java? Đừng lo! Hướng dẫn này sẽ chỉ cho bạn cách thiết lập ban đầu và cung cấp nền tảng vững chắc để làm việc với API này. Bạn sẽ nhanh chóng sẵn sàng sử dụng.
 
 ## Chuyển đổi tài liệu sang các định dạng khác nhau
@@ -94,14 +94,29 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
+### [Lưu Word dưới dạng Markdown – Xuất công thức toán sang LaTeX với Java](./save-word-as-markdown-export-math-to-latex-with-java/)
+Lưu tài liệu Word thành Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words cho Java.
+
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
+
+### [Xuất docx sang txt với Java – Hướng Dẫn Lập Trình Toàn Diện](./export-docx-to-txt-with-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách xuất tài liệu DOCX thành tệp TXT bằng Java sử dụng Aspose.Words, bao gồm mã nguồn mẫu.
 
 ### [Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình chuyển đổi từ DOCX, bao gồm các tùy chọn và ví dụ mã nguồn.
 
-### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
+### [Nhúng Hình Ảnh dưới dạng Base64 Khi Chuyển Đổi DOCX sang Markdown](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Nhúng hình ảnh dưới dạng Base64 trong quá trình chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words for Java.
+
+### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Lưu Tài Liệu dưới dạng PDF với Aspose.Words Java – Hướng Dẫn Toàn Diện về Khả năng Truy cập](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG, sử dụng Aspose.Words for Java.
+
+### [Create Accessible PDF in Java – Full Tagging Guide](./create-accessible-pdf-in-java-full-tagging-guide/)
+Hướng dẫn chi tiết cách tạo PDF có khả năng truy cập, thêm thẻ đầy đủ bằng Aspose.Words for Java.
 
 ## Câu hỏi thường gặp
 
