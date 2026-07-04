@@ -92,11 +92,29 @@ Scopri come includere immagini nei file Markdown generati dalla conversione di d
 ### [Salva documento come TXT – Guida rapida all'esportazione di equazioni Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in modo semplice e veloce.
 
+### [Come salvare DOCX come TXT – Guida completa](./how-to-save-docx-as-txt-complete-guide/)
+Scopri come convertire file DOCX in TXT mantenendo il testo e le strutture con Aspose.Words for Java.
+
 ### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
 
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
+
+### [Crea PDF accessibile da DOCX usando Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Scopri come generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità con Aspose.Words.
+
+### [Crea PDF accessibile – Guida passo‑passo per convertire Word in PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Scopri come generare PDF accessibili da documenti Word, mantenendo struttura, tag e conformità per l'accessibilità.
+
+### [Salva docx come markdown – Guida passo‑passo Java](./save-docx-as-markdown-step-by-step-java-guide/)
+Scopri come convertire file DOCX in markdown usando Aspose.Words per Java con istruzioni dettagliate passo‑passo.
+
+### [Salva docx come markdown con Java – Guida completa passo‑passo](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Scopri come trasformare DOCX in markdown con Aspose.Words per Java, seguendo una guida completa passo‑passo.
+
+### [Carica immagini su CDN durante la conversione da DOCX a Markdown – Guida completa Java](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+Scopri come caricare immagini su un CDN mentre converti DOCX in Markdown con Aspose.Words per Java.
 
 ## Domande frequenti
 

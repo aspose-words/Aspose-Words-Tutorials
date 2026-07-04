@@ -83,58 +83,25 @@ Dokumenteinstellungen sind der Schlüssel, um Dokumente exakt nach Ihren Anforde
 ## Related Tutorials – Load, Save, and Convert
 
 ### [Laden und Speichern von HTML‑Dokumenten mit Aspose.Words für Java](./loading-and-saving-html-documents/)
-Lernen Sie, wie Sie HTML‑Dokumente in Java mit Aspose.Words für Java laden und speichern. Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen für nahtlose Dokumentintegration.
-
 ### [Arbeiten mit Ladeoptionen in Aspose.Words für Java](./using-load-options/)
-Meistern Sie Ladeoptionen in Aspose.Words für Java. Passen Sie das Laden von Dokumenten an, behandeln Sie Verschlüsselungen, konvertieren Sie Shapes, setzen Sie Word‑Versionen und mehr für effiziente Java‑Dokumentenverarbeitung.
-
 ### [Konfigurieren von RTF‑Ladeoptionen in Aspose.Words für Java](./configuring-rtf-load-options/)
-Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie Sie UTF‑8‑Text in RTF‑Dokumenten erkennen. Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
-
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
-Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
-
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
-Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.
-
 ### [Speichern von HTML‑Dokumenten mit festem Layout in Aspose.Words für Java](./saving-html-documents-with-fixed-layout/)
-Lernen Sie, wie Sie HTML‑Dokumente mit festem Layout in Aspose.Words für Java speichern. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für nahtlose Dokumentformatierung.
-
 ### [Erweiterte HTML‑Dokument‑Speicheroptionen mit Aspose.Words Java](./advance-html-documents-saving-options/)
-In diesem Tutorial haben wir verschiedene erweiterte HTML‑Dokument‑Speicheroptionen mit Aspose.Words für Java behandelt. Diese Optionen ermöglichen Ihnen die Erstellung hochwertiger HTML‑Ausgaben.
-
 ### [Speichern von Bildern aus Dokumenten in Aspose.Words für Java](./saving-images-from-documents/)
-Lernen Sie, wie Sie Bilder aus Dokumenten mit Aspose.Words für Java mithilfe unserer umfassenden Schritt‑für‑Schritt‑Anleitung speichern. Formate, Kompression und mehr anpassen.
-
 ### [Speichern von Dokumenten als Markdown in Aspose.Words für Java](./saving-documents-as-markdown/)
-Lernen Sie, wie Sie Word‑Dokumente mit Aspose.Words für Java in Markdown konvertieren. Diese Schritt‑für‑Schritt‑Anleitung behandelt Tabellenausrichtung, Bildverarbeitung und mehr.
-
 ### [Speichern von Dokumenten im ODT‑Format in Aspose.Words für Java](./saving-documents-as-odt-format/)
-Lernen Sie, wie Sie Dokumente im ODT‑Format mit Aspose.Words für Java speichern. Stellen Sie die Kompatibilität mit Open‑Source‑Office‑Suites sicher.
-
 ### [Speichern von Dokumenten im OOXML‑Format in Aspose.Words für Java](./saving-documents-as-ooxml-format/)
-Lernen Sie, wie Sie Dokumente im OOXML‑Format mit Aspose.Words für Java speichern. Sichern, optimieren und passen Sie Ihre Dateien mühelos an.
-
 ### [Speichern von Dokumenten im PCL‑Format in Aspose.Words für Java](./saving-documents-as-pcl-format/)
-Lernen Sie, wie Sie Dokumente im PCL‑Format mit Aspose.Words für Java speichern. Schritt‑für‑Schritt‑Anleitung und Code‑Beispiele für effiziente Dokumentkonvertierung.
-
 ### [Speichern von Dokumenten als PDF in Aspose.Words für Java](./saving-documents-as-pdf/)
-Lernen Sie, wie Sie Word‑Dokumente mit Aspose.Words für Java als PDF speichern. Schriftarten, Eigenschaften und Bildqualität anpassen. Eine umfassende Anleitung zur PDF‑Konvertierung.
-
 ### [Speichern von Dokumenten im RTF‑Format in Aspose.Words für Java](./saving-documents-as-rtf-format/)
-Lernen Sie, wie Sie Dokumente im RTF‑Format mit Aspose.Words für Java speichern. Schritt‑für‑Schritt‑Anleitung mit Quellcode für effiziente Dokumentkonvertierung.
-
 ### [Speichern von Dokumenten als Textdateien in Aspose.Words für Java](./saving-documents-as-text-files/)
-Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speichern. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung mit Java‑Code‑Beispielen.
-
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
-Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
-
 ### [Beschädigtes docx wiederherstellen – Vollständiger Leitfaden zum Reparieren und Verarbeiten von Dokumenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend mit Aspose.Words für Java verarbeiten.
-
+### [Wie man DOCX-Dateien wiederherstellt – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-recover-docx-files-step-by-step-java-guide/)
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
+### [Word-Dokument speichern – Schriftarteinstellungen festlegen, fehlende Schriften behandeln](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ## Häufig gestellte Fragen
 
