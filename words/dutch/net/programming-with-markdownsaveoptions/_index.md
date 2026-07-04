@@ -72,6 +72,9 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 
 ### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
+### [markdown-afbeeldingsrelatief pad – Converteer Word naar Markdown](./markdown-image-relative-path-convert-word-to-markdown/)
+Leer hoe u afbeeldingen met relatieve paden correct exporteert bij het converteren van Word naar Markdown met Aspose.Words voor .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
