@@ -46,10 +46,13 @@ Niezależnie od tego, czy chcesz przekonwertować dokumenty Word do PDF w celu d
 | [Renderuj efekty 3D DML 3DEffects w dokumencie PDF](./dml-3deffects-rendering/) | Dowiedz się, jak renderować niesamowite efekty 3D DML w dokumentach PDF za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |
 | [Interpolacja obrazów w dokumencie PDF](./interpolate-images/) | Dowiedz się, jak interpolować obrazy w dokumencie PDF za pomocą Aspose.Words dla .NET dzięki naszemu przewodnikowi krok po kroku. Łatwo popraw jakość obrazu w swoim pliku PDF. |
 | [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w pełni konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words, krok po kroku. |
+| [Jak wyeksportować PDF z Worda przy użyciu Aspose – Pełny przewodnik krok po kroku](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Dowiedz się, jak wyeksportować dokument Word do PDF przy użyciu Aspose, krok po kroku, z pełnym omówieniem ustawień. |
 | [Utwórz dostępny PDF z Word przy użyciu C# – Przewodnik krok po kroku](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word w C#, stosując techniki dostępności krok po kroku. |
 | [Utwórz dostępny PDF w C# – Samouczek dostępności PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Dowiedz się, jak generować dostępne pliki PDF w C# przy użyciu Aspose.Words, spełniające standardy WCAG. |
 | [Utwórz dostępny PDF z Worda – Kompletny przewodnik](./create-accessible-pdf-from-word-complete-guide/) | Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word, spełniając standardy dostępności. |
 | [Utwórz dostępny PDF – przewodnik krok po kroku dla zgodności PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Dowiedz się, jak tworzyć dostępne pliki PDF zgodne ze standardem PDF/UA, krok po kroku. |
+| [Tagowanie PDF pod kątem dostępności w C# – Kompletny przewodnik](./tag-pdf-for-accessibility-in-c-complete-guide/) | Dowiedz się, jak dodać znaczniki dostępności do plików PDF w C# przy użyciu Aspose.Words, krok po kroku, aby spełnić standardy PDF/UA. |
+| [Zapisz dokument PDF z podstawianiem czcionek w C# – Kompletny przewodnik](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Dowiedz się, jak zapisać dokument PDF z podstawianiem czcionek w C# przy użyciu Aspose.Words, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,7 @@ Quer você queira converter documentos do Word em PDF para distribuição online
 | [Reduza o tamanho do PDF desabilitando fontes incorporadas](./disable-embed-windows-fonts/) | Reduza o tamanho do PDF desabilitando fontes incorporadas usando o Aspose.Words para .NET. Siga nosso guia passo a passo para otimizar seus documentos para armazenamento e compartilhamento eficientes. |
 | [Otimize o tamanho do PDF com fontes Arial e Times Roman incorporadas](./skip-embedded-arial-and-times-roman-fonts/) | Otimize o tamanho do PDF ignorando as fontes Arial e Times Roman incorporadas usando o Aspose.Words para .NET. Siga este guia passo a passo para otimizar seus arquivos PDF. |
 | [Reduza o tamanho do arquivo PDF não incorporando fontes principais](./avoid-embedding-core-fonts/) | Aprenda a reduzir o tamanho de um arquivo PDF sem incorporar fontes principais usando o Aspose.Words para .NET. Siga nosso guia passo a passo para otimizar seus PDFs. |
+| [Salvar documento PDF com substituição de fontes em C# – Guia completo](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Aprenda a substituir fontes ao salvar documentos PDF usando Aspose.Words para .NET em C# com este guia passo a passo. |
 | [URI de escape em documento PDF](./escape-uri/) Aprenda como escapar URIs em PDFs usando o Aspose.Words para .NET. Este guia detalhado explica o processo passo a passo. |
 | [Exportar marcadores de cabeçalho e rodapé de documento do Word para documento PDF](./export-header-footer-bookmarks/) | Aprenda como exportar marcadores de cabeçalho e rodapé de um documento do Word para PDF usando o Aspose.Words para .NET com nosso guia passo a passo. |
 | [Reduza o tamanho do PDF com fontes WMF em escala para o tamanho do metarquivo](./scale-wmf-fonts-to-metafile-size/) | Guia passo a passo para reduzir o tamanho do PDF com fontes wmf em escala para o tamanho do metafile ao converter para PDF com o Aspose.Words para .NET. |
@@ -49,8 +50,9 @@ Quer você queira converter documentos do Word em PDF para distribuição online
 | [Criar PDF acessível a partir do Word com C# – Guia passo a passo](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Aprenda a gerar PDFs acessíveis a partir de documentos Word usando C# e Aspose.Words, seguindo este guia passo a passo. |
 | [Criar PDF acessível em C# – Tutorial de acessibilidade de PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aprenda a criar PDFs acessíveis em C# usando Aspose.Words, garantindo conformidade com padrões de acessibilidade. |
 | [Criar PDF acessível a partir do Word – Guia completo](./create-accessible-pdf-from-word-complete-guide/) | Aprenda a criar PDFs acessíveis a partir de documentos Word, garantindo conformidade com padrões de acessibilidade, usando Aspose.Words para .NET. |
-
+| [Como Exportar PDF do Word com Aspose – Guia Completo Passo a Passo](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Aprenda passo a passo como exportar PDFs a partir de documentos Word usando Aspose.Words, com instruções detalhadas. |
 | [Criar PDF acessível – Guia passo a passo para conformidade PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Aprenda a criar PDFs acessíveis compatíveis com PDF/UA usando Aspose.Words para .NET com este guia passo a passo. |
+| [Marcar PDF para acessibilidade em C# – Guia completo](./tag-pdf-for-accessibility-in-c-complete-guide/) | Aprenda a marcar PDFs para acessibilidade usando C# e Aspose.Words com este guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

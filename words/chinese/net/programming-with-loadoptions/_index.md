@@ -34,12 +34,13 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [在 Word 文档中加载 Chm 文件](./load-chm/) 按照本分步教程，使用 Aspose.Words for .NET 轻松将 CHM 文件加载到 Word 文档中。非常适合整合您的技术文档。|
 | [如何使用 Aspose.Words 恢复 docx – 分步指南](./how-to-recover-docx-with-aspose-words-step-by-step/) 按照本分步指南，使用 Aspose.Words for .NET 恢复受损的 docx 文档。|
 | [Aspose Load Options – 使用自定义字体设置加载 DOCX](./aspose-load-options-load-docx-with-custom-font-settings/) 了解如何使用 Aspose.Words for .NET 的 LoadOptions 在加载 DOCX 时自定义字体设置，确保文档正确渲染。|
-| [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
+| [恢复损坏的 Word 文件 – 打开损坏的 DOCX 完整指南并获取页数](./recover-damaged-word-file-complete-guide-to-open-corrupted-doc/) 了解如何使用 Aspose.Words for .NET 恢复损坏的 Word 文件，打开损坏的 DOCX 并获取页数。分步指南。|
 | [如何恢复 docx – C# 损坏 Word 文件指南](./how-to-recover-docx-c-guide-for-corrupted-word-files/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 docx 文件，步骤详尽，帮助您修复损坏的 Word 文档。|
 | [使用 Aspose.Words 在 C# 中恢复 Word 文档](./recover-word-document-with-aspose-words-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中恢复受损的 Word 文档，分步指南帮助您快速修复文件。|
-| [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文档，确保文档完整性。|
+| [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文件，确保文档完整性。|
 | [如何在 Aspose.Words 中使用 LoadOptions – 完整指南](./how-to-use-loadoptions-in-aspose-words-complete-guide/) 本完整指南详细演示了在 Aspose.Words for .NET 中使用 LoadOptions 加载和自定义 Word 文档的步骤。|
 | [在 C# 中恢复损坏文档 – 设置恢复模式并提示用户](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) 了解如何在 C# 使用 Aspose.Words 设置恢复模式并提示用户，以恢复损坏的文档。|
+| [在 C# 中配置文档加载选项 – 完整指南](./configure-document-load-options-in-c-complete-guide/) 本完整指南详细演示如何在 Aspose.Words for .NET 中使用 LoadOptions 配置文档加载选项，实现自定义加载行为。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

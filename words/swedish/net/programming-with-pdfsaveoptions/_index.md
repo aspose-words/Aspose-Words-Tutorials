@@ -1,8 +1,8 @@
 ---
 "description": "Utforska ordbehandling med PDF-sparalternativ i Aspose.Words för .NET. Lär dig hur du genererar Word-dokument till PDF med avancerade funktioner genom steg-för-steg-handledningar och exempelkod."
-"linktitle": "Ordbehandling med Pdfsaveoptions"
+"linktitle": "Ordbehandling med Pdfsavealternativ"
 "second_title": "Aspose.Words dokumentbehandlings-API"
-"title": "Ordbehandling med Pdfsaveoptions"
+"title": "Ordbehandling med Pdfsavealternativ"
 "url": "/sv/net/programming-with-pdfsaveoptions/"
 "weight": 1680
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ordbehandling med Pdfsaveoptions
+# Ordbehandling med Pdfsavealternativ
 
 Aspose.Words för .NET-handledningarna om ordbehandling med PdfSaveOptions guidar dig genom de olika funktionerna och teknikerna för ordbehandling med PDF-sparalternativ. Dessa handledningar hjälper dig att förstå hur du anpassar konvertering från Word till PDF genom att ändra layoutinställningar, teckensnitt, bilder, metadata och mer.
 
@@ -50,6 +50,9 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Skapa tillgänglig PDF i C# – PDF-tillgänglighetstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Lär dig skapa tillgängliga PDF-filer i C# med Aspose.Words och följa WCAG-riktlinjer. |
 | [Skapa tillgänglig PDF från Word – Komplett guide](./create-accessible-pdf-from-word-complete-guide/) | Lär dig hur du skapar tillgängliga PDF-filer från Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Skapa tillgänglig PDF – Steg‑för‑steg guide för PDF/UA‑efterlevnad](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Lär dig hur du skapar PDF-filer som uppfyller PDF/UA‑standarder för tillgänglighet med Aspose.Words för .NET. |
+| [Tagga PDF för tillgänglighet i C# – Komplett guide](./tag-pdf-for-accessibility-in-c-complete-guide/) | Lär dig hur du taggar PDF-filer för tillgänglighet med C# i en komplett steg‑för‑steg‑guide. |
+| [Exportera PDF från Word med Aspose – Komplett steg‑för‑steg‑guide](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Lär dig hur du exporterar PDF från ett Word-dokument med Aspose.Words för .NET i en komplett steg‑för‑steg‑guide. |
+| [Spara dokument PDF med teckensnittssubstitution i C# – Komplett guide](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Lär dig hur du sparar ett Word-dokument som PDF med teckensnittssubstitution i C# med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

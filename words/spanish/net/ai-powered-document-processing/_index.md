@@ -38,10 +38,11 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
  ## Tutoriales de procesamiento de documentos con IA
 | Título | Descripción |
 | --- | --- |
-| [Trabajar con el modelo de IA](./working-with-ai-model/) Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental.
+| [Trabajar con el modelo de IA](./working-with-ai-model/) Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental. |
 | [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
+| [Cómo reescribir texto en documentos Word con Aspose.Words AI – Guía completa](./how-to-rewrite-text-in-word-documents-with-aspose-words-ai-c/) | Aprenda a reescribir contenido en documentos Word usando la IA de Aspose.Words para mejorar y actualizar textos rápidamente. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

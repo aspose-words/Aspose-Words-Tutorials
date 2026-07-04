@@ -41,7 +41,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [PDF Belgesinde Anahat Seçeneklerini Ayarlama](./set-outline-options/) | Aspose.Words for .NET kullanarak bir PDF belgesinde anahat seçeneklerini nasıl ayarlayacağınızı öğrenin. Başlık düzeylerini ve genişletilmiş anahatları yapılandırarak PDF gezinmesini geliştirin. |
 | [PDF Belgesinde Özel Özellikleri Dışa Aktarma](./custom-properties-export/) | Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak PDF belgesinde özel özelliklerin nasıl dışa aktarılacağını öğrenin. |
 | [Word Belgesi Yapısını PDF Belgesine Aktar](./export-document-structure/) | Bir Word belgesinin yapısını Aspose.Words for .NET ile PDF'ye aktarın. Belge düzenini korumak ve PDF gezinmesini iyileştirmek için adım adım kılavuzumuzu izleyin. |
-| [PDF Belgesinde Görüntü Sıkıştırma](./image-compression/) Aspose.Words for .NET kullanarak PDF belgelerindeki resimleri nasıl sıkıştıracağınızı öğrenin. Optimize edilmiş dosya boyutu ve kalitesi için bu kılavuzu izleyin. |
+| [PDF Belgesinde Görüntü Sıkıştırma](./image-compression/) | Aspose.Words for .NET kullanarak PDF belgelerindeki resimleri nasıl sıkıştıracağınızı öğrenin. Optimize edilmiş dosya boyutu ve kalitesi için bu kılavuzu izleyin. |
 | [PDF Belgesinde Son Yazdırılan Özelliği Güncelle](./update-last-printed-property/) | Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla bir PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini öğrenin. |
 | [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin. |
 | [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
@@ -54,6 +54,9 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Eğitimi](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aspose.Words for .NET kullanarak C# ile erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
 | [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-complete-guide/) | Bu kapsamlı rehberde, Word belgelerinden erişilebilir PDF oluşturmak için gerekli adımları ve ayarları öğrenin. |
 | [Erişilebilir PDF Oluşturma – PDF/UA Uyumluluğu için Adım‑Adım Kılavuz](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | PDF/UA uyumluluğu için erişilebilir PDF oluşturmayı adım adım öğrenin. |
+| [Aspose ile Word'ten PDF Dışa Aktarma – Tam Adım‑Adım Kılavuz](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | Aspose kullanarak Word belgesinden PDF'ye nasıl dışa aktarılacağını adım adım öğrenin. |
+| [C# ile Erişilebilir PDF Etiketleme – Tam Kılavuz](./tag-pdf-for-accessibility-in-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile PDF dosyalarına erişilebilirlik etiketleri eklemeyi adım adım öğrenin. |
+| [C# ile Yazı Tipi Değiştirme Kullanarak Belgeyi PDF Olarak Kaydet – Tam Kılavuz](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | Aspose.Words for .NET ile C#’ta eksik yazı tiplerini değiştirerek PDF kaydetmeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

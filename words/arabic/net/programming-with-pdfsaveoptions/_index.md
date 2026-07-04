@@ -50,6 +50,9 @@
 | [إنشاء ملف PDF قابل للوصول في C# – دليل إمكانية الوصول إلى PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول من Word – دليل كامل](./create-accessible-pdf-from-word-complete-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول – دليل خطوة بخطوة للامتثال لمعيار PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |تعرف على كيفية إنشاء ملفات PDF قابلة للوصول وفقًا لمعيار PDF/UA باستخدام Aspose.Words لـ .NET من خلال دليل خطوة بخطوة. |
+| [كيفية تصدير PDF من Word باستخدام Aspose – دليل كامل خطوة بخطوة](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) |دليل خطوة بخطوة لتصدير ملفات PDF من مستندات Word باستخدام Aspose.Words لـ .NET. |
+| [وسم ملف PDF لتسهيل الوصول في C# – دليل كامل](./tag-pdf-for-accessibility-in-c-complete-guide/) |تعلم كيفية إضافة وسوم إمكانية الوصول إلى ملفات PDF باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
+| [حفظ مستند PDF مع استبدال الخطوط في C# – دليل كامل](./save-document-pdf-with-font-substitution-in-c-complete-guide/) |تعلم كيفية حفظ مستندات PDF مع استبدال الخطوط باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

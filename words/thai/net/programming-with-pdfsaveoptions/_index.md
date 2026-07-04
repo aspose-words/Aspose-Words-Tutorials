@@ -50,7 +50,10 @@
 - [สร้าง PDF ที่เข้าถึงได้ใน C# – บทเรียนการทำ PDF ให้เข้าถึงได้](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ใน C#
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-word-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนครบถ้วน
 - [การแทรกภาพในเอกสาร PDF](./interpolate-images/) | เรียนรู้วิธีการแทรกรูปภาพในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงคุณภาพรูปภาพใน PDF ของคุณได้อย่างง่ายดาย |
-- [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วยคู่มือทีละขั้นตอนจาก Aspose.Words สำหรับ .NET |
+- [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วยคู่มือทีละขั้นตอนจาก Aspose.Words สำหรับ .NET
+- [วิธีส่งออก PDF จาก Word ด้วย Aspose – คู่มือเต็มขั้นตอน](./how-to-export-pdf-from-word-with-aspose-full-step-by-step-gu/) | เรียนรู้วิธีส่งออกไฟล์ PDF จากเอกสาร Word ด้วย Aspose อย่างละเอียดตามขั้นตอนครบถ้วน
+- [แท็ก PDF เพื่อการเข้าถึงใน C# – คู่มือฉบับสมบูรณ์](./tag-pdf-for-accessibility-in-c-complete-guide/) | เรียนรู้วิธีแท็ก PDF เพื่อการเข้าถึงด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้
+- [บันทึกเอกสาร PDF ด้วยการแทนที่ฟอนต์ใน C# – คู่มือฉบับสมบูรณ์](./save-document-pdf-with-font-substitution-in-c-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word พร้อมการแทนที่ฟอนต์ใน C# ด้วย Aspose.Words อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
