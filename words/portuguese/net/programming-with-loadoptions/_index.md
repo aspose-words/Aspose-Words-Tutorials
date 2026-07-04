@@ -37,10 +37,11 @@ Nestes tutoriais, você aprenderá a usar LoadOptions para carregar documentos d
 | [Aspose Load Options – Carregar DOCX com Configurações de Fonte Personalizadas](./aspose-load-options-load-docx-with-custom-font-settings/) | Aprenda a carregar documentos DOCX usando LoadOptions com fontes personalizadas no Aspose.Words para .NET. Guia passo a passo incluído. |
 | [Recuperar Arquivo Word Danificado – Guia Completo para Abrir DOCX Corrompido e Obter Contagem de Páginas](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Aprenda a reparar arquivos Word danificados, abrir DOCX corrompidos e obter a contagem de páginas usando Aspose.Words para .NET. |
 | [Como recuperar docx – Guia C# para arquivos Word corrompidos](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Aprenda a recuperar arquivos DOCX corrompidos usando C# com Aspose.Words para .NET. Guia passo a passo para restaurar documentos. |
-
 | [Recuperar documento Word com Aspose.Words em C#](./recover-word-document-with-aspose-words-in-c/) | Aprenda a recuperar documentos Word usando Aspose.Words em C# com este guia passo a passo. |
 | [Como usar LoadOptions no Aspose.Words – Guia completo](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Aprenda passo a passo como utilizar LoadOptions no Aspose.Words para .NET, configurando opções avançadas de carregamento de documentos. |
 | [Recuperar documento corrompido em C# – Definir modo de recuperação e solicitar ao usuário](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Aprenda a recuperar documentos corrompidos em C# definindo o modo de recuperação e exibindo prompts ao usuário com Aspose.Words. |
+| [Recuperar docx corrompido com Aspose.Words – Guia completo passo a passo](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Aprenda a recuperar arquivos DOCX corrompidos usando Aspose.Words com um guia completo passo a passo. |
+| [Habilitar avisos de substituição de fontes em C# com Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Aprenda a habilitar avisos de substituição de fontes ao carregar documentos Word usando Aspose.Words para .NET em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -28,6 +28,7 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [Create Accessible PDF and Convert Word to Markdown – Full C# Guide](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) | Learn how to create accessible PDFs and convert Word documents to Markdown using Aspose.Words in C#. |
 | [How to Use Markdown: Convert DOCX to Markdown with LaTeX Equations](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Learn how to convert DOCX files to Markdown while preserving LaTeX equations using Aspose.Words for .NET. |
 | [Save docx as markdown – Complete C# Guide with LaTeX Equations](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
+| [save docx as markdown – Complete Guide with LaTeX Equations](./save-docx-as-markdown-complete-guide-with-latex-equations/) | Learn how to save DOCX as Markdown with LaTeX equations using Aspose.Words for .NET. |
 | [save docx as markdown – Full C# Guide with Image Extraction](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Learn how to save DOCX as Markdown with image extraction using Aspose.Words for .NET. |
 | [Save docx as markdown with Aspose.Words – Full C# Guide](./save-docx-as-markdown-with-aspose-words-full-c-guide/) |  |
 | [Convert Word to Markdown in C# – Full Guide with Image Extraction](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Learn how to convert Word documents to Markdown in C# with full image extraction using Aspose.Words for .NET. |
@@ -42,6 +43,7 @@ Words Processing with MarkdownSaveOptions is an in-depth resource that walks you
 | [How to Save Markdown from Word – Complete Guide](./how-to-save-markdown-from-word-complete-guide/) | Learn how to save Word documents as Markdown using Aspose.Words with a comprehensive step-by-step guide. |
 | [How to Rename Images When Converting DOCX to Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Learn how to rename images during DOCX to Markdown conversion using Aspose.Words for .NET. |
 | [Save Word Images – Convert Word to Markdown with Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) |  |
+| [custom image folder for export markdown with images – Complete Guide](./custom-image-folder-for-export-markdown-with-images-complete/) | Learn how to set a custom folder for images when exporting Word documents to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

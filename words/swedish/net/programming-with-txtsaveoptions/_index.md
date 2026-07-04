@@ -29,6 +29,7 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Använd mellanslagstecken per nivå för listindrag](./use-space-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor med flera nivåer med mellanslag i Aspose.Words för .NET. Steg-för-steg-guide för exakt dokumentformatering. |
 | [Spara dokument som TXT – Komplett C#-guide för att konvertera DOCX till vanlig text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Lär dig hur du med Aspose.Words för .NET konverterar DOCX-filer till ren text med en komplett C#-guide. |
 | [Spara docx som txt – Snabbguide för C#-utvecklare](./save-docx-as-txt-quick-guide-for-c-developers/) | Lär dig snabbt hur du konverterar DOCX-filer till TXT med C# i Aspose.Words för .NET. |
+| [Hur man exporterar LaTeX från Word – Komplett guide för att exportera LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Lär dig hur du med Aspose.Words för .NET exporterar Word-dokument till LaTeX-format med en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

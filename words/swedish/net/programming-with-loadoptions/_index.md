@@ -40,6 +40,8 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [så här återställer du docx – ställ in återställningsläge & öppna korrupta Word-filer](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Lär dig hur du sätter återställningsläge och öppnar skadade Word-filer med Aspose.Words för .NET. |
 | [Så här använder du LoadOptions i Aspose.Words – Komplett guide](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Lär dig steg för steg hur du använder LoadOptions för att anpassa inläsning av Word-dokument med Aspose.Words för .NET. |
 | [Återställ skadat dokument i C# – Ställ in återställningsläge och fråga användaren](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Lär dig hur du återställer korrupta dokument i C# med återställningsläge och visar en prompt till användaren. |
+| [Återställ korrupt docx med Aspose.Words – Komplett steg‑för‑steg‑guide](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words i en komplett steg‑för‑steg‑guide. |
+| [Aktivera varningar för teckensnittssubstitution i C# med Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Lär dig hur du aktiverar varningar för teckensnittssubstitution i C# med Aspose.Words för att undvika oväntade teckensnitt. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

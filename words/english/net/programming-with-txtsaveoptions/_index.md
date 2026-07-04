@@ -30,6 +30,7 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 | [Use Space Character Per Level For List Indentation](./use-space-character-per-level-for-list-indentation/) | Learn how to create multi-level lists with space character indentation in Aspose.Words for .NET. Step-by-step guide for precise document formatting. |
 | [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Learn how to convert DOCX files to plain text using Aspose.Words for .NET with a complete C# guide. |
 | [Save docx as txt – Quick Guide for C# Developers](./save-docx-as-txt-quick-guide-for-c-developers/) | Learn how to quickly convert DOCX files to TXT using Aspose.Words for .NET with C# code examples and key options. |
+| [How to Export LaTeX from Word – Complete Guide to Export LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Learn how to export Word documents to LaTeX format using Aspose.Words for .NET with a complete C# guide and key options. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

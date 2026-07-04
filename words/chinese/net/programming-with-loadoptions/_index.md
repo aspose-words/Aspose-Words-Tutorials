@@ -40,6 +40,8 @@ Aspose.Words for .NET 教程为希望掌握使用 LoadOptions 进行文字处理
 | [如何恢复 docx – 设置恢复模式并打开受损的 Word 文件](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) 了解如何使用 Aspose.Words for .NET 设置恢复模式并打开受损的 Word 文档，确保文档完整性。|
 | [如何在 Aspose.Words 中使用 LoadOptions – 完整指南](./how-to-use-loadoptions-in-aspose-words-complete-guide/) 本完整指南详细演示了在 Aspose.Words for .NET 中使用 LoadOptions 加载和自定义 Word 文档的步骤。|
 | [在 C# 中恢复损坏文档 – 设置恢复模式并提示用户](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) 了解如何在 C# 使用 Aspose.Words 设置恢复模式并提示用户，以恢复损坏的文档。|
+| [使用 Aspose.Words 完整分步指南恢复损坏的 docx](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) 了解如何使用 Aspose.Words 完整分步恢复损坏的 docx 文档，确保文档完整性。|
+| [在 C# 中使用 Aspose.Words 启用字体替代警告](./enable-font-substitution-warnings-in-c-with-aspose-words/) 了解如何在 C# 使用 Aspose.Words 的 LoadOptions 启用字体替代警告，以便在文档加载时捕获缺失字体信息。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

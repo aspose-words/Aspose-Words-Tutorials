@@ -29,6 +29,7 @@ Ezeknek az oktatóanyagoknak köszönhetően teljes mértékben kiaknázhatod az
 | [Szóköz karakter használata szintenként a lista behúzásához](./use-space-character-per-level-for-list-indentation/) | Tanulja meg, hogyan hozhat létre többszintű listákat szóközök behúzásával az Aspose.Words for .NET programban. Lépésről lépésre útmutató a precíz dokumentumformázáshoz. |
 | [Dokumentum mentése TXT formátumba – Teljes C# útmutató a DOCX konvertálásához egyszerű szöveggé](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Ismerje meg, hogyan konvertálhatja a DOCX fájlokat egyszerű szöveggé C#-ban az Aspose.Words segítségével. |
 | [Docx mentése txt-be – Gyors útmutató C# fejlesztőknek](./save-docx-as-txt-quick-guide-for-c-developers/) | Ismerje meg, hogyan menthet docx fájlokat txt formátumba egyszerű C# kóddal az Aspose.Words segítségével. |
+| [Word-ből LaTeX exportálása – Teljes útmutató a LaTeX exportáláshoz](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Ismerje meg, hogyan exportálhat LaTeX-et Word-dokumentumból az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

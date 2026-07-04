@@ -40,6 +40,8 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Hoe een DOCX te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Leer hoe u een beschadigd DOCX‑bestand kunt herstellen door de herstelmodus in te stellen en corrupte Word‑bestanden te openen met Aspose.Words voor .NET. |
 | [Hoe LoadOptions in Aspose.Words te gebruiken – Complete gids](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Leer stap voor stap hoe u LoadOptions gebruikt in Aspose.Words voor .NET met deze volledige gids. |
 | [Beschadigd document herstellen in C# – Herstelmodus instellen & gebruiker prompten](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Leer hoe u beschadigde documenten kunt herstellen in C# door de herstelmodus in te stellen en de gebruiker een prompt te tonen. |
+| [Beschadigd docx herstellen met Aspose.Words – Complete stapsgewijze gids](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Leer stap voor stap hoe u een beschadigd DOCX‑bestand kunt herstellen met Aspose.Words voor .NET. |
+| [Waarschuwingen voor lettertypevervanging inschakelen in C# met Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Leer hoe u waarschuwingen voor lettertypevervanging inschakelt in C# met Aspose.Words, zodat ontbrekende of onjuiste lettertypen worden gedetecteerd. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

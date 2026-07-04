@@ -29,7 +29,7 @@ Dank dieser Tutorials können Sie die Funktionalitäten von Aspose.Words für .N
 | [Leerzeichen pro Ebene für Listeneinrückung verwenden](./use-space-character-per-level-for-list-indentation/) | Erfahren Sie, wie Sie in Aspose.Words für .NET mehrstufige Listen mit Leerzeicheneinrückung erstellen. Schritt-für-Schritt-Anleitung zur präzisen Dokumentformatierung. |
 | [Dokument als TXT speichern – Vollständiger C#-Leitfaden zur Konvertierung von DOCX in Klartext](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in eine reine Textdatei konvertieren. |
 | [DOCX als TXT speichern – Schnellleitfaden für C#-Entwickler](./save-docx-as-txt-quick-guide-for-c-developers/) | Erfahren Sie, wie Sie ein DOCX-Dokument schnell in eine TXT-Datei konvertieren, mit Beispielcode für C#-Entwickler. |
-
+| [Wie man LaTeX aus Word exportiert – Vollständiger Leitfaden zum Export von LaTeX](./how-to-export-latex-from-word-complete-guide-to-export-latex/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus Word-Dokumenten exportieren – vollständige Anleitung mit C#-Beispielcode. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

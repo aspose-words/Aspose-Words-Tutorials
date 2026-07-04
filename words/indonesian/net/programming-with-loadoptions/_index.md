@@ -39,7 +39,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Memulihkan Dokumen Word dengan Aspose.Words di C#](./recover-word-document-with-aspose-words-in-c/) Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dalam C# dengan panduan langkah demi langkah. Bahasa Indonesia:
 | [Cara Memulihkan DOCX – Mengatur Mode Pemulihan & Membuka File Word yang Rusak](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Pelajari cara memulihkan file DOCX dengan mengatur mode pemulihan dan membuka file Word yang rusak menggunakan Aspose.Words. |
 | [Cara Menggunakan LoadOptions di Aspose.Words – Panduan Lengkap](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Panduan lengkap untuk menggunakan LoadOptions dalam Aspose.Words, termasuk contoh kode dan tips konfigurasi. |
+| [Pulihkan docx rusak dengan Aspose.Words – Panduan Lengkap Langkah‑per‑Langkah](./recover-corrupted-docx-with-aspose-words-complete-step-by-st/) | Panduan lengkap untuk memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan contoh kode langkah demi langkah. |
 | [Pulihkan Dokumen Rusak di C# – Atur Mode Pemulihan & Tampilkan Prompt Pengguna](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Pelajari cara memulihkan dokumen yang rusak menggunakan Aspose.Words di C# dengan mengatur mode pemulihan dan menampilkan prompt kepada pengguna. |
+| [Aktifkan Peringatan Substitusi Font di C# dengan Aspose.Words](./enable-font-substitution-warnings-in-c-with-aspose-words/) | Pelajari cara mengaktifkan peringatan substitusi font di C# menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
