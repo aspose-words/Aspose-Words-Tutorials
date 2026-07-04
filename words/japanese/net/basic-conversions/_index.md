@@ -36,6 +36,8 @@
 | [C# で Word を PDF に変換する – ガイド](./convert-word-to-pdf-in-c-using-aspose-words-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する方法を、ステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [Aspose.WordsでWordをPDFとして保存 – 完全なC#ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
 | [Aspose.WordsでDocxをPDFとして保存 – 完全なC#ガイド](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して C# で Docx ファイルを PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [C# で Word から PDF を作成する – 完全ガイド](./create-pdf-from-word-in-c-full-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [docx を txt に変換 – Word の数式を LaTeX に変換する完全ガイド](./convert-docx-to-txt-complete-guide-for-word-math-to-latex/) Aspose.Words for .NET を使用して、docx の数式を LaTeX に変換しながら txt にエクスポートする完全ガイドです。コード例付き。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

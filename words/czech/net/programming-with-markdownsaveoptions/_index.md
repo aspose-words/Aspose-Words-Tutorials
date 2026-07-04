@@ -37,11 +37,12 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Převod Wordu do Markdownu – Vložit obrázky jako Base64](./convert-word-to-markdown-embed-images-as-base64/) | Naučte se, jak při konverzi Wordu do Markdownu vložit obrázky přímo jako Base64 kód, aby byly soubory samostatné. |
 | [Jak uložit Markdown z Wordu – Kompletní průvodce v C#](./how-to-save-markdown-from-word-complete-c-guide/) | Kompletní průvodce v C# pro uložení dokumentu Word jako Markdown pomocí Aspose.Words. |
 | [Jak uložit Markdown z Wordu – Kompletní průvodce](./how-to-save-markdown-from-word-complete-guide/) | Kompletní průvodce pro uložení dokumentu Word jako Markdown pomocí Aspose.Words. |
-| [Jak exportovat LaTeX: převod DOCX do Markdown a TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Naučte se exportovat LaTeX převodem souborů DOCX do formátů Markdown a TXT pomocí Aspose.Words pro .NET. |
+| [Jak exportovat LaTeX z Wordu: převod DOCX do Markdown a TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Naučte se exportovat LaTeX převodem souborů DOCX do formátů Markdown a TXT pomocí Aspose.Words pro .NET. |
 | [Jak přejmenovat obrázky při převodu DOCX do Markdownu](./how-to-rename-images-when-converting-docx-to-markdown/) | Naučte se, jak při konverzi DOCX do Markdownu přejmenovat obrázky pomocí Aspose.Words pro .NET. |
 | [Jak exportovat Markdown z DOCX – Kompletní průvodce](./how-to-export-markdown-from-docx-complete-guide/) | Naučte se, jak exportovat Markdown z DOCX pomocí kompletního průvodce. |
 | [Uložení docx jako markdown s Aspose.Words – Kompletní průvodce v C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Naučte se, jak pomocí Aspose.Words převést soubory DOCX do formátu Markdown v kompletním průvodci v C#. |
 | [Uložení obrázků Word – převod Wordu do Markdownu s Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) | Naučte se ukládat obrázky z dokumentů Word a převádět je do formátu Markdown pomocí Aspose.Words pro .NET. |
+| [Uložení dokumentu jako Markdown pomocí C# – Kompletní průvodce](./save-document-as-markdown-with-c-full-guide/) | Naučte se uložit dokument Word jako Markdown pomocí C# s podrobným průvodcem a ukázkovým kódem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

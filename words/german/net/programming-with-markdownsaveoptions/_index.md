@@ -74,6 +74,9 @@ Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konverti
 ### [Word in Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [Dokument als Markdown speichern mit C# – Vollständige Anleitung](./save-document-as-markdown-with-c-full-guide/)
+Erfahren Sie, wie Sie ein Dokument mit Aspose.Words für .NET vollständig in Markdown konvertieren – komplette C#‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -37,6 +37,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Tạo hình chữ nhật trong Word bằng C# – Hướng dẫn từng bước](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Tìm hiểu cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 | [Hướng dẫn bóng đổ hình dạng Aspose.Words – Thêm bóng đổ cho hình dạng Word trong C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Hướng dẫn cách thêm bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C#. |
 | [Tạo tài liệu Word trống với hình chữ nhật có bóng – Hướng dẫn từng bước](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Tìm hiểu cách tạo tài liệu Word trống và chèn hình chữ nhật có bóng bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Thêm bóng cho hình dạng trong C# – hướng dẫn từng bước](./how-to-set-shadow-on-a-shape-in-c-step-by-step-guide/) | Tìm hiểu cách đặt bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
