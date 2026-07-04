@@ -95,11 +95,20 @@ Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équation
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
+### [Enregistrer le docx au format TXT – Guide complet d'exportation LaTeX des équations en Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Apprenez à enregistrer un fichier DOCX en texte brut tout en exportant les équations au format LaTeX avec Aspose.Words for Java.
+
 ### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
 
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
+
+### [Créer un fichier conforme PDF/UA‑1 avec Java – Guide complet](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Apprenez à créer des fichiers PDF/UA‑1 conformes en Java avec Aspose.Words grâce à un guide complet étape par étape.
+
+### [Créer un document PDF/UA conforme – Guide complet Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Apprenez à créer des documents PDF/UA‑1 conformes en Java avec Aspose.Words, en suivant un guide complet pas à pas.
 
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.

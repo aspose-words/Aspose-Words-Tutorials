@@ -89,6 +89,7 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 ### [HTML konvertálása dokumentumokká](./converting-html-documents/)
 ### [Dokumentumkonvertálás SaveOptions-szal](./document-conversion-saveoptions/)
 ### [Dokumentumé](./converting-documents-images/)
+### [DOCX konvertálása Markdown formátumba az Aspose.Words Java‑val – Teljes útmutató](./convert-docx-to-markdown-with-aspose-words-java-full-guide/)
 
 ## Gyakran Ismételt Kérdések
 
