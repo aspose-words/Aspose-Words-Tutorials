@@ -40,6 +40,9 @@ Word 文書を Markdown に変換し保存する手順を Python で解説しま
 ### [破損した DOCX の復元と Word から Markdown への変換](./recover-corrupted-docx-convert-word-to-markdown/)
 破損した DOCX を復元し、Word 文書を Markdown に変換する手順を紹介します。
 
+### [Word から PDF/UA を作成 – ステップバイステップ ガイド](./create-pdf-ua-from-word-step-by-step-guide/)
+Word 文書を PDF/UA に変換する手順を詳しく解説し、アクセシビリティ対応の PDF を作成します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

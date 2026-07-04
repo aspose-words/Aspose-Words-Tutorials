@@ -40,6 +40,9 @@
 ### [กู้ไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose.Words for Python
 
+### [สร้าง PDF UA จาก Word – คู่มือขั้นตอนต่อขั้นตอน](./create-pdf-ua-from-word-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียดและครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
