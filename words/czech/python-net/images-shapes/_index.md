@@ -37,6 +37,9 @@ Naučte se, jak optimalizovat SVG výstup pomocí Aspose.Words pro Python. Tato 
 ### [Jak přidat stín v C# – Kompletní programovací průvodce](./how-to-add-shadow-in-c-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.Words v C# přidat stín do objektů a vylepšit vizuální vzhled dokumentů.
 
+### [Jak vložit obdélník a přidat stín ve Wordu pomocí Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+Naučte se, jak pomocí Aspose.Words v Pythonu vložit obdélníkový tvar a aplikovat na něj stín v dokumentu Word.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)
