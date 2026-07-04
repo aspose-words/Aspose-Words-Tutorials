@@ -68,6 +68,9 @@ Wyeksportuj wzbogacony dokument do potrzebnego formatu — PDF, DOCX, HTML lub n
 ### [Mistrzowskie przetwarzanie tekstu w Javie&#58; użycie Aspose.Words i modeli AI do podsumowywania i tłumaczenia](./java-aspose-words-text-processing/)
 Dowiedz się, jak automatyzować podsumowywanie tekstu i tłumaczenie przy użyciu Aspose.Words for Java z GPT‑4 od OpenAI i Gemini od Google. Ulepsz swoje aplikacje Java już dziś.
 
+### [Budowanie sprawdzania gramatyki w Javie – Kompletny przewodnik krok po kroku](./build-grammar-checker-java-complete-step-by-step-guide/)
+Krok po kroku pokażemy, jak zbudować w Javie sprawdzacz gramatyki wykorzystujący AI, integrując Aspose.Words i modele językowe.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Words for Java](https://reference.aspose.com/words/java/)

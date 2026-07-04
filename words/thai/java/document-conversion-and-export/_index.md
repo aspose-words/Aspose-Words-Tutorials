@@ -70,6 +70,15 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์เป็นรูปแบบ LaTeX ด้วย Aspose.Words
 
+### [แปลง DOCX เป็น Markdown – คู่มือฉบับสมบูรณ์พร้อมการส่งออกสมการ](./convert-docx-to-markdown-complete-guide-with-math-export/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์อย่างครบถ้วน
+
+### [แปลง docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับ Java](./convert-docx-to-markdown-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Java อย่างละเอียดตามขั้นตอน
+
+### [บันทึก docx เป็น markdown: แปลง docx เป็น markdown ด้วย Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown อย่างง่ายด้วย Aspose.Words
+
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
 
@@ -100,8 +109,17 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
+### [แปลง docx เป็น PDF ใน Java – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย Java อย่างละเอียดตามขั้นตอน
+
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือขั้นตอนเต็ม](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX อย่างละเอียดด้วยขั้นตอนครบถ้วนใน Aspose.Words for Java
+
+### [วิธีบันทึก PNG จาก Word – คู่มือขั้นตอนเต็ม](./how-to-save-png-from-word-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PNG จากเอกสาร Word อย่างละเอียดด้วยขั้นตอนครบถ้วน
 
 ## คำถามที่พบบ่อย
 

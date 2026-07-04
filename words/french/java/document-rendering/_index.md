@@ -39,6 +39,8 @@ Apprenez à enrichir vos documents avec des formes et des graphiques grâce à A
 Découvrez l'impression et le rendu efficaces de vos documents avec Aspose.Words pour Java. Apprenez étape par étape avec des exemples de code source.
 ### [Rendu de documents au format HTML](./rendering-documents-html/)
 Apprenez à convertir facilement des documents au format HTML avec Aspose.Words pour Java. Guide étape par étape pour une conversion efficace des documents.
+### [Enregistrement du rappel d'avertissement en Java – Guide complet de programmation](./register-warning-callback-in-java-complete-programming-guide/)
+Apprenez à enregistrer un rappel d'avertissement avec Aspose.Words pour Java. Guide complet avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

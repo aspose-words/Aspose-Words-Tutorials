@@ -39,6 +39,8 @@ Naučte se, jak vylepšit své dokumenty tvary a grafikou pomocí Aspose.Words p
 Objevte efektivní tisk a vykreslování dokumentů pomocí Aspose.Words pro Javu. Naučte se krok za krokem s příklady zdrojového kódu.
 ### [Vykreslování dokumentů do HTML](./rendering-documents-html/)
 Naučte se, jak snadno vykreslit dokumenty do HTML pomocí Aspose.Words pro Javu. Podrobný návod pro efektivní převod dokumentů.
+### [Registrace varovného zpětného volání v Javě – Kompletní programovací průvodce ](./register-warning-callback-in-java-complete-programming-guide/)
+Naučte se, jak v Aspose.Words pro Javu zaregistrovat varovný callback a spravovat upozornění během zpracování dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

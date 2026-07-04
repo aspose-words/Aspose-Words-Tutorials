@@ -41,6 +41,9 @@ Tutorial kode untuk Aspose.Words Java
 ### [Ganti Nama Kolom Gabungan Kata dengan Aspose.Words untuk Java](./rename-word-merge-fields-aspose-words-java/)
 Tutorial kode untuk Aspose.Words Java
 
+### [Buat Template Mail Merge & Konversi DOCX ke PDF di C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Pelajari cara membuat template mail merge dan mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk C#.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

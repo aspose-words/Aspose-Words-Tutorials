@@ -75,6 +75,10 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
 
+### [Java 用文法チェッカー構築 – 完全ステップバイステップガイド](./build-grammar-checker-java-complete-step-by-step-guide/)
+
+Java で文法チェッカーを構築し、AI を活用した高度な校正機能を実装する完全ガイドです。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

@@ -67,6 +67,9 @@ Ekspor dokumen yang diperkaya ke format yang Anda butuhkan—PDF, DOCX, HTML, at
 ### [Menguasai Pemrosesan Teks di Java&#58; Menggunakan Aspose.Words & Model AI untuk Ringkasan dan Terjemahan](./java-aspose-words-text-processing/)
 Pelajari cara mengotomatisasi ringkasan teks dan terjemahan menggunakan Aspose.Words untuk Java dengan GPT‑4 dari OpenAI dan Gemini dari Google. Tingkatkan aplikasi Java Anda hari ini.
 
+### [Membangun Pemeriksa Tata Bahasa Java – Panduan Lengkap Langkah demi Langkah](./build-grammar-checker-java-complete-step-by-step-guide/)
+Pelajari cara membuat pemeriksa tata bahasa berbasis AI di Java dengan Aspose.Words, termasuk integrasi model bahasa dan penanganan dokumen.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
