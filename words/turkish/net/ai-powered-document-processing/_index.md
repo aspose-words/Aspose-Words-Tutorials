@@ -41,7 +41,9 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [AI Modeli ile Çalışma](./working-with-ai-model/) | AI ile belgeleri özetlemek için Aspose.Words for .NET'i nasıl kullanacağınızı öğrenin. Belge yönetimini geliştirmek için kolay adımlar. |
 | [Google AI Modeli ile Çalışma](./working-with-google-ai-model/) Aspose.Words for .NET ve Google AI ile belge işleme sürecinizi bir üst seviyeye taşıyın ve zahmetsizce özlü özetler oluşturun. |
 | [Açık AI Modeli ile Çalışma](./working-with-open-ai-model/) | OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın. |
-| [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin.
+| [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin. |
+| [Yerel LLM Eğitimi – Yerel LLM'yi Çağırma ve Dilbilgisi Kontrolü Çalıştırma](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Yerel LLM'yi nasıl çağıracağınızı ve belge üzerindeki dilbilgisi denetimini nasıl yapacağınızı öğrenin. |
+| [C#'ta Özet Rapor Oluşturma – Tam Adım Adım Kılavuz](./create-summary-report-in-c-complete-step-by-step-guide/) | C# kullanarak Aspose.Words ile adım adım özet rapor oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

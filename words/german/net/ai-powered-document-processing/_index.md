@@ -39,9 +39,11 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | Titel | Beschreibung |
 | --- | --- |
 | [Arbeiten mit KI-Modellen](./working-with-ai-model/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente mithilfe von KI zusammenfassen. Einfache Schritte zur Verbesserung des Dokumentenmanagements. |
-| [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
+| [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) | Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [Lokales LLM-Tutorial – Aufruf eines lokalen LLM und Durchführung einer Grammatikprüfung](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Erfahren Sie, wie Sie ein lokales LLM einbinden und damit Grammatikprüfungen in Aspose.Words für .NET durchführen. |
+| [Erstellen Sie einen Zusammenfassungsbericht in C# – Komplett‑Anleitung Schritt für Schritt](./create-summary-report-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# vollständige Zusammenfassungsberichte Schritt für Schritt erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

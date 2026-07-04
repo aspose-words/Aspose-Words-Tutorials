@@ -53,6 +53,9 @@
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 - [วิธีจับฟอนต์ใน Aspose.Words – คู่มือครบถ้วน](./how-to-capture-fonts-in-aspose-words-complete-guide/) | เรียนรู้วิธีจับฟอนต์ใน Aspose.Words อย่างละเอียดด้วยคู่มือขั้นตอนเต็มรูปแบบ |
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
+| [รับการแจ้งเตือนแบบอักษร](./receive-notifications-of-fonts/) | เรียนรู้วิธีรับการแจ้งเตือนแบบอักษรที่ขาดหายหรือถูกแทนที่เมื่อใช้ Aspose.Words สำหรับ .NET |
+| [วิธีใช้ IWarningCallback – ตรวจจับแบบอักษรที่หายไปด้วย Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | เรียนรู้วิธีใช้ IWarningCallback เพื่อตรวจจับแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
+| [รับการแจ้งเตือน](./receive-warning-notification/) เรียนรู้วิธีรับการแจ้งเตือนเมื่อใช้ Aspose.Words สำหรับ .NET และจัดการปัญหาหรือคำเตือนต่างๆ ในเอกสารของคุณ -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

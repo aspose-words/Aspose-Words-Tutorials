@@ -70,6 +70,8 @@
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和详细步骤指南。
 
+### [在 DOCX 转 Markdown 转换中将图像上传到 CDN – 完整指南](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

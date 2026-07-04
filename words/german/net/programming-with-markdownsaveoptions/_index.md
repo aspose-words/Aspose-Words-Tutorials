@@ -21,7 +21,7 @@
  ## Anleitungen
 | Titel | Beschreibung |
 | --- | --- |
-| [Exportieren in Markdown mit Ausrichtung des Tabelleninhalts](./export-into-markdown-with-table-content-alignment/) | Erfahren Sie, wie Sie Word-Dokumente mit ausgerichteten Tabellen mit Aspose.Words für .NET in Markdown exportieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für perfekte Markdown-Tabellen. |
+| [Exportieren in Markdown mit Ausrichtung des Tabelleninhalts](./export-into-markdown-with-table-content-alignment/) | Erfahren Sie, wie Sie Word-Dokumente mit ausgerichteten Tabellen mit Aspose.Words für .NET in Markdown exportieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für perfekte Markdown-Tabellen. |
 | [Bilderordner festlegen](./set-images-folder/) Konvertieren Sie Word-Dokumente mit Aspose.Words für .NET in Markdown mit korrekter Tabellenausrichtung. Folgen Sie unserer ausführlichen Anleitung für perfekte Ergebnisse. |
 | [Wie man Markdown verwendet: DOCX in Markdown mit LaTeX‑Gleichungen konvertieren](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Formeln in Markdown konvertieren, um mathematische Inhalte korrekt zu erhalten. |
 
@@ -73,6 +73,9 @@ Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konverti
 
 ### [Word in Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Bilder in CDN hochladen bei DOCX‑zu‑Markdown‑Konvertierung – Vollständige Anleitung](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+Erfahren Sie, wie Sie Bilder während der DOCX‑zu‑Markdown‑Konvertierung automatisch in ein CDN hochladen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

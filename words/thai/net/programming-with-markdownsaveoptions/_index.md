@@ -51,7 +51,7 @@
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
 
 ### [วิธีบันทึก Markdown จาก Word – คู่มือเต็ม](./how-to-save-markdown-from-word-complete-guide/)
-เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C#
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown อย่างละเอียดด้วย C+
 
 ### [วิธีส่งออก LaTeX: แปลง DOCX เป็น Markdown และ TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
@@ -64,6 +64,9 @@
 เรียนรู้วิธีบันทึกรูปภาพจากไฟล์ Word และแปลงเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+
+### [อัปโหลดรูปภาพไปยัง CDN ในการแปลง DOCX เป็น Markdown – คู่มือเต็ม](./upload-images-to-cdn-in-docx-to-markdown-conversion-complete/)
+เรียนรู้วิธีอัปโหลดรูปภาพไปยัง CDN ระหว่างการแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

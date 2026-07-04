@@ -42,6 +42,8 @@
 | [Google AI モデルの操作](./working-with-google-ai-model/) Aspose.Words for .NET と Google AI を使用してドキュメント処理を強化し、簡潔な要約を簡単に作成します。 |
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
+| [ローカル LLM チュートリアル – ローカル LLM を呼び出して文法チェックを実行する方法](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) Aspose.Words for .NET とローカル LLM を組み合わせ、文書の文法チェックを自動化する手順を学びます。 |
+| [C#で要約レポートを作成 – 完全ステップバイステップガイド](./create-summary-report-in-c-complete-step-by-step-guide/) Aspose.Words for .NET を使用して、C#で文書要約レポートを作成する完全な手順を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,6 +24,7 @@
 | [تحويل Doc إلى Docx](./doc-to-docx/) | تعلّم كيفية تحويل DOC إلى DOCX باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية. مثالي للمطورين. |
 | [تحويل Docx إلى RTF](./docx-to-rtf/) تعلّم كيفية تحويل DOCX إلى RTF باستخدام Aspose.Words لـ .NET من خلال دليلنا خطوة بخطوة. تحويل سهل لمعالجة مستندات سلسة.  |
 | [تحويل ملف Word إلى PDF](./docx-to-pdf/) تعرّف على كيفية تحويل ملفات Word إلى PDF بسهولة باستخدام Aspose.Words for .NET من خلال دليلنا. مثالي للمطورين الذين يبحثون عن تحويل سريع وموثوق للمستندات. |
+| [إنشاء PDF من DOCX باستخدام C# – دليل خطوة بخطوة](./create-pdf-from-docx-in-c-step-by-step-guide/) | تعلّم كيفية إنشاء ملف PDF من مستند DOCX باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [تحويل Word إلى PDF باستخدام C# و Aspose.Words – دليل](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | تعرّف على كيفية تحويل مستندات Word إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
 | [حفظ ملف Docx كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | تعلّم كيفية حفظ ملفات Docx بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |

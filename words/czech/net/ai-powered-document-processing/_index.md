@@ -42,6 +42,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
+| [Vytvořte souhrnnou zprávu v C# – Kompletní průvodce krok za krokem](./create-summary-report-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit souhrnnou zprávu v C# krok za krokem. |
+| [Lokální LLM tutoriál – Jak zavolat lokální LLM a spustit kontrolu gramatiky](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Naučte se, jak použít lokální LLM pro kontrolu gramatiky v dokumentech pomocí Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

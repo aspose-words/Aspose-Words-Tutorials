@@ -68,9 +68,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Kompresi Gambar dalam Dokumen PDF](./image-compression/) Pelajari cara mengompres gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET. Ikuti panduan ini untuk mengoptimalkan ukuran dan kualitas file. Bahasa Indonesia: |
 | [Perbarui Properti Terakhir Dicetak dalam Dokumen PDF](./update-last-printed-property/) | Pelajari cara memperbarui properti cetak terakhir dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Bahasa Indonesia: |
 | [Render 3D DML 3D Effects dalam Dokumen PDF](./dml-3deffects-rendering/) | Pelajari cara membuat efek DML 3D yang menakjubkan dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia: |
-| [Interpolasi Gambar dalam Dokumen PDF](./interpolate-images/) | Pelajari cara menginterpolasi gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kualitas gambar PDF Anda dengan mudah. Bahasa Indonesia: |
+| [Interpolasi Gambar dalam Dokumen PDF](./interpolate-images/) | Pelajari cara menginterpolasi gambar dalam dokumen PDF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan kualitas gambar PDF Anda dengan mudah. |
 | [Buat PDF Aksesibel dari Word – Panduan Lengkap](./create-accessible-pdf-from-word-complete-guide/) | Panduan lengkap untuk membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 | [Buat PDF yang Aksesibel – Panduan Langkah-demi-Langkah untuk Kepatuhan PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Pelajari cara membuat PDF yang dapat diakses sesuai standar PDF/UA dengan panduan langkah demi langkah menggunakan Aspose.Words untuk .NET. |
+| [Buat File PDF/UA yang Mematuhi Standar dari Word – Panduan Ekspor Lengkap](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Panduan lengkap langkah demi langkah untuk membuat file PDF/UA yang mematuhi standar dari dokumen Word menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Aspose.Words for .NET 教學中有關使用 PdfSaveOptions 進行文字處理的
 | [在 C# 中建立可存取的 PDF – PDF 可存取性教學](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) |使用 Aspose.Words for .NET 在 C# 中建立符合可存取性標準的 PDF 文件。 |
 | [從 Word 建立可存取的 PDF – 完整指南](./create-accessible-pdf-from-word-complete-guide/) |了解如何使用 Aspose.Words for .NET 從 Word 文件建立符合無障礙標準的 PDF，完整步驟指南。 |
 | [建立可存取的 PDF – PDF/UA 合規逐步指南](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) |本指南說明如何使用 Aspose.Words for .NET 建立符合 PDF/UA 標準的可存取 PDF，確保所有使用者皆能閱讀。 |
+| [從 Word 建立符合 PDF/UA 標準的完整匯出檔案](./create-pdf-ua-compliant-file-from-word-full-export-guide/) |本指南說明如何使用 Aspose.Words for .NET 從 Word 建立符合 PDF/UA 標準的完整匯出檔案。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

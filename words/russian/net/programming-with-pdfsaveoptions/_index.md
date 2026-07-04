@@ -57,6 +57,7 @@
 | [Визуализация 3D DML 3DEffects в PDF-документе](./dml-3deffects-rendering/) | Узнайте, как визуализировать потрясающие 3D-эффекты DML в документах PDF с помощью Aspose.Words для .NET с помощью этого подробного пошагового руководства. |
 | [Интерполяция изображений в PDF-документе](./interpolate-images/) | Узнайте, как интерполировать изображения в PDF-документе с помощью Aspose.Words для .NET с помощью нашего пошагового руководства. Улучшите качество изображений в PDF-файле легко. |
 | [Создание доступного PDF – пошаговое руководство по соответствию PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Узнайте, как создать PDF, соответствующий стандарту PDF/UA, с помощью пошагового руководства Aspose.Words для .NET. |
+| [Создать PDF/UA совместимый файл из Word – Полное руководство по экспорту](./create-pdf-ua-compliant-file-from-word-full-export-guide/) | Узнайте, как создать PDF/UA совместимый файл из Word, следуя полному руководству по экспорту с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

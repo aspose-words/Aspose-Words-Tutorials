@@ -18,7 +18,7 @@
 
 Handledningar för ordbehandling med teckensnitt guidar dig genom olika aspekter av ordbehandling med teckensnitt, så att du kan utföra åtgärder som att ändra teckensnittsformatering, läsa in teckensnitt från specifika kataloger, hantera ersättningsteckensnitt och mer.
 
-Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittsrelaterade uppgifter i dina Word-dokument.
+Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittrelaterade uppgifter i dina Word-dokument.
 
 Oavsett om du vill formatera text med olika teckensnitt, ange regler för teckensnittsersättning, ladda teckensnitt från specifika kataloger eller ta emot teckensnittmeddelanden, kommer handledningarna i "Ordbehandling med teckensnitt" att ge dig kunskapen för att enkelt utföra dessa uppgifter.
 
@@ -51,7 +51,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hur man upptäcker teckensnitt i Aspose.Words – Hantera varningar och inställningar](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Lär dig hur du identifierar teckensnitt, hanterar varningsmeddelanden och justerar inställningar i Aspose.Words för .NET. |
 | [Hur man fångar teckensnitt i Aspose.Words – Komplett guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Lär dig hur du fångar teckensnitt i Aspose.Words med en komplett steg-för-steg-guide. |
 | [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#-guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Lär dig hur du laddar DOCX-filer och identifierar saknade teckensnitt med Aspose.Words för .NET i en komplett C#-guide. |
-
+| [Hur man använder IWarningCallback – Upptäcker saknade teckensnitt med Aspose.Words](./how-to-use-iwarningcallback-detect-missing-fonts-with-aspose/) | Lär dig hur du använder IWarningCallback för att upptäcka saknade teckensnitt i Aspose.Words för .NET. |
 | [Aktivera varningar för teckensnittsersättning i Aspose.Words – Komplett guide](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Lär dig hur du aktiverar varningar för teckensnittsersättning i Aspose.Words för .NET med en steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

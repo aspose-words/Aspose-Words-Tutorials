@@ -42,6 +42,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Arbeta med Googles AI-modell](./working-with-google-ai-model/) Förbättra din dokumenthantering med Aspose.Words för .NET och Google AI för att enkelt skapa koncisa sammanfattningar. |
 | [Arbeta med öppen AI-modell](./working-with-open-ai-model/) | Lås upp effektiv dokumentsammanfattning med Aspose.Words för .NET och OpenAI:s kraftfulla modeller. Fördjupa dig i den här omfattande guiden nu. |
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
+| [Lokal LLM-handledning – Hur man anropar en lokal LLM och kör grammatikkontroll](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | Lär dig att integrera en lokal LLM för att utföra grammatikkontroller i dina dokument med Aspose.Words. |
+| [Skapa sammanfattningsrapport i C# – Komplett steg‑för‑steg‑guide](./create-summary-report-in-c-complete-step-by-step-guide/) | Lär dig att skapa en sammanfattningsrapport i C# med Aspose.Words genom en komplett steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

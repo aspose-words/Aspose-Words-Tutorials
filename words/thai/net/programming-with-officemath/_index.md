@@ -23,6 +23,7 @@
 - [สมการคณิตศาสตร์](./math-equations/) | เรียนรู้วิธีการกำหนดค่าสมการทางคณิตศาสตร์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่าง คำถามที่พบบ่อย และอื่นๆ |
 - [บันทึก docx เป็น txt – ส่งออก Word Math ไปเป็น LaTeX ด้วย C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt และส่งออกสมการ Word Math เป็น LaTeX ด้วย C# |
 - [บันทึกเอกสารเป็น Txt – ส่งออก Word Math เป็น LaTeX ใน C#](./save-document-as-txt-export-word-math-to-latex-in-c/) |  |
+- [บันทึก docx เป็น txt – ส่งออกสมการ Word ไปเป็น MathML](./save-docx-as-txt-export-word-equations-to-mathml/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt และส่งออกสมการ Word เป็น MathML ด้วย C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

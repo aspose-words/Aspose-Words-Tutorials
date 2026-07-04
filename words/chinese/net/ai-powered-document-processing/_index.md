@@ -42,6 +42,8 @@
 | [使用 Google AI 模型](./working-with-google-ai-model/) 使用 Aspose.Words for .NET 和 Google AI 提升您的文档处理能力，轻松创建简洁的摘要。|
 | [使用开放的人工智能模型](./working-with-open-ai-model/) 使用 Aspose.Words for .NET 和 OpenAI 强大的模型，解锁高效的文档摘要功能。立即深入了解这份全面的指南。|
 | [使用汇总选项](./working-with-summarize-options/) 学习使用 Aspose.Words for .NET 有效地总结 Word 文档，并遵循我们关于集成 AI 模型以获得快速洞察的分步指南。|
+| [本地 LLM 教程 – 调用本地 LLM 并进行语法检查](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) 使用 Aspose.Words for .NET 调用本地大语言模型进行文档语法检查的完整指南。|
+| [在 C# 中创建摘要报告 – 完整分步指南](./create-summary-report-in-c-complete-step-by-step-guide/) 使用 Aspose.Words for .NET 在 C# 中创建完整的摘要报告，提供详细的分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

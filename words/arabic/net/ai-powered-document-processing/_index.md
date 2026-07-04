@@ -42,6 +42,8 @@
 | [العمل مع نموذج الذكاء الاصطناعي من Google](./working-with-google-ai-model/) |قم بترقية معالجة المستندات لديك باستخدام Aspose.Words for .NET وGoogle AI لإنشاء ملخصات موجزة بسهولة. |
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
+| [دليل LLM المحلي – كيفية استدعاء نموذج LLM محلي وتشغيل فحص القواعد](./local-llm-tutorial-how-to-call-a-local-llm-and-run-grammar-c/) | تعلم كيفية استدعاء نموذج LLM محلي وإجراء فحص القواعد النحوية باستخدام Aspose.Words. |
+| [إنشاء تقرير ملخص في C# – دليل شامل خطوة بخطوة](./create-summary-report-in-c-complete-step-by-step-guide/) | تعلم كيفية إنشاء تقرير ملخص باستخدام Aspose.Words لـ .NET بلغة C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
