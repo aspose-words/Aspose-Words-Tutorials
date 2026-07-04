@@ -34,6 +34,9 @@ Lär dig hur du optimerar bildhanteringen i RTF-dokument med Aspose.Words för P
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Lär dig hur du optimerar SVG-utdata med Aspose.Words för Python. Den här guiden behandlar anpassade funktioner som bildliknande egenskaper, textrendering och säkerhetsförbättringar.
 
+### [Lägg till skugga på form i Python – Komplett Aspose.Words-handledning](./add-shadow-to-shape-in-python-complete-aspose-words-tutorial/)
+Lär dig hur du lägger till skugga på former i Word-dokument med Aspose.Words för Python.
+
 ### [Hur man lägger till skugga i C# – Komplett programmeringsguide](./how-to-add-shadow-in-c-complete-programming-guide/)
 Lär dig steg för steg hur du applicerar skuggor på objekt i C# med Aspose.Words.
 

@@ -37,6 +37,16 @@
 Μάθετε πώς να αποθηκεύσετε περιεχόμενο Word ως Markdown χρησιμοποιώντας Aspose.Words για Python. Ο πλήρης οδηγός.
 ### [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Αποθήκευση docx ως markdown με εξισώσεις LaTeX – Οδηγός Python](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με εξισώσεις LaTeX χρησιμοποιώντας Aspose.Words για Python.
+### [Εξαγωγή docx ως markdown – Πλήρης οδηγός βήμα-βήμα](./export-docx-as-markdown-full-step-by-step-guide/)
+Μάθετε πώς να εξάγετε αρχεία docx ως markdown με οδηγίες βήμα-βήμα χρησιμοποιώντας Aspose.Words για Python.
+### [Αποθήκευση Word ως PDF με Aspose.Words – Πλήρης Οδηγός Python](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF με το Aspose.Words για Python. Ο πλήρης οδηγός.
+### [Δημιουργία προσβάσιμου PDF από Word – Πλήρης Οδηγός Προγραμματισμού](./create-accessible-pdf-from-word-complete-programming-guide/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word με το Aspose.Words για Python. Ο πλήρης οδηγός.
+### [Δημιουργία πλέγματος PNG από έγγραφο Word – Πλήρης οδηγός βήμα-βήμα](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Μάθετε πώς να δημιουργήσετε πλέγμα PNG από έγγραφο Word με το Aspose.Words για Python. Ο πλήρης οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
