@@ -50,6 +50,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Nguồn Phông chữ Steam Ví dụ](./resource-steam-font-source-example/) | Tìm hiểu cách sử dụng Resource Stream Font Source để tải phông chữ tùy chỉnh vào Aspose.Words cho .NET. |
 | [Nhận thay thế không có hậu tố](./get-substitution-without-suffixes/) | Trong hướng dẫn này, hãy tìm hiểu cách ghi đè không có hậu tố trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách phát hiện phông chữ trong Aspose.Words – Xử lý cảnh báo & cài đặt](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Tìm hiểu cách phát hiện phông chữ, quản lý cảnh báo và cấu hình cài đặt phông chữ trong Aspose.Words cho .NET. |
+| [Cách phát hiện thay thế trong Aspose.Words – Xử lý phông chữ thiếu](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Tìm hiểu cách phát hiện việc thay thế phông chữ và xử lý các phông chữ thiếu trong Aspose.Words cho .NET. |
 | [Cách bắt phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách bắt và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách tải DOCX và phát hiện phông chữ thiếu – Hướng dẫn C# đầy đủ](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Tìm hiểu cách tải tệp DOCX và phát hiện các phông chữ bị thiếu trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước bằng C#. |
 

@@ -50,7 +50,7 @@ Metni farklı yazı tipleriyle biçimlendirmek, yazı tipi değiştirme kurallar
 | [Ekler Olmadan İkame Edin](./get-substitution-without-suffixes/) | Bu eğitimde, .NET için Aspose.Words ile Word belgesinde eksiz geçersiz kılmaların nasıl yapılacağını öğrenin. |
 | [Aspose.Words'ta Yazı Tiplerini Algılamayı Öğrenin – Uyarıları ve Ayarları Yönetme](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aspose.Words for .NET kullanarak belgelerdeki yazı tiplerini nasıl tespit edeceğinizi, uyarıları almayı ve ayarları yönetmeyi öğrenin. |
 | [Aspose.Words'ta Yazı Tiplerini Yakalama – Tam Kılavuz](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aspose.Words for .NET kullanarak bir Word belgesinde yazı tiplerini nasıl yakalayacağınızı adım adım öğrenin. |
-
+| [Aspose.Words'ta Yazı Tipi Değiştirmeyi Algıla – Eksik Yazı Tiplerini Yönet](./how-to-detect-substitution-in-aspose-words-handle-missing-fo/) | Aspose.Words for .NET kullanarak eksik yazı tiplerini algılayın ve değiştirme işlemlerini yönetin. |
 | [DOCX Dosyasını Yükleme ve Eksik Yazı Tiplerini Algılama – Tam C# Rehberi](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aspose.Words for .NET kullanarak DOCX dosyalarını nasıl yükleyeceğinizi ve eksik yazı tiplerini nasıl tespit edeceğinizi adım adım öğrenin. |
 | [Aspose.Words'te Yazı Tipi Değiştirme Uyarılarını Etkinleştirme – Tam Kılavuz](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Aspose.Words for .NET kullanarak yazı tipi değiştirme uyarılarını nasıl etkinleştireceğinizi adım adım öğrenin. |
 

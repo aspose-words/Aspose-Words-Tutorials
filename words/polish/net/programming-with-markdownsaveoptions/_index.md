@@ -33,7 +33,8 @@ Words Processing with MarkdownSaveOptions to dogłębny zasób, który przeprowa
 Kompletny przewodnik C# tworzenia dostępnych plików PDF i konwersji dokumentów Word do formatu Markdown.
 
 ### [Zapisz docx jako markdown – Kompletny przewodnik C# z równaniami LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-Kompletny przewodnik C# konwertujący pliki DOCX na Markdown z obsługą równań LaTeX przy użyciu Aspose.Words.
+
+### [Zapisz docx jako markdown z równaniami LaTeX – przewodnik C#](./save-docx-as-markdown-with-latex-equations-c-guide/)
 
 ### [Zapisz docx jako markdown – Pełny przewodnik C# z wyodrębnianiem obrazów](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
@@ -66,6 +67,9 @@ Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji dokument
 
 ### [Zapisz obrazy Word – konwertuj Word do Markdown przy użyciu Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Dowiedz się, jak wyodrębnić obrazy z dokumentu Word i zapisać je podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
+
+### [Eksportuj docx jako markdown – Pełny przewodnik C#](./export-docx-as-markdown-complete-c-guide/)
+Kompletny przewodnik C# pokazujący, jak wyeksportować pliki DOCX do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
