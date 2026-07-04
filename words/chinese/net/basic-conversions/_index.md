@@ -29,6 +29,7 @@
 | [将 Docx 转换为 Mhtml 并发送电子邮件](./docx-to-mhtml-and-sending-email/) 在本分步指南中学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 MHTML 并发送电子邮件。轻松实现自动化，提升您的工作效率。|
 | [将 Docx 文件转换为 Markdown](./docx-to-markdown/) | 了解如何使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown。请遵循我们的详细指南，实现与您的 .NET 应用程序的无缝集成。|
 | [Docx 转 Txt](./docx-to-txt/) 使用 Aspose.Words for .NET 将 DOCX 转换为 TXT，并遵循我们的分步指南。学习如何高效轻松地转换文档。|
+| [将 DOCX 转换为 TXT – 完整 C# 指南（适用于 LaTeX 方程式）](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为 TXT，并正确处理 LaTeX 方程式，提供完整的 C# 示例和分步指南。|
 | [将文本文件转换为 Word 文档](./txt-to-docx/) 了解如何使用 Aspose.Words for .NET 将文本文件转换为 Word 文档。使用我们全面的指南高效管理文档转换。| 
 | [将 PDF 保存为 Jpeg](./pdf-to-jpeg/) | 使用 Aspose.Words for .NET 轻松将 PDF 转换为 JPEG。遵循我们包含示例和常见问题解答的详细指南。非常适合开发人员和爱好者。|
 | [将 PDF 保存为 Word 格式 (Docx)](./pdf-to-docx/) | 学习如何使用 Aspose.Words for .NET 将 PDF 转换为 Word 文档 (Docx)，本指南详细分步，非常适合开发人员。|

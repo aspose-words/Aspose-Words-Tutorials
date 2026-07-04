@@ -41,6 +41,8 @@ In these tutorials, you will learn how to use LoadOptions to load Word documents
 | [Recover Word Document with Aspose.Words in C#](./recover-word-document-with-aspose-words-in-c/) | Learn how to recover corrupted Word documents using Aspose.Words for .NET in C# with a step-by-step guide. |
 | [how to recover docx – set recovery mode & open corrupted Word files](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Learn how to set recovery mode and open corrupted Word files using Aspose.Words for .NET. |
 | [How to Use LoadOptions in Aspose.Words – Complete Guide](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | A comprehensive guide on using LoadOptions in Aspose.Words for .NET, covering all settings and best practices. |
+| [How to Use LoadOptions to Detect Missing Fonts](./how-to-use-loadoptions-to-detect-missing-fonts/) | Learn how to detect missing fonts during document loading using LoadOptions in Aspose.Words for .NET. |
+| [Open Corrupted Word File in C# – Complete Guide](./open-corrupted-word-file-in-c-complete-guide/) | Learn how to open corrupted Word files in C# using Aspose.Words with a step-by-step complete guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

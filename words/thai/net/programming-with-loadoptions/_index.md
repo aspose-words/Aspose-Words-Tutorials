@@ -38,7 +38,9 @@
 | [กู้คืนเอกสาร Word ด้วย Aspose.Words ใน C#](./recover-word-document-with-aspose-words-in-c/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# |
 | [วิธีกู้คืนไฟล์ DOCX – ตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหาย](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | เรียนรู้วิธีตั้งค่าโหมดการกู้คืนและเปิดไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET |
 | [วิธีใช้ LoadOptions ใน Aspose.Words – คู่มือฉบับสมบูรณ์](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | เรียนรู้วิธีใช้ LoadOptions อย่างเต็มที่ใน Aspose.Words สำหรับ .NET ด้วยคู่มือที่ครอบคลุมขั้นตอนและตัวอย่างโค้ด |
+| [วิธีใช้ LoadOptions เพื่อตรวจจับแบบอักษรที่หายไป](./how-to-use-loadoptions-to-detect-missing-fonts/) | เรียนรู้วิธีใช้ LoadOptions เพื่อตรวจจับและจัดการแบบอักษรที่หายไปในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
 | [กู้คืนเอกสารเสียหายใน C# – ตั้งค่าโหมดการกู้คืนและแจ้งผู้ใช้](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | เรียนรู้วิธีกู้คืนเอกสาร Word ที่เสียหายใน C# ด้วยการตั้งค่าโหมดการกู้คืนและแจ้งผู้ใช้ |
+| [เปิดไฟล์ Word ที่เสียใน C# – คู่มือฉบับสมบูรณ์](./open-corrupted-word-file-in-c-complete-guide/) | เรียนรู้วิธีเปิดไฟล์ Word ที่เสียใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

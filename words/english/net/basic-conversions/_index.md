@@ -30,6 +30,7 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [Convert Docx To Mhtml And Sending Email](./docx-to-mhtml-and-sending-email/) | Learn how to convert DOCX to MHTML and send emails using Aspose.Words for .NET in this step-by-step guide. Boost your productivity with easy automation. |
 | [Convert Docx File To Markdown](./docx-to-markdown/) | Learn how to convert DOCX files to Markdown using Aspose.Words for .NET. Follow our detailed guide for seamless integration in your .NET applications. |
 | [Convert Docx To Txt](./docx-to-txt/) | Convert DOCX to TXT using Aspose.Words for .NET with our step-by-step guide. Learn to transform documents efficiently and effortlessly. |
+| [Convert DOCX to TXT – Complete C# Guide for LaTeX Equations](./convert-docx-to-txt-complete-c-guide-for-latex-equations/) | Learn how to convert DOCX to TXT with LaTeX equations using Aspose.Words for .NET. Complete C# guide with code examples. |
 | [Convert Text File To Word Document](./txt-to-docx/) | Learn how to convert text files to Word documents using Aspose.Words for .NET. Efficiently manage document conversions with our comprehensive guide. | 
 | [Save Pdf as Jpeg](./pdf-to-jpeg/) | Effortlessly convert PDFs to JPEGs using Aspose.Words for .NET. Follow our detailed guide with examples and FAQs. Perfect for developers and enthusiasts. |
 | [Save PDF To Word Format (Docx)](./pdf-to-docx/) | Learn how to convert a PDF to a Word document (Docx) using Aspose.Words for .NET in this detailed, step-by-step guide. Perfect for developers. |

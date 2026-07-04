@@ -42,6 +42,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
+| [Jak používat Summarize v Aspose.Words – Kompletní průvodce](./how-to-use-summarize-in-aspose-words-complete-guide/) | Kompletní návod, jak využít funkci Summarize v Aspose.Words pro .NET k automatickému shrnutí dokumentů. |
+| [Jak zkontrolovat gramatiku v C# pomocí Aspose.Words – Průvodce](./how-to-check-grammar-in-c-with-aspose-words-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET kontrolovat gramatiku v C# a automatizovat opravy textu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

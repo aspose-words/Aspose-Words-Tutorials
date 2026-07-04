@@ -32,6 +32,8 @@
 
 ### [تحويل docx إلى markdown – دليل خطوة بخطوة C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [تحويل Docx إلى Markdown باستخدام C# – دليل برمجة كامل](./convert-docx-to-markdown-with-c-complete-programming-guide/)
+
 ### [حفظ docx كـ markdown – دليل C# كامل مع معادلات LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 ### [حفظ docx كـ markdown – دليل C# كامل مع استخراج الصور](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
@@ -41,9 +43,11 @@
 ### [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
+
 ### [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 ### [تحويل Word إلى Markdown – تضمين الصور كـ Base64](./convert-word-to-markdown-embed-images-as-base64/)
+
 ### [كيفية حفظ Markdown من Word – دليل C# كامل](./how-to-save-markdown-from-word-complete-c-guide/)
 
 ### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
@@ -57,6 +61,8 @@
 ### [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 ### [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+
+### [حفظ DOCX كـ markdown باستخدام Aspose.Words – دليل كامل خطوة بخطوة](./save-docx-as-markdown-with-aspose-words-full-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

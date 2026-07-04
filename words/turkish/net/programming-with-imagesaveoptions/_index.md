@@ -24,10 +24,11 @@ Eğitimler ayrıca, Aspose.Words for .NET kullanarak bir Word belgesine resim ek
 | --- | --- |
 | [Tiff İkilileştirme İçin Eşik Kontrolünü Açığa Çıkarın](./expose-threshold-control-for-tiff-binarization/) | Bu kapsamlı adım adım kılavuzla, Aspose.Words for .NET kullanarak Word belgelerinde TIFF ikileştirme için eşik denetiminin nasıl açığa çıkarılacağını öğrenin. |
 | [Tiff Sayfa Aralığını Al](./get-tiff-page-range/) | Bu adım adım kılavuzla, Aspose.Words for .NET'i kullanarak Word belgelerindeki belirli sayfa aralıklarını TIFF dosyalarına nasıl dönüştüreceğinizi öğrenin. |
-| [Biçim 1Bpp Dizinli](./format-1bpp-indexed/) | Aspose.Words for .NET kullanarak bir Word belgesini 1Bpp dizinli bir görüntüye nasıl dönüştüreceğinizi öğrenin. Kolay dönüşüm için adım adım kılavuzumuzu izleyin. |
+| [Biçim 1Bpp Dizinli](./format-1bpp-indexed/) | Aspose.Words for .NET kullanarak bir Word belgesini 1Bpp dizinli bir görüntüye nasıl dönüştüreceğinizi öğrenin. Kolay dönüşüm için adım adım rehberimizi izleyin. |
 | [Jpeg Sayfa Aralığını Al](./get-jpeg-page-range/) | Aspose.Words for .NET kullanarak Word belgelerinin belirli sayfalarını özel ayarlarla JPEG'e dönüştürün. Parlaklığı, kontrastı ve çözünürlüğü adım adım nasıl ayarlayacağınızı öğrenin. |
 | [Sayfa Kaydetme Geri Araması](./page-saving-callback/) | Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET'i kullanarak bir Word belgesinin her sayfasını ayrı bir PNG resmi olarak kaydetmeyi öğrenin. |
 | [Word'ü PNG'ye Dönüştürürken DPI Nasıl Ayarlanır – Tam C# Rehberi](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aspose.Words for .NET kullanarak Word belgelerini PNG'ye dönüştürürken DPI ayarını nasıl yapılandıracağınızı adım adım öğrenin. |
+| [DOCX'i PNG'ye Dönüştür – Tam C# Rehberi](./convert-docx-to-png-complete-c-guide/) | Aspose.Words for .NET kullanarak DOCX dosyalarını PNG formatına dönüştürmek için adım adım tam C# rehberi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

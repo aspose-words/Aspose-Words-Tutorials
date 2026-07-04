@@ -35,7 +35,7 @@ Aspose.Words for .NETは、.NETアプリケーションでWord文書を処理す
 | [置換パターン内の認識と置換](./recognize-and-substitutions-within-replacement-patterns/) Aspose.Words for .NET を使用して、置換パターン内のテキストを認識し、置換する方法を学びます。詳細な例を使ったステップバイステップのガイドです。 |
 | [文字列で置換](./replace-with-string/) Aspose.Words for .NET を使用してWord文書内の文字列を置換する方法を、ステップバイステップで解説するガイドです。ドキュメント編集の自動化を目指す開発者に最適です。 |
 | [表内のテキストを置換](./replace-text-in-table/) この詳細なステップバイステップ ガイドに従って、Aspose.Words for .NET を使用して Word テーブル内のテキストを簡単に置き換えます。 |
-
+| [C#でAIを使って段落を書き換える方法 – 完全ガイド](./how-to-rewrite-paragraph-with-ai-in-c-full-guide/) Aspose.Words for .NET と AI を組み合わせて、C# で段落を書き換える手順を詳しく解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
