@@ -103,11 +103,20 @@ Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematic
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
 
+### [Jak uložit PDF z Wordu s vloženými tvary – Kompletní průvodce](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Naučte se, jak pomocí Aspose.Words for Java uložit soubor Word jako PDF a zachovat všechny vložené tvary.
+
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Jak exportovat LaTeX z DOCX do TXT pomocí Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Naučte se exportovat LaTeX rovnice z dokumentu DOCX do textového souboru TXT pomocí Aspose.Words.
+
+### [Export Word do Markdownu v Javě – Uložení dokumentu jako Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Naučte se, jak pomocí Aspose.Words for Java převést soubor Word do formátu Markdown a uložit jej jako .md.
 
 ## Často kladené otázky
 

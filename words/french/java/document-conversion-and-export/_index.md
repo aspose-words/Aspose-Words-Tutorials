@@ -92,6 +92,9 @@ Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words po
 ### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
 
+### [Exporter Word en Markdown en Java – Enregistrer le document au format Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Apprenez à convertir des documents Word en Markdown avec Aspose.Words for Java et à enregistrer le résultat au format Markdown.
+
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
@@ -103,6 +106,12 @@ Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant
 
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
+
+### [Comment exporter LaTeX de DOCX vers TXT avec Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Apprenez à extraire les équations LaTeX d'un DOCX et les enregistrer au format TXT avec Aspose.Words.
+
+### [Comment enregistrer un PDF depuis Word avec des formes en ligne – Guide complet](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Apprenez à convertir des documents Word contenant des formes en ligne en PDF en conservant la mise en page et les graphiques.
 
 ## Questions fréquentes
 

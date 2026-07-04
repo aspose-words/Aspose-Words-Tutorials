@@ -92,6 +92,9 @@ Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. 
 ### [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a convertir documentos DOCX a Markdown y exportar ecuaciones matemáticas a LaTeX usando Aspose.Words.
 
+### [Exportar Word a Markdown en Java – Guardar documento como Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Aprenda a exportar documentos Word a formato Markdown usando Aspose.Words for Java y guardar el resultado como archivo Markdown.
+
 ### [Guardar documento como TXT – Guía rápida para exportar ecuaciones de Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aprenda a guardar documentos Word como archivos TXT y exportar ecuaciones matemáticas manteniendo el formato.
 
@@ -103,6 +106,9 @@ Aprenda a insertar imágenes en archivos markdown durante la conversión de docu
 
 ### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.
+
+### [Cómo exportar LaTeX de DOCX a TXT con Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Aprenda a exportar contenido LaTeX de documentos DOCX a archivos TXT usando Aspose.Words en unos simples pasos.
 
 ### [Crear markdown desde Word – Guía completa en C#](./create-markdown-from-word-complete-c-guide/)
 Aprenda a generar archivos markdown a partir de documentos Word usando C# con esta guía paso a paso.
@@ -118,6 +124,9 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
+
+### [Cómo guardar PDF desde Word con formas en línea – Guía completa](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Aprenda a guardar documentos Word como PDF conservando formas en línea usando Aspose.Words for Java en esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
