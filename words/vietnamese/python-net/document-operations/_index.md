@@ -60,6 +60,12 @@ Tìm hiểu cách chuyển đổi tài liệu Word sang định dạng PostScrip
     ### [Khôi phục DOCX bị hỏng – Mở & Tải tài liệu Word](./recover-corrupted-docx-open-load-word-document/)
 Hướng dẫn khôi phục và mở các tệp DOCX bị hỏng bằng Aspose.Words cho Python-net.
 
+### [Cách khôi phục tệp DOCX trong Python – Tải tài liệu với chế độ khôi phục bằng Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Hướng dẫn cách khôi phục và mở các tệp DOCX bị hỏng trong Python bằng Aspose.Words với tính năng LoadOptions.Recover.
+
+### [Khôi phục DOCX bị hỏng – Hướng dẫn toàn diện sử dụng Aspose.Words cho Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words trong Python, bao gồm các tùy chọn và ví dụ thực tế.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)

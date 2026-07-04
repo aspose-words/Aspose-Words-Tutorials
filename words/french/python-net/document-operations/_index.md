@@ -60,6 +60,12 @@ Apprenez à convertir des documents Word au format PostScript avec Aspose.Words 
 ### [Récupérer un DOCX corrompu – Ouvrir et charger le document Word](./recover-corrupted-docx-open-load-word-document/)
 Apprenez à récupérer et ouvrir des fichiers DOCX corrompus avec Aspose.Words pour Python-net.
 
+### [Comment récupérer des fichiers DOCX en Python – Charger le document avec récupération à l'aide d'Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Apprenez à récupérer des fichiers DOCX corrompus en chargeant le document avec les options de récupération d'Aspose.Words pour Python.
+
+### [Récupérer un DOCX corrompu – Guide complet avec Aspose.Words pour Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Apprenez à restaurer des fichiers DOCX corrompus grâce à Aspose.Words pour Python, avec des étapes détaillées et du code prêt à l'emploi.
+
 ## Ressources supplémentaires
 
 - [Aspose.Words pour la documentation Python-net](https://docs.aspose.com/words/python-net/)

@@ -37,6 +37,9 @@ Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğini
 ### [C#'ta Gölge Ekleme – Tam Programlama Kılavuzu](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.
 
+### [Python'da Gölgelendirilmiş Dikdörtgen ile Belge Kaydetme – Tam Python Kılavuzu](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Python kullanarak gölgelendirilmiş bir dikdörtgen ekleyerek Word belgesini kaydetmeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)
