@@ -98,17 +98,29 @@ weight: 22
 ### [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
 
+### [حفظ Word كملف Markdown في Java – دليل شامل](./save-word-as-markdown-in-java-complete-guide/)
+دليل شامل لحفظ مستندات Word كملفات Markdown باستخدام Aspose.Words for Java.
+
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
 
+### [حفظ المستند كملف PDF – دليل كامل لـ Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+دليل شامل لحفظ المستند كملف PDF باستخدام Aspose.Words for Java مع أمثلة خطوة بخطوة.
+
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [إنشاء PDF UA باستخدام Aspose.Words – دليل شامل](./create-pdf-ua-with-aspose-words-complete-guide/)
+دليل كامل لإنشاء ملفات PDF مع دعم اللغة العربية (UA) باستخدام Aspose.Words في Java.
+
+### [تعيين عدد الصفحات لكل ورقة في تحويل Word إلى PNG – دليل شامل](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+دليل شامل لتعيين عدد الصفحات لكل ورقة عند تحويل مستند Word إلى صور PNG باستخدام Aspose.Words.
 
 ## الأسئلة المتكررة
 

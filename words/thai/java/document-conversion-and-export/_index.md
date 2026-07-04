@@ -103,6 +103,18 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
 
+### [สร้าง PDF UA ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./create-pdf-ua-with-aspose-words-complete-guide/)
+เรียนรู้วิธีสร้าง PDF ที่เป็นไปตามมาตรฐาน PDF/UA ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+
+### [บันทึกเอกสารเป็น PDF – คู่มือ Aspose.Words ฉบับสมบูรณ์](./save-document-as-pdf-complete-aspose-words-guide/)
+เรียนรู้วิธีบันทึกเอกสารเป็น PDF อย่างละเอียดด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+
+### [บันทึก Word เป็น Markdown ใน Java – คู่มือฉบับสมบูรณ์](./save-word-as-markdown-in-java-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+
+### [ตั้งค่าหน้าต่อแผ่นในการแปลง Word เป็น PNG – คู่มือฉบับสมบูรณ์](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+เรียนรู้วิธีตั้งค่าหน้าต่อแผ่นเมื่อแปลงไฟล์ Word เป็น PNG ด้วย Aspose.Words for Java อย่างละเอียด
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันจะเพิ่มลายน้ำให้กับ PDF ที่มีอยู่โดยใช้ Aspose.Words อย่างไร?**  

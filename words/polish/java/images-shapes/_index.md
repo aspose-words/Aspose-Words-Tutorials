@@ -37,6 +37,9 @@ Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestan
 ### [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
+### [Zapisz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./save-word-document-add-rectangle-shape-shadow-in-java/)
+Dowiedz się, jak zapisać dokument Word, dodając prostokątny kształt z efektem cienia przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

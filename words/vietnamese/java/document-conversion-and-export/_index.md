@@ -91,8 +91,17 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu c
 ### [Aspose.Words to PDF – Chuyển DOCX sang PDF trong Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose.Words for Java trong một dòng mã.
 
+### [Lưu Tài Liệu dưới dạng PDF – Hướng Dẫn Toàn Diện Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words, bao gồm tùy chọn chất lượng và bảo mật.
+
+### [Đặt Số Trang Trên Mỗi Sheet Khi Chuyển Đổi Word sang PNG – Hướng Dẫn Toàn Diện](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Hướng dẫn chi tiết cách thiết lập số trang trên mỗi sheet khi chuyển đổi tài liệu Word sang PNG bằng Aspose.Words for Java.
+
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
+
+### [Lưu Word dưới dạng Markdown trong Java – Hướng Dẫn Toàn Diện](./save-word-as-markdown-in-java-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java, bao gồm tùy chọn xuất công thức và hình ảnh.
 
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
@@ -102,6 +111,9 @@ Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình ch
 
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Tạo PDF/UA với Aspose.Words for Java – Hướng Dẫn Toàn Diện](./create-pdf-ua-with-aspose-words-complete-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/UA tuân thủ tiêu chuẩn truy cập bằng Aspose.Words for Java.
 
 ## Câu hỏi thường gặp
 

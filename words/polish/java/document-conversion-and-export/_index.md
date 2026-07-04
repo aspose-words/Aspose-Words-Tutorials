@@ -90,6 +90,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania matematyczne jako LaTeX przy użyciu biblioteki Aspose.Words dla Javy.
 
+### [Zapisz dokument Word jako Markdown w Javie – Kompletny przewodnik](./save-word-as-markdown-in-java-complete-guide/)
+Dowiedz się, jak konwertować pliki Word do formatu Markdown w Javie przy użyciu Aspose.Words, z pełnym przykładem kodu.
+
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
 
@@ -99,8 +102,17 @@ Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując rów
 ### [Aspose.Words do PDF – konwertuj DOCX do PDF w Javie](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy użyciu biblioteki Aspose.Words.
 
+### [Zapisz dokument jako PDF – kompletny przewodnik Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Dowiedz się, jak zapisać dokument jako PDF przy użyciu Aspose.Words, z pełnym opisem i przykładami kodu.
+
+### [Tworzenie PDF UA przy użyciu Aspose.Words – Kompletny przewodnik](./create-pdf-ua-with-aspose-words-complete-guide/)
+Dowiedz się, jak wygenerować dokument PDF zgodny z UA przy użyciu Aspose.Words w Javie, krok po kroku z przykładami kodu.
+
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
+
+### [Ustaw liczbę stron na arkusz przy konwersji Word do PNG – Kompletny przewodnik](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Dowiedz się, jak ustawić liczbę stron na arkusz podczas konwersji dokumentu Word do formatu PNG przy użyciu Aspose.Words.
 
 ## Najczęściej zadawane pytania
 
