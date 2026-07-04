@@ -23,6 +23,7 @@
 | [Математические уравнения](./math-equations/) | Узнайте, как настраивать математические уравнения в документах Word с помощью Aspose.Words для .NET. Пошаговое руководство с примерами, часто задаваемыми вопросами и многим другим. |
 | [Сохранить docx как txt – экспортировать Word Math в LaTeX с C#](./save-docx-as-txt-export-word-math-to-latex-with-c/) | Узнайте, как экспортировать математические уравнения из docx в LaTeX, сохранив документ как txt, используя Aspose.Words для .NET и C#. |
 | [Сохранить документ как Txt – Экспортировать математические формулы Word в LaTeX на C#](./save-document-as-txt-export-word-math-to-latex-in-c/) | Узнайте, как сохранять документ в формате txt и экспортировать формулы Word в LaTeX с помощью C#. |
+| [Сохранить Office Math в LaTeX – экспортировать уравнения Word в LaTeX на C#](./save-office-math-latex-export-word-equations-to-latex-in-c/) | Узнайте, как экспортировать уравнения Office Math из Word в LaTeX с помощью C# и Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

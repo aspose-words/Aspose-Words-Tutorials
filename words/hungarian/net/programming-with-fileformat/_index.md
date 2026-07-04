@@ -27,7 +27,7 @@ Akár jelentéseket kell generálnod, akár egyéni dokumentumokat kell létreho
 | [Dokumentumfájl formátumának észlelése](./detect-file-format/) | Tanulja meg, hogyan ismerheti fel a dokumentumfájl-formátumokat az Aspose.Words for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval. |
 | [Digitális aláírás észlelése Word dokumentumban](./detect-document-signatures/) | Tanulja meg, hogyan észlelheti a digitális aláírásokat Word-dokumentumokban az Aspose.Words for .NET segítségével lépésről lépésre bemutató útmutatónkkal. |
 | [Titkosított Word-dokumentum ellenőrzése](./verify-encrypted-document/) | Tanulja meg, hogyan ellenőrizheti egy Word-dokumentum titkosítási állapotát az Aspose.Words for .NET használatával ebből a lépésenkénti útmutatóból. |
-
+| [DOCX helyreállítása – Lépésről lépésre útmutató sérült fájlokhoz](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Tanulja meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

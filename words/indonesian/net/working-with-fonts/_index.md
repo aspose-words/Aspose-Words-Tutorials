@@ -50,6 +50,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Contoh Sumber Font Steam Sumber Daya](./resource-steam-font-source-example/) | Pelajari cara menggunakan Resource Stream Font Source untuk memuat font kustom ke Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Dapatkan Substitusi Tanpa Sufiks](./get-substitution-without-suffixes/) | Dalam tutorial ini, pelajari cara mendapatkan penggantian tanpa sufiks dalam dokumen Word dengan Aspose.Words untuk .NET. |
 | [Cara Mendeteksi Font di Aspose.Words – Menangani Peringatan & Pengaturan](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Pelajari cara mendeteksi font, menangani peringatan, dan mengatur pengaturan font dalam Aspose.Words untuk .NET. |
+| [Cara Mendeteksi Font di Aspose.Words – Panduan Lengkap](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Pelajari cara mendeteksi font dalam Aspose.Words dengan panduan lengkap langkah demi langkah. |
 | [Cara Memuat DOCX dan Mendeteksi Font yang Hilang – Panduan Lengkap C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Pelajari cara memuat file DOCX dan mendeteksi font yang hilang menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
 
 | [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Pelajari cara menangkap font yang digunakan dalam dokumen Word dengan Aspose.Words melalui panduan lengkap langkah demi langkah. |

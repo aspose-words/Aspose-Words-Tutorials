@@ -25,9 +25,9 @@ Che tu debba generare report, creare documenti personalizzati, automatizzare att
 | Titolo | Descrizione |
 | --- | --- |
 | [Rileva il formato del file del documento](./detect-file-format/) | Scopri come rilevare i formati di file dei documenti utilizzando Aspose.Words per .NET con questa guida completa e dettagliata. |
-| [Rileva la firma digitale su un documento Word](./detect-document-signatures/) | Scopri come rilevare le firme digitali nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata.
-| [Verifica documento Word crittografato](./verify-encrypted-document/) | Scopri come verificare lo stato di crittografia di un documento Word utilizzando Aspose.Words per .NET con questa guida dettagliata.
-
+| [Rileva la firma digitale su un documento Word](./detect-document-signatures/) | Scopri come rilevare le firme digitali nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata. |
+| [Verifica documento Word crittografato](./verify-encrypted-document/) | Scopri come verificare lo stato di crittografia di un documento Word utilizzando Aspose.Words per .NET con questa guida dettagliata. |
+| [Recupera file DOCX – Guida passo‑passo per file corrotti](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Scopri come recuperare documenti DOCX danneggiati passo dopo passo usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

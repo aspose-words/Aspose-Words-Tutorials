@@ -18,7 +18,7 @@
 
 Handledningar för ordbehandling med teckensnitt guidar dig genom olika aspekter av ordbehandling med teckensnitt, så att du kan utföra åtgärder som att ändra teckensnittsformatering, läsa in teckensnitt från specifika kataloger, hantera ersättningsteckensnitt och mer.
 
-Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittsrelaterade uppgifter i dina Word-dokument.
+Handledningarna ger dig detaljerade steg-för-steg-förklaringar för varje funktion, tillsammans med källkod för C#-språket som illustrerar koncepten. Du kommer att lära dig hur du använder klasser och metoder från Aspose.Words-biblioteket för .NET för att utföra specifika teckensnittrelaterade uppgifter i dina Word-dokument.
 
 Oavsett om du vill formatera text med olika teckensnitt, ange regler för teckensnittsersättning, ladda teckensnitt från specifika kataloger eller ta emot teckensnittmeddelanden, kommer handledningarna i "Ordbehandling med teckensnitt" att ge dig kunskapen för att enkelt utföra dessa uppgifter.
 
@@ -48,7 +48,8 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Få varningsmeddelande](./receive-warning-notification/) Lär dig hur du får en varningsmeddelande när du använder Aspose.Words för .NET och hanterar eventuella problem eller varningar i dina dokument. |
 | [Exempel på teckensnittskälla för resurs Steam](./resource-steam-font-source-example/) | Lär dig hur du använder teckensnittskällan Resource Stream för att läsa in anpassade teckensnitt i Aspose.Words för .NET. |
 | [Hämta substitution utan suffix](./get-substitution-without-suffixes/) | I den här handledningen lär du dig hur du får suffixlösa åsidosättningar i ett Word-dokument med Aspose.Words för .NET. |
-| [Hur man upptäcker teckensnitt i Aspose.Words – Hantera varningar och inställningar](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Lär dig hur du identifierar teckensnitt, hanterar varningsmeddelanden och justerar inställningar i Aspose.Words för .NET. |
+| [Hur man upptäcka teckensnitt i Aspose.Words – Hantera varningar och inställningar](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Lär dig hur du identifierar teckensnitt, hanterar varningsmeddelanden och justerar inställningar i Aspose.Words för .NET. |
+| [Hur man upptäcker teckensnitt i Aspose.Words – Komplett guide](./how-to-detect-fonts-in-aspose-words-complete-guide/) | Lär dig hur du identifierar alla teckensnitt i ett Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Hur man fångar teckensnitt i Aspose.Words – Komplett guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Lär dig hur du fångar teckensnitt i Aspose.Words med en komplett steg-för-steg-guide. |
 | [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#-guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Lär dig hur du laddar DOCX-filer och identifierar saknade teckensnitt med Aspose.Words för .NET i en komplett C#-guide. |
 

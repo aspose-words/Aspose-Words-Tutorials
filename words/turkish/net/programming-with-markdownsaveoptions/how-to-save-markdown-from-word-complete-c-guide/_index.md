@@ -1,27 +1,24 @@
 ---
 category: general
-date: 2026-01-05
-description: Aspose.Words kullanarak bir Word dosyasından markdown nasıl kaydedilir.
-  Word'ü markdown’a dönüştürmeyi, matematiği LaTeX olarak dışa aktarmayı ve docx’i
-  dakikalar içinde markdown olarak kaydetmeyi öğrenin.
+date: 2026-04-21
+description: Aspose.Words kullanarak bir DOCX dosyasından markdown kaydetmeyi öğrenin.
+  DOCX'i markdown'a dönüştürme ve denklemleri LaTeX olarak dışa aktarma içerir.
 draft: false
 keywords:
 - how to save markdown
+- convert docx to markdown
 - convert word to markdown
-- how to export math
-- how to convert docx
-- save docx as markdown
+- how to export equations
+- save word as markdown
 language: tr
 og_description: Aspose.Words kullanarak bir Word belgesinden markdown nasıl kaydedilir.
-  Bu adım adım öğretici, Word'ü markdown’a nasıl dönüştüreceğinizi, matematiği LaTeX
-  olarak nasıl dışa aktaracağınızı ve docx dosyasını markdown olarak nasıl kaydedeceğinizi
-  gösterir.
+  Docx'i markdown'a dönüştürme ve denklemleri dışa aktarma konularını kapsayan adım
+  adım rehber.
 og_title: Word'den Markdown Nasıl Kaydedilir – Tam C# Rehberi
 tags:
 - Aspose.Words
 - C#
-- Markdown
-- LaTeX
+- Markdown conversion
 title: Word'ten Markdown Nasıl Kaydedilir – Tam C# Rehberi
 url: /tr/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/
 ---
@@ -30,215 +27,209 @@ url: /tr/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'ten Markdown Kaydetme – Tam C# Kılavuzu
+# Word'ten Markdown Kaydetme – Tam C# Rehberi
 
-Word belgesinden **markdown nasıl kaydedilir** sorusunu hiç merak ettiniz mi, o sinir bozucu denklemleri kaybetmeden? Tek başınıza değilsiniz. Birçok geliştirici, özellikle statik‑site jeneratörleri veya dokümantasyon boru hatları için Office Math'i LaTeX olarak korurken **word'u markdown'a dönüştürmek** gerektiğinde bir duvara çarpıyor.
+Hiç **markdown nasıl kaydedilir** sorusunu, Word belgesindeki o sinir bozucu denklemleri kaybetmeden merak ettiniz mi? Tek başınıza değilsiniz. Birçok projede—belgelendirme siteleri, statik bloglar ya da dahili wiki'ler—geliştiriciler DOCX dosyalarını markdown'a dönüştürürken matematiği korumak zorunda kalıyor. İyi haber? Aspose.Words ile bunu sadece birkaç C# satırıyla yapabilirsiniz.
 
-Bu öğreticide, **markdown nasıl kaydedilir**, **matematik nasıl dışa aktarılır** ve hatta **docx'i markdown olarak kaydetme** gibi konuları adım adım gösteren temiz, uçtan uca bir çözüm üzerinden geçeceğiz. Sonunda, `input.docx` dosyasını alıp mükemmel biçimlendirilmiş bir `output.md` dosyası üreten, LaTeX ile sarmalanmış denklemler içeren, çalıştırmaya hazır bir C# kod parçacığına sahip olacaksınız.
+Bu öğreticide **docx'i markdown'a dönüştürme** adımlarını adım adım gösterecek, **denklemleri LaTeX olarak dışa aktarma** yöntemini anlatacak ve statik‑site jeneratörüne doğrudan besleyebileceğiniz temiz bir `.md` dosyası elde edeceksiniz. Harici betikler, manuel kopyala‑yapıştır yok—sadece saf kod.
 
-> **Neler Öğreneceksiniz**
-> * Aspose.Words for .NET'i kurun ve referans verin.  
-> * Bir DOCX dosyası yükleyin (evet, **docx nasıl dönüştürülür**).  
-> * `MarkdownSaveOptions`'ı Office Math'i LaTeX olarak dışa aktarmak için yapılandırın.  
-> * Sonucu bir Markdown dosyası olarak kaydedin (**markdown nasıl kaydedilir**'in özü).  
-> * Yaygın sorunları ele alın—eksik yazı tipleri, desteklenmeyen denklemler ve büyük belgeler.
+## Neler Öğreneceksiniz
 
-Süs yok, sadece bugün işe başlamanız için ihtiyacınız olan gerçekler.
+- Gereksinimler ve ihtiyacınız olan NuGet paketleri.
+- C# içinde bir Word belgesini (`.docx`) nasıl yüklersiniz.
+- Denklemlerin LaTeX (`denklemleri dışa aktarma`) olmasını sağlayacak `MarkdownSaveOptions` yapılandırması.
+- Sonucu bir markdown dosyası olarak kaydetme (`word'ü markdown olarak kaydet`).
+- **word'u markdown'a dönüştürürken** sıkça karşılaşılan tuzaklar ve bunlardan nasıl kaçınılacağı.
+
+Bu rehberin sonunda, herhangi bir Word dosyasını mükemmel render edilmiş denklemlerle markdown'a dönüştüren, çalıştırmaya hazır bir konsol uygulamanız olacak.
 
 ---
 
-## Word'ten Markdown Kaydetme – Genel Bakış
+![DOCX → Aspose.Words → Markdown dosyası akışını gösteren diyagram (markdown nasıl kaydedilir örneği)](https://example.com/markdown-flow.png "markdown nasıl kaydedilir örneği")
 
-Koda dalmadan önce, bunun neden önemli olduğunu açıklayalım. Markdown, modern dokümantasyonun ortak dili, ancak Word birçok işletmede tercih edilen yazım aracıdır. Bu boşluğu kapatmak, yazarlarınızı mutlu tutarken temiz, sürüm‑kontrollü Markdown'u statik site jeneratörlerine, Git‑tabanlı wiki'lere veya CI boru hatlarına besleyebileceğiniz anlamına gelir. Anahtar, **matematik nasıl dışa aktarılır** sorusunun doğru yanıtıdır; düz metin denklemlerin yapısını kaybeder, ancak LaTeX onları okunabilir ve renderlanabilir tutar.
+## Gereksinimler
 
-## Önkoşullar
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- **.NET 6.0** veya daha yenisi (API, .NET Core ve .NET Framework'te aynı şekilde çalışır).  
-- **Aspose.Words for .NET** – ücretsiz deneme sürümünü Aspose web sitesinden alabilir veya bir NuGet paketi kullanabilirsiniz: `Install-Package Aspose.Words`.  
-- En az bir Office Math nesnesi içeren bir **Word belgesi** (`.docx`).  
-- Seçtiğiniz bir IDE (Visual Studio, Rider veya VS Code).  
+- .NET 6.0 SDK veya daha yeni bir sürüm (kod .NET Framework ile de çalışır, ancak .NET 6 önerilir).
+- Visual Studio 2022 veya C# uzantılı VS Code.
+- Aktif bir **Aspose.Words for .NET** lisansı (ücretsiz deneme ile başlayabilirsiniz; API lisanssız çalışır ancak filigran ekler).
+- En az bir denklemi içeren bir örnek Word belgesi (`input.docx`)—tercihen bir OfficeMath nesnesi.
 
-Hepsi bu—ekstra kütüphane yok, karmaşık komut‑satırı araçları da yok.
+Bu maddeler size yabancı geliyorsa panik yapmayın. NuGet paketini kurmak sadece şu komutu çalıştırmak kadar kolay:
 
-## Adım 1: Aspose.Words'i Kurun ve Using Direktiflerini Ekleyin
-
-İlk olarak, Aspose.Words derlemesinin referans verildiğinden emin olun. Package Manager Console'da şu komutu çalıştırın:
-
-```powershell
-Install-Package Aspose.Words
+```bash
+dotnet add package Aspose.Words
 ```
 
-Ardından C# dosyanızın en üstüne gerekli `using` ifadelerini ekleyin:
+Şimdi hazırız, işe koyulalım.
+
+## Adım 1: Kaynak Word Belgesini Yükleyin
+
+İlk yapmanız gereken DOCX dosyasını belleğe almak. Bu, herhangi bir **docx'i markdown'a dönüştürme** işleminin temelidir.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+
+// Replace with the actual path on your machine
+string inputPath = @"C:\Projects\MarkdownExport\input.docx";
+
+// Load the document
+Document document = new Document(inputPath);
 ```
 
-**Pro tip:** Belirli bir platformu hedefliyorsanız (ör. Linux konteynerleri), doğru yerel ikili dosyaları çekmek için `-Runtime` anahtarını kullanın.
+> **Neden önemli:** `Document`, Aspose.Words’ün temel nesne modelidir. Word dosyasını ayrıştırır, stilleri çözer ve kaydedicinin daha sonra markdown’a çevirebileceği içsel bir temsil oluşturur. Bu adımı atlamak ya da yanlış bir yol vermek `FileNotFoundException` hatasına yol açar.
 
-## Adım 2: Dönüştürmek İstediğiniz DOCX'i Yükleyin (DOCX Nasıl Dönüştürülür)
+## Adım 2: Markdown Kaydetme Seçeneklerini Yapılandırın (Denklikleri LaTeX Olarak Dışa Aktarın)
 
-Şimdi aslında **docx'i** bellekte bir `Document` nesnesine dönüştürüyoruz. Bu adım, Aspose.Words'e hangi dosyayı okuyacağını söylediğiniz yerdir.
-
-```csharp
-// Replace the path with your actual file location
-string inputPath = @"C:\Projects\Docs\input.docx";
-
-Document doc = new Document(inputPath);
-```
-
-Dosyayı neden bellekte tutuyoruz? Çünkü diske bir şey yazmadan önce kaydetme seçeneklerini (ör. **matematik nasıl dışa aktarılır**) ayarlamamıza izin verir. Ayrıca geçici dosyalarla uğraşmadan birden fazla dönüşümü zincirleme yapabilirsiniz (ör. DOCX → HTML → Markdown).
-
-## Adım 3: MarkdownSaveOptions'ı Yapılandırın (Word'den Markdown'a Dönüştürme ve Matematik Dışa Aktarma)
-
-İşte **markdown nasıl kaydedilir** sorusunun kalbi: bir `MarkdownSaveOptions` örneği oluşturup Office Math'i LaTeX olarak render etmesini söylüyoruz. `OfficeMathExportMode.LaTeX` enum'u tam da bunu yapar.
+Varsayılan olarak Aspose.Words markdown üretebilir, ancak denklemler zor bir konudur. Standart ayarlarla denklemler resim olarak çıkar, bu da temiz bir markdown dosyasının amacını bozar. **denklemleri dışa aktarma** işlemini LaTeX olarak yapmak için `MarkdownSaveOptions` üzerinde ince ayar yapmanız gerekir.
 
 ```csharp
-MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+// Create save options for markdown
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Export all Office Math objects as LaTeX equations
+    // This tells Aspose.Words to render OfficeMath as LaTeX
     OfficeMathExportMode = OfficeMathExportMode.LaTeX,
 
-    // Optional: preserve original line breaks for better diff‑ability
+    // Optional: keep line breaks as they appear in Word
     ExportHeadersFooters = false,
-    ExportImagesAsBase64 = true
+    ExportDocumentStructure = true
 };
 ```
 
-Birkaç not:
+> **Pro ipucu:** LaTeX’e ihtiyacınız yoksa ve PNG resimlerle yetiniyorsanız `OfficeMathExportMode = OfficeMathExportMode.Image` olarak ayarlayın. Ancak çoğu statik‑site jeneratörü için LaTeX daha temiz bir seçenektir.
 
-- **`OfficeMathExportMode.LaTeX`**, MathJax veya KaTeX'i anlayan statik site jeneratörleri için önerilen moddur.  
-- `ExportImagesAsBase64` ayarı, markdown'un kendi içinde kalmasını sağlar—görselleri ayrı olarak barındırmayan bir depoya dosyayı itmek istediğinizde kullanışlıdır.  
-- Düz Unicode matematiğe ihtiyacınız varsa, `LaTeX` yerine `Unicode` ile değiştirin.
+## Adım 3: Belgeyi Markdown Dosyası Olarak Kaydedin
 
-## Adım 4: Belgeyi Markdown Olarak Kaydedin (DOCX'i Markdown Olarak Kaydetme)
-
-Son olarak, Markdown dosyasını diske yazıyoruz. Bu, C#'ta **markdown nasıl kaydedilir** sorusunun kelimenin tam anlamıyla cevabıdır.
+Şimdi markdown’ı diske yazıyoruz. İşte **word'ü markdown olarak kaydet** adımı.
 
 ```csharp
-string outputPath = @"C:\Projects\Docs\output.md";
+// Destination path for the markdown file
+string outputPath = @"C:\Projects\MarkdownExport\output.md";
 
-doc.Save(outputPath, mdOptions);
-Console.WriteLine($"✅ Markdown saved to {outputPath}");
+// Save using the configured options
+document.Save(outputPath, markdownOptions);
+
+Console.WriteLine($"✅ Successfully saved markdown to: {outputPath}");
 ```
 
-`output.md` dosyasını açtığınızda normal Markdown sözdizimini göreceksiniz ve denklemler `$…$` (satır içi) veya `$$…$$` (görünüm) blokları içinde sarılmış olarak görünecek, MathJax renderlamaya hazır.
-
-**Beklenen çıktı snippet'i** (orijinal DOCX'in basit bir denklem `a^2 + b^2 = c^2` içerdiğini varsayarsak):
+`output.md` dosyasını açtığınızda normal markdown metni ve denklemlerin şu şekilde göründüğünü fark edeceksiniz:
 
 ```markdown
-Here is a classic Pythagorean theorem:
-
-$$a^2 + b^2 = c^2$$
+$$
+\frac{a}{b} = c
+$$
 ```
 
-Kaynak belgeniz görseller içeriyorsa, `![](...)` işaretlemesinin hemen ardından base‑64 dizeleri olarak gömülürler.
+Bu saf LaTeX, sitenizde MathJax ya da KaTeX ile kullanılmaya hazır.
 
-## Adım 5: Sonucu Doğrulayın ve Gerekirse Ayarlayın
+## Tam Çalışan Örnek
 
-Dönüştürmeden sonra, Markdown dosyasını favori düzenleyicinizde (VS Code, Typora veya hatta GitHub önizlemesi) açın. Şunları kontrol edin:
-
-1. Tüm başlıklar (`#`, `##`, vb.) orijinal Word stilleriyle eşleşiyor mu.  
-2. Denklemler doğru renderlanıyor mu—çoğu editör LaTeX kodunu gösterirken, MathJax destekli tarayıcılar biçimlendirilmiş matematiği gösterir.  
-3. Görseller beklenen yerde görünüyor mu.  
-
-Bir şey ters görünürse, `MarkdownSaveOptions`'ı ayarlayabilirsiniz:
-
-| Seçenek | Ne kontrol eder | Tipik ayar |
-|--------|------------------|---------------|
-| `ExportHeadersFooters` | Başlık/altbilgi metnini dahil eder | Gerekliyse `true` olarak ayarlayın |
-| `ExportImagesAsBase64` | Görselleri satır içi vs. dış dosyalar | `false` yapıp bir klasör yolu sağlayın |
-| `ExportTableColumnHeaders` | İlk satırı başlık olarak kabul eder | CSV‑stili tablolar için etkinleştirin |
-
-## Yaygın Tuzaklar ve Kenar Durumları (Matematik Güvenli Dışa Aktarma)
-
-### 1. Eksik Yazı Tipleri veya Semboller
-
-Word dosyası semboller için özel bir yazı tipi kullanıyorsa, Aspose.Words varsayılan bir glife geri dönebilir ve bozuk LaTeX oluşur. Çözüm? Dönüşümü yapan makinede eksik yazı tipini kurun veya yazı tipini DOCX'e gömün (`File → Options → Save → Embed fonts`).
-
-### 2. Çok Büyük Belgeler
-
-200 sayfalık bir DOCX'i işlemek bellek yoğun olabilir. Dosyayı bir kerede tamamen yüklemek yerine akış olarak işlemek için `LoadOptions` ile `LoadFormat.Docx` ve `MemoryUsageSetting` kullanmayı düşünün.
+Hepsini bir araya getirdiğimizde, yeni bir .NET projesine kopyalayıp yapıştırabileceğiniz tam konsol programı aşağıdadır:
 
 ```csharp
-LoadOptions loadOpts = new LoadOptions
-{
-    LoadFormat = LoadFormat.Docx,
-    MemoryUsageSetting = MemoryUsageSetting.MemoryOptimized
-};
-
-Document largeDoc = new Document(inputPath, loadOpts);
-```
-
-### 3. Desteklenmeyen Denklem Özellikleri
-
-Aspose.Words, Office Math'in büyük çoğunluğunu destekler, ancak birkaç yeni yapı (ör. özel sınırlayıcılarla matris parantezleri) düz metin temsiline geri dönebilir. Bu gibi durumlarda, istediğiniz LaTeX ile yer tutucuları değiştirmek için bir regex ile Markdown'u sonradan işleyebilirsiniz.
-
-## Tam Çalışan Örnek (Tüm Adımlar Tek Dosyada)
-
-Aşağıda, **markdown nasıl kaydedilir**, **docx nasıl dönüştürülür** ve **matematik nasıl dışa aktarılır** konularını tek seferde gösteren, tamamen kopyala‑yapıştır hazır bir program bulunmaktadır.
-
-```csharp
-// ------------------------------------------------------------
-// How to Save Markdown from Word – Complete Example
-// ------------------------------------------------------------
 using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
+namespace WordToMarkdown
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Define input and output paths
-        string inputPath = @"C:\Projects\Docs\input.docx";
-        string outputPath = @"C:\Projects\Docs\output.md";
-
-        // 2️⃣ Load the DOCX (how to convert docx)
-        Document doc = new Document(inputPath);
-
-        // 3️⃣ Prepare Markdown options (convert word to markdown + how to export math)
-        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+        static void Main(string[] args)
         {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-            ExportHeadersFooters = false,
-            ExportImagesAsBase64 = true,
-            ExportTableColumnHeaders = true
-        };
+            // -------------------------------------------------
+            // 1️⃣ Load the source Word document (convert docx to markdown)
+            // -------------------------------------------------
+            string inputPath = @"C:\Projects\MarkdownExport\input.docx";
+            Document document = new Document(inputPath);
 
-        // 4️⃣ Save as Markdown (save docx as markdown)
-        doc.Save(outputPath, mdOptions);
+            // -------------------------------------------------
+            // 2️⃣ Configure markdown options (how to export equations)
+            // -------------------------------------------------
+            MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+            {
+                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+                ExportHeadersFooters = false,
+                ExportDocumentStructure = true
+            };
 
-        Console.WriteLine($"✅ Successfully saved Markdown to: {outputPath}");
+            // -------------------------------------------------
+            // 3️⃣ Save as .md (save word as markdown)
+            // -------------------------------------------------
+            string outputPath = @"C:\Projects\MarkdownExport\output.md";
+            document.Save(outputPath, markdownOptions);
+
+            Console.WriteLine($"✅ Markdown file created at: {outputPath}");
+        }
     }
 }
 ```
 
-Programı çalıştırın (`dotnet run` .NET CLI kullanıyorsanız) ve `output.md` dosyasını kontrol edin. Statik site jeneratörleri için hazır, LaTeX denklemleri içeren temiz bir Markdown görmelisiniz.
+### Beklenen Sonuç
 
-## Bonus: Birden Çok Dosya İçin İşlemi Otomatikleştirme
+- **`output.md`** düz markdown içerir.
+- Tüm OfficeMath nesneleri LaTeX blokları olarak render edilir.
+- Görseller, tablolar ve listeler eksiksiz bir şekilde yeniden oluşturulur.
 
-Eğer bir klasörde bir sürü Word dosyanız varsa, yukarıdaki mantığı basit bir döngüye sarın:
+LaTeX destekleyen bir markdown görüntüleyicide (ör. *Markdown+Math* uzantılı VS Code) dosyayı açın; denklemlerin güzelce render edildiğini göreceksiniz.
+
+## Sık Sorulan Sorular & Özel Durumlar
+
+### DOCX dosyamda denklem yoksa ne olur?
+
+`OfficeMathExportMode` ayarı göz ardı edilir ve kaydedici normal bir markdown dışa aktarımı yapar. Yine de temiz bir `.md` dosyası elde edersiniz.
+
+### Özel stiller nasıl ele alınır?
+
+Aspose.Words, Word’ün yerleşik stillerini kutudan çıkar çıkmaz destekler. Özel stiller için dışa aktardıktan sonra manuel haritalama yapmanız ya da `MarkdownSaveOptions` içinde `CustomStyles` ayarlamanız gerekebilir (bu rehberin ötesinde daha ileri bir konudur).
+
+### Birden fazla dosyayı toplu olarak dönüştürebilir miyim?
+
+Kesinlikle. Yükleme/kaydetme mantığını bir dizindeki `.docx` dosyaları üzerinde `foreach` döngüsüyle sarın. Her çıktıya benzersiz bir ad vermeyi unutmayın; örneğin `Path.GetFileNameWithoutExtension` kullanabilirsiniz.
 
 ```csharp
-string sourceFolder = @"C:\Projects\Docs\WordFiles";
-string targetFolder = @"C:\Projects\Docs\Markdown";
-
-foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
+foreach (var file in Directory.GetFiles(@"C:\Docs\", "*.docx"))
 {
-    string outFile = Path.Combine(targetFolder,
-        Path.GetFileNameWithoutExtension(file) + ".md");
-
     Document doc = new Document(file);
-    doc.Save(outFile, mdOptions);
-    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(outFile)}");
+    string mdPath = Path.ChangeExtension(file, ".md");
+    doc.Save(mdPath, markdownOptions);
 }
 ```
 
-## Sonuç
+### Linux/macOS üzerinde çalışır mı?
 
-Word belgesinden Aspose.Words for .NET kullanarak **markdown nasıl kaydedilir** konusunda bilmeniz gereken her şeyi ele aldık. Yukarıdaki adımları izleyerek **dönüştürebilirsiniz**.
+Evet. Aspose.Words çapraz platformdur ve aynı kod .NET 6 altında Linux ya da macOS’ta da çalışır. Dosya yollarını ileri eğik çizgi (`/`) ya da `Path.Combine` ile ayarlamayı unutmayın.
+
+### Büyük belgeler (yüzlerce sayfa) nasıl yönetilir?
+
+Kütüphane belgeyi akış olarak işler, bu yüzden bellek kullanımı makul seviyelerde kalır. Ancak çok büyük dosyalar birkaç saniye sürebilir—bu da basit bir ilerleme göstergesiyle rahatlıkla yönetilebilir.
+
+## Alandan İpuçları ve Püf Noktaları
+
+- **Pro ipucu:** `ExportHeadersFooters` özelliğini kapatın; böylece başlık/altbilgi metni markdown’da dağınık olmaz.  
+- **Dikkat:** Denklemlerde gömülü fontlar. LaTeX çıktısı garip görünüyorsa, orijinal Word denkleminin standart semboller kullandığından emin olun.  
+- **Genellikle:** Varsayılan `ExportDocumentStructure` bayrağı başlık hiyerarşisini (`#`, `##`, vb.) korur, bu da markdown’ınızı içerik tablosu üretimine hazır hâle getirir.  
+- **Sıklıkla:** Dönüştürmeden sonra *markdownlint* gibi bir linter çalıştırarak gereksiz boşlukları ya da tutarsız başlık seviyelerini yakalayın.
+
+## Sonraki Adımlar
+
+Artık **markdown nasıl kaydedilir** konusunu bildiğinize göre şunları keşfedebilirsiniz:
+
+- Tüm dokümantasyon deposu için **docx'i markdown'a dönüştürme** (toplu işleme).  
+- Dönüşümü bir CI boru hattına entegre ederek her PR’da markdown kaynaklarını otomatik güncelleyin.  
+- `HtmlSaveOptions` gibi diğer Aspose.Words kaydetme seçeneklerini kullanarak hibrit HTML/markdown akışları oluşturun.  
+
+Daha ileri senaryolar—yorumları koruma, izlenen değişiklikleri işleme ya da görsel yönetimini özelleştirme—ilginizi çekiyorsa Aspose’un resmi dokümantasyonuna ya da topluluk forumlarına göz atın. Burada, burada ele aldıklarımızı tamamlayan pek çok örnek bulacaksınız.
+
+---
+
+### TL;DR
+
+Basit bir C# kod parçacığıyla **word'u markdown'a dönüştürme**, **denklemleri LaTeX olarak dışa aktarma** ve sonunda **word'ü markdown olarak kaydet** işlemlerini gösterdik. Yalnızca üç adım—yükle, yapılandır, kaydet—ile herhangi bir DOCX dosyasını statik‑site jeneratörlerine hazır, temiz markdown’a otomatik olarak dönüştürebilirsiniz.
+
+Deneyin, seçenekleri zevkinize göre ayarlayın ve markdown akışını başlatın. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

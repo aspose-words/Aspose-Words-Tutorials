@@ -33,20 +33,24 @@ Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteer
 
 ### [Docx naar markdown converteren – Stapsgewijze C#-gids](./convert-docx-to-markdown-step-by-step-c-guide/)
 
+### [DOCX naar Markdown converteren – Complete gids voor het exporteren van Word naar Markdown](./convert-docx-to-markdown-complete-guide-to-export-word-to-ma/)
+Leer hoe u DOCX-bestanden naar Markdown exporteert met een volledige stap‑voor‑stap handleiding.
+
 ### [Hoe Markdown op te slaan vanuit Word – Complete C#-gids](./how-to-save-markdown-from-word-complete-c-guide/)
 
 ### [Hoe Markdown op te slaan vanuit Word – Complete gids](./how-to-save-markdown-from-word-complete-guide/)
 Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#‑handleiding.
 
+### [Hoe Markdown op te slaan vanuit Word – Complete gids om afbeeldingen te extraheren en DOCX te converteren](./how-to-save-markdown-from-word-complete-guide-to-extract-ima/)
+Leer hoe u Markdown opslaat, afbeeldingen extraheert en DOCX converteert met een volledige C#‑handleiding.
+
 ### [Docx opslaan als markdown – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
-
 Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-
-Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#-handleiding.
+Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#‑handleiding.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 

@@ -27,6 +27,7 @@ Ob Sie Berichte generieren, benutzerdefinierte Dokumente erstellen, Word-Dokumen
 | [Dokumentdateiformat erkennen](./detect-file-format/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie Dokumentdateiformate mit Aspose.Words für .NET erkennen. |
 | [Digitale Signatur in Word-Dokument erkennen](./detect-document-signatures/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET digitale Signaturen in Word-Dokumenten erkennen. |
 | [Verschlüsseltes Word-Dokument überprüfen](./verify-encrypted-document/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie den Verschlüsselungsstatus eines Word-Dokuments mit Aspose.Words für .NET überprüfen. |
+| [Wie man DOCX wiederherstellt – Schritt‑für‑Schritt‑Anleitung für beschädigte Dateien](./how-to-recover-docx-step-by-step-guide-for-corrupted-files/) | Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für .NET Schritt für Schritt wiederherstellen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
