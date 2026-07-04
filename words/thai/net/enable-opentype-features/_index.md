@@ -21,7 +21,7 @@
 | ชื่อเรื่อง | คำอธิบาย |
 -
 - [คุณสมบัติประเภทเปิด](./open-type-features/) | เรียนรู้วิธีเปิดใช้งานคุณลักษณะ OpenType ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-
+- [ใช้ฟอนต์น้ำหนักแปรผันใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./use-variable-weight-font-in-c-complete-programming-guide/) | เรียนรู้วิธีใช้ฟอนต์น้ำหนักแปรผันใน C# ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

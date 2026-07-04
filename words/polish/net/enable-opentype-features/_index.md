@@ -20,8 +20,8 @@ Dowiedz się, jak włączyć funkcje OpenType w dokumentach Word za pomocą Aspo
  ## Samouczki
 | Tytuł | Opis |
 | --- | --- |
-| [Funkcje typu Open](./open-type-features/) | Dowiedz się, jak włączyć funkcje OpenType w dokumentach programu Word przy użyciu Aspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku. |
-
+| [Funkcje typu Open](./open-type-features/) | Dowiedz się, jak włączyć funkcje OpenType w dokumentach programu Word przy użyciu AspAspose.Words dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku. |
+| [Użyj czcionki o zmiennej grubości w C# – Kompletny przewodnik programistyczny](./use-variable-weight-font-in-c-complete-programming-guide/) | Dowiedz się, jak używać czcionek o zmiennej grubości w C# z Aspose.Words, korzystając z kompletnego przewodnika programistycznego. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

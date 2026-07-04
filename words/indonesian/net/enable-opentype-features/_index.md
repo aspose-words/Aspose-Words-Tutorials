@@ -21,7 +21,7 @@ Pelajari cara mengaktifkan fitur OpenType di dokumen Word Anda dengan Aspose.Wor
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Fitur Tipe Terbuka](./open-type-features/) | Pelajari cara mengaktifkan fitur OpenType dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini. |
-
+| [Gunakan Font Berat Variabel di C# – Panduan Pemrograman Lengkap](./use-variable-weight-font-in-c-complete-programming-guide/) | Pelajari cara menggunakan font dengan berat variabel di C# menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Memulihkan DOCX – Mengatur Mode Pemulihan & Membuka File Word yang Rusak](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Pelajari cara memulihkan file DOCX dengan mengatur mode pemulihan dan membuka file Word yang rusak menggunakan Aspose.Words. |
 | [Cara Menggunakan LoadOptions di Aspose.Words – Panduan Lengkap](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Panduan lengkap untuk menggunakan LoadOptions dalam Aspose.Words, termasuk contoh kode dan tips konfigurasi. |
 | [Pulihkan Dokumen Rusak di C# – Atur Mode Pemulihan & Tampilkan Prompt Pengguna](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Pelajari cara memulihkan dokumen yang rusak menggunakan Aspose.Words di C# dengan mengatur mode pemulihan dan menampilkan prompt kepada pengguna. |
+| [Pulihkan File Word Rusak – Panduan Lengkap Mengatur Mode Pemulihan](./recover-damaged-word-file-complete-guide-to-setting-recovery/) | Pelajari cara mengatur mode pemulihan untuk membuka file Word yang rusak dengan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

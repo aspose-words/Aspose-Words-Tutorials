@@ -42,6 +42,8 @@
 | [Πώς να εξάγετε LaTeX: Μετατροπή DOCX σε Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Μάθετε πώς να εξάγετε LaTeX, μετατρέποντας αρχεία DOCX σε μορφές Markdown και TXT με Aspose.Words για .NET. |
 | [Πώς να μετονομάσετε εικόνες κατά τη μετατροπή DOCX σε Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Μάθετε πώς να μετονομάσετε εικόνες κατά τη μετατροπή DOCX σε Markdown χρησιμοποιώντας Aspose.Words για .NET. |
 | [Αποθήκευση docx ως markdown με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown χρησιμοποιώντας Aspose.Words με πλήρη οδηγό C#. |
+| [Αποθήκευση docx ως markdown – Πλήρης Οδηγός C# με Εξαγωγή Εικόνων](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως markdown με πλήρη οδηγό C# και εξαγωγή εικόνων. |
+| [Μετατροπή docx σε markdown με C# – Πλήρης Οδηγός](./convert-docx-to-markdown-with-c-complete-guide/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown με C# σε πλήρη βήμα‑βήμα οδηγό. |
 | [Αποθήκευση εικόνων Word – Μετατροπή Word σε Markdown με Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) | Μάθετε πώς να αποθηκεύσετε εικόνες από έγγραφα Word και να τα μετατρέψετε σε Markdown με Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

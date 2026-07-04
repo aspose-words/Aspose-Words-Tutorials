@@ -20,8 +20,8 @@ Aspose.Words for .NET ile Word belgelerinizde OpenType özelliklerini nasıl etk
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
-| [Açık Tip Özellikleri](./open-type-features/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde OpenType özelliklerinin nasıl etkinleştirileceğini öğrenin.
-
+| [Açık Tip Özellikleri](./open-type-features/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word belgelerinde OpenType özelliklerinin nasıl etkinleştirileceğini öğrenin. |
+| [C#'ta Değişken Ağırlıklı Yazı Tipi Kullanımı – Tam Programlama Rehberi](./use-variable-weight-font-in-c-complete-programming-guide/) | Aspose.Words for .NET ile C# içinde değişken ağırlıklı yazı tiplerini nasıl kullanacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

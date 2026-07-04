@@ -29,6 +29,7 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Gebruik spatieteken per niveau voor lijstinspringing](./use-space-character-per-level-for-list-indentation/) | Leer hoe u lijsten met meerdere niveaus met spatie-inspringing maakt in Aspose.Words voor .NET. Stapsgewijze handleiding voor nauwkeurige documentopmaak. |
 | [Document opslaan als TXT – Complete C#-gids om DOCX naar platte tekst te converteren](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Leer hoe u een DOCX-document naar platte tekst converteert met C# en Aspose.Words. |
 | [Docx opslaan als txt – Snelle gids voor C#-ontwikkelaars](./save-docx-as-txt-quick-guide-for-c-developers/) | Leer hoe u een DOCX-bestand snel omzet naar een TXT-bestand met C# en Aspose.Words, inclusief belangrijke opties en voorbeeldcode. |
+| [Maak txt van document in C# – Exporteer vergelijkingen naar LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | Leer hoe u vergelijkingen uit een Word-document exporteert naar LaTeX bij het opslaan als txt met C# en Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

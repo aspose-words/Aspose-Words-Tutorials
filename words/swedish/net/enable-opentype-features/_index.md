@@ -21,7 +21,7 @@ Lär dig hur du aktiverar OpenType-funktioner i dina Word-dokument med Aspose.Wo
 | Titel | Beskrivning |
 | --- | --- |
 | [Funktioner för öppen typ](./open-type-features/) | Lär dig hur du aktiverar OpenType-funktioner i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
-
+| [Använd variabelvikt-typsnitt i C# – Komplett programmeringsguide](./use-variable-weight-font-in-c-complete-programming-guide/) | Lär dig hur du använder variabelvikt-typsnitt i C# med en komplett programmeringsguide för Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

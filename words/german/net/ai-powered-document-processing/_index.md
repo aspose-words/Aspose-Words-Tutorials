@@ -42,6 +42,7 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [Word-Dokument in C# mit einem benutzerdefinierten GPT-Modell zusammenfassen – Vollständige Anleitung](./summarize-word-document-in-c-using-a-custom-gpt-model-full-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET und einem eigenen GPT-Modell Word-Dokumente in C# automatisch zusammenfassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

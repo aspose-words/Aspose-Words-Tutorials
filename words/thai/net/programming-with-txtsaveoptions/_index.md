@@ -29,6 +29,7 @@
 | [ใช้ช่องว่างต่อระดับสำหรับการเยื้องรายการ](./use-space-character-per-level-for-list-indentation/) | เรียนรู้วิธีการสร้างรายการหลายระดับพร้อมการเยื้องอักขระช่องว่างใน Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการจัดรูปแบบเอกสารอย่างแม่นยำ |
 - [บันทึกเอกสารเป็น TXT – คู่มือ C# ฉบับสมบูรณ์เพื่อแปลง DOCX เป็นข้อความธรรมดา](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็นไฟล์ข้อความ TXT ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
 | [บันทึก docx เป็น txt – คู่มือด่วนสำหรับนักพัฒนา C#](./save-docx-as-txt-quick-guide-for-c-developers/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt อย่างรวดเร็วสำหรับนักพัฒนา C# ด้วย Aspose.Words |
+- [สร้างไฟล์ txt จากเอกสารใน C# – ส่งออกสมการเป็น LaTeX](./create-txt-from-document-in-c-export-equations-to-latex/) | เรียนรู้วิธีสร้างไฟล์ txt จากเอกสาร Word ด้วย C# และแปลงสมการเป็น LaTeX ด้วย Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

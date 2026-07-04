@@ -35,7 +35,7 @@ Belirli kelimeleri değiştirmeniz, metin şablonlarını güncellemeniz veya Wo
 | [Değiştirme Modelleri İçindeki Yer Değiştirmeleri Tanıyın ve Değiştirin](./recognize-and-substitutions-within-replacement-patterns/) | Aspose.Words for .NET kullanarak değiştirme desenleri içindeki metni nasıl tanıyacağınızı ve değiştireceğinizi öğrenin. Ayrıntılı örneklerle adım adım kılavuz. |
 | [Dize ile Değiştir](./replace-with-string/) | Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak Word belgelerindeki dizeleri nasıl değiştireceğinizi öğrenin. Belge düzenlemeyi otomatikleştirmek isteyen geliştiriciler için mükemmeldir. |
 | [Tablodaki Metni Değiştir](./replace-text-in-table/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET'i kullanarak Word tablosundaki metni zahmetsizce değiştirin. |
-
+| [C# ile docx içinde metni değiştir – Tam Adım Adım Kılavuz](./replace-text-in-docx-with-c-full-step-by-step-guide/) | C# ve Aspose.Words for .NET kullanarak docx dosyalarında metni adım adım nasıl değiştireceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

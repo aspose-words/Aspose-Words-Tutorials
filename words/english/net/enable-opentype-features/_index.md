@@ -22,6 +22,7 @@ Learn how to enable OpenType features in your Word documents with Aspose.Words f
 | Title | Description |
 | --- | --- |
 | [Open Type Features](./open-type-features/) | Learn how to enable OpenType features in Word documents using Aspose.Words for .NET with this detailed, step-by-step guide. |
+| [Use Variable Weight Font in C# – Complete Programming Guide](./use-variable-weight-font-in-c-complete-programming-guide/) | Learn how to apply variable weight fonts in C# using Aspose.Words for .NET with this comprehensive programming guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

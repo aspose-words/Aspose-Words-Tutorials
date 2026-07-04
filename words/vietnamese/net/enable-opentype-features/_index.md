@@ -21,7 +21,7 @@ Tìm hiểu cách bật các tính năng OpenType trong tài liệu Word của b
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Tính năng loại mở](./open-type-features/) | Tìm hiểu cách bật tính năng OpenType trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
-
+| [Sử dụng phông chữ trọng lượng biến trong C# – Hướng dẫn lập trình đầy đủ](./use-variable-weight-font-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách sử dụng phông chữ trọng lượng biến trong C# với Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
