@@ -40,6 +40,21 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 ### [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do formatu Markdown przy użyciu Aspose.Words for Python.
 
+### [Zapisz DOCX jako Markdown – szybki przewodnik Pythona do eksportu równań do LaTeX](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument DOCX jako Markdown i wyeksportować równania do LaTeX.
+
+### [Zapisz dokument jako TXT – eksportuj równania Word do LaTeX przy użyciu Aspose.Words](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Dowiedz się, jak przy użyciu Aspose.Words zapisać dokument jako plik TXT i wyeksportować równania Word do LaTeX.
+
+### [Zapisz docx jako PDF z Aspose.Words – Kompletny przewodnik w Pythonie](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument DOCX jako plik PDF.
+
+### [Jak osadzić obrazy przy konwertowaniu DOCX na Markdown – Kompletny przewodnik](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python osadzić obrazy w plikach Markdown podczas konwersji z DOCX.
+
+### [Jak osadzić obrazy w Markdown z DOCX – Kompletny przewodnik](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Python osadzić obrazy w plikach Markdown podczas konwersji z DOCX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

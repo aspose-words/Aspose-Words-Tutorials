@@ -40,6 +40,21 @@ Word 文書を Markdown に変換し保存する手順を Python で解説しま
 ### [破損した DOCX の復元と Word から Markdown への変換](./recover-corrupted-docx-convert-word-to-markdown/)
 破損した DOCX を復元し、Word 文書を Markdown に変換する手順を紹介します。
 
+### [DOCX を Markdown に保存 – 方程式を LaTeX にエクスポートするクイック Python ガイド](./save-docx-as-markdown-quick-python-guide-to-export-equations/)
+DOCX の方程式を LaTeX 形式でエクスポートし、Markdown に保存する手順を簡潔に解説します。
+
+### [TXT としてドキュメントを保存 – Aspose.Words で Word の数式を LaTeX にエクスポート](./save-document-as-txt-export-word-math-to-latex-with-aspose-w/)
+Aspose.Words を使用して Word 文書を TXT に保存し、数式を LaTeX 形式でエクスポートする方法を解説します。
+
+### [Aspose.Words で docx を PDF に保存 – 完全 Python ガイド](./save-docx-as-pdf-with-aspose-words-complete-python-guide/)
+Aspose.Words を使用して docx ファイルを PDF に変換する手順を Python で解説します。簡単に高品質な PDF を生成できます。
+
+### [DOCX を Markdown に変換する際に画像を埋め込む方法 – 完全ガイド](./how-to-embed-images-when-converting-docx-to-markdown-complet/)
+DOCX から Markdown へ変換する際、画像を正しく埋め込む手順とコード例を解説します。Python で簡単に実装可能です。
+
+### [DOCX から Markdown に画像を埋め込む方法 – 完全ガイド](./how-to-embed-images-in-markdown-from-docx-full-guide/)
+DOCX から Markdown に画像を埋め込む手順とコード例を解説します。Python で簡単に実装可能です。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
