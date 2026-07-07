@@ -49,6 +49,9 @@ Nezapomeňte, že podrobné příklady kódu a další pokyny naleznete v [Dokum
 ### [Použití licence pro Aspose.Words pro Javu](./applying-licensing/)
 Naučte se krok za krokem, jak licencovat Aspose.Words pro Javu. Získejte přístup hned teď a odemkněte jeho plný potenciál.
 
+### [Vytvoření DocumentConfig v Javě – Sledování chybějících písem s Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Naučte se, jak v Javě vytvořit DocumentConfig a detekovat chybějící písma při práci s Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

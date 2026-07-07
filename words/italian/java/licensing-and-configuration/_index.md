@@ -49,6 +49,9 @@ Ricorda, per esempi di codice dettagliati e ulteriori indicazioni, fare riferime
 ### [Applicazione della licenza ad Aspose.Words per Java](./applying-licensing/)
 Scopri come applicare le licenze ad Aspose.Words per Java passo dopo passo. Ottieni subito l'accesso e scopri tutto il suo potenziale.
 
+### [Creare DocumentConfig in Java – Tracciare i font mancanti con Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Impara a configurare DocumentConfig per rilevare i font mancanti durante l'elaborazione dei documenti con Aspose.Words per Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

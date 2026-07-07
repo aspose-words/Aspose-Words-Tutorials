@@ -48,6 +48,8 @@ Lembre-se de que, para obter exemplos de código detalhados e orientações adic
 ## Tutoriais de Licenciamento e Configuração
 ### [Aplicando Licenciamento ao Aspose.Words para Java](./applying-licensing/)
 Aprenda como solicitar a licença do Aspose.Words para Java passo a passo. Obtenha acesso agora mesmo e libere todo o seu potencial.
+### [Criar DocumentConfig em Java – Rastrear Fontes Ausentes com Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Saiba como usar DocumentConfig para identificar fontes faltantes ao processar documentos com Aspose.Words em Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

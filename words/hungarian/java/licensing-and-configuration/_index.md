@@ -49,6 +49,9 @@ Ne feledd, hogy részletes kódpéldákért és további útmutatásért lásd a
 ### [Licencelés alkalmazása az Aspose.Words Java-hoz](./applying-licensing/)
 Tanuld meg lépésről lépésre, hogyan igényelhetsz licencet az Aspose.Words for Java-hoz. Szerezz hozzáférést most, és aknázd ki a benne rejlő összes lehetőséget.
 
+### [DocumentConfig létrehozása Java-ban – Hiányzó betűtípusok nyomon követése az Aspose.Words segítségével](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Ismerje meg, hogyan hozhat létre DocumentConfig objektumot Java-ban, és követheti a hiányzó betűtípusokat az Aspose.Words használatával.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

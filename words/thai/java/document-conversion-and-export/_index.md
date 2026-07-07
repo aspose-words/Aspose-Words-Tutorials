@@ -70,6 +70,9 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์เป็นรูปแบบ LaTeX ด้วย Aspose.Words
 
+### [บันทึก docx เป็น markdown – คู่มือ Java ฉบับเต็มพร้อมการดึงรูปภาพ](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown พร้อมดึงรูปภาพด้วย Aspose.Words for Java อย่างละเอียดในคู่มือฉบับเต็ม
+
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
 

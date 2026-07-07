@@ -86,33 +86,14 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल �
 ### [Aspose.Words for Java में टेबल्स और टेबल स्टाइल्स को फ़ॉर्मेट करना](./formatting-tables-and-table-styles/)
 Aspose.Words for Java में टेबल्स को फ़ॉर्मेट करना और टेबल स्टाइल्स लागू करना सीखें। प्रभावी टेबल फ़ॉर्मेटिंग के लिए स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएं।
 
-### [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-
-### [दस्तावेज़ को TXT के रूप में सहेजें – Word गणित निर्यात के लिए त्वरित गाइड](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Aspose.Words for Java का उपयोग करके Word दस्तावेज़ को TXT फ़ाइल में बदलें और गणितीय समीकरणों को निर्यात करने की प्रक्रिया सीखें।
-
-### [DOCX को मार्कडाउन में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
+### [docx को markdown में बदलते समय छवियों को एम्बेड कैसे करें](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX को मार्कडाउन में बदलते समय छवियों को सही तरीके से एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+
+### [docx को markdown के रूप में सहेजें – इमेज एक्सट्रैक्शन के साथ पूर्ण जावा गाइड](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Aspose.Words for Java का उपयोग करके docx को markdown में बदलें और छवियों को निकालें। पूर्ण कोड उदाहरण।
 
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX फ़ाइल को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
-
-## अक्सर पूछे जाने वाले प्रश्न
-
-**Q: Aspose.Words का उपयोग करके मौजूदा PDF में वॉटरमार्क कैसे जोड़ूँ?**  
-A: दस्तावेज़ लोड करें, `DocumentBuilder.insertWatermarkText` या `insertWatermarkImage` का उपयोग करें, फिर PDF के रूप में सहेजें।
-
-**Q: क्या मैं DOCX फ़ाइल को PDF में बिना जटिल लेआउट खोए बदल सकता हूँ?**  
-A: हाँ। Aspose.Words रूपांतरण के दौरान लेआउट, फ़ॉन्ट और ग्राफ़िक्स को बरकरार रखता है।
-
-**Q: जावा में कस्टम बारकोड लेबल कैसे जेनरेट करूँ?**  
-A: Aspose.Words द्वारा प्रदान किए गए बारकोड API का उपयोग करें, बारकोड प्रकार निर्दिष्ट करें, और इसे इमेज या शेप के रूप में डालें।
-
-**Q: टेबल्स को लगातार फ़ॉर्मेट करने का सबसे अच्छा तरीका क्या है?**  
-A: `Table.setStyleIdentifier` मेथड के माध्यम से TableStyle लागू करें या बिल्ट‑इन स्टाइल गैलरी का उपयोग करें।
-
-**Q: क्या व्यावसायिक उपयोग के लिए लाइसेंस आवश्यक है?**  
-A: हाँ, उत्पादन डिप्लॉयमेंट के लिए एक व्यावसायिक लाइसेंस आवश्यक है; मूल्यांकन के लिए एक फ़्री ट्रायल उपलब्ध है।
 
 ---
 

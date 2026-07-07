@@ -103,6 +103,9 @@ weight: 22
 ### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός](./create-accessible-pdf-from-docx-complete-guide/)
 Δημιουργήστε PDF προσβάσιμο από DOCX με πλήρη οδηγίες, εξασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας.
 
+### [Αποθήκευση docx ως markdown – Πλήρης οδηγός Java με εξαγωγή εικόνων](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε ενσωματωμένες εικόνες χρησιμοποιώντας το Aspose.Words for Java.
+
 ## Συχνές Ερωτήσεις
 
 **Π: Πώς προσθέτω υδατογράφημα σε υπάρχον PDF χρησιμοποιώντας το Aspose.Words;**  

@@ -92,6 +92,9 @@ Aspose.Words for Java’da tabloları biçimlendirmeyi ve tablo stilleri uygulam
 ### [Aspose.Words for Java'da docx'i markdown'a dönüştürme – Matematik denklemlerini LaTeX'e dışa aktarma](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words kullanarak docx dosyasını markdown’a dönüştürün ve matematik denklemlerini LaTeX formatına dışa aktarın.
 
+### [docx'i markdown olarak kaydet – Görüntü Çıkarma ile Tam Java Rehberi](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Aspose.Words for Java kullanarak docx dosyasını markdown’a dönüştürün, metni ve gömülü resimleri çıkarın ve kaydedin.
+
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.
 

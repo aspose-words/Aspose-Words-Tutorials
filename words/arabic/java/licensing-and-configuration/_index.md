@@ -49,6 +49,9 @@
 ### [تطبيق الترخيص على Aspose.Words لـ Java](./applying-licensing/)
 تعرّف على كيفية تطبيق ترخيص Aspose.Words لجافا خطوة بخطوة. احصل عليه الآن واكتشف إمكانياته الكاملة.
 
+### [إنشاء DocumentConfig في Java – تتبع الخطوط المفقودة باستخدام Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+تعلم كيفية إنشاء DocumentConfig في Java لتتبع الخطوط المفقودة باستخدام Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
