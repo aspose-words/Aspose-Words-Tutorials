@@ -27,8 +27,11 @@ Python-net kullanarak Aspose.Words için küratörlüğünü yaptığımız 'Ba�
 ### [Python'da Aspose.Words için Ölçülü Lisanslama Kılavuzu: Verimli Belge Kullanım Takibi](./aspose-words-python-metered-licensing-guide/)
 Uygulamalarınızda belge kullanımını etkin bir şekilde izlemek ve yönetmek için Aspose.Words for Python ile ölçülü lisanslamayı nasıl uygulayacağınızı öğrenin.
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net için bir kod eğitimi
+
+### [CMake Projesi Oluşturma: Yapılandırma, Derleme ve Test](./build-cmake-project-configure-build-test/)
+CMake kullanarak projeyi yapılandırma, derleme ve test etme adımlarını öğrenin.
 
 ## Ek Kaynaklar
 

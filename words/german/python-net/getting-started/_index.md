@@ -30,6 +30,9 @@ Erfahren Sie, wie Sie mit Aspose.Words für Python eine getaktete Lizenzierung i
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Ein Code-Tutorial für Aspose.Words Python-net
 
+    ### [CMake-Projekt erstellen: Konfigurieren, Bauen & Testen](./build-cmake-project-configure-build-test/)
+Erfahren Sie, wie Sie ein CMake-Projekt einrichten, bauen und testen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)

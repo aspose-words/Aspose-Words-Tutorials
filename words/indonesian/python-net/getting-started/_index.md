@@ -28,7 +28,10 @@ Selami dunia otomatisasi dokumen dengan kategori 'Memulai' yang kami kurasi untu
 Pelajari cara menerapkan lisensi terukur dengan Aspose.Words untuk Python untuk melacak dan mengelola penggunaan dokumen secara efisien dalam aplikasi Anda.
 
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
-Tutorial kode untuk Aspose.Words Python-net
+    Tutorial kode untuk Aspose.Words Python-net
+
+    ### [Bangun Proyek CMake: Konfigurasi, Build & Uji](./build-cmake-project-configure-build-test/)
+    Panduan langkah demi langkah untuk mengkonfigurasi, membangun, dan menguji proyek CMake menggunakan Aspose.Words untuk Python-net.
 
 ## Sumber Daya Tambahan
 

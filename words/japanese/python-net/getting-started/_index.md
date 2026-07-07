@@ -27,8 +27,11 @@ Python-net を使用した Aspose.Words の「Getting Started」カテゴリー�
 ### [Python の Aspose.Words の従量制ライセンスガイド: 効率的なドキュメント使用状況の追跡](./aspose-words-python-metered-licensing-guide/)
 Aspose.Words for Python を使用して従量制ライセンスを実装し、アプリケーション内でのドキュメントの使用状況を効率的に追跡および管理する方法を学びます。
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-netのコードチュートリアル
+
+### [CMake プロジェクトの構築: 設定、ビルド、テスト](./build-cmake-project-configure-build-test/)
+CMake プロジェクトを設定し、ビルドとテストを実行する手順を示すチュートリアルです。
 
 ## 追加リソース
 

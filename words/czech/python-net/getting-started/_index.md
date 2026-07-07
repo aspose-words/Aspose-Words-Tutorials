@@ -30,6 +30,9 @@ Naučte se, jak implementovat měřené licencování s Aspose.Words pro Python 
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Výukový program pro Aspose.Words v Pythonu.net
 
+### [Vytvoření projektu CMake: konfigurace, sestavení a testování](./build-cmake-project-configure-build-test/)
+Naučte se, jak nakonfigurovat, sestavit a otestovat projekt CMake pomocí Aspose.Words.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)
