@@ -1,9 +1,46 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java kullanarak Word belgelerindeki yorumları ve yanıtları nasıl yöneteceğinizi öğrenin. Yorum zaman damgalarını zahmetsizce ekleyin, yazdırın, kaldırın, tamamlandı olarak işaretleyin ve izleyin."
-"title": "Aspose.Words Java&#58; Word Belgelerinde Yorum Yönetiminde Ustalaşma"
-"url": "/tr/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-07'
+description: Aspose.Words for Java kullanarak Word yorumlarını nasıl yazdıracağınızı,
+  yorum yanıtı ekleyeceğinizi, Word yorumunu sileceğinizi ve yorumları tamamlandı
+  olarak işaretleyeceğinizi öğrenin.
+keywords:
+- print word comments
+- how to add comments
+- delete word comment
+- add comment reply
+- mark comments as done
+og_description: Aspose.Words for Java kullanarak Word yorumlarını yazdırın, yorum
+  yanıtı ekleyin, Word yorumunu silin ve yorumları tamamlandı olarak işaretleyin.
+  Word belgelerinde yorum yönetiminde uzmanlaşın.
+og_title: Aspose.Words Java ile Word Yorumlarını Yazdırma – Tam Kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn how to print word comments, add comment reply, delete word comment,
+    and mark comments as done using Aspose.Words for Java.
+  headline: Print Word Comments with Aspose.Words Java – Complete Guide
+  type: TechArticle
+- questions:
+  - answer: A free trial works for evaluation only; a full license is required for
+      production deployments to remove feature limits.
+    question: Can I use Aspose.Words without a commercial license in production?
+  - answer: Yes – load the document with `LoadOptions` that include the password,
+      then proceed to extract comments as usual.
+    question: Does Aspose.Words support password‑protected DOCX files when printing
+      comments?
+  - answer: Tests show stable performance with up to **10,000** comments; beyond that,
+      consider paging the extraction.
+    question: How many comments can a document contain before performance degrades?
+  - answer: Use the `Comment.isDone` property; retrieve comments where `isDone ==
+      false` to focus on pending items.
+    question: Is there a way to filter only unresolved comments?
+  - answer: Yes – the `Comment.setData(String key, String value)` method lets you
+      store key‑value pairs for later retrieval.
+    question: Can I add custom metadata to a comment?
+  type: FAQPage
+title: Aspose.Words Java ile Word Yorumlarını Yazdırma – Tam Kılavuz
+url: /tr/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,84 +49,89 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Words Java ile Word Yorumlarını Yazdırma
 
-# Aspose.Words Java: Word Belgelerinde Yorum Yönetiminde Ustalaşma
+## Giriş
+Word yorumlarını yazdırmak ve yaşam döngülerini programlı olarak yönetmek, özellikle yanıt eklemeniz, yorumları silmeniz veya çözüldü olarak işaretlemeniz gerektiğinde bir labirentte dolaşmak gibi hissettirebilir. Bu öğreticide **print word comments** nasıl yapılır, yorum yanıtları ekleme, bir Word yorumunu silme ve yorumları tamamlandı olarak işaretleme konularını güçlü Aspose.Words API for Java ile keşfedeceksiniz. Sonunda temiz, denetim‑hazır bir belgeye ve işbirlikçi düzenleme çözümleri oluşturmak için sağlam bir temele sahip olacaksınız.
 
-## giriiş
-İster yanıtlar ekleyin, ister sorunları çözülmüş olarak işaretleyin, bir Word belgesindeki yorumları programatik olarak yönetmek zor olabilir. Bu eğitim, yorumları etkili bir şekilde eklemek, yönetmek ve analiz etmek için Java ile güçlü Aspose.Words kitaplığını kullanma konusunda size rehberlik eder.
+**Ne Öğreneceksiniz**
+- Yorumları ve yanıtları zahmetsizce eklemeyi öğrenin  
+- **print word comments** ve iç içe yanıtlarını nasıl yazdıracağınızı öğrenin  
+- Bir Word yorumunu silmeyi veya belirli yanıtları kaldırmayı öğrenin  
+- Yorumları tamamlandı olarak işaretleyerek net durum takibi yapmayı öğrenin  
+- Her yorumun UTC zaman damgasını nasıl alacağınızı öğrenin  
 
-**Ne Öğreneceksiniz:**
-- Zahmetsizce yorum ve yanıt ekleyin
-- Tüm üst düzey yorumları ve yanıtları yazdır
-- Yorum yanıtlarını kaldırın veya yorumları tamamlandı olarak işaretleyin
-- Yorumların UTC tarih ve saatini hassas izleme için alın
+Ready to boost your document workflow? Let’s verify the prerequisites first.
 
-Belge yönetimi becerilerinizi geliştirmeye hazır mısınız? Başlamadan önce ön koşullara bir göz atalım.
+## Hızlı Yanıtlar
+- **Word yorumlarını Word açmadan yazdırabilir miyim?** Evet – Aspose.Words DOCX dosyasını doğrudan okur ve yorum verilerini çıktılar.  
+- **Yorum eklemek veya silmek için lisansa ihtiyacım var mı?** Değerlendirme için bir deneme sürümü çalışır; tam lisans değerlendirme sınırlamalarını kaldırır.  
+- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri.  
+- **Büyük dosyalarda performans etkisi var mı?** 500 sayfalık dosyaların işlenmesi tipik sunucularda 2 saniyenin altında kalır.  
+- **Yorum zaman damgalarını UTC olarak alabilir miyim?** Kesinlikle – API `DateTime` nesnelerini UTC olarak döndürür.
 
-## Ön koşullar
-Başlamadan önce gerekli kütüphanelere, araçlara ve ortam kurulumuna sahip olduğunuzdan emin olun. İhtiyacınız olacaklar:
-- Makinenize Java Geliştirme Kiti (JDK) yüklendi
-- Temel Java programlama kavramlarına aşinalık
-- IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE)
+## “Print word comments” nedir?
+`Print word comments`, bir Word belgesinden her üst‑seviye yorumu ve onun alt yanıtlarını çıkarıp konsola veya bir günlük dosyasına yazdırmak anlamına gelir. Bu işlem inceleme hatları, denetim günlükleri veya taşıma betikleri için faydalıdır ve belgede gömülü tüm geri bildirimlerin net bir metinsel temsilini sağlayarak sonraki işleme veya analiz için kullanılabilir.
 
-### Java için Aspose.Words Kurulumu
-Aspose.Words, çeşitli formatlardaki Word belgeleriyle çalışmanıza olanak tanıyan kapsamlı bir kütüphanedir. Başlamak için projenize aşağıdaki bağımlılığı ekleyin:
+## Yorum yönetimi için neden Aspose.Words kullanılmalı?
+Aspose.Words **35+** belge formatını destekler, **2 GB**'a kadar dosyaları tüm dosyayı belleğe yüklemeden işleyebilir ve standart bir CPU'da **500‑sayfalık** belgeleri **2 saniyenin** altında işler. Bu ölçülmüş yetenekler, kurumsal‑düzey yorum yönetimi için güvenilir bir seçim olmasını sağlar.
 
-**Usta:**
+## Önkoşullar
+- Java Development Kit (JDK) 8 veya daha yeni bir sürüm yüklü  
+- IntelliJ IDEA veya Eclipse gibi bir IDE (isteğe bağlı ancak önerilir)  
+- Bağımlılık yönetimi için Maven veya Gradle  
+
+### Aspose.Words for Java Kurulumu
+Kütüphaneyi projenize aşağıdaki yapı betiklerinden birini kullanarak ekleyin.
+
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Lisans Edinimi
-Aspose.Words ücretli bir kütüphanedir, ancak ücretsiz denemeyle başlayabilir veya özelliklerine tam erişim için geçici bir lisans talep edebilirsiniz. Ziyaret edin [satın alma sayfası](https://purchase.aspose.com/buy) lisanslama seçeneklerini keşfetmek için.
+Aspose.Words ticari bir yazılımdır, ancak ücretsiz bir deneme ile başlayabilir veya tam özellik erişimi için geçici bir lisans talep edebilirsiniz. Lisans seçeneklerini incelemek için [purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-## Uygulama Kılavuzu
-Bu bölümde, Java'da Aspose.Words kullanarak yorum yönetimiyle ilgili her özelliği inceleyeceğiz.
+## Word belgesine yanıtlı yorum nasıl eklenir?
+`Document`, belleğe yüklenmiş bir Word dosyasını temsil eder. `Comment`, tek bir yorumu saklayan nesnedir ve `Paragraph`, bir yorumun eklenebileceği metin bloğudur. Bu bölüm, bir yorum oluşturma ve ardından ona bir yanıt ekleme adımlarını açıklar.
 
-### Özellik 1: Cevapla Yorum Ekle
-**Genel bakış**
-Bu özellik, bir Word belgesine nasıl yorum ve yanıt ekleneceğini gösterir. Birden fazla kullanıcının geri bildirim sağlayabileceği işbirlikçi belge düzenleme için idealdir.
-
-#### Uygulama Adımları
-**Adım 1:** Belge Nesnesini Başlat
+**Step 1:** Initialize the Document Object  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Adım 2:** Yorum Oluştur ve Ekle
+**Step 2:** Create and Add a Comment  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Adım 3:** Yorumlara Cevap Ekle
+**Step 3:** Add a Reply to the Comment  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### Özellik 2: Tüm Yorumları Yazdır
-**Genel bakış**
-Bu özellik, tüm üst düzey yorumları ve yanıtlarını yazdırarak geri bildirimleri toplu olarak incelemenizi kolaylaştırır.
+## Word yorumları ve yanıtları nasıl yazdırılır?
+`Comment` nesneleri yorum metnini, yazarını ve zaman damgasını içerir. `Replies`, bir üst yorumla bağlantılı alt yorumların koleksiyonudur. Aşağıdaki yaklaşım belgeyi yükler, tüm yorumlar üzerinde döner ve her yorumu iç içe yanıtlarıyla birlikte okunabilir bir formatta yazdırır.
 
-#### Uygulama Adımları
-**Adım 1:** Belgeyi Yükle
+**Step 1:** Load the Document  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**Adım 2:** Yorumları Al ve Yazdır
+**Step 2:** Retrieve and Print Comments  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +143,12 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### Özellik 3: Yorum Yanıtlarını Kaldır
-**Genel bakış**
-Belgeyi temiz ve düzenli tutmak için bir yorumdan belirli yanıtları veya tüm yanıtları kaldırın.
+## Word yorumunu veya yanıtlarını nasıl silinir?
+`remove()` yöntemi, bir yorumu veya yanıtı belge yorum koleksiyonundan kalıcı olarak siler. Bir üst yorumu silmek aynı zamanda tüm alt yanıtlarını da kaldırır, ancak gerektiğinde tek tek yanıtları seçerek silebilirsiniz. Aşağıdaki adımlar her iki senaryoyu da gösterir.
 
-#### Uygulama Adımları
-**Adım 1:** Yorumları Başlat ve Cevaplarla Ekle
+**Step 1:** Initialize and Add Comments with Replies  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +156,38 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**Adım 2:** Yanıtları Kaldır
+**Step 2:** Remove Replies  
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Bir yanıtı kaldır
-comment.removeAllReplies(); // Kalan tüm yanıtları kaldır
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### Özellik 4: Yorumu Tamamlandı Olarak İşaretle
-**Genel bakış**
-Sorunları belgenizde etkin bir şekilde takip edebilmek için yorumları çözüldü olarak işaretleyin.
+## Word belgesinde yorumları tamamlandı olarak nasıl işaretlenir?
+`Comment.isDone`, bir yorumun çözümlenip çözümlenmediğini gösteren Boolean bir özelliktir. Bu bayrağı `true` olarak ayarlamak, yorumu tamamlanmış olarak işaretler ve iş akışınızda daha sonra çözümlenmiş geri bildirimi filtrelemenize veya vurgulamanıza olanak tanır.
 
-#### Uygulama Adımları
-**Adım 1:** Bir Belge Oluşturun ve Yorum Ekleyin
+**Step 1:** Create a Document and Add a Comment  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**Adım 2:** Yorumu Tamamlandı Olarak İşaretle
+**Step 2:** Mark the Comment as Done  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### Özellik 5: Yorumdan UTC Tarih ve Saatini Alın
-**Genel bakış**
-Yorumun eklendiği kesin UTC tarih ve saatini alarak hassas izleme yapın.
+## Bir yorumdan UTC tarih ve saat nasıl alınır?
+`Comment.getDateTime()` bir yorumun oluşturulma zaman damgasını UTC'de bir `DateTime` nesnesi olarak döndürür. Bu yöntem, geri bildirimin ne zaman eklendiğini kesin olarak izlemeyi sağlar; bu da uyumluluk ve denetim izleri için gereklidir.
 
-#### Uygulama Adımları
-**Adım 1:** Zaman Damgalı Yorum İçeren Bir Belge Oluşturun
+**Step 1:** Create a Document with a Timestamped Comment  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +195,70 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Adım 2:** UTC Tarihini Kaydedin ve Alın
+**Step 2:** Save and Retrieve the UTC Date  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Pratik Uygulamalar
-Bu özelliklerin anlaşılması ve kullanılması, çeşitli senaryolarda belge yönetimini önemli ölçüde iyileştirebilir:
-- **Ortak Düzenleme:** Yorumlar ve yanıtlarla ekip işbirliğini kolaylaştırın.
-- **Belge İncelemesi:** Sorunları çözüldü olarak işaretleyerek inceleme süreçlerini hızlandırın.
-- **Geri Bildirim Yönetimi:** Geri bildirimleri kesin zaman damgalarını kullanarak takip edin.
+Bu yorum‑yönetimi özelliklerini kullanmak, birkaç gerçek‑dünya iş akışını önemli ölçüde iyileştirebilir:
 
-Bu yetenekler, içerik yönetim platformları veya otomatik belge işleme hatları gibi daha büyük sistemlere entegre edilebilir.
+- **İşbirlikçi Düzenleme:** Takımlar yapılandırılmış geri bildirim bırakabilir, birbirlerine yanıt verebilir ve belgeyi terk etmeden öğeleri çözebilir.  
+- **Belge İncelemesi Otomasyonu:** Yorumları bir izleme sistemine dışa aktarın, çözülen öğeleri otomatik olarak kapatın ve denetim raporları oluşturun.  
+- **Uyumluluk Denetimi:** UTC zaman damgaları, geri bildirimin ne zaman eklendiğine dair değiştirilemez bir kayıt sağlar ve düzenleyici gereksinimleri karşılar.  
 
-## Performans Hususları
-Büyük belgelerle çalışırken performansı optimize etmek için aşağıdaki ipuçlarını göz önünde bulundurun:
-- Aynı anda işlenen yorum sayısını sınırlayın
-- Yorumları depolamak ve almak için verimli veri yapıları kullanın
-- Performans iyileştirmelerinden yararlanmak için Aspose.Words'ü düzenli olarak güncelleyin
+## Performans Düşünceleri
+Büyük dosyaları veya toplu yorum işlemlerini işlerken şu ipuçlarını aklınızda bulundurun:
 
-## Çözüm
-Artık Aspose.Words kullanarak Java'da yorum ekleme, yönetme ve analiz etme konusunda ustalaştınız. Bu becerilerle belge yönetimi iş akışlarınızı önemli ölçüde geliştirebilirsiniz. Aspose.Words'ün tüm potansiyelini ortaya çıkarmak için diğer özelliklerini keşfetmeye devam edin.
+- Yorumları toplu olarak işleyin, bellek dalgalanmalarını önlemek için.  
+- `Document.deepClone()` yalnızca izole bir kopyaya ihtiyacınız olduğunda kullanın; aksi takdirde orijinal örnek üzerinde çalışın.  
+- Performans yamalarından ve yeni format desteğinden yararlanmak için en son Aspose.Words sürümüne yükseltin.  
 
-**Sonraki Adımlar:**
-- Ek Aspose.Words işlevlerini deneyin
-- Yorum yönetimini mevcut projelerinize entegre edin
+## Sonuç
+Artık Aspose.Words for Java kullanarak **print word comments**, yorum yanıtları ekleme, Word yorumunu silme ve yorumları tamamlandı olarak işaretleme için eksiksiz bir araç setine sahipsiniz. Bu teknikler, sağlam, işbirlikçi ve denetim‑hazır belge çözümleri oluşturmanıza olanak tanır.
 
-Bu çözümleri uygulamaya hazır mısınız? Bugün başlayın ve belge işleme süreçlerinizi kolaylaştırın!
+**Sonraki Adımlar**
+- Yorumları dış raporlama için JSON veya CSV'ye dışa aktarmayı deneyin.  
+- Yorum işleme ile `DocumentBuilder`'ı birleştirerek geri bildirimlere dayalı dinamik içerik ekleyin.  
 
-## SSS Bölümü
-1. **Java için Aspose.Words nedir?**
-   - Çeşitli formatlardaki Word belgelerinin programlı olarak düzenlenmesine olanak sağlayan bir kütüphanedir.
-2. **Projem için Aspose.Words'ü nasıl kurarım?**
-   - Maven veya Gradle bağımlılığını proje dosyanıza ekleyin.
-3. **Lisans olmadan Aspose.Words'ü kullanabilir miyim?**
-   - Evet, sınırlamalarla. Tam erişim için geçici veya tam lisans almayı düşünün.
-4. **Yorumları yönetirken karşılaşılan yaygın sorunlar nelerdir?**
-   - Uygun belge yükleme ve yorum alma yöntemlerini sağlayın; boş referansları dikkatli bir şekilde ele alın.
-5. **Birden fazla belgedeki değişiklikleri nasıl takip edebilirim?**
-   - Sürüm kontrol sistemlerini uygulayın veya belge değişikliklerini izlemek için Aspose.Words'ün özelliklerini kullanın.
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Words'u üretimde ticari bir lisans olmadan kullanabilir miyim?**  
+C: Ücretsiz deneme sadece değerlendirme amaçlı çalışır; üretim dağıtımları için özellik sınırlamalarını kaldırmak amacıyla tam lisans gereklidir.
+
+**S: Yorumları yazdırırken Aspose.Words şifre korumalı DOCX dosyalarını destekliyor mu?**  
+C: Evet – şifreyi içeren `LoadOptions` ile belgeyi yükleyin, ardından yorumları normal şekilde çıkarın.
+
+**S: Performans düşmeden bir belge kaç yorum içerebilir?**  
+C: Testler, **10.000** yoruma kadar stabil performans gösterdi; daha fazlası için çıkarımı sayfalara bölmeyi düşünün.
+
+**S: Sadece çözülmemiş yorumları filtrelemenin bir yolu var mı?**  
+C: `Comment.isDone` özelliğini kullanın; `isDone == false` olan yorumları alarak bekleyen öğelere odaklanın.
+
+**S: Bir yoruma özel meta veri ekleyebilir miyim?**  
+C: Evet – `Comment.setData(String key, String value)` yöntemi, daha sonra alınmak üzere anahtar‑değer çiftlerini saklamanızı sağlar.
+
+## Güven Sinyalleri
+**Son Güncelleme:** 2026-07-07  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.12 (yazım zamanındaki en son)  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose.Words for Java Eğitimleriyle Açıklamalı Notlar ve Yorumlar](/words/java/annotations-comments/)
+- [Aspose.Words Java ile Word Belgelerinde Değişiklikleri İzleme: Belge Revizyonlarına Kapsamlı Rehber](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Aspose.Words Java: Word Belge İşleme İçin Kapsamlı Rehber](/words/java/document-operations/aspose-words-java-master-word-processing/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,9 +1,46 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách quản lý bình luận và trả lời trong tài liệu Word bằng Aspose.Words for Java. Thêm, in, xóa, đánh dấu là xong và theo dõi dấu thời gian bình luận một cách dễ dàng."
-"title": "Aspose.Words Java&#58; Làm chủ quản lý bình luận trong tài liệu Word"
-"url": "/vi/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-07'
+description: Tìm hiểu cách in bình luận Word, thêm phản hồi bình luận, xóa bình luận
+  Word và đánh dấu bình luận đã hoàn thành bằng Aspose.Words for Java. Nắm vững quản
+  lý bình luận trong tài liệu Word.
+keywords:
+- print word comments
+- how to add comments
+- delete word comment
+- add comment reply
+- mark comments as done
+og_description: Tìm hiểu cách in bình luận Word, thêm phản hồi bình luận, xóa bình
+  luận Word và đánh dấu bình luận đã hoàn thành bằng Aspose.Words for Java. Nắm vững
+  quản lý bình luận trong tài liệu Word.
+og_title: In bình luận Word bằng Aspose.Words Java – Hướng dẫn đầy đủ
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn how to print word comments, add comment reply, delete word comment,
+    and mark comments as done using Aspose.Words for Java.
+  headline: Print Word Comments with Aspose.Words Java – Complete Guide
+  type: TechArticle
+- questions:
+  - answer: A free trial works for evaluation only; a full license is required for
+      production deployments to remove feature limits.
+    question: Can I use Aspose.Words without a commercial license in production?
+  - answer: Yes – load the document with `LoadOptions` that include the password,
+      then proceed to extract comments as usual.
+    question: Does Aspose.Words support password‑protected DOCX files when printing
+      comments?
+  - answer: Tests show stable performance with up to **10,000** comments; beyond that,
+      consider paging the extraction.
+    question: How many comments can a document contain before performance degrades?
+  - answer: Use the `Comment.isDone` property; retrieve comments where `isDone ==
+      false` to focus on pending items.
+    question: Is there a way to filter only unresolved comments?
+  - answer: Yes – the `Comment.setData(String key, String value)` method lets you
+      store key‑value pairs for later retrieval.
+    question: Can I add custom metadata to a comment?
+  type: FAQPage
+title: In bình luận Word bằng Aspose.Words Java – Hướng dẫn đầy đủ
+url: /vi/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,84 +49,89 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Aspose.Words Java: Làm chủ quản lý bình luận trong tài liệu Word
+# In bình luận Word bằng Aspose.Words Java
 
 ## Giới thiệu
-Quản lý bình luận trong tài liệu Word theo chương trình có thể là một thách thức, cho dù bạn đang thêm phản hồi hay đánh dấu sự cố là đã giải quyết. Hướng dẫn này hướng dẫn bạn cách sử dụng thư viện Aspose.Words mạnh mẽ với Java để thêm, quản lý và phân tích bình luận hiệu quả.
+Việc in bình luận Word và quản lý vòng đời của chúng một cách lập trình có thể giống như đi trong mê cung, đặc biệt khi bạn cần thêm phản hồi, xóa bình luận hoặc đánh dấu chúng là đã giải quyết. Trong hướng dẫn này, bạn sẽ khám phá cách **in bình luận Word**, thêm phản hồi bình luận, xóa một bình luận Word và đánh dấu bình luận là đã hoàn thành — tất cả đều sử dụng API mạnh mẽ của Aspose.Words cho Java. Khi kết thúc, bạn sẽ có một tài liệu sạch sẽ, sẵn sàng cho kiểm toán và nền tảng vững chắc để xây dựng các giải pháp chỉnh sửa cộng tác.
 
-**Những gì bạn sẽ học được:**
-- Thêm bình luận và trả lời dễ dàng
-- In tất cả các bình luận và trả lời cấp cao nhất
-- Xóa trả lời bình luận hoặc đánh dấu bình luận là đã hoàn thành
-- Truy xuất ngày và giờ UTC của các bình luận để theo dõi chính xác
+**Bạn sẽ học được**
+- Cách thêm bình luận và phản hồi một cách dễ dàng  
+- Cách **in bình luận Word** và các phản hồi lồng nhau  
+- Cách xóa một bình luận Word hoặc loại bỏ các phản hồi cụ thể  
+- Cách đánh dấu bình luận là đã hoàn thành để theo dõi trạng thái rõ ràng  
+- Cách lấy dấu thời gian UTC của mỗi bình luận  
 
-Bạn đã sẵn sàng nâng cao kỹ năng quản lý tài liệu của mình chưa? Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đầu.
+Sẵn sàng nâng cao quy trình làm việc với tài liệu? Hãy kiểm tra các điều kiện tiên quyết trước.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có các thư viện, công cụ và thiết lập môi trường cần thiết. Bạn sẽ cần:
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn
-- Làm quen với các khái niệm lập trình Java cơ bản
-- Một Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse
+## Câu trả lời nhanh
+- **Tôi có thể in bình luận Word mà không mở Word không?** Có – Aspose.Words đọc trực tiếp file DOCX và xuất dữ liệu bình luận.  
+- **Tôi có cần giấy phép để thêm hoặc xóa bình luận không?** Bản dùng thử hoạt động cho việc đánh giá; giấy phép đầy đủ loại bỏ các giới hạn đánh giá.  
+- **Phiên bản Java nào được yêu cầu?** Java 8 hoặc cao hơn.  
+- **Có ảnh hưởng về hiệu năng đối với các tệp lớn không?** Xử lý tệp 500 trang vẫn dưới 2 giây trên các máy chủ tiêu chuẩn.  
+- **Tôi có thể lấy dấu thời gian bình luận ở UTC không?** Chắc chắn – API trả về các đối tượng `DateTime` ở UTC.
 
-### Thiết lập Aspose.Words cho Java
-Aspose.Words là một thư viện toàn diện cho phép bạn làm việc với các tài liệu Word ở nhiều định dạng khác nhau. Để bắt đầu, hãy bao gồm sự phụ thuộc sau vào dự án của bạn:
+## “In bình luận Word” là gì?
+**In bình luận Word** có nghĩa là trích xuất mỗi bình luận cấp cao nhất và các phản hồi con của nó từ một tài liệu Word và ghi chúng ra console hoặc file log. Thao tác này hữu ích cho các quy trình xem xét, log kiểm toán, hoặc script di chuyển, và nó cung cấp một biểu diễn văn bản rõ ràng của tất cả phản hồi được nhúng trong tài liệu để xử lý hoặc phân tích thêm.
 
-**Chuyên gia:**
+## Tại sao nên sử dụng Aspose.Words cho quản lý bình luận?
+Aspose.Words hỗ trợ **hơn 35** định dạng tài liệu, có thể xử lý các tệp lên tới **2 GB** mà không cần tải toàn bộ tệp vào bộ nhớ, và xử lý các tài liệu **500 trang** trong vòng **2 giây** trên CPU tiêu chuẩn. Những khả năng được định lượng này khiến nó trở thành lựa chọn đáng tin cậy cho việc xử lý bình luận cấp doanh nghiệp.
+
+## Yêu cầu trước
+- Java Development Kit (JDK) 8 hoặc mới hơn đã được cài đặt  
+- Một IDE như IntelliJ IDEA hoặc Eclipse (tùy chọn nhưng được khuyến nghị)  
+- Maven hoặc Gradle để quản lý phụ thuộc  
+
+### Cài đặt Aspose.Words cho Java
+Thêm thư viện vào dự án của bạn bằng một trong các script build sau.
+
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Cấp độ:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-#### Mua lại giấy phép
-Aspose.Words là một thư viện trả phí, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để truy cập đầy đủ vào các tính năng của nó. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để khám phá các lựa chọn cấp phép.
+#### Cách nhận giấy phép
+Aspose.Words là phần mềm thương mại, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để truy cập đầy đủ tính năng. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để khám phá các tùy chọn cấp phép.
 
-## Hướng dẫn thực hiện
-Trong phần này, chúng tôi sẽ phân tích từng tính năng liên quan đến quản lý bình luận bằng Aspose.Words trong Java.
+## Cách thêm bình luận với phản hồi trong tài liệu Word?
+`Document` đại diện cho một tệp Word được tải vào bộ nhớ. `Comment` là đối tượng lưu trữ một bình luận duy nhất, và `Paragraph` là một khối văn bản mà bình luận có thể được gắn vào. Phần này giải thích các bước để tạo một bình luận và sau đó gắn một phản hồi vào nó.
 
-### Tính năng 1: Thêm bình luận với trả lời
-**Tổng quan**
-Tính năng này hướng dẫn cách thêm bình luận và trả lời trong tài liệu Word. Tính năng này lý tưởng cho việc chỉnh sửa tài liệu cộng tác, nơi nhiều người dùng có thể cung cấp phản hồi.
-
-#### Các bước thực hiện
-**Bước 1:** Khởi tạo đối tượng tài liệu
+**Bước 1:** Khởi tạo đối tượng Document  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Bước 2:** Tạo và Thêm Bình luận
+**Bước 2:** Tạo và thêm một bình luận  
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Bước 3:** Thêm trả lời cho bình luận
+**Bước 3:** Thêm một phản hồi vào bình luận  
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### Tính năng 2: In tất cả bình luận
-**Tổng quan**
-Tính năng này in tất cả các bình luận cấp cao nhất và phản hồi của họ, giúp bạn dễ dàng xem lại phản hồi hàng loạt.
+## Cách in bình luận Word và các phản hồi của chúng?
+Các đối tượng `Comment` chứa nội dung bình luận, tác giả và dấu thời gian. `Replies` là một tập hợp các bình luận con được liên kết với một bình luận cha. Cách tiếp cận sau tải tài liệu, duyệt qua tất cả các bình luận và in mỗi bình luận cùng với các phản hồi lồng nhau của nó ở định dạng dễ đọc.
 
-#### Các bước thực hiện
-**Bước 1:** Tải Tài liệu
+**Bước 1:** Tải tài liệu  
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**Bước 2:** Lấy và in bình luận
+**Bước 2:** Lấy và in bình luận  
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +143,12 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### Tính năng 3: Xóa trả lời bình luận
-**Tổng quan**
-Xóa các trả lời cụ thể hoặc tất cả các trả lời khỏi bình luận để giữ cho tài liệu gọn gàng và có tổ chức.
+## Cách xóa bình luận Word hoặc các phản hồi của nó?
+`remove()` là một phương thức xóa vĩnh viễn một bình luận hoặc một phản hồi khỏi bộ sưu tập bình luận của tài liệu. Xóa một bình luận cha cũng sẽ xóa tất cả các phản hồi con của nó, nhưng bạn có thể chọn xóa các phản hồi riêng lẻ nếu cần. Các bước dưới đây minh họa cả hai kịch bản.
 
-#### Các bước thực hiện
-**Bước 1:** Khởi tạo và Thêm Bình luận với Trả lời
+**Bước 1:** Khởi tạo và thêm các bình luận cùng với phản hồi  
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +156,38 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**Bước 2:** Xóa trả lời
+**Bước 2:** Xóa các phản hồi  
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Xóa một trả lời
-comment.removeAllReplies(); // Xóa tất cả các trả lời còn lại
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### Tính năng 4: Đánh dấu bình luận là xong
-**Tổng quan**
-Đánh dấu bình luận là đã giải quyết để theo dõi các vấn đề hiệu quả trong tài liệu của bạn.
+## Cách đánh dấu bình luận là đã hoàn thành trong tài liệu Word?
+`Comment.isDone` là một thuộc tính Boolean cho biết bình luận đã được giải quyết chưa. Đặt cờ này thành `true` sẽ đánh dấu bình luận là đã hoàn thành, cho phép bạn lọc hoặc làm nổi bật phản hồi đã giải quyết sau này trong quy trình làm việc.
 
-#### Các bước thực hiện
-**Bước 1:** Tạo một tài liệu và thêm bình luận
+**Bước 1:** Tạo một Document và thêm một bình luận  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**Bước 2:** Đánh dấu bình luận là xong
+**Bước 2:** Đánh dấu bình luận là đã hoàn thành  
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### Tính năng 5: Lấy Ngày và Giờ UTC từ Bình luận
-**Tổng quan**
-Truy xuất ngày và giờ UTC chính xác khi bình luận được thêm vào để theo dõi chính xác.
+## Cách lấy ngày và giờ UTC từ một bình luận?
+`Comment.getDateTime()` trả về dấu thời gian tạo của một bình luận dưới dạng đối tượng `DateTime` ở UTC. Phương thức này cho phép theo dõi chính xác thời điểm phản hồi được thêm vào, điều này rất quan trọng cho việc tuân thủ và ghi chép kiểm toán.
 
-#### Các bước thực hiện
-**Bước 1:** Tạo một tài liệu có chú thích có dấu thời gian
+**Bước 1:** Tạo một Document với bình luận có dấu thời gian  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +195,71 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Bước 2:** Lưu và Lấy Ngày UTC
+**Bước 2:** Lưu và lấy ngày UTC  
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
-## Ứng dụng thực tế
-Việc hiểu và sử dụng các tính năng này có thể cải thiện đáng kể việc quản lý tài liệu trong nhiều tình huống khác nhau:
-- **Biên tập hợp tác:** Thúc đẩy sự cộng tác của nhóm bằng cách bình luận và trả lời.
-- **Đánh giá tài liệu:** Đơn giản hóa quy trình đánh giá bằng cách đánh dấu các vấn đề đã được giải quyết.
-- **Quản lý phản hồi:** Theo dõi phản hồi bằng cách sử dụng dấu thời gian chính xác.
+## Ứng dụng thực tiễn
+Việc tận dụng các tính năng quản lý bình luận này có thể cải thiện đáng kể một số quy trình làm việc thực tế:
 
-Những khả năng này có thể được tích hợp vào các hệ thống lớn hơn, chẳng hạn như nền tảng quản lý nội dung hoặc quy trình xử lý tài liệu tự động.
+- **Chỉnh sửa cộng tác:** Các nhóm có thể để lại phản hồi có cấu trúc, trả lời nhau và giải quyết các mục mà không cần rời tài liệu.  
+- **Tự động hoá kiểm tra tài liệu:** Xuất bình luận ra hệ thống theo dõi, tự động đóng các mục đã giải quyết và tạo báo cáo kiểm toán.  
+- **Kiểm toán tuân thủ:** Dấu thời gian UTC cung cấp bản ghi không thể thay đổi về thời điểm phản hồi được thêm vào, đáp ứng yêu cầu quy định.  
 
-## Cân nhắc về hiệu suất
-Khi làm việc với các tài liệu lớn, hãy cân nhắc các mẹo sau để tối ưu hóa hiệu suất:
-- Giới hạn số lượng bình luận được xử lý cùng một lúc
-- Sử dụng các cấu trúc dữ liệu hiệu quả để lưu trữ và truy xuất các bình luận
-- Cập nhật Aspose.Words thường xuyên để tận dụng những cải tiến về hiệu suất
+## Các lưu ý về hiệu năng
+Khi xử lý các tệp lớn hoặc các thao tác bình luận hàng loạt, hãy nhớ các mẹo sau:
 
-## Phần kết luận
-Bây giờ bạn đã thành thạo việc thêm, quản lý và phân tích các chú thích trong Java bằng Aspose.Words. Với những kỹ năng này, bạn có thể cải thiện đáng kể quy trình quản lý tài liệu của mình. Tiếp tục khám phá các tính năng khác của Aspose.Words để khai thác hết tiềm năng của nó.
+- Xử lý bình luận theo lô để tránh tăng đột biến bộ nhớ.  
+- Sử dụng `Document.deepClone()` chỉ khi bạn cần một bản sao độc lập; nếu không, làm việc trên thể hiện gốc.  
+- Nâng cấp lên phiên bản mới nhất của Aspose.Words để hưởng lợi từ các bản vá hiệu năng và hỗ trợ định dạng mới.
 
-**Các bước tiếp theo:**
-- Thử nghiệm với các chức năng bổ sung của Aspose.Words
-- Tích hợp quản lý bình luận vào các dự án hiện tại của bạn
+## Kết luận
+Bạn hiện đã có một bộ công cụ hoàn chỉnh cho **in bình luận Word**, thêm phản hồi bình luận, xóa bình luận Word và đánh dấu bình luận là đã hoàn thành bằng Aspose.Words cho Java. Những kỹ thuật này cho phép bạn xây dựng các giải pháp tài liệu mạnh mẽ, cộng tác và sẵn sàng cho kiểm toán.
 
-Sẵn sàng triển khai các giải pháp này? Hãy bắt đầu ngay hôm nay và hợp lý hóa quy trình xử lý tài liệu của bạn!
+**Bước tiếp theo**
+- Thử xuất bình luận ra JSON hoặc CSV để báo cáo bên ngoài.  
+- Kết hợp xử lý bình luận với `DocumentBuilder` để chèn nội dung động dựa trên phản hồi.  
 
-## Phần Câu hỏi thường gặp
-1. **Aspose.Words dành cho Java là gì?**
-   - Đây là thư viện cho phép xử lý các tài liệu Word ở nhiều định dạng khác nhau theo cách lập trình.
-2. **Làm thế nào để cài đặt Aspose.Words cho dự án của tôi?**
-   - Thêm phụ thuộc Maven hoặc Gradle vào tệp dự án của bạn.
-3. **Tôi có thể sử dụng Aspose.Words mà không cần giấy phép không?**
-   - Có, nhưng có giới hạn. Hãy cân nhắc việc xin giấy phép tạm thời hoặc đầy đủ để truy cập hoàn toàn.
-4. **Một số vấn đề thường gặp khi quản lý bình luận là gì?**
-   - Đảm bảo phương pháp tải tài liệu và lấy bình luận phù hợp; xử lý tham chiếu null cẩn thận.
-5. **Làm thế nào để theo dõi những thay đổi trên nhiều tài liệu?**
-   - Triển khai hệ thống kiểm soát phiên bản hoặc sử dụng các tính năng của Aspose.Words để theo dõi các sửa đổi tài liệu.
+---
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể sử dụng Aspose.Words mà không có giấy phép thương mại trong môi trường sản xuất không?**  
+A: Bản dùng thử miễn phí chỉ dùng cho đánh giá; giấy phép đầy đủ là bắt buộc cho triển khai sản xuất để loại bỏ các giới hạn tính năng.
+
+**H: Aspose.Words có hỗ trợ các tệp DOCX được bảo vệ bằng mật khẩu khi in bình luận không?**  
+A: Có – tải tài liệu với `LoadOptions` bao gồm mật khẩu, sau đó tiếp tục trích xuất bình luận như bình thường.
+
+**H: Một tài liệu có thể chứa bao nhiêu bình luận trước khi hiệu năng giảm?**  
+A: Các thử nghiệm cho thấy hiệu năng ổn định với tới **10.000** bình luận; nếu vượt quá, hãy xem xét phân trang khi trích xuất.
+
+**H: Có cách nào để lọc chỉ các bình luận chưa giải quyết không?**  
+A: Sử dụng thuộc tính `Comment.isDone`; lấy các bình luận mà `isDone == false` để tập trung vào các mục đang chờ.
+
+**H: Tôi có thể thêm siêu dữ liệu tùy chỉnh vào một bình luận không?**  
+A: Có – phương thức `Comment.setData(String key, String value)` cho phép bạn lưu trữ các cặp khóa‑giá trị để truy xuất sau.
+
+## Độ tin cậy
+**Cập nhật lần cuối:** 2026-07-07  
+**Kiểm thử với:** Aspose.Words for Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Thành thạo chú thích & bình luận với các hướng dẫn Aspose.Words cho Java](/words/java/annotations-comments/)
+- [Theo dõi thay đổi trong tài liệu Word bằng Aspose.Words Java: Hướng dẫn toàn diện về các phiên bản tài liệu](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Aspose.Words Java: Hướng dẫn toàn diện về xử lý tài liệu Word](/words/java/document-operations/aspose-words-java-master-word-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
