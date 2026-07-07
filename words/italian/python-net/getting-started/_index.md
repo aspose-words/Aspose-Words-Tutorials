@@ -29,6 +29,8 @@ Scopri come implementare le licenze a consumo con Aspose.Words per Python per mo
 
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Un tutorial sul codice per Aspose.Words Python-net
+    ### [Compilare progetto CMake: configurare, compilare e testare](./build-cmake-project-configure-build-test/)
+Impara a configurare, compilare e testare un progetto CMake con Aspose.Words per Python-net.
 
 ## Risorse aggiuntive
 

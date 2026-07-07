@@ -30,6 +30,9 @@ Python-net का उपयोग करके Aspose.Words के लिए ह
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net के लिए एक कोड ट्यूटोरियल
 
+    ### [CMake प्रोजेक्ट बनाना: कॉन्फ़िगर, बिल्ड और टेस्ट](./build-cmake-project-configure-build-test/)
+CMake प्रोजेक्ट को कॉन्फ़िगर, बिल्ड और टेस्ट करने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)

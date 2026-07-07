@@ -30,6 +30,9 @@ Tìm hiểu cách triển khai cấp phép theo định mức với Aspose.Words
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Hướng dẫn mã cho Aspose.Words Python-net
 
+### [Xây dựng dự án CMake: Cấu hình, Xây dựng & Kiểm thử](./build-cmake-project-configure-build-test/)
+Hướng dẫn chi tiết cách cấu hình, biên dịch và kiểm thử dự án CMake bằng Aspose.Words cho Python-net.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)
