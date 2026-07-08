@@ -48,6 +48,8 @@
 ## 授權和配置教學
 ### [將許可套用至 Aspose.Words for Java](./applying-licensing/)
 了解如何逐步向 Aspose.Words for Java 申請許可。立即取得存取權限並釋放其全部潛力。
+### [在 Java 中建立 DocumentConfig – 追蹤缺少字型 (Aspose.Words)](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+學習如何在 Java 中使用 DocumentConfig 追蹤缺失的字型，確保文件正確渲染。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

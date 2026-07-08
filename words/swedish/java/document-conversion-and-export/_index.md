@@ -87,6 +87,9 @@ Lär dig hur du sparar ett Word‑dokument som TXT och exporterar matematiska ek
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Lär dig hur du konverterar DOCX-filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
 
+### [Spara docx som markdown – Fullständig Java-guide med bildextraktion](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Lär dig hur du sparar DOCX som Markdown i Java och extraherar bilder i en komplett guide.
+
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words for Java i några enkla steg.
 

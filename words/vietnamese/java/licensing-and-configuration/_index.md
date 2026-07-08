@@ -49,6 +49,9 @@ Hãy nhớ rằng, để biết ví dụ mã chi tiết và hướng dẫn thêm
 ### [Áp dụng cấp phép cho Aspose.Words cho Java](./applying-licensing/)
 Tìm hiểu cách áp dụng cấp phép cho Aspose.Words for Java từng bước. Truy cập ngay và mở khóa toàn bộ tiềm năng của nó.
 
+### [Tạo DocumentConfig trong Java – Theo dõi phông chữ thiếu với Aspose.Words](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+Hướng dẫn tạo DocumentConfig để phát hiện và ghi lại các phông chữ thiếu trong tài liệu Java bằng Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -76,7 +76,7 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 
 ## Tutorials zur Dokumentkonvertierung und zum Export
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words for Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
+Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words für Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
 Erfahren Sie, wie Sie benutzerdefinierte Barcodes in Java mit Aspose.Words for Java erzeugen. Schritt‑für‑Schritt‑Anleitung mit Quellcode zur Barcode‑Generierung. Verbessern Sie die Dokumenten‑Automatisierung mit Aspose.Words.
@@ -100,6 +100,9 @@ Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for
 Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+
+### [DOCX als Markdown speichern – Vollständige Java‑Anleitung mit Bildextraktion](./save-docx-as-markdown-full-java-guide-with-image-extraction/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown konvertieren und dabei Bilder extrahieren, mit einer umfassenden Java‑Implementierung.
 
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.

@@ -49,6 +49,9 @@ Aspose.Words for Javaのライセンスと設定は、この強力なツール�
 ### [Aspose.Words for Java へのライセンスの適用](./applying-licensing/)
 Aspose.Words for Java のライセンス適用方法をステップバイステップで解説します。今すぐアクセスして、その可能性を最大限に引き出しましょう。
 
+### [Java で DocumentConfig を作成 – 欠落フォントを追跡する (Aspose.Words)](./create-documentconfig-in-java-track-missing-fonts-with-aspos/)
+DocumentConfig を使用して欠落フォントを検出し、レポートする方法を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
