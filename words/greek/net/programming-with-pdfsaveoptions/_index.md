@@ -48,8 +48,10 @@
 | [Αποθήκευση docx ως pdf με Aspose.Words – Πλήρης Οδηγός C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε βήμα προς βήμα πώς να μετατρέψετε αρχεία docx σε pdf χρησιμοποιώντας Aspose.Words με C#. |
 | [Δημιουργία προσβάσιμου PDF από Word με C# – Οδηγός βήμα προς βήμα](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Δημιουργία προσβάσιμου PDF σε C# – Εγχειρίδιο προσβασιμότητας PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα αρχεία PDF με το Aspose.Words για .NET, ακολουθώντας βήμα-βήμα οδηγίες. |
+| [Δημιουργία προσβάσιμου PDF σε C# – Οδηγός βήμα‑προς‑βήμα](./create-accessible-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF σε C# ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 | [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word, ακολουθώντας τα πρότυπα προσβασιμότητας, με πλήρη βήμα-βήμα οδηγό. |
 | [Δημιουργία προσβάσιμου PDF – Οδηγός βήμα‑προς‑βήμα για συμμόρφωση PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Μάθετε πώς να δημιουργήσετε PDF που πληρούν τα πρότυπα προσβασιμότητας PDF/UA με αναλυτικό βήμα‑βήμα οδηγό. |
+| [Αποθήκευση εγγράφου ως PDF σε C# – Εξαγωγή ενσωματωμένων σχήμάτων](./save-document-as-pdf-in-c-export-inline-shapes/) | Μάθετε πώς να εξάγετε ενσωματωμένα σχήματα σε PDF χρησιμοποιώντας Aspose.Words για .NET με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Hogyan állítsuk helyre a docx-et – C# útmutató sérült Word fájlokhoz](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat C#-ban az Aspose.Words for .NET segítségével. |
 | [Word dokumentum helyreállítása Aspose.Words használatával C#-ban](./recover-word-document-with-aspose-words-in-c/) | Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words for .NET és C# segítségével, lépésről lépésre útmutatóval. |
 | [Hogyan használjuk a LoadOptions-t az Aspose.Words-ben – Teljes útmutató](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Ismerje meg a LoadOptions összes funkcióját az Aspose.Words használatához részletes, lépésről lépésre útmutatóval. |
+| [Sérült DOCX helyreállítása – Teljes útmutató a hibás Word fájlok javításához és betöltéséhez](./recover-corrupted-docx-complete-guide-to-fixing-and-loading/) | Ismerje meg, hogyan javíthatja és töltheti be a sérült DOCX fájlokat az Aspose.Words for .NET segítségével. |
 | [Sérült dokumentum helyreállítása C#-ban – Helyreállítási mód beállítása és felhasználó értesítése](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Ismerje meg, hogyan állíthatja a helyreállítási módot és kérheti a felhasználó megerősítését sérült dokumentumok betöltésekor az Aspose.Words for .NET-ben. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

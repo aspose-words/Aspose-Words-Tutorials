@@ -41,6 +41,9 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [Aspose.Words ile docx'i markdown olarak kaydet – Tam C# Rehberi](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Aspose.Words kullanarak docx dosyasını markdown formatına tam C# rehberiyle dönüştürün. |
 | [Word Görüntülerini Kaydet – Aspose ile Word'u Markdown'a Dönüştür](./save-word-images-convert-word-to-markdown-with-aspose/) | Aspose.Words for .NET kullanarak Word belgelerindeki görüntüleri kaydedin ve Word'u Markdown'a dönüştürün. |
 | [Word'ü C# ile Markdown'a Dönüştür – Görüntü Çıkarma ile Tam Rehber](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/) | Aspose.Words for .NET kullanarak Word belgelerini markdown formatına dönüştürün ve görüntüleri ayıklayın. Tam C# rehberi. |
+| [docx'i markdown'a dönüştür – Denklem Dışa Aktarmalı Tam Rehber](./convert-docx-to-markdown-complete-guide-with-equation-export/) | Aspose.Words for .NET kullanarak docx dosyalarını markdown'a dönüştürürken denklemleri dışa aktarmayı adım adım gösteren tam rehber. |
+| [Aspose docx'ten markdown'a – Dönüştürme ve Görüntü Çıkarma Tam Rehberi](./aspose-docx-to-markdown-complete-guide-to-convert-and-extrac/) | Aspose.Words for .NET kullanarak docx dosyalarını markdown'a dönüştürün ve görüntüleri ayıklayın. Tam rehber. |
+| [DOCX'i Markdown'a Dönüştür – Şekil Gölgesi ve Kurtarma ile Tam Rehber](./convert-docx-to-markdown-complete-guide-with-shape-shadow-re/) | Aspose.Words for .NET kullanarak DOCX dosyalarını şekil gölgesi ve bozuk dosya kurtarma özellikleriyle Markdown'a dönüştürün. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

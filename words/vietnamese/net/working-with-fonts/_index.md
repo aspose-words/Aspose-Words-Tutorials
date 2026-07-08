@@ -52,6 +52,7 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Cách phát hiện phông chữ trong Aspose.Words – Xử lý cảnh báo & cài đặt](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Tìm hiểu cách phát hiện phông chữ, quản lý cảnh báo và cấu hình cài đặt phông chữ trong Aspose.Words cho .NET. |
 | [Cách bắt phông chữ trong Aspose.Words – Hướng dẫn đầy đủ](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách bắt và nhúng phông chữ trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Cách tải DOCX và phát hiện phông chữ thiếu – Hướng dẫn C# đầy đủ](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Tìm hiểu cách tải tệp DOCX và phát hiện các phông chữ bị thiếu trong Aspose.Words cho .NET với hướng dẫn chi tiết từng bước bằng C#. |
+| [Cách tải phông chữ trong .NET – Thiết lập cài đặt phông chữ và cảnh báo](./how-to-load-fonts-in-net-set-font-settings-warnings/) | Tìm hiểu cách tải phông chữ trong .NET, thiết lập cài đặt phông chữ và quản lý cảnh báo với Aspose.Words cho .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
