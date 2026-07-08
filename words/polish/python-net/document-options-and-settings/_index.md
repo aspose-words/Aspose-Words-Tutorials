@@ -36,7 +36,7 @@ W tej serii samouczków przeprowadzimy Cię przez szereg opcji i ustawień dokum
 - Style i motywy: Przeglądaj predefiniowane style i motywy, aby zachować spójny wygląd dokumentu.
 - Właściwości dokumentu: Dowiedz się, jak ustawić metadane, takie jak tytuł, autor i słowa kluczowe.
 - Ochrona dokumentów: Dowiedz się, jak zabezpieczać dokumenty za pomocą hasła i uprawnień.
-- Eksport i konwersja: Poznaj opcje eksportowania dokumentów do różnych formatów i na różne platformy.
+- Eksport i konwersja: Poznaj opcje eksportowania dokumentów do różnych formatów i na różne platformi.
 
 Po ukończeniu tego kursu będziesz w stanie tworzyć przejrzyste, atrakcyjne wizualnie dokumenty z ustawieniami dostosowanymi do Twoich konkretnych wymagań.
 
@@ -49,6 +49,8 @@ Dowiedz się, jak skutecznie manipulować dokumentami Worda za pomocą Aspose.Wo
 Dowiedz się, jak zarządzać właściwościami dokumentu i metadanymi za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
 ### [Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych](./document-functionality-web-extensions/)
 Dowiedz się, jak rozszerzyć funkcjonalność dokumentu za pomocą rozszerzeń internetowych przy użyciu Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej integracji.
+### [Obsługa ostrzeżeń czcionek Aspose – wykryj brakujące czcionki i dostosuj ładowanie dokumentu](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Dowiedz się, jak obsługiwać ostrzeżenia o brakujących czcionkach i dostosowywać ładowanie dokumentu przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@ Aspose.Words for Pythonを使ってWord文書を効率的に操作する方法�
 Aspose.Words for Python を使用してドキュメントのプロパティとメタデータを管理する方法を学びます。ソースコード付きのステップバイステップガイドです。
 ### [Web拡張機能によるドキュメント機能の拡張](./document-functionality-web-extensions/)
 Aspose.Words for Python を使って、Web 拡張機能でドキュメント機能を拡張する方法を学びましょう。シームレスな統合を実現するソースコード付きのステップバイステップガイドです。
+### [Aspose フォント警告ハンドラ – 欠落フォントの検出とドキュメント読み込みのカスタマイズ](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Aspose.Words for Python を使用して、欠落フォントを検出し、ドキュメントの読み込みをカスタマイズする方法を学びます。コード例付きのステップバイステップガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

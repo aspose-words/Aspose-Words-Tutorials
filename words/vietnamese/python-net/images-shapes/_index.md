@@ -34,6 +34,9 @@ Tìm hiểu cách tối ưu hóa xử lý hình ảnh trong tài liệu RTF vớ
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Tìm hiểu cách tối ưu hóa đầu ra SVG bằng Aspose.Words cho Python. Hướng dẫn này đề cập đến các tính năng tùy chỉnh như thuộc tính giống hình ảnh, hiển thị văn bản và cải tiến bảo mật.
 
+### [Thêm Bóng Đổ cho Hình dạng trong Python – Hướng Dẫn Lập Trình Đầy Đủ](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Tìm hiểu cách thêm bóng đổ vào các hình dạng trong tài liệu Word bằng Python và Aspose.Words, nâng cao tính thẩm mỹ và chuyên nghiệp.
+
 ### [Cách Thêm Bóng Đổ trong C# – Hướng Dẫn Lập Trình Đầy Đủ](./how-to-add-shadow-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách thêm hiệu ứng bóng cho đối tượng trong tài liệu Word bằng C# và Aspose.Words.
 

@@ -34,17 +34,11 @@ Aspose.Words for Python ile RTF belgelerinde görüntü işlemeyi nasıl optimiz
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğinizi öğrenin. Bu kılavuz, görüntü benzeri özellikler, metin oluşturma ve güvenlik geliştirmeleri gibi özel özellikleri kapsar.
 
+### [Python'da Şekle Gölge Ekleme – Tam Programlama Kılavuzu](./add-shadow-to-shape-in-python-complete-programming-guide/)
+Python kullanarak Word belgelerinde şekillere gölge eklemeyi adım adım öğrenin.
+
 ### [C#'ta Gölge Ekleme – Tam Programlama Kılavuzu](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.
-
-## Ek Kaynaklar
-
-- [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)
-- [Aspose.Words for Python-net API Referansı](https://reference.aspose.com/words/python-net/)
-- [Python-net için Aspose.Words'ü indirin](https://releases.aspose.com/words/python-net/)
-- [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
-- [Ücretsiz Destek](https://forum.aspose.com/)
-- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

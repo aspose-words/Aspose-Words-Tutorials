@@ -60,6 +60,9 @@ Ismerje meg, hogyan konvertálhat Word dokumentumokat PostScript formátumba az 
 ### [Korrupt DOCX helyreállítása – Word dokumentum megnyitása és betöltése](./recover-corrupted-docx-open-load-word-document/)
 A korrupt DOCX fájlok helyreállítása és betöltése az Aspose.Words for Python-net segítségével.
 
+### [Korrupt Word dokumentum helyreállítása az Aspose.Words segítségével – Teljes útmutató](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Tanulja meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

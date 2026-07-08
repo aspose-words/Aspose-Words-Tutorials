@@ -28,7 +28,7 @@ Die Tutorials konzentrieren sich auf die Verbesserung von Word-Dokumentenverarbe
 
 ## Vereinfachen Sie Ihr Dokumentenmanagement
 
-Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python können Entwickler ihre Dokumentenverwaltungsprozesse vereinfachen. Die Tutorials bieten Schritt-für-Schritt-Anleitungen, Codebeispiele und praktische Beispiele, die es Entwicklern ermöglichen, robuste Dokumentkonvertierungsfunktionen in ihre Python-Anwendungen zu implementieren. Nutzen Sie diese Tutorials, um das volle Potenzial von Aspose.Words für eine nahtlose Dokumentkonvertierung und -verwaltung auszuschöpfen.
+Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python können Entwickler ihre Dokumentenverwaltungsprozesse vereinfachen. Die Tutorials bieten Schritt‑für‑Schritt‑Anleitungen, Codebeispiele und praktische Beispiele, die es Entwicklern ermöglichen, robuste Dokumentkonvertierungsfunktionen in ihre Python-Anwendungen zu implementieren. Nutzen Sie diese Tutorials, um das volle Potenzial von Aspose.Words für eine nahtlose Dokumentkonvertierung und -verwaltung auszuschöpfen.
 
 ## Tutorials zur Python-Dokumentkonvertierung
 ### [Python-Dokumentkonvertierung – Die vollständige Anleitung](./python-document-conversion/)
@@ -37,6 +37,12 @@ Lernen Sie die Python-Dokumentenkonvertierung mit Aspose.Words für Python. Konv
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown konvertieren und speichern.
 ### [Beschädigte DOCX wiederherstellen und Word in Markdown konvertieren](./recover-corrupted-docx-convert-word-to-markdown/)
 Lernen Sie, beschädigte DOCX-Dateien zu reparieren und anschließend in Markdown zu konvertieren.
+### [DOCX als Markdown speichern – Vollständige Anleitung zur Konvertierung von Word in Markdown](./save-docx-as-markdown-complete-guide-to-convert-word-to-mark/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in Markdown konvertieren und speichern.
+### [DOCX als PDF speichern mit Aspose.Words – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-step-by-step-gui/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python mühelos in PDF konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+### [Barrierefreies PDF erstellen – Vollständige Anleitung mit Aspose.Words](./create-accessible-pdf-complete-guide-with-aspose-words/)
+Erfahren Sie, wie Sie mit Aspose.Words barrierefreie PDF‑Dateien erstellen und die Zugänglichkeit Ihrer Dokumente verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
