@@ -68,6 +68,9 @@ AI 文档处理将传统的文档操作（合并、格式化、转换）与机�
 ### [掌握 Java 文本处理&#58; 使用 Aspose.Words 与 AI 模型进行摘要和翻译](./java-aspose-words-text-processing/)
 了解如何使用 Aspose.Words for Java 与 OpenAI 的 GPT‑4 和 Google 的 Gemini 自动化文本摘要和翻译。立即提升您的 Java 应用程序。
 
+### [使用自托管 LLM 在 Java 中摘要 Word 文档 – 完整指南](./summarize-word-document-in-java-with-self-hosted-llm-full-gu/)
+学习如何在 Java 中使用自托管的大语言模型对 Word 文档进行自动摘要，完整步骤指南。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

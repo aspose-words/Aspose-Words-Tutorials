@@ -66,7 +66,8 @@ Wyeksportuj wzbogacony dokument do potrzebnego formatu — PDF, DOCX, HTML lub n
 ## Dostępne samouczki
 
 ### [Mistrzowskie przetwarzanie tekstu w Javie&#58; użycie Aspose.Words i modeli AI do podsumowywania i tłumaczenia](./java-aspose-words-text-processing/)
-Dowiedz się, jak automatyzować podsumowywanie tekstu i tłumaczenie przy użyciu Aspose.Words for Java z GPT‑4 od OpenAI i Gemini od Google. Ulepsz swoje aplikacje Java już dziś.
+
+### [Podsumuj dokument Word w Javie przy użyciu własnego LLM – pełny przewodnik](./summarize-word-document-in-java-with-self-hosted-llm-full-gu/)
 
 ## Dodatkowe zasoby
 

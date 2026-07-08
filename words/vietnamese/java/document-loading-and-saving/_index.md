@@ -50,7 +50,7 @@ Dưới đây là quy trình ngắn gọn cho workflow tiêu chuẩn. (Mã thự
 
 > *Mẹo:* Sử dụng `Document.getChildNodes(NodeType.SHAPE, true)` để lấy tất cả các shape, bao gồm cả những shape trong header, footer và footnote.
 
-## Tải và Lưu Tài Liệu – Các Khái Niệm Cốt Lõi
+## Tải và Lưu Tài Liệu – Các Khái Niệm Cốt Loại
 
 ### Khám Phá Sức Mạnh của Việc Tải Tài Liệu
 
@@ -91,6 +91,9 @@ Làm chủ Load Options trong Aspose.Words for Java. Tùy chỉnh quá trình t�
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
 
+### [Đăng ký callback cảnh báo trong Java – Phát hiện phông chữ thiếu dễ dàng](./register-warning-callback-in-java-detect-missing-fonts-easil/)
+Hướng dẫn đăng ký callback để nhận cảnh báo phông chữ thiếu khi tải tài liệu Word trong Java bằng Aspose.Words.
+
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận diện văn bản UTF-8 trong tài liệu RTF. Hướng dẫn chi tiết kèm ví dụ mã nguồn.
 
@@ -107,7 +110,7 @@ Học cách lưu tài liệu HTML với bố cục cố định trong Aspose.Wor
 Trong tutorial này, chúng tôi đã đề cập đến các tùy chọn lưu HTML nâng cao với Aspose.Words for Java. Những tùy chọn này cho phép bạn tạo HTML chất lượng cao.
 
 ### [Saving Images from Documents in Aspose.Words for Java](./saving-images-from-documents/)
-Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words for Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
+Học cách lưu hình ảnh từ tài liệu bằng Aspose.Words cho Java qua hướng dẫn chi tiết từng bước. Tùy chỉnh định dạng, nén và hơn thế nữa.
 
 ### [Saving Documents as Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
 Học cách chuyển đổi tài liệu Word sang Markdown với Aspose.Words for Java. Hướng dẫn chi tiết này bao gồm căn chỉnh bảng, xử lý hình ảnh và các yếu tố khác.
@@ -134,6 +137,8 @@ Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words f
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
 
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Thiết Lập Chế Độ Phục Hồi trong Aspose.Words cho Java – Hướng Dẫn Toàn Diện](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
 
 ## Câu Hỏi Thường Gặp
 

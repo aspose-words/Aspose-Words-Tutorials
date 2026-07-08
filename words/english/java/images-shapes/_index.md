@@ -38,6 +38,9 @@ Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word d
 ### [Create Word Document Java – Add Rectangle Shape with Shadow Effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
+### [Create rectangle shape in Java – Complete Step‑by‑Step Guide](./create-rectangle-shape-in-java-complete-step-by-step-guide/)
+Learn how to create a rectangle shape in Java with Aspose.Words using a detailed step‑by‑step guide.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

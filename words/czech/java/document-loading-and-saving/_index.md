@@ -133,7 +133,10 @@ Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifik
 ### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
+
+### [Nastavení režimu obnovy v Aspose.Words pro Java – Kompletní průvodce](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
+
+### [Zaregistrovat zpětné volání varování v Javě – Snadno detekovat chybějící fonty](./register-warning-callback-in-java-detect-missing-fonts-easil/)
 
 ## Často kladené otázky
 

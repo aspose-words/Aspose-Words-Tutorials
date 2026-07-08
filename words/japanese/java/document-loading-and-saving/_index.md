@@ -115,7 +115,11 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words for Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Aspose.Words for Java でリカバリモードを設定する – 完全ガイド](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
+
 ### [Java でフォント置換警告を取得する – Aspose.Words 完全ガイド](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Java で警告コールバックを登録 – 欠落フォントを簡単に検出](./register-warning-callback-in-java-detect-missing-fonts-easil/)
 
 ## よくある質問
 
