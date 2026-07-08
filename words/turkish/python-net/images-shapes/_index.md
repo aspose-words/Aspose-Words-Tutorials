@@ -28,11 +28,14 @@ Aspose.Words Python-net eğitimlerindeki 'Resimler ve Şekiller' kategorisi, tek
 ### [Aspose.Words for Python'da Medya Türü Ayrıştırmada Ustalaşma: Kapsamlı Bir Kılavuz](./mastering-aspose-words-python-media-type-parsing/)
 Aspose.Words for Python ile medya türlerini nasıl ayrıştıracağınızı, dosyaları nasıl şifreleyeceğinizi ve dijital imzaları nasıl doğrulayacağınızı öğrenin. Belge işleme yeteneklerinizi bugün geliştirin.
 
-    ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
+### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aspose.Words for Python ile RTF belgelerinde görüntü işlemeyi nasıl optimize edeceğinizi öğrenin. Görüntüleri WMF formatında kaydedin ve eski okuyucularla uyumluluğu sağlayın.
 
-    ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
+### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aspose.Words for Python kullanarak SVG çıktısını nasıl optimize edeceğinizi öğrenin. Bu kılavuz, görüntü benzeri özellikler, metin oluşturma ve güvenlik geliştirmeleri gibi özel özellikleri kapsar.
+
+### [Python'da Şekle Gölge Ekleme – Aspose.Words ile Tam Kılavuz](./add-shadow-to-shape-in-python-with-aspose-words-full-guide/)
+Aspose.Words for Python kullanarak şekillere gölge eklemeyi adım adım öğrenin ve belgelerinizi görsel olarak zenginleştirin.
 
 ### [C#'ta Gölge Ekleme – Tam Programlama Kılavuzu](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# kullanarak Word belgelerine gölge eklemeyi adım adım öğrenin.

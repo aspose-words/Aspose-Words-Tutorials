@@ -37,6 +37,16 @@ Lär dig dokumentkonvertering i Python med Aspose.Words för Python. Konvertera,
 Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
 ### [Återställ korrupt DOCX och konvertera Word till Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Lär dig hur du återställer korrupta DOCX-filer och konverterar Word-dokument till Markdown med Aspose.Words för Python.
+### [Konvertera docx till markdown – Komplett guide med LaTeX-ekvationer](./convert-docx-to-markdown-complete-guide-with-latex-equations/)
+Lär dig konvertera docx-filer till markdown inklusive LaTeX-ekvationer med Aspose.Words för Python.
+### [Spara docx som PDF med Python – konvertera docx till PDF och exportera former](./save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export/)
+Lär dig hur du konverterar docx-filer till PDF och exporterar former med Aspose.Words för Python.
+### [Spara som PDF med Aspose.Words – Komplett programmeringsguide](./save-as-pdf-with-aspose-words-complete-programming-guide/)
+Lär dig hur du sparar dokument som PDF med Aspose.Words i Python, med steg-för-steg‑instruktioner och kodexempel.
+### [Skapa tillgänglig PDF – Konvertera Word till PDF med Python](./create-accessible-pdf-convert-word-to-pdf-with-python/)
+Lär dig skapa tillgängliga PDF-filer från Word-dokument med Aspose.Words för Python, inklusive taggning och strukturell förbättring.
+### [Hur du byter namn på bilder när du konverterar DOCX till Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+Lär dig hur du automatiskt byter namn på bilder under konvertering av DOCX-filer till Markdown med Aspose.Words för Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
