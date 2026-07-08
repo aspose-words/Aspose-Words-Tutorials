@@ -91,8 +91,8 @@ Odemkněte sílu tvarů dokumentu v Aspose.Words for Java. Naučte se vytvářet
 ### [Použití vodoznaků v dokumentech v Aspose.Words for Java](./using-watermarks-to-documents/)
 Naučte se přidávat vodoznaky do dokumentů v Aspose.Words for Java. Přizpůsobte textové a obrázkové vodoznaky pro profesionálně vypadající dokumenty.
 
-### [Formátování tabulek a stylů tabulek v Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java. Prozkoumejte krok‑za‑krokem průvodce se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení vašich dokumentů s Aspose.Words.
+### [Formátování tabulek a stylů tabulek v Aspose.Words pro Java](./formatting-tables-and-table-styles/)
+Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words pro Java. Prozkoumejte krok‑za‑krokem průvodce se zdrojovým kódem pro efektivní formátování tabulek. Vylepšete rozvržení vašich dokumentů s Aspose.Words.
 
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
@@ -108,6 +108,15 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Java docx do PDF – Generování přístupného PDF pomocí Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Naučte se převést DOCX na PDF s podporou přístupnosti a splnit WCAG standardy pomocí Aspose.Words for Java.
+
+### [Uložit Word jako Markdown – Kompletní průvodce konverzí DOCX do Markdownu](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Naučte se, jak převést soubory DOCX do formátu Markdown pomocí Aspose.Words pro Java.
+
+### [Převod DOCX do Markdown – Kompletní Java tutoriál](./convert-docx-to-markdown-complete-java-tutorial/)
+Naučte se kompletně převést DOCX do Markdown v Javě pomocí Aspose.Words s podrobnými ukázkami kódu.
 
 ## Často kladené otázky
 

@@ -92,6 +92,12 @@ Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words po
 ### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
 
+### [Enregistrer Word en Markdown – Guide complet pour convertir DOCX en Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words for Java, étape par étape, incluant l’exportation du texte et des images.
+
+### [Convertir DOCX en Markdown – Tutoriel Java complet](./convert-docx-to-markdown-complete-java-tutorial/)
+Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words for Java, incluant l’exportation des images et des équations.
+
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
@@ -100,6 +106,9 @@ Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en u
 
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
+
+### [Java docx en PDF – Générer un PDF accessible avec Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+Convertissez des fichiers DOCX en PDF accessible en Java avec Aspose.Words, en respectant les normes d’accessibilité.
 
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
