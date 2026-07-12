@@ -34,6 +34,9 @@ Padroneggiando la creazione di documenti con Aspose.Words per Python, gli svilup
 ### [Guida completa: creazione di documenti Word con Python](./creating-word-documents-using-python/)
 Crea documenti Word dinamici usando Python con Aspose.Words. Automatizza contenuti, formattazione e altro ancora. Semplifica la generazione di documenti in modo efficiente.
 
+### [Guida completa: creazione di documenti PDF/UA conformi con Aspose.Words per Python](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Crea documenti PDF/UA conformi usando Aspose.Words per Python. Genera PDF accessibili e standardizzati in modo semplice.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

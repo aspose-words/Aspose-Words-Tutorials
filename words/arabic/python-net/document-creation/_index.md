@@ -33,6 +33,8 @@
 ## دروس إنشاء مستندات باستخدام Aspose.Words في بايثون
 ### [دليل شامل: إنشاء مستندات Word باستخدام Python](./creating-word-documents-using-python/)
 أنشئ مستندات وورد ديناميكية باستخدام بايثون مع Aspose.Words. أتمتة المحتوى والتنسيق والمزيد. سهّل إنشاء المستندات بكفاءة.
+### [إنشاء مستندات PDF/UA متوافقة مع Aspose.Words لبايثون – دليل كامل](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+أنشئ مستندات PDF/UA متوافقة باستخدام Aspose.Words لبايثون. دليل شامل لإنشاء ملفات PDF معيارية بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,9 @@ Bằng cách làm chủ việc tạo tài liệu với Aspose.Words for Python, 
 ### [Hướng dẫn toàn diện: Tạo tài liệu Word bằng Python](./creating-word-documents-using-python/)
 Tạo tài liệu Word động bằng Python với Aspose.Words. Tự động hóa nội dung, định dạng và nhiều hơn nữa. Tối ưu hóa việc tạo tài liệu một cách hiệu quả.
 
+### [Tạo tài liệu tuân thủ PDF/UA với Aspose.Words Python – Hướng dẫn đầy đủ](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/UA tuân thủ tiêu chuẩn bằng Aspose.Words cho Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
