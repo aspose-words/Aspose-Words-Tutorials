@@ -35,6 +35,7 @@ Ismerje meg, hogyan konvertálhat DOCX fájlokat Markdownba lépésről‑lépé
 ### [Word képek mentése – Word konvertálása Markdownba Aspose-szal](./save-word-images-convert-word-to-markdown-with-aspose/)
 ### [DOCX mentése Markdownba – Teljes C# útmutató Aspose.Words használatával](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 ### [Word konvertálása Markdownba C#‑ban – Teljes útmutató képek kinyerésével](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+### [DOCX konvertálása Markdownba és képek mentése a DOCX‑ből](./convert-docx-to-markdown-save-images-from-docx/)
 ### [Hogyan mentse el a Markdown‑t a DOCX‑ből – Lépésről‑lépésre útmutató](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Ismerje meg, hogyan mentheti el a DOCX fájlokat Markdown formátumba lépésről‑lépésre C#‑ban az Aspose.Words for .NET segítségével.
 ### [Hogyan exportáljunk Markdownot Word-ből – Teljes C# útmutató](./how-to-export-markdown-from-word-complete-c-guide/)
@@ -52,6 +53,8 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba C#-ban az A
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [Hogyan nevezze át a képeket a DOCX‑ből Markdownba konvertáláskor](./how-to-rename-images-when-converting-docx-to-markdown/)
 Ismerje meg, hogyan nevezheti át a képeket a DOCX‑ből Markdownba történő konvertálás során az Aspose.Words for .NET használatával.
+### [Word dokumentum helyreállítása Aspose.Words segítségével – Teljes útmutató](./recover-word-document-with-aspose-words-full-guide/)
+Ismerje meg, hogyan állíthatja helyre a sérült Word dokumentumokat az Aspose.Words teljes útmutatója alapján.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

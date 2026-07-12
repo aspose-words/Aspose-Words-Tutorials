@@ -40,6 +40,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Hoe een DOCX te herstellen – herstelmodus instellen & corrupte Word‑bestanden openen](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Leer hoe u een beschadigd DOCX‑bestand kunt herstellen door de herstelmodus in te stellen en corrupte Word‑bestanden te openen met Aspose.Words voor .NET. |
 | [Hoe LoadOptions in Aspose.Words te gebruiken – Complete gids](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Leer stap voor stap hoe u LoadOptions gebruikt in Aspose.Words voor .NET met deze volledige gids. |
 | [Beschadigd document herstellen in C# – Herstelmodus instellen & gebruiker prompten](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Leer hoe u beschadigde documenten kunt herstellen in C# door de herstelmodus in te stellen en de gebruiker een prompt te tonen. |
+| [Waarschuwingscallback registreren in Aspose.Words – Complete programmeergids](./register-warning-callback-in-aspose-words-complete-programmi/) | Leer hoe u een waarschuwingscallback registreert in Aspose.Words met een volledige programmeergids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

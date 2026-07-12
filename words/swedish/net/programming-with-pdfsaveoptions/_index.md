@@ -50,6 +50,7 @@ Oavsett om du vill konvertera Word-dokument till PDF för onlinedistribution, ar
 | [Skapa tillgänglig PDF i C# – PDF-tillgänglighetstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Lär dig skapa tillgängliga PDF-filer i C# med Aspose.Words och följa WCAG-riktlinjer. |
 | [Skapa tillgänglig PDF från Word – Komplett guide](./create-accessible-pdf-from-word-complete-guide/) | Lär dig hur du skapar tillgängliga PDF-filer från Word-dokument med Aspose.Words för .NET i en komplett steg-för-steg-guide. |
 | [Skapa tillgänglig PDF – Steg‑för‑steg guide för PDF/UA‑efterlevnad](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Lär dig hur du skapar PDF-filer som uppfyller PDF/UA‑standarder för tillgänglighet med Aspose.Words för .NET. |
+| [Konvertera Word till tillgänglig PDF med Aspose.Words – Komplett guide](./convert-word-to-accessible-pdf-with-aspose-words-complete-gu/) | Lär dig hur du konverterar Word-dokument till tillgängliga PDF-filer med Aspose.Words i en komplett guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
