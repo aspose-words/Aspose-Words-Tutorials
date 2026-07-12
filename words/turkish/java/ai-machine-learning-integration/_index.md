@@ -67,6 +67,15 @@ Zenginleştirilmiş belgeyi ihtiyacınız olan formata dışa aktarın—PDF, DO
 ### [Java'da Metin İşlemede Ustalaşın&#58; Özetleme ve Çeviri için Aspose.Words & AI Modelleri Kullanımı](./java-aspose-words-text-processing/)
 OpenAI'nin GPT‑4 ve Google'ın Gemini'si ile Aspose.Words for Java kullanarak metin özetleme ve çeviriyi nasıl otomatikleştireceğinizi öğrenin. Java uygulamalarınızı bugün geliştirin.
 
+### [Java'da DOCX Üzerinde Dilbilgisi Kontrolü Çalıştırma – Tam Programlama Kılavuzu](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Java ile Aspose.Words kullanarak DOCX dosyalarında otomatik dilbilgisi denetimi yapın ve sonuçları alın.
+
+### [Java'da Belge Özeti Oluşturma – Aspose.Words Tam Kılavuz](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java kullanarak belgelerinizin özetini otomatik olarak oluşturmayı adım adım öğrenin.
+
+### [Gemini ile DOCX'i İspanyolcaya Çevirme – Tam Java Kılavuzu](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Gemini AI modelini kullanarak DOCX dosyalarını otomatik olarak İspanyolcaya çevirin ve Aspose.Words ile sonuçları kaydedin.
+
 ## Ek Kaynaklar
 - [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/)
 - [Aspose.Words for API Referansı](https://reference.aspose.com/words/java/)

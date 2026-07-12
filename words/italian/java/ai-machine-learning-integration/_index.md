@@ -68,6 +68,15 @@ Esporta il documento arricchito nel formato necessario—PDF, DOCX, HTML o anche
 ### [Elaborazione Testi Master in Java&#58; Utilizzo di Aspose.Words & AI Models per Sommario e Traduzione](./java-aspose-words-text-processing/)
 Scopri come automatizzare la sintesi e la traduzione del testo usando Aspose.Words per Java con GPT‑4 di OpenAI e Gemini di Google. Migliora oggi le tue applicazioni Java.
 
+### [Esegui il controllo grammaticale su DOCX in Java – Guida completa di programmazione](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Scopri come integrare il controllo grammaticale AI nei file DOCX usando Aspose.Words per Java e un servizio di correzione linguistica.
+
+### [Crea riepilogo documento in Java con Aspose.Words – Guida completa](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Impara a generare automaticamente un riepilogo dei documenti usando Aspose.Words per Java e modelli AI avanzati.
+
+### [Come utilizzare Gemini per tradurre DOCX in spagnolo – Guida completa Java](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Scopri come tradurre documenti DOCX in spagnolo usando il modello Gemini di Google con Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 - [Documentazione Aspose.Words per Java](https://reference.aspose.com/words/java/)

@@ -1,8 +1,8 @@
 ---
 date: 2025-11-25
 description: Apprenez comment intégrer l'IA pour le traitement intelligent de documents
-  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA, la
-  génération de contenu et la traduction.
+  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA,
+  la génération de contenu et la traduction.
 title: Comment intégrer l'IA avec Aspose.Words pour Java – IA & ML
 url: /fr/java/ai-machine-learning-integration/
 weight: 20
@@ -67,6 +67,15 @@ Exportez le document enrichi au format dont vous avez besoin—PDF, DOCX, HTML o
 
 ### [Maîtriser le traitement de texte en Java : Utiliser Aspose.Words & les modèles d'IA pour la synthèse et la traduction](./java-aspose-words-text-processing/)
 Apprenez à automatiser la synthèse et la traduction de texte en utilisant Aspose.Words pour Java avec le GPT‑4 d'OpenAI et le Gemini de Google. Améliorez vos applications Java dès aujourd'hui.
+
+### [Exécuter la vérification grammaticale sur DOCX en Java – Guide complet de programmation](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Apprenez à intégrer la vérification grammaticale IA dans vos documents DOCX avec Aspose.Words pour Java, étape par étape.
+
+### [Créer un résumé de document en Java avec Aspose.Words – Guide complet](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Apprenez à générer automatiquement un résumé de document en Java en utilisant Aspose.Words et l'IA.
+
+### [Comment utiliser Gemini pour traduire des DOCX en espagnol – Guide complet Java](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Apprenez à traduire automatiquement des documents DOCX en espagnol avec le modèle Gemini d'IA, en utilisant Aspose.Words pour Java.
 
 ## Ressources supplémentaires
 
