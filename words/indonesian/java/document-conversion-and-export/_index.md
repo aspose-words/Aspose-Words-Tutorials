@@ -87,6 +87,12 @@ Pelajari cara menambahkan watermark ke dokumen di Aspose.Words for Java. Sesuaik
 ### [Aspose Word ke PDF – Mengonversi DOCX ke PDF di Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words for Java dengan contoh kode lengkap.
 
+### [Mengonversi DOCX ke PDF dengan Aspose.Words – Panduan Lengkap](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words dengan contoh kode lengkap dan opsi kustomisasi.
+
+### [Tutorial docx ke pdf: Mengonversi File Word dengan Aspose di Java](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words for Java dengan contoh kode lengkap dan opsi kustomisasi.
+
 ### [Memformat Tabel dan Gaya Tabel di Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java. Jelajahi panduan langkah demi langkah dengan kode sumber untuk pemformatan tabel yang efektif. Tingkatkan tata letak dokumen Anda dengan Aspose.Words.
 
@@ -101,6 +107,15 @@ Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaa
 
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Buat PDF Aksesibel dari Word – Panduan Lengkap untuk Mengekspor Word ke PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+Pelajari cara mengonversi dokumen Word menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
+
+### [Mengonversi DOCX ke Markdown dengan Gambar Tersemat – Panduan Java](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+Pelajari cara mengonversi file DOCX menjadi Markdown sambil menyertakan gambar secara otomatis menggunakan Aspose.Words for Java.
+
+### [Mengonversi DOCX ke PNG – Panduan Lengkap Java dengan Tata Letak Grid](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+Pelajari cara mengonversi dokumen DOCX menjadi gambar PNG dengan tata letak grid menggunakan Aspose.Words for Java.
 
 ## Pertanyaan yang Sering Diajukan
 

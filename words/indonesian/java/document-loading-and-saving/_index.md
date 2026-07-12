@@ -135,6 +135,9 @@ Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan 
 ### [Pulihkan docx yang rusak – Panduan Lengkap untuk Memperbaiki dan Memproses Dokumen](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Pelajari cara memulihkan file DOCX yang rusak, memperbaikinya, dan melanjutkan pemrosesan dokumen dengan Aspose.Words untuk Java.
 
+### [Pulihkan File DOCX Rusak – Panduan Lengkap Java](./recover-corrupted-docx-files-complete-java-guide/)
+Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Java dengan contoh kode lengkap dan langkah‑langkah praktis.
+
 ### [Menangkap Peringatan Substitusi Font di Java dengan Aspose.Words – Panduan Lengkap](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Pelajari cara menangkap peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
 

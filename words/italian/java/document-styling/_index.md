@@ -43,6 +43,8 @@ Scopri come personalizzare i temi dei documenti utilizzando Aspose.Words per Jav
 Scopri come applicare filigrane e configurare le pagine con Aspose.Words per Java. Una guida completa con codice sorgente.
 ### [Stile dell'intestazione e del piè di pagina del documento](./document-header-footer-styling/)
 Scopri come formattare intestazioni e piè di pagina dei documenti utilizzando Aspose.Words per Java in questa guida dettagliata. Istruzioni dettagliate e codice sorgente inclusi.
+### [Modifica dello stile del carattere nei documenti Word – Guida completa C#](./change-font-style-in-word-documents-complete-c-guide/)
+Scopri come modificare lo stile dei caratteri nei documenti Word usando Aspose.Words per Java con esempi di codice C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Erfahren Sie, wie Sie Dokumentdesigns mit Aspose.Words für Java anpassen. Diese
 Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen anwenden und Seitenkonfigurationen einrichten. Eine umfassende Anleitung mit Quellcode.
 ### [Stil der Kopf- und Fußzeile des Dokuments](./document-header-footer-styling/)
 Erfahren Sie in dieser ausführlichen Anleitung, wie Sie Dokumentkopf- und -fußzeilen mit Aspose.Words für Java formatieren. Schritt-für-Schritt-Anleitung und Quellcode inklusive.
+### [Schriftstil in Word-Dokumenten ändern – Vollständiger C#-Leitfaden](./change-font-style-in-word-documents-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# die Schriftart in Word-Dokumenten ändern. Vollständige Anleitung mit Beispielcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

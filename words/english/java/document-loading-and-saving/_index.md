@@ -129,7 +129,8 @@ Learn how to save documents as text files in Aspose.Words for Java. Follow our s
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
 
 ### [Recover corrupted docx – Complete Guide to Fix and Process Documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
+
+### [Recover Corrupted DOCX Files – Complete Java Guide](./recover-corrupted-docx-files-complete-java-guide/)
 
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.

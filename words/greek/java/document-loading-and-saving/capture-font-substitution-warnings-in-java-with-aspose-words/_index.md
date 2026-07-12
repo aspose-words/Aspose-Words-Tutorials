@@ -1,28 +1,51 @@
 ---
 category: general
-date: 2026-01-11
-description: Μάθετε πώς να καταγράφετε προειδοποιήσεις αντικατάστασης γραμματοσειράς
-  χρησιμοποιώντας το Aspose.Words για Java. Αυτό το βήμα‑βήμα εκπαιδευτικό υλικό καλύπτει
-  επίσης τις LoadOptions και τις κλήσεις επιστροφής προειδοποιήσεων.
+date: 2026-06-27
+description: Μάθετε πώς να καταγράφετε προειδοποιήσεις αντικατάστασης γραμματοσειρών
+  σε Java χρησιμοποιώντας το Aspose.Words. Αυτό το βήμα‑βήμα εκπαιδευτικό υλικό καλύπτει
+  επίσης τις κλήσεις επιστροφής προειδοποιήσεων και τη χρήση του LoadOptions.
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: el
-og_description: Καταγράψτε τις προειδοποιήσεις αντικατάστασης γραμματοσειρών με το
-  Aspose.Words για Java. Ακολουθήστε αυτόν τον οδηγό για να ρυθμίσετε τις LoadOptions
-  και μια κλήση επιστροφής προειδοποίησης για αξιόπιστη φόρτωση εγγράφων.
-og_title: Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java – Πλήρης
-  Οδηγός
+og_description: Καταγράψτε τις προειδοποιήσεις αντικατάστασης γραμματοσειρών σε Java
+  με το Aspose.Words. Ακολουθήστε αυτόν τον οδηγό για να ρυθμίσετε callbacks προειδοποιήσεων,
+  να χρησιμοποιήσετε το LoadOptions και να διαχειριστείτε τις ελλείπουσες γραμματοσειρές.
+og_title: Καταγραφή Προειδοποιήσεων Υποκατάστασης Γραμματοσειρών σε Java – Εκπαίδευση
+  Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με το Aspose.Words
-  – Πλήρης Οδηγός
+- Document Conversion
+title: Καταγραφή προειδοποιήσεων αντικατάστασης γραμματοσειρών σε Java με το Aspose.Words
+  – Πλήρης οδηγός
 url: /el/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -30,197 +53,185 @@ url: /el/java/document-loading-and-saving/capture-font-substitution-warnings-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς – Πλήρες Java Tutorial
+# Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός
 
-Έχετε χρειαστεί ποτέ να **καταγράψετε προειδοποιήσεις αντικατάστασης γραμματοσειράς** όταν ανοίγετε ένα έγγραφο Word με ελλιπείς γραμματοσειρές; Είναι ένα συχνό πρόβλημα, ειδικά όταν δημιουργείτε PDF ή εκτυπώνετε σε διακομιστή που δεν έχει εγκατεστημένες όλες τις γραμματοσειρές. Τα καλά νέα; Το Aspose.Words for Java το κάνει εύκολο — αρκεί να διαμορφώσετε ένα αντικείμενο `LoadOptions` και να συνδέσετε μια callback προειδοποίησης. Σε αυτόν τον οδηγό θα δείτε ακριβώς πώς γίνεται, γιατί είναι σημαντικό και τι να περιμένετε όταν ενεργοποιηθεί η προειδοποίηση.
+Χρειάστηκε ποτέ να **καταγράψετε προειδοποιήσεις αντικατάστασης γραμματοσειράς** κατά τη φόρτωση ενός DOCX που χρησιμοποιεί εξωτικές γραμματοσειρές; Δεν είστε ο μόνος. Σε πολλά πραγματικά έργα—σκεφτείτε αυτόματους δημιουργούς αναφορών ή μετατροπείς εγγράφων σε παρτίδες—η έλλειψη γραμματοσειρών προκαλεί σιωπηλές αντικαταστάσεις που μπορούν να χαλάσουν την πιστότητα της διάταξης.
 
-Θα αγγίξουμε επίσης σχετικά θέματα όπως **Aspose.Words font substitution**, χρήση **Java warning callback**, και βέλτιστες πρακτικές για **LoadOptions usage**. Στο τέλος, θα έχετε ένα έτοιμο‑για‑εκτέλεση απόσπασμα κώδικα που καταγράφει κάθε συμβάν ελλιπούς γραμματοσειράς, ώστε η επόμενη επεξεργασία σας να μην σας εκπλήσσει.
+Fortunately, Aspose.Words gives you a clean way to listen for those warnings. In this tutorial we'll walk through configuring **LoadOptions**, wiring an **Aspose.Words warning callback**, and printing every *font substitution* notice to the console. By the end you'll know exactly when a font has been swapped and how to react programmatically.
 
-## Προαπαιτούμενα
+> **Τι θα πάρετε:** ένα πλήρως εκτελέσιμο απόσπασμα Java, μια εξήγηση του *γιατί* κάθε μέρος είναι σημαντικό, και συμβουλές για τη διαχείριση ειδικών περιπτώσεων όπως προσαρμοσμένοι φάκελοι γραμματοσειρών.
 
-Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε:
+## Προαπαιτούμενα & Τι Θα Χρειαστείτε
 
-- Java 17 (ή οποιοδήποτε πρόσφατο JDK) εγκατεστημένο και ρυθμισμένο.
-- Aspose.Words for Java 23.10 (ή νεότερη) στο classpath σας.
-- Ένα έγγραφο Word που αναφέρει μια γραμματοσειρά που δεν έχετε τοπικά (π.χ., `DocWithMissingFont.docx`).
-- Βασική εξοικείωση με τα μπλοκ try/catch της Java — τίποτα περίπλοκο.
+- Java 8 ή νεότερη εγκατεστημένη (ο κώδικας λειτουργεί επίσης με Java 11+).
+- Το πιο πρόσφατο Aspose.Words for Java JAR (κατεβάστε από την επίσημη ιστοσελίδα ή το Maven Central).
+- Ένα αρχείο DOCX που αναφέρει γραμματοσειρές που δεν είναι εγκατεστημένες στο σύστημά σας (π.χ., ένα *font‑rich.docx* που μπορείτε να βρείτε στο σύνολο demo του Aspose).
+- Ένα καλό IDE (IntelliJ IDEA, Eclipse ή ακόμη και VS Code με επεκτάσεις Java).
 
-Αν κάποιο από αυτά δεν σας είναι γνωστό, κάντε ένα διάλειμμα και εγκαταστήστε τη βιβλιοθήκη από το Maven Central:
+No external libraries beyond Aspose.Words are required, and the example runs in a plain `main` method.
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+## Βήμα 1: Ρύθμιση LoadOptions – Το Σημείο Εισόδου για Προσαρμοσμένη Φόρτωση
 
-Τώρα που το υπόβαθρο είναι έτοιμο, ας περάσουμε στον κώδικα.
-
-## Βήμα 1: Ρύθμιση Callback Προειδοποίησης για **Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς**
-
-Το πρώτο που χρειάζεστε είναι μια callback που το Aspose.Words θα καλέσει όποτε εντοπίσει μια ελλιπή γραμματοσειρά. Εδώ **καταγράφετε προειδοποιήσεις αντικατάστασης γραμματοσειράς**. Η callback υλοποιεί τη διεπαφή `IWarningCallback` και ελέγχει το `WarningType`.
+`LoadOptions` is Aspose.Words’ configuration bag that tells the library *how* to read a document. By default it silently substitutes missing fonts, but you can change that behavior with a warning callback.
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**Γιατί είναι σημαντικό:** Χωρίς μια callback, το Aspose.Words αντικαθιστά σιωπηλά τη λείπουσα γραμματοσειρά με μια προεπιλεγμένη, και δεν γνωρίζετε ότι η οπτική έξοδος έχει αλλάξει. Καταγράφοντας την προειδοποίηση, μπορείτε να την καταγράψετε, να στείλετε ειδοποίηση ή ακόμη και να ακυρώσετε τη φόρτωση αν η λείπουσα γραμματοσειρά είναι κρίσιμη.
+**Γιατί είναι σημαντικό:** Χωρίς `LoadOptions`, το έγγραφο φορτώνεται αθόρυβα και χάνετε την ορατότητα στις ελλιπείς γραμματοσειρές. Δημιουργώντας μια παρουσία κερδίζετε ένα hook για το σύστημα προειδοποιήσεων.
 
-## Βήμα 2: Διαμόρφωση **LoadOptions** και Καταχώρηση της Callback
+## Βήμα 2: Ορισμός Callback Προειδοποίησης για *Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς*
 
-Τώρα δημιουργούμε ένα αντικείμενο `LoadOptions` και συνδέουμε το `FontWarningCallback`. Αυτό το βήμα είναι ουσιώδες για **LoadOptions usage** και εξασφαλίζει ότι κάθε φόρτωση εγγράφου περνάει από το ίδιο φίλτρο προειδοποιήσεων.
+Aspose.Words pushes warning events through the `IWarningCallback` interface. Implement it inline (or as a separate class) and filter for `WarningType.FONT_SUBSTITUTION`.
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-**Συμβουλή:** Μπορείτε να επαναχρησιμοποιήσετε το ίδιο αντικείμενο `LoadOptions` για πολλά έγγραφα, εξοικονομώντας μερικές γραμμές κώδικα και εξασφαλίζοντας συνεπή **document loading warnings** σε όλη την εφαρμογή σας.
+**Εξήγηση:**  
+- `info.getWarningType()` σας λέει την κατηγορία της προειδοποίησης.  
+- `WarningType.FONT_SUBSTITUTION` είναι η τιμή enum που μας ενδιαφέρει.  
+- `info.getDescription()` περιέχει ένα ανθρώπινα αναγνώσιμο μήνυμα, π.χ., *“Font 'Comic Sans MS' not found, substituted with 'Arial'.”*  
 
-## Βήμα 3: Φόρτωση του Εγγράφου και Παρατήρηση της Εξόδου
+Με την εκτύπωση της περιγραφής, **καταγράφετε προειδοποιήσεις αντικατάστασης γραμματοσειράς** σε πραγματικό χρόνο.
 
-Με τη callback συνδεδεμένη, απλώς φορτώστε το αρχείο Word. Αν το έγγραφο αναφέρει μια γραμματοσειρά που δεν είναι εγκατεστημένη, η callback θα ενεργοποιηθεί και θα εκτυπώσει λεπτομέρειες στην κονσόλα.
+## Βήμα 3: Φόρτωση του Εγγράφου Χρησιμοποιώντας τις Ρυθμισμένες LoadOptions
+
+Now that the callback is in place, load your DOCX. The warning callback fires automatically during parsing.
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### Αναμενόμενη Έξοδος Κονσόλας
+Replace `YOUR_DIRECTORY` with the actual path to your test file. When the `Document` constructor runs, any missing font triggers the callback defined earlier, and you’ll see the substitution messages on the console.
 
-Υποθέτοντας ότι το `DocWithMissingFont.docx` αναφέρει τη λείπουσα γραμματοσειρά *«Comic Sans MS»*, θα δείτε κάτι όπως:
+## Βήμα 4: Επαλήθευση του Φορτωμένου Εγγράφου (Προαιρετικό αλλά Χρήσιμο)
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-Αν το έγγραφο **δεν περιέχει ελλιπείς γραμματοσειρές**, η κονσόλα θα εμφανίσει μόνο τη τελευταία γραμμή, επιβεβαιώνοντας ότι η callback δεν παρήγαγε ψευδείς θετικές.
-
-## Βήμα 4: Διαχείριση Ακραίων Περιπτώσεων και Συνηθισμένων Παγίδων
-
-### Πολλαπλές Λείπουσες Γραμματοσειρές
-
-Αν ένα έγγραφο χρησιμοποιεί πολλές μη διαθέσιμες γραμματοσειρές, η callback εκτελείται μία φορά ανά γραμματοσειρά. Θα λάβετε μια σειρά μηνυμάτων, το καθένα με το δικό του `source` και `description`. Δεν απαιτείται επιπλέον κώδικας — απλώς βεβαιωθείτε ότι το σύστημα καταγραφής σας μπορεί να διαχειριστεί γρήγορες διαδοχικές κλήσεις.
-
-### Καταστολή Προειδοποιήσεων
-
-Σε σπάνιες περιπτώσεις μπορεί να θέλετε να αγνοήσετε ορισμένες αντικαταστάσεις (π.χ., γνωρίζετε ότι μια συγκεκριμένη εναλλακτική είναι αποδεκτή). Επεκτείνετε τη λογική της callback:
+After loading, you might want to confirm the document's integrity—page count, text extraction, etc. This step isn’t required for capturing warnings, but it helps you see the impact of substitutions.
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### Ασφάλεια Στο Νήμα
+If a font was substituted, the layout may shift slightly; checking the page count can reveal such changes.
 
-Το `LoadOptions` του Aspose.Words δεν είναι thread‑safe από προεπιλογή. Αν φορτώνετε έγγραφα παράλληλα, δημιουργήστε ξεχωριστό αντικείμενο `LoadOptions` ανά νήμα ή συγχρονίστε τη callback για να αποφύγετε συνθήκες αγώνα.
+## Βήμα 5: Προχωρημένο – Διαχείριση Αντικαταστημένων Γραμματοσειρών Προγραμματιστικά
 
-## Βήμα 5: Επαλήθευση της Αντικατασταθείσας Γραμματοσειράς στο Τελικό Έγγραφο
-
-Μετά τη φόρτωση, ίσως θέλετε να επιβεβαιώσετε ότι η αντικατάσταση πραγματικά πραγματοποιήθηκε. Το API σας επιτρέπει να επαναλάβετε όλα τα runs και να ελέγξετε το τελικό όνομα γραμματοσειράς:
+Sometimes you don’t just want to log the warning—you might need to embed a fallback font or adjust styling. Below is a quick pattern you can adopt.
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-Αυτό το απόσπασμα εκτυπώνει κάθε τμήμα κειμένου με τη τελική του γραμματοσειρά. Είναι ένας χρήσιμος έλεγχος λογικής όταν χτίζετε αυτοματοποιημένες αλυσίδες μετατροπής PDF.
+By pointing Aspose.Words to a folder that contains the original fonts, you can *prevent* substitution altogether. If the folder is missing, the warning callback still captures the event, giving you a fallback strategy.
 
 ## Πλήρες Παράδειγμα Εργασίας
 
-Συνδυάζοντας τα παραπάνω, ορίστε το ολοκληρωμένο, έτοιμο‑για‑εκτέλεση πρόγραμμα:
+Putting it all together, here’s the complete, ready‑to‑run program:
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-Αποθηκεύστε το ως `FontSubstitutionInfo.java`, μεταγλωττίστε με `javac` και τρέξτε με `java FontSubstitutionInfo`. Θα πρέπει να δείτε τα μηνύματα προειδοποίησης (αν υπάρχουν) ακολουθούμενα από τη λίστα των runs και τις τελικές τους γραμματοσειρές.
+**Αναμενόμενη έξοδος στην κονσόλα** (όταν εντοπιστεί μια ελλιπής γραμματοσειρά):
 
-## Οπτική Βοήθεια
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![Screenshot of console output showing font substitution warnings](/images/font-substitution-warning.png "capture font substitution warnings example")
+If all fonts are present, the callback remains silent—nothing is printed, which is exactly what you’d expect.
 
-*Alt text:* **capture font substitution warnings** – έξοδος κονσόλας μετά τη φόρτωση εγγράφου με λείπουσες γραμματοσειρές.
+## Κοινά Παράπτωμα & Επαγγελματικές Συμβουλές
+
+| Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
+|----------|----------------|----------|
+| **Callback never fires** | Ξεχάσατε να συνδέσετε το callback στο `LoadOptions` **ή** χρησιμοποιήσατε τον προεπιλεγμένο κατασκευαστή του `Document` χωρίς να περάσετε `loadOptions`. | Πάντα καλέστε `loadOptions.setWarningCallback(...)` **και** χρησιμοποιήστε την υπερφόρτωση `new Document(path, loadOptions)`. |
+| **Too many warnings clutter the log** | Μεγάλα έγγραφα με πολλές ελλιπείς γραμματοσειρές παράγουν μια προειδοποίηση ανά αντικατάσταση. | Φιλτράρετε περαιτέρω ελέγχοντας `info.getDescription()` για συγκεκριμένα ονόματα γραμματοσειρών, ή συγκεντρώστε τις προειδοποιήσεις σε λίστα για μεταγενέστερη επεξεργασία. |
+| **Substituted fonts affect layout** | Η εναλλακτική γραμματοσειρά μπορεί να έχει διαφορετικά μετρικά (μέγεθος, απόσταση). | Παρέχετε φάκελο προσαρμοσμένων γραμματοσειρών (δείτε το Βήμα 5) ή προσαρμόστε το στυλ του εγγράφου μετά τη φόρτωση. |
+| **Running on a headless server** | Η προεπιλεγμένη εναλλακτική γραμματοσειρά μπορεί να βασίζεται σε συστημικές γραμματοσειρές που δεν είναι εγκατεστημένες στον διακομιστή. | Συμπεριλάβετε τις απαιτούμενες γραμματοσειρές με την εφαρμογή σας και κατευθύνετε το `FontSettings` σε αυτόν τον φάκελο. |
+
+## Συχνές Ερωτήσεις
+
+**Q: Λειτουργεί αυτό με PDF ή άλλες μορφές;**  
+A: Ναι. Το callback προειδοποίησης είναι ανεξάρτητο από τη μορφή· ενεργοποιείται για οποιονδήποτε τύπο εγγράφου που φορτώνει το Aspose.Words (DOC, DOCX, RTF, HTML, κ.λπ.). Η μόνη διαφορά είναι το σύνολο των προειδοποιήσεων που μπορεί να εμφανιστούν.
+
+**Q: Μπορώ να καταγράψω άλλους τύπους προειδοποιήσεων, όπως προειδοποιήσεις *ανάλυσης εικόνας*;**  
+A: Απόλυτα. Μέσα στη μέθοδο `warning`, ελέγξτε το `info.getWarningType()` για άλλες τιμές enum όπως `WarningType.IMAGE_RESOLUTION`. Στη συνέχεια χειριστείτε τις ανάλογα.
+
+**Q: Τι γίνεται αν χρειαστώ τη λίστα των αντικαταστημένων γραμματοσειρών μετά τη φόρτωση του εγγράφου;**  
+A: Αποθηκεύστε κάθε `info.getDescription()` σε μια `List<String>` μέσα στο callback. Μετά τη φόρτωση, θα έχετε μια συλλογή που μπορείτε να καταγράψετε, να στείλετε σε υπηρεσία παρακολούθησης ή να χρησιμοποιήσετε για να ενεργοποιήσετε μια διαδικασία λήψης γραμματοσειρών.
 
 ## Συμπέρασμα
 
-Τώρα ξέρετε πώς να **καταγράψετε προειδοποιήσεις αντικατάστασης γραμματοσειράς** χρησιμοποιώντας το Aspose.Words for Java. Διαμορφώνοντας ένα αντικείμενο `LoadOptions` και παρέχοντας μια προσαρμοσμένη `IWarningCallback`, αποκτάτε πλήρη ορατότητα σε οποιαδήποτε συμβάντα ελλιπών γραμματοσειρών που διαφορετικά θα μπορούσαν να επηρεάσουν σιωπηλά την εμφάνιση του εγγράφου σας. Αυτή η τεχνική ενσωματώνεται απευθείας στη **Aspose.Words font substitution** διαχείριση, εξασφαλίζει αξιόπιστες **document loading warnings** και σας δίνει την ευελιξία να καταγράψετε, να ειδοποιήσετε ή να ακυρώσετε ανάλογα με τους επιχειρηματικούς σας κανόνες.
+You now know **how to capture font substitution warnings** in Java using Aspose.Words, why each piece of the puzzle matters, and how to extend the solution for real‑world scenarios. By leveraging `LoadOptions`, an `Aspose.Words warning callback`, and optional `FontSettings`, you gain full visibility into missing fonts and can keep your document conversion pipelines reliable.
 
-### Τι Ακολουθεί;
+Ready for the next step? Try swapping out the `System.out.println` with a logger like SLF4J, or integrate the warning list into a UI that alerts users before they finalize a batch conversion. You could also explore the **Aspose.Words warning callback** for other warning types, such as *unsupported features* or *high‑resolution image* alerts.  
 
-- Εξερευνήστε πρότυπα **Java warning callback** για άλλους τύπους προειδοποιήσεων (π.χ., `DEPRECATED_FEATURE`).
-- Συνδυάστε αυτήν την προσέγγιση με **PDF conversion** για να εγγυηθείτε ότι οι αντικαταστάσεις γραμματοσειρών δεν θα διαταράξουν τη διάταξη.
-- Βυθιστείτε περισσότερο στη **LoadOptions usage** — πειραματιστείτε με `Password`, `Encoding` και `ResourceLoadingCallback` για πιο προχωρημένα σενάρια.
+Happy coding, and may your PDFs never suffer from unexpected font swaps again! 
 
-Μη διστάσετε να τροποποιήσετε τη callback, να κατευθύνετε τις προειδοποιήσεις σε ένα πλαίσιο καταγραφής ή ακόμη και να ρίξετε μια προσαρμοσμένη εξαίρεση αν λείπει κρίσιμη γραμματοσειρά. Ο ουρανός είναι το όριο, και τώρα έχετε μια σταθερή βάση για να χτίσετε πάνω της.
+![Στιγμιότυπο οθόνης που δείχνει την έξοδο της κονσόλας με τις καταγεγραμμένες προειδοποιήσεις αντικατάστασης γραμματοσειράς](image-placeholder.png "καταγραφή προειδοποιήσεων αντικατάστασης γραμματοσειράς")
 
-Καλή προγραμματιστική δουλειά, και εύχομαι τα έγγραφά σας να αποδίδουν πάντα όπως το περιμένετε!
+## Τι Θα Πρέπει Να Μάθετε Στη Σύντομη Μελλοντική
+
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+
+- [Ενεργοποίηση Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς στο Aspose.Words – Πλήρης Οδηγός](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [Πώς να Ορίσετε LoadOptions στο Aspose.Words για Java](/words/english/java/document-loading-and-saving/using-load-options/)
+- [Πώς να Δημιουργήσετε PDF Έγγραφα με Aspose.Words για Java | Document Processing API](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -97,6 +97,9 @@ Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
 
+### [Převod DOCX na Markdown s vloženými obrázky – Java průvodce](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+Naučte se převádět soubory DOCX na Markdown a zachovat obrázky přímo v dokumentu pomocí Aspose.Words for Java.
+
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
 
@@ -108,6 +111,18 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Převod DOCX na PDF pomocí Aspose.Words – Kompletní průvodce](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+Naučte se převést soubory DOCX na PDF pomocí Aspose.Words s podrobným krok‑za‑krokem návodem.
+
+### [Vytvořit přístupný PDF z Wordu – Kompletní průvodce exportem Wordu do PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+Naučte se, jak pomocí Aspose.Words vytvořit PDF s podporou přístupnosti z dokumentu Word, včetně nastavení značek a struktury.
+
+### [Převod DOCX na PNG – Kompletní průvodce pro Javu s mřížkovým rozložením](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+Naučte se převést soubory DOCX na obrázky PNG v Javě a uspořádat je do mřížky pomocí Aspose.Words.
+
+### [Tutoriál docx do pdf: Převod souborů Word pomocí Aspose v Javě](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+Naučte se převést soubory DOCX do PDF pomocí Aspose.Words for Java jedním jednoduchým kódem.
 
 ## Často kladené otázky
 

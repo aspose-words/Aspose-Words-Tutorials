@@ -1,26 +1,49 @@
 ---
 category: general
-date: 2026-01-11
-description: Aspose.Words for Java kullanarak yazı tipi ikame uyarılarını nasıl yakalayacağınızı
-  öğrenin. Bu adım adım öğretici ayrıca LoadOptions ve uyarı geri çağrımlarını da
-  kapsar.
+date: 2026-06-27
+description: Aspose.Words kullanarak Java'da font ikame uyarılarını nasıl yakalayacağınızı
+  öğrenin. Bu adım adım öğretici, uyarı geri çağrıları ve LoadOptions kullanımını
+  da kapsar.
 draft: false
 keywords:
 - capture font substitution warnings
-- Aspose.Words font substitution
-- Java warning callback
-- LoadOptions usage
-- document loading warnings
+- Aspose.Words warning callback
+- Java LoadOptions example
+- font substitution handling
+- document processing with Aspose
 language: tr
-og_description: Aspose.Words for Java ile yazı tipi ikame uyarılarını yakalayın. Güvenilir
-  belge yüklemesi için LoadOptions ve bir uyarı geri çağrısı ayarlamak üzere bu kılavuzu
-  izleyin.
-og_title: Java'da Yazı Tipi Değişimi Uyarılarını Yakalama – Tam Kılavuz
+og_description: Java'da Aspose.Words ile yazı tipi ikame uyarılarını yakalayın. Uyarı
+  geri çağrımlarını ayarlamak, LoadOptions kullanmak ve eksik yazı tiplerini ele almak
+  için bu kılavuzu izleyin.
+og_title: Java’da Yazı Tipi Değiştirme Uyarılarını Yakalama – Aspose.Words Öğreticisi
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to capture font substitution warnings in Java using Aspose.Words.
+    This step‑by‑step tutorial also covers warning callbacks and LoadOptions usage.
+  headline: Capture Font Substitution Warnings in Java with Aspose.Words – Complete
+    Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. The warning callback is format‑agnostic; it fires for any document
+      type that Aspose.Words loads (DOC, DOCX, RTF, HTML, etc.). The only difference
+      is the set of warnings that may appear.
+    question: Does this work with PDF or other formats?
+  - answer: Absolutely. Inside the `warning` method, inspect `info.getWarningType()`
+      for other enum values such as `WarningType.IMAGE_RESOLUTION`. Then handle them
+      accordingly.
+    question: Can I capture other warning types, like *image resolution* warnings?
+  - answer: 'Store each `info.getDescription()` in a `List<String>` inside the callback.
+      After loading, you’ll have a collection you can log, send to a monitoring service,
+      or use to trigger a font‑download routine. ## Conclusion You now know **how
+      to capture font substitution warnings** in Java using Aspose.Word'
+    question: What if I need the list of substituted fonts after the document loads?
+  type: FAQPage
 tags:
 - Aspose.Words
 - Java
-- Document Processing
-title: Java'da Aspose.Words ile Yazı Tipi Değiştirme Uyarılarını Yakalama – Tam Kılavuz
+- Document Conversion
+title: Aspose.Words ile Java'da Yazı Tipi Değiştirme Uyarılarını Yakalama – Tam Kılavuz
 url: /tr/java/document-loading-and-saving/capture-font-substitution-warnings-in-java-with-aspose-words/
 ---
 
@@ -28,197 +51,187 @@ url: /tr/java/document-loading-and-saving/capture-font-substitution-warnings-in-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Yazı Tipi Değiştirme Uyarılarını Yakalama – Tam Java Öğreticisi
+# Java'da Aspose.Words ile Yazı Tipi Değiştirme Uyarılarını Yakalama – Tam Kılavuz
 
-Hiç eksik yazı tipleri içeren bir Word belgesi açarken **yazı tipi değiştirme uyarılarını yakalamak** gerekti mi? Bu, özellikle PDF oluştururken veya her bir tipografinin yüklü olmadığı bir sunucuda yazdırma yaparken sık karşılaşılan bir sorundur. İyi haber? Aspose.Words for Java bunu zahmetsiz hâle getiriyor—sadece bir `LoadOptions` nesnesi yapılandırın ve bir uyarı geri araması ekleyin. Bu rehberde tam olarak nasıl yapılacağını, neden önemli olduğunu ve uyarı tetiklendiğinde ne bekleyeceğinizi göreceksiniz.
+Egzotik yazı tipleri kullanan bir DOCX dosyasını yüklerken **yazı tipi değiştirme uyarılarını yakalamak** gerektiğinde hiç oldu mu? Tek başınıza değilsiniz. Gerçek dünyadaki birçok projede—otomatik rapor üreteçleri veya toplu belge dönüştürücüler gibi—eksik yazı tipleri sessiz değişikliklere neden olur ve bu da düzen bütünlüğünü bozabilir.
 
-Ayrıca **Aspose.Words yazı tipi değiştirme**, **Java uyarı geri araması** ve **LoadOptions kullanımı** gibi ilgili konulara da değineceğiz. Sonunda, eksik‑yazı tipi olaylarını kaydeden, böylece sonraki işlemlerinizin sizi şaşırtmayacağı hazır‑çalışır bir kod parçacığına sahip olacaksınız.
+Neyse ki, Aspose.Words bu uyarıları dinlemenin temiz bir yolunu sunar. Bu öğreticide **LoadOptions** yapılandırmasını, bir **Aspose.Words warning callback** bağlamasını ve her *yazı tipi değiştirme* bildirimini konsola yazdırmayı adım adım göstereceğiz. Sonunda bir yazı tipinin ne zaman değiştiğini ve programatik olarak nasıl tepki vereceğinizi tam olarak bileceksiniz.
 
-## Önkoşullar
+> **Neler elde edeceksiniz:** tamamen çalıştırılabilir bir Java kod parçacığı, her parçanın *neden* önemli olduğuna dair bir açıklama ve özel yazı tipi dizinleri gibi uç durumları ele almanız için ipuçları.
 
-İlerlemeye başlamadan önce şunların yüklü olduğundan emin olun:
+## Önkoşullar ve Gerekenler
 
-- Java 17 (veya herhangi bir yeni JDK) yüklü ve yapılandırılmış.
-- Aspose.Words for Java 23.10 (veya daha yeni) sınıf yolunuzda.
-- Yerel olarak bulunmayan bir yazı tipine referans veren bir Word belgesi (ör. `DocWithMissingFont.docx`).
-- Java try/catch bloklarıyla temel aşinalık—karmaşık bir şey değil.
+Before we dive in, make sure you have:
 
-Bu maddeler size yabancı geliyorsa, bir an durun ve kütüphaneyi Maven Central’dan kurun:
+- Java 8 veya daha yeni bir sürüm yüklü olduğundan emin olun (kod Java 11+ ile de çalışır).
+- En son Aspose.Words for Java JAR (resmi siteden veya Maven Central'dan indirin).
+- Makinenizde yüklü olmayan yazı tiplerine referans veren bir DOCX dosyası (örneğin Aspose demo setinde bulabileceğiniz *font‑rich.docx*).
+- İyi bir IDE (IntelliJ IDEA, Eclipse veya hatta Java uzantılarına sahip VS Code).
 
-```xml
-<dependency>
-    <groupId>com.aspose</groupId>
-    <artifactId>aspose-words</artifactId>
-    <version>23.10</version>
-</dependency>
-```
+Aspose.Words dışındaki dış kütüphanelere gerek yoktur ve örnek sade bir `main` metodunda çalışır.
 
-Temel hazırlıklar tamam, şimdi koda geçelim.
+## Adım 1: LoadOptions'ı Ayarlayın – Özel Yükleme İçin Giriş Noktası
 
-## Adım 1: **Yazı Tipi Değiştirme Uyarılarını Yakalamak** için Bir Uyarı Geri Araması Ayarlayın
-
-İlk olarak, Aspose.Words eksik bir yazı tipiyle karşılaştığında çağıracağı bir geri aramaya ihtiyacınız var. İşte **yazı tipi değiştirme uyarılarını yakaladığımız** yer. Geri arama, `IWarningCallback` arayüzünü uygular ve `WarningType` değerini kontrol eder.
+`LoadOptions`, Aspose.Words'ün bir belgeyi *nasıl* okuyacağını belirten yapılandırma çantasıdır. Varsayılan olarak eksik yazı tiplerini sessizce değiştirir, ancak bir uyarı geri çağrısı ile bu davranışı değiştirebilirsiniz.
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    // Custom callback that prints details of each font substitution warning
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            // Only act on font‑substitution warnings
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Code continues in the next steps...
-    }
-}
+
+        // Step 1: Create LoadOptions to customize loading behavior
+        LoadOptions loadOptions = new LoadOptions();
 ```
 
-**Neden önemli:** Bir geri arama olmadan, Aspose.Words eksik yazı tipini sessizce varsayılan bir yazı tipiyle değiştirir ve görsel çıktının değiştiğini asla öğrenemezsiniz. Uyarıyı yakalayarak, eksik yazı tipi kritikse kaydedebilir, uyarı gönderebilir veya yüklemeyi iptal edebilirsiniz.
+**Neden önemli:** `LoadOptions` olmadan belge sessizce yüklenir ve eksik yazı tiplerini göremezsiniz. Bir örnek oluşturarak uyarı sistemi için bir kanca elde edersiniz.
 
-## Adım 2: **LoadOptions**’ı Yapılandırın ve Geri Aramayı Kaydedin
+## Adım 2: *Yazı Tipi Değiştirme Uyarılarını Yakalamak* için Bir Uyarı Geri Çağrısı Tanımlayın
 
-Şimdi bir `LoadOptions` örneği oluşturup `FontWarningCallback`’imizi ekliyoruz. Bu adım, **LoadOptions kullanımının** temelini oluşturur ve her belge yüklemesinin aynı uyarı filtresinden geçmesini sağlar.
+Aspose.Words uyarı olaylarını `IWarningCallback` arayüzü üzerinden gönderir. Bunu satır içinde (veya ayrı bir sınıf olarak) uygulayın ve `WarningType.FONT_SUBSTITUTION` için filtreleyin.
 
 ```java
-public static void main(String[] args) throws Exception {
-    // Step 2: Prepare LoadOptions and hook the warning callback
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.setWarningCallback(new FontWarningCallback());
-
-    // Continue to load the document in the next step...
-}
+        // Step 2: Define a warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                // Only react to font substitution warnings
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 ```
 
-**İpucu:** Aynı `LoadOptions` nesnesini birden fazla belge için yeniden kullanabilirsiniz; bu, birkaç satır tekrarı tasarrufu sağlar ve uygulamanızda tutarlı **belge yükleme uyarıları** işlenmesini garantiler.
+**Açıklama:**  
+- `info.getWarningType()` uyarının kategorisini size söyler.  
+- `WarningType.FONT_SUBSTITUTION` bizim ilgilendiğimiz enum değeridir.  
+- `info.getDescription()` insan tarafından okunabilir bir mesaj içerir, örneğin *“Font 'Comic Sans MS' not found, substituted with 'Arial'.”*  
 
-## Adım 3: Belgeyi Yükleyin ve Çıktıyı Gözlemleyin
+Açıklamayı yazdırarak, gerçek zamanlı olarak **yazı tipi değiştirme uyarılarını yakalarsınız**.
 
-Geri arama bağlandıktan sonra, Word dosyanızı basitçe yükleyin. Belge yüklü olmayan bir yazı tipine referans veriyorsa, geri arama tetiklenir ve ayrıntılar konsola yazdırılır.
+## Adım 3: Yapılandırılmış LoadOptions Kullanarak Belgeyi Yükleyin
+
+Artık geri çağrı yerinde, DOCX dosyanızı yükleyin. Uyarı geri çağrısı ayrıştırma sırasında otomatik olarak tetiklenir.
 
 ```java
-    // Step 3: Load the document using the configured LoadOptions
-    Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
-
-    // Step 4: Confirm that the load completed
-    System.out.println("Document loaded; check console for any font‑substitution warnings.");
-}
+        // Step 3: Load the document using the configured LoadOptions
+        Document document = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
 ```
 
-### Beklenen Konsol Çıktısı
+`YOUR_DIRECTORY`'yi test dosyanızın gerçek yolu ile değiştirin. `Document` yapıcı çalıştığında, eksik herhangi bir yazı tipi önceki adımda tanımlanan geri çağrıyı tetikler ve konsolda değiştirme mesajlarını görürsünüz.
 
-`DocWithMissingFont.docx` eksik yazı tipi olarak *“Comic Sans MS”*’i referans veriyorsa, aşağıdakine benzer bir çıktı görürsünüz:
+## Adım 4: Yüklenen Belgeyi Doğrulayın (İsteğe Bağlı ama Faydalı)
 
-```
-Font substitution warning:
-  Original font: Comic Sans MS
-  Substituted by: Arial
-Document loaded; check console for any font‑substitution warnings.
-```
-
-Belge **hiç eksik yazı tipi içermiyorsa**, konsol yalnızca son satırı gösterir ve geri aramanızın yanlış pozitif üretmediğini doğrular.
-
-## Adım 4: Kenar Durumlarını ve Yaygın Tuzakları Ele Alma
-
-### Birden Çok Eksik Yazı Tipi
-
-Bir belge birden fazla bulunmayan yazı tipi kullanıyorsa, geri arama her bir yazı tipi için bir kez çalışır. Her biri kendi `source` ve `description` değerine sahip bir dizi mesaj alırsınız. Ek bir kod gerekmez—yalnızca kayıt sisteminizin hızlı ardışık çağrıları kaldırabildiğinden emin olun.
-
-### Uyarıları Bastırma
-
-Nadiren belirli değiştirmeleri göz ardı etmek isteyebilirsiniz (ör. belirli bir yedekleme kabul edilebilir). Geri arama mantığını şu şekilde genişletin:
+Yüklemeden sonra belgenin bütünlüğünü—sayfa sayısı, metin çıkarımı vb.—doğrulamak isteyebilirsiniz. Bu adım uyarı yakalamak için gerekli değildir, ancak değişikliklerin etkisini görmenize yardımcı olur.
 
 ```java
-if (info.getWarningType() == WarningType.FONT_SUBSTITUTION &&
-    !info.getSource().equalsIgnoreCase("SomeFontYouAccept")) {
-    // Log or act on the warning
-}
+        // Optional: Output basic document info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + document.getPageCount());
 ```
 
-### İş Parçacığı Güvenliği
+Bir yazı tipi değiştirildiyse, düzen biraz kayabilir; sayfa sayısını kontrol etmek bu tür değişiklikleri ortaya çıkarabilir.
 
-Aspose.Words `LoadOptions` varsayılan olarak iş parçacığı‑güvenli değildir. Belgeleri paralel olarak yüklüyorsanız, her iş parçacığı için ayrı bir `LoadOptions` örneği oluşturun veya geri aramayı senkronize ederek yarış koşullarını önleyin.
+## Adım 5: İleri Düzey – Değiştirilen Yazı Tiplerini Programatik Olarak İşlemek
 
-## Adım 5: Sonuç Belgesindeki Değiştirilen Yazı Tipini Doğrulama
-
-Yüklemeden sonra, değiştirmenin gerçekten gerçekleştiğini doğrulamak isteyebilirsiniz. API, tüm run’ları dolaşmanıza ve etkili yazı tipi adını incelemenize izin verir:
+Bazen sadece uyarıyı kaydetmek istemezsiniz—yedek bir yazı tipi eklemeniz veya stil ayarlamanız gerekebilir. Aşağıda benimseyebileceğiniz hızlı bir desen var.
 
 ```java
-for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-    System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-}
+        // Advanced: Register a fallback font folder to reduce substitutions
+        FontSettings fontSettings = new FontSettings();
+        // Point to a folder that contains the missing fonts
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 ```
 
-Bu kod parçacığı, her metin run’unun son yazı tipini yazdırır. Otomatik PDF dönüşüm hatları kurarken kullanışlı bir kontrol noktasıdır.
+Aspose.Words'ü orijinal yazı tiplerini içeren bir klasöre yönlendirerek değişikliği tamamen *önleyebilirsiniz*. Klasör eksikse, uyarı geri çağrısı hâlâ olayı yakalar ve size bir yedek strateji sunar.
 
 ## Tam Çalışan Örnek
 
-Her şeyi bir araya getirdiğimizde, işte eksiksiz, hazır‑çalışır program:
+Hepsini bir araya getirerek, işte tam ve çalıştırmaya hazır program:
 
 ```java
 import com.aspose.words.*;
 
-public class FontSubstitutionInfo {
-
-    private static class FontWarningCallback implements IWarningCallback {
-        @Override
-        public void warning(WarningInfo info) {
-            if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
-                System.out.println("Font substitution warning:");
-                System.out.println("  Original font: " + info.getSource());
-                System.out.println("  Substituted by: " + info.getDescription());
-            }
-        }
-    }
-
+public class FontWarningDemo {
     public static void main(String[] args) throws Exception {
-        // Prepare LoadOptions and register the warning callback
+
+        // Initialize LoadOptions
         LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setWarningCallback(new FontWarningCallback());
 
-        // Load the document (replace with your actual path)
-        Document doc = new Document("YOUR_DIRECTORY/DocWithMissingFont.docx", loadOptions);
+        // Set up warning callback to capture font substitution warnings
+        loadOptions.setWarningCallback(new IWarningCallback() {
+            @Override
+            public void warning(WarningInfo info) {
+                if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
+                    System.out.println("Font substituted: " + info.getDescription());
+                }
+            }
+        });
 
-        // Optional: verify effective fonts in the document
-        for (Run run : (Iterable<Run>) doc.getFirstSection().getBody().getChildNodes(NodeType.RUN, true)) {
-            System.out.println("Run text: \"" + run.getText() + "\" uses font: " + run.getFont().getName());
-        }
+        // OPTIONAL: Register a custom fonts folder to avoid substitution
+        FontSettings fontSettings = new FontSettings();
+        fontSettings.setFontsFolder("YOUR_DIRECTORY/custom-fonts", true);
+        loadOptions.setFontSettings(fontSettings);
 
-        System.out.println("Document loaded; check console for any font‑substitution warnings.");
+        // Load the document – warnings will be printed automatically
+        Document doc = new Document("YOUR_DIRECTORY/font-rich.docx", loadOptions);
+
+        // Verify basic info
+        System.out.println("Document loaded successfully.");
+        System.out.println("Page count: " + doc.getPageCount());
     }
 }
 ```
 
-Bunu `FontSubstitutionInfo.java` olarak kaydedin, `javac` ile derleyin ve `java FontSubstitutionInfo` ile çalıştırın. Uyarı mesajlarını (varsa) ardından run listesi ve son yazı tiplerini göreceksiniz.
+**Beklenen konsol çıktısı** (eksik bir yazı tipiyle karşılaşıldığında):
 
-## Görsel Yardım
+```
+Font substituted: Font 'Pacifico' not found, substituted with 'Arial'.
+Document loaded successfully.
+Page count: 3
+```
 
-![Yazı tipi değiştirme uyarılarını gösteren konsol çıktısının ekran görüntüsü](/images/font-substitution-warning.png "yazı tipi değiştirme uyarılarını yakalama örneği")
+Tüm yazı tipleri mevcutsa, geri çağrı sessiz kalır—hiçbir şey yazdırılmaz, bu da tam olarak beklenen durumdur.
 
-*Alt metin:* **yazı tipi değiştirme uyarılarını yakalama** – eksik yazı tipli bir belge yüklendikten sonra konsol çıktısı.
+## Yaygın Tuzaklar ve Profesyonel İpuçları
+
+| Tuzak | Neden olur | Çözüm |
+|---------|----------------|-----|
+| **Geri çağrı hiç tetiklenmiyor** | Geri çağrıyı `LoadOptions`'a eklemeyi unuttunuz **veya** `loadOptions` geçirmeden `Document`'in varsayılan yapıcısını kullandınız. | Her zaman `loadOptions.setWarningCallback(...)` çağırın **ve** `new Document(path, loadOptions)` aşırı yüklemesini kullanın. |
+| **Çok fazla uyarı günlük dosyasını kirletiyor** | Birçok eksik yazı tipine sahip büyük belgeler, her değişiklik için bir uyarı üretir. | `info.getDescription()` içinde belirli yazı tipi adlarını kontrol ederek daha fazla filtreleyin veya uyarıları daha sonra işlemek üzere bir listede toplayın. |
+| **Değiştirilen yazı tipleri düzeni etkiler** | Yedek yazı tipi farklı ölçülere (boyut, boşluk) sahip olabilir. | Özel bir yazı tipi klasörü sağlayın (Bkz. Adım 5) veya yüklemeden sonra belgenin stilini ayarlayın. |
+| **Başsız bir sunucuda çalıştırma** | Varsayılan yazı tipi yedeklemesi, sunucuda yüklü olmayan sistem yazı tiplerine dayanabilir. | Gerekli yazı tiplerini uygulamanızla birlikte dağıtın ve `FontSettings`'i o klasöre yönlendirin. |
+
+## Sıkça Sorulan Sorular
+
+**S: Bu PDF veya diğer formatlarla çalışır mı?**  
+C: Evet. Uyarı geri çağrısı format bağımsızdır; Aspose.Words'un yüklediği herhangi bir belge türü (DOC, DOCX, RTF, HTML vb.) için tetiklenir. Tek fark, ortaya çıkabilecek uyarı setidir.
+
+**S: *Görüntü çözünürlüğü* uyarıları gibi diğer uyarı türlerini yakalayabilir miyim?**  
+C: Kesinlikle. `warning` metodunun içinde, `info.getWarningType()`'ı `WarningType.IMAGE_RESOLUTION` gibi diğer enum değerleri için inceleyin. Ardından bunları uygun şekilde işleyin.
+
+**S: Belge yüklendikten sonra değiştirilen yazı tiplerinin listesini ihtiyacım olursa?**  
+C: Geri çağrı içinde her `info.getDescription()`'ı bir `List<String>` içinde saklayın. Yüklemeden sonra, kaydedebileceğiniz, izleme hizmetine gönderebileceğiniz veya bir yazı tipi indirme rutinini tetiklemek için kullanabileceğiniz bir koleksiyonunuz olur.
 
 ## Sonuç
 
-Artık Aspose.Words for Java kullanarak **yazı tipi değiştirme uyarılarını yakalamayı** biliyorsunuz. Bir `LoadOptions` nesnesi yapılandırıp özel bir `IWarningCallback` sağlayarak, aksi takdirde sessizce belge görünümünü etkileyebilecek eksik‑yazı tipi olaylarını tam olarak görebilirsiniz. Bu teknik, **Aspose.Words yazı tipi değiştirme** işleyişine doğrudan bağlanır, güvenilir **belge yükleme uyarıları** sağlar ve iş kurallarınıza göre kaydetme, uyarı gönderme veya iptal etme esnekliği sunar.
+Artık Java'da Aspose.Words kullanarak **yazı tipi değiştirme uyarılarını nasıl yakalayacağınızı**, her parçanın neden önemli olduğunu ve çözümü gerçek dünya senaryolarına nasıl genişletebileceğinizi biliyorsunuz. `LoadOptions`, bir `Aspose.Words warning callback` ve isteğe bağlı `FontSettings` kullanarak eksik yazı tiplerini tam olarak görebilir ve belge dönüştürme hatlarınızı güvenilir tutabilirsiniz.
 
-### Sıradaki Adımlar
+Bir sonraki adıma hazır mısınız? `System.out.println`'ı SLF4J gibi bir logger ile değiştirin veya uyarı listesini toplu dönüşümden önce kullanıcıları bilgilendiren bir UI'ye entegre edin. Ayrıca **Aspose.Words warning callback**'i *desteklenmeyen özellikler* veya *yüksek çözünürlüklü görüntü* uyarıları gibi diğer uyarı türleri için keşfedebilirsiniz.  
 
-- Diğer uyarı türleri (ör. `DEPRECATED_FEATURE`) için **Java uyarı geri araması** desenlerini keşfedin.
-- Bu yaklaşımı **PDF dönüşümü** ile birleştirerek değiştirilen yazı tiplerinin düzeni bozmadığından emin olun.
-- **LoadOptions kullanımı** üzerine daha derinlemesine dalın—`Password`, `Encoding` ve `ResourceLoadingCallback` gibi gelişmiş senaryoları deneyin.
+Kodlamaktan keyif alın ve PDF'lerinizin bir daha beklenmedik yazı tipi değişiklikleriyle karşılaşmamasını dileriz!
 
-Geri aramayı istediğiniz gibi özelleştirmekten, uyarıları bir kayıt çerçevesine yönlendirmekten veya kritik bir yazı tipi eksikse özel bir istisna fırlatmaktan çekinmeyin. Gökyüzü sınırdır ve şimdi üzerine inşa edebileceğiniz sağlam bir temele sahipsiniz.
+![Yakalanan yazı tipi değiştirme uyarılarının konsol çıktısını gösteren ekran görüntüsü](image-placeholder.png "yazı tipi değiştirme uyarılarını yakala")
 
-İyi kodlamalar, ve belgeleriniz her zaman beklediğiniz gibi render olsun!
+## Sonra Ne Öğrenmelisiniz?
+
+Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalar içeren tam çalışan kod örnekleri sunar.
+
+- [Aspose.Words'de Yazı Tipi Değiştirme Uyarılarını Etkinleştirme – Tam Kılavuz](/words/english/net/working-with-fonts/enable-font-substitution-warnings-in-aspose-words-complete-g/)
+- [Aspose.Words for Java'da LoadOptions Nasıl Ayarlanır](/words/english/java/document-loading-and-saving/using-load-options/)
+- [Aspose.Words for Java ile PDF Belgeleri Nasıl Oluşturulur | Document Processing API](/words/english/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

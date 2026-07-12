@@ -66,6 +66,12 @@ Export the enriched document to the format you need—PDF, DOCX, HTML, or even E
 ### [Master Text Processing in Java&#58; Using Aspose.Words & AI Models for Summarization and Translation](./java-aspose-words-text-processing/)
 Learn how to automate text summarization and translation using Aspose.Words for Java with OpenAI's GPT‑4 and Google's Gemini. Enhance your Java applications today.
 
+### [How to Check Grammar in Java Documents – Complete Programming Guide](./how-to-check-grammar-in-java-documents-complete-programming/)
+Learn how to integrate grammar checking into Java documents using Aspose.Words and AI services for accurate, automated proofreading.
+
+### [Summarize Word Document in Java with Self‑Hosted AI – Full Guide](./summarize-word-document-in-java-with-self-hosted-ai-full-gui/)
+Learn how to use a self‑hosted AI model to generate summaries of Word documents in Java with Aspose.Words.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

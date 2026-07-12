@@ -86,7 +86,7 @@ Các cài đặt tài liệu là chìa khóa để cung cấp tài liệu phù h
 Học cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn cho việc tích hợp tài liệu liền mạch.
 
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
-Làm chủ Load Options trong Aspose.Words for Java. Tùy chỉnh quá trình tải tài liệu, xử lý mã hoá, chuyển đổi shape, thiết lập phiên bản Word và hơn thế nữa để tối ưu quá trình xử lý tài liệu Java.
+Làm chủ Load Options trong Aspose.Words cho Java. Tùy chỉnh quá trình tải tài liệu, xử lý mã hoá, chuyển đổi shape, thiết lập phiên bản Word và hơn thế nữa để tối ưu quá trình xử lý tài liệu Java.
 
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
@@ -135,22 +135,8 @@ Học cách phát hiện định dạng tài liệu trong Java với Aspose.Word
 
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
-## Câu Hỏi Thường Gặp
-
-**Hỏi:** Làm thế nào để **lưu hình ảnh từ Word** một cách lập trình?  
-**Đáp:** Tải tài liệu bằng `new Document("file.docx")`, duyệt các node `Shape` chứa hình ảnh, và gọi `shape.getImageData().save("image.png")` cho mỗi ảnh.
-
-**Hỏi:** Tôi có thể **lưu pdf java** sau khi trích xuất hình ảnh không?  
-**Đáp:** Có. Sau khi xử lý, gọi `document.save("output.pdf")` — thư viện sẽ tự động chuyển đổi sang PDF.
-
-**Hỏi:** Cách tốt nhất để **convert word html java** là gì?  
-**Đáp:** Tải file Word và sử dụng `document.save("output.html", SaveFormat.HTML)`; bạn cũng có thể chỉ định `HtmlSaveOptions` để tinh chỉnh kết quả.
-
-**Hỏi:** Làm sao **load html document java** với các tùy chọn tùy chỉnh?  
-**Đáp:** Sử dụng `LoadOptions` (ví dụ `new LoadOptions(LoadFormat.HTML)`) khi khởi tạo đối tượng `Document`.
-
-**Hỏi:** Có phương pháp đơn giản để **load docx java** các file có macro không?  
-**Đáp:** Có — đặt `LoadOptions.setLoadFormat(LoadFormat.DOCX)` và bật `LoadOptions.setPassword()` nếu file được bảo vệ.
+### [Recover Corrupted DOCX Files – Complete Java Guide](./recover-corrupted-docx-files-complete-java-guide/)
+Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng trong Java bằng Aspose.Words.
 
 ---
 

@@ -46,7 +46,7 @@ Poniżej znajduje się zwięzły opis typowego przepływu pracy. (Rzeczywisty ko
 
 1. **Utwórz instancję `Document`** – załaduj źródłowy plik Word (`.docx`, `.doc` itp.).  
 2. **Iteruj przez `NodeCollection` dokumentu** aby znaleźć węzły `Shape` zawierające obrazy.  
-3. **Wyodrębnij każdy obraz** za pomocą API `Shape.getImageData()` i zapisz go do pliku używając `ImageData.save()`.
+3. **Wyodrębnij każdy obraz** za pomocą API `Shape.getImageData()` i zapisz go do pliku użyając `ImageData.save()`.
 
 > *Wskazówka:* Użyj `Document.getChildNodes(NodeType.SHAPE, true)`, aby pobrać wszystkie kształty, w tym znajdujące się w nagłówkach, stopkach i przypisach.
 
@@ -132,6 +132,9 @@ Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywa
 
 ### [Odzyskaj uszkodzony docx – Kompletny przewodnik naprawy i przetwarzania dokumentów](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX i przywrócić ich zawartość przy użyciu Aspose.Words for Java.
+
+### [Odzyskaj uszkodzone pliki DOCX – Kompletny przewodnik Java](./recover-corrupted-docx-files-complete-java-guide/)
+Dowiedz się, jak naprawić uszkodzone pliki DOCX w Javie, przywracając ich zawartość i strukturę przy użyciu Aspose.Words.
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Dowiedz się, jak przechwytywać i obsługiwać ostrzeżenia o podstawianiu czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
