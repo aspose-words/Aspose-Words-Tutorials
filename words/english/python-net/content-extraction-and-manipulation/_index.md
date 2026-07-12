@@ -47,6 +47,8 @@ Efficiently extract content from Word documents using Aspose.Words for Python. L
 Learn advanced find and replace techniques in Word documents using Aspose.Words for Python. Replace text, use regex, formatting, and more.
 ### [Removing and Refining Content in Word Documents](./remove-content-documents/)
 Learn how to efficiently remove and refine content in Word documents using Aspose.Words for Python. Step-by-step guide with source code examples.
+### [How to Set Callback for Exporting Images from DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Learn how to set a callback for exporting images from DOCX using Aspose.Words for Python. Step-by-step guide with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

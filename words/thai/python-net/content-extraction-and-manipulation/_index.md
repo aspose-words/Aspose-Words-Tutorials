@@ -46,6 +46,8 @@
 เรียนรู้เทคนิคการค้นหาและแทนที่ขั้นสูงในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Python แทนที่ข้อความ ใช้ regex การจัดรูปแบบ และอื่นๆ อีกมากมาย
 ### [การลบและปรับแต่งเนื้อหาในเอกสาร Word](./remove-content-documents/)
 เรียนรู้วิธีการลบและปรับแต่งเนื้อหาในเอกสาร Word อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดต้นฉบับ
+### [วิธีตั้ง Callback สำหรับการส่งออกรูปภาพจาก DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+เรียนรู้วิธีตั้ง Callback เพื่อควบคุมการส่งออกรูปภาพจากไฟล์ DOCX ด้วย Aspose.Words สำหรับ Python
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
