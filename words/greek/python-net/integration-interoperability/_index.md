@@ -34,6 +34,9 @@
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 Μάθετε πώς να αυτοματοποιείτε έργα VBA του Microsoft Word χρησιμοποιώντας Python. Αυτός ο οδηγός καλύπτει τη δημιουργία, την κλωνοποίηση, τον έλεγχο της κατάστασης προστασίας και τη διαχείριση αναφορών σε έργα VBA με το Aspose.Words.
 
+    ### [cmake build x64 – Πλήρης Οδηγός για τη Δημιουργία και Κατασκευή Έργων VS 2022](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+Μάθετε πώς να χρησιμοποιήσετε το CMake για να δημιουργήσετε έργα 64‑bit και να τα μεταγλωττίσετε σε Visual Studio 2022.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

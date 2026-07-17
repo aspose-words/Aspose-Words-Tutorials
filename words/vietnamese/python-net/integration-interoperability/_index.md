@@ -34,6 +34,9 @@ Hướng dẫn mã cho Aspose.Words Python-net
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 Tìm hiểu cách tự động hóa các dự án VBA của Microsoft Word bằng Python. Hướng dẫn này bao gồm việc tạo, sao chép, kiểm tra trạng thái bảo vệ và quản lý các tham chiếu trong các dự án VBA bằng Aspose.Words.
 
+    ### [Xây dựng cmake x64 – Hướng dẫn đầy đủ để tạo và xây dựng dự án VS 2022](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+    Hướng dẫn chi tiết về cách sử dụng CMake để tạo và biên dịch dự án Visual Studio 2022 cho nền tảng x64.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)
