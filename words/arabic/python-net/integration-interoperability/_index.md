@@ -34,6 +34,9 @@
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 تعرّف على كيفية أتمتة مشاريع Microsoft Word VBA باستخدام Python. يغطي هذا الدليل إنشاء المراجع واستنساخها والتحقق من حالة الحماية وإدارتها في مشاريع VBA باستخدام Aspose.Words.
 
+    ### [دليل كامل لإنشاء وبناء مشاريع VS 2022 باستخدام cmake x64](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+تعلم كيفية توليد وبناء مشاريع Visual Studio 2022 للمعمارية x64 باستخدام CMake خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)
