@@ -121,6 +121,8 @@ Naučte se ukládat dokumenty ve formátu PCL pomocí Aspose.Words for Java. Pr�
 ### [Ukládání dokumentů jako PDF v Aspose.Words for Java](./saving-documents-as-pdf/)
 Naučte se ukládat Word dokumenty jako PDF pomocí Aspose.Words for Java. Přizpůsobte písma, vlastnosti a kvalitu obrázků. Kompletní průvodce pro konverzi do PDF.
 
+### [Jak uložit soubor DOCX v Javě – Průvodce vložením ovládacího prvku](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
 ### [Ukládání dokumentů ve formátu RTF v Aspose.Words for Java](./saving-documents-as-rtf-format/)
 Naučte se ukládat dokumenty ve formátu RTF pomocí Aspose.Words for Java. Průvodce krok za krokem se zdrojovým kódem pro efektivní konverzi dokumentů.
 
@@ -133,7 +135,9 @@ Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifik
 ### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
+
+### [Vytvoření prázdného dokumentu Word v Javě – Kompletní průvodce Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Naučte se vytvořit prázdný dokument Word v Javě pomocí Aspose.Words s podrobným krok‑za‑krokem průvodcem.
 
 ## Často kladené otázky
 

@@ -95,6 +95,9 @@ Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle metafiles, and more. Your Word documents, your way.
 
+### [Create Blank Word Document with Java – Full Aspose.Words Guide](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Learn how to create a new blank Word document in Java using Aspose.Words, set properties, and save it in various formats.
+
 ### [Saving HTML Documents with Fixed Layout in Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 Learn how to save HTML documents with fixed layout in Aspose.Words for Java. Follow our step-by-step guide for seamless document formatting.
 
@@ -112,6 +115,9 @@ Learn how to save documents in ODT format using Aspose.Words for Java. Ensure co
 
 ### [Saving Documents as OOXML Format in Aspose.Words for Java](./saving-documents-as-ooxml-format/)
 Learn how to save documents in OOXML format with Aspose.Words for Java. Secure, optimize, and customize your files effortlessly. 
+
+### [How to Save DOCX File with Java – Insert Content Control Guide](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Learn how to insert content controls and save a DOCX file using Aspose.Words for Java with step‑by‑step examples.
 
 ### [Saving Documents as PCL Format in Aspose.Words for Java](./saving-documents-as-pcl-format/)
 Learn how to save documents in PCL format using Aspose.Words for Java. Step-by-step guide and code examples for efficient document conversion.

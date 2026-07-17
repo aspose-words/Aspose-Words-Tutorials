@@ -118,6 +118,10 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [Cómo guardar un archivo DOCX con Java – Guía de inserción de controles de contenido](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Crear documento Word en blanco con Java – Guía completa de Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

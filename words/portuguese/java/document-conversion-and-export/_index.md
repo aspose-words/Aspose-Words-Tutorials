@@ -95,6 +95,9 @@ Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java
 ### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
 
+### [Salvar Word como Markdown – Exportar Tabelas para HTML em Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Aprenda a salvar documentos Word como Markdown e exportar tabelas para HTML usando Aspose.Words for Java.
+
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
 

@@ -94,6 +94,9 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
+### [Lưu Word dưới dạng Markdown – Xuất Bảng sang HTML trong Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Hướng dẫn lưu tài liệu Word thành Markdown và xuất các bảng dưới dạng HTML bằng Aspose.Words for Java.
+
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
 

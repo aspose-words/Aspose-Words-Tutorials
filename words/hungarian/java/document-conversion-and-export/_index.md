@@ -92,6 +92,9 @@ Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat
 ### [DOCX konvertálása markdownra – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba, és exportáld a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
 
+### [Word mentése markdownként – Táblázatok exportálása HTML-be Java-ban](./save-word-as-markdown-export-tables-to-html-in-java/)
+Tanulja meg, hogyan menthet Word dokumentumot markdown formátumba, és exportálhatja a táblázatokat HTML‑be Java‑val.
+
 ### [Hogyan ágyazzunk be képeket a Markdownba a DOCX konvertálásakor](./how-to-embed-images-in-markdown-when-converting-docx/)
 Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor az Aspose.Words for Java használatával.
 

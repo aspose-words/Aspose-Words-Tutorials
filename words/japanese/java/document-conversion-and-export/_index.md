@@ -97,6 +97,9 @@ Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を La
 ### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aspose.Words for Java を使用して DOCX を Markdown に変換する際、画像を正しく埋め込む手順をステップバイステップで解説します。
 
+### [Java で Word を Markdown に保存 – テーブルを HTML にエクスポート](./save-word-as-markdown-export-tables-to-html-in-java/)
+Aspose.Words for Java を使用して、Word 文書を Markdown に変換し、テーブルを HTML 形式でエクスポートする手順を解説します。
+
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java を使用して、Word 文書を TXT 形式で保存し、数式をエクスポートする方法をステップバイステップで解説します。
 

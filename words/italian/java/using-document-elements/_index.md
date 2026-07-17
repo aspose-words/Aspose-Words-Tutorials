@@ -36,7 +36,7 @@ Seguendo questi tutorial, non solo imparerai le basi della manipolazione degli e
 
 ## Inizia oggi
 
-Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverai spiegazioni dettagliate, esempi di codice e riferimenti API che ti guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
+Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverete spiegazioni dettagliate, esempi di codice e riferimenti API che vi guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
 
 In conclusione, padroneggiare la manipolazione degli elementi dei documenti utilizzando Aspose.Words per Java è un'abilità preziosa per qualsiasi sviluppatore Java che lavori con i documenti. Questi tutorial offrono un percorso chiaro e strutturato per aiutarti a diventare esperto in questo ambito. Quindi, rimboccati le maniche, immergiti nei tutorial e sfrutta appieno il potenziale di Aspose.Words per Java nei tuoi progetti di elaborazione di documenti.
 
@@ -71,6 +71,10 @@ Impara a usare oggetti OLE e controlli ActiveX in Aspose.Words per Java. Crea do
 Impara a usare in modo efficiente i controlli di revisione di Aspose.Words per Java. Guida passo passo per sviluppatori. Ottimizza la gestione dei tuoi documenti.
 ### [Utilizzo delle sezioni in Aspose.Words per Java](./using-sections/)
 Esplora Aspose.Words per Java: una guida completa all'uso delle sezioni. Aggiungi, elimina, aggiungi e clona sezioni con esempi di codice.
+### [Imposta la dimensione del pulsante in Word con Java – Guida completa Aspose.Words](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Scopri come impostare la dimensione dei pulsanti in Word con Java usando Aspose.Words. Guida passo passo per personalizzare i controlli.
+### [Creare un grafico a torta con Aspose.Words per Java – Guida completa passo passo](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Impara a generare un grafico a torta in Word usando Aspose.Words per Java con questa guida dettagliata passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

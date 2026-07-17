@@ -71,6 +71,11 @@ Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방�
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
 Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 가이드입니다. 코드 예제를 통해 섹션을 추가, 삭제, 추가, 복제할 수 있습니다.
+### [Aspose.Words Java를 사용하여 파이 차트 만들기 – 전체 단계별 가이드](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Aspose.Words for Java를 활용해 파이 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
+
+### [Java를 사용하여 Word에서 버튼 크기 설정 – 완전한 Aspose.Words 가이드](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Aspose.Words for Java를 활용해 Word 문서의 버튼 크기를 조정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

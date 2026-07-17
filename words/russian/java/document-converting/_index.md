@@ -80,6 +80,9 @@ weight: 14
 ### Конвертация HTML в Word‑документы
 Воспользуйтесь `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` и затем `doc.save("output.docx")`.
 
+### Конвертация HTML в Word‑документы
+Воспользуйтесь `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` и затем `doc.save("output.docx")`.
+
 ## Учебные материалы по конвертации документов
 
 ### [Using Document Converting Feature](./using-document-converting/)
@@ -99,6 +102,9 @@ weight: 14
 
 ### [Converting Documents to Images](./converting-documents-images/)
 Узнайте, как конвертировать Word‑документы в изображения с помощью Aspose.Words for Java. Пошаговое руководство, полное примеров кода и часто задаваемых вопросов.
+
+### [Сохранить Markdown как DOCX с Aspose.Words – руководство для Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Узнайте, как преобразовать файлы Markdown в DOCX с помощью Aspose.Words for Java в нескольких простых шагах.
 
 ## Часто задаваемые вопросы
 
