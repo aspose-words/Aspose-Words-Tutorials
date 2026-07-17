@@ -109,6 +109,9 @@ In deze tutorial hebben we verschillende geavanceerde HTML‑document opslaanopt
 ### [Afbeeldingen opslaan uit documenten in Aspose.Words for Java](./saving-images-from-documents/)
 Leer hoe je afbeeldingen uit documenten opslaat met Aspose.Words for Java via onze uitgebreide stapsgewijze gids. Pas formaten, compressie en meer aan.
 
+### [Hoe een DOCX-bestand opslaan met Java – Gids voor het invoegen van inhoudsbesturingselementen](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Leer hoe je een DOCX-bestand opslaat met Java en inhoudsbesturingselementen invoegt met Aspose.Words. Stapsgewijze code‑voorbeelden.
+
 ### [Documenten opslaan als Markdown in Aspose.Words for Java](./saving-documents-as-markdown/)
 Leer hoe je Word‑documenten converteert naar Markdown met Aspose.Words for Java. Deze stapsgewijze gids behandelt tabeluitlijning, afbeeldingsverwerking en meer.
 
@@ -134,6 +137,9 @@ Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Leeg Word‑document maken met Java – Volledige Aspose.Words‑gids](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Leer hoe je een leeg Word‑document maakt in Java met Aspose.Words, inclusief stap‑voor‑stap code‑voorbeelden.
 
 ## Veelgestelde vragen
 

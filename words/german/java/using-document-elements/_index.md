@@ -69,8 +69,12 @@ Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für
 Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!
 ### [Verwenden von Revisionen in Aspose.Words für Java](./using-revisions/)
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
+### [Erstellen eines Kreisdiagramms mit Aspose.Words für Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pie-chart-with-aspose-words-java-full-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm erstellen und in Ihr Dokument einbetten – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
+### [Schaltflächengröße in Word mit Java festlegen – Vollständige Aspose.Words-Anleitung](./set-button-size-in-word-with-java-complete-aspose-words-guid/)
+Erfahren Sie, wie Sie in Aspose.Words für Java die Größe von Schaltflächen in Word-Dokumenten programmatisch festlegen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

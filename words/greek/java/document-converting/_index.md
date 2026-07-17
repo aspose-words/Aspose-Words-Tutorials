@@ -81,6 +81,9 @@ weight: 14
 ### Μετατροπή HTML σε Έγγραφα Word
 Εκμεταλλευτείτε `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` και στη συνέχεια `doc.save("output.docx")`.
 
+### Μετατροπή HTML σε Έγγραφα
+Εκμεταλλευτείτε `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` και στη συνέχεια `doc.save("output.docx")`.
+
 ## Document Converting Tutorials
 
 ### [Χρήση της λειτουργίας μετατροπής εγγράφων](./using-document-converting/)
@@ -99,7 +102,10 @@ weight: 14
 Αποδοτική μετατροπή DOCX σε EPUB χρησιμοποιώντας Aspose.Words for Java. Μάθετε πώς να προσαρμόζετε τις επιλογές αποθήκευσης, να χωρίζετε το περιεχόμενο και να εξάγετε ιδιότητες εγγράφου σε αυτόν τον οδηγό βήμα‑βήμα.
 
 ### [Μετατροπή Εγγράφων σε Εικόνες](./converting-documents-images/)
-Μάθετε πώς να μετατρέπετε έγγραφα Word σε εικόνες χρησιμοποιώντας Aspose.Words for Java. Οδηγός βήμα‑βήμα, πλήρης με παραδείγματα κώδικα και FAQ.
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε εικόνες χρησιμοποιώντας Aspose.Words for Java. Οδηγός βήμα‑βήμα, πλήρης με παραδείγματα κώδικα και FAQ.
+
+### [Αποθήκευση Markdown ως DOCX με Aspose.Words – Οδηγός Java](./save-markdown-as-docx-with-aspose-words-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε DOCX χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
 ## Συχνές Ερωτήσεις
 

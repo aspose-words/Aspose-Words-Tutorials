@@ -94,7 +94,7 @@ Aspose.Words for Java में RTF लोड विकल्पों को �
 ### [Aspose.Words for Java के साथ टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
 Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
 
-### [Aspose.Words for Java के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
+### [Aspose.Words के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
 Aspose.Words for Java के साथ उन्नत दस्तावेज़ मैनिपुलेशन सीखें। एन्क्रिप्ट करें, मेटा फ़ाइलें हैंडल करें और अधिक। आपका Word दस्तावेज़, आपका तरीका।
 
 ### [Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ सेव करना](./saving-html-documents-with-fixed-layout/)
@@ -135,7 +135,13 @@ Aspose.Words के साथ Java में दस्तावेज़ फ़�
 Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
 
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
+
+### [Java के साथ DOCX फ़ाइल सहेजें – कंटेंट कंट्रोल इन्सर्ट गाइड](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+
+### [Java के साथ खाली Word दस्तावेज़ बनाएं – पूर्ण Aspose.Words गाइड](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Aspose.Words for Java के साथ खाली Word फ़ाइल बनाना सीखें। पूर्ण गाइड और कोड उदाहरण।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

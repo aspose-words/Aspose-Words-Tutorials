@@ -136,6 +136,12 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend m
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
 
+### [DOCX‑Datei mit Java speichern – Leitfaden zum Einfügen von Inhaltssteuerelementen](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java eine DOCX‑Datei speichern und Inhaltssteuerelemente programmgesteuert einfügen.
+
+### [Leeres Word‑Dokument mit Java erstellen – Vollständiger Aspose.Words‑Leitfaden](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word‑Dokument erstellen und speichern – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

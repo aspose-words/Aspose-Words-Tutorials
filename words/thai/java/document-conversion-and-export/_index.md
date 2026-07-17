@@ -73,6 +73,9 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
 
+### [บันทึก Word เป็น Markdown – ส่งออกตารางเป็น HTML ใน Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown และส่งออกตารางเป็น HTML ด้วย Aspose.Words for Java
+
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
 

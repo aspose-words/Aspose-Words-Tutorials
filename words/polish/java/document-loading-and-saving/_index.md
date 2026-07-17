@@ -82,6 +82,9 @@ Ustawienia dokumentu są kluczem do dostarczania dokumentów dopasowanych do Two
 
 ## Powiązane tutoriale – ładowanie, zapisywanie i konwersja
 
+### [Utwórz pusty dokument Word w Javie – Pełny przewodnik Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word w Javie przy użyciu Aspose.Words, krok po kroku z przykładami kodu.
+
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
 Dowiedz się, jak ładować i zapisywać dokumenty HTML w Javie przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu dla płynnej integracji dokumentów.
 
@@ -135,6 +138,9 @@ Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX i przywrócić ich zaw
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Dowiedz się, jak przechwytywać i obsługiwać ostrzeżenia o podstawianiu czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+
+### [Jak zapisać plik DOCX w Javie – przewodnik wstawiania kontrolki treści](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Dowiedz się, jak zapisać plik DOCX w Javie, wstawiając kontrolki treści przy użyciu Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 
