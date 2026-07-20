@@ -37,6 +37,15 @@ Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt g
 ### [Word-document maken in Java – Rechthoekvorm toevoegen met schaduweffect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Leer hoe u een rechthoekige vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
 
+### [Leeg Word-document maken met gegroepeerde vorm – Java-gids](./create-blank-word-document-with-grouped-shape-java-guide/)
+Leer hoe u een leeg Word-document maakt en een gegroepeerde vorm toevoegt met Aspose.Words voor Java.
+
+### [Word-document maken in Java – Afbeeldingen invoegen en verbergen met Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Leer hoe u afbeeldingen in een Word-document invoegt en ze vervolgens verbergt met Aspose.Words voor Java.
+
+### [Cirkeldiagram invoegen in Java – Segmenten laten exploderen, roteren en markeren](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Leer hoe u een cirkeldiagram invoegt en segmenten explodeert, roteert en markeert met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

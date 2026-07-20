@@ -41,6 +41,8 @@ Naučte se, jak šifrovat a dešifrovat dokumenty pomocí Aspose.Words pro Javu.
 Naučte se, jak implementovat zabezpečené digitální podpisy v dokumentech pomocí Aspose.Words pro Javu. Zajistěte integritu dokumentu pomocí podrobných pokynů a zdrojového kódu.
 ### [Redakční úprava dokumentů a ochrana osobních údajů](./document-redaction-data-protection/)
 Naučte se, jak zabezpečit své dokumenty a redigovat citlivá data pomocí Aspose.Words pro Javu. Podrobný návod se zdrojovým kódem.
+### [Digitální podpis PFX soubor v Javě – Kompletní průvodce](./digital-signature-pfx-file-in-java-complete-guide/)
+Kompletní návod, jak vytvořit a použít PFX soubor pro digitální podpisy v Javě s Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

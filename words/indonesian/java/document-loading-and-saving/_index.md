@@ -94,6 +94,9 @@ Mengonfigurasi Opsi Pemuatan RTF di Aspose.Words untuk Java. Pelajari cara menge
 ### [Memuat File Teks dengan Aspose.Words untuk Java](./loading-text-files/)
 Manfaatkan Kekuatan Aspose.Words untuk Java. Pelajari cara Memuat Dokumen Teks, Mengelola Daftar, Menangani Spasi, dan Mengontrol Arah Teks.
 
+### [Cara Memuat Markdown di Java – Panduan Lengkap](./how-to-load-markdown-in-java-complete-guide/)
+Pelajari cara memuat file Markdown di Java menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dengan contoh kode.
+
 ### [Opsi Penyimpanan Lanjutan dengan Aspose.Words untuk Java](./advance-saving-options/)
 Pelajari manipulasi dokumen lanjutan dengan Aspose.Words untuk Java. Enkripsi, menangani metafile, dan lainnya. Dokumen Word Anda, cara Anda.
 

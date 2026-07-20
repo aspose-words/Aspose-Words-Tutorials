@@ -41,6 +41,8 @@ Tanuld meg, hogyan titkosíthatod és dekódolhatod a dokumentumokat az Aspose.W
 Tanulja meg, hogyan valósíthat meg biztonságos digitális aláírásokat dokumentumokban az Aspose.Words for Java használatával. Biztosítsa a dokumentumok integritását lépésről lépésre szóló útmutatással és forráskóddal.
 ### [Dokumentumszerkesztés és adatvédelem](./document-redaction-data-protection/)
 Ismerje meg, hogyan teheti biztonságossá dokumentumait és hogyan takarhatja ki bizalmas adatait az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+### [Digitális aláírás PFX fájl Java-ban – Teljes útmutató](./digital-signature-pfx-file-in-java-complete-guide/)
+Ismerje meg, hogyan használhatja a PFX fájlokat digitális aláírásokhoz Java-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

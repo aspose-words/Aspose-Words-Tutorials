@@ -86,6 +86,7 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Trabalhando com Opções de Carregamento no Aspose.Words for Java](./using-load-options/)
 ### [Configurando Opções de Carregamento RTF no Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [Carregando Arquivos de Texto com Aspose.Words for Java](./loading-text-files/)
+### [Como Carregar Markdown em Java – Guia Completo](./how-to-load-markdown-in-java-complete-guide/)
 ### [Opções Avançadas de Salvamento com Aspose.Words for Java](./advance-saving-options/)
 ### [Salvando Documentos HTML com Layout Fixo no Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Opções Avançadas de Salvamento de Documentos HTML com Aspose.Words Java](./advance-html-documents-saving-options/)

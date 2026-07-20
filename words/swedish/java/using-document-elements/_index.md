@@ -65,12 +65,16 @@ Lär dig använda listor i Aspose.Words för Java med den här steg-för-steg-ha
 Lär dig använda Markdown i Aspose.Words för Java med den här steg-för-steg-handledningen. Skapa, formatera och spara Markdown-dokument utan ansträngning.
 ### [Använda noder i Aspose.Words för Java](./using-nodes/)
 Lär dig manipulera noder i Aspose.Words för Java med den här steg-för-steg-handledningen. Lås upp dokumentbehandlingskraften.
+### [Infoga cirkeldiagram i Word – lägg till procentsats för datamärket](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Lär dig hur du infogar ett cirkeldiagram i Word och visar procentsatser i datamärken med Aspose.Words för Java.
 ### [Använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java](./using-ole-objects-and-activex/)
 Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Skapa interaktiva dokument enkelt. Kom igång nu!
 ### [Använda revisioner i Aspose.Words för Java](./using-revisions/)
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Hur man lägger till en knapp i Word‑dokument – steg‑för‑steg‑guide](./how-to-add-button-to-word-document-step-by-step-guide/)
+Lär dig hur du lägger till en knapp i ett Word‑dokument med Aspose.Words för Java. En tydlig steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -95,6 +95,8 @@ Master Document Creation with Aspose.Words for Java. A Step-by-Step Guide to Add
 Learn how to clone and combine documents in Aspose.Words for Java. Step-by-step guide with source code examples.
 ### [Comparing Documents in Aspose.Words for Java](./comparing-documents/)
 Learn how to compare documents in Aspose.Words for Java, a powerful Java library for efficient document analysis. 
+### [Create New Word Document – Step‑by‑Step Guide to Adding a Structured Tag](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Learn how to create a new Word document and add a Structured Document Tag (SDT) using Aspose.Words for Java with clear code examples.
 ### [Formatting Documents in Aspose.Words for Java](./formatting-documents/)
 Learn the art of formatting documents in Aspose.Words for Java with our comprehensive guide. Explore powerful features and enhance your document processing skills.
 ### [Joining and Appending Documents in Aspose.Words for Java](./joining-and-appending-documents/)

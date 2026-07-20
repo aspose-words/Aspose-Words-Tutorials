@@ -76,6 +76,8 @@ Otimize o processamento de seus documentos com o Aspose.Words para Java. Aprenda
 Domine a manipulação de intervalos de documentos no Aspose.Words para Java. Aprenda a excluir, extrair e formatar texto com este guia completo.
 ### [Usando tags de documentos estruturados (SDT) no Aspose.Words para Java](./using-structured-document-tags/)
 Aprenda a usar Tags de Documento Estruturadas (SDT) no Aspose.Words para Java com este guia completo. Crie, modifique e vincule SDTs a dados XML personalizados.
+### [Criar Novo Documento Word – Guia Passo a Passo para Adicionar uma Tag Estruturada](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aprenda a criar um documento Word do zero e inserir tags estruturadas usando Aspose.Words para Java.
 ### [Usando estilos e temas no Aspose.Words para Java](./using-styles-and-themes/)
 Aprenda a aprimorar a formatação de documentos com o Aspose.Words para Java. Explore estilos, temas e muito mais neste guia completo com exemplos de código-fonte.
 ### [Gerando Índice em Aspose.Words para Java](./generating-table-of-contents/)

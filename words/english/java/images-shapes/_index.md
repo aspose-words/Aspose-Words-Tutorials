@@ -38,6 +38,15 @@ Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word d
 ### [Create Word Document Java – Add Rectangle Shape with Shadow Effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
+### [Create blank word document with grouped shape – Java guide](./create-blank-word-document-with-grouped-shape-java-guide/)
+Learn how to create a blank Word document and add a grouped shape using Aspose.Words for Java.
+
+### [Create Word Document Java – Insert and Hide Images with Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Learn how to insert images into a Word document and hide them using Aspose.Words for Java.
+
+### [Insert Pie Chart in Java – Explode, Rotate & Highlight Slices](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Learn how to insert a pie chart, explode slices, rotate, and highlight specific sections in a Word document using Aspose.Words for Java.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

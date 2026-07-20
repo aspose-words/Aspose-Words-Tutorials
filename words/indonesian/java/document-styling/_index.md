@@ -43,6 +43,8 @@ Pelajari cara menyesuaikan tema dokumen menggunakan Aspose.Words untuk Java. Pan
 Pelajari cara menerapkan tanda air dan mengatur konfigurasi halaman dengan Aspose.Words untuk Java. Panduan lengkap dengan kode sumber.
 ### [Penataan Header dan Footer Dokumen](./document-header-footer-styling/)
 Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Java dalam panduan terperinci ini. Petunjuk langkah demi langkah dan kode sumber disertakan.
+### [Ubah Jarak Catatan Kaki di DOCX – Panduan Lengkap](./change-footnote-spacing-in-docx-complete-guide/)
+Pelajari cara mengubah jarak catatan kaki dalam file DOCX menggunakan Aspose.Words untuk Java. Panduan lengkap dengan contoh kode sumber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

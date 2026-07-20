@@ -37,6 +37,15 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 ### [Word-Dokument in Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck mit Schatten in ein Word-Dokument einfügt.
 
+### [Leeres Word-Dokument mit gruppierter Form – Java-Anleitung](./create-blank-word-document-with-grouped-shape-java-guide/)
+Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein leeres Dokument erstellt und eine gruppierte Form hinzufügt.
+
+### [Word-Dokument in Java erstellen – Bilder einfügen und ausblenden mit Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Ein Codebeispiel, das zeigt, wie man Bilder in ein Word-Dokument einfügt und sie bei Bedarf ausblendet.
+
+### [Kuchendiagramm in Java einfügen – Segmente aufteilen, drehen und hervorheben](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kuchendiagramm einfügen und einzelne Segmente hervorheben, drehen und explodieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

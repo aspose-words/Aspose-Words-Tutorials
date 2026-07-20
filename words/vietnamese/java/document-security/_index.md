@@ -41,6 +41,8 @@ Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Ja
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
+### [Tệp PFX Chữ ký số trong Java – Hướng dẫn toàn diện](./digital-signature-pfx-file-in-java-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng tệp PFX để ký số tài liệu trong Java bằng Aspose.Words, bao gồm mã nguồn và các bước cấu hình.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
