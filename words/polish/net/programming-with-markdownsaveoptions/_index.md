@@ -67,6 +67,9 @@ Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji dokument
 ### [Zapisz obrazy Word – konwertuj Word do Markdown przy użyciu Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Dowiedz się, jak wyodrębnić obrazy z dokumentu Word i zapisać je podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
 
+### [Zapisz Word jako Markdown – Eksportuj tabele do HTML przy użyciu Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Dowiedz się, jak zapisać dokument Word jako Markdown i wyeksportować tabele do HTML przy użyciu Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

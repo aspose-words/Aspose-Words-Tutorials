@@ -42,7 +42,8 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Bir Grafikteki Veri Etiketleri İçin Varsayılan Seçenekleri Ayarlama](./default-options-for-data-labels/) | Aspose.Words for .NET kullanarak bir grafikteki veri etiketleri için varsayılan seçenekleri nasıl ayarlayacağınızı öğrenin. Grafikleri zahmetsizce oluşturmak ve özelleştirmek için adım adım kılavuzumuzu izleyin. |
 | [Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin](./single-chart-data-point/) | Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi ayrıntılı adım adım bir kılavuzda öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin. |
 | [Bir Grafikteki Tek Grafik Serisini Özelleştir](./single-chart-series/) | Aspose.Words for .NET kullanarak Word belgesinde tek grafik serilerinin nasıl özelleştirileceğini öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin. |
-
+| [C# ile Aspose.Words kullanarak Pasta Grafik Dilimini Patlatma – Tam Kılavuz](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Aspose.Words for .NET ile C# içinde bir pasta grafik dilimini nasıl patlatacağınızı adım adım öğrenin. |
+| [C# ile Aspose.Words kullanarak Pasta Grafik Etiketleri Ekleme – Tam Kılavuz](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | C# ve Aspose.Words ile Word belgesine pasta grafik etiketleri eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

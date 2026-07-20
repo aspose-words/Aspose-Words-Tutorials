@@ -71,6 +71,8 @@ Apprenez à enregistrer un document Word au format Markdown avec un guide comple
 
 ### [Convertir Word en Markdown en C# – Guide complet avec extraction d'images](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
+### [Enregistrer Word en Markdown – Exporter les tableaux en HTML avec Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -39,9 +39,11 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | Titel | Beschreibung |
 | --- | --- |
 | [Arbeiten mit KI-Modellen](./working-with-ai-model/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente mithilfe von KI zusammenfassen. Einfache Schritte zur Verbesserung des Dokumentenmanagements. |
-| [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
+| [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) | Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [Dokumentzusammenfassung erstellen mit Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Erstellen Sie mit Aspose.Words für .NET und OpenAI präzise Dokumentzusammenfassungen. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung. |
+| [DOCX ins Französische übersetzen mit Aspose.Words und Google‑API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words und der Google‑API ins Französische übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

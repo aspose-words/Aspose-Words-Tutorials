@@ -42,6 +42,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
 | [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
+| [Buat Ringkasan Dokumen dengan Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Pelajari cara membuat ringkasan dokumen secara otomatis menggunakan Aspose.Words untuk .NET dan model OpenAI. |
+| [Menerjemahkan docx ke Bahasa Prancis dengan Aspose.Words dan Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Pelajari cara menerjemahkan dokumen DOCX ke bahasa Prancis secara otomatis menggunakan Aspose.Words untuk .NET dan Google API. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

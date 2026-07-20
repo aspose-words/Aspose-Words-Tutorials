@@ -41,8 +41,10 @@ Finally, don’t forget to check out our [Working With Summarize Options](./work
 | --- | --- |
 | [Working With AI Model](./working-with-ai-model/) | Learn how to use Aspose.Words for .NET to summarize documents with AI. Easy steps for enhancing document management. |
 | [Working With Google AI Model](./working-with-google-ai-model/) | Elevate your document processing with Aspose.Words for .NET and Google AI to create concise summaries effortlessly. |
+| [Translate docx to french with Aspose.Words and Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Translate DOCX files to French using Aspose.Words for .NET and Google Translation API for fast, accurate language conversion. |
 | [Working With Open AI Model](./working-with-open-ai-model/) | Unlock efficient document summarization using Aspose.Words for .NET with OpenAI's powerful models. Dive into this comprehensive guide now. |
 | [Working With Summarize Options](./working-with-summarize-options/) | Learn to effectively summarize Word documents using Aspose.Words for .NET with our step-by-step guide on integrating AI models for quick insights. |
+| [Create document summary with Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Create document summaries using Aspose.Words for .NET combined with OpenAI's models for fast, accurate results. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

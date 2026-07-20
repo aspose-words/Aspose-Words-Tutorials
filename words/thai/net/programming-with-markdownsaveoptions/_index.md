@@ -65,6 +65,9 @@
 
 ### [แปลง Word เป็น Markdown ใน C# – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
+### [บันทึก Word เป็น Markdown – ส่งออกตารางเป็น HTML ด้วย Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+เรียนรู้วิธีส่งออกตารางจากไฟล์ Word เป็น HTML พร้อมบันทึกเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
