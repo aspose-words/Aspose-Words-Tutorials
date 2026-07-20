@@ -44,7 +44,7 @@ Pamiętaj, że praktyka czyni mistrza, a dzięki Aspose.Words for Java będziesz
 
 ## Korzystanie z samouczków dotyczących elementów dokumentu
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
-Dowiedz się, jak używać komentarzy w Aspose.Words for Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
+Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
 Naucz się efektywnie używać Aspose.Words dla pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
 ### [Korzystanie z czcionek w Aspose.Words dla Java](./using-fonts/)
@@ -62,7 +62,7 @@ Dowiedz się, jak skutecznie używać łączników w Aspose.Words dla Java dzię
 ### [Korzystanie z list w Aspose.Words dla Java](./using-lists/)
 Naucz się używać list w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Organizuj i formatuj swoje dokumenty efektywnie.
 ### [Używanie Markdown w Aspose.Words dla Java](./using-markdown/)
-Naucz się używać Markdown w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
+Naucz się używać Markdown w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
 ### [Korzystanie z węzłów w Aspose.Words dla Java](./using-nodes/)
 Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
 ### [Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java](./using-ole-objects-and-activex/)
@@ -71,6 +71,10 @@ Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. T
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
 Poznaj Aspose.Words dla Javy: kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
+### [Jak wstawić wykres kołowy w Word – dodać procent w etykiecie danych](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Dowiedz się, jak wstawić wykres kołowy w dokumencie Word i dodać etykiety danych wyświetlające procenty.
+### [Jak dodać przycisk do dokumentu Word – przewodnik krok po kroku](./how-to-add-button-to-word-document-step-by-step-guide/)
+Dowiedz się, jak wstawić przycisk do dokumentu Word przy użyciu Aspose.Words for Java, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -104,6 +104,8 @@ Aspose.Words for Java의 강력한 기능을 활용하세요. 원활한 문서 �
 Aspose.Words for Java를 사용하여 문서 관리를 최적화하세요. 이 포괄적인 튜토리얼에서 문서 속성 작업, 사용자 정의 메타데이터 추가 등의 방법을 알아보세요.
 ### [Java용 Aspose.Words에서 웹 확장 기능 사용](./using-web-extensions/)
 Aspose.Words for Java의 웹 확장 기능으로 문서를 더욱 풍부하게 만들고, 웹 기반 콘텐츠를 원활하게 통합하는 방법을 알아보세요. 
+### [새 Word 문서 만들기 – 구조화된 태그 추가 단계별 가이드](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java를 사용하여 새 Word 문서를 생성하고 구조화된 태그를 추가하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

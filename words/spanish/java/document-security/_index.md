@@ -41,6 +41,8 @@ Aprenda a cifrar y descifrar documentos con Aspose.Words para Java. Proteja sus 
 Aprenda a implementar firmas digitales seguras en documentos con Aspose.Words para Java. Garantice la integridad de los documentos con instrucciones paso a paso y el código fuente.
 ### [Redacción de documentos y protección de datos](./document-redaction-data-protection/)
 Aprenda a proteger sus documentos y a redactar información confidencial con Aspose.Words para Java. Guía paso a paso con código fuente.
+### [Archivo PFX de firma digital en Java – Guía completa](./digital-signature-pfx-file-in-java-complete-guide/)
+Aprenda a crear y usar archivos PFX para firmas digitales en Java con Aspose.Words, paso a paso y con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

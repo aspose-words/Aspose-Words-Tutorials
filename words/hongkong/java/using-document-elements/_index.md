@@ -65,12 +65,16 @@
 透過本逐步教程學習在 Aspose.Words for Java 中使用 Markdown。輕鬆建立、設計和儲存 Markdown 文件。
 ### [在 Aspose.Words for Java 中使用節點](./using-nodes/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中操作節點。釋放文檔處理能力。
+### [在 Aspose.Words for Java 中添加按鈕 – 步驟指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+了解如何在 Aspose.Words for Java 中向 Word 文檔添加互動式按鈕的完整步驟。
 ### [在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控件](./using-ole-objects-and-activex/)
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Word 中插入餅圖 – 添加資料標籤百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+了解如何在 Word 文檔中插入餅圖並顯示資料標籤的百分比。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

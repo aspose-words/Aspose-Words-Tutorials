@@ -76,6 +76,8 @@ Optimalizálja dokumentumfeldolgozását az Aspose.Words for Java segítségéve
 Sajátítsd el a dokumentumtartomány-manipulációt az Aspose.Words for Java programban. Tanuld meg a szöveg törlését, kinyerését és formázását ezzel az átfogó útmutatóval.
 ### [Strukturált dokumentumcímkék (SDT) használata az Aspose.Words Java-ban](./using-structured-document-tags/)
 Tanuld meg, hogyan használd a strukturált dokumentumcímkéket (SDT) az Aspose.Words for Java programban ezzel az átfogó útmutatóval. Hozz létre, módosíts és köss SDT-ket egyéni XML adatokhoz.
+### [Új Word dokumentum létrehozása – Lépésről‑lépésre útmutató strukturált címke hozzáadásához](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Ismerje meg, hogyan hozhat létre új Word dokumentumot és adhat hozzá strukturált címkét a részletes példák segítségével.
 ### [Stílusok és témák használata az Aspose.Words for Java-ban](./using-styles-and-themes/)
 Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal.
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)
@@ -103,7 +105,6 @@ Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállításo
 ### [Dokumentumtulajdonságok használata az Aspose.Words Java-ban](./using-document-properties/)
 Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. Tanulja meg, hogyan kell dolgozni a dokumentumok tulajdonságaival, hogyan adhat hozzá egyéni metaadatokat és sok mást ebben az átfogó oktatóanyagban.
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
-Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [วิธีแทรกแผนภูมิวงกลมใน Word – เพิ่มป้ายข้อมูลเปอร์เซ็นต์](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมใน Aspose.Words สำหรับ Java พร้อมเพิ่มป้ายข้อมูลเปอร์เซ็นต์
+### [วิธีเพิ่มปุ่มในเอกสาร Word – คู่มือทีละขั้นตอน](./how-to-add-button-to-word-document-step-by-step-guide/)
+เรียนรู้วิธีแทรกปุ่มลงในเอกสาร Word ด้วย Aspose.Words for Java อย่างง่ายและเป็นขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

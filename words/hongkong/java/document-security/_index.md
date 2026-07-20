@@ -41,6 +41,8 @@
 了解如何使用 Aspose.Words for Java 在文件中實作安全數位簽章。透過逐步指導和原始碼確保文件的完整性
 ### [文檔編輯和資料保護](./document-redaction-data-protection/)
 了解如何使用 Aspose.Words for Java 保護您的文件並編輯敏感資料。帶有原始程式碼的分步指南。
+### [Java 中的 PFX 數位簽章檔案完整指南](./digital-signature-pfx-file-in-java-complete-guide/)
+了解如何在 Java 中使用 Aspose.Words 產生與驗證 PFX 數位簽章檔案，提供完整步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,13 +69,15 @@ Dowiedz się, jak wydajnie wyodrębniać zawartość z dokumentów Word za pomoc
 ### [Znajdowanie i zamiana tekstu w Aspose.Words dla Java](./finding-and-replacing-text/)
 Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java.
 ### [Usuwanie zawartości z dokumentów w Aspose.Words dla Java](./removing-content-from-documents/)
-Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words dla Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
+Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words for Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
 ### [Korzystanie z zakładek w Aspose.Words dla Java](./using-bookmarks/)
 Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
 ### [Korzystanie z zakresów dokumentów w Aspose.Words dla Java](./using-document-ranges/)
-Opanuj manipulację zakresem dokumentu w Aspose.Words dla Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
+Opanuj manipulację zakresem dokumentu w Aspose.Words for Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
 ### [Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java](./using-structured-document-tags/)
 Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
+### [Tworzenie nowego dokumentu Word – Przewodnik krok po kroku po dodawaniu znacznika strukturalnego](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Dowiedz się, jak utworzyć nowy dokument Word i dodać do niego znacznik strukturalny przy użyciu Aspose.Words for Java.
 ### [Używanie stylów i motywów w Aspose.Words dla Java](./using-styles-and-themes/)
 Dowiedz się, jak ulepszyć formatowanie dokumentów za pomocą Aspose.Words for Java. Poznaj style, motywy i wiele więcej w tym kompleksowym przewodniku z przykładami kodu źródłowego.
 ### [Generowanie spisu treści w Aspose.Words dla Java](./generating-table-of-contents/)
@@ -101,7 +103,7 @@ Dowiedz się, jak bez wysiłku łączyć i dołączać dokumenty za pomocą Aspo
 ### [Korzystanie z opcji i ustawień dokumentu w Aspose.Words dla Java](./using-document-options-and-settings/)
 Odblokuj moc Aspose.Words dla Java. Główne opcje i ustawienia dokumentu dla bezproblemowego zarządzania dokumentami. Optymalizacja, dostosowywanie i więcej.
 ### [Korzystanie z właściwości dokumentu w Aspose.Words dla Java](./using-document-properties/)
-Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
+Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words for Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
 ### [Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java](./using-web-extensions/)
 Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe. 
 

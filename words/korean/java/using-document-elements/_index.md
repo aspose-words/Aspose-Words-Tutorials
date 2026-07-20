@@ -53,6 +53,8 @@ Aspose.Words for Java에서 글꼴 서식을 살펴보세요: 크기, 스타일,
 Aspose.Words for Java에서 각주와 미주를 효과적으로 사용하는 방법을 배워보세요. 오늘 바로 문서 서식 작성 능력을 향상시켜 보세요!
 ### [Java용 Aspose.Words에서 폼 필드 사용](./using-form-fields/)
 Aspose.Words for Java를 사용하여 양식 필드가 있는 대화형 Word 문서를 만드는 방법을 알아보세요. 지금 바로 시작하세요!
+### [Word 문서에 버튼 추가 – 단계별 가이드](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aspose.Words for Java를 사용하여 Word 문서에 버튼을 삽입하고 동작을 설정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 HarfBuzz 사용하기](./using-harfbuzz/)
 Aspose.Words for Java에서 HarfBuzz를 사용하여 고급 텍스트 셰이핑을 구현하는 방법을 알아보세요. 이 단계별 가이드를 통해 복잡한 스크립트의 텍스트 렌더링을 향상시켜 보세요.
 ### [Java용 Aspose.Words에서 헤더와 푸터 사용하기](./using-headers-and-footers/)
@@ -71,6 +73,8 @@ Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방�
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
 Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 가이드입니다. 코드 예제를 통해 섹션을 추가, 삭제, 추가, 복제할 수 있습니다.
+### [Java용 Aspose.Words에서 파이 차트 삽입 – 데이터 레이블 백분율 추가](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Word 문서에 파이 차트를 삽입하고 데이터 레이블에 백분율을 표시하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

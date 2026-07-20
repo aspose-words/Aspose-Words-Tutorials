@@ -104,6 +104,8 @@ Lås upp kraften i Aspose.Words för Java. Behärska dokumentalternativ och inst
 Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dokumentegenskaper, lägga till anpassade metadata och mer i den här omfattande handledningen.
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
 Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
+### [Skapa nytt Word-dokument – Steg‑för‑steg‑guide för att lägga till en strukturerad tagg](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Lär dig hur du skapar ett nytt Word-dokument och lägger till en strukturerad tagg med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

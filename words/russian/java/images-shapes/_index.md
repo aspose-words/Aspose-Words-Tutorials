@@ -37,6 +37,15 @@
 ### [Создание документа Word в Java – Добавление прямоугольной фигуры с эффектом тени](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Узнайте, как добавить прямоугольную форму с теневым эффектом в документ Word с помощью Aspose.Words для Java.
 
+### [Создание пустого документа Word с групповой фигурой – руководство Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Узнайте, как создать пустой документ Word и добавить в него сгруппированную фигуру с помощью Aspose.Words для Java.
+
+### [Создание документа Word в Java – Вставка и скрытие изображений с Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Узнайте, как вставлять изображения в документ Word и скрывать их с помощью Aspose.Words для Java.
+
+### [Вставка круговой диаграммы в Java – Взрыв, вращение и выделение секторов](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для Java, включая разрыв, вращение и выделение секторов.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

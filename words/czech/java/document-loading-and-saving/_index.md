@@ -109,6 +109,9 @@ Naučte se ukládat obrázky z dokumentů pomocí Aspose.Words for Java s naší
 ### [Ukládání dokumentů jako Markdown v Aspose.Words for Java](./saving-documents-as-markdown/)
 Naučte se převádět Word dokumenty do Markdown pomocí Aspose.Words for Java. Tento průvodce krok za krokem pokrývá zarovnání tabulek, zpracování obrázků a další.
 
+### [Jak načíst Markdown v Javě – Kompletní průvodce](./how-to-load-markdown-in-java-complete-guide/)
+Naučte se načíst soubory Markdown v Javě pomocí Aspose.Words for Java. Kompletní průvodce s ukázkami kódu a tipy pro konverzi.
+
 ### [Ukládání dokumentů ve formátu ODT v Aspose.Words for Java](./saving-documents-as-odt-format/)
 Naučte se ukládat dokumenty ve formátu ODT pomocí Aspose.Words for Java. Zajistěte kompatibilitu s open-source kancelářskými balíčky.
 
@@ -133,7 +136,6 @@ Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifik
 ### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
 
 ## Často kladené otázky
 

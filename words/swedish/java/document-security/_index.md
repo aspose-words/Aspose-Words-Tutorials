@@ -41,6 +41,8 @@ Lär dig hur du krypterar och dekrypterar dokument med Aspose.Words för Java. S
 Lär dig hur du implementerar säkra digitala signaturer i dokument med Aspose.Words för Java. Säkerställ dokumentintegritet med steg-för-steg-vägledning och källkod.
 ### [Dokumentredigering och dataskydd](./document-redaction-data-protection/)
 Lär dig hur du skyddar dina dokument och redigerar känsliga data med Aspose.Words för Java. Steg-för-steg-guide med källkod.
+### [Digital signatur PFX-fil i Java – Komplett guide](./digital-signature-pfx-file-in-java-complete-guide/)
+Lär dig hur du använder en PFX-fil för digital signering av dokument i Java med Aspose.Words. Komplett steg-för-steg-guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

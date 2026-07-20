@@ -76,6 +76,8 @@ Optimisez le traitement de vos documents avec Aspose.Words pour Java. Apprenez �
 Maîtrisez la manipulation de plages de documents dans Aspose.Words pour Java. Apprenez à supprimer, extraire et formater du texte grâce à ce guide complet.
 ### [Utilisation des balises de document structurées (SDT) dans Aspose.Words pour Java](./using-structured-document-tags/)
 Apprenez à utiliser les balises de document structurées (SDT) dans Aspose.Words pour Java grâce à ce guide complet. Créez, modifiez et liez des SDT à des données XML personnalisées.
+### [Créer un nouveau document Word – Guide étape par étape pour ajouter une balise structurée](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Apprenez à créer un document Word et à insérer une balise structurée grâce à un guide détaillé avec exemples de code.
 ### [Utilisation des styles et des thèmes dans Aspose.Words pour Java](./using-styles-and-themes/)
 Apprenez à améliorer la mise en forme de vos documents avec Aspose.Words pour Java. Explorez les styles, les thèmes et bien plus encore dans ce guide complet avec des exemples de code source.
 ### [Génération d'une table des matières dans Aspose.Words pour Java](./generating-table-of-contents/)
