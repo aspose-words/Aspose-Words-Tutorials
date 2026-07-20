@@ -1,0 +1,7 @@
+Title: Set Placeholder Text in Aspose.Words – Complete C# Guide
+Slug: set-placeholder-text-in-aspose-words-complete-c-guide
+Category: programming-with-sdt
+ProcessedDate: 2026-07-20T07:27:34.569270
+SourceRepo: AI Search API
+Keywords: set placeholder text, move to control, how to add control, how to create sdt, set tag attribute
+PRNumber: 228
