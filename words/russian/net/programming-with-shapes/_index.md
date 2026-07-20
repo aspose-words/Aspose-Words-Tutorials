@@ -37,6 +37,8 @@
 | [Создать прямоугольную форму в Word с помощью C# – пошаговое руководство](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как создать прямоугольную форму в документе Word с помощью C# в этом пошаговом руководстве. |
 | [Учебник по теням фигур Aspose.Words – Добавление тени к фигуре Word в C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать пустой документ Word с фигурой прямоугольника с тенью – пошаговое руководство](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Узнайте, как создать пустой документ Word и добавить в него прямоугольную фигуру с теневым эффектом с помощью Aspose.Words для .NET. |
+| [Групповые фигуры в Word с Aspose.Words – Полное руководство на C#](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Узнайте, как работать с групповыми фигурами в документах Word, используя Aspose.Words и C# в полном пошаговом руководстве. |
+| [Как скрыть форму в Word с C# – пошаговое руководство](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Узнайте, как скрыть форму в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

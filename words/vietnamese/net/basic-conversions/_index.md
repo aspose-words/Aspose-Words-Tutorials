@@ -36,6 +36,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Lưu PDF dưới dạng Jpeg](./pdf-to-jpeg/) | Dễ dàng chuyển đổi PDF sang JPEG bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi với các ví dụ và câu hỏi thường gặp. Hoàn hảo cho các nhà phát triển và người đam mê. |
 | [Lưu PDF sang định dạng Word (Docx)](./pdf-to-docx/) | Tìm hiểu cách chuyển đổi PDF sang tài liệu Word (Docx) bằng Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển. |
 | [Cách xuất LaTeX từ Word – Hướng dẫn từng bước](./how-to-export-latex-from-word-step-by-step-guide/) | Tìm hiểu cách xuất nội dung LaTeX từ tài liệu Word bằng Aspose.Words cho .NET qua các bước chi tiết và ví dụ thực tế. |
+| [Chuyển đổi Markdown sang DOCX với Aspose.Words – Hướng dẫn C# đầy đủ](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Tìm hiểu cách chuyển đổi tệp Markdown sang DOCX bằng Aspose.Words cho .NET với hướng dẫn chi tiết và ví dụ mã C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

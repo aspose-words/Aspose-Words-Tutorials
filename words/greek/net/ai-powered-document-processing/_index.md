@@ -42,6 +42,8 @@
 | [Εργασία με το μοντέλο τεχνητής νοημοσύνης της Google](./working-with-google-ai-model/) Αναβαθμίστε την επεξεργασία εγγράφων με το Aspose.Words για .NET και Google AI για να δημιουργήσετε συνοπτικές περιλήψεις χωρίς κόπο. |
 | [Εργασία με ανοιχτό μοντέλο τεχνητής νοημοσύνης](./working-with-open-ai-model/) | Ξεκλειδώστε αποτελεσματική σύνοψη εγγράφων χρησιμοποιώντας το Aspose.Words για .NET με τα ισχυρά μοντέλα του OpenAI. Βουτήξτε σε αυτόν τον ολοκληρωμένο οδηγό τώρα. |
 | [Εργασία με επιλογές σύνοψης](./working-with-summarize-options/) | Μάθετε να συνοψίζετε αποτελεσματικά έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με τον αναλυτικό οδηγό μας για την ενσωμάτωση μοντέλων AI για γρήγορες πληροφορίες. |
+| [Δημιουργία σύνοψης εγγράφου με Aspose.Words & OpenAI](./create-document-summary-with-aspose-words-openai/) | Μάθετε πώς να δημιουργείτε σύνοψη εγγράφου χρησιμοποιώντας Aspose.Words για .NET σε συνδυασμό με τα μοντέλα του OpenAI. |
+| [Μετάφραση docx στα γαλλικά με Aspose.Words και Google API](./translate-docx-to-french-with-aspose-words-and-google-api/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά χρησιμοποιώντας Aspose.Words για .NET και το Google Translate API. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,7 +36,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको लाइब�
 | [कस्टम XML भाग पर मैप किए गए तालिका दोहराए जाने वाले अनुभाग का निर्माण करना](./creating-table-repeating-section-mapped-to-custom-xml-part/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ में CustomXmlPart पर मैप किए गए दोहराए जाने वाले अनुभाग के साथ एक तालिका बनाने का तरीका जानें। |
 | [मल्टी सेक्शन](./multi-section/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Words में बहु-अनुभाग संरचित दस्तावेज़ टैग के साथ काम करना सीखें। गतिशील दस्तावेज़ हेरफेर के लिए आदर्श। |
 | [संरचित दस्तावेज़ टैग रेंज XML मैपिंग प्रारंभ करें](./structured-document-tag-range-start-xml-mapping/) | .NET के लिए Aspose.Words का उपयोग करके Word में XML डेटा को संरचित दस्तावेज़ टैग से गतिशील रूप से बाँधना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
-
+| [Aspose.Words में प्लेसहोल्डर टेक्स्ट सेट करें – पूर्ण C# गाइड](./set-placeholder-text-in-aspose-words-complete-c-guide/) | Aspose.Words के साथ प्लेसहोल्डर टेक्स्ट सेट करने के लिए चरण-दर-चरण C# गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

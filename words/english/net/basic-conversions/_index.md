@@ -31,6 +31,7 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [Convert Docx File To Markdown](./docx-to-markdown/) | Learn how to convert DOCX files to Markdown using Aspose.Words for .NET. Follow our detailed guide for seamless integration in your .NET applications. |
 | [Convert Docx To Txt](./docx-to-txt/) | Convert DOCX to TXT using Aspose.Words for .NET with our step-by-step guide. Learn to transform documents efficiently and effortlessly. |
 | [Convert Text File To Word Document](./txt-to-docx/) | Learn how to convert text files to Word documents using Aspose.Words for .NET. Efficiently manage document conversions with our comprehensive guide. | 
+| [Convert Markdown to DOCX with Aspose.Words – Complete C# Guide](./convert-markdown-to-docx-with-aspose-words-complete-c-guide/) | Learn how to convert Markdown files to DOCX using Aspose.Words in C#. Complete step‑by‑step guide for developers. |
 | [Save Pdf as Jpeg](./pdf-to-jpeg/) | Effortlessly convert PDFs to JPEGs using Aspose.Words for .NET. Follow our detailed guide with examples and FAQs. Perfect for developers and enthusiasts. |
 | [Save PDF To Word Format (Docx)](./pdf-to-docx/) | Learn how to convert a PDF to a Word document (Docx) using Aspose.Words for .NET in this detailed, step-by-step guide. Perfect for developers. |
 | [How to Export LaTeX from Word – Step‑by‑Step Guide](./how-to-export-latex-from-word-step-by-step-guide/) | Learn how to export LaTeX from Word using Aspose.Words for .NET. Step‑by‑step guide with code examples for developers. |

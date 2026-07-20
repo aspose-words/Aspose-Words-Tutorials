@@ -37,6 +37,8 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Téglalap alakzat létrehozása Word-ben C#-ban – Lépésről lépésre útmutató](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre téglalap alakzatot Word dokumentumban C# segítségével lépésről lépésre. |
 | [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#-ban](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Tanulja meg, hogyan adhat árnyékot a Word alakzatokhoz C#-ban az Aspose.Words segítségével. |
 | [Üres Word dokumentum létrehozása árnyékolt téglalap alakzattal – Lépésről lépésre útmutató](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Tanulja meg, hogyan hozhat üres Word dokumentumot árnyékolt téglalap alakzattal az Aspose.Words for .NET használatával. |
+| [Csoport alakzatok a Wordben az Aspose.Words segítségével – Teljes C# útmutató](./group-shapes-in-word-with-aspose-words-complete-c-guide/) | Ismerje meg, hogyan hozhat létre és kezelhet csoportos alakzatokat Word dokumentumokban az Aspose.Words for .NET segítségével C# nyelven. |
+| [Hogyan rejtsünk el alakzatot Word-ben C#‑ban – Lépésről lépésre útmutató](./how-to-hide-shape-in-word-with-c-step-by-step-guide/) | Tanulja meg, hogyan rejthet el alakzatot Word dokumentumban C#-ban ezzel a részletes, lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

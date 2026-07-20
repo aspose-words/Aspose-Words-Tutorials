@@ -73,7 +73,9 @@ Lär dig hur du automatiskt byter namn på bilder under konvertering av DOCX-fil
 Lär dig spara DOCX som Markdown med en komplett C#‑guide som använder Aspose.Words.
 
 ### [Spara Word-bilder – Konvertera Word till Markdown med Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
-Lär dig spara bilder från Word och konvertera dokument till Markdown med Aspose.Words för .NET.
+
+### [Spara Word som Markdown – Exportera tabeller till HTML med Aspose.Words](./save-word-as-markdown-export-tables-to-html-with-aspose-word/)
+Lär dig exportera tabeller till HTML när du sparar Word-dokument som Markdown med Aspose.Words för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

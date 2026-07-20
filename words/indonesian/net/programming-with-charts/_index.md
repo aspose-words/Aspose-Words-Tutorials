@@ -42,7 +42,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Opsi Default Untuk Label Data Dalam Bagan](./default-options-for-data-labels/) | Pelajari cara menetapkan opsi default untuk label data dalam bagan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat dan menyesuaikan bagan dengan mudah. Bahasa Indonesia:
 | [Menyesuaikan Titik Data Bagan Tunggal Dalam Bagan](./single-chart-data-point/) | Pelajari cara menyesuaikan titik data grafik tunggal menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah yang terperinci. Sempurnakan grafik Anda dengan penanda dan ukuran yang unik. Bahasa Indonesia:
 | [Kustomisasi Seri Bagan Tunggal Dalam Bagan](./single-chart-series/) | Pelajari cara menyesuaikan rangkaian bagan tunggal dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar. |
-
+| [Mengekspansi Irisan Bagan Pai di C# dengan Aspose.Words – Panduan Lengkap](./explode-pie-chart-slice-in-c-with-aspose-words-full-guide/) | Pelajari cara mengekspansi irisan bagan pai menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
+| [Menambahkan label bagan pai di C# menggunakan Aspose.Words – Panduan Lengkap](./add-pie-chart-labels-in-c-using-aspose-words-complete-guide/) | Pelajari cara menambahkan label pada bagan pai di C# dengan Aspose.Words melalui panduan lengkap dan contoh kode. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
