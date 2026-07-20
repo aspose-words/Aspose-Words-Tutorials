@@ -32,10 +32,16 @@ Naučte se, jak analyzovat typy médií, šifrovat soubory a ověřovat digitál
 Naučte se, jak optimalizovat zpracování obrázků v dokumentech RTF pomocí Aspose.Words pro Python. Ukládejte obrázky ve formátu WMF a zajistěte kompatibilitu se staršími čtečkami.
 
 ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
-Naučte se, jak optimalizovat SVG výstup pomocí Aspose.Words pro Python. Tato příručka se zabývá uživatelskými funkcemi, jako jsou vlastnosti podobné obrázkům, vykreslování textu a vylepšení zabezpečení.
+Naučte se, jak optimalizovat SVG výstup pomocí Aspose.Words v Pythonu. Tato příručka se zabývá uživatelskými funkcemi, jako jsou vlastnosti podobné obrázkům, vykreslování textu a vylepšení zabezpečení.
 
 ### [Jak přidat stín v C# – Kompletní programovací průvodce](./how-to-add-shadow-in-c-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.Words v C# přidat stín do objektů a vylepšit vizuální vzhled dokumentů.
+
+### [Vytvoření prázdného dokumentu Word a přidání stínu k tvaru – Kompletní průvodce v Pythonu](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat stín k tvaru pomocí Aspose.Words v Pythonu.
+
+### [Vytvoření prázdného dokumentu Word a přidání stínu k tvaru – Kompletní průvodce](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Naučte se, jak vytvořit prázdný dokument Word a přidat stín k tvaru pomocí Aspose.Words.
 
 ## Další zdroje
 

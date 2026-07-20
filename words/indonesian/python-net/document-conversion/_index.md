@@ -37,6 +37,12 @@ Pelajari konversi dokumen Python dengan Aspose.Words untuk Python. Konversi, man
 Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words untuk Python secara lengkap.
 ### [Pulihkan DOCX yang Rusak & Konversi Word ke Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format Markdown menggunakan Aspose.Words untuk Python.
+### [Simpan DOCX sebagai TXT – Ekspor Matematika Word ke LaTeX dengan Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Pelajari cara mengekspor persamaan matematika dari dokumen Word ke format LaTeX dan menyimpan file DOCX sebagai TXT menggunakan Aspose.Words untuk Python.
+### [Buat PDF Aksesibel dengan Python – Panduan Lengkap Langkah demi Langkah](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Pelajari cara menghasilkan PDF yang ramah aksesibilitas menggunakan Aspose.Words untuk Python, termasuk tag, teks alternatif, dan struktur dokumen.
+### [Buat PDF dari Dokumen Word dengan Python – Panduan Langkah demi Langkah](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Pelajari cara mengonversi dokumen Word menjadi PDF menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
