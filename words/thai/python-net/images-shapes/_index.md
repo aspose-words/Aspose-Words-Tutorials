@@ -37,6 +37,12 @@
 ### [วิธีเพิ่มเงาใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-add-shadow-in-c-complete-programming-guide/)
 เรียนรู้วิธีการเพิ่มเงาให้กับวัตถุใน C# อย่างละเอียดด้วย Aspose.Words และเทคนิคขั้นสูง
 
+### [สร้างเอกสาร Word ว่างและเพิ่มเงาให้รูปทรง – คู่มือเต็ม Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรงโดยใช้ Aspose.Words สำหรับ Python
+
+### [สร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรง – คำแนะนำเต็ม](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มเงาให้รูปทรงโดยใช้ Aspose.Words สำหรับ Python-net
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

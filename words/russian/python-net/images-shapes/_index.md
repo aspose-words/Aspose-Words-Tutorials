@@ -37,6 +37,12 @@
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
+### [Создание пустого документа Word и добавление тени к фигуре – Полное руководство на Python](./create-blank-word-document-and-add-shadow-to-shape-full-pyth/)
+Узнайте, как создать пустой документ Word и добавить к фигуре теневой эффект с помощью Aspose.Words для Python.
+
+### [Создание пустого документа Word и добавление тени к фигуре – Полное руководство](./create-blank-word-document-and-add-shadow-to-shape-full-tuto/)
+Узнайте, как создать пустой документ Word и добавить к фигуре теневой эффект с помощью Aspose.Words.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)
