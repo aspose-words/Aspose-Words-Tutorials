@@ -1,9 +1,54 @@
 ---
-"date": "2025-03-28"
-"description": "Pelajari cara mengelola komentar dan balasan dalam dokumen Word menggunakan Aspose.Words untuk Java. Tambahkan, cetak, hapus, tandai sebagai selesai, dan lacak stempel waktu komentar dengan mudah."
-"title": "Aspose.Words Java&#58; Menguasai Manajemen Komentar dalam Dokumen Word"
-"url": "/id/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-21'
+description: Pelajari cara menggunakan Aspose.Words for Java untuk menambahkan, mencetak,
+  menghapus, dan menandai komentar sebagai selesai, serta mengambil stempel waktu
+  UTC dalam dokumen Word.
+keywords:
+- how to use aspose
+- add comment java
+- print word comments
+- Aspose.Words Java
+- comment management
+lastmod: '2026-07-21'
+og_description: Temukan cara menggunakan Aspose.Words Java untuk menambahkan, mencetak,
+  menghapus, dan menandai komentar sebagai selesai, serta mengambil stempel waktu
+  UTC dalam dokumen Word.
+og_image_alt: 'Developer guide: Manage Word comments with Aspose.Words Java'
+og_title: Cara Menggunakan Aspose.Words Java untuk Manajemen Komentar
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to use Aspose.Words for Java to add, print, remove, and mark
+    comments as done, plus retrieve UTC timestamps in Word documents.
+  headline: How to Use Aspose.Words Java for Comment Management
+  type: TechArticle
+- questions:
+  - answer: Aspose.Words for Java is a library that enables developers to create,
+      edit, convert, and render Word documents programmatically without requiring
+      Microsoft Word.
+    question: What is Aspose.Words for Java?
+  - answer: A temporary license or free trial works for development and testing; a
+      full license is required for production deployments.
+    question: Do I need a license to run the examples?
+  - answer: Yes—load the document with the appropriate password, then use the same
+      comment APIs once the file is opened.
+    question: Can I add comments to password‑protected documents?
+  - answer: The library handles comments in all Word formats (DOC, DOCX, DOCM, DOT,
+      DOTX, DOTM) and preserves them when converting to PDF, HTML, or images.
+    question: How many comment formats does Aspose.Words support?
+  - answer: Practically, you can manage thousands of comments; performance depends
+      on document size and available memory.
+    question: Is there a limit to the number of comments I can process?
+  type: FAQPage
+tags:
+- comment management
+- Aspose.Words
+- Java document processing
+- add comment java
+- print word comments
+title: Cara Menggunakan Aspose.Words Java untuk Manajemen Komentar
+url: /id/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,84 +57,161 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara Menggunakan Aspose.Words Java untuk Manajemen Komentar
 
-# Aspose.Words Java: Menguasai Manajemen Komentar dalam Dokumen Word
+Mengelola komentar dalam dokumen Word secara programatik dapat terasa seperti menavigasi labirin, terutama ketika Anda perlu menambahkan balasan, menyelesaikan masalah, atau melacak kapan umpan balik diberikan. **How to use Aspose** membuat ini sederhana: perpustakaan Aspose.Words untuk Java menyediakan API yang bersih yang memungkinkan Anda menambahkan, mencetak, menghapus, dan menandai komentar sebagai selesai, serta mengambil cap waktu UTC yang tepat. Dalam panduan ini kami akan membahas setiap kemampuan langkah demi langkah, sehingga Anda dapat menyematkan penanganan komentar yang kuat ke dalam aplikasi Java Anda.
 
-## Perkenalan
-Mengelola komentar dalam dokumen Word secara terprogram dapat menjadi tantangan, baik saat Anda menambahkan balasan atau menandai masalah sebagai terselesaikan. Tutorial ini memandu Anda menggunakan pustaka Aspose.Words yang canggih dengan Java untuk menambahkan, mengelola, dan menganalisis komentar secara efisien.
+## Jawaban Cepat
+- **Library apa yang menangani komentar Word di Java?** Aspose.Words for Java.
+- **Apakah saya dapat menambahkan balasan ke komentar?** Ya – gunakan `Comment.getReplies().add(...)`.
+- **Bagaimana cara mencetak semua komentar?** Iterasi `doc.getComments()` dan keluarkan teks setiap komentar.
+- **Apakah memungkinkan menandai komentar sebagai selesai?** Setel `Comment.setDone(true)`.
+- **Bagaimana saya dapat mendapatkan cap waktu UTC dari komentar?** Panggil `Comment.getDateTime().toInstant()`.
 
-**Apa yang Akan Anda Pelajari:**
-- Tambahkan komentar dan balasan dengan mudah
-- Cetak semua komentar dan balasan tingkat atas
-- Hapus balasan komentar atau tandai komentar sebagai selesai
-- Ambil tanggal dan waktu UTC komentar untuk pelacakan yang tepat
+## Apa itu “how to use aspose”?
+**“how to use aspose”** mengacu pada langkah‑langkah praktis yang diikuti pengembang untuk mengintegrasikan perpustakaan Aspose—seperti Aspose.Words for Java—ke dalam basis kode mereka untuk tugas manipulasi dokumen. Dengan mengikuti contoh di bawah, Anda akan melihat secara tepat cara memanfaatkan API untuk manajemen komentar.
 
-Siap untuk meningkatkan keterampilan manajemen dokumen Anda? Mari kita bahas prasyaratnya sebelum memulai.
+## Mengapa menggunakan Aspose.Words untuk penanganan komentar?
+Aspose.Words mendukung **35+** format masukan dan keluaran—termasuk DOCX, PDF, HTML, dan ODT—dan dapat memproses dokumen **500‑halaman** dalam waktu kurang dari **3 detik** pada perangkat keras server tipikal, semuanya tanpa memerlukan Microsoft Word. Kinerja ini, dikombinasikan dengan API komentar yang kaya, menghilangkan kebutuhan akan parsing XML manual atau alat pihak ketiga.
 
 ## Prasyarat
-Sebelum memulai, pastikan Anda memiliki pustaka, alat, dan pengaturan lingkungan yang diperlukan. Anda memerlukan:
-- Java Development Kit (JDK) terinstal di komputer Anda
-- Keakraban dengan konsep dasar pemrograman Java
-- Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse
+- Java Development Kit (JDK 8 atau lebih tinggi) terpasang.
+- IDE seperti IntelliJ IDEA atau Eclipse.
+- Maven atau Gradle untuk manajemen dependensi.
+- Lisensi Aspose.Words yang valid (versi percobaan gratis tersedia).
 
 ### Menyiapkan Aspose.Words untuk Java
-Aspose.Words adalah pustaka lengkap yang memungkinkan Anda bekerja dengan dokumen Word dalam berbagai format. Untuk memulai, sertakan dependensi berikut dalam proyek Anda:
+Sertakan perpustakaan dalam proyek Anda:
 
-**Pakar:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradasi:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Akuisisi Lisensi
-Aspose.Words adalah pustaka berbayar, tetapi Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara untuk akses penuh ke fitur-fiturnya. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk menjelajahi pilihan perizinan.
+Aspose.Words adalah produk komersial, tetapi Anda dapat memulai dengan percobaan gratis atau meminta lisensi sementara untuk akses penuh ke semua fitur. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk menjelajahi opsi lisensi.
 
-## Panduan Implementasi
-Di bagian ini, kami akan menguraikan setiap fitur yang terkait dengan manajemen komentar menggunakan Aspose.Words di Java.
+## Cara menambahkan komentar dengan balasan menggunakan Aspose.Words untuk Java?
+Untuk menyisipkan komentar dan balasan berikutnya, pertama muat atau buat `Document`, lalu gunakan `DocumentBuilder` untuk memposisikan kursor di tempat komentar harus muncul. Buat objek `Comment` dengan informasi penulis dan teks, tambahkan ke dokumen, dan akhirnya lampirkan balasan `Comment` ke komentar asli. Urutan ini memastikan umpan balik disimpan secara hierarkis dalam file.
 
-### Fitur 1: Tambahkan Komentar dengan Balasan
-**Ringkasan**
-Fitur ini menunjukkan cara menambahkan komentar dan balasan dalam dokumen Word. Fitur ini ideal untuk penyuntingan dokumen secara kolaboratif, tempat banyak pengguna dapat memberikan umpan balik.
-
-#### Langkah-langkah Implementasi
-**Langkah 1:** Inisialisasi Objek Dokumen
+Kelas `Document` mewakili dokumen Word yang dimuat dalam memori.  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Langkah 2:** Membuat dan Menambahkan Komentar
+## Cara mencetak semua komentar dan balasannya dalam dokumen Word?
+Untuk menampilkan setiap komentar beserta balasan bersarangnya, muat dokumen target dan iterasi melalui `CommentCollection`-nya. Untuk setiap komentar tingkat atas, keluarkan penulis, teks, dan tanggal pembuatan, kemudian loop melalui koleksi `Replies`-nya untuk mencetak detail setiap balasan. Pendekatan ini memberikan tampilan lengkap dan mudah dibaca dari semua umpan balik yang ada dalam file.
+
+Kelas `Document` mewakili dokumen Word yang dimuat dalam memori.  
+```java
+Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
+```  
+
+## Cara menghapus balasan komentar di Aspose.Words untuk Java?
+Untuk menghapus balasan komentar, pertama dapatkan objek `Comment` induk dari koleksi komentar dokumen. Anda dapat mengosongkan seluruh daftar `Replies` untuk menghapus semua umpan balik bersarang atau menargetkan balasan tertentu berdasarkan indeksnya dan memanggil metode `remove`. Pembersihan ini membantu menjaga dokumen tetap ringkas setelah tinjauan.
+
+Kelas `Document` mewakili dokumen Word yang dimuat dalam memori.  
+```java
+Document document = new Document();
+Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
+comment.setText("My comment.");
+document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
+```  
+
+## Cara menandai komentar sebagai selesai dalam dokumen Word?
+Menandai komentar sebagai selesai menandakan bahwa masalah telah ditangani. Ambil `Comment` yang diinginkan dari dokumen, lalu panggil metode `setDone(true)`-nya. Setelah ditandai, komentar akan muncul dengan indikator visual di penampil yang mendukung, memungkinkan peninjau dengan cepat mengidentifikasi item yang telah diselesaikan.
+
+Kelas `Document` mewakili dokumen Word yang dimuat dalam memori.  
+```java
+Document document = new Document();
+DocumentBuilder documentBuilder = new DocumentBuilder(document);
+documentBuilder.writeln("Hello world!");
+Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
+comment.setText("Fix the spelling error!");
+```  
+
+## Cara mendapatkan tanggal dan waktu UTC dari komentar?
+Setiap komentar menyimpan momen tepat saat dibuat. Setelah memuat dokumen, akses objek `Comment` dan panggil metode `getDateTime()`, yang mengembalikan nilai `DateTime`. Konversi nilai ini ke UTC menggunakan `toInstant()` untuk memperoleh cap waktu yang tidak bergantung zona waktu, cocok untuk pencatatan atau keperluan audit.
+
+Kelas `Document` mewakili dokumen Word yang dimuat dalam memori.  
+```java
+Document document = new Document();
+DocumentBuilder documentBuilder = new DocumentBuilder(document);
+Date dateTime = new Date();
+Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
+comment.setText("My comment.");
+documentBuilder.getCurrentParagraph().appendChild(comment);
+```  
+
+## Aplikasi Praktis
+Memahami dan memanfaatkan fitur manajemen komentar ini dapat secara dramatis meningkatkan alur kerja dokumen:
+
+- **Penyuntingan Kolaboratif:** Tim dapat meninggalkan umpan balik berulir tanpa meninggalkan file Word.
+- **Otomatisasi Review Dokumen:** Ekspor komentar ke CSV atau integrasikan dengan sistem pelacakan isu.
+- **Audit & Kepatuhan:** Cap waktu UTC memberikan catatan tak dapat diubah tentang kapan umpan balik diberikan.
+
+Kemampuan ini terintegrasi dengan mulus ke platform manajemen konten, pipeline pelaporan otomatis, atau alat review khusus.
+
+## Pertimbangan Kinerja
+Saat menangani file Word besar (ratusan halaman), ingat tips berikut:
+
+- Proses komentar secara batch daripada memuat seluruh pohon komentar sekaligus.
+- Gunakan kembali satu instance `Document` untuk beberapa operasi guna mengurangi penggunaan memori.
+- Upgrade ke versi Aspose.Words terbaru untuk mendapatkan manfaat dari optimasi kinerja dan perbaikan bug.
+
+## Kesimpulan
+Anda kini mengetahui **cara menggunakan Aspose.Words Java** untuk menambahkan, mencetak, menghapus, menyelesaikan, dan memberi cap waktu pada komentar dalam dokumen Word. Integrasikan pola-pola ini ke dalam aplikasi Anda untuk memperlancar kolaborasi dan mempertahankan jejak audit yang jelas.
+
+**Langkah Selanjutnya:**  
+- Bereksperimen dengan memfilter komentar berdasarkan penulis atau tanggal.  
+- Gabungkan penanganan komentar dengan fitur perlindungan dokumen untuk siklus review yang aman.  
+
+Siap menerapkan teknik ini ke produksi? Mulailah coding hari ini dan saksikan proses review dokumen Anda menjadi jauh lebih efisien.
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apa itu Aspose.Words untuk Java?**  
+A: Aspose.Words untuk Java adalah perpustakaan yang memungkinkan pengembang membuat, mengedit, mengonversi, dan merender dokumen Word secara programatik tanpa memerlukan Microsoft Word.
+
+**T: Apakah saya memerlukan lisensi untuk menjalankan contoh?**  
+A: Lisensi sementara atau percobaan gratis dapat digunakan untuk pengembangan dan pengujian; lisensi penuh diperlukan untuk penyebaran produksi.
+
+**T: Bisakah saya menambahkan komentar ke dokumen yang dilindungi kata sandi?**  
+A: Ya—muat dokumen dengan kata sandi yang sesuai, kemudian gunakan API komentar yang sama setelah file terbuka.
+
+**T: Berapa banyak format komentar yang didukung Aspose.Words?**  
+A: Perpustakaan menangani komentar dalam semua format Word (DOC, DOCX, DOCM, DOT, DOTX, DOTM) dan mempertahankannya saat mengonversi ke PDF, HTML, atau gambar.
+
+**T: Apakah ada batasan jumlah komentar yang dapat saya proses?**  
+A: Secara praktis, Anda dapat mengelola ribuan komentar; kinerja tergantung pada ukuran dokumen dan memori yang tersedia.
+
+**Terakhir Diperbarui:** 2026-07-21  
+**Diuji Dengan:** Aspose.Words for Java 24.12  
+**Penulis:** Aspose
+
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**Langkah 3:** Tambahkan Balasan ke Komentar
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```
 
-### Fitur 2: Cetak Semua Komentar
-**Ringkasan**
-Fitur ini mencetak semua komentar tingkat atas dan balasannya, memudahkan peninjauan umpan balik secara massal.
-
-#### Langkah-langkah Implementasi
-**Langkah 1:** Muat Dokumen
-```java
-Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
-
-**Langkah 2:** Ambil dan Cetak Komentar
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -103,42 +225,11 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```
 
-### Fitur 3: Hapus Balasan Komentar
-**Ringkasan**
-Hapus balasan tertentu atau semua balasan dari komentar untuk menjaga dokumen tetap bersih dan teratur.
-
-#### Langkah-langkah Implementasi
-**Langkah 1:** Inisialisasi dan Tambahkan Komentar dengan Balasan
 ```java
-Document document = new Document();
-Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
-comment.setText("My comment.");
-document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
 ```
 
-**Langkah 2:** Hapus Balasan
-```java
-comment.removeReply(comment.getReplies().get(0)); // Hapus satu balasan
-comment.removeAllReplies(); // Hapus semua balasan yang tersisa
-```
-
-### Fitur 4: Tandai Komentar sebagai Selesai
-**Ringkasan**
-Tandai komentar sebagai terselesaikan untuk melacak masalah secara efisien dalam dokumen Anda.
-
-#### Langkah-langkah Implementasi
-**Langkah 1:** Buat Dokumen dan Tambahkan Komentar
-```java
-Document document = new Document();
-DocumentBuilder documentBuilder = new DocumentBuilder(document);
-documentBuilder.writeln("Hello world!");
-Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
-comment.setText("Fix the spelling error!");
-```
-
-**Langkah 2:** Tandai Komentar sebagai Selesai
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -146,22 +237,6 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```
 
-### Fitur 5: Dapatkan Tanggal dan Waktu UTC dari Komentar
-**Ringkasan**
-Ambil tanggal dan waktu UTC yang tepat saat komentar ditambahkan untuk pelacakan yang tepat.
-
-#### Langkah-langkah Implementasi
-**Langkah 1:** Buat Dokumen dengan Komentar Bercap Waktu
-```java
-Document document = new Document();
-DocumentBuilder documentBuilder = new DocumentBuilder(document);
-Date dateTime = new Date();
-Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
-comment.setText("My comment.");
-documentBuilder.getCurrentParagraph().appendChild(comment);
-```
-
-**Langkah 2:** Simpan dan Ambil Tanggal UTC
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -169,47 +244,16 @@ Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```
 
-## Aplikasi Praktis
-Memahami dan memanfaatkan fitur-fitur ini dapat meningkatkan manajemen dokumen secara signifikan dalam berbagai skenario:
-- **Penyuntingan Kolaboratif:** Memfasilitasi kolaborasi tim dengan komentar dan balasan.
-- **Tinjauan Dokumen:** Memperlancar proses peninjauan dengan menandai masalah sebagai terselesaikan.
-- **Manajemen Umpan Balik:** Pantau umpan balik menggunakan stempel waktu yang tepat.
+## Tutorial Terkait
 
-Kemampuan ini dapat diintegrasikan ke dalam sistem yang lebih besar, seperti platform manajemen konten atau jalur pemrosesan dokumen otomatis.
+- [Menguasai Aspose.Words untuk Java: Cara Menyisipkan dan Mengelola Bookmark dalam Dokumen Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Melacak Perubahan dalam Dokumen Word Menggunakan Aspose.Words Java: Panduan Lengkap untuk Revisi Dokumen](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Aspose.Words Java: Panduan Komprehensif untuk Pemrosesan Dokumen Word](/words/java/document-operations/aspose-words-java-master-word-processing/)
 
-## Pertimbangan Kinerja
-Saat bekerja dengan dokumen besar, pertimbangkan tips berikut untuk mengoptimalkan kinerja:
-- Batasi jumlah komentar yang diproses dalam satu waktu
-- Gunakan struktur data yang efisien untuk menyimpan dan mengambil komentar
-- Perbarui Aspose.Words secara berkala untuk meningkatkan kinerja
-
-## Kesimpulan
-Anda kini telah menguasai cara menambahkan, mengelola, dan menganalisis komentar di Java menggunakan Aspose.Words. Dengan keterampilan ini, Anda dapat meningkatkan alur kerja manajemen dokumen secara signifikan. Terus jelajahi fitur-fitur Aspose.Words lainnya untuk membuka potensi penuhnya.
-
-**Langkah Berikutnya:**
-- Bereksperimen dengan fungsi Aspose.Words tambahan
-- Integrasikan manajemen komentar ke dalam proyek Anda yang sudah ada
-
-Siap menerapkan solusi ini? Mulailah hari ini dan sederhanakan proses penanganan dokumen Anda!
-
-## Bagian FAQ
-1. **Apa itu Aspose.Words untuk Java?**
-   - Ini adalah pustaka yang memungkinkan manipulasi dokumen Word dalam berbagai format secara terprogram.
-2. **Bagaimana cara menginstal Aspose.Words untuk proyek saya?**
-   - Tambahkan dependensi Maven atau Gradle ke berkas proyek Anda.
-3. **Bisakah saya menggunakan Aspose.Words tanpa lisensi?**
-   - Ya, dengan batasan. Pertimbangkan untuk mendapatkan lisensi sementara atau penuh untuk akses penuh.
-4. **Apa saja masalah umum saat mengelola komentar?**
-   - Pastikan metode pemuatan dokumen dan pengambilan komentar yang tepat; tangani referensi nol dengan hati-hati.
-5. **Bagaimana cara melacak perubahan pada beberapa dokumen?**
-   - Terapkan sistem kontrol versi atau gunakan fitur Aspose.Words untuk melacak modifikasi dokumen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

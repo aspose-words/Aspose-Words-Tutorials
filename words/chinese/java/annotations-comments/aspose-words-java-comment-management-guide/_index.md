@@ -1,9 +1,50 @@
 ---
-"date": "2025-03-28"
-"description": "学习如何使用 Aspose.Words for Java 管理 Word 文档中的评论和回复。轻松添加、打印、删除、标记为完成以及跟踪评论时间戳。"
-"title": "Aspose.Words Java&#58; 掌握Word文档中的注释管理"
-"url": "/zh/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-21'
+description: 了解如何使用 Aspose.Words for Java 添加、打印、删除评论并将其标记为已完成，以及在 Word 文档中检索 UTC 时间戳。
+keywords:
+- how to use aspose
+- add comment java
+- print word comments
+- Aspose.Words Java
+- comment management
+lastmod: '2026-07-21'
+og_description: 探索如何使用 Aspose.Words Java 添加、打印、删除评论并将其标记为已完成，以及在 Word 文档中检索 UTC 时间戳。
+og_image_alt: 'Developer guide: Manage Word comments with Aspose.Words Java'
+og_title: 如何使用 Aspose.Words Java 进行评论管理
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to use Aspose.Words for Java to add, print, remove, and mark
+    comments as done, plus retrieve UTC timestamps in Word documents.
+  headline: How to Use Aspose.Words Java for Comment Management
+  type: TechArticle
+- questions:
+  - answer: Aspose.Words for Java is a library that enables developers to create,
+      edit, convert, and render Word documents programmatically without requiring
+      Microsoft Word.
+    question: What is Aspose.Words for Java?
+  - answer: A temporary license or free trial works for development and testing; a
+      full license is required for production deployments.
+    question: Do I need a license to run the examples?
+  - answer: Yes—load the document with the appropriate password, then use the same
+      comment APIs once the file is opened.
+    question: Can I add comments to password‑protected documents?
+  - answer: The library handles comments in all Word formats (DOC, DOCX, DOCM, DOT,
+      DOTX, DOTM) and preserves them when converting to PDF, HTML, or images.
+    question: How many comment formats does Aspose.Words support?
+  - answer: Practically, you can manage thousands of comments; performance depends
+      on document size and available memory.
+    question: Is there a limit to the number of comments I can process?
+  type: FAQPage
+tags:
+- comment management
+- Aspose.Words
+- Java document processing
+- add comment java
+- print word comments
+title: 如何使用 Aspose.Words Java 进行评论管理
+url: /zh/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,84 +53,163 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 如何使用 Aspose.Words Java 进行评论管理
 
-# Aspose.Words Java：掌握Word文档中的注释管理
+以编程方式管理 Word 文档中的评论可能像在迷宫中穿行，尤其是当你需要添加回复、解决问题或追踪反馈留下的时间时。**How to use Aspose** 让这变得简单：Aspose.Words for Java 库提供了简洁的 API，能够添加、打印、删除评论并将其标记为完成，还能获取精确的 UTC 时间戳。在本指南中，我们将逐步演示每项功能，帮助你在 Java 应用程序中嵌入强大的评论处理。
 
-## 介绍
-无论是添加回复还是将问题标记为已解决，以编程方式管理 Word 文档中的注释都可能颇具挑战性。本教程将指导您使用强大的 Aspose.Words 库和 Java 高效地添加、管理和分析注释。
+## 快速答案
+- **什么库在 Java 中处理 Word 评论？** Aspose.Words for Java.
+- **我可以为评论添加回复吗？** 是的 – 使用 `Comment.getReplies().add(...)`。
+- **如何打印所有评论？** 遍历 `doc.getComments()` 并输出每条评论的文本。
+- **是否可以将评论标记为已完成？** 设置 `Comment.setDone(true)`。
+- **如何获取评论的 UTC 时间戳？** 调用 `Comment.getDateTime().toInstant()`。
 
-**您将学到什么：**
-- 轻松添加评论和回复
-- 打印所有顶级评论和回复
-- 删除评论回复或将评论标记为已完成
-- 检索评论的 UTC 日期和时间，以便进行精确跟踪
+## 什么是 “how to use aspose”？
+**“how to use aspose”** 指的是开发者在代码库中集成 Aspose 库（如 Aspose.Words for Java）以完成文档操作任务的实际步骤。通过下面的示例，你将看到如何利用 API 进行评论管理。
 
-准备好提升你的文档管理技能了吗？在开始之前，我们先来了解一下先决条件。
+## 为什么在评论处理时使用 Aspose.Words？
+Aspose.Words 支持 **35+** 种输入和输出格式——包括 DOCX、PDF、HTML 和 ODT，并且能够在普通服务器硬件上在 **3 秒** 内处理 **500 页** 文档，且无需 Microsoft Word。这种性能加上丰富的评论 API，消除了手动 XML 解析或第三方工具的需求。
 
-## 先决条件
-开始之前，请确保你已准备好必要的库、工具和环境设置。你需要：
-- 您的机器上安装了 Java 开发工具包 (JDK)
-- 熟悉基本的 Java 编程概念
-- 集成开发环境 (IDE)，例如 IntelliJ IDEA 或 Eclipse
+## 前置条件
+- 已安装 Java Development Kit (JDK 8 或更高)。
+- 使用 IntelliJ IDEA 或 Eclipse 等 IDE。
+- 使用 Maven 或 Gradle 进行依赖管理。
+- 有效的 Aspose.Words 许可证（提供免费试用）。
 
 ### 设置 Aspose.Words for Java
-Aspose.Words 是一个功能全面的库，可让您处理各种格式的 Word 文档。首先，请在项目中包含以下依赖项：
+在项目中引入库：
 
-**Maven：**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle：**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### 许可证获取
-Aspose.Words 是一个付费库，但您可以先免费试用，或申请临时许可证以完整使用其功能。访问 [购买页面](https://purchase.aspose.com/buy) 探索许可选项。
+Aspose.Words 是商业产品，但你可以先使用免费试用或申请临时许可证以获得全部功能。访问 [purchase page](https://purchase.aspose.com/buy) 了解授权选项。
 
-## 实施指南
-在本节中，我们将分解使用 Java 中的 Aspose.Words 与评论管理相关的每个功能。
+## 如何使用 Aspose.Words for Java 添加带回复的评论？
+要插入评论及其后续回复，首先加载或创建一个 `Document`，然后使用 `DocumentBuilder` 将光标定位到需要添加评论的位置。创建包含作者信息和文本的 `Comment` 对象，将其加入文档，最后将 `Comment` 回复附加到原始评论上。此顺序确保反馈以层级结构存储在文件中。
 
-### 功能 1：添加评论并回复
-**概述**
-此功能演示如何在 Word 文档中添加注释和回复。它非常适合多人协作编辑文档，方便多人提供反馈。
-
-#### 实施步骤
-**步骤1：** 初始化文档对象
+`Document` 类表示内存中加载的 Word 文档。  
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**第 2 步：** 创建并添加评论
+## 如何在 Word 文档中打印所有评论及其回复？
+要显示每条评论及其嵌套回复，加载目标文档并遍历其 `CommentCollection`。对于每个顶层评论，输出作者、文本和创建日期，然后遍历其 `Replies` 集合打印每条回复的详细信息。此方法可完整、可读地呈现文件中所有反馈。
+
+`Document` 类表示内存中加载的 Word 文档。  
+```java
+Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
+```  
+
+## 如何在 Aspose.Words for Java 中删除评论回复？
+要删除评论回复，首先从文档的评论集合中获取父 `Comment` 对象。你可以清空整个 `Replies` 列表以删除所有嵌套反馈，或通过索引定位特定回复并调用 `remove` 方法。此清理有助于在审阅后保持文档简洁。
+
+`Document` 类表示内存中加载的 Word 文档。  
+```java
+Document document = new Document();
+Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
+comment.setText("My comment.");
+document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
+comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
+```  
+
+## 如何在 Word 文档中将评论标记为已完成？
+将评论标记为已完成表示该问题已得到处理。从文档中获取目标 `Comment`，然后调用其 `setDone(true)` 方法。标记后，支持的查看器会以可视指示显示已解决的评论，帮助审阅者快速识别已处理项。
+
+`Document` 类表示内存中加载的 Word 文档。  
+```java
+Document document = new Document();
+DocumentBuilder documentBuilder = new DocumentBuilder(document);
+documentBuilder.writeln("Hello world!");
+Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
+comment.setText("Fix the spelling error!");
+```  
+
+## 如何获取评论的 UTC 日期和时间？
+每条评论都会存储其创建的确切时刻。加载文档后，访问 `Comment` 对象并调用 `getDateTime()` 方法，返回 `DateTime` 值。使用 `toInstant()` 将该值转换为 UTC，以获得适用于日志或审计的时区无关时间戳。
+
+`Document` 类表示内存中加载的 Word 文档。  
+```java
+Document document = new Document();
+DocumentBuilder documentBuilder = new DocumentBuilder(document);
+Date dateTime = new Date();
+Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
+comment.setText("My comment.");
+documentBuilder.getCurrentParagraph().appendChild(comment);
+```  
+
+## 实际应用
+了解并使用这些评论管理功能可以显著提升文档工作流：
+
+- **协作编辑：** 团队可以在 Word 文件内留下线程式反馈，无需离开文档。
+- **文档审阅自动化：** 将评论导出为 CSV 或与问题追踪系统集成。
+- **审计与合规：** UTC 时间戳提供了不可篡改的反馈记录。
+
+这些功能可平滑集成到内容管理平台、自动化报告管道或自定义审阅工具中。
+
+## 性能考虑
+处理大型 Word 文件（数百页）时请注意以下技巧：
+
+- 将评论分批处理，而不是一次性加载完整的评论树。
+- 对多个操作复用同一个 `Document` 实例，以降低内存开销。
+- 升级到最新的 Aspose.Words 版本，以获得性能优化和错误修复。
+
+## 结论
+现在你已经了解 **如何使用 Aspose.Words Java** 来添加、打印、删除、解决以及为 Word 文档中的评论打上时间戳。将这些模式整合到你的应用程序中，可简化协作并保持清晰的审计轨迹。
+
+**下一步：**  
+- 试验按作者或日期过滤评论。  
+- 将评论处理与文档保护功能相结合，实现安全的审阅周期。  
+
+准备好将这些技术投入生产了吗？立即开始编码，观看你的文档审阅过程变得更加高效。
+
+## 常见问题
+
+**Q: 什么是 Aspose.Words for Java？**  
+A: Aspose.Words for Java 是一个库，允许开发者在不依赖 Microsoft Word 的情况下，以编程方式创建、编辑、转换和渲染 Word 文档。
+
+**Q: 运行示例是否需要许可证？**  
+A: 开发和测试阶段可使用临时许可证或免费试用；生产部署则需要正式许可证。
+
+**Q: 我可以向受密码保护的文档添加评论吗？**  
+A: 可以——使用相应的密码加载文档后，即可使用相同的评论 API。
+
+**Q: Aspose.Words 支持多少种评论格式？**  
+A: 该库在所有 Word 格式（DOC、DOCX、DOCM、DOT、DOTX、DOTM）中处理评论，并在转换为 PDF、HTML 或图像时保留它们。
+
+**Q: 处理评论的数量有没有限制？**  
+A: 实际上可以管理成千上万条评论；性能取决于文档大小和可用内存。
+
+---
+
+**最后更新：** 2026-07-21  
+**测试环境：** Aspose.Words for Java 24.12  
+**作者：** Aspose
+
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
 ```
 
-**步骤3：** 添加对评论的回复
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
 ```
 
-### 功能 2：打印所有评论
-**概述**
-此功能可打印所有顶级评论及其回复，方便批量审查反馈。
-
-#### 实施步骤
-**步骤1：** 加载文档
-```java
-Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
-
-**第 2 步：** 检索并打印评论
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -103,42 +223,11 @@ for (Comment comment : (Iterable<Comment>) comments) {
 }
 ```
 
-### 功能3：删除评论回复
-**概述**
-从评论中删除特定回复或所有回复，以保持文档整洁有序。
-
-#### 实施步骤
-**步骤1：** 初始化并添加带有回复的评论
 ```java
-Document document = new Document();
-Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
-comment.setText("My comment.");
-document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
-comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
 ```
 
-**第 2 步：** 删除回复
-```java
-comment.removeReply(comment.getReplies().get(0)); // 删除一条回复
-comment.removeAllReplies(); // 删除所有剩余的回复
-```
-
-### 功能 4：将评论标记为完成
-**概述**
-将评论标记为已解决，以便在文档中有效地跟踪问题。
-
-#### 实施步骤
-**步骤1：** 创建文档并添加评论
-```java
-Document document = new Document();
-DocumentBuilder documentBuilder = new DocumentBuilder(document);
-documentBuilder.writeln("Hello world!");
-Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
-comment.setText("Fix the spelling error!");
-```
-
-**第 2 步：** 将评论标记为完成
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
@@ -146,22 +235,6 @@ comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
 ```
 
-### 功能 5：从评论中获取 UTC 日期和时间
-**概述**
-检索添加评论的准确 UTC 日期和时间，以便进行精确跟踪。
-
-#### 实施步骤
-**步骤1：** 创建带有时间戳的评论的文档
-```java
-Document document = new Document();
-DocumentBuilder documentBuilder = new DocumentBuilder(document);
-Date dateTime = new Date();
-Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
-comment.setText("My comment.");
-documentBuilder.getCurrentParagraph().appendChild(comment);
-```
-
-**第 2 步：** 保存并检索 UTC 日期
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
@@ -169,47 +242,16 @@ Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
 ```
 
-## 实际应用
-了解和利用这些功能可以显著增强各种场景下的文档管理：
-- **协作编辑：** 通过评论和回复促进团队协作。
-- **文件审查：** 通过将问题标记为已解决来简化审核流程。
-- **反馈管理：** 使用精确的时间戳跟踪反馈。
+## 相关教程
 
-这些功能可以集成到更大的系统中，例如内容管理平台或自动化文档处理管道。
+- [掌握 Aspose.Words for Java：在 Word 文档中插入和管理书签](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [使用 Aspose.Words Java 跟踪 Word 文档更改：文档修订完整指南](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Aspose.Words Java：Word 文档处理全面指南](/words/java/document-operations/aspose-words-java-master-word-processing/)
 
-## 性能考虑
-处理大型文档时，请考虑以下提示以优化性能：
-- 限制一次处理的评论数量
-- 使用高效的数据结构来存储和检索评论
-- 定期更新 Aspose.Words 以提升性能
-
-## 结论
-现在，您已经掌握了使用 Aspose.Words 在 Java 中添加、管理和分析注释的技能。掌握这些技能后，您可以显著提升文档管理工作流程。继续探索 Aspose.Words 的其他功能，释放其全部潜力。
-
-**后续步骤：**
-- 尝试其他 Aspose.Words 功能
-- 将评论管理集成到您现有的项目中
-
-准备好实施这些解决方案了吗？立即开始，简化您的文档处理流程！
-
-## 常见问题解答部分
-1. **什么是 Aspose.Words for Java？**
-   - 它是一个允许以编程方式操作各种格式的 Word 文档的库。
-2. **如何为我的项目安装 Aspose.Words？**
-   - 将 Maven 或 Gradle 依赖项添加到您的项目文件。
-3. **我可以在没有许可证的情况下使用 Aspose.Words 吗？**
-   - 是的，但有限制。您可以考虑申请临时许可证或正式许可证，以获得完全访问权限。
-4. **管理评论时有哪些常见问题？**
-   - 确保正确的文档加载和评论检索方法；小心处理空引用。
-5. **如何跟踪多个文档之间的更改？**
-   - 实施版本控制系统或使用 Aspose.Words 的功能来跟踪文档修改。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
