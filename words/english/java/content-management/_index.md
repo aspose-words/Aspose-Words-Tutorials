@@ -1,5 +1,5 @@
 ---
-title: "Automate Document Workflow with Aspose.Words Java – Content Management Tutorials"
+title: "Automate Document Workflow with Aspose.Words for Java API – Content Management Tutorials"
 description: "Learn how to automate document workflow and modify Word documents Java using Aspose.Words. Comprehensive tutorials for content management and document variable manipulation."
 weight: 3
 url: "/java/content-management/"
@@ -31,6 +31,20 @@ In the ever‑evolving landscape of software development, effective content mana
 
 Automating document workflow with Aspose.Words means you can programmatically generate, edit, and publish Word files without manual intervention. This section highlights the key steps and best practices that make the process reliable and maintainable.
 
+```java
+// Example: Create a new document and add a paragraph
+import com.aspose.words.*;
+
+public class CreateDocument {
+    public static void main(String[] args) throws Exception {
+        Document doc = new Document();
+        DocumentBuilder builder = new DocumentBuilder(doc);
+        builder.writeln("Hello, Aspose.Words for Java!");
+        doc.save("HelloWorld.docx");
+    }
+}
+```
+
 ## What You'll Learn
 
 - Master the integration of Aspose.Words for document automation in Java applications.  
@@ -40,22 +54,22 @@ Automating document workflow with Aspose.Words means you can programmatically ge
 
 ## Available Tutorials
 
-### [Create Custom Building Blocks in Microsoft Word Using Aspose.Words for Java](./create-custom-building-blocks-aspose-words-java/)
+### [Create Custom Building Blocks in Microsoft Word Using Aspose.Words for Java]({{< relref "create-custom-building-blocks-aspose-words-java/_index.md" >}})
 Learn how to create and manage custom building blocks in Word documents using Aspose.Words for Java. Enhance document automation with reusable templates.
 
-### [Hyperlink Management in Word Using Aspose.Words Java&#58; A Comprehensive Guide](./master-hyperlink-management-word-aspose-words-java/)
+### [Hyperlink Management in Word Using Aspose.Words Java&#58; A Comprehensive Guide]({{< relref "master-hyperlink-management-word-aspose-words-java/_index.md" >}})
 Learn how to efficiently manage hyperlinks in Word documents with Aspose.Words for Java. Streamline your document workflows and optimize links with our step-by-step guide.
 
-### [Master Aspose.Words Java for Efficient Document Variable Manipulation](./aspose-words-java-document-variable-manipulation/)
+### [Master Aspose.Words Java for Efficient Document Variable Manipulation]({{< relref "aspose-words-java-document-variable-manipulation/_index.md" >}})
 Learn to manipulate document variables with Aspose.Words for Java, enhancing productivity in content management. Add, update, and manage variables effortlessly.
 
-### [Master Aspose.Words for Java&#58; How to Insert and Manage Bookmarks in Word Documents](./aspose-words-java-manage-bookmarks/)
+### [Master Aspose.Words for Java&#58; How to Insert and Manage Bookmarks in Word Documents]({{< relref "aspose-words-java-manage-bookmarks/_index.md" >}})
 Learn how to programmatically insert, update, and remove bookmarks in Microsoft Word documents using Aspose.Words for Java. Streamline your document processing tasks with this comprehensive guide.
 
-### [Master Bookmark Outline Levels in PDFs Using Aspose.Words Java](./aspose-words-java-pdf-bookmark-outline-levels/)
+### [Master Bookmark Outline Levels in PDFs Using Aspose.Words Java]({{< relref "aspose-words-java-pdf-bookmark-outline-levels/_index.md" >}})
 Learn how to organize bookmarks effectively in PDFs using Aspose.Words for Java. Enhance readability and navigation with this comprehensive guide.
 
-### [Master Document Manipulation with Aspose.Words for Java&#58; A Comprehensive Guide](./aspose-words-java-document-manipulation-guide/)
+### [Master Document Manipulation with Aspose.Words for Java&#58; A Comprehensive Guide]({{< relref "aspose-words-java-document-manipulation-guide/_index.md" >}})
 Learn how to master document manipulation using Aspose.Words for Java. This guide covers initialization, customizing backgrounds, and importing nodes efficiently.
 
 ## Additional Resources
@@ -94,6 +108,6 @@ Learn how to master document manipulation using Aspose.Words for Java. This guid
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

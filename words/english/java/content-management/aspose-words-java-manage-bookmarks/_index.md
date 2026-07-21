@@ -1,5 +1,5 @@
 ---
-title: "Create Bookmarks Word with Aspose.Words for Java – Insert, Update, Remove"
+title: "Create, Insert, Update, and Remove Bookmarks in Word using Aspose.Words for Java"
 description: "Learn how to create bookmarks word and how to add bookmark, update bookmark text, or remove bookmark using Aspose.Words for Java. A step‑by‑step guide for Java developers."
 date: "2026-01-29"
 weight: 1
@@ -242,6 +242,7 @@ By mastering **create bookmarks word** with Aspose.Words for Java, you gain prec
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 ---
 

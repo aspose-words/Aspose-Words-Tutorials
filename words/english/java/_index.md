@@ -1,5 +1,5 @@
 ---
-title: "Create Word Document with Java | Aspose.Words Tutorials"
+title: "Create Word Documents with Aspose.Words for Java | Tutorials"
 linktitle: Aspose.Words for Java Tutorials
 weight: 11
 url: /java/
@@ -44,6 +44,19 @@ Below is a concise overview of the typical workflow:
 4. **Save the document** to the desired format (`.docx`, `.pdf`, etc.).
 
 > **Pro tip:** Use `DocumentBuilder` for a fluent, easy‑to‑read way of adding content.
+
+```java
+import com.aspose.words.*;
+
+public class CreateWord {
+    public static void main(String[] args) throws Exception {
+        Document doc = new Document();
+        DocumentBuilder builder = new DocumentBuilder(doc);
+        builder.writeln("Hello, Aspose.Words for Java!");
+        doc.save("HelloWorld.docx");
+    }
+}
+```
 
 ## Common Use Cases
 - **Convert Word to PDF:** Ideal for generating printable invoices or reports.  
@@ -91,7 +104,7 @@ Learn techniques for rendering documents to different formats with precise contr
 Implement robust document protection with tutorials on encryption, password protection, digital signatures, and permissions management to safeguard sensitive content.
 
 ### [Document Splitting](./document-splitting/)
-Discover methods for dividing documents into smaller components based on various criteria. Extract specific content and create multiple output files from a single source document.
+Discover methods for dividing documents into smaller components based on various criteria. Extract specific content and create multiple output files from a single source.
 
 ### [Document Revision](./document-revision/)
 Master document revision tracking with tutorials on managing changes, version control, and collaborative editing features.
@@ -136,7 +149,7 @@ Implement sophisticated text manipulation features with tutorials on control cha
 Learn to compare documents and track changes efficiently. Implement version control and document revision systems in your applications.
 
 ### [Performance Optimization](./performance-optimization/)
-Enhance application performance with tutorials on memory management, rendering optimization, and efficient document handling techniques for large‑scale document processing.
+Enhance application performance with tutorials for memory management, rendering optimization, and efficient document handling techniques for large‑scale document processing.
 
 ### [Integration & Interoperability](./integration-interoperability/)
 Integrate Aspose.Words with other systems and technologies. Learn techniques for ensuring seamless document exchange between different platforms and applications.
@@ -180,3 +193,4 @@ A: Absolutely. Use `document.getText()` to retrieve all textual content without 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

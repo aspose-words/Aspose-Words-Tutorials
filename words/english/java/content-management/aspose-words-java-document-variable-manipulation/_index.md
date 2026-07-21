@@ -1,5 +1,5 @@
 ---
-title: "Create Dynamic Word Templates with Aspose.Words Java: Optimize Document Variable Manipulation"
+title: "Create Dynamic DOCX Word Templates with Aspose.Words Java: Optimize Document Variable Manipulation"
 description: "Learn how to create dynamic word templates using Aspose.Words for Java, including checking variable existence, updating variables, and batch processing."
 date: "2026-01-29"
 weight: 1
@@ -16,7 +16,7 @@ keywords:
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Dynamic Word Templates with Aspose.Words Java
+# Create Dynamic DOCX Word Templates with Aspose.Words Java
 
 ## Introduction
 If you need to **create dynamic word templates** that can adapt to changing data, Aspose.Words for Java gives you a powerful, programmatic way to manage document variables. Whether you’re generating reports, filling out contracts, or batch‑processing Word documents, controlling variables directly in the document lets you automate content with precision and speed. In this tutorial you’ll discover how to add, update, check, and remove variables, as well as how to reflect those changes in DOCVARIABLE fields.
@@ -186,6 +186,6 @@ A: Yes—especially when you apply batch processing and proper memory management
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

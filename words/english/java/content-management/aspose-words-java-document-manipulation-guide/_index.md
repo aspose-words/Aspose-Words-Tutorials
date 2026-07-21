@@ -1,5 +1,5 @@
 ---
-title: "Set Page Background Color with Aspose.Words for Java – A Complete Guide"
+title: "Set DOCX Page Background Color with Aspose.Words for Java – A Complete Guide"
 description: "Learn how to set page background color using Aspose.Words for Java, change word page color, and master document manipulation in one comprehensive tutorial."
 date: "2026-01-29"
 weight: 1
@@ -243,8 +243,6 @@ Enhancing documents with visual elements like shapes can provide a professional 
 
 #### Step‑by‑Step Implementation
 
-##### Insert and Manage Background Shapes
-
 ```java
 import com.aspose.words.Document;
 import com.aspose.words.Shape;
@@ -308,6 +306,6 @@ In this guide, you've learned how to **set page background color**, **change wor
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
