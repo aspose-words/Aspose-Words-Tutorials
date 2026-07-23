@@ -110,6 +110,9 @@ weight: 22
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
 
+### [حفظ المستند كملف DOCX – تحويل Markdown إلى Word باستخدام Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات Word بصيغة DOCX باستخدام Aspose.Words للـ Java.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

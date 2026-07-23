@@ -37,6 +37,9 @@ Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestan
 ### [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz pusty dokument Word z grupowanymi prostokątami – przewodnik C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać grupowane prostokąty przy użyciu Aspose.Words w C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

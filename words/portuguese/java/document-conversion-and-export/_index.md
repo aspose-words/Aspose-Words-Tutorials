@@ -81,7 +81,10 @@ Aprenda a criar e personalizar gráficos no Aspose.Words para Java. Explore tipo
 Desbloqueie o poder de equações matemáticas em documentos com Aspose.Words para Java. Aprenda a manipular e exibir objetos Office Math sem esforço.
 
 ### [Salvar Documento como TXT – Guia Rápido para Exportar Equações do Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Aprenda a salvar documentos Word como arquivos TXT preservando equações matemáticas usando Aspose.Words para Java.
+Aprenda a salvar documentos Word como arquivos TXT preservando equações matemáticas usando Aspose.Words for Java.
+
+### [Salvar Documento como DOCX – Converter Markdown para Word com Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Aprenda a converter Markdown para DOCX e salvar como documento Word usando Aspose.Words for Java.
 
 ### [Usando Formas de Documento no Aspose.Words para Java](./using-document-shapes/)
 Desbloqueie o Poder das Formas de Documento no Aspose.Words para Java. Aprenda a criar documentos visualmente atraentes com exemplos passo a passo.

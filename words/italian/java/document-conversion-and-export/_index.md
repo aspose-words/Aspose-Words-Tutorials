@@ -92,6 +92,9 @@ Scopri come includere immagini nei file Markdown generati dalla conversione di d
 ### [Salva documento come TXT – Guida rapida all'esportazione di equazioni Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in modo semplice e veloce.
 
+### [Salva documento come DOCX – Converti Markdown in Word con Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Scopri come trasformare file Markdown in documenti Word (DOCX) usando Aspose.Words per Java in pochi passaggi.
+
 ### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
 

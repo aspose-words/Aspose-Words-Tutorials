@@ -95,6 +95,9 @@ Aprenda a convertir documentos DOCX a Markdown y exportar ecuaciones matemática
 ### [Guardar documento como TXT – Guía rápida para exportar ecuaciones de Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aprenda a guardar documentos Word como archivos TXT y exportar ecuaciones matemáticas manteniendo el formato.
 
+### [Guardar documento como DOCX – Convertir Markdown a Word con Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Aprenda a convertir archivos Markdown a documentos Word (DOCX) usando Aspose.Words for Java en unos simples pasos.
+
 ### [Aspose.Words a PDF – Convertir DOCX a PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java en unos simples pasos.
 

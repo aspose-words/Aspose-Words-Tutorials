@@ -104,6 +104,9 @@ DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişi
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
 
+### [Aspose.Words for Java'da Belgeyi DOCX Olarak Kaydet – Markdown'ı Java ile Word'e Dönüştür](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Markdown dosyasını Java ve Aspose.Words kullanarak Word belgesine dönüştürün ve DOCX olarak kaydedin.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

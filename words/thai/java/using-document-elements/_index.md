@@ -71,6 +71,8 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [เพิ่ม Forms2OleControl ไปยัง DOCX – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+เรียนรู้วิธีเพิ่ม Forms2OleControl ลงในไฟล์ DOCX ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

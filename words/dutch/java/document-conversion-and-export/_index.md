@@ -104,6 +104,9 @@ Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van D
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
 
+### [Document opslaan als DOCX – Markdown naar Word converteren met Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Sla een document op als DOCX en converteer Markdown naar Word met behulp van Aspose.Words for Java.
+
 ## Veelgestelde Vragen
 
 **Q: Hoe voeg ik een watermark toe aan een bestaande PDF met Aspose.Words?**  

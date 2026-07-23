@@ -67,6 +67,8 @@ Apprenez à utiliser Markdown dans Aspose.Words pour Java grâce à ce tutoriel 
 Apprenez à manipuler les nœuds dans Aspose.Words pour Java grâce à ce tutoriel pas à pas. Exploitez toute la puissance de traitement de vos documents.
 ### [Utilisation des objets OLE et des contrôles ActiveX dans Aspose.Words pour Java](./using-ole-objects-and-activex/)
 Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words pour Java. Créez facilement des documents interactifs. Commencez dès maintenant !
+### [Ajouter Forms2OleControl à DOCX – Guide complet Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Apprenez à insérer un contrôle Forms2Ole dans un fichier DOCX avec Aspose.Words. Guide complet étape par étape.
 ### [Utilisation des révisions dans Aspose.Words pour Java](./using-revisions/)
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)

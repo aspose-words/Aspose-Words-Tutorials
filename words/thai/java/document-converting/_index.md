@@ -101,6 +101,9 @@ weight: 14
 ### [การแปลงเอกสารเป็นภาพ](./converting-documents-images/)
 เรียนรู้วิธีแปลงเอกสาร Word เป็นภาพด้วย Aspose.Words for Java. คู่มือขั้นตอนพร้อมตัวอย่างโค้ดและคำถามที่พบบ่อย.
 
+### [แปลง docx เป็น markdown – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ดและเคล็ดลับการใช้งาน
+
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถแปลงไฟล์ Word ที่ป้องกันด้วยรหัสผ่านเป็น PDF ได้หรือไม่?*  
