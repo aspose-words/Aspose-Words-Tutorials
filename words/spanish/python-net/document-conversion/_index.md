@@ -40,6 +40,9 @@ Aprenda a guardar documentos de Word como archivos Markdown usando Aspose.Words 
 ### [Recuperar DOCX dañado y convertir Word a Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Aprenda a reparar archivos DOCX dañados y convertirlos a Markdown con Aspose.Words para Python.
 
+### [Cómo recuperar DOCX y convertir a Markdown y PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+Aprenda a recuperar archivos DOCX dañados y convertirlos a Markdown y PDF usando Aspose.Words para Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
