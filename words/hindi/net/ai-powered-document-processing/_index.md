@@ -39,9 +39,11 @@
 | शीर्षक | विवरण |
 | --- | --- |
 | [एआई मॉडल के साथ काम करना](./working-with-ai-model/) | AI के साथ दस्तावेज़ों को सारांशित करने के लिए .NET के लिए Aspose.Words का उपयोग करना सीखें। दस्तावेज़ प्रबंधन को बेहतर बनाने के लिए आसान कदम। |
-| [गूगल AI मॉडल के साथ काम करना](./working-with-google-ai-model/) .NET और Google AI के लिए Aspose.Words के साथ अपने दस्तावेज़ प्रसंस्करण को उन्नत करें और आसानी से संक्षिप्त सारांश बनाएं। |
+| [गूगल AI मॉडल के साथ काम करना](./working-with-google-ai-model/) | .NET और Google AI के लिए Aspose.Words के साथ अपने दस्तावेज़ प्रसंस्करण को उन्नत करें और आसानी से संक्षिप्त सारांश बनाएं। |
 | [ओपन एआई मॉडल के साथ काम करना](./working-with-open-ai-model/) | OpenAI के शक्तिशाली मॉडल के साथ .NET के लिए Aspose.Words का उपयोग करके कुशल दस्तावेज़ सारांश अनलॉक करें। अब इस व्यापक गाइड में गोता लगाएँ। |
 | [सारांश विकल्पों के साथ कार्य करना](./working-with-summarize-options/) | त्वरित जानकारी के लिए AI मॉडल को एकीकृत करने पर हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को प्रभावी ढंग से सारांशित करना सीखें। |
+| [Aspose.Words.AI के साथ docx को फ्रेंच में अनुवाद – पूर्ण गाइड](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | .NET के लिए Aspose.Words.AI का उपयोग करके docx फ़ाइलों को फ्रेंच में अनुवाद करने की पूरी प्रक्रिया सीखें। |
+| [C# में दस्तावेज़ सारांश बनाना – पूर्ण OpenAI गाइड](./create-document-summary-in-c-complete-openai-guide/) | .NET के लिए Aspose.Words और OpenAI का उपयोग करके C# में दस्तावेज़ सारांश बनाना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

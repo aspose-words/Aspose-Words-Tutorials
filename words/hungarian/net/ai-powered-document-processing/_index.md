@@ -38,10 +38,12 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
  ## Mesterséges intelligencia által vezérelt dokumentumfeldolgozási oktatóanyagok
 | Cím | Leírás |
 | --- | --- |
-| [AI-modell használata](./working-with-ai-model/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et dokumentumok mesterséges intelligencia segítségével történő összefoglalására. Egyszerű lépések a dokumentumkezelés fejlesztéséhez.
+| [AI-modell használata](./working-with-ai-model/) | Tanulja meg, hogyan használhatja az Aspose.Words for .NET-et dokumentumok mesterséges intelligencia segítségével történő összefoglalására. Egyszerű lépések a dokumentumkezelés fejlesztéséhez. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
+| [docx fordítása franciára az Aspose.Words.AI segítségével – Teljes útmutató](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Ismerje meg, hogyan fordíthatja le a docx fájlokat franciára az Aspose.Words.AI segítségével lépésről lépésre útmutatóval. |
+| [Dokumentum összefoglaló létrehozása C#-ban – Teljes OpenAI útmutató](./create-document-summary-in-c-complete-openai-guide/) | Tanulja meg, hogyan hozhat létre dokumentum-összefoglalókat C#-ban az OpenAI segítségével lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
