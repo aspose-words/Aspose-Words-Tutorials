@@ -39,10 +39,11 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | Název | Popis |
 | --- | --- |
 | [Práce s modelem umělé inteligence](./working-with-ai-model/) | Naučte se, jak používat Aspose.Words pro .NET k shrnování dokumentů pomocí umělé inteligence. Snadné kroky pro vylepšení správy dokumentů. |
-| [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
+| [Práce s modelem umělé inteligence Google](./working-with-google-ai-model/) | Zlepšete zpracování dokumentů s Aspose.Words pro .NET a Google AI a vytvářejte stručné shrnutí bez námahy. |
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
-
+| [Překlad docx do francouzštiny s Aspose.Words.AI – Kompletní průvodce](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Naučte se, jak pomocí Aspose.Words.AI přeložit soubory DOCX do francouzštiny v několika krocích. |
+| [Vytvoření shrnutí dokumentu v C# – Kompletní průvodce OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Naučte se pomocí Aspose.Words a OpenAI vytvořit kompletní shrnutí dokumentu v C# během několika kroků. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

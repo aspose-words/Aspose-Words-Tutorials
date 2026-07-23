@@ -42,6 +42,8 @@
 | [العمل مع نموذج الذكاء الاصطناعي من Google](./working-with-google-ai-model/) |قم بترقية معالجة المستندات لديك باستخدام Aspose.Words for .NET وGoogle AI لإنشاء ملخصات موجزة بسهولة. |
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
+| [ترجمة ملف docx إلى الفرنسية باستخدام Aspose.Words.AI – دليل كامل](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | دليل شامل يوضح كيفية ترجمة مستندات DOCX إلى اللغة الفرنسية باستخدام Aspose.Words.AI خطوة بخطوة. |
+| [إنشاء ملخص مستند في C# – دليل OpenAI الكامل](./create-document-summary-in-c-complete-openai-guide/) | دليل شامل يوضح كيفية إنشاء ملخص مستند باستخدام OpenAI و Aspose.Words لـ .NET في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

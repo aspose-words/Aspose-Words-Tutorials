@@ -26,8 +26,9 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
 | [Chèn Đối Tượng Ole Vào Tài Liệu Word](./insert-ole-object/) | Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn bằng nội dung nhúng. |
 | [Chèn Đối Tượng Ole Vào Word Với Gói Ole](./insert-ole-object-with-ole-package/) | Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nhúng tệp một cách liền mạch. |
 | [Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng](./insert-ole-object-as-icon/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn. |
-| [Chèn Đối tượng Ole làm Biểu tượng Sử dụng Stream](./insert-ole-object-as-icon-using-stream/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng bằng luồng với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. |
+| [Chèn đối tượng Ole làm Biểu tượng Sử dụng Stream](./insert-ole-object-as-icon-using-stream/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng bằng luồng với Aspose.Words cho .NET trong hướng dẫn chi tiết từng bước này. |
 | [Đọc Thuộc Tính Active XControl Từ Tệp Word](./read-active-xcontrol-properties/) | Tìm hiểu cách đọc thuộc tính điều khiển ActiveX từ các tệp Word bằng Aspose.Words cho .NET theo hướng dẫn từng bước. Nâng cao kỹ năng tự động hóa tài liệu của bạn. |
+| [Tạo nút tài liệu Word với Aspose.Words – Ví dụ mã đầy đủ](./create-word-document-button-with-aspose-words-full-code-exam/) | Tìm hiểu cách tạo nút để tạo tài liệu Word bằng Aspose.Words với ví dụ mã đầy đủ. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

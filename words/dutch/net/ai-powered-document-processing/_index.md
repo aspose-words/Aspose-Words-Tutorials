@@ -41,7 +41,9 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met een AI-model](./working-with-ai-model/) | Leer hoe u Aspose.Words voor .NET kunt gebruiken om documenten samen te vatten met AI. Eenvoudige stappen voor het verbeteren van documentbeheer. |
 | [Werken met het Google AI-model](./working-with-google-ai-model/) Verbeter uw documentverwerking met Aspose.Words voor .NET en Google AI om moeiteloos beknopte samenvattingen te maken. |
 | [Werken met een open AI-model](./working-with-open-ai-model/) | Ontgrendel efficiënte documentsamenvattingen met Aspose.Words voor .NET met de krachtige modellen van OpenAI. Duik nu in deze uitgebreide handleiding. |
-| [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [Werken met samenvattingsoptielen](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [Docx vertalen naar Frans met Aspose.Words.AI – Volledige gids](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Leer hoe u met Aspose.Words.AI docx-bestanden naar het Frans vertaalt voor nauwkeurige en snelle vertalingen. |
+| [Documentoverzicht maken in C# – Complete OpenAI-gids](./create-document-summary-in-c-complete-openai-guide/) | Leer hoe u met OpenAI en C# een samenvatting van een Word-document maakt met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

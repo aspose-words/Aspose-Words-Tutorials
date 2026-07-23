@@ -42,6 +42,8 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
 | [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
+| [Traducir docx a francés con Aspose.Words.AI – Guía completa](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Aprenda a traducir documentos DOCX al francés usando Aspose.Words.AI con esta guía paso a paso. |
+| [Crear resumen de documento en C# – Guía completa de OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Aprenda a generar resúmenes de documentos en C# usando OpenAI con Aspose.Words. Guía paso a paso para resultados rápidos. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

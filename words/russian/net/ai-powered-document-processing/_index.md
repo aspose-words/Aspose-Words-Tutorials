@@ -42,6 +42,8 @@
 | [Работа с моделью Google AI](./working-with-google-ai-model/) Повысьте уровень обработки документов с помощью Aspose.Words для .NET и Google AI, чтобы легко создавать краткие резюме. |
 | [Работа с открытой моделью ИИ](./working-with-open-ai-model/) | Разблокируйте эффективное реферирование документов с помощью Aspose.Words для .NET с мощными моделями OpenAI. Погрузитесь в это всеобъемлющее руководство прямо сейчас. |
 | [Работа с параметрами резюмирования](./working-with-summarize-options/) | Научитесь эффективно резюмировать документы Word с помощью Aspose.Words для .NET с помощью нашего пошагового руководства по интеграции моделей ИИ для быстрого получения информации. |
+| [Перевод docx на французский с Aspose.Words.AI – Полное руководство](./translate-docx-to-french-with-aspose-words-ai-full-guide/) | Узнайте, как с помощью Aspose.Words.AI автоматически переводить файлы DOCX на французский язык. |
+| [Создание резюме документа в C# – Полное руководство по OpenAI](./create-document-summary-in-c-complete-openai-guide/) | Подробное руководство по использованию OpenAI в C# для создания резюме документов с Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
