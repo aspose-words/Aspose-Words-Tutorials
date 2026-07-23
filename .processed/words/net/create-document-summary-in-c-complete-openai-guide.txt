@@ -1,0 +1,7 @@
+Title: Create Document Summary in C# – Complete OpenAI Guide
+Slug: create-document-summary-in-c-complete-openai-guide
+Category: ai-powered-document-processing
+ProcessedDate: 2026-07-23T10:22:27.994795
+SourceRepo: AI Search API
+Keywords: create document summary, summarize word document, convert docx to txt, generate summary openai, save summary text file
+PRNumber: 231
