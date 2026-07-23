@@ -71,6 +71,8 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Přidání Forms2OleControl do DOCX – Kompletní průvodce Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu přidat ovládací prvek Forms2OleControl do souboru DOCX. Kompletní krok za krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

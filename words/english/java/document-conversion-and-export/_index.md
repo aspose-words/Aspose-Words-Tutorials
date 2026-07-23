@@ -90,6 +90,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Learn how to convert DOCX files to Markdown and export embedded Math equations as LaTeX using Aspose.Words for Java.
 
+### [Save Document as DOCX – Convert Markdown to Word with Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Learn how to convert Markdown files to DOCX using Aspose.Words for Java and save the document as a Word file.
+
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
 

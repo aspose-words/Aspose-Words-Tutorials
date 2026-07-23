@@ -101,6 +101,9 @@ Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
+### [Dokument als DOCX speichern – Markdown nach Word konvertieren mit Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Erfahren Sie, wie Sie Markdown-Dateien mit Aspose.Words for Java in DOCX-Dokumente konvertieren und speichern.
+
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
 

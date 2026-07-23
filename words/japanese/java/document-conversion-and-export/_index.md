@@ -85,6 +85,9 @@ Aspose.Words for Java で文書にウォーターマークを追加する方法�
 ### [Aspose.Words for Java で DOCX を PDF に変換](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java を使用して DOCX ファイルを PDF に変換する手順をステップバイステップで解説します。
 
+### [DOCX として文書を保存 – Java で Markdown を Word に変換](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Markdown ファイルを Aspose.Words for Java で読み込み、DOCX 形式で保存する手順をステップバイステップで解説します。
+
 ### [DOCX からアクセシブル PDF を作成 – 完全ガイド](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX ファイルをアクセシブルな PDF に変換する手順とベストプラクティスをステップバイステップで解説します。
 

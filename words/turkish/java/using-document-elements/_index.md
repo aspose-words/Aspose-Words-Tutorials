@@ -71,6 +71,8 @@ Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı ö
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
 Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı bir kılavuz. Kod örnekleriyle bölümleri ekleyin, silin, ekleyin, klonlayın.
+### [DOCX'e Forms2OleControl Ekleme – Tam Aspose.Words Kılavuzu](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Java için Aspose.Words'de Forms2OleControl ile DOCX dosyalarına form nesneleri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,7 +98,10 @@ Convert HTML to Word documents effortlessly with Aspose.Words for Java. Learn ho
 Efektywna konwersja DOCX do EPUB przy użyciu Aspose.Words for Java. Dowiedz się, jak dostosować opcje zapisu, podzielić zawartość i wyeksportować właściwości dokumentu w tym przewodniku krok po kroku.
 
 ### [Konwertowanie dokumentów do obrazów](./converting-documents-images/)
-Dowiedz się, jak konwertować dokumenty Word na obrazy przy użyciu Aspose.Words for Java. Przewodnik krok po kroku, zawierający przykłady kodu i FAQ.
+Dowiedz się, jak konwertować dokumenty Word na obrazy przy użyciu Aspose.Words dla Java. Przewodnik krok po kroku, zawierający przykłady kodu i FAQ.
+
+### [Konwertuj docx do markdown – Kompletny przewodnik dla programistów Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Dowiedz się, jak przekształcić pliki DOCX na format Markdown w Javie, używając Aspose.Words, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

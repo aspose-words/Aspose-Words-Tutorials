@@ -37,6 +37,9 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 ### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
 
+### [Vytvořit prázdný dokument Word se seskupenými obdélníky – průvodce pro C#](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+Naučte se vytvořit prázdný dokument Word se seskupenými obdélníky pomocí Aspose.Words v C#.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

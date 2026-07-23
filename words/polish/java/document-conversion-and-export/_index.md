@@ -102,6 +102,9 @@ Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy u
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
 
+### [Zapisz dokument jako DOCX – konwertuj Markdown do Worda w Javie](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Dowiedz się, jak konwertować pliki Markdown do DOCX przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładowym kodem.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  
