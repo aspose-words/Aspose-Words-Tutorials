@@ -37,6 +37,8 @@
 Μάθετε πώς να αποθηκεύσετε περιεχόμενο Word ως Markdown χρησιμοποιώντας Aspose.Words για Python. Ο πλήρης οδηγός.
 ### [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Πώς να ανακτήσετε DOCX και να μετατρέψετε σε Markdown & PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+Μάθετε πώς να επαναφέρετε αρχεία DOCX και να τα μετατρέψετε σε Markdown και PDF με το Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

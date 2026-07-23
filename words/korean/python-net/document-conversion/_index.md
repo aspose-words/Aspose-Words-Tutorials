@@ -40,6 +40,9 @@ Word 문서를 Markdown으로 저장하는 방법을 Python으로 완벽히 안�
 ### [손상된 DOCX 복구 및 Word를 Markdown으로 변환](./recover-corrupted-docx-convert-word-to-markdown/)
 손상된 DOCX 파일을 복구하고 Word 문서를 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
 
+### [DOCX 복구 및 Markdown·PDF 변환 가이드](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+손상된 DOCX 파일을 복구하고, 이를 Markdown과 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
