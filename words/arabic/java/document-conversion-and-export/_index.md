@@ -98,6 +98,9 @@ weight: 22
 ### [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
 
+### [حفظ DOCX كملف Markdown – دليل Java كامل](./save-docx-as-markdown-complete-java-guide/)
+دليل شامل خطوة بخطوة لحفظ ملفات DOCX كملفات Markdown باستخدام Aspose.Words for Java.
+
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 

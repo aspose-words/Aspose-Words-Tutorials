@@ -76,7 +76,7 @@ Sử dụng `PdfSaveOptions` để đặt nén hình ảnh, nhúng tất cả ph
 Tải mỗi tài liệu, gọi `mainDoc.appendDocument(otherDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)`, sau đó lưu tài liệu đã hợp nhất dưới dạng PDF.
 
 ### Chuyển đổi Word sang HTML và quay lại
-Đầu tiên, `document.save("temp.html", SaveFormat.HTML)`. Để chuyển HTML trở lại Word, tải tệp HTML bằng `new Document("temp.html")` và lưu dưới dạng DOCX.
+Đầu tiên, `document.save("temp.html", SaveFormat.HTML)`. Để chuyển HTML trở lại Word, tải tệp HTML bằng `new Document("temp.html") và lưu dưới dạng DOCX`.
 
 ### Chuyển đổi HTML sang tài liệu Word
 Sử dụng `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` và sau đó `doc.save("output.docx")`.
@@ -100,6 +100,9 @@ Chuyển đổi DOCX sang EPUB một cách hiệu quả bằng Aspose.Words cho 
 
 ### [Chuyển đổi tài liệu sang hình ảnh](./converting-documents-images/)
 Tìm hiểu cách chuyển đổi tài liệu Word sang hình ảnh bằng Aspose.Words cho Java. Hướng dẫn từng bước, kèm theo các ví dụ mã và câu hỏi thường gặp.
+
+### [Java Chuyển đổi Markdown sang Word – Markdown sang DOCX Java](./java-convert-markdown-to-word-markdown-to-docx-java/)
+Hướng dẫn chuyển đổi tệp Markdown sang tài liệu Word (DOCX) bằng Aspose.Words cho Java.
 
 ## Câu hỏi thường gặp
 

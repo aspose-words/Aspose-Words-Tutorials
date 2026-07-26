@@ -41,6 +41,8 @@ Aspose.Words for Javaを使ってドキュメントを暗号化・復号化す�
 Aspose.Words for Javaを使用して、ドキュメントに安全なデジタル署名を実装する方法を学びましょう。ステップバイステップのガイドとソースコードでドキュメントの整合性を確保します。
 ### [文書編集とデータ保護](./document-redaction-data-protection/)
 Aspose.Words for Javaを使用してドキュメントを保護し、機密データを編集する方法を学びましょう。ソースコード付きのステップバイステップガイドです。
+### [C#でDOCXファイルに署名する方法 – 完全ステップバイステップガイド](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Aspose.Words を使用して、C#でDOCXファイルにデジタル署名を追加する手順を詳しく解説します。安全な署名方法を学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

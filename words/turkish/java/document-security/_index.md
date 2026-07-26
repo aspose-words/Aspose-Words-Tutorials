@@ -41,6 +41,8 @@ Aspose.Words for Java ile belgeleri nasıl şifreleyeceğinizi ve şifresini nas
 Aspose.Words for Java kullanarak belgelerde güvenli dijital imzaların nasıl uygulanacağını öğrenin. Adım adım kılavuz ve kaynak koduyla belge bütünlüğünü sağlayın
 ### [Belge Düzenleme ve Veri Koruma](./document-redaction-data-protection/)
 Aspose.Words for Java kullanarak belgelerinizi nasıl güvence altına alacağınızı ve hassas verilerinizi nasıl sansürleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
+### [C# ile DOCX Dosyalarını Nasıl İmzalarız – Tam Adım‑Adım Kılavuz](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+C# ile Aspose.Words kullanarak DOCX dosyalarını güvenli bir şekilde nasıl imzalayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

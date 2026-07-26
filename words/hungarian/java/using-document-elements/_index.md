@@ -67,10 +67,14 @@ Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésr�
 Tanuld meg a csomópontok manipulálását az Aspose.Words for Java programban ezzel a lépésről lépésre haladó oktatóanyaggal. Engedd szabadjára a dokumentumfeldolgozási teljesítményt.
 ### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban](./using-ole-objects-and-activex/)
 Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!
+### [ActiveX gomb beszúrása Word-ben – Gombfelirat beállítása](./how-to-insert-activex-button-in-word-set-button-caption/)
+Tanuld meg, hogyan szúrj be ActiveX gombot Word dokumentumba, és állítsd be a feliratát lépésről lépésre.
 ### [Revisions használata az Aspose.Words-ben Java-ban](./using-revisions/)
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Kördiagram beszúrása Word-be az Aspose.Words segítségével – Teljes útmutató](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Tanuld meg, hogyan szúrj be kördiagramot Word dokumentumba az Aspose.Words Java API-val, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

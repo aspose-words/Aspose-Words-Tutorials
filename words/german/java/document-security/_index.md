@@ -41,6 +41,8 @@ Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java verschlüsseln und en
 Erfahren Sie, wie Sie mit Aspose.Words für Java sichere digitale Signaturen in Dokumenten implementieren. Sichern Sie die Dokumentintegrität mit Schritt-für-Schritt-Anleitung und Quellcode
 ### [Dokumentenredaktion und Datenschutz](./document-redaction-data-protection/)
 Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java sichern und vertrauliche Daten schwärzen. Schritt-für-Schritt-Anleitung mit Quellcode.
+### [Wie man DOCX-Dateien in C# signiert – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für C# signieren. Eine vollständige Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

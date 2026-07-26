@@ -36,7 +36,7 @@ Seguendo questi tutorial, non solo imparerai le basi della manipolazione degli e
 
 ## Inizia oggi
 
-Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverai spiegazioni dettagliate, esempi di codice e riferimenti API che ti guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
+Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverete spiegazioni dettagliate, esempi di codice e riferimenti API che vi guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
 
 In conclusione, padroneggiare la manipolazione degli elementi dei documenti utilizzando Aspose.Words per Java è un'abilità preziosa per qualsiasi sviluppatore Java che lavori con i documenti. Questi tutorial offrono un percorso chiaro e strutturato per aiutarti a diventare esperto in questo ambito. Quindi, rimboccati le maniche, immergiti nei tutorial e sfrutta appieno il potenziale di Aspose.Words per Java nei tuoi progetti di elaborazione di documenti.
 
@@ -67,10 +67,14 @@ Impara a usare Markdown in Aspose.Words per Java con questo tutorial passo passo
 Impara a manipolare i nodi in Aspose.Words per Java con questo tutorial passo passo. Sfrutta la potenza di elaborazione dei documenti.
 ### [Utilizzo di oggetti OLE e controlli ActiveX in Aspose.Words per Java](./using-ole-objects-and-activex/)
 Impara a usare oggetti OLE e controlli ActiveX in Aspose.Words per Java. Crea documenti interattivi con facilità. Inizia subito!
+### [Utilizzo di pulsanti ActiveX in Word – impostare la didascalia del pulsante](./how-to-insert-activex-button-in-word-set-button-caption/)
+Impara a inserire un pulsante ActiveX in Word e a impostarne la didascalia con Aspose.Words per Java.
 ### [Utilizzo delle revisioni in Aspose.Words per Java](./using-revisions/)
 Impara a usare in modo efficiente i controlli di revisione di Aspose.Words per Java. Guida passo passo per sviluppatori. Ottimizza la gestione dei tuoi documenti.
 ### [Utilizzo delle sezioni in Aspose.Words per Java](./using-sections/)
 Esplora Aspose.Words per Java: una guida completa all'uso delle sezioni. Aggiungi, elimina, aggiungi e clona sezioni con esempi di codice.
+### [Inserire un grafico a torta in Word con Aspose.Words – Guida completa](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Scopri come inserire un grafico a torta in un documento Word usando Aspose.Words con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

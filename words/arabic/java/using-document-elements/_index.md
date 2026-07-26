@@ -67,10 +67,14 @@
 تعلم كيفية التعامل مع العقد في Aspose.Words لجافا من خلال هذا البرنامج التعليمي خطوة بخطوة. أطلق العنان لقدراتك في معالجة المستندات.
 ### [استخدام كائنات OLE وعناصر التحكم ActiveX في Aspose.Words لـ Java](./using-ole-objects-and-activex/)
 تعلم استخدام كائنات OLE وعناصر تحكم ActiveX في Aspose.Words لجافا. أنشئ مستندات تفاعلية بسهولة. ابدأ الآن!
+### [كيفية إدراج زر ActiveX في Word – تعيين تسمية الزر](./how-to-insert-activex-button-in-word-set-button-caption/)
+تعلم خطوة بخطوة كيفية إضافة زر ActiveX إلى مستند Word وتحديد تسمية الزر باستخدام Aspose.Words لجافا.
 ### [استخدام المراجعات في Aspose.Words لـ Java](./using-revisions/)
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
 استكشف Aspose.Words في جافا: دليل شامل لاستخدام الأقسام. أضف أقسامًا، احذفها، أضف إليها، انسخها مع أمثلة برمجية.
+### [إدراج مخطط دائري في Word باستخدام Aspose.Words – دليل شامل](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+تعلم خطوة بخطوة كيفية إدراج مخطط دائري في مستندات Word باستخدام Aspose.Words لجافا وتخصيصه بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

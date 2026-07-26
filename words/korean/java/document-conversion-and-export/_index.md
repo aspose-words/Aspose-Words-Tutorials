@@ -95,6 +95,9 @@ Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 �
 ### [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words를 사용해 DOCX 파일을 Markdown으로 변환하고, 수학 방정식을 LaTeX 형식으로 내보내는 방법을 배웁니다.
 
+### [DOCX를 Markdown으로 저장 – Java 완전 가이드](./save-docx-as-markdown-complete-java-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 마크다운 형식으로 변환하고 저장하는 전체 단계별 가이드.
+
 ### [DOCX 변환 시 Markdown에 이미지 삽입하는 방법](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX 파일을 Markdown으로 변환하면서 이미지 파일을 올바르게 포함하는 방법을 단계별로 안내합니다.
 
