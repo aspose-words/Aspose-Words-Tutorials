@@ -1,0 +1,7 @@
+Title: Create Word Document Programmatically – Full Step‑by‑Step Guide
+Slug: create-word-document-programmatically-full-step-by-step-guid
+Category: word-processing
+ProcessedDate: 2026-07-26T10:44:52.894165
+SourceRepo: AI Search API
+Keywords: create word document programmatically, create content control word, save document file path
+PRNumber: 235
