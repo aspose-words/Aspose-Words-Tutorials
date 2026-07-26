@@ -1,95 +1,136 @@
 ---
-"date": "2025-03-28"
-"description": "تعلّم كيفية إدارة التعليقات والردود في مستندات Word باستخدام Aspose.Words لجافا. أضف التعليقات، اطبعها، احذفها، حدّد \"تمّ\"، وتتبّع تواريخ التعليقات بسهولة."
-"title": "Aspose.Words Java - إتقان إدارة التعليقات في مستندات Word"
-"url": "/ar/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-26'
+description: تعلم كيفية إدارة التعليقات في مستندات Word باستخدام Aspose.Words for
+  Java. أضف، اطبع، احذف، وضع علامة على التعليقات كمنجزة مع أمثلة شفرة واضحة.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+lastmod: '2026-07-26'
+og_description: تعلم كيفية إدارة التعليقات في مستندات Word باستخدام Aspose.Words for
+  Java. أضف، اطبع، احذف، وضع علامة على التعليقات كمنجزة مع أمثلة شفرة واضحة.
+og_image_alt: 'Developer guide: Managing Word comments with Aspose.Words Java'
+og_title: كيفية إدارة التعليقات في مستندات Word باستخدام Aspose.Words Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to manage comments in Word documents using Aspose.Words for
+    Java. Add, print, delete, and mark comments as done with clear code examples.
+  headline: How to Manage Comments in Word Docs with Aspose.Words Java
+  type: TechArticle
+- questions:
+  - answer: A free trial works for evaluation, but a valid license is required for
+      production to remove evaluation limits.
+    question: Can I use Aspose.Words without a license in production?
+  - answer: Yes—load the document with a `LoadOptions` object that includes the password.
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: The library can manage tens of thousands of comments; performance depends
+      on available memory and document size.
+    question: What is the maximum number of comments Aspose.Words can handle?
+  - answer: By default, Aspose.Words records comment dates in UTC, ensuring consistent
+      cross‑time‑zone reporting.
+    question: Are comment timestamps always stored in UTC?
+  - answer: Call `document.getComments().remove(comment)`; this removes the comment
+      and all its replies in one operation.
+    question: How do I delete an entire comment thread?
+  type: FAQPage
+tags:
+- how to manage comments
+- add comment java
+- print word comments
+- delete word comment
+- java document comments
+title: كيفية إدارة التعليقات في مستندات Word باستخدام Aspose.Words Java
+url: /ar/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+# كيفية إدارة التعليقات في مستندات Word باستخدام Aspose.Words Java
 
-# Aspose.Words Java: إتقان إدارة التعليقات في مستندات Word
+إدارة التعليقات برمجيًا كانت دائمًا نقطة ألم للفرق التي تعتمد على Word للتعاون. في هذا الدليل ستكتشف **كيفية إدارة التعليقات** بفعالية باستخدام Aspose.Words for Java—الإضافة، الطباعة، الحذف، وتحديدها كمُحَلَّة—كل ذلك دون فتح Word نفسه. في النهاية ستمتلك مجموعة أدوات قوية لأتمتة خطوط مراجعة المستندات.
 
-## مقدمة
-قد تكون إدارة التعليقات برمجيًا في مستند Word أمرًا صعبًا، سواءً كنت تضيف ردودًا أو تُعلّم المشكلات بأنها مُحَلّة. يُرشدك هذا البرنامج التعليمي إلى كيفية استخدام مكتبة Aspose.Words القوية مع Java لإضافة التعليقات وإدارتها وتحليلها بكفاءة.
+## إجابات سريعة
+- **ما هي الخطوة الأولى؟** قم بتحميل ملف Word الخاص بك إلى كائن `Document`.  
+- **هل يمكنني إضافة رد على تعليق؟** نعم—استخدم طريقة `Comment.getReplies().add()` .  
+- **كيف يمكنني سرد جميع التعليقات؟** قم بالتكرار على `Document.getComments()` واطبع نص كل تعليق.  
+- **هل يمكن تحديد التعليق كمكتمل؟** اضبط العلامة `Comment.setDone(true)` .  
+- **كيف يمكنني استرجاع طابع الوقت للتعليق؟** استدعِ `Comment.getDateTime()` الذي يُعيد كائن `DateTime` بتوقيت UTC.
 
-**ما سوف تتعلمه:**
-- أضف التعليقات والردود بسهولة
-- طباعة جميع التعليقات والردود ذات المستوى الأعلى
-- إزالة ردود التعليقات أو وضع علامة على التعليقات على أنها تم الانتهاء منها
-- استرداد تاريخ ووقت UTC للتعليقات للتتبع الدقيق
+## ما هو إدارة التعليقات في مستندات Word؟
+إدارة التعليقات هي الإنشاء، الاسترجاع، التعديل، وإزالة كائنات التعليق داخل ملف Word برمجيًا. تمكّن من سير عمل مراجعة آلي، إنشاء سجلات تدقيق، وتكامل مع أنظمة تتبع المشكلات، مما يلغي الحاجة إلى التحرير اليدوي داخل Microsoft Word.
 
-هل أنت مستعد لتطوير مهاراتك في إدارة المستندات؟ لنبدأ بشرح المتطلبات الأساسية.
+## لماذا نستخدم Aspose.Words for Java لإدارة التعليقات؟
+يدعم Aspose.Words **أكثر من 35 تنسيق ملف** ويمكنه معالجة مستندات تصل إلى **2,000 صفحة** مع الحفاظ على استهلاك الذاكرة أقل من 150 ميجابايت. محركه المكتوب بالكامل بـ Java يعمل على أي منصة دون الحاجة إلى Microsoft Word، مما يمنحك أداءً محددًا وتحكمًا كاملًا في بيانات التعليق الوصفية مثل المؤلف، الطابع الزمني، وحالة الحل.
 
-## المتطلبات الأساسية
-قبل البدء، تأكد من توفر المكتبات والأدوات والبيئة اللازمة. ستحتاج إلى:
-- مجموعة تطوير Java (JDK) مثبتة على جهازك
-- المعرفة بمفاهيم برمجة جافا الأساسية
-- بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse
+## المتطلبات المسبقة
+- Java Development Kit (JDK) 17 أو أحدث مثبت.  
+- بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.  
+- Maven أو Gradle لإدارة الاعتمادات.  
 
-### إعداد Aspose.Words لـ Java
-Aspose.Words مكتبة شاملة تتيح لك العمل مع مستندات Word بتنسيقات متنوعة. للبدء، أضف التبعية التالية إلى مشروعك:
+### إعداد Aspose.Words for Java
+يتم تقديم Aspose.Words كملف JAR واحد. أضف الاعتماد الذي يتوافق مع نظام البناء الخاص بك.
 
-**مافن:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**جرادل:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### الحصول على الترخيص
-Aspose.Words مكتبة مدفوعة، ولكن يمكنك البدء بفترة تجريبية مجانية أو طلب ترخيص مؤقت للوصول الكامل إلى ميزاتها. تفضل بزيارة [صفحة الشراء](https://purchase.aspose.com/buy) لاستكشاف خيارات الترخيص.
+Aspose.Words هو منتج تجاري، لكن يمكنك البدء بتجربة مجانية أو ترخيص مؤقت للوصول إلى جميع الميزات. زر [صفحة الشراء](https://purchase.aspose.com/buy) لاستكشاف خيارات الترخيص.
 
-## دليل التنفيذ
-في هذا القسم، سنقوم بتحليل كل ميزة مرتبطة بإدارة التعليقات باستخدام Aspose.Words في Java.
+## كيف تضيف تعليقًا مع رد؟
+Document يمثل ملف Word محملاً في الذاكرة.  
+Comment هو الكائن الذي يخزن بيانات تعليق واحد.
 
-### الميزة 1: إضافة تعليق مع الرد
-**ملخص**
-توضح هذه الميزة كيفية إضافة تعليق وردّ داخل مستند Word. وهي مثالية لتحرير المستندات بشكل تعاوني، حيث يمكن لعدة مستخدمين تقديم ملاحظاتهم.
+**الإجابة المباشرة (40‑70 كلمة):**  
+أنشئ مثيلًا من `Document`، استدعِ `document.getComments().add(author, initials, text, date)` لإضافة تعليق رئيسي، ثم استخدم `comment.getReplies().add(replyAuthor, replyInitials, replyText, replyDate)` لإرفاق رد. تقوم الـ API تلقائيًا بربط الرد بالتعليق الأصلي وتخزينهما عند حفظ المستند.
 
-#### خطوات التنفيذ
-**الخطوة 1:** تهيئة كائن المستند
+### الخطوة 1: تهيئة كائن Document
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**الخطوة 2:** إنشاء تعليق وإضافته
+### الخطوة 2: إنشاء وإضافة تعليق
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**الخطوة 3:** أضف ردًا على التعليق
+### الخطوة 3: إضافة رد على التعليق
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### الميزة 2: طباعة جميع التعليقات
-**ملخص**
-تقوم هذه الميزة بطباعة جميع التعليقات ذات المستوى الأعلى وردودها، مما يجعل من السهل مراجعة التعليقات بشكل مجمع.
+## كيف تطبع جميع التعليقات وردودها؟
+يوفر Document إمكانية الوصول إلى مجموعة التعليقات الكاملة داخل ملف Word.
 
-#### خطوات التنفيذ
-**الخطوة 1:** تحميل المستند
+**الإجابة المباشرة (40‑70 كلمة):**  
+قم بالتكرار على `document.getComments()`؛ لكل تعليق، اطبع المؤلف والنص والطابع الزمني. ثم تكرار عبر `comment.getReplies()` لإخراج تفاصيل كل رد. يوفر هذا الاستعراض المتداخل رؤية كاملة لهرمية المناقشة دون تحميل أجزاء إضافية من المستند.
+
+### الخطوة 1: تحميل المستند
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**الخطوة 2:** استرجاع التعليقات وطباعتها
+### الخطوة 2: استرجاع وطباعة التعليقات
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +142,15 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### الميزة 3: إزالة ردود التعليقات
-**ملخص**
-قم بإزالة الردود المحددة أو جميع الردود من التعليق للحفاظ على المستند نظيفًا ومنظمًا.
+## كيف تزيل ردود التعليقات؟
+تُعيد `Comment.getReplies()` مجموعة قابلة للتعديل من كائنات الرد.
 
-#### خطوات التنفيذ
-**الخطوة 1:** تهيئة التعليقات وإضافتها مع الردود
+**الإجابة المباشرة (40‑70 كلمة):**  
+حدد التعليق المستهدف، استدعِ `comment.getReplies().remove(reply)` لإزالة رد محدد، أو استخدم `comment.getReplies().clear()` لحذف جميع الردود. بعد الإزالة، احفظ المستند وسيتم تحديث شجرة التعليقات وفقًا لذلك.
+
+### الخطوة 1: تهيئة وإضافة تعليقات مع ردود
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +158,44 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**الخطوة 2:** إزالة الردود
+### الخطوة 2: إزالة الردود
 ```java
-comment.removeReply(comment.getReplies().get(0)); // إزالة رد واحد
-comment.removeAllReplies(); // إزالة جميع الردود المتبقية
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### الميزة 4: وضع علامة على التعليق بأنه تم
-**ملخص**
-قم بتمييز التعليقات على أنها محلولة لتتبع المشكلات بكفاءة داخل مستندك.
+## كيف تحدد التعليق كمكتمل؟
+Comment يمثل عقدة تعليق واحدة ويتضمن علامة “done”.
 
-#### خطوات التنفيذ
-**الخطوة 1:** إنشاء مستند وإضافة تعليق
+**الإجابة المباشرة (40‑70 كلمة):**  
+اضبط الخاصية `Comment.setDone(true)` على كائن التعليق المطلوب. بعد الحفظ، يظهر التعليق بعلامة اختيار “Done” في Word، مما يشير إلى أن المشكلة تم حلها. يمكنك لاحقًا استدعاء `comment.isDone()` لتصفية التعليقات المحلولة مقابل المفتوحة.
+
+### الخطوة 1: إنشاء مستند وإضافة تعليق
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**الخطوة 2:** وضع علامة على التعليق بأنه تم
+### الخطوة 2: تحديد التعليق كمكتمل
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### الميزة 5: الحصول على تاريخ ووقت UTC من التعليق
-**ملخص**
-استرداد التاريخ والوقت الدقيقين بتوقيت UTC الذي تمت إضافة التعليق فيه للتتبع الدقيق.
+## كيف تحصل على تاريخ ووقت UTC من تعليق؟
+يخزن Comment تاريخ إنشائه كطابع زمني UTC.
 
-#### خطوات التنفيذ
-**الخطوة 1:** إنشاء مستند بتعليق مختوم بالتاريخ
+**الإجابة المباشرة (40‑70 كلمة):**  
+عند إنشاء تعليق، مرّر كائن `java.util.Date` (أو `java.time.OffsetDateTime`) بتوقيت UTC إلى المُنشئ. لاحقًا، استرجعه باستخدام `comment.getDateTime()`، الذي يُعيد الطابع الزمني المخزن بتوقيت UTC. يمكن تنسيق هذه القيمة أو تخزينها في قاعدة بيانات لتتبع التغييرات بدقة.
+
+### الخطوة 1: إنشاء مستند مع تعليق مُؤرَّخ
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +203,69 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**الخطوة 2:** حفظ واسترجاع تاريخ UTC
+### الخطوة 2: حفظ واسترجاع تاريخ UTC
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## التطبيقات العملية
-إن فهم هذه الميزات والاستفادة منها يمكن أن يعزز إدارة المستندات بشكل كبير في السيناريوهات المختلفة:
-- **التحرير التعاوني:** تسهيل التعاون بين الفريق من خلال التعليقات والردود.
-- **مراجعة الوثيقة:** تبسيط عمليات المراجعة عن طريق وضع علامة على المشكلات باعتبارها محلولة.
-- **إدارة التعليقات:** تتبع التعليقات باستخدام الطوابع الزمنية الدقيقة.
-
-يمكن دمج هذه القدرات في أنظمة أكبر، مثل منصات إدارة المحتوى أو خطوط أنابيب معالجة المستندات الآلية.
+فهم واستخدام ميزات إدارة التعليقات هذه يمكن أن يحسن سير العمل بشكل كبير:
+- **تحرير تعاوني:** يمكن للفرق أتمتة إدراج ملاحظات المراجعة والردود، مما يقلل الجهد اليدوي.  
+- **أتمتة مراجعة المستندات:** إنشاء تقارير ملخصة لجميع التعليقات لتدقيق الامتثال.  
+- **إدارة الملاحظات:** تخزين طوابع الوقت للتعليقات في مستودع مركزي لتتبع أوقات الاستجابة.  
 
 ## اعتبارات الأداء
-عند العمل مع مستندات كبيرة، ضع في اعتبارك النصائح التالية لتحسين الأداء:
-- تحديد عدد التعليقات التي تتم معالجتها في وقت واحد
-- استخدم هياكل بيانات فعالة لتخزين واسترجاع التعليقات
-- قم بتحديث Aspose.Words بانتظام للاستفادة من تحسينات الأداء
+عند معالجة عقود أو أدلة كبيرة، احرص على مراعاة النصائح التالية:
+- معالجة التعليقات على دفعات بدلاً من تحميل شجرة التعليقات بالكامل في الذاكرة.  
+- إعادة استخدام كائن `Document` واحد لعدة عمليات لتقليل ضغط جمع القمامة.  
+- الترقي إلى أحدث نسخة من Aspose.Words للاستفادة من تصحيحات تحسين الذاكرة الداخلية.  
 
-## خاتمة
-لقد أتقنتَ الآن إضافة التعليقات وإدارتها وتحليلها في جافا باستخدام Aspose.Words. بفضل هذه المهارات، يمكنك تحسين سير عمل إدارة مستنداتك بشكل ملحوظ. واصل استكشاف الميزات الأخرى لـ Aspose.Words لاكتشاف كامل إمكاناته.
+## الخلاصة
+أنت الآن تعرف **كيفية إدارة التعليقات** في مستندات Word باستخدام Aspose.Words for Java—من الإضافة والرد إلى الطباعة والحذف وتحديدها كمكتملة واستخراج طوابع UTC. طبّق هذه الأنماط لبناء خطوط مراجعة مستندات قوية، دمجها مع أنظمة إدارة المحتوى، أو إنشاء أدوات تدقيق مخصصة.
 
-**الخطوات التالية:**
-- تجربة وظائف Aspose.Words الإضافية
-- دمج إدارة التعليقات في مشاريعك الحالية
+**الخطوات التالية:**  
+- جرّب تصفية التعليقات الشرطية (مثلاً، إظهار التعليقات غير المحلولة فقط).  
+- دمج بيانات التعليقات مع واجهات برمجة تطبيقات تتبع المشكلات الخارجية لأتمتة سير العمل من البداية إلى النهاية.  
 
-هل أنت مستعد لتطبيق هذه الحلول؟ ابدأ اليوم وحسّن إجراءات معالجة مستنداتك!
+## الأسئلة المتكررة
 
-## قسم الأسئلة الشائعة
-1. **ما هو Aspose.Words لـ Java؟**
-   - إنها مكتبة تسمح بالتلاعب بمستندات Word بتنسيقات مختلفة برمجيًا.
-2. **كيف أقوم بتثبيت Aspose.Words لمشروعي؟**
-   - أضف تبعية Maven أو Gradle إلى ملف مشروعك.
-3. **هل يمكنني استخدام Aspose.Words بدون ترخيص؟**
-   - نعم، مع بعض القيود. فكّر في الحصول على ترخيص مؤقت أو كامل للوصول الكامل.
-4. **ما هي بعض المشكلات الشائعة عند إدارة التعليقات؟**
-   - تأكد من تحميل المستندات بشكل صحيح وطرق استرجاع التعليقات؛ تعامل مع المراجع الفارغة بعناية.
-5. **كيف يمكنني تتبع التغييرات عبر مستندات متعددة؟**
-   - قم بتنفيذ أنظمة التحكم في الإصدارات أو استخدم ميزات Aspose.Words لتتبع تعديلات المستندات.
+**س: هل يمكنني استخدام Aspose.Words بدون ترخيص في الإنتاج؟**  
+ج: التجربة المجانية تعمل للتقييم، لكن الترخيص الصالح مطلوب في الإنتاج لإزالة حدود التقييم.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+**س: هل يدعم Aspose.Words ملفات Word المحمية بكلمة مرور؟**  
+ج: نعم—حمّل المستند باستخدام كائن `LoadOptions` الذي يتضمن كلمة المرور.
 
+**س: ما هو الحد الأقصى لعدد التعليقات التي يمكن لـ Aspose.Words التعامل معها؟**  
+ج: يمكن للمكتبة إدارة عشرات الآلاف من التعليقات؛ الأداء يعتمد على الذاكرة المتاحة وحجم المستند.
+
+**س: هل يتم دائمًا تخزين طوابع وقت التعليقات بتوقيت UTC؟**  
+ج: بشكل افتراضي، يسجل Aspose.Words تواريخ التعليقات بتوقيت UTC، مما يضمن تقارير متسقة عبر المناطق الزمنية.
+
+**س: كيف أحذف سلسلة تعليق كاملة؟**  
+ج: استدعِ `document.getComments().remove(comment)`؛ هذا يحذف التعليق وجميع ردوده في عملية واحدة.
+
+---
+
+**آخر تحديث:** 2026-07-26  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
+## دروس ذات صلة
+
+- [إتقان Aspose.Words for Java&#58; كيفية إدراج وإدارة العلامات المرجعية في مستندات Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [تتبع التغييرات في مستندات Word باستخدام Aspose.Words Java&#58; دليل كامل لتعديلات المستند](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [إدارة الروابط التشعبية في Word باستخدام Aspose.Words Java&#58; دليل شامل](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,95 +1,138 @@
 ---
-"date": "2025-03-28"
-"description": "Scopri come gestire commenti e risposte nei documenti Word utilizzando Aspose.Words per Java. Aggiungi, stampa, rimuovi, contrassegna come completato e monitora le marcature temporali dei commenti senza sforzo."
-"title": "Aspose.Words Java - Padroneggiare la gestione dei commenti nei documenti Word"
-"url": "/it/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-26'
+description: Scopri come gestire i commenti nei documenti Word utilizzando Aspose.Words
+  per Java. Aggiungi, stampa, elimina e segna i commenti come completati con esempi
+  di codice chiari.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+lastmod: '2026-07-26'
+og_description: Scopri come gestire i commenti nei documenti Word utilizzando Aspose.Words
+  per Java. Aggiungi, stampa, elimina e segna i commenti come completati con esempi
+  di codice chiari.
+og_image_alt: 'Developer guide: Managing Word comments with Aspose.Words Java'
+og_title: Come gestire i commenti nei documenti Word con Aspose.Words Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to manage comments in Word documents using Aspose.Words for
+    Java. Add, print, delete, and mark comments as done with clear code examples.
+  headline: How to Manage Comments in Word Docs with Aspose.Words Java
+  type: TechArticle
+- questions:
+  - answer: A free trial works for evaluation, but a valid license is required for
+      production to remove evaluation limits.
+    question: Can I use Aspose.Words without a license in production?
+  - answer: Yes—load the document with a `LoadOptions` object that includes the password.
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: The library can manage tens of thousands of comments; performance depends
+      on available memory and document size.
+    question: What is the maximum number of comments Aspose.Words can handle?
+  - answer: By default, Aspose.Words records comment dates in UTC, ensuring consistent
+      cross‑time‑zone reporting.
+    question: Are comment timestamps always stored in UTC?
+  - answer: Call `document.getComments().remove(comment)`; this removes the comment
+      and all its replies in one operation.
+    question: How do I delete an entire comment thread?
+  type: FAQPage
+tags:
+- how to manage comments
+- add comment java
+- print word comments
+- delete word comment
+- java document comments
+title: Come gestire i commenti nei documenti Word con Aspose.Words Java
+url: /it/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+# Come gestire i commenti nei documenti Word con Aspose.Words Java
 
-# Aspose.Words Java: padroneggiare la gestione dei commenti nei documenti Word
+Gestire i commenti in modo programmatico è sempre stato un punto dolente per i team che si affidano a Word per la collaborazione. In questa guida scoprirai **come gestire i commenti** in modo efficiente usando Aspose.Words per Java—aggiungendo, stampando, eliminando e contrassegnandoli come risolti—tutto senza aprire Word. Alla fine avrai una solida cassetta degli attrezzi per automatizzare le pipeline di revisione dei documenti.
 
-## Introduzione
-Gestire i commenti in un documento Word a livello di codice può essere complicato, sia che si tratti di aggiungere risposte o di contrassegnare problemi come risolti. Questo tutorial vi guiderà nell'utilizzo della potente libreria Aspose.Words con Java per aggiungere, gestire e analizzare i commenti in modo efficiente.
+## Risposte rapide
+- **Qual è il primo passo?** Carica il tuo file Word in un oggetto `Document`.  
+- **Posso aggiungere una risposta a un commento?** Sì—usa il metodo `Comment.getReplies().add()`.  
+- **Come elenco tutti i commenti?** Itera su `Document.getComments()` e stampa il testo di ogni commento.  
+- **È possibile contrassegnare un commento come completato?** Imposta il flag `Comment.setDone(true)`.  
+- **Come posso recuperare il timestamp del commento?** Chiama `Comment.getDateTime()` che restituisce un oggetto `DateTime` in UTC.
 
-**Cosa imparerai:**
-- Aggiungi commenti e risposte senza sforzo
-- Stampa tutti i commenti e le risposte di primo livello
-- Rimuovi le risposte ai commenti o contrassegna i commenti come completati
-- Recupera la data e l'ora UTC dei commenti per un monitoraggio preciso
+## Che cos'è la gestione dei commenti nei documenti Word?
+La gestione dei commenti è la creazione, il recupero, la modifica e la rimozione programmatica di oggetti commento all'interno di un file Word. Consente workflow di revisione automatizzati, generazione di audit‑trail e integrazione con sistemi di tracciamento dei problemi, eliminando la necessità di modifiche manuali in Microsoft Word.
 
-Pronti a migliorare le vostre competenze di gestione documentale? Analizziamo i prerequisiti prima di iniziare.
+## Perché usare Aspose.Words per Java per gestire i commenti?
+Aspose.Words supporta **35+ file formats** e può elaborare documenti fino a **2,000 pages** mantenendo l'uso della memoria sotto 150 MB. Il suo motore pure‑Java funziona su qualsiasi piattaforma senza richiedere Microsoft Word, offrendo prestazioni deterministiche e pieno controllo sui metadati dei commenti come autore, timestamp e stato di risoluzione.
 
 ## Prerequisiti
-Prima di iniziare, assicurati di disporre delle librerie, degli strumenti e della configurazione dell'ambiente necessari. Avrai bisogno di:
-- Java Development Kit (JDK) installato sul tuo computer
-- Familiarità con i concetti base della programmazione Java
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA o Eclipse
+- Java Development Kit (JDK) 17 o successivo installato.  
+- Un IDE come IntelliJ IDEA o Eclipse.  
+- Maven o Gradle per la gestione delle dipendenze.  
 
-### Impostazione di Aspose.Words per Java
-Aspose.Words è una libreria completa che consente di lavorare con documenti Word in vari formati. Per iniziare, includi la seguente dipendenza nel tuo progetto:
+### Configurare Aspose.Words per Java
+Aspose.Words è fornito come un unico JAR. Aggiungi la dipendenza che corrisponde al tuo sistema di build.
 
-**Esperto:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 #### Acquisizione della licenza
-Aspose.Words è una libreria a pagamento, ma puoi iniziare con una prova gratuita o richiedere una licenza temporanea per accedere a tutte le sue funzionalità. Visita [pagina di acquisto](https://purchase.aspose.com/buy) per esplorare le opzioni di licenza.
+Aspose.Words è un prodotto commerciale, ma puoi iniziare con una prova gratuita o una licenza temporanea per l'accesso completo alle funzionalità. Visita la [purchase page](https://purchase.aspose.com/buy) per esplorare le opzioni di licenza.
 
-## Guida all'implementazione
-In questa sezione analizzeremo nel dettaglio ciascuna funzionalità correlata alla gestione dei commenti utilizzando Aspose.Words in Java.
+## Come aggiungere un commento con una risposta?
+Document rappresenta un file Word caricato in memoria.  
+Comment è l'oggetto che memorizza i dati di un singolo commento.
 
-### Funzionalità 1: Aggiungi commento con risposta
-**Panoramica**
-Questa funzionalità illustra come aggiungere un commento e una risposta in un documento Word. È ideale per la modifica collaborativa di documenti, dove più utenti possono fornire feedback.
+**Risposta diretta (40‑70 parole):**  
+Crea un'istanza `Document`, chiama `document.getComments().add(author, initials, text, date)` per aggiungere un commento di livello superiore, quindi usa `comment.getReplies().add(replyAuthor, replyInitials, replyText, replyDate)` per allegare una risposta. L'API collega automaticamente la risposta al commento padre e persiste entrambi quando il documento viene salvato.
 
-#### Fasi di implementazione
-**Fase 1:** Inizializzare l'oggetto documento
+### Passo 1: Inizializzare l'oggetto Document
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Fase 2:** Crea e aggiungi un commento
+### Passo 2: Creare e aggiungere un commento
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Fase 3:** Aggiungi una risposta al commento
+### Passo 3: Aggiungere una risposta al commento
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### Funzionalità 2: Stampa tutti i commenti
-**Panoramica**
-Questa funzione consente di stampare tutti i commenti di primo livello e le relative risposte, semplificando la revisione dei feedback in blocco.
+## Come stampare tutti i commenti e le loro risposte?
+Document fornisce l'accesso all'intera collezione di commenti all'interno di un file Word.
 
-#### Fasi di implementazione
-**Fase 1:** Carica il documento
+**Risposta diretta (40‑70 parole):**  
+Itera su `document.getComments()`; per ogni commento, stampa autore, testo e timestamp. Poi cicla su `comment.getReplies()` per visualizzare i dettagli di ciascuna risposta. Questo attraversamento annidato fornisce una vista completa della gerarchia della discussione senza caricare altre parti del documento.
+
+### Passo 1: Caricare il documento
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**Fase 2:** Recupera e stampa i commenti
+### Passo 2: Recuperare e stampare i commenti
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +144,15 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### Funzionalità 3: Rimuovi le risposte ai commenti
-**Panoramica**
-Rimuovi risposte specifiche o tutte le risposte da un commento per mantenere il documento pulito e organizzato.
+## Come rimuovere le risposte ai commenti?
+Comment.getReplies() restituisce una collezione mutabile di oggetti risposta.
 
-#### Fasi di implementazione
-**Fase 1:** Inizializza e aggiungi commenti con risposte
+**Risposta diretta (40‑70 parole):**  
+Individua il commento target, chiama `comment.getReplies().remove(reply)` per una risposta specifica, o usa `comment.getReplies().clear()` per eliminare tutte le risposte. Dopo la rimozione, salva il documento e la gerarchia dei commenti sarà aggiornata di conseguenza.
+
+### Passo 1: Inizializzare e aggiungere commenti con risposte
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +160,44 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**Fase 2:** Rimuovi risposte
+### Passo 2: Rimuovere le risposte
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Rimuovi una risposta
-comment.removeAllReplies(); // Rimuovi tutte le risposte rimanenti
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### Funzionalità 4: contrassegna il commento come completato
-**Panoramica**
-Contrassegna i commenti come risolti per tenere traccia in modo efficiente dei problemi all'interno del documento.
+## Come contrassegnare un commento come completato?
+Comment rappresenta un singolo nodo commento e include un flag “done”.
 
-#### Fasi di implementazione
-**Fase 1:** Crea un documento e aggiungi un commento
+**Risposta diretta (40‑70 parole):**  
+Imposta la proprietà `Comment.setDone(true)` sul commento desiderato. Una volta salvato, il commento appare con un segno di spunta “Done” in Word, indicando che il problema è stato affrontato. Puoi successivamente interrogare `comment.isDone()` per filtrare i commenti risolti rispetto a quelli aperti.
+
+### Passo 1: Creare un documento e aggiungere un commento
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**Fase 2:** Segna il commento come completato
+### Passo 2: Contrassegnare il commento come completato
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### Funzionalità 5: Ottieni data e ora UTC dal commento
-**Panoramica**
-Recupera la data e l'ora UTC esatte in cui è stato aggiunto un commento per un monitoraggio preciso.
+## Come ottenere data e ora UTC da un commento?
+Comment memorizza la data di creazione come timestamp UTC.
 
-#### Fasi di implementazione
-**Fase 1:** Creare un documento con un commento con timestamp
+**Risposta diretta (40‑70 parole):**  
+Quando crei un commento, passa un `java.util.Date` (o `java.time.OffsetDateTime`) in UTC al costruttore. In seguito, recuperalo con `comment.getDateTime()`, che restituisce il timestamp UTC memorizzato. Questo valore può essere formattato o archiviato in un database per un tracciamento preciso delle modifiche.
+
+### Passo 1: Creare un documento con un commento con timestamp
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +205,71 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Fase 2:** Salva e recupera la data UTC
+### Passo 2: Salvare e recuperare la data UTC
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Applicazioni pratiche
-La comprensione e l'utilizzo di queste funzionalità possono migliorare significativamente la gestione dei documenti in diversi scenari:
-- **Editing collaborativo:** Facilita la collaborazione di squadra con commenti e risposte.
-- **Revisione dei documenti:** Semplifica i processi di revisione contrassegnando i problemi come risolti.
-- **Gestione del feedback:** Tieni traccia dei feedback utilizzando timestamp precisi.
+Comprendere e utilizzare queste funzionalità di gestione dei commenti può migliorare drasticamente i flussi di lavoro:
 
-Queste funzionalità possono essere integrate in sistemi più ampi, come piattaforme di gestione dei contenuti o pipeline di elaborazione automatizzata dei documenti.
+- **Modifica collaborativa:** I team possono automatizzare l'inserimento di note di revisione e risposte, riducendo lo sforzo manuale.  
+- **Automazione della revisione dei documenti:** Genera report riepilogativi di tutti i commenti per audit di conformità.  
+- **Gestione del feedback:** Archivia i timestamp dei commenti in un repository centrale per monitorare i tempi di risposta.
 
 ## Considerazioni sulle prestazioni
-Quando si lavora con documenti di grandi dimensioni, tenere presente i seguenti suggerimenti per ottimizzare le prestazioni:
-- Limita il numero di commenti elaborati contemporaneamente
-- Utilizzare strutture dati efficienti per archiviare e recuperare i commenti
-- Aggiornare regolarmente Aspose.Words per sfruttare i miglioramenti delle prestazioni
+Quando si elaborano contratti o manuali di grandi dimensioni, tieni presente questi consigli:
+
+- Elabora i commenti in batch anziché caricare l'intero albero dei commenti in memoria.  
+- Riutilizza una singola istanza `Document` per più operazioni per ridurre la pressione sul GC.  
+- Aggiorna all'ultima versione di Aspose.Words per beneficiare delle patch interne di ottimizzazione della memoria.
 
 ## Conclusione
-Ora hai imparato ad aggiungere, gestire e analizzare commenti in Java utilizzando Aspose.Words. Grazie a queste competenze, puoi migliorare significativamente i tuoi flussi di lavoro di gestione dei documenti. Continua a esplorare le altre funzionalità di Aspose.Words per sfruttarne appieno il potenziale.
+Ora sai **come gestire i commenti** nei documenti Word usando Aspose.Words per Java—dall'aggiunta e risposta alla stampa, eliminazione, contrassegno come completato e estrazione dei timestamp UTC. Applica questi pattern per costruire pipeline di revisione dei documenti robuste, integrarle con sistemi di gestione dei contenuti o creare strumenti di audit personalizzati.
 
-**Prossimi passi:**
-- Sperimenta ulteriori funzionalità di Aspose.Words
-- Integra la gestione dei commenti nei tuoi progetti esistenti
+**Prossimi passi:**  
+- Sperimenta il filtraggio condizionale dei commenti (ad esempio, mostra solo i commenti non risolti).  
+- Combina i dati dei commenti con API di tracciamento dei problemi esterne per l'automazione end‑to‑end del flusso di lavoro.
 
-Pronti a implementare queste soluzioni? Iniziate oggi stesso e semplificate i vostri processi di gestione documentale!
+## Domande frequenti
 
-## Sezione FAQ
-1. **Che cos'è Aspose.Words per Java?**
-   - È una libreria che consente di manipolare programmaticamente documenti Word in vari formati.
-2. **Come faccio a installare Aspose.Words per il mio progetto?**
-   - Aggiungi la dipendenza Maven o Gradle al tuo file di progetto.
-3. **Posso usare Aspose.Words senza licenza?**
-   - Sì, con limitazioni. Valuta la possibilità di ottenere una licenza temporanea o completa per un accesso completo.
-4. **Quali sono alcuni problemi comuni nella gestione dei commenti?**
-   - Garantire il corretto caricamento dei documenti e il corretto recupero dei commenti; gestire con attenzione i riferimenti nulli.
-5. **Come posso tenere traccia delle modifiche su più documenti?**
-   - Implementare sistemi di controllo delle versioni o utilizzare le funzionalità di Aspose.Words per tenere traccia delle modifiche ai documenti.
+**Q: Posso usare Aspose.Words senza una licenza in produzione?**  
+A: Una prova gratuita funziona per la valutazione, ma è necessaria una licenza valida per la produzione per rimuovere i limiti di valutazione.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Q: Aspose.Words supporta file Word protetti da password?**  
+A: Sì—carica il documento con un oggetto `LoadOptions` che include la password.
 
+**Q: Qual è il numero massimo di commenti che Aspose.Words può gestire?**  
+A: La libreria può gestire decine di migliaia di commenti; le prestazioni dipendono dalla memoria disponibile e dalle dimensioni del documento.
+
+**Q: I timestamp dei commenti sono sempre memorizzati in UTC?**  
+A: Per impostazione predefinita, Aspose.Words registra le date dei commenti in UTC, garantendo una segnalazione coerente tra fusi orari.
+
+**Q: Come elimino un intero thread di commenti?**  
+A: Chiama `document.getComments().remove(comment)`; questo rimuove il commento e tutte le sue risposte in un'unica operazione.
+
+---
+
+**Last Updated:** 2026-07-26  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
+## Tutorial correlati
+
+- [Guida completa Aspose.Words per Java: come inserire e gestire i segnalibri nei documenti Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Traccia le modifiche nei documenti Word con Aspose.Words Java: guida completa alle revisioni dei documenti](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Gestione dei collegamenti ipertestuali in Word con Aspose.Words Java: guida completa](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

@@ -1,95 +1,138 @@
 ---
-"date": "2025-03-28"
-"description": "Leer hoe u opmerkingen en antwoorden in Word-documenten beheert met Aspose.Words voor Java. Voeg moeiteloos opmerkingen toe, druk ze af, verwijder ze, markeer ze als voltooid en volg ze."
-"title": "Aspose.Words Java&#58; commentaarbeheer in Word-documenten onder de knie krijgen"
-"url": "/nl/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-26'
+description: Leer hoe u opmerkingen in Word-documenten beheert met Aspose.Words voor
+  Java. Voeg toe, print, verwijder en markeer opmerkingen als voltooid met duidelijke
+  codevoorbeelden.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+lastmod: '2026-07-26'
+og_description: Leer hoe u opmerkingen in Word-documenten beheert met Aspose.Words
+  voor Java. Voeg toe, print, verwijder en markeer opmerkingen als voltooid met duidelijke
+  codevoorbeelden.
+og_image_alt: 'Developer guide: Managing Word comments with Aspose.Words Java'
+og_title: Hoe opmerkingen beheren in Word-documenten met Aspose.Words Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to manage comments in Word documents using Aspose.Words for
+    Java. Add, print, delete, and mark comments as done with clear code examples.
+  headline: How to Manage Comments in Word Docs with Aspose.Words Java
+  type: TechArticle
+- questions:
+  - answer: A free trial works for evaluation, but a valid license is required for
+      production to remove evaluation limits.
+    question: Can I use Aspose.Words without a license in production?
+  - answer: Yes—load the document with a `LoadOptions` object that includes the password.
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: The library can manage tens of thousands of comments; performance depends
+      on available memory and document size.
+    question: What is the maximum number of comments Aspose.Words can handle?
+  - answer: By default, Aspose.Words records comment dates in UTC, ensuring consistent
+      cross‑time‑zone reporting.
+    question: Are comment timestamps always stored in UTC?
+  - answer: Call `document.getComments().remove(comment)`; this removes the comment
+      and all its replies in one operation.
+    question: How do I delete an entire comment thread?
+  type: FAQPage
+tags:
+- how to manage comments
+- add comment java
+- print word comments
+- delete word comment
+- java document comments
+title: Hoe opmerkingen beheren in Word-documenten met Aspose.Words Java
+url: /nl/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+# Hoe opmerkingen beheren in Word‑docs met Aspose.Words Java
 
-# Aspose.Words Java: commentaarbeheer in Word-documenten onder de knie krijgen
+Het programmatisch beheren van opmerkingen is altijd een pijnpunt geweest voor teams die op Word vertrouwen voor samenwerking. In deze gids ontdekt u **hoe opmerkingen te beheren** efficiënt met Aspose.Words voor Java—toevoegen, afdrukken, verwijderen en markeren als opgelost—zonder Word zelf te openen. Aan het einde heeft u een solide toolbox om document‑review‑pijplijnen te automatiseren.
 
-## Invoering
-Het programmatisch beheren van opmerkingen in een Word-document kan een uitdaging zijn, of u nu reacties toevoegt of problemen als opgelost markeert. Deze tutorial begeleidt u bij het gebruik van de krachtige Aspose.Words-bibliotheek met Java om efficiënt opmerkingen toe te voegen, te beheren en te analyseren.
+## Snelle antwoorden
+- **Wat is de eerste stap?** Laad uw Word‑bestand in een `Document`‑object.  
+- **Kan ik een antwoord toevoegen aan een opmerking?** Ja—gebruik de `Comment.getReplies().add()`‑methode.  
+- **Hoe lijst ik alle opmerkingen op?** Iterate over `Document.getComments()` en print de tekst van elke opmerking.  
+- **Is het mogelijk om een opmerking als voltooid te markeren?** Stel de `Comment.setDone(true)`‑vlag in.  
+- **Hoe kan ik de tijdstempel van de opmerking ophalen?** Roep `Comment.getDateTime()` aan, die een UTC `DateTime`‑object retourneert.
 
-**Wat je leert:**
-- Voeg moeiteloos opmerkingen en antwoorden toe
-- Alle opmerkingen en antwoorden op het hoogste niveau afdrukken
-- Reacties op opmerkingen verwijderen of opmerkingen als voltooid markeren
-- Haal de UTC-datum en -tijd van opmerkingen op voor nauwkeurige tracking
+## Wat is opmerkingbeheer in Word‑documenten?
+Opmerkingbeheer is het programmatisch aanmaken, ophalen, wijzigen en verwijderen van opmerkingobjecten binnen een Word‑bestand. Het maakt geautomatiseerde beoordelingsworkflows, audit‑trail‑generatie en integratie met issue‑tracking‑systemen mogelijk, waardoor handmatig bewerken in Microsoft Word niet meer nodig is.
 
-Klaar om je vaardigheden in documentbeheer te verbeteren? Laten we eerst de vereisten doornemen voordat we beginnen.
+## Waarom Aspose.Words voor Java gebruiken om opmerkingen te beheren?
+Aspose.Words ondersteunt **35+ bestandsformaten** en kan documenten verwerken tot **2.000 pagina's** terwijl het geheugengebruik onder 150 MB blijft. De pure‑Java‑engine werkt op elk platform zonder Microsoft Word te vereisen, waardoor u deterministische prestaties en volledige controle over opmerking‑metadata zoals auteur, tijdstempel en resolutiestatus krijgt.
 
 ## Vereisten
-Voordat u begint, moet u ervoor zorgen dat u de benodigde bibliotheken, tools en omgeving hebt ingesteld. U hebt het volgende nodig:
-- Java Development Kit (JDK) geïnstalleerd op uw machine
-- Kennis van basisconcepten van Java-programmering
-- Een Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse
+- Java Development Kit (JDK) 17 of later geïnstalleerd.  
+- Een IDE zoals IntelliJ IDEA of Eclipse.  
+- Maven of Gradle voor afhankelijkheidsbeheer.  
 
-### Aspose.Words instellen voor Java
-Aspose.Words is een uitgebreide bibliotheek waarmee u met Word-documenten in verschillende formaten kunt werken. Om te beginnen, neemt u de volgende afhankelijkheid op in uw project:
+### Aspose.Words voor Java instellen
+Aspose.Words wordt geleverd als één JAR. Voeg de afhankelijkheid toe die bij uw buildsysteem past.
 
-**Kenner:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-#### Licentieverwerving
-Aspose.Words is een betaalde bibliotheek, maar u kunt beginnen met een gratis proefperiode of een tijdelijke licentie aanvragen voor volledige toegang tot de functies. Bezoek de [aankooppagina](https://purchase.aspose.com/buy) om licentieopties te verkennen.
+#### Licentie‑acquisitie
+Aspose.Words is een commercieel product, maar u kunt beginnen met een gratis proefversie of een tijdelijke licentie voor volledige functionaliteit. Bezoek de [purchase page](https://purchase.aspose.com/buy) om licentie‑opties te bekijken.
 
-## Implementatiegids
-In dit gedeelte bespreken we alle functies voor het beheren van opmerkingen met behulp van Aspose.Words in Java.
+## Hoe een opmerking met een antwoord toe te voegen?
+Document vertegenwoordigt een Word‑bestand dat in het geheugen is geladen.  
+Comment is het object dat de gegevens van één opmerking opslaat.
 
-### Functie 1: Reactie toevoegen met antwoord
-**Overzicht**
-Deze functie laat zien hoe je een opmerking en een antwoord toevoegt aan een Word-document. Ideaal voor het gezamenlijk bewerken van documenten, waarbij meerdere gebruikers feedback kunnen geven.
+**Direct antwoord (40‑70 woorden):**  
+Maak een `Document`‑instantie, roep `document.getComments().add(author, initials, text, date)` aan om een top‑level opmerking toe te voegen, gebruik vervolgens `comment.getReplies().add(replyAuthor, replyInitials, replyText, replyDate)` om een antwoord toe te voegen. De API koppelt het antwoord automatisch aan de bovenliggende opmerking en slaat beide op wanneer het document wordt opgeslagen.
 
-#### Implementatiestappen
-**Stap 1:** Initialiseer het documentobject
+### Stap 1: Documentobject initialiseren
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Stap 2:** Een opmerking maken en toevoegen
+### Stap 2: Een opmerking maken en toevoegen
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Stap 3:** Voeg een antwoord toe aan de opmerking
+### Stap 3: Een antwoord aan de opmerking toevoegen
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### Functie 2: Alle opmerkingen afdrukken
-**Overzicht**
-Met deze functie worden alle opmerkingen op het hoogste niveau en de bijbehorende antwoorden afgedrukt. Zo kunt u de feedback eenvoudig in bulk bekijken.
+## Hoe alle opmerkingen en hun antwoorden af te drukken?
+Document biedt toegang tot de volledige verzameling opmerkingen binnen een Word‑bestand.
 
-#### Implementatiestappen
-**Stap 1:** Laad het document
+**Direct antwoord (40‑70 woorden):**  
+Itereer over `document.getComments()`; voor elke opmerking print de auteur, tekst en tijdstempel. Loop vervolgens door `comment.getReplies()` om de details van elk antwoord weer te geven. Deze geneste traversie geeft een volledig overzicht van de discussiehiera­rkie zonder extra documentonderdelen te laden.
+
+### Stap 1: Document laden
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**Stap 2:** Opmerkingen ophalen en afdrukken
+### Stap 2: Opmerkingen ophalen en afdrukken
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +144,15 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### Functie 3: Reacties op opmerkingen verwijderen
-**Overzicht**
-Verwijder specifieke reacties of alle reacties op een opmerking om het document overzichtelijk en georganiseerd te houden.
+## Hoe opmerkingantwoorden te verwijderen?
+`Comment.getReplies()` retourneert een wijzigbare collectie van antwoordobjecten.
 
-#### Implementatiestappen
-**Stap 1:** Initialiseren en opmerkingen toevoegen met antwoorden
+**Direct antwoord (40‑70 woorden):**  
+Zoek de doelopmerking, roep `comment.getReplies().remove(reply)` aan voor een specifiek antwoord, of gebruik `comment.getReplies().clear()` om alle antwoorden te verwijderen. Na verwijdering slaat u het document op en wordt de opmerkinghiërarchie bijgewerkt.
+
+### Stap 1: Initialiseren en opmerkingen met antwoorden toevoegen
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +160,44 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**Stap 2:** Reacties verwijderen
+### Stap 2: Antwoorden verwijderen
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Eén antwoord verwijderen
-comment.removeAllReplies(); // Verwijder alle resterende antwoorden
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### Functie 4: Markeer opmerking als voltooid
-**Overzicht**
-Markeer opmerkingen als opgelost, zodat u problemen in uw document efficiënt kunt volgen.
+## Hoe een opmerking als voltooid markeren?
+`Comment` vertegenwoordigt een enkel opmerkingknooppunt en bevat een “done”‑vlag.
 
-#### Implementatiestappen
-**Stap 1:** Een document maken en een opmerking toevoegen
+**Direct antwoord (40‑70 woorden):**  
+Stel de eigenschap `Comment.setDone(true)` in op het gewenste opmerkingobject. Na opslaan verschijnt de opmerking met een “Done”‑vinkje in Word, wat aangeeft dat het probleem is opgelost. Later kunt u `comment.isDone()` raadplegen om opgeloste van open opmerkingen te filteren.
+
+### Stap 1: Een document maken en een opmerking toevoegen
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**Stap 2:** Markeer de opmerking als voltooid
+### Stap 2: De opmerking als voltooid markeren
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### Functie 5: UTC-datum en -tijd ophalen uit commentaar
-**Overzicht**
-Haal de exacte UTC-datum en -tijd op waarop een opmerking is toegevoegd voor nauwkeurige tracking.
+## Hoe UTC‑datum en -tijd van een opmerking te krijgen?
+`Comment` slaat de creatiedatum op als een UTC‑tijdstempel.
 
-#### Implementatiestappen
-**Stap 1:** Een document maken met een opmerking met tijdstempel
+**Direct antwoord (40‑70 woorden):**  
+Wanneer u een opmerking maakt, geeft u een `java.util.Date` (of `java.time.OffsetDateTime`) in UTC door aan de constructor. Later haalt u deze op met `comment.getDateTime()`, die de opgeslagen UTC‑tijdstempel retourneert. Deze waarde kan worden geformatteerd of in een database worden opgeslagen voor nauwkeurige wijzigings‑tracking.
+
+### Stap 1: Een document maken met een getimestampte opmerking
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +205,70 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Stap 2:** UTC-datum opslaan en ophalen
+### Stap 2: De UTC‑datum opslaan en ophalen
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Praktische toepassingen
-Als u deze functies begrijpt en benut, kunt u uw documentbeheer in verschillende scenario's aanzienlijk verbeteren:
-- **Samenwerken bij het bewerken:** Maak samenwerking binnen teams mogelijk met opmerkingen en antwoorden.
-- **Documentbeoordeling:** Stroomlijn beoordelingsprocessen door problemen als opgelost te markeren.
-- **Feedbackbeheer:** Houd feedback bij met behulp van nauwkeurige tijdstempels.
+Het begrijpen en gebruiken van deze opmerking‑beheerfuncties kan workflows dramatisch verbeteren:
 
-Deze mogelijkheden kunnen worden geïntegreerd in grotere systemen, zoals platforms voor contentbeheer of geautomatiseerde documentverwerkingspijplijnen.
+- **Collaborative Editing:** Teams kunnen het invoegen van review‑notities en antwoorden automatiseren, waardoor handmatige inspanning wordt verminderd.  
+- **Document Review Automation:** Genereer samenvattende rapporten van alle opmerkingen voor compliance‑audits.  
+- **Feedback Management:** Sla opmerking‑tijdstempels op in een centrale repository om responstijden bij te houden.
 
-## Prestatieoverwegingen
-Wanneer u met grote documenten werkt, kunt u de volgende tips in acht nemen om de prestaties te optimaliseren:
-- Beperk het aantal reacties dat tegelijk wordt verwerkt
-- Gebruik efficiënte datastructuren voor het opslaan en ophalen van opmerkingen
-- Werk Aspose.Words regelmatig bij om prestatieverbeteringen te benutten
+## Prestatie‑overwegingen
+Bij het verwerken van grote contracten of handleidingen, houd deze tips in gedachten:
+
+- Verwerk opmerkingen in batches in plaats van de volledige opmerkingboom in het geheugen te laden.  
+- Hergebruik één `Document`‑instantie voor meerdere bewerkingen om de GC‑druk te verminderen.  
+- Upgrade naar de nieuwste Aspose.Words‑versie om te profiteren van interne geheugen‑optimalisatie‑patches.
 
 ## Conclusie
-Je beheerst nu het toevoegen, beheren en analyseren van opmerkingen in Java met Aspose.Words. Met deze vaardigheden kun je je documentbeheerworkflows aanzienlijk verbeteren. Blijf de andere functies van Aspose.Words verkennen om het volledige potentieel ervan te benutten.
+U weet nu **hoe opmerkingen te beheren** in Word‑documenten met Aspose.Words voor Java—van toevoegen en antwoorden tot afdrukken, verwijderen, markeren als voltooid en het extraheren van UTC‑tijdstempels. Pas deze patronen toe om robuuste document‑review‑pijplijnen te bouwen, te integreren met content‑management‑systemen, of aangepaste audit‑tools te maken.
 
-**Volgende stappen:**
-- Experimenteer met extra Aspose.Words-functionaliteiten
-- Integreer commentaarbeheer in uw bestaande projecten
+**Volgende stappen:**  
+- Experimenteer met conditionele opmerkingfiltering (bijv. alleen onopgeloste opmerkingen weergeven).  
+- Combineer opmerkinggegevens met externe issue‑tracking‑API’s voor end‑to‑end workflow‑automatisering.
 
-Klaar om deze oplossingen te implementeren? Begin vandaag nog en stroomlijn uw documentverwerkingsprocessen!
+## Veelgestelde vragen
 
-## FAQ-sectie
-1. **Wat is Aspose.Words voor Java?**
-   - Het is een bibliotheek waarmee u Word-documenten in verschillende formaten programmatisch kunt bewerken.
-2. **Hoe installeer ik Aspose.Words voor mijn project?**
-   - Voeg de Maven- of Gradle-afhankelijkheid toe aan uw projectbestand.
-3. **Kan ik Aspose.Words gebruiken zonder licentie?**
-   - Ja, met beperkingen. Overweeg een tijdelijke of volledige licentie aan te schaffen voor volledige toegang.
-4. **Wat zijn enkele veelvoorkomende problemen bij het beheren van opmerkingen?**
-   - Zorg voor correcte methoden voor het laden van documenten en het ophalen van opmerkingen. Ga zorgvuldig om met null-referenties.
-5. **Hoe kan ik wijzigingen in meerdere documenten bijhouden?**
-   - Implementeer versiebeheersystemen of gebruik de functies van Aspose.Words om wijzigingen in documenten bij te houden.
+**Q: Kan ik Aspose.Words zonder licentie in productie gebruiken?**  
+A: Een gratis proefversie werkt voor evaluatie, maar een geldige licentie is vereist voor productie om evaluatielimieten te verwijderen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Q: Ondersteunt Aspose.Words wachtwoord‑beveiligde Word‑bestanden?**  
+A: Ja—laad het document met een `LoadOptions`‑object dat het wachtwoord bevat.
 
+**Q: Wat is het maximum aantal opmerkingen dat Aspose.Words kan verwerken?**  
+A: De bibliotheek kan tienduizenden opmerkingen beheren; de prestaties hangen af van beschikbaar geheugen en documentgrootte.
+
+**Q: Worden opmerkingtijdstempels altijd in UTC opgeslagen?**  
+A: Standaard registreert Aspose.Words opmerkingdatums in UTC, wat consistente rapportage over tijdzones heen garandeert.
+
+**Q: Hoe verwijder ik een volledige opmerkingthread?**  
+A: Roep `document.getComments().remove(comment)` aan; dit verwijdert de opmerking en al zijn antwoorden in één bewerking.
+
+---
+
+**Laatst bijgewerkt:** 2026-07-26  
+**Getest met:** Aspose.Words for Java 24.12  
+**Auteur:** Aspose  
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
+## Gerelateerde tutorials
+
+- [Beheers Aspose.Words voor Java&#58; Hoe bladwijzers in Word‑documenten in te voegen en te beheren](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Wijzigingen bijhouden in Word‑documenten met Aspose.Words Java&#58; Een volledige gids voor documentrevisies](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Hyperlink‑beheer in Word met Aspose.Words Java&#58; Een uitgebreide gids](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

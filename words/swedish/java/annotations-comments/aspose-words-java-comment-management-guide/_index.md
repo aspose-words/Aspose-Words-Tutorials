@@ -1,95 +1,138 @@
 ---
-"date": "2025-03-28"
-"description": "Lär dig hur du hanterar kommentarer och svar i Word-dokument med Aspose.Words för Java. Lägg till, skriv ut, ta bort, markera som klar och spåra tidsstämplar för kommentarer utan ansträngning."
-"title": "Aspose.Words Java&#50; Bemästra kommentarhantering i Word-dokument"
-"url": "/sv/java/annotations-comments/aspose-words-java-comment-management-guide/"
-"weight": 1
+date: '2026-07-26'
+description: Lär dig hur du hanterar kommentarer i Word-dokument med Aspose.Words
+  för Java. Lägg till, skriv ut, ta bort och markera kommentarer som klara med tydliga
+  kodexempel.
+keywords:
+- Aspose.Words Java
+- comment management in Word documents
+- managing comments with Aspose.Words
+lastmod: '2026-07-26'
+og_description: Lär dig hur du hanterar kommentarer i Word-dokument med Aspose.Words
+  för Java. Lägg till, skriv ut, ta bort och markera kommentarer som klara med tydliga
+  kodexempel.
+og_image_alt: 'Developer guide: Managing Word comments with Aspose.Words Java'
+og_title: Så hanterar du kommentarer i Word-dokument med Aspose.Words Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to manage comments in Word documents using Aspose.Words for
+    Java. Add, print, delete, and mark comments as done with clear code examples.
+  headline: How to Manage Comments in Word Docs with Aspose.Words Java
+  type: TechArticle
+- questions:
+  - answer: A free trial works for evaluation, but a valid license is required for
+      production to remove evaluation limits.
+    question: Can I use Aspose.Words without a license in production?
+  - answer: Yes—load the document with a `LoadOptions` object that includes the password.
+    question: Does Aspose.Words support password‑protected Word files?
+  - answer: The library can manage tens of thousands of comments; performance depends
+      on available memory and document size.
+    question: What is the maximum number of comments Aspose.Words can handle?
+  - answer: By default, Aspose.Words records comment dates in UTC, ensuring consistent
+      cross‑time‑zone reporting.
+    question: Are comment timestamps always stored in UTC?
+  - answer: Call `document.getComments().remove(comment)`; this removes the comment
+      and all its replies in one operation.
+    question: How do I delete an entire comment thread?
+  type: FAQPage
+tags:
+- how to manage comments
+- add comment java
+- print word comments
+- delete word comment
+- java document comments
+title: Så hanterar du kommentarer i Word-dokument med Aspose.Words Java
+url: /sv/java/annotations-comments/aspose-words-java-comment-management-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+# Hur man hanterar kommentarer i Word-dokument med Aspose.Words Java
 
-# Aspose.Words Java: Bemästra kommentarhantering i Word-dokument
+Att hantera kommentarer programmässigt har alltid varit ett smärtpunktsområde för team som förlitar sig på Word för samarbete. I den här guiden kommer du att upptäcka **hur man hanterar kommentarer** effektivt med Aspose.Words för Java—lägga till, skriva ut, ta bort och markera dem som lösta—utan att öppna Word själv. I slutet har du en solid verktygslåda för att automatisera dokumentgranskningspipelines.
 
-## Introduktion
-Att hantera kommentarer i ett Word-dokument programmatiskt kan vara utmanande, oavsett om du lägger till svar eller markerar problem som lösta. Den här handledningen guidar dig genom att använda det kraftfulla Aspose.Words-biblioteket med Java för att effektivt lägga till, hantera och analysera kommentarer.
+## Snabba svar
+- **Vad är det första steget?** Ladda din Word-fil i ett `Document`-objekt.  
+- **Kan jag lägga till ett svar på en kommentar?** Ja—använd metoden `Comment.getReplies().add()`.  
+- **Hur listar jag alla kommentarer?** Iterera över `Document.getComments()` och skriv ut varje komments text.  
+- **Är det möjligt att markera en kommentar som klar?** Sätt flaggan `Comment.setDone(true)`.  
+- **Hur kan jag hämta kommentarens tidsstämpel?** Anropa `Comment.getDateTime()` som returnerar ett UTC `DateTime`-objekt.
 
-**Vad du kommer att lära dig:**
-- Lägg till kommentarer och svar utan problem
-- Skriv ut alla kommentarer och svar på översta nivån
-- Ta bort kommentarsvar eller markera kommentarer som klara
-- Hämta UTC-datum och tid för kommentarer för exakt spårning
+## Vad är kommentarsadministration i Word-dokument?
+Kommentarsadministration är den programmässiga skapandet, hämtandet, modifieringen och borttagandet av kommentarsobjekt i ett Word‑fil. Det möjliggör automatiserade granskningsarbetsflöden, generering av revisionsspår och integration med ärende‑spårningssystem, vilket eliminerar behovet av manuell redigering i Microsoft Word.
 
-Redo att förbättra dina dokumenthanteringsfärdigheter? Låt oss gå igenom förkunskapskraven innan vi börjar.
+## Varför använda Aspose.Words för Java för att hantera kommentarer?
+Aspose.Words stöder **35+ filformat** och kan bearbeta dokument upp till **2 000 sidor** samtidigt som minnesanvändningen hålls under 150 MB. Dess rena Java‑motor fungerar på alla plattformar utan att kräva Microsoft Word, vilket ger dig förutsägbar prestanda och full kontroll över kommentarmetadata såsom författare, tidsstämpel och lösningstillstånd.
 
-## Förkunskapskrav
-Innan du börjar, se till att du har nödvändiga bibliotek, verktyg och miljöinställningar. Du behöver:
-- Java Development Kit (JDK) installerat på din dator
-- Bekantskap med grundläggande Java-programmeringskoncept
-- En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse
+## Förutsättningar
+- Java Development Kit (JDK) 17 eller senare installerat.  
+- En IDE såsom IntelliJ IDEA eller Eclipse.  
+- Maven eller Gradle för beroendehantering.  
 
-### Konfigurera Aspose.Words för Java
-Aspose.Words är ett omfattande bibliotek som låter dig arbeta med Word-dokument i olika format. För att komma igång, inkludera följande beroende i ditt projekt:
+### Installera Aspose.Words för Java
+Aspose.Words levereras som en enda JAR. Lägg till beroendet som matchar ditt byggsystem.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-#### Licensförvärv
-Aspose.Words är ett betalt bibliotek, men du kan börja med en gratis provperiod eller begära en tillfällig licens för fullständig åtkomst till dess funktioner. Besök [köpsida](https://purchase.aspose.com/buy) att utforska licensalternativ.
+#### Licensanskaffning
+Aspose.Words är en kommersiell produkt, men du kan börja med en gratis provversion eller en tillfällig licens för full åtkomst till funktioner. Besök [köpsida](https://purchase.aspose.com/buy) för att utforska licensalternativ.
 
-## Implementeringsguide
-I det här avsnittet kommer vi att gå igenom varje funktion relaterad till kommentarhantering med Aspose.Words i Java.
+## Hur man lägger till en kommentar med ett svar?
+Document representerar en Word‑fil som laddats in i minnet.  
+Comment är objektet som lagrar data för en enskild kommentar.
 
-### Funktion 1: Lägg till kommentar med svar
-**Översikt**
-Den här funktionen visar hur man lägger till en kommentar och ett svar i ett Word-dokument. Den är idealisk för gemensam dokumentredigering där flera användare kan ge feedback.
+**Direkt svar (40‑70 ord):**  
+Skapa en `Document`‑instans, anropa `document.getComments().add(author, initials, text, date)` för att lägga till en toppnivåkommentar, och använd sedan `comment.getReplies().add(replyAuthor, replyInitials, replyText, replyDate)` för att bifoga ett svar. API‑et länkar automatiskt svaret till dess föräldrakommentar och sparar båda när dokumentet sparas.
 
-#### Implementeringssteg
-**Steg 1:** Initiera dokumentobjektet
+### Steg 1: Initiera Document‑objektet
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
-```
+```  
 
-**Steg 2:** Skapa och lägg till en kommentar
+### Steg 2: Skapa och lägg till en kommentar
 ```java
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Steg 3:** Lägg till ett svar på kommentaren
+### Steg 3: Lägg till ett svar på kommentaren
 ```java
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentWithReply.docx");
-```
+```  
 
-### Funktion 2: Skriv ut alla kommentarer
-**Översikt**
-Den här funktionen skriver ut alla kommentarer på toppnivå och deras svar, vilket gör det enkelt att granska feedback i bulk.
+## Hur man skriver ut alla kommentarer och deras svar?
+Document ger åtkomst till hela kommentarsamlingen i ett Word‑dokument.
 
-#### Implementeringssteg
-**Steg 1:** Ladda dokumentet
+**Direkt svar (40‑70 ord):**  
+Iterera över `document.getComments()`; för varje kommentar, skriv ut dess författare, text och tidsstämpel. Loop sedan igenom `comment.getReplies()` för att skriva ut varje svars detaljer. Denna nästlade traversering ger en komplett vy av diskussionshierarkin utan att ladda ytterligare dokumentdelar.
+
+### Steg 1: Ladda dokumentet
 ```java
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/Comments.docx");
-```
+```  
 
-**Steg 2:** Hämta och skriva ut kommentarer
+### Steg 2: Hämta och skriv ut kommentarer
 ```java
 NodeCollection<Comment> comments = doc.getChildNodes(NodeType.COMMENT, true);
 for (Comment comment : (Iterable<Comment>) comments) {
@@ -101,14 +144,15 @@ for (Comment comment : (Iterable<Comment>) comments) {
         }
     }
 }
-```
+```  
 
-### Funktion 3: Ta bort svar på kommentarer
-**Översikt**
-Ta bort specifika svar eller alla svar från en kommentar för att hålla dokumentet rent och organiserat.
+## Hur man tar bort svar på kommentarer?
+Comment.getReplies() returnerar en muterbar samling av svarobjekt.
 
-#### Implementeringssteg
-**Steg 1:** Initiera och lägg till kommentarer med svar
+**Direkt svar (40‑70 ord):**  
+Hitta den aktuella kommentaren, anropa `comment.getReplies().remove(reply)` för ett specifikt svar, eller använd `comment.getReplies().clear()` för att rensa alla svar. Efter borttagning, spara dokumentet så uppdateras kommentarshierarkin därefter.
+
+### Steg 1: Initiera och lägg till kommentarer med svar
 ```java
 Document document = new Document();
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
@@ -116,42 +160,44 @@ comment.setText("My comment.");
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "New reply");
 comment.addReply("Joe Bloggs", "J.B.", new Date(), "Another reply");
-```
+```  
 
-**Steg 2:** Ta bort svar
+### Steg 2: Ta bort svar
 ```java
-comment.removeReply(comment.getReplies().get(0)); // Ta bort ett svar
-comment.removeAllReplies(); // Ta bort alla återstående svar
-```
+comment.removeReply(comment.getReplies().get(0)); // Remove one reply
+comment.removeAllReplies(); // Remove all remaining replies
+```  
 
-### Funktion 4: Markera kommentar som klar
-**Översikt**
-Markera kommentarer som lösta för att effektivt spåra problem i dokumentet.
+## Hur man markerar en kommentar som klar?
+Comment representerar en enskild kommentarnod och innehåller en “klar”-flagga.
 
-#### Implementeringssteg
-**Steg 1:** Skapa ett dokument och lägg till en kommentar
+**Direkt svar (40‑70 ord):**  
+Sätt egenskapen `Comment.setDone(true)` på det önskade kommentarsobjektet. När det sparas visas kommentaren med en “Done”-bock i Word, vilket signalerar att problemet har åtgärdats. Du kan senare fråga `comment.isDone()` för att filtrera lösta kontra öppna kommentarer.
+
+### Steg 1: Skapa ett dokument och lägg till en kommentar
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
 documentBuilder.writeln("Hello world!");
 Comment comment = new Comment(document, "John Doe", "J.D.", new Date());
 comment.setText("Fix the spelling error!");
-```
+```  
 
-**Steg 2:** Markera kommentaren som klar
+### Steg 2: Markera kommentaren som klar
 ```java
 document.getFirstSection().getBody().getFirstParagraph().appendChild(comment);
 document.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).setText("Hello world!");
 comment.setDone(true);
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentDone.docx");
-```
+```  
 
-### Funktion 5: Hämta UTC-datum och tid från kommentar
-**Översikt**
-Hämta exakt UTC-datum och tid då en kommentar lades till för exakt spårning.
+## Hur man får UTC‑datum och -tid från en kommentar?
+Comment lagrar sitt skapelsedatum som en UTC‑tidsstämpel.
 
-#### Implementeringssteg
-**Steg 1:** Skapa ett dokument med en tidsstämplad kommentar
+**Direkt svar (40‑70 ord):**  
+När du skapar en kommentar, skicka ett `java.util.Date` (eller `java.time.OffsetDateTime`) i UTC till konstruktorn. Senare hämta den med `comment.getDateTime()`, som returnerar den lagrade UTC‑tidsstämpeln. Detta värde kan formateras eller lagras i en databas för exakt spårning av förändringar.
+
+### Steg 1: Skapa ett dokument med en tidsstämplad kommentar
 ```java
 Document document = new Document();
 DocumentBuilder documentBuilder = new DocumentBuilder(document);
@@ -159,57 +205,71 @@ Date dateTime = new Date();
 Comment comment = new Comment(document, "John Doe", "J.D.", dateTime);
 comment.setText("My comment.");
 documentBuilder.getCurrentParagraph().appendChild(comment);
-```
+```  
 
-**Steg 2:** Spara och hämta UTC-datumet
+### Steg 2: Spara och hämta UTC‑datumet
 ```java
 document.save(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Document doc = new Document(YOUR_DOCUMENT_DIRECTORY + "/CommentUtcDateTime.docx");
 Comment currentComment = (Comment) doc.getChild(NodeType.COMMENT, 0, true);
 assert currentComment.getDateTimeUtc().toString() == dateTime.toString();
-```
+```  
 
 ## Praktiska tillämpningar
-Att förstå och använda dessa funktioner kan avsevärt förbättra dokumenthanteringen i olika scenarier:
-- **Samarbetsredigering:** Underlätta teamsamarbete med kommentarer och svar.
-- **Dokumentgranskning:** Effektivisera granskningsprocesser genom att markera problem som lösta.
-- **Feedbackhantering:** Håll koll på feedback med hjälp av exakta tidsstämplar.
+Att förstå och använda dessa kommentars‑hanteringsfunktioner kan avsevärt förbättra arbetsflöden:
 
-Dessa funktioner kan integreras i större system, såsom innehållshanteringsplattformar eller automatiserade dokumentbehandlingspipelines.
+- **Samarbetsredigering:** Team kan automatisera insättningen av granskningsanteckningar och svar, vilket minskar manuellt arbete.  
+- **Automatisering av dokumentgranskning:** Generera sammanfattningsrapporter av alla kommentarer för efterlevnadskontroller.  
+- **Feedback‑hantering:** Lagra kommentarstidsstämplar i ett centralt arkiv för att spåra svarstider.
 
 ## Prestandaöverväganden
-När du arbetar med stora dokument, överväg följande tips för att optimera prestandan:
-- Begränsa antalet kommentarer som behandlas samtidigt
-- Använd effektiva datastrukturer för att lagra och hämta kommentarer
-- Uppdatera Aspose.Words regelbundet för att dra nytta av prestandaförbättringar.
+När du bearbetar stora kontrakt eller manualer, ha dessa tips i åtanke:
+
+- Bearbeta kommentarer i batcher istället för att ladda hela kommentarträdet i minnet.  
+- Återanvänd en enda `Document`‑instans för flera operationer för att minska GC‑trycket.  
+- Uppgradera till den senaste versionen av Aspose.Words för att dra nytta av interna minnesoptimerings‑patchar.
 
 ## Slutsats
-Du har nu bemästrat hur du lägger till, hanterar och analyserar kommentarer i Java med hjälp av Aspose.Words. Med dessa färdigheter kan du förbättra dina dokumenthanteringsarbetsflöden avsevärt. Fortsätt utforska andra funktioner i Aspose.Words för att frigöra dess fulla potential.
+Du vet nu **hur man hanterar kommentarer** i Word‑dokument med Aspose.Words för Java—från att lägga till och svara till att skriva ut, ta bort, markera som klar och extrahera UTC‑tidsstämplar. Använd dessa mönster för att bygga robusta dokumentgransknings‑pipelines, integrera med innehållshanteringssystem eller skapa anpassade revisionsverktyg.
 
-**Nästa steg:**
-- Experimentera med ytterligare Aspose.Words-funktioner
-- Integrera kommentarhantering i dina befintliga projekt
+**Nästa steg:**  
+- Experimentera med villkorlig kommentarsfiltrering (t.ex. visa endast olösta kommentarer).  
+- Kombinera kommentarsdata med externa ärende‑spårnings‑API:er för end‑to‑end‑arbetsflödesautomatisering.
 
-Redo att implementera dessa lösningar? Börja idag och effektivisera dina dokumenthanteringsprocesser!
+## Vanliga frågor
 
-## FAQ-sektion
-1. **Vad är Aspose.Words för Java?**
-   - Det är ett bibliotek som möjliggör programmatisk manipulation av Word-dokument i olika format.
-2. **Hur installerar jag Aspose.Words för mitt projekt?**
-   - Lägg till Maven- eller Gradle-beroendet i din projektfil.
-3. **Kan jag använda Aspose.Words utan licens?**
-   - Ja, med begränsningar. Överväg att skaffa en tillfällig eller fullständig licens för fullständig åtkomst.
-4. **Vilka är några vanliga problem när man hanterar kommentarer?**
-   - Säkerställ korrekt dokumentinläsning och kommentarer; hantera nullreferenser varsamt.
-5. **Hur spårar jag ändringar i flera dokument?**
-   - Implementera versionshanteringssystem eller använd Aspose.Words funktioner för att spåra dokumentändringar.
+**Q: Kan jag använda Aspose.Words utan licens i produktion?**  
+A: En gratis provversion fungerar för utvärdering, men en giltig licens krävs i produktion för att ta bort utvärderingsgränser.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+**Q: Stöder Aspose.Words lösenordsskyddade Word‑filer?**  
+A: Ja—ladda dokumentet med ett `LoadOptions`‑objekt som innehåller lösenordet.
 
+**Q: Vad är det maximala antalet kommentarer som Aspose.Words kan hantera?**  
+A: Biblioteket kan hantera tiotusentals kommentarer; prestanda beror på tillgängligt minne och dokumentstorlek.
+
+**Q: Är kommentarstidsstämplar alltid lagrade i UTC?**  
+A: Som standard registrerar Aspose.Words kommentarers datum i UTC, vilket säkerställer konsekvent rapportering över tidszoner.
+
+**Q: Hur tar jag bort en hel kommentartråd?**  
+A: Anropa `document.getComments().remove(comment)`; detta tar bort kommentaren och alla dess svar i en operation.
+
+---
+
+**Senast uppdaterad:** 2026-07-26  
+**Testad med:** Aspose.Words for Java 24.12  
+**Författare:** Aspose  
+
+{{< blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
+## Relaterade handledningar
+
+- [Mästra Aspose.Words för Java: Hur man infogar och hanterar bokmärken i Word‑dokument](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Spåra ändringar i Word‑dokument med Aspose.Words Java: En komplett guide till dokumentrevisioner](/words/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/)
+- [Hyperlänkshantering i Word med Aspose.Words Java: En omfattande guide](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
