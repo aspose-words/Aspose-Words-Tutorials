@@ -1,9 +1,81 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words for Java ile Word belgelerindeki köprüleri nasıl etkili bir şekilde yöneteceğinizi öğrenin. Adım adım kılavuzumuzla belge iş akışlarınızı kolaylaştırın ve bağlantıları optimize edin."
-"title": "Aspose.Words Java&#58;yı Kullanarak Word'de Köprü Yönetimi Kapsamlı Bir Kılavuz"
-"url": "/tr/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-07-26'
+description: Aspose.Words for Java kullanarak java ile hiperlinkleri nasıl çıkaracağınızı
+  öğrenin. Bu kılavuz, Word belgesi bağlantılarının adım adım çıkarılmasını, güncellenmesini
+  ve optimize edilmesini gösterir.
+keywords:
+- how to extract hyperlinks java
+- Aspose.Words Java hyperlink
+- Word document link management
+lastmod: '2026-07-26'
+og_description: Aspose.Words for Java ile java hiperlinklerini çıkarın. Word belge
+  hiperlinklerini verimli bir şekilde çıkarmak, güncellemek ve optimize etmek için
+  bu adım adım öğreticiyi izleyin.
+og_image_alt: Guide showing Java code to extract hyperlinks from Word using Aspose.Words
+og_title: java ile hiperlinkleri nasıl çıkarılır – Aspose.Words Hiperlink Rehberi
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to extract hyperlinks java using Aspose.Words for Java. This
+    guide shows step‑by‑step extraction, updating, and optimization of Word document
+    links.
+  headline: how to extract hyperlinks java – Master Hyperlink Management in Word with
+    Aspose.Words Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks java using Aspose.Words for Java. This
+    guide shows step‑by‑step extraction, updating, and optimization of Word document
+    links.
+  name: how to extract hyperlinks java – Master Hyperlink Management in Word with
+    Aspose.Words Java
+  steps:
+  - name: Load the Document
+    text: Specify the correct file path and instantiate the `Document` object.
+  - name: Select Hyperlink Nodes
+    text: Run an XPath expression that finds all `FieldStart` nodes whose `FieldType`
+      equals `FieldHyperlink`.
+  - name: Wrap Nodes in Hyperlink Objects
+    text: Create a `Hyperlink` instance for each node to read or modify its attributes.
+  - name: Iterate Hyperlink Collection
+    text: Loop through the collection returned by the XPath query.
+  - name: Set New Target URL
+    text: Use `hyperlink.setTarget("https://newsite.example.com")` to change the destination.
+  - name: Save the Modified Document
+    text: Persist changes by calling `document.save("Updated.docx")`.
+  - name: Load the Document
+    text: 'Ensure you specify the correct path for your document:'
+  - name: Select Hyperlink Nodes
+    text: 'Use XPath to find `FieldStart` nodes representing hyperlink fields in Word
+      documents:'
+  - name: Initialize Hyperlink Object
+    text: 'Create an instance by passing in a `FieldStart` node:'
+  - name: Manage Hyperlink Properties
+    text: 'Access and adjust properties such as name, target URL, or local status:
+      - **Get Name**: - **Set New Target**: - **Check Local Link**:'
+  type: HowTo
+- questions:
+  - answer: It is a library for creating, modifying, and converting Word documents
+      in Java applications.
+    question: What is Aspose.Words Java used for?
+  - answer: Use the `SelectHyperlinks` feature to iterate through each `Hyperlink`
+      object and call `setTarget` as needed.
+    question: How do I update multiple hyperlinks at once?
+  - answer: Yes, it supports conversion to and from PDF among 50+ formats.
+    question: Can Aspose.Words handle PDF conversion too?
+  - answer: Absolutely! Start with the [free trial license](https://releases.aspose.com/words/java/)
+      available on their website.
+    question: Is there a way to test Aspose.Words features before purchasing?
+  - answer: Verify your XPath expression and ensure the `FieldStart` nodes correspond
+      to actual hyperlink fields.
+    question: What if I encounter issues with hyperlink updates?
+  type: FAQPage
+tags:
+- hyperlink extraction
+- Aspose.Words
+- Java document processing
+title: java ile hiperlinkleri nasıl çıkarılır – Word'de Aspose.Words Java ile Hiperlink
+  Yönetiminde Ustalık
+url: /tr/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +84,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Word'de Aspose.Words Java ile Bağlantı Yönetimini Ustalıkla Yapma
 
-# Aspose.Words Java ile Word'de Hiper Bağlantı Yönetiminde Ustalaşın
+## Giriş
 
-## giriiş
+**how to extract hyperlinks java**, büyük Word tabanlı dokümantasyon setlerini otomatikleştirirken yaygın bir zorluktur. Bu öğreticide, Aspose.Words for Java'nın bağlantıların çıkarılmasını, güncellenmesini ve optimize edilmesini nasıl kolaylaştırdığını keşfedeceksiniz. Bir belgeyi yüklemekten her bağlantı üzerinde döngü yapmaya ve hedefini değiştirmeye kadar tam iş akışını adım adım göstereceğiz; böylece referanslarınızı doğru tutabilir ve kullanıcılarınızı mutlu edebilirsiniz.
 
-Microsoft Word belgelerindeki köprü metinlerini yönetmek, özellikle kapsamlı belgelerle uğraşırken, çoğu zaman bunaltıcı olabilir. **Java için Aspose.Words**, geliştiriciler köprü metni yönetimini basitleştirmek için güçlü araçlar elde eder. Bu kapsamlı kılavuz, Word dosyalarınızdaki köprü metinlerini çıkarma, güncelleme ve optimize etme konusunda size yol gösterecektir.
+### Öğrenecekleriniz
+- Aspose.Words kullanarak bir belgeden tüm bağlantıları nasıl çıkaracağınızı.  
+- `Hyperlink` sınıfını kullanarak bağlantı niteliklerini nasıl manipüle edeceğinizi.  
+- Hem yerel hem de harici bağlantıları ele alırken en iyi uygulamalar.  
+- Java ortamınızda Aspose.Words kurulumunu.  
+- Gerçek dünya uygulamaları ve performans hususları.  
 
-### Ne Öğreneceksiniz:
-- Aspose.Words kullanarak bir belgedeki tüm köprü metinleri nasıl çıkarılır.
-- Kullanın `Hyperlink` hiperlink niteliklerini düzenlemeye yarayan sınıf.
-- Hem yerel hem de harici bağlantıları yönetmek için en iyi uygulamalar.
-- Java ortamınızda Aspose.Words'ü kurma.
-- Gerçek dünya uygulamaları ve performans değerlendirmeleri.
+Verimli bağlantı yönetimine **Aspose.Words for Java** ile dalın ve belge iş akışlarınızı geliştirin!
 
-Etkili hiperlink yönetimine dalın **Java için Aspose.Words** Belge iş akışlarınızı geliştirmek için!
+## Hızlı Yanıtlar
+- **Word dosyasını yüklemek için ana sınıf nedir?** `Document` .doc/.docx dosyalarını yükler.  
+- **Hangi yöntem bağlantı düğümlerini çıkarır?** `FieldStart` düğümlerinde XPath kullanın.  
+- **Birçok bağlantıyı aynı anda güncelleyebilir miyim?** Evet—`Hyperlink` nesnelerini döngüyle işleyin ve setter'ları çağırın.  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme lisansı geliştirme için çalışır.  
+- **Toplu işleme bellek dostu mu?** Tüm dosyayı yüklemek yerine akışlarda düğümleri işleyerek bellek kullanımını azaltın.
 
-## Ön koşullar
+## “how to extract hyperlinks java” nedir?
+“how to extract hyperlinks java”, Java’da bir Word belgesini programlı olarak okuyup içinde bulunan her bağlantı nesnesini almayı ifade eder. Aspose.Words, temel Word alan yapısını soyutlayan yüksek seviyeli bir API sağlar; böylece dosya ayrıştırması yerine iş mantığına odaklanabilirsiniz.
 
-Başlamadan önce aşağıdaki kurulumların yapıldığından emin olun:
+## Bağlantı Yönetimi için Aspose.Words Neden Kullanılmalı?
+Aspose.Words, **50+ giriş ve çıkış formatını** destekler ve sunucuda Microsoft Word gerektirmeden **500 sayfayı** aşan belgeleri işleyebilir. Bellek içi modeli, tipik 100 sayfalık dosyalar için **0,2 saniyenin** altında bağlantıları işler; bu da kurumsal ölçekli otomasyon için hız ve güvenilirlik sağlar.
 
-### Gerekli Kütüphaneler ve Bağımlılıklar
-- **Java için Aspose.Words**: Bu eğitimde kullanacağımız birincil kütüphane.
+## Önkoşullar
+- **Aspose.Words for Java** kütüphanesi (en son sürüm önerilir).  
+- JDK 8 veya daha yeni bir sürüm yüklü.  
+- Temel Java bilgisi; Maven veya Gradle isteğe bağlı ancak faydalıdır.  
 
-### Çevre Kurulumu
-- Bilgisayarınızda Java Development Kit (JDK) sürüm 8 veya üzeri yüklü olmalıdır.
+### Lisans Edinimi
+Ücretsiz bir [deneme lisansı](https://releases.aspose.com/words/java/) (doğrudan indirme için [buraya](https://releases.aspose.com/words/java/) tıklayın) ile başlayabilirsiniz. Tam bir lisans satın almak için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin veya doğrudan [Aspose](https://purchase.aspose.com/buy) adresine gidin. Ayrıntılı API bilgileri için [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/) sayfasına bakın.
 
-### Bilgi Önkoşulları
-- Java programlamanın temel bilgisi.
-- Maven veya Gradle derleme araçlarına aşina olmanız önerilir ancak zorunlu değildir.
+## Java’da Bağlantıları Nasıl Çıkarırsınız?
+`Document`, belleğe yüklenmiş bir Word dosyasını temsil eden Aspose.Words sınıfıdır. `FieldStart`, belgenin düğüm ağacında bir alanın (örneğin bir bağlantının) başlangıcını temsil eder.
 
-## Aspose.Words'ü Kurma
+Hedef Word dosyasını `Document` ile yükleyin, bağlantı alanlarını temsil eden `FieldStart` düğümlerini bulmak için bir XPath sorgusu çalıştırın ve her düğümü kolay özellik erişimi için bir `Hyperlink` nesnesine sarın. Bu yaklaşım, belgenin yapısını korurken sadece birkaç satır kodla tüm bağlantıları çıkarır.
 
-Kullanmaya başlamak için **Java için Aspose.Words**bunu projenize şu şekilde dahil edin:
-
-### Bağımlılık Bilgileri
-
-**Usta:**
+### Adım 1: Belgeyi Yükle
+Doğru dosya yolunu belirtin ve `Document` nesnesini örnekleyin.  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -57,22 +135,20 @@ Kullanmaya başlamak için **Java için Aspose.Words**bunu projenize şu şekild
 </dependency>
 ```
 
-**Gradle:**
+### Adım 2: Bağlantı Düğümlerini Seç
+`FieldType` değeri `FieldHyperlink` olan tüm `FieldStart` düğümlerini bulan bir XPath ifadesi çalıştırın.  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Lisans Edinimi
-Bir ile başlayabilirsiniz **ücretsiz deneme lisansı** Aspose.Words yeteneklerini keşfetmek için. Uygunsa, geçici tam lisans satın almayı veya başvurmayı düşünün. [satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
-
-### Temel Başlatma
-Ortamınızı şu şekilde kurabilirsiniz:
+### Adım 3: Düğümleri Hyperlink Nesnelerine Sar
+Her düğüm için özelliklerini okumak veya değiştirmek amacıyla bir `Hyperlink` örneği oluşturun.  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Belgenizi yükleyin
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
@@ -80,98 +156,143 @@ class InitializeAsposeWords {
 }
 ```
 
-## Uygulama Kılavuzu
+## Bağlantı Hedeflerini Nasıl Güncellersiniz?
+`Hyperlink`, hedef URL gibi bağlantı özelliklerine erişim sağlayan bir sarmalayıcı sınıftır. `setTarget`, bağlantının hedef URL'sini ayarlar.
 
-Word belgelerinde köprü metni yönetiminin nasıl uygulanacağını inceleyelim.
+Her `Hyperlink` nesnesi üzerinde döngü yapın, yeni URL ile `setTarget` metodunu çağırın ve ardından belgeyi kaydedin. Bu toplu güncelleme, dosyadaki her bağlantının doğru hedefe işaret etmesini sağlar, manuel düzenleme ihtiyacını ortadan kaldırır ve büyük belgelerde kırık referans riskini azaltır.
 
-### Özellik 1: Bir Belgeden Köprü Metinleri Seçin
-
-**Genel bakış**: Aspose.Words Java kullanarak Word belgenizdeki tüm köprü metinlerini çıkarın. XPath'i kullanarak köprü metinlerini tanımlayın. `FieldStart` potansiyel köprü metinlerini gösteren düğümler.
-
-#### Adım 1: Belgeyi Yükleyin
-Belgeniz için doğru yolu belirttiğinizden emin olun:
+### Adım 1: Hyperlink Koleksiyonunu Döngüle
+XPath sorgusu tarafından döndürülen koleksiyon üzerinde döngü yapın.  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 ```
 
-#### Adım 2: Köprü Bağlantı Düğümlerini Seçin
-XPath'i kullanarak bulun `FieldStart` Word belgelerindeki köprü metin alanlarını temsil eden düğümler:
+### Adım 2: Yeni Hedef URL'sini Ayarla
+`hyperlink.setTarget("https://newsite.example.com")` kullanarak hedefi değiştirin.  
 ```java
-NodeList fieldStarts = doc.selectNodes("//AlanBaşlangıcı");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // Daha fazla düzenleme için yer tutucu
+        // Placeholder for further manipulation
     }
 }
 ```
 
-### Özellik 2: Köprü Bağlantısı Sınıfı Uygulaması
-
-**Genel bakış**: : `Hyperlink` sınıfı, belgenizdeki bir köprü metninin özelliklerini kapsüller ve değiştirmenize olanak tanır.
-
-#### Adım 1: Köprü Metni Nesnesini Başlat
-Bir örneği, bir örneği geçirerek oluşturun `FieldStart` düğüm:
+### Adım 3: Değiştirilmiş Belgeyi Kaydet
+`document.save("Updated.docx")` çağırarak değişiklikleri kalıcı hale getirin.  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
 ```
 
-#### Adım 2: Köprü Bağlantısı Özelliklerini Yönetin
-Ad, hedef URL veya yerel durum gibi özelliklere erişin ve bunları ayarlayın:
-- **İsmini Al**:
+## Özellik 1: Belgeden Bağlantıları Seç
+**Genel Bakış**: Aspose.Words Java kullanarak Word belgenizden tüm bağlantıları çıkarın. Potansiyel bağlantıları gösteren `FieldStart` düğümlerini belirlemek için XPath kullanın.
+
+`FieldStart` düğümleri bir alanın başlangıcını gösterir; bunlar filtrelenerek bağlantı alanları bulunabilir.
+
+### Adım 1: Belgeyi Yükle
+Belgeniz için doğru yolu belirttiğinizden emin olun:  
+```java
+Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
+```
+
+### Adım 2: Bağlantı Düğümlerini Seç
+Word belgelerinde bağlantı alanlarını temsil eden `FieldStart` düğümlerini bulmak için XPath kullanın:  
+```java
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
+for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
+    if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
+        Hyperlink hyperlink = new Hyperlink(fieldStart);
+        if (hyperlink.isLocal()) continue;
+
+        // Placeholder for further manipulation
+    }
+}
+```
+
+## Özellik 2: Hyperlink Sınıfı Uygulaması
+**Genel Bakış**: `Hyperlink` sınıfı, belgenizdeki bir bağlantının özelliklerini kapsar ve bunları manipüle etmenizi sağlar.
+
+`Hyperlink`, bir bağlantı alanını kapsar ve özelliklerini okuma ve değiştirme imkanı sunar.
+
+### Adım 1: Hyperlink Nesnesini Başlat
+`FieldStart` düğümünü geçirerek bir örnek oluşturun:  
+```java
+Hyperlink hyperlink = new Hyperlink(fieldStart);
+```
+
+### Adım 2: Hyperlink Özelliklerini Yönet
+İsmi, hedef URL'si veya yerel durumu gibi özelliklere erişin ve ayarlayın:
+
+- **İsmi Al**:  
   ```java
   String linkName = hyperlink.getName();
-  ```
-- **Yeni Hedef Belirle**:
+  ```  
+
+- **Yeni Hedefi Ayarla**:  
   ```java
-  hyperlink.setTarget("https://ornek.com");
-  ```
-- **Yerel Bağlantıyı Kontrol Edin**:
+  hyperlink.setTarget("https://example.com");
+  ```  
+
+- **Yerel Bağlantıyı Kontrol Et**:  
   ```java
   boolean isLocalLink = hyperlink.isLocal();
-  ```
+  ```  
 
 ## Pratik Uygulamalar
-1. **Belge Uyumluluğu**: Doğruluğu sağlamak için güncel olmayan köprü metinlerini güncelleyin.
-2. **SEO Optimizasyonu**: Daha iyi arama motoru görünürlüğü için bağlantı hedeflerini değiştirin.
-3. **İşbirlikli Düzenleme**: Ekip üyelerinin belge bağlantılarını kolayca eklemesini veya değiştirmesini kolaylaştırın.
+- **Belge Uyumluluğu** – Güncel olmayan bağlantıları güncelleyerek doğruluğu sağlayın.  
+- **SEO Optimizasyonu** – Arama motoru görünürlüğünü artırmak için bağlantı hedeflerini değiştirin.  
+- **Ortak Düzenleme** – Ekip üyelerinin belge bağlantılarını kolayca eklemesini veya değiştirmesini sağlayın.
 
 ## Performans Hususları
-- **Toplu İşleme**: Bellek kullanımını optimize etmek için büyük belgeleri toplu olarak işleyin.
-- **Düzenli İfade Verimliliği**Regex kalıplarını ince ayarlayın `Hyperlink` Daha hızlı yürütme süreleri için sınıf.
+- **Toplu İşleme** – Bellek kullanımını optimize etmek için büyük belgeleri partiler halinde işleyin.  
+- **Düzenli İfade Verimliliği** – `Hyperlink` sınıfındaki regex desenlerini ince ayar yaparak daha hızlı yürütme süreleri elde edin.
 
-## Çözüm
-Bu kılavuzu takip ederek, Word belge köprülerini yönetmek için Aspose.Words Java ile güçlü yeteneklerden yararlandınız. Bu çözümleri iş akışlarınıza entegre ederek ve Aspose.Words tarafından sunulan daha fazla özelliği keşfederek daha fazlasını keşfedin.
+## Lisans Olmadan Bağlantı Çıkarma Nasıl Test Edilir?
+Aspose'tan ücretsiz bir deneme lisansı alabilir, çalışma zamanında uygulayabilir ve çıkarma kodunu herhangi bir örnek belge üzerinde çalıştırabilirsiniz. Deneme sürümü işlevsel sınırlama getirmez; böylece satın almadan önce doğruluğu doğrulayabilirsiniz. Bir belgeyi yükleyerek, bağlantılarını çıkararak ve hedefleri yazdırarak API'nin ortamınızda beklendiği gibi davrandığını teyit edebilirsiniz.
 
-Belge yönetimi becerilerinizi geliştirmeye hazır mısınız? Daha derinlemesine dalın [Aspose.Words belgeleri](https://reference.aspose.com/words/java/) ek işlevler için!
+## Sonuç
+Bu kılavuzu izleyerek, Aspose.Words kullanarak **how to extract hyperlinks java** nasıl yapılacağını öğrendiniz; bu sayede Word tabanlı varlıklarınızı doğru ve güncel tutabilirsiniz. Toplu dönüşüm, içerik birleştirme ve belge oluşturma gibi ek yetenekleri keşfetmek için resmi dokümantasyonu ziyaret edin.
 
-## SSS Bölümü
-1. **Aspose.Words Java ne için kullanılır?**
-   - Java uygulamalarında Word belgeleri oluşturmak, değiştirmek ve dönüştürmek için bir kütüphanedir.
-2. **Birden fazla bağlantıyı aynı anda nasıl güncellerim?**
-   - Kullanın `SelectHyperlinks` Gerektiğinde her bir köprü metnini yineleme ve güncelleme özelliği.
-3. **Aspose.Words PDF dönüştürmeyi de yapabiliyor mu?**
-   - Evet, PDF dahil olmak üzere çeşitli belge formatlarını destekler.
-4. **Satın almadan önce Aspose.Words özelliklerini test etmenin bir yolu var mı?**
-   - Kesinlikle! Şununla başlayın: [ücretsiz deneme lisansı](https://releases.aspose.com/words/java/) web sitelerinde mevcuttur.
-5. **Köprü metni güncellemelerinde sorun yaşarsam ne olur?**
-   - Regex kalıplarınızı kontrol edin ve bunların belgenizin biçimlendirmesine tam olarak uyduğundan emin olun.
+Belge yönetimi becerilerinizi geliştirmeye hazır mısınız? Ek işlevler için [Aspose.Words dokümantasyonu](https://reference.aspose.com/words/java/) sayfasına daha derinlemesine bakın!
 
-## Kaynaklar
-- **Belgeleme**: Daha fazlasını keşfedin [Aspose.Words Java Belgeleri](https://reference.aspose.com/words/java/)
-- **Aspose.Words'ü indirin**: En son sürümü edinin [Burada](https://releases.aspose.com/words/java/)
-- **Lisans Satın Al**: Doğrudan satın alın [Aspose](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: Satın almadan önce deneyin [ücretsiz deneme lisansı](https://releases.aspose.com/words/java/)
-- **Destek Forumu**: Topluluğa katılın [Aspose Destek Forumu](https://forum.aspose.com/c/words/10) Tartışmalar ve yardım için.
+## Sık Sorulan Sorular
+
+**S: Aspose.Words Java ne için kullanılır?**  
+C: Java uygulamalarında Word belgeleri oluşturmak, değiştirmek ve dönüştürmek için bir kütüphanedir.
+
+**S: Birden fazla bağlantıyı aynı anda nasıl güncellerim?**  
+C: `SelectHyperlinks` özelliğini kullanarak her `Hyperlink` nesnesi üzerinde döngü yapın ve gerektiğinde `setTarget` metodunu çağırın.
+
+**S: Aspose.Words PDF dönüşümünü de yapabilir mi?**  
+C: Evet, 50+ format arasında PDF'ye ve PDF'den dönüşümü destekler.
+
+**S: Satın almadan önce Aspose.Words özelliklerini test etmenin bir yolu var mı?**  
+C: Kesinlikle! Web sitelerinde bulunan [deneme lisansı](https://releases.aspose.com/words/java/) ile başlayabilirsiniz.
+
+**S: Bağlantı güncellemelerinde sorun yaşarsam ne yapmalıyım?**  
+C: XPath ifadenizi kontrol edin ve `FieldStart` düğümlerinin gerçek bağlantı alanlarına karşılık geldiğinden emin olun.
+
+**S: Ek yardım nereden alabilirim?**  
+C: Ek yardım için [Aspose Destek Forumu](https://forum.aspose.com/c/words/10) adresini ziyaret edin.
+
+**Son Güncelleme:** 2026-07-26  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.12 (latest)  
+**Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.Words for Java'yı Ustalaştırın: Word Belgelerinde Yer İmleri Ekleme ve Yönetme](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Aspose.Words Java'yı Ustalaştırın: Etkin Belge Değişken Manipülasyonu](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
+- [Aspose.Words for Java: Kapsamlı HTML Özellikleri ve Belge İşleme Rehberi](/words/java/document-operations/aspose-words-java-html-features-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}

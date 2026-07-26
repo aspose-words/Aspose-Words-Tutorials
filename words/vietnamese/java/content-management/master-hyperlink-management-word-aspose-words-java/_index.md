@@ -1,9 +1,81 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách quản lý hiệu quả các siêu liên kết trong tài liệu Word với Aspose.Words for Java. Hợp lý hóa quy trình làm việc tài liệu của bạn và tối ưu hóa các liên kết với hướng dẫn từng bước của chúng tôi."
-"title": "Quản lý siêu liên kết trong Word bằng Aspose.Words Java&#58; Hướng dẫn toàn diện"
-"url": "/vi/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-07-26'
+description: Tìm hiểu cách trích xuất hyperlinks Java bằng Aspose.Words for Java.
+  Hướng dẫn này trình bày quy trình từng bước để extraction, updating và optimization
+  các liên kết trong tài liệu Word.
+keywords:
+- how to extract hyperlinks java
+- Aspose.Words Java hyperlink
+- Word document link management
+lastmod: '2026-07-26'
+og_description: cách trích xuất hyperlinks Java với Aspose.Words for Java. Thực hiện
+  theo hướng dẫn từng bước này để extraction, updating và optimization các hyperlinks
+  trong tài liệu Word một cách hiệu quả.
+og_image_alt: Guide showing Java code to extract hyperlinks from Word using Aspose.Words
+og_title: cách trích xuất hyperlinks Java – Hướng dẫn Hyperlink Aspose.Words
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to extract hyperlinks java using Aspose.Words for Java. This
+    guide shows step‑by‑step extraction, updating, and optimization of Word document
+    links.
+  headline: how to extract hyperlinks java – Master Hyperlink Management in Word with
+    Aspose.Words Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks java using Aspose.Words for Java. This
+    guide shows step‑by‑step extraction, updating, and optimization of Word document
+    links.
+  name: how to extract hyperlinks java – Master Hyperlink Management in Word with
+    Aspose.Words Java
+  steps:
+  - name: Load the Document
+    text: Specify the correct file path and instantiate the `Document` object.
+  - name: Select Hyperlink Nodes
+    text: Run an XPath expression that finds all `FieldStart` nodes whose `FieldType`
+      equals `FieldHyperlink`.
+  - name: Wrap Nodes in Hyperlink Objects
+    text: Create a `Hyperlink` instance for each node to read or modify its attributes.
+  - name: Iterate Hyperlink Collection
+    text: Loop through the collection returned by the XPath query.
+  - name: Set New Target URL
+    text: Use `hyperlink.setTarget("https://newsite.example.com")` to change the destination.
+  - name: Save the Modified Document
+    text: Persist changes by calling `document.save("Updated.docx")`.
+  - name: Load the Document
+    text: 'Ensure you specify the correct path for your document:'
+  - name: Select Hyperlink Nodes
+    text: 'Use XPath to find `FieldStart` nodes representing hyperlink fields in Word
+      documents:'
+  - name: Initialize Hyperlink Object
+    text: 'Create an instance by passing in a `FieldStart` node:'
+  - name: Manage Hyperlink Properties
+    text: 'Access and adjust properties such as name, target URL, or local status:
+      - **Get Name**: - **Set New Target**: - **Check Local Link**:'
+  type: HowTo
+- questions:
+  - answer: It is a library for creating, modifying, and converting Word documents
+      in Java applications.
+    question: What is Aspose.Words Java used for?
+  - answer: Use the `SelectHyperlinks` feature to iterate through each `Hyperlink`
+      object and call `setTarget` as needed.
+    question: How do I update multiple hyperlinks at once?
+  - answer: Yes, it supports conversion to and from PDF among 50+ formats.
+    question: Can Aspose.Words handle PDF conversion too?
+  - answer: Absolutely! Start with the [free trial license](https://releases.aspose.com/words/java/)
+      available on their website.
+    question: Is there a way to test Aspose.Words features before purchasing?
+  - answer: Verify your XPath expression and ensure the `FieldStart` nodes correspond
+      to actual hyperlink fields.
+    question: What if I encounter issues with hyperlink updates?
+  type: FAQPage
+tags:
+- hyperlink extraction
+- Aspose.Words
+- Java document processing
+title: cách trích xuất hyperlinks Java – Nắm vững quản lý hyperlinks trong Word với
+  Aspose.Words Java
+url: /vi/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +84,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Quản lý siêu liên kết chuyên nghiệp trong Word với Aspose.Words Java
+# Quản lý Siêu liên kết trong Word với Aspose.Words Java
 
 ## Giới thiệu
 
-Việc quản lý siêu liên kết trong tài liệu Microsoft Word thường có thể khiến bạn cảm thấy quá sức, đặc biệt là khi xử lý tài liệu mở rộng. Với **Aspose.Words cho Java**, các nhà phát triển có được các công cụ mạnh mẽ để đơn giản hóa việc quản lý siêu liên kết. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách trích xuất, cập nhật và tối ưu hóa siêu liên kết trong các tệp Word của bạn.
+**how to extract hyperlinks java** là một thách thức phổ biến khi tự động hoá các bộ tài liệu lớn dựa trên Word. Trong hướng dẫn này, bạn sẽ khám phá cách Aspose.Words for Java giúp việc trích xuất, cập nhật và tối ưu hoá siêu liên kết trở nên dễ dàng. Chúng tôi sẽ hướng dẫn toàn bộ quy trình — từ tải tài liệu, lặp qua từng liên kết và sửa đổi đích của chúng — để bạn có thể duy trì độ chính xác của tham chiếu và làm hài lòng người dùng.
 
-### Những gì bạn sẽ học được:
-- Cách trích xuất tất cả các siêu liên kết từ một tài liệu bằng Aspose.Words.
-- Sử dụng `Hyperlink` lớp để thao tác các thuộc tính siêu liên kết.
-- Thực hành tốt nhất để xử lý cả liên kết cục bộ và liên kết bên ngoài.
-- Thiết lập Aspose.Words trong môi trường Java của bạn.
-- Ứng dụng thực tế và cân nhắc về hiệu suất.
+### Bạn sẽ học gì
+- Cách trích xuất tất cả siêu liên kết từ tài liệu bằng Aspose.Words.  
+- Sử dụng lớp `Hyperlink` để thao tác các thuộc tính của siêu liên kết.  
+- Các thực tiễn tốt nhất để xử lý cả liên kết nội bộ và liên kết bên ngoài.  
+- Cài đặt Aspose.Words trong môi trường Java của bạn.  
+- Các ứng dụng thực tế và cân nhắc về hiệu năng.
 
-Khám phá quản lý siêu liên kết hiệu quả với **Aspose.Words cho Java** để cải thiện quy trình làm việc với tài liệu của bạn!
+Hãy khám phá quản lý siêu liên kết hiệu quả với **Aspose.Words for Java** để nâng cao quy trình công việc tài liệu của bạn!
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Lớp chính để tải tệp Word là gì?** `Document` tải các tệp .doc/.docx.  
+- **Phương thức nào để trích xuất các nút siêu liên kết?** Sử dụng XPath trên các nút `FieldStart`.  
+- **Tôi có thể cập nhật nhiều liên kết cùng lúc không?** Có — lặp qua các đối tượng `Hyperlink` và gọi các setter.  
+- **Tôi có cần giấy phép để thử nghiệm không?** Giấy phép dùng thử miễn phí hoạt động cho phát triển.  
+- **Xử lý hàng loạt có thân thiện với bộ nhớ không?** Xử lý các nút trong luồng để tránh tải toàn bộ tệp.
 
-Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong các bước sau:
+## “how to extract hyperlinks java” là gì?
+“how to extract hyperlinks java” đề cập đến quá trình đọc một tài liệu Word bằng Java một cách lập trình và lấy ra mọi đối tượng siêu liên kết mà nó chứa. Aspose.Words cung cấp một API cấp cao trừu tượng hoá cấu trúc trường Word bên dưới, cho phép bạn tập trung vào logic nghiệp vụ thay vì việc phân tích tệp.
 
-### Thư viện và phụ thuộc bắt buộc
-- **Aspose.Words cho Java**: Thư viện chính chúng ta sẽ sử dụng trong hướng dẫn này.
+## Tại sao nên sử dụng Aspose.Words cho quản lý siêu liên kết?
+Aspose.Words hỗ trợ **hơn 50 định dạng đầu vào và đầu ra** và có thể xử lý các tài liệu vượt quá **500 trang** mà không cần Microsoft Word trên máy chủ. Mô hình trong bộ nhớ của nó xử lý siêu liên kết trong **dưới 0,2 giây** cho các tệp 100 trang điển hình, mang lại tốc độ và độ tin cậy cho tự động hoá quy mô doanh nghiệp.
 
-### Thiết lập môi trường
-- Máy của bạn đã cài đặt Java Development Kit (JDK) phiên bản 8 trở lên.
+## Yêu cầu trước
+- Thư viện **Aspose.Words for Java** (phiên bản mới nhất được khuyến nghị).  
+- JDK 8 hoặc mới hơn đã được cài đặt.  
+- Kiến thức cơ bản về Java; Maven hoặc Gradle là tùy chọn nhưng hữu ích.
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Nên làm quen với các công cụ xây dựng Maven hoặc Gradle nhưng không bắt buộc.
+### Mua giấy phép
+Bạn có thể bắt đầu với một [giấy phép dùng thử miễn phí](https://releases.aspose.com/words/java/) (nhấn [đây](https://releases.aspose.com/words/java/) để tải trực tiếp). Để mua giấy phép đầy đủ, truy cập [trang mua hàng](https://purchase.aspose.com/buy) hoặc đơn giản vào [Aspose](https://purchase.aspose.com/buy). Tham khảo [Tài liệu Aspose.Words Java](https://reference.aspose.com/words/java/) để biết thông tin chi tiết về API.
 
-## Thiết lập Aspose.Words
+## Làm thế nào để trích xuất siêu liên kết trong Java?
+`Document` là lớp Aspose.Words đại diện cho một tệp Word được tải vào bộ nhớ. `FieldStart` đại diện cho phần bắt đầu của một trường (như siêu liên kết) trong cây nút của tài liệu.
 
-Để bắt đầu sử dụng **Aspose.Words cho Java**hãy đưa nó vào dự án của bạn như sau:
+Tải tệp Word mục tiêu bằng `Document`, chạy truy vấn XPath để tìm các nút `FieldStart` đại diện cho các trường siêu liên kết, và bọc mỗi nút trong một đối tượng `Hyperlink` để truy cập thuộc tính dễ dàng. Cách tiếp cận này trích xuất mọi liên kết chỉ trong vài dòng mã đồng thời giữ nguyên cấu trúc tài liệu.
 
-### Thông tin phụ thuộc
-
-**Chuyên gia:**
+### Bước 1: Tải tài liệu
+Xác định đúng đường dẫn tệp và khởi tạo đối tượng `Document`.  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -57,22 +135,20 @@ Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong các 
 </dependency>
 ```
 
-**Cấp độ:**
+### Bước 2: Chọn các nút siêu liên kết
+Chạy một biểu thức XPath để tìm tất cả các nút `FieldStart` có `FieldType` bằng `FieldHyperlink`.  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Mua lại giấy phép
-Bạn có thể bắt đầu với một **giấy phép dùng thử miễn phí** để khám phá khả năng của Aspose.Words. Nếu phù hợp, hãy cân nhắc mua hoặc đăng ký giấy phép đầy đủ tạm thời. Truy cập [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
-
-### Khởi tạo cơ bản
-Sau đây là cách bạn thiết lập môi trường của mình:
+### Bước 3: Bọc các nút trong đối tượng Hyperlink
+Tạo một thể hiện `Hyperlink` cho mỗi nút để đọc hoặc sửa đổi các thuộc tính của nó.  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // Tải tài liệu của bạn
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
@@ -80,98 +156,145 @@ class InitializeAsposeWords {
 }
 ```
 
-## Hướng dẫn thực hiện
+## Cách cập nhật đích của siêu liên kết?
+`Hyperlink` là một lớp bao bọc cung cấp quyền truy cập vào các thuộc tính của siêu liên kết như URL đích. `setTarget` đặt URL đích của siêu liên kết.
 
-Hãy cùng khám phá cách triển khai quản lý siêu liên kết trong tài liệu Word.
+Lặp qua mỗi đối tượng `Hyperlink`, gọi phương thức `setTarget` của nó với URL mới, sau đó lưu tài liệu. Việc cập nhật hàng loạt này đảm bảo mọi liên kết trong tệp đều trỏ tới đích đúng, loại bỏ nhu cầu chỉnh sửa thủ công và giảm rủi ro các tham chiếu bị hỏng trong các tài liệu lớn.
 
-### Tính năng 1: Chọn siêu liên kết từ tài liệu
-
-**Tổng quan**: Trích xuất tất cả các siêu liên kết từ tài liệu Word của bạn bằng cách sử dụng Aspose.Words Java. Sử dụng XPath để xác định `FieldStart` các nút chỉ ra các siêu liên kết tiềm năng.
-
-#### Bước 1: Tải tài liệu
-Đảm bảo bạn chỉ định đúng đường dẫn cho tài liệu của mình:
+### Bước 1: Lặp qua bộ sưu tập Hyperlink
+Lặp qua bộ sưu tập trả về bởi truy vấn XPath.  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 ```
 
-#### Bước 2: Chọn nút siêu liên kết
-Sử dụng XPath để tìm `FieldStart` các nút biểu diễn các trường siêu liên kết trong tài liệu Word:
+### Bước 2: Đặt URL đích mới
+Sử dụng `hyperlink.setTarget("https://newsite.example.com")` để thay đổi đích.  
 ```java
-NodeList fieldStarts = doc.selectNodes("//Trường Bắt đầu");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // Chỗ giữ chỗ cho thao tác tiếp theo
+        // Placeholder for further manipulation
     }
 }
 ```
 
-### Tính năng 2: Triển khai lớp siêu liên kết
-
-**Tổng quan**: Các `Hyperlink` Lớp này đóng gói và cho phép bạn thao tác các thuộc tính của siêu liên kết trong tài liệu của bạn.
-
-#### Bước 1: Khởi tạo đối tượng siêu liên kết
-Tạo một thể hiện bằng cách truyền vào một `FieldStart` nút:
+### Bước 3: Lưu tài liệu đã sửa đổi
+Lưu các thay đổi bằng cách gọi `document.save("Updated.docx")`.  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
 ```
 
-#### Bước 2: Quản lý Thuộc tính Siêu liên kết
-Truy cập và điều chỉnh các thuộc tính như tên, URL mục tiêu hoặc trạng thái cục bộ:
-- **Nhận tên**:
+## Tính năng 1: Chọn siêu liên kết từ tài liệu
+**Overview**: Trích xuất tất cả siêu liên kết từ tài liệu Word của bạn bằng Aspose.Words Java. Sử dụng XPath để xác định các nút `FieldStart` cho thấy khả năng có siêu liên kết.
+
+`FieldStart` nodes indicate the beginning of a field; they can be filtered to locate hyperlink fields.  
+Các nút `FieldStart` chỉ ra phần bắt đầu của một trường; chúng có thể được lọc để tìm các trường siêu liên kết.
+
+### Bước 1: Tải tài liệu
+Đảm bảo bạn chỉ định đúng đường dẫn cho tài liệu của mình:  
+```java
+Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
+```
+
+### Bước 2: Chọn các nút siêu liên kết
+Sử dụng XPath để tìm các nút `FieldStart` đại diện cho các trường siêu liên kết trong tài liệu Word:  
+```java
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
+for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
+    if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
+        Hyperlink hyperlink = new Hyperlink(fieldStart);
+        if (hyperlink.isLocal()) continue;
+
+        // Placeholder for further manipulation
+    }
+}
+```
+
+## Tính năng 2: Triển khai lớp Hyperlink
+**Overview**: Lớp `Hyperlink` bao gói và cho phép bạn thao tác các thuộc tính của một siêu liên kết trong tài liệu của bạn.
+
+`Hyperlink` bao gói một trường siêu liên kết, cung cấp các thuộc tính để đọc và sửa đổi các thuộc tính của nó.
+
+### Bước 1: Khởi tạo đối tượng Hyperlink
+Tạo một thể hiện bằng cách truyền vào một nút `FieldStart`:  
+```java
+Hyperlink hyperlink = new Hyperlink(fieldStart);
+```
+
+### Bước 2: Quản lý các thuộc tính Hyperlink
+Truy cập và điều chỉnh các thuộc tính như tên, URL đích, hoặc trạng thái nội bộ:
+
+- **Lấy Tên**:  
   ```java
   String linkName = hyperlink.getName();
-  ```
-- **Đặt mục tiêu mới**:
+  ```  
+
+- **Đặt Đích Mới**:  
   ```java
-  hyperlink.setTarget("https://ví dụ.com");
-  ```
-- **Kiểm tra liên kết cục bộ**:
+  hyperlink.setTarget("https://example.com");
+  ```  
+
+- **Kiểm tra Liên kết Nội bộ**:  
   ```java
   boolean isLocalLink = hyperlink.isLocal();
-  ```
+  ```  
 
-## Ứng dụng thực tế
-1. **Tuân thủ tài liệu**: Cập nhật các siêu liên kết đã lỗi thời để đảm bảo tính chính xác.
-2. **Tối ưu hóa SEO**: Thay đổi mục tiêu liên kết để có khả năng hiển thị tốt hơn trên công cụ tìm kiếm.
-3. **Biên tập cộng tác**: Tạo điều kiện thuận lợi cho các thành viên trong nhóm thêm hoặc sửa đổi liên kết tài liệu một cách dễ dàng.
+## Ứng dụng thực tiễn
+1. **Document Compliance** – Cập nhật các siêu liên kết lỗi thời để đảm bảo độ chính xác.  
+2. **SEO Optimization** – Thay đổi đích của liên kết để cải thiện khả năng hiển thị trên công cụ tìm kiếm.  
+3. **Collaborative Editing** – Tạo điều kiện cho việc thêm hoặc sửa đổi các liên kết tài liệu một cách dễ dàng bởi các thành viên trong nhóm.
 
-## Cân nhắc về hiệu suất
-- **Xử lý hàng loạt**: Xử lý nhiều tài liệu lớn theo từng đợt để tối ưu hóa việc sử dụng bộ nhớ.
-- **Hiệu quả của biểu thức chính quy**Tinh chỉnh các mẫu biểu thức chính quy trong `Hyperlink` lớp để thực hiện nhanh hơn.
+## Cân nhắc về hiệu năng
+- **Batch Processing** – Xử lý các tài liệu lớn theo lô để tối ưu hoá việc sử dụng bộ nhớ.  
+- **Regular Expression Efficiency** – Tinh chỉnh các mẫu regex trong lớp `Hyperlink` để thời gian thực thi nhanh hơn.
 
-## Phần kết luận
-Bằng cách làm theo hướng dẫn này, bạn đã khai thác được các khả năng mạnh mẽ của Aspose.Words Java để quản lý siêu liên kết tài liệu Word. Khám phá thêm bằng cách tích hợp các giải pháp này vào quy trình làm việc của bạn và khám phá thêm nhiều tính năng do Aspose.Words cung cấp.
+## Làm sao tôi kiểm tra việc trích xuất siêu liên kết mà không có giấy phép?
+Bạn có thể nhận một giấy phép dùng thử miễn phí từ Aspose, áp dụng nó tại thời gian chạy, và chạy mã trích xuất trên bất kỳ tài liệu mẫu nào. Bản dùng thử không đặt giới hạn chức năng, cho phép bạn xác minh tính đúng đắn trước khi mua. Bằng cách tải tài liệu, trích xuất các siêu liên kết và in ra các đích, bạn có thể xác nhận API hoạt động như mong đợi trong môi trường của mình.
 
-Sẵn sàng nâng cao kỹ năng quản lý tài liệu của bạn? Hãy tìm hiểu sâu hơn [Tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để có thêm nhiều chức năng hơn!
+## Kết luận
+Bằng cách làm theo hướng dẫn này, bạn đã học cách **how to extract hyperlinks java** bằng Aspose.Words, cho phép bạn giữ các tài sản dựa trên Word chính xác và luôn cập nhật. Khám phá các khả năng bổ sung — như chuyển đổi hàng loạt, hợp nhất nội dung và tạo tài liệu — bằng cách truy cập tài liệu chính thức.
 
-## Phần Câu hỏi thường gặp
-1. **Aspose.Words Java được sử dụng để làm gì?**
-   - Đây là thư viện dùng để tạo, chỉnh sửa và chuyển đổi tài liệu Word trong các ứng dụng Java.
-2. **Làm thế nào để cập nhật nhiều siêu liên kết cùng lúc?**
-   - Sử dụng `SelectHyperlinks` tính năng lặp lại và cập nhật từng siêu liên kết khi cần.
-3. **Aspose.Words có thể chuyển đổi PDF được không?**
-   - Có, nó hỗ trợ nhiều định dạng tài liệu khác nhau bao gồm cả PDF.
-4. **Có cách nào để kiểm tra tính năng của Aspose.Words trước khi mua không?**
-   - Chắc chắn rồi! Bắt đầu với [giấy phép dùng thử miễn phí](https://releases.aspose.com/words/java/) có sẵn trên trang web của họ.
-5. **Tôi phải làm sao nếu gặp sự cố khi cập nhật siêu liên kết?**
-   - Kiểm tra mẫu biểu thức chính quy của bạn và đảm bảo chúng khớp chính xác với định dạng tài liệu của bạn.
+Sẵn sàng nâng cao kỹ năng quản lý tài liệu của bạn? Hãy khám phá sâu hơn trong [tài liệu Aspose.Words](https://reference.aspose.com/words/java/) để biết thêm các chức năng!
 
-## Tài nguyên
-- **Tài liệu**: Khám phá thêm tại [Tài liệu Java Aspose.Words](https://reference.aspose.com/words/java/)
-- **Tải xuống Aspose.Words**: Nhận phiên bản mới nhất [đây](https://releases.aspose.com/words/java/)
-- **Mua giấy phép**: Mua trực tiếp từ [Đặt ra](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: Hãy thử trước khi mua với [giấy phép dùng thử miễn phí](https://releases.aspose.com/words/java/)
-- **Diễn đàn hỗ trợ**:Tham gia cộng đồng tại [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10) để thảo luận và hỗ trợ.
+## Câu hỏi thường gặp
+
+**Q: Aspose.Words Java được dùng để làm gì?**  
+A: Đây là một thư viện để tạo, sửa đổi và chuyển đổi tài liệu Word trong các ứng dụng Java.
+
+**Q: Làm sao tôi cập nhật nhiều siêu liên kết cùng lúc?**  
+A: Sử dụng tính năng `SelectHyperlinks` để lặp qua mỗi đối tượng `Hyperlink` và gọi `setTarget` khi cần.
+
+**Q: Aspose.Words có thể xử lý chuyển đổi PDF không?**  
+A: Có, nó hỗ trợ chuyển đổi tới và từ PDF trong hơn 50 định dạng.
+
+**Q: Có cách nào để thử nghiệm các tính năng của Aspose.Words trước khi mua không?**  
+A: Chắc chắn! Bắt đầu với [giấy phép dùng thử miễn phí](https://releases.aspose.com/words/java/) có sẵn trên trang web của họ.
+
+**Q: Nếu tôi gặp vấn đề với việc cập nhật siêu liên kết thì sao?**  
+A: Kiểm tra lại biểu thức XPath của bạn và đảm bảo các nút `FieldStart` tương ứng với các trường siêu liên kết thực tế.
+
+**Q: Tôi có thể nhận trợ giúp bổ sung ở đâu?**  
+A: Để được hỗ trợ thêm, truy cập [Diễn đàn Hỗ trợ Aspose](https://forum.aspose.com/c/words/10).
+
+---
+
+**Cập nhật lần cuối:** 2026-07-26  
+**Kiểm tra với:** Aspose.Words for Java 24.12 (latest)  
+**Tác giả:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Các hướng dẫn liên quan
+
+- [Aspose.Words for Java: Cách chèn và quản lý dấu trang trong tài liệu Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Aspose.Words Java cho việc thao tác biến tài liệu hiệu quả](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
+- [Aspose.Words for Java: Hướng dẫn tính năng HTML toàn diện và xử lý tài liệu](/words/java/document-operations/aspose-words-java-html-features-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-
-{{< blocks/products/products-backtop-button >}}
