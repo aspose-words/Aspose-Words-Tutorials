@@ -42,6 +42,9 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 ### [दस्तावेज़ संपादन और डेटा संरक्षण](./document-redaction-data-protection/)
 जानें कि Aspose.Words for Java का उपयोग करके अपने दस्तावेज़ों को कैसे सुरक्षित रखें और संवेदनशील डेटा को कैसे संपादित करें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 
+### [C# में DOCX फ़ाइलों पर हस्ताक्षर कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+C# के साथ Aspose.Words का उपयोग करके DOCX फ़ाइलों पर डिजिटल हस्ताक्षर लागू करने का विस्तृत मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

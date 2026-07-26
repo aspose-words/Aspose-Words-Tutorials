@@ -65,8 +65,12 @@ Aspose.Words for Java में हेडर और फ़ुटर का उ�
 इस चरण-दर-चरण ट्यूटोरियल के साथ Java के लिए Aspose.Words में Markdown का उपयोग करना सीखें। Markdown दस्तावेज़ों को आसानी से बनाएँ, स्टाइल करें और सहेजें।
 ### [जावा के लिए Aspose.Words में नोड्स का उपयोग करना](./using-nodes/)
 इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Words for Java में नोड्स में हेरफेर करना सीखें। दस्तावेज़ प्रसंस्करण शक्ति अनलॉक करें।
+### [Aspose.Words के साथ Word में पाई चार्ट डालें – पूर्ण गाइड](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में पाई चार्ट कैसे डालें, चरण-दर-चरण सीखें।
 ### [जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना](./using-ole-objects-and-activex/)
 Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX नियंत्रण का उपयोग करना सीखें। आसानी से इंटरैक्टिव दस्तावेज़ बनाएँ। अभी शुरू करें!
+### [Word में ActiveX बटन डालना – बटन कैप्शन सेट करना](./how-to-insert-activex-button-in-word-set-button-caption/)
+Word दस्तावेज़ में ActiveX बटन जोड़ने और उसके कैप्शन को सेट करने की चरण-दर-चरण प्रक्रिया सीखें।
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
