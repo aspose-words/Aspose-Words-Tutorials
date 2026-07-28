@@ -34,6 +34,12 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | [Cargar archivos CHM en un documento de Word](./load-chm/) Cargue fácilmente archivos CHM en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Ideal para consolidar su documentación técnica. |
 | [Aspose Load Options – Cargar DOCX con Configuración de Fuente Personalizada](./aspose-load-options-load-docx-with-custom-font-settings/) Aprenda a cargar documentos DOCX especificando fuentes personalizadas con Aspose.LoadOptions en .NET. |
 | [Recuperar DOCX dañado con Aspose.Words – establecer modo de recuperación y opciones de carga](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) Aprenda a recuperar documentos DOCX dañados configurando el modo de recuperación y LoadOptions en Aspose.Words para .NET. |
+| [Recuperar archivo Word dañado – Guía completa para abrir DOCX corrupto y obtener el recuento de páginas](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) Aprenda a reparar archivos Word dañados, abrir DOCX corruptos y obtener el número de páginas con Aspose.Words para .NET. |
+| [Cómo recuperar docx – Guía C# para archivos Word corruptos](./how-to-recover-docx-c-guide-for-corrupted-word-files/) Aprenda a recuperar archivos DOCX dañados usando C# con Aspose.Words para .NET. |
+| [Recuperar documento Word con Aspose.Words en C#](./recover-word-document-with-aspose-words-in-c/) Aprenda a recuperar documentos Word dañados usando Aspose.Words en C# con ejemplos paso a paso. |
+| [Cómo recuperar docx – establecer modo de recuperación y abrir archivos Word dañados](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Aprenda a establecer el modo de recuperación y abrir documentos Word corruptos usando Aspose.Words para .NET. |
+| [Cómo usar LoadOptions en Aspose.Words – Guía completa](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Aprenda paso a paso a utilizar LoadOptions en Aspose.Words para .NET y personalizar la carga de documentos. |
+| [Recuperar documento corrupto en C# – Establecer modo de recuperación y solicitar al usuario](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Aprenda a recuperar documentos corruptos en C# usando Aspose.Words, configurando el modo de recuperación y mostrando un mensaje al usuario. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

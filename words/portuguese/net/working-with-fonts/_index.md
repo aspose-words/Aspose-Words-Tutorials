@@ -27,7 +27,7 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | --- | --- |
 | [Formatação de fonte](./font-formatting/) | Aprenda a formatar fontes em documentos do Word usando o Aspose.Words para .NET com um guia detalhado passo a passo. |
 | [Obter espaçamento entre linhas de fonte](./get-font-line-spacing/) | Aprenda como obter espaçamento entre linhas de fonte usando o Aspose.Words para .NET com este tutorial passo a passo. Perfeito para desenvolvedores. |
-| [Verifique o efeito de texto do DrawingML](./check-drawingml-text-effect/) Aprenda a verificar os efeitos de texto do DrawingML em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo detalhado. Aprimore seus documentos com facilidade. |
+| [Verifique o efeito de texto do DrawingML](./check-drawingml-text-effect/) Aprenda a verificar os efeitos texto do DrawingML em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo detalhado. Aprimore seus documentos com facilidade. |
 | [Definir formatação de fonte](./set-font-formatting/) | Aprenda a definir a formatação de fontes em documentos do Word usando o Aspose.Words para .NET. Siga nosso guia passo a passo detalhado para aprimorar a automação de seus documentos. |
 | [Definir marca de ênfase da fonte](./set-font-emphasis-mark/) | Aprenda a definir marcas de ênfase de fonte em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo detalhado. Perfeito para desenvolvedores .NET. |
 | [Definir pastas de fontes](./set-fonts-folders/) | Aprenda a definir pastas de fontes personalizadas no Aspose.Words para .NET com este guia passo a passo abrangente. Perfeito para desenvolvedores que buscam aprimorar fontes em documentos. |
@@ -49,6 +49,10 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Exemplo de fonte de fonte do Resource Steam](./resource-steam-font-source-example/) | Aprenda a usar o Resource Stream Font Source para carregar fontes personalizadas no Aspose.Words para .NET. |
 | [Obtenha substituição sem sufixos](./get-substitution-without-suffixes/) | Neste tutorial, aprenda como obter substituições sem sufixo em um documento do Word com o Aspose.Words para .NET. |
 | [Como Carregar DOCX em C# – Guia Completo](./how-to-load-docx-in-c-complete-guide/) | Aprenda a carregar arquivos DOCX em C# usando Aspose.Words para .NET com um guia passo a passo completo. |
+| [Como Detectar Fontes no Aspose.Words – Lidar com Avisos e Configurações](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aprenda a detectar fontes, lidar com avisos e configurar opções de fontes no Aspose.Words para .NET. |
+| [Como Capturar Fontes no Aspose.Words – Guia Completo](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aprenda a capturar fontes em documentos Word usando Aspose.Words com este guia completo passo a passo. |
+| [Como carregar DOCX e detectar fontes ausentes – Guia completo em C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aprenda a carregar documentos DOCX e detectar fontes ausentes usando Aspose.Words para .NET com este guia completo em C#. |
+| [Habilitar avisos de substituição de fontes no Aspose.Words – Guia completo](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Aprenda a habilitar avisos de substituição de fontes no Aspose.Words para .NET e evitar problemas de renderização. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

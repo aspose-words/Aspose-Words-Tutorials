@@ -1,0 +1,7 @@
+Title: Embed Images as Base64 When Converting DOCX to Markdown
+Slug: embed-images-as-base64-when-converting-docx-to-markdown
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-27T04:39:00.212392
+SourceRepo: AI Search API
+Keywords: embed images as base64, convert docx to markdown, convert word to markdown, convert images to base64, save word as markdown
+PRNumber: 193

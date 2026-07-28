@@ -34,6 +34,9 @@
 ### [วิธีการเรนเดอร์หน้าเอกสารเป็นภาพขนาดย่อโดยใช้ Aspose.Words สำหรับ Java](./render-word-pages-thumbnails-aspose-java/)
 เรียนรู้วิธีสร้างภาพขนาดย่อคุณภาพสูงและบิตแมปขนาดกำหนดเองของเอกสาร Word ด้วย Aspose.Words สำหรับ Java ปรับปรุงความสามารถในการจัดการเอกสารของคุณวันนี้
 
+### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงา](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

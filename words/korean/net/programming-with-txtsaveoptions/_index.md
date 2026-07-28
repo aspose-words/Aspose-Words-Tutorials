@@ -28,6 +28,8 @@ Aspose.Words for .NET 튜토리얼은 Word 문서 조작과 관련하여 라이�
 | [목록 들여쓰기를 위해 레벨당 탭 문자 사용](./use-tab-character-per-level-for-list-indentation/) | Aspose.Words for .NET을 사용하여 탭 들여쓰기가 적용된 다단계 목록을 만드는 방법을 알아보세요. 문서에서 정확한 목록 서식을 지정하려면 이 가이드를 따르세요. |
 | [목록 들여쓰기에 레벨당 공백 문자 사용](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET에서 공백 문자 들여쓰기를 적용한 다단계 목록을 만드는 방법을 알아보세요. 정확한 문서 서식 지정을 위한 단계별 가이드입니다. |
 | [docx를 txt로 변환 – 워드를 일반 텍스트로 저장하는 완전 가이드](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 TXT 형식의 일반 텍스트로 변환하는 전체 과정과 옵션을 단계별로 안내합니다. |
+| [DOCX를 TXT로 저장 – 순수 텍스트 변환을 위한 완전 C# 가이드](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aspose.Words for .NET을 사용해 DOCX 파일을 순수 텍스트(.txt) 파일로 변환하는 방법을 단계별로 설명합니다. |
+| [docx를 txt로 저장 – C# 개발자를 위한 빠른 가이드](./save-docx-as-txt-quick-guide-for-c-developers/) | Aspose.Words for .NET을 사용하여 C#에서 docx 파일을 txt 형식으로 빠르게 변환하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

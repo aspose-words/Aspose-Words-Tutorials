@@ -1,0 +1,7 @@
+Title: pdf accessibility tagging in Java – Generate Accessible PDFs
+Slug: pdf-accessibility-tagging-in-java-generate-accessible-pdfs
+Category: document-manipulation
+ProcessedDate: 2026-06-05T15:21:07.925580
+SourceRepo: AI Search API
+Keywords: pdf accessibility tagging, generate accessible pdf, export accessible pdf, add accessibility tags, save accessible pdf
+PRNumber: 199

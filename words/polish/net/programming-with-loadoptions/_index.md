@@ -35,6 +35,12 @@ W tych samouczkach nauczysz się, jak używać LoadOptions do ładowania dokumen
 | [Jak odzyskać plik docx za pomocą Aspose.Words – krok po kroku](./how-to-recover-docx-with-aspose-words-step-by-step/) | Dowiedz się, jak odzyskać uszkodzone pliki docx przy użyciu Aspose.Words w kilku prostych krokach. |
 | [Odzyskaj uszkodzony plik docx przy użyciu Aspose.Words – ustaw tryb odzyskiwania i opcje ładowania](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Dowiedz się, jak ustawić tryb odzyskiwania i skonfigurować LoadOptions, aby naprawić uszkodzone pliki docx przy użyciu Aspose.Words. |
 | [Aspose Load Options – Ładowanie DOCX z niestandardowymi ustawieniami czcionek](./aspose-load-options-load-docx-with-custom-font-settings/) | Dowiedz się, jak ładować dokumenty DOCX z własnymi ustawieniami czcionek przy użyciu Aspose Load Options w .NET. |
+| [Odzyskaj uszkodzony plik Word – Kompletny przewodnik otwierania uszkodzonego DOCX i uzyskiwania liczby stron](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Dowiedz się, jak odzyskać uszkodzony plik Word, otworzyć uszkodzony DOCX i uzyskać liczbę stron przy użyciu Aspose.Words dla .NET. |
+| [Jak odzyskać docx – przewodnik C# dla uszkodzonych plików Word](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Dowiedz się, jak naprawić uszkodzone pliki DOCX w C# przy użyciu Aspose.Words. |
+| [Odzyskaj dokument Word przy użyciu Aspose.Words w C#](./recover-word-document-with-aspose-words-in-c/) Dowiedz się, jak odzyskać uszkodzone dokumenty Word przy użyciu Aspose.Words w C# w kilku prostych krokach. |
+| [Jak odzyskać docx – ustaw tryb odzyskiwania i otwórz uszkodzone pliki Word](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Dowiedz się, jak odzyskać pliki docx, ustawić tryb odzyskiwania i otworzyć uszkodzone dokumenty Word przy użyciu Aspose.Words. |
+| [Jak używać LoadOptions w Aspose.Words – kompletny przewodnik](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Kompletny przewodnik po LoadOptions w Aspose.Words dla .NET, zawierający przykłady i wskazówki optymalnego ładowania dokumentów. |
+| [Odzyskaj uszkodzony dokument w C# – ustaw tryb odzyskiwania i wyświetl monit użytkownika](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Dowiedz się, jak w C# ustawić tryb odzyskiwania dokumentu i wyświetlić użytkownikowi komunikat, aby naprawić uszkodzony plik Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,12 +47,17 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 | [Képek interpolálása egy PDF dokumentumban](./interpolate-images/) | Tanulja meg, hogyan interpolálhat képeket egy PDF dokumentumban az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatónkkal. Javítsa PDF-je képminőségét könnyedén. |
 | [Word mentése PDF-be az Aspose Words segítségével – Teljes C# útmutató](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Ismerje meg, hogyan menthet Word dokumentumokat PDF-be C#-ban az Aspose.Words teljes útmutatójával. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+| [Docx mentése PDF-be az Aspose.Words segítségével – Teljes C# útmutató](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Lépésről lépésre bemutatja, hogyan konvertálhatja a DOCX fájlokat PDF-be C#-ban az Aspose.Words könyvtárral. |
+| [Elérhető PDF létrehozása Wordből C#‑val – Lépés‑ről‑lépésre útmutató](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumból C#‑ban az Aspose.Words for .NET segítségével. |
+| [Akadálymentes PDF létrehozása C#-ban – PDF hozzáférhetőségi útmutató](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Ismerje meg, hogyan hozhat létre akadálymentes PDF-et C#-ban az Aspose.Words for .NET segítségével. |
 
+| [Képek interpolálása egy PDF dokumentumban](./interpolate-images/) | Tanulja meg, hogyan interpolálhat képeket egy PDF dokumentumban az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatóval. Javítsa PDF-je képminőségét könnyedén. |
+| [Hozzon létre akadálymentes PDF-et Wordből – Teljes útmutató](./create-accessible-pdf-from-word-complete-guide/) | Lépésről lépésre útmutató az akadálymentes PDF-ek létrehozásához Word dokumentumokból az Aspose.Words for .NET használatával. |
+| [Hozzon létre hozzáférhető PDF-et – Lépésről lépésre útmutató a PDF/UA megfeleléshez](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Tanulja meg, hogyan készíthet PDF/UA szabványú, akadálymentes PDF-et az Aspose.Words for .NET segítségével. |
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

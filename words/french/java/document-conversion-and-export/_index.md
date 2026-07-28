@@ -87,7 +87,22 @@ Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Appr
 Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
 
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
-Apprenez à formater des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
+
+### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
+
+### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
+
+### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
+
+### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
+Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
+
+### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
 
 ## Questions fréquentes
 

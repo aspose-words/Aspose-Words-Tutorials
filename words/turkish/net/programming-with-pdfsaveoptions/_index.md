@@ -1,8 +1,8 @@
 ---
 "description": "Aspose.Words for .NET'te PDF kaydetme seçenekleriyle Word İşlemeyi keşfedin. Adım adım eğitimler ve örnek kodlar aracılığıyla Word belgelerini gelişmiş özelliklerle PDF'ye nasıl dönüştüreceğinizi öğrenin."
-"linktitle": "Pdfsaveoptions ile Kelime İşleme"
+"linktitle": "Pdfsaveoptions ile Kelime İşlemeyi"
 "second_title": "Aspose.Words Belge İşleme API'si"
-"title": "Pdfsaveoptions ile Kelime İşleme"
+"title": "Pdfsaveoptions ile Kelime İşlemeyi"
 "url": "/tr/net/programming-with-pdfsaveoptions/"
 "weight": 1680
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pdfsaveoptions ile Kelime İşleme
+# Pdfsaveoptions ile Kelime İşlemeyi
 
 Aspose.Words for .NET eğitimleri, PdfSaveOptions ile Words Processing'in PDF kaydetme seçenekleriyle Words Processing'in çeşitli özellikleri ve teknikleri konusunda size yol gösterir. Bu eğitimler, düzen ayarlarını, yazı tiplerini, görüntüleri, meta verileri ve daha fazlasını değiştirerek Word'den PDF'ye dönüştürmeyi nasıl özelleştireceğinizi anlamanıza yardımcı olur.
 
@@ -46,13 +46,20 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin. |
 | [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
 | [Aspose Words ile Word'ü PDF olarak Kaydet – Tam C# Kılavuzu](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words kullanarak C# ile Word belgelerini PDF'ye dönüştürmeyi adım adım öğrenin. |
+| [Aspose.Words ile docx dosyasını pdf olarak kaydet – Tam C# Kılavuzu](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words kullanarak C# ile docx dosyasını PDF'ye dönüştürmenin tüm adımlarını öğrenin. |
+| [C# ile Word'den Erişilebilir PDF Oluşturma – Adım Adım Kılavuz](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | C# kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
+| [PDF Belgesinde Görüntü Sıkıştırma](./image-compression/) | Aspose.Words for .NET kullanarak PDF belgelerindeki resimleri nasıl sıkıştıracağınızı öğrenin. Optimize edilmiş dosya boyutu ve kalitesi için bu kılavuzu izleyin. |
+| [PDF Belgesinde Son Yazdırılan Özelliği Güncelle](./update-last-printed-property/) | Aspose.Words for .NET'i kullanarak adım adım kılavuzumuzla bir PDF belgesinde son yazdırılan özelliğin nasıl güncelleneceğini öğrenin. |
+| [PDF Belgesinde 3D DML 3DEffects Oluşturun](./dml-3deffects-rendering/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET'i kullanarak PDF belgelerinde çarpıcı 3D DML efektlerinin nasıl oluşturulacağını öğrenin. |
+| [PDF Belgesindeki Görüntüleri Araya Ekleme](./interpolate-images/) | Aspose.Words for .NET'i kullanarak PDF belgesinde görüntüleri nasıl interpole edeceğinizi adım adım kılavuzumuzla öğrenin. PDF'lerinizin görüntü kalitesini kolayca iyileştirin. |
+| [C#'ta Erişilebilir PDF Oluşturma – PDF Erişilebilirlik Eğitimi](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Aspose.Words for .NET kullanarak C# ile erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
+| [Word'den Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-complete-guide/) | Bu kapsamlı rehberde, Word belgelerinden erişilebilir PDF oluşturmak için gerekli adımları ve ayarları öğrenin. |
+| [Erişilebilir PDF Oluşturma – PDF/UA Uyumluluğu için Adım‑Adım Kılavuz](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | PDF/UA uyumluluğu için erişilebilir PDF oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

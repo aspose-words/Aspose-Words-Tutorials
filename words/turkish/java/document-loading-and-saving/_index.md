@@ -100,7 +100,7 @@ Aspose.Words for Java ile gelişmiş belge manipülasyonunu öğrenin. Şifrelem
 ### [Aspose.Words for Java’da Sabit Düzenli HTML Belgelerini Kaydetme](./saving-html-documents-with-fixed-layout/)
 Aspose.Words for Java’da sabit düzenli HTML belgelerini nasıl kaydedeceğinizi öğrenin. Sorunsuz belge biçimlendirme için adım adım rehberimizi izleyin.
 
-### [Aspose.Words Java ile Gelişmiş HTML Belge Kaydetme Seçenekleri](./advance-html-documents-saving-options/)
+### [Aspose.Words for Java Java ile Gelişmiş HTML Belge Kaydetme Seçenekleri](./advance-html-documents-saving-options/)
 Bu eğitimde, Aspose.Words for Java ile çeşitli gelişmiş HTML belge kaydetme seçeneklerini ele aldık. Bu seçenekler, yüksek kaliteli HTML oluşturmanızı sağlar.
 
 ### [Aspose.Words for Java’da Belgelerden Görüntü Kaydetme](./saving-images-from-documents/)
@@ -129,6 +129,11 @@ Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğin
 
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
 Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin.
+
+### [Bozuk docx dosyasını kurtarma – Belgeleri Düzeltme ve İşleme Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve işleyebileceğinizi öğrenin.
 
 ## Sıkça Sorulan Sorular
 

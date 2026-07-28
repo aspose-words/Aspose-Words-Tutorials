@@ -28,6 +28,8 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 | [Użyj znaku tabulacji na poziomie, aby uzyskać wcięcie listy](./use-tab-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciami tabulacyjnymi przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z tym przewodnikiem, aby uzyskać precyzyjne formatowanie listy w dokumentach. |
 | [Użyj znaku spacji na każdym poziomie do wcięcia listy](./use-space-character-per-level-for-list-indentation/) | Dowiedz się, jak tworzyć listy wielopoziomowe z wcięciem znaku spacji w Aspose.Words dla .NET. Przewodnik krok po kroku dotyczący precyzyjnego formatowania dokumentu. |
 | [Konwertuj docx na txt – Kompletny przewodnik po zapisywaniu Worda jako zwykły tekst](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET konwertować pliki DOCX na TXT, zachowując formatowanie i kontrolując opcje zapisu. |
+| [Zapisz dokument jako TXT – Kompletny przewodnik C# konwertujący DOCX na tekst zwykły](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Dowiedz się, jak w C# konwertować pliki DOCX do formatu TXT, wykorzystując Aspose.Words i pełne opcje zapisu tekstu. |
+| [Zapisz docx jako txt – szybki przewodnik dla programistów C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Dowiedz się, jak szybko przekonwertować plik DOCX na TXT w C# przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

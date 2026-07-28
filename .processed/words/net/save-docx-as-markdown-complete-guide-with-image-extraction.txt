@@ -1,0 +1,7 @@
+Title: Save docx as markdown – Complete Guide with Image Extraction
+Slug: save-docx-as-markdown-complete-guide-with-image-extraction
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-05-30T07:01:13.932397
+SourceRepo: AI Search API
+Keywords: save docx as markdown, extract images from docx, convert word to markdown, convert docx to markdown, how to extract images
+PRNumber: 194

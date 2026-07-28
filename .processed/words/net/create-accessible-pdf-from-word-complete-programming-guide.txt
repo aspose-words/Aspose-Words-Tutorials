@@ -1,0 +1,7 @@
+Title: Create Accessible PDF from Word – Complete Programming Guide
+Slug: create-accessible-pdf-from-word-complete-programming-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-05-30T07:01:18.312063
+SourceRepo: AI Search API
+Keywords: create accessible pdf, add accessibility tags, make pdf accessible, export word accessible pdf
+PRNumber: 194

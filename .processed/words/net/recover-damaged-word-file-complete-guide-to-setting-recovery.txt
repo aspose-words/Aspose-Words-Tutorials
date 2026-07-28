@@ -1,0 +1,7 @@
+Title: Recover Damaged Word File – Complete Guide to Setting Recovery Mode
+Slug: recover-damaged-word-file-complete-guide-to-setting-recovery
+Category: programming-with-loadoptions
+ProcessedDate: 2026-06-02T12:33:28.384368
+SourceRepo: AI Search API
+Keywords: recover damaged word file, set recovery mode, how to set recovery, how to load docx, choose recovery mode
+PRNumber: 197

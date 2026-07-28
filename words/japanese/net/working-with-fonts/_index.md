@@ -32,6 +32,7 @@
 | [フォント強調マークの設定](./set-font-emphasis-mark/) Aspose.Words for .NET を使用して Word 文書にフォント強調記号を設定する方法を、詳細なステップバイステップガイドで学習します。.NET 開発者に最適です。 |
 | [フォントフォルダを設定する](./set-fonts-folders/) Aspose.Words for .NET でカスタムフォントフォルダーを設定する方法を、ステップバイステップで解説する包括的なガイドです。ドキュメントフォントの強化を目指す開発者に最適です。 |
 | [フォント置換を有効/無効にする](./enable-disable-font-substitution/) Aspose.Words for .NET を使用して、Word 文書のフォント置換を有効または無効にする方法を学びます。すべてのプラットフォームでドキュメントの外観の一貫性を確保します。 |
+| [Aspose.Words でフォント置換警告を有効にする – 完全ガイド](./enable-font-substitution-warnings-in-aspose-words-complete-g/) Aspose.Words for .NET を使用して、フォント置換警告を有効にする方法をステップバイステップで学びます。 |
 | [フォントフォールバック設定](./set-font-fallback-settings/) Aspose.Words for .NET でフォント置換設定を設定し、Word 文書でフォント置換をカスタマイズする方法を学習します。 |
 | [Noto フォールバック設定を読み込む](./load-noto-fallback-settings/) Aspose.Words for .NET を使用して、Word 文書に Noto フォールバック設定を読み込む方法を学びます。ステップバイステップのガイドに従って、すべての文字が正しく表示されるようにしてください。 |
 | [フォントフォルダのデフォルトインスタンスを設定する](./set-fonts-folders-default-instance/) Aspose.Words for .NET のデフォルトインスタンスのフォントフォルダーを設定する方法を、ステップバイステップのチュートリアルで学びましょう。Word 文書を簡単にカスタマイズできます。 |
@@ -46,9 +47,12 @@
 | [利用可能なフォントのリストを取得する](./get-list-of-available-fonts/) Aspose.Words for .NET を使用して利用可能なフォントのリストを取得する方法を、この詳細なステップバイステップのチュートリアルで学びましょう。フォント管理スキルを向上させましょう。 |
 | [フォントの通知を受け取る](./receive-notifications-of-fonts/) Aspose.Words for .NET の使用時に、不足フォントまたは代替フォントの通知を受け取る方法について説明します。 |
 | [警告通知を受け取る](./receive-warning-notification/) Aspose.Words for .NET の使用時に警告通知を受信し、ドキュメント内の問題や警告を管理する方法について説明します。 |
+| [Aspose.Words でフォントを検出する方法 – 警告と設定の処理](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) Aspose.Words for .NET を使用してフォント検出と警告設定を管理する手順をステップバイステップで学びます。 |
 | [リソース Steam フォントソースの例](./resource-steam-font-source-example/) リソース ストリーム フォント ソースを使用してカスタム フォントを Aspose.Words for .NET に読み込む方法を学習します。 |
 | [接尾辞なしの置換を取得する](./get-substitution-without-suffixes/) このチュートリアルでは、Aspose.Words for .NET を使用して Word 文書でサフィックスなしのオーバーライドを取得する方法を学習します。 |
 | [C#でDOCXを読み込む方法 – 完全ガイド](./how-to-load-docx-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で DOCX ファイルを読み込む手順をステップバイステップで解説します。 |
+| [Aspose.Words でフォントをキャプチャする方法 – 完全ガイド](./how-to-capture-fonts-in-aspose-words-complete-guide/) Aspose.Words for .NET を使用してフォントをキャプチャする完全ガイドです。 |
+| [DOCX を読み込んで欠落フォントを検出する完全 C# ガイド](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) Aspose.Words for .NET を使用して DOCX を読み込み、欠落しているフォントを検出する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

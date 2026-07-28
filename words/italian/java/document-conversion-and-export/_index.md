@@ -83,6 +83,21 @@ Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personal
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
+### [Converti docx in markdown – Esporta equazioni matematiche in LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Scopri come trasformare documenti DOCX in markdown e convertire le equazioni matematiche in LaTeX usando Aspose.Words.
+
+### [Come incorporare immagini in Markdown durante la conversione di DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+Scopri come includere immagini nei file Markdown generati dalla conversione di documenti DOCX con Aspose.Words for Java.
+
+### [Salva documento come TXT – Guida rapida all'esportazione di equazioni Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in modo semplice e veloce.
+
+### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
+
+### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
+Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  
@@ -94,7 +109,7 @@ A: Sì. Aspose.Words preserva layout, font e grafica durante la conversione.
 **Q: Come genero etichette barcode personalizzate in Java?**  
 A: Usa l'API barcode fornita da Aspose.Words, specifica il tipo di barcode e inseriscilo come immagine o forma.
 
-**Q: Qual è il modo migliore per formattare le tabelle in modo coerente?**  
+**Q: Come formato le tabelle in modo coerente?**  
 A: Applica uno TableStyle tramite il metodo `Table.setStyleIdentifier` o usa la galleria di stili integrata.
 
 **Q: È necessaria una licenza per uso commerciale?**  
