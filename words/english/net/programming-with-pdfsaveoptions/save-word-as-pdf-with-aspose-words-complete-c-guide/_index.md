@@ -88,12 +88,15 @@ By default, Aspose Words tries to preserve the exact positioning of floating s
         // Create PDF save options
         PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            // This option converts all floating shapes to inline tags
-            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.AsInline
+            // ExportDocumentStructure must be enabled — ExportFloatingShapesAsInlineTag
+            // is ignored otherwise
+            ExportDocumentStructure = true,
+            // This flag converts floating shapes to inline tags in the PDF structure
+            ExportFloatingShapesAsInlineTag = true
         };
 ```
 
-> **What’s happening under the hood?** When `ExportFloatingShapesAsInlineTag` is set to `AsInline`, Aspose Words wraps each floating shape in an `<w:inline>` tag during the conversion pipeline. The PDF renderer then treats them like regular text runs, eliminating the “jumping” effect.
+> **What's happening under the hood?** `ExportFloatingShapesAsInlineTag` is a plain boolean, and it only takes effect when `ExportDocumentStructure` is also `true`. With both set, Aspose Words positions each floating shape's tag inline within its anchor paragraph in the PDF's tagged structure, instead of as a separate block-level tag placed after it — keeping reading order sane for assistive technology on documents with lots of floating content, eliminating the “jumping” effect.
 
 ## Step 4: Save the Document as PDF Using the Configured Options
 
@@ -177,7 +180,7 @@ This pattern scales nicely and reuses the same *aspose pdf save options* for con
 A: Absolutely. Aspose Words supports `.doc`, `.docx`, `.rtf`, and many other formats. Just pass the file path to `new Document()` and the same PDF options apply.
 
 **Q: What if I need the PDF to retain the original floating‑shape positions?**  
-A: Omit the `ExportFloatingShapesAsInlineTag` setting or set it to `ExportFloatingShapesAsInlineTag.AsFloating`. That tells Aspose Words to keep the original layout, which may be preferable for complex designs.
+A: Omit the `ExportFloatingShapesAsInlineTag` setting, or explicitly set it to `false` (the default). That keeps Aspose Words the original block-level positioning, which may be preferable for complex designs.
 
 **Q: Is there a way to embed the original DOCX inside the PDF?**  
 A: Yes. Use `PdfSaveOptions.EmbeddedFiles.Add(new EmbeddedFile("input.docx", File.ReadAllBytes("input.docx")));` This creates a PDF attachment that users can extract.

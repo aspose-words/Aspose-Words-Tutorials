@@ -54,22 +54,21 @@ The heart of the solution lies in **Aspose.LoadOptions**. This object tells Aspo
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 // Step 1: Create LoadOptions and tell Aspose how to behave
 LoadOptions loadOptions = new LoadOptions
 {
-    // Step 2: Choose the recovery mode – skip corrupted parts and load the rest
-    RecoveryMode = RecoveryMode.SkipCorruptedParts   // alternatives: RecoverAll, ThrowException
+    // Step 2: Choose the recovery mode – attempt to recover and keep as much data as possible
+    RecoveryMode = DocumentRecoveryMode.TryRecover   // alternative: DocumentRecoveryMode.None
 };
 ```
 
 **Why this matters:**  
-- `RecoveryMode.SkipCorruptedParts` tells the engine to ignore unreadable sections while still constructing the rest of the document.  
-- `RecoveryMode.RecoverAll` attempts a deeper fix but can be slower.  
-- `RecoveryMode.ThrowException` is the strict default—use it only when you need to abort on any error.
+- `DocumentRecoveryMode.TryRecover` (the default) tells the engine to attempt recovery and preserve as much data as possible instead of failing outright.  
+- `DocumentRecoveryMode.None` disables recovery entirely — if the document is invalid, loading fails immediately with an error.
 
-If you’re dealing with a **recover corrupted word** scenario where you need every paragraph intact, you might switch to `RecoverAll`. For quick previews, `SkipCorruptedParts` is usually the sweet spot.
+If you’re dealing with a **recover corrupted word** scenario, `TryRecover` is what you want — it's the setting that actually attempts to salvage the document. Use `None` only when you'd rather fail fast and be told a file is broken than silently work with a partially recovered one.
 
 ---
 
@@ -127,7 +126,7 @@ Even though the in‑memory `Document` is usable, persisting it cleans up the br
 
 - **Pro tip:** Always keep a backup of the original file. Skipping corrupted parts is irreversible once you overwrite the source.  
 - **Watch out for:** Large documents (>100 MB) may consume significant memory during recovery. Consider loading with `LoadOptions.LoadFormat = LoadFormat.Docx` explicitly to avoid auto‑detection overhead.  
-- **Edge case:** Some corrupted files contain broken images. If you need to preserve them, use `RecoveryMode.RecoverAll` and then manually inspect `document.GetChildNodes(NodeType.Shape, true)`.  
+- **Edge case:** Some corrupted files contain broken images. With `TryRecover` set, Aspose.Words keeps as much as it can — inspect `document.GetChildNodes(NodeType.Shape, true)` afterward to check which shapes actually survived.  
 - **Performance tip:** Disable `ValidateStructure` when you’re confident the file’s core XML is intact; this can shave seconds off loading time.
 
 ---
@@ -142,7 +141,7 @@ Below is a self‑contained console app that demonstrates the entire workflow—
 // ------------------------------------------------------------
 using System;
 using Aspose.Words;
-using Aspose.Words.LoadOptions;
+using Aspose.Words.Loading;
 
 class Program
 {
@@ -155,7 +154,7 @@ class Program
         // 1️⃣ Create LoadOptions with the desired recovery mode
         LoadOptions loadOptions = new LoadOptions
         {
-            RecoveryMode = RecoveryMode.SkipCorruptedParts, // change as needed
+            RecoveryMode = DocumentRecoveryMode.TryRecover, // change to None to fail fast instead
             // Optional tweaks:
             // Password = "secret", 
             // ValidateStructure = false
@@ -199,7 +198,7 @@ A: Yes. `LoadOptions` works with any format Aspose.Words supports. Just change t
 A: Absolutely. Set `loadOptions.Password` before loading. The recovery mode will still apply after decryption.
 
 **Q: What if I need the corrupted text for forensic analysis?**  
-A: Use `RecoveryMode.RecoverAll`. It attempts to keep as much data as possible, though you may still need to parse the resulting XML manually.
+A: `TryRecover` is already the mode you want — it keeps as much data as possible, though you may still need to inspect the resulting document manually for gaps.
 
 ---
 
