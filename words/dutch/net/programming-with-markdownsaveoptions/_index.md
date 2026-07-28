@@ -42,7 +42,7 @@ Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#�
 
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
 
-Leer hoe u docx-bestanden opslaat als markdown en afbeeldingen extraheert met een volledige C#‑handleiding.
+### [Word naar Markdown converteren – Complete gids met afbeeldingsextractie](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
@@ -71,6 +71,12 @@ Leer hoe u afbeeldingen een nieuwe naam geeft tijdens het converteren van DOCX n
 ### [Docx opslaan als markdown met Aspose.Words – Volledige C#-gids](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
 
 ### [Opslaan van Word-afbeeldingen – Converteer Word naar Markdown met Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+
+### [Hoe LaTeX exporteren vanuit Word – DOCX naar Markdown converteren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+### [Export docx naar markdown in C# – Complete gids](./export-docx-to-markdown-in-c-complete-guide/)
+
+Leer hoe u docx-bestanden naar markdown converteert met een volledige C#-stappenplan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

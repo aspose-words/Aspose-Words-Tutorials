@@ -26,6 +26,7 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 | [แปลงไฟล์ Word เป็น PDF](./docx-to-pdf/) เรียนรู้วิธีการแปลงไฟล์ Word เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือของเรา เหมาะสำหรับนักพัฒนาที่ต้องการการแปลงเอกสารที่รวดเร็วและเชื่อถือได้ - 
 - [แปลง Word เป็น PDF ใน C# ด้วย Aspose.Words – คู่มือ](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
+- [วิธีสร้าง PDF จาก Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-create-pdf-from-word-complete-c-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF จากเอกสาร Word ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [บันทึก Docx เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ Docx เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 | [แปลง Docx เป็นไบต์](./docx-to-byte/) | เรียนรู้วิธีการแปลง Docx เป็นอาร์เรย์ไบต์ใน .NET โดยใช้ Aspose.Words เพื่อการประมวลผลเอกสารอย่างมีประสิทธิภาพ มีคู่มือทีละขั้นตอนรวมอยู่ด้วย -  
 | [แปลง Docx เป็น Epub](./docx-to-epub/) | แปลง DOCX เป็น EPUB ได้อย่างง่ายดายด้วย Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนของเราเพื่อบูรณาการกับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น -

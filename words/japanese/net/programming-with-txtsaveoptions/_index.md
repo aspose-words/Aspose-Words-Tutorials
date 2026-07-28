@@ -27,6 +27,7 @@ Aspose.Words for .NET のチュートリアルでは、Word 文書の操作を�
 | [Word文書にBidiマークを追加する](./add-bidi-marks/) このガイドでは、Aspose.Words for .NET を使用して Word 文書に双方向（Bidi）マークを追加する方法を学びます。多言語コンテンツで適切なテキスト方向を確保します。 |
 | [リストのインデントにはレベルごとにタブ文字を使用する](./use-tab-character-per-level-for-list-indentation/) Aspose.Words for .NET を使用して、タブ付きインデント付きの多階層リストを作成する方法を学びましょう。このガイドに従って、ドキュメント内のリストを正確に書式設定しましょう。 |
 | [リストのインデントにはレベルごとにスペース文字を使用する](./use-space-character-per-level-for-list-indentation/) Aspose.Words for .NET で、スペース文字によるインデントを含む多階層リストを作成する方法を学びましょう。ドキュメントの正確な書式設定のためのステップバイステップガイドです。 |
+| [docx を txt に変換 – Word をプレーンテキストとして保存する完全ガイド](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) このガイドでは、Aspose.Words for .NET を使用して、docx ファイルを txt に変換し、プレーンテキストとして保存する方法をステップバイステップで解説します。 |
 | [DOCX をプレーンテキストに変換する完全 C# ガイド – 文書を TXT として保存](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) Aspose.Words for .NET を使用して、DOCX ファイルをプレーンテキスト（TXT）に変換する手順とサンプル C# コードを紹介します。 |
 | [docx を txt に保存 – C# 開発者向けクイックガイド](./save-docx-as-txt-quick-guide-for-c-developers/) Aspose.Words for .NET を使用して、docx ファイルを txt に変換する手順を簡潔に解説します。 |
 

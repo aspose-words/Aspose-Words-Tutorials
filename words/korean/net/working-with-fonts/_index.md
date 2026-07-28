@@ -49,6 +49,7 @@
 | [Aspose.Words에서 글꼴 대체 경고 활성화 – 완전 가이드](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Aspose.Words for .NET에서 글꼴 대체 경고를 활성화하는 방법을 단계별로 안내합니다. |
 | [리소스 Steam 글꼴 소스 예시](./resource-steam-font-source-example/) | Aspose.Words for .NET에 사용자 정의 글꼴을 로드하기 위해 Resource Stream 글꼴 소스를 사용하는 방법을 알아보세요. |
 | [접미사 없이 대체 가져오기](./get-substitution-without-suffixes/) | 이 튜토리얼에서는 Aspose.Words for .NET을 사용하여 Word 문서에서 접미사 없는 재정의를 얻는 방법을 알아봅니다. |
+| [C#에서 DOCX 로드하는 방법 – 완전 가이드](./how-to-load-docx-in-c-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 DOCX 파일을 로드하고 처리하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴 감지 – 경고 및 설정 처리](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aspose.Words에서 글꼴을 감지하고 경고와 설정을 관리하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴을 캡처하는 방법 – 완전 가이드](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 문서에서 사용된 글꼴을 캡처하고 관리하는 방법을 단계별로 안내합니다. |
 | [DOCX 로드 및 누락된 글꼴 감지 – 완전 C# 가이드](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Aspose.Words for .NET을 사용해 DOCX 파일을 로드하고 누락된 글꼴을 감지하는 방법을 단계별 C# 가이드로 제공합니다. |

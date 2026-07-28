@@ -45,6 +45,8 @@
 | [تحديث آخر خاصية مطبوعة في مستند PDF](./update-last-printed-property/) |تعرف على كيفية تحديث آخر خاصية مطبوعة في مستند PDF باستخدام Aspose.Words لـ .NET من خلال دليلنا خطوة بخطوة. |
 | [عرض تأثيرات DML 3D ثلاثية الأبعاد في مستند PDF](./dml-3deffects-rendering/) |تعرف على كيفية تقديم تأثيرات DML ثلاثية الأبعاد المذهلة في مستندات PDF باستخدام Aspose.Words for .NET باستخدام هذا الدليل الشامل خطوة بخطوة. |
 | [استيفاء الصور في مستند PDF](./interpolate-images/) | تعلّم كيفية دمج الصور في مستند PDF باستخدام Aspose.Words for .NET من خلال دليلنا المفصل. حسّن جودة صور ملف PDF بسهولة. |
+| [حفظ مستند Word كملف PDF باستخدام Aspose Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) |دليل شامل خطوة بخطوة لتحويل مستندات Word إلى PDF باستخدام Aspose.Words مع مثال كامل بلغة C#. |
+
 | [حفظ ملف docx كـ pdf باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | دليل شامل خطوة بخطوة لتحويل ملفات docx إلى pdf باستخدام Aspose.Words في بيئة C#. |
 | [إنشاء ملف PDF يمكن الوصول إليه من Word باستخدام C# – دليل خطوة بخطوة](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words وC# باتباع دليلنا التفصيلي خطوة بخطوة. |
 | [إنشاء ملف PDF قابل للوصول في C# – دليل إمكانية الوصول إلى PDF](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير WCAG باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |

@@ -27,6 +27,7 @@ Díky těmto tutoriálům budete schopni plně využít funkce Aspose.Words pro 
 | [Přidání oboustranných značek v dokumentu Word](./add-bidi-marks/) | Naučte se v tomto průvodci, jak přidávat obousměrné (Bidi) značky do dokumentů Wordu pomocí Aspose.Words pro .NET. Zajistěte správný směr textu pro vícejazyčný obsah. |
 | [Použít tabulátor na úroveň pro odsazení seznamu](./use-tab-character-per-level-for-list-indentation/) | Naučte se, jak vytvářet víceúrovňové seznamy s odsazením pomocí tabulátorů pomocí Aspose.Words pro .NET. Pro přesné formátování seznamů ve vašich dokumentech postupujte podle tohoto návodu. |
 | [Použijte mezeru na úroveň pro odsazení seznamu](./use-space-character-per-level-for-list-indentation/) | Naučte se, jak v Aspose.Words pro .NET vytvářet víceúrovňové seznamy s odsazením mezer. Podrobný návod pro přesné formátování dokumentů. |
+| [Převod docx na txt – Kompletní průvodce ukládáním Wordu jako prostý text](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Naučte se, jak převést soubory DOCX na prostý text TXT pomocí Aspose.Words pro .NET. |
 | [Uložení dokumentu jako TXT – Kompletní průvodce C# pro převod DOCX na prostý text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Naučte se, jak pomocí Aspose.Words pro .NET převést soubory DOCX do formátu TXT pomocí kompletního C# průvodce. |
 | [Uložení docx jako txt – Rychlý průvodce pro vývojáře C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Naučte se rychle převést soubory DOCX do formátu TXT pomocí Aspose.Words pro .NET v C#. |
 

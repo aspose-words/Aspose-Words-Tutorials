@@ -58,6 +58,12 @@
 
 ### [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-complete-guide-with-image-extractio/)
+
+### [تصدير docx إلى markdown في C# – دليل كامل](./export-docx-to-markdown-in-c-complete-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
