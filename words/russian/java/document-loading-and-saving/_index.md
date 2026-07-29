@@ -88,6 +88,9 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Работа с параметрами загрузки в Aspose.Words for Java](./using-load-options/)
 Освоение параметров загрузки в Aspose.Words for Java. Настройте загрузку документов, работайте с шифрованием, конвертируйте фигуры, задавайте версии Word и многое другое для эффективной обработки документов на Java.
 
+### [Настройка LoadOptions для Big5 — Полное руководство по Java с Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Узнайте, как настроить LoadOptions для кодировки Big5 в Java с Aspose.Words, включая примеры кода и лучшие практики.
+
 ### [Настройка параметров загрузки RTF в Aspose.Words for Java](./configuring-rtf-load-options/)
 Настройка параметров загрузки RTF в Aspose.Words for Java. Узнайте, как распознавать UTF‑8 текст в RTF‑документах. Пошаговое руководство с примерами кода.
 

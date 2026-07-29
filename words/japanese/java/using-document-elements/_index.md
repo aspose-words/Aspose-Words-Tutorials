@@ -67,10 +67,14 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
 ### [Aspose.Words for Java での OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
 Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使い方を学びましょう。インタラクティブなドキュメントを簡単に作成できます。今すぐ始めましょう！
+### [Aspose.Words for Java でボタンサイズを設定し、WordにActiveXコマンドボタンを挿入](./set-button-size-java-insert-activex-command-button-in-word/)
+Aspose.Words for Javaを使用して、ActiveXコマンドボタンのサイズを設定し、Word文書に挿入する手順を学びます。
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [Aspose.Words を使用した Java での円グラフ挿入 – 完全ガイド](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Aspose.Words for Java を使って円グラフを文書に挿入し、カスタマイズする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

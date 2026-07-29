@@ -88,8 +88,11 @@ Impara a caricare e salvare documenti HTML in Java usando Aspose.Words per Java.
 ### [Lavorare con le Opzioni di Caricamento in Aspose.Words per Java](./using-load-options/)
 Padroneggia le Load Options in Aspose.Words per Java. Personalizza il caricamento dei documenti, gestisci la crittografia, converti forme, imposta versioni Word e molto altro per una gestione efficiente dei documenti Java.
 
+### [Configurare LoadOptions per Big5 – Guida Java completa con Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Scopri come impostare le LoadOptions per la codifica Big5 in Java con Aspose.Words, includendo esempi pratici e configurazioni avanzate.
+
 ### [Configurare le Opzioni di Caricamento RTF in Aspose.Words per Java](./configuring-rtf-load-options/)
-Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑passo con esempi di codice.
+Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑step con esempi di codice.
 
 ### [Caricamento di File di Testo con Aspose.Words per Java](./loading-text-files/)
 Sblocca la potenza di Aspose.Words per Java. Impara a caricare documenti di testo, gestire elenchi, spazi e direzione del testo.
@@ -119,16 +122,16 @@ Impara a salvare documenti in formato ODT usando Aspose.Words per Java. Garantis
 Impara a salvare documenti in formato OOXML con Aspose.Words per Java. Sicuro, ottimizzato e personalizzabile senza sforzo.
 
 ### [Salvataggio di Documenti in Formato PCL in Aspose.Words per Java](./saving-documents-as-pcl-format/)
-Impara a salvare documenti in formato PCL usando Aspose.Words per Java. Guida passo‑per‑passo ed esempi di codice per una conversione efficiente.
+Impara a salvare documenti in formato PCL usando Aspose.Words per Java. Guida passo‑per‑step ed esempi di codice per una conversione efficiente.
 
 ### [Salvataggio di Documenti come PDF in Aspose.Words per Java](./saving-documents-as-pdf/)
 Impara a salvare documenti Word come PDF usando Aspose.Words per Java. Personalizza caratteri, proprietà e qualità delle immagini. Guida completa per la conversione PDF.
 
 ### [Salvataggio di Documenti in Formato RTF in Aspose.Words per Java](./saving-documents-as-rtf-format/)
-Impara a salvare documenti in formato RTF usando Aspose.Words per Java. Guida passo‑per‑passo con codice sorgente per una conversione efficiente.
+Impara a salvare documenti in formato RTF usando Aspose.Words per Java. Guida passo‑per‑step con codice sorgente per una conversione efficiente.
 
 ### [Salvataggio di Documenti come File di Testo in Aspose.Words per Java](./saving-documents-as-text-files/)
-Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la nostra guida passo‑per‑passo con esempi di codice Java.
+Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la nostra guida passo‑per‑step con esempi di codice Java.
 
 ### [Determinare il Formato del Documento in Aspose.Words per Java](./determining-document-format/)
 Impara a rilevare i formati dei documenti in Java con Aspose.Words. Identifica DOC, DOCX e altri. Organizza i file in modo efficiente.

@@ -104,6 +104,8 @@ Odemkněte sílu Aspose.Words pro Javu. Zvládněte možnosti a nastavení dokum
 Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tutoriálu se naučte pracovat s vlastnostmi dokumentu, přidávat vlastní metadata a další.
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
 Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
+### [Vytvoření Word dokumentu v Javě – Kompletní průvodce s Aspose.Words](./create-word-document-in-java-full-guide-with-aspose-words/)
+Naučte se krok za krokem, jak vytvořit Word dokument v Javě pomocí Aspose.Words, včetně ukázek kódu a nastavení.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

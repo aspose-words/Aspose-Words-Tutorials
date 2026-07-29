@@ -37,6 +37,12 @@
 ### [إنشاء مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 تعلم كيفية إضافة شكل مستطيل بظل إلى مستند Word باستخدام Aspose.Words for Java
 
+### [إنشاء مستند Word في Java – دليل Aspose.Words الكامل للأشكال](./create-word-document-with-shapes-in-java-complete-aspose-wor/)
+دليل شامل لإنشاء مستندات Word وإضافة الأشكال باستخدام Aspose.Words for Java
+
+### [كيفية إخفاء صورة في Word باستخدام Java – دليل خطوة بخطوة](./how-to-hide-picture-in-word-with-java-step-by-step-guide/)
+تعلم كيفية إخفاء صورة في مستند Word باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

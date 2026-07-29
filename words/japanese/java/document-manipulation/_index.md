@@ -103,7 +103,9 @@ Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメン�
 ### [Aspose.Words for Java でのドキュメント プロパティの使用](./using-document-properties/)
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
 ### [Aspose.Words for Java での Web 拡張機能の使用](./using-web-extensions/)
-Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。 
+Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。
+### [JavaでWord文書を作成 – Aspose.Words 完全ガイド](./create-word-document-in-java-full-guide-with-aspose-words/)
+Aspose.Words を使用して、Java で新しい Word 文書を作成し、テキストや画像を追加する方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 的載入選項](./using-load-options/)
 
+### [設定 Big5 載入選項 – 完整 Java 指南與 Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+
 ### [設定 Aspose.Words for Java 的 RTF 載入選項](./configuring-rtf-load-options/)
 
 ### [使用 Aspose.Words for Java 載入文字檔案](./loading-text-files/)

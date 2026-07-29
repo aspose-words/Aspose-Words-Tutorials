@@ -62,6 +62,9 @@ Aspose.Words 為上述每項任務提供專屬類別：
 ### [精通 Aspose.Words Java&#58; LayoutCollector 與 LayoutEnumerator 完整指南（文字處理）](./aspose-words-java-layoutcollector-enumerator-guide/)
 發掘 Aspose.Words Java 的 **LayoutCollector** 與 **LayoutEnumerator** 在進階文字處理中的威力。學習如何有效管理文件版面、分析分頁，並控制頁碼。
 
+### [建立空白 Word 文件並加入雷達圖 – Java 指南](./create-blank-word-document-and-add-a-radar-chart-java-guide/)
+說明如何在 Java 中使用 Aspose.Words 建立空白 Word 文件，並插入雷達圖以視覺化資料。
+
 ## 常見使用情境
 
 | 情境 | 如何協助 |

@@ -64,6 +64,9 @@ Aprenda a gerenciar e inserir **control characters** em documentos usando Aspose
 ### [Domine Aspose.Words Java: Um Guia Completo de LayoutCollector e LayoutEnumerator para Processamento de Texto](./aspose-words-java-layoutcollector-enumerator-guide/)
 Desbloqueie o poder do **LayoutCollector** e **LayoutEnumerator** do Aspose.Words Java para processamento avançado de texto. Aprenda a gerenciar eficientemente layouts de documentos, analisar paginação e controlar a numeração de páginas.
 
+### [Criar Documento Word em Branco e Adicionar um Gráfico Radar – Guia Java](./create-blank-word-document-and-add-a-radar-chart-java-guide/)
+Aprenda a criar um documento Word vazio e inserir um gráfico radar usando Aspose.Words para Java.
+
 ## Common Use Cases
 
 | Cenário | Como Ajuda |

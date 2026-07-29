@@ -29,13 +29,19 @@ Aspose.Words for Java를 사용하여 이미지 및 도형 작업에 대한 포�
 ## 사용 가능한 튜토리얼
 
 ### [Aspose.Words 콜백을 사용한 Java에서 사용자 정의 페이지 및 이미지 저장](./aspose-words-java-callback-custom-savings/)
-Aspose.Words Java에 대한 코드 튜토리얼
+Aspose.Words Java에 대한 코드 튜얼리얼
 
 ### [Aspose.Words for Java를 사용하여 문서 페이지를 썸네일로 렌더링하는 방법](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사용자 지정 크기 비트맵을 생성하는 방법을 알아보세요. 지금 바로 문서 처리 능력을 향상시키세요.
 
 ### [Java에서 Word 문서 만들기 – 그림자 효과가 있는 사각형 도형 추가](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Java를 사용해 Word 문서에 그림자 효과가 적용된 사각형 도형을 삽입하는 방법을 단계별로 안내합니다.
+
+### [Java에서 도형을 사용해 Word 문서 만들기 – 완전한 Aspose.Words 가이드](./create-word-document-with-shapes-in-java-complete-aspose-wor/)
+Java와 Aspose.Words를 활용해 다양한 도형을 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다.
+
+### [Java를 사용하여 Word에서 그림을 숨기는 방법 – 단계별 가이드](./how-to-hide-picture-in-word-with-java-step-by-step-guide/)
+Java와 Aspose.Words를 사용해 Word 문서에서 그림을 숨기는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

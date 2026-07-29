@@ -24,7 +24,7 @@ Než se ponoříme do tutoriálů, je nezbytné pochopit koncept prvků dokument
 
 ## Přístup k prvkům dokumentu a manipulace s nimi
 
-Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňují programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
+Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňuje programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
 
 ## Vytváření dynamických dokumentů
 
@@ -36,7 +36,7 @@ Díky těmto tutoriálům se nejen naučíte základy manipulace s prvky dokumen
 
 ## Začněte ještě dnes
 
-Jste připraveni začít? Přejděte na [Dokumentace k Aspose.Words pro Java API](https://reference.aspose.com/words/java/) pro přístup k komplexní dokumentaci. Najdete zde podrobná vysvětlení, ukázky kódu a reference API, které vás provedou všemi aspekty manipulace s prvky dokumentu.
+Jste připraveni začít? Přejděte na [Dokumentace k Aspose.Words pro Java API](https://reference.aspose.com/words/java/) pro přístup k komplexní dokumentaci. Najdete zde podrobné vysvětlení, ukázky kódu a reference API, které vás provedou všemi aspekty manipulace s prvky dokumentu.
 
 Závěrem lze říci, že zvládnutí manipulace s prvky dokumentů pomocí Aspose.Words pro Javu je cennou dovedností pro každého vývojáře v Javě, který pracuje s dokumenty. Tyto tutoriály poskytují jasnou a strukturovanou cestu, která vám pomůže stát se v této oblasti zdatným. Vyhrňte si tedy rukávy, pusťte se do tutoriálů a odemkněte plný potenciál Aspose.Words pro Javu ve vašich projektech zpracování dokumentů.
 
@@ -71,6 +71,10 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Nastavení velikosti tlačítka v Javě – Vložení ActiveX příkazového tlačítka do Wordu](./set-button-size-java-insert-activex-command-button-in-word/)
+Naučte se, jak nastavit velikost ActiveX příkazového tlačítka ve Wordu pomocí Aspose.Words pro Javu.
+### [Vložení koláčového grafu v Javě s Aspose.Words – Kompletní průvodce](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit koláčový graf do dokumentu Word a přizpůsobit jeho vzhled.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
