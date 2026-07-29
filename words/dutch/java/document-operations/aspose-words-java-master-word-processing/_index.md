@@ -182,14 +182,6 @@ Je hebt nu een stevige basis voor **how to load word** documenten met Aspose.Wor
 - Verken de `DocumentBuilder`‑API om programmatic rijkere inhoud te creëren.  
 - Integreer de code in een microservice die door gebruikers geüploade Word‑bestanden verwerkt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Bronnen
 - [Documentatie](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words voor Java](https://releases.aspose.com/words/java/)
@@ -201,3 +193,11 @@ Je hebt nu een stevige basis voor **how to load word** documenten met Aspose.Wor
 **Laatst bijgewerkt:** 2026-02-06  
 **Getest met:** Aspose.Words voor Java 25.3  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

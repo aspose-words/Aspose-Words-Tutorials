@@ -224,20 +224,6 @@ Her görüntü sıralı bir dosya adı ve doğru dosya uzantısıyla kaydedilir.
 - Sık işlenen dosya tipleri için `FileFormatInfo` sonuçlarını önbelleğe alın.  
 - Büyük dosyalarla çalışırken `Document` nesnelerini zamanında serbest bırakıp belleği boşaltın.
 
-## SSS Bölümü
-
-**S1: Aspose.Words’da desteklenmeyen dosya formatları nasıl ele alınır?**  
-C1: Önce `FileFormatUtil` ile desteklenen formatları tespit edin; desteklenmeyen tipler için özel bir ayrıştırıcıya geçin veya dosyayı reddedin.
-
-**S2: Aspose.Words büyük belgeleri verimli bir şekilde işleyebilir mi?**  
-C2: Evet, ancak JVM yığın ayarlarını yapılandırın ve çok büyük dosyalar için akış (streaming) API’lerini değerlendirin.
-
-**S3: Dijital imzalar tespit edilirken yaygın tuzaklar nelerdir?**  
-C3: İmzalayan sertifika zincirinin güvenilir olduğundan ve gerekli BouncyCastle kütüphanelerinin sınıf yolunda bulunduğundan emin olun.
-
-**S4: Aspose.Words’u mevcut bir Maven projesine nasıl entegre ederim?**  
-C5: Daha önce gösterilen Maven bağımlılığını ekleyin, lisans dosyanızı sınıf yoluna yerleştirin ve projeyi yeniden derleyin.
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.Words şifre‑korumalı (encrypted) Word dosyalarını destekliyor mu?**  

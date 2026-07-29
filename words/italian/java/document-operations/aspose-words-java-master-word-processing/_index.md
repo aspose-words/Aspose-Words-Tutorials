@@ -181,14 +181,6 @@ Ora possiedi una solida base per **come caricare word** documenti usando Aspose.
 - Esplora l'API `DocumentBuilder` per creare contenuti più ricchi in modo programmatico.  
 - Integra il codice in un microservizio che elabora file Word caricati dagli utenti.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Risorse
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Ora possiedi una solida base per **come caricare word** documenti usando Aspose.
 **Ultimo aggiornamento:** 2026-02-06  
 **Testato con:** Aspose.Words for Java 25.3  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

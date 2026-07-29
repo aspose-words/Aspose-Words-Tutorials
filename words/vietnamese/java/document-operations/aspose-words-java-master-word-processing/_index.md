@@ -181,14 +181,6 @@ Bạn đã có nền tảng vững chắc để **cách tải word** tài liệu
 - Khám phá API `DocumentBuilder` để tạo nội dung phong phú hơn một cách lập trình.  
 - Tích hợp mã vào một microservice xử lý các tệp Word do người dùng tải lên.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Tài nguyên
 - [Tài liệu](https://reference.aspose.com/words/java/)
 - [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Bạn đã có nền tảng vững chắc để **cách tải word** tài liệu
 **Cập nhật lần cuối:** 2026-02-06  
 **Kiểm tra với:** Aspose.Words cho Java 25.3  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -178,14 +178,6 @@ A: 自早期版本即已支援密碼；最新版本 (25.3) 亦包含效能提升
 - 探索 `DocumentBuilder` API，以程式方式建立更豐富的內容。  
 - 將程式碼整合至處理使用者上傳 Word 檔案的微服務中。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 資源
 - [文件說明](https://reference.aspose.com/words/java/)
 - [下載 Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -197,3 +189,11 @@ A: 自早期版本即已支援密碼；最新版本 (25.3) 亦包含效能提升
 **最後更新：** 2026-02-06  
 **測試環境：** Aspose.Words for Java 25.3  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

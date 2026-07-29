@@ -21,11 +21,11 @@ weight: 1
 
 # Aspose.Words for Java के साथ डिजिटल सिग्नेचर को सत्यापित करें और अपवाद एवं फ़ॉर्मेट को संभालें
 
-## Introduction
+## इंट्रोडक्शन
 
 क्या आपको Word दस्तावेज़ों पर **डिजिटल सिग्नेचर** को **सत्यापित** करने की आवश्यकता है, साथ ही भ्रष्ट फ़ाइलों को संभालना, एन्कोडिंग का पता लगाना, या एम्बेडेड इमेज निकालना है? **Aspose.Words for Java** के साथ, आप इन सभी चुनौतियों को एक ही साफ़ API में हल कर सकते हैं। यह ट्यूटोरियल आपको `FileCorruptedException` को पकड़ने, फ़ाइल एन्कोडिंग का पता लगाने, मीडिया टाइप को मैप करने, एन्क्रिप्शन की जाँच करने, डिजिटल सिग्नेचर को सत्यापित करने, पता किए गए फ़ॉर्मेट को ऑटो‑सेव करने, और Word फ़ाइलों से इमेज निकालने के माध्यम से ले जाएगा।
 
-**What you'll learn**
+**आप क्या सीखेंगे**
 
 - Java में फ़ाइल‑भ्रष्टाचार अपवाद को पकड़ें और संभालें।  
 - **detect file encoding java** को HTML या टेक्स्ट दस्तावेज़ों के लिए पता लगाएँ।  
@@ -36,21 +36,21 @@ weight: 1
 
 आइए कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपका विकास पर्यावरण तैयार है।
 
-## Quick Answers
+## क्विक जवाब
 - **डिजिटल सिग्नेचर को कैसे सत्यापित करें?** `FileFormatUtil.detectFileFormat(...).hasDigitalSignature()` का उपयोग करें।  
 - **कौन सा अपवाद भ्रष्ट फ़ाइल को दर्शाता है?** `FileCorruptedException`।  
 - **क्या Aspose.Words HTML एन्कोडिंग का पता लगा सकता है?** हाँ, `FileFormatUtil.detectFileFormat` के माध्यम से।  
 - **क्या अज्ञात एक्सटेंशन वाली दस्तावेज़ को ऑटो‑सेव करने का तरीका है?** पता किए गए लोड फ़ॉर्मेट को `FileFormatUtil.loadFormatToSaveFormat` से सहेजने के फ़ॉर्मेट में बदलें।  
 - **Word फ़ाइल से इमेज कैसे निकालें?** `Shape` नोड्स पर इटरेट करें और `shape.getImageData().save(...)` को कॉल करें।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
 - Java Development Kit (JDK) 8 या बाद का।  
 - बुनियादी Java ज्ञान, विशेषकर अपवाद हैंडलिंग।  
 - डिपेंडेंसी मैनेजमेंट के लिए Maven या Gradle।
 
-### Required Libraries and Environment Setup
-Add Aspose.Words to your project:
+### ज़रूरी लाइब्रेरी और एनवायरनमेंट सेटअप
+अपने प्रोजेक्ट में Aspose.Words जोड़ें:
 
 ```xml
 <dependency>
@@ -64,12 +64,12 @@ Add Aspose.Words to your project:
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### License Acquisition Steps
+### लाइसेंस पाने के स्टेप्स
 खरीदारी से पहले पूर्ण फीचर सेट अनलॉक करने के लिए एक फ्री ट्रायल से शुरू करें या अस्थायी लाइसेंस का अनुरोध करें।
 
-## Setting Up Aspose.Words
+## Aspose.Words सेट अप करना
 
-Initialize the library and apply your license:
+लाइब्रेरी को इनिशियलाइज़ करें और अपना लाइसेंस अप्लाई करें:
 
 ```java
 import com.aspose.words.License;
@@ -80,12 +80,12 @@ license.setLicense("Aspose.Words.lic");
 
 अब आप मूल्यांकन सीमाओं के बिना पूर्ण API का उपयोग करने के लिए तैयार हैं।
 
-## Implementation Guide
+## इम्प्लीमेंटेशन गाइड
 
-### How to handle FileCorruptedException in Java
+### Java में FileCorruptedException को कैसे हैंडल करें
 
-**Overview**  
-Gracefully handling corrupted input prevents your application from crashing.
+**ओवरव्यू**
+करप्टेड इनपुट को अच्छे से हैंडल करने से आपका एप्लिकेशन क्रैश नहीं होगा।
 
 ```java
 import com.aspose.words.Document;
@@ -100,10 +100,10 @@ try {
 
 कैच ब्लॉक त्रुटि को लॉग करता है, जिससे आपको उपयोगकर्ता को सूचित करने या अलग फ़ाइल के साथ पुनः प्रयास करने का अवसर मिलता है।
 
-### How to detect file encoding java
+### java में फ़ाइल एन्कोडिंग का पता कैसे लगाएं
 
-**Overview**  
-Correctly detecting an HTML file’s encoding ensures characters render as intended.
+**ओवरव्यू**
+HTML फ़ाइल की एन्कोडिंग का सही पता लगाने से यह पक्का होता है कि कैरेक्टर वैसे ही रेंडर हों जैसा सोचा गया है।
 
 ```java
 import com.aspose.words.FileFormatInfo;
@@ -116,10 +116,10 @@ System.out.println("Encoding: " + (info.getEncoding() != null ? info.getEncoding
 
 यह स्निपेट दोनों, पता किए गए लोड फ़ॉर्मेट और कैरेक्टर एन्कोडिंग को प्रिंट करता है।
 
-### How to detect file format java
+### फ़ाइल फ़ॉर्मेट java का पता कैसे लगाएं
 
-**Overview**  
-Mapping a MIME type (media type) to Aspose’s internal format simplifies content‑type handling.
+**ओवरव्यू**
+Aspose के इंटरनल फ़ॉर्मेट में MIME टाइप (मीडिया टाइप) को मैप करने से कंटेंट-टाइप हैंडलिंग आसान हो जाती है।
 
 ```java
 import com.aspose.words.FileFormatUtil;
@@ -130,10 +130,10 @@ System.out.println("Save Format: " + info.getLoadFormat());
 
 जब आप HTTP के माध्यम से फ़ाइलें प्राप्त करते हैं और तय करना होता है कि उन्हें कैसे प्रोसेस करना है, तब यह रूपांतरण उपयोगी होता है।
 
-### How to detect document encryption
+### डॉक्यूमेंट एन्क्रिप्शन का पता कैसे लगाएं
 
-**Overview**  
-Knowing whether a document is encrypted lets you decide whether to prompt for a password.
+**ओवरव्यू**
+यह जानना कि कोई डॉक्यूमेंट एन्क्रिप्टेड है या नहीं, आपको यह तय करने में मदद करता है कि पासवर्ड के लिए प्रॉम्प्ट करना है या नहीं।
 
 ```java
 import com.aspose.words.Document;
@@ -150,10 +150,10 @@ System.out.println("Is Encrypted: " + info.isEncrypted());
 
 कोड पहले एक एन्क्रिप्टेड ODT फ़ाइल बनाता है, फिर उसकी एन्क्रिप्टेड स्थिति को सत्यापित करता है।
 
-### How to verify digital signature
+### डिजिटल सिग्नेचर को वेरिफ़ाई कैसे करें
 
-**Overview**  
-Verifying a digital signature confirms a document’s authenticity and integrity.
+**ओवरव्यू**
+डिजिटल सिग्नेचर को वेरिफ़ाई करने से डॉक्यूमेंट के ऑथेंटिसिटी और इंटीग्रिटी की पुष्टि होती है।
 
 ```java
 import com.aspose.words.FileFormatInfo;
@@ -165,10 +165,10 @@ System.out.println("Has Digital Signature: " + info.hasDigitalSignature());
 
 यदि `hasDigitalSignature()` `true` लौटाता है, तो दस्तावेज़ में एक वैध सिग्नेचर मौजूद है।
 
-### Saving Documents to Detected Formats
+### डिटेक्टेड फ़ॉर्मेट में डॉक्यूमेंट सेव करना
 
-**Overview**  
-Automatically saving a document in its native format streamlines batch‑processing pipelines.
+**ओवरव्यू**
+किसी डॉक्यूमेंट को उसके नेटिव फ़ॉर्मेट में ऑटोमैटिकली सेव करने से बैच-प्रोसेसिंग पाइपलाइन आसान हो जाती हैं।
 
 ```java
 import com.aspose.words.Document;
@@ -184,10 +184,10 @@ doc.save("YOUR_OUTPUT_DIRECTORY/Detected_Format.docx", saveFormat);
 
 भले ही फ़ाइल एक्सटेंशन न हो, Aspose.Words सही फ़ॉर्मेट निर्धारित कर सकता है और उसे उचित रूप से सहेज सकता है।
 
-### How to extract images from word
+### वर्ड से इमेज कैसे निकालें
 
-**Overview**  
-Extracting embedded images enables reuse in web pages, galleries, or data‑analysis projects.
+**ओवरव्यू**
+एम्बेडेड इमेज निकालने से वेब पेज, गैलरी या डेटा-एनालिसिस प्रोजेक्ट में दोबारा इस्तेमाल किया जा सकता है।
 
 ```java
 import com.aspose.words.Document;
@@ -210,7 +210,7 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 प्रत्येक इमेज को क्रमिक फ़ाइलनाम और सही फ़ाइल एक्सटेंशन के साथ सहेजा जाता है।
 
-## Practical Applications
+## प्रैक्टिकल एप्लीकेशन
 
 1. **डॉक्यूमेंट वैलिडेशन सर्विसेज** – साझेदारों से फ़ाइलें स्वीकार करने से पहले भ्रष्टाचार, एन्क्रिप्शन और सिग्नेचर का पता लगाएँ।  
 2. **कंटेंट मैनेजमेंट सिस्टम (CMS)** – अपलोड को सुगम बनाने के लिए मीडिया टाइप और एन्कोडिंग को ऑटो‑डिटेक्ट करें।  
@@ -218,30 +218,13 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 4. **डेटा‑एक्सट्रैक्शन पाइपलाइन** – अनुबंधों, रिपोर्टों या मार्केटिंग सामग्री से इमेज निकालें और संग्रहित करें।  
 5. **ऑटोमेटेड रिपोर्टिंग** – उत्पन्न रिपोर्टों को उसी फ़ॉर्मेट में सहेजें जिसमें वे मूल रूप से बनाए गए थे, भले ही एक्सटेंशन न हो।
 
-## Performance Considerations
+## परफॉर्मेंस से जुड़ी बातें
 
 - अनावश्यक try/catch ओवरहेड से बचने के लिए लक्षित अपवाद हैंडलिंग का उपयोग करें।  
 - बार‑बार प्रोसेस किए जाने वाले फ़ाइल टाइप्स के लिए `FileFormatInfo` परिणामों को कैश करें।  
 - बड़ी फ़ाइलों को संभालते समय मेमोरी मुक्त करने के लिए `Document` ऑब्जेक्ट्स को तुरंत रिलीज़ करें।
 
-## FAQ Section
-
-**Q1: Aspose.Words में असमर्थित फ़ाइल फ़ॉर्मेट को कैसे संभालें?**  
-A1: पहले `FileFormatUtil` का उपयोग करके समर्थित फ़ॉर्मेट का पता लगाएँ; असमर्थित प्रकारों के लिए कस्टम पार्सर का उपयोग करें या फ़ाइल को अस्वीकार करें।
-
-**Q2: क्या Aspose.Words बड़े दस्तावेज़ों को कुशलता से प्रोसेस कर सकता है?**  
-A2: हाँ, लेकिन JVM हीप सेटिंग्स को ट्यून करें और बहुत बड़े फ़ाइलों के लिए स्ट्रीमिंग API पर विचार करें।
-
-**Q3: डिजिटल सिग्नेचर का पता लगाते समय सामान्य pitfalls क्या हैं?**  
-A3: सुनिश्चित करें कि साइनिंग सर्टिफ़िकेट चेन विश्वसनीय है और आवश्यक BouncyCastle लाइब्रेरी क्लासपाथ में मौजूद हैं।
-
-**Q4: मौजूदा Maven प्रोजेक्ट में Aspose.Words को कैसे इंटीग्रेट करें?**  
-A4: पहले दिखाए गए Maven डिपेंडेंसी को जोड़ें, लाइसेंस फ़ाइल को क्लासपाथ में रखें, और प्रोजेक्ट को रीबिल्ड करें।
-
-**Q5: इमेज एक्सट्रैक्शन प्रदर्शन में कोई सीमा है?**  
-A5: सामान्य दस्तावेज़ों के लिए एक्सट्रैक्शन तेज़ है; अत्यधिक इमेज‑भारी फ़ाइलों को अतिरिक्त मेमोरी ट्यूनिंग की आवश्यकता हो सकती है।
-
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या Aspose.Words पासवर्ड‑प्रोटेक्टेड (एन्क्रिप्टेड) Word फ़ाइलों को सपोर्ट करता है?**  
 A: हाँ। दस्तावेज़ को उपयुक्त पासवर्ड के साथ लोड करें या डिक्रिप्शन पैरामीटर निर्दिष्ट करने के लिए `LoadOptions` का उपयोग करें।
@@ -258,7 +241,7 @@ A: PNG, JPEG, BMP, GIF, TIFF, और EMF `shape.getImageData().getImageType()` �
 **Q: क्या प्रत्येक Aspose प्रोडक्ट के लिए अलग लाइसेंस चाहिए?**  
 A: हाँ, प्रत्येक Aspose लाइब्रेरी (Words, PDF, Cells आदि) को अपना अलग लाइसेंस फ़ाइल चाहिए।
 
-## Resources
+## रिसोर्स
 
 - **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 - **Download:** [Aspose.Words Java Releases](https://releases.aspose.com/words/java/)

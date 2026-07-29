@@ -181,14 +181,6 @@ Anda kini memiliki dasar yang kuat untuk **cara memuat word** menggunakan Aspose
 - Jelajahi API `DocumentBuilder` untuk membuat konten yang lebih kaya secara programatik.  
 - Integrasikan kode ke dalam microservice yang memproses file Word yang diunggah pengguna.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sumber Daya
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Anda kini memiliki dasar yang kuat untuk **cara memuat word** menggunakan Aspose
 **Terakhir Diperbarui:** 2026-02-06  
 **Diuji Dengan:** Aspose.Words for Java 25.3  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

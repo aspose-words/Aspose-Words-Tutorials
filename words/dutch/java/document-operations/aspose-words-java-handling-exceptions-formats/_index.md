@@ -224,23 +224,6 @@ Elke afbeelding wordt opgeslagen met een opeenvolgende bestandsnaam en de juiste
 - Cache `FileFormatInfo`‑resultaten voor vaak verwerkte bestandstypen.  
 - Maak `Document`‑objecten snel vrij om geheugen vrij te maken bij het verwerken van grote bestanden.
 
-## FAQ‑sectie
-
-**Q1: Hoe ga ik om met niet‑ondersteunde bestandsformaten in Aspose.Words?**  
-**A1:** Gebruik `FileFormatUtil` om eerst ondersteunde formaten te detecteren; voor niet‑ondersteunde types kun je terugvallen op een aangepaste parser of het bestand weigeren.
-
-**Q2: Kan Aspose.Words grote documenten efficiënt verwerken?**  
-**A2:** Ja, maar pas de JVM‑heap‑instellingen aan en overweeg streaming‑API’s voor zeer grote bestanden.
-
-**Q3: Wat zijn veelvoorkomende valkuilen bij het detecteren van digital signatures?**  
-**A3:** Zorg ervoor dat de ondertekenings‑certificaatketen vertrouwd is en dat de vereiste BouncyCastle‑bibliotheken op het classpath staan.
-
-**Q4: Hoe integreer ik Aspose.Words in een bestaand Maven‑project?**  
-**A4:** Voeg de eerder getoonde Maven‑dependency toe, plaats je licentiebestand op het classpath en bouw het project opnieuw.
-
-**Q5: Zijn er limieten aan de prestaties van afbeeldingsextractie?**  
-**A5:** Extractie is snel voor typische documenten; extreem beeld‑zware bestanden kunnen extra geheugen‑afstemming vereisen.
-
 ## Veelgestelde vragen
 
 **Q:** Ondersteunt Aspose.Words wachtwoord‑beveiligde (versleutelde) Word‑bestanden?  

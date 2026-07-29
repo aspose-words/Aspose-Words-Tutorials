@@ -43,15 +43,14 @@ Word फ़ाइल को PostScript में कनवर्ट करने
 - **Built‑in book‑fold support** बुकलेट‑स्टाइल PDF या प्रिंट बनाने को सरल बनाता है।  
 - **Fast performance** बड़े दस्तावेज़ों के लिए स्ट्रीमिंग API के साथ तेज़ प्रदर्शन।  
 
-## Prerequisites
+## ज़रूरी शर्तें
 
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
-
-- **Aspose.Words for Java**: संस्करण 25.3 या बाद का।  
-- **Java Development Kit (JDK)**: संगत संस्करण स्थापित हो।  
+शुरू करने से पहले यह पक्का करें कि आपके पास ये हैं:
+- **Aspose.Words for Java**: वर्शन 25.3 या बाद का।
+- **Java Development Kit (JDK)**: संगत वर्शन स्थापित हो।
 - **Integrated Development Environment (IDE)**: जैसे IntelliJ IDEA या Eclipse।
 
-### Required Libraries and Dependencies
+### ज़रूरी लाइब्रेरी और डिपेंडेंसी
 
 अपने प्रोजेक्ट में Aspose.Words शामिल करने के लिए, नीचे दिखाए अनुसार डिपेंडेंसी जोड़ें:
 
@@ -69,11 +68,11 @@ Word फ़ाइल को PostScript में कनवर्ट करने
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-## How to set options for book fold printing?
+## बुक फोल्ड प्रिंटिंग के लिए ऑप्शन कैसे सेट करें?
 
-Aspose.Words एक सेट सेव‑ऑप्शन प्रदान करता है जिससे आप आउटपुट को बारीकी से ट्यून कर सकते हैं। बुकलेट निर्माण के लिए मुख्य प्रॉपर्टी `useBookFoldPrintingSettings` है। इसे सक्षम करने पर, Aspose.Words स्वचालित रूप से पेजों को इस तरह व्यवस्थित करता है कि मोड़ने के बाद दस्तावेज़ सही क्रम में पढ़ा जा सके।
+Aspose.Words एक सेट सेव-ऑप्शंस देता है जिससे आप आउटपुट को फोल्ड से ट्यून कर सकते हैं। बुकलेट बनाने के लिए मेन प्रॉपर्टी `useBookFoldPrintingSettings` है। इसे करने में मदद करने पर, Aspose.Words ऑटोमैटिक रूप से पेजों को इस तरह से ऑर्गनाइज़ करता है कि मोड़ने के बाद डॉक्यूमेंट सही क्रम में पढ़ा जा सके।
 
-## Setting Up Aspose.Words
+## Aspose.Words सेट अप करना
 
 अपने जावा प्रोजेक्ट में Aspose.Words को एकीकृत करने के लिए इन चरणों का पालन करें:
 
@@ -94,9 +93,9 @@ public class InitializeAsposeWords {
 }
 ```
 
-## Step-by-Step Implementation
+## स्टेप-बाय-स्टेप इम्प्लीमेंटेशन
 
-### Loading the Word Document
+### वर्ड डॉक्यूमेंट लोड करना
 
 Word दस्तावेज़ को Aspose.Words `Document` ऑब्जेक्ट में लोड करें:
 
@@ -107,7 +106,7 @@ String myDir = "YOUR_DOCUMENT_DIRECTORY/";
 Document doc = new Document(myDir + "Paragraphs.docx");
 ```
 
-### Configuring PostScript Save Options
+### पोस्टस्क्रिप्ट सेव ऑप्शन कॉन्फ़िगर करना
 
 `PsSaveOptions` को कॉन्फ़िगर करें ताकि दस्तावेज़ PostScript फ़ॉर्मेट में आउटपुट हो और बुक फोल्ड प्रिंटिंग सेटिंग्स सक्षम हों:
 
@@ -120,7 +119,7 @@ saveOptions.setSaveFormat(SaveFormat.PS);
 saveOptions.setUseBookFoldPrintingSettings(true);
 ```
 
-### Applying Book Fold Settings
+### बुक फोल्ड सेटिंग्स लागू करना
 
 प्रत्येक दस्तावेज़ सेक्शन पर बुक फोल्ड सेटिंग्स लागू करने के लिए इटररेट करें:
 
@@ -133,7 +132,7 @@ for (Section section : doc.getSections()) {
 }
 ```
 
-### Saving the Document
+### डॉक्यूमेंट सेव करना
 
 बुक फोल्ड सेटिंग्स और PostScript आउटपुट के साथ दस्तावेज़ को सेव करें:
 
@@ -142,7 +141,7 @@ String artifactsDir = "YOUR_OUTPUT_DIRECTORY/";
 doc.save(artifactsDir + "Output.ps", saveOptions);
 ```
 
-## Testing with Data Providers
+## डेटा प्रोवाइडर के साथ टेस्टिंग
 
 अपनी कॉन्फ़िगरेशन को वैध करने के लिए विभिन्न बुक फोल्ड सेटिंग्स का परीक्षण करने हेतु TestNG डेटा प्रोवाइडर लागू करें:
 
@@ -158,7 +157,7 @@ public class UseBookFoldPrintingSettingsDataProvider {
 }
 ```
 
-## Practical Applications
+## प्रैक्टिकल एप्लीकेशन
 
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को PostScript बुकलेट में कनवर्ट करने से कई लाभ मिलते हैं:
 
@@ -166,7 +165,7 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 - **Educational Institutions:** पाठ्य सामग्री को कुशलता से वितरित करें।  
 - **Event Planners:** तेज़ी से परिष्कृत इवेंट ब्रोशर तैयार करें।  
 
-## Performance Considerations
+## परफॉर्मेंस से जुड़ी बातें
 
 अपने दस्तावेज़ कनवर्ज़न प्रदर्शन को बेहतर बनाने के लिए:
 
@@ -174,7 +173,7 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 - **Efficient Coding Practices:** पूरे दस्तावेज़ को मेमोरी में लोड करने से बचने के लिए स्ट्रीम्स का उपयोग करें।  
 - **Regular Updates:** नवीनतम प्रदर्शन सुधारों का लाभ उठाने के लिए Aspose.Words को अपडेट रखें।  
 
-## Common Issues and Solutions
+## आम दिक्कतें और समाधान
 
 | समस्या | कारण | समाधान |
 |-------|-------|----------|
@@ -182,7 +181,7 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 | **लाइसेंस नहीं मिला** | `.lic` फ़ाइल का पथ गलत है | एक पूर्ण पथ का उपयोग करें या लाइसेंस फ़ाइल को क्लासपाथ में रखें और उसी अनुसार संदर्भित करें। |
 | **बड़े दस्तावेज़ों पर OutOfMemoryError** | पूरा दस्तावेज़ मेमोरी में लोड किया गया है | `Document.save(OutputStream, SaveOptions)` का उपयोग करें और जहाँ संभव हो स्ट्रीमिंग सक्षम करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
 1. **Aspose.Words for Java क्या है?**  
    Aspose.Words जावा एप्लिकेशन में Word दस्तावेज़ बनाने, संपादित करने और कनवर्ट करने के लिए एक मजबूत लाइब्रेरी है।
@@ -199,7 +198,7 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 5. **कनवर्ज़न समस्याओं का समाधान कैसे करें?**  
    विस्तृत ट्रबलशूटिंग टिप्स के लिए Aspose.Words दस्तावेज़ीकरण और कम्युनिटी फ़ोरम देखें।
 
-## Additional FAQ
+## और FAQ
 
 **Q: क्या मैं पासवर्ड‑प्रोटेक्टेड Word फ़ाइल को कनवर्ट कर सकता हूँ?**  
 A: हाँ, उपयुक्त लोड ऑप्शन के साथ पासवर्ड शामिल करके दस्तावेज़ लोड करें।
@@ -210,7 +209,7 @@ A: बिल्कुल – फ़ाइल पाथ्स के संग्
 **Q: क्या बुक‑फोल्ड सेटिंग सिंगल‑पेज सेक्शन के साथ काम करती है?**  
 A: यह सेटिंग प्रत्येक सेक्शन पर लागू होती है; बुकलेट पेजिनेशन के लिए प्रत्येक सेक्शन में सही पेज सेटअप सुनिश्चित करें।
 
-## Resources
+## रिसोर्स
 
 - [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)
 - [Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)

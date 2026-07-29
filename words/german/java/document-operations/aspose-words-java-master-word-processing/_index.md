@@ -181,14 +181,6 @@ Sie verfügen nun über ein solides Fundament für **wie man Word**‑Dokumente 
 - Erkunden Sie die `DocumentBuilder`‑API, um programmatisch reichhaltigere Inhalte zu erstellen.  
 - Integrieren Sie den Code in einen Microservice, der von Benutzern hochgeladene Word‑Dateien verarbeitet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Ressourcen
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Sie verfügen nun über ein solides Fundament für **wie man Word**‑Dokumente 
 **Zuletzt aktualisiert:** 2026-02-06  
 **Getestet mit:** Aspose.Words für Java 25.3  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

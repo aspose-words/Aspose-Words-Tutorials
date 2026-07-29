@@ -17,42 +17,42 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java를 활용한 포괄적인 HTML 기능: 개발자 가이드
+# Aspose.Words for Java를 활용한 전체인 HTML 기능: 개발자 가이드
 
-## Introduction
+## 소개
 
-문서 처리의 복잡한 세계를 탐색하는 일은 특히 다양한 HTML 기능을 다룰 때 어려울 수 있습니다. Vector Markup Language (VML) 지원, 암호화된 문서, 혹은 특정 HTML 가져오기 동작을 다루고 있든, **Aspose.Words for Java**는 강력한 솔루션을 제공합니다. 이 가이드에서는 **how to load html vml**을 효율적이고 안전하게 수행하는 방법을 배우며, **encrypt html java**, **set html base uri**, **configure html control** 옵션과 같은 관련 작업도 다룹니다.
+문서 처리의 복잡한 세계를 탐색하는 분야 중 특히 다양한 HTML 기능을 사용할 수 있는 경우가 있습니다. VML(Vector Markup Language) 지원, 메일화된 문서 또는 특정 HTML 가져오기 기능을 가지고 있음, **Aspose.Words for Java**는 강력한 솔루션을 제공합니다. 이 가이드에서는 **html vml을 로드하는 방법**을 반응하고 안전하게 활동하는 방법을 배우며, **html java 암호화**, **html 기본 uri 설정**, **html 컨트롤 구성** 옵션과 같은 관련 작업도 다뤄요.
 
-**What You'll Learn:**
+**배우게 될 내용:**
 - VML 지원이 포함된 HTML 문서를 로드하는 방법
-- 고정 페이지 HTML 및 경고 처리 기법
-- 비밀번호로 보호된 HTML 문서를 암호화하고 로드하는 방법
-- HTML Load Options에서 기본 URI 사용법
+- 고정 페이지 HTML 및 공지사항을 공지합니다.
+- 압축으로 보호된 HTML 문서를 로드하고 로드하는 방법
+- HTML 로드 옵션에서 기본 URI 활용
 - HTML 입력 요소를 구조화된 문서 태그 또는 폼 필드로 가져오기
 - HTML 로드 시 `<noscript>` 요소 무시하기
-- HTML 구조 보존을 제어하는 블록 가져오기 모드 구성
-- 사용자 지정 폰트를 위한 `@font-face` 규칙 지원
+- HTML 구조 반대를 제어하는 ​​블록 가져오기 모드 구성
+- 사용자 표기법 `@font-face` 지원 규칙
 
-## Quick Answers
-- **What is the primary way to enable VML when loading HTML?** Set `loadOptions.setSupportVml(true)`.
-- **Can I load password‑protected HTML files?** Yes, pass the password to `HtmlLoadOptions`.
-- **How do I resolve relative image paths?** Use `loadOptions.setBaseUri("your/base/uri")`.
-- **Is it possible to import `<select>` as a form field?** Set `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`.
-- **What class captures warnings during load?** Implement `IWarningCallback` and assign it to `loadOptions.setWarningCallback(...)`.
+## 빠른 답변
+- **HTML을 로드할 때 VML을 활성화하는 기본 방법은 무엇입니까?** `loadOptions.setSupportVml(true)`를 설정하세요.
+- **비밀번호로 보호된 HTML 파일을 로드할 수 있습니까?** 예, 'HtmlLoadOptions'에 비밀번호를 전달합니다.
+- **상대 이미지 경로를 어떻게 확인하나요?** `loadOptions.setBaseUri("your/base/uri")`를 사용하세요.
+- **`<select>`를 양식 필드로 가져올 수 있습니까?** `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`을 설정하세요.
+- **로드 중에 경고를 캡처하는 클래스는 무엇입니까?** 'IWarningCallback'을 구현하고 이를 'loadOptions.setWarningCallback(...)'에 할당합니다.
 
-## Prerequisites
+## 전제조건
 
-Aspose.Words for Java와 다양한 HTML 기능을 구현하기 전에 환경을 올바르게 설정했는지 확인하십시오:
+Aspose.Words for Java와 다양한 HTML을 구현하기 위해 환경을 조정하도록 확인하십시오:
 
-- **Required Libraries:** Aspose.Words 라이브러리 버전 25.3 이상이 필요합니다.
-- **Development Environment:** 이 가이드는 Maven 또는 Gradle을 사용한 의존성 관리를 전제로 합니다.
-- **Knowledge Base:** Java 기본 지식과 HTML 문서에 대한 이해가 있으면 도움이 됩니다.
+- **필수 라이브러리:** Aspose.Words 서버 버전 25.3이 필요합니다.
+- **개발 환경:** 이 가이드는 Maven 또는 Gradle을 사용하여 의존성을 관리해야 합니다.
+- **지식 기반:** Java 기본 지식과 HTML 문서에 대한 이해가 필요하면 도움이 됩니다.
 
-## Setting Up Aspose.Words
+## Aspose.Words 설정
 
-Aspose.Words를 프로젝트에 포함하려면 먼저 라이브러리를 설정해야 합니다. 아래는 Maven과 Gradle을 이용한 설정 방법입니다.
+Aspose.Words를 프로젝트에 참여하려면 먼저 준비해야 합니다. 아래는 Maven과 Gradle을 이용한 설정 방법입니다.
 
-### Maven
+### 메이븐
 
 `pom.xml` 파일에 다음 의존성을 추가하십시오:
 
@@ -72,7 +72,7 @@ Aspose.Words를 프로젝트에 포함하려면 먼저 라이브러리를 설정
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### License Acquisition
+#### 라이선스 취득
 
 Aspose.Words는 전체 기능을 사용하려면 라이선스가 필요합니다. 무료 체험판을 받거나 임시 라이선스를 요청하거나 영구 라이선스를 구매할 수 있습니다. 자세한 내용은 [purchase page](https://purchase.aspose.com/buy)를 방문하십시오.
 
@@ -91,18 +91,18 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
+## 구현 가이드
 
-우리는 구현하고자 하는 기능별로 섹션을 나누어 설명합니다.
+우리는 존재하고자 하는 기능을 섹션을 나누어 설명합니다.
 
-### How to load html vml with Aspose.Words
+### Aspose.Words를 사용하여 html vml을 로드하는 방법
 
-**Overview:**  
-VML 지원이 포함된 HTML 문서를 로드하면 차트와 도형 같은 벡터 그래픽을 다양하게 렌더링할 수 있습니다. 이는 핵심 키워드 **load html vml**에 해당하는 핵심 단계입니다.
+**개요:**
+VML 지원이 포함된 HTML 문서를 로드하면 차트와 도형 같은 벡터 그래픽을 범위 있게 저장할 수 있습니다. 핵심 키워드 **load html vml**에 해당하는 핵심 단계입니다.
 
-#### Step‑by‑step
+#### 단계별
 
-1. **Set Up Load Options**
+1. **로드 옵션 설정**
 
 ```java
 import com.aspose.words.Document;
@@ -112,13 +112,13 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 loadOptions.setSupportVml(true); // Enable VML support
 ```
 
-2. **Load the Document**
+2. **문서 로드**
 
 ```java
 Document doc = new Document("path/to/VML conditional.htm", loadOptions);
 ```
 
-3. **Verify Image Type**
+3. **이미지 유형 확인**
 
 ```java
 import com.aspose.words.NodeType;
@@ -132,14 +132,14 @@ if (!imageShape.getImageData().getImageType().toString().equals(expectedImageTyp
 }
 ```
 
-### Load HTML Fixed and Handle Warnings
+### HTML 수정 로드 및 경고 처리
 
-**Overview:**  
-고정 페이지 HTML 문서를 로드하면 정확한 처리를 위해 관리해야 할 경고가 발생할 수 있습니다.
+**개요:**
+고정된 페이지의 HTML 문서를 로드하면 처리를 위해 관리해야 할 일이 발생할 수 있습니다.
 
-#### Step‑by‑step
+#### 단계별
 
-1. **Define Warning Callback**
+1. **경고 콜백 정의**
 
 ```java
 import com.aspose.words.IWarningCallback;
@@ -157,7 +157,7 @@ private static class ListDocumentWarnings implements IWarningCallback {
 }
 ```
 
-2. **Configure Load Options**
+2. **로드 옵션 구성**
 
 ```java
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
@@ -165,7 +165,7 @@ ListDocumentWarnings warningCallback = new ListDocumentWarnings();
 loadOptions.setWarningCallback(warningCallback);
 ```
 
-3. **Load Document and Check Warnings**
+3. **문서 로드 및 경고 확인**
 
 ```java
 Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
@@ -175,14 +175,14 @@ if (warningCallback.warnings().size() != 1) {
 }
 ```
 
-### Encrypt HTML Documents
+### HTML 문서 암호화
 
-**Overview:**  
-HTML 문서를 비밀번호로 암호화하면 민감한 정보를 안전하게 보호할 수 있습니다—이는 **encrypt html java** 시나리오에 해당합니다.
+**개요:**
+HTML 문서를 포그로 라이브러리에 추가하면 안전하게 보호할 수 있습니다. 이는 **encrypt html java**에 해당됩니다.
 
-#### Step‑by‑step
+#### 단계별
 
-1. **Prepare Digital Signature Options**
+1. **디지털 서명 옵션 준비**
 
 ```java
 import com.aspose.words.CertificateHolder;
@@ -196,7 +196,7 @@ signOptions.setSignTime(new Date());
 signOptions.setDecryptionPassword("docPassword");
 ```
 
-2. **Sign and Encrypt Document**
+2. **문서 서명 및 암호화**
 
 ```java
 String inputFileName = "path/to/Encrypted.docx";
@@ -205,7 +205,7 @@ String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.
 DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
-3. **Load Encrypted Document**
+3. **암호화된 문서 로드**
 
 ```java
 import com.aspose.words.Document;
@@ -218,20 +218,20 @@ if (!doc.getText().trim().equals("Test encrypted document.")) {
 }
 ```
 
-### Base URI for HTML Load Options
+### HTML 로드 옵션의 기본 URI
 
-**Overview:**  
-**set html base uri**를 지정하면 이미지나 기타 연결된 리소스의 상대 URI를 올바르게 해석할 수 있습니다.
+**개요:**
+**set html base uri**를 지정하면 이미지나 기타 연결 위치의 상대 URI를 고정할 수 있습니다.
 
-#### Step‑by‑step
+#### 단계별
 
-1. **Configure Load Options with Base URI**
+1. **기본 URI로 로드 옵션 구성**
 
 ```java
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
 ```
 
-2. **Load Document and Verify Image**
+2. **문서 로드 및 이미지 확인**
 
 ```java
 import com.aspose.words.Document;
@@ -245,14 +245,14 @@ if (!imageShape.isImage()) {
 }
 ```
 
-### Import HTML Select as Structured Document Tag
+### HTML 가져오기 구조화된 문서 태그로 선택
 
-**Overview:**  
-**configure html control** 동작을 조정하려면 `<select>` 요소를 Structured Document Tag로 가져와 Word 문서 내 폼 필드를 보다 세밀하게 제어할 수 있습니다.
+**개요:**
+**html 컨트롤 구성** 동작을 조정하려면 `<select>` 요소를 구조화된 문서 태그로 연결하세요. Word 문서 내 폼 필드를 보다 세밀하게 제어할 수 있습니다.
 
-#### Step‑by‑step
+#### 단계별
 
-1. **Set Preferred Control Type**
+1. **선호하는 제어 유형 설정**
 
 ```java
 import com.aspose.words.HtmlLoadOptions;
@@ -262,7 +262,7 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
 ```
 
-2. **Load Document and Verify Structure**
+2. **문서 로드 및 구조 확인**
 
 ```java
 import com.aspose.words.Document;
@@ -277,38 +277,38 @@ if (!sdt.getTagName().equals("Select")) {
 }
 ```
 
-## Common Issues and Solutions
+## 일반적인 문제 및 해결 방법
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| VML graphics not appearing | `supportVml` 플래그가 기본값(`false`)으로 남아 있음 | 로드하기 전에 `loadOptions.setSupportVml(true)`를 설정하십시오. |
-| Images missing after load | 상대 경로를 해석할 수 없음 | **set html base uri**(`loadOptions.setBaseUri(...)`)를 사용해 올바른 폴더를 지정하십시오. |
-| Password‑protected HTML throws exception | 비밀번호가 제공되지 않음 | `new HtmlLoadOptions("yourPassword")`에 비밀번호를 전달하십시오. |
-| Form controls appear as plain text | 잘못된 `HtmlControlType` 설정 | 필요에 따라 `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` 또는 `FormField`로 설정하십시오. |
-| Unexpected warnings | 처리되지 않은 HTML 요소 | `IWarningCallback`을 구현하여 경고를 캡처하고 검토하십시오. |
+| 이슈 | 이유 | 수정 |
+|-------|---------|-----|
+| VML 그래픽이 나타나지 않음 | `supportVml` 호출이 있습니다(`false`)로 남아 있습니다 | 로드하기 전에 `loadOptions.setSupportVml(true)`를 설정하시기 바랍니다. |
+| 로드 후 이미지 누락 | 별칭을 해석할 수 없습니다 | **set html base uri**(`loadOptions.setBaseUri(...)`)를 사용하여 사용자를 폴더를 보호하십시오. |
+| 비밀번호로 보호된 HTML에서 예외가 발생함 | 포스틱을 제공하지 않는 경우 | `new HtmlLoadOptions("yourPassword")`에 포스틱을 전달해주세요. |
+| 양식 컨트롤이 일반 텍스트로 나타납니다 | 잘못된 `HtmlControlType` 설정 | 필요에 따라 `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` 또는 `FormField`로 설정하십시오. |
+| 예상치 못한 경고 | 처리되지 않은 HTML 요소 | `IWarningCallback`을 구현하여 경고를 캡처하고 확인하십시오.
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
-**Q: Can I load HTML files that contain both VML and modern SVG graphics?**  
-A: Yes. Enable VML with `setSupportVml(true)`; SVG is handled automatically by Aspose.Words.
+**Q: VML과 최신 SVG 그래픽이 모두 포함된 HTML 파일을 로드할 수 있습니까?**
+A: 예. `setSupportVml(true)`를 사용하여 VML을 활성화하면 Aspose.Words에서 SVG를 자동으로 처리합니다.
 
-**Q: How do I encrypt an HTML document without using a digital certificate?**  
-A: Use the `HtmlLoadOptions` constructor that accepts a password and save the document with `Document.save(..., SaveFormat.HTML)` after setting the password.
+**Q: 디지털 인증서를 사용하지 않고 HTML 문서를 암호화하려면 어떻게 해야 합니까?**
+A: 암호를 허용하는 `HtmlLoadOptions` 생성자를 사용하고 암호를 설정한 후 `Document.save(..., SaveFormat.HTML)`로 문서를 저장하십시오.
 
-**Q: What happens if the base URI points to a non‑existent folder?**  
-A: Aspose.Words will throw a `FileNotFoundException` for missing resources. Verify the path before loading.
+**Q: 기본 URI가 존재하지 않는 폴더를 가리키면 어떻게 됩니까?**
+A: Aspose.Words는 누락된 리소스에 대해 `FileNotFoundException`을 발생시킵니다. 로드하기 전에 경로를 확인하십시오.
 
-**Q: Is it possible to change the default control type for all HTML form elements?**  
-A: Yes. Use `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` to apply it globally.
+**Q: 모든 HTML 폼 요소의 기본 컨트롤 유형을 변경할 수 있습니까?**
+A: 예. `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`를 사용하여 전역적으로 적용할 수 있습니다.
 
-**Q: Are warning callbacks thread‑safe?**  
-A: The callback implementation should be thread‑safe if you plan to load documents concurrently. Use synchronized collections or thread‑local storage.
+**질문: 경고 콜백은 스레드 안전한가요?**
+답변: 문서를 동시에 로드할 계획이라면 콜백 구현은 스레드 안전해야 합니다. 동기화된 컬렉션이나 스레드 로컬 스토리지를 사용하세요.
 
 ---
 
-**Last Updated:** 2026-02-06  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose  
+**최종 업데이트:** 2026년 2월 6일
+**테스트 환경:** Aspose.Words for Java 25.3
+**작성자:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

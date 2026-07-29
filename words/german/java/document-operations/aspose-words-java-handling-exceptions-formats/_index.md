@@ -224,23 +224,6 @@ Jedes Bild wird mit einem fortlaufenden Dateinamen und der richtigen Dateierweit
 - Cachen Sie `FileFormatInfo`‑Ergebnisse für häufig verarbeitete Dateitypen.  
 - Geben Sie `Document`‑Objekte zeitnah frei, um Speicher bei großen Dateien zu schonen.
 
-## FAQ‑Abschnitt
-
-**F1: Wie gehe ich mit nicht unterstützten Dateiformaten in Aspose.Words um?**  
-A1: Nutzen Sie `FileFormatUtil`, um zuerst unterstützte Formate zu erkennen; bei nicht unterstützten Typen greifen Sie auf einen benutzerdefinierten Parser zurück oder lehnen die Datei ab.
-
-**F2: Kann Aspose.Words große Dokumente effizient verarbeiten?**  
-A2: Ja, passen Sie jedoch die JVM‑Heap‑Einstellungen an und erwägen Sie Streaming‑APIs für sehr große Dateien.
-
-**F3: Welche häufigen Stolperfallen gibt es beim Erkennen digitaler Signaturen?**  
-A3: Stellen Sie sicher, dass die Zertifikatskette vertrauenswürdig ist und die erforderlichen BouncyCastle‑Bibliotheken im Klassenpfad liegen.
-
-**F4: Wie integriere ich Aspose.Words in ein bestehendes Maven‑Projekt?**  
-A4: Fügen Sie die zuvor gezeigte Maven‑Abhängigkeit hinzu, platzieren Sie Ihre Lizenzdatei im Klassenpfad und bauen Sie das Projekt neu.
-
-**F5: Gibt es Grenzen bei der Performance der Bildextraktion?**  
-A5: Die Extraktion ist für typische Dokumente schnell; extrem bildlastige Dateien können zusätzlichen Speicherbedarf erfordern.
-
 ## Häufig gestellte Fragen
 
 **F: Unterstützt Aspose.Words passwortgeschützte (verschlüsselte) Word‑Dateien?**  

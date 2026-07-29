@@ -180,14 +180,6 @@ A: パスワードサポートは初期リリースから提供されており�
 - `DocumentBuilder` API を活用し、プログラムでリッチコンテンツを生成してください。  
 - ユーザーがアップロードした Word ファイルを処理するマイクロサービスにコードを統合しましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## リソース
 - [ドキュメンテーション](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java のダウンロード](https://releases.aspose.com/words/java/)
@@ -199,3 +191,11 @@ A: パスワードサポートは初期リリースから提供されており�
 **最終更新日:** 2026-02-06  
 **テスト環境:** Aspose.Words for Java 25.3  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

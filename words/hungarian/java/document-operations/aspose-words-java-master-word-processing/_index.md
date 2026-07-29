@@ -181,14 +181,6 @@ Most már szilárd alapokkal rendelkezel a **how to load word** dokumentumok has
 - Fedezd fel a `DocumentBuilder` API‑t, hogy gazdagabb tartalmat hozz létre programozottan.  
 - Integráld a kódot egy mikro‑szolgáltatásba, amely a felhasználók által feltöltött Word fájlokat dolgozza fel.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Források
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Most már szilárd alapokkal rendelkezel a **how to load word** dokumentumok has
 **Utoljára frissítve:** 2026-02-06  
 **Tesztelve:** Aspose.Words for Java 25.3  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

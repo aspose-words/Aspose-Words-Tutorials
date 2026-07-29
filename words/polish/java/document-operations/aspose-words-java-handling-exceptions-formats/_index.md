@@ -224,23 +224,6 @@ Każdy obraz jest zapisywany z kolejno numerowaną nazwą pliku i właściwym ro
 - Cache'uj wyniki `FileFormatInfo` dla często przetwarzanych typów plików.  
 - Zwalniaj obiekty `Document` niezwłocznie, aby zwolnić pamięć przy obsłudze dużych plików.
 
-## Sekcja FAQ
-
-**Q1: Jak obsłużyć nieobsługiwane formaty plików w Aspose.Words?**  
-A1: Użyj `FileFormatUtil`, aby najpierw wykryć obsługiwane formaty; dla nieobsługiwanych typów, przejdź do własnego parsera lub odrzuć plik.
-
-**Q2: Czy Aspose.Words może efektywnie przetwarzać duże dokumenty?**  
-A2: Tak, ale dostosuj ustawienia pamięci JVM i rozważ użycie API strumieniowych dla bardzo dużych plików.
-
-**Q3: Jakie są typowe pułapki przy wykrywaniu podpisów cyfrowych?**  
-A3: Upewnij się, że łańcuch certyfikatów podpisujących jest zaufany oraz że wymagane biblioteki BouncyCastle znajdują się na ścieżce klas.
-
-**Q4: Jak zintegrować Aspose.Words z istniejącym projektem Maven?**  
-A4: Dodaj zależność Maven przedstawioną wcześniej, umieść plik licencji w classpath i przebuduj projekt.
-
-**Q5: Czy istnieją ograniczenia wydajności przy wyodrębnianiu obrazów?**  
-A5: Wyodrębnianie jest szybkie dla typowych dokumentów; bardzo obrazoburze pliki mogą wymagać dodatkowego dostrojenia pamięci.
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy Aspose.Words obsługuje pliki Word chronione hasłem (zaszyfrowane)?**  

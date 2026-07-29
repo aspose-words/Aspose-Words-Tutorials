@@ -20,11 +20,11 @@ weight: 1
 
 # Aspose.Words for Java के साथ व्यापक HTML सुविधाएँ: एक डेवलपर गाइड
 
-## Introduction
+## इंट्रोडक्शन
 
 दस्तावेज़ प्रोसेसिंग की जटिल दुनिया में नेविगेट करना कठिन हो सकता है, विशेष रूप से जब विभिन्न HTML सुविधाओं को संभालना हो। चाहे आप Vector Markup Language (VML) सपोर्ट, एन्क्रिप्टेड दस्तावेज़, या विशिष्ट HTML इम्पोर्ट व्यवहारों से निपट रहे हों, **Aspose.Words for Java** एक मजबूत समाधान प्रदान करता है। इस गाइड में, आप **how to load html vml** को कुशलता और सुरक्षा के साथ सीखेंगे, साथ ही संबंधित कार्यों जैसे **encrypt html java**, **set html base uri**, और **configure html control** विकल्पों को भी कवर करेंगे।
 
-**What You'll Learn:**
+**आप क्या सीखेंगे:**
 - VML सपोर्ट के साथ HTML दस्तावेज़ कैसे लोड करें।
 - फिक्स्ड‑पेज HTML और वार्निंग्स को संभालने की तकनीकें।
 - पासवर्ड‑प्रोटेक्टेड HTML दस्तावेज़ को एन्क्रिप्ट करने और लोड करने के तरीके।
@@ -34,14 +34,14 @@ weight: 1
 - HTML संरचना संरक्षण को नियंत्रित करने के लिए ब्लॉक इम्पोर्ट मोड्स को कॉन्फ़िगर करना।
 - कस्टम फ़ॉन्ट्स के लिए `@font-face` नियमों का समर्थन।
 
-## Quick Answers
-- **What is the primary way to enable VML when loading HTML?** Set `loadOptions.setSupportVml(true)`.
-- **Can I load password‑protected HTML files?** Yes, pass the password to `HtmlLoadOptions`.
-- **How do I resolve relative image paths?** Use `loadOptions.setBaseUri("your/base/uri")`.
-- **Is it possible to import `<select>` as a form field?** Set `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)`.
-- **What class captures warnings during load?** Implement `IWarningCallback` and assign it to `loadOptions.setWarningCallback(...)`.
+## क्विक जवाब
+- **HTML लोड करते समय VML को इनेबल करने का मेन तरीका क्या है?** `loadOptions.setSupportVml(true)` सेट करें।
+- **क्या मैं पासवर्ड से प्रोटेक्टेड HTML फ़ाइलें लोड कर सकता हूँ?** हाँ, पासवर्ड `HtmlLoadOptions` को दें।
+- **मैं रिलेटिव इमेज पाथ को कैसे रिज़ॉल्व करूँ?** `loadOptions.setBaseUri("your/base/uri")` का इस्तेमाल करें।
+- **क्या `<select>` को फ़ॉर्म फ़ील्ड के तौर पर इंपोर्ट करना पॉसिबल है?** `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` सेट करें।
+- **लोड के दौरान कौन सी क्लास वॉर्निंग कैप्चर करती है?** `IWarningCallback` को इम्प्लीमेंट करें और इसे `loadOptions.setWarningCallback(...)` को असाइन करें।
 
-## Prerequisites
+## ज़रूरी शर्तें
 
 Aspose.Words for Java के साथ विभिन्न HTML सुविधाओं को लागू करने से पहले, सुनिश्चित करें कि आपका पर्यावरण सही ढंग से सेट अप है:
 
@@ -49,7 +49,7 @@ Aspose.Words for Java के साथ विभिन्न HTML सुवि�
 - **Development Environment:** यह गाइड मानता है कि आप निर्भरता प्रबंधन के लिए Maven या Gradle का उपयोग कर रहे हैं।
 - **Knowledge Base:** Java की बुनियादी समझ और HTML दस्तावेज़ों की परिचितता उपयोगी होगी।
 
-## Setting Up Aspose.Words
+## Aspose.Words सेट अप करना
 
 Aspose.Words के साथ काम शुरू करने के लिए, पहले इसे अपने प्रोजेक्ट में शामिल करें। नीचे Maven और Gradle का उपयोग करके लाइब्रेरी सेट अप करने के चरण दिए गए हैं:
 
@@ -73,7 +73,7 @@ Aspose.Words के साथ काम शुरू करने के लि�
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### License Acquisition
+#### लाइसेंस लेना
 
 Aspose.Words को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप एक फ्री ट्रायल प्राप्त कर सकते हैं, अस्थायी लाइसेंस का अनुरोध कर सकते हैं, या स्थायी लाइसेंस खरीद सकते हैं। अधिक विवरण के लिए [purchase page](https://purchase.aspose.com/buy) देखें।
 
@@ -92,18 +92,18 @@ public class InitializeAspose {
 }
 ```
 
-## Implementation Guide
+## इम्प्लीमेंटेशन गाइड
 
 हम कार्यान्वयन को उन सुविधाओं के आधार पर सेक्शन में विभाजित करेंगे जिन्हें हम लागू करना चाहते हैं।
 
-### How to load html vml with Aspose.Words
+### Aspose.Words के साथ html vml कैसे लोड करें
 
-**Overview:**  
+**ओवरव्यू:** 
 VML सपोर्ट के साथ HTML दस्तावेज़ लोड करने से चार्ट और शैप्स जैसे वेक्टर ग्राफ़िक्स का लचीला रेंडरिंग संभव होता है। यह मुख्य कीवर्ड **load html vml** के लिए मूल कदम है।
 
-#### Step‑by‑step
+#### स्टेप-बाय-स्टेप
 
-1. **Set Up Load Options**
+1. **लोड ऑप्शन सेट अप करें**
 
 ```java
 import com.aspose.words.Document;
@@ -113,13 +113,13 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 loadOptions.setSupportVml(true); // Enable VML support
 ```
 
-2. **Load the Document**
+2. **डॉक्यूमेंट लोड करें**
 
 ```java
 Document doc = new Document("path/to/VML conditional.htm", loadOptions);
 ```
 
-3. **Verify Image Type**
+3. **इमेज टाइप वेरिफ़ाई करें**
 
 ```java
 import com.aspose.words.NodeType;
@@ -133,14 +133,14 @@ if (!imageShape.getImageData().getImageType().toString().equals(expectedImageTyp
 }
 ```
 
-### Load HTML Fixed and Handle Warnings
+### HTML Fixed लोड करें और वॉर्निंग हैंडल करें
 
-**Overview:**  
+**ओवरव्यू:**
 फिक्स्ड‑पेज HTML दस्तावेज़ लोड करने से ऐसी वार्निंग्स उत्पन्न हो सकती हैं जिन्हें सटीक प्रोसेसिंग के लिए प्रबंधित करना आवश्यक है।
 
-#### Step‑by‑step
+#### स्टेप-बाय-स्टेप
 
-1. **Define Warning Callback**
+1. **वॉर्निंग कॉलबैक डिफाइन करें**
 
 ```java
 import com.aspose.words.IWarningCallback;
@@ -158,7 +158,7 @@ private static class ListDocumentWarnings implements IWarningCallback {
 }
 ```
 
-2. **Configure Load Options**
+2. **लोड ऑप्शन कॉन्फ़िगर करें**
 
 ```java
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
@@ -166,7 +166,7 @@ ListDocumentWarnings warningCallback = new ListDocumentWarnings();
 loadOptions.setWarningCallback(warningCallback);
 ```
 
-3. **Load Document and Check Warnings**
+3. **डॉक्यूमेंट लोड करें और वॉर्निंग चेक करें**
 
 ```java
 Document doc = new Document("path/to/HtmlFixed.html", loadOptions);
@@ -176,14 +176,14 @@ if (warningCallback.warnings().size() != 1) {
 }
 ```
 
-### Encrypt HTML Documents
+### HTML डॉक्यूमेंट्स एन्क्रिप्ट करें
 
-**Overview:**  
+**ओवरव्यू:**  
 HTML दस्तावेज़ को पासवर्ड के साथ एन्क्रिप्ट करने से सुरक्षित एक्सेस सुनिश्चित होता है, जो संवेदनशील जानकारी के लिए आवश्यक है—यह **encrypt html java** परिदृश्य को संबोधित करता है।
 
-#### Step‑by‑step
+#### स्टेप-बाय-स्टेप
 
-1. **Prepare Digital Signature Options**
+1. **डिजिटल सिग्नेचर ऑप्शन तैयार करें**
 
 ```java
 import com.aspose.words.CertificateHolder;
@@ -197,7 +197,7 @@ signOptions.setSignTime(new Date());
 signOptions.setDecryptionPassword("docPassword");
 ```
 
-2. **Sign and Encrypt Document**
+2. **डॉक्यूमेंट पर साइन करें और एन्क्रिप्ट करें**
 
 ```java
 String inputFileName = "path/to/Encrypted.docx";
@@ -206,7 +206,7 @@ String outputFileName = "path/to/output/directory/HtmlLoadOptions.EncryptedHtml.
 DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
 ```
 
-3. **Load Encrypted Document**
+3. **एन्क्रिप्टेड डॉक्यूमेंट लोड करें**
 
 ```java
 import com.aspose.words.Document;
@@ -219,20 +219,20 @@ if (!doc.getText().trim().equals("Test encrypted document.")) {
 }
 ```
 
-### Base URI for HTML Load Options
+### HTML लोड ऑप्शन के लिए बेस URI
 
-**Overview:**  
+**ओवरव्यू:**  
 **set html base uri** निर्दिष्ट करने से रिलेटिव URI हल होते हैं, विशेषकर जब इमेज या अन्य लिंक्ड रिसोर्सेज़ की बात आती है।
 
-#### Step‑by‑step
+#### स्टेप-बाय-स्टेप
 
-1. **Configure Load Options with Base URI**
+1. **बेस URI के साथ लोड ऑप्शन कॉन्फ़िगर करें**
 
 ```java
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", "path/to/imageDir");
 ```
 
-2. **Load Document and Verify Image**
+2. **डॉक्यूमेंट लोड करें और इमेज वेरिफाई करें**
 
 ```java
 import com.aspose.words.Document;
@@ -246,14 +246,14 @@ if (!imageShape.isImage()) {
 }
 ```
 
-### Import HTML Select as Structured Document Tag
+### HTML इंपोर्ट करें स्ट्रक्चर्ड डॉक्यूमेंट टैग के तौर पर चुनें
 
-**Overview:**  
+**ओवरव्यू:** 
 **configure html control** व्यवहार को नियंत्रित करने के लिए, आप `<select>` एलिमेंट्स को Structured Document Tags के रूप में इम्पोर्ट कर सकते हैं, जिससे Word दस्तावेज़ में फ़ॉर्म फ़ील्ड्स पर अधिक नियंत्रण मिलता है।
 
-#### Step‑by‑step
+#### स्टेप-बाय-स्टेप
 
-1. **Set Preferred Control Type**
+1. **पसंदीदा कंट्रोल टाइप सेट करें**
 
 ```java
 import com.aspose.words.HtmlLoadOptions;
@@ -263,7 +263,7 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag);
 ```
 
-2. **Load Document and Verify Structure**
+2. **डॉक्यूमेंट लोड करें और स्ट्रक्चर वेरिफाई करें**
 
 ```java
 import com.aspose.words.Document;
@@ -278,17 +278,17 @@ if (!sdt.getTagName().equals("Select")) {
 }
 ```
 
-## Common Issues and Solutions
+## आम दिक्कतें और समाधान
 
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| VML graphics not appearing | `supportVml` फ़्लैग डिफ़ॉल्ट (`false`) पर रहता है | लोड करने से पहले `loadOptions.setSupportVml(true)` सुनिश्चित करें। |
-| Images missing after load | रिलेटिव पाथ हल नहीं हो पा रहे | सही फ़ोल्डर की ओर इशारा करने के लिए **set html base uri** (`loadOptions.setBaseUri(...)`) उपयोग करें। |
-| Password‑protected HTML throws exception | पासवर्ड प्रदान नहीं किया गया | `new HtmlLoadOptions("yourPassword")` में पासवर्ड पास करें। |
-| Form controls appear as plain text | गलत `HtmlControlType` सेट किया गया | आवश्यकतानुसार `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` या `FormField` सेट करें। |
-| Unexpected warnings | अनहैंडल्ड HTML एलिमेंट्स | वार्निंग्स को कैप्चर करने के लिए `IWarningCallback` लागू करें और रिव्यू करें। |
+| दिक्कत | कारण | ठीक करें |
+|-------|---------|-----|
+| VML ग्राफ़िक्स दिखाई नहीं दे रहे हैं | `supportVml` फ़्लैग मान्य (`false`) पर रहता है | लोड करने से पहले `loadOptions.setSupportVml(true)` सुनिश्चित करें। |
+| लोड होने के बाद इमेज गायब हैं | रिलेटिव रास्ता हल नहीं हो पा रहा है | सही फ़ोल्डर की ओर इशारा करने के लिए **set html base uri** (`loadOptions.setBaseUri(...)`) इस्तेमाल करें। |
+| पासवर्ड से सुरक्षित HTML एक्सेप्शन दे रहा है | पासवर्ड नहीं दिया गया | `new HtmlLoadOptions("yourPassword")` में पासवर्ड पास करें। |
+| फ़ॉर्म कंट्रोल सादे टेक्स्ट के रूप में दिखाई देते हैं | गलत `HtmlControlType` सेट किया गया | डेवलपर `loadOptions.setHtmlControlType(HtmlControlType.StructuredDocumentTag)` या `FormField` सेट करें। |
+| अनपेक्षित चेतावनियाँ | अनहैंडल्ड HTML एलिमेंट्स | चेतावनियों को पासवर्ड करने के लिए `IWarningCallback` लागू करें और रिव्यू करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या मैं HTML फ़ाइलें लोड कर सकता हूँ जिनमें VML और आधुनिक SVG ग्राफ़िक्स दोनों हों?**  
 A: हाँ। `setSupportVml(true)` के साथ VML सक्षम करें; SVG को Aspose.Words स्वचालित रूप से संभालता है।

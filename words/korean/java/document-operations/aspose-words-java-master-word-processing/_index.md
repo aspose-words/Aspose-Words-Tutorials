@@ -17,33 +17,39 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Load Word Documents with Aspose.Words Java
+# Aspose.Words Java로 Word 문서를 로드하는 방법
 
-**Introduction**  
-Microsoft Word 파일을 프로그래밍 방식으로 다루는 것은 특히 일반 텍스트를 추출하거나, 암호화된 파일을 처리하거나, 문서 메타데이터를 조작해야 할 때 벅차게 느껴질 수 있습니다. 이 튜토리얼에서는 Aspose.Words for Java를 사용하여 **how to load word** 문서를 효율적으로 로드하고, docx를 평문 텍스트로 변환하며, 사용자 정의 문서 속성 값을 추가하고, 심지어 **create word document java** 샘플을 처음부터 만드는 방법을 배웁니다. 끝까지 읽으면 Java 기반 문서 처리 프로젝트에 바로 사용할 수 있는 툴킷을 얻게 됩니다.
+**소개**
+Microsoft Word 파일을 프로그래밍 방식으로 이해하는 것은 특히 일반 텍스트를 추출하거나, 파일을 처리하거나, 문서 데이터를 처리해야 할 때 벅차게 느껴질 수 있습니다. 이 튜토리얼에서는 Aspose.Words for Java를 사용하여 **워드를 로드하는 방법**을 문서에 적용하고 로드하고, docx를 평문텍스트로 변형하며, 사용자 정의 문서 속성 값을 추가하고, 심지어 **워드 문서 java 만들기** 샘플을 처음부터 만드는 방법을 배웁니다. 절단면 Java 기반 문서 처리 프로젝트에 바로 사용할 수 있는 도구 키트를 사용합니다.
 
-## Quick Answers
-- **What is the easiest way to load a Word file as plain text?** Use `PlainTextDocument` with either a file path or an input stream.  
-- **Can I load password‑protected documents?** Yes—pass a `LoadOptions` instance that contains the password.  
-- **Do I need a license for basic operations?** A free trial works for development; a full license removes all limitations.  
-- **How do I add custom metadata?** Call `doc.getCustomDocumentProperties().add(...)`.  
-- **Is streaming recommended for large files?** Absolutely—streams keep memory usage low.
+## 빠른 답변
+- **Word 파일을 일반 텍스트로 로드하는 가장 쉬운 방법은 무엇입니까?** 파일 경로나 입력 스트림과 함께 `PlainTextDocument`를 사용하세요.
+- **암호로 보호된 문서를 로드할 수 있습니까?** 예 - 암호가 포함된 `LoadOptions` 인스턴스를 전달합니다.
+- **기본 작업을 하려면 라이센스가 필요합니까?** 무료 평가판은 개발에 적합합니다. 정식 라이센스는 모든 제한을 제거합니다.
+- **사용자 지정 메타데이터를 어떻게 추가하나요?** `doc.getCustomDocumentProperties().add(...)`를 호출하세요.
 
-## What is “how to load word” in Java?
-Loading a Word document means opening a `.doc` or `.docx` file, reading its contents, and optionally converting it to another format (such as plain text). Aspose.Words abstracts the complex OpenXML parsing, letting you focus on business logic rather than file internals.
+- **대용량 파일에는 스트리밍을 사용하는 것이 좋나요?** 물론입니다. 스트림은 메모리 사용량을 낮게 유지합니다.
 
-## Why use Aspose.Words for Java?
-- **Full‑featured API** – supports encryption, metadata, and conversion without external dependencies.  
-- **Cross‑platform** – works on any JVM, whether you use Maven, Gradle, or plain JARs.  
-- **Performance‑optimized** – stream‑based loading reduces memory pressure for large documents.
+## Java에서 "Word 문서를 로드하는 방법"이란 무엇인가요?
+Word 문서를 로드한다는 것은 `.doc` 또는 `.docx` 파일을 열고 내용을 읽은 다음, 선택적으로 다른 형식(예: 일반 텍스트)으로 변환하는 것을 의미합니다. Aspose.Words는 복잡한 OpenXML 구문 분석을 추상화하여 파일 내부 처리보다는 비즈니스 로직에 집중할 수 있도록 해줍니다.
 
-## Prerequisites
-- **Libraries:** Aspose.Words for Java (latest version).  
-- **Environment:** Java 8+ with Maven or Gradle support.  
-- **Knowledge:** Basic Java I/O and object‑oriented programming.
+## Java용 Aspose.Words를 사용해야 하는 이유는 무엇인가요?
 
-### Setting Up Aspose.Words
-Add the library to your build file.
+- **완전한 기능의 API** – 외부 종속성 없이 암호화, 메타데이터 및 변환을 지원합니다.
+
+- **크로스 플랫폼** – Maven, Gradle 또는 일반 JAR 파일 등 어떤 JVM에서도 작동합니다.
+
+- **성능 최적화** – 스트림 기반 로딩은 대용량 문서에 대한 메모리 부담을 줄여줍니다.
+
+## 필수 조건
+- **라이브러리:** Aspose.Words for Java(최신 버전)
+
+- **개발 환경:** Java 8 이상, Maven 또는 Gradle 지원
+
+- **지식:** 기본적인 Java I/O 및 객체 지향 프로그래밍 지식
+
+### Aspose.Words 설정
+빌드 파일에 라이브러리를 추가합니다.
 
 **Maven**
 ```xml
@@ -59,44 +65,44 @@ Add the library to your build file.
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### License Acquisition
-Start with a free trial, obtain a temporary license for extended testing, or purchase a full license to unlock all features without limitations.
+#### 라이선스 구매
+무료 평가판으로 시작하거나, 장기 테스트를 위한 임시 라이선스를 취득하거나, 모든 기능을 제한 없이 사용할 수 있는 정식 라이선스를 구매하세요.
 
-## Step‑by‑Step Guide
+## 단계별 가이드
 
-### How to Load Word Documents as Plain Text
-Below is a complete walkthrough that **creates word document java** objects, saves them, and then loads them as plain text.
+### Word 문서를 일반 텍스트로 불러오는 방법
+아래는 **Word 문서 Java** 객체를 생성하고 저장한 다음 일반 텍스트로 불러오는 전체 과정입니다.
 
-#### Step 1: Create a New Word Document
+#### 1단계: 새 Word 문서 만들기
 ```java
 Document doc = new Document();
 ```
 
-#### Step 2: Add Text Content with DocumentBuilder
+#### 2단계: DocumentBuilder를 사용하여 텍스트 콘텐츠 추가
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world!");
 ```
 
-#### Step 3: Save the Document
+#### 3단계: 문서 저장
 ```java
 String documentPath = YOUR_DOCUMENT_DIRECTORY + "PlainTextDocument.Load.docx";
 doc.save(documentPath);
 ```
 
-#### Step 4: Load as Plaintext (convert docx to plaintext)
+#### 4단계: 일반 텍스트로 불러오기(docx 파일을 일반 텍스트로 변환)
 ```java
 PlainTextDocument plaintext = new PlainTextDocument(documentPath);
 ```
 
-#### Step 5: Verify Text Content
+#### 5단계: 텍스트 콘텐츠 확인
 ```java
 String textContent = plaintext.getText().trim();
 System.out.println(textContent); 
 ```
 
-### How to Load Word Documents from a Stream
-Loading from a stream is ideal for large files or when the document resides in a database or over the network.
+### 스트림에서 Word 문서 불러오는 방법
+스트림에서 불러오는 방식은 대용량 파일이나 문서가 데이터베이스 또는 네트워크에 저장된 경우에 적합합니다.
 
 ```java
 try (FileInputStream stream = new FileInputStream(new File(documentPath))) {
@@ -104,8 +110,8 @@ try (FileInputStream stream = new FileInputStream(new File(documentPath))) {
 }
 ```
 
-### How to Load Encrypted Word Documents
-If your Word file is password‑protected, provide the password via `LoadOptions`.
+### 암호화된 Word 문서 불러오기 방법
+Word 파일이 암호로 보호되어 있는 경우, `LoadOptions`를 통해 암호를 제공하세요.
 
 ```java
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
@@ -119,7 +125,7 @@ loadOptions.setPassword("MyPassword");
 PlainTextDocument plaintext = new PlainTextDocument(documentPath, loadOptions);
 ```
 
-### How to Load Encrypted Documents from a Stream
+### 스트림에서 암호화된 문서 불러오기 방법
 ```java
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.setPassword("MyPassword");
@@ -128,57 +134,74 @@ try (FileInputStream stream = new FileInputStream(new File(documentPath))) {
 }
 ```
 
-### How to Access Built‑In Document Properties
+### 기본 제공 문서 속성에 접근하는 방법
 ```java
 doc.getBuiltInDocumentProperties().setAuthor("John Doe");
 ```
 
-### How to Add Custom Document Property
+### 사용자 지정 문서 속성 추가 방법
 ```java
 doc.getCustomDocumentProperties().add("Location of writing", "123 Main St, London, UK");
 ```
 
-## Practical Applications
-1. **Automated Report Generation** – Extract text, enrich it with custom properties, and generate summaries.  
-2. **Document Conversion Services** – Convert uploaded Word files to plain text, PDF, HTML, or other formats on the fly.  
-3. **Secure Archiving** – Store encrypted Word documents in a repository, then load them only when needed.
+## 실제 적용 사례
+1. **자동 보고서 생성** – 텍스트를 추출하고, 사용자 지정 속성을 추가하여 요약 보고서를 생성합니다.
 
-## Performance Considerations
-- **Use streams** for files larger than a few megabytes to keep memory usage low.  
-- **Batch I/O** operations when processing many documents to reduce disk overhead.  
-- **Tune encryption** only when required; unnecessary encryption adds CPU cost.
+2. **문서 변환 서비스** – 업로드된 Word 파일을 일반 텍스트, PDF, HTML 또는 기타 형식으로 즉시 변환합니다.
 
-## Common Issues & Solutions
-| Issue | Solution |
-|-------|----------|
-| `FileNotFoundException` when loading | Verify `documentPath` points to the correct location and that the file exists. |
-| Password‑related errors | Ensure the same password is used in both `OoxmlSaveOptions` and `LoadOptions`. |
-| Null output from `plaintext.getText()` | Confirm the document actually contains text and that you saved it before loading. |
+3. **보안 아카이빙** – 암호화된 Word 문서를 저장소에 저장한 후 필요할 때만 불러옵니다.
 
-## Frequently Asked Questions
+## 성능 고려 사항
+- 몇 메가바이트보다 큰 파일은 **스트림**을 사용하여 메모리 사용량을 낮게 유지합니다.
 
-**Q: Can I load a `.doc` file the same way as a `.docx`?**  
-A: Yes—`PlainTextDocument` automatically detects the format.
+- 많은 문서를 처리할 때는 **일괄 I/O** 작업을 사용하여 디스크 오버헤드를 줄입니다.
 
-**Q: Is it possible to read a Word document stored in a database BLOB?**  
-A: Absolutely. Retrieve the BLOB as an `InputStream` and pass it to the `PlainTextDocument` constructor.
+- 필요한 경우에만 **암호화**를 최적화합니다. 불필요한 암호화는 CPU 비용을 증가시킵니다.
 
-**Q: Do I need a license for the streaming API?**  
-A: The free trial works for all APIs, but a full license removes evaluation limits.
+## 일반적인 문제 및 해결 방법
+| 문제 | 해결 방법 |
 
-**Q: How do I add multiple custom properties efficiently?**  
-A: Call `doc.getCustomDocumentProperties().add(...)` for each property; you can also iterate over a map of key/value pairs.
+-------|----------|
+| 로드 시 `FileNotFoundException` 오류 발생 | `documentPath`가 올바른 위치를 가리키고 파일이 존재하는지 확인합니다. |
+| 암호 관련 오류 | `OoxmlSaveOptions`와 `LoadOptions`에 동일한 암호를 사용하고 있는지 확인하세요. |
+| `plaintext.getText()`에서 null이 출력되는 경우 | 문서에 실제로 텍스트가 포함되어 있고 로드하기 전에 저장했는지 확인하세요. |
 
-**Q: What version of Aspose.Words is required for password protection?**  
-A: Password support has been available since early releases; the latest version (25.3) includes performance improvements.
+## 자주 묻는 질문
 
-## Conclusion
-You now have a solid foundation for **how to load word** documents using Aspose.Words for Java. Whether you’re converting docx to plaintext, handling encrypted files, or enriching documents with custom metadata, these patterns will help you build robust, high‑performance Java applications.
+**질문: `.doc` 파일을 `.docx` 파일과 같은 방식으로 로드할 수 있나요?**
+답변: 네, `PlainTextDocument`는 형식을 자동으로 감지합니다.
 
-**Next Steps**  
-- Experiment with other output formats (PDF, HTML) using the same `Document` instance.  
-- Explore the `DocumentBuilder` API to create richer content programmatically.  
-- Integrate the code into a microservice that processes user‑uploaded Word files.
+**질문: 데이터베이스 BLOB에 저장된 Word 문서를 읽을 수 있나요?**
+답변: 물론입니다. BLOB을 `InputStream`으로 가져와 `PlainTextDocument` 생성자에 전달하면 됩니다.
+
+**질문: 스트리밍 API를 사용하려면 라이선스가 필요한가요?**
+답변: 무료 평가판은 모든 API에서 사용할 수 있지만, 정식 라이선스를 구매하면 평가판 사용 제한이 해제됩니다.
+
+**질문: 여러 사용자 지정 속성을 효율적으로 추가하는 방법은 무엇인가요?**
+답변: 각 속성에 대해 `doc.getCustomDocumentProperties().add(...)`를 호출하거나, 키/값 쌍으로 구성된 맵을 순회할 수 있습니다.
+
+**질문: 암호 보호를 위해 필요한 Aspose.Words 버전은 무엇인가요?**
+답변: 암호 지원은 초기 버전부터 제공되었으며, 최신 버전(25.3)에는 성능 개선 사항이 포함되어 있습니다.
+
+## 결론
+이제 Aspose.Words for Java를 사용하여 **Word** 문서를 로드하는 방법에 대한 탄탄한 기초를 다졌습니다. docx 파일을 일반 텍스트로 변환하거나, 암호화된 파일을 처리하거나, 사용자 지정 메타데이터로 문서를 보강하는 등, 이러한 패턴을 활용하면 강력하고 고성능의 Java 애플리케이션을 구축할 수 있습니다.
+
+**다음 단계**
+- 동일한 `Document` 인스턴스를 사용하여 다른 출력 형식(PDF, HTML)을 실험해 보세요.
+- `DocumentBuilder` API를 활용하여 프로그래밍 방식으로 더욱 풍부한 콘텐츠를 생성해 보세요.
+- 사용자가 업로드한 Word 파일을 처리하는 마이크로서비스에 코드를 통합합니다.
+
+## 리소스
+- [문서](https://reference.aspose.com/words/java/)
+- [Aspose.Words for Java 다운로드](https://releases.aspose.com/words/java/)
+- [라이선스 구매](https://purchase.aspose.com/buy)
+- [무료 체험판](https://www.aspose.com/downloads/words-family/java)
+
+---
+
+**최종 업데이트:** 2026년 2월 6일
+**테스트 환경:** Aspose.Words for Java 25.3
+**제작사:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -187,15 +210,3 @@ You now have a solid foundation for **how to load word** documents using Aspose.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Resources
-- [Documentation](https://reference.aspose.com/words/java/)
-- [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://www.aspose.com/downloads/words-family/java) 
-
----
-
-**Last Updated:** 2026-02-06  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose

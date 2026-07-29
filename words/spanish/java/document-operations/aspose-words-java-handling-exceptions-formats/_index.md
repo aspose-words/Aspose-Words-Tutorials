@@ -224,23 +224,6 @@ Cada imagen se guarda con un nombre de archivo secuencial y la extensión de arc
 - Cache los resultados de `FileFormatInfo` para tipos de archivo procesados con frecuencia.  
 - Libere los objetos `Document` rápidamente para liberar memoria al manejar archivos grandes.
 
-## Sección de preguntas frecuentes
-
-**P1: ¿Cómo manejo formatos de archivo no compatibles en Aspose.Words?**  
-R1: Use `FileFormatUtil` para detectar primero los formatos compatibles; para tipos no compatibles, recurra a un analizador personalizado o rechace el archivo.
-
-**P2: ¿Puede Aspose.Words procesar documentos grandes de manera eficiente?**  
-R2: Sí, pero ajuste la configuración del heap de JVM y considere las API de streaming para archivos muy grandes.
-
-**P3: ¿Cuáles son los errores comunes al detectar firmas digitales?**  
-R3: Asegúrese de que la cadena de certificados de firma sea de confianza y de que las bibliotecas BouncyCastle requeridas estén en el classpath.
-
-**P4: ¿Cómo integro Aspose.Words en un proyecto Maven existente?**  
-R4: Añada la dependencia Maven mostrada anteriormente, coloque su archivo de licencia en el classpath y reconstruya el proyecto.
-
-**P5: ¿Existen límites en el rendimiento de extracción de imágenes?**  
-R5: La extracción es rápida para documentos típicos; los archivos con una gran cantidad de imágenes pueden requerir ajustes de memoria adicionales.
-
 ## Preguntas frecuentes
 
 **P: ¿Aspose.Words admite archivos Word protegidos con contraseña (cifrados)?**  

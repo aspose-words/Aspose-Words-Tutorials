@@ -224,23 +224,6 @@ Each image is saved with a sequential filename and the correct file extension.
 - Cache `FileFormatInfo` results for frequently processed file types.  
 - Release `Document` objects promptly to free memory when handling large files.
 
-## FAQ Section
-
-**Q1: How do I handle unsupported file formats in Aspose.Words?**  
-A1: Use `FileFormatUtil` to detect supported formats first; for unsupported types, fallback to a custom parser or reject the file.
-
-**Q2: Can Aspose.Words process large documents efficiently?**  
-A2: Yes, but tune JVM heap settings and consider streaming APIs for very large files.
-
-**Q3: What are common pitfalls when detecting digital signatures?**  
-A3: Ensure the signing certificate chain is trusted and that the required BouncyCastle libraries are on the classpath.
-
-**Q4: How do I integrate Aspose.Words into an existing Maven project?**  
-A4: Add the Maven dependency shown earlier, place your license file in the classpath, and rebuild the project.
-
-**Q5: Are there limits to image extraction performance?**  
-A5: Extraction is fast for typical documents; extremely image‑heavy files may need additional memory tuning.
-
 ## Často kladené otázky
 
 **Q: Does Aspose.Words support password‑protected (encrypted) Word files?**  

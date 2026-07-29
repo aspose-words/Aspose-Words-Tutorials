@@ -182,14 +182,6 @@ Nyní máte solidní základy pro **how to load word** dokumenty pomocí Aspose.
 - Prozkoumejte API `DocumentBuilder` pro programové vytváření bohatšího obsahu.  
 - Integrajte kód do mikroservisu, který zpracovává uživateli nahrané soubory Word.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Zdroje
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -201,3 +193,11 @@ Nyní máte solidní základy pro **how to load word** dokumenty pomocí Aspose.
 **Last Updated:** 2026-02-06  
 **Tested With:** Aspose.Words for Java 25.3  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

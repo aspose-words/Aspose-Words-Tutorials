@@ -182,14 +182,6 @@ A: Η υποστήριξη κωδικού υπάρχει από τις πρώτ�
 - Εξερευνήστε το API `DocumentBuilder` για να δημιουργήσετε πιο πλούσιο περιεχόμενο προγραμματιστικά.  
 - Ενσωματώστε τον κώδικα σε μικροϋπηρεσία που επεξεργάζεται αρχεία Word που ανεβάζουν οι χρήστες.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Πόροι
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -201,3 +193,11 @@ A: Η υποστήριξη κωδικού υπάρχει από τις πρώτ�
 **Τελευταία Ενημέρωση:** 2026-02-06  
 **Δοκιμάστηκε Με:** Aspose.Words for Java 25.3  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

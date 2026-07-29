@@ -68,29 +68,29 @@ implementation 'com.aspose:aspose-words:25.3'
 ### Word दस्तावेज़ों को प्लेन टेक्स्ट के रूप में कैसे लोड करें
 नीचे एक पूर्ण walkthrough है जो **creates word document java** ऑब्जेक्ट्स बनाता है, उन्हें सहेजता है, और फिर उन्हें प्लेन टेक्स्ट के रूप में लोड करता है।
 
-#### Step 1: Create a New Word Document
+#### स्टेप 1: नया वर्ड डॉक्यूमेंट बनाएं
 ```java
 Document doc = new Document();
 ```
 
-#### Step 2: Add Text Content with DocumentBuilder
+#### स्टेप 2: डॉक्यूमेंटबिल्डर से टेक्स्ट कंटेंट जोड़ें
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.writeln("Hello world!");
 ```
 
-#### Step 3: Save the Document
+#### स्टेप 3: डॉक्यूमेंट सेव करें
 ```java
 String documentPath = YOUR_DOCUMENT_DIRECTORY + "PlainTextDocument.Load.docx";
 doc.save(documentPath);
 ```
 
-#### Step 4: Load as Plaintext (convert docx to plaintext)
+#### स्टेप 4: प्लेनटेक्स्ट के तौर पर लोड करें (docx को प्लेनटेक्स्ट में बदलें)
 ```java
 PlainTextDocument plaintext = new PlainTextDocument(documentPath);
 ```
 
-#### Step 5: Verify Text Content
+#### स्टेप 5: टेक्स्ट कंटेंट वेरिफाई करें
 ```java
 String textContent = plaintext.getText().trim();
 System.out.println(textContent); 
@@ -182,14 +182,6 @@ A: पासवर्ड समर्थन शुरुआती रिली�
 - `DocumentBuilder` API का अन्वेषण करें ताकि प्रोग्रामेटिक रूप से अधिक समृद्ध सामग्री बनाई जा सके।  
 - कोड को एक माइक्रोसर्विस में एकीकृत करें जो उपयोगकर्ता‑अपलोड किए गए Word फ़ाइलों को प्रोसेस करता है।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## संसाधन
 - [प्रलेखन](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java डाउनलोड करें](https://releases.aspose.com/words/java/)
@@ -201,3 +193,11 @@ A: पासवर्ड समर्थन शुरुआती रिली�
 **अंतिम अपडेट:** 2026-02-06  
 **परीक्षित संस्करण:** Aspose.Words for Java 25.3  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

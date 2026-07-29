@@ -224,23 +224,6 @@ Mỗi hình ảnh được lưu với tên tệp tuần tự và phần mở r�
 - Lưu vào bộ nhớ đệm kết quả `FileFormatInfo` cho các loại tệp được xử lý thường xuyên.  
 - Giải phóng các đối tượng `Document` kịp thời để giải phóng bộ nhớ khi xử lý tệp lớn.
 
-## Phần Câu hỏi thường gặp
-
-**Q1: Làm thế nào để tôi xử lý các định dạng tệp không được hỗ trợ trong Aspose.Words?**  
-A1: Sử dụng `FileFormatUtil` để phát hiện các định dạng được hỗ trợ trước; đối với các loại không được hỗ trợ, chuyển sang bộ phân tích tùy chỉnh hoặc từ chối tệp.
-
-**Q2: Aspose.Words có thể xử lý tài liệu lớn một cách hiệu quả không?**  
-A2: Có, nhưng cần điều chỉnh cài đặt heap của JVM và cân nhắc sử dụng API streaming cho các tệp rất lớn.
-
-**Q3: Những cạm bẫy phổ biến khi phát hiện chữ ký số là gì?**  
-A3: Đảm bảo chuỗi chứng chỉ ký được tin cậy và các thư viện BouncyCastle cần thiết có trong classpath.
-
-**Q4: Làm thế nào để tôi tích hợp Aspose.Words vào một dự án Maven hiện có?**  
-A4: Thêm phụ thuộc Maven đã hiển thị ở trên, đặt file giấy phép của bạn vào classpath, và xây dựng lại dự án.
-
-**Q5: Có giới hạn nào về hiệu năng khi trích xuất hình ảnh không?**  
-A5: Việc trích xuất nhanh cho các tài liệu điển hình; các tệp có rất nhiều hình ảnh có thể cần tinh chỉnh bộ nhớ thêm.
-
 ## Câu hỏi thường gặp
 
 **Q: Aspose.Words có hỗ trợ các tệp Word được bảo vệ bằng mật khẩu (được mã hoá) không?**  

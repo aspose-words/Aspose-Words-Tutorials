@@ -20,29 +20,29 @@ weight: 1
 
 了解如何輕鬆 **將 Word 轉換為 PostScript**，並使用 Aspose.Words for Java 產生專業外觀的小冊子。本步驟指南將帶您設定 Java 環境、配置必要的儲存選項，並套用摺頁列印設定，以取得高品質的輸出。
 
-## Quick Answers
+## 快速解答
 - **主要使用的函式庫是什麼？** Aspose.Words for Java  
 - **本教學的目標格式為何？** PostScript (.ps)  
 - **如何啟用摺頁列印？** 在 `PsSaveOptions` 中將 `useBookFoldPrintingSettings` 設為 `true`  
 - **需要授權嗎？** 需要，正式環境必須使用有效的 Aspose.Words 授權  
 - **可以測試不同設定嗎？** 使用 TestNG 的資料提供者切換摺頁選項
 
-## Introduction
+## 簡介
 
 從 Word 文件建立數位小冊子既具挑戰性亦能帶來成就感。藉助 Aspose.Words for Java，您可以 **快速將 Word 轉換為 PostScript**，得益於先進的摺頁設定自動處理分頁與版面配置。本指南將協助您簡化文件轉換流程、提升工作效率，並達到專業水準的成果。
 
-## What is converting a Word document to PostScript?
+## 什麼是 Word 文件轉 PostScript？
 
 將 Word 檔案轉換為 PostScript 會產生一種列印機與出版工作流程可辨識的頁面描述語言檔案。產出的 `.ps` 檔保留版面配置、字型與圖形，適合高品質列印或進一步轉換為 PDF。
 
-## Why use Aspose.Words for Java to convert Word to PostScript?
+## 為什麼要使用 Aspose.Words for Java 將 Word 文件轉換為 PostScript？
 
 - **完整控制** 輸出選項，無需安裝 Microsoft Office。  
 - **跨平台** 相容性——可在任何支援 Java 的作業系統上執行。  
 - **內建摺頁支援** 簡化小冊子式 PDF 或列印的製作。  
 - **效能快速** 透過串流 API 處理大型文件。
 
-## Prerequisites
+## 前提條件
 
 在開始之前，請確保您具備以下條件：
 
@@ -50,7 +50,7 @@ weight: 1
 - **Java Development Kit (JDK)**：已安裝相容版本。  
 - **整合開發環境 (IDE)**：如 IntelliJ IDEA 或 Eclipse。
 
-### Required Libraries and Dependencies
+### 必需的程式庫和依賴項
 
 要在專案中加入 Aspose.Words，請依下列方式加入相依性：
 
@@ -68,11 +68,11 @@ weight: 1
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-## How to set options for book fold printing?
+## 如何設定書籍折疊列印選項？
 
 Aspose.Words 提供一組儲存選項讓您微調輸出。建立小冊子的關鍵屬性為 `useBookFoldPrintingSettings`。啟用後，Aspose.Words 會自動排列頁面，使文件在摺疊後能正確閱讀。
 
-## Setting Up Aspose.Words
+## Aspose.Words 設定
 
 依照以下步驟將 Aspose.Words 整合至您的 Java 專案：
 
@@ -93,9 +93,9 @@ public class InitializeAsposeWords {
 }
 ```
 
-## Step-by-Step Implementation
+## 逐步實施
 
-### Loading the Word Document
+### 載入 Word 文檔
 
 將 Word 文件載入 Aspose.Words 的 `Document` 物件：
 
@@ -106,7 +106,7 @@ String myDir = "YOUR_DOCUMENT_DIRECTORY/";
 Document doc = new Document(myDir + "Paragraphs.docx");
 ```
 
-### Configuring PostScript Save Options
+### 配置 PostScript 儲存選項
 
 設定 `PsSaveOptions` 以 PostScript 格式輸出文件，並啟用摺頁列印設定：
 
@@ -119,7 +119,7 @@ saveOptions.setSaveFormat(SaveFormat.PS);
 saveOptions.setUseBookFoldPrintingSettings(true);
 ```
 
-### Applying Book Fold Settings
+### 應用書籍折疊設置
 
 遍歷每個文件節點，套用摺頁設定：
 
@@ -132,7 +132,7 @@ for (Section section : doc.getSections()) {
 }
 ```
 
-### Saving the Document
+### 儲存文檔
 
 使用已套用 PostScript 與摺頁設定的選項儲存文件：
 
@@ -141,7 +141,7 @@ String artifactsDir = "YOUR_OUTPUT_DIRECTORY/";
 doc.save(artifactsDir + "Output.ps", saveOptions);
 ```
 
-## Testing with Data Providers
+## 使用資料提供者進行測試
 
 為驗證設定，實作 TestNG 資料提供者以測試不同的摺頁設定：
 
@@ -157,7 +157,7 @@ public class UseBookFoldPrintingSettingsDataProvider {
 }
 ```
 
-## Practical Applications
+## 實際應用
 
 使用 Aspose.Words for Java 將文件轉換為 PostScript 小冊子，可帶來多項好處：
 
@@ -165,7 +165,7 @@ public class UseBookFoldPrintingSettingsDataProvider {
 - **教育機構：** 高效分發課程教材。  
 - **活動策劃者：** 快速產出精美活動手冊。
 
-## Performance Considerations
+## 效能注意事項
 
 透過以下方式提升文件轉換效能：
 
@@ -173,43 +173,48 @@ public class UseBookFoldPrintingSettingsDataProvider {
 - **有效程式撰寫：** 使用串流避免一次載入整份文件。  
 - **定期更新：** 保持 Aspose.Words 為最新版本，以利用最新效能改進。
 
-## Common Issues and Solutions
+## 常見問題及解決方案
 
-| Issue | Cause | Solution |
+| 問題 | 原因 | 解決方案 |
 |-------|-------|----------|
-| **Blank pages in output** | `MultiplePages` not set correctly | Ensure `section.getPageSetup().setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);` is called for each section. |
-| **License not found** | Incorrect path to `.lic` file | Use an absolute path or place the license file in the classpath and reference it accordingly. |
-| **OutOfMemoryError** on large docs | Whole document loaded in memory | Switch to `Document.save(OutputStream, SaveOptions)` and enable streaming where possible. |
+| **輸出出現空白頁** | `MultiplePages` 設定不正確 | 請確保對每個章節呼叫 `section.getPageSetup().setMultiplePages(MultiplePagesType.BOOK_FOLD_PRINTING);`。 |
+| **未找到許可證** | `.lic` 檔案路徑錯誤 | 請使用絕對路徑，或將許可證文件放在類別路徑中並正確引用。 |
+| **大型文檔出現記憶體溢位錯誤** | 整個文件已載入至記憶體 | 切換至 `Document.save(OutputStream, SaveOptions)`，並在可能的情況下啟用串流。 |
 
-## Frequently Asked Questions
+## 常見問題解答
 
-1. **What is Aspose.Words for Java?**  
-   Aspose.Words is a robust library for creating, editing, and converting Word documents in Java applications.
+1. **什麼是 Aspose.Words for Java？ **
 
-2. **How do I handle licensing?**  
-   Start with a free trial, request a temporary license, or purchase a full license for production use.
+Aspose.Words 是一個強大的函式庫，用於在 Java 應用程式中建立、編輯和轉換 Word 文件。
 
-3. **Can I convert to formats other than PostScript?**  
-   Yes, Aspose.Words supports multiple output formats, including PDF and DOCX.
+2. **如何處理許可？ **
 
-4. **What are the prerequisites for this guide?**  
-   You need a compatible JDK, an IDE, and Aspose.Words version 25.3 or later.
+您可以先申請免費試用版，然後申請臨時許可證，或購買完整許可證用於生產環境。
 
-5. **How can I troubleshoot conversion issues?**  
-   Refer to the Aspose.Words documentation and community forums for detailed troubleshooting tips.
+3. **除了 PostScript 格式，我還能轉換成其他格式嗎？ **
 
-## Additional FAQ
+可以，Aspose.Words 支援多種輸出格式，包括 PDF 和 DOCX。
 
-**Q: Can I convert a password‑protected Word file?**  
-A: Yes, load the document with the appropriate load options that include the password.
+4. **本指南的先決條件是什麼？ **
 
-**Q: Is it possible to convert multiple documents in a batch?**  
-A: Absolutely – loop through a collection of file paths and apply the same `PsSaveOptions` for each.
+您需要相容的 JDK、整合開發環境 (IDE) 以及 Aspose.Words 25.3 或更高版本。
 
-**Q: Does the book‑fold setting work with single‑page sections?**  
-A: The setting is applied per section; ensure each section has the correct page setup for booklet pagination.
+5. **如何排除轉換問題？ **
 
-## Resources
+請參閱 Aspose.Words 文件和社群論壇，以取得詳細的故障排除技巧。
+
+## 其他常見問題解答
+
+**問：我可以轉換受密碼保護的 Word 檔案嗎？ **
+答：可以，使用包含密碼的相應載入選項載入文件。
+
+**問：可以批次轉換多個文件嗎？ **
+答：當然可以－遍歷一系列檔案路徑，並為每個檔案套用相同的 `PsSaveOptions`。
+
+**問：書籍折疊設定是否適用於單頁章節？ **
+答：該設定是按章節應用的；確保每個章節的頁面設定符合小冊子的分頁要求。
+
+## 資源
 
 - [Aspose.Words 文件說明](https://reference.aspose.com/words/java/)
 - [下載 Aspose.Words](https://releases.aspose.com/words/java/)

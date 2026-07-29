@@ -181,14 +181,6 @@ Artık **how to load word** belgelerini Aspose.Words for Java ile nasıl yükley
 - `DocumentBuilder` API’sini keşfederek programatik olarak daha zengin içerikler oluşturun.  
 - Kullanıcıların yüklediği Word dosyalarını işleyen bir mikroservise kodu entegre edin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Kaynaklar
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Artık **how to load word** belgelerini Aspose.Words for Java ile nasıl yükley
 **Son Güncelleme:** 2026-02-06  
 **Test Edilen Versiyon:** Aspose.Words for Java 25.3  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

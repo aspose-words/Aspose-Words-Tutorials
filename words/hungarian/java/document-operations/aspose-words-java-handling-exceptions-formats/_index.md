@@ -224,23 +224,6 @@ Minden kép egy sorozatos fájlnévvel és a megfelelő fájlkiterjesztéssel ke
 - `FileFormatInfo` eredmények gyorsítótárazása gyakran feldolgozott fájltípusokhoz.  
 - `Document` objektumok gyors felszabadítása a memória felszabadításához nagy fájlok kezelésekor.
 
-## GyIK szekció
-
-**Q1: Hogyan kezelem a nem támogatott fájlformátumokat az Aspose.Words-ben?**  
-A1: Használja a `FileFormatUtil`-t a támogatott formátumok előzetes észleléséhez; nem támogatott típusok esetén térjen vissza egy egyedi parserhez vagy utasítsa el a fájlt.
-
-**Q2: Képes az Aspose.Words nagy dokumentumokat hatékonyan feldolgozni?**  
-A2: Igen, de finomhangolja a JVM heap beállításait, és fontolja meg a streaming API-k használatát nagyon nagy fájlok esetén.
-
-**Q3: Mik a gyakori buktatók a digitális aláírások észlelésénél?**  
-A3: Győződjön meg arról, hogy a aláíró tanúsítványlánc megbízható, és hogy a szükséges BouncyCastle könyvtárak a classpath-on vannak.
-
-**Q4: Hogyan integráljam az Aspose.Words-ot egy meglévő Maven projektbe?**  
-A4: Adja hozzá a korábban bemutatott Maven függőséget, helyezze a licencfájlt a classpath-ra, és építse újra a projektet.
-
-**Q5: Vannak korlátok a képek kinyerésének teljesítményére?**  
-A5: A kinyerés gyors a tipikus dokumentumoknál; rendkívül képeszközű fájlok esetén további memóriahangolásra lehet szükség.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Támogatja az Aspose.Words a jelszóval védett (titkosított) Word fájlokat?**  

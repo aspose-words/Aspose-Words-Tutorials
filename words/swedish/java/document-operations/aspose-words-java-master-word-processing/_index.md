@@ -181,14 +181,6 @@ Du har nu en solid grund för **how to load word** dokument med Aspose.Words fö
 - Utforska `DocumentBuilder`‑API:t för att programatiskt skapa rikare innehåll.  
 - Integrera koden i en mikrotjänst som bearbetar användaruppladdade Word‑filer.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Resurser
 - [Dokumentation](https://reference.aspose.com/words/java/)
 - [Ladda ner Aspose.Words för Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Du har nu en solid grund för **how to load word** dokument med Aspose.Words fö
 **Last Updated:** 2026-02-06  
 **Tested With:** Aspose.Words for Java 25.3  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

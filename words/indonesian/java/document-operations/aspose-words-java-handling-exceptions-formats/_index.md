@@ -224,23 +224,6 @@ Setiap gambar disimpan dengan nama file berurutan dan ekstensi file yang tepat.
 - Cache hasil `FileFormatInfo` untuk tipe file yang sering diproses.  
 - Lepaskan objek `Document` dengan cepat untuk membebaskan memori saat menangani file besar.
 
-## Bagian FAQ
-
-**Q1: Bagaimana cara menangani format file yang tidak didukung di Aspose.Words?**  
-A1: Gunakan `FileFormatUtil` untuk mendeteksi format yang didukung terlebih dahulu; untuk tipe yang tidak didukung, gunakan parser khusus atau tolak file tersebut.
-
-**Q2: Apakah Aspose.Words dapat memproses dokumen besar secara efisien?**  
-A2: Ya, tetapi sesuaikan pengaturan heap JVM dan pertimbangkan API streaming untuk file yang sangat besar.
-
-**Q3: Apa jebakan umum saat mendeteksi tanda tangan digital?**  
-A3: Pastikan rantai sertifikat penandatangan terpercaya dan bahwa pustaka BouncyCastle yang diperlukan ada di classpath.
-
-**Q4: Bagaimana cara mengintegrasikan Aspose.Words ke dalam proyek Maven yang ada?**  
-A4: Tambahkan dependensi Maven yang ditunjukkan sebelumnya, letakkan file lisensi Anda di classpath, dan bangun ulang proyek.
-
-**Q5: Apakah ada batasan pada kinerja ekstraksi gambar?**  
-A5: Ekstraksi cepat untuk dokumen tipikal; file yang sangat banyak gambar mungkin memerlukan penyesuaian memori tambahan.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah Aspose.Words mendukung file Word yang dilindungi kata sandi (terenkripsi)?**  

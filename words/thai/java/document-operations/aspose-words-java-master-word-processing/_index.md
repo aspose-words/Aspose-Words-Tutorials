@@ -181,14 +181,6 @@ doc.getCustomDocumentProperties().add("Location of writing", "123 Main St, Londo
 - สำรวจ API `DocumentBuilder` เพื่อสร้างเนื้อหาที่ซับซ้อนมากขึ้นโดยโปรแกรม  
 - ผสานโค้ดเข้ากับไมโครเซอร์วิสที่ประมวลผลไฟล์ Word ที่ผู้ใช้อัปโหลด
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## แหล่งข้อมูล
 - [Documentation](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ doc.getCustomDocumentProperties().add("Location of writing", "123 Main St, Londo
 **อัปเดตล่าสุด:** 2026-02-06  
 **ทดสอบด้วย:** Aspose.Words for Java 25.3  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

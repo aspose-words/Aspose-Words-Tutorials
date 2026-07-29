@@ -181,14 +181,6 @@ Masz teraz solidne podstawy do **how to load word** dokumentów przy użyciu Asp
 - Zbadaj API `DocumentBuilder`, aby programowo tworzyć bogatszą treść.  
 - Zintegruj kod w mikroserwisie przetwarzającym pliki Word przesyłane przez użytkowników.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Zasoby
 - [Dokumentacja](https://reference.aspose.com/words/java/)
 - [Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/)
@@ -200,3 +192,11 @@ Masz teraz solidne podstawy do **how to load word** dokumentów przy użyciu Asp
 **Last Updated:** 2026-02-06  
 **Tested With:** Aspose.Words for Java 25.3  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
