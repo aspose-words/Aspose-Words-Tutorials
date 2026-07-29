@@ -1,0 +1,7 @@
+Title: How to Add Content Control and Create Word Document with Aspose – Complete Guide
+Slug: how-to-add-content-control-and-create-word-document-with-asp
+Category: programming-with-sdt
+ProcessedDate: 2026-07-29T15:08:58.611920
+SourceRepo: AI Search API
+Keywords: how to add content control, create word document aspose
+PRNumber: 236
