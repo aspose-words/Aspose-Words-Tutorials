@@ -37,6 +37,9 @@ Lär dig hur du optimerar SVG-utdata med Aspose.Words för Python. Den här guid
 ### [Hur man lägger till skugga i C# – Komplett programmeringsguide](./how-to-add-shadow-in-c-complete-programming-guide/)
 Lär dig steg för steg hur du applicerar skuggor på objekt i C# med Aspose.Words.
 
+### [Lägg till skugga på form i Word med Python – Komplett guide](./add-shadow-to-shape-in-word-with-python-complete-guide/)
+Lär dig steg för steg hur du applicerar skugga på former i Word-dokument med Python och Aspose.Words.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

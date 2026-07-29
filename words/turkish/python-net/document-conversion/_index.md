@@ -40,6 +40,9 @@ Aspose.Words for Python kullanarak Word belgelerinden Markdown dosyalarına nas�
 ### [Bozuk DOCX Dosyasını Kurtarın ve Word'ü Markdown'a Dönüştür](./recover-corrupted-docx-convert-word-to-markdown/)
 Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve Word belgelerini Markdown formatına dönüştürün.
 
+### [DOCX'i PDF'ye Aspose.Words ile Dönüştürme – Kılavuz](./convert-docx-to-pdf-with-aspose-words-guide/)
+Aspose.Words for Python kullanarak DOCX dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
