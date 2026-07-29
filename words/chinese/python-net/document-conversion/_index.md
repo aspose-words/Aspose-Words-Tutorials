@@ -40,6 +40,9 @@
 ### [恢复损坏的 DOCX 并将 Word 转换为 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 学习如何使用 Aspose.Words for Python 恢复损坏的 DOCX 文件并将 Word 文档转换为 Markdown。
 
+### [使用 Aspose.Words 将 DOCX 转换为 PDF – 完整指南](./convert-docx-to-pdf-with-aspose-words-guide/)
+学习使用 Aspose.Words for Python 将 DOCX 文件转换为 PDF，实现高质量文档输出。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
