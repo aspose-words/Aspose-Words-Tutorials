@@ -28,6 +28,7 @@
 | [إدراج كائن Ole في مستند Word كأيقونة](./insert-ole-object-as-icon/) | تعلّم كيفية إدراج كائن OLE كأيقونة في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع دليلنا خطوة بخطوة لتحسين مستنداتك. |
 | [إدراج كائن Ole كأيقونة باستخدام Stream](./insert-ole-object-as-icon-using-stream/) |تعرف على كيفية إدراج كائن OLE كأيقونة باستخدام دفق مع Aspose.Words لـ .NET في هذا البرنامج التعليمي المفصل خطوة بخطوة. |
 | [قراءة خصائص Active XControl من ملف Word](./read-active-xcontrol-properties/) | تعلّم كيفية قراءة خصائص عناصر تحكم ActiveX من ملفات Word باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. حسّن مهاراتك في أتمتة المستندات. |
+| [إضافة زر أمر إلى مستند Word باستخدام Aspose.Words – دليل كامل](./add-command-button-to-word-document-with-aspose-words-comple/) | تعرّف على كيفية إضافة زر أمر إلى مستند Word باستخدام Aspose.Words للـ .NET في دليل خطوة بخطوة. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

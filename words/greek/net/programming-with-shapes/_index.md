@@ -38,6 +38,8 @@
 | [Δημιουργία ορθογωνίου σχήματος στο Word με C# – Οδηγός βήμα‑βήμα](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας C# με αυτόν τον αναλυτικό οδηγό. |
 | [Aspose.Words Tutorial Σκιά Σχήματος – Προσθήκη Σκιάς σε Σχήμα Word σε C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Μάθετε πώς να προσθέσετε σκιά σε σχήμα Word χρησιμοποιώντας το Aspose.Words για .NET με C#. |
 | [Δημιουργία κενής εγγράφου Word με σχήμα ορθογωνίου με σκιά – Οδηγός βήμα‑προς‑βήμα](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με σχήμα ορθογωνίου με σκιά χρησιμοποιώντας το Aspose.Words για .NET, βήμα‑προς‑βήμα. |
+| [Σχεδίαση ορθογωνίου στο Word – Προσθήκη Σχημάτων στο Word με Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Μάθετε πώς να σχεδιάσετε ένα ορθογώνιο σχήμα σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Δημιουργία κενής εγγράφου Word με κρυφό σχήμα έλλειψης – Πλήρης οδηγός C#](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word με κρυφό σχήμα έλλειψης χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,8 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Create rectangle shape in Word using C# – Step‑by‑Step Guide](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Learn how to create a rectangle shape in a Word document using C# with Aspose.Words for .NET in this step‑by‑step guide. |
 | [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Learn how to add shadows to shapes in Word documents using Aspose.Words for .NET with this step-by-step C# guide. |
 | [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Learn how to create a blank Word document and add a shadowed rectangle shape using Aspose.Words for .NET in this step‑by‑step guide. |
+| [draw rectangle word – Add Shapes in Word with Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Learn how to add rectangle shapes to Word documents using Aspose.Words for .NET in this step‑by‑step guide. |
+| [Create a Blank Word Document with a Hidden Ellipse Shape – Full C# Guide](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Learn how to create a blank Word document and add a hidden ellipse shape using Aspose.Words for .NET in this step‑by‑step C# guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

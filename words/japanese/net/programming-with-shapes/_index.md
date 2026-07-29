@@ -38,6 +38,8 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [C# を使用して Word に長方形の図形を作成 – ステップバイステップ ガイド](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) Aspose.Words for .NET と C# を使い、Word 文書に長方形の図形を作成する手順を段階的に解説します。 |
 | [Aspose.Words 図形の影チュートリアル – C# で Word 図形に影を追加](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) このチュートリアルでは、Aspose.Words for .NET を使用して C# で Word 図形に影効果を適用する方法をステップバイステップで解説します。 |
 | [影付き長方形シェイプで空白の Word 文書を作成 – ステップバイステップ ガイド](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) Aspose.Words for .NET を使用して、影付き長方形シェイプを持つ空白の Word 文書を作成する手順を解説します。 |
+| [矩形を描く – AsposeでWordに図形を追加](./draw-rectangle-word-add-shapes-in-word-with-aspose/) Aspose.Words for .NET を使用して、Word 文書に矩形の図形を追加し、属性を設定する方法をステップバイステップで解説します。 |
+| [隠し楕円形シェイプで空白の Word 文書を作成 – 完全 C# ガイド](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) Aspose.Words for .NET と C# を使用して、隠し楕円形シェイプを含む空白の Word 文書を作成する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,10 +39,10 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Ocultar el eje del gráfico en un documento de Word](./hide-chart-axis/) Aprenda a ocultar el eje del gráfico en un documento de Word usando Aspose.Words para .NET con nuestro tutorial detallado paso a paso. |
 | [Marcar la alineación de etiquetas de varias líneas en un gráfico](./tick-multi-line-label-alignment/) Aprenda a marcar la alineación de etiquetas multilínea en un gráfico usando Aspose.Words para .NET con nuestra guía detallada paso a paso. Ideal para desarrolladores de todos los niveles.
 | [Personalizar la etiqueta de datos del gráfico](./chart-data-label/) Aprenda a personalizar las etiquetas de datos de gráficos con Aspose.Words para .NET con una guía paso a paso. Ideal para desarrolladores .NET.
-| [Establecer opciones predeterminadas para las etiquetas de datos en un gráfico](./default-options-for-data-labels/) Aprenda a configurar las opciones predeterminadas para las etiquetas de datos en un gráfico con Aspose.Words para .NET. Siga nuestra guía paso a paso para crear y personalizar gráficos fácilmente.
+| [Establecer opciones predeterminadas para las etiquetas de datos en un gráfico](./default-options-for-data-labels/) Aprende a configurar las opciones predeterminadas para las etiquetas de datos en un gráfico con Aspose.Words para .NET. Siga nuestra guía paso a paso para crear y personalizar gráficos fácilmente.
 | [Personalizar un único punto de datos de un gráfico](./single-chart-data-point/) Aprenda a personalizar puntos de datos individuales de gráficos con Aspose.Words para .NET con una guía detallada paso a paso. Mejore sus gráficos con marcadores y tamaños únicos.
 | [Personalizar una serie de gráficos individuales en un gráfico](./single-chart-series/) Aprenda a personalizar series de gráficos individuales en un documento de Word con Aspose.Words para .NET. Siga nuestra guía paso a paso para una experiencia fluida.
-
+| [Cómo mostrar porcentajes en un gráfico con Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aprenda a mostrar porcentajes en los gráficos de Word con Aspose.Words para .NET mediante este tutorial paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

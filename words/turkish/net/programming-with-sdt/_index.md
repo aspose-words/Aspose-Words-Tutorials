@@ -36,7 +36,7 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
 | [Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Aspose.Words for .NET kullanarak bir Word belgesinde CustomXmlPart'a eşlenen tekrarlayan bir bölümü olan bir tablonun nasıl oluşturulacağını öğrenin. |
 | [Çok Bölümlü](./multi-section/) Bu adım adım eğitimle Aspose.Words for .NET'te çok bölümlü yapılandırılmış belge etiketleriyle nasıl çalışacağınızı öğrenin. Dinamik belge düzenleme için idealdir. |
 | [Yapılandırılmış Belge Etiket Aralığı Başlat Xml Eşlemesi](./structured-document-tag-range-start-xml-mapping/) | Aspose.Words for .NET kullanarak Word'de XML verilerini yapılandırılmış belge etiketlerine dinamik olarak nasıl bağlayacağınızı öğrenin. Adım adım kılavuzumuzu izleyin. |
-
+| [Aspose ile İçerik Kontrolü Ekleyin ve Word Belgesi Oluşturun – Tam Kılavuz](./how-to-add-content-control-and-create-word-document-with-asp/) | Aspose.Words for .NET kullanarak içerik kontrolü ekleyip tam bir Word belgesi oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

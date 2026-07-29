@@ -28,7 +28,7 @@ Te samouczki przedstawiają praktyczne, krok po kroku podejście do przetwarzani
 | [Wstaw obiekt Ole do dokumentu Word jako ikonę](./insert-ole-object-as-icon/) | Dowiedz się, jak wstawiać obiekt OLE jako ikonę do dokumentów Worda za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć swoje dokumenty. |
 | [Wstaw obiekt OLE jako ikonę za pomocą strumienia](./insert-ole-object-as-icon-using-stream/) | Dowiedz się, jak wstawić obiekt OLE jako ikonę za pomocą strumienia z Aspose.Words dla .NET w tym szczegółowym samouczku krok po kroku. |
 | [Odczyt właściwości Active XControl z pliku Word](./read-active-xcontrol-properties/) | Dowiedz się, jak czytać właściwości kontrolki ActiveX z plików Word za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Udoskonal swoje umiejętności automatyzacji dokumentów. |
-
+| [Dodaj przycisk polecenia do dokumentu Word przy użyciu Aspose.Words – kompletny przewodnik](./add-command-button-to-word-document-with-aspose-words-comple/) | Dowiedz się, jak dodać przycisk polecenia do dokumentu Word przy użyciu Aspose.Words w tym kompletnym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
