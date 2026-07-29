@@ -1,20 +1,13 @@
 ---
-date: '2025-11-13'
-description: Tìm hiểu cách sử dụng Aspose.Words cho Java LayoutCollector và LayoutEnumerator
-  để phân tích các đoạn trang, duyệt các thực thể bố cục, triển khai các callback
-  và khởi động lại việc đánh số trang một cách hiệu quả.
+date: '2026-01-14'
+description: Học cách khởi động lại việc đánh số trang với Aspose.Words Java và sử
+  dụng LayoutCollector để trích xuất dữ liệu phân trang, cập nhật bố cục trang và
+  xuất trang dưới dạng hình ảnh.
 keywords:
 - Aspose.Words Java LayoutCollector
 - Java document layout management
 - LayoutEnumerator traversal
-- page span analysis java
-- traverse layout entities java
-- page layout callbacks java
-- restart page numbering java
-- document pagination Java
-- Aspose.Words layout API
-- Java text processing
-title: 'Aspose.Words Java: Hướng dẫn LayoutCollector & LayoutEnumerator'
+title: Khởi Đánh Số Trang lại với Aspose.Words Java – LayoutCollector & LayoutEnumerator
 url: /vi/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/
 weight: 1
 ---
@@ -25,26 +18,40 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Làm Chủ Aspose.Words Java: Hướng Dẫn Toàn Diện về LayoutCollector & LayoutEnumerator cho Xử Lý Văn Bản
+# Khởi Động Lại Đánh Số Trang với Aspose.Words Java – LayoutCollector & LayoutEnumerator
 
-## Giới Thiệu
+## Giới thiệu
 
-Bạn có đang gặp khó khăn trong việc quản lý bố cục tài liệu phức tạp với các ứng dụng Java của mình không? Dù là xác định số trang mà một phần chiếm hoặc duyệt các thực thể bố cục một cách hiệu quả, những nhiệm vụ này có thể gây khó khăn. Với **Aspose.Words for Java**, bạn có quyền truy cập vào các công cụ mạnh mẽ như `LayoutCollector` và `LayoutEnumerator` giúp đơn giản hoá các quy trình này, cho phép bạn tập trung vào việc cung cấp nội dung xuất sắc. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách sử dụng các tính năng này để nâng cao khả năng xử lý tài liệu của bạn.
+Bạn có đang gặp khó khăn trong việc **khởi động lại đánh số trang** trong các tài liệu Java lớn đồng thời cần phân tích phân trang hoặc hiển thị trang dưới dạng hình ảnh? Với **Aspose.Words for Java**, bạn có thể sử dụng `LayoutCollector` và `LayoutEnumerator` không chỉ để khởi động lại đánh số trang mà còn **trích xuất dữ liệu phân trang**, **cập nhật bố cục trang**, và **hiển thị trang dưới dạng hình ảnh** để xem trước hoặc tạo PDF. Hướng dẫn này sẽ dẫn bạn qua từng bước, từ cài đặt thư viện đến việc triển khai các callback cho phép bạn kiểm soát toàn bộ quá trình render tài liệu.
 
-**Những Điều Bạn Sẽ Học:**
-- Sử dụng `LayoutCollector` của Aspose.Words để phân tích chính xác phạm vi trang.
-- Duyệt tài liệu một cách hiệu quả bằng `LayoutEnumerator`.
-- Triển khai các callback bố cục cho việc render và cập nhật động.
-- Kiểm soát đánh số trang trong các phần liên tục một cách hiệu quả.
+**Bạn sẽ học được**
+- Cách sử dụng `LayoutCollector` để trích xuất dữ liệu phân trang và xác định phạm vi trang.
+- Duyệt bố cục tài liệu bằng `LayoutEnumerator`.
+- Triển khai các callback bố cục trang để **hiển thị các trang dưới dạng hình ảnh**.
+- **Khởi động lại đánh số trang** trong các section liên tục bằng các tùy chọn bố cục.
+- Các mẹo để **cập nhật bố cục trang** một cách hiệu quả.
 
-Hãy cùng khám phá cách những công cụ này có thể biến đổi quy trình xử lý tài liệu của bạn. Trước khi bắt đầu, hãy chắc chắn rằng bạn đã sẵn sàng bằng cách kiểm tra phần yêu cầu phía dưới.
+## Câu trả lời nhanh
+- **Làm thế nào để khởi động lại đánh số trang trong tài liệu Java?** Sử dụng `doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(...)` và gọi `doc.updatePageLayout()`.
+- **Lớp nào trích xuất dữ liệu phân trang?** `LayoutCollector` cung cấp chỉ số trang bắt đầu/kết thúc cho bất kỳ node nào.
+- **Tôi có thể hiển thị mỗi trang dưới dạng hình ảnh không?** Có — triển khai `IPageLayoutCallback` và sử dụng `ImageSaveOptions`.
+- **Có cần gọi cập nhật bố cục trang thủ công không?** Sau khi thay đổi các tùy chọn bố cục, luôn gọi `doc.updatePageLayout()`.
+- **Phiên bản Aspose.Words nào được yêu cầu?** Các ví dụ hoạt động với Aspose.Words for Java 25.3 (hoặc mới hơn).
 
-## Yêu Cầu Trước
+## Khái niệm khởi động lại đánh số trang là gì?
 
-Để theo dõi hướng dẫn này, hãy chắc chắn bạn có những thứ sau:
+Khởi động lại đánh số trang cho phép bạn bắt đầu một chuỗi đánh số mới trong một phần cụ thể của tài liệu, điều này rất quan trọng đối với các báo cáo, sách hoặc hợp đồng cần đánh số riêng cho các chương hoặc phụ lục. Aspose.Words cung cấp một tùy chọn bố cục cho phép bạn kiểm soát hành vi này mà không cần các thủ thuật chèn ngắt trang thủ công.
 
-### Thư Viện và Phiên Bản Yêu Cầu
-Đảm bảo bạn đã cài đặt Aspose.Words for Java phiên bản 25.3.
+## Tại sao lại dùng LayoutCollector và LayoutEnumerator?
+
+- **LayoutCollector** cung cấp truy cập lập trình vào chi tiết phân trang, cho phép bạn **trích xuất dữ liệu phân trang** như trang đầu và trang cuối của bất kỳ node nào.
+- **LayoutEnumerator** cho phép bạn duyệt cây bố cục trực quan, giúp dễ dàng định vị các trang, đoạn văn hoặc dòng để render hoặc phân tích tùy chỉnh.
+- Khi kết hợp, chúng đơn giản hoá các tác vụ bố cục phức tạp mà nếu không sẽ phải chuyển đổi sang PDF tốn kém hoặc tính toán thủ công.
+
+## Yêu cầu trước
+
+### Thư viện và phiên bản cần thiết
+Đảm bảo bạn đã cài đặt Aspose.Words for Java phiên bản 25.3 (hoặc mới hơn).
 
 **Maven:**
 ```xml
@@ -60,16 +67,16 @@ Hãy cùng khám phá cách những công cụ này có thể biến đổi quy 
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Yêu Cầu Thiết Lập Môi Trường
-Bạn sẽ cần:
-- Java Development Kit (JDK) được cài đặt trên máy của bạn.
-- Một IDE như IntelliJ IDEA hoặc Eclipse để chạy và kiểm thử mã.
+### Yêu cầu thiết lập môi trường
+- Java Development Kit (JDK) đã được cài đặt.
+- IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE Java nào bạn ưa thích.
+- Giấy phép Aspose.Words hợp lệ (bản dùng thử miễn phí cũng đủ cho việc đánh giá).
 
-### Kiến Thức Cơ Bản
-Kiến thức cơ bản về lập trình Java được khuyến nghị để theo dõi một cách hiệu quả.
+### Kiến thức nền tảng
+Kiến thức lập trình Java cơ bản là đủ.
 
-## Cài Đặt Aspose.Words
-Đầu tiên, hãy chắc chắn rằng bạn đã tích hợp thư viện Aspose.Words vào dự án của mình. Bạn có thể nhận giấy phép dùng thử miễn phí [tại đây](https://releases.aspose.com/words/java/) hoặc chọn giấy phép tạm thời nếu cần. Để bắt đầu sử dụng Aspose.Words trong Java, khởi tạo nó như sau:
+## Cài đặt Aspose.Words
+Đầu tiên, tích hợp thư viện Aspose.Words vào dự án của bạn. Bạn có thể lấy giấy phép dùng thử miễn phí [tại đây](https://releases.aspose.com/words/java/) hoặc sử dụng giấy phép tạm thời để thử nghiệm.
 
 ```java
 import com.aspose.words.*;
@@ -85,17 +92,17 @@ public class SetupAsposeWords {
 }
 ```
 
-Với việc thiết lập đã hoàn tất, hãy đi sâu vào các tính năng cốt lõi của `LayoutCollector` và `LayoutEnumerator`.
+Với thư viện đã sẵn sàng, chúng ta có thể bắt đầu khám phá các tính năng cốt lõi.
 
-## Hướng Dẫn Thực Hiện
+## Hướng dẫn triển khai
 
-### Tính Năng 1: Sử Dụng LayoutCollector để Phân Tích Phạm Vi Trang
-Tính năng `LayoutCollector` cho phép bạn xác định cách các nút trong tài liệu trải dài trên các trang, hỗ trợ việc phân tích phân trang.
+### Tính năng 1: Sử dụng LayoutCollector để phân tích phạm vi trang
+Tính năng `LayoutCollector` cho phép bạn xác định cách các node trải dài qua các trang, là nền tảng cho **trích xuất dữ liệu phân trang**.
 
-#### Tổng Quan
-Bằng cách tận dụng `LayoutCollector`, chúng ta có thể xác định chỉ số trang bắt đầu và kết thúc của bất kỳ nút nào, cũng như tổng số trang mà nó chiếm.
+#### Tổng quan
+Bằng cách tận dụng `LayoutCollector`, bạn có thể lấy chỉ số trang bắt đầu và kết thúc của bất kỳ node nào và tính tổng số trang mà node đó chiếm.
 
-#### Các Bước Thực Hiện
+#### Các bước thực hiện
 
 **1. Khởi tạo Document và LayoutCollector**
 ```java
@@ -103,8 +110,8 @@ Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 ```
 
-**2. Điền nội dung vào Document**
-Ở đây, chúng ta sẽ thêm nội dung trải dài trên nhiều trang:
+**2. Thêm nội dung vào Document**
+Ở đây, chúng ta sẽ chèn nội dung trải qua nhiều trang:
 ```java
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Section 1");
@@ -114,7 +121,7 @@ builder.write("Section 2");
 builder.insertBreak(BreakType.PAGE_BREAK);
 ```
 
-**3. Cập nhật Layout và Lấy Các Chỉ Số**
+**3. Cập nhật bố cục và lấy các chỉ số**
 ```java
 layoutCollector.clear();
 doc.updatePageLayout();
@@ -122,17 +129,17 @@ doc.updatePageLayout();
 assert layoutCollector.getNumPagesSpanned(doc) == 5;
 ```
 
-#### Giải Thích
-- **`DocumentBuilder`:** Được sử dụng để chèn nội dung vào tài liệu.
-- **`updatePageLayout()`:** Đảm bảo các chỉ số trang chính xác.
+#### Giải thích
+- **`DocumentBuilder`** chèn văn bản và các ngắt trang/section.
+- **`updatePageLayout()`** tính lại thông tin bố cục để dữ liệu phân trang chính xác.
 
-### Tính Năng 2: Duyệt với LayoutEnumerator
-`LayoutEnumerator` cho phép duyệt hiệu quả các thực thể bố cục của tài liệu, cung cấp thông tin chi tiết về thuộc tính và vị trí của mỗi phần tử.
+### Tính năng 2: Duyệt bằng LayoutEnumerator
+`LayoutEnumerator` cho phép điều hướng hiệu quả qua cây bố cục trực quan.
 
-#### Tổng Quan
-Tính năng này giúp bạn di chuyển trực quan qua cấu trúc bố cục, hữu ích cho các nhiệm vụ render và chỉnh sửa.
+#### Tổng quan
+Bạn có thể duyệt qua các trang, đoạn văn, dòng và các thực thể bố cục khác, rất hữu ích cho việc render tùy chỉnh hoặc chẩn đoán.
 
-#### Các Bước Thực Hiện
+#### Các bước thực hiện
 
 **1. Khởi tạo Document và LayoutEnumerator**
 ```java
@@ -140,8 +147,7 @@ Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Layout entities.docx");
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 ```
 
-**2. Duyệt Tiến và Lùi**
-Để duyệt bố cục tài liệu:
+**2. Duyệt tiến và lùi**
 ```java
 layoutEnumerator.moveParent(LayoutEntityType.PAGE);
 
@@ -152,17 +158,17 @@ traverseLayoutForward(layoutEnumerator, 1);
 traverseLayoutBackward(layoutEnumerator, 1);
 ```
 
-#### Giải Thích
-- **`moveParent()`:** Di chuyển tới các thực thể cha.
-- **Các phương thức duyệt:** Được triển khai đệ quy để điều hướng toàn diện.
+#### Giải thích
+- **`moveParent()`** di chuyển enumerator lên thực thể cha (trong trường hợp này là mức trang).
+- Các phương thức duyệt đệ quy cho phép bạn khám phá toàn bộ cây bố cục.
 
-### Tính Năng 3: Callback Bố Cục Trang
-Tính năng này minh họa cách triển khai các callback để giám sát các sự kiện bố cục trang trong quá trình xử lý tài liệu.
+### Tính năng 3: Callback bố cục trang
+Triển khai callback để giám sát các sự kiện bố cục và **render các trang dưới dạng hình ảnh** khi cần.
 
-#### Tổng Quan
-Sử dụng giao diện `IPageLayoutCallback` để phản hồi các thay đổi bố cục cụ thể, chẳng hạn khi một phần được tái bố trí hoặc quá trình chuyển đổi hoàn tất.
+#### Tổng quan
+Giao diện `IPageLayoutCallback` thông báo cho bạn khi một phần tài liệu hoàn thành việc reflow hoặc khi quá trình chuyển đổi kết thúc.
 
-#### Các Bước Thực Hiện
+#### Các bước thực hiện
 
 **1. Đặt Callback**
 ```java
@@ -192,47 +198,76 @@ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
 }
 ```
 
-#### Giải Thích
-- **`notify()`:** Xử lý các sự kiện bố cục.
-- **`ImageSaveOptions`:** Cấu hình các tùy chọn render.
+#### Giải thích
+- **`notify()`** phản hồi các sự kiện bố cục.
+- **`ImageSaveOptions`** kết hợp với `PageSet` cho phép bạn **render các trang dưới dạng hình ảnh** (PNG trong ví dụ này).
 
-### Tính Năng 4: Khởi Động Lại Đánh Số Trang trong Các Phần Liên Tục
-Tính năng này minh họa cách kiểm soát đánh số trang trong các phần liên tục, đảm bảo luồng tài liệu mượt mà.
+### Tính năng 4: Khởi động lại đánh số trang trong các Section liên tục
+Kiểm soát đánh số trang khi bạn có nhiều section chạy liên tục.
 
-#### Tổng Quan
-Quản lý số trang một cách hiệu quả khi làm việc với tài liệu đa phần bằng cách sử dụng `ContinuousSectionRestart`.
+#### Tổng quan
+Bằng cách thiết lập tùy chọn `ContinuousSectionRestart`, bạn có thể quyết định việc đánh số trang có khởi động lại trên một trang mới hay tiếp tục liền mạch.
 
-#### Các Bước Thực Hiện
+#### Các bước thực hiện
 
 **1. Tải Document**
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Continuous section page numbering.docx");
 ```
 
-**2. Cấu hình các tùy chọn đánh số trang**
+**2. Cấu hình tùy chọn đánh số trang**
 ```java
 doc.getLayoutOptions().setContinuousSectionPageNumberingRestart(ContinuousSectionRestart.FROM_NEW_PAGE_ONLY);
 doc.updatePageLayout();
 ```
 
-#### Giải Thích
-- **`setContinuousSectionPageNumberingRestart()`:** Cấu hình cách đánh số trang được khởi động lại trong các phần liên tục.
+#### Giải thích
+- **`setContinuousSectionPageNumberingRestart()`** chỉ định cho Aspose.Words cách xử lý đánh số trong các section liên tục.
+- Sau khi thay đổi tùy chọn, **cập nhật bố cục trang** để áp dụng các thay đổi.
 
-## Ứng Dụng Thực Tiễn
-Dưới đây là một số kịch bản thực tế mà các tính năng này có thể được áp dụng:
-1. **Phân Tích Phân Trang Tài Liệu:** Sử dụng `LayoutCollector` để phân tích và điều chỉnh bố cục nội dung cho việc phân trang tối ưu.
-2. **Render PDF:** Sử dụng `LayoutEnumerator` để duyệt và render PDF một cách chính xác, bảo tồn cấu trúc hình ảnh.
-3. **Cập Nhật Tài Liệu Động:** Triển khai các callback để kích hoạt hành động khi có các thay đổi bố cục cụ thể, nâng cao quá trình xử lý tài liệu thời gian thực.
-4. **Tài Liệu Nhiều Phần:** Kiểm soát đánh số trang trong các báo cáo hoặc sách có phần liên tục để đạt định dạng chuyên nghiệp.
+## Ứng dụng thực tiễn
+1. **Phân tích phân trang tài liệu** – Sử dụng `LayoutCollector` để kiểm tra cách nội dung lan truyền qua các trang và điều chỉnh lề hoặc ngắt trang cho phù hợp.
+2. **Render PDF** – Kết hợp `LayoutEnumerator` với callback để tạo hình ảnh trang chất lượng cao trước khi chuyển đổi sang PDF.
+3. **Cập nhật tài liệu động** – Phản hồi các sự kiện bố cục (ví dụ: sau khi một bảng mở rộng) và tự động render lại các trang bị ảnh hưởng.
+4. **Báo cáo đa section** – Áp dụng **khởi động lại đánh số trang** để mỗi chương có hệ thống đánh số riêng trong khi vẫn duy trì luồng liên tục.
 
-## Lưu Ý Về Hiệu Suất
-Để đảm bảo hiệu suất tối ưu:
-- Giảm kích thước tài liệu bằng cách loại bỏ các phần tử không cần thiết trước khi phân tích bố cục.
-- Sử dụng các phương pháp duyệt hiệu quả để giảm thời gian xử lý.
-- Giám sát việc sử dụng tài nguyên, đặc biệt khi xử lý tài liệu lớn.
+## Cân nhắc về hiệu năng
+- Loại bỏ các section không dùng hoặc nội dung ẩn trước khi gọi `updatePageLayout()` để giữ tốc độ xử lý nhanh.
+- Sử dụng API streaming cho các tài liệu lớn để tránh tải toàn bộ file vào bộ nhớ.
+- Giới hạn độ sâu của việc duyệt đệ quy trong `LayoutEnumerator` nếu bạn chỉ cần thông tin ở mức trang.
 
-## Kết Luận
-Bằng cách làm chủ `LayoutCollector` và `LayoutEnumerator`, bạn đã mở khóa các khả năng mạnh mẽ trong Aspose.Words for Java. Những công cụ này không chỉ đơn giản hoá các bố cục tài liệu phức tạp mà còn nâng cao khả năng quản lý và xử lý văn bản của bạn. Với kiến thức này, bạn đã sẵn sàng đối mặt với bất kỳ thách thức xử lý văn bản nâng cao nào xuất hiện.
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| `layoutCollector.getNumPagesSpanned()` trả về 0 | Bố cục chưa được cập nhật | Gọi `doc.updatePageLayout()` trước khi truy vấn |
+| Hình ảnh không được tạo trong callback | Thiếu cấu hình `ImageSaveOptions` | Đảm bảo `saveOptions.setPageSet(new PageSet(pageIndex))` được thiết lập |
+| Số trang không khởi động lại | Giá trị `ContinuousSectionRestart` sai | Sử dụng `ContinuousSectionRestart.FROM_NEW_PAGE_ONLY` để thực sự khởi động lại |
+
+## Câu hỏi thường gặp
+
+**Hỏi: Tôi có thể trích xuất số trang chính xác của một đoạn văn cụ thể không?**  
+Đáp: Có — dùng `LayoutCollector` để lấy trang bắt đầu của node đoạn văn, sau đó gọi `doc.updatePageLayout()` để đảm bảo dữ liệu hiện tại.
+
+**Hỏi: `update page layout` có ảnh hưởng tới nội dung tài liệu không?**  
+Đáp: Không. Nó chỉ tính lại thông tin bố cục; văn bản và định dạng thực tế không thay đổi.
+
+**Hỏi: Làm sao để render tất cả các trang của một tài liệu lớn thành hình ảnh một cách hiệu quả?**  
+Đáp: Triển khai `IPageLayoutCallback` và xử lý từng trang tuần tự, có thể dùng đa luồng cho việc lưu I/O.
+
+**Hỏi: Có thể khởi động lại đánh số chỉ cho một số section nhất định không?**  
+Đáp: Có — áp dụng `setContinuousSectionPageNumberingRestart` cho tùy chọn bố cục của section cụ thể trước khi gọi `updatePageLayout()`.
+
+**Hỏi: Phiên bản Aspose.Words nào đã giới thiệu `LayoutCollector`?**  
+Đáp: `LayoutCollector` đã có từ các bản phát hành đầu năm 2020; các ví dụ này sử dụng phiên bản 25.3.
+
+## Kết luận
+Bằng cách thành thạo **khởi động lại đánh số trang**, `LayoutCollector` và `LayoutEnumerator`, bạn đã sở hữu một bộ công cụ mạnh mẽ cho việc xử lý văn bản nâng cao trong Aspose.Words for Java. Dù bạn cần **trích xuất dữ liệu phân trang**, **render các trang dưới dạng hình ảnh**, hay chỉ đơn giản là kiểm soát đánh số trang qua các section, các API này cung cấp khả năng kiểm soát chính xác, lập trình được và vẫn duy trì hiệu năng cao.
+
+---
+
+**Cập nhật lần cuối:** 2026-01-14  
+**Kiểm tra với:** Aspose.Words for Java 25.3  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
