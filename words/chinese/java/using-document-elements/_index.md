@@ -67,10 +67,14 @@
 通过本分步教程学习如何在 Aspose.Words for Java 中操作节点。解锁文档处理能力。
 ### [在 Aspose.Words for Java 中使用 OLE 对象和 ActiveX 控件](./using-ole-objects-and-activex/)
 学习在 Aspose.Words for Java 中使用 OLE 对象和 ActiveX 控件。轻松创建交互式文档。立即开始！
+### [在 Aspose.Words for Java 中设置按钮大小 – 插入 ActiveX 命令按钮](./set-button-size-java-insert-activex-command-button-in-word/)
+学习如何在 Aspose.Words for Java 中设置 ActiveX 命令按钮的大小，并将其插入到 Word 文档中。
 ### [在 Aspose.Words for Java 中使用修订版本](./using-revisions/)
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Java 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+学习如何在 Aspose.Words for Java 中插入饼图，创建专业的图表文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

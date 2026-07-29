@@ -64,6 +64,9 @@ Dowiedz się, jak zarządzać i wstawiać **znaki kontrolne** w dokumentach przy
 ### [Mistrzostwo Aspose.Words Java&#58; Kompletny przewodnik po LayoutCollector i LayoutEnumerator dla przetwarzania tekstu](./aspose-words-java-layoutcollector-enumerator-guide/)
 Odkryj moc **LayoutCollector** i **LayoutEnumerator** w Aspose.Words Java dla zaawansowanego przetwarzania tekstu. Naucz się efektywnie zarządzać układem dokumentów, analizować paginację i kontrolować numerację stron.
 
+### [Utwórz pusty dokument Word i dodaj wykres radarowy – przewodnik Java](./create-blank-word-document-and-add-a-radar-chart-java-guide/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i wstawić wykres radarowy przy użyciu Aspose.Words.
+
 ## Typowe scenariusze użycia
 
 | Scenariusz | Jak to pomaga |

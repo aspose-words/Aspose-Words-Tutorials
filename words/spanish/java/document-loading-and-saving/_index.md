@@ -118,6 +118,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [Configurar LoadOptions para Big5 – Guía completa de Java con Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+
 ## Preguntas frecuentes
 
 **Q:** ¿Cómo puedo programáticamente **guardar imágenes de Word** documentos?  

@@ -17,7 +17,7 @@ Khám phá hướng dẫn từng bước toàn diện về hoạt động hình 
 
 ## Tổng quan
 
-Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình khối là rất quan trọng để tạo ra nội dung hấp dẫn và nhiều thông tin. Danh mục hướng dẫn Aspose.Words được tuyển chọn của chúng tôi tập trung vào việc trao quyền cho các nhà phát triển sử dụng Java để thành thạo các tính năng thiết yếu này. Chỉ với hai hướng dẫn toàn diện, bạn sẽ học cách chèn, thao tác và tùy chỉnh hình ảnh và hình khối trong tài liệu của mình một cách hiệu quả. Các hướng dẫn này được thiết kế để giúp bạn tận dụng toàn bộ tiềm năng của Aspose.Words cho Java, đảm bảo rằng các ứng dụng của bạn có thể xử lý các bố cục tài liệu phức tạp một cách dễ dàng. Cho dù bạn đang muốn cải thiện báo cáo, bản trình bày hay bất kỳ ứng dụng nào tập trung vào tài liệu, các hướng dẫn này đều cung cấp hướng dẫn từng bước và các ví dụ thực tế. Bằng cách làm theo các hướng dẫn của chúng tôi, bạn sẽ có được các kỹ năng cần thiết để tạo ra các tài liệu chuyên nghiệp nổi bật.
+Trong lĩnh vực xử lý tài liệu, việc tích hợp hình ảnh và hình khối là rất quan trọng để tạo ra nội dung hấp dẫn và nhiều thông tin. Danh mục hướng dẫn Aspose.Words được tuyển chọn của chúng tôi tập trung vào việc trao quyền cho các nhà phát triển sử dụng Java để thành thạo các tính năng thiết yếu này. Chỉ với hai hướng dẫn toàn diện, bạn sẽ học cách chèn, thao tác và tùy chỉnh hình ảnh và hình dạng trong tài liệu của mình một cách hiệu quả. Các hướng dẫn này được thiết kế để giúp bạn tận dụng toàn bộ tiềm năng của Aspose.Words cho Java, đảm bảo rằng các ứng dụng của bạn có thể xử lý các bố cục tài liệu phức tạp một cách dễ dàng. Cho dù bạn đang muốn cải thiện báo cáo, bản trình bày hay bất kỳ ứng dụng nào tập trung vào tài liệu, các hướng dẫn này đều cung cấp hướng dẫn từng bước và các ví dụ thực tế. Bằng cách làm theo các hướng dẫn của chúng tôi, bạn sẽ có được các kỹ năng cần thiết để tạo ra các tài liệu chuyên nghiệp nổi bật.
 
 ## Những gì bạn sẽ học được
 
@@ -36,6 +36,12 @@ Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy ch�
 
 ### [Tạo tài liệu Word bằng Java – Thêm hình chữ nhật với hiệu ứng bóng](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word bằng Aspose.Words cho Java.
+
+### [Tạo tài liệu Word với các hình dạng trong Java – Hướng dẫn đầy đủ Aspose.Words](./create-word-document-with-shapes-in-java-complete-aspose-wor/)
+Hướng dẫn chi tiết cách tạo tài liệu Word và chèn các hình dạng bằng Aspose.Words cho Java.
+
+### [Cách ẩn hình ảnh trong Word bằng Java – Hướng dẫn từng bước](./how-to-hide-picture-in-word-with-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách ẩn hình ảnh trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

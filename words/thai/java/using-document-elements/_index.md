@@ -67,10 +67,14 @@
 เรียนรู้การจัดการโหนดใน Aspose.Words สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ ปลดล็อกพลังการประมวลผลเอกสาร
 ### [การใช้ OLE Objects และ ActiveX Controls ใน Aspose.Words สำหรับ Java](./using-ole-objects-and-activex/)
 เรียนรู้การใช้ OLE objects และ ActiveX controls ใน Aspose.Words สำหรับ Java สร้างเอกสารแบบโต้ตอบได้อย่างง่ายดาย เริ่มต้นเลยตอนนี้!
+### [ตั้งขนาดปุ่มใน Java – แทรกปุ่มคำสั่ง ActiveX ใน Word](./set-button-size-java-insert-activex-command-button-in-word/)
+เรียนรู้วิธีตั้งค่าขนาดปุ่มและแทรกปุ่มคำสั่ง ActiveX ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 ### [การใช้การแก้ไขใน Aspose.Words สำหรับ Java](./using-revisions/)
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [การแทรกแผนภูมิวงกลมใน Java ด้วย Aspose.Words – คู่มือเต็ม](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+เรียนรู้วิธีแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

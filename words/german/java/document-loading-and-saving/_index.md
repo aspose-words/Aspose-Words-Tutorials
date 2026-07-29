@@ -136,6 +136,9 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend m
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
 
+### [Konfigurieren von LoadOptions für Big5 – Vollständiger Java‑Leitfaden mit Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Erfahren Sie, wie Sie LoadOptions für die Big5‑Kodierung in Java konfigurieren, um asiatische Dokumente korrekt zu laden und zu verarbeiten.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

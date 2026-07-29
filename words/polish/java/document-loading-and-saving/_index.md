@@ -88,6 +88,9 @@ Dowiedz się, jak ładować i zapisywać dokumenty HTML w Javie przy użyciu Asp
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Opanowanie opcji ładowania w Aspose.Words for Java. Dostosuj ładowanie dokumentów, obsługuj szyfrowanie, konwertuj kształty, ustaw wersje Word i wiele więcej dla efektywnego przetwarzania dokumentów w Javie.
 
+### [Konfiguracja LoadOptions dla Big5 – Pełny przewodnik Java z Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Poznaj, jak ustawić LoadOptions dla kodowania Big5 w Aspose.Words for Java, aby prawidłowo ładować dokumenty chińskie. Przewodnik krok po kroku.
+
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 Konfigurowanie opcji ładowania RTF w Aspose.Words for Java. Dowiedz się, jak rozpoznawać tekst UTF‑8 w dokumentach RTF. Przewodnik krok po kroku z przykładami kodu.
 

@@ -52,7 +52,7 @@ Az alábbiakban egy tömör áttekintést talál a tipikus munkafolyamatról. (A
 
 ## Dokumentumok betöltése és mentése – A fő koncepciók
 
-### A dokumentumbetöltés erejének feltárása
+### A dokumentummetöltés erejének feltárása
 
 A dokumentumműveletek valódi elsajátításához először meg kell érteni a dokumentumok hatékony betöltésének művészetét. Az Aspose.Words for Java ezt a feladatot rendkívül egyszerűvé teszi, és oktatóanyagaink minden lépésben végigkísérik.
 
@@ -84,6 +84,7 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 
 ### [HTML dokumentumok betöltése és mentése Aspose.Words for Java‑val](./loading-and-saving-html-documents/)
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
+### [LoadOptions konfigurálása Big5-hez – Teljes Java útmutató az Aspose.Words‑szal](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
 ### [Szövegfájlok betöltése Aspose.Words for Java‑val](./loading-text-files/)
 ### [Haladó mentési beállítások Aspose.Words for Java‑val](./advance-saving-options/)

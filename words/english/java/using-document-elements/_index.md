@@ -44,6 +44,8 @@ In conclusion, mastering document element manipulation using Aspose.Words for Ja
 Remember, practice makes perfect, and with Aspose.Words for Java, you'll be creating, modifying, and enhancing documents like a pro in no time. Happy coding!
 
 ## Using Document Elements Tutorials
+### [Insert pie chart in Java with Aspose.Words – Full Guide](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Learn how to insert a pie chart in Java using Aspose.Words. Full step-by-step guide for creating charts in your documents.
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -72,6 +74,8 @@ Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create i
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+### [set button size java – Insert ActiveX Command Button in Word](./set-button-size-java-insert-activex-command-button-in-word/)
+Learn how to set button size in Java when inserting an ActiveX command button in Word. Step-by-step tutorial for developers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

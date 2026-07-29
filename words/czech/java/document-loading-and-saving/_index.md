@@ -91,6 +91,9 @@ Ovládání možností načítání v Aspose.Words for Java. Přizpůsobte nač�
 ### [Konfigurace RTF možností načítání v Aspose.Words for Java](./configuring-rtf-load-options/)
 Konfigurace RTF možností načítání v Aspose.Words for Java. Naučte se rozpoznávat UTF-8 text v RTF dokumentech. Průvodce krok za krokem s ukázkami kódu.
 
+### [Konfigurace LoadOptions pro Big5 – Kompletní průvodce Java s Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Naučte se nastavit LoadOptions pro kódování Big5 v Javě pomocí Aspose.Words. Kompletní průvodce krok za krokem.
+
 ### [Načítání textových souborů s Aspose.Words for Java](./loading-text-files/)
 Odemkněte sílu Aspose.Words for Java. Naučte se načítat textové dokumenty, spravovat seznamy, zacházet s mezerami a řídit směr textu.
 

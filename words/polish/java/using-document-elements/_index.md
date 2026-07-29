@@ -44,7 +44,7 @@ Pamiętaj, że praktyka czyni mistrza, a dzięki Aspose.Words for Java będziesz
 
 ## Korzystanie z samouczków dotyczących elementów dokumentu
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
-Dowiedz się, jak używać komentarzy w Aspose.Words for Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
+Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
 Naucz się efektywnie używać Aspose.Words dla pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
 ### [Korzystanie z czcionek w Aspose.Words dla Java](./using-fonts/)
@@ -67,10 +67,14 @@ Naucz się używać Markdown w Aspose.Words dla Java dzięki temu samouczkowi kr
 Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
 ### [Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java](./using-ole-objects-and-activex/)
 Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
+### [Ustaw rozmiar przycisku w Javie – Wstaw przycisk ActiveX w Word](./set-button-size-java-insert-activex-command-button-in-word/)
+Dowiedz się, jak ustawić rozmiar przycisku i wstawić przycisk ActiveX w dokumencie Word przy użyciu Aspose.Words for Java.
 ### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
 Poznaj Aspose.Words dla Javy: kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
+### [Wstawianie wykresu kołowego w Javie przy użyciu Aspose.Words – Pełny przewodnik](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Dowiedz się, jak wstawiać wykresy kołowe w dokumentach Word przy użyciu Aspose.Words for Java. Kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

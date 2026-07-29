@@ -67,10 +67,14 @@ Aprende a usar Markdown en Aspose.Words para Java con este tutorial paso a paso.
 Aprenda a manipular nodos en Aspose.Words para Java con este tutorial paso a paso. Desbloquee el potencial del procesamiento de documentos.
 ### [Uso de objetos OLE y controles ActiveX en Aspose.Words para Java](./using-ole-objects-and-activex/)
 Aprenda a usar objetos OLE y controles ActiveX en Aspose.Words para Java. Cree documentos interactivos fácilmente. ¡Empiece ya!
+### [Establecer tamaño del botón en Java – Insertar botón de comando ActiveX en Word](./set-button-size-java-insert-activex-command-button-in-word/)
+Aprenda a ajustar el tamaño de un botón ActiveX en documentos Word usando Aspose.Words para Java.
 ### [Uso de revisiones en Aspose.Words para Java](./using-revisions/)
 Aprenda a usar Aspose.Words para los controles de revisión de Java de forma eficiente. Guía paso a paso para desarrolladores. Optimice la gestión de documentos.
 ### [Uso de secciones en Aspose.Words para Java](./using-sections/)
 Explora Aspose.Words para Java: Una guía completa sobre el uso de secciones. Agrega, elimina, añade y clona secciones con ejemplos de código.
+### [Insertar gráfico de pastel en Java con Aspose.Words – Guía completa](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Aprenda a insertar gráficos de pastel en documentos Word usando Aspose.Words para Java. Guía paso a paso completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
