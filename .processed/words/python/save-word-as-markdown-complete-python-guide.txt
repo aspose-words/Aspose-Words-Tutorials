@@ -1,0 +1,7 @@
+Title: Save Word as Markdown – Complete Python Guide
+Slug: save-word-as-markdown-complete-python-guide
+Category: document-conversion
+ProcessedDate: 2026-05-30T09:35:07.926925
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, how to export equations, export word equations latex, convert docx markdown python
+PRNumber: 196

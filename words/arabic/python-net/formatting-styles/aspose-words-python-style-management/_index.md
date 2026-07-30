@@ -5,7 +5,9 @@
 "url": "/ar/python-net/formatting-styles/aspose-words-python-style-management/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان Aspose.Words باستخدام بايثون: تحسين إدارة أنماط المستندات
 
 ## مقدمة
@@ -186,3 +188,7 @@ license.set_license("path/to/your/license.lic")
 - [توثيق Aspose.Words](https://reference.aspose.com/words/python-net/)
 - [تنزيل Aspose.Words لـ Python](https://releases.aspose.com/words/python/)
 - [صفحة الشراء](https://purchase.aspose.com/buy)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

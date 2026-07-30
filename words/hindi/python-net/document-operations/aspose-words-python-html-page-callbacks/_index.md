@@ -5,7 +5,9 @@
 "url": "/hi/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words के साथ पायथन में कस्टम HTML पेज सेव कॉलबैक को लागू करना
 
 ## परिचय
@@ -149,3 +151,7 @@ A5: शामिल हों [एस्पोज फोरम](https://forum.as
 - **सहायता**: दौरा करना [एस्पोज फोरम](https://forum.aspose.com/c/words/10) प्रश्नों और सामुदायिक सहायता के लिए।
 
 आज ही Python के लिए Aspose.Words में प्रवेश करें और दस्तावेज़ प्रसंस्करण में नई संभावनाओं को अनलॉक करें!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

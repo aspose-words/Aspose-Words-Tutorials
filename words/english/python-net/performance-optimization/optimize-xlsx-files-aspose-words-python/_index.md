@@ -10,7 +10,9 @@ keywords:
 - customize Excel file saving options
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Optimize Excel Files with Aspose.Words for Python: Compression and Customization Techniques
 
 Discover powerful techniques to efficiently compress, organize, and enhance the performance of your Excel documents using Aspose.Words for Python. This tutorial will guide you through optimizing XLSX files by reducing file size, saving multiple sections as separate worksheets, and enabling autodetection of date-time formats.
@@ -179,3 +181,7 @@ Explore further by integrating these features into larger applications or system
 - **Free Trial**: [Try Aspose Free](https://releases.aspose.com/words/python/)
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum Support](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

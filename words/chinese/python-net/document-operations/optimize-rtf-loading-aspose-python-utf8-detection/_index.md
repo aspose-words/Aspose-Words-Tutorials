@@ -5,7 +5,9 @@
 "url": "/zh/python-net/document-operations/optimize-rtf-loading-aspose-python-utf8-detection/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python 中高效的 RTF 加载：使用 Aspose.Words 检测 UTF-8 编码
 
 ## 介绍
@@ -138,3 +140,7 @@ doc = aw.Document("UTF-8 characters.rtf", load_options)
 - [免费试用版](https://releases.aspose.com/words/python/)
 - [临时执照申请](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支持论坛](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

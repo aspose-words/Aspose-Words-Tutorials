@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/document-operations/aspose-words-python-document-management/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Python 中的 Aspose.Words 掌握文件管理：限制標題和簽署 XPS 文檔
 
 在當今數據驅動的世界中，有效地管理文件至關重要。無論您是 IT 專業人士還是希望簡化營運的企業主，將複雜的文件管理功能整合到您的工作流程中都可以顯著提高工作效率。在本綜合教程中，我們將探討如何利用 Aspose.Words for Python 來限制標題層級並對 XPS 文件進行數位簽章 - 這兩個關鍵功能可解決常見的文件處理難題。
@@ -185,3 +187,7 @@ signed_xps.sign_document('YOUR_DOCUMENT_DIRECTORY/morzal.pfx', 'aw', 'YOUR_OUTPU
 **問題 1：如何確保我的數位簽章在 Aspose.Words 中是安全的？**
 - 確保您使用受信任的憑證授權單位來取得您的數位憑證。
 - 定期更新並安全地管理您的金鑰和密碼。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

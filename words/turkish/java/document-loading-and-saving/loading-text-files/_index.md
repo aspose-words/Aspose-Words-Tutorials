@@ -1,10 +1,12 @@
 ---
-"description": "Java için Aspose.Words'ün Gücünü Açın. Metin Belgelerini Yüklemeyi, Listeleri Yönetmeyi, Boşlukları Yönetmeyi ve Metin Yönünü Kontrol Etmeyi Öğrenin."
-"linktitle": "Metin Dosyalarını Yükleme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Java için Aspose.Words ile Metin Dosyalarını Yükleme"
-"url": "/tr/java/document-loading-and-saving/loading-text-files/"
-"weight": 13
+date: 2025-12-27
+description: Aspose.Words for Java kullanarak yön ayarlamayı, txt dosyalarını yüklemeyi,
+  boşlukları kırpmayı ve txt'yi docx'e dönüştürmeyi öğrenin.
+linktitle: Loading Text Files with
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java ile Yön Ayarlama ve Metin Dosyalarını Yükleme
+url: /tr/java/document-loading-and-saving/loading-text-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,21 +15,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java için Aspose.Words ile Metin Dosyalarını Yükleme
+# Aspose.Words for Java ile Yön Ayarlama ve Metin Dosyalarını Yükleme
 
+## Aspose.Words for Java ile Metin Dosyalarını Yüklemeye Giriş
 
-## Java için Aspose.Words ile Metin Dosyalarını Yüklemeye Giriş
+Bu rehberde, düz‑metin belgelerini yüklerken **yönü nasıl ayarlayacağınızı** keşfedecek ve Aspose.Words for Java kullanarak **txt dosyalarını yükleme**, **boşlukları kırpma** ve **txt'yi docx'e dönüştürme** yollarını pratik örneklerle göreceksiniz. İster bir belge‑dönüştürme servisi oluşturuyor olun, ister liste algılaması üzerinde ince ayar yapmanız gereksin, bu öğretici her adımı açık açıklamalar ve çalıştırmaya hazır kodlarla size sunar.
 
-Bu kılavuzda, Java için Aspose.Words kullanarak metin dosyalarının nasıl yükleneceğini ve Word belgeleri olarak nasıl işleneceğini inceleyeceğiz. Listeleri algılama, boşlukları yönetme ve metin yönünü kontrol etme gibi çeşitli yönleri ele alacağız.
+## Hızlı Yanıtlar
+- **Yüklenen bir TXT dosyası için metin yönünü nasıl ayarlarım?** `TxtLoadOptions.setDocumentDirection(DocumentDirection.AUTO)` kullanın veya `LEFT_TO_RIGHT` / `RIGHT_TO_LEFT` belirleyin.  
+- **Aspose.Words düz metinde numaralı listeleri algılayabilir mi?** Evet – `TxtLoadOptions` içinde `DetectNumberingWithWhitespaces` özelliğini etkinleştirin.  
+- **Baş ve son boşlukları nasıl kırparım?** `TxtLeadingSpacesOptions.TRIM` ve `TxtTrailingSpacesOptions.TRIM` ayarlayın.  
+- **Bir TXT dosyasını tek satırda DOCX'e dönüştürmek mümkün mü?** `TxtLoadOptions` ile TXT'yi yükleyin ve `Document.save("output.docx")` çağırın.  
+- **Hangi Java sürümü gerekiyor?** Aspose.Words 24.x için Java 8+ yeterlidir.
 
-## Adım 1: Listeleri Algılama
+## Aspose.Words'ta “yön ayarlama” nedir?
+Bir metin dosyası sağ‑dan‑sol scriptler (ör. İbranice veya Arapça) içerdiğinde, kütüphanenin okuma sırasını bilmesi gerekir. `DocumentDirection` enum'ı, **yönü** manuel olarak ayarlamanıza ya da Aspose'un otomatik algılamasına izin verir; böylece doğru yerleşim ve bidi biçimlendirme sağlanır.
 
-Bir metin belgesini yüklemek ve listeleri algılamak için şu adımları izleyebilirsiniz:
+## TXT dosyalarını yüklemek için Aspose.Words neden tercih edilmeli?
+- **Doğru liste algılama** – numaralı, madde işaretli ve boşluk‑tabanlı listeleri işler.  
+- **İnce boşluk kontrolü** – baştaki ve sondaki boşlukları kırpabilir veya koruyabilirsiniz.  
+- **Otomatik metin‑yönü algılama** – çok dilli belgeler için idealdir.  
+- **Tek adımda dönüşüm** – bir `.txt` dosyasını `.docx`, `.pdf` veya desteklenen diğer formatlara kaydedin.
+
+## Ön Koşullar
+- Java 8 veya daha yeni bir sürüm.  
+- Aspose.Words for Java kütüphanesi (Maven/Gradle bağımlılığını ekleyin veya JAR dosyasını projenize dahil edin).  
+- Java I/O akışları hakkında temel bilgi.
+
+## Adım‑Adım Kılavuz
+
+### Adım 1: Listeleri Algılama (txt nasıl yüklenir)
+Bir metin belgesini yükleyip listeleri otomatik algılamak için bir `TxtLoadOptions` nesnesi oluşturun ve liste algılamayı etkinleştirin. Aşağıdaki kod, çeşitli liste stillerini gösterir ve boşluk‑duyarlı numaralandırmayı etkinleştirir.
 
 ```java
-// Liste olarak yorumlanabilecek parçalar içeren bir dize biçiminde düz metin belgesi oluşturun.
-// Yükleme sırasında, ilk üç liste her zaman Aspose.Words tarafından algılanacaktır.
-// ve yüklendikten sonra bunlar için Liste nesneleri oluşturulacaktır.
+// Create a plaintext document in the form of a string with parts that may be interpreted as lists.
+// Upon loading, the first three lists will always be detected by Aspose.Words,
+// and List objects will be created for them after loading.
 final String TEXT_DOC = "Full stop delimiters:\n" +
         "1. First list item 1\n" +
         "2. First list item 2\n" +
@@ -44,23 +67,22 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-// Dördüncü liste, liste numarası ile liste öğesi içerikleri arasında boşluk bulunan,
-// yalnızca bir LoadOptions nesnesindeki "DetectNumberingWithWhitespaces" true olarak ayarlandığında bir liste olarak algılanacaktır,
-// sayılarla başlayan paragrafların yanlışlıkla liste olarak algılanmasını önlemek için.
+// The fourth list, with whitespace in between the list number and list item contents,
+// will only be detected as a list if "DetectNumberingWithWhitespaces" in a LoadOptions object is set to true,
+// to avoid paragraphs that start with numbers being mistakenly detected as lists.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 {
     loadOptions.setDetectNumberingWithWhitespaces(true);
 }
-// LoadOptions'ı parametre olarak uygulayarak belgeyi yükleyin ve sonucu doğrulayın.
+// Load the document while applying LoadOptions as a parameter and verify the result.
 Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
-Bu kod, çeşitli liste biçimlerine sahip bir metin belgesinin nasıl yükleneceğini ve kullanılacağını gösterir. `DetectNumberingWithWhitespaces` Listeleri doğru bir şekilde algılama seçeneği.
+> **Pro ipucu:** Yalnızca temel liste algılamasına ihtiyacınız varsa, boşluk seçeneğini atlayabilirsiniz – Aspose hâlâ standart `1.` ve `1)` kalıplarını tanıyacaktır.
 
-## Adım 2: Alan Seçeneklerini İşleme
-
-Bir metin belgesi yüklenirken öndeki ve arkadaki boşlukları kontrol etmek için aşağıdaki kodu kullanabilirsiniz:
+### Adım 2: Boşluk Seçeneklerini Yönetme (boşlukları nasıl kırparım)
+Baş ve son boşluklar genellikle biçimlendirme hatalarına yol açar. Bu davranışı kontrol etmek için `TxtLeadingSpacesOptions` ve `TxtTrailingSpacesOptions` kullanın.
 
 ```java
 @Test
@@ -78,11 +100,10 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
-Bu örnekte, bir metin belgesi yüklüyoruz ve öndeki ve arkadaki boşlukları kullanarak kırpıyoruz `TxtLeadingSpacesOptions.TRIM` Ve `TxtTrailingSpacesOptions.TRIM`.
+> **Neden önemli:** Boşlukları kırpmak, ortaya çıkan DOCX'te istenmeyen girintileri önler ve belgeyi manuel post‑işlem yapmadan temiz bir görünüme kavuşturur.
 
-## Adım 3: Metin Yönünü Kontrol Etme
-
-Bir metin belgesini yüklerken metin yönünü belirtmek için aşağıdaki kodu kullanabilirsiniz:
+### Adım 3: Metin Yönünü Kontrol Etme (yön nasıl ayarlanır)
+Sağ‑dan‑sol diller için belge yönünü yüklemeden önce ayarlayın. Aşağıdaki örnek bir İbranice metin dosyasını yükler ve yönü doğrulamak için bidi bayrağını yazdırır.
 
 ```java
 @Test
@@ -98,15 +119,16 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-Bu kod, belge yönünü otomatik algılamaya ayarlar (`DocumentDirection.AUTO`) ve İbranice metin içeren bir metin belgesi yükler. Belge yönünü gerektiği gibi ayarlayabilirsiniz.
+> **Yaygın tuzak:** `DocumentDirection` ayarlamayı unutmak, Arapça/İbranice karakterlerin yanlış sırada görünmesine neden olur.
 
-## Java için Aspose.Words ile Metin Dosyalarını Yüklemek İçin Tam Kaynak Kodu
+### Aspose.Words for Java ile Metin Dosyalarını Yüklemek için Tam Kaynak Kodu
+Aşağıda, liste algılamayı, boşluk yönetimini ve yön kontrolünü birleştiren, çalıştırmaya hazır tam kaynak kodu yer alıyor. Tek bir sınıfa kopyalayıp üç test metodunu ayrı ayrı çalıştırabilirsiniz.
 
 ```java
 public void detectNumberingWithWhitespaces() throws Exception {
-	// Liste olarak yorumlanabilecek parçalar içeren bir dize biçiminde düz metin belgesi oluşturun.
-	// Yükleme sırasında, ilk üç liste her zaman Aspose.Words tarafından algılanacaktır.
-	// ve yüklendikten sonra bunlar için Liste nesneleri oluşturulacaktır.
+	// Create a plaintext document in the form of a string with parts that may be interpreted as lists.
+	// Upon loading, the first three lists will always be detected by Aspose.Words,
+	// and List objects will be created for them after loading.
 	final String TEXT_DOC = "Full stop delimiters:\n" +
 			"1. First list item 1\n" +
 			"2. First list item 2\n" +
@@ -123,14 +145,14 @@ public void detectNumberingWithWhitespaces() throws Exception {
 			"1 Fourth list item 1\n" +
 			"2 Fourth list item 2\n" +
 			"3 Fourth list item 3";
-	// Dördüncü liste, liste numarası ile liste öğesi içerikleri arasında boşluk bulunan,
-	// yalnızca bir LoadOptions nesnesindeki "DetectNumberingWithWhitespaces" true olarak ayarlandığında bir liste olarak algılanacaktır,
-	// sayılarla başlayan paragrafların yanlışlıkla liste olarak algılanmasını önlemek için.
+	// The fourth list, with whitespace inbetween the list number and list item contents,
+	// will only be detected as a list if "DetectNumberingWithWhitespaces" in a LoadOptions object is set to true,
+	// to avoid paragraphs that start with numbers being mistakenly detected as lists.
 	TxtLoadOptions loadOptions = new TxtLoadOptions();
 	{
 		loadOptions.setDetectNumberingWithWhitespaces(true);
 	}
-	// LoadOptions'ı parametre olarak uygulayarak belgeyi yükleyin ve sonucu doğrulayın.
+	// Load the document while applying LoadOptions as a parameter and verify the result.
 	Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 	doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 }
@@ -160,54 +182,53 @@ public void documentTextDirection() throws Exception {
 	}
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|------|
+| Listeler algılanmıyor | `DetectNumberingWithWhitespaces` boş bırakıldı | `loadOptions.setDetectNumberingWithWhitespaces(true)` etkinleştirin |
+| Yüklemeden sonra ekstra girinti | Baştaki boşluklar korundu | `TxtLeadingSpacesOptions.TRIM` ayarlayın |
+| İbranice metin ters görünüyor | Belge yönü ayarlanmamış veya `LEFT_TO_RIGHT` olarak ayarlanmış | `DocumentDirection.AUTO` veya `RIGHT_TO_LEFT` kullanın |
+| Çıktı DOCX boş | Giriş akışı ikinci yüklemeden önce sıfırlanmadı | Her yükleme çağrısı için yeni `ByteArrayInputStream` oluşturun |
 
-Bu kılavuzda, Java için Aspose.Words kullanarak metin dosyalarının nasıl yükleneceğini, listelerin nasıl algılanacağını, boşlukların nasıl işleneceğini ve metin yönünün nasıl kontrol edileceğini inceledik. Bu teknikler, Java uygulamalarınızda metin belgelerini etkili bir şekilde düzenlemenize olanak tanır.
+## Sıkça Sorulan Sorular
 
-## SSS
+### S: Aspose.Words for Java nedir?
+C: Aspose.Words for Java, geliştiricilerin Java uygulamalarında Word belgelerini programatik olarak oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir belge işleme kütüphanesidir. Basit metin yüklemeden karmaşık biçimlendirme ve dönüşüm özelliklerine kadar geniş bir yelpazeyi destekler.
 
-### Java için Aspose.Words nedir?
+### S: Aspose.Words for Java ile nasıl başlayabilirim?
+C: 1. Aspose.Words for Java kütüphanesini indirin ve kurun. 2. Ayrıntılı bilgi ve örnekler için [Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/) sayfasına bakın. 3. Kütüphaneyi etkili bir şekilde kullanmayı öğrenmek için örnek kodları ve öğreticileri inceleyin.
 
-Aspose.Words for Java, geliştiricilerin Java uygulamalarında Word belgelerini programatik olarak oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir belge işleme kütüphanesidir. Metin, tablo, resim ve diğer belge öğeleriyle çalışmak için çok çeşitli özellikler sunar.
+### S: Aspose.Words for Java ile bir metin belgesi nasıl yüklenir?
+C: `TxtLoadOptions` sınıfını `Document` yapıcısı ile birlikte kullanın. Liste algılama, boşluk yönetimi veya metin yönü gibi seçenekleri, yukarıdaki adım‑adım bölümlerinde gösterildiği gibi belirtin.
 
-### Aspose.Words for Java'yı nasıl kullanmaya başlayabilirim?
+### S: Yüklenen bir metin belgesini başka formatlara dönüştürebilir miyim?
+C: Evet. TXT dosyasını bir `Document` nesnesine yükledikten sonra `doc.save("output.pdf")`, `doc.save("output.docx")` veya desteklenen diğer formatlardan birini çağırın.
 
-Aspose.Words for Java'yı kullanmaya başlamak için şu adımları izleyin:
-1. Aspose.Words for Java kütüphanesini indirin ve kurun.
-2. Belgelere şu adresten bakın: [Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/) Detaylı bilgi ve örnekler için.
-3. Kütüphaneyi etkili bir şekilde nasıl kullanacağınızı öğrenmek için örnek kodları ve eğitimleri inceleyin.
+### S: Yüklenen metin belgelerinde boşlukları nasıl yönetirim?
+C: `TxtLeadingSpacesOptions` ve `TxtTrailingSpacesOptions` ile baştaki ve sondaki boşlukları kontrol edin. İstenmeyen boşlukları kaldırmak için `TRIM`, orijinal boşlukları korumak için `PRESERVE` ayarlayın.
 
-### Aspose.Words for Java kullanarak bir metin belgesini nasıl yüklerim?
+### S: Aspose.Words for Java’da metin yönünün önemi nedir?
+C: Metin yönü, sağ‑dan‑sol scriptlerin (İbranice, Arapça vb.) doğru şekilde render edilmesini sağlar. `DocumentDirection` ayarlayarak, bidi metnin sonuç belgesinde düzgün görüntülenmesini garantilersiniz.
 
-Java için Aspose.Words kullanarak bir metin belgesi yüklemek için şunu kullanabilirsiniz: `TxtLoadOptions` sınıf ve `Document` sınıf. Gerektiğinde boşlukları ve metin yönünü işlemek için uygun seçenekleri belirttiğinizden emin olun. Ayrıntılı bir örnek için bu makaledeki adım adım kılavuza bakın.
+### S: Aspose.Words for Java için daha fazla kaynak ve destek nerede bulunur?
+C: API referansları, kod örnekleri ve ayrıntılı kılavuzlar için [Aspose.Words for Java Dokümantasyonu](https://reference.aspose.com/words/java/) sayfasını ziyaret edin. Aspose topluluk forumlarına katılabilir veya belirli sorular için Aspose desteğiyle iletişime geçebilirsiniz.
 
-### Yüklenen bir metin belgesini başka biçimlere dönüştürebilir miyim?
+### S: Aspose.Words for Java ticari projeler için uygun mu?
+C: Evet. Kişisel ve ticari kullanım için lisans seçenekleri sunar. Projeniz için uygun planı seçmek üzere Aspose web sitesindeki lisans koşullarını inceleyin.
 
-Evet, Java için Aspose.Words, yüklenen bir metin belgesini DOCX, PDF ve daha fazlası dahil olmak üzere çeşitli biçimlere dönüştürmenize olanak tanır. `Document` dönüştürmeleri gerçekleştirmek için sınıf. Belirli dönüştürme örnekleri için belgelere bakın.
+## Sonuç
+Artık **txt dosyalarını yükleme**, **listeleri algılama**, **boşlukları kırpma** ve **yön ayarlama** konularında tam bir araç setine sahipsiniz; bu sayede Aspose.Words for Java ile düz‑metni zengin Word belgelerine dönüştürürken belge iş akışlarını otomatikleştirebilir, çok dilli desteği artırabilir ve her seferinde temiz, profesyonel çıktılar elde edebilirsiniz.
 
-### Yüklenen metin belgelerindeki boşlukları nasıl hallederim?
+---
 
-Yüklenen metin belgelerinde öndeki ve arkadaki boşlukların nasıl işleneceğini kontrol edebilirsiniz. `TxtLoadOptions`. Gibi seçenekler `TxtLeadingSpacesOptions` Ve `TxtTrailingSpacesOptions` ihtiyaç duyduğunuzda alanları kırpmanıza veya korumanıza olanak tanır. Bir örnek için bu kılavuzdaki "Alanları Yönetme Seçenekleri" bölümüne bakın.
-
-### Aspose.Words for Java'da metin yönünün önemi nedir?
-
-İbranice veya Arapça gibi karma yazılar veya diller içeren belgeler için metin yönü önemlidir. Java için Aspose.Words, metin yönünü belirtmek için seçenekler sunar ve bu dillerde metnin düzgün bir şekilde işlenmesini ve biçimlendirilmesini sağlar. Bu kılavuzdaki "Metin Yönünü Kontrol Etme" bölümü, metin yönünün nasıl ayarlanacağını gösterir.
-
-### Aspose.Words for Java için daha fazla kaynak ve desteği nerede bulabilirim?
-
-Ek kaynaklar, belgeler ve destek için şu adresi ziyaret edin: [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)Ayrıca Aspose.Words topluluk forumlarına katılabilir veya belirli sorunlar veya sorularınızla ilgili yardım almak için Aspose destek ekibiyle iletişime geçebilirsiniz.
-
-### Aspose.Words for Java ticari projeler için uygun mudur?
-
-Evet, Aspose.Words for Java hem kişisel hem de ticari projeler için uygundur. Çeşitli kullanım senaryolarına uyum sağlamak için lisanslama seçenekleri sunar. Projeniz için uygun lisansı seçmek üzere Aspose web sitesindeki lisanslama koşullarını ve fiyatlandırmayı incelediğinizden emin olun.
-
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

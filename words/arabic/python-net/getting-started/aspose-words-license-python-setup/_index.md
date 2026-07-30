@@ -5,7 +5,9 @@
 "url": "/ar/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # كيفية إعداد ترخيص Aspose.Words في Python باستخدام ملف أو مجرى
 
 ## مقدمة
@@ -197,3 +199,7 @@ def apply_license_from_stream(stream):
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
 
 مع هذا الدليل، أنت على الطريق الصحيح للاستفادة من Aspose.Words بفعالية في تطبيقات بايثون. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

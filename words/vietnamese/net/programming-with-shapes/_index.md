@@ -33,7 +33,11 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Mỏ neo dọc](./vertical-anchor/) | Tìm hiểu cách thiết lập vị trí neo dọc cho hộp văn bản trong tài liệu Word bằng Aspose.Words cho .NET. Có kèm hướng dẫn từng bước dễ dàng.|
 | [Phát hiện hình dạng nghệ thuật thông minh](./detect-smart-art-shape/) | Tìm hiểu cách phát hiện hình dạng SmartArt trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn toàn diện này. Hoàn hảo để tự động hóa quy trình làm việc tài liệu của bạn. |
 | [Cập nhật Bản vẽ nghệ thuật thông minh](./update-smart-art-drawing/) | Tìm hiểu cách cập nhật bản vẽ Smart Art trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đảm bảo hình ảnh của bạn luôn chính xác. |
-
+| [Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn từng bước](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Tìm hiểu cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Tạo tài liệu Word với hình chữ nhật có bóng – Hướng dẫn từng bước](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Tìm hiểu cách tạo tài liệu Word có hình chữ nhật có bóng bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Tạo hình chữ nhật trong Word bằng C# – Hướng dẫn từng bước](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Tìm hiểu cách tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Hướng dẫn bóng đổ hình dạng Aspose.Words – Thêm bóng đổ cho hình dạng Word trong C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Hướng dẫn cách thêm bóng đổ cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET và C#. |
+| [Tạo tài liệu Word trống với hình chữ nhật có bóng – Hướng dẫn từng bước](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Tìm hiểu cách tạo tài liệu Word trống và chèn hình chữ nhật có bóng bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

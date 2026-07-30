@@ -5,7 +5,9 @@
 "url": "/th/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # วิธีจัดการตัวแปรเอกสารด้วย Aspose.Words ใน Python: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ
@@ -161,3 +163,7 @@
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
 สำรวจทรัพยากรเหล่านี้เพื่อเพิ่มความเข้าใจและการใช้งาน Aspose.Words ใน Python ของคุณให้มากขึ้น เขียนโค้ดอย่างมีความสุข!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

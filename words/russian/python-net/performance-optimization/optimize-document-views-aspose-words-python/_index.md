@@ -5,7 +5,9 @@
 "url": "/ru/python-net/performance-optimization/optimize-document-views-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Оптимизируйте просмотр документов с помощью Aspose.Words в Python
 
 ## Производительность и оптимизация
@@ -234,3 +236,7 @@ set_forms_design_mode(True)
 
 ## Заключение
 Следуя этому руководству, вы сможете эффективно использовать Aspose.Words для Python для настройки представлений документов. Это не только улучшает пользовательский опыт, но и обеспечивает гибкость в представлении документов на разных платформах.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/vi/python-net/document-operations/fix-broken-links-chm-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cách sửa liên kết bị hỏng trong tệp CHM bằng Aspose.Words cho Python
 
 ## Giới thiệu
@@ -145,3 +147,7 @@ Sẵn sàng thử tối ưu hóa liên kết CHM của bạn? Hãy khám phá th
 - **Tải về**: [Aspose.Words cho Python phát hành](https://releases.aspose.com/words/python/)
 - **Mua & Dùng thử**: [Nhận Giấy phép hoặc Dùng thử miễn phí](https://purchase.aspose.com/buy)
 - **Diễn đàn hỗ trợ**: [Cộng đồng hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

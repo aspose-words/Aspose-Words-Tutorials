@@ -5,7 +5,9 @@
 "url": "/nl/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Het beheersen van het maken en beheren van slimme tags in Word met Aspose.Words voor Python
 
 ## Invoering
@@ -236,3 +238,7 @@ Voor meer informatie kunt u de volgende bronnen raadplegen:
 - **Ondersteuningsforum**: Betrek de gemeenschap bij [Aspose's Support Forum](https://forum.aspose.com/c/words/10)
 
 Met deze uitgebreide handleiding bent u nu klaar om Aspose.Words voor Python te gebruiken bij het maken en beheren van slimme tags in uw Word-documenten. Veel plezier met coderen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/vi/python-net/getting-started/aspose-words-python-metered-licensing-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cấp phép theo mét trong Aspose.Words cho Python
 
 ## Giới thiệu
@@ -173,3 +175,7 @@ A5: Dữ liệu sử dụng không được gửi theo thời gian thực nên c
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/words/10)
 
 Hãy bắt đầu hành trình cùng Aspose.Words for Python ngay hôm nay và tận dụng tối đa chế độ cấp phép theo giới hạn để tối ưu hóa nhu cầu xử lý tài liệu của bạn!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

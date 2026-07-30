@@ -1,10 +1,12 @@
 ---
-"description": "Aspose.Words for Java를 활용한 마스터 문서 제작. 텍스트, 표, 이미지 등을 추가하는 단계별 가이드. 멋진 Word 문서를 손쉽게 제작하세요."
-"linktitle": "DocumentBuilder를 사용하여 콘텐츠 추가"
-"second_title": "Aspose.Words Java 문서 처리 API"
-"title": "Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가"
-"url": "/ko/java/document-manipulation/adding-content-using-documentbuilder/"
-"weight": 26
+date: 2026-01-01
+description: Aspose.Words for Java DocumentBuilder를 사용하여 양식 필드를 만들고 텍스트, 표, 이미지, 하이퍼링크
+  등을 추가하는 방법을 배웁니다. 개발자를 위한 단계별 가이드.
+linktitle: Adding Content using DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java에서 DocumentBuilder를 사용하여 양식 필드를 만들고 콘텐츠를 추가하는 방법
+url: /ko/java/document-manipulation/adding-content-using-documentbuilder/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,138 +15,146 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.Words에서 DocumentBuilder를 사용하여 콘텐츠 추가
+# Aspose.Words for Java의 DocumentBuilder를 사용하여 콘텐츠 추가
 
+## Aspose.Words for Java의 DocumentBuilder를 사용하여 콘텐츠 추가 소개
 
-## Aspose.Words for Java에서 DocumentBuilder를 사용하여 콘텐츠 추가 소개
+## 빠른 답변
+- **폼 필드를 어떻게 생성하나요?** `DocumentBuilder`에서 `insertTextInput`, `insertCheckBox` 또는 `insertComboBox`를 사용합니다.
+- **일반 텍스트를 추가하는 메서드는?** `builder.write("Your text")` 또는 `builder.writeln("Your text")`를 호출합니다.
+- **수평 구분선을 삽입할 수 있나요?** 예—`builder.insertHorizontalRule()`가 선 구분자를 추가합니다.
+- **HTML을 삽입하려면?** `builder.insertHtml("<p>HTML content</p>")`를 사용합니다.
+- **인라인 이미지를 추가하려면?** `builder.insertImage("path/to/image.png")`가 텍스트 흐름 내에 이미지를 배치합니다.
 
-이 단계별 가이드에서는 Aspose.Words for Java의 DocumentBuilder를 사용하여 Word 문서에 다양한 유형의 콘텐츠를 추가하는 방법을 살펴보겠습니다. 텍스트, 표, 수평선, 양식 필드, HTML, 하이퍼링크, 목차, 인라인 및 플로팅 이미지, 단락 등을 삽입하는 방법을 다룹니다. 시작해 볼까요!
+## DocumentBuilder란 무엇이며 폼 필드 생성에 왜 사용하는가?
 
-## 필수 조건
+`DocumentBuilder`는 Aspose.Words의 유창한 API로, 프로그래밍 방식으로 Word 문서를 구성하고 편집합니다. 저수준 OpenXML 구조를 추상화하여 **폼 필드**와 같은 추가하고자 하는 *무엇*에 집중하게 해 주며, XML이 어떻게 보이는지는 신경 쓰지 않아도 됩니다. 이는 동적 폼, 계약서 또는 사용자 상호작용이 필요한 모든 문서를 생성하는 데 이상적입니다.
 
-시작하기 전에 프로젝트에 Aspose.Words for Java 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다. [여기](https://releases.aspose.com/words/java/).
+## 전제 조건
 
-## 텍스트 추가
+시작하기 전에 프로젝트에 Aspose.Words for Java 라이브러리가 설치되어 있는지 확인하십시오. [here](https://releases.aspose.com/words/java/)에서 다운로드할 수 있습니다.
+
+## 텍스트 추가 (텍스트 추가 방법)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 간단한 텍스트 단락 삽입
+// Insert a simple text paragraph
 builder.write("This is a simple text paragraph.");
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 테이블 추가
+## 표 추가
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 테이블 시작
+// Start a table
 Table table = builder.startTable();
 
-// 셀 및 콘텐츠 삽입
+// Insert cells and content
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// 테이블을 끝내다
+// End the table
 builder.endTable();
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 수평선 추가
+## 수평 구분선 추가 (수평 구분선 추가)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 수평선 삽입
+// Insert a horizontal rule
 builder.insertHorizontalRule();
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 양식 필드 추가
+## 폼 필드 추가 (폼 필드 생성)
 
-### 텍스트 입력 양식 필드
+### 텍스트 입력 폼 필드
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 텍스트 입력 양식 필드 삽입
+// Insert a text input form field
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### 체크박스 양식 필드
+### 체크 박스 폼 필드
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 체크박스 양식 필드 삽입
+// Insert a check box form field
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### 콤보 상자 양식 필드
+### 콤보 박스 폼 필드
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 콤보 상자의 항목 정의
+// Define items for the combo box
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// 콤보 상자 양식 필드 삽입
+// Insert a combo box form field
 builder.insertComboBox("DropDown", items, 0);
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## HTML 추가
+## HTML 추가 (HTML 삽입)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// HTML 콘텐츠 삽입
+// Insert HTML content
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 하이퍼링크 추가
+## 하이퍼링크 추가 (하이퍼링크 추가 방법)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 하이퍼링크 삽입
+// Insert a hyperlink
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", 거짓);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -154,54 +164,54 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 목차 삽입
+// Insert a table of contents
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// 문서 내용 추가
+// Add document content
 // ...
 
-// 목차 업데이트
+// Update the table of contents
 doc.updateFields();
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
 ## 이미지 추가
 
-### 인라인 이미지
+### 인라인 이미지 (인라인 이미지 삽입)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 인라인 이미지 삽입
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### 떠다니는 이미지
+### 플로팅 이미지
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 떠 있는 이미지 삽입
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 문단 추가
+## 단락 추가
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 문단 서식 설정
+// Set paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -214,62 +224,61 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// 문단 삽입
+// Insert a paragraph
 builder.writeln("This is a formatted paragraph.");
 
-// 문서를 저장하세요
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 10단계: 커서 이동
+## 커서 이동 (단계 10)
 
-다음과 같은 다양한 방법을 사용하여 문서 내 커서 위치를 제어할 수 있습니다. `moveToParagraph`, `moveToCell`등이 있습니다. 예를 들어 다음과 같습니다.
+문서 내에서 커서 위치를 `moveToParagraph`, `moveToCell` 등과 같은 메서드를 사용하여 제어할 수 있습니다.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 커서를 특정 문단으로 이동합니다
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// 새 커서 위치에 콘텐츠 추가
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-다음은 Aspose.Words for Java의 DocumentBuilder를 사용하여 수행할 수 있는 몇 가지 일반적인 작업입니다. 더 고급 기능과 사용자 정의 옵션은 라이브러리 문서를 참조하세요. 즐거운 문서 작성 되세요!
-
+이것은 Aspose.Words for Java의 `DocumentBuilder`를 사용하여 수행할 수 있는 일반적인 작업들입니다. 보다 고급 기능 및 사용자 지정 옵션은 라이브러리 문서를 살펴보세요. 즐거운 문서 제작 되세요!
 
 ## 결론
 
-이 종합 가이드에서는 Aspose.Words for Java의 DocumentBuilder를 사용하여 Word 문서에 다양한 유형의 콘텐츠를 추가하는 기능을 살펴보았습니다. 텍스트, 표, 가로줄, 양식 필드, HTML, 하이퍼링크, 목차, 이미지, 단락, 커서 이동 등을 다루었습니다.
+이 포괄적인 가이드에서는 Aspose.Words for Java의 `DocumentBuilder`를 사용하여 **폼 필드**를 생성하고 텍스트, 표, 수평 구분선, HTML, 하이퍼링크, 목차, 이미지, 서식이 적용된 단락 및 커서 탐색 등 다양한 유형의 콘텐츠를 추가하는 방법을 보여주었습니다. 이제 프로그래밍 방식으로 동적이고 인터랙티브한 Word 문서를 생성할 수 있는 탄탄한 기반을 갖추게 되었습니다.
 
-## 자주 묻는 질문
+## FAQ
 
-### 질문: Java용 Aspose.Words란 무엇인가요?
+### Q: Aspose.Words for Java란 무엇인가요?
 
-A: Aspose.Words for Java는 개발자가 Microsoft Word 문서를 프로그래밍 방식으로 생성, 수정 및 조작할 수 있도록 지원하는 Java 라이브러리입니다. 문서 생성, 서식 지정 및 콘텐츠 삽입을 위한 다양한 기능을 제공합니다.
+A: Aspose.Words for Java는 개발자가 Microsoft Word 문서를 프로그래밍 방식으로 생성, 수정 및 조작할 수 있도록 하는 Java 라이브러리입니다. 문서 생성, 서식 지정 및 콘텐츠 삽입을 위한 다양한 기능을 제공합니다.
 
-### 질문: 문서에 목차를 추가하려면 어떻게 해야 하나요?
+### Q: 문서에 목차를 어떻게 추가할 수 있나요?
 
-A: 목차를 추가하려면 다음을 사용하세요. `DocumentBuilder` 문서에 목차 필드를 삽입하려면 콘텐츠를 추가한 후 문서의 필드를 업데이트하여 목차를 채워야 합니다. 예를 들어 다음과 같습니다.
+A: 목차를 추가하려면 `DocumentBuilder`를 사용하여 TOC 필드를 삽입하고, 콘텐츠를 추가한 후 `doc.updateFields()`를 호출합니다.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 목차 필드 삽입
+// Insert a table of contents field
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// 문서 내용 추가
+// Add document content
 // ...
 
-// 목차 업데이트
+// Update the table of contents
 doc.updateFields();
 ```
 
-### 질문: Aspose.Words for Java를 사용하여 문서에 이미지를 삽입하려면 어떻게 해야 하나요?
+### Q: Aspose.Words for Java를 사용하여 문서에 이미지를 어떻게 삽입하나요?
 
-A: 인라인 및 플로팅 이미지를 삽입할 수 있습니다. `DocumentBuilder`다음은 두 가지 모두에 대한 예입니다.
+A: `DocumentBuilder`를 사용하면 인라인 이미지와 플로팅 이미지를 모두 삽입할 수 있습니다.
 
 #### 인라인 이미지:
 
@@ -277,29 +286,29 @@ A: 인라인 및 플로팅 이미지를 삽입할 수 있습니다. `DocumentBui
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 인라인 이미지 삽입
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 ```
 
-#### 떠다니는 이미지:
+#### 플로팅 이미지:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 떠 있는 이미지 삽입
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### 질문: 콘텐츠를 추가할 때 텍스트와 문단의 서식을 지정할 수 있나요?
+### Q: 콘텐츠를 추가할 때 텍스트와 단락을 서식 지정할 수 있나요?
 
-A: 예, 다음을 사용하여 텍스트와 문단을 서식 지정할 수 있습니다. `DocumentBuilder`글꼴 속성, 단락 정렬, 들여쓰기 등을 설정할 수 있습니다. 예를 들어 다음과 같습니다.
+A: 예, `DocumentBuilder`를 사용하여 텍스트와 단락을 서식 지정할 수 있습니다. 콘텐츠를 쓰기 전에 글꼴 속성, 단락 정렬, 들여쓰기 등을 설정하십시오.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 글꼴 및 문단 서식 설정
+// Set font and paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -312,34 +321,37 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// 서식이 지정된 문단 삽입
+// Insert a formatted paragraph
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### 질문: 문서 내에서 커서를 특정 위치로 이동하려면 어떻게 해야 하나요?
+### Q: 문서 내 특정 위치로 커서를 이동하려면 어떻게 하나요?
 
-A: 다음과 같은 방법을 사용하여 커서 위치를 제어할 수 있습니다. `moveToParagraph`, `moveToCell`등이 있습니다. 예를 들어 다음과 같습니다.
+A: `moveToParagraph`, `moveToCell` 등과 같은 메서드를 사용하여 새 콘텐츠를 삽입하기 전에 커서를 원하는 위치에 배치할 수 있습니다.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 커서를 특정 문단으로 이동합니다
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// 새 커서 위치에 콘텐츠 추가
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-다음은 Aspose.Words for Java의 DocumentBuilder를 시작하는 데 도움이 되는 몇 가지 일반적인 질문과 답변입니다. 더 궁금한 점이 있거나 추가 지원이 필요하면 다음을 참조하세요. [도서관 문서](https://reference.aspose.com/words/java/) 또는 Aspose.Words 커뮤니티와 지원 리소스에서 도움을 구하세요.
+이 답변들은 Aspose.Words for Java의 `DocumentBuilder`를 사용할 때 가장 일반적인 시나리오를 다룹니다. 자세한 내용은 [library's documentation](https://reference.aspose.com/words/java/)을 참고하거나 Aspose.Words 커뮤니티에 참여하여 지원을 받으세요.
 
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

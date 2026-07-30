@@ -1,10 +1,13 @@
 ---
-"description": "Pelajari cara menambahkan tanda air ke dokumen di Aspose.Words untuk Java. Sesuaikan tanda air teks dan gambar untuk dokumen yang tampak profesional."
-"linktitle": "Menggunakan Tanda Air pada Dokumen"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Menggunakan Watermark pada Dokumen di Aspose.Words untuk Java"
-"url": "/id/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2025-12-18
+description: Pelajari cara menambahkan watermark ke dokumen dengan Aspose.Words untuk
+  Java, termasuk contoh watermark gambar, mengubah warna watermark, mengatur transparansi
+  watermark, dan menghapus watermark dari dokumen.
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: Cara Menambahkan Watermark ke Dokumen Menggunakan Aspose.Words untuk Java
+url: /id/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +16,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggunakan Watermark pada Dokumen di Aspose.Words untuk Java
+# Cara Menambahkan Watermark ke Dokumen Menggunakan Aspose.Words untuk Java
 
+## Pendahuluan tentang Menambahkan Watermark ke Dokumen dalam Aspose.Words untuk Java
 
-## Pengantar Menambahkan Tanda Air ke Dokumen di Aspose.Words untuk Java
+Dalam tutorial ini Anda akan belajar **cara menambahkan watermark** ke dokumen Word dengan Aspose.Words untuk Java. Watermark adalah cara cepat untuk menandai file sebagai rahasia, draf, atau disetujui, dan dapat berbasis teks atau gambar. Kami akan membahas cara menyiapkan pustaka, membuat watermark teks dan gambar, menyesuaikan tampilan mereka (termasuk mengubah warna watermark dan mengatur transparansi watermark), serta bahkan menghapus watermark dari dokumen ketika tidak lagi diperlukan.
 
-Dalam tutorial ini, kita akan membahas cara menambahkan tanda air ke dokumen menggunakan API Aspose.Words for Java. Tanda air merupakan cara yang berguna untuk memberi label pada dokumen dengan teks atau gambar untuk menunjukkan status, kerahasiaan, atau informasi relevan lainnya. Kami akan membahas tanda air teks dan gambar dalam panduan ini.
+## Jawaban Cepat
+- **Apa itu watermark?** Sebuah lapisan semi‑transparan (teks atau gambar) yang muncul di belakang konten utama dokumen.  
+- **Bisakah saya menambahkan beberapa watermark?** Ya – buat beberapa objek `Shape` dan tambahkan masing‑masing ke bagian yang diinginkan.  
+- **Bagaimana cara mengubah warna watermark?** Sesuaikan properti `Color` dalam `TextWatermarkOptions`.  
+- **Apakah ada contoh watermark gambar?** Lihat bagian “Menambahkan Watermark Gambar” di bawah.  
+- **Apakah saya memerlukan lisensi untuk menghapus watermark?** Lisensi Aspose.Words yang valid diperlukan untuk penggunaan produksi.
 
 ## Menyiapkan Aspose.Words untuk Java
 
-Sebelum kita mulai menambahkan tanda air ke dokumen, kita perlu menyiapkan Aspose.Words untuk Java. Ikuti langkah-langkah berikut untuk memulai:
+Sebelum kita mulai menambahkan watermark ke dokumen, kita perlu menyiapkan Aspose.Words untuk Java. Ikuti langkah‑langkah berikut untuk memulai:
 
-1. Unduh Aspose.Words untuk Java dari [Di Sini](https://releases.aspose.com/words/java/).
-2. Tambahkan pustaka Aspose.Words untuk Java ke proyek Java Anda.
-3. Impor kelas yang diperlukan dalam kode Java Anda.
+1. Unduh Aspose.Words untuk Java dari [here](https://releases.aspose.com/words/java/).  
+2. Tambahkan pustaka Aspose.Words untuk Java ke proyek Java Anda.  
+3. Impor kelas‑kelas yang diperlukan dalam kode Java Anda.
 
-Sekarang setelah perpustakaannya disiapkan, mari kita lanjutkan dengan menambahkan tanda air.
+Setelah pustaka siap, mari kita selami pembuatan watermark yang sebenarnya.
 
-## Menambahkan Tanda Air Teks
+## Menambahkan Watermark Teks
 
-Tanda air teks merupakan pilihan umum saat Anda ingin menambahkan informasi tekstual ke dokumen Anda. Berikut cara menambahkan tanda air teks menggunakan Aspose.Words untuk Java:
+Watermark teks adalah pilihan umum ketika Anda ingin menambahkan informasi teks ke dokumen Anda. Berikut cara menambahkan watermark teks menggunakan Aspose.Words untuk Java:
 
 ```java
-// Buat contoh Dokumen
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Tentukan TextWatermarkOptions
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +55,56 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// Atur teks dan opsi tanda air
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// Simpan dokumen dengan tanda air
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## Menambahkan Tanda Air Gambar
+**Mengapa ini penting:** Dengan menyesuaikan `setFontFamily`, `setFontSize`, dan `setColor` Anda dapat **mengubah warna watermark** agar sesuai dengan merek Anda, dan `setSemitransparent(true)` memungkinkan Anda **mengatur transparansi watermark** untuk efek yang halus.
 
-Selain tanda air teks, Anda juga dapat menambahkan tanda air gambar ke dokumen Anda. Berikut cara menambahkan tanda air gambar:
+## Menambahkan Watermark Gambar
+
+Selain watermark teks, Anda juga dapat menambahkan watermark gambar ke dokumen Anda. Di bawah ini adalah **contoh watermark gambar** yang menunjukkan cara menyematkan logo atau stempel PNG:
 
 ```java
-// Buat contoh Dokumen
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Muat gambar untuk tanda air
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// Atur ukuran dan posisi tanda air
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// Tambahkan tanda air ke dokumen
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// Simpan dokumen dengan tanda air
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## Menyesuaikan Tanda Air
+Anda dapat mengulang blok ini dengan gambar atau posisi yang berbeda untuk **menambahkan beberapa watermark** ke satu file.
 
-Anda dapat menyesuaikan tanda air dengan menyesuaikan tampilan dan posisinya. Untuk tanda air teks, Anda dapat mengubah fon, ukuran, warna, dan tata letak. Untuk tanda air gambar, Anda dapat mengubah ukuran dan posisinya seperti yang ditunjukkan pada contoh sebelumnya.
+## Menyesuaikan Watermark
 
-## Menghapus Tanda Air
+Anda dapat menyesuaikan watermark dengan mengatur tampilan dan posisinya. Untuk watermark teks, Anda dapat mengubah font, ukuran, warna, dan tata letak. Untuk watermark gambar, Anda dapat memodifikasi ukuran, rotasi, dan perataan seperti yang ditunjukkan pada contoh sebelumnya.
 
-Untuk menghapus tanda air dari dokumen, Anda dapat menggunakan kode berikut:
+## Menghapus Watermark
+
+Jika Anda perlu **menghapus konten watermark** dari dokumen, kode berikut akan mengiterasi semua shape dan menghapus yang diidentifikasi sebagai watermark:
 
 ```java
-// Buat contoh Dokumen
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// Hapus tanda air
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +113,53 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// Simpan dokumen tanpa tanda air
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## Kasus Penggunaan Umum & Tips
 
-## Kesimpulan
-
-Dalam tutorial ini, kita telah mempelajari cara menambahkan tanda air ke dokumen menggunakan Aspose.Words untuk Java. Baik Anda perlu menambahkan tanda air teks atau gambar, Aspose.Words menyediakan alat untuk menyesuaikan dan mengelolanya secara efisien. Anda juga dapat menghapus tanda air saat tidak lagi diperlukan, memastikan dokumen Anda bersih dan profesional.
+- **Draf rahasia:** Terapkan watermark teks semi‑transparan seperti “CONFIDENTIAL”.  
+- **Branding:** Gunakan watermark gambar yang berisi logo perusahaan Anda.  
+- **Watermark khusus bagian:** Loop melalui `doc.getSections()` dan tambahkan watermark hanya ke bagian yang Anda pilih.  
+- **Tip performa:** Gunakan kembali instance `TextWatermarkOptions` yang sama saat menerapkan watermark yang sama ke banyak dokumen.
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengubah font tanda air teks?
+### Bagaimana cara mengubah font watermark teks?
 
-Untuk mengubah font tanda air teks, ubah fontnya `setFontFamily` properti di `TextWatermarkOptions`. Misalnya:
+Untuk mengubah font watermark teks, ubah properti `setFontFamily` dalam `TextWatermarkOptions`. Misalnya:
 
 ```java
 options.setFontFamily("Times New Roman");
 ```
 
-### Bisakah saya menambahkan beberapa tanda air ke satu dokumen?
+### Bisakah saya menambahkan beberapa watermark ke satu dokumen?
 
-Ya, Anda dapat menambahkan beberapa tanda air ke dokumen dengan membuat beberapa `Shape` objek dengan pengaturan berbeda dan menambahkannya ke dokumen.
+Ya, Anda dapat menambahkan beberapa watermark ke dokumen dengan membuat beberapa objek `Shape` dengan pengaturan berbeda dan menambahkannya ke dokumen.
 
-### Bisakah tanda air diputar?
+### Apakah memungkinkan memutar watermark?
 
-Ya, Anda dapat memutar tanda air dengan mengatur `setRotation` properti di `Shape` objek. Nilai positif memutar tanda air searah jarum jam, dan nilai negatif memutarnya berlawanan arah jarum jam.
+Ya, Anda dapat memutar watermark dengan mengatur properti `setRotation` pada objek `Shape`. Nilai positif memutar watermark searah jarum jam, dan nilai negatif memutar berlawanan arah jarum jam.
 
-### Bagaimana cara membuat tanda air semi-transparan?
+### Bagaimana cara membuat watermark semi‑transparan?
 
-Untuk membuat tanda air semi-transparan, atur `setSemitransparent` properti untuk `true` di dalam `TextWatermarkOptions`.
+Untuk membuat watermark semi‑transparan, atur properti `setSemitransparent` menjadi `true` dalam `TextWatermarkOptions`.
 
-### Bisakah saya menambahkan tanda air ke bagian tertentu dari suatu dokumen?
+### Bisakah saya menambahkan watermark ke bagian tertentu dari dokumen?
 
-Ya, Anda dapat menambahkan tanda air ke bagian tertentu pada suatu dokumen dengan mengulangi bagian tersebut dan menambahkan tanda air ke bagian yang diinginkan.
+Ya, Anda dapat menambahkan watermark ke bagian tertentu dari dokumen dengan mengiterasi bagian‑bagian tersebut dan menambahkan watermark ke bagian yang diinginkan.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.Words for Java 24.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

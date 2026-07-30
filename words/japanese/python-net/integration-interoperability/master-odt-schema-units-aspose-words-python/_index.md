@@ -5,7 +5,9 @@
 "url": "/ja/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python で Aspose.Words を使用して ODT スキーマと単位をマスターする
 
 ## 導入
@@ -165,3 +167,7 @@ PythonでAspose.Wordsを使用してODTスキーマ設定と測定単位の設�
 - **無料トライアル**無料トライアルから始めましょう [Python用Asposeダウンロード](https://releases.aspose.com/words/python/)
 - **一時ライセンス**こちらからお申し込みください: [Aspose 一時ライセンス](https://purchase.aspose.com/temporary-license/)
 - **サポート**議論に参加する [Asposeフォーラム](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

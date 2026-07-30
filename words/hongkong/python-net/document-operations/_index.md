@@ -4,7 +4,9 @@
 "url": "/zh-hant/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net 文件操作教學課程
 
 探索使用 Aspose.Words for Python-net 進行文件操作的全面逐步指南。這些教程包括完整的程式碼範例和詳細的解釋。
@@ -55,6 +57,9 @@ Aspose.Words Python-net 程式碼教學
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 了解如何使用 Aspose.Words for Python 將 Word 文件轉換為 PostScript 格式。本指南涵蓋設定、轉換和書籍折疊列印選項。
 
+### [恢復損壞的 DOCX – 開啟與載入 Word 文件](./recover-corrupted-docx-open-load-word-document/)
+了解如何使用 Aspose.Words for Python-net 復原受損的 DOCX 檔案，並成功開啟與載入 Word 文件。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@ Aspose.Words Python-net 程式碼教學
 - [Aspose.Words 論壇](https://forum.aspose.com/c/words/8)
 - [免費支援](https://forum.aspose.com/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/pl/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Opanowanie Aspose.Words dla Pythona: Rejestracja i wyrejestrowanie słownika dywizyjnego
 
 ## Wstęp
@@ -173,3 +175,7 @@ Aby uzyskać bardziej dostosowane odpowiedzi, sprawdź [Forum Aspose](https://fo
 - **Zakup:** [Kup licencję Aspose.Words](https://purchase.aspose.com/buy)
 - **Bezpłatna wersja próbna:** [Zacznij od bezpłatnego okresu próbnego](https://releases.aspose.com/words/python/)
 - **Licencja tymczasowa:** [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

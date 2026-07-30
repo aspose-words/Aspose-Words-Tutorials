@@ -5,7 +5,9 @@
 "url": "/ru/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Как отобразить версию Aspose.Words в Python и .NET
 
 ## Введение
@@ -144,3 +146,7 @@ A: Проверьте официальные заметки о выпуске и
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 С этими инструментами вы хорошо подготовлены к эффективному управлению установками Aspose.Words. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

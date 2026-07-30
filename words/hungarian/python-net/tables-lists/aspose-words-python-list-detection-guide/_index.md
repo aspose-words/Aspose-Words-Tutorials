@@ -5,7 +5,9 @@
 "url": "/hu/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Útmutató a listaérzékelés megvalósításához szövegben az Aspose.Words for Python használatával
 
 ## Bevezetés
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Tartalomelemző eszközök**: Strukturált adatok kinyerése szövegfájlokból további elemzéshez vagy jelentéskészítéshez.
 3. **Adattisztítási feladatok**A szöveg formázásának szabványosítása a szóközök kezelésével és a listaelemek azonosításával.
 4. **Link ellenőrzése**: Szöveges dokumentumok kötegén belüli hivatkozások ellenőrzése annak biztosítása érdekében, hogy azok aktívak és helyesek legyenek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

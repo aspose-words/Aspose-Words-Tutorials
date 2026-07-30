@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/performance-optimization/optimize-xlsx-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words for Python 優化 Excel 檔案：壓縮和自訂技術
 
 探索使用 Aspose.Words for Python 高效壓縮、組織和增強 Excel 文件效能的強大技術。本教學將指導您透過減小檔案大小、將多個部分儲存為單獨的工作表以及啟用日期時間格式的自動偵測來最佳化 XLSX 檔案。
@@ -174,3 +176,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **免費試用**： [免費試用 Aspose](https://releases.aspose.com/words/python/)
 - **臨時執照**： [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - **支援**： [Aspose 論壇支持](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

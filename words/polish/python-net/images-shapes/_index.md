@@ -4,7 +4,9 @@
 "url": "/pl/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Samouczki dotyczące obrazów i kształtów dla Aspose.Words Python-net
 
 Poznaj kompleksowe przewodniki krok po kroku dotyczące operacji na obrazach i kształtach przy użyciu Aspose.Words dla Python-net. Te samouczki zawierają kompletne przykłady kodu i szczegółowe wyjaśnienia.
@@ -32,6 +34,9 @@ Dowiedz się, jak zoptymalizować obsługę obrazów w dokumentach RTF za pomoc�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pythona. Ten przewodnik obejmuje niestandardowe funkcje, takie jak właściwości podobne do obrazów, renderowanie tekstu i ulepszenia zabezpieczeń.
 
+### [Jak dodać cień w C# – Kompletny przewodnik programistyczny](./how-to-add-shadow-in-c-complete-programming-guide/)
+Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pytho
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

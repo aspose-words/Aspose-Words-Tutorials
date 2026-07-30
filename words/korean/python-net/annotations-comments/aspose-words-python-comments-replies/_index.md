@@ -5,7 +5,9 @@
 "url": "/ko/python-net/annotations-comments/aspose-words-python-comments-replies/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python용 Aspose.Words를 사용하여 Word 문서에 주석과 답글을 구현하는 방법
 
 ## 소개
@@ -242,3 +244,7 @@ Aspose.Words for Python은 다양한 문서 워크플로에 통합될 수 있습
 3. **학술 협력**: 학술 논문에서 저자와 심사자 간의 피드백 루프를 원활하게 만듭니다.
 
 이 포괄적인 가이드는 Python용 Aspose.Words를 사용하여 Word 문서에서 주석 및 답글 관리를 효과적으로 구현하는 데 도움이 됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

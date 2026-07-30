@@ -1,0 +1,7 @@
+Title: Recover Corrupted DOCX and Convert to PDF with Aspose.Words (Python)
+Slug: recover-corrupted-docx-and-convert-to-pdf-with-aspose-words
+Category: document-conversion
+ProcessedDate: 2026-06-24T12:34:04.433794
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, convert docx to pdf, apply shadow to shape, save docx as markdown, export equations to latex
+PRNumber: 212

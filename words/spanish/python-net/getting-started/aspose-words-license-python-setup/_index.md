@@ -5,7 +5,9 @@
 "url": "/es/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cómo configurar una licencia Aspose.Words en Python usando un archivo o secuencia
 
 ## Introducción
@@ -197,3 +199,7 @@ estas alturas, ya deberías estar preparado para configurar una licencia de Aspo
 - [Foro de soporte](https://forum.aspose.com/c/words/10)
 
 Con esta guía, estarás en el camino correcto para aprovechar Aspose.Words eficazmente en tus aplicaciones Python. ¡Que disfrutes programando!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

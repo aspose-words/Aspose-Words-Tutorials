@@ -5,7 +5,9 @@
 "url": "/es/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Fusiones de tablas maestras en Aspose.Words para Python
 
 ## Introducción
@@ -213,3 +215,7 @@ Este tutorial abordó técnicas esenciales para optimizar la combinación de tab
 - [Prueba gratuita](https://releases.aspose.com/words/python/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
 - [Foro de soporte](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

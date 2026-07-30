@@ -5,7 +5,9 @@
 "url": "/zh/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 标题：使用 Aspose.Words for Python 掌握 PDF 书签优化
 
 ## 介绍
@@ -180,3 +182,7 @@ outline_levels.clear()
 - **支持**：从社区获取帮助 [Aspose 论坛](https://forum.aspose.com/c/words/10)
 
 本指南已帮助您掌握使用 Aspose.Words for Python 优化 PDF 书签的知识。祝您编程愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

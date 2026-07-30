@@ -45,14 +45,17 @@ Egal, ob Sie Word-Dokumente für die Online-Verteilung, Archivierung oder den Dr
 | [Zuletzt gedruckte Eigenschaft im PDF-Dokument aktualisieren](./update-last-printed-property/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie die zuletzt gedruckte Eigenschaft in einem PDF-Dokument mit Aspose.Words für .NET aktualisieren. |
 | [Rendern Sie 3D-DML-3DEffects in einem PDF-Dokument](./dml-3deffects-rendering/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET beeindruckende 3D-DML-Effekte in PDF-Dokumenten rendern. |
 | [Interpolieren von Bildern in einem PDF-Dokument](./interpolate-images/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Bilder in einem PDF-Dokument interpolieren. Verbessern Sie ganz einfach die Bildqualität Ihres PDFs. |
-
+| [Word als PDF speichern mit Aspose Words – Vollständige C#‑Anleitung](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Word-Dokumente in PDF konvertieren – vollständige C#‑Anleitung. |
+| [DOCX als PDF mit Aspose.Words speichern – Vollständige C#‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie ein DOCX-Dokument mit Aspose.Words in ein PDF konvertieren – Schritt‑für‑Schritt‑C#‑Beispiel. |
+| [Erstellen Sie ein barrierefreies PDF aus Word mit C# – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus einem Word-Dokument erstellen. |
+| [Barrierefreies PDF in C# erstellen – PDF-Zugänglichkeitstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET barrierefreie PDFs in C# erzeugen. |
+| [Barrierefreies PDF aus Word erstellen – Komplettanleitung](./create-accessible-pdf-from-word-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus einem Word-Dokument erstellen. |
+| [Erstellen eines barrierefreien PDFs – Schritt‑für‑Schritt‑Anleitung für PDF/UA‑Konformität](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF erstellen, das den PDF/UA‑Barrierefreiheitsstandards entspricht. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

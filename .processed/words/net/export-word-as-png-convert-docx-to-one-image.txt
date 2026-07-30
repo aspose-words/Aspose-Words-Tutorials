@@ -1,0 +1,7 @@
+Title: Export Word as PNG – Convert DOCX to One Image
+Slug: export-word-as-png-convert-docx-to-one-image
+Category: programming-with-imagesaveoptions
+ProcessedDate: 2026-05-27T02:58:42.432842
+SourceRepo: AI Search API
+Keywords: export word as png, convert docx to png, convert word single image
+PRNumber: 192

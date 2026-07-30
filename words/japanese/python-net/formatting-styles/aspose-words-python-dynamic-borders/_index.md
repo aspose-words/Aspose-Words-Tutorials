@@ -5,7 +5,9 @@
 "url": "/ja/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words for Python で動的なドキュメントの境界線を作成する
 
 ## 導入
@@ -267,3 +269,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## 結論
 Aspose.Words for Python でこれらのテクニックを習得すれば、動的な境界線を備えたプロフェッショナルなドキュメントを作成できます。このガイドは、ライブラリの機能をさらに探求するための強力な基礎を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

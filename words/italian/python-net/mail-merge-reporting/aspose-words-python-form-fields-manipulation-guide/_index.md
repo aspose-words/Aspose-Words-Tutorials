@@ -5,7 +5,9 @@
 "url": "/it/python-net/mail-merge-reporting/aspose-words-python-form-fields-manipulation-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Migliorare i progetti Python: padroneggiare la manipolazione dei campi dei moduli con Aspose.Words
 
 ## Introduzione
@@ -258,3 +260,7 @@ doc.save(file_name="DIRECTORY_DEL_TUO_DOCUMENTO/FormFields.ManageDropDownItems.h
    ```
 
 **Key Considerations:** Ensure changes reflect correctly in the document and are easy for users to understand.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

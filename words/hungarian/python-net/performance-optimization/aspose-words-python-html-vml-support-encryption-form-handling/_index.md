@@ -5,7 +5,9 @@
 "url": "/hu/python-net/performance-optimization/aspose-words-python-html-vml-support-encryption-form-handling/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # HTML optimalizálás elsajátítása Aspose.Words segítségével Pythonhoz: VML-támogatás, titkosítás és űrlapkezelés
 
 ## Bevezetés
@@ -199,3 +201,7 @@ Most már alaposan megérted, hogyan használható az Aspose.Words for Python a 
 
 **K: Hogyan kezelhetem a VML elemekkel rendelkező nagy HTML fájlokat?**
 A: A kötegelt feldolgozás és a szelektív betöltés hatékonyan kezelheti az erőforrás-felhasználást.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -23,16 +23,23 @@ En estos tutoriales, aprenderá a usar LoadOptions para cargar documentos de Wor
 | Título | Descripción |
 | --- | --- |
 | [Actualizar campos sucios en un documento de Word](./update-dirty-fields/) Actualice sin esfuerzo los campos sucios en sus documentos de Word usando Aspose.Words para .NET con esta guía completa paso a paso. |
-| [Cargar cifrado en documento de Word](./load-encrypted-document/) Aprenda a cargar y guardar documentos de Word cifrados con Aspose.Words para .NET. Proteja sus documentos fácilmente con nuevas contraseñas. Incluye guía paso a paso.
-| [Convertir forma a matemáticas de oficina](./convert-shape-to-office-math/) Aprenda a convertir formas a Office Math en documentos de Word usando Aspose.Words para .NET con nuestra guía. Mejore el formato de sus documentos fácilmente.
-| [Establecer la versión de Ms Word](./set-ms-word-version/) Aprenda a configurar versiones de MS Word con Aspose.Words para .NET con nuestra guía detallada. Ideal para desarrolladores que buscan optimizar la manipulación de documentos.
+| [Cargar cifrado en documento de Word](./load-encrypted-document/) Aprenda a cargar y guardar documentos de Word cifrados con Aspose.Words para .NET. Proteja sus documentos fácilmente con nuevas contraseñas. Incluye guía paso a paso. |
+| [Convertir forma a matemáticas de oficina](./convert-shape-to-office-math/) Aprenda a convertir formas a Office Math en documentos de Word usando Aspose.Words para .NET con nuestra guía. Mejore el formato de sus documentos fácilmente. |
+| [Establecer la versión de Ms Word](./set-ms-word-version/) Aprenda a configurar versiones de MS Word con Aspose.Words para .NET con nuestra guía detallada. Ideal para desarrolladores que buscan optimizar la manipulación de documentos. |
 | [Usar carpeta temporal en un documento de Word](./use-temp-folder/) | Aprenda cómo mejorar el rendimiento de sus aplicaciones .NET mediante el uso de una carpeta temporal al cargar documentos de Word con Aspose.Words. |
-| [Advertencia de devolución de llamada en un documento de Word](./warning-callback/) Aprenda a detectar y gestionar advertencias en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Garantice un procesamiento de documentos robusto.
-| [Cargar con codificación en documento de Word](./load-with-encoding/) Aprenda a cargar un documento de Word con una codificación específica usando Aspose.Words para .NET. Guía paso a paso con explicaciones detalladas.
-| [Omitir imágenes en PDF](./skip-pdf-images/) Aprenda a omitir imágenes al cargar documentos PDF con Aspose.Words para .NET. Siga esta guía paso a paso para una extracción de texto fluida.
-| [Convertir metarchivos a PNG](./convert-metafiles-to-png/) Convierte fácilmente metarchivos a PNG en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Simplifica la gestión de tus documentos.
-| [Cargar archivos CHM en un documento de Word](./load-chm/) Cargue fácilmente archivos CHM en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Ideal para consolidar su documentación técnica.
-
+| [Advertencia de devolución de llamada en un documento de Word](./warning-callback/) Aprenda a detectar y gestionar advertencias en documentos de Word con Aspose.Words para .NET con nuestra guía paso a paso. Garantice un procesamiento de documentos robusto. |
+| [Cargar con codificación en documento de Word](./load-with-encoding/) Aprenda a cargar un documento de Word con una codificación específica usando Aspose.Words para .NET. Guía paso a paso con explicaciones detalladas. |
+| [Omitir imágenes en PDF](./skip-pdf-images/) Aprenda a omitir imágenes al cargar documentos PDF con Aspose.Words para .NET. Siga esta guía paso a paso para una extracción de texto fluida. |
+| [Convertir metarchivos a PNG](./convert-metafiles-to-png/) Convierte fácilmente metarchivos a PNG en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Simplifica la gestión de tus documentos. |
+| [Cargar archivos CHM en un documento de Word](./load-chm/) Cargue fácilmente archivos CHM en documentos de Word con Aspose.Words para .NET con este tutorial paso a paso. Ideal para consolidar su documentación técnica. |
+| [Aspose Load Options – Cargar DOCX con Configuración de Fuente Personalizada](./aspose-load-options-load-docx-with-custom-font-settings/) Aprenda a cargar documentos DOCX especificando fuentes personalizadas con Aspose.LoadOptions en .NET. |
+| [Recuperar DOCX dañado con Aspose.Words – establecer modo de recuperación y opciones de carga](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) Aprenda a recuperar documentos DOCX dañados configurando el modo de recuperación y LoadOptions en Aspose.Words para .NET. |
+| [Recuperar archivo Word dañado – Guía completa para abrir DOCX corrupto y obtener el recuento de páginas](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) Aprenda a reparar archivos Word dañados, abrir DOCX corruptos y obtener el número de páginas con Aspose.Words para .NET. |
+| [Cómo recuperar docx – Guía C# para archivos Word corruptos](./how-to-recover-docx-c-guide-for-corrupted-word-files/) Aprenda a recuperar archivos DOCX dañados usando C# con Aspose.Words para .NET. |
+| [Recuperar documento Word con Aspose.Words en C#](./recover-word-document-with-aspose-words-in-c/) Aprenda a recuperar documentos Word dañados usando Aspose.Words en C# con ejemplos paso a paso. |
+| [Cómo recuperar docx – establecer modo de recuperación y abrir archivos Word dañados](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Aprenda a establecer el modo de recuperación y abrir documentos Word corruptos usando Aspose.Words para .NET. |
+| [Cómo usar LoadOptions en Aspose.Words – Guía completa](./how-to-use-loadoptions-in-aspose-words-complete-guide/) Aprenda paso a paso a utilizar LoadOptions en Aspose.Words para .NET y personalizar la carga de documentos. |
+| [Recuperar documento corrupto en C# – Establecer modo de recuperación y solicitar al usuario](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Aprenda a recuperar documentos corruptos en C# usando Aspose.Words, configurando el modo de recuperación y mostrando un mensaje al usuario. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -5,7 +5,9 @@
 "url": "/hi/python-net/document-operations/save-docs-as-postscript-using-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words का उपयोग करके Word दस्तावेज़ों को पायथन में पोस्टस्क्रिप्ट के रूप में सहेजें
 
 ## परिचय
@@ -163,3 +165,7 @@ save_document_as_postscript(True)
 - [सामुदायिक सहायता मंच](https://forum.aspose.com/c/words/10)
 
 हमें उम्मीद है कि यह गाइड आपको पायथन के लिए Aspose.Words का उपयोग करके पोस्टस्क्रिप्ट प्रारूप में दस्तावेज़ों को कुशलतापूर्वक सहेजने में मदद करेगी। हैप्पी कोडिंग!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

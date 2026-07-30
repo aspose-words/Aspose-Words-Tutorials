@@ -5,7 +5,9 @@
 "url": "/th/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # การนำการบันทึกคอลแบ็กของหน้า HTML ที่กำหนดเองไปใช้งานใน Python ด้วย Aspose.Words
 
 ## การแนะนำ
@@ -149,3 +151,7 @@ A5: เข้าร่วม [ฟอรั่ม Aspose](https://forum.aspose.co
 - **สนับสนุน**: เยี่ยมชม [ฟอรั่ม Aspose](https://forum.aspose.com/c/words/10) สำหรับคำถามและการสนับสนุนจากชุมชน
 
 ทดลองใช้ Aspose.Words for Python วันนี้ และปลดล็อกความเป็นไปได้ใหม่ๆ ในการประมวลผลเอกสาร!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

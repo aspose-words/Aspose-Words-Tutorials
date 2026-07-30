@@ -1,11 +1,10 @@
 ---
-date: 2026-02-14
-description: Pelajari cara menampilkan matematika secara inline, menyisipkan persamaan
-  matematika, dan memanipulasi objek Office Math dengan mudah menggunakan Aspose.Words
-  for Java.
+date: 2025-12-15
+description: Pelajari cara menggunakan objek matematika Office di Aspose.Words untuk
+  Java untuk memanipulasi dan menampilkan persamaan matematika dengan mudah.
 linktitle: Using Office Math Objects
-second_title: Aspose.Words Java Document Processing API
-title: Menampilkan Matematika Inline dengan Office Math di Aspose.Words untuk Java
+second_title: Aspise.Words Java Document Processing API
+title: Cara menggunakan objek matematika Office di Aspose.Words untuk Java
 url: /id/java/document-conversion-and-export/using-office-math-objects/
 weight: 13
 ---
@@ -16,33 +15,47 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menampilkan Matematika Inline dengan Office Math di Aspose.Words untuk Java
+# Menggunakan Objek Office Math di Aspose.Words untuk Java
 
-Dalam tutorial komprehensif ini Anda akan menemukan cara **menampilkan matematika inline** menggunakan objek Office Math di Aspose.Words untuk Java. Baik Anda perlu **menyisipkan persamaan matematika** ke dalam laporan atau menyempurnakan pemformatan rumus kompleks, panduan ini akan memandu Anda melalui setiap langkah—dari memuat dokumen Word hingga menyimpan hasil akhir.
+## Pendahuluan Menggunakan Objek Office Math di Aspose.Words untuk Java
 
-## Jawaban Cepat
-- **Apa arti “display math inline”?** Persamaan muncul dalam alur teks, bukan pada baris terpisah.  
-- **Kelas mana yang mewakili objek matematika?** `OfficeMath` dalam API Aspose.Words.  
-- **Apakah saya dapat mengubah perataan?** Ya, gunakan `setJustification` dengan LEFT, CENTER, atau RIGHT.  
-- **Apakah saya memerlukan lisensi untuk fitur ini?** Lisensi Aspose.Words untuk Java yang valid diperlukan untuk penggunaan produksi.  
-- **Versi apa yang ditunjukkan?** Kode ini bekerja dengan rilis terbaru Aspose.Words untuk Java (2026).  
+Ketika Anda perlu **menggunakan office math** dalam alur kerja dokumen berbasis Java, Aspose.Words memberikan cara yang bersih dan programatis untuk bekerja dengan persamaan kompleks. Dalam panduan ini kami akan menjelaskan semua yang perlu Anda ketahui untuk memuat dokumen, menemukan objek Office Math, menyesuaikan tampilannya, dan menyimpan hasilnya—semua sambil menjaga kode tetap mudah dipahami.
 
-## Apa itu “display math inline”?
-Menampilkan matematika inline berarti persamaan diperlakukan sebagai bagian dari teks paragraf, memungkinkan ia membungkus secara alami dengan kata‑kata di sekitarnya. Ini berguna untuk rumus singkat yang tidak boleh memutus alur bacaan.
+### Jawaban Cepat
+- **Apa yang dapat saya lakukan dengan office math di Aspose.Words?**  
+  Anda dapat memuat, mengubah tipe tampilan, mengubah justifikasi, dan menyimpan persamaan secara programatis.  
+- **Tipe tampilan apa yang didukung?**  
+  `INLINE` (tertanam dalam teks) dan `DISPLAY` (di baris terpisah).  
+- **Apakah saya memerlukan lisensi untuk menggunakan fitur ini?**  
+  Lisensi sementara dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
+- **Versi Java apa yang diperlukan?**  
+  Semua runtime Java 8+ didukung.  
+- **Bisakah saya memproses banyak persamaan dalam satu dokumen?**  
+  Ya – iterasi melalui node `NodeType.OFFICE_MATH` untuk menangani setiap persamaan.
 
-## Mengapa menggunakan objek Office Math di Aspose.Words untuk Java?
-- **Kontrol presisi** atas tata letak persamaan (inline vs. display).  
-- **Manipulasi programatik** persamaan tanpa membuka Word secara manual.  
-- **Rendering konsisten** di seluruh platform, sempurna untuk pembuatan laporan otomatis.
+## Apa itu “use office math” di Aspose.Words?
+
+Objek Office Math mewakili format persamaan kaya yang digunakan oleh Microsoft Office. Aspose.Words untuk Java memperlakukan setiap persamaan sebagai node `OfficeMath`, memungkinkan Anda memanipulasi tata letaknya tanpa harus mengonversi ke gambar atau format eksternal.
+
+## Mengapa menggunakan objek Office Math dengan Aspose.Words?
+
+- **Mempertahankan kemampuan edit** – persamaan tetap dalam format asli, sehingga pengguna akhir masih dapat mengeditnya di Word.  
+- **Kontrol penuh atas styling** – ubah justifikasi, tipe tampilan, bahkan format masing‑masing run.  
+- **Tanpa ketergantungan eksternal** – semuanya ditangani di dalam API Aspose.Words.
 
 ## Prasyarat
+
 Sebelum kita mulai, pastikan Anda memiliki:
 
-- Aspose.Words untuk Java terinstal dan direferensikan dalam proyek Anda.  
-- File Word yang sudah berisi persamaan Office Math (misalnya `OfficeMath.docx`).  
-- Lisensi yang valid jika Anda berencana menjalankan kode di luar mode evaluasi.
+- Aspose.Words untuk Java terpasang (versi terbaru disarankan).  
+- Dokumen Word yang sudah berisi setidaknya satu persamaan Office Math – untuk tutorial ini kami akan menggunakan **OfficeMath.docx**.  
+- IDE Java atau alat build (Maven/Gradle) yang telah dikonfigurasi untuk merujuk ke JAR Aspose.Words.
 
-## Panduan Langkah‑per‑Langkah
+## Panduan langkah‑demi‑langkah menggunakan office math
+
+Berikut adalah panduan singkat bernomor. Setiap langkah dilengkapi dengan blok kode asli (tidak diubah) sehingga Anda dapat menyalin‑tempel langsung ke proyek Anda.
+
+### Langkah 1: Muat Dokumen
 
 ### Memuat Dokumen
 Pertama, muat dokumen yang berisi persamaan Office Math yang ingin Anda kerjakan:
@@ -51,37 +64,41 @@ Pertama, muat dokumen yang berisi persamaan Office Math yang ingin Anda kerjakan
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Mengakses Objek Office Math
-Ambil node Office Math pertama dari dokumen:
+### Langkah 2: Akses Objek Office Math
+
+Ambil node `OfficeMath` pertama (Anda dapat melakukan loop nanti jika memiliki banyak):
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Mengatur Tipe Tampilan (Inline vs. Display)
-Kontrol apakah persamaan muncul inline dengan teks di sekitarnya atau pada baris terpisah. Untuk **display math inline**, gunakan enum `INLINE`; untuk baris terpisah, gunakan `DISPLAY`:
+### Langkah 3: Atur Tipe Tampilan
+
+Kontrol apakah persamaan muncul inline dengan teks di sekitarnya atau pada baris terpisah:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-*Jika Anda ingin persamaan tetap inline, ganti `DISPLAY` dengan `INLINE`.*
+### Langkah 4: Atur Justifikasi
 
-### Mengatur Justifikasi
-Sesuaikan perataan persamaan. Di bawah ini kami menyesuaikannya ke kiri, tetapi Anda juga dapat memilih `CENTER` atau `RIGHT`:
+Sesuaikan perataan persamaan – kiri, kanan, atau tengah. Di sini kami meratakannya ke kiri:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Menyimpan Dokumen yang Dimodifikasi
-Akhirnya, tulis perubahan kembali ke file baru:
+### Langkah 5: Simpan Dokumen yang Dimodifikasi
+
+Tuliskan perubahan kembali ke disk (atau ke stream, jika Anda lebih suka):
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Kode Sumber Lengkap untuk Menggunakan Objek Office Math di Aspose.Words untuk Java
+### Kode Sumber Lengkap untuk Menggunakan Objek Office Math
+
+Menggabungkan semuanya, cuplikan berikut menunjukkan contoh minimal end‑to‑end. **Jangan memodifikasi kode di dalam blok** – kode dipertahankan persis seperti dalam tutorial asli.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
@@ -93,32 +110,35 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
 ## Masalah Umum & Pemecahan Masalah
-- **Persamaan tidak ditemukan:** Pastikan dokumen memang berisi objek Office Math; jika tidak, `doc.getChild` akan mengembalikan `null`.  
-- **Tipe tampilan tidak berpengaruh:** Pastikan Anda menggunakan versi terbaru Aspose.Words; rilis lama mungkin memiliki dukungan terbatas untuk `OfficeMathDisplayType`.  
-- **Pengecualian lisensi:** Jika Anda melihat kesalahan lisensi, periksa kembali bahwa file lisensi Anda telah dimuat dengan benar sebelum membuat instance `Document`.  
+
+| Gejala | Penyebab Kemungkinan | Perbaikan |
+|--------|----------------------|-----------|
+| `ClassCastException` saat melakukan cast ke `OfficeMath` | Tidak ada node Office Math pada indeks yang ditentukan | Pastikan dokumen memang berisi persamaan atau sesuaikan indeksnya. |
+| Persamaan tidak berubah setelah disimpan | `setDisplayType` atau `setJustification` tidak dipanggil | Pastikan Anda memanggil kedua metode tersebut sebelum menyimpan. |
+| File yang disimpan rusak | Jalur file salah atau izin menulis tidak tersedia | Gunakan jalur absolut atau pastikan folder target dapat ditulisi. |
 
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apa tujuan objek Office Math di Aspose.Words untuk Java?**  
-A: Objek Office Math memungkinkan Anda merepresentasikan dan memanipulasi persamaan matematika secara programatik, memberi Anda kontrol penuh atas tampilan dan pemformatan.
+A: Objek Office Math memungkinkan Anda merepresentasikan dan memanipulasi persamaan matematika langsung di dalam dokumen Word, memberi Anda kontrol atas tipe tampilan dan format.
 
-**Q: Bisakah saya mengatur perataan persamaan Office Math secara berbeda dalam dokumen saya?**  
+**Q: Bisakah saya meratakan persamaan Office Math secara berbeda dalam dokumen saya?**  
 A: Ya, gunakan metode `setJustification` untuk meratakan ke kiri, kanan, atau tengah.
 
 **Q: Apakah Aspose.Words untuk Java cocok untuk menangani dokumen matematika yang kompleks?**  
-A: Tentu saja. Perpustakaan ini sepenuhnya mendukung persamaan kompleks, pecahan bersarang, matriks, dan lainnya.
+A: Tentu saja. Perpustakaan ini sepenuhnya mendukung pecahan bersarang, integral, matriks, dan notasi lanjutan lainnya melalui Office Math.
 
 **Q: Bagaimana saya dapat mempelajari lebih lanjut tentang Aspose.Words untuk Java?**  
 A: Untuk dokumentasi lengkap dan unduhan, kunjungi [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
 **Q: Di mana saya dapat mengunduh Aspose.Words untuk Java?**  
-A: Anda dapat mengunduh Aspose.Words untuk Java dari situs web: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
+A: Anda dapat mengunduh rilis terbaru dari situs resmi: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-14  
-**Diuji Dengan:** Aspose.Words for Java 24.12 (latest as of Feb 2026)  
-**Penulis:** Aspose  
+**Last Updated:** 2025-12-15  
+**Tested With:** Aspose.Words untuk Java 24.12 (terbaru pada saat penulisan)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

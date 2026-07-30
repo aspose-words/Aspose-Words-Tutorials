@@ -45,7 +45,12 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें](./update-last-printed-property/) | हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ में अंतिम मुद्रित संपत्ति को अपडेट करना सीखें। |
 | [3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें](./dml-3deffects-rendering/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में आश्चर्यजनक 3D DML प्रभाव प्रस्तुत करना सीखें। |
 | [पीडीएफ दस्तावेज़ में छवियों को प्रक्षेपित करें](./interpolate-images/) | हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ में छवियों को इंटरपोल करना सीखें। आसानी से अपने PDF की छवि गुणवत्ता में सुधार करें। |
-
+| [Aspose Words के साथ Word को PDF के रूप में सहेजें – पूर्ण C# गाइड](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। |
+| [Aspose.Words के साथ docx को pdf में सहेजें – पूर्ण C# गाइड](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | C# में Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने की पूरी मार्गदर्शिका। |
+| [C# के साथ Word से एक्सेसिबल PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | C# में Aspose.Words का उपयोग करके एक्सेसिबल PDF बनाने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |
+| [C# में सुलभ PDF बनाएं – PDF अभिगम्यता ट्यूटोरियल](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | C# के लिए Aspose.Words का उपयोग करके सुलभ PDF बनाने की चरण-दर-चरण गाइड। |
+| [Word से सुलभ PDF बनाएं – पूर्ण गाइड](./create-accessible-pdf-from-word-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। |
+| [सुलभ PDF बनाएं – PDF/UA अनुपालन के लिए चरण‑दर‑चरण गाइड](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | PDF/UA मानकों के अनुरूप सुलभ PDF बनाने के लिए चरण‑दर‑चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -5,7 +5,9 @@
 "url": "/th/python-net/formatting-styles/aspose-words-python-remove-customize-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # เรียนรู้ขอบย่อหน้าใน Python ด้วย Aspose.Words: คู่มือฉบับสมบูรณ์
 
 ## การแนะนำ
@@ -179,3 +181,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/BorderCollection.get_borders_enumerator.docx')
 - **ทดลองใช้งานฟรี**- [เริ่มต้นฟรี](https://releases.aspose.com/words/python/)
 - **ใบอนุญาตชั่วคราว**- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - **สนับสนุน**- [ฟอรั่ม Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/ar/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان علامات التبويب في بايثون باستخدام Aspose.Words لتنسيق المستندات
 
 ## مقدمة
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## خاتمة
 
 يتيح لك إتقان علامات التبويب في بايثون باستخدام Aspose.Words إنشاء مستندات بتنسيق احترافي بسهولة. باتباع هذا الدليل، يمكنك إضافة علامات التبويب وتخصيصها وإدارتها بفعالية، مما يُحسّن جودة مخرجاتك النصية بشكل عام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

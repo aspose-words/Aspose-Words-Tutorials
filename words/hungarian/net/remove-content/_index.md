@@ -28,7 +28,7 @@ Akár Word dokumentumokat kell manipulálnia, létrehoznia, konvertálnia vagy g
 | [Szakasztörések eltávolítása a Word dokumentumban](./remove-section-breaks/) | Ismerje meg, hogyan távolíthat el szakasztöréseket a Word-dokumentumokban az Aspose.Words for .NET segítségével. Ez a részletes, lépésről lépésre szóló útmutató biztosítja a zökkenőmentes dokumentumkezelést és szerkesztést.
 | [Láblécek eltávolítása Word dokumentumban](./remove-footers/) Tanulja meg, hogyan távolíthat el lábléceket Word-dokumentumokból az Aspose.Words for .NET segítségével ebből az átfogó, lépésről lépésre szóló útmutatóból. |
 | [Tartalomjegyzék eltávolítása Word dokumentumból](./remove-table-of-contents/) | Ismerje meg, hogyan távolíthatja el a tartalomjegyzéket egy Word-dokumentumból az Aspose.Words for .NET használatával. |
-
+| [Hogyan hívjunk LLM-et C#-ban – Teljes útmutató helyi modellel](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Ismerje meg, hogyan használhatja a helyi LLM modelleket C#-ban, lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

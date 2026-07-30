@@ -33,7 +33,11 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [垂直アンカー](./vertical-anchor/) Aspose.Words for .NET を使用して、Word 文書内のテキストボックスの垂直アンカー位置を設定する方法を学びます。簡単なステップバイステップガイド付き。|
 | [スマートアートシェイプの検出](./detect-smart-art-shape/) この包括的なガイドでは、Aspose.Words for .NET を使用して Word 文書内の SmartArt 図形を検出する方法を学びます。ドキュメントワークフローの自動化に最適です。 |
 | [スマートアート描画の更新](./update-smart-art-drawing/) Aspose.Words for .NET を使用してWord文書内のスマートアート描画を更新する方法を、このステップバイステップガイドで学びましょう。常に正確なビジュアル表現を実現します。 |
-
+| [Aspose.Words で Word に長方形の図形を作成 – ステップバイステップ ガイド](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) Aspose.Words for .NET を使用して、Word 文書に長方形の図形を追加し、属性を設定する方法を段階的に解説します。 |
+| [影付き長方形で Word 文書を作成 – ステップバイステップ ガイド](./create-word-document-with-a-shadowed-rectangle-step-by-step/) Aspose.Words for .NET を使用して、影付き長方形を持つ Word 文書を作成し、属性を設定する方法を段階的に解説します。 |
+| [C# を使用して Word に長方形の図形を作成 – ステップバイステップ ガイド](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) Aspose.Words for .NET と C# を使い、Word 文書に長方形の図形を作成する手順を段階的に解説します。 |
+| [Aspose.Words 図形の影チュートリアル – C# で Word 図形に影を追加](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) このチュートリアルでは、Aspose.Words for .NET を使用して C# で Word 図形に影効果を適用する方法をステップバイステップで解説します。 |
+| [影付き長方形シェイプで空白の Word 文書を作成 – ステップバイステップ ガイド](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) Aspose.Words for .NET を使用して、影付き長方形シェイプを持つ空白の Word 文書を作成する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

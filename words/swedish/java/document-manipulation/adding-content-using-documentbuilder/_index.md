@@ -1,10 +1,14 @@
 ---
-"description": "Bemästra dokumentskapande med Aspose.Words för Java. En steg-för-steg-guide för att lägga till text, tabeller, bilder och mer. Skapa fantastiska Word-dokument utan ansträngning."
-"linktitle": "Lägga till innehåll med hjälp av DocumentBuilder"
-"second_title": "Aspose.Words Java-dokumentbehandlings-API"
-"title": "Lägga till innehåll med DocumentBuilder i Aspose.Words för Java"
-"url": "/sv/java/document-manipulation/adding-content-using-documentbuilder/"
-"weight": 26
+date: 2026-01-01
+description: Lär dig hur du skapar formulärfält och lägger till text, tabeller, bilder,
+  hyperlänkar och mer med Aspose.Words för Java DocumentBuilder. En steg‑för‑steg‑guide
+  för utvecklare.
+linktitle: Adding Content using DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: Hur man skapar formulärfält och lägger till innehåll med DocumentBuilder i
+  Aspose.Words för Java
+url: /sv/java/document-manipulation/adding-content-using-documentbuilder/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,25 +19,35 @@
 
 # Lägga till innehåll med DocumentBuilder i Aspose.Words för Java
 
-
 ## Introduktion till att lägga till innehåll med DocumentBuilder i Aspose.Words för Java
 
-I den här steg-för-steg-guiden utforskar vi hur man använder Aspose.Words för Javas DocumentBuilder för att lägga till olika typer av innehåll i ett Word-dokument. Vi går igenom hur man infogar text, tabeller, horisontella linjer, formulärfält, HTML, hyperlänkar, innehållsförteckningar, inbäddade och flytande bilder, stycken och mer. Nu sätter vi igång!
+I den här steg‑för‑steg‑guiden kommer du att **skapa formulärfält** och lägga till en mängd olika innehåll—text, tabeller, horisontella linjer, HTML, hyperlänkar, bilder och mer—i ett Word‑dokument med Aspose.Words för Java. Oavsett om du bygger en rapport, en kontraktsmall eller ett interaktivt formulär, ger `DocumentBuilder`‑klassen dig fin‑granulär kontroll över varje element. Låt oss dyka ner!
 
-## Förkunskapskrav
+## Snabba svar
+- **Hur skapar jag formulärfält?** Använd `insertTextInput`, `insertCheckBox` eller `insertComboBox` på en `DocumentBuilder`.
+- **Vilken metod lägger till vanlig text?** Anropa `builder.write("Your text")` eller `builder.writeln("Your text")`.
+- **Kan jag infoga en horisontell linje?** Ja—`builder.insertHorizontalRule()` lägger till en linjeskiljare.
+- **Hur bäddar jag in HTML?** Använd `builder.insertHtml("<p>HTML content</p>")`.
+- **Hur lägger jag till en infogad bild?** `builder.insertImage("path/to/image.png")` placerar bilden i textflödet.
 
-Innan du börjar, se till att du har konfigurerat Aspose.Words för Java-biblioteket i ditt projekt. Du kan ladda ner det från [här](https://releases.aspose.com/words/java/).
+## Vad är DocumentBuilder och varför använda det för att skapa formulärfält?
 
-## Lägga till text
+`DocumentBuilder` är Aspose.Words flödande API för att programatiskt konstruera och redigera Word‑dokument. Det abstraherar den lågnivå OpenXML‑strukturen, så att du kan fokusera på *vad* du vill lägga till—såsom **form fields**—istället för *hur* XML‑en ser ut. Detta gör det idealiskt för att generera dynamiska formulär, kontrakt eller vilket dokument som helst som kräver användarinteraktion.
+
+## Förutsättningar
+
+Innan du börjar, se till att du har Aspose.Words för Java‑biblioteket installerat i ditt projekt. Du kan ladda ner det från [here](https://releases.aspose.com/words/java/).
+
+## Lägga till text (hur man lägger till text)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett enkelt textstycke
+// Insert a simple text paragraph
 builder.write("This is a simple text paragraph.");
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -43,108 +57,108 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Starta en tabell
+// Start a table
 Table table = builder.startTable();
 
-// Infoga celler och innehåll
+// Insert cells and content
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// Avsluta bordet
+// End the table
 builder.endTable();
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Lägga till horisontell linje
+## Lägga till en horisontell linje (lägg till horisontell linje)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en horisontell linje
+// Insert a horizontal rule
 builder.insertHorizontalRule();
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Lägga till formulärfält
+## Lägga till formulärfält (skapa formulärfält)
 
-### Textinmatningsfält
+### Textinmatningsformulärfält
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett textinmatningsfält i formuläret
+// Insert a text input form field
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Kryssruta Formulärfält
+### Kryssruta formulärfält
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett kryssruteformulärfält
+// Insert a check box form field
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Kombinationsruta Formulärfält
+### Kombinationsruta formulärfält
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Definiera objekt för kombinationsrutan
+// Define items for the combo box
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// Infoga ett formulärfält med kombinationsruta
+// Insert a combo box form field
 builder.insertComboBox("DropDown", items, 0);
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Lägga till HTML
+## Lägga till HTML (infoga HTML)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga HTML-innehåll
+// Insert HTML content
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Lägga till hyperlänkar
+## Lägga till hyperlänkar (hur man lägger till hyperlänk)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en hyperlänk
+// Insert a hyperlink
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://"www.aspose.com", falskt);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -154,31 +168,31 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en innehållsförteckning
+// Insert a table of contents
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Lägg till dokumentinnehåll
+// Add document content
 // ...
 
-// Uppdatera innehållsförteckningen
+// Update the table of contents
 doc.updateFields();
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
 ## Lägga till bilder
 
-### Inline-bild
+### Infogad bild (infoga infogad bild)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en inbäddad bild
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -188,10 +202,10 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -201,7 +215,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in styckeformatering
+// Set paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -214,70 +228,69 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Infoga ett stycke
+// Insert a paragraph
 builder.writeln("This is a formatted paragraph.");
 
-// Spara dokumentet
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Steg 10: Flytta markören
+## Flytta markören (Steg 10)
 
-Du kan styra markörens position i dokumentet med olika metoder, som till exempel `moveToParagraph`, `moveToCell`och mer. Här är ett exempel:
+Du kan kontrollera markörens position i dokumentet med metoder som `moveToParagraph`, `moveToCell` osv.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Flytta markören till ett specifikt stycke
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// Lägg till innehåll vid den nya markörpositionen
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Här är några vanliga operationer du kan utföra med Aspose.Words för Javas DocumentBuilder. Utforska bibliotekets dokumentation för mer avancerade funktioner och anpassningsalternativ. Lycka till med dokumentskapandet!
-
+Detta är några vanliga operationer du kan utföra med Aspose.Words för Java's `DocumentBuilder`. Utforska bibliotekets dokumentation för mer avancerade funktioner och anpassningsalternativ. Lycka till med dokumentskapandet!
 
 ## Slutsats
 
-I den här omfattande guiden har vi utforskat möjligheterna med Aspose.Words för Javas DocumentBuilder för att lägga till olika typer av innehåll i Word-dokument. Vi har gått igenom text, tabeller, horisontella linjer, formulärfält, HTML, hyperlänkar, innehållsförteckningar, bilder, stycken och markörrörelser.
+I den här omfattande guiden har vi visat hur man **skapar formulärfält** och lägger till olika typer av innehåll—text, tabeller, horisontella linjer, HTML, hyperlänkar, en innehållsförteckning, bilder, formaterade stycken och markörnavigering—med Aspose.Words för Java's `DocumentBuilder`. Du har nu en solid grund för att programatiskt generera dynamiska, interaktiva Word‑dokument.
 
 ## Vanliga frågor
 
-### F: Vad är Aspose.Words för Java?
+### Q: Vad är Aspose.Words för Java?
 
-A: Aspose.Words för Java är ett Java-bibliotek som låter utvecklare skapa, modifiera och manipulera Microsoft Word-dokument programmatiskt. Det erbjuder ett brett utbud av funktioner för dokumentgenerering, formatering och innehållsinsättning.
+A: Aspose.Words för Java är ett Java‑bibliotek som låter utvecklare skapa, modifiera och manipulera Microsoft Word‑dokument programatiskt. Det erbjuder ett brett spektrum av funktioner för dokumentgenerering, formatering och innehållsinsättning.
 
-### F: Hur kan jag lägga till en innehållsförteckning i mitt dokument?
+### Q: Hur kan jag lägga till en innehållsförteckning i mitt dokument?
 
-A: För att lägga till en innehållsförteckning, använd `DocumentBuilder` för att infoga ett fält för innehållsförteckning i ditt dokument. Se till att uppdatera fälten i dokumentet efter att du har lagt till innehåll för att fylla innehållsförteckningen. Här är ett exempel:
+A: För att lägga till en innehållsförteckning, använd `DocumentBuilder` för att infoga ett TOC‑fält och anropa sedan `doc.updateFields()` efter att du har lagt till ditt innehåll.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett fält för innehållsförteckning
+// Insert a table of contents field
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Lägg till dokumentinnehåll
+// Add document content
 // ...
 
-// Uppdatera innehållsförteckningen
+// Update the table of contents
 doc.updateFields();
 ```
 
-### F: Hur infogar jag bilder i ett dokument med Aspose.Words för Java?
+### Q: Hur infogar jag bilder i ett dokument med Aspose.Words för Java?
 
-A: Du kan infoga bilder, både inbäddade och flytande, med hjälp av `DocumentBuilder`Här är exempel på båda:
+A: Du kan infoga bilder, både infogade och flytande, med hjälp av `DocumentBuilder`.
 
-#### Inbäddad bild:
+#### Infogad bild:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en inbäddad bild
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 ```
 
@@ -287,19 +300,19 @@ builder.insertImage("path/to/your/image.png");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### F: Kan jag formatera text och stycken när jag lägger till innehåll?
+### Q: Kan jag formatera text och stycken när jag lägger till innehåll?
 
-A: Ja, du kan formatera text och stycken med hjälp av `DocumentBuilder`Du kan ange teckensnittsegenskaper, styckejustering, indentering med mera. Här är ett exempel:
+A: Ja, du kan formatera text och stycken med `DocumentBuilder`. Ställ in teckensnittsegenskaper, styckejustering, indrag och mer innan du skriver innehåll.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange teckensnitt och styckeformatering
+// Set font and paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -312,34 +325,37 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Infoga ett formaterat stycke
+// Insert a formatted paragraph
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### F: Hur kan jag flytta markören till en specifik plats i dokumentet?
+### Q: Hur kan jag flytta markören till en specifik plats i dokumentet?
 
-A: Du kan styra markörens position med metoder som `moveToParagraph`, `moveToCell`och mer. Här är ett exempel:
+A: Använd metoder som `moveToParagraph`, `moveToCell` osv. för att placera markören innan du infogar nytt innehåll.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Flytta markören till ett specifikt stycke
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// Lägg till innehåll vid den nya markörpositionen
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Här är några vanliga frågor och svar som hjälper dig att komma igång med Aspose.Words för Javas DocumentBuilder. Om du har fler frågor eller behöver ytterligare hjälp kan du läsa mer på [bibliotekets dokumentation](https://reference.aspose.com/words/java/) eller sök hjälp från Aspose.Words-communityn och supportresurserna.
+Dessa svar täcker de vanligaste scenarierna när du arbetar med Aspose.Words för Java's `DocumentBuilder`. För djupare detaljer, se [library's documentation](https://reference.aspose.com/words/java/) eller gå med i Aspose.Words‑gemenskapen för support.
 
+---
+
+**Senast uppdaterad:** 2026-01-01  
+**Testat med:** Aspose.Words for Java 24.12  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

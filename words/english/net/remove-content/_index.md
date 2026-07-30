@@ -29,6 +29,7 @@ Whether you need to manipulate, create, convert or generate Word documents, Aspo
 | [Remove Section Breaks In Word Document](./remove-section-breaks/) | Learn how to remove section breaks in Word documents using Aspose.Words for .NET. This detailed, step-by-step guide ensures smooth document management and editing.|
 | [Remove Footers In Word Document](./remove-footers/) | Learn how to remove footers from Word documents using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [Remove Table Of Contents In Word Document](./remove-table-of-contents/) | Learn how to remove the table of contents in a Word document using Aspose.Words for .NET. |
+| [How to Call LLM in C# – Complete Guide with Local Model](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Learn how to call large language models in C# using a local model with a complete step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

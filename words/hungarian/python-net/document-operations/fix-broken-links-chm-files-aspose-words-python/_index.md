@@ -5,7 +5,9 @@
 "url": "/hu/python-net/document-operations/fix-broken-links-chm-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hogyan javítsuk ki a hibás hivatkozásokat a CHM fájlokban az Aspose.Words for Python használatával
 
 ## Bevezetés
@@ -145,3 +147,7 @@ További segítségért és tájékozódásért:
 - **Letöltés**: [Aspose.Words Python kiadásokhoz](https://releases.aspose.com/words/python/)
 - **Vásárlás és próba**: [Licenc vagy ingyenes próbaverzió beszerzése](https://purchase.aspose.com/buy)
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

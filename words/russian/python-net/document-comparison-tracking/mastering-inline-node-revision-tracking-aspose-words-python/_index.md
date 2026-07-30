@@ -5,7 +5,9 @@
 "url": "/ru/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Освоение встроенного отслеживания ревизий узлов в Python с помощью Aspose.Words
 
 ## Введение
@@ -127,3 +129,7 @@ assert runs[5].is_delete_revision
 - [Бесплатная пробная версия и временные лицензии](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 Мы надеемся, что это руководство поможет вам эффективно управлять изменениями документов с помощью Aspose.Words в Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

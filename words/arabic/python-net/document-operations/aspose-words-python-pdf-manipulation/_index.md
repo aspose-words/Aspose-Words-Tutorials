@@ -5,7 +5,9 @@
 "url": "/ar/python-net/document-operations/aspose-words-python-pdf-manipulation/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # معالجة متقدمة لملفات PDF باستخدام Aspose.Words للغة بايثون
 
 ## مقدمة
@@ -251,3 +253,7 @@ print(pdf_doc.get_text().strip())
 - "تحويل PDF إلى DOCX"
 - "إدارة المستندات باستخدام بايثون"
 - "التعامل مع ملفات PDF المشفرة"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

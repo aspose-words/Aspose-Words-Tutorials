@@ -4,7 +4,9 @@
 "url": "/nl/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Afbeeldingen en vormen tutorials voor Aspose.Words Python-net
 
 Ontdek uitgebreide stapsgewijze handleidingen voor het bewerken van afbeeldingen en vormen met Aspose.Words voor Python-net. Deze tutorials bevatten complete codevoorbeelden en gedetailleerde uitleg.
@@ -32,6 +34,9 @@ Leer hoe u de verwerking van afbeeldingen in RTF-documenten kunt optimaliseren m
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Leer hoe je SVG-uitvoer optimaliseert met Aspose.Words voor Python. Deze handleiding behandelt aangepaste functies zoals afbeeldingsachtige eigenschappen, tekstweergave en beveiligingsverbeteringen.
 
+### [Hoe schaduw toe te voegen in C# – Complete programmeergids](./how-to-add-shadow-in-c-complete-programming-guide/)
+Leer hoe u schaduweffecten aan tekst of vormen toevoegt in C# met Aspose.Words.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Leer hoe je SVG-uitvoer optimaliseert met Aspose.Words voor Python. Deze handlei
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

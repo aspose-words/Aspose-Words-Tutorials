@@ -25,10 +25,10 @@ Quer você precise manipular, criar, converter ou gerar documentos do Word, os t
 | Título | Descrição |
 | --- | --- |
 | [Remover quebras de página em documentos do Word](./remove-page-breaks/) | Aprenda a remover quebras de página em um documento do Word usando o Aspose.Words para .NET com nosso guia passo a passo. Aprimore suas habilidades de manipulação de documentos. |
-| [Remover quebras de seção em documentos do Word](./remove-section-breaks/) | Aprenda a remover quebras de seção em documentos do Word usando o Aspose.Words para .NET. Este guia detalhado e passo a passo garante gerenciamento e edição de documentos sem complicações.
+| [Remover quebras de seção em documentos do Word](./remove-section-breaks/) | Aprenda a remover quebras de seção em documentos do Word usando o Aspose.Words para .NET. Este guia detalhado e passo a passo garante gerenciamento e edição de documentos sem complicações. |
 | [Remover rodapés em documentos do Word](./remove-footers/) Aprenda como remover rodapés de documentos do Word usando o Aspose.Words para .NET com este guia passo a passo abrangente. |
 | [Remover índice em documento do Word](./remove-table-of-contents/) | Aprenda como remover o índice em um documento do Word usando o Aspose.Words para .NET. |
-
+| [Como chamar LLM em C# – Guia completo com modelo local](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Aprenda a integrar e usar modelos de linguagem local em aplicações C# com este guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

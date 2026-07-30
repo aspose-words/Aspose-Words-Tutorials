@@ -1,0 +1,7 @@
+Title: Convert docx to markdown with Java – Full Step‑by‑Step Guide
+Slug: convert-docx-to-markdown-with-java-full-step-by-step-guide
+Category: document-converting
+ProcessedDate: 2026-06-24T11:58:54.061635
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, save word as markdown, convert word to markdown, save document as markdown
+PRNumber: 211

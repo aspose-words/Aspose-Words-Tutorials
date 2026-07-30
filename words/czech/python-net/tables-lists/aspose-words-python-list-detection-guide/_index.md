@@ -5,7 +5,9 @@
 "url": "/cs/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Průvodce implementací detekce seznamů v textu pomocí Aspose.Words pro Python
 
 ## Zavedení
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Nástroje pro analýzu obsahu**Extrahujte strukturovaná data z textových souborů pro další analýzu nebo tvorbu sestav.
 3. **Úkoly čištění dat**Standardizujte formátování textu správou mezer a identifikací prvků seznamu.
 4. **Ověření odkazu**Ověřte odkazy v dávce textových dokumentů, abyste se ujistili, že jsou aktivní a správné.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

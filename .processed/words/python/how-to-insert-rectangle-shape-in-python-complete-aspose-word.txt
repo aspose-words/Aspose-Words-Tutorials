@@ -1,0 +1,7 @@
+Title: How to Insert Rectangle Shape in Python – Complete Aspose.Words Guide
+Slug: how-to-insert-rectangle-shape-in-python-complete-aspose-word
+Category: images-shapes
+ProcessedDate: 2026-06-27T15:47:05.851479
+SourceRepo: AI Search API
+Keywords: how to insert rectangle shape, how to change shadow color, how to add outer shadow, apply shadow effect to shape
+PRNumber: 215

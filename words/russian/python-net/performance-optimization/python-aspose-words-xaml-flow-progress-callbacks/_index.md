@@ -5,7 +5,9 @@
 "url": "/ru/python-net/performance-optimization/python-aspose-words-xaml-flow-progress-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Как оптимизировать сохранение документа в Python с помощью Aspose.Words: XAML Flow и обратные вызовы прогресса
 
 ## Введение
@@ -185,3 +187,7 @@ class ExXamlFlowSaveOptionsProgressCallback:
 ## Заключение
 
 В этом уроке мы изучили, как оптимизировать сохранение документов с помощью Aspose.Words для Python с использованием XAML Flow и обратных вызовов прогресса. Внедрив эти функции, вы сможете повысить эффективность рабочих процессов обработки документов, эффективно управлять ресурсами и гарантировать своевременные операции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

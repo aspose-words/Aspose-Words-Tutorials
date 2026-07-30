@@ -1,10 +1,10 @@
 ---
-date: 2026-02-14
-description: Dowiedz się, jak wyświetlać równania w linii, wstawiać równania matematyczne
-  i z łatwością manipulować obiektami Office Math przy użyciu Aspose.Words dla Javy.
+date: 2025-12-15
+description: Dowiedz się, jak używać obiektów matematycznych Office w Aspose.Words
+  for Java, aby łatwo manipulować i wyświetlać równania matematyczne.
 linktitle: Using Office Math Objects
-second_title: Aspose.Words Java Document Processing API
-title: Wyświetlanie równań w linii przy użyciu Office Math w Aspose.Words dla Javy
+second_title: Aspise.Words Java Document Processing API
+title: Jak używać obiektów matematycznych Office w Aspose.Words dla Javy
 url: /pl/java/document-conversion-and-export/using-office-math-objects/
 weight: 13
 ---
@@ -15,72 +15,89 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyświetlanie równań w linii przy użyciu Office Math w Aspose.Words for Java
+# Używanie obiektów Office Math w Aspose.Words dla Javy
 
-W tym obszernej tutorialu dowiesz się, jak **wyświetlać równania w linii** przy użyciu obiektów Office Math w Aspose.Words for Java. Niezależnie od tego, czy potrzebujesz **wstawić równanie matematyczne** do raportu, czy dopracować formatowanie złożonych formuł, ten przewodnik poprowadzi Cię przez każdy krok — od załadowania dokumentu Word po zapisanie ostatecznego wyniku.
+## Wprowadzenie do używania obiektów Office Math w Aspose.Words dla Javy
 
-## Szybkie odpowiedzi
-- **Co oznacza „display math inline”?** Równanie pojawia się w obrębie przepływu tekstu, a nie w osobnej linii.  
-- **Która klasa reprezentuje obiekt matematyczny?** `OfficeMath` w API Aspose.Words.  
-- **Czy mogę zmienić wyrównanie?** Tak, użyj `setJustification` z LEFT, CENTER lub RIGHT.  
-- **Czy potrzebna jest licencja na tę funkcję?** Wymagana jest ważna licencja Aspose.Words for Java do użytku produkcyjnego.  
-- **Jaką wersję prezentuje przykład?** Kod działa z najnowszą wersją Aspose.Words for Java (2026).
+Kiedy potrzebujesz **use office math** w oparciu o Java w przepływie pracy z dokumentami, Aspose.Words zapewnia czysty, programowy sposób pracy z złożonymi równaniami. W tym przewodniku przeprowadzimy Cię przez wszystko, co musisz wiedzieć, aby załadować dokument, zlokalizować obiekt Office Math, dostosować jego wygląd i zapisać wynik — wszystko przy zachowaniu przejrzystości kodu.
 
-## Co to jest „display math inline”?
-Wyświetlanie równań w linii oznacza, że równanie jest traktowane jako część tekstu akapitu, co pozwala mu naturalnie owijać się razem z otaczającymi słowami. Jest to przydatne przy krótkich formułach, które nie powinny przerywać płynności czytania.
+### Szybkie odpowiedzi
+- **Co mogę zrobić z office math w Aspose.Words?**  
+  Możesz ładować, modyfikować typ wyświetlania, zmieniać justowanie i zapisywać równania programowo.  
+- **Jakie typy wyświetlania są obsługiwane?**  
+  `INLINE` (osadzony w tekście) i `DISPLAY` (w osobnej linii).  
+- **Czy potrzebna jest licencja do korzystania z tych funkcji?**  
+  Licencja tymczasowa działa w trybie ewaluacyjnym; pełna licencja jest wymagana w produkcji.  
+- **Jaka wersja Javy jest wymagana?**  
+  Obsługiwane jest dowolne środowisko uruchomieniowe Java 8+.  
+- **Czy mogę przetwarzać wiele równań w jednym dokumencie?**  
+  Tak – iteruj po węzłach `NodeType.OFFICE_MATH`, aby obsłużyć każde równanie.
 
-## Dlaczego warto używać obiektów Office Math w Aspose.Words for Java?
-- **Precyzyjna kontrola** nad układem równania (inline vs. display).  
-- **Programowa manipulacja** równaniami bez ręcznego otwierania Worda.  
-- **Spójne renderowanie** na różnych platformach, idealne do automatycznego generowania raportów.
+## Czym jest „use office math” w Aspose.Words?
+
+Obiekty Office Math reprezentują bogaty format równań używany przez Microsoft Office. Aspose.Words dla Javy traktuje każde równanie jako węzeł `OfficeMath`, umożliwiając manipulację jego układem bez konwertowania na obrazy lub formaty zewnętrzne.
+
+## Dlaczego używać obiektów Office Math z Aspose.Words?
+
+- **Preserve editability** – równania pozostają natywne, więc użytkownicy końcowi mogą je dalej edytować w Wordzie.  
+- **Full control over styling** – zmień justowanie, typ wyświetlania oraz nawet formatowanie poszczególnych fragmentów.  
+- **No external dependencies** – wszystko jest obsługiwane wewnątrz API Aspose.Words.
 
 ## Wymagania wstępne
-Przed rozpoczęciem upewnij się, że masz:
 
-- Aspose.Words for Java zainstalowany i odwołany w projekcie.  
-- Plik Word, który już zawiera równanie Office Math (np. `OfficeMath.docx`).  
-- Ważną licencję, jeśli planujesz uruchomić kod poza trybem ewaluacyjnym.
+Zanim zaczniemy, upewnij się, że masz:
 
-## Przewodnik krok po kroku
+- Aspose.Words for Java zainstalowane (zalecana jest najnowsza wersja).  
+- Dokument Word, który już zawiera co najmniej jedno równanie Office Math – w tym tutorialu użyjemy **OfficeMath.docx**.  
+- Środowisko IDE Java lub narzędzie budujące (Maven/Gradle) skonfigurowane do odwoływania się do pliku JAR Aspose.Words.
 
-### Załaduj dokument
+## Przewodnik krok po kroku po użyciu office math
+
+Poniżej znajduje się zwięzły, numerowany przewodnik. Każdy krok jest opatrzony oryginalnym blokiem kodu (niezmienionym), abyś mógł go skopiować i wkleić bezpośrednio do swojego projektu.
+
+### Krok 1: Załaduj dokument
+
 Najpierw załaduj dokument, który zawiera równanie Office Math, z którym chcesz pracować:
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Uzyskaj dostęp do obiektu Office Math
-Pobierz pierwszy węzeł Office Math z dokumentu:
+### Krok 2: Uzyskaj dostęp do obiektu Office Math
+
+Pobierz pierwszy węzeł `OfficeMath` (możesz później iterować, jeśli jest ich wiele):
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Ustaw typ wyświetlania (Inline vs. Display)
-Kontroluj, czy równanie ma pojawić się w linii z otaczającym tekstem, czy w osobnej linii. Dla **display math inline** użyj wyliczenia `INLINE`; dla osobnej linii użyj `DISPLAY`:
+### Krok 3: Ustaw typ wyświetlania
+
+Kontroluj, czy równanie pojawia się w linii z otaczającym tekstem, czy w osobnej linii:
 
 ```java
 officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 ```
 
-*Jeśli chcesz, aby równanie pozostało w linii, zamień `DISPLAY` na `INLINE`.*
+### Krok 4: Ustaw justowanie
 
-### Ustaw wyrównanie
-Dostosuj wyrównanie równania. Poniżej wyrównujemy je do lewej, ale możesz także wybrać `CENTER` lub `RIGHT`:
+Wyrównaj równanie w razie potrzeby – w lewo, w prawo lub wyśrodkuj. Tutaj wyrównujemy je do lewej:
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Zapisz zmodyfikowany dokument
-Na koniec zapisz zmiany do nowego pliku:
+### Krok 5: Zapisz zmodyfikowany dokument
+
+Zapisz zmiany na dysk (lub do strumienia, jeśli wolisz):
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Pełny kod źródłowy użycia obiektów Office Math w Aspose.Words for Java
+### Pełny kod źródłowy użycia obiektów Office Math
+
+Łącząc wszystko razem, poniższy fragment pokazuje minimalny, kompletny przykład. **Nie modyfikuj kodu wewnątrz bloku** – jest zachowany dokładnie tak, jak w oryginalnym tutorialu.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
@@ -91,32 +108,35 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## Typowe problemy i rozwiązywanie
-- **Równanie nie znalezione:** Upewnij się, że dokument rzeczywiście zawiera obiekt Office Math; w przeciwnym razie `doc.getChild` zwraca `null`.  
-- **Typ wyświetlania nie ma efektu:** Sprawdź, czy używasz najnowszej wersji Aspose.Words; starsze wydania mogą mieć ograniczone wsparcie dla `OfficeMathDisplayType`.  
-- **Wyjątek licencyjny:** Jeśli pojawi się błąd licencji, sprawdź ponownie, czy plik licencji jest poprawnie załadowany przed utworzeniem instancji `Document`.
+## Typowe problemy i rozwiązywanie problemów
+
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|-------|--------------------------|-------------|
+| `ClassCastException` przy rzutowaniu na `OfficeMath` | Brak węzła Office Math pod wskazanym indeksem | Zweryfikuj, czy dokument faktycznie zawiera równanie lub dostosuj indeks. |
+| Równanie nie zmienia się po zapisaniu | nie wywołano `setDisplayType` lub `setJustification` | Upewnij się, że wywołujesz obie metody przed zapisem. |
+| Zapisany plik jest uszkodzony | Nieprawidłowa ścieżka pliku lub brak uprawnień do zapisu | Użyj ścieżki bezwzględnej lub upewnij się, że docelowy folder jest zapisywalny. |
 
 ## Najczęściej zadawane pytania
 
-**Q: Jaki jest cel obiektów Office Math w Aspose.Words for Java?**  
-A: Obiekty Office Math pozwalają reprezentować i manipulować równaniami matematycznymi programowo, dając pełną kontrolę nad ich wyświetlaniem i formatowaniem.
+**Q: Jaki jest cel obiektów Office Math w Aspose.Words dla Javy?**  
+A: Obiekty Office Math pozwalają reprezentować i manipulować równaniami matematycznymi bezpośrednio w dokumentach Word, dając kontrolę nad typem wyświetlania i formatowaniem.
 
-**Q: Czy mogę wyrównać równania Office Math w dokumencie w inny sposób?**  
-A: Tak, użyj metody `setJustification`, aby wyrównać je do lewej, prawej lub środka.
+**Q: Czy mogę wyrównywać równania Office Math w różny sposób w dokumencie?**  
+A: Tak, użyj metody `setJustification`, aby wyrównać w lewo, w prawo lub wyśrodkować.
 
-**Q: Czy Aspose.Words for Java nadaje się do obsługi złożonych dokumentów matematycznych?**  
-A: Absolutnie. Biblioteka w pełni obsługuje skomplikowane równania, zagnieżdżone ułamki, macierze i wiele innych.
+**Q: Czy Aspose.Words dla Javy nadaje się do obsługi złożonych dokumentów matematycznych?**  
+A: Zdecydowanie tak. Biblioteka w pełni obsługuje zagnieżdżone ułamki, całki, macierze i inne zaawansowane notacje dzięki Office Math.
 
-**Q: Jak mogę dowiedzieć się więcej o Aspose.Words for Java?**  
-A: Aby uzyskać pełną dokumentację i pobrać pliki, odwiedź [Dokumentacja Aspose.Words for Java](https://reference.aspose.com/words/java/).
+**Q: Jak mogę dowiedzieć się więcej o Aspose.Words dla Javy?**  
+A: Aby uzyskać pełną dokumentację i pobrać, odwiedź [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-**Q: Gdzie mogę pobrać Aspose.Words for Java?**  
-A: Możesz pobrać Aspose.Words for Java ze strony: [Pobierz Aspose.Words for Java](https://releases.aspose.com/words/java/).
+**Q: Gdzie mogę pobrać Aspose.Words dla Javy?**  
+A: Najnowszą wersję możesz pobrać ze strony oficjalnej: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-14  
-**Testowano z:** Aspose.Words for Java 24.12 (najnowsza wersja na luty 2026)  
+**Ostatnia aktualizacja:** 2025-12-15  
+**Testowano z:** Aspose.Words for Java 24.12 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

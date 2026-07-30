@@ -26,14 +26,19 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | --- | --- |
 | [Groepsvorm toevoegen](./add-group-shape/) | Leer hoe u groepsvormen toevoegt aan Word-documenten met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze zelfstudie. |
 | [Vorm invoegen](./insert-shape/) | Leer hoe u vormen in Word-documenten kunt invoegen en bewerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
+| [Rechthoekvorm maken in Word met C# – Stapsgewijze handleiding](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Leer hoe u een rechthoekvorm toevoegt en configureert in een Word‑document met C#. |
 | [Beeldverhouding vergrendeld](./aspect-ratio-locked/) | Leer hoe u de beeldverhouding van vormen in Word-documenten kunt vergrendelen met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding om uw afbeeldingen en vormen proportioneel te houden. |
 | [Lay-out in cel](./layout-in-cell/) | Leer hoe u de lay-out van een cel instelt met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor ontwikkelaars die Word-documenten willen aanpassen. |
 | [Voeg afgeknipte hoeken toe](./add-corners-snipped/) | Leer hoe u een hoekige vorm toevoegt aan uw Word-documenten met Aspose.Words voor .NET. Met deze stapsgewijze handleiding kunt u uw documenten eenvoudig verbeteren. |
 | [Ontvang werkelijke vormgrenspunten](./get-actual-shape-bounds-points/) | Ontdek hoe u de werkelijke vormgrenspunten in Word-documenten kunt bepalen met Aspose.Words voor .NET. Leer nauwkeurig vormmanipuleren met deze gedetailleerde handleiding. |
 | [Verticale anker](./vertical-anchor/) | Leer hoe u verticale ankerposities voor tekstvakken in Word-documenten instelt met Aspose.Words voor .NET. Inclusief eenvoudige stapsgewijze handleiding.|
 | [Detecteer slimme kunstvorm](./detect-smart-art-shape/) | Leer hoe u SmartArt-vormen in Word-documenten kunt detecteren met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor het automatiseren van uw documentworkflow. |
+| [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met de stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
+| [Rechthoekvorm maken in Word met Aspose.Words – Stapsgewijze handleiding](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Leer hoe u een rechthoekvorm toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
+| [Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Leer hoe u een Word‑document maakt met een rechthoek met schaduw met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
-
+| [Aspose.Words Vormschaduw Tutorial – Voeg een schaduw toe aan een Word-vorm in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
+| [Leeg Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Leer hoe u een leeg Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
