@@ -10,11 +10,7 @@ url: /tr/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
-top-button >}}
-
-We must keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

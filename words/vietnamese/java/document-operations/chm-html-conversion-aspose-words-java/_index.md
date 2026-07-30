@@ -12,11 +12,7 @@ url: /vi/java/document-operations/chm-html-conversion-aspose-words-java/
 weight: 1
 ---
 
- placeholders, shortcodes.
-
-All good.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -170,6 +166,12 @@ Sẵn sàng chuyển đổi? Áp dụng giải pháp này trong dự án tiếp 
 - **Mua & Dùng thử**: Tìm hiểu các tùy chọn giấy phép và phiên bản dùng thử [tại đây](https://purchase.aspose.com/buy) và [tại đây](https://releases.aspose.com/words/java/)  
 - **Hỗ trợ**: Đối với các câu hỏi, truy cập [Aspose Forum](https://forum.aspose.com/c/words/10)  
 
+---
+
+**Cập nhật lần cuối:** 2026-02-09  
+**Kiểm thử với:** Aspose.Words 25.3 cho Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +179,3 @@ Sẵn sàng chuyển đổi? Áp dụng giải pháp này trong dự án tiếp 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-02-09  
-**Kiểm thử với:** Aspose.Words 25.3 cho Java  
-**Tác giả:** Aspose

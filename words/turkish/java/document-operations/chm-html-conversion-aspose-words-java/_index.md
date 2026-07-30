@@ -167,6 +167,12 @@ Dönüştürmeye hazır mısınız? Bu çözümü bir sonraki projenizde uygulay
 - **Satın Alma & Deneme**: Lisans seçenekleri ve deneme sürümleri hakkında bilgi alın [buradan](https://purchase.aspose.com/buy) ve [buradan](https://releases.aspose.com/words/java/)
 - **Destek**: Sorularınız için [Aspose Forum](https://forum.aspose.com/c/words/10) adresini ziyaret edin
 
+---
+
+**Son Güncelleme:** 2026-02-09  
+**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ Dönüştürmeye hazır mısınız? Bu çözümü bir sonraki projenizde uygulay
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-09  
-**Test Edilen Versiyon:** Aspose.Words 25.3 for Java  
-**Yazar:** Aspose

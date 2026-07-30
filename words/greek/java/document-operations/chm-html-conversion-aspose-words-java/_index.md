@@ -168,6 +168,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 - **Αγορά & Δοκιμή**: Μάθετε για τις επιλογές αδειοδότησης και τις δοκιμαστικές εκδόσεις [εδώ](https://purchase.aspose.com/buy) και [εδώ](https://releases.aspose.com/words/java/)  
 - **Υποστήριξη**: Για ερωτήσεις, επισκεφθείτε το [Aspose Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-09  
+**Δοκιμή Με:** Aspose.Words 25.3 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-09  
-**Δοκιμή Με:** Aspose.Words 25.3 for Java  
-**Συγγραφέας:** Aspose

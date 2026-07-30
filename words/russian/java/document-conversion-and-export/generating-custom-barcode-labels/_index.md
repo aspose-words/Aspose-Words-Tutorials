@@ -10,8 +10,6 @@ url: /ru/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

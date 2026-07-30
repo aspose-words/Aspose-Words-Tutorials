@@ -167,6 +167,12 @@ Jste připraveni převést? Implementujte toto řešení ve svém dalším proje
 - **Nákup a zkušební verze**: Informace o licenčních možnostech a zkušebních verzích [zde](https://purchase.aspose.com/buy) a [zde](https://releases.aspose.com/words/java/)  
 - **Podpora**: Pro otázky navštivte [Aspose Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ Jste připraveni převést? Implementujte toto řešení ve svém dalším proje
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

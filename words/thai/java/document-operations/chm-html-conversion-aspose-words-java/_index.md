@@ -162,6 +162,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 - **Purchase & Trial**: เรียนรู้ตัวเลือกการออกใบอนุญาตและเวอร์ชันทดลอง [here](https://purchase.aspose.com/buy) และ [here](https://releases.aspose.com/words/java/)
 - **Support**: หากมีคำถาม เยี่ยมชม [Aspose Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-09  
+**ทดสอบด้วย:** Aspose.Words 25.3 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +175,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-09  
-**ทดสอบด้วย:** Aspose.Words 25.3 for Java  
-**ผู้เขียน:** Aspose

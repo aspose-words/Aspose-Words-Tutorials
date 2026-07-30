@@ -167,6 +167,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 - **Покупка и пробная версия**: Узнайте о вариантах лицензирования и пробных версиях [здесь](https://purchase.aspose.com/buy) и [здесь](https://releases.aspose.com/words/java/)  
 - **Поддержка**: По вопросам посетите [Aspose Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

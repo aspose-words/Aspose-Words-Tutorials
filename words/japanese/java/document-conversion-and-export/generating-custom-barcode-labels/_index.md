@@ -9,16 +9,6 @@ url: /ja/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
-: keep pipe characters.
-
-Also keep URLs unchanged.
-
-Let's craft translation.
-
-I'll write Japanese natural translation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -31,12 +21,12 @@ Proceed.
 
 バーコードは現代のアプリケーションに欠かせない要素で、**Aspose Barcode Java** を使用すれば、Word 文書内で直接簡単に作成できます。Word に **バーコードを埋め込む** 方法や、URL 用の QR コードを生成する方法、測定単位の変換まで、本チュートリアルで必要なすべてを解説します。さあ、始めましょう！
 
-## Quick Answers
-- **What library creates barcodes in Java?** Aspose Barcode Java paired with Aspose.Words for Java.  
-- **Which barcode type is demonstrated?** QR code (generate qr code java).  
-- **How do I convert twips to pixels?** Use the provided `twipsToPixels` utility method.  
-- **Can I add barcode to an existing Word file?** Yes – just use the `DocumentBuilder.insertImage` method.  
-- **Do I need a license?** A temporary license removes evaluation limits.
+## よくある質問
+- **Javaでバーコードを作成するライブラリはどれですか？** Aspose Barcode JavaとAspose.Words for Javaを組み合わせて使用​​します。
+- **どのバーコードタイプがデモされていますか？** QRコード（JavaでQRコードを生成する）です。
+- **twipsをピクセルに変換するにはどうすればよいですか？** 提供されているユーティリティメソッド`twipsToPixels`を使用します。
+- **既存のWordファイルにバーコードを追加できますか？** はい、`DocumentBuilder.insertImage`メソッドを使用するだけです。
+- **ライセンスは必要ですか？** 一時ライセンスを使用すると、評価版の制限が解除されます。
 
 ## Aspose Barcode Java とは？
 
@@ -194,28 +184,28 @@ public class GenerateCustomBarcodeLabels {
 
 ## よくある問題と対策
 
-| Issue | Cause | Fix |
+| 問題 | 原因 | 解決策 |
+
 |-------|-------|-----|
-| Barcode appears blank | Invalid color string or unsupported barcode type | Verify hex color format and use a supported type (e.g., QR, Code128). |
-| Image size is off | Incorrect pixel conversion | Use `twipsToPixels` to calculate exact dimensions based on Word’s layout. |
-| License exception | No valid Aspose license | Apply a temporary or purchased license before running the code. |
+| バーコードが空白になる | 無効なカラー文字列またはサポートされていないバーコードタイプ | 16進数カラー形式を確認し、サポートされているタイプ（例：QR、Code128）を使用してください。 |
+| 画像サイズが間違っている | ピクセル変換が正しくない | Wordのレイアウトに基づいて正確な寸法を計算するには、`twipsToPixels`を使用してください。 |
+| ライセンス例外 | 有効なAsposeライセンスがありません | コードを実行する前に、一時ライセンスまたは購入済みのライセンスを適用してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q: Can I use Aspose.Words for Java without a license?**  
-A: Yes, but you’ll encounter evaluation limitations. Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for full functionality.
+**Q: Aspose.Words for Javaはライセンスなしで使用できますか？** A: はい、使用できますが、評価版の機能制限が適用されます。すべての機能を使用するには、[一時ライセンス](https://purchase.aspose.com/temporary-license/) を取得してください。
 
-**Q: What types of barcodes can I generate?**  
-A: Aspose.BarCode supports QR, Code 128, EAN‑13, and many more. See the official [documentation](https://reference.aspose.com/words/java/) for the complete list.
 
-**Q: How can I change the barcode size?**  
-A: Adjust the width/height parameters in `builder.insertImage` or modify the `XDimension` and `BarHeight` properties on the `BarcodeGenerator` object.
+**Q: どのような種類のバーコードを生成できますか？** A: Aspose.BarCodeは、QRコード、Code128、EAN-13など、多くの種類のバーコードをサポートしています。完全なリストについては、公式ドキュメント（https://reference.aspose.com/words/java/） をご覧ください。
 
-**Q: Can I use custom fonts for the human‑readable part of the barcode?**  
-A: Absolutely. Use the `CodeTextParameters` property to set font family, size, and style.
+**Q: バーコードのサイズを変更するにはどうすればよいですか？** 
+A: `builder.insertImage` の幅/高さパラメータを調整するか、`BarcodeGenerator` オブジェクトの `XDimension` および `BarHeight` プロパティを変更してください。
 
-**Q: Where can I get help with Aspose.Words?**  
-A: Visit the [support forum](https://forum.aspose.com/c/words/8/) for community assistance and official support.
+**Q: バーコードの人間が読み取れる部分にカスタムフォントを使用できますか？** 
+A: はい、可能です。`CodeTextParameters` プロパティを使用して、フォントファミリー、サイズ、スタイルを設定してください。
+
+**Q: Aspose.Words に関するヘルプはどこで入手できますか？** 
+A: コミュニティによるサポートや公式サポートについては、[サポートフォーラム](https://forum.aspose.com/c/words/8/) をご覧ください。
 
 ---
 

@@ -190,20 +190,20 @@ public class GenerateCustomBarcodeLabels {
 
 ## Συχνές Ερωτήσεις
 
-**Q: Can I use Aspose.Words for Java without a license?**  
-A: Yes, but you’ll encounter evaluation limitations. Obtain a [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) for full functionality.
+**Ε: Μπορώ να χρησιμοποιήσω το Aspose.Words για Java χωρίς άδεια χρήσης;**
+Α: Ναι, αλλά θα αντιμετωπίσετε περιορισμούς στην αξιολόγηση. Αποκτήστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για πλήρη λειτουργικότητα.
 
-**Q: What types of barcodes can I generate?**  
-A: Aspose.BarCode supports QR, Code 128, EAN‑13, and many more. See the official [documentation](https://reference.aspose.com/words/java/) for the complete list.
+**Ε: Τι τύπους γραμμωτών κωδίκων μπορώ να δημιουργήσω;**
+Α: Το Aspose.BarCode υποστηρίζει QR, Code128, EAN‑13 και πολλά άλλα. Δείτε την επίσημη [τεκμηρίωση](https://reference.aspose.com/words/java/) για την πλήρη λίστα.
 
-**Q: How can I change the barcode size?**  
-A: Adjust the width/height parameters in `builder.insertImage` or modify the `XDimension` and `BarHeight` properties on the `BarcodeGenerator` object.
+**Ε: Πώς μπορώ να αλλάξω το μέγεθος του γραμμωτού κώδικα;**
+Α: Προσαρμόστε τις παραμέτρους πλάτους/ύψους στο `builder.insertImage` ή τροποποιήστε τις ιδιότητες `XDimension` και `BarHeight` στο αντικείμενο `BarcodeGenerator`.
 
-**Q: Can I use custom fonts for the human‑readable part of the barcode?**  
-A: Absolutely. Use the `CodeTextParameters` property to set font family, size, and style.
+**Ε: Μπορώ να χρησιμοποιήσω προσαρμοσμένες γραμματοσειρές για το αναγνώσιμο από τον άνθρωπο μέρος του γραμμωτού κώδικα;**
+Α: Απολύτως. Χρησιμοποιήστε την ιδιότητα `CodeTextParameters` για να ορίσετε την οικογένεια γραμματοσειρών, το μέγεθος και το στυλ.
 
-**Q: Where can I get help with Aspose.Words?**  
-A: Visit the [support forum](https://forum.aspose.com/c/words/8/) for community assistance and official support.
+**Ε: Πού μπορώ να λάβω βοήθεια με το Aspose.Words;**
+Α: Επισκεφθείτε το [φόρουμ υποστήριξης](https://forum.aspose.com/c/words/8/) για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
 
 ---
 

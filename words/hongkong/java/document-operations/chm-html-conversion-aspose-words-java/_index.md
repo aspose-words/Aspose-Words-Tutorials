@@ -165,6 +165,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 - **購買與試用**：了解授權與試用版資訊，請分別點擊 [here](https://purchase.aspose.com/buy) 與 [here](https://releases.aspose.com/words/java/)  
 - **支援**：如有問題，請造訪 [Aspose Forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

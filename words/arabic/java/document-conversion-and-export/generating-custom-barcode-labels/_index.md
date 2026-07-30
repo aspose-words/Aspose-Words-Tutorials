@@ -9,44 +9,6 @@ url: /ar/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
-.
-
-Arabic translation:
-
-"# إنشاء ملصقات باركود مخصصة باستخدام Aspose Barcode Java"
-
-Second heading:
-
-"## مقدمة في إنشاء ملصقات باركود مخصصة في Aspose.Words for Java"
-
-Paragraph: "Barcodes are essential..." translate.
-
-We'll translate whole paragraphs.
-
-Need to keep **bold** formatting.
-
-Also keep code snippets like `twipsToPixels` unchanged.
-
-Translate bullet list under Quick Answers.
-
-Make sure to keep **bold**.
-
-Now code block placeholders remain.
-
-Proceed.
-
-Let's craft translation.
-
-Be careful with tables: keep pipe formatting.
-
-Translate column headers and cells.
-
-Now final sections.
-
-Make sure to keep last updated etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

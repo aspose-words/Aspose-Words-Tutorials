@@ -167,6 +167,12 @@ Siap mengonversi? Terapkan solusi ini dalam proyek berikutnya dan sederhanakan p
 - **Pembelian & Percobaan**: Pelajari opsi lisensi dan versi percobaan [di sini](https://purchase.aspose.com/buy) dan [di sini](https://releases.aspose.com/words/java/)
 - **Dukungan**: Untuk pertanyaan, kunjungi [Forum Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**Terakhir Diperbarui:** 2026-02-09  
+**Diuji Dengan:** Aspose.Words 25.3 untuk Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ Siap mengonversi? Terapkan solusi ini dalam proyek berikutnya dan sederhanakan p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-09  
-**Diuji Dengan:** Aspose.Words 25.3 untuk Java  
-**Penulis:** Aspose

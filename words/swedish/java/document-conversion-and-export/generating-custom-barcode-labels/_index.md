@@ -10,14 +10,6 @@ url: /sv/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
-.
-
-Make sure to keep **bold**.
-
-Also tables: translate headers and content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

@@ -12,22 +12,6 @@ url: /hu/java/document-operations/chm-html-conversion-aspose-words-java/
 weight: 1
 ---
 
- translate.
-
-We must keep bold **convert CHM to HTML** unchanged? The phrase inside bold is English; but we may translate the surrounding text but keep the bold phrase? The phrase is a technical term, maybe keep English. The instruction: keep technical terms in English. "convert CHM to HTML" is a phrase; we can keep as is. So keep **convert CHM to HTML** unchanged.
-
-Proceed.
-
-We'll translate bullet list items.
-
-Continue through sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep links unchanged.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -183,6 +167,12 @@ Készen állsz a konvertálásra? Implementáld ezt a megoldást a következő p
 - **Vásárlás & Próbaverzió**: Licencelési lehetőségek és próbaverziók megismerése [itt](https://purchase.aspose.com/buy) és [itt](https://releases.aspose.com/words/java/)  
 - **Támogatás**: Kérdések esetén látogasd meg az [Aspose Fórumot](https://forum.aspose.com/c/words/10)
 
+---
+
+**Utoljára frissítve:** 2026-02-09  
+**Tesztelve:** Aspose.Words 25.3 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +180,3 @@ Készen állsz a konvertálásra? Implementáld ezt a megoldást a következő p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2026-02-09  
-**Tesztelve:** Aspose.Words 25.3 for Java  
-**Szerző:** Aspose

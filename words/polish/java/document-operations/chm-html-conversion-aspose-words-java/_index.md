@@ -167,6 +167,12 @@ Gotowy do konwersji? Zaimplementuj to rozwiązanie w swoim następnym projekcie 
 - **Zakup i wersja próbna**: Dowiedz się o opcjach licencjonowania i wersjach próbnych [tutaj](https://purchase.aspose.com/buy) oraz [tutaj](https://releases.aspose.com/words/java/)  
 - **Wsparcie**: W razie pytań, odwiedź [Forum Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ Gotowy do konwersji? Zaimplementuj to rozwiązanie w swoim następnym projekcie 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

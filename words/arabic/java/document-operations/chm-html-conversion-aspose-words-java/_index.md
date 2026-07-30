@@ -11,26 +11,6 @@ url: /ar/java/document-operations/chm-html-conversion-aspose-words-java/
 weight: 1
 ---
 
--button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose
-
-We need to keep dates unchanged.
-
-Now produce final Arabic markdown.
-
-Be careful with bold formatting.
-
-Let's craft translation.
-
-We'll use Arabic sentences.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -186,6 +166,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 - **الشراء والتجربة**: تعرف على خيارات الترخيص والإصدارات التجريبية [هنا](https://purchase.aspose.com/buy) و[هنا](https://releases.aspose.com/words/java/)  
 - **الدعم**: لأي أسئلة، زر [منتدى Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**آخر تحديث:** 2026-02-09  
+**تم الاختبار مع:** Aspose.Words 25.3 للغة Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +179,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/ExChmLoadOptions.OriginalFileName.html");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-09  
-**تم الاختبار مع:** Aspose.Words 25.3 للغة Java  
-**المؤلف:** Aspose

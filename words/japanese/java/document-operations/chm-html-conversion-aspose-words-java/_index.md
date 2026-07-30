@@ -165,6 +165,12 @@ CHM を HTML に変換することは、さまざまな実務プロジェクト�
 - **購入 & トライアル**: ライセンスオプションとトライアル版は [こちら](https://purchase.aspose.com/buy) と [こちら](https://releases.aspose.com/words/java/)をご確認ください  
 - **サポート**: 質問がある場合は [Aspose フォーラム](https://forum.aspose.com/c/words/10)をご利用ください
 
+---
+
+**最終更新日:** 2026-02-09  
+**テスト環境:** Aspose.Words 25.3 for Java  
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -172,9 +178,3 @@ CHM を HTML に変換することは、さまざまな実務プロジェクト�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-09  
-**テスト環境:** Aspose.Words 25.3 for Java  
-**作成者:** Aspose

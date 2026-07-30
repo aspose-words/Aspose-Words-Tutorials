@@ -10,24 +10,6 @@ url: /hi/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
 
-. Translate text content, keep technical terms English. Let's produce translation.
-
-We must keep shortcodes unchanged. Also keep code block placeholders as they are. The content includes tables with pipes; translate cell content.
-
-Proceed section by section.
-
-Start with shortcodes lines unchanged.
-
-Then heading "# Generating Custom Barcode Labels with Aspose Barcode Java" translate: "# Aspose Barcode Java के साथ कस्टम बारकोड लेबल बनाना"
-
-Similarly other headings.
-
-Translate paragraphs.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

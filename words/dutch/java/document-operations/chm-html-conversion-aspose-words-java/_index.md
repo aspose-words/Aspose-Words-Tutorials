@@ -167,6 +167,12 @@ Klaar om te converteren? Implementeer deze oplossing in uw volgende project en s
 - **Aankoop & proefversie**: Lees meer over licentie‑opties en proefversies [hier](https://purchase.aspose.com/buy) en [hier](https://releases.aspose.com/words/java/)  
 - **Ondersteuning**: Voor vragen, bezoek het [Aspose‑forum](https://forum.aspose.com/c/words/10)
 
+---
+
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ Klaar om te converteren? Implementeer deze oplossing in uw volgende project en s
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

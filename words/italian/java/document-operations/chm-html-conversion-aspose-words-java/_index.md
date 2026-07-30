@@ -12,7 +12,7 @@ url: /it/java/document-operations/chm-html-conversion-aspose-words-java/
 weight: 1
 ---
 
- craft final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -167,6 +167,12 @@ Pronto a convertire? Implementa questa soluzione nel tuo prossimo progetto e sem
 - **Acquisto & Prova**: Scopri le opzioni di licenza e le versioni di prova [qui](https://purchase.aspose.com/buy) e [qui](https://releases.aspose.com/words/java/)  
 - **Supporto**: Per domande, visita il [Forum Aspose](https://forum.aspose.com/c/words/10)  
 
+---
+
+**Ultimo aggiornamento:** 2026-02-09  
+**Testato con:** Aspose.Words 25.3 per Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -174,9 +180,3 @@ Pronto a convertire? Implementa questa soluzione nel tuo prossimo progetto e sem
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-02-09  
-**Testato con:** Aspose.Words 25.3 per Java  
-**Autore:** Aspose

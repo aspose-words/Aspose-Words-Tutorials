@@ -20,35 +20,35 @@ weight: 10
 
 ## Pengantar Membuat Label Barcode Kustom di Aspose.Words untuk Java
 
-Barcode sangat penting dalam aplikasi modern, dan **Aspose Barcode Java** memungkinkannya dibuat secara langsung di dalam dokumen Word dengan mudah. Apakah Anda perlu **embed barcode in Word**, menghasilkan QR code untuk URL, atau mengonversi satuan ukuran, tutorial ini akan memandu Anda melalui semua yang diperlukan. Siap memulai? Ayo!
+Barcode sangat penting dalam aplikasi modern, dan **Aspose Barcode Java** memungkinkannya dibuat secara langsung di dalam dokumen Word dengan mudah. Apakah Anda perlu **menyematkan kode batang di Word**, membuat kode QR untuk URL, atau mengonversi satu ukuran, tutorial ini akan memandu Anda melalui semua yang diperlukan. Siap memulai? Ayo!
 
-## Quick Answers
-- **Perpustakaan apa yang membuat barcode di Java?** Aspose Barcode Java paired with Aspose.Words for Java.  
-- **Jenis barcode apa yang ditunjukkan?** QR code (generate qr code java).  
-- **Bagaimana cara mengonversi twips ke piksel?** Use the provided `twipsToPixels` utility method.  
-- **Bisakah saya menambahkan barcode ke file Word yang sudah ada?** Yes – just use the `DocumentBuilder.insertImage` method.  
-- **Apakah saya membutuhkan lisensi?** A temporary license removes evaluation limits.
+## Jawaban Cepat
+- **Perpustakaan apa yang membuat barcode di Java?** Aspose Barcode Java dipasangkan dengan Aspose.Words for Java.
+- **Jenis barcode apa yang ditunjukkan?** Kode QR (menghasilkan kode qr java).
+- **Bagaimana cara mengonversi twips ke piksel?** Gunakan metode utilitas `twipsToPixels` yang disediakan.
+- ** meminta saya menambahkan barcode ke file Word yang sudah ada?** Ya – cukup gunakan metode `DocumentBuilder.insertImage`.
+- **Apakah saya membutuhkan lisensi?** Lisensi sementara menghilangkan batasan evaluasi.
 
 ## Apa itu Aspose Barcode Java?
-Aspose Barcode Java adalah API yang kuat yang memungkinkan pengembang menghasilkan berbagai barcode 1D dan 2D (termasuk QR code) secara programatis. Ketika digabungkan dengan Aspose.Words untuk Java, Anda dapat **embed barcode in Word** dokumen tanpa meninggalkan lingkungan Java Anda.
+Aspose Barcode Java adalah API yang kuat yang memungkinkan pengembang menghasilkan berbagai barcode 1D dan 2D (termasuk kode QR) secara terprogram. Ketika digabungkan dengan Aspose.Words untuk Java, Anda dapat **menyematkan barcode di Word** dokumen tanpa meninggalkan lingkungan Java Anda.
 
 ## Mengapa menggunakan Aspose Barcode Java dengan Aspose.Words?
-- **Kontrol penuh** atas tampilan barcode (warna, ukuran, format).  
-- **Integrasi mulus** – gambar barcode dapat disisipkan langsung ke dalam dokumen Word.  
-- **Cross‑platform** – bekerja pada platform apa pun yang kompatibel dengan Java.  
-- **Dapat diperluas** – Anda dapat membuat kelas utilitas untuk menggunakan kembali logika barcode di berbagai proyek.
+- **Kontrol penuh** atas tampilan barcode (warna, ukuran, format).
+- **Integrasi mulus** – gambar barcode dapat disisipkan langsung ke dalam dokumen Word.
+- **Lintas‑platform** – bekerja pada platform apa pun yang kompatibel dengan Java.
+- **Dapat diisi** – Anda dapat membuat kelas utilitas untuk menggunakan kembali logika barcode di berbagai proyek.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum kita mulai menulis kode, pastikan Anda memiliki hal‑hal berikut:
 
-- Java Development Kit (JDK): Versi 8 atau lebih tinggi.  
-- Aspose.Words for Java Library: [Download here](https://releases.aspose.com/words/java/).  
-- Aspose.BarCode for Java Library: [Download here](https://releases.aspose.com/).  
-- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse, atau IDE apa pun yang Anda sukai.  
-- Temporary License: Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for unrestricted access.
+- Java Development Kit (JDK): Versi 8 atau lebih tinggi.
+- Aspose.Words untuk Java Library: [Unduh di sini](https://releases.aspose.com/words/java/).
+- Aspose.BarCode untuk Java Library: [Unduh di sini](https://releases.aspose.com/).
+- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse, atau IDE apa pun yang Anda sukai.
+- Lisensi Sementara: Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk akses tidak terbatas.
 
-## Import Packages
+## Impor Paket
 
 Kami akan menggunakan pustaka Aspose.Words dan Aspose.BarCode. Impor paket berikut ke dalam proyek Anda:
 
@@ -64,11 +64,11 @@ Impor ini memungkinkan kita memanfaatkan fitur pembuatan barcode dan mengintegra
 
 Mari kita bagi tugas ini menjadi langkah‑langkah yang dapat dikelola.
 
-## Step 1: Create a Utility Class for Barcode Operations
+## Langkah 1: Buat Kelas Utilitas untuk Operasi Barcode
 
-Untuk menyederhanakan operasi yang berhubungan dengan barcode, kami akan membuat kelas utilitas dengan metode bantu untuk tugas umum seperti konversi warna dan **convert twips to pixels**.
+Untuk memberikan operasi yang berhubungan dengan barcode, kami akan membuat kelas utilitas dengan metode bantu untuk tugas umum seperti konversi warna dan **convert twips to pixel**.
 
-### Code:
+### Kode:
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -95,14 +95,14 @@ class CustomBarcodeGeneratorUtils {
 
 **Penjelasan**
 
-- `twipsToPixels` mengubah satuan ukuran yang digunakan Word (twips) menjadi piksel layar – bantuan yang berguna ketika Anda memerlukan ukuran yang tepat.  
-- `convertColor` menerjemahkan string warna heksadesimal (mis., “FF0000”) menjadi objek Java `Color`, memungkinkan Anda menyesuaikan latar depan dan latar belakang barcode.
+- `twipsToPixels` mengubah satuan ukuran yang digunakan Word (twips) menjadi piksel layar – bantuan yang berguna ketika Anda memerlukan ukuran yang tepat.
+- `convertColor` mengubah string warna heksadesimal (mis., “FF0000”) menjadi objek Java `Color`, memungkinkan Anda menyesuaikan latar depan dan latar belakang barcode.
 
-## Step 2: Implement the Custom Barcode Generator
+## Langkah 2: Terapkan Generator Kode Batang Khusus
 
 Kami akan mengimplementasikan antarmuka `IBarcodeGenerator` sehingga Aspose.Words dapat meminta gambar barcode setiap kali menemukan bidang barcode.
 
-### Code:
+### Kode:
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -134,15 +134,15 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 
 **Penjelasan**
 
-- `getBarcodeImage` membangun `BarcodeGenerator` menggunakan tipe **generate qr code java** yang Anda tentukan (QR dalam contoh kami).  
-- Ia menerapkan warna latar depan dan latar belakang melalui metode utilitas, lalu mengembalikan gambar yang di‑render.  
+- `getBarcodeImage` membangun `BarcodeGenerator` menggunakan tipe **generate qr code java** yang Anda temukan (QR dalam contoh kami).
+- Ia menerapkan warna latar depan dan latar belakang melalui metode utilitas, lalu mengembalikan gambar yang di-render.
 - Gambar fallback memastikan program tetap berjalan meskipun pembuatan barcode gagal.
 
-## Step 3: Generate a Barcode and Add It to a Word Document
+## Langkah 3: Buat Barcode dan Tambahkan ke Dokumen Word
 
-Sekarang kami menggabungkan semuanya: membuat dokumen, menghasilkan barcode, dan **how to add barcode** ke file Word.
+Sekarang kami menggabungkan semuanya: membuat dokumen, menghasilkan barcode, dan **cara menambahkan barcode** ke file Word.
 
-### Code:
+### Kode:
 
 ```java
 import com.aspose.words.*;
@@ -177,12 +177,12 @@ public class GenerateCustomBarcodeLabels {
 
 **Penjelasan**
 
-1. **Inisialisasi Dokumen** – membuat `Document` baru (atau Anda dapat memuat .docx yang sudah ada).  
-2. **Parameter Barcode** – menentukan tipe (`QR`), nilai, dan warna, menunjukkan penggunaan **generate qr code java**.  
-3. **Penyisipan Gambar** – `builder.insertImage` menempatkan barcode di lokasi yang diinginkan, secara efektif menunjukkan **how to add barcode** ke file Word.  
+1. **Inisialisasi Dokumen** – membuat `Document` baru (atau Anda dapat memuat .docx yang sudah ada).
+2. **Parameter Barcode** – menentukan tipe (`QR`), nilai, dan warna, menunjukkan penggunaan **menghasilkan kode qr java**.
+3. **Penyisipan Gambar** – `builder.insertImage` menempatkan barcode di lokasi yang diinginkan, secara efektif menunjukkan **cara menambahkan barcode** ke file Word.
 4. **Menyimpan** – dokumen akhir (`CustomBarcodeLabels.docx`) berisi barcode yang disematkan siap untuk dicetak atau didistribusikan.
 
-## Common Issues and Solutions
+## Masalah Umum dan Solusinya
 
 | Masalah | Penyebab | Solusi |
 |-------|-------|-----|
@@ -190,28 +190,28 @@ public class GenerateCustomBarcodeLabels {
 | Ukuran gambar tidak tepat | Konversi piksel yang salah | Gunakan `twipsToPixels` untuk menghitung dimensi tepat berdasarkan tata letak Word. |
 | Pengecualian lisensi | Tidak ada lisensi Aspose yang valid | Terapkan lisensi sementara atau berbayar sebelum menjalankan kode. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menggunakan Aspose.Words untuk Java tanpa lisensi?**  
-A: Ya, tetapi Anda akan mengalami batasan evaluasi. Obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for full functionality.
+**T: Bisakah saya menggunakan Aspose.Words untuk Java tanpa lisensi?**
+A: Ya, tetapi Anda akan mengalami batasan evaluasi. Dapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk fungsionalitas penuh.
 
-**T: Jenis barcode apa yang dapat saya hasilkan?**  
-A: Aspose.BarCode supports QR, Code 128, EAN‑13, and many more. See the official [documentation](https://reference.aspose.com/words/java/) for the complete list.
+**T: Jenis barcode apa yang dapat saya hasilkan?**
+J: Aspose.BarCode mendukung QR, Code128, EAN‑13, dan masih banyak lagi. Lihat [dokumentasi] resmi(https://reference.aspose.com/words/java/) untuk daftar lengkapnya.
 
-**T: Bagaimana saya dapat mengubah ukuran barcode?**  
-A: Adjust the width/height parameters in `builder.insertImage` or modify the `XDimension` and `BarHeight` properties on the `BarcodeGenerator` object.
+**T: Bagaimana saya dapat mengubah ukuran barcode?**
+A: Sesuaikan parameter lebar/tinggi di `builder.insertImage` atau ubah properti `XDimension` dan `BarHeight` pada objek `BarcodeGenerator`.
 
-**T: Bisakah saya menggunakan font khusus untuk bagian yang dapat dibaca manusia dari barcode?**  
-A: Absolutely. Use the `CodeTextParameters` property to set font family, size, and style.
+**T: Bisakah saya menggunakan font khusus untuk bagian yang dapat dibaca manusia dari barcode?**
+J: Tentu saja. Gunakan properti `CodeTextParameters` untuk mengatur jenis font, ukuran, dan gaya.
 
-**T: Di mana saya dapat mendapatkan bantuan untuk Aspose.Words?**  
-A: Visit the [support forum](https://forum.aspose.com/c/words/8/) for community assistance and official support.
+**T: Di mana saya dapat mendapatkan bantuan untuk Aspose.Words?**
+J: Kunjungi [forum dukungan](https://forum.aspose.com/c/words/8/) untuk mendapatkan bantuan komunitas dan dukungan resmi.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-09  
-**Diuji Dengan:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
-**Penulis:** Aspose  
+**Terakhir Diperbarui:** 09-02-2026
+**Diuji Dengan:** Aspose.Words untuk Java 24.12, Aspose.BarCode untuk Java 24.12
+**Penulis:** Berasumsi  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
