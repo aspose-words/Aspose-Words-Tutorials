@@ -32,6 +32,8 @@ Esplora più a fondo le nostre pagine nidificate per scoprire funzionalità spec
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Inserire un semplice grafico a colonne in Word utilizzando Aspose.Words per .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Come modificare un grafico in Word: modifica la posizione delle etichette, il carattere e altro" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
