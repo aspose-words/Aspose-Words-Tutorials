@@ -34,7 +34,7 @@ Dive deeper with our nested pages to explore specific functionalities, including
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Insert a Simple Column Chart in Word Using Aspose.Words for .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Edit Chart in Word - Change Label Position, Font & More" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="How to Edit Chart in Word: Change Label Position, Font & More" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
