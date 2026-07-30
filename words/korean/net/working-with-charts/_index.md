@@ -32,6 +32,8 @@ Aspose.Words for .NET은 Word 문서에서 차트 작업을 위한 강력한 도
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Aspose.Words for .NET을 사용하여 Word에 간단한 막대형 차트 삽입" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Word에서 차트 편집 방법: 레이블 위치, 글꼴 및 기타 변경" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
