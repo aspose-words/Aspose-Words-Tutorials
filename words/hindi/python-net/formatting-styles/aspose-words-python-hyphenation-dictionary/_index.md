@@ -5,7 +5,9 @@
 "url": "/hi/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # पायथन के लिए Aspose.Words में महारत हासिल करना: हाइफ़नेशन डिक्शनरी को पंजीकृत और अपंजीकृत करना
 
 ## परिचय
@@ -173,3 +175,7 @@ A: एक फ़ाइल जिसमें पंक्ति के अंत
 - **खरीदना:** [Aspose.Words लाइसेंस खरीदें](https://purchase.aspose.com/buy)
 - **मुफ्त परीक्षण:** [निःशुल्क परीक्षण के साथ शुरुआत करें](https://releases.aspose.com/words/python/)
 - **अस्थायी लाइसेंस:** [अस्थायी लाइसेंस का अनुरोध करें](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

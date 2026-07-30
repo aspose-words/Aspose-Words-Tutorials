@@ -5,7 +5,9 @@
 "url": "/it/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Padroneggiare lo schema e le unità ODT con Aspose.Words in Python
 
 ## Introduzione
@@ -165,3 +167,7 @@ Padroneggiando le impostazioni dello schema ODT e le configurazioni delle unità
 - **Prova gratuita**: Inizia con una prova gratuita su [Download di Aspose per Python](https://releases.aspose.com/words/python/)
 - **Licenza temporanea**: Fai domanda qui: [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: Partecipa alla discussione su [Forum Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

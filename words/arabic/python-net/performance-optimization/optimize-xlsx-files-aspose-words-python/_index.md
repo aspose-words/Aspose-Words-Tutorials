@@ -5,7 +5,9 @@
 "url": "/ar/python-net/performance-optimization/optimize-xlsx-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # تحسين ملفات Excel باستخدام Aspose.Words لـ Python: تقنيات الضغط والتخصيص
 
 اكتشف تقنيات فعّالة لضغط مستندات Excel وتنظيمها وتحسين أدائها بكفاءة باستخدام Aspose.Words for Python. سيرشدك هذا البرنامج التعليمي إلى كيفية تحسين ملفات XLSX من خلال تقليل حجمها، وحفظ أقسام متعددة كأوراق عمل منفصلة، وتفعيل الاكتشاف التلقائي لتنسيقات التاريخ والوقت.
@@ -174,3 +176,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'DateTimeParsingModeOutput.xlsx', sav
 - **نسخة تجريبية مجانية**: [جرب Aspose مجانًا](https://releases.aspose.com/words/python/)
 - **رخصة مؤقتة**: [احصل على رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
 - **يدعم**: [دعم منتدى Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

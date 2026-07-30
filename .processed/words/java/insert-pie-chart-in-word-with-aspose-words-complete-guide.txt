@@ -1,0 +1,7 @@
+Title: Insert Pie Chart in Word with Aspose.Words – Complete Guide
+Slug: insert-pie-chart-in-word-with-aspose-words-complete-guide
+Category: using-document-elements
+ProcessedDate: 2026-07-26T10:45:13.575302
+SourceRepo: AI Search API
+Keywords: insert pie chart, how to add chart, how to explode slice, add chart to word, how to show percentages
+PRNumber: 235

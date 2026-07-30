@@ -4,7 +4,9 @@
 "url": "/el/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Εκπαιδευτικά βίντεο για εικόνες και σχήματα για το Aspose.Words Python-net
 
 Εξερευνήστε αναλυτικούς οδηγούς βήμα προς βήμα για λειτουργίες εικόνων και σχημάτων χρησιμοποιώντας το Aspose.Words για Python-net. Αυτά τα σεμινάρια περιλαμβάνουν πλήρη παραδείγματα κώδικα και λεπτομερείς εξηγήσεις.
@@ -32,6 +34,9 @@
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Μάθετε πώς να βελτιστοποιήσετε την έξοδο SVG χρησιμοποιώντας το Aspose.Words για Python. Αυτός ο οδηγός καλύπτει προσαρμοσμένες λειτουργίες όπως ιδιότητες εικόνας, απόδοση κειμένου και βελτιώσεις ασφαλείας.
 
+### [Πώς να Προσθέσετε Σκιά σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-add-shadow-in-c-complete-programming-guide/)
+Μάθετε πώς να εφαρμόσετε σκιές σε αντικείμενα C# χρησιμοποιώντας Aspose.Words για βελτιωμένη εμφάνιση εγγράφων.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

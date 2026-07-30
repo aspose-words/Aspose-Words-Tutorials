@@ -4,7 +4,9 @@
 "url": "/el/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Εκπαιδευτικά σεμινάρια για λειτουργίες εγγράφων για το Aspose.Words Python-net
 
 Εξερευνήστε αναλυτικούς οδηγούς βήμα προς βήμα για λειτουργίες εγγράφων χρησιμοποιώντας το Aspose.Words για Python-net. Αυτά τα σεμινάρια περιλαμβάνουν πλήρη παραδείγματα κώδικα και λεπτομερείς εξηγήσεις.
@@ -55,6 +57,9 @@
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Μάθετε πώς να μετατρέπετε έγγραφα Word σε μορφή PostScript χρησιμοποιώντας το Aspose.Words για Python. Αυτός ο οδηγός καλύπτει τις επιλογές ρύθμισης, μετατροπής και εκτύπωσης σε μορφή βιβλίου.
 
+    ### [Ανάκτηση Κατεστραμμένου DOCX – Άνοιγμα & Φόρτωση Εγγράφου Word](./recover-corrupted-docx-open-load-word-document/)
+Μάθετε πώς να ανοίξετε και να φορτώσετε έγγραφα Word DOCX που είναι κατεστραμμένα, αποκαθιστώντας τα δεδομένα τους.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@
 - [Φόρουμ Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Δωρεάν Υποστήριξη](https://forum.aspose.com/)
 - [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

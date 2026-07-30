@@ -1,0 +1,7 @@
+Title: Create Accessible PDF from DOCX – Complete Step‑by‑Step Guide
+Slug: create-accessible-pdf-from-docx-complete-step-by-step-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-24T01:58:25.869015
+SourceRepo: AI Search API
+Keywords: create accessible pdf, save docx as pdf, export docx to pdf, how to create pdf, how to set compliance
+PRNumber: 191

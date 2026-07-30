@@ -5,7 +5,9 @@
 "url": "/vi/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Làm chủ Tab Stops trong Python với Aspose.Words để định dạng tài liệu
 
 ## Giới thiệu
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Phần kết luận
 
 Làm chủ các điểm dừng tab trong Python bằng Aspose.Words cho phép bạn dễ dàng tạo các tài liệu được định dạng chuyên nghiệp. Bằng cách làm theo hướng dẫn này, bạn có thể thêm, tùy chỉnh và quản lý các điểm dừng tab hiệu quả, nâng cao chất lượng tổng thể của các đầu ra dạng văn bản của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

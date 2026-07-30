@@ -4,7 +4,9 @@
 "url": "/fr/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriels sur les en-têtes, les pieds de page et la mise en page pour Aspose.Words Python-net
 
 Découvrez des guides détaillés et détaillés pour les opérations de création d'en-têtes, de pieds de page et de mise en page avec Aspose.Words pour Python-net. Ces tutoriels incluent des exemples de code complets et des explications détaillées.
@@ -36,3 +38,7 @@ Un tutoriel de code pour Aspose.Words Python-net
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Assistance gratuite](https://forum.aspose.com/)
 - [Licence temporaire](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

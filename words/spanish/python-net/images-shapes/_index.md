@@ -4,7 +4,9 @@
 "url": "/es/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriales de imágenes y formas para Aspose.Words Python-net
 
 Explora guías paso a paso completas para operaciones con imágenes y formas usando Aspose.Words para Python-net. Estos tutoriales incluyen ejemplos de código completos y explicaciones detalladas.
@@ -26,6 +28,9 @@ La categoría "Imágenes y Formas" de los tutoriales de Python-net de Aspose.Wor
 ### [Dominando el análisis de tipos de medios en Aspose.Words para Python: una guía completa](./mastering-aspose-words-python-media-type-parsing/)
 Aprenda a analizar tipos de medios, cifrar archivos y validar firmas digitales con Aspose.Words para Python. Mejore sus capacidades de procesamiento de documentos hoy mismo.
 
+### [Cómo agregar sombra en C# – Guía completa de programación](./how-to-add-shadow-in-c-complete-programming-guide/)
+Aprenda a aplicar sombras a objetos en documentos con Aspose.Words y C# paso a paso.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.
 
@@ -40,3 +45,7 @@ Aprenda a optimizar la salida SVG con Aspose.Words para Python. Esta guía abarc
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -34,6 +34,9 @@
 ### [Как визуализировать страницы документа в виде миниатюр с помощью Aspose.Words для Java](./render-word-pages-thumbnails-aspose-java/)
 Узнайте, как создавать высококачественные миниатюры и растровые изображения документов Word с помощью Aspose.Words для Java. Расширьте свои возможности обработки документов сегодня.
 
+### [Создание документа Word в Java – Добавление прямоугольной фигуры с эффектом тени](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Узнайте, как добавить прямоугольную форму с теневым эффектом в документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

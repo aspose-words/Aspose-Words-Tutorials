@@ -1,0 +1,7 @@
+Title: Log Font Substitution Warnings in Java with Aspose.Words
+Slug: log-font-substitution-warnings-in-java-with-aspose-words
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-18T03:22:47.030283
+SourceRepo: AI Search API
+Keywords: log font substitution warnings
+PRNumber: 205

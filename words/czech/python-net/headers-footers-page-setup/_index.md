@@ -4,7 +4,9 @@
 "url": "/cs/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Návody na záhlaví, zápatí a nastavení stránky pro Aspose.Words Python-net
 
 Prozkoumejte komplexní návody krok za krokem pro záhlaví, zápatí a nastavení stránky pomocí Aspose.Words pro Python-net. Tyto návody obsahují kompletní příklady kódu a podrobná vysvětlení.
@@ -36,3 +38,7 @@ Výukový program pro Aspose.Words v Pythonu.net
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

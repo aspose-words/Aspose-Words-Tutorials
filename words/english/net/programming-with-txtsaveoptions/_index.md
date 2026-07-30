@@ -28,6 +28,9 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 | [Add Bidi Marks in Word Document](./add-bidi-marks/) | Learn how to add bidirectional (Bidi) marks in Word documents using Aspose.Words for .NET with this guide. Ensure proper text direction for multi-language content. |
 | [Use Tab Character Per Level For List Indentation](./use-tab-character-per-level-for-list-indentation/) | Learn how to create multi-level lists with tabbed indentation using Aspose.Words for .NET. Follow this guide for precise list formatting in your documents. |
 | [Use Space Character Per Level For List Indentation](./use-space-character-per-level-for-list-indentation/) | Learn how to create multi-level lists with space character indentation in Aspose.Words for .NET. Step-by-step guide for precise document formatting. |
+| [Convert docx to txt – Complete Guide to Saving Word as Plain Text](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Learn how to convert DOCX to TXT using Aspose.Words for .NET with detailed steps and code examples. |
+| [Save Document as TXT – Complete C# Guide to Convert DOCX to Plain Text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Learn how to convert DOCX files to plain text using Aspose.Words for .NET with a complete C# guide. |
+| [Save docx as txt – Quick Guide for C# Developers](./save-docx-as-txt-quick-guide-for-c-developers/) | Learn how to quickly convert DOCX files to TXT using Aspose.Words for .NET with C# code examples and key options. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

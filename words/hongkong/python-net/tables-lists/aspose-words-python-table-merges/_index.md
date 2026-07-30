@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words for Python 中的主表合併
 
 ## 介紹
@@ -213,3 +215,7 @@ Aspose.Words for Python 功能多元。以下是一些實際用例：
 - [免費試用](https://releases.aspose.com/words/python/)
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,11 +1,11 @@
 ---
-date: 2026-02-09
-description: Generuj własne etykiety z kodami kreskowymi przy użyciu Aspose Barcode
-  Java w Aspose.Words for Java. Dowiedz się, jak osadzić kod kreskowy w dokumentach
-  Word oraz generować przykłady kodów QR w Javie.
+date: 2025-12-10
+description: Dowiedz się, jak generować własne etykiety z kodami kreskowymi przy użyciu
+  Aspose.Words for Java. Ten przewodnik krok po kroku pokazuje, jak osadzać kody kreskowe
+  w dokumentach Word.
 linktitle: Generating Custom Barcode Labels
 second_title: Aspose.Words Java Document Processing API
-title: Generowanie niestandardowych etykiet kodów kreskowych z Aspose Barcode Java
+title: Generuj niestandardowe etykiety kodów kreskowych w Aspose.Words dla Javy
 url: /pl/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
@@ -16,37 +16,28 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Generowanie niestandardowych etykiet kodów kreskowych przy użyciu Aspose Barcode Java
+# Generowanie niestandardowych etykiet kodów kreskowych w Aspose.Words dla Javy
 
-## Wprowadzenie do generowania niestandardowych etykiet kodów kreskowych w Aspose.Words dla Javy
+## Wprowadzenie do generowania niestandardowego kodu kreskowego w Aspose.Words dla Javy
 
-Kody kreskowe są niezbędne w nowoczesnych aplikacjach, a **Aspose Barcode Java** ułatwia ich tworzenie bezpośrednio w dokumentach Word. Niezależnie od tego, czy musisz **embed barcode in Word**, wygenerować kod QR dla adresu URL, czy przeliczyć jednostki miary, ten samouczek przeprowadzi Cię przez wszystko, czego potrzebujesz. Gotowy, aby zanurzyć się w temat? Zaczynajmy!
+Kody kreskowe są niezbędne w nowoczesnych aplikacjach — niezależnie od tego, czy zarządzasz zapasami, drukujesz bilety, czy tworzysz karty identyfikacyjne. W tym samouczku **wygenerujesz niestandardowe etykiety kodów kreskowych** i osadzisz je bezpośrednio w dokumencie Word przy użyciu interfejsu `IBarcodeGenerator`. Przejdziemy krok po kroku, od konfiguracji środowiska po wstawienie obrazu kodu kreskowego, abyś mógł od razu rozpocząć używanie kodów kreskowych w swoich projektach Java.
 
 ## Szybkie odpowiedzi
-- **Jaka biblioteka tworzy kody kreskowe w Javie?** Aspose Barcode Java paired with Aspose.Words for Java.  
-- **Jaki typ kodu kreskowego jest pokazany?** QR code (generate qr code java).  
-- **Jak przeliczyć twipsy na piksele?** Use the provided `twipsToPixels` utility method.  
-- **Czy mogę dodać kod kreskowy do istniejącego pliku Word?** Yes – just use the `DocumentBuilder.insertImage` method.  
-- **Czy potrzebuję licencji?** A temporary license removes evaluation limits.
-
-## Czym jest Aspose Barcode Java?
-Aspose Barcode Java to potężne API, które umożliwia programistom generowanie szerokiej gamy kodów kreskowych 1D i 2D (w tym kodów QR) w sposób programowy. W połączeniu z Aspose.Words dla Javy, możesz **embed barcode in Word** dokumenty bez opuszczania środowiska Java.
-
-## Dlaczego warto używać Aspose Barcode Java z Aspose.Words?
-- **Pełna kontrola** nad wyglądem kodu kreskowego (kolory, rozmiar, format).  
-- **Bezproblemowa integracja** – obraz kodu kreskowego może być wstawiony bezpośrednio do dokumentu Word.  
-- **Cross‑platform** – działa na każdej platformie zgodnej z Javą.  
-- **Rozszerzalny** – możesz tworzyć klasy pomocnicze, aby ponownie wykorzystywać logikę kodów kreskowych w różnych projektach.
+- **Co uczy ten samouczek?** Jak generować niestandardowe etykiety kodów kreskowych i osadzać je w pliku Word przy użyciu Aspose.Words dla Javy.  
+- **Jaki typ kodu kreskowego jest używany w przykładzie?** Kod QR (można go zamienić na dowolny obsługiwany typ).  
+- **Czy potrzebna jest licencja?** Wymagana jest tymczasowa licencja, aby uzyskać nieograniczony dostęp podczas rozwoju.  
+- **Jakiej wersji Javy wymaga?** JDK 8 lub wyższej.  
+- **Czy mogę zmienić rozmiar lub kolory kodu kreskowego?** Tak — zmodyfikuj ustawienia `BarcodeParameters` i `BarcodeGenerator`.
 
 ## Wymagania wstępne
 
-Before we start coding, ensure you have the following:
+Zanim zaczniemy kodować, upewnij się, że masz następujące elementy:
 
 - Java Development Kit (JDK): wersja 8 lub wyższa.  
-- Aspose.Words for Java Library: [Download here](https://releases.aspose.com/words/java/).  
-- Aspose.BarCode for Java Library: [Download here](https://releases.aspose.com/).  
-- Zintegrowane środowisko programistyczne (IDE): IntelliJ IDEA, Eclipse lub dowolne IDE, które preferujesz.  
-- Licencja tymczasowa: uzyskaj [temporary license](https://purchase.aspose.com/temporary-license/) dla nieograniczonego dostępu.
+- Biblioteka Aspose.Words dla Javy: [Pobierz tutaj](https://releases.aspose.com/words/java/).  
+- Biblioteka Aspose.BarCode dla Javy: [Pobierz tutaj](https://releases.aspose.com/).  
+- Zintegrowane środowisko programistyczne (IDE): IntelliJ IDEA, Eclipse lub dowolne inne IDE, które preferujesz.  
+- Tymczasowa licencja: Uzyskaj [tymczasową licencję](https://purchase.aspose.com/temporary-license/) dla nieograniczonego dostępu.
 
 ## Importowanie pakietów
 
@@ -60,15 +51,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-These imports allow us to utilize barcode generation features and integrate them into Word documents.
+Te importy dają dostęp do API generowania kodów kreskowych oraz klas dokumentu Word, których będziemy potrzebować.
 
-Let’s break this task into manageable steps.
+## Krok 1: Utwórz klasę pomocniczą do operacji na kodach kreskowych
 
-## Krok 1: Utwórz klasę pomocniczą dla operacji kodów kreskowych
+Aby utrzymać główny kod w czystości, umieścimy wspólne pomocniki — takie jak **konwersja twipsów na piksele** oraz **konwersja koloru szesnastkowego** — w klasie narzędziowej.
 
-To simplify barcode‑related operations, we’ll create a utility class with helper methods for common tasks, such as color conversion and **convert twips to pixels**.
-
-### Code:
+### Code
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -93,16 +82,16 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-**Wyjaśnienie**
+**Explanation**
 
-- `twipsToPixels` konwertuje jednostkę miary używaną w Wordzie (twips) na piksele ekranu – przydatny pomocnik, gdy potrzebne jest precyzyjne rozmiarowanie.  
-- `convertColor` przetwarza szesnastkowy ciąg kolorów (np. “FF0000”) na obiekt Java `Color`, umożliwiając dostosowanie pierwszego planu i tła kodu kreskowego.
+- `twipsToPixels` – Word mierzy wymiary w **twips**; ta metoda konwertuje je na piksele ekranu, co jest przydatne, gdy trzeba precyzyjnie określić rozmiar obrazu kodu kreskowego.  
+- `convertColor` – Zamienia ciąg szesnastkowy (np. `"FF0000"` dla czerwonego) na obiekt `java.awt.Color`, pozwalając na **jak wstawić kod kreskowy** z własnymi kolorami pierwszego planu i tła.
 
 ## Krok 2: Zaimplementuj własny generator kodów kreskowych
 
-Zaimplementujemy interfejs `IBarcodeGenerator`, aby Aspose.Words mógł żądać obrazu kodu kreskowego za każdym razem, gdy napotka pole kodu kreskowego.
+Teraz zaimplementujemy interfejs `IBarcodeGenerator`. Ta klasa będzie odpowiedzialna za **generowanie obrazów w stylu qr code java**, które Aspose.Words może osadzić.
 
-### Code:
+### Code
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -132,17 +121,16 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-**Wyjaśnienie**
+**Explanation**
 
-- `getBarcodeImage` tworzy `BarcodeGenerator` używając typu **generate qr code java**, który określasz (QR w naszym przykładzie).  
-- Stosuje kolory pierwszego planu i tła za pomocą metod pomocniczych, a następnie zwraca wyrenderowany obraz.  
-- Obraz zapasowy zapewnia kontynuację programu, nawet jeśli tworzenie kodu kreskowego się nie powiedzie.
+- `getBarcodeImage` tworzy instancję `BarcodeGenerator`, stosuje kolory podane w `BarcodeParameters` i ostatecznie zwraca `BufferedImage`.  
+- Metoda obsługuje również błędy, zwracając obraz zastępczy, co zapewnia, że tworzenie dokumentu Word nigdy nie zakończy się awarią.
 
-## Krok 3: Wygeneruj kod kreskowy i dodaj go do dokumentu Word
+## Krok 3: Wygeneruj kod kreskowy i **osadź kod kreskowy w Wordzie**
 
-Teraz łączymy wszystko: tworzymy dokument, generujemy kod kreskowy i **how to add barcode** do pliku Word.
+Z gotowym generatorem możemy teraz wyprodukować obraz kodu kreskowego i **wstawić go do dokumentu Word**.
 
-### Code:
+### Code
 
 ```java
 import com.aspose.words.*;
@@ -175,41 +163,52 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-**Wyjaśnienie**
+**Explanation**
 
-1. **Inicjalizacja dokumentu** – tworzy nowy `Document` (lub możesz załadować istniejący .docx).  
-2. **Parametry kodu kreskowego** – definiują typ (`QR`), wartość i kolory, demonstrując użycie **generate qr code java**.  
-3. **Wstawianie obrazu** – `builder.insertImage` umieszcza kod kreskowy w wybranym miejscu, skutecznie pokazując **how to add barcode** do pliku Word.  
-4. **Zapisywanie** – końcowy dokument (`CustomBarcodeLabels.docx`) zawiera wbudowany kod kreskowy gotowy do druku lub dystrybucji.
+1. **Inicjalizacja dokumentu** – Tworzy nowy `Document` (lub możesz wczytać istniejący szablon).  
+2. **Parametry kodu kreskowego** – Definiuje typ kodu (`QR`), wartość do zakodowania oraz kolory pierwszego planu i tła.  
+3. **Wstawianie obrazu** – `builder.insertImage` umieszcza wygenerowany kod kreskowy w żądanym rozmiarze (200 × 200 pikseli). To jest sedno **jak wstawić kod kreskowy** do pliku Word.  
+4. **Zapisywanie** – Końcowy dokument, `CustomBarcodeLabels.docx`, zawiera osadzony kod kreskowy gotowy do druku lub dystrybucji.
 
-## Typowe problemy i rozwiązania
+## Dlaczego generować niestandardowe etykiety kodów kreskowych przy użyciu Aspose.Words?
 
-| Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
-| Kod kreskowy pojawia się pusty | Nieprawidłowy ciąg kolorów lub nieobsługiwany typ kodu kreskowego | Zweryfikuj format szesnastkowy koloru i użyj obsługiwanego typu (np. QR, Code128). |
-| Rozmiar obrazu jest nieprawidłowy | Niepoprawna konwersja pikseli | Użyj `twipsToPixels`, aby obliczyć dokładne wymiary na podstawie układu Worda. |
-| Wyjątek licencyjny | Brak ważnej licencji Aspose | Zastosuj tymczasową lub zakupioną licencję przed uruchomieniem kodu. |
+- **Pełna kontrola** nad wyglądem kodu kreskowego (typ, rozmiar, kolory).  
+- **Bezproblemowa integracja** — nie potrzeba plików pośrednich; kod kreskowy jest generowany w pamięci i wstawiany bezpośrednio.  
+- **Cross‑platform** — działa na każdym systemie operacyjnym obsługującym Javę, co czyni go idealnym do generowania dokumentów po stronie serwera.  
+- **Skalowalny** — możesz iterować po źródle danych, aby w jednym przebiegu stworzyć setki spersonalizowanych etykiet.
+
+## Typowe problemy i rozwiązywanie
+
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Kod kreskowy jest pusty | Kolory w `BarcodeParameters` są takie same (np. czarny na czarnym) | Sprawdź wartości `foregroundColor` i `backgroundColor`. |
+| Obraz jest zniekształcony | Nieprawidłowe wymiary w pikselach przekazane do `insertImage` | Dostosuj argumenty szerokości/wysokości lub użyj konwersji `twipsToPixels` dla precyzyjnego rozmiaru. |
+| Błąd nieobsługiwanego typu kodu kreskowego | Użycie typu nie rozpoznawanego przez `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` | Upewnij się, że ciąg typu kodu kreskowego odpowiada jednemu z obsługiwanych `EncodeTypes` (np. `"QR"`, `"CODE128"`). |
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę używać Aspose.Words dla Javy bez licencji?**  
-A: Tak, ale napotkasz ograniczenia wersji ewaluacyjnej. Uzyskaj [temporary license](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
+**P:** Czy mogę używać Aspose.Words dla Javy bez licencji?  
+**O:** Tak, ale będą pewne ograniczenia. Uzyskaj [tymczasową licencję](https://purchase.aspose.com/temporary-license/) dla pełnej funkcjonalności.
 
-**Q: Jakie typy kodów kreskowych mogę generować?**  
-A: Aspose.BarCode obsługuje QR, Code 128, EAN‑13 i wiele innych. Zobacz oficjalną [documentation](https://reference.aspose.com/words/java/) po pełną listę.
+**P:** Jakie typy kodów kreskowych mogę generować?  
+**O:** Aspose.BarCode obsługuje QR, Code 128, EAN‑13 i wiele innych formatów. Sprawdź [dokumentację](https://reference.aspose.com/words/java/) po pełną listę.
 
-**Q: Jak mogę zmienić rozmiar kodu kreskowego?**  
-A: Dostosuj parametry szerokości/wysokości w `builder.insertImage` lub zmodyfikuj właściwości `XDimension` i `BarHeight` obiektu `BarcodeGenerator`.
+**P:** Jak mogę zmienić rozmiaru kreskowego?  
+**O:** Dostosuj argumenty szerokości i wysokości w `builder.insertImage` lub użyj `twipsToPixels`, aby przeliczyć jednostki pomiarowe Worda na piksele.
 
-**Q: Czy mogę używać własnych czcionek dla części czytelnej dla człowieka w kodzie kreskowym?**  
-A: Oczywiście. Użyj właściwości `CodeTextParameters`, aby ustawić rodzinę czcionki, rozmiar i styl.
+**P:** Czy można używać własnych czcionek dla tekstu kodu kreskowego?  
+**O:** Tak, możesz dostosować czcionkę tekstu poprzez właściwość `CodeTextParameters` obiektu `BarcodeGenerator`.
 
-**Q: Gdzie mogę uzyskać pomoc dotyczącą Aspose.Words?**  
-A: Odwiedź [support forum](https://forum.aspose.com/c/words/8/) po pomoc społeczności i oficjalne wsparcie.
+**P:** Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?  
+**O:** Odwiedź [forum wsparcia](https://forum.aspose.com/c/words/8/) po pomoc od społeczności Aspose i inżynierów.
+
+## Podsumowanie
+
+Postępując zgodnie z powyższymi krokami, teraz wiesz, jak **generować niestandardowe obrazy kodów kreskowych** i **osadzać kod kreskowy w dokumentach Word** przy użyciu Aspose.Words dla Javy. Ta technika jest wystarczająco elastyczna, aby tworzyć etykiety magazynowe, bilety na wydarzenia lub dowolny scenariusz, w którym kod kreskowy musi być częścią generowanego dokumentu. Eksperymentuj z różnymi typami kodów i opcjami stylizacji, aby dopasować je do konkretnych potrzeb biznesowych.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-09  
+**Ostatnia aktualizacja:** 2025-12-10  
 **Testowano z:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
 **Autor:** Aspose  
 

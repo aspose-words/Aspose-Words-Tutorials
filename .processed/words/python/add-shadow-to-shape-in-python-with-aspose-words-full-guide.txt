@@ -1,0 +1,7 @@
+Title: Add Shadow to Shape in Python with Aspose.Words – Full Guide
+Slug: add-shadow-to-shape-in-python-with-aspose-words-full-guide
+Category: images-shapes
+ProcessedDate: 2026-06-30T21:23:40.105900
+SourceRepo: AI Search API
+Keywords: add shadow to shape, how to set shadow distance, how to add shape shadow
+PRNumber: 218

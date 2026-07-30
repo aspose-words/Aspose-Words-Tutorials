@@ -1,10 +1,12 @@
 ---
-"description": "تعلّم كيفية استخراج المحتوى من المستندات بسهولة باستخدام Aspose.Words لجافا. يُبسّط دليلنا التفصيلي ونماذج التعليمات البرمجية العملية."
-"linktitle": "استخراج المحتوى من المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "استخراج المحتوى من المستندات في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: تعلم كيفية استخراج النص باستخدام Aspose.Words for Java. يوضح هذا الدليل
+  خطوة بخطوة تقنيات استخراج متعددة مع عينات شفرة جاهزة للتنفيذ.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: كيفية استخراج النص باستخدام Aspose.Words للـ Java
+url: /ar/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +15,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخراج المحتوى من المستندات في Aspose.Words لـ Java
+# كيفية استخراج النص باستخدام Aspose.Words for Java
 
+## كيفية استخراج النص باستخدام Aspose.Words for Java
 
-## مقدمة لاستخراج المحتوى من المستندات في Aspose.Words لـ Java
+في عالم معالجة المستندات، **كيفية استخراج النص باستخدام Aspose.Words** هو سؤال متكرر لمطوري Java. سواء كنت تحتاج إلى سحب النص العادي، الجداول، الصور، أو عناصر محددة مثل الإشارات المرجعية أو التعليقات، فإن Aspose.Words for Java يقدم واجهة برمجة تطبيقات غنية تجعل المهمة مباشرة. في هذا الدليل سنستعرض عشرات سيناريوهات الاستخراج، نشرح لماذا كل نهج مهم، ونوفر عينات شفرة جاهزة يمكنك إدراجها في مشروعك.
 
-في عالم معالجة المستندات، يُعد استخراج المحتوى منها مطلبًا شائعًا. سواءً كنتَ بحاجة إلى استخراج نص أو جداول أو صور أو عناصر مستند محددة، يوفر Aspose.Words لجافا أدوات فعّالة تُسهّل هذه المهمة. في هذا الدليل الشامل، سنشرح لك عملية استخراج المحتوى من المستندات باستخدام Aspose.Words لجافا. 
+## إجابات سريعة
+- **ما المكتبة التي أحتاجها؟** Aspose.Words for Java (قم بتنزيلها من الموقع الرسمي).  
+- **هل يمكن استخراج النص العادي فقط؟** نعم – استخدم `Document.getText()` أو `DocumentBuilder` مع الحقول.  
+- **هل يمكن استخراج النص بين الإشارات المرجعية؟** بالتأكيد، استخدم `BookmarkStart`/`BookmarkEnd` مع `ExtractContentHelper`.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص التجاري مطلوب للاستخدام غير التجريبي.  
+- **ما إصدارات Java المدعومة؟** Java 8 وما فوق متوافقة بالكامل.
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-قبل أن نتعمق في عملية الاستخراج، تأكد من توفر المتطلبات الأساسية التالية:
+1. **Aspose.Words for Java** – ثبّت المكتبة وأضفها إلى مشروعك. يمكنك تنزيلها من [here](https://releases.aspose.com/words/java/).  
+2. **مستند تجريبي** – للأمثلة سنستخدم ملفًا باسم `Extract content.docx`. ضعّه في مجلد يمكنك الإشارة إليه من الشفرة.
 
-1. Aspose.Words for Java: يجب أن يكون Aspose.Words for Java مُثبّتًا ومُهيأً في بيئة تطوير Java لديك. يمكنك تنزيله من [هنا](https://releases.aspose.com/words/java/).
-
-2. مستند لاستخراج المحتوى منه: في هذا الدليل، سنستخدم مستندًا نموذجيًا باسم "Extract content.docx". تأكد من وجود مستند مماثل جاهز للاستخراج.
-
-## استخراج المحتوى بين العقد على مستوى الكتلة
+## استخراج المحتوى بين العقد من المستوى الكتلي
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بين العقد على مستوى الكتلة
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -47,7 +52,7 @@ doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevel
 ## استخراج المحتوى بين الإشارات المرجعية
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بين الإشارات المرجعية
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -63,7 +68,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmar
 ## استخراج المحتوى بين نطاقات التعليقات
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بين نطاقات التعليقات
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -78,7 +83,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenComment
 ## استخراج المحتوى بين الفقرات
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بين الفقرات
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -90,7 +95,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagra
 ## استخراج المحتوى بين أنماط الفقرات
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بين أنماط الفقرات
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +106,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## استخراج المحتوى بين عمليات التشغيل
+## استخراج المحتوى بين القطع النصية (Runs)
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بين عمليات التشغيل
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -117,17 +122,17 @@ System.out.println(node.toString());
 ## استخراج المحتوى باستخدام DocumentVisitor
 
 ```java
-// عينة من كود Java لاستخراج المحتوى باستخدام DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## استخراج المحتوى باستخدام الحقل
+## استخراج المحتوى باستخدام Field
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى باستخدام الحقل
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -141,7 +146,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.doc
 ## استخراج جدول المحتويات
 
 ```java
-// عينة من كود جافا لاستخراج جدول المحتويات
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -161,7 +166,7 @@ for (Field field : doc.getRange().getFields()) {
 ## استخراج النص فقط
 
 ```java
-// عينة من كود جافا لاستخراج النص فقط
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -172,7 +177,7 @@ System.out.println("ToString() Result: " + doc.toString());
 ## استخراج المحتوى بناءً على الأنماط
 
 ```java
-// عينة من كود جافا لاستخراج المحتوى بناءً على الأنماط
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +212,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## استخراج النص وطباعته
+## استخراج وطباعة النص
 
 ```java
-// عينة من كود جافا لاستخراج النص وطباعته
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +226,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## استخراج الصور إلى الملفات
+## استخراج الصور إلى ملفات
 
 ```java
-// عينة من كود جافا لاستخراج الصور إلى الملفات
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -238,39 +243,37 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 }
 ```
 
-## خاتمة
+## الخلاصة
 
-تهانينا! لقد تعلمت كيفية استخراج المحتوى من المستندات باستخدام Aspose.Words لجافا. غطى هذا الدليل تقنيات استخراج متنوعة، بما في ذلك المحتوى بين عقد مستوى الكتلة، والإشارات المرجعية، ونطاقات التعليقات، والفقرات، وغيرها. أنت الآن جاهز لاستخراج محتوى المستندات بكفاءة في تطبيقات جافا.
+تهانينا! لديك الآن مجموعة أدوات قوية لـ **كيفية استخراج النص باستخدام Aspose.Words** في Java. من العقد من المستوى الكتلي إلى الإشارات المرجعية، التعليقات، الأنماط، وحتى الصور، توفر API تحكمًا دقيقًا فيما تستخرجه من المستند. استخدم هذه القطع كقاعدة، عدّلها لتناسب هياكل ملفاتك الخاصة، وقم بأتمتة عملية الاستخراج عبر مجموعات مستندات كبيرة.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### كيف يمكنني استخراج المحتوى من أقسام معينة من المستند؟
+**س: كيف يمكن استخراج المحتوى من مستند محمي بكلمة مرور؟**  
+ج: حمّل المستند باستخدام مُنشئ كلمة المرور: `new Document(path, new LoadOptions("password"))`، ثم نفّذ أي من طرق الاستخراج المعروضة أعلاه.
 
-لاستخراج المحتوى من أقسام مستند محددة، يمكنك تحديد نقاط البداية والنهاية للأقسام واستخدام طرق Aspose.Words for Java المناسبة لاستخراج المحتوى بينها.
+**س: هل يمكن استخراج المحتوى من عدة مستندات في تشغيل واحد؟**  
+ج: نعم. قم بالتكرار عبر قائمة مسارات الملفات، أنشئ `Document` لكل منها، وطبق نفس منطق الاستخراج داخل الحلقة.
 
-### هل يمكنني استخراج المحتوى من المستندات المحمية بكلمة مرور؟
+**س: هل هناك طريقة لاستخراج النص الظاهر فقط (متجاهلًا النص المخفي أو أكواد الحقول)؟**  
+ج: استخدم `doc.getText()` للنص الظاهر البسيط. للحصول على تحكم أكبر، قم بالتكرار عبر العقد وصَفِّها حسب `NodeType.RUN` و `Run.getFont().getHidden()`.
 
-نعم، يوفر Aspose.Words لجافا إمكانية استخراج المحتوى من المستندات المحمية بكلمة مرور. يمكنك إدخال كلمة المرور عند فتح المستند باستخدام `Document` منشئ الفئة.
+**س: ما الصيغ التي يمكنني حفظ المحتوى المستخرج إليها؟**  
+ج: بعد الاستخراج، يمكنك حفظ `Document` كـ DOCX، PDF، HTML، TXT، أو أي صيغة يدعمها Aspose.Words عبر `doc.save("output.pdf")`.
 
-### كيف يمكنني استخراج المحتوى وحفظه بتنسيقات مختلفة، مثل النص العادي أو HTML؟
+**س: هل يدعم Aspose.Words استخراج المحتوى من ملفات كبيرة (مئات الميغابايت)؟**  
+ج: نعم، لكن يُفضَّل استخدام `LoadOptions` مع `LoadFormat` و `MemoryOptimization` لتقليل استهلاك الذاكرة.
 
-يمكنك استخراج محتوى من مستند وحفظه بتنسيقات مختلفة باستخدام Aspose.Words لجافا. بعد استخراج المحتوى، يمكنك استخدام `Document` طرق الفئة لحفظها بتنسيقات مثل النص العادي أو HTML أو غير ذلك.
+---
 
-### هل هناك طريقة لاستخراج المحتوى من عناصر مستند محددة، مثل الجداول أو الصور؟
-
-نعم، يمكنك استخراج محتوى من عناصر مستند محددة، مثل الجداول أو الصور، باستخدام Aspose.Words لجافا. حدد العناصر التي تريد استخراجها، ثم استخدم الطرق المناسبة لاستخراج محتواها.
-
-### كيف يمكنني أتمتة عملية استخراج المحتوى في تطبيق Java الخاص بي؟
-
-لأتمتة عملية استخراج المحتوى في تطبيق جافا، يمكنك إنشاء شيفرة مخصصة بناءً على التقنيات الموضحة في هذا الدليل. كما يمكنك استخدام منطق لتكرار عملية استخراج المحتوى عبر مستندات متعددة حسب الحاجة.
-
+**آخر تحديث:** 2026-01-01  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

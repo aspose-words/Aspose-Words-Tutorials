@@ -5,7 +5,9 @@
 "url": "/ar/python-net/content-management/aspose-words-python-editable-ranges-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان النطاقات القابلة للتحرير في Aspose.Words للغة بايثون
 
 ## مقدمة
@@ -164,3 +166,7 @@ self.assertRaises(Exception, lambda: builder.end_editable_range())
 - **منتدى الدعم**: [دعم Aspose](https://forum.aspose.com/c/words/10)
 
 باستخدام هذا الدليل، ستكون مجهزًا بشكل جيد للاستفادة من قوة النطاقات القابلة للتحرير في مشاريع إدارة المستندات الخاصة بك باستخدام Aspose.Words for Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

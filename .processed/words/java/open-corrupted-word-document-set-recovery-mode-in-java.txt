@@ -1,0 +1,7 @@
+Title: Open Corrupted Word Document – Set Recovery Mode in Java
+Slug: open-corrupted-word-document-set-recovery-mode-in-java
+Category: document-loading-and-saving
+ProcessedDate: 2026-05-27T04:38:43.605308
+SourceRepo: AI Search API
+Keywords: open corrupted word document, set recovery mode, how to recover corrupted word file
+PRNumber: 193

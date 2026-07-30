@@ -1,10 +1,14 @@
 ---
-"description": "Dowiedz się, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemową konwersję dokumentów."
-"linktitle": "Dzielenie dokumentów na strony HTML"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Dzielenie dokumentów na strony HTML w Aspose.Words dla Java"
-"url": "/pl/java/document-manipulation/splitting-documents-into-html-pages/"
-"weight": 25
+date: 2026-01-06
+description: Dowiedz się, jak konwertować dokumenty Word na HTML i dzielić je na strony
+  HTML przy użyciu Aspose.Words for Java. Skorzystaj z naszego przewodnika krok po
+  kroku, aby uzyskać płynną konwersję dokumentów.
+linktitle: Splitting Documents into HTML Pages
+second_title: Aspose.Words Java Document Processing API
+title: Konwertuj Word na HTML i podziel dokumenty na strony HTML przy użyciu Aspose.Words
+  dla Javy
+url: /pl/java/document-manipulation/splitting-documents-into-html-pages/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +17,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dzielenie dokumentów na strony HTML w Aspose.Words dla Java
+# Konwertuj Word do HTML i podziel dokumenty na strony HTML przy użyciu Aspose.Words dla Javy
 
+## Wprowadzenie do dzielenia dokumentów na strony HTML w Aspose.Words dla Javy
 
-## Wprowadzenie do dzielenia dokumentów na strony HTML w Aspose.Words dla Java
+W tym przewodniku krok po kroku przyjrzymy się, jak **konwertować Word do HTML** i podzielić dokumenty na oddzielne strony HTML przy użyciu Aspose.Words dla Javy. To podejście pozwala podzielić duże pliki Word na łatwe do zarządzania, gotowe do publikacji w sieci sekcje, zachowując formatowanie, obrazy i style.
 
-W tym przewodniku krok po kroku pokażemy, jak dzielić dokumenty na strony HTML za pomocą Aspose.Words dla Java. Aspose.Words to potężne API Java do pracy z dokumentami Microsoft Word, które oferuje rozbudowane funkcje do manipulacji dokumentami, w tym możliwość konwersji dokumentów do różnych formatów, w tym HTML.
+## Szybkie odpowiedzi
+- **Co oznacza „convert word to html”?** Przekształca dokument Microsoft Word (.doc/.docx) w standardowy znacznik HTML.  
+- **Dlaczego podzielić wynik na wiele stron?** Aby poprawić czasy ładowania, ułatwić nawigację i stworzyć spis treści dla dużych dokumentów.  
+- **Która klasa Aspose obsługuje konwersję?** `HtmlSaveOptions` razem z `Document.save(...)`.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Tak, wymagana jest licencja komercyjna; dostępna jest darmowa wersja próbna.  
+- **Jaką wersję Javy obsługuje?** Java 8 i nowsze są w pełni obsługiwane.
 
-## Wymagania wstępne
+## Co to jest „convert word to html”?
+Konwersja pliku Word do HTML generuje zestaw plików kompatybilnych z siecią, które przeglądarki mogą renderować bez potrzeby posiadania Microsoft Office. Powstały HTML zachowuje nagłówki, tabele, obrazy i stylizację, co czyni go idealnym do publikowania dokumentacji, raportów lub treści e‑learningowych online.
 
-Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
+## Dlaczego dzielić dokumenty na strony HTML?
+- **Wydajność:** Mniejsze pliki HTML ładują się szybciej, szczególnie na urządzeniach mobilnych.  
+- **Użyteczność:** Użytkownicy mogą przejść bezpośrednio do konkretnej sekcji za pomocą wygenerowanego spisu treści.  
+- **Utrzymanie:** Aktualizacja jednej sekcji nie wymaga ponownego generowania całego dokumentu.
 
-- Java Development Kit (JDK) zainstalowany w Twoim systemie.
-- Biblioteka Aspose.Words dla Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
+## Prerequisites
+Zanim zaczniemy, upewnij się, że masz spełnione następujące wymagania:
+
+- Zainstalowany Java Development Kit (JDK) na twoim systemie.  
+- Biblioteka Aspose.Words for Java. Możesz ją pobrać [tutaj](https://releases.aspose.com/words/java/).
 
 ## Krok 1: Importuj niezbędne pakiety
 
@@ -35,17 +52,17 @@ import java.io.*;
 import java.util.ArrayList;
 ```
 
-## Krok 2: Utwórz metodę konwersji Worda do HTML
+## Krok 2: Utwórz metodę konwersji Word do HTML
 
 ```java
 class WordToHtmlConverter
 {
-    // Szczegóły implementacji konwersji z formatu Word do formatu HTML.
+    // Implementation details for Word to HTML conversion.
     // ...
 }
 ```
 
-## Krok 3: Wybierz nagłówki akapitów jako początek tematu
+## Krok 3: Wybierz akapity nagłówków jako początki tematów
 
 ```java
 private ArrayList<Paragraph> selectTopicStarts()
@@ -62,7 +79,7 @@ private ArrayList<Paragraph> selectTopicStarts()
 }
 ```
 
-## Krok 4: Wstaw podziały sekcji przed akapitami nagłówkowymi
+## Krok 4: Wstaw podziały sekcji przed akapitami nagłówków
 
 ```java
 private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
@@ -125,7 +142,7 @@ private void saveHtmlTopic(Section section, Topic topic) throws Exception
 }
 ```
 
-## Krok 7: Utwórz spis treści dla tematów
+## Krok 7: Wygeneruj spis treści dla tematów
 
 ```java
 private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
@@ -137,41 +154,47 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 }
 ```
 
-Teraz, gdy opisaliśmy kroki, możesz wdrożyć każdy krok w swoim projekcie Java, aby podzielić dokumenty na strony HTML za pomocą Aspose.Words for Java. Ten proces pozwoli Ci utworzyć ustrukturyzowaną reprezentację HTML Twoich dokumentów, czyniąc je bardziej dostępnymi i przyjaznymi dla użytkownika.
+Teraz, gdy przedstawiliśmy kroki, możesz zaimplementować każdy z nich w swoim projekcie Java, aby **konwertować Word do HTML** i podzielić wynik na wiele stron przy użyciu Aspose.Words for Java. Ten proces pozwoli Ci stworzyć ustrukturyzowaną reprezentację HTML Twoich dokumentów, czyniąc je bardziej dostępne i przyjazne dla użytkownika.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym kompleksowym przewodniku omówiliśmy proces dzielenia dokumentów na strony HTML przy użyciu Aspose.Words for Java. Postępując zgodnie z opisanymi krokami, możesz sprawnie konwertować dokumenty Word do formatu HTML, dzięki czemu Twoja treść będzie bardziej dostępna w sieci.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| Obrazy wyświetlają się jako zepsute linki | Folder wyjściowy nie zawiera plików obrazów | Upewnij się, że `HtmlSaveOptions` jest skonfigurowany do eksportowania obrazów do tego samego katalogu co pliki HTML. |
+| Wykrywanie nagłówków pomija niektóre sekcje | Nie wszystkie nagłówki używają stylu `HEADING_1` | Dostosuj metodę `selectTopicStarts`, aby uwzględniała `HEADING_2` lub własne style w razie potrzeby. |
+| Wygenerowany HTML zawiera dodatkowe znaczniki `<style>` | Domyślne zapisywanie zawiera wbudowany CSS | Ustaw `saveOptions.setExportOriginalUrlForLinkedResources(true)`, aby zachować CSS jako zewnętrzny, jeśli jest to pożądane. |
 
 ## Najczęściej zadawane pytania
 
-### Jak zainstalować Aspose.Words dla Java?
+**P: Jak zainstalować Aspose.Words for Java?**  
+O: Pobierz bibliotekę [tutaj](https://releases.aspose.com/words/java/) i dodaj pliki JAR do ścieżki klas swojego projektu.
 
-Aby zainstalować Aspose.Words dla Java, możesz pobrać bibliotekę ze strony [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z instrukcjami instalacji podanymi w dokumentacji.
+**P: Czy mogę dostosować wyjście HTML?**  
+O: Tak, dostosuj właściwości `HtmlSaveOptions` (np. `setExportHeadersFootersMode`, `setPrettyFormat`), aby kontrolować formatowanie, obsługę obrazów i włączanie CSS.
 
-### Czy mogę dostosować wynik HTML?
+**P: Jakie formaty Word są obsługiwane przy konwersji?**  
+O: Aspose.Words obsługuje DOC, DOCX, RTF, ODT i wiele innych formatów, obejmując wszystkie recent wersje Microsoft Word.
 
-Tak, możesz dostosować wyjście HTML, dostosowując opcje zapisu w `HtmlSaveOptions` Klasa. Pozwala to kontrolować formatowanie i wygląd generowanych plików HTML.
+**P: Jak obsługiwane są obrazy podczas konwersji?**  
+O: Obrazy są zapisywane jako oddzielne pliki w tym samym folderze co strona HTML, a HTML odwołuje się do nich za pomocą ścieżek względnych.
 
-### Jakie wersje programu Microsoft Word są obsługiwane przez Aspose.Words for Java?
+**P: Czy dostępna jest wersja próbna?**  
+O: Tak, darmowa 30‑dniowa wersja próbna jest dostępna na stronie Aspose, aby ocenić wszystkie funkcje przed zakupem licencji.
 
-Aspose.Words for Java obsługuje szeroki zakres formatów dokumentów Microsoft Word, w tym DOC, DOCX, RTF i inne. Jest kompatybilny z różnymi wersjami Microsoft Word.
+## Zakończenie
 
-### Jak mogę obsługiwać obrazy w przekonwertowanym kodzie HTML?
+W tym kompleksowym przewodniku pokazaliśmy, jak **konwertować Word do HTML** i podzielić powstałą zawartość na pojedyncze strony HTML przy użyciu Aspose.Words for Java. Postępując zgodnie z opisanymi krokami, możesz zautomatyzować tworzenie dokumentacji gotowej do publikacji w sieci, poprawić wydajność ładowania stron oraz wygenerować nawigacyjny spis treści dla dużych dokumentów.
 
-Aspose.Words for Java może obsługiwać obrazy w przekonwertowanym HTML, zapisując je jako oddzielne pliki w tym samym folderze co plik HTML. Zapewnia to, że obrazy są wyświetlane poprawnie w wyjściu HTML.
+---
 
-### Czy jest dostępna wersja próbna Aspose.Words dla Java?
-
-Tak, możesz poprosić o bezpłatną wersję próbną Aspose.Words for Java na stronie internetowej Aspose, aby ocenić jej funkcje i możliwości przed zakupem licencji.
-
+**Ostatnia aktualizacja:** 2026-01-06  
+**Testowano z:** Aspose.Words for Java 24.12 (latest)  
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

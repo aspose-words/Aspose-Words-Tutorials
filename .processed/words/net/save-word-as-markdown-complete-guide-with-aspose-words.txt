@@ -1,0 +1,7 @@
+Title: Save Word as Markdown – Complete Guide with Aspose.Words
+Slug: save-word-as-markdown-complete-guide-with-aspose-words
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-05-27T02:58:40.734195
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, export word to markdown, preserve empty lines, convert word document markdown
+PRNumber: 192

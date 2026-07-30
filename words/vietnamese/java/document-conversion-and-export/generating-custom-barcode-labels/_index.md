@@ -1,11 +1,10 @@
 ---
-date: 2026-02-09
-description: Tạo nhãn mã vạch tùy chỉnh bằng Aspose Barcode Java trong Aspose.Words
-  for Java. Tìm hiểu cách nhúng mã vạch vào tài liệu Word và tạo các ví dụ Java về
-  mã QR.
+date: 2025-12-10
+description: Tìm hiểu cách tạo nhãn mã vạch tùy chỉnh bằng Aspose.Words cho Java.
+  Hướng dẫn từng bước này cho bạn biết cách chèn mã vạch vào tài liệu Word.
 linktitle: Generating Custom Barcode Labels
 second_title: Aspose.Words Java Document Processing API
-title: Tạo nhãn mã vạch tùy chỉnh với Aspose Barcode Java
+title: Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words cho Java
 url: /vi/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
@@ -16,41 +15,32 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Nhãn Mã Vạch Tùy Chỉnh với Aspose Barcode Java
+# Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words cho Java
 
-## Giới thiệu về Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words cho Java
+## Giới thiệu về việc tạo mã vạch tùy chỉnh trong Aspose.Words cho Java
 
-Mã vạch là yếu tố thiết yếu trong các ứng dụng hiện đại, và **Aspose Barcode Java** giúp bạn tạo chúng một cách dễ dàng ngay trong tài liệu Word. Dù bạn cần **nhúng mã vạch vào Word**, tạo mã QR cho một URL, hay chuyển đổi đơn vị đo, hướng dẫn này sẽ hướng dẫn bạn qua mọi bước cần thiết. Sẵn sàng chưa? Hãy bắt đầu!
+Mã vạch là yếu tố quan trọng trong các ứng dụng hiện đại—cho dù bạn đang quản lý tồn kho, in vé, hay tạo thẻ ID. Trong hướng dẫn này, bạn sẽ **tạo nhãn mã vạch tùy chỉnh** và nhúng chúng trực tiếp vào tài liệu Word bằng giao diện `IBarcodeGenerator`. Chúng tôi sẽ hướng dẫn từng bước, từ việc thiết lập môi trường đến chèn hình ảnh mã vạch, để bạn có thể bắt đầu sử dụng mã vạch trong các dự án Java ngay lập tức.
 
 ## Câu trả lời nhanh
-- **Thư viện nào tạo mã vạch trong Java?** Aspose Barcode Java kết hợp với Aspose.Words cho Java.  
-- **Loại mã vạch nào được minh họa?** Mã QR (generate qr code java).  
-- **Làm sao chuyển đổi twips sang pixel?** Sử dụng phương thức tiện ích `twipsToPixels` được cung cấp.  
-- **Có thể thêm mã vạch vào tệp Word hiện có không?** Có – chỉ cần dùng phương thức `DocumentBuilder.insertImage`.  
-- **Có cần giấy phép không?** Giấy phép tạm thời sẽ loại bỏ các giới hạn đánh giá.
-
-## Aspose Barcode Java là gì?
-Aspose Barcode Java là một API mạnh mẽ cho phép các nhà phát triển tạo ra một loạt các mã vạch 1D và 2D (bao gồm cả mã QR) một cách lập trình. Khi kết hợp với Aspose.Words cho Java, bạn có thể **nhúng mã vạch vào Word** mà không cần rời khỏi môi trường Java.
-
-## Tại sao nên dùng Aspose Barcode Java cùng Aspose.Words?
-- **Kiểm soát toàn diện** về giao diện mã vạch (màu sắc, kích thước, định dạng).  
-- **Tích hợp liền mạch** – hình ảnh mã vạch có thể được chèn trực tiếp vào tài liệu Word.  
-- **Đa nền tảng** – hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.  
-- **Mở rộng** – bạn có thể tạo các lớp tiện ích để tái sử dụng logic mã vạch trong các dự án.
+- **Hướng dẫn này dạy gì?** Cách tạo nhãn mã vạch tùy chỉnh và nhúng chúng vào tệp Word bằng Aspose.Words cho Java.  
+- **Loại mã vạch nào được sử dụng trong ví dụ?** Mã QR (bạn có thể thay thế bằng bất kỳ loại nào được hỗ trợ).  
+- **Tôi có cần giấy phép không?** Cần một giấy phép tạm thời để truy cập không giới hạn trong quá trình phát triển.  
+- **Yêu cầu phiên bản Java nào?** JDK 8 trở lên.  
+- **Tôi có thể thay đổi kích thước hoặc màu sắc của mã vạch không?** Có — chỉnh sửa các thiết lập `BarcodeParameters` và `BarcodeGenerator`.
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu viết mã, hãy chắc chắn rằng bạn đã có:
+Trước khi bắt đầu viết mã, hãy đảm bảo bạn có những thứ sau:
 
 - Java Development Kit (JDK): Phiên bản 8 trở lên.  
-- Thư viện Aspose.Words cho Java: [Tải về tại đây](https://releases.aspose.com/words/java/).  
-- Thư viện Aspose.BarCode cho Java: [Tải về tại đây](https://releases.aspose.com/).  
-- Môi trường Phát triển Tích hợp (IDE): IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE nào bạn thích.  
-- Giấy phép tạm thời: Lấy một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để truy cập không giới hạn.
+- Thư viện Aspose.Words cho Java: [Download here](https://releases.aspose.com/words/java/).  
+- Thư viện Aspose.BarCode cho Java: [Download here](https://releases.aspose.com/).  
+- Môi trường phát triển tích hợp (IDE): IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE nào bạn thích.  
+- Giấy phép tạm thời: Nhận một [temporary license](https://purchase.aspose.com/temporary-license/) để truy cập không giới hạn.
 
 ## Nhập các gói
 
-Chúng ta sẽ sử dụng các thư viện Aspose.Words và Aspose.BarCode. Nhập các gói sau vào dự án của bạn:
+Chúng tôi sẽ sử dụng các thư viện Aspose.Words và Aspose.BarCode. Nhập các gói sau vào dự án của bạn:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -60,15 +50,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-Các import này cho phép chúng ta sử dụng các tính năng tạo mã vạch và tích hợp chúng vào tài liệu Word.
-
-Hãy chia công việc này thành các bước dễ quản lý.
+Các import này cho phép chúng ta truy cập API tạo mã vạch và các lớp tài liệu Word cần thiết.
 
 ## Bước 1: Tạo lớp tiện ích cho các thao tác mã vạch
 
-Để đơn giản hoá các thao tác liên quan đến mã vạch, chúng ta sẽ tạo một lớp tiện ích với các phương thức hỗ trợ các nhiệm vụ phổ biến như chuyển đổi màu và **chuyển đổi twips sang pixel**.
+Để giữ cho mã chính sạch sẽ, chúng tôi sẽ đóng gói các hàm trợ giúp chung—như **chuyển đổi twips sang pixel** và **chuyển đổi màu hex**—trong một lớp tiện ích.
 
-### Code:
+### Code
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -95,14 +83,14 @@ class CustomBarcodeGeneratorUtils {
 
 **Giải thích**
 
-- `twipsToPixels` chuyển đổi đơn vị đo mà Word sử dụng (twips) sang pixel màn hình – một công cụ hữu ích khi bạn cần kích thước chính xác.  
-- `convertColor` chuyển một chuỗi màu hex (ví dụ “FF0000”) thành đối tượng `Color` của Java, cho phép bạn tùy chỉnh màu nền và màu mã vạch.
+- `twipsToPixels` – Word đo kích thước bằng **twips**; phương thức này chuyển chúng sang pixel màn hình, rất hữu ích khi bạn cần định kích thước hình ảnh mã vạch một cách chính xác.  
+- `convertColor` – Chuyển một chuỗi hexa (ví dụ, `"FF0000"` cho màu đỏ) thành đối tượng `java.awt.Color`, cho phép bạn **cách chèn mã vạch** với màu nền và màu chữ tùy chỉnh.
 
 ## Bước 2: Triển khai Trình tạo Mã vạch Tùy chỉnh
 
-Chúng ta sẽ triển khai giao diện `IBarcodeGenerator` để Aspose.Words có thể yêu cầu hình ảnh mã vạch mỗi khi gặp trường mã vạch.
+Bây giờ chúng ta sẽ triển khai giao diện `IBarcodeGenerator`. Lớp này sẽ chịu trách nhiệm **generate qr code java**‑style images mà Aspose.Words có thể nhúng.
 
-### Code:
+### Code
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -134,15 +122,14 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 
 **Giải thích**
 
-- `getBarcodeImage` tạo một `BarcodeGenerator` sử dụng loại **generate qr code java** mà bạn chỉ định (QR trong ví dụ này).  
-- Nó áp dụng màu nền và màu mã vạch thông qua các phương thức tiện ích, sau đó trả về hình ảnh đã render.  
-- Hình ảnh dự phòng đảm bảo chương trình vẫn tiếp tục chạy ngay cả khi việc tạo mã vạch thất bại.
+- `getBarcodeImage` tạo một thể hiện của `BarcodeGenerator`, áp dụng các màu được cung cấp qua `BarcodeParameters`, và cuối cùng trả về một `BufferedImage`.  
+- Phương thức này cũng xử lý lỗi một cách nhẹ nhàng bằng cách trả về một hình ảnh placeholder, đảm bảo việc tạo tài liệu Word không bị lỗi.
 
-## Bước 3: Tạo mã vạch và chèn vào tài liệu Word
+## Bước 3: Tạo mã vạch và **nhúng mã vạch vào Word**
 
-Bây giờ chúng ta sẽ kết hợp mọi thứ: tạo một tài liệu, tạo mã vạch, và **cách thêm mã vạch** vào tệp Word.
+Với trình tạo đã sẵn sàng, chúng ta có thể tạo ra một hình ảnh mã vạch và **chèn nó vào tài liệu Word**.
 
-### Code:
+### Code
 
 ```java
 import com.aspose.words.*;
@@ -177,40 +164,49 @@ public class GenerateCustomBarcodeLabels {
 
 **Giải thích**
 
-1. **Khởi tạo Document** – tạo một `Document` mới (hoặc bạn có thể tải một file .docx hiện có).  
-2. **Tham số Mã vạch** – xác định loại (`QR`), giá trị, và màu sắc, minh họa cách **generate qr code java** được sử dụng.  
-3. **Chèn Hình ảnh** – `builder.insertImage` đặt mã vạch vào vị trí bạn muốn, thực tế cho thấy **cách thêm mã vạch** vào tệp Word.  
-4. **Lưu** – tài liệu cuối cùng (`CustomBarcodeLabels.docx`) chứa mã vạch đã nhúng, sẵn sàng để in hoặc phân phối.
+1. **Khởi tạo tài liệu** – Tạo một `Document` mới (hoặc bạn có thể tải một mẫu có sẵn).  
+2. **Tham số mã vạch** – Xác định loại mã vạch (`QR`), giá trị cần mã hoá, và màu nền/màu chữ.  
+3. **Chèn hình ảnh** – `builder.insertImage` đặt mã vạch đã tạo ở kích thước mong muốn (200 × 200 pixel). Đây là phần cốt lõi của **cách chèn mã vạch** vào tệp Word.  
+4. **Lưu** – Tài liệu cuối cùng, `CustomBarcodeLabels.docx`, chứa mã vạch đã nhúng, sẵn sàng để in hoặc phân phối.
 
-## Các vấn đề thường gặp và giải pháp
+## Tại sao nên tạo nhãn mã vạch tùy chỉnh với Aspose.Words?
 
-| Vấn đề | Nguyên nhân | Cách khắc phục |
-|-------|-------------|----------------|
-| Mã vạch hiển thị trống | Chuỗi màu không hợp lệ hoặc loại mã vạch không được hỗ trợ | Kiểm tra định dạng màu hex và sử dụng loại được hỗ trợ (ví dụ QR, Code128). |
-| Kích thước hình ảnh sai | Chuyển đổi pixel không chính xác | Sử dụng `twipsToPixels` để tính kích thước chính xác dựa trên bố cục của Word. |
-| Ngoại lệ giấy phép | Không có giấy phép Aspose hợp lệ | Áp dụng giấy phép tạm thời hoặc mua giấy phép trước khi chạy mã. |
+- **Kiểm soát đầy đủ** về giao diện mã vạch (loại, kích thước, màu sắc).  
+- **Tích hợp liền mạch** – không cần các tệp hình ảnh trung gian; mã vạch được tạo trong bộ nhớ và chèn trực tiếp.  
+- **Đa nền tảng** – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java, lý tưởng cho việc tạo tài liệu phía máy chủ.  
+- **Mở rộng** – bạn có thể lặp qua nguồn dữ liệu để tạo hàng trăm nhãn cá nhân hoá trong một lần chạy.
+
+## Các vấn đề thường gặp & Khắc phục
+
+| Triệu chứng | Nguyên nhân khả dĩ | Cách khắc phục |
+|-------------|---------------------|----------------|
+| Mã vạch hiển thị trống | `BarcodeParameters` màu sắc giống nhau (ví dụ, đen trên đen) | Kiểm tra giá trị `foregroundColor` và `backgroundColor`. |
+| Hình ảnh bị biến dạng | Kích thước pixel truyền vào `insertImage` không đúng | Điều chỉnh các tham số width/height hoặc sử dụng chuyển đổi `twipsToPixels` để có kích thước chính xác. |
+| Lỗi loại mã vạch không được hỗ trợ | Sử dụng loại không được `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` nhận dạng | Đảm bảo chuỗi loại mã vạch khớp với một trong các `EncodeTypes` được hỗ trợ (ví dụ, `"QR"`, `"CODE128"`). |
 
 ## Câu hỏi thường gặp
 
-**H: Tôi có thể sử dụng Aspose.Words cho Java mà không có giấy phép không?**  
-Đ: Có, nhưng bạn sẽ gặp các giới hạn đánh giá. Hãy lấy một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có đầy đủ chức năng.
+**Hỏi: Tôi có thể sử dụng Aspose.Words cho Java mà không có giấy phép không?**  
+**Đáp:** Có, nhưng sẽ có một số hạn chế. Nhận một [temporary license](https://purchase.aspose.com/temporary-license/) để có đầy đủ chức năng.
 
-**H: Tôi có thể tạo những loại mã vạch nào?**  
-Đ: Aspose.BarCode hỗ trợ QR, Code 128, EAN‑13 và nhiều loại khác. Xem [tài liệu chính thức](https://reference.aspose.com/words/java/) để biết danh sách đầy đủ.
+**Hỏi: Tôi có thể tạo những loại mã vạch nào?**  
+**Đáp:** Aspose.BarCode hỗ trợ QR, Code 128, EAN‑13 và nhiều định dạng khác. Kiểm tra [documentation](https://reference.aspose.com/words/java/) để xem danh sách đầy đủ.
 
-**H: Làm sao thay đổi kích thước mã vạch?**  
-Đ: Điều chỉnh các tham số width/height trong `builder.insertImage` hoặc sửa các thuộc tính `XDimension` và `BarHeight` của đối tượng `BarcodeGenerator`.
+**Hỏi: Làm sao tôi có thể thay đổi kích thước mã vạch?**  
+**Đáp:** Điều chỉnh các tham số width và height trong `builder.insertImage`, hoặc sử dụng `twipsToPixels` để chuyển đổi đơn vị đo của Word sang pixel.
 
-**H: Tôi có thể sử dụng phông chữ tùy chỉnh cho phần đọc được của mã vạch không?**  
-Đ: Chắc chắn rồi. Sử dụng thuộc tính `CodeTextParameters` để đặt họ phông, kích thước và kiểu.
+**Hỏi: Có thể sử dụng phông chữ tùy chỉnh cho văn bản mã vạch không?**  
+**Đáp:** Có, bạn có thể tùy chỉnh phông chữ văn bản qua thuộc tính `CodeTextParameters` của `BarcodeGenerator`.
 
-**H: Tôi có thể nhận hỗ trợ về Aspose.Words ở đâu?**  
-Đ: Truy cập [diễn đàn hỗ trợ](https://forum.aspose.com/c/words/8/) để nhận trợ giúp từ cộng đồng và hỗ trợ chính thức.
+**Hỏi: Tôi có thể nhận được trợ giúp ở đâu nếu gặp vấn đề?**  
+**Đáp:** Truy cập [support forum](https://forum.aspose.com/c/words/8/) để nhận hỗ trợ từ cộng đồng và kỹ sư Aspose.
 
----
+## Kết luận
 
-**Cập nhật lần cuối:** 2026-02-09  
-**Đã kiểm tra với:** Aspose.Words cho Java 24.12, Aspose.BarCode cho Java 24.12  
+Bằng cách làm theo các bước trên, bạn đã biết cách **tạo hình ảnh mã vạch tùy chỉnh** và **nhúng mã vạch vào tài liệu Word** Aspose.Words cho Java. Kỹ thuật này đủ linh hoạt cho các thẻ kho, vé sự kiện, hoặc bất kỳ trường hợp nào mà mã vạch cần là một phần của tài liệu được tạo. Hãy thử nghiệm với các loại mã vạch và tùy chọn định dạng khác nhau để phù hợp với nhu cầu kinh doanh cụ thể của bạn.
+
+**Cập nhật lần cuối:** 2025-12-10  
+**Được kiểm tra với:** Aspose.Words cho Java 24.12, Aspose.BarCode cho Java 24.12  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

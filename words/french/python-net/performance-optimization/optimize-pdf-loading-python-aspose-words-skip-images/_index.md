@@ -5,7 +5,9 @@
 "url": "/fr/python-net/performance-optimization/optimize-pdf-loading-python-aspose-words-skip-images/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Optimiser le chargement des PDF en Python : ignorer les images avec Aspose.Words pour un traitement plus rapide
 
 ## Introduction
@@ -136,3 +138,7 @@ Explorez davantage d'Aspose.Words en consultant le [documentation officielle](ht
 - [Essai gratuit d'Aspose.Words](https://releases.aspose.com/words/python/)
 - [Acquisition de licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

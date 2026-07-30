@@ -1,0 +1,7 @@
+Title: draw rectangle word – Add Shapes in Word with Aspose
+Slug: draw-rectangle-word-add-shapes-in-word-with-aspose
+Category: programming-with-shapes
+ProcessedDate: 2026-07-29T15:08:56.120334
+SourceRepo: AI Search API
+Keywords: draw rectangle word, add rectangle shape, add line shape, how to add shapes, multiple shapes word
+PRNumber: 236

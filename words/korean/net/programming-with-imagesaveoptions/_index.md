@@ -27,6 +27,7 @@ Aspose.Words for .NET 튜토리얼에서는 ImageSaveOptions를 사용한 워드
 | [형식 1Bpp 색인](./format-1bpp-indexed/) | Aspose.Words for .NET을 사용하여 Word 문서를 1Bpp 인덱스 이미지로 변환하는 방법을 알아보세요. 단계별 가이드를 따라 쉽게 변환해 보세요. |
 | [JPEG 페이지 범위 가져오기](./get-jpeg-page-range/) | Aspose.Words for .NET을 사용하여 사용자 지정 설정을 적용하여 Word 문서의 특정 페이지를 JPEG로 변환합니다. 밝기, 대비, 해상도를 단계별로 조정하는 방법을 알아보세요. |
 | [페이지 저장 콜백](./page-saving-callback/) | Aspose.Words for .NET을 사용하여 Word 문서의 각 페이지를 별도의 PNG 이미지로 저장하는 방법을 자세하고 단계별 가이드를 통해 알아보세요. |
+| [Word를 PNG로 변환할 때 DPI 설정 방법 – 완전한 C# 가이드](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 PNG로 변환할 때 DPI를 설정하고 이미지 품질을 제어하는 방법을 단계별로 안내합니다. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

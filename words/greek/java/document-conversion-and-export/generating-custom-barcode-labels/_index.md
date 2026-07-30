@@ -1,11 +1,11 @@
 ---
-date: 2026-02-09
-description: Δημιουργήστε προσαρμοσμένες ετικέτες barcode χρησιμοποιώντας το Aspose
-  Barcode Java στο Aspose.Words for Java. Μάθετε πώς να ενσωματώνετε barcode σε έγγραφα
-  Word και να δημιουργείτε παραδείγματα QR code σε Java.
+date: 2025-12-10
+description: Μάθετε πώς να δημιουργείτε προσαρμοσμένες ετικέτες barcode χρησιμοποιώντας
+  το Aspose.Words for Java. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να ενσωματώνετε
+  barcode σε έγγραφα Word.
 linktitle: Generating Custom Barcode Labels
 second_title: Aspose.Words Java Document Processing API
-title: Δημιουργία προσαρμοσμένων ετικετών barcode με το Aspose Barcode Java
+title: Δημιουργία προσαρμοσμένων ετικετών barcode στο Aspose.Words για Java
 url: /el/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
@@ -16,37 +16,28 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία Προσαρμοσμένων Ετικετών Barcode με Aspose Barcode Java
+# Δημιουργία Προσαρμοσμένων Ετικετών Barcode στο Aspose.Words για Java
 
-## Εισαγωγή στη Δημιουργία Προσαρμοσμένων Ετικετών Barcode στο Aspose.Words για Java
+## Εισαγωγή στη δημιουργία προσαρμοσμένου barcode στο Aspose.Words για Java
 
-Οι γραμμωτοί κώδικες (barcodes) είναι απαραίτητοι στις σύγχρονες εφαρμογές, και το **Aspose Barcode Java** κάνει εύκολη τη δημιουργία τους απευθείας μέσα σε έγγραφα Word. Είτε χρειάζεστε **ενσωμάτωση barcode σε Word**, δημιουργία κώδικα QR για ένα URL, είτε μετατροπή μονάδων μέτρησης, αυτό το tutorial σας καθοδηγεί σε όλα όσα χρειάζεστε. Έτοιμοι να ξεκινήσουμε; Πάμε!
+Τα barcode είναι απαραίτητα στις σύγχρονες εφαρμογές—είτε διαχειρίζεστε αποθέματα, εκτυπώνετε εισιτήρια ή δημιουργείτε ταυτότητες. Σε αυτό το tutorial θα **δημιουργήσετε προσαρμοσμένες ετικέτες barcode** και θα τις ενσωματώσετε απευθείας σε ένα έγγραφο Word χρησιμοποιώντας τη διεπαφή `IBarcodeGenerator`. Θα περάσουμε βήμα-βήμα από τη ρύθμιση του περιβάλλοντος μέχρι την εισαγωγή της εικόνας barcode, ώστε να μπορείτε να ξεκινήσετε να χρησιμοποιείτε barcode στα έργα Java αμέσως.
 
 ## Γρήγορες Απαντήσεις
-- **What library creates barcodes in Java?** Aspose Barcode Java paired with Aspose.Words for Java.  
-- **Which barcode type is demonstrated?** QR code (generate qr code java).  
-- **How do I convert twips to pixels?** Use the provided `twipsToPixels` utility method.  
-- **Can I add barcode to an existing Word file?** Yes – just use the `DocumentBuilder.insertImage` method.  
-- **Do I need a license?** A temporary license removes evaluation limits.
-
-## Τι είναι το Aspose Barcode Java;
-Το Aspose Barcode Java είναι ένα ισχυρό API που επιτρέπει στους προγραμματιστές να δημιουργούν μια ευρεία γκάμα 1D και 2D barcodes (συμπεριλαμβανομένων των QR codes) προγραμματιστικά. Όταν συνδυαστεί με το Aspose.Words για Java, μπορείτε να **ενσωματώσετε barcode σε Word** έγγραφα χωρίς να αφήσετε το περιβάλλον Java.
-
-## Γιατί να χρησιμοποιήσετε το Aspose Barcode Java με το Aspose.Words;
-- **Full control** over barcode appearance (colors, size, format).  
-- **Seamless integration** – the barcode image can be inserted directly into a Word document.  
-- **Cross‑platform** – works on any Java‑compatible platform.  
-- **Extensible** – you can create utility classes to reuse barcode logic across projects.
+- **Τι διδάσκει αυτό το tutorial;** Πώς να δημιουργήσετε προσαρμοσμένες ετικέτες barcode και να τις ενσωματώσετε σε ένα αρχείο Word με το Aspose.Words για Java.  
+- **Ποιος τύπος barcode χρησιμοποιείται στο παράδειγμα;** QR code (μπορείτε να τον αντικαταστήσετε με οποιονδήποτε υποστηριζόμενο τύπο).  
+- **Χρειάζομαι άδεια;** Απαιτείται προσωρινή άδεια για απεριόριστη πρόσβαση κατά την ανάπτυξη.  
+- **Ποια έκδοση Java απαιτείται;** JDK 8 ή νεότερη.  
+- **Μπορώ να αλλάξω το μέγεθος ή τα χρώματα του barcode;** Ναι—τροποποιήστε τις ρυθμίσεις `BarcodeParameters` και `BarcodeGenerator`.
 
 ## Προαπαιτούμενα
 
 Πριν ξεκινήσουμε τον κώδικα, βεβαιωθείτε ότι έχετε τα εξής:
 
-- Java Development Kit (JDK): Version 8 or above.  
-- Aspose.Words for Java Library: [Κατεβάστε εδώ](https://releases.aspose.com/words/java/).  
-- Aspose.BarCode for Java Library: [Κατεβάστε εδώ](https://releases.aspose.com/).  
-- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse, ή οποιοδήποτε IDE προτιμάτε.  
-- Temporary License: Obtain a [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) for unrestricted access.
+- Java Development Kit (JDK): Έκδοση 8 ή νεότερη.  
+- Aspose.Words for Java Library: [Download here](https://releases.aspose.com/words/java/).  
+- Aspose.BarCode for Java Library: [Download here](https://releases.aspose.com/).  
+- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse ή οποιοδήποτε IDE προτιμάτε.  
+- Προσωρινή Άδεια: Αποκτήστε μια [temporary license](https://purchase.aspose.com/temporary-license/) για απεριόριστη πρόσβαση.
 
 ## Εισαγωγή Πακέτων
 
@@ -60,13 +51,11 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-Αυτές οι εισαγωγές μας επιτρέπουν να αξιοποιήσουμε τις δυνατότητες δημιουργίας barcode και να τις ενσωματώσουμε σε έγγραφα Word.
+Αυτές οι εισαγωγές μας δίνουν πρόσβαση στο API δημιουργίας barcode και στις κλάσεις εγγράφου Word που θα χρειαστούμε.
 
-Ας χωρίσουμε αυτήν την εργασία σε διαχειρίσιμα βήματα.
+## Βήμα 1: Δημιουργία Κλάσης Βοηθητικού Προγράμματος για Λειτουργίες Barcode
 
-## Βήμα 1: Δημιουργία Κλάσης Χρηστικού για Λειτουργίες Barcode
-
-### Code:
+### Κώδικας
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -93,14 +82,12 @@ class CustomBarcodeGeneratorUtils {
 
 **Επεξήγηση**
 
-- `twipsToPixels` μετατρέπει τη μονάδα μέτρησης που χρησιμοποιεί το Word (twips) σε pixel οθόνης – ένα χρήσιμο βοηθητικό εργαλείο όταν χρειάζεστε ακριβή μεγέθη.  
-- `convertColor` μετατρέπει μια δεκαεξαδική συμβολοσειρά χρώματος (π.χ., “FF0000”) σε αντικείμενο Java `Color`, επιτρέποντάς σας να προσαρμόσετε το προσκήνιο και το φόντο του barcode.
+- `twipsToPixels` – Το Word μετρά τις διαστάσεις σε **twips**· αυτή η μέθοδος τις μετατρέπει σε pixel οθόνης, χρήσιμο όταν χρειάζεται ακριβής μέγεθος εικόνας barcode.  
+- `convertColor` – Μετατρέπει μια δεκαεξαδική συμβολοσειρά (π.χ. `"FF0000"` για κόκκινο) σε αντικείμενο `java.awt.Color`, επιτρέποντάς σας να **προσθέσετε barcode** με προσαρμοσμένα χρώματα προσκηνίου και φόντου.
 
 ## Βήμα 2: Υλοποίηση του Προσαρμοσμένου Γεννήτριας Barcode
 
-Θα υλοποιήσουμε τη διεπαφή `IBarcodeGenerator` ώστε το Aspose.Words να μπορεί να ζητήσει εικόνα barcode όποτε εντοπίζει ένα πεδίο barcode.
-
-### Code:
+### Κώδικας
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -132,15 +119,12 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 
 **Επεξήγηση**
 
-- `getBarcodeImage` δημιουργεί ένα `BarcodeGenerator` χρησιμοποιώντας τον τύπο **generate qr code java** που ορίζετε (QR στο παράδειγμά μας).  
-- Εφαρμόζει τα χρώματα προσκηνίου και φόντου μέσω των βοηθητικών μεθόδων, και στη συνέχεια επιστρέφει την αποδομημένη εικόνα.  
-- Η εφεδρική εικόνα εξασφαλίζει ότι το πρόγραμμα συνεχίζει ακόμη και αν η δημιουργία του barcode αποτύχει.
+- `getBarcodeImage` δημιουργεί μια παρουσία του `BarcodeGenerator`, εφαρμόζει τα χρώματα που παρέχονται μέσω `BarcodeParameters` και τελικά επιστρέφει ένα `BufferedImage`.  
+- Η μέθοδος διαχειρίζεται επίσης σφάλματα επιστρέφοντας μια εικόνα placeholder, εξασφαλίζοντας ότι η δημιουργία του εγγράφου Word δεν θα διακοπεί.
 
-## Βήμα 3: Δημιουργία Barcode και Προσθήκη του σε Έγγραφο Word
+## Βήμα 3: Δημιουργία Barcode και **ενσωμάτωση barcode σε Word**
 
-Τώρα φέρνουμε όλα μαζί: δημιουργούμε ένα έγγραφο, παράγουμε ένα barcode, και **how to add barcode** στο αρχείο Word.
-
-### Code:
+### Κώδικας
 
 ```java
 import com.aspose.words.*;
@@ -175,41 +159,52 @@ public class GenerateCustomBarcodeLabels {
 
 **Επεξήγηση**
 
-1. **Document Initialization** – δημιουργεί ένα νέο `Document` (ή μπορείτε να φορτώσετε ένα υπάρχον .docx).  
-2. **Barcode Parameters** – ορίζουν τον τύπο (`QR`), την τιμή και τα χρώματα, δείχνοντας τη χρήση του **generate qr code java**.  
-3. **Image Insertion** – `builder.insertImage` τοποθετεί το barcode όπου το χρειάζεστε, δείχνοντας πρακτικά **how to add barcode** σε αρχείο Word.  
-4. **Saving** – το τελικό έγγραφο (`CustomBarcodeLabels.docx`) περιέχει το ενσωματωμένο barcode έτοιμο για εκτύπωση ή διανομή.
+1. **Αρχικοποίηση Εγγράφου** – Δημιουργεί ένα νέο `Document` (ή μπορείτε να φορτώσετε ένα υπάρχον πρότυπο).  
+2. **Παράμετροι Barcode** – Ορίζει τον τύπο barcode (`QR`), την τιμή που θα κωδικοποιηθεί και τα χρώματα προσκηνίου/φόντου.  
+3. **Εισαγωγή Εικόνας** – `builder.insertImage` τοποθετεί το παραγόμενο barcode στο επιθυμητό μέγεθος (200 × 200 pixel). Αυτό είναι το κεντρικό βήμα για το **πώς να ενσωματώσετε barcode** σε ένα αρχείο Word.  
+4. **Αποθήκευση** – Το τελικό έγγραφο, `CustomBarcodeLabels.docx`, περιέχει το ενσωματωμένο barcode έτοιμο για εκτύπωση ή διανομή.
 
-## Κοινά Προβλήματα και Λύσεις
+## Γιατί να δημιουργήσετε προσαρμοσμένες ετικέτες barcode με το Aspose.Words;
 
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| Barcode appears blank | Invalid color string or unsupported barcode type | Verify hex color format and use a supported type (e.g., QR, Code128). |
-| Image size is off | Incorrect pixel conversion | Use `twipsToPixels` to calculate exact dimensions based on Word’s layout. |
-| License exception | No valid Aspose license | Apply a temporary or purchased license before running the code. |
+- **Πλήρης έλεγχος** πάνω στην εμφάνιση του barcode (τύπος, μέγεθος, χρώματα).  
+- **Απρόσκοπτη ενσωμάτωση** – δεν χρειάζονται ενδιάμεσες εικόνες αρχείου· το barcode δημιουργείται στη μνήμη και εισάγεται άμεσα.  
+- **Διαπλατφορμική** – λειτουργεί σε οποιοδήποτε OS υποστηρίζει Java, καθιστώντας το ιδανικό για δημιουργία εγγράφων στο διακομιστή.  
+- **Κλιμακούμενο** – μπορείτε να κάνετε βρόχο πάνω σε πηγή δεδομένων για να δημιουργήσετε εκατοντάδες εξατομικευμένες ετικέτες σε μία εκτέλεση.
+
+## Συχνά Προβλήματα & Επίλυση
+
+| Σύμπτωμα | Πιθανή Αιτία | Διόρθωση |
+|---------|--------------|----------|
+| Το barcode εμφανίζεται κενό | Τα χρώματα `BarcodeParameters` είναι τα ίδια (π.χ. μαύρο πάνω σε μαύρο) | Επαληθεύστε τις τιμές `foregroundColor` και `backgroundColor`. |
+| Η εικόνα είναι παραμορφωμένη | Λάθος διαστάσεις pixel περάστηκαν στο `insertImage` | Προσαρμόστε τα επιχειρήματα πλάτους/ύψους ή χρησιμοποιήστε τη μετατροπή `twipsToPixels` για ακριβή μέγεθος. |
+| Σφάλμα μη υποστηριζόμενου τύπου barcode | Χρησιμοποιείται τύπος που δεν αναγνωρίζεται από το `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` | Βεβαιωθείτε ότι η συμβολοσειρά τύπου barcode ταιριάζει με έναν από τους υποστηριζόμενους `EncodeTypes` (π.χ. `"QR"`, `"CODE128"`). |
 
 ## Συχνές Ερωτήσεις
 
-**Ε: Μπορώ να χρησιμοποιήσω το Aspose.Words για Java χωρίς άδεια χρήσης;**
-Α: Ναι, αλλά θα αντιμετωπίσετε περιορισμούς στην αξιολόγηση. Αποκτήστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για πλήρη λειτουργικότητα.
+**Q:** Μπορώ να χρησιμοποιήσω το Aspose.Words για Java χωρίς άδεια;  
+**A:** Ναι, αλλά θα υπάρχουν περιορισμοί. Αποκτήστε μια [temporary license](https://purchase.aspose.com/temporary-license/) για πλήρη λειτουργικότητα.
 
-**Ε: Τι τύπους γραμμωτών κωδίκων μπορώ να δημιουργήσω;**
-Α: Το Aspose.BarCode υποστηρίζει QR, Code128, EAN‑13 και πολλά άλλα. Δείτε την επίσημη [τεκμηρίωση](https://reference.aspose.com/words/java/) για την πλήρη λίστα.
+**Q:** Τι τύπους barcode μπορώ να δημιουργήσω;  
+**A:** Το Aspose.BarCode υποστηρίζει QR, Code 128, EAN‑13 και πολλές άλλες μορφές. Δείτε την [documentation](https://reference.aspose.com/words/java/) για πλήρη λίστα.
 
-**Ε: Πώς μπορώ να αλλάξω το μέγεθος του γραμμωτού κώδικα;**
-Α: Προσαρμόστε τις παραμέτρους πλάτους/ύψους στο `builder.insertImage` ή τροποποιήστε τις ιδιότητες `XDimension` και `BarHeight` στο αντικείμενο `BarcodeGenerator`.
+**Q:** Πώς μπορώ να αλλάξω το μέγεθος του barcode;  
+**A:** Προσαρμόστε τα επιχειρήματα πλάτους και ύψους στο `builder.insertImage`, ή χρησιμοποιήστε τη `twipsToPixels` για μετατροπή μονάδων μέτρησης του Word σε pixel.
 
-**Ε: Μπορώ να χρησιμοποιήσω προσαρμοσμένες γραμματοσειρές για το αναγνώσιμο από τον άνθρωπο μέρος του γραμμωτού κώδικα;**
-Α: Απολύτως. Χρησιμοποιήστε την ιδιότητα `CodeTextParameters` για να ορίσετε την οικογένεια γραμματοσειρών, το μέγεθος και το στυλ.
+**Q:** Είναι δυνατόν να χρησιμοποιήσω προσαρμοσμένες γραμματοσειρές για το κείμενο του barcode;  
+**A:** Ναι, μπορείτε να προσαρμόσετε τη γραμματοσειρά κειμένου μέσω της ιδιότητας `CodeTextParameters` του `BarcodeGenerator`.
 
-**Ε: Πού μπορώ να λάβω βοήθεια με το Aspose.Words;**
-Α: Επισκεφθείτε το [φόρουμ υποστήριξης](https://forum.aspose.com/c/words/8/) για βοήθεια από την κοινότητα και επίσημη υποστήριξη.
+**Q:** Πού μπορώ να βρω βοήθεια αν αντιμετωπίσω προβλήματα;  
+**A:** Επισκεφθείτε το [support forum](https://forum.aspose.com/c/words/8/) για βοήθεια από την κοινότητα και τους μηχανικούς της Aspose.
+
+## Συμπέρασμα
+
+Ακολουθώντας τα παραπάνω βήματα, τώρα ξέρετε πώς να **δημιουργήσετε προσαρμοσμένες εικόνες barcode** και να **ενσωματώσετε barcode σε έγγραφα Word** χρησιμοποιώντας το Aspose.Words για Java. Η τεχνική αυτή είναι αρκετά ευέλικτη για ετικέτες αποθέματος, εισιτήρια εκδηλώσεων ή οποιοδήποτε σενάριο όπου απαιτείται barcode σε παραγόμενο έγγραφο. Πειραματιστείτε με διαφορετικούς τύπους barcode και επιλογές στυλ για να ταιριάξουν στις συγκεκριμένες επιχειρηματικές σας ανάγκες.
 
 ---
 
-**Last Updated:** 2026-02-09  
-**Tested With:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
-**Author:** Aspose  
+**Τελευταία Ενημέρωση:** 2025-12-10  
+**Δοκιμάστηκε Με:** Aspose.Words για Java 24.12, Aspose.BarCode για Java 24.12  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

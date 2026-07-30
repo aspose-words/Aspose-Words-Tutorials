@@ -27,7 +27,9 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Lägg till Bidi-markeringar i Word-dokument](./add-bidi-marks/) | Lär dig hur du lägger till dubbelriktade (Bidi) tecken i Word-dokument med Aspose.Words för .NET med den här guiden. Säkerställ korrekt textriktning för flerspråkigt innehåll. |
 | [Använd tabbtecken per nivå för listindrag](./use-tab-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor i flera nivåer med tabbindrag med Aspose.Words för .NET. Följ den här guiden för exakt listformatering i dina dokument. |
 | [Använd mellanslagstecken per nivå för listindrag](./use-space-character-per-level-for-list-indentation/) | Lär dig hur du skapar listor med flera nivåer med mellanslag i Aspose.Words för .NET. Steg-för-steg-guide för exakt dokumentformatering. |
-
+| [Konvertera docx till txt – Komplett guide för att spara Word som vanlig text](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Lär dig hur du konverterar DOCX-filer till ren text med Aspose.Words för .NET i en steg-för-steg-guide. |
+| [Spara dokument som TXT – Komplett C#-guide för att konvertera DOCX till vanlig text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Lär dig hur du med Aspose.Words för .NET konverterar DOCX-filer till ren text med en komplett C#-guide. |
+| [Spara docx som txt – Snabbguide för C#-utvecklare](./save-docx-as-txt-quick-guide-for-c-developers/) | Lär dig snabbt hur du konverterar DOCX-filer till TXT med C# i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

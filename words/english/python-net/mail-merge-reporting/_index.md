@@ -4,6 +4,9 @@ description: "Master Aspose.Words for Python-net with our tutorials on Mail Merg
 weight: 7
 url: "/python-net/mail-merge-reporting/"
 ---
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Mail Merge & Reporting Tutorials for Aspose.Words Python-net
 
 Explore comprehensive step-by-step guides for mail merge & reporting operations using Aspose.Words for Python-net. These tutorials include complete code examples and detailed explanations.
@@ -36,3 +39,7 @@ Learn how to master document merging with Aspose.Words in Python, focusing on 'K
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

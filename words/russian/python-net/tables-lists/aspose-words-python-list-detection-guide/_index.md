@@ -5,7 +5,9 @@
 "url": "/ru/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Руководство по реализации обнаружения списков в тексте с использованием Aspose.Words для Python
 
 ## Введение
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Инструменты анализа контента**: Извлечение структурированных данных из текстовых файлов для дальнейшего анализа или составления отчетов.
 3. **Задачи очистки данных**Стандартизируйте форматирование текста, управляя пробелами и определяя элементы списка.
 4. **Проверка ссылки**: Проверка ссылок в пакете текстовых документов, чтобы убедиться в их активности и корректности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/th/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # บทช่วยสอนการตั้งค่าส่วนหัว ส่วนท้าย และหน้าสำหรับ Aspose.Words Python-net
 
 สำรวจคำแนะนำทีละขั้นตอนที่ครอบคลุมสำหรับส่วนหัว ส่วนท้าย และการดำเนินการตั้งค่าหน้าโดยใช้ Aspose.Words สำหรับ Python-net บทช่วยสอนเหล่านี้ประกอบด้วยตัวอย่างโค้ดที่สมบูรณ์และคำอธิบายโดยละเอียด
@@ -36,3 +38,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

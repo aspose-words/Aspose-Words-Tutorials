@@ -4,7 +4,9 @@
 "url": "/es/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriales de combinación de correspondencia e informes para Aspose.Words Python-net
 
 Explore guías paso a paso completas para operaciones de combinación de correspondencia e informes con Aspose.Words para Python-net. Estos tutoriales incluyen ejemplos de código completos y explicaciones detalladas.
@@ -37,3 +39,7 @@ Aprenda a dominar la fusión de documentos con Aspose.Words en Python, centránd
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

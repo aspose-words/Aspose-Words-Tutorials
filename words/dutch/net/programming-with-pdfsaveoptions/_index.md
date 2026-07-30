@@ -45,7 +45,13 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Laatst afgedrukte eigenschap in PDF-document bijwerken](./update-last-printed-property/) | Leer hoe u de laatst afgedrukte eigenschap in een PDF-document kunt bijwerken met Aspose.Words voor .NET met onze stapsgewijze handleiding. |
 | [3D DML 3D-effecten renderen in een PDF-document](./dml-3deffects-rendering/) | Leer hoe u verbluffende 3D DML-effecten kunt maken in PDF-documenten met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. |
 | [Afbeeldingen in een PDF-document interpoleren](./interpolate-images/) | Leer hoe u afbeeldingen in een PDF-document kunt interpoleren met Aspose.Words voor .NET met onze stapsgewijze handleiding. Verbeter eenvoudig de beeldkwaliteit van uw PDF. |
+| [Word opslaan als PDF met Aspose Words – Complete C#-gids](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u Word-documenten naar PDF converteert met een volledige C#‑handleiding voor Aspose.Words. |
+| [Docx opslaan als pdf met Aspose.Words – Complete C#-gids](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u een DOCX-bestand naar PDF converteert met Aspose.Words in C# met deze volledige stap‑voor‑stap gids. |
+| [Maak toegankelijke PDF vanuit Word met C# – Stapsgewijze handleiding](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een Word-document met C# in een stapsgewijze handleiding. |
+| [Toegankelijke PDF maken in C# – PDF-toegankelijkheidstutorial](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) | Leer hoe u met Aspose.Words voor .NET een PDF maakt die voldoet aan toegankelijkheidsnormen, inclusief tags, alternatieve tekst en navigatie. |
+| [Maak een toegankelijke PDF vanuit Word – Complete gids](./create-accessible-pdf-from-word-complete-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een Word-document, inclusief tags en toegankelijkheidsopties. |
 
+| [Maak toegankelijke PDF – Stapsgewijze handleiding voor PDF/UA-naleving](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Leer hoe u met Aspose.Words voor .NET een PDF maakt die voldoet aan PDF/UA-standaarden voor toegankelijkheid. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

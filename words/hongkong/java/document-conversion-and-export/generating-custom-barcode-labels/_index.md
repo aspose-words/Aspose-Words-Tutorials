@@ -1,10 +1,9 @@
 ---
-date: 2026-02-09
-description: 使用 Aspose Barcode Java 在 Aspose.Words for Java 中生成自訂條碼標籤。了解如何在 Word 文件中嵌入條碼以及生成
-  QR Code 的 Java 範例。
+date: 2025-12-10
+description: 學習如何使用 Aspose.Words for Java 產生自訂條碼標籤。本分步指南將示範如何在 Word 文件中嵌入條碼。
 linktitle: Generating Custom Barcode Labels
 second_title: Aspose.Words Java Document Processing API
-title: 使用 Aspose Barcode Java 生成自訂條碼標籤
+title: 在 Aspose.Words for Java 中生成自訂條碼標籤
 url: /zh-hant/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
@@ -17,39 +16,30 @@ weight: 10
 
 # 使用 Aspose Barcode Java 產生自訂條碼標籤
 
-## 介紹 Aspose.Words for Java 中產生自訂條碼標籤
+## 在 Aspose.Words for Java 中產生自訂條碼的簡介
 
-條碼在現代應用程式中扮演關鍵角色，而 **Aspose Barcode Java** 讓您可以直接在 Word 文件中輕鬆建立條碼。無論是 **在 Word 中嵌入條碼**、為 URL 產生 QR Code，或是轉換測量單位，本教學都會一步步帶您完成。準備好了嗎？讓我們開始吧！
+條碼在現代應用程式中扮演重要角色——無論是管理庫存、列印票券，或是製作身分證。於本教學中，您將 **產生自訂條碼** 標籤，並直接將其嵌入 Word 文件，使用 `IBarcodeGenerator` 介面。我們會一步步說明，從環境設定到插入條碼影像，讓您立即在 Java 專案中使用條碼。
 
 ## 快速答覆
-- **哪個函式庫可以在 Java 中產生條碼？** Aspose Barcode Java 搭配 Aspose.Words for Java。  
-- **示範使用哪種條碼類型？** QR Code（generate qr code java）。  
-- **如何將 twips 轉換成像素？** 使用提供的 `twipsToPixels` 工具方法。  
-- **可以將條碼加入現有的 Word 檔案嗎？** 可以，只要使用 `DocumentBuilder.insertImage` 方法。  
-- **需要授權嗎？** 臨時授權可移除評估限制。
+- **本教學教什麼？** 如何產生自訂條碼標籤，並以 Aspose.Words for Java 嵌入 Word 檔案。  
+- **範例使用哪種條碼類型？** QR Code（您可自行替換為任何支援的類型）。  
+- **需要授權嗎？** 開發期間需使用臨時授權，以取得完整功能。  
+- **需要哪個 Java 版本？** JDK 8 或以上。  
+- **可以調整條碼尺寸或顏色嗎？** 可以——只要修改 `BarcodeParameters` 與 `BarcodeGenerator` 的設定即可。
 
-## 什麼是 Aspose Barcode Java？
-Aspose Barcode Java 是一套功能強大的 API，讓開發者能以程式方式產生各式 1D 與 2D 條碼（含 QR Code）。結合 Aspose.Words for Java 後，您可以 **在 Word 中嵌入條碼**，且全程停留在 Java 環境中。
+## 前置需求
 
-## 為什麼要將 Aspose Barcode Java 與 Aspose.Words 結合使用？
-- **完整控制** 條碼外觀（顏色、尺寸、格式）。  
-- **無縫整合** – 條碼影像可直接插入 Word 文件。  
-- **跨平台** – 可在任何支援 Java 的平台上執行。  
-- **可擴充** – 您可以建立公用的工具類別，於多個專案中重複使用條碼邏輯。
+在開始編寫程式碼前，請確保您已具備以下項目：
 
-## 前置條件
-
-在開始撰寫程式碼之前，請先確保您具備以下環境：
-
-- Java Development Kit (JDK)：版本 8 以上。  
-- Aspose.Words for Java 套件：[在此下載](https://releases.aspose.com/words/java/)。  
-- Aspose.BarCode for Java 套件：[在此下載](https://releases.aspose.com/)。  
-- 整合開發環境 (IDE)：IntelliJ IDEA、Eclipse 或您慣用的任何 IDE。  
-- 臨時授權：取得 [臨時授權](https://purchase.aspose.com/temporary-license/) 以解除功能限制。
+- Java Development Kit (JDK)：版本 8 或以上。  
+- Aspose.Words for Java 程式庫： [下載此處](https://releases.aspose.com/words/java/)。  
+- Aspose.BarCode for Java 程式庫： [下載此處](https://releases.aspose.com/)。  
+- 整合開發環境 (IDE)：IntelliJ IDEA、Eclipse，或您慣用的任何 IDE。  
+- 臨時授權：取得 [臨時授權](https://purchase.aspose.com/temporary-license/) 以獲得完整存取權限。
 
 ## 匯入套件
 
-我們將使用 Aspose.Words 與 Aspose.BarCode 套件。請在專案中匯入以下套件：
+我們將使用 Aspose.Words 與 Aspose.BarCode 程式庫。請在專案中匯入以下套件：
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -59,15 +49,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-這些匯入讓我們能使用條碼產生功能並將其整合至 Word 文件。
-
-接下來，我們把任務拆解成可管理的步驟。
+上述匯入讓我們能存取條碼產生 API 以及 Word 文件相關類別。
 
 ## 步驟 1：建立條碼操作的工具類別
 
-為了簡化條碼相關的操作，我們會建立一個工具類別，內含顏色轉換與 **convert twips to pixels** 等常用方法。
+為了讓主要程式碼保持簡潔，我們會將常用的輔助方法——例如 **將 twips 轉換為像素** 以及 **十六進位顏色轉換**——封裝在一個工具類別中。
 
-### 程式碼：
+### 程式碼
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -94,14 +82,14 @@ class CustomBarcodeGeneratorUtils {
 
 **說明**
 
-- `twipsToPixels` 將 Word 使用的測量單位（twips）轉換為螢幕像素——在需要精確尺寸時非常實用。  
-- `convertColor` 將十六進位顏色字串（例如 “FF0000”）轉換為 Java `Color` 物件，讓您自訂條碼前景與背景顏色。
+- `twipsToPixels` – Word 以 **twips** 為單位測量尺寸；此方法將其轉換為螢幕像素，方便精確設定條碼影像大小。  
+- `convertColor` – 將十六進位字串（例如 `"FF0000"` 代表紅色）轉換為 `java.awt.Color` 物件，讓您 **插入條碼** 時可自訂前景與背景顏色。
 
 ## 步驟 2：實作自訂條碼產生器
 
-我們將實作 `IBarcodeGenerator` 介面，讓 Aspose.Words 在遇到條碼欄位時能呼叫產生條碼影像。
+接下來，我們實作 `IBarcodeGenerator` 介面。此類別負責產生 **Java 風格的 QR Code** 影像，供 Aspose.Words 直接嵌入。
 
-### 程式碼：
+### 程式碼
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -133,15 +121,14 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 
 **說明**
 
-- `getBarcodeImage` 依您指定的 **generate qr code java** 類型（此例為 QR）建立 `BarcodeGenerator`。  
-- 透過工具方法套用前景與背景顏色，最後回傳渲染好的影像。  
-- 若條碼產生失敗，會回傳備用影像，確保程式不中斷。
+- `getBarcodeImage` 會建立 `BarcodeGenerator` 實例，套用 `BarcodeParameters` 所提供的顏色，最後回傳 `BufferedImage`。  
+- 若發生例外，方法會回傳佔位圖，確保 Word 文件的產生不會因錯誤而中斷。
 
-## 步驟 3：產生條碼並加入 Word 文件
+## 步驟 3：產生條碼並 **在 Word 中嵌入條碼**
 
-現在把所有元件組合起來：建立文件、產生條碼，並 **how to add barcode** 至 Word 檔案。
+完成產生器後，我們即可產生條碼影像，並 **插入至 Word 文件**。
 
-### 程式碼：
+### 程式碼
 
 ```java
 import com.aspose.words.*;
@@ -176,39 +163,50 @@ public class GenerateCustomBarcodeLabels {
 
 **說明**
 
-1. **文件初始化** – 建立全新的 `Document`（或載入既有的 .docx）。  
-2. **條碼參數** – 定義類型（`QR`）、值與顏色，示範 **generate qr code java** 的使用方式。  
-3. **影像插入** – `builder.insertImage` 將條碼插入指定位置，實際展示 **how to add barcode** 至 Word 檔案的流程。  
-4. **儲存** – 最終文件 (`CustomBarcodeLabels.docx`) 已內嵌條碼，可直接列印或分發。
+1. **文件初始化** – 建立全新的 `Document`（或載入既有範本）。  
+2. **條碼參數** – 定義條碼類型（`QR`）、要編碼的值，以及前景/背景顏色。  
+3. **影像插入** – `builder.insertImage` 於指定大小（200 × 200 像素）插入產生的條碼，這就是 **在 Word 檔案中插入條碼** 的核心。  
+4. **儲存** – 最終文件 `CustomBarcodeLabels.docx` 已包含嵌入的條碼，可直接列印或分發。
 
-## 常見問題與解決方案
+## 為何使用 Aspose.Words 產生自訂條碼標籤？
 
-| 問題 | 原因 | 解決方式 |
-|------|------|----------|
-| 條碼顯示空白 | 顏色字串無效或條碼類型不支援 | 檢查十六進位顏色格式，並使用支援的類型（例如 QR、Code128）。 |
-| 影像尺寸不正確 | 像素轉換計算錯誤 | 使用 `twipsToPixels` 依 Word 版面計算精確尺寸。 |
-| 授權例外 | 未提供有效的 Aspose 授權 | 在執行程式前套用臨時或正式授權。 |
+- **完整控制** 條碼外觀（類型、尺寸、顏色）。  
+- **無縫整合** —— 不需中間影像檔案，條碼於記憶體中產生後直接插入。  
+- **跨平台** —— 只要支援 Java 的作業系統皆可執行，適合伺服器端文件產生。  
+- **可擴充** —— 可遍歷資料來源，一次產生數百張個人化標籤。
+
+## 常見問題與除錯
+
+| 症狀 | 可能原因 | 解決方式 |
+|------|----------|----------|
+| 條碼顯示空白 | `BarcodeParameters` 的前景色與背景色相同（例如黑色在黑色上） | 檢查 `foregroundColor` 與 `backgroundColor` 的值。 |
+| 影像變形 | 傳入 `insertImage` 的像素尺寸不正確 | 調整寬度/高度參數，或使用 `twipsToPixels` 進行精確換算。 |
+| 不支援的條碼類型錯誤 | 使用了 `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` 未辨識的類型 | 確認條碼類型字串符合支援的 `EncodeTypes`（例如 `"QR"`、`"CODE128"`）。 |
 
 ## 常見問答
 
-**Q：可以在沒有授權的情況下使用 Aspose.Words for Java 嗎？**  
-A：可以，但會受到評估限制。建議取得 [臨時授權](https://purchase.aspose.com/temporary-license/) 以獲得完整功能。
+**Q: 可以在沒有授權的情況下使用 Aspose.Words for Java 嗎？**  
+A: 可以，但會有功能限制。取得 [臨時授權](https://purchase.aspose.com/temporary-license/) 可獲得完整功能。
 
-**Q：我可以產生哪些類型的條碼？**  
-A：Aspose.BarCode 支援 QR、Code 128、EAN‑13 等多種條碼。完整清單請參閱官方 [文件](https://reference.aspose.com/words/java/)。  
+**Q: 我可以產生哪些類型的條碼？**  
+A: Aspose.BarCode 支援 QR、Code 128、EAN‑13 等多種格式。請參考 [文件說明](https://reference.aspose.com/words/java/) 取得完整清單。
 
-**Q：如何調整條碼大小？**  
-A：可在 `builder.insertImage` 的寬高參數調整，或修改 `BarcodeGenerator` 物件的 `XDimension` 與 `BarHeight` 屬性。  
+**Q: 要如何調整條碼尺寸？**  
+A: 調整 `builder.insertImage` 的寬度與高度參數，或使用 `twipsToPixels` 將 Word 單位轉為像素。
 
-**Q：可以為條碼的可讀文字使用自訂字型嗎？**  
-A：當然可以。使用 `CodeTextParameters` 屬性設定字型族、大小與樣式。  
+**Q: 能否為條碼文字使用自訂字型？**  
+A: 可以，透過 `BarcodeGenerator` 的 `CodeTextParameters` 屬性自訂文字字型。
 
-**Q：在哪裡可以取得 Aspose.Words 的支援？**  
-A：請前往 [支援論壇](https://forum.aspose.com/c/words/8/) 與社群或官方取得協助。  
+**Q: 若遇到問題，該向哪裡尋求協助？**  
+A: 前往 [支援論壇](https://forum.aspose.com/c/words/8/) 向 Aspose 社群與工程師求助。
+
+## 結論
+
+依照上述步驟，您已掌握如何 **產生自訂條碼** 影像，並 **在 Word 中嵌入條碼**，使用 Aspose.Words for Java。此技巧彈性十足，適用於庫存標籤、活動票券，或任何需要將條碼納入自動產生文件的情境。可自行嘗試不同條碼類型與樣式，以符合您的業務需求。
 
 ---
 
-**最後更新：** 2026-02-09  
+**最後更新：** 2025-12-10  
 **測試環境：** Aspose.Words for Java 24.12、Aspose.BarCode for Java 24.12  
 **作者：** Aspose  
 

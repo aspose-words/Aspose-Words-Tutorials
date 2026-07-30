@@ -1,10 +1,11 @@
 ---
-"description": "使用 Aspose.Words for Java 掌握文件建立。新增文字、表格、圖像等內容的逐步指南。輕鬆建立令人驚嘆的 Word 文件。"
-"linktitle": "使用 DocumentBuilder 新增內容"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "使用 Aspose.Words for Java 中的 DocumentBuilder 新增內容"
-"url": "/zh-hant/java/document-manipulation/adding-content-using-documentbuilder/"
-"weight": 26
+date: 2026-01-01
+description: 學習如何使用 Aspose.Words for Java 的 DocumentBuilder 建立表單欄位，並加入文字、表格、圖片、超連結等。開發人員的逐步指南。
+linktitle: Adding Content using DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: 如何在 Aspose.Words for Java 中使用 DocumentBuilder 建立表單欄位並加入內容
+url: /zh-hant/java/document-manipulation/adding-content-using-documentbuilder/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,195 +14,205 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Words for Java 中的 DocumentBuilder 新增內容
+# 使用 Aspose.Words for Java 的 DocumentBuilder 添加內容
 
+## 使用 Aspose.Words for Java 的 DocumentBuilder 添加內容簡介
 
-## 使用 Aspose.Words for Java 中的 DocumentBuilder 新增內容簡介
+在本分步指南中，您將 **建立表單欄位**，並將各種內容——文字、表格、水平線、HTML、超連結、圖片等——加入 Word 文件，使用 Aspose.Words for Java。無論是建立報告、合約範本，或是互動式表單，`DocumentBuilder` 類別都能讓您對每個元素進行精細控制。讓我們立即開始吧！
 
-在本逐步指南中，我們將探討如何使用 Aspose.Words for Java 的 DocumentBuilder 在 Word 文件中新增各種類型的內容。我們將介紹如何插入文字、表格、水平規則、表單欄位、HTML、超連結、目錄、內聯和浮動圖像、段落等。讓我們開始吧！
+## 快速解答
+- **如何建立表單欄位？** 在 `DocumentBuilder` 上使用 `insertTextInput`、`insertCheckBox` 或 `insertComboBox`。
+- **哪個方法可加入純文字？** 呼叫 `builder.write("Your text")` 或 `builder.writeln("Your text")`。
+- **可以插入水平線嗎？** 可以——`builder.insertHorizontalRule()` 會加入分隔線。
+- **如何嵌入 HTML？** 使用 `builder.insertHtml("<p>HTML content</p>")`。
+- **如何加入行內圖片？** `builder.insertImage("path/to/image.png")` 會將圖片置於文字流中。
 
-## 先決條件
+## DocumentBuilder 是什麼？為什麼使用它來建立表單欄位？
 
-在開始之前，請確保您的專案中已設定了 Aspose.Words for Java 程式庫。您可以從下載 [這裡](https://releases。aspose.com/words/java/).
+`DocumentBuilder` 是 Aspose.Words 提供的流暢 API，用於以程式方式建構與編輯 Word 文件。它抽象化了底層的 OpenXML 結構，讓您只需關注 *要加入什麼*（例如 **表單欄位**），而不必在意 *XML 如何呈現*。因此它非常適合產生動態表單、合約或任何需要使用者互動的文件。
 
-## 新增文字
+## 前置條件
+
+在開始之前，請確保您的專案已安裝 Aspose.Words for Java 套件。您可以從 [此處](https://releases.aspose.com/words/java/) 下載。
+
+## Adding Text (how to add text)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入簡單文字段落
+// Insert a simple text paragraph
 builder.write("This is a simple text paragraph.");
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增表格
+## Adding Tables
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 開始一個表
+// Start a table
 Table table = builder.startTable();
 
-// 插入儲存格和內容
+// Insert cells and content
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// 結束表
+// End the table
 builder.endTable();
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 添加水平線
+## Adding a Horizontal Rule (add horizontal rule)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入水平線
+// Insert a horizontal rule
 builder.insertHorizontalRule();
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增表單字段
+## Adding Form Fields (create form fields)
 
-### 文字輸入表單字段
+### Text Input Form Field
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入文字輸入表單字段
+// Insert a text input form field
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### 複選框表單字段
+### Check Box Form Field
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入複選框表單域
+// Insert a check box form field
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### 組合框表單字段
+### Combo Box Form Field
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 定義組合方塊的項目
+// Define items for the combo box
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// 插入組合框表單域
+// Insert a combo box form field
 builder.insertComboBox("DropDown", items, 0);
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增 HTML
+## Adding HTML (insert html word)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入 HTML 內容
+// Insert HTML content
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增超連結
+## Adding Hyperlinks (how to add hyperlink)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入超連結
+// Insert a hyperlink
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", 假);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增目錄
+## Adding a Table of Contents
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入目錄
+// Insert a table of contents
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// 新增文件內容
-// …
+// Add document content
+// ...
 
-// 更新目錄
+// Update the table of contents
 doc.updateFields();
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增影像
+## Adding Images
 
-### 內嵌影像
+### Inline Image (insert inline image)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入內嵌影像
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### 浮動影像
+### Floating Image
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入浮動影像
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 新增段落
+## Adding Paragraphs
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 設定段落格式
+// Set paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -214,92 +225,91 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// 插入段落
+// Insert a paragraph
 builder.writeln("This is a formatted paragraph.");
 
-// 儲存文件
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## 步驟 10：移動遊標
+## Moving the Cursor (Step 10)
 
-您可以使用各種方法控製文件中的遊標位置，例如 `moveToParagraph`， `moveToCell`等等。以下是一個例子：
+您可以使用 `moveToParagraph`、`moveToCell` 等方法來控制文件內的游標位置。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 將遊標移到特定段落
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// 在新的遊標位置添加內容
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-這些是您可以使用 Aspose.Words for Java 的 DocumentBuilder 執行的一些常見操作。探索庫的文檔以了解更多高級功能和自訂選項。祝您文件建立愉快！
+這些是使用 Aspose.Words for Java 的 `DocumentBuilder` 可執行的一些常見操作。請參考函式庫文件以探索更進階的功能與自訂選項。祝您文件製作愉快！
 
+## Conclusion
 
-## 結論
+在本完整指南中，我們示範了如何 **建立表單欄位**，以及如何使用 Aspose.Words for Java 的 `DocumentBuilder` 加入各類內容——文字、表格、水平線、HTML、超連結、目錄、圖片、格式化段落與游標導向。現在，您已具備穩固的基礎，能以程式方式產生動態、互動的 Word 文件。
 
-在本綜合指南中，我們探討了 Aspose.Words for Java 的 DocumentBuilder 在 Word 文件中新增各種類型內容的功能。我們已經介紹了文字、表格、水平規則、表單欄位、HTML、超連結、目錄、圖像、段落和遊標移動。
+## FAQ's
 
-## 常見問題解答
+### Q: 什麼是 Aspose.Words for Java？
 
-### Q：什麼是 Aspose.Words for Java？
+A: Aspose.Words for Java 是一套 Java 函式庫，允許開發者以程式方式建立、修改與操作 Microsoft Word 文件。它提供廣泛的功能，用於文件產生、格式設定與內容插入。
 
-答：Aspose.Words for Java 是一個 Java 函式庫，可讓開發人員以程式設計方式建立、修改和操作 Microsoft Word 文件。它為文件生成、格式化和內容插入提供了廣泛的功能。
+### Q: 如何在文件中加入目錄？
 
-### Q：如何在我的文件中新增目錄？
-
-答：若要新增目錄，請使用 `DocumentBuilder` 在文件中插入目錄字段。確保在新增內容後更新文件中的欄位以填入目錄。以下是一個例子：
+A: 若要加入目錄，請使用 `DocumentBuilder` 插入 TOC 欄位，然後在加入內容後呼叫 `doc.updateFields()`。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入目錄字段
+// Insert a table of contents field
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// 新增文件內容
-// …
+// Add document content
+// ...
 
-// 更新目錄
+// Update the table of contents
 doc.updateFields();
 ```
 
-### Q：如何使用 Aspose.Words for Java 將圖片插入文件？
+### Q: 如何使用 Aspose.Words for Java 在文件中插入圖片？
 
-答：您可以使用 `DocumentBuilder`。以下是兩者的範例：
+A: 您可以使用 `DocumentBuilder` 插入行內或浮動圖片。
 
-#### 內嵌圖片：
+#### Inline Image:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入內嵌影像
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 ```
 
-#### 浮動影像：
+#### Floating Image:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入浮動影像
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### Q：新增內容時可以設定文字和段落的格式嗎？
+### Q: 加入內容時可以格式化文字與段落嗎？
 
-答：是的，您可以使用 `DocumentBuilder`。您可以設定字體屬性、段落對齊、縮排等。以下是一個例子：
+A: 可以，您可以使用 `DocumentBuilder` 來格式化文字與段落。寫入內容前，先設定字型屬性、段落對齊、縮排等。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 設定字體和段落格式
+// Set font and paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -312,34 +322,37 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// 插入格式化的段落
+// Insert a formatted paragraph
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### Q：如何將遊標移到文件中的特定位置？
+### Q: 如何將游標移動到文件中的特定位置？
 
-答：您可以使用以下方法控制遊標位置 `moveToParagraph`， `moveToCell`等等。以下是一個例子：
+A: 使用 `moveToParagraph`、`moveToCell` 等方法，在插入新內容前定位游標。
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 將遊標移到特定段落
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// 在新的遊標位置添加內容
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-這些是一些常見問題和解答，可協助您開始使用 Aspose.Words for Java 的 DocumentBuilder。如果您還有其他問題或需要進一步的協助，請參閱 [圖書館的文獻](https://reference.aspose.com/words/java/) 或向 Aspose.Words 社群和支持資源尋求協助。
+以上答案涵蓋了使用 Aspose.Words for Java 的 `DocumentBuilder` 時最常見的情境。欲取得更深入的資訊，請參考 [函式庫文件](https://reference.aspose.com/words/java/) 或加入 Aspose.Words 社群取得支援。
 
+---
+
+**最後更新：** 2026-01-01  
+**測試環境：** Aspose.Words for Java 24.12  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

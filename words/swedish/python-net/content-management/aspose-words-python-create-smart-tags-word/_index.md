@@ -5,7 +5,9 @@
 "url": "/sv/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Bemästra skapande och hantering av smarta taggar i Word med Aspose.Words för Python
 
 ## Introduktion
@@ -236,3 +238,7 @@ För mer information, utforska dessa resurser:
 - **Supportforum**: Engagera dig i samhället på [Asposes supportforum](https://forum.aspose.com/c/words/10)
 
 Med den här omfattande guiden är du nu rustad att använda Aspose.Words för Python för att skapa och hantera smarta taggar i dina Word-dokument. Lycka till med kodningen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

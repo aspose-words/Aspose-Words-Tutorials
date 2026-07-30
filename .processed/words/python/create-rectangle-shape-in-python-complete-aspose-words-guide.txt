@@ -1,0 +1,7 @@
+Title: Create Rectangle Shape in Python – Complete Aspose.Words Guide
+Slug: create-rectangle-shape-in-python-complete-aspose-words-guide
+Category: images-shapes
+ProcessedDate: 2026-06-24T12:33:52.238252
+SourceRepo: AI Search API
+Keywords: create rectangle shape, add shadow to shape, save document as pdf, how to add shape shadow, set shadow angle
+PRNumber: 212

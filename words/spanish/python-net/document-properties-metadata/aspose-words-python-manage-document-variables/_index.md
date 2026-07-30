@@ -5,7 +5,9 @@
 "url": "/es/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cómo gestionar variables de documentos con Aspose.Words en Python: una guía completa
 
 ## Introducción
@@ -161,3 +163,7 @@ estas alturas, ya deberías sentirte cómodo gestionando variables de documentos
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/words/10)
 
 Explora estos recursos para mejorar tu comprensión e implementación de Aspose.Words en Python. ¡Que disfrutes programando!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

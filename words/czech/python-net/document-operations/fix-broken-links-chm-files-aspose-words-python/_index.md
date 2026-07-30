@@ -5,7 +5,9 @@
 "url": "/cs/python-net/document-operations/fix-broken-links-chm-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Jak opravit nefunkční odkazy v souborech CHM pomocí Aspose.Words pro Python
 
 ## Zavedení
@@ -145,3 +147,7 @@ Pro další pomoc a průzkum:
 - **Stáhnout**: [Aspose.Words pro vydání Pythonu](https://releases.aspose.com/words/python/)
 - **Nákup a zkušební verze**: [Získejte licenci nebo bezplatnou zkušební verzi](https://purchase.aspose.com/buy)
 - **Fórum podpory**: [Komunita podpory Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

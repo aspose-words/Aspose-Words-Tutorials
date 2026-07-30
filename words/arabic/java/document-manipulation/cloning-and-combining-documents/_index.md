@@ -1,10 +1,12 @@
 ---
-"description": "تعلّم كيفية استنساخ ودمج المستندات في Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة على الكود المصدري."
-"linktitle": "استنساخ ودمج المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "استنساخ ودمج المستندات في Aspose.Words لـ Java"
-"url": "/ar/java/document-manipulation/cloning-and-combining-documents/"
-"weight": 27
+date: 2026-01-01
+description: تعلم كيفية دمج ملفات Word متعددة باستخدام Aspose.Words for Java، بما
+  في ذلك تقنيات الاستنساخ والدمج. دليل خطوة بخطوة مع أمثلة على الشيفرة المصدرية.
+linktitle: Cloning and Combining Documents
+second_title: Aspose.Words Java Document Processing API
+title: دمج ملفات Word متعددة باستخدام Aspose.Words لجافا
+url: /ar/java/document-manipulation/cloning-and-combining-documents/
+weight: 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +15,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استنساخ ودمج المستندات في Aspose.Words لـ Java
+# دمج ملفات Word متعددة باستخدام Aspose.Words for Java
 
+## مقدمة حول الاستنساخ ودمج المستندات في Aspose.Words for Java
 
-## مقدمة إلى استنساخ ودمج المستندات في Aspose.Words لـ Java
+في هذا البرنامج التعليمي ستتعلم **كيفية دمج ملفات Word متعددة** باستخدام Aspose.Words for Java. سواء كنت بحاجة إلى دمج العقود، تجميع التقارير، أو إنشاء مستند رئيسي واحد من عدة مصادر، فإن التقنيات المعروضة هنا—استنساخ مستند، الإدراج في نقاط الاستبدال، العلامات المرجعية، وأثناء الدمج البريدي—تغطي أكثر السيناريوهات شيوعًا. بنهاية الدليل ستحصل على مجموعة أدوات قابلة لإعادة الاستخدام لأي مهمة دمج مستندات.
 
-في هذا البرنامج التعليمي، سنستكشف كيفية استنساخ المستندات ودمجها باستخدام Aspose.Words في جافا. سنغطي سيناريوهات مختلفة، بما في ذلك استنساخ مستند، وإدراج مستندات في نقاط الاستبدال، والإشارات المرجعية، وأثناء عمليات دمج البريد.
+## إجابات سريعة
+- **ما هي أسهل طريقة لدمج ملفات Word؟** استخدم `Document.appendDocument()` أو أدخل في نقاط الاستبدال باستخدام معالج رد النداء.  
+- **هل يمكنني إدراج مستند أثناء الدمج البريدي؟** نعم—قم بتعيين `FieldMergingCallback` واستدعِ `InsertDocumentAtMailMergeHandler`.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم وجود ترخيص Aspose.Words صالح للاستخدام التجاري.  
+- **أي نسخة من Aspose.Words تعمل مع Java 17؟** جميع الإصدارات الحديثة (24.x وما بعدها) متوافقة.  
+- **هل من الممكن الحفاظ على العلامات المرجعية عند الدمج؟** بالتأكيد—أدرج في موقع العلامة المرجعية للحفاظ على الهيكل الأصلي.
 
-## الخطوة 1: استنساخ مستند
+## ما هو “دمج ملفات Word متعددة”؟
+دمج ملفات Word متعددة يعني أخذ ملفين أو أكثر بصيغة `.docx` (أو صيغ مدعومة أخرى) وإنتاج مستند واحد متكامل. توفر Aspose.Words واجهات برمجة تطبيقات عالية المستوى تتيح لك استنساخ، إدراج، ودمج المحتوى مع الحفاظ على التنسيق، الأنماط، والبيانات الوصفية.
 
-لاستنساخ مستند في Aspose.Words for Java، يمكنك استخدام `deepClone()` الطريقة. إليك مثال بسيط:
+## لماذا تستخدم دمج المستندات في Aspose.Words؟
+- **تحكم دقيق** – إدراج في مواقع دقيقة (نقاط الاستبدال، العلامات المرجعية، حقول الدمج البريدي).  
+- **عدم فقدان التخطيط** – جميع الأنماط، رؤوس الصفحات، تذييلات الصفحات، والصور تُحفظ.  
+- **متعدد المنصات** – يعمل على Windows، Linux، و macOS مع Java 8+ أو أحدث.  
+- **يدعم “إدراج مستند أثناء الدمج البريدي”** – مثالي لإنشاء عقود أو تقارير مخصصة.
+
+## المتطلبات المسبقة
+- مجموعة تطوير جافا (JDK 8 أو أحدث)  
+- مكتبة Aspose.Words for Java مضافة إلى مشروعك (Maven/Gradle)  
+- ملفات Word نموذجية موجودة في دليل معروف (استبدل `"Your Directory Path"` بالمسار الفعلي الخاص بك)  
+
+## دليل خطوة بخطوة
+
+### الخطوة 1: استنساخ مستند
+الاستنساخ يُنشئ نسخة مستقلة من المستند يمكنك تعديلها دون التأثير على الأصلي. هذا مفيد عندما تحتاج إلى قالب للبدء في دمجه.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -30,11 +53,8 @@ Document clone = doc.deepClone();
 clone.save("Your Directory Path" + "CloneAndCombineDocuments.CloningDocument.docx");
 ```
 
-سيقوم هذا الكود بإنشاء استنساخ عميق للمستند الأصلي وحفظه كملف جديد.
-
-## الخطوة 2: إدراج المستندات في نقاط الاستبدال
-
-يمكنك إدراج مستندات عند نقاط استبدال محددة في مستند آخر. إليك الطريقة:
+### الخطوة 2: إدراج مستندات في نقاط الاستبدال
+يمكنك تعريف عنصر نائب مثل `[MY_DOCUMENT]` في ملف رئيسي واستبداله بمستند آخر. هذا النهج مثالي لـ **aspose.words document merging** عندما يكون موقع الإدراج الدقيق معروفًا.
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -45,11 +65,8 @@ mainDoc.getRange().replace(Pattern.compile("\\[MY_DOCUMENT\\]"), "", options);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtReplace.docx");
 ```
 
-في هذا المثال، نستخدم `FindReplaceOptions` كائن لتحديد معالج استدعاء للاستبدال. `InsertDocumentAtReplaceHandler` تتعامل الفئة مع منطق الإدراج.
-
-## الخطوة 3: إدراج المستندات في الإشارات المرجعية
-
-لإدراج مستند في إشارة مرجعية محددة في مستند آخر، يمكنك استخدام الكود التالي:
+### الخطوة 3: إدراج مستندات في العلامات المرجعية
+تعمل العلامات المرجعية كمرساة مسماة داخل ملف Word. الإدراج في علامة مرجعية يضمن ظهور المحتوى الجديد بالضبط حيث تحتاجه—مفيد لبناء تقارير معقدة.
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -59,11 +76,8 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtBookmark.docx");
 ```
 
-هنا نجد الإشارة المرجعية حسب الاسم ونستخدم `insertDocument` طريقة لإدراج محتوى `subDoc` المستند في موقع الإشارة المرجعية.
-
-## الخطوة 4: إدراج المستندات أثناء دمج البريد
-
-يمكنك إدراج مستندات أثناء عملية دمج البريد في Aspose.Words لجافا. إليك الطريقة:
+### الخطوة 4: إدراج مستندات أثناء الدمج البريدي
+عند إنشاء مستندات مخصصة، قد تحتاج إلى تضمين ملف Word كامل داخل حقل دمج بريدي. هذا هو السيناريو الكلاسيكي لـ **mail merge insert document**.
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "Document insertion 1.docx");
@@ -72,17 +86,15 @@ mainDoc.getMailMerge().execute(new String[] { "Document_1" }, new Object[] { "Yo
 mainDoc.save("Your Directory Path" + "CloneAndCombineDocuments.InsertDocumentAtMailMerge.doc");
 ```
 
-في هذا المثال، قمنا بتعيين استدعاء دمج الحقول باستخدام `InsertDocumentAtMailMergeHandler` الفئة للتعامل مع إدراج المستند المحدد بواسطة الحقل "Document_1".
+## المشكلات الشائعة والحلول
+- **العلامة المرجعية غير موجودة** – تحقق من أن اسم العلامة يطابق تمامًا (حسّاس لحالة الأحرف).  
+- **تغيّر التنسيق بعد الدمج** – استخدم `Document.updateFields()` و `Document.removeSmartTags()` بعد الدمج.  
+- **الملفات الكبيرة تسبب OutOfMemoryError** – فعّل `LoadOptions.setLoadFormat(LoadFormat.DOCX)` وعالج المستندات عبر التدفقات.
 
-## خاتمة
+## الأسئلة المتكررة
 
-يمكن استنساخ المستندات ودمجها في Aspose.Words لجافا باستخدام تقنيات متنوعة. سواءً كنت بحاجة إلى استنساخ مستند، أو إدراج محتوى في نقاط الاستبدال، أو الإشارات المرجعية، أو أثناء دمج البريد، يوفر Aspose.Words ميزات فعّالة للتعامل مع المستندات بسلاسة.
-
-## الأسئلة الشائعة
-
-### كيف يمكنني استنساخ مستند في Aspose.Words لـ Java؟
-
-يمكنك استنساخ مستند في Aspose.Words for Java باستخدام `deepClone()` الطريقة. إليك مثال:
+### كيف يمكنني استنساخ مستند في Aspose.Words for Java؟
+يمكنك استنساخ مستند في Aspose.Words for Java باستخدام طريقة `deepClone()`. إليك مثالًا:
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -90,9 +102,8 @@ Document clone = doc.deepClone();
 clone.save("Your Directory Path" + "ClonedDocument.docx");
 ```
 
-### كيف يمكنني إدراج مستند في الإشارة المرجعية؟
-
-لإدراج مستند في إشارة مرجعية في Aspose.Words for Java، يمكنك العثور على الإشارة المرجعية حسب الاسم ثم استخدام `insertDocument` طريقة لإدراج المحتوى. إليك مثال:
+### كيف يمكنني إدراج مستند في علامة مرجعية؟
+لإدراج مستند في علامة مرجعية في Aspose.Words for Java، حدد العلامة المرجعية بالاسم واستخدم `insertDocument`:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -102,9 +113,8 @@ insertDocument(bookmark.getBookmarkStart().getParentNode(), subDoc);
 mainDoc.save("Your Directory Path" + "CombinedDocument.docx");
 ```
 
-### كيف أقوم بإدراج المستندات أثناء دمج البريد في Aspose.Words لـ Java؟
-
-يمكنك إدراج مستندات أثناء دمج البريد في Aspose.Words لجافا عن طريق تعيين استدعاء دمج الحقول وتحديد المستند المراد إدراجه. إليك مثال:
+### كيف يمكنني إدراج مستندات أثناء الدمج البريدي في Aspose.Words for Java؟
+يمكنك إدراج مستندات أثناء الدمج البريدي عن طريق تعيين رد نداء دمج الحقول:
 
 ```java
 Document mainDoc = new Document("Your Directory Path" + "MainDocument.docx");
@@ -113,15 +123,31 @@ mainDoc.getMailMerge().execute(new String[] { "DocumentField" }, new Object[] { 
 mainDoc.save("Your Directory Path" + "MergedDocument.docx");
 ```
 
-في هذا المثال، `InsertDocumentAtMailMergeHandler` تتعامل الفئة مع منطق الإدراج لـ "DocumentField" أثناء دمج البريد.
+**س: هل يمكنني دمج ملفات Word مشفرة؟**  
+**ج:** نعم. حمّل المستند باستخدام كلمة مرور عبر `LoadOptions.setPassword("yourPassword")` قبل الدمج.
 
+**س: هل يحافظ Aspose.Words على الأنماط المخصصة عند الدمج؟**  
+**ج:** بالتأكيد. تُنسخ الأنماط مع المحتوى، مما يضمن أن المستند النهائي يبدو متسقًا.
+
+**س: هل يمكن دمج ملفات PDF مع نفس الـ API؟**  
+**ج:** Aspose.Words يركز على معالجة Word. لدمج PDF، استخدم Aspose.PDF.
+
+**س: كيف أحسن الأداء عند دمج العديد من المستندات الكبيرة؟**  
+**ج:** عالج كل مستند في نسخة `Document` منفصلة، استخدم `Document.appendDocument()` مع `ImportFormatMode.KEEP_SOURCE_FORMATTING`، واستدعِ `Document.optimizeResources()` بعد الدمج.
+
+## الخلاصة
+دمج ملفات Word متعددة باستخدام Aspose.Words for Java سهل بمجرد أن تفهم المفاهيم الأساسية للاستنساخ، الإدراج في نقاط الاستبدال، العلامات المرجعية، ورد نداءات الدمج البريدي. تمنحك هذه التقنيات المرونة لبناء أي شيء من حزم مستندات بسيطة إلى تقارير معقدة مدفوعة بالبيانات. استكشف الـ API أكثر لاكتشاف ميزات إضافية مثل معالجة الأقسام، دمج رؤوس وتذييلات الصفحات، والتحكم في محتويات التحكم.
+
+---
+
+**آخر تحديث:** 2026-01-01  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

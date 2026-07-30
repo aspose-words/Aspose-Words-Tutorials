@@ -1,0 +1,7 @@
+Title: How to Insert ActiveX Button in Word – Set Button Caption
+Slug: how-to-insert-activex-button-in-word-set-button-caption
+Category: using-document-elements
+ProcessedDate: 2026-07-26T10:45:05.141524
+SourceRepo: AI Search API
+Keywords: how to insert activex, set button caption
+PRNumber: 235

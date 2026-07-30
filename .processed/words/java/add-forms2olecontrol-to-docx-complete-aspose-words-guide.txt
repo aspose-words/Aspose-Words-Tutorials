@@ -1,0 +1,7 @@
+Title: Add Forms2OleControl to DOCX – Complete Aspose.Words Guide
+Slug: add-forms2olecontrol-to-docx-complete-aspose-words-guide
+Category: using-document-elements
+ProcessedDate: 2026-07-23T10:44:12.466587
+SourceRepo: AI Search API
+Keywords: add forms2olecontrol to docx
+PRNumber: 232

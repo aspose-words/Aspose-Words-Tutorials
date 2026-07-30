@@ -1,11 +1,10 @@
 ---
-date: 2026-02-09
-description: Aspose.Words for Java içinde Aspose Barcode Java kullanarak özel barkod
-  etiketleri oluşturun. Barkodu Word belgelerine nasıl gömeceğinizi ve QR kodu Java
-  örneklerini nasıl oluşturacağınızı öğrenin.
+date: 2025-12-10
+description: Aspose.Words for Java kullanarak özel barkod etiketleri oluşturmayı öğrenin.
+  Bu adım adım rehber, barkodları Word belgelerine nasıl gömeceğinizi gösterir.
 linktitle: Generating Custom Barcode Labels
 second_title: Aspose.Words Java Document Processing API
-title: Aspose Barcode Java ile Özel Barkod Etiketleri Oluşturma
+title: Aspose.Words for Java'da Özel Barkod Etiketleri Oluşturma
 url: /tr/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
@@ -18,35 +17,26 @@ weight: 10
 
 # Aspose Barcode Java ile Özel Barkod Etiketleri Oluşturma
 
-## Aspose.Words for Java'da Özel Barkod Etiketleri Oluşturma'ya Giriş
+## Aspose.Words for Java'da Özel Barkod Oluşturma Giriş
 
-Barkodlar modern uygulamalarda vazgeçilmezdir ve **Aspose Barcode Java**, bunları doğrudan Word belgeleri içinde oluşturmayı basitleştirir. **embed barcode in Word**'e ihtiyacınız olsun, bir URL için QR kodu oluşturun ya da ölçü birimlerini dönüştürün, bu öğretici ihtiyacınız olan her şeyi adım adım gösterir. Hazır mısınız? Hadi başlayalım!
+Barkodlar modern uygulamalarda vazgeçilmezdir—envanter yönetimi, bilet baskısı ya da kimlik kartı oluşturma gibi. Bu öğreticide **özel barkod** etiketleri oluşturacak ve `IBarcodeGenerator` arayüzünü kullanarak doğrudan bir Word belgesine gömeceksiniz. Ortamı kurmaktan barkod görüntüsünü eklemeye kadar her adımı adım adım göstereceğiz, böylece barkodları Java projelerinizde hemen kullanmaya başlayabilirsiniz.
 
 ## Hızlı Yanıtlar
-- **Java'da barkod oluşturan kütüphane nedir?** Aspose Barcode Java, Aspose.Words for Java ile birlikte.  
-- **Hangi barkod türü gösteriliyor?** QR kod (generate qr code java).  
-- **twips'i piksellere nasıl dönüştürürüm?** Sağlanan `twipsToPixels` yardımcı metodunu kullanın.  
-- **Mevcut bir Word dosyasına barkod ekleyebilir miyim?** Evet – sadece `DocumentBuilder.insertImage` metodunu kullanın.  
-- **Lisans gerekir mi?** Geçici bir lisans, değerlendirme sınırlamalarını kaldırır.
-
-## Aspose Barcode Java Nedir?
-Aspose Barcode Java, geliştiricilerin programlı olarak geniş bir 1D ve 2D barkod yelpazesi (QR kodlar dahil) oluşturmasını sağlayan güçlü bir API'dir. Aspose.Words for Java ile birleştirildiğinde, **embed barcode in Word** belgelerini Java ortamınızdan çıkmadan ekleyebilirsiniz.
-
-## Neden Aspose Barcode Java'yı Aspose.Words ile Kullanmalısınız?
-- **Tam kontrol** barkod görünümü üzerinde (renkler, boyut, format).  
-- **Sorunsuz entegrasyon** – barkod görüntüsü doğrudan bir Word belgesine eklenebilir.  
-- **Çapraz platform** – herhangi bir Java uyumlu platformda çalışır.  
-- **Genişletilebilir** – barkod mantığını projeler arasında yeniden kullanmak için yardımcı sınıflar oluşturabilirsiniz.
+- **Bu öğreticide ne öğretiliyor?** Aspose.Words for Java ile özel barkod etiketleri oluşturma ve bunları bir Word dosyasına gömme.  
+- **Örnekte hangi barkod türü kullanılıyor?** QR kod (istediğiniz desteklenen bir türle değiştirebilirsiniz).  
+- **Lisans gerekli mi?** Geliştirme sırasında sınırsız erişim için geçici bir lisans gereklidir.  
+- **Hangi Java sürümü gerekiyor?** JDK 8 veya üzeri.  
+- **Barkod boyutunu veya renklerini değiştirebilir miyim?** Evet—`BarcodeParameters` ve `BarcodeGenerator` ayarlarını değiştirin.
 
 ## Önkoşullar
 
 Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Java Development Kit (JDK): Sürüm 8 veya üzeri.  
+- Java Development Kit (JDK): Versiyon 8 veya üzeri.  
 - Aspose.Words for Java Kütüphanesi: [Download here](https://releases.aspose.com/words/java/).  
 - Aspose.BarCode for Java Kütüphanesi: [Download here](https://releases.aspose.com/).  
 - Entegre Geliştirme Ortamı (IDE): IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir IDE.  
-- Geçici Lisans: Sınırsız erişim için bir [temporary license](https://purchase.aspose.com/temporary-license/) edinin.
+- Geçici Lisans: Sınırsız erişim için bir [temporary license](https://purchase.aspose.com/temporary-license/) alın.
 
 ## Paketleri İçe Aktarma
 
@@ -60,15 +50,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-Bu içe aktarmalar, barkod oluşturma özelliklerini kullanmamıza ve bunları Word belgelerine entegre etmemize olanak tanır.
+Bu içe aktarmalar, ihtiyacımız olan barkod oluşturma API'sine ve Word belge sınıflarına erişim sağlar.
 
-Bu görevi yönetilebilir adımlara bölelim.
+## Adım 1: Barkod İşlemleri için Yardımcı Sınıf Oluşturma
 
-## Adım 1: Barkod İşlemleri için Bir Yardımcı Sınıf Oluşturma
+Ana kodu temiz tutmak için, **twipleri piksele dönüştürme** ve **hex‑renk dönüşümü** gibi ortak yardımcıları bir yardımcı sınıfta kapsülleyeceğiz.
 
-Barkodla ilgili işlemleri basitleştirmek için renk dönüşümü ve **convert twips to pixels** gibi yaygın görevler için yardımcı metodlar içeren bir yardımcı sınıf oluşturacağız.
-
-### Code:
+### Kod
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -95,14 +83,14 @@ class CustomBarcodeGeneratorUtils {
 
 **Açıklama**
 
-- `twipsToPixels`, Word tarafından kullanılan ölçü birimini (twips) ekran piksellerine dönüştürür – hassas boyutlandırma gerektiğinde kullanışlı bir yardımcı.  
-- `convertColor`, onaltılık renk dizesini (ör. “FF0000”) bir Java `Color` nesnesine çevirir ve barkod ön planını ve arka planını özelleştirmenizi sağlar.
+- `twipsToPixels` – Word, boyutları **twip** cinsinden ölçer; bu yöntem bunları ekran piksellerine dönüştürür ve barkod görüntüsünün boyutunu hassas bir şekilde ayarlamak istediğinizde kullanışlıdır.  
+- `convertColor` – Bir onaltılık dizeyi (ör. kırmızı için `"FF0000"` ) `java.awt.Color` nesnesine dönüştürür, böylece **how to insert barcode** (barkodu nasıl ekleyeceğinizi) özel ön plan ve arka plan renkleriyle yapabilirsiniz.
 
 ## Adım 2: Özel Barkod Üreteci'yi Uygulama
 
-`IBarcodeGenerator` arayüzünü uygulayacağız, böylece Aspose.Words bir barkod alanı ile karşılaştığında barkod görüntüsü isteyebilir.
+Şimdi `IBarcodeGenerator` arayüzünü uygulayacağız. Bu sınıf, Aspose.Words'ün gömebileceği **generate qr code java**‑stilinde görüntüler oluşturmakla sorumlu olacak.
 
-### Code:
+### Kod
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -134,15 +122,14 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 
 **Açıklama**
 
-- `getBarcodeImage`, belirttiğiniz **generate qr code java** türünü (örneğimizde QR) kullanarak bir `BarcodeGenerator` oluşturur.  
-- Ön plan ve arka plan renklerini yardımcı metodlar aracılığıyla uygular, ardından oluşturulan görüntüyü döndürür.  
-- Yedek görüntü, barkod oluşturulamadığında programın çalışmaya devam etmesini sağlar.
+- `getBarcodeImage` bir `BarcodeGenerator` örneği oluşturur, `BarcodeParameters` aracılığıyla sağlanan renkleri uygular ve sonunda bir `BufferedImage` döndürür.  
+- Metot, hataları zarif bir şekilde ele alarak bir yer tutucu görüntü döndürür; bu sayede Word belgesi oluşturulması asla çökmez.
 
-## Adım 3: Bir Barkod Oluşturun ve Word Belgesine Ekleyin
+## Adım 3: Bir Barkod Oluşturun ve **embed barcode in Word**
 
-Şimdi her şeyi bir araya getiriyoruz: bir belge oluşturun, barkod üretin ve **how to add barcode**'ı Word dosyasına ekleyin.
+Üreteç hazır olduğunda, bir barkod görüntüsü oluşturabilir ve **insert it into a Word document** (bir Word belgesine ekleyebilir) şimdi.
 
-### Code:
+### Kod
 
 ```java
 import com.aspose.words.*;
@@ -177,40 +164,51 @@ public class GenerateCustomBarcodeLabels {
 
 **Açıklama**
 
-1. **Document Initialization** – yeni bir `Document` oluşturur (ya da mevcut bir .docx yükleyebilirsiniz).  
-2. **Barcode Parameters** – türü (`QR`), değeri ve renkleri tanımlar, **generate qr code java** kullanımını gösterir.  
-3. **Image Insertion** – `builder.insertImage` barkodu istediğiniz yere yerleştirir, etkili bir şekilde **how to add barcode**'ı bir Word dosyasına eklemeyi gösterir.  
-4. **Saving** – son belge (`CustomBarcodeLabels.docx`) gömülü barkodu içerir ve yazdırma ya da dağıtım için hazırdır.
+1. **Document Initialization** – Yeni bir `Document` oluşturur (ya da mevcut bir şablonu yükleyebilirsiniz).  
+2. **Barcode Parameters** – Barkod türünü (`QR`), kodlanacak değeri ve ön plan/arka plan renklerini tanımlar.  
+3. **Image Insertion** – `builder.insertImage` oluşturulan barkodu istenen boyutta (200 × 200 piksel) yerleştirir. Bu, **how to insert barcode** (barkodu bir Word dosyasına nasıl ekleyeceğiniz) konusunun temelidir.  
+4. **Saving** – Son belge, `CustomBarcodeLabels.docx`, gömülü barkodu içerir ve yazdırma ya da dağıtım için hazırdır.
 
-## Yaygın Sorunlar ve Çözümler
+## Neden Aspose.Words ile özel barkod etiketleri oluşturmalısınız?
 
-| Sorun | Neden | Çözüm |
-|-------|-------|------|
-| Barkod boş görünüyor | Geçersiz renk dizesi veya desteklenmeyen barkod türü | Hex renk formatını doğrulayın ve desteklenen bir tür (ör. QR, Code128) kullanın. |
-| Görüntü boyutu hatalı | Yanlış piksel dönüşümü | `twipsToPixels` kullanarak Word düzenine göre tam boyutları hesaplayın. |
-| Lisans istisnası | Geçerli bir Aspose lisansı yok | Kodu çalıştırmadan önce geçici veya satın alınmış bir lisans uygulayın. |
+- **Tam kontrol** barkod görünümü üzerinde (tür, boyut, renkler).  
+- **Sorunsuz entegrasyon** – ara görüntü dosyalarına gerek yok; barkod bellek içinde oluşturulur ve doğrudan eklenir.  
+- **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır, bu da sunucu tarafı belge oluşturma için idealdir.  
+- **Ölçeklenebilir** – tek bir çalıştırmada veri kaynağı üzerinde döngü yaparak yüzlerce kişiselleştirilmiş etiket oluşturabilirsiniz.
 
-## Sıkça Sorulan Sorular
+## Yaygın Sorunlar ve Sorun Giderme
+
+| Semptom | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| Barkod boş görünüyor | `BarcodeParameters` renkleri aynı (ör. siyah üzerine siyah) | `foregroundColor` ve `backgroundColor` değerlerini doğrulayın. |
+| Görüntü bozulmuş | `insertImage`'a yanlış piksel boyutları gönderildi | Genişlik/yükseklik argümanlarını ayarlayın veya kesin boyutlandırma için `twipsToPixels` dönüşümünü kullanın. |
+| Desteklenmeyen barkod türü hatası | `CustomBarcodeGeneratorUtils.getBarcodeEncodeType` tarafından tanınmayan bir tür kullanılıyor | Barkod türü dizesinin desteklenen `EncodeTypes`'dan biriyle eşleştiğinden emin olun (ör. `"QR"`, `"CODE128"`). |
+
+## Sık Sorulan Sorular
 
 **S: Aspose.Words for Java'yı lisans olmadan kullanabilir miyim?**  
-C: Evet, ancak değerlendirme sınırlamalarıyla karşılaşırsınız. Tam işlevsellik için bir [temporary license](https://purchase.aspose.com/temporary-license/) edinin.
+C: Evet, ancak bazı sınırlamaları vardır. Tam işlevsellik için bir [temporary license](https://purchase.aspose.com/temporary-license/) alın.
 
 **S: Hangi barkod türlerini oluşturabilirim?**  
-C: Aspose.BarCode QR, Code 128, EAN‑13 ve daha birçokını destekler. Tam liste için resmi [documentation](https://reference.aspose.com/words/java/) sayfasına bakın.
+C: Aspose.BarCode QR, Code 128, EAN‑13 ve birçok diğer formatı destekler. Tam liste için [documentation](https://reference.aspose.com/words/java/) adresine bakın.
 
 **S: Barkod boyutunu nasıl değiştirebilirim?**  
-C: `builder.insertImage` içindeki genişlik/yükseklik parametrelerini ayarlayın veya `BarcodeGenerator` nesnesindeki `XDimension` ve `BarHeight` özelliklerini değiştirin.
+C: `builder.insertImage` içindeki genişlik ve yükseklik argümanlarını ayarlayın veya Word ölçü birimlerini piksele dönüştürmek için `twipsToPixels` kullanın.
 
-**S: Barkodun insan tarafından okunabilir kısmı için özel yazı tipleri kullanabilir miyim?**  
-C: Kesinlikle. Yazı tipi ailesi, boyutu ve stilini ayarlamak için `CodeTextParameters` özelliğini kullanın.
+**S: Barkod metni için özel yazı tipleri kullanmak mümkün mü?**  
+C: Evet, `BarcodeGenerator`'ın `CodeTextParameters` özelliği aracılığıyla metin yazı tipini özelleştirebilirsiniz.
 
-**S: Aspose.Words ile ilgili yardımı nereden alabilirim?**  
-C: Topluluk desteği ve resmi yardım için [support forum](https://forum.aspose.com/c/words/8/) adresini ziyaret edin.
+**S: Sorun yaşarsam nereden yardım alabilirim?**  
+C: Aspose topluluğu ve mühendislerinden destek almak için [support forum](https://forum.aspose.com/c/words/8/) adresini ziyaret edin.
+
+## Sonuç
+
+Yukarıdaki adımları izleyerek, Aspose.Words for Java kullanarak **özel barkod** görüntüleri oluşturma ve **embed barcode in Word** belgelerine gömme konusunda artık bilgi sahibisiniz. Bu teknik, envanter etiketleri, etkinlik biletleri veya barkodun oluşturulan bir belgenin parçası olması gereken herhangi bir senaryo için yeterince esnektir. Farklı barkod türleri ve stil seçenekleriyle deneyler yaparak iş ihtiyaçlarınıza uygun çözümler geliştirin.
 
 ---
 
-**Son Güncelleme:** 2026-02-09  
-**Test Edilen Sürümler:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
+**Son Güncelleme:** 2025-12-10  
+**Test Edilen:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

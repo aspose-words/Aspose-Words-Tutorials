@@ -1,10 +1,12 @@
 ---
-"description": "透過我們全面的逐步指南了解如何使用 Aspose.Words for Java 儲存文件中的圖像。自訂格式、壓縮等。"
-"linktitle": "儲存文件中的影像"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中儲存文件中的圖片"
-"url": "/zh-hant/java/document-loading-and-saving/saving-images-from-documents/"
-"weight": 17
+date: 2025-12-27
+description: 學習如何使用 Aspose.Words for Java 將頁面儲存為 JPEG，並從 Word 文件中提取圖像。包括設定圖像亮度、解析度以及建立多頁
+  TIFF 的技巧。
+linktitle: Saving Images from Documents
+second_title: Aspose.Words Java Document Processing API
+title: 如何使用 Aspose.Words for Java 將頁面儲存為 JPEG 並從文件中提取圖像
+url: /zh-hant/java/document-loading-and-saving/saving-images-from-documents/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,20 +15,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中儲存文件中的圖片
+# 將頁面另存為 JPEG 並從 Aspose.Words for Java 文件中提取圖像
 
+在本教學中，您將了解如何使用 Aspose.Words for Java 從 Word 文件 **save page as jpeg** 並 **extract images from Word**。我們將逐步說明實務情境，例如設定圖像亮度、在 Java 中調整圖像解析度，以及建立多頁 TIFF。每個步驟都包含可直接執行的程式碼片段，您可以複製、貼上，即時看到結果。
 
-## Aspose.Words for Java 文件中圖像保存簡介
+## 快速回答
+- **我可以將單一頁面另存為 JPEG 嗎？** 可以 – 使用 `ImageSaveOptions` 並搭配 `setPageSet(new PageSet(pageIndex))`。
+- **如何調整圖像亮度？** 呼叫 `options.setImageBrightness(floatValue)`（範圍 0‑1）。
+- **如果需要多頁 TIFF 該怎麼做？** 設定涵蓋所需頁面的 `PageSet`，並選擇 TIFF 壓縮方式。
+- **如何控制圖像解析度？** 使用 `setResolution(floatDpi)` 或 `setHorizontalResolution(floatDpi)`。
+- **正式環境需要授權嗎？** 非試用版使用時必須擁有有效的 Aspose.Words 授權。
 
-在本教學中，我們將探討如何使用 Aspose.Words for Java 儲存文件中的圖像。我們將介紹圖像保存的各種場景和自訂選項。本指南提供了帶有原始程式碼範例的逐步說明。
+## 什麼是「save page as jpeg」？
+將頁面另存為 JPEG 是指將 Word 文件的單一頁面轉換為點陣圖檔案（JPEG）。此功能適用於產生預覽圖、縮圖，或在 PDF 無法實用的網頁中嵌入文件頁面。
 
-## 先決條件
+## 為什麼要從 Word 文件中提取圖像？
+許多業務流程需要從 DOCX 檔案中提取原始圖形（標誌、圖表、照片）以供再利用、存檔或分析。Aspose.Words 可輕鬆將每張圖像以原始格式抽取，且不會失真。
 
-在開始之前，請確保已將 Aspose.Words for Java 程式庫整合到您的專案中。您可以從下載 [這裡](https://releases。aspose.com/words/java/).
+## 前置條件
+- 已安裝 Java Development Kit（JDK 8 或更新版本）。
+- 已將 Aspose.Words for Java 程式庫加入專案。可從 [here](https://releases.aspose.com/words/java/) 下載。
+- 一個範例 Word 文件（例如 `Rendering.docx`）放置於已知目錄中。
 
-## 步驟 1：使用閾值控制將影像儲存為 TIFF
-
-若要將影像儲存為具有閾值控制的 TIFF 格式，請按照下列步驟操作：
+## 步驟 1：將圖像另存為帶閾值控制的 TIFF（建立多頁 TIFF）
+若要產生高對比度的灰階 TIFF，可控制二值化閾值。當您需要可列印的黑白文件版本時，此功能相當便利。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -38,9 +50,8 @@ saveOptions.setThresholdForFloydSteinbergDithering((byte) 254);
 doc.save("Your Directory Path" + "ThresholdControlledImage.tiff", saveOptions);
 ```
 
-## 步驟 2：將特定頁面儲存為多頁 TIFF
-
-若要將特定頁面儲存為多頁 TIFF，請使用下列程式碼：
+## 步驟 2：將特定頁面另存為多頁 TIFF
+若只需包含部分頁面的 TIFF（例如第 1‑2 頁），請設定 `PageSet`。此範例示範 **create multipage tiff**。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -51,9 +62,8 @@ saveOptions.setResolution(160f);
 doc.save("Your Directory Path" + "SpecificPageMultipage.tiff", saveOptions);
 ```
 
-## 步驟3：將影像儲存為1 BPP索引PNG
-
-若要將影像儲存為 1 BPP 索引 PNG，請依照下列步驟操作：
+## 步驟 3：將圖像另存為 1 BPP 索引 PNG
+當需要極輕量的黑白 PNG（每像素 1 位元）時，可相應設定像素格式。此方式適用於低頻寬情境下嵌入簡易圖形。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -64,23 +74,21 @@ saveOptions.setPixelFormat(ImagePixelFormat.FORMAT_1_BPP_INDEXED);
 doc.save("Your Directory Path" + "1BPPIndexed.png", saveOptions);
 ```
 
-## 步驟 4：將頁面儲存為自訂 JPEG
-
-若要將特定頁面儲存為具有自訂選項的 JPEG，請使用下列程式碼：
+## 步驟 4：將頁面另存為 JPEG 並自訂（設定圖像亮度與解析度）
+此處我們 **save page as jpeg**，同時調整亮度、對比度與解析度——非常適合製作縮圖或網頁預覽。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
 ImageSaveOptions options = new ImageSaveOptions();
 options.setPageSet(new PageSet(0));
-options.setImageBrightness(0.3f);
-options.setImageContrast(0.7f);
-options.setHorizontalResolution(72f);
+options.setImageBrightness(0.3f);          // set image brightness (0‑1)
+options.setImageContrast(0.7f);            // set image contrast (0‑1)
+options.setHorizontalResolution(72f);      // set image resolution in DPI
 doc.save("Your Directory Path" + "CustomizedJPEG.jpeg", options);
 ```
 
-## 步驟5：使用頁面儲存回調
-
-您可以使用回調來自訂頁面儲存。以下是一個例子：
+## 步驟 5：使用頁面保存回呼（進階自訂）
+回呼可讓您動態重新命名每個輸出檔案，適用於一次匯出多頁時的需求。
 
 ```java
 Document doc = new Document("Your Directory Path" + "Rendering.docx");
@@ -98,7 +106,8 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
-## 使用 Aspose.Words for Java 從文件保存影像的完整原始碼
+## 完整範例程式碼（所有情境）
+以下是一個單一類別，包含上述所有示範方法。您可以分別執行各個測試。
 
 ```java
 public void exposeThresholdControlForTiffBinarization() throws Exception
@@ -141,14 +150,14 @@ public void getJpegPageRange() throws Exception
 {
 	Document doc = new Document("Your Directory Path" + "Rendering.docx");
 	ImageSaveOptions options = new ImageSaveOptions();
-	// 將“PageSet”設定為“0”以僅轉換文件的第一頁。
+	// Set the "PageSet" to "0" to convert only the first page of a document.
 	options.setPageSet(new PageSet(0));
-	// 改變影像的亮度和對比度。
-	// 兩者的尺度均為 0-1，預設為 0.5。
+	// Change the image's brightness and contrast.
+	// Both are on a 0-1 scale and are at 0.5 by default.
 	options.setImageBrightness(0.3f);
 	options.setImageContrast(0.7f);
-	// 更改水平分辨率。
-	// 這些屬性的預設值為 96.0，解析度為 96dpi。
+	// Change the horizontal resolution.
+	// The default value for these properties is 96.0, for a resolution of 96dpi.
 	options.setHorizontalResolution(72f);
 	doc.save("Your Directory Path" + "WorkingWithImageSaveOptions.GetJpegPageRange.jpeg", options);
 }
@@ -171,54 +180,49 @@ private static class HandlePageSavingCallback implements IPageSavingCallback
 	}
 ```
 
-## 結論
+## 常見問題與解決方案
+- **「Unable to locate the document file」** – 請確認檔案路徑使用正確的分隔符（`/` 或 `\\`）符合您的作業系統。
+- **圖像顯示為空白** – 請確保已設定適當的 `ImageColorMode`（例如 TIFF 使用 `GRAYSCALE`）。
+- **大型文件發生記憶體不足錯誤** – 透過調整 `PageSet` 範圍，以批次方式處理頁面。
+- **JPEG 品質不佳** – 使用 `setHorizontalResolution` 或 `setResolution` 提高解析度。
 
-您已經了解如何使用 Aspose.Words for Java 儲存文件中的圖片。這些範例示範了影像保存的各種自訂選項，包括格式、壓縮和回調使用。利用 Aspose.Words for Java 的強大功能探索更多可能性。
+## 常見問答
 
-## 常見問題解答
-
-### 使用 Aspose.Words for Java 儲存時如何變更影像格式？
-
-您可以透過在 `ImageSaveOptions`。例如，要儲存為 PNG，請使用 `SaveFormat.PNG` 如程式碼所示：
+**Q: 如何在使用 Aspose.Words for Java 保存時變更圖像格式？**  
+A: 在 `ImageSaveOptions` 中設定所需格式。若要保存為 PNG，只需實例化 `ImageSaveOptions` 並指定 `SaveFormat.PNG` 即可。
 
 ```java
 ImageSaveOptions saveOptions = new ImageSaveOptions();
 ```
 
-### 我可以自訂 TIFF 影像的壓縮設定嗎？
-
-是的，您可以自訂 TIFF 影像壓縮設定。例如，要將壓縮方法設為 CCITT_3，請使用以下程式碼：
+**Q: 我可以自訂 TIFF 圖像的壓縮設定嗎？**  
+A: 可以。使用 `setTiffCompression` 來選擇壓縮演算法，例如 `CCITT_3`。
 
 ```java
 saveOptions.setTiffCompression(TiffCompression.CCITT_3);
 ```
 
-### 如何將文件中的特定頁面儲存為單獨的圖像？
-
-若要將特定頁面儲存為圖像，請使用 `setPageSet` 方法 `ImageSaveOptions`。例如，若要僅儲存第一頁，請設定 `PageSet` 到 `new PageSet(0)`。
+**Q: 如何將文件的特定頁面另存為單獨的圖像？**  
+A: 使用 `setPageSet` 方法並傳入單一頁面索引。
 
 ```java
-saveOptions.setPageSet(new PageSet(0)); // 將第一頁儲存為圖像
+saveOptions.setPageSet(new PageSet(0)); // Save the first page as an image
 ```
 
-### 如何在儲存時將自訂設定套用至 JPEG 影像？
-
-您可以使用以下方式將自訂設定套用至 JPEG 影像 `ImageSaveOptions`。調整亮度、對比度和解析度等屬性。例如，若要將亮度變更為 0.3 並將對比度變更為 0.7，請使用下列程式碼：
+**Q: 在保存 JPEG 圖像時，如何套用自訂設定？**  
+A: 透過 `ImageSaveOptions` 調整亮度、對比度與解析度等屬性。
 
 ```java
 options.setImageBrightness(0.3f);
 options.setImageContrast(0.7f);
 ```
 
-### 如何使用回調來自訂圖像保存？
-
-若要使用回調自訂圖像儲存，請設定 `PageSav在gCallback` in `ImageSaveOptions`。創建一個實現 `IPageSavingCallback` 介面並覆蓋 `pageSaving` 方法。
+**Q: 如何使用回呼自訂圖像保存？**  
+A: 實作 `IPageSavingCallback` 並使用 `setPageSavingCallback` 指定它。
 
 ```java
 imageSaveOptions.setPageSavingCallback(new HandlePageSavingCallback());
 ```
-
-然後，創建一個實現 `IPageSavingCallback` 介面並自訂檔案名稱和位置 `pageSaving` 方法。
 
 ```java
 private static class HandlePageSavingCallback implements IPageSavingCallback {
@@ -228,13 +232,19 @@ private static class HandlePageSavingCallback implements IPageSavingCallback {
 }
 ```
 
+## 結論
+現在您已擁有完整的工具箱，可用於 **saving page as jpeg**、提取圖像、控制圖像亮度、在 Java 中設定圖像解析度，以及使用 Aspose.Words for Java 建立多頁 TIFF 檔案。請嘗試不同的 `ImageSaveOptions` 設定以符合專案需求，並探索更廣泛的 Aspose.Words API，以獲得更多文件操作功能。
+
+---
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

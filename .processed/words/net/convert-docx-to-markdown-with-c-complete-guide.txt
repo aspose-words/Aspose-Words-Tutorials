@@ -1,0 +1,7 @@
+Title: Convert docx to markdown with C# – Complete Guide
+Slug: convert-docx-to-markdown-with-c-complete-guide
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-02T12:33:34.446567
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, save document as markdown, generate unique image names, save markdown images
+PRNumber: 197

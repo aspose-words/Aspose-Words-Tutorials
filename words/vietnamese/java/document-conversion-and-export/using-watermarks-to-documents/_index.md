@@ -1,10 +1,13 @@
 ---
-"description": "Tìm hiểu cách thêm hình mờ vào tài liệu trong Aspose.Words cho Java. Tùy chỉnh hình mờ văn bản và hình ảnh cho tài liệu trông chuyên nghiệp."
-"linktitle": "Sử dụng hình mờ cho tài liệu"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Sử dụng Watermark cho Tài liệu trong Aspose.Words cho Java"
-"url": "/vi/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2025-12-18
+description: Tìm hiểu cách thêm watermark vào tài liệu bằng Aspose.Words cho Java,
+  bao gồm ví dụ watermark hình ảnh, thay đổi màu watermark, thiết lập độ trong suốt
+  của watermark và xóa watermark khỏi tài liệu.
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: Cách Thêm Đánh Dấu Nước vào Tài Liệu bằng Aspose.Words cho Java
+url: /vi/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +16,38 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sử dụng Watermark cho Tài liệu trong Aspose.Words cho Java
+# Cách Thêm Đánh Dấu Nước vào Tài Liệu Sử Dụng Aspose.Words cho Java
 
+## Giới thiệu về việc Thêm Đánh Dấu Nước vào Tài Liệu trong Aspose.Words cho Java
 
-## Giới thiệu về cách thêm hình mờ vào tài liệu trong Aspose.Words cho Java
+Trong hướng dẫn này, bạn sẽ học **cách thêm đánh dấu nước** vào tài liệu Word bằng Aspose.Words cho Java. Đánh dấu nước là cách nhanh chóng để gắn nhãn một tệp là bí mật, bản nháp hoặc đã được phê duyệt, và chúng có thể là dạng văn bản hoặc hình ảnh. Chúng tôi sẽ hướng dẫn cách thiết lập thư viện, tạo đánh dấu nước dạng văn bản và hình ảnh, tùy chỉnh giao diện của chúng (bao gồm thay đổi màu đánh dấu nước và thiết lập độ trong suốt), và thậm chí loại bỏ đánh dấu nước khỏi tài liệu khi không còn cần thiết.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm hình mờ vào tài liệu bằng cách sử dụng Aspose.Words for Java API. Hình mờ là một cách hữu ích để dán nhãn tài liệu bằng văn bản hoặc đồ họa để chỉ ra trạng thái, tính bảo mật hoặc thông tin liên quan khác. Chúng tôi sẽ đề cập đến cả hình mờ văn bản và hình ảnh trong hướng dẫn này.
+## Trả lời nhanh
+- **Đánh dấu nước là gì?** Một lớp phủ bán trong suốt (văn bản hoặc hình ảnh) xuất hiện phía sau nội dung chính của tài liệu.  
+- **Tôi có thể thêm nhiều đánh dấu nước không?** Có – tạo nhiều đối tượng `Shape` và thêm từng cái vào các phần mong muốn.  
+- **Làm sao để thay đổi màu đánh dấu nước?** Điều chỉnh thuộc tính `Color` trong `TextWatermarkOptions`.  
+- **Có ví dụ về đánh dấu nước hình ảnh không?** Xem phần “Thêm Đánh Dấu Nước Hình Ảnh” bên dưới.  
+- **Có cần giấy phép để loại bỏ đánh dấu nước không?** Cần có giấy phép Aspose.Words hợp lệ cho việc sử dụng trong môi trường sản xuất.
 
 ## Thiết lập Aspose.Words cho Java
 
-Trước khi bắt đầu thêm hình mờ vào tài liệu, chúng ta cần thiết lập Aspose.Words cho Java. Thực hiện theo các bước sau để bắt đầu:
+Trước khi bắt đầu thêm đánh dấu nước vào tài liệu, chúng ta cần thiết lập Aspose.Words cho Java. Thực hiện các bước sau để bắt đầu:
 
-1. Tải xuống Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).
-2. Thêm thư viện Aspose.Words cho Java vào dự án Java của bạn.
-3. Nhập các lớp cần thiết vào mã Java của bạn.
+1. Tải Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).  
+2. Thêm thư viện Aspose.Words cho Java vào dự án Java của bạn.  
+3. Nhập các lớp cần thiết trong mã Java của bạn.
 
-Bây giờ chúng ta đã thiết lập xong thư viện, hãy tiến hành thêm hình mờ.
+Bây giờ thư viện đã được thiết lập, chúng ta sẽ đi vào phần tạo đánh dấu nước thực tế.
 
-## Thêm hình mờ văn bản
+## Thêm Đánh Dấu Nước Văn Bản
 
-Hình mờ văn bản là lựa chọn phổ biến khi bạn muốn thêm thông tin văn bản vào tài liệu của mình. Sau đây là cách bạn có thể thêm hình mờ văn bản bằng Aspose.Words for Java:
+Đánh dấu nước dạng văn bản là lựa chọn phổ biến khi bạn muốn thêm thông tin văn bản vào tài liệu. Dưới đây là cách bạn có thể thêm một đánh dấu nước văn bản bằng Aspose.Words cho Java:
 
 ```java
-// Tạo một phiên bản Tài liệu
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Định nghĩa TextWatermarkOptions
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +55,56 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// Đặt văn bản hình mờ và các tùy chọn
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// Lưu tài liệu có hình mờ
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## Thêm hình mờ cho hình ảnh
+**Tại sao điều này quan trọng:** Bằng cách điều chỉnh `setFontFamily`, `setFontSize`, và `setColor` bạn có thể **thay đổi màu đánh dấu nước** để phù hợp với thương hiệu, và `setSemitransparent(true)` cho phép bạn **đặt độ trong suốt cho đánh dấu nước** để tạo hiệu ứng nhẹ nhàng.
 
-Ngoài hình mờ văn bản, bạn cũng có thể thêm hình mờ hình ảnh vào tài liệu của mình. Sau đây là cách thêm hình mờ hình ảnh:
+## Thêm Đánh Dấu Nước Hình Ảnh
+
+Ngoài đánh dấu nước văn bản, bạn cũng có thể thêm đánh dấu nước hình ảnh vào tài liệu. Dưới đây là một **ví dụ đánh dấu nước hình ảnh** minh họa cách nhúng logo hoặc con dấu PNG:
 
 ```java
-// Tạo một phiên bản Tài liệu
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// Tải hình ảnh cho hình mờ
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// Đặt kích thước và vị trí hình mờ
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// Thêm hình mờ vào tài liệu
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// Lưu tài liệu có hình mờ
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## Tùy chỉnh hình mờ
+Bạn có thể lặp lại khối này với các hình ảnh hoặc vị trí khác nhau để **thêm nhiều đánh dấu nước** vào một tệp duy nhất.
 
-Bạn có thể tùy chỉnh hình mờ bằng cách điều chỉnh giao diện và vị trí của chúng. Đối với hình mờ văn bản, bạn có thể thay đổi phông chữ, kích thước, màu sắc và bố cục. Đối với hình mờ hình ảnh, bạn có thể sửa đổi kích thước và vị trí của chúng như đã trình bày trong các ví dụ trước.
+## Tùy Chỉnh Đánh Dấu Nước
 
-## Xóa hình mờ
+Bạn có thể tùy chỉnh đánh dấu nước bằng cách điều chỉnh giao diện và vị trí của chúng. Đối với đánh dấu nước văn bản, bạn có thể thay đổi phông chữ, kích thước, màu sắc và bố cục. Đối với đánh dấu nước hình ảnh, bạn có thể sửa đổi kích thước, góc quay và căn chỉnh như đã trình bày trong các ví dụ trước.
 
-Để xóa hình mờ khỏi tài liệu, bạn có thể sử dụng mã sau:
+## Loại Bỏ Đánh Dấu Nước
+
+Nếu bạn cần **loại bỏ nội dung đánh dấu nước** khỏi tài liệu, đoạn mã sau sẽ duyệt qua tất cả các shape và xóa những shape được xác định là đánh dấu nước:
 
 ```java
-// Tạo một phiên bản Tài liệu
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// Xóa hình mờ
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +113,53 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// Lưu tài liệu mà không có hình mờ
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## Các Trường Hợp Sử Dụng Thông Thường & Mẹo
 
-## Phần kết luận
+- **Bản nháp bí mật:** Áp dụng một đánh dấu nước văn bản bán trong suốt như “CONFIDENTIAL”.  
+- **Thương hiệu:** Sử dụng một đánh dấu nước hình ảnh chứa logo công ty của bạn.  
+- **Đánh dấu nước cho từng phần:** Duyệt qua `doc.getSections()` và thêm đánh dấu nước chỉ vào các phần bạn chọn.  
+- **Mẹo hiệu năng:** Tái sử dụng cùng một thể hiện `TextWatermarkOptions` khi áp dụng cùng một đánh dấu nước cho nhiều tài liệu.
 
-Trong hướng dẫn này, chúng ta đã học cách thêm hình mờ vào tài liệu bằng Aspose.Words for Java. Cho dù bạn cần thêm hình mờ văn bản hay hình ảnh, Aspose.Words đều cung cấp các công cụ để tùy chỉnh và quản lý chúng một cách hiệu quả. Bạn cũng có thể xóa hình mờ khi không còn cần thiết nữa, đảm bảo tài liệu của bạn sạch sẽ và chuyên nghiệp.
+## Câu Hỏi Thường Gặp
 
-## Câu hỏi thường gặp
+### Làm sao tôi có thể thay đổi phông chữ của một đánh dấu nước văn bản?
 
-### Làm thế nào để thay đổi phông chữ của hình mờ văn bản?
-
-Để thay đổi phông chữ của hình mờ văn bản, hãy sửa đổi `setFontFamily` tài sản trong `TextWatermarkOptions`. Ví dụ:
+Để thay đổi phông chữ của một đánh dấu nước văn bản, sửa đổi thuộc tính `setFontFamily` trong `TextWatermarkOptions`. Ví dụ:
 
 ```java
 options.setFontFamily("Times New Roman");
 ```
 
-### Tôi có thể thêm nhiều hình mờ vào một tài liệu không?
+### Tôi có thể thêm nhiều đánh dấu nước vào một tài liệu duy nhất không?
 
-Có, bạn có thể thêm nhiều hình mờ vào một tài liệu bằng cách tạo nhiều `Shape` các đối tượng có thiết lập khác nhau và thêm chúng vào tài liệu.
+Có, bạn có thể thêm nhiều đánh dấu nước vào tài liệu bằng cách tạo nhiều đối tượng `Shape` với các cài đặt khác nhau và thêm chúng vào tài liệu.
 
-### Có thể xoay hình mờ được không?
+### Có thể xoay một đánh dấu nước không?
 
-Có, bạn có thể xoay hình mờ bằng cách thiết lập `setRotation` tài sản trong `Shape` đối tượng. Giá trị dương sẽ xoay hình mờ theo chiều kim đồng hồ, giá trị âm sẽ xoay ngược chiều kim đồng hồ.
+Có, bạn có thể xoay một đánh dấu nước bằng cách đặt thuộc tính `setRotation` trong đối tượng `Shape`. Giá trị dương sẽ quay đồng hồ, giá trị âm sẽ quay ngược chiều kim đồng hồ.
 
-### Làm thế nào để tạo hình mờ bán trong suốt?
+### Làm sao tôi có thể làm cho một đánh dấu nước bán trong suốt?
 
-Để làm cho hình mờ trong suốt một nửa, hãy đặt `setSemitransparent` tài sản để `true` trong `TextWatermarkOptions`.
+Để làm cho một đánh dấu nước bán trong suốt, đặt thuộc tính `setSemitransparent` thành `true` trong `TextWatermarkOptions`.
 
-### Tôi có thể thêm hình mờ vào các phần cụ thể của tài liệu không?
+### Tôi có thể thêm đánh dấu nước vào các phần cụ thể của tài liệu không?
 
-Có, bạn có thể thêm hình mờ vào các phần cụ thể của tài liệu bằng cách lặp lại các phần và thêm hình mờ vào các phần mong muốn.
+Có, bạn có thể thêm đánh dấu nước vào các phần cụ thể của tài liệu bằng cách duyệt qua các phần và thêm đánh dấu nước vào các phần mong muốn.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Kiểm tra với:** Aspose.Words cho Java 24.12  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

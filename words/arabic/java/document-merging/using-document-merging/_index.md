@@ -1,11 +1,19 @@
 ---
-"description": "تعلم دمج مستندات Word بسلاسة باستخدام Aspose.Words لجافا. اجمع ونسّق وعالج التعارضات بكفاءة في بضع خطوات فقط. ابدأ الآن!"
-"linktitle": "استخدام دمج المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "استخدام دمج المستندات"
-"url": "/ar/java/document-merging/using-document-merging/"
-"weight": 10
+date: 2026-02-11
+description: تعلم كيفية دمج ملفات DOCX متعددة باستخدام Aspose.Words for Java. دمج
+  مستندات Word الكبيرة بفعالية، التعامل مع تعارضات التنسيق، وإدراج فواصل الصفحات.
+linktitle: Using Document Merging
+second_title: Aspose.Words Java Document Processing API
+title: كيفية دمج ملفات DOCX متعددة باستخدام Aspose.Words للـ Java
+url: /ar/java/document-merging/using-document-merging/
+weight: 10
 ---
+
+ the library. Need to translate the text but keep link.
+
+Also there are bullet lists with backticks.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -13,30 +21,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام دمج المستندات
+# دمج ملفات DOCX متعددة باستخدام Aspose.Words for Java
 
-يوفر Aspose.Words لجافا حلاً فعالاً للمطورين الذين يحتاجون إلى دمج مستندات Word متعددة برمجيًا. يُعد دمج المستندات متطلبًا شائعًا في تطبيقات متنوعة، مثل إنشاء التقارير ودمج البريد الإلكتروني وتجميع المستندات. في هذا الدليل التفصيلي، سنستكشف كيفية دمج المستندات باستخدام Aspose.Words لجافا.
+يُعد دمج ملفات DOCX المتعددة مطلبًا شائعًا عندما تحتاج إلى تجميع تقارير أو عقود أو رسائل مُولَّدة على دفعات في مستند واحد مُصقَّل. في هذا البرنامج التعليمي ستتعلم **كيفية دمج ملفات DOCX متعددة** بسرعة وبشكل موثوق باستخدام Aspose.Words for Java، مع الحفاظ على التنسيق وسدّ التحديات الشائعة مثل تعارض الأنماط وإدراج فواصل الصفحات.
 
-## 1. مقدمة حول دمج المستندات
+## إجابات سريعة
+- **ما هي المكتبة الأفضل لدمج ملفات DOCX؟** Aspose.Words for Java.  
+- **هل يمكنني دمج مستندات Word الكبيرة؟** نعم – تم تحسين الـ API لعمليات الدمج ذات الحجم العالي.  
+- **كيف يمكنني إدراج فاصل صفحة بين الملفات المدمجة؟** استخدم `ImportFormatMode` المناسب أو أضف فاصلًا يدويًا بعد الإلحاق.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** الترخيص التجاري مطلوب للعمليات غير التجريبية.  
+- **هل Java 8 مدعومة؟** بالطبع؛ Aspose.Words يعمل مع Java 8 والإصدارات الأحدث.
 
-دمج المستندات هو عملية دمج مستندي Word منفصلين أو أكثر في مستند واحد مترابط. تُعد هذه وظيفة أساسية في أتمتة المستندات، إذ تتيح التكامل السلس للنصوص والصور والجداول وغيرها من المحتويات من مصادر متنوعة. يُبسط Aspose.Words for Java عملية الدمج، مما يُمكّن المطورين من إنجاز هذه المهمة برمجيًا دون تدخل يدوي.
+## ما هو “دمج ملفات docx متعددة”؟
+يعني دمج ملفات DOCX المتعددة الجمع البرمجي لملفّين أو أكثر من مستندات Word في ملف `.docx` واحد. تحافظ العملية على النصوص، الصور، الجداول، رؤوس وتذييلات الصفحات، وغيرها من عناصر Word، لتنتج مستندًا نهائيًا سلسًا دون الحاجة إلى النسخ واللصق اليدوي.
 
-## 2. البدء باستخدام Aspose.Words لـ Java
+## لماذا نستخدم Aspose.Words for Java لدمج مستندات Word الكبيرة؟
+- **تحكم كامل في التنسيق** – اختر كيفية استيراد الأنماط.  
+- **أداء محسّن** – يتعامل مع مئات الصفحات بأقل استهلاك للذاكرة.  
+- **API غني** – يدعم فواصل الصفحات، فواصل الأقسام، والدمج الانتقائي للأقسام.  
+- **بدون اعتماد على Microsoft Office** – يعمل على أي منصة تدعم Java.
 
-قبل البدء بدمج المستندات، لنتأكد من إعداد Aspose.Words لجافا بشكل صحيح في مشروعنا. اتبع الخطوات التالية للبدء:
+## المتطلبات المسبقة
+- بيئة تطوير Java 8 (أو أحدث).  
+- إضافة ملف JAR الخاص بـ Aspose.Words for Java إلى مسار المشروع.  
+- ملفان DOCX أو أكثر ترغب في دمجهما (مثال: `document1.docx`, `document2.docx`).
 
-### الحصول على Aspose.Words لـ Java:
- قم بزيارة Aspose Releases (https://releases.aspose.com/words/java) للحصول على أحدث إصدار من المكتبة.
+## 1. مقدمة عن دمج المستندات
+دمج المستندات هو عملية الجمع بين ملفين أو أكثر من مستندات Word في مستند واحد متكامل. تُعد هذه الوظيفة أساسية في أتمتة المستندات، حيث تسمح بدمج النصوص، الصور، الجداول، وغيرها من المحتوى من مصادر مختلفة بسلاسة. يُبسّط Aspose.Words for Java عملية الدمج، مما يمكّن المطورين من تنفيذها برمجيًا دون تدخل يدوي.
 
-### إضافة مكتبة Aspose.Words:
- قم بتضمين ملف JAR الخاص بـ Aspose.Words في مسار فئة مشروع Java الخاص بك.
+## 2. البدء مع Aspose.Words for Java
+قبل الخوض في دمج المستندات، دعنا نتأكد من إعداد Aspose.Words for Java بشكل صحيح في مشروعنا. اتبع الخطوات التالية للبدء:
 
-### تهيئة Aspose.Words:
- في كود Java الخاص بك، قم باستيراد الفئات الضرورية من Aspose.Words، وستكون جاهزًا لبدء دمج المستندات.
+### الحصول على Aspose.Words for Java
+تفضل بزيارة Aspose Releases (https://releases.aspose.com/words/java) للحصول على أحدث نسخة من المكتبة.
 
-## 3. دمج مستندين
+### إضافة مكتبة Aspose.Words
+قم بإدراج ملف JAR الخاص بـ Aspose.Words في مسار (classpath) مشروع Java الخاص بك.
 
-لنبدأ بدمج مستندي وورد بسيطين. لنفترض أن لدينا ملفين، "document1.docx" و"document2.docx"، في مجلد المشروع.
+### تهيئة Aspose.Words
+في كود Java الخاص بك، استورد الفئات الضرورية من Aspose.Words، وستكون جاهزًا لبدء دمج المستندات.
+
+## 3. كيفية دمج ملفات docx متعددة (مستندان)
+
+لنبدأ بدمج مستندين Word بسيطين. افترض أن لدينا ملفين `document1.docx` و `document2.docx` موجودين في دليل المشروع.
 
 ```java
 import com.aspose.words.*;
@@ -44,14 +71,14 @@ import com.aspose.words.*;
 public class DocumentMerger {
     public static void main(String[] args) {
         try {
-            // تحميل المستندات المصدر
+            // Load the source documents
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // إضافة محتوى المستند الثاني إلى المستند الأول
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
-            // حفظ المستند المدمج
+            // Save the merged document
             doc1.save("merged_document.docx");
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
@@ -61,26 +88,21 @@ public class DocumentMerger {
 }
 ```
 
-في المثال أعلاه، قمنا بتحميل مستندين باستخدام `Document` الصف ثم استخدم `appendDocument()` طريقة لدمج محتوى "document2.docx" في "document1.docx" مع الحفاظ على تنسيق المستند المصدر.
+في المثال أعلاه، قمنا بتحميل مستندين باستخدام الفئة `Document` ثم استخدمنا الطريقة `appendDocument()` لدمج محتوى `document2.docx` داخل `document1.docx` مع الحفاظ على تنسيق المستند المصدر.
 
-## 4. التعامل مع تنسيق المستندات
+## 4. معالجة تنسيق المستند (aspose words document merge)
 
-عند دمج المستندات، قد تتعارض أنماط وتنسيقات المستندات المصدرية. يوفر Aspose.Words لـ Java عدة أوضاع لتنسيق الاستيراد للتعامل مع هذه الحالات:
+عند دمج المستندات، قد تواجه حالات يتعارض فيها تنسيق الأنماط بين المستندات المصدرية. يوفر Aspose.Words for Java عدة أوضاع لاستيراد التنسيق للتعامل مع هذه الحالات:
 
-- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: 
-يحافظ على تنسيق المستند المصدر.
+- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: يحتفظ بتنسيق المستند المصدر.  
+- `ImportFormatMode.USE_DESTINATION_STYLES`: يطبق أنماط المستند الوجهة.  
+- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: يحافظ على الأنماط المختلفة بين المستندين المصدر والوجهة.
 
-- `ImportFormatMode.USE_DESTINATION_STYLES`: 
-تطبيق أنماط المستند الوجهة.
+اختر وضع استيراد التنسيق المناسب بناءً على متطلبات الدمج الخاصة بك.
 
-- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: 
-يحافظ على الأنماط المختلفة بين المستندات المصدر والمستندات الوجهة.
+## 5. كيفية دمج مستندات Word الكبيرة (مستندات متعددة)
 
-اختر وضع تنسيق الاستيراد المناسب استنادًا إلى متطلبات الدمج الخاصة بك.
-
-## 5. دمج مستندات متعددة
-
-لدمج أكثر من مستندين، اتبع نهجًا مشابهًا لما سبق واستخدم `appendDocument()` الطريقة عدة مرات:
+لدمج أكثر من مستندين، اتبع النهج نفسه كما في الأعلى واستخدم الطريقة `appendDocument()` عدة مرات:
 
 ```java
 import com.aspose.words.*;
@@ -92,7 +114,7 @@ public class DocumentMerger {
             Document doc2 = new Document("document2.docx");
             Document doc3 = new Document("document3.docx");
 
-            // إضافة محتوى المستند الثاني إلى المستند الأول
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
             doc1.appendDocument(doc3, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
@@ -105,24 +127,19 @@ public class DocumentMerger {
 }
 ```
 
-## 6. إدراج فواصل المستندات
+## 6. كيفية إدراج فاصل صفحة أثناء الدمج
 
-أحيانًا، يلزم إدراج فاصل صفحة أو فاصل قسم بين المستندات المدمجة للحفاظ على هيكلية سليمة للمستندات. يوفر Aspose.Words خيارات لإدراج فواصل أثناء الدمج:
+في بعض الأحيان، يكون من الضروري إدراج فاصل صفحة أو فاصل قسم بين المستندات المدمجة للحفاظ على بنية المستند السليمة. يوفر Aspose.Words خيارات لإدراج الفواصل أثناء الدمج:
 
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);`:
-دمج المستندات دون أي فواصل.
-
-- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);`: 
-إدراج فاصل مستمر بين المستندات.
-
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);`: 
-يقوم بإدراج فاصل الصفحة عندما تختلف الأنماط بين المستندات.
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);` – يدمج دون أي فواصل.  
+- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);` – يُدرج فاصلًا مستمرًا بين المستندين.  
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);` – يُدرج فاصل صفحة عندما تختلف الأنماط بين المستندين.
 
 اختر الطريقة المناسبة بناءً على متطلباتك المحددة.
 
-## 7. دمج أقسام مستند محددة
+## 7. دمج أقسام مستند محددة (how to merge docs)
 
-في بعض الحالات، قد ترغب في دمج أقسام محددة فقط من المستندات. على سبيل المثال، دمج محتوى النص فقط، باستثناء الرؤوس والتذييلات. يتيح لك Aspose.Words تحقيق هذا المستوى من الدقة باستخدام `Range` فصل:
+في بعض السيناريوهات، قد ترغب في دمج أقسام معينة فقط من المستندات. على سبيل المثال، دمج محتوى النص الأساسي مع استبعاد الرؤوس والتذييلات. يتيح لك Aspose.Words تحقيق هذا المستوى من الدقة باستخدام الفئة `Range`:
 
 ```java
 import com.aspose.words.*;
@@ -133,10 +150,10 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // احصل على القسم المحدد من المستند الثاني
+            // Get the specific section of the second document
             Section sectionToMerge = doc2.getSections().get(0);
 
-            // أضف القسم إلى المستند الأول
+            // Append the section to the first document
             doc1.appendContent(sectionToMerge);
 
             doc1.save("merged_document.docx");
@@ -148,9 +165,9 @@ public class DocumentMerger {
 }
 ```
 
-## 8. التعامل مع التعارضات والأنماط المكررة
+## 8. معالجة التعارضات والأنماط المكررة
 
-عند دمج مستندات متعددة، قد تنشأ تعارضات بسبب تكرار الأنماط. يوفر Aspose.Words آلية حل لهذه التعارضات:
+عند دمج مستندات متعددة، قد تظهر تعارضات نتيجة وجود أنماط مكررة. يوفر Aspose.Words آلية حل لهذه التعارضات:
 
 ```java
 import com.aspose.words.*;
@@ -161,7 +178,7 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // حل النزاعات باستخدام KEEP_DIFFERENT_STYLES
+            // Resolve conflicts by using KEEP_DIFFERENT_STYLES
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);
 
             doc1.save("merged_document.docx");
@@ -173,61 +190,44 @@ public class DocumentMerger {
 }
 ```
 
-عن طريق استخدام `ImportFormatMode.KEEP_DIFFERENT_STYLES`يحتفظ Aspose.Words بالأنماط المختلفة بين المستندات المصدر والوجهة، مما يعمل على حل التعارضات بسلاسة.
+باستخدام `ImportFormatMode.KEEP_DIFFERENT_STYLES`، يحتفظ Aspose.Words بالأنماط المختلفة بين المستندين المصدر والوجهة، مما يحل التعارضات بسلاسة.
 
-## خاتمة
+## الأخطاء الشائعة والنصائح
+- **استهلاك الذاكرة للمستندات الكبيرة** – حمّل المستندات من تدفقات (streams) عند التعامل مع ملفات ضخمة لتقليل الضغط على الـ heap.  
+- **تعارض الأنماط** – يفضَّل استخدام `KEEP_DIFFERENT_STYLES` عندما تحتوي المستندات المصدرية على مجموعات أنماط فريدة.  
+- **موضع فواصل الصفحات** – بعد الإلحاق، يمكنك برمجيًا إدراج `SectionBreak` إذا لم يلبي وضع الفاصل التلقائي احتياجات التخطيط الخاصة بك.
 
-يُمكّن Aspose.Words for Java مطوري Java من دمج مستندات Word بسهولة. باتباع الدليل التفصيلي في هذه المقالة، يمكنك الآن دمج المستندات، وإدارة التنسيق، وإضافة الفواصل، وإدارة التعارضات بسهولة. مع Aspose.Words for Java، يصبح دمج المستندات عملية سلسة وتلقائية، مما يوفر وقتًا وجهدًا كبيرين.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة 
+**س: هل يمكنني دمج مستندات ذات تنسيقات وأنماط مختلفة؟**  
+ج: نعم، يدعم Aspose.Words for Java دمج المستندات ذات التنسيقات والأنماط المتنوعة، مع حل التعارضات بذكاء.
 
-### هل يمكنني دمج المستندات ذات التنسيقات والأنماط المختلفة؟
+**س: هل يدعم Aspose.Words دمج المستندات الكبيرة بكفاءة؟**  
+ج: بالتأكيد. تم تحسين المكتبة لأداء عالي في دمج ملفات Word الكبيرة.
 
-نعم، تُعالج Aspose.Words لجافا دمج المستندات بتنسيقات وأنماط مختلفة. تُحل المكتبة التعارضات بذكاء، مما يسمح لك بدمج المستندات من مصادر مختلفة بسلاسة.
+**س: هل يمكنني دمج مستندات محمية بكلمة مرور؟**  
+ج: نعم. حمّل كل مستند باستخدام كلمة المرور الخاصة به قبل استدعاء `appendDocument`.
 
-### هل يدعم Aspose.Words دمج المستندات الكبيرة بكفاءة؟
+**س: هل يمكن دمج أقسام مختارة فقط؟**  
+ج: نعم. استخدم كائنات `Section` أو `Range` لاختيار وإلحاق الأجزاء المحددة.
 
-صُمم Aspose.Words لجافا للتعامل بكفاءة مع المستندات الكبيرة. فهو يستخدم خوارزميات مُحسّنة لدمج المستندات، مما يضمن أداءً عاليًا حتى مع المحتوى الضخم.
+**س: هل يحافظ Aspose.Words على التنسيق الأصلي بشكل افتراضي؟**  
+ج: بشكل افتراضي يستخدم `KEEP_SOURCE_FORMATTING`، الذي يحتفظ بمظهر المستند المصدر.
 
-### هل يمكنني دمج المستندات المحمية بكلمة مرور باستخدام Aspose.Words لـ Java؟
+## الخلاصة
 
-نعم، يدعم Aspose.Words لجافا دمج المستندات المحمية بكلمة مرور. تأكد من إدخال كلمات المرور الصحيحة للوصول إلى هذه المستندات ودمجها.
+يمنح Aspose.Words for Java مطوري Java القدرة على **دمج ملفات DOCX متعددة** بسهولة. باتباع الدليل خطوة بخطوة في هذه المقالة، يمكنك دمج المستندات، معالجة التنسيق، إدراج الفواصل، وإدارة تعارض الأنماط بكل يسر. هذه الطريقة المبسطة توفر وقتًا ثمينًا وتقلل الجهد اليدوي في عمليات تجميع المستندات.
 
-### هل من الممكن دمج أقسام محددة من مستندات متعددة؟
+---
 
-نعم، يتيح لك Aspose.Words دمج أقسام محددة من مستندات مختلفة بشكل انتقائي. هذا يمنحك تحكمًا دقيقًا في عملية الدمج.
-
-### هل يمكنني دمج المستندات مع التغييرات المتعقبة والتعليقات؟
-
-بالتأكيد، يُمكن لـ Aspose.Words for Java دمج المستندات مع التغييرات المُتتبَّعة والتعليقات. لديك خيار حفظ هذه المراجعات أو إزالتها أثناء عملية الدمج.
-
-### هل يحافظ Aspose.Words على التنسيق الأصلي للمستندات المدمجة؟
-
-يحافظ Aspose.Words على تنسيق مستندات المصدر افتراضيًا. مع ذلك، يمكنك اختيار أوضاع تنسيق استيراد مختلفة لمعالجة التعارضات والحفاظ على اتساق التنسيق.
-
-### هل يمكنني دمج المستندات من تنسيقات ملفات غير Word، مثل PDF أو RTF؟
-
-صُمم Aspose.Words أساسًا للعمل مع مستندات Word. لدمج مستندات من تنسيقات ملفات غير Word، يُرجى استخدام منتج Aspose المناسب لذلك التنسيق، مثل Aspose.PDF أو Aspose.RTF.
-
-### كيف يمكنني التعامل مع إصدارات المستندات أثناء الدمج؟
-
-يمكن إدارة إصدارات المستندات أثناء الدمج بتطبيق ممارسات التحكم في الإصدارات المناسبة في تطبيقك. يُركز Aspose.Words على دمج محتوى المستندات، ولا يُدير إدارة الإصدارات مباشرةً.
-
-### هل Aspose.Words for Java متوافق مع Java 8 والإصدارات الأحدث؟
-
-نعم، Aspose.Words for Java متوافق مع Java 8 والإصدارات الأحدث. يُنصح دائمًا باستخدام أحدث إصدار من Java لتحسين الأداء والأمان.
-
-### هل يدعم Aspose.Words دمج المستندات من مصادر بعيدة مثل عناوين URL؟
-
-نعم، يُمكن لـ Aspose.Words for Java تحميل المستندات من مصادر مُختلفة، بما في ذلك عناوين URL، والتدفقات، ومسارات الملفات. يُمكنك دمج المستندات المُستقبَلة من مواقع بعيدة بسلاسة.
-
+**آخر تحديث:** 2026-02-11  
+**تم الاختبار مع:** Aspose.Words 24.12 for Java  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

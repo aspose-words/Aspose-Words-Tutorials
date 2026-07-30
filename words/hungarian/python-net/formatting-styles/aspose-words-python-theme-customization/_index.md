@@ -5,7 +5,9 @@
 "url": "/hu/python-net/formatting-styles/aspose-words-python-theme-customization/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Téma testreszabásának elsajátítása Aspose.Words segítségével Pythonban
 
 ## Bevezetés
@@ -165,3 +167,7 @@ V: Bár kiterjedt, előfordulhat, hogy egyes speciális Word-funkciók nem telje
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,10 @@
 ---
-date: 2026-02-09
-description: Aspose.Words for Java에서 Aspose Barcode Java를 사용하여 맞춤 바코드 라벨을 생성합니다. 워드
-  문서에 바코드를 삽입하고 QR 코드를 생성하는 Java 예제를 배워보세요.
+date: 2025-12-10
+description: Aspose.Words for Java를 사용하여 맞춤 바코드 라벨을 생성하는 방법을 배웁니다. 이 단계별 가이드는 Word
+  문서에 바코드를 삽입하는 방법을 보여줍니다.
 linktitle: Generating Custom Barcode Labels
 second_title: Aspose.Words Java Document Processing API
-title: Aspose Barcode Java를 사용한 맞춤 바코드 라벨 생성
+title: Aspose.Words for Java에서 사용자 정의 바코드 라벨 생성
 url: /ko/java/document-conversion-and-export/generating-custom-barcode-labels/
 weight: 10
 ---
@@ -15,43 +15,32 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose Barcode Java를 사용한 맞춤 바코드 라벨 생성
+# Aspose.Words for Java에서 사용자 정의 바코드 라벨 생성
 
-## Aspose.Words for Java에서 맞춤 바코드 라벨 생성 소개
+## Aspose.Words for Java에서 사용자 정의 바코드 생성 소개
 
-바코드는 현대 애플리케이션에서 필수적이며, **Aspose Barcode Java**를 사용하면 Word 문서 안에서 직접 바코드를 쉽게 만들 수 있습니다. **Word에 바코드 삽입**이 필요하든, URL용 QR 코드를 생성하든, 측정 단위를 변환하든, 이 튜토리얼은 필요한 모든 내용을 단계별로 안내합니다. 시작할 준비가 되셨나요? 바로 시작해봅시다!
+바코드는 현대 애플리케이션에서 필수적입니다—재고 관리, 티켓 인쇄, 신분증 제작 등 어디에서든 사용됩니다. 이 튜토리얼에서는 **사용자 정의 바코드** 라벨을 생성하고 `IBarcodeGenerator` 인터페이스를 사용해 Word 문서에 직접 삽입하는 방법을 배웁니다. 환경 설정부터 바코드 이미지를 삽입하는 단계까지 모두 안내하므로, Java 프로젝트에서 바로 바코드를 활용할 수 있습니다.
 
 ## 빠른 답변
-- **Java에서 바코드를 생성하는 라이브러리는?** Aspose Barcode Java paired with Aspose.Words for Java.  
-- **어떤 바코드 유형이 시연되나요?** QR code (generate qr code java).  
-- **twips를 픽셀로 변환하려면 어떻게 해야 하나요?** Use the provided `twipsToPixels` utility method.  
-- **기존 Word 파일에 바코드를 추가할 수 있나요?** Yes – just use the `DocumentBuilder.insertImage` method.  
-- **라이선스가 필요합니까?** A temporary license removes evaluation limits.
-
-## Aspose Barcode Java란?
-
-Aspose Barcode Java는 개발자가 프로그래밍 방식으로 다양한 1D 및 2D 바코드(QR 코드 포함)를 생성할 수 있게 해주는 강력한 API입니다. Aspose.Words for Java와 결합하면 Java 환경을 떠나지 않고도 **Word에 바코드 삽입**을 할 수 있습니다.
-
-## Aspose.Words와 함께 Aspose Barcode Java를 사용하는 이유
-
-- **Full control** 바코드 외관(색상, 크기, 형식)에 대한 완전한 제어.  
-- **Seamless integration** – 바코드 이미지를 Word 문서에 직접 삽입할 수 있습니다.  
-- **Cross‑platform** – 모든 Java 호환 플랫폼에서 작동합니다.  
-- **Extensible** – 유틸리티 클래스를 만들어 프로젝트 전반에 바코드 로직을 재사용할 수 있습니다.
+- **이 튜토리얼에서 배우는 내용은?** Aspose.Words for Java를 사용해 사용자 정의 바코드 라벨을 생성하고 Word 파일에 삽입하는 방법.  
+- **예제에서 사용된 바코드 유형은?** QR 코드(다른 지원 유형으로 교체 가능).  
+- **라이선스가 필요한가요?** 개발 중 무제한 접근을 위해 임시 라이선스가 필요합니다.  
+- **필요한 Java 버전은?** JDK 8 이상.  
+- **바코드 크기나 색상을 변경할 수 있나요?** 예—`BarcodeParameters`와 `BarcodeGenerator` 설정을 수정하면 됩니다.
 
 ## 사전 요구 사항
 
-코딩을 시작하기 전에 다음이 준비되어 있는지 확인하십시오:
+코딩을 시작하기 전에 다음 항목을 준비하세요:
 
-- Java Development Kit (JDK): Version 8 이상.  
-- Aspose.Words for Java Library: [여기 다운로드](https://releases.aspose.com/words/java/).  
-- Aspose.BarCode for Java Library: [여기 다운로드](https://releases.aspose.com/).  
-- Integrated Development Environment (IDE): IntelliJ IDEA, Eclipse, 또는 선호하는 IDE.  
-- Temporary License: 무제한 접근을 위해 [임시 라이선스](https://purchase.aspose.com/temporary-license/)를 받으세요.
+- Java Development Kit (JDK): 버전 8 이상.  
+- Aspose.Words for Java 라이브러리: [Download here](https://releases.aspose.com/words/java/).  
+- Aspose.BarCode for Java 라이브러리: [Download here](https://releases.aspose.com/).  
+- 통합 개발 환경(IDE): IntelliJ IDEA, Eclipse 또는 선호하는 IDE.  
+- 임시 라이선스: 무제한 접근을 위해 [temporary license](https://purchase.aspose.com/temporary-license/)를 받으세요.
 
 ## 패키지 가져오기
 
-우리는 Aspose.Words와 Aspose.BarCode 라이브러리를 사용할 것입니다. 프로젝트에 다음 패키지를 가져오세요:
+Aspose.Words Aspose.BarCode 라이브러리를 사용할 것입니다. 프로젝트에 다음 패키지를 가져오세요:
 
 ```java
 import com.aspose.barcode.generation.*;
@@ -61,15 +50,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 ```
 
-이러한 import는 바코드 생성 기능을 활용하고 Word 문서에 통합할 수 있게 해줍니다.
-
-작업을 관리 가능한 단계로 나눠 보겠습니다.
+이 임포트문을 통해 바코드 생성 API와 Word 문서 클래스를 사용할 수 있습니다.
 
 ## Step 1: 바코드 작업을 위한 유틸리티 클래스 만들기
 
-바코드 관련 작업을 단순화하기 위해 색상 변환 및 **convert twips to pixels**와 같은 일반 작업을 위한 도우미 메서드가 포함된 유틸리티 클래스를 만들겠습니다.
+메인 코드를 깔끔하게 유지하기 위해 **twips를 픽셀로 변환**하고 **16진수 색상 변환**과 같은 공통 헬퍼를 유틸리티 클래스에 캡슐화합니다.
 
-### Code:
+### 코드
 
 ```java
 class CustomBarcodeGeneratorUtils {
@@ -94,16 +81,16 @@ class CustomBarcodeGeneratorUtils {
 }
 ```
 
-**Explanation**
+**설명**
 
-- `twipsToPixels`는 Word에서 사용하는 측정 단위(twips)를 화면 픽셀로 변환합니다 – 정확한 크기가 필요할 때 유용한 도우미입니다.  
-- `convertColor`는 16진수 색상 문자열(예: “FF0000”)을 Java `Color` 객체로 변환하여 바코드 전경 및 배경을 사용자 정의할 수 있게 합니다.
+- `twipsToPixels` – Word는 **twips** 단위로 치수를 측정합니다; 이 메서드는 정확한 바코드 이미지 크기를 지정할 때 유용한 픽셀로 변환합니다.  
+- `convertColor` – 16진수 문자열(예: 빨간색은 `"FF0000"`)을 `java.awt.Color` 객체로 변환하여 **how to insert barcode** 시 사용자 정의 전경색 및 배경색을 적용할 수 있게 합니다.
 
 ## Step 2: 맞춤 바코드 생성기 구현
 
-`IBarcodeGenerator` 인터페이스를 구현하여 Aspose.Words가 바코드 필드를 만나면 바코드 이미지를 요청하도록 하겠습니다.
+이제 `IBarcodeGenerator` 인터페이스를 구현합니다. 이 클래스는 Aspose.Words가 삽입할 수 있는 **generate qr code java** 스타일 이미지를 생성하는 역할을 합니다.
 
-### Code:
+### 코드
 
 ```java
 class CustomBarcodeGenerator implements IBarcodeGenerator {
@@ -133,17 +120,16 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 }
 ```
 
-**Explanation**
+**설명**
 
-- `getBarcodeImage`는 지정한 **generate qr code java** 유형(예제에서는 QR)을 사용해 `BarcodeGenerator`를 생성합니다.  
-- 유틸리티 메서드를 통해 전경 및 배경 색상을 적용한 뒤 렌더링된 이미지를 반환합니다.  
-- 폴백 이미지는 바코드 생성에 실패해도 프로그램이 계속 실행되도록 보장합니다.
+- `getBarcodeImage`는 `BarcodeGenerator` 인스턴스를 생성하고, `BarcodeParameters`로 전달된 색상을 적용한 뒤 `BufferedImage`를 반환합니다.  
+- 또한 오류 발생 시 플레이스홀더 이미지를 반환하도록 처리해 Word 문서 생성이 중단되지 않도록 합니다.
 
-## Step 3: 바코드 생성 및 Word 문서에 추가
+## 3단계: 바코드 생성 및 **embed barcode in Word**
 
-이제 모든 것을 결합합니다: 문서를 만들고, 바코드를 생성하며, **how to add barcode**를 Word 파일에 추가합니다.
+생성기가 준비되었으니 이제 바코드 이미지를 만들고 **insert it into a Word document** 할 수 있습니다.
 
-### Code:
+### 코드
 
 ```java
 import com.aspose.words.*;
@@ -176,41 +162,52 @@ public class GenerateCustomBarcodeLabels {
 }
 ```
 
-**Explanation**
+**설명**
 
-1. **Document Initialization** – 새로운 `Document`를 생성합니다(또는 기존 .docx를 로드할 수 있습니다).  
-2. **Barcode Parameters** – 유형(`QR`), 값 및 색상을 정의하며 **generate qr code java** 사용을 시연합니다.  
-3. **Image Insertion** – `builder.insertImage`는 필요한 위치에 바코드를 삽입하여 **how to add barcode**를 Word 파일에 추가하는 방법을 효과적으로 보여줍니다.  
-4. **Saving** – 최종 문서(`CustomBarcodeLabels.docx`)에 삽입된 바코드가 포함되어 인쇄 또는 배포 준비가 완료됩니다.
+1. **Document 초기화** – 새 `Document`를 생성합니다(또는 기존 템플릿을 로드할 수도 있습니다).  
+2. **Barcode Parameters** – 바코드 유형(`QR`), 인코딩할 값, 전경색/배경색을 정의합니다.  
+3. **Image Insertion** – `builder.insertImage`는 생성된 바코드를 원하는 크기(200 × 200 픽셀)로 삽입합니다. 이것이 **how to insert barcode** 를 Word 파일에 넣는 핵심 단계입니다.  
+4. **Saving** – 최종 문서 `CustomBarcodeLabels.docx`에 삽입된 바코드가 포함되어 인쇄 또는 배포가 가능합니다.
 
-## 일반적인 문제 및 해결책
+## Aspose.Words로 사용자 정의 바코드 라벨을 생성해야 하는 이유
 
-| 문제 | 원인 | 해결 방법 |
-|-------|-------|-----|
-| 바코드가 빈 화면으로 표시됨 | 잘못된 색상 문자열 또는 지원되지 않는 바코드 유형 | 16진수 색상 형식을 확인하고 지원되는 유형(e.g., QR, Code128)을 사용하십시오. |
-| 이미지 크기가 잘못됨 | 픽셀 변환 오류 | `twipsToPixels`를 사용하여 Word 레이아웃을 기준으로 정확한 치수를 계산하십시오. |
-| 라이선스 예외 | 유효한 Aspose 라이선스가 없음 | 코드를 실행하기 전에 임시 또는 구매한 라이선스를 적용하십시오. |
+- **전체 제어**: 바코드 외형(유형, 크기, 색상)을 자유롭게 설정 가능.  
+- **원활한 통합**: 중간 이미지 파일이 필요 없으며, 바코드가 메모리에서 바로 생성되어 삽입됩니다.  
+- **크로스‑플랫폼**: Java를 지원하는 모든 OS에서 동작하므로 서버‑사이드 문서 생성에 최적.  
+- **확장성**: 데이터 소스를 순회하면서 한 번에 수백 개의 개인화된 라벨을 만들 수 있습니다.
+
+## 일반적인 문제 및 해결 방법
+
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| 바코드가 빈 화면으로 표시됨 | `BarcodeParameters` 색상이 동일함(예: 검은색 on 검은색) | `foregroundColor`와 `backgroundColor` 값을 확인하세요. |
+| 이미지가 왜곡됨 | `insertImage`에 전달된 픽셀 치수가 잘못됨 | 너비/높이 인수를 조정하거나 정확한 크기를 위해 `twipsToPixels` 변환을 사용하세요. |
+| 지원되지 않는 바코드 유형 오류 | `CustomBarcodeGeneratorUtils.getBarcodeEncodeType`에서 인식되지 않는 유형 사용 | 바코드 유형 문자열이 지원되는 `EncodeTypes`(예: `"QR"`, `"CODE128"`) 중 하나와 일치하는지 확인하세요. |
 
 ## 자주 묻는 질문
 
 **Q: Aspose.Words for Java를 라이선스 없이 사용할 수 있나요?**  
-A: 예, 하지만 평가 제한이 발생합니다. 전체 기능을 사용하려면 [임시 라이선스](https://purchase.aspose.com/temporary-license/)를 받으세요.
+A: 예, 사용 가능하지만 일부 제한이 있습니다. 전체 기능을 위해 [temporary license](https://purchase.aspose.com/temporary-license/)를 받으세요.
 
 **Q: 어떤 종류의 바코드를 생성할 수 있나요?**  
-A: Aspose.BarCode는 QR, Code 128, EAN‑13 등 다양한 바코드를 지원합니다. 전체 목록은 공식 [documentation](https://reference.aspose.com/words/java/)을 참고하세요.
+A: Aspose.BarCode는 QR, Code 128, EAN‑13 등 다양한 포맷을 지원합니다. 전체 목록은 [documentation](https://reference.aspose.com/words/java/)을 참고하세요.
 
-**Q: 바코드 크기를 어떻게 변경할 수 있나요?**  
-A: `builder.insertImage`의 너비/높이 매개변수를 조정하거나 `BarcodeGenerator` 객체의 `XDimension` 및 `BarHeight` 속성을 수정하십시오.
+**Q: 바코드 크기를 어떻게 변경하나요?**  
+A: `builder.insertImage`의 너비와 높이 인수를 조정하거나 Word 측정 단위를 픽셀로 변환하기 위해 `twipsToPixels`를 사용하세요.
 
-**Q: 바코드의 인간 가독 부분에 사용자 정의 글꼴을 사용할 수 있나요?**  
-A: 물론 가능합니다. `CodeTextParameters` 속성을 사용하여 글꼴 패밀리, 크기 및 스타일을 설정하세요.
+**Q: 바코드 텍스트에 사용자 정의 폰트를 적용할 수 있나요?**  
+A: 예, `BarcodeGenerator`의 `CodeTextParameters` 속성을 통해 텍스트 폰트를 커스터마이즈할 수 있습니다.
 
-**Q: Aspose.Words에 대한 도움을 어디서 받을 수 있나요?**  
-A: 커뮤니티 지원 및 공식 지원을 위해 [support forum](https://forum.aspose.com/c/words/8/)을 방문하세요.
+**Q: 문제가 발생하면 어디서 도움을 받을 수 있나요?**  
+A: Aspose 커뮤니티와 엔지니어가 활동하는 [support forum](https://forum.aspose.com/c/words/8/)을 방문하세요.
+
+## 결론
+
+위 단계들을 따라 하면 Aspose.Words for Java를 사용해 **사용자 정의 바코드** 이미지를 생성하고 **embed barcode in Word** 문서에 삽입하는 방법을 알게 됩니다. 이 기술은 재고 태그, 이벤트 티켓, 혹은 바코드가 포함된 문서가 필요한 모든 시나리오에 유연하게 적용할 수 있습니다. 다양한 바코드 유형과 스타일 옵션을 실험해 비즈니스 요구에 맞게 최적화해 보세요.
 
 ---
 
-**Last Updated:** 2026-02-09  
+**Last Updated:** 2025-12-10  
 **Tested With:** Aspose.Words for Java 24.12, Aspose.BarCode for Java 24.12  
 **Author:** Aspose  
 

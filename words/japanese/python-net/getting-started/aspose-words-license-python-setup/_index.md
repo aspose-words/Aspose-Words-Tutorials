@@ -5,7 +5,9 @@
 "url": "/ja/python-net/getting-started/aspose-words-license-python-setup/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # ファイルまたはストリームを使用して Python で Aspose.Words ライセンスを設定する方法
 
 ## 導入
@@ -197,3 +199,7 @@ Python で Aspose.Words を使用する場合:
 - [サポートフォーラム](https://forum.aspose.com/c/words/10)
 
 このガイドを読めば、PythonアプリケーションでAspose.Wordsを効果的に活用できるようになります。コーディングを楽しみましょう！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

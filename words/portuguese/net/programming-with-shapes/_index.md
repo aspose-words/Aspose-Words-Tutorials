@@ -33,7 +33,11 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | [Âncora vertical](./vertical-anchor/) | Aprenda a definir posições de ancoragem verticais para caixas de texto em documentos do Word usando o Aspose.Words para .NET. Guia passo a passo fácil incluído.|
 | [Detectar Forma de Arte Inteligente](./detect-smart-art-shape/) | Aprenda a detectar formas SmartArt em documentos do Word usando o Aspose.Words para .NET com este guia abrangente. Perfeito para automatizar seu fluxo de trabalho de documentos. |
 | [Atualizar desenho de arte inteligente](./update-smart-art-drawing/) | Aprenda a atualizar desenhos Smart Art em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. Garanta que seus visuais estejam sempre precisos. |
-
+| [Criar forma retangular no Word com Aspose.Words – Guia passo a passo](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Aprenda a criar uma forma retangular em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. |
+| [Criar documento Word com retângulo sombreado – Guia passo a passo](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aprenda a criar um documento Word com um retângulo sombreado usando o Aspose.Words para .NET neste guia passo a passo. |
+| [Criar forma retangular no Word usando C# – Guia passo a passo](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aprenda a criar uma forma retangular em documentos do Word usando C# com este guia passo a passo. |
+| [Tutorial de Sombra de Forma do Aspose.Words – Adicionar Sombra a Forma do Word em C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aprenda a adicionar sombra a formas em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. |
+| [Criar documento Word em branco com forma de retângulo sombreada – Guia passo a passo](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aprenda a criar um documento Word em branco com uma forma de retângulo sombreada usando o Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -5,7 +5,9 @@
 "url": "/vi/python-net/tables-lists/master-aspose-words-python-bookmarks-table-columns/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Làm chủ Aspose.Words trong Python: Chèn, Xóa và Quản lý Dấu trang & Cột Bảng hiệu quả
 ## Giới thiệu
 Quản lý hiệu quả các dấu trang và làm việc với các cột bảng có thể cải thiện đáng kể các tác vụ xử lý tài liệu của bạn bằng cách sử dụng thư viện Aspose.Words của Python. Hướng dẫn này sẽ hướng dẫn bạn cách chèn và xóa dấu trang hiệu quả, hiểu dấu trang cột bảng, khám phá các trường hợp sử dụng thực tế và xem xét các khía cạnh hiệu suất.
@@ -140,3 +142,7 @@ Việc thành thạo việc chèn, xóa và quản lý dấu trang bằng Aspose
    - Có, Aspose.Words hỗ trợ nhiều định dạng bao gồm DOCX và PDF.
 3. **Những hạn chế của dấu trang cột bảng là gì?**
    - Chúng chỉ có thể được sử dụng trong các bảng có các hàng và cột được xác định rõ ràng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
