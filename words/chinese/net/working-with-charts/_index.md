@@ -32,6 +32,8 @@ Aspose.Words for .NET 提供了一套强大的工具，用于处理 Word 文档�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="使用 Aspose.Words for .NET 在 Word 中插入简单柱形图" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="如何在 Word 中编辑图表：更改标签位置、字体及其他" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
