@@ -32,6 +32,8 @@
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="إدراج مخطط عمودي بسيط في Word باستخدام Aspose.Words لـ .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="كيفية تعديل المخطط في وورد: تغيير موضع التسمية، الخط والمزيد" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
