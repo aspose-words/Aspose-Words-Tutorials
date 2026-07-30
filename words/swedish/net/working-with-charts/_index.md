@@ -32,6 +32,8 @@ Fördjupa dig i våra kapslade sidor för att utforska specifika funktioner, ink
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Infoga ett enkelt kolumndiagram i Word med hjälp av Aspose.Words för .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Hur man redigerar diagram i Word: Ändra etikettposition, teckensnitt och mer" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
