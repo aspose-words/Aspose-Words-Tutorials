@@ -176,6 +176,12 @@ public class ConvertRTFToDOCX {
 - **Free Trial:** ทดลองโดยไม่มีข้อจำกัดด้วย [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** ประเมินด้วยชุดคุณลักษณะขยายผ่าน [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-14  
+**ทดสอบด้วย:** Aspose.Words 25.3 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +189,3 @@ public class ConvertRTFToDOCX {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-14  
-**ทดสอบด้วย:** Aspose.Words 25.3 for Java  
-**ผู้เขียน:** Aspose

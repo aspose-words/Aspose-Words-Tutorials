@@ -9,11 +9,7 @@ url: /th/java/document-conversion-and-export/using-office-math-objects/
 weight: 13
 ---
 
- "Precise control" etc. Keep bold formatting.
-
-Make sure we keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -102,19 +98,19 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 
 ## คำถามที่พบบ่อย
 
-**Q: What is the purpose of Office Math objects in Aspose.Words for Java?**  
-A: Office Math objects ให้คุณแสดงและจัดการสมการคณิตศาสตร์โดยโปรแกรม ทำให้คุณควบคุมการแสดงผลและรูปแบบได้อย่างเต็มที่.
+**ถาม: ออบเจ็กต์ Office Math ใน Aspose.Words สำหรับ Java มีจุดประสงค์อะไร**
+ตอบ: Office Math object ให้คุณแสดงและการจัดการสมการคณิตศาสตร์โดยโปรแกรม ให้คุณควบคุมและรูปแบบต่างๆ ได้
 
-**Q: Can I align Office Math equations differently within my document?**  
-A: ใช่, ใช้เมธอด `setJustification` เพื่อจัดตำแหน่งซ้าย, ขวา หรือกลาง.
+**ถาม: ฉันสามารถจัดแนวสมการ Office Math ให้แตกต่างออกไปภายในเอกสารของฉันได้หรือไม่**
+ตอบ: ทำได้ ใช้เมธอด `setJustification` เพื่อจัดตำแหน่งด้านซ้าย ถูกต้องหรือกลาง
 
-**Q: Is Aspose.Words for Java suitable for handling complex mathematical documents?**  
-A: แน่นอน. ไลบรารีนี้รองรับสมการซับซ้อน, เศษส่วนซ้อน, เมทริกซ์ และอื่น ๆ อย่างเต็มรูปแบบ.
+**ถาม: Aspose.Words สำหรับ Java เหมาะสำหรับการจัดการเอกสารทางคณิตศาสตร์ที่ซับซ้อนหรือไม่**
+A: แน่นอน. รองรับการรองรับนี้ของสมการเทรลเลอร์, คุณสมบัติของชั้นลอย, ความสามารถในการรับรู้เรื่องราวต่างๆ มากมาย
 
-**Q: How can I learn more about Aspose.Words for Java?**  
-A: สำหรับเอกสารและการดาวน์โหลดอย่างครบถ้วน ให้เยี่ยมชม [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+**ถาม: ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Words สำหรับ Java ได้อย่างไร**
+ตอบ: สำหรับเอกสารและการเก็บรักษาอย่างครบถ้วนไม่จำเป็นต้องมีอีกต่อไป [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
 
-**Q: Where can I download Aspose.Words for Java?**  
+**ถาม: ฉันจะดาวน์โหลด Aspose.Words สำหรับ Java ได้ที่ไหน** 
 A: คุณสามารถดาวน์โหลด Aspose.Words for Java ได้จากเว็บไซต์: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
 ---

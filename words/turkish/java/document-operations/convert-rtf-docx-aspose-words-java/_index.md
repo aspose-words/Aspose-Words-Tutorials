@@ -177,6 +177,12 @@ Büyük belgelerle çalışırken performansı optimize etmek için şu ipuçlar
 - **Ücretsiz Deneme:** Sınırsız deneme yapmak için [free trial version](https://releases.aspose.com/words/java/) adresini kullanın.  
 - **Geçici Lisans:** Genişletilmiş özellik setiyle değerlendirme yapmak için bir [temporary license](https://purchase.aspose.com/temporary-license/) alın.
 
+---
+
+**Son Güncelleme:** 2026-02-14  
+**Test Edilen Sürüm:** Aspose.Words 25.3 for Java  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Büyük belgelerle çalışırken performansı optimize etmek için şu ipuçlar
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-14  
-**Test Edilen Sürüm:** Aspose.Words 25.3 for Java  
-**Yazar:** Aspose

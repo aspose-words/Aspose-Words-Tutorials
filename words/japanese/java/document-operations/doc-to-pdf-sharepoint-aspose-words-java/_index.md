@@ -193,23 +193,6 @@ try {
 
 **Next Steps**: 高度な `PdfSaveOptions`（例：PDF/A 準拠、暗号化、透かしの追加）を検討し、出力を組織の基準に合わせてさらにカスタマイズしてください。
 
-## FAQ セクション
-
-1. **How do I install Aspose.Words for Java?**  
-   先ほど示した Maven/Gradle の依存関係を追加し、ビルドツールに JAR をダウンロードさせます。
-
-2. **Can I use this converter without a license?**  
-   無料トライアルは評価に使用できますが、製品環境では有効なライセンスが必要です。
-
-3. **What file formats does Aspose.Words support?**  
-   DOC、DOCX、RTF、WordML、HTML、MHTML、ODT など多数の形式をサポートしています。
-
-4. **How do I handle exceptions during conversion?**  
-   変換コードを try‑catch ブロックで囲み、示したように例外の詳細をログに記録します。
-
-5. **Is it possible to customize the PDF output?**  
-   はい – `PdfSaveOptions` を使用して準拠レベル、暗号化、画像品質などを設定できます。
-
 ## よくある質問
 
 **Q: Does this work on Linux servers?**  
@@ -230,6 +213,12 @@ A: `PdfSaveOptions.setCustomProperties()` を使用して、PDF のメタデー�
 ## リソース
 - [Aspose.Words ドキュメント](https://reference.aspose.com/words/java)
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A: `PdfSaveOptions.setCustomProperties()` を使用して、PDF のメタデー�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

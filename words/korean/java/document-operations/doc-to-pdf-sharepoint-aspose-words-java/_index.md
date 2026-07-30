@@ -193,23 +193,6 @@ try {
 
 **Next Steps**: 고급 `PdfSaveOptions`(예: PDF/A 준수, 암호화, 워터마크 추가 등)를 탐색하여 출력물을 조직의 표준에 맞게 더욱 맞춤화하세요.
 
-## FAQ 섹션
-
-1. **Aspose.Words for Java를 어떻게 설치하나요?**  
-   앞서 보여준 Maven/Gradle 종속성을 추가하고 빌드 도구가 JAR를 다운로드하도록 합니다.
-
-2. **라이선스 없이 이 변환기를 사용할 수 있나요?**  
-   무료 체험판으로 평가가 가능하지만, 프로덕션 사용에는 유효한 라이선스가 필요합니다.
-
-3. **Aspose.Words가 지원하는 파일 형식은 무엇인가요?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT 등 다수.
-
-4. **변환 중 예외를 어떻게 처리하나요?**  
-   변환 코드를 try‑catch 블록으로 감싸고 예시와 같이 예외 세부 정보를 로그에 기록합니다.
-
-5. **PDF 출력 맞춤이 가능한가요?**  
-   예 – `PdfSaveOptions`를 사용해 준수 수준, 암호화, 이미지 품질 등을 설정할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 이것이 Linux 서버에서 작동하나요?**  
@@ -230,6 +213,12 @@ A: `PdfSaveOptions.setCustomProperties()`를 사용해 PDF 메타데이터에 �
 ## 리소스
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**마지막 업데이트:** 2026-02-14  
+**테스트 대상:** Aspose.Words 25.3 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A: `PdfSaveOptions.setCustomProperties()`를 사용해 PDF 메타데이터에 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-14  
-**테스트 대상:** Aspose.Words 25.3 for Java  
-**작성자:** Aspose

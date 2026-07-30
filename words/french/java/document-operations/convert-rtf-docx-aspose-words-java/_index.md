@@ -181,6 +181,12 @@ Lorsque vous travaillez avec de gros documents, prenez en compte ces conseils po
 - **Essai gratuit :** Expérimentez sans limites avec la [version d’essai gratuit](https://releases.aspose.com/words/java/).  
 - **Licence temporaire :** Évaluez avec un ensemble de fonctionnalités étendu grâce à une [licence temporaire](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Dernière mise à jour :** 2026-02-14  
+**Testé avec :** Aspose.Words 25.3 for Java  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ Lorsque vous travaillez avec de gros documents, prenez en compte ces conseils po
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-02-14  
-**Testé avec :** Aspose.Words 25.3 for Java  
-**Auteur :** Aspose

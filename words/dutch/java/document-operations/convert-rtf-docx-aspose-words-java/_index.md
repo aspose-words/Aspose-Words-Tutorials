@@ -12,13 +12,7 @@ url: /nl/java/document-operations/convert-rtf-docx-aspose-words-java/
 weight: 1
 ---
 
- to keep markdown formatting (**bold**). Keep shortcodes unchanged.
-
-Now produce final content with all translations.
-
-Check we didn't miss any text: The shortcodes at top and bottom remain. Also the block for backtop button unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -184,6 +178,12 @@ Bij het werken met grote documenten, overweeg deze tips om de prestaties te opti
 - **Gratis proefversie:** Experimenteer zonder beperkingen met de [free trial version](https://releases.aspose.com/words/java/).  
 - **Tijdelijke licentie:** Evalueer met een uitgebreid functieset via een [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Laatst bijgewerkt:** 2026-02-14  
+**Getest met:** Aspose.Words 25.3 for Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +191,3 @@ Bij het werken met grote documenten, overweeg deze tips om de prestaties te opti
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-02-14  
-**Getest met:** Aspose.Words 25.3 for Java  
-**Auteur:** Aspose

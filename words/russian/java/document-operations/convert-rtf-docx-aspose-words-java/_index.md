@@ -177,6 +177,12 @@ public class ConvertRTFToDOCX {
 - **Free Trial:** Экспериментируйте без ограничений, используя [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** Оцените расширенный набор возможностей через [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ public class ConvertRTFToDOCX {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

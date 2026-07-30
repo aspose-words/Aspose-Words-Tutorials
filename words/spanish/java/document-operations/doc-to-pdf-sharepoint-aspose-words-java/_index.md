@@ -193,23 +193,6 @@ Ahora tienes una solución completa y lista para producción para **convert word
 
 **Próximos pasos**: Explora `PdfSaveOptions` avanzadas (p. ej., cumplimiento PDF/A, cifrado o agregar marcas de agua) para adaptar aún más la salida a los estándares de tu organización.
 
-## Sección de preguntas frecuentes
-
-1. **¿Cómo instalo Aspose.Words para Java?**  
-   Agrega la dependencia Maven/Gradle mostrada anteriormente y permite que tu herramienta de compilación descargue el JAR.
-
-2. **¿Puedo usar este convertidor sin una licencia?**  
-   Una prueba gratuita funciona para evaluación, pero se requiere una licencia válida para uso en producción.
-
-3. **¿Qué formatos de archivo admite Aspose.Words?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT y muchos más.
-
-4. **¿Cómo manejo excepciones durante la conversión?**  
-   Envuelve el código de conversión en un bloque try‑catch y registra los detalles de la excepción como se muestra.
-
-5. **¿Es posible personalizar la salida PDF?**  
-   Sí, usa `PdfSaveOptions` para establecer niveles de cumplimiento, cifrado, calidad de imagen y más.
-
 ## Preguntas frecuentes
 
 **P: ¿Esto funciona en servidores Linux?**  
@@ -230,6 +213,12 @@ R: Usa `PdfSaveOptions.setCustomProperties()` para agregar pares clave‑valor q
 ## Recursos
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ R: Usa `PdfSaveOptions.setCustomProperties()` para agregar pares clave‑valor q
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

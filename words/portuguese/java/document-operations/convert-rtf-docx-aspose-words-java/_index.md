@@ -180,6 +180,12 @@ Ao trabalhar com documentos grandes, considere estas dicas para otimizar o desem
 - **Teste Gratuito:** Experimente sem limites usando a [versão free trial](https://releases.aspose.com/words/java/).  
 - **Licença Temporária:** Avalie com um conjunto de recursos estendido através de uma [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Última Atualização:** 2026-02-14  
+**Testado com:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +193,3 @@ Ao trabalhar com documentos grandes, considere estas dicas para otimizar o desem
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-02-14  
-**Testado com:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose

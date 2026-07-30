@@ -193,23 +193,6 @@ try {
 
 **下一步**：探索進階的 `PdfSaveOptions`（例如 PDF/A 相容性、加密或加入浮水印），以進一步符合貴組織的標準。
 
-## 常見問題區段
-
-1. **如何安裝 Aspose.Words for Java？**  
-   如前所示加入 Maven/Gradle 相依性，讓建置工具下載 JAR。
-
-2. **我可以在沒有授權的情況下使用此轉換器嗎？**  
-   免費試用可用於評估，但正式使用需具有效授權。
-
-3. **Aspose.Words 支援哪些檔案格式？**  
-   DOC、DOCX、RTF、WordML、HTML、MHTML、ODT 等多種格式。
-
-4. **轉換過程中如何處理例外情況？**  
-   將轉換程式碼包在 try‑catch 區塊中，並依範例記錄例外細節。
-
-5. **可以自訂 PDF 輸出嗎？**  
-   可以 – 使用 `PdfSaveOptions` 設定相容性等級、加密、影像品質等。
-
 ## 常見問答
 
 **Q: 這在 Linux 伺服器上可用嗎？**  
@@ -227,6 +210,12 @@ A: 可以。使用 `PdfSaveOptions.setEncryptionDetails()` 設定使用者與擁
 **Q: 有辦法在 PDF 中嵌入自訂的中繼資料嗎？**  
 A: 使用 `PdfSaveOptions.setCustomProperties()` 新增鍵值對，會顯示於 PDF 的中繼資料中。
 
+---
+
+**最後更新：** 2026-02-14  
+**測試版本：** Aspose.Words 25.3 for Java  
+**作者：** Aspose
+
 ## 資源
 - [Aspose.Words 文件](https://reference.aspose.com/words/java)
 
@@ -237,9 +226,3 @@ A: 使用 `PdfSaveOptions.setCustomProperties()` 新增鍵值對，會顯示於 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-14  
-**測試版本：** Aspose.Words 25.3 for Java  
-**作者：** Aspose

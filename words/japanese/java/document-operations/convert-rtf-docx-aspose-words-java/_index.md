@@ -185,6 +185,12 @@ Aspose.Words for Java を活用することで、さまざまなシナリオで�
 - **無料体験:** [free trial version](https://releases.aspose.com/words/java/) を使用して制限なく試してください。  
 - **一時ライセンス:** [temporary license](https://purchase.aspose.com/temporary-license/) を通じて拡張機能セットで評価してください。
 
+---
+
+**最終更新日:** 2026-02-14  
+**テスト環境:** Aspose.Words 25.3 for Java  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Aspose.Words for Java を活用することで、さまざまなシナリオで�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-14  
-**テスト環境:** Aspose.Words 25.3 for Java  
-**作者:** Aspose

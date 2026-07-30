@@ -18,7 +18,7 @@ weight: 13
 
 この包括的なチュートリアルでは、Aspose.Words for Java の Office Math オブジェクトを使用して **インラインで数式を表示** する方法を学びます。レポートに **数式を挿入** したり、複雑な式の書式設定を微調整したりする必要がある場合でも、Word 文書の読み込みから最終結果の保存まで、すべての手順を丁寧に解説します。
 
-## Quick Answers
+## クイック回答
 - **「インラインで数式を表示する」とはどういう意味ですか？** 数式がテキストの流れの中に表示され、別行になりません。  
 - **数式オブジェクトを表すクラスはどれですか？** Aspose.Words API の `OfficeMath`。  
 - **配置を変更できますか？** はい、`setJustification` に LEFT、CENTER、または RIGHT を指定します。  
@@ -40,23 +40,23 @@ weight: 13
 - 既に Office Math 数式が含まれている Word ファイル（例: `OfficeMath.docx`）。  
 - 評価モード以外で実行する場合は有効なライセンスを用意すること。
 
-## Step‑by‑Step Guide
+## ステップバイステップガイド
 
-### Load the Document
+### ドキュメントの読み込み
 まず、操作対象となる Office Math 数式が含まれる文書を読み込みます：
 
 ```java
 Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```
 
-### Access the Office Math Object
+### Office Math オブジェクトへのアクセス
 文書から最初の Office Math ノードを取得します：
 
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
 
-### Set Display Type (Inline vs. Display)
+### 表示タイプの設定（インライン表示またはディスプレイ表示）
 数式をテキストと同じ行に表示するか、別行に表示するかを制御します。**インラインで数式を表示** する場合は `INLINE` 列挙体を、別行にしたい場合は `DISPLAY` を使用します：
 
 ```java
@@ -65,21 +65,21 @@ officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
 
 *数式をインラインのままにしたい場合は、`DISPLAY` を `INLINE` に置き換えてください。*
 
-### Set Justification
+### 配置の設定
 数式の配置を調整します。以下の例では左揃えにしていますが、`CENTER` や `RIGHT` も選択可能です：
 
 ```java
 officeMath.setJustification(OfficeMathJustification.LEFT);
 ```
 
-### Save the Modified Document
+### 変更したドキュメントの保存
 変更を新しいファイルに書き出して完了です：
 
 ```java
 doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
 ```
 
-## Complete Source Code for Using Office Math Objects in Aspose.Words for Java
+## Aspose.Words for Java で Office Math オブジェクトを使用するための完全なソースコード
 
 ```java
         Document doc = new Document("Your Directory Path" + "Office math.docx");
@@ -90,12 +90,12 @@ doc.save("Your Directory Path" + "ModifiedOfficeMath.docx");
         doc.save("Your Directory Path" + "WorkingWithOfficeMath.MathEquations.docx");
 ```
 
-## Common Issues & Troubleshooting
+## よくある問題とトラブルシューティング
 - **数式が見つからない:** 文書に実際に Office Math オブジェクトが含まれているか確認してください。存在しない場合、`doc.getChild` は `null` を返します。  
 - **表示タイプが反映されない:** 使用している Aspose.Words のバージョンが古い可能性があります。`OfficeMathDisplayType` のサポートは比較的新しいリリースで追加されています。  
 - **ライセンス例外:** ライセンスエラーが出たら、`Document` インスタンスを作成する前にライセンスファイルが正しくロードされているか再確認してください。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.Words for Java の Office Math オブジェクトの目的は何ですか？**  
 A: Office Math オブジェクトを使用すると、数式をプログラムから表現・操作でき、表示や書式設定を完全にコントロールできます。

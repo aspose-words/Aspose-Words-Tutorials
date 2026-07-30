@@ -94,26 +94,26 @@ Aspose.Words.License wordsLicense = new Aspose.Words.License();
 wordsLicense.setLicense("Aspose.Total.lic");
 ```
 
-### Basic Initialization
+### การเริ่มต้นขั้นพื้นฐาน
 
-เมื่อได้ไลเซนส์แล้ว คุณสามารถโหลดเอกสาร Word และบันทึกเป็น PDF ด้วย `PdfSaveOptions` ขั้นตอนง่าย ๆ นี้เป็นแกนหลักของกระบวนการ **convert word to pdf**  
+ได้ไลเซนส์แล้วไม่เคยโหลดเอกสาร Word และบันทึกเป็น PDF ด้วย `PdfSaveOptions` ทั้งหมดนี้ง่าย ๆ นี่คือแกนหลักของโปรแกรม **แปลงคำเป็น pdf**
 
-## Implementation Guide
+## คู่มือการใช้งาน
 
-เราจะแบ่งการทำงานเป็นขั้นตอนที่ชัดเจนและเป็นลำดับเลข คุณสามารถคัดลอก snippet ลงใน IDE ของคุณได้ทันทีและพร้อมรัน  
+ส่วนการแบ่งการทำงานเป็นขั้นตอนที่ละเอียดมากขึ้นและมีจำนวนมากใน snippet ใน IDE ของคุณได้ทันทีและพร้อมรัน
 
-### 1. Parse Command‑Line Arguments (parse command line java)
+### 1. แยกอาร์กิวเมนต์บรรทัดคำสั่งแยกวิเคราะห์ (จาวาบรรทัดคำสั่งแยกวิเคราะห์)
 
-การจัดการอาร์กิวเมนต์บรรทัดคำสั่งทำให้คุณระบุไฟล์เข้าและไฟล์ออกโดยไม่ต้องคอมไพล์ใหม่
+นอกจากนี้อาร์กิวเมนต์บรรทัดจะต้องระบุไฟล์เข้าและไฟล์ออกมาพร้อมกับคอมไพล์ใหม่
 
-#### Global Variables
+#### ตัวแปรร่วม
 ```java
 private static String gInFileName;
 private static String gOutFileName;
 private static Writer gLog;
 ```
 
-#### Argument Parser
+#### ตัวแยกวิเคราะห์อาร์กิวเมนต์
 ```java
 private static void parseCommandLine(final String[] args) throws Exception {
     int i = 0;
@@ -140,27 +140,27 @@ private static void parseCommandLine(final String[] args) throws Exception {
 }
 ```
 
-### 2. Perform the DOC‑to‑PDF Conversion (convert doc to pdf java)
+### 2. ดำเนินการแปลงเอกสาร DOC เป็น PDF (แปลง doc เป็น pdf ด้วย Java)
 
-#### Load the Document
+#### โหลดเอกสาร
 ```java
 Document doc = new Document(gInFileName);
 ```
 
-#### Save as PDF (docx to pdf java)
+#### บันทึกเป็น PDF (แปลง docx เป็น pdf ด้วย Java)
 ```java
 doc.save(gOutFileName, new PdfSaveOptions());
 ```
 
-### 3. Set Up Logging (aspose words pdf conversion)
+### 3. ตั้งค่าการบันทึกข้อมูล (การแปลง Word เป็น PDF ด้วย Aspose)
 
-#### Initialize Log Writer
+#### เริ่มต้นใช้งาน Log Writer
 ```java
 OutputStream os = new FileOutputStream("C:\\Aspose2Pdf\\log.txt", true);
 gLog = new OutputStreamWriter(os, StandardCharsets.UTF_8);
 ```
 
-#### Write Logs
+#### เขียนบันทึกข้อมูล
 ```java
 try {
     gLog.write(new Date().toString() + " Started");
@@ -193,24 +193,7 @@ try {
 
 **ขั้นตอนต่อไป**: สำรวจ `PdfSaveOptions` ขั้นสูง (เช่น การปฏิบัติตาม PDF/A, การเข้ารหัส, หรือการเพิ่มวอเตอร์มาร์ค) เพื่อปรับแต่งผลลัพธ์ให้สอดคล้องกับมาตรฐานขององค์กรคุณ  
 
-## FAQ Section
-
-1. **วิธีติดตั้ง Aspose.Words for Java?**  
-   เพิ่ม dependency ของ Maven/Gradle ตามที่แสดงไว้ข้างต้นและให้เครื่องมือสร้างดาวน์โหลด JAR  
-
-2. **สามารถใช้ตัวแปลงนี้โดยไม่มีไลเซนส์ได้หรือไม่?**  
-   การทดลองใช้ฟรีทำงานสำหรับการประเมินผล, แต่ต้องมีไลเซนส์ที่ถูกต้องสำหรับการใช้งานในโปรดักชัน  
-
-3. **Aspose.Words รองรับฟอร์แมตไฟล์อะไรบ้าง?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT และอื่น ๆ อีกหลายรูปแบบ  
-
-4. **จะจัดการข้อยกเว้นระหว่างการแปลงอย่างไร?**  
-   ห่อโค้ดการแปลงด้วยบล็อก try‑catch และบันทึกรายละเอียดของข้อยกเว้นตามที่แสดง  
-
-5. **สามารถปรับแต่งผลลัพธ์ PDF ได้หรือไม่?**  
-   ได้ – ใช้ `PdfSaveOptions` เพื่อกำหนดระดับการปฏิบัติตาม, การเข้ารหัส, คุณภาพภาพ ฯลฯ  
-
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
 **Q: ทำงานบนเซิร์ฟเวอร์ Linux ได้หรือไม่?**  
 A: แน่นอน Aspose.Words for Java เป็นแพลตฟอร์มอิสระและทำงานบน OS ใดก็ได้ที่มี JVM ที่รองรับ  
@@ -230,6 +213,12 @@ A: ใช้ `PdfSaveOptions.setCustomProperties()` เพื่อเพิ่�
 ## Resources
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**อัปเดตล่าสุด:** 2026-02-14  
+**ทดสอบกับ:** Aspose.Words 25.3 for Java  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A: ใช้ `PdfSaveOptions.setCustomProperties()` เพื่อเพิ่�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-14  
-**ทดสอบกับ:** Aspose.Words 25.3 for Java  
-**ผู้เขียน:** Aspose

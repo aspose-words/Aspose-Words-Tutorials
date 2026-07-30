@@ -177,6 +177,12 @@ Quando lavori con documenti di grandi dimensioni, considera questi consigli per 
 - **Prova gratuita:** Sperimenta senza limiti usando la [free trial version](https://releases.aspose.com/words/java/).  
 - **Licenza temporanea:** Valuta con un set di funzionalità esteso tramite una [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Quando lavori con documenti di grandi dimensioni, considera questi consigli per 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

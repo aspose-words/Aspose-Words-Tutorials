@@ -177,6 +177,12 @@ Saat bekerja dengan dokumen besar, pertimbangkan tips berikut untuk mengoptimalk
 - **Free Trial:** Bereksperimen tanpa batas menggunakan [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** Evaluasi dengan set fitur yang diperluas melalui [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Terakhir Diperbarui:** 2026-02-14  
+**Diuji Dengan:** Aspose.Words 25.3 untuk Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Saat bekerja dengan dokumen besar, pertimbangkan tips berikut untuk mengoptimalk
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-14  
-**Diuji Dengan:** Aspose.Words 25.3 untuk Java  
-**Penulis:** Aspose

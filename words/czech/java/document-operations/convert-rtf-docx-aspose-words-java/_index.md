@@ -11,13 +11,7 @@ url: /cs/java/document-operations/convert-rtf-docx-aspose-words-java/
 weight: 1
 ---
 
-no s:** Aspose.Words 25.3 for Java"
-
-**Author:** Aspose -> "**Autor:** Aspose"
-
-Now ensure all markdown formatting preserved.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -185,6 +179,12 @@ When working with large documents, consider these tips to optimize performance:
 - **Free Trial:** Experimentujte bez omezení pomocí [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** Vyzkoušejte rozšířenou sadu funkcí pomocí [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Poslední aktualizace:** 2026-02-14  
+**Testováno s:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +192,3 @@ When working with large documents, consider these tips to optimize performance:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-14  
-**Testováno s:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose

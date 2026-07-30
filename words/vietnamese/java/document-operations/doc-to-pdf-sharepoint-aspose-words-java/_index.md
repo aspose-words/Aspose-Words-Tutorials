@@ -19,48 +19,45 @@ weight: 1
 
 # Chuyển đổi Word sang PDF trong SharePoint bằng Aspose.Words cho Java
 
-## Introduction
+## การแนะนำ
 
-Trong thế giới kỹ thuật số ngày nay, các doanh nghiệp cần một cách đáng tin cậy để **convert word to pdf** sao cho tài liệu hiển thị nhất quán trên các thiết bị và nền tảng. Dù bạn đang xây dựng một quy trình công việc tùy chỉnh cho SharePoint hay một dịch vụ xử lý hàng loạt, Aspose.Words cho Java giúp việc chuyển đổi nhanh chóng, chính xác và dễ tích hợp. Hướng dẫn này sẽ đưa bạn qua mọi thứ cần thiết — từ cài đặt thư viện đến xử lý đối số dòng lệnh và ghi log — để bạn có thể tự động chuyển đổi Word‑to‑PDF trong SharePoint một cách tự tin.
+Trong thế giới kỹ thuaguet số ngày nay, các doanh nghiếp cần một cách đáng tin cếy để **convert word to pdf** sao cho tài liếu hiển thị nhất quán trên các thiết bị và nền tảng. Dù bn đang xây dựng một quy trình công viếc tùy chỉnh cho SharePoint hay một dịch vụ xử lý hàng loát, Aspose.Words cho Java giúp viếc chuyển đổi nhanh chóng, chính xác và dễ tích hợp. Hướng dẫn nay sẽ đẽ đến xử lý đối số dòng lếnh và ghi log — để bạn có คุณสามารถดาวน์โหลด Word-to-PDF จาก SharePoint ได้เลย
 
-**What You’ll Learn**
-- Cách thêm phụ thuộc Aspose.Words cho Java vào dự án của bạn.  
-- Các bước chính xác để **convert word to pdf** bằng mã Java.  
-- Cách phân tích các đối số dòng lệnh để nhập/xuất tệp linh hoạt.  
-- Cài đặt hệ thống ghi log mạnh mẽ để khắc phục sự cố.  
+**สิ่งที่คุณจะได้เรียนรู้**
+- Cách thêm phụ thuộc Aspose.Words cho Java vào dự án của bạn.
+- Các bước chính xác để **แปลงคำเป็น pdf** bằng mã Java
+- Cách phân tích các đối số dòng lếnh để nhếp/xuất tếp linh hoÅt.
+- Cài đặt hế thống ghi log manh mẽ để khắc phục sự cố.
 - Áp dụng giấy phép để mở khóa đầy đủ tính năng.
 
-## Quick Answers
-- **What library should I use?** Aspose.Words for Java.  
-- **Can I run this inside SharePoint?** Có – cùng mã Java hoạt động trong bất kỳ dịch vụ Java được lưu trữ trên SharePoint nào.  
-- **Do I need a license?** Cần giấy phép? Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Which Java versions are supported?** Java 8+ (including Java 11 and later).  
-- **Is command‑line parsing required?** Có cần phân tích dòng lệnh không? Tùy chọn nhưng hữu ích cho các công việc batch.
+## คำตอบด่วน
+- **ฉันควรใช้ไลบรารีใด** Aspose.Words สำหรับ Java
+- **ฉันสามารถเรียกใช้สิ่งนี้ภายใน SharePoint ได้หรือไม่** Có – cùng mã Java hoát động trong bất kỳ dịch vụ Java đợc lŻu trữ trên SharePoint nào.
+- **Do I need a License?** Can giấy phép? Bản dùng thử miễn phí hoết động cho viếc thử nghiếm; giấy phép thương mái cần thiết cho môi trâờng sản xuất.
+- **รองรับ Java เวอร์ชันใดบ้าง** Java8+ (รวมถึง Java11 และใหม่กว่า)
+- **จำเป็นต้องแยกวิเคราะห์บรรทัดคำสั่งหรือไม่** Có cần phân tích dòng lếnh không? Tùy chọn nhhung hữu ích cho các công viếc ชุด.
 
-## What is “convert word to pdf”?
+## “แปลงคำเป็น pdf” คืออะไร?
 
-Chuyển đổi Word sang PDF là gì
+Chuyển đổi một tài liếu Word (DOC hoặc DOCX) sang PDF tếo ra một tếp bố cục cố định, bảo toàn phông chữ, hình đnh nh và định duang. PDF có thể xem, in và bảo mât trên mọi nền tảng, làm cho nó trở thành định dếng Żu tiên cho lưu trữ, chia sẻ và tuân thủ.
 
-Chuyển đổi một tài liệu Word (DOC hoặc DOCX) sang PDF tạo ra một tệp bố cục cố định, bảo toàn phông chữ, hình ảnh và định dạng. PDF có thể xem, in và bảo mật trên mọi nền tảng, làm cho nó trở thành định dạng ưu tiên cho lưu trữ, chia sẻ và tuân thủ.
+## เหตุใดจึงต้องใช้ Aspose.Words สำหรับ Java
 
-## Why use Aspose.Words for Java?
+- **ความเที่ยงตรงสูง** – เจาะจง – đầu ra PDF โดยสมบูรณ์.
+- **ไม่มีการพึ่งพา Microsoft Office** – ใช้งานได้กับ Microsoft Office – ใช้คอนเทนเนอร์ Linux เพียงอย่างเดียว
+- **Rich API** – API phong phú – cung cấp kiểm soát chi tiết các cài đặt PDF, ลายน้ำ, ยังไงซะ, อย่างไร?
+- **Scalable** – Khả năng mở rộng – phù hợp cho chuyển đổi tếp đơn hoặc các công viếc batt quy mô lớn.
 
-- **High fidelity** – Độ trung thực cao – đầu ra PDF phản chiếu bố cục Word gốc một cách pixel‑perfect.  
-- **No Microsoft Office dependency** – Không phụ thuộc vào Microsoft Office – hoạt động trên bất kỳ máy chủ nào, kể cả container Linux không giao diện.  
-- **Rich API** – API phong phú – cung cấp kiểm soát chi tiết các cài đặt PDF, watermark, mã hoá, và hơn thế nữa.  
-- **Scalable** – Khả năng mở rộng – phù hợp cho chuyển đổi tệp đơn hoặc các công việc batch quy mô lớn.
+## ข้อกำหนดเบื้องต้น
 
-## Prerequisites
 
-Yêu cầu trước
+- ระบบปฏิบัติการ Java8+ (IntelliJ IDEA, Eclipse, VSCode)
+- คุณสามารถเลือก SharePoint ได้จากทุกที่
+- Kiến thức căn về Java I/O và xử lý ngoái lế.
 
-- Môi trường phát triển Java 8+ (IntelliJ IDEA, Eclipse, hoặc VS Code).  
-- Quyền truy cập vào máy chủ SharePoint nếu bạn dự định triển khai công cụ ở đó.  
-- Kiến thức cơ bản về Java I/O và xử lý ngoại lệ.  
+### ไลบรารี เวอร์ชัน และการขึ้นต่อกันที่จำเป็น
 
-### Required Libraries, Versions, and Dependencies
-
-Add the Aspose.Words dependency using Maven or Gradle:
+เพิ่มการพึ่งพา Aspose.Words โดยใช้ Maven หรือ Gradle:
 
 ```xml
 <dependency>
@@ -74,17 +71,13 @@ Add the Aspose.Words dependency using Maven or Gradle:
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-## Setting Up Aspose.Words
+## Thiết lập Aspose.Words
 
-### Dependency Installation
+### Cài đặt phụ thuộc
 
-Cài đặt phụ thuộc
+Đảm bảo đoạn mã Maven/Gradle ở trên đã có trong `pom.xml` hoặc `build.gradle`. Sau khi tạo Maven mới hoặc đồng bộ Gradle, JAR `aspose-words` sẽ có trong classpath của bạn.
 
-Đảm bảo đoạn mã Maven/Gradle ở trên đã có trong `pom.xml` hoặc `build.gradle`. Sau khi làm mới Maven hoặc đồng bộ Gradle, JAR `aspose-words` sẽ có trong classpath của bạn.
-
-### License Acquisition Steps
-
-Các bước lấy giấy phép
+### Các bước mua giấy phép
 
 - **Free Trial** – Bản dùng thử miễn phí – đầy đủ tính năng, không giới hạn thời gian trong quá trình đánh giá.  
 - **Temporary License** – Giấy phép tạm thời – giấy phép ngắn hạn để thử nghiệm trong môi trường gần như sản xuất.  
@@ -98,32 +91,28 @@ Aspose.Words.License wordsLicense = new Aspose.Words.License();
 wordsLicense.setLicense("Aspose.Total.lic");
 ```
 
-### Basic Initialization
+### Khởi tạo cơ bản
 
-Khởi tạo cơ bản
+Sau khi được phép, bạn có thể tải tài liệu Word và lưu dưới dạng PDF bằng `PdfSaveOptions`. Bước đơn giản này là cốt lõi của quy trình **chuyển đổi word sang pdf**.
 
-Sau khi có giấy phép, bạn có thể tải tài liệu Word và lưu dưới dạng PDF bằng `PdfSaveOptions`. Bước đơn giản này là cốt lõi của quy trình **convert word to pdf**.
+## Hướng dẫn thực hiện
 
-## Implementation Guide
+Khai báo hướng dẫn phát triển
 
-Hướng dẫn triển khai
+Chúng tôi sẽ chia sẻ quá trình phát triển các thành phần rõ ràng, rõ ràng. Bạn có thể sao chép đoạn mã vào IDE; chúng đã sẵn sàng để chạy.
 
-Chúng tôi sẽ chia quá trình triển khai thành các bước rõ ràng, đánh số. Bạn có thể sao chép các đoạn mã vào IDE; chúng đã sẵn sàng để chạy.
+### 1. Phân tích đối số dòng lệnh (phân tích dòng lệnh java)
 
-### 1. Parse Command‑Line Arguments (parse command line java)
+Xử lý lệnh dòng đối số cho phép bạn chỉ định tệp đầu vào và đầu ra mà không cần phải biên dịch lại.
 
-1. Phân tích đối số dòng lệnh (parse command line java)
-
-Xử lý đối số dòng lệnh cho phép bạn chỉ định tệp đầu vào và đầu ra mà không cần biên dịch lại.
-
-#### Global Variables
+#### Biến toàn cục
 ```java
 private static String gInFileName;
 private static String gOutFileName;
 private static Writer gLog;
 ```
 
-#### Argument Parser
+#### Trình phân tích đối số
 ```java
 private static void parseCommandLine(final String[] args) throws Exception {
     int i = 0;
@@ -150,31 +139,27 @@ private static void parseCommandLine(final String[] args) throws Exception {
 }
 ```
 
-### 2. Perform the DOC‑to‑PDF Conversion (convert doc to pdf java)
+### 2. Thực hiện chuyển đổi DOC sang PDF (chuyển đổi doc sang pdf bằng Java)
 
-2. Thực hiện chuyển đổi DOC sang PDF (convert doc to pdf java)
-
-#### Load the Document
+#### Tải tài liệu
 ```java
 Document doc = new Document(gInFileName);
 ```
 
-#### Save as PDF (docx to pdf java)
+#### Lưu dưới dạng PDF (chuyển đổi docx sang pdf bằng Java)
 ```java
 doc.save(gOutFileName, new PdfSaveOptions());
 ```
 
-### 3. Set Up Logging (aspose words pdf conversion)
+### 3. Thiết lập ghi nhật ký (chuyển đổi aspose words sang pdf)
 
-3. Cài đặt ghi log (aspose words pdf conversion)
-
-#### Initialize Log Writer
+#### Khởi tạo trình ghi nhật ký
 ```java
 OutputStream os = new FileOutputStream("C:\\Aspose2Pdf\\log.txt", true);
 gLog = new OutputStreamWriter(os, StandardCharsets.UTF_8);
 ```
 
-#### Write Logs
+#### Ghi nhật ký
 ```java
 try {
     gLog.write(new Date().toString() + " Started");
@@ -187,9 +172,7 @@ try {
 }
 ```
 
-## Practical Applications
-
-Ứng dụng thực tiễn
+## Ứng dụng thực tiễn
 
 Dưới đây là ba kịch bản phổ biến mà **convert word to pdf** tỏa sáng:
 
@@ -197,49 +180,19 @@ Dưới đây là ba kịch bản phổ biến mà **convert word to pdf** tỏa
 2. **Content Management Systems** – **Hệ thống quản lý nội dung** – Cho phép người dùng tải lên tệp DOC/DOCX; tự động tạo bản xem trước PDF cho trình duyệt.  
 3. **Collaborative Platforms (SharePoint)** – **Nền tảng cộng tác (SharePoint)** – Đảm bảo mỗi tài liệu trong thư viện SharePoint có bản PDF tương ứng cho các quy trình downstream.
 
-## Performance Considerations
-
-Xem xét hiệu năng
+## Xem xét hiệu năng
 
 - **Batch Processing** – **Xử lý batch** – Lặp qua danh sách tệp để giảm chi phí khởi động JVM.  
 - **Resource Monitoring** – **Giám sát tài nguyên** – Theo dõi CPU và bộ nhớ heap; Aspose.Words tiết kiệm bộ nhớ nhưng tài liệu lớn vẫn có thể nặng.  
 - **Asynchronous Execution** – **Thực thi bất đồng bộ** – Sử dụng `CompletableFuture` của Java hoặc hàng đợi tin nhắn để xử lý tệp mà không chặn luồng chính.
 
-## Conclusion
-
-Kết luận
+## Kết luận
 
 Bạn đã có một giải pháp hoàn chỉnh, sẵn sàng cho sản xuất để **convert word to pdf** trong SharePoint bằng Aspose.Words cho Java. Bằng cách làm theo các bước trên, bạn có thể tự động chuyển đổi tài liệu, cải thiện khả năng tương thích và tối ưu hoá quy trình quản lý nội dung.
 
 **Next Steps**: **Bước tiếp theo**: Khám phá `PdfSaveOptions` nâng cao (ví dụ, tuân thủ PDF/A, mã hoá, hoặc thêm watermark) để tùy chỉnh đầu ra phù hợp hơn với tiêu chuẩn của tổ chức bạn.
 
-## FAQ Section
-
-Mục FAQ
-
-1. **How do I install Aspose.Words for Java?**  
-   **Làm thế nào để cài đặt Aspose.Words cho Java?**  
-   Thêm phụ thuộc Maven/Gradle như đã trình bày ở trên và để công cụ xây dựng của bạn tải về JAR.
-
-2. **Can I use this converter without a license?**  
-   **Tôi có thể sử dụng bộ chuyển đổi này mà không có giấy phép không?**  
-   Bản dùng thử miễn phí hoạt động cho việc đánh giá, nhưng giấy phép hợp lệ cần thiết cho môi trường sản xuất.
-
-3. **What file formats does Aspose.Words support?**  
-   **Aspose.Words hỗ trợ những định dạng tệp nào?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT và nhiều hơn nữa.
-
-4. **How do I handle exceptions during conversion?**  
-   **Làm thế nào để xử lý ngoại lệ trong quá trình chuyển đổi?**  
-   Bao quanh mã chuyển đổi bằng khối try‑catch và ghi lại chi tiết ngoại lệ như đã minh họa.
-
-5. **Is it possible to customize the PDF output?**  
-   **Có thể tùy chỉnh đầu ra PDF không?**  
-   Có – sử dụng `PdfSaveOptions` để đặt mức tuân thủ, mã hoá, chất lượng hình ảnh, và hơn thế nữa.
-
-## Frequently Asked Questions
-
-Câu hỏi thường gặp
+## Câu hỏi thường gặp
 
 **Q: Does this work on Linux servers?**  
 **H: Điều này có hoạt động trên máy chủ Linux không?**  
@@ -264,6 +217,12 @@ Câu hỏi thường gặp
 ## Resources
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Last Updated:** **Cập nhật lần cuối:** 2026-02-14  
+**Tested With:** **Kiểm tra với:** Aspose.Words 25.3 for Java  
+**Author:** **Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -271,9 +230,3 @@ Câu hỏi thường gặp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** **Cập nhật lần cuối:** 2026-02-14  
-**Tested With:** **Kiểm tra với:** Aspose.Words 25.3 for Java  
-**Author:** **Tác giả:** Aspose

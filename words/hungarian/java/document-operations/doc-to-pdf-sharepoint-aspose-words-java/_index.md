@@ -194,23 +194,6 @@ Most már egy komplett, termelésre kész megoldással rendelkezel a **convert w
 
 **Következő lépések**: Fedezd fel a fejlett `PdfSaveOptions` beállításokat (pl. PDF/A megfelelőség, titkosítás vagy vízjelek hozzáadása), hogy tovább testre szabd a kimenetet szervezeted szabványai szerint.
 
-## Gyakran Ismételt Kérdések
-
-1. **Hogyan telepítem az Aspose.Words for Java‑t?**  
-   Add hozzá a korábban bemutatott Maven/Gradle függőséget, és hagyd, hogy a build eszköz letöltse a JAR‑t.
-
-2. **Használhatom a konvertálót licenc nélkül?**  
-   Az ingyenes próba a kiértékeléshez elegendő, de a termeléshez érvényes licenc szükséges.
-
-3. **Milyen fájlformátumokat támogat az Aspose.Words?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT és még sok más.
-
-4. **Hogyan kezelem a kivételeket a konverzió során?**  
-   Tekerd be a konverziós kódot egy try‑catch blokkba, és naplózd a kivétel részleteit a bemutatott módon.
-
-5. **Testreszabható a PDF kimenet?**  
-   Igen – a `PdfSaveOptions` segítségével beállíthatod a megfelelőségi szinteket, titkosítást, képek minőségét és egyebeket.
-
 ## Frequently Asked Questions
 
 **Q: Működik ez Linux szervereken?**  
@@ -231,6 +214,12 @@ A: Használd a `PdfSaveOptions.setCustomProperties()`‑t kulcs‑érték párok
 ## Források
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,9 +227,3 @@ A: Használd a `PdfSaveOptions.setCustomProperties()`‑t kulcs‑érték párok
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

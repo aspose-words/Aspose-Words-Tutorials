@@ -11,7 +11,7 @@ url: /hi/java/document-operations/convert-rtf-docx-aspose-words-java/
 weight: 1
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -180,6 +180,12 @@ When working with large documents, consider these tips to optimize performance:
 - **Free Trial:** सीमाओं के बिना प्रयोग करने के लिए [free trial version](https://releases.aspose.com/words/java/) का उपयोग करें।  
 - **Temporary License:** विस्तारित फीचर सेट के साथ मूल्यांकन करने के लिए एक [temporary license](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +193,3 @@ When working with large documents, consider these tips to optimize performance:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

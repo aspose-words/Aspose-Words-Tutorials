@@ -10,8 +10,6 @@ url: /zh-hant/java/document-operations/convert-rtf-docx-aspose-words-java/
 weight: 1
 ---
 
- unchanged parts.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -186,6 +184,12 @@ public class ConvertRTFToDOCX {
 - **Free Trial:** 使用 [free trial version](https://releases.aspose.com/words/java/) 盡情試驗。  
 - **Temporary License:** 透過 [temporary license](https://purchase.aspose.com/temporary-license/) 進行延伸功能的評估。
 
+---
+
+**最後更新：** 2026-02-14  
+**測試環境：** Aspose.Words 25.3 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +197,3 @@ public class ConvertRTFToDOCX {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-14  
-**測試環境：** Aspose.Words 25.3 for Java  
-**作者：** Aspose

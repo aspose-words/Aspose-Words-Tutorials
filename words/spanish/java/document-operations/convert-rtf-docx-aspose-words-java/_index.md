@@ -177,6 +177,12 @@ Al trabajar con documentos grandes, ten en cuenta estos consejos para optimizar 
 - **Free Trial:** Experiment without limits using the [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** Evaluate with an extended feature set through a [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -184,9 +190,3 @@ Al trabajar con documentos grandes, ten en cuenta estos consejos para optimizar 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

@@ -193,23 +193,6 @@ Artık Aspose.Words for Java kullanarak SharePoint içinde **convert word to pdf
 
 **Sonraki Adımlar**: Çıktıyı kuruluşunuzun standartlarına daha uygun hâle getirmek için gelişmiş `PdfSaveOptions` (ör. PDF/A uyumluluğu, şifreleme veya filigran ekleme) keşfedin.
 
-## SSS Bölümü
-
-1. **Aspose.Words for Java nasıl kurulur?**  
-   Yukarıda gösterilen Maven/Gradle bağımlılığını ekleyin ve derleme aracınızın JAR'ı indirmesine izin verin.
-
-2. **Bu dönüştürücüyü lisans olmadan kullanabilir miyim?**  
-   Ücretsiz deneme değerlendirme için çalışır, ancak üretim kullanımı için geçerli bir lisans gerekir.
-
-3. **Aspose.Words hangi dosya formatlarını destekliyor?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT ve daha fazlası.
-
-4. **Dönüşüm sırasında istisnaları nasıl ele alırım?**  
-   Dönüşüm kodunu bir try‑catch bloğuna sarın ve istisna ayrıntılarını gösterildiği gibi günlüğe kaydedin.
-
-5. **PDF çıktısını özelleştirmek mümkün mü?**  
-   Evet – uyumluluk seviyelerini, şifrelemeyi, görüntü kalitesini ve daha fazlasını ayarlamak için `PdfSaveOptions` kullanın.
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu Linux sunucularda çalışır mı?**  
@@ -230,6 +213,12 @@ C: PDF'in meta verilerinde görünen anahtar‑değer çiftlerini eklemek için 
 ## Kaynaklar
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ C: PDF'in meta verilerinde görünen anahtar‑değer çiftlerini eklemek için 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

@@ -194,23 +194,6 @@ Masz teraz kompletną, gotową do wdrożenia rozwiązanie do **konwersji word do
 
 **Kolejne kroki**: Zapoznaj się z zaawansowanymi opcjami `PdfSaveOptions` (np. zgodność PDF/A, szyfrowanie, dodawanie znaków wodnych), aby jeszcze lepiej dopasować wynik do standardów Twojej organizacji.
 
-## Sekcja FAQ
-
-1. **Jak zainstalować Aspose.Words dla Javy?**  
-   Dodaj zależność Maven/Gradle przedstawioną wcześniej i pozwól narzędziu budującemu pobrać plik JAR.
-
-2. **Czy mogę używać tego konwertera bez licencji?**  
-   Darmowa wersja próbna działa w celach oceny, ale do użytku produkcyjnego wymagana jest ważna licencja.
-
-3. **Jakie formaty plików obsługuje Aspose.Words?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT i wiele innych.
-
-4. **Jak obsłużyć wyjątki podczas konwersji?**  
-   Umieść kod konwersji w bloku try‑catch i loguj szczegóły wyjątku, jak pokazano w przykładzie.
-
-5. **Czy można dostosować wynikowy PDF?**  
-   Tak – użyj `PdfSaveOptions`, aby ustawić poziomy zgodności, szyfrowanie, jakość obrazów i inne opcje.
-
 ## Frequently Asked Questions
 
 **Q: Czy to działa na serwerach Linux?**  
@@ -231,6 +214,12 @@ A: Użyj `PdfSaveOptions.setCustomProperties()`, aby dodać pary klucz‑wartoś
 ## Zasoby
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-14  
+**Testowano z:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -238,9 +227,3 @@ A: Użyj `PdfSaveOptions.setCustomProperties()`, aby dodać pary klucz‑wartoś
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-14  
-**Testowano z:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose

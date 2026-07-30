@@ -181,6 +181,12 @@ Podczas pracy z dużymi dokumentami, rozważ następujące wskazówki, aby zopty
 - **Free Trial:** Eksperymentuj bez ograniczeń, używając [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** Oceń z rozszerzonym zestawem funkcji poprzez [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ostatnia aktualizacja:** 2026-02-14  
+**Testowane z:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ Podczas pracy z dużymi dokumentami, rozważ następujące wskazówki, aby zopty
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-02-14  
-**Testowane z:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose

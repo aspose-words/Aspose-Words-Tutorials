@@ -178,6 +178,12 @@ När du arbetar med stora dokument, överväg dessa tips för att optimera prest
 - **Free Trial:** Experimentera utan begränsningar med [free trial version](https://releases.aspose.com/words/java/).  
 - **Temporary License:** Utvärdera med ett utökat funktionspaket via en [temporary license](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Senast uppdaterad:** 2026-02-14  
+**Testad med:** Aspose.Words 25.3 för Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -185,9 +191,3 @@ När du arbetar med stora dokument, överväg dessa tips för att optimera prest
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-02-14  
-**Testad med:** Aspose.Words 25.3 för Java  
-**Författare:** Aspose

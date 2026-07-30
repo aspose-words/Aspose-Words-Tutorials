@@ -193,23 +193,6 @@ Anda kini memiliki solusi lengkap dan siap produksi untuk **convert word to pdf*
 
 **Langkah Selanjutnya**: Jelajahi `PdfSaveOptions` lanjutan (mis., kepatuhan PDF/A, enkripsi, atau menambahkan watermark) untuk menyesuaikan output lebih lanjut dengan standar organisasi Anda.
 
-## Bagian FAQ
-
-1. **Bagaimana cara menginstal Aspose.Words untuk Java?**  
-   Tambahkan dependensi Maven/Gradle yang ditunjukkan sebelumnya dan biarkan alat build Anda mengunduh JAR.
-
-2. **Bisakah saya menggunakan konverter ini tanpa lisensi?**  
-   Versi percobaan gratis dapat digunakan untuk evaluasi, tetapi lisensi yang valid diperlukan untuk penggunaan produksi.
-
-3. **Format file apa yang didukung Aspose.Words?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT, dan banyak lagi.
-
-4. **Bagaimana cara menangani exception selama konversi?**  
-   Bungkus kode konversi dalam blok try‑catch dan catat detail exception seperti yang ditunjukkan.
-
-5. **Apakah memungkinkan untuk menyesuaikan output PDF?**  
-   Ya – gunakan `PdfSaveOptions` untuk mengatur tingkat kepatuhan, enkripsi, kualitas gambar, dan lainnya.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Apakah ini bekerja di server Linux?**  
@@ -230,6 +213,12 @@ J: Gunakan `PdfSaveOptions.setCustomProperties()` untuk menambahkan pasangan kun
 ## Sumber Daya
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Terakhir Diperbarui:** 2026-02-14  
+**Diuji Dengan:** Aspose.Words 25.3 for Java  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ J: Gunakan `PdfSaveOptions.setCustomProperties()` untuk menambahkan pasangan kun
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-02-14  
-**Diuji Dengan:** Aspose.Words 25.3 for Java  
-**Penulis:** Aspose

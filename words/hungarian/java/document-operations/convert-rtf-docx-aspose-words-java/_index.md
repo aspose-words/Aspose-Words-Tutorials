@@ -180,6 +180,12 @@ Nagy dokumentumokkal dolgozva vegye figyelembe ezeket a tippeket a teljesítmén
 - **Free Trial:** Korlátok nélkül kísérletezhet a [free trial version](https://releases.aspose.com/words/java/) verzióval.  
 - **Temporary License:** Értékelje a kibővített funkciókészletet egy [temporary license](https://purchase.aspose.com/temporary-license/) segítségével.
 
+---
+
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +193,3 @@ Nagy dokumentumokkal dolgozva vegye figyelembe ezeket a tippeket a teljesítmén
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Words 25.3 for Java  
-**Author:** Aspose

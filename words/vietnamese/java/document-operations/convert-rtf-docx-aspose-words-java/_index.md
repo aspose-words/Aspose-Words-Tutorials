@@ -12,22 +12,6 @@ url: /vi/java/document-operations/convert-rtf-docx-aspose-words-java/
 weight: 1
 ---
 
-: A Complete Guide". Translate.
-
-Also need to translate bullet points, tables, etc. Keep markdown formatting.
-
-We must not translate URLs, file paths, variable names, function names. So keep code block placeholders unchanged.
-
-We need to translate "Keywords:" etc.
-
-Also note "RTL formatting if needed" but Vietnamese is LTR, okay.
-
-Let's produce the translated content.
-
-We need to keep the shortcodes lines exactly as they are.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -194,6 +178,12 @@ Khi làm việc với các tài liệu lớn, hãy lưu ý các mẹo sau để 
 - **Dùng thử miễn phí:** Thử nghiệm không giới hạn bằng [phiên bản dùng thử miễn phí](https://releases.aspose.com/words/java/).  
 - **Giấy phép tạm thời:** Đánh giá với bộ tính năng mở rộng thông qua [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Cập nhật lần cuối:** 2026-02-14  
+**Đã kiểm tra với:** Aspose.Words 25.3 cho Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -201,9 +191,3 @@ Khi làm việc với các tài liệu lớn, hãy lưu ý các mẹo sau để 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-02-14  
-**Đã kiểm tra với:** Aspose.Words 25.3 cho Java  
-**Tác giả:** Aspose

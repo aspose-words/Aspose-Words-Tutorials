@@ -193,23 +193,6 @@ Nyní máte kompletní, připravené řešení pro **convert word to pdf** uvnit
 
 **Další kroky**: Prozkoumejte pokročilé `PdfSaveOptions` (např. soulad s PDF/A, šifrování nebo přidávání vodoznaků), abyste dále přizpůsobili výstup standardům vaší organizace.
 
-## FAQ Section
-
-1. **Jak nainstaluji Aspose.Words pro Java?**  
-   Přidejte Maven/Gradle závislost uvedenou výše a nechte svůj nástroj pro sestavení stáhnout JAR.
-
-2. **Mohu tento převaděč použít bez licence?**  
-   Bezplatná zkušební verze funguje pro hodnocení; pro produkční použití je vyžadována platná licence.
-
-3. **Jaké formáty souborů Aspose.Words podporuje?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT a mnoho dalších.
-
-4. **Jak zachytím výjimky během převodu?**  
-   Zabalte kód převodu do bloku try‑catch a zaznamenejte podrobnosti výjimky, jak je ukázáno.
-
-5. **Je možné přizpůsobit výstup PDF?**  
-   Ano – použijte `PdfSaveOptions` k nastavení úrovní souladu, šifrování, kvality obrázků a dalších.
-
 ## Frequently Asked Questions
 
 **Q: Funguje to na Linux serverech?**  
@@ -230,6 +213,12 @@ A: Použijte `PdfSaveOptions.setCustomProperties()` k přidání dvojic klíč�
 ## Zdroje
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**Poslední aktualizace:** 2026-02-14  
+**Testováno s:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ A: Použijte `PdfSaveOptions.setCustomProperties()` k přidání dvojic klíč�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-02-14  
-**Testováno s:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose

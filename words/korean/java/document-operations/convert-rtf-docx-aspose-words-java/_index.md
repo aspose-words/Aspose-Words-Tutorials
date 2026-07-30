@@ -11,10 +11,6 @@ url: /ko/java/document-operations/convert-rtf-docx-aspose-words-java/
 weight: 1
 ---
 
- `InputStream` unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -181,6 +177,12 @@ Aspose.Words for Java를 활용하면 다양한 시나리오에서 이점을 얻
 - **무료 체험:** 제한 없이 실험하려면 [무료 체험 버전](https://releases.aspose.com/words/java/)을 사용하세요.  
 - **임시 라이선스:** [임시 라이선스](https://purchase.aspose.com/temporary-license/)를 통해 확장된 기능을 평가해 보세요.
 
+---
+
+**마지막 업데이트:** 2026-02-14  
+**테스트 환경:** Aspose.Words 25.3 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +190,3 @@ Aspose.Words for Java를 활용하면 다양한 시나리오에서 이점을 얻
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-14  
-**테스트 환경:** Aspose.Words 25.3 for Java  
-**작성자:** Aspose

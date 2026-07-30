@@ -193,23 +193,6 @@ Agora você tem uma solução completa, pronta para produção, para **convert w
 
 **Próximos Passos**: Explore `PdfSaveOptions` avançados (por exemplo, conformidade PDF/A, criptografia ou adição de marcas d'água) para adaptar ainda mais a saída aos padrões da sua organização.
 
-## Seção de Perguntas Frequentes
-
-1. **Como instalo o Aspose.Words para Java?**  
-   Adicione a dependência Maven/Gradle mostrada anteriormente e deixe sua ferramenta de build baixar o JAR.
-
-2. **Posso usar este conversor sem licença?**  
-   Um teste gratuito funciona para avaliação, mas uma licença válida é necessária para uso em produção.
-
-3. **Quais formatos de arquivo o Aspose.Words suporta?**  
-   DOC, DOCX, RTF, WordML, HTML, MHTML, ODT e muitos outros.
-
-4. **Como trato exceções durante a conversão?**  
-   Envolva o código de conversão em um bloco try‑catch e registre os detalhes da exceção conforme demonstrado.
-
-5. **É possível personalizar a saída PDF?**  
-   Sim – use `PdfSaveOptions` para definir níveis de conformidade, criptografia, qualidade de imagem e muito mais.
-
 ## Perguntas Frequentes
 
 **Q: Isso funciona em servidores Linux?**  
@@ -227,6 +210,12 @@ A: Sim. Configure `PdfSaveOptions.setEncryptionDetails()` com uma senha de usuá
 **Q: Existe uma maneira de incorporar metadados personalizados ao PDF?**  
 A: Use `PdfSaveOptions.setCustomProperties()` para adicionar pares chave‑valor que aparecerão nos metadados do PDF.
 
+---
+
+**Última Atualização:** 2026-02-14  
+**Testado com:** Aspose.Words 25.3 for Java  
+**Autor:** Aspose
+
 ## Recursos
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
@@ -237,9 +226,3 @@ A: Use `PdfSaveOptions.setCustomProperties()` para adicionar pares chave‑valor
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2026-02-14  
-**Testado com:** Aspose.Words 25.3 for Java  
-**Autor:** Aspose

@@ -193,23 +193,6 @@ try {
 
 **后续步骤**：探索高级 `PdfSaveOptions`（如 PDF/A 合规、加密或添加水印），进一步根据组织标准定制输出。
 
-## FAQ 部分
-
-1. **如何安装 Aspose.Words for Java？**  
-   将前文示例的 Maven/Gradle 依赖添加到项目中，构建工具会自动下载 JAR 包。
-
-2. **可以在没有许可证的情况下使用此转换器吗？**  
-   免费试用可用于评估，但生产环境必须使用有效许可证。
-
-3. **Aspose.Words 支持哪些文件格式？**  
-   DOC、DOCX、RTF、WordML、HTML、MHTML、ODT 等多种格式。
-
-4. **转换过程中如何处理异常？**  
-   将转换代码放入 try‑catch 块，并按示例方式记录异常详情。
-
-5. **可以自定义 PDF 输出吗？**  
-   可以——使用 `PdfSaveOptions` 设置合规级别、加密、图像质量等。
-
 ## 常见问题
 
 **问：这能在 Linux 服务器上运行吗？**  
@@ -230,6 +213,12 @@ try {
 ## 资源
 - [Aspose.Words Documentation](https://reference.aspose.com/words/java)
 
+---
+
+**最后更新：** 2026-02-14  
+**测试环境：** Aspose.Words 25.3 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -237,9 +226,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-02-14  
-**测试环境：** Aspose.Words 25.3 for Java  
-**作者：** Aspose
