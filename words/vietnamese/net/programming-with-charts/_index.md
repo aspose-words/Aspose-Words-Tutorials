@@ -42,7 +42,7 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ](./default-options-for-data-labels/) | Tìm hiểu cách thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo và tùy chỉnh biểu đồ dễ dàng. |
 | [Tùy chỉnh một điểm dữ liệu biểu đồ đơn lẻ trong biểu đồ](./single-chart-data-point/) | Tìm hiểu cách tùy chỉnh các điểm dữ liệu biểu đồ đơn lẻ bằng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết. Cải thiện biểu đồ của bạn bằng các điểm đánh dấu và kích thước độc đáo. |
 | [Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ](./single-chart-series/) | Tìm hiểu cách tùy chỉnh chuỗi biểu đồ đơn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch. |
-
+| [Cách hiển thị phần trăm trong biểu đồ với Aspose.Words C#](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Tìm hiểu cách hiển thị phần trăm trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

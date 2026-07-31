@@ -42,6 +42,7 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Werken met het Google AI-model](./working-with-google-ai-model/) Verbeter uw documentverwerking met Aspose.Words voor .NET en Google AI om moeiteloos beknopte samenvattingen te maken. |
 | [Werken met een open AI-model](./working-with-open-ai-model/) | Ontgrendel efficiënte documentsamenvattingen met Aspose.Words voor .NET met de krachtige modellen van OpenAI. Duik nu in deze uitgebreide handleiding. |
 | [Werken met samenvattingsopties](./working-with-summarize-options/) | Leer hoe u Word-documenten effectief samenvat met Aspose.Words voor .NET met onze stapsgewijze handleiding voor het integreren van AI-modellen voor snelle inzichten. |
+| [Samenvatten van Word-document met Aspose.Words AI – Volledige gids](./summarize-word-document-with-aspose-words-ai-full-guide/) | Leer hoe u met Aspose.Words AI volledige Word-documenten efficiënt kunt samenvatten met deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

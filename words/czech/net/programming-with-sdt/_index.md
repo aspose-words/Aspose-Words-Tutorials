@@ -24,7 +24,7 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
  ## Návody
 | Název | Popis |
 | --- | --- |
-| [Ovládací prvek obsahu typu zaškrtávacího políčka](./check-box-type-content-control/) | Naučte se, jak přidat ovládací prvek obsahu typu zaškrtávací políčko do dokumentů Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
+| [Ovládací prvek obsahu typu zaškrtávacího políčka](./check-box-type-content-control/) | Naučte se, jak přidat ovládací prvek obsahu typu zaškrtávacího políčko do dokumentů Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
 | [Aktuální stav zaškrtávacího políčka](./current-state-of-check-box/) | Naučte se, jak spravovat zaškrtávací políčka v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato příručka popisuje programově nastavení, aktualizaci a ukládání zaškrtávacích políček. |
 | [Úprava ovládacích prvků obsahu](./modify-content-controls/) | Naučte se, jak upravovat strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Aktualizujte text, rozbalovací nabídky a obrázky krok za krokem. |
 | [Ovládací prvek obsahu pole se seznamem](./combo-box-content-control/) | Vytvořte ovládací prvek obsahu pole se seznamem v dokumentech Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Ideální pro vylepšení interaktivity vašeho dokumentu. |
@@ -36,7 +36,7 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
 | [Vytvoření opakující se sekce tabulky namapované na vlastní část XML](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Naučte se, jak vytvořit tabulku s opakující se sekcí namapovanou na CustomXmlPart v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Více sekcí](./multi-section/) Naučte se, jak pracovat s vícesekčními strukturovanými tagy dokumentů v Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro dynamickou manipulaci s dokumenty. |
 | [Rozsah značek strukturovaného dokumentu – spuštění mapování XML](./structured-document-tag-range-start-xml-mapping/) | Naučte se, jak dynamicky vázat XML data na strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu. |
-
+| [Jak přidat ovládací prvek obsahu a vytvořit Word dokument s Aspose – Kompletní průvodce](./how-to-add-content-control-and-create-word-document-with-asp/) | Kompletní návod, jak pomocí Aspose.Words pro .NET přidat ovládací prvek obsahu a vytvořit nový Word dokument krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

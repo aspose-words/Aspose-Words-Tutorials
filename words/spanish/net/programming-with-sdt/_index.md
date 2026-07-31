@@ -31,12 +31,12 @@ Los ejemplos de código de los tutoriales te ayudarán a comprender los concepto
 | [Control de contenido de cuadro de texto enriquecido](./rich-text-box-content-control/) | Aprenda cómo agregar y personalizar un control de contenido de cuadro de texto enriquecido en un documento de Word usando Aspose.Words para .NET con esta guía detallada paso a paso. |
 | [Establecer el color del control de contenido](./set-content-control-color/) Configura fácilmente el color de las etiquetas de documento estructurado (EDT) en Word con Aspose.Words para .NET. Personaliza tus EDT para mejorar la apariencia de tus documentos con esta sencilla guía.
 | [Control de contenido claro](./clear-contents-control/) | Aprenda a borrar el control de contenido en un documento de Word usando Aspose.Words para .NET con nuestra guía paso a paso. |
-| [Vincular SDT a una parte XML personalizada](./bind-sdt-to-custom-xml-part/) | Aprenda a vincular etiquetas de documento estructurado (SDT) a partes XML personalizadas en documentos de Word usando Aspose.Words para .NET con este tutorial paso a paso. |
+| [Vincular SDT a una parte XML personalizada](./bind-sdt-to-custom-xml-part/) | Aprende a vincular etiquetas de documento estructurado (SDT) a partes XML personalizadas en documentos de Word usando Aspose.Words para .NET con este tutorial paso a paso. |
 | [Establecer el estilo de control de contenido](./set-content-control-style/) Aprenda a configurar estilos de control de contenido en documentos de Word con Aspose.Words para .NET con esta guía detallada paso a paso. Ideal para mejorar la estética de los documentos.
 | [Creación de una sección repetida de tabla asignada a una parte XML personalizada](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Aprenda a crear una tabla con una sección repetida asignada a un CustomXmlPart en un documento de Word usando Aspose.Words para .NET.
 | [Multisección](./multi-section/) Aprenda a trabajar con etiquetas de documentos estructurados multisección en Aspose.Words para .NET con este tutorial paso a paso. Ideal para la manipulación dinámica de documentos.
 | [Asignación de XML de inicio de rango de etiquetas de documentos estructurados](./structured-document-tag-range-start-xml-mapping/) Aprenda a vincular dinámicamente datos XML a etiquetas de documentos estructurados en Word con Aspose.Words para .NET. Siga nuestra guía paso a paso.
-
+| [Cómo agregar un control de contenido y crear un documento Word con Aspose – Guía completa](./how-to-add-content-control-and-create-word-document-with-asp/) | Aprenda paso a paso a añadir controles de contenido y generar documentos Word con Aspose.Words para .NET en esta guía completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

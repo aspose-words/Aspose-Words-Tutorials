@@ -39,6 +39,8 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
 | [Aspose.Words Vormschaduw Tutorial – Voeg een schaduw toe aan een Word-vorm in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 | [Leeg Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Leer hoe u een leeg Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET. |
+| [Rechthoek tekenen in Word – Voeg vormen toe in Word met Aspose](./draw-rectangle-word-add-shapes-in-word-with-aspose/) | Leer hoe u een rechthoek toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
+| [Maak een leeg Word‑document met een verborgen ellipsvorm – volledige C#‑handleiding](./create-a-blank-word-document-with-a-hidden-ellipse-shape-ful/) | Leer hoe u een leeg Word‑document maakt en een verborgen ellipsvorm toevoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

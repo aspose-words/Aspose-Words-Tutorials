@@ -32,6 +32,8 @@ Grafik ekleme, veri güncelleme ve grafik görünümünü özelleştirme gibi be
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Aspose.Words for .NET Kullanarak Word'e Basit Bir Sütun Grafiği Ekleme" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Word'de Grafiği Nasıl Düzenlersiniz: Etiket Konumunu, Yazı Tipini ve Daha Fazlasını Değiştirin" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

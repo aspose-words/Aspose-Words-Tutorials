@@ -42,7 +42,7 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [차트의 데이터 레이블에 대한 기본 옵션 설정](./default-options-for-data-labels/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블에 대한 기본 옵션을 설정하는 방법을 알아보세요. 단계별 가이드를 따라 차트를 손쉽게 만들고 사용자 지정할 수 있습니다. |
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |
-
+| [Aspose.Words C#로 차트에 백분율 표시하는 방법](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET을 사용해 차트 데이터에 백분율을 표시하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

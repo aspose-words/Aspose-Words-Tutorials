@@ -32,6 +32,8 @@ Aspose.Words for .NET предлагает надежный набор инст�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="Вставьте простую столбчатую диаграмму в Word с помощью Aspose.Words для .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="Как редактировать диаграмму в Word: изменить положение подписи, шрифт и другое" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

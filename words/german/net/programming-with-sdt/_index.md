@@ -36,6 +36,7 @@ Die Codebeispiele in den Tutorials helfen Ihnen, die Konzepte zu verstehen und d
 | [Erstellen eines sich wiederholenden Tabellenabschnitts, der einem benutzerdefinierten XML-Teil zugeordnet ist](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine Tabelle mit einem sich wiederholenden Abschnitt erstellen, der einem CustomXmlPart in einem Word-Dokument zugeordnet ist. |
 | [Mehrfachabschnitt](./multi-section/) Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie in Aspose.Words für .NET mit mehrteiligen strukturierten Dokument-Tags arbeiten. Ideal für die dynamische Dokumentbearbeitung. |
 | [Strukturiertes Dokument Tag-Bereich Start XML-Mapping](./structured-document-tag-range-start-xml-mapping/) | Erfahren Sie, wie Sie XML-Daten mit Aspose.Words für .NET dynamisch an strukturierte Dokument-Tags in Word binden. Folgen Sie unserer Schritt-für-Schritt-Anleitung. |
+| [Wie man ein Inhaltssteuerelement hinzufügt und ein Word-Dokument mit Aspose erstellt – Komplettanleitung](./how-to-add-content-control-and-create-word-document-with-asp/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Inhaltssteuerelement hinzufügen und ein vollständiges Word-Dokument erstellen. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -32,6 +32,8 @@ Aspose.Words สำหรับ .NET นำเสนอชุดเครื่�
 
 {{< tutorial-card link="./insert-simple-column-chart/" title="แทรกแผนภูมิคอลัมน์แบบง่ายใน Word โดยใช้ Aspose.Words สำหรับ .NET" imgSrc="./insert-simple-column-chart/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-edit-chart-in-word-change-label-position-font-more/" title="วิธีแก้ไขแผนภูมิใน Word: เปลี่ยนตำแหน่งป้ายชื่อ, แบบอักษรและอื่น ๆ" imgSrc="./how-to-edit-chart-in-word-change-label-position-font-more/images/thumb.png" >}}
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

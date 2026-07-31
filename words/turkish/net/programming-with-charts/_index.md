@@ -28,11 +28,11 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Şekil Kullanarak Grafik Oluşturun ve Özelleştirin](./create-chart-using-shape/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde grafiklerin nasıl oluşturulacağını ve özelleştirileceğini öğrenin. Veri görselleştirme için mükemmeldir. |
 | [Word Belgesine Basit Sütun Grafiği Ekleme](./insert-simple-column-chart/) Aspose.Words for .NET kullanarak Word'e basit bir sütun grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi dinamik görsel veri sunumlarıyla geliştirin. |
 | [Word Belgesine Sütun Grafiği Ekle](./insert-column-chart/) | Aspose.Words for .NET kullanarak Word belgelerine sütun grafiklerinin nasıl ekleneceğini öğrenin. Raporlarınızda ve sunumlarınızda veri görselleştirmesini geliştirin. |
-| [Alan Grafiğini Word Belgesine Ekleme](./insert-area-chart/) | Bu kapsamlı adım adım kılavuzda Aspose.Words for .NET kullanarak Word belgesine alan grafiğinin nasıl ekleneceğini öğrenin.
+| [Alan Grafiğini Word Belgesine Ekleme](./insert-area-chart/) | Bu kapsamlı adım adım kılavuzda Aspose.Words for .NET kullanarak Word belgesine alan grafiğinin nasıl ekleneceğini öğrenin. |
 | [Word Belgesine Baloncuk Grafiği Ekle](./insert-bubble-chart/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine bir kabarcık grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi geliştirin. |
 | [Word Belgesine Dağılım Grafiği Ekleme](./insert-scatter-chart/) | Aspose.Words for .NET ile Word'e dağılım grafiğinin nasıl ekleneceğini öğrenin. Belgelerinize görsel veri gösterimlerini entegre etmek için kolay adımlar. |
 | [Bir Grafikte XY Eksen Özelliklerini Tanımlayın](./define-xyaxis-properties/) Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak bir grafikte XY ekseni özelliklerini nasıl tanımlayacağınızı öğrenin. .NET geliştiricileri için mükemmel. |
-| [Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme](./date-time-values-to-axis/) | Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin.
+| [Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme](./date-time-values-to-axis/) | Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin. |
 | [Bir Grafikteki Eksen İçin Sayı Biçimi](./number-format-for-axis/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafik eksen numaralarını nasıl biçimlendireceğinizi öğrenin. Belgenizin okunabilirliğini ve profesyonelliğini zahmetsizce artırın. |
 | [Eksen Sınırları](./bounds-of-axis/) | Aspose.Words for .NET kullanarak bir grafikteki eksenin sınırlarının nasıl ayarlanacağını ve eksende görüntülenen değer aralığının nasıl kontrol edileceğini öğrenin. |
 | [Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi](./interval-unit-between-labels-on-axis/) | Aspose.Words for .NET kullanarak bir grafiğin eksenindeki etiketler arasındaki aralık birimini nasıl ayarlayacağınızı öğrenin. |
@@ -42,7 +42,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Bir Grafikteki Veri Etiketleri İçin Varsayılan Seçenekleri Ayarlama](./default-options-for-data-labels/) | Aspose.Words for .NET kullanarak bir grafikteki veri etiketleri için varsayılan seçenekleri nasıl ayarlayacağınızı öğrenin. Grafikleri zahmetsizce oluşturmak ve özelleştirmek için adım adım kılavuzumuzu izleyin. |
 | [Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin](./single-chart-data-point/) | Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi ayrıntılı adım adım bir kılavuzda öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin. |
 | [Bir Grafikteki Tek Grafik Serisini Özelleştir](./single-chart-series/) | Aspose.Words for .NET kullanarak Word belgesinde tek grafik serilerinin nasıl özelleştirileceğini öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin. |
-
+| [Aspose.Words C# ile Grafikte Yüzdeleri Gösterme](./how-to-show-percentages-in-chart-with-aspose-words-c/) | Aspose.Words for .NET ile grafiklerde yüzde değerlerini nasıl göstereceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
