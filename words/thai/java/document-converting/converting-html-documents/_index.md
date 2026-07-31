@@ -9,21 +9,7 @@ url: /th/java/document-converting/converting-html-documents/
 weight: 12
 ---
 
- dates unchanged.
-
-Translate:
-
-**Last Updated:** 2026-02-16 -> "**อัปเดตล่าสุด:** 2026-02-16"
-
-**Tested With:** Aspose.Words for Java 24.12 -> "**ทดสอบด้วย:** Aspose.Words for Java 24.12"
-
-**Author:** Aspose -> "**ผู้เขียน:** Aspose"
-
-Now produce final content with same markdown and shortcodes.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -55,7 +41,7 @@ Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
 
 1. **Java Development Kit (JDK)** – ติดตั้ง JDK 8 หรือใหม่กว่า  
 2. **IDE** – IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขใด ๆ ที่คุณชอบ  
-3. **Aspose.Words for Java library** – ดาวน์โหลดเวอร์ชันล่าสุด **[here](https://releases.aspose.com/words/java/)** และเพิ่มเข้าไปในเส้นทางการสร้างของโปรเจค  
+3. **Aspose.Words for Java library** – ดาวน์โหลดเวอร์ชันล่าสุด **[here](https://releases.aspose.com/words/java/) ** และเพิ่มเข้าไปในเส้นทางการสร้างของโปรเจค  
 4. **Input HTML file** – HTML ที่คุณต้องการแปลงเป็นเอกสาร Word  
 
 ## นำเข้าแพ็กเกจ
@@ -119,7 +105,13 @@ Aspose.Words มุ่งเน้นที่เนื้อหา HTML แบ�
 
 ### 5. ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน?
 
-คุณสามารถสำรวจเพิ่มเติมใน **[documentation](https://reference.aspose.com/words/java/)** เพื่อเจาะลึกความสามารถของ Aspose.Words for Java
+คุณสามารถสำรวจเพิ่มเติมใน **[documentation](https://reference.aspose.com/words/java/) ** เพื่อเจาะลึกความสามารถของ Aspose.Words for Java
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-16  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12  
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,9 +120,3 @@ Aspose.Words มุ่งเน้นที่เนื้อหา HTML แบ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-02-16  
-**ทดสอบด้วย:** Aspose.Words for Java 24.12  
-**ผู้เขียน:** Aspose

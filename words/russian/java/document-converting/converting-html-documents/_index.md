@@ -42,7 +42,7 @@ weight: 12
 
 1. **Java Development Kit (JDK)** – установлен JDK 8 или новее.  
 2. **IDE** – IntelliJ IDEA, Eclipse или любой другой редактор по вашему выбору.  
-3. **Библиотека Aspose.Words for Java** – Скачайте последнюю версию **[здесь](https://releases.aspose.com/words/java/)** и добавьте её в путь сборки проекта.  
+3. **Библиотека Aspose.Words for Java** – Скачайте последнюю версию **[здесь](https://releases.aspose.com/words/java/) ** и добавьте её в путь сборки проекта.  
 4. **Исходный HTML‑файл** – HTML, который вы хотите превратить в документ Word.
 
 ## Импорт пакетов
@@ -106,15 +106,7 @@ Aspose.Words ориентирован на статический HTML‑кон�
 
 ### 5. Где найти более подробную документацию?
 
-Подробности доступны в **[документации](https://reference.aspose.com/words/java/)**, где можно глубже изучить возможности Aspose.Words for Java.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+Подробности доступны в **[документации](https://reference.aspose.com/words/java/) **, где можно глубже изучить возможности Aspose.Words for Java.
 
 ---
 
@@ -123,3 +115,11 @@ Aspose.Words ориентирован на статический HTML‑кон�
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

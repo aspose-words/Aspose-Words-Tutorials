@@ -10,15 +10,7 @@ url: /vi/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
 
-  
-
-Then closing shortcodes.
-
-Let's craft translation.
-
-Be careful to keep markdown formatting.
-
-Proceed to final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

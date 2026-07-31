@@ -195,28 +195,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 Bu rehberde, **metin kutusu oluşturma** nesnelerini, birden fazla şekli gruplamayı, en boy oranlarını ayarlamayı, şekilleri tablo hücrelerine yerleştirmeyi, filigran eklemeyi ve Aspose.Words for Java ile SmartArt diyagramlarıyla çalışmayı ele aldık. Bu teknikler, programlı olarak zengin biçimlendirilmiş ve etkileşimli Word belgeleri oluşturmanızı sağlar.
 
-## SSS
-
-### Aspose.Words for Java nedir?
-
-Aspose.Words for Java, geliştiricilerin Word belgelerini programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan bir Java kütüphanesidir. Çeşitli formatlarda belgeyle çalışmak için geniş bir özellik ve araç yelpazesi sunar.
-
-### Aspose.Words for Java nasıl indirilir?
-
-Aspose.Words for Java’yı Aspose web sitesinden şu bağlantıyı izleyerek indirebilirsiniz: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Belge şekilleri kullanmanın faydaları nelerdir?
-
-Belge şekilleri, belgelere görsel öğeler ve etkileşim ekleyerek daha çekici ve bilgilendirici hâle getirir. Şekillerle açıklama balonları, düğmeler, resimler, filigranlar ve daha fazlasını oluşturabilir, genel kullanıcı deneyimini artırabilirsiniz.
-
-### Şekillerin görünümü özelleştirilebilir mi?
-
-Evet, şekillerin boyut, konum, döndürme ve dolgu rengi gibi özelliklerini ayarlayarak görünümünü özelleştirebilirsiniz. Aspose.Words for Java, şekil özelleştirmesi için kapsamlı seçenekler sunar.
-
-### Aspose.Words for Java SmartArt ile uyumlu mu?
-
-Evet, Aspose.Words for Java SmartArt şekillerini destekler; böylece belgelerinizde karmaşık diyagram ve grafiklerle çalışabilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Metin kutusunu aynı şekil içinde bir resimle birleştirebilir miyim?**  

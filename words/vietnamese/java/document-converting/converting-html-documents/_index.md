@@ -42,7 +42,7 @@ Chuyển đổi HTML sang DOCX có nghĩa là lấy một tệp HTML—cùng v�
 
 1. **Java Development Kit (JDK)** – JDK 8 hoặc mới hơn đã được cài đặt.  
 2. **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo nào bạn thích.  
-3. **Thư viện Aspose.Words for Java** – Tải phiên bản mới nhất **[tại đây](https://releases.aspose.com/words/java/)** và thêm vào đường dẫn build của dự án.  
+3. **Thư viện Aspose.Words for Java** – Tải phiên bản mới nhất **[tại đây](https://releases.aspose.com/words/java/) ** và thêm vào đường dẫn build của dự án.  
 4. **Tệp HTML đầu vào** – HTML bạn muốn chuyển thành tài liệu Word.
 
 ## Nhập khẩu các gói
@@ -106,7 +106,13 @@ Có—đặt đoạn mã chuyển đổi hai dòng vào vòng lặp, công việ
 
 ### 5. Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
 
-Bạn có thể khám phá thêm trong **[documentation](https://reference.aspose.com/words/java/)** để tìm hiểu sâu hơn về khả năng của Aspose.Words for Java.
+Bạn có thể khám phá thêm trong **[documentation](https://reference.aspose.com/words/java/) ** để tìm hiểu sâu hơn về khả năng của Aspose.Words for Java.
+
+---
+
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,9 +121,3 @@ Bạn có thể khám phá thêm trong **[documentation](https://reference.aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose

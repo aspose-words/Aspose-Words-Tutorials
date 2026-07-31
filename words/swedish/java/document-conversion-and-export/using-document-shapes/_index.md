@@ -10,9 +10,7 @@ url: /sv/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
 
-'s" heading maybe keep same but translate.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -196,28 +194,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 ## Slutsats
 
 I den här guiden har vi gått igenom hur du **skapar textlåda**‑objekt, grupperar flera former, justerar bildförhållanden, bäddar in former i tabellceller, lägger till vattenstämplar och arbetar med SmartArt‑diagram med Aspose.Words för Java. Dessa tekniker ger dig möjlighet att programatiskt bygga rikt formatterade, interaktiva Word‑dokument.
-
-## Vanliga frågor
-
-### Vad är Aspose.Words för Java?
-
-Aspose.Words för Java är ett Java‑bibliotek som låter utvecklare skapa, modifiera och konvertera Word‑dokument programatiskt. Det erbjuder ett brett utbud av funktioner och verktyg för att arbeta med dokument i olika format.
-
-### Hur kan jag ladda ner Aspose.Words för Java?
-
-Du kan ladda ner Aspose.Words för Java från Aspose‑webbplatsen via följande länk: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Vilka är fördelarna med att använda dokumentformer?
-
-Dokumentformer lägger till visuella element och interaktivitet i dina dokument, vilket gör dem mer engagerande och informativa. Med former kan du skapa pratbubblor, knappar, bilder, vattenstämplar och mer, vilket förbättrar den totala användarupplevelsen.
-
-### Kan jag anpassa utseendet på former?
-
-Ja, du kan anpassa utseendet på former genom att justera deras egenskaper såsom storlek, position, rotation och fyllningsfärg. Aspose.Words för Java erbjuder omfattande alternativ för form‑anpassning.
-
-### Är Aspose.Words för Java kompatibel med SmartArt?
-
-Ja, Aspose.Words för Java stödjer SmartArt‑former, vilket gör att du kan arbeta med komplexa diagram och grafik i dina dokument.
 
 ## Vanliga frågor och svar
 

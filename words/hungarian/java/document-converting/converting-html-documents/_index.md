@@ -42,7 +42,7 @@ A HTML DOCX formátumba konvertálása azt jelenti, hogy egy HTML fájlt – fej
 
 1. **Java Development Kit (JDK)** – JDK 8 vagy újabb telepítve.  
 2. **IDE** – IntelliJ IDEA, Eclipse vagy bármely kedvelt szerkesztő.  
-3. **Aspose.Words for Java library** – Töltsd le a legújabb verziót **[here](https://releases.aspose.com/words/java/)** és add hozzá a projekt build útvonalához.  
+3. **Aspose.Words for Java library** – Töltsd le a legújabb verziót **[here](https://releases.aspose.com/words/java/) ** és add hozzá a projekt build útvonalához.  
 4. **Input HTML file** – Az a HTML, amelyet Word dokumentummá szeretnél alakítani.
 
 ## Csomagok importálása
@@ -106,7 +106,13 @@ Igen – csomagold a két soros konverziós kódot egy ciklusba, ütemezett fela
 
 ### 5. Hol találok részletesebb dokumentációt?
 
-További információkat találsz a **[documentation](https://reference.aspose.com/words/java/)** oldalon, ahol mélyebben megismerheted az Aspose.Words for Java lehetőségeit.
+További információkat találsz a **[documentation](https://reference.aspose.com/words/java/) ** oldalon, ahol mélyebben megismerheted az Aspose.Words for Java lehetőségeit.
+
+---
+
+**Legutóbb frissítve:** 2026-02-16  
+**Tesztelve ezzel:** Aspose.Words for Java 24.12  
+**Szerző:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,9 +121,3 @@ További információkat találsz a **[documentation](https://reference.aspose.c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-02-16  
-**Tesztelve ezzel:** Aspose.Words for Java 24.12  
-**Szerző:** Aspose

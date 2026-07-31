@@ -10,20 +10,6 @@ url: /it/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
 
- Asked Questions => "Domande frequenti"
-
-Then each Q/A translate.
-
-**Q: How can I add multiple series to a chart?** => "D: Come posso aggiungere più serie a un grafico?" (but keep **Q:** maybe keep as is? Keep **Q:** and **A:** but translate text after.
-
-We'll keep **Q:** and **A:** as is, but translate content.
-
-Now final metadata lines: "Last Updated:", "Tested With:", "Author:" translate.
-
-Now produce final content with same shortcodes.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

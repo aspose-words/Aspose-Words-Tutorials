@@ -10,23 +10,7 @@ url: /hi/java/document-converting/converting-html-documents/
 weight: 12
 ---
 
- अधिक विस्तृत दस्तावेज़ीकरण कहाँ मिल सकता है?"
-
-Answer translate, keep link.
-
-Then closing shortcodes.
-
-Then backtop button shortcode unchanged.
-
-Then horizontal line and metadata lines.
-
-Translate "Last Updated", "Tested With", "Author". Keep bold.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -58,7 +42,7 @@ HTML को DOCX में बदलना का अर्थ है एक HTM
 
 1. **Java Development Kit (JDK)** – JDK 8 या बाद का स्थापित होना चाहिए।  
 2. **IDE** – IntelliJ IDEA, Eclipse, या कोई भी पसंदीदा एडिटर।  
-3. **Aspose.Words for Java लाइब्रेरी** – नवीनतम संस्करण **[here](https://releases.aspose.com/words/java/)** से डाउनलोड करें और अपने प्रोजेक्ट के बिल्ड पाथ में जोड़ें।  
+3. **Aspose.Words for Java लाइब्रेरी** – नवीनतम संस्करण **[here](https://releases.aspose.com/words/java/) ** से डाउनलोड करें और अपने प्रोजेक्ट के बिल्ड पाथ में जोड़ें।  
 4. **इनपुट HTML फ़ाइल** – वह HTML जिसे आप Word दस्तावेज़ में बदलना चाहते हैं।
 
 ## पैकेज आयात करें
@@ -122,15 +106,7 @@ Aspose.Words स्थैतिक HTML सामग्री पर कें�
 
 ### 5. अधिक विस्तृत दस्तावेज़ीकरण कहाँ मिल सकता है?
 
-आप **[documentation](https://reference.aspose.com/words/java/)** में और अधिक जानकारी खोज सकते हैं ताकि Aspose.Words for Java की क्षमताओं में गहराई से जा सकें।
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+आप **[documentation](https://reference.aspose.com/words/java/) ** में और अधिक जानकारी खोज सकते हैं ताकि Aspose.Words for Java की क्षमताओं में गहराई से जा सकें।
 
 ---
 
@@ -139,3 +115,11 @@ Aspose.Words स्थैतिक HTML सामग्री पर कें�
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

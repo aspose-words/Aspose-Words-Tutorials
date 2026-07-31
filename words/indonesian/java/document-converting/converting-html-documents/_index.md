@@ -42,7 +42,7 @@ Mengonversi HTML ke DOCX berarti mengambil file HTML—lengkap dengan heading, t
 
 1. **Java Development Kit (JDK)** – JDK 8 atau yang lebih baru terpasang.  
 2. **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.  
-3. **Aspose.Words for Java library** – Unduh versi terbaru **[di sini](https://releases.aspose.com/words/java/)** dan tambahkan ke jalur build proyek Anda.  
+3. **Aspose.Words for Java library** – Unduh versi terbaru **[di sini](https://releases.aspose.com/words/java/) ** dan tambahkan ke jalur build proyek Anda.  
 4. **File HTML input** – HTML yang ingin Anda ubah menjadi dokumen Word.
 
 ## Impor Paket
@@ -106,15 +106,7 @@ Ya—bungkus kode konversi dua baris dalam loop, pekerjaan terjadwal, atau layan
 
 ### 5. Di mana saya dapat menemukan dokumentasi lebih detail?
 
-Anda dapat menjelajahi lebih lanjut di **[documentation](https://reference.aspose.com/words/java/)** untuk menyelami kemampuan Aspose.Words for Java.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+Anda dapat menjelajahi lebih lanjut di **[documentation](https://reference.aspose.com/words/java/) ** untuk menyelami kemampuan Aspose.Words for Java.
 
 ---
 
@@ -123,3 +115,11 @@ Anda dapat menjelajahi lebih lanjut di **[documentation](https://reference.aspos
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

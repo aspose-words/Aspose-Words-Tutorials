@@ -10,13 +10,7 @@ url: /tr/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
 
- `chart.getSeries().add()` ...
-
-So Q is bold, A not bold. We'll translate similarly: **S:** (question) and C: (answer) maybe keep same pattern? Should we keep **Q:**? The translation says "S:" for soru, but we could keep **S:** bold. Keep same formatting: **S:** ... then line break, C: ... (no bold). That matches original style.
-
-Make sure we keep line breaks.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

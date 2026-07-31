@@ -42,7 +42,7 @@ Convertire HTML in DOCX significa prendere un file HTML—completo di intestazio
 
 1. **Java Development Kit (JDK)** – JDK 8 o successivo installato.  
 2. **IDE** – IntelliJ IDEA, Eclipse, o qualsiasi editor tu preferisca.  
-3. **Aspose.Words for Java library** – Scarica l'ultima versione **[here](https://releases.aspose.com/words/java/)** e aggiungila al percorso di compilazione del tuo progetto.  
+3. **Aspose.Words for Java library** – Scarica l'ultima versione **[here](https://releases.aspose.com/words/java/) ** e aggiungila al percorso di compilazione del tuo progetto.  
 4. **Input HTML file** – L'HTML che desideri trasformare in un documento Word.
 
 ## Importare i Pacchetti
@@ -106,7 +106,13 @@ Sì—incapsula il codice di conversione a due righe in un ciclo, un job program
 
 ### 5. Dove posso trovare una documentazione più dettagliata?
 
-Puoi approfondire nella **[documentation](https://reference.aspose.com/words/java/)** per esplorare più a fondo le capacità di Aspose.Words per Java.
+Puoi approfondire nella **[documentation](https://reference.aspose.com/words/java/) ** per esplorare più a fondo le capacità di Aspose.Words per Java.
+
+---
+
+**Ultimo aggiornamento:** 2026-02-16  
+**Testato con:** Aspose.Words for Java 24.12  
+**Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,9 +121,3 @@ Puoi approfondire nella **[documentation](https://reference.aspose.com/words/jav
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-02-16  
-**Testato con:** Aspose.Words for Java 24.12  
-**Autore:** Aspose

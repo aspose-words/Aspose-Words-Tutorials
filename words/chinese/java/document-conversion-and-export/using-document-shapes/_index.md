@@ -193,51 +193,29 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 在本指南中，我们介绍了如何 **创建文本框** 对象、对多个形状进行分组、调整宽高比、在表格单元格内嵌入形状、添加水印以及使用 Aspose.Words for Java 操作 SmartArt 图表。这些技术使您能够以编程方式构建内容丰富、交互性强的 Word 文档。
 
-## 常见问题
+## 常见问题解答
 
-### 什么是 Aspose.Words for Java？
+**问：我可以在同一个形状内同时放置文本框和图片吗？** 
+答：可以。创建形状后，使用 `builder.insertImage()` 将图片插入文本框形状，然后根据需要调整其布局。
 
-Aspose.Words for Java 是一个 Java 库，允许开发者以编程方式创建、修改和转换 Word 文档。它提供了丰富的功能和工具，支持多种文档格式的操作。
+**问：如何确保水印显示在文档内容的后面？** 
+答：将形状的 `WrapType` 设置为 `NONE`，并将 `RelativeHorizo​​ntalPosition` 和 `RelativeVerticalPosition` 调整为 `PAGE`。这样水印就会显示在主要内容的后面。
 
-### 如何下载 Aspose.Words for Java？
+**问：是否可以在 Word 中为组合形状添加动画效果？** 
+答：虽然 Aspose.Words 可以创建和组合形状，但由于动画功能依赖于 Word 的用户界面功能，因此不支持动画功能。
 
-您可以通过以下链接从 Aspose 官方网站下载 Aspose.Words for Java：  
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
+**问：需要哪个版本的 Aspose.Words 才能支持 SmartArt？** 
+答：从 Aspose.Words 20.9 for Java 及更高版本开始，即可检测和更新 SmartArt。
 
-### 使用文档形状有哪些好处？
-
-文档形状为文档添加视觉元素和交互性，使其更具吸引力和信息量。通过形状，您可以创建标注、按钮、图像、水印等，提升整体用户体验。
-
-### 我可以自定义形状的外观吗？
-
-可以，您可以通过调整大小、位置、旋转和填充颜色等属性来自定义形状的外观。Aspose.Words for Java 提供了丰富的形状定制选项。
-
-### Aspose.Words for Java 是否兼容 SmartArt？
-
-兼容，Aspose.Words for Java 支持 SmartArt 形状，您可以在文档中处理复杂的图表和图形。
-
-## Frequently Asked Questions
-
-**Q: Can I combine a text box with an image inside the same shape?**  
-A: Yes. Insert an image into the text box shape using `builder.insertImage()` after creating the shape, then adjust its layout as needed.
-
-**Q: How do I ensure a watermark appears behind all document content?**  
-A: Set the shape’s `WrapType` to `NONE` and adjust its `RelativeHorizontalPosition` and `RelativeVerticalPosition` to `PAGE`. This positions the watermark behind the main flow.
-
-**Q: Is it possible to animate a grouped shape in Word?**  
-A: While Aspose.Words can create and group shapes, animation features are not supported because they rely on Word’s UI capabilities.
-
-**Q: What version of Aspose.Words is required for SmartArt support?**  
-A: SmartArt detection and updating are available starting from Aspose.Words 20.9 for Java and later.
-
-**Q: Does the library handle large documents with many shapes efficiently?**  
-A: Yes. Use `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` or higher to improve performance on documents with many shapes.
+**问：该库能否高效处理包含大量图形的大型文档？** 
+答：可以。使用 `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` 或更高版本可以提高包含大量图形的文档的性能。
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
+**上次更新：** 2026-02-16
+**测试版本：** Aspose.Words for Java 24.12
+
+**作者：** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

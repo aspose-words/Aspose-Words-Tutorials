@@ -196,28 +196,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 En esta guía, hemos cubierto cómo **crear cuadros de texto**, agrupar múltiples formas, ajustar relaciones de aspecto, incrustar formas dentro de celdas de tabla, agregar marcas de agua y trabajar con diagramas SmartArt usando Aspose.Words para Java. Estas técnicas le permiten crear documentos de Word con formato rico e interactivo de forma programática.
 
-## Preguntas frecuentes
-
-### ¿Qué es Aspose.Words para Java?
-
-Aspose.Words para Java es una biblioteca Java que permite a los desarrolladores crear, modificar y convertir documentos de Word programáticamente. Proporciona una amplia gama de funciones y herramientas para trabajar con documentos en varios formatos.
-
-### ¿Cómo puedo descargar Aspose.Words para Java?
-
-Puede descargar Aspose.Words para Java desde el sitio web de Aspose siguiendo este enlace: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### ¿Cuáles son los beneficios de usar formas de documento?
-
-Las formas de documento añaden elementos visuales e interactividad a sus documentos, haciéndolos más atractivos e informativos. Con las formas, puede crear llamadas, botones, imágenes, marcas de agua y más, mejorando la experiencia del usuario.
-
-### ¿Puedo personalizar la apariencia de las formas?
-
-Sí, puede personalizar la apariencia de las formas ajustando sus propiedades como tamaño, posición, rotación y color de relleno. Aspose.Words para Java ofrece amplias opciones para la personalización de formas.
-
-### ¿Aspose.Words para Java es compatible con SmartArt?
-
-Sí, Aspose.Words para Java admite formas SmartArt, lo que le permite trabajar con diagramas y gráficos complejos en sus documentos.
-
 ## Preguntas frecuentes (FAQ)
 
 **P: ¿Puedo combinar un cuadro de texto con una imagen dentro de la misma forma?**  

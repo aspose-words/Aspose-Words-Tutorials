@@ -41,7 +41,7 @@ weight: 12
 
 1. **Java Development Kit (JDK)** – 已安装 JDK 8 或更高版本。  
 2. **IDE** – IntelliJ IDEA、Eclipse 或您喜欢的任意编辑器。  
-3. **Aspose.Words for Java 库** – 前往 **[here](https://releases.aspose.com/words/java/)** 下载最新版本并添加到项目的构建路径。  
+3. **Aspose.Words for Java 库** – 前往 **[here](https://releases.aspose.com/words/java/) ** 下载最新版本并添加到项目的构建路径。  
 4. **输入 HTML 文件** – 您希望转换为 Word 文档的 HTML 文件。
 
 ## 导入包
@@ -105,15 +105,7 @@ Aspose.Words 侧重于静态 HTML 内容。基本 CSS 能被识别，但 JavaScr
 
 ### 5. 在哪里可以找到更详细的文档？
 
-您可以访问 **[documentation](https://reference.aspose.com/words/java/)**，深入了解 Aspose.Words for Java 的各项功能。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+您可以访问 **[documentation](https://reference.aspose.com/words/java/) **，深入了解 Aspose.Words for Java 的各项功能。
 
 ---
 
@@ -122,3 +114,11 @@ Aspose.Words 侧重于静态 HTML 内容。基本 CSS 能被识别，但 JavaScr
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -195,28 +195,6 @@ V tomto průvodci jsme pokryli, jak **create text box** objekty, seskupovat víc
 
 ## Často kladené otázky
 
-### Co je Aspose.Words pro Java?
-
-Aspose.Words pro Java je Java knihovna, která vývojářům umožňuje programově vytvářet, upravovat a konvertovat Word dokumenty. Poskytuje širokou škálu funkcí a nástrojů pro práci s dokumenty v různých formátech.
-
-### Jak mohu stáhnout Aspose.Words pro Java?
-
-Můžete stáhnout Aspose.Words pro Java z webu Aspose pomocí tohoto odkazu: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Jaké jsou výhody používání tvarů dokumentu?
-
-Tvary dokumentu přidávají vizuální prvky a interaktivitu vašim dokumentům, čímž je činí poutavějšími a informativnějšími. S tvary můžete vytvářet callouty, tlačítka, obrázky, vodoznaky a další, což zlepšuje celkový uživatelský zážitek.
-
-### Mohu přizpůsobit vzhled tvarů?
-
-Ano, můžete přizpůsobit vzhled tvarů úpravou jejich vlastností, jako jsou velikost, pozice, rotace a barva výplně. Aspose.Words pro Java poskytuje rozsáhlé možnosti pro přizpůsobení tvarů.
-
-### Je Aspose.Words pro Java kompatibilní se SmartArt?
-
-Ano, Aspose.Words pro Java podporuje SmartArt tvary, což vám umožní pracovat s komplexními diagramy a grafikou ve vašich dokumentech.
-
-## Často kladené otázky
-
 **Q: Mohu kombinovat text box s obrázkem uvnitř stejného tvaru?**  
 A: Ano. Vložte obrázek do text boxu pomocí `builder.insertImage()` po vytvoření tvaru a poté upravte jeho rozložení podle potřeby.
 

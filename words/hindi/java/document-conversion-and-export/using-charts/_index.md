@@ -10,22 +10,6 @@ url: /hi/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
 
- be left English. Might keep as is.
-
-I'll translate headings and text, but keep the parenthetical tags unchanged.
-
-Also need to translate "Pro tip:" maybe keep as "प्रो टिप:" or "उपयोगी टिप:"? Keep as "Pro tip:" maybe keep English? It's a phrase; could translate to Hindi "प्रो टिप:" but it's okay.
-
-I'll translate.
-
-Now produce final content with same structure.
-
-Let's craft translation.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

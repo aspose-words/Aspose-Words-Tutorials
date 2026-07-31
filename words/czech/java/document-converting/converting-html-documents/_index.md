@@ -42,7 +42,7 @@ Převod HTML na DOCX znamená převést HTML soubor – včetně nadpisů, tabul
 
 1. **Java Development Kit (JDK)** – Nainstalovaný JDK 8 nebo novější.  
 2. **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor dle vašeho výběru.  
-3. **Aspose.Words for Java knihovna** – Stáhněte si nejnovější verzi **[zde](https://releases.aspose.com/words/java/)** a přidejte ji do cesty sestavení vašeho projektu.  
+3. **Aspose.Words for Java knihovna** – Stáhněte si nejnovější verzi **[zde](https://releases.aspose.com/words/java/) ** a přidejte ji do cesty sestavení vašeho projektu.  
 4. **Vstupní HTML soubor** – HTML, které chcete převést na Word dokument.
 
 ## Import balíčků
@@ -106,15 +106,7 @@ Ano – zabalte dvouřádkový převodní kód do smyčky, naplánovaného úkol
 
 ### 5. Kde najdu podrobnější dokumentaci?
 
-Podrobnější informace najdete v **[dokumentaci](https://reference.aspose.com/words/java/)**, kde se můžete hlouběji ponořit do možností Aspose.Words for Java.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+Podrobnější informace najdete v **[dokumentaci](https://reference.aspose.com/words/java/) **, kde se můžete hlouběji ponořit do možností Aspose.Words for Java.
 
 ---
 
@@ -123,3 +115,11 @@ Podrobnější informace najdete v **[dokumentaci](https://reference.aspose.com/
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -10,9 +10,7 @@ url: /tr/java/document-converting/converting-html-documents/
 weight: 12
 ---
 
- not to translate URLs.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -44,7 +42,7 @@ HTML'yi DOCX'e dönüştürmek, başlıklar, tablolar, görseller ve temel CSS i
 
 1. **Java Development Kit (JDK)** – JDK 8 veya üzeri kurulu.  
 2. **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör.  
-3. **Aspose.Words for Java library** – En son sürümü **[buradan](https://releases.aspose.com/words/java/)** indirin ve projenizin derleme yoluna ekleyin.  
+3. **Aspose.Words for Java library** – En son sürümü **[buradan](https://releases.aspose.com/words/java/) ** indirin ve projenizin derleme yoluna ekleyin.  
 4. **Giriş HTML dosyası** – Word belgesine dönüştürmek istediğiniz HTML.  
 
 ## Import Packages
@@ -108,7 +106,13 @@ Evet—iki satırlık dönüşüm kodunu bir döngüye, zamanlanmış bir işe v
 
 ### 5. Daha ayrıntılı belgeleri nerede bulabilirim?
 
-Aspose.Words for Java'ın yeteneklerine daha derinlemesine dalmak için **[belgelere](https://reference.aspose.com/words/java/)** göz atabilirsiniz.
+Aspose.Words for Java'ın yeteneklerine daha derinlemesine dalmak için **[belgelere](https://reference.aspose.com/words/java/) ** göz atabilirsiniz.
+
+---
+
+**Last Updated:** 2026-02-16  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -117,9 +121,3 @@ Aspose.Words for Java'ın yeteneklerine daha derinlemesine dalmak için **[belge
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose

@@ -193,28 +193,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 In this guide, we’ve covered how to **create text box** objects, group multiple shapes, adjust aspect ratios, embed shapes inside table cells, add watermarks, and work with SmartArt diagrams using Aspose.Words for Java. These techniques empower you to build richly formatted, interactive Word documents programmatically.
 
-## FAQ's
-
-### What is Aspose.Words for Java?
-
-Aspose.Words for Java is a Java library that allows developers to create, modify, and convert Word documents programmatically. It provides a wide range of features and tools for working with documents in various formats.
-
-### How can I download Aspose.Words for Java?
-
-You can download Aspose.Words for Java from the Aspose website by following this link: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### What are the benefits of using document shapes?
-
-Document shapes add visual elements and interactivity to your documents, making them more engaging and informative. With shapes, you can create callouts, buttons, images, watermarks, and more, enhancing the overall user experience.
-
-### Can I customize the appearance of shapes?
-
-Yes, you can customize the appearance of shapes by adjusting their properties such as size, position, rotation, and fill color. Aspose.Words for Java provides extensive options for shape customization.
-
-### Is Aspose.Words for Java compatible with SmartArt?
-
-Yes, Aspose.Words for Java supports SmartArt shapes, allowing you to work with complex diagrams and graphics in your documents.
-
 ## Frequently Asked Questions
 
 **Q: Can I combine a text box with an image inside the same shape?**  

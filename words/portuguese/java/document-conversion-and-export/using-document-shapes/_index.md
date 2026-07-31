@@ -197,28 +197,6 @@ Neste guia, cobrimos como **criar text box** objetos, agrupar várias formas, aj
 
 ## Perguntas Frequentes
 
-### O que é Aspose.Words para Java?
-
-Aspose.Words para Java é uma biblioteca Java que permite aos desenvolvedores criar, modificar e converter documentos Word programaticamente. Ela oferece uma ampla gama de recursos e ferramentas para trabalhar com documentos em vários formatos.
-
-### Como posso baixar Aspose.Words para Java?
-
-Você pode baixar Aspose.Words para Java no site da Aspose seguindo este link: [Baixar Aspose.Words para Java](https://releases.aspose.com/words/java/)
-
-### Quais são os benefícios de usar formas de documento?
-
-Formas de documento adicionam elementos visuais e interatividade aos seus documentos, tornando‑os mais envolventes e informativos. Com formas, você pode criar chamadas, botões, imagens, marcas d'água e muito mais, aprimorando a experiência geral do usuário.
-
-### Posso personalizar a aparência das formas?
-
-Sim, você pode personalizar a aparência das formas ajustando propriedades como tamanho, posição, rotação e cor de preenchimento. Aspose.Words para Java fornece opções extensas para personalização de formas.
-
-### Aspose.Words para Java é compatível com SmartArt?
-
-Sim, Aspose.Words para Java suporta formas SmartArt, permitindo que você trabalhe com diagramas e gráficos complexos em seus documentos.
-
-## Perguntas Frequentes
-
 **Q: Posso combinar um text box com uma imagem dentro da mesma forma?**  
 A: Sim. Insira uma imagem na forma de text box usando `builder.insertImage()` após criar a forma, então ajuste seu layout conforme necessário.
 

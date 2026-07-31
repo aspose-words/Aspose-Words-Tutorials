@@ -10,33 +10,7 @@ url: /ru/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
 
- Cases" => "Общие сценарии использования"
-
-"Financial dashboards" => "Финансовые панели мониторинга"
-
-"Sales reports" => "Отчёты о продажах"
-
-"Project tracking" => "Отслеживание проектов"
-
-"Additional Chart Customizations" => "Дополнительные настройки диаграмм"
-
-"Conclusion" => "Заключение"
-
-"Frequently Asked Questions" => "Часто задаваемые вопросы"
-
-Then Q&A.
-
-"Last Updated:" keep date.
-
-"Tested With:" etc.
-
-Now produce final content with same markdown.
-
-Make sure to keep code block placeholders as separate lines.
-
-Also there are block shortcodes at top and bottom.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

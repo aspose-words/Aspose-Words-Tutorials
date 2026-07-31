@@ -41,7 +41,7 @@ HTML을 DOCX로 변환한다는 것은 헤딩, 표, 이미지 및 기본 CSS가 
 
 1. **Java Development Kit (JDK)** – JDK 8 이상이 설치되어 있어야 합니다.  
 2. **IDE** – IntelliJ IDEA, Eclipse 또는 선호하는 편집기.  
-3. **Aspose.Words for Java 라이브러리** – 최신 버전을 **[here](https://releases.aspose.com/words/java/)**에서 다운로드하고 프로젝트 빌드 경로에 추가하십시오.  
+3. **Aspose.Words for Java 라이브러리** – 최신 버전을 **[here](https://releases.aspose.com/words/java/) ** 에서 다운로드하고 프로젝트 빌드 경로에 추가하십시오.  
 4. **입력 HTML 파일** – Word 문서로 변환하려는 HTML 파일.  
 
 ## 패키지 가져오기
@@ -105,7 +105,13 @@ Aspose.Words는 정적 HTML 콘텐츠에 초점을 맞춥니다. 기본 CSS는 �
 
 ### 5. 자세한 문서는 어디서 찾을 수 있나요?
 
-Aspose.Words for Java의 기능을 더 깊이 탐구하려면 **[documentation](https://reference.aspose.com/words/java/)**를 확인하십시오.
+Aspose.Words for Java의 기능을 더 깊이 탐구하려면 **[documentation](https://reference.aspose.com/words/java/) ** 를 확인하십시오.
+
+---
+
+**마지막 업데이트:** 2026-02-16  
+**테스트 환경:** Aspose.Words for Java 24.12  
+**작성자:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,9 +120,3 @@ Aspose.Words for Java의 기능을 더 깊이 탐구하려면 **[documentation](
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-02-16  
-**테스트 환경:** Aspose.Words for Java 24.12  
-**작성자:** Aspose

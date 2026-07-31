@@ -41,7 +41,7 @@ weight: 12
 
 1. **Java Development Kit (JDK)** – JDK 8 أو أحدث مثبت.  
 2. **IDE** – IntelliJ IDEA، Eclipse، أو أي محرر تفضله.  
-3. **مكتبة Aspose.Words for Java** – حمّل أحدث نسخة **[هنا](https://releases.aspose.com/words/java/)** وأضفها إلى مسار بناء مشروعك.  
+3. **مكتبة Aspose.Words for Java** – حمّل أحدث نسخة **[هنا](https://releases.aspose.com/words/java/) ** وأضفها إلى مسار بناء مشروعك.  
 4. **ملف HTML الإدخالي** – الـ HTML الذي تريد تحويله إلى مستند Word.  
 
 ## استيراد الحزم
@@ -105,7 +105,13 @@ doc.save("Output.docx");
 
 ### 5. أين يمكنني العثور على وثائق أكثر تفصيلًا؟
 
-يمكنك استكشاف المزيد في **[documentation](https://reference.aspose.com/words/java/)** للتعمق في قدرات Aspose.Words for Java.
+يمكنك استكشاف المزيد في **[documentation](https://reference.aspose.com/words/java/) ** للتعمق في قدرات Aspose.Words for Java.
+
+---
+
+**آخر تحديث:** 2026-02-16  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,9 +120,3 @@ doc.save("Output.docx");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-02-16  
-**تم الاختبار مع:** Aspose.Words for Java 24.12  
-**المؤلف:** Aspose

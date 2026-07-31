@@ -193,28 +193,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 このガイドでは、Aspose.Words for Java を使用して **テキストボックスを作成** オブジェクト、複数シェイプのグループ化、アスペクト比の調整、テーブルセル内へのシェイプ埋め込み、透かしの追加、SmartArt ダイアグラムの操作方法を取り上げました。これらのテクニックにより、プログラムでリッチな書式設定とインタラクティブな Word ドキュメントを構築できるようになります。
 
-## FAQ
-
-### Aspose.Words for Java とは何ですか？
-
-Aspose.Words for Java は、開発者がプログラムで Word ドキュメントを作成、変更、変換できる Java ライブラリです。さまざまな形式のドキュメントを操作するための豊富な機能とツールを提供します。
-
-### Aspose.Words for Java はどこからダウンロードできますか？
-
-以下のリンクから Aspose のウェブサイトで Aspose.Words for Java をダウンロードできます: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### ドキュメントシェイプを使用するメリットは何ですか？
-
-ドキュメントシェイプは視覚的要素とインタラクティブ性を追加し、ドキュメントをより魅力的で情報豊かにします。シェイプを使って吹き出し、ボタン、画像、透かしなどを作成でき、全体的なユーザー体験が向上します。
-
-### シェイプの外観をカスタマイズできますか？
-
-はい、サイズ、位置、回転、塗りつぶし色などのプロパティを調整することでシェイプの外観をカスタマイズできます。Aspose.Words for Java はシェイプカスタマイズのための豊富なオプションを提供します。
-
-### Aspose.Words for Java は SmartArt と互換性がありますか？
-
-はい、Aspose.Words for Java は SmartArt シェイプをサポートしており、ドキュメント内で複雑な図やグラフィックを扱うことができます。
-
 ## よくある質問
 
 **Q: 同じシェイプ内でテキストボックスと画像を組み合わせられますか？**  

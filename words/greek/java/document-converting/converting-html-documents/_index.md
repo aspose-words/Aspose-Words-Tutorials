@@ -42,7 +42,7 @@ weight: 12
 
 1. **Java Development Kit (JDK)** – Εγκατεστημένο JDK 8 ή νεότερο.  
 2. **IDE** – IntelliJ IDEA, Eclipse ή οποιονδήποτε επεξεργαστή προτιμάτε.  
-3. **Aspose.Words for Java library** – Κατεβάστε την πιο πρόσφατη έκδοση **[here](https://releases.aspose.com/words/java/)** και προσθέστε την στη διαδρομή κατασκευής του έργου σας.  
+3. **Aspose.Words for Java library** – Κατεβάστε την πιο πρόσφατη έκδοση **[here](https://releases.aspose.com/words/java/) ** και προσθέστε την στη διαδρομή κατασκευής του έργου σας.  
 4. **Input HTML file** – Το HTML που θέλετε να μετατρέψετε σε έγγραφο Word.
 
 ## Εισαγωγή Πακέτων
@@ -106,7 +106,13 @@ doc.save("Output.docx");
 
 ### 5. Πού μπορώ να βρω πιο λεπτομερή τεκμηρίωση;
 
-Μπορείτε να εξερευνήσετε περισσότερα στην **[documentation](https://reference.aspose.com/words/java/)** για να εμβαθύνετε στις δυνατότητες του Aspose.Words for Java.
+Μπορείτε να εξερευνήσετε περισσότερα στην **[documentation](https://reference.aspose.com/words/java/) ** για να εμβαθύνετε στις δυνατότητες του Aspose.Words for Java.
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-02-16  
+**Δοκιμή Με:** Aspose.Words for Java 24.12  
+**Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -115,9 +121,3 @@ doc.save("Output.docx");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-02-16  
-**Δοκιμή Με:** Aspose.Words for Java 24.12  
-**Συγγραφέας:** Aspose

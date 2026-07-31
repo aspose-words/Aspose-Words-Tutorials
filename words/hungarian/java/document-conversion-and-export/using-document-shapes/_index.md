@@ -11,20 +11,6 @@ url: /hu/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
 
--backtop-button >}}
-
-Now translate each piece.
-
-We must keep code block placeholders unchanged.
-
-Let's produce final translation.
-
-Be careful with markdown formatting.
-
-Also note "FAQ's" maybe "GYIK". Keep as heading but translate.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -209,28 +195,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 ## Összegzés
 
 Ebben az útmutatóban áttekintettük, hogyan **hozhatsz létre text box** objektumokat, csoportosíthatsz több alakzatot, állíthatod be az arányokat, ágyazhatsz be alakzatokat táblázatcellákba, adhatsz hozzá vízjeleket, és dolgozhatsz SmartArt diagramokkal az Aspose.Words for Java segítségével. Ezek a technikák lehetővé teszik, hogy programozottan gazdag formázású, interaktív Word dokumentumokat építs.
-
-## GYIK
-
-### Mi az Aspose.Words for Java?
-
-Az Aspose.Words for Java egy Java könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és konvertáljanak Word dokumentumokat. Széles körű funkciókat és eszközöket kínál a különböző formátumú dokumentumok kezeléséhez.
-
-### Hogyan tölthetem le az Aspose.Words for Java‑t?
-
-Az Aspose.Words for Java‑t az Aspose weboldaláról töltheted le a következő hivatkozáson keresztül: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Mik az előnyei a dokumentum alakzatok használatának?
-
-A dokumentum alakzatok vizuális elemeket és interaktivitást adnak a dokumentumaidhoz, így azok vonzóbbak és informatívabbak lesznek. Alakzatokkal felhívásokat, gombokat, képeket, vízjeleket és még sok mást hozhatsz létre, javítva a felhasználói élményt.
-
-### Testreszabhatom az alakzatok megjelenését?
-
-Igen, az alakzatok megjelenését testreszabhatod a tulajdonságaik, például méret, pozíció, forgatás és kitöltőszín módosításával. Az Aspose.Words for Java kiterjedt lehetőségeket biztosít az alakzatok testreszabásához.
-
-### Az Aspose.Words for Java kompatibilis a SmartArt‑dal?
-
-Igen, az Aspose.Words for Java támogatja a SmartArt alakzatokat, lehetővé téve komplex diagramok és grafikák kezelését a dokumentumokban.
 
 ## Gyakran Ismételt Kérdések
 

@@ -42,7 +42,7 @@ Convertir HTML a DOCX significa tomar un archivo HTML —completo con encabezado
 
 1. **Java Development Kit (JDK)** – JDK 8 o posterior instalado.  
 2. **IDE** – IntelliJ IDEA, Eclipse, o cualquier editor que prefiera.  
-3. **Aspose.Words for Java library** – Descargue la última versión **[aquí](https://releases.aspose.com/words/java/)** y agréguela a la ruta de compilación de su proyecto.  
+3. **Aspose.Words for Java library** – Descargue la última versión **[aquí](https://releases.aspose.com/words/java/) ** y agréguela a la ruta de compilación de su proyecto.  
 4. **Archivo HTML de entrada** – El HTML que desea convertir en un documento Word.
 
 ## Importar paquetes
@@ -106,15 +106,7 @@ Sí—encierre el código de conversión de dos líneas en un bucle, un trabajo 
 
 ### 5. ¿Dónde puedo encontrar documentación más detallada?
 
-Puede explorar más en la **[documentación](https://reference.aspose.com/words/java/)** para profundizar en las capacidades de Aspose.Words for Java.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+Puede explorar más en la **[documentación](https://reference.aspose.com/words/java/) ** para profundizar en las capacidades de Aspose.Words for Java.
 
 ---
 
@@ -123,3 +115,11 @@ Puede explorar más en la **[documentación](https://reference.aspose.com/words/
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

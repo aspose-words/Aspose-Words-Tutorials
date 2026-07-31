@@ -196,28 +196,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 Dans ce guide, nous avons couvert comment **create text box** des objets, regrouper plusieurs formes, ajuster les rapports d'aspect, intégrer des formes dans des cellules de tableau, ajouter des filigranes, et travailler avec des diagrammes SmartArt en utilisant Aspose.Words for Java. Ces techniques vous permettent de créer des documents Word richement formatés et interactifs de manière programmatique.
 
-## FAQ
-
-### Qu'est-ce qu'Aspose.Words for Java ?
-
-Aspose.Words for Java est une bibliothèque Java qui permet aux développeurs de créer, modifier et convertir des documents Word de manière programmatique. Elle offre un large éventail de fonctionnalités et d'outils pour travailler avec des documents dans divers formats.
-
-### Comment puis‑je télécharger Aspose.Words for Java ?
-
-Vous pouvez télécharger Aspose.Words for Java depuis le site Aspose en suivant ce lien : [Télécharger Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Quels sont les avantages d'utiliser les formes de document ?
-
-Les formes de document ajoutent des éléments visuels et de l'interactivité à vos documents, les rendant plus attrayants et informatifs. Avec les formes, vous pouvez créer des bulles d'appel, des boutons, des images, des filigranes, et plus encore, améliorant l'expérience utilisateur globale.
-
-### Puis‑je personnaliser l'apparence des formes ?
-
-Oui, vous pouvez personnaliser l'apparence des formes en ajustant leurs propriétés telles que la taille, la position, la rotation et la couleur de remplissage. Aspose.Words for Java offre de nombreuses options pour la personnalisation des formes.
-
-### Aspose.Words for Java est‑il compatible avec SmartArt ?
-
-Oui, Aspose.Words for Java prend en charge les formes SmartArt, vous permettant de travailler avec des diagrammes et graphiques complexes dans vos documents.
-
 ## Questions fréquemment posées
 
 **Q : Puis‑je combiner une text box avec une image à l'intérieur de la même forme ?**  

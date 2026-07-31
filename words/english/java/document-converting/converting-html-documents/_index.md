@@ -40,7 +40,7 @@ Converting HTML to DOCX means taking an HTML file—complete with headings, tabl
 
 1. **Java Development Kit (JDK)** – JDK 8 or later installed.  
 2. **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
-3. **Aspose.Words for Java library** – Download the latest version **[here](https://releases.aspose.com/words/java/)** and add it to your project’s build path.  
+3. **Aspose.Words for Java library** – Download the latest version **[here](https://releases.aspose.com/words/java/) ** and add it to your project’s build path.  
 4. **Input HTML file** – The HTML you want to turn into a Word document.
 
 ## Import Packages
@@ -104,15 +104,7 @@ Yes—wrap the two‑line conversion code in a loop, a scheduled job, or a REST 
 
 ### 5. Where can I find more detailed documentation?
 
-You can explore more in the **[documentation](https://reference.aspose.com/words/java/)** to dive deeper into the capabilities of Aspose.Words for Java.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+You can explore more in the **[documentation](https://reference.aspose.com/words/java/) ** to dive deeper into the capabilities of Aspose.Words for Java.
 
 ---
 
@@ -121,3 +113,11 @@ You can explore more in the **[documentation](https://reference.aspose.com/words
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

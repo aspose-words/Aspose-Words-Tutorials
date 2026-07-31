@@ -10,21 +10,7 @@ url: /nl/java/document-converting/converting-html-documents/
 weight: 12
 ---
 
-leerde documentatie vinden?"
-
-Answer translate, keep link.
-
-Then closing shortcodes.
-
-Then backtop button shortcode.
-
-Then horizontal rule and metadata lines: translate labels? "Last Updated:" keep English? Probably keep as is, but could translate "Last Updated:" to Dutch "Laatst bijgewerkt:" but it's not required; but it's text content. Should translate. "Tested With:" -> "Getest met:" "Author:" -> "Auteur:". Keep dates and versions unchanged.
-
-Now produce final content.
-
-Be careful to keep all markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -56,7 +42,7 @@ HTML naar DOCX converteren betekent dat je een HTML‑bestand – compleet met k
 
 1. **Java Development Kit (JDK)** – JDK 8 of later geïnstalleerd.  
 2. **IDE** – IntelliJ IDEA, Eclipse, of een andere editor naar keuze.  
-3. **Aspose.Words for Java library** – Download de nieuwste versie **[here](https://releases.aspose.com/words/java/)** en voeg deze toe aan het build‑pad van je project.  
+3. **Aspose.Words for Java library** – Download de nieuwste versie **[here](https://releases.aspose.com/words/java/) ** en voeg deze toe aan het build‑pad van je project.  
 4. **Input HTML file** – De HTML die je wilt omzetten naar een Word‑document.
 
 ## Import Packages
@@ -120,15 +106,7 @@ Ja — plaats de twee‑regelige conversiecode in een lus, een geplande taak, of
 
 ### 5. Waar kan ik meer gedetailleerde documentatie vinden?
 
-Je kunt meer ontdekken in de **[documentation](https://reference.aspose.com/words/java/)** om dieper in de mogelijkheden van Aspose.Words for Java te duiken.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+Je kunt meer ontdekken in de **[documentation](https://reference.aspose.com/words/java/) ** om dieper in de mogelijkheden van Aspose.Words for Java te duiken.
 
 ---
 
@@ -137,3 +115,11 @@ Je kunt meer ontdekken in de **[documentation](https://reference.aspose.com/word
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

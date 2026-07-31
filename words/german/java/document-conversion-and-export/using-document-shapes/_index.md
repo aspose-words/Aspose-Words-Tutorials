@@ -11,11 +11,7 @@ url: /de/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
 
- any markdown formatting.
-
-Make sure code block placeholders remain unchanged.
-
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -199,28 +195,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 ## Fazit
 
 In diesem Leitfaden haben wir behandelt, wie man **create text box**‑Objekte erstellt, mehrere Formen gruppiert, Seitenverhältnisse anpasst, Formen in Tabellenzellen einbettet, Wasserzeichen hinzufügt und mit SmartArt‑Diagrammen unter Verwendung von Aspose.Words für Java arbeitet. Diese Techniken befähigen Sie, programmgesteuert reich formatierte, interaktive Word‑Dokumente zu erstellen.
-
-## FAQ
-
-### Was ist Aspose.Words für Java?
-
-Aspose.Words für Java ist eine Java‑Bibliothek, die Entwicklern ermöglicht, Word‑Dokumente programmgesteuert zu erstellen, zu ändern und zu konvertieren. Sie bietet eine breite Palette von Funktionen und Werkzeugen für die Arbeit mit Dokumenten in verschiedenen Formaten.
-
-### Wie kann ich Aspose.Words für Java herunterladen?
-
-Sie können Aspose.Words für Java von der Aspose‑Website herunterladen, indem Sie diesem Link folgen: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Was sind die Vorteile der Verwendung von Dokumentformen?
-
-Dokumentformen fügen Ihren Dokumenten visuelle Elemente und Interaktivität hinzu, wodurch sie ansprechender und informativer werden. Mit Formen können Sie Callouts, Schaltflächen, Bilder, Wasserzeichen und mehr erstellen und so das Gesamterlebnis des Benutzers verbessern.
-
-### Kann ich das Aussehen von Formen anpassen?
-
-Ja, Sie können das Aussehen von Formen anpassen, indem Sie deren Eigenschaften wie Größe, Position, Drehung und Füllfarbe ändern. Aspose.Words für Java bietet umfangreiche Optionen zur Form‑Anpassung.
-
-### Ist Aspose.Words für Java mit SmartArt kompatibel?
-
-Ja, Aspose.Words für Java unterstützt SmartArt‑Formen, sodass Sie mit komplexen Diagrammen und Grafiken in Ihren Dokumenten arbeiten können.
 
 ## Häufig gestellte Fragen
 

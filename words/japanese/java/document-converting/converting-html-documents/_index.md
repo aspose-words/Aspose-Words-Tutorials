@@ -9,7 +9,7 @@ url: /ja/java/document-converting/converting-html-documents/
 weight: 12
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -41,7 +41,7 @@ HTML を DOCX に変換するとは、見出し、表、画像、基本的な CS
 
 1. **Java Development Kit (JDK)** – JDK 8 以降がインストールされていること。  
 2. **IDE** – IntelliJ IDEA、Eclipse、またはお好みのエディタ。  
-3. **Aspose.Words for Java ライブラリ** – 最新バージョンを **[here](https://releases.aspose.com/words/java/)** からダウンロードし、プロジェクトのビルドパスに追加してください。  
+3. **Aspose.Words for Java ライブラリ** – 最新バージョンを **[here](https://releases.aspose.com/words/java/) ** からダウンロードし、プロジェクトのビルドパスに追加してください。  
 4. **入力 HTML ファイル** – Word ドキュメントに変換したい HTML。  
 
 ## パッケージのインポート
@@ -105,7 +105,13 @@ Aspose.Words は静的な HTML コンテンツに焦点を当てています。�
 
 ### 5. 詳細なドキュメントはどこで見つかりますか？
 
-詳細は **[documentation](https://reference.aspose.com/words/java/)** をご覧いただき、Aspose.Words for Java の機能をさらに深く探ってください。
+詳細は **[documentation](https://reference.aspose.com/words/java/) ** をご覧いただき、Aspose.Words for Java の機能をさらに深く探ってください。
+
+---
+
+**最終更新日:** 2026-02-16  
+**テスト環境:** Aspose.Words for Java 24.12  
+**作者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,9 +120,3 @@ Aspose.Words は静的な HTML コンテンツに焦点を当てています。�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-02-16  
-**テスト環境:** Aspose.Words for Java 24.12  
-**作者:** Aspose

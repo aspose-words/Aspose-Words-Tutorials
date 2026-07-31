@@ -196,29 +196,7 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 Dalam panduan ini, kami telah membahas cara **membuat kotak teks** objek, mengelompokkan beberapa bentuk, menyesuaikan rasio aspek, menyematkan bentuk di dalam sel tabel, menambahkan watermark, dan bekerja dengan diagram SmartArt menggunakan Aspose.Words untuk Java. Teknik-teknik ini memberi Anda kemampuan untuk membangun dokumen Word yang kaya format, interaktif secara programatik.
 
-## FAQ's
-
-### Apa itu Aspose.Words untuk Java?
-
-Aspose.Words untuk Java adalah perpustakaan Java yang memungkinkan pengembang membuat, memodifikasi, dan mengonversi dokumen Word secara programatik. Ia menyediakan berbagai fitur dan alat untuk bekerja dengan dokumen dalam berbagai format.
-
-### Bagaimana cara mengunduh Aspose.Words untuk Java?
-
-Anda dapat mengunduh Aspose.Words untuk Java dari situs Aspose dengan mengikuti tautan ini: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Apa manfaat menggunakan bentuk dokumen?
-
-Bentuk dokumen menambahkan elemen visual dan interaktivitas ke dokumen Anda, membuatnya lebih menarik dan informatif. Dengan bentuk, Anda dapat membuat callout, tombol, gambar, watermark, dan lainnya, meningkatkan pengalaman pengguna secara keseluruhan.
-
-### Bisakah saya menyesuaikan tampilan bentuk?
-
-Ya, Anda dapat menyesuaikan tampilan bentuk dengan mengatur properti seperti ukuran, posisi, rotasi, dan warna isi. Aspose.Words untuk Java menyediakan opsi yang luas untuk penyesuaian bentuk.
-
-### Apakah Aspose.Words untuk Java kompatibel dengan SmartArt?
-
-Ya, Aspose.Words untuk Java mendukung bentuk SmartArt, memungkinkan Anda bekerja dengan diagram dan grafik kompleks dalam dokumen Anda.
-
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggabungkan kotak teks dengan gambar di dalam bentuk yang sama?**  
 A: Ya. Sisipkan gambar ke dalam bentuk kotak teks menggunakan `builder.insertImage()` setelah membuat bentuk, lalu sesuaikan tata letaknya sesuai kebutuhan.

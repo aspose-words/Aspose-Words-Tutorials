@@ -195,28 +195,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 Trong hướng dẫn này, chúng tôi đã trình bày cách **create text box** các đối tượng, nhóm nhiều hình dạng, điều chỉnh tỷ lệ khung hình, nhúng hình dạng vào các ô bảng, thêm watermark, và làm việc với các biểu đồ SmartArt bằng Aspose.Words cho Java. Những kỹ thuật này cho phép bạn xây dựng các tài liệu Word phong phú, định dạng tốt và tương tác một cách lập trình.
 
-## Câu hỏi thường gặp
-
-### Aspose.Words cho Java là gì?
-
-Aspose.Words cho Java là một thư viện Java cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi tài liệu Word một cách lập trình. Nó cung cấp một loạt các tính năng và công cụ để làm việc với tài liệu ở nhiều định dạng khác nhau.
-
-### Làm sao để tải Aspose.Words cho Java?
-
-Bạn có thể tải Aspose.Words cho Java từ trang web Aspose bằng cách theo liên kết này: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Lợi ích của việc sử dụng các hình dạng tài liệu là gì?
-
-Các hình dạng tài liệu thêm các yếu tố trực quan và tính tương tác vào tài liệu của bạn, làm chúng trở nên hấp dẫn và thông tin hơn. Với các hình dạng, bạn có thể tạo callout, nút, hình ảnh, watermark và hơn thế nữa, nâng cao trải nghiệm người dùng tổng thể.
-
-### Tôi có thể tùy chỉnh giao diện của các hình dạng không?
-
-Có, bạn có thể tùy chỉnh giao diện của các hình dạng bằng cách điều chỉnh các thuộc tính như kích thước, vị trí, góc xoay và màu nền. Aspose.Words cho Java cung cấp nhiều tùy chọn để tùy chỉnh hình dạng.
-
-### Aspose.Words cho Java có tương thích với SmartArt không?
-
-Có, Aspose.Words cho Java hỗ trợ các hình dạng SmartArt, cho phép bạn làm việc với các sơ đồ và đồ họa phức tạp trong tài liệu.
-
 ## Các Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể kết hợp một text box với hình ảnh bên trong cùng một hình dạng không?**  

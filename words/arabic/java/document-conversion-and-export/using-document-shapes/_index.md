@@ -10,19 +10,7 @@ url: /ar/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
 
-" keep same.
-
-"**Tested With:** Aspose.Words for Java 24.12" keep.
-
-"**Author:** Aspose" keep.
-
-Then closing shortcodes.
-
-Also there is a backtop button shortcode at end.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -206,28 +194,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 ## الخلاصة
 
 في هذا الدليل، غطينا كيفية **create text box** كائنات، تجميع عدة أشكال، ضبط نسب الأبعاد، تضمين الأشكال داخل خلايا الجداول، إضافة علامات مائية، والعمل مع مخططات SmartArt باستخدام Aspose.Words for Java. تمكّنك هذه التقنيات من إنشاء مستندات Word مُنسقة بشكل غني وتفاعلية برمجيًا.
-
-## الأسئلة الشائعة
-
-### ما هو Aspose.Words for Java؟
-
-Aspose.Words for Java هي مكتبة Java تتيح للمطورين إنشاء وتعديل وتحويل مستندات Word برمجيًا. توفر مجموعة واسعة من الميزات والأدوات للعمل مع المستندات بمختلف الصيغ.
-
-### كيف يمكنني تحميل Aspose.Words for Java؟
-
-يمكنك تحميل Aspose.Words for Java من موقع Aspose عبر الرابط التالي: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### ما هي فوائد استخدام أشكال المستند؟
-
-تضيف أشكال المستند عناصر بصرية وتفاعلية إلى مستنداتك، مما يجعلها أكثر جاذبية وإفادة. باستخدام الأشكال، يمكنك إنشاء إشارات توضيحية، أزرار، صور، علامات مائية، وأكثر، مما يعزز تجربة المستخدم العامة.
-
-### هل يمكنني تخصيص مظهر الأشكال؟
-
-نعم، يمكنك تخصيص مظهر الأشكال عن طريق تعديل خصائصها مثل الحجم، الموضع، الدوران، ولون التعبئة. توفر Aspose.Words for Java خيارات واسعة لتخصيص الأشكال.
-
-### هل Aspose.Words for Java متوافق مع SmartArt؟
-
-نعم، يدعم Aspose.Words for Java أشكال SmartArt، مما يتيح لك العمل مع مخططات ورسومات معقدة في مستنداتك.
 
 ## الأسئلة المتكررة
 

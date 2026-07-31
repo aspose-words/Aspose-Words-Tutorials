@@ -198,28 +198,6 @@ In deze gids hebben we behandeld hoe je **create text box** objecten maakt, meer
 
 ## Veelgestelde vragen
 
-### Wat is Aspose.Words voor Java?
-
-Aspose.Words voor Java is een Java‑bibliotheek die ontwikkelaars in staat stelt Word‑documenten programmatically te maken, te wijzigen en te converteren. Het biedt een breed scala aan functies en tools voor het werken met documenten in verschillende formaten.
-
-### Hoe kan ik Aspose.Words voor Java downloaden?
-
-Je kunt Aspose.Words voor Java downloaden van de Aspose‑website via deze link: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Wat zijn de voordelen van het gebruiken van documentvormen?
-
-Documentvormen voegen visuele elementen en interactiviteit toe aan je documenten, waardoor ze boeiender en informatiever worden. Met vormen kun je bijschriften, knoppen, afbeeldingen, watermerken en meer maken, wat de algehele gebruikerservaring verbetert.
-
-### Kan ik het uiterlijk van vormen aanpassen?
-
-Ja, je kunt het uiterlijk van vormen aanpassen door hun eigenschappen te wijzigen, zoals grootte, positie, rotatie en vulkleur. Aspose.Words voor Java biedt uitgebreide opties voor vormaanpassing.
-
-### Is Aspose.Words voor Java compatibel met SmartArt?
-
-Ja, Aspose.Words voor Java ondersteunt SmartArt‑vormen, waardoor je kunt werken met complexe diagrammen en grafische elementen in je documenten.
-
-## Veelgestelde vragen
-
 **Q: Kan ik een tekstvak combineren met een afbeelding binnen dezelfde vorm?**  
 A: Ja. Voeg een afbeelding toe aan de tekstvakvorm met `builder.insertImage()` nadat je de vorm hebt gemaakt, en pas vervolgens de lay-out naar behoefte aan.
 

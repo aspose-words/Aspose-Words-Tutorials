@@ -41,7 +41,7 @@ weight: 12
 
 1. **Java Development Kit (JDK)** – 已安裝 JDK 8 或更新版本。  
 2. **IDE** – IntelliJ IDEA、Eclipse，或您慣用的編輯器。  
-3. **Aspose.Words for Java 函式庫** – 前往 **[here](https://releases.aspose.com/words/java/)** 下載最新版本，並加入專案的建置路徑。  
+3. **Aspose.Words for Java 函式庫** – 前往 **[here](https://releases.aspose.com/words/java/) ** 下載最新版本，並加入專案的建置路徑。  
 4. **輸入的 HTML 檔案** – 您想要轉成 Word 的 HTML。
 
 ## 匯入套件
@@ -105,7 +105,13 @@ Aspose.Words 主要針對靜態 HTML。基本 CSS 會被保留，但 JavaScript 
 
 ### 5. 哪裡可以找到更詳細的文件說明？
 
-您可前往 **[documentation](https://reference.aspose.com/words/java/)**，深入了解 Aspose.Words for Java 的各項功能。
+您可前往 **[documentation](https://reference.aspose.com/words/java/) ** ，深入了解 Aspose.Words for Java 的各項功能。
+
+---
+
+**最後更新：** 2026-02-16  
+**測試版本：** Aspose.Words for Java 24.12  
+**作者：** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -114,9 +120,3 @@ Aspose.Words 主要針對靜態 HTML。基本 CSS 會被保留，但 JavaScript 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-02-16  
-**測試版本：** Aspose.Words for Java 24.12  
-**作者：** Aspose

@@ -194,28 +194,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 이 가이드에서는 **create text box** 객체를 만들고, 여러 도형을 그룹화하며, 가로세로 비율을 조정하고, 표 셀 안에 도형을 삽입하고, 워터마크를 추가하고, Aspose.Words for Java를 사용해 SmartArt 다이어그램을 다루는 방법을 다루었습니다. 이러한 기술을 통해 프로그래밍 방식으로 풍부하게 서식이 지정된 인터랙티브 워드 문서를 만들 수 있습니다.
 
-## FAQ
-
-### Aspose.Words for Java란 무엇인가요?
-
-Aspose.Words for Java는 개발자가 워드 문서를 프로그래밍 방식으로 생성, 수정 및 변환할 수 있도록 해 주는 Java 라이브러리입니다. 다양한 형식의 문서를 다루기 위한 광범위한 기능과 도구를 제공합니다.
-
-### Aspose.Words for Java를 어떻게 다운로드하나요?
-
-다음 링크를 통해 Aspose 웹사이트에서 Aspose.Words for Java를 다운로드할 수 있습니다: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### 문서 도형을 사용하면 어떤 이점이 있나요?
-
-문서 도형은 시각적 요소와 인터랙티브성을 추가하여 문서를 보다 매력적이고 유용하게 만듭니다. 도형을 사용하면 콜아웃, 버튼, 이미지, 워터마크 등을 만들 수 있어 전체 사용자 경험을 향상시킵니다.
-
-### 도형의 외관을 커스터마이즈할 수 있나요?
-
-예, 도형의 크기, 위치, 회전, 채우기 색상 등 속성을 조정하여 외관을 커스터마이즈할 수 있습니다. Aspose.Words for Java는 도형 커스터마이징을 위한 다양한 옵션을 제공합니다.
-
-### Aspose.Words for Java가 SmartArt와 호환되나요?
-
-예, Aspose.Words for Java는 SmartArt 도형을 지원하므로 문서에서 복잡한 다이어그램과 그래픽을 다룰 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 같은 도형 안에 텍스트 상자와 이미지를 결합할 수 있나요?**  

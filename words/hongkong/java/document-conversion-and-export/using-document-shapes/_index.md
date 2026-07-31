@@ -193,30 +193,6 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 
 在本指南中，我們介紹了如何**建立文字方塊** 物件、群組多個形狀、調整長寬比、將形狀嵌入表格儲存格、加入浮水印，以及使用 Aspose.Words for Java 操作 SmartArt 圖表。這些技巧讓您能以程式方式建立內容豐富、互動性高的 Word 文件。
 
-## 常見問題
-
-### 什麼是 Aspose.Words for Java？
-
-Aspose.Words for Java 是一套 Java 程式庫，讓開發者能以程式方式建立、修改與轉換 Word 文件。它提供廣泛的功能與工具，以處理各種格式的文件。
-
-### 如何下載 Aspose.Words for Java？
-
-您可透過以下連結從 Aspose 官方網站下載 Aspose.Words for Java：
-
-[下載 Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### 使用文件形狀的好處是什麼？
-
-文件形狀可為您的文件增添視覺元素與互動性，使內容更具吸引力與資訊性。透過形狀，您可以建立說明框、按鈕、圖片、浮水印等，提升整體使用者體驗。
-
-### 我可以自訂形狀的外觀嗎？
-
-可以，您可以透過調整大小、位置、旋轉角度與填色等屬性，自訂形狀的外觀。Aspose.Words for Java 提供豐富的形狀自訂選項。
-
-### Aspose.Words for Java 是否相容於 SmartArt？
-
-是的，Aspose.Words for Java 支援 SmartArt 形狀，讓您能在文件中處理複雜的圖表與圖形。
-
 ## 常見問答
 
 **Q: 我可以在同一個形狀內同時結合文字方塊與圖片嗎？**  
