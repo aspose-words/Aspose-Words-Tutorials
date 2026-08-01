@@ -37,6 +37,9 @@
 ### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος ορθογωνίου με εφέ σκιάς](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Μάθετε πώς να προσθέσετε σχήμα ορθογωνίου με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
 
+### [Ομαδοποίηση σχημάτων σε Word με Java – Πλήρης οδηγός βήμα προς βήμα](./group-shapes-in-word-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java, με πλήρη βήματα και παραδείγματα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)
