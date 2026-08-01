@@ -27,38 +27,41 @@ Kategori 'Operasi Dokumen' dirancang khusus untuk pengembang yang ingin memperda
 ### [Manipulasi PDF Tingkat Lanjut dengan Aspose.Words untuk Python: Panduan Lengkap](./aspose-words-python-pdf-manipulation/)
 Pelajari cara memanipulasi PDF menggunakan Aspose.Words untuk Python. Konversi, edit, dan tangani dokumen terenkripsi dengan mudah.
 
-    ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
+### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
 Pelajari cara mengonversi dokumen Microsoft Word (DOCX) ke XAML bentuk tetap menggunakan Aspose.Words untuk Python, memastikan manajemen sumber daya yang efisien dan integritas desain.
 
-    ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
+### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
 Pelajari cara memuat dokumen RTF secara efisien dan mendeteksi pengodean UTF-8 menggunakan Aspose.Words untuk Python. Tingkatkan akurasi penanganan teks dalam proyek Anda.
 
-    ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
+### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
 Pelajari cara mengatasi tautan rusak dalam file .chm menggunakan pustaka Aspose.Words yang canggih. Tingkatkan keandalan dokumen dan pengalaman pengguna Anda dengan panduan langkah demi langkah ini.
 
-    ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
+### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
 Pelajari cara menggunakan Aspose.Words untuk Python guna mengonversi dokumen Word menjadi halaman HTML terpisah menggunakan panggilan balik khusus. Sempurna untuk manajemen dokumen dan penerbitan web.
 
-    ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
+### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
 Pelajari cara mengelola dan memproses file markdown secara efisien menggunakan fitur MarkdownLoadOptions dari Aspose.Words dalam bahasa Python. Tingkatkan alur kerja dokumen Anda dengan kontrol yang tepat atas pemformatan.
 
-    ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
+### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
 Pelajari cara memuat, mengelola, dan mengotomatiskan dokumen Microsoft Word dengan Aspose.Words dalam Python. Sederhanakan tugas pemrosesan dokumen Anda dengan mudah.
 
-    ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
+### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
 Tutorial kode untuk Aspose.Words Python-net
 
-    ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
+### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
 Pelajari cara membatasi tingkat judul dan menerapkan tanda tangan digital dalam dokumen XPS menggunakan Aspose.Words untuk Python, yang meningkatkan keamanan dan navigasi dokumen.
 
-    ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
+### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
 Tutorial kode untuk Aspose.Words Python-net
 
-    ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
+### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Pelajari cara mengonversi dokumen Word ke format PostScript menggunakan Aspose.Words untuk Python. Panduan ini mencakup opsi penyiapan, konversi, dan pencetakan lipatan buku.
 
 ### [Pulihkan DOCX Rusak – Buka & Muat Dokumen Word](./recover-corrupted-docx-open-load-word-document/)
 Pelajari cara membuka dan memuat dokumen Word DOCX yang rusak menggunakan Aspose.Words untuk Python-net.
+
+### [Pulihkan DOCX Rusak di Python – Panduan Langkah-demi-Langkah Lengkap](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+Panduan lengkap untuk memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Python-net dengan langkah-langkah terperinci.
 
 ## Sumber Daya Tambahan
 

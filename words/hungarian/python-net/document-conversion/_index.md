@@ -37,6 +37,8 @@ Tanuld meg a Python dokumentumkonvertálást az Aspose.Words for Python segíts�
 Ismerje meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba Python segítségével.
 ### [Sérült DOCX helyreállítása és Word konvertálása Markdown formátumba](./recover-corrupted-docx-convert-word-to-markdown/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown formátumba Python segítségével.
+### [Hogyan exportálja a LaTeX-et a Word-ből – DOCX konvertálása Markdown formátumba](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Ismerje meg, hogyan exportálhatja a LaTeX-et a Word dokumentumból, és konvertálhatja a DOCX fájlokat Markdown formátumba Python segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

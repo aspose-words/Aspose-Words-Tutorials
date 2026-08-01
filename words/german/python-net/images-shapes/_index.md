@@ -37,6 +37,9 @@ Erfahren Sie, wie Sie die SVG-Ausgabe mit Aspose.Words für Python optimieren. D
 ### [Wie man Schatten in C# hinzufügt – Vollständiger Programmierleitfaden](./how-to-add-shadow-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie Schatten zu C#-Grafiken hinzufügen und das Erscheinungsbild Ihrer Anwendungen verbessern.
 
+### [Wie man Schatten in Aspose.Words setzt – Python-Beispiel](./how-to-set-shadow-in-aspose-words-python-example/)
+Erfahren Sie, wie Sie in Aspose.Words für Python Schatten zu Elementen hinzufügen und das Layout Ihrer Dokumente verbessern.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)

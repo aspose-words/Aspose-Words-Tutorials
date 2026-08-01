@@ -60,6 +60,9 @@ Aspose.Words Python-net के लिए एक कोड ट्यूटोर�
     ### [दोषपूर्ण DOCX पुनर्प्राप्त करें – Word दस्तावेज़ खोलें और लोड करें](./recover-corrupted-docx-open-load-word-document/)
     दोषपूर्ण DOCX फ़ाइल को खोलने और लोड करने की प्रक्रिया सीखें।
 
+    ### [पायथन में भ्रष्ट DOCX पुनर्प्राप्त करें – पूर्ण चरण‑दर‑चरण गाइड](./recover-corrupted-docx-in-python-full-step-by-step-guide/)
+    पायथन का उपयोग करके भ्रष्ट DOCX फ़ाइलों को पुनर्प्राप्त करने की विस्तृत प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
