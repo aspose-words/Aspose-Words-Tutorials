@@ -20,6 +20,7 @@ Aspose.Words for .NET 支援各種表單欄位類型，讓您精確、靈活地�
 
 {{< tutorial-card link="./insert-form-fields/" title="在 Word 文件中插入組合方塊表單網域" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="以程式方式建立 Word 文件 - 步驟指南" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,8 +37,9 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Utwórz prostokątny kształt w Wordzie za pomocą Aspose.Words – przewodnik krok po kroku](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Dowiedz się, jak utworzyć prostokątny kształt w dokumencie Word przy użyciu Aspose.Words, korzystając z naszego szczegółowego przewodnika krok po kroku. |
 | [Utwórz dokument Word z prostokątem z cieniem – przewodnik krok po kroku](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Dowiedz się, jak w Aspose.Words dla .NET utworzyć dokument Word zawierający prostokąt z efektem cienia, krok po kroku. |
 | [Utwórz pusty dokument Word z cieniowanym prostokątnym kształtem – przewodnik krok po kroku](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Dowiedz się, jak utworzyć pusty dokument Word z cieniowanym prostokątnym kształtem przy użyciu Aspose.Words dla .NET, krok po kroku. |
-
 | [Utwórz prostokątny kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć prostokątny kształt w dokumencie Word, korzystając z Aspose.Words dla .NET – kompletny przewodnik krok po kroku. |
+| [Zapisz plik docx z grupowanymi kształtami w Wordzie przy użyciu C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | Dowiedz się, jak zapisać plik docx zawierający grupowane kształty w Wordzie przy użyciu C# i Aspose.Words. |
+| [Jak ukryć kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | Dowiedz się, jak ukrywać kształty w dokumentach Word przy użyciu Aspose.Words dla .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

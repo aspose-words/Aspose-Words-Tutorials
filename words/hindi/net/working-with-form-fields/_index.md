@@ -20,6 +20,7 @@
 
 {{< tutorial-card link="./insert-form-fields/" title="वर्ड डॉक्यूमेंट में कॉम्बो बॉक्स फॉर्म फ़ील्ड डालें" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="प्रोग्रामेटिक रूप से वर्ड दस्तावेज़ बनाएं – चरण-दर-चरण गाइड" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

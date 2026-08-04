@@ -39,10 +39,10 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Diagramtengely elrejtése egy Word dokumentumban](./hide-chart-axis/) Tanulja meg, hogyan rejtheti el a diagram tengelyét egy Word-dokumentumban az Aspose.Words for .NET használatával részletes, lépésről lépésre bemutatónkkal. |
 | [Jelölje be a többsoros címke igazítását egy diagramban](./tick-multi-line-label-alignment/) | Tanuld meg, hogyan jelölheted be a többsoros feliratok igazítását egy diagramban az Aspose.Words for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes minden szintű fejlesztő számára. |
 | [Diagram adatcímkéjének testreszabása](./chart-data-label/) | Tanulja meg, hogyan szabhatja testre a diagram adatcímkéit az Aspose.Words for .NET használatával egy lépésről lépésre szóló útmutatóban. Tökéletes .NET fejlesztők számára. |
-| [Diagram adatcímkéinek alapértelmezett beállításainak megadása](./default-options-for-data-labels/) | Ismerje meg, hogyan állíthatja be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához. |
+| [Diagram adatcímkéinek alapértelmezett beállításainak megadása](./default-options-for-data-labels/) | Ismerje meg, hogyan állíthatja be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához. |
+| [Egyéni adatcímke elhelyezése diagramokban C#‑ban](./custom-data-label-placement-for-charts-in-c/) | Tanulja meg, hogyan helyezhet el egyéni adatcímkéket diagramokban C#‑ban az Aspose.Words for .NET használatával. |
 | [Egyetlen diagramadatpont testreszabása egy diagramban](./single-chart-data-point/) | Tanulja meg, hogyan szabhatja testre az egydiagramos adatpontokat az Aspose.Words for .NET használatával egy részletes, lépésről lépésre szóló útmutatóban. Tegye egyedi jelölőkkel és méretekkel egyedivé diagramjait. |
 | [Egyetlen diagramsorozat testreszabása egy diagramban](./single-chart-series/) | Ismerje meg, hogyan szabhatja testre egyetlen diagramsorozatot egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes élmény érdekében. |
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

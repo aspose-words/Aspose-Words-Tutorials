@@ -36,6 +36,7 @@ Les exemples de code fournis dans les tutoriels vous aideront à comprendre les 
 | [Création d'une section répétitive de tableau mappée sur une partie XML personnalisée](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Apprenez à créer un tableau avec une section répétitive mappée à un CustomXmlPart dans un document Word à l'aide d'Aspose.Words pour .NET. |
 | [Sections multiples](./multi-section/) Apprenez à utiliser des balises de documents structurées à sections multiples dans Aspose.Words pour .NET grâce à ce tutoriel étape par étape. Idéal pour la manipulation dynamique de documents. |
 | [Mappage XML de démarrage de plage de balises de document structuré](./structured-document-tag-range-start-xml-mapping/) | Découvrez comment lier dynamiquement des données XML à des balises de documents structurés dans Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape. |
+| [Créer un document Word par programmation – ajouter un contrôle de contenu et un espace réservé](./create-word-document-programmatically-add-content-control-an/) | Apprenez à créer un document Word via code, ajouter un contrôle de contenu et un espace réservé avec Aspose.Words pour .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

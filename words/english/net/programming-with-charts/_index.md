@@ -41,6 +41,8 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Tick Multi Line Label Alignment In A Chart](./tick-multi-line-label-alignment/) | Learn how to tick multi-line label alignment in a chart using Aspose.Words for .NET with our detailed step-by-step guide. Perfect for developers of all levels. |
 | [Customize Chart Data Label](./chart-data-label/) | Learn how to customize chart data labels using Aspose.Words for .NET in a step-by-step guide. Perfect for .NET developers. |
 | [Set Default Options For Data Labels In A Chart](./default-options-for-data-labels/) | Learn how to set default options for data labels in a chart using Aspose.Words for .NET. Follow our step-by-step guide to create and customize charts effortlessly. |
+| [Custom Data‑Label Placement for Charts in C#](./custom-data-label-placement-for-charts-in-c/) | Learn how to place custom data labels in charts using Aspose.Words for .NET with this step-by-step guide. |
+| [How to add data labels to a Word chart in C# – step‑by‑step guide](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Learn how to add data labels to Word charts using Aspose.Words for .NET with this step-by-step C# guide. |
 | [Customize A Single Chart Data Point In A Chart](./single-chart-data-point/) | Learn how to customize single chart data points using Aspose.Words for .NET in a detailed step-by-step guide. Enhance your charts with unique markers and sizes. |
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
 

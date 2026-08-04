@@ -23,7 +23,7 @@ Elaborazione testi con note a piè di pagina e note di chiusura è una risorsa c
 | [Imposta colonne note a piè di pagina](./set-foot-note-columns/) | Scopri come impostare le colonne per le note a piè di pagina nei documenti Word utilizzando Aspose.Words per .NET. Personalizza facilmente il layout delle note a piè di pagina con la nostra guida passo passo. |
 | [Imposta la posizione delle note a piè di pagina e delle note di chiusura](./set-footnote-and-end-note-position/) Scopri come impostare le posizioni delle note a piè di pagina e di chiusura nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata passo dopo passo.
 | [Imposta le opzioni delle note di chiusura](./set-endnote-options/) | Scopri come impostare le opzioni delle note di chiusura nei documenti Word utilizzando Aspose.Words per .NET con questa guida completa passo dopo passo.
-
+| [Modifica separatore di nota a piè di pagina in C# con Aspose.Words](./change-footnote-separator-in-c-using-aspose-words/) | Scopri come modificare il separatore delle note a piè di pagina nei documenti Word usando Aspose.Words per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

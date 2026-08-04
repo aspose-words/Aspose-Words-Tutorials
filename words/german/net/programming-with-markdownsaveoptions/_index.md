@@ -83,6 +83,9 @@ Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder
 ### [DOCX nach Markdown exportieren in C# – Vollständige Anleitung](./export-docx-to-markdown-in-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien in Markdown konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
+### [Markdown als DOCX speichern in C# – Schritt‑für‑Schritt‑Anleitung](./save-markdown-as-docx-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie Markdown-Dateien in DOCX konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

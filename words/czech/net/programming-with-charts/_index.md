@@ -25,6 +25,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | Název | Popis |
 | --- | --- |
 | [Formátování čísla popisku dat v grafu](./format-number-of-data-label/) | Naučte se, jak formátovat popisky dat v grafech pomocí Aspose.Words pro .NET s tímto podrobným návodem. Vylepšete své dokumenty Word bez námahy. |
+| [Vlastní umístění popisků dat v grafech v C#](./custom-data-label-placement-for-charts-in-c/) | Naučte se, jak přizpůsobit umístění popisků dat v grafech pomocí Aspose.Words pro .NET v C#. |
 | [Vytvořte a upravte graf pomocí tvaru](./create-chart-using-shape/) | Naučte se, jak vytvářet a upravovat grafy v dokumentech Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro vizualizaci dat. |
 | [Vložení jednoduchého sloupcového grafu do dokumentu Word](./insert-simple-column-chart/) Naučte se, jak vložit jednoduchý sloupcový graf do Wordu pomocí Aspose.Words pro .NET. Vylepšete své dokumenty dynamickými vizuálními prezentacemi dat. |
 | [Vložení sloupcového grafu do dokumentu Word](./insert-column-chart/) | Naučte se, jak vkládat sloupcové grafy do dokumentů Wordu pomocí Aspose.Words pro .NET. Vylepšete vizualizaci dat ve svých sestavách a prezentacích. |
@@ -39,6 +40,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Skrýt osu grafu v dokumentu Word](./hide-chart-axis/) Naučte se, jak skrýt osu grafu v dokumentu Word pomocí Aspose.Words pro .NET v našem podrobném návodu krok za krokem. |
 | [Zaškrtněte zarovnání víceřádkových popisků v grafu](./tick-multi-line-label-alignment/) | Naučte se, jak zaškrtnout zarovnání víceřádkových popisků v grafu pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro vývojáře všech úrovní. |
 | [Přizpůsobení popisku dat grafu](./chart-data-label/) | Naučte se, jak přizpůsobit popisky dat grafu pomocí Aspose.Words pro .NET v podrobném návodu. Ideální pro vývojáře .NET. |
+| [Jak přidat popisky dat do grafu Word v C# – krok za krokem](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Naučte se, jak v C# přidat popisky dat do grafu ve Wordu pomocí Aspose.Words krok za krokem. |
 | [Nastavení výchozích možností pro popisky dat v grafu](./default-options-for-data-labels/) | Naučte se, jak nastavit výchozí možnosti pro popisky dat v grafu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a bez námahy si vytvořte a upravte grafy. |
 | [Přizpůsobení jednoho datového bodu v grafu](./single-chart-data-point/) | Naučte se, jak přizpůsobit jednotlivé datové body grafu pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. Vylepšete své grafy jedinečnými značkami a velikostmi. |
 | [Přizpůsobení jedné série grafů v grafu](./single-chart-series/) | Naučte se, jak přizpůsobit jednotlivé série grafů v dokumentu Word pomocí Aspose.Words pro .NET. Pro bezproblémový zážitek postupujte podle našeho podrobného návodu. |

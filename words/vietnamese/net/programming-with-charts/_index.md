@@ -42,7 +42,8 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ](./default-options-for-data-labels/) | Tìm hiểu cách thiết lập tùy chọn mặc định cho nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo và tùy chỉnh biểu đồ dễ dàng. |
 | [Tùy chỉnh một điểm dữ liệu biểu đồ đơn lẻ trong biểu đồ](./single-chart-data-point/) | Tìm hiểu cách tùy chỉnh các điểm dữ liệu biểu đồ đơn lẻ bằng Aspose.Words cho .NET trong hướng dẫn từng bước chi tiết. Cải thiện biểu đồ của bạn bằng các điểm đánh dấu và kích thước độc đáo. |
 | [Tùy chỉnh chuỗi biểu đồ đơn trong biểu đồ](./single-chart-series/) | Tìm hiểu cách tùy chỉnh chuỗi biểu đồ đơn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch. |
-
+| [Cách thêm nhãn dữ liệu vào biểu đồ Word trong C# – hướng dẫn từng bước](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Hướng dẫn chi tiết cách thêm nhãn dữ liệu vào biểu đồ Word bằng C# trong Aspose.Words. |
+| [Tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C#](./custom-data-label-placement-for-charts-in-c/) | Hướng dẫn cách tùy chỉnh vị trí nhãn dữ liệu cho biểu đồ trong C# bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,8 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [Word 문서에서 차트 축 숨기기](./hide-chart-axis/) Aspose.Words for .NET을 사용하여 Word 문서에서 차트 축을 숨기는 방법을 자세하고 단계별 튜토리얼을 통해 알아보세요. |
 | [차트에서 다중 줄 레이블 정렬 체크](./tick-multi-line-label-alignment/) | Aspose.Words for .NET을 사용하여 차트에서 여러 줄 레이블 정렬에 체크 표시를 하는 방법을 단계별로 자세히 알아보세요. 모든 수준의 개발자에게 적합합니다. |
 | [차트 데이터 레이블 사용자 정의](./chart-data-label/) | Aspose.Words for .NET을 사용하여 차트 데이터 레이블을 사용자 지정하는 방법을 단계별 가이드로 알아보세요. .NET 개발자에게 안성맞춤입니다. |
+| [C#에서 차트 데이터 레이블 위치 지정 사용자 정의](./custom-data-label-placement-for-charts-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 차트 데이터 레이블의 위치를 사용자 정의하는 방법을 단계별로 안내합니다. |
+| [C#에서 Word 차트에 데이터 레이블 추가하기 – 단계별 가이드](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Aspose.Words for .NET을 사용하여 C#에서 Word 차트에 데이터 레이블을 추가하는 방법을 단계별로 안내합니다. |
 | [차트의 데이터 레이블에 대한 기본 옵션 설정](./default-options-for-data-labels/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블에 대한 기본 옵션을 설정하는 방법을 알아보세요. 단계별 가이드를 따라 차트를 손쉽게 만들고 사용자 지정할 수 있습니다. |
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |

@@ -40,9 +40,10 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [チャート内の複数行のラベルの配置をチェックする](./tick-multi-line-label-alignment/) Aspose.Words for .NET を使って、チャート内の複数行のラベルの配置を細かく調整する方法を、詳細なステップバイステップガイドで学びましょう。あらゆるレベルの開発者に最適です。 |
 | [グラフデータラベルをカスタマイズする](./chart-data-label/) Aspose.Words for .NET を使用してグラフのデータラベルをカスタマイズする方法をステップバイステップで解説します。.NET 開発者に最適です。 |
 | [グラフのデータラベルのデフォルトオプションを設定する](./default-options-for-data-labels/) Aspose.Words for .NET を使用して、グラフのデータラベルのデフォルトオプションを設定する方法を学びましょう。ステップバイステップのガイドに従って、簡単にグラフを作成およびカスタマイズできます。 |
+| [C# でチャートのデータラベル配置をカスタマイズする](./custom-data-label-placement-for-charts-in-c/) Aspose.Words for .NET を使用して、C# でチャートのデータラベルの配置をカスタマイズする方法をステップバイステップで解説します。 |
 | [グラフ内の単一のグラフデータポイントをカスタマイズする](./single-chart-data-point/) Aspose.Words for .NET を使用して、グラフの個々のデータポイントをカスタマイズする方法を、詳細なステップバイステップガイドで学びましょう。独自のマーカーとサイズでグラフの魅力を高めましょう。 |
 | [チャート内の単一のチャートシリーズをカスタマイズする](./single-chart-series/) Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。 |
-
+| [C# で Word のチャートにデータ ラベルを追加する方法 – ステップバイステップ ガイド](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) Aspose.Words for .NET を使用して、C# で Word のチャートにデータ ラベルを追加する手順を詳しく解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
