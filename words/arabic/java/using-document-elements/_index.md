@@ -71,6 +71,7 @@
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
 استكشف Aspose.Words في جافا: دليل شامل لاستخدام الأقسام. أضف أقسامًا، احذفها، أضف إليها، انسخها مع أمثلة برمجية.
+### [إنشاء مستند Word فارغ مع زر أمر – دليل خطوة بخطوة](./create-blank-word-document-with-a-command-button-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

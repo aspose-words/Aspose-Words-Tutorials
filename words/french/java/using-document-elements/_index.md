@@ -71,6 +71,8 @@ Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words 
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
+### [Créer un document Word vierge avec un bouton de commande – guide étape par étape](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Apprenez à créer un document Word vierge avec un bouton de commande grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,9 @@ Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus
 ### [Buat Dokumen Word Java – Tambahkan Bentuk Persegi Panjang dengan Efek Bayangan](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Pelajari cara menambahkan bentuk persegi panjang dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Menyisipkan bentuk persegi panjang di Word menggunakan C# – panduan lengkap](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Panduan lengkap untuk menambahkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan Aspose.Words.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

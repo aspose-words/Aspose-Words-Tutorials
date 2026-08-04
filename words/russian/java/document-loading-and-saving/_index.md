@@ -136,6 +136,9 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 ### [Захват предупреждений о замене шрифтов в Java с Aspose.Words – Полное руководство](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Узнайте, как перехватывать и обрабатывать предупреждения о замене шрифтов при работе с документами в Java с помощью Aspose.Words.
 
+### [Загрузка подчёркиваний markdown в Java – полное руководство](./load-markdown-underline-in-java-complete-programming-guide/)
+Узнайте, как загружать и обрабатывать подчёркнутый markdown в Java с помощью Aspose.Words.
+
 ## Часто задаваемые вопросы
 
 **Q:** Как программно **save images from word** документы?  

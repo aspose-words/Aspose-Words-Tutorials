@@ -43,6 +43,8 @@ Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose
 Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspose.Words for Java, bạn sẽ có thể tạo, chỉnh sửa và cải thiện tài liệu như một chuyên gia chỉ trong thời gian ngắn. Chúc bạn viết mã vui vẻ!
 
 ## Hướng dẫn sử dụng Document Elements
+### [Tạo tài liệu Word trống với nút lệnh – hướng dẫn từng bước](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Hướng dẫn chi tiết cách tạo tài liệu Word trống và thêm nút lệnh để người dùng có thể tạo tài liệu mới.
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)
@@ -50,7 +52,7 @@ Học cách sử dụng Aspose.Words cho các trường Java một cách hiệu 
 ### [Sử dụng Phông chữ trong Aspose.Words cho Java](./using-fonts/)
 Khám phá định dạng phông chữ trong Aspose.Words for Java: kích thước, kiểu, màu sắc và nhiều hơn nữa. Tạo tài liệu được định dạng đẹp mắt một cách dễ dàng.
 ### [Sử dụng Footnotes và Endnotes trong Aspose.Words cho Java](./using-footnotes-and-endnotes/)
-Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
+Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words cho Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
 ### [Sử dụng trường biểu mẫu trong Aspose.Words cho Java](./using-form-fields/)
 "Học cách sử dụng Aspose.Words for Java để tạo tài liệu Word tương tác với các trường biểu mẫu. Bắt đầu ngay!"
 ### [Sử dụng HarfBuzz trong Aspose.Words cho Java](./using-harfbuzz/)
