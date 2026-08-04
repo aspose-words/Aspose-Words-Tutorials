@@ -1,0 +1,7 @@
+Title: Save markdown as docx in C# – step‑by‑step guide
+Slug: save-markdown-as-docx-in-c-step-by-step-guide
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-08-04T22:50:20.456349
+SourceRepo: AI Search API
+Keywords: save markdown as docx, convert markdown to docx, convert markdown to word, c# markdown to docx
+PRNumber: 241
