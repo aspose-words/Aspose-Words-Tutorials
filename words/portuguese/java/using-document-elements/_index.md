@@ -43,6 +43,8 @@ Concluindo, dominar a manipulação de elementos de documentos usando o Aspose.W
 Lembre-se: a prática leva à perfeição e, com o Aspose.Words para Java, você criará, modificará e aprimorará documentos como um profissional em pouco tempo. Boa programação!
 
 ## Tutoriais sobre como usar elementos de documento
+### [Criar documento Word em branco com um botão de comando – guia passo a passo](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Aprenda a criar um documento Word em branco e adicionar um botão de comando usando Aspose.Words para Java, passo a passo.
 ### [Usando comentários no Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentários no Aspose.Words para Java. Tutorial passo a passo para adicionar e personalizar comentários em seus documentos.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)
