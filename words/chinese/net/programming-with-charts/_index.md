@@ -39,10 +39,11 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [在Word文档中隐藏图表轴](./hide-chart-axis/) 通过我们详细的分步教程了解如何使用 Aspose.Words for .NET 隐藏 Word 文档中的图表轴。|
 | [图表中勾选多线标签对齐](./tick-multi-line-label-alignment/) 学习如何使用 Aspose.Words for .NET 在图表中勾选多行标签对齐，并遵循我们详细的分步指南。适合所有级别的开发人员。|
 | [自定义图表数据标签](./chart-data-label/) 学习如何使用 Aspose.Words for .NET 自定义图表数据标签，分步指南。非常适合 .NET 开发人员。|
+| [C# 中的自定义图表数据标签位置](./custom-data-label-placement-for-charts-in-c/) 学习如何在 Aspose.Words for .NET 中使用 C# 为图表自定义数据标签的位置，实现更灵活的可视化。|
 | [设置图表中数据标签的默认选项](./default-options-for-data-labels/) 了解如何使用 Aspose.Words for .NET 设置图表中数据标签的默认选项。按照我们的分步指南，轻松创建和自定义图表。|
 | [自定义图表中的单个图表数据点](./single-chart-data-point/) 学习如何使用 Aspose.Words for .NET 自定义单个图表数据点，并遵循详细的分步指南。使用独特的标记和大小增强您的图表。|
 | [自定义图表中的单个图表系列](./single-chart-series/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列。按照我们的分步指南，获得无缝体验。|
-
+| [如何在 C# 中向 Word 图表添加数据标签 – 分步指南](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) 学习使用 Aspose.Words for .NET 在 Word 图表中添加数据标签的完整步骤，提升文档可视化效果。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

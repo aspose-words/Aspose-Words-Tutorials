@@ -20,6 +20,7 @@
 
 {{< tutorial-card link="./insert-form-fields/" title="إدراج حقل نموذج المربع المنسدل في مستند Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="إنشاء مستند Word برمجيًا – دليل خطوة بخطوة" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

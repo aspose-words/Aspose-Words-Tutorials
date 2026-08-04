@@ -40,9 +40,10 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Markera etikettjustering med flera rader i ett diagram](./tick-multi-line-label-alignment/) | Lär dig hur du markerar flerradig etikettjustering i ett diagram med Aspose.Words för .NET med vår detaljerade steg-för-steg-guide. Perfekt för utvecklare på alla nivåer. |
 | [Anpassa diagramdataetikett](./chart-data-label/) | Lär dig hur du anpassar diagramdataetiketter med Aspose.Words för .NET i en steg-för-steg-guide. Perfekt för .NET-utvecklare. |
 | [Ange standardalternativ för dataetiketter i ett diagram](./default-options-for-data-labels/) | Lär dig hur du ställer in standardalternativ för dataetiketter i ett diagram med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att enkelt skapa och anpassa diagram. |
+| [Hur man lägger till dataetiketter i ett Word-diagram i C# – steg‑för‑steg‑guide](./how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui/) | Lär dig hur du lägger till dataetiketter i ett Word-diagram med C# i en steg‑för‑steg‑guide. |
 | [Anpassa en enskild diagramdatapunkt i ett diagram](./single-chart-data-point/) | Lär dig hur du anpassar datapunkter för enskilda diagram med Aspose.Words för .NET i en detaljerad steg-för-steg-guide. Förbättra dina diagram med unika markörer och storlekar. |
 | [Anpassa enskilda diagramserier i ett diagram](./single-chart-series/) | Lär dig hur du anpassar enskilda diagramserier i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för en smidig upplevelse. |
-
+| [Anpassad placering av dataetiketter för diagram i C#](./custom-data-label-placement-for-charts-in-c/) | Lär dig hur du placerar dataetiketter manuellt i diagram med Aspose.Words för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

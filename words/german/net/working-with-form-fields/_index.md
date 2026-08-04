@@ -20,6 +20,7 @@ Aspose.Words für .NET unterstützt verschiedene Formularfeldtypen und ermöglic
 
 {{< tutorial-card link="./insert-form-fields/" title="Kombinationsfeld-Formularfeld in Word-Dokument einfügen" imgSrc="./insert-form-fields/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Word-Dokument programmgesteuert erstellen – Schritt‑für‑Schritt‑Anleitung" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

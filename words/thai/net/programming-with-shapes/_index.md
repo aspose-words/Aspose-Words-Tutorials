@@ -39,6 +39,8 @@
 - [สร้างรูปสี่เหลี่ยมผืนผ้าใน Word ด้วย C# – คู่มือทีละขั้นตอน](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีสร้างรูปสี่เหลี่ยมผืนผ้าในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนง่ายๆ
 | [บทแนะนำเงารูปร่าง Aspose.Words – เพิ่มเงาให้รูปทรงใน Word ด้วย C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET และ C# ผ่านบทแนะนำขั้นตอนง่าย |
 - [สร้างเอกสาร Word ว่างพร้อมรูปสี่เหลี่ยมเงา – คู่มือทีละขั้นตอน](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปสี่เหลี่ยมที่มีเงาโดยใช้ Aspose.Words สำหรับ .NET ด้วยขั้นตอนง่ายๆ
+- [บันทึกไฟล์ docx พร้อมรูปกลุ่มใน Word ด้วย C#](./save-docx-file-with-grouped-shapes-in-word-using-c/) | เรียนรู้วิธีบันทึกไฟล์ docx ที่มีรูปกลุ่มใน Word ด้วย C#
+- [วิธีซ่อนรูปร่างใน Word ด้วย C# – คู่มือทีละขั้นตอน](./how-to-hide-shape-in-word-using-c-step-by-step-guide/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# ผ่านขั้นตอนง่ายๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

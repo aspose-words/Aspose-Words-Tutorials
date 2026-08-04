@@ -19,7 +19,7 @@
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Εισαγωγή πεδίου φόρμας συνδυαστικού πλαισίου σε έγγραφο του Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Δημιουργία εγγράφου Word προγραμματιστικά – οδηγός βήμα προς βήμα" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

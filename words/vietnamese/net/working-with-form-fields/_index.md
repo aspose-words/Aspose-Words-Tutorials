@@ -19,7 +19,7 @@ Aspose.Words for .NET hỗ trợ nhiều loại trường biểu mẫu, cho phé
 
 
 {{< tutorial-card link="./insert-form-fields/" title="Chèn trường biểu mẫu hộp kết hợp vào tài liệu Word" imgSrc="./insert-form-fields/images/thumb.png" >}}
-
+{{< tutorial-card link="./create-word-document-programmatically-step-by-step-guide/" title="Tạo tài liệu Word bằng chương trình – hướng dẫn từng bước" imgSrc="./create-word-document-programmatically-step-by-step-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,10 @@
 
 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取嵌入的图像，提供完整的 C# 示例和详细步骤指南。
 
+### [在 C# 中将 Markdown 保存为 docx – 步骤指南](./save-markdown-as-docx-in-c-step-by-step-guide/)
+
+使用 Aspose.Words for .NET 将 Markdown 文档转换并保存为 docx，提供完整的 C# 示例和分步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
