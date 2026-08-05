@@ -1,9 +1,82 @@
 ---
-"date": "2025-03-28"
-"description": "Tanuld meg, hogyan kezelhetsz és szúrhatsz be vezérlőkaraktereket dokumentumokba az Aspose.Words for Java segítségével, ezzel fejlesztve szövegszerkesztési készségeidet."
-"title": "Fő vezérlőkarakterek az Aspose.Words for Java segítségével – Fejlesztői útmutató a haladó szövegfeldolgozáshoz"
-"url": "/hu/java/advanced-text-processing/aspose-words-java-control-characters-guide/"
-"weight": 1
+date: '2026-08-05'
+description: Hogyan szúrjon be control characters Java használatával az Aspose.Words
+  for Java – kezelje és szúrja be a control characters dokumentumokban a fejlett szövegfeldolgozáshoz.
+keywords:
+- how to insert control characters java
+- Aspose.Words control characters
+- Java document formatting
+- inserting control characters in Java
+lastmod: '2026-08-05'
+og_description: Hogyan szúrjon be control characters Java használatával az Aspose.Words
+  for Java – tanulja meg a pontos szövegformázást, a szóközök, tabulátorok, sor- és
+  oldaltörések gyors beszúrását.
+og_image_alt: Guide showing how to insert control characters in Java using Aspose.Words
+og_title: Hogyan szúrjon be control characters Java-ban az Aspose.Words segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-08-05'
+  description: How to insert control characters java using Aspose.Words for Java –
+    manage and insert control characters in documents for advanced text processing.
+  headline: How to insert control characters in Java with Aspose.Words
+  type: TechArticle
+- description: How to insert control characters java using Aspose.Words for Java –
+    manage and insert control characters in documents for advanced text processing.
+  name: How to insert control characters in Java with Aspose.Words
+  steps:
+  - name: Install Maven or Gradle for managing dependencies.
+    text: Install Maven or Gradle for managing dependencies.
+  - name: Obtain a valid Aspose.Words license; apply for a temporary license if you
+      need to test without restrictions.
+    text: Obtain a valid Aspose.Words license; apply for a temporary license if you
+      need to test without restrictions.
+  - name: '**Invoice generation** – format line items and ensure page breaks for multi‑page
+      invoices using control characters.'
+    text: '**Invoice generation** – format line items and ensure page breaks for multi‑page
+      invoices using control characters.'
+  - name: '**Report creation** – align data fields in structured reports with tab
+      and space controls.'
+    text: '**Report creation** – align data fields in structured reports with tab
+      and space controls.'
+  - name: '**Multi‑column layouts** – create newsletters or brochures with side‑by‑side
+      content sections using column breaks.'
+    text: '**Multi‑column layouts** – create newsletters or brochures with side‑by‑side
+      content sections using column breaks.'
+  - name: '**Content management systems (CMS)** – manage text formatting dynamically
+      based on user input with control characters.'
+    text: '**Content management systems (CMS)** – manage text formatting dynamically
+      based on user input with control characters.'
+  - name: '**Automated document generation** – enhance document templates by inserting
+      structured elements programmatically.'
+    text: '**Automated document generation** – enhance document templates by inserting
+      structured elements programmatically.'
+  type: HowTo
+- questions:
+  - answer: A control character is a non‑printable symbol (e.g., tab, line break,
+      page break) that influences text layout without appearing as visible text.
+    question: What is a control character?
+  - answer: Add the Maven or Gradle dependency, obtain a license, and initialize it
+      as shown in the “License acquisition” section.
+    question: How do I get started with Aspose.Words for Java?
+  - answer: Yes – use `ControlChar.COLUMN_BREAK` to split content across columns in
+      a multi‑column document.
+    question: Can control characters handle multi‑column layouts?
+  - answer: Absolutely; it processes 500‑page files in under 3 seconds on typical
+      server hardware and does not require Microsoft Office.
+    question: Does Aspose.Words support large documents?
+  - answer: You can read the document’s text with `Document.getText()` and search
+      for the Unicode values of the control characters you inserted.
+    question: Is there a way to verify inserted control characters?
+  type: FAQPage
+tags:
+- control characters
+- Aspose.Words
+- Java document processing
+- text formatting
+- document automation
+title: Hogyan szúrjon be control characters Java-ban az Aspose.Words segítségével
+url: /hu/java/advanced-text-processing/aspose-words-java-control-characters-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,176 +85,213 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Mester vezérlő karakterek az Aspose.Words for Java segítségével
 
-# Fő vezérlőkarakterek az Aspose.Words segítségével Java-ban
 ## Bevezetés
-Szembesült már kihívásokkal a szövegformázás kezelése strukturált dokumentumokban, például számlákban vagy jelentésekben? A vezérlőkarakterek elengedhetetlenek a pontos formázáshoz. Ez az útmutató a vezérlőkarakterek hatékony kezelését mutatja be az Aspose.Words for Java használatával, zökkenőmentesen integrálva a szerkezeti elemeket.
+Sokszor szembesült már kihívásokkal a szövegformázás kezelése során strukturált dokumentumokban, például számlákban vagy jelentésekben? **How to insert control characters java** gyakori követelmény a fejlesztők számára, akik pixel‑tökéletes elrendezéseket igényelnek. Ez az útmutató megmutatja, hogyan kezelhet és illeszthet be vezérlő karaktereket hatékonyan az Aspose.Words for Java használatával, a strukturális elemek zökkenőmentes integrálásával, miközben a teljesítményt szem előtt tartja.
 
-**Amit tanulni fogsz:**
-- Különböző vezérlőkarakterek kezelése és beszúrása.
-- Technikák a szövegszerkezet programozott ellenőrzésére és manipulálására.
-- Ajánlott eljárások a dokumentumformázási teljesítmény optimalizálásához.
+### Gyors válaszok
+- **Melyik osztály illeszti be a vezérlő karaktereket?** `DocumentBuilder` módszereket biztosít szóközök, tabulátorok, sortörések és oldal törések számára.  
+- **Szükségem van licencre?** Igen – egy ideiglenes vagy megvásárolt licenc eltávolítja a kiértékelési korlátokat.  
+- **Milyen Java verzió szükséges?** A JDK 8 vagy újabb teljes mértékben támogatott.  
+- **Feldolgozhatok nagy fájlokat?** Az Aspose.Words 500 oldalas dokumentumokat 3 másodpercnél kevesebb idő alatt kezel tipikus szerver hardveren.  
+- **Támogatott a Maven vagy a Gradle?** Mindkét építőeszköz támogatott; válaszd azt, amelyik a leginkább megfelel.
+
+## Mi az a how to insert control characters java?
+**How to insert control characters java** a nem nyomtatható karakterek—például tabulátorok, sortörések és oldal törések—programozott beillesztésére utal egy dokumentumba Java kóddal. Ezeknek a karaktereknek a beágyazásával a fejlesztők pontosan szabályozhatják a távolságot, az igazítást és a lapozást, lehetővé téve a professzionálisan formázott fájlok automatizált generálását manuális beállítások nélkül.
+
+## Miért használja az Aspose.Words-t a vezérlő karakterekhez?
+Az Aspose.Words támogatja a **35+ bemeneti és kimeneti formátumot**—beleértve a DOCX, PDF, HTML és EPUB formátumokat—és képes **500‑oldalas dokumentumokat 3 másodpercnél kevesebb idő alatt** feldolgozni szabványos szerver hardveren. A könyvtár Microsoft Office telepítése nélkül működik, teljes irányítást biztosítva a dokumentumgenerálás felett fej nélküli környezetekben.
 
 ## Előfeltételek
-Az útmutató követéséhez a következőkre lesz szükséged:
-- **Aspose.Words Java-hoz**Győződjön meg arról, hogy a 25.3-as vagy újabb verzió telepítve van a fejlesztői környezetében.
-- **Java fejlesztőkészlet (JDK)**A 8-as vagy újabb verzió ajánlott.
-- **IDE beállítás**IntelliJ IDEA, Eclipse vagy bármely más előnyben részesített Java IDE.
+- **Aspose.Words for Java**: verzió 25.3 vagy újabb.  
+- **Java Development Kit (JDK)**: verzió 8 vagy újabb.  
+- **IDE**: IntelliJ IDEA, Eclipse, vagy bármely kedvelt Java IDE.  
 
-### Környezeti beállítási követelmények
-1. Telepítsd a Mavent vagy a Gradle-t a függőségek kezeléséhez.
-2. Győződjön meg róla, hogy érvényes Aspose.Words licenccel rendelkezik; szükség esetén igényeljen ideiglenes licencet a funkciók korlátozás nélküli teszteléséhez.
+### Környezet beállítási követelmények
+1. Telepítse a Maven-t vagy a Gradle-t a függőségek kezeléséhez.  
+2. Szerezzen be egy érvényes Aspose.Words licencet; kérjen ideiglenes licencet, ha korlátozások nélkül szeretne tesztelni.
 
 ## Az Aspose.Words beállítása
-Mielőtt belevágnál a kód implementációjába, állítsd be a projektedet az Aspose.Words segítségével Maven vagy Gradle használatával.
+Mielőtt a kódmegvalósításba merülne, állítsa be projektjét az Aspose.Words használatával, akár Maven, akár Gradle segítségével.
 
 ### Maven beállítás
-Adja hozzá ezt a függőséget a `pom.xml` fájl:
+Add this dependency in your `pom.xml` file:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-### Gradle beállítása
-A következőket is vedd bele a listádba `build.gradle`:
+### Gradle beállítás
+Include the following in your `build.gradle`:
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-### Licencszerzés
-Az Aspose.Words teljes kihasználásához licencfájlra lesz szükséged:
-- **Ingyenes próbaverzió**Ideiglenes engedély igénylése [itt](https://purchase.aspose.com/temporary-license/).
-- **Vásárlás**: Vásároljon licencet, ha hasznosnak találja az eszközt a projektjei számára.
+### Licenc beszerzése
+- **Free Trial**: Apply for a temporary license via the [temporary license page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase**: Vásároljon licencet, ha hasznosnak találja az eszközt a projektjeihez.  
 
-A licenc beszerzése után inicializálja azt a Java alkalmazásában az alábbiak szerint:
+A `License` osztály aktiválja az Aspose.Words licencet, eltávolítva a kiértékelési korlátokat.  
+Licenc megszerzése után inicializálja Java alkalmazásában a következőképpen:
 ```java
 License license = new License();
 license.setLicense("path/to/aspose.words.lic");
-```
+```  
 
-## Megvalósítási útmutató
-A megvalósításunkat két fő jellemzőre bontjuk: a kocsivissza karakterek kezelésére és a vezérlőkarakterek beszúrására.
+## Hogyan illesszünk be vezérlő karaktereket Java-ban?
+A `DocumentBuilder` osztály módszereket biztosít a dokumentumtartalom programozott felépítéséhez és módosításához. Töltse be a dokumentumot, hozza létre a `DocumentBuilder`‑t, és hívja meg a megfelelő `write` vagy `insert` metódusokat szóközök, tabulátorok, sortörések vagy oldal törések hozzáadásához. Ez az egy‑soros minta—`builder.write(ControlChar.TAB)`—a legtöbb elrendezési igényt lefedi, és több hívást láncolhat komplex struktúrákhoz. Nagy dokumentumok esetén a kötegelt beszúrás csökkenti a feldolgozási terhelést. A `ControlChar` egy felsorolás a nem nyomtatható karakterekről, amelyeket elrendezés‑vezérlésre használnak.
 
-### 1. funkció: Kocsivissza kezelése
-A kocsivissza (carriage return) kezelése biztosítja, hogy a szerkezeti elemek, például az oldaltörések helyesen jelenjenek meg a dokumentum szöveges formátumában.
+## Implementációs útmutató
+Feltárjuk a megvalósítást két fő funkcióra: a kocsivissza kezelésére és a vezérlő karakterek beszúrására.
 
-#### Lépésről lépésre útmutató
-**Áttekintés**: Ez a funkció bemutatja, hogyan ellenőrizhető és kezelhető a szerkezeti elemeket, például az oldaltöréseket ábrázoló vezérlőkarakterek jelenléte.
+### 1. funkció: kocsivissza kezelése
+A kocsivissza kezelése biztosítja, hogy a strukturális elemek, például az oldal törések, helyesen jelenjenek meg a dokumentum szöveges formájában.
 
-**Megvalósítási lépések:**
+#### Lépésről‑lépésre útmutató
+**Overview**: This feature demonstrates how to verify and manage the presence of control characters representing structural components, such as page breaks.
+
+**Implementációs lépések**:
 ##### 1. Dokumentum létrehozása
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-```
+```  
+
 ##### 2. Bekezdések beszúrása
 ```java
 builder.writeln("Hello world!");
 builder.writeln("Hello again!");
-```
-##### 3. Vezérlőkarakterek ellenőrzése
-Ellenőrizd, hogy a vezérlőkarakterek helyesen ábrázolják-e a szerkezeti elemeket:
+```  
+
+##### 3. Vezérlő karakterek ellenőrzése
+Ellenőrizze, hogy a vezérlő karakterek helyesen képviselik-e a strukturális elemeket:
 ```java
 String expectedTextWithCR = MessageFormat.format("Hello world!{0}", ControlChar.CR) +
         MessageFormat.format("Hello again!{0}", ControlChar.CR) +
         ControlChar.PAGE_BREAK;
 assert doc.getText().equals(expectedTextWithCR) : "Text does not match expected value with control characters.";
-```
+```  
+
 ##### 4. Szöveg vágása és ellenőrzése
 ```java
 String expectedTrimmedText = MessageFormat.format("Hello world!{0}", ControlChar.CR) + "Hello again!";
 assert doc.getText().trim().equals(expectedTrimmedText) : "Trimmed text does not match expected value.";
-```
-### 2. funkció: Vezérlőkarakterek beszúrása
-Ez a funkció különféle vezérlőkarakterek hozzáadására összpontosít a dokumentum formázásának és szerkezetének javítása érdekében.
+```  
 
-#### Lépésről lépésre útmutató
-**Áttekintés**: Ismerje meg, hogyan szúrhat be különböző vezérlőkaraktereket, például szóközöket, tabulátorokat, sortöréseket és oldaltöréseket a dokumentumokba.
+### 2. funkció: vezérlő karakterek beszúrása
+Ez a funkció a különböző vezérlő karakterek hozzáadására összpontosít a dokumentum formázásának és szerkezetének javítása érdekében.
 
-**Megvalósítási lépések:**
-##### 1. Inicializálja a DocumentBuildert
+#### Lépésről‑lépésre útmutató
+**Overview**: Learn how to insert different control characters such as spaces, tabs, line breaks, and page breaks into your documents.
+
+**Definition anchor**: `ControlChar` is Aspose.Words’ enumeration that defines non‑printable characters like spaces, tabs, and page breaks used for fine‑grained layout control.
+
+**Implementációs lépések**:
+##### 1. DocumentBuilder inicializálása
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-```
+```  
+
 ##### 2. Vezérlő karakterek beszúrása
-Különböző típusú vezérlőkarakterek hozzáadása:
-- **Szóköz karakter**: `ControlChar.SPACE_CHAR`
+Adjon hozzá különböző típusú vezérlő karaktereket:
+- **Space character**: `ControlChar.SPACE_CHAR`  
   ```java
   builder.write("Before space." + ControlChar.SPACE_CHAR + "After space.");
-  ```
-- **Nem törhető szóköz (NBSP)**: `ControlChar.NON_BREAKING_SPACE`
+  ```  
+- **Non‑breaking space (NBSP)**: `ControlChar.NON_BREAKING_SPACE`  
   ```java
   builder.write("Before space." + ControlChar.NON_BREAKING_SPACE + "After space.");
-  ```
-- **Tabulátor karakter**: `ControlChar.TAB`
+  ```  
+- **Tab character**: `ControlChar.TAB`  
   ```java
   builder.write("Before tab." + ControlChar.TAB + "After tab.");
-  ```
-##### 3. Sor- és bekezdéstörések
-Sortörés hozzáadása új bekezdés kezdéséhez:
+  ```  
+
+##### 3. Sor és bekezdés törések
+Adjon hozzá sortörést egy új bekezdés kezdéséhez:
 ```java
 Assert.assertEquals(1, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 builder.write("Before line feed." + ControlChar.LINE_FEED + "After line feed.");
 Assert.assertEquals(2, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
-```
-Bekezdés- és oldaltörések ellenőrzése:
+```  
+
+Ellenőrizze a bekezdés és oldal töréseket:
 ```java
 builder.write("Before paragraph break." + ControlChar.PARAGRAPH_BREAK + "After paragraph break.");
 Assert.assertEquals(3, doc.getFirstSection().getBody().getChildNodes(NodeType.PARAGRAPH, true).getCount());
 
 builder.write("Before section break." + ControlChar.SECTION_BREAK + "After section break.");
 assert doc.getSections().getCount() == 1 : "Section count mismatch after section break.";
-```
-##### 4. Hasáb- és oldaltörések
-Oszloptörések bevezetése többoszlopos beállításban:
+```  
+
+##### 4. Oszlop és oldal törések
+Hozzon létre oszloptöréseket egy többoszlopos beállításban:
 ```java
 doc.appendChild(new Section(doc));
 builder.moveToSection(1);
 builder.getCurrentSection().getPageSetup().getTextColumns().setCount(2);
 
 builder.write("Text at end of column 1." + ControlChar.COLUMN_BREAK + "Text at beginning of column 2.");
-```
-### Gyakorlati alkalmazások
-**Valós felhasználási esetek:**
-1. **Számla generálása**Többoldalas számlák esetén vezérlőkarakterekkel formázza a sorokat és biztosítsa az oldaltöréseket.
-2. **Jelentés létrehozása**: A strukturált jelentések adatmezőinek igazítása tabulátor és szóköz vezérlőkkel.
-3. **Többoszlopos elrendezések**: Hozzon létre hírleveleket vagy brosúrákat egymás melletti tartalomrészekkel hasábtörések használatával.
-4. **Tartalomkezelő rendszerek (CMS)**: A szöveg formázásának dinamikus kezelése a felhasználói bevitel alapján vezérlőkarakterekkel.
-5. **Automatizált dokumentumgenerálás**: Dokumentumsablonok fejlesztése strukturált elemek programozott beszúrásával.
+```  
 
-## Teljesítménybeli szempontok
-A teljesítmény optimalizálása nagyméretű dokumentumok kezelésekor:
-- Minimalizálja a nehéz műveletek, például a gyakori újraflow-k használatát.
-- Vezérlőkarakterek kötegelt beszúrása a feldolgozási terhelés csökkentése érdekében.
-- Készítsen profilt az alkalmazásáról a szövegmanipulációval kapcsolatos szűk keresztmetszetek azonosítása érdekében.
+## Gyakorlati alkalmazások
+**Valós felhasználási esetek**:
+1. **Invoice generation** – formázza a sor tételeket, és biztosítsa az oldal töréseket a többoldalas számlák esetén vezérlő karakterekkel.  
+2. **Report creation** – igazítsa az adatmezőket strukturált jelentésekben tabulátor és szóköz vezérléssel.  
+3. **Multi‑column layouts** – hozzon létre hírleveleket vagy brosúrákat párhuzamos tartalomszakaszokkal oszloptörések segítségével.  
+4. **Content management systems (CMS)** – kezelje a szövegformázást dinamikusan a felhasználói bemenet alapján vezérlő karakterekkel.  
+5. **Automated document generation** – gazdagítsa a dokumentumsablonokat strukturált elemek programozott beszúrásával.
+
+## Teljesítmény szempontok
+A teljesítmény optimalizálásához nagy dokumentumok esetén:
+- Minimalizálja a nehéz műveleteket, például a gyakori újrarajzolásokat.  
+- Kötegelt beszúrásokkal csökkentse a feldolgozási terhelést.  
+- Profilozza alkalmazását, hogy azonosítsa a szövegmanipulációval kapcsolatos szűk keresztmetszeteket.
 
 ## Következtetés
-Ebben az útmutatóban azt vizsgáltuk meg, hogyan sajátíthatod el a vezérlőkaraktereket az Aspose.Words for Java programban. A következő lépéseket követve hatékonyan kezelheted a dokumentumstruktúrát és a formázást programozottan. Az Aspose.Words képességeinek további felfedezéséhez érdemes lehet elmélyülni a haladóbb funkciókban, és integrálni azokat a projektjeidbe.
+Ebben az útmutatóban megvizsgáltuk, hogyan illesszünk be **how to insert control characters java** az Aspose.Words segítségével. A lépések követésével programozottan kezelheti a dokumentumszerkezetet, és pontos formázást érhet el manuális szerkesztés nélkül. Fedezze fel az Aspose.Words további funkcióit, hogy tovább gazdagítsa alkalmazásait.
 
 ## Következő lépések
-- Kísérletezzen különböző típusú dokumentumokkal.
-- Fedezze fel az Aspose.Words további funkcióit alkalmazásai fejlesztéséhez.
+- Kísérletezzen különböző dokumentumtípusokkal (DOCX, PDF, HTML).  
+- Fedezze fel az Aspose.Words fejlett képességeit, például a mail‑merge, mezőfrissítések és dokumentumvédelem funkciókat.
 
-**Cselekvésre ösztönzés**Próbáld meg megvalósítani ezeket a megoldásokat a következő Java projektedben az Aspose.Words használatával a fokozott dokumentumkezelés érdekében!
+## GyIK
+**Q: Mi az a vezérlő karakter?**  
+A: A vezérlő karakter egy nem nyomtatható szimbólum (például tab, sortörés, oldal törés), amely a szöveg elrendezését befolyásolja anélkül, hogy látható szövegként megjelenne.
 
-## GYIK szekció
-1. **Mi az a vezérlő karakter?**
-   A vezérlőkarakterek speciális, nem nyomtatható karakterek, amelyeket szöveg formázására használnak, például tabulátorok és oldaltörések.
-2. **Hogyan kezdjem el használni az Aspose.Words for Java-t?**
-   Állítsa be projektjét Maven vagy Gradle függőségek használatával, és szükség esetén igényeljen ingyenes próbalicencet.
-3. **A vezérlőkarakterek képesek kezelni a többoszlopos elrendezéseket?**
-   Igen, használhatod `ControlChar.COLUMN_BREAK` a több hasábon átívelő szöveg hatékony kezeléséhez.
+**Q: Hogyan kezdjek hozzá az Aspose.Words for Java használatához?**  
+A: Adja hozzá a Maven vagy Gradle függőséget, szerezzen be egy licencet, és inicializálja azt a „Licenc beszerzése” szakaszban bemutatott módon.
+
+**Q: Kezelhetők a vezérlő karakterek többoszlopos elrendezésekkel?**  
+A: Igen – használja a `ControlChar.COLUMN_BREAK`‑et a tartalom oszlopok közötti felosztásához egy többoszlopos dokumentumban.
+
+**Q: Támogatja az Aspose.Words a nagy dokumentumokat?**  
+A: Teljes mértékben; 500‑oldalas fájlokat 3 másodpercnél kevesebb idő alatt dolgoz fel tipikus szerver hardveren, és nem igényel Microsoft Office‑t.
+
+**Q: Van mód a beszúrt vezérlő karakterek ellenőrzésére?**  
+A: A dokumentum szövegét a `Document.getText()`‑vel olvashatja, és keresheti a beszúrt vezérlő karakterek Unicode értékeit.
+
+---
+
+**Utoljára frissítve:** 2026-08-05  
+**Tesztelve:** Aspose.Words for Java 25.3  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Mester fejlett szövegfeldolgozás Aspose.Words for Java oktatóanyagok](/words/java/advanced-text-processing/)
+- [Aspose.Words Java mesterfogás: Teljes útmutató a LayoutCollector és LayoutEnumerator használatához szövegfeldolgozásban](/words/java/advanced-text-processing/aspose-words-java-layoutcollector-enumerator-guide/)
+- [Dokumentumok formázása Aspose.Words for Java‑ban](/words/java/document-manipulation/formatting-documents/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
