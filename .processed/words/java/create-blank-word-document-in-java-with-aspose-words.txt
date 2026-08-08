@@ -1,0 +1,7 @@
+Title: Create blank word document in Java with Aspose.Words
+Slug: create-blank-word-document-in-java-with-aspose-words
+Category: document-manipulation
+ProcessedDate: 2026-08-08T04:19:28.873456
+SourceRepo: AI Search API
+Keywords: create blank word document, set placeholder text, save document as docx, add placeholder to tag, add plain text control
+PRNumber: 246
