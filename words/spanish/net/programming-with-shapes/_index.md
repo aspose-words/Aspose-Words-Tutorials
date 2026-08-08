@@ -25,7 +25,9 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | Título | Descripción |
 | --- | --- |
 | [Agregar forma de grupo](./add-group-shape/) | Aprenda a agregar formas de grupo a documentos de Word usando Aspose.Words para .NET con este completo tutorial paso a paso. |
+| [Cómo agrupar formas en Word y agregar formas a un documento de Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Aprenda a agrupar y añadir formas en documentos de Word usando Aspose.Words para .NET paso a paso. |
 | [Insertar forma](./insert-shape/) | Aprenda a insertar y manipular formas en documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso. |
+| [Insertar forma de rectángulo en C# con Aspose.Words – guía paso a paso](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Aprenda a insertar una forma rectangular en documentos Word usando C# y Aspose.Words con esta guía paso a paso. |
 | [Relación de aspecto bloqueada](./aspect-ratio-locked/) Aprenda a bloquear la relación de aspecto de las formas en documentos de Word con Aspose.Words para .NET. Siga esta guía paso a paso para mantener la proporción de sus imágenes y formas. |
 | [Diseño en celda](./layout-in-cell/) Aprenda a configurar el diseño de celdas con Aspose.Words para .NET con esta guía completa. Ideal para desarrolladores que buscan personalizar documentos de Word. |
 | [Agregar esquinas recortadas](./add-corners-snipped/) Aprenda a agregar una forma de esquinas recortadas a sus documentos de Word con Aspose.Words para .NET. Esta guía paso a paso le permitirá mejorar sus documentos fácilmente. |

@@ -15,7 +15,7 @@
 
 # Processamento de palavras com formas
 
-Os tutoriais do Aspose.Words para .NET sobre Processamento de Texto com Formas oferecem um guia completo para manipular e gerenciar formas em documentos do Word. Esses tutoriais explicam passo a passo como criar, modificar e excluir formas, bem como personalizá-las em termos de cor, tamanho, posição e outros atributos. Os tutoriais incluem exemplos de código claros e explicações passo a passo para facilitar a compreensão e a implementação.
+Os tutoriais do Aspose.Words para .NET sobre Processamento de Texto com Formas oferecem um guia completo para manipular e gerenciar formas em documentos do Word. Esses tutoriais explicam passo a passo como criar, modificar e excluir formas, bem como personalizá‑las em termos de cor, tamanho, posição e outros atributos. Os tutoriais incluem exemplos de código claros e explicações passo a passo para facilitar a compreensão e a implementação.
 
 Com estes tutoriais, você aprenderá a adicionar formas aos seus documentos, como retângulos, círculos, linhas e setas, para aprimorar o layout e a visualização das informações. Você também aprenderá a manipular as propriedades das formas, como rotação, transparência e preenchimento, para atender às suas necessidades específicas.
 
@@ -25,6 +25,7 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | Título | Descrição |
 | --- | --- |
 | [Adicionar forma de grupo](./add-group-shape/) | Aprenda como adicionar formas de grupo a documentos do Word usando o Aspose.Words para .NET com este tutorial abrangente e passo a passo. |
+| [Como agrupar formas no Word e adicionar formas ao documento Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Aprenda a agrupar formas e adicioná‑las a documentos Word usando Aspose.Words para .NET. |
 | [Inserir forma](./insert-shape/) | Aprenda a inserir e manipular formas em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo. |
 | [Proporção de aspecto bloqueada](./aspect-ratio-locked/) | Aprenda a bloquear a proporção de formas em documentos do Word usando o Aspose.Words para .NET. Siga este guia passo a passo para manter suas imagens e formas proporcionais. |
 | [Layout na célula](./layout-in-cell/) | Aprenda a definir o layout em uma célula usando o Aspose.Words para .NET com este guia completo. Perfeito para desenvolvedores que desejam personalizar documentos do Word. |
@@ -36,6 +37,7 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | [Criar forma retangular no Word com Aspose.Words – Guia passo a passo](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Aprenda a criar uma forma retangular em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo. |
 | [Criar documento Word com retângulo sombreado – Guia passo a passo](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aprenda a criar um documento Word com um retângulo sombreado usando o Aspose.Words para .NET neste guia passo a passo. |
 | [Criar forma retangular no Word usando C# – Guia passo a passo](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aprenda a criar uma forma retangular em documentos do Word usando C# com este guia passo a passo. |
+| [Inserir forma retangular em C# com Aspose.Words – guia passo a passo](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Aprenda a inserir uma forma retangular em documentos Word usando C# e Aspose.Words com este guia passo a passo. |
 | [Tutorial de Sombra de Forma do Aspose.Words – Adicionar Sombra a Forma do Word em C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aprenda a adicionar sombra a formas em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. |
 | [Criar documento Word em branco com forma de retângulo sombreada – Guia passo a passo](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aprenda a criar um documento Word em branco com uma forma de retângulo sombreada usando o Aspose.Words para .NET. |
 

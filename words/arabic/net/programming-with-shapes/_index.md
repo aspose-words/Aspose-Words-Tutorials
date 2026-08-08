@@ -26,6 +26,7 @@
 | --- | --- |
 | [إضافة شكل المجموعة](./add-group-shape/) |تعرف على كيفية إضافة أشكال المجموعة إلى مستندات Word باستخدام Aspose.Words for .NET من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة. |
 | [إدراج الشكل](./insert-shape/) |تعرف على كيفية إدراج الأشكال ومعالجتها في مستندات Word باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة. |
+| [كيفية تجميع الأشكال في Word وإضافة أشكال إلى مستند Word](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | تعلم كيفية تجميع الأشكال وإضافتها إلى مستندات Word باستخدام Aspose.Words for .NET خطوة بخطوة. |
 | [نسبة العرض إلى الارتفاع مقفلة](./aspect-ratio-locked/) | تعلّم كيفية تثبيت نسبة أبعاد الأشكال في مستندات Word باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل خطوة بخطوة للحفاظ على تناسب صورك وأشكالك. |
 | [التخطيط في الخلية](./layout-in-cell/) تعرّف على كيفية ضبط تخطيط الخلية باستخدام Aspose.Words لـ .NET من خلال هذا الدليل الشامل. مثالي للمطورين الذين يرغبون في تخصيص مستندات Word. |
 | [التخطيط في الخلية](./layout-in-cell/) | تعرّف على كيفية ضبط تخطيط الخلية باستخدام Aspose.Words لـ .NET من خلال هذا الدليل الشامل. مثالي للمطورين الذين يرغبون في تخصيص مستندات Word. |
@@ -39,6 +40,7 @@
 | [إنشاء شكل مستطيل في Word باستخدام C# – دليل خطوة بخطوة](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) |تعلم كيفية إنشاء شكل مستطيل في مستندات Word باستخدام C# من خلال دليل خطوة بخطوة. |
 | [دروس Aspose.Words للظل على الشكل – إضافة ظل إلى شكل Word باستخدام C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) |تعرف على كيفية إضافة ظل إلى شكل Word باستخدام Aspose.Words for .NET وC# من خلال دليل خطوة بخطوة. |
 | [إنشاء مستند Word فارغ مع شكل مستطيل مظلّل – دليل خطوة بخطوة](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | تعرّف على كيفية إنشاء مستند Word فارغ وإضافة شكل مستطيل مظلّل باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [إدراج شكل مستطيل في C# باستخدام Aspose.Words – دليل خطوة بخطوة](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | تعلم كيفية إدراج شكل مستطيل في مستند Word باستخدام C# و Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

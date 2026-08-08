@@ -36,7 +36,7 @@
 | [การสร้างตารางส่วนที่ทำซ้ำโดยแม็ปกับส่วน XML ที่กำหนดเอง](./creating-table-repeating-section-mapped-to-custom-xml-part/) | เรียนรู้วิธีการสร้างตารางที่มีส่วนที่ทำซ้ำซึ่งแมปกับ CustomXmlPart ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET
 - [หลายส่วน](./multi-section/) เรียนรู้วิธีการทำงานกับแท็กเอกสารที่มีโครงสร้างหลายส่วนใน Aspose.Words สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการจัดการเอกสารแบบไดนามิก -
 | [ช่วงแท็กเอกสารที่มีโครงสร้าง เริ่มต้นการแมป XML](./structured-document-tag-range-start-xml-mapping/) | เรียนรู้วิธีการผูกข้อมูล XML แบบไดนามิกกับแท็กเอกสารที่มีโครงสร้างใน Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเรา |
-
+- [วิธีสร้างการควบคุมเนื้อหาใน C# ด้วย Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | เรียนรู้วิธีสร้างและกำหนดค่าการควบคุมเนื้อหาในเอกสาร Word ด้วย C# และ Aspose.Words อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

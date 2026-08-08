@@ -36,8 +36,9 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Rechteckform in Word mit Aspose.Words – Schritt-für-Schritt-Anleitung](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word-Dokument einfügen und anpassen. |
 | [Word-Dokument mit schattiertem Rechteck – Schritt‑für‑Schritt‑Anleitung](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem schattierten Rechteck erstellen. |
 | [Rechteckform in Word mit C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word‑Dokument einfügen – Schritt für Schritt in C#. |
+| [Rechteckform in C# mit Aspose.Words einfügen – Schritt‑für‑Schritt‑Anleitung](./insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# ein Rechteck in ein Word‑Dokument einfügen und anpassen. |
 | [Aspose.Words Formschatten-Tutorial – Schatten zu Word-Form in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und das Layout verbessern. |
-
+| [Wie man Formen in Word gruppiert und Formen zu einem Word‑Dokument hinzufügt](./how-to-group-shapes-in-word-and-add-shapes-to-word-document/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Formen gruppieren und neue Formen in ein Word‑Dokument einfügen. |
 | [Leeres Word-Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine schattierte Rechteckform hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

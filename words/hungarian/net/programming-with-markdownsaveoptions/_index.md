@@ -60,6 +60,8 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba C#-ban az A
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba az Aspose.Words for .NET segítségével.
 ### [Hogyan nevezze át a képeket a DOCX‑ből Markdownba konvertáláskor](./how-to-rename-images-when-converting-docx-to-markdown/)
 Ismerje meg, hogyan nevezheti át a képeket a DOCX‑ből Markdownba történő konvertálás során az Aspose.Words for .NET használatával.
+### [Markdown mentése Word-be – lépésről‑lépésre útmutató C# fejlesztőknek](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
+Ismerje meg, hogyan menthet Markdown fájlokat Word formátumba C# fejlesztőknek szóló részletes útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

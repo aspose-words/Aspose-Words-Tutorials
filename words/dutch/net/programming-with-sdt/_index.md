@@ -36,7 +36,7 @@ De codevoorbeelden in de tutorials helpen je de concepten te begrijpen en de fun
 | [Een herhalende tabelsectie maken die is toegewezen aan een aangepast XML-onderdeel](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Leer hoe u een tabel met een herhalende sectie kunt maken die is toegewezen aan een CustomXmlPart in een Word-document met behulp van Aspose.Words voor .NET. |
 | [Meerdere secties](./multi-section/) Leer hoe u met gestructureerde documenttags met meerdere secties in Aspose.Words voor .NET kunt werken met deze stapsgewijze tutorial. Ideaal voor dynamische documentbewerking. |
 | [Gestructureerd document tagbereik start XML-toewijzing](./structured-document-tag-range-start-xml-mapping/) | Leer hoe u XML-gegevens dynamisch kunt koppelen aan gestructureerde documenttags in Word met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding. |
-
+| [Hoe maak je een inhoudsbesturingselement in C# met Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Leer hoe u met Aspose.Words in C# een inhoudsbesturingselement maakt en configureert. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

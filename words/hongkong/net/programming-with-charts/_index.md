@@ -31,6 +31,7 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [將面積圖插入Word文檔](./insert-area-chart/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 將面積圖插入 Word 文件。 |
 | [在 Word 文件中插入氣泡圖](./insert-bubble-chart/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中插入氣泡圖。增強您的文件。 |
 | [在 Word 文件中插入散佈圖](./insert-scatter-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 中插入散佈圖。將可視化資料表示整合到文件中的簡單步驟。 |
+| [在 C# 中建立圓餅圖（Word） – 步驟指南](./create-pie-chart-word-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 Word 中以 C# 建立圓餅圖。 |
 | [在圖表中定義 XY 軸屬性](./define-xyaxis-properties/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 定義圖表中的 XY 軸屬性。非常適合 .NET 開發人員。 |
 | [將日期時間值加到圖表的軸上](./date-time-values-to-axis/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 將日期和時間值新增至圖表的軸。 |
 | [圖表中座標軸的數字格式](./number-format-for-axis/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 格式化圖表軸數字。輕鬆提昇文件的可讀性和專業性。 |

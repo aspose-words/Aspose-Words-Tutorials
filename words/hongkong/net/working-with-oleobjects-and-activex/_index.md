@@ -28,6 +28,7 @@ Aspose.Words for .NET 教學中關於使用 OLE 和 ActiveX 物件進行文字�
 | [在 Word 文件中將 Ole 物件插入](./insert-ole-object-as-icon/) |了解如何使用 Aspose.Words for .NET 將 OLE 物件作為圖示插入 Word 文件中。請按照我們的逐步指南來增強您的文件。 |
 | [使用流插入 Ole 物件作為圖標](./insert-ole-object-as-icon-using-stream/) |在本詳細的分步教程中學習如何使用 Aspose.Words for .NET 的流將 OLE 物件插入圖示。 |
 | [從 Word 檔案讀取 Active XControl 屬性](./read-active-xcontrol-properties/) |透過逐步指南了解如何使用 Aspose.Words for .NET 從 Word 檔案中讀取 ActiveX 控制項屬性。增強您的文件自動化技能。 |
+| [在 Word 中使用 Aspose.Words 添加 ActiveX 控制項 – 步驟指南](./how-to-add-activex-control-in-word-with-aspose-words-step-by/) |透過本分步指南了解如何在 Word 中使用 Aspose.Words 添加 ActiveX 控制項。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

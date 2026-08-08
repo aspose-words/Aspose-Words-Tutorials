@@ -36,7 +36,7 @@ Aspose.Words for .NET 教程将帮助您深入探索该库的功能，并学习�
 | [创建映射到自定义 XML 部分的表重复部分](./creating-table-repeating-section-mapped-to-custom-xml-part/) 了解如何使用 Aspose.Words for .NET 创建一个表格，其中重复部分映射到 Word 文档中的 CustomXmlPart。|
 | [多节](./multi-section/) 通过本分步教程学习如何在 Aspose.Words for .NET 中使用多节结构化文档标签。非常适合动态文档操作。|
 | [结构化文档标签范围开始 XML 映射](./structured-document-tag-range-start-xml-mapping/) 了解如何使用 Aspose.Words for .NET 将 XML 数据动态绑定到 Word 中的结构化文档标签。请遵循我们的分步指南。|
-
+| [如何使用 Aspose.Words 在 C# 中创建内容控件](./how-to-create-content-control-in-c-with-aspose-words/) 通过本教程学习在 C# 使用 Aspose.Words 创建 Word 内容控件的步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
