@@ -30,6 +30,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Vložení sloupcového grafu do dokumentu Word](./insert-column-chart/) | Naučte se, jak vkládat sloupcové grafy do dokumentů Wordu pomocí Aspose.Words pro .NET. Vylepšete vizualizaci dat ve svých sestavách a prezentacích. |
 | [Vložení plošného grafu do dokumentu Word](./insert-area-chart/) | V tomto komplexním návodu krok za krokem se naučte, jak vložit plošný graf do dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Vložení bublinového grafu do dokumentu Word](./insert-bubble-chart/) | Naučte se, jak vložit bublinový graf do dokumentu Word pomocí Aspose.Words pro .NET s tímto podrobným návodem. Vylepšete své dokumenty. |
+| [Vytvoření koláčového grafu ve Wordu v C# – krok za krokem](./create-pie-chart-word-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET vytvořit koláčový graf ve Wordu v C# krok za krokem. |
 | [Vložení bodového grafu do dokumentu Word](./insert-scatter-chart/) | Naučte se, jak vložit bodový graf do Wordu pomocí Aspose.Words pro .NET. Snadné kroky pro integraci vizuálních datových reprezentací do vašich dokumentů. |
 | [Definování vlastností osy XY v grafu](./define-xyaxis-properties/) Naučte se, jak definovat vlastnosti osy XY v grafu pomocí Aspose.Words pro .NET s tímto podrobným návodem. Ideální pro vývojáře .NET. |
 | [Přidání hodnot data a času na osu grafu](./date-time-values-to-axis/) | Naučte se v tomto komplexním návodu krok za krokem, jak přidat hodnoty data a času na osu grafu pomocí Aspose.Words pro .NET. |

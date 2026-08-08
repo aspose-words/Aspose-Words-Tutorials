@@ -24,7 +24,8 @@ Ukázky kódu uvedené v tutoriálech vám pomohou pochopit koncepty a procviči
  ## Návody
 | Název | Popis |
 | --- | --- |
-| [Ovládací prvek obsahu typu zaškrtávacího políčka](./check-box-type-content-control/) | Naučte se, jak přidat ovládací prvek obsahu typu zaškrtávací políčko do dokumentů Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
+| [Jak vytvořit ovládací prvek obsahu v C# pomocí Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Naučte se, jak pomocí Aspose.Words v C# vytvořit ovládací prvek obsahu ve Word dokumentu. |
+| [Ovládací prvek obsahu typu zaškrtávacího políčka](./check-box-type-content-control/) | Naučte se, jak přidat ovládací prvek obsahu typu zaškrtávacího políčko do dokumentů Word pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. |
 | [Aktuální stav zaškrtávacího políčka](./current-state-of-check-box/) | Naučte se, jak spravovat zaškrtávací políčka v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato příručka popisuje programově nastavení, aktualizaci a ukládání zaškrtávacích políček. |
 | [Úprava ovládacích prvků obsahu](./modify-content-controls/) | Naučte se, jak upravovat strukturované tagy dokumentů ve Wordu pomocí Aspose.Words pro .NET. Aktualizujte text, rozbalovací nabídky a obrázky krok za krokem. |
 | [Ovládací prvek obsahu pole se seznamem](./combo-box-content-control/) | Vytvořte ovládací prvek obsahu pole se seznamem v dokumentech Word pomocí Aspose.Words pro .NET s naším podrobným návodem. Ideální pro vylepšení interaktivity vašeho dokumentu. |

@@ -36,7 +36,7 @@ Các mẫu mã được cung cấp trong hướng dẫn sẽ giúp bạn hiểu 
 | [Tạo Bảng Lặp Lại Phần Ánh Xạ Đến Phần Xml Tùy Chỉnh](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Tìm hiểu cách tạo bảng có phần lặp lại được ánh xạ tới CustomXmlPart trong tài liệu Word bằng Aspose.Words cho .NET. |
 | [Nhiều phần](./multi-section/) Tìm hiểu cách làm việc với các thẻ tài liệu có cấu trúc nhiều phần trong Aspose.Words cho .NET với hướng dẫn từng bước này. Lý tưởng cho thao tác tài liệu động. |
 | [Phạm vi thẻ tài liệu có cấu trúc Bắt đầu ánh xạ Xml](./structured-document-tag-range-start-xml-mapping/) | Tìm hiểu cách liên kết dữ liệu XML động với các thẻ tài liệu có cấu trúc trong Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi. |
-
+| [Cách tạo điều khiển nội dung trong C# với Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Hướng dẫn tạo và cấu hình điều khiển nội dung trong tài liệu Word bằng C# và Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,7 +36,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Membuat Bagian Pengulangan Tabel yang Dipetakan ke Bagian XML Kustom](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Pelajari cara membuat tabel dengan bagian berulang yang dipetakan ke CustomXmlPart dalam dokumen Word menggunakan Aspose.Words untuk .NET. Bahasa Indonesia:
 | [Multi Bagian](./multi-section/) Pelajari cara bekerja dengan tag dokumen terstruktur multi-bagian di Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Ideal untuk manipulasi dokumen dinamis. Bahasa Indonesia:
 | [Rentang Tag Dokumen Terstruktur Mulai Pemetaan XML](./structured-document-tag-range-start-xml-mapping/) | Pelajari cara mengikat data XML secara dinamis ke tag dokumen terstruktur di Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami. |
-
+| [Cara membuat kontrol konten dalam C# dengan Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Panduan langkah demi langkah untuk membuat kontrol konten di Word menggunakan C# dan Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

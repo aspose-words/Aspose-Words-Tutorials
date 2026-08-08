@@ -83,6 +83,8 @@ Aprenda a exportar equações LaTeX de documentos Word para Markdown usando Aspo
 ### [Exportar docx para markdown em C# – Guia completo](./export-docx-to-markdown-in-c-complete-guide/)
 Aprenda a converter arquivos DOCX para Markdown em C# com um guia passo a passo usando Aspose.Words.
 
+### [Salvar markdown como Word – guia passo a passo para desenvolvedores C#](./save-markdown-as-word-step-by-step-guide-for-c-developers/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

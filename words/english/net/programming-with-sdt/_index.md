@@ -37,6 +37,7 @@ The code samples provided in the tutorials will help you understand the concepts
 | [Creating Table Repeating Section Mapped To Custom Xml Part](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Learn how to create a table with a repeating section mapped to a CustomXmlPart in a Word document using Aspose.Words for .NET. |
 | [Multi Section](./multi-section/) | Learn how to work with multi-section structured document tags in Aspose.Words for .NET with this step-by-step tutorial. Ideal for dynamic document manipulation. |
 | [Structured Document Tag Range Start Xml Mapping](./structured-document-tag-range-start-xml-mapping/) | Learn how to dynamically bind XML data to structured document tags in Word using Aspose.Words for .NET. Follow our step-by-step guide. |
+| [How to create content control in C# with Aspose.Words](./how-to-create-content-control-in-c-with-aspose-words/) | Learn how to create a content control in a Word document using C# and Aspose.Words with this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

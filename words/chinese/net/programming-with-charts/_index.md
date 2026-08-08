@@ -42,7 +42,7 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [设置图表中数据标签的默认选项](./default-options-for-data-labels/) 了解如何使用 Aspose.Words for .NET 设置图表中数据标签的默认选项。按照我们的分步指南，轻松创建和自定义图表。|
 | [自定义图表中的单个图表数据点](./single-chart-data-point/) 学习如何使用 Aspose.Words for .NET 自定义单个图表数据点，并遵循详细的分步指南。使用独特的标记和大小增强您的图表。|
 | [自定义图表中的单个图表系列](./single-chart-series/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列。按照我们的分步指南，获得无缝体验。|
-
+| [在 C# 中创建 Word 饼图 – 分步指南](./create-pie-chart-word-in-c-step-by-step-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中通过 C# 创建饼图，提供详细的分步指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

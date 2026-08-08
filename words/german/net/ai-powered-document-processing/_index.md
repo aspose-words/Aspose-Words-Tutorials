@@ -42,6 +42,8 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [KI-Zusammenfassung in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-ai-summary-in-c-step-by-step-guide/) |  |
+| [DOCX ins Französische übersetzen mit KI in C#](./translate-docx-to-french-with-ai-in-c/) | Verwenden Sie Aspose.Words für .NET und KI, um DOCX-Dateien automatisch ins Französische zu übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

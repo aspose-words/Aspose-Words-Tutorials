@@ -17,7 +17,7 @@
 
 Az Aspose.Words for .NET oktatóanyagok segítségével mélyrehatóan megismerkedhet a könyvtár funkcióival, és megtanulhatja, hogyan programozhat strukturált tartalommal a Wordben strukturált tartalomvezérlők (SDT-k) segítségével. Ezek a lépésről lépésre haladó oktatóanyagok végigvezetik Önt a Word-dokumentumokban található SDT-vezérlők létrehozásához, kezeléséhez és az adatok kinyeréséhez szükséges lépéseken.
 
-Ezekben az oktatóanyagokban megtanulod, hogyan adhatsz hozzá és távolíthatsz el SDT-vezérlőket, hogyan szabhatod testre őket adott tulajdonságokkal, valamint hogyan férhetsz hozzá az adataikhoz és hogyan módosíthatod azokat. Azt is megtanulod, hogyan használhatod az SDT-vezérlőkhöz kapcsolódó eseményeket egyéni műveletek végrehajtásához az adatok módosításakor vagy érvényesítésekor.
+Ezekben az oktatóanyagokban megtanulod, hogyan adhatsz hozzá és távolíthatsz el SDT-vezérlőket, hogyan szabhatod testre őket adott tulajdonságokkal, valamint hogyan férhetsz hozzá az adataikhoz és hogyan módosíthatod azokat. Azt is megtanulod, hogyan használhatod az SDT vezérlőkhöz kapcsolódó eseményeket egyéni műveletek végrehajtásához az adatok módosításakor vagy érvényesítésekor.
 
 Az oktatóanyagokban található kódminták segítenek megérteni az SDT vezérlők koncepcióit és gyakorolni azok működését saját projektjeidben. Akár kezdő, akár tapasztalt fejlesztő vagy, ezek az oktatóanyagok segítenek elsajátítani az SDT vezérlők használatát az Aspose.Words for .NET programban, és fejleszteni a Word dokumentumfejlesztési készségeidet.
 
@@ -36,7 +36,7 @@ Az oktatóanyagokban található kódminták segítenek megérteni az SDT vezér
 | [Egyéni XML-alkatrészhez rendelt ismétlődő szakasz táblázat létrehozása](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Ismerje meg, hogyan hozhat létre ismétlődő szakaszt tartalmazó táblázatot egy Word-dokumentumban, amely CustomXmlPart elemhez van leképezve az Aspose.Words for .NET használatával. |
 | [Több szakasz](./multi-section/) Tanulja meg, hogyan kell több szakaszból álló strukturált dokumentumcímkékkel dolgozni az Aspose.Words for .NET programban ezzel a lépésről lépésre szóló oktatóanyaggal. Ideális a dinamikus dokumentumkezeléshez. |
 | [Strukturált dokumentum címketartomány kezdete XML-megfeleltetés](./structured-document-tag-range-start-xml-mapping/) | Ismerje meg, hogyan köthet dinamikusan XML-adatokat strukturált dokumentumcímkékhez Wordben az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat. |
-
+| [Hogyan hozzunk létre tartalomvezérlőt C#-ban az Aspose.Words segítségével](./how-to-create-content-control-in-c-with-aspose-words/) | Ismerje meg, hogyan hozhat létre tartalomvezérlőt C#-ban az Aspose.Words használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

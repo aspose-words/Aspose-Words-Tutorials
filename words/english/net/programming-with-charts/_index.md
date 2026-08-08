@@ -27,6 +27,7 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | --- | --- |
 | [Format Number Of Data Label In A Chart](./format-number-of-data-label/) | Learn how to format data labels in charts using Aspose.Words for .NET with this step-by-step guide. Enhance your Word documents effortlessly. |
 | [Create & Customize Chart Using Shape](./create-chart-using-shape/) | Learn how to create and customize charts in Word documents using Aspose.Words for .NET with this step-by-step guide. Perfect for data visualization. |
+| [Create pie chart word in C# – step‑by‑step guide](./create-pie-chart-word-in-c-step-by-step-guide/) | Learn how to create a pie chart in a Word document using Aspose.Words for .NET with this step-by-step guide. |
 | [Insert Simple Column Chart In A Word Document](./insert-simple-column-chart/) | Learn how to insert a simple column chart in Word using Aspose.Words for .NET. Enhance your documents with dynamic visual data presentations. |
 | [Insert Column Chart In A Word Document](./insert-column-chart/) | Learn how to insert column charts in Word documents using Aspose.Words for .NET. Enhance data visualization in your reports and presentations. |
 | [Insert Area Chart Into A Word Document](./insert-area-chart/) | Learn how to insert an area chart into a Word document using Aspose.Words for .NET in this comprehensive step-by-step guide. |

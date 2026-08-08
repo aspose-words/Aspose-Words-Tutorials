@@ -38,10 +38,12 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
  ## Tutoriales de procesamiento de documentos con IA
 | Título | Descripción |
 | --- | --- |
-| [Trabajar con el modelo de IA](./working-with-ai-model/) Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental.
-| [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
+| [Trabajar con el modelo de IA](./working-with-ai-model/) | Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental. |
+| [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) | Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
+| [Crear resumen con IA en C# – guía paso a paso](./create-ai-summary-in-c-step-by-step-guide/) | Aprenda a generar resúmenes automáticos con IA en C# usando Aspose.Words paso a paso. |
+| [Traducir docx a francés con IA en C#](./translate-docx-to-french-with-ai-in-c/) | Aprenda a traducir documentos DOCX al francés usando IA en C# con Aspose.Words paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
