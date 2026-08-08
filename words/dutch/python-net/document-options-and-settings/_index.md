@@ -49,6 +49,8 @@ Leer hoe je Word-documenten efficiënt kunt bewerken met Aspose.Words voor Pytho
 Leer hoe u documenteigenschappen en metadata beheert met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
 ### [Documentfunctionaliteit uitbreiden met webextensies](./document-functionality-web-extensions/)
 Leer hoe u de functionaliteit van documenten kunt uitbreiden met webextensies met Aspose.Words voor Python. Stapsgewijze handleiding met broncode voor naadloze integratie.
+### [Beschadigd Word-document herstellen met Aspose.Words – stapsgewijze Python-gids](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Leer hoe u beschadigde Word-documenten kunt herstellen met Aspose.Words in Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

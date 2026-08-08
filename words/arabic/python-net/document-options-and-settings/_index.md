@@ -49,6 +49,8 @@
 تعلّم كيفية إدارة خصائص المستندات والبيانات الوصفية باستخدام Aspose.Words لبايثون. دليل خطوة بخطوة مع الكود المصدري.
 ### [توسيع وظائف المستندات باستخدام ملحقات الويب](./document-functionality-web-extensions/)
 تعرّف على كيفية توسيع وظائف المستندات باستخدام ملحقات الويب باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع الكود المصدري لتكامل سلس.
+### [استعادة مستند Word تالف باستخدام Aspose.Words – دليل خطوة بخطوة للبايثون](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+تعرّف على كيفية استعادة مستند Word تالف باستخدام Aspose.Words في بايثون خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

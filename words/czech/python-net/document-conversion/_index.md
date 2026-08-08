@@ -37,6 +37,12 @@ Naučte se převod dokumentů v Pythonu s Aspose.Words pro Python. Převádějte
 Naučte se uložit obsah Wordu jako Markdown pomocí Aspose.Words pro Python.
 ### [Obnova poškozeného DOCX a převod Wordu na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Naučte se opravit poškozené soubory DOCX a převést je do formátu Markdown pomocí Aspose.Words pro Python.
+### [Uložte Word jako Markdown, exportujte rovnice do LaTeXu (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Naučte se uložit dokument Word jako Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words pro Python.
+### [Export rovnic Word do LaTeXu s Aspose.Words – krok za krokem](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Naučte se exportovat rovnice z dokumentu Word do LaTeXu pomocí Aspose.Words v Pythonu.
+### [Export DOCX do PDF – vytvořte přístupný PDF](./export-docx-to-pdf-generate-accessible-pdf/)
+Naučte se exportovat soubory DOCX do PDF s podporou přístupnosti pomocí Aspose.Words pro Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

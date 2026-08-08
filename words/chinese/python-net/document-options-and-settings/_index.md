@@ -49,6 +49,8 @@
 学习如何使用 Aspose.Words for Python 管理文档属性和元数据。包含源代码的分步指南。
 ### [使用 Web 扩展来扩展文档功能](./document-functionality-web-extensions/)
 学习如何使用 Aspose.Words for Python 通过 Web 扩展程序扩展文档功能。包含无缝集成源代码的分步指南。
+### [使用 Aspose.Words 恢复损坏的 Word 文档 – Python 步骤指南](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+学习如何使用 Aspose.Words for Python 逐步恢复损坏的 Word 文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,12 @@ Tanuld meg a Python dokumentumkonvertálást az Aspose.Words for Python segíts�
 Ismerje meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba Python segítségével.
 ### [Sérült DOCX helyreállítása és Word konvertálása Markdown formátumba](./recover-corrupted-docx-convert-word-to-markdown/)
 Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat, és konvertálhatja őket Markdown formátumba Python segítségével.
+### [Word mentése Markdown formátumba, egyenletek exportálása LaTeX-be (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Ismerje meg, hogyan mentheti a Word dokumentumokat Markdown formátumba, és exportálhatja az egyenleteket LaTeX-be Python segítségével.
+### [Word egyenletek exportálása LaTeX-be az Aspose.Words segítségével – lépésről lépésre útmutató](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Ismerje meg, hogyan exportálhatja a Word egyenletek LaTeX formátumba az Aspose.Words használatával.
+### [docx exportálása PDF-be – hozzáférhető PDF generálása](./export-docx-to-pdf-generate-accessible-pdf/)
+Ismerje meg, hogyan exportálhatja a DOCX fájlokat PDF-be, miközben hozzáférhető, akadálymentes PDF-et hoz létre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
