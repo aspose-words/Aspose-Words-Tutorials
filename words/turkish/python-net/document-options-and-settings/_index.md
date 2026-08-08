@@ -48,7 +48,9 @@ Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şeki
 ### [Belge Özellikleri ve Meta Veri Yönetimi](./document-properties-metadata/)
 Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Web Uzantıları ile Belge İşlevselliğini Genişletme](./document-functionality-web-extensions/)
-Aspose.Words for Python kullanarak web uzantılarıyla belge işlevselliğini nasıl genişleteceğinizi öğrenin. Sorunsuz entegrasyon için kaynak kodlu adım adım kılavuz.
+Aspose.Words for Python kullanarak web uzantılarıyla belge işlevselliğini nasıl genişletebileceğinizi öğrenin. Sorunsuz entegrasyon için kaynak kodlu adım adım kılavuz.
+### [Aspose.Words ile Bozuk Word Belgesini Kurtarma – adım adım Python rehberi](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Python için Aspose.Words kullanarak bozuk bir Word belgesini nasıl kurtaracağınızı öğrenin. Kaynak kodlu adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@ Tanuld meg, hogyan manipulálhatsz hatékonyan Word dokumentumokat az Aspose.Wor
 Tanuld meg, hogyan kezelheted a dokumentumok tulajdonságait és metaadatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal.
 ### [Dokumentumfunkciók bővítése webbővítményekkel](./document-functionality-web-extensions/)
 Ismerje meg, hogyan bővítheti a dokumentumok funkcionalitását webbővítményekkel az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes integrációhoz.
+### [Sérült Word dokumentum helyreállítása az Aspose.Words segítségével – lépésről lépésre Python útmutató](./recover-corrupted-word-document-with-aspose-words-step-by-st/)
+Tanulja meg, hogyan állíthatja helyre a sérült Word fájlokat az Aspose.Words Python API-val, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
