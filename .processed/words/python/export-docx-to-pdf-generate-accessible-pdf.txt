@@ -1,0 +1,7 @@
+Title: export docx to pdf – generate accessible PDF
+Slug: export-docx-to-pdf-generate-accessible-pdf
+Category: document-conversion
+ProcessedDate: 2026-08-08T04:55:54.179199
+SourceRepo: AI Search API
+Keywords: export docx to pdf, generate accessible pdf, word to pdf accessibility
+PRNumber: 247
