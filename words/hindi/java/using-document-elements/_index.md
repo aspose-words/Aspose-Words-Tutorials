@@ -70,7 +70,8 @@ Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX न�
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
-जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
+### [Java के लिए Aspose.Words में पाई स्लाइस को एक्सप्लोड करना](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Java में Aspose.Words चार्ट का उपयोग करके पाई स्लाइस को एक्सप्लोड करने की चरण-दर-चरण ट्यूटोरियल।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

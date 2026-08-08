@@ -88,6 +88,9 @@ Học cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words for J
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 Làm chủ Load Options trong Aspose.Words for Java. Tùy chỉnh quá trình tải tài liệu, xử lý mã hoá, chuyển đổi shape, thiết lập phiên bản Word và hơn thế nữa để tối ưu quá trình xử lý tài liệu Java.
 
+### [Cách đặt tùy chọn trong Aspose.Words cho Java – hướng dẫn đầy đủ](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Hướng dẫn chi tiết cách cấu hình các tùy chọn trong Aspose.Words cho Java.
+
 ### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
 

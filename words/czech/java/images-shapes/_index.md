@@ -37,6 +37,15 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 ### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
 
+### [Vytvořit prázdný Word dokument se seskupenými tvary v Javě](./create-blank-word-document-with-grouped-shapes-in-java/)
+Naučte se vytvořit prázdný dokument Word se seskupenými tvary v Javě.
+
+### [Aspose.Words ActiveX tutoriál – vložení CommandButtonu v Javě](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Naučte se, jak pomocí ActiveX a Aspose.Words v Javě vložit ovládací prvek CommandButton do dokumentu Word.
+
+### [Vytvořit Word dokument v Javě – skrýt tvar a nastavit barvu výplně](./create-word-document-java-hide-shape-and-set-fill-color/)
+Naučte se, jak skrýt tvar a nastavit barvu výplně v dokumentu Word pomocí Aspose.Words pro Javu.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

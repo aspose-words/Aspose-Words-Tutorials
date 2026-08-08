@@ -88,6 +88,9 @@ Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words 
 ### [Travailler avec les options de chargement dans Aspose.Words for Java](./using-load-options/)
 Maîtrisez les options de chargement dans Aspose.Words for Java. Personnalisez le chargement de documents, gérez le chiffrement, convertissez les formes, définissez les versions Word, et plus encore pour un traitement efficace des documents Java.
 
+### [Comment définir les options dans Aspose.Words for Java – guide complet](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Apprenez à configurer toutes les options de chargement et d’enregistrement dans Aspose.Words for Java avec des exemples détaillés.
+
 ### [Configuration des options de chargement RTF dans Aspose.Words for Java](./configuring-rtf-load-options/)
 Configuration des options de chargement RTF dans Aspose.Words for Java. Apprenez à reconnaître le texte UTF‑8 dans les documents RTF. Guide étape par étape avec des exemples de code.
 

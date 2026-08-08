@@ -90,6 +90,8 @@ Scopri come suddividere i documenti in modo efficiente in Aspose.Words per Java.
 Scopri come suddividere i documenti in pagine HTML con Aspose.Words per Java. Segui la nostra guida passo passo per una conversione impeccabile dei documenti.
 ### [Aggiunta di contenuto tramite DocumentBuilder in Aspose.Words per Java](./adding-content-using-documentbuilder/)
 Creazione di documenti di successo con Aspose.Words per Java. Una guida passo passo per aggiungere testo, tabelle, immagini e altro ancora. Crea documenti Word straordinari senza sforzo.
+### [Creare un documento Word vuoto in Java con Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Crea un documento Word vuoto in Java usando Aspose.Words.
 ### [Clonazione e combinazione di documenti in Aspose.Words per Java](./cloning-and-combining-documents/)
 Scopri come clonare e combinare documenti in Aspose.Words per Java. Guida passo passo con esempi di codice sorgente.
 ### [Confronto di documenti in Aspose.Words per Java](./comparing-documents/)

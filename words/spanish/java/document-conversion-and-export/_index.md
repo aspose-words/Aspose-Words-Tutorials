@@ -119,6 +119,9 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
 
+### [Crear markdown a partir de docx en Java – guía completa de Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Aprenda a generar archivos markdown a partir de documentos DOCX usando Aspose.Words for Java con esta guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

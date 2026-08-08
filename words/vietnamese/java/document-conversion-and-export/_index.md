@@ -103,6 +103,9 @@ Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình ch
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
 
+### [Tạo markdown từ docx trong Java – hướng dẫn đầy đủ Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown trong Java bằng Aspose.Words.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  

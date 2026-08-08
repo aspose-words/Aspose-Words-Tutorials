@@ -88,6 +88,9 @@ Leer hoe je HTML-documenten kunt laden en opslaan in Java met Aspose.Words for J
 ### [Werken met laadopties in Aspose.Words for Java](./using-load-options/)
 Beheers laadopties in Aspose.Words for Java. Pas documentladen aan, behandel encryptie, converteer shapes, stel Word‑versies in en meer voor efficiënte Java‑documentverwerking.
 
+### [Hoe opties instellen in Aspose.Words voor Java – volledige gids](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Leer hoe je alle laad‑ en opslaanopties configureert in Aspose.Words voor Java met uitgebreide voorbeelden.
+
 ### [Lettertypevervangingswaarschuwingen vastleggen in Java met Aspose.Words – Complete gids](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Leer hoe je lettertypevervangingswaarschuwingen kunt vastleggen en verwerken tijdens het laden van documenten met Aspose.Words voor Java.
 

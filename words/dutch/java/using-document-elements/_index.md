@@ -71,6 +71,8 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Hoe een taartpunt te exploderen in Java – Aspose.Words diagramtutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Leer hoe u een taartpunt kunt laten exploderen in een diagram met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

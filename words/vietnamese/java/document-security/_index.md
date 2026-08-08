@@ -39,6 +39,8 @@ Tìm hiểu cách quản lý quyền tài liệu hiệu quả bằng Aspose.Word
 Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Java. Bảo mật dữ liệu của bạn hiệu quả với hướng dẫn từng bước và ví dụ về mã nguồn.
 ### [Chữ ký số trong tài liệu](./digital-signatures-in-documents/)
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
+### [Cách ký file docx trong Java – hướng dẫn từng bước](./how-to-sign-docx-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách ký file docx bằng Aspose.Words for Java, bao gồm mã nguồn mẫu và các lưu ý quan trọng.
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
 

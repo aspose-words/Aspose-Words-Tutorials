@@ -37,6 +37,14 @@
 ### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงา](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
+### [สร้างเอกสาร Word เปล่าพร้อมกลุ่มรูปทรงใน Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+
+### [บทแนะนำ Aspose.Words ActiveX – แทรก CommandButton ด้วย Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+เรียนรู้วิธีแทรกปุ่ม CommandButton ในเอกสาร Word ผ่าน ActiveX ด้วย Java
+
+### [สร้างเอกสาร Word ด้วย Java – ซ่อนรูปทรงและตั้งค่าสีเติม](./create-word-document-java-hide-shape-and-set-fill-color/)
+เรียนรู้วิธีซ่อนรูปทรงและกำหนดสีเติมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

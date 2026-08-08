@@ -103,7 +103,9 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 ### [استخدام خصائص المستند في Aspose.Words لـ Java](./using-document-properties/)
 حسّن إدارة المستندات باستخدام Aspose.Words لجافا. تعلّم كيفية التعامل مع خصائص المستندات، وإضافة بيانات تعريفية مخصصة، والمزيد في هذا البرنامج التعليمي الشامل.
 ### [استخدام ملحقات الويب في Aspose.Words للغة Java](./using-web-extensions/)
-حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة. 
+حسّن مستنداتك باستخدام ملحقات الويب في Aspose.Words لجافا. تعلّم كيفية دمج محتوى الويب بسلاسة.
+### [إنشاء مستند Word فارغ في Java باستخدام Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+تعلم كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words لجافا بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

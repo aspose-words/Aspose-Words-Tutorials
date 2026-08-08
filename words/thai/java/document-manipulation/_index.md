@@ -104,6 +104,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
 ### [การใช้ส่วนขยายเว็บใน Aspose.Words สำหรับ Java](./using-web-extensions/)
 ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
+### [สร้างเอกสาร Word ว่างใน Java ด้วย Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+เรียนรู้วิธีสร้างไฟล์ Word เปล่าใน Java ด้วย Aspose.Words อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

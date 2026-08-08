@@ -42,6 +42,8 @@ Learn how to encrypt and decrypt documents with Aspose.Words for Java. Secure yo
 Learn how to implement secure digital signatures in documents using Aspose.Words for Java. Ensure document integrity with step-by-step guidance and source code
 ### [Document Redaction and Data Protection](./document-redaction-data-protection/)
 Learn how to secure your documents and redact sensitive data using Aspose.Words for Java. Step-by-step guide with source code.
+### [How to sign docx in Java – step‑by‑step guide](./how-to-sign-docx-in-java-step-by-step-guide/)
+Learn how to digitally sign DOCX files in Java using Aspose.Words with a clear step‑by‑step guide and sample code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

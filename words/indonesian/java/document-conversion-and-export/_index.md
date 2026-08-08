@@ -102,6 +102,9 @@ Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaa
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
 
+### [Buat markdown dari docx di Java – panduan lengkap Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Pelajari cara mengonversi file DOCX menjadi markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

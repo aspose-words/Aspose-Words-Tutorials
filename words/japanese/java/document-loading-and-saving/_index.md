@@ -117,6 +117,8 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Java でフォント置換警告を取得する – Aspose.Words 完全ガイド](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [Aspose.Words for Java のオプション設定方法 – 完全ガイド](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
 ## よくある質問
 
 **Q:** プログラムで **save images from word** ドキュメントを保存するにはどうすればよいですか？  

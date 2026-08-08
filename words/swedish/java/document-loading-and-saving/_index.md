@@ -88,6 +88,9 @@ Lär dig hur du laddar och sparar HTML-dokument i Java med Aspose.Words för Jav
 ### [Arbeta med laddningsalternativ i Aspose.Words för Java](./using-load-options/)
 Behärska laddningsalternativ i Aspose.Words för Java. Anpassa dokumentladdning, hantera kryptering, konvertera former, ange Word‑versioner och mer för effektiv Java‑dokumentbehandling.
 
+### [Hur du ställer in alternativ i Aspose.Words för Java – komplett guide](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Lär dig hur du konfigurerar alla möjliga alternativ i Aspose.Words för Java för att anpassa dokumenthantering.
+
 ### [Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java](./configuring-rtf-load-options/)
 Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java. Lär dig hur du känner igen UTF‑8‑text i RTF‑dokument. Steg‑för‑steg‑guide med kodexempel.
 
@@ -133,7 +136,7 @@ Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera D
 ### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Words för Java.
 
-### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Fånga varningar om tecken­substitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
 ## Vanliga frågor
 
