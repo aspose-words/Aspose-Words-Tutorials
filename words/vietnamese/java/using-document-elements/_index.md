@@ -43,6 +43,8 @@ Tóm lại, việc thành thạo thao tác phần tử tài liệu bằng Aspose
 Hãy nhớ rằng, thực hành sẽ tạo nên sự hoàn hảo và với Aspose.Words for Java, bạn sẽ có thể tạo, chỉnh sửa và cải thiện tài liệu như một chuyên gia chỉ trong thời gian ngắn. Chúc bạn viết mã vui vẻ!
 
 ## Hướng dẫn sử dụng Document Elements
+### [Cách làm nổ miếng bánh pie trong Java – Hướng dẫn biểu đồ Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Hướng dẫn từng bước để làm nổ miếng bánh pie trong biểu đồ Aspose.Words cho Java.
 ### [Sử dụng chú thích trong Aspose.Words cho Java](./using-comments/)
 Tìm hiểu cách sử dụng chú thích trong Aspose.Words cho Java. Hướng dẫn từng bước để thêm và tùy chỉnh chú thích trong tài liệu của bạn.
 ### [Sử dụng Fields trong Aspose.Words cho Java](./using-fields/)

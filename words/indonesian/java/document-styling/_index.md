@@ -43,6 +43,8 @@ Pelajari cara menyesuaikan tema dokumen menggunakan Aspose.Words untuk Java. Pan
 Pelajari cara menerapkan tanda air dan mengatur konfigurasi halaman dengan Aspose.Words untuk Java. Panduan lengkap dengan kode sumber.
 ### [Penataan Header dan Footer Dokumen](./document-header-footer-styling/)
 Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Java dalam panduan terperinci ini. Petunjuk langkah demi langkah dan kode sumber disertakan.
+### [Cara mengedit catatan kaki di Java dengan Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Pelajari cara mengedit catatan kaki dalam dokumen menggunakan Aspose.Words untuk Java dengan contoh kode sumber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

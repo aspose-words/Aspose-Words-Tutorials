@@ -135,7 +135,12 @@ Aspose.Words के साथ Java में दस्तावेज़ फ़�
 Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
 
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
+
+### [Aspose.Words for Java में विकल्प सेट करने का तरीका – पूर्ण गाइड](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+
+Aspose.Words for Java में विभिन्न लोड और सेव विकल्पों को कैसे कॉन्फ़िगर करें, इस पूर्ण गाइड में सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -44,6 +44,9 @@ Lär dig hur du använder vattenstämplar och konfigurerar sidkonfigurationer me
 ### [Formatering av dokumentsidhuvud och sidfot](./document-header-footer-styling/)
 Lär dig hur du formaterar dokumentsidhuvuden och sidfot med Aspose.Words för Java i den här detaljerade guiden. Steg-för-steg-instruktioner och källkod ingår.
 
+### [Redigera fotnot i Java med Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Lär dig hur du redigerar fotnoter i dokument med Aspose.Words för Java. Steg-för-steg-guide med källkod.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

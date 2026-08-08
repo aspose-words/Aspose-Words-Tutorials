@@ -37,6 +37,15 @@ Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerin
 ### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Java kullanarak Word belgesine gölge efektiyle dikdörtgen şekil eklemeyi öğrenin.
 
+### [Java'da Gruplandırılmış Şekillerle Boş Word Belgesi Oluşturma](./create-blank-word-document-with-grouped-shapes-in-java/)
+Java kullanarak bir Word belgesi oluşturun ve içinde birden fazla şekli gruplayarak ekleyin.
+
+### [Aspose.Words ActiveX eğitimi – Java ile bir CommandButton ekleme](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Java kullanarak ActiveX kontrolü ekleyerek bir CommandButton oluşturmayı öğrenin.
+
+### [Java ile Word belgesi oluştur – şekli gizle ve dolgu rengini ayarla](./create-word-document-java-hide-shape-and-set-fill-color/)
+Java kullanarak bir Word belgesine şekli gizleyip dolgu rengini ayarlamayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

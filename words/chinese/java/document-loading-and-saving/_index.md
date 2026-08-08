@@ -134,6 +134,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 
 ### [在 Java 中捕获字体替换警告 – Aspose.Words 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [如何在 Aspose.Words for Java 中设置选项 – 完整指南](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+全面介绍在 Java 中使用 Aspose.Words 设置加载和保存选项的步骤与示例。
+
 ## 常见问题
 
 **Q:** 如何以编程方式 **save images from word** 文档？  

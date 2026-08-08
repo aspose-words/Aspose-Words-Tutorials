@@ -71,6 +71,7 @@ Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı ö
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
 Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı bir kılavuz. Kod örnekleriyle bölümleri ekleyin, silin, ekleyin, klonlayın.
+### [Java için Aspose.Words'de Pasta Dilimini Patlatma](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

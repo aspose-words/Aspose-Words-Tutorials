@@ -105,6 +105,8 @@ Unlock the Power of Aspose.Words for Java. Master Document Options and Settings 
 Optimize document management with Aspose.Words for Java. Learn to work with document properties, add custom metadata, and more in this comprehensive tutorial.
 ### [Using Web Extensions in Aspose.Words for Java](./using-web-extensions/)
 Enhance Documents with Web Extensions in Aspose.Words for Java. Learn to integrate web-based content seamlessly. 
+### [Create blank word document in Java with Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Create a blank Word document using Aspose.Words for Java. Simple step-by-step guide with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

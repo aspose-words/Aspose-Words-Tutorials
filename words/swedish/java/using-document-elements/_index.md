@@ -71,6 +71,8 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Hur man exploderar en pajskiva i Java – Aspose.Words diagramhandledning](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Lär dig hur du får en pajskiva att explodera i ett diagram med Aspose.Words för Java. Steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

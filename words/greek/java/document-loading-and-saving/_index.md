@@ -86,23 +86,42 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ## Σχετικά Tutorials – Φόρτωση, Αποθήκευση και Μετατροπή
 
 ### [Φόρτωση και Αποθήκευση HTML Εγγράφων με Aspose.Words for Java](./loading-and-saving-html-documents/)
+
 ### [Εργασία με Επιλογές Φόρτωσης στο Aspose.Words for Java](./using-load-options/)
+
 ### [Διαμόρφωση Επιλογών Φόρτωσης RTF στο Aspose.Words for Java](./configuring-rtf-load-options/)
+
 ### [Φόρτωση Αρχείων Κειμένου με Aspose.Words for Java](./loading-text-files/)
+
 ### [Προχωρημένες Επιλογές Αποθήκευσης με Aspose.Words for Java](./advance-saving-options/)
+
 ### [Αποθήκευση HTML Εγγράφων με Σταθερή Διάταξη στο Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
+
 ### [Προχωρημένες Επιλογές Αποθήκευσης HTML Εγγράφων με Aspose.Words Java](./advance-html-documents-saving-options/)
+
 ### [Αποθήκευση Ε εικόνων από Έγγραφα στο Aspose.Words for Java](./saving-images-from-documents/)
+
 ### [Αποθήκευση Εγγράφων ως Markdown στο Aspose.Words for Java](./saving-documents-as-markdown/)
+
 ### [Αποθήκευση Εγγράφων σε Μορφή ODT στο Aspose.Words for Java](./saving-documents-as-odt-format/)
+
 ### [Αποθήκευση Εγγράφων σε Μορφή OOXML στο Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+
 ### [Αποθήκευση Εγγράφων σε Μορφή PCL στο Aspose.Words for Java](./saving-documents-as-pcl-format/)
+
 ### [Αποθήκευση Εγγράφων ως PDF στο Aspose.Words for Java](./saving-documents-as-pdf/)
+
 ### [Αποθήκευση Εγγράφων σε Μορφή RTF στο Aspose.Words for Java](./saving-documents-as-rtf-format/)
+
 ### [Αποθήκευση Εγγράφων ως Αρχεία Κειμένου στο Aspose.Words for Java](./saving-documents-as-text-files/)
+
 ### [Καθορισμός Μορφής Εγγράφου στο Aspose.Words for Java](./determining-document-format/)
+
 ### [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός για Διόρθωση και Επεξεργασία Εγγράφων](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Πώς να ορίσετε επιλογές στο Aspose.Words για Java – πλήρης οδηγός](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
 
 ## Συχνές Ερωτήσεις
 

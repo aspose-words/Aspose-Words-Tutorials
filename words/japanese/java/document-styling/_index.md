@@ -44,6 +44,9 @@ Aspose.Words for Javaを使って透かしを適用し、ページ設定を行�
 ### [ドキュメントのヘッダーとフッターのスタイル](./document-header-footer-styling/)
 この詳細なガイドでは、Aspose.Words for Java を使用してドキュメントのヘッダーとフッターにスタイルを設定する方法を学びます。ステップバイステップの説明とソースコードが含まれています。
 
+### [JavaでAspose.Wordsを使用して脚注を編集する方法](./how-to-edit-footnote-in-java-with-aspose-words/)
+Aspose.Words for Java を使い、文書内の脚注を追加・編集・削除する手順を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

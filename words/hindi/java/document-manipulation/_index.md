@@ -105,6 +105,9 @@ Aspose.Words for Java के साथ दस्तावेज़ प्रब�
 ### [जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना](./using-web-extensions/)
 Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें। 
 
+### [Java में Aspose.Words के साथ खाली Word दस्तावेज़ बनाएं](./create-blank-word-document-in-java-with-aspose-words/)
+Java में Aspose.Words का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

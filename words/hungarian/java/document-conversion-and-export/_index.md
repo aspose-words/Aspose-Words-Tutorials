@@ -101,6 +101,9 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
 
+### [Markdown létrehozása DOCX‑ből Java‑ban – teljes Aspose.Words útmutató](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Tanulja meg, hogyan konvertáljon DOCX fájlokat markdown formátumba Java‑val az Aspose.Words segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

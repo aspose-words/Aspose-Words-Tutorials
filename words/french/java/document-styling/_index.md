@@ -43,6 +43,8 @@ Apprenez à personnaliser les thèmes de vos documents avec Aspose.Words pour Ja
 Apprenez à appliquer des filigranes et à configurer des pages avec Aspose.Words pour Java. Un guide complet avec code source.
 ### [Style d'en-tête et de pied de page du document](./document-header-footer-styling/)
 Apprenez à styliser les en-têtes et pieds de page de vos documents avec Aspose.Words pour Java dans ce guide détaillé. Instructions étape par étape et code source inclus.
+### [Comment modifier une note de bas de page en Java avec Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
+Apprenez à modifier les notes de bas de page dans vos documents Java avec Aspose.Words. Guide étape par étape avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

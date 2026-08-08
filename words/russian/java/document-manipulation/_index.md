@@ -80,6 +80,8 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как улучшить форматирование документов с помощью Aspose.Words для Java. Изучите стили, темы и многое другое в этом подробном руководстве с примерами исходного кода.
 ### [Создание оглавления в Aspose.Words для Java](./generating-table-of-contents/)
 Узнайте, как создавать и настраивать оглавление (TOC) с помощью Aspose.Words для Java. Создавайте организованные и профессиональные документы без усилий.
+### [Создание пустого документа Word в Java с Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Создайте пустой документ Word в Java с помощью Aspose.Words.
 ### [Защита документов в Aspose.Words для Java](./protecting-documents/)
 Узнайте, как защитить документы Java Word с помощью Aspose.Words for Java. Защитите свои данные паролем и т. д.
 ### [Разделение документов на страницы в Aspose.Words для Java](./splitting-documents-into-pages/)

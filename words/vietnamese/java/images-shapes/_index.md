@@ -37,6 +37,15 @@ Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy ch�
 ### [Tạo tài liệu Word bằng Java – Thêm hình chữ nhật với hiệu ứng bóng](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word bằng Aspose.Words cho Java.
 
+### [Tạo tài liệu Word trống với các hình dạng nhóm trong Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và chèn các hình dạng được nhóm lại bằng Aspose.Words cho Java.
+
+### [Hướng dẫn Aspose.Words ActiveX – chèn một CommandButton bằng Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Hướng dẫn cách chèn CommandButton vào tài liệu Word thông qua ActiveX trong Java.
+
+### [Tạo tài liệu Word bằng Java – ẩn hình dạng và đặt màu nền](./create-word-document-java-hide-shape-and-set-fill-color/)
+Hướng dẫn cách ẩn một hình dạng và thiết lập màu nền cho nó trong tài liệu Word bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)

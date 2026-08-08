@@ -43,6 +43,7 @@ Aspose.Words for Java มอบเครื่องมืออันทรง�
 เรียนรู้วิธีการใช้ลายน้ำและตั้งค่าคอนฟิกูเรชันหน้าด้วย Aspose.Words สำหรับ Java คู่มือที่ครอบคลุมพร้อมโค้ดต้นฉบับ
 ### [การจัดรูปแบบส่วนหัวและส่วนท้ายเอกสาร](./document-header-footer-styling/)
 เรียนรู้วิธีกำหนดรูปแบบส่วนหัวและส่วนท้ายของเอกสารโดยใช้ Aspose.Words สำหรับ Java ในคู่มือโดยละเอียดนี้ มีคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับรวมอยู่ด้วย
+### [วิธีแก้ไขเชิงอรรถใน Java ด้วย Aspose.Words](./how-to-edit-footnote-in-java-with-aspose-words/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
