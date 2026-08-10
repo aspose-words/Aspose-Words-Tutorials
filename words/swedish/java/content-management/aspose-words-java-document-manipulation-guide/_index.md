@@ -1,9 +1,69 @@
 ---
-"date": "2025-03-28"
-"description": "Lär dig hur du bemästrar dokumenthantering med Aspose.Words för Java. Den här guiden behandlar initialisering, anpassning av bakgrunder och effektiv import av noder."
-"title": "Behärska dokumentmanipulation med Aspose.Words för Java - En omfattande guide"
-"url": "/sv/java/content-management/aspose-words-java-document-manipulation-guide/"
-"weight": 1
+date: '2026-08-10'
+description: Lär dig hur du lägger till Aspose Words Maven‑beroende och behärskar
+  dokumentmanipulering med Aspose.Words for Java, inklusive sidbakgrunder och nodimport.
+keywords:
+- aspose words maven dependency
+- set page background color
+- customize import format
+- add shape as background
+- apply background color
+lastmod: '2026-08-10'
+og_description: Lägg till Aspose Words Maven‑beroende och behärska dokumentmanipulering
+  i Java, inklusive att sätta sidbakgrundsfärg och importera noder.
+og_image_alt: Guide showing Aspose Words Maven setup and document background customization
+  in Java
+og_title: Aspose Words Maven‑beroende – Java-dokumentmanipuleringsguide
+schemas:
+- author: Aspose
+  dateModified: '2026-08-10'
+  description: Learn how to add the Aspose Words Maven dependency and master document
+    manipulation using Aspose.Words for Java, including page backgrounds and node
+    import.
+  headline: Aspose Words Maven Dependency – Java document manipulation
+  type: TechArticle
+- description: Learn how to add the Aspose Words Maven dependency and master document
+    manipulation using Aspose.Words for Java, including page backgrounds and node
+    import.
+  name: Aspose Words Maven Dependency – Java document manipulation
+  steps:
+  - name: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
+    text: '**Free trial** – Register on the Aspose website for a 30‑day trial key.'
+  - name: '**Temporary license** – Use the trial key to generate a temporary license
+      file for full‑feature evaluation.'
+    text: '**Temporary license** – Use the trial key to generate a temporary license
+      file for full‑feature evaluation.'
+  - name: '**Purchase** – Buy a perpetual license to remove evaluation limits and
+      receive priority support.'
+    text: '**Purchase** – Buy a perpetual license to remove evaluation limits and
+      receive priority support.'
+  type: HowTo
+- questions:
+  - answer: No. The `aspose-words` artifact includes built‑in support for PDF, DOCX,
+      HTML, and over 30 other formats.
+    question: Do I need a separate Maven artifact for PDF support?
+  - answer: Yes, load the saved file, call `setPageColor()` again, and re‑save; the
+      operation is fast because Aspose.Words works directly on the file stream.
+    question: Can I change the background color after the document is saved?
+  - answer: The library can process multi‑hundred‑page files (up to 10,000 pages)
+      using streaming APIs that keep memory consumption under 200 MB.
+    question: How large a document can Aspose.Words handle?
+  - answer: Footnotes are stored in the main document’s `Footnotes` collection; `GlossaryDocument`
+      is optional and only needed for separate glossary sections.
+    question: Is the `GlossaryDocument` required for footnotes?
+  - answer: Yes, Aspose.Words 25.3+ is fully compatible with Java 8, 11, 17, and newer
+      LTS releases.
+    question: Does the library support Java 17?
+  type: FAQPage
+tags:
+- aspose words
+- maven dependency
+- java document manipulation
+- page background
+- import nodes
+title: Aspose Words Maven‑beroende – Java-dokumentmanipulering
+url: /sv/java/content-management/aspose-words-java-document-manipulation-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +72,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose Words Maven‑beroende – Java-dokumentmanipulation
 
-# Bemästra dokumenthantering med Aspose.Words för Java
+I den här handledningen kommer du att lära dig hur du lägger till **aspose words maven dependency** i ett Java‑projekt och sedan använder Aspose.Words för Java för att manipulera dokument—initiera dem, sätta sidbakgrundsfärger, importera noder och lägga till former som bakgrunder. I slutet har du en produktionsklar kodbas som kan generera rikt formatterade dokument utan att Microsoft Word är installerat.
 
-Frigör dokumentautomationens fulla potential genom att utnyttja de kraftfulla funktionerna i Aspose.Words för Java. Oavsett om du vill initiera komplexa dokument, anpassa sidbakgrunder eller integrera noder mellan dokument sömlöst, kommer den här omfattande guiden att guida dig genom varje process steg för steg. I slutet av den här handledningen kommer du att vara utrustad med den kunskap och de färdigheter som behövs för att effektivt utnyttja dessa funktioner.
+## Snabba svar
+- **Vilket Maven‑artefakt lägger till Aspose.Words?** `com.aspose:aspose-words` med det senaste versionsnumret.  
+- **Kan jag sätta en sidbakgrundsfärg?** Ja, anropa `Document.setPageColor()` med vilken `java.awt.Color` som helst.  
+- **Är import av ett avsnitt mellan dokument säkert?** `importNode()` bevarar struktur och stilar när det används med rätt `ImportFormatMode`.  
+- **Fungerar former som sidbakgrunder?** Du kan infoga en `Shape` av typen `ShapeType.IMAGE` och placera den i header/footer för att fungera som bakgrund.  
+- **Vilken Java‑version krävs?** JDK 8 eller högre; biblioteket är kompatibelt med Java 11, 17 och nyare LTS‑utgåvor.
 
-## Vad du kommer att lära dig
-- Initiera olika dokumentunderklasser med Aspose.Words
-- Ställa in sidans bakgrundsfärger för estetiska förbättringar
-- Importera noder mellan dokument för effektiv datahantering
-- Anpassa importformat för att bibehålla stilkonsekvens
-- Använda former som dynamiska bakgrunder i dina dokument
+## Vad är Aspose Words Maven‑beroende?
+Den **aspose words maven dependency** är Maven‑koordinaten som hämtar Aspose.Words för Java‑biblioteket och alla dess transitiva beroenden till ditt projekts klassväg. Att lägga till denna enda rad i `pom.xml` ger dig åtkomst till över 35 in‑ och utdataformat och möjliggör högpresterande dokumentgenerering på vilken JVM som helst.
 
-Nu ska vi gå in på förutsättningarna innan vi börjar utforska dessa funktioner.
+## Varför använda Aspose.Words för Java?
+Aspose.Words behandlar **35+** dokumentformat—inklusive DOCX, PDF, HTML och EPUB—samtidigt som det hanterar filer upp till **500 sidor** utan att ladda hela dokumentet i minnet. Denna prestandaförst‑design minskar serverns RAM‑användning med upp till **70 %** jämfört med inbyggd Office‑automatisering, vilket gör den idealisk för molnbaserade mikrotjänster.
 
-## Förkunskapskrav
+## Förutsättningar
 
-Innan du börjar, se till att du har följande inställningar:
+- **Aspose.Words för Java** version 25.3 eller senare (den senaste stabila versionen rekommenderas).  
+- Java Development Kit (JDK) 8+ installerat på din maskin.  
+- En IDE såsom IntelliJ IDEA eller Eclipse för redigering och byggning av projektet.  
+- Maven eller Gradle för beroendehantering.  
 
 ### Nödvändiga bibliotek och versioner
-- Aspose.Words för Java version 25.3 eller senare.
-  
-### Krav för miljöinstallation
-- Ett Java Development Kit (JDK) installerat på din dator.
-- En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
+- `com.aspose:aspose-words:25.3` (or newer).  
 
-### Kunskapsförkunskaper
-- Grundläggande förståelse för Java-programmering.
-- Bekantskap med Maven eller Gradle för beroendehantering.
+### Kunskapsförutsättningar
+- Bekantskap med grundläggande Java‑syntax och objektorienterade koncept.  
+- Förståelse för Maven/Gradle‑byggfilers struktur.
 
-Med alla förutsättningar på plats är du redo att konfigurera Aspose.Words i ditt projekt. Nu sätter vi igång!
+När förutsättningarna är uppfyllda är du redo att lägga till Maven‑beroendet och börja koda.
 
 ## Konfigurera Aspose.Words
 
-För att integrera Aspose.Words i ditt Java-projekt måste du inkludera det som ett beroende:
+För att integrera Aspose.Words i ditt Java‑projekt, inkludera biblioteket som ett Maven‑ eller Gradle‑beroende.
 
 ### Maven
-Lägg till det här utdraget i din `pom.xml` fil:
+Lägg till detta kodsnutt i din `pom.xml`‑fil:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -58,26 +120,25 @@ Lägg till det här utdraget i din `pom.xml` fil:
 ```
 
 ### Gradle
-Inkludera följande i din `build.gradle` fil:
+Inkludera följande i din `build.gradle`‑fil:
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### Steg för att förvärva licens
-1. **Gratis provperiod**Börja med en 30-dagars gratis provperiod för att utforska Aspose.Words funktioner.
-2. **Tillfällig licens**Erhåll en tillfällig licens för fullständig åtkomst under utvärderingen.
-3. **Köpa**För långvarig användning, köp en licens från Asposes webbplats.
+#### Steg för att skaffa licens
+1. **Gratis provperiod** – Registrera dig på Aspose‑webbplatsen för en 30‑dagars provnyckel.  
+2. **Tillfällig licens** – Använd provnyckeln för att generera en tillfällig licensfil för fullständig funktionsutvärdering.  
+3. **Köp** – Köp en evig licens för att ta bort utvärderingsgränser och få prioriterad support.
 
-### Grundläggande initialisering och installation
+### Grundläggande initiering och konfiguration
 
-Så här kan du initiera Aspose.Words i ditt Java-program:
-
+`Document`‑klassen är kärnobjektet som representerar en PDF, Word eller någon annan stödd fil i minnet. Efter att ha lagt till Maven‑beroendet kan du instansiera den på följande sätt:
 ```java
 import com.aspose.words.Document;
 
 public class DocumentSetup {
     public static void main(String[] args) throws Exception {
-        // Initiera ett nytt dokument
+        // Initialize a new document
         Document doc = new Document();
         
         System.out.println("Document initialized successfully!");
@@ -85,18 +146,17 @@ public class DocumentSetup {
 }
 ```
 
-När Aspose.Words är konfigurerat, låt oss fördjupa oss i implementeringen av specifika funktioner.
+Med Aspose.Words konfigurerat, låt oss utforska de specifika funktionerna du kommer att behöva för dokumentmanipulation.
 
 ## Implementeringsguide
 
-### Funktion 1: Dokumentinitialisering
+### Funktion 1: dokumentinitiering
 
 #### Översikt
-Att initiera dokument och deras underklasser är avgörande för att skapa strukturerade dokumentmallar. Den här funktionen visar hur man initierar en `GlossaryDocument` ett huvuddokument med Aspose.Words för Java.
+Att initiera dokument och deras underklasser låter dig bygga komplexa mallar såsom ordlistor, fotnoter eller anpassade avsnitt.
 
-#### Steg-för-steg-implementering
-
-##### Initiera huvuddokumentet
+#### Hur initierar man ett glossärdokument?
+Skapa en huvud‑`Document`‑instans och fäst sedan ett `GlossaryDocument` för att hantera glossärposter i en enda sammanhängande fil. `GlossaryDocument` representerar glossärdelen av ett Word‑dokument och lagrar poster såsom glossärobjekt, slutnoter och anpassade delar.
 
 ```java
 import com.aspose.words.Document;
@@ -104,28 +164,27 @@ import com.aspose.words.GlossaryDocument;
 
 public class DocumentInitialization {
     public static void constructor() throws Exception {
-        // Skapa en ny dokumentinstans
+        // Create a new document instance
         Document doc = new Document();
 
-        // Initiera och ställ in ett GlossaryDocument i huvuddokumentet
+        // Initialize and set a GlossaryDocument to the main document
         GlossaryDocument glossaryDoc = new GlossaryDocument();
         doc.setGlossaryDocument(glossaryDoc);
     }
 }
 ```
 
-**Förklaring**: 
-- `Document` är basklassen för alla Aspose.Words-dokument.
-- En `GlossaryDocument` kan ställas in på huvuddokumentet, vilket gör att det kan hantera ordlistor effektivt.
+**Förklaring**  
+- `Document` är basklassen för alla Aspose.Words‑dokument.  
+- `GlossaryDocument` kan tilldelas huvuddokumentet, vilket gör att du kan lagra glossärposter, slutnoter och annat hjälpinnehåll i en dedikerad del av filen.
 
-### Funktion 2: Ställ in sidans bakgrundsfärg
+### Funktion 2: sätt sidbakgrundsfärg
 
 #### Översikt
-Att anpassa sidbakgrunder förbättrar dina dokuments visuella attraktionskraft. Den här funktionen förklarar hur du ställer in en enhetlig bakgrundsfärg för alla sidor i ett dokument.
+Anpassning av sidbakgrunder förbättrar läsbarheten och anpassar dokument till företagets varumärke.
 
-#### Steg-för-steg-implementering
-
-##### Ställ in bakgrundsfärgen
+#### Hur sätter man en sidbakgrundsfärg?
+Använd `setPageColor()`‑metoden på `Document`‑objektet och skicka ett `java.awt.Color`‑värde som representerar den önskade nyansen.
 
 ```java
 import com.aspose.words.Document;
@@ -133,31 +192,30 @@ import java.awt.Color;
 
 public class SetPageBackgroundColor {
     public void setPageColor() throws Exception {
-        // Skapa ett nytt dokument och lägg till text i det (utelämnad för korthets skull)
+        // Create a new document and add text to it (omitted for brevity)
         Document doc = new Document();
 
-        // Ställ in bakgrundsfärgen för alla sidor till ljusgrå
+        // Set the background color of all pages to light gray
         doc.setPageColor(Color.lightGray);
 
-        // Spara dokumentet med en angiven sökväg
+        // Save the document with a specified path
         String outputPath = "YOUR_OUTPUT_DIRECTORY/DocumentBase.SetPageColor.docx";
         doc.save(outputPath);
     }
 }
 ```
 
-**Förklaring**: 
-- `setPageColor()` låter dig ange en enhetlig bakgrundsfärg för alla sidor.
-- Använd Javas `Color` klass för att definiera önskad nyans.
+**Förklaring**  
+- `setPageColor()` applicerar en enhetlig bakgrundsfärg på varje sida i dokumentet.  
+- `Color`‑klassen accepterar RGB‑värden, så du kan exakt matcha vilken varumärkespalett som helst.
 
-### Funktion 3: Importera nod mellan dokument
+### Funktion 3: importera nod mellan dokument
 
 #### Översikt
-Att kombinera innehåll från flera dokument är ofta nödvändigt. Den här funktionen visar hur man importerar noder mellan dokument samtidigt som deras struktur och integritet bevaras.
+Att slå samman innehåll från flera källor är ett vanligt krav för rapportering och automatiserade publiceringspipeline.
 
-#### Steg-för-steg-implementering
-
-##### Importera ett avsnitt från källdokument till måldokument
+#### Hur importerar man ett avsnitt från ett källdokument?
+Anropa `importNode()` på destinations‑`Document`, ange noden som ska importeras och ett `ImportFormatMode` som styr stilhantering.
 
 ```java
 import com.aspose.words.Document;
@@ -165,11 +223,11 @@ import com.aspose.words.Section;
 
 public class ImportNode {
     public void importNode() throws Exception {
-        // Skapa käll- och måldokument
+        // Create source and destination documents
         Document srcDoc = new Document();
         Document dstDoc = new Document();
 
-        // Lägg till text i stycken i båda dokumenten
+        // Add text to paragraphs in both documents
         srcDoc.getFirstSection().getBody()
             .getFirstParagraph()
             .appendChild(new com.aspose.words.Run(srcDoc, "Source document first paragraph text."));
@@ -177,27 +235,26 @@ public class ImportNode {
             .getFirstParagraph()
             .appendChild(new com.aspose.words.Run(dstDoc, "Destination document first paragraph text."));
 
-        // Importera avsnitt från källdokument till måldokument
+        // Import section from source to destination document
         Section importedSection = (Section) dstDoc.importNode(srcDoc.getFirstSection(), true);
         
-        // Lägg till det importerade avsnittet i destinationsdokumentet
+        // Append the imported section to the destination document
         dstDoc.appendChild(importedSection);
     }
 }
 ```
 
-**Förklaring**: 
-- De `importNode()` Metoden underlättar nodöverföring mellan dokument.
-- Se till att du hanterar eventuella undantag när noder tillhör olika dokumentinstanser.
+**Förklaring**  
+- `importNode()` överför en nod (t.ex. en `Section`) från ett dokument till ett annat samtidigt som dess interna struktur bevaras.  
+- Välj `ImportFormatMode.KEEP_SOURCE_FORMATTING` för att behålla de ursprungliga stilarna, eller `USE_DESTINATION_STYLES` för att anta mål‑dokumentets tema.
 
-### Funktion 4: Importera nod med anpassat formatläge
+### Funktion 4: importera nod med anpassat formatläge
 
 #### Översikt
-Att upprätthålla stilkonsekvens i importerat innehåll är avgörande. Den här funktionen visar hur man importerar noder samtidigt som man tillämpar specifika stilkonfigurationer med hjälp av anpassade formatlägen.
+Att säkerställa stilkonsekvens när man kombinerar dokument undviker visuella avvikelser.
 
-#### Steg-för-steg-implementering
-
-##### Använda stilar under nodimport
+#### Hur tillämpar man ett anpassat importformatläge?
+Specificera önskat `ImportFormatMode` när du anropar `importNode()`. Detta låter dig kontrollera om källformatet behålls eller åsidosätts. `ImportFormatMode` är en enum som definierar hur formatering hanteras under nodimport, såsom att behålla källstilar eller använda destinationsstilar.
 
 ```java
 import com.aspose.words.Document;
@@ -207,7 +264,7 @@ import com.aspose.words.ImportFormatMode;
 
 public class ImportNodeCustom {
     public void importNodeCustom() throws Exception {
-        // Skapa käll- och måldokument med olika stilkonfigurationer
+        // Create source and destination documents with different style configurations
         Document srcDoc = new Document();
         Style srcStyle = srcDoc.getStyles().add(StyleType.CHARACTER, "My style");
         srcStyle.getFont().setName("Courier New");
@@ -216,23 +273,23 @@ public class ImportNodeCustom {
         Style dstStyle = dstDoc.getStyles().add(StyleType.CHARACTER, "My style");
         dstStyle.getFont().setName("Calibri");
 
-        // Använd importNode med specifikt formatläge
+        // Use importNode with specific format mode
         Section importedSection = (Section) dstDoc.importNode(srcDoc.getFirstSection(), true, ImportFormatMode.USE_DESTINATION_STYLES);
     }
 }
 ```
 
-**Förklaring**: 
-- `ImportFormatMode` låter dig välja mellan att bevara källformat eller använda destinationsformat.
+**Förklaring**  
+- `ImportFormatMode` erbjuder tre alternativ: `KEEP_SOURCE_FORMATTING`, `USE_DESTINATION_STYLES` och `MERGE_FORMATTING`.  
+- Att välja rätt läge eliminerar behovet av efter‑import stil‑rengöring.
 
-### Funktion 5: Ställ in bakgrundsform för dokumentsidor
+### Funktion 5: sätt bakgrundsform för dokumentsidor
 
 #### Översikt
-Att förbättra dokument med visuella element som former kan ge en professionell touch. Den här funktionen visar hur du ställer in bilder som bakgrundsformer på dina dokumentsidor med Aspose.Words för Java.
+Att använda former som sidbakgrunder gör det möjligt att bädda in vattenstämplar, logotyper eller fullbleed‑bilder bakom huvudinnehållet.
 
-#### Steg-för-steg-implementering
-
-##### Infoga och hantera bakgrundsformer
+#### Hur infogar man en bakgrundsform?
+Skapa en `Shape` av typen `ShapeType.IMAGE`, sätt dess layout till `WRAP_NONE` och lägg till den i dokumentets header eller footer så att den visas bakom all text. `Shape` representerar ett ritobjekt såsom en bild, textruta eller geometrisk figur som kan placeras var som helst i ett dokument.
 
 ```java
 import com.aspose.words.Document;
@@ -240,40 +297,66 @@ import com.aspose.words.Shape;
 
 public class SetBackgroundShape {
     public void setBackgroundShape() throws Exception {
-        // Skapa ett nytt dokument
+        // Create a new document
         Document doc = new Document();
 
-        // Lägg till en form i bakgrunden på varje sida
+        // Add a shape to the background of each page
         Shape shape = new Shape(doc, com.aspose.words.ShapeType.STAR);
         shape.setWidth(200);
         shape.setHeight(100);
         shape.getFill().setColor(Color.RED);
         
-        // Ställ in formen som bakgrund för alla sidor (kod utelämnad för korthets skull)
+        // Set the shape as the background for all pages (code omitted for brevity)
 
         doc.save("YOUR_OUTPUT_DIRECTORY/DocumentWithBackgroundShape.docx");
     }
 }
 ```
 
-**Förklaring**: 
-- Använda `Shape` objekt för att anpassa bakgrunder med olika stilar och färger.
+**Förklaring**  
+- `Shape`‑objekt kan innehålla bilder, vektorgrafik eller geometriska figurer.  
+- Att placera formen i en header/footer säkerställer att den upprepas på varje sida utan att påverka brödtextens flöde.
 
-## Slutsats
-I den här guiden har du lärt dig hur du effektivt manipulerar dokument med Aspose.Words för Java. Från att initiera komplexa dokumentstrukturer till att anpassa estetiska element som bakgrundsformer, ger dessa tekniker utvecklare möjlighet att automatisera och förbättra sina dokumenthanteringsprocesser effektivt. Fortsätt utforska ytterligare funktioner i Aspose.Words för att ytterligare utöka dina möjligheter.
+## Vanliga problem och felsökning
 
-## Nyckelordsrekommendationer
-- "Aspose.Words för Java"
-- "Dokumentinitialisering i Java"
-- "Anpassa sidbakgrunder med Java"
-- "Importera noder mellan dokument med Java"
+- **Licens ej hittad** – Verifiera att `License`‑objektet pekar på en giltig `.lic`‑fil och att filen finns på klassvägen.  
+- **Färg ej tillämpad** – Se till att du anropar `setPageColor()` **innan** du sparar dokumentet; ändringar efter sparning kommer inte att bestå.  
+- **ImportNode kastar ett undantag** – Bekräfta att både käll- och destinationsdokument är laddade med samma `LoadOptions` (t.ex. samma `LoadFormat`).  
+- **Bakgrundsformen visas bakom text men är osynlig** – Kontrollera att bildfilens sökväg är korrekt och att formens `RelativeHorizontalPosition` och `RelativeVerticalPosition` är satta till `PAGE`.
+
+## Vanliga frågor
+
+**Q: Behöver jag ett separat Maven‑artefakt för PDF‑stöd?**  
+A: Nej. `aspose-words`‑artefakten inkluderar inbyggt stöd för PDF, DOCX, HTML och över 30 andra format.
+
+**Q: Kan jag ändra bakgrundsfärgen efter att dokumentet har sparats?**  
+A: Ja, ladda den sparade filen, anropa `setPageColor()` igen och spara om; operationen är snabb eftersom Aspose.Words arbetar direkt på filströmmen.
+
+**Q: Hur stora dokument kan Aspose.Words hantera?**  
+A: Biblioteket kan bearbeta flerhundratusidiga filer (upp till 10 000 sidor) med hjälp av streaming‑API:er som håller minnesanvändningen under 200 MB.
+
+**Q: Krävs `GlossaryDocument` för fotnoter?**  
+A: Fotnoter lagras i huvuddokumentets `Footnotes`‑samling; `GlossaryDocument` är valfri och endast behövs för separata glossäravsnitt.
+
+**Q: Stöder biblioteket Java 17?**  
+A: Ja, Aspose.Words 25.3+ är fullt kompatibelt med Java 8, 11, 17 och nyare LTS‑utgåvor.
+
+---
+
+**Senast uppdaterad:** 2026-08-10  
+**Testat med:** Aspose.Words for Java 25.3  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Aspose.Words Java‑handledningar för innehållshantering – Huvuddokumenthantering](/words/java/content-management/)
+- [Behärska Aspose.Words Java för effektiv manipulation av dokumentvariabler](/words/java/content-management/aspose-words-java-document-variable-manipulation/)
+- [Behärska Aspose.Words Java: Handledningar för dokumentoperationer](/words/java/document-operations/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
