@@ -32,6 +32,7 @@ Aspose.Words สำหรับ .NET ช่วยให้นักพัฒน�
 
 {{< tutorial-card link="./insert-table-contents/" title="สร้างเอกสาร Word ที่มีสารบัญใน .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="สร้างเอกสาร Word หลายไฟล์ด้วย Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

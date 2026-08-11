@@ -34,6 +34,7 @@ This guide delves into the versatility of the DocumentBuilder class, covering it
 
 {{< tutorial-card link="./insert-table-contents/" title="Create a Word Document with Table of Contents in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Generate multiple word documents with Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

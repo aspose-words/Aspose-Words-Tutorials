@@ -29,7 +29,7 @@ Aspose.Words for .NET は、Word 文書作成のタスクを簡単に実行す�
 | [Word文書に署名プロバイダーIDを設定する](./set-signature-provider-id/) Aspose.Words for .NET を使用して、Word 文書に署名プロバイダー ID を安全に設定します。2,000 語にわたる詳細なガイドに従って、文書にデジタル署名してください。 |
 | [新しい署名欄を作成し、プロバイダー ID を設定する](./create-new-signature-line-and-set-provider-id/) Aspose.Words for .NET を使用して、Word 文書に新しい署名欄を作成し、プロバイダー ID を設定する方法を学びます。ステップバイステップ ガイド。 |
 | [Word文書の署名にアクセスして検証する](./access-and-verify-signature/) Aspose.Words for .NET を使って Word 文書のデジタル署名にアクセスし、検証する方法を、この包括的なステップバイステップガイドで解説します。文書の真正性を簡単に確保できます。 |
-
+| [C# で Aspose.Words を使用して PDF にデジタル署名を追加](./add-digital-signature-to-pdf-in-c-using-aspose-words/) Aspose.Words for .NET を利用し、C# で PDF 文書にデジタル署名を追加する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

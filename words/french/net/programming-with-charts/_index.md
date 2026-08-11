@@ -30,6 +30,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Insérer un graphique à colonnes dans un document Word](./insert-column-chart/) | Apprenez à insérer des histogrammes dans des documents Word avec Aspose.Words pour .NET. Améliorez la visualisation des données dans vos rapports et présentations. |
 | [Insérer un graphique en aires dans un document Word](./insert-area-chart/) | Apprenez à insérer un graphique en aires dans un document Word à l'aide d'Aspose.Words pour .NET dans ce guide complet étape par étape. |
 | [Insérer un graphique à bulles dans un document Word](./insert-bubble-chart/) | Apprenez à insérer un graphique à bulles dans un document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Améliorez vos documents. |
+| [Créer un graphique en secteurs dans un document Word avec Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Apprenez à créer un graphique en secteurs dans un document Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. |
 | [Insérer un graphique en nuage de points dans un document Word](./insert-scatter-chart/) | Apprenez à insérer un graphique en nuage de points dans Word avec Aspose.Words pour .NET. Étapes simples pour intégrer des représentations visuelles de données à vos documents. |
 | [Définir les propriétés de l'axe XY dans un graphique](./define-xyaxis-properties/) Apprenez à définir les propriétés de l'axe XY dans un graphique avec Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs .NET. |
 | [Ajouter des valeurs de date et d'heure à l'axe d'un graphique](./date-time-values-to-axis/) | Apprenez à ajouter des valeurs de date et d'heure à l'axe d'un graphique à l'aide d'Aspose.Words pour .NET dans ce guide complet étape par étape. |
@@ -42,6 +43,7 @@ Grâce à ces tutoriels, vous pourrez enrichir vos documents Word en y ajoutant 
 | [Définir les options par défaut pour les étiquettes de données dans un graphique](./default-options-for-data-labels/) | Apprenez à définir les options par défaut des étiquettes de données d'un graphique avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour créer et personnaliser facilement des graphiques. |
 | [Personnaliser un seul point de données dans un graphique](./single-chart-data-point/) | Découvrez comment personnaliser des points de données de graphiques individuels avec Aspose.Words pour .NET grâce à un guide détaillé étape par étape. Améliorez vos graphiques avec des marqueurs et des tailles uniques. |
 | [Personnaliser une série de graphiques unique dans un graphique](./single-chart-series/) | Apprenez à personnaliser des séries de graphiques uniques dans un document Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour une expérience fluide. |
+| [Créer un graphique radar dans un document Word – guide complet C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Apprenez à créer un graphique radar dans Word avec Aspose.Words pour .NET grâce à ce guide complet en C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

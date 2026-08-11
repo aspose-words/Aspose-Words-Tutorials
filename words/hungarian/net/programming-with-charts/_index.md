@@ -30,7 +30,8 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Oszlopdiagram beszúrása Word dokumentumba](./insert-column-chart/) | Ismerje meg, hogyan szúrhat be oszlopdiagramokat Word-dokumentumokba az Aspose.Words for .NET segítségével. Fokozza az adatvizualizációt a jelentéseiben és prezentációiban. |
 | [Területdiagram beszúrása Word dokumentumba](./insert-area-chart/) | Tanulja meg, hogyan szúrhat be területdiagramot egy Word-dokumentumba az Aspose.Words for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |
 | [Buborékdiagram beszúrása Word dokumentumba](./insert-bubble-chart/) | Tanulja meg, hogyan szúrhat be buborékdiagramot egy Word-dokumentumba az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tegye teljessé dokumentumait. |
-| [Szórásdiagram beszúrása Word dokumentumba](./insert-scatter-chart/) | Ismerje meg, hogyan szúrhat be szóródási diagramot Wordben az Aspose.Words for .NET segítségével. Egyszerű lépések a vizuális adatábrázolások dokumentumokba integrálásához.
+| [Radar diagram létrehozása Word dokumentumban – teljes C# útmutató](./create-radar-chart-in-a-word-document-complete-c-guide/) | Tanulja meg, hogyan hozhat létre radar diagramot Word dokumentumban az Aspose.Words for .NET segítségével, részletes C# útmutatóval. |
+| [Szórásdiagram beszúrása Word dokumentumba](./insert-scatter-chart/) | Ismerje meg, hogyan szúrhat be szóródási diagramot Wordben az Aspose.Words for .NET segítségével. Egyszerű lépések a vizuális adatábrázolások dokumentumokba integrálásához. |
 | [XY tengely tulajdonságainak definiálása egy diagramban](./define-xyaxis-properties/) Tanulja meg, hogyan definiálhatja az XY tengely tulajdonságait egy diagramban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Tökéletes .NET fejlesztők számára. |
 | [Dátum/idő értékek hozzáadása egy diagram tengelyéhez](./date-time-values-to-axis/) | Tanulja meg, hogyan adhat hozzá dátum- és időértékeket egy diagram tengelyéhez az Aspose.Words for .NET használatával ebben az átfogó, lépésről lépésre szóló útmutatóban. |
 | [Számformátum a diagram tengelyeihez](./number-format-for-axis/) | Tanulja meg, hogyan formázhatja a diagram tengelyszámait az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Növelje dokumentuma olvashatóságát és professzionalizmusát erőfeszítés nélkül. |
@@ -42,7 +43,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Diagram adatcímkéinek alapértelmezett beállításainak megadása](./default-options-for-data-labels/) | Ismerje meg, hogyan állíthatja be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához. |
 | [Egyetlen diagramadatpont testreszabása egy diagramban](./single-chart-data-point/) | Tanulja meg, hogyan szabhatja testre az egydiagramos adatpontokat az Aspose.Words for .NET használatával egy részletes, lépésről lépésre szóló útmutatóban. Tegye egyedi jelölőkkel és méretekkel egyedivé diagramjait. |
 | [Egyetlen diagramsorozat testreszabása egy diagramban](./single-chart-series/) | Ismerje meg, hogyan szabhatja testre egyetlen diagramsorozatot egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes élmény érdekében. |
-
+| [Kördiagram létrehozása Word dokumentumban az Aspose.Words használatával](./create-pie-chart-word-document-with-aspose-words/) | Tanulja meg, hogyan hozhat létre kördiagramot Word dokumentumban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

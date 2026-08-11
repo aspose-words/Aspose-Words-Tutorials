@@ -15,11 +15,11 @@
 
 # Tài liệu Word - Tìm và thay thế văn bản
 
-Hướng dẫn Tìm và Thay thế Văn bản giải thích cách sử dụng các tính năng Tìm và Thay thế văn bản để thực hiện các chỉnh sửa nhanh chóng và hiệu quả trong tài liệu Word của bạn. Bạn sẽ học cách tìm kiếm các từ, cụm từ hoặc mẫu cụ thể và thay thế chúng bằng nội dung mới. Với các kỹ thuật này, bạn có thể tự động hóa các tác vụ chỉnh sửa văn bản, tiết kiệm thời gian và cải thiện hiệu quả quy trình xử lý tài liệu của mình.
+Hướng dẫn Tìm và Thay Thế Văn Bản giải thích cách sử dụng các tính năng Tìm và Thay Thế Văn Bản để thực hiện các chỉnh sửa nhanh chóng và hiệu quả trong tài liệu Word của bạn. Bạn sẽ học cách tìm kiếm các từ, cụm từ hoặc mẫu cụ thể và thay thế chúng bằng nội dung mới. Với các kỹ thuật này, bạn có thể tự động hóa các tác vụ chỉnh sửa văn bản, tiết kiệm thời gian và cải thiện hiệu quả quy trình xử lý tài liệu của mình.
 
 Aspose.Words for .NET là một thư viện mạnh mẽ cung cấp nhiều chức năng để Xử lý văn bản với các tài liệu Word trong các ứng dụng .NET. Hướng dẫn cung cấp các ví dụ mã chi tiết và giải thích các bước cần thiết để thực hiện tìm kiếm văn bản và thay thế các hoạt động. Bạn sẽ học cách sử dụng các phương thức và thuộc tính API Aspose.Words để tìm và thay thế văn bản, có tính đến các tùy chọn khác nhau như trường hợp, độ nhạy trọng âm và nhiều hơn nữa.
 
-Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn bản hay tùy chỉnh nội dung của tài liệu Word, hướng dẫn "Tìm và Thay thế Văn bản" sẽ hướng dẫn bạn qua các bước thiết yếu để thực hiện các tác vụ này với Aspose. Words for .NET. Với tài liệu toàn diện và các mẫu mã rõ ràng, các hướng dẫn này là nguồn tài nguyên có giá trị cho các nhà phát triển muốn tận dụng tối đa thư viện này và cải thiện kỹ năng Xử lý văn bản bằng tài liệu Word.
+Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn bản hay tùy chỉnh nội dung của tài liệu Word, hướng dẫn "Tìm và Thay Thế Văn Bản" sẽ hướng dẫn bạn qua các bước thiết yếu để thực hiện các tác vụ này với Aspose. Words for .NET. Với tài liệu toàn diện và các mẫu mã rõ ràng, các hướng dẫn này là nguồn tài nguyên có giá trị cho các nhà phát triển muốn tận dụng tối đa thư viện này và cải thiện kỹ năng Xử lý văn bản bằng tài liệu Word.
 
  ## Hướng dẫn
 | Tiêu đề | Mô tả |
@@ -35,7 +35,7 @@ Cho dù bạn cần thay thế các từ cụ thể, cập nhật mẫu văn b�
 | [Nhận biết và thay thế trong các mẫu thay thế](./recognize-and-substitutions-within-replacement-patterns/) | Tìm hiểu cách nhận dạng và thay thế văn bản trong các mẫu thay thế bằng Aspose.Words cho .NET. Hướng dẫn từng bước với các ví dụ chi tiết. |
 | [Thay thế bằng chuỗi](./replace-with-string/) | Tìm hiểu cách thay thế chuỗi trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn tự động hóa việc chỉnh sửa tài liệu. |
 | [Thay thế văn bản trong bảng](./replace-text-in-table/) | Thay thế văn bản trong bảng Word một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. |
-
+| [Tự động tạo tài liệu Word với Aspose.Words trong C#](./automate-word-document-generation-with-aspose-words-in-c/) | Hướng dẫn tự động tạo tài liệu Word bằng Aspose.Words trong C# với các ví dụ thực tế. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

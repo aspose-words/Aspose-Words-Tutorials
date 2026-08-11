@@ -19,7 +19,7 @@
 
 
 {{< tutorial-card link="./build-table/" title="Δημιουργήστε ένα έγγραφο του Word με πίνακα χρησιμοποιώντας το Aspose.Words" imgSrc="./build-table/images/thumb.png" >}}
-
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Δημιουργία πολλαπλών εγγράφων Word με το Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 {{< tutorial-card link="./insert-break/" title="Δημιουργήστε ένα έγγραφο Word πολλαπλών σελίδων με το Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-floating-image/" title="Δημιουργία εγγράφου Word με κινούμενη εικόνα σε .NET" imgSrc="./insert-floating-image/images/thumb.png" >}}

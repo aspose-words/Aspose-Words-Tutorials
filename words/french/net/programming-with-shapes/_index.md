@@ -25,6 +25,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | Titre | Description |
 | --- | --- |
 | [Ajouter une forme de groupe](./add-group-shape/) | Apprenez à ajouter des formes de groupe à des documents Word à l'aide d'Aspose.Words pour .NET avec ce didacticiel complet, étape par étape. |
+| [Créer un document Word programmatique et regrouper des formes en C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Apprenez à créer un document Word et à regrouper des formes en C# avec Aspose.Words. |
 | [Insérer une forme](./insert-shape/) | Apprenez à insérer et à manipuler des formes dans des documents Word à l'aide d'Aspose.Words pour .NET avec notre guide étape par étape. |
 | [Rapport hauteur/largeur verrouillé](./aspect-ratio-locked/) | Apprenez à verrouiller les proportions des formes dans vos documents Word avec Aspose.Words pour .NET. Suivez ce guide étape par étape pour conserver les proportions d'images et formes. |
 | [Disposition dans la cellule](./layout-in-cell/) | Apprenez à définir la disposition des cellules avec Aspose.Words pour .NET grâce à ce guide complet. Idéal pour les développeurs souhaitant personnaliser leurs documents Word. |
@@ -36,6 +37,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Créer une forme rectangulaire dans Word avec Aspose.Words – Guide étape par étape](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Apprenez à créer une forme rectangulaire dans un document Word avec Aspose.Words grâce à ce guide détaillé étape par étape. |
 | [Créer un document Word avec un rectangle ombré – Guide étape par étape](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Apprenez à créer un document Word contenant un rectangle ombré avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
 | [Créer une forme rectangulaire dans Word avec C# – Guide étape par étape](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Apprenez à créer une forme rectangulaire dans Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
+| [Insérer une forme rectangulaire dans Word avec C# – guide complet](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Apprenez à insérer une forme rectangulaire dans un document Word en C# avec Aspose.Words grâce à ce guide complet. |
 | [Tutoriel Ombre de forme Aspose.Words – Ajouter une ombre à une forme Word en C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Apprenez à ajouter une ombre à une forme dans un document Word avec Aspose.Words pour .NET en C# grâce à ce guide étape par étape. |
 | [Créer un document Word vierge avec une forme de rectangle ombrée – Guide étape par étape](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Apprenez à créer un document Word vierge contenant une forme de rectangle avec ombre à l'aide d'Aspose.Words pour .NET. |
 

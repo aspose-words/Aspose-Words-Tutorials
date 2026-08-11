@@ -32,6 +32,7 @@ Bu kılavuz, DocumentBuilder sınıfının çok yönlülüğünü derinlemesine 
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET'te İçindekiler Tablosu Olan Bir Word Belgesi Oluşturma" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Aspose.Words ile Birden Çok Word Belgesi Oluşturma" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

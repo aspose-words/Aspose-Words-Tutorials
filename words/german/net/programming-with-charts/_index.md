@@ -31,6 +31,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Flächendiagramm in ein Word-Dokument einfügen](./insert-area-chart/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein Flächendiagramm in ein Word-Dokument einfügen. |
 | [Blasendiagramm in Word-Dokument einfügen](./insert-bubble-chart/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein Blasendiagramm in ein Word-Dokument einfügen. Optimieren Sie Ihre Dokumente. |
 | [Streudiagramm in Word-Dokument einfügen](./insert-scatter-chart/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Streudiagramm in Word einfügen. Einfache Schritte zum Integrieren visueller Datendarstellungen in Ihre Dokumente. |
+| [Radar-Diagramm in einem Word-Dokument erstellen – vollständige C#-Anleitung](./create-radar-chart-in-a-word-document-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET ein Radar-Diagramm in ein Word-Dokument einfügen. |
 | [Definieren der XY-Achseneigenschaften in einem Diagramm](./define-xyaxis-properties/) Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET XY-Achseneigenschaften in einem Diagramm definieren. Perfekt für .NET-Entwickler. |
 | [Hinzufügen von Datums- und Zeitwerten zur Achse eines Diagramms](./date-time-values-to-axis/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Datums- und Zeitwerte zur Achse eines Diagramms hinzufügen. |
 | [Zahlenformat für Achsen in einem Diagramm](./number-format-for-axis/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Diagrammachsenzahlen mit Aspose.Words für .NET formatieren. Verbessern Sie mühelos die Lesbarkeit und Professionalität Ihres Dokuments. |
@@ -42,7 +43,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
-
+| [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

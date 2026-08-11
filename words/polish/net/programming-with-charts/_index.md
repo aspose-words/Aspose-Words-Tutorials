@@ -30,6 +30,8 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Wstaw wykres kolumnowy do dokumentu Word](./insert-column-chart/) | Dowiedz się, jak wstawiać wykresy kolumnowe do dokumentów programu Word za pomocą Aspose.Words dla platformy .NET. Ulepsz wizualizację danych w raportach i prezentacjach. |
 | [Wstaw wykres obszarowy do dokumentu Word](./insert-area-chart/) | Dowiedz się, jak wstawić wykres obszarowy do dokumentu programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku. |
 | [Wstaw wykres bąbelkowy do dokumentu Word](./insert-bubble-chart/) | Dowiedz się, jak wstawić wykres bąbelkowy do dokumentu Word za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje dokumenty. |
+| [Utwórz wykres kołowy w dokumencie Word przy użyciu Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Dowiedz się, jak utworzyć wykres kołowy w dokumencie Word przy użyciu Aspose.Words dla .NET. |
+| [Utwórz wykres radarowy w dokumencie Word – kompletny przewodnik C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Dowiedz się, jak w pełni stworzyć i dostosować wykres radarowy w dokumencie Word przy użyciu Aspose.Words dla .NET w języku C#. |
 | [Wstaw wykres punktowy do dokumentu Word](./insert-scatter-chart/) | Dowiedz się, jak wstawić wykres punktowy w programie Word za pomocą Aspose.Words dla .NET. Proste kroki integrowania wizualnych reprezentacji danych w dokumentach. |
 | [Definiowanie właściwości osi XY na wykresie](./define-xyaxis-properties/) Dowiedz się, jak definiować właściwości osi XY na wykresie za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów .NET. |
 | [Dodaj wartości daty i godziny do osi wykresu](./date-time-values-to-axis/) | Dowiedz się, jak dodawać wartości daty i godziny do osi wykresu za pomocą Aspose.Words dla .NET w tym kompleksowym przewodniku krok po kroku. |
@@ -41,7 +43,7 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Dostosuj etykietę danych wykresu](./chart-data-label/) | Dowiedz się, jak dostosowywać etykiety danych wykresu za pomocą Aspose.Words dla .NET w przewodniku krok po kroku. Idealne dla programistów .NET. |
 | [Ustaw domyślne opcje etykiet danych na wykresie](./default-options-for-data-labels/) | Dowiedz się, jak ustawić domyślne opcje etykiet danych na wykresie przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku tworzyć i dostosowywać wykresy. |
 | [Dostosuj pojedynczy punkt danych wykresu na wykresie](./single-chart-data-point/) | Dowiedz się, jak dostosować pojedyncze punkty danych wykresu za pomocą Aspose.Words dla .NET w szczegółowym przewodniku krok po kroku. Ulepsz swoje wykresy za pomocą unikalnych znaczników i rozmiarów. |
-| [Dostosuj pojedynczą serię wykresów na wykresie](./single-chart-series/) | Dowiedz się, jak dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie. |
+| [Dostosuj pojedynczą serię wykresów na wykresie](./single-chart-series/) | Dowiedz się, jak dostosować pojedną serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

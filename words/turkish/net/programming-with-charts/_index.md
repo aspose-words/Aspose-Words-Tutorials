@@ -31,6 +31,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Alan Grafiğini Word Belgesine Ekleme](./insert-area-chart/) | Bu kapsamlı adım adım kılavuzda Aspose.Words for .NET kullanarak Word belgesine alan grafiğinin nasıl ekleneceğini öğrenin.
 | [Word Belgesine Baloncuk Grafiği Ekle](./insert-bubble-chart/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine bir kabarcık grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi geliştirin. |
 | [Word Belgesine Dağılım Grafiği Ekleme](./insert-scatter-chart/) | Aspose.Words for .NET ile Word'e dağılım grafiğinin nasıl ekleneceğini öğrenin. Belgelerinize görsel veri gösterimlerini entegre etmek için kolay adımlar. |
+| [Word Belgesine Radar Grafiği Ekleme – Tam C# Rehberi](./create-radar-chart-in-a-word-document-complete-c-guide/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine radar grafiği eklemeyi öğrenin. |
 | [Bir Grafikte XY Eksen Özelliklerini Tanımlayın](./define-xyaxis-properties/) Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak bir grafikte XY ekseni özelliklerini nasıl tanımlayacağınızı öğrenin. .NET geliştiricileri için mükemmel. |
 | [Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme](./date-time-values-to-axis/) | Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin.
 | [Bir Grafikteki Eksen İçin Sayı Biçimi](./number-format-for-axis/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafik eksen numaralarını nasıl biçimlendireceğinizi öğrenin. Belgenizin okunabilirliğini ve profesyonelliğini zahmetsizce artırın. |
@@ -42,7 +43,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Bir Grafikteki Veri Etiketleri İçin Varsayılan Seçenekleri Ayarlama](./default-options-for-data-labels/) | Aspose.Words for .NET kullanarak bir grafikteki veri etiketleri için varsayılan seçenekleri nasıl ayarlayacağınızı öğrenin. Grafikleri zahmetsizce oluşturmak ve özelleştirmek için adım adım kılavuzumuzu izleyin. |
 | [Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin](./single-chart-data-point/) | Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi ayrıntılı adım adım bir kılavuzda öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin. |
 | [Bir Grafikteki Tek Grafik Serisini Özelleştir](./single-chart-series/) | Aspose.Words for .NET kullanarak Word belgesinde tek grafik serilerinin nasıl özelleştirileceğini öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin. |
-
+| [Aspose.Words ile Word belgesine pasta grafiği oluşturma](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesine pasta grafiği eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

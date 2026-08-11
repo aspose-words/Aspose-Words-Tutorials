@@ -21,8 +21,9 @@ Words Processing with Footnotes and Endnotes là một nguồn tài nguyên toà
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Đặt Cột Chú thích](./set-foot-note-columns/) | Tìm hiểu cách thiết lập cột chú thích trong tài liệu Word bằng Aspose.Words cho .NET. Tùy chỉnh bố cục chú thích của bạn một cách dễ dàng với hướng dẫn từng bước của chúng tôi. |
-| [Đặt vị trí chú thích cuối trang và chú thích cuối trang](./set-footnote-and-end-note-position/) Tìm hiểu cách đặt vị trí chú thích cuối trang và chú thích cuối văn bản trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. |
+| [Đặt vị trí chú thích cuối trang và chú thích cuối trang](./set-footnote-and-end-note-position/) | Tìm hiểu cách đặt vị trí chú thích cuối trang và chú thích cuối văn bản trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết này. |
 | [Đặt tùy chọn Endnote](./set-endnote-options/) | Tìm hiểu cách thiết lập tùy chọn chú thích cuối trang trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
+| [Định dạng dấu phân cách chú thích trong C# bằng Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Hướng dẫn cách định dạng bộ phân tách chú thích trong tài liệu Word bằng C# và Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

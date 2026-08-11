@@ -42,7 +42,8 @@ Con estos tutoriales, podrá mejorar sus documentos de Word añadiendo gráficos
 | [Establecer opciones predeterminadas para las etiquetas de datos en un gráfico](./default-options-for-data-labels/) Aprenda a configurar las opciones predeterminadas para las etiquetas de datos en un gráfico con Aspose.Words para .NET. Siga nuestra guía paso a paso para crear y personalizar gráficos fácilmente.
 | [Personalizar un único punto de datos de un gráfico](./single-chart-data-point/) Aprenda a personalizar puntos de datos individuales de gráficos con Aspose.Words para .NET con una guía detallada paso a paso. Mejore sus gráficos con marcadores y tamaños únicos.
 | [Personalizar una serie de gráficos individuales en un gráfico](./single-chart-series/) Aprenda a personalizar series de gráficos individuales en un documento de Word con Aspose.Words para .NET. Siga nuestra guía paso a paso para una experiencia fluida.
-
+| [Crear un gráfico de radar en un documento de Word – guía completa en C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Guía completa paso a paso en C# para crear gráficos de radar en documentos de Word con Aspose.Words. |
+| [Crear gráfico de pastel en documento Word con Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Aprenda a crear un gráfico de pastel en un documento de Word usando Aspose.Words para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,6 +30,7 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [Word 문서에 막대형 차트 삽입](./insert-column-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 세로 막대형 차트를 삽입하는 방법을 알아보세요. 보고서와 프레젠테이션의 데이터 시각화를 향상시켜 보세요. |
 | [Word 문서에 영역 차트 삽입](./insert-area-chart/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에 영역 차트를 삽입하는 방법을 알아보세요. |
 | [Word 문서에 거품형 차트 삽입](./insert-bubble-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 거품형 차트를 삽입하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 더욱 풍성하게 만들어 보세요. |
+| [Aspose.Words로 파이 차트가 포함된 Word 문서 만들기](./create-pie-chart-word-document-with-aspose-words/) | Aspose.Words for .NET을 사용하여 Word 문서에 파이 차트를 삽입하고 사용자 지정하는 방법을 단계별로 안내합니다. |
 | [Word 문서에 분산형 차트 삽입](./insert-scatter-chart/) | Aspose.Words for .NET을 사용하여 Word에 분산형 차트를 삽입하는 방법을 알아보세요. 시각적 데이터 표현을 문서에 통합하는 간단한 단계입니다. |
 | [차트에서 XY 축 속성 정의](./define-xyaxis-properties/) Aspose.Words for .NET을 사용하여 차트에서 XY 축 속성을 정의하는 방법을 단계별 가이드를 통해 알아보세요. .NET 개발자에게 안성맞춤입니다. |
 | [차트 축에 날짜 시간 값 추가](./date-time-values-to-axis/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 차트 축에 날짜 및 시간 값을 추가하는 방법을 알아보세요. |
@@ -42,7 +43,7 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | [차트의 데이터 레이블에 대한 기본 옵션 설정](./default-options-for-data-labels/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블에 대한 기본 옵션을 설정하는 방법을 알아보세요. 단계별 가이드를 따라 차트를 손쉽게 만들고 사용자 지정할 수 있습니다. |
 | [차트에서 단일 차트 데이터 포인트 사용자 지정](./single-chart-data-point/) | Aspose.Words for .NET을 사용하여 단일 차트 데이터 포인트를 사용자 지정하는 방법을 단계별 가이드를 통해 자세히 알아보세요. 고유한 마커와 크기로 차트를 더욱 돋보이게 하세요. |
 | [차트에서 단일 차트 시리즈 사용자 지정](./single-chart-series/) | Aspose.Words for .NET을 사용하여 Word 문서에서 단일 차트 시리즈를 사용자 지정하는 방법을 알아보세요. 원활한 사용을 위해 단계별 가이드를 따르세요. |
-
+| [Word 문서에 레이더 차트 만들기 – 완전 C# 가이드](./create-radar-chart-in-a-word-document-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에 레이더 차트를 삽입하고 사용자 지정하는 전체 단계별 C# 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

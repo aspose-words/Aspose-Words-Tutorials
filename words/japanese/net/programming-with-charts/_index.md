@@ -30,6 +30,7 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [Word文書に縦棒グラフを挿入する](./insert-column-chart/) Aspose.Words for .NET を使用して Word 文書に縦棒グラフを挿入する方法を学びます。レポートやプレゼンテーションのデータの視覚化を強化します。 |
 | [Word文書に面グラフを挿入する](./insert-area-chart/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書に面グラフを挿入する方法を説明します。 |
 | [Word文書にバブルチャートを挿入する](./insert-bubble-chart/) Aspose.Words for .NET を使用して Word 文書にバブルチャートを挿入する方法を、このステップバイステップガイドで学びましょう。文書の魅力を高めましょう。 |
+| [Word文書にレーダーチャートを作成する – 完全 C# ガイド](./create-radar-chart-in-a-word-document-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書にレーダーチャートを作成する方法をステップバイステップで解説します。 |
 | [Word文書に散布図を挿入する](./insert-scatter-chart/) Aspose.Words for .NET を使ってWordに散布図を挿入する方法を学びましょう。視覚的なデータ表現をドキュメントに組み込むための簡単な手順です。 |
 | [グラフのXY軸プロパティを定義する](./define-xyaxis-properties/) Aspose.Words for .NET を使用してグラフのXY軸プロパティを定義する方法を、ステップバイステップで解説するガイドです。.NET開発者に最適です。 |
 | [グラフの軸に日付と時刻の値を追加する](./date-time-values-to-axis/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用してグラフの軸に日付と時刻の値を追加する方法を学習します。 |
@@ -42,7 +43,7 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [グラフのデータラベルのデフォルトオプションを設定する](./default-options-for-data-labels/) Aspose.Words for .NET を使用して、グラフのデータラベルのデフォルトオプションを設定する方法を学びましょう。ステップバイステップのガイドに従って、簡単にグラフを作成およびカスタマイズできます。 |
 | [グラフ内の単一のグラフデータポイントをカスタマイズする](./single-chart-data-point/) Aspose.Words for .NET を使用して、グラフの個々のデータポイントをカスタマイズする方法を、詳細なステップバイステップガイドで学びましょう。独自のマーカーとサイズでグラフの魅力を高めましょう。 |
 | [チャート内の単一のチャートシリーズをカスタマイズする](./single-chart-series/) Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。 |
-
+| [Aspose.Words で円グラフを作成する Word 文書](./create-pie-chart-word-document-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書に円グラフを挿入する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

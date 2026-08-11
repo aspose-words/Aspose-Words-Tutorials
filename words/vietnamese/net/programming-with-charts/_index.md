@@ -26,11 +26,13 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | --- | --- |
 | [Định dạng số nhãn dữ liệu trong biểu đồ](./format-number-of-data-label/) | Tìm hiểu cách định dạng nhãn dữ liệu trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu Word của bạn một cách dễ dàng. |
 | [Tạo & Tùy chỉnh Biểu đồ Sử dụng Shape](./create-chart-using-shape/) | Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc trực quan hóa dữ liệu. |
+| [tạo biểu đồ radar trong tài liệu Word – hướng dẫn C# đầy đủ](./create-radar-chart-in-a-word-document-complete-c-guide/) | Hướng dẫn chi tiết cách tạo biểu đồ radar trong tài liệu Word bằng Aspose.Words cho .NET với C#. |
 | [Chèn Biểu đồ Cột Đơn giản Vào Tài liệu Word](./insert-simple-column-chart/) Tìm hiểu cách chèn biểu đồ cột đơn giản vào Word bằng Aspose.Words cho .NET. Cải thiện tài liệu của bạn bằng các bài thuyết trình dữ liệu trực quan động. |
 | [Chèn Biểu Đồ Cột Vào Tài Liệu Word](./insert-column-chart/) | Tìm hiểu cách chèn biểu đồ cột vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng trực quan hóa dữ liệu trong báo cáo và bản trình bày của bạn. |
 | [Chèn Biểu đồ Diện tích Vào Tài liệu Word](./insert-area-chart/) | Tìm hiểu cách chèn biểu đồ miền vào tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
 | [Chèn biểu đồ bong bóng vào tài liệu Word](./insert-bubble-chart/) | Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn. |
 | [Chèn biểu đồ phân tán vào tài liệu Word](./insert-scatter-chart/) | Tìm hiểu cách chèn biểu đồ phân tán trong Word bằng Aspose.Words cho .NET. Các bước dễ dàng để tích hợp biểu diễn dữ liệu trực quan vào tài liệu của bạn. |
+| [Tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Hướng dẫn tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words cho .NET, bao gồm các bước chi tiết và mã nguồn C#. |
 | [Xác định Thuộc tính Trục XY Trong Biểu đồ](./define-xyaxis-properties/) Tìm hiểu cách xác định thuộc tính trục XY trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET. |
 | [Thêm giá trị ngày giờ vào trục của biểu đồ](./date-time-values-to-axis/) | Tìm hiểu cách thêm giá trị ngày và giờ vào trục biểu đồ bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
 | [Định dạng số cho trục trong biểu đồ](./number-format-for-axis/) | Tìm hiểu cách định dạng số trục biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Nâng cao khả năng đọc và tính chuyên nghiệp của tài liệu của bạn một cách dễ dàng. |

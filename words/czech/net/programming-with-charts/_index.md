@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobná vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
+"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobné vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
 "linktitle": "Používání grafů"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Používání API grafů slov"
@@ -42,7 +42,8 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Nastavení výchozích možností pro popisky dat v grafu](./default-options-for-data-labels/) | Naučte se, jak nastavit výchozí možnosti pro popisky dat v grafu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a bez námahy si vytvořte a upravte grafy. |
 | [Přizpůsobení jednoho datového bodu v grafu](./single-chart-data-point/) | Naučte se, jak přizpůsobit jednotlivé datové body grafu pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. Vylepšete své grafy jedinečnými značkami a velikostmi. |
 | [Přizpůsobení jedné série grafů v grafu](./single-chart-series/) | Naučte se, jak přizpůsobit jednotlivé série grafů v dokumentu Word pomocí Aspose.Words pro .NET. Pro bezproblémový zážitek postupujte podle našeho podrobného návodu. |
-
+| [Vytvoření radarového grafu v dokumentu Word – kompletní průvodce C#](./create-radar-chart-in-a-word-document-complete-c-guide/) | Naučte se, jak vytvořit radarový graf v dokumentu Word pomocí Aspose.Words pro .NET v podrobném C# průvodci. |
+| [Vytvoření koláčového grafu v dokumentu Word pomocí Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Naučte se, jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

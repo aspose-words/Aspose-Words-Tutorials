@@ -31,6 +31,7 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [将面积图插入Word文档](./insert-area-chart/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 将面积图插入 Word 文档。|
 | [在 Word 文档中插入气泡图](./insert-bubble-chart/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中插入气泡图，并遵循本分步指南。增强您的文档。|
 | [在 Word 文档中插入散点图](./insert-scatter-chart/) 了解如何使用 Aspose.Words for .NET 在 Word 中插入散点图。将可视化数据表示集成到文档中的简单步骤。|
+| [使用 Aspose.Words 在 Word 文档中创建饼图](./create-pie-chart-word-document-with-aspose-words/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建饼图，分步指南帮助您快速实现数据可视化。|
 | [在图表中定义 XY 轴属性](./define-xyaxis-properties/) 本分步指南将指导您如何使用 Aspose.Words for .NET 定义图表中的 XY 轴属性。非常适合 .NET 开发人员。|
 | [将日期时间值添加到图表的轴上](./date-time-values-to-axis/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 将日期和时间值添加到图表的轴。|
 | [图表中坐标轴的数字格式](./number-format-for-axis/) 学习如何使用 Aspose.Words for .NET 格式化图表轴数字，轻松提升文档的可读性和专业性。|
@@ -42,7 +43,7 @@ Aspose.Words for .NET 图形编程教程提供了全面的资源，帮助您学�
 | [设置图表中数据标签的默认选项](./default-options-for-data-labels/) 了解如何使用 Aspose.Words for .NET 设置图表中数据标签的默认选项。按照我们的分步指南，轻松创建和自定义图表。|
 | [自定义图表中的单个图表数据点](./single-chart-data-point/) 学习如何使用 Aspose.Words for .NET 自定义单个图表数据点，并遵循详细的分步指南。使用独特的标记和大小增强您的图表。|
 | [自定义图表中的单个图表系列](./single-chart-series/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中自定义单个图表系列。按照我们的分步指南，获得无缝体验。|
-
+| [在 Word 文档中创建雷达图 – 完整 C# 指南](./create-radar-chart-in-a-word-document-complete-c-guide/) 学习如何使用 Aspose.Words for .NET 在 Word 文档中创建雷达图，完整的 C# 示例指南。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
