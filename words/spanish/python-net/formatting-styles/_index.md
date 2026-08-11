@@ -55,6 +55,9 @@ Aprenda a eliminar y personalizar eficazmente los bordes de párrafo con Aspose.
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Aprenda a gestionar eficazmente las tabulaciones en sus documentos de Python con Aspose.Words. Esta guía explica cómo añadir, personalizar y eliminar tabulaciones con ejemplos prácticos.
 
+    ### [Cómo dar estilo a un gráfico en un documento Word usando Python](./how-to-style-chart-in-a-word-document-using-python/)
+Aprende a aplicar estilos y formatos a gráficos dentro de documentos Word con Aspose.Words y Python.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Python-net](https://docs.aspose.com/words/python-net/)

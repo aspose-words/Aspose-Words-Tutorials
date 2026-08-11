@@ -31,14 +31,29 @@ I tutorial si concentrano sul miglioramento dei flussi di lavoro di elaborazione
 Padroneggiando la conversione dei documenti con Aspose.Words per Python, gli sviluppatori possono semplificare i loro processi di gestione dei documenti. I tutorial forniscono istruzioni dettagliate, esempi di codice ed esempi pratici, consentendo agli sviluppatori di implementare solide funzionalità di conversione dei documenti nelle loro applicazioni Python. Seguite questi tutorial per sfruttare appieno il potenziale di Aspose.Words per una conversione e una gestione dei documenti senza interruzioni.
 
 ## Tutorial sulla conversione di documenti Python
+### [Carica markdown in Python con Aspose.Words – guida completa](./load-markdown-python-with-aspose-words-full-guide/)
+Scopri come caricare file Markdown in Python usando Aspose.Words con una guida passo‑a‑passo.
+
 ### [Conversione di documenti Python: la guida completa](./python-document-conversion/)
 Impara a convertire i documenti in Python con Aspose.Words per Python. Converti, manipola e personalizza i documenti senza sforzo. Aumenta subito la produttività!
 
 ### [Come salvare Markdown da Word – Guida completa Python](./how-to-save-markdown-from-word-complete-python-guide/)
 Scopri come esportare documenti Word in Markdown usando Aspose.Words per Python. Guida passo passo per una conversione senza sforzi.
 
+### [Salva Word come Markdown con Aspose.Words per Python – guida passo‑a‑passo](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+Scopri come convertire documenti Word in Markdown usando Aspose.Words per Python con una guida dettagliata passo‑a‑passo.
+
 ### [Recupera DOCX corrotti e converti Word in Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Impara a riparare file DOCX danneggiati e convertirli in Markdown con Aspose.Words per Python.
+
+### [Converti DOCX in TXT in Python – guida completa](./convert-docx-to-txt-in-python-full-guide/)
+Scopri come convertire file DOCX in TXT usando Aspose.Words per Python con una guida completa passo passo.
+
+### [Salva Word come PDF con Aspose.Words – Guida Python](./save-word-as-pdf-with-aspose-words-python-guide/)
+Impara a salvare documenti Word in PDF usando Aspose.Words per Python con una guida passo passo.
+
+### [Salva docx come PNG – guida passo‑a‑passo per sviluppatori Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+Impara a convertire file DOCX in immagini PNG usando Aspose.Words per Python con una guida dettagliata passo‑a‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

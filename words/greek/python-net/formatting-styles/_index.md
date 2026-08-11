@@ -47,13 +47,15 @@
 Μάθετε πώς να χρησιμοποιείτε το Aspose.Words για Python για να βελτιώσετε τη μορφοποίηση εγγράφων, να βελτιώσετε την αναγνωσιμότητα XML και να βελτιστοποιήσετε αποτελεσματικά τη χρήση μνήμης.
 
     ### [Mastering Hyphenation in Multilingual Documents Using Aspose.Words for Python](./aspose-words-python-hyphenation-dictionary/)
-Μάθετε πώς να καταχωρείτε και να ακυρώνετε την καταχώριση λεξικών με παύλα με το Aspose.Words για Python, βελτιώνοντας την αναγνωσιμότητα σε όλες τις γλώσσες.
+Μάθετε πώς να καταχωρίζετε και να ακυρώνετε την καταχώριση λεξικών με παύλα με το Aspose.Words για Python, βελτιώνοντας την αναγνωσιμότητα σε όλες τις γλώσσες.
 
     ### [Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide](./aspose-words-python-remove-customize-borders/)
 Μάθετε πώς να αφαιρείτε και να προσαρμόζετε αποτελεσματικά τα περιγράμματα παραγράφων χρησιμοποιώντας το Aspose.Words για Python. Βελτιστοποιήστε τη διαδικασία μορφοποίησης του εγγράφου σας.
 
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Μάθετε πώς να διαχειρίζεστε αποτελεσματικά τους στηλοθέτες στα έγγραφά σας Python χρησιμοποιώντας το Aspose.Words. Αυτός ο οδηγός καλύπτει την προσθήκη, την προσαρμογή και την αφαίρεση στηλοθετών με πρακτικά παραδείγματα.
+
+    ### [Πώς να μορφοποιήσετε γράφημα σε έγγραφο Word χρησιμοποιώντας Python](./how-to-style-chart-in-a-word-document-using-python/)
 
 ## Πρόσθετοι Πόροι
 
