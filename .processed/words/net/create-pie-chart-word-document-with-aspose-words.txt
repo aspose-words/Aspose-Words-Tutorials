@@ -1,0 +1,7 @@
+Title: Create pie chart Word document with Aspose.Words
+Slug: create-pie-chart-word-document-with-aspose-words
+Category: programming-with-charts
+ProcessedDate: 2026-08-11T07:19:25.958456
+SourceRepo: AI Search API
+Keywords: create pie chart word, customize pie chart colors, how to style pie, how to insert chart, change pie slice color
+PRNumber: 249
