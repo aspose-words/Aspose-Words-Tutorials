@@ -32,6 +32,7 @@ Den här guiden fördjupar sig i DocumentBuilder-klassens mångsidighet och täc
 
 {{< tutorial-card link="./insert-table-contents/" title="Skapa ett Word-dokument med innehållsförteckning i .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Generera flera Word-dokument med Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

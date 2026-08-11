@@ -29,7 +29,7 @@ Với các hướng dẫn này, bạn sẽ có thể làm chủ các tính năng
 | [Đặt ID Nhà cung cấp chữ ký trong Tài liệu Word](./set-signature-provider-id/) Đặt ID Nhà cung cấp chữ ký an toàn trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn chi tiết dài 2000 từ của chúng tôi để ký kỹ thuật số vào tài liệu của bạn. |
 | [Tạo Dòng Chữ Ký Mới Và Thiết Lập ID Nhà Cung Cấp](./create-new-signature-line-and-set-provider-id/) | Tìm hiểu cách tạo dòng chữ ký mới và đặt ID nhà cung cấp trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn từng bước. |
 | [Truy cập và xác minh chữ ký trong tài liệu Word](./access-and-verify-signature/) | Truy cập và xác minh chữ ký số trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. Đảm bảo tính xác thực của tài liệu một cách dễ dàng. |
-
+| [Thêm chữ ký số vào PDF bằng C# sử dụng Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Hướng dẫn cách thêm chữ ký số vào tài liệu PDF bằng C# và Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

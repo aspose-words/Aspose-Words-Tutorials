@@ -37,8 +37,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen Word dengan Persegi Panjang Berbayang – Panduan Langkah demi Langkah](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Pelajari cara membuat dokumen Word dengan persegi panjang berbayang menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. |
 | [Buat bentuk persegi panjang di Word menggunakan C# – Panduan Langkah demi Langkah](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 | [Tutorial Bayangan Bentuk Aspose.Words – Tambahkan Bayangan pada Bentuk Word di C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. Bahasa Indonesia: |
-
-| [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Berbayang – Panduan Langkah demi Langkah](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk persegi panjang berbayang dengan Aspose.Words untuk .NET secara langkah demi langkah. |
+| [Buat dokumen Word secara programatis dan grupkan bentuk di C#](./create-word-document-programmatically-and-group-shapes-in-c/) | Pelajari cara membuat dokumen Word secara programatis dan mengelompokkan bentuk menggunakan Aspose.Words untuk .NET dengan C#. |
+| [Sisipkan bentuk persegi panjang di Word dengan C# – panduan lengkap](./insert-rectangle-shape-in-word-with-c-complete-guide/) | Pelajari cara menyisipkan bentuk persegi panjang ke dokumen Word menggunakan C# dengan panduan lengkap ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

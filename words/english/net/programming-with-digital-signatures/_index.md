@@ -30,6 +30,7 @@ With these tutorials, you will be able to master the digital signature features 
 | [Set Signature Provider Id In Word Document](./set-signature-provider-id/) | Securely set a Signature Provider ID in Word documents using Aspose.Words for .NET. Follow our detailed, 2000-word guide to digitally sign your documents. |
 | [Create New Signature Line And Set Provider Id](./create-new-signature-line-and-set-provider-id/) | Learn how to create a new signature line and set the provider ID in Word documents using Aspose.Words for .NET. Step-by-step guide. |
 | [Access And Verify Signature In Word Document](./access-and-verify-signature/) | Access and verify digital signatures in Word documents using Aspose.Words for .NET with this comprehensive step-by-step guide. Ensure document authenticity effortlessly. |
+| [Add digital signature to PDF in C# using Aspose.Words](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Learn how to add a digital signature to a PDF using Aspose.Words for .NET in C# with this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

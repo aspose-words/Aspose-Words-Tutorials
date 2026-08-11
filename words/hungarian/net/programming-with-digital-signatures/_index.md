@@ -29,7 +29,7 @@ Ezekkel az oktatóanyagokkal elsajátíthatja az Aspose.Words for .NET digitáli
 | [Aláírás-szolgáltató azonosítójának beállítása Word-dokumentumban](./set-signature-provider-id/) Biztonságosan állítson be aláírásszolgáltató azonosítót Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesse részletes, 2000 szavas útmutatónkat a dokumentumok digitális aláírásához. |
 | [Új aláírási sor létrehozása és szolgáltató azonosítójának beállítása](./create-new-signature-line-and-set-provider-id/) | Ismerje meg, hogyan hozhat létre új aláírási sort és állíthat be szolgáltatói azonosítót Word-dokumentumokban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató. |
 | [Hozzáférés és aláírás ellenőrzése Word-dokumentumban](./access-and-verify-signature/) | Az Aspose.Words for .NET segítségével hozzáférhet és ellenőrizheti a Word-dokumentumokban található digitális aláírásokat ezzel az átfogó, lépésről lépésre haladó útmutatóval. Biztosítsa a dokumentumok hitelességét könnyedén. |
-
+| [Digitális aláírás hozzáadása PDF-hez C#-ban az Aspose.Words használatával](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Tanulja meg, hogyan adhat hozzá digitális aláírást PDF-hez C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

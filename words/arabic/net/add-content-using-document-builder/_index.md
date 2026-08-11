@@ -13,7 +13,7 @@
 
 ## مقدمة
  
-يُمكّن Aspose.Words for .NET المطورين من إنشاء مستندات Word وتعديلها برمجيًا بسهولة. باستخدام فئة DocumentBuilder القوية، يمكنك إضافة أنواع مختلفة من المحتوى، بما في ذلك النصوص والصور والجداول والأشكال، بدقة ومرونة. سواء كنت تُنشئ تقارير أو فواتير أو قوالب، يوفر DocumentBuilder طريقة سهلة لتنسيق مستنداتك وهيكلتها ديناميكيًا.  
+يُمكّن Aspose.Words for .NET المطورين من إنشاء مستندات Word وتعديلها برمجياً بسهولة. باستخدام فئة DocumentBuilder القوية، يمكنك إضافة أنواع مختلفة من المحتوى، بما في ذلك النصوص والصور والجداول والأشكال، بدقة ومرونة. سواء كنت تُنشئ تقارير أو فواتير أو قوالب، يوفر DocumentBuilder طريقة سهلة لتنسيق مستنداتك وهيكلتها ديناميكيًا.  
 
 يتعمق هذا الدليل في تنوع استخدامات فئة DocumentBuilder، ويغطي وظائفها الرئيسية خطوة بخطوة. تعلّم كيفية إضافة محتوى غني إلى مستنداتك، وتطبيق أنماط مخصصة، وحتى إدارة التخطيطات المعقدة. مع أمثلة عملية وشروحات واضحة، ستتقن كيفية استخدام DocumentBuilder لتبسيط مهام إنشاء المستندات في وقت قصير.
 
@@ -32,6 +32,7 @@
 
 {{< tutorial-card link="./insert-table-contents/" title="إنشاء مستند Word مع جدول المحتويات في .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="إنشاء مستندات Word متعددة باستخدام Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

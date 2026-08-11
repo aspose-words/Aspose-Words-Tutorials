@@ -42,7 +42,8 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [設定圖表中資料標籤的預設選項](./default-options-for-data-labels/) |了解如何使用 Aspose.Words for .NET 設定圖表中資料標籤的預設選項。按照我們的逐步指南輕鬆建立和自訂圖表。 |
 | [自訂圖表中的單一圖表資料點](./single-chart-data-point/) |透過詳細的逐步指南了解如何使用 Aspose.Words for .NET 自訂單一圖表資料點。使用獨特的標記和尺寸來增強您的圖表。 |
 | [自訂圖表中的單一圖表系列](./single-chart-series/) |了解如何使用 Aspose.Words for .NET 自訂 Word 文件中的單一圖表系列。按照我們的逐步指南，獲得無縫體驗。 |
-
+| [在 Word 文件中建立雷達圖 – 完整 C# 教學](./create-radar-chart-in-a-word-document-complete-c-guide/) |透過完整的 C# 教學在 Word 文件中建立雷達圖，展示多維資料。 |
+| [使用 Aspose.Words 建立餅圖 Word 文件](./create-pie-chart-word-document-with-aspose-words/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

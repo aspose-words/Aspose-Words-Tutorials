@@ -26,6 +26,8 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | --- | --- |
 | [Formatera antalet dataetiketter i ett diagram](./format-number-of-data-label/) | Lär dig hur du formaterar dataetiketter i diagram med Aspose.Words för .NET med den här steg-för-steg-guiden. Förbättra dina Word-dokument utan ansträngning. |
 | [Skapa och anpassa diagram med hjälp av form](./create-chart-using-shape/) | Lär dig hur du skapar och anpassar diagram i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-guiden. Perfekt för datavisualisering. |
+| [Skapa radardiagram i ett Word-dokument – komplett C#-guide](./create-radar-chart-in-a-word-document-complete-c-guide/) | Lär dig steg för steg hur du skapar ett radardiagram i Word med Aspose.Words för .NET och C#. |
+| [Skapa cirkeldiagram i ett Word-dokument med Aspose.Words](./create-pie-chart-word-document-with-aspose-words/) | Lär dig hur du skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words för .NET i denna steg-för-steg-guide. |
 | [Infoga enkelt kolumndiagram i ett Word-dokument](./insert-simple-column-chart/) Lär dig hur du infogar ett enkelt kolumndiagram i Word med Aspose.Words för .NET. Förbättra dina dokument med dynamiska visuella datapresentationer. |
 | [Infoga kolumndiagram i ett Word-dokument](./insert-column-chart/) | Lär dig hur du infogar kolumndiagram i Word-dokument med Aspose.Words för .NET. Förbättra datavisualisering i dina rapporter och presentationer. |
 | [Infoga ytdiagram i ett Word-dokument](./insert-area-chart/) | Lär dig hur du infogar ett ytdiagram i ett Word-dokument med Aspose.Words för .NET i den här omfattande steg-för-steg-guiden. |

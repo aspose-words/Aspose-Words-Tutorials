@@ -36,6 +36,7 @@ Whether you need to replace specific words, update text templates, or customize 
 | [Recognize And Substitutions Within Replacement Patterns](./recognize-and-substitutions-within-replacement-patterns/) | Learn how to recognize and substitute text within replacement patterns using Aspose.Words for .NET. Step-by-step guide with detailed examples. |
 | [Replace With String](./replace-with-string/) | Learn how to replace strings in Word documents using Aspose.Words for .NET with this step-by-step guide. Perfect for developers looking to automate document editing. |
 | [Replace Text In Table](./replace-text-in-table/) | Effortlessly replace text in Word table using Aspose.Words for .NET with this detailed, step-by-step guide. |
+| [Automate word document generation with Aspose.Words in C#](./automate-word-document-generation-with-aspose-words-in-c/) | Learn how to automate Word document generation using Aspose.Words for .NET in C#. Follow this step-by-step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

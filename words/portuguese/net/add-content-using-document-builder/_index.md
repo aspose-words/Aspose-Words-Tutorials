@@ -32,6 +32,7 @@ Este guia explora a versatilidade da classe DocumentBuilder, abordando suas prin
 
 {{< tutorial-card link="./insert-table-contents/" title="Crie um documento do Word com índice no .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./generate-multiple-word-documents-with-aspose-words/" title="Gerar vários documentos Word com Aspose.Words" imgSrc="./generate-multiple-word-documents-with-aspose-words/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

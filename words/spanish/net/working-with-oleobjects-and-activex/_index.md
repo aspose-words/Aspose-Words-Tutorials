@@ -25,10 +25,10 @@ Estos tutoriales le ofrecen un enfoque práctico, paso a paso, para el procesami
 | --- | --- |
 | [Insertar objeto OLE en un documento de Word](./insert-ole-object/) Aprenda a insertar objetos OLE en documentos de Word con Aspose.Words para .NET con esta guía paso a paso. Mejore sus documentos con contenido incrustado.
 | [Insertar objeto Ole en Word con el paquete Ole](./insert-ole-object-with-ole-package/) Aprenda a insertar objetos OLE en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada paso a paso para incrustar archivos sin problemas.
-| [Insertar objeto OLE en un documento de Word como icono](./insert-ole-object-as-icon/) Aprenda a insertar un objeto OLE como icono en documentos de Word con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus documentos.
+| [Insertar objeto OLE en un documento de Word como icono](./insert-ole-object-as-icon/) Aprende a insertar un objeto OLE como icono en documentos de Word con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus documentos.
 | [Insertar objeto Ole como icono usando Stream](./insert-ole-object-as-icon-using-stream/) | Aprenda a insertar un objeto OLE como un ícono usando una secuencia con Aspose.Words para .NET en este tutorial detallado paso a paso. |
 | [Leer las propiedades de Active XControl desde un archivo de Word](./read-active-xcontrol-properties/) Aprenda a leer las propiedades de los controles ActiveX de archivos de Word con Aspose.Words para .NET con una guía paso a paso. Mejore sus habilidades de automatización de documentos.
-
+| [Crear documento de Word programáticamente y añadir botón ActiveX](./create-word-document-programmatically-and-add-activex-button/) Aprenda a crear un documento de Word mediante código y agregar un botón ActiveX usando Aspose.Words para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

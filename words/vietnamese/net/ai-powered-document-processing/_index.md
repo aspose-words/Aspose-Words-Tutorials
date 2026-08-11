@@ -39,9 +39,11 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Làm việc với mô hình AI](./working-with-ai-model/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để tóm tắt tài liệu bằng AI. Các bước dễ dàng để nâng cao quản lý tài liệu. |
-| [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
+| [Làm việc với mô hình AI của Google](./working-with-google-ai-model/) | Nâng cao khả năng xử lý tài liệu của bạn với Aspose.Words cho .NET và Google AI để tạo bản tóm tắt ngắn gọn một cách dễ dàng. |
 | [Làm việc với mô hình AI mở](./working-with-open-ai-model/) | Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay. |
 | [Làm việc với tùy chọn tóm tắt](./working-with-summarize-options/) | Học cách tóm tắt tài liệu Word hiệu quả bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi về cách tích hợp các mô hình AI để có thông tin chi tiết nhanh chóng. |
+| [Tóm tắt tài liệu Word trong C# – hướng dẫn đầy đủ Aspose.Words AI](./summarize-word-document-in-c-complete-aspose-words-ai-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
+| [Dịch tài liệu docx sang tiếng Pháp với Aspose.Words AI](./translate-docx-to-french-with-aspose-words-ai/) | Hướng dẫn sử dụng Aspose.Words AI để dịch tài liệu Word (.docx) sang tiếng Pháp một cách nhanh chóng và chính xác. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

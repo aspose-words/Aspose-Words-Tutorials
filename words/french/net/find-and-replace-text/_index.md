@@ -35,6 +35,7 @@ Que vous ayez besoin de remplacer des mots spécifiques, de mettre à jour des m
 | [Reconnaître et substitutions dans les modèles de remplacement](./recognize-and-substitutions-within-replacement-patterns/) | Apprenez à reconnaître et à remplacer du texte dans des modèles de remplacement avec Aspose.Words pour .NET. Guide étape par étape avec des exemples détaillés. |
 | [Remplacer par une chaîne](./replace-with-string/) | Apprenez à remplacer des chaînes dans des documents Word avec Aspose.Words pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant automatiser l'édition de documents. |
 | [Remplacer le texte dans le tableau](./replace-text-in-table/) | Remplacez sans effort du texte dans un tableau Word à l'aide d'Aspose.Words pour .NET avec ce guide détaillé, étape par étape. |
+| [Automatiser la génération de documents Word avec Aspose.Words en C#](./automate-word-document-generation-with-aspose-words-in-c/) | Apprenez à créer automatiquement des documents Word en C# avec Aspose.Words, grâce à un guide détaillé pas à pas. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

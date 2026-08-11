@@ -29,7 +29,7 @@ Aspose.Words for .NET 提供全面的教程，指导您轻松完成文字处理�
 | [在 Word 文档中设置签名提供者 ID](./set-signature-provider-id/) 使用 Aspose.Words for .NET 在 Word 文档中安全地设置签名提供商 ID。请遵循我们详细的 2000 字指南，对您的文档进行数字签名。|
 | [创建新的签名行并设置提供商 ID](./create-new-signature-line-and-set-provider-id/) | 了解如何使用 Aspose.Words for .NET 在 Word 文档中创建新的签名行并设置提供商 ID。分步指南。|
 | [访问并验证 Word 文档中的签名](./access-and-verify-signature/) 使用 Aspose.Words for .NET 访问并验证 Word 文档中的数字签名，并遵循本指南的全面步骤。轻松确保文档真实性。|
-
+| [使用 Aspose.Words 在 C# 中为 PDF 添加数字签名](./add-digital-signature-to-pdf-in-c-using-aspose-words/) 学习如何使用 Aspose.Words for .NET 在 C# 中为 PDF 文档添加数字签名，确保文档安全。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

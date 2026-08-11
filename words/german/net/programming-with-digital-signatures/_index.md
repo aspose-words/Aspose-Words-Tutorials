@@ -29,7 +29,7 @@ Mit diesen Tutorials beherrschen Sie die digitalen Signaturfunktionen von Aspose
 | [Signaturanbieter-ID im Word-Dokument festlegen](./set-signature-provider-id/) Richten Sie mit Aspose.Words für .NET sicher eine Signaturanbieter-ID in Word-Dokumenten ein. Folgen Sie unserer ausführlichen Anleitung (2000 Wörter) zum digitalen Signieren Ihrer Dokumente. |
 | [Neue Signaturzeile erstellen und Anbieter-ID festlegen](./create-new-signature-line-and-set-provider-id/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET eine neue Signaturzeile erstellen und die Anbieter-ID in Word-Dokumenten festlegen. Schritt-für-Schritt-Anleitung. |
 | [Zugriff auf und Überprüfung der Signatur im Word-Dokument](./access-and-verify-signature/) | Greifen Sie mit Aspose.Words für .NET auf digitale Signaturen in Word-Dokumenten zu und überprüfen Sie diese mit dieser umfassenden Schritt-für-Schritt-Anleitung. Stellen Sie mühelos die Authentizität von Dokumenten sicher. |
-
+| [Digitale Signatur zu PDF in C# mit Aspose.Words hinzufügen](./add-digital-signature-to-pdf-in-c-using-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET digitale Signaturen zu PDF-Dateien in C# hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

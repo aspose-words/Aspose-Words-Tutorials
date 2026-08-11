@@ -23,7 +23,7 @@ Ordbehandling med fotnoter och slutnoter är en omfattande resurs som guidar dig
 | [Ställ in fotnotskolumner](./set-foot-note-columns/) | Lär dig hur du ställer in fotnotskolumner i Word-dokument med Aspose.Words för .NET. Anpassa enkelt din fotnotslayout med vår steg-för-steg-guide. |
 | [Ställ in fotnots- och slutnotsposition](./set-footnote-and-end-note-position/) Lär dig hur du ställer in fotnots- och slutnotspositioner i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
 | [Ange alternativ för slutnot](./set-endnote-options/) | Lär dig hur du ställer in alternativ för slutnoter i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-guiden. |
-
+| [Formatera fotnotseparator i C# med Aspose.Words](./format-footnote-separator-in-c-using-aspose-words/) | Lär dig hur du formaterar fotnotseparatorn i C# med Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
