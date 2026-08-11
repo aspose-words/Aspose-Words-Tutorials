@@ -50,10 +50,12 @@ Tìm hiểu cách sử dụng Aspose.Words cho Python để cải thiện địn
 Tìm hiểu cách đăng ký và hủy đăng ký từ điển ngắt dòng bằng Aspose.Words cho Python, tăng cường khả năng đọc trên nhiều ngôn ngữ.
 
     ### [Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide](./aspose-words-python-remove-customize-borders/)
-Tìm hiểu cách xóa và tùy chỉnh đường viền đoạn văn hiệu quả bằng Aspose.Words for Python. Đơn giản hóa quy trình định dạng tài liệu của bạn.
+Tìm hiểu cách xóa và tùy chỉnh đường viền đoạn văn hiệu quả bằng Aspose.Words cho Python. Đơn giản hóa quy trình định dạng tài liệu của bạn.
 
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Tìm hiểu cách quản lý hiệu quả các điểm dừng tab trong tài liệu Python của bạn bằng Aspose.Words. Hướng dẫn này bao gồm cách thêm, tùy chỉnh và xóa các điểm dừng tab với các ví dụ thực tế.
+
+### [Cách tạo kiểu biểu đồ trong tài liệu Word bằng Python](./how-to-style-chart-in-a-word-document-using-python/)
 
 ## Tài nguyên bổ sung
 

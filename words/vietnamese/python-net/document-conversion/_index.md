@@ -35,10 +35,25 @@ Bằng cách làm chủ việc chuyển đổi tài liệu với Aspose.Words fo
 Học chuyển đổi tài liệu Python với Aspose.Words for Python. Chuyển đổi, thao tác và tùy chỉnh tài liệu dễ dàng. Tăng năng suất ngay!
 
 ### [Cách lưu Markdown từ Word – Hướng dẫn Python đầy đủ](./how-to-save-markdown-from-word-complete-python-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words cho Python.
 
 ### [Khôi phục DOCX bị hỏng & Chuyển Word sang Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
-Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words for Python.
+Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words cho Python.
+
+### [Chuyển đổi docx sang txt trong Python – hướng dẫn đầy đủ](./convert-docx-to-txt-in-python-full-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang TXT bằng Aspose.Words cho Python, bao gồm các bước thực hiện và ví dụ mã.
+
+### [Lưu Word dưới dạng PDF với Aspose.Words – Hướng dẫn Python](./save-word-as-pdf-with-aspose-words-python-guide/)
+Hướng dẫn lưu tài liệu Word thành PDF bằng Aspose.Words cho Python.
+
+### [Lưu Word dưới dạng Markdown với Aspose.Words cho Python – hướng dẫn từng bước](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng Aspose.Words cho Python.
+
+### [Lưu docx dưới dạng PNG – hướng dẫn từng bước cho nhà phát triển Python](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+Hướng dẫn chi tiết cách lưu tệp DOCX thành hình ảnh PNG bằng Aspose.Words cho Python.
+
+### [Tải markdown bằng Python với Aspose.Words – hướng dẫn đầy đủ](./load-markdown-python-with-aspose-words-full-guide/)
+Hướng dẫn chi tiết cách tải và chuyển đổi tệp Markdown trong Python bằng Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,21 @@
 ### [恢復損壞的 DOCX 並將 Word 轉換為 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 Word 轉換為 Markdown 的完整步驟。
 
+### [在 Python 中將 docx 轉換為 txt – 完整指南](./convert-docx-to-txt-in-python-full-guide/)
+學習使用 Aspose.Words for Python 將 docx 文件轉換為 txt 格式的完整步驟，提升文字處理效率。
+
+### [使用 Aspose.Words 將 Word 儲存為 PDF – Python 指南](./save-word-as-pdf-with-aspose-words-python-guide/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 PDF 的完整步驟。
+
+### [使用 Aspose.Words 將 Word 儲存為 Markdown – Python 指南](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+學習使用 Aspose.Words for Python 將 Word 文件轉換並儲存為 Markdown 的完整步驟。
+
+### [將 docx 儲存為 PNG – Python 開發者逐步指南](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+學習使用 Aspose.Words for Python 將 docx 文件轉換並儲存為 PNG 圖片的完整步驟，提升文件視覺呈現。
+
+### [使用 Aspose.Words 載入 Markdown – Python 完整指南](./load-markdown-python-with-aspose-words-full-guide/)
+學習使用 Aspose.Words for Python 從 Markdown 載入內容並進行處理的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -28,32 +28,35 @@
 ### [คู่มือครอบคลุมเกี่ยวกับการแปลงจุดใน Aspose.Words สำหรับ Python: นิ้ว มิลลิเมตร และพิกเซล](./master-point-conversion-aspose-words-python/)
 เชี่ยวชาญการแปลงจุดระหว่างนิ้ว มิลลิเมตร และพิกเซลได้อย่างง่ายดายด้วย Aspose.Words สำหรับ Python ปรับปรุงงานการจัดรูปแบบเอกสารอย่างมีประสิทธิภาพ
 
-    ### [Create SEO-Optimized Document Styles in Python with Aspose.Words](./create-seo-rich-document-styles-aspose-python/)
+### [Create SEO-Optimized Document Styles in Python with Aspose.Words](./create-seo-rich-document-styles-aspose-python/)
 เรียนรู้การสร้างรูปแบบเอกสารที่กำหนดเองและเป็นมิตรกับ SEO โดยใช้ Aspose.Words สำหรับ Python เพิ่มความสามารถในการอ่านและความสอดคล้องได้อย่างง่ายดาย
 
-    ### [Dynamic Document Borders with Aspose.Words for Python&#58; A Comprehensive Guide](./aspose-words-python-dynamic-borders/)
+### [Dynamic Document Borders with Aspose.Words for Python&#58; A Comprehensive Guide](./aspose-words-python-dynamic-borders/)
 เรียนรู้วิธีสร้างเส้นขอบเอกสารแบบไดนามิกโดยใช้ Aspose.Words สำหรับ Python เชี่ยวชาญเทคนิคสำหรับการจัดรูปแบบเส้นขอบข้อความและตาราง
 
-    ### [Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles](./aspose-words-python-theme-customization/)
+### [Master Theme Customization in Aspose.Words for Python&#58; A Comprehensive Guide to Formatting & Styles](./aspose-words-python-theme-customization/)
 เรียนรู้วิธีปรับแต่งธีมใน Aspose.Words โดยใช้ Python คู่มือนี้ครอบคลุมถึงการตั้งค่าสีและแบบอักษร เพื่อให้แน่ใจว่ามีความสอดคล้องของแบรนด์ในเอกสารของคุณ
 
-    ### [Mastering Aspose.Words Python&#58; Optimize Document Style Management](./aspose-words-python-style-management/)
+### [Mastering Aspose.Words Python&#58; Optimize Document Style Management](./aspose-words-python-style-management/)
 เรียนรู้วิธีปรับแต่งรูปแบบเอกสารโดยใช้ Aspose.Words สำหรับ Python ลบรูปแบบที่ไม่ได้ใช้และซ้ำกัน ปรับปรุงเวิร์กโฟลว์ของคุณ และปรับปรุงประสิทธิภาพ
 
-    ### [Mastering Control Characters in Python Documents with Aspose.Words](./aspose-words-python-control-characters/)
+### [Mastering Control Characters in Python Documents with Aspose.Words](./aspose-words-python-control-characters/)
 เรียนรู้วิธีใช้ตัวควบคุมอักขระในเอกสาร Python ด้วย Aspose.Words สำหรับการจัดรูปแบบและเค้าโครงเอกสารอัตโนมัติ ค้นพบเทคนิคต่างๆ สำหรับการแทรกช่องว่าง แท็บ การแบ่ง และอื่นๆ
 
-    ### [Mastering Document Formatting with Aspose.Words for Python&#58; Enhance XML Readability and Memory Efficiency](./master-document-formatting-aspose-words-python/)
+### [Mastering Document Formatting with Aspose.Words for Python&#58; Enhance XML Readability and Memory Efficiency](./master-document-formatting-aspose-words-python/)
 เรียนรู้วิธีใช้ Aspose.Words สำหรับ Python เพื่อปรับปรุงการจัดรูปแบบเอกสาร เพิ่มความสามารถในการอ่าน XML และปรับการใช้หน่วยความจำให้มีประสิทธิภาพ
 
-    ### [Mastering Hyphenation in Multilingual Documents Using Aspose.Words for Python](./aspose-words-python-hyphenation-dictionary/)
+### [Mastering Hyphenation in Multilingual Documents Using Aspose.Words for Python](./aspose-words-python-hyphenation-dictionary/)
 เรียนรู้วิธีการลงทะเบียนและยกเลิกการลงทะเบียนพจนานุกรมการแบ่งคำด้วย Aspose.Words สำหรับ Python เพื่อเพิ่มการอ่านออกเสียงข้ามภาษาต่างๆ
 
-    ### [Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide](./aspose-words-python-remove-customize-borders/)
+### [Mastering Paragraph Borders in Python with Aspose.Words&#58; A Complete Guide](./aspose-words-python-remove-customize-borders/)
 เรียนรู้วิธีการลบและปรับแต่งเส้นขอบย่อหน้าอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ Python ปรับปรุงกระบวนการจัดรูปแบบเอกสารของคุณ
 
-    ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
+### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 เรียนรู้วิธีจัดการแท็บหยุดในเอกสาร Python ของคุณอย่างมีประสิทธิภาพโดยใช้ Aspose.Words คู่มือนี้ครอบคลุมถึงการเพิ่ม ปรับแต่ง และลบแท็บหยุด พร้อมด้วยตัวอย่างในทางปฏิบัติ
+
+### [วิธีจัดสไตล์แผนภูมิในเอกสาร Word ด้วย Python](./how-to-style-chart-in-a-word-document-using-python/)
+เรียนรู้วิธีปรับแต่งแผนภูมิในเอกสาร Word ด้วย Aspose.Words สำหรับ Python อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

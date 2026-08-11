@@ -40,6 +40,21 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और वर्ड को मार्कडाउन में परिवर्तित करें](./recover-corrupted-docx-convert-word-to-markdown/)
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
+### [Python में docx को txt में परिवर्तित करें – पूर्ण गाइड](./convert-docx-to-txt-in-python-full-guide/)
+Python के साथ docx फ़ाइलों को txt फ़ॉर्मेट में आसानी से बदलने के चरण-दर-चरण मार्गदर्शन।
+
+### [Aspose.Words के साथ Word को PDF के रूप में सहेजें – पायथन गाइड](./save-word-as-pdf-with-aspose-words-python-guide/)
+Aspose.Words का उपयोग करके पायथन में Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें।
+
+### [Aspose.Words के साथ Word को मार्कडाउन के रूप में सहेजें – पायथन चरण‑दर‑चरण गाइड](./save-word-as-markdown-with-aspose-words-for-python-step-by-s/)
+Aspose.Words का उपयोग करके पायथन में Word दस्तावेज़ को मार्कडाउन में बदलने की पूरी प्रक्रिया सीखें।
+
+### [docx को png के रूप में सहेजें – पायथन डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./save-docx-as-png-step-by-step-guide-for-python-developers/)
+docx फ़ाइलों को PNG इमेज में बदलने के लिए पायथन कोड और विस्तृत चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words के साथ पायथन में मार्कडाउन लोड – पूर्ण गाइड](./load-markdown-python-with-aspose-words-full-guide/)
+Aspose.Words का उपयोग करके पायथन में मार्कडाउन फ़ाइलों को लोड करने की पूरी प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
