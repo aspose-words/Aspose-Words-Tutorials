@@ -71,6 +71,10 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Cara Menyisipkan Diagram Pai di Word – Tambahkan Persentase Label Data](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Pelajari cara menyisipkan diagram pai di Word dengan menambahkan label data persentase menggunakan Aspose.Words untuk Java.
+### [Cara Menambahkan Tombol ke Dokumen Word – Panduan Langkah demi Langkah](./how-to-add-button-to-word-document-step-by-step-guide/)
+Pelajari cara menambahkan tombol ke dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

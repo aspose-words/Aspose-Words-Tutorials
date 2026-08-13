@@ -43,6 +43,8 @@ Aspose.Words for Java 提供了强大的文档样式工具，帮助开发人员�
 学习如何使用 Aspose.Words for Java 添加水印并设置页面配置。包含源代码的全面指南。
 ### [文档页眉和页脚样式](./document-header-footer-styling/)
 在本详细指南中学习如何使用 Aspose.Words for Java 设置文档页眉和页脚的样式。指南包含分步说明和源代码。
+### [更改 DOCX 脚注间距 – 完整指南](./change-footnote-spacing-in-docx-complete-guide/)
+学习如何使用 Aspose.Words for Java 更改 DOCX 文档中脚注的间距。提供源代码示例和完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

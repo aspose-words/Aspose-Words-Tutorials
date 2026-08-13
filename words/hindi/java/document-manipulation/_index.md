@@ -76,6 +76,8 @@ Aspose.Words for Java के साथ अपने दस्तावेज़ 
 Aspose.Words for Java में दस्तावेज़ श्रेणी में हेरफेर करना सीखें। इस व्यापक गाइड के साथ टेक्स्ट को हटाना, निकालना और फ़ॉर्मेट करना सीखें।
 ### [Java के लिए Aspose.Words में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना](./using-structured-document-tags/)
 इस व्यापक गाइड के साथ Aspose.Words for Java में संरचित दस्तावेज़ टैग (SDT) का उपयोग करना सीखें। कस्टम XML डेटा के लिए SDTs बनाएँ, संशोधित करें और बाँधें।
+### [नया Word दस्तावेज़ बनाएं – संरचित टैग जोड़ने के लिए चरण-दर-चरण गाइड](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Aspose.Words for Java का उपयोग करके नया Word दस्तावेज़ बनाएं और संरचित टैग जोड़ें। चरण-दर-चरण कोड उदाहरण।
 ### [Java के लिए Aspose.Words में स्टाइल्स और थीम्स का उपयोग करना](./using-styles-and-themes/)
 Aspose.Words for Java के साथ दस्तावेज़ स्वरूपण को बेहतर बनाने का तरीका जानें। स्रोत कोड उदाहरणों के साथ इस व्यापक गाइड में शैलियों, थीम और बहुत कुछ का अन्वेषण करें।
 ### [Java के लिए Aspose.Words में विषय-सूची तैयार करना](./generating-table-of-contents/)

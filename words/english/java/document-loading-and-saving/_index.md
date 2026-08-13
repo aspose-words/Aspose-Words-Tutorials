@@ -92,6 +92,9 @@ Configuring RTF Load Options in Aspose.Words for Java. Learn how to recognize UT
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage Lists, Handle Spaces, and Control Text Direction.
 
+### [How to Load Markdown in Java – Complete Guide](./how-to-load-markdown-in-java-complete-guide/)
+Learn how to load Markdown files in Java using Aspose.Words for Java. Step‑by‑step guide with code examples.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle metafiles, and more. Your Word documents, your way.
 

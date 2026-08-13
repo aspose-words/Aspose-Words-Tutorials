@@ -43,13 +43,15 @@ Készen állsz, hogy elkezdjük? Látogass el ide: [Aspose.Words Java API dokume
 Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítségével pillanatok alatt profi módon fogsz dokumentumokat létrehozni, módosítani és fejleszteni. Jó kódolást!
 
 ## Dokumentumelemek használata – Oktatóanyagok
+### [Kördiagram beszúrása Wordben – adatcímke százalék hozzáadása](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Tanuld meg, hogyan szúrj be kördiagramot a Word dokumentumba, és add hozzá az adatcímkék százalékos értékét.
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)
 Tanuld meg az Aspose.Words hatékony használatát Java mezőkhöz ebben a lépésről lépésre bemutató oktatóanyagban. Hozz létre dinamikus Word dokumentumokat könnyedén.
 ### [Betűtípusok használata az Aspose.Words Java-ban](./using-fonts/)
 Fedezd fel a betűtípus formázását az Aspose.Words for Java programban: méret, stílus, szín és egyebek. Készíts könnyedén gyönyörűen formázott dokumentumokat.
-### [Lábjegyzetek és végjegyzetek használata az Aspose.Words for Java programban](./using-footnotes-and-endnotes/)
+### [Lábjegyzetek és végjegyzetek használata az Aspose.Words Java programban](./using-footnotes-and-endnotes/)
 Tanuld meg hatékonyan használni a lábjegyzeteket és végjegyzeteket az Aspose.Words for Java programban. Fejleszd dokumentumformázási készségeidet még ma!
 ### [Űrlapmezők használata az Aspose.Words Java-ban](./using-form-fields/)
 „Tanuld meg az Aspose.Words Java-beli használatát interaktív Word-dokumentumok létrehozásához űrlapmezőkkel. Kezdj hozzá most!”
@@ -71,6 +73,8 @@ Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Word
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Gomb hozzáadása Word dokumentumhoz – Lépésről‑lépésre útmutató](./how-to-add-button-to-word-document-step-by-step-guide/)
+Tanuld meg, hogyan adhatsz hozzá gombot egy Word dokumentumhoz lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Scopri come personalizzare i temi dei documenti utilizzando Aspose.Words per Jav
 Scopri come applicare filigrane e configurare le pagine con Aspose.Words per Java. Una guida completa con codice sorgente.
 ### [Stile dell'intestazione e del piè di pagina del documento](./document-header-footer-styling/)
 Scopri come formattare intestazioni e piè di pagina dei documenti utilizzando Aspose.Words per Java in questa guida dettagliata. Istruzioni dettagliate e codice sorgente inclusi.
+### [Modifica della spaziatura delle note a piè di pagina in DOCX – Guida completa](./change-footnote-spacing-in-docx-complete-guide/)
+Scopri come modificare la spaziatura delle note a piè di pagina nei documenti DOCX con Aspose.Words per Java. Esempi di codice inclusi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

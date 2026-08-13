@@ -41,6 +41,8 @@ Leer hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Ja
 Leer hoe u veilige digitale handtekeningen in documenten implementeert met Aspose.Words voor Java. Zorg voor de integriteit van uw documenten met stapsgewijze instructies en broncode.
 ### [Documentredactie en gegevensbescherming](./document-redaction-data-protection/)
 Leer hoe u uw documenten kunt beveiligen en gevoelige gegevens kunt redigeren met Aspose.Words voor Java. Stapsgewijze handleiding met broncode.
+### [Digitale handtekening PFX-bestand in Java – Complete gids](./digital-signature-pfx-file-in-java-complete-guide/)
+Leer hoe u PFX-bestanden gebruikt voor digitale handtekeningen in Java met Aspose.Words. Volledige stapsgewijze gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

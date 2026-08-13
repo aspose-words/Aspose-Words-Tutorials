@@ -105,6 +105,9 @@ Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tu
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
 Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
 
+### [Vytvoření nového dokumentu Word – krok za krokem průvodce přidáním strukturovaného tagu](./create-new-word-document-step-by-step-guide-to-adding-a-stru/)
+Naučte se, jak vytvořit nový dokument Word a přidat do něj strukturovaný tag pomocí Aspose.Words pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

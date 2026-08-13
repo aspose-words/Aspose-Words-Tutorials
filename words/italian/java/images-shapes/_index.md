@@ -37,6 +37,15 @@ Scopri come generare miniature di alta qualità e bitmap di dimensioni personali
 ### [Crea documento Word Java – Aggiungi forma rettangolare con effetto ombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Impara a inserire una forma rettangolare con ombra in un documento Word usando Aspose.Words per Java.
 
+### [Crea documento Word vuoto con forma raggruppata – Guida Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Impara a creare un documento Word vuoto e aggiungere una forma raggruppata usando Aspose.Words per Java.
+
+### [Crea documento Word Java – Inserisci e nascondi immagini con Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Impara a inserire immagini in un documento Word e nasconderle usando Aspose.Words per Java.
+
+### [Inserisci grafico a torta in Java – Esplodi, ruota e evidenzia le fette](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Impara a inserire un grafico a torta, esplodere, ruotare e evidenziare le fette in un documento Word usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

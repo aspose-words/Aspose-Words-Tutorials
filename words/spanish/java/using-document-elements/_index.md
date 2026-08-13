@@ -71,6 +71,10 @@ Aprenda a usar objetos OLE y controles ActiveX en Aspose.Words para Java. Cree d
 Aprenda a usar Aspose.Words para los controles de revisión de Java de forma eficiente. Guía paso a paso para desarrolladores. Optimice la gestión de documentos.
 ### [Uso de secciones en Aspose.Words para Java](./using-sections/)
 Explora Aspose.Words para Java: Una guía completa sobre el uso de secciones. Agrega, elimina, añade y clona secciones con ejemplos de código.
+### [Cómo agregar un botón a un documento de Word – Guía paso a paso](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aprenda a insertar un botón interactivo en un documento Word con Aspose.Words para Java paso a paso.
+### [Cómo insertar un gráfico circular en Word – añadir porcentaje de etiqueta de datos](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Aprenda a insertar un gráfico circular en Word y añadir etiquetas de datos con porcentaje usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

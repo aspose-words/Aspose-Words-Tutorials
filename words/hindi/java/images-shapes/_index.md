@@ -37,6 +37,15 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 ### [जावा में Word दस्तावेज़ बनाएं – आयताकार आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
 
+### [समूहित आकृति के साथ खाली Word दस्तावेज़ बनाना – जावा गाइड](./create-blank-word-document-with-grouped-shape-java-guide/)
+जावा में Aspose.Words का उपयोग करके समूहित आकृति के साथ एक खाली Word दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
+### [जावा में Word दस्तावेज़ बनाएं – Aspose.Words के साथ छवियों को सम्मिलित और छिपाएँ](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aspose.Words for Java का उपयोग करके Word दस्तावेज़ में छवियों को कैसे जोड़ें और उन्हें छिपाएँ, इस ट्यूटोरियल में सीखें।
+
+### [जावा में पाई चार्ट सम्मिलित करें – स्लाइस को विस्फोटित, घुमाएँ और हाइलाइट करें](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aspose.Words for Java का उपयोग करके पाई चार्ट बनाना, स्लाइस को विस्फोटित, घुमाना और हाइलाइट करना सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

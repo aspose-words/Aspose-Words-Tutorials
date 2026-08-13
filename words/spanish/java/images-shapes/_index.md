@@ -37,6 +37,15 @@ Aprenda a generar miniaturas de alta calidad y mapas de bits de tamaño personal
 ### [Crear documento Word en Java – Añadir forma de rectángulo con efecto de sombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Aprenda a crear un documento Word en Java y agregar una forma rectangular con sombra usando Aspose.Words.
 
+### [Crear documento Word en blanco con forma agrupada – Guía Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Aprenda a crear un documento Word vacío y añadir una forma agrupada usando Aspose.Words para Java.
+
+### [Crear documento Word en Java – Insertar y ocultar imágenes con Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Aprenda a insertar imágenes en un documento Word y ocultarlas según sea necesario usando Aspose.Words para Java.
+
+### [Insertar gráfico de pastel en Java – Explotar, rotar y resaltar porciones](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Aprenda a crear un gráfico de pastel en Java, aplicar explosión, rotar y resaltar secciones usando Aspose.Words.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

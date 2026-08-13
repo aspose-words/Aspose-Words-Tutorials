@@ -97,6 +97,9 @@ Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tek
 ### [Tekstbestanden laden met Aspose.Words for Java](./loading-text-files/)
 Ontgrendel de kracht van Aspose.Words for Java. Leer tekstdocumenten te laden, lijsten te beheren, spaties te behandelen en tekstrichting te controleren.
 
+### [Hoe Markdown in Java te laden – Complete gids](./how-to-load-markdown-in-java-complete-guide/)
+Leer hoe je Markdown-bestanden kunt laden in Java met Aspose.Words, inclusief code‑voorbeelden en geavanceerde opties.
+
 ### [Geavanceerde opslaanopties met Aspose.Words for Java](./advance-saving-options/)
 Leer geavanceerde documentmanipulatie met Aspose.Words for Java. Versleutel, behandel metafiles en meer. Jouw Word‑documenten, op jouw manier.
 

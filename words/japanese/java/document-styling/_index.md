@@ -43,6 +43,8 @@ Aspose.Words for Javaを使用してドキュメントテーマをカスタマ�
 Aspose.Words for Javaを使って透かしを適用し、ページ設定を行う方法を学びましょう。ソースコード付きの包括的なガイドです。
 ### [ドキュメントのヘッダーとフッターのスタイル](./document-header-footer-styling/)
 この詳細なガイドでは、Aspose.Words for Java を使用してドキュメントのヘッダーとフッターにスタイルを設定する方法を学びます。ステップバイステップの説明とソースコードが含まれています。
+### [DOCX の脚注間隔を変更する – 完全ガイド](./change-footnote-spacing-in-docx-complete-guide/)
+Aspose.Words for Java を使用して DOCX の脚注間隔を調整する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
