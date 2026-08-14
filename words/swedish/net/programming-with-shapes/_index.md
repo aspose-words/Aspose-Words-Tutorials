@@ -25,6 +25,7 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | Titel | Beskrivning |
 | --- | --- |
 | [Lägg till gruppform](./add-group-shape/) | Lär dig hur du lägger till gruppformer i Word-dokument med Aspose.Words för .NET med den här omfattande steg-för-steg-handledningen. |
+| [Hur man grupperar former i ett Word-dokument med C#](./how-to-group-shapes-in-a-word-document-with-c/) | Lär dig hur du grupperar flera former i ett Word-dokument med C# och Aspose.Words för .NET. |
 | [Infoga form](./insert-shape/) | Lär dig hur du infogar och manipulerar former i Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide. |
 | [Bildförhållande låst](./aspect-ratio-locked/) | Lär dig hur du låser bildförhållandet för former i Word-dokument med Aspose.Words för .NET. Följ den här steg-för-steg-guiden för att hålla dina bilder och former proportionella. |
 | [Layout i cell](./layout-in-cell/) | Lär dig hur du ställer in layouten i celler med Aspose.Words för .NET med den här omfattande guiden. Perfekt för utvecklare som vill anpassa Word-dokument. |
