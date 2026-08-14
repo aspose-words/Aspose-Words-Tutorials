@@ -1,0 +1,7 @@
+Title: Save Word as Markdown – complete guide using Aspose.Words
+Slug: save-word-as-markdown-complete-guide-using-aspose-words
+Category: document-conversion-and-export
+ProcessedDate: 2026-08-14T11:14:33.532481
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, convert word document markdown, export word tables html, export word tables markdown
+PRNumber: 252
