@@ -39,6 +39,8 @@ Apprenez à gérer efficacement les autorisations de vos documents avec Aspose.W
 Apprenez à chiffrer et déchiffrer des documents avec Aspose.Words pour Java. Sécurisez efficacement vos données grâce à des instructions étape par étape et des exemples de code source.
 ### [Signatures numériques dans les documents](./digital-signatures-in-documents/)
 Apprenez à implémenter des signatures numériques sécurisées dans vos documents avec Aspose.Words pour Java. Assurez l'intégrité de vos documents grâce à des instructions détaillées et au code source.
+### [Comment signer des fichiers docx avec un certificat PFX – guide étape par étape](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Apprenez à signer des fichiers docx à l'aide d'un certificat PFX grâce à un guide détaillé pas à pas avec Aspose.Words pour Java.
 ### [Rédaction de documents et protection des données](./document-redaction-data-protection/)
 Apprenez à sécuriser vos documents et à supprimer les données sensibles avec Aspose.Words pour Java. Guide étape par étape avec code source.
 

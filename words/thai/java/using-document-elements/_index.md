@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [วิธีรับตัวคั่นในเอกสาร Word ด้วย Java](./how-to-get-separator-in-word-docs-with-java/)
+เรียนรู้วิธีดึงตัวคั่นจากเอกสาร Word ด้วย Aspose.Words for Java
+### [วิธีเพิ่ม SDT ใน C# – คู่มือฉบับสมบูรณ์สำหรับตัวแทน Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [สร้างแผนภูมิวงกลมใน Word ด้วย Java – คู่มือทีละขั้นตอน](./create-pie-chart-in-word-with-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,9 @@ In conclusion, mastering document element manipulation using Aspose.Words for Ja
 Remember, practice makes perfect, and with Aspose.Words for Java, you'll be creating, modifying, and enhancing documents like a pro in no time. Happy coding!
 
 ## Using Document Elements Tutorials
+### [Create pie chart in Word with Java – step-by-step guide](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Learn how to generate a pie chart in a Word document using Aspose.Words for Java with this step-by-step tutorial.
+
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -72,6 +75,10 @@ Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create i
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+### [how to get separator in Word docs with Java](./how-to-get-separator-in-word-docs-with-java/)
+Learn how to get a separator in Word documents using Aspose.Words for Java. Follow the step-by-step tutorial.
+### [How to add SDT in C# – complete guide for Word placeholders](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Learn how to add Structured Document Tags (SDT) in C# for Word placeholders with a complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

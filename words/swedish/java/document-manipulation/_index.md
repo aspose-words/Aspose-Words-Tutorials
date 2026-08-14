@@ -104,6 +104,8 @@ Lås upp kraften i Aspose.Words för Java. Behärska dokumentalternativ och inst
 Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dokumentegenskaper, lägga till anpassade metadata och mer i den här omfattande handledningen.
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
 Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
+### [Skapa docx ActiveX-knapp i Java – komplett programmeringsguide](./create-docx-activex-button-in-java-complete-programming-guid/)
+Lär dig hur du skapar en ActiveX-knapp i ett DOCX-dokument med Java, steg-för-steg med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

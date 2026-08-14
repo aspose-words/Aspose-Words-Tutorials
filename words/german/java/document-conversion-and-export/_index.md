@@ -104,6 +104,9 @@ Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
 
+### [Word als Markdown speichern – komplette Anleitung mit Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Erfahren Sie, wie Sie Word-Dokumente vollständig als Markdown-Dateien speichern, inklusive Formatierung und Bildern, mit Aspose.Words.
+
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
 

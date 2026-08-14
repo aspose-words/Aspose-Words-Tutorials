@@ -109,6 +109,9 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
 
+### [Uložit Word jako Markdown – kompletní průvodce s Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Naučte se, jak převést dokument Word do formátu Markdown pomocí Aspose.Words v Javě.
+
 ## Často kladené otázky
 
 **Q: Jak přidám vodoznak do existujícího PDF pomocí Aspose.Words?**  

@@ -92,7 +92,7 @@ Tanuld meg, hogyan bonthatod fel a dokumentumokat HTML oldalakra az Aspose.Words
 Dokumentumkészítés mestere az Aspose.Words segítségével Java-ban. Lépésről lépésre útmutató szöveg, táblázatok, képek és egyebek hozzáadásához. Készítsen lenyűgöző Word-dokumentumokat könnyedén.
 ### [Dokumentumok klónozása és kombinálása Aspose.Words programban Java-ban](./cloning-and-combining-documents/)
 Tanuld meg, hogyan klónozhatsz és kombinálhatsz dokumentumokat az Aspose.Words for Java programban. Lépésről lépésre útmutató forráskód példákkal.
-### [Dokumentumok összehasonlítása az Aspose.Words for Java programban](./comparing-documents/)
+### [Dokumentumok összehasonlítása az Aspose.Words for Java programban](./compare-documents/)
 Tanuld meg, hogyan hasonlíthatod össze a dokumentumokat az Aspose.Words for Java programban, amely egy hatékony Java könyvtár a hatékony dokumentumelemzéshez. 
 ### [Dokumentumok formázása az Aspose.Words Java-ban](./formatting-documents/)
 Tanuld meg a dokumentumok formázásának művészetét az Aspose.Words for Java programban átfogó útmutatónkkal. Fedezz fel hatékony funkciókat, és fejleszd dokumentumfeldolgozási készségeidet.
@@ -104,6 +104,7 @@ Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállításo
 Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. Tanulja meg, hogyan kell dolgozni a dokumentumok tulajdonságaival, hogyan adhat hozzá egyéni metaadatokat és sok mást ebben az átfogó oktatóanyagban.
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
 Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
+### [Docx ActiveX gomb létrehozása Java-ban – teljes programozási útmutató](./create-docx-activex-button-in-java-complete-programming-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

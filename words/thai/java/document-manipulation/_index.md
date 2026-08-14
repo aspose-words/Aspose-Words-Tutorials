@@ -104,6 +104,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
 ### [การใช้ส่วนขยายเว็บใน Aspose.Words สำหรับ Java](./using-web-extensions/)
 ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
+### [สร้างปุ่ม ActiveX ใน docx ด้วย Java – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-docx-activex-button-in-java-complete-programming-guid/)
+เรียนรู้วิธีสร้างปุ่ม ActiveX ในไฟล์ docx ด้วย Java พร้อมตัวอย่างโค้ดเต็มขั้น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

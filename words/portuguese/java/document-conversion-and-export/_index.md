@@ -104,6 +104,9 @@ Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspo
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
 
+### [Salvar Word como Markdown – guia completo usando Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aprenda a converter documentos Word para Markdown de forma completa usando Aspose.Words para Java.
+
 ## Perguntas Frequentes
 
 **Q: Como adiciono uma marca d'água a um PDF existente usando Aspose.Words?**  

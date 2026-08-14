@@ -88,6 +88,9 @@ weight: 14
 ### [导出文档为 PDF](./exporting-documents-to-pdf/)
 学习如何使用 Aspose.Words for Java 将文档导出为 PDF。本分步指南简化了无缝文档转换的过程。
 
+### [在 Java 中将 docx 转换为 PDF – 步骤指南](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Words for Java 将 docx 文件一步步转换为 PDF，包含代码示例和最佳实践。
+
 ### [将文档转换为不同格式](./converting-documents-different-formats/)
 了解如何使用 Aspose.Words for Java 将文档转换为多种格式。高效的分步指南助您实现文档转换。
 
@@ -99,6 +102,9 @@ weight: 14
 
 ### [将文档转换为图像](./converting-documents-images/)
 了解如何使用 Aspose.Words for Java 将 Word 文档转换为图像。分步指南，附带代码示例和常见问题解答。
+
+### [在 Java 中将 Markdown 转换为 DOCX – 步骤指南](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Words for Java 将 Markdown 文件转换为 DOCX 文档。
 
 ## 常见问题
 

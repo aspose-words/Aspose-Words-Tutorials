@@ -105,6 +105,9 @@ Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tu
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
 Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
 
+### [Vytvoření ActiveX tlačítka v DOCX v Javě – kompletní programovací průvodce](./create-docx-activex-button-in-java-complete-programming-guid/)
+Kompletní průvodce vytvořením ActiveX tlačítka v souboru DOCX pomocí Aspose.Words pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
