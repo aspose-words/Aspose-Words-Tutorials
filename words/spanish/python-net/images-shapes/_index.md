@@ -31,6 +31,9 @@ Aprenda a analizar tipos de medios, cifrar archivos y validar firmas digitales c
 ### [Cómo agregar sombra en C# – Guía completa de programación](./how-to-add-shadow-in-c-complete-programming-guide/)
 Aprenda a aplicar sombras a objetos en documentos con Aspose.Words y C# paso a paso.
 
+### [Agregar rectángulo a PDF con Aspose.Words – Guía paso a paso](./add-rectangle-to-pdf-with-aspose-words-step-by-step-guide/)
+Aprenda a insertar un rectángulo en documentos PDF usando Aspose.Words con una guía detallada paso a paso.
+
     ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words para Python. Guarde las imágenes en formato WMF y garantice la compatibilidad con lectores antiguos.
 
