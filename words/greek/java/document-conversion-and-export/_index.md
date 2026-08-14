@@ -91,6 +91,9 @@ weight: 22
 ### [Μετατροπή docx σε markdown – Εξαγωγή μαθηματικών εξισώσεων σε LaTeX με Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε Markdown και να εξάγετε εξισώσεις Math σε LaTeX χρησιμοποιώντας το Aspose.Words.
 
+### [Αποθήκευση Word ως Markdown – πλήρης οδηγός με χρήση Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε μορφή Markdown με το Aspose.Words.
+
 ### [Πώς να ενσωματώσετε εικόνες σε Markdown κατά τη μετατροπή DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Μάθετε πώς να ενσωματώσετε εικόνες σε αρχεία Markdown όταν μετατρέπετε DOCX με Aspose.Words for Java.
 

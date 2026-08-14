@@ -43,6 +43,8 @@ Aspose.Words for Java를 사용하면 동적 문서를 즉시 생성할 수 있�
 연습하면 완벽해진다는 것을 기억하세요. Aspose.Words for Java를 사용하면 순식간에 전문가처럼 문서를 만들고, 수정하고, 향상시킬 수 있습니다. 즐거운 코딩 되세요!
 
 ## 문서 요소 사용 튜토리얼
+### [Java로 Word 문서에서 구분 기호 가져오기](./how-to-get-separator-in-word-docs-with-java/)
+Java를 사용해 Word 문서에서 구분 기호를 추출하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 주석 사용](./using-comments/)
 Aspose.Words for Java에서 주석을 사용하는 방법을 알아보세요. 문서에 주석을 추가하고 사용자 지정하는 방법을 단계별로 안내합니다.
 ### [Java용 Aspose.Words에서 필드 사용](./using-fields/)
@@ -71,6 +73,10 @@ Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방�
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
 Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 가이드입니다. 코드 예제를 통해 섹션을 추가, 삭제, 추가, 복제할 수 있습니다.
+### [C#에서 SDT 추가 – Word 자리표시자를 위한 완전 가이드](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Word 문서의 자리표시자를 관리하기 위해 SDT(구조화된 문서 태그)를 추가하는 방법을 단계별로 안내합니다.
+### [Java로 Word에서 파이 차트 만들기 – 단계별 가이드](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java를 사용해 Word 문서에 파이 차트를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

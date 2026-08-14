@@ -41,6 +41,8 @@
 学习如何使用 Aspose.Words for Java 在文档中实现安全的数字签名。通过分步指导和源代码确保文档的完整性。
 ### [文档编辑和数据保护](./document-redaction-data-protection/)
 了解如何使用 Aspose.Words for Java 保护您的文档并编辑敏感数据。提供包含源代码的分步指南。
+### [使用 PFX 证书对 docx 文件进行签名 – 分步指南](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+使用 PFX 证书对 docx 文件进行签名的分步指南，确保文档完整性和安全性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

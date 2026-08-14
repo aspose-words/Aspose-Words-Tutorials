@@ -41,6 +41,8 @@ Dowiedz się, jak szyfrować i odszyfrowywać dokumenty za pomocą Aspose.Words 
 Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą Aspose.Words for Java. Zapewnij integralność dokumentu dzięki wskazówkom krok po kroku i kodowi źródłowemu
 ### [Redakcja dokumentów i ochrona danych](./document-redaction-data-protection/)
 Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
+### [Jak podpisać pliki docx certyfikatem PFX – przewodnik krok po kroku](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Dowiedz się, jak podpisać pliki docx przy użyciu certyfikatu PFX, krok po kroku, z przykładami kodu w Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

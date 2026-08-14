@@ -31,11 +31,17 @@ dokumentumfeldolgozás területén a képek és alakzatok integrálása kulcsfon
 ### [Egyéni oldal és kép mentése Java-ban Aspose.Words visszahívásokkal](./aspose-words-java-callback-custom-savings/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
+### [Csoportos alakzatok Word-ben – teljes programozási útmutató](./group-shapes-in-word-complete-programming-guide/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat Word dokumentumokban Java-val.
+
 ### [Hogyan jelenítsünk meg dokumentumoldalakat bélyegképként az Aspose.Words for Java használatával?](./render-word-pages-thumbnails-aspose-java/)
 Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi méretű bitképeket Word-dokumentumokból az Aspose.Words for Java segítségével. Fejlessze dokumentumkezelési képességeit még ma!
 
 ### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+
+### [Kép elrejtése Word-ben – lépésről lépésre Java útmutató az Aspose-szal](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Tanulja meg, hogyan rejthet el képeket a Word dokumentumokban Java és Aspose segítségével.
 
 ## További források
 

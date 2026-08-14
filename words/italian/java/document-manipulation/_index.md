@@ -104,6 +104,8 @@ Sfrutta la potenza di Aspose.Words per Java. Gestisci le opzioni e le impostazio
 Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo.
 ### [Utilizzo delle estensioni Web in Aspose.Words per Java](./using-web-extensions/)
 Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web. 
+### [Creare pulsante ActiveX in docx con Java – guida completa di programmazione](./create-docx-activex-button-in-java-complete-programming-guid/)
+Impara a inserire un pulsante ActiveX in un documento DOCX usando Aspose.Words per Java con esempi di codice passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

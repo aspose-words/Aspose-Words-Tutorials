@@ -37,6 +37,12 @@ Apprenez à générer des miniatures de haute qualité et des bitmaps de taille 
 ### [Créer un document Word Java – Ajouter une forme rectangle avec effet d'ombre](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Apprenez à insérer une forme rectangle avec ombre dans un document Word en Java à l'aide d'Aspose.Words.
 
+### [Regrouper des formes dans Word – guide complet de programmation](./group-shapes-in-word-complete-programming-guide/)
+Guide complet pour regrouper des formes dans Word avec Aspose.Words pour Java.
+
+### [Masquer une image dans Word – guide Java étape par étape avec Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Apprenez à masquer une image dans un document Word en Java avec Aspose.Words.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

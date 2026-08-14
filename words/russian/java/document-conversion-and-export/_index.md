@@ -114,6 +114,9 @@ weight: 22
 ### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
 Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
 
+### [Сохранить Word в Markdown – полное руководство с использованием Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Пошаговое руководство по сохранению документов Word в формате Markdown с помощью Aspose.Words.
+
 ## Часто задаваемые вопросы
 
 **Q: Как добавить водяной знак в существующий PDF с помощью Aspose.Words?**  

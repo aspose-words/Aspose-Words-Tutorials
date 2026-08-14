@@ -43,6 +43,10 @@ Závěrem lze říci, že zvládnutí manipulace s prvky dokumentů pomocí Aspo
 Pamatujte, že praxe dělá mistra, a s Aspose.Words pro Javu budete vytvářet, upravovat a vylepšovat dokumenty jako profesionál raz dva. Přejeme vám šťastné programování!
 
 ## Výukové programy k prvkům dokumentu
+### [Jak přidat SDT v C# – kompletní průvodce pro zástupce Wordu](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Naučte se, jak pomocí Aspose.Words pro C# vytvořit a spravovat SDT (Content Controls) jako zástupce v dokumentech Word.
+### [Jak získat oddělovač ve Word dokumentech pomocí Javy](./how-to-get-separator-in-word-docs-with-java/)
+Naučte se, jak v Aspose.Words pro Javu získat a použít oddělovač v dokumentech Word.
 ### [Používání komentářů v Aspose.Words pro Javu](./using-comments/)
 Naučte se, jak používat komentáře v Aspose.Words pro Javu. Podrobný návod pro přidávání a úpravu komentářů v dokumentech.
 ### [Používání polí v Aspose.Words pro Javu](./using-fields/)
@@ -71,6 +75,8 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Vytvoření koláčového grafu ve Wordu pomocí Javy – krok za krokem](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit koláčový graf ve Word dokumentu krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

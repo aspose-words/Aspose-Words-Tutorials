@@ -65,12 +65,18 @@ Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Listen in Aspose.Words für
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words für Java zu verwenden. Erstellen, formatieren und speichern Sie mühelos Markdown-Dokumente.
 ### [Verwenden von Knoten in Aspose.Words für Java](./using-nodes/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für Java zu manipulieren. Entfesseln Sie die Leistung der Dokumentverarbeitung.
+### [Erstellen eines Kreisdiagramms in Word mit Java – Schritt-für-Schritt-Anleitung](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und formatieren.
 ### [Verwenden von OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java](./using-ole-objects-and-activex/)
 Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!
 ### [Verwenden von Revisionen in Aspose.Words für Java](./using-revisions/)
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
+### [Wie man SDT in C# hinzufügt – vollständige Anleitung für Word-Platzhalter](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Erfahren Sie, wie Sie Inhaltssteuerelemente (SDT) in C# hinzufügen und Word-Platzhalter effektiv nutzen.
+### [Trennzeichen in Word-Dokumenten mit Java abrufen](./how-to-get-separator-in-word-docs-with-java/)
+Erfahren Sie, wie Sie Trennzeichen in Word-Dokumenten mit Aspose.Words für Java extrahieren und verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

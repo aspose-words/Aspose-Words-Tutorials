@@ -110,6 +110,9 @@ weight: 22
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
 
+### [حفظ Word كـ Markdown – دليل شامل باستخدام Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+تعلم كيفية حفظ مستندات Word بصيغة Markdown باستخدام Aspose.Words خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

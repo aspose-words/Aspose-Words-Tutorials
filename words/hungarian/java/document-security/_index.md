@@ -39,6 +39,8 @@ Tanulja meg, hogyan kezelheti hatékonyan a dokumentumok jogosultságait az Aspo
 Tanuld meg, hogyan titkosíthatod és dekódolhatod a dokumentumokat az Aspose.Words for Java segítségével. Biztosítsd adataid hatékony védelmét lépésről lépésre útmutatóval és forráskód példákkal.
 ### [Digitális aláírások dokumentumokban](./digital-signatures-in-documents/)
 Tanulja meg, hogyan valósíthat meg biztonságos digitális aláírásokat dokumentumokban az Aspose.Words for Java használatával. Biztosítsa a dokumentumok integritását lépésről lépésre szóló útmutatással és forráskóddal.
+### [Hogyan írjon alá docx fájlokat PFX tanúsítvánnyal – lépésről‑lépésre útmutató](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Tanulja meg, hogyan használhat PFX tanúsítványt docx fájlok digitális aláírásához lépésről‑lépésre útmutatóval és forráskóddal.
 ### [Dokumentumszerkesztés és adatvédelem](./document-redaction-data-protection/)
 Ismerje meg, hogyan teheti biztonságossá dokumentumait és hogyan takarhatja ki bizalmas adatait az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 

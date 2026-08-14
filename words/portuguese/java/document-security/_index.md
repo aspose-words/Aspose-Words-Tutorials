@@ -41,6 +41,8 @@ Aprenda a criptografar e descriptografar documentos com o Aspose.Words para Java
 Aprenda a implementar assinaturas digitais seguras em documentos usando o Aspose.Words para Java. Garanta a integridade dos documentos com orientações passo a passo e código-fonte.
 ### [Redação de documentos e proteção de dados](./document-redaction-data-protection/)
 Aprenda a proteger seus documentos e redigir dados confidenciais usando o Aspose.Words para Java. Guia passo a passo com código-fonte.
+### [Como assinar arquivos docx com um certificado PFX – guia passo a passo](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Aprenda a assinar arquivos docx usando um certificado PFX com instruções detalhadas e código de exemplo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

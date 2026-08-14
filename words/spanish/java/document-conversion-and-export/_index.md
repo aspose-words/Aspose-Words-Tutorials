@@ -119,6 +119,9 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
 
+### [Guardar Word como Markdown – guía completa usando Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Guía paso a paso para guardar documentos Word en formato Markdown con Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

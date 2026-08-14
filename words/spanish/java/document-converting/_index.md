@@ -82,6 +82,9 @@ Aproveche `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new 
 
 ## Tutoriales de conversión de documentos
 
+### [Convertir docx a pdf en Java – guía paso a paso](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Aprenda a convertir archivos DOCX a PDF en Java con Aspose.Words mediante una guía paso a paso y ejemplos de código.
+
 ### [Using Document Converting Feature](./using-document-converting/)
 Aprenda a convertir documentos de manera eficiente con Aspose.Words para Java. Convierta, combine y procese archivos sin problemas. Simplifique su flujo de trabajo con una biblioteca poderosa.
 
@@ -100,22 +103,8 @@ Convierta DOCX a EPUB de manera eficiente usando Aspose.Words para Java. Aprenda
 ### [Converting Documents to Images](./converting-documents-images/)
 Aprenda a convertir documentos Word a imágenes usando Aspose.Words para Java. Guía paso‑a‑paso, completa con ejemplos de código y preguntas frecuentes.
 
-## Preguntas frecuentes
-
-**P:** *¿Puedo convertir archivos Word protegidos con contraseña a PDF?*  
-**R:** Sí. Cargue el documento con la contraseña (`LoadOptions`) y luego guárdelo como PDF.
-
-**P:** *¿Cuál es la mejor manera de combinar varios archivos DOCX antes de convertir a PDF?*  
-**R:** Use `Document.appendDocument()` con `ImportFormatMode.KEEP_SOURCE_FORMATTING` para combinarlos, luego llame a `save` una sola vez.
-
-**P:** *¿Aspose.Words admite convertir Word a HTML y luego volver a Word sin perder formato?*  
-**R:** En general, sí. Pueden aparecer pequeñas diferencias debido a las limitaciones de estilo de HTML, pero la mayor parte del contenido se conserva.
-
-**P:** *¿Cómo aseguro que el PDF generado cumpla con los estándares PDF/A?*  
-**R:** Establezca `PdfSaveOptions.setCompliance(PPdfCompliance.PDF_A_1B)` antes de guardar.
-
-**P:** *¿Existe un límite en el tamaño de los documentos que puedo convertir?*  
-**R:** No hay un límite estricto, pero los archivos muy grandes pueden requerir más memoria; considere el streaming o el procesamiento por fragmentos para cargas de trabajo masivas.
+### [Convertir markdown a docx en Java – guía paso a paso](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Aprenda a convertir archivos markdown a documentos DOCX en Java usando Aspose.Words, con ejemplos claros y opciones de formato.
 
 ---
 

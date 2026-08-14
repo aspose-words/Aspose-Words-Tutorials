@@ -71,6 +71,12 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Hoe SDT toe te voegen in C# – volledige gids voor Word-plaatsaanduidingen](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Leer hoe u SDT-plaatsaanduidingen in C# toevoegt voor dynamische Word-documenten.
+### [Scheidingsteken krijgen in Word-documenten met Java](./how-to-get-separator-in-word-docs-with-java/)
+Leer hoe u scheidingstekens kunt ophalen in Word-documenten met Aspose.Words voor Java.
+### [Cirkeldiagram maken in Word met Java – stapsgewijze handleiding](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Leer hoe u een cirkeldiagram in een Word-document maakt met Java, stap voor stap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

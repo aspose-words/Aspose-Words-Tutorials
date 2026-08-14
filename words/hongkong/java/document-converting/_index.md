@@ -88,6 +88,9 @@ Learn efficient document converting with Aspose.Words for Java. Convert, merge, 
 ### [將文件匯出為 PDF](./exporting-documents-to-pdf/)
 Learn how to export documents to PDF using Aspose.Words for Java. This step-by-step guide simplifies the process for seamless document conversion.
 
+### [在 Java 中將 docx 轉換為 PDF – 步驟指南](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+一步一步說明如何使用 Aspose.Words for Java 將 DOCX 檔案轉換為 PDF，包含程式碼範例與最佳實踐。
+
 ### [將文件轉換為不同格式](./converting-documents-different-formats/)
 Learn how to convert documents to different formats using Aspose.Words for Java. Step-by-step guide for efficient document conversion.
 
@@ -99,6 +102,9 @@ Efficiently convert DOCX to EPUB using Aspose.Words for Java. Learn how to custo
 
 ### [將文件轉換為圖像](./converting-documents-images/)
 Learn how to convert Word documents to images using Aspose.Words for Java. Step-by-step guide, complete with code examples and FAQs.
+
+### [在 Java 中將 Markdown 轉換為 DOCX – 步驟指南](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Words for Java 將 Markdown 檔案轉換為 DOCX，提供完整步驟與範例程式碼。
 
 ## Frequently Asked Questions
 

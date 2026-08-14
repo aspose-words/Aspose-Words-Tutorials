@@ -71,6 +71,12 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Cara Mendapatkan Separator di Dokumen Word dengan Java](./how-to-get-separator-in-word-docs-with-java/)
+Pelajari cara mendapatkan separator di dokumen Word menggunakan Java.
+### [Cara menambahkan SDT di C# – panduan lengkap untuk placeholder Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Pelajari cara menambahkan SDT di C# untuk placeholder Word dengan panduan lengkap langkah demi langkah.
+### [Membuat diagram pai di Word dengan Java – panduan langkah demi langkah](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Pelajari cara membuat diagram pai di dokumen Word menggunakan Aspose.Words untuk Java dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

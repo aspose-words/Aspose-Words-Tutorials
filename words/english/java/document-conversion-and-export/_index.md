@@ -102,6 +102,9 @@ Learn how to embed images from DOCX files into Markdown during conversion using 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
 
+### [Save Word as Markdown – complete guide using Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Learn how to convert Word documents to Markdown format using Aspose.Words for Java, with step‑by‑step code examples.
+
 ## Frequently Asked Questions
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
