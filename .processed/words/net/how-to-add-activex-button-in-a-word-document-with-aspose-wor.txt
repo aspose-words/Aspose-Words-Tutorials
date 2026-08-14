@@ -1,0 +1,7 @@
+Title: How to add ActiveX button in a Word document with Aspose.Words
+Slug: how-to-add-activex-button-in-a-word-document-with-aspose-wor
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-08-14T10:21:43.761353
+SourceRepo: AI Search API
+Keywords: how to add activex, insert activex button, create empty word document, create word document aspose
+PRNumber: 251
