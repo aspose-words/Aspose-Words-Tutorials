@@ -17,7 +17,7 @@
 
 ## Introduktion
 
-När det gäller dokumenthantering är Aspose.Words för .NET ett kraftpaket som kan ta ditt arbete till nästa nivå. Men var börjar man? Låt mig försäkra dig om att det är superenkelt att navigera i dessa handledningar, även om du inte är en tekniker. Oavsett om du vill sammanfatta dokument, förbättra formatering eller automatisera uppgifter, erbjuder våra handledningslistor steg-för-steg-guider skräddarsydda just för dig.
+När det gäller dokumenthantering är Aspose.Words för .NET ett kraftpaket som kan ta ditt arbete till nästa nivå. Men var börjar man? Låt mig försäkra dig om att det är superenkelt att navigera i dessa handledningar, även om du inte är tekniker. Oavsett om du vill sammanfatta dokument, förbättra formatering eller automatisera uppgifter, erbjuder våra handledningslistor steg-för-steg-guider skräddarsydda just för dig.
 
 ## Komma igång med AI-modeller
 
@@ -42,6 +42,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Arbeta med Googles AI-modell](./working-with-google-ai-model/) Förbättra din dokumenthantering med Aspose.Words för .NET och Google AI för att enkelt skapa koncisa sammanfattningar. |
 | [Arbeta med öppen AI-modell](./working-with-open-ai-model/) | Lås upp effektiv dokumentsammanfattning med Aspose.Words för .NET och OpenAI:s kraftfulla modeller. Fördjupa dig i den här omfattande guiden nu. |
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
+| [Sammanfatta Word-dokument i C# – steg‑för‑steg guide med AI](./summarize-word-document-in-c-step-by-step-guide-using-ai/) | Lär dig att med AI skapa korta sammanfattningar av Word-dokument i C# med en tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

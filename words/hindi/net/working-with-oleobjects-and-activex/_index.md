@@ -28,7 +28,7 @@ OLE और ActiveX ऑब्जेक्ट के साथ वर्ड प्
 | [वर्ड डॉक्यूमेंट में पुराने ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon/) | .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों में आइकन के रूप में OLE ऑब्जेक्ट सम्मिलित करना सीखें। अपने दस्तावेज़ों को बेहतर बनाने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [स्ट्रीम का उपयोग करके ओले ऑब्जेक्ट को आइकन के रूप में डालें](./insert-ole-object-as-icon-using-stream/) | इस विस्तृत, चरण-दर-चरण ट्यूटोरियल में Aspose.Words for .NET के साथ स्ट्रीम का उपयोग करके एक OLE ऑब्जेक्ट को आइकन के रूप में सम्मिलित करना सीखें। |
 | [वर्ड फ़ाइल से Active XControl गुण पढ़ें](./read-active-xcontrol-properties/) | चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइलों से ActiveX नियंत्रण गुणों को पढ़ना सीखें। अपने दस्तावेज़ स्वचालन कौशल को बढ़ाएँ। |
-
+| [Aspose.Words के साथ Word दस्तावेज़ में ActiveX बटन कैसे जोड़ें](./how-to-add-activex-button-in-a-word-document-with-aspose-wor/) | Aspose.Words का उपयोग करके Word दस्तावेज़ में ActiveX बटन जोड़ने की चरण-दर-चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
