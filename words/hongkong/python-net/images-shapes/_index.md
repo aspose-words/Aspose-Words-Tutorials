@@ -37,6 +37,9 @@ Aspose.Words Python-net 教程中的「圖像和形狀」類別旨在幫助開�
     ### [如何在 C# 中添加陰影 – 完整程式設計指南](./how-to-add-shadow-in-c-complete-programming-guide/)
 了解如何使用 C# 為圖形或文字添加陰影效果，提升文件視覺效果的完整教學。
 
+    ### [如何使用 Python 為 Word 形狀添加陰影](./how-to-add-shadow-to-a-word-shape-using-python/)
+了解如何在 Word 文件中使用 Aspose.Words for Python 為形狀添加陰影效果，提升文件視覺吸引力。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)

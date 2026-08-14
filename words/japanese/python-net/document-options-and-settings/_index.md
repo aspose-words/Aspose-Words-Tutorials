@@ -43,12 +43,21 @@ Aspose.Wordsチュートリアルの世界へようこそ。ここでは、ド�
 ## ドキュメントのオプションと設定のチュートリアル
 ### [ドキュメントの結合と追加に関する高度なテクニック](./join-append-documents/)
 PythonでAspose.Wordsを使用してドキュメントを結合および追加するための高度なテクニックを学びます。コード例付きのステップバイステップガイドです。
+
 ### [効率化のためのドキュメントオプションと設定の微調整](./manage-document-options-settings/)
 Aspose.Words for Pythonを使ってWord文書を効率的に操作する方法を学びましょう。ソースコード付きのステップバイステップガイドです。
+
 ### [ドキュメントプロパティとメタデータ管理](./document-properties-metadata/)
 Aspose.Words for Python を使用してドキュメントのプロパティとメタデータを管理する方法を学びます。ソースコード付きのステップバイステップガイドです。
+
 ### [Web拡張機能によるドキュメント機能の拡張](./document-functionality-web-extensions/)
 Aspose.Words for Python を使って、Web 拡張機能でドキュメント機能を拡張する方法を学びましょう。シームレスな統合を実現するソースコード付きのステップバイステップガイドです。
+
+### [Pythonでdocxファイルを復元する方法 – ステップバイステップガイド](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+PythonとAspose.Wordsを使用して、破損したdocxファイルを復元する手順を解説します。コード例付きのステップバイステップガイドです。
+
+### [PythonでMarkdownSaveOptionsをLaTeX用に構成する – Aspose.Words ガイド](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+PythonでAspose.Wordsを使用し、LaTeX形式で保存するためのMarkdownSaveOptions設定方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

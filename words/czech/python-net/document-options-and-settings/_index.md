@@ -49,6 +49,10 @@ Naučte se, jak efektivně manipulovat s dokumenty Wordu pomocí Aspose.Words pr
 Naučte se, jak spravovat vlastnosti a metadata dokumentů pomocí Aspose.Words pro Python. Podrobný návod se zdrojovým kódem.
 ### [Rozšíření funkcí dokumentů pomocí webových rozšíření](./document-functionality-web-extensions/)
 Naučte se, jak rozšířit funkcionalitu dokumentů pomocí webových rozšíření pomocí Aspose.Words pro Python. Podrobný návod se zdrojovým kódem pro bezproblémovou integraci.
+### [Jak obnovit soubory DOCX v Pythonu – krok za krokem](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Naučte se, jak obnovit poškozené soubory DOCX v Pythonu pomocí Aspose.Words.
+### [Konfigurace MarkdownSaveOptions pro LaTeX v Pythonu – průvodce Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Naučte se nastavit MarkdownSaveOptions pro export do LaTeXu v Pythonu pomocí Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

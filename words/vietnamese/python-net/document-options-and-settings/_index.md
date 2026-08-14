@@ -49,6 +49,10 @@ Tìm hiểu cách thao tác hiệu quả các tài liệu Word bằng Aspose.Wor
 Tìm hiểu cách quản lý thuộc tính tài liệu và siêu dữ liệu bằng Aspose.Words cho Python. Hướng dẫn từng bước có mã nguồn.
 ### [Mở rộng chức năng tài liệu bằng tiện ích mở rộng web](./document-functionality-web-extensions/)
 Tìm hiểu cách mở rộng chức năng tài liệu bằng tiện ích mở rộng web bằng Aspose.Words cho Python. Hướng dẫn từng bước với mã nguồn để tích hợp liền mạch.
+### [Cách khôi phục tệp docx trong Python – hướng dẫn từng bước](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Hướng dẫn chi tiết cách khôi phục các tệp docx trong Python bằng các bước cụ thể.
+### [Cấu hình MarkdownSaveOptions cho LaTeX trong Python – Hướng dẫn Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Hướng dẫn cách cấu hình MarkdownSaveOptions để xuất tài liệu LaTeX bằng Python với Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

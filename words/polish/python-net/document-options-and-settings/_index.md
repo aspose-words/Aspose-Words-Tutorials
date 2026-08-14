@@ -49,6 +49,10 @@ Dowiedz się, jak skutecznie manipulować dokumentami Worda za pomocą Aspose.Wo
 Dowiedz się, jak zarządzać właściwościami dokumentu i metadanymi za pomocą Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym.
 ### [Rozszerzanie funkcjonalności dokumentu za pomocą rozszerzeń internetowych](./document-functionality-web-extensions/)
 Dowiedz się, jak rozszerzyć funkcjonalność dokumentu za pomocą rozszerzeń internetowych przy użyciu Aspose.Words dla Pythona. Przewodnik krok po kroku z kodem źródłowym dla bezproblemowej integracji.
+### [Jak odzyskać pliki docx w Pythonie – przewodnik krok po kroku](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Dowiedz się, jak przywrócić uszkodzone pliki docx w Pythonie, korzystając z Aspose.Words. Praktyczny przewodnik krok po kroku.
+### [Konfiguracja MarkdownSaveOptions dla LaTeX w Pythonie – przewodnik Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Skonfiguruj opcje MarkdownSaveOptions dla LaTeX w Pythonie przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

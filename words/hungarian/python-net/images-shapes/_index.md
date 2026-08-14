@@ -37,6 +37,9 @@ Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python
 ### [Hogyan adjunk árnyékot C#-ban – Teljes programozási útmutató](./how-to-add-shadow-in-c-complete-programming-guide/)
 Ismerd meg, hogyan alkalmazhatsz árnyékhatást C#-ban az Aspose.Words segítségével, lépésről lépésre útmutató.
 
+### [Hogyan adjunk árnyékot egy Word alakzathoz Python használatával](./how-to-add-shadow-to-a-word-shape-using-python/)
+Tanuld meg, hogyan adhatsz árnyékot egy Word alakzathoz Python és Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

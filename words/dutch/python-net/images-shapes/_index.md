@@ -37,6 +37,9 @@ Leer hoe je SVG-uitvoer optimaliseert met Aspose.Words voor Python. Deze handlei
 ### [Hoe schaduw toe te voegen in C# – Complete programmeergids](./how-to-add-shadow-in-c-complete-programming-guide/)
 Leer hoe u schaduweffecten aan tekst of vormen toevoegt in C# met Aspose.Words.
 
+### [Hoe schaduw toe te voegen aan een Word-vorm met Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Leer hoe u schaduw toevoegt aan een Word-vorm met Python en Aspose.Words.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)
