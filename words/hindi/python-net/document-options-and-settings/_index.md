@@ -49,6 +49,10 @@ Aspose.Words ट्यूटोरियल की दुनिया में 
 पायथन के लिए Aspose.Words का उपयोग करके दस्तावेज़ गुण और मेटाडेटा को प्रबंधित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता का विस्तार करना](./document-functionality-web-extensions/)
 पायथन के लिए Aspose.Words का उपयोग करके वेब एक्सटेंशन के साथ दस्तावेज़ कार्यक्षमता को विस्तारित करना सीखें। सहज एकीकरण के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+### [Python में docx फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Python में खोई हुई या क्षतिग्रस्त docx फ़ाइलों को पुनर्स्थापित करने के चरण‑दर‑चरण निर्देश।
+### [Python में LaTeX के लिए MarkdownSaveOptions कॉन्फ़िगर करें – Aspose.Words गाइड](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Python में LaTeX आउटपुट के लिए MarkdownSaveOptions सेट करने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

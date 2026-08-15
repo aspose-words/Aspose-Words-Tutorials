@@ -49,6 +49,10 @@
 Μάθετε πώς να διαχειρίζεστε ιδιότητες και μεταδεδομένα εγγράφων χρησιμοποιώντας το Aspose.Words για Python. Οδηγός βήμα προς βήμα με πηγαίο κώδικα.
 ### [Επέκταση λειτουργικότητας εγγράφων με επεκτάσεις ιστού](./document-functionality-web-extensions/)
 Μάθετε πώς να επεκτείνετε τη λειτουργικότητα εγγράφων με επεκτάσεις ιστού χρησιμοποιώντας το Aspose.Words για Python. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για απρόσκοπτη ενσωμάτωση.
+### [Πώς να ανακτήσετε αρχεία docx σε Python – οδηγός βήμα‑βήμα](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Μάθετε πώς να ανακτήσετε αρχεία docx σε Python με οδηγίες βήμα‑βήμα.
+### [Διαμόρφωση MarkdownSaveOptions για LaTeX σε Python – Οδηγός Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Μάθετε πώς να ρυθμίσετε τις επιλογές αποθήκευσης Markdown για εξαγωγή σε LaTeX χρησιμοποιώντας Aspose.Words σε Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,9 @@ Learn how to optimize image handling in RTF documents with Aspose.Words for Pyth
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Learn how to optimize SVG output using Aspose.Words for Python. This guide covers custom features like image-like properties, text rendering, and security enhancements.
 
+### [How to add shadow to a Word shape using Python](./how-to-add-shadow-to-a-word-shape-using-python/)
+Learn how to apply shadow effects to Word shapes using Aspose.Words for Python-net with step-by-step code examples.
+
 ### [How to Add Shadow in C# – Complete Programming Guide](./how-to-add-shadow-in-c-complete-programming-guide/)
 Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for C# with step-by-step code examples.
 

@@ -37,6 +37,9 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
 ### [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
 
+### [Python का उपयोग करके Word आकृति में शैडो कैसे जोड़ें](./how-to-add-shadow-to-a-word-shape-using-python/)
+Python का उपयोग करके Word आकृति में शैडो जोड़ने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
