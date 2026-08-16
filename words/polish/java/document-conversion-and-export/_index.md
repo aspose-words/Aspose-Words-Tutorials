@@ -102,6 +102,15 @@ Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy u
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
 
+### [Tworzenie pliku zgodnego z PDF/UA‑1 w Javie – kompletny przewodnik](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+Dowiedz się, jak w Javie wygenerować plik PDF/UA‑1 spełniający wymogi dostępności, krok po kroku, z przykładami kodu.
+
+### [Utworzenie dokumentu zgodnego z PDF/UA – kompletny przewodnik Java](./create-pdf-ua-compliant-document-complete-java-guide/)
+Dowiedz się, jak w Javie wygenerować dokument PDF/UA spełniający wymogi dostępności, krok po kroku z przykładami kodu.
+
+### [Zapisz docx jako txt z eksportem równań LaTeX – Kompletny przewodnik Java](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+Dowiedz się, jak zapisać pliki DOCX jako TXT, eksportując równania matematyczne do LaTeX przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q: Jak dodać znak wodny do istniejącego PDF przy użyciu Aspose.Words?**  
