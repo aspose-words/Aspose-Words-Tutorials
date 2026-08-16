@@ -41,6 +41,9 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Zmiana nazw pól scalania słów za pomocą Aspose.Words dla Java](./rename-word-merge-fields-aspose-words-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
+### [Utwórz szablon korespondencji seryjnej i konwertuj DOCX do PDF w C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Dowiedz się, jak stworzyć szablon korespondencji seryjnej i przekształcić dokument DOCX w PDF przy użyciu Aspose.Words w C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

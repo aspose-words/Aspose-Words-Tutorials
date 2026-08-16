@@ -39,6 +39,8 @@ Dowiedz się, jak wzbogacić swoje dokumenty o kształty i grafikę, korzystają
 Odkryj wydajne drukowanie i renderowanie dokumentów za pomocą Aspose.Words dla Java. Ucz się krok po kroku z przykładami kodu źródłowego.
 ### [Renderowanie dokumentów do HTML](./rendering-documents-html/)
 Dowiedz się, jak bez wysiłku renderować dokumenty do HTML za pomocą Aspose.Words dla Java. Przewodnik krok po kroku dotyczący wydajnej konwersji dokumentów.
+### [Rejestracja wywołania zwrotnego ostrzeżenia w Javie – Kompletny przewodnik programistyczny](./register-warning-callback-in-java-complete-programming-guide/)
+Poznaj, jak zarejestrować callback ostrzeżeń w Aspose.Words for Java, aby obsługiwać i logować ostrzeżenia podczas przetwarzania dokumentów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

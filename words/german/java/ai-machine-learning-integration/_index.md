@@ -68,6 +68,9 @@ Exportieren Sie das angereicherte Dokument in das gewünschte Format – PDF, DO
 ### [Meisterhafte Textverarbeitung in Java&#58; Verwendung von Aspose.Words & AI‑Modellen für Zusammenfassung und Übersetzung](./java-aspose-words-text-processing/)
 Erfahren Sie, wie Sie die Textzusammenfassung und -übersetzung mit Aspose.Words für Java und OpenAI‑GPT‑4 sowie Googles Gemini automatisieren können. Verbessern Sie noch heute Ihre Java‑Anwendungen.
 
+### [Grammar Checker in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./build-grammar-checker-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java einen Grammatikprüfer implementieren, der KI‑Modelle nutzt, um Texte zu analysieren und zu korrigieren.
+
 ## Zusätzliche Ressourcen
 
 - [Aspose.Words für Java Dokumentation](https://reference.aspose.com/words/java/)

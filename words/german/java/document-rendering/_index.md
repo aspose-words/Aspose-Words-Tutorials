@@ -39,6 +39,8 @@ Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java mit Formen und G
 Entdecken Sie effizientes Drucken und Rendern von Dokumenten mit Aspose.Words für Java. Lernen Sie Schritt für Schritt mit Quellcodebeispielen.
 ### [Rendern von Dokumenten in HTML](./rendering-documents-html/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java mühelos Dokumente in HTML rendern. Schritt-für-Schritt-Anleitung zur effizienten Dokumentkonvertierung.
+### [Warnungs-Callback in Java registrieren – Vollständiger Programmierleitfaden](./register-warning-callback-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie in Aspose.Words für Java Warnungs-Callbacks registrieren, um Warnungen während der Verarbeitung zu behandeln.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

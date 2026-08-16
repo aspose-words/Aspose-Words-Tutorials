@@ -33,13 +33,16 @@ La catégorie « Publipostage et reporting » de nos tutoriels Java Aspose.Wor
 Apprenez à automatiser la signature de documents avec Aspose.Words pour Java. Ce tutoriel couvre la configuration de votre environnement, la création de données de test, l'ajout de lignes de signature et la signature numérique des documents.
 
 ### [Publipostage en Java avec données personnalisées avec Aspose.Words : guide complet](./aspose-words-java-custom-mail-merge/)
-Découvrez comment effectuer des fusions de courrier à l'aide de sources de données personnalisées en Java avec Aspose.Words, y compris les meilleures pratiques et les applications pratiques.
+Découvrez comment effectuer des fusions de courrier à l'aide de sources de données personnalisées en Java avec Aspose.Words, incluant les meilleures pratiques et les applications pratiques.
 
 ### [Maîtrisez le publipostage avec HTML et images grâce à Aspose.Words pour Java](./master-mail-merge-html-images-aspose-words-java/)
 Un tutoriel de code pour Aspose.Words Java
 
 ### [Renommer les champs de fusion de mots avec Aspose.Words pour Java](./rename-word-merge-fields-aspose-words-java/)
 Un tutoriel de code pour Aspose.Words Java
+
+### [Créer un modèle de publipostage et convertir DOCX en PDF en C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Apprenez à créer un modèle de publipostage, puis à convertir un fichier DOCX en PDF en utilisant Aspose.Words pour C#.
 
 ## Ressources supplémentaires
 

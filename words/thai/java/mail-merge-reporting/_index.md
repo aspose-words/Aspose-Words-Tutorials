@@ -41,6 +41,9 @@
 ### [เปลี่ยนชื่อฟิลด์ผสานคำด้วย Aspose.Words สำหรับ Java](./rename-word-merge-fields-aspose-words-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
+### [สร้างเทมเพลตการผสานจดหมายและแปลง DOCX เป็น PDF ด้วย C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+เรียนรู้วิธีสร้างเทมเพลตการผสานจดหมายและแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.Words สำหรับ C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)
