@@ -80,6 +80,9 @@ Nejprve `document.save("temp.html", SaveFormat.HTML)`. Pro převod HTML zpět do
 ### Převod HTML na Word dokumenty
 Využijte `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` a následně `doc.save("output.docx")`.
 
+### Převod HTML na Word dokumenty
+Využijte `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` a následně `doc.save("output.docx")`.
+
 ## Tutoriály převodu dokumentů
 
 ### [Použití funkce převodu dokumentů](./using-document-converting/)
@@ -99,6 +102,15 @@ Efektivně převádějte DOCX na EPUB pomocí Aspose.Words pro Java. Naučte se 
 
 ### [Převod dokumentů na obrázky](./converting-documents-images/)
 Naučte se, jak převádět Word dokumenty na obrázky pomocí Aspose.Words pro Java. Praktický průvodce s ukázkovým kódem a častými dotazy.
+
+### [Převod DOCX na Markdown – Kompletní průvodce krok za krokem](./convert-docx-to-markdown-complete-step-by-step-guide/)
+Kompletní průvodce převodem souborů DOCX do formátu Markdown pomocí Aspose.Words pro Java.
+
+### [Převod DOCX na Markdown – Kompletní průvodce](./convert-docx-to-markdown-complete-guide/)
+Naučte se převádět DOCX soubory do Markdown s podrobnými ukázkami a tipy v Aspose.Words pro Java.
+
+### [Jak používat Aspose: Převod DOCX do PDF v Javě – Kompletní průvodce](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
+Kompletní průvodce převodem souborů DOCX do PDF v Javě pomocí Aspose.Words, včetně kódu a tipů pro nastavení.
 
 ## Často kladené otázky
 

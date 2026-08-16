@@ -131,8 +131,14 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 ### [Recover corrupted docx – Complete Guide to Fix and Process Documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
 
+### [Recover corrupted docx in Java – Complete Guide](./recover-corrupted-docx-in-java-complete-guide/)
+Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
+
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
+
+### [how to set callback in Aspose.Words Java – Detect and Handle Missing Fonts](./how-to-set-callback-in-aspose-words-java-detect-and-handle-m/)
+Learn how to set a callback in Aspose.Words for Java to detect missing fonts and handle them gracefully during document processing.
 
 ## Frequently Asked Questions
 

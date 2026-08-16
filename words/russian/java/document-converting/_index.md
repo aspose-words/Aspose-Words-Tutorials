@@ -83,22 +83,14 @@ weight: 14
 ## Учебные материалы по конвертации документов
 
 ### [Using Document Converting Feature](./using-document-converting/)
-Узнайте, как эффективно конвертировать, объединять и обрабатывать файлы с помощью Aspose.Words for Java. Упростите рабочий процесс в одной мощной библиотеке.
-
 ### [Exporting Documents to PDF](./exporting-documents-to-pdf/)
-Изучите, как экспортировать документы в PDF с помощью Aspose.Words for Java. Это пошаговое руководство упрощает процесс бесшовной конвертации.
-
 ### [Converting Documents to Different Formats](./converting-documents-different-formats/)
-Узнайте, как конвертировать документы в различные форматы с помощью Aspose.Words for Java. Пошаговое руководство для эффективной конвертации.
-
 ### [Converting HTML to Documents](./converting-html-documents/)
-Конвертируйте HTML в Word‑документы без усилий с помощью Aspose.Words for Java. Узнайте, как выполнить эту конверсию в несколько шагов с нашим полным руководством.
-
 ### [Document Conversion with SaveOptions](./document-conversion-saveoptions/)
-Эффективно конвертируйте DOCX в EPUB с помощью Aspose.Words for Java. Узнайте, как настраивать параметры сохранения, разбивать контент и экспортировать свойства документа в этом пошаговом руководстве.
-
 ### [Converting Documents to Images](./converting-documents-images/)
-Узнайте, как конвертировать Word‑документы в изображения с помощью Aspose.Words for Java. Пошаговое руководство, полное примеров кода и часто задаваемых вопросов.
+### [Конвертировать docx в markdown – Полное пошаговое руководство](./convert-docx-to-markdown-complete-step-by-step-guide/)
+### [Конвертировать docx в markdown – Полное руководство](./convert-docx-to-markdown-complete-guide/)
+### [Как использовать Aspose: Полное руководство по конвертации DOCX в PDF на Java](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
 
 ## Часто задаваемые вопросы
 

@@ -68,6 +68,9 @@ Esporta il documento arricchito nel formato necessario—PDF, DOCX, HTML o anche
 ### [Elaborazione Testi Master in Java&#58; Utilizzo di Aspose.Words & AI Models per Sommario e Traduzione](./java-aspose-words-text-processing/)
 Scopri come automatizzare la sintesi e la traduzione del testo usando Aspose.Words per Java con GPT‑4 di OpenAI e Gemini di Google. Migliora oggi le tue applicazioni Java.
 
+### [Riepiloga documento Word in Java – Guida completa passo‑passo](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Impara a riassumere automaticamente documenti Word con Aspose.Words per Java, passo dopo passo, usando modelli AI.
+
 ## Risorse aggiuntive
 
 - [Documentazione Aspose.Words per Java](https://reference.aspose.com/words/java/)

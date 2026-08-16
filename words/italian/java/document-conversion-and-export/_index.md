@@ -86,6 +86,9 @@ Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per 
 ### [Converti docx in markdown – Esporta equazioni matematiche in LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Scopri come trasformare documenti DOCX in markdown e convertire le equazioni matematiche in LaTeX usando Aspose.Words.
 
+### [Salva Word come Markdown in Java – Guida completa](./save-word-as-markdown-in-java-complete-guide/)
+Scopri come convertire documenti Word in Markdown usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
 ### [Come incorporare immagini in Markdown durante la conversione di DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Scopri come includere immagini nei file Markdown generati dalla conversione di documenti DOCX con Aspose.Words for Java.
 
@@ -95,8 +98,17 @@ Esporta documenti Word in formato TXT mantenendo le equazioni matematiche in mod
 ### [Aspose Word to PDF – Converti DOCX in PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi passaggi.
 
+### [Salva documento come PDF – Guida completa Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Scopri come salvare documenti Word in PDF usando Aspose.Words per Java con esempi passo‑passo e opzioni avanzate.
+
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
+
+### [Crea PDF UA con Aspose.Words – Guida completa](./create-pdf-ua-with-aspose-words-complete-guide/)
+Scopri come generare PDF UA conformi alle linee guida di accessibilità usando Aspose.Words per Java, passo dopo passo.
+
+### [Imposta pagine per foglio nella conversione da Word a PNG – Guida completa](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Scopri come impostare il numero di pagine per foglio durante la conversione di documenti Word in immagini PNG usando Aspose.Words per Java.
 
 ## Domande frequenti
 

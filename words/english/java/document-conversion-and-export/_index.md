@@ -90,17 +90,29 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Learn how to convert DOCX files to Markdown and export embedded Math equations as LaTeX using Aspose.Words for Java.
 
+### [Save Word as Markdown in Java – Complete Guide](./save-word-as-markdown-in-java-complete-guide/)
+Learn how to convert and save Word documents as Markdown using Aspose.Words for Java with step‑by‑step examples.
+
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
 
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Learn how to convert DOCX files to PDF using Aspose.Words for Java with simple code examples.
 
+### [Set Pages Per Sheet in Word to PNG Conversion – Complete Guide](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Learn how to set pages per sheet when converting Word documents to PNG images using Aspose.Words for Java in this complete guide.
+
+### [Save Document as PDF – Complete Aspose.Words Guide](./save-document-as-pdf-complete-aspose-words-guide/)
+Learn how to save documents as PDF using Aspose.Words for Java with detailed steps and customization options.
+
 ### [How to Embed Images in Markdown When Converting DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Learn how to embed images from DOCX files into Markdown during conversion using Aspose.Words for Java.
 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
+
+### [Create PDF UA with Aspose.Words – Complete Guide](./create-pdf-ua-with-aspose-words-complete-guide/)
+Learn how to generate PDF/UA compliant documents using Aspose.Words for Java with step‑by‑step instructions.
 
 ## Frequently Asked Questions
 

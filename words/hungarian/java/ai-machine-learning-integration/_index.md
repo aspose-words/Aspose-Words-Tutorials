@@ -67,6 +67,9 @@ Exportálja a gazdagított dokumentumot a szükséges formátumba—PDF, DOCX, H
 ### [Mesteri szövegfeldolgozás Java-ban&#58; Aspose.Words és AI modellek használata összefoglaláshoz és fordításhoz](./java-aspose-words-text-processing/)
 Tanulja meg, hogyan automatizálja a szövegösszefoglalást és fordítást az Aspose.Words for Java-val, az OpenAI GPT‑4 és a Google Gemini segítségével. Fejlessze Java alkalmazásait még ma.
 
+### [Word dokumentum összefoglalása Java-ban – Teljes lépésről‑lépésre útmutató](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose.Words for Java-t a Word dokumentumok automatikus összefoglalásához egy részletes, gyakorlati útmutatóban.
+
 ## További források
 
 - [Aspose.Words for Java dokumentáció](https://reference.aspose.com/words/java/)

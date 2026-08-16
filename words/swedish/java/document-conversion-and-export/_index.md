@@ -87,8 +87,17 @@ Lär dig hur du sparar ett Word‑dokument som TXT och exporterar matematiska ek
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Lär dig hur du konverterar DOCX-filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
 
+### [Spara Word som Markdown i Java – Komplett guide](./save-word-as-markdown-in-java-complete-guide/)
+Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words for Java i en fullständig steg‑för‑steg‑guide.
+
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words for Java i några enkla steg.
+
+### [Spara dokument som PDF – Komplett Aspose.Words‑guide](./save-document-as-pdf-complete-aspose-words-guide/)
+Lär dig hur du sparar ett dokument som PDF med Aspose.Words i en fullständig steg‑för‑steg‑guide.
+
+### [Skapa PDF/UA med Aspose.Words – Komplett guide](./create-pdf-ua-with-aspose-words-complete-guide/)
+Lär dig hur du skapar PDF/UA‑dokument med Aspose.Words i en komplett steg‑för‑steg‑guide.
 
 ### [Använda dokumentformer i Aspose.Words for Java](./using-document-shapes/)
 Utnyttja kraften i dokumentformer i Aspose.Words for Java. Lär dig att skapa visuellt engagerande dokument med steg‑för‑steg‑exempel.
@@ -101,6 +110,9 @@ Lär dig hur du formaterar tabeller och tillämpar tabellstilar i Aspose.Words f
 
 ### [Hur man bäddar in bilder i Markdown vid konvertering av DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Lär dig hur du bäddar in bilder i Markdown när du konverterar DOCX-filer med Aspose.Words.
+
+### [Ställ in sidor per blad i Word till PNG‑konvertering – Komplett guide](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Lär dig hur du konverterar Word‑dokument till PNG med flera sidor per bildblad i en komplett steg‑för‑steg‑guide.
 
 ### [Skapa tillgänglig PDF från DOCX – Komplett guide](./create-accessible-pdf-from-docx-complete-guide/)
 Lär dig hur du konverterar DOCX till en tillgänglig PDF med fullständig steg‑för‑steg‑guide och bästa praxis.

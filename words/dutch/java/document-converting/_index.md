@@ -89,6 +89,9 @@ Leer efficiënte documentconversie met Aspose.Words for Java. Converteer, merge 
 ### [Exporting Documents to PDF](./exporting-documents-to-pdf/)
 Leer hoe u documenten naar PDF exporteert met Aspose.Words for Java. Deze stap‑voor‑stap‑gids vereenvoudigt het proces voor naadloze documentconversie.
 
+### [Hoe Aspose te gebruiken: DOCX naar PDF converteren in Java – Complete gids](./how-to-use-aspose-convert-docx-to-pdf-in-java-complete-guide/)
+Leer stap‑voor‑stap hoe u met Aspose.Words for Java DOCX‑bestanden naar PDF converteert, inclusief code‑voorbeelden en best practices.
+
 ### [Converting Documents to Different Formats](./converting-documents-different-formats/)
 Leer hoe u documenten naar verschillende formaten converteert met Aspose.Words for Java. Stap‑voor‑stap‑handleiding voor efficiënte documentconversie.
 
@@ -100,6 +103,12 @@ Converteer efficiënt DOCX naar EPUB met Aspose.Words for Java. Leer hoe u opsla
 
 ### [Converting Documents to Images](./converting-documents-images/)
 Leer hoe u Word‑documenten naar afbeeldingen converteert met Aspose.Words for Java. Stap‑voor‑stap‑gids, compleet met code‑voorbeelden en veelgestelde vragen.
+
+### [docx naar markdown converteren – Complete stapsgewijze gids](./convert-docx-to-markdown-complete-step-by-step-guide/)
+Leer hoe u DOCX-bestanden converteert naar Markdown met Aspose.Words for Java in een volledige stap‑voor‑stap‑handleiding.
+
+### [docx naar markdown converteren – Complete gids](./convert-docx-to-markdown-complete-guide/)
+Leer hoe u DOCX-bestanden volledig naar Markdown converteert met Aspose.Words for Java in één uitgebreide handleiding.
 
 ## Veelgestelde vragen
 
