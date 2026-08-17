@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: c# load word document and detect missing fonts – learn how to handle missing fonts using Aspose.Words in minutes.
+description: Learn how to use the Aspose.Words for .NET API to load a Word document in C#, detect missing fonts, and handle font substitution automatically.
 draft: false
 keywords:
 - c# load word document
@@ -10,13 +10,13 @@ keywords:
 - Aspose.Words font substitution
 - .NET document processing
 language: en
-og_description: c# load word document and instantly detect missing fonts. This tutorial shows the best way to handle missing fonts using Aspose.Words.
+og_description: Learn how to use the Aspose.Words for .NET API to load a Word document in C#, detect missing fonts, and handle font substitution automatically.
 og_title: c# load word document – Detect & Handle Missing Fonts
 tags:
 - C#
 - Aspose.Words
 - Font handling
-title: c# load word document with Aspose.Words – Detect & Handle Missing Fonts
+title: C# Load Word Document with Aspose.Words API – Detect & Handle Missing Fonts
 url: /net/working-with-fonts/c-load-word-document-detect-handle-missing-fonts/
 ---
 
@@ -24,7 +24,7 @@ url: /net/working-with-fonts/c-load-word-document-detect-handle-missing-fonts/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# load word document with Aspose.Words – Detect & Handle Missing Fonts
+# C# Load Word Document with Aspose.Words API – Detect & Handle Missing Fonts
 
 Ever needed to **c# load word document** and wondered whether every font will render correctly? You're not the only one. Missing fonts are a silent culprit that can turn a perfectly formatted report into a garbled mess.  
 

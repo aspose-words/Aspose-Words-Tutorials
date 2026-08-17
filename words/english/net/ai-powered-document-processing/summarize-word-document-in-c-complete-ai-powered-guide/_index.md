@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Summarize Word document instantly using C# and Aspose.Words. Learn how to extract text from docx, load docx in C#, and generate document abstract with AI.
+description: Summarize Word docs with Aspose.Words API in C#.
 draft: false
 keywords:
 - summarize word document
@@ -17,7 +17,7 @@ tags:
 - C#
 - AI
 - Document Processing
-title: Summarize Word Document in C# with Aspose.Words – Complete AI‑Powered Guide
+title: Summarize Word Document in C# with Aspose.Words API – Complete AI‑Powered Guide
 url: /net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 

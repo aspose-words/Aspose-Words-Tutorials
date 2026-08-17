@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Save docx as markdown & extract images using Aspose.Words in C#. Learn how to convert word to markdown and pull pictures from a DOCX file.
+description: Save docx as markdown & extract images using Aspose.Words for .NET in C#. Learn how to convert Word to Markdown and extract pictures from a DOCX file with Aspose.Words.
 draft: false
 keywords:
 - save docx as markdown
@@ -10,7 +10,7 @@ keywords:
 - Aspose.Words markdown
 - C# document conversion
 language: en
-og_description: Save docx as markdown with Aspose.Words in C#. This guide shows how to convert word to markdown and extract images from a DOCX file.
+og_description: Save docx as markdown with Aspose.Words for .NET in C#. This guide shows how to convert Word to Markdown and extract images from a DOCX file using Aspose.Words.
 og_title: Save docx as markdown & extract images – C# guide
 tags:
 - C#
@@ -18,7 +18,7 @@ tags:
 - Markdown
 - DOCX
 - Image extraction
-title: Save docx as markdown & extract images – C# guide
+title: Save docx as markdown & extract images with Aspose.Words – Complete C# guide
 url: /net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
@@ -26,7 +26,7 @@ url: /net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-ima
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save docx as markdown & extract images – Complete C# guide
+# Save docx as markdown & extract images with Aspose.Words – Complete C# guide
 
 Ever needed to **save docx as markdown** but also keep every picture, diagram, or SVG that lives inside the Word file? You’re not the only one hitting that wall. In many projects—static‑site generators, documentation pipelines, or simple note‑taking tools—we have to **convert word to markdown** while preserving assets, otherwise the resulting file looks like a ghost town.
 

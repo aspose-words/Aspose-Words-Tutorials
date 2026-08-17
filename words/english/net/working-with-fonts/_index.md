@@ -1,8 +1,8 @@
 ---
-title: Using Aspose.Words to Process Fonts in Word Documents
-linktitle: Using Aspose.Words to Process Fonts in Word Documents
+title: Using Aspose.Words API to Process Fonts in Word Documents
+linktitle: Using Aspose.Words API to Process Fonts in Word Documents
 second_title: Aspose.Words Document Processing API
-description: Learn how to process fonts in Word documents using Aspose.Words for .NET, including formatting, substitution, and notification features.
+description: Learn how to process fonts in Word documents using the Aspose.Words API for .NET, including formatting, substitution, and notification features to enhance document rendering.
 weight: 420
 url: /net/working-with-fonts/
 ---
@@ -17,7 +17,9 @@ url: /net/working-with-fonts/
 # Words Processing with Fonts
 
 
-Words Processing with Fonts tutorials guide you through various aspects of Words Processing with fonts, allowing you to perform operations such as changing font formatting, loading fonts from specific directories, managing substitutions fonts and more.
+## Introduction
+
+Words Processing with Fonts tutorials guide you through various aspects of Words Processing with fonts, allowing you to perform operations such as changing font formatting, loading fonts from specific directories, managing substitution fonts and more.
 
 The tutorials provide you with detailed step-by-step explanations for each feature, along with C# language source code to illustrate the concepts. You will learn how to use classes and methods from the Aspose.Words Library for .NET to perform specific font-related tasks in your Word documents.
 
@@ -39,7 +41,7 @@ doc.FontSettings = fontSettings;
 doc.Save("Output.docx");
 ```
 
- ## Tutorials
+## Tutorials
 | Title | Description |
 | --- | --- |
 | [Font Formatting](./font-formatting/) | Learn how to format fonts in Word documents using Aspose.Words for .NET with a detailed, step-by-step guide. |
@@ -65,7 +67,7 @@ doc.Save("Output.docx");
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
 | [How to Detect Fonts in Aspose.Words – Handle Warnings & Settings](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Learn how to detect fonts, handle missing font warnings, and configure font settings in Aspose.Words for .NET. |
-| [Resource Steam Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
+| [Resource Stream Font Source Example](./resource-steam-font-source-example/) | Learn how to use the Resource Stream Font Source to load custom fonts into Aspose.Words for .NET. |
 | [Get Substitution Without Suffixes](./get-substitution-without-suffixes/) | In this tutorial, learn how to get suffixless overrides in a Word document with Aspose.Words for .NET. |
 | [How to Load DOCX in C# – Complete Guide](./how-to-load-docx-in-c-complete-guide/) | Learn how to load DOCX files in C# using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [How to Capture Fonts in Aspose.Words – Complete Guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Learn how to capture fonts in Aspose.Words with a complete step-by-step guide and code examples. |

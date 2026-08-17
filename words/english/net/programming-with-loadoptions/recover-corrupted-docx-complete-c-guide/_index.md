@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Learn how to recover corrupted DOCX with Aspose.Words for .NET, check paragraph count, and verify content in minutes.
+description: Learn how to recover corrupted DOCX files using Aspose.Words for .NET LoadOptions and RecoveryMode, verify paragraph count, and ensure document integrity in minutes.
 draft: false
 keywords:
 - recover corrupted docx
@@ -10,7 +10,7 @@ keywords:
 - Aspose.Words recovery
 - C# document handling
 language: en
-og_description: Learn how to recover corrupted DOCX with Aspose.Words for .NET, check paragraph count, and verify content in minutes.
+og_description: Learn how to recover corrupted DOCX files using Aspose.Words for .NET LoadOptions and RecoveryMode, verify paragraph count, and ensure document integrity in minutes.
 og_title: Recover corrupted DOCX with Aspose.Words – Complete C# Guide
 tags:
 - Aspose.Words
@@ -150,7 +150,7 @@ If the file is beyond repair, you’ll see the catch block message, and you can 
 
 Here’s a quick diagram that illustrates the flow from *open corrupted docx* → recovery → verification.
 
-![Diagram showing the recovery flow for recover corrupted docx](/images/recover-corrupted-docx-flow.png "recover corrupted docx example")
+![Diagram showing the recovery flow for recover corrupted docx example](/images/recover-corrupted-docx-flow.png "recover corrupted docx example")
 
 *Alt text:* **recover corrupted docx** example diagram.
 

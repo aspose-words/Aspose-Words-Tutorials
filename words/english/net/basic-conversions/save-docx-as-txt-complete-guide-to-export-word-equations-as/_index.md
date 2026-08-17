@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: >-
-  Save docx as txt quickly with Aspose.Words and learn how to convert docx to
-  LaTeX or txt, plus tips to export Word equations as LaTeX in one go.
+description: Convert to txt with Aspose.Words, equations.
 draft: false
 keywords:
 - save docx as txt
@@ -21,7 +19,7 @@ tags:
 - Aspose.Words
 - C#
 - DocumentConversion
-title: Aspose.Words – save docx as txt – Complete Guide to Export Word Equations as LaTeX
+title: Aspose.Words – Convert docx to txt & Export Word Equations as LaTeX – Complete Guide
 url: /net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/
 ---
 

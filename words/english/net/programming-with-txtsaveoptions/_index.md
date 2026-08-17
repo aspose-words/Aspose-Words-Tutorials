@@ -1,8 +1,8 @@
 ---
-title: Aspose.Words TXT Save Options – Words Processing
-linktitle: Aspose.Words TXT Save Options – Words Processing
+title: Using Aspose.Words TXT Save Options – Words Processing
+linktitle: Using Aspose.Words TXT Save Options – Words Processing
 second_title: Aspose.Words Document Processing API
-description: Learn how to use Aspose.Words for .NET to save documents as TXT files with TxtSaveOptions, specifying encoding, column delimiters, line‑break handling, and whitespace management through step‑by‑step tutorials and C# sample code.
+description: Learn how to use the Aspose.Words for .NET API to save documents as TXT files with TxtSaveOptions, specifying encoding, column delimiters, line‑break handling, and whitespace management through step‑by‑step tutorials and C# sample code.
 weight: 1700
 url: /net/programming-with-txtsaveoptions/
 ---
