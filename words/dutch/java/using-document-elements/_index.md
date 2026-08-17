@@ -71,6 +71,8 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [ActiveX toevoegen en een cirkeldiagram invoegen in een Word-document](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Leer hoe u ActiveX kunt toevoegen en een cirkeldiagram in een Word‑document kunt invoegen met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

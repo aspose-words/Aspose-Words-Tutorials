@@ -43,6 +43,8 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der Dokumentelementbear
 Denken Sie daran: Übung macht den Meister. Mit Aspose.Words für Java erstellen, bearbeiten und verbessern Sie Dokumente im Handumdrehen wie ein Profi. Viel Spaß beim Programmieren!
 
 ## Tutorials zum Verwenden von Dokumentelementen
+### [ActiveX hinzufügen und ein Kreisdiagramm in ein Word-Dokument einfügen](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Erfahren Sie, wie Sie ActiveX-Steuerelemente einbinden und ein Kreisdiagramm in ein Word-Dokument einfügen.
 ### [Verwenden von Kommentaren in Aspose.Words für Java](./using-comments/)
 Erfahren Sie, wie Sie Kommentare in Aspose.Words für Java verwenden. Schritt-für-Schritt-Anleitung zum Hinzufügen und Anpassen von Kommentaren in Ihren Dokumenten.
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)
