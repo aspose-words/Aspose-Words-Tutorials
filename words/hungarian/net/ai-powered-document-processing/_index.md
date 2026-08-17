@@ -42,6 +42,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
+| [Hogyan fordítsa le a DOCX-et franciára és automatizálja a dokumentumfordítást](./how-to-translate-docx-to-french-and-automate-document-transl/) | Az Aspose.Words for .NET segítségével automatikusan lefordíthatja a DOCX fájlokat franciára. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
