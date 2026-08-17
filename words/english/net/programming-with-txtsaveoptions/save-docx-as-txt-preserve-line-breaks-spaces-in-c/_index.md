@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Save docx as txt quickly with Aspose.Words for .NET – learn how to preserve
-  line breaks, keep trailing spaces, and convert Word to txt efficiently.
+description: Save docx as txt quickly with Aspose.Words for .NET – learn how to preserve line breaks, keep trailing spaces, and convert Word to txt efficiently.
 draft: false
 keywords:
 - save docx as txt
@@ -18,7 +17,7 @@ tags:
 - C#
 - Aspose.Words
 - Text Conversion
-title: Save docx as txt – Preserve Line Breaks & Spaces in C#
+title: Convert docx to txt with Aspose.Words – Preserve Line Breaks & Spaces in C#
 url: /net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
@@ -32,7 +31,7 @@ Ever wondered how to **save docx as txt** without losing the exact layout of you
 
 In this tutorial we’ll show you a clean, programmatic way to **convert Word to txt** using Aspose.Words for .NET, keeping every line break and trailing space intact. By the end you’ll have a reusable snippet that you can drop into any C# project.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to load a `.docx` file and configure the save options.
 - Why the `PreserveLineBreaks` and `TrimTrailingSpaces` flags matter.
@@ -100,7 +99,7 @@ doc.Save(outputPath, txtOptions);
 
 If everything goes well, `Exact.txt` will contain every line break and trailing space from the original Word file—perfect for downstream processing, version control, or simple archiving.
 
-### Full, Ready‑to‑Run Example
+### Full, ready‑to‑Run example
 
 Putting it all together, here’s a complete console application you can compile and run instantly.
 
@@ -169,7 +168,7 @@ options.ExportTableLayout = ExportTableLayout.TabDelimited;
 
 Combine this with `PreserveLineBreaks` for a clean, spreadsheet‑ready output.
 
-## Pro Tips & Best Practices
+## Pro tips & best practices
 
 - **Cache the Document** if you’re converting the same file to multiple formats; it saves I/O time.
 - **Wrap the Save call in a try/catch** to handle permission issues on the target folder.

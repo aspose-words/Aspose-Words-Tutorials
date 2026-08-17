@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Save docx as markdown & extract images using Aspose.Words in C#. Learn
-  how to convert word to markdown and pull pictures from a DOCX file.
+description: Save docx as markdown & extract images using Aspose.Words in C#. Learn how to convert word to markdown and pull pictures from a DOCX file.
 draft: false
 keywords:
 - save docx as markdown
@@ -11,8 +10,7 @@ keywords:
 - Aspose.Words markdown
 - C# document conversion
 language: en
-og_description: Save docx as markdown with Aspose.Words in C#. This guide shows how
-  to convert word to markdown and extract images from a DOCX file.
+og_description: Save docx as markdown with Aspose.Words in C#. This guide shows how to convert word to markdown and extract images from a DOCX file.
 og_title: Save docx as markdown & extract images – C# guide
 tags:
 - C#
@@ -53,7 +51,7 @@ That’s it—no extra libraries, no fiddly command‑line tools. Just a few lin
 
 ## Step‑by‑step implementation
 
-### ## Save docx as markdown – Load the source document
+### Save docx as markdown – Load the source document
 
 First things first, we need a `Document` instance pointing at our Word file.
 
@@ -76,7 +74,7 @@ class Program
 
 > **Why this matters:** Loading the file validates that the DOCX is well‑formed. If the file is corrupt, Aspose throws a clear exception, saving you from cryptic downstream errors.
 
-### ## Convert word to markdown – Configure save options with a callback
+### Convert word to markdown – Configure save options with a callback
 
 The `MarkdownSaveOptions` class lets us control how resources (images, SVGs, etc.) are handled. By assigning a custom `ResourceSavingCallback`, we dictate exactly where each file lands.
 
@@ -91,7 +89,7 @@ The `MarkdownSaveOptions` class lets us control how resources (images, SVGs, etc
 
 > **Tip:** If you prefer data‑uri embedding (the default), simply omit the callback. The callback is only necessary when you *extract images from docx* into a separate directory.
 
-### ## Extract images from docx – Implement the custom callback
+### Extract images from docx – Implement the custom callback
 
 The callback receives a `ResourceSavingArgs` object for each external resource. We use it to create an `assets` folder (if it doesn’t already exist), rename the file path, and open a `FileStream` for writing.
 
@@ -122,9 +120,9 @@ public class CustomResourceCallback : IResourceSavingCallback
 }
 ```
 
-> **What’s happening under the hood?** Aspose streams each image (PNG, JPEG, GIF, SVG, etc.) to the `args.Stream` you provide. By swapping the default stream for a `FileStream` that points at `assets/<image-name>`, we effectively *extract images from docx* and keep the markdown clean.
+> **What’s happening under the hood?** Aspose streams each image (PNG, JPEG, GIF, SVG, etc.) to the `args.Stream` you provide. By swapping the default stream for a `FileStream` that points at `assets/<image‑name>`, we effectively *extract images from docx* and keep the markdown clean.
 
-### ## Verify the output – What you should see
+### Verify the output – What you should see
 
 After you run the program:
 
@@ -137,7 +135,7 @@ Open the markdown file in any editor—if you see the image placeholders renderi
 
 ## Common variations & edge cases
 
-### ### Handling existing assets
+### Handling existing assets
 
 If you run the conversion multiple times, you might end up overwriting images unintentionally. A quick safeguard is to append a timestamp or a GUID to each file name:
 
@@ -146,7 +144,7 @@ string uniqueName = $"{Path.GetFileNameWithoutExtension(fileName)}_{Guid.NewGuid
 args.ResourceFileName = Path.Combine(assetsFolder, uniqueName);
 ```
 
-### ### Large images or PDFs embedded as pictures
+### Large images or PDFs embedded as pictures
 
 Aspose.Words streams the raw bytes, so even a 10 MB diagram will be saved as‑is. However, Markdown renderers may choke on huge files. Consider resizing images before saving:
 
@@ -161,11 +159,11 @@ using (var img = System.Drawing.Image.FromStream(args.Stream))
 
 > **Caution:** The resizing snippet is optional and adds a dependency on `System.Drawing.Common`. Use it only if your pipeline demands smaller assets.
 
-### ### SVG handling
+### SVG handling
 
 SVGs are vector graphics; most static‑site generators treat them as regular files. The callback works unchanged, but ensure your Markdown processor supports inline SVG (e.g., GitHub Pages does).
 
-### ### Non‑image resources (fonts, OLE objects)
+### Non‑image resources (fonts, OLE objects)
 
 Aspose also treats fonts, OLE objects, and other binary blobs as resources. If you only care about images, filter by extension:
 
@@ -251,7 +249,10 @@ public class CustomResourceCallback : IResourceSavingCallback
 
 | Question | Answer |
 |----------|--------|
-| *Do I need a license for Aspose.Words?* | The library works in
+| *Do I need a license for Aspose.Words?* | The library works in evaluation mode without a license, but for production use you need a commercial license. See the licensing information at `/net/licensing/`. |
+| *Can I use this with .NET Framework 4.8?* | Yes, Aspose.Words supports .NET Framework 4.0 and later. |
+| *What image formats are supported?* | PNG, JPEG, GIF, BMP, TIFF, and SVG are all handled automatically. |
+| *Is the callback thread‑safe?* | The callback runs on the same thread that performs the save operation, so no additional synchronization is required. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

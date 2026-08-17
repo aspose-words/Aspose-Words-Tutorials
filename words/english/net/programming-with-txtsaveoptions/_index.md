@@ -1,12 +1,11 @@
 ---
-title: Words Processing with Txtsaveoptions
-linktitle: Words Processing with Txtsaveoptions
+title: Aspose.Words TXT Save Options – Words Processing
+linktitle: Aspose.Words TXT Save Options – Words Processing
 second_title: Aspose.Words Document Processing API
-description: Learn how to program with text file saving options in Aspose.Words for .NET. Learn how to specify encoding, format text, manage line breaks, and more with step-by-step tutorials and sample code in C#.
+description: Learn how to use Aspose.Words for .NET to save documents as TXT files with TxtSaveOptions, specifying encoding, column delimiters, line‑break handling, and whitespace management through step‑by‑step tutorials and C# sample code.
 weight: 1700
 url: /net/programming-with-txtsaveoptions/
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -16,13 +15,40 @@ url: /net/programming-with-txtsaveoptions/
 
 # Words Processing with Txtsaveoptions
 
+## Overview
+
 Aspose.Words for .NET tutorials walk you through the various features and uses of the library in the context of manipulating Word documents. One of the tutorials focuses on Words Processing with TXT save options, showing you how to generate text files from Word documents while maintaining content formatting and structure. You will learn how to use the various options available to customize the conversion of documents to text files, such as specifying the column delimiter and managing white spaces.
 
-These tutorials provide step-by-step instructions, along with sample C# code, to help you understand and practice the concepts covered. Whether you are a beginner or an experienced developer, you will find detailed information on how to use Aspose.Words for .NET and how to get the most out of this powerful document manipulation library.
+Below is a basic example of using **TxtSaveOptions** in C# to save a DOCX as a TXT file while preserving line breaks and spaces:
 
-Thanks to these tutorials, you will be able to fully exploit the functionalities of Aspose.Words for .NET and develop efficient solutions for the generation, conversion and manipulation of Word documents in your applications. Follow the steps, explore the code examples, and build your skills to build robust, high-performance Word apps.
+```csharp
+using Aspose.Words;
+using Aspose.Words.Saving;
 
- ## Tutorials
+public void SaveDocAsTxt(string inputPath, string outputPath)
+{
+    // Load the Word document
+    Document doc = new Document(inputPath);
+
+    // Configure TXT save options
+    TxtSaveOptions saveOptions = new TxtSaveOptions
+    {
+        Encoding = System.Text.Encoding.UTF8,
+        PreserveLineBreaks = true,
+        PreserveTableLayout = true,
+        ColumnDelimiter = '\t'   // Use tab as column delimiter
+    };
+
+    // Save the document as TXT
+    doc.Save(outputPath, saveOptions);
+}
+```
+
+These tutorials provide step‑by‑step instructions, along with sample C# code, to help you understand and practice the concepts covered. Whether you are a beginner or an experienced developer, you will find detailed information on how to use Aspose.Words for .NET and how to get the most out of this powerful document manipulation library.
+
+Thanks to these tutorials, you will be able to fully exploit the functionalities of Aspose.Words for .NET and develop efficient solutions for the generation, conversion and manipulation of Word documents in your applications. Follow the steps, explore the code examples, and build your skills to create robust, high‑performance Word apps.
+
+## Tutorials
 | Title | Description |
 | --- | --- |
 | [Add Bidi Marks in Word Document](./add-bidi-marks/) | Learn how to add bidirectional (Bidi) marks in Word documents using Aspose.Words for .NET with this guide. Ensure proper text direction for multi-language content. |
@@ -36,10 +62,8 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,8 +1,8 @@
 ---
-title: Words Processing with Markdownsaveoptions
-linktitle: Words Processing with Markdownsaveoptions
+title: Export Word Documents with Aspose.Words MarkdownSaveOptions
+linktitle: Export Word Documents with Aspose.Words MarkdownSaveOptions
 second_title: Aspose.Words Document Processing API
-description: Learn Words Processing with MarkdownSaveOptions in Aspose.Words for .NET. Detailed tutorials with sample code for saving Word documents in Markdown format.
+description: Learn how to export Word documents to Markdown using Aspose.Words for .NET with MarkdownSaveOptions. Detailed tutorials with sample C# code for saving Word files in Markdown format.
 weight: 1640
 url: /net/programming-with-markdownsaveoptions/
 ---
@@ -14,12 +14,39 @@ url: /net/programming-with-markdownsaveoptions/
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Words Processing with Markdownsaveoptions
+# Words Processing with MarkdownSaveOptions
 
 
-Words Processing with MarkdownSaveOptions is an in-depth resource that walks you through Words Processing with MarkdownSaveOptions using the Aspose.Words library for .NET. The tutorials provide you with step-by-step explanations, complete source code, and practical examples for understanding and using MarkdownSaveOptions to export Word documents to Markdown format. You will learn how to customize export options, such as managing images, aligning table content, converting styles, and more. This resource is essential for developers looking to integrate Markdown export functionality into their applications using Aspose.Words for .NET.
+Words Processing with MarkdownSaveOptions is an in-depth resource that walks you through Words Processing with MarkdownSaveOptions using the Aspose.Words library for .NET. The tutorials provide you with step‑by‑step explanations, complete source code, and practical examples for understanding and using MarkdownSaveOptions to export Word documents to Markdown format. You will learn how to customize export options, such as managing images, aligning table content, converting styles, and more. This resource is essential for developers looking to integrate Markdown export functionality into their applications using Aspose.Words for .NET.
 
- ## Tutorials
+Below is a simple C# example that demonstrates how to configure **MarkdownSaveOptions** and save a DOCX file as Markdown:
+
+```csharp
+using Aspose.Words;
+using Aspose.Words.Saving;
+
+class Program
+{
+    static void Main()
+    {
+        // Load the source DOCX document.
+        Document doc = new Document(@"C:\Docs\Sample.docx");
+
+        // Configure MarkdownSaveOptions.
+        MarkdownSaveOptions options = new MarkdownSaveOptions
+        {
+            ExportImagesAsBase64 = false,          // Save images as separate files.
+            ImagesFolder = @"C:\Docs\Images",      // Folder for extracted images.
+            TableContentAlignment = TableContentAlignment.AutoFit // Align table columns.
+        };
+
+        // Save the document as Markdown.
+        doc.Save(@"C:\Docs\Sample.md", options);
+    }
+}
+```
+
+## Tutorials
 | Title | Description |
 | --- | --- |
 | [Export Into Markdown With Table Content Alignment](./export-into-markdown-with-table-content-alignment/) | Learn how to export Word documents into Markdown with aligned tables using Aspose.Words for .NET. Follow our step-by-step guide for perfect Markdown tables. |

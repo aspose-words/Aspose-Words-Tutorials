@@ -1,8 +1,8 @@
 ---
-title: Basic Conversions
-linktitle: Basic Conversions
+title: "Convert Documents with Aspose.Words – Basic Conversions"
+linktitle: "Convert Documents with Aspose.Words – Basic Conversions"
 second_title: Aspose.Words Document Processing API
-description: Learn basic conversions with Aspose.Words for .NET. Easily convert Word documents to other formats such as PDF, HTML, RTF and more.
+description: Learn how to convert Word documents to PDF, HTML, RTF and other formats using the Aspose.Words for .NET API. Easily automate document conversions with detailed examples.
 weight: 1600
 url: /net/basic-conversions/
 ---
@@ -17,7 +17,15 @@ url: /net/basic-conversions/
 # Basic Conversions
 
 
-Basic Conversions walks you through basic document conversions using the Aspose.Words for .NET library. Tutorials provide step-by-step explanations, detailed source code and practical examples to convert Word documents to different formats such as PDF, HTML, EPUB, images and more. You will also learn how to specify conversion options, manage fonts, images and layouts. This resource is essential for developers wishing to automate document conversions using Aspose.Words for .NET, providing complete flexibility and control over the conversion process.
+Basic Conversions walks you through basic document conversions using the Aspose.Words for .NET library. Tutorials provide step‑by‑step explanations, detailed source code and practical examples to convert Word documents to different formats such as PDF, HTML, EPUB, images and more. You will also learn how to specify conversion options, manage fonts, images and layouts. This resource is essential for developers wishing to automate document conversions using Aspose.Words for .NET, providing complete flexibility and control over the conversion process.
+
+```csharp
+// Load a Word document
+var doc = new Aspose.Words.Document("input.docx");
+
+// Save as PDF
+doc.Save("output.pdf", Aspose.Words.SaveFormat.Pdf);
+```
 
  ## Tutorials
 | Title | Description |
