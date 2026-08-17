@@ -49,6 +49,8 @@
 เรียนรู้วิธีจัดการคุณสมบัติเอกสารและข้อมูลเมตาโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
 ### [การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ](./document-functionality-web-extensions/)
 เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
+### [วิธีกู้คืนไฟล์ docx ด้วย Aspose.Words สำหรับ Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+เรียนรู้วิธีกู้คืนไฟล์ docx ที่เสียหายโดยใช้ Aspose.Words สำหรับ Python พร้อมขั้นตอนและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

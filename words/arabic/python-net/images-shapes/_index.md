@@ -37,6 +37,12 @@
 ### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
 تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
 
+### [كيفية حفظ PNG وإضافة ظل إلى الشكل باستخدام Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+تعلم حفظ صورة PNG وإضافة تأثير الظل إلى الشكل باستخدام Aspose.Words في Python-net.
+
+### [كيفية إنشاء مخطط عمودي باستخدام Python مع Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+تعلم كيفية إنشاء مخطط عمودي في مستندات Word باستخدام Aspose.Words وPython.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)

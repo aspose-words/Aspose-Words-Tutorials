@@ -35,10 +35,28 @@ Bằng cách làm chủ việc chuyển đổi tài liệu với Aspose.Words fo
 Học chuyển đổi tài liệu Python với Aspose.Words for Python. Chuyển đổi, thao tác và tùy chỉnh tài liệu dễ dàng. Tăng năng suất ngay!
 
 ### [Cách lưu Markdown từ Word – Hướng dẫn Python đầy đủ](./how-to-save-markdown-from-word-complete-python-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Python.
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words cho Python.
 
 ### [Khôi phục DOCX bị hỏng & Chuyển Word sang Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
-Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words for Python.
+Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words cho Python.
+
+### [Xuất công thức sang LaTeX từ Word bằng Aspose.Words cho Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+Hướng dẫn xuất các công thức trong tài liệu Word sang định dạng LaTeX bằng Aspose.Words cho Python.
+
+### [Cách chuyển đổi docx sang pdf với Aspose.Words trong Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Hướng dẫn chi tiết cách chuyển đổi tệp DOCX sang PDF bằng Aspose.Words cho Python.
+
+### [Cách xuất markdown từ tài liệu Word bằng Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+Hướng dẫn chi tiết cách xuất nội dung markdown từ tài liệu Word bằng Aspose.Words cho Python.
+
+### [Cách chuyển đổi markdown sang docx với Aspose.Words trong Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Hướng dẫn chi tiết cách chuyển đổi tệp markdown thành docx bằng Aspose.Words cho Python.
+
+### [Lưu tài liệu dưới dạng hình ảnh: chuyển DOCX sang PNG trong Python](./save-document-as-image-convert-docx-to-png-in-python/)
+Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng ảnh PNG bằng Aspose.Words cho Python.
+
+### [Cách lưu Word thành markdown có hỗ trợ bảng bằng Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+Hướng dẫn chi tiết cách lưu tài liệu Word dưới dạng markdown với hỗ trợ bảng bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

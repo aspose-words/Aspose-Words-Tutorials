@@ -35,8 +35,20 @@ Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python kön
 Lernen Sie die Python-Dokumentenkonvertierung mit Aspose.Words für Python. Konvertieren, bearbeiten und passen Sie Dokumente mühelos an. Steigern Sie jetzt Ihre Produktivität!
 ### [Wie man Markdown aus Word speichert – Vollständige Python-Anleitung](./how-to-save-markdown-from-word-complete-python-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown konvertieren und speichern.
+### [Wie man Markdown aus einem Word-Dokument mit Aspose.Words exportiert](./how-to-export-markdown-from-a-word-document-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Markdown aus einem Word-Dokument exportieren.
 ### [Beschädigte DOCX wiederherstellen und Word in Markdown konvertieren](./recover-corrupted-docx-convert-word-to-markdown/)
 Lernen Sie, beschädigte DOCX-Dateien zu reparieren und anschließend in Markdown zu konvertieren.
+### [Wie man Word als Markdown mit Tabellenunterstützung speichert – Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+Erfahren Sie, wie Sie Word-Dokumente mit Tabellen in Markdown konvertieren.
+### [Wie man Markdown mit Aspose.Words in Python in DOCX konvertiert](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python Markdown-Dateien in DOCX-Dokumente konvertieren.
+### [Gleichungen aus Word nach LaTeX exportieren mit Aspose.Words für Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+Erfahren Sie, wie Sie Gleichungen aus Word-Dokumenten in LaTeX exportieren und weiterverarbeiten.
+### [Wie man docx in PDF mit Aspose.Words in Python konvertiert](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PDF konvertieren.
+### [Dokument als Bild speichern – DOCX in PNG konvertieren mit Python](./save-document-as-image-convert-docx-to-png-in-python/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für Python in PNG-Bilder konvertieren und speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

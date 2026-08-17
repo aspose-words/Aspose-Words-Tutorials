@@ -37,8 +37,26 @@
 ### [如何从 Word 保存 Markdown – 完整 Python 指南](./how-to-save-markdown-from-word-complete-python-guide/)
 学习使用 Aspose.Words for Python 将 Word 文档保存为 Markdown，轻松实现格式转换和内容提取。
 
+### [使用 Aspose.Words 将 Word 保存为带表格支持的 Markdown](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+学习使用 Aspose.Words for Python 将 Word 文档保存为支持表格的 Markdown，实现表格和文本的完整转换。
+
 ### [恢复损坏的 DOCX 并将 Word 转换为 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 学习如何使用 Aspose.Words for Python 恢复损坏的 DOCX 文件并将 Word 文档转换为 Markdown。
+
+### [从 Word 导出公式到 LaTeX – 完整 Python 指南](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+学习使用 Aspose.Words for Python 将 Word 文档中的公式导出为 LaTeX，便于在其他平台使用。
+
+### [使用 Aspose.Words 在 Python 中将 docx 转换为 PDF](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+学习如何使用 Aspose.Words for Python 将 Word 文档 (docx) 高效转换为 PDF，适用于各种应用场景。
+
+### [如何从 Word 导出 Markdown – 完整 Python 指南](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+学习使用 Aspose.Words for Python 将 Word 文档内容导出为 Markdown，轻松实现格式转换和文本提取。
+
+### [将文档保存为图像：在 Python 中将 DOCX 转换为 PNG](./save-document-as-image-convert-docx-to-png-in-python/)
+学习使用 Aspose.Words for Python 将 DOCX 文档转换为 PNG 图像，实现文档的图像化保存。
+
+### [使用 Aspose.Words 在 Python 中将 Markdown 转换为 DOCX](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+学习使用 Aspose.Words for Python 将 Markdown 文件转换为 DOCX 文档，实现格式无缝转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
