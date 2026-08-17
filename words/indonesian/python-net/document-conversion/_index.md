@@ -35,8 +35,20 @@ Dengan menguasai konversi dokumen dengan Aspose.Words untuk Python, pengembang d
 Pelajari konversi dokumen Python dengan Aspose.Words untuk Python. Konversi, manipulasi, dan kustomisasi dokumen dengan mudah. Tingkatkan produktivitas sekarang!
 ### [Cara Menyimpan Markdown dari Word – Panduan Python Lengkap](./how-to-save-markdown-from-word-complete-python-guide/)
 Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words untuk Python secara lengkap.
+### [Cara mengekspor markdown dari dokumen Word dengan Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose/)
+Pelajari cara mengekspor konten markdown dari dokumen Word menggunakan Aspose.Words untuk Python.
+### [Cara menyimpan Word sebagai markdown dengan dukungan tabel menggunakan Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+Pelajari cara menyimpan dokumen Word menjadi file markdown dengan dukungan tabel menggunakan Aspose.Words untuk Python.
 ### [Pulihkan DOCX yang Rusak & Konversi Word ke Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Pelajari cara memulihkan file DOCX yang rusak dan mengonversinya menjadi format Markdown menggunakan Aspose.Words untuk Python.
+### [Ekspor persamaan ke LaTeX dari Word menggunakan Aspose.Words untuk Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+Pelajari cara mengekspor persamaan dalam dokumen Word ke format LaTeX menggunakan Aspose.Words untuk Python.
+### [Cara mengonversi docx ke pdf dengan Aspose.Words di Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Pelajari cara mengonversi file DOCX menjadi PDF menggunakan Aspose.Words di Python.
+### [Simpan dokumen sebagai gambar: konversi DOCX ke PNG di Python](./save-document-as-image-convert-docx-to-png-in-python/)
+Pelajari cara mengonversi file DOCX menjadi gambar PNG menggunakan Aspose.Words untuk Python.
+### [Cara mengonversi markdown ke docx dengan Aspose.Words di Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Pelajari cara mengonversi file markdown menjadi dokumen DOCX menggunakan Aspose.Words di Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

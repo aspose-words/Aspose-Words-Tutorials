@@ -50,6 +50,8 @@ Learn how to efficiently manipulate Word documents using Aspose.Words for Python
 Learn how to manage document properties and metadata using Aspose.Words for Python. Step-by-step guide with source code.
 ### [Extending Document Functionality with Web Extensions](./document-functionality-web-extensions/)
 Learn how to extend document functionality with web extensions using Aspose.Words for Python. Step-by-step guide with source code for seamless integration.
+### [How to recover docx files with Aspose.Words for Python](./how-to-recover-docx-files-with-aspose-words-for-python/)
+Learn how to recover corrupted DOCX files using Aspose.Words for Python with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

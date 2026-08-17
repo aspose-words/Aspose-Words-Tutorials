@@ -36,8 +36,20 @@ By mastering document conversion with Aspose.Words for Python, developers can si
 Learn Python document conversion with Aspose.Words for Python. Convert, manipulate, and customize documents effortlessly. Boost productivity now!
 ### [How to Save Markdown from Word – Complete Python Guide](./how-to-save-markdown-from-word-complete-python-guide/)
 Learn how to convert Word documents to Markdown using Aspose.Words for Python in this step-by-step guide.
+### [How to export markdown from a Word document with Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose/)
+Learn how to export Word documents to Markdown using Aspose.Words for Python in this step-by-step guide.
 ### [Recover Corrupted DOCX & Convert Word to Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Learn how to recover corrupted DOCX files and convert them to Markdown using Aspose.Words for Python.
+### [How to save Word as markdown with table support using Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+Learn how to convert Word documents to Markdown while preserving tables using Aspose.Words for Python.
+### [Export equations to LaTeX from Word using Aspose.Words for Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+Learn how to export equations from Word documents to LaTeX using Aspose.Words for Python in a step-by-step guide.
+### [How to convert docx to pdf with Aspose.Words in Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+Learn how to convert DOCX files to PDF using Aspose.Words for Python in a step-by-step guide.
+### [Save document as image: convert DOCX to PNG in Python](./save-document-as-image-convert-docx-to-png-in-python/)
+Learn how to convert DOCX files to PNG images using Aspose.Words for Python in a step-by-step guide.
+### [How to convert markdown to docx with Aspose.Words in Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+Learn how to convert Markdown files to DOCX using Aspose.Words for Python in a step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

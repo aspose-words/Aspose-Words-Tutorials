@@ -37,6 +37,12 @@ Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pytho
 ### [Jak dodać cień w C# – Kompletny przewodnik programistyczny](./how-to-add-shadow-in-c-complete-programming-guide/)
 Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, krok po kroku.
 
+### [Jak zapisać PNG i dodać cień do kształtu przy użyciu Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Dowiedz się, jak zapisać obraz PNG i dodać cień do kształtu przy użyciu Aspose.Words.
+
+### [Jak utworzyć wykres kolumnowy w Pythonie przy użyciu Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Dowiedz się, jak generować wykresy kolumnowe w dokumentach Word przy użyciu Aspose.Words dla Pythona.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)

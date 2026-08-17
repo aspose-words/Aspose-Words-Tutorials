@@ -37,6 +37,12 @@ Aspose.Words for Python के साथ मीडिया प्रकार�
 ### [C# में शैडो कैसे जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# में शैडो जोड़ने की पूरी प्रक्रिया सीखें और अपने दस्तावेज़ों को आकर्षक बनाएं।
 
+### [Aspose.Words के साथ PNG सहेजें और शैप में छाया जोड़ें](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words का उपयोग करके PNG फ़ाइल सहेजें और शैप में छाया प्रभाव जोड़ें।
+
+### [Aspose.Words के साथ पायथन में कॉलम चार्ट बनाना](./how-to-create-column-chart-python-with-aspose-words/)
+Aspose.Words का उपयोग करके पायथन में कॉलम चार्ट कैसे बनाएं, सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [पायथन-नेट दस्तावेज़ीकरण के लिए Aspose.Words](https://docs.aspose.com/words/python-net/)
