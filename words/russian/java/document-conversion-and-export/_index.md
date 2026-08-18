@@ -102,17 +102,23 @@ weight: 22
 ### [Конвертировать docx в markdown – экспортировать математические уравнения в LaTeX с помощью Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Преобразуйте DOCX в markdown и экспортируйте уравнения Math в LaTeX с помощью Aspose.Words.
 
+### [Сохранить docx как markdown – Полное руководство с уравнениями LaTeX и разрешением изображений](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Преобразуйте DOCX в markdown, экспортируя уравнения LaTeX и задавая разрешение изображений с помощью Aspose.Words for Java.
+
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
 
-### [Сохранить документ как TXT – Быстрое руководство по экспорту математических формул Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Узнайте, как экспортировать математические уравнения из Word в формат TXT с помощью Aspose.Words for Java.
+### [Преобразовать docx в markdown с изображениями — Полное руководство на Java](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Преобразуйте DOCX в markdown, включая изображения, с помощью Aspose.Words for Java. Полное пошаговое руководство.
 
-### [Aspose.Words в PDF – Конвертировать DOCX в PDF в Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Пошаговое руководство по конвертации DOCX в PDF с помощью Aspose.Words for Java, включая настройку параметров сохранения.
+### [Создание доступного PDF из Word – Руководство по конвертации Word в PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Узнайте, как создавать PDF с поддержкой доступности из документов Word, используя Aspose.Words for Java.
 
-### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
-Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
+### [Как установить разрешение при экспорте PNG – Полное руководство на Java](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Узнайте, как задать разрешение и качество PNG при экспорте с помощью Aspose.Words for Java.
+
+### [Конвертировать DOCX в PDF – экспортировать Word в Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Преобразуйте DOCX в PDF и экспортируйте содержимое в Markdown с помощью Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 

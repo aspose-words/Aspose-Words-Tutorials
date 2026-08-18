@@ -90,17 +90,31 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Learn how to convert DOCX files to Markdown and export embedded Math equations as LaTeX using Aspose.Words for Java.
 
-### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
+### [Save docx as markdown – Complete Guide with LaTeX Equations & Image Resolution](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Learn how to convert DOCX to Markdown while preserving LaTeX equations and controlling image resolution using Aspose.Words for Java.
+
+### [Convert docx to markdown with images – Complete Java Guide](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Learn how to convert DOCX files to Markdown while preserving images using Aspose.Words for Java in this comprehensive guide.
 
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Learn how to convert DOCX files to PDF using Aspose.Words for Java with simple code examples.
+
+### [Convert DOCX to PDF – Export Word to Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
 
 ### [How to Embed Images in Markdown When Converting DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Learn how to embed images from DOCX files into Markdown during conversion using Aspose.Words for Java.
 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
+
+### [Create Accessible PDF from Word – Convert Word to PDF Guide](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Learn how to create accessible PDFs from Word using Aspose.Words for Java. Step‑by‑step guide for PDF conversion and accessibility compliance.
+
+### [Export Floating Shapes Inline – Complete Guide to PDF Conversion](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Learn how to export floating shapes inline during PDF conversion using Aspose.Words for Java with step‑by‑step examples.
+
+### [How to Set Resolution for PNG Export – Complete Java Guide](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Learn how to control PNG export resolution in Aspose.Words for Java with step‑by‑step examples.
 
 ## Frequently Asked Questions
 

@@ -83,14 +83,26 @@ Ontgrendel de kracht van wiskundige vergelijkingen in documenten met Aspose.Word
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Ontgrendel de kracht van documentvormen in Aspose.Words for Java. Leer visueel aantrekkelijke documenten te maken met stap‑voor‑stap voorbeelden.
 
+### [Export zwevende vormen inline – Complete gids voor PDF-conversie](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Leer hoe je zwevende vormen inline exporteert en converteert naar PDF met Aspose.Words for Java in deze volledige gids.
+
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tekst‑ en afbeelding‑watermarks aan voor professioneel uitziende documenten.
+
+### [Hoe de Resolutie voor PNG-export Instellen – Complete Java-gids](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Leer hoe je de resolutie van PNG-export kunt instellen met Aspose.Words for Java in een stapsgewijze handleiding.
 
 ### [Aspose Word naar PDF – DOCX naar PDF converteren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Leer hoe je DOCX-bestanden eenvoudig naar PDF converteert met Aspose.Words for Java in één regel code.
 
+### [DOCX naar PDF – Exporteren van Word naar Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Leer hoe je DOCX-bestanden naar PDF converteert en vervolgens Word-documenten exporteert naar Markdown met Aspose.Words for Java.
+
 ### [Maak Toegankelijke PDF van DOCX – Complete Gids](./create-accessible-pdf-from-docx-complete-guide/)
 Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, inclusief tags, structuur en leesbaarheid voor schermlezers.
+
+### [Maak Toegankelijke PDF van Word – Gids voor het Converteren van Word naar PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een Word‑document, met tags, structuur en schermlezer‑ondersteuning.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Leer hoe je tabellen opmaakt en tabelstijlen toepast in Aspose.Words for Java. Verken stap‑voor‑stap gidsen met broncode voor effectieve tabelopmaak. Verbeter je documentlay-out met Aspose.Words.
@@ -103,6 +115,12 @@ Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van D
 
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
+
+### [DOCX opslaan als Markdown – Complete gids met LaTeX‑vergelijkingen en beeldresolutie](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Leer hoe je DOCX-bestanden converteert naar Markdown, LaTeX‑vergelijkingen exporteert en de beeldresolutie beheert.
+
+### [DOCX naar Markdown met afbeeldingen – Complete Java-gids](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Leer hoe je DOCX-bestanden omzet naar Markdown inclusief ingesloten afbeeldingen met Aspose.Words for Java in een stapsgewijze handleiding.
 
 ## Veelgestelde Vragen
 

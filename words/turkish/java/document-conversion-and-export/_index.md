@@ -98,11 +98,28 @@ Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matemat
 ### [Aspose Word to PDF – Java’da DOCX'i PDF'e Dönüştürme](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekilde PDF formatına dönüştürün.
 
+### [DOCX'i PDF'e Dönüştür – Word'ü Markdown'a Dışa Aktar (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Aspose.Words for Java kullanarak DOCX dosyasını PDF'e dönüştürün ve aynı anda Word içeriğini Markdown formatına dışa aktarın.
+
+### [Aspose.Words for Java'da Yüzen Şekilleri Satır İçi Dışa Aktarma – PDF Dönüştürme Tam Kılavuzu](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Yüzen şekilleri satır içi olarak dışa aktararak PDF dönüşümünde doğru konumlandırmayı sağlayan adım‑adım rehber.
+
 ### [DOCX'ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişilebilirlik özelliklerini ayarlamayı adım adım öğrenin.
 
+### [Word'den Erişilebilir PDF Oluşturma – Word'ten PDF'ye Dönüştürme Kılavuzu](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Word belgelerinden erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişilebilirlik ayarlarını adım adım öğrenin.
+
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
+
+### [Docx'i markdown olarak kaydet – LaTeX denklemleri ve Görüntü Çözünürlüğü ile Tam Kılavuz](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+
+### [Docx'i Görsellerle Markdown'a Dönüştürme – Tam Java Kılavuzu](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Aspose.Words for Java kullanarak docx dosyalarını görsellerle birlikte markdown formatına dönüştürün.
+
+### [PNG Dışa Aktarımında Çözünürlük Ayarlama – Tam Java Rehberi](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Aspose.Words for Java kullanarak PNG dışa aktarımında çözünürlüğü nasıl ayarlayacağınızı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

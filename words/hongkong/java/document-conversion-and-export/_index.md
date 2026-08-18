@@ -74,7 +74,11 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 
+### [Convert DOCX to PDF – Export Word to Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
+
+### [匯出浮動形狀內嵌 – PDF 轉換完整指南](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 
@@ -84,7 +88,15 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [如何在將 DOCX 轉換為 Markdown 時嵌入圖像](./how-to-embed-images-in-markdown-when-converting-docx/)
 
+### [將 docx 轉換為 markdown（含圖像） – 完整 Java 指南](./convert-docx-to-markdown-with-images-complete-java-guide/)
+
 ### [從 DOCX 建立可存取 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
+
+### [從 Word 建立可存取 PDF – 轉換 Word 為 PDF 指南](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+
+### [將 docx 另存為 markdown – 完整指南，含 LaTeX 方程式與影像解析度](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+
+### [如何設定 PNG 匯出的解析度 – 完整 Java 指南](./how-to-set-resolution-for-png-export-complete-java-guide/)
 
 ## 常見問題
 
