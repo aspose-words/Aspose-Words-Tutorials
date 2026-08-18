@@ -18,7 +18,7 @@ tags:
 - Markdown
 - DOCX
 - Image extraction
-title: Save docx as markdown & extract images with Aspose.Words – Complete C# guide
+title: Convert docx to markdown and extract images with Aspose.Words – Complete C# guide
 url: /net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
@@ -249,7 +249,7 @@ public class CustomResourceCallback : IResourceSavingCallback
 
 | Question | Answer |
 |----------|--------|
-| *Do I need a license for Aspose.Words?* | The library works in evaluation mode without a license, but for production use you need a commercial license. See the licensing information at `/net/licensing/`. |
+| *Do I need a license for Aspose.Words?* | The library works in evaluation mode without a license, but for production use you need a commercial license. See the licensing information at {{< relref "/net/licensing/" >}}. |
 | *Can I use this with .NET Framework 4.8?* | Yes, Aspose.Words supports .NET Framework 4.0 and later. |
 | *What image formats are supported?* | PNG, JPEG, GIF, BMP, TIFF, and SVG are all handled automatically. |
 | *Is the callback thread‑safe?* | The callback runs on the same thread that performs the save operation, so no additional synchronization is required. |

@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Summarize Word docs with Aspose.Words API in C#.
+description: Learn how to summarize Word documents using the Aspose.Words API in C#, extracting text from DOCX files and generating AI‑powered abstracts with a local LLM.
 draft: false
 keywords:
 - summarize word document

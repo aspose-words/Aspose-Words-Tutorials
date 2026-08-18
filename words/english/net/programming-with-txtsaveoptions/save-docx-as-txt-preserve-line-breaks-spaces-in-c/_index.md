@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-02-17
-description: Save docx as txt with Aspose.Words for .NET.
+description: Learn how to save a DOCX file as TXT using Aspose.Words for .NET while preserving line breaks and trailing spaces.
 draft: false
 keywords:
 - save docx as txt
@@ -17,7 +17,7 @@ tags:
 - C#
 - Aspose.Words
 - Text Conversion
-title: Save docx as txt with Aspose.Words – Preserve Line Breaks & Spaces in C#
+title: Save docx as txt with Aspose.Words TxtSaveOptions – Preserve Line Breaks & Spaces in C#
 url: /net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 

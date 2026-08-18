@@ -16,7 +16,7 @@ tags:
 - Aspose.Words
 - C#
 - Document Recovery
-title: Recover corrupted DOCX with Aspose.Words – Complete C# Guide
+title: Recover corrupted DOCX with Aspose.Words LoadOptions – Complete C# Guide
 url: /net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/
 ---
 
@@ -150,7 +150,7 @@ If the file is beyond repair, you’ll see the catch block message, and you can 
 
 Here’s a quick diagram that illustrates the flow from *open corrupted docx* → recovery → verification.
 
-![Diagram showing the recovery flow for recover corrupted docx example](/images/recover-corrupted-docx-flow.png "recover corrupted docx example")
+![Diagram showing the recovery flow for recover corrupted docx example](images/recover-corrupted-docx-flow.png "recover corrupted docx example")
 
 *Alt text:* **recover corrupted docx** example diagram.
 

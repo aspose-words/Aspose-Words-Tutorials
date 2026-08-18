@@ -1,8 +1,8 @@
 ---
-title: Use Aspose.Words for .NET API to Summarize Documents with AI‑Powered Processing
+title: Summarize Documents with AI‑Powered Processing
 linktitle: AI Powered Document Processing
 second_title: Aspose.Words Document Processing API
-description: Unlock the power of Aspose.Words for .NET by integrating AI‑powered document summarization, formatting, and automation. Learn how to enhance document processing workflows, improve accuracy, and achieve faster results with cutting‑edge AI models.
+description: Learn how to summarize Word documents with AI using Aspose.Words for .NET, integrating local AI, Google AI, and OpenAI models for fast, accurate document summaries.
 weight: 1461
 url: /net/ai-powered-document-processing/
 ---

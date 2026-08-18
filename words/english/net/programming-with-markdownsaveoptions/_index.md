@@ -1,8 +1,8 @@
 ---
-title: Export Word Documents to Markdown with Aspose.Words for .NET MarkdownSaveOptions
-linktitle: Export Word Documents to Markdown with Aspose.Words for .NET MarkdownSaveOptions
+title: Export Word Documents to Markdown using Aspose.Words API for .NET with MarkdownSaveOptions
+linktitle: Export Word Documents to Markdown using Aspose.Words API for .NET with MarkdownSaveOptions
 second_title: Aspose.Words Document Processing API
-description: Learn how to export Word documents to Markdown using Aspose.Words for .NET with MarkdownSaveOptions. Detailed tutorials with sample C# code for saving Word files in Markdown format, covering image handling, table alignment, and style conversion.
+description: Learn how to export Word documents to Markdown using the Aspose.Words API for .NET with MarkdownSaveOptions. Detailed tutorials with sample C# code for saving Word files in Markdown format, covering image handling, table alignment, style conversion, and advanced customization options.
 weight: 1640
 url: /net/programming-with-markdownsaveoptions/
 ---
