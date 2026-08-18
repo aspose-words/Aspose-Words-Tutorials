@@ -49,6 +49,8 @@ Python için Aspose.Words'ü kullanarak Word belgelerini nasıl etkili bir şeki
 Python için Aspose.Words'ü kullanarak belge özelliklerini ve meta verilerini nasıl yöneteceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Web Uzantıları ile Belge İşlevselliğini Genişletme](./document-functionality-web-extensions/)
 Aspose.Words for Python kullanarak web uzantılarıyla belge işlevselliğini nasıl genişleteceğinizi öğrenin. Sorunsuz entegrasyon için kaynak kodlu adım adım kılavuz.
+### [DOCX Kurtarma Rehberi – Aspose.Words ile Tam Kılavuz](./how-to-recover-docx-complete-guide-with-aspose-words/)
+Aspose.Words kullanarak bozuk DOCX dosyalarını nasıl kurtaracağınızı adım adım öğrenin. Kaynak kodlu tam rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
