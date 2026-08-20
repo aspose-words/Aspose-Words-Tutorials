@@ -60,6 +60,9 @@ Word belgelerini Python için Aspose.Words kullanarak PostScript formatına nas�
 ### [Bozuk DOCX Dosyasını Kurtar – Word Belgesini Aç ve Yükle](./recover-corrupted-docx-open-load-word-document/)
 Aspose.Words for Python-net ile bozuk DOCX dosyalarını açma ve yükleme yöntemlerini öğrenin.
 
+### [Bozuk Word Belgesini Kurtarın ve Kurtarılan Dosyayı Aspose.Words ile Kaydedin](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+Aspose.Words kullanarak bozuk Word belgesini kurtarın ve kurtarılan dosyayı kaydedin.
+
 ## Ek Kaynaklar
 
 - [Aspose.Words for Python-net Belgeleri](https://docs.aspose.com/words/python-net/)
