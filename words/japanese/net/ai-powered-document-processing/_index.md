@@ -42,6 +42,7 @@
 | [Google AI モデルの操作](./working-with-google-ai-model/) Aspose.Words for .NET と Google AI を使用してドキュメント処理を強化し、簡潔な要約を簡単に作成します。 |
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
+| [空白のWord文書を作成し、フランス語に翻訳する](./create-a-blank-word-document-and-translate-it-to-french/) Aspose.Words for .NET を使用して空のWord文書を作成し、フランス語へ自動翻訳する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
