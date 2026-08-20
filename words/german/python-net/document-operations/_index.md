@@ -60,6 +60,8 @@ Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python in das PostScr
 ### [Beschädigtes DOCX wiederherstellen – Word-Dokument öffnen & laden](./recover-corrupted-docx-open-load-word-document/)
 Lernen Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für Python‑net öffnen und wiederherstellen.
 
+### [Wie man ein beschädigtes Word-Dokument wiederherstellt und die wiederhergestellte Word-Datei mit Aspose.Words speichert](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für die Python-Net-Dokumentation](https://docs.aspose.com/words/python-net/)

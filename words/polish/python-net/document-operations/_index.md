@@ -60,6 +60,9 @@ Dowiedz się, jak konwertować dokumenty Word do formatu PostScript za pomocą A
 ### [Odzyskaj uszkodzony DOCX – otwórz i załaduj dokument Word](./recover-corrupted-docx-open-load-word-document/)
 Dowiedz się, jak otworzyć i załadować uszkodzony plik DOCX przy użyciu Aspose.Words dla Python-net.
 
+### [Jak odzyskać uszkodzony dokument Word i zapisać odzyskany plik Word przy użyciu Aspose.Words](./how-to-recover-corrupted-word-document-and-save-recovered-wo/)
+Dowiedz się, jak przywrócić uszkodzony dokument Word i zapisać go ponownie przy użyciu Aspose.Words.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
