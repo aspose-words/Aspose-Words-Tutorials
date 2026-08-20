@@ -31,6 +31,8 @@
 ### [Κύριος χειρισμός έργου VBA σε Java χρησιμοποιώντας το Aspose.Words API](./master-vba-project-manipulation-aspose-java/)
 Μάθετε πώς να αυτοματοποιείτε την επεξεργασία εγγράφων και να βελτιώνετε την παραγωγικότητα χειριζόμενοι έργα VBA μέσα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 
+### [Πώς να δημιουργήσετε έλεγχο ActiveX σε έγγραφο Word χρησιμοποιώντας C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)

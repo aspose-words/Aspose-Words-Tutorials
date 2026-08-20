@@ -71,6 +71,10 @@ Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words 
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
+### [Comment ajouter des lignes de repère à un diagramme circulaire en Java avec l'API Chart](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Apprenez à ajouter des lignes de repère aux graphiques circulaires en Java à l'aide de l'API Chart d'Aspose.
+### [Créer un document Word avec des espaces réservés et des listes](./how-to-create-word-document-with-placeholders-and-lists/)
+Apprenez à générer des documents Word contenant des espaces réservés et des listes dynamiques avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Hur du lägger till ledarlinjer i pajdiagram i Java med Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Lär dig steg för steg hur du lägger till ledarlinjer i ett pajdiagram med Aspose.Words för Java Chart API.
+### [Skapa Word-dokument med platshållare och listor](./how-to-create-word-document-with-placeholders-and-lists/)
+Lär dig att skapa Word-dokument med platshållare och listor med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,7 +43,7 @@ Filigran, bir belgenin ana içeriğinin arkasına yerleştirilen hafif bir gör�
 - Üretim kullanımı için geçerli bir Aspose lisansı (ücretsiz deneme mevcuttur).
 
 ## Aspose.Words for Java ile Başlarken
-Aspose.Words for Java’a yeni misiniz? Endişelenmeyin! Bu öğretici, ilk kurulum adımlarını size gösterecek ve bu API’yı kullanmak için sağlam bir temel sağlayacak. Kısa sürede çalışır duruma geleceksiniz.
+Aspose.Words for Java’ya yeni misiniz? Endişelenmeyin! Bu öğretici, ilk kurulum adımlarını size gösterecek ve bu API’yı kullanmak için sağlam bir temel sağlayacak. Kısa sürede çalışır duruma geleceksiniz.
 
 ## Belgeleri Farklı Formatlara Dönüştürme
 Aspose.Words for Java’nın temel özelliklerinden biri, **docx’i pdf’e** ve diğer birçok formata sorunsuz bir şekilde dönüştürme yeteneğidir. DOCX dosyasını PDF’e ya da tersine dönüştürmeniz gerektiğinde, bu öğretici adım adım süreci size anlatacak. Dönüşüm seçenekleri ve özelleştirme imkanları hakkında derin bir anlayış kazanacaksınız.
@@ -92,6 +92,9 @@ Aspose.Words for Java’da tabloları biçimlendirmeyi ve tablo stilleri uygulam
 ### [Aspose.Words for Java'da docx'i markdown'a dönüştürme – Matematik denklemlerini LaTeX'e dışa aktarma](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words kullanarak docx dosyasını markdown’a dönüştürün ve matematik denklemlerini LaTeX formatına dışa aktarın.
 
+### [Aspose.Words ile docx'i markdown'a dönüştürme](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Aspose.Words kullanarak docx dosyalarını markdown formatına dönüştürmeyi adım adım öğrenin.
+
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.
 
@@ -103,6 +106,9 @@ DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişi
 
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
+
+### [Java’da markdown'tan docx'e dönüşüm nasıl yapılır](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Java kullanarak markdown dosyasını docx formatına dönüştürmeyi adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

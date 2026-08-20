@@ -41,6 +41,8 @@ Naučte se, jak šifrovat a dešifrovat dokumenty pomocí Aspose.Words pro Javu.
 Naučte se, jak implementovat zabezpečené digitální podpisy v dokumentech pomocí Aspose.Words pro Javu. Zajistěte integritu dokumentu pomocí podrobných pokynů a zdrojového kódu.
 ### [Redakční úprava dokumentů a ochrana osobních údajů](./document-redaction-data-protection/)
 Naučte se, jak zabezpečit své dokumenty a redigovat citlivá data pomocí Aspose.Words pro Javu. Podrobný návod se zdrojovým kódem.
+### [Jak podepsat dokument Word v C# pomocí certifikátu X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Naučte se, jak podepsat dokument Word v C# pomocí certifikátu X509 s Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

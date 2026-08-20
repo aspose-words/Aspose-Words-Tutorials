@@ -71,6 +71,10 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Hoe een Word-document met tijdelijke aanduidingen en lijsten te maken](./how-to-create-word-document-with-placeholders-and-lists/)
+Leer hoe je een Word-document maakt met placeholders en lijsten in Aspose.Words voor Java.
+### [Leidlijnen toevoegen aan een taartdiagram in Java met de Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Leer hoe je leidlijnen toevoegt aan een taartdiagram met de Aspose.Words Chart API in Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

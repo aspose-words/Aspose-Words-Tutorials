@@ -71,6 +71,10 @@
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
 استكشف Aspose.Words في جافا: دليل شامل لاستخدام الأقسام. أضف أقسامًا، احذفها، أضف إليها، انسخها مع أمثلة برمجية.
+### [كيفية إضافة خطوط القائد إلى مخطط الفطيرة في Java باستخدام Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+تعلم كيفية إضافة خطوط القائد إلى مخطط الفطيرة في Java باستخدام Chart API خطوة بخطوة.
+### [كيفية إنشاء مستند Word مع العناصر النائبة والقوائم](./how-to-create-word-document-with-placeholders-and-lists/)
+تعلم كيفية إنشاء مستند Word يحتوي على عناصر نائبة وقوائم بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Создание Word‑документа с заполнителями и списками в Aspose.Words для Java](./how-to-create-word-document-with-placeholders-and-lists/)
+Узнайте, как создавать документы Word с заполнителями и списками, используя Aspose.Words для Java.
+### [Как добавить линии‑указатели к круговой диаграмме в Java с помощью Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Узнайте, как добавить линии‑указатели к круговой диаграмме в Java с использованием Chart API.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

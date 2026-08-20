@@ -45,32 +45,51 @@
 ## 使用文件元素教學
 ### [在 Aspose.Words for Java 中使用註釋](./using-comments/)
 了解如何在 Aspose.Words for Java 中使用註解。有關在文件中新增和自訂註解的逐步教學。
+
 ### [在 Aspose.Words for Java 中使用字段](./using-fields/)
 在本逐步教程中學習如何有效地使用 Aspose.Words 處理 Java 欄位。輕鬆建立動態 Word 文件。
+
 ### [在 Aspose.Words for Java 中使用字體](./using-fonts/)
 探索 Aspose.Words for Java 中的字體格式：大小、樣式、顏色等。輕鬆建立格式精美的文件。
+
 ### [在 Aspose.Words for Java 中使用腳註和尾註](./using-footnotes-and-endnotes/)
 學習在 Aspose.Words for Java 中有效地使用腳註和尾註。立即增強您的文件格式化技能！
+
 ### [在 Aspose.Words for Java 中使用表單字段](./using-form-fields/)
 學習使用 Aspose.Words for Java 建立帶有表單欄位的互動式 Word 文件。立即開始！
+
 ### [在 Aspose.Words for Java 中使用 HarfBuzz](./using-harfbuzz/)
 學習使用 HarfBuzz 在 Aspose.Words for Java 中進行進階文字整形。請按照本逐步指南增強複雜腳本中的文字渲染。
+
 ### [在 Aspose.Words for Java 中使用頁首和頁尾](./using-headers-and-footers/)
 逐步了解如何在 Aspose.Words for Java 中使用頁首和頁尾。輕鬆建立專業文件。
+
 ### [在 Aspose.Words for Java 中使用連字符](./using-hyphenation/)
 透過本綜合教學學習如何在 Aspose.Words for Java 中有效地使用連字號。立即增強文件的可讀性！
+
 ### [在 Aspose.Words for Java 中使用列表](./using-lists/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中使用清單。有效地組織和格式化您的文件。
+
+### [在 Aspose.Words for Java 中使用佔位符和清單建立 Word 文件](./how-to-create-word-document-with-placeholders-and-lists/)
+學習在 Aspose.Words for Java 中建立包含佔位符與清單的 Word 文件的步驟。
+
 ### [在 Aspose.Words for Java 中使用 Markdown](./using-markdown/)
 透過本逐步教程學習在 Aspose.Words for Java 中使用 Markdown。輕鬆建立、設計和儲存 Markdown 文件。
+
 ### [在 Aspose.Words for Java 中使用節點](./using-nodes/)
 透過本逐步教學學習如何在 Aspose.Words for Java 中操作節點。釋放文檔處理能力。
+
 ### [在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控件](./using-ole-objects-and-activex/)
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
+
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
+
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+
+### [在 Java 中使用 Chart API 為餅圖添加指示線](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+了解如何在 Java 中使用 Chart API 為餅圖添加指示線，提升圖表的可讀性與美觀。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
