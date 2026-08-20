@@ -37,6 +37,12 @@ Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt g
 ### [Word-document maken in Java – Rechthoekvorm toevoegen met schaduweffect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Leer hoe u een rechthoekige vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
 
+### [Hoe vormen groeperen in een Word-document met Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Leer hoe u meerdere vormen in een Word-document groepeert met Aspose.Words voor Java.
+
+### [Hoe de verborgen eigenschap van een vorm instellen in Aspose.Words voor C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Leer hoe u de verborgen eigenschap van een vorm instelt met Aspose.Words voor C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)

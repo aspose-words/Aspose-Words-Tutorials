@@ -37,6 +37,12 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 ### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
 
+### [Jak seskupit tvary v dokumentu Word pomocí Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Naučte se, jak seskupit tvary v dokumentu Word pomocí Aspose.Words.
+
+### [Jak nastavit skrytou vlastnost tvaru v Aspose.Words pro C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Naučte se, jak nastavit vlastnost Hidden pro tvary v dokumentech Word pomocí Aspose.Words pro C#.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

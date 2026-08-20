@@ -92,6 +92,9 @@ Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. 
 ### [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a convertir documentos DOCX a Markdown y exportar ecuaciones matemáticas a LaTeX usando Aspose.Words.
 
+### [Cómo convertir docx a markdown con Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Aprende a convertir documentos DOCX a Markdown usando Aspose.Words para Java paso a paso.
+
 ### [Guardar documento como TXT – Guía rápida para exportar ecuaciones de Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aprenda a guardar documentos Word como archivos TXT y exportar ecuaciones matemáticas manteniendo el formato.
 
@@ -118,6 +121,9 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
+
+### [Cómo realizar la conversión de markdown a docx en Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Aprende a convertir archivos markdown a DOCX usando Aspose.Words for Java paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

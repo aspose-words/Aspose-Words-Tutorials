@@ -41,6 +41,8 @@ Aspose.Words for Java를 사용하여 문서를 암호화하고 복호화하는 
 Aspose.Words for Java를 사용하여 문서에 안전한 디지털 서명을 구현하는 방법을 알아보세요. 단계별 가이드와 소스 코드를 통해 문서 무결성을 확보하세요.
 ### [문서 편집 및 데이터 보호](./document-redaction-data-protection/)
 Aspose.Words for Java를 사용하여 문서를 보호하고 민감한 데이터를 삭제하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+### [C#에서 X509 인증서를 사용하여 워드 문서에 서명하는 방법](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Aspose.Words를 사용하여 X509 인증서로 C# 워드 문서에 디지털 서명을 적용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

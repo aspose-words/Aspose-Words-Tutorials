@@ -71,6 +71,10 @@ Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使�
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [Aspose.Words for Java でプレースホルダーとリストを使用した Word 文書の作成](./how-to-create-word-document-with-placeholders-and-lists/)
+
+### [Java の Chart API で円グラフにリーダーラインを追加する方法](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java の Chart API を使用して、円グラフにリーダーライン（データラベルの線）を追加する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

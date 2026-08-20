@@ -108,11 +108,15 @@ weight: 22
 ### [Сохранить документ как TXT – Быстрое руководство по экспорту математических формул Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Узнайте, как экспортировать математические уравнения из Word в формат TXT с помощью Aspose.Words for Java.
 
+### [Как выполнить конвертацию markdown в docx в Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+
 ### [Aspose.Words в PDF – Конвертировать DOCX в PDF в Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Пошаговое руководство по конвертации DOCX в PDF с помощью Aspose.Words for Java, включая настройку параметров сохранения.
 
 ### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
 Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
+
+### [Как конвертировать docx в markdown с помощью Aspose.Words](./how-to-convert-docx-to-markdown-with-aspose-words/)
 
 ## Часто задаваемые вопросы
 

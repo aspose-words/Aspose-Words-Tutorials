@@ -44,6 +44,8 @@ In conclusion, mastering document element manipulation using Aspose.Words for Ja
 Remember, practice makes perfect, and with Aspose.Words for Java, you'll be creating, modifying, and enhancing documents like a pro in no time. Happy coding!
 
 ## Using Document Elements Tutorials
+### [How to create word document with placeholders and lists](./how-to-create-word-document-with-placeholders-and-lists/)
+Learn how to create Word documents with placeholders and lists using Aspose.Words for Java.
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)
@@ -72,6 +74,8 @@ Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create i
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+### [How to add leader lines to pie chart in Java with the Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Learn how to add leader lines to pie charts using Aspose.Words for Java Chart API.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

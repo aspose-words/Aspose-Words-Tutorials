@@ -32,6 +32,9 @@ In today's digital landscape, seamless integration and interoperability are cruc
 ### [Master VBA Project Manipulation in Java Using Aspose.Words API](./master-vba-project-manipulation-aspose-java/)
 Learn how to automate document processing and enhance productivity by manipulating VBA projects within Word documents using Aspose.Words for Java.
 
+### [How to create ActiveX control in a Word document using C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+Learn how to embed an ActiveX control in a Word document using Aspose.Words for Java with C# interop.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

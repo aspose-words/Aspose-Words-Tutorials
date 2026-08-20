@@ -31,6 +31,9 @@
 ### [Мастерское управление проектами VBA на Java с использованием API Aspose.Words](./master-vba-project-manipulation-aspose-java/)
 Узнайте, как автоматизировать обработку документов и повысить производительность, управляя проектами VBA в документах Word с помощью Aspose.Words для Java.
 
+### [Как создать элемент управления ActiveX в документе Word с помощью C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+Узнайте, как добавить и настроить элемент управления ActiveX в документе Word, используя C# и Aspose.Words.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)
