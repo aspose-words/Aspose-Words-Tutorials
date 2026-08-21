@@ -52,6 +52,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [Cara Memuat DOCX di C# – Panduan Lengkap](./how-to-load-docx-in-c-complete-guide/) | Pelajari cara memuat file DOCX menggunakan C# dengan panduan lengkap ini. |
 | [Cara Mendeteksi Font di Aspose.Words – Menangani Peringatan & Pengaturan](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Pelajari cara mendeteksi font, menangani peringatan, dan mengatur pengaturan font dalam Aspose.Words untuk .NET. |
 | [Cara Memuat DOCX dan Mendeteksi Font yang Hilang – Panduan Lengkap C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Pelajari cara memuat file DOCX dan mendeteksi font yang hilang menggunakan Aspose.Words untuk .NET dengan panduan lengkap C#. |
+| [c# memuat dokumen Word – mendeteksi & menangani font yang hilang](./c-load-word-document-detect-handle-missing-fonts/) | Pelajari cara memuat dokumen Word, mendeteksi dan menangani font yang hilang dengan Aspose.Words untuk .NET. |
 
 | [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Pelajari cara menangkap font yang digunakan dalam dokumen Word dengan Aspose.Words melalui panduan lengkap langkah demi langkah. |
 

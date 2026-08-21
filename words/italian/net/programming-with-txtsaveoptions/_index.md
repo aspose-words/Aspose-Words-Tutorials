@@ -29,6 +29,7 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | [Usa il carattere spazio per livello per l'indentazione dell'elenco](./use-space-character-per-level-for-list-indentation/) | Scopri come creare elenchi multilivello con rientro tramite spazi in Aspose.Words per .NET. Guida passo passo per una formattazione precisa dei documenti. |
 | [Converti docx in txt – Guida completa per salvare Word come testo semplice](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Scopri come convertire file DOCX in TXT con Aspose.Words per .NET, passo passo, includendo opzioni di codifica e formattazione. |
 | [Salva documento come TXT – Guida completa C# per convertire DOCX in testo semplice](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Scopri come salvare un documento Word come file di testo semplice usando Aspose.Words per .NET con un esempio completo in C#. |
+| [Salva docx come txt – Conserva interruzioni di riga e spazi in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Scopri come convertire un documento DOCX in file TXT mantenendo le interruzioni di riga e gli spazi originali usando Aspose.Words per .NET. |
 
 | [Salva docx come txt – Guida rapida per sviluppatori C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Scopri come convertire rapidamente file DOCX in TXT usando Aspose.Words per .NET con esempi di codice C#. |
 

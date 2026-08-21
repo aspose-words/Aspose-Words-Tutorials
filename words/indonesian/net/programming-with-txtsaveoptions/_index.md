@@ -30,6 +30,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengonversi docx ke txt – Panduan Lengkap Menyimpan Word sebagai Teks Biasa](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Pelajari cara mengonversi file DOCX menjadi TXT dengan panduan lengkap, termasuk opsi penyimpanan teks polos menggunakan Aspose.Words untuk .NET. |
 | [Simpan Dokumen sebagai TXT – Panduan Lengkap C# untuk Mengonversi DOCX ke Teks Biasa](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Pelajari cara menyimpan dokumen Word sebagai file teks menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. |
 | [Simpan docx sebagai txt – Panduan Cepat untuk Pengembang C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Pelajari cara menyimpan file docx sebagai txt dengan cepat menggunakan Aspose.Words untuk .NET dalam bahasa C#. |
+| [Simpan docx sebagai txt – Pertahankan Baris Baru & Spasi dalam C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Pelajari cara menyimpan file docx sebagai txt sambil mempertahankan pemutusan baris dan spasi menggunakan Aspose.Words untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

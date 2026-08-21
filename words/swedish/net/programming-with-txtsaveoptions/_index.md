@@ -30,6 +30,7 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Konvertera docx till txt – Komplett guide för att spara Word som vanlig text](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Lär dig hur du konverterar DOCX-filer till ren text med Aspose.Words för .NET i en steg-för-steg-guide. |
 | [Spara dokument som TXT – Komplett C#-guide för att konvertera DOCX till vanlig text](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Lär dig hur du med Aspose.Words för .NET konverterar DOCX-filer till ren text med en komplett C#-guide. |
 | [Spara docx som txt – Snabbguide för C#-utvecklare](./save-docx-as-txt-quick-guide-for-c-developers/) | Lär dig snabbt hur du konverterar DOCX-filer till TXT med C# i Aspose.Words för .NET. |
+| [Spara docx som txt – Bevara radbrytningar och mellanslag i C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Lär dig hur du sparar ett docx-dokument som txt med bevarade radbrytningar och mellanslag i C# med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

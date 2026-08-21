@@ -1,12 +1,11 @@
 ---
-title: Basic Conversions
-linktitle: Basic Conversions
+title: "Use Aspose.Words for .NET to Convert Documents to PDF, HTML, and RTF – Basic Conversions"
+linktitle: "Use Aspose.Words for .NET to Convert Documents to PDF, HTML, and RTF – Basic Conversions"
 second_title: Aspose.Words Document Processing API
-description: Learn basic conversions with Aspose.Words for .NET. Easily convert Word documents to other formats such as PDF, HTML, RTF and more.
+description: Learn how to convert Word documents to PDF, HTML, RTF, EPUB, and many other formats using the Aspose.Words for .NET API. This guide provides clear examples, code snippets, and step‑by‑step instructions to automate document conversions efficiently in your .NET applications.
 weight: 1600
 url: /net/basic-conversions/
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -16,10 +15,19 @@ url: /net/basic-conversions/
 
 # Basic Conversions
 
+## Conversion options overview
 
-Basic Conversions walks you through basic document conversions using the Aspose.Words for .NET library. Tutorials provide step-by-step explanations, detailed source code and practical examples to convert Word documents to different formats such as PDF, HTML, EPUB, images and more. You will also learn how to specify conversion options, manage fonts, images and layouts. This resource is essential for developers wishing to automate document conversions using Aspose.Words for .NET, providing complete flexibility and control over the conversion process.
+Basic Conversions walks you through basic document conversions using the Aspose.Words for .NET library. Tutorials provide step‑by‑step explanations, detailed source code and practical examples to convert Word documents to different formats such as PDF, HTML, EPUB, images and more. You will also learn how to specify conversion options, manage fonts, images and layouts. This resource is essential for developers wishing to automate document conversions using Aspose.Words for .NET, providing complete flexibility and control over the conversion process.
 
- ## Tutorials
+```csharp
+// Load a Word document
+var doc = new Aspose.Words.Document("input.docx");
+
+// Save as PDF
+doc.Save("output.pdf", Aspose.Words.SaveFormat.Pdf);
+```
+
+## Tutorials
 | Title | Description |
 | --- | --- |
 | [Convert Doc To Docx](./doc-to-docx/) | Learn how to convert DOC to DOCX using Aspose.Words for .NET. Step-by-step guide with code examples. Perfect for developers.  |
@@ -30,6 +38,7 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [Convert Docx To Mhtml And Sending Email](./docx-to-mhtml-and-sending-email/) | Learn how to convert DOCX to MHTML and send emails using Aspose.Words for .NET in this step-by-step guide. Boost your productivity with easy automation. |
 | [Convert Docx File To Markdown](./docx-to-markdown/) | Learn how to convert DOCX files to Markdown using Aspose.Words for .NET. Follow our detailed guide for seamless integration in your .NET applications. |
 | [Convert Docx To Txt](./docx-to-txt/) | Convert DOCX to TXT using Aspose.Words for .NET with our step-by-step guide. Learn to transform documents efficiently and effortlessly. |
+| [save docx as txt – Complete Guide to Export Word Equations as LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Learn how to save DOCX as TXT while exporting Word equations to LaTeX using Aspose.Words for .NET. |
 | [Convert Text File To Word Document](./txt-to-docx/) | Learn how to convert text files to Word documents using Aspose.Words for .NET. Efficiently manage document conversions with our comprehensive guide. | 
 | [Save Pdf as Jpeg](./pdf-to-jpeg/) | Effortlessly convert PDFs to JPEGs using Aspose.Words for .NET. Follow our detailed guide with examples and FAQs. Perfect for developers and enthusiasts. |
 | [Save PDF To Word Format (Docx)](./pdf-to-docx/) | Learn how to convert a PDF to a Word document (Docx) using Aspose.Words for .NET in this detailed, step-by-step guide. Perfect for developers. |
@@ -39,13 +48,10 @@ Basic Conversions walks you through basic document conversions using the Aspose.
 | [how to create pdf from Word – Complete C# Guide](./how-to-create-pdf-from-word-complete-c-guide/) | Learn how to create PDF from Word using Aspose.Words for .NET. Complete C# guide with step‑by‑step instructions and code examples.  |
 | [save docx as pdf with Aspose.Words – Complete C# Guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save DOCX as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

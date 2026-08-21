@@ -1,8 +1,8 @@
 ---
-title: Words Processing with Fonts
-linktitle: Words Processing with Fonts
+title: Using Aspose.Words API for .NET to Process Fonts in Word Documents
+linktitle: Using Aspose.Words API for .NET to Process Fonts in Word Documents
 second_title: Aspose.Words Document Processing API
-description: Words Processing with Fonts tutorials teach you how to work with fonts in Word with Aspose.Words for .NET. Formatting, substitutions, notifications, and more.
+description: Learn how to process fonts in Word documents using the Aspose.Words API for .NET, including formatting, substitution, and notification features to enhance document rendering. This tutorial also shows how to load custom font folders, configure font substitution rules, and handle missing‑font notifications so your documents render consistently across platforms.
 weight: 420
 url: /net/working-with-fonts/
 ---
@@ -17,13 +17,31 @@ url: /net/working-with-fonts/
 # Words Processing with Fonts
 
 
-Words Processing with Fonts tutorials guide you through various aspects of Words Processing with fonts, allowing you to perform operations such as changing font formatting, loading fonts from specific directories, managing substitutions fonts and more.
+## Introduction
+
+Words Processing with Fonts tutorials guide you through various aspects of Words Processing with fonts, allowing you to perform operations such as changing font formatting, loading fonts from specific directories, managing substitution fonts and more.
 
 The tutorials provide you with detailed step-by-step explanations for each feature, along with C# language source code to illustrate the concepts. You will learn how to use classes and methods from the Aspose.Words Library for .NET to perform specific font-related tasks in your Word documents.
 
-Whether you want to format text with different fonts, set font substitution rules, load fonts from specific directories, or receive font notifications, the "Words Processing with Fonts" tutorials will provide you with the knowledge to accomplish these tasks. with ease.
+Whether you want to format text with different fonts, set font substitution rules, load fonts from specific directories, or receive font notifications, the "Words Processing with Fonts" tutorials will provide you with the knowledge to accomplish these tasks with ease.
 
- ## Tutorials
+```csharp
+using Aspose.Words;
+using Aspose.Words.Fonts;
+
+// Load a document
+Document doc = new Document("Sample.docx");
+
+// Set a custom font folder
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\MyCustomFonts", true);
+doc.FontSettings = fontSettings;
+
+// Save the document
+doc.Save("Output.docx");
+```
+
+## Tutorials
 | Title | Description |
 | --- | --- |
 | [Font Formatting](./font-formatting/) | Learn how to format fonts in Word documents using Aspose.Words for .NET with a detailed, step-by-step guide. |
@@ -54,7 +72,7 @@ Whether you want to format text with different fonts, set font substitution rule
 | [How to Load DOCX in C# – Complete Guide](./how-to-load-docx-in-c-complete-guide/) | Learn how to load DOCX files in C# using Aspose.Words for .NET with this comprehensive step-by-step guide. |
 | [How to Capture Fonts in Aspose.Words – Complete Guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Learn how to capture fonts in Aspose.Words with a complete step-by-step guide and code examples. |
 | [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Learn how to load a DOCX file and detect missing fonts using Aspose.Words for .NET in this complete C# guide. |
-
+| [c# load word document – detect & handle missing fonts](./c-load-word-document-detect-handle-missing-fonts/) | Learn how to load a Word document and detect & handle missing fonts using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

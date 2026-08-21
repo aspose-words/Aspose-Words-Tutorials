@@ -35,7 +35,6 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Letterfont-fallbackinstellingen instellen](./set-font-fallback-settings/) | Leer hoe u instellingen voor lettertypevervanging instelt in Aspose.Words voor .NET en lettertypevervanging in uw Word-documenten aanpast. |
 | [Laad Noto Fallback-instellingen](./load-noto-fallback-settings/) | Leer hoe u Noto-fallbackinstellingen in een Word-document laadt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om ervoor te zorgen dat alle tekens correct worden weergegeven. |
 | [Standaardinstantie voor lettertypemappen instellen](./set-fonts-folders-default-instance/) | Leer hoe u lettertypemappen instelt voor de standaardinstantie in Aspose.Words voor .NET met deze stap‑voor‑stap tutorial. Pas uw Word-documenten moeiteloos aan. |
-| [Standaardinstantie voor lettertypemappen instellen](./set-fonts-folders-default-instance/) | Leer hoe u lettertypemappen instelt voor de standaardinstantie in Aspose.Words voor .NET met deze stapsgewijze tutorial. Pas uw Word-documenten moeiteloos aan. |
 | [Lettertypen instellen Mappen Meerdere mappen](./set-fonts-folders-multiple-folders/) | Leer hoe u meerdere lettertypemappen in uw Word-documenten kunt instellen met Aspose.Words voor .NET. Deze stap‑voor‑stap handleiding zorgt ervoor dat uw documenten precies de lettertypen gebruiken die u nodig hebt. |
 | [Stel lettertypemappen in Systeem en aangepaste map](./set-fonts-folders-system-and-custom-folder/) Leer hoe u systeem- en aangepaste lettertypemappen in Word-documenten instelt met Aspose.Words voor .NET, zodat uw documenten correct worden weergegeven in verschillende omgevingen. |
 | [Lettertypemappen met prioriteit instellen](./set-fonts-folders-with-priority/) | Leer hoe u lettertypemappen prioriteit geeft in Word-documenten met Aspose.Words voor .NET. Onze handleiding zorgt ervoor dat uw documenten altijd perfect worden weergegeven. |
@@ -53,9 +52,9 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Hoe DOCX in C# te laden – Complete gids](./how-to-load-docx-in-c-complete-guide/) | Leer hoe u DOCX-bestanden in C# kunt laden met Aspose.Words voor .NET in deze uitgebreide stap‑voor‑stap gids. |
 | [Hoe lettertypen detecteren in Aspose.Words – waarschuwingen en instellingen afhandelen](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Leer hoe u ontbrekende of vervangende lettertypen detecteert en waarschuwingen en instellingen beheert met Aspose.Words voor .NET. |
 | [Hoe lettertypen vast te leggen in Aspose.Words – Complete gids](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Leer hoe u lettertypen kunt vastleggen met Aspose.Words voor .NET in deze uitgebreide stap‑voor‑stap handleiding. |
-
 | [DOCX laden en ontbrekende lettertypen detecteren – Complete C#-gids](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Leer hoe u een DOCX-bestand laadt en ontbrekende lettertypen detecteert met Aspose.Words voor .NET in deze stapsgewijze C#-handleiding. |
 | [Waarschuwingen voor lettertypevervanging inschakelen in Aspose.Words – Complete gids](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Leer hoe u waarschuwingen voor lettertypevervanging inschakelt in Aspose.Words voor .NET met deze stapsgewijze handleiding. |
+| [c# Word-document laden – detecteer en verwerk ontbrekende lettertypen](./c-load-word-document-detect-handle-missing-fonts/) | Leer hoe u met Aspose.Words voor .NET een Word-document laadt en ontbrekende lettertypen detecteert en afhandelt. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

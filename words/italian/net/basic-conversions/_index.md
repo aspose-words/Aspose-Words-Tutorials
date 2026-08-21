@@ -37,6 +37,7 @@
 | [Salva Word come PDF con Aspose.Words – Guida completa C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare documenti Word in PDF usando Aspose.Words con una guida completa in C#. |
 | [Come creare PDF da Word – Guida completa C#](./how-to-create-pdf-from-word-complete-c-guide/) | Scopri come creare PDF da documenti Word con Aspose.Words per .NET, guida completa passo passo in C#. |
 | [Salva Docx come PDF con Aspose.Words – Guida completa C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Scopri come salvare i file Docx come PDF usando Aspose.Words con una guida completa in C#. |
+| [Salva docx come txt – Guida completa per esportare equazioni Word in LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Scopri come esportare le equazioni di Word in LaTeX salvando i file DOCX come TXT con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

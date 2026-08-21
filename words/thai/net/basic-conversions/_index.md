@@ -37,6 +37,7 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 | [บันทึกไฟล์ PDF เป็น Jpeg](./pdf-to-jpeg/) แปลงไฟล์ PDF เป็น JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ทำตามคำแนะนำโดยละเอียดของเราพร้อมตัวอย่างและคำถามที่พบบ่อย เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ
 - [บันทึก PDF เป็นรูปแบบ Word (Docx)](./pdf-to-docx/) | เรียนรู้วิธีแปลง PDF เป็นเอกสาร Word (Docx) โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา |
 - [วิธีส่งออก LaTeX จาก Word – คู่มือขั้นตอนโดยขั้นตอน](./how-to-export-latex-from-word-step-by-step-guide/) | เรียนรู้วิธีส่งออกเนื้อหา LaTeX จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดและง่ายดาย -
+- [บันทึก docx เป็น txt – คู่มือฉบับสมบูรณ์เพื่อส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ Word เป็น LaTeX อย่างละเอียด -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,6 +30,7 @@ Nhờ các hướng dẫn này, bạn sẽ có thể khai thác đầy đủ cá
 | [Chuyển đổi docx sang txt – Hướng dẫn đầy đủ để lưu Word dưới dạng văn bản thuần](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang tệp TXT bằng Aspose.Words cho .NET, bao gồm các tùy chọn lưu và ví dụ mã C#. |
 | [Lưu tài liệu dưới dạng TXT – Hướng dẫn C# đầy đủ để chuyển DOCX sang văn bản thuần](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang tệp TXT bằng C# trong Aspose.Words cho .NET. |
 | [Lưu file docx thành txt – Hướng dẫn nhanh cho lập trình viên C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Hướng dẫn nhanh cách chuyển đổi tài liệu docx sang định dạng txt trong C# bằng Aspose.Words. |
+| [Lưu docx thành txt – Bảo toàn ngắt dòng và khoảng trắng trong C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Hướng dẫn lưu tài liệu docx dưới dạng txt trong C# đồng thời giữ nguyên ngắt dòng và khoảng trắng. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

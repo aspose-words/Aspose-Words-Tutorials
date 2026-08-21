@@ -30,6 +30,7 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Docx naar txt converteren – Complete gids voor het opslaan van Word als platte tekst](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Leer hoe u een DOCX-bestand naar platte tekst converteert met Aspose.Words voor .NET, inclusief alle opties voor opslaan. |
 | [Document opslaan als TXT – Complete C#-gids om DOCX naar platte tekst te converteren](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Leer hoe u een DOCX-document naar platte tekst converteert met C# en Aspose.Words. |
 | [Docx opslaan als txt – Snelle gids voor C#-ontwikkelaars](./save-docx-as-txt-quick-guide-for-c-developers/) | Leer hoe u een DOCX-bestand snel omzet naar een TXT-bestand met C# en Aspose.Words, inclusief belangrijke opties en voorbeeldcode. |
+| [Docx opslaan als txt – behoud regelafbrekingen en spaties in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Leer hoe u een DOCX-bestand opslaat als TXT met behoud van regelafbrekingen en spaties met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

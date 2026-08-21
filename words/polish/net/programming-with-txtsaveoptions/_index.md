@@ -30,6 +30,7 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 | [Konwertuj docx na txt – Kompletny przewodnik po zapisywaniu Worda jako zwykły tekst](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET konwertować pliki DOCX na TXT, zachowując formatowanie i kontrolując opcje zapisu. |
 | [Zapisz dokument jako TXT – Kompletny przewodnik C# konwertujący DOCX na tekst zwykły](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Dowiedz się, jak w C# konwertować pliki DOCX do formatu TXT, wykorzystując Aspose.Words i pełne opcje zapisu tekstu. |
 | [Zapisz docx jako txt – szybki przewodnik dla programistów C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Dowiedz się, jak szybko przekonwertować plik DOCX na TXT w C# przy użyciu Aspose.Words. |
+| [Zapisz docx jako txt – zachowaj podziały wierszy i spacje w C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Dowiedz się, jak zapisać dokument DOCX jako plik TXT, zachowując podziały wierszy i spacje, używając Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

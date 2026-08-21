@@ -37,6 +37,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Zapisz Word jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument Word jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
 | [Jak utworzyć PDF z Worda – Kompletny przewodnik C#](./how-to-create-pdf-from-word-complete-c-guide/) | Dowiedz się, jak w pełni automatyzować konwersję dokumentów Word do PDF w C# przy użyciu Aspose.Words. |
 | [Zapisz DOCX jako PDF przy użyciu Aspose.Words – Kompletny przewodnik C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Dowiedz się, jak w prosty sposób zapisać dokument DOCX jako PDF przy użyciu Aspose.Words w C#. Szczegółowy przewodnik krok po kroku. |
+| [Zapisz docx jako txt – Kompletny przewodnik eksportu równań Word do LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Dowiedz się, jak wyeksportować równania z dokumentu Word (docx) do formatu LaTeX, zapisując je jako plik txt. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

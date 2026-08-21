@@ -30,7 +30,7 @@ Dank dieser Tutorials können Sie die Funktionalitäten von Aspose.Words für .N
 | [DOCX in TXT konvertieren – Komplettanleitung zum Speichern von Word als Klartext](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET in reine Textdateien konvertieren und dabei Optionen wie Kodierung und Zeilenumbrüche steuern. |
 | [Dokument als TXT speichern – Vollständiger C#-Leitfaden zur Konvertierung von DOCX in Klartext](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in eine reine Textdatei konvertieren. |
 | [DOCX als TXT speichern – Schnellleitfaden für C#-Entwickler](./save-docx-as-txt-quick-guide-for-c-developers/) | Erfahren Sie, wie Sie ein DOCX-Dokument schnell in eine TXT-Datei konvertieren, mit Beispielcode für C#-Entwickler. |
-
+| [DOCX als TXT speichern – Zeilenumbrüche & Leerzeichen beibehalten in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument als TXT speichern und dabei Zeilenumbrüche sowie Leerzeichen erhalten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

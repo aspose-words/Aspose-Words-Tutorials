@@ -30,6 +30,7 @@ Grâce à ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités 
 | [Convertir docx en txt – Guide complet pour enregistrer Word en texte brut](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Apprenez à convertir des fichiers DOCX en texte brut avec Aspose.Words pour .NET. |
 | [Enregistrer le document au format TXT – Guide complet C# pour convertir DOCX en texte brut](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Apprenez à convertir des fichiers DOCX en texte brut avec Aspose.Words pour .NET en suivant ce guide complet en C#. |
 | [Enregistrer docx en txt – Guide rapide pour les développeurs C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Apprenez à convertir rapidement un fichier DOCX en TXT avec Aspose.Words pour .NET en quelques lignes de code C#. |
+| [Enregistrer un docx en txt – Conserver les sauts de ligne et les espaces en C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Apprenez à convertir un fichier DOCX en TXT tout en conservant les sauts de ligne et les espaces avec Aspose.Words pour .NET en C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

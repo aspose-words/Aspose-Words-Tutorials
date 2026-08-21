@@ -83,6 +83,12 @@ Lär dig exportera LaTeX från Word och konvertera DOCX till Markdown med en kom
 ### [Exportera docx till markdown i C# – Fullständig guide](./export-docx-to-markdown-in-c-complete-guide/)
 Lär dig steg‑för‑steg hur du exporterar DOCX‑filer till Markdown med C# och Aspose.Words.
 
+### [Spara docx som markdown & extrahera bilder – C#‑guide](./save-docx-as-markdown-extract-images-c-guide/)
+Lär dig hur du sparar DOCX som Markdown och extraherar bilder med en detaljerad C#‑guide.
+
+### [Hur man sparar Markdown – Fullständig C#‑guide](./how-to-save-markdown-complete-c-guide/)
+Lär dig spara Markdown med en komplett C#‑guide som täcker alla steg.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

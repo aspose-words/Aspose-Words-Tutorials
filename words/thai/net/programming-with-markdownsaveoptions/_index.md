@@ -73,6 +73,10 @@
 ### [แปลง Word เป็น Markdown – คู่มือเต็มพร้อมการสกัดรูปภาพ](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 แปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพอย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET
 
+### [บันทึก docx เป็น markdown – คู่มือ C# สกัดรูปภาพ](./save-docx-as-markdown-extract-images-c-guide/)
+
+### [วิธีบันทึก Markdown – คู่มือเต็ม C#](./how-to-save-markdown-complete-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
