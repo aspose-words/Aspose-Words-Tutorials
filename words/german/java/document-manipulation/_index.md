@@ -70,6 +70,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java effizient Inhalte aus Word-Doku
 Erfahren Sie, wie Sie mit Aspose.Words für Java Text in Word-Dokumenten suchen und ersetzen. Schritt-für-Schritt-Anleitung mit Codebeispielen. Verbessern Sie Ihre Java-Dokumentbearbeitungsfähigkeiten.
 ### [Entfernen von Inhalten aus Dokumenten in Aspose.Words für Java](./removing-content-from-documents/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word-Dokumenten in Java entfernen. Entfernen Sie Seitenumbrüche, Abschnittsumbrüche und mehr. Optimieren Sie Ihre Dokumentverarbeitung.
+### [Erstellen eines Word-Dokuments in Java mit Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Lernen Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument von Grund auf erstellen.
 ### [Verwenden von Lesezeichen in Aspose.Words für Java](./using-bookmarks/)
 Optimieren Sie Ihre Dokumentenverarbeitung mit Aspose.Words für Java. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Lesezeichen für eine effiziente Inhaltsnavigation und -bearbeitung verwenden.
 ### [Verwenden von Dokumentbereichen in Aspose.Words für Java](./using-document-ranges/)

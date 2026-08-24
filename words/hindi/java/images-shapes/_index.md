@@ -37,6 +37,9 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 ### [जावा में Word दस्तावेज़ बनाएं – आयताकार आकार को छाया प्रभाव के साथ जोड़ें](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकार को छाया प्रभाव के साथ जोड़ने का तरीका सीखें।
 
+### [खाली Word दस्तावेज़ बनाएं और जावा में आकार समूहित करें](./create-blank-word-document-and-group-shapes-in-java/)
+जावा में Aspose.Words का उपयोग करके खाली Word फ़ाइल बनाएं और कई आकारों को समूहित करने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

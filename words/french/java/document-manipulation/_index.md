@@ -92,6 +92,8 @@ Apprenez à diviser des documents en pages HTML avec Aspose.Words pour Java. Sui
 Maîtrisez la création de documents avec Aspose.Words pour Java. Guide étape par étape pour ajouter du texte, des tableaux, des images et plus encore. Créez de superbes documents Word sans effort.
 ### [Clonage et combinaison de documents dans Aspose.Words pour Java](./cloning-and-combining-documents/)
 Apprenez à cloner et combiner des documents dans Aspose.Words pour Java. Guide étape par étape avec exemples de code source.
+### [Créer un document Word en Java avec Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Apprenez à créer un document Word en Java avec Aspose.Words grâce à un guide pas à pas et du code source.
 ### [Comparaison de documents dans Aspose.Words pour Java](./comparing-documents/)
 Apprenez à comparer des documents dans Aspose.Words pour Java, une puissante bibliothèque Java pour une analyse efficace des documents. 
 ### [Formatage de documents dans Aspose.Words pour Java](./formatting-documents/)

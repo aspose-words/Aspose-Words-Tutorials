@@ -60,6 +60,8 @@ Börja din inlärningsresa idag och lås upp de oändliga möjligheterna för do
 Förbättra dokumenttydligheten med Aspose.Words för Java-rensningsalternativ. Lär dig hur du tar bort tomma stycken, oanvända regioner och mer.
 ### [Använda fält i Aspose.Words för Java](./using-fields/)
 Lås upp dokumentautomation med Aspose.Words för Java. Lär dig hur du sammanfogar, formaterar och infogar bilder i Java-dokument. Omfattande guide och kodexempel för effektiv dokumenthantering.
+### [Hur man skapar ett Word-dokument i Java med Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Lär dig att skapa ett Word-dokument i Java med Aspose.Words, steg-för-steg med kodexempel.
 ### [Använda XML-data i Aspose.Words för Java](./using-xml-data/)
 Lås upp kraften i Aspose.Words för Java. Lär dig XML-datahantering, dokumentkoppling och mustaschsyntax med steg-för-steg-handledningar.
 ### [Extrahera innehåll från dokument i Aspose.Words för Java](./extracting-content-from-documents/)

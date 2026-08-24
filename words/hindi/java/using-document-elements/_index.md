@@ -72,8 +72,10 @@ Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX न�
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
 जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Java का उपयोग करके Word दस्तावेज़ में कमांड बटन कैसे डालें](./how-to-insert-command-button-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में कमांड बटन डालने की प्रक्रिया सीखें।
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 

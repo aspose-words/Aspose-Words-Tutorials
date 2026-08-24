@@ -110,6 +110,9 @@ Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konv
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
 
+### [Wie man Word als Markdown mit HTML-Tabellen in Java speichert](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Speichern Sie ein Word-Dokument als Markdown, wobei HTML‑Tabellen erhalten bleiben, mit Aspose.Words für Java.
+
 ## Häufig gestellte Fragen
 
 **Q: Wie füge ich einem bestehenden PDF mit Aspose.Words ein Wasserzeichen hinzu?**  

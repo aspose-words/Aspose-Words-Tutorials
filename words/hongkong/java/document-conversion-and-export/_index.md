@@ -86,6 +86,8 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [從 DOCX 建立可存取 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
 
+### [如何在 Java 中將 Word 儲存為 Markdown 並保留 HTML 表格](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+
 ## 常見問題
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  

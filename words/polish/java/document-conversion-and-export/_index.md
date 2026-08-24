@@ -93,6 +93,9 @@ Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania m
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
 
+### [Jak zapisać Word jako markdown z tabelami HTML w Javie](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Dowiedz się, jak konwertować dokumenty Word do formatu markdown zachowując tabele HTML przy użyciu Aspose.Words for Java.
+
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.
 

@@ -94,6 +94,9 @@ Aspose.Words for Java でテーブルの書式設定とテーブルスタイル�
 ### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
 
+### [Java で Word を HTML テーブル付き markdown として保存する方法](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Aspose.Words for Java を使用して、Word 文書を HTML テーブルを保持したまま markdown 形式に変換する手順を解説します。
+
 ### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aspose.Words for Java を使用して DOCX を Markdown に変換する際、画像を正しく埋め込む手順をステップバイステップで解説します。
 

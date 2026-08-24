@@ -71,6 +71,8 @@ Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Word
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Parancsgomb beszúrása Word dokumentumba Java használatával](./how-to-insert-command-button-in-a-word-document-using-java/)
+Tanuld meg, hogyan szúrj be parancsgombot egy Word dokumentumba Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

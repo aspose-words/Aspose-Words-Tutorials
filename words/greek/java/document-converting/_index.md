@@ -101,6 +101,9 @@ weight: 14
 ### [Μετατροπή Εγγράφων σε Εικόνες](./converting-documents-images/)
 Μάθετε πώς να μετατρέπετε έγγραφα Word σε εικόνες χρησιμοποιώντας Aspose.Words for Java. Οδηγός βήμα‑βήμα, πλήρης με παραδείγματα κώδικα και FAQ.
 
+### [Πώς να μετατρέψετε markdown σε docx με Java και Aspose.Words](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε docx χρησιμοποιώντας Java και Aspose.Words.
+
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να μετατρέψω αρχεία Word με κωδικό πρόσβασης σε PDF;*  

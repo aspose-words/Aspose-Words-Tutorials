@@ -71,6 +71,8 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Aspose.Words for Java 中使用命令按钮](./how-to-insert-command-button-in-a-word-document-using-java/)
+学习如何在 Aspose.Words for Java 中向 Word 文档插入命令按钮，实现交互式文档功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
