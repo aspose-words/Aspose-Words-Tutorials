@@ -77,6 +77,10 @@
 
 ### [วิธีบันทึก Markdown – คู่มือเต็ม C#](./how-to-save-markdown-complete-c-guide/)
 
+### [แปลง DOCX เป็น Markdown – คู่มือเต็มโดยใช้ Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
+
+### [วิธีใช้ Callback ใน C# – แปลง DOCX เป็น Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

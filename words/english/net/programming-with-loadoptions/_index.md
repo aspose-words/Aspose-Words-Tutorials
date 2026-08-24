@@ -69,6 +69,7 @@ class Program
 | [Recover Word Document with Aspose.Words in C#](./recover-word-document-with-aspose-words-in-c/) | Learn how to recover corrupted Word documents using Aspose.Words for .NET in C# with a step-by-step guide. |
 | [how to recover docx – set recovery mode & open corrupted Word files](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Learn how to set recovery mode and open corrupted Word files using Aspose.Words for .NET. |
 | [How to Use LoadOptions in Aspose.Words – Complete Guide](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | A comprehensive guide on using LoadOptions in Aspose.Words for .NET, covering all settings and best practices. |
+| [How to Recover DOCX – Complete Guide Using Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Step-by-step guide to recover corrupted DOCX files using Aspose.Words for .NET, covering detection, repair, and saving restored documents. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

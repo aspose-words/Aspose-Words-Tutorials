@@ -43,6 +43,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s modelem otevřené umělé inteligence](./working-with-open-ai-model/) | Získejte efektivní sumarizaci dokumentů pomocí Aspose.Words pro .NET s výkonnými modely OpenAI. Ponořte se do tohoto komplexního průvodce hned teď. |
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
 | [Shrnutí Word dokumentu v C# – Kompletní průvodce s umělou inteligencí](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletní návod, jak pomocí AI shrnout Word dokument v C# pomocí Aspose.Words. |
+| [Jak zkontrolovat gramatiku v DOCX pomocí Aspose.Words – použijte gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Naučte se, jak pomocí Aspose.Words a modelu gpt-4 turbo automaticky kontrolovat gramatiku v dokumentech DOCX. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

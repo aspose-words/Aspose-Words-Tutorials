@@ -39,7 +39,7 @@ Lär dig konvertera DOCX-filer till Markdown med en detaljerad steg‑för‑ste
 Lär dig spara DOCX-filer som Markdown med en komplett C#-guide som inkluderar LaTeX‑ekvationer.
 
 ### [Spara docx som markdown – Fullständig C#-guide med bildextraktion](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
-Lär dig spara DOCX-filer som Markdown och extrahera bilder med en komplett C#-guide.
+Lär dig spara DOCX som Markdown och extrahera bilder med en komplett C#-guide.
 
 ### [Konvertera Word till Markdown – Fullständig guide med bildextraktion](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Lär dig konvertera Word-dokument till Markdown och extrahera bilder med en komplett guide.
@@ -88,6 +88,12 @@ Lär dig hur du sparar DOCX som Markdown och extraherar bilder med en detaljerad
 
 ### [Hur man sparar Markdown – Fullständig C#‑guide](./how-to-save-markdown-complete-c-guide/)
 Lär dig spara Markdown med en komplett C#‑guide som täcker alla steg.
+
+### [Konvertera DOCX till Markdown – Fullständig guide med Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
+Lär dig konvertera DOCX-filer till Markdown med en komplett guide som använder Aspose.Words.
+
+### [Hur man använder Callback i C# – Konvertera DOCX till Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
+Lär dig hur du använder callback-funktioner i C# för att konvertera DOCX-filer till Markdown med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

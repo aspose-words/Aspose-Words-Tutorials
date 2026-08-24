@@ -55,6 +55,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [DOCX laden en ontbrekende lettertypen detecteren – Complete C#-gids](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Leer hoe u een DOCX-bestand laadt en ontbrekende lettertypen detecteert met Aspose.Words voor .NET in deze stapsgewijze C#-handleiding. |
 | [Waarschuwingen voor lettertypevervanging inschakelen in Aspose.Words – Complete gids](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Leer hoe u waarschuwingen voor lettertypevervanging inschakelt in Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 | [c# Word-document laden – detecteer en verwerk ontbrekende lettertypen](./c-load-word-document-detect-handle-missing-fonts/) | Leer hoe u met Aspose.Words voor .NET een Word-document laadt en ontbrekende lettertypen detecteert en afhandelt. |
+| [Log lettertypevervangingswaarschuwingen – Complete Aspose.Words-gids](./log-font-substitution-warnings-complete-aspose-words-guide/) | Leer hoe u waarschuwingen voor lettertypevervanging logt met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

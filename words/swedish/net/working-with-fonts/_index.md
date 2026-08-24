@@ -46,6 +46,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hämta lista över tillgängliga teckensnitt](./get-list-of-available-fonts/) | Upptäck hur du får en lista över tillgängliga teckensnitt med Aspose.Words för .NET i den här detaljerade steg-för-steg-handledningen. Öka dina kunskaper i teckensnittshantering. |
 | [Få aviseringar om teckensnitt](./receive-notifications-of-fonts/) | Lär dig hur du får meddelanden om saknade eller utbytta teckensnitt när du använder Aspose.Words för .NET. |
 | [Få varningsmeddelande](./receive-warning-notification/) Lär dig hur du får en varningsmeddelande när du använder Aspose.Words för .NET och hanterar eventuella problem eller varningar i dina dokument. |
+| [Logga varningar för teckensnittssubstitution – komplett Aspose.Words-guide](./log-font-substitution-warnings-complete-aspose-words-guide/) | Lär dig hur du loggar varningar för teckensnittssubstitution i Aspose.Words för .NET med en komplett guide. |
 | [Exempel på teckensnittskälla för resurs Steam](./resource-steam-font-source-example/) | Lär dig hur du använder teckensnittskällan Resource Stream för att läsa in anpassade teckensnitt i Aspose.Words för .NET. |
 | [Hämta substitution utan suffix](./get-substitution-without-suffixes/) | I den här handledningen lär du dig hur du får suffixlösa åsidosättningar i ett Word-dokument med Aspose.Words för .NET. |
 | [Hur man laddar DOCX i C# – Komplett guide](./how-to-load-docx-in-c-complete-guide/) | Lär dig hur du laddar DOCX-filer i C# med en komplett steg-för-steg-guide. |
