@@ -28,7 +28,7 @@ Aspose.Words for .NET 자습서에서는 OLE 및 ActiveX 개체를 사용한 워
 | [Word 문서에 Ole 개체를 아이콘으로 삽입](./insert-ole-object-as-icon/) | Aspose.Words for .NET을 사용하여 Word 문서에 OLE 개체를 아이콘으로 삽입하는 방법을 알아보세요. 단계별 가이드를 따라 문서를 더욱 멋지게 만들어 보세요. |
 | [스트림을 사용하여 Ole 객체를 아이콘으로 삽입](./insert-ole-object-as-icon-using-stream/) | 이 자세하고 단계별 튜토리얼을 통해 Aspose.Words for .NET의 스트림을 사용하여 OLE 개체를 아이콘으로 삽입하는 방법을 알아보세요. |
 | [Word 파일에서 Active XControl 속성 읽기](./read-active-xcontrol-properties/) | Aspose.Words for .NET을 사용하여 Word 파일에서 ActiveX 컨트롤 속성을 읽는 방법을 단계별 가이드로 알아보세요. 문서 자동화 기술을 향상시키세요. |
-
+| [C# Word 자동화에서 제출 버튼 만들기](./how-to-create-submit-button-in-c-word-automation/) | Aspose.Words for .NET을 사용하여 C#에서 Word 자동화 시 제출 버튼을 생성하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

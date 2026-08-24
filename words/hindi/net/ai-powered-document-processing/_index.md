@@ -43,6 +43,7 @@
 | [ओपन एआई मॉडल के साथ काम करना](./working-with-open-ai-model/) | OpenAI के शक्तिशाली मॉडल के साथ .NET के लिए Aspose.Words का उपयोग करके कुशल दस्तावेज़ सारांश अनलॉक करें। अब इस व्यापक गाइड में गोता लगाएँ। |
 | [सारांश विकल्पों के साथ कार्य करना](./working-with-summarize-options/) | त्वरित जानकारी के लिए AI मॉडल को एकीकृत करने पर हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके Word दस्तावेज़ों को प्रभावी ढंग से सारांशित करना सीखें। |
 | [C# में Word दस्तावेज़ का सारांश – पूर्ण AI‑संचालित गाइड](./summarize-word-document-in-c-complete-ai-powered-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [C# में Aspose.Words AI के साथ स्ट्रिंग को स्पेनिश में अनुवाद करें](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | .NET के लिए Aspose.Words AI का उपयोग करके C# में स्ट्रिंग को स्पेनिश में अनुवाद करने का तरीका सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

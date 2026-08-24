@@ -43,6 +43,7 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Arbeta med öppen AI-modell](./working-with-open-ai-model/) | Lås upp effektiv dokumentsammanfattning med Aspose.Words för .NET och OpenAI:s kraftfulla modeller. Fördjupa dig i den här omfattande guiden nu. |
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
 | [Sammanfatta Word-dokument i C# – Komplett AI‑driven guide](./summarize-word-document-in-c-complete-ai-powered-guide/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta Word-dokument i C# med Aspose.Words. |
+| [Översätt sträng till spanska i C# med Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Lär dig hur du använder Aspose.Words AI för att översätta textsträngar till spanska i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

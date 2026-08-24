@@ -43,6 +43,7 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [Açık AI Modeli ile Çalışma](./working-with-open-ai-model/) | OpenAI'nin güçlü modelleriyle Aspose.Words for .NET'i kullanarak verimli belge özetlemenin kilidini açın. Şimdi bu kapsamlı kılavuza dalın. |
 | [Özetleme Seçenekleriyle Çalışma](./working-with-summarize-options/) | Hızlı içgörüler için AI modellerini entegre etmeye yönelik adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerini etkili bir şekilde özetlemeyi öğrenin. |
 | [C# ile Word Belgesini Özetleme – Tam AI Destekli Kılavuz](./summarize-word-document-in-c-complete-ai-powered-guide/) | C# kullanarak AI ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
+| [C# ile Aspose.Words AI ile Dizeyi İspanyolcaya Çevir](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aspose.Words AI kullanarak C# içinde metinleri İspanyolcaya çevirmeyi öğrenin. Hızlı ve doğru çeviri için adım adım kılavuz. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

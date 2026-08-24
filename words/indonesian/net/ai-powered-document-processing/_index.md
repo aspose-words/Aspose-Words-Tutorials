@@ -42,7 +42,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bekerja Dengan Model AI Google](./working-with-google-ai-model/) | Tingkatkan pemrosesan dokumen Anda dengan Aspose.Words untuk .NET dan Google AI untuk membuat ringkasan ringkas dengan mudah. Bahasa Indonesia:
 | [Bekerja Dengan Model AI Terbuka](./working-with-open-ai-model/) | Dapatkan ringkasan dokumen yang efisien menggunakan Aspose.Words untuk .NET dengan model-model canggih OpenAI. Pelajari panduan lengkap ini sekarang. Bahasa Indonesia:
 | [Bekerja Dengan Opsi Ringkasan](./working-with-summarize-options/) | Pelajari cara meringkas dokumen Word secara efektif menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami tentang mengintegrasikan model AI untuk wawasan cepat. |
-| [Ringkas Dokumen Word di C# – Panduan Lengkap Bertenaga AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Pelajari cara merangkum dokumen Word menggunakan C# dengan panduan AI lengkap untuk hasil cepat dan akurat. |
+| [Ringkas Dokumen Word di C# – Panduan Lengkap Bertenaga AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Pelajari cara merangkum dokumen Word menggunakan C# dengan pandaran AI lengkap untuk hasil cepat dan akurat. |
+| [Menerjemahkan string ke bahasa Spanyol dalam C# dengan Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Pelajari cara menerjemahkan teks ke bahasa Spanyol menggunakan Aspose.Words AI dalam C# secara mudah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

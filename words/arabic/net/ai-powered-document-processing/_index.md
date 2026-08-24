@@ -43,6 +43,7 @@
 | [العمل مع نموذج الذكاء الاصطناعي المفتوح](./working-with-open-ai-model/) | أطلق العنان لتلخيص المستندات بكفاءة باستخدام Aspose.Words لـ .NET مع نماذج OpenAI القوية. انغمس في هذا الدليل الشامل الآن. |
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
 | [تلخيص مستند Word في C# – دليل شامل مدعوم بالذكاء الاصطناعي](./summarize-word-document-in-c-complete-ai-powered-guide/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام C# ودمج نماذج الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
+| [ترجمة نص إلى الإسبانية في C# باستخدام Aspose.Words AI](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | دليل خطوة بخطوة لترجمة نصوص إلى اللغة الإسبانية باستخدام Aspose.Words AI في C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

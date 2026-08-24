@@ -28,7 +28,7 @@ Questi tutorial offrono un approccio pratico e passo dopo passo all'elaborazione
 | [Inserisci oggetto Ole nel documento Word come icona](./insert-ole-object-as-icon/) | Scopri come inserire un oggetto OLE come icona nei documenti Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo per migliorare i tuoi documenti. |
 | [Inserisci oggetto Ole come icona utilizzando Stream](./insert-ole-object-as-icon-using-stream/) | Scopri come inserire un oggetto OLE come icona utilizzando un flusso con Aspose.Words per .NET in questo tutorial dettagliato e passo dopo passo.
 | [Leggi le proprietà di Active XControl dal file Word](./read-active-xcontrol-properties/) | Scopri come leggere le proprietà dei controlli ActiveX dai file Word utilizzando Aspose.Words per .NET in una guida passo passo. Migliora le tue competenze di automazione dei documenti. |
-
+| [Come creare un pulsante di invio in C# per l'automazione di Word](./how-to-create-submit-button-in-c-word-automation/) | Scopri come aggiungere un pulsante di invio in un documento Word usando C# e Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
