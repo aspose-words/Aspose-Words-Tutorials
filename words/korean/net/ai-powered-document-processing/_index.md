@@ -43,6 +43,7 @@
 | [오픈 AI 모델 작업](./working-with-open-ai-model/) | OpenAI의 강력한 모델을 기반으로 Aspose.Words for .NET을 사용하여 효율적인 문서 요약을 구현해 보세요. 지금 바로 이 종합 가이드를 살펴보세요. |
 | [요약 옵션 사용](./working-with-summarize-options/) | Aspose.Words for .NET을 사용하여 Word 문서를 효과적으로 요약하는 방법을 알아보고, AI 모델을 통합하여 빠른 통찰력을 얻는 방법에 대한 단계별 가이드를 살펴보세요. |
 | [C#에서 Word 문서 요약 – 완전 AI 기반 가이드](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aspose.Words for .NET과 AI를 활용해 C#에서 Word 문서를 효율적으로 요약하는 전체 가이드를 제공합니다. |
+| [C#에서 Aspose.Words AI를 사용하여 문자열을 스페인어로 번역하기](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Aspose.Words AI를 활용해 C#에서 문자열을 스페인어로 자동 번역하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

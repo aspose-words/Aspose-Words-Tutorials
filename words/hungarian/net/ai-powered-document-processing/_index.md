@@ -43,6 +43,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
 | [Word dokumentum összefoglalása C#‑ban – Teljes AI‑alapú útmutató](./summarize-word-document-in-c-complete-ai-powered-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI‑val a Word dokumentumok hatékony összefoglalásához C#‑ban. |
+| [Sztring lefordítása spanyolra C#-ban az Aspose.Words AI-val](./translate-string-to-spanish-in-c-with-aspose-words-ai/) | Ismerje meg, hogyan fordíthat le szövegeket spanyolra C#-ban az Aspose.Words AI segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
