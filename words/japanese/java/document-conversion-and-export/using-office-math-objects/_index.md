@@ -14,7 +14,7 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java で Office Math オブジェクトを使用する
+# Aspose.Words for Java で Office Math を使用したインライン数式の表示
 
 ## Aspose.Words for Java で Office Math オブジェクトを使用する概要
 
@@ -52,6 +52,7 @@ Office Math オブジェクトは Microsoft Office が使用するリッチな�
 
 ## Office Math を使用するステップバイステップ ガイド
 
+
 以下は簡潔な番号付き手順です。各ステップには元のコードブロック（変更なし）を添えているので、プロジェクトにそのままコピーペーストできます。
 
 ### 手順 1: ドキュメントの読み込み
@@ -69,6 +70,7 @@ Document doc = new Document("Your Directory Path" + "OfficeMath.docx");
 ```java
 OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
 ```
+
 
 ### 手順 3: 表示タイプの設定
 

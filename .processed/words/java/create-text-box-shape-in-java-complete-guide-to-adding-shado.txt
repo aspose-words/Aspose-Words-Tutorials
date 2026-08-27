@@ -1,0 +1,7 @@
+Title: Create Text Box Shape in Java – Complete Guide to Adding Shadows
+Slug: create-text-box-shape-in-java-complete-guide-to-adding-shado
+Category: images-shapes
+ProcessedDate: 2026-05-30T08:37:05.275622
+SourceRepo: AI Search API
+Keywords: create text box shape, set shadow color, how to add shadow, set shadow distance, add shadow textbox
+PRNumber: 195

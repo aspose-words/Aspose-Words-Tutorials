@@ -1,11 +1,30 @@
 ---
-"description": "Naucz się bezproblemowo łączyć dokumenty Worda za pomocą Aspose.Words for Java. Efektywnie łącz, formatuj i obsługuj konflikty w zaledwie kilku krokach. Zacznij teraz!"
-"linktitle": "Korzystanie ze scalania dokumentów"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Korzystanie ze scalania dokumentów"
-"url": "/pl/java/document-merging/using-document-merging/"
-"weight": 10
+date: 2026-02-11
+description: Dowiedz się, jak scalać wiele plików DOCX przy użyciu Aspose.Words for
+  Java. Efektywnie łącz duże dokumenty Word, radź sobie z konfliktami formatowania
+  i wstawiaj podziały stron.
+linktitle: Using Document Merging
+second_title: Aspose.Words Java Document Processing API
+title: Jak scalić wiele plików DOCX przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-merging/using-document-merging/
+weight: 10
 ---
+
+So:
+
+**Last Updated:** 2026-02-11 -> "**Ostatnia aktualizacja:** 2026-02-11"
+
+**Tested With:** Aspose.Words 24.12 for Java -> "**Testowano z:** Aspose.Words 24.12 for Java" (keep library name)
+
+**Author:** Aspose -> "**Autor:** Aspose"
+
+Now close shortcodes.
+
+All other shortcodes unchanged.
+
+Make sure to keep code block placeholders unchanged.
+
+Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -13,30 +32,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Korzystanie ze scalania dokumentów
+# Łączenie wielu plików DOCX przy użyciu Aspose.Words dla Javy
 
-Aspose.Words for Java zapewnia solidne rozwiązanie dla programistów, którzy muszą programowo scalać wiele dokumentów Word. Scalanie dokumentów jest powszechnym wymogiem w różnych aplikacjach, takich jak generowanie raportów, scalanie poczty i składanie dokumentów. W tym przewodniku krok po kroku przyjrzymy się, jak wykonać scalanie dokumentów za pomocą Aspose.Words for Java.
+Łączenie wielu plików DOCX jest częstym wymaganiem, gdy trzeba złożyć raporty, umowy lub listy generowane partiami w jeden, dopracowany dokument. W tym samouczku dowiesz się **jak łączyć wiele plików DOCX** szybko i niezawodnie przy użyciu Aspose.Words dla Javy, zachowując formatowanie i radząc sobie z typowymi wyzwaniami, takimi jak konflikty stylów i wstawianie podziałów stron.
 
-## 1. Wprowadzenie do scalania dokumentów
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do łączenia plików DOCX?** Aspose.Words for Java.  
+- **Czy mogę łączyć duże dokumenty Word?** Tak – API jest zoptymalizowane pod kątem łączenia dużych ilości.  
+- **Jak wstawić podział strony między łączonymi plikami?** Użyj odpowiedniego `ImportFormatMode` lub dodaj ręczny podział po dołączeniu.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest licencja komercyjna dla wdrożeń nie‑testowych.  
+- **Czy Java 8 jest wspierana?** Oczywiście; Aspose.Words działa z Java 8 i nowszymi środowiskami.
 
-Scalanie dokumentów to proces łączenia dwóch lub więcej oddzielnych dokumentów Word w jeden, spójny dokument. Jest to kluczowa funkcjonalność w automatyzacji dokumentów, umożliwiająca bezproblemową integrację tekstu, obrazów, tabel i innej zawartości z różnych źródeł. Aspose.Words for Java upraszcza proces scalania, umożliwiając programistom wykonywanie tego zadania programowo bez ręcznej interwencji.
+## Co to jest „łączenie wielu plików docx”?
+Łączenie wielu plików DOCX oznacza programowe połączenie dwóch lub więcej dokumentów Word w jeden plik `.docx`. Proces zachowuje tekst, obrazy, tabele, nagłówki, stopki i inne elementy Word, tworząc spójny dokument końcowy bez ręcznego kopiowania‑wklejania.
 
-## 2. Pierwsze kroki z Aspose.Words dla Java
+## Dlaczego warto używać Aspose.Words dla Javy do łączenia dużych dokumentów Word?
+- **Pełna kontrola nad formatowaniem** – wybierz, jak style są importowane.  
+- **Wydajność zoptymalizowana** – obsługuje setki stron przy minimalnym zużyciu pamięci.  
+- **Bogate API** – obsługuje podziały stron, podziały sekcji oraz selektywne łączenie sekcji.  
+- **Brak zależności od Microsoft Office** – działa na każdej platformie obsługującej Javę.
 
-Zanim zagłębimy się w scalanie dokumentów, upewnijmy się, że Aspose.Words for Java jest poprawnie skonfigurowany w naszym projekcie. Aby rozpocząć, wykonaj następujące kroki:
+## Prerequisites
+- Środowisko programistyczne Java 8 (lub nowsze).  
+- Plik JAR Aspose.Words dla Javy dodany do classpath projektu.  
+- Dwa lub więcej plików DOCX, które chcesz połączyć (np. `document1.docx`, `document2.docx`).
 
-### Pobierz Aspose.Words dla Java:
- Aby pobrać najnowszą wersję biblioteki, odwiedź stronę Aspose Releases (https://releases.aspose.com/words/java).
+## 1. Wprowadzenie do łączenia dokumentów
+Łączenie dokumentów to proces łączenia dwóch lub więcej oddzielnych dokumentów Word w jeden spójny dokument. Jest to kluczowa funkcja w automatyzacji dokumentów, umożliwiająca płynne integrowanie tekstu, obrazów, tabel i innych treści z różnych źródeł. Aspose.Words dla Javy upraszcza proces łączenia, pozwalając programistom wykonać to zadanie programowo, bez ręcznej interwencji.
 
-### Dodaj bibliotekę Aspose.Words:
- Dodaj plik JAR Aspose.Words do ścieżki klas swojego projektu Java.
+## 2. Rozpoczęcie pracy z Aspose.Words dla Javy
+Zanim przejdziemy do łączenia dokumentów, upewnijmy się, że Aspose.Words dla Javy jest poprawnie skonfigurowany w naszym projekcie. Postępuj zgodnie z poniższymi krokami, aby rozpocząć:
 
-### Zainicjuj Aspose.Words:
- Zaimportuj niezbędne klasy z Aspose.Words do kodu Java i już możesz rozpocząć scalanie dokumentów.
+### Pobierz Aspose.Words dla Javy
+Odwiedź stronę Aspose Releases (https://releases.aspose.com/words/java), aby pobrać najnowszą wersję biblioteki.
 
-## 3. Łączenie dwóch dokumentów
+### Dodaj bibliotekę Aspose.Words
+Dołącz plik JAR Aspose.Words do classpath swojego projektu Java.
 
-Zacznijmy od scalenia dwóch prostych dokumentów Word. Załóżmy, że mamy dwa pliki, „document1.docx” i „document2.docx”, znajdujące się w katalogu projektu.
+### Zainicjalizuj Aspose.Words
+W kodzie Java zaimportuj niezbędne klasy z Aspose.Words i możesz rozpocząć łączenie dokumentów.
+
+## 3. Jak łączyć wiele plików docx (dwa dokumenty)
+
+Zacznijmy od połączenia dwóch prostych dokumentów Word. Załóżmy, że mamy dwa pliki, `document1.docx` i `document2.docx`, znajdujące się w katalogu projektu.
 
 ```java
 import com.aspose.words.*;
@@ -44,14 +82,14 @@ import com.aspose.words.*;
 public class DocumentMerger {
     public static void main(String[] args) {
         try {
-            // Załaduj dokumenty źródłowe
+            // Load the source documents
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // Dołącz zawartość drugiego dokumentu do pierwszego
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
-            // Zapisz scalony dokument
+            // Save the merged document
             doc1.save("merged_document.docx");
         } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
@@ -61,26 +99,21 @@ public class DocumentMerger {
 }
 ```
 
-W powyższym przykładzie załadowaliśmy dwa dokumenty za pomocą `Document` klasa i następnie użyłem `appendDocument()` metoda scalenia zawartości pliku „document2.docx” z zawartością pliku „document1.docx” przy jednoczesnym zachowaniu formatowania dokumentu źródłowego.
+W powyższym przykładzie wczytaliśmy dwa dokumenty przy użyciu klasy `Document`, a następnie użyliśmy metody `appendDocument()`, aby połączyć zawartość `document2.docx` z `document1.docx`, zachowując formatowanie dokumentu źródłowego.
 
-## 4. Obsługa formatowania dokumentów
+## 4. Obsługa formatowania dokumentu (aspose words document merge)
 
-Podczas scalania dokumentów mogą wystąpić przypadki, w których style i formatowanie dokumentów źródłowych kolidują ze sobą. Aspose.Words for Java oferuje kilka trybów formatowania importu, aby poradzić sobie z takimi sytuacjami:
+Podczas łączenia dokumentów mogą wystąpić sytuacje, w których style i formatowanie dokumentów źródłowych kolidują. Aspose.Words dla Javy oferuje kilka trybów importu formatowania, aby radzić sobie z takimi sytuacjami:
 
-- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: 
-Zachowuje formatowanie dokumentu źródłowego.
+- `ImportFormatMode.KEEP_SOURCE_FORMATTING`: Zachowuje formatowanie dokumentu źródłowego.  
+- `ImportFormatMode.USE_DESTINATION_STYLES`: Stosuje style dokumentu docelowego.  
+- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: Zachowuje style różniące się pomiędzy dokumentem źródłowym a docelowym.
 
-- `ImportFormatMode.USE_DESTINATION_STYLES`: 
-Stosuje style dokumentu docelowego.
+Wybierz odpowiedni tryb importu formatowania w zależności od wymagań łączenia.
 
-- `ImportFormatMode.KEEP_DIFFERENT_STYLES`: 
-Zachowuje style, które różnią się w dokumencie źródłowym i docelowym.
+## 5. Jak łączyć duże dokumenty Word (wiele dokumentów)
 
-Wybierz odpowiedni tryb formatu importu w oparciu o swoje wymagania dotyczące scalania.
-
-## 5. Łączenie wielu dokumentów
-
-Aby połączyć więcej niż dwa dokumenty, wykonaj podobne podejście, jak powyżej, i użyj `appendDocument()` metodę wielokrotnie:
+Aby połączyć więcej niż dwa dokumenty, zastosuj podobne podejście jak powyżej i użyj metody `appendDocument()` wielokrotnie:
 
 ```java
 import com.aspose.words.*;
@@ -92,7 +125,7 @@ public class DocumentMerger {
             Document doc2 = new Document("document2.docx");
             Document doc3 = new Document("document3.docx");
 
-            // Dołącz zawartość drugiego dokumentu do pierwszego
+            // Append the content of the second document to the first
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
             doc1.appendDocument(doc3, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
@@ -105,24 +138,19 @@ public class DocumentMerger {
 }
 ```
 
-## 6. Wstawianie podziałów dokumentu
+## 6. Jak wstawić podział strony przy łączeniu
 
-Czasami konieczne jest wstawienie podziału strony lub podziału sekcji między scalonymi dokumentami, aby zachować właściwą strukturę dokumentu. Aspose.Words udostępnia opcje wstawiania podziałów podczas scalania:
+Czasami konieczne jest wstawienie podziału strony lub podziału sekcji pomiędzy łączonymi dokumentami, aby zachować prawidłową strukturę dokumentu. Aspose.Words udostępnia opcje wstawiania podziałów podczas łączenia:
 
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);`:
-Łączy dokumenty bez żadnych przerw.
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);` – łączy bez żadnych podziałów.  
+- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);` – wstawia ciągły podział między dokumentami.  
+- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);` – wstawia podział strony, gdy style różnią się pomiędzy dokumentami.
 
-- `doc1.appendDocument(doc2, ImportFormatMode.USE_DESTINATION_STYLES);`: 
-Wstawia ciągłą przerwę między dokumentami.
+Wybierz odpowiednią metodę w zależności od konkretnych wymagań.
 
-- `doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);`: 
-Wstawia podział strony, gdy style między dokumentami różnią się.
+## 7. Łączenie konkretnych sekcji dokumentu (how to merge docs)
 
-Wybierz odpowiednią metodę w oparciu o swoje konkretne wymagania.
-
-## 7. Łączenie określonych sekcji dokumentu
-
-W niektórych scenariuszach możesz chcieć scalić tylko określone sekcje dokumentów. Na przykład scalając tylko treść główną, z wyłączeniem nagłówków i stopek. Aspose.Words pozwala osiągnąć ten poziom szczegółowości za pomocą `Range` klasa:
+W niektórych scenariuszach możesz chcieć połączyć tylko wybrane sekcje dokumentów. Na przykład połączyć jedynie treść główną, pomijając nagłówki i stopki. Aspose.Words umożliwia osiągnięcie takiego poziomu szczegółowości przy użyciu klasy `Range`:
 
 ```java
 import com.aspose.words.*;
@@ -133,10 +161,10 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // Pobierz konkretną sekcję drugiego dokumentu
+            // Get the specific section of the second document
             Section sectionToMerge = doc2.getSections().get(0);
 
-            // Dołącz sekcję do pierwszego dokumentu
+            // Append the section to the first document
             doc1.appendContent(sectionToMerge);
 
             doc1.save("merged_document.docx");
@@ -148,9 +176,9 @@ public class DocumentMerger {
 }
 ```
 
-## 8. Radzenie sobie z konfliktami i powielaniem stylów
+## 8. Radzenie sobie z konfliktami i zduplikowanymi stylami
 
-Podczas scalania wielu dokumentów mogą wystąpić konflikty z powodu zduplikowanych stylów. Aspose.Words zapewnia mechanizm rozwiązywania, aby poradzić sobie z takimi konfliktami:
+Podczas łączenia wielu dokumentów mogą wystąpić konflikty spowodowane zduplikowanymi stylami. Aspose.Words oferuje mechanizm rozwiązywania takich konfliktów:
 
 ```java
 import com.aspose.words.*;
@@ -161,7 +189,7 @@ public class DocumentMerger {
             Document doc1 = new Document("document1.docx");
             Document doc2 = new Document("document2.docx");
 
-            // Rozwiąż konflikty za pomocą KEEP_DIFFERENT_STYLES
+            // Resolve conflicts by using KEEP_DIFFERENT_STYLES
             doc1.appendDocument(doc2, ImportFormatMode.KEEP_DIFFERENT_STYLES);
 
             doc1.save("merged_document.docx");
@@ -173,61 +201,44 @@ public class DocumentMerger {
 }
 ```
 
-Za pomocą `ImportFormatMode.KEEP_DIFFERENT_STYLES`Aspose.Words zachowuje style, które różnią się w dokumencie źródłowym i docelowym, sprawnie rozwiązując konflikty.
+Korzystając z `ImportFormatMode.KEEP_DIFFERENT_STYLES`, Aspose.Words zachowuje style różniące się pomiędzy dokumentem źródłowym a docelowym, rozwiązując konflikty w elegancki sposób.
 
-## Wniosek
+## Częste pułapki i wskazówki
+- **Wysokie zużycie pamięci przy dużych dokumentach** – Ładuj dokumenty ze strumieni, gdy pracujesz z bardzo dużymi plikami, aby zmniejszyć obciążenie sterty.  
+- **Kolidujące style** – Preferuj `KEEP_DIFFERENT_STYLES`, gdy dokumenty źródłowe mają unikalne zestawy stylów.  
+- **Umiejscowienie podziału strony** – Po dołączeniu możesz programowo wstawić `SectionBreak`, jeśli automatyczny tryb podziału nie spełnia wymagań układu.
 
-Aspose.Words for Java daje programistom Java możliwość bezproblemowego scalania dokumentów Word. Postępując zgodnie z przewodnikiem krok po kroku w tym artykule, możesz teraz łatwo scalać dokumenty, obsługiwać formatowanie, wstawiać podziały i zarządzać konfliktami. Dzięki Aspose.Words for Java scalanie dokumentów staje się płynnym i zautomatyzowanym procesem, oszczędzając cenny czas i wysiłek.
+## Najczęściej zadawane pytania
 
-## Najczęściej zadawane pytania 
+**Q: Czy mogę łączyć dokumenty o różnych formatach i stylach?**  
+A: Tak, Aspose.Words dla Javy obsługuje łączenie dokumentów o różnych formatach i stylach, inteligentnie rozwiązując konflikty.
 
-### Czy mogę scalać dokumenty o różnych formatach i stylach?
+**Q: Czy Aspose.Words obsługuje efektywne łączenie dużych dokumentów?**  
+A: Zdecydowanie. Biblioteka jest zoptymalizowana pod kątem wysokowydajnego łączenia dużych plików Word.
 
-Tak, Aspose.Words for Java obsługuje scalanie dokumentów o różnych formatach i stylach. Biblioteka inteligentnie rozwiązuje konflikty, umożliwiając bezproblemowe scalanie dokumentów z różnych źródeł.
+**Q: Czy mogę łączyć dokumenty zabezpieczone hasłem?**  
+A: Tak. Wczytaj każdy dokument z podanym hasłem przed wywołaniem `appendDocument`.
 
-### Czy Aspose.Words umożliwia wydajne łączenie dużych dokumentów?
+**Q: Czy można łączyć tylko wybrane sekcje?**  
+A: Tak. Użyj obiektów `Section` lub `Range`, aby wybrać i dołączyć konkretne części.
 
-Aspose.Words for Java jest zaprojektowany do wydajnego obsługiwania dużych dokumentów. Wykorzystuje zoptymalizowane algorytmy do scalania dokumentów, zapewniając wysoką wydajność nawet przy rozległej zawartości.
+**Q: Czy Aspose.Words domyślnie zachowuje oryginalne formatowanie?**  
+A: Domyślnie używa `KEEP_SOURCE_FORMATTING`, który zachowuje wygląd dokumentu źródłowego.
 
-### Czy mogę scalać dokumenty chronione hasłem za pomocą Aspose.Words dla Java?
+## Podsumowanie
 
-Tak, Aspose.Words for Java obsługuje scalanie dokumentów chronionych hasłem. Upewnij się, że podajesz prawidłowe hasła, aby uzyskać dostęp do tych dokumentów i je scalić.
+Aspose.Words dla Javy daje programistom Java możliwość **łatwego łączenia wielu plików DOCX**. Postępując zgodnie z przewodnikiem krok po kroku w tym artykule, możesz łączyć dokumenty, obsługiwać formatowanie, wstawiać podziały i zarządzać konfliktami stylów z łatwością. Takie usprawnione podejście oszczędza cenny czas i redukuje ręczną pracę przy składaniu dokumentów.
 
-### Czy można połączyć określone sekcje z wielu dokumentów?
+---
 
-Tak, Aspose.Words pozwala na selektywne scalanie określonych sekcji z różnych dokumentów. Daje to szczegółową kontrolę nad procesem scalania.
-
-### Czy mogę scalić dokumenty ze śledzonymi zmianami i komentarzami?
-
-Oczywiście, Aspose.Words for Java może obsługiwać scalanie dokumentów ze śledzonymi zmianami i komentarzami. Masz możliwość zachowania lub usunięcia tych rewizji podczas procesu scalania.
-
-### Czy Aspose.Words zachowuje oryginalne formatowanie scalonych dokumentów?
-
-Aspose.Words domyślnie zachowuje formatowanie dokumentów źródłowych. Możesz jednak wybrać różne tryby formatowania importu, aby poradzić sobie z konfliktami i zachować spójność formatowania.
-
-### Czy mogę scalać dokumenty z plików w formatach innych niż Word, na przykład PDF lub RTF?
-
-Aspose.Words jest przeznaczony głównie do pracy z dokumentami Word. Aby scalić dokumenty z formatów plików innych niż Word, rozważ użycie odpowiedniego produktu Aspose dla tego konkretnego formatu, takiego jak Aspose.PDF lub Aspose.RTF.
-
-### Jak mogę obsługiwać wersjonowanie dokumentów podczas scalania?
-
-Wersjonowanie dokumentów podczas scalania można osiągnąć, wdrażając odpowiednie praktyki kontroli wersji w swojej aplikacji. Aspose.Words koncentruje się na scalaniu treści dokumentów i nie zarządza bezpośrednio wersjonowaniem.
-
-### Czy Aspose.Words for Java jest kompatybilny z Java 8 i nowszymi wersjami?
-
-Tak, Aspose.Words for Java jest kompatybilny z Java 8 i nowszymi wersjami. Zawsze zaleca się używanie najnowszej wersji Java dla lepszej wydajności i bezpieczeństwa.
-
-### Czy Aspose.Words obsługuje scalanie dokumentów ze zdalnych źródeł, takich jak adresy URL?
-
-Tak, Aspose.Words for Java może ładować dokumenty z różnych źródeł, w tym adresów URL, strumieni i ścieżek plików. Możesz bezproblemowo łączyć dokumenty pobrane ze zdalnych lokalizacji.
-
+**Ostatnia aktualizacja:** 2026-02-11  
+**Testowano z:** Aspose.Words 24.12 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

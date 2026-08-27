@@ -1,0 +1,7 @@
+Title: Create Word Document with Shapes in Java – Complete Aspose.Words Guide
+Slug: create-word-document-with-shapes-in-java-complete-aspose-wor
+Category: images-shapes
+ProcessedDate: 2026-07-29T16:04:52.515171
+SourceRepo: AI Search API
+Keywords: create word document, insert rectangle shape, group shapes in word, save document as docx, add shapes to word
+PRNumber: 237

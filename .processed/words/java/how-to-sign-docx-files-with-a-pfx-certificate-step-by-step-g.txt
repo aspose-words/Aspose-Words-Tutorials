@@ -1,0 +1,7 @@
+Title: How to sign docx files with a PFX certificate – step‑by‑step guide
+Slug: how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g
+Category: document-security
+ProcessedDate: 2026-08-14T11:14:37.836851
+SourceRepo: AI Search API
+Keywords: how to sign docx, sign document pfx
+PRNumber: 252

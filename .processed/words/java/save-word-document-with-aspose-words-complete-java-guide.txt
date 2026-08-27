@@ -1,0 +1,7 @@
+Title: Save Word Document with Aspose.Words – Complete Java Guide
+Slug: save-word-document-with-aspose-words-complete-java-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-24T11:58:45.608918
+SourceRepo: AI Search API
+Keywords: save word document, add shadow to shape, how to add shadow, how to change shadow, change shadow transparency
+PRNumber: 211

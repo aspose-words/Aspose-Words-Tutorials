@@ -1,0 +1,7 @@
+Title: Summarize Word Document in C# Using a Custom GPT Model – Full Guide
+Slug: summarize-word-document-in-c-using-a-custom-gpt-model-full-g
+Category: ai-powered-document-processing
+ProcessedDate: 2026-06-02T12:33:41.983818
+SourceRepo: AI Search API
+Keywords: summarize word document, generate document summary, configure custom gpt model, load docx file c#
+PRNumber: 197

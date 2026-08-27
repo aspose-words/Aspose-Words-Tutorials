@@ -1,0 +1,7 @@
+Title: Recover corrupted docx with Aspose.Words – Complete Java Guide
+Slug: recover-corrupted-docx-with-aspose-words-complete-java-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-08T19:21:02.035554
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, recover corrupted word document, how to save recovered document, how to recover corrupted docx
+PRNumber: 202

@@ -1,0 +1,7 @@
+Title: Show Chart Legend in Word with C# – Complete Step‑by‑Step Guide
+Slug: show-chart-legend-in-word-with-c-complete-step-by-step-guide
+Category: programming-with-charts
+ProcessedDate: 2026-06-02T12:33:45.757585
+SourceRepo: AI Search API
+Keywords: show chart legend, how to add legend, add legend word chart, apply preset chart style, apply chart style word
+PRNumber: 197

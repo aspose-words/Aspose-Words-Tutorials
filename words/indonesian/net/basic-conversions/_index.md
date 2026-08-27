@@ -20,7 +20,7 @@ Konversi Dasar memandu Anda melalui konversi dokumen dasar menggunakan pustaka A
 
  ## Tutorial
 | Judul | Deskripsi |
-Bahasa Indonesia: --- | --- Bahasa Indonesia:
+Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Konversi Doc ke Docx](./doc-to-docx/) | Pelajari cara mengonversi DOC ke DOCX menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh kode. Sempurna untuk pengembang. Bahasa Indonesia: |
 | [Konversi Docx ke Rtf](./docx-to-rtf/) | Pelajari cara mengonversi DOCX ke RTF menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Konversi mudah untuk pemrosesan dokumen yang lancar. Bahasa Indonesia:  |
 | [Konversi File Word ke PDF](./docx-to-pdf/) Pelajari cara mudah mengonversi file Word ke PDF menggunakan Aspose.Words untuk .NET dengan panduan kami. Sempurna bagi pengembang yang mencari konversi dokumen yang cepat dan andal. Bahasa Indonesia: |
@@ -29,15 +29,19 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi Docx ke Mhtml dan mengirim email](./docx-to-mhtml-and-sending-email/) | Pelajari cara mengonversi DOCX ke MHTML dan mengirim email menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. Tingkatkan produktivitas Anda dengan otomatisasi yang mudah. Bahasa Indonesia: |
 | [Konversi File Docx ke Markdown](./docx-to-markdown/) | Pelajari cara mengonversi file DOCX ke Markdown menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk integrasi yang lancar dalam aplikasi .NET Anda. Bahasa Indonesia: |
 | [Konversi Docx ke Txt](./docx-to-txt/) Ubah DOCX ke TXT menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pelajari cara mengubah dokumen secara efisien dan mudah. Bahasa Indonesia: |
+| [Simpan docx sebagai txt – Panduan Lengkap Mengekspor Persamaan Word sebagai LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Pelajari cara mengekspor persamaan Word ke LaTeX saat menyimpan DOCX sebagai file TXT menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 | [Konversi File Teks Ke Dokumen Word](./txt-to-docx/) | Pelajari cara mengonversi berkas teks ke dokumen Word menggunakan Aspose.Words untuk .NET. Kelola konversi dokumen secara efisien dengan panduan lengkap kami. Bahasa Indonesia: |
 | [Simpan Pdf sebagai Jpeg](./pdf-to-jpeg/) | Ubah PDF ke JPEG dengan mudah menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami dengan contoh dan Tanya Jawab Umum. Sempurna untuk pengembang dan penggemar. Bahasa Indonesia: |
 | [Simpan PDF ke Format Word (Docx)](./pdf-to-docx/) | Pelajari cara mengonversi PDF ke dokumen Word (Docx) menggunakan Aspose.Words untuk .NET dalam panduan terperinci dan langkah demi langkah ini. Sempurna untuk pengembang. |
 | [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Panduan langkah demi langkah menyimpan dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Sempurna untuk pengembang. |
-| [Simpan docx sebagai pdf dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Panduan lengkap langkah demi langkah untuk menyimpan file DOCX sebagai PDF menggunakan Aspose.Words dalam C#. |
 | [Cara Mengekspor LaTeX dari Word – Panduan Langkah‑demi‑Langkah](./how-to-export-latex-from-word-step-by-step-guide/) | Pelajari cara mengekspor dokumen Word ke format LaTeX dengan Aspose.Words untuk .NET dalam panduan langkah demi langkah. |
 | [Mengonversi Word ke PDF dalam C# menggunakan Aspose.Words – Panduan](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Panduan langkah demi langkah mengonversi dokumen Word ke PDF menggunakan Aspose.Words dalam C#. Bahasa Indonesia: |
 | [Buat PDF Aksesibel – Mengonversi Word ke PDF dengan Aksesibilitas](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Pelajari cara membuat PDF yang memenuhi standar aksesibilitas dengan mengonversi dokumen Word menggunakan Aspose.Words untuk .NET. |
 | [Pulihkan DOCX Rusak – Panduan Lengkap untuk Memperbaiki, Ekspor PDF & Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Pelajari cara memperbaiki file DOCX yang rusak dan mengekspornya ke PDF atau Markdown menggunakan Aspose.Words untuk .NET. |
+| [Cara Membuat PDF dari Word – Panduan Lengkap C#](./how-to-create-pdf-from-word-complete-c-guide/) | Panduan langkah demi langkah membuat PDF dari dokumen Word menggunakan Aspose.Words dalam C#. Sempurna untuk pengembang. |
+| [Simpan docx sebagai pdf dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Panduan langkah demi langkah menyimpan file DOCX sebagai PDF menggunakan Aspose.Words dalam C#. Cocok untuk pengembang. |
+| [Mengonversi Word ke PDF dalam C# – Panduan Lengkap Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Panduan lengkap mengonversi dokumen Word ke PDF menggunakan Aspose.Words di C#. Praktis dan mudah diikuti. |
+| [Konversi docx ke pdf dan markdown – Panduan Lengkap C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Panduan langkah demi langkah mengonversi file DOCX ke PDF dan Markdown menggunakan Aspose.Words untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

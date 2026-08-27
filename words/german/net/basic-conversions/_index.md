@@ -23,9 +23,10 @@
 | --- | --- |
 | [Doc in Docx konvertieren](./doc-to-docx/) | Erfahren Sie, wie Sie DOC mit Aspose.Words für .NET in DOCX konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen. Perfekt für Entwickler. |
 | [Konvertieren Sie Docx in RTF](./docx-to-rtf/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie DOCX mit Aspose.Words für .NET in RTF konvertieren. Einfache Konvertierung für nahtlose Dokumentenverarbeitung. |  
-| [Word-Datei in PDF konvertieren](./docx-to-pdf/) Erfahren Sie in unserem Leitfaden, wie Sie Word-Dateien mit Aspose.Words für .NET einfach in PDF konvertieren. Perfekt für Entwickler, die eine schnelle und zuverlässige Dokumentkonvertierung wünschen. | 
+| [Word-Datei in PDF konvertieren](./docx-to-pdf/) | Erfahren Sie in unserem Leitfaden, wie Sie Word-Dateien mit Aspose.Words für .NET einfach in PDF konvertieren. Perfekt für Entwickler, die eine schnelle und zuverlässige Dokumentkonvertierung wünschen. |
 | [Word in PDF konvertieren in C# mit Aspose.Words – Anleitung](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# einfach in PDF konvertieren. |
 | [Konvertieren Sie Docx in Byte](./docx-to-byte/) | Erfahren Sie, wie Sie Docx mit Aspose.Words in .NET in ein Byte-Array konvertieren, um eine effiziente Dokumentverarbeitung zu gewährleisten. Schritt‑für‑Schritt‑Anleitung enthalten. |  
+| [Word in PDF konvertieren in C# – Vollständige Aspose‑Anleitung](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in C# vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung. |
 | [Docx in Epub konvertieren](./docx-to-epub/) | Konvertieren Sie DOCX einfach in EPUB mit Aspose.Words für .NET. Folgen Sie unserem Tutorial für die nahtlose Integration in Ihre .NET-Anwendungen. |
 | [Konvertieren Sie Docx in Mhtml und senden Sie E-Mails](./docx-to-mhtml-and-sending-email/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie DOCX in MHTML konvertieren und E-Mails mit Aspose.Words für .NET versenden. Steigern Sie Ihre Produktivität durch einfache Automatisierung. |
 | [Docx-Datei in Markdown konvertieren](./docx-to-markdown/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET in Markdown konvertieren. Folgen Sie unserer ausführlichen Anleitung für die nahtlose Integration in Ihre .NET-Anwendungen. |
@@ -38,6 +39,8 @@
 | [Docx als PDF speichern mit Aspose.Words – Vollständige C#‑Anleitung](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words in C# einfach als PDF speichern – Schritt‑für‑Schritt‑Anleitung. |
 | [Barrierefreies PDF erstellen – Word in PDF mit Barrierefreiheit konvertieren](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET barrierefreie PDFs aus Word-Dokumenten erstellen und die PDF‑Barrierefreiheitsoptionen nutzen. |
 | [Beschädigtes DOCX wiederherstellen – Vollständige Anleitung zur Reparatur, PDF- und Markdown-Export](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET reparieren und in PDF oder Markdown exportieren. |
+| [Wie man PDF aus Word erstellt – Vollständige C#‑Anleitung](./how-to-create-pdf-from-word-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET PDFs aus Word-Dokumenten in C# erstellen – Schritt‑für‑Schritt‑Anleitung. |
+| [DOCX in PDF und Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET sowohl in PDF als auch in Markdown konvertieren – vollständige C#‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

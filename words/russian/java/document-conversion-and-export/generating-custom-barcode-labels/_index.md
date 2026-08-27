@@ -31,7 +31,7 @@ weight: 10
 
 ## Предварительные требования
 
-Прежде чем приступить к кодированию, убедитесь, что у вас есть следующее:
+## Предварительные требования
 
 - Java Development Kit (JDK): версия 8 или выше.  
 - Библиотека Aspose.Words для Java: [Download here](https://releases.aspose.com/words/java/).  

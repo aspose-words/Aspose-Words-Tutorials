@@ -1,0 +1,7 @@
+Title: Format footnote separator in C# using Aspose.Words
+Slug: format-footnote-separator-in-c-using-aspose-words
+Category: working-with-footnote-and-endnote
+ProcessedDate: 2026-08-11T07:19:12.791017
+SourceRepo: AI Search API
+Keywords: format footnote separator
+PRNumber: 249

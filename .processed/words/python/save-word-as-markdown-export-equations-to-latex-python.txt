@@ -1,0 +1,7 @@
+Title: Save Word as Markdown, export equations to LaTeX (Python)
+Slug: save-word-as-markdown-export-equations-to-latex-python
+Category: document-conversion
+ProcessedDate: 2026-08-08T04:55:46.037744
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, how to export equations, export word equations latex, export math to latex
+PRNumber: 247

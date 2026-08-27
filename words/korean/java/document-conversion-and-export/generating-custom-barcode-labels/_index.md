@@ -52,7 +52,7 @@ import java.awt.image.BufferedImage;
 
 이 임포트문을 통해 바코드 생성 API와 Word 문서 클래스를 사용할 수 있습니다.
 
-## 1단계: 바코드 작업을 위한 유틸리티 클래스 만들기
+## Step 1: 바코드 작업을 위한 유틸리티 클래스 만들기
 
 메인 코드를 깔끔하게 유지하기 위해 **twips를 픽셀로 변환**하고 **16진수 색상 변환**과 같은 공통 헬퍼를 유틸리티 클래스에 캡슐화합니다.
 
@@ -86,7 +86,7 @@ class CustomBarcodeGeneratorUtils {
 - `twipsToPixels` – Word는 **twips** 단위로 치수를 측정합니다; 이 메서드는 정확한 바코드 이미지 크기를 지정할 때 유용한 픽셀로 변환합니다.  
 - `convertColor` – 16진수 문자열(예: 빨간색은 `"FF0000"`)을 `java.awt.Color` 객체로 변환하여 **how to insert barcode** 시 사용자 정의 전경색 및 배경색을 적용할 수 있게 합니다.
 
-## 2단계: 사용자 정의 바코드 생성기 구현
+## Step 2: 맞춤 바코드 생성기 구현
 
 이제 `IBarcodeGenerator` 인터페이스를 구현합니다. 이 클래스는 Aspose.Words가 삽입할 수 있는 **generate qr code java** 스타일 이미지를 생성하는 역할을 합니다.
 

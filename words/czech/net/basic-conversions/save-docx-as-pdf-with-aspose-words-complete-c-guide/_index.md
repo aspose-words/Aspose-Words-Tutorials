@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-02-10
-description: Uložte docx jako pdf pomocí Aspose.Words v C#. Převod Wordu na PDF, zachování
-  obrázků a řízení plovoucích tvarů – vše v několika řádcích kódu.
+date: 2026-01-08
+description: Naučte se rychle uložit soubor docx jako pdf pomocí Aspose.Words. Obsahuje
+  kroky pro převod Wordu na pdf, generování přístupného pdf a návod, jak vytvořit pdf/ua.
 draft: false
 keywords:
 - save docx as pdf
 - convert word to pdf
-- save document as pdf
-- convert docx with images
-- aspose convert word pdf
+- generate accessible pdf
+- how to convert docx pdf
+- how to create pdf/ua
 language: cs
-og_description: Rychle uložte docx jako PDF pomocí Aspose.Words. Naučte se, jak převést
-  Word do PDF, zachovat obrázky a pracovat s plovoucími tvary v C#.
-og_title: Uložte soubor docx jako PDF pomocí Aspose.Words – kompletní průvodce C#
+og_description: Uložte docx jako pdf v C# pomocí Aspose.Words. Postupujte podle tohoto
+  návodu pro převod Wordu na pdf, vytvoření přístupného pdf a jak vytvořit pdf/ua.
+og_title: Uložte docx jako pdf – krok za krokem C# tutoriál
 tags:
 - Aspose.Words
 - C#
-- PDF conversion
-title: Uložení docx jako PDF s Aspose.Words – kompletní průvodce C#
+- PDF
+- Accessibility
+title: Uložte DOCX jako PDF pomocí Aspose.Words – Kompletní průvodce C#
 url: /cs/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -26,150 +27,233 @@ url: /cs/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uložení docx jako pdf s Aspose.Words – Kompletní C# průvodce
+# uložit docx jako pdf – Kompletní C# tutoriál
 
-Potřebujete **uložit docx jako pdf** rychle z vaší C# aplikace? S Aspose.Words můžete **převést word do pdf**—včetně obrázků a plovoucích tvarů—pouze během několika řádků kódu.  
+Už jste někdy potřebovali **save docx as pdf**, ale nebyli jste si jisti, která knihovna vám poskytne čistý a přístupný výsledek? Nejste v tom sami. Mnoho vývojářů narazí na problém, když chtějí **convert word to pdf** a zároveň zachovat shodu se standardy PDF/UA.  
 
-Představte si, že vytváříte nástroj pro reportování, který generuje elegantní PDF pro klienty, ale zdrojové soubory jsou stále dokumenty Word. Ruční otevírání Wordu, tisk do PDF a doufání, že rozvržení zůstane zachováno, je noční můra. V tomto tutoriálu celý proces zautomatizujeme, abyste se mohli soustředit na obchodní logiku místo manipulace s UI.
+V tomto průvodci projdeme celý proces – od načtení souboru .docx, nastavení správných možností, až po vytvoření **accessible PDF**, které projde kontrolou PDF/UA. Na konci budete přesně vědět **how to convert docx pdf** pomocí Aspose.Words a také pochopíte **how to create pdf/ua** soubory pro uživatele, kteří spoléhají na asistenční technologie.
 
-Probereme vše od načtení souboru `.docx`, úpravy možností uložení PDF pro plovoucí tvary, až po zápis finálního PDF na disk. Na konci budete schopni **uložit dokument jako pdf** s plnou kontrolou nad zpracováním obrázků a také uvidíte, jak **převést docx s obrázky** bez ztráty kvality. Žádné externí nástroje, jen Aspose.Words pro .NET.
+> **Co si odnesete**  
+> * Připravenou C# konzolovou aplikaci, která **saves docx as pdf** jedním řádkem kódu.  
+> * Přehled o třídě `PdfSaveOptions` a proč je důležitý příznak `PdfCompliance.PdfUa1`.  
+> * Tipy, jak řešit okrajové případy, jako chybějící fonty nebo velké dokumenty.
 
-**Co budete potřebovat**
+---
 
-* .NET 6.0 nebo novější (kód funguje také na .NET Framework 4.6+)  
-* Licence Aspose.Words pro .NET (bezplatná zkušební verze funguje pro ukázky)  
-* Soubor Word (`input.docx`) obsahující text, obrázky a případně některé plovoucí tvary  
+## Požadavky
 
-To je vše—žádné další NuGet balíčky kromě Aspose.Words. Připravení? Pojďme na to.
+Než se pustíme dál, ujistěte se, že máte:
 
-## Uložení docx jako pdf – Krok za krokem implementace
+| Požadavek | Proč je důležité |
+|-------------|----------------|
+| .NET 6.0 nebo novější (nebo .NET Framework 4.7.2+) | Aspose.Words 23.10+ cílí na tyto runtime. |
+| Platná licence Aspose.Words pro .NET (nebo můžete použít bezplatnou zkušební verzi) | Knihovna bez licence přidá vodotisk „trial“. |
+| `input.docx` umístěný ve složce, na kterou můžete odkazovat z kódu | Naše příklady předpokládají jednoduchou cestu k souboru. |
+| Visual Studio 2022 (nebo jakýkoli C# editor) | Usnadňuje ladění. |
 
-Níže je kompletní, připravený k spuštění program. Klidně jej zkopírujte a vložte do nového konzolového projektu.
+Pokud vám některý z těchto bodů není známý, stačí si nainstalovat .NET SDK z webu Microsoftu a získat Aspose.Words přes NuGet:
+
+```bash
+dotnet add package Aspose.Words
+```
+
+---
+
+## Save docx as pdf s Aspose.Words
+
+### Krok 1 – Načtení Word dokumentu
+
+Prvním, co potřebujeme, je objekt `Document`, který představuje zdrojový .docx. Představte si to jako otevření knihy před tím, než začnete kopírovat stránky.
 
 ```csharp
-// ------------------------------------------------------------
-// Full example: save docx as pdf with Aspose.Words (C#)
-// ------------------------------------------------------------
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
+namespace DocxToPdfDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Load the source document (replace with your actual path)
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document doc = new Document(inputPath);
-
-        // 2️⃣ Configure PDF save options – we want floating shapes as inline tags
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
+        static void Main(string[] args)
         {
-            // InlineTag makes the shape part of the text flow,
-            // BlockTag keeps it as a separate block element.
-            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.InlineTag,
+            // Path to the source .docx file
+            string sourcePath = @"YOUR_DIRECTORY\input.docx";
 
-            // Optional: keep image quality high (use 300 DPI)
-            ImageCompression = PdfImageCompression.Auto,
-            JpegQuality = 100
-        };
+            // Load the document – this is where we **convert word to pdf** later
+            Document doc = new Document(sourcePath);
+```
 
-        // 3️⃣ Save the document as PDF with the specified options
-        string outputPath = @"YOUR_DIRECTORY\output.pdf";
-        doc.Save(outputPath, pdfOptions);
+> **Pro tip:** Pokud narazíte na `FileNotFoundException`, zkontrolujte cestu a ujistěte se, že soubor není uzamčen jiným procesem.
 
-        Console.WriteLine($"✅ Successfully saved docx as pdf → {outputPath}");
+### Krok 2 – Nastavení PDF/UA možností (Generování přístupného PDF)
+
+Přístupnost není jen doplněk; je to požadavek mnoha veřejných projektů. Třída `PdfSaveOptions` nám umožňuje říct Aspose.Words, aby vložil správné značky, strukturu a metadata.
+
+```csharp
+            // Create a PdfSaveOptions instance
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                // PDF/UA‑1 compliance ensures the PDF meets WCAG‑2.0 level AA
+                Compliance = PdfCompliance.PdfUa1,
+
+                // Optional: set a custom PDF title for screen‑readers
+                Title = "Converted Document – Accessible PDF"
+            };
+```
+
+Pokud cílíte na novější specifikaci PDF/UA‑2, stačí vyměnit `PdfUa1` za `PdfUa2`. Většina testů shody (např. PAC 2021) stále akceptuje UA‑1, takže toto nastavení funguje v praxi.
+
+### Krok 3 – Uložení souboru (Jak vytvořit pdf/ua)
+
+Nyní je těžká část hotova. Jediným voláním `Document.Save` zapíšeme výstupní soubor a respektujeme všechny nastavené příznaky přístupnosti.
+
+```csharp
+            // Destination path for the PDF/UA file
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+
+            // Save the document as an accessible PDF/UA file
+            doc.Save(outputPath, saveOptions);
+
+            System.Console.WriteLine($"✅ Successfully saved docx as pdf at: {outputPath}");
+        }
     }
 }
 ```
 
-### Proč je každý řádek důležitý
+Spusťte program (`dotnet run` nebo stiskněte **F5** ve Visual Studiu) a najdete `output.pdf` vedle vašeho zdrojového souboru. Otevřete jej v Adobe Acrobat Reader a zkontrolujte **File → Properties → Description → PDF/A and PDF/UA** – mělo by se zobrazit “PDF/UA‑1”.
 
-* **Načtení dokumentu** – `new Document(inputPath)` načte soubor `.docx` do paměti. Aspose.Words parsuje všechny části (text, obrázky, styly), takže je můžete programově manipulovat.  
-* **ExportFloatingShapesAsInlineTag** – Toto nastavení říká PDF rendereru, jak zacházet s plovoucími tvary (jako textová pole nebo umístěné obrázky). Nastavením na `InlineTag` se tvar stane součástí toku textu, což často eliminuje mezery, když původní rozvržení Wordu spoléhá na absolutní pozicování. Pokud potřebujete, aby tvar zůstal samostatným blokem, přepněte na `BlockTag`.  
-* **ImageCompression & JpegQuality** – Ve výchozím nastavení Aspose komprimuje obrázky, aby velikost PDF zůstala rozumná. Příklad vynutí výstup JPEG ve vysoké kvalitě (100 %). Upravte tyto hodnoty, pokud potřebujete menší soubory.  
-* **Ukládání** – `doc.Save(outputPath, pdfOptions)` zapíše finální PDF. Metoda automaticky pracuje se streamy, takže nepotřebujete další kód pro souborové I/O.
+---
 
-> **Tip:** Pokud převádíte desítky souborů najednou, znovu použijte jedinou instanci `PdfSaveOptions`. Snižuje to zatížení paměti a urychluje proces.
+## Jak převést docx pdf – Řešení běžných problémů
 
-## Převod word do pdf – Zpracování obrázků a plovoucích tvarů
+### Chybějící fonty
 
-Když **převádíte docx s obrázky**, Aspose.Words odvede těžkou práci: extrahuje image streamy z balíčku Word a vloží je přímo do PDF. Kvalita, kterou vidíte ve zdrojovém dokumentu, je zachována, pokud nesnížíte `JpegQuality`.
-
-*Co když Word soubor obsahuje vodoznak nebo obrázek na pozadí?*  
-Aspose je zachází jako s běžnými obrázky, takže se v PDF objeví přesně tak, jak jsou ve Wordu. Žádný další kód není potřeba.
-
-### Okrajový případ: Velké obrázky způsobující obrovské PDF
-
-Pokud si všimnete, že se vaše PDF nafoukne, zvažte před uložením škálování obrázků:
+Pokud originální Word dokument používá font, který není nainstalován na serveru, Aspose.Words použije náhradní, což může rozbít rozvržení. Aby se předešlo překvapením:
 
 ```csharp
-// Scale down images over 1200px width
-foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
+// Register a font folder (optional but recommended)
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
+doc.FontSettings = fontSettings;
+```
+
+### Velké dokumenty
+
+U souborů nad 100 MB zvažte streamování výstupu, aby nedošlo k výkyvům paměti:
+
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 {
-    if (shape.HasImage && shape.ImageData.ImageSize.Width > 1200)
-    {
-        shape.ImageData.SetImageSize(1200, 0); // Preserve aspect ratio
-    }
+    doc.Save(outStream, saveOptions);
 }
 ```
 
-Tento úryvek prochází každý tvar, kontroluje, zda obsahuje obrázek, a omezí šířku na 1200 px. Výška se automaticky přizpůsobí.
+### Programová kontrola shody PDF/UA
 
-## Uložení dokumentu jako pdf – Ověření výsledku
-
-Po dokončení programu otevřete `output.pdf` v libovolném PDF prohlížeči. Měli byste vidět:
-
-* Všechny odstavce přesně tak, jak byly v souboru Word.  
-* Obrázky vykreslené v původním rozlišení (nebo ve škálované velikosti, kterou jste nastavili).  
-* Plovoucí textová pole nyní součástí toku textu, čímž se eliminuje nechtěná bílá mezera.
-
-Pokud něco vypadá špatně, zkontrolujte nastavení `ExportFloatingShapesAsInlineTag`. Přepnutí na `BlockTag` může někdy lépe zachovat původní rozvržení u složitých návrhů.
-
-## Často kladené otázky a úskalí
-
-| Question | Answer |
-|----------|--------|
-| **Funguje to s .doc soubory?** | Ano. Aspose.Words podporuje `.doc`, `.docx`, `.rtf` a mnoho dalších formátů. Stačí změnit příponu souboru. |
-| **Mohu streamovat PDF přímo do webové odpovědi?** | Určitě. Použijte `doc.Save(stream, pdfOptions)`, kde `stream` je výstupní stream `HttpResponse`. |
-| **Co s Word soubory chráněnými heslem?** | Načtěte je pomocí `LoadOptions` a zadejte heslo: `new LoadOptions { Password = "secret" }`. |
-| **Je licence vyžadována pro produkci?** | Komerní licence odstraňuje vodotisky z hodnocení a odemyká plnou sadu funkcí. Bezplatná zkušební verze je vhodná pro testování. |
-
-## Obrázek – vizuální přehled
-
-![Diagram ukazující workflow uložení docx jako pdf s Aspose.Words](https://example.com/images/save-docx-as-pdf-workflow.png)
-
-*Diagram ilustruje tříkrokový tok: načtení → konfigurace → uložení.*
-
-## Kompletní funkční příklad (vše v jednom)
-
-Pokud dáváte přednost jedinému souboru bez komentářů, zde je kompaktní verze:
+Aspose.Words může provést rychlý validační průchod:
 
 ```csharp
-using System;
+PdfSaveOptions validationOptions = new PdfSaveOptions
+{
+    Compliance = PdfCompliance.PdfUa1,
+    // Enable validation (throws if non‑compliant)
+    ValidateDocument = true
+};
+
+doc.Save(@"temp_validation.pdf", validationOptions);
+```
+
+Pokud dokument nesplňuje požadavky, vyvolá výjimku, která přesně řekne, který prvek postrádá značku.
+
+---
+
+## Kompletní funkční příklad (Ready‑to‑Copy)
+
+Níže je **celý** program, který můžete vložit do nového konzolového projektu. Žádné skryté závislosti, žádné extra úryvky.
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+using Aspose.Words.Fonts;
+using System;
+using System.IO;
 
-class SimpleConvert
+namespace DocxToPdfDemo
 {
-    static void Main()
+    class Program
     {
-        var doc = new Document(@"YOUR_DIRECTORY\input.docx");
-        var opts = new PdfSaveOptions { ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.InlineTag };
-        doc.Save(@"YOUR_DIRECTORY\output.pdf", opts);
+        static void Main(string[] args)
+        {
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the source Word document
+            // -----------------------------------------------------------------
+            string sourcePath = @"YOUR_DIRECTORY\input.docx";
+            if (!File.Exists(sourcePath))
+            {
+                Console.WriteLine($"❌ File not found: {sourcePath}");
+                return;
+            }
+
+            Document doc = new Document(sourcePath);
+
+            // -----------------------------------------------------------------
+            // 2️⃣ (Optional) Register fonts to avoid substitution issues
+            // -----------------------------------------------------------------
+            FontSettings fonts = new FontSettings();
+            fonts.SetFontsFolder(@"C:\Windows\Fonts", true);
+            doc.FontSettings = fonts;
+
+            // -----------------------------------------------------------------
+            // 3️⃣ Configure PDF/UA options – this **generates accessible pdf**
+            // -----------------------------------------------------------------
+            PdfSaveOptions pdfOptions = new PdfSaveOptions
+            {
+                Compliance = PdfCompliance.PdfUa1,
+                Title = "Accessible PDF generated from DOCX",
+                // Uncomment to enable strict validation
+                // ValidateDocument = true
+            };
+
+            // -----------------------------------------------------------------
+            // 4️⃣ Save the result – this is the core **save docx as pdf** step
+            // -----------------------------------------------------------------
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+            doc.Save(outputPath, pdfOptions);
+
+            Console.WriteLine($"✅ Document converted! Find it at: {outputPath}");
+        }
     }
 }
 ```
 
-Spusťte `dotnet run` ze složky projektu a získáte PDF, který odráží původní Word dokument.
+> **Co byste měli vidět:** Po dokončení běhu se `output.pdf` otevře čistě v libovolném PDF prohlížeči a nástroje pro přístupnost (např. vestavěná kontrola v Acrobat) nehlásí žádné chyby.
+
+---
+
+## Často kladené otázky
+
+**Q: Funguje to s .NET Core?**  
+A: Rozhodně. Stejný kód běží na .NET 6, .NET 7 nebo klasickém .NET Frameworku, pokud odkazujete na správný Aspose.Words NuGet balíček.
+
+**Q: Můžu převádět více DOCX souborů najednou?**  
+A: Ano. Zabalte načítání `Document` a logiku `Save` do smyčky `foreach`, která iteruje soubory ve složce. Pro výkon pamatujte na opakované použití jedné instance `PdfSaveOptions`.
+
+**Q: Co když potřebuji PDF/A místo PDF/UA?**  
+A: Přepněte vlastnost `Compliance` na `PdfCompliance.PdfA1b` (nebo `PdfA2b` pro novější verze). Zbytek kódu zůstane stejný.
+
+**Q: Existuje způsob, jak přidat vlastní PDF/UA značku k určitému odstavci?**  
+A: Můžete použít `Paragraph.ParagraphFormat.StructureTag` k přiřazení sémantické značky před uložením.
+
+---
 
 ## Závěr
 
-Ukázali jsme vám, jak **uložit docx jako pdf** pomocí Aspose.Words, pokrývající vše od základního převodu po jemné ladění zpracování obrázků a plovoucích tvarů. Hlavní výsledek: několik řádků C# kódu může nahradit ruční kroky „Tisk → PDF“, což zrychlí, zlepší spolehlivost a plně automatizuje váš workflow.
+Právě jsme prošli **jak uložit docx jako pdf** pomocí Aspose.Words, probrali nuance **convert word to pdf** a ukázali, jak **generate accessible pdf** splňující požadavky **how to create pdf/ua**. Kompletní, připravený příklad ke kopírování by vás měl dostat do chodu během několika minut, ať už budujete jednorázový konvertor nebo integrujete logiku do většího pipeline pro zpracování dokumentů.
 
-Dále byste mohli chtít prozkoumat další scénáře **aspose convert word pdf**—například přidání záložek, šifrování PDF nebo sloučení více dokumentů do jednoho souboru. Tyto témata navazují přímo na to, co jsme zde probírali, takže se budete cítit jako doma.
+Další kroky? Zkuste přidat obrázky, tabulky nebo dokonce vodoznaky do PDF – vše pomocí stejného objektu `PdfSaveOptions`. Pokud vás zajímá optimalizace výkonu pro velké dávky, podívejte se na funkce **LoadOptions** a **MemoryOptimization** v Aspose.Words. A samozřejmě experimentujte s `PdfUa2`, pokud vaše organizace vyžaduje nejnovější standard přístupnosti.
 
-Šťastné programování a ať vaše PDF vždy vypadají přesně tak, jak jste zamýšleli!
+Šťastné kódování a ať jsou vaše PDF vždy přístupná! 🚀
+
+![save docx as pdf example](/images/save-docx-as-pdf.png){alt="uložit docx jako pdf pomocí Aspose.Words"}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

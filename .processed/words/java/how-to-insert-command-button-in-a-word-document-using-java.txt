@@ -1,0 +1,7 @@
+Title: How to insert command button in a Word document using Java
+Slug: how-to-insert-command-button-in-a-word-document-using-java
+Category: using-document-elements
+ProcessedDate: 2026-08-24T04:03:19.989302
+SourceRepo: AI Search API
+Keywords: insert command button, add form control, how to add button, set button name, add activex button
+PRNumber: 263

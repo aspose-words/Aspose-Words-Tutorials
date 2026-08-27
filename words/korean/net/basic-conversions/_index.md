@@ -34,10 +34,14 @@
 | [PDF를 Word 형식(Docx)으로 저장](./pdf-to-docx/) | Aspose.Words for .NET을 사용하여 PDF를 Word 문서(Docx)로 변환하는 방법을 단계별로 자세히 알아보세요. 개발자에게 안성맞춤입니다. |
 | [Word에서 LaTeX 내보내기 – 단계별 가이드](./how-to-export-latex-from-word-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에서 LaTeX 코드를 추출하고 내보내는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose.Words를 사용해 Word를 PDF로 변환 – 가이드](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다. |
+| [C#에서 Word를 PDF로 변환 – 완전한 Aspose 가이드](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Aspose.Words for .NET을 활용해 C#에서 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [Aspose.Words로 Word를 PDF로 저장 – 완전한 C# 가이드](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words와 C#을 활용해 Word 문서를 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [Docx를 PDF로 저장 – 완전한 C# 가이드](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words와 C#을 사용해 Docx 파일을 PDF로 저장하는 전체 단계별 가이드입니다. |
 | [접근 가능한 PDF 만들기 – Word를 PDF 접근성으로 변환](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Aspose.Words for .NET을 사용하여 Word 문서를 접근성 PDF로 변환하고, 접근성 옵션을 설정하는 방법을 단계별로 안내합니다. |
 | [손상된 DOCX 복구 – PDF 및 마크다운 내보내기 전체 가이드](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Aspose.Words for .NET을 사용하여 손상된 DOCX 파일을 복구하고 PDF와 마크다운으로 내보내는 전체 단계별 가이드입니다. |
+| [Word에서 PDF 만들기 – 완전한 C# 가이드](./how-to-create-pdf-from-word-complete-c-guide/) | Aspose.Words와 C#을 이용해 Word 파일을 PDF로 변환하는 자세한 단계별 가이드 |
+| [Docx를 Txt로 저장 – Word 수식을 LaTeX로 내보내는 완전 가이드](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Aspose.Words for .NET을 사용해 Docx 파일을 Txt로 저장하고, Word 수식을 LaTeX 형식으로 내보내는 단계별 완전 가이드입니다. |
+| [Docx를 PDF와 마크다운으로 변환 – 완전한 C# 가이드](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Docx를 PDF와 마크다운으로 변환하는 전체 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

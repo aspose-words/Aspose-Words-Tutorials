@@ -38,6 +38,7 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Guardar Word como PDF con Aspose.Words – Guía completa en C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aprenda a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso a paso con ejemplos de código.
 | [Guardar docx como PDF con Aspose.Words – Guía completa en C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) Aprenda a guardar documentos DOCX como PDF usando Aspose.Words en C#. Guía paso a paso con ejemplos de código.
 | [Recuperar DOCX corrupto – Guía completa para reparar, exportar a PDF y Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) Aprenda a recuperar archivos DOCX dañados, repararlos y exportarlos a PDF y Markdown usando Aspose.Words para .NET. |
+| [Cómo crear PDF desde Word – Guía completa en C#](./how-to-create-pdf-from-word-complete-c-guide/) Aprenda a generar PDFs a partir de documentos Word usando Aspose.Words para .NET con ejemplos de código paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

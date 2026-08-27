@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-02-10
-description: Lưu file docx thành pdf bằng Aspose.Words trong C#. Chuyển đổi Word sang
-  PDF, giữ nguyên hình ảnh và kiểm soát các hình dạng nổi—tất cả chỉ trong vài dòng
-  mã.
+date: 2026-01-08
+description: Tìm hiểu cách lưu tệp docx thành pdf nhanh chóng bằng Aspose.Words. Bao
+  gồm các bước chuyển đổi Word sang PDF, tạo PDF có khả năng truy cập, và cách tạo
+  PDF/UA.
 draft: false
 keywords:
 - save docx as pdf
 - convert word to pdf
-- save document as pdf
-- convert docx with images
-- aspose convert word pdf
+- generate accessible pdf
+- how to convert docx pdf
+- how to create pdf/ua
 language: vi
-og_description: Lưu file docx thành pdf nhanh chóng với Aspose.Words. Tìm hiểu cách
-  chuyển đổi Word sang PDF, bảo tồn hình ảnh và xử lý các hình dạng nổi trong C#.
-og_title: Lưu file docx thành pdf bằng Aspose.Words – Hướng dẫn C# đầy đủ
+og_description: Lưu file docx thành PDF trong C# bằng Aspose.Words. Hãy theo hướng
+  dẫn này để chuyển đổi Word sang PDF, tạo PDF có khả năng truy cập, và cách tạo PDF/UA.
+og_title: Lưu docx thành pdf – Hướng dẫn C# từng bước
 tags:
 - Aspose.Words
 - C#
-- PDF conversion
-title: Lưu file docx thành pdf bằng Aspose.Words – Hướng dẫn C# đầy đủ
+- PDF
+- Accessibility
+title: Lưu file docx thành pdf với Aspose.Words – Hướng dẫn C# đầy đủ
 url: /vi/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -27,150 +28,219 @@ url: /vi/net/basic-conversions/save-docx-as-pdf-with-aspose-words-complete-c-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu docx thành pdf với Aspose.Words – Hướng dẫn C# đầy đủ
+# Lưu docx thành pdf – Hướng dẫn C# đầy đủ
 
-Cần **lưu docx thành pdf** nhanh chóng từ ứng dụng C# của bạn? Với Aspose.Words bạn có thể **chuyển đổi word sang pdf**—bao gồm cả hình ảnh và các hình dạng nổi—chỉ trong vài dòng mã.  
+Bạn đã bao giờ cần **save docx as pdf** nhưng không chắc thư viện nào sẽ cho kết quả sạch sẽ, có khả năng truy cập? Bạn không đơn độc. Nhiều nhà phát triển gặp khó khăn khi muốn **convert word to pdf** đồng thời tuân thủ các tiêu chuẩn PDF/UA.  
 
-Hãy tưởng tượng bạn đang xây dựng một công cụ báo cáo xuất ra các PDF đẹp mắt cho khách hàng, nhưng các tệp nguồn vẫn là tài liệu Word. Việc mở Word thủ công, in ra PDF và hy vọng bố cục vẫn giữ nguyên là một cơn ác mộng. Trong tutorial này chúng ta sẽ tự động hoá toàn bộ quy trình, để bạn có thể tập trung vào logic nghiệp vụ thay vì mải mê giao diện người dùng.
+Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình — từ việc tải tệp .docx, cấu hình các tùy chọn phù hợp, cho đến khi tạo ra một **accessible PDF** đáp ứng các kiểm tra PDF/UA. Khi kết thúc, bạn sẽ biết chính xác **how to convert docx pdf** với Aspose.Words và thậm chí hiểu **how to create pdf/ua** cho người dùng dựa vào công nghệ hỗ trợ.
 
-Chúng ta sẽ đi qua mọi thứ từ việc tải tệp `.docx`, tinh chỉnh các tùy chọn lưu PDF cho các hình dạng nổi, cho tới việc ghi PDF cuối cùng ra đĩa. Khi hoàn thành, bạn sẽ có thể **lưu tài liệu dưới dạng pdf** với kiểm soát đầy đủ việc xử lý hình ảnh, và bạn cũng sẽ thấy cách **chuyển đổi docx có hình ảnh** mà không mất chất lượng. Không cần công cụ bên ngoài, chỉ cần Aspose.Words cho .NET.
+> **Bạn sẽ nhận được**  
+> * Một ứng dụng console C# sẵn sàng chạy, **saves docx as pdf** chỉ trong một dòng lệnh.  
+> * Kiến thức sâu về lớp `PdfSaveOptions` và lý do cờ `PdfCompliance.PdfUa1` quan trọng.  
+> * Mẹo xử lý các trường hợp đặc biệt như thiếu phông chữ hoặc tài liệu lớn.
 
-**Những gì bạn cần**
+## Yêu cầu trước
 
-* .NET 6.0 hoặc mới hơn (mã cũng chạy trên .NET Framework 4.6+)  
-* Giấy phép Aspose.Words cho .NET (bản dùng thử miễn phí đủ cho demo)  
-* Một tệp Word (`input.docx`) chứa văn bản, hình ảnh và có thể một vài hình dạng nổi  
+| Yêu cầu | Lý do quan trọng |
+|-------------|----------------|
+| .NET 6.0 hoặc mới hơn (hoặc .NET Framework 4.7.2+) | Aspose.Words 23.10+ hỗ trợ các runtime này. |
+| Giấy phép Aspose.Words for .NET hợp lệ (hoặc bạn có thể dùng bản đánh giá miễn phí) | Thư viện sẽ hiển thị watermark dùng thử nếu không có giấy phép. |
+| `input.docx` được đặt trong thư mục bạn có thể tham chiếu từ mã | Các ví dụ của chúng tôi giả định một đường dẫn tệp đơn giản. |
+| Visual Studio 2022 (hoặc bất kỳ trình soạn thảo C# nào) | Giúp việc gỡ lỗi trở nên dễ dàng. |
 
-Đó là tất cả—không cần thêm gói NuGet nào ngoài Aspose.Words. Sẵn sàng? Hãy bắt đầu.
+Nếu bất kỳ mục nào ở trên bạn chưa quen, chỉ cần cài đặt .NET SDK từ trang của Microsoft và tải Aspose.Words qua NuGet:
 
-## Lưu docx thành pdf – Thực hiện từng bước
+```bash
+dotnet add package Aspose.Words
+```
 
-Dưới đây là chương trình đầy đủ, sẵn sàng chạy. Bạn có thể sao chép‑dán vào một dự án console mới.
+## Lưu docx thành pdf với Aspose.Words
+
+### Bước 1 – Tải tài liệu Word
+
+Điều đầu tiên chúng ta cần là một đối tượng `Document` đại diện cho tệp .docx nguồn. Hãy nghĩ nó như việc mở một cuốn sách trước khi bắt đầu sao chép các trang.
 
 ```csharp
-// ------------------------------------------------------------
-// Full example: save docx as pdf with Aspose.Words (C#)
-// ------------------------------------------------------------
-using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
+namespace DocxToPdfDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Load the source document (replace with your actual path)
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        Document doc = new Document(inputPath);
-
-        // 2️⃣ Configure PDF save options – we want floating shapes as inline tags
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
+        static void Main(string[] args)
         {
-            // InlineTag makes the shape part of the text flow,
-            // BlockTag keeps it as a separate block element.
-            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.InlineTag,
+            // Path to the source .docx file
+            string sourcePath = @"YOUR_DIRECTORY\input.docx";
 
-            // Optional: keep image quality high (use 300 DPI)
-            ImageCompression = PdfImageCompression.Auto,
-            JpegQuality = 100
-        };
+            // Load the document – this is where we **convert word to pdf** later
+            Document doc = new Document(sourcePath);
+```
 
-        // 3️⃣ Save the document as PDF with the specified options
-        string outputPath = @"YOUR_DIRECTORY\output.pdf";
-        doc.Save(outputPath, pdfOptions);
+> **Mẹo chuyên nghiệp:** Nếu gặp `FileNotFoundException`, hãy kiểm tra lại đường dẫn và đảm bảo tệp không bị một tiến trình khác khóa.
 
-        Console.WriteLine($"✅ Successfully saved docx as pdf → {outputPath}");
+### Bước 2 – Cấu hình tùy chọn PDF/UA (Tạo PDF có khả năng truy cập)
+
+Khả năng truy cập không phải là thứ nghĩ đến sau cùng; nó là yêu cầu cho nhiều dự án khu vực công. Lớp `PdfSaveOptions` cho phép chúng ta chỉ định cho Aspose.Words nhúng các thẻ, cấu trúc và siêu dữ liệu phù hợp.
+
+```csharp
+            // Create a PdfSaveOptions instance
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                // PDF/UA‑1 compliance ensures the PDF meets WCAG‑2.0 level AA
+                Compliance = PdfCompliance.PdfUa1,
+
+                // Optional: set a custom PDF title for screen‑readers
+                Title = "Converted Document – Accessible PDF"
+            };
+```
+
+Nếu bạn nhắm tới tiêu chuẩn PDF/UA‑2 mới hơn, chỉ cần thay `PdfUa1` bằng `PdfUa2`. Hầu hết các bài kiểm tra tuân thủ (ví dụ, PAC 2021) vẫn chấp nhận UA‑1, vì vậy cài đặt này vẫn hoạt động trong thực tế.
+
+### Bước 3 – Lưu tệp (Cách tạo pdf/ua)
+
+Bây giờ công việc nặng đã hoàn thành. Một lần gọi `Document.Save` sẽ ghi tệp đầu ra đồng thời tuân thủ tất cả các cờ khả năng truy cập mà chúng ta đã thiết lập.
+
+```csharp
+            // Destination path for the PDF/UA file
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+
+            // Save the document as an accessible PDF/UA file
+            doc.Save(outputPath, saveOptions);
+
+            System.Console.WriteLine($"✅ Successfully saved docx as pdf at: {outputPath}");
+        }
     }
 }
 ```
 
-### Tại sao mỗi dòng lại quan trọng
+Chạy chương trình (`dotnet run` hoặc nhấn **F5** trong Visual Studio) và bạn sẽ thấy `output.pdf` nằm cạnh tệp nguồn của mình. Mở nó trong Adobe Acrobat Reader và kiểm tra **File → Properties → Description → PDF/A and PDF/UA** – bạn sẽ thấy “PDF/UA‑1” được liệt kê.
 
-* **Loading the document** – `new Document(inputPath)` đọc tệp `.docx` vào bộ nhớ. Aspose.Words phân tích tất cả các phần (văn bản, hình ảnh, kiểu dáng) để bạn có thể thao tác chúng bằng mã.  
-* **ExportFloatingShapesAsInlineTag** – Cờ này chỉ cho trình render PDF cách xử lý các hình dạng nổi (như hộp văn bản hoặc hình ảnh được định vị). Đặt giá trị `InlineTag` buộc hình dạng trở thành một phần của luồng văn bản, thường loại bỏ các khoảng trống khi bố cục Word gốc dựa vào vị trí tuyệt đối. Nếu bạn muốn hình dạng giữ nguyên dưới dạng khối riêng, hãy chuyển sang `BlockTag`.  
-* **ImageCompression & JpegQuality** – Mặc định Aspose nén hình ảnh để giữ kích thước PDF ở mức hợp lý. Ví dụ này buộc xuất JPEG chất lượng cao (100 %). Điều chỉnh các giá trị này nếu bạn cần tệp nhỏ hơn.  
-* **Saving** – `doc.Save(outputPath, pdfOptions)` ghi PDF cuối cùng. Phương thức này tự động xử lý stream, vì vậy bạn không cần thêm mã IO cho tệp.
+## Cách chuyển đổi docx pdf – Xử lý các vấn đề thường gặp
 
-> **Pro tip:** Nếu bạn chuyển đổi hàng chục tệp trong một batch, hãy tái sử dụng một thể hiện `PdfSaveOptions`. Điều này giảm áp lực bộ nhớ và tăng tốc quá trình.
+### Thiếu phông chữ
 
-## Chuyển đổi word sang pdf – Xử lý hình ảnh và hình dạng nổi
-
-Khi bạn **chuyển đổi docx có hình ảnh**, Aspose.Words thực hiện phần lớn công việc: nó trích xuất các stream hình ảnh từ gói Word và nhúng trực tiếp vào PDF. Chất lượng bạn thấy trong tài liệu nguồn sẽ được giữ nguyên, miễn là bạn không hạ `JpegQuality`.
-
-*Nếu tệp Word chứa watermark hoặc hình nền thì sao?*  
-Aspose coi chúng như các hình ảnh thông thường, vì vậy chúng sẽ xuất hiện trong PDF đúng như trong Word. Không cần mã bổ sung.
-
-### Trường hợp đặc biệt: Hình ảnh lớn gây PDF khổng lồ
-
-Nếu bạn nhận thấy PDF tăng kích thước đáng kể, hãy cân nhắc thu nhỏ hình ảnh trước khi lưu:
+Nếu tài liệu Word gốc sử dụng phông chữ chưa được cài đặt trên máy chủ, Aspose.Words sẽ thay thế bằng phông dự phòng, có thể làm hỏng bố cục. Để tránh bất ngờ:
 
 ```csharp
-// Scale down images over 1200px width
-foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
+// Register a font folder (optional but recommended)
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(@"C:\Windows\Fonts", recursive: true);
+doc.FontSettings = fontSettings;
+```
+
+### Tài liệu lớn
+
+Khi làm việc với các tệp lớn hơn 100 MB, hãy cân nhắc truyền dữ liệu đầu ra theo luồng để tránh tăng đột biến bộ nhớ:
+
+```csharp
+using (FileStream outStream = new FileStream(outputPath, FileMode.Create))
 {
-    if (shape.HasImage && shape.ImageData.ImageSize.Width > 1200)
-    {
-        shape.ImageData.SetImageSize(1200, 0); // Preserve aspect ratio
-    }
+    doc.Save(outStream, saveOptions);
 }
 ```
 
-Đoạn mã này duyệt qua mọi shape, kiểm tra xem nó có chứa hình ảnh không, và giới hạn chiều rộng tối đa ở 1200 px. Chiều cao sẽ được tự động điều chỉnh.
+### Kiểm tra tuân thủ PDF/UA bằng chương trình
 
-## Lưu tài liệu dưới dạng pdf – Kiểm tra kết quả
-
-Sau khi chương trình kết thúc, mở `output.pdf` bằng bất kỳ trình xem PDF nào. Bạn sẽ thấy:
-
-* Tất cả các đoạn văn giống hệt như trong tệp Word.  
-* Hình ảnh được hiển thị ở độ phân giải gốc (hoặc kích thước đã thu nhỏ).  
-* Các hộp văn bản nổi giờ đã trở thành một phần của luồng văn bản, loại bỏ khoảng trắng không mong muốn.
-
-Nếu có gì không ổn, hãy kiểm tra lại cài đặt `ExportFloatingShapesAsInlineTag`. Chuyển sang `BlockTag` đôi khi giữ bố cục gốc tốt hơn cho các thiết kế phức tạp.
-
-## Câu hỏi thường gặp & Lưu ý
-
-| Question | Answer |
-|----------|--------|
-| **Does this work with .doc files?** | Yes. Aspose.Words supports `.doc`, `.docx`, `.rtf`, and many other formats. Just change the file extension. |
-| **Can I stream the PDF directly to a web response?** | Absolutely. Use `doc.Save(stream, pdfOptions)` where `stream` is an `HttpResponse` output stream. |
-| **What about password‑protected Word files?** | Load them with `LoadOptions` and provide the password: `new LoadOptions { Password = "secret" }`. |
-| **Is a license required for production?** | A commercial license removes evaluation watermarks and unlocks the full feature set. The free trial is fine for testing. |
-
-## Hình ảnh – Tổng quan trực quan
-
-![Sơ đồ mô tả quy trình lưu docx thành pdf với Aspose.Words](https://example.com/images/save-docx-as-pdf-workflow.png)
-
-*Biểu đồ minh họa quy trình ba bước: tải → cấu hình → lưu.*
-
-## Ví dụ hoàn chỉnh (Tất cả trong một)
-
-Nếu bạn muốn một tệp duy nhất không có chú thích, đây là phiên bản ngắn gọn:
+Aspose.Words có thể thực hiện một lần kiểm tra nhanh:
 
 ```csharp
-using System;
+PdfSaveOptions validationOptions = new PdfSaveOptions
+{
+    Compliance = PdfCompliance.PdfUa1,
+    // Enable validation (throws if non‑compliant)
+    ValidateDocument = true
+};
+
+doc.Save(@"temp_validation.pdf", validationOptions);
+```
+
+Nếu tài liệu không tuân thủ, một ngoại lệ sẽ cho bạn biết chính xác phần tử nào thiếu thẻ.
+
+## Ví dụ hoàn chỉnh (Sẵn sàng sao chép‑dán)
+
+Dưới đây là chương trình **toàn bộ** mà bạn có thể đưa vào một dự án console mới. Không có phụ thuộc ẩn, không có đoạn mã phụ.
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+using Aspose.Words.Fonts;
+using System;
+using System.IO;
 
-class SimpleConvert
+namespace DocxToPdfDemo
 {
-    static void Main()
+    class Program
     {
-        var doc = new Document(@"YOUR_DIRECTORY\input.docx");
-        var opts = new PdfSaveOptions { ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.InlineTag };
-        doc.Save(@"YOUR_DIRECTORY\output.pdf", opts);
+        static void Main(string[] args)
+        {
+            // -----------------------------------------------------------------
+            // 1️⃣ Load the source Word document
+            // -----------------------------------------------------------------
+            string sourcePath = @"YOUR_DIRECTORY\input.docx";
+            if (!File.Exists(sourcePath))
+            {
+                Console.WriteLine($"❌ File not found: {sourcePath}");
+                return;
+            }
+
+            Document doc = new Document(sourcePath);
+
+            // -----------------------------------------------------------------
+            // 2️⃣ (Optional) Register fonts to avoid substitution issues
+            // -----------------------------------------------------------------
+            FontSettings fonts = new FontSettings();
+            fonts.SetFontsFolder(@"C:\Windows\Fonts", true);
+            doc.FontSettings = fonts;
+
+            // -----------------------------------------------------------------
+            // 3️⃣ Configure PDF/UA options – this **generates accessible pdf**
+            // -----------------------------------------------------------------
+            PdfSaveOptions pdfOptions = new PdfSaveOptions
+            {
+                Compliance = PdfCompliance.PdfUa1,
+                Title = "Accessible PDF generated from DOCX",
+                // Uncomment to enable strict validation
+                // ValidateDocument = true
+            };
+
+            // -----------------------------------------------------------------
+            // 4️⃣ Save the result – this is the core **save docx as pdf** step
+            // -----------------------------------------------------------------
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+            doc.Save(outputPath, pdfOptions);
+
+            Console.WriteLine($"✅ Document converted! Find it at: {outputPath}");
+        }
     }
 }
 ```
 
-Chạy `dotnet run` từ thư mục dự án và bạn sẽ nhận được một PDF phản ánh đúng tài liệu Word gốc.
+> **Bạn sẽ thấy gì:** Sau khi chạy xong, `output.pdf` mở sạch sẽ trong bất kỳ trình xem PDF nào, và các công cụ kiểm tra khả năng truy cập (như trình kiểm tra Acrobat tích hợp) báo cáo không có lỗi.
+
+## Câu hỏi thường gặp
+
+**Q: Điều này có hoạt động với .NET Core không?**  
+A: Hoàn toàn có. Đoạn mã giống nhau chạy trên .NET 6, .NET 7, hoặc .NET Framework cổ điển miễn là bạn tham chiếu đúng gói NuGet Aspose.Words.
+
+**Q: Tôi có thể chuyển đổi nhiều tệp DOCX cùng lúc không?**  
+A: Có. Đặt việc tải `Document` và logic `Save` trong một vòng lặp `foreach` duyệt các tệp trong thư mục. Hãy nhớ tái sử dụng một thể hiện `PdfSaveOptions` duy nhất để tối ưu hiệu năng.
+
+**Q: Nếu tôi cần PDF/A thay vì PDF/UA thì sao?**  
+A: Đổi thuộc tính `Compliance` thành `PdfCompliance.PdfA1b` (hoặc `PdfA2b` cho các phiên bản mới hơn). Phần còn lại của mã vẫn giống nhau.
+
+**Q: Có cách nào thêm thẻ PDF/UA tùy chỉnh vào một đoạn văn cụ thể không?**  
+A: Bạn có thể dùng `Paragraph.ParagraphFormat.StructureTag` để gán thẻ ngữ nghĩa trước khi lưu.
 
 ## Kết luận
 
-Chúng tôi đã chỉ cho bạn cách **lưu docx thành pdf** bằng Aspose.Words, bao quát từ chuyển đổi cơ bản tới tinh chỉnh xử lý hình ảnh và các hình dạng nổi. Bài học chính: chỉ vài dòng C# có thể thay thế các bước “Print → PDF” thủ công, làm cho quy trình của bạn nhanh hơn, đáng tin cậy hơn và hoàn toàn tự động hoá.
+Chúng tôi vừa trình bày **how to save docx as pdf** bằng Aspose.Words, khám phá các chi tiết của **convert word to pdf**, và minh họa cách **generate accessible pdf** đáp ứng các yêu cầu **how to create pdf/ua**. Ví dụ hoàn chỉnh, sẵn sàng sao chép‑dán sẽ giúp bạn khởi động trong vài phút, dù bạn đang xây dựng một công cụ chuyển đổi đơn lẻ hay nhúng logic vào một pipeline xử lý tài liệu lớn.
 
-Tiếp theo, bạn có thể khám phá các kịch bản **aspose convert word pdf** khác—như thêm bookmark, mã hoá PDF, hoặc gộp nhiều tài liệu thành một file. Những chủ đề này dựa trực tiếp trên những gì chúng ta đã học, vì vậy bạn sẽ cảm thấy rất thoải mái.
+Bước tiếp theo? Hãy thử thêm hình ảnh, bảng hoặc thậm chí watermark vào PDF — tất cả đều dùng cùng một đối tượng `PdfSaveOptions`. Nếu bạn muốn tối ưu hiệu suất cho các batch lớn, hãy khám phá các tính năng **LoadOptions** và **MemoryOptimization** của Aspose.Words. Và dĩ nhiên, thử nghiệm với `PdfUa2` nếu tổ chức của bạn yêu cầu tiêu chuẩn khả năng truy cập mới nhất.
 
-Chúc lập trình vui vẻ, và mong PDF của bạn luôn hiển thị đúng như mong muốn!
+Chúc lập trình vui vẻ, và hy vọng các PDF của bạn luôn có khả năng truy cập! 🚀
+
+![lưu docx thành pdf bằng Aspose.Words](/images/save-docx-as-pdf.png){alt="lưu docx thành pdf bằng Aspose.Words"}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

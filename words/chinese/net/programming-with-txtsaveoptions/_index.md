@@ -27,7 +27,9 @@ Aspose.Words for .NET 教程将引导您了解该库在处理 Word 文档方面�
 | [在 Word 文档中添加双向标记](./add-bidi-marks/) 本指南将指导您如何使用 Aspose.Words for .NET 在 Word 文档中添加双向 (Bidi) 标记。确保多语言内容的文本方向正确。|
 | [每级使用制表符进行列表缩进](./use-tab-character-per-level-for-list-indentation/) 了解如何使用 Aspose.Words for .NET 创建带有制表符缩进的多级列表。请遵循本指南，在文档中设置精确的列表格式。|
 | [每级使用空格字符进行列表缩进](./use-space-character-per-level-for-list-indentation/) 了解如何在 Aspose.Words for .NET 中创建带有空格字符缩进的多级列表。精确文档格式的分步指南。|
-
+| [将 docx 转换为 txt – 保存 Word 为纯文本的完整指南](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) 本指南详细讲解如何使用 Aspose.Words for .NET 将 DOCX 文档转换为 TXT 文本，包括编码设置和保存选项。|
+| [将文档保存为 TXT – 完整的 C# 指南，将 DOCX 转换为纯文本](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) 本指南展示如何使用 Aspose.Words for .NET 将 DOCX 文档转换为纯文本 TXT 文件，并提供完整的 C# 示例代码。|
+| [将 docx 保存为 txt – C# 开发者快速指南](./save-docx-as-txt-quick-guide-for-c-developers/) 本指南快速演示如何使用 C# 将 docx 文件转换为 txt 文本。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

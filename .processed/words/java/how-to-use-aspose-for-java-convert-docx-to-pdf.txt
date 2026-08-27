@@ -1,0 +1,7 @@
+Title: How to Use Aspose for Java: Convert DOCX to PDF
+Slug: how-to-use-aspose-for-java-convert-docx-to-pdf
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-24T11:59:06.606722
+SourceRepo: AI Search API
+Keywords: how to use aspose, java docx to pdf, export docx as pdf, aspose words convert, save word as pdf
+PRNumber: 211

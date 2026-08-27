@@ -1,0 +1,7 @@
+Title: Save Word as Markdown – Export Tables to HTML in Java
+Slug: save-word-as-markdown-export-tables-to-html-in-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-17T03:10:29.954422
+SourceRepo: AI Search API
+Keywords: save word as markdown, how to export tables, convert word to markdown, export word tables html, export tables markdown
+PRNumber: 226

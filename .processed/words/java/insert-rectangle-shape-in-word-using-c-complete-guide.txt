@@ -1,0 +1,7 @@
+Title: Insert rectangle shape in Word using C# – complete guide
+Slug: insert-rectangle-shape-in-word-using-c-complete-guide
+Category: images-shapes
+ProcessedDate: 2026-08-04T23:03:27.801688
+SourceRepo: AI Search API
+Keywords: insert rectangle shape, how to group shapes, group shapes in word, save document as docx, how to use builder
+PRNumber: 242

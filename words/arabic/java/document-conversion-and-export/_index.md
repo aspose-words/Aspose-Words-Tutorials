@@ -95,6 +95,21 @@ weight: 22
 ### [تنسيق الجداول وأنماط الجداول في Aspose.Words for Java](./formatting-tables-and-table-styles/)
 تعلم كيفية تنسيق الجداول وتطبيق أنماط الجداول في Aspose.Words for Java. استكشف أدلة خطوة بخطوة مع الشيفرة المصدرية لتنسيق فعال للجداول. حسّن تخطيط مستندك باستخدام Aspose.Words.
 
+### [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
+
+### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
+
+### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
+
+### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
+
+### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
+تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني إضافة علامة مائية إلى ملف PDF موجود باستخدام Aspose.Words؟**  

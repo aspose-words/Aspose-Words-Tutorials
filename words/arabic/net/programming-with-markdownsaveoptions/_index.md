@@ -41,6 +41,36 @@
 ### [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
+### [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
+
+### [تحويل Word إلى Markdown – تضمين الصور كـ Base64](./convert-word-to-markdown-embed-images-as-base64/)
+### [كيفية حفظ Markdown من Word – دليل C# كامل](./how-to-save-markdown-from-word-complete-c-guide/)
+
+### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
+
+### [كيفية تصدير LaTeX: تحويل DOCX إلى Markdown و TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
+
+### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+
+### [حفظ docx كـ markdown مع Aspose.Words – دليل C# كامل](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+
+### [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+
+### [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-complete-guide-with-image-extractio/)
+
+### [تصدير docx إلى markdown في C# – دليل كامل](./export-docx-to-markdown-in-c-complete-guide/)
+
+### [حفظ docx كـ markdown واستخراج الصور – دليل C#](./save-docx-as-markdown-extract-images-c-guide/)
+
+### [كيفية حفظ Markdown – دليل C# كامل](./how-to-save-markdown-complete-c-guide/)
+
+### [تحويل DOCX إلى Markdown – دليل كامل باستخدام Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
+
+### [كيفية استخدام Callback في C# – تحويل DOCX إلى Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
 ### [حفظ docx كـ txt – تحويل docx إلى markdown](./save-docx-as-txt-convert-docx-to-markdown/)
 

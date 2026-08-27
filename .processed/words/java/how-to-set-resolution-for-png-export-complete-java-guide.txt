@@ -1,0 +1,7 @@
+Title: How to Set Resolution for PNG Export – Complete Java Guide
+Slug: how-to-set-resolution-for-png-export-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-03T23:22:51.636579
+SourceRepo: AI Search API
+Keywords: how to set resolution for png export
+PRNumber: 220

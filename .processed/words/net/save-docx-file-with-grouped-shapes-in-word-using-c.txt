@@ -1,0 +1,7 @@
+Title: Save docx file with grouped shapes in Word using C#
+Slug: save-docx-file-with-grouped-shapes-in-word-using-c
+Category: programming-with-shapes
+ProcessedDate: 2026-08-04T22:50:11.254592
+SourceRepo: AI Search API
+Keywords: save docx file, add rectangle shape, group shapes word, set shape dimensions, create textbox programmatically
+PRNumber: 241
