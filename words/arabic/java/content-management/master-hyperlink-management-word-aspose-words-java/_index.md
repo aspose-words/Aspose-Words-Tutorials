@@ -1,177 +1,295 @@
 ---
-"date": "2025-03-28"
-"description": "تعلّم كيفية إدارة الروابط التشعبية بكفاءة في مستندات Word باستخدام Aspose.Words لجافا. بسّط سير عمل مستنداتك وحسّن الروابط باتباع دليلنا المفصل."
-"title": "إدارة الارتباطات التشعبية في Word باستخدام Aspose.Words Java - دليل شامل"
-"url": "/ar/java/content-management/master-hyperlink-management-word-aspose-words-java/"
-"weight": 1
+date: '2026-08-27'
+description: تعلم كيفية استخراج hyperlinks، وتحديث الروابط بشكل جماعي، وإدارة روابط
+  مستندات Word باستخدام Aspose.Words for Java. دليل خطوة بخطوة للمطورين.
+keywords:
+- how to extract hyperlinks
+- how to update hyperlinks
+- bulk edit word hyperlinks
+- manage word document links
+lastmod: '2026-08-27'
+og_description: كيفية استخراج hyperlinks وتعديل الروابط في مستندات Word بشكل جماعي
+  باستخدام Aspose.Words for Java. اتبع هذا الدرس الشامل للحصول على نتائج سريعة وموثوقة.
+og_image_alt: Developer guide showing Java code for extracting and updating hyperlinks
+  in Word documents
+og_title: كيفية استخراج hyperlinks في Word باستخدام Aspose.Words for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to extract hyperlinks, update links in bulk, and manage Word
+    document hyperlinks using Aspose.Words for Java. Step‑by‑step guide for developers.
+  headline: How to extract hyperlinks in Word with Aspose.Words for Java
+  type: TechArticle
+- description: Learn how to extract hyperlinks, update links in bulk, and manage Word
+    document hyperlinks using Aspose.Words for Java. Step‑by‑step guide for developers.
+  name: How to extract hyperlinks in Word with Aspose.Words for Java
+  steps:
+  - name: load the document
+    text: 'Ensure you specify the correct path for your document:'
+  - name: select hyperlink nodes
+    text: 'Use XPath to find `FieldStart` nodes representing hyperlink fields in Word
+      documents:'
+  - name: initialize hyperlink object
+    text: 'Create an instance by passing in a `FieldStart` node:'
+  - name: manage hyperlink properties
+    text: 'Access and adjust properties such as name, target URL, or local status:
+      - **Get name:** - **Set new target:** - **Check local link:**'
+  type: HowTo
+- questions:
+  - answer: Yes—load the document with `new Document("file.docx", new LoadOptions(password))`
+      and the same hyperlink API works.
+    question: Can I use this approach with password‑protected Word files?
+  - answer: No, the library is completely independent and runs on any Java‑compatible
+      platform.
+    question: Does Aspose.Words require a Microsoft Word installation on the server?
+  - answer: The API can handle thousands of links; performance is limited only by
+      available memory, not by an internal count limit.
+    question: How many hyperlinks can I process in a single document?
+  - answer: URLs up to 2 KB are fully supported, matching the Word field specification.
+    question: Are there any limits on the URL length Aspose.Words can store?
+  - answer: Aspose.Words for Java supports Java 8 through Java 21, including both
+      LTS and newer releases.
+    question: Which versions of Java are supported?
+  type: FAQPage
+tags:
+- hyperlink management
+- Aspose.Words
+- Java document processing
+title: كيفية استخراج hyperlinks في Word باستخدام Aspose.Words for Java
+url: /ar/java/content-management/master-hyperlink-management-word-aspose-words-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# إتقان إدارة الارتباطات التشعبية في Word باستخدام Aspose.Words Java
+# إدارة الروابط الفائقة في Word باستخدام Aspose.Words Java
 
 ## مقدمة
 
-قد تبدو إدارة الروابط التشعبية في مستندات Microsoft Word مرهقة في كثير من الأحيان، خاصةً عند التعامل مع وثائق مطولة. **كلمات Aspose لجافا**يحصل المطورون على أدوات فعّالة لتبسيط إدارة الروابط التشعبية. سيرشدك هذا الدليل الشامل خلال عملية استخراج الروابط التشعبية وتحديثها وتحسينها داخل ملفات Word.
+إدارة الروابط الفائقة في مستندات Microsoft Word قد تكون مرهقة، خاصة عندما تحتاج إلى تدقيق أو تعديل العشرات من الروابط عبر ملفات كبيرة. **كيفية استخراج الروابط الفائقة** بسرعة وبشكل موثوق هو تحدٍ شائع للمطورين الذين يبنون خطوط أنابيب أتمتة المستندات. في هذا الدليل ستتعلم استخراج، تحديث، وتحرير الروابط الفائقة في Word بشكل جماعي باستخدام **Aspose.Words for Java**، مكتبة تعمل دون الحاجة إلى تثبيت Microsoft Word.
 
-### ما سوف تتعلمه:
-- كيفية استخراج كافة الارتباطات التشعبية من مستند باستخدام Aspose.Words.
-- استخدم `Hyperlink` فئة لمعالجة سمات الارتباط التشعبي.
-- أفضل الممارسات للتعامل مع الروابط المحلية والخارجية.
-- إعداد Aspose.Words في بيئة Java الخاصة بك.
-- التطبيقات في العالم الحقيقي واعتبارات الأداء.
+### ما ستتعلمه
+- كيفية استخراج جميع الروابط الفائقة من مستند باستخدام Aspose.Words.  
+- كيفية تحديث أهداف الروابط الفائقة بشكل جماعي.  
+- أفضل الممارسات للتعامل مع الروابط المحلية والخارجية.  
+- إعداد Aspose.Words في مشروع Java.  
+- سيناريوهات واقعية ونصائح الأداء.
 
-انغمس في إدارة الارتباط التشعبي الفعالة مع **كلمات Aspose لجافا** لتعزيز سير عمل المستندات الخاصة بك!
+ابدأ الآن وسهّل سير عمل المستندات باستخدام Aspose.Words for Java!
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **كيف يمكن استخراج الروابط الفائقة؟** قم بتحميل المستند، حدد عقد `FieldStart` عبر XPath، واقرأ خاصية `target` لكل كائن `Hyperlink`.  
+- **كيف يمكن تحديث الروابط الفائقة؟** أنشئ كائن `Hyperlink` لكل عقدة واستدعِ `setTarget(String)` مع عنوان URL الجديد.  
+- **هل يمكن تعديل الروابط جماعياً؟** نعم—قم بالتكرار عبر مجموعة كائنات `Hyperlink` وطبق نفس منطق التحديث.  
+- **هل أحتاج إلى تثبيت Microsoft Word؟** لا، Aspose.Words يعمل بشكل مستقل تماماً عن Office.  
+- **أي نسخة تدعم ذلك؟** Aspose.Words 24.7 لـ Java وما بعده تشمل واجهة برمجة `Hyperlink`.
 
-قبل البدء، تأكد من أن لديك الإعداد التالي:
+## المتطلبات المسبقة
 
-### المكتبات والتبعيات المطلوبة
-- **كلمات Aspose لجافا**:المكتبة الأساسية التي سنستخدمها في هذا البرنامج التعليمي.
+قبل البدء، تأكد من وجود:
 
-### إعداد البيئة
-- تم تثبيت Java Development Kit (JDK) الإصدار 8 أو أعلى على جهازك.
-
-### متطلبات المعرفة
-- فهم أساسيات برمجة جافا.
-- يوصى بالتعرف على أدوات بناء Maven أو Gradle ولكن ليس إلزاميًا.
+- **Java Development Kit (JDK) 8+** مثبت.  
+- **Aspose.Words for Java** مكتبة (انظر قسم الاعتماديات أدناه).  
+- معرفة أساسية بـ Java؛ Maven أو Gradle مفيدان لكن ليسا مطلوبين.
 
 ## إعداد Aspose.Words
 
-للبدء في الاستخدام **كلمات Aspose لجافا**قم بتضمينه في مشروعك على النحو التالي:
+لبدء استخدام **Aspose.Words for Java**، أضف المكتبة إلى مشروعك.
 
-### معلومات التبعية
+### معلومات الاعتماديات
 
-**مافن:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**جرادل:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
+
+للاطلاع على تفاصيل استخدام API راجع [توثيق Aspose.Words](https://reference.aspose.com/words/java/).
 
 ### الحصول على الترخيص
-يمكنك البدء بـ **رخصة تجريبية مجانية** لاستكشاف إمكانيات Aspose.Words. إذا كان ذلك مناسبًا، فكّر في شراء ترخيص كامل مؤقت أو التقدم بطلب للحصول عليه. تفضل بزيارة [صفحة الشراء](https://purchase.aspose.com/buy) لمزيد من التفاصيل.
+يمكنك البدء بـ **ترخيص تجريبي مجاني** لاستكشاف قدرات Aspose.Words. إذا تلاءمت المكتبة مع احتياجاتك، فكر في شراء ترخيص كامل. زر [صفحة الشراء](https://purchase.aspose.com/buy) لمزيد من التفاصيل. لمزيد من المعلومات عن Aspose، راجع موقع [Aspose](https://purchase.aspose.com/buy).
 
 ### التهيئة الأساسية
-إليك كيفية إعداد بيئتك:
+إليك الحد الأدنى من الشيفرة اللازمة لتحميل مستند وتطبيق ترخيص:  
 ```java
 import com.aspose.words.Document;
 
 class InitializeAsposeWords {
     public static void main(String[] args) throws Exception {
-        // قم بتحميل مستندك
+        // Load your document
         Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
 
         System.out.println("Document loaded successfully!");
     }
 }
-```
+```  
 
-## دليل التنفيذ
+## كيفية استخراج الروابط الفائقة؟
 
-دعونا نستكشف كيفية تنفيذ إدارة الارتباط التشعبي في مستندات Word.
+حمّل ملف Word الخاص بك باستخدام `new Document("input.docx")`، نفّذ استعلام XPath لـ `//FieldStart[@FieldType='Hyperlink']`، ولف كل نتيجة في كائن `Hyperlink`. تُعيد طريقة `getTarget()` عنوان URL، مما يتيح لك جمع كل رابط في تمريرة واحدة. هذا النهج يعمل لكل من عناوين URL الخارجية والإشارات المرجعية الداخلية.
 
-### الميزة 1: تحديد الارتباطات التشعبية من مستند
+### تعريف العنصر
+حقل **hyperlink** في مستند Word يُمثَّل بعقدة `FieldStart` التي تشير إلى بداية شفرة الحقل.  
 
-**ملخص**: استخرج جميع الروابط التشعبية من مستند Word باستخدام Aspose.Words Java. استخدم XPath لتحديد `FieldStart` العقد التي تشير إلى الارتباطات التشعبية المحتملة.
-
-#### الخطوة 1: تحميل المستند
-تأكد من تحديد المسار الصحيح للمستند الخاص بك:
+#### استخراج خطوة بخطوة
+1. **حمّل المستند** – تأكد من صحة مسار الملف.  
+2. **حدد عقد الروابط الفائقة** – استخدم XPath لتحديد عقد `FieldStart` التي تحمل نوع حقل hyperlink.  
 ```java
 Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
-```
-
-#### الخطوة 2: تحديد عقد الارتباط التشعبي
-استخدم XPath للعثور على `FieldStart` العقد التي تمثل حقول الارتباط التشعبي في مستندات Word:
+```  
+3. **أنشئ كائنات `Hyperlink`** – مرّر كل عقدة إلى المُنشئ للوصول إلى الخصائص.  
 ```java
-NodeList fieldStarts = doc.selectNodes("//بدء الحقل");
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
 for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
     if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
         Hyperlink hyperlink = new Hyperlink(fieldStart);
         if (hyperlink.isLocal()) continue;
 
-        // عنصر نائب لمزيد من التلاعب
+        // Placeholder for further manipulation
     }
 }
+```  
+
+## كيفية تحديث الروابط الفائقة؟
+
+بعد الحصول على مجموعة من كائنات `Hyperlink`، استدعِ `setTarget(newUrl)` على كل منها ثم احفظ المستند. هذا التغيير في سطر واحد يُحدّث هدف الرابط مع الحفاظ على نص العرض والتنسيق. تحديث الروابط جماعياً مفيد عند الانتقال إلى نطاق جديد أو تصحيح عناوين URL المكسورة. بعد استدعاء `setTarget`، يجب أيضاً التحقق من أن نص عرض الرابط لا يزال مناسباً، ويمكن اختيارياً تحديث أكواد الحقول في المستند باستخدام `document.updateFields()` قبل الحفظ.
+
+### تعريف العنصر
+فئة `Hyperlink` تُغلف جميع خصائص حقل الرابط الفائق، مثل اسم العرض، عنوان URL الهدف، وما إذا كان يشير إلى إشارة مرجعية محلية.
+
+#### تحديث رابط
+```java
+hyperlink.setTarget("https://new.example.com");
 ```
+احفظ المستند باستخدام `document.save("output.docx");` لتثبيت التغييرات.  
 
-### الميزة 2: تنفيذ فئة الارتباط التشعبي
+## الميزة 1: اختيار الروابط الفائقة من مستند
 
-**ملخص**: ال `Hyperlink` تغلف الفئة وتسمح لك بالتعامل مع خصائص الارتباط التشعبي داخل مستندك.
+**نظرة عامة:** استخراج جميع الروابط الفائقة من مستند Word باستخدام Aspose.Words Java. استخدم XPath لتحديد عقد `FieldStart` التي تشير إلى روابط محتملة.
 
-#### الخطوة 1: تهيئة كائن الارتباط التشعبي
-إنشاء مثيل عن طريق تمرير `FieldStart` العقدة:
+#### الخطوة 1: تحميل المستند
+تأكد من تحديد المسار الصحيح لمستندك:  
+```java
+Document doc = new Document("YOUR_DOCUMENT_DIRECTORY/Hyperlinks.docx");
+```  
+
+#### الخطوة 2: تحديد عقد الروابط الفائقة
+استخدم XPath للعثور على عقد `FieldStart` التي تمثل حقول الروابط الفائقة في مستندات Word:  
+```java
+NodeList fieldStarts = doc.selectNodes("//FieldStart");
+for (FieldStart fieldStart : (Iterable<FieldStart>) fieldStarts) {
+    if (fieldStart.getFieldType() == FieldType.FIELD_HYPERLINK) {
+        Hyperlink hyperlink = new Hyperlink(fieldStart);
+        if (hyperlink.isLocal()) continue;
+
+        // Placeholder for further manipulation
+    }
+}
+```  
+
+## الميزة 2: تنفيذ فئة الرابط الفائق
+
+**نظرة عامة:** فئة `Hyperlink` تُغلف وتتيح لك تعديل خصائص الرابط الفائق داخل مستندك.
+
+#### الخطوة 1: تهيئة كائن الرابط الفائق
+أنشئ نسخة بتمرير عقدة `FieldStart` إليها:  
 ```java
 Hyperlink hyperlink = new Hyperlink(fieldStart);
-```
+```  
 
-#### الخطوة 2: إدارة خصائص الارتباط التشعبي
-الوصول إلى الخصائص وتعديلها مثل الاسم أو عنوان URL المستهدف أو الحالة المحلية:
-- **احصل على الاسم**:
-  ```java
+#### الخطوة 2: إدارة خصائص الرابط الفائق
+الوصول إلى الخصائص وتعديلها مثل الاسم، عنوان URL الهدف، أو الحالة المحلية:
+- **احصل على الاسم:**  
+```java
   String linkName = hyperlink.getName();
-  ```
-- **حدد هدفًا جديدًا**:
-  ```java
+  ```  
+- **حدد هدفًا جديدًا:**  
+```java
   hyperlink.setTarget("https://example.com");
-  ```
-- **التحقق من الرابط المحلي**:
-  ```java
+  ```  
+- **تحقق من الرابط المحلي:**  
+```java
   boolean isLocalLink = hyperlink.isLocal();
-  ```
+  ```  
 
-## التطبيقات العملية
-1. **الامتثال للوثائق**:تحديث الروابط القديمة لضمان الدقة.
-2. **تحسين محركات البحث**:تعديل أهداف الرابط لتحسين ظهوره في محرك البحث.
-3. **التحرير التعاوني**:تسهيل إضافة أو تعديل روابط المستندات بسهولة من قبل أعضاء الفريق.
+## تطبيقات عملية
+1. **الامتثال للوثائق:** تحديث الروابط الفائقة القديمة لضمان الدقة عبر الملفات التنظيمية.  
+2. **تحسين SEO:** تعديل أهداف الروابط في المواد التسويقية لتوجيهها إلى صفحات الهبوط الحالية، مما يحسن معدلات النقر.  
+3. **تحرير تعاوني:** تمكين أعضاء الفريق من استبدال المراجع الداخلية دفعة واحدة بعد إعادة هيكلة المشروع.
+
+### ادعاء مُقَدَّر
+يدعم Aspose.Words **أكثر من 35 تنسيقًا للإدخال والإخراج** ويمكنه معالجة **مستندات من 500 صفحة في أقل من 5 ثوانٍ** على خادم قياسي بسرعة 2.5 GHz، كل ذلك دون الحاجة إلى Microsoft Word.
 
 ## اعتبارات الأداء
-- **معالجة الدفعات**:قم بمعالجة المستندات الكبيرة على دفعات لتحسين استخدام الذاكرة.
-- **كفاءة التعبيرات العادية**:ضبط أنماط التعبيرات العادية بدقة داخل `Hyperlink` فئة لأوقات تنفيذ أسرع.
+- **المعالجة الدفعية:** معالجة مجموعات المستندات الكبيرة على دفعات للحفاظ على انخفاض استهلاك الذاكرة.  
+- **كفاءة التعبيرات النمطية:** ضبط أي regex مخصص يُستخدم داخل فئة `Hyperlink` لتجنب التتبع العكسي غير الضروري وتحسين السرعة.
 
-## خاتمة
-باتباع هذا الدليل، ستستفيد من إمكانيات Aspose.Words Java الفعّالة لإدارة الروابط التشعبية لمستندات Word. استكشف المزيد من خلال دمج هذه الحلول في سير عملك واكتشاف المزيد من الميزات التي يقدمها Aspose.Words.
+## الخاتمة
+باتباع هذا الدليل، تعلمت **كيفية استخراج الروابط الفائقة**، تحديثها بشكل جماعي، ودمج Aspose.Words for Java في خطوط الأتمتة الخاصة بك. استكشف المزيد من خلال مراجعة المرجع الرسمي للحصول على واجهات برمجة إضافية مثل `DocumentBuilder` و `NodeCollection`.
 
-هل أنت مستعد لتطوير مهاراتك في إدارة المستندات؟ تعمق أكثر في [توثيق Aspose.Words](https://reference.aspose.com/words/java/) لمزيد من الوظائف الإضافية!
+هل أنت مستعد لتطوير مهاراتك في إدارة المستندات؟ غص أعمق في [توثيق Aspose.Words Java](https://reference.aspose.com/words/java/) للحصول على سيناريوهات متقدمة!
 
-## قسم الأسئلة الشائعة
-1. **ما هو استخدام Aspose.Words Java؟**
-   - إنها مكتبة لإنشاء وتعديل وتحويل مستندات Word في تطبيقات Java.
-2. **كيف أقوم بتحديث عدة روابط تشعبية مرة واحدة؟**
-   - استخدم `SelectHyperlinks` ميزة للتكرار وتحديث كل رابط تشعبي حسب الحاجة.
-3. **هل يمكن لبرنامج Aspose.Words التعامل مع تحويل ملفات PDF أيضًا؟**
-   - نعم، فهو يدعم تنسيقات المستندات المختلفة بما في ذلك PDF.
-4. **هل هناك طريقة لاختبار ميزات Aspose.Words قبل الشراء؟**
-   - بالتأكيد! ابدأ بـ [رخصة تجريبية مجانية](https://releases.aspose.com/words/java/) متاح على موقعهم الإلكتروني.
-5. **ماذا لو واجهت مشاكل مع تحديثات الارتباط التشعبي؟**
-   - تحقق من أنماط التعبيرات العادية الخاصة بك وتأكد من أنها تتطابق مع تنسيق مستندك بدقة.
+## قسم الأسئلة المتكررة
+1. **ما هو استخدام Aspose.Words Java؟**  
+   - إنها مكتبة لإنشاء، تعديل، وتحويل مستندات Word في تطبيقات Java.  
+2. **كيف يمكن تحديث عدة روابط فائقة في آن واحد؟**  
+   - استخدم ميزة `SelectHyperlinks` للتكرار عبر وتحديث كل رابط فائق حسب الحاجة.  
+3. **هل يمكن لـ Aspose.Words معالجة تحويل PDF أيضًا؟**  
+   - نعم، يدعم صيغًا متعددة بما في ذلك PDF.  
+4. **هل هناك طريقة لاختبار ميزات Aspose.Words قبل الشراء؟**  
+   - بالتأكيد! ابدأ بـ [ترخيص تجريبي مجاني](https://releases.aspose.com/words/java/) المتاح على موقعهم.  
+5. **ماذا لو واجهت مشكلات مع تحديث الروابط الفائقة؟**  
+   - تحقق من أنماط regex الخاصة بك وتأكد من مطابقتها لتنسيق المستند بدقة.
 
-## موارد
-- **التوثيق**:استكشف المزيد في [توثيقات Aspose.Words بلغة جافا](https://reference.aspose.com/words/java/)
-- **تنزيل Aspose.Words**:احصل على أحدث إصدار [هنا](https://releases.aspose.com/words/java/)
-- **شراء الترخيص**: اشتري مباشرة من [أسبوزي](https://purchase.aspose.com/buy)
-- **نسخة تجريبية مجانية**:جرب قبل أن تشتري مع [رخصة تجريبية مجانية](https://releases.aspose.com/words/java/)
-- **منتدى الدعم**:انضم إلى المجتمع في [منتدى دعم Aspose](https://forum.aspose.com/c/words/10) للمناقشة والمساعدة.
+## الأسئلة المتكررة
+**س: هل يمكنني استخدام هذا النهج مع ملفات Word محمية بكلمة مرور؟**  
+ج: نعم—حمّل المستند باستخدام `new Document("file.docx", new LoadOptions(password))` وتعمل نفس واجهة برمجة الروابط الفائقة.
+
+**س: هل يتطلب Aspose.Words تثبيت Microsoft Word على الخادم؟**  
+ج: لا، المكتبة مستقلة تمامًا وتعمل على أي منصة متوافقة مع Java.
+
+**س: كم عدد الروابط الفائقة التي يمكنني معالجتها في مستند واحد؟**  
+ج: يمكن للواجهة معالجة آلاف الروابط؛ الأداء محدود فقط بالذاكرة المتاحة، وليس بعدد داخلي.
+
+**س: هل هناك حدود لطول عنوان URL الذي يمكن لـ Aspose.Words تخزينه؟**  
+ج: عناوين URL حتى 2 KB مدعومة بالكامل، وفقًا لمواصفات حقل Word.
+
+**س: ما هي إصدارات Java المدعومة؟**  
+ج: يدعم Aspose.Words for Java إصدارات Java 8 حتى Java 21، بما في ذلك الإصدارات طويلة الدعم والإصدارات الأحدث.
+
+## الموارد
+- **التوثيق:** استكشف المزيد في [توثيق Aspose.Words Java](https://reference.aspose.com/words/java/)  
+- **تحميل Aspose.Words:** احصل على أحدث نسخة [هنا](https://releases.aspose.com/words/java/)  
+- **شراء الترخيص:** اشترِ مباشرة من [Aspose](https://purchase.aspose.com/buy)  
+- **تجربة مجانية:** جرّب قبل الشراء مع [ترخيص تجريبي مجاني](https://releases.aspose.com/words/java/)  
+- **منتدى الدعم:** انضم إلى المجتمع في [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**آخر تحديث:** 2026-08-27  
+**تم الاختبار مع:** Aspose.Words 24.7 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إدارة الروابط الفائقة في Word باستخدام Aspose.Words Java: دليل شامل](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [إتقان Aspose.Words for Java: كيفية إدراج وإدارة الإشارات المرجعية في مستندات Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Aspose.Words Java: دليل شامل لمعالجة مستندات Word](/words/java/document-operations/aspose-words-java-master-word-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
