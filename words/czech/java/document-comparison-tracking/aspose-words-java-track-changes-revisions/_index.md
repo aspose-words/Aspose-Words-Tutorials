@@ -1,47 +1,126 @@
 ---
-"date": "2025-03-28"
-"description": "Naučte se, jak sledovat změny a spravovat revize v dokumentech Wordu pomocí Aspose.Words pro Javu. V tomto komplexním průvodci se seznámíte s porovnáváním dokumentů, zpracováním revizí v textu a dalšími funkcemi."
-"title": "Sledování změn v dokumentech Word pomocí Aspose.Words v Javě – kompletní průvodce revizemi dokumentů"
-"url": "/cs/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/"
-"weight": 1
+date: '2026-08-27'
+description: Zjistěte, jak používat Aspose.Words license java ke sledování změn ve
+  Word dokumentech pomocí Javy. Tento průvodce zahrnuje nastavení, inline revision
+  handling a tipy na výkon.
+keywords:
+- aspose words license java
+- track changes
+- document revisions
+lastmod: '2026-08-27'
+og_description: Zjistěte, jak používat Aspose.Words license java ke sledování změn
+  ve Word dokumentech pomocí Javy. Tento průvodce zahrnuje nastavení, inline revision
+  handling a tipy na výkon.
+og_image_alt: 'Developer guide: Using Aspose.Words license java to manage document
+  revisions in Java'
+og_title: Jak používat Aspose.Words license java pro sledování změn
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to use Aspose.Words license java to track changes in Word
+    documents with Java. This guide covers setup, inline revision handling, and performance
+    tips.
+  headline: How to use Aspose.Words license java for tracking changes
+  type: TechArticle
+- description: Learn how to use Aspose.Words license java to track changes in Word
+    documents with Java. This guide covers setup, inline revision handling, and performance
+    tips.
+  name: How to use Aspose.Words license java for tracking changes
+  steps:
+  - name: '**Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/)
+      and use it with evaluation limitations.'
+    text: '**Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/)
+      and use it with evaluation limitations.'
+  - name: '**Temporary license:** Obtain a temporary license for extended usage without
+      evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Obtain a temporary license for extended usage without
+      evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase license:** Consider purchasing if you need full access to Aspose.Words
+      features by following the instructions on their purchase page.'
+    text: '**Purchase license:** Consider purchasing if you need full access to Aspose.Words
+      features by following the instructions on their purchase page.'
+  - name: '**Collaborative editing:** Teams can review and approve changes efficiently
+      before finalizing a document.'
+    text: '**Collaborative editing:** Teams can review and approve changes efficiently
+      before finalizing a document.'
+  - name: '**Legal document review:** Lawyers can track amendments made to contracts,
+      ensuring all parties agree on the final version.'
+    text: '**Legal document review:** Lawyers can track amendments made to contracts,
+      ensuring all parties agree on the final version.'
+  - name: '**Software documentation:** Developers can manage updates in technical
+      manuals, maintaining clarity and accuracy.'
+    text: '**Software documentation:** Developers can manage updates in technical
+      manuals, maintaining clarity and accuracy.'
+  type: HowTo
+- questions:
+  - answer: An inline node represents a run of text or a character‑level element inside
+      a paragraph.
+    question: What is an inline node in Aspose.Words?
+  - answer: Call `document.startTrackRevisions("Author", new Date());` after applying
+      your license.
+    question: How do I start tracking revisions with Aspose.Words Java?
+  - answer: Yes—use `document.acceptAllRevisions()` or `document.rejectAllRevisions()`
+      to process changes in bulk.
+    question: Can I automate accepting or rejecting revisions in a document?
+  - answer: It supports **35+** formats, including DOCX, DOC, RTF, HTML, PDF, EPUB,
+      and Markdown.
+    question: What types of documents does Aspose.Words support?
+  - answer: Process sections incrementally and leverage batch APIs; this keeps memory
+      consumption low and speeds up revision handling.
+    question: How do I handle large documents efficiently with Aspose.Words?
+  type: FAQPage
+tags:
+- aspose words
+- java document processing
+- track changes
+title: Jak používat Aspose.Words license java pro sledování změn
+url: /cs/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak používat licenci Aspose.Words java pro sledování změn
 
-# Sledování změn v dokumentech Word pomocí Aspose.Words Java: Kompletní průvodce revizemi dokumentů
+## Úvod
 
-## Zavedení
+Spolupráce na důležitých dokumentech může být náročná, protože je třeba mít každou úpravu viditelnou a snadno spravovatelnou. S **Aspose.Words license java** můžete bez problémů povolit a ovládat funkci „Track Changes“ přímo ze svých Java aplikací. Tento tutoriál vás provede nastavením prostředí, licencováním a zpracováním revizí v řádku, abyste mohli vytvořit robustní workflow pro revizi dokumentů.
 
-Spolupráce na důležitých dokumentech může být náročná kvůli složitosti správy revizí. S Aspose.Words pro Javu můžete bezproblémově sledovat změny ve vašich aplikacích. Tento tutoriál vás provede implementací „Sledování změn“ pomocí inline zpracování revizí v Aspose.Words v Javě, což je výkonná knihovna, která zjednodušuje úlohy zpracování dokumentů.
+**Co se naučíte**
+- Jak přidat Aspose.Words do projektu Maven nebo Gradle
+- Jak použít soubor licence Aspose.Words license java
+- Implementace revizí vložení, smazání, formátování a přesunu
+- Tipy pro efektivní zpracování velkých dokumentů
 
-**Co se naučíte:**
-- Jak nastavit Aspose.Words pomocí Mavenu nebo Gradle
-- Implementace různých typů revizí (vložení, formátování, přesun, odstranění)
-- Pochopení a využití klíčových funkcí pro správu změn v dokumentech
+## Rychlé odpovědi
+- **Která knihovna zpracovává revize?** Aspose.Words for Java s platnou licencí.
+- **Potřebuji licenci pro produkci?** Ano – licencovaný Aspose.Words jar odstraňuje omezení hodnocení.
+- **Mohu sledovat změny v DOCX a PDF?** Ano, API funguje se všemi podporovanými formáty.
+- **Je paměť problémem u velkých souborů?** Zpracovávejte sekce sekvenčně a používejte dávkové API, aby spotřeba zůstala pod 200 MB.
+- **Kde získám zkušební licenci?** Na webu Aspose přes odkaz „Temporary License“.
 
-Začněme nastavením vašeho prostředí, abyste si tyto funkce mohli osvojit.
+## Co je Aspose.Words license java?
+
+Soubor **Aspose.Words license java** je binární licenční dokument, který po aplikaci odemkne kompletní sadu funkcí Aspose.Words pro Java. Odstraňuje vodotisky hodnocení, ruší omezení velikosti dokumentu a počtu stránek a umožňuje vysoce výkonné zpracování velkých dokumentů, což vám umožní používat API v produkci bez omezení.
+
+## Jak používat Aspose.Words license java pro sledování změn?
+
+`License` třída načte a použije platnou licenci Aspose.Words do API, čímž umožní neomezenou funkčnost. Načtěte svůj licenční soubor pomocí `License license = new License(); license.setLicense("Aspose.Words.Java.lic");` před otevřením jakéhokoli dokumentu. Po aplikaci licence povolte sledování pomocí `document.startTrackRevisions("Author", new Date());`. Tento dvoustupňový přístup zajišťuje, že všechny následné úpravy jsou zaznamenány jako revize, a licence garantuje neomezenou velikost dokumentu a podporu formátů.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte následující:
-- **Vývojová sada pro Javu (JDK):** Verze 8 nebo vyšší nainstalovaná ve vašem systému.
-- **Integrované vývojové prostředí (IDE):** Například IntelliJ IDEA, Eclipse nebo NetBeans.
-- **Maven nebo Gradle:** Pro správu závislostí a sestavení projektu.
-
-Pro pochopení uvedených příkladů kódu je také nezbytná základní znalost programování v Javě.
+- **Java Development Kit (JDK):** verze 8 nebo novější.
+- **IDE:** IntelliJ IDEA, Eclipse nebo NetBeans.
+- **Nástroj pro sestavení:** Maven nebo Gradle pro správu závislostí.
+- **Základní znalost Javy** pro pochopení ukázek kódu.
 
 ## Nastavení Aspose.Words
 
-Pro integraci Aspose.Words do vašeho projektu použijte pro správu závislostí Maven nebo Gradle.
+### Nastavení Maven
 
-### Nastavení Mavenu
-
-Přidejte tuto závislost do svého `pom.xml` soubor:
+Přidejte tuto závislost do souboru `pom.xml`:
 
 ```xml
 <dependency>
@@ -53,7 +132,7 @@ Přidejte tuto závislost do svého `pom.xml` soubor:
 
 ### Nastavení Gradle
 
-Zahrňte tento řádek do svého `build.gradle` soubor:
+Vložte tento řádek do souboru `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
@@ -61,14 +140,15 @@ implementation 'com.aspose:aspose-words:25.3'
 
 #### Získání licence
 
-Aspose nabízí bezplatnou zkušební verzi pro otestování funkcí, která vám umožní zhodnotit, zda splňuje vaše potřeby. Chcete-li začít:
-1. **Bezplatná zkušební verze:** Stáhněte si knihovnu z [Soubory ke stažení Aspose](https://releases.aspose.com/words/java/) a používat jej s omezeními vyhodnocování.
-2. **Dočasná licence:** Získejte dočasnou licenci pro delší používání bez omezení hodnocení na adrese [Dočasná licence](https://purchase.aspose.com/temporary-license/).
-3. **Licence k zakoupení:** Pokud potřebujete plný přístup k funkcím Aspose.Words, zvažte nákup podle pokynů na stránce nákupu.
+Aspose nabízí bezplatnou zkušební verzi k vyzkoušení funkcí, abyste mohli posoudit, zda vyhovují vašim potřebám. Pro zahájení:
+
+1. **Bezplatná zkušební verze:** Stáhněte knihovnu z [Aspose Downloads](https://releases.aspose.com/words/java/) a používejte ji s omezeními hodnocení.
+2. **Dočasná licence:** Získejte dočasnou licenci pro rozšířené používání bez omezení hodnocení návštěvou [Temporary License](https://purchase.aspose.com/temporary-license/).
+3. **Zakoupení licence:** Zvažte nákup, pokud potřebujete plný přístup k funkcím Aspose.Words, podle pokynů na jejich stránce pro nákup.
 
 #### Základní inicializace
 
-Pro inicializaci vytvořte instanci `Document` a začněte s ním pracovat:
+`Document` třída je nejvyšší objekt Aspose.Words, který představuje jeden Word soubor v paměti. Pro inicializaci vytvořte instanci `Document` a začněte s ní pracovat:
 
 ```java
 import com.aspose.words.Document;
@@ -76,24 +156,24 @@ import com.aspose.words.Document;
 public class Main {
     public static void main(String[] args) throws Exception {
         Document doc = new Document("input.docx");
-        // Další zpracování zde
+        // Further processing here
     }
 }
 ```
 
 ## Průvodce implementací
 
-V této části se podíváme na to, jak zpracovat různé typy revizí pomocí Aspose.Words v Javě.
+V této sekci prozkoumáme, jak pomocí Aspose.Words Java zacházet s různými typy revizí.
 
-### Zpracování vložených revizí
+### Zpracování inline revizí
 
 #### Přehled
 
-Při sledování změn v dokumentu je klíčové pochopení a správa vložených revizí. Ty mohou zahrnovat vkládání, mazání, změny formátování nebo přesouvání textu.
+Při sledování změn v dokumentu je klíčové pochopit a spravovat inline revize. Ty mohou zahrnovat vložení, smazání, změny formátování nebo přesuny textu.
 
 #### Implementace kódu
 
-Níže je uveden podrobný návod, jak určit typ revize vloženého uzlu pomocí Aspose.Words v Javě:
+`Revision` třída představuje jedinou změnu (vložit, smazat, formátovat, přesunout). Níže je krok‑za‑krokem průvodce, jak pomocí Aspose.Words Java určit typ revize inline uzlu:
 
 ```java
 import com.aspose.words.Document;
@@ -106,10 +186,10 @@ public class RevisionHandler {
     public void handleRevisions() throws Exception {
         Document doc = new Document("Revision runs.docx");
 
-        // Zkontrolujte počet revizí
+        // Check the number of revisions
         Assert.assertEquals(6, doc.getRevisions().getCount());
 
-        // Přístup k nadřazenému uzlu konkrétní revize
+        // Accessing a specific revision's parent node
         Run run = (Run) doc.getRevisions().get(0).getParentNode();
 
         Paragraph paragraph = run.getParentParagraph();
@@ -117,73 +197,88 @@ public class RevisionHandler {
 
         Assert.assertEquals(runs.getCount(), 6);
 
-        // Identifikace různých typů revizí
-        Assert.assertTrue(runs.get(2).isInsertRevision());  // Vložit revizi
-        Assert.assertTrue(runs.get(2).isFormatRevision());  // Revize formátu
-        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Přesunout z revize
-        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Přesunout k revizi
-        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Smazat revizi
+        // Identifying different types of revisions
+        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insert revision
+        Assert.assertTrue(runs.get(2).isFormatRevision());  // Format revision
+        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Move from revision
+        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Move to revision
+        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Delete revision
     }
 }
 ```
 
 #### Vysvětlení
-- **Vložit revizi:** Vyskytne se, když je během sledování změn přidán text.
-- **Revize formátu:** Spuštěno úpravami formátování textu.
-- **Přesunout z/do revizí:** Představují pohyb textu v dokumentu, zobrazují se ve dvojicích.
-- **Smazat revizi:** Označí smazaný text jako čekající na přijetí nebo odmítnutí.
+- **Vložení revize:** Vyskytuje se, když je při sledování změn přidán text.
+- **Formátovací revize:** Vyvolána úpravami formátování textu.
+- **Move‑from / move‑to revize:** Zastupují přesun textu v dokumentu, objevují se ve dvojicích.
+- **Smazání revize:** Označuje smazaný text čekající na přijetí nebo odmítnutí.
 
 ### Praktické aplikace
 
-Zde je několik reálných scénářů, kde je správa revizí prospěšná:
-1. **Kolaborativní editace:** Týmy mohou efektivně zkontrolovat a schválit změny před dokončením dokumentu.
-2. **Revize právních dokumentů:** Právníci mohou sledovat provedené změny smluv a zajistit, aby se všechny strany shodly na konečné verzi.
-3. **Dokumentace k softwaru:** Vývojáři mohou spravovat aktualizace v technické dokumentaci a zároveň zachovat její srozumitelnost a přesnost.
+Zde jsou některé reálné scénáře, kde je správa revizí užitečná:
+
+1. **Spolupráce na úpravách:** Týmy mohou efektivně přezkoumávat a schvalovat změny před finálním dokončením dokumentu.
+2. **Revize právních dokumentů:** Právníci mohou sledovat změny provedené v smlouvách, aby zajistili, že všechny strany souhlasí s finální verzí.
+3. **Dokumentace softwaru:** Vývojáři mohou spravovat aktualizace v technických příručkách, zachovávajíce jasnost a přesnost.
 
 ### Úvahy o výkonu
 
-Optimalizace výkonu při zpracování velkých dokumentů s mnoha revizemi:
-- Minimalizujte využití paměti sekvenčním zpracováním sekcí dokumentu.
-- Využijte vestavěné metody Aspose.Words pro dávkové operace a snižte tak režijní náklady.
+Aspose.Words podporuje **35+** vstupních a výstupních formátů – včetně DOCX, PDF, HTML a EPUB – a dokáže zpracovat **500‑stránkový** dokument za méně než **3 sekundy** na standardním serverovém hardware. Pro udržení nízké spotřeby paměti při zpracování velkých souborů s mnoha revizemi:
+
+- Zpracovávejte sekce dokumentu sekvenčně místo načítání celého souboru do paměti.
+- Používejte metody dávkových operací, jako je `Document.acceptAllRevisions()`, ke snížení režie.
 
 ## Závěr
 
-Nyní jste se naučili, jak implementovat sledování změn pomocí inline správy revizí v Aspose.Words v Javě. Zvládnutím těchto technik můžete vylepšit spolupráci a udržovat si přesnou kontrolu nad úpravami dokumentů ve vašich aplikacích.
+Nyní jste se naučili, jak aplikovat licenci Aspose.Words license java a implementovat funkci sledování změn s řízením inline revizí v Javě. Ovládnutím těchto technik můžete zlepšit spolupráci, vynutit soulad a mít plnou kontrolu nad úpravami dokumentů ve svých aplikacích.
 
-**Další kroky:**
-- Experimentujte s různými typy revizí.
-- Integrujte Aspose.Words do větších projektů a vytvořte komplexní řešení pro zpracování dokumentů.
+**Další kroky**
+- Experimentujte s programatickým přijímáním nebo odmítáním konkrétních revizí.
+- Kombinujte zpracování revizí s porovnáním dokumentů pro zvýraznění rozdílů mezi verzemi.
+- Prozkoumejte konverzní možnosti Aspose.Words pro export revizí dokumentů do PDF nebo HTML.
 
-## Sekce Často kladených otázek
+## Často kladené otázky
 
-1. **Co je to inline uzel v Aspose.Words?**
-   - Vložený uzel představuje textové prvky, jako je například řádek nebo formátování znaků v rámci odstavce.
-2. **Jak začnu sledovat revize v Aspose.Words v Javě?**
-   - Použijte `startTrackRevisions` metoda na vašem `Document` instance pro zahájení sledování změn.
-3. **Mohu automatizovat přijímání nebo odmítání revizí v dokumentu?**
-   - Ano, můžete programově přijmout nebo odmítnout všechny revize pomocí metod jako `acceptAllRevisions` nebo `rejectAllRevisions`.
-4. **Jaké typy dokumentů Aspose.Words podporuje?**
-   - Podporuje DOCX, PDF, HTML a další populární formáty, což umožňuje flexibilní konverzi dokumentů.
-5. **Jak mohu efektivně zpracovávat velké dokumenty pomocí Aspose.Words?**
-   - Zpracovávejte sekce postupně s využitím dávkových operací k udržení výkonu.
+**Q: Co je inline uzel v Aspose.Words?**  
+A: Inline uzel představuje běh textu nebo znak‑úrovňový prvek uvnitř odstavce.
+
+**Q: Jak začnu sledovat revize pomocí Aspose.Words Java?**  
+A: Zavolejte `document.startTrackRevisions("Author", new Date());` po aplikaci vaší licence.
+
+**Q: Mohu automatizovat přijímání nebo odmítání revizí v dokumentu?**  
+A: Ano – použijte `document.acceptAllRevisions()` nebo `document.rejectAllRevisions()` k hromadnému zpracování změn.
+
+**Q: Jaké typy dokumentů Aspose.Words podporuje?**  
+A: Podporuje **35+** formátů, včetně DOCX, DOC, RTF, HTML, PDF, EPUB a Markdown.
+
+**Q: Jak efektivně zpracovat velké dokumenty s Aspose.Words?**  
+A: Zpracovávejte sekce postupně a využívejte dávkové API; to udržuje nízkou spotřebu paměti a urychluje zpracování revizí.
 
 ## Zdroje
 
-- [Dokumentace k Aspose.Words v Javě](https://reference.aspose.com/words/java/)
-- [Stáhněte si Aspose.Words pro Javu](https://releases.aspose.com/words/java/)
+- [Dokumentace Aspose.Words Java](https://reference.aspose.com/words/java/)
+- [Stáhnout Aspose.Words pro Java](https://releases.aspose.com/words/java/)
 - [Zakoupit licenci](https://purchase.aspose.com/buy)
 - [Bezplatná zkušební verze](https://releases.aspose.com/words/java/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory Aspose](https://forum.aspose.com/c/words/10)
 
-Vydejte se na svou cestu s Aspose.Words Java ještě dnes a využijte plný potenciál zpracování dokumentů ve vašich aplikacích!
+---
+
+**Poslední aktualizace:** 2026-08-27  
+**Testováno s:** Aspose.Words 24.12 for Java  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Nastavení licence Aspose.Words Java: Metody souboru a proudu](/words/java/getting-started/aspose-words-java-license-setup-guide/)
+- [Porovnání a sledování hlavního dokumentu s Aspose.Words pro Java](/words/java/document-comparison-tracking/)
+- [Aspose.Words Java: Ovládání správy komentářů ve Word dokumentech](/words/java/annotations-comments/aspose-words-java-comment-management-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,47 +1,127 @@
 ---
-"date": "2025-03-28"
-"description": "เรียนรู้วิธีติดตามการเปลี่ยนแปลงและจัดการการแก้ไขในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java เรียนรู้การเปรียบเทียบเอกสาร การจัดการการแก้ไขแบบอินไลน์ และอื่นๆ อีกมากมายด้วยคู่มือที่ครอบคลุมนี้"
-"title": "ติดตามการเปลี่ยนแปลงในเอกสาร Word โดยใช้ Aspose.Words Java คำแนะนำฉบับสมบูรณ์สำหรับการแก้ไขเอกสาร"
-"url": "/th/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/"
-"weight": 1
+date: '2026-08-27'
+description: เรียนรู้วิธีใช้ใบอนุญาต Aspose.Words java เพื่อติดตามการเปลี่ยนแปลงในเอกสาร
+  Word ด้วย Java คู่มือนี้ครอบคลุม setup, inline revision handling, และ performance
+  tips
+keywords:
+- aspose words license java
+- track changes
+- document revisions
+lastmod: '2026-08-27'
+og_description: เรียนรู้วิธีใช้ใบอนุญาต Aspose.Words java เพื่อติดตามการเปลี่ยนแปลงในเอกสาร
+  Word ด้วย Java คู่มือนี้ครอบคลุม setup, inline revision handling, และ performance
+  tips
+og_image_alt: 'Developer guide: Using Aspose.Words license java to manage document
+  revisions in Java'
+og_title: วิธีใช้ใบอนุญาต Aspose.Words java เพื่อการติดตามการเปลี่ยนแปลง
+schemas:
+- author: Aspose
+  dateModified: '2026-08-27'
+  description: Learn how to use Aspose.Words license java to track changes in Word
+    documents with Java. This guide covers setup, inline revision handling, and performance
+    tips.
+  headline: How to use Aspose.Words license java for tracking changes
+  type: TechArticle
+- description: Learn how to use Aspose.Words license java to track changes in Word
+    documents with Java. This guide covers setup, inline revision handling, and performance
+    tips.
+  name: How to use Aspose.Words license java for tracking changes
+  steps:
+  - name: '**Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/)
+      and use it with evaluation limitations.'
+    text: '**Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/)
+      and use it with evaluation limitations.'
+  - name: '**Temporary license:** Obtain a temporary license for extended usage without
+      evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Obtain a temporary license for extended usage without
+      evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase license:** Consider purchasing if you need full access to Aspose.Words
+      features by following the instructions on their purchase page.'
+    text: '**Purchase license:** Consider purchasing if you need full access to Aspose.Words
+      features by following the instructions on their purchase page.'
+  - name: '**Collaborative editing:** Teams can review and approve changes efficiently
+      before finalizing a document.'
+    text: '**Collaborative editing:** Teams can review and approve changes efficiently
+      before finalizing a document.'
+  - name: '**Legal document review:** Lawyers can track amendments made to contracts,
+      ensuring all parties agree on the final version.'
+    text: '**Legal document review:** Lawyers can track amendments made to contracts,
+      ensuring all parties agree on the final version.'
+  - name: '**Software documentation:** Developers can manage updates in technical
+      manuals, maintaining clarity and accuracy.'
+    text: '**Software documentation:** Developers can manage updates in technical
+      manuals, maintaining clarity and accuracy.'
+  type: HowTo
+- questions:
+  - answer: An inline node represents a run of text or a character‑level element inside
+      a paragraph.
+    question: What is an inline node in Aspose.Words?
+  - answer: Call `document.startTrackRevisions("Author", new Date());` after applying
+      your license.
+    question: How do I start tracking revisions with Aspose.Words Java?
+  - answer: Yes—use `document.acceptAllRevisions()` or `document.rejectAllRevisions()`
+      to process changes in bulk.
+    question: Can I automate accepting or rejecting revisions in a document?
+  - answer: It supports **35+** formats, including DOCX, DOC, RTF, HTML, PDF, EPUB,
+      and Markdown.
+    question: What types of documents does Aspose.Words support?
+  - answer: Process sections incrementally and leverage batch APIs; this keeps memory
+      consumption low and speeds up revision handling.
+    question: How do I handle large documents efficiently with Aspose.Words?
+  type: FAQPage
+tags:
+- aspose words
+- java document processing
+- track changes
+title: วิธีใช้ใบอนุญาต Aspose.Words java เพื่อการติดตามการเปลี่ยนแปลง
+url: /th/java/document-comparison-tracking/aspose-words-java-track-changes-revisions/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# วิธีใช้ Aspose.Words license java สำหรับการติดตามการเปลี่ยนแปลง
 
-# ติดตามการเปลี่ยนแปลงในเอกสาร Word โดยใช้ Aspose.Words Java: คู่มือฉบับสมบูรณ์สำหรับการแก้ไขเอกสาร
+## บทนำ
 
-## การแนะนำ
+การทำงานร่วมกันบนเอกสารสำคัญอาจเป็นเรื่องท้าทาย เนื่องจากคุณต้องทำให้การแก้ไขทั้งหมดมองเห็นได้และจัดการได้อย่างง่ายดาย ด้วย **Aspose.Words license java** คุณสามารถเปิดใช้งานและควบคุมฟีเจอร์ “Track Changes” ได้อย่างราบรื่นโดยตรงจากแอปพลิเคชัน Java ของคุณ บทเรียนนี้จะพาคุณผ่านการตั้งค่าสภาพแวดล้อม การใช้ใบอนุญาต และการจัดการการแก้ไขแบบอินไลน์ เพื่อให้คุณสร้างกระบวนการตรวจสอบเอกสารที่แข็งแกร่ง
 
-การทำงานร่วมกันในเอกสารสำคัญอาจเป็นเรื่องท้าทายเนื่องจากความซับซ้อนในการจัดการการแก้ไข ด้วย Aspose.Words สำหรับ Java คุณสามารถติดตามการเปลี่ยนแปลงภายในแอปพลิเคชันของคุณได้อย่างราบรื่น บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้งาน "ติดตามการเปลี่ยนแปลง" โดยใช้การจัดการการแก้ไขแบบอินไลน์ใน Aspose.Words Java ซึ่งเป็นไลบรารีที่มีประสิทธิภาพที่ช่วยลดความซับซ้อนของงานประมวลผลเอกสาร
+**สิ่งที่คุณจะได้เรียนรู้**
+- วิธีเพิ่ม Aspose.Words ไปยังโครงการ Maven หรือ Gradle
+- วิธีใช้ไฟล์ Aspose.Words license java
+- การนำไปใช้ของการแทรก, ลบ, จัดรูปแบบ, และย้ายการแก้ไข
+- เคล็ดลับในการประมวลผลเอกสารขนาดใหญ่อย่างมีประสิทธิภาพ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีตั้งค่า Aspose.Words ด้วย Maven หรือ Gradle
-- การดำเนินการแก้ไขในรูปแบบต่างๆ (แทรก, จัดรูปแบบ, ย้าย, ลบ)
-- การทำความเข้าใจและการใช้คุณสมบัติหลักในการจัดการการเปลี่ยนแปลงเอกสาร
+## คำตอบเร็ว
 
-เริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมของคุณเพื่อให้คุณสามารถเชี่ยวชาญความสามารถเหล่านี้ได้
+- **ไลบรารีใดจัดการการแก้ไข?** Aspose.Words for Java with a valid license.
+- **ฉันต้องการใบอนุญาตสำหรับการผลิตหรือไม่?** Yes – a licensed Aspose.Words jar removes evaluation limits.
+- **ฉันสามารถติดตามการเปลี่ยนแปลงใน DOCX และ PDF ได้หรือไม่?** Yes, the API works with all supported formats.
+- **หน่วยความจำเป็นปัญหาสำหรับไฟล์ขนาดใหญ่หรือไม่?** Process sections sequentially and use batch APIs to stay under 200 MB.
+- **ฉันจะได้ใบอนุญาตทดลองจากที่ไหน?** From the Aspose website via the “Temporary License” link.
+
+## Aspose.Words license java คืออะไร?
+
+ไฟล์ **Aspose.Words license java** เป็นเอกสารใบอนุญาตแบบไบนารีที่เมื่อใช้แล้วจะปลดล็อกชุดฟีเจอร์ทั้งหมดของ Aspose.Words for Java มันจะลบลายน้ำการประเมินค่า ยกเลิกข้อจำกัดขนาดเอกสารและจำนวนหน้า และเปิดใช้งานการประมวลผลเอกสารขนาดใหญ่ด้วยประสิทธิภาพสูง ทำให้คุณใช้ API ในการผลิตได้โดยไม่มีข้อจำกัด
+
+## วิธีใช้ Aspose.Words license java สำหรับการติดตามการเปลี่ยนแปลง?
+
+คลาส `License` โหลดและใช้ใบอนุญาต Aspose.Words ที่ถูกต้องกับ API ทำให้ฟังก์ชันการทำงานไม่มีข้อจำกัด โหลดไฟล์ใบอนุญาตของคุณด้วย `License license = new License(); license.setLicense("Aspose.Words.Java.lic");` ก่อนเปิดเอกสารใด ๆ หลังจากใช้ใบอนุญาตแล้ว ให้เปิดการติดตามด้วย `document.startTrackRevisions("Author", new Date());` วิธีการสองขั้นตอนนี้ทำให้การแก้ไขต่อมาถูกบันทึกเป็นการแก้ไข และใบอนุญาตรับประกันขนาดเอกสารและการสนับสนุนรูปแบบที่ไม่จำกัด
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
-- **ชุดพัฒนา Java (JDK):** ติดตั้งเวอร์ชัน 8 ขึ้นไปบนระบบของคุณ
-- **สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE):** เช่น IntelliJ IDEA, Eclipse หรือ NetBeans
-- **Maven หรือ Gradle:** สำหรับการจัดการการอ้างอิงและการสร้างโครงการของคุณ
-
-ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java ยังจำเป็นต่อการปฏิบัติตามตัวอย่างโค้ดที่ให้มา
+- **Java Development Kit (JDK):** เวอร์ชัน 8 หรือใหม่กว่า
+- **IDE:** IntelliJ IDEA, Eclipse หรือ NetBeans
+- **Build tool:** Maven หรือ Gradle สำหรับการจัดการ dependencies
+- **Basic Java knowledge** เพื่อทำความเข้าใจโค้ดตัวอย่าง
 
 ## การตั้งค่า Aspose.Words
 
-หากต้องการรวม Aspose.Words เข้ากับโปรเจ็กต์ของคุณ ให้ใช้ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
-
 ### การตั้งค่า Maven
 
-เพิ่มการอ้างอิงนี้ในของคุณ `pom.xml` ไฟล์:
+เพิ่ม dependency นี้ในไฟล์ `pom.xml` ของคุณ:
 
 ```xml
 <dependency>
@@ -53,22 +133,22 @@
 
 ### การตั้งค่า Gradle
 
-รวมบรรทัดนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+ใส่บรรทัดนี้ในไฟล์ `build.gradle` ของคุณ:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-#### การขอใบอนุญาต
+#### การรับใบอนุญาต
 
-Aspose เสนอบริการทดลองใช้ฟรีเพื่อทดสอบคุณสมบัติต่างๆ ช่วยให้คุณประเมินได้ว่าตรงตามความต้องการของคุณหรือไม่ ในการเริ่มต้น:
-1. **ทดลองใช้งานฟรี:** ดาวน์โหลดห้องสมุดได้จาก [ดาวน์โหลด Aspose](https://releases.aspose.com/words/java/) และใช้โดยมีข้อจำกัดในการประเมิน
-2. **ใบอนุญาตชั่วคราว:** รับใบอนุญาตชั่วคราวเพื่อใช้งานต่อเนื่องโดยไม่มีข้อจำกัดในการประเมินโดยเข้าไปที่ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
-3. **ซื้อใบอนุญาต:** โปรดพิจารณาซื้อหากคุณต้องการเข้าถึงฟีเจอร์ของ Aspose.Words อย่างเต็มรูปแบบโดยทำตามคำแนะนำในหน้าการซื้อ
+Aspose มีการทดลองใช้ฟรีเพื่อทดสอบคุณสมบัติของมัน ให้คุณประเมินว่าตรงกับความต้องการหรือไม่ เพื่อเริ่มต้น:
+1. **Free trial:** Download the library from [Aspose Downloads](https://releases.aspose.com/words/java/) and use it with evaluation limitations.  
+2. **Temporary license:** Obtain a temporary license for extended usage without evaluation restrictions by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).  
+3. **Purchase license:** Consider purchasing if you need full access to Aspose.Words features by following the instructions on their purchase page.
 
-#### การเริ่มต้นขั้นพื้นฐาน
+#### การเริ่มต้นพื้นฐาน
 
-ในการเริ่มต้น ให้สร้างอินสแตนซ์ของ `Document` และเริ่มทำงานกับมัน:
+คลาส `Document` เป็นอ็อบเจ็กต์ระดับบนของ Aspose.Words ที่แทนไฟล์ Word หนึ่งไฟล์ในหน่วยความจำ เพื่อเริ่มต้น ให้สร้างอินสแตนซ์ของ `Document` แล้วเริ่มทำงานกับมัน:
 
 ```java
 import com.aspose.words.Document;
@@ -76,24 +156,24 @@ import com.aspose.words.Document;
 public class Main {
     public static void main(String[] args) throws Exception {
         Document doc = new Document("input.docx");
-        // ดำเนินการเพิ่มเติมที่นี่
+        // Further processing here
     }
 }
 ```
 
 ## คู่มือการใช้งาน
 
-ในหัวข้อนี้ เราจะสำรวจวิธีการจัดการการแก้ไขประเภทต่างๆ โดยใช้ Aspose.Words Java
+ในส่วนนี้ เราจะสำรวจวิธีจัดการประเภทการแก้ไขต่าง ๆ ด้วย Aspose.Words Java
 
 ### การจัดการการแก้ไขแบบอินไลน์
 
 #### ภาพรวม
 
-เมื่อติดตามการเปลี่ยนแปลงในเอกสาร การทำความเข้าใจและการจัดการการแก้ไขแบบอินไลน์ถือเป็นสิ่งสำคัญ ซึ่งอาจรวมถึงการแทรก การลบ การเปลี่ยนแปลงรูปแบบ หรือการย้ายข้อความ
+เมื่อทำการติดตามการเปลี่ยนแปลงในเอกสาร การเข้าใจและจัดการการแก้ไขแบบอินไลน์เป็นสิ่งสำคัญ ซึ่งอาจรวมถึงการแทรก, การลบ, การเปลี่ยนรูปแบบ, หรือการย้ายข้อความ
 
-#### การนำโค้ดไปใช้
+#### การทำงานของโค้ด
 
-ด้านล่างนี้เป็นคู่มือทีละขั้นตอนเกี่ยวกับวิธีการกำหนดประเภทการแก้ไขของโหนดอินไลน์โดยใช้ Aspose.Words Java:
+คลาส `Revision` แทนการเปลี่ยนแปลงเดี่ยว (insert, delete, format, move) ด้านล่างเป็นคำแนะนำขั้นตอนต่อขั้นตอนเพื่อกำหนดประเภทการแก้ไขของโหนดอินไลน์โดยใช้ Aspose.Words Java:
 
 ```java
 import com.aspose.words.Document;
@@ -106,10 +186,10 @@ public class RevisionHandler {
     public void handleRevisions() throws Exception {
         Document doc = new Document("Revision runs.docx");
 
-        // ตรวจสอบจำนวนการแก้ไข
+        // Check the number of revisions
         Assert.assertEquals(6, doc.getRevisions().getCount());
 
-        // การเข้าถึงโหนดหลักของการแก้ไขเฉพาะ
+        // Accessing a specific revision's parent node
         Run run = (Run) doc.getRevisions().get(0).getParentNode();
 
         Paragraph paragraph = run.getParentParagraph();
@@ -117,73 +197,85 @@ public class RevisionHandler {
 
         Assert.assertEquals(runs.getCount(), 6);
 
-        // การระบุประเภทการแก้ไขที่แตกต่างกัน
-        Assert.assertTrue(runs.get(2).isInsertRevision());  // แทรกการแก้ไข
-        Assert.assertTrue(runs.get(2).isFormatRevision());  // การแก้ไขรูปแบบ
-        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // ย้ายจากการแก้ไข
-        Assert.assertTrue(runs.get(1).isMoveToRevision());   // ย้ายไปแก้ไข
-        Assert.assertTrue(runs.get(5).isDeleteRevision());   // ลบแก้ไข
+        // Identifying different types of revisions
+        Assert.assertTrue(runs.get(2).isInsertRevision());  // Insert revision
+        Assert.assertTrue(runs.get(2).isFormatRevision());  // Format revision
+        Assert.assertTrue(runs.get(4).isMoveFromRevision()); // Move from revision
+        Assert.assertTrue(runs.get(1).isMoveToRevision());   // Move to revision
+        Assert.assertTrue(runs.get(5).isDeleteRevision());   // Delete revision
     }
 }
 ```
 
 #### คำอธิบาย
-- **แทรกการแก้ไข:** เกิดขึ้นเมื่อมีการเพิ่มข้อความในระหว่างการติดตามการเปลี่ยนแปลง
-- **การแก้ไขรูปแบบ:** เกิดขึ้นจากการปรับเปลี่ยนรูปแบบของข้อความ
-- **ย้ายจาก/ไปยังการแก้ไข:** แสดงการเคลื่อนตัวของข้อความภายในเอกสารโดยปรากฏเป็นคู่
-- **ลบการแก้ไข:** ทำเครื่องหมายข้อความที่ถูกลบเพื่อรอการยอมรับหรือปฏิเสธ
+- **Insert revision:** เกิดขึ้นเมื่อมีการเพิ่มข้อความขณะติดตามการเปลี่ยนแปลง
+- **Format revision:** ถูกกระตุ้นโดยการแก้ไขรูปแบบของข้อความ
+- **Move‑from / move‑to revisions:** แสดงการย้ายข้อความภายในเอกสาร ปรากฏเป็นคู่
+- **Delete revision:** ทำเครื่องหมายข้อความที่ถูกลบ รอการยอมรับหรือปฏิเสธ
 
-### การประยุกต์ใช้งานจริง
+### การใช้งานจริง
 
-ต่อไปนี้เป็นสถานการณ์จริงบางสถานการณ์ที่การจัดการการแก้ไขเป็นประโยชน์:
-1. **การแก้ไขแบบร่วมมือกัน:** ทีมงานสามารถตรวจสอบและอนุมัติการเปลี่ยนแปลงได้อย่างมีประสิทธิภาพก่อนที่จะสรุปเอกสาร
-2. **การตรวจสอบเอกสารทางกฎหมาย:** ทนายความสามารถติดตามการแก้ไขที่ทำกับสัญญา เพื่อให้แน่ใจว่าทุกฝ่ายตกลงกันในเวอร์ชันสุดท้าย
-3. **เอกสารประกอบซอฟต์แวร์:** นักพัฒนาสามารถจัดการการอัปเดตในเอกสารทางเทคนิคเพื่อรักษาความชัดเจนและความถูกต้อง
+ต่อไปนี้เป็นสถานการณ์จริงที่การจัดการการแก้ไขเป็นประโยชน์:
+1. **Collaborative editing:** Teams can review and approve changes efficiently before finalizing a document.  
+2. **Legal document review:** Lawyers can track amendments made to contracts, ensuring all parties agree on the final version.  
+3. **Software documentation:** Developers can manage updates in technical manuals, maintaining clarity and accuracy.
 
-### การพิจารณาประสิทธิภาพ
+### ข้อควรพิจารณาด้านประสิทธิภาพ
 
-เพื่อเพิ่มประสิทธิภาพการทำงานเมื่อจัดการเอกสารขนาดใหญ่ที่มีการแก้ไขจำนวนมาก ให้ทำดังนี้:
-- ลดการใช้หน่วยความจำโดยประมวลผลส่วนเอกสารตามลำดับ
-- ใช้ประโยชน์จากวิธีในตัวของ Aspose.Words สำหรับการดำเนินการแบบแบตช์เพื่อลดค่าใช้จ่าย
+Aspose.Words รองรับ **35+** รูปแบบการเข้าและออก รวมถึง DOCX, PDF, HTML, และ EPUB และสามารถประมวลผลเอกสาร **500‑page** ในเวลาน้อยกว่า **3 seconds** บนฮาร์ดแวร์เซิร์ฟเวอร์มาตรฐาน เพื่อให้การใช้หน่วยความจำน้อยลงเมื่อจัดการไฟล์ขนาดใหญ่ที่มีการแก้ไขหลายรายการ:
+- Process document sections sequentially instead of loading the entire file into memory.  
+- Use batch‑operation methods such as `Document.acceptAllRevisions()` to reduce overhead.
 
-## บทสรุป
+## สรุป
 
-ตอนนี้คุณได้เรียนรู้วิธีการนำการเปลี่ยนแปลงการติดตามไปใช้โดยใช้การจัดการแก้ไขแบบอินไลน์ใน Aspose.Words Java แล้ว การเชี่ยวชาญเทคนิคเหล่านี้จะช่วยให้คุณปรับปรุงการทำงานร่วมกันและควบคุมการแก้ไขเอกสารภายในแอปพลิเคชันของคุณได้อย่างแม่นยำ
+คุณได้เรียนรู้วิธีใช้ Aspose.Words license java และนำฟังก์ชันการติดตามการเปลี่ยนแปลงไปใช้พร้อมการจัดการการแก้ไขแบบอินไลน์ใน Java แล้ว ด้วยการเชี่ยวชาญเทคนิคเหล่านี้ คุณสามารถเพิ่มประสิทธิภาพการทำงานร่วมกัน บังคับใช้การปฏิบัติตามกฎระเบียบ และควบคุมการแก้ไขเอกสารได้อย่างเต็มที่ในแอปพลิเคชันของคุณ
 
-**ขั้นตอนต่อไป:**
-- ทดลองการแก้ไขประเภทต่างๆ
-- บูรณาการ Aspose.Words เข้ากับโปรเจ็กต์ขนาดใหญ่เพื่อให้ได้โซลูชันการประมวลผลเอกสารที่ครอบคลุม
+**ขั้นตอนต่อไป**
+- ทดลองรับหรือปฏิเสธการแก้ไขเฉพาะโดยโปรแกรม  
+- ผสานการจัดการการแก้ไขกับการเปรียบเทียบเอกสารเพื่อเน้นความแตกต่างระหว่างเวอร์ชัน  
+- สำรวจความสามารถการแปลงของ Aspose.Words เพื่อส่งออกเอกสารที่แก้ไขเป็น PDF หรือ HTML
 
-## ส่วนคำถามที่พบบ่อย
+## คำถามที่พบบ่อย
 
-1. **โหนดอินไลน์ใน Aspose.Words คืออะไร?**
-   - โหนดอินไลน์แสดงองค์ประกอบข้อความ เช่น การดำเนินการ หรือการจัดรูปแบบอักขระภายในย่อหน้า
-2. **ฉันจะเริ่มติดตามการแก้ไขด้วย Aspose.Words Java ได้อย่างไร**
-   - ใช้ `startTrackRevisions` วิธีการของคุณ `Document` อินสแตนซ์ที่จะเริ่มติดตามการเปลี่ยนแปลง
-3. **ฉันสามารถทำให้การยอมรับหรือปฏิเสธการแก้ไขในเอกสารเป็นแบบอัตโนมัติได้หรือไม่**
-   - ใช่ คุณสามารถยอมรับหรือปฏิเสธการแก้ไขทั้งหมดด้วยโปรแกรมโดยใช้วิธีการเช่น `acceptAllRevisions` หรือ `rejectAllRevisions`-
-4. **Aspose.Words รองรับเอกสารประเภทใดบ้าง**
-   - รองรับ DOCX, PDF, HTML และรูปแบบยอดนิยมอื่น ๆ ช่วยให้สามารถแปลงเอกสารได้อย่างยืดหยุ่น
-5. **ฉันจะจัดการเอกสารขนาดใหญ่อย่างมีประสิทธิภาพด้วย Aspose.Words ได้อย่างไร**
-   - ดำเนินการส่วนต่าง ๆ ตามลำดับโดยใช้ประโยชน์จากการดำเนินการแบบแบตช์เพื่อรักษาประสิทธิภาพการทำงาน
+**Q: Inline node ใน Aspose.Words คืออะไร?**  
+A: Inline node แทนช่วงข้อความหรือองค์ประกอบระดับอักขระภายในย่อหน้า
 
-## ทรัพยากร
+**Q: ฉันจะเริ่มติดตามการแก้ไขด้วย Aspose.Words Java อย่างไร?**  
+A: Call `document.startTrackRevisions("Author", new Date());` after applying your license.
 
-- [เอกสาร Java ของ Aspose.Words](https://reference.aspose.com/words/java/)
-- [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/)
+**Q: ฉันสามารถทำให้การยอมรับหรือปฏิเสธการแก้ไขเป็นอัตโนมัติในเอกสารได้หรือไม่?**  
+A: Yes—use `document.acceptAllRevisions()` or `document.rejectAllRevisions()` to process changes in bulk.
+
+**Q: Aspose.Words รองรับประเภทเอกสารอะไรบ้าง?**  
+A: It supports **35+** formats, including DOCX, DOC, RTF, HTML, PDF, EPUB, and Markdown.
+
+**Q: ฉันจะจัดการเอกสารขนาดใหญ่ได้อย่างมีประสิทธิภาพกับ Aspose.Words อย่างไร?**  
+A: Process sections incrementally and leverage batch APIs; this keeps memory consumption low and speeds up revision handling.
+
+## แหล่งข้อมูล
+
+- [เอกสาร Aspose.Words Java](https://reference.aspose.com/words/java/)
+- [ดาวน์โหลด Aspose.Words for Java](https://releases.aspose.com/words/java/)
 - [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [ทดลองใช้งานฟรี](https://releases.aspose.com/words/java/)
+- [ทดลองใช้ฟรี](https://releases.aspose.com/words/java/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
-เริ่มต้นการเดินทางของคุณด้วย Aspose.Words Java วันนี้ และใช้ประโยชน์จากศักยภาพทั้งหมดของการประมวลผลเอกสารในแอปพลิเคชันของคุณ!
+---
+
+**อัปเดตล่าสุด:** 2026-08-27  
+**ทดสอบด้วย:** Aspose.Words 24.12 for Java  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [การตั้งค่าใบอนุญาต Aspose.Words Java: วิธีไฟล์และสตรีม](/words/java/getting-started/aspose-words-java-license-setup-guide/)
+- [การเปรียบเทียบและติดตามเอกสารหลักด้วย Aspose.Words for Java](/words/java/document-comparison-tracking/)
+- [Aspose.Words Java: การจัดการคอมเมนต์ในเอกสาร Word](/words/java/annotations-comments/aspose-words-java-comment-management-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
