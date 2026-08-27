@@ -27,8 +27,8 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 - [แปลง Word เป็น PDF ใน C# ด้วย Aspose.Words – คู่มือ](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [แปลง Word เป็น PDF ด้วย C# – คู่มือ Aspose ฉบับสมบูรณ์](./convert-word-to-pdf-in-c-complete-aspose-guide/) | เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [บันทึก Word เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
+- [บันทึก docx เป็น pdf ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 - [วิธีสร้าง PDF จาก Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-create-pdf-from-word-complete-c-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF จากเอกสาร Word ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
-- [บันทึก Docx เป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ Docx เป็น PDF ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 | [แปลง Docx เป็นไบต์](./docx-to-byte/) | เรียนรู้วิธีการแปลง Docx เป็นอาร์เรย์ไบต์ใน .NET โดยใช้ Aspose.Words เพื่อการประมวลผลเอกสารอย่างมีประสิทธิภาพ มีคู่มือทีละขั้นตอนรวมอยู่ด้วย -  
 | [แปลง Docx เป็น Epub](./docx-to-epub/) | แปลง DOCX เป็น EPUB ได้อย่างง่ายดายด้วย Aspose.Words สำหรับ .NET ทำตามบทช่วยสอนของเราเพื่อบูรณาการกับแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น -
 | [แปลง Docx เป็น Mhtml และส่งอีเมล](./docx-to-mhtml-and-sending-email/) | เรียนรู้วิธีแปลง DOCX เป็น MHTML และส่งอีเมลโดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เพิ่มประสิทธิภาพการทำงานของคุณด้วยระบบอัตโนมัติที่ง่ายดาย -
@@ -39,6 +39,8 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 | [บันทึกไฟล์ PDF เป็น Jpeg](./pdf-to-jpeg/) แปลงไฟล์ PDF เป็น JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ทำตามคำแนะนำโดยละเอียดของเราพร้อมตัวอย่างและคำถามที่พบบ่อย เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ
 - [บันทึก PDF เป็นรูปแบบ Word (Docx)](./pdf-to-docx/) | เรียนรู้วิธีแปลง PDF เป็นเอกสาร Word (Docx) โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา |
 - [วิธีส่งออก LaTeX จาก Word – คู่มือขั้นตอนโดยขั้นตอน](./how-to-export-latex-from-word-step-by-step-guide/) | เรียนรู้วิธีส่งออกเนื้อหา LaTeX จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดและง่ายดาย -
+- [สร้าง PDF ที่เข้าถึงได้ – แปลง Word เป็น PDF ที่เข้าถึงได้](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด -
+- [กู้คืน DOCX ที่เสียหาย – คู่มือเต็มสำหรับการแก้ไข, ส่งออกเป็น PDF และ Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายและส่งออกเป็น PDF หรือ Markdown ด้วย Aspose.Words สำหรับ .NET -
 - [บันทึก docx เป็น txt – คู่มือฉบับสมบูรณ์เพื่อส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ Word เป็น LaTeX อย่างละเอียด -
 
 {{< /blocks/products/pf/tutorial-page-section >}}

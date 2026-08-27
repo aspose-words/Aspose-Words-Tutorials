@@ -47,6 +47,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Zobrazit seznam dostupných písem](./get-list-of-available-fonts/) | Zjistěte, jak získat seznam dostupných písem pomocí Aspose.Words pro .NET v tomto podrobném návodu krok za krokem. Zlepšete si své dovednosti v oblasti správy písem. |
 | [Dostávat oznámení o písmech](./receive-notifications-of-fonts/) | Zjistěte, jak dostávat upozornění na chybějící nebo nahrazená písma při používání Aspose.Words pro .NET. |
 | [Přijímat varovné oznámení](./receive-warning-notification/) Naučte se, jak přijímat varovné upozornění při používání Aspose.Words pro .NET a jak řešit případné problémy nebo varování v dokumentech. |
+| [Nastavit varovný callback v C# – Kompletní průvodce správou písem](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Naučte se, jak nastavit varovný callback v Aspose.Words pro .NET v C# a spravovat upozornění na písma. |
 | [Příklad zdroje písma Steam](./resource-steam-font-source-example/) | Naučte se, jak používat zdroj písem Resource Stream k načtení vlastních písem do Aspose.Words pro .NET. |
 | [Získat substituci bez přípon](./get-substitution-without-suffixes/) | V tomto tutoriálu se naučíte, jak získat přepsání bez přípon v dokumentu Word pomocí Aspose.Words pro .NET. |
 | [Jak načíst DOCX v C# – Kompletní průvodce](./how-to-load-docx-in-c-complete-guide/) | Kompletní průvodce načítáním souborů DOCX v C# pomocí Aspose.Words pro .NET. |

@@ -72,6 +72,12 @@
 
 ### [كيفية استخدام Callback في C# – تحويل DOCX إلى Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
+### [حفظ docx كـ txt – تحويل docx إلى markdown](./save-docx-as-txt-convert-docx-to-markdown/)
+
+### [كيفية تضمين الصور في Markdown من DOCX](./how-to-embed-images-in-markdown-from-docx/)
+
+### [كيفية تعيين الدقة عند تحويل DOCX إلى Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

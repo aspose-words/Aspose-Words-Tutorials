@@ -87,6 +87,15 @@ Kompletny przewodnik pokazujący, jak konwertować pliki DOCX do formatu Markdow
 ### [Jak używać callbacku w C# – konwertuj DOCX do Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 Dowiedz się, jak używać callbacków w C# do konwersji plików DOCX na Markdown przy użyciu Aspose.Words.
 
+### [Zapisz docx jako txt – konwertuj docx do markdown](./save-docx-as-txt-convert-docx-to-markdown/)
+Dowiedz się, jak zapisać plik DOCX jako plik TXT i przekształcić go do formatu Markdown przy użyciu Aspose.Words dla .NET.
+
+### [Jak osadzić obrazy w Markdown z DOCX](./how-to-embed-images-in-markdown-from-docx/)
+Dowiedz się, jak wyodrębnić i osadzić obrazy z pliku DOCX podczas konwersji do formatu Markdown przy użyciu Aspose.Words dla .NET.
+
+### [Jak ustawić rozdzielczość podczas konwertowania DOCX do Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
+Dowiedz się, jak określić rozdzielczość obrazów przy konwersji DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

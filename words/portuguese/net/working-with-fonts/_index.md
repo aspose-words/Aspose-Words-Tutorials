@@ -48,6 +48,8 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Receber notificação de aviso](./receive-warning-notification/) Aprenda como receber uma notificação de aviso ao usar o Aspose.Words para .NET e gerencie quaisquer problemas ou avisos em seus documentos. |
 | [Exemplo de fonte de fonte do Resource Steam](./resource-steam-font-source-example/) | Aprenda a usar o Resource Stream Font Source para carregar fontes personalizadas no Aspose.Words para .NET. |
 | [Obtenha substituição sem sufixos](./get-substitution-without-suffixes/) | Neste tutorial, aprenda como obter substituições sem sufixo em um documento do Word com o Aspose.Words para .NET. |
+| [Definir retorno de chamada de aviso em C# – Guia completo de manipulação de fontes](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Aprenda a definir um retorno de chamada de aviso ao manipular fontes usando Aspose.Words para .NET com este guia passo a passo detalhado. |
+
 | [Como Carregar DOCX em C# – Guia Completo](./how-to-load-docx-in-c-complete-guide/) | Aprenda a carregar arquivos DOCX em C# usando Aspose.Words para .NET com um guia passo a passo completo. |
 | [Como Detectar Fontes no Aspose.Words – Lidar com Avisos e Configurações](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Aprenda a detectar fontes, lidar com avisos e configurar opções de fontes no Aspose.Words para .NET. |
 | [Como Capturar Fontes no Aspose.Words – Guia Completo](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aprenda a capturar fontes em documentos Word usando Aspose.Words com este guia completo passo a passo. |

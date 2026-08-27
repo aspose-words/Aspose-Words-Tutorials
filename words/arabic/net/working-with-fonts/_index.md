@@ -61,6 +61,7 @@
 | [تلقي إشعار تحذير](./receive-warning-notification/) |تعرف على كيفية تلقي إشعار تحذير عند استخدام Aspose.Words لـ .NET وإدارة أي مشكلات أو تحذيرات في مستنداتك. |
 | [مثال على مصدر خط Steam](./resource-steam-font-source-example/) |تعرف على كيفية استخدام مصدر خط Resource Stream لتحميل الخطوط المخصصة في Aspose.Words لـ .NET. |
 | [الحصول على الاستبدال بدون لاحقات](./get-substitution-without-suffixes/) |في هذا البرنامج التعليمي، تعلم كيفية الحصول على تجاوزات بدون لاحقات في مستند Word باستخدام Aspose.Words لـ .NET. |
+| [تعيين رد نداء التحذير في C# – دليل كامل لمعالجة الخطوط](./set-warning-callback-in-c-complete-guide-to-font-handling/) |تعرف على كيفية تعيين رد نداء التحذير لمعالجة الخطوط باستخدام Aspose.Words لـ .NET في C# خطوة بخطوة. |
 | [كيفية تحميل ملف DOCX في C# – دليل كامل](./how-to-load-docx-in-c-complete-guide/) |تعلم خطوة بخطوة كيفية تحميل ملفات DOCX في C# باستخدام Aspose.Words. |
 | [كيفية اكتشاف الخطوط في Aspose.Words – معالجة التحذيرات والإعدادات](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) |تعرف على كيفية اكتشاف الخطوط وإدارة التحذيرات وإعدادات الخط في Aspose.Words لـ .NET خطوة بخطوة. |
 | [كيفية التقاط الخطوط في Aspose.Words – دليل كامل](./how-to-capture-fonts-in-aspose-words-complete-guide/) |تعرف على كيفية التقاط الخطوط في Aspose.Words من خلال دليل شامل خطوة بخطوة. |

@@ -51,7 +51,7 @@
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET -
 - [วิธีตรวจจับแบบอักษรใน Aspose.Words – จัดการการแจ้งเตือนและการตั้งค่า](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | เรียนรู้วิธีตรวจจับแบบอักษรใน Aspose.Words พร้อมจัดการการแจ้งเตือนและตั้งค่าการแทนที่แบบอักษรเพื่อให้เอกสารแสดงผลอย่างถูกต้อง -
 | [รับการทดแทนโดยไม่ต้องมีคำต่อท้าย](./get-substitution-without-suffixes/) | ในบทช่วยสอนนี้ เรียนรู้วิธีรับการแทนที่แบบไม่มีคำต่อท้ายในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET |
-| [วิธีโหลดไฟล์ DOCX ใน C# – คู่มือฉบับสมบูรณ์](./how-to-load-docx-in-c-complete-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX ใน C# อย่างละเอียดด้วย Aspose.Words สำหรับ .NET -
+- [ตั้งค่าการเรียกกลับคำเตือนใน C# – คู่มือฉบับสมบูรณ์การจัดการแบบอักษร](./set-warning-callback-in-c-complete-guide-to-font-handling/) | เรียนรู้วิธีตั้งค่าการแจ้งเตือนแบบอักษรใน C# ด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 - [วิธีจับฟอนต์ใน Aspose.Words – คู่มือครบถ้วน](./how-to-capture-fonts-in-aspose-words-complete-guide/) | เรียนรู้วิธีจับฟอนต์ใน Aspose.Words อย่างละเอียดด้วยคู่มือขั้นตอนเต็มรูปแบบ |
 | [วิธีโหลด DOCX และตรวจจับแบบอักษรที่หายไป – คู่มือ C# ฉบับสมบูรณ์](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | เรียนรู้วิธีโหลดไฟล์ DOCX และตรวจจับแบบอักษรที่ขาดหายโดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือ C# อย่างละเอียด |
 
