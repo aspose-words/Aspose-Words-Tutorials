@@ -46,6 +46,8 @@ Estrai in modo efficiente i contenuti dai documenti Word utilizzando Aspose.Word
 Impara tecniche avanzate di ricerca e sostituzione nei documenti Word utilizzando Aspose.Words per Python. Sostituisci testo, usa espressioni regolari, formattazione e altro ancora.
 ### [Rimozione e perfezionamento del contenuto nei documenti Word](./remove-content-documents/)
 Scopri come rimuovere e perfezionare in modo efficiente il contenuto nei documenti Word utilizzando Aspose.Words per Python. Guida passo passo con esempi di codice sorgente.
+### [Come impostare il callback per l'esportazione delle immagini da DOCX](./how-to-set-callback-for-exporting-images-from-docx/)
+Impara a definire una funzione di callback per esportare le immagini da un documento DOCX usando Aspose.Words per Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
