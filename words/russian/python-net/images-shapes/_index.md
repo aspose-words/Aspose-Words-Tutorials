@@ -37,6 +37,12 @@
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
+### [Как сохранить PNG и добавить тень к фигуре с помощью Aspose.Words](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Узнайте, как сохранять изображения в формате PNG и добавлять тень к фигурам с помощью Aspose.Words.
+
+### [Как создать столбчатую диаграмму в Python с помощью Aspose.Words](./how-to-create-column-chart-python-with-aspose-words/)
+Узнайте, как создавать столбчатые диаграммы в Python с помощью Aspose.Words.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

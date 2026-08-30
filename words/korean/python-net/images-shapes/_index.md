@@ -37,6 +37,12 @@ Aspose.Words for Python을 사용하여 RTF 문서의 이미지 처리를 최적
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Python용 Aspose.Words를 사용하여 SVG 출력을 최적화하는 방법을 알아보세요. 이 가이드에서는 이미지 유사 속성, 텍스트 렌더링, 보안 강화와 같은 사용자 지정 기능을 다룹니다.
 
+### [Aspose.Words로 PNG 저장 및 도형에 그림자 추가하기](./how-to-save-png-and-add-shadow-to-shape-with-aspose-words/)
+Aspose.Words를 사용하여 PNG 형식으로 저장하고 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [Python과 Aspose.Words로 컬럼 차트 만들기](./how-to-create-column-chart-python-with-aspose-words/)
+Aspose.Words를 사용하여 Python에서 컬럼 차트를 생성하고 문서에 삽입하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)

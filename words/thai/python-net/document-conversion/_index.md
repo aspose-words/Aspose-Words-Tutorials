@@ -40,6 +40,24 @@
 ### [กู้ไฟล์ DOCX ที่เสียหายและแปลง Word เป็น Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 เรียนรู้วิธีกู้ไฟล์ DOCX ที่เสียหายและแปลงเป็น Markdown ด้วย Aspose.Words for Python
 
+### [ส่งออกสมการเป็น LaTeX จาก Word ด้วย Aspose.Words สำหรับ Python](./export-equations-to-latex-from-word-using-aspose-words-for-p/)
+เรียนรู้วิธีส่งออกสมการจากเอกสาร Word ไปเป็น LaTeX ด้วย Aspose.Words for Python อย่างละเอียด
+
+### [วิธีแปลง docx เป็น pdf ด้วย Aspose.Words ใน Python](./how-to-convert-docx-to-pdf-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ DOCX ไปเป็น PDF อย่างง่ายดายด้วย Aspose.Words for Python
+
+### [วิธีส่งออก Markdown จากเอกสาร Word ด้วย Aspose.Words](./how-to-export-markdown-from-a-word-document-with-aspose-word/)
+เรียนรู้วิธีส่งออกไฟล์ Markdown จากเอกสาร Word ด้วย Aspose.Words for Python อย่างละเอียด
+
+### [บันทึกเอกสารเป็นภาพ: แปลง DOCX เป็น PNG ใน Python](./save-document-as-image-convert-docx-to-png-in-python/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็นภาพ PNG ด้วย Aspose.Words for Python อย่างง่ายดาย
+
+### [วิธีบันทึก Word เป็น Markdown พร้อมการสนับสนุนตารางโดยใช้ Aspose.Words](./how-to-save-word-as-markdown-with-table-support-using-aspose/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการสนับสนุนตารางโดยใช้ Aspose.Words
+
+### [วิธีแปลง Markdown เป็น DOCX ด้วย Aspose.Words ใน Python](./how-to-convert-markdown-to-docx-with-aspose-words-in-python/)
+เรียนรู้วิธีแปลงไฟล์ Markdown ไปเป็น DOCX อย่างง่ายดายด้วย Aspose.Words for Python
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
