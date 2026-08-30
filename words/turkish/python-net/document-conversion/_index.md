@@ -40,6 +40,9 @@ Aspose.Words for Python kullanarak Word belgelerinden Markdown dosyalarına nas�
 ### [Bozuk DOCX Dosyasını Kurtarın ve Word'ü Markdown'a Dönüştür](./recover-corrupted-docx-convert-word-to-markdown/)
 Aspose.Words for Python kullanarak bozuk DOCX dosyalarını onarın ve Word belgelerini Markdown formatına dönüştürün.
 
+### [Word'den LaTeX Dışa Aktarma – DOCX'i Markdown'a Dönüştür](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Aspose.Words for Python kullanarak Word belgelerinden LaTeX'e nasıl dışa aktarılacağını ve DOCX'in Markdown'a dönüştürülmesini öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

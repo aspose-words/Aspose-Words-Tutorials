@@ -37,6 +37,9 @@
 ### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
 تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
 
+### [كيفية تعيين الظل في Aspose.Words – مثال Python](./how-to-set-shadow-in-aspose-words-python-example/)
+تعلم كيفية إضافة تأثير الظل إلى المستندات باستخدام Aspose.Words في Python.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)
