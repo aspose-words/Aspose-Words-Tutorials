@@ -37,6 +37,8 @@
 ### [Πώς να Προσθέσετε Σκιά σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-add-shadow-in-c-complete-programming-guide/)
 Μάθετε πώς να εφαρμόσετε σκιές σε αντικείμενα C# χρησιμοποιώντας Aspose.Words για βελτιωμένη εμφάνιση εγγράφων.
 
+### [Σχεδίαση ορθογωνίου σε PDF με Aspose.Words για Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

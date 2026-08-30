@@ -40,6 +40,15 @@
 ### [恢復損壞的 DOCX 並將 Word 轉換為 Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 學習使用 Aspose.Words for Python 復原損壞的 DOCX 並將 Word 轉換為 Markdown 的完整步驟。
 
+### [將 Word 儲存為 Markdown，匯出方程式為 LaTeX（Python）](./save-word-as-markdown-export-equations-to-latex-python/)
+使用 Aspose.Words for Python 將 Word 文件保存為 Markdown，並將方程式匯出為 LaTeX，完整步驟說明。
+
+### [使用 Aspose.Words 匯出 Word 方程式為 LaTeX – 步驟指南](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+使用 Aspose.Words 逐步將 Word 方程式匯出為 LaTeX 的完整指南。
+
+### [將 DOCX 匯出為 PDF – 產生可存取的 PDF](./export-docx-to-pdf-generate-accessible-pdf/)
+使用 Aspose.Words for Python 將 DOCX 匯出為可存取的 PDF。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -40,6 +40,15 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और वर्ड को मार्कडाउन में परिवर्तित करें](./recover-corrupted-docx-convert-word-to-markdown/)
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
+### [Word को Markdown के रूप में सहेजें, समीकरणों को LaTeX में निर्यात करें (Python)](./save-word-as-markdown-export-equations-to-latex-python/)
+Word दस्तावेज़ को Markdown में बदलें और समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के लिए पायथन कोड।
+
+### [Aspose.Words के साथ वर्ड समीकरणों को LaTeX में निर्यात करें – चरण‑दर‑चरण गाइड](./export-word-equations-latex-with-aspose-words-step-by-step-g/)
+Aspose.Words का उपयोग करके वर्ड दस्तावेज़ में मौजूद समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करने के चरण‑दर‑चरण निर्देश।
+
+### [DOCX को PDF में निर्यात करें – सुलभ PDF बनाएं](./export-docx-to-pdf-generate-accessible-pdf/)
+DOCX फ़ाइल को PDF में बदलें और सुलभ PDF उत्पन्न करने के लिए चरण‑दर‑चरण मार्गदर्शन।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -37,6 +37,9 @@ Aprenda a optimizar la gestión de imágenes en documentos RTF con Aspose.Words 
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Aprenda a optimizar la salida SVG con Aspose.Words para Python. Esta guía abarca funciones personalizadas como propiedades similares a imágenes, renderizado de texto y mejoras de seguridad.
 
+### [Dibujar rectángulo en PDF con Aspose.Words para Python](./draw-rectangle-in-pdf-with-aspose-words-for-python/)
+Aprenda a crear y dibujar rectángulos en documentos PDF usando Aspose.Words para Python.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Python-net](https://docs.aspose.com/words/python-net/)
