@@ -99,6 +99,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words for Java에서 문서 형식 판별](./determining-document-format/)
 ### [손상된 docx 복구 – 문서 복구 및 처리 완전 가이드](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Java에서 Aspose.Words로 글꼴 대체 경고 캡처 – 완전 가이드](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Big5용 LoadOptions 구성 – Aspose.Words와 함께하는 전체 Java 가이드](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
 
 ## 자주 묻는 질문
 

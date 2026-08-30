@@ -94,6 +94,8 @@ Aspose.Words for Java هي واجهة برمجة تطبيقات قوية ومت�
 تعلّم كيفية استنساخ ودمج المستندات في Aspose.Words لجافا. دليل خطوة بخطوة مع أمثلة على الكود المصدري.
 ### [مقارنة المستندات في Aspose.Words لـ Java](./comparing-documents/)
 تعرف على كيفية مقارنة المستندات في Aspose.Words for Java، وهي مكتبة Java قوية لتحليل المستندات بكفاءة. 
+### [إنشاء مستند Word في Java – دليل كامل مع Aspose.Words](./create-word-document-in-java-full-guide-with-aspose-words/)
+تعلم خطوة بخطوة كيفية إنشاء مستندات Word في Java باستخدام مكتبة Aspose.Words وإضافة النصوص والجداول والصور.
 ### [تنسيق المستندات في Aspose.Words لـ Java](./formatting-documents/)
 تعلّم فن تنسيق المستندات في Aspose.Words لجافا مع دليلنا الشامل. استكشف الميزات الفعّالة وحسّن مهاراتك في معالجة المستندات.
 ### [ربط المستندات وإضافتها في Aspose.Words لـ Java](./joining-and-appending-documents/)

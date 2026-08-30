@@ -65,8 +65,12 @@ Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Listen in Aspose.Words für
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words für Java zu verwenden. Erstellen, formatieren und speichern Sie mühelos Markdown-Dokumente.
 ### [Verwenden von Knoten in Aspose.Words für Java](./using-nodes/)
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für Java zu manipulieren. Entfesseln Sie die Leistung der Dokumentverarbeitung.
+### [Einfügen von Kreisdiagrammen in Java mit Aspose.Words – Vollständige Anleitung](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm erstellen und in Ihr Word-Dokument einfügen – Schritt für Schritt.
 ### [Verwenden von OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java](./using-ole-objects-and-activex/)
 Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!
+### [Setzen der Button-Größe in Java – ActiveX-Befehlsschaltfläche in Word einfügen](./set-button-size-java-insert-activex-command-button-in-word/)
+Erfahren Sie, wie Sie in Aspose.Words für Java die Größe eines ActiveX-Befehlsschaltfläche festlegen und in ein Word-Dokument einfügen.
 ### [Verwenden von Revisionen in Aspose.Words für Java](./using-revisions/)
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)

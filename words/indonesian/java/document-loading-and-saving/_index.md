@@ -129,6 +129,10 @@ Pelajari cara menyimpan dokumen sebagai file teks di Aspose.Words untuk Java. Ik
 
 ### [Menentukan Format Dokumen di Aspose.Words untuk Java](./determining-document-format/)
 Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
+
+### [Mengonfigurasi LoadOptions untuk Big5 – Panduan Java Lengkap dengan Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Panduan lengkap mengatur LoadOptions agar dapat memuat dokumen berbahasa Big5 menggunakan Aspose.Words untuk Java.
+
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
 

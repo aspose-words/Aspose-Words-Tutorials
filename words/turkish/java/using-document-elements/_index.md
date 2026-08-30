@@ -71,6 +71,10 @@ Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı ö
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
 Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı bir kılavuz. Kod örnekleriyle bölümleri ekleyin, silin, ekleyin, klonlayın.
+### [Java için Aspose.Words'de Düğme Boyutunu Ayarlama – Word'de ActiveX Komut Düğmesi Ekleme](./set-button-size-java-insert-activex-command-button-in-word/)
+Java ile Word belgelerinde ActiveX komut düğmesinin boyutunu ayarlamayı öğrenin.
+### [Java ile Aspose.Words'te Pasta Grafik Ekleme – Tam Kılavuz](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Java uygulamanıza Aspose.Words kullanarak dinamik pasta grafikleri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

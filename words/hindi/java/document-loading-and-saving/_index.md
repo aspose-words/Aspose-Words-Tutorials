@@ -91,7 +91,7 @@ Aspose.Words for Java में लोड विकल्पों को मा
 ### [Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करना](./configuring-rtf-load-options/)
 Aspose.Words for Java में RTF लोड विकल्पों को कॉन्फ़िगर करें। RTF दस्तावेज़ में UTF-8 टेक्स्ट को पहचानना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java के साथ टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
+### [Aspose.Words for Java की शक्ति के साथ टेक्स्ट फ़ाइलें लोड करना](./loading-text-files/)
 Aspose.Words for Java की शक्ति को अनलॉक करें। टेक्स्ट दस्तावेज़ लोड करना, लिस्ट मैनेज करना, स्पेसेस हैंडल करना और टेक्स्ट डायरेक्शन कंट्रोल करना सीखें।
 
 ### [Aspose.Words for Java के साथ उन्नत सेविंग विकल्प](./advance-saving-options/)
@@ -131,11 +131,13 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
 ### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-
 Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
 
 ### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
+
+### [Big5 के लिए LoadOptions कॉन्फ़िगर करें – Aspose.Words के साथ पूर्ण जावा गाइड](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Aspose.Words for Java में Big5 एन्कोडिंग के लिए LoadOptions कैसे कॉन्फ़िगर करें, चरण‑दर‑चरण कोड उदाहरणों के साथ।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

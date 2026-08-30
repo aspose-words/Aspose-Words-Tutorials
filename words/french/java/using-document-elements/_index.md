@@ -71,13 +71,15 @@ Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words 
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
+### [Définir la taille du bouton Java – Insérer un bouton de commande ActiveX dans Word](./set-button-size-java-insert-activex-command-button-in-word/)
+Apprenez à définir la taille d'un bouton ActiveX dans un document Word en utilisant Aspose.Words pour Java.
+### [Insérer un diagramme circulaire en Java avec Aspose.Words – Guide complet](./insert-pie-chart-in-java-with-aspose-words-full-guide/)
+Apprenez à créer et insérer un diagramme circulaire dans vos documents Word en Java avec Aspose.Words, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

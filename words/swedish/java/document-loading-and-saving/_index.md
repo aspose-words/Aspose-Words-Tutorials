@@ -88,6 +88,9 @@ Lär dig hur du laddar och sparar HTML-dokument i Java med Aspose.Words för Jav
 ### [Arbeta med laddningsalternativ i Aspose.Words för Java](./using-load-options/)
 Behärska laddningsalternativ i Aspose.Words för Java. Anpassa dokumentladdning, hantera kryptering, konvertera former, ange Word‑versioner och mer för effektiv Java‑dokumentbehandling.
 
+### [Konfigurera LoadOptions för Big5 – Fullständig Java‑guide med Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
+Lär dig hur du konfigurerar LoadOptions för Big5‑kodning i Java med Aspose.Words. Komplett steg‑för‑steg‑guide.
+
 ### [Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java](./configuring-rtf-load-options/)
 Konfigurera RTF‑laddningsalternativ i Aspose.Words för Java. Lär dig hur du känner igen UTF‑8‑text i RTF‑dokument. Steg‑för‑steg‑guide med kodexempel.
 

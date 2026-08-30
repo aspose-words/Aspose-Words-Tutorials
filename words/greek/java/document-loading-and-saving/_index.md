@@ -103,6 +103,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Καθορισμός Μορφής Εγγράφου στο Aspose.Words for Java](./determining-document-format/)
 ### [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός για Διόρθωση και Επεξεργασία Εγγράφων](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Διαμόρφωση LoadOptions για Big5 – Πλήρης Οδηγός Java με Aspose.Words](./configure-loadoptions-for-big5-full-java-guide-with-aspose-w/)
 
 ## Συχνές Ερωτήσεις
 
