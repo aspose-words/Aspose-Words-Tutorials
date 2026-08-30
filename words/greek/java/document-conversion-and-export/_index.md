@@ -100,8 +100,23 @@ weight: 22
 ### [Aspose.Words σε PDF – Μετατροπή DOCX σε PDF με Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words for Java με λίγες γραμμές κώδικα.
 
+### [docx σε pdf tutorial: Μετατροπή αρχείων Word με Aspose σε Java](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+Απλή διαδικασία μετατροπής αρχείων Word σε PDF με το Aspose.Words for Java.
+
+### [Μετατροπή DOCX σε PDF με Aspose.Words – Πλήρης Οδηγός](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+Μάθετε βήμα‑βήμα πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words for Java.
+
 ### [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός](./create-accessible-pdf-from-docx-complete-guide/)
 Δημιουργήστε PDF προσβάσιμο από DOCX με πλήρη οδηγίες, εξασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας.
+
+### [Μετατροπή docx σε markdown με ενσωματωμένες εικόνες – Οδηγός Java](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+Μάθετε πώς να μετατρέψετε DOCX σε Markdown με ενσωματωμένες εικόνες χρησιμοποιώντας το Aspose.Words for Java.
+
+### [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός για Εξαγωγή Word σε PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφα Word, διασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας.
+
+### [Convert DOCX to PNG – Complete Java Guide with Grid Layout](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PNG χρησιμοποιώντας Aspose.Words for Java με διάταξη πλέγματος για πολλαπλές σελίδες.
 
 ## Συχνές Ερωτήσεις
 

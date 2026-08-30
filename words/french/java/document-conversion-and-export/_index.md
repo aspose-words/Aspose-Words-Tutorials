@@ -72,7 +72,7 @@ Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words 
 Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
 
 ### [Utilisation de la génération de codes-barres dans Aspose.Words pour Java](./using-barcode-generation/)
-Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words pour Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
+Apprenez à générer des codes‑barres personnalisés en Java avec Aspose.Words pour Java. Guide étape par étape avec code source pour la génération de codes‑barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
 
 ### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
 Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
@@ -92,17 +92,32 @@ Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words po
 ### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
 
+### [Convertir docx en markdown avec images intégrées – Guide Java](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown tout en intégrant les images, grâce à un guide complet pour Java avec Aspose.Words.
+
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
 ### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
 
+### [Convertir DOCX en PDF avec Aspose.Words – Guide complet](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+Apprenez à convertir des fichiers DOCX en PDF avec Aspose.Words pour Java grâce à un guide complet, incluant le code source et les meilleures pratiques.
+
+### [Tutoriel docx vers pdf : Convertir des fichiers Word avec Aspose en Java](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+Apprenez à convertir des documents DOCX en PDF en Java avec Aspose.Words en quelques lignes de code.
+
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
 
+### [Créer un PDF accessible à partir de Word – Guide complet pour exporter Word en PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+Apprenez à générer des PDF accessibles depuis des documents Word en respectant les normes d'accessibilité.
+
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
-Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
+Apprenez à extraire et intégrer les images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
+
+### [Convertir DOCX en PNG – Guide complet Java avec mise en page en grille](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+Apprenez à convertir des fichiers DOCX en images PNG en Java, en utilisant une mise en page en grille pour un rendu précis.
 
 ## Questions fréquentes
 

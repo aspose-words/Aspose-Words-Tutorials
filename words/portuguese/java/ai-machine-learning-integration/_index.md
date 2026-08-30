@@ -44,7 +44,7 @@ O processamento de documentos com IA combina a manipulação tradicional de docu
 
 ### Etapa 1: Configurar seu projeto
 Adicione a dependência Maven do Aspose.Words e o cliente HTTP que você usará para chamar o serviço de IA.  
-*(O trecho Maven real é fornecido no tutorial vinculado; mantenha‑o inalterado.)*
+*(O trecho Maven real é fornecido no tutorial vinculado; mantenha‑lo inalterado.)*
 
 ### Etapa 2: Chamar o serviço de IA
 Use seu cliente HTTP preferido para enviar o texto do documento ao modelo de IA e receber uma resposta—seja um resumo, tradução ou conteúdo gerado.
@@ -68,6 +68,12 @@ Exporte o documento enriquecido para o formato que você precisar—PDF, DOCX, H
 ### [Domine o Processamento de Texto em Java&#58; Usando Aspose.Words & Modelos de IA para Resumir e Traduzir](./java-aspose-words-text-processing/)
 Aprenda como automatizar a sumarização e tradução de texto usando Aspose.Words para Java com GPT‑4 da OpenAI e Gemini da Google. Melhore suas aplicações Java hoje.
 
+### [Como Verificar Gramática em Documentos Java – Guia Completo de Programação](./how-to-check-grammar-in-java-documents-complete-programming/)
+Aprenda a usar Aspose.Words para Java e APIs de IA para detectar e corrigir erros gramaticais em documentos automaticamente.
+
+### [Resumir Documento Word em Java com IA Auto‑Hospedada – Guia Completo](./summarize-word-document-in-java-with-self-hosted-ai-full-gui/)
+Aprenda a usar IA auto‑hospedada para gerar resumos de documentos Word em Java, integrando Aspose.Words e modelos locais.
+
 ## Recursos Adicionais
 
 - [Documentação do Aspose.Words para Java](https://reference.aspose.com/words/java/)
@@ -80,7 +86,7 @@ Aprenda como automatizar a sumarização e tradução de texto usando Aspose.Wor
 ## Perguntas Frequentes
 
 **Q: Posso usar IA para traduzir um documento PDF sem convertê‑lo primeiro?**  
-A: Sim. Extraia o texto do PDF com Aspose.Words, envie‑o para um modelo de tradução de IA e, em seguida, reconstrua o PDF com o texto traduzido.
+A: Sim. Extraia o texto do PDF com Aspose.Words, envie‑lo para um modelo de tradução de IA e, em seguida, reconstrua o PDF com o texto traduzido.
 
 **Q: Como a automação de documentos com IA afeta o desempenho?**  
 A: O processamento pesado é realizado pelo serviço externo de IA; Aspose.Words lida apenas com a manipulação do documento, que é altamente performática mesmo para arquivos grandes.

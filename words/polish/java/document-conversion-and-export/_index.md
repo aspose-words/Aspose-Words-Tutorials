@@ -93,14 +93,29 @@ Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania m
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
 
+### [Konwertuj docx do markdown z osadzonymi obrazami – przewodnik Java](./convert-docx-to-markdown-with-embedded-images-java-guide/)
+Dowiedz się, jak konwertować pliki DOCX do formatu Markdown z zachowaniem osadzonych obrazów w Javie przy użyciu Aspose.Words.
+
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.
 
 ### [Aspose.Words do PDF – konwertuj DOCX do PDF w Javie](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy użyciu biblioteki Aspose.Words.
 
+### [Konwertuj docx do pdf przy użyciu Aspose.Words – Kompletny przewodnik](./convert-docx-to-pdf-with-aspose-words-complete-guide/)
+Dowiedz się, jak konwertować pliki DOCX do PDF przy użyciu Aspose.Words for Java, krok po kroku z przykładami kodu.
+
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
+
+### [Tworzenie dostępnego PDF z Word – kompletny przewodnik eksportu Word do PDF](./create-accessible-pdf-from-word-complete-guide-to-export-wor/)
+Dowiedz się, jak wygenerować PDF spełniający standardy dostępności bezpośrednio z dokumentu Word, zachowując strukturę i tagi.
+
+### [Konwertuj DOCX do PNG – Kompletny przewodnik Java z układem siatki](./convert-docx-to-png-complete-java-guide-with-grid-layout/)
+Dowiedz się, jak konwertować pliki DOCX do obrazów PNG w Javie, wykorzystując układ siatki dla precyzyjnego rozmieszczenia elementów.
+
+### [Samouczek docx do pdf: konwertuj pliki Word przy użyciu Aspose w Javie](./docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java/)
+Dowiedz się, jak konwertować pliki DOCX do PDF przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
 
 ## Najczęściej zadawane pytania
 

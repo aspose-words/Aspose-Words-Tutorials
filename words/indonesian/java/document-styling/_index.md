@@ -43,6 +43,8 @@ Pelajari cara menyesuaikan tema dokumen menggunakan Aspose.Words untuk Java. Pan
 Pelajari cara menerapkan tanda air dan mengatur konfigurasi halaman dengan Aspose.Words untuk Java. Panduan lengkap dengan kode sumber.
 ### [Penataan Header dan Footer Dokumen](./document-header-footer-styling/)
 Pelajari cara menata header dan footer dokumen menggunakan Aspose.Words untuk Java dalam panduan terperinci ini. Petunjuk langkah demi langkah dan kode sumber disertakan.
+### [Ubah Gaya Font di Dokumen Word – Panduan Lengkap C#](./change-font-style-in-word-documents-complete-c-guide/)
+Pelajari cara mengubah gaya font di dokumen Word dengan Aspose.Words untuk C#. Panduan lengkap dengan contoh kode sumber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
