@@ -66,6 +66,9 @@ Aspose.Words를 사용하면 새로운 `DocumentBuilder`를 생성하고 원하�
 ### [Java에서 텍스트 처리 마스터&#58; Aspose.Words 및 AI 모델을 사용한 요약 및 번역](./java-aspose-words-text-processing/)
 OpenAI의 GPT‑4와 Google Gemini를 활용하여 Aspose.Words for Java로 텍스트 요약 및 번역을 자동화하는 방법을 배웁니다. 오늘 바로 Java 애플리케이션을 강화하세요.
 
+### [자체 호스팅 LLM으로 Java에서 Word 문서 요약 – 전체 가이드](./summarize-word-document-in-java-with-self-hosted-llm-full-gu/)
+자체 호스팅 LLM을 사용해 Java에서 Word 문서를 자동으로 요약하는 방법을 단계별로 안내합니다.
+
 ## 추가 리소스
 
 - [Aspose.Words for Java 문서](https://reference.aspose.com/words/java/)
@@ -87,7 +90,7 @@ A: 무거운 작업은 외부 AI 서비스가 수행하고, Aspose.Words는 문�
 A: 종단 간 암호화와 데이터 프라이버시 보장을 제공하는 공급자를 선택하거나, 보안 환경 내에서 자체 호스팅 모델을 운영하세요.
 
 **Q: AI가 잘못된 마크업을 반환하면 어떻게 하나요?**  
-A: 삽입하기 전에 AI 출력물을하세요. Aspose.Words의 `DocumentBuilder` 메서드를 사용하면 자동으로 안전하지 않은 문자를 이스케이프합니다.
+A: 삽입하기 전에 AI 출력물을 검증하세요. Aspose.Words의 `DocumentBuilder` 메서드를 사용하면 자동으로 안전하지 않은 문자를 이스케이프합니다.
 
 **Q: 도메인 특화 언어를 위해 모델을 재학습해야 하나요?**  
 A: 대부분의 경우 사전 학습된 모델로 충분합니다. 더 높은 정확도가 필요하면 자체 코퍼스에 모델을 파인튜닝한 뒤 동일한 API로 호출하는 것을 고려하세요.

@@ -90,8 +90,14 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania matematyczne jako LaTeX przy użyciu biblioteki Aspose.Words dla Javy.
 
+### [Zapisz docx jako markdown – Kompletny przewodnik z równaniami LaTeX i rozdzielczością obrazów](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown, zachowując równania LaTeX i wysoką jakość obrazów.
+
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
+
+### [Konwertuj docx do markdown z obrazami – Kompletny przewodnik Java](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Dowiedz się, jak konwertować pliki DOCX do Markdown, zachowując obrazy, przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
 
 ### [Zapisz dokument jako TXT – szybki przewodnik po eksportowaniu równań Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Dowiedz się, jak wyeksportować dokumenty Word do formatu TXT, zachowując równania matematyczne przy użyciu Aspose.Words for Java.
@@ -101,6 +107,18 @@ Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy u
 
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
+
+### [Tworzenie dostępnego PDF z Word – Przewodnik konwersji Word do PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Dowiedz się, jak przekształcić dokument Word w dostępny PDF, spełniający standardy WCAG, przy użyciu Aspose.Words for Java.
+
+### [Eksportowanie pływających kształtów w linii – Kompletny przewodnik konwersji do PDF](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Dowiedz się, jak eksportować pływające kształty w linii podczas konwersji dokumentów do PDF przy użyciu Aspose.Words for Java.
+
+### [Jak ustawić rozdzielczość przy eksporcie PNG – Kompletny przewodnik Java](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Dowiedz się, jak ustawić rozdzielczość przy eksporcie PNG w Aspose.Words for Java, aby uzyskać obrazy wysokiej jakości.
+
+### [Konwertuj DOCX do PDF – Eksportuj Word do Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Dowiedz się, jak konwertować pliki DOCX do PDF oraz eksportować dokumenty Word do formatu Markdown przy użyciu Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

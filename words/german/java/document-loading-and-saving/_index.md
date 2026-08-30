@@ -130,11 +130,11 @@ Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speiche
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
 Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
 
-### [Beschädigtes docx wiederherstellen – Vollständiger Leitfaden zum Reparieren und Verarbeiten von Dokumenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
-Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend mit Aspose.Words für Java verarbeiten.
+### [Warnungs-Callback in Java registrieren – Fehlende Schriftarten einfach erkennen](./register-warning-callback-in-java-detect-missing-fonts-easil/)
+Erfahren Sie, wie Sie in Aspose.Words für Java einen Warnungs-Callback registrieren, um fehlende Schriftarten automatisch zu erkennen.
 
-### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
+### [Wiederherstellungsmodus in Aspose.Words für Java festlegen – Vollständiger Leitfaden](./set-recovery-mode-in-aspose-words-for-java-full-guide/)
+Lernen Sie, wie Sie den Wiederherstellungsmodus in Aspose.Words für Java aktivieren, um beschädigte Dokumente zu reparieren und zu verarbeiten.
 
 ## Häufig gestellte Fragen
 

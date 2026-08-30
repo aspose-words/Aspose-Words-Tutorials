@@ -37,6 +37,9 @@ Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerin
 ### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Java kullanarak Word belgesine gölge efektiyle dikdörtgen şekil eklemeyi öğrenin.
 
+### [Java ile Dikdörtgen Şekil Oluştur – Tam Adım Adım Kılavuz](./create-rectangle-shape-in-java-complete-step-by-step-guide/)
+Java ile Word belgesine dikdörtgen şekil eklemeyi eksiksiz adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

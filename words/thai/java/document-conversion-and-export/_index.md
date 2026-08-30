@@ -70,8 +70,14 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์เป็นรูปแบบ LaTeX ด้วย Aspose.Words
 
+### [บันทึก docx เป็น markdown – คู่มือฉบับสมบูรณ์พร้อมสมการ LaTeX และความละเอียดของภาพ](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น Markdown พร้อมสมการ LaTeX และการจัดการความละเอียดของภาพ
+
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
+
+### [แปลง docx เป็น markdown พร้อมรูปภาพ – คู่มือ Java ฉบับสมบูรณ์](./convert-docx-to-markdown-with-images-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมฝังรูปภาพโดยใช้ Aspose.Words for Java อย่างละเอียด
 
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
@@ -100,8 +106,20 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
+### [แปลง DOCX เป็น PDF – ส่งออก Word เป็น Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF และส่งออกเป็น Markdown ด้วย Aspose.Words for Java
+
+### [ส่งออกรูปร่างลอย Inline – คู่มือฉบับสมบูรณ์สำหรับการแปลงเป็น PDF](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+เรียนรู้วิธีส่งรูปร่างลอยในเอกสารให้แสดงเป็นอินไลน์ขณะแปลงเป็น PDF ด้วย Aspose.Words for Java
+
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือแปลง Word เป็น PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+เรียนรู้วิธีแปลงไฟล์ Word เป็น PDF ที่รองรับการเข้าถึงสำหรับทุกผู้ใช้ด้วย Aspose.Words
+
+### [วิธีตั้งความละเอียดสำหรับการส่งออก PNG – คู่มือ Java ฉบับสมบูรณ์](./how-to-set-resolution-for-png-export-complete-java-guide/)
+เรียนรู้วิธีตั้งค่าความละเอียดเมื่อส่งออกเป็น PNG ด้วย Aspose.Words for Java
 
 ## คำถามที่พบบ่อย
 

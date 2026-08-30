@@ -72,7 +72,7 @@ Pour plus d’informations, consultez la [Documentation de l’API Aspose.Words 
 Générez des étiquettes de codes-barres personnalisées avec Aspose.Words pour Java. Découvrez comment créer des solutions de codes-barres personnalisées avec Aspose.Words pour Java grâce à ce guide étape par étape.
 
 ### [Utilisation de la génération de codes-barres dans Aspose.Words pour Java](./using-barcode-generation/)
-Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words pour Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
+Apprenez à générer des codes-barres personnalisés en Java avec Aspose.Words for Java. Guide étape par étape avec code source pour la génération de codes-barres. Optimisez l'automatisation de vos documents avec Aspose.Words.
 
 ### [Utilisation des graphiques dans Aspose.Words pour Java](./using-charts/)
 Apprenez à créer et personnaliser des graphiques dans Aspose.Words pour Java. Explorez les types de graphiques, le formatage et les propriétés des axes pour la visualisation des données.
@@ -83,8 +83,14 @@ Exploitez la puissance des équations mathématiques dans vos documents avec Asp
 ### [Utilisation des formes de document dans Aspose.Words pour Java](./using-document-shapes/)
 Exploitez la puissance des formes de documents dans Aspose.Words pour Java. Apprenez à créer des documents visuellement attrayants grâce à des exemples détaillés.
 
+### [Exporter les formes flottantes en ligne – Guide complet de conversion PDF](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Apprenez à exporter les formes flottantes en ligne lors de la conversion PDF avec Aspose.Words for Java, étape par étape.
+
 ### [Utilisation de filigranes pour les documents dans Aspose.Words pour Java](./using-watermarks-to-documents/)
-Apprenez à ajouter des filigranes à vos documents dans Aspose.Words pour Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
+Apprenez à ajouter des filigranes à vos documents dans Aspose.Words for Java. Personnalisez vos filigranes de texte et d'image pour des documents d'aspect professionnel.
+
+### [Comment définir la résolution pour l'export PNG – Guide complet Java](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Apprenez à configurer la résolution d'exportation PNG avec Aspose.Words for Java pour obtenir des images de haute qualité.
 
 ### [Formatage et styles de tableaux dans Aspose.Words pour Java](./formatting-tables-and-table-styles/)
 Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words pour Java. Explorez des guides étape par étape avec code source pour une mise en forme efficace des tableaux. Améliorez la mise en page de vos documents avec Aspose.Words.
@@ -92,14 +98,26 @@ Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words po
 ### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
 
+### [Enregistrer le docx en markdown – Guide complet avec équations LaTeX et résolution d’image](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Apprenez à convertir des fichiers DOCX en Markdown tout en conservant les équations LaTeX et en contrôlant la résolution des images.
+
+### [Convertir docx en markdown avec images – Guide complet Java](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown tout en conservant les images intégrées, grâce à un guide complet Java pas à pas.
+
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
 ### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
 
+### [Convertir DOCX en PDF – Exporter Word vers Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Convertissez un DOCX en PDF puis exportez le contenu Word au format Markdown en Java.
+
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
+
+### [Créer un PDF accessible à partir de Word – Guide de conversion Word en PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Apprenez à générer des PDF accessibles depuis des documents Word en respectant les normes d’accessibilité.
 
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.

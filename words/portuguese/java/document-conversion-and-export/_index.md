@@ -95,6 +95,12 @@ Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java
 ### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
 
+### [Salvar docx como markdown – Guia completo com equações LaTeX e resolução de imagens](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Aprenda a converter arquivos DOCX em Markdown preservando equações LaTeX e controlando a resolução das imagens com Aspose.Words.
+
+### [Converter docx para markdown com imagens – Guia completo Java](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Aprenda a converter arquivos DOCX em Markdown preservando imagens, usando Aspose.Words for Java em um guia passo a passo completo.
+
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
 
@@ -103,6 +109,18 @@ Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspo
 
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Criar PDF Acessível a partir do Word – Guia de Conversão de Word para PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Exportar Formas Flutuantes Inline – Guia Completo de Conversão para PDF](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Aprenda a exportar formas flutuantes como objetos inline ao converter documentos para PDF usando Aspose.Words for Java.
+
+### [Como Definir Resolução para Exportação PNG – Guia Completo em Java](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Aprenda a definir a resolução ao exportar documentos como PNG usando Aspose.Words for Java, com exemplos de código passo a passo.
+
+### [Converter DOCX para PDF – Exportar Word para Markdown (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Aprenda a converter arquivos DOCX em PDF e exportar conteúdo Word para Markdown usando Aspose.Words for Java.
 
 ## Perguntas Frequentes
 

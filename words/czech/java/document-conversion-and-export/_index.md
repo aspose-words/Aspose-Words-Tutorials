@@ -88,6 +88,9 @@ Odemkněte sílu matematických rovnic v dokumentech s Aspose.Words for Java. Na
 ### [Použití tvarů dokumentu v Aspose.Words for Java](./using-document-shapes/)
 Odemkněte sílu tvarů dokumentu v Aspose.Words for Java. Naučte se vytvářet vizuálně poutavé dokumenty s krok‑za‑krokem příklady.
 
+### [Export plovoucích tvarů inline – Kompletní průvodce konverzí do PDF](./export-floating-shapes-inline-complete-guide-to-pdf-conversi/)
+Naučte se, jak exportovat plovoucí tvary jako vložené objekty při konverzi dokumentu do PDF pomocí Aspose.Words for Java.
+
 ### [Použití vodoznaků v dokumentech v Aspose.Words for Java](./using-watermarks-to-documents/)
 Naučte se přidávat vodoznaky do dokumentů v Aspose.Words for Java. Přizpůsobte textové a obrázkové vodoznaky pro profesionálně vypadající dokumenty.
 
@@ -103,11 +106,26 @@ Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematic
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
 
+### [Převod DOCX na PDF – Export Word do Markdownu (Java)](./convert-docx-to-pdf-export-word-to-markdown-java/)
+Naučte se převést soubory DOCX do PDF a exportovat obsah Wordu do formátu Markdown pomocí Aspose.Words pro Javu.
+
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Vytvořit přístupný PDF z Wordu – Průvodce převodem Word do PDF](./create-accessible-pdf-from-word-convert-word-to-pdf-guide/)
+Naučte se, jak pomocí Aspose.Words vytvořit PDF s přístupností z dokumentu Word, včetně nastavení značek a splnění WCAG.
+
+### [Uložit DOCX jako Markdown – Kompletní průvodce s rovnicemi LaTeX a rozlišením obrázků](./save-docx-as-markdown-complete-guide-with-latex-equations-im/)
+Naučte se převést DOCX do Markdown, zachovat LaTeX rovnice a nastavit rozlišení obrázků.
+
+### [Převod DOCX na Markdown s obrázky – Kompletní průvodce pro Javu](./convert-docx-to-markdown-with-images-complete-java-guide/)
+Naučte se převést soubory DOCX na Markdown včetně vložených obrázků pomocí Aspose.Words for Java v tomto kompletním průvodci.
+
+### [Jak nastavit rozlišení pro export PNG – Kompletní průvodce pro Javu](./how-to-set-resolution-for-png-export-complete-java-guide/)
+Naučte se nastavit rozlišení při exportu PNG pomocí Aspose.Words for Java v podrobném průvodci.
 
 ## Často kladené otázky
 
