@@ -97,8 +97,17 @@ Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
 
+### [Uložit docx jako markdown – krok‑za‑krokem průvodce pro Javu](./save-docx-as-markdown-step-by-step-java-guide/)
+Naučte se, jak převést soubor DOCX na Markdown pomocí Aspose.Words for Java v několika krocích.
+
+### [Uložit docx jako markdown v Javě – Kompletní průvodce krok za krokem](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Naučte se, jak převést DOCX na Markdown v Javě pomocí Aspose.Words, podrobný návod s ukázkovým kódem.
+
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
+
+### [Jak uložit DOCX jako TXT – Kompletní průvodce](./how-to-save-docx-as-txt-complete-guide/)
+Naučte se, jak kompletně převést soubory DOCX do formátu TXT pomocí Aspose.Words for Java.
 
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
@@ -108,6 +117,12 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Vytvořit přístupný PDF z DOCX pomocí Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Naučte se převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG pomocí Aspose.Words.
+
+### [Vytvořit přístupný PDF – krok‑za‑krokem průvodce převodem Wordu do PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Naučte se, jak pomocí Aspose.Words for Java vytvořit přístupný PDF z dokumentu Word s podporou WCAG.
 
 ## Často kladené otázky
 

@@ -125,11 +125,17 @@ Learn how to save documents as RTF format using Aspose.Words for Java. Step-by-s
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
 Learn how to save documents as text files in Aspose.Words for Java. Follow our step-by-step guide with Java code examples.
 
+### [Save Word Document – Set Font Settings, Handle Missing Fonts](./save-word-document-set-font-settings-handle-missing-fonts/)
+Learn how to set font settings and handle missing fonts when saving Word documents using Aspose.Words for Java.
+
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
 
 ### [Recover corrupted docx – Complete Guide to Fix and Process Documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
+
+### [How to Recover DOCX Files – Step‑by‑Step Java Guide](./how-to-recover-docx-files-step-by-step-java-guide/)
+Learn how to repair corrupted DOCX files using Aspose.Words for Java with a detailed step‑by‑step guide.
 
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.

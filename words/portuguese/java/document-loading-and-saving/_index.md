@@ -83,23 +83,44 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ## Tutoriais Relacionados – Carregar, Salvar e Converter
 
 ### [Carregando e Salvando Documentos HTML com Aspose.Words for Java](./loading-and-saving-html-documents/)
+
 ### [Trabalhando com Opções de Carregamento no Aspose.Words for Java](./using-load-options/)
+
 ### [Configurando Opções de Carregamento RTF no Aspose.Words for Java](./configuring-rtf-load-options/)
+
 ### [Carregando Arquivos de Texto com Aspose.Words for Java](./loading-text-files/)
+
 ### [Opções Avançadas de Salvamento com Aspose.Words for Java](./advance-saving-options/)
+
 ### [Salvando Documentos HTML com Layout Fixo no Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
+
 ### [Opções Avançadas de Salvamento de Documentos HTML com Aspose.Words Java](./advance-html-documents-saving-options/)
+
 ### [Salvando Imagens de Documentos no Aspose.Words for Java](./saving-images-from-documents/)
+
 ### [Salvando Documentos como Markdown no Aspose.Words for Java](./saving-documents-as-markdown/)
+
 ### [Salvando Documentos no Formato ODT no Aspose.Words for Java](./saving-documents-as-odt-format/)
+
 ### [Salvando Documentos no Formato OOXML no Aspose.Words for Java](./saving-documents-as-ooxml-format/)
+
 ### [Salvando Documentos no Formato PCL no Aspose.Words for Java](./saving-documents-as-pcl-format/)
+
 ### [Salvando Documentos como PDF no Aspose.Words for Java](./saving-documents-as-pdf/)
+
 ### [Salvando Documentos no Formato RTF no Aspose.Words for Java](./saving-documents-as-rtf-format/)
+
 ### [Salvando Documentos como Arquivos de Texto no Aspose.Words for Java](./saving-documents-as-text-files/)
+
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
+
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Como Recuperar Arquivos DOCX – Guia Java Passo a Passo](./how-to-recover-docx-files-step-by-step-java-guide/)
+
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Salvar Documento Word – Definir Configurações de Fonte, Tratar Fontes Ausentes](./save-word-document-set-font-settings-handle-missing-fonts/)
 
 ## Perguntas Frequentes
 

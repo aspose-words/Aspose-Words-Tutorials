@@ -132,8 +132,14 @@ Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifik
 
 ### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Jak obnovit soubory DOCX – krok‑za‑krokem průvodce v Javě](./how-to-recover-docx-files-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.Words for Java opravit poškozené soubory DOCX a obnovit jejich obsah krok po kroku.
+
 ### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
+
+### [Uložení Word dokumentu – Nastavení písma, řešení chybějících fontů](./save-word-document-set-font-settings-handle-missing-fonts/)
+Naučte se, jak nastavit písmo při ukládání Word dokumentu a jak zacházet s chybějícími fonty pomocí Aspose.Words for Java.
 
 ## Často kladené otázky
 

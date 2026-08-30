@@ -132,8 +132,13 @@ Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğin
 
 ### [Bozuk docx dosyasını kurtarma – Belgeleri Düzeltme ve İşleme Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [DOCX Dosyalarını Kurtarma – Adım Adım Java Rehberi](./how-to-recover-docx-files-step-by-step-java-guide/)
+Java’da Aspose.Words for Java kullanarak bozuk DOCX dosyalarını nasıl onaracağınızı adım adım öğrenin.
+
 ### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve işleyebileceğinizi öğrenin.
+
+### [Word Belgesini Kaydet – Yazı Tipi Ayarlarını Belirle, Eksik Yazı Tiplerini Yönet](./save-word-document-set-font-settings-handle-missing-fonts/)
+Java’da Aspose.Words ile belgeyi kaydederken yazı tipi ayarlarını yapılandırın ve eksik yazı tiplerini otomatik olarak yönetin.
 
 ## Sıkça Sorulan Sorular
 

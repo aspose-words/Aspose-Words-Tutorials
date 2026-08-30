@@ -92,8 +92,14 @@ Aspose.Words for Java’da tabloları biçimlendirmeyi ve tablo stilleri uygulam
 ### [Aspose.Words for Java'da docx'i markdown'a dönüştürme – Matematik denklemlerini LaTeX'e dışa aktarma](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words kullanarak docx dosyasını markdown’a dönüştürün ve matematik denklemlerini LaTeX formatına dışa aktarın.
 
+### [DOCX'i markdown olarak kaydet – Adım‑adım Java Rehberi](./save-docx-as-markdown-step-by-step-java-guide/)
+Aspose.Words for Java kullanarak DOCX dosyasını markdown formatına dönüştürmeyi adım adım öğrenin.
+
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.
+
+### [DOCX'i TXT Olarak Kaydet – Tam Kılavuz](./how-to-save-docx-as-txt-complete-guide/)
+Aspose.Words for Java kullanarak DOCX dosyasını TXT formatına dönüştürmeyi adım adım öğrenin.
 
 ### [Aspose Word to PDF – Java’da DOCX'i PDF'e Dönüştürme](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekilde PDF formatına dönüştürün.
@@ -101,8 +107,20 @@ Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekil
 ### [DOCX'ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişilebilirlik özelliklerini ayarlamayı adım adım öğrenin.
 
+### [Aspose Words kullanarak DOCX'ten Erişilebilir PDF Oluşturma](./create-accessible-pdf-from-docx-using-aspose-words/)
+Aspose.Words for Java kullanarak DOCX dosyasını tam erişilebilir PDF'e dönüştürmek, etiket eklemek ve erişilebilirlik ayarlarını yapılandırmak için adım adım rehber.
+
+### [Erişilebilir PDF Oluşturma – Word'ten PDF'e Dönüştürme Adım‑Adım Kılavuzu](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Aspose.Words for Java kullanarak Word belgelerini tam erişilebilir PDF'e dönüştürmeyi adım adım öğrenin.
+
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
+
+### [DOCX'i Markdown'a Dönüştürürken Görüntüleri CDN'ye Yükleme – Tam Java Rehberi](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+DOCX'ten Markdown'a dönüşüm sırasında resimleri CDN'ye otomatik olarak yükleyip bağlantılarını eklemeyi adım adım öğrenin.
+
+### [Java ile docx'i markdown olarak kaydet – Tam Adım‑Adım Kılavuz](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Java kullanarak DOCX dosyasını markdown formatına dönüştürmeyi adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

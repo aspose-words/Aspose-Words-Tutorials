@@ -94,14 +94,32 @@ Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose
 ### [Chuyển đổi docx sang markdown – Xuất công thức toán sang LaTeX với Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Chuyển đổi tài liệu DOCX sang Markdown và xuất các công thức toán học dưới dạng LaTeX bằng Aspose.Words.
 
+### [Lưu docx dưới dạng markdown – Hướng dẫn Java từng bước](./save-docx-as-markdown-step-by-step-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
+
+### [Lưu docx dưới dạng markdown với Java – Hướng dẫn chi tiết từng bước](./save-docx-as-markdown-with-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách chuyển đổi tài liệu DOCX sang Markdown bằng Java, bao gồm các tùy chọn và ví dụ mã nguồn.
+
 ### [Lưu Tài Liệu dưới dạng TXT – Hướng Dẫn Nhanh về Xuất Công Thức Toán Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công thức toán học một cách nhanh chóng.
+
+### [Cách Lưu DOCX dưới dạng TXT – Hướng Dẫn Toàn Diện](./how-to-save-docx-as-txt-complete-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu DOCX thành tệp TXT bằng Aspose.Words for Java, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ### [Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình chuyển đổi từ DOCX, bao gồm các tùy chọn và ví dụ mã nguồn.
 
-### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
+### [Tải Ảnh lên CDN Khi Chuyển Đổi DOCX sang Markdown – Hướng Dẫn Java Đầy Đủ](./upload-images-to-cdn-while-converting-docx-to-markdown-full/)
+Hướng dẫn chi tiết cách tải ảnh lên CDN trong quá trình chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words cho Java.
+
+### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
+
+### [Tạo PDF Truy cập được từ DOCX bằng Aspose Words](./create-accessible-pdf-from-docx-using-aspose-words/)
+Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu DOCX bằng Aspose.Words cho Java.
+
+### [Tạo PDF Truy cập được – Hướng Dẫn Từng Bước Chuyển Word sang PDF](./create-accessible-pdf-step-by-step-guide-to-convert-word-to/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF đáp ứng tiêu chuẩn truy cập WCAG, bao gồm các tùy chọn và ví dụ mã nguồn.
 
 ## Câu hỏi thường gặp
 
