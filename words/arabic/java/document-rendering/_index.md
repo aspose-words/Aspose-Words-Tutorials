@@ -39,6 +39,8 @@
 اكتشف طباعة وعرض المستندات بكفاءة باستخدام Aspose.Words لجافا. تعلّم خطوة بخطوة مع أمثلة على أكواد المصدر.
 ### [تحويل المستندات إلى HTML](./rendering-documents-html/)
 تعلّم كيفية تحويل المستندات إلى HTML بسهولة باستخدام Aspose.Words لجافا. دليل خطوة بخطوة لتحويل المستندات بكفاءة.
+### [تسجيل رد نداء التحذير في جافا – دليل برمجة كامل](./register-warning-callback-in-java-complete-programming-guide/)
+تعلم كيفية تسجيل رد نداء التحذير في Aspose.Words لجافا لمعالجة التحذيرات أثناء التحويل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

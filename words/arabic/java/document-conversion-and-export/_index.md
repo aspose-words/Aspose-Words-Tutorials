@@ -98,17 +98,35 @@ weight: 22
 ### [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
 
+### [تحويل DOCX إلى Markdown – دليل شامل مع تصدير المعادلات الرياضية](./convert-docx-to-markdown-complete-guide-with-math/)
+دليل شامل لتحويل ملفات DOCX إلى Markdown مع تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
+
+### [تحويل docx إلى markdown – دليل شامل لجافا](./convert-docx-to-markdown-complete-java-guide/)
+دليل شامل خطوة بخطوة لتحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java.
+
+### [حفظ docx كـ markdown: تحويل docx إلى markdown باستخدام Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+تعلم كيفية حفظ مستندات DOCX كملفات Markdown باستخدام Aspose.Words لجافا.
+
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
 
+### [تحويل docx إلى pdf في Java – دليل شامل خطوة بخطوة](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+دليل شامل يوضح كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل خطوة بخطوة](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+دليل خطوة بخطوة لإنشاء ملفات PDF ميسّرة من مستندات DOCX باستخدام Aspose.Words for Java.
+
+### [كيفية حفظ PNG من Word – دليل شامل خطوة بخطوة](./how-to-save-png-from-word-complete-step-by-step-guide/)
+تعلم كيفية استخراج وحفظ الصور بصيغة PNG من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

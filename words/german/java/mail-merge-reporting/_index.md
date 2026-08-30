@@ -41,6 +41,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Benennen Sie Word Merge-Felder mit Aspose.Words für Java um](./rename-word-merge-fields-aspose-words-java/)
 Ein Code-Tutorial für Aspose.Words Java
 
+### [Erstellen Sie eine Serienbriefvorlage und konvertieren Sie DOCX in PDF in C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# eine Mail-Merge-Vorlage erstellen und DOCX-Dateien in PDF konvertieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

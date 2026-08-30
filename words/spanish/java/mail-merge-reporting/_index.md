@@ -41,6 +41,9 @@ Un tutorial de código para Aspose.Words Java
 ### [Cambiar el nombre de los campos de combinación de palabras con Aspose.Words para Java](./rename-word-merge-fields-aspose-words-java/)
 Un tutorial de código para Aspose.Words Java
 
+### [Crear plantilla de combinación de correspondencia y convertir DOCX a PDF en C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Aprenda a crear una plantilla de combinación de correspondencia y convertir documentos DOCX a PDF usando Aspose.Words para C#.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)

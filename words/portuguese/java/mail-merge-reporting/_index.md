@@ -41,6 +41,9 @@ Um tutorial de código para Aspose.Words Java
 ### [Renomear campos de mesclagem de palavras com Aspose.Words para Java](./rename-word-merge-fields-aspose-words-java/)
 Um tutorial de código para Aspose.Words Java
 
+### [Criar modelo de mala direta e converter DOCX para PDF em C#](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Aprenda a criar um modelo de mala direta e converter documentos DOCX em PDF usando Aspose.Words para C#.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

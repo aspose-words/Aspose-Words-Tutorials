@@ -43,7 +43,7 @@ Ein Wasserzeichen ist ein schwaches Bild oder ein Text, der hinter dem Hauptinha
 - Eine gültige Aspose‑Lizenz für den Produktionseinsatz (kostenlose Testversion verfügbar).
 
 ## Erste Schritte mit Aspose.Words for Java
-Sind Sie neu bei Aspose.Words for Java? Keine Sorge! Dieses Tutorial führt Sie durch die Erstkonfiguration und bietet Ihnen eine solide Grundlage für die Arbeit mit dieser API. Sie sind im Handumdrehen einsatzbereit.
+Sind Sie neu bei Aspose.Words für Java? Keine Sorge! Dieses Tutorial führt Sie durch die Erstkonfiguration und bietet Ihnen eine solide Grundlage für die Arbeit mit dieser API. Sie sind im Handumdrehen einsatzbereit.
 
 ## Dokumente in verschiedene Formate konvertieren
 Eine der Hauptfunktionen von Aspose.Words for Java ist die Fähigkeit, **convert docx to pdf** und viele andere Formate nahtlos zu konvertieren. Egal, ob Sie eine DOCX‑Datei in PDF oder umgekehrt konvertieren müssen, dieses Tutorial führt Sie Schritt für Schritt durch den Prozess. Sie erhalten ein tiefes Verständnis der Konvertierungsoptionen und Anpassungsmöglichkeiten.
@@ -101,14 +101,31 @@ Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
+### [DOCX in Markdown konvertieren – Komplett‑Leitfaden mit Mathe‑Export](./convert-docx-to-markdown-complete-guide-with-math-export/)
+
+### [DOCX in Markdown konvertieren – Komplett‑Java‑Leitfaden](./convert-docx-to-markdown-complete-java-guide/)
+
+### [DOCX als Markdown speichern – DOCX in Markdown konvertieren mit Aspose.Words](./save-docx-as-markdown-convert-docx-to-markdown-using-aspose/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words in Markdown umwandeln und dabei Text, Bilder und Formate erhalten.
+
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
 Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
+
+### [Wie man PNG aus Word speichert – Komplett‑Schritt‑für‑Schritt‑Leitfaden](./how-to-save-png-from-word-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie PNG‑Bilder aus Word‑Dokumenten extrahieren und speichern, inkl. Code‑Beispielen und Optionen für Auflösung und Transparenz.
 
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
 
+### [DOCX in PDF konvertieren in Java – Komplett‑Anleitung Schritt für Schritt](./convert-docx-to-pdf-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java vollständig und fehlerfrei in PDF umwandeln – Schritt für Schritt.
+
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein PDF aus DOCX erstellen, das den PDF/UA‑Barrierefreiheitsstandards entspricht.
+
+### [Barrierefreies PDF aus DOCX erstellen – Komplett‑Schritt‑für‑Schritt‑Leitfaden](./create-accessible-pdf-from-docx-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein PDF aus DOCX erstellen, das den PDF/UA‑Barrierefreiheitsstandards entspricht.
 
 ## Häufig gestellte Fragen
 

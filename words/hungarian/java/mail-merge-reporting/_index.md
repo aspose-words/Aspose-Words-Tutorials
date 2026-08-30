@@ -41,6 +41,9 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Nevezd át a Word egyesítési mezőit az Aspose.Words for Java segítségével](./rename-word-merge-fields-aspose-words-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 
+### [Mail merge sablon létrehozása és DOCX PDF-re konvertálása C#-ban](./create-mail-merge-template-convert-docx-to-pdf-in-c/)
+Ismerje meg, hogyan hozhat létre mail merge sablont, és konvertálhatja a DOCX fájlokat PDF formátumba C# nyelven az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)
