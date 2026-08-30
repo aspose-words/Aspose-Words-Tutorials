@@ -30,6 +30,9 @@
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Aspose.Words Python-net 代码教程
 
+### [构建 CMake 项目：配置、构建与测试](./build-cmake-project-configure-build-test/)
+学习如何使用 CMake 完整配置、构建并运行测试。
+
 ## 其他资源
 
 - [Aspose.Words for Python-net 文档](https://docs.aspose.com/words/python-net/)

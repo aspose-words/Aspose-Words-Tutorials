@@ -27,8 +27,11 @@ Duik in de wereld van documentautomatisering met onze speciaal samengestelde cat
 ### [Handleiding voor gelicentieerde licenties voor Aspose.Words in Python: efficiënte documentgebruikregistratie](./aspose-words-python-metered-licensing-guide/)
 Leer hoe u gemeten licenties implementeert met Aspose.Words voor Python om het documentgebruik binnen uw applicaties efficiënt te volgen en beheren.
 
-    ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
+### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Een codetutorial voor Aspose.Words Python-net
+
+### [CMake-project bouwen: configureren, bouwen en testen](./build-cmake-project-configure-build-test/)
+Leer hoe u een CMake-project configureert, bouwt en test met Aspose.Words voor Python-net.
 
 ## Aanvullende bronnen
 

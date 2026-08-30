@@ -30,6 +30,9 @@ Dowiedz się, jak wdrożyć licencjonowanie licznikowe za pomocą Aspose.Words f
     ### [Set Up Aspose.Words License in Python](./aspose-words-license-python-setup/)
 Samouczek dotyczący kodu dla Aspose.Words Python-net
 
+### [Zbuduj projekt CMake: konfiguracja, kompilacja i testowanie](./build-cmake-project-configure-build-test/)
+Dowiedz się, jak skonfigurować, zbudować i przetestować projekt CMake przy użyciu Aspose.Words dla Python-net.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)
