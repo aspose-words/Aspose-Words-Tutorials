@@ -60,6 +60,9 @@
     ### [Ανάκτηση Κατεστραμμένου DOCX – Άνοιγμα & Φόρτωση Εγγράφου Word](./recover-corrupted-docx-open-load-word-document/)
 Μάθετε πώς να ανοίξετε και να φορτώσετε έγγραφα Word DOCX που είναι κατεστραμμένα, αποκαθιστώντας τα δεδομένα τους.
 
+    ### [Ανάκτηση Κατεστραμμένου Εγγράφου Word με Aspose.Words – Πλήρης Οδηγός](./recover-corrupted-word-document-with-aspose-words-complete-g/)
+Μάθετε πώς να επαναφέρετε και να αποκαταστήσετε κατεστραμμένα έγγραφα Word χρησιμοποιώντας το Aspose.Words.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Python-net](https://docs.aspose.com/words/python-net/)

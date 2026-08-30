@@ -49,6 +49,8 @@ Leer hoe je Word-documenten efficiënt kunt bewerken met Aspose.Words voor Pytho
 Leer hoe u documenteigenschappen en metadata beheert met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
 ### [Documentfunctionaliteit uitbreiden met webextensies](./document-functionality-web-extensions/)
 Leer hoe u de functionaliteit van documenten kunt uitbreiden met webextensies met Aspose.Words voor Python. Stapsgewijze handleiding met broncode voor naadloze integratie.
+### [Aspose Font-waarschuwingshandler – Ontdek ontbrekende lettertypen en pas documentladen aan](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+Leer hoe u ontbrekende lettertypen detecteert en het laden van documenten aanpast met de Aspose Font Warning Handler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

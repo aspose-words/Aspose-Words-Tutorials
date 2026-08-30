@@ -49,6 +49,8 @@
 เรียนรู้วิธีจัดการคุณสมบัติเอกสารและข้อมูลเมตาโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับ
 ### [การขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บ](./document-functionality-web-extensions/)
 เรียนรู้วิธีขยายฟังก์ชันการทำงานของเอกสารด้วยส่วนขยายเว็บโดยใช้ Aspose.Words สำหรับ Python คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับเพื่อการบูรณาการที่ราบรื่น
+### [Aspose Font Warning Handler – ตรวจจับฟอนต์ที่หายไปและปรับแต่งการโหลดเอกสาร](./aspose-font-warning-handler-detect-missing-fonts-customize-d/)
+เรียนรู้วิธีจัดการคำเตือนฟอนต์ที่หายไปและปรับแต่งการโหลดเอกสารด้วย Aspose.Words ใน Python
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
