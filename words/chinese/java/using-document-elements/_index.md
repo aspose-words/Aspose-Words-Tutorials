@@ -71,6 +71,8 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Aspose.Words for Java 中爆炸饼图切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+学习如何在 Aspose.Words for Java 中将饼图切片突出显示，实现更具视觉冲击力的图表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

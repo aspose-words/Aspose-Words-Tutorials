@@ -104,6 +104,9 @@ Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant
 ### [Comment intégrer des images en Markdown lors de la conversion de DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Apprenez à extraire et intégrer des images lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words.
 
+### [Créer du markdown à partir de docx en Java – guide complet Aspose.Words](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown en Java avec Aspose.Words, incluant l’exportation des images et des équations.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

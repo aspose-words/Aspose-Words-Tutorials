@@ -39,6 +39,8 @@ Dowiedz się, jak skutecznie zarządzać uprawnieniami do dokumentów za pomocą
 Dowiedz się, jak szyfrować i odszyfrowywać dokumenty za pomocą Aspose.Words for Java. Zabezpieczaj swoje dane efektywnie dzięki wskazówkom krok po kroku i przykładom kodu źródłowego.
 ### [Podpisy cyfrowe w dokumentach](./digital-signatures-in-documents/)
 Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe w dokumentach za pomocą Aspose.Words for Java. Zapewnij integralność dokumentu dzięki wskazówkom krok po kroku i kodowi źródłowemu
+### [Jak podpisać plik docx w Javie – przewodnik krok po kroku](./how-to-sign-docx-in-java-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób dodać podpis cyfrowy do plików docx w Javie, korzystając z Aspose.Words.
 ### [Redakcja dokumentów i ochrona danych](./document-redaction-data-protection/)
 Dowiedz się, jak zabezpieczyć dokumenty i redagować poufne dane za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
 

@@ -38,6 +38,15 @@ Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word d
 ### [Create Word Document Java – Add Rectangle Shape with Shadow Effect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Learn how to add a rectangle shape with a shadow effect to a Word document using Aspose.Words for Java.
 
+### [Create blank Word document with grouped shapes in Java](./create-blank-word-document-with-grouped-shapes-in-java/)
+Learn how to create a blank Word document and add grouped shapes using Aspose.Words for Java.
+
+### [Aspose.Words ActiveX tutorial – insert a CommandButton with Java](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Learn how to insert a CommandButton into a Word document using Aspose.Words ActiveX with Java.
+
+### [Create word document java – hide shape and set fill color](./create-word-document-java-hide-shape-and-set-fill-color/)
+Learn how to hide a shape and set its fill color in a Word document using Aspose.Words for Java.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

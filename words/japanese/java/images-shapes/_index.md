@@ -37,6 +37,15 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 ### [JavaでWord文書を作成 – 影付き長方形シェイプを追加](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 JavaでWord文書に影効果付きの長方形シェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
 
+### [JavaでWord文書を作成 – シェイプを非表示にして塗りつぶし色を設定](./create-word-document-java-hide-shape-and-set-fill-color/)
+JavaでWord文書にシェイプを非表示にし、塗りつぶし色を設定する方法を学びます。
+
+### [Javaでグループ化シェイプを使用して空白のWord文書を作成](./create-blank-word-document-with-grouped-shapes-in-java/)
+Javaで複数のシェイプをグループ化し、空白のWord文書に挿入する方法を学びます。
+
+### [Aspose.Words ActiveX チュートリアル – JavaでCommandButtonを挿入する](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+JavaでActiveXのCommandButtonを文書に挿入する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

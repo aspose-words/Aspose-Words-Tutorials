@@ -58,6 +58,8 @@ Learn to use footnotes and endnotes effectively in Aspose.Words for Java. Enhanc
 Learn to use HarfBuzz for advanced text shaping in Aspose.Words for Java. Enhance text rendering in complex scripts with this step-by-step guide.
 ### [Using Headers and Footers in Aspose.Words for Java](./using-headers-and-footers/)
 Learn step-by-step how to use headers and footers in Aspose.Words for Java. Create professional documents effortlessly.
+### [How to explode pie slice in Java – Aspose.Words chart tutorial](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Learn how to explode a pie slice in Aspose.Words charts using Java in this step-by-step tutorial.
 ### [Using Hyphenation in Aspose.Words for Java](./using-hyphenation/)
 Learn how to use hyphenation effectively in Aspose.Words for Java with this comprehensive tutorial. Enhance document readability today!
 ### [Using Lists in Aspose.Words for Java](./using-lists/)

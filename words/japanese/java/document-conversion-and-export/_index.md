@@ -100,6 +100,9 @@ Aspose.Words for Java を使用して DOCX を Markdown に変換する際、画
 ### [ドキュメントをTXTとして保存 – Word数式エクスポートのクイックガイド](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java を使用して、Word 文書を TXT 形式で保存し、数式をエクスポートする方法をステップバイステップで解説します。
 
+### [Java で docx から markdown を作成 – 完全 Aspose.Words ガイド](./create-markdown-from-docx-in-java-full-aspose-words-guide/)
+Aspose.Words for Java を使用して、DOCX ファイルを Markdown に変換する手順をステップバイステップで解説します。
+
 ---
 
 **最終更新日:** 2025-12-10  

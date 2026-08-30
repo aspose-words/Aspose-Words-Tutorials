@@ -41,6 +41,8 @@ Leer hoe u documenten kunt versleutelen en ontsleutelen met Aspose.Words voor Ja
 Leer hoe u veilige digitale handtekeningen in documenten implementeert met Aspose.Words voor Java. Zorg voor de integriteit van uw documenten met stapsgewijze instructies en broncode.
 ### [Documentredactie en gegevensbescherming](./document-redaction-data-protection/)
 Leer hoe u uw documenten kunt beveiligen en gevoelige gegevens kunt redigeren met Aspose.Words voor Java. Stapsgewijze handleiding met broncode.
+### [Hoe u docx in Java ondertekent – stap‑voor‑stap gids](./how-to-sign-docx-in-java-step-by-step-guide/)
+Leer hoe u docx‑bestanden in Java kunt ondertekenen met Aspose.Words, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

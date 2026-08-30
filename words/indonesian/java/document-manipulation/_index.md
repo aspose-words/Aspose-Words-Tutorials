@@ -104,6 +104,8 @@ Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen 
 Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini.
 ### [Menggunakan Ekstensi Web di Aspose.Words untuk Java](./using-web-extensions/)
 Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
+### [Membuat Dokumen Word Kosong di Java dengan Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Pelajari cara membuat dokumen Word kosong menggunakan Aspose.Words untuk Java dalam beberapa langkah sederhana.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

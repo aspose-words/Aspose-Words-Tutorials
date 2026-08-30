@@ -37,6 +37,15 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 ### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
+### [Üres Word dokumentum létrehozása csoportosított alakzatokkal Java-ban](./create-blank-word-document-with-grouped-shapes-in-java/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot csoportosított alakzatokkal Java-ban az Aspose.Words segítségével.
+
+### [Aspose.Words ActiveX oktatóanyag – CommandButton beszúrása Java-val](./aspose-words-activex-tutorial-insert-a-commandbutton-with-ja/)
+Ismerje meg, hogyan szúrhat be CommandButton elemet ActiveX használatával Java-ban az Aspose.Words segítségével.
+
+### [Word dokumentum létrehozása Java – alakzat elrejtése és kitöltőszín beállítása](./create-word-document-java-hide-shape-and-set-fill-color/)
+Ismerje meg, hogyan rejthet el alakzatot és állíthat be kitöltőszínt a Word dokumentumban Java-val az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

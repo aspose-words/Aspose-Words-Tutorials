@@ -71,6 +71,8 @@ Aprenda a usar objetos OLE e controles ActiveX no Aspose.Words para Java. Crie d
 Aprenda a usar os controles de revisão do Aspose.Words para Java com eficiência. Guia passo a passo para desenvolvedores. Otimize seu gerenciamento de documentos.
 ### [Usando seções em Aspose.Words para Java](./using-sections/)
 Explore o Aspose.Words para Java: um guia completo sobre o uso de seções. Adicione, exclua, anexe e clone seções com exemplos de código.
+### [Como explodir uma fatia de pizza em Java – Tutorial de gráfico Aspose.Words](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aprenda a explodir fatias de pizza em gráficos de pizza usando Aspose.Words para Java. Guia passo a passo para melhorar visualizações.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

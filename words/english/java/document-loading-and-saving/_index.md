@@ -134,6 +134,9 @@ Learn how to repair corrupted DOCX files and process them using Aspose.Words for
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
 
+### [How to set options in Aspose.Words for Java – complete guide](./how-to-set-options-in-aspose-words-for-java-complete-guide/)
+Comprehensive guide on configuring load and save options in Aspose.Words for Java to control document processing behavior.
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  

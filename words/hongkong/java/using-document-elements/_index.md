@@ -71,6 +71,7 @@
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中爆炸餅圖切片](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

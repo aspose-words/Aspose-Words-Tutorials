@@ -105,6 +105,9 @@ Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dok
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
 Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
 
+### [Skapa tomt Word-dokument i Java med Aspose.Words](./create-blank-word-document-in-java-with-aspose-words/)
+Lär dig hur du snabbt skapar ett tomt Word-dokument i Java med Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

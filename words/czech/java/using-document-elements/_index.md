@@ -24,7 +24,7 @@ Než se ponoříme do tutoriálů, je nezbytné pochopit koncept prvků dokument
 
 ## Přístup k prvkům dokumentu a manipulace s nimi
 
-Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňují programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
+Jednou z klíčových dovedností, které si v těchto tutoriálech osvojíte, je schopnost přistupovat k prvkům dokumentů a manipulovat s nimi. Aspose.Words pro Javu nabízí bohatou sadu API, která vám umožňuje programově procházet, upravovat a extrahovat informace z vašich dokumentů. Ať už potřebujete najít a nahradit text, vložit tabulky nebo aktualizovat záhlaví a zápatí, tyto tutoriály vám pomohou.
 
 ## Vytváření dynamických dokumentů
 
@@ -71,6 +71,8 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Jak roztrhnout výseč koláče v Javě – tutoriál Aspose.Words graf](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a roztrhnout výseč koláčového grafu v dokumentu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

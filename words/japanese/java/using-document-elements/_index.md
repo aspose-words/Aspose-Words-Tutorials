@@ -71,6 +71,8 @@ Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使�
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [Java でパイスライスを爆発させる方法 – Aspose.Words チャート チュートリアル](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aspose.Words for Java のチャート機能を使って、円グラフのスライスを個別に飛び出させる方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ En conclusión, dominar la manipulación de elementos de documentos con Aspose.W
 Recuerda, la práctica hace al maestro, y con Aspose.Words para Java, crearás, modificarás y mejorarás documentos como un profesional en un abrir y cerrar de ojos. ¡Que disfrutes programando!
 
 ## Tutoriales sobre el uso de elementos de documento
+### [Cómo explotar una porción de pastel en Aspose.Words para Java](./how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial/)
+Aprenda a destacar una porción de gráfico circular en Aspose.Words para Java con este tutorial paso a paso.
 ### [Uso de comentarios en Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentarios en Aspose.Words para Java. Tutorial paso a paso para agregar y personalizar comentarios en sus documentos.
 ### [Uso de campos en Aspose.Words para Java](./using-fields/)
