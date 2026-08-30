@@ -34,6 +34,9 @@ Dengan menguasai pembuatan dokumen dengan Aspose.Words untuk Python, pengembang 
 ### [Panduan Lengkap: Membuat Dokumen Word Menggunakan Python](./creating-word-documents-using-python/)
 Buat dokumen Word yang dinamis menggunakan Python dengan Aspose.Words. Otomatiskan konten, pemformatan, dan banyak lagi. Sederhanakan pembuatan dokumen secara efisien.
 
+### [Buat Dokumen PDF/UA yang Mematuhi Standar dengan Aspose.Words Python – Panduan Lengkap](./create-pdfua-compliant-documents-with-aspose-words-python-fu/)
+Pelajari cara membuat dokumen PDF/UA yang sesuai standar menggunakan Aspose.Words untuk Python secara lengkap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

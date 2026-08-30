@@ -37,6 +37,14 @@
 Узнайте, как с помощью Aspose.Words для Python сохранять документы Word в формате Markdown.
 ### [Восстановление повреждённого DOCX и конвертация Word в Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Узнайте, как восстановить повреждённый DOCX и преобразовать Word в Markdown с помощью Aspose.Words для Python.
+### [Конвертация docx в markdown с Python — полное пошаговое руководство](./convert-docx-to-markdown-with-python-full-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words для Python конвертировать файлы docx в формат Markdown шаг за шагом.
+### [Конвертация docx в markdown — полное руководство Python с извлечением изображений](./convert-docx-to-markdown-complete-python-guide-with-image-ex/)
+Узнайте, как с помощью Aspose.Words для Python конвертировать файлы docx в Markdown и извлекать изображения.
+### [Как сохранить Word в PDF — полное руководство Aspose.Words](./how-to-save-word-as-pdf-complete-aspose-words-guide/)
+Узнайте, как с помощью Aspose.Words для Python сохранить документ Word в формате PDF.
+### [Конвертация docx в markdown — полное руководство Aspose.Words](./convert-docx-to-markdown-complete-aspose-words-guide/)
+Полное руководство по конвертации docx в markdown с использованием Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
