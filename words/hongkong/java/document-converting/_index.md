@@ -100,6 +100,9 @@ Efficiently convert DOCX to EPUB using Aspose.Words for Java. Learn how to custo
 ### [將文件轉換為圖像](./converting-documents-images/)
 Learn how to convert Word documents to images using Aspose.Words for Java. Step-by-step guide, complete with code examples and FAQs.
 
+### [如何使用 Java 與 Aspose.Words 將 Markdown 轉換為 DOCX](./how-to-convert-markdown-to-docx-with-java-and-aspose-words/)
+了解如何使用 Aspose.Words for Java 將 Markdown 檔案轉換為 DOCX，步驟簡單且支援完整格式。
+
 ## Frequently Asked Questions
 
 **Q:** *我可以將受密碼保護的 Word 檔案轉換為 PDF 嗎？*  

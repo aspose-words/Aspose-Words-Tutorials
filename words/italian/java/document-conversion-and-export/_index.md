@@ -98,6 +98,9 @@ Scopri come convertire file DOCX in PDF usando Aspose.Words per Java con pochi p
 ### [Crea PDF accessibile da DOCX – Guida completa](./create-accessible-pdf-from-docx-complete-guide/)
 Impara a generare PDF accessibili da file DOCX mantenendo struttura e tag per l'accessibilità.
 
+### [Come salvare Word come markdown con tabelle HTML in Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Scopri come salvare documenti Word in formato markdown mantenendo le tabelle HTML usando Aspose.Words per Java.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

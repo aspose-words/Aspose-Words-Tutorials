@@ -105,6 +105,9 @@ Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara beker
 ### [Menggunakan Ekstensi Web di Aspose.Words untuk Java](./using-web-extensions/)
 Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
 
+### [Cara membuat dokumen Word di Java dengan Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Panduan langkah demi langkah untuk membuat dokumen Word menggunakan Aspose.Words di Java. 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

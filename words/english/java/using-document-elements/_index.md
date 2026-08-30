@@ -72,6 +72,8 @@ Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create i
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+### [How to insert command button in a Word document using Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Learn how to insert a command button into a Word document using Aspose.Words for Java. Step-by-step guide for developers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

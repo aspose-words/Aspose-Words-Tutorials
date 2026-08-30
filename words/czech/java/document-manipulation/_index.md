@@ -90,6 +90,8 @@ Naučte se, jak efektivně rozdělovat dokumenty v Aspose.Words pro Javu. Prozko
 Naučte se, jak rozdělit dokumenty na HTML stránky pomocí Aspose.Words pro Javu. Postupujte podle našeho podrobného návodu pro bezproblémovou konverzi dokumentů.
 ### [Přidávání obsahu pomocí DocumentBuilderu v Aspose.Words pro Javu](./adding-content-using-documentbuilder/)
 Zvládněte tvorbu dokumentů s Aspose.Words pro Javu. Podrobný návod k přidávání textu, tabulek, obrázků a dalších prvků. Vytvářejte úžasné dokumenty Word bez námahy.
+### [Jak vytvořit Word dokument v Javě s Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit nový Word dokument od začátku.
 ### [Klonování a kombinování dokumentů v Aspose.Words pro Javu](./cloning-and-combining-documents/)
 Naučte se, jak klonovat a kombinovat dokumenty v Aspose.Words pro Javu. Podrobný návod s příklady zdrojového kódu.
 ### [Porovnávání dokumentů v Aspose.Words pro Javu](./comparing-documents/)
@@ -103,7 +105,6 @@ Odemkněte sílu Aspose.Words pro Javu. Zvládněte možnosti a nastavení dokum
 ### [Použití vlastností dokumentu v Aspose.Words pro Javu](./using-document-properties/)
 Optimalizujte správu dokumentů s Aspose.Words pro Javu. V tomto komplexním tutoriálu se naučte pracovat s vlastnostmi dokumentu, přidávat vlastní metadata a další.
 ### [Používání webových rozšíření v Aspose.Words pro Javu](./using-web-extensions/)
-Vylepšete dokumenty pomocí webových rozšíření v Aspose.Words pro Javu. Naučte se bezproblémově integrovat webový obsah. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

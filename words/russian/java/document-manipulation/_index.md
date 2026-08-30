@@ -90,6 +90,8 @@ Aspose.Words для Java — это мощный и универсальный A
 Узнайте, как разбить документы на HTML-страницы с помощью Aspose.Words для Java. Следуйте нашему пошаговому руководству для бесшовного преобразования документов.
 ### [Добавление контента с помощью DocumentBuilder в Aspose.Words для Java](./adding-content-using-documentbuilder/)
 Мастер создания документов с Aspose.Words для Java. Пошаговое руководство по добавлению текста, таблиц, изображений и многого другого. Создавайте потрясающие документы Word без усилий.
+### [Как создать документ Word в Java с помощью Aspose.Words](./how-to-create-a-word-document-in-java-with-aspose-words/)
+Узнайте, как быстро создать документ Word в Java с использованием Aspose.Words. Пошаговое руководство с примерами кода.
 ### [Клонирование и объединение документов в Aspose.Words для Java](./cloning-and-combining-documents/)
 Узнайте, как клонировать и объединять документы в Aspose.Words для Java. Пошаговое руководство с примерами исходного кода.
 ### [Сравнение документов в Aspose.Words для Java](./comparing-documents/)

@@ -101,6 +101,9 @@ Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java en unos sim
 ### [Cómo incrustar imágenes en Markdown al convertir DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aprenda a insertar imágenes en archivos markdown durante la conversión de documentos DOCX con Aspose.Words.
 
+### [Cómo guardar Word como markdown con tablas HTML en Java](./how-to-save-word-as-markdown-with-html-tables-in-java/)
+Aprenda a convertir documentos Word a markdown conservando tablas HTML usando Aspose.Words for Java.
+
 ### [Cómo exportar LaTeX desde Word: convertir DOCX a Markdown y guardar como PDF](./how-to-export-latex-from-word-convert-docx-to-markdown-save/)
 Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF final.
 

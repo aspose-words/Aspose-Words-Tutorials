@@ -71,6 +71,8 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Hoe een opdrachtknop in een Word-document in te voegen met Java](./how-to-insert-command-button-in-a-word-document-using-java/)
+Leer hoe u een opdrachtknop toevoegt aan een Word-document met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
