@@ -101,14 +101,22 @@ Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische
 
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
+### [Word in Markdown konvertieren mit Java – Vollständiger Leitfaden](./convert-word-to-markdown-with-java-full-guide/)
+
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
-Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
 
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
+
+### [Word als PDF speichern mit Aspose.Words – Vollständiger Java‑Leitfaden](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in Java problemlos als PDF speichern, inklusive Optionen für Qualität und Sicherheit.
 
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+
+### [PDF/UA‑konforme Datei mit Java erstellen – Vollständiger Aspose.Words‑Leitfaden](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java PDF/UA‑konforme Dokumente erstellen, inklusive Einstellungen für Barrierefreiheit.
+
+### [Dokument als DOCX speichern mit Aspose.Words – Komplettleitfaden für Java](./save-document-as-docx-with-aspose-words-complete-java-guide/)
 
 ## Häufig gestellte Fragen
 

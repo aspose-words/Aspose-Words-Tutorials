@@ -89,6 +89,7 @@ Használja a `Document doc = new Document(new ByteArrayInputStream(htmlBytes), n
 ### [HTML konvertálása dokumentumokká](./converting-html-documents/)
 ### [Dokumentumkonvertálás SaveOptions-szal](./document-conversion-saveoptions/)
 ### [Dokumentumé](./converting-documents-images/)
+### [DOCX konvertálása TXT-re Java-ban – Teljes programozási útmutató](./convert-docx-to-txt-in-java-complete-programming-guide/)
 
 ## Gyakran Ismételt Kérdések
 

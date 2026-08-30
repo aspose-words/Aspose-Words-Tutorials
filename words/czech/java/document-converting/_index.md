@@ -100,6 +100,9 @@ Efektivně převádějte DOCX na EPUB pomocí Aspose.Words pro Java. Naučte se 
 ### [Převod dokumentů na obrázky](./converting-documents-images/)
 Naučte se, jak převádět Word dokumenty na obrázky pomocí Aspose.Words pro Java. Praktický průvodce s ukázkovým kódem a častými dotazy.
 
+### [Převod docx na txt v Javě – Kompletní programovací průvodce](./convert-docx-to-txt-in-java-complete-programming-guide/)
+Naučte se, jak v Javě převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words.
+
 ## Často kladené otázky
 
 **Q:** *Mohu převést Word soubory chráněné heslem do PDF?*  

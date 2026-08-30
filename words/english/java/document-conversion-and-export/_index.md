@@ -93,14 +93,26 @@ Learn how to convert DOCX files to Markdown and export embedded Math equations a
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
 
+### [Save Document as DOCX with Aspose.Words – Complete Java Guide](./save-document-as-docx-with-aspose-words-complete-java-guide/)
+Learn how to save documents as DOCX using Aspose.Words for Java with detailed code examples and best practices.
+
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Learn how to convert DOCX files to PDF using Aspose.Words for Java with simple code examples.
+
+### [Save Word as PDF with Aspose.Words – Complete Java Guide](./save-word-as-pdf-with-aspose-words-complete-java-guide/)
+Save Word as PDF with Aspose.Words – Complete Java Guide. Learn how to convert Word documents to PDF using Aspose.Words for Java with detailed examples.
 
 ### [How to Embed Images in Markdown When Converting DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Learn how to embed images from DOCX files into Markdown during conversion using Aspose.Words for Java.
 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
+
+### [Convert Word to Markdown with Java – Full Guide](./convert-word-to-markdown-with-java-full-guide/)
+Learn how to convert Word documents to Markdown using Aspose.Words for Java with a complete step‑by‑step guide.
+
+### [Create PDF/UA Compliant File with Java – Full Aspose.Words Guide](./create-pdf-ua-compliant-file-with-java-full-aspose-words-gui/)
+Learn how to create PDF/UA compliant files using Aspose.Words for Java, ensuring accessibility and standards compliance.
 
 ## Frequently Asked Questions
 
