@@ -49,6 +49,10 @@ Lär dig hur du effektivt hanterar Word-dokument med Aspose.Words för Python. S
 Lär dig hur du hanterar dokumentegenskaper och metadata med Aspose.Words för Python. Steg-för-steg-guide med källkod.
 ### [Utöka dokumentfunktionalitet med webbtillägg](./document-functionality-web-extensions/)
 Lär dig hur du utökar dokumentfunktionalitet med webbtillägg med Aspose.Words för Python. Steg-för-steg-guide med källkod för sömlös integration.
+### [Hur du återställer docx-filer i Python – steg‑för‑steg‑guide](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Lär dig återställa skadade docx-filer med Aspose.Words i Python. En steg‑för‑steg‑guide med kodexempel.
+### [Konfigurera MarkdownSaveOptions för LaTeX i Python – Aspose.Words-guide](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Lär dig hur du konfigurerar MarkdownSaveOptions för LaTeX-export i Python med Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

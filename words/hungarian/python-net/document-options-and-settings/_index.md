@@ -49,6 +49,10 @@ Tanuld meg, hogyan manipulálhatsz hatékonyan Word dokumentumokat az Aspose.Wor
 Tanuld meg, hogyan kezelheted a dokumentumok tulajdonságait és metaadatait az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal.
 ### [Dokumentumfunkciók bővítése webbővítményekkel](./document-functionality-web-extensions/)
 Ismerje meg, hogyan bővítheti a dokumentumok funkcionalitását webbővítményekkel az Aspose.Words for Python használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes integrációhoz.
+### [Hogyan állítsunk helyre docx fájlokat Pythonban – lépésről lépésre útmutató](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Ismerje meg, hogyan állíthatja helyre a sérült docx fájlokat Python segítségével. Lépésről lépésre útmutató.
+### [MarkdownSaveOptions konfigurálása LaTeX-hez Pythonban – Aspose.Words útmutató](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Ismerje meg, hogyan állíthatja be a MarkdownSaveOptions beállításait a LaTeX exportáláshoz Pythonban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

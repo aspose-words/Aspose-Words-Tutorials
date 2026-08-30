@@ -22,7 +22,7 @@ Willkommen in der Welt der Aspose.Words-Tutorials, in denen wir uns eingehend mi
 
 ## Die Bedeutung von Dokumentoptionen und -einstellungen
 
-Bei der Dokumenterstellung spielen Optionen und Einstellungen eine entscheidende Rolle bei der Gestaltung von Aussehen, Struktur und Verhalten Ihrer Inhalte. Vom Seitenlayout über die Schriftarten, Kopf- und Fußzeilen bis hin zur Absatzformatierung trägt jeder Aspekt zur Lesbarkeit und visuellen Attraktivität Ihrer Dokumente bei. Richtig konfigurierte Optionen und Einstellungen gewährleisten Konsistenz, Einhaltung von Standards und die Einhaltung der Markenrichtlinien Ihres Unternehmens. Ob Sie juristische Dokumente, Geschäftsberichte oder Schulungsmaterialien erstellen – die Beherrschung dieser Einstellungen ist unerlässlich.
+Bei der Dokumenterstellung spielen Optionen und Einstellungen eine entscheidende Rolle bei der Gestaltung von Aussehen, Struktur und Verhalten Ihrer Inhalte. Vom Seitenlayout über die Schriftarten, Kopf- und Fußzeilen bis hin zur Absatzformatierung trägt jeder Aspekt zur Lesbarkeit und visuellen Attraktivität Ihrer Dokumente bei. Richtig konfigurierten Optionen und Einstellungen gewährleisten Konsistenz, Einhaltung von Standards und die Einhaltung der Markenrichtlinien Ihres Unternehmens. Ob Sie juristische Dokumente, Geschäftsberichte oder Schulungsmaterialien erstellen – die Beherrschung dieser Einstellungen ist unerlässlich.
 
 ## Was Sie lernen werden
 
@@ -43,12 +43,21 @@ Am Ende dieser Serie verfügen Sie über die Fähigkeiten, gut strukturierte, op
 ## Tutorials zu Dokumentoptionen und -einstellungen
 ### [Erweiterte Techniken zum Zusammenfügen und Anhängen von Dokumenten](./join-append-documents/)
 Erlernen Sie fortgeschrittene Techniken zum Zusammenführen und Anhängen von Dokumenten mit Aspose.Words in Python. Schritt-für-Schritt-Anleitung mit Codebeispielen.
+
 ### [Optimieren Sie Dokumentoptionen und -einstellungen für mehr Effizienz](./manage-document-options-settings/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Python effizient bearbeiten. Schritt-für-Schritt-Anleitung mit Quellcode.
+
 ### [Dokumenteigenschaften und Metadatenverwaltung](./document-properties-metadata/)
 Erfahren Sie, wie Sie Dokumenteigenschaften und Metadaten mit Aspose.Words für Python verwalten. Schritt-für-Schritt-Anleitung mit Quellcode.
+
 ### [Erweitern der Dokumentfunktionalität mit Weberweiterungen](./document-functionality-web-extensions/)
 Erfahren Sie, wie Sie die Dokumentfunktionalität mit Web-Erweiterungen mithilfe von Aspose.Words für Python erweitern. Schritt-für-Schritt-Anleitung mit Quellcode für eine nahtlose Integration.
+
+### [Wie man docx-Dateien in Python wiederherstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Erfahren Sie, wie Sie beschädigte docx-Dateien mit Aspose.Words für Python wiederherstellen können. Praktische Schritt‑für‑Schritt‑Anleitung.
+
+### [MarkdownSaveOptions für LaTeX in Python konfigurieren – Aspose.Words‑Leitfaden](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Erfahren Sie, wie Sie mit Aspose.Words für Python die MarkdownSaveOptions für LaTeX konfigurieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

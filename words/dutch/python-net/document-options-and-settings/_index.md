@@ -49,6 +49,10 @@ Leer hoe je Word-documenten efficiënt kunt bewerken met Aspose.Words voor Pytho
 Leer hoe u documenteigenschappen en metadata beheert met Aspose.Words voor Python. Stapsgewijze handleiding met broncode.
 ### [Documentfunctionaliteit uitbreiden met webextensies](./document-functionality-web-extensions/)
 Leer hoe u de functionaliteit van documenten kunt uitbreiden met webextensies met Aspose.Words voor Python. Stapsgewijze handleiding met broncode voor naadloze integratie.
+### [Hoe docx-bestanden te herstellen in Python – stapsgewijze handleiding](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Leer hoe u beschadigde of verloren .docx-bestanden kunt herstellen met Aspose.Words voor Python. Stapsgewijze handleiding met codevoorbeelden.
+### [Configureer MarkdownSaveOptions voor LaTeX in Python – Aspose.Words-gids](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Leer hoe u MarkdownSaveOptions configureert voor LaTeX-export in Python met Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,10 @@ Pelajari cara memanipulasi dokumen Word secara efisien menggunakan Aspose.Words 
 Pelajari cara mengelola properti dan metadata dokumen menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber.
 ### [Memperluas Fungsionalitas Dokumen dengan Ekstensi Web](./document-functionality-web-extensions/)
 Pelajari cara memperluas fungsionalitas dokumen dengan ekstensi web menggunakan Aspose.Words untuk Python. Panduan langkah demi langkah dengan kode sumber untuk integrasi yang lancar.
+### [Cara Memulihkan File docx di Python – Panduan Langkah demi Langkah](./how-to-recover-docx-files-in-python-step-by-step-guide/)
+Pelajari cara memulihkan file docx yang rusak menggunakan Aspose.Words untuk Python dengan panduan langkah demi langkah.
+### [Konfigurasi MarkdownSaveOptions untuk LaTeX di Python – Panduan Aspose.Words](./configure-markdownsaveoptions-for-latex-in-python-aspose-wor/)
+Pelajari cara mengonfigurasi MarkdownSaveOptions agar dapat mengekspor dokumen ke format LaTeX menggunakan Aspose.Words untuk Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
