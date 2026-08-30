@@ -129,14 +129,21 @@ Pelajari cara menyimpan dokumen sebagai file teks di Aspose.Words untuk Java. Ik
 
 ### [Menentukan Format Dokumen di Aspose.Words untuk Java](./determining-document-format/)
 Pelajari cara mendeteksi format dokumen di Java dengan Aspose.Words. Identifikasi DOC, DOCX, dan lainnya. Atur file secara efisien.
+
 ### [Memulihkan File Word Rusak – Panduan C# untuk Membuka dengan Aman](./recover-corrupted-word-file-c-guide-to-open-safely/)
 Pelajari cara memulihkan dan membuka file Word yang rusak menggunakan C# dengan aman melalui langkah-langkah praktis.
 
 ### [Pulihkan docx yang rusak – Panduan Lengkap untuk Memperbaiki dan Memproses Dokumen](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Pelajari cara memulihkan file DOCX yang rusak, memperbaikinya, dan melanjutkan pemrosesan dokumen dengan Aspose.Words untuk Java.
 
+### [Pulihkan docx yang rusak menggunakan Aspose.Words untuk Java](./recover-corrupted-docx-using-aspose-words-java/)
+Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk Java dengan contoh kode lengkap.
+
 ### [Menangkap Peringatan Substitusi Font di Java dengan Aspose.Words – Panduan Lengkap](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Pelajari cara menangkap peringatan substitusi font saat memuat dokumen di Java menggunakan Aspose.Words, termasuk contoh kode lengkap.
+
+### [Daftarkan callback peringatan di Java – Lacak font yang hilang](./register-warning-callback-in-java-track-missing-fonts/)
+Pelajari cara mendaftarkan callback peringatan di Java untuk melacak font yang hilang saat memuat dokumen dengan Aspose.Words.
 
 ## Pertanyaan yang Sering Diajukan
 

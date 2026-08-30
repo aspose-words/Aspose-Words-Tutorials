@@ -84,8 +84,17 @@ Utnyttja kraften i matematiska ekvationer i dokument med Aspose.Words for Java. 
 ### [Spara dokument som TXT – Snabbguide för export av Word-matematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Lär dig hur du sparar ett Word‑dokument som TXT och exporterar matematiska ekvationer med Aspose.Words.
 
+### [Spara som vanlig text – Komplett guide för att exportera Word‑ekvationer](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Lär dig hur du sparar Word‑dokument som ren text och exporterar ekvationer med Aspose.Words.
+
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Lär dig hur du konverterar DOCX-filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
+
+### [Export Word till Markdown – Komplett Java‑guide](./export-word-to-markdown-complete-java-guide/)
+Lär dig hur du konverterar Word‑dokument till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+
+### [Exportera DOCX som Markdown – Komplett Java‑guide](./export-docx-as-markdown-complete-java-guide/)
+Lär dig hur du exporterar DOCX‑filer till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
 
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words for Java i några enkla steg.
@@ -104,6 +113,9 @@ Lär dig hur du bäddar in bilder i Markdown när du konverterar DOCX-filer med 
 
 ### [Skapa tillgänglig PDF från DOCX – Komplett guide](./create-accessible-pdf-from-docx-complete-guide/)
 Lär dig hur du konverterar DOCX till en tillgänglig PDF med fullständig steg‑för‑steg‑guide och bästa praxis.
+
+### [Skapa PDF/UA-2‑kompatibelt dokument – Komplett Java‑guide](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Lär dig hur du skapar PDF/UA‑2‑kompatibla dokument med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

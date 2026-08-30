@@ -97,8 +97,17 @@ Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
 
+### [Export Word do Markdown – Kompletní průvodce v Javě](./export-word-to-markdown-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Words for Java exportovat dokumenty Word do formátu Markdown v kompletním průvodci.
+
+### [Export DOCX jako Markdown – Kompletní průvodce v Javě](./export-docx-as-markdown-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do formátu Markdown v podrobném průvodci.
+
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
+
+### [Uložení jako prostý text – Kompletní průvodce exportem rovnic Word](./save-as-plain-text-complete-guide-to-export-word-equations/)
+Naučte se, jak uložit dokument jako prostý text a exportovat rovnice z Wordu pomocí Aspose.Words v podrobném průvodci.
 
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
@@ -108,6 +117,9 @@ Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly sp
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Vytvoření PDF/UA‑2 kompatibilního dokumentu – kompletní průvodce pro Javu](./create-pdf-ua-2-compliant-document-complete-java-guide/)
+Naučte se vytvořit PDF/UA‑2 dokument v Javě pomocí Aspose.Words, včetně nastavení přístupnosti a validace.
 
 ## Často kladené otázky
 

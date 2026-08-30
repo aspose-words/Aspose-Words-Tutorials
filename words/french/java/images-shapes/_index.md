@@ -37,6 +37,9 @@ Apprenez à générer des miniatures de haute qualité et des bitmaps de taille 
 ### [Créer un document Word Java – Ajouter une forme rectangle avec effet d'ombre](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Apprenez à insérer une forme rectangle avec ombre dans un document Word en Java à l'aide d'Aspose.Words.
 
+### [Créer une forme de zone de texte en Java – Guide complet pour ajouter des ombres](./create-text-box-shape-in-java-complete-guide-to-adding-shado/)
+Apprenez à créer une zone de texte avec effet d'ombre dans un document Word en Java à l'aide d'Aspose.Words.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

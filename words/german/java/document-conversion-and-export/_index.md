@@ -76,39 +76,21 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 
 ## Tutorials zur Dokumentkonvertierung und zum Export
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words for Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
-
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Erfahren Sie, wie Sie benutzerdefinierte Barcodes in Java mit Aspose.Words for Java erzeugen. Schritt‑für‑Schritt‑Anleitung mit Quellcode zur Barcode‑Generierung. Verbessern Sie die Dokumenten‑Automatisierung mit Aspose.Words.
-
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-Erfahren Sie, wie Sie Diagramme in Aspose.Words for Java erstellen und anpassen. Erkunden Sie Diagrammtypen, Formatierung und Achseneigenschaften für die Datenvisualisierung.
-
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-Entfesseln Sie die Möglichkeiten mathematischer Gleichungen in Dokumenten mit Aspose.Words for Java. Lernen Sie, Office‑Math‑Objekte mühelos zu manipulieren und darzustellen.
-
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Entdecken Sie die Möglichkeiten von Dokumentformen in Aspose.Words for Java. Lernen Sie, visuell ansprechende Dokumente mit Schritt‑für‑Schritt‑Beispielen zu erstellen.
-
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzufügen. Passen Sie Text‑ und Bildwasserzeichen für professionell aussehende Dokumente an.
-
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
-
 ### [Dokument als TXT speichern – Schnellleitfaden zum Exportieren von Word-Mathematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
-Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
-
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
-
+### [Export Word nach Markdown – Vollständiger Java-Leitfaden](./export-word-to-markdown-complete-java-guide/)
+### [DOCX als Markdown exportieren – Vollständiger Java-Leitfaden](./export-docx-as-markdown-complete-java-guide/)
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
-Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
-
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
-
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+### [Als Klartext speichern – Vollständiger Leitfaden zum Exportieren von Word‑Gleichungen](./save-as-plain-text-complete-guide-to-export-word-equations/)
+### [Erstellen eines PDF/UA-2 konformen Dokuments – Vollständiger Java-Leitfaden](./create-pdf-ua-2-compliant-document-complete-java-guide/)
 
 ## Häufig gestellte Fragen
 
