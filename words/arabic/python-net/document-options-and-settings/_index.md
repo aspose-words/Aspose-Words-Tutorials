@@ -49,6 +49,8 @@
 تعلّم كيفية إدارة خصائص المستندات والبيانات الوصفية باستخدام Aspose.Words لبايثون. دليل خطوة بخطوة مع الكود المصدري.
 ### [توسيع وظائف المستندات باستخدام ملحقات الويب](./document-functionality-web-extensions/)
 تعرّف على كيفية توسيع وظائف المستندات باستخدام ملحقات الويب باستخدام Aspose.Words للغة بايثون. دليل خطوة بخطوة مع الكود المصدري لتكامل سلس.
+### [كيفية استعادة DOCX – دليل كامل باستخدام Aspose.Words](./how-to-recover-docx-complete-guide-with-aspose-words/)
+دليل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words مع أمثلة برمجية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
