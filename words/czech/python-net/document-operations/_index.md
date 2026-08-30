@@ -60,6 +60,12 @@ Naučte se, jak převádět dokumenty Wordu do formátu PostScript pomocí Aspos
 ### [Obnova poškozeného DOCX – Otevření a načtení Word dokumentu](./recover-corrupted-docx-open-load-word-document/)
 Naučte se, jak načíst a opravit poškozené soubory DOCX pomocí Aspose.Words pro Python-net.
 
+### [Jak obnovit soubory DOCX v Pythonu – Načíst dokument s obnovou pomocí Aspose.Words](./how-to-recover-docx-files-in-python-load-document-with-recov/)
+Naučte se načíst poškozené DOCX soubory s automatickou obnovou pomocí Aspose.Words v Pythonu.
+
+### [Obnova poškozeného DOCX – Kompletní průvodce pomocí Aspose.Words pro Python](./recover-corrupted-docx-complete-guide-using-aspose-words-for/)
+Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words pro Python v podrobném průvodci.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)

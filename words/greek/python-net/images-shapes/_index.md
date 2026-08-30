@@ -28,14 +28,17 @@
 ### [Mastering Media Type Parsing στο Aspose.Words for Python: Ένας πλήρης οδηγός](./mastering-aspose-words-python-media-type-parsing/)
 Μάθετε πώς να αναλύετε τύπους πολυμέσων, να κρυπτογραφείτε αρχεία και να επικυρώνετε ψηφιακές υπογραφές με το Aspose.Words για Python. Βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας σήμερα.
 
-    ### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
+### [Optimize RTF Image Handling in Python using Aspose.Words API&#58; Save as WMF and Ensure Compatibility](./optimize-rtf-image-handling-aspose-words-python/)
 Μάθετε πώς να βελτιστοποιείτε τον χειρισμό εικόνων σε έγγραφα RTF με το Aspose.Words για Python. Αποθηκεύστε εικόνες σε μορφή WMF και διασφαλίστε τη συμβατότητα με παλαιότερους αναγνώστες.
 
-    ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
+### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Μάθετε πώς να βελτιστοποιήσετε την έξοδο SVG χρησιμοποιώντας το Aspose.Words για Python. Αυτός ο οδηγός καλύπτει προσαρμοσμένες λειτουργίες όπως ιδιότητες εικόνας, απόδοση κειμένου και βελτιώσεις ασφαλείας.
 
 ### [Πώς να Προσθέσετε Σκιά σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-add-shadow-in-c-complete-programming-guide/)
 Μάθετε πώς να εφαρμόσετε σκιές σε αντικείμενα C# χρησιμοποιώντας Aspose.Words για βελτιωμένη εμφάνιση εγγράφων.
+
+### [Πώς να Αποθηκεύσετε Έγγραφο με Σκιά σε Ορθογώνιο – Πλήρης Οδηγός Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Μάθετε πώς να αποθηκεύσετε ένα έγγραφο Word με ορθογώνιο που έχει σκιά, χρησιμοποιώντας το Aspose.Words για Python‑net.
 
 ## Πρόσθετοι Πόροι
 

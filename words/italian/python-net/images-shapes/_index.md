@@ -37,6 +37,9 @@ Scopri come ottimizzare l'output SVG utilizzando Aspose.Words per Python. Questa
 ### [Come aggiungere l'ombra in C# – Guida completa alla programmazione](./how-to-add-shadow-in-c-complete-programming-guide/)
 Scopri come aggiungere ombre agli oggetti in C# usando Aspose.Words, con esempi completi e passaggi dettagliati.
 
+### [Come salvare un documento con un rettangolo ombreggiato – Guida completa Python](./how-to-save-document-with-a-shadowed-rectangle-full-python-g/)
+Scopri come salvare un documento Word includendo un rettangolo con ombra usando Aspose.Words per Python-net, con esempi di codice passo passo.
+
 ## Risorse aggiuntive
 
 - [Aspose.Words per la documentazione di Python-net](https://docs.aspose.com/words/python-net/)
