@@ -40,6 +40,21 @@ Word 文書を Markdown に変換し保存する手順を Python で解説しま
 ### [破損した DOCX の復元と Word から Markdown への変換](./recover-corrupted-docx-convert-word-to-markdown/)
 破損した DOCX を復元し、Word 文書を Markdown に変換する手順を紹介します。
 
+### [LaTeX 方程式付き docx を Markdown に保存する方法 – 完全 Python ガイド](./save-docx-as-markdown-with-latex-equations-python-guide/)
+Python で LaTeX 方程式を保持したまま docx を Markdown に変換し保存する手順を解説します。
+
+### [Aspose.Words で Word を PDF に保存する – 完全 Python ガイド](./save-word-as-pdf-with-aspose-words-complete-python-guide/)
+Aspose.Words を使用して Word 文書を PDF に変換する手順を Python で解説します。簡単に実装可能です！
+
+### [Word からアクセシブル PDF を作成する – 完全プログラミングガイド](./create-accessible-pdf-from-word-complete-programming-guide/)
+Aspose.Words を使用して、Word 文書からアクセシブルな PDF を生成する手順を Python で詳しく解説します。
+
+### [docx を Markdown にエクスポートする – 完全ステップバイステップガイド](./export-docx-as-markdown-full-step-by-step-guide/)
+Python で docx ファイルを Markdown に変換し、保存する手順を詳しく解説します。簡単に実装できます！
+
+### [Word 文書から PNG グリッドを作成する – 完全ステップバイステップガイド](./create-png-grid-from-word-document-complete-step-by-step-gui/)
+Word 文書のページを PNG 画像のグリッドに変換し、保存する手順を Python で詳しく解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -29,11 +29,15 @@ Các hướng dẫn tập trung vào việc tăng hiệu quả quản lý tài l
 
 ## Đơn giản hóa quy trình xử lý văn bản
 
-Bằng cách làm chủ tự động hóa từ ngữ bằng Aspose.Words for Python, các nhà phát triển có thể hợp lý hóa quy trình xử lý văn bản một cách hiệu quả. Các hướng dẫn cung cấp hướng dẫn từng bước, ví dụ thực tế và mẫu mã, cho phép các nhà phát triển tận dụng toàn bộ tiềm năng của tự động hóa từ ngữ Python để xử lý và quản lý tài liệu liền mạch. Áp dụng các hướng dẫn này để đơn giản hóa các tác vụ quản lý tài liệu của bạn và nâng cao khả năng xử lý văn bản của bạn.
+Bằng cách làm chủ tự động hóa từ ngữ bằng Aspose.Words cho Python, các nhà phát triển có thể hợp lý hóa quy trình xử lý văn bản một cách hiệu quả. Các hướng dẫn cung cấp hướng dẫn từng bước, ví dụ thực tế và mẫu mã, cho phép các nhà phát triển tận dụng toàn bộ tiềm năng của tự động hóa từ ngữ Python để xử lý và quản lý tài liệu liền mạch. Áp dụng các hướng dẫn này để đơn giản hóa các tác vụ quản lý tài liệu của bạn và nâng cao khả năng xử lý văn bản của bạn.
 
 ## Hướng dẫn tự động hóa Python Word
 ### [Tự động hóa từ ngữ dễ dàng](./word-automation-made-easy/)
 Tự động hóa xử lý Word dễ dàng bằng Aspose.Words for Python. Tạo, định dạng và thao tác tài liệu theo chương trình. Tăng năng suất ngay!
+### [Thay thế văn bản docx bằng Python – Hướng dẫn chi tiết từng bước](./replace-text-docx-with-python-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách thay thế nội dung trong file docx bằng Python, tự động hoá quy trình chỉnh sửa tài liệu.
+### [Cách sử dụng Aspose để tự động sửa ngữ pháp trong Python](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Hướng dẫn tự động phát hiện và sửa lỗi ngữ pháp trong tài liệu Word bằng Aspose.Words cho Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

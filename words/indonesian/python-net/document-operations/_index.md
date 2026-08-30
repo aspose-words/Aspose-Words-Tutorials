@@ -60,6 +60,9 @@ Pelajari cara mengonversi dokumen Word ke format PostScript menggunakan Aspose.W
 ### [Pulihkan DOCX Rusak – Buka & Muat Dokumen Word](./recover-corrupted-docx-open-load-word-document/)
 Pelajari cara membuka dan memuat dokumen Word DOCX yang rusak menggunakan Aspose.Words untuk Python-net.
 
+### [Cara Memulihkan File DOCX – Panduan Lengkap dengan Aspose.Words](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words, termasuk langkah-langkah pemulihan lengkap dan contoh kode.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

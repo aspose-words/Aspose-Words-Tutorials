@@ -28,6 +28,9 @@ rychle se rozvíjející oblasti umělé inteligence je efektivní transformace 
 ### [Sumarizace a překlad AI v Pythonu: Průvodce Aspose.Words a OpenAI](./ai-summarization-translation-aspose-openai-python/)
 Naučte se, jak automatizovat sumarizaci a překlad umělé inteligence pomocí Aspose.Words pro Python a OpenAI. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
+### [Vytvoření souhrnu dokumentu v Pythonu – Kompletní průvodce s Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Naučte se, jak pomocí Aspose.Words AI v Pythonu automaticky vytvořit souhrn dokumentu od nastavení po implementaci.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)

@@ -28,6 +28,9 @@ In het snel evoluerende veld van kunstmatige intelligentie (AI) is het effectief
 ### [AI-samenvatting en -vertaling in Python: Aspose.Words en OpenAI-gids](./ai-summarization-translation-aspose-openai-python/)
 Leer hoe je AI-samenvatting en -vertaling kunt automatiseren met Aspose.Words voor Python en OpenAI. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
+### [Document Samenvatting Maken in Python – Volledige Gids met Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Leer hoe je met Aspose.Words AI een volledige samenvatting van een document maakt in Python, stap voor stap.
+
 ## Aanvullende bronnen
 
 - [Aspose.Words voor Python-net-documentatie](https://docs.aspose.com/words/python-net/)

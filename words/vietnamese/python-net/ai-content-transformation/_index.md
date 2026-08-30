@@ -28,6 +28,9 @@ Trong lĩnh vực trí tuệ nhân tạo đang phát triển nhanh chóng, việ
 ### [Tóm tắt và biên dịch AI trong Python: Hướng dẫn Aspose.Words và OpenAI](./ai-summarization-translation-aspose-openai-python/)
 Tìm hiểu cách tự động tóm tắt và dịch AI bằng Aspose.Words cho Python và OpenAI. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
+### [Tạo Tóm tắt Tài liệu Python – Hướng dẫn đầy đủ sử dụng Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Hướng dẫn chi tiết cách tạo tóm tắt tài liệu bằng Python sử dụng AI của Aspose.Words.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)

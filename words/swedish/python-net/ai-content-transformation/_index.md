@@ -28,6 +28,9 @@ Inom det snabbt föränderliga området artificiell intelligens är det av ytter
 ### [AI-sammanfattning och översättning i Python: Aspose.Words och OpenAI-guide](./ai-summarization-translation-aspose-openai-python/)
 Lär dig hur du automatiserar AI-sammanfattning och översättning med Aspose.Words för Python och OpenAI. Den här guiden täcker installation, implementering och praktiska tillämpningar.
 
+### [Skapa dokumentsammanfattning i Python – Fullständig guide med Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Lär dig hur du skapar en fullständig dokumentsammanfattning i Python med Aspose.Words AI. Steg‑för‑steg‑instruktioner och kodexempel.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)

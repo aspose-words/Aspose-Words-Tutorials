@@ -28,6 +28,9 @@ szybko rozwijającej się dziedzinie sztucznej inteligencji, skuteczne przekszta
 ### [Podsumowanie i tłumaczenie AI w Pythonie: Aspose.Words i przewodnik OpenAI](./ai-summarization-translation-aspose-openai-python/)
 Dowiedz się, jak zautomatyzować podsumowanie i tłumaczenie AI za pomocą Aspose.Words dla Pythona i OpenAI. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania.
 
+### [Tworzenie podsumowania dokumentu w Pythonie – Pełny przewodnik z użyciem Aspose.Words AI](./create-document-summary-python-full-guide-using-aspose-words/)
+Kompletny przewodnik, jak przy użyciu Aspose.Words AI stworzyć podsumowanie dokumentu w Pythonie.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)

@@ -35,6 +35,12 @@ Geliştiriciler, Python için Aspose.Words kullanarak kelime otomasyonunda ustal
 ### [Kelime Otomasyonu Kolaylaştırıldı](./word-automation-made-easy/)
 Aspose.Words for Python kullanarak kelime işlemeyi kolaylıkla otomatikleştirin. Belgeleri programatik olarak oluşturun, biçimlendirin ve düzenleyin. Şimdi üretkenliği artırın!
 
+### [Python ile docx Metnini Değiştir – Tam Adım‑Adım Kılavuz](./replace-text-docx-with-python-full-step-by-step-guide/)
+Python kullanarak docx dosyalarındaki metni nasıl değiştireceğinizi adım adım öğrenin. Otomatikleştirme ve düzenleme teknikleri.
+
+### [Python'da Dilbilgisi Düzeltmesini Otomatikleştirmek İçin Aspose Kullanımı](./how-to-use-aspose-to-automate-grammar-correction-in-python/)
+Python'da Aspose.Words ile metinlerdeki dilbilgisi hatalarını otomatik olarak tespit edip düzeltebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

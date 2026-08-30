@@ -28,6 +28,9 @@ mesterséges intelligencia gyorsan fejlődő területén a tartalom hatékony á
 ### [MI-összefoglaló és -fordító Pythonban: Aspose.Words és OpenAI útmutató](./ai-summarization-translation-aspose-openai-python/)
 Tanuld meg, hogyan automatizálhatod a mesterséges intelligencia általi összefoglalást és fordítást az Aspose.Words Pythonhoz és OpenAI-hoz készült változatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
+### [Dokumentumösszefoglaló létrehozása Pythonban – Teljes útmutató az Aspose.Words AI használatával](./create-document-summary-python-full-guide-using-aspose-words/)
+Ismerd meg, hogyan hozhatsz létre AI-alapú dokumentumösszefoglalót Pythonban az Aspose.Words segítségével, lépésről lépésre.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)

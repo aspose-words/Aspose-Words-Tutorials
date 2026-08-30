@@ -60,6 +60,9 @@ Aspose.Words for Python を使用して、Word 文書を PostScript 形式に変
 ### [破損した DOCX の復元 – Word 文書を開いて読み込む](./recover-corrupted-docx-open-load-word-document/)
 破損した DOCX ファイルを開き、復元して読み込む方法をステップバイステップで解説します。
 
+### [DOCX ファイルの復元方法 – Aspose.Words 完全ガイド](./how-to-recover-docx-files-complete-guide-with-aspose-words/)
+Aspose.Words を使用して破損した DOCX ファイルを完全に復元する手順を詳しく解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)

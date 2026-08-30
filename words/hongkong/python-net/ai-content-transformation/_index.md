@@ -28,6 +28,9 @@
 ### [Python 中的 AI 摘要和翻譯：Aspose.Words 和 OpenAI 指南](./ai-summarization-translation-aspose-openai-python/)
 了解如何使用 Aspose.Words for Python 和 OpenAI 自動化 AI 摘要和翻譯。本指南涵蓋設定、實施和實際應用。
 
+### [使用 Aspose.Words AI 的文件摘要建立 Python 完整指南](./create-document-summary-python-full-guide-using-aspose-words/)
+了解如何使用 Aspose.Words AI 在 Python 中自動生成文件摘要的完整步驟與範例。
+
 ## 其他資源
 
 - [Aspose.Words for Python-net 文檔](https://docs.aspose.com/words/python-net/)
