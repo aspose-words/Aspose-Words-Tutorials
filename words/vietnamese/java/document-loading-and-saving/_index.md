@@ -97,6 +97,9 @@ Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận di�
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 Mở khóa sức mạnh của Aspose.Words for Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
 
+### [Tải gạch chân markdown trong Java – hướng dẫn lập trình toàn diện](./load-markdown-underline-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách tải và xử lý gạch chân markdown trong Java bằng Aspose.Words.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Học các tùy chọn lưu nâng cao với Aspose.Words for Java. Mã hoá, xử lý metafile và hơn thế nữa. Tài liệu Word của bạn, cách của bạn.
 

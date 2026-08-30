@@ -136,6 +136,9 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend m
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
 
+### [Markdown‑Unterstreichung in Java laden – vollständiger Programmierleitfaden](./load-markdown-underline-in-java-complete-programming-guide/)
+Erfahren Sie, wie Sie Markdown‑Unterstreichungen in Java verarbeiten und rendern – Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
+
 ## Häufig gestellte Fragen
 
 **Q:** Wie speichere ich programmgesteuert **Bilder aus Word**‑Dokumenten?  

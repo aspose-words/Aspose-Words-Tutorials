@@ -109,6 +109,9 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها ومعالجتها باستخدام Aspose.Words for Java.
 ### [التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل شامل](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [تحميل تسطير markdown في Java – دليل برمجة كامل](./load-markdown-underline-in-java-complete-programming-guide/)
+تعلم كيفية تحميل ملفات markdown مع تسطيرها في Java باستخدام Aspose.Words. دليل شامل خطوة بخطوة.
+
 #### الحفظ بصيغ مختلفة
 
 استكشف مرونة Aspose.Words for Java بينما نتعمق في حفظ المستندات بصيغ مختلفة. حوّل مستنداتك إلى PDF أو DOCX أو حتى HTML بسهولة. *(هنا ستجد أيضًا نمط “save pdf java” قيد التنفيذ.)*

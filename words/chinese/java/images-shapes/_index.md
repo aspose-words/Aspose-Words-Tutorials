@@ -37,6 +37,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Words for Java 创建 Word 文档 – 添加带阴影效果的矩形形状](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 演示如何在 Word 文档中使用 Aspose.Words for Java 添加带阴影效果的矩形形状。
 
+### [在 Word 中使用 C# 插入矩形形状 – 完整指南](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+完整的 C# 示例，演示如何在 Word 文档中插入矩形形状。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

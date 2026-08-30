@@ -109,6 +109,9 @@ Lär dig hur du sparar bilder från dokument med Aspose.Words för Java med vår
 ### [Spara dokument som Markdown i Aspose.Words för Java](./saving-documents-as-markdown/)
 Lär dig hur du konverterar Word‑dokument till Markdown med Aspose.Words för Java. Denna steg‑för‑steg‑guide täcker tabelljustering, bildhantering och mer.
 
+### [Ladda markdown‑understrykning i Java – komplett programmeringsguide](./load-markdown-underline-in-java-complete-programming-guide/)
+Lär dig hur du laddar markdown‑understrykningar i Java med Aspose.Words, steg‑för‑steg‑exempel och kod.
+
 ### [Spara dokument som ODT-format i Aspose.Words för Java](./saving-documents-as-odt-format/)
 Lär dig hur du sparar dokument i ODT‑format med Aspose.Words för Java. Säkerställ kompatibilitet med öppen källkods‑kontorssviter.
 

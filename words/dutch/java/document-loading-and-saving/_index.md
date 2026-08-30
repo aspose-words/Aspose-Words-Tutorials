@@ -135,6 +135,9 @@ Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer D
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 
+### [Markdown-onderstreping laden in Java – volledige programmeergids](./load-markdown-underline-in-java-complete-programming-guide/)
+Leer hoe je onderstrepingen in Markdown kunt laden en verwerken met Aspose.Words for Java.
+
 ## Veelgestelde vragen
 
 **Q:** Hoe kan ik programmatisch **save images from word** documenten opslaan?  

@@ -71,6 +71,8 @@ Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Word
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Üres Word dokumentum létrehozása parancsgombbal – lépésről‑lépésre útmutató](./create-blank-word-document-with-a-command-button-step-by-ste/)
+Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot parancsgombbal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

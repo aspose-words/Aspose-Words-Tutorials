@@ -37,6 +37,9 @@ Scopri come generare miniature di alta qualità e bitmap di dimensioni personali
 ### [Crea documento Word Java – Aggiungi forma rettangolare con effetto ombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Impara a inserire una forma rettangolare con ombra in un documento Word usando Aspose.Words per Java.
 
+### [Inserisci forma rettangolare in Word usando C# – guida completa](./insert-rectangle-shape-in-word-using-c-complete-guide/)
+Scopri come aggiungere una forma rettangolare in un documento Word con C# usando Aspose.Words.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

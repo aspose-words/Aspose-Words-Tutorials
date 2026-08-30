@@ -71,6 +71,8 @@
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中使用指令按鈕建立空白 Word 文件 – 步驟指南](./create-blank-word-document-with-a-command-button-step-by-ste/)
+了解如何在 Aspose.Words for Java 中使用指令按鈕建立空白的 Word 文件，提供完整步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

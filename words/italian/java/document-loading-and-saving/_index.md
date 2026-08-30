@@ -119,7 +119,7 @@ Impara a salvare documenti in formato ODT usando Aspose.Words per Java. Garantis
 Impara a salvare documenti in formato OOXML con Aspose.Words per Java. Sicuro, ottimizzato e personalizzabile senza sforzo.
 
 ### [Salvataggio di Documenti in Formato PCL in Aspose.Words per Java](./saving-documents-as-pcl-format/)
-Impara a salvare documenti in formato PCL usando Aspose.Words per Java. Guida passo‑per‑passo ed esempi di codice per una conversione efficiente.
+Impara a salvare documenti in formato PCL usando Aspose.Words per Java. Guida passo‑per‑step ed esempi di codice per una conversione efficiente.
 
 ### [Salvataggio di Documenti come PDF in Aspose.Words per Java](./saving-documents-as-pdf/)
 Impara a salvare documenti Word come PDF usando Aspose.Words per Java. Personalizza caratteri, proprietà e qualità delle immagini. Guida completa per la conversione PDF.
@@ -135,6 +135,9 @@ Impara a rilevare i formati dei documenti in Java con Aspose.Words. Identifica D
 
 ### [Cattura gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Scopri come intercettare e gestire gli avvisi di sostituzione dei font durante l'elaborazione dei documenti Word in Java con Aspose.Words.
+
+### [Carica sottolineatura Markdown in Java – guida completa di programmazione](./load-markdown-underline-in-java-complete-programming-guide/)
+Scopri come caricare e gestire le sottolineature nei file Markdown usando Aspose.Words per Java, con esempi di codice dettagliati.
 
 ## Domande Frequenti
 
