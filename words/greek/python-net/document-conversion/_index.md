@@ -37,6 +37,14 @@
 Μάθετε πώς να αποθηκεύσετε περιεχόμενο Word ως Markdown χρησιμοποιώντας Aspose.Words για Python. Ο πλήρης οδηγός.
 ### [Ανάκτηση Κατεστραμμένου DOCX & Μετατροπή Word σε Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown με το Aspose.Words για Python.
+### [Αποθήκευση Word ως Markdown – Πλήρης οδηγός Python](./save-word-as-markdown-complete-python-guide/)
+Μάθετε πώς να αποθηκεύσετε αρχεία Word σε μορφή Markdown με το Aspose.Words για Python. Ο πλήρης οδηγός.
+### [Αποθήκευση docx ως txt – μετατροπή Word σε TXT με LaTeX](./save-docx-as-txt-convert-word-to-txt-with-latex/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε txt με LaTeX χρησιμοποιώντας το Aspose.Words για Python.
+### [Αποθήκευση Word ως PDF με Σήμανση Σχημάτων – Πλήρης Οδηγός Python](./save-word-as-pdf-with-shape-tagging-full-python-guide/)
+Μάθετε πώς να αποθηκεύσετε έγγραφα Word ως PDF με σήμανση σχημάτων χρησιμοποιώντας Aspose.Words για Python.
+### [Πώς να ανακτήσετε DOCX και να το μετατρέψετε σε Markdown και PDF – Πλήρης οδηγός Python](./how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl/)
+Μάθετε πώς να ανακτήσετε κατεστραμμένα αρχεία DOCX και να τα μετατρέψετε σε Markdown και PDF με το Aspose.Words για Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

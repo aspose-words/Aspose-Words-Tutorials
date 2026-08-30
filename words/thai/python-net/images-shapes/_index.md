@@ -37,6 +37,9 @@
 ### [วิธีเพิ่มเงาใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-add-shadow-in-c-complete-programming-guide/)
 เรียนรู้วิธีการเพิ่มเงาให้กับวัตถุใน C# อย่างละเอียดด้วย Aspose.Words และเทคนิคขั้นสูง
 
+### [วิธีแทรกสี่เหลี่ยมผืนผ้าและเพิ่มเงาใน Word ด้วย Aspose](./how-to-insert-rectangle-and-add-shadow-in-word-using-aspose/)
+เรียนรู้วิธีแทรกสี่เหลี่ยมผืนผ้าและเพิ่มเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Python-net อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)

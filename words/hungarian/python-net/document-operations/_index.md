@@ -40,7 +40,7 @@ Ismerje meg, hogyan javíthatja ki a .chm fájlokban található hibás hivatkoz
 Tanuld meg, hogyan használhatod az Aspose.Words for Python-t Word dokumentumok különálló HTML oldalakká konvertálásához egyéni visszahívások segítségével. Tökéletes dokumentumkezeléshez és webes közzétételhez.
 
     ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
-Tanuld meg a Markdown fájlok hatékony kezelését és feldolgozását az Aspose.Words MarkdownLoadOptions funkciójával Pythonban. Javítsd a dokumentum-munkafolyamataidat a formázás pontos vezérlésével.
+Tanuld meg a Markdown fájlok hatékony kezelését és feldolgozását az Aspose.Words MarkdownLoadOptions funkcióval Pythonban. Javítsd a dokumentum-munkafolyamataidat a formázás pontos vezérlésével.
 
     ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
 Tanuld meg a Microsoft Word dokumentumok betöltését, kezelését és automatizálását az Aspose.Words segítségével Pythonban. Egyszerűsítsd a dokumentumfeldolgozási feladataidat könnyedén.
@@ -59,6 +59,9 @@ Ismerje meg, hogyan konvertálhat Word dokumentumokat PostScript formátumba az 
 
 ### [Korrupt DOCX helyreállítása – Word dokumentum megnyitása és betöltése](./recover-corrupted-docx-open-load-word-document/)
 A korrupt DOCX fájlok helyreállítása és betöltése az Aspose.Words for Python-net segítségével.
+
+### [Korrupt Word dokumentum helyreállítása az Aspose.Words Python segítségével](./recover-corrupted-word-document-with-aspose-words-python/)
+A korrupt Word dokumentumok helyreállítása és betöltése az Aspose.Words Python könyvtárral.
 
 ## További források
 
