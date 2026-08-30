@@ -28,15 +28,19 @@ Die Tutorials konzentrieren sich auf die Verbesserung von Word-Dokumentenverarbe
 
 ## Vereinfachen Sie Ihr Dokumentenmanagement
 
-Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python können Entwickler ihre Dokumentenverwaltungsprozesse vereinfachen. Die Tutorials bieten Schritt-für-Schritt-Anleitungen, Codebeispiele und praktische Beispiele, die es Entwicklern ermöglichen, robuste Dokumentkonvertierungsfunktionen in ihre Python-Anwendungen zu implementieren. Nutzen Sie diese Tutorials, um das volle Potenzial von Aspose.Words für eine nahtlose Dokumentkonvertierung und -verwaltung auszuschöpfen.
+Durch die erfolgreiche Dokumentenkonvertierung mit Aspose.Words für Python können Entwickler ihre Dokumentenverwaltungsprozesse vereinfachen. Die Tutorials bieten Schritt‑für‑Schritt‑Anleitungen, Codebeispiele und praktische Beispiele, die es Entwicklern ermöglichen, robuste Dokumentkonvertierungsfunktionen in ihre Python-Anwendungen zu implementieren. Nutzen Sie diese Tutorials, um das volle Potenzial von Aspose.Words für eine nahtlose Dokumentkonvertierung und -verwaltung auszuschöpfen.
 
 ## Tutorials zur Python-Dokumentkonvertierung
 ### [Python-Dokumentkonvertierung – Die vollständige Anleitung](./python-document-conversion/)
 Lernen Sie die Python-Dokumentenkonvertierung mit Aspose.Words für Python. Konvertieren, bearbeiten und passen Sie Dokumente mühelos an. Steigern Sie jetzt Ihre Produktivität!
 ### [Wie man Markdown aus Word speichert – Vollständige Python-Anleitung](./how-to-save-markdown-from-word-complete-python-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Python Word-Dokumente in Markdown konvertieren und speichern.
+### [Wie man Word als PDF speichert – Schritt‑für‑Schritt‑Anleitung mit Aspose Words](./how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose Words für Python Word-Dokumente problemlos als PDF speichern.
 ### [Beschädigte DOCX wiederherstellen und Word in Markdown konvertieren](./recover-corrupted-docx-convert-word-to-markdown/)
 Lernen Sie, beschädigte DOCX-Dateien zu reparieren und anschließend in Markdown zu konvertieren.
+### [DOCX in TXT konvertieren und Word‑Gleichungen nach LaTeX exportieren](./convert-docx-to-txt-and-export-word-equations-to-latex/)
+Erfahren Sie, wie Sie DOCX-Dateien in Text umwandeln und Word‑Gleichungen in LaTeX exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
