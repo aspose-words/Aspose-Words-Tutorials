@@ -90,17 +90,26 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Convert docx to markdown – Export Math Equations to LaTeX with Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Learn how to convert DOCX files to Markdown and export embedded Math equations as LaTeX using Aspose.Words for Java.
 
+### [Export Word to Markdown in Java – Save Document as Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Learn how to export Word documents to Markdown format using Aspose.Words for Java. Step‑by‑step guide with code examples.
+
 ### [Save Document as TXT – Quick Guide to Exporting Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Learn how to export Word documents as plain text files while preserving Math equations using Aspose.Words for Java.
 
+### [How to Export LaTeX from DOCX to TXT with Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Learn how to export LaTeX equations from DOCX files to plain TXT using Aspose.Words for Java.
+
 ### [aspose word to pdf – Convert DOCX to PDF in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Learn how to convert DOCX files to PDF using Aspose.Words for Java with simple code examples.
+
+### [How to Save PDF from Word with Inline Shapes – Complete Guide](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Learn how to convert Word documents to PDF while preserving inline shapes using Aspose.Words for Java in this comprehensive guide.
 
 ### [How to Embed Images in Markdown When Converting DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Learn how to embed images from DOCX files into Markdown during conversion using Aspose.Words for Java.
 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
-Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
+Learn how to generate accessible PDFs from DOCX using Aspose.Words for Java, ensuring compliance with accessibility standards.
 
 ## Frequently Asked Questions
 

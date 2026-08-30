@@ -104,6 +104,8 @@ Manfaatkan Kekuatan Aspose.Words untuk Java. Kuasai Opsi dan Pengaturan Dokumen 
 Optimalkan manajemen dokumen dengan Aspose.Words untuk Java. Pelajari cara bekerja dengan properti dokumen, menambahkan metadata khusus, dan banyak lagi dalam tutorial lengkap ini.
 ### [Menggunakan Ekstensi Web di Aspose.Words untuk Java](./using-web-extensions/)
 Sempurnakan Dokumen dengan Ekstensi Web di Aspose.Words untuk Java. Pelajari cara mengintegrasikan konten berbasis web dengan lancar. 
+### [Penandaan Aksesibilitas PDF di Java – Menghasilkan PDF yang Dapat Diakses](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Pelajari cara menandai PDF untuk aksesibilitas menggunakan Aspose.Words untuk Java, menghasilkan PDF yang ramah pembaca layar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

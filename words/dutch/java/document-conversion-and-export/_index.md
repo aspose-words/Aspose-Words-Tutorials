@@ -89,6 +89,9 @@ Leer hoe je watermarks toevoegt aan documenten in Aspose.Words for Java. Pas tek
 ### [Aspose Word naar PDF – DOCX naar PDF converteren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Leer hoe je DOCX-bestanden eenvoudig naar PDF converteert met Aspose.Words for Java in één regel code.
 
+### [Hoe PDF opslaan vanuit Word met Inline Shapes – Complete Gids](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Leer hoe je een PDF opslaat vanuit een Word‑document met inline‑afbeeldingen, inclusief behoud van opmaak en kwaliteit.
+
 ### [Maak Toegankelijke PDF van DOCX – Complete Gids](./create-accessible-pdf-from-docx-complete-guide/)
 Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt van een DOCX, inclusief tags, structuur en leesbaarheid voor schermlezers.
 
@@ -103,6 +106,12 @@ Leer hoe je afbeeldingen in Markdown kunt inbedden tijdens het converteren van D
 
 ### [Document opslaan als TXT – Snelle gids voor het exporteren van Word-wiskunde](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Leer hoe je een Word‑document als TXT opslaat en wiskundige vergelijkingen exporteert met Aspose.Words for Java.
+
+### [Hoe LaTeX exporteren van DOCX naar TXT met Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Leer hoe je LaTeX‑formules uit een DOCX‑bestand exporteert naar een TXT‑bestand met Aspose.Words for Java.
+
+### [Export Word naar Markdown in Java – Document opslaan als Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Leer hoe je een Word‑document exporteert naar Markdown met Aspose.Words for Java en het opslaat als .md‑bestand.
 
 ## Veelgestelde Vragen
 

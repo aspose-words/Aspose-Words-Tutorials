@@ -104,6 +104,8 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Nutzen Sie di
 Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr.
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
+### [PDF-Zugänglichkeits-Tagging in Java – Barrierefreie PDFs generieren](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java PDFs barrierefrei taggen und zugängliche Dokumente erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

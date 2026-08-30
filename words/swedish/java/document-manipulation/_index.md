@@ -82,6 +82,8 @@ Lär dig hur du förbättrar dokumentformatering med Aspose.Words för Java. Utf
 Lär dig hur du genererar och anpassar innehållsförteckningar (TOC) med Aspose.Words för Java. Skapa enkelt organiserade och professionella dokument.
 ### [Skydda dokument i Aspose.Words för Java](./protecting-documents/)
 Lär dig hur du säkrar dina Java Word-dokument med Aspose.Words för Java. Skydda dina data med lösenord och mer.
+### [PDF-tillgänglighetstaggar i Java – Generera tillgängliga PDF-filer](./pdf-accessibility-tagging-in-java-generate-accessible-pdfs/)
+Lär dig hur du taggar PDF-dokument för tillgänglighet i Java och skapar tillgängliga PDF-filer med Aspose.Words.
 ### [Dela upp dokument i sidor i Aspose.Words för Java](./splitting-documents-into-pages/)
 Lär dig hur du delar upp dokument i sidor med Aspose.Words för Java. Steg-för-steg-guide med källkod för effektiv dokumenthantering.
 ### [Dela dokument i Aspose.Words för Java](./splitting-documents/)

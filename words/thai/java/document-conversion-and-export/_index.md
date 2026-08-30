@@ -70,6 +70,9 @@ For more information, check out the [Aspose.Words for Java API Documentation](ht
 ### [แปลง docx เป็น markdown – ส่งออกสมการคณิตศาสตร์เป็น LaTeX ด้วย Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown พร้อมส่งออกสมการคณิตศาสตร์เป็นรูปแบบ LaTeX ด้วย Aspose.Words
 
+### [ส่งออก Word เป็น Markdown ใน Java – บันทึกเอกสารเป็น Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+เรียนรู้วิธีส่งออกไฟล์ Word เป็น Markdown ด้วย Java โดยใช้ Aspose.Words
+
 ### [วิธีฝังรูปภาพใน Markdown เมื่อแปลง DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 เรียนรู้วิธีฝังรูปภาพลงในไฟล์ Markdown ระหว่างการแปลง DOCX ด้วย Aspose.Words
 
@@ -97,11 +100,17 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [บันทึกเอกสารเป็น TXT – คู่มือด่วนสำหรับการส่งออกสมการ Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น TXT พร้อมส่งออกสมการคณิตศาสตร์อย่างง่ายและรวดเร็วด้วย Aspose.Words for Java
 
+### [วิธีส่งออก LaTeX จาก DOCX ไปเป็น TXT ด้วย Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+เรียนรู้วิธีส่งออก LaTeX จากไฟล์ DOCX ไปเป็น TXT ด้วย Aspose.Words
+
 ### [Aspose.Words to PDF – แปลง DOCX เป็น PDF ด้วย Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF อย่างง่ายด้วย Aspose.Words for Java
 
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
+
+### [วิธีบันทึก PDF จาก Word พร้อม Inline Shapes – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF จากเอกสาร Word ที่มี Inline Shapes อย่างครบถ้วนด้วย Aspose.Words for Java
 
 ## คำถามที่พบบ่อย
 

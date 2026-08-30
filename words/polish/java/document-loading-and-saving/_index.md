@@ -136,6 +136,9 @@ Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX i przywrócić ich zaw
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Dowiedz się, jak przechwytywać i obsługiwać ostrzeżenia o podstawianiu czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
 
+### [Wykrywanie brakującej podstawy czcionek w Javie – Kompletny przewodnik Aspose.Words](./detect-missing-font-substitution-in-java-complete-aspose-wor/)
+Dowiedz się, jak wykrywać ostrzeżenia o brakującej podstawie czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+
 ## Najczęściej zadawane pytania
 
 **Q:** Jak programowo **save images from word** dokumenty?  

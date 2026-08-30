@@ -101,14 +101,23 @@ weight: 22
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 
+### [كيفية تصدير LaTeX من DOCX إلى TXT باستخدام Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+تعلم كيفية استخراج صيغ LaTeX من مستندات DOCX وحفظها كملفات TXT باستخدام Aspose.Words.
+
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
+
+### [كيفية حفظ PDF من Word مع الأشكال المضمنة – دليل شامل](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+تعلم كيفية حفظ مستند Word كملف PDF مع الحفاظ على الأشكال المضمنة باستخدام Aspose.Words for Java.
 
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [تصدير Word إلى Markdown في Java – حفظ المستند كملف Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+تعلم كيفية تصدير مستندات Word إلى صيغة Markdown باستخدام Aspose.Words for Java وحفظها كملف Markdown.
 
 ## الأسئلة المتكررة
 

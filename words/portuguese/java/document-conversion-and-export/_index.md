@@ -83,6 +83,9 @@ Desbloqueie o poder de equações matemáticas em documentos com Aspose.Words pa
 ### [Salvar Documento como TXT – Guia Rápido para Exportar Equações do Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aprenda a salvar documentos Word como arquivos TXT preservando equações matemáticas usando Aspose.Words para Java.
 
+### [Como Exportar LaTeX de DOCX para TXT com Aspose.Words](./how-to-export-latex-from-docx-to-txt-with-aspose-words/)
+Aprenda a exportar conteúdo LaTeX de arquivos DOCX para TXT usando Aspose.Words for Java.
+
 ### [Usando Formas de Documento no Aspose.Words para Java](./using-document-shapes/)
 Desbloqueie o Poder das Formas de Documento no Aspose.Words para Java. Aprenda a criar documentos visualmente atraentes com exemplos passo a passo.
 
@@ -95,8 +98,14 @@ Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java
 ### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
 
+### [Exportar Word para Markdown em Java – Salvar Documento como Markdown](./export-word-to-markdown-in-java-save-document-as-markdown/)
+Aprenda a converter documentos Word em arquivos Markdown usando Aspose.Words para Java neste tutorial passo a passo.
+
 ### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
+
+### [Como Salvar PDF a partir do Word com Formas Inline – Guia Completo](./how-to-save-pdf-from-word-with-inline-shapes-complete-guide/)
+Aprenda a salvar documentos Word como PDF preservando formas inline usando Aspose.Words para Java neste guia completo.
 
 ### [Como Incorporar Imagens em Markdown ao Converter DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words for Java.
