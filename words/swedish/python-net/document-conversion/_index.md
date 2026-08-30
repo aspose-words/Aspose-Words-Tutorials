@@ -37,6 +37,12 @@ Lär dig dokumentkonvertering i Python med Aspose.Words för Python. Konvertera,
 Lär dig hur du konverterar Word-dokument till Markdown med Aspose.Words för Python. Steg-för-steg-instruktioner och kodexempel.
 ### [Återställ korrupt DOCX och konvertera Word till Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Lär dig hur du återställer korrupta DOCX-filer och konverterar Word-dokument till Markdown med Aspose.Words för Python.
+### [Spara DOCX som TXT – Exportera Word-matematik till LaTeX med Python](./save-docx-as-txt-export-word-math-to-latex-with-python/)
+Lär dig hur du sparar DOCX-filer som TXT och exporterar Word-matematik till LaTeX med Aspose.Words för Python.
+### [Skapa tillgänglig PDF med Python – Komplett steg‑för‑steg‑guide](./generate-accessible-pdf-with-python-complete-step-by-step-gu/)
+Lär dig hur du skapar PDF-filer som uppfyller tillgänglighetsstandarder med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
+### [Skapa PDF från Word-dokument i Python – Steg‑för‑steg‑guide](./create-pdf-from-word-document-in-python-step-by-step-guide/)
+Lär dig hur du skapar PDF-filer från Word-dokument med Aspose.Words för Python. Steg‑för‑steg‑instruktioner och kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

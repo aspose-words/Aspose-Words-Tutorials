@@ -25,40 +25,18 @@
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
 ### [Προηγμένη Επεξεργασία PDF με Aspose.Words για Python: Ένας Πλήρης Οδηγός](./aspose-words-python-pdf-manipulation/)
-Μάθετε πώς να χειρίζεστε PDF χρησιμοποιώντας το Aspose.Words για Python. Μετατρέψτε, επεξεργαστείτε και χειριστείτε κρυπτογραφημένα έγγραφα με ευκολία.
-
     ### [Convert DOCX to Fixed-Form XAML in Python Using Aspose.Words&#58; A Comprehensive Guide](./python-docx-to-xaml-aspose-tutorial/)
-Μάθετε πώς να μετατρέπετε έγγραφα Microsoft Word (DOCX) σε XAML σταθερής μορφής χρησιμοποιώντας το Aspose.Words για Python, διασφαλίζοντας αποτελεσματική διαχείριση πόρων και ακεραιότητα σχεδιασμού.
-
     ### [Efficient RTF Loading in Python&#58; Detect UTF-8 Encoding with Aspose.Words](./optimize-rtf-loading-aspose-python-utf8-detection/)
-Μάθετε πώς να φορτώνετε αποτελεσματικά έγγραφα RTF και να ανιχνεύετε κωδικοποίηση UTF-8 χρησιμοποιώντας το Aspose.Words για Python. Βελτιώστε την ακρίβεια χειρισμού κειμένου στα έργα σας.
-
     ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
-Μάθετε πώς να επιλύετε κατεστραμμένους συνδέσμους σε αρχεία .chm χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.Words. Βελτιώστε την αξιοπιστία των εγγράφων σας και την εμπειρία χρήστη με αυτόν τον αναλυτικό οδηγό.
-
     ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
-Μάθετε πώς να χρησιμοποιείτε το Aspose.Words για Python για να μετατρέπετε έγγραφα Word σε ξεχωριστές σελίδες HTML χρησιμοποιώντας προσαρμοσμένες ανακλήσεις. Ιδανικό για διαχείριση εγγράφων και δημοσίευση στο διαδίκτυο.
-
     ### [Master Aspose.Words Markdown Load Options in Python for Enhanced Document Processing](./aspose-words-markdown-load-options-python/)
-Μάθετε να διαχειρίζεστε και να επεξεργάζεστε αποτελεσματικά αρχεία markdown χρησιμοποιώντας τη λειτουργία MarkdownLoadOptions του Aspose.Words σε Python. Βελτιώστε τις ροές εργασίας των εγγράφων σας με ακριβή έλεγχο της μορφοποίησης.
-
     ### [Master Aspose.Words for Python&#58; Efficiently Manage and Automate Word Documents](./master-aspose-words-python-managing-word-docs/)
-Μάθετε να φορτώνετε, να διαχειρίζεστε και να αυτοματοποιείτε έγγραφα του Microsoft Word με το Aspose.Words σε Python. Βελτιστοποιήστε τις εργασίες επεξεργασίας εγγράφων σας χωρίς κόπο.
-
     ### [Master Document Loading with Aspose.Words for Python](./mastering-aspose-words-document-loading-python/)
-Ένα σεμινάριο κώδικα για το Aspose.Words Python-net
-
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
-Μάθετε πώς να περιορίζετε τα επίπεδα επικεφαλίδων και να εφαρμόζετε ψηφιακές υπογραφές σε έγγραφα XPS χρησιμοποιώντας το Aspose.Words για Python, βελτιώνοντας την ασφάλεια και την πλοήγηση των εγγράφων.
-
     ### [Mastering DocSaveOptions&#58; Password & Temp Folder in Aspose.Words](./mastering-docsaveoptions-password-temp-folder-aspose-words-python/)
-Ένα σεμινάριο κώδικα για το Aspose.Words Python-net
-
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
-Μάθετε πώς να μετατρέπετε έγγραφα Word σε μορφή PostScript χρησιμοποιώντας το Aspose.Words για Python. Αυτός ο οδηγός καλύπτει τις επιλογές ρύθμισης, μετατροπής και εκτύπωσης σε μορφή βιβλίου.
-
     ### [Ανάκτηση Κατεστραμμένου DOCX – Άνοιγμα & Φόρτωση Εγγράφου Word](./recover-corrupted-docx-open-load-word-document/)
-Μάθετε πώς να ανοίξετε και να φορτώσετε έγγραφα Word DOCX που είναι κατεστραμμένα, αποκαθιστώντας τα δεδομένα τους.
+    ### [Ανάκτηση Κατεστραμμένου DOCX – Πλήρης Οδηγός Python](./recover-corrupted-docx-complete-python-guide/)
 
 ## Πρόσθετοι Πόροι
 

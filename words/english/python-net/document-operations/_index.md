@@ -51,6 +51,9 @@ A code tutorial for Aspose.Words Python-net
     ### [Recover Corrupted DOCX – Open & Load Word Document](./recover-corrupted-docx-open-load-word-document/)
 Learn how to recover and open corrupted DOCX files using Aspose.Words for Python-net.
 
+    ### [Recover Corrupted DOCX – Complete Python Guide](./recover-corrupted-docx-complete-python-guide/)
+Learn how to fully recover corrupted DOCX files using Aspose.Words for Python-net.
+
     ### [Master Document Management with Aspose.Words in Python&#58; Limit Headings & Sign XPS Documents](./aspose-words-python-document-management/)
 Learn how to limit heading levels and apply digital signatures in XPS documents using Aspose.Words for Python, enhancing document security and navigation.
 
