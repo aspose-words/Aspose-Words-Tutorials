@@ -72,6 +72,10 @@ Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create i
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
 Explore Aspose.Words for Java: A comprehensive guide on using sections. Add, delete, append, clone sections with code examples.
+### [How to Add Button to Word Document – Step‑by‑Step Guide](./how-to-add-button-to-word-document-step-by-step-guide/)
+Learn how to add a button to a Word document using Aspose.Words for Java. Follow this step‑by‑step guide for developers.
+### [how to insert pie chart in Word – add data label percent](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Learn how to insert a pie chart in Word and add data label percentages using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

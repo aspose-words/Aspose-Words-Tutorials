@@ -90,6 +90,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words Java 고급 HTML 문서 저장 옵션](./advance-html-documents-saving-options/)
 ### [Aspose.Words for Java에서 문서 이미지 저장](./saving-images-from-documents/)
 ### [Aspose.Words for Java로 문서를 Markdown으로 저장](./saving-documents-as-markdown/)
+### [Java에서 Markdown 로드하기 – 완전 가이드](./how-to-load-markdown-in-java-complete-guide/)
 ### [Aspose.Words for Java로 문서를 ODT 형식으로 저장](./saving-documents-as-odt-format/)
 ### [Aspose.Words for Java로 문서를 OOXML 형식으로 저장](./saving-documents-as-ooxml-format/)
 ### [Aspose.Words for Java로 문서를 PCL 형식으로 저장](./saving-documents-as-pcl-format/)

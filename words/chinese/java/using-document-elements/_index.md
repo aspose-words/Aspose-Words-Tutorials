@@ -71,6 +71,11 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Word 中插入饼图并添加数据标签百分比](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+学习在 Aspose.Words for Java 中插入饼图并添加显示百分比的数据标签。
+
+### [在 Aspose.Words for Java 中向 Word 文档添加按钮 – 步骤指南](./how-to-add-button-to-word-document-step-by-step-guide/)
+本教程逐步演示如何使用 Aspose.Words for Java 在 Word 文档中插入按钮并设置其属性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

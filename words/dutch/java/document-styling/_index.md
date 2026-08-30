@@ -43,6 +43,8 @@ Leer hoe u documentthema's kunt aanpassen met Aspose.Words voor Java. Deze uitge
 Leer hoe u watermerken kunt toepassen en paginaconfiguraties kunt instellen met Aspose.Words voor Java. Een uitgebreide handleiding met broncode.
 ### [Stijl van documentkoptekst en -voettekst](./document-header-footer-styling/)
 Leer hoe je documentkopteksten en -voetteksten kunt stylen met Aspose.Words voor Java in deze gedetailleerde handleiding. Inclusief stapsgewijze instructies en broncode.
+### [Voetnootafstand wijzigen in DOCX – Complete gids](./change-footnote-spacing-in-docx-complete-guide/)
+Leer hoe u de afstand tussen voetnoten aanpast in DOCX-bestanden met Aspose.Words voor Java. Stapsgewijze handleiding met codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

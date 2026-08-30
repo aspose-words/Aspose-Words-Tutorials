@@ -94,6 +94,9 @@ Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie 
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
 
+### [Markdown in Java laden – Vollständiger Leitfaden](./how-to-load-markdown-in-java-complete-guide/)
+Erfahren Sie, wie Sie Markdown‑Dateien in Java mit Aspose.Words laden und verarbeiten – vollständige Schritt‑für‑Schritt‑Anleitung.
+
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.
 

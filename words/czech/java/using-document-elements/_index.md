@@ -71,6 +71,10 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Jak přidat tlačítko do dokumentu Word – krok za krokem](./how-to-add-button-to-word-document-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vložit interaktivní tlačítko do dokumentu Word s podrobným návodem.
+### [Jak vložit koláčový graf do Wordu – přidat procentuální popisek dat](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Naučte se, jak vytvořit koláčový graf ve Wordu a přidat k němu procentuální popisky dat pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

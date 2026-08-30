@@ -71,6 +71,9 @@
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
 استكشف Aspose.Words في جافا: دليل شامل لاستخدام الأقسام. أضف أقسامًا، احذفها، أضف إليها، انسخها مع أمثلة برمجية.
+### [كيفية إدراج مخطط دائري في Word – إضافة نسبة تسمية البيانات](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+تعلم كيفية إدراج مخطط دائري في مستند Word وإضافة نسبة تسمية البيانات باستخدام Aspose.Words لجافا.
+### [كيفية إضافة زر إلى مستند Word – دليل خطوة بخطوة](./how-to-add-button-to-word-document-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

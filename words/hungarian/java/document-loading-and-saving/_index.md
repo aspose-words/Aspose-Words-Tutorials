@@ -91,6 +91,7 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ### [Haladó HTML dokumentumok mentési beállításai Aspose.Words Java‑val](./advance-html-documents-saving-options/)
 ### [Képek mentése dokumentumokból Aspose.Words for Java‑val](./saving-images-from-documents/)
 ### [Dokumentumok mentése Markdown formátumban Aspose.Words for Java‑val](./saving-documents-as-markdown/)
+### [Markdown betöltése Java‑ban – Teljes útmutató](./how-to-load-markdown-in-java-complete-guide/)
 ### [Dokumentumok mentése ODT formátumban Aspose.Words for Java‑val](./saving-documents-as-odt-format/)
 ### [Dokumentumok mentése OOXML formátumban Aspose.Words for Java‑val](./saving-documents-as-ooxml-format/)
 ### [Dokumentumok mentése PCL formátumban Aspose.Words for Java‑val](./saving-documents-as-pcl-format/)

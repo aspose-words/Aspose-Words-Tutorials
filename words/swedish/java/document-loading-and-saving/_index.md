@@ -135,6 +135,9 @@ Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Word
 
 ### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 
+### [Ladda Markdown i Java – Komplett guide](./how-to-load-markdown-in-java-complete-guide/)
+Lär dig hur du läser och bearbetar Markdown-filer i Java med Aspose.Words, inklusive kodexempel och avancerade alternativ.
+
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  

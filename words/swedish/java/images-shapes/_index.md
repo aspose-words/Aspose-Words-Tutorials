@@ -37,6 +37,15 @@ Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassa
 ### [Skapa Word-dokument Java – Lägg till rektangel med skuggeffekt](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Lär dig hur du lägger till en rektangel med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
 
+### [Skapa tomt Word-dokument med grupperad form – Java-guide](./create-blank-word-document-with-grouped-shape-java-guide/)
+Lär dig hur du skapar ett tomt Word-dokument och lägger till en grupperad form med Aspose.Words för Java.
+
+### [Skapa Word-dokument Java – Infoga och dölja bilder med Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Lär dig hur du infogar och döljer bilder i ett Word-dokument med Aspose.Words för Java.
+
+### [Infoga cirkeldiagram i Java – Explodera, rotera och markera segment](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Lär dig hur du skapar och anpassar ett cirkeldiagram i ett Word-dokument med Aspose.Words för Java, inklusive att explodera, rotera och markera segment.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

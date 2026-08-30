@@ -136,6 +136,9 @@ Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identi
 ### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 
+### [Comment charger le Markdown en Java – Guide complet](./how-to-load-markdown-in-java-complete-guide/)
+Apprenez à charger des fichiers Markdown en Java avec Aspose.Words, incluant les options de configuration et des exemples de code.
+
 ## Foire aux questions
 
 **Q:** Comment puis‑je **save images from word** programmatically ?  

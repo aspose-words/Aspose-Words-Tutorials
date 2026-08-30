@@ -43,6 +43,8 @@ Dowiedz się, jak dostosować motywy dokumentów za pomocą Aspose.Words for Jav
 Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose.Words dla Java. Kompleksowy przewodnik z kodem źródłowym.
 ### [Stylizacja nagłówka i stopki dokumentu](./document-header-footer-styling/)
 Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy.
+### [Zmiana odstępu przypisów w DOCX – Kompletny przewodnik](./change-footnote-spacing-in-docx-complete-guide/)
+Dowiedz się, jak zmienić odstępy przypisów w dokumentach DOCX przy użyciu Aspose.Words for Java. Praktyczny przewodnik z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

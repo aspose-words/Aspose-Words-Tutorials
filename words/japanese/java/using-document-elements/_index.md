@@ -63,6 +63,8 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 このステップバイステップのチュートリアルで、Aspose.Words for Java のリストの使い方を学びましょう。ドキュメントを効果的に整理し、フォーマットしましょう。
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
+### [Aspose.Words for Java で円グラフを挿入し、データ ラベルにパーセンテージを追加](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Aspose.Words for Java を使用して、Word 文書に円グラフを挿入し、データ ラベルにパーセンテージを表示する手順を学びます。
 ### [Aspose.Words for Java でのノードの使用](./using-nodes/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
 ### [Aspose.Words for Java での OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
@@ -71,6 +73,8 @@ Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使�
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [Word 文書にボタンを追加する方法 – ステップバイステップガイド](./how-to-add-button-to-word-document-step-by-step-guide/)
+Aspose.Words for Javaを使用して、Word 文書にボタンを挿入し、機能させる手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

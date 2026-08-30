@@ -41,6 +41,8 @@ Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java verschlüsseln und en
 Erfahren Sie, wie Sie mit Aspose.Words für Java sichere digitale Signaturen in Dokumenten implementieren. Sichern Sie die Dokumentintegrität mit Schritt-für-Schritt-Anleitung und Quellcode
 ### [Dokumentenredaktion und Datenschutz](./document-redaction-data-protection/)
 Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java sichern und vertrauliche Daten schwärzen. Schritt-für-Schritt-Anleitung mit Quellcode.
+### [Digitale PFX‑Signaturdatei in Java – Vollständige Anleitung](./digital-signature-pfx-file-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java digitale PFX‑Signaturdateien erstellen und einsetzen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

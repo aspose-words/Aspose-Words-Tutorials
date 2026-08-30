@@ -37,6 +37,15 @@ Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus
 ### [Buat Dokumen Word Java – Tambahkan Bentuk Persegi Panjang dengan Efek Bayangan](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Pelajari cara menambahkan bentuk persegi panjang dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Buat dokumen Word kosong dengan shape berkelompok – Panduan Java](./create-blank-word-document-with-grouped-shape-java-guide/)
+Pelajari cara membuat dokumen Word kosong dan menambahkan shape yang dikelompokkan menggunakan Aspose.Words untuk Java.
+
+### [Buat Dokumen Word Java – Sisipkan dan Sembunyikan Gambar dengan Aspose.Words](./create-word-document-java-insert-and-hide-images-with-aspose/)
+Pelajari cara menyisipkan gambar ke dalam dokumen Word dan menyembunyikannya menggunakan Aspose.Words untuk Java.
+
+### [Sisipkan Diagram Pai di Java – Pecah, Putar & Sorot Irisan](./insert-pie-chart-in-java-explode-rotate-highlight-slices/)
+Pelajari cara menyisipkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java, termasuk memecah, memutar, dan menyorot irisan.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

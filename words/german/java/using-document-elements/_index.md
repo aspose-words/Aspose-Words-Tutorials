@@ -71,6 +71,10 @@ Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words fü
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
+### [Schaltfläche zu Word-Dokument hinzufügen – Schritt-für-Schritt-Anleitung](./how-to-add-button-to-word-document-step-by-step-guide/)
+Erfahren Sie, wie Sie in Aspose.Words für Java eine Schaltfläche in ein Word-Dokument einfügen und konfigurieren.
+### [Kreisdiagramm in Word einfügen – Prozentuale Datenbeschriftungen hinzufügen](./how-to-insert-pie-chart-in-word-add-data-label-percent/)
+Erfahren Sie, wie Sie ein Kreisdiagramm in Word einfügen und Prozentwerte als Datenbeschriftungen anzeigen lassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
