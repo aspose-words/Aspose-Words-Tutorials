@@ -41,6 +41,8 @@
 了解如何使用 Aspose.Words for Java 在文件中實作安全數位簽章。透過逐步指導和原始碼確保文件的完整性
 ### [文檔編輯和資料保護](./document-redaction-data-protection/)
 了解如何使用 Aspose.Words for Java 保護您的文件並編輯敏感資料。帶有原始程式碼的分步指南。
+### [如何在 C# 中簽署 DOCX 檔案 – 完整步驟指南](./how-to-sign-docx-files-in-c-complete-step-by-step-guide/)
+使用 Aspose.Words for C# 簽署 DOCX 檔案，提供完整步驟說明與範例程式碼，確保文件安全與完整性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

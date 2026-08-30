@@ -67,10 +67,14 @@ Pelajari cara menggunakan Markdown di Aspose.Words untuk Java dengan tutorial la
 Pelajari cara memanipulasi node di Aspose.Words untuk Java dengan tutorial langkah demi langkah ini. Dapatkan kekuatan pemrosesan dokumen.
 ### [Menggunakan Objek OLE dan Kontrol ActiveX di Aspose.Words untuk Java](./using-ole-objects-and-activex/)
 Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Java. Buat dokumen interaktif dengan mudah. Mulailah sekarang!
+### [Cara Menyisipkan Tombol ActiveX di Word – Mengatur Caption Tombol](./how-to-insert-activex-button-in-word-set-button-caption/)
+Pelajari cara menyisipkan tombol ActiveX di dokumen Word dan mengatur caption tombolnya dengan Aspose.Words untuk Java.
 ### [Menggunakan Revisi di Aspose.Words untuk Java](./using-revisions/)
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Menyisipkan Diagram Pai di Word dengan Aspose.Words – Panduan Lengkap](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Pelajari cara menyisipkan diagram pai di dokumen Word menggunakan Aspose.Words dengan panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

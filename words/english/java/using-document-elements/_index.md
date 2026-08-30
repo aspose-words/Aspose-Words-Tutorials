@@ -51,7 +51,7 @@ Learn to use Aspose.Words for Java fields effectively in this step-by-step tutor
 ### [Using Fonts in Aspose.Words for Java](./using-fonts/)
 Explore font formatting in Aspose.Words for Java: size, style, color, and more. Create beautifully formatted documents with ease.
 ### [Using Footnotes and Endnotes in Aspose.Words for Java](./using-footnotes-and-endnotes/)
-Learn to use footnotes and endnotes effectively in Aspose.Words for Java. Enhance your document formatting skills today!
+Learn to use footnotes and endnotes effectively in Aspose.Words for Java. Enhance document formatting skills today!
 ### [Using Form Fields in Aspose.Words for Java](./using-form-fields/)
 "Learn to use Aspose.Words for Java to create interactive Word documents with form fields. Get started now!"
 ### [Using HarfBuzz in Aspose.Words for Java](./using-harfbuzz/)
@@ -68,6 +68,10 @@ Learn to use Markdown in Aspose.Words for Java with this step-by-step tutorial. 
 Learn to manipulate nodes in Aspose.Words for Java with this step-by-step tutorial. Unlock document processing power.
 ### [Using OLE Objects and ActiveX Controls in Aspose.Words for Java](./using-ole-objects-and-activex/)
 Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create interactive documents with ease. Get started now!
+### [How to Insert ActiveX Button in Word – Set Button Caption](./how-to-insert-activex-button-in-word-set-button-caption/)
+Learn how to insert an ActiveX button in Word and set its caption using Aspose.Words for Java.
+### [Insert Pie Chart in Word with Aspose.Words – Complete Guide](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Learn how to insert and customize pie charts in Word documents using Aspose.Words for Java in this comprehensive step-by-step guide.
 ### [Using Revisions in Aspose.Words for Java](./using-revisions/)
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)

@@ -67,10 +67,14 @@ Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Markdown in Aspose.Words f�
 Lernen Sie mit diesem Schritt-für-Schritt-Tutorial, Knoten in Aspose.Words für Java zu manipulieren. Entfesseln Sie die Leistung der Dokumentverarbeitung.
 ### [Verwenden von OLE-Objekten und ActiveX-Steuerelementen in Aspose.Words für Java](./using-ole-objects-and-activex/)
 Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words für Java verwenden. Erstellen Sie mühelos interaktive Dokumente. Jetzt starten!
+### [ActiveX-Schaltfläche in Word einfügen – Beschriftung festlegen](./how-to-insert-activex-button-in-word-set-button-caption/)
+Erfahren Sie, wie Sie in Aspose.Words für Java eine ActiveX-Schaltfläche einfügen und deren Beschriftung festlegen.
 ### [Verwenden von Revisionen in Aspose.Words für Java](./using-revisions/)
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
+### [Einfügen von Kreisdiagrammen in Word mit Aspose.Words – Komplettanleitung](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Kreisdiagramm in ein Word-Dokument einfügen und formatieren – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

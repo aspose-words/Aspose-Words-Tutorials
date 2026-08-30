@@ -103,6 +103,8 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ที่รองรับการเข้าถึงสำหรับผู้ใช้ทุกคนด้วย Aspose.Words
 
+### [บันทึก DOCX เป็น Markdown – คู่มือ Java ฉบับสมบูรณ์](./save-docx-as-markdown-complete-java-guide/)
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันจะเพิ่มลายน้ำให้กับ PDF ที่มีอยู่โดยใช้ Aspose.Words อย่างไร?**  

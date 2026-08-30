@@ -71,6 +71,10 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Word 中插入 ActiveX 按钮 – 设置按钮标题](./how-to-insert-activex-button-in-word-set-button-caption/)
+学习在 Aspose.Words for Java 中插入 ActiveX 按钮并设置其标题，实现交互式文档功能。
+### [在 Word 中使用 Aspose.Words 插入饼图 – 完整指南](./insert-pie-chart-in-word-with-aspose-words-complete-guide/)
+学习如何使用 Aspose.Words 在 Word 文档中插入并自定义饼图，涵盖数据绑定、样式设置和导出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
