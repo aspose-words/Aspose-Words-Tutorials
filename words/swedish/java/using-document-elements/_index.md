@@ -71,6 +71,8 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Lägg till Forms2OleControl i DOCX – Komplett Aspose.Words-guide](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Lär dig hur du lägger till Forms2OleControl i DOCX-filer med en komplett Aspose.Words-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

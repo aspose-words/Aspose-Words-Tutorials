@@ -100,6 +100,9 @@ Hướng dẫn cách lưu tài liệu Word thành tệp TXT và xuất công th�
 ### [Cách Nhúng Hình Ảnh vào Markdown Khi Chuyển Đổi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Hướng dẫn nhúng hình ảnh vào tài liệu Markdown trong quá trình chuyển đổi từ DOCX, bao gồm các tùy chọn và ví dụ mã nguồn.
 
+### [Lưu Tài Liệu dưới dạng DOCX – Chuyển Đổi Markdown sang Word bằng Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Hướng dẫn chuyển đổi nội dung Markdown thành tài liệu Word (DOCX) bằng Aspose.Words for Java trong vài bước đơn giản.
+
 ### [Tạo PDF Truy cập được từ DOCX – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG và hỗ trợ công cụ đọc màn hình.
 

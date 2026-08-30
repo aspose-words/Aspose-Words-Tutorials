@@ -71,6 +71,8 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Menambahkan Forms2OleControl ke DOCX – Panduan Lengkap Aspose.Words](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Pelajari cara menambahkan kontrol Forms2OleControl ke file DOCX menggunakan Aspose.Words untuk Java dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

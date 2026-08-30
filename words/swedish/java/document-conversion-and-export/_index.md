@@ -81,6 +81,9 @@ Lär dig hur du skapar och anpassar diagram i Aspose.Words for Java. Utforska di
 ### [Använda Office Math‑objekt i Aspose.Words for Java](./using-office-math-objects/)
 Utnyttja kraften i matematiska ekvationer i dokument med Aspose.Words for Java. Lär dig att enkelt manipulera och visa Office Math‑objekt.
 
+### [Spara dokument som DOCX – Konvertera Markdown till Word med Java](./save-document-as-docx-convert-markdown-to-word-with-java/)
+Lär dig hur du sparar ett dokument som DOCX genom att konvertera Markdown till Word med Aspose.Words för Java.
+
 ### [Spara dokument som TXT – Snabbguide för export av Word-matematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Lär dig hur du sparar ett Word‑dokument som TXT och exporterar matematiska ekvationer med Aspose.Words.
 

@@ -88,6 +88,7 @@ Word ドキュメント（DOC、DOCX、RTF など）を PDF ファイルに変�
 - [HTML からドキュメントへの変換](./converting-html-documents/)
 - [SaveOptions を使用したドキュメント変換](./document-conversion-saveoptions/)
 - [ドキュメントを画像へ変換](./converting-documents-images/)
+- [docx を markdown に変換 – Java 開発者のための完全ガイド](./convert-docx-to-markdown-complete-guide-for-java-developers/)
 
 ## よくある質問
 

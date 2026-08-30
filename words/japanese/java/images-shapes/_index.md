@@ -37,6 +37,9 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 ### [JavaでWord文書を作成 – 影付き長方形シェイプを追加](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 JavaでWord文書に影効果付きの長方形シェイプを追加し、視覚的に魅力的なレイアウトを作成する方法を学びます。
 
+### [C#で空白のWord文書を作成 – グループ化された長方形](./create-blank-word-document-with-grouped-rectangles-c-guide/)
+C# を使用して、グループ化された長方形を含む空白の Word 文書を作成する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

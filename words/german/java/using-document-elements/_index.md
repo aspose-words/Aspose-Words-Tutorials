@@ -71,6 +71,8 @@ Erfahren Sie, wie Sie OLE-Objekte und ActiveX-Steuerelemente in Aspose.Words fü
 Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schritt-für-Schritt-Anleitung für Entwickler. Optimieren Sie Ihr Dokumentenmanagement.
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
+### [Forms2OleControl zu DOCX hinzufügen – Vollständige Aspose.Words-Anleitung](./add-forms2olecontrol-to-docx-complete-aspose-words-guide/)
+Erfahren Sie, wie Sie Forms2OleControl zu DOCX hinzufügen und OLE‑Steuerelemente einbetten. Detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

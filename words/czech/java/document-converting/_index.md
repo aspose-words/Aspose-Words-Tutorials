@@ -91,6 +91,9 @@ Naučte se, jak exportovat dokumenty do PDF pomocí Aspose.Words pro Java. Tento
 ### [Převod dokumentů do různých formátů](./converting-documents-different-formats/)
 Naučte se, jak převádět dokumenty do různých formátů pomocí Aspose.Words pro Java. Praktický průvodce pro efektivní převod dokumentů.
 
+### [Převod docx do markdown – Kompletní průvodce pro vývojáře Java](./convert-docx-to-markdown-complete-guide-for-java-developers/)
+Naučte se převádět soubory DOCX do formátu Markdown v Javě pomocí Aspose.Words, včetně ukázek kódu a tipů pro zachování formátování.
+
 ### [Převod HTML na dokumenty](./converting-html-documents/)
 Převádějte HTML na Word dokumenty snadno s Aspose.Words pro Java. Naučte se provést tento převod během několika kroků v našem komplexním průvodci.
 
