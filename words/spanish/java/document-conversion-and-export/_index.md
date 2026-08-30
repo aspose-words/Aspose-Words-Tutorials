@@ -119,6 +119,9 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
 
+### [Guardar Word como Markdown – Exportar tablas a HTML en Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Aprende a guardar documentos Word como Markdown y exportar tablas a HTML usando Aspose.Words for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

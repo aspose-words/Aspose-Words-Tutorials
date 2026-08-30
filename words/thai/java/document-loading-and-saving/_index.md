@@ -94,6 +94,8 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [การกำหนดรูปแบบเอกสารใน Aspose.Words for Java](./determining-document-format/)
 ### [กู้ไฟล์ docx ที่เสีย – คู่มือฉบับเต็มสำหรับการแก้ไขและประมวลผลเอกสาร](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [วิธีบันทึกไฟล์ DOCX ด้วย Java – คู่มือแทรก Content Control](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+### [สร้างเอกสาร Word ว่างด้วย Java – คู่มือ Aspose.Words ฉบับเต็ม](./create-blank-word-document-with-java-full-aspose-words-guide/)
 
 ## คำถามที่พบบ่อย
 

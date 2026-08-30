@@ -48,7 +48,7 @@ Voici un aperçu concis du flux de travail typique. (Le code réel est présent�
 2. **Itérer à travers le `NodeCollection` du document** pour trouver les nœuds `Shape` contenant des images.  
 3. **Extraire chaque image** via l'API `Shape.getImageData()` et l'écrire dans un fichier avec `ImageData.save()`.
 
-> *Astuce :* Utilisez `Document.getChildNodes(NodeType.SHAPE, true)` pour récupérer toutes les formes, y compris celles situées dans les en‑têtes, pieds de page et notes de bas de page.
+> *Astuce :* Utilisez `Document.getChildNodes(NodeType.SHA​PE, true)` pour récupérer toutes les formes, y compris celles situées dans les en‑têtes, pieds de page et notes de bas de page.
 
 ## Chargement et enregistrement de documents – Concepts de base
 
@@ -135,6 +135,12 @@ Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identi
 
 ### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
+
+### [Comment enregistrer un fichier DOCX avec Java – Guide d’insertion de contrôles de contenu](./how-to-save-docx-file-with-java-insert-content-control-guide/)
+Apprenez à enregistrer un document DOCX en Java tout en insérant des contrôles de contenu pour une personnalisation dynamique.
+
+### [Créer un document Word vierge avec Java – Guide complet Aspose.Words](./create-blank-word-document-with-java-full-aspose-words-guide/)
+Apprenez à créer un document Word vierge en Java avec Aspose.Words, incluant les options de mise en forme et d’enregistrement.
 
 ## Foire aux questions
 

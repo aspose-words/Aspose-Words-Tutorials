@@ -90,6 +90,9 @@ Learn how to format tables and apply table styles in Aspose.Words for Java. Expl
 ### [Konwertuj docx do markdown – Eksportuj równania matematyczne do LaTeX przy użyciu Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Dowiedz się, jak konwertować pliki DOCX do Markdown i eksportować równania matematyczne jako LaTeX przy użyciu biblioteki Aspose.Words dla Javy.
 
+### [Zapisz Word jako Markdown – Eksportuj tabele do HTML w Javie](./save-word-as-markdown-export-tables-to-html-in-java/)
+Dowiedz się, jak zapisać dokumenty Word jako Markdown i wyeksportować tabele do HTML przy użyciu Aspose.Words for Java.
+
 ### [Jak osadzić obrazy w Markdown podczas konwersji DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Dowiedz się, jak zachować obrazy przy konwersji DOCX do Markdown, aby były poprawnie wstawione w wynikowy plik.
 

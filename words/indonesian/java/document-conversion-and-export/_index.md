@@ -93,6 +93,9 @@ Pelajari cara memformat tabel dan menerapkan gaya tabel di Aspose.Words for Java
 ### [Konversi docx ke markdown – Ekspor Persamaan Matematika ke LaTeX dengan Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Pelajari cara mengonversi file DOCX menjadi markdown dan mengekspor persamaan matematika ke format LaTeX menggunakan Aspose.Words.
 
+### [Simpan Word sebagai Markdown – Ekspor Tabel ke HTML di Java](./save-word-as-markdown-export-tables-to-html-in-java/)
+Simpan dokumen Word sebagai file Markdown dan ekspor tabel ke HTML menggunakan Aspose.Words for Java.
+
 ### [Cara Menyisipkan Gambar dalam Markdown Saat Mengonversi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Pelajari cara menyisipkan gambar ke dalam file Markdown selama proses konversi DOCX menggunakan Aspose.Words for Java.
 
