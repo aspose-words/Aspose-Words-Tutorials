@@ -101,6 +101,9 @@ weight: 22
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 
+### [حفظ ملف docx كملف txt مع تصدير رياضيات LaTeX – دليل Java كامل](./save-docx-as-txt-with-latex-math-export-complete-java-guide/)
+تعلم كيفية حفظ مستند DOCX كملف TXT وتصدير معادلات LaTeX بسهولة باستخدام Aspose.Words for Java.
+
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
 
@@ -109,6 +112,12 @@ weight: 22
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
+### [إنشاء ملف PDF/UA‑1 متوافق باستخدام Java – دليل شامل](./create-pdf-ua-1-compliant-file-with-java-complete-guide/)
+دليل خطوة بخطوة لإنشاء ملفات PDF/UA‑1 متوافقة باستخدام Aspose.Words for Java.
+
+### [إنشاء مستند PDF/UA متوافق – دليل Java كامل](./create-pdf-ua-compliant-document-complete-java-guide/)
+دليل خطوة بخطوة لإنشاء مستند PDF/UA متوافق باستخدام Aspose.Words for Java.
 
 ## الأسئلة المتكررة
 
