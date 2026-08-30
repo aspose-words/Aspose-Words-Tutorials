@@ -37,6 +37,12 @@ Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassa
 ### [Skapa Word-dokument Java – Lägg till rektangel med skuggeffekt](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Lär dig hur du lägger till en rektangel med skuggeffekt i ett Word-dokument med Aspose.Words för Java.
 
+### [Hur man grupperar former i ett Word-dokument med Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Lär dig hur du grupperar flera former i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man ställer in dold egenskap för form i Aspose.Words för C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Lär dig hur du markerar en form som dold i ett Word-dokument med Aspose.Words för C#.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

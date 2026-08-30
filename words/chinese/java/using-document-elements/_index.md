@@ -71,6 +71,10 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Aspose.Words for Java 中使用占位符和列表创建 Word 文档](./how-to-create-word-document-with-placeholders-and-lists/)
+学习如何在 Aspose.Words for Java 中创建包含占位符和列表的 Word 文档，实现动态内容生成。
+### [在 Java 中使用 Chart API 为饼图添加引导线](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+学习如何在 Java 中使用 Chart API 为饼图添加引导线，实现更清晰的数据展示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

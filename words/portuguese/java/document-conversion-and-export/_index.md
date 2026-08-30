@@ -101,6 +101,12 @@ Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for J
 ### [Como Incorporar Imagens em Markdown ao Converter DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words for Java.
 
+### [Como realizar conversão de Markdown para DOCX em Java](./how-to-perform-markdown-to-docx-conversion-in-java/)
+Aprenda a converter arquivos Markdown em documentos DOCX usando Aspose.Words para Java com exemplos passo a passo.
+
+### [Como converter docx para markdown no Aspose.Words para Java](./how-to-convert-docx-to-markdown-with-aspose-words/)
+Aprenda a transformar arquivos DOCX em Markdown usando Aspose.Words for Java em poucos passos.
+
 ### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
 

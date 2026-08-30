@@ -41,6 +41,8 @@ Scopri come crittografare e decrittografare documenti con Aspose.Words per Java.
 Scopri come implementare firme digitali sicure nei documenti utilizzando Aspose.Words per Java. Garantisci l'integrità dei documenti con istruzioni dettagliate e codice sorgente.
 ### [Redazione di documenti e protezione dei dati](./document-redaction-data-protection/)
 Scopri come proteggere i tuoi documenti e oscurare i dati sensibili utilizzando Aspose.Words per Java. Guida passo passo con codice sorgente.
+### [Come firmare un documento Word in C# usando un certificato X509](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Impara a firmare documenti Word in C# con un certificato X509 usando Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

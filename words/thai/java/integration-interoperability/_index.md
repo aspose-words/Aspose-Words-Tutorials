@@ -31,6 +31,9 @@
 ### [เชี่ยวชาญการจัดการโครงการ VBA ใน Java โดยใช้ Aspose.Words API](./master-vba-project-manipulation-aspose-java/)
 เรียนรู้วิธีการจัดการโครงการ VBA ภายในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
 
+### [วิธีสร้าง ActiveX คอนโทรลในเอกสาร Word ด้วย C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+เรียนรู้วิธีเพิ่ม ActiveX คอนโทรลลงในเอกสาร Word ด้วย C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

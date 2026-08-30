@@ -37,6 +37,12 @@
 ### [Создание документа Word в Java – Добавление прямоугольной фигуры с эффектом тени](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Узнайте, как добавить прямоугольную форму с теневым эффектом в документ Word с помощью Aspose.Words для Java.
 
+### [Как группировать фигуры в документе Word с помощью Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Узнайте, как объединять несколько фигур в одну группу в документе Word с помощью Aspose.Words для Java.
+
+### [Как установить скрытое свойство фигуры в Aspose.Words для C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Узнайте, как задать свойство Hidden для фигур в документах Word с помощью Aspose.Words для C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

@@ -31,6 +31,9 @@ mai digitális környezetben a zökkenőmentes integráció és interoperabilit�
 ### [VBA projektmanipuláció elsajátítása Java-ban az Aspose.Words API használatával](./master-vba-project-manipulation-aspose-java/)
 Ismerje meg, hogyan automatizálhatja a dokumentumfeldolgozást és növelheti a termelékenységet a VBA-projektek Word-dokumentumokon belüli manipulálásával az Aspose.Words for Java segítségével.
 
+### [ActiveX vezérlő létrehozása Word dokumentumban C#-val](./how-to-create-activex-control-in-a-word-document-using-c/)
+Ismerje meg, hogyan hozhat létre ActiveX vezérlőket Word dokumentumokban C# segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

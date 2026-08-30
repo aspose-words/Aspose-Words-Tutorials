@@ -37,6 +37,12 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 ### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
 
+### [Hogyan csoportosítsuk az alakzatokat egy Word dokumentumban az Aspose.Words használatával?](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Ismerje meg, hogyan csoportosíthatja az alakzatokat egy Word dokumentumban az Aspose.Words Java segítségével.
+
+### [Hogyan állítsuk be az alakzat rejtett tulajdonságát az Aspose.Words for C#-ban](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Ismerje meg, hogyan állíthatja be az alakzat rejtett tulajdonságát a C#-ban az Aspose.Words segítségével.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

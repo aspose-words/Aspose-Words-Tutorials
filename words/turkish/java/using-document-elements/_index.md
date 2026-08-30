@@ -71,6 +71,10 @@ Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı ö
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
 Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı bir kılavuz. Kod örnekleriyle bölümleri ekleyin, silin, ekleyin, klonlayın.
+### [Yer tutucular ve listelerle Word belgesi oluşturma](./how-to-create-word-document-with-placeholders-and-lists/)
+Yer tutucular ve listeler kullanarak dinamik Word belgeleri oluşturmayı öğrenin.
+### [Java için Chart API ile Pasta Grafiğine Lider Çizgileri Ekleme](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Java Chart API kullanarak pasta grafiğine lider çizgileri eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

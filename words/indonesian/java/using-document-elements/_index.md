@@ -71,6 +71,9 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Cara Membuat Dokumen Word dengan Placeholder dan Daftar](./how-to-create-word-document-with-placeholders-and-lists/)
+### [Cara menambahkan garis pemimpin ke diagram pai di Java dengan Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+Pelajari cara menambahkan garis pemimpin pada diagram pai menggunakan Chart API di Java dengan contoh langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

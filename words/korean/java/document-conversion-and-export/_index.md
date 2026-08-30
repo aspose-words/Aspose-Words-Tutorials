@@ -101,6 +101,10 @@ DOCX 파일을 Markdown으로 변환하면서 이미지 파일을 올바르게 �
 ### [문서를 TXT로 저장 – Word 수식 내보내기 빠른 가이드](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java를 사용하여 문서를 TXT 형식으로 저장하고 Word 수식을 내보내는 방법을 단계별로 안내합니다.
 
+### [Java에서 마크다운을 DOCX로 변환하는 방법](./how-to-perform-markdown-to-docx-conversion-in-java/)
+
+### [Aspose.Words를 사용하여 docx를 markdown으로 변환하는 방법](./how-to-convert-docx-to-markdown-with-aspose-words/)
+
 ## 자주 묻는 질문
 
 **Q: Aspose.Words를 사용해 기존 PDF에 워터마크를 어떻게 추가하나요?**  

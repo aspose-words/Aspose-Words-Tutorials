@@ -37,6 +37,12 @@ Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사�
 ### [Java에서 Word 문서 만들기 – 그림자 효과가 있는 사각형 도형 추가](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Java를 사용해 Word 문서에 그림자 효과가 적용된 사각형 도형을 삽입하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Words를 사용하여 Word 문서에서 도형 그룹화하는 방법](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+Aspose.Words를 사용하여 Word 문서에서 도형을 그룹화하는 방법을 알아보세요.
+
+### [C#에서 Aspose.Words를 사용하여 도형 숨김 속성 설정하기](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+Aspose.Words for C#에서 도형의 숨김 속성을 설정하는 방법을 알아보세요.
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

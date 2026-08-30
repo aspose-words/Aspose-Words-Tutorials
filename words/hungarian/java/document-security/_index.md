@@ -41,6 +41,8 @@ Tanuld meg, hogyan titkosíthatod és dekódolhatod a dokumentumokat az Aspose.W
 Tanulja meg, hogyan valósíthat meg biztonságos digitális aláírásokat dokumentumokban az Aspose.Words for Java használatával. Biztosítsa a dokumentumok integritását lépésről lépésre szóló útmutatással és forráskóddal.
 ### [Dokumentumszerkesztés és adatvédelem](./document-redaction-data-protection/)
 Ismerje meg, hogyan teheti biztonságossá dokumentumait és hogyan takarhatja ki bizalmas adatait az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+### [Hogyan írjon alá Word dokumentumot C#-ban X509 tanúsítvánnyal](./how-to-sign-word-document-in-c-using-an-x509-certificate/)
+Ismerje meg, hogyan lehet X509 tanúsítvánnyal digitálisan aláírni egy Word dokumentumot C#-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [วิธีเพิ่มเส้นนำไปยังแผนภูมิวงกลมใน Java ด้วย Chart API](./how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart/)
+เรียนรู้วิธีเพิ่มเส้นนำในแผนภูมิวงกลมด้วย Chart API ของ Aspose.Words for Java
+### [วิธีสร้างเอกสาร Word ด้วยตัวแปรแทนที่และรายการ](./how-to-create-word-document-with-placeholders-and-lists/)
+เรียนรู้วิธีสร้างเอกสาร Word ที่มีตัวแปรแทนที่และรายการโดยใช้ Aspose.Words for Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

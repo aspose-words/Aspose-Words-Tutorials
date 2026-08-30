@@ -31,6 +31,9 @@ dnešní digitální krajině je bezproblémová integrace a interoperabilita kl
 ### [Zvládněte manipulaci s projekty VBA v Javě pomocí Aspose.Words API](./master-vba-project-manipulation-aspose-java/)
 Naučte se, jak automatizovat zpracování dokumentů a zvýšit produktivitu manipulací s projekty VBA v dokumentech Wordu pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit ActiveX ovládací prvek ve Word dokumentu pomocí C#](./how-to-create-activex-control-in-a-word-document-using-c/)
+Naučte se, jak vytvořit ActiveX ovládací prvek ve Word dokumentu pomocí C#.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

@@ -37,6 +37,12 @@
 ### [สร้างเอกสาร Word ด้วย Java – เพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงา](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 เรียนรู้วิธีเพิ่มรูปสี่เหลี่ยมผืนผ้าพร้อมเงาในเอกสาร Word ด้วย Aspose.Words สำหรับ Java
 
+### [วิธีการจัดกลุ่มรูปร่างในเอกสาร Word ด้วย Aspose.Words](./how-to-group-shapes-in-a-word-document-using-aspose-words/)
+เรียนรู้วิธีจัดกลุ่มรูปร่างหลายๆ รูปในเอกสาร Word อย่างง่ายดายด้วย Aspose.Words สำหรับ Java
+
+### [วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#](./how-to-set-shape-hidden-property-in-aspose-words-for-c/)
+เรียนรู้วิธีตั้งค่าคุณสมบัติ hidden ของรูปร่างใน Aspose.Words สำหรับ C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)
