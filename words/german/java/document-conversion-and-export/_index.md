@@ -99,16 +99,26 @@ Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for
 ### [Dokument als TXT speichern – Schnellleitfaden zum Exportieren von Word-Mathematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Erfahren Sie, wie Sie Word-Dokumente als TXT exportieren und dabei mathematische Formeln korrekt extrahieren.
 
+### [Dokument als TXT speichern – DOCX in Text mit LaTeX konvertieren](./save-document-as-txt-convert-docx-to-text-with-latex/)
+Konvertieren Sie DOCX-Dateien in reinen Text und exportieren Sie mathematische Formeln im LaTeX-Format.
+
 ### [DOCX in Markdown konvertieren – Mathegleichungen nach LaTeX exportieren mit Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
 ### [Wie man Bilder in Markdown beim Konvertieren von DOCX einbettet](./how-to-embed-images-in-markdown-when-converting-docx/)
-Erfahren Sie, wie Sie Bilder aus DOCX extrahieren und korrekt in Markdown einfügen, um einwandfreie Formatierung zu gewährleisten.
+
+### [DOCX als Markdown speichern – Vollständige C#‑Anleitung](./save-docx-as-markdown-complete-c-guide/)
+
+### [Wie man Markdown aus Word exportiert – Komplettanleitung](./how-to-export-markdown-from-word-complete-guide/)
 
 ### [Aspose Word zu PDF – DOCX in PDF konvertieren in Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
-Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words for Java einfach in PDF konvertieren.
+
+### [Dokument als PDF speichern mit Java – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-document-as-pdf-with-java-complete-step-by-step-guide/)
 
 ### [Barrierefreies PDF aus DOCX erstellen – Komplettanleitung](./create-accessible-pdf-from-docx-complete-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF aus DOCX erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
+
+### [Barrierefreies PDF erstellen – Java‑Leitfaden zum Konvertieren von Word‑Dokumenten](./create-accessible-pdf-java-guide-for-converting-word-documen/)
+
+### [Erstellen Sie ein PDF/UA-Dokument mit Aspose.Words – Vollständige Java‑Anleitung](./create-pdf-ua-document-with-aspose-words-full-java-guide/)
 
 ## Häufig gestellte Fragen
 

@@ -68,6 +68,9 @@ Master Aspose.Words για Java με αυτόν τον οδηγό για την 
 ### [Αποθήκευση εγγράφων Word ως PostScript με τις ρυθμίσεις Book Fold σε Java χρησιμοποιώντας το Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Μάθετε πώς να μετατρέπετε έγγραφα Word σε φυλλάδια με επαγγελματική ποιότητα εκτύπωσης χρησιμοποιώντας το Aspose.Words για Java. Αυτός ο οδηγός καλύπτει την αποθήκευση ως PostScript και τη διαμόρφωση των ρυθμίσεων δίπλωσης βιβλίου.
 
+### [Επανάληψη προειδοποιήσεων εγγράφου: Ανίχνευση ελλιπών γραμματοσειρών σε Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Μάθετε πώς να επαναλαμβάνετε τις προειδοποιήσεις εγγράφου και να εντοπίζετε τις ελλιπείς γραμματοσειρές χρησιμοποιώντας Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)

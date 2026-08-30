@@ -68,6 +68,9 @@ Um tutorial de código para Aspose.Words Java
 ### [Salvar documentos do Word como PostScript com configurações de dobra de livro em Java usando Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Aprenda a converter documentos do Word em livretos com qualidade profissional usando o Aspose.Words para Java. Este guia aborda como salvar como PostScript e configurar as configurações de dobra de livros.
 
+### [Iterar avisos de documentos: Detectar fontes ausentes em Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Aprenda a percorrer avisos de documentos e identificar fontes ausentes usando Aspose.Words para Java.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

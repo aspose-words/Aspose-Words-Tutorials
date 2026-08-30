@@ -68,6 +68,9 @@ Tutorial kode untuk Aspose.Words Java
 ### [Menyimpan Dokumen Word sebagai PostScript dengan Pengaturan Lipatan Buku di Java menggunakan Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Pelajari cara mengonversi dokumen Word menjadi buklet dengan hasil berkualitas profesional menggunakan Aspose.Words untuk Java. Panduan ini mencakup penyimpanan sebagai PostScript dan mengonfigurasi pengaturan lipatan buku.
 
+### [Iterasi peringatan dokumen: Deteksi Font yang Hilang di Java](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Pelajari cara mengiterasi peringatan dokumen untuk mendeteksi font yang hilang menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

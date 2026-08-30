@@ -68,6 +68,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Speichern Sie Word-Dokumente als PostScript mit Buchfalteinstellungen in Java mithilfe von Aspose.Words](./aspose-words-java-postscript-book-fold-settings/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words für Java in professionelle Broschüren konvertieren. Diese Anleitung beschreibt das Speichern als PostScript und das Konfigurieren der Buchfalzeinstellungen.
 
+### [Iterieren von Dokumentwarnungen: Fehlende Schriftarten in Java erkennen](./iterate-document-warnings-detect-missing-fonts-in-java/)
+Durchlaufen Sie Dokumentwarnungen, um fehlende Schriftarten in Java zu erkennen und zu behandeln.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
