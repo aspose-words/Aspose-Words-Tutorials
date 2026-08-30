@@ -67,6 +67,9 @@ Exportera det berikade dokumentet till det format du behöver—PDF, DOCX, HTML 
 ### [Behärska textbehandling i Java: Använd Aspose.Words & AI‑modeller för sammanfattning och översättning](./java-aspose-words-text-processing/)
 Lär dig hur du automatiserar textsammanfattning och översättning med Aspose.Words för Java med OpenAI:s GPT‑4 och Googles Gemini. Förbättra dina Java‑applikationer idag.
 
+### [Sammanfatta Word-dokument i Java – Komplett steg‑för‑steg‑guide](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Lär dig hur du med Aspose.Words för Java skapar en komplett guide för att automatiskt sammanfatta innehållet i Word‑dokument.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java‑dokumentation](https://reference.aspose.com/words/java/)

@@ -97,17 +97,29 @@ Naučte se formátovat tabulky a aplikovat styly tabulek v Aspose.Words for Java
 ### [Převod DOCX na Markdown – Export matematických rovnic do LaTeXu s Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Naučte se převést soubory DOCX na Markdown a exportovat rovnice do LaTeXu pomocí Aspose.Words.
 
+### [Uložit Word jako Markdown v Javě – Kompletní průvodce](./save-word-as-markdown-in-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Words for Java převést dokument Word do formátu Markdown s podrobným nastavením a ukázkovým kódem.
+
 ### [Uložení dokumentu jako TXT – Rychlý průvodce exportem rovnic Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Naučte se, jak uložit dokument jako textový soubor TXT a exportovat matematické rovnice z Wordu pomocí Aspose.Words.
 
 ### [Aspose Word na PDF – Převod DOCX do PDF v Javě](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Naučte se, jak pomocí Aspose.Words for Java převést soubory DOCX do PDF jedním jednoduchým kódem.
 
+### [Uložit dokument jako PDF – Kompletní průvodce Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Naučte se, jak pomocí Aspose.Words for Java uložit dokument do PDF s kompletním nastavením a optimalizací výstupu.
+
 ### [Jak vložit obrázky do Markdown při konverzi DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Naučte se, jak při konverzi DOCX do Markdown vložit obrázky tak, aby byly správně zobrazeny v cílovém souboru.
 
 ### [Vytvořit přístupný PDF z DOCX – Kompletní průvodce](./create-accessible-pdf-from-docx-complete-guide/)
 Naučte se, jak pomocí Aspose.Words for Java převést DOCX na PDF s podporou přístupnosti a splnit standardy WCAG.
+
+### [Vytvořit PDF UA pomocí Aspose.Words – Kompletní průvodce](./create-pdf-ua-with-aspose-words-complete-guide/)
+Naučte se, jak pomocí Aspose.Words vytvořit PDF soubor s podporou ukrajinského jazyka a nastavit správné kódování.
+
+### [Nastavení počtu stránek na list při konverzi Word do PNG – Kompletní průvodce](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Naučte se, jak nastavit počet stránek na list při převodu dokumentu Word do PNG pomocí Aspose.Words for Java.
 
 ## Často kladené otázky
 

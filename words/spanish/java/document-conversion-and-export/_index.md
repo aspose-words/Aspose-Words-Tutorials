@@ -92,11 +92,17 @@ Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. 
 ### [Convertir docx a markdown – Exportar ecuaciones matemáticas a LaTeX con Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aprenda a convertir documentos DOCX a Markdown y exportar ecuaciones matemáticas a LaTeX usando Aspose.Words.
 
+### [Guardar Word como Markdown en Java – Guía completa](./save-word-as-markdown-in-java-complete-guide/)
+Aprenda a guardar documentos Word como archivos Markdown usando Aspose.Words for Java con ejemplos paso a paso.
+
 ### [Guardar documento como TXT – Guía rápida para exportar ecuaciones de Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aprenda a guardar documentos Word como archivos TXT y exportar ecuaciones matemáticas manteniendo el formato.
 
 ### [Aspose.Words a PDF – Convertir DOCX a PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aprenda a convertir archivos DOCX a PDF usando Aspose.Words for Java en unos simples pasos.
+
+### [Guardar documento como PDF – Guía completa de Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Aprenda a guardar documentos como PDF usando Aspose.Words for Java con una guía paso a paso completa.
 
 ### [Cómo incrustar imágenes en Markdown al convertir DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aprenda a insertar imágenes en archivos markdown durante la conversión de documentos DOCX con Aspose.Words.
@@ -118,6 +124,12 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 
 ### [Crear PDF accesible desde DOCX – Guía completa](./create-accessible-pdf-from-docx-complete-guide/)
 Aprenda a generar PDFs accesibles a partir de documentos DOCX cumpliendo con los estándares PDF/UA.
+
+### [Crear PDF UA con Aspose.Words – Guía completa](./create-pdf-ua-with-aspose-words-complete-guide/)
+Aprende a generar PDFs accesibles PDF/UA con Aspose.Words para Java mediante una guía paso a paso completa.
+
+### [Establecer páginas por hoja en la conversión de Word a PNG – Guía completa](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Aprenda a configurar la cantidad de páginas por hoja al convertir documentos Word a imágenes PNG usando Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,8 +1,8 @@
 ---
 date: 2025-11-25
 description: Apprenez comment intégrer l'IA pour le traitement intelligent de documents
-  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA, la
-  génération de contenu et la traduction.
+  avec Aspose.Words pour Java. Découvrez l'automatisation de documents par l'IA,
+  la génération de contenu et la traduction.
 title: Comment intégrer l'IA avec Aspose.Words pour Java – IA & ML
 url: /fr/java/ai-machine-learning-integration/
 weight: 20
@@ -67,6 +67,9 @@ Exportez le document enrichi au format dont vous avez besoin—PDF, DOCX, HTML o
 
 ### [Maîtriser le traitement de texte en Java : Utiliser Aspose.Words & les modèles d'IA pour la synthèse et la traduction](./java-aspose-words-text-processing/)
 Apprenez à automatiser la synthèse et la traduction de texte en utilisant Aspose.Words pour Java avec le GPT‑4 d'OpenAI et le Gemini de Google. Améliorez vos applications Java dès aujourd'hui.
+
+### [Résumer un document Word en Java – Guide complet étape par étape](./summarize-word-document-in-java-complete-step-by-step-guide/)
+Apprenez à résumer automatiquement des documents Word en Java en utilisant Aspose.Words et les services d'IA, avec un guide complet pas à pas.
 
 ## Ressources supplémentaires
 

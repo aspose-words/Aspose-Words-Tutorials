@@ -85,7 +85,7 @@ weight: 22
 Откройте для себя мощь форм документов в Aspose.Words для Java. Научитесь создавать визуально привлекательные документы с помощью пошаговых примеров.
 
 ### [Использование водяных знаков в документах в Aspose.Words для Java](./using-watermarks-to-documents/)
-Узнайте, как добавлять водяные знаки в документы в Aspose.Words для Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
+Узнайте, как добавлять водяные знаки в документы в Aspose.Words for Java. Настройте текстовые и графические водяные знаки для профессионально выглядящих документов.
 
 ### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
 Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Изучите пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет документа с помощью Aspose.Words.
@@ -96,11 +96,14 @@ weight: 22
 ### [Использование водяных знаков в документах в Aspose.Words for Java](./using-watermarks-to-documents/)
 Узнайте, как добавить водяные знаки в документы с помощью Aspose.Words for Java. Настройте текстовые и графические водяные знаки для профессионального вида документов.
 
-### [Форматирование таблиц и стилей таблиц в Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words for Java. Исследуйте пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет ваших документов с Aspose.Words.
+### [Форматирование таблиц и стилей таблиц в Aspose.Words для Java](./formatting-tables-and-table-styles/)
+Узнайте, как форматировать таблицы и применять стили таблиц в Aspose.Words для Java. Исследуйте пошаговые руководства с исходным кодом для эффективного форматирования таблиц. Улучшите макет ваших документов с Aspose.Words.
 
 ### [Конвертировать docx в markdown – экспортировать математические уравнения в LaTeX с помощью Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Преобразуйте DOCX в markdown и экспортируйте уравнения Math в LaTeX с помощью Aspose.Words.
+
+### [Сохранить Word как Markdown в Java — полное руководство](./save-word-as-markdown-in-java-complete-guide/)
+Пошаговое руководство по сохранению документов Word в формате Markdown с помощью Aspose.Words for Java.
 
 ### [Как встраивать изображения в Markdown при конвертации DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 Узнайте, как сохранять изображения из DOCX при экспорте в Markdown с помощью Aspose.Words for Java.
@@ -113,6 +116,15 @@ weight: 22
 
 ### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
 Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
+
+### [Сохранить документ как PDF – Полное руководство Aspose.Words](./save-document-as-pdf-complete-aspose-words-guide/)
+Подробное руководство по сохранению документов в PDF с использованием Aspose.Words for Java, включая настройки качества и шифрования.
+
+### [Создание PDF/UA с Aspose.Words – Полное руководство](./create-pdf-ua-with-aspose-words-complete-guide/)
+Полное руководство по созданию PDF/UA (универсального доступного PDF) с помощью Aspose.Words для Java.
+
+### [Установка количества страниц на лист при конвертации Word в PNG – Полное руководство](./set-pages-per-sheet-in-word-to-png-conversion-complete-guide/)
+Узнайте, как задать количество страниц на лист при конвертации документов Word в PNG с помощью Aspose.Words for Java.
 
 ## Часто задаваемые вопросы
 
