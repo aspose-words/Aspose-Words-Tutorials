@@ -104,6 +104,9 @@ DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişi
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
 
+### [Word'ü Markdown Olarak Kaydet – Aspose.Words ile Tam Kılavuz](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Aspose.Words kullanarak Word belgelerini Markdown formatına dönüştürmenin tam adım‑adım rehberi.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

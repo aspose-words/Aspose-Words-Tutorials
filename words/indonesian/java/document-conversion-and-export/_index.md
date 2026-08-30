@@ -102,6 +102,9 @@ Pelajari cara menyimpan dokumen Word sebagai file TXT sambil mengekspor persamaa
 ### [Buat PDF Aksesibel dari DOCX – Panduan Lengkap](./create-accessible-pdf-from-docx-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas, termasuk tag, teks alternatif, dan struktur dokumen.
 
+### [Simpan Word sebagai Markdown – panduan lengkap menggunakan Aspose.Words](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Pelajari cara mengekspor dokumen Word ke format Markdown dengan Aspose.Words dalam panduan langkah demi langkah.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana cara menambahkan watermark ke PDF yang sudah ada menggunakan Aspose.Words?**  

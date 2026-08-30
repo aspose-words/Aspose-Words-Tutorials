@@ -43,18 +43,20 @@ Podsumowując, opanowanie manipulacji elementami dokumentu za pomocą Aspose.Wor
 Pamiętaj, że praktyka czyni mistrza, a dzięki Aspose.Words for Java będziesz tworzyć, modyfikować i ulepszać dokumenty jak profesjonalista w mgnieniu oka. Miłego kodowania!
 
 ## Korzystanie z samouczków dotyczących elementów dokumentu
+### [Tworzenie wykresu kołowego w Wordzie przy użyciu Java – przewodnik krok po kroku](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Dowiedz się, jak w Aspose.Words for Java wygenerować wykres kołowy w dokumencie Word, krok po kroku.
 ### [Korzystanie z komentarzy w Aspose.Words dla Java](./using-comments/)
-Dowiedz się, jak używać komentarzy w Aspose.Words for Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
+Dowiedz się, jak używać komentarzy w Aspose.Words dla Java. Samouczek krok po kroku dotyczący dodawania i dostosowywania komentarzy w dokumentach.
 ### [Korzystanie z pól w Aspose.Words dla Java](./using-fields/)
 Naucz się efektywnie używać Aspose.Words dla pól Java w tym samouczku krok po kroku. Twórz dynamiczne dokumenty Word z łatwością.
 ### [Korzystanie z czcionek w Aspose.Words dla Java](./using-fonts/)
 Poznaj formatowanie czcionek w Aspose.Words dla Java: rozmiar, styl, kolor i więcej. Twórz pięknie sformatowane dokumenty z łatwością.
 ### [Korzystanie z przypisów dolnych i końcowych w Aspose.Words dla Java](./using-footnotes-and-endnotes/)
-Naucz się skutecznie używać przypisów dolnych i końcowych w Aspose.Words for Java. Popraw swoje umiejętności formatowania dokumentów już dziś!
+Naucz się skutecznie używać przypisów dolnych i końcowych w Aspose.Words dla Java. Popraw swoje umiejętności formatowania dokumentów już dziś!
 ### [Korzystanie z pól formularza w Aspose.Words dla Java](./using-form-fields/)
 „Naucz się używać Aspose.Words for Java do tworzenia interaktywnych dokumentów Word z polami formularzy. Zacznij teraz!”
 ### [Używanie HarfBuzz w Aspose.Words dla Java](./using-harfbuzz/)
-Naucz się używać HarfBuzz do zaawansowanego kształtowania tekstu w Aspose.Words for Java. Ulepsz renderowanie tekstu w złożonych skryptach dzięki temu przewodnikowi krok po kroku.
+Naucz się używać HarfBuzz do zaawansowanego kształtowania tekstu w Aspose.Words dla Java. Ulepsz renderowanie tekstu w złożonych skryptach dzięki temu przewodnikowi krok po kroku.
 ### [Używanie nagłówków i stopek w Aspose.Words dla Java](./using-headers-and-footers/)
 Dowiedz się krok po kroku, jak używać nagłówków i stopek w Aspose.Words dla Java. Twórz profesjonalne dokumenty bez wysiłku.
 ### [Używanie dzielenia wyrazów w Aspose.Words dla Java](./using-hyphenation/)
@@ -62,15 +64,20 @@ Dowiedz się, jak skutecznie używać łączników w Aspose.Words dla Java dzię
 ### [Korzystanie z list w Aspose.Words dla Java](./using-lists/)
 Naucz się używać list w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Organizuj i formatuj swoje dokumenty efektywnie.
 ### [Używanie Markdown w Aspose.Words dla Java](./using-markdown/)
-Naucz się używać Markdown w Aspose.Words dla Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
+Naucz się używać Markdown w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Twórz, stylizuj i zapisuj dokumenty Markdown bez wysiłku.
 ### [Korzystanie z węzłów w Aspose.Words dla Java](./using-nodes/)
 Naucz się manipulować węzłami w Aspose.Words for Java dzięki temu samouczkowi krok po kroku. Odblokuj moc przetwarzania dokumentów.
 ### [Korzystanie z obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java](./using-ole-objects-and-activex/)
-Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words dla Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
+Naucz się używać obiektów OLE i kontrolek ActiveX w Aspose.Words for Java. Twórz interaktywne dokumenty z łatwością. Zacznij teraz!
 ### [Korzystanie z rewizji w Aspose.Words dla Java](./using-revisions/)
 Naucz się efektywnie używać kontroli wersji Aspose.Words for Java. Przewodnik krok po kroku dla programistów. Zoptymalizuj zarządzanie dokumentami.
 ### [Korzystanie z sekcji w Aspose.Words dla Java](./using-sections/)
 Poznaj Aspose.Words dla Javy: kompleksowy przewodnik po używaniu sekcji. Dodawaj, usuwaj, dołączaj, klonuj sekcje z przykładami kodu.
+### [Jak dodać SDT w C# – kompletny przewodnik po polach zastępczych Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Poznaj, jak wstawiać i konfigurować SDT w C# przy użyciu Aspose.Words, aby tworzyć dynamiczne pola zastępcze w dokumentach Word.
+
+### [Jak uzyskać separator w dokumentach Word przy użyciu Java](./how-to-get-separator-in-word-docs-with-java/)
+Dowiedz się, jak wstawiać i konfigurować separator w dokumentach Word przy pomocy Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,11 @@ Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words 
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
+### [Créer un diagramme circulaire dans Word avec Java – guide étape par étape](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Apprenez à créer un diagramme circulaire dans Word en utilisant Aspose.Words pour Java grâce à ce guide détaillé.
+### [Comment ajouter un SDT en C# – guide complet pour les espaces réservés Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+Apprenez à insérer des contrôles de contenu (SDT) avec Aspose.Words pour C# afin de gérer les espaces réservés dans vos documents Word.
+### [Comment obtenir un séparateur dans les documents Word avec Java](./how-to-get-separator-in-word-docs-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

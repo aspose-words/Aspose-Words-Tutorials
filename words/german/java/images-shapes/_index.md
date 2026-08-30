@@ -37,6 +37,12 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 ### [Word-Dokument in Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck mit Schatten in ein Word-Dokument einfügt.
 
+### [Gruppieren von Formen in Word – vollständiger Programmierleitfaden](./group-shapes-in-word-complete-programming-guide/)
+Ein umfassendes Codebeispiel, das zeigt, wie Sie Formen in Word gruppieren und verwalten.
+
+### [Bild in Word ausblenden – Schritt‑für‑Schritt Java‑Leitfaden mit Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Bilder in Word-Dokumenten ausblenden.
+
 ## Weitere Ressourcen
 
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)

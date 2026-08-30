@@ -39,6 +39,8 @@ Scopri come gestire efficacemente le autorizzazioni dei documenti utilizzando As
 Scopri come crittografare e decrittografare documenti con Aspose.Words per Java. Proteggi i tuoi dati in modo efficiente con istruzioni dettagliate ed esempi di codice sorgente.
 ### [Firme digitali nei documenti](./digital-signatures-in-documents/)
 Scopri come implementare firme digitali sicure nei documenti utilizzando Aspose.Words per Java. Garantisci l'integrità dei documenti con istruzioni dettagliate e codice sorgente.
+### [Come firmare file docx con un certificato PFX – guida passo‑passo](./how-to-sign-docx-files-with-a-pfx-certificate-step-by-step-g/)
+Impara a firmare documenti docx usando un certificato PFX con Aspose.Words per Java, passo dopo passo con esempi di codice.
 ### [Redazione di documenti e protezione dei dati](./document-redaction-data-protection/)
 Scopri come proteggere i tuoi documenti e oscurare i dati sensibili utilizzando Aspose.Words per Java. Guida passo passo con codice sorgente.
 

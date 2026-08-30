@@ -101,6 +101,10 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 
 ### [在 Aspose.Words for Java 中将 DOCX 转换为 Markdown 时嵌入图像](./how-to-embed-images-in-markdown-when-converting-docx/)
 
+### [在 Aspose.Words for Java 中将 Word 保存为 Markdown – 使用 Aspose.Words 的完整指南](./save-word-as-markdown-complete-guide-using-aspose-words/)
+
+完整指南展示如何使用 Aspose.Words 将 Word 文档导出为 Markdown，包括代码示例和高级选项。
+
 ## 常见问题
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  

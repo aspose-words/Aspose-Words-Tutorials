@@ -101,6 +101,11 @@ weight: 14
 ### [تحويل المستندات إلى صور](./converting-documents-images/)
 تعرف على كيفية تحويل مستندات Word إلى صور باستخدام Aspose.Words for Java. دليل خطوة بخطوة، شامل أمثلة على الشيفرة والأسئلة المتكررة.
 
+### [تحويل markdown إلى docx في Java – دليل خطوة بخطوة](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+
+### [تحويل docx إلى pdf في Java – دليل خطوة بخطوة](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+دليل شامل يوضح كيفية تحويل ملفات docx إلى pdf باستخدام Aspose.Words for Java خطوة بخطوة.
+
 ## الأسئلة المتكررة
 
 **س:** *هل يمكنني تحويل ملفات Word المحمية بكلمة مرور إلى PDF؟*  

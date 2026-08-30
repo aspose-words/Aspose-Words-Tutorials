@@ -71,6 +71,12 @@
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中使用 Java 建立餅圖 – 步驟指南](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+學習如何使用 Aspose.Words for Java 透過 Java 程式碼在 Word 文件中建立餅圖。
+### [在 Aspose.Words for Java 中取得分隔符](./how-to-get-separator-in-word-docs-with-java/)
+了解如何在 Word 文檔中使用 Java 獲取分隔符。
+### [在 C# 中新增 SDT – Word 佔位符完整指南](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+了解如何在 C# 中使用 SDT（結構化文檔標記）為 Word 文件添加佔位符。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

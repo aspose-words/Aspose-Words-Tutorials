@@ -37,6 +37,12 @@ Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestan
 ### [Utwórz dokument Word w Javie – Dodaj prostokątny kształt z efektem cienia](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Word przy użyciu Aspose.Words dla Java.
 
+### [Grupowanie kształtów w Word – kompletny przewodnik programistyczny](./group-shapes-in-word-complete-programming-guide/)
+Pełny przewodnik, jak grupować kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
+
+### [Ukryj obraz w Word – przewodnik krok po kroku w Javie z Aspose](./hide-picture-in-word-step-by-step-java-guide-with-aspose/)
+Dowiedz się, jak ukrywać obrazy w dokumentach Word przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

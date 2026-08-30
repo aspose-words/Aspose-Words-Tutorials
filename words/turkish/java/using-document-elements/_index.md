@@ -65,12 +65,18 @@ Bu adım adım eğitimle Aspose.Words for Java'da listeleri kullanmayı öğreni
 Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğrenin. Markdown belgelerini zahmetsizce oluşturun, biçimlendirin ve kaydedin.
 ### [Java için Aspose.Words'de Düğümleri Kullanma](./using-nodes/)
 Bu adım adım eğitimle Aspose.Words for Java'da düğümleri yönetmeyi öğrenin. Belge işleme gücünü açığa çıkarın.
+### [Java için Aspose.Words'de Pasta Grafik Oluşturma – adım adım rehber](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Java ve Aspose.Words kullanarak Word belgelerinde pasta grafik oluşturmayı adım adım öğrenin.
 ### [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma](./using-ole-objects-and-activex/)
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
 Java için Aspose.Words'ü keşfedin: Bölümleri kullanma hakkında kapsamlı bir kılavuz. Kod örnekleriyle bölümleri ekleyin, silin, ekleyin, klonlayın.
+### [C#'da SDT ekleme – Word yer tutucuları için tam rehber](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+C# ile Word belgelerinde yer tutucu (SDT) eklemeyi adım adım öğrenin.
+### [Java için Aspose.Words'de Ayırıcıyı Alma](./how-to-get-separator-in-word-docs-with-java/)
+Java ile Aspose.Words kullanarak Word belgelerindeki ayırıcıları nasıl alacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

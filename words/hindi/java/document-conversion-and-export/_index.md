@@ -97,6 +97,9 @@ DOCX को मार्कडाउन में बदलते समय छ�
 ### [DOCX से एक्सेसिबल PDF बनाना – पूर्ण गाइड](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX फ़ाइल को एक्सेसिबल PDF में बदलने की पूरी प्रक्रिया, टैग, संरचना और अनुपालन सेटिंग्स के साथ।
 
+### [Word को Markdown के रूप में सहेजें – Aspose.Words के साथ पूर्ण गाइड](./save-word-as-markdown-complete-guide-using-aspose-words/)
+Word दस्तावेज़ को Markdown में बदलने की पूरी प्रक्रिया, कोड उदाहरण और निर्यात विकल्पों के साथ।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: Aspose.Words का उपयोग करके मौजूदा PDF में वॉटरमार्क कैसे जोड़ूँ?**  

@@ -71,6 +71,11 @@
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Получение разделителя в документах Word с Java](./how-to-get-separator-in-word-docs-with-java/)
+Узнайте, как получить разделитель в документах Word с помощью Aspose.Words для Java.
+### [Как добавить SDT в C# – полное руководство по заполнителям Word](./how-to-add-sdt-in-c-complete-guide-for-word-placeholders/)
+### [Создание круговой диаграммы в Word с Java – пошаговое руководство](./create-pie-chart-in-word-with-java-step-by-step-guide/)
+Узнайте, как создать круговую диаграмму в документе Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

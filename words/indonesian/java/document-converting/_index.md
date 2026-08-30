@@ -101,6 +101,12 @@ Konversi DOCX ke EPUB secara efisien menggunakan Aspose.Words untuk Java. Pelaja
 ### [Mengonversi Dokumen ke Gambar](./converting-documents-images/)
 Pelajari cara mengonversi dokumen Word ke gambar menggunakan Aspose.Words untuk Java. Panduan langkah‑per‑langkah, lengkap dengan contoh kode dan FAQ.
 
+### [Mengonversi markdown ke docx di Java – panduan langkah‑per‑langkah](./convert-markdown-to-docx-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file markdown menjadi dokumen Word (docx) menggunakan Aspose.Words untuk Java dalam panduan langkah‑per‑langkah.
+
+### [Mengonversi docx ke pdf di Java – panduan langkah‑per‑langkah](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file docx menjadi PDF di Java menggunakan Aspose.Words dengan panduan langkah‑per‑langkah yang jelas.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q:** *Bisakah saya mengonversi file Word yang dilindungi kata sandi ke PDF?*  
