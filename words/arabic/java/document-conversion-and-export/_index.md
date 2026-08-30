@@ -98,17 +98,32 @@ weight: 22
 ### [تحويل docx إلى markdown – تصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown وتصدير المعادلات الرياضية إلى LaTeX باستخدام Aspose.Words.
 
+### [تحويل docx إلى markdown باستخدام Java – دليل برمجة شامل](./convert-docx-to-markdown-with-java-complete-programming-guid/)
+تعلم كيفية تحويل ملفات DOCX إلى تنسيق Markdown باستخدام Aspose.Words for Java خطوة بخطوة في دليل برمجي كامل.
+
 ### [حفظ المستند كملف TXT – دليل سريع لتصدير معادلات Word Math](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 تعلم كيفية حفظ المستند كملف TXT وتصدير معادلات Word Math بسهولة باستخدام Aspose.Words for Java.
 
+### [تحويل docx إلى txt وتصدير معادلات Word Math إلى LaTeX – دليل شامل](./convert-docx-to-txt-and-export-word-math-latex-complete-guid/)
+تعلم كيفية تحويل ملفات DOCX إلى TXT وتصدير معادلات Word Math إلى LaTeX باستخدام Aspose.Words في دليل خطوة بخطوة.
+
 ### [Aspose Word إلى PDF – تحويل DOCX إلى PDF في Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose.Words for Java بخطوات بسيطة.
+
+### [كيفية استخدام Aspose للـ Java: تحويل DOCX إلى PDF](./how-to-use-aspose-for-java-convert-docx-to-pdf/)
+تعلم كيفية تحويل ملفات DOCX إلى PDF باستخدام Aspose for Java بخطوات بسيطة وسهلة.
 
 ### [كيفية تضمين الصور في Markdown عند تحويل DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
 كيفية تضمين الصور في ملفات Markdown عند تحويل مستندات DOCX باستخدام Aspose.Words.
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
-تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words في Java.
+
+### [إنشاء ملف PDF ميسّر من Word – دليل شامل](./create-accessible-pdf-from-word-complete-guide/)
+تعلم كيفية تحويل مستندات Word إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words للـ Java.
+
+### [تصدير Word إلى PNG – دليل Java كامل لتحويل DOCX إلى صور](./export-word-to-png-complete-java-guide-for-converting-docx-t/)
+تعلم كيفية تحويل مستندات DOCX إلى صور PNG باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

@@ -68,6 +68,12 @@ weight: 20
 ### [إتقان معالجة النصوص في Java: استخدام Aspose.Words ونماذج الذكاء الاصطناعي للتلخيص والترجمة](./java-aspose-words-text-processing/)
 تعلم كيفية أتمتة تلخيص النصوص وترجمتها باستخدام Aspose.Words for Java مع GPT‑4 من OpenAI وGemini من Google. حسّن تطبيقات Java الخاصة بك اليوم.
 
+### [تشغيل فحص القواعد النحوية على DOCX في Java – دليل برمجة كامل](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+تعلم كيفية تنفيذ فحص القواعد النحوية على ملفات DOCX باستخدام Aspose.Words for Java وإدماج خدمات الذكاء الاصطناعي.
+
+### [كيفية استخدام Gemini لترجمة DOCX إلى الإسبانية – دليل Java كامل](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+اكتشف طريقة ترجمة ملفات DOCX إلى اللغة الإسبانية باستخدام نموذج Gemini للذكاء الاصطناعي مع Aspose.Words for Java.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words for Java](https://reference.aspose.com/words/java/)

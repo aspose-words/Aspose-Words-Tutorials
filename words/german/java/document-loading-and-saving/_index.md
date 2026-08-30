@@ -118,10 +118,13 @@ Lernen Sie, wie Sie Dokumente im OOXML‑Format mit Aspose.Words für Java speic
 ### [Speichern von Dokumenten im PCL‑Format in Aspose.Words für Java](./saving-documents-as-pcl-format/)
 Lernen Sie, wie Sie Dokumente im PCL‑Format mit Aspose.Words für Java speichern. Schritt‑für‑Schritt‑Anleitung und Code‑Beispiele für effiziente Dokumentkonvertierung.
 
-### [Speichern von Dokumenten als PDF in Aspose.Words für Java](./saving-documents-as-pdf/)
+### [Speichern von Dokumenten als PDF](./saving-documents-as-pdf/)
 Lernen Sie, wie Sie Word‑Dokumente mit Aspose.Words für Java als PDF speichern. Schriftarten, Eigenschaften und Bildqualität anpassen. Eine umfassende Anleitung zur PDF‑Konvertierung.
 
-### [Speichern von Dokumenten im RTF‑Format in Aspose.Words für Java](./saving-documents-as-rtf-format/)
+### [Word-Dokument mit Aspose.Words speichern – Vollständiger Java‑Leitfaden](./save-word-document-with-aspose-words-complete-java-guide/)
+Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java vollständig speichern und konvertieren.
+
+### [Speichern von Dokumenten im RTF‑Format](./saving-documents-as-rtf-format/)
 Lernen Sie, wie Sie Dokumente im RTF‑Format mit Aspose.Words für Java speichern. Schritt‑für‑Schritt‑Anleitung mit Quellcode für effiziente Dokumentkonvertierung.
 
 ### [Speichern von Dokumenten als Textdateien in Aspose.Words für Java](./saving-documents-as-text-files/)

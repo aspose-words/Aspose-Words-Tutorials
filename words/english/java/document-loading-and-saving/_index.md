@@ -132,7 +132,8 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
 
 ### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
-Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
+
+### [Save Word Document with Aspose.Words – Complete Java Guide](./save-word-document-with-aspose-words-complete-java-guide/)
 
 ## Frequently Asked Questions
 

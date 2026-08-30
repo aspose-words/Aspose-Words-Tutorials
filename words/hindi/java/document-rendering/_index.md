@@ -38,7 +38,9 @@ Java के लिए Aspose.Words का उपयोग करके अपन
 ### [दस्तावेज़ मुद्रण और रेंडरिंग](./document-printing-rendering/)
 Java के लिए Aspose.Words का उपयोग करके कुशल दस्तावेज़ प्रिंटिंग और रेंडरिंग का पता लगाएं। स्रोत कोड उदाहरणों के साथ चरण-दर-चरण सीखें।
 ### [दस्तावेज़ों को HTML में प्रस्तुत करना](./rendering-documents-html/)
-Aspose.Words for Java के साथ आसानी से HTML में दस्तावेज़ों को रेंडर करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए चरण-दर-चरण मार्गदर्शिका।
+Aspose.Words for Java के साथ आसानी से HTML में दस्तावेज़ों को रेंडर करना सीखें। कुशल दस्तावेज़ रूपांतरण के लिए चरण-दर-स्टेप मार्गदर्शिका।
+### [Aspose.Words for Java में चेतावनियों को कैसे संभालें – पूर्ण गाइड](./how-to-handle-warnings-in-aspose-words-for-java-full-guide/)
+Aspose.Words for Java में चेतावनियों को संभालने के लिए चरण-दर-चरण मार्गदर्शिका, कोड उदाहरणों सहित।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,8 +84,14 @@ Utnyttja kraften i matematiska ekvationer i dokument med Aspose.Words for Java. 
 ### [Spara dokument som TXT – Snabbguide för export av Word-matematik](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Lär dig hur du sparar ett Word‑dokument som TXT och exporterar matematiska ekvationer med Aspose.Words.
 
+### [Konvertera docx till txt och exportera Word‑matematik till LaTeX – Komplett guide](./convert-docx-to-txt-and-export-word-math-latex-complete-guid/)
+Lär dig hur du konverterar DOCX till TXT och exporterar Word‑matematik som LaTeX i en komplett steg‑för‑steg‑guide.
+
 ### [Konvertera docx till markdown – Exportera matematiska ekvationer till LaTeX med Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Lär dig hur du konverterar DOCX-filer till Markdown och exporterar matematiska ekvationer som LaTeX med Aspose.Words.
+
+### [Konvertera docx till markdown med Java – Komplett programmeringsguide](./convert-docx-to-markdown-with-java-complete-programming-guid/)
+Lär dig steg‑för‑steg hur du konverterar DOCX‑filer till Markdown med Aspose.Words for Java i en komplett guide.
 
 ### [Aspose Word till PDF – Konvertera DOCX till PDF i Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words for Java i några enkla steg.
@@ -104,6 +110,15 @@ Lär dig hur du bäddar in bilder i Markdown när du konverterar DOCX-filer med 
 
 ### [Skapa tillgänglig PDF från DOCX – Komplett guide](./create-accessible-pdf-from-docx-complete-guide/)
 Lär dig hur du konverterar DOCX till en tillgänglig PDF med fullständig steg‑för‑steg‑guide och bästa praxis.
+
+### [Skapa tillgänglig PDF från Word – Komplett guide](./create-accessible-pdf-from-word-complete-guide/)
+Lär dig hur du konverterar Word‑dokument till en tillgänglig PDF med fullständig steg‑för‑steg‑guide och bästa praxis.
+
+### [Exportera Word till PNG – Komplett Java-guide för att konvertera DOCX till bilder](./export-word-to-png-complete-java-guide-for-converting-docx-t/)
+Lär dig hur du konverterar DOCX-filer till PNG-bilder med Aspose.Words for Java i en steg‑för‑steg‑guide.
+
+### [Hur man använder Aspose för Java: Konvertera DOCX till PDF](./how-to-use-aspose-for-java-convert-docx-to-pdf/)
+Lär dig hur du konverterar DOCX-filer till PDF med Aspose.Words for Java i några enkla steg.
 
 ## Vanliga frågor
 

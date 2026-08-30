@@ -69,6 +69,15 @@ weight: 20
 ### [Αριστεία Επεξεργασία Κειμένου σε Java&#58; Χρήση Aspose.Words & Μοντέλων AI για Σύνοψη και Μετάφραση](./java-aspose-words-text-processing/)
 Μάθετε πώς να αυτοματοποιήσετε τη σύνοψη κειμένου και τη μετάφραση χρησιμοποιώντας το Aspose.Words for Java με το GPT‑4 της OpenAI και το Gemini της Google. Βελτιώστε τις εφαρμογές Java σας σήμερα.
 
+### [Εκτέλεση Ελέγχου Γραμματικής σε DOCX με Java – Πλήρης Οδηγός Προγραμματισμού](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+Μάθετε πώς να ενσωματώσετε έλεγχο γραμματικής σε αρχεία DOCX χρησιμοποιώντας Aspose.Words for Java.
+
+### [Δημιουργία Περίληψης Εγγράφου σε Java με Aspose.Words – Πλήρης Οδηγός](./create-document-summary-in-java-with-aspose-words-full-guide/)
+Μάθετε πώς να δημιουργήσετε αυτόματες περιλήψεις εγγράφων χρησιμοποιώντας Aspose.Words for Java και μοντέλα AI.
+
+### [Πώς να Χρησιμοποιήσετε το Gemini για τη Μετάφραση DOCX στα Ισπανικά – Πλήρης Οδηγός Java](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+Μάθετε πώς να χρησιμοποιήσετε το Gemini για αυτόματη μετάφραση αρχείων DOCX στα Ισπανικά με Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Τεκμηρίωση Aspose.Words for Java](https://reference.aspose.com/words/java/)

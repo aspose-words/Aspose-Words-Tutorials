@@ -75,6 +75,18 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
 
+### [Java で DOCX の文法チェックを実行 – 完全プログラミングガイド](./run-grammar-check-on-docx-in-java-complete-programming-guide/)
+
+Aspose.Words for Java を使用して、DOCX ファイルの文法チェックを自動化し、結果を取得する方法を学びます。
+
+### [Java でドキュメント要約を作成する – 完全ガイド (Aspose.Words)](./create-document-summary-in-java-with-aspose-words-full-guide/)
+
+Aspose.Words for Java を使い、ドキュメントの要約を自動生成する手順を詳しく解説します。
+
+### [Gemini を使用した DOCX のスペイン語翻訳 – 完全 Java ガイド](./how-to-use-gemini-for-translating-docx-to-spanish-complete-j/)
+
+Gemini を利用して DOCX をスペイン語に翻訳する手順を、Java の完全ガイドとして解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
