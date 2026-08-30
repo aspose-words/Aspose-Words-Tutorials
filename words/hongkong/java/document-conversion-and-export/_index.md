@@ -84,7 +84,13 @@ Aspose.Words for Java 的主要功能之一是能夠 **convert docx to pdf** 以
 
 ### [如何在將 DOCX 轉換為 Markdown 時嵌入圖像](./how-to-embed-images-in-markdown-when-converting-docx/)
 
+### [將 Word 儲存為 Markdown – 完整指南：將 DOCX 轉換為 Markdown](./save-word-as-markdown-complete-guide-to-convert-docx-to-mark/)
+
 ### [從 DOCX 建立可存取 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
+
+### [Java docx to PDF – Generate Accessible PDF with Aspose.Words](./java-docx-to-pdf-generate-accessible-pdf-with-aspose-words/)
+
+### [將 DOCX 轉換為 Markdown – 完整 Java 教學](./convert-docx-to-markdown-complete-java-tutorial/)
 
 ## 常見問題
 
