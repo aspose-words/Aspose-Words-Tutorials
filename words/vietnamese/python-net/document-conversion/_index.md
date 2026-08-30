@@ -20,7 +20,7 @@ Chuyển đổi tài liệu là một khía cạnh quan trọng của quản lý
 
 ## Chuyển đổi tài liệu Python dễ dàng
 
-Trong các hướng dẫn này, các nhà phát triển sẽ khám phá cách sử dụng Aspose.Words cho Python để thực hiện chuyển đổi tài liệu một cách dễ dàng. Tìm hiểu cách chuyển đổi tài liệu Word sang PDF, HTML, DOCX, v.v. Khả năng chuyển đổi mạnh mẽ của Aspose.Words hợp lý hóa các tác vụ quản lý tài liệu và đảm bảo khả năng tương thích trên các định dạng tệp khác nhau.
+Trong các hướng dẫn này, các nhà phát triển sẽ khám phá cách sử dụng Aspose.Words cho Python để thực hiện chuyển đổi tài liệu một cách dễ dàng. Tìm hiểu cách chuyển đổi tài liệu Word sang PDF, HTML, DOCX, v.t. Khả năng chuyển đổi mạnh mẽ của Aspose.Words hợp lý hóa các tác vụ quản lý tài liệu và đảm bảo khả năng tương thích trên các định dạng tệp khác nhau.
 
 ## Cải thiện việc xử lý tài liệu Word
 
@@ -39,6 +39,9 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 
 ### [Khôi phục DOCX bị hỏng & Chuyển Word sang Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words for Python.
+
+### [Khôi phục DOCX và Chuyển sang Markdown & PDF](./how-to-recover-docx-and-convert-to-markdown-pdf/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX hỏng và chuyển đổi sang định dạng Markdown và PDF bằng Aspose.Words for Python.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
