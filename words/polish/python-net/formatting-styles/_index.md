@@ -55,6 +55,9 @@ Dowiedz się, jak skutecznie usuwać i dostosowywać obramowania akapitów za po
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Dowiedz się, jak skutecznie zarządzać tabulatorami w dokumentach Pythona za pomocą Aspose.Words. Ten przewodnik obejmuje dodawanie, dostosowywanie i usuwanie tabulatorów z praktycznymi przykładami.
 
+    ### [Jak stylizować wykres w dokumencie Word przy użyciu Pythona](./how-to-style-chart-in-a-word-document-using-python/)
+Dowiedz się, jak dostosować wygląd wykresów w dokumentach Word za pomocą Aspose.Words dla Pythona.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)

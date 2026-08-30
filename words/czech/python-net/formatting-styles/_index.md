@@ -55,6 +55,9 @@ Naučte se, jak efektivně odstraňovat a upravovat ohraničení odstavců pomoc
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Naučte se, jak efektivně spravovat zarážky tabulátoru v dokumentech Pythonu pomocí Aspose.Words. Tato příručka se zabývá přidáváním, úpravou a odebíráním zarážek tabulátoru s praktickými příklady.
 
+    ### [Jak stylovat graf v dokumentu Word pomocí Pythonu](./how-to-style-chart-in-a-word-document-using-python/)
+Naučte se, jak pomocí Aspose.Words pro Python stylizovat grafy v dokumentech Word, včetně úpravy barev, typů a rozložení.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)

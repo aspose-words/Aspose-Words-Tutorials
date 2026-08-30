@@ -55,6 +55,9 @@ Pelajari cara menghapus dan menyesuaikan batas paragraf secara efisien menggunak
     ### [Mastering Tab Stops in Python with Aspose.Words for Document Formatting](./master-tab-stops-python-aspose-words/)
 Pelajari cara mengelola tab stop secara efektif dalam dokumen Python Anda menggunakan Aspose.Words. Panduan ini membahas cara menambahkan, menyesuaikan, dan menghapus tab stop dengan contoh-contoh praktis.
 
+    ### [Cara menata grafik dalam dokumen Word menggunakan Python](./how-to-style-chart-in-a-word-document-using-python/)
+Pelajari cara menyesuaikan tampilan grafik di dokumen Word dengan Aspose.Words untuk Python, termasuk warna, gaya, dan label.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)

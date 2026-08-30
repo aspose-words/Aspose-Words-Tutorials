@@ -34,6 +34,9 @@ Dowiedz się, jak zoptymalizować obsługę obrazów w dokumentach RTF za pomoc�
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pythona. Ten przewodnik obejmuje niestandardowe funkcje, takie jak właściwości podobne do obrazów, renderowanie tekstu i ulepszenia zabezpieczeń.
 
+    ### [Dodaj cień do kształtu w Pythonie – kompletny przewodnik Aspose.Words](./add-shadow-to-shape-in-python-complete-aspose-words-guide/)
+Dowiedz się, jak dodać cień do kształtu w dokumentach Word przy użyciu Aspose.Words w Pythonie.
+
 ### [Jak dodać cień w C# – Kompletny przewodnik programistyczny](./how-to-add-shadow-in-c-complete-programming-guide/)
 Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, krok po kroku.
 
