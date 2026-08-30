@@ -80,6 +80,9 @@ Használd ki a matematikai egyenletek erejét a dokumentumokban az Aspose.Words 
 ### [Dokumentum mentése TXT‑ként – Gyors útmutató a Word‑matematika exportálásához](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Ismerje meg, hogyan menthet Word‑dokumentumot TXT formátumba, miközben a beágyazott matematikai egyenleteket is exportálja.
 
+### [DOCX exportálása TXT-be Java‑val – Teljes programozási útmutató](./export-docx-to-txt-with-java-complete-programming-guide/)
+Ismerje meg, hogyan konvertálhatja a DOCX fájlokat egyszerűen TXT formátumba Java‑val az Aspose.Words segítségével.
+
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Használd ki a dokumentumalakzatok erejét az Aspose.Words for Java‑ban. Tanuld meg, hogyan hozz létre vizuálisan vonzó dokumentumokat lépésről‑lépésre példákkal.
 
@@ -92,6 +95,9 @@ Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat
 ### [DOCX konvertálása markdownra – Matematikai egyenletek exportálása LaTeX-be az Aspose.Words segítségével](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Tanuld meg, hogyan konvertálj DOCX fájlokat markdown formátumba, és exportáld a matematikai egyenleteket LaTeX kódra az Aspose.Words használatával.
 
+### [Word mentése markdownként – Matematikai egyenletek exportálása LaTeX-be Java-val](./save-word-as-markdown-export-math-to-latex-with-java/)
+Tanulja meg, hogyan menthet Word dokumentumot markdown formátumba, miközben a beágyazott matematikai egyenleteket LaTeX kóddá exportálja Java-val.
+
 ### [Hogyan ágyazzunk be képeket a Markdownba a DOCX konvertálásakor](./how-to-embed-images-in-markdown-when-converting-docx/)
 Tanulja meg, hogyan ágyazhat be képeket a Markdownba a DOCX konvertálásakor az Aspose.Words for Java használatával.
 
@@ -100,6 +106,15 @@ Tanulja meg, hogyan konvertálja a DOCX fájlokat PDF‑be Java‑val az Aspose.
 
 ### [Hozzon létre akadálymentes PDF-et DOCX‑ből – Teljes útmutató](./create-accessible-pdf-from-docx-complete-guide/)
 Tanulja meg, hogyan konvertáljon DOCX fájlokat teljesen hozzáférhető PDF‑be az Aspose.Words for Java segítségével.
+
+### [Képek beágyazása Base64-ként a DOCX Markdownra konvertálásakor](./embed-images-as-base64-when-converting-docx-to-markdown/)
+Tanulja meg, hogyan ágyazhat be képeket Base64 kódolással a DOCX fájlok Markdownba konvertálásakor az Aspose.Words for Java használatával.
+
+### [Dokumentum mentése PDF‑ként Aspose.Words Java‑val – Teljes akadálymentes útmutató](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+Ismerje meg, hogyan menthet PDF‑t teljesen hozzáférhető módon az Aspose.Words for Java segítségével.
+
+### [Akadálymentes PDF létrehozása Java‑ban – Teljes címkézési útmutató](./create-accessible-pdf-in-java-full-tagging-guide/)
+Tanulja meg, hogyan hozhat létre teljesen címkézett, hozzáférhető PDF‑eket Java‑val az Aspose.Words segítségével.
 
 ## Gyakran Ismételt Kérdések
 

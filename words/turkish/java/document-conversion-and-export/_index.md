@@ -92,8 +92,14 @@ Aspose.Words for Java’da tabloları biçimlendirmeyi ve tablo stilleri uygulam
 ### [Aspose.Words for Java'da docx'i markdown'a dönüştürme – Matematik denklemlerini LaTeX'e dışa aktarma](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words kullanarak docx dosyasını markdown’a dönüştürün ve matematik denklemlerini LaTeX formatına dışa aktarın.
 
+### [Aspose.Words for Java'da Word'ü markdown olarak kaydet – Matematik denklemlerini LaTeX'e dışa aktar Java ile](./save-word-as-markdown-export-math-to-latex-with-java/)
+Aspose.Words for Java kullanarak Word belgelerini markdown formatına kaydedin ve matematik denklemlerini LaTeX koduna dışa aktarın.
+
 ### [Belgeyi TXT Olarak Kaydet – Word Matematiğini Dışa Aktarma Hızlı Rehberi](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Aspose.Words for Java kullanarak belgeyi TXT formatına kaydedin ve Word matematik denklemlerini dışa aktarın.
+
+### [Java ile docx'i txt olarak dışa aktarma – Tam programlama rehberi](./export-docx-to-txt-with-java-complete-programming-guide/)
+Aspose.Words for Java kullanarak docx dosyasını txt formatına dönüştürün ve metni dışa aktarın.
 
 ### [Aspose Word to PDF – Java’da DOCX'i PDF'e Dönüştürme](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java kullanarak DOCX dosyalarını hızlı ve doğru bir şekilde PDF formatına dönüştürün.
@@ -103,6 +109,14 @@ DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişi
 
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
+
+### [DOCX'i Markdown'a Dönüştürürken Görüntüleri Base64 Olarak Gömme](./embed-images-as-base64-when-converting-docx-to-markdown/)
+DOCX dosyalarındaki resimleri Base64 formatında Markdown'a gömerek sorunsuz dönüşüm sağlayın.
+
+### [Aspose.Words for Java'da Belgeyi PDF Olarak Kaydet – Tam Erişilebilirlik Kılavuzu](./save-document-as-pdf-with-aspose-words-java-full-accessibili/)
+
+### [Aspose.Words for Java'da Erişilebilir PDF Oluşturma – Tam Etiketleme Kılavuzu](./create-accessible-pdf-in-java-full-tagging-guide/)
+Aspose.Words for Java kullanarak tam etiketli, erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

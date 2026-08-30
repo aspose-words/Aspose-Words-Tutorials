@@ -46,7 +46,7 @@ Poniżej znajduje się zwięzły opis typowego przepływu pracy. (Rzeczywisty ko
 
 1. **Utwórz instancję `Document`** – załaduj źródłowy plik Word (`.docx`, `.doc` itp.).  
 2. **Iteruj przez `NodeCollection` dokumentu** aby znaleźć węzły `Shape` zawierające obrazy.  
-3. **Wyodrębnij każdy obraz** za pomocą API `Shape.getImageData()` i zapisz go do pliku używając `ImageData.save()`.
+3. **Wyodrębnij każdy obraz** za pomocą API `Shape.getImageData()` i zapisz go do pliku użyjąc `ImageData.save()`.
 
 > *Wskazówka:* Użyj `Document.getChildNodes(NodeType.SHAPE, true)`, aby pobrać wszystkie kształty, w tym znajdujące się w nagłówkach, stopkach i przypisach.
 
@@ -135,6 +135,8 @@ Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX i przywrócić ich zaw
 
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Dowiedz się, jak przechwytywać i obsługiwać ostrzeżenia o podstawianiu czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+
+### [Otwórz uszkodzony dokument Word – ustaw tryb odzyskiwania w Javie](./open-corrupted-word-document-set-recovery-mode-in-java/)
 
 ## Najczęściej zadawane pytania
 

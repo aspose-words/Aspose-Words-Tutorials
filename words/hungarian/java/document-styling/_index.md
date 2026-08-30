@@ -41,8 +41,10 @@ Tanuld meg, hogyan formázhatod a bekezdéseket és a szöveget dokumentumokban 
 Tanuld meg, hogyan szabhatsz testre dokumentumtémákat az Aspose.Words for Java segítségével. Ez az átfogó útmutató lépésről lépésre bemutatja az útmutatást és forráskód példákat.
 ### [Dokumentum vízjelezése és oldalbeállítás](./document-watermarking-page-setup/)
 Tanuld meg, hogyan alkalmazhatsz vízjeleket és állíthatsz be oldalkonfigurációkat az Aspose.Words for Java segítségével. Átfogó útmutató forráskóddal.
-### [Dokumentum fejléc és lábléc formázása](./document-header-footer-styling/)
+### [Dokumentum fejlőc és lábléc formázása](./document-header-footer-styling/)
 Tanuld meg, hogyan formázhatod a dokumentumok fejlécét és láblécét az Aspose.Words for Java használatával ebben a részletes útmutatóban. Lépésről lépésre útmutató és forráskód is mellékelve.
+### [Alapértelmezett betűtípus beállítása az Aspose.Words for Java-ban – Teljes útmutató](./set-default-font-settings-in-aspose-words-for-java-complete/)
+Tanuld meg, hogyan állítsd be az alapértelmezett betűtípust az Aspose.Words for Java segítségével. Lépésről lépésre útmutató forráskóddal. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
