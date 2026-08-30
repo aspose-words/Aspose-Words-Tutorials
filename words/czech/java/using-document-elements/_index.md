@@ -67,6 +67,8 @@ Naučte se používat Markdown v Aspose.Words pro Javu s tímto podrobným návo
 Naučte se manipulovat s uzly v Aspose.Words pro Javu s tímto podrobným návodem. Odemkněte výkon zpracování dokumentů.
 ### [Používání objektů OLE a ovládacích prvků ActiveX v Aspose.Words pro Javu](./using-ole-objects-and-activex/)
 Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro Javu. Snadno vytvářejte interaktivní dokumenty. Začněte hned teď!
+### [Jak přidat ActiveX a vložit koláčový graf do dokumentu Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Naučte se přidávat ActiveX a vkládat koláčové grafy do dokumentů Word pomocí Aspose.Words pro Javu.
 ### [Používání revizí v Aspose.Words pro Javu](./using-revisions/)
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)

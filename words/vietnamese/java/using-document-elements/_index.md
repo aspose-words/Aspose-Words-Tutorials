@@ -67,6 +67,8 @@ Học cách sử dụng Markdown trong Aspose.Words cho Java với hướng dẫ
 Học cách thao tác các nút trong Aspose.Words cho Java với hướng dẫn từng bước này. Mở khóa sức mạnh xử lý tài liệu.
 ### [Sử dụng OLE Objects và ActiveX Controls trong Aspose.Words cho Java](./using-ole-objects-and-activex/)
 Học cách sử dụng các đối tượng OLE và điều khiển ActiveX trong Aspose.Words cho Java. Tạo tài liệu tương tác dễ dàng. Bắt đầu ngay!
+### [Cách thêm ActiveX và chèn biểu đồ tròn vào tài liệu Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Hướng dẫn chi tiết cách tích hợp ActiveX và tạo biểu đồ tròn trong tài liệu Word bằng Aspose.Words for Java.
 ### [Sử dụng Revisions trong Aspose.Words cho Java](./using-revisions/)
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)

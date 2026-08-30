@@ -43,6 +43,9 @@ Kesimpulannya, menguasai manipulasi elemen dokumen menggunakan Aspose.Words untu
 Ingat, latihan akan menghasilkan kesempurnaan, dan dengan Aspose.Words untuk Java, Anda akan dapat membuat, memodifikasi, dan menyempurnakan dokumen layaknya seorang profesional dalam waktu singkat. Selamat membuat kode!
 
 ## Menggunakan Tutorial Elemen Dokumen
+### [Cara Menambahkan ActiveX dan Menyisipkan Diagram Lingkaran di Dokumen Word](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Pelajari cara menambahkan kontrol ActiveX dan menyisipkan diagram lingkaran ke dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ### [Menggunakan Komentar di Aspose.Words untuk Java](./using-comments/)
 Pelajari cara menggunakan komentar di Aspose.Words untuk Java. Tutorial langkah demi langkah untuk menambahkan dan menyesuaikan komentar di dokumen Anda.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)

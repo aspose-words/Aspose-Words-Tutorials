@@ -67,6 +67,8 @@ Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésr�
 Tanuld meg a csomópontok manipulálását az Aspose.Words for Java programban ezzel a lépésről lépésre haladó oktatóanyaggal. Engedd szabadjára a dokumentumfeldolgozási teljesítményt.
 ### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban](./using-ole-objects-and-activex/)
 Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!
+### [Hogyan adjunk hozzá ActiveX-et és szúrjunk be kördiagramot egy Word dokumentumba](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Ismerd meg, hogyan lehet ActiveX vezérlőt hozzáadni és kördiagramot beilleszteni egy Word dokumentumba az Aspose.Words for Java segítségével.
 ### [Revisions használata az Aspose.Words-ben Java-ban](./using-revisions/)
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)

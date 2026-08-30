@@ -45,32 +45,48 @@ Aspose.Words for Javaを使えば、動的なドキュメントを即座に作�
 ## ドキュメント要素チュートリアルの使用
 ### [Aspose.Words for Java でのコメントの使用](./using-comments/)
 Aspose.Words for Javaでコメントを使用する方法を学びましょう。ドキュメントにコメントを追加およびカスタマイズするためのステップバイステップのチュートリアルです。
+
 ### [Aspose.Words for Java でのフィールドの使用](./using-fields/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のフィールドを効果的に使用する方法を学びましょう。動的な Word 文書を簡単に作成できます。
+
 ### [Aspose.Words for Java でのフォントの使用](./using-fonts/)
 Aspose.Words for Java のフォント書式設定（サイズ、スタイル、色など）を詳しく見てみましょう。美しくフォーマットされたドキュメントを簡単に作成できます。
+
 ### [Aspose.Words for Java で脚注と文末脚注を使用する](./using-footnotes-and-endnotes/)
 Aspose.Words for Javaで脚注と文末脚注を効果的に使う方法を学びましょう。今すぐドキュメントの書式設定スキルを磨きましょう！
+
 ### [Aspose.Words for Java でのフォームフィールドの使用](./using-form-fields/)
 Aspose.Words for Java を使用して、フォーム フィールドを含むインタラクティブな Word 文書を作成する方法を学びます。今すぐ始めましょう。
+
 ### [Aspose.Words for Java で HarfBuzz を使用する](./using-harfbuzz/)
 Aspose.Words for JavaでHarfBuzzを使って高度なテキストシェーピングを行う方法を学びましょう。このステップバイステップガイドで、複雑なスクリプトにおけるテキストレンダリングを強化しましょう。
+
 ### [Aspose.Words for Java でヘッダーとフッターを使用する](./using-headers-and-footers/)
 Aspose.Words for Javaでヘッダーとフッターの使い方をステップバイステップで学びましょう。プロフェッショナルなドキュメントを簡単に作成できます。
+
 ### [Aspose.Words for Java でハイフネーションを使用する](./using-hyphenation/)
 この包括的なチュートリアルで、Aspose.Words for Java でハイフネーションを効果的に使用する方法を学びましょう。今すぐドキュメントの読みやすさを向上させましょう。
+
 ### [Aspose.Words for Java でリストを使用する](./using-lists/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のリストの使い方を学びましょう。ドキュメントを効果的に整理し、フォーマットしましょう。
+
 ### [Aspose.Words for Java で Markdown を使用する](./using-markdown/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java で Markdown の使い方を学びましょう。Markdown ドキュメントを簡単に作成、スタイル設定、保存できます。
+
 ### [Aspose.Words for Java でのノードの使用](./using-nodes/)
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
+
 ### [Aspose.Words for Java での OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
 Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使い方を学びましょう。インタラクティブなドキュメントを簡単に作成できます。今すぐ始めましょう！
+
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
+
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+
+### [Word 文書に ActiveX を追加し、円グラフを挿入する方法](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Aspose.Words for JavaでActiveXを追加し、円グラフを文書に挿入する手順を学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

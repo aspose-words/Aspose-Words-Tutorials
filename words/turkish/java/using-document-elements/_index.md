@@ -67,6 +67,8 @@ Bu adım adım eğitimle Java için Aspose.Words'de Markdown kullanmayı öğren
 Bu adım adım eğitimle Aspose.Words for Java'da düğümleri yönetmeyi öğrenin. Belge işleme gücünü açığa çıkarın.
 ### [Aspose.Words for Java'da OLE Nesneleri ve ActiveX Denetimlerini Kullanma](./using-ole-objects-and-activex/)
 Aspose.Words for Java'da OLE nesnelerini ve ActiveX denetimlerini kullanmayı öğrenin. Kolayca etkileşimli belgeler oluşturun. Hemen başlayın!
+### [Word belgesine ActiveX ekleme ve pasta grafiği ekleme](./how-to-add-activex-and-insert-a-pie-chart-in-a-word-doc/)
+Word belgesine ActiveX ekleyip pasta grafiği eklemeyi öğrenin. Dinamik ve görsel raporlar oluşturun.
 ### [Java için Aspose.Words'de Revizyonları Kullanma](./using-revisions/)
 Aspose.Words for Java'nın revizyon kontrollerini etkili bir şekilde kullanmayı öğrenin. Geliştiriciler için adım adım kılavuz. Belge yönetiminizi optimize edin.
 ### [Java için Aspose.Words'de Bölümleri Kullanma](./using-sections/)
