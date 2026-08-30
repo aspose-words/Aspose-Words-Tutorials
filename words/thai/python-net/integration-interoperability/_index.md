@@ -26,13 +26,16 @@
 ## บทช่วยสอนที่พร้อมใช้งาน
 
 ### [การปรับแต่งเอกสารหลักใน Python โดยใช้ Aspose.Words: สีหน้า การนำเข้าโหนด และพื้นหลัง](./master-document-customization-aspose-words-python/)
-เรียนรู้วิธีปรับแต่งเอกสารด้วยโปรแกรมใน Python ด้วย Aspose.Words ด้วยการตั้งค่าสีหน้า นำเข้าโหนดที่มีรูปแบบที่กำหนดเอง และใช้รูปร่างพื้นหลัง
+เรียนรู้วิธีปรับแต่งเอกสารด้วยโปรแกรมใน Python ด้วย Aspose.Wordsด้วยการตั้งค่าสีหน้า นำเข้าโหนดที่มีรูปแบบที่กำหนดเอง และใช้รูปร่างพื้นหลัง
 
     ### [Master ODT Schema & Units with Aspose.Words in Python](./master-odt-schema-units-aspose-words-python/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Python-net
 
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 เรียนรู้วิธีการสร้างโครงการ VBA ของ Microsoft Word ให้เป็นระบบอัตโนมัติโดยใช้ Python คู่มือนี้ครอบคลุมถึงการสร้าง การโคลน การตรวจสอบสถานะการป้องกัน และการจัดการการอ้างอิงในโครงการ VBA ด้วย Aspose.Words
+
+### [cmake build x64 – คู่มือฉบับสมบูรณ์ในการสร้างและสร้างโครงการ VS 2022](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+เรียนรู้วิธีใช้ CMake เพื่อสร้างโครงการ 64‑บิตและคอมไพล์ด้วย Visual Studio 2022 อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

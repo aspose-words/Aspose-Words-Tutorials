@@ -34,6 +34,9 @@ Kód oktatóanyag az Aspose.Words Python-nethez
     ### [Master VBA Automation with Aspose.Words for Python&#58; A Complete Guide to Creating, Cloning, and Managing Projects](./master-vba-automation-aspose-words-python/)
 Ismerje meg, hogyan automatizálhatja a Microsoft Word VBA-projekteket Python használatával. Ez az útmutató a VBA-projektekben az Aspose.Words segítségével történő létrehozást, klónozást, védelmi állapot ellenőrzését és hivatkozások kezelését ismerteti.
 
+### [cmake build x64 – Teljes útmutató a VS 2022 projektek generálásához és felépítéséhez](./cmake-build-x64-complete-guide-to-generating-and-building-vs/)
+Ismerje meg, hogyan generálhat és építhet VS 2022 x64 projekteket cmake segítségével.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)
