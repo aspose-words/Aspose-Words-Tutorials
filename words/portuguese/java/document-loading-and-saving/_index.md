@@ -46,7 +46,7 @@ A seguir, um resumo conciso do fluxo de trabalho típico. (O código real é mos
 
 1. **Crie uma instância `Document`** – carregue o arquivo Word de origem (`.docx`, `.doc`, etc.).  
 2. **Itere pela `NodeCollection` do documento** para encontrar nós `Shape` que contêm imagens.  
-3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave-a em um arquivo usando `ImageData.save()`.
+3. **Extraia cada imagem** via a API `Shape.getImageData()` e grave‑a em um arquivo usando `ImageData.save()`.
 
 > *Dica profissional:* `Document.getChildNodes(NodeType.SHAPE, true)` para recuperar todas as formas, incluindo as que estão dentro de cabeçalhos, rodapés e notas de rodapé.
 
@@ -58,7 +58,7 @@ Para realmente dominar a manipulação de documentos, é preciso primeiro compre
 
 #### Começando
 
-O primeiro passo da sua jornada é familiarizar-se com o básico. Vamos guiá-lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
+O primeiro passo da sua jornada é familiarizar‑se com o básico. Vamos guiá‑lo pelo processo de configuração, garantindo que você tenha as ferramentas necessárias à sua disposição. Desde o download da biblioteca até a sua instalação, não deixamos pedra sobre pedra.
 
 #### Carregando Documentos
 
@@ -100,6 +100,8 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Determinando o Formato de Documento no Aspose.Words for Java](./determining-document-format/)
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Aspose.Words LoadOptions – Recuperar documentos Word corrompidos em Java](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+### [Tutorial de Substituição de Fontes Aspose – Lidar com Fontes Ausentes](./aspose-font-substitution-tutorial-handle-missing-fonts/)
 
 ## Perguntas Frequentes
 

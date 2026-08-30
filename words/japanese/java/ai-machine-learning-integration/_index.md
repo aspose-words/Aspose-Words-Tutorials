@@ -75,6 +75,10 @@ Aspose.Words を使用して新しい `DocumentBuilder` を作成し、目的の
 
 OpenAI の GPT‑4 と Google の Gemini を使用して、Aspose.Words for Java でテキスト要約と翻訳を自動化する方法を学びましょう。Java アプリケーションを今すぐ強化してください。
 
+### [カスタムLLM文法チェックを使用したJavaでのWord文書作成](./create-word-document-java-with-custom-llm-grammar-check/)
+
+カスタム LLM を利用して文法チェックを行いながら、Java で Word 文書を生成する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)

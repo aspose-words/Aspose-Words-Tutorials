@@ -133,8 +133,14 @@ Określanie formatu dokumentu w Aspose.Words for Java. Dowiedz się, jak wykrywa
 ### [Odzyskaj uszkodzony docx – Kompletny przewodnik naprawy i przetwarzania dokumentów](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Kompletny przewodnik, jak naprawić uszkodzone pliki DOCX i przywrócić ich zawartość przy użyciu Aspose.Words for Java.
 
+### [Aspose.Words LoadOptions – odzyskiwanie uszkodzonych dokumentów Word w Javie](./aspose-words-loadoptions-recover-corrupted-word-docs-in-java/)
+Dowiedz się, jak używać LoadOptions w Aspose.Words for Java do naprawy i odzyskiwania uszkodzonych plików DOC/DOCX.
+
 ### [Rejestrowanie ostrzeżeń o podstawianiu czcionek w Javie przy użyciu Aspose.Words – Kompletny przewodnik](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Dowiedz się, jak przechwytywać i obsługiwać ostrzeżenia o podstawianiu czcionek w dokumentach Word przy użyciu Aspose.Words for Java.
+
+### [Samouczek podstawiania czcionek Aspose – Obsługa brakujących czcionek](./aspose-font-substitution-tutorial-handle-missing-fonts/)
+Dowiedz się, jak obsługiwać brakujące czcionki i przechwytywać ostrzeżenia o podstawianiu czcionek w Aspose.Words for Java.
 
 ## Najczęściej zadawane pytania
 

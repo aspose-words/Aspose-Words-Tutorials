@@ -92,11 +92,23 @@ Apprenez à formmer des tableaux et à appliquer des styles dans Aspose.Words po
 ### [Convertir docx en markdown – Exporter les équations mathématiques en LaTeX avec Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Apprenez à convertir des fichiers DOCX en Markdown et à exporter les équations mathématiques au format LaTeX avec Aspose.Words.
 
+### [Comment définir la résolution lors de l’enregistrement d’un document Word au format Markdown](./how-to-set-resolution-when-saving-word-as-markdown/)
+Apprenez à ajuster la résolution des images lors de la conversion d’un fichier Word en Markdown avec Aspose.Words for Java.
+
+### [Comment enregistrer le Markdown depuis Word – Guide complet Java](./how-to-save-markdown-from-word-complete-java-guide/)
+Apprenez à extraire et enregistrer le contenu Markdown d'un document Word en Java avec Aspose.Words, étape par étape.
+
 ### [Enregistrer le document au format TXT – Guide rapide pour l'exportation des équations Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
 Apprenez à enregistrer un document Word en texte brut tout en conservant les équations mathématiques au format LaTeX.
 
+### [Enregistrer le docx au format TXT – Exporter les équations Word vers LaTeX](./save-docx-as-txt-export-word-equations-to-latex/)
+Enregistrez un fichier DOCX en texte brut tout en exportant les équations Word au format LaTeX.
+
 ### [Aspose Word to PDF – Convertir DOCX en PDF en Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Convertissez facilement des fichiers DOCX en PDF avec Aspose.Words for Java en une seule ligne de code.
+
+### [Enregistrer Word en PDF avec Aspose.Words – Guide complet Java](./save-word-as-pdf-with-aspose-words-full-java-guide/)
+Apprenez à convertir des fichiers Word en PDF en Java avec Aspose.Words grâce à ce guide complet étape par étape.
 
 ### [Créer un PDF accessible à partir de DOCX – Guide complet](./create-accessible-pdf-from-docx-complete-guide/)
 Apprenez à générer des PDF accessibles depuis des fichiers DOCX en respectant les normes d'accessibilité.
