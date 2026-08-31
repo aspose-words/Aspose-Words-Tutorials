@@ -1,0 +1,7 @@
+Title: Create txt from document in C# – Export equations to LaTeX
+Slug: create-txt-from-document-in-c-export-equations-to-latex
+Category: programming-with-txtsaveoptions
+ProcessedDate: 2026-06-02T12:33:30.720629
+SourceRepo: AI Search API
+Keywords: create txt from document, save word plain text, export equations latex
+PRNumber: 197

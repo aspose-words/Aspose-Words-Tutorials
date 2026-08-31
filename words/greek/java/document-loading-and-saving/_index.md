@@ -92,7 +92,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Προχωρημένες Επιλογές Αποθήκευσης με Aspose.Words for Java](./advance-saving-options/)
 ### [Αποθήκευση HTML Εγγράφων με Σταθερή Διάταξη στο Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
 ### [Προχωρημένες Επιλογές Αποθήκευσης HTML Εγγράφων με Aspose.Words Java](./advance-html-documents-saving-options/)
-### [Αποθήκευση Εικόνων από Έγγραφα στο Aspose.Words for Java](./saving-images-from-documents/)
+### [Αποθήκευση Ε εικόνων από Έγγραφα στο Aspose.Words for Java](./saving-images-from-documents/)
 ### [Αποθήκευση Εγγράφων ως Markdown στο Aspose.Words for Java](./saving-documents-as-markdown/)
 ### [Αποθήκευση Εγγράφων σε Μορφή ODT στο Aspose.Words for Java](./saving-documents-as-odt-format/)
 ### [Αποθήκευση Εγγράφων σε Μορφή OOXML στο Aspose.Words for Java](./saving-documents-as-ooxml-format/)
@@ -101,6 +101,8 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Αποθήκευση Εγγράφων σε Μορφή RTF στο Aspose.Words for Java](./saving-documents-as-rtf-format/)
 ### [Αποθήκευση Εγγράφων ως Αρχεία Κειμένου στο Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [Καθορισμός Μορφής Εγγράφου στο Aspose.Words for Java](./determining-document-format/)
+### [Ανάκτηση κατεστραμμένου docx – Πλήρης Οδηγός για Διόρθωση και Επεξεργασία Εγγράφων](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Καταγραφή Προειδοποιήσεων Αντικατάστασης Γραμματοσειράς σε Java με Aspose.Words – Πλήρης Οδηγός](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Πώς να ανακτήσετε docx – Πλήρης Οδηγός για Ανάγνωση Κατεστραμμένων Αρχείων Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
 ## Συχνές Ερωτήσεις

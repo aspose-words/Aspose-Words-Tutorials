@@ -1,0 +1,7 @@
+Title: Create a Blank Word Document with a Hidden Ellipse Shape – Full C# Guide
+Slug: create-a-blank-word-document-with-a-hidden-ellipse-shape-ful
+Category: programming-with-shapes
+ProcessedDate: 2026-07-29T15:09:05.714212
+SourceRepo: AI Search API
+Keywords: blank word document, how to hide shape, create hidden object, create ellipse shape
+PRNumber: 236

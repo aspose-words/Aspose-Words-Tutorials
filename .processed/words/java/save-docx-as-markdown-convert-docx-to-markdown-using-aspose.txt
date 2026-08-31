@@ -1,0 +1,7 @@
+Title: Save docx as markdown: Convert docx to markdown using Aspose.Words
+Slug: save-docx-as-markdown-convert-docx-to-markdown-using-aspose
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-24T01:58:27.520720
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert docx to markdown, export word to markdown, preserve blank lines, save word as markdown
+PRNumber: 191

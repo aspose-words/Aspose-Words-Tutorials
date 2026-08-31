@@ -1,0 +1,7 @@
+Title: Save word as markdown – Export Math to LaTeX with Java
+Slug: save-word-as-markdown-export-math-to-latex-with-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-27T04:38:48.040782
+SourceRepo: AI Search API
+Keywords: save word as markdown, how to export math, convert word equations latex, docx to markdown latex
+PRNumber: 193

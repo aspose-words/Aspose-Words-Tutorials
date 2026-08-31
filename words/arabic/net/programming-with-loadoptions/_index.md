@@ -33,7 +33,17 @@
 | [تحويل ملفات التعريف إلى PNG](./convert-metafiles-to-png/) حوّل ملفات التعريف بسهولة إلى صيغة PNG في مستندات Word باستخدام Aspose.Words لـ .NET مع هذا البرنامج التعليمي خطوة بخطوة. بسّط إدارة مستنداتك. |
 | [تحميل ملفات Chm في مستند Word](./load-chm/) حمّل ملفات CHM بسهولة إلى مستندات Word باستخدام Aspose.Words for .NET مع هذا البرنامج التعليمي خطوة بخطوة. مثالي لتجميع وثائقك التقنية. |
 | [استعادة ملف DOCX باستخدام Aspose.Words – خطوة بخطوة](./how-to-recover-docx-with-aspose-words-step-by-step/) | تعلّم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET. |
+| [كيفية استعادة DOCX – دليل كامل باستخدام Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | دليل شامل خطوة بخطوة لاستعادة ملفات DOCX التالفة باستخدام Aspose.Words لـ .NET. |
 | [خيارات التحميل في Aspose – تحميل DOCX بإعدادات خطوط مخصصة](./aspose-load-options-load-docx-with-custom-font-settings/) | تعلّم كيفية تحميل مستند DOCX مع إعدادات خطوط مخصصة باستخدام Aspose Load Options لتحسين مظهر المستند. |
+| [استعادة مستند Word التالف – دليل كامل C#](./recover-damaged-word-document-complete-c-guide/) | تعلّم خطوة بخطوة كيفية استعادة مستندات Word التالفة باستخدام Aspose.Words لـ .NET مع دليل شامل بلغة C#. |
+| [استعادة ملف DOCX التالف باستخدام Aspose.Words – تعيين وضع الاسترداد وخيارات التحميل](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | تعلم كيفية استعادة ملفات DOCX التالفة وتعيين وضع الاسترداد وخيارات التحميل باستخدام Aspose.Words. |
+| [استعادة ملف Word التالف – دليل كامل لفتح ملفات DOCX التالفة والحصول على عدد الصفحات](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | تعلم كيفية استعادة ملفات Word التالفة وفتح مستندات DOCX المعطوبة ومعرفة عدد الصفحات بسهولة باستخدام Aspose.Words for .NET. |
+| [كيفية استعادة ملف docx – دليل C# للملفات Word التالفة](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | تعلم كيفية استعادة ملفات Word التالفة بصيغة docx باستخدام C# و Aspose.Words. |
+| [استعادة مستند Word باستخدام Aspose.Words في C#](./recover-word-document-with-aspose-words-in-c/) | تعلّم خطوة بخطوة كيفية استعادة مستند Word باستخدام Aspose.Words في C#. |
+| [كيفية استعادة ملف DOCX – ضبط وضع الاستعادة وفتح ملفات Word التالفة](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | تعلم كيفية ضبط وضع الاستعادة لفتح ملفات Word التالفة واستعادة مستندات DOCX باستخدام Aspose.Words لـ .NET. |
+| [كيفية استخدام LoadOptions في Aspose.Words – دليل شامل](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | دليل شامل يشرح كيفية استخدام LoadOptions في Aspose.Words لتحميل مستندات Word مع إعدادات مخصصة. |
+| [استعادة مستند تالف في C# – ضبط وضع الاستعادة وإظهار مطالبة للمستخدم](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | تعلّم كيفية استعادة مستند Word تالف باستخدام Aspose.Words في C# عبر ضبط وضع الاستعادة وإظهار مطالبة للمستخدم. |
+| [استعادة ملف DOCX تالف – دليل كامل بلغة C#](./recover-corrupted-docx-complete-c-guide/) | تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام دليل شامل بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

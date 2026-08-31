@@ -45,7 +45,12 @@ Word文書をPDFに変換してオンライン配信、アーカイブ、印刷�
 | [PDF ドキュメントの最終印刷プロパティを更新する](./update-last-printed-property/) ステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して PDF ドキュメント内の最後に印刷されたプロパティを更新する方法を学習します。 |
 | [PDF ドキュメントで 3D DML 3DEffects をレンダリングする](./dml-3deffects-rendering/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して PDF ドキュメントで魅力的な 3D DML 効果をレンダリングする方法を学習します。 |
 | [PDF文書内の画像を補間する](./interpolate-images/) Aspose.Words for .NET を使用してPDFドキュメント内の画像を補間する方法を、ステップバイステップガイドで学びましょう。PDFの画像品質を簡単に向上させることができます。 |
-
+| [Aspose Words で Word を PDF に保存 – 完全 C# ガイド](./save-word-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words for .NET を使用して、C# で Word 文書を PDF に変換する手順を詳細に解説します。 |
+| [Aspose.Words を使用して docx を PDF に保存する完全な C# ガイド](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) Aspose.Words を使用して docx を PDF に変換する完全な C# ガイドです。ステップバイステップで実装方法を解説します。 |
+| [C#でWordからアクセシブルPDFを作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-with-c-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を作成する方法をステップバイステップで学びます。 |
+| [C#でアクセシブルPDFを作成 – PDFアクセシビリティチュートリアル](./create-accessible-pdf-in-c-pdf-accessibility-tutorial/) Aspose.Words for .NET を使用して、C# でアクセシブルな PDF を作成し、タグ付けや代替テキストを設定する方法を学びます。 |
+| [Word からアクセシブル PDF を作成する – 完全ガイド](./create-accessible-pdf-from-word-complete-guide/) Aspose.Words for .NET を使用して、Word 文書からアクセシブルな PDF を作成し、アクセシビリティ基準に準拠させる方法をステップバイステップで解説します。 |
+| [アクセシブルPDFの作成 – PDF/UA 準拠のステップバイステップ ガイド](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) Aspose.Words for .NET を使用して、PDF/UA に準拠したアクセシブルな PDF を作成する手順を詳しく解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

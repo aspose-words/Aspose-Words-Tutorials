@@ -103,6 +103,9 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلّم كيفية حفظ المستندات بصيغة RTF باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع الكود المصدري لتحويل المستندات بكفاءة.
 ### [تحديد تنسيق المستند في Aspose.Words لـ Java](./determining-document-format/)
 تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة.
+### [استعادة ملف docx تالف – دليل شامل للإصلاح ومعالجة المستندات](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها ومعالجتها باستخدام Aspose.Words for Java.
+### [التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل شامل](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [كيفية استعادة ملف DOCX – دليل كامل لقراءة ملفات Word التالفة](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة وقراءة محتواها باستخدام Aspose.Words for Java.
 

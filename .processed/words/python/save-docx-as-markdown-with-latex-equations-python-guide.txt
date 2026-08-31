@@ -1,0 +1,7 @@
+Title: Save docx as markdown with LaTeX equations – Python guide
+Slug: save-docx-as-markdown-with-latex-equations-python-guide
+Category: document-conversion
+ProcessedDate: 2026-06-08T20:20:29.266466
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert word to markdown, how to save word as markdown, convert docx to markdown python, export word equations to latex
+PRNumber: 203

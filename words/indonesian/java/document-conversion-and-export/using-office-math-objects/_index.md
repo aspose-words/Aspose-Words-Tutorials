@@ -57,6 +57,7 @@ Berikut adalah panduan singkat bernomor. Setiap langkah dilengkapi dengan blok k
 
 ### Langkah 1: Muat Dokumen
 
+### Memuat Dokumen
 Pertama, muat dokumen yang berisi persamaan Office Math yang ingin Anda kerjakan:
 
 ```java

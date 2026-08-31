@@ -23,18 +23,25 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | --- | --- |
 | [Converteer Doc naar Docx](./doc-to-docx/) | Leer hoe je DOC naar DOCX converteert met Aspose.Words voor .NET. Stapsgewijze handleiding met codevoorbeelden. Perfect voor ontwikkelaars. |
 | [Converteer Docx naar Rtf](./docx-to-rtf/) | Leer hoe u DOCX naar RTF converteert met Aspose.Words voor .NET met onze stapsgewijze handleiding. Eenvoudige conversie voor naadloze documentverwerking. |  
-| [Word-bestand naar PDF converteren](./docx-to-pdf/) Leer hoe u eenvoudig Word-bestanden naar PDF kunt converteren met Aspose.Words voor .NET met onze gids. Perfect voor ontwikkelaars die op zoek zijn naar snelle en betrouwbare documentconversie. | 
+| [Word-bestand naar PDF converteren](./docx-to-pdf/) Leer hoe u eenvoudig Word-bestanden naar PDF kunt converteren met Aspose.Words voor .NET met onze gids. Perfect voor ontwikkelaars die op zoek zijn naar snelle en betrouwbare documentconversie. |
 | [Word naar PDF converteren in C# met Aspose.Words – Gids](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Leer hoe u Word-documenten naar PDF converteert in C# met Aspose.Words. Stapsgewijze handleiding met voorbeeldcode. |
 | [Converteer Docx naar Byte](./docx-to-byte/) | Leer hoe u Docx naar een byte-array in .NET converteert met Aspose.Words voor efficiënte documentverwerking. Inclusief stapsgewijze handleiding. |  
 | [Converteer Docx naar Epub](./docx-to-epub/) | Converteer DOCX eenvoudig naar EPUB met Aspose.Words voor .NET. Volg onze tutorial voor naadloze integratie in uw .NET-applicaties. |
 | [Converteer Docx naar Mhtml en verstuur e-mail](./docx-to-mhtml-and-sending-email/) | Leer hoe u DOCX naar MHTML converteert en e-mails verstuurt met Aspose.Words voor .NET in deze stapsgewijze handleiding. Verhoog uw productiviteit met eenvoudige automatisering. |
 | [Converteer Docx-bestand naar Markdown](./docx-to-markdown/) | Leer hoe u DOCX-bestanden naar Markdown converteert met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor naadloze integratie in uw .NET-applicaties. |
 | [Converteer Docx naar Txt](./docx-to-txt/) Converteer DOCX naar TXT met Aspose.Words voor .NET met onze stapsgewijze handleiding. Leer hoe u documenten efficiënt en moeiteloos kunt transformeren. |
+| [Docx opslaan als txt – Complete gids voor het exporteren van Word‑vergelijkingen als LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Leer hoe u DOCX naar TXT converteert en Word‑vergelijkingen exporteert als LaTeX met Aspose.Words voor .NET. |
 | [Tekstbestand naar Word-document converteren](./txt-to-docx/) | Leer hoe u tekstbestanden naar Word-documenten converteert met Aspose.Words voor .NET. Beheer documentconversies efficiënt met onze uitgebreide handleiding. | 
 | [PDF opslaan als Jpeg](./pdf-to-jpeg/) | Converteer moeiteloos PDF's naar JPEG's met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding met voorbeelden en veelgestelde vragen. Perfect voor ontwikkelaars en liefhebbers. |
 | [PDF opslaan in Word-formaat (Docx)](./pdf-to-docx/) | Leer hoe u een PDF naar een Word-document (Docx) converteert met Aspose.Words voor .NET in deze gedetailleerde, stapsgewijze handleiding. Perfect voor ontwikkelaars. |
 | [Hoe LaTeX vanuit Word exporteren – Stapsgewijze handleiding](./how-to-export-latex-from-word-step-by-step-guide/) | Leer hoe u LaTeX vanuit Word kunt exporteren met Aspose.Words voor .NET in een stapsgewijze handleiding. |
 | [Word opslaan als PDF met Aspose.Words – Complete C#-gids](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u Word-documenten naar PDF converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
+| [Docx opslaan als PDF met Aspose.Words – Complete C#-gids](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Leer hoe u DOCX-bestanden naar PDF converteert met Aspose.Words in C# via een volledige stap‑voor‑stap gids. |
+| [Maak Toegankelijke PDF – Converteer Word naar PDF met Toegankelijkheid](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Leer hoe u met Aspose.Words voor .NET een toegankelijke PDF maakt vanuit een Word-document, inclusief toegankelijkheidsopties. |
+| [Herstel Beschadigd DOCX – Volledige Gids voor Reparatie, PDF- en Markdown-export](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Leer hoe u een beschadigd DOCX-bestand herstelt en exporteert naar PDF en Markdown met Aspose.Words voor .NET. |
+| [Hoe PDF van Word maken – Complete C#-gids](./how-to-create-pdf-from-word-complete-c-guide/) | Leer hoe u PDF's maakt van Word-documenten met Aspose.Words in C# via een volledige stap‑voor‑stap gids. |
+| [Word naar PDF converteren in C# – Complete Aspose-gids](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Leer hoe u Word-documenten naar PDF converteert in C# met Aspose.Words. Volledige stap‑voor‑stap gids. |
+| [Docx naar PDF en Markdown converteren – Complete C#‑gids](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Leer hoe u Docx-bestanden naar PDF en Markdown converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

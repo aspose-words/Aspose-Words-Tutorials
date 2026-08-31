@@ -1,0 +1,7 @@
+Title: Aspose.Words ActiveX tutorial – insert a CommandButton with Java
+Slug: aspose-words-activex-tutorial-insert-a-commandbutton-with-ja
+Category: images-shapes
+ProcessedDate: 2026-08-08T04:19:33.228505
+SourceRepo: AI Search API
+Keywords: aspose words activex tutorial
+PRNumber: 246

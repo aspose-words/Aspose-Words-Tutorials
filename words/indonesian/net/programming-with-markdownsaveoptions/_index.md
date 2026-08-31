@@ -22,7 +22,7 @@ Words Processing with MarkdownSaveOptions adalah sumber daya mendalam yang meman
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ekspor ke Markdown dengan Penyelarasan Konten Tabel](./export-into-markdown-with-table-content-alignment/) | Pelajari cara mengekspor dokumen Word ke Markdown dengan tabel yang selaras menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk tabel Markdown yang sempurna. Bahasa Indonesia:
-| [Atur Folder Gambar](./set-images-folder/) Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami untuk hasil yang sempurna. |
+| [Atur Folder Gambar](./set-images-folder/) Ubah dokumen Word menjadi Markdown dengan penyelarasan tabel yang tepat menggunakan Aspose.Words untuk .NET. Ikuti pandilan terperinci kami untuk hasil yang sempurna. |
 ### [Simpan Word sebagai PDF dan Pulihkan Word yang Rusak – Konversi Word ke Markdown dalam C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 Pelajari cara menyimpan dokumen Word sebagai PDF dan memulihkan Word yang rusak, serta mengonversi Word ke Markdown menggunakan C#.
 ### [Buat PDF yang Dapat Diakses dan Konversi Word ke Markdown – Panduan Lengkap C#](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
@@ -41,6 +41,44 @@ Pelajari cara mengekspor dokumen Word ke Markdown dengan panduan lengkap C#.
 Pelajari cara menyimpan file DOCX sebagai Markdown dengan panduan langkah demi langkah menggunakan C#.
 ### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
 Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
+### [Simpan docx sebagai txt – konversi docx ke markdown](./save-docx-as-txt-convert-docx-to-markdown/)
+Pelajari cara mengonversi file DOCX menjadi file TXT dan Markdown secara efisien menggunakan Aspose.Words untuk .NET.
+### [Cara Menyimpan Word sebagai Markdown – Panduan Lengkap C#](./how-to-save-word-as-markdown-complete-c-guide/)
+Pelajari cara menyimpan dokumen Word langsung ke format Markdown dengan panduan lengkap menggunakan C#.
+### [Cara menyematkan gambar dalam Markdown dari DOCX](./how-to-embed-images-in-markdown-from-docx/)
+Pelajari cara menyematkan gambar dari file DOCX ke dalam dokumen Markdown menggunakan Aspose.Words untuk .NET.
+### [Cara Mengatur Resolusi Saat Mengonversi DOCX ke Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
+### [Ekspor docx ke markdown dalam C# – Panduan Lengkap](./export-docx-to-markdown-in-c-complete-guide/)
+Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan lengkap menggunakan C# dan Aspose.Words.
+### [Cara Mengekspor LaTeX dari Word – Konversi DOCX ke Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversinya ke format Markdown menggunakan Aspose.Words untuk .NET.
+### [Konversi Word ke Markdown – Panduan Lengkap dengan Ekstraksi Gambar](./convert-word-to-markdown-complete-guide-with-image-extractio/)
+Pelajari cara mengonversi dokumen Word ke Markdown lengkap dengan ekstraksi gambar menggunakan C#.
+### [Cara Mengekspor LaTeX dari Word: Mengonversi DOCX ke Markdown dengan Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
+Pelajari cara mengekspor LaTeX dari dokumen Word dan mengonversinya ke Markdown menggunakan Aspose.Words untuk .NET.
+### [Konversi Word ke Markdown – Sematkan Gambar sebagai Base64](./convert-word-to-markdown-embed-images-as-base64/)
+Pelajari cara mengonversi dokumen Word ke Markdown dengan menyematkan gambar sebagai string Base64 menggunakan Aspose.Words untuk .NET.
+### [Cara Menyimpan Markdown dari Word – Panduan Lengkap C#](./how-to-save-markdown-from-word-complete-c-guide/)
+Pelajari cara menyimpan dokumen Word ke format Markdown dengan panduan lengkap C#.
+### [Cara Menyimpan Markdown dari Word – Panduan Lengkap](./how-to-save-markdown-from-word-complete-guide/)
+Pelajari cara menyimpan dokumen Word ke format Markdown dengan panduan lengkap.
+### [Cara Mengekspor LaTeX: Mengonversi DOCX ke Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
+Pelajari cara mengekspor konten LaTeX dengan mengonversi file DOCX menjadi format Markdown dan TXT menggunakan Aspose.Words untuk .NET.
+### [Cara Mengganti Nama Gambar Saat Mengonversi DOCX ke Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
+Pelajari cara mengganti nama gambar secara otomatis saat mengonversi file DOCX ke format Markdown menggunakan Aspose.Words untuk .NET.
+### [Simpan docx sebagai markdown dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/)
+Pelajari cara mengonversi file DOCX menjadi Markdown menggunakan Aspose.Words dengan panduan lengkap C#.
+### [Simpan Gambar Word – Konversi Word ke Markdown dengan Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
+Pelajari cara mengekspor gambar dari dokumen Word saat mengonversinya ke format Markdown menggunakan Aspose.Words.
+### [Konversi Word ke Markdown dalam C# – Panduan Lengkap dengan Ekstraksi Gambar](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
+Pelajari cara mengonversi dokumen Word ke Markdown dengan ekstraksi gambar lengkap menggunakan C#.
+### [Simpan docx sebagai markdown & ekstrak gambar – Panduan C#](./save-docx-as-markdown-extract-images-c-guide/)
+Pelajari cara menyimpan file DOCX sebagai Markdown dan mengekstrak gambar menggunakan C#.
+### [Cara Menyimpan Markdown – Panduan Lengkap C#](./how-to-save-markdown-complete-c-guide/)
+Pelajari cara menyimpan dokumen sebagai Markdown dengan panduan lengkap C#.
+### [Konversi DOCX ke Markdown – Panduan Lengkap Menggunakan Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
+Panduan lengkap untuk mengonversi file DOCX ke format Markdown dengan Aspose.Words untuk .NET.
+### [Cara Menggunakan Callback di C# – Konversi DOCX ke Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: set button size java – Insert ActiveX Command Button in Word
+Slug: set-button-size-java-insert-activex-command-button-in-word
+Category: using-document-elements
+ProcessedDate: 2026-07-29T16:04:58.653419
+SourceRepo: AI Search API
+Keywords: set button size java, how to insert activex, how to set button, java create blank word, insert command button word
+PRNumber: 237

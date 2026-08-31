@@ -1,0 +1,7 @@
+Title: Convert DOCX to Markdown – Complete Guide with Shape Shadow & Recovery
+Slug: convert-docx-to-markdown-complete-guide-with-shape-shadow-re
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-30T19:27:56.152234
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, apply shadow to shape, how to recover corrupted docx, load docx with recovery, how to set shape shadow
+PRNumber: 216

@@ -1,0 +1,7 @@
+Title: Convert docx to markdown – Complete Python Guide with Image Extraction
+Slug: convert-docx-to-markdown-complete-python-guide-with-image-ex
+Category: document-conversion
+ProcessedDate: 2026-06-27T15:47:10.905812
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, extract images from word, convert word to markdown, python docx to markdown, save markdown output
+PRNumber: 215

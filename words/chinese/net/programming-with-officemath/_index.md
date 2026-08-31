@@ -21,7 +21,8 @@ Aspose.Words for .NET 教程“使用 OfficeMath 进行文字处理”将指导�
 标题 | 描述 |
 | --- | --- |
 | [数学方程式](./math-equations/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中配置数学公式。包含示例、常见问题解答等内容的分步指南。|
-
+| [将 docx 保存为 txt – 使用 C# 将 Word Math 导出为 LaTeX](./save-docx-as-txt-export-word-math-to-latex-with-c/) 了解如何使用 C# 将 Word 文档中的数学公式导出为 LaTeX，并将 docx 文件保存为 txt 格式。|
+| [将文档另存为 Txt – 在 C# 中将 Word 数学导出为 LaTeX](./save-document-as-txt-export-word-math-to-latex-in-c/) 了解如何使用 Aspose.Words for .NET 将 Word 文档保存为 txt，并将其中的数学公式导出为 LaTeX 格式。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

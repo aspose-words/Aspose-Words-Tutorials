@@ -1,0 +1,7 @@
+Title: How to translate DOCX to French and automate document translation
+Slug: how-to-translate-docx-to-french-and-automate-document-transl
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-17T18:31:08.775009
+SourceRepo: AI Search API
+Keywords: translate docx to french, write summary to file, automate document translation, replace text with translation, generate summary openai
+PRNumber: 255

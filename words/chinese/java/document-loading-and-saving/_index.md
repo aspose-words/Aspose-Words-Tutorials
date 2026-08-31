@@ -129,6 +129,10 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 学习使用 Aspose.Words 在 Java 中检测文档格式。识别 DOC、DOCX 等，帮助您高效组织文件。
 
+### [恢复损坏的 docx – 完整指南：修复和处理文档](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+学习如何修复损坏的 docx 文件并进行后续处理，提供完整步骤和代码示例。
+
+### [在 Java 中捕获字体替换警告 – Aspose.Words 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何恢复 docx – 读取损坏的 Word 文件完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 学习使用 Aspose.Words for Java 读取并修复受损的 DOCX 文件，提供完整步骤和示例代码。
 
@@ -156,7 +160,6 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 **作者：** Aspose
 
 ### [恢复损坏的 Word 文件 – C# 安全打开指南](./recover-corrupted-word-file-c-guide-to-open-safely/)
-学习如何在 C# 中安全打开并恢复损坏的 Word 文件，提供代码示例和实用技巧。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

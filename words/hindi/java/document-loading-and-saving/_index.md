@@ -100,7 +100,7 @@ Aspose.Words for Java के साथ उन्नत दस्तावेज�
 ### [Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ सेव करना](./saving-html-documents-with-fixed-layout/)
 Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ कैसे सेव करें सीखें। सहज दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words Java के साथ उन्नत HTML दस्तावेज़ सेविंग विकल्प](./advance-html-documents-saving-options/)
+### [Aspose.Words for Java के साथ उन्नत HTML दस्तावेज़ सेविंग विकल्प](./advance-html-documents-saving-options/)
 इस ट्यूटोरियल में हमने Aspose.Words for Java के साथ विभिन्न उन्नत HTML दस्तावेज़ सेविंग विकल्पों को कवर किया है। ये विकल्प आपको हाई‑क्वालिटी HTML बनाने में सक्षम बनाते हैं।
 
 ### [Aspose.Words for Java में दस्तावेज़ों से इमेज सेव करना](./saving-images-from-documents/)
@@ -122,7 +122,7 @@ Aspose.Words for Java का उपयोग करके दस्तावे�
 Aspose.Words for Java के साथ Word दस्तावेज़ को PDF में सेव करना सीखें। फ़ॉन्ट, प्रॉपर्टी और इमेज क्वालिटी को कस्टमाइज़ करें। PDF कनवर्ज़न के लिए व्यापक गाइड।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को RTF फ़ॉर्मेट में सेव करना](./saving-documents-as-rtf-format/)
-Aspose.Words का उपयोग करके दस्तावेज़ को RTF फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए कोड के साथ चरण‑दर‑चरण गाइड।
+Aspose.Words for Java का उपयोग करके दस्तावेज़ को RTF फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए कोड के साथ चरण‑दर‑चरण गाइड।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना](./saving-documents-as-text-files/)
 Aspose.Words for Java के साथ दस्तावेज़ों को टेक्स्ट फ़ाइलों के रूप में सेव करना सीखें। Java कोड उदाहरणों के साथ चरण‑दर‑चरण गाइड।
@@ -130,6 +130,12 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 ### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
+### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+Corrupted docx फ़ाइलों को ठीक करने, पुनर्स्थापित करने और आगे प्रोसेस करने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [Aspose.Words के साथ जावा में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैप्चर करें – पूर्ण गाइड](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
 ### [docx को पुनर्प्राप्त करने का पूर्ण गाइड – भ्रष्ट Word फ़ाइलें पढ़ें](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 भ्रष्ट .docx फ़ाइलों को पढ़ने और पुनर्स्थापित करने की पूरी प्रक्रिया सीखें।
 

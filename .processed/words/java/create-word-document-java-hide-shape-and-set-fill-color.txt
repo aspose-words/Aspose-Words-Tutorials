@@ -1,0 +1,7 @@
+Title: Create word document java – hide shape and set fill color
+Slug: create-word-document-java-hide-shape-and-set-fill-color
+Category: images-shapes
+ProcessedDate: 2026-08-08T04:19:37.433117
+SourceRepo: AI Search API
+Keywords: create word document java, how to hide shape, how to insert shape, hide shape in word, set shape fill color
+PRNumber: 246

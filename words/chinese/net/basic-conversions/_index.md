@@ -35,6 +35,13 @@
 | [如何从 Word 导出 LaTeX – 步骤指南](./how-to-export-latex-from-word-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 将 Word 文档导出为 LaTeX，提供分步指南和代码示例，帮助开发者实现文档转换。|
 | [使用 Aspose.Words 将 Word 转换为 PDF（C#）指南](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，提供分步指南和代码示例。|
 | [使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为 PDF，提供完整的分步指南和代码示例。|
+| [使用 Aspose.Words 将 Docx 保存为 PDF – 完整 C# 指南](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Docx 文档保存为 PDF，提供完整的分步指南和代码示例。|
+| [创建可访问 PDF – 将 Word 转换为 PDF（可访问性）](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | 学习使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，提供分步指南和代码示例。|
+| [恢复损坏的 DOCX – 完整指南：修复、PDF 与 Markdown 导出](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | 学习如何使用 Aspose.Words for .NET 修复损坏的 DOCX 文件，并导出为 PDF 和 Markdown，提供完整分步指南。|
+| [如何从 Word 创建 PDF – 完整 C# 指南](./how-to-create-pdf-from-word-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档创建为 PDF，提供完整的分步指南和代码示例。|
+| [将 Docx 保存为 Txt – 导出 Word 方程为 LaTeX 完整指南](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | 学习如何使用 Aspose.Words for .NET 将 Docx 转换为 Txt，并导出 Word 中的数学公式为 LaTeX，提供完整步骤和代码示例。|
+| [在 C# 中将 Word 转换为 PDF – 完整 Aspose 指南](./convert-word-to-pdf-in-c-complete-aspose-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档完整转换为 PDF，提供分步指南和代码示例。|
+| [将 Docx 转换为 PDF 和 Markdown – 完整 C# 指南](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 同时转换为 PDF 和 Markdown，提供完整分步指南和代码示例。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

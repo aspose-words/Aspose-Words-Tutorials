@@ -1,0 +1,7 @@
+Title: Create word document programmatically – step‑by‑step guide
+Slug: create-word-document-programmatically-step-by-step-guide
+Category: working-with-form-fields
+ProcessedDate: 2026-08-04T22:50:29.128552
+SourceRepo: AI Search API
+Keywords: create word document programmatically, programmatically add command button
+PRNumber: 241

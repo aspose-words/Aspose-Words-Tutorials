@@ -1,0 +1,7 @@
+Title: How to convert docx to markdown with Aspose.Words
+Slug: how-to-convert-docx-to-markdown-with-aspose-words
+Category: document-conversion-and-export
+ProcessedDate: 2026-08-20T22:53:05.742727
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, how to convert word to markdown, export word tables as html
+PRNumber: 259

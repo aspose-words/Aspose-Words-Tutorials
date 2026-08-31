@@ -1,0 +1,7 @@
+Title: Create rectangle shape in Java with Aspose.Words – Full Guide
+Slug: create-rectangle-shape-in-java-with-aspose-words-full-guide
+Category: images-shapes
+ProcessedDate: 2026-07-07T02:31:39.923385
+SourceRepo: AI Search API
+Keywords: create rectangle shape, add shadow to shape, set shape transparency, save document as pdf, how to add shadow
+PRNumber: 223

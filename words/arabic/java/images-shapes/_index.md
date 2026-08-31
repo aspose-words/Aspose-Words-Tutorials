@@ -34,6 +34,8 @@
 ### [كيفية عرض صفحات المستندات كصور مصغرة باستخدام Aspose.Words لـ Java](./render-word-pages-thumbnails-aspose-java/)
 تعلّم كيفية إنشاء صور مصغرة عالية الجودة وخرائط نقطية بأحجام مخصصة لمستندات Word باستخدام Aspose.Words لجافا. حسّن قدراتك على التعامل مع المستندات اليوم.
 
+### [إنشاء مستند Word في Java – إضافة شكل مستطيل مع تأثير الظل](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+تعلم كيفية إضافة شكل مستطيل بظل إلى مستند Word باستخدام Aspose.Words for Java
 ### [إنشاء شكل مستطيل في Word باستخدام Java – دليل كامل](./create-rectangle-shape-in-word-with-java-full-guide/)
 تعلم كيفية إنشاء شكل مستطيل في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 

@@ -1,0 +1,7 @@
+Title: Save Word as Markdown – Complete Guide to Convert DOCX to Markdown
+Slug: save-word-as-markdown-complete-guide-to-convert-docx-to-mark
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-30T20:23:35.979644
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, set image resolution, adjust image dpi, load word document
+PRNumber: 217

@@ -23,7 +23,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | --- | --- |
 | [Converter Doc para Docx](./doc-to-docx/) | Aprenda a converter DOC para DOCX usando o Aspose.Words para .NET. Guia passo a passo com exemplos de código. Perfeito para desenvolvedores. |
 | [Converter Docx para Rtf](./docx-to-rtf/) | Aprenda a converter DOCX para RTF usando o Aspose.Words para .NET com nosso guia passo a passo. Conversão fácil para um processamento de documentos perfeito. |  
-| [Converter arquivo do Word em PDF](./docx-to-pdf/) Aprenda a converter facilmente arquivos do Word para PDF usando o Aspose.Words para .NET com nosso guia. Perfeito para desenvolvedores que buscam conversão de documentos rápida e confiável. | 
+| [Converter arquivo do Word em PDF](./docx-to-pdf/) | Aprenda a converter facilmente arquivos do Word para PDF usando o Aspose.Words para .NET com nosso guia. Perfeito para desenvolvedores que buscam conversão de documentos rápida e confiável. |
 | [Converter Docx em Byte](./docx-to-byte/) | Aprenda a converter Docx em array de bytes no .NET usando Aspose.Words para um processamento eficiente de documentos. Guia passo a passo incluído. |  
 | [Converter Docx para Epub](./docx-to-epub/) | Converta DOCX para EPUB facilmente com o Aspose.Words para .NET. Siga nosso tutorial para uma integração perfeita com seus aplicativos .NET. |
 | [Converter Docx para Mhtml e enviar e-mail](./docx-to-mhtml-and-sending-email/) | Aprenda a converter DOCX para MHTML e enviar e-mails usando o Aspose.Words para .NET neste guia passo a passo. Aumente sua produtividade com automação fácil. |
@@ -33,6 +33,14 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Como Exportar LaTeX do Word – Guia Passo a Passo](./how-to-export-latex-from-word-step-by-step-guide/) | Aprenda a exportar conteúdo LaTeX de documentos Word usando Aspose.Words para .NET. Guia passo a passo com exemplos de código. |
 | [Converter Word para PDF em C# usando Aspose.Words – Guia](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aprenda a converter documentos Word para PDF em C# usando Aspose.Words com este guia passo a passo. |
 | [Salvar Word como PDF com Aspose.Words – Guia Completo C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aprenda a salvar documentos Word como PDF usando Aspose.Words em C#. Guia completo passo a passo. |
+| [Salvar docx como pdf com Aspose.Words – Guia Completo C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aprenda a salvar um arquivo DOCX como PDF usando Aspose.Words em C# com este guia completo. |
+| [Criar PDF acessível – Converter Word para PDF com acessibilidade](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Aprenda a criar PDFs acessíveis a partir de documentos Word usando Aspose.Words para .NET, garantindo conformidade com normas de acessibilidade. |
+| [Recuperar DOCX Corrompido – Guia Completo para Corrigir, Exportar PDF e Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Aprenda a recuperar arquivos DOCX corrompidos, corrigir problemas e exportar para PDF e Markdown usando Aspose.Words para .NET. |
+
+| [como criar PDF a partir do Word – Guia Completo C#](./how-to-create-pdf-from-word-complete-c-guide/) | Aprenda a gerar PDFs a partir de documentos Word usando Aspose.Words para .NET com este guia completo em C#. |
+| [Salvar docx como txt – Guia Completo para Exportar Equações do Word como LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Aprenda a salvar documentos DOCX como arquivos TXT e exportar equações do Word para LaTeX usando Aspose.Words para .NET. |
+| [Converter Word para PDF em C# – Guia Completo Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Aprenda a converter documentos Word para PDF em C# usando Aspose.Words com este guia completo. |
+| [Converter docx para PDF e markdown – Guia completo em C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Aprenda a converter arquivos DOCX em PDF e Markdown usando Aspose.Words para .NET com um guia passo a passo completo. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

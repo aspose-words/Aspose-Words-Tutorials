@@ -1,0 +1,7 @@
+Title: Save Word as PDF with Shape Tagging – Full Python Guide
+Slug: save-word-as-pdf-with-shape-tagging-full-python-guide
+Category: document-conversion
+ProcessedDate: 2026-05-30T09:35:19.824521
+SourceRepo: AI Search API
+Keywords: save word as pdf, convert docx to pdf, convert word document pdf, make pdf accessible, how to tag shapes
+PRNumber: 196

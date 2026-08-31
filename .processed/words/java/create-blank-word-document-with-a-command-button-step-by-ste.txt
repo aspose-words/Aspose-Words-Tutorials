@@ -1,0 +1,7 @@
+Title: Create blank word document with a command button – step‑by‑step guide
+Slug: create-blank-word-document-with-a-command-button-step-by-ste
+Category: using-document-elements
+ProcessedDate: 2026-08-04T23:03:29.981030
+SourceRepo: AI Search API
+Keywords: create blank word document, insert command button, add clickable button, set button size, create command button
+PRNumber: 242

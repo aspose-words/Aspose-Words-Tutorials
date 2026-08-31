@@ -1,0 +1,7 @@
+Title: Convert docx to txt with C# – Complete Programming Guide
+Slug: convert-docx-to-txt-with-c-complete-programming-guide
+Category: basic-conversions
+ProcessedDate: 2026-06-30T19:27:43.774825
+SourceRepo: AI Search API
+Keywords: convert docx to txt, save word plain text, export word equations latex, save word as txt, convert word math latex
+PRNumber: 216

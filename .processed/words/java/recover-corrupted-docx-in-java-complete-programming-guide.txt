@@ -1,0 +1,7 @@
+Title: Recover Corrupted DOCX in Java – Complete Programming Guide
+Slug: recover-corrupted-docx-in-java-complete-programming-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-18T03:22:26.915004
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, set recovery mode, how to recover corrupted docx
+PRNumber: 205

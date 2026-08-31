@@ -1,0 +1,7 @@
+Title: How to Add Shadow to Word Shapes – Complete C# Guide
+Slug: how-to-add-shadow-to-word-shapes-complete-c-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-06-30T19:27:45.528681
+SourceRepo: AI Search API
+Keywords: how to add shadow, change shadow color, save modified document, add shadow to shape, adjust shadow transparency
+PRNumber: 216

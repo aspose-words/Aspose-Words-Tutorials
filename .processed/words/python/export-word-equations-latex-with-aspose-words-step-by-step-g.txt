@@ -1,0 +1,7 @@
+Title: Export word equations latex with Aspose.Words – step‑by‑step guide
+Slug: export-word-equations-latex-with-aspose-words-step-by-step-g
+Category: document-conversion
+ProcessedDate: 2026-08-08T04:55:50.074390
+SourceRepo: AI Search API
+Keywords: export word equations latex, convert word math latex, extract latex from word, extract equations from word
+PRNumber: 247

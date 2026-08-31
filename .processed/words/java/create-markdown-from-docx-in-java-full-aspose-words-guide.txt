@@ -1,0 +1,7 @@
+Title: Create markdown from docx in Java – full Aspose.Words guide
+Slug: create-markdown-from-docx-in-java-full-aspose-words-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-08-08T04:19:50.371892
+SourceRepo: AI Search API
+Keywords: create markdown from docx, convert docx to markdown, how to export tables, convert word tables, export word tables
+PRNumber: 246
