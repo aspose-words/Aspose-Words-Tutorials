@@ -40,6 +40,8 @@ Learn how to enhance your documents with shapes and graphics using Aspose.Words 
 Discover efficient document printing and rendering using Aspose.Words for Java. Learn step-by-step with source code examples.
 ### [Rendering Documents to HTML](./rendering-documents-html/)
 Learn how to render documents to HTML effortlessly with Aspose.Words for Java. Step-by-step guide for efficient document conversion.
+### [How to Handle Fonts in Java with Aspose.Words – Complete Guide](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Learn how to manage fonts in Java using Aspose.Words. Step-by-step guide with code examples for font substitution, embedding, and licensing.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,8 @@ Aspose.Words for Java를 사용하여 도형과 그래픽으로 문서를 더욱
 Aspose.Words for Java를 사용하여 효율적인 문서 인쇄 및 렌더링 방법을 알아보세요. 소스 코드 예제를 통해 단계별로 학습하세요.
 ### [문서를 HTML로 렌더링](./rendering-documents-html/)
 Aspose.Words for Java를 사용하여 문서를 HTML로 손쉽게 변환하는 방법을 알아보세요. 효율적인 문서 변환을 위한 단계별 가이드입니다.
+### [Java에서 Aspose.Words를 사용해 글꼴을 처리하는 방법 – 완전 가이드](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Aspose.Words for Java를 활용해 문서에 다양한 글꼴을 적용하고 관리하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

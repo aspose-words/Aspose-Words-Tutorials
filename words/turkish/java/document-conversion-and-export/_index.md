@@ -103,6 +103,20 @@ DOCX dosyasından tam erişilebilir PDF oluşturmayı, etiket eklemeyi ve erişi
 
 ### [DOCX Dönüştürürken Markdown'a Görüntü Gömme](./how-to-embed-images-in-markdown-when-converting-docx/)
 DOCX dosyalarından Markdown'a dönüştürürken resimleri nasıl gömeceğinizi adım adım öğrenin.
+### [Java'da DOCX'i Markdown'a Dönüştürürken Görüntüleri Base64 Olarak Gömme](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Java kullanarak DOCX dosyalarını Markdown formatına dönüştürürken gömülü resimleri Base64 kodlamasıyla eklemeyi öğrenin.
+
+### [Aspose.Words for Java'da DOCX'ten LaTeX'e Dışa Aktarma – Tam Java Rehberi](./how-to-export-latex-from-docx-complete-java-guide/)
+Aspose.Words for Java kullanarak DOCX dosyalarından LaTeX formatına nasıl dönüştürüleceğini adım adım öğrenin.
+
+### [Aspose.Words ile docx'i pdf olarak kaydet – Tam Java Rehberi](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java kullanarak docx dosyasını PDF formatına dönüştürmeyi adım adım öğrenin.
+
+### [Java ile Word'den Markdown'a Dışa Aktarma – Tam Rehber](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Java ve Aspose.Words kullanarak Word belgelerinden Markdown formatına nasıl dönüştürüleceğini adım adım öğrenin.
+
+### [Aspose.Words for Java'da Word'den Erişilebilir PDF Oluşturma](./generate-accessible-pdf-from-word-with-aspose-java/)
+Aspose.Words for Java kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

@@ -122,18 +122,20 @@ Học cách lưu tài liệu ở định dạng OOXML với Aspose.Words for Jav
 Học cách lưu tài liệu ở định dạng PCL bằng Aspose.Words for Java. Hướng dẫn chi tiết và ví dụ mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
 
 ### [Saving Documents as PDF in Aspose.Words for Java](./saving-documents-as-pdf/)
-Học cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words for Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện cho việc chuyển đổi sang PDF.
+Học cách lưu tài liệu Word dưới dạng PDF bằng Aspose.Words cho Java. Tùy chỉnh phông chữ, thuộc tính và chất lượng hình ảnh. Hướng dẫn toàn diện cho việc chuyển đổi sang PDF.
 
 ### [Saving Documents as RTF Format in Aspose.Words for Java](./saving-documents-as-rtf-format/)
-Học cách lưu tài liệu ở định dạng RTF bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
+Học cách lưu tài liệu ở định dạng RTF bằng Aspose.Words cho Java. Hướng dẫn chi tiết kèm mã nguồn cho việc chuyển đổi tài liệu hiệu quả.
 
 ### [Saving Documents as Text Files in Aspose.Words for Java](./saving-documents-as-text-files/)
-Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words for Java. Thực hiện theo hướng dẫn chi tiết kèm ví dụ mã Java.
+Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words cho Java. Thực hiện theo hướng dẫn chi tiết kèm ví dụ mã Java.
 
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
 
 ### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Cách khôi phục docx – Hướng dẫn toàn diện để đọc tệp Word bị hỏng](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX bị hỏng, đọc nội dung và lưu lại bằng Aspose.Words cho Java.
 
 ## Câu Hỏi Thường Gặp
 

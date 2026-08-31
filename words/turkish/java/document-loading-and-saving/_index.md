@@ -94,6 +94,8 @@ Aspose.Words for Java’da RTF Yükleme Seçeneklerini yapılandırın. RTF belg
 ### [Aspose.Words for Java ile Metin Dosyalarını Yükleme](./loading-text-files/)
 Aspose.Words for Java’nun gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
 
+### [Docx Kurtarma Rehberi – Bozuk Word Dosyalarını Okuma İçin Tam Kılavuz](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Aspose.Words for Java’da Gelişmiş Kaydetme Seçenekleri](./advance-saving-options/)
 Aspose.Words for Java ile gelişmiş belge manipülasyonunu öğrenin. Şifreleme, metafile yönetimi ve daha fazlası. Word belgeleriniz, sizin istediğiniz gibi.
 

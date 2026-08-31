@@ -101,6 +101,20 @@ Dowiedz się, jak w prosty sposób konwertować pliki DOCX do PDF w Javie przy u
 
 ### [Tworzenie dostępnego PDF z DOCX – kompletny przewodnik](./create-accessible-pdf-from-docx-complete-guide/)
 Dowiedz się, jak z dokumentu DOCX wygenerować PDF spełniający standardy dostępności, w tym tagowanie, strukturę i kontrast.
+### [Osadzanie obrazów jako base64 przy konwertowaniu DOCX do Markdown w Javie](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Dowiedz się, jak osadzać obrazy jako base64 przy konwertowaniu DOCX do Markdown w Javie.
+
+### [Jak wyeksportować LaTeX z DOCX – Kompletny przewodnik w Javie](./how-to-export-latex-from-docx-complete-java-guide/)
+Learn how to convert DOCX files to LaTeX format using Aspose.Words for Java. Step‑by‑step guide with sample code.
+
+### [Zapisz docx jako pdf przy użyciu Aspose.Words – Kompletny przewodnik Java](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Dowiedz się, jak konwertować DOCX na PDF przy użyciu Aspose.Words dla Javy. Przewodnik krok po kroku z przykładowym kodem.
+
+### [Jak wyeksportować Markdown z Worda przy użyciu Javy – Kompletny przewodnik](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Dowiedz się, jak konwertować dokumenty Word do formatu Markdown przy użyciu Aspose.Words dla Javy. Przewodnik krok po kroku z przykładowym kodem.
+
+### [Generowanie dostępnego PDF z Worda przy użyciu Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+Dowiedz się, jak wygenerować dostępny plik PDF z dokumentu Word przy użyciu Aspose.Words for Java, spełniający standardy dostępności.
 
 ## Najczęściej zadawane pytania
 

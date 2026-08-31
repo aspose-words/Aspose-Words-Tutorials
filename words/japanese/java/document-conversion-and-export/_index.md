@@ -93,6 +93,21 @@ Aspose.Words for Java でテーブルの書式設定とテーブルスタイル�
 
 ### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
+### [JavaでDOCXをMarkdownに変換する際に画像をBase64で埋め込む](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+
+### [JavaでWordからMarkdownへエクスポートする方法 – 完全ガイド](./how-to-export-markdown-from-word-using-java-complete-guide/)
+
+### [DOCX から LaTeX をエクスポートする方法 – 完全な Java ガイド](./how-to-export-latex-from-docx-complete-java-guide/)
+
+### [Aspose.Words for Java で docx を PDF に保存する – 完全な Java ガイド](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java を利用して DOCX ファイルを PDF に変換し、保存する手順をステップバイステップで解説します。
+
+### [Aspose.Words for Java を使用して Word からアクセシブル PDF を生成する](./generate-accessible-pdf-from-word-with-aspose-java/)
+Word 文書をアクセシブルな PDF に変換する手順と、タグ付けや構造情報の保持方法を解説します。
+
+## よくある質問
+**Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  
+A: ドキュメントをロードし、`DocumentBuilder.insertWatermarkText` または `insertWatermarkImage` を使用し、PDF として保存します。
 
 ### [DOCX を変換する際に Markdown に画像を埋め込む方法](./how-to-embed-images-in-markdown-when-converting-docx/)
 Aspose.Words for Java を使用して DOCX を Markdown に変換する際、画像を正しく埋め込む手順をステップバイステップで解説します。

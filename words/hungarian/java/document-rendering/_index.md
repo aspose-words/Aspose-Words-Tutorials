@@ -39,6 +39,8 @@ Tanuld meg, hogyan gazdagíthatod dokumentumaidat alakzatokkal és grafikákkal 
 Fedezze fel a hatékony dokumentumnyomtatást és -renderelést az Aspose.Words for Java használatával. Tanuljon lépésről lépésre forráskódpéldákkal.
 ### [Dokumentumok HTML-re renderelése](./rendering-documents-html/)
 Tanuld meg, hogyan renderelhetsz dokumentumokat könnyedén HTML-be az Aspose.Words for Java segítségével. Lépésről lépésre útmutató a hatékony dokumentumkonverzióhoz.
+### [Betűtípusok kezelése Java-ban az Aspose.Words segítségével – Teljes útmutató](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Tanulja meg, hogyan kezelje a betűtípusokat az Aspose.Words for Java-ban a helyes megjelenítés és beágyazás érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

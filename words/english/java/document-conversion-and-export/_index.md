@@ -101,6 +101,25 @@ Learn how to embed images from DOCX files into Markdown during conversion using 
 
 ### [Create Accessible PDF from DOCX – Complete Guide](./create-accessible-pdf-from-docx-complete-guide/)
 Learn how to generate accessible PDFs from DOCX files using Aspose.Words for Java, ensuring compliance with accessibility standards.
+### [embed images as base64 when converting DOCX to Markdown in Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+
+Learn how to embed images as Base64 strings while converting DOCX files to Markdown using Aspose.Words for Java.
+
+### [How to Export Markdown from Word using Java – Complete Guide](./how-to-export-markdown-from-word-using-java-complete-guide/)
+
+Learn how to convert Word documents to Markdown format using Aspose.Words for Java with step‑by‑step code examples.
+
+### [How to Export LaTeX from DOCX – Complete Java Guide](./how-to-export-latex-from-docx-complete-java-guide/)
+
+Learn how to convert DOCX files to LaTeX format using Aspose.Words for Java with step‑by‑step code examples.
+
+### [Save docx as pdf with Aspose.Words – Complete Java Guide](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+
+Learn how to convert DOCX to PDF using Aspose.Words for Java in a comprehensive step‑by‑step guide.
+
+### [generate accessible pdf from Word with Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+
+Learn how to create PDF/UA accessible documents from Word using Aspose.Words for Java in a step‑by‑step guide.
 
 ## Frequently Asked Questions
 

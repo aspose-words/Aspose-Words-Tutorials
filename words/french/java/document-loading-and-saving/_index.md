@@ -135,6 +135,8 @@ Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identi
 
 ### [Capture des avertissements de substitution de police en Java avec Aspose.Words – Guide complet](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
+### [Comment récupérer un docx – Guide complet pour lire les fichiers Word corrompus](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words for Java.
 
 ## Foire aux questions
 
