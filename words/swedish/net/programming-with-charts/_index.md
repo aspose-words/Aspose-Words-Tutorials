@@ -41,8 +41,8 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Anpassa diagramdataetikett](./chart-data-label/) | Lär dig hur du anpassar diagramdataetiketter med Aspose.Words för .NET i en steg-för-steg-guide. Perfekt för .NET-utvecklare. |
 | [Ange standardalternativ för dataetiketter i ett diagram](./default-options-for-data-labels/) | Lär dig hur du ställer in standardalternativ för dataetiketter i ett diagram med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att enkelt skapa och anpassa diagram. |
 | [Anpassa en enskild diagramdatapunkt i ett diagram](./single-chart-data-point/) | Lär dig hur du anpassar datapunkter för enskilda diagram med Aspose.Words för .NET i en detaljerad steg-för-steg-guide. Förbättra dina diagram med unika markörer och storlekar. |
-| [Anpassa enskilda diagramserier i ett diagram](./single-chart-series/) | Lär dig hur du anpassar enskilda diagramserier i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för en smidig upplevelse. |
-
+| [Anpassa enskilda diagramserier i ett diagram](./single-chart-series/) | Lär dig anpassa enskilda diagramserier i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för en smidig upplevelse. |
+| [Hur man skapar radardiagram och lägger till diagram i Word med C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Lär dig skapa ett radardiagram och infoga det i ett Word-dokument med Aspose.Words för .NET och C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

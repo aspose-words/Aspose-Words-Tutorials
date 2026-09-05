@@ -36,7 +36,7 @@ Przykłady kodu zawarte w samouczkach pomogą Ci zrozumieć koncepcje i ćwiczy�
 | [Tworzenie powtarzającej się sekcji tabeli zamapowanej na niestandardową część XML](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Dowiedz się, jak utworzyć tabelę z powtarzalną sekcją zamapowaną na CustomXmlPart w dokumencie programu Word przy użyciu Aspose.Words for .NET. |
 | [Wiele sekcji](./multi-section/) Dowiedz się, jak pracować z wielosekcyjnymi strukturalnymi znacznikami dokumentów w Aspose.Words dla .NET dzięki temu samouczkowi krok po kroku. Idealne do dynamicznej manipulacji dokumentami. |
 | [Ustrukturyzowany zakres znaczników dokumentu początkowego mapowania XML](./structured-document-tag-range-start-xml-mapping/) | Dowiedz się, jak dynamicznie wiązać dane XML ze strukturalnymi znacznikami dokumentu w programie Word przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku. |
-
+| [Jak utworzyć dokument Word z kontrolkami zawartości w C#](./how-to-create-word-document-with-content-controls-in-c/) | Dowiedz się, jak w C# stworzyć dokument Word z kontrolkami zawartości przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

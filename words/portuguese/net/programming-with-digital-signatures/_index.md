@@ -29,6 +29,7 @@ Com estes tutoriais, você dominará os recursos de assinatura digital do Aspose
 | [Definir ID do provedor de assinatura em documento do Word](./set-signature-provider-id/) Defina com segurança um ID de Provedor de Assinatura em documentos do Word usando o Aspose.Words para .NET. Siga nosso guia detalhado de 2.000 palavras para assinar digitalmente seus documentos. |
 | [Criar nova linha de assinatura e definir ID do provedor](./create-new-signature-line-and-set-provider-id/) | Aprenda a criar uma nova linha de assinatura e definir o ID do provedor em documentos do Word usando o Aspose.Words para .NET. Guia passo a passo. |
 | [Acessar e verificar assinatura em documento do Word](./access-and-verify-signature/) | Acesse e verifique assinaturas digitais em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo completo. Garanta a autenticidade do documento sem esforço. |
+| [Como assinar Word com certificado usando Aspose.Words em C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Aprenda a assinar documentos Word com certificado digital usando Aspose.Words em C# passo a passo. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -29,7 +29,7 @@ Con estos tutoriales, podrá dominar las funciones de firma digital de Aspose.Wo
 | [Establecer el ID del proveedor de firma en un documento de Word](./set-signature-provider-id/) Configure de forma segura un ID de proveedor de firma en documentos de Word con Aspose.Words para .NET. Siga nuestra guía detallada de 2000 palabras para firmar digitalmente sus documentos. |
 | [Crear una nueva línea de firma y establecer el ID del proveedor](./create-new-signature-line-and-set-provider-id/) Aprenda a crear una nueva línea de firma y a configurar el ID del proveedor en documentos de Word con Aspose.Words para .NET. Guía paso a paso.
 | [Acceder y verificar firma en documento de Word](./access-and-verify-signature/) Acceda y verifique firmas digitales en documentos de Word con Aspose.Words para .NET con esta completa guía paso a paso. Garantice la autenticidad de sus documentos fácilmente.
-
+| [Cómo firmar Word con certificado usando Aspose.Words en C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) Aprenda a firmar documentos Word con un certificado digital usando Aspose.Words en C#. Tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

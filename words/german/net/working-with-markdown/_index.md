@@ -24,6 +24,7 @@
 | [Fettgedruckter Text](./bold-text/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Text in Word-Dokumenten fett formatieren. Perfekt für die Automatisierung Ihrer Dokumentformatierung. |
 | [Kursiver Text](./italic-text/) Erfahren Sie, wie Sie mit Aspose.Words für .NET Text in Word-Dokumenten kursiv formatieren. Schritt-für-Schritt-Anleitung mit Codebeispielen. |
 | [Durchgestrichen](./strikethrough/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Text durchgestrichen formatieren. Verbessern Sie Ihre Fähigkeiten zur Dokumentverarbeitung. |
+| [Dokument aus Markdown als DOCX speichern mit C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Markdown-Dokument in das DOCX-Format konvertieren und speichern, Schritt für Schritt in C#. |
 | [Inline-Code](./inline-code/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Inline-Codeformate in Word-Dokumenten anwenden. Dieses Tutorial behandelt einfache und mehrere Backticks zur Codeformatierung. |
 | [Autolink](./autolink/) | Erfahren Sie in dieser ausführlichen Anleitung, wie Sie mit Aspose.Words für .NET Hyperlinks in Word-Dokumente einfügen und anpassen. Optimieren Sie Ihre Dokumente mühelos. |
 | [Link](./link/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Hyperlinks in Word-Dokumente einfügen. Erweitern Sie Ihre Dokumente ganz einfach mit interaktiven Links. |

@@ -28,6 +28,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Masukkan Objek Ole Dalam Dokumen Word Sebagai Ikon](./insert-ole-object-as-icon/) | Pelajari cara menyisipkan objek OLE sebagai ikon dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah kami untuk menyempurnakan dokumen Anda. Bahasa Indonesia:
 | [Masukkan Objek Ole Sebagai Ikon Menggunakan Stream](./insert-ole-object-as-icon-using-stream/) | Pelajari cara menyisipkan objek OLE sebagai ikon menggunakan aliran dengan Aspose.Words untuk .NET dalam tutorial langkah demi langkah terperinci ini. Bahasa Indonesia:
 | [Membaca Properti XControl Aktif Dari File Word](./read-active-xcontrol-properties/) | Pelajari cara membaca properti kontrol ActiveX dari file Word menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah. Tingkatkan keterampilan otomatisasi dokumen Anda. |
+| [Cara Membuat Dokumen Word dengan Tombol Perintah ActiveX di C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Pelajari cara membuat dokumen Word yang berisi tombol perintah ActiveX menggunakan Aspose.Words untuk .NET dengan contoh kode C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
