@@ -39,6 +39,9 @@
 ### [إنشاء شكل مستطيل في Word باستخدام Java – دليل كامل](./create-rectangle-shape-in-word-with-java-full-guide/)
 تعلم كيفية إنشاء شكل مستطيل في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
+### [كيفية إنشاء شكل مجموعة docx وإضافة عناصر تحكم تفاعلية في C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+تعلم كيفية إنشاء مجموعة أشكال في مستند Word وإضافة عناصر تحكم تفاعلية باستخدام C#
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

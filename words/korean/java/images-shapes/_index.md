@@ -39,6 +39,9 @@ Java를 사용해 Word 문서에 그림자 효과가 적용된 사각형 도형�
 ### [Java로 Word에 사각형 모양 만들기 – 전체 가이드](./create-rectangle-shape-in-word-with-java-full-guide/)
 Java와 Aspose.Words를 사용해 Word 문서에 사각형 도형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
 
+### [C#에서 그룹 모양 docx를 만들고 인터랙티브 컨트롤을 추가하는 방법](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+C#와 Aspose.Words를 사용해 그룹 모양을 만들고 문서에 인터랙티브 컨트롤을 삽입하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)
