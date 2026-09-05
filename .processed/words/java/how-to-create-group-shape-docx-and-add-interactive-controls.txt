@@ -1,0 +1,7 @@
+Title: How to create group shape docx and add interactive controls in C#
+Slug: how-to-create-group-shape-docx-and-add-interactive-controls
+Category: images-shapes
+ProcessedDate: 2026-09-05T18:45:05.300384
+SourceRepo: AI Search API
+Keywords: create group shape docx, insert activex command button, load markdown into word document
+PRNumber: 266
