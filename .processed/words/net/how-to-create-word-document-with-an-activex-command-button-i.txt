@@ -1,0 +1,7 @@
+Title: How to create Word document with an ActiveX command button in C#
+Slug: how-to-create-word-document-with-an-activex-command-button-i
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-09-05T18:39:30.935624
+SourceRepo: AI Search API
+Keywords: create word document, how to insert activex, add command button, add interactive button, set button size
+PRNumber: 265
