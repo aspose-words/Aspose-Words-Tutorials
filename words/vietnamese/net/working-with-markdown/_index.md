@@ -38,6 +38,7 @@ Words Processing with Markdown cung cấp một nguồn tài nguyên toàn diệ
 | [Danh sách có thứ tự](./ordered-list/) | Tìm hiểu cách tạo danh sách có thứ tự trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo để tự động hóa việc tạo tài liệu. |
 | [Bàn](./table/) | Tìm hiểu cách tạo và tùy chỉnh bảng trong Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để tạo tài liệu có cấu trúc và hấp dẫn về mặt hình ảnh. |
 | [Đọc tài liệu Markdown](./read-markdown-document/) Tìm hiểu cách đọc và thao tác tài liệu Markdown bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo cho các nhà phát triển ở mọi cấp độ. |
+| [Cách lưu tài liệu dưới dạng docx từ Markdown bằng C#](./how-to-save-document-as-docx-from-markdown-using-c/) | Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang định dạng DOCX bằng C# và Aspose.Words. |
 | [Nhấn mạnh](./emphases/) | Tìm hiểu cách tạo văn bản nhấn mạnh trong Markdown bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm các kiểu in đậm, in nghiêng và kết hợp với hướng dẫn từng bước. |
 | [Sử dụng nguồn cảnh báo](./use-warning-source/) | Làm chủ Aspose.Words cho .NET với hướng dẫn từng bước này về cách sử dụng lớp WarningSource để xử lý cảnh báo Markdown. Hoàn hảo cho các nhà phát triển C#. |
 

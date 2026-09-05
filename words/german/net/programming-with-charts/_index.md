@@ -42,7 +42,7 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
-
+| [Radar-Diagramm erstellen und in Word einfügen mit C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Radar-Diagramm erstellen und in ein Word-Dokument einfügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

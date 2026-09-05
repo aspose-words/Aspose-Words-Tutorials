@@ -30,6 +30,7 @@ Với các hướng dẫn này, bạn sẽ có thể cải thiện tài liệu W
 | [Chèn Biểu Đồ Cột Vào Tài Liệu Word](./insert-column-chart/) | Tìm hiểu cách chèn biểu đồ cột vào tài liệu Word bằng Aspose.Words cho .NET. Nâng cao khả năng trực quan hóa dữ liệu trong báo cáo và bản trình bày của bạn. |
 | [Chèn Biểu đồ Diện tích Vào Tài liệu Word](./insert-area-chart/) | Tìm hiểu cách chèn biểu đồ miền vào tài liệu Word bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |
 | [Chèn biểu đồ bong bóng vào tài liệu Word](./insert-bubble-chart/) | Tìm hiểu cách chèn biểu đồ bong bóng vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn. |
+| [Cách tạo biểu đồ radar và chèn biểu đồ vào Word bằng C#](./how-to-create-radar-chart-and-add-chart-to-word-with-c/) | Tìm hiểu cách tạo biểu đồ radar và chèn vào tài liệu Word bằng Aspose.Words cho .NET với C#. |
 | [Chèn biểu đồ phân tán vào tài liệu Word](./insert-scatter-chart/) | Tìm hiểu cách chèn biểu đồ phân tán trong Word bằng Aspose.Words cho .NET. Các bước dễ dàng để tích hợp biểu diễn dữ liệu trực quan vào tài liệu của bạn. |
 | [Xác định Thuộc tính Trục XY Trong Biểu đồ](./define-xyaxis-properties/) Tìm hiểu cách xác định thuộc tính trục XY trong biểu đồ bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET. |
 | [Thêm giá trị ngày giờ vào trục của biểu đồ](./date-time-values-to-axis/) | Tìm hiểu cách thêm giá trị ngày và giờ vào trục biểu đồ bằng Aspose.Words cho .NET trong hướng dẫn từng bước toàn diện này. |

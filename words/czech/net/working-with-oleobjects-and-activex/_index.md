@@ -28,7 +28,7 @@ Tyto tutoriály vám poskytnou praktický a podrobný přístup ke zpracování 
 | [Vložit objekt Ole do dokumentu Word jako ikonu](./insert-ole-object-as-icon/) | Naučte se, jak vložit objekt OLE jako ikonu do dokumentů Wordu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a vylepšete své dokumenty. |
 | [Vložit objekt Ole jako ikonu pomocí Streamu](./insert-ole-object-as-icon-using-stream/) | V tomto podrobném návodu krok za krokem se naučte, jak vložit objekt OLE jako ikonu pomocí streamu s Aspose.Words pro .NET. |
 | [Načíst vlastnosti ovládacího prvku Active XControl ze souboru aplikace Word](./read-active-xcontrol-properties/) | Naučte se, jak číst vlastnosti ovládacího prvku ActiveX ze souborů Wordu pomocí Aspose.Words pro .NET v podrobném návodu. Zlepšete si své dovednosti v automatizaci dokumentů. |
-
+| [Jak vytvořit dokument Word s tlačítkem ActiveX v C#](./how-to-create-word-document-with-an-activex-command-button-i/) | Naučte se, jak vytvořit dokument Word obsahující tlačítko ActiveX pomocí C# a Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

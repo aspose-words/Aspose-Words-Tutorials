@@ -38,6 +38,7 @@ Words Processing with Markdown átfogó forrást biztosít a Markdown formátumm
 | [Rendezett lista](./ordered-list/) | Tanulja meg, hogyan hozhat létre rendezett listákat Word-dokumentumokban az Aspose.Words for .NET használatával lépésről lépésre bemutató útmutatónkkal. Tökéletes a dokumentumkészítés automatizálásához. |
 | [Táblázat](./table/) | Tanulja meg, hogyan hozhat létre és szabhat testre táblázatokat az Aspose.Words for .NET programban ezzel a lépésről lépésre szóló útmutatóval. Tökéletes strukturált és vizuálisan vonzó dokumentumok létrehozásához. |
 | [Markdown dokumentum olvasása](./read-markdown-document/) Tanulja meg, hogyan olvashat és manipulálhat Markdown dokumentumokat az Aspose.Words for .NET segítségével ezzel a részletes, lépésről lépésre szóló oktatóanyaggal. Tökéletes minden szintű fejlesztő számára. |
+| [Dokumentum mentése docx formátumban Markdownból C#-al](./how-to-save-document-as-docx-from-markdown-using-c/) |  |
 | [Hangsúlyok](./emphases/) | Tanuld meg, hogyan hozhatsz létre kiemelt szöveget a Markdownban az Aspose.Words for .NET segítségével. Ez az útmutató a félkövér, dőlt és kombinált stílusokat ismerteti lépésről lépésre. |
 | [Figyelmeztetés forrásának használata](./use-warning-source/) | Sajátítsd el az Aspose.Words .NET-et ezzel a lépésről lépésre szóló útmutatóval a WarningSource osztály használatáról a Markdown figyelmeztetések kezeléséhez. Tökéletes C# fejlesztők számára. |
 

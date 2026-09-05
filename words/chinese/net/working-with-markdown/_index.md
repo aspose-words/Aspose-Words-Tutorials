@@ -40,7 +40,7 @@
 | [阅读 Markdown 文档](./read-markdown-document/) 通过本教程学习如何使用 Aspose.Words for .NET 读取和操作 Markdown 文档，本教程详细且循序渐进，适合所有级别的开发人员。|
 | [重点](./emphases/) 学习如何使用 Aspose.Words for .NET 在 Markdown 中创建强调文本。本指南将逐步讲解粗体、斜体和组合样式。|
 | [使用警告源](./use-warning-source/) 掌握 Aspose.Words for .NET 的使用方法，了解如何使用 WarningSource 类处理 Markdown 警告。非常适合 C# 开发人员。|
-
+| [如何使用 C# 将 Markdown 保存为 docx 文档](./how-to-save-document-as-docx-from-markdown-using-c/) 学习使用 Aspose.Words for .NET 将 Markdown 内容转换并保存为 DOCX 文件的步骤。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

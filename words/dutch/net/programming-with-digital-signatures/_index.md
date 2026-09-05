@@ -29,7 +29,7 @@ Met deze tutorials leert u de digitale handtekeningfuncties van Aspose.Words voo
 | [Handtekeningprovider-ID instellen in Word-document](./set-signature-provider-id/) Stel veilig een Signature Provider ID in Word-documenten in met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding van 2000 woorden om uw documenten digitaal te ondertekenen. |
 | [Nieuwe handtekeningregel maken en provider-ID instellen](./create-new-signature-line-and-set-provider-id/) | Leer hoe u een nieuwe handtekeningregel maakt en de provider-ID instelt in Word-documenten met Aspose.Words voor .NET. Stapsgewijze handleiding. |
 | [Toegang tot en verificatie van handtekening in Word-document](./access-and-verify-signature/) | Krijg toegang tot en verifieer digitale handtekeningen in Word-documenten met Aspose.Words voor .NET met deze uitgebreide stapsgewijze handleiding. Zorg moeiteloos voor de authenticiteit van uw documenten. |
-
+| [Word ondertekenen met certificaat met Aspose.Words in C#](./how-to-sign-word-with-certificate-using-aspose-words-in-c/) | Leer hoe u een Word-document ondertekent met een certificaat in C# met Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

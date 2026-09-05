@@ -25,6 +25,7 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | Título | Descrição |
 | --- | --- |
 | [Adicionar forma de grupo](./add-group-shape/) | Aprenda como adicionar formas de grupo a documentos do Word usando o Aspose.Words para .NET com este tutorial abrangente e passo a passo. |
+| [Como criar forma retangular e agrupar formas no Word com Aspose.Words](./how-to-create-rectangle-shape-and-group-shapes-in-word-with/) | Aprenda a criar uma forma retangular e agrupar múltiplas formas em documentos Word usando Aspose.Words para .NET. |
 | [Inserir forma](./insert-shape/) | Aprenda a inserir e manipular formas em documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo. |
 | [Proporção de aspecto bloqueada](./aspect-ratio-locked/) | Aprenda a bloquear a proporção de formas em documentos do Word usando o Aspose.Words para .NET. Siga este guia passo a passo para manter suas imagens e formas proporcionais. |
 | [Layout na célula](./layout-in-cell/) | Aprenda a definir o layout em uma célula usando o Aspose.Words para .NET com este guia completo. Perfeito para desenvolvedores que desejam personalizar documentos do Word. |
@@ -39,6 +40,7 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | [Criar forma retangular no Word usando C# – Guia passo a passo](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aprenda a criar uma forma retangular em documentos do Word usando C# com este guia passo a passo. |
 | [Tutorial de Sombra de Forma do Aspose.Words – Adicionar Sombra a Forma do Word em C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aprenda a adicionar sombra a formas em documentos do Word usando o Aspose.Words para .NET com este tutorial passo a passo. |
 | [Criar documento Word em branco com forma de retângulo sombreada – Guia passo a passo](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aprenda a criar um documento Word em branco com uma forma de retângulo sombreada usando o Aspose.Words para .NET. |
+| [Criar documento Word em branco e adicionar forma retangular](./create-a-blank-word-document-and-add-a-rectangle-shape/) | Aprenda a criar um documento Word vazio e inserir uma forma retangular usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

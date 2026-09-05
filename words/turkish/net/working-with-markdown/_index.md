@@ -40,7 +40,7 @@ Words Processing with Markdown, Aspose.Words for .NET kütüphanesini kullanarak
 | [Markdown Belgesini Oku](./read-markdown-document/) Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Markdown belgelerini nasıl okuyup işleyeceğinizi öğrenin. Her seviyedeki geliştirici için mükemmel. |
 | [Vurgular](./emphases/) | Aspose.Words for .NET kullanarak Markdown'da vurgulu metin oluşturmayı öğrenin. Bu kılavuz, adım adım talimatlarla kalın, italik ve birleşik stilleri kapsar. |
 | [Uyarı Kaynağını Kullan](./use-warning-source/) | Markdown uyarılarını işlemek için WarningSource sınıfını kullanma konusunda adım adım bu kılavuzla .NET için Aspose.Words'ü öğrenin. C# geliştiricileri için mükemmel. |
-
+| [C# kullanarak Markdown'tan belgeyi docx olarak kaydetme](./how-to-save-document-as-docx-from-markdown-using-c/) | C# ile Markdown dosyasını docx formatına dönüştürmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
