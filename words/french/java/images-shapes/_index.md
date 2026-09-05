@@ -36,8 +36,12 @@ Apprenez à générer des miniatures de haute qualité et des bitmaps de taille 
 
 ### [Créer un document Word Java – Ajouter une forme rectangle avec effet d'ombre](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Apprenez à insérer une forme rectangle avec ombre dans un document Word en Java à l'aide d'Aspose.Words.
+
 ### [Créer une forme rectangle dans Word avec Java – Guide complet](./create-rectangle-shape-in-word-with-java-full-guide/)
 Apprenez à créer et personnaliser une forme rectangle dans vos documents Word en utilisant Aspose.Words pour Java.
+
+### [Comment créer une forme groupée docx et ajouter des contrôles interactifs en C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Apprenez à créer des formes groupées dans un document DOCX et à y ajouter des contrôles interactifs en C# avec Aspose.Words.
 
 ## Ressources supplémentaires
 

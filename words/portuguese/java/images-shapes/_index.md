@@ -39,6 +39,9 @@ Aprenda a inserir uma forma retangular com sombra em documentos Word usando Aspo
 ### [Criar forma retangular no Word com Java – Guia Completo](./create-rectangle-shape-in-word-with-java-full-guide/)
 Aprenda passo a passo como criar e personalizar formas retangulares em documentos Word usando Aspose.Words para Java.
 
+### [Como criar forma de grupo docx e adicionar controles interativos em C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Aprenda a criar formas de grupo em documentos DOCX e inserir controles interativos usando C# com Aspose.Words.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)

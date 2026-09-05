@@ -39,6 +39,9 @@ Aspose.Words Java 代码教程
 ### [使用 Java 在 Word 中创建矩形形状 – 完整指南](./create-rectangle-shape-in-word-with-java-full-guide/)
 本教程详细演示如何使用 Aspose.Words for Java 在 Word 文档中插入和自定义矩形形状，包括大小、位置和样式设置。
 
+### [如何在 C# 中创建组形状 docx 并添加交互式控件](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+演示如何在 C# 中使用 Aspose.Words 创建组形状并添加交互式控件。
+
 ## 其他资源
 
 - [Aspose.Words for Java 文档](https://reference.aspose.com/words/java/)

@@ -36,8 +36,12 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 
 ### [Word dokumentum létrehozása Java – Téglalap alakzat hozzáadása árnyékhatással](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dokumentumhoz Java-ban az Aspose.Words segítségével.
+
 ### [Téglalap alakzat létrehozása Word dokumentumban Java-val – Teljes útmutató](./create-rectangle-shape-in-word-with-java-full-guide/)
 Ismerje meg, hogyan hozhat létre és testreszabhat téglalap alakzatot Word dokumentumokban Java segítségével.
+
+### [Csoportos alakzat létrehozása DOCX-ben és interaktív vezérlők hozzáadása C#-ban](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Ismerje meg, hogyan hozhat létre csoportos alakzatot DOCX fájlban, és adhat hozzá interaktív vezérlőket C#-ban az Aspose.Words segítségével.
 
 ## További források
 

@@ -39,6 +39,9 @@
 ### [Создание прямоугольной фигуры в Word с помощью Java – Полное руководство](./create-rectangle-shape-in-word-with-java-full-guide/)
 Подробное руководство по созданию и настройке прямоугольных фигур в документах Word с использованием Aspose.Words для Java.
 
+### [Как создать групповую фигуру docx и добавить интерактивные элементы управления в C#](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+Узнайте, как объединять фигуры и добавлять интерактивные элементы управления в документах Word с помощью Aspose.Words для C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)

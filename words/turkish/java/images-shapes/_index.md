@@ -36,8 +36,12 @@ Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerin
 
 ### [Java ile Word Belgesi Oluştur – Gölge Efektiyle Dikdörtgen Şekil Ekle](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Java kullanarak Word belgesine gölge efektiyle dikdörtgen şekil eklemeyi öğrenin.
+
 ### [Java ile Word'de Dikdörtgen Şekil Oluşturma – Tam Kılavuz](./create-rectangle-shape-in-word-with-java-full-guide/)
 Java kullanarak Word belgelerine dikdörtgen şekil eklemeyi ve özelleştirmeyi adım adım öğrenin.
+
+### [C# ile Grup Şekli Oluşturma ve Etkileşimli Kontroller Ekleme](./how-to-create-group-shape-docx-and-add-interactive-controls/)
+C# kullanarak grup şekli oluşturmayı ve etkileşimli denetimler eklemeyi öğrenin.
 
 ## Ek Kaynaklar
 
