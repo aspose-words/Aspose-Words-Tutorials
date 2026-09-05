@@ -1,0 +1,7 @@
+Title: How to sign Word with certificate using Aspose.Words in C#
+Slug: how-to-sign-word-with-certificate-using-aspose-words-in-c
+Category: programming-with-digital-signatures
+ProcessedDate: 2026-09-05T18:39:22.298638
+SourceRepo: AI Search API
+Keywords: sign word with certificate
+PRNumber: 265
