@@ -56,6 +56,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czcionek
 | [Włącz ostrzeżenia o podstawianiu czcionek w Aspose.Words – Kompletny przewodnik](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Dowiedz się, jak włączyć ostrzeżenia o podstawianiu czcionek w Aspose.Words, aby monitorować brakujące lub zastąpione czcionki. |
 | [c# ładowanie dokumentu Word – wykrywanie i obsługa brakujących czcionek](./c-load-word-document-detect-handle-missing-fonts/) | Dowiedz się, jak ładować dokumenty Word w C# i obsługiwać brakujące czcionki przy użyciu Aspose.Words dla .NET. |
 | [Rejestrowanie ostrzeżeń o podstawianiu czcionek – Kompletny przewodnik Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Dowiedz się, jak rejestrować ostrzeżenia o podstawianiu czcionek w Aspose.Words dla .NET. |
+| [Utwórz obsługę ostrzeżeń czcionek – wykryj brakujące czcionki w C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Dowiedz się, jak obsłużyć ostrzeżenia o brakujących czcionkach w Aspose.Words dla .NET przy użyciu C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

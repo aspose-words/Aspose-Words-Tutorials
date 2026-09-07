@@ -106,6 +106,10 @@ Leer hoe u afbeeldingen uit een DOCX-document in Markdown kunt embedden met Aspo
 
 Leer hoe u de resolutie configureert bij het omzetten van DOCX naar Markdown met Aspose.Words voor .NET.
 
+### [Word opslaan als markdown met afbeeldingen – C# stap‑voor‑stap gids](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+
+Leer hoe u Word-documenten opslaat als Markdown met afbeeldingen, stap‑voor‑stap in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

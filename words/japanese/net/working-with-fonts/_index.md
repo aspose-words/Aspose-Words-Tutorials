@@ -54,6 +54,8 @@
 | [C#でDOCXを読み込む方法 – 完全ガイド](./how-to-load-docx-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で DOCX ファイルを読み込む手順をステップバイステップで解説します。 |
 | [Aspose.Words でフォントをキャプチャする方法 – 完全ガイド](./how-to-capture-fonts-in-aspose-words-complete-guide/) Aspose.Words for .NET を使用してフォントをキャプチャする完全ガイドです。 |
 | [DOCX を読み込んで欠落フォントを検出する完全 C# ガイド](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) Aspose.Words for .NET を使用して DOCX を読み込み、欠落しているフォントを検出する方法をステップバイステップで解説します。 |
+| [フォント警告ハンドラの作成 – C# で欠落フォントを検出](./create-font-warning-handler-detect-missing-fonts-in-c/) Aspose.Words for .NET を使用して、C# でフォント不足の警告ハンドラを作成し、欠落フォントを検出する方法をステップバイステップで学びます。 |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

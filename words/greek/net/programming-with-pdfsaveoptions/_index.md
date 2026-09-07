@@ -52,6 +52,7 @@
 | [Δημιουργία Προσβάσιμου PDF από Word – Πλήρης Οδηγός](./create-accessible-pdf-from-word-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από Word, ακολουθώντας τα πρότυπα προσβασιμότητας, με πλήρη βήμα-βήμα οδηγό. |
 | [Δημιουργία προσβάσιμου PDF – Οδηγός βήμα‑προς‑βήμα για συμμόρφωση PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Μάθετε πώς να δημιουργήσετε PDF που πληρούν τα πρότυπα προσβασιμότητας PDF/UA με αναλυτικό βήμα‑βήμα οδηγό. |
 | [Δημιουργία προσβάσιμου PDF από Word – Πλήρης οδηγός C#](./create-accessible-pdf-from-word-complete-c-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό C#. |
+| [Δημιουργία προσβάσιμου PDF από Word σε C# – Πλήρης οδηγός](./create-accessible-pdf-from-word-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα PDF από έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

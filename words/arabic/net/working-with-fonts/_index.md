@@ -69,6 +69,7 @@
 | [تمكين تحذيرات استبدال الخط في Aspose.Words – دليل شامل](./enable-font-substitution-warnings-in-aspose-words-complete-g/) |تعلم كيفية تمكين إشعارات التحذير عند استبدال الخطوط في مستندات Word باستخدام Aspose.Words. |
 | [c# تحميل مستند Word – اكتشاف ومعالجة الخطوط المفقودة](./c-load-word-document-detect-handle-missing-fonts/) |تعلم كيفية تحميل مستند Word واكتشاف الخطوط المفقودة ومعالجتها باستخدام Aspose.Words لـ .NET. |
 | [تسجيل تحذيرات استبدال الخط – دليل Aspose.Words الكامل](./log-font-substitution-warnings-complete-aspose-words-guide/) |تعرف على كيفية تسجيل تحذيرات استبدال الخط في مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [إنشاء معالج تحذير الخط – اكتشاف الخطوط المفقودة في C#](./create-font-warning-handler-detect-missing-fonts-in-c/) |تعرّف على كيفية إنشاء معالج تحذير الخط لاكتشاف الخطوط المفقودة في C# باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

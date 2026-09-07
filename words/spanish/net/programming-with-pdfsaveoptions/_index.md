@@ -38,7 +38,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Incrustar subconjuntos de fuentes en un documento PDF](./embedded-subset-fonts/) Reduzca el tamaño de sus archivos PDF incrustando solo los subconjuntos de fuentes necesarios con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus archivos PDF eficientemente.
 | [Reducir el tamaño del PDF deshabilitando las fuentes incrustadas](./disable-embed-windows-fonts/) Reduzca el tamaño de sus archivos PDF deshabilitando las fuentes incrustadas con Aspose.Words para .NET. Siga la guía paso a paso para optimizar sus documentos y optimizar su almacenamiento y uso compartido.
 | [Optimice el tamaño de PDF con fuentes Arial y Times Roman incrustadas](./skip-embedded-arial-and-times-roman-fonts/) Optimice el tamaño de sus archivos PDF omitiendo las fuentes Arial y Times Roman incrustadas con Aspose.Words para .NET. Siga esta guía paso a paso para optimizar sus archivos PDF.
-| [Reducir el tamaño del archivo PDF al no incrustar fuentes principales](./avoid-embedding-core-fonts/) Aprenda a reducir el tamaño de sus archivos PDF sin incrustar fuentes principales con Aspose.Words para .NET. Siga nuestra guía paso a paso para optimizar sus archivos PDF.
+| [Reducir el tamaño del archivo PDF al no incrustar fuentes principales](./avoid-embedding-core-fonts/) Aprenda a reducir el tamaño de sus archivos PDF sin incrustar fuentes principales con Aspose.Words para .NET. Siga la guía paso a paso para optimizar sus archivos PDF.
 | [Escapar URI en un documento PDF](./escape-uri/) Aprenda a escapar URIs en archivos PDF con Aspose.Words para .NET. Esta guía detallada le guiará paso a paso por el proceso.
 | [Exportar marcadores de encabezado y pie de página de un documento de Word a un documento PDF](./export-header-footer-bookmarks/) | Aprenda a exportar marcadores de encabezado y pie de página de un documento de Word a PDF usando Aspose.Words para .NET con nuestra guía paso a paso. |
 | [Reducir el tamaño de un PDF con la función Escalar fuentes WMF al tamaño de un metarchivo](./scale-wmf-fonts-to-metafile-size/) | Guía paso a paso para reducir el tamaño de PDF con escala de fuentes wmf al tamaño de metarchivo al convertir a PDF con Aspose.Words para .NET. |
@@ -76,6 +76,7 @@ Si desea convertir documentos de Word a PDF para distribuirlos en línea, archiv
 | [Crear PDF accesible desde Word – Guía completa](./create-accessible-pdf-from-word-complete-guide/) | Aprenda a crear PDFs accesibles desde documentos Word con Aspose.Words para .NET siguiendo esta guía completa paso a paso. |
 | [Crear PDF accesible – Guía paso a paso para cumplimiento PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Guía paso a paso para crear PDFs accesibles cumpliendo con PDF/UA usando Aspose.Words para .NET. |
 | [Crear PDF accesible desde Word – Guía completa en C#](./create-accessible-pdf-from-word-complete-c-guide/) | Aprenda a generar PDFs accesibles desde documentos Word con Aspose.Words para .NET usando C# en esta guía paso a paso. |
+| [Crear PDF accesible desde Word en C# – Guía completa](./create-accessible-pdf-from-word-in-c-complete-guide/) | Aprenda a generar PDFs accesibles desde documentos Word en C# con Aspose.Words para .NET siguiendo esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

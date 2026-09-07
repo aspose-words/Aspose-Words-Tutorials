@@ -52,6 +52,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Créer un PDF accessible à partir de Word – Guide complet](./create-accessible-pdf-from-word-complete-guide/) | Apprenez à créer un PDF accessible depuis un document Word avec Aspose.Words pour .NET grâce à ce guide complet. |
 | [Créer un PDF accessible – Guide étape par étape pour la conformité PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Apprenez à créer des PDF accessibles conformes aux normes PDF/UA grâce à ce guide détaillé étape par étape. |
 | [Créer un PDF accessible à partir de Word – Guide complet C#](./create-accessible-pdf-from-word-complete-c-guide/) | Apprenez à créer des PDF accessibles à partir de documents Word en utilisant Aspose.Words pour .NET avec ce guide complet en C#. |
+| [Créer un PDF accessible à partir de Word en C# – Guide complet](./create-accessible-pdf-from-word-in-c-complete-guide/) | Apprenez à générer des PDF accessibles depuis Word en C# avec Aspose.Words, en respectant les normes d'accessibilité. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

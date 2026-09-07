@@ -53,6 +53,7 @@ Of u nu Word-documenten naar PDF wilt converteren voor online distributie, archi
 | [Toegankelijke PDF maken vanuit Word – Complete C#-gids](./create-accessible-pdf-from-word-complete-c-guide/) | Leer hoe u toegankelijke PDF's genereert vanuit Word met Aspose.Words voor .NET in een volledige C#-handleiding. |
 
 | [Maak toegankelijke PDF – Stapsgewijze handleiding voor PDF/UA-naleving](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Leer hoe u met Aspose.Words voor .NET een PDF maakt die voldoet aan PDF/UA-standaarden voor toegankelijkheid. |
+| [Toegankelijk PDF maken vanuit Word in C# – Complete gids](./create-accessible-pdf-from-word-in-c-complete-guide/) | Leer hoe u met Aspose.Words voor .NET een toegankelijk PDF-bestand maakt vanuit een Word-document, inclusief tags en structuur voor screenreaders. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

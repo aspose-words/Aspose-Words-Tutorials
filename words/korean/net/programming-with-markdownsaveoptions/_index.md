@@ -51,6 +51,7 @@
 | [docx를 markdown으로 저장 및 이미지 추출 – C# 가이드](./save-docx-as-markdown-extract-images-c-guide/) | Aspose.Words for .NET을 사용해 docx 파일을 markdown으로 변환하고 이미지 추출까지 수행하는 단계별 C# 가이드 |
 | [DOCX를 Markdown으로 변환 – Aspose.Words를 사용한 전체 가이드](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Aspose.Words for .NET을 활용하여 DOCX 파일을 Markdown으로 변환하는 전체 단계별 가이드 |
 | [C#에서 콜백 사용 방법 – DOCX를 Markdown으로 변환](./how-to-use-callback-in-c-convert-docx-to-markdown/) | Aspose.Words for .NET을 사용하여 콜백을 활용해 DOCX 파일을 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
+| [이미지를 포함한 Word를 Markdown으로 저장 – C# 단계별 가이드](./save-word-as-markdown-with-images-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 이미지를 포함한 Word 문서를 Markdown으로 변환하는 단계별 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

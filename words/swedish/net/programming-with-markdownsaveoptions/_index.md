@@ -107,6 +107,9 @@ Lär dig hur du extraherar och bäddar in bilder från DOCX-filer när du konver
 ### [Hur man ställer in upplösning vid konvertering av DOCX till Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Lär dig hur du anger upplösning för bilder när du konverterar DOCX-filer till Markdown med Aspose.Words för .NET.
 
+### [Spara Word som Markdown med bilder – steg‑för‑steg‑guide i C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+Lär dig spara Word-dokument som Markdown med bildextraktion i en detaljerad steg‑för‑steg‑guide i C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

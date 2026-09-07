@@ -69,6 +69,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat PDF Aksesibel dari Word – Panduan Lengkap](./create-accessible-pdf-from-word-complete-guide/) | Panduan lengkap untuk membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 | [Buat PDF yang Aksesibel – Panduan Langkah-demi-Langkah untuk Kepatuhan PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Pelajari cara membuat PDF yang dapat diakses sesuai standar PDF/UA dengan panduan langkah demi langkah menggunakan Aspose.Words untuk .NET. |
 | [Buat PDF Aksesibel dari Word – Panduan Lengkap C#](./create-accessible-pdf-from-word-complete-c-guide/) | Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. Bahasa Indonesia: |
+| [Buat PDF Aksesibel dari Word di C# – Panduan Lengkap](./create-accessible-pdf-from-word-in-c-complete-guide/) | Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

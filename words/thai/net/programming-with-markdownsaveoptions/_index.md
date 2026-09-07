@@ -92,6 +92,8 @@
 ### [วิธีตั้งค่าความละเอียดเมื่อแปลง DOCX เป็น Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 เรียนรู้วิธีกำหนดความละเอียดของภาพขณะแปลง DOCX ไปเป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [บันทึก Word เป็น markdown พร้อมรูปภาพ – คู่มือขั้นตอนโดยขั้นตอน C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

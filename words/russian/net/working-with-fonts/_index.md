@@ -56,6 +56,7 @@
 | [Как загрузить DOCX и обнаружить отсутствующие шрифты – Полное руководство C#](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Узнайте, как загрузить документ DOCX и определить недостающие шрифты с помощью Aspose.Words для .NET в полном руководстве на C#. |
 | [c# загрузка документа Word – обнаружение и обработка отсутствующих шрифтов](./c-load-word-document-detect-handle-missing-fonts/) | Узнайте, как загрузить документ Word в C# и обработать отсутствующие шрифты с помощью Aspose.Words для .NET. |
 | [Журнал предупреждений о замене шрифтов – Полное руководство Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Узнайте, как регистрировать предупреждения о замене шрифтов в Aspose.Words для .NET с помощью полного руководства. |
+| [Создать обработчик предупреждений о шрифтах – обнаружить отсутствующие шрифты в C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Узнайте, как создать обработчик предупреждений о шрифтах, чтобы обнаруживать отсутствующие шрифты в приложениях C# с Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

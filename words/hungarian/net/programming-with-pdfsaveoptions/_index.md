@@ -53,6 +53,8 @@ Akár Word dokumentumokat szeretne PDF formátumba konvertálni online terjeszt�
 
 | [Hozzon létre akadálymentes PDF-et Wordből – Teljes útmutató](./create-accessible-pdf-from-word-complete-guide/) | Lépésről lépésre útmutató az akadálymentes PDF-ek létrehozásához Word dokumentumokból az Aspose.Words for .NET használatával. |
 | [Hozzon létre hozzáférhető PDF-et – Lépésről lépésre útmutató a PDF/UA megfeleléshez](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Tanulja meg, hogyan készíthet PDF/UA szabványú, akadálymentes PDF-et az Aspose.Words for .NET segítségével. |
+| [Akadálymentes PDF létrehozása Word-ből C#-ban – Teljes útmutató](./create-accessible-pdf-from-word-in-c-complete-guide/) | Tanulja meg, hogyan hozhat létre akadálymentes PDF-et Word dokumentumokból C#-ban az Aspose.Words for .NET segítségével, részletes útmutatóval. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

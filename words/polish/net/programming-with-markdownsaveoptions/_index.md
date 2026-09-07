@@ -96,6 +96,9 @@ Dowiedz się, jak wyodrębnić i osadzić obrazy z pliku DOCX podczas konwersji 
 ### [Jak ustawić rozdzielczość podczas konwertowania DOCX do Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Dowiedz się, jak określić rozdzielczość obrazów przy konwersji DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
+### [Zapisz Word jako Markdown z obrazami – przewodnik krok po kroku w C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
+Kompletny przewodnik C# pokazujący, jak zapisywać dokumenty Word jako Markdown z wyodrębnianiem obrazów przy użyciu Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

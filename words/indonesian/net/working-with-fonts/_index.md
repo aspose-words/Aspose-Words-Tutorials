@@ -56,6 +56,7 @@ Bahasa Indonesia: [Atur Folder Font](./set-fonts-folder/) | Pelajari cara mengat
 | [c# memuat dokumen Word – mendeteksi & menangani font yang hilang](./c-load-word-document-detect-handle-missing-fonts/) | Pelajari cara memuat dokumen Word, mendeteksi dan menangani font yang hilang dengan Aspose.Words untuk .NET. |
 | [Cara Menangkap Font di Aspose.Words – Panduan Lengkap](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Pelajari cara menangkap font yang digunakan dalam dokumen Word dengan Aspose.Words melalui panduan lengkap langkah demi langkah. |
 | [Mencatat Peringatan Substitusi Font – Panduan Lengkap Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Pelajari cara mencatat peringatan substitusi font menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini. |
+| [Buat Penangan Peringatan Font – Deteksi Font Hilang di C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Pelajari cara membuat penangan peringatan font untuk mendeteksi font yang hilang saat memproses dokumen Word menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
