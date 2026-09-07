@@ -252,7 +252,7 @@ A: Open‑source libraries like `DocX` or `Open XML SDK` can read text, but they
 - **convert docx to latex** — explore `doc.Save("output.tex")` for full LaTeX documents (including sections, tables, and styling).  
 - **save word plain text** — experiment with `PlainText` mode if you don’t need equations.  
 - **export word equations latex** — combine the txt output with a static‑site generator that renders LaTeX on the fly (e.g., Hugo + MathJax).  
-- **Batch processing** — learn how to convert multiple files in one run. {{< relref "batch-processing/_index.md" >}}
+- **Batch processing** — learn how to convert multiple files in one run.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
