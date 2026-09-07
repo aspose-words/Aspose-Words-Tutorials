@@ -1,0 +1,7 @@
+Title: Export Floating Shapes Inline – Complete Guide to PDF Conversion
+Slug: export-floating-shapes-inline-complete-guide-to-pdf-conversi
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-03T23:22:46.683842
+SourceRepo: AI Search API
+Keywords: export floating shapes inline, convert word to pdf inline, how to set pdf options, save word as pdf options
+PRNumber: 220

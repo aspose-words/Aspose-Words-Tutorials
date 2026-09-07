@@ -15,7 +15,7 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sử dụng Office Math Objects trong Aspose.Words cho Java
+# Hiển thị Toán học Inline với Office Math trong Aspose.Words cho Java
 
 ## Giới thiệu về việc sử dụng Office Math Objects trong Aspose.Words cho Java
 

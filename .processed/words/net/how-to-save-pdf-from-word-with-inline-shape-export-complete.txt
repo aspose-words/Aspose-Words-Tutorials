@@ -1,0 +1,7 @@
+Title: How to Save PDF from Word with Inline Shape Export – Complete Guide
+Slug: how-to-save-pdf-from-word-with-inline-shape-export-complete
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-02T12:33:32.580337
+SourceRepo: AI Search API
+Keywords: how to save pdf, save docx as pdf, convert word to pdf, how to export shapes, inline span tags
+PRNumber: 197

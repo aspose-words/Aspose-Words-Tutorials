@@ -1,0 +1,7 @@
+Title: Save Word as Markdown in Java – Complete Guide
+Slug: save-word-as-markdown-in-java-complete-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-21T07:33:06.246502
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, export images from docx, java docx to markdown, customize image export
+PRNumber: 208

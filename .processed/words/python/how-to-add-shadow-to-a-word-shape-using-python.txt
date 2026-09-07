@@ -1,0 +1,7 @@
+Title: How to add shadow to a Word shape using Python
+Slug: how-to-add-shadow-to-a-word-shape-using-python
+Category: images-shapes
+ProcessedDate: 2026-08-14T11:40:33.458420
+SourceRepo: AI Search API
+Keywords: how to add shadow, apply shadow effect, create shadow effect, save word document, add shadow to shape
+PRNumber: 253

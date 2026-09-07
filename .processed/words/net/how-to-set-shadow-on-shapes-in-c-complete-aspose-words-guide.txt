@@ -1,0 +1,7 @@
+Title: How to Set Shadow on Shapes in C# – Complete Aspose.Words Guide
+Slug: how-to-set-shadow-on-shapes-in-c-complete-aspose-words-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-07-03T22:28:41.683111
+SourceRepo: AI Search API
+Keywords: how to set shadow, add shadow to shape, save document as pdf, how to change blur, how to adjust transparency
+PRNumber: 219

@@ -1,0 +1,7 @@
+Title: Create Word Document Java – Add Shape with Shadow Effect
+Slug: create-word-document-java-add-shape-with-shadow-effect
+Category: images-shapes
+ProcessedDate: 2026-06-30T20:23:38.131158
+SourceRepo: AI Search API
+Keywords: create word document java, how to add shadow to shape, add shape to word document, set shape fill color, apply shadow effect shape
+PRNumber: 217

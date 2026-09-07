@@ -27,7 +27,10 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Bidi-markeringen toevoegen aan een Word-document](./add-bidi-marks/) | Leer hoe u bidirectionele (Bidi) markeringen toevoegt aan Word-documenten met Aspose.Words voor .NET met deze handleiding. Zorg voor de juiste tekstrichting voor meertalige content. |
 | [Gebruik tabteken per niveau voor lijstinspringing](./use-tab-character-per-level-for-list-indentation/) | Leer hoe u lijsten met meerdere niveaus en tab-inspringing maakt met Aspose.Words voor .NET. Volg deze handleiding voor nauwkeurige lijstopmaak in uw documenten. |
 | [Gebruik spatieteken per niveau voor lijstinspringing](./use-space-character-per-level-for-list-indentation/) | Leer hoe u lijsten met meerdere niveaus met spatie-inspringing maakt in Aspose.Words voor .NET. Stapsgewijze handleiding voor nauwkeurige documentopmaak. |
-
+| [Docx naar txt converteren – Complete gids voor het opslaan van Word als platte tekst](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Leer hoe u een DOCX-bestand naar platte tekst converteert met Aspose.Words voor .NET, inclusief alle opties voor opslaan. |
+| [Document opslaan als TXT – Complete C#-gids om DOCX naar platte tekst te converteren](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Leer hoe u een DOCX-document naar platte tekst converteert met C# en Aspose.Words. |
+| [Docx opslaan als txt – Snelle gids voor C#-ontwikkelaars](./save-docx-as-txt-quick-guide-for-c-developers/) | Leer hoe u een DOCX-bestand snel omzet naar een TXT-bestand met C# en Aspose.Words, inclusief belangrijke opties en voorbeeldcode. |
+| [Docx opslaan als txt – behoud regelafbrekingen en spaties in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Leer hoe u een DOCX-bestand opslaat als TXT met behoud van regelafbrekingen en spaties met Aspose.Words voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

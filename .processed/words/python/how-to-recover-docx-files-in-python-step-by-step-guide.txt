@@ -1,0 +1,7 @@
+Title: How to recover docx files in Python – step‑by‑step guide
+Slug: how-to-recover-docx-files-in-python-step-by-step-guide
+Category: document-options-and-settings
+ProcessedDate: 2026-08-14T11:40:24.211166
+SourceRepo: AI Search API
+Keywords: how to recover docx, enable recovery mode, open corrupted document, set recovery mode, recover word file
+PRNumber: 253

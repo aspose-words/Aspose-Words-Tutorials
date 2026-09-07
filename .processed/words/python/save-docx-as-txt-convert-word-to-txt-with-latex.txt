@@ -1,0 +1,7 @@
+Title: save docx as txt – convert Word to TXT with LaTeX
+Slug: save-docx-as-txt-convert-word-to-txt-with-latex
+Category: document-conversion
+ProcessedDate: 2026-05-30T09:35:11.920523
+SourceRepo: AI Search API
+Keywords: save docx as txt, convert word to txt, export word equations latex, convert word math text, export latex from word
+PRNumber: 196

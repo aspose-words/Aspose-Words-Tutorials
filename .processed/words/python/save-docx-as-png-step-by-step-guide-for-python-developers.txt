@@ -1,0 +1,7 @@
+Title: Save docx as png – step‑by‑step guide for Python developers
+Slug: save-docx-as-png-step-by-step-guide-for-python-developers
+Category: document-conversion
+ProcessedDate: 2026-08-11T08:09:27.781572
+SourceRepo: AI Search API
+Keywords: save docx as png, convert word to png, set image width height, export all pages png, export word pages images
+PRNumber: 250

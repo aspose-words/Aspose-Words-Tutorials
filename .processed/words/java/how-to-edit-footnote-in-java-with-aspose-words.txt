@@ -1,0 +1,7 @@
+Title: How to edit footnote in Java with Aspose.Words
+Slug: how-to-edit-footnote-in-java-with-aspose-words
+Category: document-styling
+ProcessedDate: 2026-08-08T04:19:58.820807
+SourceRepo: AI Search API
+Keywords: how to edit footnote, add custom dash, change footnote line, change footnote separator, set paragraph alignment
+PRNumber: 246

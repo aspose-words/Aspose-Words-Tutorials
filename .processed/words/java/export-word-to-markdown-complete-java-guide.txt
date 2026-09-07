@@ -1,0 +1,7 @@
+Title: Export Word to Markdown – Complete Java Guide
+Slug: export-word-to-markdown-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-30T08:36:44.983976
+SourceRepo: AI Search API
+Keywords: export word to markdown, convert docx to markdown, save word as markdown, save document as markdown, convert word equations latex
+PRNumber: 195

@@ -1,0 +1,7 @@
+Title: Recover corrupted docx and convert to markdown with Aspose
+Slug: recover-corrupted-docx-and-convert-to-markdown-with-aspose
+Category: document-conversion
+ProcessedDate: 2026-08-04T23:07:25.957652
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, convert docx to markdown, how to use recovery mode, export equations latex
+PRNumber: 243

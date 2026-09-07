@@ -1,0 +1,7 @@
+Title: Repair damaged docx with Aspose.Words – Complete C# Guide
+Slug: repair-damaged-docx-with-aspose-words-complete-c-guide
+Category: programming-with-loadoptions
+ProcessedDate: 2026-06-18T02:46:41.705602
+SourceRepo: AI Search API
+Keywords: repair damaged docx, recover corrupted docx, fix corrupted docx
+PRNumber: 204
