@@ -32,6 +32,7 @@
 
 {{< tutorial-card link="./insert-table-contents/" title="Δημιουργήστε ένα έγγραφο του Word με πίνακα περιεχομένων σε .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Δημιουργία κενού εγγράφου Word σε C# και εισαγωγή κρυμμένης εικόνας" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

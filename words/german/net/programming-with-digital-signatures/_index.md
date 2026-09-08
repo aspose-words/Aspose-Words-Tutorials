@@ -23,6 +23,7 @@ Mit diesen Tutorials beherrschen Sie die digitalen Signaturfunktionen von Aspose
 | Titel | Beschreibung |
 | --- | --- |
 | [Word-Dokument signieren](./sign-document/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie ein Word-Dokument mit Aspose.Words für .NET signieren. Sichern Sie Ihre Dokumente ganz einfach. |
+| [Word-Dokumente mit XAdES EPES in C# signieren](./how-to-sign-word-documents-with-xades-epes-in-c/) | Erfahren Sie, wie Sie Word-Dokumente mit XAdES EPES in C# digital signieren. |
 | [Signieren eines verschlüsselten Word-Dokuments](./signing-encrypted-document/) | Erfahren Sie in dieser detaillierten Schritt-für-Schritt-Anleitung, wie Sie verschlüsselte Word-Dokumente mit Aspose.Words für .NET signieren. Perfekt für Entwickler. |
 | [Erstellen und Unterzeichnen einer neuen Signaturzeile](./creating-and-signing-new-signature-line/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET eine Signaturzeile in einem Word-Dokument erstellen und digital signieren. Perfekt für die Dokumentenautomatisierung. |
 | [Vorhandene Signaturzeile im Word-Dokument signieren](./signing-existing-signature-line/) | Erfahren Sie in unserer detaillierten Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET eine vorhandene Signaturzeile in einem Word-Dokument signieren. Perfekt für Entwickler. |

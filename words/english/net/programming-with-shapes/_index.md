@@ -26,6 +26,8 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | Title | Description |
 | --- | --- |
 | [Add Group Shape](./add-group-shape/) | Learn how to add group shapes to Word documents using Aspose.Words for .NET with this comprehensive, step-by-step tutorial. |
+| [How to group shapes in Word using DocumentBuilder – step‑by‑step guide](./how-to-group-shapes-in-word-using-documentbuilder-step-by-st/) | Learn how to group shapes in Word documents using DocumentBuilder with Aspose.Words for .NET in this step‑by‑step guide. |
+| [Create rectangle shape and group shapes in Word using C#](./create-rectangle-shape-and-group-shapes-in-word-using-c/) | Learn how to create rectangle shapes and group them in Word documents using Aspose.Words for .NET with this step‑by‑step C# guide. |
 | [Insert Shape](./insert-shape/) | Learn how to insert and manipulate shapes in Word documents using Aspose.Words for .NET with our step-by-step guide. |
 | [Aspect Ratio Locked](./aspect-ratio-locked/) | Learn how to lock the aspect ratio of shapes in Word documents using Aspose.Words for .NET. Follow this step-by-step guide to keep your images and shapes proportionate. |
 | [Layout In Cell](./layout-in-cell/) | Learn how to set the layout in cell using Aspose.Words for .NET with this comprehensive, guide. Perfect for developers looking to customize Word documents. |

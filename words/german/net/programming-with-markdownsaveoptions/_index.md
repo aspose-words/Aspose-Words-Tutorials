@@ -16,7 +16,7 @@
 # Textverarbeitung mit Markdownsaveoptions
 
 
-„Wortverarbeitung mit MarkdownSaveOptions“ ist eine ausführliche Ressource, die Sie durch die Wortverarbeitung mit MarkdownSaveOptions mithilfe der Aspose.Words-Bibliothek für .NET führt. Die Tutorials bieten Ihnen Schritt-für-Schritt-Erklärungen, vollständigen Quellcode und praktische Beispiele zum Verständnis und zur Verwendung von MarkdownSaveOptions zum Exportieren von Word-Dokumenten ins Markdown-Format. Sie lernen, wie Sie Exportoptionen anpassen, z. B. Bilder verwalten, Tabelleninhalte ausrichten, Stile konvertieren und vieles mehr. Diese Ressource ist unverzichtbar für Entwickler, die Markdown-Exportfunktionen mit Aspose.Words für .NET in ihre Anwendungen integrieren möchten.
+„Wortverarbeitung mit MarkdownSaveOptions“ ist eine ausführliche Ressource, die Sie durch die Wortverarbeitung mit MarkdownSaveOptions mithilfe der Aspose.Words-Bibliothek für .NET führt. Die Tutorials bieten Ihnen Schritt‑für‑Schritt‑Erklärungen, vollständigen Quellcode und praktische Beispiele zum Verständnis und zur Verwendung von MarkdownSaveOptions zum Exportieren von Word-Dokumenten ins Markdown-Format. Sie lernen, wie Sie Exportoptionen anpassen, z. B. Bilder verwalten, Tabelleninhalte ausrichten, Stile konvertieren und vieles mehr. Diese Ressource ist unverzichtbar für Entwickler, die Markdown-Exportfunktionen mit Aspose.Words für .NET in ihre Anwendungen integrieren möchten.
 
  ## Anleitungen
 | Titel | Beschreibung |
@@ -57,7 +57,7 @@ Erfahren Sie, wie Sie DOCX‑Dateien vollständig in Markdown exportieren – Sc
 Erfahren Sie, wie Sie LaTeX aus Word exportieren und DOCX‑Dateien mit Aspose in Markdown konvertieren.
 
 ### [Word in Markdown konvertieren – Bilder als Base64 einbetten](./convert-word-to-markdown-embed-images-as-base64/)
-Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und Bilder als Base64 einbetten.
+Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und Bilder als Base64 einbetten.
 ### [Wie man Markdown aus Word speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern, inklusive Codebeispielen und Tipps für optimale Ergebnisse.
 
@@ -101,13 +101,16 @@ Speichern Sie DOCX-Dateien als TXT und konvertieren Sie sie anschließend in Mar
 Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown speichern – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Wie man Bilder in Markdown aus DOCX einbettet](./how-to-embed-images-in-markdown-from-docx/)
-Erfahren Sie, wie Sie Bilder aus DOCX-Dokumenten extrahieren und in Markdown einbetten.
+Erfahren Sie, wie Sie Bilder aus DOCX‑Dokumenten extrahieren und in Markdown einbetten.
 
 ### [Wie man die Auflösung beim Konvertieren von DOCX in Markdown festlegt](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Erfahren Sie, wie Sie die Bildauflösung beim Exportieren von DOCX nach Markdown mit Aspose.Words für .NET festlegen.
 
 ### [Word als Markdown mit Bildern speichern – C# Schritt‑für‑Schritt‑Anleitung](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente mit Bildern in Markdown konvertieren – komplette C# Schritt‑für‑Schritt‑Anleitung.
+
+### [Wie man Markdown als Word speichert und die Formatierung beibehält](./how-to-save-markdown-as-word-while-preserving-formatting/)
+Erfahren Sie, wie Sie Markdown‑Dateien als Word‑Dokument speichern und dabei die ursprüngliche Formatierung erhalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

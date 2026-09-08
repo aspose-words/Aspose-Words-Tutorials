@@ -23,6 +23,7 @@ Words Processing with Footnotes and Endnotes to kompleksowe źródło, które pr
 | [Ustaw kolumny przypisów](./set-foot-note-columns/) | Dowiedz się, jak ustawić kolumny przypisów w dokumentach Word za pomocą Aspose.Words dla .NET. Łatwo dostosuj układ przypisów dzięki naszemu przewodnikowi krok po kroku. |
 | [Ustaw pozycję przypisu dolnego i końcowego](./set-footnote-and-end-note-position/) Dowiedz się, jak ustawiać położenie przypisów dolnych i końcowych w dokumentach programu Word za pomocą narzędzia Aspose.Words dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku. |
 | [Ustaw opcje przypisów końcowych](./set-endnote-options/) | Dowiedz się, jak ustawić opcje przypisów końcowych w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku. |
+| [Pobierz separator przypisu końcowego podczas ładowania dokumentu Word w C#](./retrieve-endnote-separator-while-loading-a-word-document-in/) | Dowiedz się, jak odczytać separator przypisu końcowego podczas ładowania dokumentu Word przy użyciu Aspose.Words dla .NET w C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

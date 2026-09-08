@@ -25,6 +25,7 @@
 | [مقارنة الخيارات في مستند Word](./compare-options/) | تعلّم كيفية مقارنة مستندات Word باستخدام Aspose.Words لـ .NET من خلال دليلنا المفصل. تمكّن من ضمان اتساق المستندات بسهولة. |
 | [هدف المقارنة في مستند Word](./comparison-target/) قارن مستندات Word بسهولة باستخدام Aspose.Words لـ .NET مع هذا الدليل المفصل خطوة بخطوة. وفر الوقت وحسّن دقة مقارنة المستندات.
 | [مقارنة الحبيبات في مستند Word](./comparison-granularity/) |تعرف على ميزة مقارنة الحبيبات في مستندات Word في Aspose.Words لـ .NET التي تسمح بمقارنة المستندات حرفًا بحرف، والإبلاغ عن التغييرات التي طرأت. |
+| [مقارنة مستندات Word واستبدال العناصر النائبة في C#](./compare-word-documents-and-replace-placeholders-in-c/) | تعلم كيفية مقارنة مستندات Word واستبدال العناصر النائبة باستخدام Aspose.Words في C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

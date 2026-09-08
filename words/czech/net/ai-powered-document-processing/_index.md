@@ -44,6 +44,8 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Práce s možnostmi shrnutí](./working-with-summarize-options/) | Naučte se efektivně shrnovat dokumenty Wordu pomocí Aspose.Words pro .NET s naším podrobným návodem k integraci modelů umělé inteligence pro rychlý přehled. |
 | [Shrnutí Word dokumentu v C# – Kompletní průvodce s umělou inteligencí](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletní návod, jak pomocí AI shrnout Word dokument v C# pomocí Aspose.Words. |
 | [Jak zkontrolovat gramatiku v DOCX pomocí Aspose.Words – použijte gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Naučte se, jak pomocí Aspose.Words a modelu gpt-4 turbo automaticky kontrolovat gramatiku v dokumentech DOCX. |
+| [Jak automaticky shrnout zprávu pomocí Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Kompletní průvodce automatickým shrnutím zpráv pomocí Aspose.Words.AI v .NET. |
+| [Překlad francouzštiny do angličtiny v DOCX pomocí Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | Naučte se, jak pomocí Aspose.Words přeložit obsah DOCX z francouzštiny do angličtiny. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

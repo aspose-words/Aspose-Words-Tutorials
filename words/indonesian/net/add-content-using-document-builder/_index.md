@@ -32,6 +32,7 @@ Panduan ini membahas fleksibilitas kelas DocumentBuilder, yang mencakup fungsi u
 
 {{< tutorial-card link="./insert-table-contents/" title="Membuat Dokumen Word dengan Daftar Isi di .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Buat dokumen Word kosong di C# dan sisipkan gambar tersembunyi" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

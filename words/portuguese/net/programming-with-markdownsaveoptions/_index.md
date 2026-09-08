@@ -108,6 +108,9 @@ Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspo
 ### [Como definir resolução ao converter DOCX para Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/)
 Aprenda a definir a resolução das imagens ao converter documentos DOCX para Markdown usando Aspose.Words para .NET.
 
+### [Como salvar Markdown como Word preservando a formatação](./how-to-save-markdown-as-word-while-preserving-formatting/)
+Aprenda a converter arquivos Markdown para Word mantendo a formatação original usando Aspose.Words para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

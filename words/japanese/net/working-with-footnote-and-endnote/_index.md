@@ -23,6 +23,7 @@
 | [脚注の列を設定する](./set-foot-note-columns/) Aspose.Words for .NET を使用して Word 文書に脚注の列を設定する方法を学びましょう。ステップバイステップのガイドで、脚注のレイアウトを簡単にカスタマイズできます。 |
 | [脚注と文末脚注の位置を設定する](./set-footnote-and-end-note-position/) この詳細なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書内の脚注と文末脚注の位置を設定する方法を学習します。 |
 | [文末脚注オプションの設定](./set-endnote-options/) この包括的なステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書の文末脚注オプションを設定する方法を学習します。 |
+| [C# で Word 文書を読み込む際に文末脚注の区切り文字を取得する](./retrieve-endnote-separator-while-loading-a-word-document-in/) C# で Word 文書を読み込むときに文末脚注の区切り文字を取得する方法を解説します。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

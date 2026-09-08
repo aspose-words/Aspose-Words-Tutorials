@@ -32,6 +32,7 @@ Tato příručka se ponoří do všestrannosti třídy DocumentBuilder a krok za
 
 {{< tutorial-card link="./insert-table-contents/" title="Vytvořte dokument Word s obsahem v .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Vytvořte prázdný dokument Word v C# a vložte skrytý obrázek" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

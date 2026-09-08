@@ -94,6 +94,9 @@
 
 ### [บันทึก Word เป็น markdown พร้อมรูปภาพ – คู่มือขั้นตอนโดยขั้นตอน C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 
+### [วิธีบันทึก Markdown เป็น Word พร้อมรักษาการจัดรูปแบบ](./how-to-save-markdown-as-word-while-preserving-formatting/)
+เรียนรู้วิธีบันทึกไฟล์ Markdown เป็น Word โดยคงรูปแบบเดิม
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

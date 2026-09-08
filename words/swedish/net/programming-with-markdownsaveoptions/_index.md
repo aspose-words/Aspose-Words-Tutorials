@@ -110,6 +110,8 @@ Lär dig hur du anger upplösning för bilder när du konverterar DOCX-filer til
 ### [Spara Word som Markdown med bilder – steg‑för‑steg‑guide i C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Lär dig spara Word-dokument som Markdown med bildextraktion i en detaljerad steg‑för‑steg‑guide i C#.
 
+### [Hur man sparar Markdown som Word samtidigt som formateringen bevaras](./how-to-save-markdown-as-word-while-preserving-formatting/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -32,6 +32,7 @@ Bu kılavuz, DocumentBuilder sınıfının çok yönlülüğünü derinlemesine 
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET'te İçindekiler Tablosu Olan Bir Word Belgesi Oluşturma" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="C# ile Boş Word Belgesi Oluşturun ve Gizli Görüntü Ekleyin" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

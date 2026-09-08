@@ -44,6 +44,8 @@
 | [العمل مع خيارات التلخيص](./working-with-summarize-options/) | تعلم كيفية تلخيص مستندات Word بشكل فعال باستخدام Aspose.Words for .NET من خلال دليلنا خطوة بخطوة حول دمج نماذج الذكاء الاصطناعي للحصول على رؤى سريعة. |
 | [تلخيص مستند Word في C# – دليل شامل مدعوم بالذكاء الاصطناعي](./summarize-word-document-in-c-complete-ai-powered-guide/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام C# ودمج نماذج الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية فحص القواعد النحوية في DOCX باستخدام Aspose.Words – استخدم gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | تعلم كيفية فحص القواعد النحوية في مستندات DOCX باستخدام Aspose.Words و gpt-4 turbo للحصول على نصوص خالية من الأخطاء. |
+| [كيفية تلخيص التقرير تلقائيًا باستخدام Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | دليل خطوة بخطوة لتلخيص التقارير تلقائيًا باستخدام Aspose.Words.AI. |
+| [ترجمة الفرنسية إلى الإنجليزية في ملف DOCX باستخدام Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | دليل خطوة بخطوة لترجمة محتوى DOCX من الفرنسية إلى الإنجليزية باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

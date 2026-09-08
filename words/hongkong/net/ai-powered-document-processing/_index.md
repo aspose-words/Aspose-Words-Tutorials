@@ -44,6 +44,8 @@
 | [使用匯總選項](./working-with-summarize-options/) |透過我們關於整合 AI 模型以獲得快速洞察的逐步指南，學習使用 Aspose.Words for .NET 有效地總結 Word 文件。 |
 | [使用 C# 匯總 Word 文件 – 完整 AI 驅動指南](./summarize-word-document-in-c-complete-ai-powered-guide/) |透過完整的 AI 驅動指南，學習在 C# 中使用 Aspose.Words 進行 Word 文件的自動匯總與摘要。 |
 | [如何使用 Aspose.Words 檢查 DOCX 文法 – 使用 gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) |使用 Aspose.Words 結合 gpt-4 turbo 為 DOCX 文件執行文法檢查，提升寫作品質。 |
+| [如何使用 Aspose.Words.AI 自動匯總報告](./how-to-summarize-report-automatically-with-aspose-words-ai/) |使用 Aspose.Words.AI 自動匯總報告，快速提取關鍵要點，提升文件處理效率。 |
+| [在 DOCX 中使用 Aspose.Words 將法文翻譯成英文](./translate-french-to-english-in-a-docx-with-aspose-words/) |使用 Aspose.Words 於 .NET 環境將 DOCX 文件中的法文內容自動翻譯為英文。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

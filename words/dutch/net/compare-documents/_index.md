@@ -23,8 +23,9 @@ Compare Documents is een uitgebreide tutorial over het vergelijken van documente
 | --- | --- |
 | [Vergelijk voor gelijkheid in Word-document](./compare-for-equal/) | Leer hoe u twee Word-documenten kunt vergelijken op gelijkheid met Aspose.Words voor .NET. Volg deze stapsgewijze handleiding om ervoor te zorgen dat uw documenten identiek zijn. |
 | [Opties vergelijken in Word-document](./compare-options/) | Leer hoe u Word-documenten kunt vergelijken met Aspose.Words voor .NET met onze stapsgewijze handleiding. Zorg moeiteloos voor consistente documenten. |
-| [Vergelijkingsdoel in Word-document](./comparison-target/) Vergelijk moeiteloos Word-documenten met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. Bespaar tijd en verbeter de nauwkeurigheid bij het vergelijken van documenten.
+| [Vergelijkingsdoel in Word-document](./comparison-target/) Vergelijk moeiteloos Word-documenten met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. Bespaar tijd en verbeter de nauwkeurigheid bij het vergelijken van documenten. |
 | [Vergelijking van granulariteit in Word-document](./comparison-granularity/) | Leer de granulariteit vergelijken in de functie van Aspose.Words voor .NET waarmee documenten teken voor teken kunnen worden vergeleken en de aangebrachte wijzigingen kunnen worden gerapporteerd. |
+| [Vergelijk Word-documenten en vervang placeholders in C#](./compare-word-documents-and-replace-placeholders-in-c/) | Leer hoe u placeholders in Word-documenten vervangt met C# en Aspose.Words. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

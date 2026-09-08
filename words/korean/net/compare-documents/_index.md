@@ -25,6 +25,7 @@ Compare Documents는 Aspose.Words for .NET을 사용하여 문서를 비교하�
 | [Word 문서의 비교 옵션](./compare-options/) | Aspose.Words for .NET을 사용하여 Word 문서를 비교하는 방법을 단계별 가이드를 통해 알아보세요. 문서의 일관성을 손쉽게 확보할 수 있습니다. |
 | [Word 문서의 비교 대상](./comparison-target/) | Aspose.Words for .NET을 사용하여 Word 문서를 손쉽게 비교하는 자세한 단계별 가이드를 참고하세요. 문서 비교 시간을 절약하고 정확도를 높여 보세요. |
 | [Word 문서의 비교 세분성](./comparison-granularity/) | Aspose.Words for .NET의 Word 문서에서 세분성을 비교하는 기능을 알아보세요. 이 기능을 사용하면 문서를 문자별로 비교하고 변경 사항을 보고할 수 있습니다. |
+| [C#로 워드 문서를 비교하고 자리표시자를 교체하기](./compare-word-documents-and-replace-placeholders-in-c/) | Aspose.Words for .NET을 사용하여 C#에서 워드 문서를 비교하고 자리표시자를 교체하는 방법을 단계별로 안내합니다. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

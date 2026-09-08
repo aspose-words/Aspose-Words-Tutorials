@@ -44,6 +44,8 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Làm việc với tùy chọn tóm tắt](./working-with-summarize-options/) | Học cách tóm tắt tài liệu Word hiệu quả bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi về cách tích hợp các mô hình AI để có thông tin chi tiết nhanh chóng. |
 | [Tóm tắt tài liệu Word bằng C# – Hướng dẫn toàn diện sử dụng AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
 | [Cách kiểm tra ngữ pháp trong DOCX với Aspose.Words – sử dụng gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Hướng dẫn sử dụng Aspose.Words và gpt-4 turbo để kiểm tra ngữ pháp tài liệu DOCX một cách nhanh chóng. |
+| [Cách tóm tắt báo cáo tự động với Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Hướng dẫn tự động tóm tắt báo cáo bằng Aspose.Words.AI trong .NET. |
+| [Dịch tiếng Pháp sang tiếng Anh trong DOCX với Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | Hướng dẫn dịch nội dung tiếng Pháp sang tiếng Anh trong tài liệu DOCX bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

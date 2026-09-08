@@ -23,6 +23,7 @@ Procesamiento de texto con notas al pie y al final es un recurso completo que le
 | [Establecer columnas de notas al pie](./set-foot-note-columns/) Aprenda a configurar columnas de notas al pie en documentos de Word con Aspose.Words para .NET. Personalice fácilmente el diseño de sus notas al pie con nuestra guía paso a paso.
 | [Establecer la posición de las notas al pie y las notas finales](./set-footnote-and-end-note-position/) Aprenda a establecer posiciones de notas al pie y notas finales en documentos de Word usando Aspose.Words para .NET con esta guía detallada paso a paso. |
 | [Establecer opciones de nota final](./set-endnote-options/) | Aprenda a configurar opciones de notas finales en documentos de Word usando Aspose.Words para .NET con esta completa guía paso a paso. |
+| [Recuperar separador de nota final al cargar un documento Word en C#](./retrieve-endnote-separator-while-loading-a-word-document-in/) | Aprenda a obtener el separador de notas finales al cargar un documento Word con Aspose.Words para .NET en C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

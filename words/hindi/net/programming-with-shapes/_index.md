@@ -43,6 +43,8 @@
 | [स्मार्ट आर्ट ड्राइंग अपडेट करें](./update-smart-art-drawing/) | इस चरण-दर-श... |
 | [Aspose.Words आकृति शैडो ट्यूटोरियल – C# में Word आकृति में शैडो जोड़ें](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | C# में Aspose.Words का उपयोग करके Word आकृति में शैडो कैसे जोड़ें, इस चरण-दर-चरण ट्यूटोरियल के साथ सीखें। |
 | [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
+| [C# का उपयोग करके Word में आयत आकार और समूह आकृतियों को बनाएं](./create-rectangle-shape-and-group-shapes-in-word-using-c/) | C# के साथ Aspose.Words का उपयोग करके Word दस्तावेज़ में आयत आकार बनाना और समूह आकृतियों को जोड़ना सीखें। |
+| [DocumentBuilder का उपयोग करके Word में आकृतियों को समूहित करने का चरण‑दर‑चरण गाइड](./how-to-group-shapes-in-word-using-documentbuilder-step-by-st/) | DocumentBuilder के साथ Word में समूह आकृतियों को जोड़ने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

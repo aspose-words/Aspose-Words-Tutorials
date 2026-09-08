@@ -32,6 +32,7 @@ Aspose.Words для .NET позволяет разработчикам без у
 
 {{< tutorial-card link="./insert-table-contents/" title="Создание документа Word с оглавлением в .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Создать пустой документ Word в C# и вставить скрытое изображение" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

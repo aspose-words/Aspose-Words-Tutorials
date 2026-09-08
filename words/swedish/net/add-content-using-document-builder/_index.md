@@ -32,6 +32,7 @@ Den här guiden fördjupar sig i DocumentBuilder-klassens mångsidighet och täc
 
 {{< tutorial-card link="./insert-table-contents/" title="Skapa ett Word-dokument med innehållsförteckning i .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Skapa ett tomt Word-dokument i C# och infoga en dold bild" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,6 +25,7 @@
 | [比較 Word 文件中的選項](./compare-options/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 比較 Word 文件。輕鬆確保文件的一致性。 |
 | [Word 文件中的比較目標](./comparison-target/) |依照這份詳細的逐步指南，使用 Aspose.Words for .NET 輕鬆比較 Word 文件。節省時間並提高文件比較的準確性。 |
 | [Word 文件中的比較粒度](./comparison-granularity/) |了解 Aspose.Words for .NET 的 Word 文檔功能中的比較粒度，該功能允許逐個字元地比較文檔，並報告所做的更改。 |
+| [在 C# 中比較 Word 文件並替換佔位符](./compare-word-documents-and-replace-placeholders-in-c/) |了解如何使用 Aspose.Words for .NET 在 C# 中比較 Word 文件，同時替換文件中的佔位符。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

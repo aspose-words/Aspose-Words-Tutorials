@@ -26,6 +26,7 @@ Aspose.Words for .NET 그래픽 프로그래밍 자습서는 Word 문서에서 �
 | --- | --- |
 | [차트에서 데이터 레이블의 형식 번호](./format-number-of-data-label/) | Aspose.Words for .NET을 사용하여 차트의 데이터 레이블 서식을 지정하는 방법을 단계별 가이드를 통해 알아보세요. Word 문서를 손쉽게 개선해 보세요. |
 | [모양을 사용하여 차트 만들기 및 사용자 지정](./create-chart-using-shape/) | Aspose.Words for .NET을 사용하여 Word 문서에서 차트를 만들고 사용자 지정하는 방법을 단계별 가이드를 통해 알아보세요. 데이터 시각화에 적합합니다. |
+| [빈 Word 문서를 만들고 차트를 추가하는 방법](./how-to-create-blank-word-document-and-add-chart-to-word/) | Aspose.Words for .NET을 사용하여 빈 Word 문서를 생성하고 차트를 삽입하는 단계별 가이드를 제공합니다. |
 | [Word 문서에 간단한 막대형 차트 삽입](./insert-simple-column-chart/) Aspose.Words for .NET을 사용하여 Word에 간단한 세로 막대형 차트를 삽입하는 방법을 알아보세요. 역동적인 시각적 데이터 프레젠테이션으로 문서를 더욱 풍부하게 만들어 보세요. |
 | [Word 문서에 막대형 차트 삽입](./insert-column-chart/) | Aspose.Words for .NET을 사용하여 Word 문서에 세로 막대형 차트를 삽입하는 방법을 알아보세요. 보고서와 프레젠테이션의 데이터 시각화를 향상시켜 보세요. |
 | [Word 문서에 영역 차트 삽입](./insert-area-chart/) | 이 포괄적인 단계별 가이드를 통해 Aspose.Words for .NET을 사용하여 Word 문서에 영역 차트를 삽입하는 방법을 알아보세요. |

@@ -32,6 +32,7 @@ Ce guide explore la polyvalence de la classe DocumentBuilder et présente ses fo
 
 {{< tutorial-card link="./insert-table-contents/" title="Créer un document Word avec table des matières en .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Créer un document Word vierge en C# et insérer une image cachée" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
