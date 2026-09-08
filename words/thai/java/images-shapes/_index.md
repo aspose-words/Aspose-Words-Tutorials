@@ -39,6 +39,9 @@
 ### [สร้างรูปสี่เหลี่ยมใน Word ด้วย Java – คู่มือเต็ม](./create-rectangle-shape-in-word-with-java-full-guide/)
 เรียนรู้วิธีสร้างและกำหนดค่ารูปสี่เหลี่ยมในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
+### [วิธีสร้างเอกสาร Word ว่างพร้อมรูปทรงที่จัดกลุ่ม](./how-to-create-blank-word-document-with-grouped-shapes/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปทรงหลายรูปที่จัดกลุ่มเป็นหนึ่ง
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

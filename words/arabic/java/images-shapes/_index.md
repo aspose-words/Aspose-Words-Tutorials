@@ -39,6 +39,9 @@
 ### [إنشاء شكل مستطيل في Word باستخدام Java – دليل كامل](./create-rectangle-shape-in-word-with-java-full-guide/)
 تعلم كيفية إنشاء شكل مستطيل في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
+### [كيفية إنشاء مستند Word فارغ مع أشكال مجموعة](./how-to-create-blank-word-document-with-grouped-shapes/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة مجموعة من الأشكال باستخدام Aspose.Words لجافا
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

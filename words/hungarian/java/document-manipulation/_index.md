@@ -76,6 +76,8 @@ Optimalizálja dokumentumfeldolgozását az Aspose.Words for Java segítségéve
 Sajátítsd el a dokumentumtartomány-manipulációt az Aspose.Words for Java programban. Tanuld meg a szöveg törlését, kinyerését és formázását ezzel az átfogó útmutatóval.
 ### [Strukturált dokumentumcímkék (SDT) használata az Aspose.Words Java-ban](./using-structured-document-tags/)
 Tanuld meg, hogyan használd a strukturált dokumentumcímkéket (SDT) az Aspose.Words for Java programban ezzel az átfogó útmutatóval. Hozz létre, módosíts és köss SDT-ket egyéni XML adatokhoz.
+### [Hogyan állítsuk be a címke nevét és adjunk hozzá SDT-t egy Word dokumentumban C#-ban](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Ismerd meg, hogyan állíthatod be a címke nevét és adhatod hozzá az SDT-t Word dokumentumban C#-ban, részletes kódpéldákkal.
 ### [Stílusok és témák használata az Aspose.Words for Java-ban](./using-styles-and-themes/)
 Ismerd meg, hogyan javíthatod a dokumentumok formázását az Aspose.Words for Java segítségével. Fedezz fel stílusokat, témákat és sok mást ebben az átfogó útmutatóban forráskódpéldákkal.
 ### [Tartalomjegyzék generálása az Aspose.Words programban Java-hoz](./generating-table-of-contents/)

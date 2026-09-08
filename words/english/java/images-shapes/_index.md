@@ -40,6 +40,8 @@ Learn how to add a rectangle shape with a shadow effect to a Word document using
 ### [Create rectangle shape in Word with Java – Full Guide](./create-rectangle-shape-in-word-with-java-full-guide/)
 Step-by-step guide to create and customize rectangle shapes in Word documents using Aspose.Words for Java.
 
+### [How to create blank Word document with grouped shapes](./how-to-create-blank-word-document-with-grouped-shapes/)
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

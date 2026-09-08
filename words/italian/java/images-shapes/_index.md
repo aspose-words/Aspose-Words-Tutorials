@@ -39,6 +39,9 @@ Impara a inserire una forma rettangolare con ombra in un documento Word usando A
 ### [Creare una forma rettangolare in Word con Java – Guida completa](./create-rectangle-shape-in-word-with-java-full-guide/)
 Scopri come creare e personalizzare una forma rettangolare nei documenti Word usando Aspose.Words per Java.
 
+### [Come creare un documento Word vuoto con forme raggruppate](./how-to-create-blank-word-document-with-grouped-shapes/)
+Impara a creare un documento Word vuoto contenente forme raggruppate usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)

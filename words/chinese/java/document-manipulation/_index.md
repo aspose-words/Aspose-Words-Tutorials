@@ -76,6 +76,8 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 掌握 Aspose.Words for Java 中的文档范围操作。通过这份全面的指南学习如何删除、提取和格式化文本。
 ### [在 Aspose.Words for Java 中使用结构化文档标签（SDT）](./using-structured-document-tags/)
 通过本指南学习如何在 Aspose.Words for Java 中使用结构化文档标签 (SDT)。创建、修改 SDT 并将其绑定到自定义 XML 数据。
+### [在 C# 中设置标签名称并向 Word 文档添加 SDT](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+学习如何在 C# 使用 Aspose.Words 设置结构化文档标签的标签名称并将其添加到 Word 文档中。
 ### [在 Aspose.Words for Java 中使用样式和主题](./using-styles-and-themes/)
 学习如何使用 Aspose.Words for Java 增强文档格式。本指南包含源代码示例，全面介绍样式、主题等功能。
 ### [在 Aspose.Words for Java 中生成目录](./generating-table-of-contents/)

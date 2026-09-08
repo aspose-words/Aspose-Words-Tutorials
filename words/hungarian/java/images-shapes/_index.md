@@ -39,6 +39,8 @@ Ismerje meg, hogyan adhat hozzá árnyékhatású téglalap alakzatot a Word dok
 ### [Téglalap alakzat létrehozása Word dokumentumban Java-val – Teljes útmutató](./create-rectangle-shape-in-word-with-java-full-guide/)
 Ismerje meg, hogyan hozhat létre és testreszabhat téglalap alakzatot Word dokumentumokban Java segítségével.
 
+### [Üres Word dokumentum létrehozása csoportosított alakzatokkal](./how-to-create-blank-word-document-with-grouped-shapes/)
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)

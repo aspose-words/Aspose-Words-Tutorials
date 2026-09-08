@@ -76,6 +76,7 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 จัดการช่วงเอกสารหลักใน Aspose.Words สำหรับ Java เรียนรู้การลบ การแยก และการจัดรูปแบบข้อความด้วยคู่มือที่ครอบคลุมนี้
 ### [การใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java](./using-structured-document-tags/)
 เรียนรู้วิธีใช้ Structured Document Tags (SDT) ใน Aspose.Words สำหรับ Java ด้วยคู่มือฉบับสมบูรณ์นี้ สร้าง แก้ไข และเชื่อมโยง SDT กับข้อมูล XML ที่กำหนดเอง
+### [วิธีตั้งชื่อแท็กและเพิ่ม SDT ในเอกสาร Word ด้วย C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
 ### [การใช้สไตล์และธีมใน Aspose.Words สำหรับ Java](./using-styles-and-themes/)
 เรียนรู้วิธีการปรับปรุงการจัดรูปแบบเอกสารด้วย Aspose.Words สำหรับ Java สำรวจรูปแบบ ธีม และอื่นๆ ในคู่มือที่ครอบคลุมนี้พร้อมตัวอย่างโค้ดต้นฉบับ
 ### [การสร้างสารบัญใน Aspose.Words สำหรับ Java](./generating-table-of-contents/)

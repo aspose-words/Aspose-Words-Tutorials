@@ -36,8 +36,12 @@ Aspose.Words Java 程式碼教程
 
 ### [建立 Word 文件 Java – 添加帶陰影效果的矩形形狀](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 示範如何在 Java 中使用 Aspose.Words 建立 Word 文件，並向文件中加入帶陰影效果的矩形形狀。
+
 ### [在 Word 中使用 Java 建立矩形形狀 – 完整指南](./create-rectangle-shape-in-word-with-java-full-guide/)
 學習如何使用 Aspose.Words for Java 在 Word 文檔中插入並自訂矩形形狀的完整步驟。
+
+### [如何建立帶組合形狀的空白 Word 文件](./how-to-create-blank-word-document-with-grouped-shapes/)
+示範在 Java 中使用 Aspose.Words 建立空白文件並將多個形狀分組。
 
 ## 其他資源
 
