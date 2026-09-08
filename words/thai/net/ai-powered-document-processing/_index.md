@@ -43,6 +43,8 @@
 | [การทำงานกับโมเดล AI แบบเปิด](./working-with-open-ai-model/) | ปลดล็อกการสรุปเอกสารอย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมด้วยโมเดลอันทรงพลังของ OpenAI เจาะลึกคู่มือฉบับสมบูรณ์นี้เลยตอนนี้ -
 | [การทำงานกับตัวเลือกการสรุป](./working-with-summarize-options/) | เรียนรู้การสรุปเอกสาร Word ได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนในการบูรณาการโมเดล AI เพื่อรับข้อมูลเชิงลึกอย่างรวดเร็ว -
 | [สรุปเอกสาร Word ด้วย C# – คู่มือเต็มรูปแบบที่ขับเคลื่อนด้วย AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | เรียนรู้วิธีสรุปไฟล์ Word ด้วย C# โดยใช้ AI อย่างเต็มที่ในคู่มือขั้นตอนเดียว -
+- [วิธีสรุปรายงานโดยอัตโนมัติด้วย Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | เรียนรู้วิธีสรุปรายงานอัตโนมัติด้วย Aspose.Words.AI ในขั้นตอนง่ายๆ เพื่อเพิ่มประสิทธิภาพการทำงาน -
+| [แปลภาษาฝรั่งเศสเป็นอังกฤษใน DOCX ด้วย Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | เรียนรู้วิธีแปลข้อความจากภาษาฝรั่งเศสเป็นอังกฤษในไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,7 @@ Aspose.Words for .NET は、開発者がWord文書をプログラムで簡単に
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET で目次付きの Word 文書を作成する" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="C# で空白の Word 文書を作成し、隠し画像を挿入する" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

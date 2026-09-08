@@ -29,7 +29,7 @@ Dzięki tym samouczkom będziesz w stanie opanować funkcje podpisu cyfrowego As
 | [Ustaw identyfikator dostawcy podpisu w dokumencie Word](./set-signature-provider-id/) Bezpiecznie ustaw identyfikator dostawcy podpisu w dokumentach Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym szczegółowym, 2000-wyrazowym przewodnikiem, aby cyfrowo podpisywać dokumenty. |
 | [Utwórz nową linię podpisu i ustaw identyfikator dostawcy](./create-new-signature-line-and-set-provider-id/) | Dowiedz się, jak utworzyć nową linię podpisu i ustawić identyfikator dostawcy w dokumentach Word przy użyciu Aspose.Words dla .NET. Przewodnik krok po kroku. |
 | [Dostęp i weryfikacja podpisu w dokumencie Word](./access-and-verify-signature/) | Uzyskaj dostęp i weryfikuj podpisy cyfrowe w dokumentach Word za pomocą Aspose.Words dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij autentyczność dokumentu bez wysiłku. |
-
+| [Jak podpisać dokumenty Word przy użyciu XAdES EPES w C#](./how-to-sign-word-documents-with-xades-epes-in-c/) | Dowiedz się, jak podpisać dokumenty Word przy użyciu XAdES EPES w C# za pomocą Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

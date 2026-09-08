@@ -32,6 +32,7 @@ Hướng dẫn này đi sâu vào tính linh hoạt của lớp DocumentBuilder,
 
 {{< tutorial-card link="./insert-table-contents/" title="Tạo một tài liệu Word có mục lục trong .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Tạo tài liệu Word trống trong C# và chèn hình ảnh ẩn" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

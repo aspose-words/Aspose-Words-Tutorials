@@ -30,6 +30,7 @@ Aspose.Words for .NET 자습서를 통해 라이브러리의 기능을 심층적
 | [콤보 상자 콘텐츠 컨트롤](./combo-box-content-control/) | Aspose.Words for .NET을 사용하여 Word 문서에 콤보 상자 콘텐츠 컨트롤을 만들어 보세요. 자세한 튜토리얼을 참고하세요. 문서의 상호 작용성을 향상시키는 데 적합합니다. |
 | [서식 있는 텍스트 상자 콘텐츠 컨트롤](./rich-text-box-content-control/) | Aspose.Words for .NET을 사용하여 Word 문서에 서식 있는 텍스트 상자 콘텐츠 컨트롤을 추가하고 사용자 지정하는 방법을 이 자세하고 단계별 가이드를 통해 알아보세요. |
 | [콘텐츠 컨트롤 색상 설정](./set-content-control-color/) | Aspose.Words for .NET을 사용하여 Word에서 구조화된 문서 태그의 색상을 쉽게 설정할 수 있습니다. 이 간단한 가이드를 통해 구조화된 문서 태그(SDT)를 사용자 지정하여 문서 모양을 개선해 보세요. |
+| [C#를 사용하여 Word 문서에 콘텐츠 컨트롤 삽입하는 방법](./how-to-insert-content-control-in-a-word-document-with-c/) | Aspose.Words for .NET을 사용해 C#로 Word 문서에 콘텐츠 컨트롤을 추가하는 방법을 단계별로 안내합니다. |
 | [명확한 콘텐츠 제어](./clear-contents-control/) | Aspose.Words for .NET을 사용하여 Word 문서에서 콘텐츠 컨트롤을 지우는 방법을 단계별 가이드를 통해 알아보세요. |
 | [SDT를 사용자 정의 XML 부분에 바인딩](./bind-sdt-to-custom-xml-part/) | 이 단계별 튜토리얼을 통해 Aspose.Words for .NET을 사용하여 Word 문서의 사용자 지정 XML 부분에 구조화된 문서 태그(SDT)를 바인딩하는 방법을 알아보세요. |
 | [콘텐츠 컨트롤 스타일 설정](./set-content-control-style/) | Aspose.Words for .NET을 사용하여 Word 문서에서 콘텐츠 컨트롤 스타일을 설정하는 방법을 단계별로 자세히 알아보세요. 문서의 미적 감각을 향상시키는 데 적합합니다. |

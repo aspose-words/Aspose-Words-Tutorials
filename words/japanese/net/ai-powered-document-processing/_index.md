@@ -43,6 +43,8 @@
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
 | [C# で Word 文書を要約する – 完全 AI 搭載ガイド](./summarize-word-document-in-c-complete-ai-powered-guide/) Aspose.Words for .NET と AI を活用し、C# で Word 文書を自動要約する完全ガイドです。 |
+| [Aspose.Words.AI を使用してレポートを自動要約する方法](./how-to-summarize-report-automatically-with-aspose-words-ai/) Aspose.Words.AI と .NET を活用し、レポートを自動的に要約する手順を学びます。 |
+| [Aspose.Words で DOCX のフランス語を英語に翻訳](./translate-french-to-english-in-a-docx-with-aspose-words/) Aspose.Words を使用して、DOCX ファイル内のフランス語テキストを英語に自動翻訳する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

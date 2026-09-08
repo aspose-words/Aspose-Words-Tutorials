@@ -32,6 +32,7 @@ Questa guida approfondisce la versatilità della classe DocumentBuilder, illustr
 
 {{< tutorial-card link="./insert-table-contents/" title="Creare un documento Word con indice in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Crea documento Word vuoto in C# e inserisci un'immagine nascosta" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

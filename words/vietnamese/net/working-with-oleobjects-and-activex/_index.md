@@ -23,6 +23,7 @@ Các hướng dẫn này cung cấp cho bạn cách tiếp cận thực hành, t
  ## Hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- |
+| [Cách lưu docx và chèn nút ActiveX bằng C#](./how-to-save-docx-and-insert-an-activex-button-with-c/) | Hướng dẫn lưu tệp docx và chèn nút ActiveX bằng C# trong Aspose.Words cho .NET. |
 | [Chèn Đối Tượng Ole Vào Tài Liệu Word](./insert-ole-object/) | Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn bằng nội dung nhúng. |
 | [Chèn Đối Tượng Ole Vào Word Với Gói Ole](./insert-ole-object-with-ole-package/) | Tìm hiểu cách chèn các đối tượng OLE vào tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước chi tiết của chúng tôi để nhúng tệp một cách liền mạch. |
 | [Chèn Đối Tượng Ole Vào Tài Liệu Word Làm Biểu Tượng](./insert-ole-object-as-icon/) | Tìm hiểu cách chèn đối tượng OLE dưới dạng biểu tượng trong tài liệu Word bằng Aspose.Words cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện tài liệu của bạn. |

@@ -29,6 +29,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur ID Penyedia Tanda Tangan di Dokumen Word](./set-signature-provider-id/) Tetapkan ID Penyedia Tanda Tangan dengan aman dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan terperinci kami yang terdiri dari 2000 kata untuk menandatangani dokumen Anda secara digital. Bahasa Indonesia:
 | [Buat Baris Tanda Tangan Baru dan Tetapkan ID Penyedia](./create-new-signature-line-and-set-provider-id/) | Pelajari cara membuat baris tanda tangan baru dan mengatur ID penyedia dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah. Bahasa Indonesia:
 | [Akses dan Verifikasi Tanda Tangan di Dokumen Word](./access-and-verify-signature/) | Akses dan verifikasi tanda tangan digital dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keaslian dokumen dengan mudah. |
+| [Cara menandatangani dokumen Word dengan XAdES EPES di C#](./how-to-sign-word-documents-with-xades-epes-in-c/) | Pelajari cara menandatangani dokumen Word menggunakan XAdES EPES dengan C# secara detail. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

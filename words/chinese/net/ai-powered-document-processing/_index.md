@@ -43,6 +43,8 @@
 | [使用开放的人工智能模型](./working-with-open-ai-model/) 使用 Aspose.Words for .NET 和 OpenAI 强大的模型，解锁高效的文档摘要功能。立即深入了解这份全面的指南。|
 | [使用汇总选项](./working-with-summarize-options/) 学习使用 Aspose.Words for .NET 有效地总结 Word 文档，并遵循我们关于集成 AI 模型以获得快速洞察的分步指南。|
 | [在 C# 中汇总 Word 文档 – 完整的 AI 驱动指南](./summarize-word-document-in-c-complete-ai-powered-guide/) 使用 Aspose.Words for .NET 在 C# 中实现完整的 AI 驱动 Word 文档摘要，提供详细步骤和最佳实践。|
+| [使用 Aspose.Words.AI 自动汇总报告](./how-to-summarize-report-automatically-with-aspose-words-ai/) 使用 Aspose.Words.AI 自动汇总报告的完整指南，帮助您快速生成报告摘要。|
+| [使用 Aspose.Words 将 DOCX 中的法语翻译为英语](./translate-french-to-english-in-a-docx-with-aspose-words/) 了解如何使用 Aspose.Words for .NET 将 DOCX 文档中的法语内容自动翻译为英语，实现高效文档本地化。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

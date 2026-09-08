@@ -28,7 +28,7 @@ Ces tutoriels vous proposent une approche pratique et étape par étape du trait
 | [Insérer un objet OLE dans un document Word sous forme d'icône](./insert-ole-object-as-icon/) | Apprenez à insérer un objet OLE sous forme d'icône dans des documents Word avec Aspose.Words pour .NET. Suivez notre guide étape par étape pour améliorer vos documents. |
 | [Insérer un objet Ole comme icône à l'aide de Stream](./insert-ole-object-as-icon-using-stream/) | Apprenez à insérer un objet OLE en tant qu'icône à l'aide d'un flux avec Aspose.Words pour .NET dans ce didacticiel détaillé, étape par étape. |
 | [Lire les propriétés Active XControl à partir d'un fichier Word](./read-active-xcontrol-properties/) | Apprenez à lire les propriétés des contrôles ActiveX dans des fichiers Word avec Aspose.Words pour .NET grâce à un guide étape par étape. Améliorez vos compétences en automatisation de documents. |
-
+| [Comment enregistrer un docx et insérer un bouton ActiveX avec C#](./how-to-save-docx-and-insert-an-activex-button-with-c/) | Apprenez à enregistrer un document DOCX et à y insérer un bouton ActiveX à l'aide de C# avec Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

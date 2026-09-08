@@ -42,7 +42,7 @@ Dzięki tym samouczkom będziesz w stanie ulepszyć swoje dokumenty Word, dodaj�
 | [Ustaw domyślne opcje etykiet danych na wykresie](./default-options-for-data-labels/) | Dowiedz się, jak ustawić domyślne opcje etykiet danych na wykresie przy użyciu Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku tworzyć i dostosowywać wykresy. |
 | [Dostosuj pojedynczy punkt danych wykresu na wykresie](./single-chart-data-point/) | Dowiedz się, jak dostosować pojedyncze punkty danych wykresu za pomocą Aspose.Words dla .NET w szczegółowym przewodniku krok po kroku. Ulepsz swoje wykresy za pomocą unikalnych znaczników i rozmiarów. |
 | [Dostosuj pojedynczą serię wykresów na wykresie](./single-chart-series/) | Dowiedz się, jak dostosować pojedynczą serię wykresów w dokumencie Word za pomocą Aspose.Words dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać bezproblemowe działanie. |
-
+| [Jak utworzyć pusty dokument Word i dodać wykres do Worda](./how-to-create-blank-word-document-and-add-chart-to-word/) | Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego wykres przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,11 +35,13 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Detecteer slimme kunstvorm](./detect-smart-art-shape/) | Leer hoe u SmartArt-vormen in Word-documenten kunt detecteren met Aspose.Words voor .NET met deze uitgebreide handleiding. Perfect voor het automatiseren van uw documentworkflow. |
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met de stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
 | [Rechthoekvorm maken in Word met Aspose.Words – Stapsgewijze handleiding](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Leer hoe u een rechthoekvorm toevoegt en aanpast in een Word‑document met Aspose.Words voor .NET. |
+| [Rechthoekvorm maken en vormen groeperen in Word met C#](./create-rectangle-shape-and-group-shapes-in-word-using-c/) | Leer hoe u een rechthoekvorm maakt en meerdere vormen groepeert in een Word‑document met C#. |
 | [Schaduw-effect toevoegen aan Word-vormen – Complete C#-handleiding](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Leer hoe u schaduweffecten toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET in deze volledige C#-handleiding. |
 | [Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Leer hoe u een Word‑document maakt met een rechthoek met schaduw met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [Smart Art-tekening bijwerken](./update-smart-art-drawing/) | Leer hoe u Smart Art-tekeningen in Word-documenten kunt bijwerken met Aspose.Words voor .NET met deze stapsgewijze handleiding. Zorg ervoor dat uw afbeeldingen altijd accuraat zijn. |
 | [Aspose.Words Vormschaduw Tutorial – Voeg een schaduw toe aan een Word-vorm in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 | [Leeg Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Leer hoe u een leeg Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET. |
+| [Hoe vormen groeperen in Word met DocumentBuilder – stapsgewijze handleiding](./how-to-group-shapes-in-word-using-documentbuilder-step-by-st/) | Leer hoe u vormen groepeert in Word met DocumentBuilder via een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

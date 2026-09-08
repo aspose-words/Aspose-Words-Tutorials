@@ -32,6 +32,7 @@ Ez az útmutató részletesen bemutatja a DocumentBuilder osztály sokoldalúsá
 
 {{< tutorial-card link="./insert-table-contents/" title="Tartalomjegyzékkel ellátott Word-dokumentum létrehozása .NET-ben" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Üres Word-dokumentum létrehozása C#-ban és rejtett kép beszúrása" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

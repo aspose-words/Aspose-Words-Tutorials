@@ -44,6 +44,8 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Lavorare con le opzioni di riepilogo](./working-with-summarize-options/) | Impara a riassumere in modo efficace i documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata sull'integrazione dei modelli di intelligenza artificiale per ottenere informazioni rapide. |
 | [Riassumere documento Word in C# – Guida completa con IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Scopri come riassumere documenti Word in C# usando l'intelligenza artificiale con una guida passo‑passo completa. |
 | [Come controllare la grammatica in DOCX con Aspose.Words – usa gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Scopri come utilizzare Aspose.Words per .NET e GPT‑4 Turbo per verificare e correggere la grammatica nei file DOCX in modo semplice. |
+| [Come riassumere automaticamente un report con Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Scopri come riassumere automaticamente i report usando Aspose.Words.AI in pochi passaggi. |
+| [Tradurre il francese in inglese in un DOCX con Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | Scopri come tradurre documenti DOCX dal francese all'inglese usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

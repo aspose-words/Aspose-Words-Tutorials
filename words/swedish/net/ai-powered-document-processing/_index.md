@@ -44,6 +44,8 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
 | [Sammanfatta Word-dokument i C# – Komplett AI‑driven guide](./summarize-word-document-in-c-complete-ai-powered-guide/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta Word-dokument i C# med Aspose.Words. |
 | [Hur du kontrollerar grammatik i DOCX med Aspose.Words – använd gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Lär dig att använda GPT‑4 Turbo för att automatiskt rätta grammatik i DOCX‑filer med Aspose.Words. |
+| [Hur du automatiskt sammanfattar rapport med Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Lär dig automatiskt sammanfatta rapporter med Aspose.Words.AI i enkla steg. |
+| [Översätt franska till engelska i ett DOCX med Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | Lär dig hur du översätter franska DOCX-filer till engelska med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

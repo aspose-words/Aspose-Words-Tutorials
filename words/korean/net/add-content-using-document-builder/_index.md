@@ -20,6 +20,8 @@ Aspose.Words for .NET을 사용하면 개발자가 Word 문서를 프로그래�
 
 {{< tutorial-card link="./build-table/" title="Aspose.Words를 사용하여 표가 있는 Word 문서 만들기" imgSrc="./build-table/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="C#에서 빈 Word 문서를 만들고 숨겨진 이미지 삽입" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-break/" title="Aspose.Words를 사용하여 여러 페이지로 구성된 Word 문서 만들기" imgSrc="./insert-break/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-floating-image/" title=".NET에서 떠다니는 이미지가 있는 Word 문서 만들기" imgSrc="./insert-floating-image/images/thumb.png" >}}

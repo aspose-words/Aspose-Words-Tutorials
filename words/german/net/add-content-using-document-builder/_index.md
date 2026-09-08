@@ -32,6 +32,7 @@ Dieser Leitfaden beleuchtet die Vielseitigkeit der DocumentBuilder-Klasse und er
 
 {{< tutorial-card link="./insert-table-contents/" title="Erstellen Sie ein Word-Dokument mit Inhaltsverzeichnis in .NET" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Erstellen Sie ein leeres Word-Dokument in C# und fügen Sie ein verstecktes Bild ein" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

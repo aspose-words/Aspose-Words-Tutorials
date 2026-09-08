@@ -28,8 +28,8 @@ Grâce à ces tutoriels, vous maîtriserez les fonctionnalités de signature num
 | [Signature d'une ligne de signature existante dans un document Word](./signing-existing-signature-line/) | Découvrez comment signer une ligne de signature existante dans un document Word avec Aspose.Words pour .NET grâce à notre guide détaillé étape par étape. Idéal pour les développeurs. |
 | [Définir l'ID du fournisseur de signature dans un document Word](./set-signature-provider-id/) Définissez en toute sécurité un identifiant de fournisseur de signature dans vos documents Word grâce à Aspose.Words pour .NET. Suivez notre guide détaillé de 2 000 mots pour signer numériquement vos documents. |
 | [Créer une nouvelle ligne de signature et définir l'ID du fournisseur](./create-new-signature-line-and-set-provider-id/) | Apprenez à créer une ligne de signature et à définir l'ID du fournisseur dans des documents Word avec Aspose.Words pour .NET. Guide étape par étape. |
-| [Accéder et vérifier la signature dans un document Word](./access-and-verify-signature/) Accédez et vérifiez les signatures numériques de vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. Assurez l'authenticité de vos documents en toute simplicité.
-
+| [Accéder et vérifier la signature dans un document Word](./access-and-verify-signature/) Accédez et vérifiez les signatures numériques de vos documents Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape. Assurez l'authenticité de vos documents en toute simplicité. |
+| [Comment signer des documents Word avec XAdES EPES en C#](./how-to-sign-word-documents-with-xades-epes-in-c/) | Apprenez à signer des documents Word en utilisant le format XAdES EPES avec C# et Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

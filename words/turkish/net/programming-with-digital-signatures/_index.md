@@ -29,7 +29,7 @@ Bu eğitimlerle, Aspose.Words for .NET'in dijital imza özelliklerinde ustalaşa
 | [Word Belgesinde İmza Sağlayıcı Kimliğini Ayarla](./set-signature-provider-id/) Aspose.Words for .NET kullanarak Word belgelerinde güvenli bir şekilde İmza Sağlayıcı Kimliği ayarlayın. Belgelerinizi dijital olarak imzalamak için ayrıntılı, 2000 kelimelik kılavuzumuzu izleyin. |
 | [Yeni İmza Satırı Oluşturun ve Sağlayıcı Kimliğini Ayarlayın](./create-new-signature-line-and-set-provider-id/) | Aspose.Words for .NET kullanarak Word belgelerinde yeni bir imza satırı oluşturmayı ve sağlayıcı kimliğini ayarlamayı öğrenin. Adım adım kılavuz. |
 | [Word Belgesinde İmzaya Erişim ve Doğrulama](./access-and-verify-signature/) | Bu kapsamlı adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerindeki dijital imzalara erişin ve bunları doğrulayın. Belgenin gerçekliğini zahmetsizce sağlayın. |
-
+| [C# ile XAdES EPES Kullanarak Word Belgelerini İmzalama](./how-to-sign-word-documents-with-xades-epes-in-c/) | Aspose.Words for .NET ile XAdES EPES standardını kullanarak C# dilinde Word belgelerini nasıl imzalayacağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

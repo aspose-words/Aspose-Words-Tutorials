@@ -65,7 +65,6 @@ class Program
 | [How to Save Word as Markdown – Complete C# Guide](./how-to-save-word-as-markdown-complete-c-guide/) | Learn how to save Word documents as Markdown using Aspose.Words for .NET with a complete C# guide. |
 | [How to Export Markdown from DOCX – Complete Guide](./how-to-export-markdown-from-docx-complete-guide/) |  |
 | [How to Export LaTeX: Convert DOCX to Markdown & TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Learn how to export LaTeX content by converting DOCX files to Markdown and TXT using Aspose.Words for .NET. |
-| [How to Save Markdown from DOCX – Step‑by‑Step Guide](./how-to-save-markdown-from-docx-step-by-step-guide/) | Learn how to save DOCX as Markdown with a detailed step‑by‑step guide using Aspose.Words for .NET. |
 | [How to Set Resolution When Converting DOCX to Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/) | Learn how to set image resolution when converting DOCX files to Markdown using Aspose.Words for .NET. |
 | [How to Export LaTeX from Word – Convert DOCX to Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/) | Learn how to export LaTeX from Word by converting DOCX to Markdown using Aspose.Words for .NET. |
 | [Export docx to markdown in C# – Complete Guide](./export-docx-to-markdown-in-c-complete-guide/) | Learn how to export docx to markdown in C# with a complete guide using Aspose.Words for .NET. |
@@ -79,6 +78,7 @@ class Program
 | [Convert DOCX to Markdown – Complete Guide Using Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Learn how to convert DOCX files to Markdown using Aspose.Words with a comprehensive step‑by‑step guide. |
 | [How to Use Callback in C# – Convert DOCX to Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/) | Learn how to use callbacks in C# to convert DOCX files to Markdown with Aspose.Words for .NET. |
 | [save word as markdown with images – C# step‑by‑step guide](./save-word-as-markdown-with-images-c-step-by-step-guide/) | Learn how to save Word documents as Markdown with image extraction using Aspose.Words for .NET in a step‑by‑step C# guide. |
+| [How to save Markdown as Word while preserving formatting](./how-to-save-markdown-as-word-while-preserving-formatting/) | Learn how to convert Markdown files back to Word format while preserving formatting using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

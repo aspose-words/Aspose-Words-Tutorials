@@ -38,12 +38,14 @@ Por último, no olvides visitar nuestra [Trabajar con opciones de resumen](./wor
  ## Tutoriales de procesamiento de documentos con IA
 | Título | Descripción |
 | --- | --- |
-| [Trabajar con el modelo de IA](./working-with-ai-model/) Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental.
-| [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
+| [Trabajar con el modelo de IA](./working-with-ai-model/) | Aprenda a usar Aspose.Words para .NET para resumir documentos con IA. Pasos sencillos para optimizar la gestión documental. |
+| [Trabajar con el modelo de inteligencia artificial de Google](./working-with-google-ai-model/) | Mejore su procesamiento de documentos con Aspose.Words para .NET y Google AI para crear resúmenes concisos sin esfuerzo. |
 | [Trabajar con el modelo de IA abierta](./working-with-open-ai-model/) | Desbloquee la eficiencia de los resúmenes de documentos con Aspose.Words para .NET y los potentes modelos de OpenAI. Explore esta guía completa ahora. |
 | [Trabajar con opciones de resumen](./working-with-summarize-options/) | Aprenda a resumir eficazmente documentos de Word usando Aspose.Words para .NET con nuestra guía paso a paso sobre la integración de modelos de IA para obtener información rápida. |
 | [Resumir documento Word en C# – Guía completa impulsada por IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aprenda a crear resúmenes automáticos de documentos Word en C# usando IA con Aspose.Words paso a paso. |
 | [Cómo comprobar la gramática en DOCX con Aspose.Words – usar gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aprenda a verificar la gramática de documentos DOCX usando Aspose.Words y el modelo gpt‑4 turbo para correcciones automáticas. |
+| [Cómo resumir informe automáticamente con Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Aprenda a generar resúmenes automáticos de informes usando Aspose.Words.AI en .NET de forma sencilla. |
+| [Traducir francés a inglés en un DOCX con Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | Aprenda a traducir documentos DOCX del francés al inglés usando Aspose.Words en .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

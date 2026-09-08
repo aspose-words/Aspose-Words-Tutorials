@@ -20,6 +20,8 @@ Esta guía profundiza en la versatilidad de la clase DocumentBuilder, detallando
 
 {{< tutorial-card link="./build-table/" title="Crear un documento de Word con una tabla usando Aspose.Words" imgSrc="./build-table/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="Crear documento Word en blanco en C# e insertar una imagen oculta" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-break/" title="Cree un documento de Word de varias páginas con Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-floating-image/" title="Crear un documento de Word con imagen flotante en .NET" imgSrc="./insert-floating-image/images/thumb.png" >}}

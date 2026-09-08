@@ -77,6 +77,8 @@ Ismerje meg, hogyan használhat visszahívásokat C#‑ban a DOCX fájlok Markdo
 ### [Word mentése Markdownba képekkel – C# lépésről‑lépésre útmutató](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba képekkel, részletes C# lépésről‑lépésre útmutatóval.
 
+### [Hogyan mentse el a Markdown-t Word-be a formázás megőrzésével](./how-to-save-markdown-as-word-while-preserving-formatting/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

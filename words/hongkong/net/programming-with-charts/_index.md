@@ -42,7 +42,7 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [設定圖表中資料標籤的預設選項](./default-options-for-data-labels/) |了解如何使用 Aspose.Words for .NET 設定圖表中資料標籤的預設選項。按照我們的逐步指南輕鬆建立和自訂圖表。 |
 | [自訂圖表中的單一圖表資料點](./single-chart-data-point/) |透過詳細的逐步指南了解如何使用 Aspose.Words for .NET 自訂單一圖表資料點。使用獨特的標記和尺寸來增強您的圖表。 |
 | [自訂圖表中的單一圖表系列](./single-chart-series/) |了解如何使用 Aspose.Words for .NET 自訂 Word 文件中的單一圖表系列。按照我們的逐步指南，獲得無縫體驗。 |
-
+| [如何建立空白 Word 文件並在其中添加圖表](./how-to-create-blank-word-document-and-add-chart-to-word/) |了解如何使用 Aspose.Words for .NET 建立空白 Word 文件，並將圖表插入其中，以增強文件的視覺效果。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

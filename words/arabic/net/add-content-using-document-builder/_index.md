@@ -20,6 +20,8 @@
 
 {{< tutorial-card link="./build-table/" title="إنشاء مستند Word مع جدول باستخدام Aspose.Words" imgSrc="./build-table/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="إنشاء مستند Word فارغ في C# وإدراج صورة مخفية" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
+
 {{< tutorial-card link="./insert-break/" title="إنشاء مستند Word متعدد الصفحات باستخدام Aspose.Words" imgSrc="./insert-break/images/thumb.png" >}}
 
 {{< tutorial-card link="./insert-floating-image/" title="إنشاء مستند Word مع صورة عائمة في .NET" imgSrc="./insert-floating-image/images/thumb.png" >}}

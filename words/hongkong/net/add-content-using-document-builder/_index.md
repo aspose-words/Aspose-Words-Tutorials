@@ -32,6 +32,7 @@ Aspose.Words for .NET 讓開發人員能夠輕鬆地以程式設計方式建立�
 
 {{< tutorial-card link="./insert-table-contents/" title="在 .NET 中建立帶有目錄的 Word 文檔" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="在 C# 中建立空白 Word 文件並插入隱藏影像" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

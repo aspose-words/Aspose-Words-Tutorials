@@ -37,8 +37,10 @@
 | [Добавить эффект тени к фигурам Word – полное руководство C#](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Узнайте, как добавить эффект тени к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать документ Word с теневым прямоугольником – пошаговое руководство](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Узнайте, как создать документ Word с фигурой прямоугольника с тенью с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать прямоугольную форму в Word с помощью C# – пошаговое руководство](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как создать прямоугольную форму в документе Word с помощью C# в этом пошаговом руководстве. |
+| [Создать прямоугольную форму и сгруппировать фигуры в Word с помощью C#](./create-rectangle-shape-and-group-shapes-in-word-using-c/) | Узнайте, как создать прямоугольную форму и объединить её с другими фигурами в документе Word, используя C# и Aspose.Words. |
 | [Учебник по теням фигур Aspose.Words – Добавление тени к фигуре Word в C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать пустой документ Word с фигурой прямоугольника с тенью – пошаговое руководство](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Узнайте, как создать пустой документ Word и добавить в него прямоугольную фигуру с теневым эффектом с помощью Aspose.Words для .NET. |
+| [Как группировать фигуры в Word с помощью DocumentBuilder – пошаговое руководство](./how-to-group-shapes-in-word-using-documentbuilder-step-by-st/) | Узнайте, как группировать фигуры в документах Word с помощью DocumentBuilder в Aspose.Words для .NET, следуя этому пошаговому руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

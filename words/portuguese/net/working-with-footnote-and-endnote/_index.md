@@ -23,7 +23,7 @@ Processamento de Texto com Notas de Rodapé e Notas Finais é um recurso abrange
 | [Definir colunas de notas de rodapé](./set-foot-note-columns/) | Aprenda a definir colunas de notas de rodapé em documentos do Word usando o Aspose.Words para .NET. Personalize o layout da sua nota de rodapé facilmente com nosso guia passo a passo. |
 | [Definir posição de nota de rodapé e nota final](./set-footnote-and-end-note-position/) Aprenda como definir posições de notas de rodapé e notas finais em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo detalhado. |
 | [Definir opções de nota final](./set-endnote-options/) | Aprenda como definir opções de notas finais em documentos do Word usando o Aspose.Words para .NET com este guia passo a passo abrangente. |
-
+| [Recuperar separador de nota final ao carregar um documento Word em C#](./retrieve-endnote-separator-while-loading-a-word-document-in/) | Saiba como obter o separador de nota final ao abrir um documento Word usando Aspose.Words para .NET em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

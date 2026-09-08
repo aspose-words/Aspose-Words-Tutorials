@@ -44,6 +44,8 @@
 | [Работа с параметрами резюмирования](./working-with-summarize-options/) | Научитесь эффективно резюмировать документы Word с помощью Aspose.Words для .NET с помощью нашего пошагового руководства по интеграции моделей ИИ для быстрого получения информации. |
 | [Резюмирование документа Word на C# – Полное руководство с ИИ](./summarize-word-document-in-c-complete-ai-powered-guide/) | Полное пошаговое руководство по резюмированию документов Word с помощью Aspose.Words и моделей ИИ на C#. |
 | [Как проверить грамматику в DOCX с Aspose.Words – использовать gpt‑4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Узнайте, как с помощью Aspose.Words и модели gpt‑4 turbo автоматически проверять грамматику в DOCX‑файлах. |
+| [Как автоматически резюмировать отчет с помощью Aspose.Words.AI](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Полное руководство по автоматическому резюмированию отчетов с использованием Aspose.Words.AI. |
+| [Перевод французского на английский в DOCX с помощью Aspose.Words](./translate-french-to-english-in-a-docx-with-aspose-words/) | Узнайте, как автоматически переводить текст из французского в английский в файлах DOCX с помощью Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

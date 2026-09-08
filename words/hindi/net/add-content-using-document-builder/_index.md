@@ -32,6 +32,7 @@ Aspose.Words for .NET डेवलपर्स को आसानी से Wor
 
 {{< tutorial-card link="./insert-table-contents/" title=".NET में विषय-सूची के साथ एक वर्ड दस्तावेज़ बनाएँ" imgSrc="./insert-table-contents/images/thumb.png" >}}
 
+{{< tutorial-card link="./create-blank-word-document-in-c-and-insert-a-hidden-image/" title="C# में खाली Word दस्तावेज़ बनाकर छिपी हुई छवि डालें" imgSrc="./create-blank-word-document-in-c-and-insert-a-hidden-image/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

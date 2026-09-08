@@ -25,7 +25,7 @@
 | [设置图像文件夹](./set-images-folder/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown 文档，并保持表格对齐。请遵循我们详细的指南，以获得完美的结果。|
 | [如何使用 Markdown：将 DOCX 转换为带 LaTeX 方程的 Markdown](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) 使用 Aspose.Words for .NET 将 DOCX 文档转换为包含 LaTeX 方程的 Markdown，提供完整示例和步骤。|
 | [将 docx 转换为 markdown – 步骤详解 C# 指南](./convert-docx-to-markdown-step-by-step-c-guide/) 使用 Aspose.Words for .NET 将 docx 文档转换为 Markdown，提供完整示例和分步指南。|
-| [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 文档保存为 Markdown，包含 LaTeX 方程，提供完整示例和分步指南。|
+| [将 docx 保存为 markdown – 完整 C# 指南（含 LaTeX 方程）](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) 使用 Aspose.Words for .NET 将 docx 保存为 Markdown，包含 LaTeX 方程，提供完整示例和分步指南。|
 | [如何在 Markdown 中嵌入来自 DOCX 的图像](./how-to-embed-images-in-markdown-from-docx/) 使用 Aspose.Words for .NET 将 DOCX 文档中的图像嵌入到生成的 Markdown 中，提供完整示例和步骤指南。|
 | [如何导出 LaTeX：使用 Aspose 将 DOCX 转换为 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) 使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 方程导出为 Markdown，提供完整示例和步骤。|
 | [将 Word 转换为 Markdown – 将图像嵌入为 Base64](./convert-word-to-markdown-embed-images-as-base64/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并将图像嵌入为 Base64 编码，确保文档自包含。|
@@ -33,6 +33,7 @@
 | [如何将 Markdown 从 Word 保存 – 完整指南](./how-to-save-markdown-from-word-complete-guide/) 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的示例和步骤指南。|
 | [重命名图像：将 DOCX 转换为 Markdown 时的图像重命名](./how-to-rename-images-when-converting-docx-to-markdown/) 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，演示如何重命名导出的图像文件，以便更好地组织和引用。|
 | [将 Word 保存为 Markdown（含图像） – C# 步骤指南](./save-word-as-markdown-with-images-c-step-by-step-guide/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取图像，提供完整的 C# 示例和步骤指南。|
+| [如何在保留格式的情况下将 Markdown 保存为 Word](./how-to-save-markdown-as-word-while-preserving-formatting/) 使用 Aspose.Words for .NET 将 Markdown 文档保存为 Word，保持原始格式。|
 
 ### [将 Word 保存为 PDF 并恢复损坏的 Word – 在 C# 中将 Word 转换为 Markdown](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 

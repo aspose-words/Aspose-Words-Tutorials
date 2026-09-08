@@ -42,8 +42,10 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
 | [Word dokumentum összefoglalása C#‑ban – Teljes AI‑alapú útmutató](./summarize-word-document-in-c-complete-ai-powered-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI‑val a Word dokumentumok hatékony összefoglalásához C#‑ban. |
+| [Hogyan lehet automatikusan összefoglalni a jelentést az Aspose.Words.AI segítségével](./how-to-summarize-report-automatically-with-aspose-words-ai/) | Ismerje meg, hogyan használhatja az Aspose.Words.AI-t a jelentések automatikus összefoglalásához .NET környezetben. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Hogyan ellenőrizze a nyelvtant DOCX-ben az Aspose.Words segítségével – gpt-4 turbo használatával](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Tanulja meg, hogyan használhatja a gpt-4 turbo modellt az Aspose.Words-nel a DOCX fájlok nyelvtani ellenőrzésére. |
+| [Francia nyelvről angolra fordítás DOCX-ben az Aspose.Words segítségével](./translate-french-to-english-in-a-docx-with-aspose-words/) | Az Aspose.Words for .NET használatával fordítsa le a francia nyelvű DOCX dokumentumokat angolra. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
