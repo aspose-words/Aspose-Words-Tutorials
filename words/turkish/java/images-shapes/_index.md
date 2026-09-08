@@ -39,6 +39,9 @@ Java kullanarak Word belgesine gölge efektiyle dikdörtgen şekil eklemeyi öğ
 ### [Java ile Word'de Dikdörtgen Şekil Oluşturma – Tam Kılavuz](./create-rectangle-shape-in-word-with-java-full-guide/)
 Java kullanarak Word belgelerine dikdörtgen şekil eklemeyi ve özelleştirmeyi adım adım öğrenin.
 
+### [Gruplanmış Şekillerle Boş Word Belgesi Oluşturma](./how-to-create-blank-word-document-with-grouped-shapes/)
+Java kullanarak grup halinde şekiller içeren boş bir Word belgesi oluşturmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)

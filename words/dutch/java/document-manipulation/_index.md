@@ -76,6 +76,8 @@ Optimaliseer uw documentverwerking met Aspose.Words voor Java. Leer in deze stap
 Beheers de manipulatie van documentbereiken in Aspose.Words voor Java. Leer tekst verwijderen, extraheren en opmaken met deze uitgebreide handleiding.
 ### [Het gebruik van gestructureerde documenttags (SDT) in Aspose.Words voor Java](./using-structured-document-tags/)
 Leer hoe u Structured Document Tags (SDT) in Aspose.Words voor Java gebruikt met deze uitgebreide handleiding. Maak, wijzig en koppel SDT's aan aangepaste XML-gegevens.
+### [Hoe tagnaam instellen en SDT toevoegen in een Word-document met C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Leer hoe u een tagnaam instelt en een gestructureerde documenttag (SDT) toevoegt in een Word-document met C#.
 ### [Stijlen en thema's gebruiken in Aspose.Words voor Java](./using-styles-and-themes/)
 Leer hoe u de documentopmaak kunt verbeteren met Aspose.Words voor Java. Ontdek stijlen, thema's en meer in deze uitgebreide handleiding met broncodevoorbeelden.
 ### [Inhoudsopgave genereren in Aspose.Words voor Java](./generating-table-of-contents/)

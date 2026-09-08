@@ -105,6 +105,9 @@ Optimera dokumenthanteringen med Aspose.Words för Java. Lär dig arbeta med dok
 ### [Använda webbtillägg i Aspose.Words för Java](./using-web-extensions/)
 Förbättra dokument med webbtillägg i Aspose.Words för Java. Lär dig att integrera webbaserat innehåll sömlöst. 
 
+### [Hur man ställer in taggnamn och lägger till SDT i ett Word-dokument med C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Lär dig hur du sätter taggnamn och lägger till Structured Document Tags i ett Word-dokument med C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -103,7 +103,9 @@ Sfrutta la potenza di Aspose.Words per Java. Gestisci le opzioni e le impostazio
 ### [Utilizzo delle proprietà del documento in Aspose.Words per Java](./using-document-properties/)
 Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo.
 ### [Utilizzo delle estensioni Web in Aspose.Words per Java](./using-web-extensions/)
-Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web. 
+Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web.
+### [Come impostare il nome del tag e aggiungere SDT in un documento Word con C#](./how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c/)
+Impara a impostare il nome del tag e aggiungere Structured Document Tag in un documento Word usando C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

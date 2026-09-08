@@ -39,6 +39,9 @@ Dowiedz się, jak dodać prostokątny kształt z efektem cienia do dokumentu Wor
 ### [Tworzenie prostokątnego kształtu w Wordzie w Javie – pełny przewodnik](./create-rectangle-shape-in-word-with-java-full-guide/)
 Dowiedz się, jak programowo tworzyć i konfigurować prostokątne kształty w dokumentach Word przy użyciu Aspose.Words dla Java.
 
+### [Jak utworzyć pusty dokument Word z grupowanymi kształtami](./how-to-create-blank-word-document-with-grouped-shapes/)
+Dowiedz się, jak stworzyć pusty dokument Word i dodać do niego grupowane kształty przy użyciu Aspose.Words dla Java.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)

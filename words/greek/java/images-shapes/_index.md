@@ -39,6 +39,9 @@
 ### [Δημιουργία σχήματος ορθογωνίου στο Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 
+### [Πώς να δημιουργήσετε κενό έγγραφο Word με ομαδοποιημένα σχήματα](./how-to-create-blank-word-document-with-grouped-shapes/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να προσθέσετε σε αυτό ομαδοποιημένα σχήματα χρησιμοποιώντας το Aspose.Words για Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)
