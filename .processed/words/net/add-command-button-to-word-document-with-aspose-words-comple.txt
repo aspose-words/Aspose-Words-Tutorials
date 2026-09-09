@@ -1,0 +1,7 @@
+Title: Add Command Button to Word Document with Aspose.Words – Complete Guide
+Slug: add-command-button-to-word-document-with-aspose-words-comple
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-07-29T15:09:03.618330
+SourceRepo: AI Search API
+Keywords: add command button to word document, set activex control properties, set command button caption
+PRNumber: 236

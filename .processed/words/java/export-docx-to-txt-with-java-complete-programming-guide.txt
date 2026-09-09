@@ -1,0 +1,7 @@
+Title: Export docx to txt with Java – Complete Programming Guide
+Slug: export-docx-to-txt-with-java-complete-programming-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-27T04:39:08.416241
+SourceRepo: AI Search API
+Keywords: export docx to txt, convert docx to text, convert word to text, plain text unicode, export word as txt
+PRNumber: 193

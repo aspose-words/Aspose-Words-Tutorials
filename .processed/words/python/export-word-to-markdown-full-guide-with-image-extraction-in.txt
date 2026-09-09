@@ -1,0 +1,7 @@
+Title: Export Word to Markdown – Full Guide with Image Extraction in Python
+Slug: export-word-to-markdown-full-guide-with-image-extraction-in
+Category: document-conversion
+ProcessedDate: 2026-06-21T07:53:59.842605
+SourceRepo: AI Search API
+Keywords: export word to markdown, convert docx to markdown, save images from word, write binary file python, how to extract images from docx
+PRNumber: 209

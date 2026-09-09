@@ -1,0 +1,7 @@
+Title: How to group shapes in a Word document using Aspose.Words
+Slug: how-to-group-shapes-in-a-word-document-using-aspose-words
+Category: images-shapes
+ProcessedDate: 2026-08-20T22:52:57.293979
+SourceRepo: AI Search API
+Keywords: how to group shapes, insert image into document, set shape size, add picture to group, create rectangle shape
+PRNumber: 259

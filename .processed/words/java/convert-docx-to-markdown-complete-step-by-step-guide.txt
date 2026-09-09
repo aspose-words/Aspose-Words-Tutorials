@@ -1,0 +1,7 @@
+Title: convert docx to markdown – Complete Step‑by‑Step Guide
+Slug: convert-docx-to-markdown-complete-step-by-step-guide
+Category: document-converting
+ProcessedDate: 2026-06-21T07:32:59.696266
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, convert word to markdown with images, save word document as markdown, export word equations as latex
+PRNumber: 208

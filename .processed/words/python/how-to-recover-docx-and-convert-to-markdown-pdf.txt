@@ -1,0 +1,7 @@
+Title: How to Recover DOCX and Convert to Markdown & PDF
+Slug: how-to-recover-docx-and-convert-to-markdown-pdf
+Category: document-conversion
+ProcessedDate: 2026-07-23T10:49:10.911175
+SourceRepo: AI Search API
+Keywords: how to recover docx, convert docx to markdown, convert docx to pdf, how to convert pdf, how to save markdown
+PRNumber: 233

@@ -1,0 +1,7 @@
+Title: How to group shapes in Word and add shapes to Word document
+Slug: how-to-group-shapes-in-word-and-add-shapes-to-word-document
+Category: programming-with-shapes
+ProcessedDate: 2026-08-08T03:02:03.828813
+SourceRepo: AI Search API
+Keywords: how to group shapes in word, add shapes to word document
+PRNumber: 245

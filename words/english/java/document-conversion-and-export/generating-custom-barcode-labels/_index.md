@@ -81,7 +81,6 @@ class CustomBarcodeGeneratorUtils {
 ```
 
 **Explanation**
-
 - `twipsToPixels` – Word measures dimensions in **twips**; this method converts them to screen pixels, which is handy when you need to size the barcode image precisely.  
 - `convertColor` – Turns a hexadecimal string (e.g., `"FF0000"` for red) into a `java.awt.Color` object, allowing you to **how to insert barcode** with custom foreground and background colors.
 
@@ -120,7 +119,6 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ```
 
 **Explanation**
-
 - `getBarcodeImage` creates an instance of `BarcodeGenerator`, applies the colors supplied via `BarcodeParameters`, and finally returns a `BufferedImage`.  
 - The method also gracefully handles errors by returning a placeholder image, ensuring the Word document creation never crashes.
 

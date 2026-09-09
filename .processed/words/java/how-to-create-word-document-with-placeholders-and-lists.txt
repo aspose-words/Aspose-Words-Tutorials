@@ -1,0 +1,7 @@
+Title: How to create word document with placeholders and lists
+Slug: how-to-create-word-document-with-placeholders-and-lists
+Category: using-document-elements
+ProcessedDate: 2026-08-20T22:53:00.702533
+SourceRepo: AI Search API
+Keywords: create word document, set placeholder text, add list items, how to use sdt, how to create control
+PRNumber: 259

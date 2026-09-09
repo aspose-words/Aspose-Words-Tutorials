@@ -36,6 +36,15 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать Word в PDF в C# с Aspose.Words – Руководство](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Узнайте, как конвертировать Word в PDF в C# с помощью Aspose.Words. Пошаговое руководство для разработчиков. |
 | [Создать доступный PDF из Word – пошаговое руководство](./create-accessible-pdf-from-word-step-by-step-guide/) | Узнайте, как создать доступный PDF из документа Word с помощью Aspose.Words для .NET, следуя пошаговому руководству. |
 | [Сохранить Word как PDF с Aspose.Words – Полное руководство C#](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
+| [Сохранить docx как PDF с Aspose.Words – Полное руководство C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Узнайте, как сохранить документ docx в PDF с помощью Aspose.Words в C#. Подробное руководство с примерами кода. |
+| [Создать доступный PDF – Конвертировать Word в PDF с поддержкой доступности](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Узнайте, как создать PDF с поддержкой доступности при конвертации Word с помощью Aspose.Words для .NET. |
+| [Восстановить повреждённый DOCX – Полное руководство по исправлению, экспорту в PDF и Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Узнайте, как восстановить повреждённый DOCX, исправить его и экспортировать в PDF и Markdown с помощью Aspose.Words для .NET. |
+| [Как создать PDF из Word – Полное руководство C#](./how-to-create-pdf-from-word-complete-c-guide/) | Подробное руководство по созданию PDF из Word с помощью Aspose.Words для .NET на C#. |
+| [Сохранить docx как txt – Полное руководство по экспорту уравнений Word в LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Узнайте, как экспортировать уравнения из Word в LaTeX, сохранив документ в формате TXT, используя Aspose.Words для .NET. |
+| [Конвертировать Word в PDF на C# – Полное руководство Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Узнайте, как полностью конвертировать Word в PDF с помощью Aspose.Words на C# в этом полном руководстве. |
+| [Конвертировать Docx в PDF и Markdown – Полное руководство C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Узнайте, как конвертировать DOCX в PDF и Markdown с помощью Aspose.Words для .NET в полном руководстве на C#. Пошаговые примеры кода. |
+| [Создать доступный PDF из DOCX – Полное руководство Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Узнайте, как создать доступный PDF из DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
+| [Конвертировать PNG в Base64 в C# – Полное руководство](./convert-png-to-base64-in-c-complete-guide/) | Узнайте, как преобразовать изображение PNG в строку Base64 в C# с помощью подробного пошагового руководства. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

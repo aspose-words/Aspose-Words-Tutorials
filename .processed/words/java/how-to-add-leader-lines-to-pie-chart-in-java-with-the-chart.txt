@@ -1,0 +1,7 @@
+Title: How to add leader lines to pie chart in Java with the Chart API
+Slug: how-to-add-leader-lines-to-pie-chart-in-java-with-the-chart
+Category: using-document-elements
+ProcessedDate: 2026-08-20T22:53:14.439345
+SourceRepo: AI Search API
+Keywords: add leader lines to pie chart
+PRNumber: 259

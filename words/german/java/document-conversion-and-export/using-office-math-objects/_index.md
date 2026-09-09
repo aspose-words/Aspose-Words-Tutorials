@@ -15,9 +15,15 @@ weight: 13
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+
 # Verwendung von Office Math-Objekten in Aspose.Words für Java
 
-## Einführung in die Verwendung von Office Math-Objekten in Aspose.Words für Java
+## Schnelle Antworten
+- **Was bedeutet „Mathematik inline anzeigen“?** Die Gleichung erscheint im Textfluss und nicht in einer eigenen Zeile.  
+- **Welche Klasse repräsentiert ein Mathe‑Objekt?** `OfficeMath` in der Aspose.Words‑API.  
+- **Kann ich die Ausrichtung ändern?** Ja, verwenden Sie `setJustification` mit LEFT, CENTER oder RIGHT.  
+- **Benötige ich eine Lizenz für diese Funktion?** Eine gültige Aspose.Words‑für‑Java‑Lizenz ist für den Produktionseinsatz erforderlich.  
+- **Welche Version wird demonstriert?** Der Code funktioniert mit der neuesten Aspose.Words‑für‑Java‑Version (2026).
 
 Wenn Sie **office math verwenden** in einem Java‑basierten Dokumenten‑Workflow, bietet Ihnen Aspose.Words einen sauberen, programmatischen Weg, mit komplexen Gleichungen zu arbeiten. In diesem Leitfaden führen wir Sie durch alles, was Sie wissen müssen, um ein Dokument zu laden, ein Office Math‑Objekt zu finden, sein Aussehen anzupassen und das Ergebnis zu speichern – und das alles bei leicht verständlichem Code.
 
