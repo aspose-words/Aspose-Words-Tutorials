@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 DocumentBuilder를 사용하여 Word 문서를 만들고, 미리 정의된 항목이 있는 콤보 박스 폼 필드를 추가한 다음 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 결과 문서가 저장될 폴더 경로를 설정합니다.
+//ExStepSummary:1: 콤보 박스 옵션을 채울 문자열 배열을 생성합니다.
+//ExStepSummary:2: 새 Document와 이에 연결된 DocumentBuilder를 인스턴스화합니다.
+//ExStepSummary:3: `builder.InsertComboBox`를 호출하여 현재 커서 위치에 정의된 항목을 가진 "DropDown"이라는 이름의 콤보 박스를 배치합니다.
+//ExStepSummary:4: 문서를 지정된 디렉터리에 .docx 파일로 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word، وإضافة حقل نموذج صندوق مركب مع عناصر محددة مسبقًا باستخدام DocumentBuilder، وحفظ المستند.
+//ExStepSummary:0: حدد مسار المجلد حيث سيتم حفظ المستند الناتج.
+//ExStepSummary:1: أنشئ مصفوفة من السلاسل التي ستملأ خيارات صندوق المركب.
+//ExStepSummary:2: أنشئ كائن Document جديد وDocumentBuilder مرتبط به.
+//ExStepSummary:3: استدعِ `builder.InsertComboBox` لوضع صندوق مركب باسم "DropDown" مع العناصر المحددة في موضع المؤشر الحالي.
+//ExStepSummary:4: احفظ المستند في الدليل المحدد كملف .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

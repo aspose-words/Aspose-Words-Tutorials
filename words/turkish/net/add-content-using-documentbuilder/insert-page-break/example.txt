@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Words Document ve DocumentBuilder kullanarak bir Word belgesine sayfa sonları eklemenin nasıl yapılacağını gösterir.
+//ExStepSummary:0: İçerik eklemek için kullanılacak bir Document nesnesi ve bir DocumentBuilder oluşturun.
+//ExStepSummary:1: İlk sayfa metnini yazın ve sonraki içeriğin yeni bir sayfada başlaması için bir sayfa sonu ekleyin.
+//ExStepSummary:2: İkinci sayfa metnini yazın ve üçüncü sayfayı başlatmak için bir sayfa sonu daha ekleyin.
+//ExStepSummary:3: Üçüncü sayfa metnini yazın, böylece üç sayfalık belge tamamlanır.
+//ExStepSummary:4: Oluşturulan belgeyi belirtilen dizinde bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

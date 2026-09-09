@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Questo tutorial mostra come inserire interruzioni di pagina in un documento Word utilizzando Aspose.Words Document e DocumentBuilder.
+//ExStepSummary:0: Crea un oggetto Document e un DocumentBuilder che verranno utilizzati per aggiungere contenuto.
+//ExStepSummary:1: Scrivi il testo della prima pagina e inserisci un'interruzione di pagina in modo che il contenuto successivo inizi su una nuova pagina.
+//ExStepSummary:2: Scrivi il testo della seconda pagina e inserisci un'altra interruzione di pagina per avviare la terza pagina.
+//ExStepSummary:3: Scrivi il testo della terza pagina, completando il documento di tre pagine.
+//ExStepSummary:4: Salva il documento assemblato in un file .docx nella directory specificata.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd
