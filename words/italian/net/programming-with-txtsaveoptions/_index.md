@@ -32,6 +32,7 @@ Grazie a questi tutorial, potrai sfruttare appieno le funzionalità di Aspose.Wo
 | [Salva docx come txt – Conserva interruzioni di riga e spazi in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Scopri come convertire un documento DOCX in file TXT mantenendo le interruzioni di riga e gli spazi originali usando Aspose.Words per .NET. |
 
 | [Salva docx come txt – Guida rapida per sviluppatori C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Scopri come convertire rapidamente file DOCX in TXT usando Aspose.Words per .NET con esempi di codice C#. |
+| [Come esportare LaTeX da DOCX – Guida passo‑passo](./how-to-export-latex-from-docx-step-by-step-guide/) | Scopri come convertire documenti DOCX in LaTeX usando Aspose.Words per .NET con una guida dettagliata passo‑passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

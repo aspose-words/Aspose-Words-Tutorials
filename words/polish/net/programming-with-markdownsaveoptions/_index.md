@@ -44,6 +44,8 @@ Kompletny przewodnik C# pokazujący, jak zapisać plik DOCX jako Markdown przy u
 Kompletny przewodnik C# konwertujący dokumenty Word do formatu Markdown z wyodrębnianiem obrazów.
 ### [Zapisz docx jako markdown – Przewodnik C# z wyodrębnianiem obrazów](./save-docx-as-markdown-extract-images-c-guide/)
 Kompletny przewodnik C# pokazujący, jak konwertować pliki DOCX do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
+### [Zapisz Word jako Markdown – wyodrębnij obrazy z DOCX](./save-word-as-markdown-extract-images-from-docx/)
+Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown i wyodrębnić obrazy z pliku DOCX przy użyciu Aspose.Words.
 
 ### [Jak wyeksportować Markdown z Worda – Kompletny przewodnik C#](./how-to-export-markdown-from-word-complete-c-guide/)
 Kompletny przewodnik C# pokazujący, jak wyeksportować dokumenty Word do formatu Markdown przy użyciu Aspose.Words.
@@ -98,6 +100,12 @@ Dowiedz się, jak określić rozdzielczość obrazów przy konwersji DOCX do for
 
 ### [Zapisz Word jako Markdown z obrazami – przewodnik krok po kroku w C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisywać dokumenty Word jako Markdown z wyodrębnianiem obrazów przy użyciu Aspose.Words.
+
+### [Zapisz docx jako markdown – Eksportuj równania Word do LaTeX w C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
+Kompletny przewodnik C# eksportujący równania Word do LaTeX w formacie Markdown.
+
+### [Zachowaj podziały linii: konwertuj DOCX do Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
+Dowiedz się, jak zachować podziały wierszy przy konwersji dokumentów DOCX do formatu Markdown przy użyciu Aspose.Words dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

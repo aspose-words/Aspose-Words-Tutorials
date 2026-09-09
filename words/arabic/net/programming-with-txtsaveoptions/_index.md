@@ -31,6 +31,7 @@
 | [حفظ docx كـ txt – دليل سريع لمطوري C#](./save-docx-as-txt-quick-guide-for-c-developers/) | دليل سريع يوضح كيفية حفظ مستندات docx كملفات نصية txt باستخدام Aspose.Words لـ .NET في C#. |
 | [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) | تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات. |
 | [حفظ docx كـ txt – الحفاظ على فواصل الأسطر والمسافات في C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | تعلم كيفية حفظ ملفات docx كملفات txt مع الحفاظ على فواصل الأسطر والمسافات باستخدام C# و Aspose.Words. |
+| [كيفية تصدير LaTeX من DOCX – دليل خطوة بخطوة](./how-to-export-latex-from-docx-step-by-step-guide/) | تعلم كيفية تحويل مستندات DOCX إلى صيغة LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,9 @@
 | [Come rinominare le immagini durante la conversione da DOCX a Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Scopri come rinominare le immagini durante la conversione da DOCX a Markdown con Aspose.Words per .NET. |
 | [Salva docx come markdown con Aspose.Words – Guida completa C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Impara a convertire file DOCX in Markdown con Aspose.Words usando C# con una guida completa. |
 | [Salva immagini Word – Converti Word in Markdown con Aspose](./save-word-images-convert-word-to-markdown-with-aspose/) | Salva le immagini da documenti Word e convertili in Markdown usando Aspose.Words per .NET. |
+| [Salva docx come markdown – Esporta equazioni Word in LaTeX in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Scopri come esportare le equazioni di Word in LaTeX durante la conversione da DOCX a Markdown con Aspose.Words per .NET in C#. |
+| [Salva Word come markdown – estrai immagini da docx](./save-word-as-markdown-extract-images-from-docx/) | Scopri come salvare documenti Word in Markdown estraendo le immagini da DOCX con una guida pratica in C#. |
+| [Preservare le interruzioni di riga: Converti DOCX in Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Scopri come mantenere le interruzioni di riga durante la conversione da DOCX a Markdown con Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

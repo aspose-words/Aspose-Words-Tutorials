@@ -31,6 +31,7 @@ Ezeknek az oktatóanyagoknak köszönhetően teljes mértékben kiaknázhatod az
 | [Dokumentum mentése TXT formátumba – Teljes C# útmutató a DOCX konvertálásához egyszerű szöveggé](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Ismerje meg, hogyan konvertálhatja a DOCX fájlokat egyszerű szöveggé C#-ban az Aspose.Words segítségével. |
 | [Docx mentése txt-be – Gyors útmutató C# fejlesztőknek](./save-docx-as-txt-quick-guide-for-c-developers/) | Ismerje meg, hogyan menthet docx fájlokat txt formátumba egyszerű C# kóddal az Aspose.Words segítségével. |
 | [DOCX mentése TXT-be – sortörések és szóközök megőrzése C#-ban](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Tanulja meg, hogyan menthet DOCX fájlokat TXT formátumba, miközben megőrzi a sortöréseket és szóközöket C#-ban. |
+| [Hogyan exportáljunk LaTeX-et DOCX-ből – Lépésről lépésre útmutató](./how-to-export-latex-from-docx-step-by-step-guide/) | Tanulja meg, hogyan exportálhat LaTeX-et DOCX fájlokból az Aspose.Words for .NET segítségével, részletes lépésekkel és kódrészletekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

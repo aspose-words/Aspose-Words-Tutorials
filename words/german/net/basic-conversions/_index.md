@@ -41,6 +41,8 @@
 | [Beschädigtes DOCX wiederherstellen – Vollständige Anleitung zur Reparatur, PDF- und Markdown-Export](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Erfahren Sie, wie Sie beschädigte DOCX-Dateien mit Aspose.Words für .NET reparieren und in PDF oder Markdown exportieren. |
 | [Wie man PDF aus Word erstellt – Vollständige C#‑Anleitung](./how-to-create-pdf-from-word-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET PDFs aus Word-Dokumenten in C# erstellen – Schritt‑für‑Schritt‑Anleitung. |
 | [DOCX in PDF und Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET sowohl in PDF als auch in Markdown konvertieren – vollständige C#‑Anleitung. |
+| [Barrierefreies PDF aus DOCX erstellen – Vollständige Aspose‑Anleitung](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX erzeugen, inklusive Tags und Zugänglichkeitsoptionen. |
+| [PNG in Base64 konvertieren in C# – Vollständige Anleitung](./convert-png-to-base64-in-c-complete-guide/) | Erfahren Sie, wie Sie PNG-Bilder in Base64-Strings in C# umwandeln – Schritt‑für‑Schritt‑Anleitung mit Beispielcode. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,7 @@ In deze tutorials leert u hoe u LoadOptions kunt gebruiken om Word-documenten me
 | [Beschadigd document herstellen in C# – Herstelmodus instellen & gebruiker prompten](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Leer hoe u beschadigde documenten kunt herstellen in C# door de herstelmodus in te stellen en de gebruiker een prompt te tonen. |
 | [Herstel corrupte docx – Complete C# gids](./recover-corrupted-docx-complete-c-guide/) | Leer hoe u beschadigde DOCX-bestanden volledig kunt herstellen met een stapsgewijze C#-handleiding. |
 | [Hoe een DOCX te herstellen – Complete gids met Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Leer hoe u een DOCX-bestand volledig kunt herstellen met Aspose.Words in deze uitgebreide stap‑voor‑stap gids. |
+| [Beschadigd Word-document herstellen – Complete C#-gids](./recover-corrupted-word-document-complete-c-guide/) | Leer hoe u beschadigde Word-documenten kunt herstellen met een volledige C#-stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

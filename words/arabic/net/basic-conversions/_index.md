@@ -42,6 +42,8 @@
 | [استعادة مستند DOCX تالف – دليل كامل للإصلاح وتصدير PDF وMarkdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | تعلم كيفية إصلاح ملفات DOCX التالفة وتصديرها إلى PDF وMarkdown باستخدام Aspose.Words لـ .NET. |
 | [حفظ ملف docx كـ txt – دليل كامل لتصدير معادلات Word كـ LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | تعرّف على كيفية حفظ ملفات DOCX كـ TXT وتصدير معادلات Word إلى LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [تحويل Docx إلى PDF و Markdown – دليل C# كامل](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | تعلّم كيفية تحويل ملفات DOCX إلى PDF وMarkdown باستخدام Aspose.Words لـ .NET مع دليل شامل وأمثلة C#. |
+| [إنشاء PDF قابل للوصول من DOCX – دليل Aspose الكامل](./create-accessible-pdf-from-docx-complete-aspose-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [تحويل PNG إلى Base64 في C# – دليل كامل](./convert-png-to-base64-in-c-complete-guide/) | تعرّف على كيفية تحويل ملفات PNG إلى سلاسل Base64 باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

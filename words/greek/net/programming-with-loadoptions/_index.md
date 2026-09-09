@@ -42,6 +42,7 @@
 | [Ανάκτηση εγγράφου Word με Aspose.Words σε C#](./recover-word-document-with-aspose-words-in-c/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα ή χαλασμένα έγγραφα Word χρησιμοποιώντας Aspose.Words σε C#. |
 | [Ανάκτηση Κατεστραμμένου Εγγράφου σε C# – Ορισμός Λειτουργίας Ανάκτησης & Ειδοποίηση Χρήστη](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Μάθετε πώς να ανακτήσετε κατεστραμμένα έγγραφα Word σε C# ορίζοντας λειτουργία ανάκτησης και εμφανίζοντας προτροπή στον χρήστη. |
 | [Πώς να ανακτήσετε DOCX – Πλήρης οδηγός με χρήση Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Μάθετε πώς να ανακτήσετε αρχεία DOCX που έχουν καταστραφεί, βήμα προς βήμα, χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Ανάκτηση Κατεστραμμένου Εγγράφου Word – Πλήρης Οδηγός C#](./recover-corrupted-word-document-complete-c-guide/) | Μάθετε πώς να ανακτήσετε έγγραφα Word που έχουν καταστραφεί, βήμα προς βήμα, χρησιμοποιώντας C# και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

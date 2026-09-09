@@ -44,6 +44,7 @@ Dans ces tutoriels, vous apprendrez à utiliser LoadOptions pour charger des doc
 | [Récupérer un document corrompu en C# – Définir le mode de récupération et inviter l'utilisateur](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Apprenez à récupérer un document Word corrompu en C# en configurant le mode de récupération et en demandant à l'utilisateur. |
 | [Récupérer un DOCX corrompu – Guide complet C#](./recover-corrupted-docx-complete-c-guide/) | Apprenez à récupérer un fichier DOCX corrompu avec Aspose.Words pour .NET en suivant ce guide complet en C#. |
 | [Comment récupérer un DOCX – Guide complet avec Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Apprenez à récupérer un fichier DOCX endommagé avec Aspose.Words pour .NET grâce à ce guide complet. |
+| [Récupérer un document Word corrompu – Guide complet C#](./recover-corrupted-word-document-complete-c-guide/) | Apprenez à restaurer un document Word endommagé avec Aspose.Words pour .NET en suivant ce guide complet en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

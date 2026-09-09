@@ -53,6 +53,8 @@
 - [การแทรกภาพในเอกสาร PDF](./interpolate-images/) | เรียนรู้วิธีการแทรกรูปภาพในเอกสาร PDF โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนของเรา ปรับปรุงคุณภาพรูปภาพใน PDF ของคุณได้อย่างง่ายดาย |
 - [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับการปฏิบัติตาม PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้ตามมาตรฐาน PDF/UA ด้วยคู่มือทีละขั้นตอนจาก Aspose.Words สำหรับ .NET |
 - [สร้าง PDF ที่เข้าถึงได้จาก Word ด้วย C# – คู่มือฉบับสมบูรณ์](./create-accessible-pdf-from-word-in-c-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน |
+- [บันทึกเอกสารเป็น PDF ใน C# – คู่มือฉบับสมบูรณ์สำหรับส่งออก Docx และตรวจสอบการเปลี่ยนแปลงแบบอักษร](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย C# พร้อมตรวจสอบการเปลี่ยนแปลงแบบอักษรและการส่งออก Docx อย่างละเอียด
+- [บันทึก docx เป็น pdf พร้อมการส่งออก Shape – คู่มือฉบับสมบูรณ์](./save-docx-as-pdf-with-shape-export-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น pdf พร้อมการส่งออกรูปทรงด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

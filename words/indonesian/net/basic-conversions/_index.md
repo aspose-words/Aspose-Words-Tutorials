@@ -42,6 +42,8 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Simpan docx sebagai pdf dengan Aspose.Words – Panduan Lengkap C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Panduan langkah demi langkah menyimpan file DOCX sebagai PDF menggunakan Aspose.Words dalam C#. Cocok untuk pengembang. |
 | [Mengonversi Word ke PDF dalam C# – Panduan Lengkap Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Panduan lengkap mengonversi dokumen Word ke PDF menggunakan Aspose.Words di C#. Praktis dan mudah diikuti. |
 | [Konversi docx ke pdf dan markdown – Panduan Lengkap C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Panduan langkah demi langkah mengonversi file DOCX ke PDF dan Markdown menggunakan Aspose.Words untuk .NET dalam C#. |
+| [Buat PDF yang Aksesibel dari DOCX – Panduan Lengkap Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Pelajari cara membuat PDF yang dapat diakses dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan lengkap langkah demi langkah. |
+| [Mengonversi PNG ke Base64 dalam C# – Panduan Lengkap](./convert-png-to-base64-in-c-complete-guide/) | Pelajari cara mengonversi gambar PNG menjadi string Base64 menggunakan C# dengan panduan langkah demi langkah lengkap. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,8 @@ doc.Save("output.pdf", Aspose.Words.SaveFormat.Pdf);
 | [Save Word as PDF with Aspose.Words – Complete C# Guide](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save Word documents as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
 | [Save docx as pdf with Aspose.Words – Complete C# Guide](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Learn how to save DOCX as PDF using Aspose.Words in C#. Detailed step‑by‑step guide with code examples. |
 | [Recover Corrupted DOCX – Full Guide to Fix, PDF & Markdown Export](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Learn how to recover corrupted DOCX files and export them to PDF and Markdown using Aspose.Words for .NET. |
+| [Create Accessible PDF from DOCX – Complete Aspose Guide](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Learn how to generate accessible PDF files from DOCX using Aspose.Words for .NET with full step‑by‑step guide. |
+| [Convert PNG to Base64 in C# – Complete Guide](./convert-png-to-base64-in-c-complete-guide/) | Learn how to convert PNG images to Base64 strings in C# using Aspose.Words for .NET. Step‑by‑step guide with code examples. |
 
 | [how to create pdf from Word – Complete C# Guide](./how-to-create-pdf-from-word-complete-c-guide/) | Learn how to create PDF from Word using Aspose.Words for .NET. Complete C# guide with step‑by‑step instructions and code examples.  |
 | [convert word to pdf in C# – Complete Aspose Guide](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Learn how to convert Word documents to PDF in C# using Aspose.Words. Complete step‑by‑step guide with code examples for developers. |

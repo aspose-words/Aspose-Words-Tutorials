@@ -42,6 +42,8 @@
 | [Word에서 PDF 만들기 – 완전한 C# 가이드](./how-to-create-pdf-from-word-complete-c-guide/) | Aspose.Words와 C#을 이용해 Word 파일을 PDF로 변환하는 자세한 단계별 가이드 |
 | [Docx를 Txt로 저장 – Word 수식을 LaTeX로 내보내는 완전 가이드](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Aspose.Words for .NET을 사용해 Docx 파일을 Txt로 저장하고, Word 수식을 LaTeX 형식으로 내보내는 단계별 완전 가이드입니다. |
 | [Docx를 PDF와 마크다운으로 변환 – 완전한 C# 가이드](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Docx를 PDF와 마크다운으로 변환하는 전체 단계별 가이드입니다. |
+| [DOCX에서 접근성 PDF 만들기 – 완전한 Aspose 가이드](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 접근성 PDF로 변환하는 전체 단계별 가이드입니다. |
+| [C#에서 PNG를 Base64로 변환 – 완전 가이드](./convert-png-to-base64-in-c-complete-guide/) | PNG 이미지를 Base64 문자열로 변환하는 방법을 단계별로 안내합니다. C# 코드 예제 포함. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,7 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Word dokumentum összefoglalása C#‑ban – Teljes AI‑alapú útmutató](./summarize-word-document-in-c-complete-ai-powered-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI‑val a Word dokumentumok hatékony összefoglalásához C#‑ban. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Hogyan ellenőrizze a nyelvtant DOCX-ben az Aspose.Words segítségével – gpt-4 turbo használatával](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Tanulja meg, hogyan használhatja a gpt-4 turbo modellt az Aspose.Words-nel a DOCX fájlok nyelvtani ellenőrzésére. |
+| [Hogyan ellenőrizze a nyelvtant a Wordben az Aspose.Words AI segítségével – Teljes útmutató](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok nyelvtani ellenőrzésére lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

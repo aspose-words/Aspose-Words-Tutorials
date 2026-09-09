@@ -42,6 +42,8 @@ Základní konverze vás provede základními konveremi dokumentů pomocí kniho
 | [Jak vytvořit PDF z Wordu – Kompletní průvodce C#](./how-to-create-pdf-from-word-complete-c-guide/) | Naučte se, jak vytvořit PDF z dokumentu Word pomocí Aspose.Words v C# s podrobným průvodcem a ukázkovým kódem. |
 | [Uložit DOCX jako PDF pomocí Aspose.Words – Kompletní průvodce C#](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Naučte se, jak převést DOCX do PDF pomocí Aspose.Words v C# s podrobným návodem a ukázkovým kódem. |
 | [Převod Wordu do PDF v C# – Kompletní Aspose průvodce](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Kompletní návod, jak převést dokument Word do PDF v C# pomocí Aspose.Words s podrobným kódem a tipy. |
+| [Vytvořit přístupný PDF z DOCX – Kompletní průvodce Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Naučte se, jak pomocí Aspose.Words vytvořit přístupný PDF soubor z DOCX s podrobným návodem a ukázkovým kódem. |
+| [Převod PNG na Base64 v C# – Kompletní průvodce](./convert-png-to-base64-in-c-complete-guide/) | Naučte se, jak převést PNG na Base64 v C# pomocí .NET. Praktický průvodce s ukázkovým kódem a tipy pro efektivní použití. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

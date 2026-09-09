@@ -40,6 +40,7 @@ Korzystając z Aspose.Words dla .NET i postępując zgodnie z tymi samouczkami, 
 | [Utwórz pusty dokument Word z cieniowanym prostokątnym kształtem – przewodnik krok po kroku](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Dowiedz się, jak utworzyć pusty dokument Word z cieniowanym prostokątnym kształtem przy użyciu Aspose.Words dla .NET, krok po kroku. |
 
 | [Utwórz prostokątny kształt w Wordzie przy użyciu C# – przewodnik krok po kroku](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć prostokątny kształt w dokumencie Word, korzystając z Aspose.Words dla .NET – kompletny przewodnik krok po kroku. |
+| [Dodaj cień do kształtu w C# – Kompletny przewodnik po zastosowaniu efektu cienia](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Dowiedz się, jak dodać cień do kształtu w dokumentach Word przy użyciu Aspose.Words dla .NET w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

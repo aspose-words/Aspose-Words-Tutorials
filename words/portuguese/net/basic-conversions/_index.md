@@ -41,6 +41,8 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Salvar docx como txt – Guia Completo para Exportar Equações do Word como LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Aprenda a salvar documentos DOCX como arquivos TXT e exportar equações do Word para LaTeX usando Aspose.Words para .NET. |
 | [Converter Word para PDF em C# – Guia Completo Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Aprenda a converter documentos Word para PDF em C# usando Aspose.Words com este guia completo. |
 | [Converter docx para PDF e markdown – Guia completo em C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Aprenda a converter arquivos DOCX em PDF e Markdown usando Aspose.Words para .NET com um guia passo a passo completo. |
+| [Criar PDF acessível a partir de DOCX – Guia completo da Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aprenda a gerar PDFs acessíveis a partir de arquivos DOCX usando Aspose.Words para .NET, garantindo conformidade com padrões de acessibilidade. |
+| [Converter PNG para Base64 em C# – Guia Completo](./convert-png-to-base64-in-c-complete-guide/) | Aprenda a converter imagens PNG para strings Base64 em C# usando Aspose.Words, com exemplos de código passo a passo. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

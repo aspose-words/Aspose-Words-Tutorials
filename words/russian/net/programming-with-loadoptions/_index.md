@@ -44,6 +44,7 @@
 | [Как использовать LoadOptions в Aspose.Words – Полное руководство](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Полное руководство по использованию LoadOptions в Aspose.Words для .NET с примерами кода. |
 | [Восстановление повреждённого документа в C# – установить режим восстановления и запросить пользователя](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Узнайте, как восстановить повреждённый документ в C#, установить режим восстановления и запросить действие у пользователя. |
 | [Восстановление повреждённого docx – Полное руководство C#](./recover-corrupted-docx-complete-c-guide/) | Подробное руководство по восстановлению повреждённых файлов DOCX с использованием C# и Aspose.Words. |
+| [Восстановление повреждённого документа Word – Полное руководство C#](./recover-corrupted-word-document-complete-c-guide/) | Пошаговое руководство по восстановлению повреждённых файлов Word с помощью Aspose.Words и C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

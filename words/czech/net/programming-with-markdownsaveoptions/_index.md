@@ -52,6 +52,9 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Převod DOCX do Markdownu – Kompletní průvodce s použitím Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Naučte se převádět soubory DOCX do formátu Markdown pomocí Aspose.Words v kompletním průvodci. |
 | [Jak použít zpětné volání v C# – převod DOCX do Markdownu](./how-to-use-callback-in-c-convert-docx-to-markdown/) | Naučte se, jak využít zpětné volání v C# při převodu souborů DOCX do formátu Markdown pomocí Aspose.Words. |
 | [Uložte Word jako Markdown s obrázky – krok za krokem průvodce v C#](./save-word-as-markdown-with-images-c-step-by-step-guide/) | Naučte se převádět dokumenty Word do Markdownu a zahrnout obrázky pomocí Aspose.Words pro .NET v podrobném průvodci krok za krokem. |
+| [Uložení docx jako markdown – Export rovnic Word do LaTeXu v C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Naučte se exportovat rovnice z dokumentu Word do LaTeXu při převodu DOCX na Markdown pomocí Aspose.Words pro .NET. |
+| [Uložte Word jako markdown – extrahujte obrázky z docx](./save-word-as-markdown-extract-images-from-docx/) | Naučte se převádět dokumenty Word do formátu Markdown a extrahovat obrázky z DOCX pomocí Aspose.Words pro .NET. |
+| [Zachování koncových řádků: převod DOCX do Markdownu](./preserve-line-breaks-convert-docx-to-markdown/) | Naučte se zachovat koncové řádky při převodu DOCX do Markdownu pomocí Aspose.Words pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

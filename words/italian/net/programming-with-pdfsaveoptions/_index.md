@@ -53,6 +53,8 @@ Che tu voglia convertire documenti Word in PDF per la distribuzione online, l'ar
 | [Crea PDF accessibile – Guida passo passo per la conformità PDF/UA](./create-accessible-pdf-step-by-step-guide-for-pdf-ua-complian/) | Scopri come creare PDF accessibili conformi a PDF/UA con Aspose.Words per .NET in questa guida dettagliata. |
 | [Crea PDF accessibile da Word – Guida completa C#](./create-accessible-pdf-from-word-complete-c-guide/) | Scopri come generare PDF accessibili da documenti Word usando Aspose.Words per .NET con una guida completa in C#. |
 | [Crea PDF accessibile da Word in C# – Guida completa](./create-accessible-pdf-from-word-in-c-complete-guide/) | Scopri come generare PDF accessibili da documenti Word usando Aspose.Words per .NET con C#. Segui la nostra guida passo passo. |
+| [Salva documento come PDF in C# – Guida completa per esportare Docx e monitorare le modifiche ai font](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Scopri come salvare documenti Word come PDF in C#, esportare file Docx e tenere traccia delle modifiche ai font con Aspose.Words per .NET. |
+| [Salva docx come pdf con esportazione forme – Guida completa](./save-docx-as-pdf-with-shape-export-complete-guide/) | Scopri come esportare le forme e salvare un documento DOCX come PDF con Aspose.Words per .NET in questa guida completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

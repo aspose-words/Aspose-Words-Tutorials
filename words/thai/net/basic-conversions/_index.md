@@ -38,10 +38,12 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 | [แปลง Docx เป็น PDF และ Markdown – คู่มือ C# ฉบับสมบูรณ์](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | เรียนรู้วิธีแปลง DOCX เป็น PDF และ Markdown ด้วย C# และ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 | [บันทึกไฟล์ PDF เป็น Jpeg](./pdf-to-jpeg/) แปลงไฟล์ PDF เป็น JPEG ได้อย่างง่ายดายโดยใช้ Aspose.Words สำหรับ .NET ทำตามคำแนะนำโดยละเอียดของเราพร้อมตัวอย่างและคำถามที่พบบ่อย เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ
 - [บันทึก PDF เป็นรูปแบบ Word (Docx)](./pdf-to-docx/) | เรียนรู้วิธีแปลง PDF เป็นเอกสาร Word (Docx) โดยใช้ Aspose.Words สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เหมาะสำหรับนักพัฒนา |
+- [สร้าง PDF ที่เข้าถึงได้จาก DOCX – คู่มือ Aspose ฉบับสมบูรณ์](./create-accessible-pdf-from-docx-complete-aspose-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ดที่ละเอียด -
 - [วิธีส่งออก LaTeX จาก Word – คู่มือขั้นตอนโดยขั้นตอน](./how-to-export-latex-from-word-step-by-step-guide/) | เรียนรู้วิธีส่งออกเนื้อหา LaTeX จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดและง่ายดาย -
 - [สร้าง PDF ที่เข้าถึงได้ – แปลง Word เป็น PDF ที่เข้าถึงได้](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word ด้วย Aspose.Words สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด -
 - [กู้คืน DOCX ที่เสียหาย – คู่มือเต็มสำหรับการแก้ไข, ส่งออกเป็น PDF และ Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายและส่งออกเป็น PDF หรือ Markdown ด้วย Aspose.Words สำหรับ .NET -
 - [บันทึก docx เป็น txt – คู่มือฉบับสมบูรณ์เพื่อส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ Word เป็น LaTeX อย่างละเอียด -
+- [แปลง PNG เป็น Base64 ใน C# – คู่มือฉบับสมบูรณ์](./convert-png-to-base64-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ PNG เป็นสตริง Base64 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

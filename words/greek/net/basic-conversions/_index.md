@@ -42,6 +42,8 @@
 | [πώς να δημιουργήσετε pdf από Word – Πλήρης Οδηγός C#](./how-to-create-pdf-from-word-complete-c-guide/) | Μάθετε πώς να δημιουργήσετε PDF από έγγραφα Word χρησιμοποιώντας Aspose.Words σε C# με πλήρη οδηγό βήμα‑βήμα. |
 | [Αποθήκευση docx ως txt – Πλήρης Οδηγός για Εξαγωγή Εξισώσεων Word σε LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Μάθετε πώς να εξάγετε εξισώσεις Word σε LaTeX αποθηκεύοντας αρχεία DOCX ως TXT με το Aspose.Words για .NET. |
 | [Μετατροπή Word σε PDF σε C# – Πλήρης Οδηγός Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Word σε PDF χρησιμοποιώντας Aspose.Words για .NET σε C# με πλήρη οδηγό βήμα‑βήμα. |
+| [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό βήμα‑βήμα. |
+| [Μετατροπή PNG σε Base64 σε C# – Πλήρης Οδηγός](./convert-png-to-base64-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε εικόνες PNG σε κωδικοποίηση Base64 με C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

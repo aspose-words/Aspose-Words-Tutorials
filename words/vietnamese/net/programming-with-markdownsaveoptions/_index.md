@@ -53,6 +53,9 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Cách lưu Markdown – Hướng dẫn đầy đủ C#](./how-to-save-markdown-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown bằng C# với Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
 | [Chuyển DOCX sang Markdown – Hướng dẫn đầy đủ sử dụng Aspose.Words](./convert-docx-to-markdown-complete-guide-using-aspose-words/) | Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang Markdown bằng Aspose.Words, bao gồm các tùy chọn và ví dụ thực tế. |
 | [Cách sử dụng Callback trong C# – Chuyển DOCX sang Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/) | Hướng dẫn chi tiết cách sử dụng Callback trong C# để chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words. |
+| [Lưu docx thành markdown – Xuất các phương trình Word sang LaTeX trong C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Hướng dẫn chi tiết cách lưu file docx thành markdown và xuất các công thức Word sang LaTeX bằng C# và Aspose.Words. |
+| [Lưu Word thành Markdown – Trích xuất hình ảnh từ DOCX](./save-word-as-markdown-extract-images-from-docx/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành Markdown và trích xuất hình ảnh từ file DOCX bằng C# và Aspose.Words. |
+| [Bảo tồn ngắt dòng: Chuyển DOCX sang Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Hướng dẫn cách bảo tồn các ngắt dòng khi chuyển tài liệu DOCX sang Markdown bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

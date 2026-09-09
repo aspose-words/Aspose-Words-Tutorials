@@ -55,6 +55,10 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [Word'den Erişilebilir PDF Oluşturma – Tam C# Kılavuzu](./create-accessible-pdf-from-word-complete-c-guide/) | Word belgelerinizden erişilebilir PDF dosyaları oluşturmak için adım adım C# rehberi. |
 
 | [C# ile Word'ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-word-in-c-complete-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
+| [C#'ta Belgeyi PDF Olarak Kaydet – Docx Dışa Aktarma ve Yazı Tipi Değişikliklerini İzleme Tam Kılavuzu](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Aspose.Words for .NET kullanarak C# ile DOCX'i PDF'ye dönüştürün ve yazı tipi değişikliklerini izleyin. |
+| [Şekil Dışa Aktarımıyla docx'i PDF'ye Kaydet – Tam Kılavuz](./save-docx-as-pdf-with-shape-export-complete-guide/) | Aspose.Words for .NET kullanarak docx dosyalarını şekil dışa aktarımıyla PDF'ye dönüştürmeyi adım adım öğrenin. |
+| 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

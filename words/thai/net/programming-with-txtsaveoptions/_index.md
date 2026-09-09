@@ -30,6 +30,7 @@
 | [แปลง docx เป็น txt – คู่มือฉบับสมบูรณ์สำหรับการบันทึก Word เป็นข้อความธรรมดา](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น txt อย่างครบถ้วนด้วยคำแนะนำขั้นตอนและโค้ดตัวอย่างใน Aspose.Words สำหรับ .NET |
 - [บันทึกเอกสารเป็น TXT – คู่มือ C# ฉบับสมบูรณ์เพื่อแปลง DOCX เป็นข้อความธรรมดา](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็นไฟล์ข้อความ TXT ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
 | [บันทึก docx เป็น txt – คู่มือด่วนสำหรับนักพัฒนา C#](./save-docx-as-txt-quick-guide-for-c-developers/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt อย่างรวดเร็วสำหรับนักพัฒนา C# ด้วย Aspose.Words |
+- [วิธีส่งออก LaTeX จาก DOCX – คู่มือขั้นตอนต่อขั้นตอน](./how-to-export-latex-from-docx-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น LaTeX ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

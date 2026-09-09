@@ -44,6 +44,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [C#'ta Bozuk Belgeyi Kurtarma – Kurtarma Modunu Ayarla ve Kullanıcıyı Uyar](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) | Aspose.Words for .NET ile bozuk bir belgeyi kurtarmak, kurtarma modunu ayarlamak ve kullanıcıdan onay istemek için adım adım rehber. |
 | [Bozuk docx Dosyasını Kurtarma – Tam C# Kılavuzu](./recover-corrupted-docx-complete-c-guide/) | Bozuk bir docx dosyasını C# ile adım adım nasıl kurtaracağınızı öğrenin. |
 | [DOCX Dosyasını Kurtarma – Aspose.Words ile Tam Rehber](./how-to-recover-docx-complete-guide-using-aspose-words/) | Aspose.Words for .NET kullanarak bozuk DOCX dosyalarını adım adım nasıl kurtaracağınızı öğrenin. |
+| [Bozuk Word Belgesini Kurtarma – Tam C# Rehberi](./recover-corrupted-word-document-complete-c-guide/) | Aspose.Words for .NET ile bozuk bir Word belgesini adım adım nasıl kurtaracağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

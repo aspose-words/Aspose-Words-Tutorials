@@ -48,6 +48,9 @@ MarkdownSaveOptions を使用した Words Processing は、Aspose.Words for .NET
 | [Aspose.Words を使用して docx を Markdown に保存 – 完全 C# ガイド](./save-docx-as-markdown-with-aspose-words-full-c-guide/) Aspose.Words for .NET を使い、docx ファイルを Markdown 形式に変換して保存する完全な C# 手順を解説します。 |
 | [Word 画像を保存 – Aspose を使用して Word を Markdown に変換](./save-word-images-convert-word-to-markdown-with-aspose/) Aspose.Words for .NET を使用して、Word 文書の画像を抽出し、Markdown 形式に変換する方法をステップバイステップで解説します。 |
 | [画像付きでWordをMarkdownに保存 – C# ステップバイステップ ガイド](./save-word-as-markdown-with-images-c-step-by-step-guide/) Aspose.Words for .NET を使用して、画像を抽出しながら Word 文書を Markdown に変換する手順をステップバイステップで解説します。 |
+| [docx を Markdown に保存 – Word の数式を LaTeX にエクスポートする C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) Aspose.Words for .NET を使用して、docx を Markdown に保存し、Word の数式を LaTeX 形式でエクスポートする手順を解説します。 |
+| [Word を Markdown に保存 – docx から画像を抽出](./save-word-as-markdown-extract-images-from-docx/) Aspose.Words for .NET を使用して、docx から画像を抽出しながら Word 文書を Markdown に変換する手順を解説します。 |
+| [改行を保持: DOCX を Markdown に変換](./preserve-line-breaks-convert-docx-to-markdown/) Aspose.Words for .NET を使用して、DOCX の改行を保持しながら Markdown に変換する方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

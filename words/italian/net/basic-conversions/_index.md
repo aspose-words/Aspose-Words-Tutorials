@@ -42,6 +42,8 @@
 | [Salva docx come txt – Guida completa per esportare equazioni Word in LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Scopri come esportare le equazioni di Word in LaTeX salvando i file DOCX come TXT con Aspose.Words per .NET. |
 | [Convertire Word in PDF in C# – Guida completa Aspose.Words](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Impara a convertire documenti Word in PDF usando C# e Aspose.Words con una guida completa passo‑passo. |
 | [Convertire DOCX in PDF e Markdown – Guida completa C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Scopri come convertire DOCX in PDF e Markdown usando Aspose.Words per .NET con una guida completa passo passo in C#. |
+| [Crea PDF accessibile da DOCX – Guida completa Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Scopri come creare PDF accessibili da documenti DOCX usando Aspose.Words per .NET con esempi di codice passo passo. |
+| [Converti PNG in Base64 in C# – Guida completa](./convert-png-to-base64-in-c-complete-guide/) | Scopri come convertire immagini PNG in stringhe Base64 usando C# con Aspose.Words, passo passo con esempi di codice. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

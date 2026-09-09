@@ -42,6 +42,8 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить docx как txt – Полное руководство по экспорту уравнений Word в LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Узнайте, как экспортировать уравнения из Word в LaTeX, сохранив документ в формате TXT, используя Aspose.Words для .NET. |
 | [Конвертировать Word в PDF на C# – Полное руководство Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Узнайте, как полностью конвертировать Word в PDF с помощью Aspose.Words на C# в этом полном руководстве. |
 | [Конвертировать Docx в PDF и Markdown – Полное руководство C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Узнайте, как конвертировать DOCX в PDF и Markdown с помощью Aspose.Words для .NET в полном руководстве на C#. Пошаговые примеры кода. |
+| [Создать доступный PDF из DOCX – Полное руководство Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Узнайте, как создать доступный PDF из DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
+| [Конвертировать PNG в Base64 в C# – Полное руководство](./convert-png-to-base64-in-c-complete-guide/) | Узнайте, как преобразовать изображение PNG в строку Base64 в C# с помощью подробного пошагового руководства. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

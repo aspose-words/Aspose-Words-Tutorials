@@ -31,6 +31,7 @@ Aspose.Words for .NET 教學課程將引導您了解在操作 Word 文件的過�
 | [將文件另存為 TXT – 完整的 C# 指南，將 DOCX 轉換為純文字](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) |完整的 C# 教學，說明如何將 DOCX 轉換為純文字 TXT 檔案。 |
 | [將 docx 儲存為 txt – C# 開發人員快速指南](./save-docx-as-txt-quick-guide-for-c-developers/) |本快速指南說明如何使用 Aspose.Words for .NET 將 docx 檔案轉換為純文字 txt，適合 C# 開發者。 |
 | [將 docx 儲存為 txt – 在 C# 中保留換行與空格](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) |示範如何使用 C# 將 DOCX 轉換為 TXT，並保留換行與空格。 |
+| [如何從 DOCX 匯出 LaTeX – 步驟說明](./how-to-export-latex-from-docx-step-by-step-guide/) |本指南說明如何使用 Aspose.Words for .NET 將 DOCX 文件匯出為 LaTeX 格式，包含完整步驟與範例程式碼。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

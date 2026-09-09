@@ -94,6 +94,13 @@
 
 ### [บันทึก Word เป็น markdown พร้อมรูปภาพ – คู่มือขั้นตอนโดยขั้นตอน C#](./save-word-as-markdown-with-images-c-step-by-step-guide/)
 
+### [บันทึก docx เป็น markdown – ส่งออกสมการ Word ไปเป็น LaTeX ด้วย C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
+
+### [บันทึก Word เป็น markdown – สกัดรูปภาพจาก docx](./save-word-as-markdown-extract-images-from-docx/)
+
+### [รักษาการขึ้นบรรทัดใหม่: แปลง DOCX เป็น Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
+เรียนรู้วิธีคงการขึ้นบรรทัดใหม่เมื่อแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -42,6 +42,8 @@
 | [将 Docx 保存为 Txt – 导出 Word 方程为 LaTeX 完整指南](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | 学习如何使用 Aspose.Words for .NET 将 Docx 转换为 Txt，并导出 Word 中的数学公式为 LaTeX，提供完整步骤和代码示例。|
 | [在 C# 中将 Word 转换为 PDF – 完整 Aspose 指南](./convert-word-to-pdf-in-c-complete-aspose-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档完整转换为 PDF，提供分步指南和代码示例。|
 | [将 Docx 转换为 PDF 和 Markdown – 完整 C# 指南](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 同时转换为 PDF 和 Markdown，提供完整分步指南和代码示例。|
+| [从 DOCX 创建可访问 PDF – 完整 Aspose 指南](./create-accessible-pdf-from-docx-complete-aspose-guide/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为符合可访问性标准的 PDF，提供完整分步指南和代码示例。|
+| [在 C# 中将 PNG 转换为 Base64 – 完整指南](./convert-png-to-base64-in-c-complete-guide/) | 学习如何在 C# 中将 PNG 图像转换为 Base64 字符串，提供分步指南和代码示例，帮助开发者轻松实现图像编码。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
