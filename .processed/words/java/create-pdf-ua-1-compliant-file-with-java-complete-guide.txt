@@ -1,0 +1,7 @@
+Title: Create PDF/UA‑1 Compliant File with Java – Complete Guide
+Slug: create-pdf-ua-1-compliant-file-with-java-complete-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-18T03:22:39.104875
+SourceRepo: AI Search API
+Keywords: create pdf/ua‑1 compliant file, export word to accessible pdf
+PRNumber: 205

@@ -1,0 +1,7 @@
+Title: Convert Word to Markdown with Java – Full Guide
+Slug: convert-word-to-markdown-with-java-full-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-08T19:21:09.606692
+SourceRepo: AI Search API
+Keywords: convert word to markdown, extract images from docx, export word to markdown, generate unique image name
+PRNumber: 202

@@ -41,7 +41,7 @@ Zanim zaczniemy kodować, upewnij się, że masz następujące elementy:
 
 ## Importowanie pakietów
 
-Użyjemy bibliotek Aspose.Words i Aspose.BarCode. Zaimportuj następujące pakiety do swojego projektu:
+We’ll use Aspose.Words and Aspose.BarCode libraries. Import the following packages into your project:
 
 ```java
 import com.aspose.barcode.generation.*;

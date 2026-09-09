@@ -1,0 +1,7 @@
+Title: Export docx as markdown – Full Step‑by‑Step Guide
+Slug: export-docx-as-markdown-full-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-06-08T20:20:36.963194
+SourceRepo: AI Search API
+Keywords: export docx as markdown, convert word to markdown, save word document markdown
+PRNumber: 203

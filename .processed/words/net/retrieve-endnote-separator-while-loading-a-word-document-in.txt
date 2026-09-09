@@ -1,0 +1,7 @@
+Title: Retrieve endnote separator while loading a Word document in C#
+Slug: retrieve-endnote-separator-while-loading-a-word-document-in
+Category: working-with-footnote-and-endnote
+ProcessedDate: 2026-09-08T22:52:21.101394
+SourceRepo: AI Search API
+Keywords: retrieve endnote separator, load word document, display footnote separator
+PRNumber: 267

@@ -1,0 +1,7 @@
+Title: Insert pie chart in Java with Aspose.Words – Full Guide
+Slug: insert-pie-chart-in-java-with-aspose-words-full-guide
+Category: using-document-elements
+ProcessedDate: 2026-07-29T16:05:02.568267
+SourceRepo: AI Search API
+Keywords: insert pie chart, generate doughnut chart, format pie chart, format chart word, customize chart size
+PRNumber: 237

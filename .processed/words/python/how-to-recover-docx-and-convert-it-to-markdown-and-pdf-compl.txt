@@ -1,0 +1,7 @@
+Title: How to Recover DOCX and Convert It to Markdown and PDF – Complete Python Guide
+Slug: how-to-recover-docx-and-convert-it-to-markdown-and-pdf-compl
+Category: document-conversion
+ProcessedDate: 2026-05-30T09:35:27.858177
+SourceRepo: AI Search API
+Keywords: how to recover docx, convert docx markdown, save as markdown, save as pdf, how to set shadow
+PRNumber: 196

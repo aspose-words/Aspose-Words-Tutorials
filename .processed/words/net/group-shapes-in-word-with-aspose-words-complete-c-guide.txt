@@ -1,0 +1,7 @@
+Title: Group Shapes in Word with Aspose.Words – Complete C# Guide
+Slug: group-shapes-in-word-with-aspose-words-complete-c-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-07-20T07:27:29.754709
+SourceRepo: AI Search API
+Keywords: group shapes in word, add rectangle shape, how to group shapes, insert shape into word, define ellipse shape
+PRNumber: 228

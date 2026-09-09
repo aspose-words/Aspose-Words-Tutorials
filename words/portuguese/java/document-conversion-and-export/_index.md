@@ -80,6 +80,9 @@ Aprenda a criar e personalizar gráficos no Aspose.Words para Java. Explore tipo
 ### [Usando Objetos Office Math no Aspose.Words para Java](./using-office-math-objects/)
 Desbloqueie o poder de equações matemáticas em documentos com Aspose.Words para Java. Aprenda a manipular e exibir objetos Office Math sem esforço.
 
+### [Salvar Documento como TXT – Guia Rápido para Exportar Equações do Word](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+Aprenda a salvar documentos Word como arquivos TXT preservando equações matemáticas usando Aspose.Words para Java.
+
 ### [Usando Formas de Documento no Aspose.Words para Java](./using-document-shapes/)
 Desbloqueie o Poder das Formas de Documento no Aspose.Words para Java. Aprenda a criar documentos visualmente atraentes com exemplos passo a passo.
 
@@ -88,6 +91,32 @@ Aprenda a adicionar marcas d'água a documentos no Aspose.Words para Java. Perso
 
 ### [Formatando Tabelas e Estilos de Tabela no Aspose.Words para Java](./formatting-tables-and-table-styles/)
 Aprenda a formatar tabelas e aplicar estilos de tabela no Aspose.Words para Java. Explore guias passo a passo com código‑fonte para formatação eficaz de tabelas. Melhore o layout do seu documento com Aspose.Words.
+
+### [Converter docx para markdown – Exportar Equações Matemáticas para LaTeX com Aspose.Words](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Aprenda a converter documentos DOCX em Markdown e exportar equações matemáticas para LaTeX usando Aspose.Words.
+
+### [Aspose.Words para PDF – Converter DOCX para PDF em Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+Aprenda a converter arquivos DOCX para PDF rapidamente usando Aspose.Words for Java.
+
+### [Como Incorporar Imagens em Markdown ao Converter DOCX](./how-to-embed-images-in-markdown-when-converting-docx/)
+Aprenda a inserir imagens ao converter documentos DOCX para Markdown usando Aspose.Words for Java.
+
+### [Criar PDF Acessível a partir de DOCX – Guia Completo](./create-accessible-pdf-from-docx-complete-guide/)
+Aprenda a gerar PDFs acessíveis a partir de documentos DOCX usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+### [Incorporar imagens como base64 ao converter DOCX para Markdown em Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+Aprenda a incorporar imagens em base64 ao converter documentos DOCX para Markdown usando Aspose.Words for Java.
+
+### [Como Exportar LaTeX de DOCX – Guia Java Completo](./how-to-export-latex-from-docx-complete-java-guide/)
+Aprenda a exportar documentos DOCX para LaTeX usando Aspose.Words for Java com exemplos completos passo a passo.
+
+### [Salvar docx como pdf com Aspose.Words – Guia Java Completo](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aprenda a converter arquivos DOCX para PDF usando Aspose.Words for Java com exemplos completos passo a passo.
+
+### [Gerar PDF acessível a partir do Word com Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words for Java, garantindo conformidade com normas de acessibilidade.
+
+### [Como Exportar Markdown do Word usando Java – Guia Completo](./how-to-export-markdown-from-word-using-java-complete-guide/)
+Aprenda a exportar documentos Word para Markdown em Java usando Aspose.Words, com exemplos passo a passo.
 
 ## Perguntas Frequentes
 
@@ -98,7 +127,7 @@ A: Carregue o documento, use `DocumentBuilder.insertWatermarkText` ou `insertWat
 A: Sim. Aspose.Words preserva layout, fontes e gráficos durante a conversão.
 
 **Q: Como gero etiquetas de código de barras personalizadas em Java?**  
-A: Use a API de código de barras fornecida pelo Aspose.Words, especifique o tipo de código de barras e insira‑o como imagem ou forma.
+A: Use a API de código de barras fornecida pelo Aspose.Words, especifique o tipo de código de barras e insira‑lo como imagem ou forma.
 
 **Q: Qual a melhor forma de formatar tabelas de maneira consistente?**  
 A: Aplique um TableStyle via o método `Table.setStyleIdentifier` ou use a galeria de estilos integrada.

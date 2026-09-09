@@ -92,6 +92,9 @@ Configuring RTF Load Options in Aspose.Words for Java. Learn how to recognize UT
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage Lists, Handle Spaces, and Control Text Direction.
 
+### [How to recover docx – Complete Guide to Read Corrupted Word Files](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Learn how to recover and read corrupted DOCX files using Aspose.Words for Java with step‑by‑step instructions and code samples.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle metafiles, and more. Your Word documents, your way.
 
@@ -128,6 +131,12 @@ Learn how to save documents as text files in Aspose.Words for Java. Follow our s
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DOCX, and more. Organize files efficiently.
 
+### [Recover corrupted docx – Complete Guide to Fix and Process Documents](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Learn how to repair corrupted DOCX files and process them using Aspose.Words for Java.
+
+### [Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Learn how to capture and handle font substitution warnings in Java using Aspose.Words, ensuring accurate document rendering.
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  
@@ -158,4 +167,3 @@ Learn how to detect document formats in Java with Aspose.Words. Identify DOC, DO
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

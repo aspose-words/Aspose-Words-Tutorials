@@ -1,0 +1,7 @@
+Title: How to Show Percentages in Chart with Aspose.Words C#
+Slug: how-to-show-percentages-in-chart-with-aspose-words-c
+Category: programming-with-charts
+ProcessedDate: 2026-07-29T15:09:07.764140
+SourceRepo: AI Search API
+Keywords: how to show percentages in chart, add data labels to pie chart, how to enable chart data labels
+PRNumber: 236

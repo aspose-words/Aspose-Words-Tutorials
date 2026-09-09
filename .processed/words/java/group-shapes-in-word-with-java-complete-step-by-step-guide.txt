@@ -1,0 +1,7 @@
+Title: Group Shapes in Word with Java – Complete Step-by-Step Guide
+Slug: group-shapes-in-word-with-java-complete-step-by-step-guide
+Category: images-shapes
+ProcessedDate: 2026-08-01T18:17:22.337251
+SourceRepo: AI Search API
+Keywords: group shapes in word, how to group shapes, insert rectangle shape
+PRNumber: 239

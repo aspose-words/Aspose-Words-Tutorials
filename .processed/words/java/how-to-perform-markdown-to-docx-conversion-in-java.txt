@@ -1,0 +1,7 @@
+Title: How to perform markdown to docx conversion in Java
+Slug: how-to-perform-markdown-to-docx-conversion-in-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-08-20T22:53:02.942752
+SourceRepo: AI Search API
+Keywords: markdown to docx conversion, how to convert markdown, how to enable underline, preserve text formatting, convert markdown docx
+PRNumber: 259

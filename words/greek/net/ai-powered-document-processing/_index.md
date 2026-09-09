@@ -42,6 +42,8 @@
 | [Εργασία με το μοντέλο τεχνητής νοημοσύνης της Google](./working-with-google-ai-model/) | Αναβαθμίστε την επεξεργασία εγγράφων με το Aspose.Words για .NET και Google AI για να δημιουργήσετε συνοπτικές περιλήψεις χωρίς κόπο. |
 | [Εργασία με ανοιχτό μοντέλο τεχνητής νοημοσύνης](./working-with-open-ai-model/) | Ξεκλειδώστε αποτελεσματική σύνοψη εγγράφων χρησιμοποιώντας το Aspose.Words για .NET με τα ισχυρά μοντέλα του OpenAI. Βουτήξτε σε αυτόν τον ολοκληρωμένο οδηγό τώρα. |
 | [Εργασία με επιλογές σύνοψης](./working-with-summarize-options/) | Μάθετε να συνοψίζετε αποτελεσματικά έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με τον αναλυτικό οδηγό μας για την ενσωμάτωση μοντέλων AI για γρήγορες πληροφορίες. |
+| [Σύνοψη εγγράφου Word σε C# – Πλήρης οδηγός με τεχνητή νοημοσύνη](./summarize-word-document-in-c-complete-ai-powered-guide/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας AI με το Aspose.Words. |
+| [Πώς να ελέγξετε την γραμματική σε DOCX με το Aspose.Words – χρήση gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET με το gpt-4 turbo για έλεγχο γραμματικής σε αρχεία DOCX. |
 | [Πώς να Ελέγξετε τη Γραμματική στο Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word, βήμα-βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

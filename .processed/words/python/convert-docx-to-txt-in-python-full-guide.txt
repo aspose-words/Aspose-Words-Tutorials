@@ -1,0 +1,7 @@
+Title: Convert docx to txt in Python – full guide
+Slug: convert-docx-to-txt-in-python-full-guide
+Category: document-conversion
+ProcessedDate: 2026-08-11T08:09:18.975121
+SourceRepo: AI Search API
+Keywords: convert docx to txt, extract text from docx, save word as plain text, convert word document to txt, export word equations to latex
+PRNumber: 250
