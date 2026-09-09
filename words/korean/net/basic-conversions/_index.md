@@ -44,6 +44,7 @@
 | [Docx를 PDF와 마크다운으로 변환 – 완전한 C# 가이드](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Aspose.Words for .NET을 사용하여 C#에서 Docx를 PDF와 마크다운으로 변환하는 전체 단계별 가이드입니다. |
 | [DOCX에서 접근성 PDF 만들기 – 완전한 Aspose 가이드](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 접근성 PDF로 변환하는 전체 단계별 가이드입니다. |
 | [C#에서 PNG를 Base64로 변환 – 완전 가이드](./convert-png-to-base64-in-c-complete-guide/) | PNG 이미지를 Base64 문자열로 변환하는 방법을 단계별로 안내합니다. C# 코드 예제 포함. |
+| [Word에서 접근성 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에서 접근성 PDF를 만드는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

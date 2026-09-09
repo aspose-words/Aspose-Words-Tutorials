@@ -86,6 +86,10 @@
 
 ### [الحفاظ على فواصل الأسطر: تحويل DOCX إلى Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
 
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown و TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
+
+### [تحديد امتداد الملف أثناء تحويل DOCX إلى Markdown – دليل كامل](./determine-file-extension-while-converting-docx-to-markdown-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

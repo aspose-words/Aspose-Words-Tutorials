@@ -28,7 +28,7 @@
 | [Convertire Docx in Epub](./docx-to-epub/) | Converti facilmente DOCX in EPUB con Aspose.Words per .NET. Segui il nostro tutorial per una perfetta integrazione nelle tue applicazioni .NET. |
 | [Convertire Docx in Mhtml e inviare e-mail](./docx-to-mhtml-and-sending-email/) | Scopri come convertire DOCX in MHTML e inviare email utilizzando Aspose.Words per .NET in questa guida passo passo. Aumenta la tua produttività con una facile automazione. |
 | [Converti file Docx in Markdown](./docx-to-markdown/) | Scopri come convertire i file DOCX in Markdown utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata per un'integrazione perfetta nelle tue applicazioni .NET. |
-| [Convertire Docx in Txt](./docx-to-txt/) Converti DOCX in TXT utilizzando Aspose.Words per .NET con la nostra guida passo passo. Impara a trasformare i documenti in modo efficiente e senza sforzo. |
+| [Convertire Docx in Txt](./docx-to-txt/) | Converti DOCX in TXT utilizzando Aspose.Words per .NET con la nostra guida passo passo. Impara a trasformare i documenti in modo efficiente e senza sforzo. |
 | [Converti file di testo in documento Word](./txt-to-docx/) | Scopri come convertire file di testo in documenti Word utilizzando Aspose.Words per .NET. Gestisci in modo efficiente le conversioni dei documenti con la nostra guida completa. | 
 | [Salva il PDF come JPEG](./pdf-to-jpeg/) | Converti facilmente i PDF in JPEG utilizzando Aspose.Words per .NET. Segui la nostra guida dettagliata con esempi e FAQ. Perfetto per sviluppatori e appassionati. |
 | [Salva PDF in formato Word (Docx)](./pdf-to-docx/) | Scopri come convertire un PDF in un documento Word (Docx) utilizzando Aspose.Words per .NET in questa guida dettagliata e passo passo. Perfetta per gli sviluppatori. |
@@ -44,6 +44,7 @@
 | [Convertire DOCX in PDF e Markdown – Guida completa C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Scopri come convertire DOCX in PDF e Markdown usando Aspose.Words per .NET con una guida completa passo passo in C#. |
 | [Crea PDF accessibile da DOCX – Guida completa Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Scopri come creare PDF accessibili da documenti DOCX usando Aspose.Words per .NET con esempi di codice passo passo. |
 | [Converti PNG in Base64 in C# – Guida completa](./convert-png-to-base64-in-c-complete-guide/) | Scopri come convertire immagini PNG in stringhe Base64 usando C# con Aspose.Words, passo passo con esempi di codice. |
+| [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-step-by-step-guide/) | Scopri come generare PDF accessibili da documenti Word usando Aspose.Words per .NET, con esempi di codice e impostazioni di accessibilità. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@ Conversiones Básicas te guía a través de las conversiones básicas de documen
 | [Cómo crear PDF desde Word – Guía completa en C#](./how-to-create-pdf-from-word-complete-c-guide/) Aprenda a generar PDFs a partir de documentos Word usando Aspose.Words para .NET con ejemplos de código paso a paso. |
 | [Crear PDF accesible desde DOCX – Guía completa de Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aprenda a generar PDFs accesibles a partir de archivos DOCX con Aspose.Words para .NET. Guía paso a paso con ejemplos de código. |
 | [Convertir PNG a Base64 en C# – Guía completa](./convert-png-to-base64-in-c-complete-guide/) Aprenda a convertir imágenes PNG a cadenas Base64 en C# usando Aspose.Words. Guía paso a paso con ejemplos de código. |
+| [Crear PDF accesible desde Word – Guía paso a paso](./create-accessible-pdf-from-word-step-by-step-guide/) Aprenda a crear PDFs accesibles a partir de documentos Word con Aspose.Words para .NET. Guía paso a paso con ejemplos de código. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

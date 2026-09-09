@@ -117,6 +117,11 @@ Erfahren Sie, wie Sie Word‑Gleichungen beim Export nach Markdown in LaTeX‑Fo
 ### [Zeilenumbrüche beibehalten: DOCX in Markdown konvertieren](./preserve-line-breaks-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie beim Konvertieren von DOCX nach Markdown Zeilenumbrüche erhalten.
 
+### [Wie man LaTeX aus Word exportiert – DOCX in Markdown und TXT konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
+Erfahren Sie, wie Sie LaTeX‑Formeln aus Word extrahieren und DOCX‑Dateien in Markdown‑ und Text‑Formate konvertieren.
+
+### [Dateierweiterung beim Konvertieren von DOCX zu Markdown bestimmen – Vollständige Anleitung](./determine-file-extension-while-converting-docx-to-markdown-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

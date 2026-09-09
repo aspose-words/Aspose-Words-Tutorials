@@ -56,6 +56,8 @@ Words Processing with MarkdownSaveOptions, .NET için Aspose.Words kütüphanesi
 | [docx'i markdown olarak kaydet – Word denklemlerini LaTeX'e C# ile dışa aktar](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Aspose.Words for .NET kullanarak docx dosyasını markdown olarak kaydedin ve Word denklemlerini LaTeX formatına C# ile dışa aktarın. |
 | [Word'ü markdown olarak kaydet – docx'ten görüntü çıkarma](./save-word-as-markdown-extract-images-from-docx/) | Aspose.Words for .NET kullanarak docx dosyasını markdown olarak kaydedin ve içindeki görüntüleri ayıklayın. |
 | [Satır Sonlarını Koru: DOCX'i Markdown'a Dönüştür](./preserve-line-breaks-convert-docx-to-markdown/) | Aspose.Words for .NET kullanarak DOCX dosyalarındaki satır sonlarını koruyarak Markdown formatına dönüştürmeyi öğrenin. |
+| [Word'den LaTeX Dışa Aktarma – DOCX'i Markdown ve TXT'ye Dönüştür](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Aspose.Words for .NET kullanarak Word belgelerinden LaTeX kodlarını dışa aktarın ve DOCX dosyasını Markdown ve TXT formatına dönüştürün. |
+| [DOCX'i Markdown'a Dönüştürürken Dosya Uzantısını Belirleme – Tam Rehber](./determine-file-extension-while-converting-docx-to-markdown-c/) | Aspose.Words for .NET kullanarak DOCX dosyalarını Markdown'a dönüştürürken dosya uzantısını nasıl belirleyeceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

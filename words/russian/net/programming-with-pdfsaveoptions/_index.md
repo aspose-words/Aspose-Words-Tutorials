@@ -56,6 +56,7 @@
 | [Создание доступного PDF из Word в C# – Полное руководство](./create-accessible-pdf-from-word-in-c-complete-guide/) | Узнайте, как с помощью Aspose.Words for .NET создать PDF, соответствующий требованиям доступности, из документа Word, используя C#. |
 | [Сохранить документ как PDF в C# – Полное руководство по экспорту DOCX и отслеживанию изменений шрифтов](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Узнайте, как экспортировать DOCX в PDF с помощью C#, контролировать изменения шрифтов и оптимизировать результаты. |
 | [Сохранить документ docx в PDF с экспортом фигур – Полное руководство](./save-docx-as-pdf-with-shape-export-complete-guide/) | Узнайте, как экспортировать фигуры из DOCX при сохранении в PDF с помощью Aspose.Words for .NET, следуя пошаговому руководству. |
+| [Сохранить документ как PDF с Aspose.Words – Полное руководство на C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Подробное руководство по сохранению документа Word в PDF с помощью Aspose.Words на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

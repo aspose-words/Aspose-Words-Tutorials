@@ -40,6 +40,7 @@
 | [アクセシブルPDFの作成 – Word を PDF アクセシビリティに変換](./create-accessible-pdf-convert-word-to-pdf-accessibility/) Aspose.Words for .NET を使用して、Word 文書をアクセシブルな PDF に変換し、アクセシビリティ要件を満たす方法をステップバイステップで解説します。 |
 | [破損したDOCXの復元 – 修復、PDFおよびMarkdownエクスポートの完全ガイド](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) Aspose.Words for .NET を使用して、破損した DOCX を修復し、PDF と Markdown にエクスポートする方法をステップバイステップで解説します。 |
 | [Word から PDF を作成する方法 – 完全な C# ガイド](./how-to-create-pdf-from-word-complete-c-guide/) Aspose.Words for .NET を使用して C# で Word 文書を PDF に変換する完全ガイドです。コード例付きで開発者に最適です。 |
+| [Word からアクセシブル PDF を作成する – ステップバイステップ ガイド](./create-accessible-pdf-from-word-step-by-step-guide/) Aspose.Words for .NET を使用して Word 文書からアクセシブル PDF を作成する方法を学びましょう。コード例付きのステップバイステップガイドです。 |
 
 | [DOCX からアクセシブル PDF を作成する – 完全 Aspose ガイド](./create-accessible-pdf-from-docx-complete-aspose-guide/) Aspose.Words for .NET を使用して、DOCX からアクセシブルな PDF を生成する方法をステップバイステップで解説します。コード例付きで開発者に最適です。 |
 | [C# で PNG を Base64 に変換する – 完全ガイド](./convert-png-to-base64-in-c-complete-guide/) C# で PNG 画像を Base64 文字列に変換する方法を、コード例と共にステップバイステップで解説します。 |

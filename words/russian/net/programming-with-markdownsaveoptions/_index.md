@@ -55,6 +55,8 @@
 | [Сохранить Word как markdown – извлечь изображения из DOCX](./save-word-as-markdown-extract-images-from-docx/) | Сохраните документ Word в формате Markdown с извлечением изображений из DOCX, используя Aspose.Words для .NET. |
 | [Сохранить docx как markdown – экспортировать уравнения Word в LaTeX на C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Экспортируйте уравнения из Word в LaTeX при сохранении DOCX в Markdown с помощью C# и Aspose.Words. |
 | [Сохранить разрывы строк: конвертировать DOCX в Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Сохраните разрывы строк при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
+| [Как экспортировать LaTeX из Word – Конвертировать DOCX в Markdown и TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Экспортируйте LaTeX из Word, преобразуя DOCX в форматы Markdown и TXT с помощью Aspose.Words для .NET. |
+| [Определить расширение файла при конвертации DOCX в Markdown – Полное руководство](./determine-file-extension-while-converting-docx-to-markdown-c/) | Узнайте, как определить правильное расширение файла при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

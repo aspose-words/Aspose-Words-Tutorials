@@ -58,6 +58,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [C#'ta Belgeyi PDF Olarak Kaydet – Docx Dışa Aktarma ve Yazı Tipi Değişikliklerini İzleme Tam Kılavuzu](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Aspose.Words for .NET kullanarak C# ile DOCX'i PDF'ye dönüştürün ve yazı tipi değişikliklerini izleyin. |
 | [Şekil Dışa Aktarımıyla docx'i PDF'ye Kaydet – Tam Kılavuz](./save-docx-as-pdf-with-shape-export-complete-guide/) | Aspose.Words for .NET kullanarak docx dosyalarını şekil dışa aktarımıyla PDF'ye dönüştürmeyi adım adım öğrenin. |
 | 
+| [Aspose.Words ile Belgeyi PDF Olarak Kaydet – Tam C# Kılavuzu](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words kullanarak C# ile belgeyi PDF'ye dönüştürmenin adım adım rehberi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

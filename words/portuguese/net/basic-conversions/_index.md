@@ -16,7 +16,7 @@
 # Conversões básicas
 
 
-Conversões Básicas orienta você nas conversões básicas de documentos usando a biblioteca Aspose.Words para .NET. Os tutoriais oferecem explicações passo a passo, código-fonte detalhado e exemplos práticos para converter documentos do Word para diferentes formatos, como PDF, HTML, EPUB, imagens e muito mais. Você também aprenderá a especificar opções de conversão, gerenciar fontes, imagens e layouts. Este recurso é essencial para desenvolvedores que desejam automatizar conversões de documentos usando o Aspose.Words para .NET, proporcionando total flexibilidade e controle sobre o processo de conversão.
+Conversões Básicas orienta você nas conversões básicas de documentos usando a biblioteca Aspose.Words para .NET. Os tutoriais oferecem explicações passo a passo, código‑fonte detalhado e exemplos práticos para converter documentos do Word para diferentes formatos, como PDF, HTML, EPUB, imagens e muito mais. Você também aprenderá a especificar opções de conversão, gerenciar fontes, imagens e layouts. Este recurso é essencial para desenvolvedores que desejam automatizar conversões de documentos usando o Aspose.Words para .NET, proporcionando total flexibilidade e controle sobre o processo de conversão.
 
  ## Tutoriais
 | Título | Descrição |
@@ -26,7 +26,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Converter arquivo do Word em PDF](./docx-to-pdf/) | Aprenda a converter facilmente arquivos do Word para PDF usando o Aspose.Words para .NET com nosso guia. Perfeito para desenvolvedores que buscam conversão de documentos rápida e confiável. |
 | [Converter Docx em Byte](./docx-to-byte/) | Aprenda a converter Docx em array de bytes no .NET usando Aspose.Words para um processamento eficiente de documentos. Guia passo a passo incluído. |  
 | [Converter Docx para Epub](./docx-to-epub/) | Converta DOCX para EPUB facilmente com o Aspose.Words para .NET. Siga nosso tutorial para uma integração perfeita com seus aplicativos .NET. |
-| [Converter Docx para Mhtml e enviar e-mail](./docx-to-mhtml-and-sending-email/) | Aprenda a converter DOCX para MHTML e enviar e-mails usando o Aspose.Words para .NET neste guia passo a passo. Aumente sua produtividade com automação fácil. |
+| [Converter Docx para Mhtml e enviar e‑mail](./docx-to-mhtml-and-sending-email/) | Aprenda a converter DOCX para MHTML e enviar e‑mails usando o Aspose.Words para .NET neste guia passo a passo. Aumente sua produtividade com automação fácil. |
 | [Converter arquivo de texto em documento do Word](./txt-to-docx/) | Aprenda a converter arquivos de texto em documentos do Word usando o Aspose.Words para .NET. Gerencie conversões de documentos com eficiência com nosso guia completo. | 
 | [Salvar PDF como JPEG](./pdf-to-jpeg/) | Converta PDFs em JPEGs sem esforço usando o Aspose.Words para .NET. Siga nosso guia detalhado com exemplos e perguntas frequentes. Perfeito para desenvolvedores e entusiastas. |
 | [Salvar PDF em formato Word (Docx)](./pdf-to-docx/) | Aprenda a converter um PDF para um documento do Word (Docx) usando o Aspose.Words para .NET neste guia passo a passo detalhado. Perfeito para desenvolvedores. |
@@ -43,6 +43,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Converter docx para PDF e markdown – Guia completo em C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Aprenda a converter arquivos DOCX em PDF e Markdown usando Aspose.Words para .NET com um guia passo a passo completo. |
 | [Criar PDF acessível a partir de DOCX – Guia completo da Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aprenda a gerar PDFs acessíveis a partir de arquivos DOCX usando Aspose.Words para .NET, garantindo conformidade com padrões de acessibilidade. |
 | [Converter PNG para Base64 em C# – Guia Completo](./convert-png-to-base64-in-c-complete-guide/) | Aprenda a converter imagens PNG para strings Base64 em C# usando Aspose.Words, com exemplos de código passo a passo. |
+| [Criar PDF acessível a partir do Word – Guia passo a passo](./create-accessible-pdf-from-word-step-by-step-guide/) | Aprenda a criar PDFs acessíveis a partir de documentos Word usando Aspose.Words para .NET. Guia passo a passo com exemplos de código. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

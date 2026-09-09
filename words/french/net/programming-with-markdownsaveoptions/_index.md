@@ -115,6 +115,10 @@ Apprenez à enregistrer un document Word en Markdown tout en extriquant les imag
 
 Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words pour .NET.
 
+### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown et TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
+
+### [Déterminer l'extension de fichier lors de la conversion DOCX en Markdown – Guide complet](./determine-file-extension-while-converting-docx-to-markdown-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

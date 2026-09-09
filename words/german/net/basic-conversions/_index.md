@@ -43,6 +43,7 @@
 | [DOCX in PDF und Markdown konvertieren – Vollständige C#‑Anleitung](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Erfahren Sie, wie Sie DOCX mit Aspose.Words für .NET sowohl in PDF als auch in Markdown konvertieren – vollständige C#‑Anleitung. |
 | [Barrierefreies PDF aus DOCX erstellen – Vollständige Aspose‑Anleitung](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX erzeugen, inklusive Tags und Zugänglichkeitsoptionen. |
 | [PNG in Base64 konvertieren in C# – Vollständige Anleitung](./convert-png-to-base64-in-c-complete-guide/) | Erfahren Sie, wie Sie PNG-Bilder in Base64-Strings in C# umwandeln – Schritt‑für‑Schritt‑Anleitung mit Beispielcode. |
+| [Barrierefreies PDF aus Word erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF erstellen, das den Barrierefreiheitsstandards entspricht. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें C# में](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | C# में Word दस्तावेज़ के समीकरणों को LaTeX में निर्यात करके DOCX को मार्कडाउन में बदलने की गाइड। |
 | [Word को Markdown के रूप में सहेजें – DOCX से छवियों को निकालें](./save-word-as-markdown-extract-images-from-docx/) | DOCX फ़ाइल से छवियों को निकालते हुए Word को Markdown में बदलने की विस्तृत गाइड। |
 | [लाइन ब्रेक संरक्षित रखें: DOCX को मार्कडाउन में बदलें](./preserve-line-breaks-convert-docx-to-markdown/) | DOCX फ़ाइल में लाइन ब्रेक को संरक्षित रखते हुए उसे मार्कडाउन में बदलने की चरण‑दर‑चरण गाइड। |
+| [Word से LaTeX निर्यात कैसे करें – DOCX को Markdown और TXT में बदलें](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Word दस्तावेज़ से LaTeX निकालें और उसे Markdown तथा TXT फ़ॉर्मेट में बदलें। चरण‑दर‑चरण मार्गदर्शिका। |
+| [DOCX को Markdown में बदलते समय फ़ाइल एक्सटेंशन निर्धारित करें – पूर्ण गाइड](./determine-file-extension-while-converting-docx-to-markdown-c/) | DOCX को Markdown में परिवर्तित करते समय फ़ाइल एक्सटेंशन कैसे निर्धारित करें, इस पूर्ण गाइड में सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

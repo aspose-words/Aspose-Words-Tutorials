@@ -44,6 +44,7 @@
 | [تحويل Docx إلى PDF و Markdown – دليل C# كامل](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | تعلّم كيفية تحويل ملفات DOCX إلى PDF وMarkdown باستخدام Aspose.Words لـ .NET مع دليل شامل وأمثلة C#. |
 | [إنشاء PDF قابل للوصول من DOCX – دليل Aspose الكامل](./create-accessible-pdf-from-docx-complete-aspose-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [تحويل PNG إلى Base64 في C# – دليل كامل](./convert-png-to-base64-in-c-complete-guide/) | تعرّف على كيفية تحويل ملفات PNG إلى سلاسل Base64 باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/) | تعرّف على كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

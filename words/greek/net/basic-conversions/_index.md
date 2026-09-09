@@ -44,6 +44,7 @@
 | [Μετατροπή Word σε PDF σε C# – Πλήρης Οδηγός Aspose](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Μάθετε πώς να μετατρέπετε αρχεία Word σε PDF χρησιμοποιώντας Aspose.Words για .NET σε C# με πλήρη οδηγό βήμα‑βήμα. |
 | [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό βήμα‑βήμα. |
 | [Μετατροπή PNG σε Base64 σε C# – Πλήρης Οδηγός](./convert-png-to-base64-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε εικόνες PNG σε κωδικοποίηση Base64 με C#. |
+| [Δημιουργία Προσβάσιμου PDF από Word – Οδηγός βήμα‑βήμα](./create-accessible-pdf-from-word-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

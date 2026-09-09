@@ -45,6 +45,7 @@ V těchto tutoriálech se naučíte, jak používat LoadOptions k načítání d
 | [Obnovit poškozený DOCX – Kompletní průvodce C#](./recover-corrupted-docx-complete-c-guide/) | Naučte se, jak kompletně obnovit poškozené soubory DOCX pomocí C# a Aspose.Words. |
 | [Jak obnovit DOCX – Kompletní průvodce pomocí Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Kompletní návod, jak pomocí Aspose.Words obnovit poškozené soubory DOCX krok za krokem. |
 | [Obnovit poškozený dokument Word – Kompletní průvodce v C#](./recover-corrupted-word-document-complete-c-guide/) | Naučte se, jak obnovit poškozené dokumenty Word pomocí Aspose.Words v C# s podrobným krok za krokem průvodcem. |
+| [Obnovit poškozený soubor DOCX pomocí Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Naučte se, jak obnovit poškozené soubory DOCX pomocí Aspose.Words v .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

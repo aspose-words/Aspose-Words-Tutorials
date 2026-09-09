@@ -44,6 +44,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Konversi docx ke pdf dan markdown – Panduan Lengkap C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Panduan langkah demi langkah mengonversi file DOCX ke PDF dan Markdown menggunakan Aspose.Words untuk .NET dalam C#. |
 | [Buat PDF yang Aksesibel dari DOCX – Panduan Lengkap Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Pelajari cara membuat PDF yang dapat diakses dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan lengkap langkah demi langkah. |
 | [Mengonversi PNG ke Base64 dalam C# – Panduan Lengkap](./convert-png-to-base64-in-c-complete-guide/) | Pelajari cara mengonversi gambar PNG menjadi string Base64 menggunakan C# dengan panduan langkah demi langkah lengkap. Bahasa Indonesia: |
+| [Buat PDF Aksesibel dari Word – Panduan Langkah‑demi‑Langkah](./create-accessible-pdf-from-word-step-by-step-guide/) | Pelajari cara membuat PDF yang dapat diakses dari dokumen Word menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

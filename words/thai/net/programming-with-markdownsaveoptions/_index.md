@@ -101,6 +101,9 @@
 ### [รักษาการขึ้นบรรทัดใหม่: แปลง DOCX เป็น Markdown](./preserve-line-breaks-convert-docx-to-markdown/)
 เรียนรู้วิธีคงการขึ้นบรรทัดใหม่เมื่อแปลงไฟล์ DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [กำหนดนามสกุลไฟล์ขณะแปลง DOCX เป็น Markdown – คู่มือเต็ม C#](./determine-file-extension-while-converting-docx-to-markdown-c/)
+เรียนรู้วิธีตรวจสอบและกำหนดนามสกุลไฟล์ผลลัพธ์เมื่อแปลง DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

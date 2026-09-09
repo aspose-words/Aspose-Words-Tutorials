@@ -45,6 +45,7 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Cách Sử Dụng LoadOptions trong Aspose.Words – Hướng Dẫn Toàn Diện](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách sử dụng LoadOptions trong Aspose.Words để tùy chỉnh việc tải tài liệu Word. |
 | [Khôi phục tài liệu bị hỏng trong C# – Đặt chế độ khôi phục và nhắc người dùng](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Hướng dẫn khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#, thiết lập chế độ khôi phục và hiển thị lời nhắc cho người dùng. |
 | [Khôi phục tài liệu Word bị hỏng – Hướng dẫn C# đầy đủ](./recover-corrupted-word-document-complete-c-guide/) | Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#. |
+| [Khôi phục tệp DOCX bị hỏng bằng Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Hướng dẫn từng bước khôi phục tệp DOCX hỏng bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

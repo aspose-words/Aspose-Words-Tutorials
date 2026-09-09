@@ -44,6 +44,7 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Docx naar PDF en Markdown converteren – Complete C#‑gids](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Leer hoe u Docx-bestanden naar PDF en Markdown converteert met Aspose.Words in C# met een volledige stap‑voor‑stap gids. |
 | [Maak een toegankelijke PDF van DOCX – Complete Aspose-gids](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Leer hoe u een toegankelijke PDF maakt vanuit een DOCX-bestand met Aspose.Words voor .NET, inclusief stapsgewijze instructies en voorbeeldcode. |
 | [PNG naar Base64 converteren in C# – Complete gids](./convert-png-to-base64-in-c-complete-guide/) | Leer hoe u PNG-afbeeldingen naar Base64-code converteert in C# met Aspose.Words, inclusief voorbeeldcode en stapsgewijze uitleg. |
+| [Maak toegankelijke PDF vanuit Word – Stapsgewijze gids](./create-accessible-pdf-from-word-step-by-step-guide/) | Leer hoe u een toegankelijke PDF maakt vanuit een Word-document met Aspose.Words voor .NET. Volg onze stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

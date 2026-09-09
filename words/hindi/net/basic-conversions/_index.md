@@ -44,6 +44,7 @@
 | [Docx को PDF और Markdown में बदलें – पूर्ण C# गाइड](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | .NET के लिए Aspose.Words का उपयोग करके Docx को PDF और Markdown दोनों में बदलने की पूरी गाइड। चरण‑दर‑स्टेप कोड उदाहरण। |
 | [DOCX से सुलभ PDF बनाएं – पूर्ण Aspose गाइड](./create-accessible-pdf-from-docx-complete-aspose-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX से एक्सेसिबल PDF बनाने की पूरी गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण। |
 | [C# में PNG को Base64 में बदलें – पूर्ण गाइड](./convert-png-to-base64-in-c-complete-guide/) | C# में PNG इमेज को Base64 स्ट्रिंग में बदलने की पूरी गाइड, कोड उदाहरण और चरण‑दर‑स्टेप निर्देश। |
+| [Word से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-step-by-step-guide/) | Word दस्तावेज़ से सुलभ PDF बनाने की चरण‑दर‑स्टेप प्रक्रिया, एक्सेसिबिलिटी विकल्पों के साथ। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

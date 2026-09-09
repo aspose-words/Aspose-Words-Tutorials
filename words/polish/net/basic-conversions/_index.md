@@ -44,6 +44,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Konwertuj docx do PDF i Markdown – Kompletny przewodnik C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Pełny przewodnik, jak w C# konwertować pliki DOCX jednocześnie do PDF i formatu Markdown przy użyciu Aspose.Words. |
 | [Utwórz dostępny PDF z DOCX – Kompletny przewodnik Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Dowiedz się, jak wygenerować dostępny PDF z pliku DOCX przy użyciu Aspose.Words dla .NET, zapewniając zgodność z WCAG. |
 | [Konwertuj PNG na Base64 w C# – Kompletny przewodnik](./convert-png-to-base64-in-c-complete-guide/) | Dowiedz się, jak w C# zamienić plik PNG na ciąg Base64 przy użyciu Aspose.Words. Szczegółowy przewodnik krok po kroku. |
+| [Utwórz dostępny PDF z Worda – przewodnik krok po kroku](./create-accessible-pdf-from-word-step-by-step-guide/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET stworzyć dostępny plik PDF z dokumentu Word, zapewniając zgodność z WCAG. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

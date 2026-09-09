@@ -44,6 +44,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [Docx'i Txt Olarak Kaydet – Word Denklemlerini LaTeX Olarak Dışa Aktarmak İçin Tam Kılavuz](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | Aspose.Words for .NET kullanarak DOCX dosyalarını TXT'ye dönüştürürken denklemleri LaTeX formatına nasıl dışa aktaracağınızı adım adım öğrenin. |
 | [DOCX'ten Erişilebilir PDF Oluştur – Tam Aspose Rehberi](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aspose.Words for .NET kullanarak DOCX dosyalarından erişilebilir PDF oluşturmayı adım adım öğrenin. |
 | [PNG'yi C#'ta Base64'e Dönüştür – Tam Rehber](./convert-png-to-base64-in-c-complete-guide/) | Aspose.Words for .NET kullanarak PNG görüntülerini C# ile Base64 formatına dönüştürmeyi adım adım öğrenin. |
+| [Word'den Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

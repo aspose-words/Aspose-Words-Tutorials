@@ -44,6 +44,7 @@ Basic Conversions จะแนะนำคุณเกี่ยวกับก�
 - [กู้คืน DOCX ที่เสียหาย – คู่มือเต็มสำหรับการแก้ไข, ส่งออกเป็น PDF และ Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายและส่งออกเป็น PDF หรือ Markdown ด้วย Aspose.Words สำหรับ .NET -
 - [บันทึก docx เป็น txt – คู่มือฉบับสมบูรณ์เพื่อส่งออกสมการ Word เป็น LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | เรียนรู้วิธีบันทึกไฟล์ DOCX เป็น TXT พร้อมส่งออกสมการ Word เป็น LaTeX อย่างละเอียด -
 - [แปลง PNG เป็น Base64 ใน C# – คู่มือฉบับสมบูรณ์](./convert-png-to-base64-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ PNG เป็นสตริง Base64 ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน -
+- [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือขั้นตอนโดยละเอียด](./create-accessible-pdf-from-word-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่เข้าถึงได้จากไฟล์ Word ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดและง่ายต่อการทำตาม -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
