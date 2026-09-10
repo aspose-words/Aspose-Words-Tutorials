@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-02-15
-description: Skapa en rektangelform i ett Word‑dokument med Java. Lär dig hur du lägger
-  till skugga på formen, sparar Word‑dokumentet och lägger till en rektangel med Aspose.Words.
+date: 2026-02-10
+description: Skapa en rektangulär form i ett Word‑dokument med Aspose.Words för Java.
+  Lär dig hur du ställer in skuggfärg, hur du lägger till skugga och hur du skapar
+  ett Word‑dokument programatiskt.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: sv
-og_description: Skapa en rektangelform i en Word‑fil med Java. Den här guiden visar
-  hur du lägger till skugga på formen, sparar Word‑dokumentet och lägger till rektangelformen
-  steg för steg.
-og_title: Skapa rektangel form – Java Aspose.Words-handledning
+og_description: Skapa en rektangelform i ett Word‑dokument med Aspose.Words för Java.
+  Följ den här steg‑för‑steg‑handledningen för att ställa in skuggfärg, lägga till
+  skugga och skapa ett Word‑dokument.
+og_title: Skapa rektangel i Word med Java – Fullständig guide
 tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Skapa rektangel i Word med Java – Fullständig guide
+title: Skapa rektangelform i Word med Java – Fullständig guide
 url: /sv/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
@@ -29,134 +30,189 @@ url: /sv/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 
 # Skapa rektangelform i Word med Java – Fullständig guide
 
-Har du någonsin behövt **create rectangle shape** i en Word‑fil men varit osäker på var du ska börja? Du är inte ensam—många utvecklare stöter på samma problem när de automatiserar rapporter eller fakturor. Den goda nyheten? Med Aspose.Words för Java kan du skapa en rektangel, ge den ett snyggt skugga och spara Word‑dokumentet på några få rader.
+Har du någonsin behövt **skapa rektangelform** i ett Word‑dokument men inte vetat var du ska börja? Du är inte ensam—många utvecklare stöter på samma hinder när de först försöker rita grafik i Word programatiskt. Den goda nyheten? Med Aspose.Words för Java kan du enkelt lägga till en rektangel på en sida, ge den en fin skugga och spara filen på några sekunder. I den här handledningen går vi igenom exakt **hur man lägger till skugga**, **sätter skuggfärg** och **skapar Word‑dokument** från grunden.  
 
-I den här handledningen går vi igenom allt du behöver: från att initiera ett tomt dokument, till att konfigurera en skugga, och slutligen spara filen. I slutet kommer du att veta **how to shadow shape**‑objekt, hur du **add shape shadow**, och hur du **add rectangle shape** i vilket Word‑dokument du än genererar. Ingen extern dokumentation behövs—bara ren, körbar kod.
+Vi täcker allt du behöver: de nödvändiga biblioteken, varje kodrad, varför vissa inställningar är viktiga, och några knep du kanske inte hittar i den officiella dokumentationen. I slutet har du ett färdigt exempel som skapar en rektangel med en mjuk grå skugga, sparad som *Shadow.docx*.
 
-## Förutsättningar
+## Förutsättningar – Vad du behöver innan du börjar
 
-- Java 8 eller nyare (API:et fungerar även med Java 11+).  
-- Aspose.Words for Java‑biblioteket (version 23.9 eller senare).  
-- En IDE som IntelliJ IDEA eller Eclipse—vilken som helst fungerar.  
-- Grundläggande kunskap om Java‑syntax.
+Innan vi dyker ner i koden, se till att du har följande:
 
-> **Pro tip:** Om du använder Maven, lägg till Aspose.Words‑beroendet i din `pom.xml` och låt IDE:n hantera resten.
+| Krav | Orsak |
+|------|-------|
+| Java Development Kit (JDK) 8 eller nyare | Aspose.Words fungerar på alla moderna JDK. |
+| Maven eller Gradle (valfritt) | Förenklar tillägget av Aspose.Words‑beroendet. |
+| Aspose.Words för Java‑licens (eller en gratis provversion) | Biblioteket är kommersiellt; en provversion räcker för testning. |
+| En IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) | Hjälper dig att snabbt köra och felsöka exemplet. |
 
----
+Om du redan har ett Java‑projekt, lägg bara till Maven‑koordinaten:
 
-## Steg 1: Initiera ett nytt dokument – How to **create rectangle shape**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-Först och främst: du behöver en ren canvas. I Aspose.Words är den canvasen ett `Document`‑objekt.
+Ingen avancerad konfiguration behövs—endast en enkel `public static void main`‑metod räcker.
+
+![create rectangle shape example](https://example.com/rectangle-shadow.png "create rectangle shape with shadow in Word")
+
+*Bildtext: exempel på rektangelform som visar en cyan rektangel med en grå skugga.*
+
+## Steg 1 – Skapa ett nytt Word‑dokument
+
+Det första vi måste göra är att starta ett tomt dokument. Tänk på det som att öppna en ny Word‑fil som du senare ska måla på.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+Varför börja med ett tomt `Document`? För att Aspose.Words behandlar `Document`‑klassen som en målarduk för alla efterföljande operationer—lägga till stycken, tabeller eller former. Hoppar du över detta steg får du ett `NullPointerException` så fort du försöker infoga något.
+
+## Steg 2 – Ställ in en DocumentBuilder
+
+En `DocumentBuilder` är din vänliga penna som skriver in i `Document`. Det är det rekommenderade sättet att lägga till innehåll eftersom den automatiskt hanterar markörens position.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+Du kanske undrar: “Varför inte manipulera dokumentet direkt?” Svaret: byggaren abstraherar bort lågnivådetaljer som sektionhantering, vilket gör koden renare och mindre felbenägen.
+
+## Steg 3 – Infoga rektangelformen
+
+Nu blir det roligt—**hur man skapar form**. Vi infogar en rektangel som är 100 × 50 punkter och ger den en cyan fyllning så att du faktiskt kan se den.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+Några anmärkningar:
+
+* `ShapeType.RECTANGLE` talar om för Aspose att vi vill ha en rektangel; du kan byta ut den mot `OVAL`, `LINE` osv.
+* Måtten anges i punkter (1 pt ≈ 1/72 tum). Justera dem efter ditt layoutbehov.
+* Utan en fyllningsfärg skulle formen vara osynlig mot en vit sida—därför cyan.
+
+## Steg 4 – Lägg till en skugga och **sätt skuggfärg**
+
+Här svarar vi på **hur man lägger till skugga**‑delen av pusslet. `ShadowFormat`‑objektet styr varje visuellt aspekt av skuggan, från färg till suddradie.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+Varför just dessa värden?
+
+* **Synlighet** – Utan `setVisible(true)` ignoreras resten av inställningarna.
+* **Färg** – Grå är ett neutralt val som fungerar på både ljusa och mörka bakgrunder. Byt gärna ut `java.awt.Color.GRAY` mot någon annan `java.awt.Color` du föredrar.
+* **Suddradie** – Värdet `5.0` ger en mjuk fjäder; högre tal gör skuggan mer diffus.
+* **OffsetX/Y** – Offset flyttar skuggan åt höger och ner, vilket efterliknar ett ljus från övre vänstra hörnet.
+* **Transparens** – En halvtransparent skugga smälter bättre in i sidan, särskilt vid utskrift.
+
+Om du vill ha en skarpare look, sänk suddradiet till `0` och öka offseten. Experimentera gärna—skuggor är starkt visuella och rätt inställningar beror på ditt dokuments design.
+
+## Steg 5 – Spara dokumentet
+
+Till sist sparar vi allt till en `.docx`‑fil. Du kan välja vilken sökväg du vill; se bara till att katalogen finns.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+När du öppnar *Shadow.docx* i Microsoft Word ser du en cyan rektangel med en subtil grå skugga som ligger 4 pt åt höger och ner. Det är hela **skapa word dokument**‑arbetsflödet.
+
+### Förväntat resultat
+
+| Element | Utseende |
+|---------|----------|
+| Rektangel | Cyan fyllning, 100 × 50 pt storlek |
+| Skugga | Grå, 30 % transparent, 5 pt suddradie, offset (4, 4) |
+| Fil | `Shadow.docx` sparad på den angivna sökvägen |
+
+Om formen inte visas, dubbelkolla att fyllningsfärgen inte är samma som sidbakgrunden och att skuggan är satt till synlig.
+
+## Pro‑tips & Vanliga fallgropar
+
+* **Pro‑tips:** Använd `rectangle.setStrokeColor(java.awt.Color.BLACK);` om du vill ha en kantlinje runt formen. Det får rektangeln att framträda bättre på en utskriven sida.
+* **Se upp för:** Att spara till en skrivskyddad mapp kastar ett `IOException`. Välj en skrivbar plats eller justera filbehörigheterna.
+* **Edge case:** Om du behöver en transparent fyllning (ingen färg), anropa `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);`. Formen kastar fortfarande en skugga, vilket kan vara användbart för vattenstämpel‑liknande grafik.
+* **Prestanda‑notering:** Att lägga till hundratals former i en loop kan öka minnesanvändningen. Anropa `document.save` endast en gång efter att alla former har lagts till.
+
+## Fullt fungerande exempel
+
+Nedan är hela programmet som du kan kopiera‑klistra in i en Java‑klass kallad `ShadowDemo`. Det kompileras och körs som det är (förutsatt att du har Aspose.Words‑JAR‑filen på classpath).
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-`Document`‑klassen representerar hela .docx‑filen. Tänk på den som den anteckningsbok där du senare kommer att **add rectangle shape** och dess skugga.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## Steg 2: Bygg rektangeln – **Add rectangle shape**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-Nu konstruerar vi faktiskt rektangeln. Vi kommer att sätta dess storlek, layout och fyllningsfärg.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-Varför `INLINE`‑wrap? För att vi vill att formen ska bete sig som ett stycke—perfekt för enkla rapporter. Du kan ändra det till `TOPBOTTOM` om du senare behöver att texten flyter runt formen.
-
-## Steg 3: Applicera en skugga – **How to shadow shape**  
-
-En platt rektangel ser lite tråkig ut. Att lägga till en skugga ger den djup och får dokumentet att kännas mer polerat. Här svarar vi på “**how to shadow shape**” i praktiken.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Varje egenskap gör något specifikt:
-
-- `setVisible(true)` slår på skuggan.  
-- `setColor` väljer en mörkgrå för en subtil effekt.  
-- `setBlurRadius` styr hur mjuka kanterna blir.  
-- `setOffsetX/Y` flyttar skuggan åt höger och ner, vilket efterliknar en ljuskälla.  
-- `setTransparency` gör den lätt genomskinlig, så att formen förblir i fokus.
-
-> **Note:** Om du någonsin behöver en färgad skugga, skicka bara en annan `java.awt.Color` till `setColor`.
-
-## Steg 4: Infoga formen i dokumentet  
-
-När rektangeln och dess skugga är klara, placerar vi den i dokumentets första sektion.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-Att lägga till i kroppen placerar formen där ett nytt stycke skulle hamna. Om du vill ha rektangeln på en specifik plats kan du använda `insertBefore` eller manipulera `Paragraph`‑samlingen.
-
-## Steg 5: **Save Word document** – Spara ditt arbete  
-
-Det sista steget är att skriva filen till disk. Detta är ögonblicket då du faktiskt **save Word document**.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-Byt ut `YOUR_DIRECTORY` mot en absolut eller relativ sökväg på din maskin. Efter att programmet har körts, öppna `ShadowShape.docx` i Microsoft Word—du bör se en ljusgrå rektangel med en mjuk mörk skugga.
+Kör programmet, öppna den resulterande *Shadow.docx*, och du kommer att se rektangeln med sin skugga exakt som beskrivet.
 
-![Diagram som visar en rektangelform med skugga skapad med Aspose.Words](https://example.com/rectangle-shadow.png "skapa rektangelform med skugga")
+## Vad händer om du behöver fler former?
 
----
+Du kanske undrar, “Kan jag **skapa rektangelform** flera gånger eller använda andra former?” Absolut. Loopa bara över infogningskoden och justera koordinater med `builder.moveTo` eller `builder.insertParagraph`. Samma skugginställningar kan återanvändas genom att extrahera dem till en hjälpfunktion:
 
-## Vanliga frågor & edge‑cases  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### Vad händer om jag behöver flera rektanglar?  
+Anropa `applyStandardShadow(rectangle);` efter varje forminfogning för att hålla koden DRY (Don’t Repeat Yourself).
 
-Upprepa helt enkelt **Step 2** och **Step 3** i en loop, justera `setWidth`, `setHeight` eller `setFillColor` för varje iteration. Kom ihåg att ge varje form ett unikt variabelnamn eller lagra dem i en lista.
+## Nästa steg – Gå bortom grunderna
 
-### Kan jag exportera till PDF istället för DOCX?  
+Nu när du vet **hur man lägger till skugga**, överväg att utforska dessa relaterade ämnen:
 
-Absolut. Efter att formen har lagts till, anropa `document.save("output.pdf")`. Aspose.Words hanterar konverteringen och bevarar skuggan.
-
-### Vad händer med äldre Word‑versioner?  
-
-Använd overload‑metoden `document.save("file.doc", SaveFormat.DOC)`. API:et nedgraderar automatiskt funktioner, men observera att vissa skuggstilar kan se något annorlunda ut i äldre format.
-
-### Hur ändrar jag skuggans riktning?  
-
-Manipulera `setOffsetX` och `setOffsetY`. Positiv X flyttar skuggan åt höger, negativ åt vänster. Positiv Y flyttar ner, negativ upp. Lek med dessa siffror för att simulera en ljuskälla från vilken vinkel som helst.
-
-## Tips för att arbeta med former  
-
-- **Group shapes**: Om du behöver en etikett bredvid rektangeln, skapa en `GroupShape` och lägg till både rektangeln och en `TextBox`.  
-- **Z‑order matters**: Använd `shape.moveToFront()` eller `shape.moveToBack()` för att styra vilken form som visas överst.  
-- **Performance**: Att lägga till hundratals former kan vara långsamt. Batcha dem i en enda sektion och anropa sedan `document.updatePageLayout()` en gång i slutet.
-
-## Sammanfattning  
-
-Vi har gått igenom hur man **create rectangle shape** i ett Word‑dokument med Java, hur man **add shape shadow**, och hur man **save Word document** med resultatet. Den kompletta, körbara koden finns i kodsnuttarna ovan, och du förstår nu “varför” bakom varje egenskap—så att du kan justera färger, suddighet och offset för att passa vilken design som helst.
-
-Redo för nästa utmaning? Prova att kombinera rektangeln med ett diagram, eller exportera filen som PDF och se hur skuggan renderas. Du kan också utforska **add rectangle shape** i tabeller för snygga rapportlayouter.
-
-Lycka till med kodningen, och må dina dokument alltid vara lika skarpa som din kod!
+* **Hur man sätter skuggfärg** för textstycken – ger rubriker ett subtilt lyft.
+* **Skapa word dokument** med tabeller och bilder – kombinera former med annat innehåll.
+* **Hur man skapar form**‑animationer med Words inbyggda verktyg
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-15
-description: Maak een rechthoekvorm in een Word‑document met Java. Leer hoe je een
-  vormschaduw toevoegt, het Word‑document opslaat en een rechthoekvorm toevoegt met
-  Aspose.Words.
+date: 2026-02-10
+description: Maak een rechthoekvorm in een Word‑document met Aspose.Words voor Java.
+  Leer hoe je de schaduwkleur instelt, hoe je een schaduw toevoegt en hoe je een Word‑document
+  programmeermatig maakt.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: nl
-og_description: Maak een rechthoekvorm in een Word‑bestand met Java. Deze gids laat
-  zien hoe je een vormschaduw toevoegt, een Word‑document opslaat en stap voor stap
-  een rechthoekvorm toevoegt.
-og_title: Maak een rechthoekvorm – Java Aspose.Words Tutorial
+og_description: Maak een rechthoekvorm in een Word‑document met Aspose.Words voor
+  Java. Volg deze stapsgewijze tutorial om de schaduwkleur in te stellen, een schaduw
+  toe te voegen en een Word‑document te maken.
+og_title: Rechthoekvorm maken in Word met Java – Volledige gids
 tags:
 - Aspose.Words
 - Java
@@ -30,138 +30,189 @@ url: /nl/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 
 # Rechthoekvorm maken in Word met Java – Volledige gids
 
-Heb je ooit een **rechthoekvorm** in een Word‑bestand moeten **maken**, maar wist je niet waar te beginnen? Je bent niet de enige—veel ontwikkelaars lopen tegen die muur aan bij het automatiseren van rapporten of facturen. Het goede nieuws? Met Aspose.Words for Java kun je in een handvol regels een rechthoek creëren, er een mooie schaduw aan geven en het Word‑document opslaan.
+Heb je ooit **een rechthoekvorm** moeten maken in een Word‑document, maar wist je niet waar te beginnen? Je bent niet de enige—veel ontwikkelaars lopen tegen die muur aan wanneer ze voor het eerst proberen grafische elementen programmatisch te tekenen in Word. Het goede nieuws? Met Aspose.Words for Java kun je een rechthoek op een pagina plaatsen, er een mooie schaduw aan geven en het bestand binnen enkele seconden opslaan. In deze tutorial lopen we stap voor stap door **hoe je een schaduw toevoegt**, **hoe je de schaduwkleur instelt**, en **hoe je een Word‑document** vanaf nul maakt.  
 
-In deze tutorial lopen we alles door wat je nodig hebt: van het initialiseren van een leeg document, tot het configureren van een schaduw, tot het uiteindelijk opslaan van het bestand. Aan het einde weet je **hoe je vormschaduw** toevoegt, hoe je **vormschaduw** toevoegt, en hoe je **rechthoekvorm** toevoegt aan elk Word‑document dat je genereert. Geen externe documentatie nodig—alleen pure, uitvoerbare code.
+We behandelen alles wat je nodig hebt: de vereiste bibliotheken, elke regel code, waarom bepaalde instellingen belangrijk zijn, en een paar trucjes die je misschien niet in de officiële documentatie vindt. Aan het einde heb je een kant‑klaar voorbeeld dat een rechthoekvorm met een zachte grijze schaduw maakt, opgeslagen als *Shadow.docx*.
 
-## Vereisten
+## Vereisten – Wat je nodig hebt voordat je begint
 
-- Java 8 of nieuwer (de API werkt ook met Java 11+).  
-- Aspose.Words for Java‑bibliotheek (versie 23.9 of later).  
-- Een IDE zoals IntelliJ IDEA of Eclipse—elk werkt.  
-- Basiskennis van Java‑syntaxis.
+Voordat we in de code duiken, zorg dat je het volgende hebt:
 
-> **Pro tip:** Als je Maven gebruikt, voeg dan de Aspose.Words‑dependency toe aan je `pom.xml` en laat de IDE de rest afhandelen.
+| Vereiste | Reden |
+|----------|-------|
+| Java Development Kit (JDK) 8 of nieuwer | Aspose.Words draait op elke moderne JDK. |
+| Maven of Gradle (optioneel) | Vereenvoudigt het toevoegen van de Aspose.Words‑dependency. |
+| Aspose.Words for Java‑licentie (of een gratis proefversie) | De bibliotheek is commercieel; een proefversie werkt voor testen. |
+| Een IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) | Helpt je het voorbeeld snel uit te voeren en te debuggen. |
 
----
+Als je al een Java‑project hebt, voeg dan gewoon de Maven‑coördinaat toe:
 
-## Stap 1: Een nieuw document initialiseren – Hoe **rechthoekvorm** te **maken**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-Allereerst: je hebt een schoon canvas nodig. In Aspose.Words is dat canvas een `Document`‑object.
+Geen ingewikkelde setup nodig—een eenvoudige `public static void main`‑methode volstaat.
+
+![voorbeeld van rechthoekvorm](https://example.com/rectangle-shadow.png "rechthoekvorm met schaduw in Word")
+
+*Afbeeldings‑alt‑tekst: voorbeeld van rechthoekvorm dat een cyaan rechthoek met een grijze schaduw toont.*
+
+## Stap 1 – Een nieuw Word‑document maken
+
+Het eerste wat we moeten doen is een leeg document aanmaken. Beschouw het als het openen van een nieuw Word‑bestand waarop je later gaat tekenen.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+Waarom beginnen met een lege `Document`? Omdat Aspose.Words de `Document`‑klasse beschouwt als het canvas voor alle daaropvolgende bewerkingen—het toevoegen van alinea’s, tabellen of vormen. Als je deze stap overslaat, krijg je een `NullPointerException` op het moment dat je iets probeert in te voegen.
+
+## Stap 2 – Een DocumentBuilder instellen
+
+Een `DocumentBuilder` is je vriendelijke pen die in het `Document` schrijft. Het is de aanbevolen manier om inhoud toe te voegen omdat het automatisch de cursorpositie beheert.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+Je vraagt je misschien af: “Waarom niet direct met het document werken?” Het antwoord: de builder abstraheert low‑level details zoals sectiebeheer, waardoor de code schoner en minder foutgevoelig wordt.
+
+## Stap 3 – De rechthoekvorm invoegen
+
+Nu komt het leuke deel—**hoe je een vorm maakt**. We voegen een rechthoek van 100 × 50 punten toe en geven deze een cyaan vulling zodat je hem daadwerkelijk kunt zien.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+Een paar opmerkingen:
+
+* `ShapeType.RECTANGLE` vertelt Aspose dat we een rechthoek willen; je kunt dit vervangen door `OVAL`, `LINE`, etc.
+* De afmetingen worden uitgedrukt in punten (1 pt ≈ 1/72 in). Pas ze aan naar jouw lay‑out.
+* Zonder vullingskleur zou de vorm onzichtbaar zijn tegen een witte pagina—vandaar de cyaan.
+
+## Stap 4 – Een schaduw toevoegen en **schaduwkleur instellen**
+
+Hier beantwoorden we het **hoe je een schaduw toevoegt** deel van de puzzel. Het `ShadowFormat`‑object regelt elk visueel aspect van de schaduw, van kleur tot vervagingsradius.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+Waarom juist deze waarden?
+
+* **Zichtbaarheid** – Zonder `setVisible(true)` worden de overige instellingen genegeerd.
+* **Kleur** – Grijs is een neutrale keuze die zowel op lichte als donkere achtergronden werkt. Vervang gerust `java.awt.Color.GRAY` door elke gewenste `java.awt.Color`.
+* **Vervagingsradius** – Een waarde van `5.0` geeft een zachte veder; hogere getallen maken de schaduw meer diffuus.
+* **OffsetX/Y** – Offsets verschuiven de schaduw naar rechts en naar beneden, alsof het licht van links‑boven komt.
+* **Transparantie** – Een half‑transparante schaduw mengt zich beter met de pagina, vooral bij afdrukken.
+
+Als je een scherpere look wilt, zet de vervagingsradius op `0` en vergroot de offset. Experimenteren wordt aangemoedigd—schaduwen zijn sterk visueel, en de juiste instellingen hangen af van het ontwerp van je document.
+
+## Stap 5 – Het document opslaan
+
+Tot slot slaan we alles op in een `.docx`‑bestand. Je kunt elk pad kiezen dat je wilt; zorg er alleen voor dat de map bestaat.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+Wanneer je *Shadow.docx* opent in Microsoft Word, zie je een cyaan rechthoek met een subtiele grijze schaduw die 4 pts naar rechts en naar beneden zweeft. Dat is de volledige **create word document**‑workflow.
+
+### Verwacht resultaat
+
+| Element | Uiterlijk |
+|---------|-----------|
+| Rechthoek | Cyaan vulling, 100 × 50 pt grootte |
+| Schaduw | Grijs, 30 % transparant, 5 pt vervaging, offset (4, 4) |
+| Bestand | `Shadow.docx` opgeslagen op het opgegeven pad |
+
+Als de vorm niet verschijnt, controleer dan of de vullingskleur niet gelijk is aan de paginabackground en of de schaduw op zichtbaar staat.
+
+## Pro‑tips & Veelvoorkomende valkuilen
+
+* **Pro tip:** Gebruik `rectangle.setStrokeColor(java.awt.Color.BLACK);` als je een rand rond de vorm wilt. Dit laat de rechthoek beter opvallen op een afgedrukte pagina.
+* **Let op:** Opslaan in een alleen‑lezen map veroorzaakt een `IOException`. Kies een schrijfbare locatie of pas de bestandsrechten aan.
+* **Randgeval:** Als je een transparante vulling (geen kleur) nodig hebt, roep dan `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);` aan. De vorm zal nog steeds een schaduw werpen, wat handig kan zijn voor watermerk‑achtige graphics.
+* **Prestatie‑opmerking:** Het toevoegen van honderden vormen in een lus kan het geheugenverbruik verhogen. Roep `document.save` slechts één keer aan nadat alle vormen zijn toegevoegd.
+
+## Volledig werkend voorbeeld
+
+Hieronder staat het volledige programma dat je kunt kopiëren‑plakken in een Java‑klasse genaamd `ShadowDemo`. Het compileert en draait direct (mits je de Aspose.Words‑JAR op het classpath hebt).
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-De `Document`‑klasse vertegenwoordigt het volledige .docx‑bestand. Beschouw het als het notitieboek waarin je later **rechthoekvorm** en de bijbehorende schaduw **toevoegt**.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## Stap 2: De rechthoek bouwen – **Rechthoekvorm** **toevoegen**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-Nu bouwen we de rechthoek daadwerkelijk. We stellen de grootte, lay‑out en vulkleur in.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-Waarom `INLINE`‑wrap? Omdat we willen dat de vorm zich gedraagt als een alinea—perfect voor eenvoudige rapporten. Je kunt dit wijzigen naar `TOPBOTTOM` als je later tekst om de vorm heen wilt laten vloeien.
-
-## Stap 3: Een schaduw toepassen – **Hoe vormschaduw** toe te passen**  
-
-Een platte rechthoek ziet er een beetje saai uit. Een schaduw geeft diepte en maakt het document meer afgewerkt. Hier beantwoorden we praktisch “**hoe vormschaduw** toe te passen”.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Elke eigenschap doet iets specifieks:
-
-- `setVisible(true)` zet de schaduw aan.  
-- `setColor` kiest een donkergrijs voor een subtiel effect.  
-- `setBlurRadius` bepaalt hoe zacht de randen verschijnen.  
-- `setOffsetX/Y` verplaatst de schaduw naar rechts en omlaag, alsof er een lichtbron is.  
-- `setTransparency` maakt de schaduw een beetje doorschijnend, zodat de vorm de ster blijft.
-
-> **Opmerking:** Als je ooit een gekleurde schaduw nodig hebt, geef dan een andere `java.awt.Color` door aan `setColor`.
-
-## Stap 4: De vorm in het document invoegen  
-
-Met de rechthoek en zijn schaduw klaar, voegen we deze toe aan de eerste sectie van het document.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-Toevoegen aan de body plaatst de vorm waar een nieuwe alinea zou staan. Als je de rechthoek op een specifieke locatie wilt, kun je `insertBefore` gebruiken of de `Paragraph`‑collectie manipuleren.
-
-## Stap 5: **Word‑document opslaan** – Bewaar je werk  
-
-De laatste stap is het bestand naar schijf schrijven. Dit is het moment waarop je daadwerkelijk **Word‑document opslaat**.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-Vervang `YOUR_DIRECTORY` door een absoluut of relatief pad op jouw machine. Na het uitvoeren van het programma, open `ShadowShape.docx` in Microsoft Word—je zou een lichtgrijze rechthoek met een zachte donkere schaduw moeten zien.
+Voer het programma uit, open het resulterende *Shadow.docx*, en je ziet de rechthoek met zijn schaduw precies zoals beschreven.
 
-![Diagram dat een rechthoekvorm met schaduw toont, gemaakt met Aspose.Words](https://example.com/rectangle-shadow.png "rechthoekvorm met schaduw maken")
+## Wat als je meer vormen nodig hebt?
 
----
+Je vraagt je misschien af: “Kan ik **rechthoekvorm maken** meerdere keren of andere vormen gebruiken?” Absoluut. Loop gewoon over de invoegcode en pas de coördinaten aan met `builder.moveTo` of `builder.insertParagraph`. Dezelfde schaduwinstellingen kun je hergebruiken door ze in een hulpfunctie te plaatsen:
 
-## Veelgestelde vragen & randgevallen  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### Wat als ik meerdere rechthoeken nodig heb?  
+Roep `applyStandardShadow(rectangle);` aan na elke vorminvoeging om je code DRY (Don’t Repeat Yourself) te houden.
 
-Herhaal gewoon **Stap 2** en **Stap 3** in een lus, waarbij je `setWidth`, `setHeight` of `setFillColor` per iteratie aanpast. Zorg ervoor dat elke vorm een unieke variabelenaam krijgt of bewaar ze in een lijst.
+## Volgende stappen – Verder gaan dan de basis
 
-### Kan ik exporteren naar PDF in plaats van DOCX?  
+Nu je weet **hoe je een schaduw toevoegt**, overweeg dan deze gerelateerde onderwerpen:
 
-Zeker. Nadat de vorm is toegevoegd, roep je `document.save("output.pdf")` aan. Aspose.Words verzorgt de conversie en behoudt de schaduw.
-
-### Hoe zit het met oudere Word‑versies?  
-
-Gebruik de overload `document.save("file.doc", SaveFormat.DOC)`. De API degradeert automatisch de functies, maar let op dat sommige schaduwstijlen er iets anders uit kunnen zien in legacy‑formaten.
-
-### Hoe verander ik de richting van de schaduw?  
-
-Pas `setOffsetX` en `setOffsetY` aan. Een positieve X verplaatst de schaduw naar rechts, een negatieve naar links. Een positieve Y verplaatst naar beneden, een negatieve naar boven. Speel met die getallen om een lichtbron vanuit elke hoek te simuleren.
-
----
-
-## Tips voor werken met vormen  
-
-- **Vormen groeperen**: Als je een label naast de rechthoek nodig hebt, maak dan een `GroupShape` en voeg zowel de rechthoek als een `TextBox` toe.  
-- **Z‑order is belangrijk**: Gebruik `shape.moveToFront()` of `shape.moveToBack()` om te bepalen welke vorm bovenop verschijnt.  
-- **Prestaties**: Het toevoegen van honderden vormen kan traag zijn. Groepeer ze in één sectie en roep daarna één keer `document.updatePageLayout()` aan.
-
----
-
-## Samenvatting  
-
-We hebben behandeld hoe je een **rechthoekvorm** in een Word‑document maakt met Java, hoe je **vormschaduw** toevoegt, en hoe je het **Word‑document** opslaat met het resultaat. De volledige, uitvoerbare code staat in de bovenstaande fragmenten, en je begrijpt nu het “waarom” achter elke eigenschap—zodat je kleuren, vervaging en offsets kunt aanpassen aan elk ontwerp.
-
-Klaar voor de volgende uitdaging? Probeer de rechthoek te combineren met een grafiek, of exporteer het bestand als PDF en bekijk hoe de schaduw wordt weergegeven. Je kunt ook **rechthoekvorm** **toevoegen** binnen tabellen voor stijlvolle rapportlay‑outs.
-
-Veel plezier met coderen, en moge je documenten er altijd net zo scherp uitzien als je code!
+* **Hoe je schaduwkleur instelt** voor tekst‑runs – geeft titels een subtiele lift.
+* **Create word document** met tabellen en afbeeldingen – combineer vormen met andere inhoud.
+* **Hoe je vorm‑animaties maakt** met de ingebouwde mogelijkheden van Word
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

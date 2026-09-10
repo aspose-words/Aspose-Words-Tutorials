@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-15
-description: Hozzon létre téglalap alakzatot egy Word dokumentumban Java használatával.
-  Tanulja meg, hogyan adjon hozzá alakzati árnyékot, mentse a Word dokumentumot, és
-  adjon hozzá téglalap alakzatot az Aspose.Words segítségével.
+date: 2026-02-10
+description: Hozzon létre téglalap alakzatot egy Word dokumentumban az Aspose.Words
+  for Java segítségével. Tanulja meg, hogyan állíthatja be az árnyék színét, hogyan
+  adhat hozzá árnyékot, és hogyan hozhat létre Word dokumentumot programozottan.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: hu
-og_description: Hozzon létre téglalap alakzatot egy Word-fájlban Java-val. Ez az útmutató
-  bemutatja, hogyan adjon árnyékot az alakzathoz, mentse el a Word-dokumentumot, és
-  lépésről lépésre adjon hozzá téglalap alakzatot.
-og_title: Téglalap alakzat létrehozása – Java Aspose.Words útmutató
+og_description: Hozzon létre téglalap alakzatot egy Word dokumentumban az Aspose.Words
+  for Java használatával. Kövesse ezt a lépésről‑lépésre útmutatót az árnyékszín beállításához,
+  árnyék hozzáadásához és a Word dokumentum létrehozásához.
+og_title: Téglalap alakzat létrehozása a Wordben Java-val – Teljes útmutató
 tags:
 - Aspose.Words
 - Java
@@ -28,140 +28,191 @@ url: /hu/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Téglalap alakzat létrehozása Word-ben Java-val – Teljes útmutató
+# Téglalap alakzat létrehozása Wordben Java‑val – Teljes útmutató
 
-Valaha szükséged volt **téglalap alakzat** létrehozására egy Word fájlban, de nem tudtad, hol kezdj? Nem vagy egyedül – sok fejlesztő szembesül ezzel a problémával jelentések vagy számlák automatizálásakor. A jó hír? Az Aspose.Words for Java segítségével néhány sorban létrehozhatsz egy téglalapot, adhatod hozzá egy szép árnyékot, és elmentheted a Word dokumentumot.
+Valaha is szükséged volt **téglalap alakzat** létrehozására egy Word‑dokumentumban, de nem tudtad, hol kezdjed? Nem vagy egyedül — sok fejlesztő ütközik ebbe a falba, amikor először próbál programozottan grafikát rajzolni Wordben. A jó hír? Az Aspose.Words for Java‑val könnyedén elhelyezhetsz egy téglalapot az oldalon, szép árnyékot adhatsz hozzá, és néhány másodperc alatt elmentheted a fájlt. Ebben a tutorialban pontosan végigvezetünk **hogyan adhatunk árnyékot**, **hogyan állítható be az árnyék színe**, és **hogyan hozhatunk létre Word‑dokumentumot** nulláról.  
 
-Ebben az útmutatóban mindent végigvezetünk, amire szükséged van: egy üres dokumentum inicializálásától, az árnyék beállításáig, egészen a fájl mentéséig. A végére megtudod, **hogyan árnyékolj alakzatot**, hogyan **adj hozzá alakzat árnyékot**, és hogyan **adj hozzá téglalap alakzatot** bármely általad generált Word dokumentumhoz. Nincs szükség külső dokumentumokra – csak tiszta, futtatható kód.
+Mindent lefedünk, amire szükséged lesz: a szükséges könyvtárakat, minden kódsort, hogy miért fontosak bizonyos beállítások, és néhány trükköt, amit a hivatalos dokumentációban nem találhatsz. A végére egy kész, futtatható példát kapsz, amely egy téglalap alakzatot hoz létre lágy szürke árnyékkal, és *Shadow.docx* néven menti el.
 
-## Prerequisites
+## Előfeltételek – Amit a kezdés előtt szükséges
 
-- Java 8 vagy újabb (az API Java 11+ verzióval is működik).  
-- Aspose.Words for Java könyvtár (23.9 vagy újabb verzió).  
-- IDE, például IntelliJ IDEA vagy Eclipse – bármelyik megfelel.  
-- Alapvető ismeretek a Java szintaxisában.
+Mielőtt a kódba merülnénk, győződj meg róla, hogy a következőkkel rendelkezel:
 
-> **Pro tip:** Ha Maven-t használsz, add hozzá az Aspose.Words függőséget a `pom.xml`-hez, és hagyd, hogy az IDE a többit kezelje.
+| Követelmény | Indoklás |
+|-------------|----------|
+| Java Development Kit (JDK) 8 vagy újabb | Az Aspose.Words bármely modern JDK‑n fut. |
+| Maven vagy Gradle (opcionális) | Egyszerűsíti az Aspose.Words függőség hozzáadását. |
+| Aspose.Words for Java licenc (vagy ingyenes próba) | A könyvtár kereskedelmi, a próba verzió tesztelésre elegendő. |
+| IDE (IntelliJ IDEA, Eclipse, VS Code, stb.) | Segít gyorsan futtatni és hibakeresni a példát. |
 
----
+Ha már van egy Java projekted, csak add hozzá a Maven koordinátát:
 
-## Step 1: Initialize a New Document – How to **create rectangle shape**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-Először is szükséged van egy tiszta vászonra. Az Aspose.Words-ben ez a vászon egy `Document` objektum.
+Semmi bonyolult beállítás nincs – egy egyszerű `public static void main` metódus is elegendő.
+
+![create rectangle shape example](https://example.com/rectangle-shadow.png "create rectangle shape with shadow in Word")
+
+*Kép alt szöveg: téglalap alakzat példa, amely egy cián színű téglalapot mutat szürke árnyékkal.*
+
+## 1. lépés – Új Word‑dokumentum létrehozása
+
+Az első teendő egy üres dokumentum felpörgetése. Gondolj rá úgy, mint egy friss Word‑fájl megnyitására, amelyre később festeni fogsz.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+Miért kezdünk egy üres `Document`‑tel? Mert az Aspose.Words a `Document` osztályt tekinti a vászonnak minden további művelethez — bekezdések, táblázatok vagy alakzatok hozzáadásához. Ha kihagyod ezt a lépést, már a legelső beszúráskor `NullPointerException`-t kapsz.
+
+## 2. lépés – DocumentBuilder beállítása
+
+A `DocumentBuilder` a barátságos tollad, amely a `Document`‑be ír. Ez az ajánlott mód a tartalom hozzáadására, mivel automatikusan kezeli a kurzor pozícióját.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+Lehet, hogy azt kérdezed: „Miért ne manipulálnám közvetlenül a dokumentumot?” A válasz: a builder elrejti az alacsony szintű részleteket, például a szekciókezelést, így a kód tisztább és kevésbé hibára hajlamos.
+
+## 3. lépés – Téglalap alakzat beszúrása
+
+Most jön a szórakoztató rész — **hogyan hozzunk létre alakzatot**. Beszúrunk egy 100 × 50 pont méretű téglalapot, és cián kitöltést adunk neki, hogy látható legyen.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+Néhány megjegyzés:
+
+* `ShapeType.RECTANGLE` azt mondja az Aspose‑nak, hogy téglalapot akarunk; helyettesíthető `OVAL`, `LINE`, stb. értékekkel.
+* A méretek pontban vannak megadva (1 pt ≈ 1/72 in). Igazítsd őket a saját elrendezésedhez.
+* Kitöltőszín nélkül az alakzat láthatatlan maradna a fehér oldalon — ezért használunk ciánt.
+
+## 4. lépés – Árnyék hozzáadása és **árnyék szín beállítása**
+
+Itt válaszolunk a **hogyan adhatunk árnyékot** kérdésre. A `ShadowFormat` objektum vezérli az árnyék minden vizuális aspektusát, a színtől a elmosódási sugáron át.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+Miért ezek az értékek?
+
+* **Láthatóság** – `setVisible(true)` nélkül a többi beállítás figyelmen kívül marad.
+* **Szín** – A szürke semleges választás, amely mind világos, mind sötét háttéren jól működik. Nyugodtan cseréld le a `java.awt.Color.GRAY`‑t bármely `java.awt.Color`‑ra, amit szeretnél.
+* **Elmosódási sugár** – Az `5.0` érték enyhe szárnyas hatást ad; nagyobb számok diffúzabbá teszik az árnyékot.
+* **OffsetX/Y** – Az eltolások jobbra és lejjebb tolják az árnyékot, mintha a fényforrás a bal‑felső sarokból jönne.
+* **Átlátszóság** – Egy félig átlátszó árnyék jobban beleolvad az oldalba, különösen nyomtatáskor.
+
+Ha élesebb megjelenést szeretnél, állítsd a blur radius‑t `0`‑ra, és növeld az offsetet. Kísérletezés ajánlott — az árnyékok erősen vizuális elemek, és a megfelelő beállítások a dokumentumod dizájnjától függenek.
+
+## 5. lépés – Dokumentum mentése
+
+Végül mindent elmentünk egy `.docx` fájlba. Bármilyen útvonalat választhatsz, csak győződj meg róla, hogy a könyvtár létezik.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+Amikor megnyitod a *Shadow.docx*-t a Microsoft Word‑ben, egy cián téglalapot látsz egy finom szürke árnyékkal, amely 4 pt‑rel jobbra és lejjebb helyezkedik el. Ez a teljes **create word document** munkafolyamat.
+
+### Várt eredmény
+
+| Elem | Megjelenés |
+|------|------------|
+| Téglalap | Cián kitöltés, 100 × 50 pt méret |
+| Árnyék | Szürke, 30 % átlátszó, 5 pt blur, eltolás (4, 4) |
+| Fájl | `Shadow.docx` a megadott útvonalon tárolva |
+
+Ha az alakzat nem jelenik meg, ellenőrizd, hogy a kitöltőszín nem egyezik-e az oldal háttérszínével, és hogy az árnyék látható‑re van‑állítva.
+
+## Profi tippek és gyakori buktatók
+
+* **Pro tip:** Használd a `rectangle.setStrokeColor(java.awt.Color.BLACK);`‑t, ha szegélyt szeretnél az alakzatra. Ez jobban kiemeli a téglalapot nyomtatott oldalon.
+* **Vigyázz:** Írás egy csak‑olvasható mappába `IOException`‑t dob. Válassz írható helyet, vagy módosítsd a fájlengedélyeket.
+* **Szélhelyzet:** Ha átlátszó kitöltést (nincs szín) akarsz, hívd a `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);`‑t. Az alakzat továbbra is vet árnyékot, ami vízjel‑stílusú grafikáknál hasznos lehet.
+* **Teljesítmény:** Több száz alakzat hozzáadása egy ciklusban növelheti a memóriahasználatot. A `document.save`‑t csak egyszer hívd meg, miután az összes alakzatot beszúrtad.
+
+## Teljes működő példa
+
+Az alábbiakban az egész programot láthatod, amelyet egyszerűen bemásolhatsz egy `ShadowDemo` nevű Java‑osztályba. Fordítható és futtatható (ha az Aspose.Words JAR a classpath‑on van).
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-A `Document` osztály képviseli a teljes .docx fájlt. Gondolj rá úgy, mint egy jegyzetfüzetre, ahová később **téglalap alakzatot** és annak árnyékát fogod **hozzáadni**.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## Step 2: Build the Rectangle – **Add rectangle shape**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-Most ténylegesen felépítjük a téglalapot. Beállítjuk a méretét, elrendezését és kitöltőszínét.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-Miért `INLINE` csomagolás? Mert azt akarjuk, hogy az alakzat úgy viselkedjen, mint egy bekezdés – tökéletes egyszerű jelentésekhez. Később, ha szöveget szeretnél körülfolyatni az alakzat körül, átállíthatod `TOPBOTTOM`-ra.
-
-## Step 3: Apply a Shadow – **How to shadow shape**  
-
-Egy lapos téglalap kissé unalmas. Az árnyék hozzáadása mélységet kölcsönöz, és a dokumentumot kifinomultabbá teszi. Itt válaszolunk a “**hogyan árnyékolj alakzatot**” kérdésre a gyakorlatban.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Minden tulajdonság valami konkrétat csinál:
-
-- `setVisible(true)` bekapcsolja az árnyékot.  
-- `setColor` egy sötétszürke színt választ a finom hatáshoz.  
-- `setBlurRadius` szabályozza, mennyire lágyak a szélek.  
-- `setOffsetX/Y` jobbra és lefele mozgatja az árnyékot, egy fényforrást utánozva.  
-- `setTransparency` enyhén átlátszóvá teszi, így a forma marad a főszereplő.
-
-> **Note:** Ha színes árnyékra van szükséged, egyszerűen adj át egy másik `java.awt.Color` értéket a `setColor`-nek.
-
-## Step 4: Insert the Shape into the Document  
-
-A téglalap és az árnyéka készen áll, most beillesztjük a dokumentum első szakaszába.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-A testhez való hozzáfűzés azt a helyet teszi az alakzatot, ahol egy új bekezdés lenne. Ha a téglalapot egy konkrét helyre szeretnéd, használhatod a `insertBefore`-t vagy manipulálhatod a `Paragraph` gyűjteményt.
-
-## Step 5: **Save Word document** – Persist Your Work  
-
-Az utolsó lépés a fájl lemezre írása. Ez az a pillanat, amikor ténylegesen **Word dokumentumot mentünk**.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-Cseréld le a `YOUR_DIRECTORY`-t a gépeden lévő abszolút vagy relatív útvonalra. A program futtatása után nyisd meg a `ShadowShape.docx`-et a Microsoft Wordben – egy világosszürke téglalapot kell látnod egy lágy sötét árnyékkal.
+Futtasd a programot, nyisd meg a keletkezett *Shadow.docx*-t, és a leírtaknak megfelelően megjelenik a téglalap árnyékkal.
 
-![Diagram, amely egy Aspose.Words segítségével létrehozott téglalap alakzatot árnyékkal mutat](https://example.com/rectangle-shadow.png "téglalap alakzat létrehozása árnyékkal")
+## Mit tegyünk, ha több alakzatot szeretnénk?
 
----
+Lehet, hogy azt kérdezed: „Létrehozhatok‑e **téglalap alakzatot** többször, vagy használhatok‑e más alakzatokat?” Természetesen. Csak ismételd meg a beszúrási kódot egy ciklusban, és állítsd be a koordinátákat a `builder.moveTo` vagy a `builder.insertParagraph` segítségével. Ugyanazokat az árnyékbeállításokat újra‑felhasználhatod egy segédmetódusba kiemelve:
 
-## Common Questions & Edge Cases  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### Mi van, ha több téglalapra van szükségem?  
+Hívd meg az `applyStandardShadow(rectangle);`‑t minden alakzat beszúrása után, hogy a kód DRY (Don’t Repeat Yourself) maradjon.
 
-Csak ismételd meg **Step 2**-t és **Step 3**-at egy ciklusban, minden iterációban állítva a `setWidth`, `setHeight` vagy `setFillColor` értékét. Ne felejts egyedi változóneveket adni minden alakzatnak, vagy tárold őket egy listában.
+## Következő lépések – Túl a alapokon
 
-### Exportálhatok PDF-be a DOCX helyett?  
+Most, hogy tudod **hogyan adjunk árnyékot**, érdemes megismerned ezeket a kapcsolódó témákat:
 
-Természetesen. Az alakzat hozzáadása után hívd meg a `document.save("output.pdf")` metódust. Az Aspose.Words elvégzi a konverziót, megőrizve az árnyékot.
-
-### Mi a helyzet a régebbi Word verziókkal?  
-
-Használd a `document.save("file.doc", SaveFormat.DOC)` túlterhelést. Az API automatikusan lejjebb verzióra konvertálja a funkciókat, de vedd figyelembe, hogy egyes árnyékstílusok kissé eltérhetnek a régi formátumokban.
-
-### Hogyan változtathatom meg az árnyék irányát?  
-
-Manipuláld a `setOffsetX` és `setOffsetY` értékeket. Pozitív X jobbra, negatív balra mozgatja az árnyékot. Pozitív Y lefelé, negatív felfelé. Kísérletezz ezekkel a számokkal, hogy bármilyen szögből származó fényforrást szimulálj.
-
----
-
-## Tips for Working with Shapes  
-
-- **Group shapes**: Ha a téglalap mellett címkét is szeretnél, hozz létre egy `GroupShape`-et, és add hozzá mind a téglalapot, mind egy `TextBox`-ot.  
-- **Z‑order matters**: Használd a `shape.moveToFront()` vagy `shape.moveToBack()` metódusokat, hogy szabályozd, melyik alakzat jelenik meg felül.  
-- **Performance**: Több száz alakzat hozzáadása lassú lehet. Csoportosítsd őket egyetlen szakaszba, majd a végén egyszer hívd meg a `document.updatePageLayout()`-ot.
-
----
-
-## Recap  
-
-Áttekintettük, hogyan **téglalap alakzatot** hozhatsz létre egy Word dokumentumban Java-val, hogyan **adj hozzá alakzat árnyékot**, és hogyan **Word dokumentumot mentünk** az eredménnyel. A teljes, futtatható kód a fenti snippet-ekben található, és most már érted a tulajdonságok „miértjét” – így színeket, elmosódást és eltolásokat tetszés szerint módosíthatsz bármilyen dizájnhoz.
-
-Készen állsz a következő kihívásra? Próbáld meg kombinálni a téglalapot egy diagrammal, vagy exportáld a fájlt PDF-be, és nézd meg, hogyan jelenik meg az árnyék. Érdemes lehet **téglalap alakzatot** táblázatokon belül is felfedezni a látványos jelentéselrendezésekhez.
-
-Boldog kódolást, és legyenek a dokumentumaid mindig olyan élesek, mint a kódod!
+* **Hogyan állítható be az árnyék színe** szövegrészekhez – finom emelést ad a címeknek.
+* **Create word document** táblázatokkal és képekkel – kombináld az alakzatokat más tartalommal.
+* **Hogyan hozható létre alakzat** animáció a Word beépített lehetőségeivel
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

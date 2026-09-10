@@ -94,6 +94,9 @@ Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie 
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
 
+### [Wie man docx wiederherstellt – Vollständiger Leitfaden zum Lesen beschädigter Word-Dateien](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java wiederherstellen und lesbar machen.
+
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.
 
@@ -130,6 +133,11 @@ Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speiche
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
 Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
 
+### [Beschädigtes docx wiederherstellen – Vollständiger Leitfaden zum Reparieren und Verarbeiten von Dokumenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend mit Aspose.Words für Java verarbeiten.
+
+### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
 ### [Wiederherstellungsmodus festlegen, um beschädigtes Word‑Dokument zu reparieren](./set-recovery-mode-to-recover-broken-word-document/)
 Lernen Sie, wie Sie den Wiederherstellungsmodus setzen, um beschädigte Word‑Dokumente mit Aspose.Words für Java zu reparieren.
 

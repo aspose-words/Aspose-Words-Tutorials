@@ -1,0 +1,7 @@
+Title: save docx as pdf with Python – convert docx to pdf and export shapes
+Slug: save-docx-as-pdf-with-python-convert-docx-to-pdf-and-export
+Category: document-conversion
+ProcessedDate: 2026-06-30T21:23:36.432437
+SourceRepo: AI Search API
+Keywords: save docx as pdf, convert docx to pdf, how to export shapes, make pdf accessible, save document pdf python
+PRNumber: 218

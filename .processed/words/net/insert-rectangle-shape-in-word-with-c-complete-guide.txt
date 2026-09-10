@@ -1,0 +1,7 @@
+Title: Insert rectangle shape in Word with C# – complete guide
+Slug: insert-rectangle-shape-in-word-with-c-complete-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-08-11T07:19:21.646109
+SourceRepo: AI Search API
+Keywords: insert rectangle shape, how to hide shape, hide shape in word, create hidden shape
+PRNumber: 249

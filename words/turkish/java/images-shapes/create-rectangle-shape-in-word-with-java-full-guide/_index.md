@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-15
-description: Java kullanarak bir Word belgesine dikdörtgen şekli oluşturun. Şekil
-  gölgesi eklemeyi, Word belgesini kaydetmeyi ve Aspose.Words ile dikdörtgen şekli
-  eklemeyi öğrenin.
+date: 2026-02-10
+description: Aspose.Words for Java kullanarak bir Word belgesine dikdörtgen şekli
+  oluşturun. Gölge rengini nasıl ayarlayacağınızı, gölgeyi nasıl ekleyeceğinizi öğrenin
+  ve programlı olarak Word belgesi oluşturun.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: tr
-og_description: Java ile bir Word dosyasında dikdörtgen şekli oluşturun. Bu kılavuz,
-  şekil gölgesi eklemeyi, Word belgesini kaydetmeyi ve adım adım dikdörtgen şekli
-  eklemeyi gösterir.
-og_title: Dikdörtgen şekli oluştur – Java Aspose.Words Öğreticisi
+og_description: Aspose.Words for Java kullanarak bir Word belgesinde dikdörtgen şekil
+  oluşturun. Gölge rengini ayarlamak, gölge eklemek ve Word belgesi oluşturmak için
+  bu adım adım öğreticiyi izleyin.
+og_title: Java ile Word’de Dikdörtgen Şekil Oluşturma – Tam Rehber
 tags:
 - Aspose.Words
 - Java
@@ -28,140 +28,191 @@ url: /tr/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java’da Word Belgesine Dikdörtgen Şekli Oluşturma – Tam Kılavuz
+# Word'de Dikdörtgen Şekli Oluşturma – Java – Tam Kılavuz
 
-Bir Word dosyasında **dikdörtgen şekil** oluşturmanız gerektiğinde nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—birçok geliştirici raporlar veya faturalar otomatikleştirirken bu engelle karşılaşıyor. İyi haber? Aspose.Words for Java ile birkaç satır kodla bir dikdörtgen oluşturabilir, güzel bir gölge ekleyebilir ve Word belgesini kaydedebilirsiniz.
+Bir Word belgesinde **dikdörtgen şekli oluşturma** ihtiyacı duydunuz ama nereden başlayacağınızı bilmiyor musunuz? Tek başınıza değilsiniz—birçok geliştirici, Word'de grafik çizmeye programatik olarak ilk kez başladığında bu engelle karşılaşır. İyi haber? Aspose.Words for Java ile bir sayfaya dikdörtgen ekleyebilir, güzel bir gölge verebilir ve dosyayı saniyeler içinde kaydedebilirsiniz. Bu öğreticide **gölge ekleme**, **gölge rengini ayarlama** ve **kelime belgesi oluşturma** adımlarını adım adım göstereceğiz.  
 
-Bu öğreticide, boş bir belgeyi başlatmaktan gölge yapılandırmaya, dosyayı kaydetmeye kadar ihtiyacınız olan her şeyi adım adım inceleyeceğiz. Sonunda **şekil gölgesi ekleme**, **şekil gölgesi nasıl eklenir**, ve **dikdörtgen şekil ekleme** konularını kavrayacaksınız. Harici dokümantasyona gerek yok—sadece çalıştırılabilir kod.
+İhtiyacınız olan her şeyi ele alacağız: gerekli kütüphaneler, her kod satırı, belirli ayarların neden önemli olduğu ve resmi belgelerde bulunmayabilecek birkaç ipucu. Sonunda, *Shadow.docx* olarak kaydedilen, yumuşak gri bir gölgeye sahip dikdörtgen şekli oluşturan çalıştırılabilir bir örnek elde edeceksiniz.
 
-## Önkoşullar
+## Ön Koşullar – Başlamadan Önce Neye İhtiyacınız Var
 
-- Java 8 veya daha yeni bir sürüm (API Java 11+ ile de çalışır).  
-- Aspose.Words for Java kütüphanesi (sürüm 23.9 veya üzeri).  
-- IntelliJ IDEA veya Eclipse gibi bir IDE—herhangi biri yeterli.  
-- Java sözdizimine temel aşinalık.
+Kodlara geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-> **Pro ipucu:** Maven kullanıyorsanız, `pom.xml` dosyanıza Aspose.Words bağımlılığını ekleyin ve IDE’nin geri kalanını halletmesine izin verin.
+| Gereksinim | Sebep |
+|-------------|--------|
+| Java Development Kit (JDK) 8 veya daha yeni bir sürüm | Aspose.Words modern bir JDK üzerinde çalışır. |
+| Maven veya Gradle (isteğe bağlı) | Aspose.Words bağımlılığını eklemeyi basitleştirir. |
+| Aspose.Words for Java lisansı (veya ücretsiz deneme) | Kütüphane ticari; test için bir deneme sürümü yeterli. |
+| Bir IDE (IntelliJ IDEA, Eclipse, VS Code vb.) | Örneği hızlıca çalıştırıp hata ayıklamanıza yardımcı olur. |
 
----
+Zaten bir Java projeniz varsa, sadece Maven koordinatını ekleyin:
 
-## Adım 1: Yeni Bir Belge Başlatma – **dikdörtgen şekil oluşturma**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-İlk iş olarak temiz bir tuvale ihtiyacınız var. Aspose.Words’te bu tuval bir `Document` nesnesidir.
+Bundan öteye bir kurulum gerekmez—sadece basit bir `public static void main` metodu yeterli.
+
+![create rectangle shape example](https://example.com/rectangle-shadow.png "create rectangle shape with shadow in Word")
+
+*Görsel alt metni: gölgeyle birlikte bir cyan dikdörtgen gösteren örnek.*
+
+## Adım 1 – Yeni Bir Word Belgesi Oluşturma
+
+İlk yapmamız gereken, boş bir belge başlatmak. Bunu, üzerine daha sonra çizeceğiniz taze bir Word dosyası açmak gibi düşünün.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+Neden boş bir `Document` ile başlıyoruz? Çünkü Aspose.Words, `Document` sınıfını sonraki tüm işlemler için bir tuval olarak kabul eder—paragraf, tablo veya şekil eklemek gibi. Bu adımı atladığınızda, bir şey eklemeye çalıştığınız anda `NullPointerException` alırsınız.
+
+## Adım 2 – DocumentBuilder'ı Ayarlama
+
+`DocumentBuilder`, `Document` içine yazan dost kaleminizdir. İçerik eklemenin önerilen yoludur çünkü imleç konumunu otomatik olarak yönetir.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+“Neden belgeyi doğrudan manipüle etmiyoruz?” diye sorabilirsiniz. Cevap: builder, bölüm yönetimi gibi düşük seviyeli detayları soyutlayarak kodu daha temiz ve hata yapma olasılığını azaltır.
+
+## Adım 3 – Dikdörtgen Şekli Ekleme
+
+Şimdi eğlenceli kısma geliyoruz—**şekil oluşturma**. 100 × 50 puan ölçülerinde bir dikdörtgen ekleyecek ve görebilmeniz için cyan dolgu vereceğiz.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+Birkaç not:
+
+* `ShapeType.RECTANGLE` Aspose'a bir dikdörtgen istediğimizi söyler; `OVAL`, `LINE` vb. ile değiştirebilirsiniz.
+* Boyutlar puan cinsindendir (1 pt ≈ 1/72 in). Düzeninize göre ayarlayın.
+* Dolgu rengi olmadan şekil beyaz sayfada görünmez—bu yüzden cyan kullandık.
+
+## Adım 4 – Gölge Ekleme ve **Gölge Rengini Ayarlama**
+
+İşte bulmacanın **gölge ekleme** kısmını yanıtladığımız yer. `ShadowFormat` nesnesi, gölgenin renkten bulanıklık yarıçapına kadar her görsel özelliğini kontrol eder.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+Bu değerleri neden seçtik?
+
+* **Görünürlük** – `setVisible(true)` olmadan diğer ayarlar yok sayılır.
+* **Renk** – Gri, hem açık hem de koyu arka planlarda çalışan nötr bir tercihtir. `java.awt.Color.GRAY` yerine istediğiniz herhangi bir `java.awt.Color` kullanabilirsiniz.
+* **Bulanıklık yarıçapı** – `5.0` değeri hafif bir yumuşaklık verir; daha büyük sayılar gölgeyi daha da dağınık gösterir.
+* **OffsetX/Y** – Ofsetler gölgeyi sağa ve aşağı kaydırır, üst‑sol köşeden gelen bir ışık kaynağını taklit eder.
+* **Şeffaflık** – Yarı şeffaf bir gölge, özellikle baskıda sayfayla daha iyi bütünleşir.
+
+Daha keskin bir görünüm isterseniz, bulanıklık yarıçapını `0` yapıp ofseti artırın. Deney yapmaktan çekinmeyin—gölgeler görsel bir konudur ve doğru ayarlar belge tasarımınıza bağlıdır.
+
+## Adım 5 – Belgeyi Kaydetme
+
+Son olarak her şeyi bir `.docx` dosyasına kalıcı hâle getiriyoruz. İstediğiniz yolu seçebilirsiniz; sadece klasörün var olduğundan emin olun.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+*Shadow.docx* dosyasını Microsoft Word'de açtığınızda, sağa ve aşağıya 4 pt kaymış hafif gri bir gölgeye sahip cyan bir dikdörtgen göreceksiniz. Bu, **kelime belgesi oluşturma** sürecinin tam tamamıdır.
+
+### Beklenen Sonuç
+
+| Öğe | Görünüm |
+|---------|------------|
+| Dikdörtgen | Cyan dolgu, 100 × 50 pt boyut |
+| Gölge | Gri, %30 şeffaf, 5 pt bulanıklık, ofset (4, 4) |
+| Dosya | `Shadow.docx` belirtilen yolda depolanmış |
+
+Şekil görünmüyorsa, dolgu renginin sayfa arka planıyla aynı olmadığını ve gölgenin görünür olarak ayarlandığını kontrol edin.
+
+## Pro İpuçları & Yaygın Tuzaklar
+
+* **Pro ipucu:** `rectangle.setStrokeColor(java.awt.Color.BLACK);` kullanarak şekle bir kenarlık ekleyin. Bu, dikdörtgenin basılı sayfalarda daha çok öne çıkmasını sağlar.
+* **Dikkat:** Okunabilir‑yazılabilir olmayan bir klasöre kaydetmeye çalışmak `IOException` fırlatır. Yazılabilir bir konum seçin ya da dosya izinlerini ayarlayın.
+* **Köşe durumu:** Şeffaf bir dolgu (renk yok) isterseniz `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);` çağırın. Şekil hâlâ gölge verir; bu, filigran‑tarz grafikler için faydalı olabilir.
+* **Performans notu:** Bir döngü içinde yüzlerce şekil eklemek bellek kullanımını artırabilir. Tüm şekiller eklendikten sonra `document.save` metodunu yalnızca bir kez çağırın.
+
+## Tam Çalışan Örnek
+
+Aşağıda, `ShadowDemo` adlı bir Java sınıfına kopyalayıp yapıştırabileceğiniz tüm program yer alıyor. Aspose.Words JAR'ı sınıf yolunda olduğu sürece derlenir ve çalıştırılır.
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-`Document` sınıfı, tüm .docx dosyasını temsil eder. Daha sonra **dikdörtgen şekil** ve gölgesini **ekleyeceğiniz** bir not defteri gibi düşünebilirsiniz.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## Adım 2: Dikdörtgeni Oluşturma – **dikdörtgen şekil ekleme**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-Şimdi gerçekten dikdörtgeni inşa ediyoruz. Boyutunu, yerleşimini ve dolgu rengini ayarlayacağız.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-`INLINE` sarma neden? Şeklin bir paragraf gibi davranmasını istiyoruz—basit raporlar için mükemmel. Daha sonra şeklin etrafına metin akışı gerekiyorsa `TOPBOTTOM` olarak değiştirebilirsiniz.
-
-## Adım 3: Gölge Uygulama – **şekil gölgesi nasıl eklenir**  
-
-Düz bir dikdörtgen biraz sıkıcı görünebilir. Gölge eklemek derinlik kazandırır ve belgenin daha profesyonel hissettirmesini sağlar. İşte **şekil gölgesi nasıl eklenir** sorusunun pratiğe döküldüğü kısım.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Her özellik belirli bir iş yapar:
-
-- `setVisible(true)` gölgeyi etkinleştirir.  
-- `setColor` hafif bir etki için koyu gri seçer.  
-- `setBlurRadius` kenarların ne kadar yumuşak olacağını kontrol eder.  
-- `setOffsetX/Y` gölgeyi sağa ve aşağı kaydırarak bir ışık kaynağını taklit eder.  
-- `setTransparency` gölgeyi hafif saydam yapar, böylece şekil ön planda kalır.
-
-> **Not:** Renkli bir gölgeye ihtiyacınız olursa, `setColor` metoduna farklı bir `java.awt.Color` değeri geçirin.
-
-## Adım 4: Şekli Belgeye Eklemek  
-
-Dikdörtgen ve gölgesi hazır olduğunda, belge'nin ilk bölümüne yerleştiriyoruz.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-Gövdeye eklemek, şekli yeni bir paragrafın gideceği yere koyar. Dikdörtgeni belirli bir konuma yerleştirmek isterseniz `insertBefore` kullanabilir veya `Paragraph` koleksiyonunu manipüle edebilirsiniz.
-
-## Adım 5: **Word belgesini kaydetme** – Çalışmanızı Kalıcı Hale Getirin  
-
-Son adım, dosyayı diske yazmaktır. İşte **Word belgesini kaydetme** anı.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-`YOUR_DIRECTORY` ifadesini makinenizdeki mutlak ya da göreli bir yol ile değiştirin. Programı çalıştırdıktan sonra `ShadowShape.docx` dosyasını Microsoft Word’de açın—hafif gri bir dikdörtgen ve yumuşak koyu bir gölge görmelisiniz.
+Programı çalıştırın, ortaya çıkan *Shadow.docx* dosyasını açın ve dikdörtgenin gölgesi tam olarak tarif edildiği gibi görünsün.
 
-![Aspose.Words kullanılarak gölgeli bir dikdörtgen şekli gösteren diyagram](https://example.com/rectangle-shadow.png "gölgeli dikdörtgen şekli oluşturma")
+## Daha Fazla Şekil İhtiyacınız Olursa?
 
----
+“**dikdörtgen şekli oluşturma**” işlemini birden çok kez yapabilir ya da başka şekiller kullanabilir miyim?” diye merak edebilirsiniz. Kesinlikle. Ekleme kodunu bir döngü içinde çalıştırın ve konumları `builder.moveTo` ya da `builder.insertParagraph` ile ayarlayın. Aynı gölge ayarlarını bir yardımcı metoda çıkararak tekrar kullanabilirsiniz:
 
-## Yaygın Sorular & Kenar Durumları  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### Birden fazla dikdörtgene ihtiyacım olursa ne yapmalıyım?  
+Her şekil eklemesinden sonra `applyStandardShadow(rectangle);` çağırarak kodunuzu DRY (Don’t Repeat Yourself) tutun.
 
-**Adım 2** ve **Adım 3**’ü bir döngü içinde tekrarlayın, her yinelemede `setWidth`, `setHeight` veya `setFillColor` değerlerini ayarlayın. Her şekle benzersiz bir değişken adı verin ya da bir listede saklayın.
+## Sonraki Adımlar – Temelin Ötesine Geçmek
 
-### DOCX yerine PDF olarak dışa aktarmak mümkün mü?  
+Artık **gölge ekleme** konusunu bildiğinize göre, aşağıdaki ilgili konuları keşfetmeyi düşünün:
 
-Kesinlikle. Şekil eklendikten sonra `document.save("output.pdf")` çağrısını yapın. Aspose.Words dönüşümü halleder ve gölge korunur.
-
-### Eski Word sürümleriyle uyumluluk nasıl?  
-
-`document.save("file.doc", SaveFormat.DOC)` aşırı yüklemesini kullanın. API özellikleri otomatik olarak düşürülür, ancak bazı gölge stilleri eski formatlarda biraz farklı görünebilir.
-
-### Gölge yönünü nasıl değiştiririm?  
-
-`setOffsetX` ve `setOffsetY` değerlerini değiştirin. Pozitif X gölgeyi sağa, negatif X sola kaydırır. Pozitif Y aşağı, negatif Y yukarı hareket ettirir. Işık kaynağını istediğiniz açıdan simüle etmek için bu sayıları oynatın.
-
----
-
-## Şekillerle Çalışma İpuçları  
-
-- **Şekilleri gruplayın**: Dikdörtgenin yanına bir etiket eklemeniz gerekiyorsa, bir `GroupShape` oluşturup hem dikdörtgeni hem de bir `TextBox` ekleyin.  
-- **Z‑sırası önemlidir**: `shape.moveToFront()` veya `shape.moveToBack()` metodlarıyla hangi şeklin üstte görüneceğini kontrol edin.  
-- **Performans**: Yüzlerce şekil eklemek yavaşlayabilir. Tüm şekilleri tek bir bölümde toplayın, ardından en sonda bir kez `document.updatePageLayout()` çağırın.
-
----
-
-## Özet  
-
-Java kullanarak bir Word belgesine **dikdörtgen şekil** nasıl oluşturulur, **şekil gölgesi ekleme** nasıl yapılır ve **Word belgesini kaydetme** adımları ele alındı. Yukarıdaki kod parçacıkları tam ve çalıştırılabilir; ayrıca her özelliğin “neden”ini de anladığınız için renkleri, bulanıklığı ve ofsetleri istediğiniz gibi ayarlayabilirsiniz.
-
-Bir sonraki meydan okumaya hazır mısınız? Dikdörtgeni bir grafikle birleştirin ya da dosyayı PDF olarak dışa aktarın ve gölgenin nasıl renderlandığını görün. Ayrıca **dikdörtgen şekil ekleme**’yi tablolar içinde kullanarak şık rapor düzenleri oluşturabilirsiniz.
-
-Kodlamanız keyifli olsun, belgeleriniz kodunuz kadar keskin görünsün!
+* **Metin çalıştırmaları için gölge rengi ayarlama** – başlıklara hafif bir yükseliş verir.
+* **Tablolar ve görsellerle kelime belgesi oluşturma** – şekilleri diğer içeriklerle birleştirin.
+* **Word'ün yerleşik**… (devamı resmi dokümantasyonda)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

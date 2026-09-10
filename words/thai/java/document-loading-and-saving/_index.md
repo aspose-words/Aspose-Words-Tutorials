@@ -90,6 +90,9 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [การบันทึกเอกสารเป็นรูปแบบ RTF ใน Aspose.Words for Java](./saving-documents-as-rtf-format/)
 ### [การบันทึกเอกสารเป็นไฟล์ข้อความใน Aspose.Words for Java](./saving-documents-as-text-files/)
 ### [การกำหนดรูปแบบเอกสารใน Aspose.Words for Java](./determining-document-format/)
+### [กู้ไฟล์ docx ที่เสีย – คู่มือฉบับเต็มสำหรับการแก้ไขและประมวลผลเอกสาร](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [วิธีกู้คืนไฟล์ docx – คู่มือฉบับสมบูรณ์เพื่ออ่านไฟล์ Word ที่เสียหาย](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [วิธีรับฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [ตั้งโหมดการกู้คืนเพื่อกู้คืนเอกสาร Word ที่เสียหาย](./set-recovery-mode-to-recover-broken-word-document/)
 

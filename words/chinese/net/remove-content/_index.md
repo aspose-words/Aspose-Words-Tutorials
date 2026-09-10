@@ -28,7 +28,7 @@
 | [删除Word文档中的分节符](./remove-section-breaks/) 了解如何使用 Aspose.Words for .NET 删除 Word 文档中的分节符。这份详细的分步指南可确保您顺利进行文档管理和编辑。|
 | [删除 Word 文档中的页脚](./remove-footers/) 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 从 Word 文档中删除页脚。|
 | [删除Word文档中的目录](./remove-table-of-contents/) 了解如何使用 Aspose.Words for .NET 删除 Word 文档中的目录。|
-
+| [如何在 C# 中调用 LLM – 本地模型完整指南](./how-to-call-llm-in-c-complete-guide-with-local-model/) 学习如何在 C# 中使用本地模型调用大型语言模型（LLM），并通过完整指南快速上手。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

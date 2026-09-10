@@ -1,17 +1,19 @@
 ---
 category: general
-date: 2026-02-15
-description: 使用 Java 在 Word 文档中创建矩形形状。了解如何添加形状阴影、保存 Word 文档，以及使用 Aspose.Words 添加矩形形状。
+date: 2026-02-10
+description: 使用 Aspose.Words for Java 在 Word 文档中创建矩形形状。了解如何设置阴影颜色、如何添加阴影，以及如何以编程方式创建
+  Word 文档。
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: zh
-og_description: 使用 Java 在 Word 文件中创建矩形形状。本指南展示了如何添加形状阴影、保存 Word 文档以及一步一步添加矩形形状。
-og_title: 创建矩形形状 – Java Aspose.Words 教程
+og_description: 使用 Aspose.Words for Java 在 Word 文档中创建矩形形状。按照本分步教程设置阴影颜色、添加阴影并创建 Word
+  文档。
+og_title: 使用 Java 在 Word 中创建矩形形状 – 完整指南
 tags:
 - Aspose.Words
 - Java
@@ -20,142 +22,195 @@ title: 使用 Java 在 Word 中创建矩形形状 – 完整指南
 url: /zh/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Word 中使用 Java 创建矩形形状 – 完整指南
 
-是否曾经需要在 Word 文件中 **create rectangle shape**，但不知从何入手？你并不是唯一遇到这种情况的人——许多开发者在自动化报告或发票时都会碰到这个难题。好消息是？使用 Aspose.Words for Java，你可以快速生成一个矩形，添加漂亮的阴影，并在几行代码内保存 Word 文档。
+是否曾需要在 Word 文档中 **创建矩形形状**，却不知从何入手？你并不孤单——许多开发者在首次尝试以编程方式绘制 Word 图形时都会遇到这个难题。好消息是？使用 Aspose.Words for Java，你可以在页面上放置一个矩形，给它添加漂亮的阴影，并在几秒钟内保存文件。在本教程中，我们将逐步演示 **如何添加阴影**、**设置阴影颜色**，以及 **从头创建 Word 文档** 的完整过程。
 
-在本教程中，我们将逐步演示所需的全部内容：从初始化空文档、配置阴影，到最终保存文件。结束时，你将了解 **how to shadow shape** 对象、如何 **add shape shadow**，以及如何 **add rectangle shape** 到任何生成的 Word 文档中。无需外部文档——只需纯粹可运行的代码。
+我们将覆盖所有必需内容：所需的库、每一行代码、为何某些设置重要，以及官方文档中可能找不到的一些技巧。结束时，你将拥有一个可直接运行的示例，它会创建一个带柔和灰色阴影的矩形形状，并保存为 *Shadow.docx*。
 
-## 前置条件
+## 前置条件 – 开始之前你需要准备的东西
 
-- Java 8 或更高（API 也支持 Java 11+）。  
-- Aspose.Words for Java 库（版本 23.9 或更高）。  
-- IntelliJ IDEA 或 Eclipse 等 IDE——任选其一。  
-- 对 Java 语法有基本了解。
+在深入代码之前，请确保你具备以下条件：
 
-> **专业提示：** 如果你使用 Maven，请在 `pom.xml` 中添加 Aspose.Words 依赖，让 IDE 处理其余工作。
+| 要求 | 原因 |
+|------|------|
+| Java Development Kit (JDK) 8 或更高版本 | Aspose.Words 可在任何现代 JDK 上运行。 |
+| Maven 或 Gradle（可选） | 简化添加 Aspose.Words 依赖。 |
+| Aspose.Words for Java 许可证（或免费试用） | 该库为商业产品；试用版可用于测试。 |
+| IDE（IntelliJ IDEA、Eclipse、VS Code 等） | 帮助你快速运行和调试示例。 |
 
----
+如果你已经有一个 Java 项目，只需添加 Maven 坐标：
 
-## 第一步：初始化新文档 – How to **create rectangle shape**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-首先，你需要一个干净的画布。在 Aspose.Words 中，这个画布是一个 `Document` 对象。
+不需要其他繁琐的设置——一个普通的 `public static void main` 方法即可。
+
+![创建矩形形状示例](https://example.com/rectangle-shadow.png "在 Word 中创建带阴影的矩形形状")
+
+*图片说明：创建矩形形状示例，展示一个带灰色阴影的青色矩形。*
+
+## 第一步 – 创建一个新的 Word 文档
+
+我们首先要做的是生成一个空白文档。可以把它想象成打开一个全新的 Word 文件，随后在其上绘制。
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+为什么要从空的 `Document` 开始？因为 Aspose.Words 将 `Document` 类视为后续所有操作的画布——添加段落、表格或形状。如果跳过这一步，一旦尝试插入任何内容就会抛出 `NullPointerException`。
+
+## 第二步 – 设置 DocumentBuilder
+
+`DocumentBuilder` 就是你的“笔”，用于向 `Document` 写入内容。它是推荐的添加内容方式，因为它会自动管理光标位置。
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+你可能会问：“为什么不直接操作 Document？”答案是：builder 抽象掉了诸如章节处理等底层细节，使代码更简洁、更不易出错。
+
+## 第三步 – 插入矩形形状
+
+下面进入有趣的部分——**如何创建形状**。我们将插入一个 100 × 50 点的矩形，并使用青色填充，以便能够清晰看到它。
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+几点说明：
+
+* `ShapeType.RECTANGLE` 告诉 Aspose 我们需要一个矩形；你也可以换成 `OVAL`、`LINE` 等。
+* 尺寸使用点（1 pt ≈ 1/72 英寸）表示。根据你的布局需求自行调整。
+* 若不设置填充颜色，形状在白页上将不可见——因此使用青色。
+
+## 第四步 – 添加阴影并 **设置阴影颜色**
+
+这一步回答 **如何添加阴影** 的核心问题。`ShadowFormat` 对象控制阴影的所有视觉属性，包括颜色、模糊半径等。
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+为什么使用这些特定的值？
+
+* **可见性** – 若不调用 `setVisible(true)`，其余设置将被忽略。
+* **颜色** – 灰色是中性选择，适用于浅色和深色背景。你可以将 `java.awt.Color.GRAY` 替换为任意 `java.awt.Color`。
+* **模糊半径** – `5.0` 产生柔和的羽化效果；更大的数值会让阴影更散。
+* **OffsetX/Y** – 偏移量将阴影向右下移动，模拟光源来自左上方。
+* **透明度** – 半透明阴影在页面上更自然，尤其是打印时。
+
+如果想要更锐利的效果，可将模糊半径降至 `0` 并增大偏移量。鼓励自行实验——阴影高度依赖视觉感受，合适的设置取决于文档的整体设计。
+
+## 第五步 – 保存文档
+
+最后，将所有内容持久化为 `.docx` 文件。你可以自行决定保存路径，只需确保目录已存在。
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+当你在 Microsoft Word 中打开 *Shadow.docx* 时，会看到一个青色矩形，右下方偏移 4 pt，带有细微的灰色阴影。这就是完整的 **创建 Word 文档** 工作流。
+
+### 预期结果
+
+| 元素 | 外观 |
+|------|------|
+| 矩形 | 青色填充，大小 100 × 50 pt |
+| 阴影 | 灰色，30 % 透明，5 pt 模糊，偏移 (4, 4) |
+| 文件 | `Shadow.docx` 存储在你指定的路径下 |
+
+如果形状未出现，请检查填充颜色是否与页面背景相同，并确认阴影已设为可见。
+
+## 专业技巧与常见陷阱
+
+* **技巧**：如果想为形状添加边框，可使用 `rectangle.setStrokeColor(java.awt.Color.BLACK);`。这在打印页上能让矩形更突出。
+* **注意**：将文件保存到只读文件夹会抛出 `IOException`。请选择可写位置或调整文件权限。
+* **特殊情况**：若需要透明填充（无颜色），可调用 `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);`。形状仍会投射阴影，可用于水印式图形。
+* **性能提示**：在循环中添加数百个形状会增加内存占用。所有形状插入完毕后，仅调用一次 `document.save`。
+
+## 完整可运行示例
+
+下面是完整的程序代码，你可以直接复制粘贴到名为 `ShadowDemo` 的 Java 类中。只要类路径中包含 Aspose.Words JAR，即可编译运行。
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-`Document` 类代表整个 .docx 文件。可以把它想象成笔记本，稍后你将在其中 **add rectangle shape** 并添加阴影。
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## 第二步：构建矩形 – **Add rectangle shape**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-现在我们实际构建矩形。我们将设置它的尺寸、布局和填充颜色。
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-为什么使用 `INLINE` 包装？因为我们希望形状表现得像段落——这对简单报告非常合适。如果以后需要文字环绕形状，你可以改为 `TOPBOTTOM`。
-
-## 第三步：应用阴影 – **How to shadow shape**  
-
-一个平面的矩形看起来有点单调。添加阴影可以赋予其深度，使文档更显精致。这正是我们在实践中回答 “**how to shadow shape**” 的地方。
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Each property does something specific:
-
-- `setVisible(true)` 打开阴影。  
-- `setColor` 选择深灰色以获得细腻效果。  
-- `setBlurRadius` 控制边缘的柔和程度。  
-- `setOffsetX/Y` 将阴影向右下移动，模拟光源。  
-- `setTransparency` 使其略微透明，从而让形状保持主角。
-
-> **注意：** 如果需要彩色阴影，只需向 `setColor` 传入不同的 `java.awt.Color` 即可。
-
-## 第四步：将形状插入文档  
-
-矩形及其阴影准备好后，我们将其放入文档的第一个节中。
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-追加到正文会将形状放在新段落的位置。如果你想在特定位置放置矩形，可以使用 `insertBefore` 或操作 `Paragraph` 集合。
-
-## 第五步：**Save Word document** – 持久化你的工作  
-
-最后一步是将文件写入磁盘。这就是实际 **save Word document** 的时刻。
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-将 `YOUR_DIRECTORY` 替换为你机器上的绝对或相对路径。运行程序后，在 Microsoft Word 中打开 `ShadowShape.docx`——你应该会看到一个浅灰色矩形，带有柔和的深色阴影。
+运行程序，打开生成的 *Shadow.docx*，即可看到如描述的矩形及其阴影。
 
-![使用 Aspose.Words 创建的带阴影矩形形状示意图](https://example.com/rectangle-shadow.png "使用 Aspose.Words 创建的矩形形状并添加阴影")
+## 如果需要更多形状怎么办？
 
----
+你可能会想，“能否 **多次创建矩形形状** 或使用其他形状？”答案是肯定的。只需在插入代码外层套上循环，并使用 `builder.moveTo` 或 `builder.insertParagraph` 调整坐标。相同的阴影设置可以抽取为辅助方法复用：
 
-## 常见问题与边缘情况  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### 如果需要多个矩形怎么办？
+在每次插入形状后调用 `applyStandardShadow(rectangle);`，即可保持代码 DRY（Don’t Repeat Yourself）。
 
-只需在循环中重复 **Step 2** 和 **Step 3**，并在每次迭代时调整 `setWidth`、`setHeight` 或 `setFillColor`。记得为每个形状使用唯一的变量名或将它们存入列表中。
+## 后续步骤 – 超越基础
 
-### 能否导出为 PDF 而不是 DOCX？
+既然已经掌握 **如何添加阴影**，可以进一步探索以下相关主题：
 
-当然可以。形状添加后，调用 `document.save("output.pdf")`。Aspose.Words 会处理转换，保留阴影。
-
-### 老版本的 Word 怎么处理？
-
-使用重载 `document.save("file.doc", SaveFormat.DOC)`。API 会自动降级功能，但请注意，在旧版格式中某些阴影样式可能会略有不同。
-
-### 如何更改阴影方向？
-
-操作 `setOffsetX` 和 `setOffsetY`。正 X 将阴影向右移动，负 X 向左移动。正 Y 向下移动，负 Y 向上移动。通过调整这些数值可以模拟任意角度的光源。
-
-## 使用形状的技巧
-
-- **Group shapes**：如果需要在矩形旁边添加标签，创建一个 `GroupShape` 并将矩形和 `TextBox` 都加入其中。  
-- **Z‑order matters**：使用 `shape.moveToFront()` 或 `shape.moveToBack()` 来控制哪个形状位于顶部。  
-- **Performance**：添加数百个形状可能会变慢。将它们批量放在同一节中，最后一次调用 `document.updatePageLayout()`。
-
-## 回顾  
-
-我们已经介绍了如何使用 Java 在 Word 文档中 **create rectangle shape**，如何 **add shape shadow**，以及如何 **save Word document** 并得到结果。完整、可运行的代码位于上述代码片段中，你现在也了解了每个属性背后的“原因”，可以根据任何设计需求调整颜色、模糊程度和偏移量。
-
-准备好接受下一个挑战了吗？尝试将矩形与图表组合，或将文件导出为 PDF，观察阴影的渲染效果。你也可以在表格中探索 **add rectangle shape**，实现更炫的报告布局。
-
-祝编码愉快，愿你的文档始终像代码一样锋利！
+* **如何为文本运行设置阴影颜色** – 为标题增添细腻的立体感。
+* **使用表格和图片创建 Word 文档** – 将形状与其他内容组合。
+* **如何创建形状动画**，利用 Word 内置的...
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

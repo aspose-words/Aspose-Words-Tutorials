@@ -34,8 +34,10 @@ Een codetutorial voor Aspose.Words Java
 ### [Documentpagina's als miniaturen weergeven met Aspose.Words voor Java](./render-word-pages-thumbnails-aspose-java/)
 Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt genereren met Aspose.Words voor Java. Verbeter vandaag nog uw documentverwerkingsmogelijkheden.
 
+### [Word-document maken in Java – Rechthoekvorm toevoegen met schaduweffect](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Leer hoe u een rechthoekige vorm met schaduweffect toevoegt aan een Word-document met Aspose.Words voor Java.
 ### [Rechthoekvorm maken in Word met Java – Volledige gids](./create-rectangle-shape-in-word-with-java-full-guide/)
-Leer hoe u met Aspose.Words voor Java een rechthoekige vorm in een Word-document kunt toevoegen en aanpassen.
+Leer hoe u een rechthoekvorm in een Word-document kunt maken en aanpassen met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
 

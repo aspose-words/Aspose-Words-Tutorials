@@ -1,0 +1,7 @@
+Title: Create Accessible PDF from Word – Complete Guide to Export Word to PDF
+Slug: create-accessible-pdf-from-word-complete-guide-to-export-wor
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-27T15:22:06.310587
+SourceRepo: AI Search API
+Keywords: create accessible pdf, convert docx to pdf, save word as pdf, export word to pdf, save document as pdf
+PRNumber: 214

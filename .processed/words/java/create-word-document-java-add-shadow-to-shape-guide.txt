@@ -1,0 +1,7 @@
+Title: Create Word Document Java – Add Shadow to Shape Guide
+Slug: create-word-document-java-add-shadow-to-shape-guide
+Category: images-shapes
+ProcessedDate: 2026-06-18T03:22:43.017172
+SourceRepo: AI Search API
+Keywords: create word document java, apply shadow to shape, save document as docx, how to add shadow effect, insert rectangle shape word
+PRNumber: 205

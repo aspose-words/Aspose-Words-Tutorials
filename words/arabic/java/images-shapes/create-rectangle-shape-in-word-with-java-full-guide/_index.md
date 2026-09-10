@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-02-15
-description: إنشاء شكل مستطيل في مستند Word باستخدام Java. تعلم كيفية إضافة ظل للشكل،
-  حفظ مستند Word، وإضافة شكل مستطيل باستخدام Aspose.Words.
+date: 2026-02-10
+description: إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words للغة Java. تعلّم
+  كيفية تعيين لون الظل، وكيفية إضافة الظل، وإنشاء مستند Word برمجيًا.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: ar
-og_description: إنشاء شكل مستطيل في ملف Word باستخدام Java. يوضح هذا الدليل كيفية
-  إضافة ظل للشكل، حفظ مستند Word، وإضافة شكل مستطيل خطوة بخطوة.
-og_title: إنشاء شكل مستطيل – دليل Aspose.Words لجافا
+og_description: إنشاء شكل مستطيل في مستند Word باستخدام Aspose.Words للغة Java. اتبع
+  هذا الدليل خطوة بخطوة لتعيين لون الظل، إضافة الظل، وإنشاء مستند Word.
+og_title: إنشاء شكل مستطيل في Word باستخدام Java – دليل كامل
 tags:
 - Aspose.Words
 - Java
@@ -22,148 +22,199 @@ title: إنشاء شكل مستطيل في Word باستخدام Java – دلي
 url: /ar/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-with all translations.
+produce final content with all translations.
 
-Be careful with markdown formatting.
+Be careful to preserve markdown formatting exactly.
 
-Let's craft Arabic translations.
-
-We'll keep bold phrases unchanged.
-
-Proceed to write final content.{{< blocks/products/pf/main-wrap-class >}}
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء شكل مستطيل في Word باستخدام Java – دليل كامل
 
-هل احتجت يوماً إلى **create rectangle shape** في ملف Word لكن لم تكن متأكدًا من أين تبدأ؟ لست وحدك—العديد من المطورين يواجهون هذه المشكلة عند أتمتة التقارير أو الفواتير. الخبر السار؟ باستخدام Aspose.Words for Java يمكنك إنشاء مستطيل، إضافة ظل جميل، وحفظ مستند Word ببضع أسطر فقط.
+هل احتجت يومًا إلى **إنشاء شكل مستطيل** في مستند Word لكنك لم تكن متأكدًا من أين تبدأ؟ لست وحدك—فالعديد من المطورين يواجهون هذا التحدي عندما يحاولون رسم رسومات برمجيًا في Word للمرة الأولى. الخبر السار؟ مع Aspose.Words for Java يمكنك وضع مستطيل على صفحة، إضافة ظل جميل، وحفظ الملف في ثوانٍ. في هذا الدرس سنستعرض بالضبط **كيفية إضافة الظل**، **تعيين لون الظل**، و**إنشاء مستند Word** من الصفر.  
 
-في هذا الدرس سنستعرض كل ما تحتاجه: من تهيئة مستند فارغ، إلى ضبط الظل، وحتى حفظ الملف. في النهاية ستعرف **how to shadow shape**، وكيفية **add shape shadow**، وكيفية **add rectangle shape** لأي مستند Word تقوم بإنشائه. لا حاجة لأي مستندات خارجية—فقط كود جاهز للتنفيذ.
+سنغطي كل ما تحتاجه: المكتبات المطلوبة، كل سطر من الشيفرة، لماذا بعض الإعدادات مهمة، وبعض الحيل التي قد لا تجدها في الوثائق الرسمية. في النهاية ستحصل على مثال جاهز للتنفيذ يُنشئ شكل مستطيل بظل رمادي ناعم، محفوظًا باسم *Shadow.docx*.
 
-## المتطلبات المسبقة
+## المتطلبات المسبقة – ما تحتاجه قبل البدء
 
-- Java 8 أو أحدث (تعمل الواجهة البرمجية أيضًا مع Java 11+).  
-- مكتبة Aspose.Words for Java (الإصدار 23.9 أو أحدث).  
-- بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse—أي منها يناسبك.  
-- إلمام أساسي بصياغة Java.
+قبل أن نغوص في الشيفرة، تأكد من وجود ما يلي:
 
-> **نصيحة احترافية:** إذا كنت تستخدم Maven، أضف تبعية Aspose.Words إلى ملف `pom.xml` ودع IDE يتولى الباقي.
+| المتطلب | السبب |
+|-------------|--------|
+| Java Development Kit (JDK) 8 أو أحدث | Aspose.Words يعمل على أي JDK حديث. |
+| Maven أو Gradle (اختياري) | يبسط إضافة تبعية Aspose.Words. |
+| ترخيص Aspose.Words for Java (أو نسخة تجريبية مجانية) | المكتبة تجارية؛ النسخة التجريبية تكفي للاختبار. |
+| بيئة تطوير متكاملة (IntelliJ IDEA، Eclipse، VS Code، إلخ) | تساعدك على تشغيل وتصحيح المثال بسرعة. |
 
----
+إذا كان لديك مشروع Java بالفعل، فقط أضف إحداثيات Maven:
 
-## الخطوة 1: تهيئة مستند جديد – How to **create rectangle shape**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-أولاً وقبل كل شيء: تحتاج إلى لوحة نظيفة. في Aspose.Words تكون هذه اللوحة كائن `Document`.
+لا حاجة لإعدادات معقدة أكثر من ذلك—طريقة `public static void main` العادية تكفي.
+
+![مثال على إنشاء شكل مستطيل](https://example.com/rectangle-shadow.png "إنشاء شكل مستطيل مع ظل في Word")
+
+*نص بديل للصورة: مثال على إنشاء شكل مستطيل يظهر مستطيلًا سيناويًا مع ظل رمادي.*
+
+## الخطوة 1 – إنشاء مستند Word جديد
+
+أول شيء علينا القيام به هو إنشاء مستند فارغ. فكر فيه كفتح ملف Word جديد سترسم عليه لاحقًا.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+لماذا نبدأ بـ `Document` فارغ؟ لأن Aspose.Words يتعامل مع فئة `Document` كقماش لجميع العمليات اللاحقة—إضافة فقرات، جداول، أو أشكال. إذا تخطيت هذه الخطوة ستحصل على `NullPointerException` في اللحظة التي تحاول فيها إدراج أي شيء.
+
+## الخطوة 2 – إعداد DocumentBuilder
+
+`DocumentBuilder` هو القلم الودود الذي يكتب داخل الـ `Document`. إنه الطريقة الموصى بها لإضافة المحتوى لأنه يدير موضع المؤشر تلقائيًا.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+قد تتساءل، “لماذا لا أتعامل مع المستند مباشرةً؟” الجواب: الـ builder يج abstracts التفاصيل منخفضة المستوى مثل معالجة الأقسام، مما يجعل الشيفرة أنظف وأقل عرضة للأخطاء.
+
+## الخطوة 3 – إدراج شكل المستطيل
+
+الآن يأتي الجزء الممتع—**كيفية إنشاء الشكل**. سنُدرج مستطيلًا بأبعاد 100 × 50 نقطة ونملأه باللون السيناوي حتى تتمكن من رؤيته بوضوح.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+بعض الملاحظات:
+
+* `ShapeType.RECTANGLE` يُخبر Aspose أننا نريد مستطيلًا؛ يمكنك استبداله بـ `OVAL` أو `LINE` وغيرها.
+* الأبعاد مُعبر عنها بالنقاط (1 pt ≈ 1/72 in). عدّلها لتناسب تخطيطك.
+* بدون لون تعبئة سيكون الشكل غير مرئي على صفحة بيضاء—ولهذا نستخدم السيناوي.
+
+## الخطوة 4 – إضافة ظل و**تعيين لون الظل**
+
+هنا نجيب على جزء **كيفية إضافة الظل** من اللغز. كائن `ShadowFormat` يتحكم في كل جانب بصري للظل، من اللون إلى نصف قطر الضبابية.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+لماذا هذه القيم بالتحديد؟
+
+* **الظهور** – بدون `setVisible(true)` تُهمل باقي الإعدادات.
+* **اللون** – الرمادي خيار محايد يعمل على الخلفيات الفاتحة والداكنة. يمكنك استبدال `java.awt.Color.GRAY` بأي `java.awt.Color` تفضله.
+* **نصف قطر الضبابية** – القيمة `5.0` تعطي ظلًا ناعمًا؛ القيم الأكبر تجعل الظل أكثر انتشارًا.
+* **OffsetX/Y** – الإزاحات تحرك الظل إلى اليمين والأسفل، محاكاةً لمصدر ضوء من أعلى اليسار.
+* **الشفافية** – الظل شبه الشفاف يندمج بشكل أفضل مع الصفحة، خاصة عند الطباعة.
+
+إذا أردت مظهرًا أكثر حدة، اجعل نصف قطر الضبابية `0` وزد الإزاحة. التجربة مُشجَّعة—الظلال بصرية جدًا، والإعدادات المثالية تعتمد على تصميم مستندك.
+
+## الخطوة 5 – حفظ المستند
+
+أخيرًا، نحفظ كل شيء في ملف `.docx`. يمكنك اختيار أي مسار تريده؛ فقط تأكد من وجود المجلد.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+عند فتح *Shadow.docx* في Microsoft Word، سترى مستطيلًا سيناويًا مع ظل رمادي خفيف يطفو 4 نقطة إلى اليمين والأسفل. هذه هي عملية **إنشاء مستند Word** الكاملة.
+
+### النتيجة المتوقعة
+
+| العنصر | المظهر |
+|---------|------------|
+| مستطيل | تعبئة سيناوية، حجم 100 × 50 pt |
+| ظل | رمادي، 30 % شفاف، تمويه 5 pt، إزاحة (4, 4) |
+| ملف | `Shadow.docx` مخزن في المسار الذي قدمته |
+
+إذا لم يظهر الشكل، تحقق مرة أخرى من أن لون التعبئة ليس هو نفسه لون خلفية الصفحة وأن الظل مُعين كـ visible.
+
+## نصائح احترافية ومخاطر شائعة
+
+* **نصيحة احترافية:** استخدم `rectangle.setStrokeColor(java.awt.Color.BLACK);` إذا أردت حدًا حول الشكل. يجعل المستطيل يبرز أكثر على الصفحة المطبوعة.
+* **احذر من:** حفظ الملف في مجلد للقراءة فقط سيؤدي إلى رمي `IOException`. اختر موقعًا قابلًا للكتابة أو عدّل أذونات الملف.
+* **حالة حافة:** إذا كنت تحتاج تعبئة شفافة (بدون لون)، استدعِ `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);`. سيظل الشكل يُسقط ظلًا، وهو مفيد للرسومات على نمط العلامة المائية.
+* **ملاحظة أداء:** إضافة مئات الأشكال داخل حلقة قد يزيد من استهلاك الذاكرة. استدعِ `document.save` مرة واحدة فقط بعد إضافة جميع الأشكال.
+
+## مثال كامل يعمل
+
+فيما يلي البرنامج الكامل الذي يمكنك نسخه ولصقه في فئة Java تسمى `ShadowDemo`. يَتَجَمَّع ويعمل كما هو (بشرط وجود ملف JAR الخاص بـ Aspose.Words في مسار الـ classpath).
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-فئة `Document` تمثل ملف .docx بالكامل. فكر فيها كدفتر ملاحظات ستضيف إليه لاحقًا **add rectangle shape** وظله.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## الخطوة 2: بناء المستطيل – **Add rectangle shape**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-الآن نقوم فعليًا بإنشاء المستطيل. سنحدد حجمه، تخطيطه، ولون التعبئة.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-لماذا نستخدم التغليف `INLINE`؟ لأننا نريد أن يتصرف الشكل كفقرة—مثالي للتقارير البسيطة. يمكنك تغييره إلى `TOPBOTTOM` إذا احتجت إلى تدفق النص حول الشكل لاحقًا.
-
-## الخطوة 3: تطبيق الظل – **How to shadow shape**  
-
-المستطيل المسطح يبدو باهتًا قليلًا. إضافة الظل تمنحه عمقًا وتُحسّن مظهر المستند. هنا نجيب على سؤال “**how to shadow shape**” عمليًا.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-كل خاصية تقوم بوظيفة معينة:
-
-- `setVisible(true)` يُفعّل الظل.  
-- `setColor` يختار لونًا رماديًا داكنًا لتأثير خفيف.  
-- `setBlurRadius` يتحكم في مدى نعومة الحواف.  
-- `setOffsetX/Y` يحرك الظل إلى اليمين وإلى الأسفل، محاكياً مصدر الضوء.  
-- `setTransparency` يجعل الظل شبه شفاف، بحيث يبقى الشكل هو البطل.
-
-> **ملاحظة:** إذا احتجت ظلًا ملونًا، ما عليك سوى تمرير قيمة `java.awt.Color` مختلفة إلى `setColor`.
-
-## الخطوة 4: إدراج الشكل في المستند  
-
-بعد أن أصبح المستطيل وظله جاهزين، نضعه في القسم الأول من المستند.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-الإضافة إلى الـ body تضع الشكل حيث ستظهر فقرة جديدة. إذا أردت وضع المستطيل في موقع محدد، يمكنك استخدام `insertBefore` أو تعديل مجموعة `Paragraph`.
-
-## الخطوة 5: **Save Word document** – احفظ عملك  
-
-الخطوة الأخيرة هي كتابة الملف إلى القرص. هذه هي اللحظة التي تقوم فيها فعليًا **save Word document**.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-استبدل `YOUR_DIRECTORY` بمسار مطلق أو نسبي على جهازك. بعد تشغيل البرنامج، افتح `ShadowShape.docx` في Microsoft Word—سترى مستطيلًا رماديًا فاتحًا مع ظل داكن ناعم.
+شغّل البرنامج، افتح ملف *Shadow.docx* الناتج، وسترى المستطيل مع ظله تمامًا كما هو موصوف.
 
-![مخطط يوضح شكل مستطيل مع ظل تم إنشاؤه باستخدام Aspose.Words](https://example.com/rectangle-shadow.png "إنشاء شكل مستطيل مع ظل")
+## ماذا لو كنت بحاجة إلى مزيد من الأشكال؟
 
----
+قد تتساءل، “هل يمكنني **إنشاء شكل مستطيل** عدة مرات أو استخدام أشكال أخرى؟” بالتأكيد. فقط كرّر كود الإدراج وعدّل الإحداثيات باستخدام `builder.moveTo` أو `builder.insertParagraph`. يمكن إعادة استخدام إعدادات الظل نفسها عن طريق استخراجها إلى طريقة مساعدة:
 
-## الأسئلة الشائعة والحالات الخاصة  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### ماذا لو احتجت إلى عدة مستطيلات؟
+استدعِ `applyStandardShadow(rectangle);` بعد كل إدراج شكل للحفاظ على مبدأ DRY (Don’t Repeat Yourself).
 
-ما عليك سوى تكرار **Step 2** و **Step 3** داخل حلقة، مع تعديل `setWidth`، `setHeight` أو `setFillColor` في كل تكرار. تذكر إعطاء كل شكل اسم متغير فريد أو تخزينها في قائمة.
+## الخطوات التالية – ما بعد الأساسيات
 
-### هل يمكنني التصدير إلى PDF بدلاً من DOCX؟
+الآن بعد أن عرفت **كيفية إضافة الظل**، فكر في استكشاف المواضيع ذات الصلة:
 
-بالتأكيد. بعد إضافة الشكل، استدعِ `document.save("output.pdf")`. ستتعامل Aspose.Words مع التحويل مع الحفاظ على الظل.
-
-### ماذا عن إصدارات Word القديمة؟
-
-استخدم النسخة الزائدة `document.save("file.doc", SaveFormat.DOC)`. تقوم الواجهة البرمجية تلقائيًا بخفض الميزات، لكن لاحظ أن بعض أنماط الظل قد تبدو مختلفة قليلًا في الصيغ القديمة.
-
-### كيف يمكنني تغيير اتجاه الظل؟
-
-عدّل `setOffsetX` و `setOffsetY`. القيمة الموجبة لـ X تحرك الظل إلى اليمين، والسالبة إلى اليسار. القيمة الموجبة لـ Y تحركه إلى الأسفل، والسالبة إلى الأعلى. جرّب هذه القيم لمحاكاة مصدر ضوء من أي زاوية.
-
-## نصائح للعمل مع الأشكال  
-
-- **Group shapes**: إذا احتجت تسمية بجوار المستطيل، أنشئ `GroupShape` وأضف كلًا من المستطيل و`TextBox`.  
-- **Z‑order matters**: استخدم `shape.moveToFront()` أو `shape.moveToBack()` للتحكم في أي شكل يظهر في الأعلى.  
-- **Performance**: إضافة مئات الأشكال قد تكون بطيئة. اجمعها في قسم واحد، ثم استدعِ `document.updatePageLayout()` مرة واحدة في النهاية.
-
-## ملخص  
-
-غطّينا كيفية **create rectangle shape** في مستند Word باستخدام Java، وكيفية **add shape shadow**، وكيفية **save Word document** بالنتيجة. الكود الكامل القابل للتنفيذ موجود في المقاطع أعلاه، والآن تفهم “السبب” وراء كل خاصية—لتتمكن من تعديل الألوان، والطمس، والإزاحات لتناسب أي تصميم.
-
-هل أنت جاهز للتحدي التالي؟ جرّب دمج المستطيل مع مخطط، أو صدّر الملف كـ PDF وشاهد كيف يُظهر الظل. يمكنك أيضًا استكشاف **add rectangle shape** داخل الجداول لتصاميم تقارير أكثر أناقة.
-
-برمجة سعيدة، ولتظل مستنداتك دائمًا حادة مثل شفرتك!
+* **كيفية تعيين لون الظل** لتشغيل النصوص – يمنح العناوين ارتقاءً طفيفًا.
+* **إنشاء مستند Word** مع جداول وصور – دمج الأشكال مع محتويات أخرى.
+* **كيفية إنشاء شكل** رسوم متحركة باستخدام الأدوات المدمجة في Word
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

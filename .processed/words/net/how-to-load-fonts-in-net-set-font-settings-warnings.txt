@@ -1,0 +1,7 @@
+Title: How to Load Fonts in .NET – Set Font Settings & Warnings
+Slug: how-to-load-fonts-in-net-set-font-settings-warnings
+Category: working-with-fonts
+ProcessedDate: 2026-06-30T19:27:47.470801
+SourceRepo: AI Search API
+Keywords: how to load fonts, set font settings, how to handle warnings, enable custom fonts, detect missing fonts
+PRNumber: 216

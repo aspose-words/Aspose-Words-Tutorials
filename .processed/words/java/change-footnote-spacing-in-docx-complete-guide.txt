@@ -1,0 +1,7 @@
+Title: Change footnote spacing in DOCX – Complete Guide
+Slug: change-footnote-spacing-in-docx-complete-guide
+Category: document-styling
+ProcessedDate: 2026-07-20T08:28:47.790285
+SourceRepo: AI Search API
+Keywords: change footnote spacing, how to set spacing, adjust footnote separator, set paragraph line spacing, change line spacing docx
+PRNumber: 229

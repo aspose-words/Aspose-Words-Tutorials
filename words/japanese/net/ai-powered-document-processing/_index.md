@@ -42,6 +42,8 @@
 | [Google AI モデルの操作](./working-with-google-ai-model/) Aspose.Words for .NET と Google AI を使用してドキュメント処理を強化し、簡潔な要約を簡単に作成します。 |
 | [オープンAIモデルの使用](./working-with-open-ai-model/) Aspose.Words for .NETとOpenAIの強力なモデルを活用し、効率的なドキュメント要約を実現しましょう。この包括的なガイドを今すぐご覧ください。 |
 | [要約オプションの操作](./working-with-summarize-options/) 迅速な分析情報を得るために AI モデルを統合するステップバイステップ ガイドを使用して、Aspose.Words for .NET を使用して Word 文書を効果的に要約する方法を学びます。 |
+| [C# で Word 文書を要約する – 完全 AI 搭載ガイド](./summarize-word-document-in-c-complete-ai-powered-guide/) Aspose.Words for .NET と AI を活用し、C# で Word 文書を自動要約する完全ガイドです。 |
+| [Aspose.Words AI を使用した Word の文法チェック方法 – 完全ガイド](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) Aspose.Words AI を活用して Word 文書の文法を自動的にチェックし、修正提案を得る手順を詳しく解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

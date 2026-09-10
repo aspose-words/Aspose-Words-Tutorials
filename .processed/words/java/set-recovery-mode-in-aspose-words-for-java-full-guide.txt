@@ -1,0 +1,7 @@
+Title: Set Recovery Mode in Aspose.Words for Java – Full Guide
+Slug: set-recovery-mode-in-aspose-words-for-java-full-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-07-03T23:22:39.619265
+SourceRepo: AI Search API
+Keywords: set recovery mode, display page count, recover corrupted word
+PRNumber: 220

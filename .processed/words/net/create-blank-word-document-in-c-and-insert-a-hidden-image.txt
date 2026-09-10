@@ -1,0 +1,7 @@
+Title: Create blank Word document in C# and insert a hidden image
+Slug: create-blank-word-document-in-c-and-insert-a-hidden-image
+Category: add-content-using-document-builder
+ProcessedDate: 2026-09-08T22:52:30.121980
+SourceRepo: AI Search API
+Keywords: create blank word document, insert image into word, how to hide image, how to insert shape, how to create docx
+PRNumber: 267

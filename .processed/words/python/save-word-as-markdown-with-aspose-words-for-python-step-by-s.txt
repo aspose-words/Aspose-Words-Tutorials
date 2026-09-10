@@ -1,0 +1,7 @@
+Title: Save Word as Markdown with Aspose.Words for Python – step‑by‑step guide
+Slug: save-word-as-markdown-with-aspose-words-for-python-step-by-s
+Category: document-conversion
+ProcessedDate: 2026-08-11T08:09:25.294093
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, export word to markdown, save docx as md, aspose words python example
+PRNumber: 250

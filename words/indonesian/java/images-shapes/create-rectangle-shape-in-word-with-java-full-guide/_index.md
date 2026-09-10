@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-15
-description: Buat bentuk persegi panjang dalam dokumen Word menggunakan Java. Pelajari
-  cara menambahkan bayangan pada bentuk, menyimpan dokumen Word, dan menambahkan bentuk
-  persegi panjang dengan Aspose.Words.
+date: 2026-02-10
+description: Buat bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words
+  untuk Java. Pelajari cara mengatur warna bayangan, cara menambahkan bayangan, dan
+  membuat dokumen Word secara programatis.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: id
-og_description: Buat bentuk persegi panjang dalam file Word dengan Java. Panduan ini
-  menunjukkan cara menambahkan bayangan bentuk, menyimpan dokumen Word, dan menambahkan
-  bentuk persegi panjang langkah demi langkah.
-og_title: Buat bentuk persegi panjang – Tutorial Java Aspose.Words
+og_description: Buat bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words
+  untuk Java. Ikuti tutorial langkah demi langkah ini untuk mengatur warna bayangan,
+  menambahkan bayangan, dan membuat dokumen Word.
+og_title: Buat bentuk persegi panjang di Word dengan Java – Panduan Lengkap
 tags:
 - Aspose.Words
 - Java
@@ -28,136 +28,191 @@ url: /id/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat bentuk persegi panjang di Word dengan Java – Panduan Lengkap
+# Buat bentuk persegi panjang di Word dengan Java – Panduan Lengkap
 
-Pernah perlu **membuat bentuk persegi panjang** dalam file Word tetapi tidak yakin harus mulai dari mana? Anda bukan satu-satunya—banyak pengembang mengalami hal yang sama saat mengotomatisasi laporan atau faktur. Kabar baiknya? Dengan Aspose.Words untuk Java Anda dapat membuat persegi panjang, menambahkan bayangan yang bagus, dan menyimpan dokumen Word dalam beberapa baris kode.
+Pernah perlu **membuat bentuk persegi panjang** dalam dokumen Word tetapi tidak yakin harus mulai dari mana? Anda tidak sendirian—banyak pengembang mengalami kebingungan saat pertama kali mencoba menggambar grafik secara programatik di Word. Kabar baiknya? Dengan Aspose.Words untuk Java Anda dapat menambahkan persegi panjang ke halaman, memberi bayangan yang bagus, dan menyimpan file dalam hitungan detik. Pada tutorial ini kami akan menjelaskan secara detail **cara menambahkan bayangan**, **mengatur warna bayangan**, dan **membuat dokumen Word** dari awal.  
 
-Dalam tutorial ini kami akan membahas semua yang Anda perlukan: mulai dari menginisialisasi dokumen kosong, mengkonfigurasi bayangan, hingga akhirnya menyimpan file. Pada akhir tutorial Anda akan mengetahui **cara memberi bayangan pada shape** objek, cara **menambahkan bayangan pada shape**, dan cara **menambahkan bentuk persegi panjang** ke dokumen Word apa pun yang Anda buat. Tidak diperlukan dokumen eksternal—hanya kode yang dapat dijalankan.
+Kami akan membahas semua yang Anda perlukan: pustaka yang dibutuhkan, setiap baris kode, mengapa pengaturan tertentu penting, dan beberapa trik yang mungkin tidak Anda temukan di dokumentasi resmi. Pada akhir tutorial Anda akan memiliki contoh yang siap dijalankan yang membuat bentuk persegi panjang dengan bayangan abu‑abu lembut, disimpan sebagai *Shadow.docx*.
 
-## Prasyarat
+## Prasyarat – Apa yang Anda Butuhkan Sebelum Memulai
 
-- Java 8 atau yang lebih baru (API juga berfungsi dengan Java 11+).  
-- Perpustakaan Aspose.Words untuk Java (versi 23.9 atau lebih baru).  
-- IDE seperti IntelliJ IDEA atau Eclipse—apa saja boleh.  
-- Familiaritas dasar dengan sintaks Java.
+Sebelum kita masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
 
-> **Tip pro:** Jika Anda menggunakan Maven, tambahkan dependensi Aspose.Words ke `pom.xml` Anda dan biarkan IDE menangani sisanya.
+| Persyaratan | Alasan |
+|-------------|--------|
+| Java Development Kit (JDK) 8 atau lebih baru | Aspose.Words berjalan pada JDK modern apa pun. |
+| Maven atau Gradle (opsional) | Mempermudah menambahkan dependensi Aspose.Words. |
+| Lisensi Aspose.Words untuk Java (atau percobaan gratis) | Pustaka ini bersifat komersial; percobaan cukup untuk pengujian. |
+| IDE (IntelliJ IDEA, Eclipse, VS Code, dll.) | Membantu Anda menjalankan dan men-debug contoh dengan cepat. |
 
----
+Jika Anda sudah memiliki proyek Java, cukup tambahkan koordinat Maven:
 
-## Langkah 1: Inisialisasi Dokumen Baru – Cara **membuat bentuk persegi panjang**
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-Hal pertama yang harus dilakukan: Anda memerlukan kanvas bersih. Di Aspose.Words kanvas tersebut adalah objek `Document`.
+Tidak ada pengaturan rumit selain itu—hanya metode `public static void main` biasa sudah cukup.
+
+![contoh bentuk persegi panjang](https://example.com/rectangle-shadow.png "contoh bentuk persegi panjang dengan bayangan di Word")
+
+*Teks alt gambar: contoh bentuk persegi panjang yang menampilkan persegi panjang sian dengan bayangan abu‑abu.*
+
+## Langkah 1 – Buat Dokumen Word Baru
+
+Hal pertama yang harus kita lakukan adalah membuat dokumen kosong. Anggap saja ini membuka file Word baru yang nantinya akan Anda gambar.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+Mengapa memulai dengan `Document` kosong? Karena Aspose.Words memperlakukan kelas `Document` sebagai kanvas untuk semua operasi selanjutnya—menambahkan paragraf, tabel, atau bentuk. Jika Anda melewatkan langkah ini, Anda akan mendapatkan `NullPointerException` saat mencoba menyisipkan apa pun.
+
+## Langkah 2 – Siapkan DocumentBuilder
+
+`DocumentBuilder` adalah pena ramah yang menulis ke dalam `Document`. Ini adalah cara yang direkomendasikan untuk menambahkan konten karena secara otomatis mengelola posisi kursor.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+Anda mungkin bertanya, “Mengapa tidak memanipulasi dokumen secara langsung?” Jawabannya: builder menyembunyikan detail tingkat‑rendah seperti penanganan section, sehingga kode menjadi lebih bersih dan kurang rawan kesalahan.
+
+## Langkah 3 – Sisipkan Bentuk Persegi Panjang
+
+Sekarang bagian yang menyenangkan—**cara membuat bentuk**. Kita akan menyisipkan persegi panjang berukuran 100 × 50 poin dan memberi isian sian agar Anda dapat melihatnya.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+Beberapa catatan:
+
+* `ShapeType.RECTANGLE` memberi tahu Aspose bahwa kita menginginkan persegi panjang; Anda dapat menggantinya dengan `OVAL`, `LINE`, dll.
+* Dimensi dinyatakan dalam poin (1 pt ≈ 1/72 in). Sesuaikan sesuai tata letak Anda.
+* Tanpa warna isian bentuk akan tidak terlihat di atas halaman putih—itulah mengapa dipilih sian.
+
+## Langkah 4 – Tambahkan Bayangan dan **Atur Warna Bayangan**
+
+Inilah bagian yang menjawab **cara menambahkan bayangan**. Objek `ShadowFormat` mengontrol setiap aspek visual bayangan, mulai dari warna hingga radius blur.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+Mengapa nilai‑nilai ini dipilih?
+
+* **Visibility** – Tanpa `setVisible(true)` pengaturan lainnya diabaikan.
+* **Color** – Abu‑abu adalah pilihan netral yang cocok pada latar belakang terang maupun gelap. Ganti `java.awt.Color.GRAY` dengan warna `java.awt.Color` lain yang Anda suka.
+* **Blur radius** – Nilai `5.0` memberikan efek lembut; angka lebih besar membuat bayangan tampak lebih menyebar.
+* **OffsetX/Y** – Offset menggeser bayangan ke kanan dan ke bawah, meniru sumber cahaya dari kiri‑atas.
+* **Transparency** – Bayangan semi‑transparan menyatu lebih baik dengan halaman, terutama saat dicetak.
+
+Jika Anda menginginkan tampilan yang lebih tajam, turunkan blur radius menjadi `0` dan tingkatkan offset. Eksperimen sangat dianjurkan—bayangan bersifat visual, dan pengaturan yang tepat tergantung pada desain dokumen Anda.
+
+## Langkah 5 – Simpan Dokumen
+
+Akhirnya, kita menyimpan semuanya ke file `.docx`. Anda dapat memilih jalur apa pun; pastikan direktori tersebut sudah ada.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+Saat Anda membuka *Shadow.docx* di Microsoft Word, Anda akan melihat persegi panjang sian dengan bayangan abu‑abu halus yang melayang 4 pt ke kanan dan ke bawah. Itu adalah alur kerja **membuat dokumen Word** yang lengkap.
+
+### Hasil yang Diharapkan
+
+| Elemen | Penampilan |
+|--------|------------|
+| Persegi panjang | Isian sian, ukuran 100 × 50 pt |
+| Bayangan | Abu‑abu, 30 % transparan, blur 5 pt, offset (4, 4) |
+| File | `Shadow.docx` disimpan pada jalur yang Anda berikan |
+
+Jika bentuk tidak muncul, periksa kembali bahwa warna isian tidak sama dengan latar belakang halaman dan bahwa bayangan telah diatur menjadi terlihat.
+
+## Tips Pro & Kesalahan Umum
+
+* **Tips pro:** Gunakan `rectangle.setStrokeColor(java.awt.Color.BLACK);` jika Anda menginginkan batas di sekitar bentuk. Ini membuat persegi panjang lebih menonjol pada halaman cetak.
+* **Waspadai:** Menyimpan ke folder yang hanya‑baca akan menghasilkan `IOException`. Pilih lokasi yang dapat ditulisi atau sesuaikan izin file.
+* **Kasus khusus:** Jika Anda memerlukan isian transparan (tanpa warna), panggil `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);`. Bentuk tetap akan menghasilkan bayangan, yang berguna untuk grafik gaya watermark.
+* **Catatan kinerja:** Menambahkan ratusan bentuk dalam loop dapat meningkatkan penggunaan memori. Panggil `document.save` hanya sekali setelah semua bentuk ditambahkan.
+
+## Contoh Lengkap yang Berfungsi
+
+Berikut adalah seluruh program yang dapat Anda salin‑tempel ke dalam kelas Java bernama `ShadowDemo`. Program ini dapat dikompilasi dan dijalankan apa adanya (asalkan JAR Aspose.Words ada di classpath).
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-Kelas `Document` mewakili seluruh file .docx. Anggaplah itu sebagai buku catatan di mana Anda nanti akan **menambahkan bentuk persegi panjang** dan bayangannya.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## Langkah 2: Bangun Persegi Panjang – **Tambahkan bentuk persegi panjang**
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-Sekarang kita benar‑benarnya membuat persegi panjang. Kita akan mengatur ukuran, tata letak, dan warna isi.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-Mengapa menggunakan pembungkus `INLINE`? Karena kami ingin shape berperilaku seperti paragraf—sempurna untuk laporan sederhana. Anda dapat mengubahnya menjadi `TOPBOTTOM` jika nanti membutuhkan teks mengalir di sekitar shape.
-
-## Langkah 3: Terapkan Bayangan – **Cara memberi bayangan pada shape**
-
-Persegi panjang datar terlihat agak membosankan. Menambahkan bayangan memberi kedalaman dan membuat dokumen terasa lebih halus. Di sinilah kami menjawab “**cara memberi bayangan pada shape**” secara praktik.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Setiap properti melakukan sesuatu yang spesifik:
-
-- `setVisible(true)` mengaktifkan bayangan.  
-- `setColor` memilih abu‑abu gelap untuk efek halus.  
-- `setBlurRadius` mengontrol seberapa lembut tepi terlihat.  
-- `setOffsetX/Y` memindahkan bayangan ke kanan dan ke bawah, meniru sumber cahaya.  
-- `setTransparency` membuatnya sedikit tembus pandang, sehingga shape tetap menjadi fokus.
-
-> **Catatan:** Jika Anda pernah membutuhkan bayangan berwarna, cukup berikan `java.awt.Color` yang berbeda ke `setColor`.
-
-## Langkah 4: Sisipkan Shape ke dalam Dokumen
-
-Dengan persegi panjang dan bayangannya siap, kami menempatkannya ke bagian pertama dokumen.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-Menambahkan ke body menempatkan shape di tempat paragraf baru akan berada. Jika Anda ingin persegi panjang pada lokasi tertentu, Anda dapat menggunakan `insertBefore` atau memanipulasi koleksi `Paragraph`.
-
-## Langkah 5: **Simpan dokumen Word** – Simpan Pekerjaan Anda
-
-Langkah terakhir adalah menulis file ke disk. Inilah saat Anda benar‑benar **menyimpan dokumen Word**.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-Ganti `YOUR_DIRECTORY` dengan jalur absolut atau relatif di mesin Anda. Setelah menjalankan program, buka `ShadowShape.docx` di Microsoft Word—Anda akan melihat persegi panjang berwarna abu‑abu muda dengan bayangan gelap yang lembut.
+Jalankan program, buka *Shadow.docx* yang dihasilkan, dan Anda akan melihat persegi panjang beserta bayangannya persis seperti yang dijelaskan.
 
-![Diagram yang menunjukkan bentuk persegi panjang dengan bayangan yang dibuat menggunakan Aspose.Words](https://example.com/rectangle-shadow.png "buat bentuk persegi panjang dengan bayangan")
+## Bagaimana Jika Anda Membutuhkan Lebih Banyak Bentuk?
 
----
+Anda mungkin bertanya, “Apakah saya dapat **membuat bentuk persegi panjang** berkali‑kali atau menggunakan bentuk lain?” Tentu saja. Cukup lakukan loop pada kode penyisipan dan sesuaikan koordinat menggunakan `builder.moveTo` atau `builder.insertParagraph`. Pengaturan bayangan yang sama dapat dipakai ulang dengan mengekstraknya ke dalam metode bantuan:
 
-## Pertanyaan Umum & Kasus Tepi
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### Bagaimana jika saya membutuhkan beberapa persegi panjang?
+Panggil `applyStandardShadow(rectangle);` setelah setiap penyisipan bentuk untuk menjaga kode Anda tetap DRY (Don’t Repeat Yourself).
 
-Cukup ulangi **Langkah 2** dan **Langkah 3** dalam sebuah loop, menyesuaikan `setWidth`, `setHeight`, atau `setFillColor` pada setiap iterasi. Ingat untuk memberi setiap shape nama variabel yang unik atau menyimpannya dalam sebuah list.
+## Langkah Selanjutnya – Lebih Dari Dasar
 
-### Bisakah saya mengekspor ke PDF alih-alih DOCX?
+Sekarang Anda sudah tahu **cara menambahkan bayangan**, pertimbangkan untuk mengeksplorasi topik terkait berikut:
 
-Tentu saja. Setelah shape ditambahkan, panggil `document.save("output.pdf")`. Aspose.Words akan menangani konversi, mempertahankan bayangan.
-
-### Bagaimana dengan versi Word yang lebih lama?
-
-Gunakan overload `document.save("file.doc", SaveFormat.DOC)`. API secara otomatis menurunkan fitur, tetapi perhatikan bahwa beberapa gaya bayangan mungkin terlihat sedikit berbeda pada format lama.
-
-### Bagaimana cara mengubah arah bayangan?
-
-Manipulasi `setOffsetX` dan `setOffsetY`. X positif memindahkan bayangan ke kanan, negatif ke kiri. Y positif memindahkan ke bawah, negatif ke atas. Bereksperimenlah dengan angka-angka tersebut untuk mensimulasikan sumber cahaya dari sudut mana pun.
-
-## Tips Bekerja dengan Shapes
-
-- **Group shapes**: Jika Anda membutuhkan label di sebelah persegi panjang, buat `GroupShape` dan tambahkan baik persegi panjang maupun `TextBox`.  
-- **Z‑order matters**: Gunakan `shape.moveToFront()` atau `shape.moveToBack()` untuk mengontrol shape mana yang muncul di atas.  
-- **Performance**: Menambahkan ratusan shape dapat memperlambat. Kelompokkan mereka dalam satu section, lalu panggil `document.updatePageLayout()` sekali di akhir.
-
-## Ringkasan
-
-Kami telah membahas cara **membuat bentuk persegi panjang** dalam dokumen Word menggunakan Java, cara **menambahkan bayangan pada shape**, dan cara **menyimpan dokumen Word** dengan hasilnya. Kode lengkap yang dapat dijalankan terdapat dalam potongan di atas, dan Anda kini memahami “mengapa” di balik setiap properti—sehingga Anda dapat menyesuaikan warna, blur, dan offset sesuai desain apa pun.
-
-Siap untuk tantangan berikutnya? Cobalah menggabungkan persegi panjang dengan diagram, atau ekspor file sebagai PDF dan lihat bagaimana bayangan ditampilkan. Anda juga dapat menjelajahi **menambahkan bentuk persegi panjang** di dalam tabel untuk tata letak laporan yang menarik.
-
-Selamat coding, semoga dokumen Anda selalu tampak setajam kode Anda!
+* **Cara mengatur warna bayangan** untuk run teks – memberi judul efek angkat halus.
+* **Membuat dokumen Word** dengan tabel dan gambar – menggabungkan bentuk dengan konten lain.
+* **Cara membuat animasi bentuk** menggunakan fitur bawaan Word
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

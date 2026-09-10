@@ -1,0 +1,7 @@
+Title: Save docx as markdown – Complete Guide to Convert Word to Markdown
+Slug: save-docx-as-markdown-complete-guide-to-convert-word-to-mark
+Category: document-conversion
+ProcessedDate: 2026-07-03T23:51:59.441924
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert word to markdown, how to convert docx, how to export equations, convert word with latex
+PRNumber: 221

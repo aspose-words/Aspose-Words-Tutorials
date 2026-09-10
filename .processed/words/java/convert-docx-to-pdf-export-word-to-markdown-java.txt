@@ -1,0 +1,7 @@
+Title: Convert DOCX to PDF – Export Word to Markdown (Java)
+Slug: convert-docx-to-pdf-export-word-to-markdown-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-03T23:22:54.936076
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, export word document to pdf, export word document to markdown, convert docx to markdown, how to convert word to pdf
+PRNumber: 220

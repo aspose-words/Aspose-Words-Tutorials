@@ -34,8 +34,10 @@ Výukový program pro Aspose.Words v Javě
 ### [Jak vykreslit stránky dokumentu jako miniatury pomocí Aspose.Words pro Javu](./render-word-pages-thumbnails-aspose-java/)
 Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastní velikosti v dokumentech Word pomocí Aspose.Words pro Javu. Vylepšete si své schopnosti práce s dokumenty ještě dnes.
 
-### [Vytvoření obdélníkového tvaru ve Wordu pomocí Javy – Kompletní průvodce](./create-rectangle-shape-in-word-with-java-full-guide/)
-Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a upravit obdélníkový tvar v dokumentu Word.
+### [Vytvořit Word dokument v Javě – Přidat obdélníkový tvar se stínovým efektem](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
+Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí Aspose.Words pro Javu.
+### [Vytvoření obdélníkového tvaru ve Wordu v Javě – Kompletní průvodce](./create-rectangle-shape-in-word-with-java-full-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a upravit obdélníkový tvar ve Word dokumentu.
 
 ## Další zdroje
 

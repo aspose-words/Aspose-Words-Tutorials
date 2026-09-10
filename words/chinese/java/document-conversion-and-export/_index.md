@@ -82,9 +82,39 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中使用水印文档](./using-watermarks-to-documents/)
 了解如何在 Aspose.Words for Java 中为文档添加水印。自定义文本和图像水印，打造专业水印的文档。
 
+### [在 Aspose.Words for Java 中将 DOCX 转换为 PDF](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+本教程展示如何使用 Aspose.Words for Java 将 DOCX 文件快速转换为 PDF，包含代码示例和关键设置。
+
+### [从 DOCX 创建可访问 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
+学习如何使用 Aspose.Words for Java 将 DOCX 转换为符合 WCAG 标准的可访问 PDF，涵盖标签、结构和元数据设置。
+
 ### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
 了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
 
+### [在 Aspose.Words for Java 中将 docx 转换为 markdown – 导出数学公式为 LaTeX](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+
+本教程演示如何使用 Aspose.Words for Java 将 DOCX 文件转换为 Markdown，并将文档中的数学公式导出为 LaTeX 代码。
+
+### [将文档另存为 TXT – 导出 Word 数学的快速指南](./save-document-as-txt-quick-guide-to-exporting-word-math/)
+
+### [在 Aspose.Words for Java 中将 DOCX 转换为 Markdown 时嵌入图像](./how-to-embed-images-in-markdown-when-converting-docx/)
+### [在 Java 中将 DOCX 转换为 Markdown 时将图像嵌入为 Base64](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+
+本教程演示如何使用 Aspose.Words for Java 将 DOCX 文档转换为 Markdown，并将其中的图像嵌入为 Base64 编码，以实现无外部资源的完整文档。
+
+### [使用 Aspose.Words 将 docx 保存为 PDF – 完整 Java 指南](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+
+本指南详细演示如何使用 Aspose.Words for Java 将 DOCX 文件转换并保存为高质量 PDF，提供完整的代码示例和最佳实践。
+
+### [使用 Aspose 将 Word 文档生成可访问 PDF – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
+
+本教程演示如何使用 Aspose.Words for Java 将 Word 文档转换为符合可访问性标准的 PDF，提供代码示例和最佳实践。
+
+### [如何将 DOCX 导出为 LaTeX – 完整 Java 指南](./how-to-export-latex-from-docx-complete-java-guide/)
+
+### [如何使用 Java 将 Word 导出为 Markdown – 完整指南](./how-to-export-markdown-from-word-using-java-complete-guide/)
+
+本指南详细演示如何使用 Aspose.Words for Java 将 Word 文档转换为 Markdown，包含完整代码示例和最佳实践。
 ### [使用 Java 将 docx 保存为 PDF – 完整分步指南](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
 
 ### [从 Word 创建可访问 PDF – 分步指南](./create-accessible-pdf-from-word-step-by-step-guide/)

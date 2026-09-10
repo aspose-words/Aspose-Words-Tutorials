@@ -1,169 +1,226 @@
 ---
 category: general
-date: 2026-02-15
-description: Utwórz prostokątny kształt w dokumencie Word przy użyciu Javy. Dowiedz
-  się, jak dodać cień do kształtu, zapisać dokument Word oraz dodać prostokątny kształt
-  za pomocą Aspose.Words.
+date: 2026-02-10
+description: Utwórz kształt prostokąta w dokumencie Word przy użyciu Aspose.Words
+  for Java. Dowiedz się, jak ustawić kolor cienia, jak dodać cień oraz jak programowo
+  tworzyć dokument Word.
 draft: false
 keywords:
 - create rectangle shape
-- save word document
-- how to shadow shape
-- add shape shadow
-- add rectangle shape
+- set shadow color
+- create word document
+- how to add shadow
+- how to create shape
 language: pl
-og_description: Utwórz prostokątny kształt w pliku Word przy użyciu Javy. Ten przewodnik
-  pokazuje, jak dodać cień do kształtu, zapisać dokument Word oraz dodać prostokątny
-  kształt krok po kroku.
-og_title: Utwórz kształt prostokąta – Samouczek Java Aspose.Words
+og_description: Utwórz kształt prostokąta w dokumencie Word przy użyciu Aspose.Words
+  for Java. Postępuj zgodnie z tym samouczkiem krok po kroku, aby ustawić kolor cienia,
+  dodać cień i utworzyć dokument Word.
+og_title: Tworzenie prostokątnego kształtu w Wordzie przy użyciu Javy – pełny przewodnik
 tags:
 - Aspose.Words
 - Java
 - Document Automation
-title: Tworzenie prostokątnego kształtu w Wordzie przy użyciu Javy – pełny przewodnik
+title: Utwórz prostokątny kształt w Wordzie za pomocą Javy – pełny przewodnik
 url: /pl/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-unchanged.
+.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+Let's produce translation.
+
+Will keep shortcodes at start and end.
+
+Proceed.
+
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie prostokątnego kształtu w Wordzie przy użyciu Java – Pełny przewodnik
 
-Kiedykolwiek potrzebowałeś **create rectangle shape** w pliku Word, ale nie wiedziałeś od czego zacząć? Nie jesteś jedyny — wielu programistów napotyka ten problem przy automatyzacji raportów lub faktur. Dobra wiadomość? Dzięki Aspose.Words for Java możesz szybko utworzyć prostokąt, dodać mu ładny cień i zapisać dokument Word w kilku linijkach kodu.
+Kiedykolwiek potrzebowałeś **utworzyć prostokątny kształt** w dokumencie Word, ale nie wiedziałeś od czego zacząć? Nie jesteś sam — wielu programistów napotyka ten problem, gdy po raz pierwszy próbują rysować grafikę w Wordzie programowo. Dobra wiadomość? Dzięki Aspose.Words for Java możesz w kilka sekund dodać prostokąt na stronę, nadać mu ładny cień i zapisać plik. W tym tutorialu przejdziemy krok po kroku, **jak dodać cień**, **ustawić kolor cienia** oraz **utworzyć dokument Word** od podstaw.  
 
-W tym samouczku przeprowadzimy Cię przez wszystko, czego potrzebujesz: od inicjalizacji pustego dokumentu, przez konfigurację cienia, aż po ostateczne zapisanie pliku. Po zakończeniu będziesz wiedział, **how to shadow shape** obiekty, jak **add shape shadow**, oraz jak **add rectangle shape** w dowolnym dokumencie Word, który wygenerujesz. Nie są potrzebne żadne zewnętrzne dokumenty — tylko czysty, uruchamialny kod.
+Omówimy wszystko, co jest potrzebne: wymagane biblioteki, każdy wiersz kodu, dlaczego niektóre ustawienia mają znaczenie oraz kilka trików, których nie znajdziesz w oficjalnej dokumentacji. Po zakończeniu będziesz mieć gotowy przykład, który tworzy prostokątny kształt z delikatnym szarym cieniem, zapisywany jako *Shadow.docx*.
 
-## Wymagania wstępne
+## Wymagania wstępne – Co potrzebujesz przed rozpoczęciem
 
-- Java 8 lub nowszy (API działa również z Java 11+).  
-- Biblioteka Aspose.Words for Java (wersja 23.9 lub późniejsza).  
-- IDE, takie jak IntelliJ IDEA lub Eclipse — dowolne będzie odpowiednie.  
-- Podstawowa znajomość składni Java.
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
-> **Pro tip:** Jeśli używasz Maven, dodaj zależność Aspose.Words do swojego `pom.xml` i pozwól IDE zająć się resztą.
+| Wymaganie | Powód |
+|-----------|-------|
+| Java Development Kit (JDK) 8 lub nowszy | Aspose.Words działa na dowolnym nowoczesnym JDK. |
+| Maven lub Gradle (opcjonalnie) | Ułatwia dodanie zależności Aspose.Words. |
+| Licencja Aspose.Words for Java (lub darmowa wersja próbna) | Biblioteka jest komercyjna; wersja próbna wystarczy do testów. |
+| IDE (IntelliJ IDEA, Eclipse, VS Code itp.) | Umożliwia szybkie uruchomienie i debugowanie przykładu. |
 
----
+Jeśli już masz projekt Java, po prostu dodaj współrzędną Maven:
 
-## Krok 1: Inicjalizacja nowego dokumentu – How to **create rectangle shape**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-words</artifactId>
+    <version>24.9</version> <!-- Replace with the latest version -->
+</dependency>
+```
 
-Na początek potrzebujesz czystego płótna. W Aspose.Words tym płótnem jest obiekt `Document`.
+Nie potrzebujesz żadnej skomplikowanej konfiguracji — wystarczy zwykła metoda `public static void main`.
+
+![przykład tworzenia prostokątnego kształtu](https://example.com/rectangle-shadow.png "tworzenie prostokątnego kształtu z cieniem w Wordzie")
+
+*Tekst alternatywny obrazu: przykład tworzenia prostokątnego kształtu pokazujący cyjanowy prostokąt z szarym cieniem.*
+
+## Krok 1 – Utworzenie nowego dokumentu Word
+
+Pierwszą rzeczą, którą musimy zrobić, jest utworzenie pustego dokumentu. Pomyśl o tym jak o otwarciu nowego pliku Word, na którym później będziesz rysować.
+
+```java
+// Step 1: Initialize a blank Document object
+Document document = new Document();
+```
+
+Dlaczego zaczynamy od pustego `Document`? Ponieważ Aspose.Words traktuje klasę `Document` jako płótno dla wszystkich kolejnych operacji — dodawania akapitów, tabel czy kształtów. Jeśli pominiesz ten krok, natychmiast po próbie wstawienia czegokolwiek otrzymasz `NullPointerException`.
+
+## Krok 2 – Konfiguracja DocumentBuilder
+
+`DocumentBuilder` to Twój przyjazny pióro, które zapisuje do `Document`. To zalecany sposób dodawania treści, ponieważ automatycznie zarządza pozycją kursora.
+
+```java
+// Step 2: Create a DocumentBuilder tied to our document
+DocumentBuilder builder = new DocumentBuilder(document);
+```
+
+Możesz się zastanawiać: „Dlaczego nie manipulować dokumentem bezpośrednio?” Odpowiedź: builder ukrywa szczegóły niskiego poziomu, takie jak obsługa sekcji, co sprawia, że kod jest czystszy i mniej podatny na błędy.
+
+## Krok 3 – Wstawienie prostokątnego kształtu
+
+Teraz przychodzi najciekawsza część — **jak utworzyć kształt**. Wstawimy prostokąt o wymiarach 100 × 50 punktów i nadamy mu wypełnienie cyjanem, aby był widoczny.
+
+```java
+// Step 3: Insert a rectangle shape of size 100x50 points
+Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+
+// Apply a solid fill color to make the shape visible
+rectangle.setFillColor(java.awt.Color.CYAN);
+```
+
+Kilka uwag:
+
+* `ShapeType.RECTANGLE` informuje Aspose, że chcemy prostokąt; możesz zamienić go na `OVAL`, `LINE` itp.
+* Wymiary podawane są w punktach (1 pt ≈ 1/72 cala). Dostosuj je do swojego układu.
+* Bez koloru wypełnienia kształt byłby niewidoczny na białej stronie — stąd cyjan.
+
+## Krok 4 – Dodanie cienia i **ustawienie koloru cienia**
+
+Tutaj odpowiadamy na pytanie **jak dodać cień**. Obiekt `ShadowFormat` kontroluje każdy wizualny aspekt cienia, od koloru po promień rozmycia.
+
+```java
+// Step 4: Enable the shape's shadow and configure its appearance
+rectangle.getShadowFormat().setVisible(true);                     // Turn the shadow on
+rectangle.getShadowFormat().setColor(java.awt.Color.GRAY);      // **set shadow color** to gray
+rectangle.getShadowFormat().setBlurRadius(5.0);                  // Soft blur for realism
+rectangle.getShadowFormat().setOffsetX(4.0);                     // Horizontal offset
+rectangle.getShadowFormat().setOffsetY(4.0);                     // Vertical offset
+rectangle.getShadowFormat().setTransparency(0.3);               // 30 % transparent
+```
+
+Dlaczego właśnie te wartości?
+
+* **Widoczność** – Bez `setVisible(true)` pozostałe ustawienia są ignorowane.
+* **Kolor** – Szary to neutralny wybór, który działa zarówno na jasnym, jak i ciemnym tle. Śmiało zamień `java.awt.Color.GRAY` na dowolny inny `java.awt.Color`.
+* **Promień rozmycia** – Wartość `5.0` daje delikatne piórko; większe liczby sprawiają, że cień staje się bardziej rozproszony.
+* **OffsetX/Y** – Przesunięcia przesuwają cień w prawo i w dół, imitując źródło światła z górnego‑lewego rogu.
+* **Przezroczystość** – Cień półprzezroczysty lepiej komponuje się ze stroną, zwłaszcza przy drukowaniu.
+
+Jeśli potrzebujesz ostrzejszego wyglądu, zmniejsz promień rozmycia do `0` i zwiększ offset. Eksperymentowanie jest zalecane — cienie są bardzo wizualne, a odpowiednie ustawienia zależą od projektu dokumentu.
+
+## Krok 5 – Zapisanie dokumentu
+
+Na koniec zapisujemy wszystko do pliku `.docx`. Możesz wybrać dowolną ścieżkę, pod warunkiem że katalog istnieje.
+
+```java
+// Step 5: Save the document with the shaped shadow to a file
+document.save("YOUR_DIRECTORY/Shadow.docx");
+```
+
+Gdy otworzysz *Shadow.docx* w Microsoft Word, zobaczysz cyjanowy prostokąt z subtelnym szarym cieniem, przesuniętym o 4 pt w prawo i w dół. To kompletny **workflow tworzenia dokumentu Word**.
+
+### Oczekiwany rezultat
+
+| Element | Wygląd |
+|---------|--------|
+| Prostokąt | Wypełnienie cyjanem, rozmiar 100 × 50 pt |
+| Cień | Szary, 30 % przezroczysty, rozmycie 5 pt, offset (4, 4) |
+| Plik | `Shadow.docx` zapisany w podanej ścieżce |
+
+Jeśli kształt się nie pojawi, sprawdź, czy kolor wypełnienia nie jest taki sam jak tło strony oraz czy cień jest ustawiony jako widoczny.
+
+## Porady profesjonalne i typowe pułapki
+
+* **Porada pro:** Użyj `rectangle.setStrokeColor(java.awt.Color.BLACK);`, jeśli chcesz obramowanie wokół kształtu. Dzięki temu prostokąt lepiej wyróżnia się na wydruku.
+* **Uwaga:** Zapisywanie do folderu tylko do odczytu spowoduje `IOException`. Wybierz lokalizację z prawami zapisu lub zmień uprawnienia.
+* **Przypadek brzegowy:** Jeśli potrzebujesz przezroczystego wypełnienia (brak koloru), wywołaj `rectangle.setFillColor(java.awt.Color.WHITE); rectangle.setFillOpacity(0.0);`. Kształt nadal rzuci cień, co może być przydatne przy grafikach w stylu znaku wodnego.
+* **Uwaga o wydajności:** Dodawanie setek kształtów w pętli może zwiększyć zużycie pamięci. Wywołuj `document.save` tylko raz po dodaniu wszystkich kształtów.
+
+## Pełny działający przykład
+
+Poniżej znajduje się cały program, który możesz skopiować i wkleić do klasy Java o nazwie `ShadowDemo`. Kompiluje się i uruchamia bez zmian (oczywiście przy założeniu, że masz plik JAR Aspose.Words w classpath).
 
 ```java
 import com.aspose.words.*;
 
-public class ShadowShapeExample {
+public class ShadowDemo {
     public static void main(String[] args) throws Exception {
         // Step 1: Create a new blank document
         Document document = new Document();
-```
 
-Klasa `Document` reprezentuje cały plik .docx. Traktuj ją jak notes, w którym później **add rectangle shape** i jego cień.
+        // Step 2: Initialize a DocumentBuilder to construct the document content
+        DocumentBuilder builder = new DocumentBuilder(document);
 
-## Krok 2: Budowanie prostokąta – **Add rectangle shape**  
+        // Step 3: Insert a rectangle shape of size 100x50 points
+        Shape rectangle = builder.insertShape(ShapeType.RECTANGLE, 100, 50);
+        // Apply a solid fill color to make the shape visible
+        rectangle.setFillColor(java.awt.Color.CYAN);
 
-Teraz faktycznie konstruujemy prostokąt. Ustawimy jego rozmiar, układ i kolor wypełnienia.
+        // Step 4: Enable the shape's shadow and configure its appearance
+        rectangle.getShadowFormat().setVisible(true);
+        rectangle.getShadowFormat().setColor(java.awt.Color.GRAY); // set shadow color
+        rectangle.getShadowFormat().setBlurRadius(5.0);
+        rectangle.getShadowFormat().setOffsetX(4.0);
+        rectangle.getShadowFormat().setOffsetY(4.0);
+        rectangle.getShadowFormat().setTransparency(0.3);
 
-```java
-        // Step 2: Create a rectangle shape and set its size and layout
-        Shape rectangleShape = new Shape(document, ShapeType.RECTANGLE);
-        rectangleShape.setWidth(200);
-        rectangleShape.setHeight(100);
-        rectangleShape.setWrapType(WrapType.INLINE);
-        rectangleShape.setFillColor(java.awt.Color.LIGHT_GRAY);
-```
-
-Dlaczego opakowanie `INLINE`? Ponieważ chcemy, aby kształt zachowywał się jak akapit — idealny dla prostych raportów. Możesz zmienić na `TOPBOTTOM`, jeśli później potrzebujesz, aby tekst płynął wokół kształtu.
-
-## Krok 3: Dodanie cienia – **How to shadow shape**  
-
-Płaski prostokąt wygląda nieco nijako. Dodanie cienia nadaje mu głębi i sprawia, że dokument wydaje się bardziej dopracowany. To właśnie tutaj odpowiadamy na pytanie „**how to shadow shape**” w praktyce.
-
-```java
-        // Step 3: Configure the shape's shadow appearance
-        rectangleShape.getShadowFormat().setVisible(true);
-        rectangleShape.getShadowFormat().setColor(java.awt.Color.DARK_GRAY);
-        rectangleShape.getShadowFormat().setBlurRadius(5.0);
-        rectangleShape.getShadowFormat().setOffsetX(4.0);
-        rectangleShape.getShadowFormat().setOffsetY(4.0);
-        rectangleShape.getShadowFormat().setTransparency(0.3);
-```
-
-Each property does something specific:
-
-- `setVisible(true)` włącza cień.  
-- `setColor` wybiera ciemny szary dla subtelnego efektu.  
-- `setBlurRadius` kontroluje, jak miękkie są krawędzie.  
-- `setOffsetX/Y` przesuwa cień w prawo i w dół, naśladując źródło światła.  
-- `setTransparency` sprawia, że cień jest lekko przezroczysty, dzięki czemu kształt pozostaje w centrum uwagi.
-
-> **Note:** Jeśli kiedykolwiek potrzebujesz kolorowego cienia, po prostu przekaż inny `java.awt.Color` do `setColor`.
-
-## Krok 4: Wstawienie kształtu do dokumentu  
-
-Gdy prostokąt i jego cień są gotowe, wkładamy go do pierwszej sekcji dokumentu.
-
-```java
-        // Step 4: Add the shape to the first section of the document
-        document.getFirstSection().getBody().appendChild(rectangleShape);
-```
-
-Dołączanie do ciała umieszcza kształt tam, gdzie znajdowałby się nowy akapit. Jeśli chcesz, aby prostokąt znajdował się w określonym miejscu, możesz użyć `insertBefore` lub manipulować kolekcją `Paragraph`.
-
-## Krok 5: **Save Word document** – Zapisz swoją pracę  
-
-Ostatnim krokiem jest zapisanie pliku na dysku. To moment, w którym naprawdę **save Word document**.
-
-```java
-        // Step 5: Save the document with the shadowed shape
-        document.save("YOUR_DIRECTORY/ShadowShape.docx");
+        // Step 5: Save the document with the shaped shadow to a file
+        document.save("YOUR_DIRECTORY/Shadow.docx");
     }
 }
 ```
 
-Zastąp `YOUR_DIRECTORY` absolutną lub względną ścieżką na swoim komputerze. Po uruchomieniu programu otwórz `ShadowShape.docx` w Microsoft Word — powinieneś zobaczyć jasnoszary prostokąt z delikatnym ciemnym cieniem.
+Uruchom program, otwórz powstały *Shadow.docx* i zobaczysz prostokąt z cieniem dokładnie takim, jak opisano.
 
-![Diagram showing a rectangle shape with shadow created using Aspose.Words](https://example.com/rectangle-shadow.png "create rectangle shape with shadow")
+## Co zrobić, jeśli potrzebujesz więcej kształtów?
 
----
+Możesz się zastanawiać: „Czy mogę **tworzyć prostokątny kształt** wielokrotnie lub używać innych kształtów?” Oczywiście. Po prostu umieść kod wstawiania w pętli i dostosuj współrzędne przy pomocy `builder.moveTo` lub `builder.insertParagraph`. Te same ustawienia cienia możesz ponownie wykorzystać, wyodrębniając je do metody pomocniczej:
 
-## Często zadawane pytania i przypadki brzegowe  
+```java
+private static void applyStandardShadow(Shape shape) {
+    shape.getShadowFormat().setVisible(true);
+    shape.getShadowFormat().setColor(java.awt.Color.GRAY);
+    shape.getShadowFormat().setBlurRadius(5.0);
+    shape.getShadowFormat().setOffsetX(4.0);
+    shape.getShadowFormat().setOffsetY(4.0);
+    shape.getShadowFormat().setTransparency(0.3);
+}
+```
 
-### Co zrobić, jeśli potrzebuję wielu prostokątów?  
+Wywołaj `applyStandardShadow(rectangle);` po każdym wstawieniu kształtu, aby utrzymać kod DRY (Don’t Repeat Yourself).
 
-Po prostu powtórz **Step 2** i **Step 3** w pętli, dostosowując `setWidth`, `setHeight` lub `setFillColor` w każdej iteracji. Pamiętaj, aby każdemu kształtowi nadać unikalną nazwę zmiennej lub przechowywać je na liście.
+## Kolejne kroki – Wyjście poza podstawy
 
-### Czy mogę wyeksportować do PDF zamiast DOCX?  
+Teraz, gdy wiesz **jak dodać cień**, rozważ zgłębienie następujących tematów:
 
-Oczywiście. Po dodaniu kształtu wywołaj `document.save("output.pdf")`. Aspose.Words zajmie się konwersją, zachowując cień.
-
-### Co z starszymi wersjami Worda?  
-
-Użyj przeciążenia `document.save("file.doc", SaveFormat.DOC)`. API automatycznie obniża wersję funkcji, ale pamiętaj, że niektóre style cieni mogą wyglądać nieco inaczej w starszych formatach.
-
-### Jak zmienić kierunek cienia?  
-
-Manipuluj `setOffsetX` i `setOffsetY`. Dodatni X przesuwa cień w prawo, ujemny w lewo. Dodatni Y przesuwa w dół, ujemny w górę. Eksperymentuj z tymi wartościami, aby symulować źródło światła pod dowolnym kątem.
-
----
-
-## Wskazówki dotyczące pracy z kształtami  
-
-- **Group shapes**: Jeśli potrzebujesz etykiety obok prostokąta, utwórz `GroupShape` i dodaj zarówno prostokąt, jak i `TextBox`.  
-- **Z‑order matters**: Użyj `shape.moveToFront()` lub `shape.moveToBack()`, aby kontrolować, który kształt znajduje się na wierzchu.  
-- **Performance**: Dodawanie setek kształtów może być wolne. Grupuj je w jednej sekcji, a na końcu wywołaj `document.updatePageLayout()` raz.
-
----
-
-## Podsumowanie  
-
-Omówiliśmy, jak **create rectangle shape** w dokumencie Word przy użyciu Java, jak **add shape shadow**, oraz jak **save Word document** z wynikiem. Pełny, uruchamialny kod znajduje się w powyższych fragmentach, a Ty rozumiesz „dlaczego” każdej właściwości — dzięki czemu możesz dostosować kolory, rozmycie i przesunięcia do dowolnego projektu.
-
-Gotowy na kolejne wyzwanie? Spróbuj połączyć prostokąt z wykresem lub wyeksportować plik jako PDF i zobaczyć, jak renderuje się cień. Możesz także zbadać **add rectangle shape** wewnątrz tabel, aby uzyskać efektowne układy raportów.
-
-Miłego kodowania i niech Twoje dokumenty zawsze wyglądają tak ostro, jak Twój kod!
+* **Jak ustawić kolor cienia** dla fragmentów tekstu – nadaje tytułom subtelny podniesiony efekt.
+* **Tworzenie dokumentu Word** z tabelami i obrazami – połącz kształty z inną zawartością.
+* **Jak tworzyć animacje kształtów** przy użyciu wbudowanych funkcji Worda
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

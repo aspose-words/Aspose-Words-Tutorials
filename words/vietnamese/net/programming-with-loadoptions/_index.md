@@ -22,18 +22,30 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
  ## Hướng dẫn
 | Tiêu đề | Mô tả |
 | --- | --- |
-| [Cập nhật các trường bẩn trong tài liệu Word](./update-dirty-fields/) Cập nhật các trường lỗi trong tài liệu Word của bạn một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
+| [Cập nhật các trường bẩn trong tài liệu Word](./update-dirty-fields/) | Cập nhật các trường lỗi trong tài liệu Word của bạn một cách dễ dàng bằng Aspose.Words cho .NET với hướng dẫn từng bước toàn diện này. |
 | [Tải mã hóa trong tài liệu Word](./load-encrypted-document/) | Tìm hiểu cách tải và lưu các tài liệu Word được mã hóa bằng Aspose.Words cho .NET. Bảo mật tài liệu của bạn bằng mật khẩu mới một cách dễ dàng. Có kèm hướng dẫn từng bước. |
 | [Chuyển đổi hình dạng sang Office Math](./convert-shape-to-office-math/) | Tìm hiểu cách chuyển đổi hình dạng thành Office Math trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn của chúng tôi. Cải thiện định dạng tài liệu của bạn một cách dễ dàng. |
 | [Đặt Phiên Bản Ms Word](./set-ms-word-version/) | Tìm hiểu cách thiết lập phiên bản MS Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa thao tác tài liệu. |
 | [Sử dụng thư mục Temp trong tài liệu Word](./use-temp-folder/) | Tìm hiểu cách nâng cao hiệu suất của các ứng dụng .NET bằng cách sử dụng thư mục tạm thời khi tải tài liệu Word bằng Aspose.Words. |
-| [Cảnh báo gọi lại trong tài liệu Word](./warning-callback/) Tìm hiểu cách bắt và xử lý cảnh báo trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo xử lý tài liệu mạnh mẽ. |
+| [Cảnh báo gọi lại trong tài liệu Word](./warning-callback/) | Tìm hiểu cách bắt và xử lý cảnh báo trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo xử lý tài liệu mạnh mẽ. |
 | [Tải Với Mã Hóa Trong Tài Liệu Word](./load-with-encoding/) | Tìm hiểu cách tải tài liệu Word với mã hóa cụ thể bằng Aspose.Words cho .NET. Hướng dẫn từng bước có giải thích chi tiết. |
 | [Bỏ qua hình ảnh PDF](./skip-pdf-images/) | Tìm hiểu cách bỏ qua hình ảnh khi tải tài liệu PDF bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn từng bước này để trích xuất văn bản liền mạch. |
 | [Chuyển đổi Metafiles sang PNG](./convert-metafiles-to-png/) | Dễ dàng chuyển đổi tệp meta sang PNG trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý tài liệu của bạn. |
 | [Tải các tập tin Chm vào tài liệu Word](./load-chm/) | Dễ dàng tải các tệp CHM vào tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước này. Hoàn hảo để hợp nhất tài liệu kỹ thuật của bạn. |
 | [Cách khôi phục docx với Aspose.Words – từng bước](./how-to-recover-docx-with-aspose-words-step-by-step/) | Hướng dẫn chi tiết cách khôi phục tệp docx bị hỏng bằng Aspose.Words trong .NET, từng bước một. |
+| [Khôi phục tài liệu Word bằng Aspose.Words trong C#](./recover-word-document-with-aspose-words-in-c/) | Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#, từng bước một. |
+| [Cách khôi phục DOCX – Hướng dẫn đầy đủ bằng Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Hướng dẫn toàn diện cách khôi phục tệp DOCX bị hỏng bằng Aspose.Words trong .NET, chi tiết từng bước. |
 | [Aspose Load Options – Tải DOCX với Cài Đặt Phông Chữ Tùy Chỉnh](./aspose-load-options-load-docx-with-custom-font-settings/) | Hướng dẫn cách tải tệp DOCX bằng Aspose Load Options với cài đặt phông chữ tùy chỉnh. |
+| [Khôi phục tài liệu Word bị hỏng – Hướng dẫn C# đầy đủ](./recover-damaged-word-document-complete-c-guide/) | Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#. |
+| [Khôi phục docx bị hỏng với Aspose.Words – đặt chế độ khôi phục và tùy chọn tải](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Hướng dẫn cách khôi phục tệp docx bị hỏng bằng cách thiết lập chế độ khôi phục và sử dụng LoadOptions trong Aspose.Words cho .NET. |
+| [Khôi phục tệp Word bị hỏng – Hướng dẫn đầy đủ để mở DOCX bị hỏng & Đếm số trang](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Tìm hiểu cách khôi phục tệp Word bị hỏng, mở tài liệu DOCX bị lỗi và lấy số trang bằng Aspose.Words cho .NET. |
+| [Cách khôi phục docx – Hướng dẫn C# cho tệp Word bị hỏng](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Hướng dẫn chi tiết cách khôi phục các tệp Word bị hỏng (.docx) bằng C# và Aspose.Words. |
+| [Cách khôi phục docx – thiết lập chế độ khôi phục & mở tệp Word bị hỏng](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) | Hướng dẫn từng bước để thiết lập chế độ khôi phục và mở các tệp Word bị hỏng bằng Aspose.Words cho .NET. |
+| [Aspose Load Options – Tải DOCX với Cài Đặt Phông Chữ Tùy Chỉnh](./aspose-load-options-load-docx-with-custom-font-settings/) |
+| [Cách Sử Dụng LoadOptions trong Aspose.Words – Hướng Dẫn Toàn Diện](./how-to-use-loadoptions-in-aspose-words-complete-guide/) | Hướng dẫn chi tiết cách sử dụng LoadOptions trong Aspose.Words để tùy chỉnh việc tải tài liệu Word. |
+| [Khôi phục tài liệu bị hỏng trong C# – Đặt chế độ khôi phục và nhắc người dùng](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Hướng dẫn khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#, thiết lập chế độ khôi phục và hiển thị lời nhắc cho người dùng. |
+| [Khôi phục tài liệu Word bị hỏng – Hướng dẫn C# đầy đủ](./recover-corrupted-word-document-complete-c-guide/) | Hướng dẫn chi tiết cách khôi phục tài liệu Word bị hỏng bằng Aspose.Words trong C#. |
+| [Khôi phục tệp DOCX bị hỏng bằng Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Hướng dẫn từng bước khôi phục tệp DOCX hỏng bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

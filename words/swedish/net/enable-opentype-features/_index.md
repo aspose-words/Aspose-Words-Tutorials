@@ -21,6 +21,7 @@ Lär dig hur du aktiverar OpenType-funktioner i dina Word-dokument med Aspose.Wo
 | Titel | Beskrivning |
 | --- | --- |
 | [Funktioner för öppen typ](./open-type-features/) | Lär dig hur du aktiverar OpenType-funktioner i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. |
+| [Skapa Word-dokument med Aspose.Words – steg‑för‑steg‑guide](./create-word-document-with-aspose-words-step-by-step-guide/) | Lär dig hur du skapar ett Word-dokument med Aspose.Words i en steg‑för‑steg‑guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

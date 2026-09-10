@@ -94,13 +94,15 @@ Aspose.Words for Java’da RTF Yükleme Seçeneklerini yapılandırın. RTF belg
 ### [Aspose.Words for Java ile Metin Dosyalarını Yükleme](./loading-text-files/)
 Aspose.Words for Java’nun gücünü keşfedin. Metin Belgelerini Yükleme, Listeleri Yönetme, Boşlukları Ele Alma ve Metin Yönünü Kontrol Etme konularını öğrenin.
 
+### [Docx Kurtarma Rehberi – Bozuk Word Dosyalarını Okuma İçin Tam Kılavuz](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
 ### [Aspose.Words for Java’da Gelişmiş Kaydetme Seçenekleri](./advance-saving-options/)
 Aspose.Words for Java ile gelişmiş belge manipülasyonunu öğrenin. Şifreleme, metafile yönetimi ve daha fazlası. Word belgeleriniz, sizin istediğiniz gibi.
 
 ### [Aspose.Words for Java’da Sabit Düzenli HTML Belgelerini Kaydetme](./saving-html-documents-with-fixed-layout/)
 Aspose.Words for Java’da sabit düzenli HTML belgelerini nasıl kaydedeceğinizi öğrenin. Sorunsuz belge biçimlendirme için adım adım rehberimizi izleyin.
 
-### [Aspose.Words Java ile Gelişmiş HTML Belge Kaydetme Seçenekleri](./advance-html-documents-saving-options/)
+### [Aspose.Words for Java Java ile Gelişmiş HTML Belge Kaydetme Seçenekleri](./advance-html-documents-saving-options/)
 Bu eğitimde, Aspose.Words for Java ile çeşitli gelişmiş HTML belge kaydetme seçeneklerini ele aldık. Bu seçenekler, yüksek kaliteli HTML oluşturmanızı sağlar.
 
 ### [Aspose.Words for Java’da Belgelerden Görüntü Kaydetme](./saving-images-from-documents/)
@@ -130,6 +132,10 @@ Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğin
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
 Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin.
 
+### [Bozuk docx dosyasını kurtarma – Belgeleri Düzeltme ve İşleme Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve işleyebileceğinizi öğrenin.
 ### [Kırık Word Belgesini Kurtarmak İçin Kurtarma Modunu Ayarlama](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java’da Eksik Yazı Tiplerini Nasıl Alırsınız – Aspose.Words Rehberi](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
