@@ -122,6 +122,17 @@ Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými zna
 
 ### [Jak exportovat Markdown z Wordu pomocí Javy – Kompletní průvodce](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Naučte se exportovat obsah Wordu do formátu Markdown pomocí Aspose.Words for Java v podrobném průvodci.
+### [Převod docx na txt – Export rovnic Word jako LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Naučte se převést soubory DOCX na prostý text a exportovat rovnice Word do formátu LaTeX pomocí Aspose.Words.
+
+### [Uložení DOCX jako PDF pomocí Javy – Kompletní průvodce krok za krokem](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words for Java převést soubor DOCX na PDF v několika jednoduchých krocích.
+
+### [Export Word do Markdown – Kompletní průvodce v Javě](./export-word-to-markdown-full-java-guide/)
+Naučte se převádět dokumenty Word do formátu Markdown pomocí Aspose.Words for Java v podrobném krok‑za‑krokem návodu.
+
+### [Vytvoření přístupného PDF z Wordu – krok‑za‑krokem průvodce](./create-accessible-pdf-from-word-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými značkami a optimalizovat jej pro čtečky obrazovky.
 
 ## Často kladené otázky
 

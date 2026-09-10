@@ -81,8 +81,6 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [การกำหนดค่า RTF Load Options ใน Aspose.Words for Java](./configuring-rtf-load-options/)
 ### [การโหลดไฟล์ข้อความด้วย Aspose.Words for Java](./loading-text-files/)
 ### [ตัวเลือกการบันทึกขั้นสูงด้วย Aspose.Words for Java](./advance-saving-options/)
-### [การบันทึกเอกสาร HTML ด้วย Fixed Layout ใน Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
-### [ตัวเลือกการบันทึกเอกสาร HTML ขั้นสูงด้วย Aspose.Words Java](./advance-html-documents-saving-options/)
 ### [การบันทึกภาพจากเอกสารใน Aspose.Words for Java](./saving-images-from-documents/)
 ### [การบันทึกเอกสารเป็น Markdown ใน Aspose.Words for Java](./saving-documents-as-markdown/)
 ### [การบันทึกเอกสารเป็นรูปแบบ ODT ใน Aspose.Words for Java](./saving-documents-as-odt-format/)
@@ -95,6 +93,8 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [กู้ไฟล์ docx ที่เสีย – คู่มือฉบับเต็มสำหรับการแก้ไขและประมวลผลเอกสาร](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [บันทึกคำเตือนการแทนที่ฟอนต์ใน Java ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [วิธีกู้คืนไฟล์ docx – คู่มือฉบับสมบูรณ์เพื่ออ่านไฟล์ Word ที่เสียหาย](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [วิธีรับฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [ตั้งโหมดการกู้คืนเพื่อกู้คืนเอกสาร Word ที่เสียหาย](./set-recovery-mode-to-recover-broken-word-document/)
 
 ## คำถามที่พบบ่อย
 

@@ -123,6 +123,17 @@ weight: 22
 
 ### [إنشاء PDF ميسّر من Word باستخدام Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 تعلم كيفية توليد ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for Java لضمان توافق مع قارئات الشاشة.
+### [تحويل docx إلى txt – تصدير معادلات Word كـ LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+تحويل مستندات DOCX إلى ملفات TXT وتصدير المعادلات إلى LaTeX باستخدام Aspose.Words for Java.
+
+### [حفظ docx كـ pdf باستخدام Java – دليل خطوة بخطوة كامل](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل وحفظ مستندات DOCX إلى PDF باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [تصدير Word إلى Markdown – دليل Java كامل](./export-word-to-markdown-full-java-guide/)
+تعلم كيفية تحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

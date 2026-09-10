@@ -93,6 +93,12 @@ Entdecken Sie die Möglichkeiten von Dokumentformen in Aspose.Words for Java. Le
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Erfahren Sie, wie Sie Wasserzeichen zu Dokumenten in Aspose.Words for Java hinzufügen. Passen Sie Text‑ und Bildwasserzeichen für professionell aussehende Dokumente an.
 
+### [DOCX als PDF mit Java speichern – Komplett‑Anleitung Schritt für Schritt](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words for Java problemlos in PDF konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung.
+
+### [Barrierefreies PDF aus Word erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein barrierefreies PDF aus einem Word‑Dokument erstellen.
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
 
@@ -123,6 +129,11 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Inhalte aus Word‑Dokumenten i
 
 ### [Barrierefreies PDF aus Word mit Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java barrierefreie PDFs aus Word-Dokumenten erstellen und PDF/UA‑Konformität sicherstellen.
+### [DOCX in TXT konvertieren – Word‑Gleichungen als LaTeX exportieren](./convert-docx-to-txt-export-word-equations-as-latex/)
+Konvertieren Sie DOCX‑Dateien in reine Textdateien und exportieren Sie darin enthaltene Word‑Gleichungen im LaTeX‑Format.
+
+### [Exportieren von Word nach Markdown – Vollständige Java-Anleitung](./export-word-to-markdown-full-java-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words for Java in Markdown konvertieren – Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
 
 ## Häufig gestellte Fragen
 

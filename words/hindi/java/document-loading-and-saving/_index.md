@@ -138,6 +138,9 @@ Corrupted docx फ़ाइलों को ठीक करने, पुनर
 Aspose.Words for Java में फ़ॉन्ट प्रतिस्थापन चेतावनियों को कैसे पकड़ें और संभालें, कोड उदाहरणों के साथ सीखें।
 ### [docx को पुनर्प्राप्त करने का पूर्ण गाइड – भ्रष्ट Word फ़ाइलें पढ़ें](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 भ्रष्ट .docx फ़ाइलों को पढ़ने और पुनर्स्थापित करने की पूरी प्रक्रिया सीखें।
+### [टूटा हुआ Word दस्तावेज़ पुनर्प्राप्त करने के लिए रिकवरी मोड सेट करें](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

@@ -86,6 +86,12 @@ Aspose.Words for Java’da Belge Şekilleri Gücünü Keşfedin. Adım‑adım �
 ### [Aspose.Words for Java'da Belgeler İçin Filigran Kullanımı](./using-watermarks-to-documents/)
 Aspose.Words for Java’da belgelere filigran eklemeyi öğrenin. Profesyonel görünümlü belgeler için metin ve görüntü filigranlarını özelleştirin.
 
+### [DOCX'i Java ile PDF olarak kaydet – Tam Adım‑Adım Kılavuz](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+DOCX dosyasını Java kullanarak PDF'e dönüştürmeyi adım adım öğrenin. Tam kılavuzla hızlı ve doğru sonuçlar elde edin.
+
+### [Word'den Erişilebilir PDF Oluşturma – Adım‑Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/)
+Word belgesinden erişilebilir PDF oluşturmayı adım adım öğrenin, WCAG standartlarına uygun çıktılar alın.
+
 ### [Aspose.Words for Java'da Tabloları ve Tablo Stillerini Biçimlendirme](./formatting-tables-and-table-styles/)
 Aspose.Words for Java’da tabloları biçimlendirmeyi ve tablo stilleri uygulamayı öğrenin. Etkili tablo biçimlendirme için kaynak kodlu adım‑adım rehberler keşfedin. Aspose.Words ile belge düzeninizi geliştirin.
 
@@ -117,6 +123,9 @@ Java ve Aspose.Words kullanarak Word belgelerinden Markdown formatına nasıl d�
 
 ### [Aspose.Words for Java'da Word'den Erişilebilir PDF Oluşturma](./generate-accessible-pdf-from-word-with-aspose-java/)
 Aspose.Words for Java kullanarak Word belgelerinden erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin.
+### [docx'i txt'ye dönüştür – Word denklemlerini LaTeX olarak dışa aktar](./convert-docx-to-txt-export-word-equations-as-latex/)
+
+### [Word'ü Markdown'a Dışa Aktarma – Tam Java Kılavuzu](./export-word-to-markdown-full-java-guide/)
 
 ## Sık Sorulan Sorular
 

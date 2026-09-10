@@ -103,6 +103,10 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 
 ### [Hogyan állítsuk vissza a docx-et – Teljes útmutató a sérült Word fájlok olvasásához](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
+### [Helyreállítási mód beállítása a sérült Word dokumentumok helyreállításához](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Hiányzó betűtípusok lekérése Java‑ban – Aspose.Words útmutató](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+
 ## Gyakran Ismételt Kérdések
 
 **Q:** Hogyan tudom programozottan **save images from word** dokumentumokból a képeket menteni?  

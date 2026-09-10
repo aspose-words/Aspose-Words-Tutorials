@@ -136,6 +136,9 @@ Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğin
 
 ### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve işleyebileceğinizi öğrenin.
+### [Kırık Word Belgesini Kurtarmak İçin Kurtarma Modunu Ayarlama](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Java’da Eksik Yazı Tiplerini Nasıl Alırsınız – Aspose.Words Rehberi](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## Sıkça Sorulan Sorular
 

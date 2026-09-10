@@ -101,6 +101,8 @@ As configurações de documentos são a chave para entregar documentos adaptados
 ### [Recuperar docx corrompido – Guia completo para corrigir e processar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Capturar avisos de substituição de fontes em Java com Aspose.Words – Guia completo](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Como recuperar docx – Guia completo para ler arquivos Word corrompidos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [Definir modo de recuperação para recuperar documento Word corrompido](./set-recovery-mode-to-recover-broken-word-document/)
+### [Como obter fontes ausentes em Java – Guia Aspose.Words for Java](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## Perguntas Frequentes
 

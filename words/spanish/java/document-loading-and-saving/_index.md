@@ -90,6 +90,8 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Cargando archivos de texto con Aspose.Words for Java](./loading-text-files/)
 
+### [Establecer modo de recuperación para recuperar documentos Word dañados](./set-recovery-mode-to-recover-broken-word-document/)
+
 ### [Opciones avanzadas de guardado con Aspose.Words for Java](./advance-saving-options/)
 
 ### [Guardando documentos HTML con diseño fijo en Aspose.Words for Java](./saving-html-documents-with-fixed-layout/)
@@ -118,6 +120,7 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 
 ### [Capturar advertencias de sustitución de fuentes en Java con Aspose.Words – Guía completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [Cómo recuperar docx – Guía completa para leer archivos Word corruptos](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [Cómo obtener fuentes faltantes en Java – Guía de Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## Preguntas frecuentes
 

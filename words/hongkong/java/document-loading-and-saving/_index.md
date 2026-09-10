@@ -87,6 +87,8 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [設定 Aspose.Words for Java 的 RTF 載入選項](./configuring-rtf-load-options/)
 
+### [設定復原模式以修復損壞的 Word 文件](./set-recovery-mode-to-recover-broken-word-document/)
+
 ### [使用 Aspose.Words for Java 載入文字檔案](./loading-text-files/)
 
 ### [進階儲存選項與 Aspose.Words for Java](./advance-saving-options/)
@@ -117,6 +119,7 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 
 ### [使用 Aspose.Words for Java 捕獲字體替換警告 – 完整指南](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [如何復原 docx – 讀取損壞 Word 檔案的完整指南](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [如何在 Java 中取得缺失字型 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## 常見問題
 

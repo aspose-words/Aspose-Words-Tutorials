@@ -48,7 +48,7 @@ Voici un aperçu concis du flux de travail typique. (Le code réel est présent�
 2. **Itérer à travers le `NodeCollection` du document** pour trouver les nœuds `Shape` contenant des images.  
 3. **Extraire chaque image** via l'API `Shape.getImageData()` et l'écrire dans un fichier avec `ImageData.save()`.
 
-> *Astuce :* Utilisez `Document.getChildNodes(NodeType.SHAPE, true)` pour récupérer toutes les formes, y compris celles situées dans les en‑têtes, pieds de page et notes de bas de page.
+> *Astuce :* Utilisez `Document.getChildNodes(NodeType.SHA​PE, true)` pour récupérer toutes les formes, y compris celles situées dans les en‑têtes, pieds de page et notes de bas de page.
 
 ## Chargement et enregistrement de documents – Concepts de base
 
@@ -137,6 +137,10 @@ Apprenez à détecter les formats de documents en Java avec Aspose.Words. Identi
 Apprenez à capturer les avertissements de substitution de police lors du chargement de documents Word en Java avec Aspose.Words.
 ### [Comment récupérer un docx – Guide complet pour lire les fichiers Word corrompus](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words for Java.
+### [Définir le mode de récupération pour récupérer un document Word endommagé](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Comment récupérer les polices manquantes en Java – Guide Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Apprenez à détecter et charger les polices manquantes lors du traitement de documents Word avec Aspose.Words for Java.
 
 ## Foire aux questions
 

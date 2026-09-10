@@ -118,6 +118,20 @@ Lär dig hur du konverterar DOCX‑filer till PDF med Aspose.Words för Java i e
 
 ### [Skapa tillgänglig PDF från Word med Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Lär dig hur du skapar PDF‑filer som uppfyller tillgänglighetsstandarder från Word‑dokument med Aspose.Words för Java.
+### [Konvertera docx till txt – Exportera Word‑ekvationer som LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Lär dig hur du konverterar DOCX‑filer till TXT och exporterar Word‑ekvationer som LaTeX‑kod.
+
+### [Spara docx som pdf med Java – Komplett steg‑för‑steg‑guide](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Lär dig hur du sparar DOCX som PDF med Java i en komplett steg‑för‑steg‑guide.
+
+### [Skapa tillgänglig PDF från Word – Steg‑för‑steg‑guide](./create-accessible-pdf-from-word-step-by-step-guide/)
+Lär dig hur du konverterar Word‑dokument till tillgängliga PDF‑filer med Aspose.Words, inklusive taggar och strukturell korrekthet.
+
+### [Exportera Word till Markdown – Fullständig Java‑guide](./export-word-to-markdown-full-java-guide/)
+Lär dig hur du konverterar Word‑dokument till Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+
+### [Konvertera DOCX till Markdown med Math‑export – Fullständig Java‑guide](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+Lär dig hur du konverterar DOCX‑filer till Markdown och exporterar Word‑ekvationer som LaTeX med Aspose.Words for Java.
 
 ## Vanliga frågor
 

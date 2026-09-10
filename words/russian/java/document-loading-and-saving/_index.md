@@ -137,6 +137,8 @@ Aspose.Words for Java упрощает **save images from Word** докумен�
 Узнайте, как перехватывать и обрабатывать предупреждения о замене шрифтов при работе с документами в Java с помощью Aspose.Words.
 ### [Как восстановить docx – Полное руководство по чтению повреждённых файлов Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Узнайте, как восстановить повреждённые файлы DOCX и прочитать их содержимое с помощью Aspose.Words for Java.
+### [Как получить недостающие шрифты в Java — руководство Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Узнайте, как обнаруживать и загружать недостающие шрифты при работе с документами Word в Java с помощью Aspose.Words.
 
 ## Часто задаваемые вопросы
 

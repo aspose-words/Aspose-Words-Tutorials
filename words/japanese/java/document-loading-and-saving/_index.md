@@ -117,6 +117,9 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Java でフォント置換警告を取得する – Aspose.Words 完全ガイド](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx の復元方法 – 壊れた Word ファイルを読む完全ガイド](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [破損した Word 文書を回復するためのリカバリーモードの設定](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Java で欠落フォントを取得する方法 – Aspose.Words ガイド](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## よくある質問
 

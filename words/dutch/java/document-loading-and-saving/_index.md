@@ -130,12 +130,17 @@ Leer hoe je documenten opslaat als RTF‑formaat met Aspose.Words for Java. Stap
 ### [Documenten opslaan als tekstbestanden in Aspose.Words for Java](./saving-documents-as-text-files/)
 Leer hoe je documenten opslaat als tekstbestanden in Aspose.Words for Java. Volg onze stapsgewijze gids met Java‑code‑voorbeelden.
 
+### [Herstelmodus instellen om een beschadigd Word‑document te herstellen met Aspose.Words for Java](./set-recovery-mode-to-recover-broken-word-document/)
+Leer hoe je de herstelmodus configureert om beschadigde Word‑documenten automatisch te repareren met Aspose.Words for Java.
+
 ### [Documentformaat bepalen in Aspose.Words for Java](./determining-document-format/)
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Hoe docx te herstellen – Complete gids om corrupte Word‑bestanden te lezen](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Leer stap‑voor‑stap hoe je beschadigde .docx‑bestanden kunt openen en herstellen met Aspose.Words for Java.
+### [Hoe ontbrekende lettertypen in Java te verkrijgen – Aspose.Words-gids](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Leer hoe je ontbrekende lettertypen kunt vinden en laden in Java met Aspose.Words. Stapsgewijze gids met code‑voorbeelden.
 
 ## Veelgestelde vragen
 

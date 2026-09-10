@@ -77,6 +77,9 @@ Aspose.Words for Java でチャートの作成とカスタマイズ方法を学�
 ### [Aspose.Words for Java で Office Math オブジェクトを使用する](./using-office-math-objects/)
 Aspose.Words for Java で文書内の数式の力を引き出します。Office Math オブジェクトを簡単に操作・表示する方法を学びます。
 
+### [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/)
+Aspose.Words for Java を使用して DOCX をテキストに変換し、数式を LaTeX 形式でエクスポートする方法を解説します。
+
 ### [Aspose.Words for Java でドキュメントシェイプを使用する](./using-document-shapes/)
 
 ### [Aspose.Words for Java でドキュメントにウォーターマークを使用する](./using-watermarks-to-documents/)
@@ -87,6 +90,8 @@ Aspose.Words for Java を使用して DOCX ファイルを PDF に変換する�
 
 ### [DOCX からアクセシブル PDF を作成 – 完全ガイド](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX ファイルをアクセシブルな PDF に変換する手順とベストプラクティスをステップバイステップで解説します。
+### [Java で DOCX を PDF に保存 – 完全ステップバイステップガイド](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Java と Aspose.Words を使用して DOCX ファイルを PDF に変換する方法を、コード例と共に詳しく解説します。
 
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 Aspose.Words for Java でテーブルの書式設定とテーブルスタイルの適用方法を学びます。効果的なテーブル書式設定のためのソースコード付きステップバイステップガイドを探ります。Aspose.Words で文書レイアウトを強化します。
@@ -104,6 +109,11 @@ Aspose.Words for Java を利用して DOCX ファイルを PDF に変換し、�
 
 ### [Aspose.Words for Java を使用して Word からアクセシブル PDF を生成する](./generate-accessible-pdf-from-word-with-aspose-java/)
 Word 文書をアクセシブルな PDF に変換する手順と、タグ付けや構造情報の保持方法を解説します。
+### [Word を Markdown にエクスポート – 完全 Java ガイド](./export-word-to-markdown-full-java-guide/)
+Aspose.Words for Java を使用して Word 文書を Markdown 形式に変換する手順をステップバイステップで解説します。
+
+### [Word からアクセシブル PDF を作成する – ステップバイステップガイド](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aspose.Words for Java を使用して、Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。
 
 ## よくある質問
 **Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  
