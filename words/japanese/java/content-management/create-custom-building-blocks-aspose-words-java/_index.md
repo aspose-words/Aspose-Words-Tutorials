@@ -72,12 +72,14 @@ implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### ライセンス取得
+To unlock full functionality, obtain a license:
 
 1. **Free Trial**: 評価用に [Aspose Downloads](https://releases.aspose.com/words/java/) からトライアル版をダウンロードして使用します。  
 2. **Temporary License**: トライアルの制限を解除する一時ライセンスを [Temporary License Page](https://purchase.aspose.com/temporary-license/) で取得します。  
 3. **Purchase**: 永久使用のために [Aspose Purchase Portal](https://purchase.aspose.com/buy) で購入します。  
 
 ### 基本的な初期化
+After adding the JAR and applying a license, initialize the library in your Java code:
 
 設定とライセンスが完了したら、Java プロジェクトで Aspose.Words を初期化します。
 ```java
@@ -92,6 +94,10 @@ public class Main {
     }
 }
 ```
+
+## Aspose.Words を使用して word templates java を管理する方法は？
+
+テンプレート ドキュメントを `new Document("Template.docx")` でロードし、`doc.getGlossary()` を呼び出してビルディング ブロックが格納されている glossary にアクセスします。そこからブロックを作成、編集、取得でき、すべての再利用可能コンテンツの単一の真実の情報源を実現します。このアプローチにより重複が排除され、生成されるすべてのドキュメントが最新のブロック バージョンを使用することが保証されます。
 
 ## 実装ガイド
 

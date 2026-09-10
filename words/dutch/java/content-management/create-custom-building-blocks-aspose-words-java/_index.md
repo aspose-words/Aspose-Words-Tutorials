@@ -68,7 +68,9 @@ Om te beginnen, voeg de Aspose.Words‑bibliotheek toe aan uw project met Maven 
 </dependency>
 ```
 
-**Gradle:**
+### Gradle‑afhankelijkheid
+Voor Gradle‑gebaseerde projecten, voeg toe:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -81,6 +83,7 @@ Om Aspose.Words volledig te gebruiken, verkrijg een licentie:
 3. **Aankoop**: Voor permanent gebruik, koop via het [Aspose Purchase Portal](https://purchase.aspose.com/buy).
 
 ### Basisinitialisatie
+Na het toevoegen van de JAR en het toepassen van een licentie, initialiseert je de bibliotheek in je Java‑code:
 
 Zodra alles is ingesteld en gelicenseerd, initialiseert u Aspose.Words in uw Java‑project:
 ```java

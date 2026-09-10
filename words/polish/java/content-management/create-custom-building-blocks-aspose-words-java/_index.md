@@ -59,7 +59,6 @@ Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
 Aby rozpocząć, dołącz bibliotekę Aspose.Words do swojego projektu przy użyciu Maven lub Gradle:
 
-**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>

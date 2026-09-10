@@ -41,7 +41,7 @@ Låt oss gå igenom förutsättningarna du behöver innan vi börjar bygga anpas
 
 ## Förutsättningar
 
-Innan vi börjar, se till att du har följande:
+**manage word templates java** avser praktiken att programatiskt hantera Word‑dokumentmallar – skapa, uppdatera och återanvända fördefinierade avsnitt – med Java‑kod. Aspose.Words erbjuder ett robust API som låter dig behandla varje återanvändbart avsnitt som ett byggblock lagrat i dokumentets ordlista.
 
 ### Nödvändiga bibliotek
 - Aspose.Words för Java-bibliotek (version 25.3 eller senare).
@@ -58,7 +58,6 @@ Innan vi börjar, se till att du har följande:
 
 För att börja, inkludera Aspose.Words-biblioteket i ditt projekt med Maven eller Gradle:
 
-**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -67,7 +66,9 @@ För att börja, inkludera Aspose.Words-biblioteket i ditt projekt med Maven ell
 </dependency>
 ```
 
-**Gradle:**
+### Gradle‑beroende
+För Gradle‑baserade projekt, inkludera:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
@@ -94,6 +95,10 @@ public class Main {
     }
 }
 ```
+
+## Hur hanterar du word templates java med Aspose.Words?
+
+Läs in ditt mall‑dokument med `new Document("Template.docx")` och anropa `doc.getGlossary()` för att komma åt ordlistan där byggblocken finns. Därifrån kan du skapa, redigera eller hämta block, vilket ger en enda sanningskälla för allt återanvändbart innehåll. Detta tillvägagångssätt eliminerar duplicering och garanterar att varje genererat dokument använder den senaste blockversionen.
 
 ## Implementeringsguide
 

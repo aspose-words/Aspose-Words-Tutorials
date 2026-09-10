@@ -39,7 +39,7 @@ Hãy cùng khám phá các điều kiện cần thiết trước khi bắt đầ
 - **Phiên bản Java nào là bắt buộc?** Phiên bản Java nào được yêu cầu? Java8 hoặc mới hơn; thư viện tương thích với các JDK mới hơn.
 - **Tôi có thể thêm hình ảnh hoặc bảng biểu không?** Tôi có thể thêm hình ảnh hoặc bảng không? Có — bất kỳ loại nội dung nào được Aspose hỗ trợ. Words support đều có thể được đặt bên trong một bản dựng khối.
 
-## Điều kiện tiên quyết
+## “manage word templates java” là gì?
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
 
@@ -54,7 +54,8 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
 - Biết cơ bản về cài đặt Java.
 - Quen thuộc với XML và các khái niệm xử lý tài liệu hữu ích nhưng không bắt buộc.
 
-## Thiết lập Aspose.Words
+### Thư viện yêu cầu
+- Thư viện Aspose.Words cho Java (phiên bản 25.3 hoặc mới hơn).
 
 Để bắt đầu, bao gồm thư viện Aspose.Words vào dự án của bạn bằng Maven hoặc Gradle:
 
@@ -72,7 +73,8 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Mua lại giấy phép
+### Mua giấy phép
+Để mở khóa đầy đủ chức năng, hãy lấy giấy phép:
 
 Để sử dụng đầy đủ Aspose.Words, hãy lấy giấy phép:
 
@@ -81,6 +83,7 @@ implementation 'com.aspose:aspose-words:25.3'
 3. **Mua hàng**: Đối tác sử dụng vĩnh viễn, mua qua [Cổng thông tin mua hàng Aspose](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
+Sau khi thêm JAR và áp dụng giấy phép, khởi tạo thư viện trong mã Java của bạn:
 
 Sau khi thiết lập và có giấy phép, khởi tạo Aspose.Words trong dự án Java của bạn:
 ```java
@@ -96,7 +99,7 @@ public class Main {
 }
 ```
 
-## Hướng dẫn thực hiện
+## Làm thế nào để manage word templates java với Aspose.Words?
 
 Sau khi thiết lập xong, hãy chia nhỏ việc phát triển thành các phần dễ quản lý.
 

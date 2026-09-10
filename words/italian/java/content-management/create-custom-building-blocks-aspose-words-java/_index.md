@@ -68,7 +68,9 @@ Per iniziare, includi la libreria Aspose.Words nel tuo progetto usando Maven o G
 </dependency>
 ```
 
-**Gradle:**
+### Dipendenza Gradle
+Per progetti basati su Gradle, includi:
+
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
