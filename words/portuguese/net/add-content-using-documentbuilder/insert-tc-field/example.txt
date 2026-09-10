@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Este tutorial demonstra como criar um novo documento Word, usar o DocumentBuilder para inserir um campo TC (Tabela de Conteúdo) e salvar o arquivo resultante.
+//ExStepSummary:0: Defina o caminho da pasta onde o documento gerado será salvo.
+//ExStepSummary:1: Instancie um Document vazio e um DocumentBuilder que o editará.
+//ExStepSummary:2: Insira um campo TC com o texto de entrada "Entry Text" que será usado para a tabela de conteúdo.
+//ExStepSummary:3: Salve o documento modificado no diretório especificado.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

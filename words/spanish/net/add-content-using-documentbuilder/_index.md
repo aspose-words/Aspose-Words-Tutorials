@@ -19,6 +19,15 @@
 Añadir contenido con DocumentBuilder es un recurso completo que te guía por el proceso de añadir contenido a tus documentos de Word usando la clase DocumentBuilder de la biblioteca Aspose.Words para .NET. Los tutoriales paso a paso ofrecen instrucciones detalladas, ejemplos de código completos y explicaciones paso a paso sobre cómo crear párrafos, insertar texto, formatear texto, añadir imágenes, tablas y más. Además, este recurso es esencial para desarrolladores que desean automatizar la generación de documentos de Word con Aspose.Words para .NET y añadir fácilmente contenido personalizado para satisfacer sus necesidades específicas.
 
  ## Tutoriales
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Insertar forma de regla horizontal en documento Word usando Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Insertar HTML alineado en un documento Word usando Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-tc-field/" title="Agregar un campo TC a un documento Word con Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
+
+
+
 | Título | Descripción |
 | --- | --- |
 | [Crear nuevo documento de Word](./create-new-document/) Aprenda a crear documentos de Word con Aspose.Words para .NET. Esta guía paso a paso le guiará por el proceso, facilitando la automatización de documentos.

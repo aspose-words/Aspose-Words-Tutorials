@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: このチュートリアルでは、新しい Word ドキュメントを作成し、DocumentBuilder を使用して TC（目次）フィールドを挿入し、結果のファイルを保存する方法を示します。
+//ExStepSummary:0: 生成されたドキュメントを保存するフォルダー パスを定義します。
+//ExStepSummary:1: 空の Document と、それを編集する DocumentBuilder をインスタンス化します。
+//ExStepSummary:2: 目次に使用されるエントリ テキスト \"Entry Text\" を持つ TC フィールドを挿入します。
+//ExStepSummary:3: 変更されたドキュメントを指定されたディレクトリに保存します。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

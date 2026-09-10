@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: 本教學示範如何建立新的 Word 文件、使用 DocumentBuilder 插入 TC（目錄）欄位，並儲存產生的檔案。
+//ExStepSummary:0: 定義產生的文件將儲存的資料夾路徑。
+//ExStepSummary:1: 實例化一個空的 Document 以及用於編輯它的 DocumentBuilder。
+//ExStepSummary:2: 插入一個 TC 欄位，條目文字為「Entry Text」，此文字將用於目錄。
+//ExStepSummary:3: 將已修改的文件儲存至指定目錄。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

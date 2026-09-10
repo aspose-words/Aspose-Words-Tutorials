@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि नया Word दस्तावेज़ कैसे बनाएं, DocumentBuilder का उपयोग करके TC (Table of Contents) फ़ील्ड कैसे डालें, और परिणामी फ़ाइल को सहेजें।
+//ExStepSummary:0: उस फ़ोल्डर पथ को निर्धारित करें जहाँ उत्पन्न दस्तावेज़ सहेजा जाएगा।
+//ExStepSummary:1: एक खाली Document और एक DocumentBuilder बनाएं जो इसे संपादित करेगा।
+//ExStepSummary:2: टेबल ऑफ़ कंटेंट्स के लिए उपयोग किए जाने वाले एंट्री टेक्स्ट "Entry Text" के साथ एक TC फ़ील्ड डालें।
+//ExStepSummary:3: संशोधित दस्तावेज़ को निर्दिष्ट डायरेक्टरी में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

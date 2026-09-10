@@ -19,6 +19,15 @@
 A Tartalom hozzáadása a DocumentBuilder segítségével egy átfogó forrás, amely végigvezeti Önt a Word-dokumentumokhoz való tartalom hozzáadásának folyamatán az Aspose.Words .NET-hez készült könyvtár DocumentBuilder osztályának használatával. Lépésről lépésre bemutató oktatóanyagok, átfogó kódpéldák és lépésről lépésre szóló magyarázatok a bekezdések létrehozásához, szöveg beszúrásához, szöveg formázásához, képek, táblázatok hozzáadásához és egyebekhez. Továbbá. Ez az anyag elengedhetetlen azoknak a fejlesztőknek, akik automatizálni szeretnék a Word-dokumentumok létrehozását az Aspose.Words .NET-hez való használatával, és könnyen hozzáadhatnak egyéni tartalmat az igényeiknek megfelelően.
 
  ## Oktatóanyagok
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Vízszintes vonal alakzat beszúrása Word-dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Igazított HTML beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-tc-field/" title="TC mező hozzáadása Word dokumentumhoz az Aspose.Words for .NET segítségével" imgSrc="./insert-tc-field/images/thumb.png" >}}
+
+
+
 | Cím | Leírás |
 | --- | --- |
 | [Új Word-dokumentum létrehozása](./create-new-document/) Tanulja meg, hogyan hozhat létre Word-dokumentumokat az Aspose.Words for .NET segítségével. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a folyamaton, megkönnyítve a dokumentumautomatizálást. |

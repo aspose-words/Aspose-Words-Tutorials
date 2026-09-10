@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Этот учебный материал демонстрирует, как создать новый документ Word, использовать DocumentBuilder для вставки поля TC (Table of Contents) и сохранить полученный файл.
+//ExStepSummary:0: Укажите путь к папке, в которой будет сохранён сгенерированный документ.
+//ExStepSummary:1: Создайте пустой Document и DocumentBuilder, который будет его редактировать.
+//ExStepSummary:2: Вставьте поле TC с текстом записи "Entry Text", который будет использоваться для оглавления.
+//ExStepSummary:3: Сохраните изменённый документ в указанную директорию.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

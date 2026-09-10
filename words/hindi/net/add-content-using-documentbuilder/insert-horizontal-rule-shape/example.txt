@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Document और DocumentBuilder का उपयोग करके Word दस्तावेज़ कैसे बनाएं, टेक्स्ट का एक पैराग्राफ जोड़ें, और एक क्षैतिज रूल शेप सम्मिलित करें।
+//ExStepSummary:0: Document क्लास को इंस्टैंशिएट करके एक नया खाली Word दस्तावेज़ बनाएं।
+//ExStepSummary:1: दस्तावेज़ के साथ जुड़ा हुआ DocumentBuilder बनाएं ताकि संपादन ऑपरेशन्स सक्षम हो सकें।
+//ExStepSummary:2: DocumentBuilder का उपयोग करके टेक्स्ट का एक पैराग्राफ लिखें और फिर कर्सर की स्थिति पर एक क्षैतिज रूल शेप सम्मिलित करें।
+//ExStepSummary:3: आउटपुट फ़ोल्डर पाथ को परिभाषित करें और दस्तावेज़ को .docx फ़ाइल में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo một tài liệu Word mới, sử dụng DocumentBuilder để chèn trường TC (Table of Contents), và lưu tệp kết quả.
+//ExStepSummary:0: Xác định đường dẫn thư mục nơi tài liệu được tạo sẽ được lưu.
+//ExStepSummary:1: Khởi tạo một Document trống và một DocumentBuilder sẽ chỉnh sửa nó.
+//ExStepSummary:2: Chèn một trường TC với văn bản mục nhập "Entry Text" sẽ được sử dụng cho mục lục.
+//ExStepSummary:3: Lưu tài liệu đã chỉnh sửa vào thư mục đã chỉ định.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

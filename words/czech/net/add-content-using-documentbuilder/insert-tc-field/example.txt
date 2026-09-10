@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit nový dokument Word, použít DocumentBuilder k vložení pole TC (Table of Contents) a uložit vzniklý soubor.
+//ExStepSummary:0: Definujte cestu ke složce, kam bude vygenerovaný dokument uložen.
+//ExStepSummary:1: Vytvořte prázdný Document a DocumentBuilder, který jej bude upravovat.
+//ExStepSummary:2: Vložte pole TC s textem položky "Entry Text", který bude použit pro obsah.
+//ExStepSummary:3: Uložte upravený dokument do určeného adresáře.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

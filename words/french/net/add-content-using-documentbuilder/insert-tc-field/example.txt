@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment créer un nouveau document Word, utiliser DocumentBuilder pour insérer un champ TC (Table des matières) et enregistrer le fichier résultant.
+//ExStepSummary:0: Définissez le chemin du dossier où le document généré sera enregistré.
+//ExStepSummary:1: Instanciez un Document vide et un DocumentBuilder qui le modifiera.
+//ExStepSummary:2: Insérez un champ TC avec le texte d’entrée \"Entry Text\" qui sera utilisé pour la table des matières.
+//ExStepSummary:3: Enregistrez le document modifié dans le répertoire spécifié.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

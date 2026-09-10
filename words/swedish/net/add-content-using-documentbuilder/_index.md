@@ -19,6 +19,15 @@
 Lägga till innehåll med DocumentBuilder är en omfattande resurs som guidar dig genom processen att lägga till innehåll i dina Word-dokument med hjälp av DocumentBuilder-klassen från Aspose.Words-biblioteket för .NET. Steg-för-steg-handledningar ger dig steg-för-steg-instruktioner, omfattande kodexempel och steg-för-steg-förklaringar om hur du skapar stycken, infogar text, formaterar text, lägger till bilder, tabeller och mer. Dessutom är denna resurs viktig för utvecklare som vill automatisera generering av Word-dokument med Aspose.Words för .NET och enkelt lägga till anpassat innehåll för att möta sina specifika behov.
 
  ## Handledningar
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Infoga horisontell linjeform i Word-dokument med Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Infoga justerad HTML i Word-dokument med Aspose.Words för .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-tc-field/" title="Lägg till ett TC-fält i ett Word-dokument med Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
+
+
+
 | Titel | Beskrivning |
 | --- | --- |
 | [Skapa nytt Word-dokument](./create-new-document/) Lär dig hur du skapar Word-dokument med Aspose.Words för .NET. Den här steg-för-steg-guiden guidar dig genom processen och gör dokumentautomation enkelt. |

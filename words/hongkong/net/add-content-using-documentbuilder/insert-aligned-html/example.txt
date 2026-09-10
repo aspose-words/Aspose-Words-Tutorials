@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: 本教學使用 Aspose.Words 的 Document 與 DocumentBuilder，將 HTML 標記插入 Word 文件並儲存結果。
+//ExStepSummary:0: 定義輸出資料夾，建立新的 Document，並為該文件初始化 DocumentBuilder。
+//ExStepSummary:1: 呼叫 `builder.InsertHtml()` 以在文件中加入右對齊的段落、粗體文字、置中的 div，以及左對齊的標題。
+//ExStepSummary:2: 將修改後的文件儲存至指定資料夾，檔案格式為 .docx。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

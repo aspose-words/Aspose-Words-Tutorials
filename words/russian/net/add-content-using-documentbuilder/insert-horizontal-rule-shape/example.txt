@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Этот учебник показывает, как создать документ Word, добавить абзац текста и вставить форму горизонтального правила, используя Document и DocumentBuilder.
+//ExStepSummary:0: Создайте новый пустой документ Word, создав экземпляр класса Document.
+//ExStepSummary:1: Создайте DocumentBuilder, привязанный к документу, чтобы выполнить операции редактирования.
+//ExStepSummary:2: Запишите абзац текста, а затем вставьте форму горизонтального правила в позиции курсора с помощью DocumentBuilder.
+//ExStepSummary:3: Определите путь к папке вывода и сохраните документ в файл формата .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

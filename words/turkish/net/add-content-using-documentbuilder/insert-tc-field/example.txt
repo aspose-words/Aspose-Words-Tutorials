@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Bu öğreticide yeni bir Word belgesi oluşturmanın, DocumentBuilder kullanarak bir TC (İçindekiler Tablosu) alanı eklemenin ve ortaya çıkan dosyayı kaydetmenin nasıl yapılacağı gösterilmektedir.
+//ExStepSummary:0: Oluşturulan belgenin kaydedileceği klasör yolunu tanımlayın.
+//ExStepSummary:1: Boş bir Document ve onu düzenleyecek bir DocumentBuilder örneği oluşturun.
+//ExStepSummary:2: İçindekiler tablosunda kullanılacak "Entry Text" giriş metniyle bir TC alanı ekleyin.
+//ExStepSummary:3: Değiştirilen belgeyi belirtilen dizine kaydedin.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

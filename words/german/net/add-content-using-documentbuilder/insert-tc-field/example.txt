@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein neues Word-Dokument erstellt, DocumentBuilder verwendet, um ein TC‑Feld (Table of Contents) einzufügen, und die resultierende Datei speichert.
+//ExStepSummary:0: Definieren Sie den Ordnerpfad, in dem das erzeugte Dokument gespeichert wird.
+//ExStepSummary:1: Instanziieren Sie ein leeres Document und einen DocumentBuilder, der es bearbeitet.
+//ExStepSummary:2: Fügen Sie ein TC‑Feld mit dem Eintragstext "Entry Text" ein, das für das Inhaltsverzeichnis verwendet wird.
+//ExStepSummary:3: Speichern Sie das geänderte Dokument im angegebenen Verzeichnis.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

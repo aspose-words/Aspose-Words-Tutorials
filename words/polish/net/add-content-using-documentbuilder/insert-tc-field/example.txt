@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak utworzyć nowy dokument Word, użyć DocumentBuilder do wstawienia pola TC (Table of Contents) i zapisać powstały plik.
+//ExStepSummary:0: Określ ścieżkę folderu, w którym zostanie zapisany wygenerowany dokument.
+//ExStepSummary:1: Utwórz pusty obiekt Document oraz DocumentBuilder, który będzie go edytował.
+//ExStepSummary:2: Wstaw pole TC z tekstem wpisu "Entry Text", który będzie używany w spisie treści.
+//ExStepSummary:3: Zapisz zmodyfikowany dokument w określonym katalogu.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd
