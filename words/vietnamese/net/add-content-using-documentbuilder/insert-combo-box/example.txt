@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách tạo tài liệu Word, thêm trường biểu mẫu combo box với các mục được định trước bằng cách sử dụng DocumentBuilder, và lưu tài liệu.
+//ExStepSummary:0: Đặt đường dẫn thư mục nơi tài liệu kết quả sẽ được lưu.
+//ExStepSummary:1: Tạo một mảng các chuỗi sẽ dùng để điền các tùy chọn cho combo box.
+//ExStepSummary:2: Khởi tạo một Document mới và một DocumentBuilder gắn với nó.
+//ExStepSummary:3: Gọi `builder.InsertComboBox` để đặt một combo box có tên "DropDown" với các mục đã định nghĩa tại vị trí con trỏ hiện tại.
+//ExStepSummary:4: Lưu tài liệu vào thư mục đã chỉ định dưới dạng tệp .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

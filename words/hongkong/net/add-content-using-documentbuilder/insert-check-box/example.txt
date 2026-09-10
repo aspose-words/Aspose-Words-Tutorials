@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: 本教學示範如何建立新的 Word 文件、使用 DocumentBuilder 插入核取方塊表單欄位，並儲存產生的檔案。
+//ExStepSummary:0: 建立資料目錄變數、實例化 Document，並為該文件建立 DocumentBuilder。
+//ExStepSummary:1: 呼叫 `builder.InsertCheckBox` 於目前游標位置新增一個已勾選、啟用的核取方塊表單欄位，名稱為 "CheckBox"。
+//ExStepSummary:2: 使用 `doc.Save` 將已修改的文件儲存至指定資料夾。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

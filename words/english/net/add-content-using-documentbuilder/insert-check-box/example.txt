@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a new Word document, insert a check box form field with DocumentBuilder, and save the resulting file.
+//ExStepSummary:0: Create a data directory variable, instantiate a Document, and create a DocumentBuilder for that document.
+//ExStepSummary:1: Call `builder.InsertCheckBox` to add a checked, enabled check box form field named "CheckBox" at the current cursor position.
+//ExStepSummary:2: Save the modified document to the specified folder using `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

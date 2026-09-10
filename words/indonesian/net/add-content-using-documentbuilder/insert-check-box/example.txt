@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word baru, menyisipkan bidang formulir kotak centang dengan DocumentBuilder, dan menyimpan file yang dihasilkan.
+//ExStepSummary:0: Buat variabel direktori data, buat instance Document, dan buat DocumentBuilder untuk dokumen tersebut.
+//ExStepSummary:1: Panggil `builder.InsertCheckBox` untuk menambahkan bidang formulir kotak centang yang tercentang dan aktif dengan nama "CheckBox" pada posisi kursor saat ini.
+//ExStepSummary:2: Simpan dokumen yang telah dimodifikasi ke folder yang ditentukan menggunakan `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

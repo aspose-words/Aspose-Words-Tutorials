@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि कैसे DocumentBuilder का उपयोग करके एक Word दस्तावेज़ बनाया जाए, पूर्वनिर्धारित आइटमों के साथ एक कॉम्बो बॉक्स फ़ॉर्म फ़ील्ड जोड़ा जाए, और दस्तावेज़ को सहेजा जाए।
+//ExStepSummary:0: वह फ़ोल्डर पथ सेट करें जहाँ परिणामी दस्तावेज़ सहेजा जाएगा।
+//ExStepSummary:1: एक स्ट्रिंग्स की एरे बनाएं जो कॉम्बो बॉक्स विकल्पों को भर देगा।
+//ExStepSummary:2: एक नया Document बनाएं और उससे जुड़ा एक DocumentBuilder इंस्टैंशिएट करें।
+//ExStepSummary:3: `builder.InsertComboBox` को कॉल करें ताकि वर्तमान कर्सर स्थिति पर परिभाषित आइटमों के साथ "DropDown" नामक कॉम्बो बॉक्स रखा जा सके।
+//ExStepSummary:4: दस्तावेज़ को निर्दिष्ट डायरेक्टरी में .docx फ़ाइल के रूप में सहेजें।
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

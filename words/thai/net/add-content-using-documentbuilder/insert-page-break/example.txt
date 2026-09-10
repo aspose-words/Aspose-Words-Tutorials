@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีแทรกการแบ่งหน้าในเอกสาร Word โดยใช้ Aspose.Words Document และ DocumentBuilder.
+//ExStepSummary:0: สร้างอ็อบเจ็กต์ Document และ DocumentBuilder ที่จะใช้เพื่อเพิ่มเนื้อหา.
+//ExStepSummary:1: เขียนข้อความหน้าที่หนึ่งและแทรกการแบ่งหน้าเพื่อให้เนื้อหาถัดไปเริ่มต้นบนหน้าต่อไป.
+//ExStepSummary:2: เขียนข้อความหน้าที่สองและแทรกการแบ่งหน้าอีกครั้งเพื่อเริ่มหน้าที่สาม.
+//ExStepSummary:3: เขียนข้อความหน้าที่สามเพื่อทำให้เอกสารสามหน้าสมบูรณ์.
+//ExStepSummary:4: บันทึกเอกสารที่ประกอบขึ้นเป็นไฟล์ .docx ในไดเรกทอรีที่ระบุ.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

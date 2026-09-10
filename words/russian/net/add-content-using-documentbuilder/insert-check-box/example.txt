@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как создать новый документ Word, вставить поле формы с флажком с помощью DocumentBuilder и сохранить полученный файл.
+//ExStepSummary:0: Создайте переменную каталога данных, создайте экземпляр Document и создайте DocumentBuilder для этого документа.
+//ExStepSummary:1: Вызовите `builder.InsertCheckBox`, чтобы добавить отмеченное, включённое поле формы с флажком с именем "CheckBox" в текущей позиции курсора.
+//ExStepSummary:2: Сохраните изменённый документ в указанный каталог, используя `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd
