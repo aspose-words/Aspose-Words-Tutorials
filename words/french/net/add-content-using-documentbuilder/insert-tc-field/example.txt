@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: En utilisant Aspose.Words for .NET, ce tutoriel crée un nouveau document Word, insère un champ TC (Table des matières) avec un texte d’entrée personnalisé via DocumentBuilder, puis enregistre le fichier.
+//ExStepSummary:0: Définissez le chemin du dossier où le document résultant sera enregistré.
+//ExStepSummary:1: Créez un nouveau Document vide et un DocumentBuilder associé pour l’éditer.
+//ExStepSummary:2: Insérez un champ TC avec le texte d’entrée "Entry Text" qui peut être utilisé pour une table des matières.
+//ExStepSummary:3: Enregistrez le document modifié dans le répertoire spécifié.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

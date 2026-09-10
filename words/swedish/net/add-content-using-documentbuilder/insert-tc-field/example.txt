@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Med Aspose.Words for .NET skapar den här handledningen ett nytt Word-dokument, infogar ett TC‑fält (Table of Contents) med anpassad posttext via DocumentBuilder och sparar filen.
+//ExStepSummary:0: Ange sökvägen till mappen där det resulterande dokumentet ska sparas.
+//ExStepSummary:1: Skapa ett nytt tomt Document och en DocumentBuilder som är kopplad till det för redigering.
+//ExStepSummary:2: Infoga ett TC‑fält med posttexten "Entry Text" som kan användas för en innehållsförteckning.
+//ExStepSummary:3: Spara det modifierade dokumentet till den angivna katalogen.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

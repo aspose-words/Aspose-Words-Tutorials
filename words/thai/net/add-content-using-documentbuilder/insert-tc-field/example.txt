@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: โดยใช้ Aspose.Words for .NET, บทเรียนนี้สร้างเอกสาร Word ใหม่, แทรกฟิลด์ TC (Table of Contents) พร้อมข้อความรายการที่กำหนดเองผ่าน DocumentBuilder, และบันทึกไฟล์.
+//ExStepSummary:0: กำหนดเส้นทางโฟลเดอร์ที่เอกสารผลลัพธ์จะถูกบันทึก.
+//ExStepSummary:1: สร้าง Document ใหม่ที่ว่างเปล่าและ DocumentBuilder ที่เชื่อมโยงกับมันเพื่อทำการแก้ไข.
+//ExStepSummary:2: แทรกฟิลด์ TC พร้อมข้อความรายการ \"Entry Text\" ที่สามารถใช้สำหรับสารบัญ.
+//ExStepSummary:3: บันทึกเอกสารที่แก้ไขแล้วไปยังไดเรกทอรีที่ระบุ.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

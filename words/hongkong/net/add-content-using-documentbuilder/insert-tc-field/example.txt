@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: 使用 Aspose.Words for .NET，本教學會建立一個新的 Word 文件，透過 DocumentBuilder 插入帶有自訂條目文字的 TC（目錄）欄位，並儲存檔案。
+//ExStepSummary:0: 定義將儲存最終文件的資料夾路徑。
+//ExStepSummary:1: 建立一個新的空白 Document，並建立與之關聯的 DocumentBuilder 以進行編輯。
+//ExStepSummary:2: 插入一個 TC 欄位，條目文字為 "Entry Text"，可用於目錄。
+//ExStepSummary:3: 將已修改的文件儲存至指定目錄。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

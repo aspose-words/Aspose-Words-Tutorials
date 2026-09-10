@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Sử dụng Aspose.Words for .NET, hướng dẫn này tạo một tài liệu Word mới, chèn một trường TC (Table of Contents) với văn bản mục tùy chỉnh thông qua DocumentBuilder, và lưu tệp.
+//ExStepSummary:0: Xác định đường dẫn thư mục nơi tài liệu kết quả sẽ được lưu.
+//ExStepSummary:1: Tạo một Document mới rỗng và một DocumentBuilder liên kết với nó để chỉnh sửa.
+//ExStepSummary:2: Chèn một trường TC với văn bản mục "Entry Text" có thể được sử dụng cho mục lục.
+//ExStepSummary:3: Lưu tài liệu đã chỉnh sửa vào thư mục đã chỉ định.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Pomocí Aspose.Words for .NET tento tutoriál vytvoří nový dokument Word, vloží pole TC (Table of Contents) s vlastním textem položky pomocí DocumentBuilder a soubor uloží.
+//ExStepSummary:0: Definujte cestu ke složce, kam bude výsledný dokument uložen.
+//ExStepSummary:1: Vytvořte nový prázdný Document a DocumentBuilder k němu připojený pro úpravy.
+//ExStepSummary:2: Vložte pole TC s textem položky "Entry Text", který lze použít pro obsah.
+//ExStepSummary:3: Uložte upravený dokument do určeného adresáře.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

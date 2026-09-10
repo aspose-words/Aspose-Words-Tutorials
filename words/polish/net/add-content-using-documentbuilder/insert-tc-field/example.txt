@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Korzystając z Aspose.Words for .NET, ten samouczek tworzy nowy dokument Word, wstawia pole TC (Table of Contents) z niestandardowym tekstem wpisu za pomocą DocumentBuilder i zapisuje plik.
+//ExStepSummary:0: Określ ścieżkę folderu, w którym zostanie zapisany wynikowy dokument.
+//ExStepSummary:1: Utwórz nowy pusty Document oraz DocumentBuilder powiązany z nim do edycji.
+//ExStepSummary:2: Wstaw pole TC z tekstem wpisu "Entry Text", które może być użyte w spisie treści.
+//ExStepSummary:3: Zapisz zmodyfikowany dokument w określonym katalogu.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

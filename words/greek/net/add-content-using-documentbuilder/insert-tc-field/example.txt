@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Χρησιμοποιώντας το Aspose.Words for .NET, αυτό το σεμινάριο δημιουργεί ένα νέο έγγραφο Word, εισάγει ένα πεδίο TC (Πίνακας Περιεχομένων) με προσαρμοσμένο κείμενο καταχώρησης μέσω του DocumentBuilder και αποθηκεύει το αρχείο.
+//ExStepSummary:0: Ορίστε τη διαδρομή του φακέλου όπου θα αποθηκευτεί το τελικό έγγραφο.
+//ExStepSummary:1: Δημιουργήστε ένα νέο κενό Document και έναν DocumentBuilder συνδεδεμένο με αυτό για επεξεργασία.
+//ExStepSummary:2: Εισάγετε ένα πεδίο TC με κείμενο καταχώρησης "Entry Text" που μπορεί να χρησιμοποιηθεί για πίνακα περιεχομένων.
+//ExStepSummary:3: Αποθηκεύστε το τροποποιημένο έγγραφο στον καθορισμένο κατάλογο.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

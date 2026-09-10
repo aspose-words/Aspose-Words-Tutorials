@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Usando Aspose.Words for .NET, este tutorial crea un nuevo documento Word, inserta un campo TC (Tabla de contenido) con texto de entrada personalizado mediante DocumentBuilder y guarda el archivo.
+//ExStepSummary:0: Defina la ruta de la carpeta donde se guardará el documento resultante.
+//ExStepSummary:1: Cree un nuevo Document vacío y un DocumentBuilder vinculado a él para editar.
+//ExStepSummary:2: Inserte un campo TC con el texto de entrada \"Entry Text\" que puede usarse para una tabla de contenido.
+//ExStepSummary:3: Guarde el documento modificado en el directorio especificado.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

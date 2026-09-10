@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET kullanarak, bu öğreticide yeni bir Word belgesi oluşturulur, DocumentBuilder aracılığıyla özel giriş metniyle bir TC (İçindekiler Tablosu) alanı eklenir ve dosya kaydedilir.
+//ExStepSummary:0: Oluşturulan belgenin kaydedileceği klasör yolunu tanımlayın.
+//ExStepSummary:1: Yeni boş bir Document oluşturun ve düzenleme için ona bağlı bir DocumentBuilder oluşturun.
+//ExStepSummary:2: "Entry Text" giriş metniyle bir TC alanı ekleyin; bu alan içindekiler tablosu için kullanılabilir.
+//ExStepSummary:3: Değiştirilen belgeyi belirtilen dizine kaydedin.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

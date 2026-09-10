@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET을 사용하여 이 튜토리얼은 새 Word 문서를 만들고, DocumentBuilder를 통해 사용자 지정 항목 텍스트가 포함된 TC(목차) 필드를 삽입한 다음 파일을 저장합니다.
+//ExStepSummary:0: 결과 문서가 저장될 폴더 경로를 정의합니다.
+//ExStepSummary:1: 새 빈 Document를 만들고, 편집을 위해 해당 Document에 연결된 DocumentBuilder를 생성합니다.
+//ExStepSummary:2: 목차에 사용할 수 있는 항목 텍스트 \"Entry Text\"가 포함된 TC 필드를 삽입합니다.
+//ExStepSummary:3: 수정된 문서를 지정된 디렉터리에 저장합니다.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

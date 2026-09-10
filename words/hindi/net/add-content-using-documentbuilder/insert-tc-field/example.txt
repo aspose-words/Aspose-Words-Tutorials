@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Aspose.Words for .NET का उपयोग करके, यह ट्यूटोरियल एक नया Word दस्तावेज़ बनाता है, DocumentBuilder के माध्यम से कस्टम एंट्री टेक्स्ट के साथ एक TC (Table of Contents) फ़ील्ड डालता है, और फ़ाइल को सहेजता है।
+//ExStepSummary:0: उस फ़ोल्डर पथ को निर्धारित करें जहाँ परिणामी दस्तावेज़ सहेजा जाएगा।
+//ExStepSummary:1: एक नया खाली Document बनाएँ और उसके साथ जुड़ा DocumentBuilder संपादन के लिए बनाएँ।
+//ExStepSummary:2: एंट्री टेक्स्ट "Entry Text" के साथ एक TC फ़ील्ड डालें जिसे तालिका सामग्री (Table of Contents) के लिए उपयोग किया जा सकता है।
+//ExStepSummary:3: संशोधित दस्तावेज़ को निर्दिष्ट डायरेक्टरी में सहेजें।
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

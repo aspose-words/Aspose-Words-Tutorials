@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: باستخدام Aspose.Words for .NET، يُنشئ هذا البرنامج التعليمي مستند Word جديد، يُدرج حقل TC (جدول المحتويات) بنص إدخال مخصص عبر DocumentBuilder، ويحفظ الملف.
+//ExStepSummary:0: حدد مسار المجلد الذي سيُحفظ فيه المستند الناتج.
+//ExStepSummary:1: أنشئ مستند Document جديدًا فارغًا وDocumentBuilder مرتبطًا به للتحرير.
+//ExStepSummary:2: أدرج حقل TC بنص الإدخال "Entry Text" الذي يمكن استخدامه في جدول المحتويات.
+//ExStepSummary:3: احفظ المستند المعدل إلى الدليل المحدد.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd

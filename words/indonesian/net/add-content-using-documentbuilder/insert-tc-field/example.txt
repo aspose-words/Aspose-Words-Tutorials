@@ -1,0 +1,20 @@
+//ExStart
+//ExSummary: Menggunakan Aspose.Words for .NET, tutorial ini membuat dokumen Word baru, menyisipkan bidang TC (Table of Contents) dengan teks entri khusus melalui DocumentBuilder, dan menyimpan file.
+//ExStepSummary:0: Tentukan jalur folder tempat dokumen yang dihasilkan akan disimpan.
+//ExStepSummary:1: Buat Document kosong baru dan DocumentBuilder yang terhubung dengannya untuk penyuntingan.
+//ExStepSummary:2: Sisipkan bidang TC dengan teks entri "Entry Text" yang dapat digunakan untuk daftar isi.
+//ExStepSummary:3: Simpan dokumen yang telah dimodifikasi ke direktori yang ditentukan.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.InsertField("TC \"Entry Text\" \\f t");
+
+//ExStep:3-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertTCField.docx");
+//ExEnd
