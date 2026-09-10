@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Este tutorial demonstra como criar um documento Word com Aspose.Words, adicionar uma linha de texto, inserir uma forma de linha horizontal usando DocumentBuilder e salvar o arquivo resultante.
+//ExStepSummary:0: Crie um novo objeto Document e um DocumentBuilder associado a ele.
+//ExStepSummary:1: Escreva uma linha de texto que introduz a linha horizontal.
+//ExStepSummary:2: Insira uma forma de linha horizontal na posição do cursor.
+//ExStepSummary:3: Defina o caminho da pasta onde o documento será salvo.
+//ExStepSummary:4: Salve o documento em um arquivo .docx no diretório especificado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

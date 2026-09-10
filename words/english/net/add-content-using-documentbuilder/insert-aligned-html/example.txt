@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Using Aspose.Words Document and DocumentBuilder, this tutorial demonstrates how to insert raw HTML content into a Word document.
+//ExStepSummary:0: Define the folder path where the resulting document will be saved.
+//ExStepSummary:1: Create a new, empty Word document instance.
+//ExStepSummary:2: Instantiate a DocumentBuilder linked to the newly created document.
+//ExStepSummary:3: Call `builder.InsertHtml()` to embed the supplied HTML markup as formatted Word content.
+//ExStepSummary:4: Save the modified document to the specified directory.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

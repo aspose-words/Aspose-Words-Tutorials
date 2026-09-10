@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Aspose.Words Document와 DocumentBuilder를 사용하여 이 튜토리얼에서는 원시 HTML 콘텐츠를 Word 문서에 삽입하는 방법을 보여줍니다.
+//ExStepSummary:0: 결과 문서가 저장될 폴더 경로를 정의합니다.
+//ExStepSummary:1: 새로운 빈 Word 문서 인스턴스를 생성합니다.
+//ExStepSummary:2: 새로 만든 문서와 연결된 DocumentBuilder를 인스턴스화합니다.
+//ExStepSummary:3: `builder.InsertHtml()`을 호출하여 제공된 HTML 마크업을 서식이 적용된 Word 콘텐츠로 삽입합니다.
+//ExStepSummary:4: 수정된 문서를 지정된 디렉터리에 저장합니다.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

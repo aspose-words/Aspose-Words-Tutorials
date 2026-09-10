@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Words を使用して Word 文書を作成し、テキスト行を追加し、DocumentBuilder を使って水平罫線シェイプを挿入し、結果のファイルを保存する方法を示します。
+//ExStepSummary:0: 新しい Document オブジェクトと、それに紐付く DocumentBuilder を作成します。
+//ExStepSummary:1: 水平罫線を紹介するテキスト行を書き込みます。
+//ExStepSummary:2: カーソル位置に水平罫線シェイプを挿入します。
+//ExStepSummary:3: 文書を保存するフォルダーのパスを定義します。
+//ExStepSummary:4: 指定したディレクトリに .docx ファイルとして文書を保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

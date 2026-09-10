@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: این آموزش نشان می‌دهد چگونه یک سند Word را با Aspose.Words ایجاد کنید، یک خط متن اضافه کنید، یک شکل خط افقی را با استفاده از DocumentBuilder وارد کنید و فایل حاصل را ذخیره کنید.
+//ExStepSummary:0: یک شیء Document جدید ایجاد کنید و یک DocumentBuilder که به آن مرتبط است بسازید.
+//ExStepSummary:1: یک خط متن بنویسید که خط افقی را معرفی می‌کند.
+//ExStepSummary:2: یک شکل خط افقی را در موقعیت مکان‌نما وارد کنید.
+//ExStepSummary:3: مسیر پوشه‌ای که سند در آن ذخیره خواهد شد را تعریف کنید.
+//ExStepSummary:4: سند را به صورت فایل .docx در پوشه مشخص شده ذخیره کنید.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

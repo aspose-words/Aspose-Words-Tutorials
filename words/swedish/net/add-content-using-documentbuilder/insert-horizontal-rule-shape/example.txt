@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Denna handledning visar hur man skapar ett Word‑dokument med Aspose.Words, lägger till en textrad, infogar en horisontell regel‑form med DocumentBuilder och sparar den resulterande filen.
+//ExStepSummary:0: Skapa ett nytt Document‑objekt och en DocumentBuilder som är knuten till det.
+//ExStepSummary:1: Skriv en textrad som introducerar den horisontella regeln.
+//ExStepSummary:2: Infoga en horisontell regel‑form på markörens position.
+//ExStepSummary:3: Definiera sökvägen till mappen där dokumentet ska sparas.
+//ExStepSummary:4: Spara dokumentet som en .docx‑fil i den angivna katalogen.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

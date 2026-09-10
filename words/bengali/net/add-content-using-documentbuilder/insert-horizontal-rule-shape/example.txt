@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: এই টিউটোরিয়ালটি দেখায় কীভাবে Aspose.Words ব্যবহার করে একটি Word ডকুমেন্ট তৈরি করা যায়, একটি টেক্সট লাইন যোগ করা যায়, DocumentBuilder ব্যবহার করে একটি horizontal rule শেপ সন্নিবেশ করা যায়, এবং ফলস্বরূপ ফাইলটি সংরক্ষণ করা যায়।
+//ExStepSummary:0: একটি নতুন Document অবজেক্ট এবং তার সাথে যুক্ত একটি DocumentBuilder তৈরি করুন।
+//ExStepSummary:1: horizontal rule পরিচয় করিয়ে দেয় এমন একটি টেক্সট লাইন লিখুন।
+//ExStepSummary:2: কর্সরের অবস্থানে একটি horizontal rule শেপ সন্নিবেশ করুন।
+//ExStepSummary:3: ডকুমেন্টটি যেখানে সংরক্ষণ করা হবে সেই ফোল্ডারের পথ নির্ধারণ করুন।
+//ExStepSummary:4: নির্দিষ্ট ডিরেক্টরিতে ডকুমেন্টটি একটি .docx ফাইলে সংরক্ষণ করুন।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Words के साथ Word दस्तावेज़ कैसे बनाया जाए, एक पंक्ति का टेक्स्ट जोड़ा जाए, DocumentBuilder का उपयोग करके एक क्षैतिज रूल शेप डाला जाए, और परिणामी फ़ाइल को सहेजा जाए।
+//ExStepSummary:0: एक नया Document ऑब्जेक्ट बनाएं और उससे जुड़ा एक DocumentBuilder बनाएं।
+//ExStepSummary:1: एक पंक्ति का टेक्स्ट लिखें जो क्षैतिज रूल का परिचय देता हो।
+//ExStepSummary:2: कर्सर की स्थिति पर एक क्षैतिज रूल शेप डालें।
+//ExStepSummary:3: उस फ़ोल्डर पथ को परिभाषित करें जहाँ दस्तावेज़ सहेजा जाएगा।
+//ExStepSummary:4: दस्तावेज़ को निर्दिष्ट डायरेक्टरी में एक .docx फ़ाइल के रूप में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word dengan Aspose.Words, menambahkan satu baris teks, menyisipkan bentuk garis horizontal menggunakan DocumentBuilder, dan menyimpan file yang dihasilkan.
+//ExStepSummary:0: Buat objek Document baru dan DocumentBuilder yang terikat padanya.
+//ExStepSummary:1: Tuliskan satu baris teks yang memperkenalkan garis horizontal.
+//ExStepSummary:2: Sisipkan bentuk garis horizontal pada posisi kursor.
+//ExStepSummary:3: Tentukan jalur folder tempat dokumen akan disimpan.
+//ExStepSummary:4: Simpan dokumen ke file .docx di direktori yang ditentukan.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

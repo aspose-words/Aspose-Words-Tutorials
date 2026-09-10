@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Med Aspose.Words Document och DocumentBuilder visar den här handledningen hur man infogar rå HTML‑innehåll i ett Word‑dokument.
+//ExStepSummary:0: Ange sökvägen till mappen där det resulterande dokumentet ska sparas.
+//ExStepSummary:1: Skapa en ny, tom Word‑dokumentinstans.
+//ExStepSummary:2: Instansiera en DocumentBuilder som är kopplad till det nyss skapade dokumentet.
+//ExStepSummary:3: Anropa `builder.InsertHtml()` för att bädda in den angivna HTML‑markupen som formaterat Word‑innehåll.
+//ExStepSummary:4: Spara det modifierade dokumentet till den angivna katalogen.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

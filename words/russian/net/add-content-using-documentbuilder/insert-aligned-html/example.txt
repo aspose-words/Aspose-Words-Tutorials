@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: С помощью Aspose.Words Document и DocumentBuilder этот учебник демонстрирует, как вставить необработанный HTML‑контент в документ Word.
+//ExStepSummary:0: Укажите путь к папке, в которой будет сохранён полученный документ.
+//ExStepSummary:1: Создайте новый пустой экземпляр документа Word.
+//ExStepSummary:2: Создайте экземпляр DocumentBuilder, привязанный к только что созданному документу.
+//ExStepSummary:3: Вызовите `builder.InsertHtml()`, чтобы встроить предоставленную разметку HTML как отформатированный контент Word.
+//ExStepSummary:4: Сохраните изменённый документ в указанную директорию.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

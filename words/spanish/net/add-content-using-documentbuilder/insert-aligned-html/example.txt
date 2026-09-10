@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Usando Aspose.Words Document y DocumentBuilder, este tutorial muestra cómo insertar contenido HTML sin procesar en un documento Word.
+//ExStepSummary:0: Defina la ruta de la carpeta donde se guardará el documento resultante.
+//ExStepSummary:1: Cree una nueva instancia de documento Word vacía.
+//ExStepSummary:2: Instancie un DocumentBuilder vinculado al documento recién creado.
+//ExStepSummary:3: Llame a `builder.InsertHtml()` para incrustar el marcado HTML suministrado como contenido Word formateado.
+//ExStepSummary:4: Guarde el documento modificado en el directorio especificado.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

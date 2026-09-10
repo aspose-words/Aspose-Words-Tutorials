@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Aspose.Words Document और DocumentBuilder का उपयोग करके, यह ट्यूटोरियल दिखाता है कि कैसे कच्ची HTML सामग्री को Word दस्तावेज़ में डाला जाए।
+//ExStepSummary:0: उस फ़ोल्डर पथ को निर्धारित करें जहाँ परिणामी दस्तावेज़ सहेजा जाएगा।
+//ExStepSummary:1: एक नया, खाली Word दस्तावेज़ इंस्टेंस बनाएँ।
+//ExStepSummary:2: नए बनाए गए दस्तावेज़ से जुड़ा DocumentBuilder इंस्टैंशिएट करें।
+//ExStepSummary:3: `builder.InsertHtml()` को कॉल करें ताकि प्रदान किया गया HTML मार्कअप फ़ॉर्मेटेड Word सामग्री के रूप में एम्बेड हो सके।
+//ExStepSummary:4: परिवर्तित दस्तावेज़ को निर्दिष्ट डायरेक्टरी में सहेजें।
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

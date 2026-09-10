@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: 使用 Aspose.Words 的 Document 和 DocumentBuilder，本教程演示如何将原始 HTML 内容插入到 Word 文档中。
+//ExStepSummary:0: 定义保存生成文档的文件夹路径。
+//ExStepSummary:1: 创建一个新的、空的 Word 文档实例。
+//ExStepSummary:2: 实例化一个与新创建文档关联的 DocumentBuilder。
+//ExStepSummary:3: 调用 `builder.InsertHtml()` 将提供的 HTML 标记嵌入为格式化的 Word 内容。
+//ExStepSummary:4: 将修改后的文档保存到指定目录。
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

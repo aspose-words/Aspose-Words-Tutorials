@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: با استفاده از Aspose.Words Document و DocumentBuilder، این آموزش نشان می‌دهد چگونه محتوای HTML خام را در یک سند Word وارد کنیم.
+//ExStepSummary:0: مسیر پوشه‌ای که سند تولید شده در آن ذخیره خواهد شد را تعریف کنید.
+//ExStepSummary:1: یک نمونه جدید و خالی از سند Word ایجاد کنید.
+//ExStepSummary:2: یک DocumentBuilder مرتبط با سند تازه ایجاد شده را نمونه‌سازی کنید.
+//ExStepSummary:3: متد `builder.InsertHtml()` را فراخوانی کنید تا نشانه‌گذاری HTML ارائه‌شده به‌عنوان محتوای قالب‌بندی‌شده Word درج شود.
+//ExStepSummary:4: سند تغییر یافته را در مسیر مشخص شده ذخیره کنید.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: โดยใช้ Aspose.Words Document และ DocumentBuilder บทแนะนำนี้จะแสดงวิธีแทรกเนื้อหา HTML ดิบลงในเอกสาร Word
+//ExStepSummary:0: กำหนดเส้นทางโฟลเดอร์ที่เอกสารผลลัพธ์จะถูกบันทึก
+//ExStepSummary:1: สร้างอินสแตนซ์เอกสาร Word ใหม่ที่ว่างเปล่า
+//ExStepSummary:2: สร้างอ็อบเจกต์ DocumentBuilder ที่เชื่อมต่อกับเอกสารที่สร้างใหม่
+//ExStepSummary:3: เรียก `builder.InsertHtml()` เพื่อฝังมาร์กอัป HTML ที่ให้ไว้เป็นเนื้อหา Word ที่จัดรูปแบบแล้ว
+//ExStepSummary:4: บันทึกเอกสารที่แก้ไขแล้วไปยังไดเรกทอรีที่ระบุ
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

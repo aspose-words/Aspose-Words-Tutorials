@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Aspose.Words の Document と DocumentBuilder を使用して、このチュートリアルでは生の HTML コンテンツを Word 文書に挿入する方法を示します。
+//ExStepSummary:0: 生成された文書を保存するフォルダー パスを定義します。
+//ExStepSummary:1: 新しい空の Word 文書インスタンスを作成します。
+//ExStepSummary:2: 新しく作成した文書にリンクした DocumentBuilder をインスタンス化します。
+//ExStepSummary:3: `builder.InsertHtml()` を呼び出して、提供された HTML マークアップを書式設定された Word コンテンツとして埋め込みます。
+//ExStepSummary:4: 変更された文書を指定されたディレクトリに保存します。
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

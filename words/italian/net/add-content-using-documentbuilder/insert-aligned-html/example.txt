@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Utilizzando Aspose.Words Document e DocumentBuilder, questo tutorial dimostra come inserire contenuto HTML grezzo in un documento Word.
+//ExStepSummary:0: Definisci il percorso della cartella in cui verrà salvato il documento risultante.
+//ExStepSummary:1: Crea una nuova istanza di documento Word vuota.
+//ExStepSummary:2: Istanzia un DocumentBuilder collegato al documento appena creato.
+//ExStepSummary:3: Chiama `builder.InsertHtml()` per incorporare il markup HTML fornito come contenuto Word formattato.
+//ExStepSummary:4: Salva il documento modificato nella directory specificata.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

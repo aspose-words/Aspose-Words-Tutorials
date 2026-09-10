@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: 本教程演示如何使用 Aspose.Words 创建 Word 文档，添加一行文本，使用 DocumentBuilder 插入水平线形状，并保存生成的文件。
+//ExStepSummary:0: 创建一个新的 Document 对象，并创建与其关联的 DocumentBuilder。
+//ExStepSummary:1: 写入一行介绍水平线的文本。
+//ExStepSummary:2: 在光标位置插入水平线形状。
+//ExStepSummary:3: 定义文档将要保存的文件夹路径。
+//ExStepSummary:4: 将文档保存为指定目录下的 .docx 文件。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

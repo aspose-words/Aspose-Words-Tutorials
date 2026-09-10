@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a Word document with Aspose.Words, add a line of text, insert a horizontal rule shape using DocumentBuilder, and save the resulting file.
+//ExStepSummary:0: Create a new Document object and a DocumentBuilder tied to it.
+//ExStepSummary:1: Write a line of text that introduces the horizontal rule.
+//ExStepSummary:2: Insert a horizontal rule shape at the cursor position.
+//ExStepSummary:3: Define the folder path where the document will be saved.
+//ExStepSummary:4: Save the document to a .docx file in the specified directory.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word باستخدام Aspose.Words، إضافة سطر نص، إدراج شكل خط أفقي باستخدام DocumentBuilder، وحفظ الملف الناتج.
+//ExStepSummary:0: إنشاء كائن Document جديد وDocumentBuilder مرتبط به.
+//ExStepSummary:1: اكتب سطر نص يقدّم الخط الأفقي.
+//ExStepSummary:2: أدرج شكل خط أفقي في موضع المؤشر.
+//ExStepSummary:3: حدد مسار المجلد حيث سيتم حفظ المستند.
+//ExStepSummary:4: احفظ المستند كملف .docx في الدليل المحدد.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

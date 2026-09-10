@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu Word bằng Aspose.Words, thêm một dòng văn bản, chèn hình dạng quy tắc ngang bằng DocumentBuilder, và lưu tệp kết quả.
+//ExStepSummary:0: Tạo một đối tượng Document mới và một DocumentBuilder liên kết với nó.
+//ExStepSummary:1: Viết một dòng văn bản giới thiệu quy tắc ngang.
+//ExStepSummary:2: Chèn một hình dạng quy tắc ngang tại vị trí con trỏ.
+//ExStepSummary:3: Xác định đường dẫn thư mục nơi tài liệu sẽ được lưu.
+//ExStepSummary:4: Lưu tài liệu thành tệp .docx trong thư mục đã chỉ định.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

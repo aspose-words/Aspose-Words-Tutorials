@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Words ile bir Word belgesi oluşturmanın, bir metin satırı eklemenin, DocumentBuilder kullanarak yatay çizgi şekli eklemenin ve ortaya çıkan dosyayı kaydetmenin nasıl yapılacağı gösterilmektedir.
+//ExStepSummary:0: Yeni bir Document nesnesi ve buna bağlı bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Yatay çizgiyi tanıtan bir metin satırı yazın.
+//ExStepSummary:2: İmleç konumunda bir yatay çizgi şekli ekleyin.
+//ExStepSummary:3: Belgenin kaydedileceği klasör yolunu tanımlayın.
+//ExStepSummary:4: Belgeyi belirtilen dizinde bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

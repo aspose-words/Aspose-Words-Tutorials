@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een Word-document maakt met Aspose.Words, een regel tekst toevoegt, een horizontale lijnvorm invoegt met DocumentBuilder, en het resulterende bestand opslaat.
+//ExStepSummary:0: Maak een nieuw Document-object en een DocumentBuilder die eraan gekoppeld is.
+//ExStepSummary:1: Schrijf een regel tekst die de horizontale lijn introduceert.
+//ExStepSummary:2: Voeg een horizontale lijnvorm in op de cursorpositie.
+//ExStepSummary:3: Definieer het mappad waar het document wordt opgeslagen.
+//ExStepSummary:4: Sla het document op als een .docx‑bestand in de opgegeven map.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

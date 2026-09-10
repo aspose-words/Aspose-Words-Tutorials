@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: باستخدام Aspose.Words Document و DocumentBuilder، يوضح هذا البرنامج التعليمي كيفية إدراج محتوى HTML خام في مستند Word.
+//ExStepSummary:0: حدد مسار المجلد حيث سيتم حفظ المستند الناتج.
+//ExStepSummary:1: أنشئ نسخة جديدة وفارغة من مستند Word.
+//ExStepSummary:2: أنشئ كائن DocumentBuilder مرتبط بالمستند الذي تم إنشاؤه حديثًا.
+//ExStepSummary:3: استدعِ `builder.InsertHtml()` لتضمين شفرة HTML المقدمة كمحتوى منسق في مستند Word.
+//ExStepSummary:4: احفظ المستند المعدل في الدليل المحدد.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

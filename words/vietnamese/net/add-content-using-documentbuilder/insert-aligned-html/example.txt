@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Sử dụng Aspose.Words Document và DocumentBuilder, hướng dẫn này trình bày cách chèn nội dung HTML thô vào tài liệu Word.
+//ExStepSummary:0: Xác định đường dẫn thư mục nơi tài liệu kết quả sẽ được lưu.
+//ExStepSummary:1: Tạo một thể hiện tài liệu Word mới, trống.
+//ExStepSummary:2: Khởi tạo một DocumentBuilder liên kết với tài liệu vừa được tạo.
+//ExStepSummary:3: Gọi `builder.InsertHtml()` để nhúng mã HTML được cung cấp dưới dạng nội dung Word đã định dạng.
+//ExStepSummary:4: Lưu tài liệu đã chỉnh sửa vào thư mục đã chỉ định.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

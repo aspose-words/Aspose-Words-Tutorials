@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Aspose.Words Document এবং DocumentBuilder ব্যবহার করে, এই টিউটোরিয়ালটি কীভাবে র' HTML বিষয়বস্তু একটি Word ডকুমেন্টে সন্নিবেশ করা যায় তা প্রদর্শন করে।
+//ExStepSummary:0: ফলস্বরূপ ডকুমেন্টটি যেখানে সংরক্ষণ করা হবে সেই ফোল্ডারের পথ নির্ধারণ করুন।
+//ExStepSummary:1: একটি নতুন, খালি Word ডকুমেন্ট ইনস্ট্যান্স তৈরি করুন।
+//ExStepSummary:2: নতুন তৈরি করা ডকুমেন্টের সাথে যুক্ত একটি DocumentBuilder ইনস্ট্যান্সিয়েট করুন।
+//ExStepSummary:3: `builder.InsertHtml()` কল করুন সরবরাহ করা HTML মার্কআপকে ফরম্যাটেড Word কন্টেন্ট হিসেবে এম্বেড করার জন্য।
+//ExStepSummary:4: পরিবর্তিত ডকুমেন্টটি নির্দিষ্ট ডিরেক্টরিতে সংরক্ষণ করুন।
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+Document doc = new Document();
+
+//ExStep:2-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

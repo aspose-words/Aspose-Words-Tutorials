@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: В этом руководстве демонстрируется, как создать документ Word с помощью Aspose.Words, добавить строку текста, вставить форму горизонтальной линии с использованием DocumentBuilder и сохранить полученный файл.
+//ExStepSummary:0: Создайте новый объект Document и связанный с ним DocumentBuilder.
+//ExStepSummary:1: Напишите строку текста, вводящую горизонтальную линию.
+//ExStepSummary:2: Вставьте форму горизонтальной линии в позицию курсора.
+//ExStepSummary:3: Определите путь к папке, в которой будет сохранён документ.
+//ExStepSummary:4: Сохраните документ в файл .docx в указанном каталоге.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

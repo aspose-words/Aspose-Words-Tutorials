@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο Word με το Aspose.Words, να προσθέσετε μια γραμμή κειμένου, να εισάγετε ένα σχήμα οριζόντιας γραμμής χρησιμοποιώντας το DocumentBuilder και να αποθηκεύσετε το παραγόμενο αρχείο.
+//ExStepSummary:0: Δημιουργήστε ένα νέο αντικείμενο Document και ένα DocumentBuilder που είναι συνδεδεμένο με αυτό.
+//ExStepSummary:1: Γράψτε μια γραμμή κειμένου που εισάγει την οριζόντια γραμμή.
+//ExStepSummary:2: Εισάγετε ένα σχήμα οριζόντιας γραμμής στη θέση του δρομέα.
+//ExStepSummary:3: Ορίστε τη διαδρομή του φακέλου όπου θα αποθηκευτεί το έγγραφο.
+//ExStepSummary:4: Αποθηκεύστε το έγγραφο σε αρχείο .docx στον καθορισμένο κατάλογο.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

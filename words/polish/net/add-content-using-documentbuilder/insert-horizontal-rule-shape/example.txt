@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak utworzyć dokument Word przy użyciu Aspose.Words, dodać linię tekstu, wstawić kształt linii poziomej przy użyciu DocumentBuilder i zapisać powstały plik.
+//ExStepSummary:0: Utwórz nowy obiekt Document oraz DocumentBuilder powiązany z nim.
+//ExStepSummary:1: Napisz linię tekstu wprowadzającą linię poziomą.
+//ExStepSummary:2: Wstaw kształt linii poziomej w miejscu kursora.
+//ExStepSummary:3: Zdefiniuj ścieżkę folderu, w którym dokument zostanie zapisany.
+//ExStepSummary:4: Zapisz dokument jako plik .docx w określonym katalogu.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

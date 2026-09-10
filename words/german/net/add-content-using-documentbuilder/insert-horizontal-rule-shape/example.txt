@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein Word‑Dokument mit Aspose.Words erstellt, eine Textzeile hinzufügt, mit DocumentBuilder ein horizontales Trennlinien‑Shape einfügt und die resultierende Datei speichert.
+//ExStepSummary:0: Erstellen Sie ein neues Document‑Objekt und einen damit verknüpften DocumentBuilder.
+//ExStepSummary:1: Schreiben Sie eine Textzeile, die die horizontale Trennlinie einführt.
+//ExStepSummary:2: Fügen Sie ein horizontales Trennlinien‑Shape an der Cursor‑Position ein.
+//ExStepSummary:3: Definieren Sie den Ordnerpfad, in dem das Dokument gespeichert werden soll.
+//ExStepSummary:4: Speichern Sie das Dokument als .docx‑Datei im angegebenen Verzeichnis.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

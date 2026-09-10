@@ -1,0 +1,25 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word ด้วย Aspose.Words, เพิ่มบรรทัดข้อความ, แทรกรูปร่างเส้นกั้นแนวนอนโดยใช้ DocumentBuilder, และบันทึกไฟล์ที่ได้
+//ExStepSummary:0: สร้างอ็อบเจ็กต์ Document ใหม่และ DocumentBuilder ที่เชื่อมโยงกับมัน
+//ExStepSummary:1: เขียนบรรทัดข้อความที่แนะนำเส้นกั้นแนวนอน
+//ExStepSummary:2: แทรกรูปร่างเส้นกั้นแนวนอนที่ตำแหน่งเคอร์เซอร์
+//ExStepSummary:3: กำหนดเส้นทางโฟลเดอร์ที่เอกสารจะถูกบันทึก
+//ExStepSummary:4: บันทึกเอกสารเป็นไฟล์ .docx ในไดเรกทอรีที่ระบุ
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+
+//ExStep:2-
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd
