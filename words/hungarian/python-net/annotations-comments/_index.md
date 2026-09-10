@@ -4,7 +4,9 @@
 "url": "/hu/python-net/annotations-comments/"
 "weight": 11
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Jegyzetek és megjegyzések oktatóanyagok az Aspose.Words Python-nethez
 
 Fedezz fel átfogó, lépésről lépésre haladó útmutatókat az Aspose.Words Python-nethez készült annotációkkal és megjegyzésekkel kapcsolatos műveletekhez. Ezek az oktatóanyagok teljes kódpéldákat és részletes magyarázatokat tartalmaznak.
@@ -33,3 +35,7 @@ Tanulja meg, hogyan adhat hozzá, kezelhet és kérhet le programozott módon me
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

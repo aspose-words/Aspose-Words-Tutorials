@@ -1,0 +1,7 @@
+Title: Create PDF/UA Compliant File from Word – Full Export Guide
+Slug: create-pdf-ua-compliant-file-from-word-full-export-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-24T10:52:12.336369
+SourceRepo: AI Search API
+Keywords: create pdf/ua compliant file, export word to accessible pdf
+PRNumber: 210

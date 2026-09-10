@@ -5,7 +5,9 @@
 "url": "/ar/python-net/getting-started/aspose-words-python-metered-licensing-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # الترخيص المقنن في Aspose.Words للغة بايثون
 
 ## مقدمة
@@ -173,3 +175,7 @@ A1: يسمح لك الترخيص المقنن بتتبع الاستهلاك وا
 - **يدعم**: [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
 
 ابدأ رحلتك مع Aspose.Words for Python اليوم واستفد بشكل كامل من الترخيص المقنن لتحسين احتياجات معالجة المستندات الخاصة بك!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

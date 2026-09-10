@@ -5,7 +5,9 @@
 "url": "/fr/python-net/performance-optimization/python-aspose-words-xaml-flow-progress-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Comment optimiser l'enregistrement de documents en Python avec Aspose.Words : flux XAML et rappels de progression
 
 ## Introduction
@@ -185,3 +187,7 @@ Pour optimiser les performances lors de l'utilisation d'Aspose.Words avec Python
 ## Conclusion
 
 Dans ce tutoriel, nous avons exploré comment optimiser l'enregistrement de documents avec Aspose.Words pour Python, grâce au flux XAML et aux rappels de progression. En implémentant ces fonctionnalités, vous pouvez améliorer l'efficacité de vos workflows de traitement de documents, gérer efficacement les ressources et garantir la ponctualité des opérations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/th/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # วิธีการแสดงเวอร์ชัน Aspose.Words ใน Python และ .NET
 
 ## การแนะนำ
@@ -144,3 +146,7 @@ A: ใช่ คุณสามารถซื้อใบอนุญาตส�
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/words/10)
 
 ด้วยเครื่องมือเหล่านี้ คุณจะจัดการการติดตั้ง Aspose.Words ได้อย่างมีประสิทธิภาพ ขอให้สนุกกับการเขียนโค้ด!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,10 +1,12 @@
 ---
-"description": "تعرّف على كيفية حفظ مستندات HTML بتنسيق ثابت في Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة لتنسيق المستندات بسلاسة."
-"linktitle": "حفظ مستندات HTML بتخطيط ثابت"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "حفظ مستندات HTML بتنسيق ثابت في Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: تعلم كيفية حفظ HTML بتنسيق ثابت باستخدام Aspose.Words for Java – الدليل
+  النهائي لتحويل Word إلى HTML وحفظ المستند كـ HTML بكفاءة.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: كيفية حفظ HTML بتنسيق ثابت باستخدام Aspose.Words للـ Java
+url: /ar/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +15,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ مستندات HTML بتنسيق ثابت في Aspose.Words لـ Java
+# كيفية حفظ HTML بتخطيط ثابت باستخدام Aspose.Words for Java
 
+في هذا الدرس ستكتشف **كيفية حفظ مستندات html** بتخطيط ثابت مع الحفاظ على تنسيق Word الأصلي. سواء كنت بحاجة إلى **تحويل Word إلى HTML**، **تصدير Word HTML** للعرض على الويب، أو ببساطة **حفظ المستند كـ html** للأرشفة، فإن الخطوات أدناه ستقودك عبر العملية بالكامل باستخدام Aspose.Words for Java.
 
-## مقدمة لحفظ مستندات HTML بتنسيق ثابت في Aspose.Words لـ Java
+## إجابات سريعة
+- **ماذا يعني “تخطيط ثابت”؟** يحافظ على المظهر البصري الدقيق للملف Word الأصلي في ناتج HTML.  
+- **هل يمكنني استخدام خطوط مخصصة؟** نعم – اضبط `useTargetMachineFonts` للتحكم في معالجة الخطوط.  
+- **هل أحتاج إلى ترخيص؟** يلزم وجود ترخيص صالح لـ Aspose.Words for Java للاستخدام في الإنتاج.  
+- **ما إصدارات Java المدعومة؟** جميع بيئات تشغيل Java 8+ متوافقة.  
+- **هل الناتج متجاوب؟** HTML بتخطيط ثابت يكون بدقة بكسل، غير متجاوب؛ استخدم CSS إذا كنت تحتاج إلى تخطيطات مرنة.
 
-في هذا الدليل الشامل، سنشرح لك عملية حفظ مستندات HTML بتنسيق ثابت باستخدام Aspose.Words لجافا. مع تعليمات خطوة بخطوة وأمثلة برمجية، ستتعلم كيفية تحقيق ذلك بسلاسة. هيا بنا!
+## ما هو “كيفية حفظ html” بتخطيط ثابت؟
+حفظ HTML بتخطيط ثابت يعني إنشاء ملفات HTML حيث يحتفظ كل صفحة وفقرة وصورة بنفس الحجم والموقع كما في مستند Word المصدر. هذا مثالي للسيناريوهات القانونية، النشر، أو الأرشفة حيث تكون الدقة البصرية أمرًا حاسمًا.
 
-## المتطلبات الأساسية
+## لماذا نستخدم Aspose.Words for Java لتحويل HTML؟
+- **دقة عالية** – المكتبة تعيد إنتاج التخطيطات المعقدة والجداول والرسومات بدقة.  
+- **بدون اعتماد على Microsoft Office** – تعمل بالكامل على جانب الخادم.  
+- **تخصيص واسع** – خيارات مثل `HtmlFixedSaveOptions` تتيح لك ضبط الناتج بدقة.  
+- **متعددة المنصات** – تعمل على أي نظام تشغيل يدعم Java.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
+- بيئة تطوير Java (JDK 8 أو أعلى).  
+- مكتبة Aspose.Words for Java مضافة إلى مشروعك (قم بتنزيلها من الموقع الرسمي).  
+- مستند Word (`.docx`) ترغب في تحويله.
 
-- تم إعداد بيئة تطوير Java.
-- تم تثبيت وتكوين مكتبة Aspose.Words لـ Java.
+## دليل خطوة بخطوة
 
-## الخطوة 1: تحميل المستند
-
-أولاً، علينا تحميل المستند الذي نريد حفظه بصيغة HTML. إليك الطريقة:
+### الخطوة 1: تحميل مستند Word
+أولاً، قم بتحميل المستند المصدر إلى كائن `Document`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-يستبدل `"YourDocument.docx"` مع المسار إلى مستند Word الخاص بك.
+استبدل `"YourDocument.docx"` بالمسار الفعلي لملفك.
 
-## الخطوة 2: تكوين خيارات الحفظ الثابتة HTML
-
-لحفظ المستند بتخطيط ثابت، نحتاج إلى تكوين `HtmlFixedSaveOptions` الصف. سوف نضبط `useTargetMachineFonts` الممتلكات إلى `true` للتأكد من استخدام خطوط الجهاز المستهدف في إخراج HTML:
+### الخطوة 2: تكوين خيارات حفظ HTML بتخطيط ثابت
+أنشئ مثيلًا من `HtmlFixedSaveOptions` وفعل استخدام خطوط الجهاز الهدف حتى يستخدم HTML نفس الخطوط الموجودة على الجهاز المصدر.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## الخطوة 3: حفظ المستند بصيغة HTML
+يمكنك أيضًا استكشاف خصائص أخرى مثل `setExportEmbeddedFonts` إذا كنت بحاجة إلى تضمين الخطوط مباشرة.
 
-الآن، دعنا نحفظ المستند بصيغة HTML مع التخطيط الثابت باستخدام الخيارات التي تم تكوينها مسبقًا:
+### الخطوة 3: حفظ المستند كـ HTML بتخطيط ثابت
+أخيرًا، اكتب المستند إلى ملف HTML باستخدام الخيارات المحددة أعلاه.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-يستبدل `"FixedLayoutDocument.html"` مع الاسم المطلوب لملف HTML الخاص بك.
+سيظهر الملف الناتج `FixedLayoutDocument.html` محتوى Word تمامًا كما هو في الملف الأصلي.
 
-## كود المصدر الكامل لحفظ مستندات HTML بتنسيق ثابت في Aspose.Words لـ Java
+### مثال كامل لكود المصدر
+فيما يلي مقطع جاهز للتنفيذ يجمع جميع الخطوات معًا. احتفظ بالكود دون تعديل للحفاظ على وظيفته.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +83,41 @@ doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
     }
 ```
 
-## خاتمة
+## المشكلات الشائعة والحلول
+- **غياب الخطوط في الناتج** – تأكد من ضبط `useTargetMachineFonts` على `true` *أو* تضمين الخطوط باستخدام `setExportEmbeddedFonts(true)`.  
+- **ملفات HTML كبيرة** – استخدم `setExportEmbeddedImages(false)` لجعل الصور خارجية وتقليل حجم الملف.  
+- **مسارات ملفات غير صحيحة** – استخدم مسارات مطلقة أو تحقق من أن الدليل العامل يمتلك صلاحيات كتابة.
 
-في هذا البرنامج التعليمي، تعلمنا كيفية حفظ مستندات HTML بتنسيق ثابت باستخدام Aspose.Words لجافا. باتباع هذه الخطوات البسيطة، يمكنك ضمان تناسق بنية مستنداتك المرئية على مختلف المنصات.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: كيف يمكنني إعداد Aspose.Words for Java في مشروعي؟**  
+ج: قم بتنزيل المكتبة من [here](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت الواردة في الوثائق [here](https://reference.aspose.com/words/java/).
 
-### كيف يمكنني إعداد Aspose.Words لـ Java في مشروعي؟
+**س: هل هناك متطلبات ترخيص لاستخدام Aspose.Words for Java؟**  
+ج: نعم، يلزم وجود ترخيص صالح للاستخدام في بيئات الإنتاج. يمكنك الحصول على الترخيص من موقع Aspose.
 
-إعداد Aspose.Words لجافا سهل للغاية. يمكنك تنزيل المكتبة من [هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت الواردة في الوثائق [هنا](https://reference.aspose.com/words/java/).
+**س: هل يمكنني تخصيص ناتج HTML أكثر؟**  
+ج: بالتأكيد. خيارات مثل `setExportEmbeddedImages`، `setExportEmbeddedFonts`، و `setCssClassNamePrefix` تتيح لك تعديل الناتج وفقًا لاحتياجاتك.
 
-### هل هناك أي متطلبات ترخيص لاستخدام Aspose.Words لـ Java؟
+**س: هل Aspose.Words for Java متوافق مع إصدارات Java المختلفة؟**  
+ج: نعم، تدعم المكتبة Java 8 وما بعده. تأكد من أن إصدار Java في مشروعك يتطابق مع متطلبات المكتبة.
 
-نعم، يتطلب Aspose.Words for Java ترخيصًا صالحًا للاستخدام في بيئة إنتاجية. يمكنك الحصول على الترخيص من موقع Aspose الإلكتروني. للمزيد من التفاصيل، يُرجى الاطلاع على الوثائق.
+**س: ماذا لو أردت نسخة HTML متجاوبة بدلاً من تخطيط ثابت؟**  
+ج: استخدم `HtmlSaveOptions` (بدلاً من `HtmlFixedSaveOptions`) التي تُنشئ HTML بتدفق يمكن تنسيقه باستخدام CSS لجعله متجاوبًا.
 
-### هل يمكنني تخصيص إخراج HTML بشكل أكبر؟
+## الخلاصة
+أنت الآن تعرف **كيفية حفظ html** بتخطيط ثابت باستخدام Aspose.Words for Java. باتباع الخطوات أعلاه يمكنك بثقة **تحويل Word إلى HTML**، **تصدير Word HTML**، و**حفظ المستند كـ HTML** مع الحفاظ على الدقة البصرية المطلوبة للنشر المهني أو الأرشفة.
 
-بالتأكيد! يوفر Aspose.Words لجافا مجموعة واسعة من الخيارات لتخصيص مُخرجات HTML لتلبية احتياجاتك الخاصة. يمكنك الاطلاع على الوثائق للحصول على معلومات مُفصلة حول خيارات التخصيص.
+---
 
-### هل Aspose.Words for Java متوافق مع إصدارات Java المختلفة؟
-
-نعم، Aspose.Words for Java متوافق مع مختلف إصدارات Java. تأكد من استخدام إصدار متوافق من Aspose.Words for Java يتوافق مع بيئة تطوير Java لديك.
-
+**آخر تحديث:** 2025-12-27  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: How to Rename Images When Converting DOCX to Markdown
+Slug: how-to-rename-images-when-converting-docx-to-markdown
+Category: document-conversion
+ProcessedDate: 2026-06-30T21:23:41.774030
+SourceRepo: AI Search API
+Keywords: how to rename images, convert docx to markdown, change image names, save word as markdown, custom image filenames
+PRNumber: 218

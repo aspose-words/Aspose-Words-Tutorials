@@ -5,7 +5,9 @@
 "url": "/el/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Κατανόηση του Σχήματος και των Μονάδων ODT με το Aspose.Words σε Python
 
 ## Εισαγωγή
@@ -165,3 +167,7 @@ doc.save('path/to/encrypted_output.odt', save_options)
 - **Δωρεάν δοκιμή**Ξεκινήστε με μια δωρεάν δοκιμή στο [Λήψεις Aspose για Python](https://releases.aspose.com/words/python/)
 - **Προσωρινή Άδεια**: Κάντε αίτηση εδώ: [Προσωρινή Άδεια Aspose](https://purchase.aspose.com/temporary-license/)
 - **Υποστήριξη**: Συμμετέχετε στη συζήτηση στο [Φόρουμ Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

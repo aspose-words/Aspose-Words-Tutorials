@@ -1,0 +1,7 @@
+Title: Automate word document generation with Aspose.Words in C#
+Slug: automate-word-document-generation-with-aspose-words-in-c
+Category: find-and-replace-text
+ProcessedDate: 2026-08-11T07:19:43.577448
+SourceRepo: AI Search API
+Keywords: automate word document generation, replace multiple placeholders, generate contract from template, fill word template with data, how to replace text in docx
+PRNumber: 249

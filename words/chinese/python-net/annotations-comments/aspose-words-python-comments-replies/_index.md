@@ -5,7 +5,9 @@
 "url": "/zh/python-net/annotations-comments/aspose-words-python-comments-replies/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 如何使用 Aspose.Words for Python 在 Word 文档中实现评论和回复
 
 ## 介绍
@@ -242,3 +244,7 @@ Aspose.Words for Python 可以集成到各种文档工作流程中。以下是�
 3. **学术合作**：促进学术论文作者和审阅者之间的反馈循环。
 
 本综合指南可以帮助您使用 Aspose.Words for Python 在 Word 文档中有效地实现评论和回复管理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

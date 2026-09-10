@@ -5,7 +5,9 @@
 "url": "/ru/python-net/tables-lists/aspose-words-master-table-manipulation-word-documents/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Обработка основных таблиц в документах Word с использованием Aspose.Words для Python
 
 Узнайте, как легко изменять таблицы в Microsoft Word с помощью Aspose.Words для Python. Это всеобъемлющее руководство поможет вам удалить или вставить столбцы и преобразовать их в обычный текст, улучшив ваши задачи по автоматизации документов.
@@ -149,3 +151,7 @@ print(column.to_txt())
 - [Бесплатная пробная версия](https://releases.aspose.com/words/python/)
 - [Запрос на временную лицензию](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

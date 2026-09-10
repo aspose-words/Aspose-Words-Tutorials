@@ -5,7 +5,9 @@
 "url": "/ko/python-net/document-operations/mastering-docsaveoptions-password-temp-folder-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 제목: Aspose.Words Python에서 DocSaveOptions 마스터하기: 암호 보호 및 임시 폴더 사용
 
 ## 소개
@@ -190,3 +192,7 @@ Python에서 Aspose.Words를 사용하는 동안 성능을 최적화하려면:
 - [지원 포럼](https://forum.aspose.com/c/words/10)
 
 Aspose.Words for Python을 사용하여 문서 처리 능력을 향상시키고 이해를 심화할 수 있는 다음 리소스를 살펴보세요. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

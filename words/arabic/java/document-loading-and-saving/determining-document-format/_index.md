@@ -1,10 +1,12 @@
 ---
-"description": "تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة."
-"linktitle": "تحديد تنسيق المستند"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "تحديد تنسيق المستند في Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2025-12-20
+description: تعلم كيفية تنظيم الملفات حسب النوع واكتشاف صيغ المستندات في Java باستخدام
+  Aspose.Words. يدعم DOC و DOCX و RTF والمزيد.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: تنظيم الملفات حسب النوع باستخدام Aspose.Words للجافا
+url: /ar/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +15,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحديد تنسيق المستند في Aspose.Words لـ Java
+# تنظيم الملفات حسب النوع باستخدام Aspose.Words for Java
 
+عند الحاجة إلى **تنظيم الملفات حسب النوع** في تطبيق Java، تكون الخطوة الأولى هي تحديد تنسيق كل مستند بدقة. تجعل Aspose.Words for Java ذلك بسيطًا، حيث تسمح لك باكتشاف DOC و DOCX و RTF و HTML و ODT والعديد من الصيغ الأخرى – حتى الملفات المشفرة أو غير المعروفة. في هذا الدليل سنستعرض إعداد المجلدات، اكتشاف صيغ الملفات، وترتيب ملفاتك تلقائيًا.
 
-## مقدمة لتحديد تنسيق المستند في Aspose.Words لـ Java
+## إجابات سريعة
+- **ما معنى “تنظيم الملفات حسب النوع”؟** يعني نقل المستندات تلقائيًا إلى مجلدات بناءً على تنسيقها المكتشف (مثل DOCX، PDF، RTF).  
+- **أي مكتبة تساعد في اكتشاف تنسيق الملف في Java؟** توفر Aspose.Words for Java الدالة `FileFormatUtil.detectFileFormat()`.  
+- **هل يمكن للـ API التعرف على أنواع الملفات غير المعروفة؟** نعم – تُعيد `LoadFormat.UNKNOWN` للملفات غير المدعومة أو غير القابلة للتعرف.  
+- **هل يدعم اكتشاف المستندات المشفرة؟** بالتأكيد؛ علم `FileFormatInfo.isEncrypted()` يُظهر ما إذا كان الملف محميًا بكلمة مرور.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم وجود ترخيص صالح لـ Aspose.Words للنشر التجاري.
 
-عند العمل على معالجة المستندات في جافا، من الضروري تحديد تنسيق الملفات التي تتعامل معها. يوفر Aspose.Words for Java ميزات فعّالة لتحديد تنسيقات المستندات، وسنرشدك خلال العملية.
+## مقدمة: تنظيم الملفات حسب النوع باستخدام Aspose.Words for Java
 
-## المتطلبات الأساسية
+عند العمل على معالجة المستندات في Java، من الضروري تحديد تنسيق الملفات التي تتعامل معها. توفر Aspose.Words for Java ميزات قوية لـ **detect file format java**، وسنرشدك خلال عملية تنظيم ملفاتك بكفاءة.
 
-قبل أن نبدأ، تأكد من أن لديك المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
-- [كلمات Aspose لجافا](https://releases.aspose.com/words/java/)
-- مجموعة تطوير Java (JDK) مثبتة على نظامك
-- المعرفة الأساسية ببرمجة جافا
+قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
+
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- Java Development Kit (JDK) مثبت على نظامك
+- معرفة أساسية ببرمجة Java
 
 ## الخطوة 1: إعداد الدليل
 
-أولاً، علينا إعداد الأدلة اللازمة لتنظيم ملفاتنا بفعالية. سننشئ أدلة لأنواع مختلفة من المستندات.
+أولاً، نحتاج إلى إعداد الأدلة اللازمة لتنظيم ملفاتنا بفعالية. سننشئ أدلة لأنواع المستندات المختلفة.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +48,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// قم بإنشاء الدلائل إذا لم تكن موجودة بالفعل.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +59,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-لقد قمنا بإنشاء أدلة لأنواع المستندات المدعومة، وغير المعروفة، والمشفرة، وأنواع المستندات التي سبقت 97.
+لقد أنشأنا أدلة للملفات المدعومة، غير المعروفة، المشفرة، والملفات من إصدارات ما قبل 97.
 
 ## الخطوة 2: اكتشاف تنسيق المستند
 
-الآن، لنكتشف تنسيق المستندات في مجلداتنا. سنستخدم Aspose.Words لجافا لتحقيق ذلك.
+الآن، لنكتشف تنسيق المستندات في أدلتنا. سنستخدم Aspose.Words for Java لتحقيق ذلك.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +76,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // عرض نوع المستند
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // أضف حالات لتنسيقات المستندات الأخرى حسب الحاجة
+        // Add cases for other document formats as needed
     }
 
-    // التعامل مع المستندات المشفرة
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // التعامل مع أنواع المستندات الأخرى
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +105,16 @@ for (String fileName : listFiles) {
 }
 ```
 
-في مقتطف التعليمات البرمجية هذا، نقوم بالتكرار خلال الملفات، واكتشاف تنسيقاتها، وتنظيمها في الدلائل الخاصة بها.
+في هذا المقتطف نقوم بالتكرار عبر الملفات، **detect file format java**، وننظمها في المجلدات المناسبة.
 
-## الكود المصدري الكامل لتحديد تنسيق المستند في Aspose.Words لـ Java
+## شفرة المصدر الكاملة لتحديد تنسيق المستند في Aspose.Words for Java
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // قم بإنشاء الدلائل إذا لم تكن موجودة بالفعل.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +131,7 @@ for (String fileName : listFiles) {
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // عرض نوع المستند
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +199,52 @@ for (String fileName : listFiles) {
 
 ```
 
-## خاتمة
+## كيفية اكتشاف تنسيق الملف Java
 
-يُعد تحديد تنسيقات المستندات في Aspose.Words لجافا أمرًا أساسيًا لمعالجة المستندات بكفاءة. باتباع الخطوات الموضحة في هذا الدليل، يمكنك تحديد أنواع المستندات ومعالجتها وفقًا لذلك في تطبيقات جافا.
+تقوم الدالة `FileFormatUtil.detectFileFormat()` بفحص رأس الملف وتعيد كائنًا من نوع `FileFormatInfo`. هذا الكائن يخبرك بـ **load format**، ما إذا كان الملف مشفرًا، ومعلومات تعريفية أخرى مفيدة. باستخدام هذه المعلومات يمكنك برمجيًا **identify unknown file types** وتحديد كيفية معالجة كل ملف.
 
-## الأسئلة الشائعة
+## التعرف على أنواع الملفات غير المعروفة
 
-### كيف أقوم بتثبيت Aspose.Words لـ Java؟
+عندما تُعيد الـ API القيمة `LoadFormat.UNKNOWN`، يكون الملف إما تالفًا أو يستخدم صيغة لا تدعمها Aspose.Words. في مثالنا البرمجي ننقل تلك الملفات إلى مجلد **Unknown** لتتمكن من مراجعتها لاحقًا.
 
-يمكنك تنزيل Aspose.Words for Java من [هنا](https://releases.aspose.com/words/java/) واتبع تعليمات التثبيت المقدمة.
+## المشكلات الشائعة والحلول
 
-### ما هي تنسيقات المستندات المدعومة؟
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| الملفات تُوضع دائمًا في مجلد *Supported* | `FileFormatUtil` لا يستطيع قراءة الرأس (مثلاً، الملف فارغ) | تأكد من تمرير مسار الملف الصحيح وأن الملف ليس بحجم صفر بايت. |
+| استثناء عند معالجة الملفات المشفرة | محاولة القراءة دون التعامل مع التشفير | استخدم فحص `info.isEncrypted()` قبل أي معالجة أخرى، كما هو موضح في الشفرة. |
+| عدم اكتشاف مستندات Word ما قبل 97 | الصيغ القديمة تحتاج حالة `DOC_PRE_WORD_60` | احتفظ بكتلة `case LoadFormat.DOC_PRE_WORD_60` لتوجيهها إلى مجلد *Pre97*. |
 
-يدعم Aspose.Words لجافا تنسيقات مستندات متنوعة، بما في ذلك DOC وDOCX وRTF وHTML وغيرها. يمكنك مراجعة الوثائق للاطلاع على القائمة الكاملة.
+## الأسئلة المتكررة
 
-### كيف يمكنني اكتشاف المستندات المشفرة باستخدام Aspose.Words لـ Java؟
+### كيف أقوم بتثبيت Aspose.Words for Java؟
 
-يمكنك استخدام `FileFormatUtil.detectFileFormat()` طريقة للكشف عن المستندات المشفرة، كما هو موضح في هذا الدليل.
+يمكنك تنزيل Aspose.Words for Java من [هنا](https://releases.aspose.com/words/java/) واتباع تعليمات التثبيت المتوفرة.
 
-### هل هناك أية قيود عند العمل مع تنسيقات المستندات القديمة؟
+### ما هي صيغ المستندات المدعومة؟
 
-قد تكون تنسيقات المستندات القديمة، مثل MS Word 6 أو Word 95، محدودة من حيث الميزات والتوافق مع التطبيقات الحديثة. فكّر في ترقية أو تحويل هذه المستندات عند الحاجة.
+تدعم Aspose.Words for Java صيغ مستندات متعددة، بما في ذلك DOC و DOCX و RTF و HTML و ODT وغيرها. راجع الوثائق الرسمية للحصول على القائمة الكاملة.
+
+### كيف يمكنني اكتشاف المستندات المشفرة باستخدام Aspose.Words for Java؟
+
+استخدم الدالة `FileFormatUtil.detectFileFormat()`؛ علم `FileFormatInfo.isEncrypted()` المُرجع يشير إلى التشفير، كما هو موضح في هذا الدليل.
+
+### هل هناك أي قيود عند العمل مع صيغ المستندات القديمة؟
+
+الصيغ القديمة مثل MS Word 6 أو Word 95 قد تفتقر إلى الميزات الحديثة وقد تواجه مشكلات توافق. يُنصح بتحويلها إلى صيغ أحدث عندما يكون ذلك ممكنًا.
 
 ### هل يمكنني أتمتة اكتشاف تنسيق المستند في تطبيق Java الخاص بي؟
 
-نعم، يمكنك أتمتة اكتشاف تنسيقات المستندات بدمج الكود المُقدّم في تطبيق جافا. يتيح لك هذا معالجة المستندات بناءً على التنسيقات المُكتشفة.
+نعم، يمكنك دمج الشفرة المقدمة في خط أنابيب معالجة تطبيقك. هذا يتيح الفرز التلقائي والتعامل بناءً على التنسيقات المكتشفة.
 
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (latest)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/nl/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # ODT-schema en -eenheden onder de knie krijgen met Aspose.Words in Python
 
 ## Invoering
@@ -165,3 +167,7 @@ Door ODT-schema-instellingen en meeteenheidconfiguraties met Aspose.Words in Pyt
 - **Gratis proefperiode**: Begin met een gratis proefperiode bij [Aspose-downloads voor Python](https://releases.aspose.com/words/python/)
 - **Tijdelijke licentie**: Solliciteer hier: [Aspose Tijdelijke Licentie](https://purchase.aspose.com/temporary-license/)
 - **Steun**: Doe mee aan de discussie op [Aspose Forum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

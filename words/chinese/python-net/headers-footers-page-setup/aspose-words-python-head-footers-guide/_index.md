@@ -5,7 +5,9 @@
 "url": "/zh/python-net/headers-footers-page-setup/aspose-words-python-head-footers-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Aspose.Words for Python 掌握页眉和页脚：完整指南
 
 在当今的数字文档世界中，一致的页眉和页脚对于专业外观的报告、学术论文或商业文档至关重要。本指南将指导您使用 Aspose.Words for Python 轻松管理文档中的这些元素。
@@ -215,3 +217,7 @@ Aspose.Words for Python can be integrated into various real-world scenarios:
 - **Automated Report Generation**: Automatically update headers and footers in generated reports.
 - **Batch Processing**: Apply consistent formatting across multiple documents in a batch process.
 - **Dynamic Document Updates**: Replace outdated information with current data efficiently.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

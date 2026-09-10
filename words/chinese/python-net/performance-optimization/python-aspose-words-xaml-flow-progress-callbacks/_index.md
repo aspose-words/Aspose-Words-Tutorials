@@ -5,7 +5,9 @@
 "url": "/zh/python-net/performance-optimization/python-aspose-words-xaml-flow-progress-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 如何使用 Aspose.Words 优化 Python 中的文档保存：XAML 流程和进度回调
 
 ## 介绍
@@ -185,3 +187,7 @@ class ExXamlFlowSaveOptionsProgressCallback:
 ## 结论
 
 在本教程中，我们探讨了如何使用 XAML Flow 和进度回调来优化 Aspose.Words for Python 的文档保存功能。通过实现这些功能，您可以提高文档处理工作流程的效率，有效地管理资源，并确保操作的及时性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

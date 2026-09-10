@@ -5,7 +5,9 @@
 "url": "/vi/python-net/tables-lists/aspose-words-master-table-manipulation-word-documents/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Thao tác bảng chính trong tài liệu Word bằng Aspose.Words cho Python
 
 Khám phá cách dễ dàng sửa đổi bảng trong Microsoft Word bằng Aspose.Words for Python. Hướng dẫn toàn diện này sẽ giúp bạn xóa hoặc chèn các cột và chuyển đổi chúng thành văn bản thuần túy, nâng cao các tác vụ tự động hóa tài liệu của bạn.
@@ -149,3 +151,7 @@ Bây giờ bạn có các công cụ để thao tác hiệu quả các bảng Wo
 - [Phiên bản dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

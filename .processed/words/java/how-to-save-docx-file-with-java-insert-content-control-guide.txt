@@ -1,0 +1,7 @@
+Title: How to Save DOCX File with Java – Insert Content Control Guide
+Slug: how-to-save-docx-file-with-java-insert-content-control-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-07-17T03:10:26.300695
+SourceRepo: AI Search API
+Keywords: how to save docx file, how to add content control
+PRNumber: 226

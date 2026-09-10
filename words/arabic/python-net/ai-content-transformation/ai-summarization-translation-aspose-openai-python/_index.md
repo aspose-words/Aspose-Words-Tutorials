@@ -5,7 +5,9 @@
 "url": "/ar/python-net/ai-content-transformation/ai-summarization-translation-aspose-openai-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # كيفية تنفيذ تلخيص الذكاء الاصطناعي والترجمة باستخدام Aspose.Words و OpenAI في Python
 
 في عالمنا المتسارع، تُعدّ معالجة كميات كبيرة من النصوص بكفاءة أمرًا بالغ الأهمية. سواء كنت تُلخّص تقارير مطوّلة أو تُترجم مستندات إلى لغات مختلفة، يُمكن للأتمتة توفير الوقت والجهد. سيُرشدك هذا البرنامج التعليمي إلى كيفية استخدام Aspose.Words للغة بايثون، إلى جانب نماذج الذكاء الاصطناعي من OpenAI، لإجراء التلخيص والترجمة باستخدام الذكاء الاصطناعي.
@@ -212,3 +214,7 @@
 - "ملخص الذكاء الاصطناعي في بايثون"
 - "ترجمة Aspose.Words"
 - "معالجة المستندات باستخدام OpenAI"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

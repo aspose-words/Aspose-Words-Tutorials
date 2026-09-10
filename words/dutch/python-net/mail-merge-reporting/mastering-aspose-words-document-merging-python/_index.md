@@ -5,7 +5,9 @@
 "url": "/nl/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Words voor het samenvoegen van documenten in Python: behoud bronnummering en voeg in bij bladwijzer
 
 ## Invoering
@@ -181,3 +183,7 @@ Experimenteer met extra Aspose.Words-functionaliteiten en verken integratiemogel
 - [Koop een licentie](https://purchase.aspose.com/buy)
 - [Gratis proeflicentie](https://purchase.aspose.com/temporary-license/)
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

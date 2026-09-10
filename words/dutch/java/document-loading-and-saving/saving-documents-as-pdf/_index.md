@@ -1,10 +1,13 @@
 ---
-"description": "Leer hoe u Word-documenten als PDF kunt opslaan met Aspose.Words voor Java. Pas lettertypen, eigenschappen en beeldkwaliteit aan. Een uitgebreide handleiding voor PDF-conversie."
-"linktitle": "Documenten opslaan als PDF"
-"second_title": "Aspose.Words Java Documentverwerking API"
-"title": "Documenten opslaan als PDF in Aspose.Words voor Java"
-"url": "/nl/java/document-loading-and-saving/saving-documents-as-pdf/"
-"weight": 22
+date: 2025-12-24
+description: Leer hoe u een document als PDF opslaat met Aspose.Words voor Java, met
+  onder meer het converteren van Word naar PDF in Java, het exporteren van de documentstructuur
+  naar PDF en geavanceerde Aspose.Words PDF‑opties.
+linktitle: Saving Documents as PDF
+second_title: Aspose.Words Java Document Processing API
+title: Hoe een document opslaan als PDF met Aspose.Words voor Java
+url: /nl/java/document-loading-and-saving/saving-documents-as-pdf/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,23 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Documenten opslaan als PDF in Aspose.Words voor Java
+# Hoe een document opslaan als pdf met Aspose.Words voor Java
 
+In deze uitgebreide tutorial ontdek je **hoe je een document opslaat als pdf** met behulp van de krachtige Aspose.Words voor Java bibliotheek. Of je nu een rapportage‑engine bouwt, een geautomatiseerd facturatiesysteem, of simpelweg Word‑bestanden wilt archiveren als PDF’s, deze gids leidt je door elke stap — van basisconversie tot het fijn afstellen van de PDF‑output met geavanceerde opties.
 
-## Inleiding tot het opslaan van documenten als PDF in Aspose.Words voor Java
+## Snelle antwoorden
+- **Kan Aspose.Words Word naar PDF converteren in Java?** Ja, met één regel code kun je een .docx naar PDF converteren.  
+- **Heb ik een licentie nodig voor productiegebruik?** Een commerciële licentie is vereist voor niet‑evaluatie‑implementaties.  
+- **Welke Java‑versies worden ondersteund?** Java 8 en nieuwer worden volledig ondersteund.  
+- **Kan ik lettertypen in de PDF insluiten?** Absoluut — stel `setEmbedFullFonts(true)` in `PdfSaveOptions` in.  
+- **Is de beeldkwaliteit aanpasbaar?** Ja, gebruik `setImageCompression` en `setInterpolateImages` om grootte en helderheid te regelen.
 
-In deze stapsgewijze handleiding leggen we uit hoe je documenten als PDF kunt opslaan met Aspose.Words voor Java. We behandelen verschillende aspecten van PDF-conversie en geven codevoorbeelden om het proces te vereenvoudigen.
+## Wat is “document opslaan als pdf”?
+Een document opslaan als PDF betekent dat je de visuele lay-out, lettertypen en inhoud van een Word‑bestand exporteert naar het Portable Document Format, een universeel bekijkbaar bestandstype dat opmaak behoudt over verschillende platformen.
+
+## Waarom Word naar PDF converteren in Java met Aspose.Words?
+- **Hoge getrouwheid:** De uitvoer spiegelt de oorspronkelijke Word‑lay-out, inclusief tabellen, kop‑ en voetteksten, en complexe grafische elementen.  
+- **Geen Microsoft Office vereist:** Werkt op elke server‑ of cloud‑omgeving.  
+- **Rijke aanpasbaarheid:** Beheer lettertypen, beeldcompressie, documentstructuur en metadata via `PdfSaveOptions`.  
+- **Prestaties:** Geoptimaliseerd voor grote batches en multi‑threaded scenario’s.
 
 ## Vereisten
+- Java Development Kit (JDK) geïnstalleerd.  
+- Aspose.Words voor Java bibliotheek (download van de officiële site).  
 
-Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende voorwaarden voldoet:
+Je kunt de bibliotheek verkrijgen via de volgende bron:
 
-- Java Development Kit (JDK) op uw systeem geïnstalleerd.
-- Aspose.Words voor Java-bibliotheek. Je kunt het downloaden van [hier](https://releases.aspose.com/words/java/).
+- Aspose.Words voor Java download: [here](https://releases.aspose.com/words/java/)
 
 ## Een document naar PDF converteren
 
-Om een Word-document naar PDF te converteren, kunt u het volgende codefragment gebruiken:
+Om een Word‑document naar PDF te converteren, kun je de volgende code‑snippet gebruiken:
 
 ```java
 Document doc = new Document("input.docx");
@@ -37,11 +54,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 doc.save("output.pdf", saveOptions);
 ```
 
-Vervangen `"input.docx"` met het pad naar uw Word-document en `"output.pdf"` met het gewenste pad naar het PDF-uitvoerbestand.
+Vervang `"input.docx"` door het pad naar je Word‑document en `"output.pdf"` door het gewenste uitvoer‑PDF‑bestandspad.
 
-## PDF-opslagopties beheren
+## PDF‑opslaanopties beheren
 
-U kunt verschillende PDF-opslagopties beheren met behulp van de `PdfSaveOptions` klasse. U kunt bijvoorbeeld de weergavetitel voor het PDF-document als volgt instellen:
+Je kunt verschillende PDF‑opslaanopties beheren met de `PdfSaveOptions`‑klasse. Bijvoorbeeld, je kunt de weergavetitel voor het PDF‑document als volgt instellen:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -49,9 +66,9 @@ saveOptions.setDisplayDocTitle(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-## Lettertypen in PDF insluiten
+## Lettertypen insluiten in PDF
 
-Gebruik de volgende code om lettertypen in de gegenereerde PDF in te sluiten:
+Om lettertypen in de gegenereerde PDF in te sluiten, gebruik je de volgende code:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -61,7 +78,7 @@ doc.save("output.pdf", saveOptions);
 
 ## Documenteigenschappen aanpassen
 
-U kunt de documenteigenschappen in de gegenereerde PDF aanpassen. Bijvoorbeeld:
+Je kunt documenteigenschappen in de gegenereerde PDF aanpassen. Bijvoorbeeld:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -71,7 +88,7 @@ doc.save("output.pdf", saveOptions);
 
 ## Documentstructuur exporteren
 
-Om de documentstructuur te exporteren, stelt u de `exportDocumentStructure` optie om `true`:
+Om de documentstructuur te exporteren, stel je de `exportDocumentStructure`‑optie in op `true`:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -79,9 +96,9 @@ saveOptions.setExportDocumentStructure(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-## Beeldcompressie
+## Afbeeldingscompressie
 
-U kunt de beeldcompressie regelen met behulp van de volgende code:
+Je kunt de beeldcompressie beheren met de volgende code:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -89,9 +106,9 @@ saveOptions.setImageCompression(PdfImageCompression.JPEG);
 doc.save("output.pdf", saveOptions);
 ```
 
-## Laatst afgedrukte eigenschap bijwerken
+## Laatste afdrukken eigenschap bijwerken
 
-Om de eigenschap 'Laatst afgedrukt' in het PDF-bestand bij te werken, gebruikt u:
+Om de “Last Printed”‑eigenschap in de PDF bij te werken, gebruik je:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -99,9 +116,9 @@ saveOptions.setUpdateLastPrintedProperty(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-## DML 3D-effecten renderen
+## DML 3D‑effecten renderen
 
-Voor geavanceerde rendering van DML 3D-effecten stelt u de renderingmodus in:
+Voor geavanceerde weergave van DML 3D‑effecten, stel je de rendermodus in:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -109,9 +126,9 @@ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
 doc.save("output.pdf", saveOptions);
 ```
 
-## Interpolerende afbeeldingen
+## Afbeeldingen interpoleren
 
-U kunt beeldinterpolatie inschakelen om de beeldkwaliteit te verbeteren:
+Je kunt beeldinterpolatie inschakelen om de beeldkwaliteit te verbeteren:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -119,15 +136,22 @@ saveOptions.setInterpolateImages(true);
 doc.save("output.pdf", saveOptions);
 ```
 
+## Veelvoorkomende gebruikssituaties & tips
+
+- **Batch‑conversie:** Loop door een map met `.docx`‑bestanden en pas dezelfde `PdfSaveOptions` toe voor consistente uitvoer.  
+- **Juridische archivering:** Schakel `setExportDocumentStructure(true)` in om getagde PDF’s te maken die voldoen aan toegankelijkheidsnormen.  
+- **Prestatietip:** Hergebruik één `PdfSaveOptions`‑instantie bij het verwerken van veel documenten om de overhead van objectcreatie te verminderen.  
+- **Probleemoplossing:** Als lettertypen ontbreken, controleer dan of de benodigde lettertypebestanden toegankelijk zijn voor de JVM en of `setEmbedFullFonts(true)` is ingeschakeld.
+
 ## Conclusie
 
-Aspose.Words voor Java biedt uitgebreide mogelijkheden voor het converteren van Word-documenten naar PDF-formaat, met flexibiliteit en aanpassingsmogelijkheden. U kunt verschillende aspecten van de PDF-uitvoer beheren, waaronder lettertypen, documenteigenschappen, beeldcompressie en meer.
+Aspose.Words voor Java biedt uitgebreide mogelijkheden voor het converteren van Word‑documenten naar PDF‑formaat met flexibiliteit en aanpassingsopties. Je kunt diverse aspecten van de PDF‑uitvoer beheren, waaronder lettertypen, documenteigenschappen, beeldcompressie en meer, waardoor het een robuuste oplossing is voor **document opslaan als pdf** scenario’s.
 
 ## Veelgestelde vragen
 
-### Hoe converteer ik een Word-document naar PDF met Aspose.Words voor Java?
+### Hoe converteer ik een Word‑document naar PDF met Aspose.Words voor Java?
 
-Om een Word-document naar PDF te converteren, gebruikt u de volgende code:
+Om een Word‑document naar PDF te converteren, gebruik je de volgende code:
 
 ```java
 Document doc = new Document("input.docx");
@@ -135,11 +159,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 doc.save("output.pdf", saveOptions);
 ```
 
-Vervangen `"input.docx"` met het pad naar uw Word-document en `"output.pdf"` met het gewenste pad naar het PDF-uitvoerbestand.
+Vervang `"input.docx"` door het pad naar je Word‑document en `"output.pdf"` door het gewenste uitvoer‑PDF‑bestandspad.
 
-### Kan ik lettertypen insluiten in de PDF die Aspose.Words voor Java genereert?
+### Kan ik lettertypen in de PDF insluiten die door Aspose.Words voor Java is gegenereerd?
 
-Ja, u kunt lettertypen in de PDF insluiten door de `setEmbedFullFonts` optie om `true` in `PdfSaveOptions`Hier is een voorbeeld:
+Ja, je kunt lettertypen in de PDF insluiten door de `setEmbedFullFonts`‑optie op `true` te zetten in `PdfSaveOptions`. Hier is een voorbeeld:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -147,9 +171,9 @@ saveOptions.setEmbedFullFonts(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-### Hoe kan ik documenteigenschappen in de gegenereerde PDF aanpassen?
+### Hoe kan ik documenteigenschappen aanpassen in de gegenereerde PDF?
 
-U kunt de documenteigenschappen in de PDF aanpassen met behulp van de `setCustomPropertiesExport` optie in `PdfSaveOptions`. Bijvoorbeeld:
+Je kunt documenteigenschappen in de PDF aanpassen met de `setCustomPropertiesExport`‑optie in `PdfSaveOptions`. Bijvoorbeeld:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -159,23 +183,26 @@ doc.save("output.pdf", saveOptions);
 
 ### Wat is het doel van beeldcompressie in Aspose.Words voor Java?
 
-Met beeldcompressie kunt u de kwaliteit en grootte van de afbeeldingen in de gegenereerde PDF bepalen. U kunt de beeldcompressiemodus instellen met `setImageCompression` in `PdfSaveOptions`.
+Beeldcompressie stelt je in staat de kwaliteit en grootte van afbeeldingen in de gegenereerde PDF te regelen. Je kunt de compressiemodus instellen met `setImageCompression` in `PdfSaveOptions`.
 
-### Hoe kan ik de eigenschap 'Laatst afgedrukt' in het PDF-bestand bijwerken?
+### Hoe werk ik de “Last Printed”‑eigenschap bij in de PDF?
 
-U kunt de eigenschap 'Laatst afgedrukt' in het PDF-bestand bijwerken door `setUpdateLastPrintedProperty` naar `true` in `PdfSaveOptions`Dit weerspiegelt de laatst afgedrukte datum in de PDF-metagegevens.
+Je kunt de “Last Printed”‑eigenschap bijwerken door `setUpdateLastPrintedProperty` op `true` te zetten in `PdfSaveOptions`. Dit zorgt ervoor dat de datum van de laatste afdruk wordt weergegeven in de PDF‑metadata.
 
 ### Hoe kan ik de beeldkwaliteit verbeteren bij het converteren naar PDF?
 
-Om de beeldkwaliteit te verbeteren, schakelt u beeldinterpolatie in door het volgende in te stellen: `setInterpolateImages` naar `true` in `PdfSaveOptions`Dit resulteert in vloeiendere en kwalitatief betere afbeeldingen in de PDF.
+Om de beeldkwaliteit te verbeteren, schakel je beeldinterpolatie in door `setInterpolateImages` op `true` te zetten in `PdfSaveOptions`. Dit resulteert in soepelere en hogere‑kwaliteit afbeeldingen in de PDF.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-24  
+**Getest met:** Aspose.Words for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

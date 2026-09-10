@@ -1,10 +1,11 @@
 ---
-"description": "了解如何使用 Aspose.Words 偵測 Java 中的文件格式。識別 DOC、DOCX 等。有效地組織文件。"
-"linktitle": "確定文件格式"
-"second_title": "Aspose.Words Java文件處理API"
-"title": "在 Aspose.Words for Java 中確定文件格式"
-"url": "/zh-hant/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2025-12-20
+description: 了解如何在 Java 中使用 Aspose.Words 按類型組織檔案並偵測文件格式。支援 DOC、DOCX、RTF 等。
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: 使用 Aspose.Words for Java 按類型整理檔案
+url: /zh-hant/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +14,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中確定文件格式
+# 使用 Aspose.Words for Java 按類型組織檔案
 
+當您需要在 Java 應用程式中**按類型組織檔案**時，第一步是可靠地確定每個文件的格式。Aspose.Words for Java 讓這變得簡單，能夠偵測 DOC、DOCX、RTF、HTML、ODT 以及許多其他格式——甚至是加密或未知的檔案。在本指南中，我們將說明如何設定資料夾、偵測檔案格式，並自動排序您的檔案。
 
-## Aspose.Words for Java 中確定文件格式的介紹
+## 快速解答
+- **什麼是「按類型組織檔案」的意思？** 它指的是根據偵測到的格式（例如 DOCX、PDF、RTF）自動將文件移動到相應的資料夾。  
+- **哪個函式庫可協助在 Java 中偵測檔案格式？** Aspose.Words for Java 提供 `FileFormatUtil.detectFileFormat()`。  
+- **API 能辨識未知檔案類型嗎？** 能——它會回傳 `LoadFormat.UNKNOWN` 以表示不支援或無法辨識的檔案。  
+- **是否支援加密文件的偵測？** 當然支援；`FileFormatInfo.isEncrypted()` 旗標會告訴您檔案是否受密碼保護。  
+- **生產環境是否需要授權？** 商業部署必須使用有效的 Aspose.Words 授權。
 
-在使用 Java 進行文件處理時，確定所處理的文件的格式至關重要。 Aspose.Words for Java 提供了強大的識別文件格式的功能，我們將引導您完成整個過程。
+## 介紹：使用 Aspose.Words for Java 按類型組織檔案
 
-## 先決條件
+在 Java 中處理文件時，確定所處理檔案的格式至關重要。Aspose.Words for Java 提供強大的功能以**detect file format java**，我們將帶您一步步有效地組織檔案。
 
-在開始之前，請確保您符合以下先決條件：
+## 前置條件
+
+在開始之前，請確保您具備以下前置條件：
 
 - [Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- 系統上安裝了 Java 開發工具包 (JDK)
-- Java 程式設計基礎知識
+- 已在系統上安裝 Java Development Kit (JDK)
+- 具備基本的 Java 程式設計知識
 
 ## 步驟 1：目錄設定
 
-首先，我們需要設定必要的目錄來有效地組織我們的文件。我們將為不同文檔類型建立目錄。
+首先，我們需要設定必要的目錄，以有效地組織檔案。我們將為不同的文件類型建立資料夾。
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +47,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// 如果目錄不存在，則建立目錄。
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +58,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-我們為受支援、未知、加密和 97 之前的文件類型建立了目錄。
+我們已建立支援、未知、加密以及 pre‑97 文件類型的資料夾。
 
-## 步驟2：偵測文件格式
+## 步驟 2：偵測文件格式
 
-現在，讓我們檢測目錄中文件的格式。我們將使用 Aspose.Words for Java 來實現這一點。
+現在，讓我們偵測目錄中文件的格式。我們將使用 Aspose.Words for Java 來完成此操作。
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +75,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // 顯示文檔類型
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // 根據需要新增其他文件格式的案例
+        // Add cases for other document formats as needed
     }
 
-    // 處理加密文檔
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // 處理其他文件類型
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +104,16 @@ for (String fileName : listFiles) {
 }
 ```
 
-在此程式碼片段中，我們遍歷文件，偵測它們的格式，並將它們組織到相應的目錄中。
+在此程式碼片段中，我們會遍歷檔案，**detect file format java**，並將它們組織到相應的資料夾中。
 
-## Aspose.Words for Java 中確定文件格式的完整原始碼
+## 完整來源程式碼：在 Aspose.Words for Java 中判斷文件格式
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // 如果目錄不存在，則建立目錄。
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +130,7 @@ for (String fileName : listFiles) {
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // 顯示文檔類型
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +198,54 @@ for (String fileName : listFiles) {
 
 ```
 
-## 結論
+## 如何偵測檔案格式 Java
 
-確定 Aspose.Words for Java 中的文件格式對於高效的文件處理至關重要。透過本指南中概述的步驟，您可以識別文件類型並在 Java 應用程式中相應地處理它們。
+`FileFormatUtil.detectFileFormat()` 方法會檢查檔案標頭，並回傳 `FileFormatInfo` 物件。此物件會告訴您 **load format**、檔案是否加密以及其他有用的中繼資料。利用這些資訊，您可以以程式方式 **identify unknown file types**，並決定如何處理每個檔案。
 
-## 常見問題解答
+## 辨識未知檔案類型
+
+當 API 回傳 `LoadFormat.UNKNOWN` 時，表示該檔案可能已損毀或使用 Aspose.Words 不支援的格式。在我們的範例程式碼中，我們會將這些檔案移至 **Unknown** 資料夾，以便您稍後檢查。
+
+## 常見問題與解決方案
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| 檔案總是被放入 *Supported* 資料夾 | `FileFormatUtil` 無法讀取標頭（例如，檔案為空） | 請確保傳入正確的檔案路徑，且檔案不是零位元組。 |
+| 加密檔案拋出例外 | 在未處理加密的情況下嘗試讀取 | 在進一步處理前使用 `info.isEncrypted()` 檢查，如程式碼所示。 |
+| Pre‑97 Word 文件未被偵測 | 舊格式需要 `DOC_PRE_WORD_60` 情況 | 保留 `case LoadFormat.DOC_PRE_WORD_60` 區塊，以將其導向 *Pre97* 資料夾。 |
+
+## 常見問答
 
 ### 如何安裝 Aspose.Words for Java？
 
-您可以從 [這裡](https://releases.aspose.com/words/java/) 並按照提供的安裝說明進行操作。
+您可以從[此處](https://releases.aspose.com/words/java/)下載 Aspose.Words for Java，並依照提供的安裝說明進行。
 
 ### 支援哪些文件格式？
 
-Aspose.Words for Java 支援各種文件格式，包括 DOC、DOCX、RTF、HTML 等。您可以參考文件以取得完整清單。
+Aspose.Words for Java 支援多種文件格式，包括 DOC、DOCX、RTF、HTML、ODT 等等。完整清單請參考官方文件。
 
 ### 如何使用 Aspose.Words for Java 偵測加密文件？
 
-您可以使用 `FileFormatUtil.detectFileFormat()` 方法來檢測加密文檔，如本指南所示。
+使用 `FileFormatUtil.detectFileFormat()` 方法；回傳的 `FileFormatInfo.isEncrypted()` 旗標會指示是否加密，如本指南所示。
 
-### 使用舊文件格式時有限制嗎？
+### 使用舊文件格式時有什麼限制嗎？
 
-較舊的文件格式（例如 MS Word 6 或 Word 95）在功能和與現代應用程式的相容性方面可能有限制。必要時考慮升級或轉換這些文件。
+舊格式如 MS Word 6 或 Word 95 可能缺少現代功能，且可能有相容性問題。建議在可能的情況下將其轉換為較新格式。
 
-### 我可以在 Java 應用程式中自動偵測文件格式嗎？
+### 我可以在 Java 應用程式中自動化文件格式偵測嗎？
 
-是的，您可以透過將提供的程式碼整合到您的 Java 應用程式中來自動執行文件格式檢測。這允許您根據檢測到的格式來處理文件。
+可以，將提供的程式碼嵌入您的應用程式處理流程中，即可根據偵測到的格式自動排序與處理。
 
+---
+
+**最後更新：** 2025-12-20  
+**測試環境：** Aspose.Words for Java 24.12 (latest)  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

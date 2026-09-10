@@ -1,10 +1,13 @@
 ---
-"description": "Μάθετε πώς να μετατρέπετε έγγραφα Word σε Markdown με το Aspose.Words για Java. Αυτός ο οδηγός βήμα προς βήμα καλύπτει την ευθυγράμμιση πινάκων, τον χειρισμό εικόνων και πολλά άλλα."
-"linktitle": "Αποθήκευση εγγράφων ως Markdown"
-"second_title": "API επεξεργασίας εγγράφων Java Aspose.Words"
-"title": "Αποθήκευση εγγράφων ως Markdown στο Aspose.Words για Java"
-"url": "/el/java/document-loading-and-saving/saving-documents-as-markdown/"
-"weight": 18
+date: 2025-12-22
+description: Μάθετε πώς να εξάγετε markdown μετατρέποντας έγγραφα Word σε Markdown
+  με το Aspose.Words for Java. Αυτός ο οδηγός βήμα‑βήμα καλύπτει την ευθυγράμμιση
+  πινάκων, τη διαχείριση εικόνων και πολλά άλλα.
+linktitle: Saving Documents as Markdown
+second_title: Aspose.Words Java Document Processing API
+title: Πώς να εξάγετε Markdown με το Aspose.Words για Java
+url: /el/java/document-loading-and-saving/saving-documents-as-markdown/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,29 +16,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αποθήκευση εγγράφων ως Markdown στο Aspose.Words για Java
+# Πώς να Εξάγετε Markdown με το Aspose.Words για Java
 
+## Εισαγωγή στην Εξαγωγή Markdown με το Aspose.Words για Java
 
-## Εισαγωγή στην αποθήκευση εγγράφων ως Markdown στο Aspose.Words για Java
+Σε αυτό το βήμα‑βήμα tutorial, **θα μάθετε πώς να εξάγετε markdown** από έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java. Το Markdown είναι μια ελαφριά γλώσσα σήμανσης που είναι ιδανική για τεκμηρίωση, στατικούς δημιουργούς ιστοσελίδων και πολλές πλατφόρμες δημοσίευσης. Στο τέλος αυτού του οδηγού θα μπορείτε να **μετατρέψετε Word σε markdown**, να προσαρμόσετε τη στοίχιση των πινάκων και να **διαχειριστείτε εικόνες σε markdown** χωρίς κόπο.
 
-Σε αυτόν τον οδηγό βήμα προς βήμα, θα δείξουμε πώς να αποθηκεύετε έγγραφα ως Markdown χρησιμοποιώντας το Aspose.Words για Java. Το Markdown είναι μια ελαφριά γλώσσα σήμανσης που χρησιμοποιείται συνήθως για τη μορφοποίηση εγγράφων κειμένου. Με το Aspose.Words για Java, μπορείτε εύκολα να μετατρέψετε τα έγγραφά σας στο Word σε μορφή Markdown. Θα καλύψουμε διάφορες πτυχές της αποθήκευσης αρχείων Markdown, συμπεριλαμβανομένης της ευθυγράμμισης περιεχομένου πίνακα και του χειρισμού εικόνων.
+## Γρήγορες Απαντήσεις
+- **Ποια είναι η κύρια κλάση για αποθήκευση ως Markdown;** `MarkdownSaveOptions`
+- **Μπορούν οι εικόνες να ενσωματωθούν αυτόματα;** Ναι – ορίστε το φάκελο εικόνων μέσω `setImagesFolder`.
+- **Πώς ελέγχω την στοίχιση των πινάκων;** Χρησιμοποιήστε `TableContentAlignment` (LEFT, RIGHT, CENTER, AUTO).
+- **Ποιες είναι οι ελάχιστες απαιτήσεις;** JDK 8+ και βιβλιοθήκη Aspose.Words για Java.
+- **Υπάρχει διαθέσιμη δοκιμαστική έκδοση;** Ναι, κατεβάστε την από την ιστοσελίδα της Aspose.
+
+## Τι σημαίνει «πώς να εξάγετε markdown»;
+Η εξαγωγή markdown σημαίνει τη μετατροπή ενός πλούσιου εγγράφου Word (`.docx`) σε ένα απλό αρχείο κειμένου `.md` που διατηρεί τις επικεφαλίδες, τους πίνακες και τις εικόνες σε σύνταξη Markdown.
+
+## Γιατί να χρησιμοποιήσετε το Aspose.Words για Java για τη μετατροπή docx με εικόνες;
+Το Aspose.Words διαχειρίζεται πολύπλοκες διατάξεις, ενσωματωμένες εικόνες και δομές πινάκων χωρίς να χάνει την πιστότητα. Επιπλέον, σας παρέχει λεπτομερή έλεγχο της εξόδου Markdown, όπως η στοίχιση των πινάκων και η διαχείριση του φακέλου εικόνων.
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+- Java Development Kit (JDK) εγκατεστημένο στο σύστημά σας.  
+- Βιβλιοθήκη Aspose.Words για Java. Μπορείτε να την κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).
 
-- Το Java Development Kit (JDK) είναι εγκατεστημένο στο σύστημά σας.
-- Aspose.Words για βιβλιοθήκη Java. Μπορείτε να το κατεβάσετε από [εδώ](https://releases.aspose.com/words/java/).
+## Βήμα 1: Δημιουργήστε ένα απλό έγγραφο Word
 
-## Βήμα 1: Δημιουργία εγγράφου Word
-
-Ας ξεκινήσουμε δημιουργώντας ένα έγγραφο Word το οποίο αργότερα θα μετατρέψουμε σε μορφή Markdown. Μπορείτε να προσαρμόσετε αυτό το έγγραφο σύμφωνα με τις απαιτήσεις σας.
+Πρώτα, θα δημιουργήσουμε ένα μικρό έγγραφο που περιέχει έναν πίνακα. Αυτό θα μας επιτρέψει να δείξουμε αργότερα την **προσαρμογή της στοίχισης του πίνακα**.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Εισαγωγή πίνακα με δύο κελιά
+// Insert a table with two cells
 builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.RIGHT);
 builder.write("Cell1");
@@ -44,60 +57,61 @@ builder.insertCell();
 builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 builder.write("Cell2");
 
-// Αποθήκευση του εγγράφου ως Markdown
+// Save the document as Markdown
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-Σε αυτό το παράδειγμα, δημιουργούμε έναν απλό πίνακα με δύο κελιά και ορίζουμε τη στοίχιση των παραγράφων μέσα σε αυτά τα κελιά. Στη συνέχεια, αποθηκεύουμε το έγγραφο ως Markdown χρησιμοποιώντας το `MarkdownSaveOptions`.
+Στο παραπάνω απόσπασμα κάνουμε:
 
-## Βήμα 2: Προσαρμογή στοίχισης περιεχομένου πίνακα
+1. Δημιουργούμε ένα νέο `Document`.  
+2. Χρησιμοποιούμε το `DocumentBuilder` για να εισάγουμε έναν πίνακα με δύο κελιά.  
+3. Εφαρμόζουμε **δεξιά** και **κεντρική** στοίχιση παραγράφου μέσα σε κάθε κελί.  
+4. Αποθηκεύουμε το αρχείο ως Markdown χρησιμοποιώντας το `MarkdownSaveOptions`.
 
-Το Aspose.Words για Java σάς επιτρέπει να προσαρμόσετε την ευθυγράμμιση του περιεχομένου του πίνακα κατά την αποθήκευση ως Markdown. Μπορείτε να ευθυγραμμίσετε το περιεχόμενο του πίνακα αριστερά, δεξιά, στο κέντρο ή να το αφήσετε να καθορίζεται αυτόματα με βάση την πρώτη παράγραφο σε κάθε στήλη του πίνακα.
+## Βήμα 2: Προσαρμόστε τη στοίχιση του περιεχομένου του πίνακα
 
-Δείτε πώς μπορείτε να προσαρμόσετε την στοίχιση περιεχομένου πίνακα:
+Το Aspose.Words σας επιτρέπει να καθορίσετε πώς θα αποδοθούν τα κελιά του πίνακα στο τελικό Markdown. Μπορείτε να επιβάλετε αριστερή, δεξιά ή κεντρική στοίχιση, ή να αφήσετε τη βιβλιοθήκη να αποφασίσει αυτόματα με βάση την πρώτη παράγραφο σε κάθε στήλη.
 
 ```java
-// Ορισμός της στοίχισης περιεχομένου πίνακα προς τα αριστερά
+// Set the table content alignment to left
 saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
 doc.save("left_alignment.md", saveOptions);
 
-// Ορισμός της στοίχισης περιεχομένου πίνακα προς τα δεξιά
+// Set the table content alignment to right
 saveOptions.setTableContentAlignment(TableContentAlignment.RIGHT);
 doc.save("right_alignment.md", saveOptions);
 
-// Ορισμός της στοίχισης περιεχομένου πίνακα στο κέντρο
+// Set the table content alignment to center
 saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 doc.save("center_alignment.md", saveOptions);
 
-// Ορισμός της στοίχισης περιεχομένου πίνακα σε αυτόματη (καθορίζεται από την πρώτη παράγραφο)
+// Set the table content alignment to auto (determined by first paragraph)
 saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-Αλλάζοντας το `TableContentAlignment` ιδιότητα, μπορείτε να ελέγξετε τον τρόπο ευθυγράμμισης του περιεχομένου μέσα στους πίνακες κατά τη μετατροπή σε Markdown.
+Αλλάζοντας την ιδιότητα `TableContentAlignment` ελέγχετε την **προσαρμογή της στοίχισης του πίνακα** για την έξοδο Markdown.
 
-## Βήμα 3: Χειρισμός εικόνων
+## Βήμα 3: Διαχειριστείτε τις εικόνες κατά την εξαγωγή σε markdown
 
-Για να συμπεριλάβετε εικόνες στο έγγραφό σας Markdown, πρέπει να καθορίσετε τον φάκελο στον οποίο βρίσκονται οι εικόνες. Το Aspose.Words για Java σάς επιτρέπει να ορίσετε τον φάκελο εικόνων στο `MarkdownSaveOptions`.
-
-Δείτε πώς μπορείτε να ορίσετε τον φάκελο εικόνων και να αποθηκεύσετε το έγγραφο με εικόνες:
+Όταν ένα έγγραφο περιέχει εικόνες, θέλετε αυτές οι εικόνες να εμφανίζονται σωστά στο παραγόμενο αρχείο `.md`. Ορίστε το φάκελο όπου το Aspose.Words θα αποθηκεύσει τις εξαγόμενες εικόνες.
 
 ```java
-// Φόρτωση εγγράφου που περιέχει εικόνες
+// Load a document containing images
 Document doc = new Document("document_with_images.docx");
 
-// Ορίστε τη διαδρομή του φακέλου εικόνων
+// Set the images folder path
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 saveOptions.setImagesFolder("images_folder/");
 
-// Αποθήκευση του εγγράφου με εικόνες
+// Save the document with images
 doc.save("document_with_images.md", saveOptions);
 ```
 
-Φροντίστε να αντικαταστήσετε `"document_with_images.docx"` με τη διαδρομή προς το έγγραφο του Word που περιέχει εικόνες και `"images_folder/"` με την πραγματική διαδρομή προς τον φάκελο όπου είναι αποθηκευμένες οι εικόνες σας.
+Αντικαταστήστε το `"document_with_images.docx"` με τη διαδρομή του πηγαίου αρχείου σας και το `"images_folder/"` με την τοποθεσία όπου θέλετε να αποθηκευτούν οι εικόνες. Το παραγόμενο Markdown θα περιέχει συνδέσμους εικόνας που δείχνουν σε αυτόν το φάκελο, επιτρέποντάς σας να **διαχειριστείτε εικόνες σε markdown** απρόσκοπτα.
 
-## Πλήρης πηγαίος κώδικας για την αποθήκευση εγγράφων ως Markdown στο Aspose.Words για Java
+## Πλήρης Πηγαίος Κώδικας για την Αποθήκευση Εγγράφων ως Markdown με το Aspose.Words για Java
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -110,7 +124,7 @@ public void autoTableContentAlignment() throws Exception
 	builder.insertCell();
 	builder.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
 	builder.write("Cell2");
-	// Στοιχίζει όλες τις παραγράφους μέσα στον πίνακα.
+	// Makes all paragraphs inside the table to be aligned.
 	MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 	{
 		saveOptions.setTableContentAlignment(TableContentAlignment.LEFT);
@@ -120,7 +134,7 @@ public void autoTableContentAlignment() throws Exception
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.RightTableContentAlignment.md", saveOptions);
 	saveOptions.setTableContentAlignment(TableContentAlignment.CENTER);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.CenterTableContentAlignment.md", saveOptions);
-	// Η ευθυγράμμιση σε αυτήν την περίπτωση θα ληφθεί από την πρώτη παράγραφο στην αντίστοιχη στήλη του πίνακα.
+	// The alignment in this case will be taken from the first paragraph in corresponding table column.
 	saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 	doc.save("Your Directory Path" + "WorkingWithMarkdownSaveOptions.AutoTableContentAlignment.md", saveOptions);
 }
@@ -136,39 +150,41 @@ public void setImagesFolder() throws Exception
 }
 ```
 
-## Σύναψη
+## Κοινά Προβλήματα και Λύσεις
 
-Σε αυτόν τον οδηγό, εξερευνήσαμε τον τρόπο αποθήκευσης εγγράφων ως Markdown χρησιμοποιώντας το Aspose.Words για Java. Καλύψαμε τη δημιουργία ενός εγγράφου Word, την προσαρμογή της στοίχισης περιεχομένου πίνακα και τον χειρισμό εικόνων σε αρχεία Markdown. Τώρα μπορείτε να μετατρέψετε αποτελεσματικά τα έγγραφά σας Word σε μορφή Markdown, καθιστώντας τα κατάλληλα για διάφορες πλατφόρμες δημοσίευσης και ανάγκες τεκμηρίωσης.
+| Πρόβλημα | Λύση |
+|----------|------|
+| Οι εικόνες δεν εμφανίζονται στο αρχείο `.md` | Βεβαιωθείτε ότι το `setImagesFolder` δείχνει σε έναν εγγράψιμο φάκελο και ότι ο φάκελος αναφέρεται σωστά στο παραγόμενο Markdown. |
+| Η στοίχιση του πίνακα φαίνεται λανθασμένη | Χρησιμοποιήστε `TableContentAlignment.AUTO` για να αφήσετε το Aspose.Words να καθορίσει την καλύτερη στοίχιση βάσει της πρώτης παραγράφου κάθε στήλης. |
+| Το αρχείο εξόδου είναι κενό | Εξασφαλίστε ότι το αντικείμενο `Document` περιέχει πραγματικό περιεχόμενο πριν καλέσετε τη μέθοδο `save`. |
 
-## Συχνές ερωτήσεις
+## Συχνές Ερωτήσεις
 
-### Πώς μπορώ να εγκαταστήσω το Aspose.Words για Java;
+**Ε: Πώς εγκαθιστώ το Aspose.Words για Java;**  
+Α: Το Aspose.Words για Java μπορεί να εγκατασταθεί προσθέτοντας τη βιβλιοθήκη στο έργο σας Java. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από [εδώ](https://releases.aspose.com/words/java/) και να ακολουθήσετε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση.
 
-Το Aspose.Words για Java μπορεί να εγκατασταθεί συμπεριλαμβάνοντας τη βιβλιοθήκη στο έργο Java σας. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από [εδώ](https://releases.aspose.com/words/java/) και ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση.
+**Ε: Μπορώ να μετατρέψω πολύπλοκα έγγραφα Word με πίνακες και εικόνες σε Markdown;**  
+Α: Ναι, το Aspose.Words για Java υποστηρίζει τη μετατροπή πολύπλοκων εγγράφων Word με πίνακες, εικόνες και διάφορα στοιχεία μορφοποίησης σε Markdown. Μπορείτε να προσαρμόσετε την έξοδο Markdown ανάλογα με την πολυπλοκότητα του εγγράφου σας.
 
-### Μπορώ να μετατρέψω σύνθετα έγγραφα Word με πίνακες και εικόνες σε Markdown;
+**Ε: Πώς μπορώ να διαχειριστώ εικόνες σε αρχεία Markdown;**  
+Α: Ορίστε τη διαδρομή του φακέλου εικόνων χρησιμοποιώντας τη μέθοδο `setImagesFolder` στο `MarkdownSaveOptions`. Βεβαιωθείτε ότι τα αρχεία εικόνας αποθηκεύονται στον καθορισμένο φάκελο· το Aspose.Words θα δημιουργήσει τους κατάλληλους συνδέσμους εικόνας στο Markdown.
 
-Ναι, το Aspose.Words για Java υποστηρίζει τη μετατροπή σύνθετων εγγράφων Word με πίνακες, εικόνες και διάφορα στοιχεία μορφοποίησης σε Markdown. Μπορείτε να προσαρμόσετε την έξοδο Markdown ανάλογα με την πολυπλοκότητα του εγγράφου σας.
+**Ε: Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Words για Java;**  
+Α: Ναι, μπορείτε να αποκτήσετε μια δοκιμαστική έκδοση του Aspose.Words για Java από την ιστοσελίδα της Aspose. Η δοκιμαστική έκδοση σας επιτρέπει να αξιολογήσετε τις δυνατότητες της βιβλιοθήκης πριν αγοράσετε άδεια.
 
-### Πώς μπορώ να διαχειριστώ εικόνες σε αρχεία Markdown;
+**Ε: Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;**  
+Α: Για περισσότερα παραδείγματα, τεκμηρίωση και λεπτομερείς πληροφορίες σχετικά με το Aspose.Words για Java, επισκεφθείτε το [documentation](https://reference.aspose.com/words/java/).
 
-Για να συμπεριλάβετε εικόνες σε αρχεία Markdown, ορίστε τη διαδρομή του φακέλου εικόνων χρησιμοποιώντας το `setImagesFolder` μέθοδος σε `MarkdownSaveOptions`Βεβαιωθείτε ότι τα αρχεία εικόνας είναι αποθηκευμένα στον καθορισμένο φάκελο και το Aspose.Words για Java θα χειριστεί τις αναφορές εικόνας ανάλογα.
+---
 
-### Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Words για Java;
-
-Ναι, μπορείτε να αποκτήσετε μια δοκιμαστική έκδοση του Aspose.Words για Java από τον ιστότοπο της Aspose. Η δοκιμαστική έκδοση σάς επιτρέπει να αξιολογήσετε τις δυνατότητες της βιβλιοθήκης πριν αγοράσετε μια άδεια χρήσης.
-
-### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
-
-Για περισσότερα παραδείγματα, τεκμηρίωση και λεπτομερείς πληροφορίες σχετικά με το Aspose.Words για Java, επισκεφθείτε τη διεύθυνση [απόδειξη με έγγραφα](https://reference.aspose.com/words/java/).
-
+**Τελευταία ενημέρωση:** 2025-12-22  
+**Δοκιμάστηκε με:** Aspose.Words για Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
+**Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

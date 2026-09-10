@@ -5,7 +5,9 @@
 "url": "/pt/python-net/performance-optimization/python-aspose-words-xaml-flow-progress-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Como otimizar o salvamento de documentos em Python usando Aspose.Words: fluxo XAML e retornos de chamada de progresso
 
 ## Introdução
@@ -185,3 +187,7 @@ Para otimizar o desempenho ao usar Aspose.Words com Python:
 ## Conclusão
 
 Neste tutorial, exploramos como otimizar o salvamento de documentos com o Aspose.Words para Python usando fluxo XAML e callbacks de progresso. Ao implementar esses recursos, você pode aumentar a eficiência dos seus fluxos de trabalho de processamento de documentos, gerenciar recursos de forma eficaz e garantir operações pontuais.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/ar/python-net/performance-optimization/python-aspose-words-xaml-flow-progress-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # كيفية تحسين حفظ المستندات في بايثون باستخدام Aspose.Words: استدعاءات XAML Flow وProgress
 
 ## مقدمة
@@ -185,3 +187,7 @@ class ExXamlFlowSaveOptionsProgressCallback:
 ## خاتمة
 
 في هذا البرنامج التعليمي، استكشفنا كيفية تحسين حفظ المستندات باستخدام Aspose.Words لـ Python باستخدام XAML Flow ووظائف استدعاء التقدم. بتطبيق هذه الميزات، يمكنك تحسين كفاءة سير عمل معالجة المستندات، وإدارة الموارد بفعالية، وضمان سير العمليات في الوقت المناسب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

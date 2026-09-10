@@ -5,7 +5,9 @@
 "url": "/fr/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Bordures de documents dynamiques avec Aspose.Words pour Python
 
 ## Introduction
@@ -267,3 +269,7 @@ Envisagez d’intégrer Aspose.Words à d’autres outils de traitement de donn�
 
 ## Conclusion
 En maîtrisant ces techniques avec Aspose.Words pour Python, vous pourrez créer des documents d'aspect professionnel avec des bordures dynamiques. Ce guide fournit une base solide pour explorer plus en profondeur les fonctionnalités de la bibliothèque.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

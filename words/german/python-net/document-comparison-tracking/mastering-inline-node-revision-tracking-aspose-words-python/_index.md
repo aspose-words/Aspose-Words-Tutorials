@@ -5,7 +5,9 @@
 "url": "/de/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Beherrschen der Inline-Knotenrevisionsverfolgung in Python mit Aspose.Words
 
 ## Einführung
@@ -127,3 +129,7 @@ Sie beherrschen nun die Kunst, Inline-Knotenrevisionen mit Aspose.Words in Pytho
 - [Kostenlose Testversion und temporäre Lizenzen](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 Wir hoffen, dass dieser Leitfaden Ihnen hilft, Dokumentrevisionen mit Aspose.Words in Python effektiv zu verwalten. Viel Spaß beim Programmieren!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

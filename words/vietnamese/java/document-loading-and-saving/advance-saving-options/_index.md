@@ -1,10 +1,12 @@
 ---
-"description": "Tìm hiểu cách thao tác tài liệu nâng cao với Aspose.Words for Java. Mã hóa, xử lý siêu tệp và nhiều hơn nữa. Tài liệu Word của bạn, theo cách của bạn."
-"linktitle": "Lưu tài liệu ở nhiều định dạng khác nhau với"
-"second_title": "API xử lý tài liệu Java Aspose.Words"
-"title": "Tùy chọn lưu nâng cao với Aspose.Words cho Java"
-"url": "/vi/java/document-loading-and-saving/advance-saving-options/"
-"weight": 14
+date: 2025-12-19
+description: Tìm hiểu cách lưu tài liệu Word bằng mật khẩu, kiểm soát nén metafile
+  và quản lý các dấu đầu dòng hình ảnh bằng Aspose.Words cho Java.
+linktitle: Saving Documents in Various Formats with
+second_title: Aspose.Words Java Document Processing API
+title: Lưu tài liệu Word có mật khẩu bằng Aspose.Words cho Java
+url: /vi/java/document-loading-and-saving/advance-saving-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,22 +15,36 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chọn lưu nâng cao với Aspose.Words cho Java
+# Lưu Word với Mật khẩu và Các Tùy chọn Nâng cao Sử dụng Aspose.Words cho Java
 
+## Hướng Dẫn Từng Bước: Lưu Word với Mật khẩu và Các Tùy chọn Lưu Nâng cao Khác
 
-# Hướng dẫn từng bước: Tùy chọn lưu nâng cao với Aspose.Words cho Java
+Trong thế giới kỹ thuật số ngày nay, các nhà phát triển thường cần bảo vệ các tệp Word, kiểm soát cách các đối tượng nhúng được lưu, hoặc loại bỏ các dấu chấm ảnh không mong muốn. **Lưu một tài liệu Word với mật khẩu** là một cách đơn giản nhưng mạnh mẽ để bảo mật dữ liệu nhạy cảm, và Aspose.Words cho Java giúp thực hiện dễ dàng. Trong hướng dẫn này, chúng tôi sẽ trình bày cách mã hóa tài liệu, ngăn chặn việc nén các metafile nhỏ, và vô hiệu hoá dấu chấm ảnh — để bạn có thể tinh chỉnh chính xác cách các tệp Word của mình được lưu.
 
-Trong thời đại kỹ thuật số ngày nay, thao tác tài liệu là một nhiệm vụ phổ biến đối với các nhà phát triển. Cho dù đó là mã hóa tài liệu, xử lý siêu tệp hay quản lý các dấu đầu dòng hình ảnh, Aspose.Words for Java cung cấp một API mạnh mẽ để hợp lý hóa các quy trình này. Trong hướng dẫn này, chúng ta sẽ khám phá cách thực hiện các tùy chọn lưu nâng cao bằng Aspose.Words for Java.
+## Câu trả lời nhanh
+- **Làm thế nào để lưu một tài liệu Word với mật khẩu?** Sử dụng `DocSaveOptions.setPassword()` trước khi gọi `doc.save()`.  
+- **Tôi có thể ngăn chặn việc nén các metafile nhỏ không?** Có, đặt `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **Có thể loại bỏ dấu chấm ảnh khỏi tệp đã lưu không?** Chắc chắn—sử dụng `saveOptions.setSavePictureBullet(false)`.  
+- **Tôi có cần giấy phép để sử dụng các tính năng này không?** Cần có giấy phép Aspose.Words cho Java hợp lệ để sử dụng trong môi trường sản xuất.  
+- **Phiên bản Java nào được hỗ trợ?** Aspose.Words hoạt động với Java 8 trở lên.
 
-## Giới thiệu về Aspose.Words cho Java
+## “Lưu Word với mật khẩu” là gì?
+Lưu một tài liệu Word với mật khẩu sẽ mã hoá nội dung của tệp, yêu cầu nhập mật khẩu đúng để mở trong Microsoft Word hoặc bất kỳ trình xem tương thích nào. Tính năng này rất cần thiết để bảo vệ các báo cáo, hợp đồng bí mật, hoặc bất kỳ dữ liệu nào cần giữ riêng tư.
 
-Trước khi đi sâu vào mã, chúng ta hãy giới thiệu sơ qua về Aspose.Words for Java. Đây là một thư viện Java mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi tài liệu Word một cách dễ dàng. Cho dù bạn cần tạo báo cáo, thêm bảo mật hay định dạng văn bản, Aspose.Words for Java đều đáp ứng được nhu cầu của bạn.
+## Tại sao nên sử dụng Aspose.Words cho Java cho nhiệm vụ này?
+- **Kiểm soát đầy đủ** – Bạn có thể đặt mật khẩu, tùy chọn nén và xử lý dấu chấm trong một lời gọi API duy nhất.  
+- **Không cần Microsoft Office** – Hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.  
+- **Hiệu suất cao** – Tối ưu cho tài liệu lớn và xử lý hàng loạt.
 
-## Thiết lập môi trường
+## Yêu cầu trước
+- Java 8 hoặc mới hơn đã được cài đặt.  
+- Thư viện Aspose.Words cho Java đã được thêm vào dự án của bạn (Maven/Gradle hoặc JAR thủ công).  
+- Giấy phép Aspose.Words hợp lệ cho môi trường sản xuất (có bản dùng thử miễn phí).
 
-Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập môi trường cần thiết:
+## Hướng Dẫn Từng Bước
 
-1. Tạo tài liệu: Khởi tạo tài liệu mới bằng Aspose.Words cho Java.
+### 1. Tạo một tài liệu đơn giản
+Đầu tiên, tạo một `Document` mới và thêm một số văn bản. Đây sẽ là tệp mà chúng ta sẽ bảo vệ bằng mật khẩu sau này.
 
 ```java
     Document doc = new Document();
@@ -36,9 +52,8 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập
     builder.write("Hello world!");
 ```
 
-## Mã hóa tài liệu bằng mật khẩu
-
-Bây giờ, chúng ta hãy đi sâu vào bước đầu tiên - mã hóa tài liệu bằng mật khẩu. Điều này sẽ thêm một lớp bảo mật cho các tài liệu nhạy cảm của bạn.
+### 2. Mã hoá tài liệu – **lưu word với mật khẩu**
+Bây giờ chúng ta cấu hình `DocSaveOptions` để nhúng mật khẩu. Khi tệp được mở, Word sẽ yêu cầu nhập mật khẩu này.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -48,9 +63,8 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-## Không nén các tệp siêu dữ liệu nhỏ
-
-Metafile rất cần thiết trong tài liệu Word, nhưng bạn có thể không muốn nén những tệp nhỏ. Sau đây là cách thực hiện:
+### 3. Không nén các metafile nhỏ
+Các metafile (như EMF/WMF) thường được nén tự động. Nếu bạn cần giữ nguyên chất lượng gốc, hãy tắt tính năng nén:
 
 ```java
 @Test
@@ -64,9 +78,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-## Tránh lưu hình ảnh Bullets
-
-Hình ảnh có thể bắt mắt, nhưng bạn có thể muốn loại trừ chúng. Sau đây là cách thực hiện:
+### 4. Loại bỏ dấu chấm ảnh khỏi tệp đã lưu
+Dấu chấm ảnh có thể làm tăng kích thước tệp. Sử dụng tùy chọn sau để loại bỏ chúng khi lưu:
 
 ```java
 @Test
@@ -80,8 +93,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-
-## Mã nguồn đầy đủ để lưu tài liệu ở nhiều định dạng khác nhau với Aspose.Words cho Java
+### 5. Mã nguồn đầy đủ để tham khảo
+Dưới đây là ví dụ hoàn chỉnh, sẵn sàng chạy, minh họa ba tùy chọn lưu nâng cao cùng lúc.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -113,42 +126,41 @@ public void doNotSavePictureBullet() throws Exception {
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
 ```
 
-## Phần kết luận
-
-Xin chúc mừng! Bạn đã học cách sử dụng Aspose.Words for Java để thực hiện các tùy chọn lưu nâng cao. Cho dù đó là mã hóa tài liệu, xử lý siêu tệp hay quản lý các dấu đầu dòng hình ảnh, Aspose.Words for Java đều cho phép bạn kiểm soát các tài liệu Word của mình.
+## Các vấn đề thường gặp & Khắc phục
+- **Mật khẩu không được áp dụng** – Đảm bảo bạn đang sử dụng `DocSaveOptions` *thay vì* `PdfSaveOptions` hoặc các tùy chọn riêng cho định dạng khác.  
+- **Metafile vẫn bị nén** – Kiểm tra tệp nguồn thực sự chứa các metafile nhỏ; tùy chọn này chỉ ảnh hưởng đến những metafile dưới một ngưỡng kích thước nhất định.  
+- **Dấu chấm ảnh vẫn xuất hiện** – Một số phiên bản Word cũ bỏ qua cờ này; hãy cân nhắc chuyển đổi dấu chấm sang kiểu danh sách tiêu chuẩn trước khi lưu.
 
 ## Câu hỏi thường gặp
 
-### 1. Aspose.Words cho Java có phải là thư viện miễn phí không?
+**Q: Aspose.Words cho Java có phải là thư viện miễn phí không?**  
+A: Không, Aspose.Words cho Java là một thư viện thương mại. Bạn có thể tìm chi tiết về giấy phép [tại đây](https://purchase.aspose.com/buy).
 
-Không, Aspose.Words for Java là một thư viện thương mại. Bạn có thể tìm thấy thông tin chi tiết về cấp phép [đây](https://purchase.aspose.com/buy).
+**Q: Làm sao tôi có thể nhận bản dùng thử miễn phí của Aspose.Words cho Java?**  
+A: Bạn có thể nhận bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### 2. Làm thế nào tôi có thể dùng thử miễn phí Aspose.Words cho Java?
+**Q: Tôi có thể tìm hỗ trợ cho Aspose.Words cho Java ở đâu?**  
+A: Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập [diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
 
-Bạn có thể dùng thử miễn phí Aspose.Words cho Java [đây](https://releases.aspose.com/).
+**Q: Tôi có thể sử dụng Aspose.Words cho Java với các framework Java khác không?**  
+A: Có, nó tích hợp mượt mà với Spring, Hibernate, Android và hầu hết các container Java EE.
 
-### 3. Tôi có thể tìm thấy sự hỗ trợ cho Aspose.Words dành cho Java ở đâu?
+**Q: Có tùy chọn giấy phép tạm thời để đánh giá không?**  
+A: Có, giấy phép tạm thời có sẵn [tại đây](https://purchase.aspose.com/temporary-license/).
 
-Để được hỗ trợ và thảo luận cộng đồng, hãy truy cập [Diễn đàn Aspose.Words cho Java](https://forum.aspose.com/).
+## Kết luận
+Bây giờ bạn đã biết cách **lưu Word với mật khẩu**, kiểm soát việc nén metafile và loại bỏ dấu chấm ảnh bằng Aspose.Words cho Java. Các tùy chọn lưu nâng cao này cho phép bạn kiểm soát chính xác kích thước tệp cuối cùng, bảo mật và giao diện—hoàn hảo cho báo cáo doanh nghiệp, lưu trữ tài liệu, hoặc bất kỳ trường hợp nào mà tính toàn vẹn của tài liệu quan trọng.
 
-### 4. Tôi có thể sử dụng Aspose.Words for Java với các thư viện Java khác không?
+---
 
-Có, Aspose.Words for Java tương thích với nhiều thư viện và khung Java khác nhau.
-
-### 5. Có tùy chọn cấp phép tạm thời nào không?
-
-Có, bạn có thể xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
-
-Bắt đầu sử dụng Aspose.Words for Java ngay hôm nay và khai thác toàn bộ tiềm năng xử lý tài liệu trong ứng dụng Java của bạn.
-
-
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.Words for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

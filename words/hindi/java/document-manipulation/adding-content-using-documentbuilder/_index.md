@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words के साथ Java के लिए दस्तावेज़ निर्माण में महारत हासिल करें। टेक्स्ट, टेबल, इमेज और बहुत कुछ जोड़ने के लिए चरण-दर-चरण मार्गदर्शिका। आसानी से शानदार Word दस्तावेज़ बनाएँ।"
-"linktitle": "डॉक्यूमेंटबिल्डर का उपयोग करके सामग्री जोड़ना"
-"second_title": "Aspose.Words जावा दस्तावेज़ प्रसंस्करण एपीआई"
-"title": "Java के लिए Aspose.Words में DocumentBuilder का उपयोग करके सामग्री जोड़ना"
-"url": "/hi/java/document-manipulation/adding-content-using-documentbuilder/"
-"weight": 26
+date: 2026-01-01
+description: Aspose.Words for Java DocumentBuilder का उपयोग करके फ़ॉर्म फ़ील्ड बनाना
+  और टेक्स्ट, टेबल, इमेज, हाइपरलिंक आदि जोड़ना सीखें। डेवलपर्स के लिए चरण-दर-चरण गाइड।
+linktitle: Adding Content using DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java में DocumentBuilder का उपयोग करके फ़ॉर्म फ़ील्ड कैसे
+  बनाएं और सामग्री जोड़ें
+url: /hi/java/document-manipulation/adding-content-using-documentbuilder/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,185 +16,195 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java के लिए Aspose.Words में DocumentBuilder का उपयोग करके सामग्री जोड़ना
-
+# Aspose.Words for Java में DocumentBuilder का उपयोग करके सामग्री जोड़ना
 
 ## Aspose.Words for Java में DocumentBuilder का उपयोग करके सामग्री जोड़ने का परिचय
 
-इस चरण-दर-चरण मार्गदर्शिका में, हम यह पता लगाएंगे कि Word दस्तावेज़ में विभिन्न प्रकार की सामग्री जोड़ने के लिए Aspose.Words for Java के DocumentBuilder का उपयोग कैसे करें। हम टेक्स्ट, टेबल, क्षैतिज नियम, फ़ॉर्म फ़ील्ड, HTML, हाइपरलिंक, सामग्री की तालिका, इनलाइन और फ़्लोटिंग इमेज, पैराग्राफ़ और बहुत कुछ सम्मिलित करना कवर करेंगे। चलिए शुरू करते हैं!
+इस चरण‑दर‑चरण गाइड में, आप **फ़ॉर्म फ़ील्ड्स** बनाएँगे और Aspose.Words for Java के साथ एक Word दस्तावेज़ में विभिन्न प्रकार की सामग्री—टेक्स्ट, टेबल, क्षैतिज रूल, HTML, हाइपरलिंक, इमेज़ और अधिक—जोड़ेंगे। चाहे आप रिपोर्ट, कॉन्ट्रैक्ट टेम्पलेट, या इंटरैक्टिव फ़ॉर्म बना रहे हों, `DocumentBuilder` क्लास आपको हर तत्व पर सूक्ष्म नियंत्रण देती है। चलिए शुरू करते हैं!
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **फ़ॉर्म फ़ील्ड्स कैसे बनाएं?** `DocumentBuilder` पर `insertTextInput`, `insertCheckBox`, या `insertComboBox` का उपयोग करें।
+- **साधारण टेक्स्ट जोड़ने की विधि कौन सी है?** `builder.write("Your text")` या `builder.writeln("Your text")` कॉल करें।
+- **क्या मैं क्षैतिज रूल डाल सकता हूँ?** हाँ—`builder.insertHorizontalRule()` एक लाइन सेपरेटर जोड़ता है।
+- **HTML कैसे एम्बेड करें?** `builder.insertHtml("<p>HTML content</p>")` का उपयोग करें।
+- **इनलाइन इमेज़ कैसे जोड़ें?** `builder.insertImage("path/to/image.png")` इमेज़ को टेक्स्ट प्रवाह में रखता है।
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java लाइब्रेरी सेट अप है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/words/java/).
+## `DocumentBuilder` क्या है और फ़ॉर्म फ़ील्ड्स बनाने के लिए इसका उपयोग क्यों करें?
 
-## पाठ जोड़ना
+`DocumentBuilder` Aspose.Words का फ्लुएंट API है जो प्रोग्रामेटिक रूप से Word दस्तावेज़ों को बनाने और संपादित करने के लिए उपयोग होता है। यह लो‑लेवल OpenXML संरचना को एब्स्ट्रैक्ट करता है, जिससे आप *क्या* जोड़ना चाहते हैं—जैसे **फ़ॉर्म फ़ील्ड्स**—पर ध्यान केंद्रित कर सकते हैं, न कि *XML कैसे दिखता है*। यह डायनामिक फ़ॉर्म, कॉन्ट्रैक्ट या किसी भी दस्तावेज़ के लिए आदर्श है जिसे उपयोगकर्ता इंटरैक्शन की आवश्यकता होती है।
+
+## पूर्वापेक्षाएँ
+
+शुरू करने से पहले, सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Words for Java लाइब्रेरी स्थापित है। आप इसे [यहाँ](https://releases.aspose.com/words/java/) से डाउनलोड कर सकते हैं।
+
+## टेक्स्ट जोड़ना (टेक्स्ट कैसे जोड़ें)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// एक सरल पाठ पैराग्राफ डालें
+// Insert a simple text paragraph
 builder.write("This is a simple text paragraph.");
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## तालिकाएँ जोड़ना
+## टेबल जोड़ना
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// तालिका प्रारंभ करें
+// Start a table
 Table table = builder.startTable();
 
-// कक्ष और सामग्री सम्मिलित करें
+// Insert cells and content
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// तालिका समाप्त करें
+// End the table
 builder.endTable();
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## क्षैतिज नियम जोड़ना
+## क्षैतिज रूल जोड़ना (होरिज़ॉन्टल रूल जोड़ें)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// क्षैतिज नियम डालें
+// Insert a horizontal rule
 builder.insertHorizontalRule();
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## फॉर्म फ़ील्ड जोड़ना
+## फ़ॉर्म फ़ील्ड्स जोड़ना (फ़ॉर्म फ़ील्ड्स बनाएं)
 
-### टेक्स्ट इनपुट फॉर्म फ़ील्ड
+### टेक्स्ट इनपुट फ़ॉर्म फ़ील्ड
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// टेक्स्ट इनपुट फ़ॉर्म फ़ील्ड डालें
+// Insert a text input form field
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### चेक बॉक्स फॉर्म फ़ील्ड
+### चेक बॉक्स फ़ॉर्म फ़ील्ड
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// चेक बॉक्स फ़ॉर्म फ़ील्ड डालें
+// Insert a check box form field
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### कॉम्बो बॉक्स फॉर्म फ़ील्ड
+### कॉम्बो बॉक्स फ़ॉर्म फ़ील्ड
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// कॉम्बो बॉक्स के लिए आइटम परिभाषित करें
+// Define items for the combo box
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// कॉम्बो बॉक्स फॉर्म फ़ील्ड डालें
+// Insert a combo box form field
 builder.insertComboBox("DropDown", items, 0);
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## HTML जोड़ना
+## HTML जोड़ना (HTML इन्सर्ट शब्द)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// HTML सामग्री डालें
+// Insert HTML content
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## हाइपरलिंक जोड़ना
+## हाइपरलिंक जोड़ना (हाइपरलिंक कैसे जोड़ें)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// हाइपरलिंक डालें
+// Insert a hyperlink
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", गलत);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## विषय-सूची जोड़ना
+## सामग्री तालिका (Table of Contents) जोड़ना
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// विषय सूची डालें
+// Insert a table of contents
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// दस्तावेज़ सामग्री जोड़ें
+// Add document content
 // ...
 
-// विषय-सूची को अद्यतन करें
+// Update the table of contents
 doc.updateFields();
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## छवियाँ जोड़ना
+## इमेज़ जोड़ना
 
-### इनलाइन छवि
+### इनलाइन इमेज़ (इनलाइन इमेज़ इन्सर्ट करें)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// इनलाइन छवि डालें
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### तैरती हुई छवि
+### फ़्लोटिंग इमेज़
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// एक फ़्लोटिंग छवि डालें
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -201,7 +214,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// पैराग्राफ़ फ़ॉर्मेटिंग सेट करें
+// Set paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -214,92 +227,91 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// एक पैराग्राफ डालें
+// Insert a paragraph
 builder.writeln("This is a formatted paragraph.");
 
-// दस्तावेज़ सहेजें
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## चरण 10: कर्सर को ले जाना
+## कर्सर को मूव करना (स्टेप 10)
 
-आप विभिन्न तरीकों का उपयोग करके दस्तावेज़ के भीतर कर्सर की स्थिति को नियंत्रित कर सकते हैं जैसे `moveToParagraph`, `moveToCell`, और भी बहुत कुछ। यहाँ एक उदाहरण है:
+आप `moveToParagraph`, `moveToCell` आदि जैसी मेथड्स का उपयोग करके दस्तावेज़ में कर्सर की स्थिति को नियंत्रित कर सकते हैं।
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// कर्सर को किसी विशिष्ट पैराग्राफ़ पर ले जाएँ
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// नए कर्सर स्थान पर सामग्री जोड़ें
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-ये कुछ सामान्य ऑपरेशन हैं जिन्हें आप Aspose.Words for Java के DocumentBuilder का उपयोग करके कर सकते हैं। अधिक उन्नत सुविधाओं और अनुकूलन विकल्पों के लिए लाइब्रेरी के दस्तावेज़ देखें। दस्तावेज़ निर्माण की शुभकामनाएँ!
-
+ये कुछ सामान्य ऑपरेशन्स हैं जिन्हें आप Aspose.Words for Java के `DocumentBuilder` का उपयोग करके कर सकते हैं। अधिक उन्नत फीचर्स और कस्टमाइज़ेशन विकल्पों के लिए लाइब्रेरी की डॉक्यूमेंटेशन देखें। दस्तावेज़ निर्माण का आनंद लें!
 
 ## निष्कर्ष
 
-इस विस्तृत गाइड में, हमने Word दस्तावेज़ों में विभिन्न प्रकार की सामग्री जोड़ने के लिए Aspose.Words for Java के DocumentBuilder की क्षमताओं का पता लगाया है। हमने टेक्स्ट, टेबल, क्षैतिज नियम, फ़ॉर्म फ़ील्ड, HTML, हाइपरलिंक, सामग्री की तालिका, छवियाँ, पैराग्राफ़ और कर्सर मूवमेंट को कवर किया है।
+इस व्यापक गाइड में, हमने दिखाया है कि कैसे **फ़ॉर्म फ़ील्ड्स** बनाएँ और विभिन्न प्रकार की सामग्री—टेक्स्ट, टेबल, क्षैतिज रूल, HTML, हाइपरलिंक, सामग्री तालिका, इमेज़, फ़ॉर्मेटेड पैराग्राफ, और कर्सर नेविगेशन—Aspose.Words for Java के `DocumentBuilder` का उपयोग करके जोड़ें। अब आपके पास प्रोग्रामेटिक रूप से डायनामिक, इंटरैक्टिव Word दस्तावेज़ बनाने की ठोस नींव है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### प्रश्न: Java के लिए Aspose.Words क्या है?
+### Q: Aspose.Words for Java क्या है?
 
-उत्तर: Aspose.Words for Java एक जावा लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Microsoft Word दस्तावेज़ बनाने, संशोधित करने और हेरफेर करने की अनुमति देती है। यह दस्तावेज़ निर्माण, स्वरूपण और सामग्री प्रविष्टि के लिए कई प्रकार की सुविधाएँ प्रदान करता है।
+A: Aspose.Words for Java एक Java लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Microsoft Word दस्तावेज़ बनाने, संशोधित करने और मैनिपुलेट करने की सुविधा देती है। यह दस्तावेज़ जनरेशन, फ़ॉर्मेटिंग और कंटेंट इन्सर्शन के लिए विस्तृत फीचर्स प्रदान करती है।
 
-### प्रश्न: मैं अपने दस्तावेज़ में विषय-सूची कैसे जोड़ सकता हूँ?
+### Q: मैं अपने दस्तावेज़ में सामग्री तालिका कैसे जोड़ सकता हूँ?
 
-उत्तर: विषय सूची जोड़ने के लिए, का उपयोग करें `DocumentBuilder` अपने दस्तावेज़ में विषय-सूची फ़ील्ड सम्मिलित करने के लिए। विषय-सूची को भरने के लिए विषय-सूची जोड़ने के बाद दस्तावेज़ में फ़ील्ड को अपडेट करना सुनिश्चित करें। यहाँ एक उदाहरण दिया गया है:
+A: सामग्री तालिका जोड़ने के लिए, `DocumentBuilder` का उपयोग करके एक TOC फ़ील्ड इन्सर्ट करें और अपनी सामग्री जोड़ने के बाद `doc.updateFields()` कॉल करें।
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// विषय-सूची फ़ील्ड सम्मिलित करें
+// Insert a table of contents field
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// दस्तावेज़ सामग्री जोड़ें
+// Add document content
 // ...
 
-// विषय-सूची को अद्यतन करें
+// Update the table of contents
 doc.updateFields();
 ```
 
-### प्रश्न: मैं Java के लिए Aspose.Words का उपयोग करके दस्तावेज़ में छवियाँ कैसे सम्मिलित करूँ?
+### Q: Aspose.Words for Java का उपयोग करके दस्तावेज़ में इमेज़ कैसे इन्सर्ट करें?
 
-उत्तर: आप इनलाइन और फ्लोटिंग दोनों तरह की छवियों को सम्मिलित कर सकते हैं। `DocumentBuilder`यहां दोनों के उदाहरण दिए गए हैं:
+A: आप `DocumentBuilder` का उपयोग करके इमेज़, इनलाइन और फ़्लोटिंग दोनों, इन्सर्ट कर सकते हैं।
 
-#### इनलाइन छवि:
+#### इनलाइन इमेज़:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// इनलाइन छवि डालें
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 ```
 
-#### अस्थायी छवि:
+#### फ़्लोटिंग इमेज़:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// एक फ़्लोटिंग छवि डालें
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### प्रश्न: क्या मैं सामग्री जोड़ते समय पाठ और पैराग्राफ को प्रारूपित कर सकता हूँ?
+### Q: क्या मैं सामग्री जोड़ते समय टेक्स्ट और पैराग्राफ को फ़ॉर्मेट कर सकता हूँ?
 
-उत्तर: हां, आप इसका उपयोग करके पाठ और पैराग्राफ को प्रारूपित कर सकते हैं `DocumentBuilder`. आप फ़ॉन्ट गुण, पैराग्राफ़ संरेखण, इंडेंटेशन और बहुत कुछ सेट कर सकते हैं। यहाँ एक उदाहरण दिया गया है:
+A: हाँ, आप `DocumentBuilder` का उपयोग करके टेक्स्ट और पैराग्राफ को फ़ॉर्मेट कर सकते हैं। कंटेंट लिखने से पहले फ़ॉन्ट प्रॉपर्टीज़, पैराग्राफ अलाइनमेंट, इंडेंटेशन आदि सेट करें।
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// फ़ॉन्ट और पैराग्राफ़ फ़ॉर्मेटिंग सेट करें
+// Set font and paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -312,34 +324,35 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// एक प्रारूपित पैराग्राफ़ डालें
+// Insert a formatted paragraph
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### प्रश्न: मैं दस्तावेज़ के भीतर कर्सर को किसी विशिष्ट स्थान पर कैसे ले जा सकता हूँ?
+### Q: मैं दस्तावेज़ में किसी विशिष्ट स्थान पर कर्सर कैसे ले जा सकता हूँ?
 
-उत्तर: आप निम्न विधियों का उपयोग करके कर्सर की स्थिति को नियंत्रित कर सकते हैं `moveToParagraph`, `moveToCell`, और भी बहुत कुछ। यहाँ एक उदाहरण है:
+A: नई सामग्री इन्सर्ट करने से पहले कर्सर को पोजिशन करने के लिए `moveToParagraph`, `moveToCell` आदि मेथड्स का उपयोग करें।
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// कर्सर को किसी विशिष्ट पैराग्राफ़ पर ले जाएँ
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// नए कर्सर स्थान पर सामग्री जोड़ें
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-ये कुछ सामान्य प्रश्न और उत्तर हैं जो आपको Aspose.Words for Java के DocumentBuilder के साथ आरंभ करने में सहायता करेंगे। यदि आपके पास और प्रश्न हैं या आपको और सहायता की आवश्यकता है, तो देखें [पुस्तकालय का दस्तावेज़ीकरण](https://reference.aspose.com/words/java/) या Aspose.Words समुदाय और समर्थन संसाधनों से मदद लें।
+ये उत्तर Aspose.Words for Java के `DocumentBuilder` के साथ काम करते समय सबसे सामान्य परिदृश्यों को कवर करते हैं। अधिक विस्तृत जानकारी के लिए [लाइब्रेरी की डॉक्यूमेंटेशन](https://reference.aspose.com/words/java/) देखें या समर्थन के लिए Aspose.Words समुदाय में शामिल हों।
 
+**अंतिम अपडेट:** 2026-01-01  
+**परीक्षित संस्करण:** Aspose.Words for Java 24.12  
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

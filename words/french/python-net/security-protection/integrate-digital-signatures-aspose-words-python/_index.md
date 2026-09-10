@@ -5,7 +5,9 @@
 "url": "/fr/python-net/security-protection/integrate-digital-signatures-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Comment intégrer des signatures numériques dans des documents avec Aspose.Words pour Python
 
 ## Introduction
@@ -184,3 +186,7 @@ Pour explorer davantage les capacités d'Aspose.Words, envisagez de plonger plus
 - **Soutien:** [Forum d'assistance Aspose](https://forum.aspose.com/c/words/10)
 
 Prêt à intégrer des signatures numériques à vos documents ? Essayez ces étapes dès aujourd'hui et découvrez la sécurité et l'efficacité accrues d'Aspose.Words en Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

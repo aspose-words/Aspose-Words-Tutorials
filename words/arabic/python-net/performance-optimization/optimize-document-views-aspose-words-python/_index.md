@@ -5,7 +5,9 @@
 "url": "/ar/python-net/performance-optimization/optimize-document-views-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # تحسين عرض المستندات باستخدام Aspose.Words في Python
 
 ## الأداء والتحسين
@@ -234,3 +236,7 @@ set_forms_design_mode(True)
 
 ## خاتمة
 باتباع هذا الدليل، يمكنك الاستفادة من Aspose.Words لبايثون لتخصيص عروض المستندات بفعالية. هذا لا يُحسّن تجربة المستخدم فحسب، بل يوفر أيضًا مرونة في كيفية عرض المستندات عبر منصات مختلفة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/ko/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python에서 Aspose.Words를 사용하여 문서 변수를 관리하는 방법: 완전 가이드
 
 ## 소개
@@ -161,3 +163,7 @@ Aspose.Words를 사용하려면 다음 단계를 따르세요.
 - [Aspose 지원 포럼](https://forum.aspose.com/c/words/10)
 
 다음 자료를 살펴보고 Python에서 Aspose.Words에 대한 이해와 구현을 더욱 강화해 보세요. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

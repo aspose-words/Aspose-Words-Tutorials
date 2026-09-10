@@ -4,7 +4,9 @@
 "url": "/sv/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Handledningar för bilder och former för Aspose.Words Python-net
 
 Utforska omfattande steg-för-steg-guider för bild- och formoperationer med Aspose.Words för Python-net. Dessa handledningar innehåller kompletta kodexempel och detaljerade förklaringar.
@@ -32,6 +34,9 @@ Lär dig hur du optimerar bildhanteringen i RTF-dokument med Aspose.Words för P
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Lär dig hur du optimerar SVG-utdata med Aspose.Words för Python. Den här guiden behandlar anpassade funktioner som bildliknande egenskaper, textrendering och säkerhetsförbättringar.
 
+### [Hur man lägger till skugga i C# – Komplett programmeringsguide](./how-to-add-shadow-in-c-complete-programming-guide/)
+Lär dig steg för steg hur du applicerar skuggor på objekt i C# med Aspose.Words.
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Python-net-dokumentation](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Lär dig hur du optimerar SVG-utdata med Aspose.Words för Python. Den här guid
 - [Aspose.Words Forum](https://forum.aspose.com/c/words/8)
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

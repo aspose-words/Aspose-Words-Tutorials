@@ -1,0 +1,7 @@
+Title: docx to pdf tutorial: Convert Word files with Aspose in Java
+Slug: docx-to-pdf-tutorial-convert-word-files-with-aspose-in-java
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-27T15:22:33.788351
+SourceRepo: AI Search API
+Keywords: docx to pdf tutorial, convert word to pdf, convert docx to html, how to convert docx, how to use aspose
+PRNumber: 214

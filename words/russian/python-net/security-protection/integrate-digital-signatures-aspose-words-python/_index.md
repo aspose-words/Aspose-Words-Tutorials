@@ -5,7 +5,9 @@
 "url": "/ru/python-net/security-protection/integrate-digital-signatures-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Как интегрировать цифровые подписи в документы с помощью Aspose.Words для Python
 
 ## Введение
@@ -184,3 +186,7 @@ signature_line_object = signature_line_example.insert_signature_line(document_pa
 - **Поддерживать:** [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Готовы начать интеграцию цифровых подписей в ваши документы? Попробуйте реализовать эти шаги сегодня и ощутите повышенную безопасность и эффективность Aspose.Words на Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

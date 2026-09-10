@@ -4,7 +4,9 @@
 "url": "/es/python-net/headers-footers-page-setup/"
 "weight": 8
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriales de encabezados, pies de página y configuración de página para Aspose.Words Python-net
 
 Explora guías paso a paso completas para encabezados, pies de página y configuración de páginas con Aspose.Words para Python-net. Estos tutoriales incluyen ejemplos de código completos y explicaciones detalladas.
@@ -36,3 +38,7 @@ Un tutorial de código para Aspose.Words Python-net
 - [Foro de Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Soporte gratuito](https://forum.aspose.com/)
 - [Licencia temporal](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

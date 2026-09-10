@@ -5,7 +5,9 @@
 "url": "/hu/python-net/document-operations/python-docx-to-xaml-aspose-tutorial/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # DOCX konvertálása fix formátumú XAML-lé Pythonban az Aspose.Words használatával: Átfogó útmutató
 
 ## Bevezetés
@@ -156,3 +158,7 @@ Megvizsgáltuk a Word (DOCX) fájlok rögzített formátumú XAML formátumba ko
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

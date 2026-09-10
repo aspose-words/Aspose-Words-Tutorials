@@ -4,7 +4,9 @@
 "url": "/it/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial sulle operazioni sui documenti per Aspose.Words Python-net
 
 Esplora guide complete e dettagliate per le operazioni sui documenti utilizzando Aspose.Words per Python-net. Questi tutorial includono esempi di codice completi e spiegazioni dettagliate.
@@ -55,6 +57,9 @@ Un tutorial sul codice per Aspose.Words Python-net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Scopri come convertire i documenti Word in formato PostScript utilizzando Aspose.Words per Python. Questa guida illustra le opzioni di configurazione, conversione e stampa con piega a libro.
 
+### [Recupera DOCX Corrotti – Apri e Carica Documenti Word](./recover-corrupted-docx-open-load-word-document/)
+Scopri come aprire e caricare documenti Word DOCX corrotti con Aspose.Words per Python-net.
+
 ## Risorse aggiuntive
 
 - [Aspose.Words per la documentazione di Python-net](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@ Scopri come convertire i documenti Word in formato PostScript utilizzando Aspose
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

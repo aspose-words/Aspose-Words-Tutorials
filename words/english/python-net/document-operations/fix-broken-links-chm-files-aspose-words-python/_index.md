@@ -10,7 +10,9 @@ keywords:
 - CHM file link optimization
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # How to Fix Broken Links in CHM Files Using Aspose.Words for Python
 
 ## Introduction
@@ -150,3 +152,7 @@ For further assistance and exploration:
 - **Download**: [Aspose.Words for Python Releases](https://releases.aspose.com/words/python/)
 - **Purchase & Trial**: [Acquire a License or Free Trial](https://purchase.aspose.com/buy)
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

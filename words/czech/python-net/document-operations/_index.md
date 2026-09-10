@@ -4,7 +4,9 @@
 "url": "/cs/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriály pro operace s dokumenty pro Aspose.Words Python-net
 
 Prozkoumejte komplexní podrobné návody pro operace s dokumenty pomocí Aspose.Words pro Python-net. Tyto návody obsahují kompletní příklady kódu a podrobná vysvětlení.
@@ -55,6 +57,9 @@ Výukový program pro Aspose.Words v Pythonu.net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Naučte se, jak převádět dokumenty Wordu do formátu PostScript pomocí Aspose.Words pro Python. Tato příručka popisuje nastavení, převod a možnosti tisku skládaného textu.
 
+### [Obnova poškozeného DOCX – Otevření a načtení Word dokumentu](./recover-corrupted-docx-open-load-word-document/)
+Naučte se, jak načíst a opravit poškozené soubory DOCX pomocí Aspose.Words pro Python-net.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Python-net](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@ Naučte se, jak převádět dokumenty Wordu do formátu PostScript pomocí Aspos
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

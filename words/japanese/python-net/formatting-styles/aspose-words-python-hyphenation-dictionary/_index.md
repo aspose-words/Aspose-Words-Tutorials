@@ -5,7 +5,9 @@
 "url": "/ja/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words for Python をマスターする: ハイフネーション辞書の登録と登録解除
 
 ## 導入
@@ -173,3 +175,7 @@ A: 現在、ロケール識別子を使用して各辞書を個別に登録解�
 - **購入：** [Aspose.Wordsライセンスを購入](https://purchase.aspose.com/buy)
 - **無料トライアル:** [無料トライアルから始める](https://releases.aspose.com/words/python/)
 - **一時ライセンス:** [一時ライセンスの申請](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

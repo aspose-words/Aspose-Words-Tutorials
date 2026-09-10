@@ -5,7 +5,9 @@
 "url": "/cs/python-net/integration-interoperability/master-odt-schema-units-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Zvládnutí schématu a jednotek ODT s Aspose.Words v Pythonu
 
 ## Zavedení
@@ -165,3 +167,7 @@ Zvládnutím nastavení schématu ODT a konfigurace měrných jednotek pomocí A
 - **Bezplatná zkušební verze**Začněte s bezplatnou zkušební verzí na [Stahování Aspose pro Python](https://releases.aspose.com/words/python/)
 - **Dočasná licence**Přihlaste se zde: [Dočasná licence Aspose](https://purchase.aspose.com/temporary-license/)
 - **Podpora**Zapojte se do diskuse na [Fórum Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

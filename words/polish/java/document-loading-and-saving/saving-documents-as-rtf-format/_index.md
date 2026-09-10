@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak zapisywać dokumenty w formacie RTF za pomocą Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym do wydajnej konwersji dokumentów."
-"linktitle": "Zapisywanie dokumentów w formacie RTF"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Zapisywanie dokumentów w formacie RTF w Aspose.Words dla Java"
-"url": "/pl/java/document-loading-and-saving/saving-documents-as-rtf-format/"
-"weight": 23
+date: 2025-12-24
+description: Dowiedz się, jak konwertować dokumenty Word na RTF przy użyciu Aspose.Words
+  for Java. Ten krok‑po‑kroku poradnik pokazuje, jak wczytać plik DOCX, skonfigurować
+  opcje zapisu RTF i zapisać jako tekst sformatowany.
+linktitle: Saving Documents as RTF Format
+second_title: Aspose.Words Java Document Processing API
+title: Konwertuj Word na RTF z samouczkiem Aspose.Words dla Javy
+url: /pl/java/document-loading-and-saving/saving-documents-as-rtf-format/
+weight: 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,63 +16,68 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisywanie dokumentów w formacie RTF w Aspose.Words dla Java
+# Konwertuj Word do RTF przy użyciu Aspose.Words for Java
 
+W tym samouczku nauczysz się **jak konwertować Word do RTF** szybko i niezawodnie przy użyciu Aspose.Words for Java. Konwersja DOCX do formatu RTF (rich‑text) jest powszechnym wymaganiem, gdy potrzebna jest szeroka kompatybilność z starszymi edytorami tekstu, klientami poczty elektronicznej lub systemami archiwizacji dokumentów. Przeprowadzimy Cię przez ładowanie dokumentu Word w Javie, dostosowywanie opcji zapisu RTF (w tym zapisywanie obrazów jako WMF) oraz ostateczne zapisanie pliku wyjściowego.
 
-## Wprowadzenie do zapisywania dokumentów w formacie RTF w Aspose.Words dla Java
+## Szybkie odpowiedzi
+- **Co oznacza „convert word to rtf”?** Przekształca plik DOCX/Word do formatu Rich Text Format, zachowując tekst, style i opcjonalnie obrazy.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Jaką wersję Javy obsługuje?** Aspose.Words for Java obsługuje Javę 8 i wyższą.  
+- **Czy mogę zachować obrazy przy konwersji?** Tak – użyj opcji `saveImagesAsWmf`, aby osadzić obrazy jako WMF w RTF.  
+- **Jak długo trwa konwersja?** Zazwyczaj poniżej sekundy dla standardowych dokumentów; większe pliki mogą zająć kilka sekund.
 
-W tym przewodniku przeprowadzimy Cię przez proces zapisywania dokumentów jako RTF (Rich Text Format) przy użyciu Aspose.Words for Java. RTF to powszechnie używany format dokumentów, który zapewnia wysoki poziom zgodności w różnych aplikacjach do przetwarzania tekstu.
+## Co to jest „convert word to rtf”?
+Konwersja dokumentu Word do RTF tworzy plik niezależny od platformy, który przechowuje tekst, formatowanie i opcjonalnie obrazy w oparciu o znacznik w formacie czystego tekstu. Dzięki temu dokument można wyświetlić w prawie każdym edytorze tekstu bez utraty układu.
+
+## Dlaczego używać Aspose.Words for Java do zapisu jako rich text?
+- **Pełna wierność** – Wszystkie funkcje Word (style, tabele, nagłówki/stopki) są zachowane.  
+- **Brak wymogu Microsoft Office** – Działa na dowolnym serwerze lub w środowisku chmurowym.  
+- **Precyzyjna kontrola** – Opcje zapisu pozwalają określić, jak przechowywane są obrazy, jakiego kodowania używać i wiele innych.
 
 ## Wymagania wstępne
+1. **Biblioteka Aspose.Words for Java** – Pobierz i dodaj plik JAR do swojego projektu z [tutaj](https://releases.aspose.com/words/java/).  
+2. **Plik źródłowy Word** – Na przykład `Document.docx`, który chcesz zapisać jako RTF.  
+3. **Środowisko programistyczne Java** – JDK 8+ oraz ulubione IDE.
 
-Zanim zaczniesz, upewnij się, że spełnione są następujące wymagania wstępne:
-
-1. Aspose.Words for Java Library: Upewnij się, że biblioteka Aspose.Words for Java jest zintegrowana z projektem Java. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
-
-2. Dokument do zapisania: Powinieneś mieć istniejący dokument Word (np. „Dokument.docx”), który chcesz zapisać w formacie RTF.
-
-## Krok 1: Ładowanie dokumentu
-
-Aby rozpocząć, musisz załadować dokument, który chcesz zapisać jako RTF. Oto, jak możesz to zrobić:
+## Krok 1: Załaduj dokument Word (load word document java)
+Najpierw załaduj istniejący plik DOCX do obiektu `Document`. To podstawa każdej konwersji.
 
 ```java
 import com.aspose.words.Document;
 
-// Załaduj dokument źródłowy (np. Document.docx)
+// Load the source document (e.g., Document.docx)
 Document doc = new Document("path/to/Document.docx");
 ```
 
-Pamiętaj o wymianie `"path/to/Document.docx"` z rzeczywistą ścieżką do dokumentu źródłowego.
+> **Wskazówka:** Używaj ścieżek bezwzędnych lub zasobów z class‑path, aby uniknąć `FileNotFoundException`.
 
-## Krok 2: Konfigurowanie opcji zapisu RTF
-
-Aspose.Words udostępnia różne opcje konfiguracji wyjścia RTF. W tym przykładzie użyjemy `RtfSaveOptions` i ustaw opcję zapisywania obrazów w formacie WMF (Windows Metafile) w dokumencie RTF.
+## Krok 2: Skonfiguruj opcje zapisu RTF (save images as wmf)
+Aspose.Words udostępnia klasę `RtfSaveOptions`, aby precyzyjnie dostroić wynik. W tym przykładzie włączamy **zapis obrazów jako WMF**, co jest preferowanym formatem dla plików RTF.
 
 ```java
 import com.aspose.words.RtfSaveOptions;
 
-// Utwórz instancję RtfSaveOptions
+// Create an instance of RtfSaveOptions
 RtfSaveOptions saveOptions = new RtfSaveOptions();
 
-// Ustaw opcję zapisywania obrazów jako WMF
+// Set the option to save images as WMF
 saveOptions.setSaveImagesAsWmf(true);
 ```
 
-Możesz również dostosować inne opcje zapisu według swoich potrzeb.
+Możesz także dostosować inne ustawienia, np. `saveOptions.setEncoding(Charset.forName("UTF-8"))`, jeśli potrzebujesz określonego kodowania znaków.
 
-## Krok 3: Zapisywanie dokumentu jako RTF
-
-Teraz, gdy załadowaliśmy dokument i skonfigurowaliśmy opcje zapisu w formacie RTF, czas zapisać dokument w formacie RTF.
+## Krok 3: Zapisz dokument jako RTF (save docx as rtf)
+Teraz zapisz dokument przy użyciu skonfigurowanych opcji. Ten krok **zapisuje DOCX jako RTF**, tworząc plik rich‑text gotowy do dystrybucji.
 
 ```java
-// Zapisz dokument w formacie RTF
+// Save the document in RTF format
 
 doc.save("path/to/output.rtf", saveOptions);
 ```
 
-Zastępować `"path/to/output.rtf"` z żądaną ścieżką i nazwą pliku wyjściowego RTF.
-
-## Kompletny kod źródłowy do zapisywania dokumentów w formacie RTF w Aspose.Words dla Java
+## Pełny kod źródłowy konwertujący Word do RTF
+Poniżej znajduje się zwarta wersja, którą możesz skopiować i wkleić do klasy Java. Demonstracja **zapisu jako rich text** z opcją obrazu WMF w jednym bloku.
 
 ```java
 Document doc = new Document("Your Directory Path" + "Document.docx");
@@ -77,35 +85,43 @@ RtfSaveOptions saveOptions = new RtfSaveOptions(); { saveOptions.setSaveImagesAs
 doc.save("Your Directory Path" + "WorkingWithRtfSaveOptions.SavingImagesAsWmf.rtf", saveOptions);
 ```
 
-## Wniosek
-
-W tym przewodniku pokazaliśmy, jak zapisywać dokumenty w formacie RTF za pomocą Aspose.Words for Java. Postępując zgodnie z tymi krokami i konfigurując opcje zapisywania, możesz skutecznie przekonwertować dokumenty Word do formatu RTF z łatwością.
+## Typowe pułapki i rozwiązywanie problemów
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| Output RTF is blank | Source file not found or not loaded | Verify the path in `new Document(...)` |
+| Images missing | `saveImagesAsWmf` set to `false` | Enable `saveOptions.setSaveImagesAsWmf(true)` |
+| Garbled characters | Wrong encoding | Set `saveOptions.setEncoding(Charset.forName("UTF-8"))` |
 
 ## Najczęściej zadawane pytania
 
-### Jak zmienić inne opcje zapisu RTF?
+**Q: Jak zmienić inne opcje zapisu RTF?**  
+A: Użyj klasy `RtfSaveOptions` – udostępnia ona właściwości dla kompresji, czcionek i innych. Zapoznaj się z dokumentacją Aspose.Words Java API, aby zobaczyć pełną listę.
 
-Możesz modyfikować różne opcje zapisu RTF za pomocą `RtfSaveOptions` klasa. Zapoznaj się z dokumentacją Aspose.Words for Java, aby uzyskać pełną listę dostępnych opcji.
+**Q: Czy mogę zapisać dokument RTF w innym kodowaniu?**  
+A: Tak. Wywołaj `saveOptions.setEncoding(Charset.forName("UTF-8"))` (lub dowolny obsługiwany zestaw znaków) przed zapisem.
 
-### Czy mogę zapisać dokument RTF w innym kodowaniu?
+**Q: Czy można zapisać dokument RTF bez obrazów?**  
+A: Oczywiście. Ustaw `saveOptions.setSaveImagesAsWmf(false)`, aby pominąć obrazy w wyniku.
 
-Tak, możesz określić kodowanie dokumentu RTF za pomocą `saveOptions.setEncoding(Charset.forName("UTF-8"))`na przykład, aby zapisać go w kodowaniu UTF-8.
+**Q: Jak obsługiwać wyjątki podczas konwersji?**  
+A: Otocz wywołania ładowania i zapisu w blok try‑catch przechwytujący `Exception`. Zaloguj błąd i opcjonalnie ponownie rzuć własny wyjątek w aplikacji.
 
-### Czy można zapisać dokument RTF bez obrazków?
+**Q: Czy to działa dla plików Word chronionych hasłem?**  
+A: Załaduj dokument przy użyciu obiektu `LoadOptions`, który zawiera hasło, a następnie kontynuuj te same kroki zapisu.
 
-Oczywiście. Możesz wyłączyć zapisywanie obrazu, używając `saveOptions.setSaveImagesAsWmf(false)`.
+## Podsumowanie
+Masz teraz kompletną, gotową do produkcji metodę **konwersji Word do RTF** przy użyciu Aspose.Words for Java. Ładując DOCX, konfigurując `RtfSaveOptions` (w tym **zapis obrazów jako WMF**) i wywołując `doc.save(...)`, możesz generować wysokiej jakości pliki rich‑text, które działają wszędzie. Śmiało eksploruj dodatkowe opcje zapisu, aby dostosować wynik do swoich dokładnych potrzeb.
 
-### Jak mogę obsługiwać wyjątki podczas procesu zapisywania?
+---
 
-Należy rozważyć wdrożenie mechanizmów obsługi błędów, takich jak bloki try-catch, w celu obsługi wyjątków, które mogą wystąpić w trakcie zapisywania dokumentu.
-
+**Ostatnia aktualizacja:** 2025-12-24  
+**Testowano z:** Aspose.Words for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

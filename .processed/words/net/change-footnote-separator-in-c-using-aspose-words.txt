@@ -1,0 +1,7 @@
+Title: Change footnote separator in C# using Aspose.Words
+Slug: change-footnote-separator-in-c-using-aspose-words
+Category: working-with-footnote-and-endnote
+ProcessedDate: 2026-08-04T22:50:24.576232
+SourceRepo: AI Search API
+Keywords: change footnote separator, edit footnote separator, how to change footnote separator, change endnote separator
+PRNumber: 241

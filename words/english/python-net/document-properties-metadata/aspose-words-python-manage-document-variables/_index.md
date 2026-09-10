@@ -10,7 +10,9 @@ keywords:
 - document automation with Aspose.Words
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # How to Manage Document Variables with Aspose.Words in Python: A Complete Guide
 
 ## Introduction
@@ -166,3 +168,7 @@ Why not try implementing these solutions today and see the difference in your wo
 - [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 Explore these resources to further enhance your understanding and implementation of Aspose.Words in Python. Happy coding!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

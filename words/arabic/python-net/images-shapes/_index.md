@@ -4,7 +4,9 @@
 "url": "/ar/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # دروس الصور والأشكال لـ Aspose.Words في Python-net
 
 استكشف أدلةً شاملةً خطوة بخطوة لعمليات الصور والأشكال باستخدام Aspose.Words لـ Python-net. تتضمن هذه الدروس أمثلةً برمجيةً كاملةً وشروحاتٍ مفصلة.
@@ -32,6 +34,9 @@
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 تعرّف على كيفية تحسين مخرجات SVG باستخدام Aspose.Words لـ Python. يغطي هذا الدليل ميزات مخصصة، مثل خصائص الصور، وعرض النصوص، وتحسينات الأمان.
 
+### [كيفية إضافة الظل في C# – دليل برمجة شامل](./how-to-add-shadow-in-c-complete-programming-guide/)
+تعلم كيفية إضافة تأثير الظل إلى عناصر C# باستخدام Aspose.Words خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@
 - [منتدى Aspose.Words](https://forum.aspose.com/c/words/8)
 - [دعم مجاني](https://forum.aspose.com/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

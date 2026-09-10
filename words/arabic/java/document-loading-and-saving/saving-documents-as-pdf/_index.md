@@ -1,10 +1,13 @@
 ---
-"description": "تعرّف على كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words لجافا. خصّص الخطوط والخصائص وجودة الصورة. دليل شامل لتحويل ملفات PDF."
-"linktitle": "حفظ المستندات بتنسيق PDF"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "حفظ المستندات بتنسيق PDF في Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/saving-documents-as-pdf/"
-"weight": 22
+date: 2025-12-24
+description: تعلم كيفية حفظ المستند كملف PDF باستخدام Aspose.Words للغة Java، مع تغطية
+  تحويل Word إلى PDF في Java، تصدير بنية المستند إلى PDF، وخيارات PDF المتقدمة في
+  Aspose.Words.
+linktitle: Saving Documents as PDF
+second_title: Aspose.Words Java Document Processing API
+title: كيفية حفظ المستند بصيغة PDF باستخدام Aspose.Words للـ Java
+url: /ar/java/document-loading-and-saving/saving-documents-as-pdf/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,23 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ المستندات بتنسيق PDF في Aspose.Words لـ Java
+# كيفية حفظ المستند كملف PDF باستخدام Aspose.Words للـ Java
 
+في هذا الدرس الشامل ستكتشف **كيفية حفظ المستند كملف PDF** باستخدام مكتبة Aspose.Words للـ Java القوية. سواءً كنت تبني محرك تقارير، نظام فواتير آلي، أو تحتاج ببساطة إلى أرشفة ملفات Word بصيغة PDF، فإن هذا الدليل يرشّحك خلال كل خطوة—من التحويل الأساسي إلى ضبط مخرجات PDF بدقة باستخدام الخيارات المتقدمة.
 
-## مقدمة لحفظ المستندات بتنسيق PDF في Aspose.Words لـ Java
+## إجابات سريعة
+- **هل يمكن لـ Aspose.Words تحويل Word إلى PDF في Java؟** نعم، بسطر واحد من الشيفرة يمكنك تحويل ملف .docx إلى PDF.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** الترخيص التجاري مطلوب للعمليات غير التجريبية.  
+- **ما إصدارات Java المدعومة؟** Java 8 وما فوق مدعومة بالكامل.  
+- **هل يمكن تضمين الخطوط في PDF؟** بالتأكيد—قم بتعيين `setEmbedFullFonts(true)` في `PdfSaveOptions`.  
+- **هل جودة الصورة قابلة للتعديل؟** نعم، استخدم `setImageCompression` و `setInterpolateImages` للتحكم في الحجم والوضوح.
 
-في هذا الدليل التفصيلي، سنستكشف كيفية حفظ المستندات بتنسيق PDF باستخدام Aspose.Words لجافا. سنغطي جوانب مختلفة من تحويل PDF، ونقدم أمثلة برمجية لتسهيل العملية.
+## ما هو “حفظ المستند كملف PDF”؟
+حفظ المستند كملف PDF يعني تصدير التخطيط البصري، الخطوط، والمحتوى لملف Word إلى صيغة Portable Document Format، وهو نوع ملف يُعرض عالميًا ويحافظ على التنسيق عبر الأنظمة.
 
-## المتطلبات الأساسية
+## لماذا تحويل Word إلى PDF باستخدام Aspose.Words للـ Java؟
+- **دقة عالية:** المخرجات تعكس تخطيط Word الأصلي، بما في ذلك الجداول، رؤوس وتذييلات الصفحات، والرسومات المعقدة.  
+- **لا حاجة إلى Microsoft Office:** يعمل على أي خادم أو بيئة سحابية.  
+- **تخصيص غني:** تحكم في الخطوط، ضغط الصور، بنية المستند، والبيانات الوصفية عبر `PdfSaveOptions`.  
+- **الأداء:** مُحسّن للدفعات الكبيرة والسيناريوهات متعددة الخيوط.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية لديك:
+## المتطلبات المسبقة
+- تثبيت Java Development Kit (JDK).  
+- مكتبة Aspose.Words للـ Java (قم بتحميلها من الموقع الرسمي).  
 
-- تم تثبيت Java Development Kit (JDK) على نظامك.
-- مكتبة Aspose.Words لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
+يمكنك الحصول على المكتبة من المصدر التالي:
+
+- تحميل Aspose.Words للـ Java: [here](https://releases.aspose.com/words/java/)
 
 ## تحويل مستند إلى PDF
 
-لتحويل مستند Word إلى PDF، يمكنك استخدام مقتطف التعليمات البرمجية التالي:
+لتحويل مستند Word إلى PDF، يمكنك استخدام المقتطف البرمجي التالي:
 
 ```java
 Document doc = new Document("input.docx");
@@ -37,11 +54,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 doc.save("output.pdf", saveOptions);
 ```
 
-يستبدل `"input.docx"` مع المسار إلى مستند Word الخاص بك و `"output.pdf"` مع مسار ملف PDF الناتج المطلوب.
+استبدل `"input.docx"` بمسار ملف Word الخاص بك و `"output.pdf"` بمسار ملف PDF الناتج المطلوب.
 
-## التحكم في خيارات حفظ ملف PDF
+## التحكم في خيارات حفظ PDF
 
-يمكنك التحكم في خيارات حفظ ملفات PDF المختلفة باستخدام `PdfSaveOptions` على سبيل المثال، يمكنك تعيين عنوان عرض مستند PDF كما يلي:
+يمكنك التحكم في خيارات حفظ PDF المتنوعة باستخدام الفئة `PdfSaveOptions`. على سبيل المثال، يمكنك تعيين عنوان العرض لمستند PDF كما يلي:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -51,7 +68,7 @@ doc.save("output.pdf", saveOptions);
 
 ## تضمين الخطوط في PDF
 
-لتضمين الخطوط في ملف PDF المُنشأ، استخدم الكود التالي:
+لتضمين الخطوط في ملف PDF المُنشأ، استخدم الشيفرة التالية:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -61,7 +78,7 @@ doc.save("output.pdf", saveOptions);
 
 ## تخصيص خصائص المستند
 
-يمكنك تخصيص خصائص المستند في ملف PDF المُنشأ. على سبيل المثال:
+يمكنك تخصيص خصائص المستند في ملف PDF المُنتج. على سبيل المثال:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -69,9 +86,9 @@ saveOptions.setCustomPropertiesExport(PdfCustomPropertiesExport.STANDARD);
 doc.save("output.pdf", saveOptions);
 ```
 
-## تصدير هيكل المستند
+## تصدير بنية المستند
 
-لتصدير هيكل المستند، قم بتعيين `exportDocumentStructure` خيار ل `true`:
+لتصدير بنية المستند، عيّن الخيار `exportDocumentStructure` إلى `true`:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -81,7 +98,7 @@ doc.save("output.pdf", saveOptions);
 
 ## ضغط الصور
 
-يمكنك التحكم في ضغط الصورة باستخدام الكود التالي:
+يمكنك التحكم في ضغط الصور باستخدام الشيفرة التالية:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -89,9 +106,9 @@ saveOptions.setImageCompression(PdfImageCompression.JPEG);
 doc.save("output.pdf", saveOptions);
 ```
 
-## تحديث آخر خاصية مطبوعة
+## تحديث خاصية “آخر طباعة”
 
-لتحديث خاصية "آخر طباعة" في ملف PDF، استخدم:
+لتحديث خاصية “Last Printed” في PDF، استخدم:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -99,9 +116,9 @@ saveOptions.setUpdateLastPrintedProperty(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-## تقديم تأثيرات DML ثلاثية الأبعاد
+## عرض تأثيرات DML ثلاثية الأبعاد
 
-للحصول على عرض متقدم لتأثيرات DML 3D، اضبط وضع العرض:
+للتصيير المتقدم لتأثيرات DML ثلاثية الأبعاد، عيّن وضع العرض:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -109,9 +126,9 @@ saveOptions.setDml3DEffectsRenderingMode(Dml3DEffectsRenderingMode.ADVANCED);
 doc.save("output.pdf", saveOptions);
 ```
 
-## استيفاء الصور
+## تحسين جودة الصور (Interpolation)
 
-يمكنك تمكين استيفاء الصورة لتحسين جودة الصورة:
+يمكنك تمكين تحسين الصور لرفع جودة الصورة:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -119,15 +136,22 @@ saveOptions.setInterpolateImages(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-## خاتمة
+## حالات الاستخدام الشائعة والنصائح
 
-يوفر Aspose.Words for Java إمكانيات شاملة لتحويل مستندات Word إلى صيغة PDF مع مرونة وخيارات تخصيص متعددة. يمكنك التحكم في جوانب مختلفة من إخراج PDF، بما في ذلك الخطوط وخصائص المستند وضغط الصور وغيرها.
+- **تحويل دفعي:** كرّر العملية على مجلد يحتوي على ملفات `.docx` واستخدم نفس `PdfSaveOptions` للحصول على مخرجات متسقة.  
+- **الأرشفة القانونية:** فعّل `setExportDocumentStructure(true)` لإنشاء ملفات PDF مُوسومة تلبي معايير الوصول.  
+- **نصيحة الأداء:** أعد استخدام كائن `PdfSaveOptions` واحد عند معالجة العديد من المستندات لتقليل عبء إنشاء الكائنات.  
+- **استكشاف الأخطاء:** إذا ظهرت خطوط مفقودة، تأكد من أن ملفات الخطوط المطلوبة متاحة للـ JVM وأن `setEmbedFullFonts(true)` مفعّلة.
 
-## الأسئلة الشائعة
+## الخلاصة
 
-### كيف أقوم بتحويل مستند Word إلى PDF باستخدام Aspose.Words for Java؟
+توفر Aspose.Words للـ Java إمكانيات شاملة لتحويل مستندات Word إلى صيغة PDF مع مرونة وخيارات تخصيص واسعة. يمكنك التحكم في جوانب مختلفة من مخرجات PDF، بما في ذلك الخطوط، خصائص المستند، ضغط الصور، وأكثر، مما يجعلها حلاً قويًا لسيناريوهات **حفظ المستند كملف PDF**.
 
-لتحويل مستند Word إلى PDF، استخدم الكود التالي:
+## الأسئلة المتكررة
+
+### كيف يمكنني تحويل مستند Word إلى PDF باستخدام Aspose.Words للـ Java؟
+
+لتحويل مستند Word إلى PDF، استخدم الشيفرة التالية:
 
 ```java
 Document doc = new Document("input.docx");
@@ -135,11 +159,11 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 doc.save("output.pdf", saveOptions);
 ```
 
-يستبدل `"input.docx"` مع المسار إلى مستند Word الخاص بك و `"output.pdf"` مع مسار ملف PDF الناتج المطلوب.
+استبدل `"input.docx"` بمسار ملف Word الخاص بك و `"output.pdf"` بمسار ملف PDF المطلوب.
 
-### هل يمكنني تضمين الخطوط في ملف PDF الذي تم إنشاؤه بواسطة Aspose.Words لـ Java؟
+### هل يمكنني تضمين الخطوط في PDF الذي تُنشئه Aspose.Words للـ Java؟
 
-نعم، يمكنك تضمين الخطوط في ملف PDF عن طريق ضبط `setEmbedFullFonts` خيار ل `true` في `PdfSaveOptions`. وإليك مثال:
+نعم، يمكنك تضمين الخطوط في PDF عن طريق تعيين خيار `setEmbedFullFonts` إلى `true` في `PdfSaveOptions`. إليك مثالًا:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -147,9 +171,9 @@ saveOptions.setEmbedFullFonts(true);
 doc.save("output.pdf", saveOptions);
 ```
 
-### كيف يمكنني تخصيص خصائص المستند في ملف PDF الناتج؟
+### كيف يمكنني تخصيص خصائص المستند في PDF المُنتج؟
 
-يمكنك تخصيص خصائص المستند في ملف PDF باستخدام `setCustomPropertiesExport` الخيار في `PdfSaveOptions`. على سبيل المثال:
+يمكنك تخصيص خصائص المستند في PDF باستخدام خيار `setCustomPropertiesExport` في `PdfSaveOptions`. على سبيل المثال:
 
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
@@ -157,25 +181,28 @@ saveOptions.setCustomPropertiesExport(PdfCustomPropertiesExport.STANDARD);
 doc.save("output.pdf", saveOptions);
 ```
 
-### ما هو الغرض من ضغط الصور في Aspose.Words لـ Java؟
+### ما هو هدف ضغط الصور في Aspose.Words للـ Java؟
 
-يتيح لك ضغط الصور التحكم في جودة وحجم الصور في ملف PDF المُنشأ. يمكنك ضبط وضع ضغط الصور باستخدام `setImageCompression` في `PdfSaveOptions`.
+ضغط الصور يتيح لك التحكم في جودة وحجم الصور في PDF المُنشأ. يمكنك تعيين وضع ضغط الصورة باستخدام `setImageCompression` في `PdfSaveOptions`.
 
-### كيف أقوم بتحديث خاصية "آخر طباعة" في ملف PDF؟
+### كيف يمكنني تحديث خاصية “Last Printed” في PDF؟
 
-يمكنك تحديث خاصية "آخر طباعة" في ملف PDF عن طريق تعيين `setUpdateLastPrintedProperty` ل `true` في `PdfSaveOptions`سيعكس هذا تاريخ آخر طباعة في بيانات PDF التعريفية.
+يمكنك تحديث خاصية “Last Printed” في PDF عن طريق تعيين `setUpdateLastPrintedProperty` إلى `true` في `PdfSaveOptions`. سيظهر تاريخ الطباعة الأخير في بيانات تعريف PDF.
 
-### كيف يمكنني تحسين جودة الصورة عند تحويلها إلى PDF؟
+### كيف يمكنني تحسين جودة الصورة عند التحويل إلى PDF؟
 
-لتحسين جودة الصورة، قم بتمكين استيفاء الصورة عن طريق الإعداد `setInterpolateImages` ل `true` في `PdfSaveOptions`سيؤدي هذا إلى الحصول على صور أكثر سلاسة وأعلى جودة في ملف PDF.
+لتحسين جودة الصورة، فعّل تحسين الصور عن طريق تعيين `setInterpolateImages` إلى `true` في `PdfSaveOptions`. سيؤدي ذلك إلى صور أكثر سلاسة وجودة أعلى في PDF.
 
+---
+
+**آخر تحديث:** 2025-12-24  
+**تم الاختبار مع:** Aspose.Words للـ Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

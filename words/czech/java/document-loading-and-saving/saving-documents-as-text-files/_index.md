@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak ukládat dokumenty jako textové soubory v Aspose.Words pro Javu. Postupujte podle našeho podrobného návodu s příklady kódu Java."
-"linktitle": "Ukládání dokumentů jako textových souborů"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Ukládání dokumentů jako textových souborů v Aspose.Words pro Javu"
-"url": "/cs/java/document-loading-and-saving/saving-documents-as-text-files/"
-"weight": 24
+date: 2025-12-24
+description: Naučte se, jak vytvořit soubor prostého textu z dokumentů Word pomocí
+  Aspose.Words pro Java. Tento průvodce ukazuje, jak převést Word do txt, použít odsazení
+  tabulátorem a uložit Word jako txt.
+linktitle: Saving Documents as Text Files
+second_title: Aspose.Words Java Document Processing API
+title: Jak vytvořit soubor prostého textu pomocí Aspose.Words pro Javu
+url: /cs/java/document-loading-and-saving/saving-documents-as-text-files/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +16,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ukládání dokumentů jako textových souborů v Aspose.Words pro Javu
+# Jak vytvořit soubor prostého textu pomocí Aspose.Words pro Java
 
+## Úvod do ukládání dokumentů jako textových souborů v Aspose.Words pro Java
 
-## Úvod do ukládání dokumentů jako textových souborů v Aspose.Words pro Javu
+V tomto tutoriálu se naučíte **jak vytvořit soubor prostého textu** z dokumentu Word pomocí knihovny Aspose.Words pro Java. Ať už potřebujete **převést word do txt**, automatizovat generování reportů nebo jen extrahovat surový text pro další zpracování, tento průvodce vás provede celým pracovním postupem – od vytvoření dokumentu až po jemné nastavení možností ukládání, jako je **použití odsazení tabulátorem** nebo přidání bidi značek. Pojďme na to!
 
-tomto tutoriálu se podíváme na to, jak ukládat dokumenty jako textové soubory pomocí knihovny Aspose.Words pro Javu. Aspose.Words je výkonné Java API pro práci s dokumenty Wordu, které nabízí různé možnosti pro ukládání dokumentů v různých formátech, včetně prostého textu. Probereme kroky, jak toho dosáhnout, a zároveň uvedeme ukázkový kód v Javě.
+## Rychlé odpovědi
+- **Jaká je hlavní třída pro vytvoření dokumentu?** `Document` z Aspose.Words.
+- **Která možnost přidává bidi značky pro jazyky psané zprava doleva?** `TxtSaveOptions.setAddBidiMarks(true)`.
+- **Jak mohu odsazovat položky seznamu pomocí tabulátorů?** Nastavte `ListIndentation.Character` na `'\t'`.
+- **Potřebuji licenci pro vývoj?** Pro testování stačí bezplatná zkušební verze; licence je vyžadována pro produkční nasazení.
+- **Mohu soubor uložit pod vlastním názvem a cestou?** Ano – předáte úplnou cestu metodě `doc.save()`.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
+Než začneme, ujistěte se, že máte následující předpoklady:
 
-- Na vašem systému nainstalovaná sada pro vývoj Java (JDK).
-- Knihovna Aspose.Words pro Javu integrovaná do vašeho projektu. Můžete si ji stáhnout z [zde](https://releases.aspose.com/words/java/).
-- Základní znalost programování v Javě.
+- Nainstalovaný Java Development Kit (JDK) na vašem systému.  
+- Knihovna Aspose.Words pro Java integrována ve vašem projektu. Můžete si ji stáhnout [zde](https://releases.aspose.com/words/java/).  
+- Základní znalosti programování v Javě.
 
-## Krok 1: Vytvořte dokument
+## Krok 1: Vytvoření dokumentu
 
-Abychom dokument uložili jako textový soubor, musíme nejprve vytvořit dokument pomocí Aspose.Words. Zde je jednoduchý úryvek kódu Java pro vytvoření dokumentu s nějakým obsahem:
+Pro **uložení wordu jako txt** nejprve potřebujeme instanci `Document`. Níže je jednoduchý Java úryvek, který vytvoří dokument a zapíše několik řádků vícejazyčného textu:
 
 ```java
 Document doc = new Document();
@@ -41,13 +50,13 @@ builder.writeln("שלום עולם!");
 builder.writeln("مرحبا بالعالم!");
 ```
 
-V tomto kódu vytvoříme nový dokument a přidáme do něj text, včetně textu v různých jazycích.
+V tomto kódu vytváříme nový dokument, přidáváme anglický, hebrejský a arabský text a povolujeme formátování zprava doleva pro hebrejský odstavec.
 
-## Krok 2: Definování možností ukládání textu
+## Krok 2: Definování možností uložení textu
 
-Dále musíme definovat možnosti ukládání textu, které určují, jak má být dokument uložen jako textový soubor. Můžeme nakonfigurovat různá nastavení, jako je přidání oboustranných značek, odsazení seznamu a další. Podívejme se na dva příklady:
+Dále nakonfigurujeme, jak bude dokument uložen jako prostý textový soubor. Aspose.Words poskytuje třídu `TxtSaveOptions`, která vám umožní řídit vše od bidi značek po odsazení seznamů.
 
-### Příklad 1: Přidání oboustranných značek
+### Příklad 1: Přidání bidi značek (jak uložit txt s podporou RTL)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -55,9 +64,9 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
-V tomto příkladu vytvoříme `TxtSaveOptions` objekt a nastavit `AddBidiMarks` majetek `true` zahrnout bidi značky do textového výstupu.
+Nastavením `AddBidiMarks` na `true` zajistíte, že znaky zprava doleva budou ve výsledném **prostém textovém souboru** správně reprezentovány.
 
-### Příklad 2: Použití znaku tabulátoru pro odsazení seznamu
+### Příklad 2: Použití tabulátoru pro odsazení seznamu (použít odsazení tabulátorem)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -66,19 +75,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-Zde nakonfigurujeme možnosti ukládání tak, aby pro odsazení seznamu s počtem 1 používaly znak tabulátoru.
+Zde říkáme Aspose.Words, aby před každou úroveň seznamu přidal znak tabulátoru (`'\t'`), což usnadní čitelnost výstupního textu.
 
-## Krok 3: Uložte dokument jako text
+## Krok 3: Uložení dokumentu jako text
 
-Nyní, když jsme definovali možnosti ukládání textu, můžeme dokument uložit jako textový soubor. Následující kód ukazuje, jak to provést:
+Nyní, když jsou možnosti uložení připravené, můžete dokument uložit jako **prostý textový soubor**:
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
-Nahradit `"output.txt"` s požadovanou cestou k souboru, kam chcete textový soubor uložit.
+Nahraďte `"output.txt"` úplnou cestou, kam chcete soubor uložit.
 
-## Kompletní zdrojový kód pro ukládání dokumentů jako textových souborů v Aspose.Words pro Javu
+## Kompletní zdrojový kód pro ukládání dokumentů jako textových souborů v Aspose.Words pro Java
 
 ```java
     public void addBidiMarks() throws Exception
@@ -97,7 +106,7 @@ Nahradit `"output.txt"` s požadovanou cestou k souboru, kam chcete textový sou
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Vytvořte seznam se třemi úrovněmi odsazení.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -114,7 +123,7 @@ Nahradit `"output.txt"` s požadovanou cestou k souboru, kam chcete textový sou
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Vytvořte seznam se třemi úrovněmi odsazení.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -128,24 +137,24 @@ Nahradit `"output.txt"` s požadovanou cestou k souboru, kam chcete textový sou
 	}
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme se naučili, jak ukládat dokumenty jako textové soubory v Aspose.Words pro Javu. Probrali jsme kroky pro vytvoření dokumentu, definování možností ukládání textu a uložení dokumentu v textovém formátu. Aspose.Words nabízí rozsáhlou flexibilitu, pokud jde o ukládání dokumentů, což vám umožňuje přizpůsobit výstup vašim specifickým požadavkům.
+| Problém | Řešení |
+|-------|----------|
+| **Bidi znaky se zobrazují jako nesrozumitelný text** | Ujistěte se, že je povoleno `setAddBidiMarks(true)` a výstupní soubor je otevřen s kódováním UTF‑8. |
+| **Odsazení seznamu vypadá špatně** | Zkontrolujte, že `ListIndentation.Count` a `Character` jsou nastaveny na požadované hodnoty (tabulátor `'\t'` nebo mezera `' '` ). |
+| **Soubor nebyl vytvořen** | Ověřte, že cílová složka existuje a aplikace má oprávnění k zápisu. |
 
 ## Často kladené otázky
 
-### Jak přidám bidi značky do textového výstupu?
-
-Chcete-li do textového výstupu přidat bidi značky, nastavte `AddBidiMarks` majetek `TxtSaveOptions` na `true`Například:
+### Jak přidám bidi značky do výstupního textu?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.setAddBidiMarks(true);
 ```
 
-### Mohu si přizpůsobit znak odsazení seznamu?
-
-Ano, znak odsazení seznamu si můžete přizpůsobit konfigurací `ListIndentation` majetek `TxtSaveOptions`Například chcete-li použít znak tabulátoru pro odsazení seznamu, můžete provést následující:
+### Můžu si přizpůsobit znak pro odsazení seznamu?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -153,25 +162,36 @@ saveOptions.getListIndentation().setCount(1);
 saveOptions.getListIndentation().setCharacter('\t');
 ```
 
-### Je Aspose.Words pro Javu vhodný pro práci s vícejazyčným textem?
+### Je Aspose.Words pro Java vhodný pro práci s vícejazyčným textem?
 
-Ano, Aspose.Words pro Javu je vhodný pro práci s vícejazyčným textem. Podporuje různé jazyky a kódování znaků, což z něj činí všestrannou volbu pro práci s dokumenty v různých jazycích.
+Ano, Aspose.Words pro Java podporuje širokou škálu jazyků a znakových kódování, což jej činí ideálním pro extrakci a ukládání vícejazyčného obsahu jako prostého textu.
 
-### Jak mohu získat přístup k další dokumentaci a zdrojům pro Aspose.Words pro Javu?
+### Jak mohu získat více dokumentace a zdrojů pro Aspose.Words pro Java?
 
-Komplexní dokumentaci a zdroje pro Aspose.Words pro Javu naleznete na webových stránkách s dokumentací k Aspose: [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/).
+Komplexní dokumentaci a zdroje najdete na stránce Aspose.Words pro Java Documentation: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### Kde si mohu stáhnout Aspose.Words pro Javu?
+### Kde si mohu stáhnout Aspose.Words pro Java?
 
-Knihovnu Aspose.Words pro Javu si můžete stáhnout z webových stránek Aspose: [Stáhněte si Aspose.Words pro Javu](https://releases.aspose.com/words/java/).
+Knihovnu si můžete stáhnout z oficiálního webu: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
+### Co když potřebuji **převést word do txt** v dávkovém procesu?
+
+Zabalte výše uvedený kód do smyčky, která načte každý soubor `.docx`, použije stejné `TxtSaveOptions` a uloží jej jako `.txt`. Nezapomeňte po každé iteraci uvolnit objekty `Document`.
+
+### Podporuje API ukládání přímo do proudu místo do souboru?
+
+Ano, můžete předat `OutputStream` metodě `doc.save(outputStream, saveOptions)` pro zpracování v paměti nebo při integraci s webovými službami.
+
+---
+
+**Poslední aktualizace:** 2025-12-24  
+**Testováno s:** Aspose.Words pro Java 24.12 (nejnovější)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

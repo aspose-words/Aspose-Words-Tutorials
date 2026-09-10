@@ -4,7 +4,9 @@
 "url": "/vi/python-net/tables-lists/"
 "weight": 5
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn về Bảng & Danh sách cho Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện cho các hoạt động bảng & danh sách sử dụng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -45,3 +47,7 @@ Tìm hiểu cách hợp nhất các ô bảng hiệu quả trong Python bằng A
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

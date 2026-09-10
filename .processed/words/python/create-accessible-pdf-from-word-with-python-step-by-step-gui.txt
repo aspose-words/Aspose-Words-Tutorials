@@ -1,0 +1,7 @@
+Title: Create Accessible PDF from Word with Python – Step‑by‑Step Guide
+Slug: create-accessible-pdf-from-word-with-python-step-by-step-gui
+Category: document-conversion
+ProcessedDate: 2026-06-05T15:48:57.206278
+SourceRepo: AI Search API
+Keywords: create accessible pdf, convert word to pdf, save document as accessible pdf
+PRNumber: 200

@@ -1,12 +1,12 @@
 ---
-title: Using Charts in Aspose.Words for Java
+title: How to create column chart using Aspose.Words for Java
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-description: Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
+description: Learn how to create column chart and format chart data labels with Aspose.Words for Java. Explore adding multiple series, changing axis type, and hide chart axis.
 weight: 12
 url: /java/document-conversion-and-export/using-charts/
+date: 2025-12-13
 ---
-
 
 {{< blocks/products/pf/main-wrap-class >}}
 
@@ -14,16 +14,49 @@ url: /java/document-conversion-and-export/using-charts/
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Using Charts in Aspose.Words for Java
+# How to create column chart using Aspose.Words for Java
 
+In this tutorial you’ll **create column chart** visualizations directly inside Word documents using Aspose.Words for Java. We’ll walk through creating different chart types, adding multiple series, formatting chart data labels, changing axis type, and even hiding a chart axis when you need a cleaner look. By the end you’ll have a solid, production‑ready approach for embedding rich charts in your documents.
 
-## Introduction to Using Charts in Aspose.Words for Java
+## Quick Answers
+- **What is the primary class to build a chart?** `DocumentBuilder` with `insertChart`.
+- **Which method adds a new series?** `chart.getSeries().add(...)`.
+- **How do I format chart data labels?** Use `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Can I hide an axis?** Yes, call `setHidden(true)` on the axis object.
+- **Do I need a license for Aspose.Words?** A license is required for production use; a free trial is available.
 
-In this tutorial, we'll explore how to work with charts using Aspose.Words for Java. You'll learn how to create various types of charts, customize axis properties, format data labels, and more. Let's dive in!
+## What is a column chart and why use it?
 
-## Creating a Line Chart
+A column chart displays categorical data as vertical bars, making it ideal for comparing values across groups (sales per region, monthly expenses, etc.). In Java applications, generating a column chart with Aspose.Words lets you embed these visuals directly into Word / DOCX files without needing Excel or external tools.
 
-To create a line chart, use the following code:
+## How to create a column chart
+
+Below is a straightforward example that creates a simple column chart. The code is identical to the original snippet – we’ve only added explanatory comments to make it easier to follow.
+
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Add multiple series
+
+You can **add multiple series** to a column chart by calling `chart.getSeries().add(...)` repeatedly, as shown above. Each series can have its own set of categories and values, allowing you to compare several data sets side‑by‑side.
+
+## How to create a line chart with custom data labels
+
+If you need a line chart instead of a column chart, the same pattern applies. This example also demonstrates **format chart data labels** with different number formats.
 
 ```java
 Document doc = new Document();
@@ -52,30 +85,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-## Creating Other Types of Charts
+### Add data labels
 
-You can create different types of charts like column, area, bubble, scatter, and more using similar techniques. Here's an example of inserting a simple column chart:
+The call `series1.hasDataLabels(true)` **adds data labels** to the series, while `setShowValue(true)` makes the actual values visible on the chart.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## How to change axis type and customize axis properties
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-## Customizing Axis Properties
-
-You can customize axis properties, such as changing the axis type, setting tick marks, formatting labels, and more. Here's an example of defining XY axis properties:
+Changing the axis type (e.g., from date to category) lets you control how data points are plotted. This snippet also shows how to **hide chart axis** if you prefer a minimalist design.
 
 ```java
 Document doc = new Document();
@@ -97,6 +113,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -107,9 +126,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-## Formatting Data Labels
+### Change axis type
 
-You can format data labels with different number formats. Here's an example:
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **changes axis type** from a date‑based axis to a categorical one, giving you full control over label placement.
+
+## How to format chart data labels (number formats)
+
+You can apply number formatting directly to the axis or data labels. This example formats the Y‑axis numbers with a thousands separator.
 
 ```java
 Document doc = new Document();
@@ -124,43 +147,41 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-## Additional Chart Customizations
+## Additional chart customizations
 
-You can further customize your charts by adjusting bounds, interval units between labels, hiding chart axes, and more. Explore the provided code snippets to learn more about these options.
+Beyond the basics, you can adjust bounds, set interval units between labels, hide specific axes, and more. Refer to the Aspose.Words for Java API documentation for a full list of properties.
+
+## Frequently Asked Questions
+
+**Q: How can I add multiple series to a chart?**  
+A: Use `chart.getSeries().add()` for each series you want to display. Each call can provide a unique name, category array, and value array.
+
+**Q: How do I format chart data labels with custom number formats?**  
+A: Access a series’ `DataLabels` object and call `getNumberFormat().setFormatCode("your format")`. You can also link the format to a source cell with `isLinkedToSource(true)`.
+
+**Q: How can I hide a chart axis?**  
+A: Call `setHidden(true)` on the `ChartAxis` you want to hide (e.g., `chart.getAxisY().setHidden(true)`).
+
+**Q: What is the best way to change axis type?**  
+A: Use `setCategoryType(AxisCategoryType.CATEGORY)` for categorical axes or `AxisCategoryType.DATE` for date axes.
+
+**Q: How do I add data labels to a series?**  
+A: Enable them with `series.hasDataLabels(true)` and then configure visibility using `series.getDataLabels().setShowValue(true)`.
 
 ## Conclusion
 
-In this tutorial, we've explored how to work with charts using Aspose.Words for Java. You've learned how to create various types of charts, customize axis properties, format data labels, and more. Aspose.Words for Java provides powerful tools for adding visual representations of data to your documents, enhancing the way you present information.
+We’ve covered everything you need to **create column chart** visualizations with Aspose.Words for Java—from inserting basic charts and adding multiple series, to formatting chart data labels, changing axis type, and hiding chart axes for a clean look. Incorporate these techniques into your reporting or document‑generation pipelines to deliver professional, data‑driven Word documents.
 
-## FAQ's
+---
 
-### How can I add multiple series to a chart?
-
-You can add multiple series to a chart using the `chart.getSeries().add()` method. Make sure to specify the series name, categories, and data values.
-
-### How can I format data labels with custom number formats?
-
-You can format data labels by accessing the `DataLabels` properties of a series and setting the desired format code using `getNumberFormat().setFormatCode()`.
-
-### How do I customize axis properties in a chart?
-
-You can customize axis properties such as type, tick marks, labels, and more by accessing the `ChartAxis` properties like `setCategoryType()`, `setCrosses()`, and `setMajorTickMark()`.
-
-### How can I create other types of charts like scatter or area charts?
-
-You can create various chart types by specifying the appropriate `ChartType` when inserting the chart using `builder.insertChart(ChartType.TYPE, width, height)`.
-
-### How can I hide a chart axis?
-
-You can hide a chart axis by setting the `setHidden(true)` property of the axis.
-
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

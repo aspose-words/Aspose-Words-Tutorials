@@ -5,7 +5,9 @@
 "url": "/id/python-net/document-operations/fix-broken-links-chm-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cara Memperbaiki Tautan Rusak di File CHM Menggunakan Aspose.Words untuk Python
 
 ## Perkenalan
@@ -145,3 +147,7 @@ Untuk bantuan dan eksplorasi lebih lanjut:
 - **Unduh**: [Aspose.Words untuk Rilisan Python](https://releases.aspose.com/words/python/)
 - **Pembelian & Uji Coba**: [Dapatkan Lisensi atau Uji Coba Gratis](https://purchase.aspose.com/buy)
 - **Forum Dukungan**: [Komunitas Dukungan Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

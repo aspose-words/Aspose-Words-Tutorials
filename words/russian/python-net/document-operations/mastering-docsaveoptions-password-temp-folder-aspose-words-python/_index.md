@@ -5,7 +5,9 @@
 "url": "/ru/python-net/document-operations/mastering-docsaveoptions-password-temp-folder-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Название: Освоение DocSaveOptions в Aspose.Words Python: защита паролем и использование временных папок
 
 ## Введение
@@ -190,3 +192,7 @@ def save_using_temp_folder():
 - [Форум поддержки](https://forum.aspose.com/c/words/10)
 
 Изучите эти ресурсы, чтобы углубить свои знания и расширить возможности обработки документов с помощью Aspose.Words для Python. Удачного кодирования!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: How to Hide Shape in Word with C# – Step‑by‑Step Guide
+Slug: how-to-hide-shape-in-word-with-c-step-by-step-guide
+Category: programming-with-shapes
+ProcessedDate: 2026-07-20T07:27:51.029357
+SourceRepo: AI Search API
+Keywords: how to hide shape, hide shape in word, make shape invisible
+PRNumber: 228

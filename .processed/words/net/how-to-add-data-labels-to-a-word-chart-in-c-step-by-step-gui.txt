@@ -1,0 +1,7 @@
+Title: How to add data labels to a Word chart in C# – step‑by‑step guide
+Slug: how-to-add-data-labels-to-a-word-chart-in-c-step-by-step-gui
+Category: programming-with-charts
+ProcessedDate: 2026-08-04T22:50:37.462691
+SourceRepo: AI Search API
+Keywords: how to add data labels, how to edit chart, center chart data labels, show percentages in chart, customize chart data labels
+PRNumber: 241

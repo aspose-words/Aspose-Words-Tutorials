@@ -1,55 +1,13 @@
 ---
-date: '2026-05-13'
-description: Learn how to manage word templates java by creating custom building blocks
-  in Microsoft Word using Aspose.Words for Java. Boost automation with reusable templates.
+date: '2025-12-10'
+description: 'Aspose.Words for Java का उपयोग करके वर्ड में बिल्डिंग ब्लॉक्स को बनाना,
+  सम्मिलित करना और प्रबंधित करना सीखें, जिससे पुन: उपयोग योग्य टेम्पलेट्स और कुशल
+  दस्तावेज़ स्वचालन संभव हो।'
 keywords:
-- manage word templates java
-- custom building blocks Java
-- Aspose.Words document automation
-schemas:
-- author: Aspose
-  dateModified: '2026-05-13'
-  description: Learn how to manage word templates java by creating custom building
-    blocks in Microsoft Word using Aspose.Words for Java. Boost automation with reusable
-    templates.
-  headline: 'Manage Word Templates Java: Create Custom Building Blocks with Aspose.Words'
-  type: TechArticle
-- description: Learn how to manage word templates java by creating custom building
-    blocks in Microsoft Word using Aspose.Words for Java. Boost automation with reusable
-    templates.
-  name: 'Manage Word Templates Java: Create Custom Building Blocks with Aspose.Words'
-  steps:
-  - name: '**Free Trial** – Download from [Aspose Downloads](https://releases.aspose.com/words/java/)
-      for evaluation.'
-    text: '**Free Trial** – Download from [Aspose Downloads](https://releases.aspose.com/words/java/)
-      for evaluation.'
-  - name: '**Temporary License** – Request a time‑limited key at [Temporary License
-      Page](https://purchase.aspose.com/temporary-license/).'
-    text: '**Temporary License** – Request a time‑limited key at [Temporary License
-      Page](https://purchase.aspose.com/temporary-license/).'
-  - name: '**Permanent Purchase** – Buy a full license via the [Aspose Purchase Portal](https://purchase.aspose.com/buy).'
-    text: '**Permanent Purchase** – Buy a full license via the [Aspose Purchase Portal](https://purchase.aspose.com/buy).'
-  type: HowTo
-- questions:
-  - answer: A building block is a reusable content snippet—text, table, image, or
-      whole layout—stored in a document’s glossary for quick insertion.
-    question: What is a Building Block in Word Documents?
-  - answer: Retrieve the block via `glossary.getBuildingBlocks().getByName("BlockName")`,
-      modify its internal `Document` object, then save the parent document.
-    question: How do I update an existing building block with Aspose.Words for Java?
-  - answer: Yes. Any node that `DocumentBuilder` can create (pictures, tables, charts)
-      can be inserted into a building block before it’s saved.
-    question: Can I add images or tables to my custom building blocks?
-  - answer: Absolutely. The library ships for .NET, C++, Python, and more. See the
-      [official documentation](https://reference.aspose.com/words/java/) for the full
-      list.
-    question: Is Aspose.Words available for other languages?
-  - answer: Wrap all Aspose.Words calls in `try‑catch` blocks, catching `Exception`
-      or more specific `AsposeException` types to log errors and maintain application
-      stability.
-    question: How should I handle exceptions when working with building blocks?
-  type: FAQPage
-title: 'Manage Word Templates Java: Create Custom Building Blocks with Aspose.Words'
+- custom building blocks Word
+- create building blocks Java
+- manage document templates Aspose.Words
+title: 'वर्ड में बिल्डिंग ब्लॉक्स - Aspose.Words जावा के साथ ब्लॉक्स'
 url: /hi/java/content-management/create-custom-building-blocks-aspose-words-java/
 weight: 1
 ---
@@ -60,52 +18,48 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word टेम्प्लेट्स जावा प्रबंधन: Aspose.Words के साथ कस्टम बिल्डिंग ब्लॉक्स बनाएं
+# Microsoft Word में Aspose.Words for Java का उपयोग करके कस्टम बिल्डिंग ब्लॉक्स बनाएं
 
-## परिचय
+## Introduction
 
-क्या आप **manage word templates java** को अधिक कुशलता से Microsoft Word में पुन: उपयोग योग्य कंटेंट सेक्शन जोड़कर प्रबंधित करना चाहते हैं? यह ट्यूटोरियल आपको दिखाता है कि Aspose.Words for Java का उपयोग करके कस्टम बिल्डिंग ब्लॉक्स कैसे बनाएं जो मॉड्यूलर, पुन: उपयोग योग्य टेम्प्लेट्स के रूप में कार्य करते हैं। चाहे आप कॉन्ट्रैक्ट्स को ऑटोमेट करने वाले डेवलपर हों या रिपोर्ट्स को मानकीकृत करने वाले प्रोजेक्ट मैनेजर, आप एक स्पष्ट, प्रोडक्शन‑रेडी अप्रोच के साथ आगे बढ़ेंगे।
+क्या आप Microsoft Word में पुन: उपयोग योग्य कंटेंट सेक्शन जोड़कर अपने दस्तावेज़ निर्माण प्रक्रिया को बेहतर बनाना चाहते हैं? इस ट्यूटोरियल में आप **building blocks in word** के साथ काम करना सीखेंगे, एक शक्तिशाली फीचर जो आपको बिल्डिंग ब्लॉक टेम्पलेट्स को तेज़ी और स्थिरता से सम्मिलित करने की अनुमति देता है। चाहे आप एक डेवलपर हों या प्रोजेक्ट मैनेजर, इस क्षमता में निपुणता आपको कस्टम बिल्डिंग ब्लॉक्स बनाने, प्रोग्रामेटिक रूप से बिल्डिंग ब्लॉक कंटेंट सम्मिलित करने, और अपने टेम्पलेट्स को व्यवस्थित रखने में मदद करेगी।
 
-**आप क्या सीखेंगे**
-- Aspose.Words for Java को सेट अप करने का तरीका।
-- बिल्डिंग ब्लॉक्स की चरण‑दर‑चरण निर्माण और कॉन्फ़िगरेशन।
-- डॉक्यूमेंट विज़िटर्स का उपयोग करके ब्लॉक्स को प्रोग्रामेटिकली पॉपुलेट करना।
-- कई दस्तावेज़ों में ब्लॉक्स तक पहुंचना, अपडेट करना और पुन: उपयोग करना।
-- वास्तविक दुनिया के परिदृश्य जहाँ बिल्डिंग ब्लॉक्स टेम्प्लेट प्रबंधन को सरल बनाते हैं।
+**What You’ll Learn**
+- Aspose.Words for Java की सेटअप।
+- Word दस्तावेज़ों में बिल्डिंग ब्लॉक्स बनाना और कॉन्फ़िगर करना।
+- डॉक्यूमेंट विज़िटर्स का उपयोग करके कस्टम बिल्डिंग ब्लॉक्स लागू करना।
+- बिल्डिंग ब्लॉक्स तक पहुंचना, सूचीबद्ध करना, और प्रोग्रामेटिक रूप से कंटेंट अपडेट करना।
+- वास्तविक दुनिया के परिदृश्य जहाँ बिल्डिंग ब्लॉक्स दस्तावेज़ ऑटोमेशन को सरल बनाते हैं।
 
-## त्वरित उत्तर
-- **मुख्य लाभ क्या है?** पुन: उपयोग योग्य बिल्डिंग ब्लॉक्स टेम्प्लेट‑क्रिएशन समय को 70 % तक कम कर देते हैं।
-- **क्या मुझे लाइसेंस चाहिए?** हाँ, एक स्थायी या अस्थायी Aspose.Words लाइसेंस ट्रायल सीमाओं को हटा देता है।
-- **कौन सा जावा संस्करण आवश्यक है?** Java 8 या उससे ऊपर; लाइब्रेरी सभी प्रमुख JDKs पर काम करती है।
-- **क्या मैं ब्लॉक में इमेजेस स्टोर कर सकता हूँ?** बिल्कुल—Aspose.Words द्वारा समर्थित कोई भी कंटेंट टाइप डाला जा सकता है।
-- **क्या यह थ्रेड‑सेफ है?** बिल्डिंग ब्लॉक्स को एक साथ पढ़ा जा सकता है; लिखने के ऑपरेशन्स को सिंक्रोनाइज़ किया जाना चाहिए।
+आइए उन प्री‑रिक्विज़िट्स में डुबकी लगाएँ जो कस्टम ब्लॉक्स बनाने से पहले आपको चाहिए होंगे!
 
-## “manage word templates java” क्या है?
+## Quick Answers
+- **What are building blocks in word?** Reusable content templates stored in a document’s glossary.
+- **Why use Aspose.Words for Java?** It provides a fully managed API to create, insert, and manage building blocks without Office installed.
+- **Do I need a license?** A trial works for evaluation; a permanent license removes all limitations.
+- **Which Java version is required?** Java 8 or later; the library is compatible with newer JDKs.
+- **Can I add images or tables?** Yes—any content type supported by Aspose.Words can be placed inside a building block.
 
-**manage word templates java** वह प्रैक्टिस है जिसमें प्रोग्रामेटिकली Word डॉक्यूमेंट टेम्प्लेट्स को हैंडल किया जाता है—प्रीडिफाइंड सेक्शन बनाना, अपडेट करना और पुन: उपयोग करना—Java कोड का उपयोग करके। Aspose.Words एक मजबूत API प्रदान करता है जो आपको प्रत्येक पुन: उपयोग योग्य सेक्शन को डॉक्यूमेंट की ग्लॉसरी में स्टोर किए गए बिल्डिंग ब्लॉक के रूप में ट्रीट करने देता है।
+## Prerequisites
 
-## दस्तावेज़ ऑटोमेशन के लिए कस्टम बिल्डिंग ब्लॉक्स क्यों उपयोग करें?
+Before we begin, ensure you have the following:
 
-Aspose.Words **50+ इनपुट और आउटपुट फॉर्मैट्स** को सपोर्ट करता है और मानक सर्वर हार्डवेयर पर **500‑पेज दस्तावेज़ों को 3 सेकंड से कम समय में** प्रोसेस कर सकता है। अक्सर उपयोग किए जाने वाले क्लॉज़, टेबल्स या ग्राफिक्स को बिल्डिंग ब्लॉक्स में एन्कैप्सुलेट करके, आप मैन्युअल कॉपी‑पेस्ट त्रुटियों को समाप्त करते हैं, ब्रांडिंग कंसिस्टेंसी को लागू करते हैं, और दस्तावेज़ जेनरेशन को **तीन गुना** तक तेज़ करते हैं।
+### Required Libraries
+- Aspose.Words for Java library (version 25.3 or later).
 
-## आवश्यकताएँ
+### Environment Setup
+- A Java Development Kit (JDK) installed on your machine.
+- An Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse.
 
-### आवश्यक लाइब्रेरीज़
-- Aspose.Words for Java लाइब्रेरी (वर्ज़न 25.3 या बाद का)।
+### Knowledge Prerequisites
+- Basic understanding of Java programming.
+- Familiarity with XML and document processing concepts is beneficial but not necessary.
 
-### पर्यावरण सेटअप
-- Java Development Kit (JDK 8 +) स्थापित हो।
-- IntelliJ IDEA या Eclipse जैसे IDE।
+## Setting Up Aspose.Words
 
-### ज्ञान आवश्यकताएँ
-- Java सिंटैक्स की परिचितता।
-- XML की बुनियादी समझ उपयोगी है लेकिन अनिवार्य नहीं।
+To begin, include the Aspose.Words library in your project using Maven or Gradle:
 
-## Aspose.Words सेटअप
-
-### Maven निर्भरता
-अपने `pom.xml` में निम्नलिखित Maven कोऑर्डिनेट्स जोड़ें:
-
+**Maven:**
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -114,25 +68,21 @@ Aspose.Words **50+ इनपुट और आउटपुट फॉर्मै�
 </dependency>
 ```
 
-### Gradle निर्भरता
-Gradle‑आधारित प्रोजेक्ट्स के लिए, शामिल करें:
-
+**Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### लाइसेंस प्राप्ति
+### License Acquisition
 
-पूर्ण कार्यक्षमता अनलॉक करने के लिए, लाइसेंस प्राप्त करें:
+To fully utilize Aspose.Words, obtain a license:
+1. **Free Trial**: Download and use the trial version from [Aspose Downloads](https://releases.aspose.com/words/java/) for evaluation.  
+2. **Temporary License**: Get a temporary license to remove trial limitations at [Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Purchase**: For permanent use, purchase through the [Aspose Purchase Portal](https://purchase.aspose.com/buy).
 
-1. **Free Trial** – मूल्यांकन के लिए [Aspose Downloads](https://releases.aspose.com/words/java/) से डाउनलोड करें।
-2. **Temporary License** – [Temporary License Page](https://purchase.aspose.com/temporary-license/) पर समय‑सीमित कुंजी का अनुरोध करें।
-3. **Permanent Purchase** – [Aspose Purchase Portal](https://purchase.aspose.com/buy) के माध्यम से पूर्ण लाइसेंस खरीदें।
+### Basic Initialization
 
-### बेसिक इनिशियलाइज़ेशन
-
-JAR जोड़ने और लाइसेंस लागू करने के बाद, अपने Java कोड में लाइब्रेरी को इनिशियलाइज़ करें:
-
+Once set up and licensed, initialize Aspose.Words in your Java project:
 ```java
 import com.aspose.words.Document;
 
@@ -146,16 +96,17 @@ public class Main {
 }
 ```
 
-## Aspose.Words के साथ आप manage word templates java कैसे प्रबंधित करते हैं?
+## Implementation Guide
 
-`new Document("Template.docx")` के साथ अपना टेम्प्लेट डॉक्यूमेंट लोड करें और `doc.getGlossary()` को कॉल करके ग्लॉसरी तक पहुंचें जहाँ बिल्डिंग ब्लॉक्स स्थित होते हैं। वहाँ से आप ब्लॉक्स बना, संपादित या पुनः प्राप्त कर सकते हैं, जिससे सभी पुन: उपयोग योग्य कंटेंट के लिए एक सिंगल सोर्स ऑफ ट्रुथ सक्षम होता है। यह अप्रोच डुप्लिकेशन को समाप्त करता है और सुनिश्चित करता है कि हर जेनरेटेड डॉक्यूमेंट नवीनतम ब्लॉक संस्करण का उपयोग करे।
+With setup complete, let's break down the implementation into manageable sections.
 
-## इम्प्लीमेंटेशन गाइड
+### What are building blocks in word?
 
-### बिल्डिंग ब्लॉक्स बनाना और इन्सर्ट करना
+Building blocks are reusable content snippets stored in a document’s glossary. They can contain plain text, formatted paragraphs, tables, images, or even complex layouts. By creating a **custom building block**, you can insert it anywhere in a document with a single call, ensuring consistency across contracts, reports, or marketing materials.
 
-#### 1. नया डॉक्यूमेंट और ग्लॉसरी बनाएं
-`Document` क्लास मेमोरी में पूरे Word फ़ाइल का प्रतिनिधित्व करता है। इसका `getGlossary()` मेथड बिल्डिंग ब्लॉक्स के कंटेनर को रिटर्न करता है।
+### How to create a glossary document
+
+A glossary document acts as a container for all your building blocks. Below we create a new document and attach a `GlossaryDocument` instance to hold the blocks.
 
 ```java
 import com.aspose.words.Document;
@@ -173,8 +124,9 @@ public class BuildingBlockExample {
 }
 ```
 
-#### 2. कस्टम बिल्डिंग ब्लॉक को परिभाषित और जोड़ें
-`BuildingBlock` ऑब्जेक्ट पुन: उपयोग योग्य कंटेंट रखता है। आप इसे एक नाम, टाइप, और वैकल्पिक गैलरी असाइन करते हैं।
+### How to create custom building blocks
+
+Now we define a custom block, give it a friendly name, and add it to the glossary.
 
 ```java
 import com.aspose.words.BuildingBlock;
@@ -197,8 +149,9 @@ public class CreateAndInsert {
 }
 ```
 
-#### 3. विज़िटर का उपयोग करके बिल्डिंग ब्लॉक्स को कंटेंट से भरें
-`DocumentVisitor` Aspose.Words का ट्रैवर्सल API है जो आपको नोड्स के माध्यम से चलने और कस्टम डेटा इन्जेक्ट करने देता है बिना पूरे डॉक्यूमेंट को मेमोरी में लोड किए।
+### How to populate a building block using a visitor
+
+Document visitors let you traverse and modify a document programmatically. The example below adds a simple paragraph to the newly created block.
 
 ```java
 import com.aspose.words.DocumentVisitor;
@@ -226,8 +179,9 @@ public class BuildingBlockVisitor extends DocumentVisitor {
 }
 ```
 
-#### 4. बिल्डिंग ब्लॉक्स तक पहुंचना और उनका प्रबंधन
-`glossary.getBuildingBlocks().getByName("MyBlock")` से नाम द्वारा ब्लॉक प्राप्त करें। फिर आप उसकी सामग्री को संशोधित कर सकते हैं या इसे अन्य डॉक्यूमेंट्स में क्लोन कर सकते हैं।
+### How to list building blocks
+
+After creating blocks, you’ll often need to **list building blocks** to verify their presence or to display them in a UI. The following snippet iterates through the collection and prints each block’s name.
 
 ```java
 import com.aspose.words.BuildingBlockCollection;
@@ -243,58 +197,49 @@ public class ManageBuildingBlocks {
 }
 ```
 
-### व्यावहारिक अनुप्रयोग
+### How to update a building block
 
-कस्टम बिल्डिंग ब्लॉक्स कई पेशेवर संदर्भों में चमकते हैं:
+If you need to modify an existing block—say, to change its content or style—you can retrieve it by name, make the changes, and save the document again. This approach ensures your templates stay current without recreating them from scratch.
 
-- **Legal Documents** – कॉन्ट्रैक्ट्स में क्लॉज़, सिग्नेचर, और गोपनीयता स्टेटमेंट्स को मानकीकृत करें।
-- **Technical Manuals** – दोहराए जाने वाले डायग्राम, कोड स्निपेट्स, या सुरक्षा चेतावनियों को इन्सर्ट करें।
-- **Marketing Collateral** – न्यूज़लेटर्स में ब्रांड‑कंसिस्टेंट हेडर, फुटर, और प्रमोशनल ब्लर्ब्स को पुन: उपयोग करें।
+### Practical Applications
 
-## प्रदर्शन संबंधी विचार
+Custom building blocks are versatile and can be applied in various scenarios:
+- **Legal Documents** – Standardize clauses across multiple contracts.  
+- **Technical Manuals** – Insert frequently used diagrams, code snippets, or tables.  
+- **Marketing Templates** – Reuse branded headers, footers, or promotional blurbs.
 
-जब बड़ी संख्या में टेम्प्लेट्स को हैंडल किया जाता है:
+## Performance Considerations
 
-- समवर्ती लिखने वाले ऑपरेशन्स को सीमित करें; संभव होने पर रीड‑ओनली एक्सेस का उपयोग करें।
-- केवल आवश्यक नोड्स को संशोधित करने के लिए `DocumentVisitor` का उपयोग करें, गहरी रिकर्शन से बचें जो स्टैक को समाप्त कर सकता है।
-- Aspose.Words को अप‑टू‑डेट रखें; प्रत्येक रिलीज़ मेमोरी‑यूज़ेज सुधार और बग फिक्स लाती है।
+When working with large documents or numerous building blocks, keep these tips in mind:
+- Limit simultaneous operations on a single document to avoid thread contention.  
+- Use `DocumentVisitor` efficiently—avoid deep recursion that could exhaust the stack.  
+- Regularly upgrade to the latest Aspose.Words version for performance improvements and bug fixes.
 
-## बिल्डिंग ब्लॉक्स को प्रोग्रामेटिकली कैसे पुनः प्राप्त और पुन: उपयोग करें?
+## Frequently Asked Questions
 
-`glossary.getBuildingBlocks().getByName("BlockName")` को कॉल करके ब्लॉक प्राप्त करें, फिर `DocumentBuilder.insertDocument(block.getDocument(), ImportFormatMode.KEEP_SOURCE_FORMATTING)` का उपयोग करके इसे दूसरे डॉक्यूमेंट में एम्बेड करें। यह एक‑लाइन पैटर्न किसी भी ब्लॉक टाइप—टेक्स्ट, टेबल्स, या इमेजेस—के लिए काम करता है, जिससे सभी आउटपुट में फॉर्मेटिंग कंसिस्टेंट रहती है।
+**Q: What is a building block in Word documents?**  
+A: A building block is a reusable content section—such as a header, footer, table, or paragraph—stored in a document’s glossary for quick insertion.
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: How do I update an existing building block with Aspose.Words for Java?**  
+A: Retrieve the block via its name or GUID, modify its child nodes (e.g., add a new paragraph), and then save the parent document.
 
-**प्रश्न: Word डॉक्यूमेंट्स में बिल्डिंग ब्लॉक क्या है?**  
-**उत्तर:** बिल्डिंग ब्लॉक एक पुन: उपयोग योग्य कंटेंट स्निपेट है—टेक्स्ट, टेबल, इमेज, या पूरा लेआउट—जो डॉक्यूमेंट की ग्लॉसरी में तेज़ इन्सर्शन के लिए स्टोर किया जाता है।
+**Q: Can I add images or tables to my custom building blocks?**  
+A: Yes. Any content type supported by Aspose.Words (images, tables, charts, etc.) can be inserted into a building block.
 
-**प्रश्न: Aspose.Words for Java के साथ मौजूदा बिल्डिंग ब्लॉक को कैसे अपडेट करें?**  
-**उत्तर:** ब्लॉक को `glossary.getBuildingBlocks().getByName("BlockName")` से प्राप्त करें, उसके आंतरिक `Document` ऑब्जेक्ट को संशोधित करें, फिर पैरेंट डॉक्यूमेंट को सेव करें।
+**Q: Is there support for other programming languages?**  
+A: Absolutely. Aspose.Words is available for .NET, C++, Python, and more. See the [official documentation](https://reference.aspose.com/words/java/) for details.
 
-**प्रश्न: क्या मैं अपने कस्टम बिल्डिंग ब्लॉक्स में इमेजेस या टेबल्स जोड़ सकता हूँ?**  
-**उत्तर:** हाँ। कोई भी नोड जो `DocumentBuilder` बना सकता है (चित्र, टेबल्स, चार्ट्स) को बिल्डिंग ब्लॉक में सेव करने से पहले इन्सर्ट किया जा सकता है।
+**Q: How should I handle errors when working with building blocks?**  
+A: Wrap Aspose.Words calls in try‑catch blocks, log the exception details, and optionally retry non‑critical operations.
 
-**प्रश्न: क्या Aspose.Words अन्य भाषाओं के लिए उपलब्ध है?**  
-**उत्तर:** बिल्कुल। लाइब्रेरी .NET, C++, Python और अन्य के लिए उपलब्ध है। पूरी सूची के लिए [official documentation](https://reference.aspose.com/words/java/) देखें।
-
-**प्रश्न: बिल्डिंग ब्लॉक्स के साथ काम करते समय एक्सेप्शन को कैसे हैंडल करें?**  
-**उत्तर:** सभी Aspose.Words कॉल्स को `try‑catch` ब्लॉक्स में रैप करें, `Exception` या अधिक विशिष्ट `AsposeException` टाइप्स को कैच करके एरर लॉग करें और एप्लिकेशन की स्थिरता बनाए रखें।
-
-## संसाधन
-- **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java)
+## Resources
+- **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
 
 ---
 
-**Last Updated:** 2026-05-13  
-**Tested With:** Aspose.Words for Java 25.3  
-**Author:** Aspose
-
-## संबंधित ट्यूटोरियल्स
-
-- [Aspose.Words Java ट्यूटोरियल्स फॉर कंटेंट मैनेजमेंट - मास्टर डॉक्यूमेंट हैंडलिंग](/words/java/content-management/)
-- [Aspose.Words Java&#58; वर्ड डॉक्यूमेंट्स में कमेंट मैनेजमेंट में महारत](/words/java/annotations-comments/aspose-words-java-comment-management-guide/)
-- [Aspose.Words for Java में महारत: वर्ड डॉक्यूमेंट्स में बुकमार्क इन्सर्ट और मैनेज कैसे करें](/words/java/content-management/aspose-words-java-manage-bookmarks/)
-
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.Words for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

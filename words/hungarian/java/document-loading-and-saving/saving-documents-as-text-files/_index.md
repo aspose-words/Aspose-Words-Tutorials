@@ -1,10 +1,14 @@
 ---
-"description": "Tanuld meg, hogyan menthetsz dokumentumokat szövegfájlként az Aspose.Words for Java programban. Kövesd lépésről lépésre bemutatott útmutatónkat Java kódpéldákkal."
-"linktitle": "Dokumentumok mentése szövegfájlként"
-"second_title": "Aspose.Words Java dokumentumfeldolgozó API"
-"title": "Dokumentumok mentése szövegfájlként az Aspose.Words for Java programban"
-"url": "/hu/java/document-loading-and-saving/saving-documents-as-text-files/"
-"weight": 24
+date: 2025-12-24
+description: Tanulja meg, hogyan hozhat létre egyszerű szövegfájlt Word dokumentumokból
+  az Aspose.Words for Java használatával. Ez az útmutató bemutatja, hogyan konvertálja
+  a Word-et txt formátumba, hogyan használjon tabulátor behúzást, és hogyan mentse
+  a Word-et txt‑ként.
+linktitle: Saving Documents as Text Files
+second_title: Aspose.Words Java Document Processing API
+title: Hogyan hozzunk létre egyszerű szövegfájlt az Aspose.Words for Java-val
+url: /hu/java/document-loading-and-saving/saving-documents-as-text-files/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +17,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dokumentumok mentése szövegfájlként az Aspose.Words for Java programban
+# Hogyan hozzunk létre egyszerű szövegfájlt az Aspose.Words for Java segítségével
 
+## Bevezetés a dokumentumok szövegfájlokként való mentésébe az Aspose.Words for Java-ban
 
-## Bevezetés a dokumentumok szövegfájlként történő mentéséhez az Aspose.Words for Java programban
+Ebben az útmutatóban megtanulja, hogyan **hozzon létre egyszerű szövegfájlt** egy Word dokumentumból az Aspose.Words for Java könyvtár segítségével. Akár **word to txt konvertálásra**, jelentésgenerálás automatizálására, vagy egyszerűen csak nyers szöveg kinyerésére van szüksége további feldolgozáshoz, ez az útmutató végigvezeti Önt a teljes munkafolyamaton – a dokumentum létrehozásától a mentési beállítások finomhangolásáig, mint például **tabulátor behúzás használata** vagy bidi jelek hozzáadása. Kezdjünk is!
 
-Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan menthetünk dokumentumokat szövegfájlként az Aspose.Words for Java könyvtár segítségével. Az Aspose.Words egy hatékony Java API a Word dokumentumokkal való munkához, és számos lehetőséget kínál a dokumentumok különböző formátumokban, beleértve az egyszerű szöveget is, történő mentésére. Bemutatjuk a lépések elvégzését, és közben minta Java kódot is mutatunk.
+## Gyors válaszok
+- **Mi a fő osztály egy dokumentum létrehozásához?** `Document` from Aspose.Words.
+- **Melyik opció ad hozzá bidi jeleket a jobbról balra író nyelvekhez?** `TxtSaveOptions.setAddBidiMarks(true)`.
+- **Hogyan lehet a listaelemeket tabulátorokkal behúzni?** Set `ListIndentation.Character` to `'\t'`.
+- **Szükségem van licencre a fejlesztéshez?** A free trial works for testing; a license is required for production.
+- **Menthetem a fájlt egy egyedi névvel és útvonallal?** Yes—pass the full path to `doc.save()`.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
 
-- Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
-- Az Aspose.Words Java könyvtár integrálva van a projektedbe. Letöltheted innen: [itt](https://releases.aspose.com/words/java/).
-- Java programozási alapismeretek.
+- Java Development Kit (JDK) telepítve van a rendszerén.  
+- Aspose.Words for Java könyvtár integrálva van a projektjébe. Letöltheti [innen](https://releases.aspose.com/words/java/).  
+- Alapvető Java programozási ismeretek.
 
 ## 1. lépés: Dokumentum létrehozása
 
-Egy dokumentum szövegfájlként való mentéséhez először létre kell hoznunk egy dokumentumot az Aspose.Words használatával. Íme egy egyszerű Java kódrészlet egy tartalommal rendelkező dokumentum létrehozásához:
+A **word txt‑ként való mentéséhez** először egy `Document` példányra van szükség. Az alábbi egyszerű Java kódrészlet létrehoz egy dokumentumot, és néhány sor többnyelvű szöveget ír bele:
 
 ```java
 Document doc = new Document();
@@ -41,13 +51,13 @@ builder.writeln("שלום עולם!");
 builder.writeln("مرحبا بالعالم!");
 ```
 
-Ebben a kódban létrehozunk egy új dokumentumot, és hozzáadunk néhány szöveget, beleértve a különböző nyelveken írt szövegeket is.
+Ebben a kódban új dokumentumot hozunk létre, angol, héber és arab szöveget adunk hozzá, és engedélyezzük a jobbról balra formázást a héber bekezdéshez.
 
-## 2. lépés: Szövegmentési beállítások megadása
+## 2. lépés: Szöveg mentési beállítások meghatározása
 
-Ezután meg kell adnunk a szövegmentési beállításokat, amelyek meghatározzák, hogyan kell a dokumentumot szövegfájlként menteni. Különböző beállításokat konfigurálhatunk, például kétirányú jelek hozzáadását, lista behúzását és egyebeket. Nézzünk két példát:
+Ezután beállítjuk, hogyan lesz a dokumentum egyszerű szövegfájlként mentve. Az Aspose.Words a `TxtSaveOptions` osztályt biztosítja, amely lehetővé teszi a bidi jelektől a lista behúzásáig minden vezérlését.
 
-### 1. példa: Kétirányú jelek hozzáadása
+### Példa 1: Bidi jelek hozzáadása (hogyan mentse a txt‑t megfelelő RTL támogatással)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -55,9 +65,9 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
-Ebben a példában létrehozunk egy `TxtSaveOptions` objektumot, és állítsa be a `AddBidiMarks` ingatlan `true` kétirányú jeleket tartalmazzon a szövegkimenetben.
+Az `AddBidiMarks` `true`-ra állítása biztosítja, hogy a jobbról balra író karakterek helyesen jelenjenek meg a keletkezett **egyszerű szövegfájlban**.
 
-### 2. példa: Tabulátor karakter használata lista behúzásához
+### Példa 2: Tabulátor karakter használata a lista behúzásához (tabulátor behúzás használata)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -66,19 +76,19 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-Itt úgy konfiguráljuk a mentési beállításokat, hogy tabulátor karaktert használjanak a lista behúzásához, 1-es számmal.
+Itt azt mondjuk az Aspose.Words-nak, hogy minden lista szint előtt egy tabulátor karaktert (`'\t'`) helyezzen el, így a szövegkimenet könnyebben olvasható lesz.
 
-## 3. lépés: Mentse el a dokumentumot szövegként
+## 3. lépés: Dokumentum mentése szövegként
 
-Most, hogy meghatároztuk a szövegmentési beállításokat, menthetjük a dokumentumot szövegfájlként. A következő kód bemutatja, hogyan kell ezt megtenni:
+Most, hogy a mentési beállítások készen állnak, a dokumentumot **egyszerű szövegfájlként** menthetjük:
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
-Csere `"output.txt"` a kívánt fájlelérési úttal, ahová a szövegfájlt menteni szeretné.
+Cserélje le az `"output.txt"`-t a teljes útvonalra, ahová a fájlt menteni szeretné.
 
-## Teljes forráskód dokumentumok szövegfájlként történő mentéséhez az Aspose.Words for Java programban
+## Teljes forráskód a dokumentumok szövegfájlokként való mentéséhez az Aspose.Words for Java-ban
 
 ```java
     public void addBidiMarks() throws Exception
@@ -97,7 +107,7 @@ Csere `"output.txt"` a kívánt fájlelérési úttal, ahová a szövegfájlt me
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Hozz létre egy listát három behúzási szinttel.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -114,7 +124,7 @@ Csere `"output.txt"` a kívánt fájlelérési úttal, ahová a szövegfájlt me
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Hozz létre egy listát három behúzási szinttel.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -128,24 +138,24 @@ Csere `"output.txt"` a kívánt fájlelérési úttal, ahová a szövegfájlt me
 	}
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Ebben az oktatóanyagban megtanultuk, hogyan menthetünk dokumentumokat szövegfájlként az Aspose.Words for Java programban. Áttekintettük a dokumentumok létrehozásának, a szövegmentési beállítások megadásának és a dokumentum szöveges formátumban történő mentésének lépéseit. Az Aspose.Words nagyfokú rugalmasságot biztosít a dokumentumok mentése terén, lehetővé téve a kimenet testreszabását az adott igényekhez.
+| Probléma | Megoldás |
+|----------|----------|
+| **A bidi karakterek összekevert szövegként jelennek meg** | Győződjön meg róla, hogy a `setAddBidiMarks(true)` engedélyezve van, és a kimeneti fájlt UTF‑8 kódolással nyitja meg. |
+| **A lista behúzása hibásnak tűnik** | Ellenőrizze, hogy a `ListIndentation.Count` és a `Character` a kívánt értékekre van beállítva (tabulátor `'\t'` vagy szóköz `' '` ). |
+| **A fájl nem jött létre** | Ellenőrizze, hogy a könyvtár útvonala létezik, és az alkalmazásnak írási jogosultsága van. |
 
-## GYIK
+## Gyakran feltett kérdések
 
-### Hogyan adhatok hozzá kétirányú jeleket a szövegkimenethez?
-
-Kétirányú jelek hozzáadásához a szövegkimenethez, állítsa be a `AddBidiMarks` tulajdona `TxtSaveOptions` hogy `true`Például:
+### Hogyan adhatok hozzá bidi jeleket a szövegkimenethez?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.setAddBidiMarks(true);
 ```
 
-### Testreszabhatom a lista behúzás karakterét?
-
-Igen, testreszabhatja a lista behúzásának karakterét a konfigurálásával. `ListIndentation` tulajdona `TxtSaveOptions`Például a lista behúzásához tabulátor karaktert használhat, és a következőképpen teheti:
+### Testreszabhatom a lista behúzási karaktert?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -153,25 +163,36 @@ saveOptions.getListIndentation().setCount(1);
 saveOptions.getListIndentation().setCharacter('\t');
 ```
 
-### Alkalmas az Aspose.Words for Java többnyelvű szövegek kezelésére?
+### Alkalmas-e az Aspose.Words for Java a többnyelvű szöveg kezelésére?
 
-Igen, az Aspose.Words for Java alkalmas többnyelvű szövegek kezelésére. Különböző nyelveket és karakterkódolásokat támogat, így sokoldalú választás a különböző nyelveken írt dokumentumokkal való munkához.
+Igen, az Aspose.Words for Java széles körű nyelveket és karakterkódolásokat támogat, így ideális a többnyelvű tartalom kinyerésére és egyszerű szövegként való mentésére.
 
-### Hogyan férhetek hozzá további dokumentációhoz és forrásokhoz az Aspose.Words for Java-hoz?
+### Hol találok további dokumentációt és forrásokat az Aspose.Words for Java-hoz?
 
-Az Aspose.Words for Java átfogó dokumentációját és forrásait az Aspose dokumentációs weboldalán találja: [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/).
+Átfogó dokumentációt és forrásokat a Aspose.Words for Java Dokumentációs oldalon talál: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-### Hol tudom letölteni az Aspose.Words programot Java-hoz?
+### Hol tölthetem le az Aspose.Words for Java-t?
 
-Az Aspose.Words for Java könyvtárat letöltheted az Aspose weboldaláról: [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/).
+A könyvtárat a hivatalos oldalról töltheti le: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
+### Mi van, ha **word to txt** konvertálásra van szükség kötegelt folyamatban?
+
+Tegye a fenti kódot egy ciklusba, amely betölti az egyes `.docx` fájlokat, alkalmazza ugyanazt a `TxtSaveOptions`-t, és minden fájlt `.txt`‑ként ment. Győződjön meg róla, hogy az erőforrásokat a `Document` objektumok minden iteráció után felszabadítja.
+
+### Támogatja-e az API a közvetlen mentést stream‑be a fájl helyett?
+
+Igen, átadhat egy `OutputStream`‑et a `doc.save(outputStream, saveOptions)` metódusnak memória‑beli feldolgozáshoz vagy webszolgáltatások integrálásakor.
+
+---
+
+**Utoljára frissítve:** 2025-12-24  
+**Tesztelve ezzel:** Aspose.Words for Java 24.12 (latest)  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

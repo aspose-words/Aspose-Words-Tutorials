@@ -4,7 +4,9 @@
 "url": "/vi/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn thao tác tài liệu cho Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện cho các hoạt động tài liệu sử dụng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -55,6 +57,9 @@ Hướng dẫn mã cho Aspose.Words Python-net
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Tìm hiểu cách chuyển đổi tài liệu Word sang định dạng PostScript bằng Aspose.Words for Python. Hướng dẫn này bao gồm các tùy chọn thiết lập, chuyển đổi và in sách gấp.
 
+    ### [Khôi phục DOCX bị hỏng – Mở & Tải tài liệu Word](./recover-corrupted-docx-open-load-word-document/)
+Hướng dẫn khôi phục và mở các tệp DOCX bị hỏng bằng Aspose.Words cho Python-net.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.Words cho Tài liệu Python-net](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@ Tìm hiểu cách chuyển đổi tài liệu Word sang định dạng PostScrip
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

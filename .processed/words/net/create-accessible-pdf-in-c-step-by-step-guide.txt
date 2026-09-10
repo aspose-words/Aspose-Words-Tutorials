@@ -1,0 +1,7 @@
+Title: Create Accessible PDF in C# – Step‑by‑Step Guide
+Slug: create-accessible-pdf-in-c-step-by-step-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-30T19:27:52.732028
+SourceRepo: AI Search API
+Keywords: create accessible pdf, convert docx to pdf, generate accessible pdf, how to enable pdf/ua
+PRNumber: 216

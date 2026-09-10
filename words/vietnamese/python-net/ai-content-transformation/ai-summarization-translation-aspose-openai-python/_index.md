@@ -5,7 +5,9 @@
 "url": "/vi/python-net/ai-content-transformation/ai-summarization-translation-aspose-openai-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cách triển khai tóm tắt và dịch thuật AI với Aspose.Words & OpenAI trong Python
 
 Trong thế giới phát triển nhanh như hiện nay, việc xử lý hiệu quả khối lượng lớn văn bản là rất quan trọng. Cho dù bạn đang tóm tắt các báo cáo dài hay dịch tài liệu sang các ngôn ngữ khác nhau, tự động hóa có thể tiết kiệm thời gian và công sức. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng Aspose.Words cho Python cùng với các mô hình AI từ OpenAI để thực hiện Tóm tắt và Biên dịch AI.
@@ -212,3 +214,7 @@ Sẵn sàng áp dụng kiến thức này vào thực tế? Hãy thử triển k
 - "Tóm tắt AI Python"
 - "Bản dịch Aspose.Words"
 - "Xử lý tài liệu OpenAI"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

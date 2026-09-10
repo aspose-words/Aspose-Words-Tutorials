@@ -5,7 +5,9 @@
 "url": "/ar/python-net/tables-lists/aspose-words-master-table-manipulation-word-documents/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # معالجة الجداول الرئيسية في مستندات Word باستخدام Aspose.Words لـ Python
 
 اكتشف كيفية تعديل الجداول بسهولة في مايكروسوفت وورد باستخدام Aspose.Words لبايثون. سيساعدك هذا الدليل الشامل على إزالة الأعمدة أو إدراجها وتحويلها إلى نص عادي، مما يُحسّن مهام أتمتة مستنداتك.
@@ -149,3 +151,7 @@ print(column.to_txt())
 - [نسخة تجريبية مجانية](https://releases.aspose.com/words/python/)
 - [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

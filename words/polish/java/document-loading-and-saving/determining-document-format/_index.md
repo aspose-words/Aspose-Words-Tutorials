@@ -1,10 +1,12 @@
 ---
-"description": "Dowiedz się, jak wykrywać formaty dokumentów w Javie za pomocą Aspose.Words. Rozpoznawaj DOC, DOCX i inne. Organizuj pliki wydajnie."
-"linktitle": "Określanie formatu dokumentu"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Określanie formatu dokumentu w Aspose.Words dla Java"
-"url": "/pl/java/document-loading-and-saving/determining-document-format/"
-"weight": 25
+date: 2025-12-20
+description: Dowiedz się, jak organizować pliki według typu i wykrywać formaty dokumentów
+  w Javie z Aspose.Words. Obsługuje DOC, DOCX, RTF i inne.
+linktitle: Determining Document Format
+second_title: Aspose.Words Java Document Processing API
+title: Organizuj pliki według typu przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-loading-and-saving/determining-document-format/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +15,32 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Określanie formatu dokumentu w Aspose.Words dla Java
+# Organizowanie plików według typu przy użyciu Aspose.Words dla Java
 
+Kiedy potrzebujesz **organizować pliki według typu** w aplikacji Java, pierwszym krokiem jest wiarygodne określenie formatu każdego dokumentu. Aspose.Words dla Java upraszcza to zadanie, umożliwiając wykrywanie formatów DOC, DOCX, RTF, HTML, ODT i wielu innych – nawet zaszyfrowanych lub nieznanych plików. W tym przewodniku przeprowadzimy Cię przez tworzenie folderów, wykrywanie formatów plików i automatyczne sortowanie Twoich plików.
 
-## Wprowadzenie do określania formatu dokumentu w Aspose.Words dla Java
+## Szybkie odpowiedzi
+- **Co oznacza „organizować pliki według typu”?** Oznacza to automatyczne przenoszenie dokumentów do folderów na podstawie wykrytego formatu (np. DOCX, PDF, RTF).  
+- **Która biblioteka pomaga wykrywać format pliku w Javie?** Aspose.Words dla Java udostępnia `FileFormatUtil.detectFileFormat()`.  
+- **Czy API potrafi rozpoznać nieznane typy plików?** Tak – zwraca `LoadFormat.UNKNOWN` dla nieobsługiwanych lub nierozpoznanych plików.  
+- **Czy obsługa wykrywania zaszyfrowanych dokumentów jest dostępna?** Absolutnie; flaga `FileFormatInfo.isEncrypted()` informuje, czy plik jest chroniony hasłem.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Words do wdrożeń komercyjnych.
 
-Podczas pracy z przetwarzaniem dokumentów w Javie kluczowe jest określenie formatu plików, z którymi masz do czynienia. Aspose.Words for Java oferuje potężne funkcje do identyfikacji formatów dokumentów, a my przeprowadzimy Cię przez ten proces.
+## Wprowadzenie: Organizowanie plików według typu przy użyciu Aspose.Words dla Java
+
+Podczas pracy z przetwarzaniem dokumentów w Javie kluczowe jest określenie formatu obsługiwanych plików. Aspose.Words dla Java oferuje potężne funkcje do **detect file format java**, i przeprowadzimy Cię przez proces efektywnego organizowania plików.
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
-- [Aspose.Words dla Javy](https://releases.aspose.com/words/java/)
-- Zestaw Java Development Kit (JDK) zainstalowany w Twoim systemie
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
+- Java Development Kit (JDK) zainstalowany w systemie
 - Podstawowa znajomość programowania w Javie
 
-## Krok 1: Konfiguracja katalogu
+## Krok 1: Konfiguracja katalogów
 
-Najpierw musimy skonfigurować niezbędne katalogi, aby skutecznie zorganizować nasze pliki. Utworzymy katalogi dla różnych typów dokumentów.
+Najpierw musimy skonfigurować niezbędne katalogi, aby skutecznie organizować nasze pliki. Utworzymy katalogi dla różnych typów dokumentów.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -38,7 +48,7 @@ File unknownDir = new File("Your Directory Path" + "Unknown");
 File encryptedDir = new File("Your Directory Path" + "Encrypted");
 File pre97Dir = new File("Your Directory Path" + "Pre97");
 
-// Utwórz katalogi, jeśli jeszcze nie istnieją.
+// Create the directories if they do not already exist.
 if (!supportedDir.exists())
     supportedDir.mkdir();
 if (!unknownDir.exists())
@@ -49,11 +59,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Utworzyliśmy katalogi dla obsługiwanych, nieznanych, zaszyfrowanych i starszych niż 97 typów dokumentów.
+Utworzyliśmy katalogi dla obsługiwanych, nieznanych, zaszyfrowanych oraz dokumentów sprzed wersji 97.
 
 ## Krok 2: Wykrywanie formatu dokumentu
 
-Teraz wykryjmy format dokumentów w naszych katalogach. Użyjemy Aspose.Words for Java, aby to osiągnąć.
+Teraz wykryjmy format dokumentów w naszych katalogach. Skorzystamy z Aspose.Words dla Java, aby to osiągnąć.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -66,20 +76,20 @@ for (String fileName : listFiles) {
     System.out.println(nameOnly);
     FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
 
-    // Wyświetl typ dokumentu
+    // Display the document type
     switch (info.getLoadFormat()) {
         case LoadFormat.DOC:
             System.out.println("\tMicrosoft Word 97-2003 document.");
             break;
-        // W razie potrzeby dodawaj przypadki dla innych formatów dokumentów
+        // Add cases for other document formats as needed
     }
 
-    // Obsługuj zaszyfrowane dokumenty
+    // Handle encrypted documents
     if (info.isEncrypted()) {
         System.out.println("\tAn encrypted document.");
         FileUtils.copyFile(new File(fileName), new File(encryptedDir, nameOnly));
     } else {
-        // Obsługuj inne typy dokumentów
+        // Handle other document types
         switch (info.getLoadFormat()) {
             case LoadFormat.DOC_PRE_WORD_60:
                 FileUtils.copyFile(new File(fileName), new File(pre97Dir, nameOnly));
@@ -95,16 +105,16 @@ for (String fileName : listFiles) {
 }
 ```
 
-W tym fragmencie kodu przeglądamy pliki, wykrywamy ich formaty i organizujemy je w odpowiednich katalogach.
+W tym fragmencie iterujemy po plikach, **detect file format java**, i organizujemy je w odpowiednie foldery.
 
-## Kompletny kod źródłowy do określania formatu dokumentu w Aspose.Words dla Java
+## Pełny kod źródłowy do określania formatu dokumentu w Aspose.Words dla Java
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
         File unknownDir = new File("Your Directory Path" + "Unknown");
         File encryptedDir = new File("Your Directory Path" + "Encrypted");
         File pre97Dir = new File("Your Directory Path" + "Pre97");
-        // Utwórz katalogi, jeśli jeszcze nie istnieją.
+        // Create the directories if they do not already exist.
         if (supportedDir.exists() == false)
             supportedDir.mkdir();
         if (unknownDir.exists() == false)
@@ -121,7 +131,7 @@ W tym fragmencie kodu przeglądamy pliki, wykrywamy ich formaty i organizujemy j
             String nameOnly = Paths.get(fileName).getFileName().toString();
             System.out.println(nameOnly);
             FileFormatInfo info = FileFormatUtil.detectFileFormat(fileName);
-            // Wyświetl typ dokumentu
+            // Display the document type
             switch (info.getLoadFormat()) {
                 case LoadFormat.DOC:
                     System.out.println("\tMicrosoft Word 97-2003 document.");
@@ -189,39 +199,52 @@ W tym fragmencie kodu przeglądamy pliki, wykrywamy ich formaty i organizujemy j
 
 ```
 
-## Wniosek
+## Jak wykrywać format pliku w Javie
 
-Określanie formatów dokumentów w Aspose.Words for Java jest niezbędne do wydajnego przetwarzania dokumentów. Dzięki krokom opisanym w tym przewodniku możesz zidentyfikować typy dokumentów i odpowiednio je obsługiwać w swoich aplikacjach Java.
+Metoda `FileFormatUtil.detectFileFormat()` analizuje nagłówek pliku i zwraca obiekt `FileFormatInfo`. Obiekt ten informuje o **load format**, czy plik jest zaszyfrowany oraz o innych przydatnych metadanych. Korzystając z tych informacji możesz programowo **identify unknown file types** i zdecydować, jak przetworzyć każdy z nich.
+
+## Identyfikowanie nieznanych typów plików
+
+Gdy API zwraca `LoadFormat.UNKNOWN`, plik jest uszkodzony lub używa formatu, którego Aspose.Words nie obsługuje. W naszym przykładowym kodzie przenosimy takie pliki do folderu **Unknown**, abyś mógł je później przejrzeć.
+
+## Częste problemy i rozwiązania
+
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| Pliki zawsze trafiają do folderu *Supported* | `FileFormatUtil` nie mógł odczytać nagłówka (np. plik jest pusty) | Upewnij się, że podajesz prawidłową ścieżkę do pliku i że plik nie ma zerowej wielkości. |
+| Zaszyfrowane pliki generują wyjątek | Próba odczytu bez obsługi szyfrowania | Użyj sprawdzenia `info.isEncrypted()` przed dalszym przetwarzaniem, jak pokazano w kodzie. |
+| Dokumenty Word sprzed wersji 97 nie są wykrywane | Starsze formaty wymagają obsługi przypadku `DOC_PRE_WORD_60` | Zachowaj blok `case LoadFormat.DOC_PRE_WORD_60`, aby kierować je do folderu *Pre97*. |
 
 ## Najczęściej zadawane pytania
 
 ### Jak zainstalować Aspose.Words dla Java?
 
-Możesz pobrać Aspose.Words dla Java ze strony [Tutaj](https://releases.aspose.com/words/java/) i postępuj zgodnie z wyświetlanymi instrukcjami instalacji.
+Możesz pobrać Aspose.Words dla Java ze [tutaj](https://releases.aspose.com/words/java/) i postępować zgodnie z podanymi instrukcjami instalacji.
 
 ### Jakie formaty dokumentów są obsługiwane?
 
-Aspose.Words for Java obsługuje różne formaty dokumentów, w tym DOC, DOCX, RTF, HTML i inne. Pełną listę można znaleźć w dokumentacji.
+Aspose.Words dla Java obsługuje różne formaty dokumentów, w tym DOC, DOCX, RTF, HTML, ODT i inne. Zapoznaj się z oficjalną dokumentacją, aby uzyskać pełną listę.
 
-### W jaki sposób mogę wykryć zaszyfrowane dokumenty za pomocą Aspose.Words dla Java?
+### Jak mogę wykrywać zaszyfrowane dokumenty przy użyciu Aspose.Words dla Java?
 
-Możesz użyć `FileFormatUtil.detectFileFormat()` metoda wykrywania zaszyfrowanych dokumentów, jak pokazano w tym przewodniku.
+Użyj metody `FileFormatUtil.detectFileFormat()`; zwrócona flaga `FileFormatInfo.isEncrypted()` wskazuje na szyfrowanie, jak pokazano w tym przewodniku.
 
-### Czy istnieją jakieś ograniczenia przy pracy ze starszymi formatami dokumentów?
+### Czy istnieją ograniczenia przy pracy ze starszymi formatami dokumentów?
 
-Starsze formaty dokumentów, takie jak MS Word 6 lub Word 95, mogą mieć ograniczenia pod względem funkcji i zgodności z nowoczesnymi aplikacjami. Rozważ uaktualnienie lub konwersję tych dokumentów, gdy jest to konieczne.
+Starsze formaty, takie jak MS Word 6 czy Word 95, mogą nie posiadać nowoczesnych funkcji i mogą mieć problemy z kompatybilnością. Rozważ konwersję ich do nowszych formatów, gdy to możliwe.
 
 ### Czy mogę zautomatyzować wykrywanie formatu dokumentu w mojej aplikacji Java?
 
-Tak, możesz zautomatyzować wykrywanie formatu dokumentu, integrując dostarczony kod z aplikacją Java. Pozwala to na przetwarzanie dokumentów na podstawie wykrytych formatów.
+Tak, wstaw dostarczony kod do potoku przetwarzania w Twojej aplikacji. Umożliwi to automatyczne sortowanie i obsługę w oparciu o wykryte formaty.
 
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

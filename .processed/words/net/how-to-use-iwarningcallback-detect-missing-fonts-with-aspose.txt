@@ -1,0 +1,7 @@
+Title: How to Use IWarningCallback – Detect Missing Fonts with Aspose.Words
+Slug: how-to-use-iwarningcallback-detect-missing-fonts-with-aspose
+Category: working-with-fonts
+ProcessedDate: 2026-06-24T10:52:04.216517
+SourceRepo: AI Search API
+Keywords: how to use iwarningcallback, detect missing fonts
+PRNumber: 210

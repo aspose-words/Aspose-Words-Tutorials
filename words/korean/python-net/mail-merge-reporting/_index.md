@@ -4,7 +4,9 @@
 "url": "/ko/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net을 위한 메일 병합 및 보고 튜토리얼
 
 Python-net용 Aspose.Words를 사용하여 메일 병합 및 보고 작업을 위한 포괄적인 단계별 가이드를 살펴보세요. 이 튜토리얼에는 완전한 코드 예제와 자세한 설명이 포함되어 있습니다.
@@ -37,3 +39,7 @@ Python에서 Aspose.Words를 사용하여 '소스 번호 유지'와 '책갈피�
 - [Aspose.Words 포럼](https://forum.aspose.com/c/words/8)
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

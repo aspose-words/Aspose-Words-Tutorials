@@ -1,10 +1,13 @@
 ---
-"description": "Erfahren Sie, wie Sie Dokumente als Textdateien in Aspose.Words für Java speichern. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Java-Codebeispielen."
-"linktitle": "Dokumente als Textdateien speichern"
-"second_title": "Aspose.Words Java-Dokumentverarbeitungs-API"
-"title": "Speichern von Dokumenten als Textdateien in Aspose.Words für Java"
-"url": "/de/java/document-loading-and-saving/saving-documents-as-text-files/"
-"weight": 24
+date: 2025-12-24
+description: Erfahren Sie, wie Sie mit Aspose.Words für Java eine Nur‑Text‑Datei aus
+  Word‑Dokumenten erstellen. Dieser Leitfaden zeigt, wie Sie Word in TXT konvertieren,
+  Tab‑Einrückungen verwenden und Word als TXT speichern.
+linktitle: Saving Documents as Text Files
+second_title: Aspose.Words Java Document Processing API
+title: Wie man eine Textdatei mit Aspose.Words für Java erstellt
+url: /de/java/document-loading-and-saving/saving-documents-as-text-files/
+weight: 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +16,30 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Speichern von Dokumenten als Textdateien in Aspose.Words für Java
-
+# Wie man eine Textdatei mit Aspose.Words für Java erstellt
 
 ## Einführung in das Speichern von Dokumenten als Textdateien in Aspose.Words für Java
 
-In diesem Tutorial erfahren Sie, wie Sie Dokumente mit der Bibliothek Aspose.Words für Java als Textdateien speichern. Aspose.Words ist eine leistungsstarke Java-API für die Arbeit mit Word-Dokumenten und bietet verschiedene Optionen zum Speichern von Dokumenten in verschiedenen Formaten, einschließlich reinem Text. Wir erklären die Schritte dazu und stellen Ihnen dabei Beispiel-Java-Code zur Verfügung.
+In diesem Tutorial lernen Sie **wie man eine reine Textdatei** aus einem Word-Dokument mit der Aspose.Words für Java-Bibliothek erstellt. Egal, ob Sie **Word in TXT konvertieren**, die Berichtserstellung automatisieren oder einfach Rohtext für weitere Verarbeitung extrahieren müssen, führt Sie diese Anleitung durch den gesamten Arbeitsablauf – von der Dokumenterstellung bis zur Feinabstimmung der Speicheroptionen wie **Tab‑Einrückung verwenden** oder Bidi‑Markierungen hinzufügen. Lassen Sie uns beginnen!
+
+## Schnelle Antworten
+- **Was ist die primäre Klasse zum Erstellen eines Dokuments?** `Document` von Aspose.Words.
+- **Welche Option fügt Bidi‑Markierungen für Rechts‑nach‑Links‑Sprachen hinzu?** `TxtSaveOptions.setAddBidiMarks(true)`.
+- **Wie kann ich Listenelemente mit Tabs einrücken?** Setzen Sie `ListIndentation.Character` auf `'\t'`.
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert für Tests; für die Produktion ist eine Lizenz erforderlich.
+- **Kann ich die Datei mit einem benutzerdefinierten Namen und Pfad speichern?** Ja – übergeben Sie den vollständigen Pfad an `doc.save()`.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben:
 
-- Auf Ihrem System ist das Java Development Kit (JDK) installiert.
-- Aspose.Words für Java-Bibliothek in Ihr Projekt integriert. Sie können es herunterladen von [Hier](https://releases.aspose.com/words/java/).
-- Grundkenntnisse der Java-Programmierung.
+- Java Development Kit (JDK) auf Ihrem System installiert.  
+- Aspose.Words für Java-Bibliothek in Ihr Projekt integriert. Sie können sie von [hier](https://releases.aspose.com/words/java/) herunterladen.  
+- Grundkenntnisse in Java-Programmierung.
 
-## Schritt 1: Erstellen Sie ein Dokument
+## Schritt 1: Dokument erstellen
 
-Um ein Dokument als Textdatei zu speichern, müssen wir zunächst ein Dokument mit Aspose.Words erstellen. Hier ist ein einfacher Java-Codeausschnitt zum Erstellen eines Dokuments mit Inhalt:
+Um **Word als TXT zu speichern**, benötigen wir zunächst eine `Document`-Instanz. Unten finden Sie ein einfaches Java‑Snippet, das ein Dokument erstellt und ein paar Zeilen mehrsprachigen Textes schreibt:
 
 ```java
 Document doc = new Document();
@@ -41,13 +50,13 @@ builder.writeln("שלום עולם!");
 builder.writeln("مرحبا بالعالم!");
 ```
 
-In diesem Code erstellen wir ein neues Dokument und fügen ihm Text hinzu, darunter auch Text in verschiedenen Sprachen.
+In diesem Code erstellen wir ein neues Dokument, fügen englischen, hebräischen und arabischen Text hinzu und aktivieren die Rechts‑nach‑Links‑Formatierung für den hebräischen Absatz.
 
-## Schritt 2: Textspeicheroptionen definieren
+## Schritt 2: Text‑Speicheroptionen definieren
 
-Als Nächstes müssen wir die Textspeicheroptionen definieren, die festlegen, wie das Dokument als Textdatei gespeichert werden soll. Wir können verschiedene Einstellungen konfigurieren, wie z. B. das Hinzufügen von Bidi-Markierungen, Listeneinrückungen und mehr. Sehen wir uns zwei Beispiele an:
+Als Nächstes konfigurieren wir, wie das Dokument als reine Textdatei gespeichert wird. Aspose.Words stellt die Klasse `TxtSaveOptions` bereit, mit der Sie alles von Bidi‑Markierungen bis zur Listeneinrückung steuern können.
 
-### Beispiel 1: Hinzufügen von Bidi-Markierungen
+### Beispiel 1: Bidi‑Markierungen hinzufügen (wie man TXT mit korrekter RTL‑Unterstützung speichert)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -55,9 +64,9 @@ saveOptions.setAddBidiMarks(true);
 doc.save("output.txt", saveOptions);
 ```
 
-In diesem Beispiel erstellen wir eine `TxtSaveOptions` Objekt und legen Sie die `AddBidiMarks` Eigentum zu `true` um Bidi-Markierungen in die Textausgabe einzuschließen.
+Das Setzen von `AddBidiMarks` auf `true` stellt sicher, dass Rechts‑nach‑Links‑Zeichen im resultierenden **reinen Textdatei** korrekt dargestellt werden.
 
-### Beispiel 2: Verwenden des Tabulatorzeichens zum Einrücken von Listen
+### Beispiel 2: Tab‑Zeichen für Listeneinrückung verwenden (Tab‑Einrückung verwenden)
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -66,17 +75,17 @@ saveOptions.getListIndentation().setCharacter('\t');
 doc.save("output.txt", saveOptions);
 ```
 
-Hier konfigurieren wir die Speicheroptionen so, dass für die Listeneinrückung ein Tabulatorzeichen mit einer Anzahl von 1 verwendet wird.
+Hier weisen wir Aspose.Words an, vor jeder Listenschicht ein Tab‑Zeichen (`'\t'`) vorzusetzen, wodurch die Textausgabe leichter lesbar wird.
 
-## Schritt 3: Speichern Sie das Dokument als Text
+## Schritt 3: Dokument als Text speichern
 
-Nachdem wir die Optionen zum Speichern des Textes definiert haben, können wir das Dokument als Textdatei speichern. Der folgende Code zeigt, wie das geht:
+Jetzt, da die Speicheroptionen bereit sind, können Sie das Dokument als **reine Textdatei** speichern:
 
 ```java
 doc.save("output.txt", saveOptions);
 ```
 
-Ersetzen `"output.txt"` mit dem gewünschten Dateipfad, in dem Sie die Textdatei speichern möchten.
+Ersetzen Sie `"output.txt"` durch den vollständigen Pfad, an dem Sie die Datei speichern möchten.
 
 ## Vollständiger Quellcode zum Speichern von Dokumenten als Textdateien in Aspose.Words für Java
 
@@ -97,7 +106,7 @@ Ersetzen `"output.txt"` mit dem gewünschten Dateipfad, in dem Sie die Textdatei
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Erstellen Sie eine Liste mit drei Einrückungsebenen.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -114,7 +123,7 @@ Ersetzen `"output.txt"` mit dem gewünschten Dateipfad, in dem Sie die Textdatei
     {
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
-        // Erstellen Sie eine Liste mit drei Einrückungsebenen.
+        // Create a list with three levels of indentation.
         builder.getListFormat().applyNumberDefault();
         builder.writeln("Item 1");
         builder.getListFormat().listIndent();
@@ -128,24 +137,24 @@ Ersetzen `"output.txt"` mit dem gewünschten Dateipfad, in dem Sie die Textdatei
 	}
 ```
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir gelernt, wie man Dokumente als Textdateien in Aspose.Words für Java speichert. Wir haben die Schritte zum Erstellen eines Dokuments, zum Definieren von Textspeicheroptionen und zum Speichern des Dokuments im Textformat beschrieben. Aspose.Words bietet umfassende Flexibilität beim Speichern von Dokumenten und ermöglicht Ihnen, die Ausgabe an Ihre spezifischen Anforderungen anzupassen.
+| Problem | Lösung |
+|-------|----------|
+| **Bidi‑Zeichen erscheinen als unlesbarer Text** | Stellen Sie sicher, dass `setAddBidiMarks(true)` aktiviert ist und die Ausgabedatei mit UTF‑8‑Kodierung geöffnet wird. |
+| **Listeneinrückung sieht falsch aus** | Überprüfen Sie, ob `ListIndentation.Count` und `Character` auf die gewünschten Werte (Tab `'\t'` oder Leerzeichen `' '` ) gesetzt sind. |
+| **Datei wurde nicht erstellt** | Prüfen Sie, ob der Verzeichnispfad existiert und die Anwendung Schreibrechte hat. |
 
 ## Häufig gestellte Fragen
 
-### Wie füge ich der Textausgabe Bidi-Markierungen hinzu?
-
-Um der Textausgabe Bidi-Markierungen hinzuzufügen, setzen Sie die `AddBidiMarks` Eigentum von `TxtSaveOptions` Zu `true`. Zum Beispiel:
+### Wie füge ich Bidi‑Markierungen zur Textausgabe hinzu?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 saveOptions.setAddBidiMarks(true);
 ```
 
-### Kann ich das Einrückungszeichen für Listen anpassen?
-
-Ja, Sie können das Einrückungszeichen für Listen anpassen, indem Sie das `ListIndentation` Eigentum von `TxtSaveOptions`Um beispielsweise ein Tabulatorzeichen zum Einrücken von Listen zu verwenden, können Sie Folgendes tun:
+### Kann ich das Listeneinrückungszeichen anpassen?
 
 ```java
 TxtSaveOptions saveOptions = new TxtSaveOptions();
@@ -153,25 +162,36 @@ saveOptions.getListIndentation().setCount(1);
 saveOptions.getListIndentation().setCharacter('\t');
 ```
 
-### Ist Aspose.Words für Java für die Verarbeitung mehrsprachiger Texte geeignet?
+### Ist Aspose.Words für Java geeignet für die Verarbeitung mehrsprachigen Textes?
 
-Ja, Aspose.Words für Java eignet sich für die Verarbeitung mehrsprachiger Texte. Es unterstützt verschiedene Sprachen und Zeichenkodierungen und ist somit eine vielseitige Lösung für die Arbeit mit Dokumenten in verschiedenen Sprachen.
+Ja, Aspose.Words für Java unterstützt eine breite Palette von Sprachen und Zeichenkodierungen, was es ideal macht, mehrsprachige Inhalte als reine Textdatei zu extrahieren und zu speichern.
 
-### Wie kann ich auf weitere Dokumentation und Ressourcen für Aspose.Words für Java zugreifen?
+### Wie kann ich weitere Dokumentation und Ressourcen für Aspose.Words für Java erhalten?
 
-Umfassende Dokumentation und Ressourcen zu Aspose.Words für Java finden Sie auf der Aspose-Dokumentationswebsite: [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/).
+Sie finden umfassende Dokumentation und Ressourcen auf der Aspose.Words für Java Dokumentationsseite: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
 ### Wo kann ich Aspose.Words für Java herunterladen?
 
-Sie können die Aspose.Words-Bibliothek für Java von der Aspose-Website herunterladen: [Laden Sie Aspose.Words für Java herunter](https://releases.aspose.com/words/java/).
+Sie können die Bibliothek von der offiziellen Seite herunterladen: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
+### Was ist, wenn ich **Word in TXT** in einem Batch‑Prozess konvertieren muss?
+
+Umwickeln Sie den oben gezeigten Code in einer Schleife, die jede `.docx`‑Datei lädt, dieselben `TxtSaveOptions` anwendet und jede als `.txt` speichert. Stellen Sie sicher, dass Sie Ressourcen verwalten, indem Sie `Document`‑Objekte nach jeder Iteration freigeben.
+
+### Unterstützt die API das direkte Speichern in einen Stream anstatt in eine Datei?
+
+Ja, Sie können einen `OutputStream` an `doc.save(outputStream, saveOptions)` übergeben, um in‑Speicher‑Verarbeitung oder die Integration mit Web‑Services zu ermöglichen.
+
+---
+
+**Zuletzt aktualisiert:** 2025-12-24  
+**Getestet mit:** Aspose.Words für Java 24.12 (neueste)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -4,7 +4,9 @@
 "url": "/hu/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Képek és alakzatok oktatóanyagai az Aspose.Words Python-nethez
 
 Fedezz fel átfogó, lépésről lépésre bemutató útmutatókat a kép- és alakzatműveletekhez az Aspose.Words for Python-net használatával. Ezek az oktatóanyagok teljes kódpéldákat és részletes magyarázatokat tartalmaznak.
@@ -32,6 +34,9 @@ Tanuld meg, hogyan optimalizálhatod a képkezelést RTF dokumentumokban az Aspo
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python használatával. Ez az útmutató olyan egyéni funkciókat ismertet, mint a képszerű tulajdonságok, a szövegmegjelenítés és a biztonsági fejlesztések.
 
+### [Hogyan adjunk árnyékot C#-ban – Teljes programozási útmutató](./how-to-add-shadow-in-c-complete-programming-guide/)
+Ismerd meg, hogyan alkalmazhatsz árnyékhatást C#-ban az Aspose.Words segítségével, lépésről lépésre útmutató.
+
 ## További források
 
 - [Aspose.Words Python-net dokumentációhoz](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Tanuld meg, hogyan optimalizálhatod az SVG kimenetet az Aspose.Words for Python
 - [Aspose.Words Fórum](https://forum.aspose.com/c/words/8)
 - [Ingyenes támogatás](https://forum.aspose.com/)
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

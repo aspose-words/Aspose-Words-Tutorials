@@ -27,7 +27,8 @@ Aspose.Words for .NET 教程：使用 ImageSaveOptions 进行文字处理，将�
 | [格式 1Bpp 索引](./format-1bpp-indexed/) 了解如何使用 Aspose.Words for .NET 将 Word 文档转换为 1Bpp 索引图像。按照我们的分步指南轻松完成转换。|
 | [获取 Jpeg 页面范围](./get-jpeg-page-range/) 使用 Aspose.Words for .NET 将 Word 文档的特定页面转换为 JPEG 格式，并自定义设置。学习如何逐步调整亮度、对比度和分辨率。|
 | [页面保存回调](./page-saving-callback/) 学习使用 Aspose.Words for .NET 将 Word 文档的每一页保存为单独的 PNG 图像，并遵循我们详细的分步指南。|
-
+| [在将 Word 转换为 PNG 时设置 DPI – 完整 C# 指南](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) 通过本详细的 C# 示例，学习如何在使用 Aspose.Words for .NET 将 Word 文档转换为 PNG 时自定义 DPI 设置。|
+| [从 Word 文档创建 PNG 网格 – 分步指南](./create-png-grid-from-word-document-step-by-step-guide/) 通过本分步指南了解如何使用 Aspose.Words for .NET 将 Word 文档转换为 PNG 网格图像，实现批量页面导出。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -5,7 +5,9 @@
 "url": "/vi/python-net/document-operations/aspose-words-python-pdf-manipulation/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Thao tác PDF nâng cao với Aspose.Words cho Python
 
 ## Giới thiệu
@@ -251,3 +253,7 @@ Aspose.Words for Python cung cấp các công cụ mạnh mẽ để thao tác P
 - "Chuyển đổi PDF sang DOCX"
 - "Quản lý tài liệu bằng Python"
 - "Xử lý PDF được mã hóa"
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

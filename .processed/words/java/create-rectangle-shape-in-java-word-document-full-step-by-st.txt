@@ -1,0 +1,7 @@
+Title: Create Rectangle Shape in Java Word Document – Full Step‑by‑Step Guide
+Slug: create-rectangle-shape-in-java-word-document-full-step-by-st
+Category: images-shapes
+ProcessedDate: 2026-05-27T04:38:52.042757
+SourceRepo: AI Search API
+Keywords: create rectangle shape, apply shadow effect, create word document java, add shape shadow, set shadow distance
+PRNumber: 193

@@ -4,7 +4,9 @@
 "url": "/vi/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn về Mail Merge & Reporting cho Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện về thao tác trộn thư và báo cáo bằng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -37,3 +39,7 @@ Tìm hiểu cách thành thạo việc hợp nhất tài liệu với Aspose.Wor
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
