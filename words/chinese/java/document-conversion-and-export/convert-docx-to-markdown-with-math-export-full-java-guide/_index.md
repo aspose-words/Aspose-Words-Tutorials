@@ -188,53 +188,6 @@ PDF/UA 确保屏幕阅读器能够解释文档结构，inline‑shape 设置防�
 
 我们之前添加的 `ResourceSavingCallback` 会将每个图像保存到 `resources/` 文件夹，并相应地重写 Markdown 图像链接。如果不需要图像，只需省略回调即可。
 
-## 完整可运行示例（全部代码）
-
-下面是完整的可直接运行的程序。将其复制粘贴到 `DocxToMarkdown.java` 文件中，调整路径后，运行 `mvn exec:java` 或使用 IDE 的运行命令。
-
-```java
-import com.aspose.words.*;
-
-public class DocxToMarkdown {
-    public static void main(String[] args) throws Exception {
-        // -------------------------------------------------
-        // 1️⃣ Load the DOCX with relaxed recovery (how to load docx)
-        // -------------------------------------------------
-        String inputPath = "YOUR_DIRECTORY/input.docx";
-
-        LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setRecoveryMode(LoadOptions.RecoveryMode.RELAXED);
-        Document document = new Document(inputPath, loadOptions);
-
-        // -------------------------------------------------
-        // 2️⃣ Set up Markdown export (how to export math)
-        // -------------------------------------------------
-        MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions();
-        markdownOptions.setOfficeMathExportMode(
-            MarkdownSaveOptions.OfficeMathExportMode.LATEX);
-        markdownOptions.setEmptyParagraphExportMode(
-            MarkdownEmptyParagraphExportMode.PRESERVE);
-        markdownOptions.setResourceSavingCallback(new IResourceSavingCallback() {
-            @Override
-            public void resourceSaving(ResourceSavingArgs args) {
-                // Save images next to the .md file
-                args.setResourceFileName(args.getResourceFileName());
-                args.setResourceFilePath("YOUR_DIRECTORY/resources/");
-            }
-        });
-
-        // -------------------------------------------------
-        // 3️⃣ Configure PDF/UA export (save as markdown pdf)
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions();
-        pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);
-        pdfOptions.setExportFloatingShapesAsInlineTag(true);
-
-        // -------------------------------------------------
-        // 4️⃣ Write out both files
-        // -------------------------------------------------
-        String markdownPath = "YOUR_DIRECTORY/output.md";
-        String
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
