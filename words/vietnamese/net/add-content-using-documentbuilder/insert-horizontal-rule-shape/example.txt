@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách tạo tài liệu Word, thêm một đoạn văn bản, và chèn một hình dạng đường kẻ ngang bằng cách sử dụng Document và DocumentBuilder.
+//ExStepSummary:0: Tạo một tài liệu Word trống mới bằng cách khởi tạo lớp Document.
+//ExStepSummary:1: Tạo một DocumentBuilder liên kết với tài liệu để cho phép các thao tác chỉnh sửa.
+//ExStepSummary:2: Viết một đoạn văn bản và sau đó chèn một hình dạng đường kẻ ngang tại vị trí con trỏ bằng cách sử dụng DocumentBuilder.
+//ExStepSummary:3: Xác định đường dẫn thư mục đầu ra và lưu tài liệu thành tệp .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

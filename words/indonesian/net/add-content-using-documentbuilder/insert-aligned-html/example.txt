@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Dengan menggunakan Aspose.Words Document dan DocumentBuilder, tutorial ini menyisipkan markup HTML ke dalam dokumen Word dan menyimpan hasilnya.
+//ExStepSummary:0: Tentukan folder output, buat Document baru, dan inisialisasi DocumentBuilder untuk dokumen tersebut.
+//ExStepSummary:1: Panggil `builder.InsertHtml()` untuk menambahkan paragraf rata kanan, teks tebal, div terpusat, dan heading rata kiri ke dalam dokumen.
+//ExStepSummary:2: Simpan dokumen yang telah dimodifikasi ke folder yang ditentukan sebagai file .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

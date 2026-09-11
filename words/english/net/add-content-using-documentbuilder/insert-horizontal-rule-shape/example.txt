@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: This tutorial shows how to create a Word document, add a paragraph of text, and insert a horizontal rule shape using Document and DocumentBuilder.
+//ExStepSummary:0: Create a new empty Word document by instantiating the Document class.
+//ExStepSummary:1: Create a DocumentBuilder linked to the document to enable editing operations.
+//ExStepSummary:2: Write a paragraph of text and then insert a horizontal rule shape at the cursor position using DocumentBuilder.
+//ExStepSummary:3: Define the output folder path and save the document to a .docx file.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

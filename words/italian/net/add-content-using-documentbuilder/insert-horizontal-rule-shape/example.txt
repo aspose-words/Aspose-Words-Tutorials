@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Questo tutorial mostra come creare un documento Word, aggiungere un paragrafo di testo e inserire una forma di regola orizzontale usando Document e DocumentBuilder.
+//ExStepSummary:0: Crea un nuovo documento Word vuoto istanziando la classe Document.
+//ExStepSummary:1: Crea un DocumentBuilder collegato al documento per abilitare le operazioni di modifica.
+//ExStepSummary:2: Scrivi un paragrafo di testo e poi inserisci una forma di regola orizzontale nella posizione del cursore usando DocumentBuilder.
+//ExStepSummary:3: Definisci il percorso della cartella di output e salva il documento in un file .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

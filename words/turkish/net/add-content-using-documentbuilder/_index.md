@@ -19,6 +19,13 @@
 DocumentBuilder Kullanarak İçerik Ekleme, .NET için Aspose.Words kütüphanesindeki DocumentBuilder sınıfını kullanarak Word belgelerinize içerik ekleme sürecinde size yol gösteren kapsamlı bir kaynaktır. Adım adım eğitimler, paragraf oluşturma, metin ekleme, metni biçimlendirme, resim, tablo ekleme ve daha fazlası hakkında adım adım talimatlar, kapsamlı kod örnekleri ve adım adım açıklamalar sunar. Dahası. Bu kaynak, .NET için Aspose.Words kullanarak Word belgesi oluşturmayı otomatikleştirmek ve özel ihtiyaçlarını karşılamak için kolayca özel içerik eklemek isteyen geliştiriciler için olmazsa olmazdır.
 
  ## Eğitimler
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Aspose.Words for .NET kullanarak Word belgesine Yatay Çizgi Şekli ekleme" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET kullanarak Word Belgesine Hizalanmış HTML ekleyin" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
+
 | Başlık | Açıklama |
 | --- | --- |
 | [Yeni Word Belgesi Oluştur](./create-new-document/) Aspose.Words for .NET kullanarak Word belgelerinin nasıl oluşturulacağını öğrenin. Bu adım adım kılavuz, belge otomasyonunu kolaylaştırarak sizi süreçte yönlendirecektir. |

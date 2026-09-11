@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Aspose.Words Document ve DocumentBuilder kullanarak, bu öğreticide HTML işaretlemesi bir Word belgesine eklenir ve sonuç kaydedilir.
+//ExStepSummary:0: Çıktı klasörünü tanımlayın, yeni bir Document oluşturun ve o belge için bir DocumentBuilder başlatın.
+//ExStepSummary:1: `builder.InsertHtml()` metodunu çağırarak belgeye sağa hizalanmış paragraf, kalın metin, ortalanmış div ve sola hizalanmış bir başlık ekleyin.
+//ExStepSummary:2: Değiştirilmiş belgeyi belirtilen klasöre .docx dosyası olarak kaydedin.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

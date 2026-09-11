@@ -19,6 +19,13 @@
 إضافة محتوى باستخدام DocumentBuilder هو مورد شامل يشرح عملية إضافة محتوى إلى مستندات Word باستخدام فئة DocumentBuilder من مكتبة Aspose.Words لـ .NET. تقدم لك الدروس التعليمية خطوة بخطوة تعليمات برمجية مفصلة، وأمثلة برمجية شاملة، وشروحات تفصيلية حول إنشاء الفقرات، وإدراج النصوص، وتنسيق النصوص، وإضافة الصور والجداول، وغيرها. علاوة على ذلك، يُعد هذا المورد ضروريًا للمطورين الذين يرغبون في أتمتة إنشاء مستندات Word باستخدام Aspose.Words لـ .NET، وإضافة محتوى مخصص بسهولة لتلبية احتياجاتهم الخاصة.
 
  ## دروس تعليمية
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="إدراج شكل خط أفقي في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-aligned-html/" title="إدراج HTML محاذى في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+
+
 | العنوان | الوصف |
 | --- | --- |
 | [إنشاء مستند Word جديد](./create-new-document/) تعلّم كيفية إنشاء مستندات Word باستخدام Aspose.Words لـ .NET. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يُسهّل أتمتة المستندات. |
