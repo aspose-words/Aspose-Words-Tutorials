@@ -50,19 +50,19 @@ url: /net/add-content-using-documentbuilder/insert-horizontal-rule-shape/
 
 ## Frequently asked questions
 
-**Q: `builder.InsertHorizontalRule()`가 문서에서 정확히 어느 위치에 선을 삽입하나요?**
+**Q: `builder.InsertHorizontalRule()`가 문서에서 정확히 어느 위치에 선을 삽입하나요?**  
 A: `InsertHorizontalRule`는 `DocumentBuilder`의 현재 커서 위치에 가로 구분선 형태를 삽입합니다; 별도의 라인에 놓고 싶다면 삽입하기 전에 `builder.Writeln()`을 호출하세요.
 
-**Q: 삽입된 가로 구분선의 두께, 색상 또는 너비를 변경할 수 있나요?**
+**Q: 삽입된 가로 구분선의 두께, 색상 또는 너비를 변경할 수 있나요?**  
 A: `InsertHorizontalRule`는 기본 스타일의 구분선을 추가하며 형식 옵션을 제공하지 않습니다; 이러한 속성을 사용자 정의하려면 `Shape`를 직접 삽입해야 합니다(예: `builder.InsertShape(ShapeType.HorizontalLine)`) 그리고 그 `LineFormat` 속성을 설정하세요.
 
-**Q: 같은 문서에 가로 구분선을 두 개 이상 추가할 수 있나요?**
+**Q: 같은 문서에 가로 구분선을 두 개 이상 추가할 수 있나요?**  
 A: 예—새 구분선이 필요할 때마다 `builder.InsertHorizontalRule()`를 호출하면 됩니다; 각 호출은 builder의 현재 위치에 별개의 형태를 생성합니다.
 
-**Q: 저장된 .docx 파일을 Microsoft Word에서 열면 가로 구분선이 표시됩니까?**
+**Q: 저장된 .docx 파일을 Microsoft Word에서 열면 가로 구분선이 표시됩니까?**  
 A: 물론입니다; 구분선은 .docx 파일 내부에 형태로 저장되므로 Word에서 생성된 문서와 동일하게 표시됩니다.
 
-**Q: `doc.Save(...)`를 호출하기 전에 `dataDir` 폴더가 존재하지 않으면 어떻게 되나요?**
+**Q: `doc.Save(...)`를 호출하기 전에 `dataDir` 폴더가 존재하지 않으면 어떻게 되나요?**  
 A: `doc.Save`는 `DirectoryNotFoundException`을 발생시킵니다; 저장하기 전에 대상 디렉터리가 존재하는지 확인하거나 프로그래밍 방식으로 생성하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

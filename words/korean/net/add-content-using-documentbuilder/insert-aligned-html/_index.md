@@ -50,16 +50,16 @@ url: /net/add-content-using-documentbuilder/insert-aligned-html/
 
 ## Frequently asked questions
 
-**Q: InsertHtml을 사용하여 새 문서가 아니라 기존 Word 문서에 HTML을 추가할 수 있나요?**
+**Q: InsertHtml을 사용하여 새 문서가 아니라 기존 Word 문서에 HTML을 추가할 수 있나요?**  
 A: 예. 기존 파일에서 Document를 생성하고, DocumentBuilder 커서를 HTML을 삽입하고 싶은 위치에 배치합니다(예: builder.MoveToDocumentEnd() 사용). 그런 다음 builder.InsertHtml에 마크업을 전달하여 호출합니다.
 
-**Q: InsertHtml이 정렬을 위해 인식하는 HTML 속성은 무엇인가요?**
-A: InsertHtml은 <p>, <div>, 제목 태그와 같은 블록 레벨 요소의 "align" 속성을 존중하여, 결과 Word 문서에서 해당 단락 정렬을 적용합니다.
+**Q: InsertHtml이 정렬을 위해 인식하는 HTML 속성은 무엇인가요?**  
+A: InsertHtml은 &lt;p&gt;, &lt;div&gt;, 제목 태그와 같은 블록 레벨 요소의 "align" 속성을 존중하여, 결과 Word 문서에서 해당 단락 정렬을 적용합니다.
 
-**Q: HTML 문자열에 지원되지 않는 태그나 CSS가 포함되어 있으면 어떻게 되나요?**
+**Q: HTML 문자열에 지원되지 않는 태그나 CSS가 포함되어 있으면 어떻게 되나요?**  
 A: 지원되지 않는 태그는 무시되고 내부 텍스트는 일반 텍스트로 삽입됩니다; Aspose.Words가 인식하지 못하는 인라인 CSS 스타일도 무시되므로 지원되는 HTML 하위 집합만 렌더링됩니다.
 
-**Q: 문서를 저장하기 전에 DocumentBuilder를 닫아야 하나요?**
+**Q: 문서를 저장하기 전에 DocumentBuilder를 닫아야 하나요?**  
 A: 명시적으로 닫을 필요는 없습니다; HTML을 삽입한 후 원하는 파일 이름과 형식으로 doc.Save를 바로 호출하면 되며, Builder의 리소스는 자동으로 해제됩니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

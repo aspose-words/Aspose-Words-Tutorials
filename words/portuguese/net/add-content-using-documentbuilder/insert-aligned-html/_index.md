@@ -50,16 +50,16 @@ Este tutorial demonstra como usar o DocumentBuilder do Aspose.Words for .NET par
 
 ## Frequently asked questions
 
-**Q: O InsertHtml pode ser usado para adicionar HTML em um documento Word existente em vez de um novo?**
+**Q: O InsertHtml pode ser usado para adicionar HTML em um documento Word existente em vez de um novo?**  
 A: Sim. Crie um Document a partir do arquivo existente, posicione o cursor do DocumentBuilder onde você deseja inserir o HTML (por exemplo, usando builder.MoveToDocumentEnd()) e, em seguida, chame builder.InsertHtml com sua marcação.
 
-**Q: Quais atributos HTML são respeitados pelo InsertHtml para alinhamento?**
-A: O InsertHtml respeita o atributo "align" em elementos de nível de bloco como <p>, <div> e tags de título, aplicando o alinhamento de parágrafo correspondente no documento Word resultante.
+**Q: Quais atributos HTML são respeitados pelo InsertHtml para alinhamento?**  
+A: O InsertHtml respeita o atributo "align" em elementos de nível de bloco como &lt;p&gt;, &lt;div&gt; e tags de título, aplicando o alinhamento de parágrafo correspondente no documento Word resultante.
 
-**Q: O que acontece se a string HTML contiver tags ou CSS não suportados?**
+**Q: O que acontece se a string HTML contiver tags ou CSS não suportados?**  
 A: Tags não suportadas são ignoradas e seu texto interno é inserido como texto simples; estilos CSS inline que o Aspose.Words não reconhece também são ignorados, portanto apenas o subconjunto suportado de HTML é renderizado.
 
-**Q: Preciso fechar o DocumentBuilder antes de salvar o documento?**
+**Q: Preciso fechar o DocumentBuilder antes de salvar o documento?**  
 A: Não é necessário fechar explicitamente; após inserir o HTML, você pode chamar diretamente doc.Save com o nome e formato de arquivo desejados, e os recursos do builder são liberados automaticamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -25,8 +25,6 @@ DocumentBuilderを使用したコンテンツの追加は、Aspose.Words for .NE
 
 {{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET を使用して Word 文書に配置された HTML を挿入する" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Aspose.Words for .NET を使用して Word ドキュメントに TC フィールドを追加します。" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | --- | --- |

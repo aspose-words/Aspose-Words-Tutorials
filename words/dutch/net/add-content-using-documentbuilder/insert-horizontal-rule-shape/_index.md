@@ -50,19 +50,19 @@ In deze tutorial leer je hoe je programmatically een horizontale regelvorm in ee
 
 ## Frequently asked questions
 
-**Q: Waar precies plaatst `builder.InsertHorizontalRule()` de lijn in het document?**
+**Q: Waar precies plaatst `builder.InsertHorizontalRule()` de lijn in het document?**  
 A: `InsertHorizontalRule` voegt een horizontale regelvorm in op de huidige cursorpositie van de `DocumentBuilder`; als je het op een eigen regel wilt, roep dan `builder.Writeln()` aan vóór de invoeging.
 
-**Q: Kan ik de dikte, kleur of breedte van de ingevoegde horizontale regel aanpassen?**
+**Q: Kan ik de dikte, kleur of breedte van de ingevoegde horizontale regel aanpassen?**  
 A: `InsertHorizontalRule` voegt een standaard gestylede regel toe en biedt geen opmaakopties; om die eigenschappen aan te passen moet je handmatig een `Shape` invoegen (bijv. `builder.InsertShape(ShapeType.HorizontalLine)`) en vervolgens de `LineFormat`‑eigenschappen instellen.
 
-**Q: Is het mogelijk om meer dan één horizontale regel toe te voegen in hetzelfde document?**
+**Q: Is het mogelijk om meer dan één horizontale regel toe te voegen in hetzelfde document?**  
 A: Ja—roep simpelweg `builder.InsertHorizontalRule()` telkens wanneer je een nieuwe regel nodig hebt; elke oproep maakt een aparte vorm op de huidige locatie van de builder.
 
-**Q: Zal de horizontale regel zichtbaar zijn wanneer het opgeslagen .docx‑bestand wordt geopend in Microsoft Word?**
+**Q: Zal de horizontale regel zichtbaar zijn wanneer het opgeslagen .docx‑bestand wordt geopend in Microsoft Word?**  
 A: Absoluut; de regel wordt opgeslagen als een vorm binnen het .docx‑bestand, zodat Word deze precies weergeeft zoals hij in het gegenereerde document verschijnt.
 
-**Q: Wat gebeurt er als de `dataDir`‑map niet bestaat voordat `doc.Save(...)` wordt aangeroepen?**
+**Q: Wat gebeurt er als de `dataDir`‑map niet bestaat voordat `doc.Save(...)` wordt aangeroepen?**  
 A: `doc.Save` zal een `DirectoryNotFoundException` werpen; zorg ervoor dat de doelmap bestaat of maak deze programmatically aan vóór het opslaan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

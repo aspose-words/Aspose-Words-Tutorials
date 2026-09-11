@@ -50,19 +50,19 @@ url: /net/add-content-using-documentbuilder/insert-horizontal-rule-shape/
 
 ## Frequently asked questions
 
-**Q: `builder.InsertHorizontalRule()` はドキュメント内のどこに正確に線を配置しますか？**
+**Q: `builder.InsertHorizontalRule()` はドキュメント内のどこに正確に線を配置しますか？**  
 A: `InsertHorizontalRule` は `DocumentBuilder` の現在のカーソル位置に水平ルール シェイプを挿入します。独立した行にしたい場合は、挿入前に `builder.Writeln()` を呼び出してください。
 
-**Q: 挿入された水平ルールの太さ、色、幅を変更できますか？**
+**Q: 挿入された水平ルールの太さ、色、幅を変更できますか？**  
 A: `InsertHorizontalRule` はデフォルトスタイルのルールを追加し、書式設定オプションは公開されていません。これらのプロパティをカスタマイズするには、`Shape` を手動で挿入（例: `builder.InsertShape(ShapeType.HorizontalLine)`）し、`LineFormat` プロパティを設定する必要があります。
 
-**Q: 同じドキュメントに複数の水平ルールを追加することは可能ですか？**
+**Q: 同じドキュメントに複数の水平ルールを追加することは可能ですか？**  
 A: はい。新しいルールが必要なときは `builder.InsertHorizontalRule()` を呼び出すだけです。呼び出すたびに、builder の現在位置に個別のシェイプが作成されます。
 
-**Q: 保存された .docx を Microsoft Word で開いたとき、水平ルールは表示されますか？**
+**Q: 保存された .docx を Microsoft Word で開いたとき、水平ルールは表示されますか？**  
 A: もちろんです。ルールは .docx ファイル内のシェイプとして保存されるため、Word は生成されたドキュメントと同じように正確に表示します。
 
-**Q: `doc.Save(...)` を呼び出す前に `dataDir` フォルダーが存在しない場合、どうなりますか？**
+**Q: `doc.Save(...)` を呼び出す前に `dataDir` フォルダーが存在しない場合、どうなりますか？**  
 A: `doc.Save` は `DirectoryNotFoundException` をスローします。保存する前に対象ディレクトリが存在することを確認するか、プログラムで作成してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}

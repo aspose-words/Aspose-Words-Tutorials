@@ -50,19 +50,19 @@ Bu öğreticide, Aspose.Words for .NET ile bir Word belgesine programlı olarak 
 
 ## Frequently asked questions
 
-**Q: `builder.InsertHorizontalRule()` satırı belge içinde tam olarak nereye yerleştirir?**
+**Q: `builder.InsertHorizontalRule()` satırı belge içinde tam olarak nereye yerleştirir?**  
 A: `InsertHorizontalRule`, `DocumentBuilder`'ın mevcut imleç konumuna bir yatay çizgi şekli ekler; eğer satır başına tek başına olmasını istiyorsanız, eklemeden önce `builder.Writeln()` çağırın.
 
-**Q: Eklenen yatay çizginin kalınlığını, rengini veya genişliğini değiştirebilir miyim?**
+**Q: Eklenen yatay çizginin kalınlığını, rengini veya genişliğini değiştirebilir miyim?**  
 A: `InsertHorizontalRule`, varsayılan stilli bir çizgi ekler ve biçimlendirme seçeneklerini sunmaz; bu özellikleri özelleştirmek için bir `Shape` nesnesini manuel olarak eklemeniz gerekir (ör. `builder.InsertShape(ShapeType.HorizontalLine)`) ve ardından `LineFormat` özelliklerini ayarlamalısınız.
 
-**Q: Aynı belgede birden fazla yatay çizgi eklemek mümkün mü?**
+**Q: Aynı belgede birden fazla yatay çizgi eklemek mümkün mü?**  
 A: Evet—yeni bir çizgiye ihtiyacınız olduğunda `builder.InsertHorizontalRule()`'ı sadece çağırın; her çağrı, builder'ın mevcut konumunda ayrı bir şekil oluşturur.
 
-**Q: Kaydedilen .docx Microsoft Word'de açıldığında yatay çizgi görünür mü?**
+**Q: Kaydedilen .docx Microsoft Word'de açıldığında yatay çizgi görünür mü?**  
 A: Kesinlikle; çizgi .docx dosyasının içinde bir şekil olarak kaydedilir, bu yüzden Word onu oluşturulan belgede göründüğü gibi tam olarak gösterir.
 
-**Q: `doc.Save(...)` çağrılmadan önce `dataDir` klasörü mevcut değilse ne olur?**
+**Q: `doc.Save(...)` çağrılmadan önce `dataDir` klasörü mevcut değilse ne olur?**  
 A: `doc.Save`, bir `DirectoryNotFoundException` fırlatır; hedef dizinin var olduğundan emin olun veya kaydetmeden önce programlı olarak oluşturun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

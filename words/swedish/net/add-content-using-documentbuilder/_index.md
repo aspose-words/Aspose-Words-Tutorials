@@ -24,8 +24,6 @@ Lägga till innehåll med DocumentBuilder är en omfattande resurs som guidar di
 
 {{< tutorial-card link="./insert-aligned-html/" title="Infoga justerad HTML i Word-dokument med Aspose.Words för .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Lägg till ett TC-fält i ett Word-dokument med Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Titel | Beskrivning |

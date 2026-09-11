@@ -50,19 +50,19 @@ Trong hướng dẫn này, bạn sẽ học cách chèn một hình dạng đư�
 
 ## Frequently asked questions
 
-**Q: `builder.InsertHorizontalRule()` đặt dòng ở vị trí chính xác nào trong tài liệu?**
+**Q: `builder.InsertHorizontalRule()` đặt dòng ở vị trí chính xác nào trong tài liệu?**  
 A: `InsertHorizontalRule` chèn một hình dạng đường kẻ ngang tại vị trí con trỏ hiện tại của `DocumentBuilder`; nếu bạn muốn nó trên một dòng riêng, hãy gọi `builder.Writeln()` trước khi chèn.
 
-**Q: Tôi có thể thay đổi độ dày, màu sắc hoặc chiều rộng của đường kẻ ngang đã chèn không?**
+**Q: Tôi có thể thay đổi độ dày, màu sắc hoặc chiều rộng của đường kẻ ngang đã chèn không?**  
 A: `InsertHorizontalRule` thêm một đường kẻ có kiểu mặc định và không cung cấp các tùy chọn định dạng; để tùy chỉnh các thuộc tính đó, bạn cần chèn một `Shape` một cách thủ công (ví dụ, `builder.InsertShape(ShapeType.HorizontalLine)`) và sau đó đặt các thuộc tính `LineFormat` của nó.
 
-**Q: Có thể thêm hơn một đường kẻ ngang trong cùng một tài liệu không?**
+**Q: Có thể thêm hơn một đường kẻ ngang trong cùng một tài liệu không?**  
 A: Có—chỉ cần gọi `builder.InsertHorizontalRule()` mỗi khi bạn cần một đường kẻ mới; mỗi lần gọi sẽ tạo một hình dạng riêng tại vị trí hiện tại của builder.
 
-**Q: Đường kẻ ngang có hiển thị khi tệp .docx đã lưu được mở trong Microsoft Word không?**
+**Q: Đường kẻ ngang có hiển thị khi tệp .docx đã lưu được mở trong Microsoft Word không?**  
 A: Chắc chắn; đường kẻ được lưu dưới dạng một hình dạng trong tệp .docx, vì vậy Word hiển thị nó chính xác như trong tài liệu được tạo.
 
-**Q: Điều gì sẽ xảy ra nếu thư mục `dataDir` không tồn tại trước khi gọi `doc.Save(...)`?**
+**Q: Điều gì sẽ xảy ra nếu thư mục `dataDir` không tồn tại trước khi gọi `doc.Save(...)`?**  
 A: `doc.Save` sẽ ném ra một `DirectoryNotFoundException`; hãy đảm bảo thư mục đích tồn tại hoặc tạo nó bằng mã trước khi lưu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

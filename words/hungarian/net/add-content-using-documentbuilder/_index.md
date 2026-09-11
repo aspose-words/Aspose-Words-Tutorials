@@ -24,8 +24,6 @@ A Tartalom hozzáadása a DocumentBuilder segítségével egy átfogó forrás, 
 
 {{< tutorial-card link="./insert-aligned-html/" title="Igazított HTML beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="TC mező hozzáadása Word dokumentumhoz az Aspose.Words for .NET segítségével" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Cím | Leírás |

@@ -21,8 +21,6 @@ Adding Content Using DocumentBuilder is a comprehensive resource that walks you 
 
  ## Tutorials
 
-{{< tutorial-card link="./insert-tc-field/" title="Add a TC Field to a Word Document with Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 {{< tutorial-card link="./insert-aligned-html/" title="Insert Aligned HTML into Word Document Using Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 

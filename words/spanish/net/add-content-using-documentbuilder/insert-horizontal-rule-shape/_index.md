@@ -50,19 +50,19 @@ En este tutorial aprenderás cómo insertar programáticamente una forma de regl
 
 ## Frequently asked questions
 
-**Q: ¿Dónde exactamente coloca `builder.InsertHorizontalRule()` la línea en el documento?**
+**Q: ¿Dónde exactamente coloca `builder.InsertHorizontalRule()` la línea en el documento?**  
 A: `InsertHorizontalRule` inserta una forma de regla horizontal en la posición actual del cursor del `DocumentBuilder`; si deseas que esté en una línea propia, llama a `builder.Writeln()` antes de la inserción.
 
-**Q: ¿Puedo cambiar el grosor, color o ancho de la regla horizontal insertada?**
+**Q: ¿Puedo cambiar el grosor, color o ancho de la regla horizontal insertada?**  
 A: `InsertHorizontalRule` agrega una regla con estilo predeterminado y no expone opciones de formato; para personalizar esas propiedades debes insertar un `Shape` manualmente (p. ej., `builder.InsertShape(ShapeType.HorizontalLine)`) y luego establecer sus propiedades `LineFormat`.
 
-**Q: ¿Es posible agregar más de una regla horizontal en el mismo documento?**
+**Q: ¿Es posible agregar más de una regla horizontal en el mismo documento?**  
 A: Sí—simplemente llama a `builder.InsertHorizontalRule()` cada vez que necesites una nueva regla; cada llamada crea una forma separada en la ubicación actual del builder.
 
-**Q: ¿Será visible la regla horizontal cuando el .docx guardado se abra en Microsoft Word?**
+**Q: ¿Será visible la regla horizontal cuando el .docx guardado se abra en Microsoft Word?**  
 A: Absolutamente; la regla se guarda como una forma dentro del archivo .docx, por lo que Word la muestra exactamente como aparece en el documento generado.
 
-**Q: ¿Qué ocurre si la carpeta `dataDir` no existe antes de llamar a `doc.Save(...)`?**
+**Q: ¿Qué ocurre si la carpeta `dataDir` no existe antes de llamar a `doc.Save(...)`?**  
 A: `doc.Save` lanzará una `DirectoryNotFoundException`; asegúrate de que el directorio de destino exista o créalo programáticamente antes de guardar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

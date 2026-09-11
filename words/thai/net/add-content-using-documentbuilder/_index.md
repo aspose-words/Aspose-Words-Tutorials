@@ -26,8 +26,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="แทรก HTML ที่จัดแนวลงในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="เพิ่มฟิลด์ TC ลงในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 - [สร้างเอกสาร Word ใหม่](./create-new-document/) เรียนรู้วิธีสร้างเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ ทำให้การสร้างเอกสารอัตโนมัติเป็นเรื่องง่าย -

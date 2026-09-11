@@ -24,8 +24,6 @@ Adding Content Using DocumentBuilder is een uitgebreide bron die u begeleidt bij
 
 {{< tutorial-card link="./insert-aligned-html/" title="Uitgelijnde HTML invoegen in Word-document met Aspose.Words voor .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Voeg een TC‑veld toe aan een Word‑document met Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Titel | Beschrijving |

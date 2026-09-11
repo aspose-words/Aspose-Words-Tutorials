@@ -24,8 +24,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="Вставка выровненного HTML в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Добавьте поле TC в документ Word с помощью Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Название | Описание |

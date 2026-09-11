@@ -50,19 +50,19 @@ Dans ce tutoriel, vous apprendrez comment insérer programmétiquement une forme
 
 ## Frequently asked questions
 
-**Q: Où exactement `builder.InsertHorizontalRule()` place-t-il la ligne dans le document ?**
+**Q: Où exactement `builder.InsertHorizontalRule()` place-t-il la ligne dans le document ?**  
 A: `InsertHorizontalRule` insère une forme de règle horizontale à la position actuelle du curseur du `DocumentBuilder` ; si vous souhaitez qu'elle soit sur une ligne séparée, appelez `builder.Writeln()` avant l'insertion.
 
-**Q: Puis-je modifier l'épaisseur, la couleur ou la largeur de la règle horizontale insérée ?**
+**Q: Puis-je modifier l'épaisseur, la couleur ou la largeur de la règle horizontale insérée ?**  
 A: `InsertHorizontalRule` ajoute une règle au style par défaut et n'expose pas d'options de formatage ; pour personnaliser ces propriétés, vous devez insérer manuellement un `Shape` (par ex., `builder.InsertShape(ShapeType.HorizontalLine)`) puis définir ses propriétés `LineFormat`.
 
-**Q: Est-il possible d'ajouter plusieurs règles horizontales dans le même document ?**
+**Q: Est-il possible d'ajouter plusieurs règles horizontales dans le même document ?**  
 A: Oui — appelez simplement `builder.InsertHorizontalRule()` chaque fois que vous avez besoin d'une nouvelle règle ; chaque appel crée une forme distincte à la position actuelle du builder.
 
-**Q: La règle horizontale sera-t-elle visible lorsque le .docx enregistré sera ouvert dans Microsoft Word ?**
+**Q: La règle horizontale sera-t-elle visible lorsque le .docx enregistré sera ouvert dans Microsoft Word ?**  
 A: Absolument ; la règle est enregistrée comme une forme à l'intérieur du fichier .docx, donc Word l'affiche exactement comme elle apparaît dans le document généré.
 
-**Q: Que se passe-t-il si le dossier `dataDir` n'existe pas avant d'appeler `doc.Save(...)` ?**
+**Q: Que se passe-t-il si le dossier `dataDir` n'existe pas avant d'appeler `doc.Save(...)` ?**  
 A: `doc.Save` lèvera une `DirectoryNotFoundException` ; assurez‑vous que le répertoire cible existe ou créez‑le programmatique­ment avant l'enregistrement.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

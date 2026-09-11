@@ -24,8 +24,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में संरेखित HTML सम्मिलित करें" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Aspose.Words for .NET के साथ Word दस्तावेज़ में एक TC फ़ील्ड जोड़ें" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | शीर्षक | विवरण |

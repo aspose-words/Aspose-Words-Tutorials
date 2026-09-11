@@ -50,19 +50,19 @@ W tym tutorialu dowiesz się, jak programowo wstawić kształt poziomej linii do
 
 ## Frequently asked questions
 
-**Q: Gdzie dokładnie metoda `builder.InsertHorizontalRule()` umieszcza linię w dokumencie?**
+**Q: Gdzie dokładnie metoda `builder.InsertHorizontalRule()` umieszcza linię w dokumencie?**  
 A: `InsertHorizontalRule` wstawia kształt poziomej linii w bieżącą pozycję kursora `DocumentBuilder`; jeśli chcesz, aby znajdował się w osobnym wierszu, wywołaj `builder.Writeln()` przed wstawieniem.
 
-**Q: Czy mogę zmienić grubość, kolor lub szerokość wstawionej poziomej linii?**
+**Q: Czy mogę zmienić grubość, kolor lub szerokość wstawionej poziomej linii?**  
 A: `InsertHorizontalRule` dodaje domyślnie sformatowaną linię i nie udostępnia opcji formatowania; aby dostosować te właściwości, musisz ręcznie wstawić `Shape` (np. `builder.InsertShape(ShapeType.HorizontalLine)`) i następnie ustawić jego właściwości `LineFormat`.
 
-**Q: Czy można dodać więcej niż jedną poziomą linię w tym samym dokumencie?**
+**Q: Czy można dodać więcej niż jedną poziomą linię w tym samym dokumencie?**  
 A: Tak — po prostu wywołuj `builder.InsertHorizontalRule()` za każdym razem, gdy potrzebujesz nowej linii; każde wywołanie tworzy osobny kształt w bieżącej pozycji buildera.
 
-**Q: Czy pozioma linia będzie widoczna po otwarciu zapisanego pliku .docx w programie Microsoft Word?**
+**Q: Czy pozioma linia będzie widoczna po otwarciu zapisanego pliku .docx w programie Microsoft Word?**  
 A: Zdecydowanie; linia jest zapisywana jako kształt w pliku .docx, więc Word wyświetla ją dokładnie tak, jak wygląda w wygenerowanym dokumencie.
 
-**Q: Co się stanie, jeśli folder `dataDir` nie istnieje przed wywołaniem `doc.Save(...)`?**
+**Q: Co się stanie, jeśli folder `dataDir` nie istnieje przed wywołaniem `doc.Save(...)`?**  
 A: `doc.Save` zgłosi `DirectoryNotFoundException`; upewnij się, że docelowy katalog istnieje lub utwórz go programowo przed zapisem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

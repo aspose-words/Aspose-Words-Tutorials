@@ -50,19 +50,19 @@ Neste tutorial você aprenderá como inserir programaticamente uma forma de regr
 
 ## Frequently asked questions
 
-**Q: Onde exatamente `builder.InsertHorizontalRule()` coloca a linha no documento?**
+**Q: Onde exatamente `builder.InsertHorizontalRule()` coloca a linha no documento?**  
 A: `InsertHorizontalRule` insere uma forma de regra horizontal na posição atual do cursor do `DocumentBuilder`; se você quiser que ela fique em sua própria linha, chame `builder.Writeln()` antes da inserção.
 
-**Q: Posso alterar a espessura, cor ou largura da regra horizontal inserida?**
+**Q: Posso alterar a espessura, cor ou largura da regra horizontal inserida?**  
 A: `InsertHorizontalRule` adiciona uma regra com estilo padrão e não expõe opções de formatação; para personalizar essas propriedades, você precisa inserir um `Shape` manualmente (por exemplo, `builder.InsertShape(ShapeType.HorizontalLine)`) e então definir as propriedades `LineFormat`.
 
-**Q: É possível adicionar mais de uma regra horizontal no mesmo documento?**
+**Q: É possível adicionar mais de uma regra horizontal no mesmo documento?**  
 A: Sim—basta chamar `builder.InsertHorizontalRule()` sempre que precisar de uma nova regra; cada chamada cria uma forma separada na localização atual do builder.
 
-**Q: A regra horizontal será visível quando o .docx salvo for aberto no Microsoft Word?**
+**Q: A regra horizontal será visível quando o .docx salvo for aberto no Microsoft Word?**  
 A: Com certeza; a regra é salva como uma forma dentro do arquivo .docx, então o Word a exibe exatamente como aparece no documento gerado.
 
-**Q: O que acontece se a pasta `dataDir` não existir antes de chamar `doc.Save(...)`?**
+**Q: O que acontece se a pasta `dataDir` não existir antes de chamar `doc.Save(...)`?**  
 A: `doc.Save` lançará uma `DirectoryNotFoundException`; assegure que o diretório de destino exista ou crie-o programaticamente antes de salvar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

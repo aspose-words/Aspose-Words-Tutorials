@@ -50,19 +50,19 @@ url: /net/add-content-using-documentbuilder/insert-horizontal-rule-shape/
 
 ## Frequently asked questions
 
-**Q: أين بالضبط يضع `builder.InsertHorizontalRule()` الخط في المستند؟**
+**Q: أين بالضبط يضع `builder.InsertHorizontalRule()` الخط في المستند؟**  
 A: `InsertHorizontalRule` يُدرج شكل خط أفقي في موضع المؤشر الحالي لـ `DocumentBuilder`؛ إذا كنت تريد أن يكون على سطر منفصل، استدعِ `builder.Writeln()` قبل الإدراج.
 
-**Q: هل يمكنني تغيير السماكة أو اللون أو العرض للخط الأفقي المُدرج؟**
+**Q: هل يمكنني تغيير السماكة أو اللون أو العرض للخط الأفقي المُدرج؟**  
 A: `InsertHorizontalRule` يضيف خطًا بنمط افتراضي ولا يتيح خيارات تنسيق؛ لتخصيص تلك الخصائص تحتاج إلى إدراج `Shape` يدويًا (مثلاً `builder.InsertShape(ShapeType.HorizontalLine)`) ثم ضبط خصائص `LineFormat` الخاصة به.
 
-**Q: هل من الممكن إضافة أكثر من خط أفقي في نفس المستند؟**
+**Q: هل من الممكن إضافة أكثر من خط أفقي في نفس المستند؟**  
 A: نعم—ما عليك سوى استدعاء `builder.InsertHorizontalRule()` في كل مرة تحتاج فيها إلى خط جديد؛ كل استدعاء ينشئ شكلًا منفصلًا في موقع `DocumentBuilder` الحالي.
 
-**Q: هل سيكون الخط الأفقي مرئيًا عند فتح ملف .docx المحفوظ في Microsoft Word؟**
+**Q: هل سيكون الخط الأفقي مرئيًا عند فتح ملف .docx المحفوظ في Microsoft Word؟**  
 A: بالطبع؛ يتم حفظ الخط كشكل داخل ملف .docx، لذا يعرضه Word تمامًا كما يظهر في المستند المُنشأ.
 
-**Q: ماذا يحدث إذا لم يكن مجلد `dataDir` موجودًا قبل استدعاء `doc.Save(...)`؟**
+**Q: ماذا يحدث إذا لم يكن مجلد `dataDir` موجودًا قبل استدعاء `doc.Save(...)`؟**  
 A: `doc.Save` سيُطلق استثناء `DirectoryNotFoundException`؛ تأكد من وجود دليل الهدف أو أنشئه برمجيًا قبل الحفظ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

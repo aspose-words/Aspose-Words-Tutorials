@@ -24,8 +24,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="Inserir HTML Alinhado em Documento Word Usando Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Adicionar um campo TC a um documento Word com Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Título | Descrição |

@@ -24,8 +24,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="إدراج HTML محاذى في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="إضافة حقل TC إلى مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | العنوان | الوصف |

@@ -50,16 +50,16 @@ Dieses Tutorial zeigt, wie man den DocumentBuilder von Aspose.Words für .NET ve
 
 ## Frequently asked questions
 
-**Q: Kann InsertHtml verwendet werden, um HTML in ein bestehendes Word-Dokument einzufügen, anstatt in ein neues?**
+**Q: Kann InsertHtml verwendet werden, um HTML in ein bestehendes Word-Dokument einzufügen, anstatt in ein neues?**  
 A: Ja. Erstellen Sie ein Document aus der vorhandenen Datei, positionieren Sie den DocumentBuilder‑Cursor an die gewünschte Stelle, an der das HTML eingefügt werden soll (z. B. mit builder.MoveToDocumentEnd()), und rufen Sie anschließend builder.InsertHtml mit Ihrem Markup auf.
 
-**Q: Welche HTML-Attribute werden von InsertHtml für die Ausrichtung berücksichtigt?**
-A: InsertHtml berücksichtigt das Attribut "align" bei Block‑Elementen wie <p>, <div> und Überschriften‑Tags und wendet die entsprechende Absatzausrichtung im resultierenden Word-Dokument an.
+**Q: Welche HTML-Attribute werden von InsertHtml für die Ausrichtung berücksichtigt?**  
+A: InsertHtml berücksichtigt das Attribut "align" bei Block‑Elementen wie &lt;p&gt;, &lt;div&gt; und Überschriften‑Tags und wendet die entsprechende Absatzausrichtung im resultierenden Word-Dokument an.
 
-**Q: Was passiert, wenn die HTML‑Zeichenkette nicht unterstützte Tags oder CSS enthält?**
+**Q: Was passiert, wenn die HTML‑Zeichenkette nicht unterstützte Tags oder CSS enthält?**  
 A: Nicht unterstützte Tags werden ignoriert und ihr Inhalt als Klartext eingefügt; Inline‑CSS‑Stile, die Aspose.Words nicht erkennt, werden ebenfalls ignoriert, sodass nur der unterstützte Teilbereich von HTML gerendert wird.
 
-**Q: Muss ich den DocumentBuilder schließen, bevor ich das Dokument speichere?**
+**Q: Muss ich den DocumentBuilder schließen, bevor ich das Dokument speichere?**  
 A: Ein explizites Schließen ist nicht erforderlich; nach dem Einfügen des HTML können Sie direkt doc.Save mit dem gewünschten Dateinamen und Format aufrufen, und die Ressourcen des Builders werden automatisch freigegeben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

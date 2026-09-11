@@ -50,16 +50,16 @@ Bu öğreticide, Aspose.Words for .NET'in DocumentBuilder'ını kullanarak HTML 
 
 ## Frequently asked questions
 
-**Q: InsertHtml, yeni bir belge yerine mevcut bir Word belgesine HTML eklemek için kullanılabilir mi?**
+**Q: InsertHtml, yeni bir belge yerine mevcut bir Word belgesine HTML eklemek için kullanılabilir mi?**  
 A: Evet. Mevcut dosyadan bir Document oluşturun, DocumentBuilder imlecini HTML'in eklenmesini istediğiniz konuma (örneğin builder.MoveToDocumentEnd() kullanarak) getirin ve ardından builder.InsertHtml ile işaretlemenizi çağırın.
 
-**Q: InsertHtml hizalama için hangi HTML niteliklerini dikkate alır?**
-A: InsertHtml, <p>, <div> ve başlık etiketleri gibi blok‑seviyeli öğelerdeki \"align\" niteliğine saygı gösterir ve ortaya çıkan Word belgesinde ilgili paragraf hizalamasını uygular.
+**Q: InsertHtml hizalama için hangi HTML niteliklerini dikkate alır?**  
+A: InsertHtml, &lt;p&gt;, &lt;div&gt; ve başlık etiketleri gibi blok‑seviyeli öğelerdeki \"align\" niteliğine saygı gösterir ve ortaya çıkan Word belgesinde ilgili paragraf hizalamasını uygular.
 
-**Q: HTML dizesi desteklenmeyen etiketler veya CSS içeriyorsa ne olur?**
+**Q: HTML dizesi desteklenmeyen etiketler veya CSS içeriyorsa ne olur?**  
 A: Desteklenmeyen etiketler yok sayılır ve iç metinleri düz metin olarak eklenir; Aspose.Words'un tanımadığı satır içi CSS stilleri de yok sayılır, bu nedenle yalnızca desteklenen HTML alt kümesi işlenir.
 
-**Q: Belgeyi kaydetmeden önce DocumentBuilder'ı kapatmam gerekir mi?**
+**Q: Belgeyi kaydetmeden önce DocumentBuilder'ı kapatmam gerekir mi?**  
 A: Açık bir kapatma işlemi gerekmez; HTML'i ekledikten sonra istediğiniz dosya adı ve formatıyla doğrudan doc.Save'i çağırabilirsiniz ve builder'ın kaynakları otomatik olarak serbest bırakılır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

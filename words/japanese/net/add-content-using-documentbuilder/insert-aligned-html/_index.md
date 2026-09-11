@@ -50,16 +50,16 @@ url: /net/add-content-using-documentbuilder/insert-aligned-html/
 
 ## Frequently asked questions
 
-**Q: InsertHtml は新規文書ではなく、既存の Word 文書に HTML を追加するために使用できますか？**
+**Q: InsertHtml は新規文書ではなく、既存の Word 文書に HTML を追加するために使用できますか？**  
 A: はい。既存のファイルから Document を作成し、HTML を挿入したい位置に DocumentBuilder のカーソルを移動させます（例: builder.MoveToDocumentEnd() を使用）。その後、builder.InsertHtml にマークアップを渡して呼び出します。
 
-**Q: InsertHtml が配置のために尊重する HTML 属性はどれですか？**
-A: InsertHtml は <p>、<div>、見出しタグなどのブロックレベル要素の "align" 属性を尊重し、結果の Word 文書で対応する段落配置を適用します。
+**Q: InsertHtml が配置のために尊重する HTML 属性はどれですか？**  
+A: InsertHtml は &lt;p&gt;、&lt;div&gt;、見出しタグなどのブロックレベル要素の "align" 属性を尊重し、結果の Word 文書で対応する段落配置を適用します。
 
-**Q: HTML 文字列にサポートされていないタグや CSS が含まれている場合はどうなりますか？**
+**Q: HTML 文字列にサポートされていないタグや CSS が含まれている場合はどうなりますか？**  
 A: サポートされていないタグは無視され、その内部テキストはプレーンテキストとして挿入されます。Aspose.Words が認識しないインライン CSS スタイルも無視されるため、サポートされている HTML のサブセットのみがレンダリングされます。
 
-**Q: 文書を保存する前に DocumentBuilder を閉じる必要がありますか？**
+**Q: 文書を保存する前に DocumentBuilder を閉じる必要がありますか？**  
 A: 明示的に閉じる必要はありません。HTML を挿入した後は、目的のファイル名と形式で直接 doc.Save を呼び出せばよく、Builder のリソースは自動的に解放されます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}

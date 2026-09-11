@@ -24,8 +24,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET을 사용하여 Word 문서에 정렬된 HTML 삽입" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Aspose.Words for .NET을 사용하여 Word 문서에 TC 필드를 추가합니다." imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | 제목 | 설명 |

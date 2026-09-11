@@ -50,19 +50,19 @@ In diesem Tutorial lernen Sie, wie Sie programmgesteuert eine horizontale Regel�
 
 ## Frequently asked questions
 
-**Q: Wo genau fügt `builder.InsertHorizontalRule()` die Linie im Dokument ein?**
+**Q: Wo genau fügt `builder.InsertHorizontalRule()` die Linie im Dokument ein?**  
 A: `InsertHorizontalRule` fügt eine horizontale Regel‑Form an der aktuellen Cursorposition des `DocumentBuilder` ein; wenn Sie sie in einer eigenen Zeile haben möchten, rufen Sie vor dem Einfügen `builder.Writeln()` auf.
 
-**Q: Kann ich die Dicke, Farbe oder Breite der eingefügten horizontalen Regel ändern?**
+**Q: Kann ich die Dicke, Farbe oder Breite der eingefügten horizontalen Regel ändern?**  
 A: `InsertHorizontalRule` fügt eine standardmäßig formatierte Regel hinzu und stellt keine Formatierungsoptionen bereit; um diese Eigenschaften anzupassen, müssen Sie manuell ein `Shape` einfügen (z. B. `builder.InsertShape(ShapeType.HorizontalLine)`) und anschließend dessen `LineFormat`‑Eigenschaften setzen.
 
-**Q: Ist es möglich, mehr als eine horizontale Regel im selben Dokument hinzuzufügen?**
+**Q: Ist es möglich, mehr als eine horizontale Regel im selben Dokument hinzuzufügen?**  
 A: Ja – rufen Sie einfach jedes Mal `builder.InsertHorizontalRule()` auf, wenn Sie eine neue Regel benötigen; jeder Aufruf erzeugt eine separate Form an der aktuellen Position des Builders.
 
-**Q: Wird die horizontale Regel sichtbar sein, wenn die gespeicherte .docx in Microsoft Word geöffnet wird?**
+**Q: Wird die horizontale Regel sichtbar sein, wenn die gespeicherte .docx in Microsoft Word geöffnet wird?**  
 A: Auf jeden Fall; die Regel wird als Form innerhalb der .docx-Datei gespeichert, sodass Word sie exakt so anzeigt, wie sie im erzeugten Dokument erscheint.
 
-**Q: Was passiert, wenn das `dataDir`‑Verzeichnis vor dem Aufruf von `doc.Save(...)` nicht existiert?**
+**Q: Was passiert, wenn das `dataDir`‑Verzeichnis vor dem Aufruf von `doc.Save(...)` nicht existiert?**  
 A: `doc.Save` wirft eine `DirectoryNotFoundException`; stellen Sie sicher, dass das Zielverzeichnis existiert, oder erstellen Sie es programmgesteuert, bevor Sie speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

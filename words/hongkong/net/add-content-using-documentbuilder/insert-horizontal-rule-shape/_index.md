@@ -50,19 +50,19 @@ url: /net/add-content-using-documentbuilder/insert-horizontal-rule-shape/
 
 ## Frequently asked questions
 
-**Q: `builder.InsertHorizontalRule()` 會在文件中的哪個位置插入線條？**
+**Q: `builder.InsertHorizontalRule()` 會在文件中的哪個位置插入線條？**  
 A: `InsertHorizontalRule` 會在 `DocumentBuilder` 目前的游標位置插入水平線形狀；若希望它單獨佔一行，請在插入前先呼叫 `builder.Writeln()`。
 
-**Q: 我可以更改插入的水平線的粗細、顏色或寬度嗎？**
+**Q: 我可以更改插入的水平線的粗細、顏色或寬度嗎？**  
 A: `InsertHorizontalRule` 會加入預設樣式的水平線，且不提供格式設定選項；若要自訂這些屬性，必須手動插入 `Shape`（例如 `builder.InsertShape(ShapeType.HorizontalLine)`），然後設定其 `LineFormat` 屬性。
 
-**Q: 是否可以在同一文件中加入多條水平線？**
+**Q: 是否可以在同一文件中加入多條水平線？**  
 A: 可以——只要在需要新水平線時呼叫 `builder.InsertHorizontalRule()`；每次呼叫都會在 builder 目前位置建立一個獨立的形狀。
 
-**Q: 儲存的 .docx 在 Microsoft Word 中開啟時，水平線會顯示嗎？**
+**Q: 儲存的 .docx 在 Microsoft Word 中開啟時，水平線會顯示嗎？**  
 A: 當然會；水平線會以形狀的形式儲存在 .docx 檔案中，Word 會如同在產生的文件中一樣顯示它。
 
-**Q: 如果在呼叫 `doc.Save(...)` 之前 `dataDir` 資料夾不存在，會發生什麼情況？**
+**Q: 如果在呼叫 `doc.Save(...)` 之前 `dataDir` 資料夾不存在，會發生什麼情況？**  
 A: `doc.Save` 會拋出 `DirectoryNotFoundException`；請確保目標目錄已存在，或在儲存前以程式方式建立它。
 
 {{< /blocks/products/pf/tutorial-page-section >}}

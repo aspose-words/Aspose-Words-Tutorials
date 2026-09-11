@@ -50,19 +50,19 @@ Dalam tutorial ini Anda akan belajar cara menyisipkan bentuk garis horizontal ke
 
 ## Frequently asked questions
 
-**Q: Di mana tepatnya `builder.InsertHorizontalRule()` menempatkan garis dalam dokumen?**
+**Q: Di mana tepatnya `builder.InsertHorizontalRule()` menempatkan garis dalam dokumen?**  
 A: `InsertHorizontalRule` menyisipkan bentuk garis horizontal pada posisi kursor saat ini dari `DocumentBuilder`; jika Anda menginginkannya berada pada baris terpisah, panggil `builder.Writeln()` sebelum penyisipan.
 
-**Q: Apakah saya dapat mengubah ketebalan, warna, atau lebar garis horizontal yang disisipkan?**
+**Q: Apakah saya dapat mengubah ketebalan, warna, atau lebar garis horizontal yang disisipkan?**  
 A: `InsertHorizontalRule` menambahkan garis dengan gaya default dan tidak menyediakan opsi pemformatan; untuk menyesuaikan properti tersebut Anda perlu menyisipkan `Shape` secara manual (misalnya, `builder.InsertShape(ShapeType.HorizontalLine)`) dan kemudian mengatur properti `LineFormat`-nya.
 
-**Q: Apakah memungkinkan menambahkan lebih dari satu garis horizontal dalam dokumen yang sama?**
+**Q: Apakah memungkinkan menambahkan lebih dari satu garis horizontal dalam dokumen yang sama?**  
 A: Ya—cukup panggil `builder.InsertHorizontalRule()` setiap kali Anda membutuhkan garis baru; setiap pemanggilan membuat bentuk terpisah pada lokasi saat ini builder.
 
-**Q: Apakah garis horizontal akan terlihat ketika .docx yang disimpan dibuka di Microsoft Word?**
+**Q: Apakah garis horizontal akan terlihat ketika .docx yang disimpan dibuka di Microsoft Word?**  
 A: Tentu saja; garis tersebut disimpan sebagai bentuk di dalam file .docx, sehingga Word menampilkannya persis seperti yang terlihat dalam dokumen yang dihasilkan.
 
-**Q: Apa yang terjadi jika folder `dataDir` tidak ada sebelum memanggil `doc.Save(...)`?**
+**Q: Apa yang terjadi jika folder `dataDir` tidak ada sebelum memanggil `doc.Save(...)`?**  
 A: `doc.Save` akan melempar `DirectoryNotFoundException`; pastikan direktori target ada atau buat secara programatis sebelum menyimpan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -24,8 +24,6 @@
 
 {{< tutorial-card link="./insert-aligned-html/" title="使用 Aspose.Words for .NET 在 Word 文件中插入對齊的 HTML" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="使用 Aspose.Words for .NET 為 Word 文件新增 TC 欄位" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 |標題 |描述 |

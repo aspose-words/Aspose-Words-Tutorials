@@ -24,8 +24,6 @@ Añadir contenido con DocumentBuilder es un recurso completo que te guía por el
 
 {{< tutorial-card link="./insert-aligned-html/" title="Insertar HTML alineado en un documento Word usando Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Agregar un campo TC a un documento Word con Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Título | Descripción |

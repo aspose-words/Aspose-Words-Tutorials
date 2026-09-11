@@ -50,19 +50,19 @@ In this tutorial you’ll learn how to programmatically insert a horizontal rule
 
 ## Frequently asked questions
 
-**Q: Where exactly does `builder.InsertHorizontalRule()` place the line in the document?**
+**Q: Where exactly does `builder.InsertHorizontalRule()` place the line in the document?**  
 A: `InsertHorizontalRule` inserts a horizontal rule shape at the current cursor position of the `DocumentBuilder`; if you want it on its own line, call `builder.Writeln()` before the insert.
 
-**Q: Can I change the thickness, color, or width of the inserted horizontal rule?**
+**Q: Can I change the thickness, color, or width of the inserted horizontal rule?**  
 A: `InsertHorizontalRule` adds a default‑styled rule and does not expose formatting options; to customize those properties you need to insert a `Shape` manually (e.g., `builder.InsertShape(ShapeType.HorizontalLine)`) and then set its `LineFormat` properties.
 
-**Q: Is it possible to add more than one horizontal rule in the same document?**
+**Q: Is it possible to add more than one horizontal rule in the same document?**  
 A: Yes—simply call `builder.InsertHorizontalRule()` each time you need a new rule; each call creates a separate shape at the builder’s current location.
 
-**Q: Will the horizontal rule be visible when the saved .docx is opened in Microsoft Word?**
+**Q: Will the horizontal rule be visible when the saved .docx is opened in Microsoft Word?**  
 A: Absolutely; the rule is saved as a shape inside the .docx file, so Word displays it exactly as it appears in the generated document.
 
-**Q: What happens if the `dataDir` folder does not exist before calling `doc.Save(...)`?**
+**Q: What happens if the `dataDir` folder does not exist before calling `doc.Save(...)`?**  
 A: `doc.Save` will throw a `DirectoryNotFoundException`; ensure the target directory exists or create it programmatically before saving.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

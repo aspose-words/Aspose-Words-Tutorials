@@ -50,16 +50,16 @@ url: /net/add-content-using-documentbuilder/insert-aligned-html/
 
 ## Frequently asked questions
 
-**Q: InsertHtml 能否用於將 HTML 加入已存在的 Word 文件，而不是新文件？**
+**Q: InsertHtml 能否用於將 HTML 加入已存在的 Word 文件，而不是新文件？**  
 A: 可以。先以現有檔案建立 Document，將 DocumentBuilder 游標移至欲插入 HTML 的位置（例如使用 builder.MoveToDocumentEnd()），然後呼叫 builder.InsertHtml 並傳入您的標記。
 
-**Q: InsertHtml 在對齊方面會遵循哪些 HTML 屬性？**
-A: InsertHtml 會遵守區塊級元素（如 <p>、<div> 以及標題標籤）上的 "align" 屬性，並在產生的 Word 文件中套用相應的段落對齊。
+**Q: InsertHtml 在對齊方面會遵循哪些 HTML 屬性？**  
+A: InsertHtml 會遵守區塊級元素（如 &lt;p&gt;、&lt;div&gt; 以及標題標籤）上的 "align" 屬性，並在產生的 Word 文件中套用相應的段落對齊。
 
-**Q: 如果 HTML 字串包含不支援的標籤或 CSS，會發生什麼情況？**
+**Q: 如果 HTML 字串包含不支援的標籤或 CSS，會發生什麼情況？**  
 A: 不支援的標籤會被忽略，其內部文字會以純文字形式插入；Aspose.Words 無法辨識的行內 CSS 樣式亦會被忽略，僅會呈現支援的 HTML 子集。
 
-**Q: 在儲存文件之前需要關閉 DocumentBuilder 嗎？**
+**Q: 在儲存文件之前需要關閉 DocumentBuilder 嗎？**  
 A: 不需要額外關閉；插入 HTML 後即可直接呼叫 doc.Save 並指定檔名與格式，builder 的資源會自動釋放。
 
 {{< /blocks/products/pf/tutorial-page-section >}}

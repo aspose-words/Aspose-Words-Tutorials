@@ -50,16 +50,16 @@ Hướng dẫn này trình bày cách sử dụng DocumentBuilder của Aspose.W
 
 ## Frequently asked questions
 
-**Q: Liệu InsertHtml có thể được sử dụng để thêm HTML vào tài liệu Word hiện có thay vì tạo tài liệu mới không?**
+**Q: Liệu InsertHtml có thể được sử dụng để thêm HTML vào tài liệu Word hiện có thay vì tạo tài liệu mới không?**  
 A: Có. Tạo một Document từ tệp hiện có, đặt con trỏ DocumentBuilder ở vị trí bạn muốn chèn HTML (ví dụ, bằng cách sử dụng builder.MoveToDocumentEnd()), sau đó gọi builder.InsertHtml với mã của bạn.
 
-**Q: Các thuộc tính HTML nào được InsertHtml tôn trọng để căn chỉnh?**
-A: InsertHtml tôn trọng thuộc tính "align" trên các phần tử cấp khối như <p>, <div> và các thẻ tiêu đề, áp dụng căn chỉnh đoạn văn tương ứng trong tài liệu Word kết quả.
+**Q: Các thuộc tính HTML nào được InsertHtml tôn trọng để căn chỉnh?**  
+A: InsertHtml tôn trọng thuộc tính "align" trên các phần tử cấp khối như &lt;p&gt;, &lt;div&gt; và các thẻ tiêu đề, áp dụng căn chỉnh đoạn văn tương ứng trong tài liệu Word kết quả.
 
-**Q: Điều gì sẽ xảy ra nếu chuỗi HTML chứa các thẻ hoặc CSS không được hỗ trợ?**
+**Q: Điều gì sẽ xảy ra nếu chuỗi HTML chứa các thẻ hoặc CSS không được hỗ trợ?**  
 A: Các thẻ không được hỗ trợ sẽ bị bỏ qua và nội dung bên trong của chúng sẽ được chèn dưới dạng văn bản thuần; các kiểu CSS nội tuyến mà Aspose.Words không nhận diện cũng bị bỏ qua, vì vậy chỉ phần phụ thuộc HTML được hỗ trợ sẽ được hiển thị.
 
-**Q: Tôi có cần đóng DocumentBuilder trước khi lưu tài liệu không?**
+**Q: Tôi có cần đóng DocumentBuilder trước khi lưu tài liệu không?**  
 A: Không cần đóng một cách rõ ràng; sau khi chèn HTML, bạn có thể trực tiếp gọi doc.Save với tên tệp và định dạng mong muốn, và các tài nguyên của builder sẽ được giải phóng tự động.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

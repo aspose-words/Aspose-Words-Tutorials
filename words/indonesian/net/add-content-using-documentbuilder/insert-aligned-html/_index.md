@@ -50,16 +50,16 @@ Tutorial ini menunjukkan cara menggunakan DocumentBuilder dari Aspose.Words untu
 
 ## Frequently asked questions
 
-**Q: Apakah InsertHtml dapat digunakan untuk menambahkan HTML ke dalam dokumen Word yang sudah ada daripada yang baru?**
+**Q: Apakah InsertHtml dapat digunakan untuk menambahkan HTML ke dalam dokumen Word yang sudah ada daripada yang baru?**  
 A: Ya. Buat Document dari file yang sudah ada, posisikan kursor DocumentBuilder di tempat Anda ingin menyisipkan HTML (misalnya, dengan menggunakan builder.MoveToDocumentEnd()), lalu panggil builder.InsertHtml dengan markup Anda.
 
-**Q: Atribut HTML mana yang dihormati oleh InsertHtml untuk perataan?**
-A: InsertHtml menghormati atribut "align" pada elemen level blok seperti <p>, <div>, dan tag heading, menerapkan perataan paragraf yang sesuai dalam dokumen Word yang dihasilkan.
+**Q: Atribut HTML mana yang dihormati oleh InsertHtml untuk perataan?**  
+A: InsertHtml menghormati atribut "align" pada elemen level blok seperti &lt;p&gt;, &lt;div&gt;, dan tag heading, menerapkan perataan paragraf yang sesuai dalam dokumen Word yang dihasilkan.
 
-**Q: Apa yang terjadi jika string HTML berisi tag atau CSS yang tidak didukung?**
+**Q: Apa yang terjadi jika string HTML berisi tag atau CSS yang tidak didukung?**  
 A: Tag yang tidak didukung akan diabaikan dan teks di dalamnya disisipkan sebagai teks biasa; gaya CSS inline yang tidak dikenali oleh Aspose.Words juga diabaikan, sehingga hanya subset HTML yang didukung yang akan dirender.
 
-**Q: Apakah saya perlu menutup DocumentBuilder sebelum menyimpan dokumen?**
+**Q: Apakah saya perlu menutup DocumentBuilder sebelum menyimpan dokumen?**  
 A: Tidak diperlukan penutupan eksplisit; setelah menyisipkan HTML Anda dapat langsung memanggil doc.Save dengan nama file dan format yang diinginkan, dan sumber daya builder akan dilepaskan secara otomatis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

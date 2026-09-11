@@ -50,19 +50,19 @@ Ebben a bemutatóban megtanulja, hogyan szúrhat be programozott módon egy víz
 
 ## Frequently asked questions
 
-**Q: A `builder.InsertHorizontalRule()` pontosan hová helyezi a vonalat a dokumentumban?**
+**Q: A `builder.InsertHorizontalRule()` pontosan hová helyezi a vonalat a dokumentumban?**  
 A: `InsertHorizontalRule` a `DocumentBuilder` aktuális kurzorpozíciójába szúr be egy vízszintes vonal alakzatot; ha külön sorban szeretné, hívja meg a `builder.Writeln()`-t a beszúrás előtt.
 
-**Q: Módosíthatom a beszúrt vízszintes vonal vastagságát, színét vagy szélességét?**
+**Q: Módosíthatom a beszúrt vízszintes vonal vastagságát, színét vagy szélességét?**  
 A: `InsertHorizontalRule` egy alapértelmezett stílusú vonalat ad hozzá, és nem teszi elérhetővé a formázási beállításokat; ezeknek a tulajdonságoknak a testreszabásához manuálisan kell beszúrni egy `Shape`-et (például `builder.InsertShape(ShapeType.HorizontalLine)`) és aztán beállítani a `LineFormat` tulajdonságait.
 
-**Q: Lehetőség van több vízszintes vonal hozzáadására ugyanabban a dokumentumban?**
+**Q: Lehetőség van több vízszintes vonal hozzáadására ugyanabban a dokumentumban?**  
 A: Igen — egyszerűen hívja meg a `builder.InsertHorizontalRule()`-t minden alkalommal, amikor új vonalat szeretne; minden hívás egy külön alakzatot hoz létre a builder aktuális helyén.
 
-**Q: Látható lesz a vízszintes vonal, amikor a mentett .docx fájlt megnyitja a Microsoft Word?**
+**Q: Látható lesz a vízszintes vonal, amikor a mentett .docx fájlt megnyitja a Microsoft Word?**  
 A: Természetesen; a vonal alakzatként van mentve a .docx fájlban, így a Word pontosan úgy jeleníti meg, ahogy a generált dokumentumban látható.
 
-**Q: Mi történik, ha a `dataDir` mappa nem létezik, mielőtt meghívná a `doc.Save(...)`-t?**
+**Q: Mi történik, ha a `dataDir` mappa nem létezik, mielőtt meghívná a `doc.Save(...)`-t?**  
 A: A `doc.Save` `DirectoryNotFoundException`-t dob; győződjön meg arról, hogy a célkönyvtár létezik, vagy hozza létre programból a mentés előtt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -24,8 +24,6 @@ Thêm nội dung bằng DocumentBuilder là một nguồn tài nguyên toàn di�
 
 {{< tutorial-card link="./insert-aligned-html/" title="Chèn HTML căn chỉnh vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Thêm trường TC vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Tiêu đề | Mô tả |

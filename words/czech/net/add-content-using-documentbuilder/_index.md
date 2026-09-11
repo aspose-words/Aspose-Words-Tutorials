@@ -24,8 +24,6 @@ Přidávání obsahu pomocí DocumentBuilderu je komplexní zdroj, který vás p
 
 {{< tutorial-card link="./insert-aligned-html/" title="Vložení zarovnaného HTML do dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Přidejte pole TC do dokumentu Word pomocí Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Název | Popis |

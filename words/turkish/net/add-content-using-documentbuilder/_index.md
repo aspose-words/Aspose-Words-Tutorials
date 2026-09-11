@@ -24,8 +24,6 @@ DocumentBuilder Kullanarak İçerik Ekleme, .NET için Aspose.Words kütüphanes
 
 {{< tutorial-card link="./insert-aligned-html/" title="Aspose.Words for .NET kullanarak Word Belgesine Hizalanmış HTML ekleyin" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Aspose.Words for .NET ile bir Word belgesine TC alanı ekleyin" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | Başlık | Açıklama |

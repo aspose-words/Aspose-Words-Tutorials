@@ -50,19 +50,19 @@ V tomto tutoriálu se naučíte, jak programově vložit tvar vodorovné čáry 
 
 ## Frequently asked questions
 
-**Q: Kde přesně metoda `builder.InsertHorizontalRule()` umístí čáru v dokumentu?**
+**Q: Kde přesně metoda `builder.InsertHorizontalRule()` umístí čáru v dokumentu?**  
 A: `InsertHorizontalRule` vloží tvar vodorovné čáry na aktuální pozici kurzoru v `DocumentBuilder`; pokud ji chcete na samostatném řádku, zavolejte před vložením `builder.Writeln()`.
 
-**Q: Mohu změnit tloušťku, barvu nebo šířku vložené vodorovné čáry?**
+**Q: Mohu změnit tloušťku, barvu nebo šířku vložené vodorovné čáry?**  
 A: `InsertHorizontalRule` přidá výchozí styl čáry a neumožňuje nastavení formátování; pokud chcete tyto vlastnosti upravit, musíte ručně vložit `Shape` (např. `builder.InsertShape(ShapeType.HorizontalLine)`) a následně nastavit jeho vlastnosti `LineFormat`.
 
-**Q: Je možné přidat více než jednu vodorovnou čáru do stejného dokumentu?**
+**Q: Je možné přidat více než jednu vodorovnou čáru do stejného dokumentu?**  
 A: Ano – stačí zavolat `builder.InsertHorizontalRule()` pokaždé, když potřebujete novou čáru; každý volání vytvoří samostatný tvar na aktuální pozici builderu.
 
-**Q: Bude vodorovná čára viditelná, když se uložený .docx otevře v Microsoft Wordu?**
+**Q: Bude vodorovná čára viditelná, když se uložený .docx otevře v Microsoft Wordu?**  
 A: Rozhodně; čára je uložena jako tvar uvnitř souboru .docx, takže Word ji zobrazí přesně tak, jak se objeví v vygenerovaném dokumentu.
 
-**Q: Co se stane, pokud složka `dataDir` neexistuje před voláním `doc.Save(...)`?**
+**Q: Co se stane, pokud složka `dataDir` neexistuje před voláním `doc.Save(...)`?**  
 A: `doc.Save` vyhodí výjimku `DirectoryNotFoundException`; ujistěte se, že cílový adresář existuje, nebo jej vytvořte programově před uložením.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

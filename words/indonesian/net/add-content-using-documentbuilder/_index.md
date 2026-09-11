@@ -26,8 +26,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< tutorial-card link="./insert-aligned-html/" title="Menyisipkan HTML Beralign ke Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
 
-{{< tutorial-card link="./insert-tc-field/" title="Tambahkan Field TC ke Dokumen Word dengan Aspose.Words for .NET" imgSrc="./insert-tc-field/images/thumb.png" >}}
-
 
 
 | [Buat Dokumen Word Baru](./create-new-document/) Pelajari cara membuat dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, sehingga memudahkan otomatisasi dokumen. Bahasa Indonesia:

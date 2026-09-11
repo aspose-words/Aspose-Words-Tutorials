@@ -50,19 +50,19 @@ In questo tutorial imparerai come inserire programmaticamente una forma di regol
 
 ## Frequently asked questions
 
-**Q: Dove esattamente `builder.InsertHorizontalRule()` posiziona la linea nel documento?**
+**Q: Dove esattamente `builder.InsertHorizontalRule()` posiziona la linea nel documento?**  
 A: `InsertHorizontalRule` inserisce una forma di regola orizzontale nella posizione corrente del cursore del `DocumentBuilder`; se la vuoi su una riga separata, chiama `builder.Writeln()` prima dell'inserimento.
 
-**Q: Posso modificare lo spessore, il colore o la larghezza della regola orizzontale inserita?**
+**Q: Posso modificare lo spessore, il colore o la larghezza della regola orizzontale inserita?**  
 A: `InsertHorizontalRule` aggiunge una regola con stile predefinito e non espone opzioni di formattazione; per personalizzare tali proprietà è necessario inserire manualmente una `Shape` (ad esempio, `builder.InsertShape(ShapeType.HorizontalLine)`) e poi impostare le sue proprietà `LineFormat`.
 
-**Q: È possibile aggiungere più di una regola orizzontale nello stesso documento?**
+**Q: È possibile aggiungere più di una regola orizzontale nello stesso documento?**  
 A: Sì—basta chiamare `builder.InsertHorizontalRule()` ogni volta che ti serve una nuova regola; ogni chiamata crea una forma separata nella posizione corrente del builder.
 
-**Q: La regola orizzontale sarà visibile quando il .docx salvato viene aperto in Microsoft Word?**
+**Q: La regola orizzontale sarà visibile quando il .docx salvato viene aperto in Microsoft Word?**  
 A: Assolutamente; la regola viene salvata come forma all'interno del file .docx, quindi Word la visualizza esattamente come appare nel documento generato.
 
-**Q: Cosa succede se la cartella `dataDir` non esiste prima di chiamare `doc.Save(...)`?**
+**Q: Cosa succede se la cartella `dataDir` non esiste prima di chiamare `doc.Save(...)`?**  
 A: `doc.Save` genererà una `DirectoryNotFoundException`; assicurati che la directory di destinazione esista o creala programmaticamente prima di salvare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

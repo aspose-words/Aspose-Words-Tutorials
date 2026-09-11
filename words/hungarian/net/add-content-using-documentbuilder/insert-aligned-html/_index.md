@@ -50,16 +50,16 @@ Ez a bemutató azt mutatja be, hogyan használható az Aspose.Words for .NET Doc
 
 ## Frequently asked questions
 
-**Q: Használható a InsertHtml meglévő Word dokumentumba HTML hozzáadására egy új helyett?**
+**Q: Használható a InsertHtml meglévő Word dokumentumba HTML hozzáadására egy új helyett?**  
 A: Igen. Hozzon létre egy Document objektumot a meglévő fájlból, helyezze a DocumentBuilder kurzort arra a pozícióra, ahová a HTML‑t be szeretné szúrni (például a builder.MoveToDocumentEnd() használatával), majd hívja meg a builder.InsertHtml‑t a jelölőnyelvvel.
 
-**Q: Mely HTML attribútumokat veszi figyelembe az InsertHtml az igazításhoz?**
-A: Az InsertHtml tiszteletben tartja a "align" attribútumot a blokk‑szintű elemeknél, mint a <p>, <div> és a címsor elemek, és a megfelelő bekezdés‑igazítást alkalmazza a kapott Word dokumentumban.
+**Q: Mely HTML attribútumokat veszi figyelembe az InsertHtml az igazításhoz?**  
+A: Az InsertHtml tiszteletben tartja a "align" attribútumot a blokk‑szintű elemeknél, mint a &lt;p&gt;, &lt;div&gt; és a címsor elemek, és a megfelelő bekezdés‑igazítást alkalmazza a kapott Word dokumentumban.
 
-**Q: Mi történik, ha a HTML‑sztring nem támogatott címkéket vagy CSS‑t tartalmaz?**
+**Q: Mi történik, ha a HTML‑sztring nem támogatott címkéket vagy CSS‑t tartalmaz?**  
 A: A nem támogatott címkéket figyelmen kívül hagyja, és azok belső szövegét egyszerű szövegként szúrja be; az Aspose.Words által nem felismert beágyazott CSS‑stílusok is figyelmen kívül maradnak, így csak a támogatott HTML‑részhalmaz jelenik meg.
 
-**Q: Szükséges bezárni a DocumentBuilder‑t a dokumentum mentése előtt?**
+**Q: Szükséges bezárni a DocumentBuilder‑t a dokumentum mentése előtt?**  
 A: Nem szükséges kifejezett bezárás; a HTML beszúrása után közvetlenül meghívhatja a doc.Save‑t a kívánt fájlnévvel és formátummal, a builder erőforrásai automatikusan felszabadulnak.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

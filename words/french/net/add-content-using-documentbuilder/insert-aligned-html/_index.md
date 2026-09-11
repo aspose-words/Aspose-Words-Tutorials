@@ -50,16 +50,16 @@ Ce tutoriel montre comment utiliser DocumentBuilder d'Aspose.Words for .NET pour
 
 ## Frequently asked questions
 
-**Q: InsertHtml peut‑il être utilisé pour ajouter du HTML dans un document Word existant plutôt que dans un nouveau ?**
+**Q: InsertHtml peut‑il être utilisé pour ajouter du HTML dans un document Word existant plutôt que dans un nouveau ?**  
 A: Oui. Créez un Document à partir du fichier existant, positionnez le curseur du DocumentBuilder à l’endroit où vous souhaitez insérer le HTML (par ex., en utilisant builder.MoveToDocumentEnd()), puis appelez builder.InsertHtml avec votre balisage.
 
-**Q: Quels attributs HTML sont pris en compte par InsertHtml pour l’alignement ?**
-A: InsertHtml respecte l’attribut "align" sur les éléments de niveau bloc tels que <p>, <div> et les balises de titre, en appliquant l’alignement de paragraphe correspondant dans le document Word résultant.
+**Q: Quels attributs HTML sont pris en compte par InsertHtml pour l’alignement ?**  
+A: InsertHtml respecte l’attribut "align" sur les éléments de niveau bloc tels que &lt;p&gt;, &lt;div&gt; et les balises de titre, en appliquant l’alignement de paragraphe correspondant dans le document Word résultant.
 
-**Q: Que se passe‑t‑il si la chaîne HTML contient des balises ou du CSS non pris en charge ?**
+**Q: Que se passe‑t‑il si la chaîne HTML contient des balises ou du CSS non pris en charge ?**  
 A: Les balises non prises en charge sont ignorées et leur texte interne est inséré en texte brut ; les styles CSS en ligne que Aspose.Words ne reconnaît pas sont également ignorés, de sorte que seul le sous‑ensemble d’HTML supporté est rendu.
 
-**Q: Do I need to close the DocumentBuilder before saving the document?**
+**Q: Do I need to close the DocumentBuilder before saving the document?**  
 A: Non, aucune fermeture explicite n’est requise ; après l’insertion du HTML, vous pouvez appeler directement doc.Save avec le nom de fichier et le format souhaités, et les ressources du builder sont libérées automatiquement.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
