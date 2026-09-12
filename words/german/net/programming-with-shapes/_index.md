@@ -38,9 +38,8 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | [Word-Dokument mit schattiertem Rechteck – Schritt‑für‑Schritt‑Anleitung](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET ein Word-Dokument mit einem schattierten Rechteck erstellen. |
 | [Rechteckform in Word mit C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck in ein Word‑Dokument einfügen – Schritt für Schritt in C#. |
 | [Aspose.Words Formschatten-Tutorial – Schatten zu Word-Form in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatten zu Word-Formen hinzufügen und das Layout verbessern. |
-
-| [Leeres Word-Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine schattierte Rechteckform hinzufügen. |
-| [Schatten zu Form in C# hinzufügen – Vollständige Anleitung zum Anwenden des Schatteneffekts](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatteneffekte zu Formen hinzufügen und anpassen. |
+| [Wie man ein Word-Dokument mit Formen mit Aspose.Words in C# erstellt](./how-to-create-word-document-with-shapes-using-aspose-words-i/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# ein Word-Dokument mit Formen erstellen und anpassen. |
+| [Leeres Word-Dokument erstellen und eine Ellipsenform ausblenden in C#](./create-blank-word-document-and-hide-an-ellipse-shape-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine Ellipsenform ausblenden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

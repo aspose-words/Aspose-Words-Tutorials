@@ -1,5 +1,5 @@
 ---
-"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobná vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
+"description": "Naučte se, jak vytvářet, upravovat a manipulovat s grafikou v dokumentech Wordu pomocí Aspose.Words pro .NET. Výukové programy poskytují podrobné vysvětlení a zdrojový kód C#, které vám pomohou s přidáváním grafů."
 "linktitle": "Používání grafů"
 "second_title": "Rozhraní API pro zpracování dokumentů Aspose.Words"
 "title": "Používání API grafů slov"
@@ -39,6 +39,7 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Skrýt osu grafu v dokumentu Word](./hide-chart-axis/) Naučte se, jak skrýt osu grafu v dokumentu Word pomocí Aspose.Words pro .NET v našem podrobném návodu krok za krokem. |
 | [Zaškrtněte zarovnání víceřádkových popisků v grafu](./tick-multi-line-label-alignment/) | Naučte se, jak zaškrtnout zarovnání víceřádkových popisků v grafu pomocí Aspose.Words pro .NET s naším podrobným návodem krok za krokem. Ideální pro vývojáře všech úrovní. |
 | [Přizpůsobení popisku dat grafu](./chart-data-label/) | Naučte se, jak přizpůsobit popisky dat grafu pomocí Aspose.Words pro .NET v podrobném návodu. Ideální pro vývojáře .NET. |
+| [Návod na úpravu popisku grafu – upravte popisky grafů ve Wordu v C#](./edit-chart-label-tutorial-modify-word-chart-labels-in-c/) | Naučte se, jak upravit popisky grafů v dokumentech Word pomocí Aspose.Words pro .NET v C#. |
 | [Nastavení výchozích možností pro popisky dat v grafu](./default-options-for-data-labels/) | Naučte se, jak nastavit výchozí možnosti pro popisky dat v grafu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a bez námahy si vytvořte a upravte grafy. |
 | [Přizpůsobení jednoho datového bodu v grafu](./single-chart-data-point/) | Naučte se, jak přizpůsobit jednotlivé datové body grafu pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. Vylepšete své grafy jedinečnými značkami a velikostmi. |
 | [Přizpůsobení jedné série grafů v grafu](./single-chart-series/) | Naučte se, jak přizpůsobit jednotlivé série grafů v dokumentu Word pomocí Aspose.Words pro .NET. Pro bezproblémový zážitek postupujte podle našeho podrobného návodu. |

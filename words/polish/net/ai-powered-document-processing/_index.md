@@ -45,6 +45,8 @@ Na koniec nie zapomnij sprawdzić naszego [Praca z opcjami podsumowania](./worki
 | [Podsumowanie dokumentu Word w C# – Kompletny przewodnik z AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletny przewodnik, jak używać Aspose.Words dla .NET i AI do podsumowywania dokumentów Word w C#. |
 | [Jak sprawdzić gramatykę w DOCX przy użyciu Aspose.Words – użyj gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Dowiedz się, jak wykorzystać model gpt-4 turbo w Aspose.Words dla .NET do automatycznej korekty gramatycznej dokumentów DOCX. |
 | [Jak sprawdzić gramatykę w Wordzie przy użyciu Aspose.Words AI – Kompletny przewodnik](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Dowiedz się, jak używać Aspose.Words AI do automatycznego sprawdzania gramatyki w dokumentach Word. |
+| [Jak podsumować tekst w C# przy użyciu OpenAI](./how-to-summarize-text-in-c-using-openai/) | Kompletny przewodnik, jak używać OpenAI w C# do podsumowywania tekstu przy pomocy Aspose.Words. |
+| [Jak używać tłumacza w Aspose.Words do tłumaczenia pliku DOCX](./how-to-use-translator-in-aspose-words-to-translate-a-docx-fi/) | Dowiedz się, jak wykorzystać tłumacz Aspose.Words do automatycznego tłumaczenia dokumentów DOCX. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

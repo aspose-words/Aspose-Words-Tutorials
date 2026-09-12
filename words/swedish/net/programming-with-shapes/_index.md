@@ -38,9 +38,10 @@ Genom att använda Aspose.Words för .NET och följa dessa handledningar kommer 
 | [Skapa Word-dokument med en skuggad rektangel – steg‑för‑steg‑guide](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Lär dig hur du skapar ett Word‑dokument med en rektangel med skugga med Aspose.Words för .NET. |
 | [Skapa rektangelform i Word med C# – Steg‑för‑steg‑guide](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Lär dig hur du skapar en rektangel i ett Word‑dokument med Aspose.Words för .NET och C# i denna detaljerade guide. |
 | [Aspose.Words-formskugga handledning – Lägg till en skugga på Word-form i C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Lär dig hur du lägger till en skugga på former i Word-dokument med Aspose.Words för .NET i C# med denna steg-för-steg-guide. |
-
-| [Skapa tomt Word-dokument med skuggad rektangelform – steg‑för‑steg‑guide](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en rektangelform med skugga med Aspose.Words för .NET. |
+| [Skapa tomt Word-dokument med skuggad rektangel – steg‑för‑steg‑guide](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Lär dig hur du skapar ett tomt Word-dokument och lägger till en rektangelform med skugga med Aspose.Words för .NET. |
+| [Skapa tomt Word-dokument och dölj en ellipsform i C#](./create-blank-word-document-and-hide-an-ellipse-shape-in-c/) | Lär dig hur du skapar ett tomt Word-dokument och döljer en ellipsform med Aspose.Words för .NET i C#. |
 | [Lägg till skugga på form i C# – Komplett guide för att tillämpa skuggeffekt](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Lär dig hur du lägger till skuggeffekter på former i Word-dokument med Aspose.Words för .NET i denna steg‑för‑steg‑guide. |
+| [Skapa Word-dokument med former med Aspose.Words i C#](./how-to-create-word-document-with-shapes-using-aspose-words-i/) | Lär dig skapa ett Word-dokument med olika former med Aspose.Words i C# i denna steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,9 +38,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen Word dengan Persegi Panjang Berbayang – Panduan Langkah demi Langkah](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Pelajari cara membuat dokumen Word dengan persegi panjang berbayang menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. |
 | [Buat bentuk persegi panjang di Word menggunakan C# – Panduan Langkah demi Langkah](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Pelajari cara membuat bentuk persegi panjang di dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
 | [Tutorial Bayangan Bentuk Aspose.Words – Tambahkan Bayangan pada Bentuk Word di C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C#. Bahasa Indonesia: |
-
 | [Buat Dokumen Word Kosong dengan Bentuk Persegi Panjang Berbayang – Panduan Langkah demi Langkah](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Pelajari cara membuat dokumen Word kosong dan menambahkan bentuk persegi panjang berbayang dengan Aspose.Words untuk .NET secara langkah demi langkah. |
 | [Menambahkan Bayangan ke Bentuk di C# – Panduan Lengkap Menerapkan Efek Bayangan](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Cara Membuat Dokumen Word dengan Bentuk Menggunakan Aspose.Words di C#](./how-to-create-word-document-with-shapes-using-aspose-words-i/) | Pelajari cara membuat dokumen Word dengan bentuk menggunakan Aspose.Words di C# dengan panduan langkah demi langkah. |
+| [Buat dokumen Word kosong dan sembunyikan bentuk elips di C#](./create-blank-word-document-and-hide-an-ellipse-shape-in-c/) | Pelajari cara membuat dokumen Word kosong dan menyembunyikan bentuk elips menggunakan Aspose.Words untuk .NET dengan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

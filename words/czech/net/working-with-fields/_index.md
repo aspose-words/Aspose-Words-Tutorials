@@ -20,6 +20,7 @@ Toto je komplexní zdroj pro výuku práce s poli v dokumentech Word pomocí kni
  ## Návody
 | Název | Popis |
 | --- | --- |
+| [Jak provést hromadnou korespondenci pomocí Aspose k naplnění šablony Word](./how-to-perform-mail-merge-aspose-to-populate-a-word-template/) | Naučte se, jak pomocí Aspose.Words provést hromadnou korespondenci a naplnit šablonu Wordu. |
 | [Kód pole](./field-code/) | Naučte se, jak pracovat s kódy polí v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato příručka popisuje načítání dokumentů, přístup k polím a zpracování kódů polí. |
 | [Změnit zdroj kultury aktualizace pole](./change-field-update-culture-source/) | Naučte se, jak změnit zdroj kultury aktualizace pole v Aspose.Words pro .NET s tímto průvodcem. Snadno ovládejte formátování data na základě různých kultur.
 | [Zadejte národní prostředí na úrovni pole](./specify-locale-at-field-level/) | Naučte se, jak pomocí Aspose.Words pro .NET zadat národní prostředí pro pole v dokumentech Word. Postupujte podle našeho průvodce a snadno si přizpůsobte formátování dokumentu. |

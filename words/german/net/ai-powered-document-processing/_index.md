@@ -43,8 +43,10 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
 | [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
 | [Word-Dokument in C# zusammenfassen – Vollständiger KI‑gestützter Leitfaden](./summarize-word-document-in-c-complete-ai-powered-guide/) | Erfahren Sie, wie Sie Word-Dokumente in C# mithilfe von KI vollständig zusammenfassen. Schritt‑für‑Schritt‑Anleitung. |
+| [Text in C# mit OpenAI zusammenfassen](./how-to-summarize-text-in-c-using-openai/) | Erfahren Sie, wie Sie mit OpenAI und Aspose.Words für .NET Text in C# effizient zusammenfassen. |
 | [Wie man Grammatik in DOCX mit Aspose.Words prüft – gpt-4 Turbo verwenden](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Erfahren Sie, wie Sie mit Aspose.Words und gpt‑4 Turbo die Grammatik in DOCX‑Dateien automatisch prüfen. |
 | [Wie man Grammatik in Word mit Aspose.Words KI prüft – Komplettanleitung](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Erfahren Sie, wie Sie mit Aspose.Words KI die Grammatik in Word-Dokumenten automatisch prüfen und korrigieren. |
+| [Wie man den Übersetzer in Aspose.Words verwendet, um eine DOCX-Datei zu übersetzen](./how-to-use-translator-in-aspose-words-to-translate-a-docx-fi/) | Erfahren Sie, wie Sie mit Aspose.Words den integrierten Übersetzer nutzen, um DOCX-Dateien automatisch zu übersetzen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

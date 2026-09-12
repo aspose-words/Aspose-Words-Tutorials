@@ -45,6 +45,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ringkas Dokumen Word di C# – Panduan Lengkap Bertenaga AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Pelajari cara merangkum dokumen Word menggunakan C# dengan panduan AI lengkap untuk hasil cepat dan akurat. |
 | [Cara Memeriksa Tata Bahasa di DOCX dengan Aspose.Words – gunakan gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Pelajari cara menggunakan Aspose.Words dan model gpt-4 turbo untuk memeriksa tata bahasa dokumen DOCX secara otomatis. |
 | [Cara Memeriksa Tata Bahasa di Word dengan Aspose.Words AI – Panduan Lengkap](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Pelajari cara menggunakan Aspose.Words AI untuk memeriksa tata bahasa dokumen Word secara otomatis dalam panduan lengkap ini. |
+| [Cara Meringkas Teks di C# menggunakan OpenAI](./how-to-summarize-text-in-c-using-openai/) | Pelajari cara meringkas teks menggunakan OpenAI dalam C# dengan Aspose.Words untuk .NET. |
+| [Cara menggunakan penerjemah di Aspose.Words untuk menerjemahkan file DOCX](./how-to-use-translator-in-aspose-words-to-translate-a-docx-fi/) | Pelajari cara menggunakan fitur penerjemah Aspose.Words untuk menerjemahkan file DOCX ke bahasa lain secara otomatis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,9 +41,11 @@
 ### [كيفية حفظ Markdown من DOCX – دليل خطوة بخطوة](./how-to-save-markdown-from-docx-step-by-step-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل كامل](./how-to-export-markdown-from-docx-complete-guide/)
+
 ### [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 ### [تحويل Word إلى Markdown – تضمين الصور كـ Base64](./convert-word-to-markdown-embed-images-as-base64/)
+
 ### [كيفية حفظ Markdown من Word – دليل C# كامل](./how-to-save-markdown-from-word-complete-c-guide/)
 
 ### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
@@ -89,6 +91,8 @@
 ### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown و TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
 
 ### [تحديد امتداد الملف أثناء تحويل DOCX إلى Markdown – دليل كامل](./determine-file-extension-while-converting-docx-to-markdown-c/)
+
+### [كيفية حفظ المستند كملف docx عند تحويل Markdown إلى Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

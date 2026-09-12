@@ -25,6 +25,7 @@ Los ejemplos de código de los tutoriales te ayudarán a comprender los concepto
 | Título | Descripción |
 | --- | --- |
 | [Control de contenido de tipo casilla de verificación](./check-box-type-content-control/) | Aprenda cómo agregar un control de contenido de tipo casilla de verificación en documentos de Word usando Aspose.Words para .NET con este tutorial detallado paso a paso. |
+| [Cómo crear un documento Word con un control de contenido usando C#](./how-to-create-word-document-with-a-content-control-using-c/) | Aprenda a crear un documento Word y agregarle un control de contenido mediante C# y Aspose.Words. |
 | [Estado actual de la casilla de verificación](./current-state-of-check-box/) Aprenda a administrar casillas de verificación en documentos de Word con Aspose.Words para .NET. Esta guía explica cómo configurar, actualizar y guardar casillas de verificación mediante programación.
 | [Modificar controles de contenido](./modify-content-controls/) Aprenda a modificar etiquetas de documentos estructurados en Word con Aspose.Words para .NET. Actualice texto, menús desplegables e imágenes paso a paso.
 | [Control de contenido del cuadro combinado](./combo-box-content-control/) Cree un control de contenido de cuadro combinado en documentos de Word con Aspose.Words para .NET con nuestro tutorial detallado. Perfecto para mejorar la interactividad de sus documentos.

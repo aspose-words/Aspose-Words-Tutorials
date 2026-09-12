@@ -42,7 +42,7 @@ Ezekkel az oktatóanyagokkal vizuálisan vonzó és informatív grafikákkal gaz
 | [Diagram adatcímkéinek alapértelmezett beállításainak megadása](./default-options-for-data-labels/) | Ismerje meg, hogyan állíthatja be az adatcímkék alapértelmezett beállításait egy diagramban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a diagramok egyszerű létrehozásához és testreszabásához. |
 | [Egyetlen diagramadatpont testreszabása egy diagramban](./single-chart-data-point/) | Tanulja meg, hogyan szabhatja testre az egydiagramos adatpontokat az Aspose.Words for .NET használatával egy részletes, lépésről lépésre szóló útmutatóban. Tegye egyedi jelölőkkel és méretekkel egyedivé diagramjait. |
 | [Egyetlen diagramsorozat testreszabása egy diagramban](./single-chart-series/) | Ismerje meg, hogyan szabhatja testre egyetlen diagramsorozatot egy Word-dokumentumban az Aspose.Words for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes élmény érdekében. |
-
+| [Diagramcímke szerkesztése – Word diagramcímkék módosítása C#-ban](./edit-chart-label-tutorial-modify-word-chart-labels-in-c/) | Tanulja meg, hogyan módosíthatja a diagramcímkéket Word dokumentumokban C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

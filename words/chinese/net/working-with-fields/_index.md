@@ -38,6 +38,7 @@
 | [不使用文档生成器插入 ASKField](./insert-askfield-with-out-document-builder/) | 了解如何在 Aspose.Words for .NET 中不使用文档生成器插入 ASK 字段。按照本指南动态增强您的 Word 文档。|
 | [不使用文档生成器插入高级字段](./insert-advance-field-with-out-document-builder/) 学习如何在 Aspose.Words for .NET 中不使用 DocumentBuilder 插入高级字段。遵循本指南提升您的文档处理技能。|
 | [获取邮件合并字段名称](./get-mail-merge-field-names/) 通过本详细的分步指南了解如何使用 Aspose.Words for .NET 从 Word 文档中提取邮件合并字段名称。|
+| [如何使用 Aspose 执行邮件合并以填充 Word 模板](./how-to-perform-mail-merge-aspose-to-populate-a-word-template/) 了解如何使用 Aspose.Words for .NET 在 Word 模板中执行邮件合并并填充数据。|
 | [删除字段](./delete-fields/) 使用 Aspose.Words for .NET 删除 Word 文档中合并字段的分步指南 |
 | [现场更新文化](./field-update-culture/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中配置字段更新文化。包含代码示例和准确更新技巧的分步指南。|
 | [现场显示结果](./field-display-results/) 学习如何使用 Aspose.Words for .NET 更新和显示 Word 文档中的字段结果，本指南将逐步讲解。非常适合自动化文档任务。|

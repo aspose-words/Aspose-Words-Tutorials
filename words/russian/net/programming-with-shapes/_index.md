@@ -37,9 +37,11 @@
 | [Создать прямоугольную форму в Word с Aspose.Words – пошаговое руководство](./create-rectangle-shape-in-word-with-aspose-words-step-by-ste/) | Узнайте, как создать прямоугольную форму в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Добавить эффект тени к фигурам Word – полное руководство C#](./add-shadow-effect-to-word-shapes-complete-c-guide/) | Узнайте, как добавить эффект тени к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать документ Word с теневым прямоугольником – пошаговое руководство](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Узнайте, как создать документ Word с фигурой прямоугольника с тенью с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Как создать документ Word с фигурами, используя Aspose.Words в C#](./how-to-create-word-document-with-shapes-using-aspose-words-i/) | Узнайте, как создавать документы Word с фигурами, используя Aspose.Words в C#. |
 | [Создать прямоугольную форму в Word с помощью C# – пошаговое руководство](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Узнайте, как создать прямоугольную форму в документе Word с помощью C# в этом пошаговом руководстве. |
 | [Учебник по теням фигур Aspose.Words – Добавление тени к фигуре Word в C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать пустой документ Word с фигурой прямоугольника с тенью – пошаговое руководство](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Узнайте, как создать пустой документ Word и добавить в него прямоугольную фигуру с теневым эффектом с помощью Aspose.Words для .NET. |
+| [Создать пустой документ Word и скрыть эллипс в C#](./create-blank-word-document-and-hide-an-ellipse-shape-in-c/) | Узнайте, как создать пустой документ Word и скрыть эллиптическую форму с помощью Aspose.Words для .NET в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

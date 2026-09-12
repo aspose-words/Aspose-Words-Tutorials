@@ -46,7 +46,7 @@
 | [Chuyển đổi các trường trong tài liệu](./convert-fields-in-document/) | Tìm hiểu cách chuyển đổi các trường trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Làm theo hướng dẫn của chúng tôi để quản lý và chuyển đổi các trường trong tài liệu của bạn một cách hiệu quả. |
 | [Chuyển đổi các trường trong nội dung](./convert-fields-in-body/) | Tìm hiểu cách sử dụng Aspose.Words cho .NET để chuyển đổi các trường Trang thành văn bản trong nội dung của tài liệu Word. |
 | [Thay đổi ngôn ngữ](./change-locale/) Tìm hiểu cách thay đổi ngôn ngữ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn này. Hoàn hảo để xử lý các dự án và khách hàng quốc tế. |
-
+| [Cách thực hiện mail merge Aspose để điền dữ liệu vào mẫu Word](./how-to-perform-mail-merge-aspose-to-populate-a-word-template/) | Tìm hiểu cách thực hiện mail merge bằng Aspose để điền dữ liệu vào mẫu Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

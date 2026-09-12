@@ -57,6 +57,7 @@
 | [Сохранить разрывы строк: конвертировать DOCX в Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Сохраните разрывы строк при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
 | [Как экспортировать LaTeX из Word – Конвертировать DOCX в Markdown и TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Экспортируйте LaTeX из Word, преобразуя DOCX в форматы Markdown и TXT с помощью Aspose.Words для .NET. |
 | [Определить расширение файла при конвертации DOCX в Markdown – Полное руководство](./determine-file-extension-while-converting-docx-to-markdown-c/) | Узнайте, как определить правильное расширение файла при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
+| [Как сохранить документ как docx при конвертации Markdown в Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/) | Сохраните документ в формате docx при преобразовании Markdown в Word с помощью Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

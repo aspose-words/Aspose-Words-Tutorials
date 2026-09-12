@@ -45,7 +45,6 @@ Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#�
 ### [Word naar Markdown converteren – Complete gids met afbeeldingsextractie](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen extraheert met een volledige C#-handleiding.
 
 ### [Docx opslaan als markdown – Gids voor afbeeldingsextractie in C#](./save-docx-as-markdown-extract-images-c-guide/)
@@ -70,11 +69,9 @@ Leer hoe u Word‑vergelijkingen exporteert naar LaTeX bij het opslaan van een d
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
-
 Leer hoe u LaTeX‑inhoud uit een Word‑document exporteert en converteert naar Markdown met Aspose.Words voor .NET.
 
 ### [Word naar Markdown – Afbeeldingen insluiten als Base64](./convert-word-to-markdown-embed-images-as-base64/)
-
 Leer hoe u Word-documenten naar Markdown converteert en afbeeldingen embed als Base64‑strings met Aspose.Words voor .NET.
 
 ### [Hoe LaTeX te exporteren: DOCX naar Markdown & TXT converteren](./how-to-export-latex-convert-docx-to-markdown-txt/)
@@ -123,11 +120,13 @@ Leer hoe u regelafbrekingen behoudt bij het converteren van DOCX-bestanden naar 
 
 ### [Hoe LaTeX te exporteren vanuit Word – DOCX naar Markdown & TXT converteren](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
 
-Leer hoe u LaTeX-inhoud uit Word exporteert en DOCX-bestanden converteert naar Markdown en TXT met Aspose.Words voor .NET.
+Leer hoe u LaTeX‑inhoud uit Word exporteert en DOCX-bestanden converteert naar Markdown en TXT met Aspose.Words voor .NET.
 
 ### [Bepaal bestandsextensie bij het converteren van DOCX naar Markdown – Complete gids](./determine-file-extension-while-converting-docx-to-markdown-c/)
 
 Leer hoe u de juiste bestandsextensie bepaalt bij het omzetten van DOCX naar Markdown met Aspose.Words voor .NET.
+
+### [Hoe een document opslaan als docx bij het converteren van Markdown naar Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

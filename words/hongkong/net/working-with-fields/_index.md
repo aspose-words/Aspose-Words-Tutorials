@@ -30,6 +30,7 @@
 | [插入嵌套字段](./insert-nested-fields/) |透過我們的逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中插入巢狀欄位。非常適合希望自動化文件創建的開發人員。 |
 | [使用 DOM 插入合併字段](./insert-merge-field-using-dom/) |了解如何使用 Aspose.Words for .NET 將自訂欄位合併欄位插入 Word 文件中。 |
 | [使用 DOM 插入郵件合併地址區塊字段](./insert-mail-merge-address-block-field-using-dom/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中插入郵件合併位址區塊欄位。 |
+| [如何使用 Aspose 執行郵件合併以填充 Word 範本](./how-to-perform-mail-merge-aspose-to-populate-a-word-template/) |使用 Aspose.Words for .NET 執行郵件合併，將資料填入 Word 範本。 |
 | [不使用文檔產生器插入 FieldIncludeText](./insert-field-include-text-without-document-builder/) |透過我們詳細的逐步指南，了解如何在 Aspose.Words for .NET 中不使用 DocumentBuilder 插入 FieldIncludeText。 |
 | [插入欄位 無](./insert-field-none/) |使用 Aspose.Words for .NET 掌握文件自動化。了解如何逐步插入欄位並簡化您的工作流程。適合各個層級的開發人員。 |
 | [插入字段](./insert-field/) |透過我們詳細的逐步指南了解如何使用 Aspose.Words for .NET 將欄位插入 Word 文件。非常適合文件自動化。 |

@@ -43,8 +43,10 @@ Cuối cùng, đừng quên kiểm tra [Làm việc với tùy chọn tóm tắt
 | [Làm việc với mô hình AI mở](./working-with-open-ai-model/) | Mở khóa tóm tắt tài liệu hiệu quả bằng Aspose.Words cho .NET với các mô hình mạnh mẽ của OpenAI. Khám phá hướng dẫn toàn diện này ngay. |
 | [Làm việc với tùy chọn tóm tắt](./working-with-summarize-options/) | Học cách tóm tắt tài liệu Word hiệu quả bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi về cách tích hợp các mô hình AI để có thông tin chi tiết nhanh chóng. |
 | [Tóm tắt tài liệu Word bằng C# – Hướng dẫn toàn diện sử dụng AI](./summarize-word-document-in-c-complete-ai-powered-guide/) | Hướng dẫn chi tiết cách sử dụng Aspose.Words cho .NET và AI để tóm tắt tài liệu Word bằng C#. |
+| [Cách tóm tắt văn bản bằng C# sử dụng OpenAI](./how-to-summarize-text-in-c-using-openai/) | Hướng dẫn chi tiết cách sử dụng OpenAI với C# để tóm tắt văn bản nhanh chóng và hiệu quả. |
 | [Cách kiểm tra ngữ pháp trong DOCX với Aspose.Words – sử dụng gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Hướng dẫn sử dụng Aspose.Words và gpt-4 turbo để kiểm tra ngữ pháp tài liệu DOCX một cách nhanh chóng. |
 | [Cách kiểm tra ngữ pháp trong Word với Aspose.Words AI – Hướng dẫn đầy đủ](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Khám phá cách sử dụng Aspose.Words AI để tự động kiểm tra và sửa lỗi ngữ pháp trong tài liệu Word một cách nhanh chóng. |
+| [Cách sử dụng trình dịch trong Aspose.Words để dịch tệp DOCX](./how-to-use-translator-in-aspose-words-to-translate-a-docx-fi/) | Hướng dẫn chi tiết cách dùng tính năng dịch của Aspose.Words để chuyển đổi nội dung DOCX sang ngôn ngữ khác. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
