@@ -1,0 +1,7 @@
+Title: How to save document as docx when converting Markdown to Word
+Slug: how-to-save-document-as-docx-when-converting-markdown-to-wor
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-09-12T02:56:23.700981
+SourceRepo: AI Search API
+Keywords: save document as docx, convert markdown to docx, convert markdown to word, export markdown to docx, markdown to word conversion
+PRNumber: 273
