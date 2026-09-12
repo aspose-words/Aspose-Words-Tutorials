@@ -1,0 +1,7 @@
+Title: How to create word document with shapes using Aspose.Words in C#
+Slug: how-to-create-word-document-with-shapes-using-aspose-words-i
+Category: programming-with-shapes
+ProcessedDate: 2026-09-12T02:56:19.369110
+SourceRepo: AI Search API
+Keywords: create word document, add rectangle shape, set shape size, create shapes in word, set shape dimensions
+PRNumber: 273
