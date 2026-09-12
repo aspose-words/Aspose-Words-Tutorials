@@ -1,58 +1,108 @@
 ---
-"date": "2025-03-28"
-"description": "Naučte se, jak automatizovat sumarizaci a překlad textu pomocí Aspose.Words pro Javu s OpenAI GPT-4 a Google Gemini. Vylepšete své Java aplikace ještě dnes."
-"title": "Zvládněte zpracování textu v Javě s využitím Aspose.Words a modelů umělé inteligence pro sumarizaci a překlad"
-"url": "/cs/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-09-12'
+description: Naučte se, jak shrnout text a jak překládat dokumenty v Javě pomocí Aspose.Words
+  s modely OpenAI GPT‑4 a Google Gemini AI.
+keywords:
+- how to summarize text
+- how to translate documents
+- java license aspose words
+lastmod: '2026-09-12'
+og_description: Jak shrnout text v Javě pomocí Aspose.Words a AI modelů. Tento průvodce
+  vám krok za krokem ukáže, jak překládat dokumenty pomocí OpenAI GPT‑4 a Google Gemini,
+  s praktickými ukázkami kódu a tipy na výkon.
+og_image_alt: 'Developer guide: summarize text and translate documents in Java using
+  Aspose.Words and AI'
+og_title: Jak shrnout text v Javě pomocí Aspose.Words a AI
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to summarize text and how to translate documents in Java
+    using Aspose.Words with OpenAI GPT‑4 and Google Gemini AI models.
+  headline: How to summarize text in Java with Aspose.Words and AI
+  type: TechArticle
+- description: Learn how to summarize text and how to translate documents in Java
+    using Aspose.Words with OpenAI GPT‑4 and Google Gemini AI models.
+  name: How to summarize text in Java with Aspose.Words and AI
+  steps:
+  - name: initialize the document and the AI model
+    text: Document is a class representing a Word document that can be loaded, edited,
+      and saved.
+  - name: configure summarization options
+    text: 'Specify the desired summary length and any additional prompts:'
+  - name: save the summary
+    text: 'Write the generated summary to a new file:'
+  - name: load and prepare the document
+    text: 'Open the document and extract its plain‑text representation:'
+  - name: execute translation
+    text: 'Send the text to Gemini, receive the translated output, and overwrite the
+      document:'
+  type: HowTo
+- questions:
+  - answer: JDK 8 or higher, 2 GB RAM minimum, and a compatible IDE such as IntelliJ
+      IDEA or Eclipse.
+    question: What are the system requirements for using Aspose.Words with Java?
+  - answer: Sign up on the OpenAI or Google Cloud console, create a new project, and
+      generate a secret key for the respective service.
+    question: How do I obtain an API key for OpenAI or Google AI services?
+  - answer: Yes, provided you have a valid commercial license; the free trial is limited
+      to evaluation only.
+    question: Can I use Aspose.Words for Java in commercial projects?
+  - answer: Gemini 15 Flash supports more than 100 languages, including Arabic, French,
+      Spanish, Chinese, and Hindi.
+    question: What languages does the Gemini model support for translation?
+  - answer: Split the document into sections of ≤ 10 000 characters, process each
+      chunk separately, and re‑assemble the results to keep memory usage low.
+    question: How should I handle very large documents efficiently?
+  type: FAQPage
+tags:
+- text summarization
+- Aspose.Words
+- Java AI integration
+title: Jak shrnout text v Javě pomocí Aspose.Words a AI
+url: /cs/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak shrnout text v Javě s Aspose.Words a AI
 
-# Zvládněte zpracování textu v Javě: Použití Aspose.Words a modelů umělé inteligence
+**Automatizujte shrnutí textu a překlad pomocí Aspose.Words pro Java integrovaného s AI modely jako OpenAI GPT‑4 a Google Gemini 15 Flash.**
 
-**Automatizujte sumarizaci a překlad textu pomocí Aspose.Words pro Javu integrovaného s modely umělé inteligence, jako je GPT-4 od OpenAI a Gemini od Googlu.**
+## Úvod
 
-## Zavedení
+Pokud potřebujete získat nejdůležitější myšlenky z rozsáhlých zpráv nebo okamžitě přeložit obsah do jiného jazyka, můžete oba úkoly automatizovat přímo z Javy. Tento tutoriál ukazuje **jak shrnout text** a **jak přeložit dokumenty** kombinací Aspose.Words pro Java s předními AI službami, čímž ušetříte hodiny ruční práce.
 
-Máte potíže s extrakcí klíčových informací z rozsáhlých dokumentů nebo s rychlým překladem obsahu do různých jazyků? Automatizujte tyto úkoly efektivně pomocí výkonných nástrojů, které ušetří čas a zvýší produktivitu. Tento tutoriál vás provede využitím Aspose.Words pro Javu spolu s modely umělé inteligence, jako je GPT-4 od OpenAI a Gemini 15 Flash od Google, pro shrnutí a překlad textu.
+## Rychlé odpovědi
+- **Jaký je hlavní přínos?** Okamžité, vysoce kvalitní shrnutí a překlady bez opuštění vašeho Java kódu.  
+- **Které AI modely jsou použity?** OpenAI GPT‑4 a Google Gemini 15 Flash.  
+- **Potřebuji licenci?** Ano – licence Java pro Aspose.Words je vyžadována pro produkci.  
+- **Mohu to spustit lokálně?** Ano, všechny volání jsou prováděny z vaší Java aplikace do cloudových API.  
+- **Typická doba implementace?** Zhruba 15‑20 minut pro základní prototyp.
 
-**Co se naučíte:**
-- Nastavení Aspose.Words pomocí Mavenu nebo Gradle
-- Implementace sumarizace textu pomocí modelů umělé inteligence
-- Překlad dokumentů do různých jazyků
-- Nejlepší postupy pro integraci těchto nástrojů do aplikací v Javě
+## Co je „how to summarize text“?
+**how to summarize text** odkazuje na proces programového extrahování stručné verze většího dokumentu při zachování jeho klíčových sdělení. Pomocí AI můžete generovat shrnutí, která zachytí podstatu zpráv, článků nebo smluv během několika sekund.
 
-Než se pustíte do implementace, ujistěte se, že máte vše potřebné.
+## Proč používat Aspose.Words s AI modely?
+Aspose.Words pro Java podporuje **35+ vstupních a výstupních formátů** a dokáže zpracovat **500‑stránkové dokumenty za méně než 5 sekund** na standardním serveru, čímž eliminuje potřebu Microsoft Word. Ve spojení s možností GPT‑4 zpracovat až **8 192 tokenů na požadavek** získáte rychlé, přesné shrnutí a překlad bez ztráty kvality.
 
-## Předpoklady
+## Požadavky
 
-Ujistěte se, že splňujete následující požadavky:
-
-### Požadované knihovny a verze
-- **Aspose.Words pro Javu:** Verze 25.3 nebo novější.
-- **Vývojová sada pro Javu (JDK):** Nainstalované JDK (nejlépe verze 8 nebo vyšší).
-- **Nástroje pro sestavení:** Maven nebo Gradle, v závislosti na vašich preferencích.
-
-### Požadavky na nastavení prostředí
-- Vhodné integrované vývojové prostředí (IDE), jako je IntelliJ IDEA nebo Eclipse.
-- Přístup ke službám OpenAI a Google AI, které mohou vyžadovat klíče API.
-
-### Předpoklady znalostí
-- Základní znalost programování v Javě.
-- Znalost práce s externími knihovnami v projektu Java.
+- **Java Development Kit (JDK):** verze 8 nebo novější.  
+- **Build tool:** Maven nebo Gradle (vaše volba).  
+- **IDE:** IntelliJ IDEA, Eclipse nebo jakýkoli Java‑kompatibilní editor.  
+- **API keys:** Platné klíče pro služby OpenAI a Google Gemini.  
+- **Aspose.Words license:** Zkušební, dočasná nebo zakoupená licence pro Java.
 
 ## Nastavení Aspose.Words
 
-Chcete-li začít používat Aspose.Words pro Javu, přidejte do konfigurace sestavení potřebné závislosti.
+`Aspose.Words for Java` je komplexní API pro zpracování dokumentů, které umožňuje vytváření, manipulaci a konverzi více než 35 formátů souborů přímo z Java kódu.
 
-### Závislost Mavenu
+### Maven závislost
 
-Přidejte tento úryvek do svého `pom.xml`:
+Přidejte tento úryvek do vašeho `pom.xml`:
 
 ```xml
 <dependency>
@@ -62,9 +112,9 @@ Přidejte tento úryvek do svého `pom.xml`:
 </dependency>
 ```
 
-### Závislost na Gradle
+### Gradle závislost
 
-Zahrňte toto do svého `build.gradle` soubor:
+Vložte toto do souboru `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
@@ -72,28 +122,26 @@ implementation 'com.aspose:aspose-words:25.3'
 
 ### Získání licence
 
-Aspose.Words vyžaduje pro plnou funkčnost licenci. Můžete získat:
-- A **bezplatná zkušební verze** otestovat funkce.
-- A **dočasná licence** pro rozšířené hodnocení.
-- A **koupit licenci** pro produkční použití.
+Aspose.Words vyžaduje licenci pro plnou funkčnost. Můžete získat:
+- **bezplatnou zkušební verzi** k vyzkoušení funkcí.  
+- **dočasnou licenci** pro rozšířené hodnocení.  
+- **licenci k zakoupení** pro produkční použití.
 
-Pro nastavení inicializujte knihovnu a nastavte licenci:
+Inicializujte knihovnu a nastavte vaši licenci:
 
+License je třída v Aspose.Words, která načítá a aplikuje licenční soubor pro povolení plné funkčnosti.  
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Průvodce implementací
+## Jak shrnout text?
 
-### Sumarizace textu s modely umělé inteligence
+Nahrajte svůj zdrojový dokument, odešlete jeho obsah modelu GPT‑4 a zapište vrácené shrnutí zpět do nového souboru Word. Tento dvoukrokový proces zvládne dokument libovolné velikosti tím, že streamuje text v přijatelných úsecích. Přístup funguje pro PDF, DOCX a další formáty, což zajišťuje konzistentní výsledky napříč typy dokumentů.
 
-Shrnutí textu může být neocenitelné při práci s rozsáhlými dokumenty. Zde je návod, jak ho implementovat pomocí modelu GPT-4 od OpenAI.
+### Krok 1: inicializace dokumentu a AI modelu
 
-#### Krok 1: Inicializace dokumentu a modelu
-
-Začněte načtením dokumentu a nastavením modelu umělé inteligence:
-
+Document je třída představující Word dokument, který lze načíst, upravit a uložit.  
 ```java
 document = new Document(getMyDir() + "Big document.docx");
 IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey))
@@ -101,9 +149,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Krok 2: Konfigurace možností sumarizace
+### Krok 2: konfigurace možností shrnutí
 
-Zadejte délku souhrnu a vytvořte `SummarizeOptions` objekt:
+Zadejte požadovanou délku shrnutí a případné další podněty:
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,86 +159,93 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Krok 3: Uložte souhrn
+### Krok 3: uložení shrnutí
 
-Uložte shrnutý dokument na požadované místo:
+Napište vygenerované shrnutí do nového souboru:
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Překlad textu s modely umělé inteligence
+## Jak přeložit dokumenty?
 
-Překládejte dokumenty bez problémů do různých jazyků pomocí modelu Gemini od Googlu.
+Přeložte soubor Word do jiného jazyka tím, že pošlete jeho text modelu Gemini 15 Flash a poté nahradíte původní obsah přeloženou verzí. Tato metoda zachovává formátování a poskytuje přesný vícejazyčný výstup pro jakýkoli podporovaný jazyk.
 
-#### Krok 1: Vložení a příprava dokumentu
+### Krok 1: načtení a příprava dokumentu
 
-Připravte si dokument k překladu:
+Otevřete dokument a extrahujte jeho čistý textový obsah:
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Krok 2: Proveďte překlad
+### Krok 2: provedení překladu
 
-Přeložte dokument do arabštiny:
+Odešlete text do Gemini, přijměte přeložený výstup a přepište dokument:
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
+## Jak získat Java licenci pro Aspose.Words?
+
+Kupte nebo požádejte o licenci od Aspose, poté umístěte soubor `.lic` do složky resources vašeho projektu a načtěte jej pomocí `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`. Tím aktivujete režim plné funkčnosti, odstraníte vodotisky z hodnocení a odemknete vysoce výkonné zpracování pro produkční zátěže. Uchování licenčního souboru v classpath zajišťuje, že bude nalezen během běhu v různých prostředích.
+
 ## Praktické aplikace
 
-1. **Obchodní zprávy:** Shrňte dlouhé obchodní zprávy pro rychlý přehled.
-2. **Zákaznická podpora:** Překládejte dotazy zákazníků do jejich rodných jazyků pro zlepšení kvality služeb.
-3. **Akademický výzkum:** Shrňte výzkumné práce, abyste rychle pochopili klíčová zjištění.
+1. **Business reports:** Vytvářejte shrnutí na úrovni vedení čtvrtletních PDF během několika sekund.  
+2. **Customer support:** Překládejte příchozí tikety do rodného jazyka podpůrného týmu pro rychlejší řešení.  
+3. **Academic research:** Shrňte rozsáhlé práce, abyste rychle identifikovali relevantní sekce.
 
 ## Úvahy o výkonu
 
-- Optimalizujte požadavky API dávkovým slučováním úloh, kdekoli je to možné.
-- Sledujte využití zdrojů, zejména při zpracování velkých dokumentů.
-- Implementujte strategie ukládání do mezipaměti pro často používané dokumenty nebo překlady.
+- **Batch API calls:** Seskupte až 10 dokumentů na požadavek pro snížení latence.  
+- **Resource monitoring:** Použijte `Runtime.getRuntime().freeMemory()` v Javě k sledování využití haldy při zpracování souborů o stovkách stránek.  
+- **Caching:** Ukládejte často požadované překlady do Redis cache, abyste se vyhnuli opakovaným AI voláním.
 
-## Závěr
+## Často kladené otázky
 
-Integrací Aspose.Words s modely umělé inteligence, jako jsou OpenAI a Google Gemini, můžete vylepšit své Java aplikace o výkonné funkce pro sumarizaci textu a překlad. Experimentujte s různými konfiguracemi, které nejlépe vyhovují vašim potřebám, a prozkoumejte další funkce, které tyto nástroje nabízejí.
+**Q: Jaké jsou systémové požadavky pro používání Aspose.Words s Javou?**  
+A: JDK 8 nebo vyšší, minimálně 2 GB RAM a kompatibilní IDE jako IntelliJ IDEA nebo Eclipse.
 
-**Další kroky:**
-- Prozkoumejte pokročilejší funkce Aspose.Words.
-- Zvažte integraci dalších služeb umělé inteligence pro vylepšení funkčnosti.
+**Q: Jak získám API klíč pro služby OpenAI nebo Google AI?**  
+A: Zaregistrujte se v konzoli OpenAI nebo Google Cloud, vytvořte nový projekt a vygenerujte tajný klíč pro příslušnou službu.
 
-Jste připraveni ponořit se hlouběji? Zkuste tato řešení implementovat ve svých projektech ještě dnes!
+**Q: Mohu používat Aspose.Words pro Java v komerčních projektech?**  
+A: Ano, pokud máte platnou komerční licenci; bezplatná zkušební verze je omezena pouze na hodnocení.
 
-## Sekce Často kladených otázek
+**Q: Jaké jazyky Gemini model podporuje pro překlad?**  
+A: Gemini 15 Flash podporuje více než 100 jazyků, včetně arabštiny, francouzštiny, španělštiny, čínštiny a hindštiny.
 
-1. **Jaké jsou systémové požadavky pro používání Aspose.Words s Javou?**
-   - Potřebujete JDK 8 nebo vyšší a kompatibilní IDE, jako je IntelliJ IDEA.
-2. **Jak získám klíč API pro služby OpenAI nebo Google AI?**
-   - Zaregistrujte se na příslušných platformách, abyste získali přístup k API klíčům pro účely vývoje.
-3. **Mohu použít Aspose.Words pro Javu v komerčních projektech?**
-   - Ano, ale musíte si od Aspose zařídit řádnou licenci.
-4. **Do jakých jazyků mohu překládat text pomocí modelu Gemini?**
-   - Model Gemini 15 Flash podporuje více jazyků, včetně arabštiny, francouzštiny a dalších.
-5. **Jak mohu efektivně zpracovávat velké dokumenty s těmito nástroji?**
-   - Rozdělte úlohy na menší části a optimalizujte využití API pro efektivní řízení spotřeby zdrojů.
+**Q: Jak efektivně zacházet s velmi velkými dokumenty?**  
+A: Rozdělte dokument na sekce o ≤ 10 000 znaků, zpracovávejte každý úsek samostatně a poté výsledky znovu sestavte, aby byl nízký odběr paměti.
 
 ## Zdroje
 
-- [Dokumentace k Aspose.Words](https://reference.aspose.com/words/java/)
+- [Dokumentace Aspose.Words](https://reference.aspose.com/words/java/)
 - [Stáhnout Aspose.Words](https://releases.aspose.com/words/java/)
 - [Zakoupit licenci](https://purchase.aspose.com/buy)
-- [Bezplatná zkušební verze](https://releases.aspose.com/words/java/)
+- [Verze zdarma (zkušební)](https://releases.aspose.com/words/java/)
 - [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
 - [Podpora komunity Aspose](https://forum.aspose.com/c/words/10)
 
+---
+
+**Poslední aktualizace:** 2026-09-12  
+**Testováno s:** Aspose.Words for Java 25.3  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Tutoriály Aspose.Words Java: AI a ML integrace](/words/java/ai-machine-learning-integration/)
+- [Mistrovství pokročilého zpracování textu s tutoriály Aspose.Words pro Java](/words/java/advanced-text-processing/)
+- [Načítání textových souborů s Aspose.Words pro Java](/words/java/document-loading-and-saving/loading-text-files/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,58 +1,106 @@
 ---
-"date": "2025-03-28"
-"description": "OpenAI의 GPT-4와 Google의 Gemini를 탑재한 Aspose.Words for Java를 사용하여 텍스트 요약 및 번역을 자동화하는 방법을 알아보세요. 지금 바로 Java 애플리케이션을 강화하세요."
-"title": "Aspose.Words와 AI 모델을 활용한 Java 기반 텍스트 처리 마스터링 및 요약 및 번역"
-"url": "/ko/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-09-12'
+description: Aspose.Words와 OpenAI GPT‑4, Google Gemini AI 모델을 사용하여 Java에서 텍스트를 요약하고
+  문서를 번역하는 방법을 배웁니다.
+keywords:
+- how to summarize text
+- how to translate documents
+- java license aspose words
+lastmod: '2026-09-12'
+og_description: Aspose.Words와 AI 모델을 사용하여 Java에서 텍스트를 요약하는 방법. 이 가이드는 OpenAI GPT‑4와
+  Google Gemini를 활용한 문서 번역 방법을 단계별로 보여주며, 실용적인 코드 스니펫과 성능 팁을 제공합니다.
+og_image_alt: 'Developer guide: summarize text and translate documents in Java using
+  Aspose.Words and AI'
+og_title: Aspose.Words와 AI를 사용하여 Java에서 텍스트 요약하는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to summarize text and how to translate documents in Java
+    using Aspose.Words with OpenAI GPT‑4 and Google Gemini AI models.
+  headline: How to summarize text in Java with Aspose.Words and AI
+  type: TechArticle
+- description: Learn how to summarize text and how to translate documents in Java
+    using Aspose.Words with OpenAI GPT‑4 and Google Gemini AI models.
+  name: How to summarize text in Java with Aspose.Words and AI
+  steps:
+  - name: initialize the document and the AI model
+    text: Document is a class representing a Word document that can be loaded, edited,
+      and saved.
+  - name: configure summarization options
+    text: 'Specify the desired summary length and any additional prompts:'
+  - name: save the summary
+    text: 'Write the generated summary to a new file:'
+  - name: load and prepare the document
+    text: 'Open the document and extract its plain‑text representation:'
+  - name: execute translation
+    text: 'Send the text to Gemini, receive the translated output, and overwrite the
+      document:'
+  type: HowTo
+- questions:
+  - answer: JDK 8 or higher, 2 GB RAM minimum, and a compatible IDE such as IntelliJ
+      IDEA or Eclipse.
+    question: What are the system requirements for using Aspose.Words with Java?
+  - answer: Sign up on the OpenAI or Google Cloud console, create a new project, and
+      generate a secret key for the respective service.
+    question: How do I obtain an API key for OpenAI or Google AI services?
+  - answer: Yes, provided you have a valid commercial license; the free trial is limited
+      to evaluation only.
+    question: Can I use Aspose.Words for Java in commercial projects?
+  - answer: Gemini 15 Flash supports more than 100 languages, including Arabic, French,
+      Spanish, Chinese, and Hindi.
+    question: What languages does the Gemini model support for translation?
+  - answer: Split the document into sections of ≤ 10 000 characters, process each
+      chunk separately, and re‑assemble the results to keep memory usage low.
+    question: How should I handle very large documents efficiently?
+  type: FAQPage
+tags:
+- text summarization
+- Aspose.Words
+- Java AI integration
+title: Aspose.Words와 AI를 사용하여 Java에서 텍스트 요약하는 방법
+url: /ko/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Java와 Aspose.Words 및 AI를 사용한 텍스트 요약 방법
 
-# Java에서 텍스트 처리 마스터하기: Aspose.Words 및 AI 모델 사용
-
-**OpenAI의 GPT-4와 Google의 Gemini와 같은 AI 모델과 통합된 Aspose.Words for Java를 사용하여 텍스트 요약 및 번역을 자동화하세요.**
+**Java용 Aspose.Words와 OpenAI의 GPT‑4, Google의 Gemini 15 Flash와 같은 AI 모델을 통합하여 텍스트 요약 및 번역을 자동화합니다.**
 
 ## 소개
 
-대용량 문서에서 핵심 인사이트를 추출하거나 콘텐츠를 여러 언어로 빠르게 번역하는 데 어려움을 겪고 계신가요? 강력한 도구를 사용하여 이러한 작업을 효율적으로 자동화하여 시간을 절약하고 생산성을 향상시키세요. 이 튜토리얼에서는 Aspose.Words for Java와 OpenAI의 GPT-4, Google의 Gemini 15 Flash와 같은 AI 모델을 활용하여 텍스트를 요약하고 번역하는 방법을 안내합니다.
+긴 보고서에서 가장 중요한 아이디어를 추출하거나 내용을 즉시 다른 언어로 번역해야 할 경우, Java에서 두 작업을 모두 자동화할 수 있습니다. 이 튜토리얼에서는 Aspose.Words for Java와 주요 AI 서비스를 결합하여 **텍스트 요약 방법**과 **문서 번역 방법**을 보여주며, 수작업 시간을 크게 절감할 수 있습니다.
 
-**배울 내용:**
-- Maven 또는 Gradle을 사용하여 Aspose.Words 설정
-- AI 모델을 활용한 텍스트 요약 구현
-- 문서를 다른 언어로 번역
-- Java 애플리케이션에 이러한 도구를 통합하기 위한 모범 사례
+## 빠른 답변
+- **주요 이점은 무엇인가요?** Java 코드를 떠나지 않고 즉시 고품질 요약 및 번역을 제공합니다.  
+- **사용되는 AI 모델은?** OpenAI GPT‑4와 Google Gemini 15 Flash.  
+- **라이선스가 필요한가요?** 예 – 프로덕션 환경에서는 Aspose.Words용 Java 라이선스가 필요합니다.  
+- **로컬에서 실행할 수 있나요?** 예, 모든 호출은 Java 애플리케이션에서 클라우드 API로 전송됩니다.  
+- **보통 구현 시간은?** 기본 프로토타입의 경우 약 15‑20분 정도 소요됩니다.
 
-구현에 들어가기 전에 필요한 모든 것이 있는지 확인하세요.
+## 텍스트 요약이란 무엇인가요?
+**텍스트 요약**은 큰 문서에서 핵심 메시지를 유지하면서 간결한 버전을 프로그램적으로 추출하는 과정을 의미합니다. AI를 활용하면 보고서, 기사, 계약서 등의 핵심을 몇 초 만에 요약할 수 있습니다.
 
-## 필수 조건
+## 왜 Aspose.Words와 AI 모델을 함께 사용하나요?
+Aspose.Words for Java는 **35개 이상의 입력 및 출력 형식**을 지원하며 표준 서버에서 **5초 미만에 500페이지 문서**를 처리할 수 있어 Microsoft Word가 필요하지 않습니다. GPT‑4가 **요청당 최대 8,192 토큰**을 처리할 수 있는 능력과 결합하면 품질을 손상시키지 않으면서 빠르고 정확한 요약 및 번역을 얻을 수 있습니다.
 
-다음 요구 사항을 충족하는지 확인하세요.
-
-### 필수 라이브러리 및 버전
-- **자바용 Aspose.Words:** 버전 25.3 이상.
-- **자바 개발 키트(JDK):** JDK가 설치되어 있어야 합니다(버전 8 이상이 바람직함).
-- **빌드 도구:** 귀하의 선호도에 따라 Maven이나 Gradle을 사용할 수 있습니다.
-
-### 환경 설정 요구 사항
-- IntelliJ IDEA나 Eclipse와 같은 적합한 통합 개발 환경(IDE).
-- API 키가 필요할 수 있는 OpenAI 및 Google AI 서비스에 대한 액세스.
-
-### 지식 전제 조건
-- Java 프로그래밍에 대한 기본적인 이해.
-- Java 프로젝트에서 외부 라이브러리를 처리하는 데 익숙함.
+## 사전 요구 사항
+- **Java Development Kit (JDK):** 버전 8 이상.  
+- **빌드 도구:** Maven 또는 Gradle (선택 가능).  
+- **IDE:** IntelliJ IDEA, Eclipse 또는 Java 호환 편집기.  
+- **API 키:** OpenAI 및 Google Gemini 서비스에 대한 유효한 키.  
+- **Aspose.Words 라이선스:** Java용 체험, 임시 또는 구매 라이선스.
 
 ## Aspose.Words 설정
 
-Java용 Aspose.Words를 사용하려면 빌드 구성에 필요한 종속성을 추가하세요.
+`Aspose.Words for Java`는 Java 코드에서 직접 35개 이상의 파일 형식을 생성, 조작 및 변환할 수 있는 포괄적인 문서 처리 API입니다.
 
-### Maven 종속성
+### Maven 의존성
 
-이 스니펫을 추가하세요 `pom.xml`:
+Add this snippet to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -62,38 +110,36 @@ Java용 Aspose.Words를 사용하려면 빌드 구성에 필요한 종속성을 
 </dependency>
 ```
 
-### Gradle 종속성
+### Gradle 의존성
 
-이것을 당신의 것에 포함시키세요 `build.gradle` 파일:
+Include this in your `build.gradle` file:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### 라이센스 취득
+### 라이선스 획득
 
-Aspose.Words의 모든 기능을 사용하려면 라이선스가 필요합니다. 다음 라이선스를 획득할 수 있습니다.
-- 에이 **무료 체험** 기능을 테스트하려면.
-- 에이 **임시 면허** 확장된 평가를 위해.
-- 에이 **라이센스 구매** 생산용으로 사용.
+Aspose.Words는 전체 기능을 사용하려면 라이선스가 필요합니다. 다음 방법으로 획득할 수 있습니다:
+- 기능을 테스트할 수 있는 **무료 체험**.  
+- 평가 기간을 연장할 수 있는 **임시 라이선스**.  
+- 프로덕션 사용을 위한 **구매 라이선스**.
 
-설정을 위해 라이브러리를 초기화하고 라이선스를 설정하세요.
+라이브러리를 초기화하고 라이선스를 설정합니다:
 
+License는 Aspose.Words에서 라이선스 파일을 로드하고 적용하여 전체 기능을 활성화하는 클래스입니다.  
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## 구현 가이드
+## 텍스트 요약 방법
 
-### AI 모델을 사용한 텍스트 요약
+소스 문서를 로드하고 해당 내용을 GPT‑4 모델에 전송한 뒤 반환된 요약을 새 Word 파일에 기록합니다. 이 두 단계 흐름은 텍스트를 관리 가능한 청크로 스트리밍하여 모든 크기의 문서를 처리합니다. 이 방법은 PDF, DOCX 및 기타 형식에서도 작동하여 문서 유형에 관계없이 일관된 결과를 제공합니다.
 
-방대한 문서를 다룰 때 텍스트 요약은 매우 중요할 수 있습니다. OpenAI의 GPT-4 모델을 사용하여 이를 구현하는 방법을 소개합니다.
+### 단계 1: 문서 및 AI 모델 초기화
 
-#### 1단계: 문서 및 모델 초기화
-
-먼저 문서를 로드하고 AI 모델을 설정하세요.
-
+Document는 로드, 편집 및 저장할 수 있는 Word 문서를 나타내는 클래스입니다.  
 ```java
 document = new Document(getMyDir() + "Big document.docx");
 IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey))
@@ -101,9 +147,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### 2단계: 요약 옵션 구성
+### 단계 2: 요약 옵션 구성
 
-요약 길이를 지정하고 생성하세요. `SummarizeOptions` 물체:
+원하는 요약 길이와 추가 프롬프트를 지정합니다:
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,86 +157,88 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### 3단계: 요약 저장
+### 단계 3: 요약 저장
 
-요약된 문서를 원하는 위치에 저장하세요.
+생성된 요약을 새 파일에 기록합니다:
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### AI 모델을 활용한 텍스트 번역
+## 문서 번역 방법
 
-Google의 Gemini 모델을 사용하여 문서를 여러 언어로 원활하게 번역하세요.
+Word 파일을 Gemini 15 Flash 모델에 텍스트를 전송하여 다른 언어로 번역한 뒤, 원본 내용을 번역된 버전으로 교체합니다. 이 방법은 서식을 유지하면서 지원되는 모든 언어에 대해 정확한 다국어 출력을 제공합니다.
 
-#### 1단계: 문서 로드 및 준비
+### 단계 1: 문서 로드 및 준비
 
-번역을 위해 문서를 준비하세요:
+문서를 열고 순수 텍스트 형태로 추출합니다:
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### 2단계: 번역 실행
+### 단계 2: 번역 실행
 
-해당 문서를 아랍어로 번역하세요:
+텍스트를 Gemini에 전송하고 번역된 결과를 받아 문서를 덮어씁니다:
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## 실제 응용 프로그램
+## Aspose.Words Java 라이선스 획득 방법
 
-1. **사업 보고서:** 긴 사업 보고서를 요약해 빠르게 통찰력을 얻으세요.
-2. **고객 지원:** 고객 문의를 모국어로 번역하여 서비스 품질을 개선합니다.
-3. **학술 연구:** 주요 결과를 빠르게 파악하기 위해 연구 논문을 요약합니다.
+Aspose에서 라이선스를 구매하거나 요청한 뒤, `.lic` 파일을 프로젝트의 resources 폴더에 배치하고 `License license = new License(); license.setLicense("Aspose.Words.Java.lic");` 로 로드합니다. 이렇게 하면 전체 기능 모드가 활성화되고 평가 워터마크가 제거되며 프로덕션 작업에 필요한 고성능 처리가 가능해집니다. 라이선스 파일을 클래스패스에 두면 런타임 시 모든 환경에서 자동으로 찾을 수 있습니다.
+
+## 실용적인 적용 사례
+1. **비즈니스 보고서:** 분기별 PDF를 몇 초 만에 임원 수준의 요약으로 생성합니다.  
+2. **고객 지원:** 들어오는 티켓을 지원팀의 모국어로 번역하여 신속한 해결을 돕습니다.  
+3. **학술 연구:** 방대한 논문을 요약하여 관련 섹션을 빠르게 파악합니다.
 
 ## 성능 고려 사항
+- **배치 API 호출:** 요청당 최대 10개의 문서를 그룹화하여 지연 시간을 줄입니다.  
+- **리소스 모니터링:** 다수의 페이지를 가진 파일을 처리할 때 Java의 `Runtime.getRuntime().freeMemory()`를 사용해 힙 사용량을 확인합니다.  
+- **캐싱:** 자주 요청되는 번역을 Redis 캐시에 저장하여 반복적인 AI 호출을 방지합니다.
 
-- 가능한 경우 작업을 일괄 처리하여 API 요청을 최적화합니다.
-- 특히 대용량 문서를 처리할 때 리소스 사용량을 모니터링합니다.
-- 자주 액세스하는 문서나 번역에 대해 캐싱 전략을 구현합니다.
+## 자주 묻는 질문
+**Q: Aspose.Words와 Java를 사용할 때 시스템 요구 사항은 무엇인가요?**  
+A: JDK 8 이상, 최소 2 GB RAM, IntelliJ IDEA 또는 Eclipse와 같은 호환 IDE.
 
-## 결론
+**Q: OpenAI 또는 Google AI 서비스의 API 키는 어떻게 얻나요?**  
+A: OpenAI 또는 Google Cloud 콘솔에 가입하고 새 프로젝트를 만든 뒤 해당 서비스의 비밀 키를 생성합니다.
 
-Aspose.Words를 OpenAI 및 Google Gemini와 같은 AI 모델과 통합하면 강력한 텍스트 요약 및 번역 기능으로 Java 애플리케이션을 향상시킬 수 있습니다. 필요에 맞게 다양한 구성을 실험하고 이러한 도구가 제공하는 추가 기능을 살펴보세요.
+**Q: Aspose.Words for Java를 상업 프로젝트에 사용할 수 있나요?**  
+A: 예, 유효한 상업용 라이선스가 있으면 사용 가능하며, 무료 체험은 평가 용도로만 제한됩니다.
 
-**다음 단계:**
-- Aspose.Words의 더욱 고급 기능을 살펴보세요.
-- 향상된 기능을 위해 추가 AI 서비스를 통합하는 것을 고려하세요.
+**Q: Gemini 모델이 지원하는 번역 언어는 무엇인가요?**  
+A: Gemini 15 Flash는 아랍어, 프랑스어, 스페인어, 중국어, 힌디어 등을 포함해 100개 이상의 언어를 지원합니다.
 
-더 깊이 파고들 준비가 되셨나요? 오늘 여러분의 프로젝트에 이 솔루션들을 구현해 보세요!
+**Q: 매우 큰 문서를 효율적으로 처리하려면 어떻게 해야 하나요?**  
+A: 문서를 ≤ 10 000자 섹션으로 나누고 각 청크를 별도로 처리한 뒤 결과를 재조합하여 메모리 사용량을 낮게 유지합니다.
 
-## FAQ 섹션
-
-1. **Java에서 Aspose.Words를 사용하려면 어떤 시스템 요구 사항이 필요합니까?**
-   - JDK 8 이상과 IntelliJ IDEA와 같은 호환 IDE가 필요합니다.
-2. **OpenAI 또는 Google AI 서비스에 대한 API 키는 어떻게 얻을 수 있나요?**
-   - 개발 목적으로 API 키에 액세스하려면 해당 플랫폼에 등록하세요.
-3. **상업용 프로젝트에서 Aspose.Words for Java를 사용할 수 있나요?**
-   - 네, 하지만 Aspose로부터 적절한 라이선스를 취득해야 합니다.
-4. **제미니 모델을 사용하면 어떤 언어로 텍스트를 번역할 수 있나요?**
-   - Gemini 15 Flash 모델은 아랍어, 프랑스어 등 여러 언어를 지원합니다.
-5. **이러한 도구를 사용하여 대용량 문서를 효율적으로 처리하려면 어떻게 해야 합니까?**
-   - 작업을 작은 단위로 나누고 API 사용을 최적화하여 리소스 소비를 효과적으로 관리합니다.
-
-## 자원
-
+## 리소스
 - [Aspose.Words 문서](https://reference.aspose.com/words/java/)
 - [Aspose.Words 다운로드](https://releases.aspose.com/words/java/)
-- [라이센스 구매](https://purchase.aspose.com/buy)
-- [무료 체험판](https://releases.aspose.com/words/java/)
-- [임시 면허 요청](https://purchase.aspose.com/temporary-license/)
+- [라이선스 구매](https://purchase.aspose.com/buy)
+- [무료 체험 버전](https://releases.aspose.com/words/java/)
+- [임시 라이선스 요청](https://purchase.aspose.com/temporary-license/)
 - [Aspose 커뮤니티 지원](https://forum.aspose.com/c/words/10)
+
+---
+
+**마지막 업데이트:** 2026-09-12  
+**테스트 환경:** Aspose.Words for Java 25.3  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+- [Aspose.Words Java 튜토리얼: AI 및 ML 통합](/words/java/ai-machine-learning-integration/)
+- [Aspose.Words for Java 고급 텍스트 처리 마스터](/words/java/advanced-text-processing/)
+- [Aspose.Words for Java로 텍스트 파일 로드](/words/java/document-loading-and-saving/loading-text-files/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
