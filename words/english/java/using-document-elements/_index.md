@@ -60,6 +60,12 @@ Learn to use HarfBuzz for advanced text shaping in Aspose.Words for Java. Enhanc
 Learn step-by-step how to use headers and footers in Aspose.Words for Java. Create professional documents effortlessly.
 ### [Using Hyphenation in Aspose.Words for Java](./using-hyphenation/)
 Learn how to use hyphenation effectively in Aspose.Words for Java with this comprehensive tutorial. Enhance document readability today!
+### [How to edit chart in a Word document using Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Learn how to edit charts in Word documents using Aspose.Words for Java with step-by-step code examples.
+### [Save Word document after editing doughnut chart in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Learn how to edit a doughnut chart in a Word document and save the changes using Aspose.Words for Java.
+### [How to create forms2olecontrol in code with Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Learn how to create Forms2OleControl programmatically using Aspose.Words for Java.
 ### [Using Lists in Aspose.Words for Java](./using-lists/)
 Learn to use lists in Aspose.Words for Java with this step-by-step tutorial. Organize and format your documents effectively.
 ### [Using Markdown in Aspose.Words for Java](./using-markdown/)

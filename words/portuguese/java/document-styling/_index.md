@@ -43,6 +43,8 @@ Aprenda a personalizar temas de documentos usando o Aspose.Words para Java. Este
 Aprenda a aplicar marcas d'água e definir configurações de página com o Aspose.Words para Java. Um guia completo com código-fonte.
 ### [Estilo de cabeçalho e rodapé de documento](./document-header-footer-styling/)
 Aprenda a estilizar cabeçalhos e rodapés de documentos usando o Aspose.Words para Java neste guia detalhado. Instruções passo a passo e código-fonte incluídos.
+### [Como definir sombra em um gráfico do Word com Aspose.Words para Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aprenda a aplicar sombra a gráficos do Word usando Aspose.Words para Java com exemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

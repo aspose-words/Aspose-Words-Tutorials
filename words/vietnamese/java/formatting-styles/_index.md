@@ -45,10 +45,13 @@ Tìm hiểu cách quản lý từ điển ngắt dòng trong tài liệu bằng 
 Tìm hiểu cách tạo, quản lý và xóa thẻ thông minh bằng Aspose.Words for Java. Nâng cao khả năng tự động hóa tài liệu của bạn với các thành phần động như ngày tháng và mã chứng khoán.
 
 ### [Tab chính dừng trong tài liệu Word sử dụng Aspose.Words cho Java](./aspose-words-java-optimize-tab-stops/)
-Tìm hiểu cách quản lý hiệu quả các điểm dừng tab trong tài liệu Word bằng Aspose.Words for Java. Cải thiện định dạng tài liệu bằng các ví dụ thực tế và mẹo về hiệu suất.
+Tìm hiểu cách quản lý hiệu quả các điểm dừng tab trong tài liệu Word bằng Aspose.Words cho Java. Cải thiện định dạng tài liệu bằng các ví dụ thực tế và mẹo về hiệu suất.
 
 ### [Tối ưu hóa kiểu chữ trong Java bằng Aspose.Words: Xóa các kiểu chữ không sử dụng và trùng lặp](./optimize-word-styles-aspose-java/)
-Tìm hiểu cách quản lý hiệu quả các kiểu tài liệu bằng Aspose.Words for Java bằng cách loại bỏ các kiểu không sử dụng và trùng lặp, nâng cao hiệu suất và khả năng bảo trì.
+Tìm hiểu cách quản lý hiệu quả các kiểu tài liệu bằng Aspose.Words cho Java bằng cách loại bỏ các kiểu không sử dụng và trùng lặp, nâng cao hiệu suất và khả năng bảo trì.
+
+### [Cách thay đổi định dạng chú thích trong tài liệu Word bằng Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Hướng dẫn chi tiết cách thay đổi định dạng chú thích trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
 

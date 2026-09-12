@@ -43,6 +43,8 @@ Lär dig hur du anpassar dokumentteman med Aspose.Words för Java. Den här omfa
 Lär dig hur du använder vattenstämplar och konfigurerar sidkonfigurationer med Aspose.Words för Java. En omfattande guide med källkod.
 ### [Formatering av dokumentsidhuvud och sidfot](./document-header-footer-styling/)
 Lär dig hur du formaterar dokumentsidhuvuden och sidfot med Aspose.Words för Java i den här detaljerade guiden. Steg-för-steg-instruktioner och källkod ingår.
+### [Sätta skugga på ett Word-diagram](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Lär dig hur du lägger till skugga på ett Word-diagram med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

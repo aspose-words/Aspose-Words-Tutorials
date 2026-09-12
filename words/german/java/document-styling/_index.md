@@ -43,6 +43,8 @@ Erfahren Sie, wie Sie Dokumentdesigns mit Aspose.Words für Java anpassen. Diese
 Erfahren Sie, wie Sie mit Aspose.Words für Java Wasserzeichen anwenden und Seitenkonfigurationen einrichten. Eine umfassende Anleitung mit Quellcode.
 ### [Stil der Kopf- und Fußzeile des Dokuments](./document-header-footer-styling/)
 Erfahren Sie in dieser ausführlichen Anleitung, wie Sie Dokumentkopf- und -fußzeilen mit Aspose.Words für Java formatieren. Schritt-für-Schritt-Anleitung und Quellcode inklusive.
+### [Schatten für ein Word-Diagramm mit Aspose.Words für Java festlegen](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java Schatten zu Word-Diagrammen hinzufügen und das Erscheinungsbild verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

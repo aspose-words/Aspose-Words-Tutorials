@@ -39,6 +39,11 @@ Naučte se, jak přidat obdélníkový tvar se stínem do Word dokumentu pomocí
 ### [Vytvoření obdélníkového tvaru ve Wordu v Javě – Kompletní průvodce](./create-rectangle-shape-in-word-with-java-full-guide/)
 Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a upravit obdélníkový tvar ve Word dokumentu.
 
+### [Skupinové tvary ve Wordu a přidání obdélníku pomocí Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Naučte se seskupovat tvary a přidávat obdélníkový tvar ve Word dokumentu pomocí Aspose.Words pro Javu.
+
+### [Jak skrýt tvar ve Wordu pomocí C# a Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

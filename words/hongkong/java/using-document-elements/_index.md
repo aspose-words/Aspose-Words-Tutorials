@@ -67,10 +67,16 @@
 透過本逐步教學學習如何在 Aspose.Words for Java 中操作節點。釋放文檔處理能力。
 ### [在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控件](./using-ole-objects-and-activex/)
 學習在 Aspose.Words for Java 中使用 OLE 物件和 ActiveX 控制項。輕鬆建立互動式文件。立即開始！
+### [在程式碼中使用 Aspose.Words 建立 forms2olecontrol 控制項](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+了解如何在 Java 程式碼中使用 Aspose.Words 建立 forms2olecontrol，以嵌入 OLE 控制項。
 ### [在 Aspose.Words for Java 中使用修訂版本](./using-revisions/)
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中編輯 Word 文件的圖表](./how-to-edit-chart-in-a-word-document-using-java/)
+了解如何使用 Java 透過 Aspose.Words 編輯 Word 文件中的圖表。
+### [在 Java 中編輯甜甜圈圖表後儲存 Word 文件](./save-word-document-after-editing-doughnut-chart-in-java/)
+了解如何在 Java 使用 Aspose.Words 編輯甜甜圈圖表後保存 Word 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

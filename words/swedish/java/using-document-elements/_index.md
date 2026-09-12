@@ -71,6 +71,12 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Hur du skapar forms2olecontrol i kod med Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Lär dig hur du skapar forms2olecontrol-programmering med Aspose.Words i Java.
+### [Redigera diagram i ett Word-dokument med Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Lär dig steg-för-steg hur du redigerar diagram i Word-dokument med Aspose.Words för Java.
+### [Spara Word-dokument efter redigering av doughnut-diagram i Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Lär dig steg-för-steg hur du sparar ett Word-dokument efter att ha redigerat ett doughnut-diagram med Aspose.Words för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

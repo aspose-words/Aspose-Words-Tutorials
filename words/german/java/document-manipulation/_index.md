@@ -105,6 +105,9 @@ Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie i
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
 
+### [Hinzufügen von Inhaltssteuerelementen in Word-Dokumenten mit Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Erfahren Sie, wie Sie Inhaltssteuerelemente in Word-Dokumenten programmgesteuert hinzufügen und konfigurieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

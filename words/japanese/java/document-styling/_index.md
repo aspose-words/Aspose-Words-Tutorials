@@ -43,6 +43,8 @@ Aspose.Words for Javaを使用してドキュメントテーマをカスタマ�
 Aspose.Words for Javaを使って透かしを適用し、ページ設定を行う方法を学びましょう。ソースコード付きの包括的なガイドです。
 ### [ドキュメントのヘッダーとフッターのスタイル](./document-header-footer-styling/)
 この詳細なガイドでは、Aspose.Words for Java を使用してドキュメントのヘッダーとフッターにスタイルを設定する方法を学びます。ステップバイステップの説明とソースコードが含まれています。
+### [Aspose.Words for Java を使用して Word チャートに影を設定する方法](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java で Word のチャートに影効果を適用する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

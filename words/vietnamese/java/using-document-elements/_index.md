@@ -24,7 +24,7 @@ Trước khi đi sâu vào hướng dẫn, điều cần thiết là phải nắ
 
 ## Truy cập và thao tác các phần tử tài liệu
 
-Một trong những kỹ năng cốt lõi mà bạn sẽ có được thông qua các hướng dẫn này là khả năng truy cập và thao tác các thành phần tài liệu. Aspose.Words for Java cung cấp một bộ API phong phú cho phép bạn điều hướng, sửa đổi và trích xuất thông tin theo chương trình từ các tài liệu của mình. Cho dù bạn cần tìm và thay thế văn bản, chèn bảng hoặc cập nhật tiêu đề và chân trang, các hướng dẫn này đều có thể đáp ứng nhu cầu của bạn.
+Một trong những kỹ năng cốt lõi mà bạn sẽ có được thông qua các hướng dẫn này là khả năng truy cập và thao tác các thành phần tài liệu. Aspose.Words cho Java cung cấp một bộ API phong phú cho phép bạn điều hướng, sửa đổi và trích xuất thông tin theo chương trình từ các tài liệu của mình. Cho dù bạn cần tìm và thay thế văn bản, chèn bảng hoặc cập nhật tiêu đề và chân trang, các hướng dẫn này đều có thể đáp ứng nhu cầu của bạn.
 
 ## Tạo tài liệu động
 
@@ -50,7 +50,7 @@ Học cách sử dụng Aspose.Words cho các trường Java một cách hiệu 
 ### [Sử dụng Phông chữ trong Aspose.Words cho Java](./using-fonts/)
 Khám phá định dạng phông chữ trong Aspose.Words for Java: kích thước, kiểu, màu sắc và nhiều hơn nữa. Tạo tài liệu được định dạng đẹp mắt một cách dễ dàng.
 ### [Sử dụng Footnotes và Endnotes trong Aspose.Words cho Java](./using-footnotes-and-endnotes/)
-Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
+Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words cho Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
 ### [Sử dụng trường biểu mẫu trong Aspose.Words cho Java](./using-form-fields/)
 "Học cách sử dụng Aspose.Words for Java để tạo tài liệu Word tương tác với các trường biểu mẫu. Bắt đầu ngay!"
 ### [Sử dụng HarfBuzz trong Aspose.Words cho Java](./using-harfbuzz/)
@@ -67,10 +67,16 @@ Học cách sử dụng Markdown trong Aspose.Words cho Java với hướng dẫ
 Học cách thao tác các nút trong Aspose.Words cho Java với hướng dẫn từng bước này. Mở khóa sức mạnh xử lý tài liệu.
 ### [Sử dụng OLE Objects và ActiveX Controls trong Aspose.Words cho Java](./using-ole-objects-and-activex/)
 Học cách sử dụng các đối tượng OLE và điều khiển ActiveX trong Aspose.Words cho Java. Tạo tài liệu tương tác dễ dàng. Bắt đầu ngay!
+### [Cách tạo forms2olecontrol trong mã với Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Hướng dẫn cách tạo đối tượng Forms2OleControl trong mã Java bằng Aspose.Words.
 ### [Sử dụng Revisions trong Aspose.Words cho Java](./using-revisions/)
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)
 Khám phá Aspose.Words for Java: Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã.
+### [Cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Hướng dẫn chi tiết cách chỉnh sửa biểu đồ trong tài liệu Word bằng Java với Aspose.Words.
+### [Lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut trong Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Hướng dẫn lưu tài liệu Word sau khi chỉnh sửa biểu đồ donut bằng Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

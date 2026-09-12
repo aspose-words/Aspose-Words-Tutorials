@@ -43,6 +43,8 @@ Tìm hiểu cách tùy chỉnh chủ đề tài liệu bằng Aspose.Words for J
 Tìm hiểu cách áp dụng hình mờ và thiết lập cấu hình trang bằng Aspose.Words cho Java. Hướng dẫn toàn diện với mã nguồn.
 ### [Kiểu dáng của Đầu trang và Chân trang Tài liệu](./document-header-footer-styling/)
 Tìm hiểu cách định dạng tiêu đề và chân trang tài liệu bằng Aspose.Words for Java trong hướng dẫn chi tiết này. Bao gồm hướng dẫn từng bước và mã nguồn.
+### [Cách đặt bóng cho biểu đồ Word bằng Aspose.Words cho Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Hướng dẫn cách thêm hiệu ứng bóng cho biểu đồ Word bằng Aspose.Words for Java, kèm ví dụ mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

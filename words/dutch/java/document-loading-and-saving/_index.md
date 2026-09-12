@@ -97,6 +97,9 @@ Configureer RTF‑laadopties in Aspose.Words for Java. Leer hoe je UTF‑8‑tek
 ### [Tekstbestanden laden met Aspose.Words for Java](./loading-text-files/)
 Ontgrendel de kracht van Aspose.Words for Java. Leer tekstdocumenten te laden, lijsten te beheren, spaties te behandelen en tekstrichting te controleren.
 
+### [Bestand uit map laden met Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Leer hoe je een bestand uit een map laadt met Aspose.Words in C#.
+
 ### [Geavanceerde opslaanopties met Aspose.Words for Java](./advance-saving-options/)
 Leer geavanceerde documentmanipulatie met Aspose.Words for Java. Versleutel, behandel metafiles en meer. Jouw Word‑documenten, op jouw manier.
 
@@ -137,8 +140,10 @@ Leer hoe je de herstelmodus configureert om beschadigde Word‑documenten automa
 Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer DOC, DOCX en meer. Organiseer bestanden efficiënt.
 
 ### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [Hoe docx te herstellen – Complete gids om corrupte Word‑bestanden te lezen](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 Leer stap‑voor‑stap hoe je beschadigde .docx‑bestanden kunt openen en herstellen met Aspose.Words for Java.
+
 ### [Hoe ontbrekende lettertypen in Java te verkrijgen – Aspose.Words-gids](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Leer hoe je ontbrekende lettertypen kunt vinden en laden in Java met Aspose.Words. Stapsgewijze gids met code‑voorbeelden.
 

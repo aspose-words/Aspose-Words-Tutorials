@@ -65,12 +65,17 @@ Leer lijsten gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial.
 Leer Markdown gebruiken in Aspose.Words voor Java met deze stapsgewijze tutorial. Maak, style en sla moeiteloos Markdown-documenten op.
 ### [Nodes gebruiken in Aspose.Words voor Java](./using-nodes/)
 Leer hoe je knooppunten in Aspose.Words voor Java kunt bewerken met deze stapsgewijze tutorial. Ontgrendel de kracht van documentverwerking.
+### [Grafiek bewerken in een Word-document met Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Leer hoe u grafieken in Word-documenten kunt bewerken met Aspose.Words voor Java.
 ### [OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java](./using-ole-objects-and-activex/)
 Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor Java. Maak eenvoudig interactieve documenten. Ga nu aan de slag!
+### [Hoe forms2olecontrol in code maken met Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
 ### [Revisies gebruiken in Aspose.Words voor Java](./using-revisions/)
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Word-document opslaan na het bewerken van een donutgrafiek in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Leer hoe u een Word-document opslaat nadat u een doughnut-diagram hebt bewerkt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

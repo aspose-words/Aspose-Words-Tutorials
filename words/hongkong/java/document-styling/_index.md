@@ -43,6 +43,8 @@ Aspose.Words for Java 提供了強大的文件樣式工具，讓開發人員可�
 了解如何使用 Aspose.Words for Java 套用浮水印和設定頁面配置。帶有原始程式碼的綜合指南。
 ### [文檔頁首和頁尾樣式](./document-header-footer-styling/)
 在本詳細指南中了解如何使用 Aspose.Words for Java 設定文件頁首和頁尾的樣式。包含逐步說明和原始程式碼。
+### [在 Word 圖表上設定陰影](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+了解如何使用 Aspose.Words for Java 為 Word 圖表添加陰影效果，帶有原始程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

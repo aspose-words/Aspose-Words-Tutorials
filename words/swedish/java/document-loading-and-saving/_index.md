@@ -142,6 +142,9 @@ Lär dig hur du aktiverar återhämtningsläget i Aspose.Words för Java för at
 ### [Hur du får saknade teckensnitt i Java – Aspose.Words‑guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Lär dig hur du identifierar och ersätter saknade teckensnitt i Java‑applikationer med Aspose.Words.
 
+### [Hur du laddar en fil från en katalog med Aspose.Words i C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Lär dig hur du laddar en fil från en katalog med Aspose.Words i C#.
+
 ## Vanliga frågor
 
 **Q:** Hur sparar jag programatiskt **save images from word**‑dokument?  

@@ -112,13 +112,18 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [Aspose.Words for Java로 문서를 텍스트 파일로 저장](./saving-documents-as-text-files/)
 
 ### [Aspose.Words for Java에서 문서 형식 판별](./determining-document-format/)
+
 ### [손상된 docx 복구 – 문서 복구 및 처리 완전 가이드](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
 ### [Java에서 Aspose.Words로 글꼴 대체 경고 캡처 – 완전 가이드](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
 ### [docx 복구 방법 – 손상된 Word 파일 읽기 완전 가이드](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 
 ### [손상된 Word 문서 복구를 위한 복구 모드 설정](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java에서 누락된 글꼴 가져오기 – Aspose.Words 가이드](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+
+### [Aspose.Words를 사용하여 C#에서 디렉터리의 파일을 로드하는 방법](./how-to-load-file-from-directory-using-aspose-words-in-c/)
 
 ## 자주 묻는 질문
 

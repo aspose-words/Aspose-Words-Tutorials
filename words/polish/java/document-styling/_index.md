@@ -43,6 +43,8 @@ Dowiedz się, jak dostosować motywy dokumentów za pomocą Aspose.Words for Jav
 Dowiedz się, jak stosować znaki wodne i konfigurować strony za pomocą Aspose.Words dla Java. Kompleksowy przewodnik z kodem źródłowym.
 ### [Stylizacja nagłówka i stopki dokumentu](./document-header-footer-styling/)
 Dowiedz się, jak stylizować nagłówki i stopki dokumentów za pomocą Aspose.Words for Java w tym szczegółowym przewodniku. Dołączono instrukcje krok po kroku i kod źródłowy.
+### [Jak ustawić cień na wykresie Word przy użyciu Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Dowiedz się, jak dodać cień do wykresu w dokumencie Word przy użyciu Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

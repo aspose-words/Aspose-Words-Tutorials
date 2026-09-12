@@ -67,10 +67,16 @@ Apprenez à utiliser Markdown dans Aspose.Words pour Java grâce à ce tutoriel 
 Apprenez à manipuler les nœuds dans Aspose.Words pour Java grâce à ce tutoriel pas à pas. Exploitez toute la puissance de traitement de vos documents.
 ### [Utilisation des objets OLE et des contrôles ActiveX dans Aspose.Words pour Java](./using-ole-objects-and-activex/)
 Apprenez à utiliser les objets OLE et les contrôles ActiveX dans Aspose.Words pour Java. Créez facilement des documents interactifs. Commencez dès maintenant !
+### [Comment créer forms2olecontrol en code avec Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Apprenez à créer des contrôles Forms2OLE dans le code avec Aspose.Words pour Java.
 ### [Utilisation des révisions dans Aspose.Words pour Java](./using-revisions/)
 Apprenez à utiliser efficacement les contrôles de révision d'Aspose.Words pour Java. Guide étape par étape pour les développeurs. Optimisez la gestion de vos documents.
 ### [Utilisation des sections dans Aspose.Words pour Java](./using-sections/)
 Découvrez Aspose.Words pour Java : un guide complet sur l'utilisation des sections. Ajoutez, supprimez, ajoutez et clonez des sections avec des exemples de code.
+### [Utilisation de la modification de graphiques dans un document Word avec Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Apprenez à modifier les graphiques dans un document Word en utilisant Aspose.Words pour Java, étape par étape.
+### [Enregistrer le document Word après modification du graphique en anneau en Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Apprenez à enregistrer un document Word après avoir modifié un graphique en anneau avec Aspose.Words pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

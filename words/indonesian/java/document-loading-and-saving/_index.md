@@ -145,6 +145,9 @@ Pelajari cara memulihkan file DOCX yang rusak dengan panduan lengkap menggunakan
 ### [Atur mode pemulihan untuk memulihkan dokumen Word yang rusak](./set-recovery-mode-to-recover-broken-word-document/)
 Pelajari cara mengaktifkan mode pemulihan di Aspose.Words untuk memperbaiki file Word rusak secara programatis.
 
+### [Cara memuat file dari direktori menggunakan Aspose.Words di C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Pelajari cara memuat file dari folder menggunakan Aspose.Words di C#.
+
 ## Pertanyaan yang Sering Diajukan
 
 **T:** Bagaimana cara saya secara programatis **menyimpan gambar dari word** dokumen?  

@@ -140,6 +140,9 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 
 ### [Java’da Eksik Yazı Tiplerini Nasıl Alırsınız – Aspose.Words Rehberi](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
+### [Aspose.Words ile C#’ta Klasörden Dosya Yükleme](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+C# kullanarak bir klasörden Word dosyasını nasıl yükleyeceğinizi ve işleyebileceğinizi adım adım öğrenin.
+
 ## Sıkça Sorulan Sorular
 
 **S:** **save images from word** belgelerini programlı olarak nasıl **kaydederim**?  

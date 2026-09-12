@@ -71,6 +71,12 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Cara Mengedit Diagram dalam Dokumen Word menggunakan Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Pelajari cara mengedit diagram dalam dokumen Word menggunakan Java dengan contoh kode langkah demi langkah.
+### [Simpan dokumen Word setelah mengedit diagram donat di Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Pelajari cara menyimpan dokumen Word setelah memodifikasi diagram donat menggunakan Aspose.Words untuk Java.
+### [Cara Membuat forms2olecontrol dalam Kode dengan Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Pelajari cara membuat kontrol OLE forms2olecontrol secara programatik menggunakan Aspose.Words untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
