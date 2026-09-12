@@ -1,0 +1,7 @@
+Title: How to set shadow on a Word chart with Aspose.Words for Java
+Slug: how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java
+Category: document-styling
+ProcessedDate: 2026-09-12T03:49:45.236455
+SourceRepo: AI Search API
+Keywords: how to set shadow, how to change border, modify word chart, load word document, set chart border
+PRNumber: 274
