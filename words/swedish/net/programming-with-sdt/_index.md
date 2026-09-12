@@ -36,7 +36,7 @@ Kodexemplen i handledningarna hjälper dig att förstå koncepten och öva på S
 | [Skapa tabellupprepande sektion mappad till anpassad XML-del](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Lär dig hur du skapar en tabell med ett upprepande avsnitt mappat till en CustomXmlPart i ett Word-dokument med Aspose.Words för .NET. |
 | [Flera sektioner](./multi-section/) Lär dig hur du arbetar med flersektionerade strukturerade dokumenttaggar i Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för dynamisk dokumenthantering. |
 | [Taggintervall för strukturerat dokument Start XML-mappning](./structured-document-tag-range-start-xml-mapping/) | Lär dig hur du dynamiskt binder XML-data till strukturerade dokumenttaggar i Word med Aspose.Words för .NET. Följ vår steg-för-steg-guide. |
-
+| [Skapa Word-dokument med en innehållskontroll i C#](./how-to-create-word-document-with-a-content-control-using-c/) | Lär dig att skapa ett Word-dokument och lägga till en innehållskontroll med C# i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

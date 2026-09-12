@@ -42,7 +42,7 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Ange standardalternativ för dataetiketter i ett diagram](./default-options-for-data-labels/) | Lär dig hur du ställer in standardalternativ för dataetiketter i ett diagram med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att enkelt skapa och anpassa diagram. |
 | [Anpassa en enskild diagramdatapunkt i ett diagram](./single-chart-data-point/) | Lär dig hur du anpassar datapunkter för enskilda diagram med Aspose.Words för .NET i en detaljerad steg-för-steg-guide. Förbättra dina diagram med unika markörer och storlekar. |
 | [Anpassa enskilda diagramserier i ett diagram](./single-chart-series/) | Lär dig hur du anpassar enskilda diagramserier i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för en smidig upplevelse. |
-
+| [Redigera diagrametiketthandledning – ändra Word-diagrametiketter i C#](./edit-chart-label-tutorial-modify-word-chart-labels-in-c/) | Lär dig hur du redigerar diagrametiketter i Word med Aspose.Words för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

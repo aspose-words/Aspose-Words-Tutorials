@@ -24,14 +24,15 @@ Eğitimlerde sunulan kod örnekleri, SDT kontrollerinin kavramlarını anlamanı
  ## Eğitimler
 | Başlık | Açıklama |
 | --- | --- |
-| [Onay Kutusu Türü İçerik Kontrolü](./check-box-type-content-control/) | Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine Onay Kutusu Türü İçerik Denetimi'nin nasıl ekleneceğini öğrenin.
+| [Onay Kutusu Türü İçerik Kontrolü](./check-box-type-content-control/) | Bu ayrıntılı, adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerine Onay Kutusu Türü İçerik Denetimi'nin nasıl ekleneceğini öğrenin. |
+| [C# kullanarak içerik denetimi ile Word belgesi oluşturma](./how-to-create-word-document-with-a-content-control-using-c/) | C# ile Aspose.Words for .NET kullanarak bir içerik denetimi ekleyerek Word belgesi oluşturmayı öğrenin. |
 | [Onay Kutusunun Mevcut Durumu](./current-state-of-check-box/) | Aspose.Words for .NET ile Word belgelerindeki onay kutularını nasıl yöneteceğinizi öğrenin. Bu kılavuz, onay kutularını programatik olarak ayarlamayı, güncellemeyi ve kaydetmeyi kapsar. |
 | [İçerik Denetimlerini Değiştir](./modify-content-controls/) | Aspose.Words for .NET kullanarak Word'de yapılandırılmış belge etiketlerini nasıl değiştireceğinizi öğrenin. Metni, açılır menüleri ve görselleri adım adım güncelleyin. |
 | [Combo Box İçerik Kontrolü](./combo-box-content-control/) | Ayrıntılı eğitimimizle Aspose.Words for .NET kullanarak Word belgelerinde birleşik kutu içerik denetimi oluşturun. Belgenizin etkileşimini artırmak için mükemmeldir. |
-| [Zengin Metin Kutusu İçerik Denetimi](./rich-text-box-content-control/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesine Zengin Metin Kutusu İçerik Denetimi'nin nasıl ekleneceğini ve özelleştirileceğini öğrenin.
-| [İçerik Kontrol Rengini Ayarla](./set-content-control-color/) | Aspose.Words for .NET kullanarak Word'deki Yapılandırılmış Belge Etiketlerinin rengini kolayca ayarlayın. Bu basit kılavuzla belge görünümünü geliştirmek için SDT'lerinizi özelleştirin.
-| [İçerik Kontrolünü Temizle](./clear-contents-control/) | Aspose.Words for .NET kullanarak Word belgesinde içerik denetiminin nasıl temizleneceğini adım adım kılavuzumuzla öğrenin.
-| [SDT'yi Özel Xml Parçasına Bağla](./bind-sdt-to-custom-xml-part/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki Yapılandırılmış Belge Etiketlerini (SDT'ler) Özel XML Parçalarına nasıl bağlayacağınızı öğrenin.
+| [Zengin Metin Kutusu İçerik Denetimi](./rich-text-box-content-control/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesine Zengin Metin Kutusu İçerik Denetimi'nin nasıl ekleneceğini ve özelleştirileceğini öğrenin. |
+| [İçerik Kontrol Rengini Ayarla](./set-content-control-color/) | Aspose.Words for .NET kullanarak Word'deki Yapılandırılmış Belge Etiketlerinin rengini kolayca ayarlayın. Bu basit kılavuzla belge görünümünü geliştirmek için SDT'lerinizi özelleştirin. |
+| [İçerik Kontrolünü Temizle](./clear-contents-control/) | Aspose.Words for .NET kullanarak Word belgesinde içerik denetiminin nasıl temizleneceğini adım adım kılavuzumuzla öğrenin. |
+| [SDT'yi Özel Xml Parçasına Bağla](./bind-sdt-to-custom-xml-part/) | Bu adım adım eğitimle Aspose.Words for .NET kullanarak Word belgelerindeki Yapılandırılmış Belge Etiketlerini (SDT'ler) Özel XML Parçalarına nasıl bağlayacağınızı öğrenin. |
 | [İçerik Kontrol Stilini Ayarla](./set-content-control-style/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgelerinde içerik kontrol stilleri ayarlamayı öğrenin. Belge estetiğini geliştirmek için mükemmeldir. |
 | [Özel Xml Parçasına Eşlenen Tekrarlayan Bölüm Tablosu Oluşturma](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Aspose.Words for .NET kullanarak bir Word belgesinde CustomXmlPart'a eşlenen tekrarlayan bir bölümü olan bir tablonun nasıl oluşturulacağını öğrenin. |
 | [Çok Bölümlü](./multi-section/) Bu adım adım eğitimle Aspose.Words for .NET'te çok bölümlü yapılandırılmış belge etiketleriyle nasıl çalışacağınızı öğrenin. Dinamik belge düzenleme için idealdir. |

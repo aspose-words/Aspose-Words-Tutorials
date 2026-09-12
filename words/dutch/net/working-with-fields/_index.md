@@ -29,7 +29,7 @@ Dit is een uitgebreide bron om te leren werken met velden in Word-documenten met
 | [TOA-veld invoegen zonder documentbouwer](./insert-toafield-without-document-builder/) | Leer hoe u een inhoudsopgaveveld invoegt zonder een documentbuilder te gebruiken in Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om juridische citaten efficiënt te beheren. |
 | [Geneste velden invoegen](./insert-nested-fields/) | Leer hoe u geneste velden in Word-documenten invoegt met Aspose.Words voor .NET met onze stapsgewijze handleiding. Perfect voor ontwikkelaars die documentcreatie willen automatiseren. |
 | [Samenvoegveld invoegen met behulp van DOM](./insert-merge-field-using-dom/) | Leer hoe u aangepaste samenvoegvelden in uw Word-documenten kunt invoegen met Aspose.Words voor .NET. |
-| [Mail Merge-adresblokveld invoegen met behulp van DOM](./insert-mail-merge-address-block-field-using-dom/) | Leer hoe u een adresblokveld voor samenvoegen in Word-documenten invoegt met behulp van Aspose.Words voor .NET met deze uitgebreide, stapsgewijze handleiding. |
+| [Mail Merge-adresblokveld invoegen met behulp van DOM](./insert-mail-merge-address-block-field-using-dom/) | Leer hoe u een adresblokveld voor samenvoegen in Word-documenten invoegt met Aspose.Words voor .NET met deze uitgebreide, stapsgewijze handleiding. |
 | [VeldInclusiefTekst invoegen zonder documentbouwer](./insert-field-include-text-without-document-builder/) | Leer hoe u een FieldIncludeText invoegt zonder DocumentBuilder te gebruiken in Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. |
 | [Veld invoegen Geen](./insert-field-none/) | Beheers documentautomatisering met Aspose.Words voor .NET. Leer hoe u stapsgewijs velden invoegt en uw workflow stroomlijnt. Perfect voor ontwikkelaars van alle niveaus. |
 | [Veld invoegen](./insert-field/) | Leer hoe u velden in Word-documenten invoegt met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze handleiding. Perfect voor documentautomatisering. |
@@ -45,8 +45,8 @@ Dit is een uitgebreide bron om te leren werken met velden in Word-documenten met
 | [Velden in alinea converteren](./convert-fields-in-paragraph/) | Leer hoe u IF-velden naar platte tekst in Word-documenten kunt converteren met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. |
 | [Velden in document converteren](./convert-fields-in-document/) | Leer hoe u velden in Word-documenten kunt converteren met Aspose.Words voor .NET met deze handleiding. Volg onze tutorial om velden in uw documenten efficiënt te beheren en te transformeren. |
 | [Velden in het hoofdgedeelte converteren](./convert-fields-in-body/) | Leer hoe u Aspose.Words voor .NET gebruikt om paginavelden om te zetten naar tekst in de hoofdtekst van een Word-document. |
-| [Landinstellingen wijzigen](./change-locale/) Leer hoe u de landinstellingen in Word-documenten kunt wijzigen met Aspose.Words voor .NET met deze handleiding. Perfect voor internationale klanten en projecten.
-
+| [Landinstellingen wijzigen](./change-locale/) Leer hoe u de landinstellingen in Word-documenten kunt wijzigen met Aspose.Words voor .NET met deze handleiding. Perfect voor internationale klanten en projecten. |
+| [Hoe u mailmerge uitvoert met Aspose om een Word-sjabloon te vullen](./how-to-perform-mail-merge-aspose-to-populate-a-word-template/) | Leer hoe u met Aspose mailmerge gebruikt om een Word-sjabloon te vullen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

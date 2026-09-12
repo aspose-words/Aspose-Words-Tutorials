@@ -58,6 +58,7 @@
 | [Διατήρηση αλλαγών γραμμής: Μετατροπή DOCX σε Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Μάθετε πώς να διατηρήσετε τις αλλαγές γραμμής κατά τη μετατροπή αρχείων DOCX σε Markdown με Aspose.Words για .NET. |
 | [Πώς να εξάγετε LaTeX από το Word – Μετατροπή DOCX σε Markdown και TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Μάθετε πώς να εξάγετε LaTeX από έγγραφα Word και να τα μετατρέψετε σε Markdown ή TXT με οδηγίες C#. |
 | [Καθορισμός επέκτασης αρχείου κατά τη μετατροπή DOCX σε Markdown – Πλήρης Οδηγός](./determine-file-extension-while-converting-docx-to-markdown-c/) | Μάθετε πώς να προσδιορίσετε την επέκταση αρχείου κατά τη μετατροπή DOCX σε Markdown χρησιμοποιώντας Aspose.Words για .NET. |
+| [Πώς να αποθηκεύσετε το έγγραφο ως docx κατά τη μετατροπή Markdown σε Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

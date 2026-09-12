@@ -28,7 +28,7 @@ Estes tutoriais oferecem uma abordagem prática e passo a passo para o processam
 | [Inserir objeto Ole em documento do Word como ícone](./insert-ole-object-as-icon/) | Aprenda a inserir um objeto OLE como ícone em documentos do Word usando o Aspose.Words para .NET. Siga nosso guia passo a passo para aprimorar seus documentos. |
 | [Inserir objeto Ole como ícone usando fluxo](./insert-ole-object-as-icon-using-stream/) | Aprenda como inserir um objeto OLE como um ícone usando um fluxo com o Aspose.Words para .NET neste tutorial detalhado e passo a passo. |
 | [Ler propriedades do Active XControl de um arquivo do Word](./read-active-xcontrol-properties/) | Aprenda a ler propriedades de controles ActiveX em arquivos do Word usando o Aspose.Words para .NET em um guia passo a passo. Aprimore suas habilidades de automação de documentos. |
-
+| [Como criar documento Word C# e adicionar programaticamente um botão de comando](./how-to-create-word-document-c-and-programmatically-add-a-com/) | Aprenda a criar um documento Word em C# e inserir programaticamente um botão de comando usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

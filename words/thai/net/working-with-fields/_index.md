@@ -38,6 +38,7 @@
 | [แทรก ASKField โดยไม่ต้องใช้ตัวสร้างเอกสาร](./insert-askfield-with-out-document-builder/) | เรียนรู้วิธีแทรกฟิลด์ ASK โดยไม่ใช้ Document Builder ใน Aspose.Words สำหรับ .NET ปฏิบัติตามคู่มือนี้เพื่อปรับปรุงเอกสาร Word ของคุณอย่างมีประสิทธิภาพ -
 | [แทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ตัวสร้างเอกสาร](./insert-advance-field-with-out-document-builder/) | เรียนรู้วิธีแทรกฟิลด์ล่วงหน้าโดยไม่ต้องใช้ DocumentBuilder ใน Aspose.Words สำหรับ .NET ปฏิบัติตามคู่มือนี้เพื่อพัฒนาทักษะการประมวลผลเอกสารของคุณ -
 | [รับชื่อฟิลด์จดหมายเวียน](./get-mail-merge-field-names/) | เรียนรู้วิธีแยกชื่อเขตข้อมูลจดหมายเวียนจากเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
+| [วิธีทำเมลเมิร์จด้วย Aspose เพื่อเติมข้อมูลในเทมเพลต Word](./how-to-perform-mail-merge-aspose-to-populate-a-word-template/) | เรียนรู้วิธีใช้ Aspose.Words ทำเมลเมิร์จและเติมข้อมูลในเทมเพลต Word อย่างละเอียด |
 - [ลบฟิลด์](./delete-fields/) | คู่มือทีละขั้นตอนสำหรับการลบเขตข้อมูลผสานในเอกสาร Word ของคุณโดยใช้ Aspose.Words สำหรับ .NET -
 | [อัพเดทวัฒนธรรมภาคสนาม](./field-update-culture/) | เรียนรู้วิธีการกำหนดค่าวัฒนธรรมการอัปเดตฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและเคล็ดลับสำหรับการอัปเดตที่แม่นยำ -
 | [ผลลัพธ์การแสดงภาคสนาม](./field-display-results/) เรียนรู้วิธีอัปเดตและแสดงผลลัพธ์ของฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการทำงานเอกสารอัตโนมัติ -
@@ -54,6 +55,5 @@
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

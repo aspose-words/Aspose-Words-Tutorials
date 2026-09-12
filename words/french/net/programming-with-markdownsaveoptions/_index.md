@@ -27,6 +27,8 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Enregistrer docx en markdown – Guide complet C# avec extraction d'images](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Apprenez à enregistrer des fichiers DOCX en Markdown tout en extrayant les images grâce à Aspose.Words pour .NET. |
 | [Comment définir la résolution lors de la conversion de DOCX en Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/) | Apprenez à définir la résolution lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words pour .NET. |
 | [Convertir Word en Markdown – Intégrer les images en Base64](./convert-word-to-markdown-embed-images-as-base64/) | Apprenez à convertir des documents Word en Markdown en incorporant les images directement en Base64 avec Aspose.Words pour .NET. |
+| [Comment enregistrer le document au format docx lors de la conversion de Markdown en Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/) | Apprenez à enregistrer un document au format DOCX lors de la conversion de Markdown en Word avec Aspose.Words pour .NET. |
+| [Déterminer l'extension de fichier lors de la conversion DOCX en Markdown – Guide complet](./determine-file-extension-while-converting-docx-to-markdown-c/) |
 
 ### [Enregistrer Word en PDF et récupérer un Word corrompu – Convertir Word en Markdown – Convertir Word en Markdown en C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 

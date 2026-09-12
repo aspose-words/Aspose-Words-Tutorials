@@ -57,6 +57,7 @@ Zpracování textu pomocí MarkdownSaveOptions je podrobný návod, který vás 
 | [Zachování koncových řádků: převod DOCX do Markdownu](./preserve-line-breaks-convert-docx-to-markdown/) | Naučte se zachovat koncové řádky při převodu DOCX do Markdownu pomocí Aspose.Words pro .NET. |
 | [Jak exportovat LaTeX z Wordu – převod DOCX do Markdown a TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Naučte se exportovat LaTeX z dokumentu Word a převést DOCX do formátů Markdown a TXT pomocí Aspose.Words pro .NET. |
 | [Určete příponu souboru při převodu DOCX na markdown – Kompletní průvodce](./determine-file-extension-while-converting-docx-to-markdown-c/) | Naučte se, jak zjistit a nastavit správnou příponu souboru při konverzi DOCX do Markdownu pomocí Aspose.Words pro .NET. |
+| [Jak uložit dokument jako docx při převodu Markdownu do Wordu](./how-to-save-document-as-docx-when-converting-markdown-to-wor/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

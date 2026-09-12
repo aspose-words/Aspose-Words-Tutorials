@@ -40,6 +40,8 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Aspose.Words alakzat árnyék tutorial – Árnyék hozzáadása Word alakzathoz C#-ban](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Tanulja meg, hogyan adhat árnyékot a Word alakzatokhoz C#-ban az Aspose.Words segítségével. |
 | [Üres Word dokumentum létrehozása árnyékolt téglalap alakzattal – Lépésről lépésre útmutató](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Tanulja meg, hogyan hozhat üres Word dokumentumot árnyékolt téglalap alakzattal az Aspose.Words for .NET használatával. |
 | [Árnyék hozzáadása alakzathoz C#-ban – Teljes útmutató az árnyékhatás alkalmazásához](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Tanulja meg, hogyan adhat árnyékot alakzatokhoz C#-ban az Aspose.Words for .NET használatával ebben a részletes útmutatóban. |
+| [Word dokumentum létrehozása alakzatokkal az Aspose.Words használatával C#-ban](./how-to-create-word-document-with-shapes-using-aspose-words-i/) | Ismerje meg, hogyan hozhat létre Word dokumentumot alakzatokkal az Aspose.Words és C# segítségével lépésről lépésre. |
+| [Üres Word dokumentum létrehozása és ellipszis alakzat elrejtése C#-ban](./create-blank-word-document-and-hide-an-ellipse-shape-in-c/) | Tanulja meg, hogyan hozhat üres Word dokumentumot, és hogyan rejthet el egy ellipszis alakzatot C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

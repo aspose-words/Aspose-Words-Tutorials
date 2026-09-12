@@ -49,7 +49,6 @@
 | [Salva Word come Markdown con immagini – Guida passo‑passo C#](./save-word-as-markdown-with-images-c-step-by-step-guide/) | Guida dettagliata per convertire documenti Word in Markdown includendo le immagini, passo‑passo in C#. |
 | [Come esportare LaTeX da Word – Converti DOCX in Markdown e TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Scopri come esportare contenuti LaTeX da documenti Word, convertendo DOCX in Markdown e file TXT con Aspose.Words per .NET. |
 | [determinare l'estensione del file durante la conversione da DOCX a Markdown – Guida completa](./determine-file-extension-while-converting-docx-to-markdown-c/) | Scopri come identificare e impostare l'estensione corretta dei file durante la conversione da DOCX a Markdown con Aspose.Words per .NET. |
-
 | [Come esportare LaTeX da Word: Converti DOCX in Markdown con Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Scopri come esportare equazioni LaTeX da documenti Word convertendoli in Markdown con Aspose.Words per .NET. |
 | [Converti Word in Markdown – Incorpora immagini come Base64](./convert-word-to-markdown-embed-images-as-base64/) | Converti documenti Word in Markdown incorporando le immagini direttamente come stringhe Base64 per un output autonomo. |
 | [Come esportare LaTeX: Converti DOCX in Markdown e TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Scopri come convertire file DOCX in Markdown e TXT mantenendo le equazioni LaTeX con Aspose.Words per .NET. |
@@ -59,6 +58,7 @@
 | [Salva docx come markdown – Esporta equazioni Word in LaTeX in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/) | Scopri come esportare le equazioni di Word in LaTeX durante la conversione da DOCX a Markdown con Aspose.Words per .NET in C#. |
 | [Salva Word come markdown – estrai immagini da docx](./save-word-as-markdown-extract-images-from-docx/) | Scopri come salvare documenti Word in Markdown estraendo le immagini da DOCX con una guida pratica in C#. |
 | [Preservare le interruzioni di riga: Converti DOCX in Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Scopri come mantenere le interruzioni di riga durante la conversione da DOCX a Markdown con Aspose.Words per .NET. |
+| [Come salvare il documento come docx durante la conversione da Markdown a Word](./how-to-save-document-as-docx-when-converting-markdown-to-wor/) | Scopri come convertire Markdown in Word e salvare il risultato come file docx usando Aspose.Words per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
