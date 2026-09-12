@@ -40,6 +40,9 @@ Word 文書を Markdown に変換し保存する手順を Python で解説しま
 ### [破損した DOCX の復元と Word から Markdown への変換](./recover-corrupted-docx-convert-word-to-markdown/)
 破損した DOCX を復元し、Word 文書を Markdown に変換する手順を紹介します。
 
+### [Aspose.Words for Python を使用して、Word を Markdown に保存し、数式を保持する方法](./how-to-save-word-as-markdown-and-preserve-equations-with-asp/)
+Word 文書を Markdown に変換し、数式を正しく保持する手順を Python で解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
