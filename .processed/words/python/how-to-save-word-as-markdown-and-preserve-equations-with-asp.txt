@@ -1,0 +1,7 @@
+Title: How to save Word as markdown and preserve equations with Aspose.Words for Python
+Slug: how-to-save-word-as-markdown-and-preserve-equations-with-asp
+Category: document-conversion
+ProcessedDate: 2026-09-12T03:55:38.832160
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, convert word to markdown, export word equations latex
+PRNumber: 275
