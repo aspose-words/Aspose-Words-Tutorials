@@ -1,0 +1,7 @@
+Title: Create blank Word document and hide an ellipse shape in C#
+Slug: create-blank-word-document-and-hide-an-ellipse-shape-in-c
+Category: programming-with-shapes
+ProcessedDate: 2026-09-12T02:56:27.662473
+SourceRepo: AI Search API
+Keywords: create blank word document, how to hide shape, how to insert ellipse, how to position shape, hidden object word
+PRNumber: 273
