@@ -141,7 +141,9 @@ Dowiedz się, jak odczytać i naprawić uszkodzone pliki DOCX przy użyciu Aspos
 Dowiedz się, jak włączyć tryb odzyskiwania, aby przywrócić uszkodzone dokumenty Word przy użyciu Aspose.Words for Java.
 
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-Dowiedz się, jak wykrywać i pobierać brakujące czcionki w Javie przy użyciu Aspose.Words.
+
+### [Jak załadować plik z katalogu przy użyciu Aspose.Words w C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Dowiedz się, jak załadować plik z określonego katalogu przy użyciu Aspose.Words w języku C#.
 
 ## Najczęściej zadawane pytania
 

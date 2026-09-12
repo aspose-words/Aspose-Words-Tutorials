@@ -39,6 +39,11 @@ Lär dig hur du lägger till en rektangel med skuggeffekt i ett Word-dokument me
 ### [Skapa rektangelform i Word med Java – Fullständig guide](./create-rectangle-shape-in-word-with-java-full-guide/)
 Lär dig steg för steg hur du skapar och anpassar en rektangel i ett Word-dokument med Aspose.Words för Java.
 
+### [Gruppera former i Word och lägg till en rektangel med Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Lär dig hur du grupperar former och lägger till en rektangel i ett Word-dokument med Aspose.Words för Java.
+
+### [Hur man döljer en form i Word med C# och Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+
 ## Ytterligare resurser
 
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

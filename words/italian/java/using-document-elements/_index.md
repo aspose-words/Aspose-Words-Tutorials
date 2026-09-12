@@ -36,7 +36,7 @@ Seguendo questi tutorial, non solo imparerai le basi della manipolazione degli e
 
 ## Inizia oggi
 
-Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverai spiegazioni dettagliate, esempi di codice e riferimenti API che ti guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
+Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverete spiegazioni dettagliate, esempi di codice e riferimenti API che vi guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
 
 In conclusione, padroneggiare la manipolazione degli elementi dei documenti utilizzando Aspose.Words per Java è un'abilità preziosa per qualsiasi sviluppatore Java che lavori con i documenti. Questi tutorial offrono un percorso chiaro e strutturato per aiutarti a diventare esperto in questo ambito. Quindi, rimboccati le maniche, immergiti nei tutorial e sfrutta appieno il potenziale di Aspose.Words per Java nei tuoi progetti di elaborazione di documenti.
 
@@ -71,6 +71,12 @@ Impara a usare oggetti OLE e controlli ActiveX in Aspose.Words per Java. Crea do
 Impara a usare in modo efficiente i controlli di revisione di Aspose.Words per Java. Guida passo passo per sviluppatori. Ottimizza la gestione dei tuoi documenti.
 ### [Utilizzo delle sezioni in Aspose.Words per Java](./using-sections/)
 Esplora Aspose.Words per Java: una guida completa all'uso delle sezioni. Aggiungi, elimina, aggiungi e clona sezioni con esempi di codice.
+### [Come modificare un grafico in un documento Word con Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Impara a modificare i grafici nei documenti Word con Aspose.Words per Java passo passo.
+### [Come creare forms2olecontrol in codice con Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Impara a creare controlli Forms2OleControl programmaticamente con Aspose.Words per Java.
+### [Salva documento Word dopo aver modificato il grafico a ciambella in Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Salva il documento Word dopo aver modificato un grafico a ciambella con Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,9 @@
 
 ## Доступные обучающие материалы
 
+### [How to change footnote formatting in a Word document using Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+
+
 ### [Настройка цветов и шрифтов темы в Aspose.Words Java: подробное руководство](./customize-theme-colors-fonts-aspose-words-java/)
 Узнайте, как настроить цвета темы и шрифты с помощью Aspose.Words для Java с помощью этого всеобъемлющего руководства. Улучшайте эстетику документа программно.
 

@@ -43,6 +43,8 @@ Aspose.Words for Java를 사용하여 문서 테마를 사용자 지정하는 �
 Aspose.Words for Java를 사용하여 워터마크를 적용하고 페이지 구성을 설정하는 방법을 알아보세요. 소스 코드가 포함된 종합 가이드입니다.
 ### [문서 머리글 및 바닥글 스타일](./document-header-footer-styling/)
 이 자세한 가이드에서 Aspose.Words for Java를 사용하여 문서 머리글과 바닥글의 스타일을 지정하는 방법을 알아보세요. 단계별 지침과 소스 코드가 포함되어 있습니다.
+### [Aspose.Words for Java로 Word 차트에 그림자 설정하기](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java를 이용해 Word 차트에 그림자를 적용하고 시각적 효과를 강화하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

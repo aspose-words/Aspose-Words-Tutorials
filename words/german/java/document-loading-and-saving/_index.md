@@ -138,11 +138,15 @@ Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend m
 
 ### [Erfassung von Font‑Substitutions‑Warnungen in Java mit Aspose.Words – Vollständiger Leitfaden](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Erfahren Sie, wie Sie Font‑Substitutions‑Warnungen in Java mit Aspose.Words erfassen und verarbeiten – vollständige Anleitung.
+
 ### [Wiederherstellungsmodus festlegen, um beschädigtes Word‑Dokument zu reparieren](./set-recovery-mode-to-recover-broken-word-document/)
 Lernen Sie, wie Sie den Wiederherstellungsmodus setzen, um beschädigte Word‑Dokumente mit Aspose.Words für Java zu reparieren.
 
 ### [Wie man fehlende Schriftarten in Java erhält – Aspose.Words‑Leitfaden](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Erfahren Sie, wie Sie fehlende Schriftarten erkennen und mit Aspose.Words für Java automatisch laden oder ersetzen.
+
+### [Wie man eine Datei aus einem Verzeichnis mit Aspose.Words in C# lädt](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Words in C# Dateien aus einem Verzeichnis laden und verarbeiten.
 
 ## Häufig gestellte Fragen
 

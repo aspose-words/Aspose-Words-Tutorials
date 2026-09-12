@@ -90,6 +90,8 @@ Aspose.Words for Javaでドキュメントを効率的に分割する方法を�
 Aspose.Words for Javaを使ってドキュメントをHTMLページに分割する方法を学びましょう。ステップバイステップのガイドに従って、シームレスなドキュメント変換を実現しましょう。
 ### [Aspose.Words for Java の DocumentBuilder を使用してコンテンツを追加する](./adding-content-using-documentbuilder/)
 Aspose.Words for Javaでドキュメント作成をマスター。テキスト、表、画像などを追加するステップバイステップガイド。魅力的なWord文書を簡単に作成できます。
+### [Aspose.Words で Word 文書にコンテンツ コントロールを追加する](./add-content-control-in-word-document-with-aspose-words/)
+Aspose.Words を使用して、Word 文書にコンテンツ コントロール（構造化ドキュメントタグ）を追加し、データ バインディングや編集を簡単に行う方法を学びます。
 ### [Aspose.Words for Java でのドキュメントの複製と結合](./cloning-and-combining-documents/)
 Aspose.Words for Javaでドキュメントを複製および結合する方法を学びましょう。ソースコード例付きのステップバイステップガイドです。
 ### [Aspose.Words for Java でドキュメントを比較する](./comparing-documents/)

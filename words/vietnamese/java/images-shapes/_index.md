@@ -36,8 +36,15 @@ Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy ch�
 
 ### [Tạo tài liệu Word bằng Java – Thêm hình chữ nhật với hiệu ứng bóng](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Hướng dẫn cách chèn hình chữ nhật có bóng vào tài liệu Word bằng Aspose.Words cho Java.
+
 ### [Tạo hình chữ nhật trong Word bằng Java – Hướng dẫn đầy đủ](./create-rectangle-shape-in-word-with-java-full-guide/)
 Hướng dẫn chi tiết cách tạo và tùy chỉnh hình chữ nhật trong tài liệu Word bằng Aspose.Words cho Java.
+
+### [Nhóm các hình dạng trong Word và thêm một hình chữ nhật với Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Hướng dẫn cách nhóm các hình dạng và thêm hình chữ nhật trong tài liệu Word bằng Aspose.Words.
+
+### [Cách ẩn hình dạng trong Word bằng C# và Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Hướng dẫn ẩn một hình dạng trong tài liệu Word bằng C# và Aspose.Words.
 
 ## Tài nguyên bổ sung
 

@@ -67,10 +67,14 @@ Aspose.Words for Javaでヘッダーとフッターの使い方をステップ�
 このステップバイステップのチュートリアルで、Aspose.Words for Java のノード操作方法を学びましょう。ドキュメント処理能力を解き放ちましょう。
 ### [Aspose.Words for Java での OLE オブジェクトと ActiveX コントロールの使用](./using-ole-objects-and-activex/)
 Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使い方を学びましょう。インタラクティブなドキュメントを簡単に作成できます。今すぐ始めましょう！
+### [Aspose.Words for Java でコードから forms2olecontrol を作成する方法](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words を使用したコードで forms2olecontrol を作成する手順を学びます。
 ### [Aspose.Words for Java でリビジョンを使用する](./using-revisions/)
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [Java で Word 文書のチャートを編集する方法](./how-to-edit-chart-in-a-word-document-using-java/)
+### [Java でドーナツチャートを編集した後に Word 文書を保存する方法](./save-word-document-after-editing-doughnut-chart-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

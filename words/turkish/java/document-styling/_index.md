@@ -43,6 +43,8 @@ Java için Aspose.Words kullanarak belge temalarını nasıl özelleştireceğin
 Aspose.Words for Java ile filigranların nasıl uygulanacağını ve sayfa yapılandırmalarının nasıl ayarlanacağını öğrenin. Kaynak kodlu kapsamlı bir kılavuz.
 ### [Belge Başlığı ve Alt Bilgi Biçimlendirmesi](./document-header-footer-styling/)
 Bu ayrıntılı kılavuzda Aspose.Words for Java kullanarak belge başlıklarını ve altbilgilerini nasıl biçimlendireceğinizi öğrenin. Adım adım talimatlar ve kaynak kodu dahildir.
+### [Aspose.Words for Java ile Word grafiğine gölge ekleme](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Aspose.Words for Java kullanarak Word grafiğine gölge eklemeyi öğrenin. Adım adım örneklerle açıklanmıştır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

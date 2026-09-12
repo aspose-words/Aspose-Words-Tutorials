@@ -67,10 +67,18 @@ Aspose.Words for Java में हेडर और फ़ुटर का उ�
 इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Words for Java में नोड्स में हेरफेर करना सीखें। दस्तावेज़ प्रसंस्करण शक्ति अनलॉक करें।
 ### [जावा के लिए Aspose.Words में OLE ऑब्जेक्ट्स और ActiveX नियंत्रणों का उपयोग करना](./using-ole-objects-and-activex/)
 Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX नियंत्रण का उपयोग करना सीखें। आसानी से इंटरैक्टिव दस्तावेज़ बनाएँ। अभी शुरू करें!
+### [Aspose.Words के साथ कोड में forms2olecontrol बनाना](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aspose.Words का उपयोग करके कोड में forms2olecontrol बनाने की प्रक्रिया सीखें।
 ### [जावा के लिए Aspose.Words में संशोधन का उपयोग करना](./using-revisions/)
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
 जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
+
+### [Java का उपयोग करके Word दस्तावेज़ में चार्ट को संपादित करना](./how-to-edit-chart-in-a-word-document-using-java/)
+Java के साथ Word दस्तावेज़ में चार्ट को संपादित करने के चरण-दर-चरण ट्यूटोरियल।
+
+### [Java के लिए Aspose.Words में डोनट चार्ट संपादित करने के बाद Word दस्तावेज़ सहेजना](./save-word-document-after-editing-doughnut-chart-in-java/)
+Java में डोनट चार्ट को बदलने के बाद Word फ़ाइल को सुरक्षित करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

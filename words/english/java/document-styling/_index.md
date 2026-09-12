@@ -44,6 +44,8 @@ Learn how to customize document themes using Aspose.Words for Java. This compreh
 Learn how to apply watermarks and set up page configurations with Aspose.Words for Java. A comprehensive guide with source code.
 ### [Document Header and Footer Styling](./document-header-footer-styling/)
 Learn how to style document headers and footers using Aspose.Words for Java in this detailed guide. Step-by-step instructions and source code included.
+### [How to set shadow on a Word chart with Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+Learn how to add shadow effects to Word charts using Aspose.Words for Java with code examples. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

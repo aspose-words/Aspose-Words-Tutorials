@@ -39,6 +39,12 @@ Pelajari cara menambahkan bentuk persegi panjang dengan efek bayangan ke dokumen
 ### [Membuat Bentuk Persegi Panjang di Word dengan Java – Panduan Lengkap](./create-rectangle-shape-in-word-with-java-full-guide/)
 Panduan lengkap untuk membuat dan menyesuaikan bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Mengelompokkan bentuk di Word dan menambahkan persegi panjang dengan Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Pelajari cara mengelompokkan beberapa bentuk dan menambahkan bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
+### [Cara menyembunyikan bentuk di Word dengan C# dan Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Pelajari cara menyembunyikan bentuk di dokumen Word menggunakan C# dan Aspose.Words.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

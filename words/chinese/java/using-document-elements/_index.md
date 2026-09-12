@@ -71,6 +71,12 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 Aspose.Words 中使用代码创建 forms2olecontrol](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+学习如何在代码中使用 Aspose.Words 创建 forms2olecontrol。
+### [在 Aspose.Words for Java 中编辑 Word 文档中的图表](./how-to-edit-chart-in-a-word-document-using-java/)
+本教程演示如何使用 Aspose.Words for Java 在 Word 文档中编辑图表，包括修改数据、样式并保存。
+### [在 Java 中编辑环形图后保存 Word 文档](./save-word-document-after-editing-doughnut-chart-in-java/)
+本教程演示如何使用 Aspose.Words for Java 编辑环形图并保存更新后的 Word 文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

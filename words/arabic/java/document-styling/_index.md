@@ -43,6 +43,8 @@
 تعلّم كيفية إضافة العلامات المائية وإعداد إعدادات الصفحات باستخدام Aspose.Words لجافا. دليل شامل مع الكود المصدر.
 ### [تنسيق رأس وتذييل المستند](./document-header-footer-styling/)
 تعرّف على كيفية تنسيق رؤوس وتذييلات المستندات باستخدام Aspose.Words لجافا في هذا الدليل المفصل. يتضمن تعليمات خطوة بخطوة وشيفرة المصدر.
+### [كيفية تعيين الظل على مخطط Word باستخدام Aspose.Words لجافا](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+تعلّم كيفية إضافة ظل إلى مخطط Word باستخدام Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,12 @@ Apprenez à insérer une forme rectangle avec ombre dans un document Word en Jav
 ### [Créer une forme rectangle dans Word avec Java – Guide complet](./create-rectangle-shape-in-word-with-java-full-guide/)
 Apprenez à créer et personnaliser une forme rectangle dans vos documents Word en utilisant Aspose.Words pour Java.
 
+### [Regrouper des formes dans Word et ajouter un rectangle avec Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Apprenez à regrouper des formes et à insérer un rectangle dans un document Word avec Aspose.Words pour Java.
+
+### [Comment masquer une forme dans Word avec C# et Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Apprenez à masquer une forme dans un document Word à l'aide de C# et Aspose.Words.
+
 ## Ressources supplémentaires
 
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)

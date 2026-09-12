@@ -50,6 +50,9 @@
 ### [使用 Aspose.Words 最佳化 Java 中的 Word 樣式：刪除未使用且重複的樣式](./optimize-word-styles-aspose-java/)
 了解如何使用 Aspose.Words for Java 有效管理文件樣式，刪除未使用和重複的樣式，以提高效能和可維護性。
 
+### [如何使用 Java 更改 Word 文件中的腳註格式](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+了解如何使用 Aspose.Words for Java 在 Word 文件中自訂腳註的格式與樣式。
+
 ## 其他資源
 
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)

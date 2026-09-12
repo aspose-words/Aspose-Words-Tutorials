@@ -141,6 +141,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [如何在 Java 中获取缺失字体 – Aspose.Words 指南](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 学习在 Java 环境下检测并加载缺失的字体，以确保文档渲染正确。
 
+### [如何使用 Aspose.Words 在 C# 中从目录加载文件](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+了解如何在 C# 中使用 Aspose.Words 从指定目录加载文件。
+
 ## 常见问题
 
 **Q:** 如何以编程方式 **save images from word** 文档？  

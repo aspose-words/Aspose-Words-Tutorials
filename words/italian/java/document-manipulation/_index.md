@@ -104,6 +104,8 @@ Sfrutta la potenza di Aspose.Words per Java. Gestisci le opzioni e le impostazio
 Ottimizza la gestione dei documenti con Aspose.Words per Java. Impara a gestire le proprietà dei documenti, ad aggiungere metadati personalizzati e altro ancora in questo tutorial completo.
 ### [Utilizzo delle estensioni Web in Aspose.Words per Java](./using-web-extensions/)
 Migliora i documenti con le estensioni web in Aspose.Words per Java. Impara a integrare perfettamente i contenuti web. 
+### [Aggiungere un controllo di contenuto in un documento Word con Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Scopri come inserire controlli di contenuto nei documenti Word usando Aspose.Words per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

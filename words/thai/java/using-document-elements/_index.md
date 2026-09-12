@@ -71,6 +71,11 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [วิธีแก้ไขแผนภูมิในเอกสาร Word ด้วย Java](./how-to-edit-chart-in-a-word-document-using-java/)
+เรียนรู้วิธีแก้ไขแผนภูมิในเอกสาร Word ด้วย Aspose.Words for Java อย่างละเอียด
+### [วิธีสร้าง forms2olecontrol ในโค้ดด้วย Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+### [บันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+เรียนรู้วิธีบันทึกเอกสาร Word หลังจากแก้ไขแผนภูมิโดนัทใน Java ด้วย Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

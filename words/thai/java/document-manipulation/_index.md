@@ -104,6 +104,8 @@ Aspose.Words สำหรับ Java เป็น API ที่มีประ�
 เพิ่มประสิทธิภาพการจัดการเอกสารด้วย Aspose.Words สำหรับ Java เรียนรู้การใช้งานคุณสมบัติของเอกสาร เพิ่มข้อมูลเมตาแบบกำหนดเอง และอื่นๆ อีกมากมายในบทช่วยสอนที่ครอบคลุมนี้
 ### [การใช้ส่วนขยายเว็บใน Aspose.Words สำหรับ Java](./using-web-extensions/)
 ปรับปรุงเอกสารด้วยส่วนขยายเว็บใน Aspose.Words สำหรับ Java เรียนรู้การผสานรวมเนื้อหาบนเว็บอย่างราบรื่น 
+### [การเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+เรียนรู้วิธีเพิ่ม Content Control ในเอกสาร Word ด้วย Aspose.Words สำหรับ Java เพื่อจัดการข้อมูลอย่างยืดหยุ่น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

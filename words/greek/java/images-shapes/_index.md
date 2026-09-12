@@ -36,8 +36,15 @@
 
 ### [Δημιουργία εγγράφου Word Java – Προσθήκη σχήματος ορθογωνίου με εφέ σκιάς](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
 Μάθετε πώς να προσθέσετε σχήμα ορθογωνίου με εφέ σκιάς σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ### [Δημιουργία σχήματος ορθογωνίου στο Word με Java – Πλήρης Οδηγός](./create-rectangle-shape-in-word-with-java-full-guide/)
 Μάθετε πώς να δημιουργήσετε και να προσαρμόσετε σχήμα ορθογωνίου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Ομαδοποίηση σχημάτων στο Word και προσθήκη ορθογωνίου με το Aspose.Words](./group-shapes-in-word-and-add-a-rectangle-with-aspose-words/)
+Μάθετε πώς να ομαδοποιήσετε σχήματα και να προσθέσετε ορθογώνιο σε έγγραφο Word χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Πώς να κρύψετε σχήμα σε Word με C# και Aspose.Words](./how-to-hide-shape-in-word-with-c-and-aspose-words/)
+Μάθετε πώς να κρύψετε σχήματα σε έγγραφα Word χρησιμοποιώντας C# και Aspose.Words.
 
 ## Πρόσθετοι Πόροι
 

@@ -50,6 +50,9 @@
 ### [تحسين أنماط الكلمات في جافا باستخدام Aspose.Words: إزالة الأنماط غير المستخدمة والمكررة](./optimize-word-styles-aspose-java/)
 تعرف على كيفية إدارة أنماط المستندات بكفاءة باستخدام Aspose.Words for Java عن طريق إزالة الأنماط غير المستخدمة والمكررة، وتحسين الأداء وإمكانية الصيانة.
 
+### [كيفية تغيير تنسيق الحواشي في مستند Word باستخدام Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+تعرف على طريقة تعديل تنسيق الحواشي في مستندات Word باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)

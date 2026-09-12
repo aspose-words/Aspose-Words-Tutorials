@@ -42,7 +42,9 @@ Aspose.Words for Java มอบเครื่องมืออันทรง�
 ### [การใส่ลายน้ำเอกสารและการตั้งค่าหน้า](./document-watermarking-page-setup/)
 เรียนรู้วิธีการใช้ลายน้ำและตั้งค่าคอนฟิกูเรชันหน้าด้วย Aspose.Words สำหรับ Java คู่มือที่ครอบคลุมพร้อมโค้ดต้นฉบับ
 ### [การจัดรูปแบบส่วนหัวและส่วนท้ายเอกสาร](./document-header-footer-styling/)
-เรียนรู้วิธีกำหนดรูปแบบส่วนหัวและส่วนท้ายของเอกสารโดยใช้ Aspose.Words สำหรับ Java ในคู่มือโดยละเอียดนี้ มีคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับรวมอยู่ด้วย
+เรียนรู้...
+### [การตั้งเงาบนแผนภูมิ Word ด้วย Aspose.Words for Java](./how-to-set-shadow-on-a-word-chart-with-aspose-words-for-java/)
+เรียนรู้วิธีเพิ่มเงาให้กับแผนภูมิในเอกสาร Word ด้วย Aspose.Words for Java พร้อมตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

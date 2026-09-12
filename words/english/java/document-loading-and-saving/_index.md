@@ -141,6 +141,9 @@ Learn how to capture and handle font substitution warnings in Java using Aspose.
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Learn how to identify and retrieve missing fonts in Java using Aspose.Words, ensuring proper document rendering.
 
+### [How to load file from directory using Aspose.Words in C#](./how-to-load-file-from-directory-using-aspose-words-in-c/)
+Learn how to load files from a directory using Aspose.Words in C#.
+
 ## Frequently Asked Questions
 
 **Q:** How do I programmatically **save images from word** documents?  

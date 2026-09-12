@@ -51,6 +51,9 @@ Learn how to effectively manage tab stops in Word documents using Aspose.Words f
 ### [Optimize Word Styles in Java Using Aspose.Words&#58; Remove Unused and Duplicate Styles](./optimize-word-styles-aspose-java/)
 Learn how to efficiently manage document styles with Aspose.Words for Java by removing unused and duplicate styles, enhancing performance and maintainability.
 
+### [How to change footnote formatting in a Word document using Java](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Learn how to modify footnote formatting in Word documents using Aspose.Words for Java with step-by-step code examples.
+
 ## Additional Resources
 
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)

@@ -87,9 +87,11 @@ Tìm hiểu cách chia tài liệu thành các trang bằng Aspose.Words cho Jav
 ### [Chia nhỏ tài liệu trong Aspose.Words cho Java](./splitting-documents/)
 Tìm hiểu cách chia tài liệu hiệu quả trong Aspose.Words for Java. Khám phá các kỹ thuật cho tiêu đề, phần và phạm vi trang.
 ### [Chia tài liệu thành các trang HTML trong Aspose.Words cho Java](./splitting-documents-into-html-pages/)
-Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words for Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch.
+Tìm hiểu cách chia tài liệu thành các trang HTML bằng Aspose.Words cho Java. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu liền mạch.
 ### [Thêm Nội dung bằng DocumentBuilder trong Aspose.Words cho Java](./adding-content-using-documentbuilder/)
 Làm chủ việc tạo tài liệu với Aspose.Words cho Java. Hướng dẫn từng bước để thêm văn bản, bảng, hình ảnh và nhiều nội dung khác. Tạo tài liệu Word tuyệt đẹp một cách dễ dàng.
+### [Thêm Content Control trong tài liệu Word bằng Aspose.Words](./add-content-control-in-word-document-with-aspose-words/)
+Hướng dẫn cách chèn và quản lý Content Control trong tài liệu Word bằng Aspose.Words for Java.
 ### [Sao chép và kết hợp tài liệu trong Aspose.Words cho Java](./cloning-and-combining-documents/)
 Tìm hiểu cách sao chép và kết hợp tài liệu trong Aspose.Words cho Java. Hướng dẫn từng bước với các ví dụ về mã nguồn.
 ### [So sánh các tài liệu trong Aspose.Words cho Java](./comparing-documents/)
@@ -97,7 +99,7 @@ Tìm hiểu cách so sánh các tài liệu trong Aspose.Words for Java, một t
 ### [Định dạng tài liệu trong Aspose.Words cho Java](./formatting-documents/)
 Tìm hiểu nghệ thuật định dạng tài liệu trong Aspose.Words for Java với hướng dẫn toàn diện của chúng tôi. Khám phá các tính năng mạnh mẽ và nâng cao kỹ năng xử lý tài liệu của bạn.
 ### [Nối và Thêm Tài liệu trong Aspose.Words cho Java](./joining-and-appending-documents/)
-Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words for Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa.
+Tìm hiểu cách nối và thêm tài liệu dễ dàng bằng Aspose.Words cho Java. Giữ nguyên định dạng, quản lý tiêu đề, chân trang và nhiều hơn nữa.
 ### [Sử dụng Tùy chọn và Cài đặt Tài liệu trong Aspose.Words cho Java](./using-document-options-and-settings/)
 Mở khóa sức mạnh của Aspose.Words cho Java. Tùy chọn và cài đặt tài liệu chính để quản lý tài liệu liền mạch. Tối ưu hóa, tùy chỉnh và nhiều hơn nữa.
 ### [Sử dụng Thuộc tính Tài liệu trong Aspose.Words cho Java](./using-document-properties/)

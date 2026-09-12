@@ -50,6 +50,9 @@ Aspose.Words for Java를 사용하여 Word 문서에서 탭 정지를 효과적�
 ### [Aspose.Words를 사용하여 Java에서 Word 스타일 최적화: 사용하지 않거나 중복된 스타일 제거](./optimize-word-styles-aspose-java/)
 Aspose.Words for Java를 사용하여 사용되지 않거나 중복된 스타일을 제거하고 성능과 유지 관리성을 향상시켜 문서 스타일을 효율적으로 관리하는 방법을 알아보세요.
 
+### [Java를 사용하여 Word 문서에서 각주 서식 변경 방법](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Java를 사용해 Word 문서의 각주 서식을 변경하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

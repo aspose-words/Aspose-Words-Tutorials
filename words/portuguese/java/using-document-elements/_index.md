@@ -71,6 +71,12 @@ Aprenda a usar objetos OLE e controles ActiveX no Aspose.Words para Java. Crie d
 Aprenda a usar os controles de revisão do Aspose.Words para Java com eficiência. Guia passo a passo para desenvolvedores. Otimize seu gerenciamento de documentos.
 ### [Usando seções em Aspose.Words para Java](./using-sections/)
 Explore o Aspose.Words para Java: um guia completo sobre o uso de seções. Adicione, exclua, anexe e clone seções com exemplos de código.
+### [Salvar documento Word após editar gráfico de rosca em Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Aprenda a salvar um documento Word depois de modificar um gráfico de rosca usando Aspose.Words para Java.
+### [Como editar gráfico em um documento Word usando Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Aprenda a editar gráficos em documentos Word com Aspose.Words para Java. Guia passo a passo para modificar dados e aparência de gráficos.
+### [Como criar forms2olecontrol em código com Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Aprenda a criar controles Forms2OleControl programaticamente usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

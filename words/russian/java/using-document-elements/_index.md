@@ -71,6 +71,12 @@
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Как редактировать диаграмму в документе Word с помощью Java](./how-to-edit-chart-in-a-word-document-using-java/)
+Узнайте, как редактировать диаграммы в документах Word с помощью Aspose.Words для Java. Пошаговое руководство по изменению графиков.
+### [Как создать forms2olecontrol в коде с помощью Aspose.Words](./how-to-create-forms2olecontrol-in-code-with-aspose-words/)
+Узнайте, как программно создать элемент forms2olecontrol в документах Word с помощью Aspose.Words.
+### [Сохранить документ Word после редактирования кольцевой диаграммы в Java](./save-word-document-after-editing-doughnut-chart-in-java/)
+Узнайте, как сохранить документ Word после изменения кольцевой диаграммы с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@ Tanulja meg, hogyan kezelheti hatékonyan a tabulátorpozíciókat Word-dokument
 ### [Optimalizálja a Word stílusokat Java-ban az Aspose.Words használatával: Távolítsa el a nem használt és ismétlődő stílusokat](./optimize-word-styles-aspose-java/)
 Tanulja meg, hogyan kezelheti hatékonyan a dokumentumstílusokat az Aspose.Words for Java segítségével a nem használt és ismétlődő stílusok eltávolításával, a teljesítmény és a karbantarthatóság javításával.
 
+### [Hogyan változtassuk meg a lábjegyzet formázását egy Word dokumentumban Java használatával](./how-to-change-footnote-formatting-in-a-word-document-using-j/)
+Tanuld meg, hogyan módosíthatod a lábjegyzetek formázását a Word dokumentumokban Java-val.
+
 ## További források
 
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)
