@@ -21,10 +21,11 @@ Compare Documents adalah tutorial lengkap tentang membandingkan dokumen mengguna
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
-| [Bandingkan Untuk Persamaan Dalam Dokumen Word](./compare-for-equal/) | Pelajari cara membandingkan dua dokumen Word untuk mendapatkan kesamaan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk memastikan dokumen Anda identik. Bahasa Indonesia:
-| [Bandingkan Opsi Dalam Dokumen Word](./compare-options/) | Pelajari cara membandingkan dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan konsistensi dokumen dengan mudah. Bahasa Indonesia:
-| [Target Perbandingan Dalam Dokumen Word](./comparison-target/) | Bandingkan dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci langkah demi langkah ini. Hemat waktu dan tingkatkan akurasi dalam perbandingan dokumen. Bahasa Indonesia:
+| [Bandingkan Untuk Persamaan Dalam Dokumen Word](./compare-for-equal/) | Pelajari cara membandingkan dua dokumen Word untuk mendapatkan kesamaan menggunakan Aspose.Words untuk .NET. Ikuti panduan langkah demi langkah ini untuk memastikan dokumen Anda identik. Bahasa Indonesia: |
+| [Bandingkan Opsi Dalam Dokumen Word](./compare-options/) | Pelajari cara membandingkan dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan konsistensi dokumen dengan mudah. Bahasa Indonesia: |
+| [Target Perbandingan Dalam Dokumen Word](./comparison-target/) | Bandingkan dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci langkah demi langkah ini. Hemat waktu dan tingkatkan akurasi dalam perbandingan dokumen. Bahasa Indonesia: |
 | [Perbandingan Granularitas Dalam Dokumen Word](./comparison-granularity/) | Pelajari perbandingan granularitas dalam fitur dokumen Word Aspose.Words untuk .NET yang memungkinkan dokumen dibandingkan karakter demi karakter, melaporkan perubahan yang dibuat. |
+| [Bandingkan dua file docx dan bagi dokumen Word besar dalam C#](./compare-two-docx-files-and-split-large-word-docs-in-c/) | Pelajari cara membandingkan dua file docx dan memecah dokumen Word besar menggunakan Aspose.Words untuk .NET dengan C#. Bahasa Indonesia: |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

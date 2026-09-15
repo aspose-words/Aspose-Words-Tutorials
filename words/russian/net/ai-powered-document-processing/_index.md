@@ -45,6 +45,8 @@
 | [Резюмирование документа Word на C# – Полное руководство с ИИ](./summarize-word-document-in-c-complete-ai-powered-guide/) | Полное пошаговое руководство по резюмированию документов Word с помощью Aspose.Words и моделей ИИ на C#. |
 | [Как проверить грамматику в DOCX с Aspose.Words – использовать gpt‑4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Узнайте, как с помощью Aspose.Words и модели gpt‑4 turbo автоматически проверять грамматику в DOCX‑файлах. |
 | [Как проверить грамматику в Word с помощью Aspose.Words AI – Полное руководство](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Узнайте, как использовать AI Aspose.Words для автоматической проверки грамматики в документах Word. |
+| [Резюмировать документ Word с ИИ на C#](./summarize-word-document-with-ai-in-c/) | Полное руководство по резюмированию документов Word с помощью ИИ на C#. |
+| [Как перевести docx на французский в C# с помощью Google](./how-to-translate-docx-to-french-in-c-using-google/) | Пошаговое руководство по переводу файлов DOCX на французский язык в C# с использованием Google API. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

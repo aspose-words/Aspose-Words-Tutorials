@@ -25,6 +25,7 @@ Compare Documents là hướng dẫn toàn diện về việc so sánh các tài
 | [So sánh các tùy chọn trong tài liệu Word](./compare-options/) | Tìm hiểu cách so sánh các tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo tính nhất quán của tài liệu một cách dễ dàng. |
 | [Mục tiêu so sánh trong tài liệu Word](./comparison-target/) | So sánh dễ dàng các tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Tiết kiệm thời gian và tăng độ chính xác khi so sánh tài liệu. |
 | [So sánh chi tiết trong tài liệu Word](./comparison-granularity/) | Tìm hiểu tính năng so sánh mức độ chi tiết trong tài liệu Word của Aspose.Words dành cho .NET cho phép so sánh từng ký tự trong tài liệu, báo cáo những thay đổi đã thực hiện. |
+| [So sánh hai tệp docx và chia tách tài liệu Word lớn trong C#](./compare-two-docx-files-and-split-large-word-docs-in-c/) | Hướng dẫn so sánh hai tệp docx và tách các tài liệu Word lớn thành các phần nhỏ bằng Aspose.Words cho .NET trong C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

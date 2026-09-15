@@ -45,6 +45,8 @@ Son olarak, şuraya göz atmayı unutmayın: [Özetleme Seçenekleriyle Çalış
 | [C# ile Word Belgesini Özetleme – Tam AI Destekli Kılavuz](./summarize-word-document-in-c-complete-ai-powered-guide/) | C# kullanarak AI ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
 | [Aspose.Words ile DOCX'te Dilbilgisi Kontrolü – gpt-4 turbo kullanımı](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aspose.Words ve gpt-4 turbo kullanarak DOCX dosyalarındaki dilbilgisi hatalarını otomatik olarak tespit edin ve düzeltin. |
 | [Aspose.Words AI ile Word'de Dilbilgisi Kontrolü Nasıl Yapılır – Tam Kılavuz](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI kullanarak Word belgelerinizde dilbilgisi hatalarını otomatik olarak nasıl tespit edip düzelteceğinizi öğrenin. |
+| [C# ile AI Destekli Word Belgesini Özetleme](./summarize-word-document-with-ai-in-c/) | C# kullanarak AI ile Word belgelerini etkili bir şekilde özetlemeyi adım adım öğrenin. |
+| [Google kullanarak C# ile docx dosyasını Fransızcaya çevirme](./how-to-translate-docx-to-french-in-c-using-google/) | Google API'si ile C# kullanarak docx dosyalarını Fransızcaya çevirin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

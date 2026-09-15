@@ -122,6 +122,9 @@ Erfahren Sie, wie Sie LaTeX‑Formeln aus Word extrahieren und DOCX‑Dateien in
 
 ### [Dateierweiterung beim Konvertieren von DOCX zu Markdown bestimmen – Vollständige Anleitung](./determine-file-extension-while-converting-docx-to-markdown-c/)
 
+### [Wie man Markdown aus einem Word-Dokument in C# speichert](./how-to-save-markdown-from-a-word-document-in-c/)
+Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words für .NET in Markdown speichern – komplette C#‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

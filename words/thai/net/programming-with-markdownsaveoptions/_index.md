@@ -104,6 +104,9 @@
 ### [กำหนดนามสกุลไฟล์ขณะแปลง DOCX เป็น Markdown – คู่มือเต็ม C#](./determine-file-extension-while-converting-docx-to-markdown-c/)
 เรียนรู้วิธีตรวจสอบและกำหนดนามสกุลไฟล์ผลลัพธ์เมื่อแปลง DOCX เป็น Markdown ด้วย Aspose.Words สำหรับ .NET
 
+### [วิธีบันทึก markdown จากเอกสาร Word ด้วย C#](./how-to-save-markdown-from-a-word-document-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown ด้วย C# อย่างละเอียดโดยใช้ Aspose.Words สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

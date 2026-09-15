@@ -34,6 +34,10 @@
 | [重命名图像：将 DOCX 转换为 Markdown 时的图像重命名](./how-to-rename-images-when-converting-docx-to-markdown/) 使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，演示如何重命名导出的图像文件，以便更好地组织和引用。|
 | [将 Word 保存为 Markdown（含图像） – C# 步骤指南](./save-word-as-markdown-with-images-c-step-by-step-guide/) 使用 Aspose.Words for .NET 将 Word 文档转换为 Markdown，并提取图像，提供完整的 C# 示例和步骤指南。|
 | [如何从 Word 导出 LaTeX – 将 DOCX 转换为 Markdown 与 TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) 使用 Aspose.Words for .NET 将 Word 文档中的 LaTeX 方程导出为 Markdown 和 TXT，提供完整示例和步骤。|
+| [将 DOCX 转换为 Markdown 时如何设置分辨率](./how-to-set-resolution-when-converting-docx-to-markdown/)
+
+使用 Aspose.Words for .NET 将 DOCX 转换为 Markdown 时，设置导出分辨率的步骤和示例。
+| [如何在 C# 中从 Word 文档保存 Markdown](./how-to-save-markdown-from-a-word-document-in-c/) 使用 Aspose.Words for .NET 将 Word 文档保存为 Markdown，提供完整的 C# 示例和步骤指南。|
 
 ### [将 Word 保存为 PDF 并恢复损坏的 Word – 在 C# 中将 Word 转换为 Markdown](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 

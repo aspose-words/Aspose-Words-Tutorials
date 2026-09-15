@@ -43,8 +43,10 @@ Slutligen, glöm inte att kolla in våra [Arbeta med sammanfattningsalternativ](
 | [Arbeta med öppen AI-modell](./working-with-open-ai-model/) | Lås upp effektiv dokumentsammanfattning med Aspose.Words för .NET och OpenAI:s kraftfulla modeller. Fördjupa dig i den här omfattande guiden nu. |
 | [Arbeta med sammanfattningsalternativ](./working-with-summarize-options/) | Lär dig att effektivt sammanfatta Word-dokument med Aspose.Words för .NET med vår steg-för-steg-guide om hur du integrerar AI-modeller för snabba insikter. |
 | [Sammanfatta Word-dokument i C# – Komplett AI‑driven guide](./summarize-word-document-in-c-complete-ai-powered-guide/) | Lär dig steg-för-steg hur du använder AI för att sammanfatta Word-dokument i C# med Aspose.Words. |
+| [Sammanfatta Word-dokument med AI i C#](./summarize-word-document-with-ai-in-c/) | Lär dig steg‑för‑steg hur du använder AI för att sammanfatta Word‑dokument i C# med Aspose.Words. |
 | [Hur du kontrollerar grammatik i DOCX med Aspose.Words – använd gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Lär dig att använda GPT‑4 Turbo för att automatiskt rätta grammatik i DOCX‑filer med Aspose.Words. |
 | [Hur du kontrollerar grammatik i Word med Aspose.Words AI – Komplett guide](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Lär dig att använda Aspose.Words AI för att automatiskt rätta grammatik i Word-dokument med vår kompletta guide. |
+| [Hur man översätter docx till franska i C# med Google](./how-to-translate-docx-to-french-in-c-using-google/) | Lär dig att översätta DOCX-filer till franska i C# med Google API och Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

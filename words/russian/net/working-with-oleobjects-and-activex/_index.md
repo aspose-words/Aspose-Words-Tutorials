@@ -28,6 +28,7 @@
 | [Вставить объект Ole в документ Word как значок](./insert-ole-object-as-icon/) | Узнайте, как вставить объект OLE в качестве значка в документы Word с помощью Aspose.Words для .NET. Следуйте нашему пошаговому руководству, чтобы улучшить свои документы. |
 | [Вставить Ole-объект как значок с помощью потока](./insert-ole-object-as-icon-using-stream/) | Узнайте, как вставить объект OLE в качестве значка, используя поток с Aspose.Words для .NET, в этом подробном пошаговом руководстве. |
 | [Чтение свойств Active XControl из файла Word](./read-active-xcontrol-properties/) | Узнайте, как читать свойства элементов управления ActiveX из файлов Word с помощью Aspose.Words для .NET в пошаговом руководстве. Улучшите свои навыки автоматизации документов. |
+| [Создание ActiveX‑контрола в документе Word с помощью C#](./how-to-create-activex-control-in-a-word-document-with-c/) |  |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

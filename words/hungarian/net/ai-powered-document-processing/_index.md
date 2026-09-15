@@ -42,9 +42,11 @@ Végül ne felejtsd el megnézni a miénket [Összefoglaló beállítások haszn
 | [Nyílt mesterséges intelligencia modellel való munka](./working-with-open-ai-model/) | Az Aspose.Words for .NET segítségével hatékony dokumentum-összefoglalókat készíthet az OpenAI hatékony modelljeivel. Merüljön el ebben az átfogó útmutatóban most. |
 | [Összefoglaló beállítások használata](./working-with-summarize-options/) | Tanulja meg, hogyan foglalhatja össze hatékonyan a Word-dokumentumokat az Aspose.Words for .NET segítségével lépésről lépésre bemutatott útmutatónkkal, amely bemutatja a mesterséges intelligencia modelljeinek integrálását a gyors elemzések érdekében. |
 | [Word dokumentum összefoglalása C#‑ban – Teljes AI‑alapú útmutató](./summarize-word-document-in-c-complete-ai-powered-guide/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI‑val a Word dokumentumok hatékony összefoglalásához C#‑ban. |
+| [Word dokumentum összefoglalása AI-val C#‑ban](./summarize-word-document-with-ai-in-c/) | Ismerje meg, hogyan használhatja az Aspose.Words for .NET-et AI‑val a Word dokumentumok hatékony összefoglalásához C#‑ban. |
 | [A Google AI modelljével való munka](./working-with-google-ai-model/) | Emeld magasabb szintre a dokumentumfeldolgozást az Aspose.Words for .NET és a Google AI segítségével, hogy könnyedén készíthess tömör összefoglalókat. |
 | [Hogyan ellenőrizze a nyelvtant DOCX-ben az Aspose.Words segítségével – gpt-4 turbo használatával](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Tanulja meg, hogyan használhatja a gpt-4 turbo modellt az Aspose.Words-nel a DOCX fájlok nyelvtani ellenőrzésére. |
 | [Hogyan ellenőrizze a nyelvtant a Wordben az Aspose.Words AI segítségével – Teljes útmutató](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Ismerje meg, hogyan használhatja az Aspose.Words AI-t a Word dokumentumok nyelvtani ellenőrzésére lépésről lépésre útmutatóval. |
+| [Hogyan fordítsa le a docx-et franciára C#-ban a Google használatával](./how-to-translate-docx-to-french-in-c-using-google/) | Ismerje meg, hogyan használhatja a Google API-t a docx fájlok francia nyelvre történő fordításához C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

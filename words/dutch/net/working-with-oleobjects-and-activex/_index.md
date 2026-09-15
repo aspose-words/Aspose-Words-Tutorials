@@ -28,7 +28,7 @@ Deze tutorials bieden u een praktische, stapsgewijze aanpak voor tekstverwerking
 | [OLE-object in Word-document invoegen als pictogram](./insert-ole-object-as-icon/) | Leer hoe u een OLE-object als pictogram in Word-documenten invoegt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om uw documenten te verbeteren. |
 | [Ole-object invoegen als pictogram met behulp van Stream](./insert-ole-object-as-icon-using-stream/) | Leer hoe u een OLE-object als pictogram invoegt met behulp van een stream met Aspose.Words voor .NET in deze gedetailleerde, stapsgewijze zelfstudie. |
 | [Actieve XControl-eigenschappen lezen uit een Word-bestand](./read-active-xcontrol-properties/) | Leer in een stapsgewijze handleiding hoe u eigenschappen van ActiveX-besturingselementen uit Word-bestanden kunt lezen met Aspose.Words voor .NET. Verbeter uw vaardigheden in documentautomatisering. |
-
+| [ActiveX-besturingselement maken in een Word-document met C#](./how-to-create-activex-control-in-a-word-document-with-c/) | Leer hoe u een ActiveX-besturingselement in een Word-document maakt met C# en Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

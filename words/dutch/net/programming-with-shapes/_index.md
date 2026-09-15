@@ -41,6 +41,8 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Aspose.Words Vormschaduw Tutorial – Voeg een schaduw toe aan een Word-vorm in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 | [Leeg Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Leer hoe u een leeg Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET. |
 | [Schaduw toevoegen aan vorm in C# – Complete gids voor het toepassen van schaduweffect](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Leer hoe u schaduweffecten op vormen toepast in Word-documenten met Aspose.Words voor .NET in C#. |
+| [Hoe een tag in te voegen en een groepsvorm te maken in een DOCX](./how-to-insert-tag-and-create-a-group-shape-in-a-docx/) | Leer hoe u een tag toevoegt en een groepsvorm maakt in een DOCX met Aspose.Words voor .NET. |
+| [Hoe een vorm te verbergen in een Word-document met C# code](./how-to-hide-shape-in-a-word-document-with-c-code/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

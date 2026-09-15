@@ -119,6 +119,8 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 ### [Déterminer l'extension de fichier lors de la conversion DOCX en Markdown – Guide complet](./determine-file-extension-while-converting-docx-to-markdown-c/)
 
+### [Comment enregistrer le Markdown depuis un document Word en C#](./how-to-save-markdown-from-a-word-document-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -69,9 +69,7 @@ Ismerje meg, hogyan ágyazhat be képeket Base64 formátumban a Word dokumentumo
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 ### [Hogyan mentse a Markdownot a Wordből – Teljes útmutató](./how-to-save-markdown-from-word-complete-guide/)
 Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba az Aspose.Words for .NET segítségével.
-### [Hogyan nevezze át a képeket a DOCX‑ből Markdownba konvertáláskor](./how-to-rename-images-when-converting-docx-to-markdown/)
-Ismerje meg, hogyan nevezheti át a képeket a DOCX‑ből Markdownba történő konvertálás során az Aspose.Words for .NET használatával.
-### [Hogyan mentse el a Markdownot – Teljes C# útmutató](./how-to-save-markdown-complete-c-guide/)
+### [Hogyan mentse a Markdownot – Teljes C# útmutató](./how-to-save-markdown-complete-c-guide/)
 Ismerje meg, hogyan mentheti el a Markdownot C#‑ban egy teljes útmutatóval.
 ### [DOCX konvertálása Markdownba – Teljes útmutató az Aspose.Words használatával](./convert-docx-to-markdown-complete-guide-using-aspose-words/)
 Ismerje meg, hogyan konvertálhatja a DOCX fájlokat Markdown formátumba az Aspose.Words segítségével egy teljes útmutatóban.
@@ -83,6 +81,8 @@ Ismerje meg, hogyan menthet Word dokumentumokat Markdown formátumba képekkel, 
 Ismerje meg, hogyan őrizheti meg a sortöréseket a DOCX fájlok Markdownba konvertálásakor az Aspose.Words for .NET használatával.
 ### [Fájl kiterjesztés meghatározása DOCX Markdownba konvertálás közben – Teljes útmutató](./determine-file-extension-while-converting-docx-to-markdown-c/)
 Ismerje meg, hogyan határozhatja meg a kimeneti fájl kiterjesztését a DOCX Markdownba konvertálásakor az Aspose.Words for .NET használatával.
+### [Hogyan mentse el a Markdownot egy Word dokumentumból C#-ban](./how-to-save-markdown-from-a-word-document-in-c/)
+Ismerje meg, hogyan menthet Word dokumentumokból Markdown formátumba C#-ban az Aspose.Words for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

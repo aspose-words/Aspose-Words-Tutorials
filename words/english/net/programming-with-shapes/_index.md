@@ -26,6 +26,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | Title | Description |
 | --- | --- |
 | [Add Group Shape](./add-group-shape/) | Learn how to add group shapes to Word documents using Aspose.Words for .NET with this comprehensive, step-by-step tutorial. |
+| [How to insert tag and create a group shape in a DOCX](./how-to-insert-tag-and-create-a-group-shape-in-a-docx/) | Learn how to insert a tag and create a group shape in a DOCX using Aspose.Words for .NET. |
 | [Insert Shape](./insert-shape/) | Learn how to insert and manipulate shapes in Word documents using Aspose.Words for .NET with our step-by-step guide. |
 | [Aspect Ratio Locked](./aspect-ratio-locked/) | Learn how to lock the aspect ratio of shapes in Word documents using Aspose.Words for .NET. Follow this step-by-step guide to keep your images and shapes proportionate. |
 | [Layout In Cell](./layout-in-cell/) | Learn how to set the layout in cell using Aspose.Words for .NET with this comprehensive, guide. Perfect for developers looking to customize Word documents. |
@@ -41,6 +42,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Aspose.Words Shape Shadow Tutorial – Add a Shadow to Word Shape in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Learn how to add shadows to shapes in Word documents using Aspose.Words for .NET with this step-by-step C# guide. |
 | [Create Blank Word Document with Shadowed Rectangle Shape – Step‑by‑Step Guide](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Learn how to create a blank Word document and add a shadowed rectangle shape using Aspose.Words for .NET in this step‑by‑step guide. |
 | [Add shadow to shape in C# – Complete Guide to Apply Shadow Effect](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Learn how to add shadow effects to shapes in Word documents using Aspose.Words for .NET with this comprehensive step‑by‑step guide. |
+| [How to hide shape in a Word document with C# code](./how-to-hide-shape-in-a-word-document-with-c-code/) | Learn how to hide shapes in Word documents using Aspose.Words for .NET with C# code. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

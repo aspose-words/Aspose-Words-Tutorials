@@ -42,7 +42,7 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Standaardopties instellen voor gegevenslabels in een grafiek](./default-options-for-data-labels/) | Leer hoe u standaardopties voor gegevenslabels in een grafiek instelt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om moeiteloos grafieken te maken en aan te passen. |
 | [Pas een enkel grafiekgegevenspunt in een grafiek aan](./single-chart-data-point/) | Leer hoe u afzonderlijke grafiekgegevenspunten kunt aanpassen met Aspose.Words voor .NET in een gedetailleerde stapsgewijze handleiding. Verfraai uw grafieken met unieke markeringen en formaten. |
 | [Pas enkele grafiekreeksen in een grafiek aan](./single-chart-series/) | Leer hoe u afzonderlijke grafiekreeksen in een Word-document kunt aanpassen met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor een naadloze ervaring. |
-
+| [Radar diagram invoegen in Word met C# – stapsgewijze handleiding](./insert-radar-chart-in-word-using-c-step-by-step-guide/) | Leer hoe u een radardiagram in een Word-document invoegt met Aspose.Words voor .NET en C# in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
