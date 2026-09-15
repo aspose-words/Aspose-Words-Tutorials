@@ -41,6 +41,8 @@
 | [บทแนะนำเงารูปร่าง Aspose.Words – เพิ่มเงาให้รูปทรงใน Word ด้วย C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words for .NET และ C# ผ่านบทแนะนำขั้นตอนง่าย |
 - [สร้างเอกสาร Word ว่างพร้อมรูปสี่เหลี่ยมเงา – คู่มือทีละขั้นตอน](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | เรียนรู้วิธีสร้างเอกสาร Word ว่างและเพิ่มรูปสี่เหลี่ยมที่มีเงาโดยใช้ Aspose.Words สำหรับ .NET ด้วยขั้นตอนง่ายๆ
 - [เพิ่มเงาให้รูปทรงใน C# – คู่มือฉบับสมบูรณ์สำหรับการใช้เอฟเฟกต์เงา](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | เรียนรู้วิธีเพิ่มเงาให้รูปทรงในเอกสาร Word ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+- [วิธีแทรกแท็กและสร้างรูปร่างกลุ่มใน DOCX](./how-to-insert-tag-and-create-a-group-shape-in-a-docx/) | เรียนรู้วิธีแทรกแท็กและสร้างรูปร่างกลุ่มในไฟล์ DOCX ด้วย Aspose.Words for .NET
+- [วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C#](./how-to-hide-shape-in-a-word-document-with-c-code/) | เรียนรู้วิธีซ่อนรูปร่างในเอกสาร Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

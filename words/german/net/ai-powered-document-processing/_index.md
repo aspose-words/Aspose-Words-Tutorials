@@ -40,9 +40,11 @@ Und vergessen Sie nicht, einen Blick auf unsere [Arbeiten mit Zusammenfassungsop
 | --- | --- |
 | [Arbeiten mit KI-Modellen](./working-with-ai-model/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Dokumente mithilfe von KI zusammenfassen. Einfache Schritte zur Verbesserung des Dokumentenmanagements. |
 | [Arbeiten mit dem Google AI-Modell](./working-with-google-ai-model/) | Verbessern Sie Ihre Dokumentenverarbeitung mit Aspose.Words für .NET und Google AI, um mühelos prägnante Zusammenfassungen zu erstellen. |
+| [Wie man docx in C# mit Google ins Französische übersetzt](./how-to-translate-docx-to-french-in-c-using-google/) | Erfahren Sie, wie Sie DOCX-Dateien in C# mithilfe von Google-Übersetzungs-APIs ins Französische übersetzen. |
 | [Arbeiten mit Open AI-Modellen](./working-with-open-ai-model/) | Nutzen Sie die effiziente Dokumentzusammenfassung mit Aspose.Words für .NET und den leistungsstarken Modellen von OpenAI. Tauchen Sie jetzt in diesen umfassenden Leitfaden ein. |
-| [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie, Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt-für-Schritt-Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
+| [Arbeiten mit Zusammenfassungsoptionen](./working-with-summarize-options/) | Lernen Sie Word-Dokumente mit Aspose.Words für .NET effektiv zusammenzufassen, mit unserer Schritt‑für‑Schritt‑Anleitung zur Integration von KI-Modellen für schnelle Erkenntnisse. |
 | [Word-Dokument in C# zusammenfassen – Vollständiger KI‑gestützter Leitfaden](./summarize-word-document-in-c-complete-ai-powered-guide/) | Erfahren Sie, wie Sie Word-Dokumente in C# mithilfe von KI vollständig zusammenfassen. Schritt‑für‑Schritt‑Anleitung. |
+| [Word-Dokument mit KI in C# zusammenfassen](./summarize-word-document-with-ai-in-c/) | Erfahren Sie, wie Sie Word‑Dokumente in C# mit KI zusammenfassen – Schritt‑für‑Schritt‑Anleitung. |
 | [Wie man Grammatik in DOCX mit Aspose.Words prüft – gpt-4 Turbo verwenden](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Erfahren Sie, wie Sie mit Aspose.Words und gpt‑4 Turbo die Grammatik in DOCX‑Dateien automatisch prüfen. |
 | [Wie man Grammatik in Word mit Aspose.Words KI prüft – Komplettanleitung](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Erfahren Sie, wie Sie mit Aspose.Words KI die Grammatik in Word-Dokumenten automatisch prüfen und korrigieren. |
 

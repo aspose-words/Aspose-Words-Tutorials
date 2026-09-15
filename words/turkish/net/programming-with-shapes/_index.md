@@ -38,9 +38,10 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [Gölgelikli Dikdörtgen ile Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-word-document-with-a-shadowed-rectangle-step-by-step/) | Aspose.Words for .NET kullanarak gölgelikli bir dikdörtgenle Word belgesi oluşturmayı adım adım öğrenin. |
 | [C# kullanarak Word'de dikdörtgen şekli oluşturma – Adım adım kılavuz](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgesine dikdörtgen şekli eklemeyi ve özelleştirmeyi adım adım öğrenin. |
 | [Aspose.Words Şekil Gölge Eğitimi – Word Şekline Gölge Ekleme C#'ta](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Aspose.Words for .NET kullanarak C# ile Word şekline gölge eklemeyi adım adım öğrenin. |
-
 | [Gölgelikli Dikdörtgen Şekilli Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words for .NET kullanarak gölgelikli dikdörtgen şekilli boş bir Word belgesi oluşturmayı adım adım öğrenin. |
 | [C#'ta Şekle Gölge Ekle – Gölge Efekti Uygulama Tam Kılavuzu](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aspose.Words for .NET kullanarak C# ile şekillere gölge eklemeyi ve gölge ayarlarını yönetmeyi adım adım öğrenin. |
+| [DOCX'te etiket ekleme ve grup şekli oluşturma](./how-to-insert-tag-and-create-a-group-shape-in-a-docx/) | Aspose.Words for .NET kullanarak DOCX dosyasında etiket ekleyip grup şekli oluşturmayı öğrenin. |
+| [C# kodu ile Word belgesinde şekli gizleme](./how-to-hide-shape-in-a-word-document-with-c-code/) | C# kullanarak bir Word belgesindeki şekli nasıl gizleyeceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

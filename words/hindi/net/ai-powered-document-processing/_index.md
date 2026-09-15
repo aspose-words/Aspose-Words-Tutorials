@@ -45,6 +45,8 @@
 | [C# में Word दस्तावेज़ का सारांश – पूर्ण AI‑संचालित गाइड](./summarize-word-document-in-c-complete-ai-powered-guide/) | .NET के लिए Aspose.Words का उपयोग करके C# में AI के साथ Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
 | [Aspose.Words के साथ DOCX में व्याकरण जांचें – gpt-4 टर्बो का उपयोग करें](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | gpt-4 टर्बो का उपयोग करके .NET में Aspose.Words के साथ DOCX फ़ाइलों की व्याकरण जाँच कैसे करें, सीखें। |
 | [Aspose.Words AI के साथ Word में व्याकरण जांच कैसे करें – पूर्ण गाइड](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI का उपयोग करके Word दस्तावेज़ों में व्याकरण त्रुटियों को पहचानें और सुधारें। चरण-दर-चरण गाइड। |
+| [C# में AI के साथ Word दस्तावेज़ का सारांश – पूर्ण AI‑संचालित गाइड](./summarize-word-document-with-ai-in-c/) | C# में AI का उपयोग करके Word दस्तावेज़ को प्रभावी रूप से सारांशित करने की पूरी गाइड। |
+| [Google का उपयोग करके C# में docx को फ्रेंच में अनुवाद कैसे करें](./how-to-translate-docx-to-french-in-c-using-google/) | Google API का उपयोग करके C# में Aspose.Words के साथ DOCX फ़ाइल को फ्रेंच में अनुवाद करने की पूरी गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

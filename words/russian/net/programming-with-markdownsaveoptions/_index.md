@@ -43,6 +43,7 @@
 | [Конвертировать Word в Markdown – Встраивание изображений в формате Base64](./convert-word-to-markdown-embed-images-as-base64/) | Конвертируйте документы Word в Markdown, встраивая изображения в виде Base64, используя Aspose.Words для .NET. |
 | [Как сохранить Markdown из Word – Полное руководство C#](./how-to-save-markdown-from-word-complete-c-gu/) | Полное руководство по сохранению документов Word в формате Markdown с использованием C# и Aspose.Words. |
 | [Как сохранить Markdown из Word – Полное руководство](./how-to-save-markdown-from-word-complete-guide/) | Полное руководство по сохранению документов Word в формате Markdown с использованием Aspose.Words для .NET. |
+| [Как сохранить markdown из документа Word на C#](./how-to-save-markdown-from-a-word-document-in-c/) | Краткое руководство по сохранению документа Word в формате markdown с помощью C# и Aspose.Words. |
 | [Как экспортировать LaTeX: конвертировать DOCX в Markdown и TXT](./how-to-export-latex-convert-docx-to-markdown-txt/) | Экспортируйте LaTeX, преобразуя DOCX в форматы Markdown и TXT с помощью Aspose.Words для .NET. |
 | [Как переименовать изображения при конвертации DOCX в Markdown](./how-to-rename-images-when-converting-docx-to-markdown/) | Узнайте, как автоматически переименовывать изображения при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
 | [Сохранить docx как markdown с Aspose.Words – Полное руководство C#](./save-docx-as-markdown-with-aspose-words-full-c-guide/) | Полное руководство по сохранению DOCX в Markdown с использованием Aspose.Words и C#. |

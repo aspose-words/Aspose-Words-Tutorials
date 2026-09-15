@@ -43,8 +43,10 @@
 | [Εργασία με ανοιχτό μοντέλο τεχνητής νοημοσύνης](./working-with-open-ai-model/) | Ξεκλειδώστε αποτελεσματική σύνοψη εγγράφων χρησιμοποιώντας το Aspose.Words για .NET με τα ισχυρά μοντέλα του OpenAI. Βουτήξτε σε αυτόν τον ολοκληρωμένο οδηγό τώρα. |
 | [Εργασία με επιλογές σύνοψης](./working-with-summarize-options/) | Μάθετε να συνοψίζετε αποτελεσματικά έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με τον αναλυτικό οδηγό μας για την ενσωμάτωση μοντέλων AI για γρήγορες πληροφορίες. |
 | [Σύνοψη εγγράφου Word σε C# – Πλήρης οδηγός με τεχνητή νοημοσύνη](./summarize-word-document-in-c-complete-ai-powered-guide/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας AI με το Aspose.Words. |
+| [Σύνοψη εγγράφου Word με AI σε C#](./summarize-word-document-with-ai-in-c/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας τεχνητή νοημοσύνη και Aspose.Words. |
 | [Πώς να ελέγξετε την γραμματική σε DOCX με το Aspose.Words – χρήση gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET με το gpt-4 turbo για έλεγχο γραμματικής σε αρχεία DOCX. |
 | [Πώς να Ελέγξετε τη Γραμματική στο Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word, βήμα-βήμα. |
+| [Πώς να μεταφράσετε docx στα γαλλικά σε C# χρησιμοποιώντας το Google](./how-to-translate-docx-to-french-in-c-using-google/) | Μάθετε πώς να μεταφράζετε αρχεία docx στα γαλλικά σε C# με τη βοήθεια του Google AI και Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

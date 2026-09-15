@@ -45,6 +45,8 @@
 | [تلخيص مستند Word في C# – دليل شامل مدعوم بالذكاء الاصطناعي](./summarize-word-document-in-c-complete-ai-powered-guide/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام C# ودمج نماذج الذكاء الاصطناعي للحصول على ملخصات دقيقة وسريعة. |
 | [كيفية فحص القواعد النحوية في DOCX باستخدام Aspose.Words – استخدم gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | تعلم كيفية فحص القواعد النحوية في مستندات DOCX باستخدام Aspose.Words و gpt-4 turbo للحصول على نصوص خالية من الأخطاء. |
 | [كيفية فحص القواعد النحوية في Word باستخدام Aspose.Words AI – دليل كامل](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | تعلم كيفية استخدام Aspose.Words AI لفحص القواعد النحوية في مستندات Word وتحسين جودة النص بسهولة. |
+| [تلخيص مستند Word باستخدام الذكاء الاصطناعي في C#](./summarize-word-document-with-ai-in-c/) | دليل خطوة بخطوة لتلخيص مستندات Word باستخدام C# والذكاء الاصطناعي. |
+| [كيفية ترجمة ملف docx إلى الفرنسية باستخدام C# وGoogle](./how-to-translate-docx-to-french-in-c-using-google/) | دليل خطوة بخطوة لترجمة مستندات DOCX إلى الفرنسية باستخدام C# وGoogle AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

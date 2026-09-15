@@ -43,8 +43,10 @@ Infine, non dimenticare di dare un'occhiata al nostro [Lavorare con le opzioni d
 | [Lavorare con il modello di intelligenza artificiale aperta](./working-with-open-ai-model/) | Ottieni un riepilogo efficiente dei documenti utilizzando Aspose.Words per .NET con i potenti modelli di OpenAI. Scopri subito questa guida completa. |
 | [Lavorare con le opzioni di riepilogo](./working-with-summarize-options/) | Impara a riassumere in modo efficace i documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata sull'integrazione dei modelli di intelligenza artificiale per ottenere informazioni rapide. |
 | [Riassumere documento Word in C# – Guida completa con IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Scopri come riassumere documenti Word in C# usando l'intelligenza artificiale con una guida passo‑passo completa. |
+| [Riassumere documento Word con IA in C#](./summarize-word-document-with-ai-in-c/) | Guida passo‑passo per riassumere documenti Word in C# con l'IA. |
 | [Come controllare la grammatica in DOCX con Aspose.Words – usa gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Scopri come utilizzare Aspose.Words per .NET e GPT‑4 Turbo per verificare e correggere la grammatica nei file DOCX in modo semplice. |
 | [Come controllare la grammatica in Word con Aspose.Words AI – Guida completa](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Scopri come utilizzare l'AI di Aspose.Words per verificare e correggere la grammatica nei documenti Word in modo rapido ed efficace. |
+| [Come tradurre docx in francese in C# usando Google](./how-to-translate-docx-to-french-in-c-using-google/) | Scopri come tradurre file DOCX in francese con C# usando l'API di Google e Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

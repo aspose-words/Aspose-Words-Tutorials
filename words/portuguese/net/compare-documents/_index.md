@@ -23,6 +23,7 @@ Comparar Documentos é um tutorial abrangente sobre como comparar documentos usa
 | --- | --- |
 | [Comparar por igual em documento do Word](./compare-for-equal/) | Aprenda a comparar dois documentos do Word para verificar a igualdade usando o Aspose.Words para .NET. Siga este guia passo a passo para garantir que seus documentos sejam idênticos. |
 | [Comparar opções em documento do Word](./compare-options/) | Aprenda a comparar documentos do Word usando o Aspose.Words para .NET com nosso guia passo a passo. Garanta a consistência dos documentos sem esforço. |
+| [Comparar dois arquivos docx e dividir documentos Word grandes em C#](./compare-two-docx-files-and-split-large-word-docs-in-c/) | Aprenda a comparar dois arquivos .docx e dividir documentos Word grandes usando Aspose.Words para .NET em C#. |
 | [Comparação de metas em documento do Word](./comparison-target/) | Compare documentos do Word sem esforço usando o Aspose.Words para .NET com este guia passo a passo detalhado. Economize tempo e aumente a precisão na comparação de documentos. |
 | [Granularidade de comparação em documento do Word](./comparison-granularity/) | Aprenda a comparar granularidade em documentos do Word, o recurso do Aspose.Words para .NET que permite que os documentos sejam comparados caractere por caractere, relatando as alterações feitas. |
 
