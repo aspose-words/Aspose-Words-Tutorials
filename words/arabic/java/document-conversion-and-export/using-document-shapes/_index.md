@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: تعرّف على كيفية إنشاء مربع نص، وإضافة كلمة كعلامة مائية، وتجميع أشكال
-  متعددة، وتعيين نسبة أبعاد الشكل، ووضع الشكل في خلية جدول باستخدام Aspose.Words for
-  Java.
+date: 2025-12-14
+description: تعلم كيفية **إدراج شكل صورة** باستخدام Aspose.Words for Java. يوضح هذا
+  الدليل كيفية إضافة الأشكال، إنشاء أشكال صندوق النص، وضع الأشكال في الجداول، ضبط
+  نسبة أبعاد الشكل، وإضافة أشكال التعليق.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: كيفية إنشاء مربع نص واستخدام أشكال المستند في Aspose.Words for Java
+title: استخدام أشكال المستند في Aspose.Words للـ Java
 url: /ar/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -16,38 +16,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام أشكال المستند في Aspose.Words for Java
+# كيفية **insert image shape** باستخدام Aspose.Words for Java
 
-## مقدمة حول استخدام أشكال المستند في Aspose.Words for Java
-
-في هذا الدليل الشامل، **ستتعلم كيفية إنشاء text box** كائنات وغيرها من الأشكال القوية باستخدام Aspose.Words for Java. تتيح لك الأشكال إثراء مستندات Word بإشارات توضيحية، أزرار، علامات مائية، SmartArt، وأكثر—مما يجعلها جذابة بصريًا وتفاعلية. سنستعرض أمثلة واقعية، بدءًا من إدراج مربع نص بسيط إلى تجميع عدة أشكال، ضبط نسب الأبعاد، ووضع الأشكال داخل خلايا الجداول.
+في هذا الدرس الشامل ستكتشف كيفية **insert image shape** داخل مستندات Word باستخدام Aspose.Words for Java. سواءً كنت تُنشئ تقارير أو مواد تسويقية أو نماذج تفاعلية، تتيح لك الأشكال إضافة توضيحات، أزرار، مربعات نص، علامات مائية، وحتى SmartArt. سنستعرض كل خطوة، نشرح لماذا قد تستخدم شكلًا معينًا، ونوفر مقتطفات كود جاهزة للتنفيذ.
 
 ## إجابات سريعة
-- **ما هي الطريقة الأساسية لإضافة text box؟** استخدم `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **هل يمكنني تجميع الأشكال معًا؟** نعم – أنشئ `GroupShape` وأضف الأشكال الفرعية.
-- **كيف أقفل أو أفتح نسبة أبعاد الشكل؟** استدعِ `shape.setAspectRatioLocked(true/false)`.
-- **هل يمكن إضافة علامة مائية باستخدام شكل؟** بالتأكيد – أدخل `Shape` مع `TEXT_PLAIN_TEXT` واضبط التعبئة/الحد.
-- **هل تعمل مخططات SmartArt مع Aspose.Words؟** نعم – اكتشف باستخدام `shape.hasSmartArt()` وحدث عبر `shape.updateSmartArtDrawing()`.
+- **ما هي الطريقة الأساسية لإضافة شكل؟** استخدم `DocumentBuilder.insertShape` أو أنشئ كائن `Shape` وأضفه إلى شجرة المستند.  
+- **هل يمكنني إدراج صورة كشكل؟** نعم – استدعِ `builder.insertImage` ثم عالج الـ `Shape` المُرجع كأي شكل آخر.  
+- **كيف أحافظ على نسبة أبعاد الشكل؟** اضبط `shape.setAspectRatioLocked(true)` أو `false` حسب احتياجاتك.  
+- **هل يمكن تجميع الأشكال؟** بالتأكيد – ضعها داخل `GroupShape` وأدرج المجموعة كعقدة واحدة.  
+- **هل تعمل مخططات SmartArt مع Aspose.Words؟** نعم، يمكنك اكتشاف وتحديث أشكال SmartArt برمجيًا.
 
-## ما هو text box ولماذا إنشاء أشكال text box؟
+## ما هو **insert image shape**؟
+‏*شكل الصورة* هو عنصر بصري يحتوي على رسومات نقطية أو متجهة داخل مستند Word. في Aspose.Words، تُمثَّل الصورة ككائن `Shape`، مما يمنحك تحكمًا كاملاً في الحجم، الموضع، الدوران، والالتفاف.
 
-text box هو حاوية يمكنها احتواء نص منسق، صور، أو أشكال أخرى. استخدام **create text box** في أتمتتك يتيح لك وضع محتوى عائم في أي مكان على الصفحة، وهو مثالي للتعليقات التوضيحية، الإشارات، أو العناصر الزخرفية دون تعديل تدفق المستند الرئيسي.
+## لماذا تستخدم الأشكال في مستنداتك؟
+- **التأثير البصري:** الأشكال تجذب الانتباه إلى المعلومات الرئيسية.  
+- **التفاعلية:** يمكن ربط الأزرار والتوضيحات بـ URLs أو إشارات مرجعية.  
+- **مرونة التخطيط:** وضع الرسومات بدقة باستخدام إحداثيات مطلقة أو نسبية.  
+- **الأتمتة:** إنشاء تخطيطات معقدة دون تحرير يدوي.
 
-## كيفية إضافة شكل
+## المتطلبات المسبقة
+- Java Development Kit (JDK 8 أو أعلى)  
+- مكتبة Aspose.Words for Java (حمّلها من الموقع الرسمي)  
+- معرفة أساسية بـ Java والبرمجة الكائنية التوجه  
 
-قبل أن نغوص في الكود، تأكد من أن Aspose.Words for Java مضمّن في مشروعك. إذا لم تقم بإضافته بعد، قم بتحميل المكتبة من الموقع الرسمي:
+يمكنك تحميل المكتبة من هنا: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### إضافة أشكال إلى المستندات
-
-## كيفية تجميع عدة أشكال
-
-`GroupShape` يتيح لك التعامل مع عدة أشكال فردية كوحدة واحدة—مفيد لتحريكها أو تدويرها معًا.
-
-### إدراج GroupShape
-
-فيما يلي مثال كامل ينشئ مجموعة، يضيف شكلين مختلفين، ويُدرج المجموعة في المستند.
+## كيفية **add shape** – إدراج GroupShape
+‏`GroupShape` يتيح لك التعامل مع عدة أشكال كوحدة واحدة. هذا مفيد لنقل أو تنسيق عدة عناصر معًا.
 
 ```java
 Document doc = new Document();
@@ -77,11 +74,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## كيفية إنشاء text box (create text box)
-
-### إدراج شكل Text Box
-
-طريقة `insertShape` تجعل إضافة text box سهلة. يوضح المثال أدناه طريقتين لتحديد موضع وتدوير text box.
+## إنشاء **text box shape**
+مربع النص هو حاوية يمكنها احتواء نص منسق. يمكنك أيضًا تدويره للحصول على مظهر ديناميكي.
 
 ```java
 Document doc = new Document();
@@ -102,11 +96,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## كيفية ضبط نسبة أبعاد الشكل
-
-### إدارة نسبة الأبعاد
-
-أحيانًا تحتاج إلى تمديد الشكل دون الحفاظ على نسبه الأصلية. يوضح المقتطف التالي كيفية فتح قفل نسبة أبعاد شكل صورة.
+## ضبط **shape aspect ratio**
+أحيانًا تحتاج إلى أن يتمدد الشكل بحرية، وأحيانًا أخرى تريد الحفاظ على نسبه الأصلية. التحكم في نسبة الأبعاد سهل.
 
 ```java
 Document doc = new Document();
@@ -118,11 +109,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## كيفية وضع شكل داخل خلية جدول
-
-### وضع شكل داخل خلية جدول
-
-فيما يلي مثال خطوة بخطوة يبني جدولًا، ثم يُدرج شكل علامة مائية يتموضع بالنسبة للصفحة ولكنه يمكن أيضًا وضعه داخل خلية.
+## وضع **shape in table**
+إدراج شكل داخل خلية جدول يمكن أن يكون مفيدًا لتخطيطات التقارير. المثال أدناه ينشئ جدولًا ثم يدرج شكلًا بنمط العلامة المائية يمتد عبر الصفحة بأكملها.
 
 ```java
 Document doc = new Document();
@@ -166,11 +154,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
+## إضافة **callout shape**
+شكل التوضيح مثالي لتسليط الضوء على الملاحظات أو التحذيرات. بينما يوضح الكود أعلاه بالفعل `ACCENT_BORDER_CALLOUT_1`، يمكنك استبدال `ShapeType` بأي نوع توضيح آخر ليناسب تصميمك.
+
 ## العمل مع أشكال SmartArt
 
 ### اكتشاف أشكال SmartArt
-
-يمكنك برمجيًا العثور على كائنات SmartArt في مستند باستخدام طريقة `hasSmartArt()`.
+يمكن التعرف على مخططات SmartArt برمجيًا، مما يتيح لك معالجتها أو استبدالها حسب الحاجة.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -180,8 +170,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
 ### تحديث رسومات SmartArt
-
-بعد تحديد أشكال SmartArt، يمكنك تحديث بيانات الرسم الداخلية باستخدام `updateSmartArtDrawing()`.
+بعد اكتشافها، يمكنك تحديث رسومات SmartArt لتعكس أي تغييرات في البيانات.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -191,32 +180,34 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## الخلاصة
-
-في هذا الدليل، غطينا كيفية **create text box** كائنات، تجميع عدة أشكال، ضبط نسب الأبعاد، تضمين الأشكال داخل خلايا الجداول، إضافة علامات مائية، والعمل مع مخططات SmartArt باستخدام Aspose.Words for Java. تمكّنك هذه التقنيات من إنشاء مستندات Word مُنسقة بشكل غني وتفاعلية برمجيًا.
+## المشكلات الشائعة والنصائح
+- **عدم ظهور الشكل:** تأكد من إدراج الشكل بعد العقدة المستهدفة باستخدام `builder.insertNode`.  
+- **دوران غير متوقع:** تذكر أن الدوران يُطبق حول مركز الشكل؛ عدل `setLeft`/`setTop` إذا لزم الأمر.  
+- **قفل نسبة الأبعاد:** بشكل افتراضي، كثير من الأشكال تقفل نسبة أبعادها؛ استدعِ `setAspectRatioLocked(false)` للتمدد بحرية.  
+- **فشل اكتشاف SmartArt:** تأكد من أنك تستخدم نسخة Aspose.Words التي تدعم SmartArt (v24+).
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني دمج text box مع صورة داخل نفس الشكل؟**  
-ج: نعم. أدخل صورة داخل شكل text box باستخدام `builder.insertImage()` بعد إنشاء الشكل، ثم اضبط تخطيطها حسب الحاجة.
+**س: ما هو Aspose.Words for Java؟**  
+ج: Aspose.Words for Java هي مكتبة Java تتيح للمطورين إنشاء وتعديل وتحويل مستندات Word برمجيًا. توفر مجموعة واسعة من الميزات والأدوات للعمل مع المستندات بمختلف الصيغ.
 
-**س: كيف أضمن أن تظهر العلامة المائية خلف جميع محتوى المستند؟**  
-ج: اضبط `WrapType` للشكل إلى `NONE` واضبط `RelativeHorizontalPosition` و `RelativeVerticalPosition` إلى `PAGE`. هذا يضع العلامة المائية خلف التدفق الرئيسي.
+**س: كيف يمكنني تحميل Aspose.Words for Java؟**  
+ج: يمكنك تحميل Aspose.Words for Java من موقع Aspose عبر الرابط التالي: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**س: هل يمكن تحريك شكل مجموعة في Word؟**  
-ج: رغم أن Aspose.Words يمكنه إنشاء وتجميع الأشكال، إلا أن ميزات التحريك غير مدعومة لأنها تعتمد على قدرات واجهة المستخدم في Word.
+**س: ما هي فوائد استخدام أشكال المستند؟**  
+ج: تضيف أشكال المستند عناصر بصرية وتفاعلية إلى مستنداتك، مما يجعلها أكثر جاذبية وإفادة. باستخدام الأشكال، يمكنك إنشاء توضيحات، أزرار، صور، علامات مائية، وأكثر، مما يحسن تجربة المستخدم العامة.
 
-**س: ما هو إصدار Aspose.Words المطلوب لدعم SmartArt؟**  
-ج: اكتشاف وتحديث SmartArt متاحان بدءًا من Aspose.Words 20.9 لـ Java وما بعده.
+**س: هل يمكنني تخصيص مظهر الأشكال؟**  
+ج: نعم، يمكنك تخصيص مظهر الأشكال عن طريق تعديل خصائصها مثل الحجم، الموضع، الدوران، ولون التعبئة. توفر Aspose.Words for Java خيارات واسعة لتخصيص الأشكال.
 
-**س: هل تتعامل المكتبة بكفاءة مع مستندات كبيرة تحتوي على العديد من الأشكال؟**  
-ج: نعم. استخدم `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` أو أعلى لتحسين الأداء في المستندات التي تحتوي على العديد من الأشكال.
+**س: هل Aspose.Words for Java متوافق مع SmartArt؟**  
+ج: نعم، تدعم Aspose.Words for Java أشكال SmartArt، مما يتيح لك العمل مع مخططات ورسومات معقدة في مستنداتك.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
+**آخر تحديث:** 2025-12-14  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (latest)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

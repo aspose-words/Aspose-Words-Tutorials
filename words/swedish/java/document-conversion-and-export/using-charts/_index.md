@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: Lär dig hur du lägger till flera serier i diagram i Aspose.Words för
-  Java, ändrar axelns tick‑märken, tillämpar anpassat talformat och genererar Word‑dokument
-  med diagram med linje‑ och stapeldiagram.
+date: 2025-12-13
+description: Lär dig hur du skapar stapeldiagram och formaterar diagrammets datamärkningar
+  med Aspose.Words för Java. Utforska hur du lägger till flera serier, ändrar axeltyp
+  och döljer diagramaxeln.
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Lägg till flera serier i diagram i Aspose.Words för Java
+title: Hur man skapar stapeldiagram med Aspose.Words för Java
 url: /sv/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -16,35 +16,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till flera serier i diagram i Aspose.Words för Java
+# Så skapar du stapeldiagram med Aspose.Words för Java
 
-## Introduktion till att använda diagram i Aspose.Words för Java
+I den här handledningen kommer du **skapa stapeldiagram**‑visualiseringar direkt i Word‑dokument med Aspose.Words för Java. Vi går igenom hur du skapar olika diagramtyper, lägger till flera serier, formaterar diagrammets datalabels, ändrar axeltyp och även döljer en diagramaxel när du vill ha ett renare utseende. I slutet har du en solid, produktionsklar metod för att bädda in rika diagram i dina dokument.
 
 ## Snabba svar
-- **Hur lägger jag till flera serier?** Använd `chart.getSeries().add(...)` för varje serie du vill visa.  
-- **Kan jag ändra axelns streckmarkeringar?** Ja – använd `setMajorTickMark()` och `setMinorTickMark()` på axelobjekten.  
-- **Vilket format kan jag använda för datamärkningarna?** Alla Excel‑kompatibla talformat, t.ex. `"$"#,##0.00` eller `0.00%`.  
-- **Vilka diagramtyper stöds?** Linje, stapel, område, bubbla, spridning och många fler via `ChartType`.  
-- **Krävs en licens för produktion?** En giltig Aspose.Words for Java-licens behövs för full funktionalitet.
+- **Vad är den primära klassen för att bygga ett diagram?** `DocumentBuilder` med `insertChart`.
+- **Vilken metod lägger till en ny serie?** `chart.getSeries().add(...)`.
+- **Hur formaterar jag diagrammets datalabels?** Använd `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Kan jag dölja en axel?** Ja, anropa `setHidden(true)` på axelobjektet.
+- **Behöver jag en licens för Aspose.Words?** En licens krävs för produktionsanvändning; en gratis provversion finns tillgänglig.
 
-## Vad betyder “add multiple series” i ett diagram?
-Att lägga till flera serier innebär att infoga mer än en dataset i samma diagramområde, vilket gör att du kan jämföra olika kategorier eller tidsperioder sida‑vid‑sida. Varje serie visas som sin egen linje, stapel eller marköruppsättning, vilket ger läsarna en rikare visuell berättelse.
+## Vad är ett stapeldiagram och varför använda det?
 
-## Varför använda Aspose.Words for Java för att generera diagram‑Word‑dokument?
-- **Full kontroll** över diagramtyp, layout och stil utan att öppna Word manuellt.  
-- **Programmatisk generering** passar in i automatiserade rapporteringspipeline.  
-- **Cross‑platform** – fungerar i alla Java‑kompatibla miljöer.  
-- **Rik API** för anpassning av axlar, datamärkningar och talformat.
+Ett stapeldiagram visar kategorisk data som vertikala staplar, vilket gör det idealiskt för att jämföra värden mellan grupper (försäljning per region, månatliga utgifter osv.). I Java‑applikationer gör generering av ett stapeldiagram med Aspose.Words det möjligt att bädda in dessa visualiseringar direkt i Word / DOCX‑filer utan att behöva Excel eller externa verktyg.
 
-## Förutsättningar
-- Java Development Kit (JDK) 8 eller högre.  
-- Aspose.Words for Java‑biblioteket tillagt i ditt projekt (Maven/Gradle eller JAR).  
-- En giltig Aspose‑licens för produktion (valfritt för utvärdering).
+## Så skapar du ett stapeldiagram
 
-## Steg‑för‑steg guide
+Nedan följer ett enkelt exempel som skapar ett enkelt stapeldiagram. Koden är identisk med originalsnutten – vi har bara lagt till förklarande kommentarer för att göra den lättare att följa.
 
-### Steg 1: Skapa ett linjediagram och **lägga till flera serier**
-Nedan är kärnkoden som skapar ett linjediagram, rensar standardserien och sedan lägger till tre distinkta serier med anpassade datamärkningar.
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Lägg till flera serier
+
+Du kan **lägga till flera serier** i ett stapeldiagram genom att anropa `chart.getSeries().add(...)` upprepade gånger, som visas ovan. Varje serie kan ha sin egen uppsättning kategorier och värden, vilket gör att du kan jämföra flera dataset sida‑vid‑sida.
+
+## Så skapar du ett linjediagram med anpassade datalabels
+
+Om du behöver ett linjediagram istället för ett stapeldiagram gäller samma mönster. Detta exempel visar också hur du **formaterar diagrammets datalabels** med olika talformat.
 
 ```java
 Document doc = new Document();
@@ -73,30 +87,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **Proffstips:** Anropa `chart.getSeries().add(...)` så många gånger som behövs för att **lägga till flera serier** – varje anrop skapar en ny linje (eller stapel, etc.) i samma diagram.
+### Lägg till datalabels
 
-### Steg 2: **Skapa ett stapeldiagram** (create column chart java)
-Nästa kodsnutt visar hur man infogar ett enkelt stapeldiagram, vilket är användbart för att jämföra kategorier sida‑vid‑sida.
+Anropet `series1.hasDataLabels(true)` **lägger till datalabels** till serien, medan `setShowValue(true)` gör de faktiska värdena synliga i diagrammet.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## Så ändrar du axeltyp och anpassar axelns egenskaper
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### Steg 3: **Ändra axelns streckmarkeringar** (change axis tick marks)
-Anpassning av X‑ och Y‑axeln förbättrar läsbarheten. Följande kod demonstrerar hur man ändrar streckmarkeringar, vänder ordning och sätter anpassade korsningspunkter.
+Att ändra axeltypen (t.ex. från datum till kategori) låter dig styra hur datapunkter plottas. Denna kodsnutt visar också hur du **döljer diagramaxeln** om du föredrar en minimalistisk design.
 
 ```java
 Document doc = new Document();
@@ -118,6 +115,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -128,8 +128,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### Steg 4: **Applicera ett anpassat talformat** (apply custom number format)
-Du kan formatera axelns tal eller datamärkningar med vilket mönster som helst som stöds av Excel. Nedan är ett kort exempel som formaterar Y‑axeln med ett tusentalsavgränsarmönster.
+### Ändra axeltyp
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **ändrar axeltypen** från en datumbaserad axel till en kategorisk, vilket ger dig full kontroll över placeringen av etiketter.
+
+## Så formaterar du diagrammets datalabels (talformat)
+
+Du kan applicera talformat direkt på axeln eller datalabels. Detta exempel formaterar Y‑axelns siffror med ett tusentalsavgränsare.
 
 ```java
 Document doc = new Document();
@@ -144,41 +149,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### Steg 5: Generera det slutgiltiga Word‑dokumentet (generate chart word document)
-Efter att ha konfigurerat serier, axlar och etiketter, anropa helt enkelt `doc.save(...)` som visas i kodsnuttarna ovan. Den resulterande `.docx`‑filen innehåller fullt funktionella diagram som kan öppnas och redigeras i Microsoft Word.
-
-## Vanliga användningsfall
-- **Finansiella instrumentpaneler** – linjediagram med flera serier för intäkter, kostnader och vinst.  
-- **Försäljningsrapporter** – stapeldiagram som jämför kvartalsförsäljning över regioner.  
-- **Projektuppföljning** – område‑ eller spridningsdiagram som visualiserar framsteg över tid.  
-
 ## Ytterligare diagramanpassningar
-Utöver grunderna kan du justera gränser, dölja axlar (`axis.setHidden(true)`), ändra färger, lägga till förklaringar och mer. Se Aspose.Words for Java API‑referensen för den fullständiga listan av alternativ.
 
-## Slutsats
-I den här guiden gick vi igenom hur man **lägger till flera serier** i diagram, skapar både linje‑ och stapeldiagram, **ändrar axelns streckmarkeringar**, **applikerar anpassade talformat**, och slutligen **genererar ett diagram‑rikt Word‑dokument**. Med Aspose.Words for Java har du ett kraftfullt, kod‑först sätt att bädda in professionella datavisualiseringar direkt i dina dokument.
+Utöver grunderna kan du justera gränser, sätta intervallenheter mellan etiketter, dölja specifika axlar och mer. Se Aspose.Words för Java API‑dokumentationen för en fullständig lista över egenskaper.
 
 ## Vanliga frågor
 
 **Q: Hur kan jag lägga till flera serier i ett diagram?**  
-A: Anropa `chart.getSeries().add()` för varje serie du vill visa. Varje anrop skapar en ny datamängd som visas som sin egen linje, stapel eller markörgrupp.
+A: Använd `chart.getSeries().add()` för varje serie du vill visa. Varje anrop kan ange ett unikt namn, en kategori‑array och en värde‑array.
 
-**Q: Hur formaterar jag datamärkningar med ett anpassat talformat?**  
-A: Få åtkomst till seriens `DataLabels`‑objekt och använd `getNumberFormat().setFormatCode("your pattern")`. Du kan också länka formatet till en källcell med `isLinkedToSource(true)`.
+**Q: Hur formaterar jag diagrammets datalabels med anpassade talformat?**  
+A: Få åtkomst till en series `DataLabels`‑objekt och anropa `getNumberFormat().setFormatCode("your format")`. Du kan också länka formatet till en källcell med `isLinkedToSource(true)`.
 
-**Q: Hur kan jag ändra axelns streckmarkeringar?**  
-A: Använd `setMajorTickMark()` och `setMinorTickMark()` på `ChartAxis`. Alternativen inkluderar `CROSS`, `INSIDE`, `OUTSIDE` och `NONE`.
+**Q: Hur kan jag dölja en diagramaxel?**  
+A: Anropa `setHidden(true)` på den `ChartAxis` du vill dölja (t.ex. `chart.getAxisY().setHidden(true)`).
 
-**Q: Kan jag skapa andra diagramtyper som spridnings‑ eller områdesdiagram?**  
-A: Ja – specificera önskad `ChartType` (t.ex. `ChartType.SCATTER`, `ChartType.AREA`) när du anropar `builder.insertChart(...)`.
+**Q: Vad är det bästa sättet att ändra axeltyp?**  
+A: Använd `setCategoryType(AxisCategoryType.CATEGORY)` för kategoriska axlar eller `AxisCategoryType.DATE` för datumaxlar.
 
-**Q: Hur döljer jag en axel jag inte behöver?**  
-A: Anropa `axis.setHidden(true)` på den `ChartAxis` du vill dölja.
+**Q: Hur lägger jag till datalabels i en serie?**  
+A: Aktivera dem med `series.hasDataLabels(true)` och konfigurera sedan synligheten med `series.getDataLabels().setShowValue(true)`.
+
+## Slutsats
+
+Vi har gått igenom allt du behöver för att **skapa stapeldiagram**‑visualiseringar med Aspose.Words för Java – från att infoga grundläggande diagram och lägga till flera serier, till att formatera diagrammets datalabels, ändra axeltyp och dölja diagramaxlar för ett rent utseende. Integrera dessa tekniker i dina rapporterings‑ eller dokumentgenereringsprocesser för att leverera professionella, datadrivna Word‑dokument.
 
 ---
 
-**Senast uppdaterad:** 2026-02-16  
-**Testad med:** Aspose.Words for Java 24.11  
+**Senast uppdaterad:** 2025-12-13  
+**Testad med:** Aspose.Words for Java 24.12 (senaste)  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

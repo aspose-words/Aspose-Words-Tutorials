@@ -5,7 +5,9 @@
 "url": "/zh/python-net/performance-optimization/optimize-document-views-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 使用 Python 中的 Aspose.Words 优化文档视图
 
 ## 性能与优化
@@ -234,3 +236,7 @@ set_forms_design_mode(True)
 
 ## 结论
 按照本指南，您可以利用 Aspose.Words for Python 有效地自定义文档视图。这不仅提升了用户体验，还提供了跨平台文档呈现方式的灵活性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

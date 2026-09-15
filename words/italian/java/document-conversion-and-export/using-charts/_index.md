@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: Scopri come aggiungere più serie ai grafici in Aspose.Words per Java,
-  modificare i segni di graduazione degli assi, applicare un formato numerico personalizzato
-  e generare documenti Word con grafici a linee e a colonne.
+date: 2025-12-13
+description: Scopri come creare un grafico a colonne e formattare le etichette dei
+  dati del grafico con Aspose.Words per Java. Esplora l'aggiunta di più serie, la
+  modifica del tipo di asse e la possibilità di nascondere l'asse del grafico.
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Aggiungi più serie ai grafici in Aspose.Words per Java
+title: Come creare un grafico a colonne usando Aspose.Words per Java
 url: /it/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -16,37 +16,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungere più serie ai grafici in Aspose.Words per Java
+# Come creare un grafico a colonne usando Aspose.Words per Java
 
-## Introduzione all'uso dei grafici in Aspose.Words per Java
-
-In questo tutorial imparerai **come aggiungere più serie** a un grafico usando Aspose.Words per Java, perché la personalizzazione dei segni di graduazione degli assi e l'applicazione di un formato numerico personalizzato sono importanti, e come generare un documento Word ricco di grafici. Che tu abbia bisogno di un grafico a linee per dati finanziari o di un grafico a colonne per le vendite, i passaggi seguenti ti guideranno nella creazione, nello styling e nella messa a punto dei grafici in modo programmatico.
+In questo tutorial **creerai visualizzazioni di grafici a colonne** direttamente all'interno di documenti Word usando Aspose.Words per Java. Vedremo come creare diversi tipi di grafico, aggiungere più serie, formattare le etichette dei dati del grafico, cambiare il tipo di asse e persino nascondere un asse del grafico quando è necessario un aspetto più pulito. Alla fine avrai un approccio solido, pronto per la produzione, per incorporare grafici ricchi nei tuoi documenti.
 
 ## Risposte rapide
-- **Come aggiungo più serie?** Usa `chart.getSeries().add(...)` per ogni serie che desideri visualizzare.  
-- **Posso modificare i segni di graduazione degli assi?** Sì – usa `setMajorTickMark()` e `setMinorTickMark()` sugli oggetti asse.  
-- **Quale formato posso applicare alle etichette dei dati?** Qualsiasi formato numerico compatibile con Excel, ad es. `"$"#,##0.00` o `0.00%`.  
-- **Quali tipi di grafico sono supportati?** Line, column, area, bubble, scatter e molti altri tramite `ChartType`.  
-- **È necessaria una licenza per la produzione?** È necessaria una licenza valida di Aspose.Words per Java per la piena funzionalità.
+- **Qual è la classe principale per costruire un grafico?** `DocumentBuilder` con `insertChart`.
+- **Quale metodo aggiunge una nuova serie?** `chart.getSeries().add(...)`.
+- **Come formattare le etichette dei dati del grafico?** Usa `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Posso nascondere un asse?** Sì, chiama `setHidden(true)` sull'oggetto asse.
+- **È necessaria una licenza per Aspose.Words?** È richiesta una licenza per l'uso in produzione; è disponibile una versione di prova gratuita.
 
-## Che cosa significa “add multiple series” in un grafico?
-Aggiungere più serie significa inserire più di un set di dati nella stessa area del grafico, consentendo di confrontare diverse categorie o periodi temporali fianco a fianco. Ogni serie appare come una propria linea, colonna o insieme di marcatori, offrendo ai lettori una narrazione visiva più ricca.
+## Che cos'è un grafico a colonne e perché usarlo?
 
-## Perché usare Aspose.Words per Java per generare documenti Word con grafici?
-- **Controllo totale** sul tipo di grafico, layout e stile senza aprire Word manualmente.  
-- **Generazione programmatica** che si integra nei flussi di lavoro di reporting automatizzato.  
-- **Cross‑platform** – funziona in qualsiasi ambiente compatibile con Java.  
-- **API ricca** per personalizzare assi, etichette dati e formati numerici.
+Un grafico a colonne visualizza dati categorici come barre verticali, rendendolo ideale per confrontare valori tra gruppi (vendite per regione, spese mensili, ecc.). Nelle applicazioni Java, generare un grafico a colonne con Aspose.Words ti consente di incorporare queste visualizzazioni direttamente nei file Word / DOCX senza dover ricorrere a Excel o strumenti esterni.
 
-## Prerequisiti
-- Java Development Kit (JDK) 8 o superiore.  
-- Libreria Aspose.Words per Java aggiunta al progetto (Maven/Gradle o JAR).  
-- Una licenza valida di Aspose per la produzione (opzionale per la valutazione).
+## Come creare un grafico a colonne
 
-## Guida passo‑passo
+Di seguito trovi un esempio semplice che crea un grafico a colonne. Il codice è identico allo snippet originale – abbiamo aggiunto solo commenti esplicativi per renderlo più facile da seguire.
 
-### Passo 1: Creare un grafico a linee e **aggiungere più serie**
-Di seguito trovi il codice principale che crea un grafico a linee, cancella le serie predefinite e aggiunge tre serie distinte con etichette dati personalizzate.
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Aggiungere più serie
+
+Puoi **aggiungere più serie** a un grafico a colonne chiamando ripetutamente `chart.getSeries().add(...)`, come mostrato sopra. Ogni serie può avere il proprio insieme di categorie e valori, consentendoti di confrontare diversi set di dati fianco a fianco.
+
+## Come creare un grafico a linee con etichette dati personalizzate
+
+Se ti serve un grafico a linee invece di un grafico a colonne, lo stesso schema si applica. Questo esempio dimostra anche come **formattare le etichette dei dati del grafico** con formati numerici diversi.
 
 ```java
 Document doc = new Document();
@@ -75,30 +87,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **Suggerimento:** Chiama `chart.getSeries().add(...)` quante volte è necessario per **aggiungere più serie** – ogni chiamata crea una nuova linea (o colonna, ecc.) sullo stesso grafico.
+### Aggiungere etichette dati
 
-### Passo 2: **Creare un grafico a colonne** (create column chart java)
-Il frammento successivo mostra come inserire un semplice grafico a colonne, utile per confrontare categorie fianco a fianco.
+La chiamata `series1.hasDataLabels(true)` **aggiunge etichette dati** alla serie, mentre `setShowValue(true)` rende visibili i valori effettivi sul grafico.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## Come cambiare il tipo di asse e personalizzare le proprietà dell'asse
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### Passo 3: **Modificare i segni di graduazione degli assi** (change axis tick marks)
-Personalizzare gli assi X e Y migliora la leggibilità. Il codice seguente dimostra come cambiare i segni di graduazione, invertire l'ordine e impostare punti di intersezione personalizzati.
+Cambiare il tipo di asse (ad esempio da data a categoria) ti permette di controllare come i punti dati vengono tracciati. Questo snippet mostra anche come **nascondere l'asse del grafico** se preferisci un design minimalista.
 
 ```java
 Document doc = new Document();
@@ -120,6 +115,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -130,8 +128,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### Passo 4: **Applicare un formato numerico personalizzato** (apply custom number format)
-Puoi formattare i numeri degli assi o le etichette dati con qualsiasi modello supportato da Excel. Di seguito trovi un esempio conciso che formatta l'asse Y con un modello separatore di migliaia.
+### Cambiare il tipo di asse
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **cambia il tipo di asse** da un asse basato su data a uno categorico, offrendoti il pieno controllo sul posizionamento delle etichette.
+
+## Come formattare le etichette dei dati del grafico (formati numerici)
+
+Puoi applicare la formattazione numerica direttamente all'asse o alle etichette dei dati. Questo esempio formatta i numeri dell'asse Y con un separatore delle migliaia.
 
 ```java
 Document doc = new Document();
@@ -146,41 +149,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### Passo 5: Generare il documento Word finale (generate chart word document)
-Dopo aver configurato serie, assi e etichette, chiama semplicemente `doc.save(...)` come mostrato negli snippet precedenti. Il file `.docx` risultante contiene grafici pienamente funzionanti che possono essere aperti e modificati in Microsoft Word.
-
-## Casi d'uso comuni
-- **Dashboard finanziari** – grafici a linee con più serie per ricavi, spese e profitto.  
-- **Report di vendita** – grafici a colonne che confrontano le vendite trimestrali per regione.  
-- **Monitoraggio progetti** – grafici area o scatter che visualizzano l'avanzamento nel tempo.  
-
 ## Personalizzazioni aggiuntive del grafico
-Oltre alle basi, puoi regolare i limiti, nascondere gli assi (`axis.setHidden(true)`), cambiare i colori, aggiungere legende e molto altro. Consulta il riferimento API di Aspose.Words per Java per l'elenco completo delle opzioni.
 
-## Conclusione
-In questa guida abbiamo illustrato come **aggiungere più serie** ai grafici, creare sia grafici a linee che a colonne, **modificare i segni di graduazione degli assi**, **applicare formati numerici personalizzati** e infine **generare un documento Word ricco di grafici**. Con Aspose.Words per Java disponi di un modo potente, code‑first, per inserire visualizzazioni dati professionali direttamente nei tuoi documenti.
+Oltre alle basi, puoi regolare i limiti, impostare unità di intervallo tra le etichette, nascondere assi specifici e molto altro. Consulta la documentazione dell'API Aspose.Words per Java per l'elenco completo delle proprietà.
 
 ## Domande frequenti
 
-**Q: Come posso aggiungere più serie a un grafico?**  
-**A:** Chiama `chart.getSeries().add()` per ogni serie che desideri visualizzare. Ogni chiamata crea un nuovo set di dati che appare come una propria linea, colonna o gruppo di marcatori.
+**D: Come posso aggiungere più serie a un grafico?**  
+R: Usa `chart.getSeries().add()` per ogni serie che desideri visualizzare. Ogni chiamata può fornire un nome unico, un array di categorie e un array di valori.
 
-**Q: Come formatto le etichette dati con un formato numerico personalizzato?**  
-**A:** Accedi all'oggetto `DataLabels` della serie e usa `getNumberFormat().setFormatCode("tuo modello")`. Puoi anche collegare il formato a una cella di origine con `isLinkedToSource(true)`.
+**D: Come formattare le etichette dei dati del grafico con formati numerici personalizzati?**  
+R: Accedi all'oggetto `DataLabels` di una serie e chiama `getNumberFormat().setFormatCode("il tuo formato")`. Puoi anche collegare il formato a una cella di origine con `isLinkedToSource(true)`.
 
-**Q: Come posso modificare i segni di graduazione degli assi?**  
-**A:** Usa `setMajorTickMark()` e `setMinorTickMark()` su `ChartAxis`. Le opzioni includono `CROSS`, `INSIDE`, `OUTSIDE` e `NONE`.
+**D: Come posso nascondere un asse del grafico?**  
+R: Chiama `setHidden(true)` sul `ChartAxis` che desideri nascondere (ad esempio `chart.getAxisY().setHidden(true)`).
 
-**Q: Posso creare altri tipi di grafico come scatter o area?**  
-**A:** Sì – specifica il `ChartType` desiderato (ad es. `ChartType.SCATTER`, `ChartType.AREA`) quando chiami `builder.insertChart(...)`.
+**D: Qual è il modo migliore per cambiare il tipo di asse?**  
+R: Usa `setCategoryType(AxisCategoryType.CATEGORY)` per assi categorici o `AxisCategoryType.DATE` per assi basati su data.
 
-**Q: Come nascondo un asse che non mi serve?**  
-**A:** Chiama `axis.setHidden(true)` sull'oggetto `ChartAxis` che desideri nascondere.
+**D: Come aggiungere etichette dati a una serie?**  
+R: Abilita le etichette con `series.hasDataLabels(true)` e poi configura la visibilità usando `series.getDataLabels().setShowValue(true)`.
+
+## Conclusione
+
+Abbiamo coperto tutto ciò che ti serve per **creare visualizzazioni di grafici a colonne** con Aspose.Words per Java—dall'inserimento di grafici di base e l'aggiunta di più serie, alla formattazione delle etichette dei dati, al cambiamento del tipo di asse e al nascondere gli assi per un aspetto pulito. Integra queste tecniche nei tuoi flussi di reporting o di generazione di documenti per fornire documenti Word professionali e basati sui dati.
 
 ---
 
-**Ultimo aggiornamento:** 2026-02-16  
-**Testato con:** Aspose.Words per Java 24.11  
+**Ultimo aggiornamento:** 2025-12-13  
+**Testato con:** Aspose.Words per Java 24.12 (ultima versione)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

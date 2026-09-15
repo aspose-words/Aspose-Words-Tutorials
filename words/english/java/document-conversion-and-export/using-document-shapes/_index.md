@@ -1,11 +1,11 @@
 ---
-title: How to create text box and use Document Shapes in Aspose.Words for Java
+title: Using Document Shapes in Aspose.Words for Java
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-description: Learn how to create text box, add watermark word, group multiple shapes, set shape aspect ratio, and place shape in a table cell using Aspose.Words for Java.
+description: Learn how to **insert image shape** with Aspose.Words for Java. This guide shows you how to add shapes, create text box shapes, place shapes in tables, set shape aspect ratio, and add callout shapes.
 weight: 14
 url: /java/document-conversion-and-export/using-document-shapes/
-date: 2026-02-16
+date: 2025-12-14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,38 +14,35 @@ date: 2026-02-16
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Using Document Shapes in Aspose.Words for Java
+# How to **insert image shape** with Aspose.Words for Java
 
-## Introduction to Using Document Shapes in Aspose.Words for Java
-
-In this comprehensive guide, **you’ll learn how to create text box** objects and other powerful shapes with Aspose.Words for Java. Shapes let you enrich Word documents with callouts, buttons, watermarks, SmartArt, and more—making them visually engaging and interactive. We’ll walk through real‑world examples, from inserting a simple text box to grouping multiple shapes, setting aspect ratios, and placing shapes inside table cells.
+In this comprehensive tutorial you’ll discover how to **insert image shape** objects into Word documents using Aspose.Words for Java. Whether you’re building reports, marketing collateral, or interactive forms, shapes let you add callouts, buttons, text boxes, watermarks, and even SmartArt. We’ll walk through each step, explain why you’d use a particular shape, and provide ready‑to‑run code snippets.
 
 ## Quick Answers
-- **What is the primary way to add a text box?** Use `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **Can I group shapes together?** Yes – create a `GroupShape` and append child shapes.
-- **How do I lock or unlock a shape’s aspect ratio?** Call `shape.setAspectRatioLocked(true/false)`.
-- **Is it possible to add a watermark with a shape?** Absolutely – insert a `Shape` with `TEXT_PLAIN_TEXT` and set its fill/stroke.
-- **Do SmartArt diagrams work with Aspose.Words?** Yes – detect with `shape.hasSmartArt()` and update via `shape.updateSmartArtDrawing()`.
+- **What is the primary way to add a shape?** Use `DocumentBuilder.insertShape` or create a `Shape` instance and add it to the document tree.  
+- **Can I insert an image as a shape?** Yes – call `builder.insertImage` and then treat the returned `Shape` like any other.  
+- **How do I keep a shape’s aspect ratio?** Set `shape.setAspectRatioLocked(true)` or `false` depending on your needs.  
+- **Is it possible to group shapes?** Absolutely – wrap them in a `GroupShape` and insert the group as a single node.  
+- **Do SmartArt diagrams work with Aspose.Words?** Yes, you can detect and update SmartArt shapes programmatically.
 
-## What is a text box and why create text box shapes?
+## What is **insert image shape**?
+An *image shape* is a visual element that holds raster or vector graphics inside a Word document. In Aspose.Words, an image is represented by a `Shape` object, giving you full control over size, position, rotation, and wrapping.
 
-A text box is a container that can hold formatted text, images, or other shapes. Using **create text box** in your automation lets you place floating content anywhere on a page, perfect for annotations, callouts, or decorative elements without altering the main document flow.
+## Why use shapes in your documents?
+- **Visual impact:** Shapes draw attention to key information.  
+- **Interactivity:** Buttons and callouts can be linked to URLs or bookmarks.  
+- **Layout flexibility:** Position graphics precisely with absolute or relative coordinates.  
+- **Automation:** Generate complex layouts without manual editing.
 
-## How to add shape
+## Prerequisites
+- Java Development Kit (JDK 8 or higher)  
+- Aspose.Words for Java library (download from the official site)  
+- Basic knowledge of Java and object‑oriented programming  
 
-Before we dive into code, ensure Aspose.Words for Java is referenced in your project. If you haven’t added it yet, download the library from the official site:
+You can download the library here: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Adding Shapes to Documents
-
-## How to group multiple shapes
-
-A `GroupShape` lets you treat several individual shapes as a single unit—useful for moving or rotating them together.
-
-### Inserting a GroupShape
-
-Below is a complete example that creates a group, adds two different shapes, and inserts the group into the document.
+## How to **add shape** – Inserting a GroupShape
+A `GroupShape` lets you treat several shapes as a single unit. This is useful for moving or formatting multiple elements together.
 
 ```java
 Document doc = new Document();
@@ -75,11 +72,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## How to create a text box (create text box)
-
-### Inserting a Text Box Shape
-
-The `insertShape` method makes it straightforward to add a text box. The example below shows two ways to position and rotate a text box.
+## Create **text box shape**
+A text box is a container that can hold formatted text. You can also rotate it for a dynamic look.
 
 ```java
 Document doc = new Document();
@@ -100,11 +94,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## How to set shape aspect ratio
-
-### Managing Aspect Ratio
-
-Sometimes you need a shape to stretch without preserving its original proportions. The following snippet demonstrates unlocking the aspect ratio of an image shape.
+## Set **shape aspect ratio**
+Sometimes you need a shape to stretch freely, other times you want to keep its original proportions. Controlling the aspect ratio is straightforward.
 
 ```java
 Document doc = new Document();
@@ -116,11 +107,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## How to place shape in a table cell
-
-### Placing a Shape Inside a Table Cell
-
-Below is a step‑by‑step example that builds a table, then inserts a watermark shape that is positioned relative to the page but can also be placed inside a cell.
+## Place **shape in table**
+Embedding a shape inside a table cell can be handy for report layouts. The example below creates a table and then inserts a watermark‑style shape that spans the whole page.
 
 ```java
 Document doc = new Document();
@@ -164,11 +152,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
+## Add **callout shape**
+A callout shape is perfect for highlighting notes or warnings. While the code above already demonstrates an `ACCENT_BORDER_CALLOUT_1`, you can swap the `ShapeType` to any callout variant to suit your design.
+
 ## Working with SmartArt Shapes
 
-### Detecting SmartArt Shapes
-
-You can programmatically find SmartArt objects in a document using the `hasSmartArt()` method.
+### Detect SmartArt Shapes
+SmartArt diagrams can be identified programmatically, allowing you to process or replace them as needed.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -177,9 +167,8 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### Updating SmartArt Drawings
-
-Once you’ve located SmartArt shapes, you can refresh their internal drawing data with `updateSmartArtDrawing()`.
+### Update SmartArt Drawings
+Once detected, you can refresh the SmartArt graphics to reflect any data changes.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -189,31 +178,33 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Conclusion
-
-In this guide, we’ve covered how to **create text box** objects, group multiple shapes, adjust aspect ratios, embed shapes inside table cells, add watermarks, and work with SmartArt diagrams using Aspose.Words for Java. These techniques empower you to build richly formatted, interactive Word documents programmatically.
+## Common Issues & Tips
+- **Shape not appearing:** Ensure the shape is inserted after the target node using `builder.insertNode`.  
+- **Unexpected rotation:** Remember that rotation is applied around the shape’s center; adjust `setLeft`/`setTop` if needed.  
+- **Aspect ratio locked:** By default, many shapes lock their aspect ratio; call `setAspectRatioLocked(false)` to stretch freely.  
+- **SmartArt detection fails:** Verify you are using Aspose.Words version that supports SmartArt (v24+).
 
 ## Frequently Asked Questions
 
-**Q: Can I combine a text box with an image inside the same shape?**  
-A: Yes. Insert an image into the text box shape using `builder.insertImage()` after creating the shape, then adjust its layout as needed.
+**Q: What is Aspose.Words for Java?**  
+A: Aspose.Words for Java is a Java library that allows developers to create, modify, and convert Word documents programmatically. It provides a wide range of features and tools for working with documents in various formats.
 
-**Q: How do I ensure a watermark appears behind all document content?**  
-A: Set the shape’s `WrapType` to `NONE` and adjust its `RelativeHorizontalPosition` and `RelativeVerticalPosition` to `PAGE`. This positions the watermark behind the main flow.
+**Q: How can I download Aspose.Words for Java?**  
+A: You can download Aspose.Words for Java from the Aspose website by following this link: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: Is it possible to animate a grouped shape in Word?**  
-A: While Aspose.Words can create and group shapes, animation features are not supported because they rely on Word’s UI capabilities.
+**Q: What are the benefits of using document shapes?**  
+A: Document shapes add visual elements and interactivity to your documents, making them more engaging and informative. With shapes, you can create callouts, buttons, images, watermarks, and more, enhancing the overall user experience.
 
-**Q: What version of Aspose.Words is required for SmartArt support?**  
-A: SmartArt detection and updating are available starting from Aspose.Words 20.9 for Java and later.
+**Q: Can I customize the appearance of shapes?**  
+A: Yes, you can customize the appearance of shapes by adjusting their properties such as size, position, rotation, and fill color. Aspose.Words for Java provides extensive options for shape customization.
 
-**Q: Does the library handle large documents with many shapes efficiently?**  
-A: Yes. Use `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` or higher to improve performance on documents with many shapes.
+**Q: Is Aspose.Words for Java compatible with SmartArt?**  
+A: Yes, Aspose.Words for Java supports SmartArt shapes, allowing you to work with complex diagrams and graphics in your documents.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

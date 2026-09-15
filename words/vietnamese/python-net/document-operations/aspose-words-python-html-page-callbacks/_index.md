@@ -5,7 +5,9 @@
 "url": "/vi/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Triển khai các lệnh gọi lại lưu trang HTML tùy chỉnh trong Python với Aspose.Words
 
 ## Giới thiệu
@@ -149,3 +151,7 @@ A5: Tham gia [Diễn đàn Aspose](https://forum.aspose.com/c/words/10) để đ
 - **Ủng hộ**: Ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/words/10) để giải đáp thắc mắc và hỗ trợ cộng đồng.
 
 Hãy khám phá Aspose.Words for Python ngay hôm nay và mở khóa những khả năng mới trong xử lý tài liệu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,12 @@
 ---
-date: 2026-02-16
-description: Erfahren Sie, wie Sie ein Textfeld erstellen, ein Wasserzeichen‑Wort
-  hinzufügen, mehrere Formen gruppieren, das Seitenverhältnis einer Form festlegen
-  und eine Form in einer Tabellenzelle platzieren, indem Sie Aspose.Words für Java
-  verwenden.
+date: 2025-12-14
+description: Erfahren Sie, wie Sie **Bildform einfügen** mit Aspose.Words für Java.
+  Dieser Leitfaden zeigt Ihnen, wie Sie Formen hinzufügen, Textfeldformen erstellen,
+  Formen in Tabellen platzieren, das Seitenverhältnis von Formen festlegen und Hinweisformen
+  hinzufügen.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: Wie man ein Textfeld erstellt und Dokumentformen in Aspose.Words für Java verwendet
+title: Verwendung von Dokumentformen in Aspose.Words für Java
 url: /de/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -17,38 +17,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verwendung von Dokumentformen in Aspose.Words für Java
+# Wie man **Bildform einfügt** mit Aspose.Words für Java
 
-## Einführung in die Verwendung von Dokumentformen in Aspose.Words für Java
+In diesem umfassenden Tutorial erfahren Sie, wie Sie **Bildform**‑Objekte in Word‑Dokumente mit Aspose.Words für Java einfügen. Egal, ob Sie Berichte, Marketing‑Materialien oder interaktive Formulare erstellen – Formen ermöglichen Ihnen, Callouts, Schaltflächen, Textfelder, Wasserzeichen und sogar SmartArt hinzuzufügen. Wir gehen Schritt für Schritt durch, erklären, warum Sie eine bestimmte Form verwenden würden, und stellen sofort ausführbare Code‑Snippets bereit.
 
-In diesem umfassenden Leitfaden **you’ll learn how to create text box** Objekte und andere leistungsstarke Formen mit Aspose.Words für Java. Formen ermöglichen es Ihnen, Word‑Dokumente mit Callouts, Schaltflächen, Wasserzeichen, SmartArt und mehr zu bereichern – sie visuell ansprechend und interaktiv zu machen. Wir gehen reale Beispiele durch, vom Einfügen eines einfachen Textfelds über das Gruppieren mehrerer Formen, das Festlegen von Seitenverhältnissen bis hin zum Platzieren von Formen in Tabellenzellen.
+## Schnellantworten
+- **Was ist der primäre Weg, eine Form hinzuzufügen?** Verwenden Sie `DocumentBuilder.insertShape` oder erstellen Sie eine `Shape`‑Instanz und fügen Sie sie dem Dokumentbaum hinzu.  
+- **Kann ich ein Bild als Form einfügen?** Ja – rufen Sie `builder.insertImage` auf und behandeln Sie das zurückgegebene `Shape` wie jedes andere.  
+- **Wie behalte ich das Seitenverhältnis einer Form?** Setzen Sie `shape.setAspectRatioLocked(true)` oder `false`, je nach Bedarf.  
+- **Ist es möglich, Formen zu gruppieren?** Absolut – packen Sie sie in ein `GroupShape` und fügen Sie die Gruppe als einzelnen Knoten ein.  
+- **Funktionieren SmartArt‑Diagramme mit Aspose.Words?** Ja, Sie können SmartArt‑Formen programmgesteuert erkennen und aktualisieren.
 
-## Schnelle Antworten
-- **Was ist die primäre Methode, um ein Textfeld hinzuzufügen?** Verwenden Sie `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **Kann ich Formen zusammen gruppieren?** Ja – erstellen Sie ein `GroupShape` und hängen Sie Kindformen an.
-- **Wie sperre oder entsperre ich das Seitenverhältnis einer Form?** Rufen Sie `shape.setAspectRatioLocked(true/false)` auf.
-- **Ist es möglich, ein Wasserzeichen mit einer Form hinzuzufügen?** Absolut – fügen Sie ein `Shape` mit `TEXT_PLAIN_TEXT` ein und setzen Sie dessen Füllung/Umrandung.
-- **Funktionieren SmartArt‑Diagramme mit Aspose.Words?** Ja – erkennen Sie sie mit `shape.hasSmartArt()` und aktualisieren Sie sie über `shape.updateSmartArtDrawing()`.
+## Was ist **insert image shape**?
+Eine *Bildform* ist ein visuelles Element, das Raster‑ oder Vektorgrafiken innerhalb eines Word‑Dokuments enthält. In Aspose.Words wird ein Bild durch ein `Shape`‑Objekt repräsentiert, das Ihnen volle Kontrolle über Größe, Position, Drehung und Textumbruch gibt.
 
-## Was ist ein Textfeld und warum **create text box**‑Formen erstellen?
+## Warum Formen in Ihren Dokumenten verwenden?
+- **Visuelle Wirkung:** Formen lenken die Aufmerksamkeit auf wichtige Informationen.  
+- **Interaktivität:** Schaltflächen und Callouts können mit URLs oder Lesezeichen verknüpft werden.  
+- **Layout‑Flexibilität:** Positionieren Sie Grafiken präzise mit absoluten oder relativen Koordinaten.  
+- **Automatisierung:** Erzeugen Sie komplexe Layouts ohne manuelle Nachbearbeitung.
 
-Ein Textfeld ist ein Container, der formatierte Texte, Bilder oder andere Formen enthalten kann. Die Verwendung von **create text box** in Ihrer Automatisierung ermöglicht es Ihnen, schwebende Inhalte an beliebiger Stelle einer Seite zu platzieren, ideal für Anmerkungen, Callouts oder dekorative Elemente, ohne den Hauptdokumentenfluss zu ändern.
+## Voraussetzungen
+- Java Development Kit (JDK 8 oder höher)  
+- Aspose.Words für Java Bibliothek (Download von der offiziellen Seite)  
+- Grundkenntnisse in Java und objektorientierter Programmierung  
 
-## Wie man eine Form hinzufügt
+Sie können die Bibliothek hier herunterladen: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-Bevor wir in den Code eintauchen, stellen Sie sicher, dass Aspose.Words für Java in Ihrem Projekt referenziert ist. Wenn Sie es noch nicht hinzugefügt haben, laden Sie die Bibliothek von der offiziellen Seite herunter:
-
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Formen zu Dokumenten hinzufügen
-
-## Wie man mehrere Formen gruppiert
-
-Ein `GroupShape` ermöglicht es, mehrere einzelne Formen als eine Einheit zu behandeln – nützlich, um sie gemeinsam zu verschieben oder zu drehen.
-
-### Einfügen eines GroupShape
-
-Im Folgenden finden Sie ein vollständiges Beispiel, das eine Gruppe erstellt, zwei verschiedene Formen hinzufügt und die Gruppe in das Dokument einfügt.
+## Wie man **Form hinzufügt** – Einfügen eines GroupShape
+Ein `GroupShape` ermöglicht es, mehrere Formen als eine Einheit zu behandeln. Das ist nützlich, um mehrere Elemente gemeinsam zu verschieben oder zu formatieren.
 
 ```java
 Document doc = new Document();
@@ -78,11 +75,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## Wie man ein Textfeld erstellt (create text box)
-
-### Einfügen einer Textfeld‑Form
-
-Die Methode `insertShape` macht das Hinzufügen eines Textfelds unkompliziert. Das nachstehende Beispiel zeigt zwei Möglichkeiten, ein Textfeld zu positionieren und zu drehen.
+## Erstellen einer **Textfeld‑Form**
+Ein Textfeld ist ein Container, der formatierbaren Text aufnehmen kann. Sie können es zudem drehen, um einen dynamischen Look zu erzielen.
 
 ```java
 Document doc = new Document();
@@ -103,11 +97,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Wie man das Seitenverhältnis einer Form festlegt
-
-### Verwalten des Seitenverhältnisses
-
-Manchmal muss eine Form gedehnt werden, ohne ihr ursprüngliches Verhältnis beizubehalten. Der folgende Codeausschnitt demonstriert das Entsperren des Seitenverhältnisses einer Bildform.
+## **Seitenverhältnis der Form** festlegen
+Manchmal soll sich eine Form frei strecken, ein anderes Mal möchten Sie die ursprünglichen Proportionen beibehalten. Das Seitenverhältnis zu steuern ist unkompliziert.
 
 ```java
 Document doc = new Document();
@@ -119,11 +110,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## Wie man eine Form in einer Tabellenzelle platziert
-
-### Platzieren einer Form in einer Tabellenzelle
-
-Im Folgenden finden Sie ein Schritt‑für‑Schritt‑Beispiel, das eine Tabelle erstellt und anschließend eine Wasserzeichen‑Form einfügt, die relativ zur Seite positioniert ist, aber auch in einer Zelle platziert werden kann.
+## **Form in Tabelle** platzieren
+Das Einbetten einer Form in eine Tabellenzelle kann für Berichtslayouts praktisch sein. Das nachfolgende Beispiel erstellt eine Tabelle und fügt anschließend eine wasserzeichenähnliche Form ein, die die gesamte Seite einnimmt.
 
 ```java
 Document doc = new Document();
@@ -167,11 +155,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
+## **Callout‑Form** hinzufügen
+Eine Callout‑Form eignet sich perfekt, um Notizen oder Warnungen hervorzuheben. Während der obige Code bereits ein `ACCENT_BORDER_CALLOUT_1` demonstriert, können Sie den `ShapeType` zu jeder anderen Callout‑Variante ändern, um Ihr Design anzupassen.
+
 ## Arbeiten mit SmartArt‑Formen
 
-### Erkennen von SmartArt‑Formen
-
-Sie können programmgesteuert SmartArt‑Objekte in einem Dokument mit der Methode `hasSmartArt()` finden.
+### SmartArt‑Formen erkennen
+SmartArt‑Diagramme können programmgesteuert identifiziert werden, sodass Sie sie bei Bedarf verarbeiten oder ersetzen können.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -180,9 +170,8 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### Aktualisieren von SmartArt‑Zeichnungen
-
-Nachdem Sie SmartArt‑Formen gefunden haben, können Sie deren interne Zeichnungsdaten mit `updateSmartArtDrawing()` aktualisieren.
+### SmartArt‑Grafiken aktualisieren
+Sobald sie erkannt wurden, können Sie die SmartArt‑Grafiken aktualisieren, um Änderungen in den zugrunde liegenden Daten widerzuspiegeln.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -192,31 +181,33 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Fazit
-
-In diesem Leitfaden haben wir behandelt, wie man **create text box**‑Objekte erstellt, mehrere Formen gruppiert, Seitenverhältnisse anpasst, Formen in Tabellenzellen einbettet, Wasserzeichen hinzufügt und mit SmartArt‑Diagrammen unter Verwendung von Aspose.Words für Java arbeitet. Diese Techniken befähigen Sie, programmgesteuert reich formatierte, interaktive Word‑Dokumente zu erstellen.
+## Häufige Probleme & Tipps
+- **Form wird nicht angezeigt:** Stellen Sie sicher, dass die Form nach dem Zielknoten mit `builder.insertNode` eingefügt wird.  
+- **Unerwartete Drehung:** Denken Sie daran, dass die Drehung um das Zentrum der Form erfolgt; passen Sie ggf. `setLeft`/`setTop` an.  
+- **Seitenverhältnis gesperrt:** Viele Formen sperren standardmäßig ihr Seitenverhältnis; rufen Sie `setAspectRatioLocked(false)` auf, um frei zu strecken.  
+- **SmartArt‑Erkennung schlägt fehl:** Vergewissern Sie sich, dass Sie eine Aspose.Words‑Version verwenden, die SmartArt unterstützt (v24+).
 
 ## Häufig gestellte Fragen
 
-**Q: Kann ich ein Textfeld mit einem Bild innerhalb derselben Form kombinieren?**  
-A: Ja. Fügen Sie nach dem Erstellen der Form ein Bild in das Textfeld‑Shape ein, indem Sie `builder.insertImage()` verwenden, und passen Sie anschließend das Layout nach Bedarf an.
+**F: Was ist Aspose.Words für Java?**  
+A: Aspose.Words für Java ist eine Java‑Bibliothek, die Entwicklern ermöglicht, Word‑Dokumente programmgesteuert zu erstellen, zu ändern und zu konvertieren. Sie bietet eine breite Palette an Funktionen und Werkzeugen für die Arbeit mit Dokumenten in verschiedenen Formaten.
 
-**Q: Wie stelle ich sicher, dass ein Wasserzeichen hinter allen Dokumentinhalten erscheint?**  
-A: Setzen Sie den `WrapType` der Form auf `NONE` und passen Sie `RelativeHorizontalPosition` sowie `RelativeVerticalPosition` auf `PAGE` an. Dadurch wird das Wasserzeichen hinter dem Hauptfluss positioniert.
+**F: Wie kann ich Aspose.Words für Java herunterladen?**  
+A: Sie können Aspose.Words für Java von der Aspose‑Website über diesen Link herunterladen: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: Ist es möglich, eine gruppierte Form in Word zu animieren?**  
-A: Während Aspose.Words Formen erstellen und gruppieren kann, werden Animationsfunktionen nicht unterstützt, da sie von den UI‑Möglichkeiten von Word abhängen.
+**F: Welche Vorteile bieten Dokumentformen?**  
+A: Dokumentformen fügen Ihren Dokumenten visuelle Elemente und Interaktivität hinzu, wodurch sie ansprechender und informativer werden. Mit Formen können Sie Callouts, Schaltflächen, Bilder, Wasserzeichen und mehr erstellen und so das Gesamterlebnis verbessern.
 
-**Q: Welche Version von Aspose.Words ist für SmartArt‑Unterstützung erforderlich?**  
-A: Die Erkennung und Aktualisierung von SmartArt ist ab Aspose.Words 20.9 für Java und später verfügbar.
+**F: Kann ich das Aussehen von Formen anpassen?**  
+A: Ja, Sie können das Aussehen von Formen anpassen, indem Sie Eigenschaften wie Größe, Position, Drehung und Füllfarbe ändern. Aspose.Words für Java bietet umfangreiche Optionen zur Form‑Anpassung.
 
-**Q: Handhabt die Bibliothek große Dokumente mit vielen Formen effizient?**  
-A: Ja. Verwenden Sie `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` oder höher, um die Leistung bei Dokumenten mit vielen Formen zu verbessern.
+**F: Ist Aspose.Words für Java mit SmartArt kompatibel?**  
+A: Ja, Aspose.Words für Java unterstützt SmartArt‑Formen, sodass Sie komplexe Diagramme und Grafiken in Ihren Dokumenten verwenden können.
 
 ---
 
-**Zuletzt aktualisiert:** 2026-02-16  
-**Getestet mit:** Aspose.Words für Java 24.12  
+**Zuletzt aktualisiert:** 2025-12-14  
+**Getestet mit:** Aspose.Words für Java 24.12 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

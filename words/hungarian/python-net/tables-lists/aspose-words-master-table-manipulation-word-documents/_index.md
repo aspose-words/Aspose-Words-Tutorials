@@ -5,7 +5,9 @@
 "url": "/hu/python-net/tables-lists/aspose-words-master-table-manipulation-word-documents/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Fő tábla manipulációja Word dokumentumokban az Aspose.Words for Python használatával
 
 Fedezze fel, hogyan módosíthatja könnyedén a táblázatokat a Microsoft Wordben az Aspose.Words for Python segítségével. Ez az átfogó útmutató segít oszlopok eltávolításában vagy beszúrásában, és egyszerű szöveggé alakításában, ezáltal javítva a dokumentumautomatizálási feladatokat.
@@ -149,3 +151,7 @@ További információkért tekintse meg ezeket a forrásokat:
 - [Ingyenes próbaverzió](https://releases.aspose.com/words/python/)
 - [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

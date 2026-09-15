@@ -1,0 +1,7 @@
+Title: Draw rectangle in PDF with Aspose.Words for Python
+Slug: draw-rectangle-in-pdf-with-aspose-words-for-python
+Category: images-shapes
+ProcessedDate: 2026-08-08T04:55:58.311932
+SourceRepo: AI Search API
+Keywords: draw rectangle in pdf, add shadow to shape, save document as pdf, configure shape shadow
+PRNumber: 247

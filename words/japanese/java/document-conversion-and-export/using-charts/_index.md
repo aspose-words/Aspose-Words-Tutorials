@@ -1,10 +1,9 @@
 ---
-date: 2026-02-16
-description: Aspose.Words for Java でチャートに複数の系列を追加する方法、軸目盛りを変更する方法、カスタム数値書式を適用する方法、そして折れ線グラフと縦棒グラフを使用したチャート付き
-  Word 文書の生成方法を学びましょう。
+date: 2025-12-13
+description: Aspose.Words for Java を使用して、縦棒グラフの作成方法とグラフのデータ ラベルの書式設定方法を学びます。複数の系列の追加、軸タイプの変更、軸の非表示についても探ります。
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Aspose.Words for Javaでチャートに複数の系列を追加する
+title: Aspose.Words for Java を使用して柱状グラフを作成する方法
 url: /ja/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -15,37 +14,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でチャートに複数シリーズを追加する
+# Aspose.Words for Java を使用して縦棒グラフを作成する方法
 
-## Aspose.Words for Java のチャート使用の概要
-
-このチュートリアルでは、Aspose.Words for Java を使用して **チャートに複数シリーズを追加する方法**、軸目盛りをカスタマイズして独自の数値書式を適用する重要性、そしてチャートが豊富な Word 文書を生成する手順を学びます。財務データの折れ線グラフや売上数字の縦棒グラフが必要な場合でも、以下の手順に従ってプログラムでチャートの作成、スタイリング、微調整が可能です。
+このチュートリアルでは、Aspose.Words for Java を使用して Word 文書内に **縦棒グラフ** を直接作成します。さまざまなグラフタイプの作成、複数シリーズの追加、グラフデータラベルの書式設定、軸タイプの変更、さらにはクリーンな外観が必要なときに軸を非表示にする方法まで順を追って解説します。最後まで読めば、ドキュメントにリッチなグラフを埋め込むための堅牢で本番環境向けのアプローチが身につきます。
 
 ## クイック回答
-- **複数シリーズはどうやって追加しますか？** `chart.getSeries().add(...)` を各シリーズごとに呼び出します。  
-- **軸目盛りは変更できますか？** はい – 軸オブジェクトの `setMajorTickMark()` と `setMinorTickMark()` を使用します。  
-- **データラベルに適用できる書式は？** Excel 互換の任意の数値書式、例: `"$"#,##0.00` や `0.00%`。  
-- **サポートされているチャートタイプは？** Line、Column、Area、Bubble、Scatter など多数、`ChartType` で指定可能です。  
-- **本番環境でライセンスは必要ですか？** 完全な機能を利用するには有効な Aspose.Words for Java ライセンスが必要です。
+- **チャートを作成するための主要クラスは何ですか？** `DocumentBuilder` と `insertChart`。
+- **新しいシリーズを追加するメソッドはどれですか？** `chart.getSeries().add(...)`。
+- **チャートのデータラベルをフォーマットするには？** `getDataLabels().get(...).getNumberFormat().setFormatCode(...)` を使用します。
+- **軸を非表示にできますか？** はい、軸オブジェクトで `setHidden(true)` を呼び出します。
+- **Aspose.Words のライセンスは必要ですか？** 本番環境で使用するにはライセンスが必要です。無料トライアルも利用可能です。
 
-## 「チャートに複数シリーズを追加する」とは？
-複数シリーズを追加するとは、同一のチャート領域に 1 つ以上のデータセットを挿入し、異なるカテゴリや期間を横並びで比較できるようにすることです。各シリーズは独自の線、棒、またはマーカーとして表示され、読者によりリッチなビジュアルストーリーを提供します。
+## 縦棒グラフとは何か、なぜ使用するのか
 
-## なぜ Aspose.Words for Java でチャート付き Word 文書を生成するのか？
-- **フルコントロール**：Word を手動で開かずにチャートタイプ、レイアウト、スタイルを完全に制御できます。  
-- **プログラムによる生成**：自動レポートパイプラインに組み込みやすいです。  
-- **クロスプラットフォーム**：任意の Java 対応環境で動作します。  
-- **豊富な API**：軸、データラベル、数値書式のカスタマイズが可能です。
+縦棒グラフはカテゴリデータを垂直の棒で表現し、グループ間の値比較（地域別売上、月次費用など）に最適です。Java アプリケーションで Aspose.Words を使用して縦棒グラフを生成すれば、Excel や外部ツールを使わずに Word / DOCX ファイルに直接ビジュアルを埋め込むことができます。
 
-## 前提条件
-- Java Development Kit (JDK) 8 以上。  
-- プロジェクトに Aspose.Words for Java ライブラリを追加 (Maven/Gradle または JAR)。  
-- 本番環境用の有効な Aspose ライセンス（評価版はオプション）。
+## 縦棒グラフの作成方法
 
-## 手順ガイド
+以下はシンプルな縦棒グラフを作成する基本例です。コードは元のスニペットと同一で、理解しやすいように説明コメントを追加しています。
 
-### 手順 1: 折れ線グラフを作成し **複数シリーズを追加**
-以下は折れ線グラフを作成し、デフォルトのシリーズをクリアした後、カスタム データラベル付きの 3 つの異なるシリーズを追加するコアコードです。
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### 複数シリーズの追加
+
+`chart.getSeries().add(...)` を繰り返し呼び出すことで **複数シリーズ** を縦棒グラフに追加できます。各シリーズは独自のカテゴリと値のセットを持ち、複数のデータセットを横並びで比較できます。
+
+## カスタムデータラベル付き折れ線グラフの作成方法
+
+縦棒グラフの代わりに折れ線グラフが必要な場合も、同様の手順で作成できます。この例では **異なる数値形式でデータラベルをフォーマット** する方法も示しています。
 
 ```java
 Document doc = new Document();
@@ -74,30 +85,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **プロのコツ:** `chart.getSeries().add(...)` を必要な回数だけ呼び出すことで **複数シリーズを追加** できます – 各呼び出しが同一チャート上に新しい線（または棒など）を生成します。
+### データラベルの追加
 
-### 手順 2: **縦棒グラフを作成** (create column chart java)
-次のスニペットは、カテゴリを横並びで比較するのに便利なシンプルな縦棒グラフの挿入方法を示しています。
+`series1.hasDataLabels(true)` はシリーズに **データラベルを追加** し、`setShowValue(true)` によって実際の数値をグラフ上に表示します。
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## 軸タイプの変更と軸プロパティのカスタマイズ方法
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### 手順 3: **軸目盛りを変更** (change axis tick marks)
-X 軸と Y 軸の可読性を向上させます。以下のコードは目盛りの変更、順序の反転、カスタム交差点の設定方法を示しています。
+軸タイプ（例：日付軸からカテゴリ軸への変更）を変更すると、データポイントのプロット方法を制御できます。このスニペットでは、ミニマリストデザインを好む場合に **軸を非表示** にする方法も示しています。
 
 ```java
 Document doc = new Document();
@@ -119,6 +113,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -129,8 +126,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### 手順 4: **カスタム数値書式を適用** (apply custom number format)
-Excel がサポートする任意のパターンで軸の数値やデータラベルを書式設定できます。以下は Y 軸を千区切りパターンでフォーマットする簡潔な例です。
+### 軸タイプの変更
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` は **軸タイプ** を日付ベースからカテゴリベースに変更し、ラベル配置を自由にコントロールできるようにします。
+
+## チャートデータラベルのフォーマット（数値形式）
+
+数値書式は軸やデータラベルに直接適用できます。この例では Y 軸の数値に千位区切りを付けています。
 
 ```java
 Document doc = new Document();
@@ -145,42 +147,36 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### 手順 5: 最終的な Word 文書を生成 (generate chart word document)
-シリーズ、軸、ラベルの設定が完了したら、上記スニペットのように `doc.save(...)` を呼び出すだけです。生成された `.docx` ファイルには、Microsoft Word で開いて編集可能な完全機能のチャートが含まれます。
-
-## 一般的なユースケース
-- **財務ダッシュボード** – 売上、費用、利益の複数シリーズを持つ折れ線グラフ。  
-- **販売レポート** – 地域別四半期売上を比較する縦棒グラフ。  
-- **プロジェクト追跡** – 時間経過に伴う進捗を可視化するエリアまたは散布図。
-
 ## 追加のチャートカスタマイズ
-基本に加えて、範囲の調整、軸の非表示 (`axis.setHidden(true)`)、色の変更、凡例の追加などが可能です。詳細は Aspose.Words for Java API リファレンスをご参照ください。
 
-## 結論
-本ガイドでは、チャートに **複数シリーズを追加** する方法、折れ線グラフと縦棒グラフの作成、 **軸目盛りの変更**、 **カスタム数値書式の適用**、そして最終的に **チャートが豊富な Word 文書を生成** する手順を解説しました。Aspose.Words for Java を使えば、コードファーストでプロフェッショナルなデータ可視化を文書に直接埋め込む強力な手段が手に入ります。
+基本に加えて、表示範囲の調整、ラベル間の間隔設定、特定軸の非表示など、さまざまなカスタマイズが可能です。詳細は Aspose.Words for Java API ドキュメントをご参照ください。
 
 ## よくある質問
 
-**Q: チャートに複数シリーズを追加するにはどうすればよいですか？**  
-A: 表示したいシリーズごとに `chart.getSeries().add()` を呼び出します。各呼び出しが独自の線、棒、またはマーカー グループとして新しいデータセットを作成します。
+**Q: チャートに複数のシリーズを追加するにはどうすればよいですか？**  
+A: 表示したい各シリーズに対して `chart.getSeries().add()` を使用します。各呼び出しで固有の名前、カテゴリ配列、値配列を指定できます。
 
-**Q: カスタム数値書式でデータラベルをフォーマットするには？**  
-A: シリーズの `DataLabels` オブジェクトにアクセスし、`getNumberFormat().setFormatCode("your pattern")` を使用します。`isLinkedToSource(true)` で元セルの書式にリンクさせることも可能です。
+**Q: カスタム数値形式でチャートのデータラベルをフォーマットするには？**  
+A: シリーズの `DataLabels` オブジェクトにアクセスし、`getNumberFormat().setFormatCode("your format")` を呼び出します。`isLinkedToSource(true)` を使用して元セルの書式にリンクさせることも可能です。
 
-**Q: 軸目盛りを変更するには？**  
-A: `ChartAxis` の `setMajorTickMark()` と `setMinorTickMark()` を使用します。オプションは `CROSS`, `INSIDE`, `OUTSIDE`, `NONE` などがあります。
+**Q: チャートの軸を非表示にするには？**  
+A: 非表示にしたい `ChartAxis`（例：`chart.getAxisY()`）で `setHidden(true)` を呼び出します。
 
-**Q: 散布図やエリアチャートなど他のチャートタイプは作成できますか？**  
-A: はい – `builder.insertChart(...)` 呼び出し時に目的の `ChartType`（例: `ChartType.SCATTER`, `ChartType.AREA`）を指定します。
+**Q: 軸タイプを変更する最適な方法は？**  
+A: カテゴリ軸には `setCategoryType(AxisCategoryType.CATEGORY)`、日付軸には `AxisCategoryType.DATE` を使用します。
 
-**Q: 不要な軸を非表示にするには？**  
-A: 非表示にしたい `ChartAxis` に対して `axis.setHidden(true)` を呼び出します。
+**Q: シリーズにデータラベルを追加するには？**  
+A: `series.hasDataLabels(true)` で有効化し、`series.getDataLabels().setShowValue(true)` で表示設定を行います。
+
+## 結論
+
+Aspose.Words for Java を使用した **縦棒グラフ** の作成方法を網羅しました。基本的なグラフの挿入、複数シリーズの追加、データラベルの書式設定、軸タイプの変更、そしてクリーンな外観のための軸非表示まで、レポートや文書生成パイプラインにこれらのテクニックを組み込むことで、プロフェッショナルでデータ駆動型の Word 文書を提供できます。
 
 ---
 
-**最終更新日:** 2026-02-16  
-**テスト環境:** Aspose.Words for Java 24.11  
-**作者:** Aspose  
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

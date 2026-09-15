@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: Pelajari cara menambahkan beberapa seri ke diagram di Aspose.Words untuk
-  Java, mengubah tanda pada sumbu, menerapkan format angka khusus, dan menghasilkan
-  dokumen Word berisi grafik garis dan kolom.
+date: 2025-12-13
+description: Pelajari cara membuat diagram kolom dan memformat label data diagram
+  dengan Aspose.Words untuk Java. Jelajahi penambahan beberapa seri, mengubah tipe
+  sumbu, dan menyembunyikan sumbu diagram.
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Tambahkan Beberapa Seri ke Grafik di Aspose.Words untuk Java
+title: Cara membuat diagram kolom menggunakan Aspose.Words untuk Java
 url: /id/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -16,37 +16,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Beberapa Seri ke Grafik di Aspose.Words untuk Java
+# Cara Membuat Diagram Kolom Menggunakan Aspose.Words untuk Java
 
-## Pengantar Penggunaan Grafik di Aspose.Words untuk Java
-
-Dalam tutorial ini Anda akan mempelajari **cara menambahkan beberapa seri** ke sebuah grafik menggunakan Aspose.Words untuk Java, mengapa menyesuaikan tanda centang sumbu dan menerapkan format angka khusus penting, serta cara menghasilkan dokumen Word yang kaya grafik. Baik Anda memerlukan grafik garis untuk data keuangan atau grafik kolom untuk angka penjualan, langkah‑langkah di bawah ini akan memandu Anda dalam membuat, menata, dan menyempurnakan grafik secara programatis.
+Dalam tutorial ini Anda akan **membuat visualisasi diagram kolom** langsung di dalam dokumen Word menggunakan Aspose.Words untuk Java. Kami akan membahas cara membuat berbagai tipe diagram, menambahkan beberapa seri, memformat label data diagram, mengubah tipe sumbu, dan bahkan menyembunyikan sumbu diagram ketika Anda memerlukan tampilan yang lebih bersih. Pada akhir tutorial Anda akan memiliki pendekatan yang solid dan siap produksi untuk menyematkan diagram kaya ke dalam dokumen Anda.
 
 ## Jawaban Cepat
-- **Bagaimana cara menambahkan beberapa seri?** Gunakan `chart.getSeries().add(...)` untuk setiap seri yang ingin Anda tampilkan.  
-- **Apakah saya dapat mengubah tanda centang sumbu?** Ya – gunakan `setMajorTickMark()` dan `setMinorTickMark()` pada objek sumbu.  
-- **Format apa yang dapat saya terapkan pada label data?** Format angka apa pun yang kompatibel dengan Excel, misalnya `"$"#,##0.00` atau `0.00%`.  
-- **Jenis grafik apa yang didukung?** Garis, kolom, area, gelembung, sebar, dan banyak lagi melalui `ChartType`.  
-- **Apakah lisensi diperlukan untuk produksi?** Lisensi Aspose.Words untuk Java yang valid diperlukan untuk fungsi penuh.
+- **Kelas utama apa yang digunakan untuk membuat diagram?** `DocumentBuilder` dengan `insertChart`.
+- **Metode apa yang menambahkan seri baru?** `chart.getSeries().add(...)`.
+- **Bagaimana cara memformat label data diagram?** Gunakan `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Bisakah saya menyembunyikan sebuah sumbu?** Ya, panggil `setHidden(true)` pada objek sumbu.
+- **Apakah saya memerlukan lisensi untuk Aspose.Words?** Lisensi diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.
 
-## Apa itu “menambahkan beberapa seri” dalam sebuah grafik?
-Menambahkan beberapa seri berarti menyisipkan lebih dari satu set data ke dalam area grafik yang sama, memungkinkan Anda membandingkan kategori atau periode waktu yang berbeda berdampingan. Setiap seri muncul sebagai garis, kolom, atau set penanda tersendiri, memberikan pembaca cerita visual yang lebih kaya.
+## Apa itu diagram kolom dan mengapa menggunakannya?
 
-## Mengapa menggunakan Aspose.Words untuk Java untuk menghasilkan dokumen Word berisi grafik?
-- **Kontrol penuh** atas jenis grafik, tata letak, dan gaya tanpa harus membuka Word secara manual.  
-- **Pembuatan secara programatis** cocok untuk alur kerja pelaporan otomatis.  
-- **Lintas platform** – berfungsi pada lingkungan apa pun yang kompatibel dengan Java.  
-- **API lengkap** untuk menyesuaikan sumbu, label data, dan format angka.
+Diagram kolom menampilkan data kategorikal sebagai batang vertikal, menjadikannya ideal untuk membandingkan nilai antar grup (penjualan per wilayah, pengeluaran bulanan, dll.). Dalam aplikasi Java, menghasilkan diagram kolom dengan Aspose.Words memungkinkan Anda menyematkan visual ini langsung ke dalam file Word / DOCX tanpa memerlukan Excel atau alat eksternal.
 
-## Prasyarat
-- Java Development Kit (JDK) 8 atau lebih tinggi.  
-- Perpustakaan Aspose.Words untuk Java ditambahkan ke proyek Anda (Maven/Gradle atau JAR).  
-- Lisensi Aspose yang valid untuk produksi (opsional untuk evaluasi).
+## Cara membuat diagram kolom
 
-## Panduan Langkah‑per‑Langkah
+Berikut adalah contoh sederhana yang membuat diagram kolom dasar. Kode ini identik dengan cuplikan asli – kami hanya menambahkan komentar penjelas agar lebih mudah diikuti.
 
-### Langkah 1: Buat grafik garis dan **tambahkan beberapa seri**
-Berikut adalah kode inti yang membuat grafik garis, menghapus seri default, dan kemudian menambahkan tiga seri berbeda dengan label data khusus.
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Menambahkan beberapa seri
+
+Anda dapat **menambahkan beberapa seri** ke diagram kolom dengan memanggil `chart.getSeries().add(...)` berulang kali, seperti yang ditunjukkan di atas. Setiap seri dapat memiliki kumpulan kategori dan nilai masing‑masing, memungkinkan Anda membandingkan beberapa set data secara berdampingan.
+
+## Cara membuat diagram garis dengan label data khusus
+
+Jika Anda memerlukan diagram garis alih‑alih diagram kolom, pola yang sama dapat diterapkan. Contoh ini juga menunjukkan **memformat label data diagram** dengan format angka yang berbeda.
 
 ```java
 Document doc = new Document();
@@ -75,30 +87,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **Tip pro:** Panggil `chart.getSeries().add(...)` sebanyak yang diperlukan untuk **menambahkan beberapa seri** – setiap pemanggilan membuat garis baru (atau kolom, dll.) pada grafik yang sama.
+### Menambahkan label data
 
-### Langkah 2: **Buat grafik kolom** (create column chart java)
-Potongan kode berikut menunjukkan cara menyisipkan grafik kolom sederhana, yang berguna untuk membandingkan kategori berdampingan.
+Pemanggilan `series1.hasDataLabels(true)` **menambahkan label data** ke seri, sementara `setShowValue(true)` membuat nilai aktual terlihat pada diagram.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## Cara mengubah tipe sumbu dan menyesuaikan properti sumbu
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### Langkah 3: **Ubah tanda centang sumbu** (change axis tick marks)
-Menyesuaikan sumbu X dan Y meningkatkan keterbacaan. Kode berikut menunjukkan cara mengubah tanda centang, membalik urutan, dan menetapkan titik pertemuan khusus.
+Mengubah tipe sumbu (misalnya, dari tanggal ke kategori) memberi Anda kontrol atas cara titik data dipetakan. Cuplikan ini juga menunjukkan cara **menyembunyikan sumbu diagram** jika Anda menginginkan desain minimalis.
 
 ```java
 Document doc = new Document();
@@ -120,6 +115,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -130,8 +128,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### Langkah 4: **Terapkan format angka khusus** (apply custom number format)
-Anda dapat memformat angka sumbu atau label data dengan pola apa pun yang didukung Excel. Berikut contoh singkat yang memformat sumbu Y dengan pola pemisah ribuan.
+### Mengubah tipe sumbu
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **mengubah tipe sumbu** dari sumbu berbasis tanggal menjadi sumbu kategorikal, memberi Anda kontrol penuh atas penempatan label.
+
+## Cara memformat label data diagram (format angka)
+
+Anda dapat menerapkan pemformatan angka langsung ke sumbu atau label data. Contoh ini memformat angka pada sumbu Y dengan pemisah ribuan.
 
 ```java
 Document doc = new Document();
@@ -146,41 +149,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### Langkah 5: Hasilkan dokumen Word akhir (generate chart word document)
-Setelah mengonfigurasi seri, sumbu, dan label, cukup panggil `doc.save(...)` seperti yang ditunjukkan pada potongan kode di atas. File `.docx` yang dihasilkan berisi grafik yang berfungsi penuh dan dapat dibuka serta diedit di Microsoft Word.
+## Kustomisasi diagram tambahan
 
-## Kasus Penggunaan Umum
-- **Dasbor keuangan** – grafik garis dengan beberapa seri untuk pendapatan, pengeluaran, dan keuntungan.  
-- **Laporan penjualan** – grafik kolom yang membandingkan penjualan kuartalan di berbagai wilayah.  
-- **Pelacakan proyek** – grafik area atau sebar yang memvisualisasikan kemajuan seiring waktu.  
-
-## Kustomisasi Grafik Tambahan
-Selain dasar-dasar, Anda dapat menyesuaikan batas, menyembunyikan sumbu (`axis.setHidden(true)`), mengubah warna, menambahkan legenda, dan lainnya. Lihat referensi API Aspose.Words untuk Java untuk daftar lengkap opsi.
-
-## Kesimpulan
-Dalam panduan ini kami membahas cara **menambahkan beberapa seri** ke grafik, membuat grafik garis dan kolom, **mengubah tanda centang sumbu**, **menerapkan format angka khusus**, dan akhirnya **menghasilkan dokumen Word yang kaya grafik**. Dengan Aspose.Words untuk Java Anda memiliki cara yang kuat dan berorientasi kode untuk menyematkan visualisasi data profesional langsung ke dalam dokumen Anda.
+Selain dasar‑dasarnya, Anda dapat menyesuaikan batas, mengatur interval antar label, menyembunyikan sumbu tertentu, dan lain‑lain. Lihat dokumentasi API Aspose.Words untuk Java untuk daftar lengkap properti.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bagaimana cara menambahkan beberapa seri ke sebuah grafik?**  
-A: Panggil `chart.getSeries().add()` untuk setiap seri yang ingin Anda tampilkan. Setiap pemanggilan membuat set data baru yang muncul sebagai garis, kolom, atau grup penanda tersendiri.
+**T: Bagaimana cara menambahkan beberapa seri ke sebuah diagram?**  
+J: Gunakan `chart.getSeries().add()` untuk setiap seri yang ingin Anda tampilkan. Setiap pemanggilan dapat menyediakan nama unik, array kategori, dan array nilai.
 
-**Q: Bagaimana cara memformat label data dengan format angka khusus?**  
-A: Akses objek `DataLabels` pada seri dan gunakan `getNumberFormat().setFormatCode("pola Anda")`. Anda juga dapat menautkan format ke sel sumber dengan `isLinkedToSource(true)`.
+**T: Bagaimana cara memformat label data diagram dengan format angka khusus?**  
+J: Akses objek `DataLabels` pada seri dan panggil `getNumberFormat().setFormatCode("format Anda")`. Anda juga dapat menautkan format ke sel sumber dengan `isLinkedToSource(true)`.
 
-**Q: Bagaimana cara mengubah tanda centang sumbu?**  
-A: Gunakan `setMajorTickMark()` dan `setMinorTickMark()` pada `ChartAxis`. Pilihan termasuk `CROSS`, `INSIDE`, `OUTSIDE`, dan `NONE`.
+**T: Bagaimana cara menyembunyikan sebuah sumbu diagram?**  
+J: Panggil `setHidden(true)` pada `ChartAxis` yang ingin Anda sembunyikan (misalnya, `chart.getAxisY().setHidden(true)`).
 
-**Q: Apakah saya dapat membuat jenis grafik lain seperti grafik sebar atau area?**  
-A: Ya – tentukan `ChartType` yang diinginkan (misalnya `ChartType.SCATTER`, `ChartType.AREA`) saat memanggil `builder.insertChart(...)`.
+**T: Apa cara terbaik untuk mengubah tipe sumbu?**  
+J: Gunakan `setCategoryType(AxisCategoryType.CATEGORY)` untuk sumbu kategorikal atau `AxisCategoryType.DATE` untuk sumbu tanggal.
 
-**Q: Bagaimana cara menyembunyikan sumbu yang tidak saya perlukan?**  
-A: Panggil `axis.setHidden(true)` pada `ChartAxis` yang ingin Anda sembunyikan.
+**T: Bagaimana cara menambahkan label data ke sebuah seri?**  
+J: Aktifkan dengan `series.hasDataLabels(true)` lalu konfigurasikan visibilitas menggunakan `series.getDataLabels().setShowValue(true)`.
+
+## Kesimpulan
+
+Kami telah membahas semua yang Anda perlukan untuk **membuat visualisasi diagram kolom** dengan Aspose.Words untuk Java—dari menyisipkan diagram dasar dan menambahkan beberapa seri, hingga memformat label data diagram, mengubah tipe sumbu, dan menyembunyikan sumbu diagram untuk tampilan bersih. Terapkan teknik ini ke dalam pipeline pelaporan atau pembuatan dokumen Anda untuk menghasilkan dokumen Word profesional yang didorong oleh data.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-16  
-**Diuji Dengan:** Aspose.Words for Java 24.11  
+**Terakhir Diperbarui:** 2025-12-13  
+**Diuji Dengan:** Aspose.Words untuk Java 24.12 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

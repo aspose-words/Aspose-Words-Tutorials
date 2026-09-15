@@ -1,10 +1,10 @@
 ---
-date: 2026-02-16
-description: เรียนรู้วิธีสร้างกล่องข้อความ, เพิ่มลายน้ำคำ, รวมหลายรูปทรงเป็นกลุ่ม,
-  ตั้งอัตราส่วนของรูปทรง, และวางรูปทรงในเซลล์ของตารางโดยใช้ Aspose.Words for Java.
+date: 2025-12-14
+description: เรียนรู้วิธี **แทรกรูปร่างรูปภาพ** ด้วย Aspose.Words for Java คู่มือนี้จะแสดงวิธีเพิ่มรูปร่าง,
+  สร้างรูปร่างกล่องข้อความ, วางรูปร่างในตาราง, ตั้งอัตราส่วนของรูปร่าง, และเพิ่มรูปร่างคำอธิบาย.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: วิธีสร้างกล่องข้อความและใช้รูปทรงเอกสารใน Aspose.Words สำหรับ Java
+title: การใช้รูปทรงเอกสารใน Aspose.Words สำหรับ Java
 url: /th/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -15,38 +15,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การใช้รูปทรงเอกสารใน Aspose.Words สำหรับ Java
+# วิธี **insert image shape** ด้วย Aspose.Words for Java
 
-## บทนำการใช้รูปทรงเอกสารใน Aspose.Words สำหรับ Java
+ในบทแนะนำที่ครอบคลุมนี้ คุณจะได้ค้นพบวิธี **insert image shape** ลงในเอกสาร Word ด้วย Aspose.Words for Java ไม่ว่าคุณจะสร้างรายงาน เอกสารการตลาด หรือแบบฟอร์มแบบโต้ตอบ Shape จะช่วยให้คุณเพิ่ม Callouts, Buttons, Text Boxes, Watermarks และแม้กระทั่ง SmartArt เราจะเดินผ่านแต่ละขั้นตอน อธิบายเหตุผลที่ควรใช้ Shape ประเภทใด และให้โค้ดตัวอย่างที่พร้อมรัน
 
-ในคู่มือฉบับครอบคลุมนี้, **คุณจะได้เรียนรู้วิธีสร้างวัตถุ text box** และรูปทรงที่ทรงพลังอื่น ๆ ด้วย Aspose.Words สำหรับ Java. รูปทรงช่วยให้คุณเพิ่มความหลากหลายให้กับเอกสาร Word ด้วยการอธิบาย, ปุ่ม, ลายน้ำ, SmartArt, และอื่น ๆ — ทำให้ดูน่าสนใจและโต้ตอบได้. เราจะเดินผ่านตัวอย่างจากโลกจริง, ตั้งแต่การแทรก text box ง่าย ๆ ไปจนถึงการจัดกลุ่มหลายรูปทรง, การตั้งอัตราส่วน, และการวางรูปทรงภายในเซลล์ตาราง.
+## Quick Answers
+- **What is the primary way to add a shape?** Use `DocumentBuilder.insertShape` or create a `Shape` instance and add it to the document tree.  
+- **Can I insert an image as a shape?** Yes – call `builder.insertImage` and then treat the returned `Shape` like any other.  
+- **How do I keep a shape’s aspect ratio?** Set `shape.setAspectRatioLocked(true)` or `false` depending on your needs.  
+- **Is it possible to group shapes?** Absolutely – wrap them in a `GroupShape` and insert the group as a single node.  
+- **Do SmartArt diagrams work with Aspose.Words?** Yes, you can detect and update SmartArt shapes programmatically.
 
-## คำตอบอย่างรวดเร็ว
-- **วิธีหลักในการเพิ่ม text box คืออะไร?** Use `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **ฉันสามารถจัดกลุ่มรูปทรงเข้าด้วยกันได้หรือไม่?** Yes – create a `GroupShape` and append child shapes.
-- **ฉันจะล็อกหรือปลดล็อกอัตราส่วนของรูปทรงอย่างไร?** Call `shape.setAspectRatioLocked(true/false)`.
-- **สามารถเพิ่มลายน้ำด้วยรูปทรงได้หรือไม่?** Absolutely – insert a `Shape` with `TEXT_PLAIN_TEXT` and set its fill/stroke.
-- **ไดอะแกรม SmartArt ทำงานกับ Aspose.Words หรือไม่?** Yes – detect with `shape.hasSmartArt()` and update via `shape.updateSmartArtDrawing()`.
+## What is **insert image shape**?
+*Image shape* คือองค์ประกอบภาพที่เก็บกราฟิกแบบ Raster หรือ Vector ไว้ในเอกสาร Word ใน Aspose.Words ภาพจะถูกแทนด้วยอ็อบเจ็กต์ `Shape` ซึ่งให้คุณควบคุมขนาด ตำแหน่ง การหมุน และการห่อหุ้มได้อย่างเต็มที่
 
-## text box คืออะไรและทำไมต้องสร้างรูปทรง text box?
+## Why use shapes in your documents?
+- **Visual impact:** Shapes draw attention to key information.  
+- **Interactivity:** Buttons and callouts can be linked to URLs or bookmarks.  
+- **Layout flexibility:** Position graphics precisely with absolute or relative coordinates.  
+- **Automation:** Generate complex layouts without manual editing.
 
-text box คือคอนเทนเนอร์ที่สามารถบรรจุข้อความที่จัดรูปแบบ, รูปภาพ, หรือรูปทรงอื่น ๆ. การใช้ **create text box** ในการทำอัตโนมัติของคุณทำให้คุณสามารถวางเนื้อหาแบบลอยได้ทุกตำแหน่งบนหน้า, เหมาะสำหรับหมายเหตุ, การอธิบาย, หรือองค์ประกอบตกแต่งโดยไม่กระทบต่อการไหลของเอกสารหลัก.
+## Prerequisites
+- Java Development Kit (JDK 8 or higher)  
+- Aspose.Words for Java library (download from the official site)  
+- Basic knowledge of Java and object‑oriented programming  
 
-## วิธีเพิ่มรูปทรง
+You can download the library here: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-ก่อนที่เราจะลงลึกในโค้ด, ตรวจสอบให้แน่ใจว่า Aspose.Words สำหรับ Java ถูกอ้างอิงในโปรเจกต์ของคุณ. หากคุณยังไม่ได้เพิ่ม, ดาวน์โหลดไลบรารีจากเว็บไซต์อย่างเป็นทางการ:
-
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### การเพิ่มรูปทรงลงในเอกสาร
-
-## วิธีจัดกลุ่มหลายรูปทรง
-
-`GroupShape` ช่วยให้คุณจัดการหลายรูปทรงแยกเป็นหน่วยเดียว—มีประโยชน์สำหรับการย้ายหรือหมุนพร้อมกัน.
-
-### การแทรก GroupShape
-
-ด้านล่างเป็นตัวอย่างเต็มที่สร้างกลุ่ม, เพิ่มรูปทรงสองแบบที่แตกต่างกัน, และแทรกกลุ่มลงในเอกสาร.
+## How to **add shape** – Inserting a GroupShape
+A `GroupShape` lets you treat several shapes as a single unit. This is useful for moving or formatting multiple elements together.
 
 ```java
 Document doc = new Document();
@@ -76,11 +73,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## วิธีสร้าง text box (create text box)
-
-### การแทรกรูปทรง Text Box
-
-เมธอด `insertShape` ทำให้การเพิ่ม text box เป็นเรื่องง่าย. ตัวอย่างด้านล่างแสดงสองวิธีในการกำหนดตำแหน่งและหมุน text box.
+## Create **text box shape**
+A text box is a container that can hold formatted text. You can also rotate it for a dynamic look.
 
 ```java
 Document doc = new Document();
@@ -101,11 +95,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## วิธีตั้งค่าอัตราส่วนของรูปทรง
-
-### การจัดการอัตราส่วน
-
-บางครั้งคุณอาจต้องการให้รูปทรงยืดออกโดยไม่รักษาสัดส่วนเดิม. โค้ดต่อไปนี้แสดงการปลดล็อกอัตราส่วนของรูปทรงภาพ.
+## Set **shape aspect ratio**
+Sometimes you need a shape to stretch freely, other times you want to keep its original proportions. Controlling the aspect ratio is straightforward.
 
 ```java
 Document doc = new Document();
@@ -117,11 +108,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## วิธีวางรูปทรงในเซลล์ตาราง
-
-### การวางรูปทรงภายในเซลล์ตาราง
-
-ด้านล่างเป็นตัวอย่างขั้นตอนต่อขั้นตอนที่สร้างตาราง, จากนั้นแทรกรูปทรงลายน้ำที่กำหนดตำแหน่งสัมพันธ์กับหน้าแต่ยังสามารถวางภายในเซลล์ได้.
+## Place **shape in table**
+Embedding a shape inside a table cell can be handy for report layouts. The example below creates a table and then inserts a watermark‑style shape that spans the whole page.
 
 ```java
 Document doc = new Document();
@@ -165,11 +153,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## การทำงานกับรูปทรง SmartArt
+## Add **callout shape**
+A callout shape is perfect for highlighting notes or warnings. While the code above already demonstrates an `ACCENT_BORDER_CALLOUT_1`, you can swap the `ShapeType` to any callout variant to suit your design.
 
-### การตรวจจับรูปทรง SmartArt
+## Working with SmartArt Shapes
 
-คุณสามารถค้นหาอ็อบเจกต์ SmartArt ในเอกสารโดยใช้เมธอด `hasSmartArt()` อย่างโปรแกรมได้.
+### Detect SmartArt Shapes
+SmartArt diagrams can be identified programmatically, allowing you to process or replace them as needed.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -178,9 +168,8 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### การอัปเดตการวาด SmartArt
-
-เมื่อคุณพบรูปทรง SmartArt แล้ว, คุณสามารถรีเฟรชข้อมูลการวาดภายในของพวกมันด้วย `updateSmartArtDrawing()`.
+### Update SmartArt Drawings
+Once detected, you can refresh the SmartArt graphics to reflect any data changes.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -190,32 +179,34 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## สรุป
+## Common Issues & Tips
+- **Shape not appearing:** Ensure the shape is inserted after the target node using `builder.insertNode`.  
+- **Unexpected rotation:** Remember that rotation is applied around the shape’s center; adjust `setLeft`/`setTop` if needed.  
+- **Aspect ratio locked:** By default, many shapes lock their aspect ratio; call `setAspectRatioLocked(false)` to stretch freely.  
+- **SmartArt detection fails:** Verify you are using Aspose.Words version that supports SmartArt (v24+).
 
-ในคู่มือนี้, เราได้ครอบคลุมวิธี **สร้าง text box** วัตถุ, จัดกลุ่มหลายรูปทรง, ปรับอัตราส่วน, ฝังรูปทรงภายในเซลล์ตาราง, เพิ่มลายน้ำ, และทำงานกับไดอะแกรม SmartArt ด้วย Aspose.Words สำหรับ Java. เทคนิคเหล่านี้ทำให้คุณสามารถสร้างเอกสาร Word ที่มีการจัดรูปแบบอย่างละเอียดและโต้ตอบได้โดยอัตโนมัติ.
+## Frequently Asked Questions
 
-## คำถามที่พบบ่อย
+**Q: What is Aspose.Words for Java?**  
+A: Aspose.Words for Java is a Java library that allows developers to create, modify, and convert Word documents programmatically. It provides a wide range of features and tools for working with documents in various formats.
 
-**Q: ฉันสามารถรวม text box กับรูปภาพภายในรูปทรงเดียวกันได้หรือไม่?**  
-A: ได้. แทรกรูปภาพลงในรูปทรง text box โดยใช้ `builder.insertImage()` หลังจากสร้างรูปทรง, จากนั้นปรับเลย์เอาต์ตามต้องการ.
+**Q: How can I download Aspose.Words for Java?**  
+A: You can download Aspose.Words for Java from the Aspose website by following this link: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: ฉันจะทำให้ลายน้ำปรากฏอยู่ด้านหลังเนื้อหาเอกสารทั้งหมดได้อย่างไร?**  
-A: ตั้งค่า `WrapType` ของรูปทรงเป็น `NONE` และปรับ `RelativeHorizontalPosition` และ `RelativeVerticalPosition` เป็น `PAGE`. วิธีนี้ทำให้ลายน้ำอยู่ด้านหลังการไหลหลักของเอกสาร.
+**Q: What are the benefits of using document shapes?**  
+A: Document shapes add visual elements and interactivity to your documents, making them more engaging and informative. With shapes, you can create callouts, buttons, images, watermarks, and more, enhancing the overall user experience.
 
-**Q: สามารถทำให้รูปทรงที่จัดกลุ่มเคลื่อนไหวใน Word ได้หรือไม่?**  
-A: แม้ว่า Aspose.Words จะสามารถสร้างและจัดกลุ่มรูปทรงได้, แต่ฟีเจอร์การเคลื่อนไหวไม่รองรับเนื่องจากต้องอาศัยความสามารถของ UI ของ Word.
+**Q: Can I customize the appearance of shapes?**  
+A: Yes, you can customize the appearance of shapes by adjusting their properties such as size, position, rotation, and fill color. Aspose.Words for Java provides extensive options for shape customization.
 
-**Q: เวอร์ชันของ Aspose.Words ที่ต้องการสำหรับการรองรับ SmartArt คืออะไร?**  
-A: การตรวจจับและอัปเดต SmartArt มีให้ใช้งานตั้งแต่ Aspose.Words 20.9 สำหรับ Java เป็นต้นไป.
-
-**Q: ไลบรารีสามารถจัดการเอกสารขนาดใหญ่ที่มีรูปทรงจำนวนมากได้อย่างมีประสิทธิภาพหรือไม่?**  
-A: ได้. ใช้ `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` หรือเวอร์ชันที่สูงกว่าเพื่อปรับปรุงประสิทธิภาพของเอกสารที่มีรูปทรงจำนวนมาก.
+**Q: Is Aspose.Words for Java compatible with SmartArt?**  
+A: Yes, Aspose.Words for Java supports SmartArt shapes, allowing you to work with complex diagrams and graphics in your documents.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-16  
-**ทดสอบด้วย:** Aspose.Words for Java 24.12  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

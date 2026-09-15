@@ -4,7 +4,9 @@
 "url": "/cs/python-net/annotations-comments/"
 "weight": 11
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Anotace a komentáře – tutoriály pro Aspose.Words v Pythonu
 
 Prozkoumejte komplexní podrobné návody pro operace s anotacemi a komentáři pomocí Aspose.Words pro Python-net. Tyto návody obsahují kompletní příklady kódu a podrobná vysvětlení.
@@ -33,3 +35,7 @@ Naučte se, jak programově přidávat, spravovat a načítat komentáře a odpo
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Bezplatná podpora](https://forum.aspose.com/)
 - [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

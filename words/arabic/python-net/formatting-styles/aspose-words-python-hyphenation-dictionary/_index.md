@@ -5,7 +5,9 @@
 "url": "/ar/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان Aspose.Words في Python: تسجيل وإلغاء تسجيل قاموس الوصلات
 
 ## مقدمة
@@ -173,3 +175,7 @@ doc.save(arartifacts_directory + 'Hyphenation.dictionary.unregistered.pdf')
 - **شراء:** [شراء ترخيص Aspose.Words](https://purchase.aspose.com/buy)
 - **نسخة تجريبية مجانية:** [ابدأ بإصدار تجريبي مجاني](https://releases.aspose.com/words/python/)
 - **رخصة مؤقتة:** [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

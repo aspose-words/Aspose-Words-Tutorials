@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: Tìm hiểu cách tạo hộp văn bản, thêm từ watermark, nhóm nhiều hình dạng,
-  đặt tỷ lệ khung hình cho hình dạng và đặt hình dạng vào ô bảng bằng Aspose.Words
-  cho Java.
+date: 2025-12-14
+description: Tìm hiểu cách **chèn hình ảnh dạng shape** bằng Aspose.Words cho Java.
+  Hướng dẫn này chỉ cho bạn cách thêm các shape, tạo các shape hộp văn bản, đặt shape
+  vào bảng, thiết lập tỷ lệ khung hình của shape và thêm các shape chú thích.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: Cách tạo hộp văn bản và sử dụng Hình dạng Tài liệu trong Aspose.Words cho Java
+title: Sử dụng các hình dạng tài liệu trong Aspose.Words cho Java
 url: /vi/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -16,38 +16,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sử dụng Các Hình Dạng Tài Liệu trong Aspose.Words cho Java
+# Cách **chèn hình ảnh dạng shape** với Aspose.Words for Java
 
-## Giới thiệu về việc Sử dụng Các Hình Dạng Tài Liệu trong Aspose.Words cho Java
+Trong hướng dẫn toàn diện này, bạn sẽ khám phá cách **chèn hình ảnh dạng shape** vào tài liệu Word bằng Aspose.Words for Java. Dù bạn đang tạo báo cáo, tài liệu marketing, hay biểu mẫu tương tác, các shape cho phép bạn thêm callout, nút bấm, hộp văn bản, watermark và thậm chí SmartArt. Chúng tôi sẽ hướng dẫn từng bước, giải thích lý do sử dụng mỗi loại shape, và cung cấp các đoạn mã sẵn sàng chạy.
 
-Trong hướng dẫn toàn diện này, **bạn sẽ học cách tạo các đối tượng text box** và các hình dạng mạnh mẽ khác với Aspose.Words cho Java. Các hình dạng cho phép bạn làm phong phú tài liệu Word bằng các callout, nút, watermark, SmartArt và hơn thế nữa—giúp chúng trở nên hấp dẫn và tương tác. Chúng tôi sẽ hướng dẫn qua các ví dụ thực tế, từ việc chèn một text box đơn giản đến việc nhóm nhiều hình dạng, thiết lập tỷ lệ khung hình, và đặt hình dạng bên trong các ô bảng.
+## Trả lời nhanh
+- **Cách chính để thêm một shape là gì?** Sử dụng `DocumentBuilder.insertShape` hoặc tạo một thể hiện `Shape` và thêm nó vào cây tài liệu.  
+- **Tôi có thể chèn hình ảnh dưới dạng shape không?** Có – gọi `builder.insertImage` rồi xử lý `Shape` trả về như bất kỳ shape nào khác.  
+- **Làm sao để giữ tỷ lệ khung hình của shape?** Đặt `shape.setAspectRatioLocked(true)` hoặc `false` tùy nhu cầu.  
+- **Có thể nhóm các shape lại với nhau không?** Chắc chắn – bọc chúng trong một `GroupShape` và chèn nhóm như một nút duy nhất.  
+- **Các sơ đồ SmartArt có hoạt động với Aspose.Words không?** Có, bạn có thể phát hiện và cập nhật các shape SmartArt bằng chương trình.
 
-## Câu trả lời nhanh
-- **Cách chính để thêm một text box là gì?** Sử dụng `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **Tôi có thể nhóm các hình dạng lại với nhau không?** Có – tạo một `GroupShape` và thêm các hình con.
-- **Làm sao để khóa hoặc mở khóa tỷ lệ khung hình của một hình dạng?** Gọi `shape.setAspectRatioLocked(true/false)`.
-- **Có thể thêm watermark bằng một hình dạng không?** Chắc chắn – chèn một `Shape` với `TEXT_PLAIN_TEXT` và thiết lập fill/stroke.
-- **Các biểu đồ SmartArt có hoạt động với Aspose.Words không?** Có – phát hiện bằng `shape.hasSmartArt()` và cập nhật qua `shape.updateSmartArtDrawing()`.
+## **insert image shape** là gì?
+*Image shape* là một thành phần trực quan chứa đồ họa raster hoặc vector trong tài liệu Word. Trong Aspose.Words, hình ảnh được biểu diễn bằng một đối tượng `Shape`, cho phép bạn kiểm soát hoàn toàn kích thước, vị trí, góc quay và cách bọc.
 
-## Text box là gì và tại sao tạo các hình dạng text box?
+## Tại sao nên sử dụng shape trong tài liệu?
+- **Tác động thị giác:** Shape thu hút sự chú ý tới thông tin quan trọng.  
+- **Tính tương tác:** Nút bấm và callout có thể liên kết tới URL hoặc bookmark.  
+- **Linh hoạt bố cục:** Đặt đồ họa một cách chính xác bằng tọa độ tuyệt đối hoặc tương đối.  
+- **Tự động hoá:** Tạo bố cục phức tạp mà không cần chỉnh sửa thủ công.
 
-Text box là một container có thể chứa văn bản định dạng, hình ảnh hoặc các hình dạng khác. Sử dụng **create text box** trong tự động hoá của bạn cho phép đặt nội dung nổi lên bất kỳ vị trí nào trên trang, rất phù hợp cho chú thích, callout hoặc các yếu tố trang trí mà không làm thay đổi luồng tài liệu chính.
+## Yêu cầu trước
+- Java Development Kit (JDK 8 hoặc cao hơn)  
+- Thư viện Aspose.Words for Java (tải về từ trang chính thức)  
+- Kiến thức cơ bản về Java và lập trình hướng đối tượng  
 
-## Cách thêm hình dạng
+Bạn có thể tải thư viện tại đây: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-Trước khi chúng ta đi vào mã, hãy chắc chắn rằng Aspose.Words cho Java đã được tham chiếu trong dự án của bạn. Nếu bạn chưa thêm, tải thư viện từ trang chính thức:
-
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Thêm Hình Dạng vào Tài Liệu
-
-## Cách nhóm nhiều hình dạng
-
-`GroupShape` cho phép bạn xử lý nhiều hình dạng riêng lẻ như một đơn vị duy nhất—hữu ích khi di chuyển hoặc xoay chúng cùng nhau.
-
-### Chèn một GroupShape
-
-Dưới đây là một ví dụ hoàn chỉnh tạo một nhóm, thêm hai hình dạng khác nhau, và chèn nhóm vào tài liệu.
+## Cách **thêm shape** – Chèn một GroupShape
+`GroupShape` cho phép bạn xử lý nhiều shape như một đơn vị duy nhất. Điều này hữu ích khi di chuyển hoặc định dạng đồng thời nhiều phần tử.
 
 ```java
 Document doc = new Document();
@@ -77,11 +74,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## Cách tạo một text box (create text box)
-
-### Chèn Hình Dạng Text Box
-
-Phương thức `insertShape` giúp việc thêm một text box trở nên đơn giản. Ví dụ dưới đây cho thấy hai cách định vị và xoay một text box.
+## Tạo **shape hộp văn bản**
+Hộp văn bản là một container có thể chứa văn bản đã định dạng. Bạn cũng có thể xoay nó để tạo hiệu ứng động.
 
 ```java
 Document doc = new Document();
@@ -102,11 +96,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Cách thiết lập tỷ lệ khung hình cho hình dạng
-
-### Quản lý Tỷ lệ Khung hình
-
-Đôi khi bạn cần một hình dạng kéo dài mà không giữ nguyên tỉ lệ ban đầu. Đoạn mã sau minh họa cách mở khóa tỷ lệ khung hình của một hình ảnh.
+## Đặt **tỷ lệ khung hình của shape**
+Đôi khi bạn muốn shape tự do kéo dài, đôi khi lại muốn giữ nguyên tỉ lệ gốc. Kiểm soát tỷ lệ khung hình rất đơn giản.
 
 ```java
 Document doc = new Document();
@@ -118,11 +109,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## Cách đặt hình dạng trong một ô bảng
-
-### Đặt Hình Dạng vào Trong Ô Bảng
-
-Dưới đây là ví dụ từng bước xây dựng một bảng, sau đó chèn một hình watermark được định vị tương đối với trang nhưng cũng có thể đặt bên trong một ô.
+## Đặt **shape vào bảng**
+Nhúng shape vào ô bảng có thể hữu ích cho bố cục báo cáo. Ví dụ dưới đây tạo một bảng và chèn một shape kiểu watermark phủ toàn trang.
 
 ```java
 Document doc = new Document();
@@ -166,11 +154,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## Làm việc với Các Hình Dạng SmartArt
+## Thêm **shape callout**
+Shape callout hoàn hảo để làm nổi bật ghi chú hoặc cảnh báo. Mặc dù đoạn mã trên đã minh họa `ACCENT_BORDER_CALLOUT_1`, bạn có thể thay đổi `ShapeType` sang bất kỳ biến thể callout nào phù hợp với thiết kế.
 
-### Phát hiện Các Hình Dạng SmartArt
+## Làm việc với Shape SmartArt
 
-Bạn có thể tìm kiếm các đối tượng SmartArt trong tài liệu một cách lập trình bằng phương thức `hasSmartArt()`.
+### Phát hiện Shape SmartArt
+Các sơ đồ SmartArt có thể được xác định bằng chương trình, cho phép bạn xử lý hoặc thay thế chúng khi cần.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -179,9 +169,8 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### Cập nhật Vẽ SmartArt
-
-Sau khi đã xác định được các hình SmartArt, bạn có thể làm mới dữ liệu vẽ nội bộ của chúng bằng `updateSmartArtDrawing()`.
+### Cập nhật bản vẽ SmartArt
+Sau khi phát hiện, bạn có thể làm mới đồ họa SmartArt để phản ánh bất kỳ thay đổi dữ liệu nào.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -191,32 +180,34 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Kết luận
+## Các vấn đề thường gặp & Mẹo
+- **Shape không hiển thị:** Đảm bảo shape được chèn sau nút mục tiêu bằng `builder.insertNode`.  
+- **Xoay không mong muốn:** Nhớ rằng việc xoay được thực hiện quanh trung tâm của shape; điều chỉnh `setLeft`/`setTop` nếu cần.  
+- **Tỷ lệ khung hình bị khóa:** Mặc định, nhiều shape khóa tỷ lệ; gọi `setAspectRatioLocked(false)` để kéo dài tự do.  
+- **Phát hiện SmartArt thất bại:** Kiểm tra bạn đang dùng phiên bản Aspose.Words hỗ trợ SmartArt (v24+).
 
-Trong hướng dẫn này, chúng tôi đã trình bày cách **create text box** các đối tượng, nhóm nhiều hình dạng, điều chỉnh tỷ lệ khung hình, nhúng hình dạng vào các ô bảng, thêm watermark, và làm việc với các biểu đồ SmartArt bằng Aspose.Words cho Java. Những kỹ thuật này cho phép bạn xây dựng các tài liệu Word phong phú, định dạng tốt và tương tác một cách lập trình.
+## Câu hỏi thường gặp
 
-## Các Câu Hỏi Thường Gặp
+**Hỏi: Aspose.Words for Java là gì?**  
+Đáp: Aspose.Words for Java là một thư viện Java cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi tài liệu Word một cách lập trình. Nó cung cấp một loạt các tính năng và công cụ để làm việc với tài liệu ở nhiều định dạng.
 
-**Q: Tôi có thể kết hợp một text box với hình ảnh bên trong cùng một hình dạng không?**  
-A: Có. Chèn một hình ảnh vào hình dạng text box bằng `builder.insertImage()` sau khi tạo hình dạng, sau đó điều chỉnh bố cục theo nhu cầu.
+**Hỏi: Làm sao để tải Aspose.Words for Java?**  
+Đáp: Bạn có thể tải Aspose.Words for Java từ trang web Aspose bằng liên kết này: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: Làm sao để đảm bảo watermark hiển thị phía sau tất cả nội dung tài liệu?**  
-A: Đặt `WrapType` của hình dạng thành `NONE` và điều chỉnh `RelativeHorizontalPosition` và `RelativeVerticalPosition` thành `PAGE`. Điều này sẽ đặt watermark phía sau luồng chính.
+**Hỏi: Lợi ích của việc sử dụng shape trong tài liệu là gì?**  
+Đáp: Shape bổ sung các yếu tố trực quan và tính tương tác cho tài liệu, làm cho chúng hấp dẫn và thông tin hơn. Với shape, bạn có thể tạo callout, nút bấm, hình ảnh, watermark và nhiều hơn nữa, nâng cao trải nghiệm người dùng.
 
-**Q: Có thể tạo hoạt ảnh cho một nhóm hình dạng trong Word không?**  
-A: Mặc dù Aspose.Words có thể tạo và nhóm các hình dạng, tính năng hoạt ảnh không được hỗ trợ vì chúng dựa vào khả năng UI của Word.
+**Hỏi: Tôi có thể tùy chỉnh giao diện của shape không?**  
+Đáp: Có, bạn có thể tùy chỉnh giao diện của shape bằng cách điều chỉnh các thuộc tính như kích thước, vị trí, góc quay và màu nền. Aspose.Words for Java cung cấp nhiều tùy chọn để tùy biến shape.
 
-**Q: Phiên bản Aspose.Words nào cần thiết để hỗ trợ SmartArt?**  
-A: Phát hiện và cập nhật SmartArt có sẵn bắt đầu từ Aspose.Words 20.9 cho Java và các phiên bản sau.
-
-**Q: Thư viện có xử lý hiệu quả các tài liệu lớn với nhiều hình dạng không?**  
-A: Có. Sử dụng `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` hoặc cao hơn để cải thiện hiệu năng trên các tài liệu có nhiều hình dạng.
+**Hỏi: Aspose.Words for Java có hỗ trợ SmartArt không?**  
+Đáp: Có, Aspose.Words for Java hỗ trợ các shape SmartArt, cho phép bạn làm việc với các sơ đồ và đồ họa phức tạp trong tài liệu.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2025-12-14  
+**Đã kiểm tra với:** Aspose.Words for Java 24.12 (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

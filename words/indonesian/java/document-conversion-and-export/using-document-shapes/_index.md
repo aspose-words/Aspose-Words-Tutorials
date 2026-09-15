@@ -1,12 +1,12 @@
 ---
-date: 2026-02-16
-description: Pelajari cara membuat kotak teks, menambahkan watermark kata, mengelompokkan
-  beberapa bentuk, mengatur rasio aspek bentuk, dan menempatkan bentuk dalam sel tabel
-  menggunakan Aspose.Words untuk Java.
+date: 2025-12-14
+description: Pelajari cara **menyisipkan bentuk gambar** dengan Aspose.Words untuk
+  Java. Panduan ini menunjukkan cara menambahkan bentuk, membuat bentuk kotak teks,
+  menempatkan bentuk dalam tabel, mengatur rasio aspek bentuk, dan menambahkan bentuk
+  penjelasan.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: Cara membuat kotak teks dan menggunakan Bentuk Dokumen di Aspose.Words untuk
-  Java
+title: Menggunakan Bentuk Dokumen di Aspose.Words untuk Java
 url: /id/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -17,38 +17,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menggunakan Bentuk Dokumen di Aspose.Words untuk Java
+# Cara **menyisipkan bentuk gambar** dengan Aspose.Words untuk Java
 
-## Pendahuluan tentang Menggunakan Bentuk Dokumen di Aspose.Words untuk Java
-
-Dalam panduan komprehensif ini, **Anda akan belajar cara membuat kotak teks** dan bentuk kuat lainnya dengan Aspose.Words untuk Java. Bentuk memungkinkan Anda memperkaya dokumen Word dengan callout, tombol, watermark, SmartArt, dan lainnya—menjadikannya lebih menarik secara visual dan interaktif. Kami akan menelusuri contoh dunia nyata, mulai dari menyisipkan kotak teks sederhana hingga mengelompokkan beberapa bentuk, mengatur rasio aspek, dan menempatkan bentuk di dalam sel tabel.
+Dalam tutorial komprehensif ini Anda akan menemukan cara **menyisipkan bentuk gambar** ke dalam dokumen Word menggunakan Aspose.Words untuk Java. Baik Anda membuat laporan, materi pemasaran, atau formulir interaktif, bentuk memungkinkan Anda menambahkan callout, tombol, kotak teks, watermark, bahkan SmartArt. Kami akan membahas setiap langkah, menjelaskan mengapa Anda menggunakan bentuk tertentu, dan menyediakan potongan kode yang siap dijalankan.
 
 ## Jawaban Cepat
-- **Apa cara utama untuk menambahkan kotak teks?** Gunakan `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **Bisakah saya mengelompokkan beberapa bentuk?** Ya – buat `GroupShape` dan tambahkan bentuk anak.
-- **Bagaimana cara mengunci atau membuka kunci rasio aspek sebuah bentuk?** Panggil `shape.setAspectRatioLocked(true/false)`.
-- **Apakah memungkinkan menambahkan watermark dengan bentuk?** Tentu – sisipkan `Shape` dengan `TEXT_PLAIN_TEXT` dan atur isian/garisnya.
-- **Apakah diagram SmartArt bekerja dengan Aspose.Words?** Ya – deteksi dengan `shape.hasSmartArt()` dan perbarui melalui `shape.updateSmartArtDrawing()`.
+- **Apa cara utama untuk menambahkan sebuah bentuk?** Gunakan `DocumentBuilder.insertShape` atau buat instance `Shape` dan tambahkan ke pohon dokumen.  
+- **Bisakah saya menyisipkan gambar sebagai bentuk?** Ya – panggil `builder.insertImage` dan kemudian perlakukan `Shape` yang dikembalikan seperti bentuk lainnya.  
+- **Bagaimana cara menjaga rasio aspek bentuk?** Atur `shape.setAspectRatioLocked(true)` atau `false` sesuai kebutuhan Anda.  
+- **Apakah memungkinkan untuk mengelompokkan bentuk?** Tentu – bungkus mereka dalam `GroupShape` dan sisipkan grup sebagai satu node.  
+- **Apakah diagram SmartArt bekerja dengan Aspose.Words?** Ya, Anda dapat mendeteksi dan memperbarui bentuk SmartArt secara programatis.
 
-## Apa itu kotak teks dan mengapa membuat bentuk kotak teks?
+## Apa itu **insert image shape**?
+*Bentuk gambar* adalah elemen visual yang menyimpan grafik raster atau vektor di dalam dokumen Word. Di Aspose.Words, gambar direpresentasikan oleh objek `Shape`, memberi Anda kontrol penuh atas ukuran, posisi, rotasi, dan pembungkusannya.
 
-Kotak teks adalah wadah yang dapat menampung teks terformat, gambar, atau bentuk lain. Menggunakan **membuat kotak teks** dalam otomatisasi Anda memungkinkan penempatan konten mengambang di mana saja pada halaman, cocok untuk anotasi, callout, atau elemen dekoratif tanpa mengubah alur utama dokumen.
+## Mengapa menggunakan bentuk dalam dokumen Anda?
+- **Dampak visual:** Bentuk menarik perhatian ke informasi penting.  
+- **Interaktivitas:** Tombol dan callout dapat ditautkan ke URL atau bookmark.  
+- **Fleksibilitas tata letak:** Posisi grafik secara tepat dengan koordinat absolut atau relatif.  
+- **Otomatisasi:** Hasilkan tata letak kompleks tanpa penyuntingan manual.
 
-## Cara menambahkan bentuk
+## Prasyarat
+- Java Development Kit (JDK 8 atau lebih tinggi)  
+- Perpustakaan Aspose.Words untuk Java (unduh dari situs resmi)  
+- Pengetahuan dasar tentang Java dan pemrograman berorientasi objek  
 
-Sebelum kita masuk ke kode, pastikan Aspose.Words untuk Java sudah direferensikan dalam proyek Anda. Jika belum menambahkannya, unduh perpustakaan dari situs resmi:
+Anda dapat mengunduh perpustakaan di sini: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Menambahkan Bentuk ke Dokumen
-
-## Cara mengelompokkan beberapa bentuk
-
-`GroupShape` memungkinkan Anda memperlakukan beberapa bentuk individu sebagai satu unit—berguna untuk memindahkan atau memutar mereka bersama.
-
-### Menyisipkan GroupShape
-
-Berikut contoh lengkap yang membuat grup, menambahkan dua bentuk berbeda, dan menyisipkan grup ke dalam dokumen.
+## Cara **menambahkan bentuk** – Menyisipkan GroupShape
+`GroupShape` memungkinkan Anda memperlakukan beberapa bentuk sebagai satu unit. Ini berguna untuk memindahkan atau memformat beberapa elemen sekaligus.
 
 ```java
 Document doc = new Document();
@@ -78,11 +75,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## Cara membuat kotak teks (create text box)
-
-### Menyisipkan Bentuk Kotak Teks
-
-Metode `insertShape` memudahkan penambahan kotak teks. Contoh di bawah menunjukkan dua cara memposisikan dan memutar kotak teks.
+## Membuat **bentuk kotak teks**
+Kotak teks adalah wadah yang dapat menampung teks terformat. Anda juga dapat memutarnya untuk tampilan yang dinamis.
 
 ```java
 Document doc = new Document();
@@ -103,11 +97,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Cara mengatur rasio aspek bentuk
-
-### Mengelola Rasio Aspek
-
-Kadang Anda memerlukan bentuk yang meregang tanpa mempertahankan proporsi aslinya. Potongan kode berikut memperlihatkan cara membuka kunci rasio aspek pada bentuk gambar.
+## Mengatur **rasio aspek bentuk**
+Terkadang Anda perlu bentuk yang dapat meregang bebas, kadang Anda ingin mempertahankan proporsi aslinya. Mengontrol rasio aspek sangat mudah.
 
 ```java
 Document doc = new Document();
@@ -119,11 +110,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## Cara menempatkan bentuk di dalam sel tabel
-
-### Menempatkan Bentuk di Dalam Sel Tabel
-
-Berikut contoh langkah demi langkah yang membangun tabel, lalu menyisipkan bentuk watermark yang diposisikan relatif terhadap halaman tetapi juga dapat ditempatkan di dalam sel.
+## Menempatkan **bentuk dalam tabel**
+Menyisipkan bentuk di dalam sel tabel dapat berguna untuk tata letak laporan. Contoh di bawah ini membuat tabel dan kemudian menyisipkan bentuk bergaya watermark yang melintasi seluruh halaman.
 
 ```java
 Document doc = new Document();
@@ -167,11 +155,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
+## Menambahkan **bentuk callout**
+Bentuk callout sangat cocok untuk menyoroti catatan atau peringatan. Walaupun kode di atas sudah menunjukkan `ACCENT_BORDER_CALLOUT_1`, Anda dapat mengganti `ShapeType` ke varian callout lain sesuai desain Anda.
+
 ## Bekerja dengan Bentuk SmartArt
 
 ### Mendeteksi Bentuk SmartArt
-
-Anda dapat secara programatis menemukan objek SmartArt dalam dokumen menggunakan metode `hasSmartArt()`.
+Diagram SmartArt dapat diidentifikasi secara programatis, memungkinkan Anda memproses atau menggantinya sesuai kebutuhan.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -181,8 +171,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
 ### Memperbarui Gambar SmartArt
-
-Setelah menemukan bentuk SmartArt, Anda dapat menyegarkan data gambar internalnya dengan `updateSmartArtDrawing()`.
+Setelah terdeteksi, Anda dapat menyegarkan grafik SmartArt untuk mencerminkan perubahan data apa pun.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -192,31 +181,33 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Kesimpulan
-
-Dalam panduan ini, kami telah membahas cara **membuat kotak teks** objek, mengelompokkan beberapa bentuk, menyesuaikan rasio aspek, menyematkan bentuk di dalam sel tabel, menambahkan watermark, dan bekerja dengan diagram SmartArt menggunakan Aspose.Words untuk Java. Teknik-teknik ini memberi Anda kemampuan untuk membangun dokumen Word yang kaya format, interaktif secara programatik.
+## Masalah Umum & Tips
+- **Bentuk tidak muncul:** Pastikan bentuk disisipkan setelah node target menggunakan `builder.insertNode`.  
+- **Rotasi tidak terduga:** Ingat bahwa rotasi diterapkan di sekitar pusat bentuk; sesuaikan `setLeft`/`setTop` bila diperlukan.  
+- **Rasio aspek terkunci:** Secara default, banyak bentuk mengunci rasio aspeknya; panggil `setAspectRatioLocked(false)` untuk meregang bebas.  
+- **Deteksi SmartArt gagal:** Pastikan Anda menggunakan versi Aspose.Words yang mendukung SmartArt (v24+).
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bisakah saya menggabungkan kotak teks dengan gambar di dalam bentuk yang sama?**  
-A: Ya. Sisipkan gambar ke dalam bentuk kotak teks menggunakan `builder.insertImage()` setelah membuat bentuk, lalu sesuaikan tata letaknya sesuai kebutuhan.
+**T: Apa itu Aspose.Words untuk Java?**  
+J: Aspose.Words untuk Java adalah perpustakaan Java yang memungkinkan pengembang membuat, memodifikasi, dan mengonversi dokumen Word secara programatis. Ia menyediakan berbagai fitur dan alat untuk bekerja dengan dokumen dalam berbagai format.
 
-**Q: Bagaimana cara memastikan watermark muncul di belakang semua konten dokumen?**  
-A: Atur `WrapType` bentuk menjadi `NONE` dan sesuaikan `RelativeHorizontalPosition` serta `RelativeVerticalPosition` menjadi `PAGE`. Ini menempatkan watermark di belakang alur utama.
+**T: Bagaimana cara mengunduh Aspose.Words untuk Java?**  
+J: Anda dapat mengunduh Aspose.Words untuk Java dari situs Aspose dengan mengikuti tautan ini: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: Apakah memungkinkan memberi animasi pada bentuk yang dikelompokkan di Word?**  
-A: Meskipun Aspose.Words dapat membuat dan mengelompokkan bentuk, fitur animasi tidak didukung karena bergantung pada kemampuan UI Word.
+**T: Apa manfaat menggunakan bentuk dokumen?**  
+J: Bentuk dokumen menambahkan elemen visual dan interaktivitas ke dokumen Anda, menjadikannya lebih menarik dan informatif. Dengan bentuk, Anda dapat membuat callout, tombol, gambar, watermark, dan lainnya, meningkatkan pengalaman pengguna secara keseluruhan.
 
-**Q: Versi Aspose.Words berapa yang diperlukan untuk dukungan SmartArt?**  
-A: Deteksi dan pembaruan SmartArt tersedia mulai dari Aspose.Words 20.9 untuk Java dan versi selanjutnya.
+**T: Bisakah saya menyesuaikan tampilan bentuk?**  
+J: Ya, Anda dapat menyesuaikan tampilan bentuk dengan mengatur properti seperti ukuran, posisi, rotasi, dan warna isi. Aspose.Words untuk Java menyediakan opsi yang luas untuk kustomisasi bentuk.
 
-**Q: Apakah perpustakaan ini menangani dokumen besar dengan banyak bentuk secara efisien?**  
-A: Ya. Gunakan `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` atau yang lebih tinggi untuk meningkatkan kinerja pada dokumen dengan banyak bentuk.
+**T: Apakah Aspose.Words untuk Java kompatibel dengan SmartArt?**  
+J: Ya, Aspose.Words untuk Java mendukung bentuk SmartArt, memungkinkan Anda bekerja dengan diagram dan grafik kompleks dalam dokumen Anda.
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-16  
-**Diuji Dengan:** Aspose.Words untuk Java 24.12  
+**Terakhir Diperbarui:** 2025-12-14  
+**Diuji Dengan:** Aspose.Words untuk Java 24.12 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

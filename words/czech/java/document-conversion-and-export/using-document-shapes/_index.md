@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: Naučte se, jak vytvořit textové pole, přidat vodoznakové slovo, seskupit
-  více tvarů, nastavit poměr stran tvaru a umístit tvar do buňky tabulky pomocí Aspose.Words
-  pro Java.
+date: 2025-12-14
+description: Naučte se, jak **vložit obrázkový tvar** pomocí Aspose.Words pro Javu.
+  Tento průvodce vám ukáže, jak přidávat tvary, vytvářet tvary textových polí, umisťovat
+  tvary do tabulek, nastavit poměr stran tvaru a přidávat bublinové tvary.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: Jak vytvořit textové pole a použít tvary dokumentu v Aspose.Words pro Javu
+title: Používání tvarů dokumentu v Aspose.Words pro Javu
 url: /cs/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -16,36 +16,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Používání tvarů dokumentu v Aspose.Words pro Java
+# Jak **vložit tvar obrázku** s Aspose.Words for Java
 
-## Úvod do používání tvarů dokumentu v Aspose.Words pro Java
-
-V tomto komplexním průvodci **se naučíte, jak vytvořit text box** objekty a další výkonné tvary s Aspose.Words pro Java. Tvary vám umožní obohatit Word dokumenty o callouty, tlačítka, vodoznaky, SmartArt a další — čímž je učiníte vizuálně přitažlivými a interaktivními. Provedeme vás reálnými příklady, od vložení jednoduchého text boxu po seskupení více tvarů, nastavení poměru stran a umístění tvarů uvnitř buněk tabulky.
+V tomto komplexním tutoriálu se dozvíte, jak **vložit tvar obrázku** do dokumentů Word pomocí Aspose.Words for Java. Ať už vytváříte zprávy, marketingové materiály nebo interaktivní formuláře, tvary vám umožní přidat popisky, tlačítka, textová pole, vodoznaky a dokonce i SmartArt. Provedeme vás každým krokem, vysvětlíme, proč použít konkrétní tvar, a poskytneme připravené ukázky kódu.
 
 ## Rychlé odpovědi
-- **Jaký je hlavní způsob, jak přidat text box?** Use `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **Mohu seskupit tvary dohromady?** Yes – create a `GroupShape` and append child shapes.
-- **Jak zamknout nebo odemknout poměr stran tvaru?** Call `shape.setAspectRatioLocked(true/false)`.
-- **Je možné přidat vodoznak pomocí tvaru?** Absolutely – insert a `Shape` with `TEXT_PLAIN_TEXT` and set its fill/stroke.
-- **Fungují diagramy SmartArt s Aspose.Words?** Yes – detect with `shape.hasSmartArt()` and update via `shape.updateSmartArtDrawing()`.
+- **Jaký je hlavní způsob přidání tvaru?** Použijte `DocumentBuilder.insertShape` nebo vytvořte instanci `Shape` a přidejte ji do stromu dokumentu.  
+- **Mohu vložit obrázek jako tvar?** Ano – zavolejte `builder.insertImage` a poté zacházejte s vráceným `Shape` jako s jakýmkoli jiným.  
+- **Jak zachovat poměr stran tvaru?** Nastavte `shape.setAspectRatioLocked(true)` nebo `false` podle vašich potřeb.  
+- **Je možné seskupit tvary?** Rozhodně – zabalte je do `GroupShape` a vložte skupinu jako jediný uzel.  
+- **Fungují diagramy SmartArt s Aspose.Words?** Ano, můžete programově detekovat a aktualizovat SmartArt tvary.
 
-## Co je text box a proč vytvářet tvary text boxu?
+## Co je **vložit tvar obrázku**?
+*Obrázkový tvar* je vizuální prvek, který obsahuje rastrovou nebo vektorovou grafiku uvnitř dokumentu Word. V Aspose.Words je obrázek reprezentován objektem `Shape`, který vám poskytuje plnou kontrolu nad velikostí, umístěním, rotací a obtékáním.
 
-Text box je kontejner, který může obsahovat formátovaný text, obrázky nebo jiné tvary. Použití **create text box** ve vaší automatizaci vám umožní umístit plovoucí obsah kdekoli na stránce, ideální pro anotace, callouty nebo dekorativní prvky, aniž byste měnili hlavní tok dokumentu.
+## Proč používat tvary ve vašich dokumentech?
+- **Viz​uální dopad:** Tvary přitahují pozornost k důležitým informacím.  
+- **Interaktivita:** Tlačítka a popisky mohou být propojeny s URL nebo záložkami.  
+- **Flexibilita rozvržení:** Umístěte grafiku přesně pomocí absolutních nebo relativních souřadnic.  
+- **Automatizace:** Generujte složité rozvržení bez ruční úpravy.
 
-## Jak přidat tvar
+## Předpoklady
+- Java Development Kit (JDK 8 nebo vyšší)  
+- Knihovna Aspose.Words for Java (stáhněte z oficiálního webu)  
+- Základní znalost Javy a objektově orientovaného programování  
 
-Než se ponoříme do kódu, ujistěte se, že Aspose.Words pro Java je ve vašem projektu zahrnut. Pokud jste jej ještě nepřidali, stáhněte knihovnu z oficiálního webu:
+Knihovnu můžete stáhnout zde: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Přidávání tvarů do dokumentů
-
-## Jak seskupit více tvarů
-
-`GroupShape` vám umožní zacházet s několika jednotlivými tvary jako s jednou jednotkou — užitečné pro jejich společný přesun nebo otáčení.
-
-### Vkládání GroupShape
+## Jak **přidat tvar** – Vkládání GroupShape
+`GroupShape` vám umožní zacházet s několika tvary jako s jednou jednotkou. To je užitečné pro přesouvání nebo formátování více prvků najednou.
 
 ```java
 Document doc = new Document();
@@ -75,11 +74,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## Jak vytvořit text box (create text box)
-
-### Vkládání tvaru Text Box
-
-Metoda `insertShape` usnadňuje přidání text boxu. Níže uvedený příklad ukazuje dva způsoby, jak umístit a otočit text box.
+## Vytvořit **tvar textového pole**
+Textové pole je kontejner, který může obsahovat formátovaný text. Můžete jej také otočit pro dynamický vzhled.
 
 ```java
 Document doc = new Document();
@@ -100,11 +96,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Jak nastavit poměr stran tvaru
-
-### Správa poměru stran
-
-Někdy potřebujete, aby se tvar roztáhl bez zachování původních proporcí. Následující úryvek ukazuje odemknutí poměru stran obrázkového tvaru.
+## Nastavit **poměr stran tvaru**
+Někdy potřebujete, aby se tvar volně roztahoval, jindy chcete zachovat jeho původní proporce. Ovládání poměru stran je jednoduché.
 
 ```java
 Document doc = new Document();
@@ -116,11 +109,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## Jak umístit tvar do buňky tabulky
-
-### Umístění tvaru uvnitř buňky tabulky
-
-Níže je krok‑za‑krokem příklad, který vytvoří tabulku a poté vloží vodoznakový tvar, který je umístěn relativně k stránce, ale může být také umístěn uvnitř buňky.
+## Umístit **tvar do tabulky**
+Vložení tvaru do buňky tabulky může být užitečné pro rozvržení zpráv. Níže uvedený příklad vytvoří tabulku a poté vloží tvar ve stylu vodoznaku, který přesahuje celou stránku.
 
 ```java
 Document doc = new Document();
@@ -164,11 +154,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
+## Přidat **popiskový tvar**
+Popiskový tvar je ideální pro zvýraznění poznámek nebo varování. Zatímco výše uvedený kód již ukazuje `ACCENT_BORDER_CALLOUT_1`, můžete vyměnit `ShapeType` za libovolnou variantu popisku, která vyhovuje vašemu designu.
+
 ## Práce se SmartArt tvary
 
 ### Detekce SmartArt tvarů
-
-Můžete programově najít objekty SmartArt v dokumentu pomocí metody `hasSmartArt()`.
+Diagramy SmartArt lze programově identifikovat, což vám umožní je zpracovat nebo nahradit podle potřeby.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -178,8 +170,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
 ### Aktualizace SmartArt výkresů
-
-Jakmile lokalizujete SmartArt tvary, můžete obnovit jejich vnitřní výkresová data pomocí `updateSmartArtDrawing()`.
+Po detekci můžete obnovit grafiku SmartArt tak, aby odrážela jakékoli změny dat.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -189,32 +180,34 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Závěr
-
-V tomto průvodci jsme pokryli, jak **create text box** objekty, seskupovat více tvarů, upravovat poměr stran, vkládat tvary do buněk tabulky, přidávat vodoznaky a pracovat s diagramy SmartArt pomocí Aspose.Words pro Java. Tyto techniky vám umožní programově vytvářet bohatě formátované, interaktivní Word dokumenty.
+## Časté problémy a tipy
+- **Tvar se nezobrazuje:** Ujistěte se, že je tvar vložen po cílovém uzlu pomocí `builder.insertNode`.  
+- **Neočekávaná rotace:** Pamatujte, že rotace se aplikuje kolem středu tvaru; v případě potřeby upravte `setLeft`/`setTop`.  
+- **Poměr stran uzamčen:** Ve výchozím nastavení mnoho tvarů uzamkne svůj poměr stran; zavolejte `setAspectRatioLocked(false)`, abyste je mohli volně roztáhnout.  
+- **Detekce SmartArt selže:** Ověřte, že používáte verzi Aspose.Words, která podporuje SmartArt (v24+).
 
 ## Často kladené otázky
 
-**Q: Mohu kombinovat text box s obrázkem uvnitř stejného tvaru?**  
-A: Ano. Vložte obrázek do text boxu pomocí `builder.insertImage()` po vytvoření tvaru a poté upravte jeho rozložení podle potřeby.
+**Q: Co je Aspose.Words for Java?**  
+A: Aspose.Words for Java je Java knihovna, která vývojářům umožňuje programově vytvářet, upravovat a konvertovat Word dokumenty. Poskytuje širokou škálu funkcí a nástrojů pro práci s dokumenty v různých formátech.
 
-**Q: Jak zajistím, aby se vodoznak zobrazoval za veškerým obsahem dokumentu?**  
-A: Nastavte tvaru `WrapType` na `NONE` a upravte jeho `RelativeHorizontalPosition` a `RelativeVerticalPosition` na `PAGE`. Tím se vodoznak umístí za hlavní tok.
+**Q: Jak mohu stáhnout Aspose.Words for Java?**  
+A: Aspose.Words for Java můžete stáhnout z webu Aspose pomocí tohoto odkazu: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: Je možné animovat seskupený tvar ve Wordu?**  
-A: Přestože Aspose.Words může vytvářet a seskupovat tvary, animační funkce nejsou podporovány, protože závisí na UI možnostech Wordu.
+**Q: Jaké jsou výhody používání tvarů v dokumentech?**  
+A: Tvary v dokumentech přidávají vizuální prvky a interaktivitu, což je činí poutavějšími a informativnějšími. Pomocí tvarů můžete vytvářet popisky, tlačítka, obrázky, vodoznaky a další, čímž zlepšujete celkový uživatelský zážitek.
 
-**Q: Jaká verze Aspose.Words je vyžadována pro podporu SmartArt?**  
-A: Detekce a aktualizace SmartArt jsou k dispozici od Aspose.Words 20.9 pro Java a novějších.
+**Q: Mohu přizpůsobit vzhled tvarů?**  
+A: Ano, vzhled tvarů můžete přizpůsobit úpravou jejich vlastností, jako jsou velikost, umístění, rotace a barva výplně. Aspose.Words for Java poskytuje rozsáhlé možnosti pro přizpůsobení tvarů.
 
-**Q: Zvládá knihovna efektivně velké dokumenty s mnoha tvary?**  
-A: Ano. Použijte `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` nebo vyšší pro zlepšení výkonu u dokumentů s mnoha tvary.
+**Q: Je Aspose.Words for Java kompatibilní se SmartArt?**  
+A: Ano, Aspose.Words for Java podporuje SmartArt tvary, což vám umožní pracovat s komplexními diagramy a grafikou ve vašich dokumentech.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
+**Poslední aktualizace:** 2025-12-14  
+**Testováno s:** Aspose.Words for Java 24.12 (nejnovější)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

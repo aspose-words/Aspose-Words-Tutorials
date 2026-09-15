@@ -4,7 +4,9 @@
 "url": "/vi/python-net/document-properties-metadata/"
 "weight": 9
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Thuộc tính tài liệu & Hướng dẫn siêu dữ liệu cho Aspose.Words Python-net
 
 Khám phá hướng dẫn từng bước toàn diện về thuộc tính tài liệu & hoạt động siêu dữ liệu bằng Aspose.Words cho Python-net. Các hướng dẫn này bao gồm các ví dụ mã hoàn chỉnh và giải thích chi tiết.
@@ -40,3 +42,7 @@ Tìm hiểu cách quản lý và tối ưu hóa các trường thông tin ngư�
 - [Diễn đàn Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

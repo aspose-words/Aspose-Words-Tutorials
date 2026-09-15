@@ -1,10 +1,12 @@
 ---
-"description": "تعلّم كيفية تحميل وحفظ مستندات HTML في جافا باستخدام Aspose.Words for Java. دليل خطوة بخطوة مع أمثلة برمجية لدمج المستندات بسلاسة."
-"linktitle": "تحميل وحفظ مستندات HTML"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "تحميل وحفظ مستندات HTML"
-"url": "/ar/java/document-loading-and-saving/loading-and-saving-html-documents/"
-"weight": 10
+date: 2025-12-20
+description: تعلم كيفية تحميل HTML وتحويل HTML إلى DOCX باستخدام Aspose.Words للغة
+  Java. يوضح الدليل خطوة بخطوة كيفية حفظ ملفات DOCX واستخدام علامات المستند المهيكلة.
+linktitle: Loading and Saving HTML Documents
+second_title: Aspose.Words Java Document Processing API
+title: كيفية تحميل HTML وحفظه كملف DOCX باستخدام Aspose.Words للـ Java
+url: /ar/java/document-loading-and-saving/loading-and-saving-html-documents/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +15,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحميل وحفظ مستندات HTML
+# كيفية تحميل HTML وحفظه كملف DOCX باستخدام Aspose.Words for Java
 
+## مقدمة حول تحميل وحفظ مستندات HTML باستخدام Aspose.Words for Java
 
-## مقدمة لتحميل وحفظ مستندات HTML باستخدام Aspose.Words لـ Java
+في هذه المقالة، سنستكشف **كيفية تحميل HTML** وحفظه كملف DOCX باستخدام مكتبة Aspose.Words for Java. Aspose.Words هي API قوية تتيح لك معالجة مستندات Word برمجيًا، وتضم دعمًا قويًا لاستيراد/تصدير HTML. سنستعرض العملية بالكامل، من إعداد خيارات التحميل إلى حفظ النتيجة كمستند Word.
 
-في هذه المقالة، سنستكشف كيفية تحميل مستندات HTML وحفظها باستخدام مكتبة Aspose.Words لجافا. Aspose.Words هي واجهة برمجة تطبيقات Java فعّالة تتيح لك العمل مع مستندات Word، وتوفر ميزات متنوعة للتعامل مع تنسيقات المستندات المختلفة، بما في ذلك HTML. سنشرح لك العملية خطوة بخطوة، مع أمثلة من الكود المصدري.
+## إجابات سريعة
+- **ما هو الصنف الأساسي لتحميل HTML؟** `Document` مع `HtmlLoadOptions`.
+- **أي خيار يفعّل Structured Document Tags؟** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
+- **هل يمكنني تحويل HTML إلى DOCX في خطوة واحدة؟** نعم – قم بتحميل HTML واستدعِ `doc.save(...".docx")`.
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج.
+- **ما نسخة Java المطلوبة؟** Java 8 أو أعلى مدعومة.
 
-## المتطلبات الأساسية
+## ما هو “كيفية تحميل HTML” في سياق Aspose.Words؟
 
-قبل أن نتعمق في الكود، تأكد من أن لديك المتطلبات الأساسية التالية:
+تحميل HTML يعني قراءة سلسلة أو ملف HTML وتحويله إلى كائن `Document` من Aspose.Words. يمكن بعد ذلك تعديل هذا الكائن أو تنسيقه أو حفظه بأي تنسيق يدعمه الـ API، مثل DOCX أو PDF أو RTF.
 
-1. مكتبة Aspose.Words لجافا: يجب أن تكون مكتبة Aspose.Words لجافا مثبتة لديك. إذا لم تكن مثبتة لديك، يمكنك تنزيلها من [هنا](https://releases.aspose.com/words/java/).
+## لماذا نستخدم Aspose.Words لتحويل HTML إلى DOCX؟
 
-2. بيئة تطوير Java: تأكد من تثبيت Java على نظامك.
+- **يحافظ على التخطيط** – الجداول والقوائم والصور تبقى كما هي.
+- **يدعم Structured Document Tags** – مثالي لإنشاء عناصر تحكم المحتوى في Word.
+- **لا يتطلب Microsoft Office** – يعمل على أي خادم أو بيئة سحابية.
+- **أداء عالي** – يعالج ملفات HTML الكبيرة بسرعة.
 
-## تحميل مستندات HTML
+## المتطلبات المسبقة
 
-لنبدأ بتحميل مستند HTML إلى مستند Word باستخدام Aspose.Words. سنستخدم مقطع HTML التالي كمثال:
+1. **مكتبة Aspose.Words for Java** – قم بتنزيلها من [here](https://releases.aspose.com/words/java/).
+2. **بيئة تطوير Java** – JDK 8+ مثبتة ومُكوَّنة.
+3. **إلمام أساسي بـ Java I/O** – سنستخدم `ByteArrayInputStream` لتغذية سلسلة HTML.
+
+## كيفية تحميل مستندات HTML
+
+فيما يلي مثال مختصر يوضح تحميل مقطع HTML مع تفعيل ميزة **structured document tag**.
 
 ```java
 final String HTML = "\r\n
@@ -49,19 +66,25 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-في هذا الكود، نقوم بإنشاء سلسلة HTML واستخدامها `HtmlLoadOptions` لتحديد أننا نريد التعامل مع HTML كمستند منظم. ثم نقوم بتحميل محتوى HTML إلى `Document` هدف.
+**شرح**
 
-## الحفظ كمستند Word
+- نقوم بإنشاء سلسلة `HTML` تحتوي على عنصر تحكم `<select>` بسيط.
+- `HtmlLoadOptions` يتيح لنا تحديد كيفية تفسير HTML. ضبط نوع التحكم المفضَّل إلى `STRUCTURED_DOCUMENT_TAG` يُخبر Aspose.Words بتحويل عناصر تحكم النماذج في HTML إلى عناصر تحكم محتوى في Word.
+- مُنشئ `Document` يقرأ HTML من `ByteArrayInputStream` باستخدام ترميز UTF‑8.
 
-الآن بعد أن قمنا بتحميل HTML إلى `Document`يمكننا حفظه كملف وورد. لنحفظه بصيغة DOCX:
+## كيفية الحفظ كملف DOCX (تحويل HTML إلى DOCX)
+
+بعد تحميل HTML إلى كائن `Document`، يصبح حفظه كملف DOCX أمرًا بسيطًا:
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-هذا الكود يحفظ `Document` كملف DOCX، وهو تنسيق شائع لمستندات Word.
+استبدل `"Your Directory Path"` بالمجلد الفعلي الذي تريد ظهور ملف الإخراج فيه.
 
-## كود المصدر الكامل لتحميل وحفظ مستندات HTML باستخدام Aspose.Words لـ Java
+## الكود الكامل لتحميل وحفظ مستندات HTML
+
+فيما يلي المثال الكامل الجاهز للتنفيذ والذي يجمع بين خطوات التحميل والحفظ. لا تتردد في نسخه ولصقه في بيئة التطوير المتكاملة الخاصة بك.
 
 ```java
 final String HTML = "\r\n
@@ -79,39 +102,47 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## خاتمة
+## الأخطاء الشائعة والنصائح
 
-في هذه المقالة، تعلمنا كيفية تحميل وحفظ مستندات HTML باستخدام Aspose.Words لجافا. توفر هذه المكتبة طريقة سهلة للتعامل مع تنسيقات مستندات متنوعة، مما يجعلها أداة قيّمة لمعالجة المستندات في تطبيقات جافا.
+| المشكلة | لماذا يحدث | كيفية الإصلاح |
+|-------|----------------|------------|
+| **خطوط مفقودة** | HTML يشير إلى خطوط غير مثبتة على الخادم. | دمج الخطوط في DOCX باستخدام `FontSettings` أو التأكد من توفر الخطوط المطلوبة. |
+| **الصور غير معروضة** | لا يمكن حل مسارات الصور النسبية. | استخدم عناوين URL مطلقة أو حمّل الصور إلى `MemoryStream` واضبط `HtmlLoadOptions.setImageSavingCallback`. |
+| **نوع التحكم غير محوَّل** | `setPreferredControlType` غير مضبوطة أو مضبوطة على enum غير صحيح. | تحقق من أنك تستخدم `HtmlControlType.STRUCTURED_DOCUMENT_TAG`. |
+| **مشكلات الترميز** | سلسلة HTML مشفرة بترميز مختلف. | استخدم دائمًا `StandardCharsets.UTF_8` عند تحويل السلسلة إلى بايتات. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### كيف أقوم بتثبيت Aspose.Words لـ Java؟
+### كيف أقوم بتثبيت Aspose.Words for Java؟
 
-يمكن تنزيل Aspose.Words for Java من [هنا](https://releases.aspose.com/words/java/)اتبع تعليمات التثبيت المقدمة على موقع الويب لإعداده في مشروع Java الخاص بك.
+يمكن تنزيل Aspose.Words for Java من [here](https://releases.aspose.com/words/java/). اتبع دليل التثبيت على صفحة التحميل لإضافة ملفات JAR إلى مسار الفئة (classpath) في مشروعك.
 
 ### هل يمكنني تحميل مستندات HTML معقدة باستخدام Aspose.Words؟
 
-نعم، Aspose.Words for Java قادر على التعامل مع مستندات HTML المعقدة. يمكنك تخصيص خيارات التحميل لتلبية احتياجاتك الخاصة.
+نعم، يمكن لـ Aspose.Words for Java معالجة HTML معقد، بما في ذلك الجداول المتداخلة، وتنسيق CSS، والعناصر التفاعلية الخالية من JavaScript. اضبط `HtmlLoadOptions` (مثل `setLoadImages` أو `setCssStyleSheetFileName`) لتحسين عملية الاستيراد.
 
-### ما هي تنسيقات المستندات الأخرى التي يدعمها Aspose.Words؟
+### ما هي صيغ المستندات الأخرى التي يدعمها Aspose.Words؟
 
-يدعم Aspose.Words مجموعة واسعة من تنسيقات المستندات، بما في ذلك DOC وDOCX وRTF وHTML وPDF وغيرها. كما يوفر إمكانيات شاملة لمعالجة المستندات لتطبيقات Java.
+يدعم Aspose.Words الصيغ DOC و DOCX و RTF و HTML و PDF و EPUB و XPS والعديد غيرها. يتيح الـ API حفظًا بسطر واحد إلى أي من هذه الصيغ.
 
-### هل يعد Aspose.Words مناسبًا لمعالجة المستندات على مستوى المؤسسة؟
+### هل Aspose.Words مناسب لأتمتة المستندات على مستوى المؤسسات؟
 
-بالتأكيد! Aspose.Words حلٌّ فعّالٌ تستخدمه الشركات حول العالم لأتمتة المستندات وإعداد التقارير وإنشاء المستندات. يُقدّم ميزاتٍ شاملةً لإدارة المستندات في التطبيقات واسعة النطاق.
+بالتأكيد. يستخدمه كبار المؤسسات لتوليد التقارير تلقائيًا، وتحويل المستندات بالجملة، ومعالجة المستندات على الخادم دون الاعتماد على Microsoft Office.
 
 ### أين يمكنني العثور على مزيد من الوثائق والأمثلة لـ Aspose.Words for Java؟
 
-يمكنك العثور على وثائق مفصلة وأمثلة التعليمات البرمجية والبرامج التعليمية على موقع الويب الخاص بوثائق Aspose.Words for Java: [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/).
+يمكنك استكشاف مرجع الـ API الكامل ومزيد من الدروس على موقع وثائق Aspose.Words for Java: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

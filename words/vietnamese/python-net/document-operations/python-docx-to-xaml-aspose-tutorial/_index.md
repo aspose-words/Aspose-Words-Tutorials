@@ -5,7 +5,9 @@
 "url": "/vi/python-net/document-operations/python-docx-to-xaml-aspose-tutorial/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Chuyển đổi DOCX sang XAML dạng cố định trong Python bằng Aspose.Words: Hướng dẫn toàn diện
 
 ## Giới thiệu
@@ -156,3 +158,7 @@ Chúng tôi đã khám phá cách chuyển đổi các tệp Word (DOCX) sang XA
 - [Truy cập dùng thử miễn phí](https://releases.aspose.com/words/python/)
 - [Đơn xin cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

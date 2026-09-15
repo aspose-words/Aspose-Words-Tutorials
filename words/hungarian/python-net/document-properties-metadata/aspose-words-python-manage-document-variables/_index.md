@@ -5,7 +5,9 @@
 "url": "/hu/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Dokumentumváltozók kezelése az Aspose.Words segítségével Pythonban: Teljes körű útmutató
 
 ## Bevezetés
@@ -161,3 +163,7 @@ Miért ne próbálnád ki még ma ezeket a megoldásokat, és tapasztalnád meg 
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
 
 Böngészd át ezeket az anyagokat, hogy jobban megértsd és megvalósítsd az Aspose.Words Pythonban való használatát. Jó kódolást!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

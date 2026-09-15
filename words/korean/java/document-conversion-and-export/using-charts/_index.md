@@ -1,10 +1,10 @@
 ---
-date: 2026-02-16
-description: Aspose.Words for Java에서 차트에 여러 시리즈를 추가하고, 축 눈금 표시를 변경하며, 사용자 지정 숫자 형식을
-  적용하고, 선형 및 열 차트가 포함된 차트 Word 문서를 생성하는 방법을 배웁니다.
+date: 2025-12-13
+description: Aspose.Words for Java를 사용하여 열 차트를 만들고 차트 데이터 레이블을 서식 지정하는 방법을 배웁니다. 여러
+  시리즈 추가, 축 유형 변경 및 차트 축 숨기기를 탐색합니다.
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Aspose.Words for Java에서 차트에 여러 시리즈 추가
+title: Aspose.Words for Java를 사용하여 열 차트 만드는 방법
 url: /ko/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -15,37 +15,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java에서 차트에 여러 시리즈 추가하기
+# Aspose.Words for Java를 사용하여 열 차트 만들기
 
-## Aspose.Words for Java에서 차트 사용 소개
-
-이 튜토리얼에서는 Aspose.Words for Java를 사용하여 **여러 시리즈를 차트에 추가하는 방법**, 축 눈금 표시를 사용자 지정하고 사용자 정의 숫자 형식을 적용하는 이유, 그리고 차트가 풍부한 Word 문서를 생성하는 방법을 배웁니다. 재무 데이터에 대한 라인 차트이든, 판매 실적에 대한 컬럼 차트이든, 아래 단계들을 따라 프로그래밍 방식으로 차트를 만들고, 스타일을 지정하며, 미세 조정할 수 있습니다.
+이 튜토리얼에서는 Aspose.Words for Java를 사용해 Word 문서 안에 **열 차트** 시각화를 직접 생성합니다. 다양한 차트 유형 만들기, 여러 시리즈 추가, 차트 데이터 레이블 서식 지정, 축 유형 변경, 필요에 따라 차트 축을 숨겨 깔끔하게 보이게 하는 방법을 단계별로 안내합니다. 마지막까지 따라하면 문서에 풍부한 차트를 삽입할 수 있는 실무 수준의 방법을 익히게 됩니다.
 
 ## 빠른 답변
-- **여러 시리즈를 어떻게 추가하나요?** 표시하려는 각 시리즈마다 `chart.getSeries().add(...)`를 사용합니다.  
-- **축 눈금 표시를 변경할 수 있나요?** 예 – 축 객체에서 `setMajorTickMark()`와 `setMinorTickMark()`를 사용합니다.  
-- **데이터 레이블에 어떤 형식을 적용할 수 있나요?** Excel과 호환되는 모든 숫자 형식, 예: `"$"#,##0.00` 또는 `0.00%`.  
-- **지원되는 차트 유형은 무엇인가요?** 라인, 컬럼, 영역, 버블, 스캐터 등 `ChartType`을 통해 다양한 차트를 지원합니다.  
-- **프로덕션에서 라이선스가 필요한가요?** 전체 기능을 사용하려면 유효한 Aspose.Words for Java 라이선스가 필요합니다.
+- **차트를 만들기 위한 기본 클래스는?** `DocumentBuilder`와 `insertChart`.
+- **새 시리즈를 추가하는 메서드는?** `chart.getSeries().add(...)`.
+- **차트 데이터 레이블을 어떻게 서식 지정하나요?** `getDataLabels().get(...).getNumberFormat().setFormatCode(...)` 사용.
+- **축을 숨길 수 있나요?** 네, 축 객체에 `setHidden(true)`를 호출하면 됩니다.
+- **Aspose.Words에 라이선스가 필요합니까?** 프로덕션 사용 시 라이선스가 필요하며, 무료 체험판을 제공하고 있습니다.
 
-## 차트에서 “여러 시리즈 추가”란 무엇인가요?
-여러 시리즈를 추가한다는 것은 동일한 차트 영역에 두 개 이상의 데이터 집합을 삽입하여 서로 다른 카테고리나 기간을 나란히 비교할 수 있게 하는 것입니다. 각 시리즈는 자체 라인, 컬럼 또는 마커 집합으로 표시되어 독자에게 보다 풍부한 시각적 스토리를 제공합니다.
+## 열 차트란 무엇이며 왜 사용하나요?
 
-## Aspose.Words for Java로 차트 Word 문서를 생성하는 이유
-- **전체 제어**: Word를 직접 열지 않고도 차트 유형, 레이아웃, 스타일을 완벽히 제어합니다.  
-- **프로그래밍 방식 생성**: 자동 보고 파이프라인에 쉽게 통합됩니다.  
-- **크로스‑플랫폼**: Java가 지원되는 모든 환경에서 동작합니다.  
-- **풍부한 API**: 축, 데이터 레이블, 숫자 형식 등을 자유롭게 커스터마이징할 수 있습니다.
+열 차트는 범주형 데이터를 수직 막대로 표시하여 그룹 간 값을 비교하기에 적합합니다(예: 지역별 매출, 월별 지출 등). Java 애플리케이션에서 Aspose.Words를 사용해 열 차트를 생성하면 Excel이나 외부 도구 없이도 Word / DOCX 파일에 직접 시각화를 삽입할 수 있습니다.
 
-## 사전 요구 사항
-- Java Development Kit (JDK) 8 이상.  
-- 프로젝트에 추가된 Aspose.Words for Java 라이브러리 (Maven/Gradle 또는 JAR).  
-- 프로덕션용 유효한 Aspose 라이선스 (평가용은 선택 사항).
+## 열 차트 만들기
 
-## 단계별 가이드
+아래는 간단한 열 차트를 생성하는 예제입니다. 원본 코드와 동일하며 이해를 돕기 위해 설명 주석만 추가했습니다.
 
-### 단계 1: 라인 차트를 만들고 **여러 시리즈 추가**
-아래 코드는 라인 차트를 생성하고 기본 시리즈를 제거한 뒤, 사용자 정의 데이터 레이블이 있는 세 개의 서로 다른 시리즈를 추가하는 핵심 코드입니다.
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### 여러 시리즈 추가
+
+`chart.getSeries().add(...)`를 반복 호출하면 **여러 시리즈**를 열 차트에 추가할 수 있습니다. 각 시리즈는 자체 카테고리와 값을 가질 수 있어 여러 데이터 세트를 나란히 비교할 수 있습니다.
+
+## 사용자 지정 데이터 레이블이 있는 선 차트 만들기
+
+열 차트 대신 선 차트가 필요하다면 동일한 패턴을 적용하면 됩니다. 이 예제는 **차트 데이터 레이블 서식 지정**을 다양한 숫자 형식으로 적용하는 방법도 보여줍니다.
 
 ```java
 Document doc = new Document();
@@ -74,30 +86,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **팁:** `chart.getSeries().add(...)`를 필요에 따라 여러 번 호출하면 **여러 시리즈**를 추가할 수 있습니다 – 각 호출은 동일 차트에 새로운 라인(또는 컬럼 등)을 생성합니다.
+### 데이터 레이블 추가
 
-### 단계 2: **컬럼 차트 만들기** (create column chart java)
-다음 스니펫은 간단한 컬럼 차트를 삽입하는 방법을 보여줍니다. 이는 카테고리를 나란히 비교할 때 유용합니다.
+`series1.hasDataLabels(true)` 호출은 시리즈에 **데이터 레이블**을 추가하고, `setShowValue(true)`는 차트에 실제 값을 표시합니다.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## 축 유형 변경 및 축 속성 사용자 지정
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### 단계 3: **축 눈금 표시 변경** (change axis tick marks)
-X축과 Y축을 커스터마이징하면 가독성이 향상됩니다. 아래 코드는 눈금 표시를 변경하고, 순서를 반전시키며, 사용자 정의 교차점을 설정하는 방법을 보여줍니다.
+축 유형을 변경(예: 날짜 축에서 범주 축으로)하면 데이터 포인트가 표시되는 방식을 제어할 수 있습니다. 또한 **차트 축 숨기기**를 통해 미니멀리즘 디자인을 구현하는 방법도 포함되어 있습니다.
 
 ```java
 Document doc = new Document();
@@ -119,6 +114,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -129,8 +127,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### 단계 4: **사용자 정의 숫자 형식 적용** (apply custom number format)
-Excel에서 지원하는 모든 패턴으로 축 숫자나 데이터 레이블을 포맷할 수 있습니다. 아래 예시는 Y축을 천 단위 구분 기호 패턴으로 포맷하는 간결한 예시입니다.
+### 축 유형 변경
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **축 유형**을 날짜 기반 축에서 범주형 축으로 바꾸어 레이블 배치를 자유롭게 제어할 수 있습니다.
+
+## 차트 데이터 레이블 서식 지정(숫자 형식)
+
+축이나 데이터 레이블에 직접 숫자 서식을 적용할 수 있습니다. 이 예제는 Y축 숫자를 천 단위 구분 기호가 포함된 형식으로 포맷합니다.
 
 ```java
 Document doc = new Document();
@@ -145,41 +148,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### 단계 5: 최종 Word 문서 생성 (generate chart word document)
-시리즈, 축, 레이블 구성을 마친 후 위 스니펫에 표시된 대로 `doc.save(...)`를 호출하면 됩니다. 생성된 `.docx` 파일에는 완전한 기능을 갖춘 차트가 포함되어 있어 Microsoft Word에서 열고 편집할 수 있습니다.
+## 추가 차트 사용자 지정
 
-## 일반적인 사용 사례
-- **재무 대시보드** – 매출, 비용, 이익을 나타내는 라인 차트에 여러 시리즈 사용.  
-- **판매 보고서** – 지역별 분기 매출을 비교하는 컬럼 차트.  
-- **프로젝트 추적** – 시간 경과에 따른 진행 상황을 시각화하는 영역 또는 스캐터 차트.  
-
-## 추가 차트 커스터마이징
-기본 기능 외에도 범위 조정, 축 숨기기(`axis.setHidden(true)`), 색상 변경, 레전드 추가 등 다양한 옵션을 사용할 수 있습니다. 전체 옵션 목록은 Aspose.Words for Java API 레퍼런스를 참고하세요.
-
-## 결론
-이 가이드에서는 차트에 **여러 시리즈를 추가**하고, 라인 및 컬럼 차트를 만들며, **축 눈금 표시를 변경**하고, **사용자 정의 숫자 형식을 적용**한 뒤, **차트가 풍부한 Word 문서를 생성**하는 방법을 다루었습니다. Aspose.Words for Java를 사용하면 코드‑우선 방식으로 전문적인 데이터 시각화를 문서에 직접 삽입할 수 있는 강력한 도구를 제공합니다.
+기본 기능 외에도 차트 경계 조정, 레이블 간 간격 단위 설정, 특정 축 숨기기 등 다양한 옵션을 활용할 수 있습니다. 전체 속성 목록은 Aspose.Words for Java API 문서를 참고하세요.
 
 ## 자주 묻는 질문
 
 **Q: 차트에 여러 시리즈를 어떻게 추가하나요?**  
-A: 표시하려는 각 시리즈마다 `chart.getSeries().add()`를 호출합니다. 각 호출은 자체 라인, 컬럼 또는 마커 그룹으로 표시되는 새로운 데이터 집합을 생성합니다.
+A: 표시하려는 각 시리즈마다 `chart.getSeries().add()`를 사용합니다. 각 호출에 고유한 이름, 카테고리 배열, 값 배열을 전달할 수 있습니다.
 
-**Q: 데이터 레이블에 사용자 정의 숫자 형식을 어떻게 적용하나요?**  
-A: 시리즈의 `DataLabels` 객체에 접근한 뒤 `getNumberFormat().setFormatCode("your pattern")`를 사용합니다. `isLinkedToSource(true)`를 통해 소스 셀에 형식을 연결할 수도 있습니다.
+**Q: 사용자 지정 숫자 형식으로 차트 데이터 레이블을 어떻게 서식 지정하나요?**  
+A: 시리즈의 `DataLabels` 객체에 접근한 뒤 `getNumberFormat().setFormatCode("your format")`을 호출합니다. `isLinkedToSource(true)`를 사용해 형식을 원본 셀에 연결할 수도 있습니다.
 
-**Q: 축 눈금 표시를 어떻게 변경하나요?**  
-A: `ChartAxis`에서 `setMajorTickMark()`와 `setMinorTickMark()`를 사용합니다. 옵션에는 `CROSS`, `INSIDE`, `OUTSIDE`, `NONE` 등이 있습니다.
+**Q: 차트 축을 숨기려면 어떻게 하나요?**  
+A: 숨기려는 `ChartAxis`에 `setHidden(true)`를 호출합니다(예: `chart.getAxisY().setHidden(true)`).
 
-**Q: 스캐터 차트나 영역 차트와 같은 다른 차트 유형을 만들 수 있나요?**  
-A: 예 – `builder.insertChart(...)` 호출 시 원하는 `ChartType`(예: `ChartType.SCATTER`, `ChartType.AREA`)을 지정하면 됩니다.
+**Q: 축 유형을 가장 효율적으로 변경하는 방법은?**  
+A: 범주형 축은 `setCategoryType(AxisCategoryType.CATEGORY)`, 날짜 축은 `AxisCategoryType.DATE`를 사용합니다.
 
-**Q: 필요 없는 축을 숨기려면 어떻게 하나요?**  
-A: 숨기려는 `ChartAxis`에 대해 `axis.setHidden(true)`를 호출합니다.
+**Q: 시리즈에 데이터 레이블을 추가하려면?**  
+A: `series.hasDataLabels(true)`로 활성화한 뒤 `series.getDataLabels().setShowValue(true)`로 표시 여부를 설정합니다.
+
+## 결론
+
+Aspose.Words for Java를 사용해 **열 차트** 시각화를 만드는 모든 과정을 살펴보았습니다. 기본 차트 삽입, 여러 시리즈 추가, 차트 데이터 레이블 서식 지정, 축 유형 변경, 차트 축 숨기기 등을 통해 깔끔하고 전문적인 데이터 기반 Word 문서를 만들 수 있습니다. 이러한 기술을 보고서나 문서 자동 생성 파이프라인에 적용해 보세요.
 
 ---
 
-**마지막 업데이트:** 2026-02-16  
-**테스트 환경:** Aspose.Words for Java 24.11  
+**마지막 업데이트:** 2025-12-13  
+**테스트 환경:** Aspose.Words for Java 24.12 (최신)  
 **작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

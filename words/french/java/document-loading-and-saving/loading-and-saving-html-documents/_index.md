@@ -1,10 +1,14 @@
 ---
-"description": "Apprenez à charger et enregistrer des documents HTML en Java avec Aspose.Words pour Java. Guide étape par étape avec exemples de code pour une intégration fluide des documents."
-"linktitle": "Chargement et enregistrement de documents HTML"
-"second_title": "API de traitement de documents Java Aspose.Words"
-"title": "Chargement et enregistrement de documents HTML"
-"url": "/fr/java/document-loading-and-saving/loading-and-saving-html-documents/"
-"weight": 10
+date: 2025-12-20
+description: Apprenez à charger du HTML et à convertir du HTML en DOCX avec Aspose.Words
+  pour Java. Le guide étape par étape montre comment enregistrer des fichiers DOCX
+  et utiliser les balises de document structurées.
+linktitle: Loading and Saving HTML Documents
+second_title: Aspose.Words Java Document Processing API
+title: Comment charger du HTML et l’enregistrer au format DOCX avec Aspose.Words pour
+  Java
+url: /fr/java/document-loading-and-saving/loading-and-saving-html-documents/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +17,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chargement et enregistrement de documents HTML
+# Comment charger du HTML et l’enregistrer en DOCX avec Aspose.Words for Java
 
+## Introduction au chargement et à l’enregistrement de documents HTML avec Aspose.Words for Java
 
-## Introduction au chargement et à l'enregistrement de documents HTML avec Aspose.Words pour Java
+Dans cet article, nous allons explorer **comment charger du html** et l’enregistrer sous forme de fichier DOCX en utilisant la bibliothèque Aspose.Words for Java. Aspose.Words est une API puissante qui vous permet de manipuler des documents Word de façon programmatique, et elle inclut une prise en charge robuste de l’import/export HTML. Nous parcourrons l’ensemble du processus, depuis la configuration des options de chargement jusqu’à la persistance du résultat en tant que document Word.
 
-Dans cet article, nous allons découvrir comment charger et enregistrer des documents HTML à l'aide de la bibliothèque Aspose.Words pour Java. Aspose.Words est une puissante API Java qui vous permet de travailler avec des documents Word et offre diverses fonctionnalités pour gérer différents formats de documents, dont le HTML. Nous vous guiderons pas à pas, avec des exemples de code source.
+## Réponses rapides
+- **Quelle est la classe principale pour charger du HTML ?** `Document` avec `HtmlLoadOptions`.
+- **Quelle option active les Structured Document Tags ?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
+- **Puis‑je convertir du HTML en DOCX en une seule étape ?** Oui – chargez le HTML et appelez `doc.save(...".docx")`.
+- **Ai‑je besoin d’une licence pour le développement ?** Une version d’essai gratuite suffit pour les tests ; une licence commerciale est requise en production.
+- **Quelle version de Java est requise ?** Java 8 ou supérieur est supporté.
+
+## Qu’est‑ce que « how to load html » dans le contexte d’Aspose.Words ?
+Charger du HTML signifie lire une chaîne ou un fichier HTML et le convertir en un objet `Document` d’Aspose.Words. Cet objet peut ensuite être édité, formaté ou enregistré dans n’importe quel format supporté par l’API, tel que DOCX, PDF ou RTF.
+
+## Pourquoi utiliser Aspose.Words pour la conversion HTML‑vers‑DOCX ?
+- **Préserve la mise en page** – les tableaux, listes et images restent intacts.
+- **Prise en charge des Structured Document Tags** – idéal pour créer des contrôles de contenu dans Word.
+- **Pas besoin de Microsoft Office** – fonctionne sur n’importe quel serveur ou environnement cloud.
+- **Haute performance** – traite rapidement de gros fichiers HTML.
 
 ## Prérequis
 
-Avant de plonger dans le code, assurez-vous que les prérequis suivants sont en place :
+1. **Bibliothèque Aspose.Words for Java** – téléchargez‑la depuis [here](https://releases.aspose.com/words/java/).
+2. **Environnement de développement Java** – JDK 8+ installé et configuré.
+3. **Familiarité de base avec Java I/O** – nous utiliserons `ByteArrayInputStream` pour fournir la chaîne HTML.
 
-1. Bibliothèque Aspose.Words pour Java : La bibliothèque Aspose.Words pour Java doit être installée. Si ce n'est pas déjà fait, vous pouvez la télécharger depuis [ici](https://releases.aspose.com/words/java/).
+## Comment charger des documents HTML
 
-2. Environnement de développement Java : assurez-vous que Java est installé sur votre système.
-
-## Chargement de documents HTML
-
-Commençons par charger un document HTML dans un document Word avec Aspose.Words. Prenons l'exemple de l'extrait HTML suivant :
+Voici un exemple concis qui montre comment charger un extrait HTML tout en activant la fonctionnalité **structured document tag**.
 
 ```java
 final String HTML = "\r\n
@@ -49,19 +66,25 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-Dans ce code, nous créons une chaîne HTML et utilisons `HtmlLoadOptions` pour spécifier que nous souhaitons traiter le code HTML comme un document structuré. Nous chargeons ensuite le contenu HTML dans un `Document` objet.
+**Explication**
 
-## Enregistrer en tant que document Word
+- Nous créons une chaîne `HTML` contenant un simple contrôle `<select>`.
+- `HtmlLoadOptions` nous permet de spécifier comment le HTML doit être interprété. Définir le type de contrôle préféré sur `STRUCTURED_DOCUMENT_TAG` indique à Aspose.Words de convertir les contrôles de formulaire HTML en contrôles de contenu Word.
+- Le constructeur `Document` lit le HTML depuis un `ByteArrayInputStream` en utilisant l’encodage UTF‑8.
 
-Maintenant que nous avons chargé le HTML dans un `Document`Nous pouvons l'enregistrer au format Word. Sauvegardez-le au format DOCX :
+## Comment enregistrer en DOCX (Convertir HTML en DOCX)
+
+Une fois le HTML chargé dans un `Document`, l’enregistrement en fichier DOCX est simple :
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-Ce code enregistre le `Document` sous forme de fichier DOCX, qui est un format courant pour les documents Word.
+Remplacez `"Your Directory Path"` par le dossier réel où vous souhaitez que le fichier de sortie apparaisse.
 
-## Code source complet pour le chargement et l'enregistrement de documents HTML avec Aspose.Words pour Java
+## Code source complet pour charger et enregistrer des documents HTML
+
+Voici l’exemple complet, prêt à être exécuté, qui combine les étapes de chargement et d’enregistrement. N’hésitez pas à le copier‑coller dans votre IDE.
 
 ```java
 final String HTML = "\r\n
@@ -79,39 +102,42 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## Conclusion
+## Pièges courants & astuces
 
-Dans cet article, nous avons appris à charger et enregistrer des documents HTML avec Aspose.Words pour Java. Cette bibliothèque offre un moyen pratique de travailler avec différents formats de documents, ce qui en fait un outil précieux pour la manipulation de documents dans les applications Java.
+| Problème | Pourquoi cela se produit | Comment corriger |
+|----------|--------------------------|------------------|
+| **Polices manquantes** | Le HTML référence des polices non installées sur le serveur. | Intégrez les polices dans le DOCX avec `FontSettings` ou assurez‑vous que les polices requises sont disponibles. |
+| **Images non affichées** | Les chemins d’image relatifs ne peuvent pas être résolus. | Utilisez des URL absolues ou chargez les images dans un `MemoryStream` et définissez `HtmlLoadOptions.setImageSavingCallback`. |
+| **Type de contrôle non converti** | `setPreferredControlType` non défini ou défini sur la mauvaise énumération. | Vérifiez que vous utilisez `HtmlControlType.STRUCTURED_DOCUMENT_TAG`. |
+| **Problèmes d’encodage** | Chaîne HTML encodée avec un jeu de caractères différent. | Utilisez toujours `StandardCharsets.UTF_8` lors de la conversion de la chaîne en octets. |
 
-## FAQ
+## Questions fréquemment posées
 
-### Comment installer Aspose.Words pour Java ?
+### Comment installer Aspose.Words for Java ?
+Aspose.Words for Java peut être téléchargé depuis [here](https://releases.aspose.com/words/java/). Suivez le guide d’installation sur la page de téléchargement pour ajouter les fichiers JAR à votre classpath.
 
-Aspose.Words pour Java peut être téléchargé à partir de [ici](https://releases.aspose.com/words/java/)Suivez les instructions d'installation fournies sur le site Web pour le configurer dans votre projet Java.
+### Puis‑je charger des documents HTML complexes avec Aspose.Words ?
+Oui, Aspose.Words for Java peut gérer du HTML complexe, incluant des tableaux imbriqués, du CSS et des éléments interactifs sans JavaScript. Ajustez `HtmlLoadOptions` (par ex., `setLoadImages` ou `setCssStyleSheetFileName`) pour affiner l’import.
 
-### Puis-je charger des documents HTML complexes à l'aide d'Aspose.Words ?
+### Quels autres formats de documents Aspose.Words prend‑il en charge ?
+Aspose.Words prend en charge DOC, DOCX, RTF, HTML, PDF, EPUB, XPS, et bien d’autres. L’API offre un enregistrement en une ligne vers n’importe lequel de ces formats.
 
-Oui, Aspose.Words pour Java est capable de gérer des documents HTML complexes. Vous pouvez personnaliser les options de chargement selon vos besoins spécifiques.
+### Aspose.Words convient‑il à l’automatisation de documents à l’échelle entreprise ?
+Absolument. Il est utilisé par de grandes entreprises pour la génération automatisée de rapports, la conversion massive de documents et le traitement côté serveur sans dépendance à Microsoft Office.
 
-### Quels autres formats de documents Aspose.Words prend-il en charge ?
+### Où puis‑je trouver plus de documentation et d’exemples pour Aspose.Words for Java ?
+Vous pouvez explorer la référence complète de l’API et des tutoriels supplémentaires sur le site de documentation d’Aspose.Words for Java : [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-Aspose.Words prend en charge une large gamme de formats de documents, notamment DOC, DOCX, RTF, HTML, PDF, etc. Il offre des fonctionnalités complètes de traitement de documents pour les applications Java.
+---
 
-### Aspose.Words est-il adapté à la manipulation de documents au niveau de l'entreprise ?
-
-Absolument ! Aspose.Words est une solution robuste utilisée par des entreprises du monde entier pour l'automatisation, le reporting et la génération de documents. Elle offre des fonctionnalités complètes pour la gestion des documents dans des applications à grande échelle.
-
-### Où puis-je trouver plus de documentation et d'exemples pour Aspose.Words pour Java ?
-
-Vous pouvez trouver une documentation détaillée, des exemples de code et des tutoriels sur le site Web de documentation Aspose.Words pour Java : [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/).
-
+**Dernière mise à jour :** 2025-12-20  
+**Testé avec :** Aspose.Words for Java 24.12 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

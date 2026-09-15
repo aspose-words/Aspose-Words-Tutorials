@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/document-operations/mastering-docsaveoptions-password-temp-folder-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 標題：掌握 Aspose.Words Python 中的 DocSaveOptions：密碼保護和臨時資料夾的使用
 
 ## 介紹
@@ -190,3 +192,7 @@ def save_using_temp_folder():
 - [支援論壇](https://forum.aspose.com/c/words/10)
 
 探索這些資源以加深您的理解並增強使用 Aspose.Words for Python 的文件處理能力。編碼愉快！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

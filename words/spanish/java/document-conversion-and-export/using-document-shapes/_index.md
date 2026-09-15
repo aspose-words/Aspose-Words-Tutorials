@@ -1,12 +1,12 @@
 ---
-date: 2026-02-16
-description: Aprenda cómo crear un cuadro de texto, agregar una marca de agua de palabra,
-  agrupar varias formas, establecer la relación de aspecto de la forma y colocar la
-  forma en una celda de tabla usando Aspose.Words para Java.
+date: 2025-12-14
+description: Aprenda cómo **insertar forma de imagen** con Aspose.Words para Java.
+  Esta guía le muestra cómo agregar formas, crear formas de cuadro de texto, colocar
+  formas en tablas, establecer la relación de aspecto de la forma y agregar formas
+  de globo de texto.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: Cómo crear un cuadro de texto y usar formas de documento en Aspose.Words para
-  Java
+title: Uso de formas de documento en Aspose.Words para Java
 url: /es/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -17,38 +17,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uso de Formas de Documento en Aspose.Words para Java
+# Cómo **insertar forma de imagen** con Aspose.Words para Java
 
-## Introducción al Uso de Formas de Documento en Aspose.Words para Java
-
-En esta guía completa, **aprenderá cómo crear objetos de cuadro de texto** y otras formas poderosas con Aspose.Words para Java. Las formas le permiten enriquecer los documentos de Word con llamadas, botones, marcas de agua, SmartArt y más, haciéndolos visualmente atractivos e interactivos. Recorreremos ejemplos del mundo real, desde insertar un cuadro de texto simple hasta agrupar múltiples formas, establecer relaciones de aspecto y colocar formas dentro de celdas de tabla.
+En este tutorial exhaustivo descubrirás cómo **insertar objetos de forma de imagen** en documentos Word usando Aspose.Words para Java. Ya sea que estés creando informes, material de marketing o formularios interactivos, las formas te permiten añadir llamadas, botones, cuadros de texto, marcas de agua e incluso SmartArt. Revisaremos cada paso, explicaremos por qué usar una forma concreta y proporcionaremos fragmentos de código listos para ejecutar.
 
 ## Respuestas rápidas
-- **¿Cuál es la forma principal de agregar un cuadro de texto?** Use `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **¿Puedo agrupar formas juntas?** Sí – cree un `GroupShape` y añada formas hijas.
-- **¿Cómo bloqueo o desbloqueo la relación de aspecto de una forma?** Llame a `shape.setAspectRatioLocked(true/false)`.
-- **¿Es posible agregar una marca de agua con una forma?** Absolutamente – inserte un `Shape` con `TEXT_PLAIN_TEXT` y configure su relleno/trazo.
-- **¿Los diagramas SmartArt funcionan con Aspose.Words?** Sí – detecte con `shape.hasSmartArt()` y actualice mediante `shape.updateSmartArtDrawing()`.
+- **¿Cuál es la forma principal de agregar una forma?** Usa `DocumentBuilder.insertShape` o crea una instancia de `Shape` y añádela al árbol del documento.  
+- **¿Puedo insertar una imagen como forma?** Sí – llama a `builder.insertImage` y luego trata el `Shape` devuelto como cualquier otro.  
+- **¿Cómo mantengo la proporción de una forma?** Establece `shape.setAspectRatioLocked(true)` o `false` según tus necesidades.  
+- **¿Es posible agrupar formas?** Absolutamente – envuélvelas en un `GroupShape` e inserta el grupo como un solo nodo.  
+- **¿Los diagramas SmartArt funcionan con Aspose.Words?** Sí, puedes detectar y actualizar formas SmartArt programáticamente.
 
-## ¿Qué es un cuadro de texto y por qué crear formas de cuadro de texto?
+## ¿Qué es **insertar forma de imagen**?
+Una *forma de imagen* es un elemento visual que contiene gráficos raster o vectoriales dentro de un documento Word. En Aspose.Words, una imagen se representa mediante un objeto `Shape`, dándote control total sobre el tamaño, posición, rotación y ajuste de texto.
 
-Un cuadro de texto es un contenedor que puede contener texto con formato, imágenes u otras formas. Usar **crear cuadro de texto** en su automatización le permite colocar contenido flotante en cualquier parte de una página, perfecto para anotaciones, llamadas o elementos decorativos sin alterar el flujo principal del documento.
+## ¿Por qué usar formas en tus documentos?
+- **Impacto visual:** Las formas atraen la atención a la información clave.  
+- **Interactividad:** Botones y llamadas pueden enlazarse a URL o marcadores.  
+- **Flexibilidad de diseño:** Posiciona los gráficos con precisión mediante coordenadas absolutas o relativas.  
+- **Automatización:** Genera diseños complejos sin edición manual.
 
-## Cómo agregar una forma
+## Requisitos previos
+- Java Development Kit (JDK 8 o superior)  
+- Biblioteca Aspose.Words para Java (descárgala desde el sitio oficial)  
+- Conocimientos básicos de Java y programación orientada a objetos  
 
-Antes de sumergirnos en el código, asegúrese de que Aspose.Words para Java esté referenciado en su proyecto. Si aún no lo ha añadido, descargue la biblioteca desde el sitio oficial:
+Puedes descargar la biblioteca aquí: [Descargar Aspose.Words para Java](https://releases.aspose.com/words/java/)
 
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Agregar formas a documentos
-
-## Cómo agrupar múltiples formas
-
-Un `GroupShape` le permite tratar varias formas individuales como una sola unidad—útil para moverlas o rotarlas juntas.
-
-### Insertar un GroupShape
-
-A continuación se muestra un ejemplo completo que crea un grupo, añade dos formas diferentes y inserta el grupo en el documento.
+## Cómo **agregar forma** – Insertar un GroupShape
+Un `GroupShape` te permite tratar varias formas como una única unidad. Esto es útil para mover o formatear varios elementos juntos.
 
 ```java
 Document doc = new Document();
@@ -78,11 +75,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## Cómo crear un cuadro de texto (crear cuadro de texto)
-
-### Insertar una forma de cuadro de texto
-
-El método `insertShape` facilita la inserción de un cuadro de texto. El ejemplo a continuación muestra dos formas de posicionar y rotar un cuadro de texto.
+## Crear **forma de cuadro de texto**
+Un cuadro de texto es un contenedor que puede albergar texto con formato. También puedes rotarlo para lograr un aspecto dinámico.
 
 ```java
 Document doc = new Document();
@@ -103,11 +97,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Cómo establecer la relación de aspecto de una forma
-
-### Gestión de la relación de aspecto
-
-A veces necesita que una forma se estire sin conservar sus proporciones originales. El fragmento siguiente demuestra cómo desbloquear la relación de aspecto de una forma de imagen.
+## Establecer **proporción de la forma**
+A veces necesitas que una forma se estire libremente, otras veces deseas mantener sus proporciones originales. Controlar la proporción es sencillo.
 
 ```java
 Document doc = new Document();
@@ -119,11 +110,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## Cómo colocar una forma en una celda de tabla
-
-### Colocar una forma dentro de una celda de tabla
-
-A continuación se muestra un ejemplo paso a paso que crea una tabla y luego inserta una forma de marca de agua que se posiciona respecto a la página pero también puede colocarse dentro de una celda.
+## Colocar **forma en tabla**
+Insertar una forma dentro de una celda de tabla puede ser práctico para diseños de informes. El ejemplo a continuación crea una tabla y luego inserta una forma tipo marca de agua que abarca toda la página.
 
 ```java
 Document doc = new Document();
@@ -167,11 +155,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## Trabajo con formas SmartArt
+## Añadir **forma de llamada**
+Una forma de llamada es perfecta para resaltar notas o advertencias. Mientras que el código anterior ya muestra un `ACCENT_BORDER_CALLOUT_1`, puedes cambiar el `ShapeType` a cualquier variante de llamada que se ajuste a tu diseño.
 
-### Detección de formas SmartArt
+## Trabajando con formas SmartArt
 
-Puede encontrar programáticamente objetos SmartArt en un documento usando el método `hasSmartArt()`.
+### Detectar formas SmartArt
+Los diagramas SmartArt pueden identificarse programáticamente, lo que permite procesarlos o reemplazarlos según sea necesario.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -180,9 +170,8 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### Actualización de dibujos SmartArt
-
-Una vez que haya localizado las formas SmartArt, puede actualizar sus datos internos de dibujo con `updateSmartArtDrawing()`.
+### Actualizar dibujos SmartArt
+Una vez detectados, puedes refrescar los gráficos SmartArt para reflejar cualquier cambio de datos.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -192,31 +181,33 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Conclusión
+## Problemas comunes y consejos
+- **Forma no aparece:** Asegúrate de que la forma se inserte después del nodo objetivo usando `builder.insertNode`.  
+- **Rotación inesperada:** Recuerda que la rotación se aplica alrededor del centro de la forma; ajusta `setLeft`/`setTop` si es necesario.  
+- **Proporción bloqueada:** Por defecto, muchas formas bloquean su proporción; llama a `setAspectRatioLocked(false)` para estirarlas libremente.  
+- **Falla en la detección de SmartArt:** Verifica que estés usando una versión de Aspose.Words que soporte SmartArt (v24+).
 
-En esta guía, hemos cubierto cómo **crear cuadros de texto**, agrupar múltiples formas, ajustar relaciones de aspecto, incrustar formas dentro de celdas de tabla, agregar marcas de agua y trabajar con diagramas SmartArt usando Aspose.Words para Java. Estas técnicas le permiten crear documentos de Word con formato rico e interactivo de forma programática.
+## Preguntas frecuentes
 
-## Preguntas frecuentes (FAQ)
+**P: ¿Qué es Aspose.Words para Java?**  
+R: Aspose.Words para Java es una biblioteca Java que permite a los desarrolladores crear, modificar y convertir documentos Word de forma programática. Proporciona una amplia gama de funciones y herramientas para trabajar con documentos en varios formatos.
 
-**P: ¿Puedo combinar un cuadro de texto con una imagen dentro de la misma forma?**  
-R: Sí. Inserte una imagen en la forma de cuadro de texto usando `builder.insertImage()` después de crear la forma, luego ajuste su diseño según sea necesario.
+**P: ¿Cómo puedo descargar Aspose.Words para Java?**  
+R: Puedes descargar Aspose.Words para Java desde el sitio web de Aspose siguiendo este enlace: [Descargar Aspose.Words para Java](https://releases.aspose.com/words/java/)
 
-**P: ¿Cómo garantizo que una marca de agua aparezca detrás de todo el contenido del documento?**  
-R: Establezca el `WrapType` de la forma a `NONE` y ajuste su `RelativeHorizontalPosition` y `RelativeVerticalPosition` a `PAGE`. Esto posiciona la marca de agua detrás del flujo principal.
+**P: ¿Cuáles son los beneficios de usar formas en documentos?**  
+R: Las formas añaden elementos visuales e interactividad a tus documentos, haciéndolos más atractivos e informativos. Con ellas puedes crear llamadas, botones, imágenes, marcas de agua y más, mejorando la experiencia del usuario.
 
-**P: ¿Es posible animar una forma agrupada en Word?**  
-R: Aunque Aspose.Words puede crear y agrupar formas, las funciones de animación no son compatibles porque dependen de las capacidades de la interfaz de Word.
+**P: ¿Puedo personalizar la apariencia de las formas?**  
+R: Sí, puedes personalizar la apariencia de las formas ajustando sus propiedades como tamaño, posición, rotación y color de relleno. Aspose.Words para Java ofrece opciones extensas para la personalización de formas.
 
-**P: ¿Qué versión de Aspose.Words se requiere para el soporte de SmartArt?**  
-R: La detección y actualización de SmartArt están disponibles a partir de Aspose.Words 20.9 para Java y versiones posteriores.
-
-**P: ¿La biblioteca maneja documentos grandes con muchas formas de manera eficiente?**  
-R: Sí. Use `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` o una versión superior para mejorar el rendimiento en documentos con muchas formas.
+**P: ¿Aspose.Words para Java es compatible con SmartArt?**  
+R: Sí, Aspose.Words para Java soporta formas SmartArt, lo que permite trabajar con diagramas y gráficos complejos en tus documentos.
 
 ---
 
-**Última actualización:** 2026-02-16  
-**Probado con:** Aspose.Words para Java 24.12  
+**Última actualización:** 2025-12-14  
+**Probado con:** Aspose.Words para Java 24.12 (última)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

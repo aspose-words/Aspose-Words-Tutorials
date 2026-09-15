@@ -5,7 +5,9 @@
 "url": "/ar/python-net/document-properties-metadata/aspose-words-python-manage-document-variables/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # كيفية إدارة متغيرات المستندات باستخدام Aspose.Words في بايثون: دليل شامل
 
 ## مقدمة
@@ -161,3 +163,7 @@
 - [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
 
 استكشف هذه الموارد لتعزيز فهمك وتطبيقك لـ Aspose.Words في بايثون. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

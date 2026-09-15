@@ -1,11 +1,11 @@
 ---
-title: Add Multiple Series to Charts in Aspose.Words for Java
+title: How to create column chart using Aspose.Words for Java
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-description: Learn how to add multiple series to charts in Aspose.Words for Java, change axis tick marks, apply custom number format, and generate chart Word documents with line and column charts.
+description: Learn how to create column chart and format chart data labels with Aspose.Words for Java. Explore adding multiple series, changing axis type, and hide chart axis.
 weight: 12
 url: /java/document-conversion-and-export/using-charts/
-date: 2026-02-16
+date: 2025-12-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,37 +14,49 @@ date: 2026-02-16
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Multiple Series to Charts in Aspose.Words for Java
+# How to create column chart using Aspose.Words for Java
 
-## Introduction to Using Charts in Aspose.Words for Java
-
-In this tutorial you’ll learn **how to add multiple series** to a chart using Aspose.Words for Java, why customizing axis tick marks and applying a custom number format matters, and how to generate a chart‑rich Word document. Whether you need a line chart for financial data or a column chart for sales figures, the steps below will guide you through creating, styling, and fine‑tuning charts programmatically.
+In this tutorial you’ll **create column chart** visualizations directly inside Word documents using Aspose.Words for Java. We’ll walk through creating different chart types, adding multiple series, formatting chart data labels, changing axis type, and even hiding a chart axis when you need a cleaner look. By the end you’ll have a solid, production‑ready approach for embedding rich charts in your documents.
 
 ## Quick Answers
-- **How do I add multiple series?** Use `chart.getSeries().add(...)` for each series you want to display.  
-- **Can I change axis tick marks?** Yes – use `setMajorTickMark()` and `setMinorTickMark()` on the axis objects.  
-- **What format can I apply to data labels?** Any Excel‑compatible number format, e.g., `"$"#,##0.00` or `0.00%`.  
-- **Which chart types are supported?** Line, column, area, bubble, scatter, and many more via `ChartType`.  
-- **Is a license required for production?** A valid Aspose.Words for Java license is needed for full functionality.
+- **What is the primary class to build a chart?** `DocumentBuilder` with `insertChart`.
+- **Which method adds a new series?** `chart.getSeries().add(...)`.
+- **How do I format chart data labels?** Use `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Can I hide an axis?** Yes, call `setHidden(true)` on the axis object.
+- **Do I need a license for Aspose.Words?** A license is required for production use; a free trial is available.
 
-## What is “add multiple series” in a chart?
-Adding multiple series means inserting more than one data set into the same chart area, allowing you to compare different categories or time periods side‑by‑side. Each series appears as its own line, column, or marker set, giving readers a richer visual story.
+## What is a column chart and why use it?
 
-## Why use Aspose.Words for Java to generate chart Word documents?
-- **Full control** over chart type, layout, and styling without opening Word manually.  
-- **Programmatic generation** fits into automated reporting pipelines.  
-- **Cross‑platform** – works on any Java‑compatible environment.  
-- **Rich API** for customizing axis, data labels, and number formats.
+A column chart displays categorical data as vertical bars, making it ideal for comparing values across groups (sales per region, monthly expenses, etc.). In Java applications, generating a column chart with Aspose.Words lets you embed these visuals directly into Word / DOCX files without needing Excel or external tools.
 
-## Prerequisites
-- Java Development Kit (JDK) 8 or higher.  
-- Aspose.Words for Java library added to your project (Maven/Gradle or JAR).  
-- A valid Aspose license for production (optional for evaluation).
+## How to create a column chart
 
-## Step‑by‑Step Guide
+Below is a straightforward example that creates a simple column chart. The code is identical to the original snippet – we’ve only added explanatory comments to make it easier to follow.
 
-### Step 1: Create a line chart and **add multiple series**
-Below is the core code that creates a line chart, clears the default series, and then adds three distinct series with custom data labels.
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Add multiple series
+
+You can **add multiple series** to a column chart by calling `chart.getSeries().add(...)` repeatedly, as shown above. Each series can have its own set of categories and values, allowing you to compare several data sets side‑by‑side.
+
+## How to create a line chart with custom data labels
+
+If you need a line chart instead of a column chart, the same pattern applies. This example also demonstrates **format chart data labels** with different number formats.
 
 ```java
 Document doc = new Document();
@@ -73,30 +85,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **Pro tip:** Call `chart.getSeries().add(...)` as many times as needed to **add multiple series** – each call creates a new line (or column, etc.) on the same chart.
+### Add data labels
 
-### Step 2: **Create a column chart** (create column chart java)
-The next snippet shows how to insert a simple column chart, which is useful for comparing categories side‑by‑side.
+The call `series1.hasDataLabels(true)` **adds data labels** to the series, while `setShowValue(true)` makes the actual values visible on the chart.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## How to change axis type and customize axis properties
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### Step 3: **Change axis tick marks** (change axis tick marks)
-Customizing the X‑ and Y‑axis improves readability. The following code demonstrates how to change tick marks, reverse order, and set custom crossing points.
+Changing the axis type (e.g., from date to category) lets you control how data points are plotted. This snippet also shows how to **hide chart axis** if you prefer a minimalist design.
 
 ```java
 Document doc = new Document();
@@ -118,6 +113,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -128,8 +126,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### Step 4: **Apply a custom number format** (apply custom number format)
-You can format axis numbers or data labels with any pattern supported by Excel. Below is a concise example that formats the Y‑axis with a thousand‑separator pattern.
+### Change axis type
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **changes axis type** from a date‑based axis to a categorical one, giving you full control over label placement.
+
+## How to format chart data labels (number formats)
+
+You can apply number formatting directly to the axis or data labels. This example formats the Y‑axis numbers with a thousands separator.
 
 ```java
 Document doc = new Document();
@@ -144,41 +147,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### Step 5: Generate the final Word document (generate chart word document)
-After configuring series, axes, and labels, simply call `doc.save(...)` as shown in the snippets above. The resulting `.docx` file contains fully functional charts that can be opened and edited in Microsoft Word.
+## Additional chart customizations
 
-## Common Use Cases
-- **Financial dashboards** – line charts with multiple series for revenue, expenses, and profit.  
-- **Sales reports** – column charts comparing quarterly sales across regions.  
-- **Project tracking** – area or scatter charts visualizing progress over time.  
-
-## Additional Chart Customizations
-Beyond the basics, you can adjust bounds, hide axes (`axis.setHidden(true)`), change colors, add legends, and more. Refer to the Aspose.Words for Java API reference for the full list of options.
-
-## Conclusion
-In this guide we covered how to **add multiple series** to charts, create both line and column charts, **change axis tick marks**, **apply custom number formats**, and finally **generate a chart‑rich Word document**. With Aspose.Words for Java you have a powerful, code‑first way to embed professional data visualizations directly into your documents.
+Beyond the basics, you can adjust bounds, set interval units between labels, hide specific axes, and more. Refer to the Aspose.Words for Java API documentation for a full list of properties.
 
 ## Frequently Asked Questions
 
 **Q: How can I add multiple series to a chart?**  
-A: Call `chart.getSeries().add()` for each series you want to display. Each call creates a new data set that appears as its own line, column, or marker group.
+A: Use `chart.getSeries().add()` for each series you want to display. Each call can provide a unique name, category array, and value array.
 
-**Q: How do I format data labels with a custom number format?**  
-A: Access the series’ `DataLabels` object and use `getNumberFormat().setFormatCode("your pattern")`. You can also link the format to a source cell with `isLinkedToSource(true)`.
+**Q: How do I format chart data labels with custom number formats?**  
+A: Access a series’ `DataLabels` object and call `getNumberFormat().setFormatCode("your format")`. You can also link the format to a source cell with `isLinkedToSource(true)`.
 
-**Q: How can I change axis tick marks?**  
-A: Use `setMajorTickMark()` and `setMinorTickMark()` on `ChartAxis`. Options include `CROSS`, `INSIDE`, `OUTSIDE`, and `NONE`.
+**Q: How can I hide a chart axis?**  
+A: Call `setHidden(true)` on the `ChartAxis` you want to hide (e.g., `chart.getAxisY().setHidden(true)`).
 
-**Q: Can I create other chart types like scatter or area charts?**  
-A: Yes – specify the desired `ChartType` (e.g., `ChartType.SCATTER`, `ChartType.AREA`) when calling `builder.insertChart(...)`.
+**Q: What is the best way to change axis type?**  
+A: Use `setCategoryType(AxisCategoryType.CATEGORY)` for categorical axes or `AxisCategoryType.DATE` for date axes.
 
-**Q: How do I hide an axis I don’t need?**  
-A: Call `axis.setHidden(true)` on the `ChartAxis` you wish to hide.
+**Q: How do I add data labels to a series?**  
+A: Enable them with `series.hasDataLabels(true)` and then configure visibility using `series.getDataLabels().setShowValue(true)`.
+
+## Conclusion
+
+We’ve covered everything you need to **create column chart** visualizations with Aspose.Words for Java—from inserting basic charts and adding multiple series, to formatting chart data labels, changing axis type, and hiding chart axes for a clean look. Incorporate these techniques into your reporting or document‑generation pipelines to deliver professional, data‑driven Word documents.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.11  
+**Last Updated:** 2025-12-13  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

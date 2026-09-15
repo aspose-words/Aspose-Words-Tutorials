@@ -1,11 +1,11 @@
 ---
-date: 2026-02-16
-description: Aspose.Words for Java'da grafiklere birden fazla seri eklemeyi, eksen
-  işaretçilerini değiştirmeyi, özel sayı formatı uygulamayı ve çizgi ile sütun grafiklerini
-  içeren Word belgeleri oluşturmayı öğrenin.
+date: 2025-12-13
+description: Aspose.Words for Java ile sütun grafiği oluşturmayı ve grafik veri etiketlerini
+  biçimlendirmeyi öğrenin. Birden fazla seri eklemeyi, eksen tipini değiştirmeyi ve
+  grafik eksenini gizlemeyi keşfedin.
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Aspose.Words for Java'da Grafiklere Birden Çok Seri Ekle
+title: Aspose.Words for Java kullanarak sütun grafik nasıl oluşturulur
 url: /tr/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -16,39 +16,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java'da Grafiklere Birden Çok Seri Ekleme
+# Aspose.Words for Java ile sütun grafik nasıl oluşturulur
 
-## Aspose.Words for Java'da Grafik Kullanımına Giriş
-
-Bu öğreticide Aspose.Words for Java kullanarak bir grafiğe **birden çok seri eklemeyi**, eksen işaretçilerini özelleştirmenin ve özel bir sayı formatı uygulamanın neden önemli olduğunu ve grafik‑zengin bir Word belgesi oluşturmayı öğreneceksiniz. Finansal veriler için bir çizgi grafiği ya da satış rakamları için bir sütun grafiği ihtiyacınız olsun, aşağıdaki adımlar grafik oluşturma, stil verme ve programlı olarak ince ayar yapma sürecinde size rehberlik edecektir.
+Bu öğreticide **sütun grafik** görselleştirmelerini doğrudan Word belgelerinde Aspose.Words for Java kullanarak oluşturacaksınız. Farklı grafik tipleri oluşturma, birden fazla seri ekleme, grafik veri etiketlerini biçimlendirme, eksen tipini değiştirme ve daha temiz bir görünüm için bir ekseni gizleme konularını adım adım inceleyeceğiz. Sonunda belgelerinize zengin grafikler yerleştirmek için üretim‑hazır bir yaklaşıma sahip olacaksınız.
 
 ## Hızlı Yanıtlar
-- **Birden çok seri nasıl eklenir?** Görüntülemek istediğiniz her seri için `chart.getSeries().add(...)` kullanın.  
-- **Eksen işaretçilerini değiştirebilir miyim?** Evet – eksen nesnelerinde `setMajorTickMark()` ve `setMinorTickMark()` kullanın.  
-- **Veri etiketlerine hangi format uygulanabilir?** Excel uyumlu herhangi bir sayı formatı, örneğin `"$"#,##0.00` veya `0.00%`.  
-- **Hangi grafik tipleri desteklenir?** Çizgi, sütun, alan, balon, dağılım ve `ChartType` aracılığıyla daha birçok tip.  
-- **Üretim ortamında lisans gerekli mi?** Tam işlevsellik için geçerli bir Aspose.Words for Java lisansı gereklidir.
+- **Grafik oluşturmak için temel sınıf nedir?** `DocumentBuilder` ve `insertChart`.
+- **Yeni bir seri ekleyen yöntem hangisidir?** `chart.getSeries().add(...)`.
+- **Grafik veri etiketlerini nasıl biçimlendiririm?** `getDataLabels().get(...).getNumberFormat().setFormatCode(...)` kullanın.
+- **Bir ekseni gizleyebilir miyim?** Evet, eksen nesnesinde `setHidden(true)` çağırın.
+- **Aspose.Words için lisansa ihtiyacım var mı?** Üretim kullanımı için lisans gereklidir; ücretsiz deneme sürümü mevcuttur.
 
-## Grafikte “birden çok seri ekleme” nedir?
+## Sütun grafik nedir ve neden kullanılır?
 
-Birden çok seri eklemek, aynı grafik alanına birden fazla veri kümesi eklemek anlamına gelir; bu sayede farklı kategorileri veya zaman dilimlerini yan yana karşılaştırabilirsiniz. Her seri kendi çizgi, sütun veya işaretçi seti olarak görünür ve okuyucuya daha zengin bir görsel anlatım sunar.
+Sütun grafik, kategorik verileri dikey çubuklar halinde gösterir ve gruplar arasındaki değerleri karşılaştırmak için idealdir (bölge bazında satış, aylık harcamalar vb.). Java uygulamalarında Aspose.Words ile bir sütun grafik oluşturmak, bu görselleri Excel veya dış araçlar kullanmadan doğrudan Word / DOCX dosyalarına yerleştirmenizi sağlar.
 
-## Neden Aspose.Words for Java ile grafik içeren Word belgeleri oluşturmalısınız?
+## Sütun grafik nasıl oluşturulur
 
-- **Tam kontrol** grafik tipi, düzeni ve stil üzerinde, Word'ü manuel olarak açmadan.  
-- **Programatik oluşturma** otomatik raporlama hatlarına uyum sağlar.  
-- **Çapraz platform** – herhangi bir Java uyumlu ortamda çalışır.  
-- **Zengin API** eksen, veri etiketleri ve sayı formatlarını özelleştirmek için.
+Aşağıda basit bir sütun grafik oluşturan doğrudan örnek kod yer alıyor. Kod orijinal snippet ile aynı – sadece anlaşılmasını kolaylaştırmak için açıklayıcı yorumlar ekledik.
 
-## Önkoşullar
-- Java Development Kit (JDK) 8 veya üzeri.  
-- Projenize eklenmiş Aspose.Words for Java kütüphanesi (Maven/Gradle ya da JAR).  
-- Üretim için geçerli bir Aspose lisansı (değerlendirme için isteğe bağlı).
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
 
-## Adım‑Adım Kılavuz
+// Delete default generated series.
+chart.getSeries().clear();
 
-### Adım 1: Bir çizgi grafiği oluşturun ve **birden çok seri ekleyin**
-Aşağıda, bir çizgi grafiği oluşturan, varsayılan seriyi temizleyen ve ardından üç ayrı seri ekleyen temel kod yer almaktadır; seriler özel veri etiketleriyle birlikte.
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Birden fazla seri ekleme
+
+Yukarıda gösterildiği gibi `chart.getSeries().add(...)` metodunu tekrar tekrar çağırarak **birden fazla seri** ekleyebilirsiniz. Her seri kendi kategori ve değer setine sahip olabilir, bu da birden çok veri kümesini yan‑yana karşılaştırmanıza olanak tanır.
+
+## Özel veri etiketli çizgi grafik nasıl oluşturulur
+
+Sütun grafik yerine bir çizgi grafik ihtiyacınız varsa aynı desen geçerlidir. Bu örnek ayrıca **grafik veri etiketlerini** farklı sayı formatlarıyla biçimlendirmeyi de gösterir.
 
 ```java
 Document doc = new Document();
@@ -77,30 +87,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **Pro tip:** `chart.getSeries().add(...)` metodunu ihtiyacınız kadar çağırarak **birden çok seri ekleyin** – her çağrı aynı grafikte yeni bir çizgi (veya sütun, vb.) oluşturur.
+### Veri etiketleri ekleme
 
-### Adım 2: **Bir sütun grafiği oluşturun** (create column chart java)
-Aşağıdaki kod parçacığı, yan yana kategorileri karşılaştırmak için kullanışlı bir basit sütun grafiği eklemeyi göstermektedir.
+`series1.hasDataLabels(true)` çağrısı **veri etiketlerini** seriye ekler, `setShowValue(true)` ise gerçek değerlerin grafikte görünür olmasını sağlar.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## Eksen tipini değiştirme ve eksen özelliklerini özelleştirme
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### Adım 3: **Eksen işaretçilerini değiştirin** (change axis tick marks)
-X ve Y eksenlerini özelleştirmek okunabilirliği artırır. Aşağıdaki kod, işaretçileri değiştirmeyi, sıralamayı ters çevirmeyi ve özel kesişim noktaları ayarlamayı gösterir.
+Eksen tipini (ör. tarih‑tabanlıdan kategori‑tabanlıya) değiştirmek, veri noktalarının nasıl çizileceğini kontrol etmenizi sağlar. Bu snippet ayrıca **grafik eksenini gizleme** yöntemini de gösterir.
 
 ```java
 Document doc = new Document();
@@ -122,6 +115,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -132,8 +128,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### Adım 4: **Özel bir sayı formatı uygulayın** (apply custom number format)
-Eksen sayılarını veya veri etiketlerini Excel tarafından desteklenen herhangi bir desenle biçimlendirebilirsiniz. Aşağıda, Y eksenini binlik ayırıcı deseniyle biçimlendiren kısa bir örnek yer almaktadır.
+### Eksen tipini değiştirme
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **ekseni tarih‑tabanlı bir eksenden kategori eksenine** değiştirir ve etiket yerleşimi üzerinde tam kontrol sağlar.
+
+## Grafik veri etiketlerini (sayı formatları) biçimlendirme
+
+Sayı formatlamasını doğrudan eksene veya veri etiketlerine uygulayabilirsiniz. Bu örnek Y‑ekseni sayılarını binlik ayırıcı ile biçimlendirir.
 
 ```java
 Document doc = new Document();
@@ -148,41 +149,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### Adım 5: Son Word belgesini oluşturun (generate chart word document)
-Serileri, eksenleri ve etiketleri yapılandırdıktan sonra, yukarıdaki kod parçacıklarında gösterildiği gibi `doc.save(...)` metodunu çağırmanız yeterlidir. Ortaya çıkan `.docx` dosyası, Microsoft Word'de açılıp düzenlenebilen tam işlevsel grafikler içerir.
+## Ek grafik özelleştirmeleri
 
-## Yaygın Kullanım Senaryoları
-- **Finansal panolar** – gelir, gider ve kar için birden çok serili çizgi grafikler.  
-- **Satış raporları** – bölgeler arasındaki çeyrek satışları karşılaştıran sütun grafikler.  
-- **Proje takibi** – zaman içinde ilerlemeyi görselleştiren alan veya dağılım grafikler.  
+Temel konuların ötesinde sınırları ayarlayabilir, etiketler arasındaki aralık birimlerini belirleyebilir, belirli eksenleri gizleyebilir ve daha fazlasını yapabilirsiniz. Tam özellik listesi için Aspose.Words for Java API dokümantasyonuna bakın.
 
-## Ek Grafik Özelleştirmeleri
-Temel özelliklerin ötesinde, sınırları ayarlayabilir, eksenleri gizleyebilir (`axis.setHidden(true)`), renkleri değiştirebilir, lejand ekleyebilir ve daha fazlasını yapabilirsiniz. Tüm seçeneklerin tam listesi için Aspose.Words for Java API referansına bakın.
+## Sık Sorulan Sorular
+
+**S: Bir grafiğe birden fazla seri nasıl eklenir?**  
+C: Görüntülemek istediğiniz her seri için `chart.getSeries().add()` kullanın. Her çağrı benzersiz bir ad, kategori dizisi ve değer dizisi sağlayabilir.
+
+**S: Grafik veri etiketlerini özel sayı formatlarıyla nasıl biçimlendiririm?**  
+C: Bir serinin `DataLabels` nesnesine erişin ve `getNumberFormat().setFormatCode("your format")` çağırın. Ayrıca `isLinkedToSource(true)` ile formatı kaynak hücreye bağlayabilirsiniz.
+
+**S: Bir grafik eksenini nasıl gizleyebilirim?**  
+C: Gizlemek istediğiniz `ChartAxis` üzerinde `setHidden(true)` çağırın (ör. `chart.getAxisY().setHidden(true)`).
+
+**S: Eksen tipini değiştirmek için en iyi yol nedir?**  
+C: Kategorik eksenler için `setCategoryType(AxisCategoryType.CATEGORY)`, tarih eksenleri için `AxisCategoryType.DATE` kullanın.
+
+**S: Bir seriye veri etiketleri nasıl eklenir?**  
+C: `series.hasDataLabels(true)` ile etkinleştirin ve ardından `series.getDataLabels().setShowValue(true)` ile görünürlüğü ayarlayın.
 
 ## Sonuç
-Bu rehberde grafiklere **birden çok seri ekleme**, hem çizgi hem de sütun grafik oluşturma, **eksen işaretçilerini değiştirme**, **özel sayı formatları uygulama** ve nihayet **grafik‑zengin bir Word belgesi oluşturma** konularını ele aldık. Aspose.Words for Java ile belgelerinize doğrudan profesyonel veri görselleştirmeleri eklemenin güçlü, kod‑öncelikli bir yoluna sahip olursunuz.
 
-## Sıkça Sorulan Sorular
-
-**S: Bir grafiğe birden çok seri nasıl ekleyebilirim?**  
-C: Görüntülemek istediğiniz her seri için `chart.getSeries().add()` metodunu çağırın. Her çağrı, kendi çizgi, sütun veya işaretçi grubunu oluşturan yeni bir veri seti oluşturur.
-
-**S: Veri etiketlerini özel bir sayı formatıyla nasıl biçimlendirebilirim?**  
-C: Serinin `DataLabels` nesnesine erişin ve `getNumberFormat().setFormatCode("your pattern")` metodunu kullanın. Formatı bir kaynak hücreye `isLinkedToSource(true)` ile bağlayabilirsiniz.
-
-**S: Eksen işaretçilerini nasıl değiştirebilirim?**  
-C: `ChartAxis` üzerinde `setMajorTickMark()` ve `setMinorTickMark()` metodlarını kullanın. Seçenekler `CROSS`, `INSIDE`, `OUTSIDE` ve `NONE` içerir.
-
-**S: Dağılım veya alan gibi başka grafik tipleri oluşturabilir miyim?**  
-C: Evet – `builder.insertChart(...)` çağrısında istediğiniz `ChartType` (örneğin `ChartType.SCATTER`, `ChartType.AREA`) belirtin.
-
-**S: İhtiyacım olmayan bir ekseni nasıl gizleyebilirim?**  
-C: Gizlemek istediğiniz `ChartAxis` üzerinde `axis.setHidden(true)` metodunu çağırın.
+Aspose.Words for Java ile **sütun grafik** görselleştirmeleri oluşturmak için temel grafik ekleme, birden fazla seri ekleme, grafik veri etiketlerini biçimlendirme, eksen tipini değiştirme ve temiz bir görünüm için eksenleri gizleme konularını ele aldık. Bu teknikleri raporlama veya belge‑oluşturma süreçlerinize entegre ederek profesyonel, veri‑odaklı Word belgeleri sunabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-02-16  
-**Test Edilen Sürüm:** Aspose.Words for Java 24.11  
+**Son Güncelleme:** 2025-12-13  
+**Test Edilen:** Aspose.Words for Java 24.12 (en son)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

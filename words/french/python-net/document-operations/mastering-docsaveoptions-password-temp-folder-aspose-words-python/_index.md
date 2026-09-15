@@ -5,7 +5,9 @@
 "url": "/fr/python-net/document-operations/mastering-docsaveoptions-password-temp-folder-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Titre : Maîtriser DocSaveOptions dans Aspose.Words Python : protection par mot de passe et utilisation des dossiers temporaires
 
 ## Introduction
@@ -190,3 +192,7 @@ Prêt à mettre en œuvre ces solutions ? Découvrez notre [documentation](http
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
 
 Explorez ces ressources pour approfondir votre compréhension et améliorer vos capacités de traitement de documents avec Aspose.Words pour Python. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

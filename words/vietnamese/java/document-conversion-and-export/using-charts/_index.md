@@ -1,11 +1,10 @@
 ---
-date: 2026-02-16
-description: Tìm hiểu cách thêm nhiều chuỗi vào biểu đồ trong Aspose.Words for Java,
-  thay đổi dấu tick của trục, áp dụng định dạng số tùy chỉnh và tạo tài liệu Word
-  có biểu đồ với biểu đồ đường và cột.
+date: 2025-12-13
+description: Tìm hiểu cách tạo biểu đồ cột và định dạng nhãn dữ liệu biểu đồ với Aspose.Words
+  cho Java. Khám phá việc thêm nhiều chuỗi, thay đổi loại trục và ẩn trục biểu đồ.
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: Thêm Nhiều Dãy vào Biểu Đồ trong Aspose.Words cho Java
+title: Cách tạo biểu đồ cột bằng Aspose.Words cho Java
 url: /vi/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -16,37 +15,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm Nhiều Dãy Dữ Liệu vào Biểu Đồ trong Aspose.Words for Java
+# Cách tạo biểu đồ cột bằng Aspose.Words cho Java
 
-## Giới thiệu về việc sử dụng biểu đồ trong Aspose.Words for Java
-
-Trong hướng dẫn này bạn sẽ học **cách thêm nhiều dãy dữ liệu** vào một biểu đồ bằng Aspose.Words for Java, tại sao việc tùy chỉnh dấu tick của trục và áp dụng định dạng số tùy chỉnh lại quan trọng, và cách tạo một tài liệu Word giàu biểu đồ. Dù bạn cần biểu đồ đường cho dữ liệu tài chính hay biểu đồ cột cho số liệu bán hàng, các bước dưới đây sẽ hướng dẫn bạn tạo, tạo kiểu và tinh chỉnh biểu đồ một cách lập trình.
+Trong hướng dẫn này, bạn sẽ **tạo biểu đồ cột** trực tiếp trong tài liệu Word bằng Aspose.Words cho Java. Chúng ta sẽ đi qua cách tạo các loại biểu đồ khác nhau, thêm nhiều series, định dạng nhãn dữ liệu của biểu đồ, thay đổi loại trục, và thậm chí ẩn một trục biểu đồ khi bạn cần giao diện sạch sẽ hơn. Khi hoàn thành, bạn sẽ có một phương pháp sẵn sàng cho sản xuất để nhúng các biểu đồ phong phú vào tài liệu của mình.
 
 ## Câu trả lời nhanh
-- **Làm thế nào để tôi thêm nhiều dãy dữ liệu?** Sử dụng `chart.getSeries().add(...)` cho mỗi dãy mà bạn muốn hiển thị.  
-- **Tôi có thể thay đổi dấu tick của trục không?** Có – sử dụng `setMajorTickMark()` và `setMinorTickMark()` trên các đối tượng trục.  
-- **Định dạng nào tôi có thể áp dụng cho nhãn dữ liệu?** Bất kỳ định dạng số nào tương thích với Excel, ví dụ `"$"#,##0.00` hoặc `0.00%`.  
-- **Các loại biểu đồ nào được hỗ trợ?** Đường, cột, khu vực, bong bóng, phân tán, và nhiều loại khác thông qua `ChartType`.  
-- **Có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.Words for Java hợp lệ để sử dụng đầy đủ các chức năng.
+- **Lớp chính để xây dựng biểu đồ là gì?** `DocumentBuilder` với `insertChart`.
+- **Phương thức nào thêm một series mới?** `chart.getSeries().add(...)`.
+- **Làm sao để định dạng nhãn dữ liệu của biểu đồ?** Sử dụng `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Có thể ẩn một trục không?** Có, gọi `setHidden(true)` trên đối tượng trục.
+- **Có cần giấy phép cho Aspose.Words không?** Giấy phép bắt buộc cho môi trường sản xuất; bản dùng thử miễn phí có sẵn.
 
-## “Thêm nhiều dãy dữ liệu” trong một biểu đồ là gì?
-Thêm nhiều dãy dữ liệu có nghĩa là chèn hơn một bộ dữ liệu vào cùng một khu vực biểu đồ, cho phép bạn so sánh các danh mục hoặc khoảng thời gian khác nhau cạnh nhau. Mỗi dãy xuất hiện dưới dạng một đường, cột hoặc bộ dấu chấm riêng, mang lại cho người đọc một câu chuyện trực quan phong phú hơn.
+## Biểu đồ cột là gì và tại sao nên sử dụng?
 
-## Tại sao nên dùng Aspose.Words for Java để tạo tài liệu Word có biểu đồ?
-- **Kiểm soát toàn diện** loại biểu đồ, bố cục và kiểu dáng mà không cần mở Word thủ công.  
-- **Tạo tự động** phù hợp với các quy trình báo cáo tự động.  
-- **Đa nền tảng** – hoạt động trên bất kỳ môi trường Java nào tương thích.  
-- **API phong phú** để tùy chỉnh trục, nhãn dữ liệu và định dạng số.
+Biểu đồ cột hiển thị dữ liệu phân loại dưới dạng các thanh dọc, rất phù hợp để so sánh giá trị giữa các nhóm (doanh số theo khu vực, chi phí hàng tháng, v.v.). Trong các ứng dụng Java, việc tạo biểu đồ cột bằng Aspose.Words cho phép bạn nhúng trực tiếp các hình ảnh này vào các tệp Word / DOCX mà không cần Excel hay công cụ bên ngoài.
 
-## Yêu cầu trước
-- Java Development Kit (JDK) 8 hoặc cao hơn.  
-- Thư viện Aspose.Words for Java đã được thêm vào dự án của bạn (Maven/Gradle hoặc JAR).  
-- Giấy phép Aspose hợp lệ cho môi trường sản xuất (tùy chọn cho việc đánh giá).
+## Cách tạo biểu đồ cột
 
-## Hướng dẫn chi tiết
+Dưới đây là một ví dụ đơn giản tạo một biểu đồ cột cơ bản. Mã nguồn giống hệt đoạn gốc – chúng tôi chỉ thêm các chú thích giải thích để dễ hiểu hơn.
 
-### Bước 1: Tạo biểu đồ đường và **thêm nhiều dãy dữ liệu**
-Dưới đây là đoạn mã cốt lõi tạo một biểu đồ đường, xóa các dãy mặc định, và sau đó thêm ba dãy riêng biệt với nhãn dữ liệu tùy chỉnh.
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Thêm nhiều series
+
+Bạn có thể **thêm nhiều series** vào biểu đồ cột bằng cách gọi `chart.getSeries().add(...)` liên tục, như đã minh họa ở trên. Mỗi series có thể có tập hợp danh mục và giá trị riêng, cho phép bạn so sánh nhiều bộ dữ liệu đồng thời.
+
+## Cách tạo biểu đồ đường với nhãn dữ liệu tùy chỉnh
+
+Nếu bạn cần một biểu đồ đường thay vì biểu đồ cột, cùng một mẫu sẽ áp dụng. Ví dụ này cũng minh họa **định dạng nhãn dữ liệu** với các định dạng số khác nhau.
 
 ```java
 Document doc = new Document();
@@ -75,30 +86,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **Mẹo chuyên nghiệp:** Gọi `chart.getSeries().add(...)` bao nhiêu lần tùy thích để **thêm nhiều dãy dữ liệu** – mỗi lần gọi sẽ tạo một đường (hoặc cột, v.v.) mới trên cùng một biểu đồ.
+### Thêm nhãn dữ liệu
 
-### Bước 2: **Tạo biểu đồ cột** (create column chart java)
-Đoạn mã tiếp theo cho thấy cách chèn một biểu đồ cột đơn giản, hữu ích cho việc so sánh các danh mục cạnh nhau.
+Lệnh `series1.hasDataLabels(true)` **thêm nhãn dữ liệu** vào series, trong khi `setShowValue(true)` hiển thị giá trị thực tế trên biểu đồ.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## Cách thay đổi loại trục và tùy chỉnh thuộc tính trục
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### Bước 3: **Thay đổi dấu tick của trục** (change axis tick marks)
-Tùy chỉnh trục X và Y giúp cải thiện khả năng đọc. Đoạn mã dưới đây minh họa cách thay đổi dấu tick, đảo ngược thứ tự và đặt điểm giao cắt tùy chỉnh.
+Thay đổi loại trục (ví dụ: từ ngày sang danh mục) cho phép bạn kiểm soát cách các điểm dữ liệu được vẽ. Đoạn mã này cũng cho thấy cách **ẩn trục biểu đồ** nếu bạn muốn thiết kế tối giản.
 
 ```java
 Document doc = new Document();
@@ -120,6 +114,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -130,8 +127,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### Bước 4: **Áp dụng định dạng số tùy chỉnh** (apply custom number format)
-Bạn có thể định dạng số trên trục hoặc nhãn dữ liệu bằng bất kỳ mẫu nào được Excel hỗ trợ. Dưới đây là ví dụ ngắn gọn định dạng trục Y với mẫu phân cách hàng nghìn.
+### Thay đổi loại trục
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **thay đổi loại trục** từ trục dựa trên ngày sang trục danh mục, giúp bạn kiểm soát hoàn toàn vị trí nhãn.
+
+## Định dạng nhãn dữ liệu của biểu đồ (định dạng số)
+
+Bạn có thể áp dụng định dạng số trực tiếp cho trục hoặc nhãn dữ liệu. Ví dụ này định dạng các số trên trục Y với dấu phân cách hàng nghìn.
 
 ```java
 Document doc = new Document();
@@ -146,42 +148,36 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### Bước 5: Tạo tài liệu Word cuối cùng (generate chart word document)
-Sau khi cấu hình dãy, trục và nhãn, chỉ cần gọi `doc.save(...)` như trong các đoạn mã trên. Tệp `.docx` kết quả sẽ chứa các biểu đồ hoạt động đầy đủ, có thể mở và chỉnh sửa trong Microsoft Word.
-
-## Các trường hợp sử dụng phổ biến
-- **Bảng điều khiển tài chính** – biểu đồ đường với nhiều dãy cho doanh thu, chi phí và lợi nhuận.  
-- **Báo cáo bán hàng** – biểu đồ cột so sánh doanh số quý theo khu vực.  
-- **Theo dõi dự án** – biểu đồ khu vực hoặc phân tán hiển thị tiến độ theo thời gian.  
-
 ## Tùy chỉnh biểu đồ bổ sung
-Ngoài những điều cơ bản, bạn có thể điều chỉnh giới hạn, ẩn trục (`axis.setHidden(true)`), thay đổi màu sắc, thêm chú giải, và nhiều hơn nữa. Tham khảo tài liệu API Aspose.Words for Java để biết danh sách đầy đủ các tùy chọn.
 
-## Kết luận
-Trong hướng dẫn này chúng tôi đã trình bày cách **thêm nhiều dãy dữ liệu** vào biểu đồ, tạo cả biểu đồ đường và biểu đồ cột, **thay đổi dấu tick của trục**, **áp dụng định dạng số tùy chỉnh**, và cuối cùng **tạo tài liệu Word giàu biểu đồ**. Với Aspose.Words for Java, bạn có một cách mạnh mẽ, lập trình‑đầu tiên để nhúng các hình ảnh dữ liệu chuyên nghiệp trực tiếp vào tài liệu của mình.
+Ngoài các chức năng cơ bản, bạn có thể điều chỉnh giới hạn, đặt đơn vị khoảng cách giữa các nhãn, ẩn các trục cụ thể, và nhiều hơn nữa. Tham khảo tài liệu API Aspose.Words cho Java để biết danh sách đầy đủ các thuộc tính.
 
 ## Câu hỏi thường gặp
 
-**H: Làm thế nào để tôi thêm nhiều dãy dữ liệu vào một biểu đồ?**  
-Đ: Gọi `chart.getSeries().add()` cho mỗi dãy mà bạn muốn hiển thị. Mỗi lần gọi sẽ tạo một bộ dữ liệu mới xuất hiện dưới dạng một đường, cột hoặc nhóm dấu chấm riêng.
+**Q: Làm sao để thêm nhiều series vào một biểu đồ?**  
+A: Sử dụng `chart.getSeries().add()` cho mỗi series bạn muốn hiển thị. Mỗi lời gọi có thể cung cấp tên duy nhất, mảng danh mục và mảng giá trị.
 
-**H: Làm sao tôi định dạng nhãn dữ liệu bằng định dạng số tùy chỉnh?**  
-Đ: Truy cập đối tượng `DataLabels` của dãy và sử dụng `getNumberFormat().setFormatCode("mẫu của bạn")`. Bạn cũng có thể liên kết định dạng với ô nguồn bằng `isLinkedToSource(true)`.
+**Q: Làm sao để định dạng nhãn dữ liệu của biểu đồ với định dạng số tùy chỉnh?**  
+A: Truy cập đối tượng `DataLabels` của một series và gọi `getNumberFormat().setFormatCode("định dạng của bạn")`. Bạn cũng có thể liên kết định dạng với ô nguồn bằng `isLinkedToSource(true)`.
 
-**H: Làm thế nào để thay đổi dấu tick của trục?**  
-Đ: Sử dụng `setMajorTickMark()` và `setMinorTickMark()` trên `ChartAxis`. Các tùy chọn bao gồm `CROSS`, `INSIDE`, `OUTSIDE`, và `NONE`.
+**Q: Làm sao để ẩn một trục biểu đồ?**  
+A: Gọi `setHidden(true)` trên `ChartAxis` mà bạn muốn ẩn (ví dụ: `chart.getAxisY().setHidden(true)`).
 
-**H: Tôi có thể tạo các loại biểu đồ khác như biểu đồ phân tán hoặc khu vực không?**  
-Đ: Có – chỉ định `ChartType` mong muốn (ví dụ `ChartType.SCATTER`, `ChartType.AREA`) khi gọi `builder.insertChart(...)`.
+**Q: Cách tốt nhất để thay đổi loại trục là gì?**  
+A: Sử dụng `setCategoryType(AxisCategoryType.CATEGORY)` cho trục danh mục hoặc `AxisCategoryType.DATE` cho trục ngày.
 
-**H: Làm sao để ẩn một trục mà tôi không cần?**  
-Đ: Gọi `axis.setHidden(true)` trên `ChartAxis` mà bạn muốn ẩn.
+**Q: Làm sao để thêm nhãn dữ liệu vào một series?**  
+A: Kích hoạt chúng bằng `series.hasDataLabels(true)` và sau đó cấu hình hiển thị bằng `series.getDataLabels().setShowValue(true)`.
+
+## Kết luận
+
+Chúng tôi đã trình bày mọi thứ bạn cần để **tạo biểu đồ cột** bằng Aspose.Words cho Java — từ việc chèn biểu đồ cơ bản và thêm nhiều series, đến định dạng nhãn dữ liệu, thay đổi loại trục và ẩn trục biểu đồ để có giao diện sạch sẽ. Áp dụng các kỹ thuật này vào quy trình báo cáo hoặc tạo tài liệu của bạn để cung cấp các tài liệu Word chuyên nghiệp, dựa trên dữ liệu.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2025-12-13  
+**Kiểm tra với:** Aspose.Words cho Java 24.12 (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

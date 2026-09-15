@@ -1,9 +1,9 @@
 ---
-date: 2026-02-16
-description: 學習如何使用 Aspose.Words for Java 建立文字方塊、加入浮水印文字、將多個圖形群組、設定圖形長寬比，並將圖形放置於表格儲存格中。
+date: 2025-12-14
+description: 了解如何使用 Aspose.Words for Java **插入圖片形狀**。本指南將示範如何新增形狀、建立文字方塊形狀、在表格中放置形狀、設定形狀長寬比，以及加入標註形狀。
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: 如何在 Aspose.Words for Java 中建立文字方塊並使用文件形狀
+title: 在 Aspose.Words for Java 中使用文件形狀
 url: /zh-hant/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -14,38 +14,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中使用文件形狀
+# 如何使用 Aspose.Words for Java **插入圖片形狀**
 
-## 介紹在 Aspose.Words for Java 中使用文件形狀
+在本完整教學中，您將了解如何使用 Aspose.Words for Java **插入圖片形狀** 物件到 Word 文件。無論您是建立報告、行銷宣傳資料，或是互動表單，形狀都能讓您加入標註、按鈕、文字方塊、浮水印，甚至 SmartArt。我們將逐步說明每個步驟，解釋為何使用特定形狀，並提供可直接執行的程式碼片段。
 
-在本完整指南中，**您將學習如何建立文字方塊** 物件以及其他強大的形狀，使用 Aspose.Words for Java。形狀讓您能在 Word 文件中加入說明框、按鈕、浮水印、SmartArt 等，使文件在視覺上更具吸引力與互動性。我們將透過實務範例，從插入簡單文字方塊到群組多個形狀、設定長寬比、以及將形狀放入表格儲存格等步驟說明。
+## 快速解答
+- **什麼是新增形狀的主要方式？** 使用 `DocumentBuilder.insertShape` 或建立 `Shape` 實例並將其加入文件樹。  
+- **我可以將圖片作為形狀插入嗎？** 可以——呼叫 `builder.insertImage`，然後將回傳的 `Shape` 像其他形狀一樣處理。  
+- **如何保持形狀的長寬比？** 根據需求設定 `shape.setAspectRatioLocked(true)` 或 `false`。  
+- **可以將形狀群組化嗎？** 當然可以——將它們包裹在 `GroupShape` 中，並將群組作為單一節點插入。  
+- **SmartArt 圖表能在 Aspose.Words 中使用嗎？** 可以，您可以以程式方式偵測並更新 SmartArt 形狀。
 
-## 快速答案
-- **什麼是新增文字方塊的主要方法？** 使用 `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`。
-- **我可以將多個形狀群組在一起嗎？** 可以 – 建立 `GroupShape` 並加入子形狀。
-- **如何鎖定或解除鎖定形狀的長寬比？** 呼叫 `shape.setAspectRatioLocked(true/false)`。
-- **是否可以使用形狀加入浮水印？** 當然可以 – 插入帶有 `TEXT_PLAIN_TEXT` 的 `Shape`，並設定其填色/線條。
-- **SmartArt 圖表能在 Aspose.Words 中使用嗎？** 可以 – 使用 `shape.hasSmartArt()` 偵測，並透過 `shape.updateSmartArtDrawing()` 更新。
+## 什麼是 **插入圖片形狀**？
+「*圖片形狀*」是一種視覺元素，可在 Word 文件中容納點陣圖或向量圖形。在 Aspose.Words 中，圖片以 `Shape` 物件表示，讓您完整掌控大小、位置、旋轉與環繞方式。
 
-## 什麼是文字方塊以及為什麼要建立文字方塊形狀？
+## 為什麼在文件中使用形狀？
+- **視覺衝擊力：** 形狀能吸引注意力至關鍵資訊。  
+- **互動性：** 按鈕與標註可連結至 URL 或書籤。  
+- **版面彈性：** 以絕對或相對座標精確定位圖形。  
+- **自動化：** 無需手動編輯即可產生複雜版面。
 
-文字方塊是一個容器，可容納格式化文字、圖片或其他形狀。於自動化流程中**建立文字方塊**，讓您能在頁面任意位置放置浮動內容，非常適合註解、說明框或裝飾元素，而不會影響主要文件的排版流程。
+## 前置條件
+- Java Development Kit (JDK 8 或以上)  
+- Aspose.Words for Java 程式庫（從官方網站下載）  
+- 具備 Java 及物件導向程式設計的基本知識  
 
-## 如何新增形狀
+您可以在此下載程式庫：[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-在開始撰寫程式碼之前，請確保已在專案中參考 Aspose.Words for Java。若尚未加入，請從官方網站下載程式庫：
-
-[下載 Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### 將形狀加入文件
-
-## 如何群組多個形狀
-
-`GroupShape` 讓您可以將多個獨立形狀視為單一單位，方便一起移動或旋轉。
-
-### 插入 GroupShape
-
-以下是一個完整範例，建立群組、加入兩個不同形狀，並將群組插入文件。
+## 如何 **新增形狀** – 插入 GroupShape
+`GroupShape` 允許您將多個形狀視為單一單元，方便一次移動或格式化多個元素。
 
 ```java
 Document doc = new Document();
@@ -75,11 +72,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## 如何建立文字方塊（create text box）
-
-### 插入文字方塊形狀
-
-`insertShape` 方法讓您輕鬆加入文字方塊。以下範例示範兩種定位與旋轉文字方塊的方式。
+## 建立 **文字方塊形狀**
+文字方塊是一個可容納格式化文字的容器，您亦可將其旋轉以呈現動態外觀。
 
 ```java
 Document doc = new Document();
@@ -100,11 +94,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## 如何設定形狀的長寬比
-
-### 管理長寬比
-
-有時您需要讓形狀伸展而不保留原始比例。以下程式碼示範如何解除影像形狀的長寬比鎖定。
+## 設定 **形狀長寬比**
+有時您需要形狀自由伸展，有時則希望保留原始比例。控制長寬比相當簡單。
 
 ```java
 Document doc = new Document();
@@ -116,11 +107,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## 如何將形狀放置於表格儲存格中
-
-### 在表格儲存格內放置形狀
-
-以下為逐步範例，先建立表格，然後插入相對於頁面的浮水印形狀，同時也可放入儲存格內。
+## 在 **表格中放置形狀**
+將形狀嵌入表格儲存格對於報告版面相當實用。以下範例會建立表格，並插入跨整頁的浮水印樣式形狀。
 
 ```java
 Document doc = new Document();
@@ -164,11 +152,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## 使用 SmartArt 形狀
+## 新增 **標註形狀**
+標註形狀非常適合突顯備註或警示。上述程式碼已示範 `ACCENT_BORDER_CALLOUT_1`，您可將 `ShapeType` 替換為任何標註變體以符合設計需求。
+
+## 操作 SmartArt 形狀
 
 ### 偵測 SmartArt 形狀
-
-您可以使用 `hasSmartArt()` 方法在文件中程式化搜尋 SmartArt 物件。
+可透過程式方式辨識 SmartArt 圖表，讓您依需求處理或取代它們。
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -178,8 +168,7 @@ System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
 ### 更新 SmartArt 繪圖
-
-定位到 SmartArt 形狀後，可透過 `updateSmartArtDrawing()` 重新整理其內部繪圖資料。
+偵測後，您可重新整理 SmartArt 圖形，使其反映任何資料變更。
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -189,31 +178,33 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## 結論
+## 常見問題與技巧
+- **形狀未顯示：** 確認使用 `builder.insertNode` 將形狀插入於目標節點之後。  
+- **旋轉異常：** 請記得旋轉是以形狀中心為基準，必要時調整 `setLeft`/`setTop`。  
+- **長寬比被鎖定：** 預設多數形狀會鎖定長寬比，呼叫 `setAspectRatioLocked(false)` 可自由伸展。  
+- **SmartArt 偵測失敗：** 請確認使用支援 SmartArt 的 Aspose.Words 版本（v24 以上）。
 
-在本指南中，我們介紹了如何**建立文字方塊** 物件、群組多個形狀、調整長寬比、將形狀嵌入表格儲存格、加入浮水印，以及使用 Aspose.Words for Java 操作 SmartArt 圖表。這些技巧讓您能以程式方式建立內容豐富、互動性高的 Word 文件。
+## 常見問與答
 
-## 常見問答
+**Q: 什麼是 Aspose.Words for Java？**  
+A: Aspose.Words for Java 是一個 Java 程式庫，讓開發人員能以程式方式建立、修改與轉換 Word 文件。它提供廣泛的功能與工具，以處理各種格式的文件。
 
-**Q: 我可以在同一個形狀內同時結合文字方塊與圖片嗎？**  
-A: 可以。先建立文字方塊形狀後，使用 `builder.insertImage()` 插入圖片，然後依需求調整版面配置。
+**Q: 如何下載 Aspose.Words for Java？**  
+A: 您可透過以下連結從 Aspose 官方網站下載 Aspose.Words for Java：[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: 如何確保浮水印顯示在所有文件內容的背後？**  
-A: 將形狀的 `WrapType` 設為 `NONE`，並將 `RelativeHorizontalPosition` 與 `RelativeVerticalPosition` 設為 `PAGE`，即可將浮水印置於主流程之後。
+**Q: 使用文件形狀有什麼好處？**  
+A: 文件形狀能為文件加入視覺元素與互動性，使其更具吸引力與資訊性。透過形狀，您可以建立標註、按鈕、圖片、浮水印等，提升整體使用者體驗。
 
-**Q: 是否可以在 Word 中為群組形狀加入動畫效果？**  
-A: 雖然 Aspose.Words 能建立與群組形狀，但動畫功能不受支援，因為動畫屬於 Word UI 的特性。
+**Q: 我可以自訂形狀的外觀嗎？**  
+A: 可以，您可透過調整大小、位置、旋轉與填色等屬性來自訂形狀外觀。Aspose.Words for Java 提供豐富的形狀自訂選項。
 
-**Q: 支援 SmartArt 需要哪個版本的 Aspose.Words？**  
-A: SmartArt 偵測與更新功能自 Aspose.Words 20.9 for Java 版起即提供，之後的版本皆支援。
-
-**Q: 程式庫在處理大量形狀的巨型文件時效能如何？**  
-A: 效能良好。可使用 `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` 或更高版本，以提升大量形狀文件的處理效能。
+**Q: Aspose.Words for Java 是否相容於 SmartArt？**  
+A: 是的，Aspose.Words for Java 支援 SmartArt 形狀，讓您能在文件中使用複雜的圖表與圖形。
 
 ---
 
-**最後更新：** 2026-02-16  
-**測試環境：** Aspose.Words for Java 24.12  
+**最後更新：** 2025-12-14  
+**測試環境：** Aspose.Words for Java 24.12（最新）  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

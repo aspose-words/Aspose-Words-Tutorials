@@ -1,12 +1,12 @@
 ---
-date: 2026-02-16
-description: Dowiedz się, jak utworzyć pole tekstowe, dodać znak wodny w postaci słowa,
-  grupować wiele kształtów, ustawić proporcje kształtu oraz umieścić kształt w komórce
-  tabeli przy użyciu Aspose.Words dla Javy.
+date: 2025-12-14
+description: Naucz się, jak **wstawiać kształt obrazu** za pomocą Aspose.Words for
+  Java. Ten przewodnik pokazuje, jak dodawać kształty, tworzyć kształty pól tekstowych,
+  umieszczać kształty w tabelach, ustawiać proporcje kształtu oraz dodawać kształty
+  dymków.
 linktitle: Using Document Shapes
 second_title: Aspose.Words Java Document Processing API
-title: Jak utworzyć pole tekstowe i używać kształtów dokumentu w Aspose.Words dla
-  Javy
+title: Używanie kształtów dokumentu w Aspose.Words dla Javy
 url: /pl/java/document-conversion-and-export/using-document-shapes/
 weight: 14
 ---
@@ -17,38 +17,35 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Używanie kształtów dokumentu w Aspose.Words dla Javy
+# Jak **wstawić kształt obrazu** przy użyciu Aspose.Words for Java
 
-## Wprowadzenie do używania kształtów dokumentu w Aspose.Words dla Javy
-
-W tym obszernym przewodniku, **dowiesz się, jak tworzyć obiekty text box** i inne potężne kształty przy użyciu Aspose.Words dla Javy. Kształty pozwalają wzbogacić dokumenty Word o dymki, przyciski, znaki wodne, SmartArt i wiele innych — czyniąc je wizualnie atrakcyjnymi i interaktywnymi. Przejdziemy przez praktyczne przykłady, od wstawiania prostego text box po grupowanie wielu kształtów, ustawianie proporcji i umieszczanie kształtów w komórkach tabel.
+W tym kompleksowym samouczku odkryjesz, jak **wstawiać kształty obrazu** do dokumentów Word przy użyciu Aspose.Words for Java. Niezależnie od tego, czy tworzysz raporty, materiały marketingowe, czy interaktywne formularze, kształty pozwalają dodawać dymki, przyciski, pola tekstowe, znaki wodne i nawet SmartArt. Przeprowadzimy Cię przez każdy krok, wyjaśnimy, dlaczego warto użyć konkretnego kształtu, i udostępnimy gotowe do uruchomienia fragmenty kodu.
 
 ## Szybkie odpowiedzi
-- **Jaki jest podstawowy sposób dodania text box?** Use `DocumentBuilder.insertShape(ShapeType.TEXT_BOX, …)`.
-- **Czy mogę grupować kształty razem?** Yes – create a `GroupShape` and append child shapes.
-- **Jak zablokować lub odblokować proporcje kształtu?** Call `shape.setAspectRatioLocked(true/false)`.
-- **Czy można dodać znak wodny przy użyciu kształtu?** Absolutely – insert a `Shape` with `TEXT_PLAIN_TEXT` and set its fill/stroke.
-- **Czy diagramy SmartArt działają w Aspose.Words?** Yes – detect with `shape.hasSmartArt()` and update via `shape.updateSmartArtDrawing()`.
+- **Jaki jest podstawowy sposób dodania kształtu?** Użyj `DocumentBuilder.insertShape` lub utwórz instancję `Shape` i dodaj ją do drzewa dokumentu.  
+- **Czy mogę wstawić obraz jako kształt?** Tak – wywołaj `builder.insertImage`, a następnie traktuj zwrócony `Shape` jak każdy inny.  
+- **Jak zachować proporcje kształtu?** Ustaw `shape.setAspectRatioLocked(true)` lub `false` w zależności od potrzeb.  
+- **Czy można grupować kształty?** Oczywiście – otocz je w `GroupShape` i wstaw grupę jako pojedynczy węzeł.  
+- **Czy diagramy SmartArt działają z Aspose.Words?** Tak, możesz wykrywać i aktualizować kształty SmartArt programowo.
 
-## Czym jest text box i dlaczego tworzyć kształty text box?
+## Co to jest **wstawianie kształtu obrazu**?
+*Kształt obrazu* to element wizualny, który przechowuje grafikę rastrową lub wektorową w dokumencie Word. W Aspose.Words obraz jest reprezentowany przez obiekt `Shape`, dając pełną kontrolę nad rozmiarem, pozycją, obrotem i opakowaniem.
 
-Text box jest kontenerem, który może przechowywać sformatowany tekst, obrazy lub inne kształty. Używanie **create text box** w automatyzacji pozwala umieścić pływającą treść w dowolnym miejscu na stronie, idealne do adnotacji, dymków lub elementów dekoracyjnych bez zmiany głównego przepływu dokumentu.
+## Dlaczego używać kształtów w dokumentach?
+- **Efekt wizualny:** Kształty przyciągają uwagę do kluczowych informacji.  
+- **Interaktywność:** Przyciskom i dymkom można przypisać linki do URL‑ów lub zakładek.  
+- **Elastyczność układu:** Pozycjonuj grafikę precyzyjnie przy użyciu współrzędnych bezwzględnych lub względnych.  
+- **Automatyzacja:** Generuj złożone układy bez ręcznej edycji.
 
-## Jak dodać kształt
+## Prerequisites
+- Java Development Kit (JDK 8 lub nowszy)  
+- Biblioteka Aspose.Words for Java (pobierz z oficjalnej strony)  
+- Podstawowa znajomość Javy i programowania obiektowego  
 
-Before we dive into code, ensure Aspose.Words for Java is referenced in your project. If you haven’t added it yet, download the library from the official site:
+Możesz pobrać bibliotekę tutaj: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-[Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
-
-### Dodawanie kształtów do dokumentów
-
-## Jak grupować wiele kształtów
-
-A `GroupShape` lets you treat several individual shapes as a single unit—useful for moving or rotating them together.
-
-### Wstawianie GroupShape
-
-Below is a complete example that creates a group, adds two different shapes, and inserts the group into the document.
+## Jak **dodać kształt** – Wstawianie GroupShape
+`GroupShape` pozwala traktować kilka kształtów jako jedną jednostkę. Jest to przydatne przy przenoszeniu lub formatowaniu wielu elementów jednocześnie.
 
 ```java
 Document doc = new Document();
@@ -78,11 +75,8 @@ builder.insertNode(groupShape);
 doc.save("Your Directory Path" + "WorkingWithShapes.AddGroupShape.docx");
 ```
 
-## Jak utworzyć text box (create text box)
-
-### Wstawianie kształtu Text Box
-
-The `insertShape` method makes it straightforward to add a text box. The example below shows two ways to position and rotate a text box.
+## Utwórz **kształt pola tekstowego**
+Pole tekstowe to kontener, który może zawierać sformatowany tekst. Możesz je także obrócić, aby uzyskać dynamiczny wygląd.
 
 ```java
 Document doc = new Document();
@@ -103,11 +97,8 @@ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
 doc.save("Your Directory Path" + "WorkingWithShapes.InsertShape.docx", saveOptions);
 ```
 
-## Jak ustawić proporcje kształtu
-
-### Zarządzanie proporcjami
-
-Sometimes you need a shape to stretch without preserving its original proportions. The following snippet demonstrates unlocking the aspect ratio of an image shape.
+## Ustaw **proporcje kształtu**
+Czasami potrzebujesz, aby kształt rozciągał się dowolnie, innym razem chcesz zachować jego oryginalne proporcje. Kontrolowanie proporcji jest proste.
 
 ```java
 Document doc = new Document();
@@ -119,11 +110,8 @@ shape.setAspectRatioLocked(false);
 doc.save("Your Directory Path" + "WorkingWithShapes.AspectRatioLocked.docx");
 ```
 
-## Jak umieścić kształt w komórce tabeli
-
-### Umieszczanie kształtu wewnątrz komórki tabeli
-
-Below is a step‑by‑step example that builds a table, then inserts a watermark shape that is positioned relative to the page but can also be placed inside a cell.
+## Umieść **kształt w tabeli**
+Osadzenie kształtu w komórce tabeli może być przydatne przy układach raportów. Poniższy przykład tworzy tabelę, a następnie wstawia kształt w stylu znaku wodnego, który rozciąga się na całą stronę.
 
 ```java
 Document doc = new Document();
@@ -167,11 +155,13 @@ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010);
 doc.save("Your Directory Path" + "WorkingWithShapes.LayoutInCell.docx");
 ```
 
-## Praca z kształtami SmartArt
+## Dodaj **kształt dymku**
+Kształt dymku jest idealny do wyróżniania notatek lub ostrzeżeń. Chociaż powyższy kod już demonstruje `ACCENT_BORDER_CALLOUT_1`, możesz zamienić `ShapeType` na dowolny wariant dymku, aby dopasować go do swojego projektu.
+
+## Working with SmartArt Shapes
 
 ### Wykrywanie kształtów SmartArt
-
-You can programmatically find SmartArt objects in a document using the `hasSmartArt()` method.
+Diagramy SmartArt można identyfikować programowo, co pozwala na ich przetwarzanie lub zamianę w razie potrzeby.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -180,9 +170,8 @@ int count = (int) shapes.stream().filter(s -> s.hasSmartArt()).count();
 System.out.println("The document has " + count + " shapes with SmartArt.");
 ```
 
-### Aktualizowanie rysunków SmartArt
-
-Once you’ve located SmartArt shapes, you can refresh their internal drawing data with `updateSmartArtDrawing()`.
+### Aktualizacja rysunków SmartArt
+Po wykryciu możesz odświeżyć grafiki SmartArt, aby odzwierciedlić zmiany danych.
 
 ```java
 Document doc = new Document("Your Directory Path" + "SmartArt.docx");
@@ -192,32 +181,34 @@ for (Shape shape : (Iterable<Shape>) doc.getChildNodes(NodeType.SHAPE, true)) {
 }
 ```
 
-## Podsumowanie
+## Typowe problemy i wskazówki
+- **Kształt nie pojawia się:** Upewnij się, że kształt jest wstawiany po węźle docelowym przy użyciu `builder.insertNode`.  
+- **Nieoczekiwany obrót:** Pamiętaj, że obrót jest stosowany wokół środka kształtu; w razie potrzeby dostosuj `setLeft`/`setTop`.  
+- **Zablokowane proporcje:** Domyślnie wiele kształtów blokuje proporcje; wywołaj `setAspectRatioLocked(false)`, aby swobodnie rozciągać.  
+- **Wykrywanie SmartArt nie powodzi się:** Sprawdź, czy używasz wersji Aspose.Words obsługującej SmartArt (v24+).
 
-In this guide, we’ve covered how to **create text box** objects, group multiple shapes, adjust aspect ratios, embed shapes inside table cells, add watermarks, and work with SmartArt diagrams using Aspose.Words for Java. These techniques empower you to build richly formatted, interactive Word documents programmatically.
+## Frequently Asked Questions
 
-## Najczęściej zadawane pytania
+**Q: Czym jest Aspose.Words for Java?**  
+A: Aspose.Words for Java to biblioteka Java, która umożliwia programistom tworzenie, modyfikowanie i konwertowanie dokumentów Word programowo. Dostarcza szeroki zakres funkcji i narzędzi do pracy z dokumentami w różnych formatach.
 
-**Q: Czy mogę połączyć text box z obrazem w tym samym kształcie?**  
-A: Yes. Insert an image into the text box shape using `builder.insertImage()` after creating the shape, then adjust its layout as needed.
+**Q: Jak mogę pobrać Aspose.Words for Java?**  
+A: Możesz pobrać Aspose.Words for Java ze strony Aspose, korzystając z tego linku: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
-**Q: Jak zapewnić, że znak wodny pojawia się za całą treścią dokumentu?**  
-A: Set the shape’s `WrapType` to `NONE` and adjust its `RelativeHorizontalPosition` and `RelativeVerticalPosition` to `PAGE`. This positions the watermark behind the main flow.
+**Q: Jakie są korzyści z używania kształtów w dokumencie?**  
+A: Kształty w dokumencie dodają elementy wizualne i interaktywność, czyniąc je bardziej angażującymi i informacyjnymi. Dzięki kształtom możesz tworzyć dymki, przyciski, obrazy, znaki wodne i wiele innych, co podnosi ogólne wrażenia użytkownika.
 
-**Q: Czy można animować grupowany kształt w Wordzie?**  
-A: While Aspose.Words can create and group shapes, animation features are not supported because they rely on Word’s UI capabilities.
+**Q: Czy mogę dostosować wygląd kształtów?**  
+A: Tak, możesz dostosować wygląd kształtów, zmieniając ich właściwości, takie jak rozmiar, pozycja, obrót i kolor wypełnienia. Aspose.Words for Java oferuje szerokie możliwości personalizacji kształtów.
 
-**Q: Jakiej wersji Aspose.Words potrzebuję do obsługi SmartArt?**  
-A: SmartArt detection and updating are available starting from Aspose.Words 20.9 for Java and later.
-
-**Q: Czy biblioteka radzi sobie efektywnie z dużymi dokumentami zawierającymi wiele kształtów?**  
-A: Yes. Use `doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2010)` or higher to improve performance on documents with many shapes.
+**Q: Czy Aspose.Words for Java jest kompatybilny ze SmartArt?**  
+A: Tak, Aspose.Words for Java obsługuje kształty SmartArt, umożliwiając pracę z złożonymi diagramami i grafiką w dokumentach.
 
 ---
 
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Words for Java 24.12  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-14  
+**Testowano z:** Aspose.Words for Java 24.12 (latest)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

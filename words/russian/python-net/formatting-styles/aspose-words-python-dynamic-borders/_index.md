@@ -5,7 +5,9 @@
 "url": "/ru/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Динамические границы документа с Aspose.Words для Python
 
 ## Введение
@@ -267,3 +269,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## Заключение
 Освоив эти приемы с Aspose.Words для Python, вы сможете создавать профессионально выглядящие документы с динамическими границами. Это руководство дает прочную основу для дальнейшего изучения возможностей библиотеки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

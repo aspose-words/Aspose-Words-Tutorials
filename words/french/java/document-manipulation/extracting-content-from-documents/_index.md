@@ -1,10 +1,13 @@
 ---
-"description": "Apprenez à extraire facilement le contenu de vos documents avec Aspose.Words pour Java. Notre guide étape par étape et nos exemples de code simplifient le processus."
-"linktitle": "Extraction de contenu à partir de documents"
-"second_title": "API de traitement de documents Java Aspose.Words"
-"title": "Extraction de contenu de documents dans Aspose.Words pour Java"
-"url": "/fr/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Apprenez à extraire du texte avec Aspose.Words pour Java. Ce guide étape
+  par étape montre plusieurs techniques d'extraction avec des exemples de code prêts
+  à l'emploi.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Comment extraire du texte avec Aspose.Words pour Java
+url: /fr/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extraction de contenu de documents dans Aspose.Words pour Java
+# Comment extraire du texte avec Aspose.Words pour Java
 
+## Comment extraire du texte avec Aspose.Words pour Java
 
-## Introduction à l'extraction de contenu de documents dans Aspose.Words pour Java
+Dans le domaine du traitement de documents, **comment extraire du texte avec Aspose.Words** est une question fréquente pour les développeurs Java. Que vous ayez besoin d’extraire du texte brut, des tableaux, des images ou des éléments spécifiques comme des signets ou des commentaires, Aspose.Words pour Java propose une API riche qui rend la tâche simple. Dans ce guide, nous parcourrons des dizaines de scénarios d’extraction, expliquerons pourquoi chaque approche est importante et fournirons des exemples de code prêts à l’emploi que vous pourrez intégrer à votre projet.
 
-Dans le monde du traitement de documents, l'extraction de contenu est une exigence courante. Que vous ayez besoin d'extraire du texte, des tableaux, des images ou des éléments spécifiques, Aspose.Words pour Java offre des outils puissants pour simplifier cette tâche. Dans ce guide complet, nous vous expliquerons comment extraire du contenu de documents avec Aspose.Words pour Java. 
+## Réponses rapides
+- **Quelle bibliothèque faut‑il ?** Aspose.Words pour Java (téléchargez‑la depuis le site officiel).  
+- **Puis‑je extraire uniquement du texte brut ?** Oui – utilisez `Document.getText()` ou `DocumentBuilder` avec les champs.  
+- **Est‑il possible d’extraire entre des signets ?** Absolument, utilisez `BookmarkStart`/`BookmarkEnd` avec `ExtractContentHelper`.  
+- **Ai‑je besoin d’une licence pour la production ?** Une licence commerciale est requise pour une utilisation non‑d’évaluation.  
+- **Quelles versions de Java sont prises en charge ?** Java 8 et les versions ultérieures sont entièrement compatibles.
 
 ## Prérequis
 
-Avant de nous plonger dans le processus d’extraction, assurez-vous que les conditions préalables suivantes sont en place :
+1. **Aspose.Words pour Java** – installez la bibliothèque et ajoutez‑la à votre projet. Vous pouvez la télécharger [ici](https://releases.aspose.com/words/java/).  
+2. **Un document d’exemple** – pour les exemples, nous utiliserons un fichier nommé `Extract content.docx`. Placez‑le dans un dossier que vous pourrez référencer depuis votre code.
 
-1. Aspose.Words pour Java : Aspose.Words pour Java doit être installé et configuré dans votre environnement de développement Java. Vous pouvez le télécharger ici. [ici](https://releases.aspose.com/words/java/).
-
-2. Document pour extraire du contenu : Pour ce guide, nous utiliserons un exemple de document intitulé « Extraire le contenu.docx ». Assurez-vous d'avoir un document similaire prêt à être extrait.
-
-## Extraction de contenu entre les nœuds de niveau bloc
+## Extraction de contenu entre nœuds de niveau bloc
 
 ```java
-// Exemple de code Java pour l'extraction de contenu entre les nœuds de niveau bloc
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +50,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## Extraction de contenu entre les signets
+## Extraction de contenu entre signets
 
 ```java
-// Exemple de code Java pour extraire le contenu entre les signets
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +66,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## Extraction de contenu entre les plages de commentaires
+## Extraction de contenu entre plages de commentaires
 
 ```java
-// Exemple de code Java pour extraire le contenu entre les plages de commentaires
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +81,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## Extraction de contenu entre les paragraphes
+## Extraction de contenu entre paragraphes
 
 ```java
-// Exemple de code Java pour extraire le contenu entre les paragraphes
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +93,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## Extraction de contenu entre les styles de paragraphe
+## Extraction de contenu entre styles de paragraphe
 
 ```java
-// Exemple de code Java pour extraire le contenu entre les styles de paragraphe
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +107,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## Extraction de contenu entre les exécutions
+## Extraction de contenu entre runs
 
 ```java
-// Exemple de code Java pour l'extraction de contenu entre les exécutions
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +120,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## Extraction de contenu à l'aide de DocumentVisitor
+## Extraction de contenu à l’aide de DocumentVisitor
 
 ```java
-// Exemple de code Java pour l'extraction de contenu à l'aide de DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## Extraction de contenu à l'aide d'un champ
+## Extraction de contenu à l’aide de champs
 
 ```java
-// Exemple de code Java pour l'extraction de contenu à l'aide de Field
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -141,7 +147,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.doc
 ## Extraction de la table des matières
 
 ```java
-// Exemple de code Java pour l'extraction de la table des matières
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -158,10 +164,10 @@ for (Field field : doc.getRange().getFields()) {
 }
 ```
 
-## Extraction de texte uniquement
+## Extraction du texte uniquement
 
 ```java
-// Exemple de code Java pour l'extraction de texte uniquement
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +175,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## Extraction de contenu en fonction des styles
+## Extraction de contenu basé sur les styles
 
 ```java
-// Exemple de code Java pour l'extraction de contenu en fonction des styles
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +213,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## Extraction et impression de texte
+## Extraction et affichage du texte
 
 ```java
-// Exemple de code Java pour l'extraction et l'impression de texte
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +227,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## Extraction d'images vers des fichiers
+## Extraction d’images vers des fichiers
 
 ```java
-// Exemple de code Java pour extraire des images vers des fichiers
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -240,37 +246,35 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## Conclusion
 
-Félicitations ! Vous avez appris à extraire le contenu de documents avec Aspose.Words pour Java. Ce guide aborde différentes techniques d'extraction, notamment le contenu entre les nœuds de niveau bloc, les signets, les plages de commentaires, les paragraphes, etc. Vous êtes désormais équipé pour extraire efficacement le contenu de vos documents dans vos applications Java.
+Félicitations ! Vous disposez maintenant d’une boîte à outils solide pour **comment extraire du texte avec Aspose.Words** en Java. Des nœuds de niveau bloc aux signets, commentaires, styles et même images, l’API vous offre un contrôle granulaire sur ce que vous récupérez d’un document. Utilisez ces extraits comme base, adaptez‑les à vos propres structures de fichiers et automatisez le processus d’extraction sur de grands ensembles de documents.
 
 ## FAQ
 
-### Comment extraire le contenu de sections spécifiques d'un document ?
+**Q : Comment extraire du contenu d’un document protégé par mot de passe ?**  
+R : Chargez le document avec le constructeur incluant le mot de passe : `new Document(path, new LoadOptions("password"))`, puis exécutez l’une des méthodes d’extraction présentées ci‑dessus.
 
-Pour extraire le contenu de sections de document spécifiques, vous pouvez identifier les points de départ et de fin des sections et utiliser les méthodes Aspose.Words pour Java appropriées pour extraire le contenu entre elles.
+**Q : Puis‑je extraire du contenu de plusieurs documents en une seule exécution ?**  
+R : Oui. Parcourez une liste de chemins de fichiers, créez un `Document` pour chacun et appliquez la même logique d’extraction à l’intérieur de la boucle.
 
-### Puis-je extraire le contenu de documents protégés par mot de passe ?
+**Q : Existe‑t‑il un moyen d’extraire uniquement le texte visible (en ignorant le texte masqué ou les codes de champ) ?**  
+R : Utilisez `doc.getText()` pour obtenir le texte visible brut. Pour un contrôle plus fin, parcourez les nœuds et filtrez par `NodeType.RUN` et `Run.getFont().getHidden()`.
 
-Oui, Aspose.Words pour Java permet d'extraire le contenu de documents protégés par mot de passe. Vous pouvez saisir le mot de passe à l'ouverture du document grâce à l'option `Document` constructeur de classe.
+**Q : Vers quels formats puis‑je enregistrer le contenu extrait ?**  
+R : Après extraction, vous pouvez enregistrer un `Document` au format DOCX, PDF, HTML, TXT ou tout autre format pris en charge par Aspose.Words via `doc.save("output.pdf")`.
 
-### Comment puis-je extraire du contenu et l'enregistrer dans différents formats, tels que du texte brut ou du HTML ?
+**Q : Aspose.Words prend‑il en charge l’extraction de contenu à partir de fichiers volumineux (des centaines de Mo) ?**  
+R : Oui, mais il est recommandé d’utiliser `LoadOptions` avec `LoadFormat` et `MemoryOptimization` pour réduire la consommation de mémoire.
 
-Vous pouvez extraire le contenu d'un document et l'enregistrer sous différents formats grâce à Aspose.Words pour Java. Après extraction, vous pouvez utiliser l'outil `Document` méthodes de classe pour l'enregistrer dans des formats tels que du texte brut, du HTML ou d'autres.
+---
 
-### Existe-t-il un moyen d’extraire le contenu d’éléments de document spécifiques, tels que des tableaux ou des images ?
-
-Oui, vous pouvez extraire le contenu d'éléments spécifiques d'un document, tels que des tableaux ou des images, avec Aspose.Words pour Java. Identifiez les éléments à extraire, puis utilisez les méthodes appropriées pour extraire leur contenu.
-
-### Comment puis-je automatiser le processus d’extraction de contenu dans mon application Java ?
-
-Pour automatiser le processus d'extraction de contenu dans votre application Java, vous pouvez créer du code personnalisé basé sur les techniques décrites dans ce guide. Vous pouvez également implémenter une logique pour parcourir plusieurs documents et extraire le contenu selon vos besoins.
-
+**Dernière mise à jour :** 2026-01-01  
+**Testé avec :** Aspose.Words pour Java 24.12  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

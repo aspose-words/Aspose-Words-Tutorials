@@ -1,10 +1,9 @@
 ---
-date: 2026-02-16
-description: 了解如何在 Aspose.Words for Java 中向圖表添加多個系列、變更軸刻度標記、套用自訂數字格式，並產生包含折線圖與柱狀圖的圖表
-  Word 文件。
+date: 2025-12-13
+description: 學習如何使用 Aspose.Words for Java 建立柱狀圖並設定圖表資料標籤。探索加入多個系列、變更軸類型以及隱藏圖表軸。
 linktitle: Using Charts
 second_title: Aspose.Words Java Document Processing API
-title: 在 Aspose.Words for Java 中向圖表添加多個系列
+title: 如何使用 Aspose.Words for Java 建立柱形圖
 url: /zh-hant/java/document-conversion-and-export/using-charts/
 weight: 12
 ---
@@ -15,39 +14,49 @@ weight: 12
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中向圖表添加多個系列
+# 如何使用 Aspose.Words for Java 建立柱狀圖
 
-## 在 Aspose.Words for Java 中使用圖表的簡介
+在本教學中，您將使用 Aspose.Words for Java 直接在 Word 文件中 **建立柱狀圖** 可視化。我們將逐步說明如何建立不同類型的圖表、加入多個資料系列、格式化圖表資料標籤、變更座標軸類型，甚至在需要更簡潔外觀時隱藏圖表座標軸。完成後，您將掌握一套穩固、可投入生產環境的方式，將豐富圖表嵌入文件中。
 
-在本教學中，您將學習 **如何向圖表添加多個系列**，以及為何自訂座標軸刻度標記和套用自訂數字格式很重要，並學會產生含圖表的 Word 文件。無論您需要用於財務資料的折線圖，或是用於銷售數據的柱狀圖，以下步驟將指導您以程式方式建立、樣式設定與微調圖表。
+## 快速答覆
+- **建立圖表的主要類別是什麼？** `DocumentBuilder` 搭配 `insertChart`。
+- **哪個方法可加入新系列？** `chart.getSeries().add(...)`。
+- **如何格式化圖表資料標籤？** 使用 `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`。
+- **我可以隱藏座標軸嗎？** 可以，對座標軸物件呼叫 `setHidden(true)`。
+- **使用 Aspose.Words 是否需要授權？** 生產環境必須購買授權；亦提供免費試用版。
 
-## 快速解答
-- **如何添加多個系列？** 使用 `chart.getSeries().add(...)` 為每個想要顯示的系列新增。  
-- **我可以更改座標軸刻度標記嗎？** 可以 – 在座標軸物件上使用 `setMajorTickMark()` 和 `setMinorTickMark()`。  
-- **資料標籤可以套用什麼格式？** 任何 Excel 相容的數字格式，例如 `"$"#,##0.00` 或 `0.00%`。  
-- **支援哪些圖表類型？** 折線圖、柱狀圖、面積圖、氣泡圖、散佈圖，以及透過 `ChartType` 支援的更多類型。  
-- **生產環境是否需要授權？** 需要有效的 Aspose.Words for Java 授權才能完整使用所有功能。
+## 什麼是柱狀圖，為什麼要使用它？
 
-## 什麼是圖表中的「添加多個系列」？
+柱狀圖以垂直長條顯示類別資料，非常適合比較不同群組的數值（例如各區域銷售額、每月支出等）。在 Java 應用程式中，使用 Aspose.Words 產生柱狀圖，可直接將這些視覺化圖表嵌入 Word / DOCX 檔案，無需 Excel 或其他外部工具。
 
-添加多個系列是指在同一圖表區域內插入多於一組資料集，讓您能夠並排比較不同的類別或時間段。每個系列會以自己的折線、柱狀或標記集合呈現，為讀者提供更豐富的視覺敘事。
+## 如何建立柱狀圖
 
-## 為何使用 Aspose.Words for Java 產生圖表 Word 文件？
+以下是一個簡單的範例，建立一個基本的柱狀圖。程式碼與原始片段完全相同，我們僅加入說明性註解以便於閱讀。
 
-- **完整控制** 圖表類型、版面配置與樣式，無需手動開啟 Word。  
-- **程式化產生** 可整合至自動化報告流程。  
-- **跨平台** – 可在任何相容 Java 的環境中執行。  
-- **豐富的 API** 可自訂座標軸、資料標籤與數字格式。
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
 
-## 先決條件
-- Java Development Kit (JDK) 8 或以上。  
-- 已將 Aspose.Words for Java 函式庫加入專案（Maven/Gradle 或 JAR）。  
-- 生產環境的有效 Aspose 授權（評估可選）。
+// Delete default generated series.
+chart.getSeries().clear();
 
-## 步驟說明
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
 
-### 步驟 1：建立折線圖並 **添加多個系列**
-以下為核心程式碼，建立折線圖、清除預設系列，並加入三個具有自訂資料標籤的不同系列。
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### 加入多個系列
+
+您可以透過重複呼叫 `chart.getSeries().add(...)`，如上例所示，**加入多個系列** 到柱狀圖中。每個系列可擁有自己的類別與數值，讓您能夠並排比較多組資料。
+
+## 如何建立帶自訂資料標籤的折線圖
+
+若需要折線圖而非柱狀圖，使用方式相同。此範例同時示範如何以不同的數字格式 **格式化圖表資料標籤**。
 
 ```java
 Document doc = new Document();
@@ -76,30 +85,13 @@ series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-> **專業提示：** 依需求多次呼叫 `chart.getSeries().add(...)` 以 **添加多個系列** —— 每次呼叫都會在同一圖表上產生新的折線（或柱狀等）。
+### 加入資料標籤
 
-### 步驟 2：**建立柱狀圖**（create column chart java）
-以下程式碼示範如何插入簡易柱狀圖，適合用於並排比較各類別。
+呼叫 `series1.hasDataLabels(true)` **為系列加入資料標籤**，而 `setShowValue(true)` 則會在圖表上顯示實際數值。
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## 如何變更座標軸類型與自訂座標軸屬性
 
-// Delete default generated series.
-chart.getSeries().clear();
-
-// Creating categories and adding data.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-### 步驟 3：**更改座標軸刻度標記**（change axis tick marks）
-自訂 X 與 Y 軸可提升可讀性。以下程式碼示範如何變更刻度標記、反轉順序，以及設定自訂交叉點。
+變更座標軸類型（例如由日期軸改為類別軸）可控制資料點的繪製方式。此程式碼片段亦示範若想要極簡設計，如何 **隱藏圖表座標軸**。
 
 ```java
 Document doc = new Document();
@@ -121,6 +113,9 @@ xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
 
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
+
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
 yAxis.setMinorUnit(50.0);
@@ -131,8 +126,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-### 步驟 4：**套用自訂數字格式**（apply custom number format）
-您可以使用 Excel 支援的任意模式格式化座標軸數字或資料標籤。以下為簡潔範例，將 Y 軸以千位分隔符號格式化。
+### 變更座標軸類型
+
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **將座標軸類型** 從日期軸變更為類別軸，讓您完全掌控標籤的放置方式。
+
+## 如何格式化圖表資料標籤（數字格式）
+
+您可以直接對座標軸或資料標籤套用數字格式。此範例將 Y 軸的數字以千位分隔符號顯示。
 
 ```java
 Document doc = new Document();
@@ -147,41 +147,35 @@ chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-### 步驟 5：產生最終的 Word 文件（generate chart word document）
-在完成系列、座標軸與標籤設定後，只需如上段程式碼呼叫 `doc.save(...)`。產生的 `.docx` 檔案內含完整功能的圖表，可在 Microsoft Word 中開啟與編輯。
+## 其他圖表自訂功能
 
-## 常見使用情境
-- **財務儀表板** – 折線圖顯示收入、支出與利潤等多個系列。  
-- **銷售報告** – 柱狀圖比較各區域的季度銷售。  
-- **專案追蹤** – 面積圖或散佈圖呈現隨時間的進度。
+除基本功能外，您還可以調整範圍、設定標籤之間的間隔單位、隱藏特定座標軸等。請參閱 Aspose.Words for Java API 文件，以取得完整屬性清單。
 
-## 其他圖表自訂
-除基本功能外，您還可調整範圍、隱藏座標軸（`axis.setHidden(true)`）、變更顏色、加入圖例等。請參考 Aspose.Words for Java API 說明文件取得完整選項清單。
+## 常見問題
+
+**Q: 如何在圖表中加入多個系列？**  
+A: 對每個欲顯示的系列呼叫 `chart.getSeries().add()`。每次呼叫可提供唯一的名稱、類別陣列與數值陣列。
+
+**Q: 如何使用自訂數字格式來格式化圖表資料標籤？**  
+A: 取得系列的 `DataLabels` 物件，並呼叫 `getNumberFormat().setFormatCode("your format")`。亦可使用 `isLinkedToSource(true)` 將格式連結至來源儲存格。
+
+**Q: 如何隱藏圖表座標軸？**  
+A: 在欲隱藏的 `ChartAxis` 上呼叫 `setHidden(true)`（例如 `chart.getAxisY().setHidden(true)`）。
+
+**Q: 變更座標軸類型的最佳方式是什麼？**  
+A: 對類別座標軸使用 `setCategoryType(AxisCategoryType.CATEGORY)`，對日期座標軸使用 `AxisCategoryType.DATE`。
+
+**Q: 如何為系列加入資料標籤？**  
+A: 使用 `series.hasDataLabels(true)` 啟用，然後透過 `series.getDataLabels().setShowValue(true)` 設定可見性。
 
 ## 結論
-本指南說明了如何 **添加多個系列** 至圖表、建立折線圖與柱狀圖、**更改座標軸刻度標記**、**套用自訂數字格式**，以及最終 **產生含圖表的 Word 文件**。使用 Aspose.Words for Java，您可透過程式碼方式將專業的資料視覺化直接嵌入文件，功能強大且彈性十足。
 
-## 常見問與答
-
-**Q: 如何向圖表添加多個系列？**  
-A: 為每個想要顯示的系列呼叫 `chart.getSeries().add()`。每次呼叫都會產生一個新的資料集，顯示為自己的折線、柱狀或標記群組。
-
-**Q: 如何使用自訂數字格式設定資料標籤？**  
-A: 取得系列的 `DataLabels` 物件，並使用 `getNumberFormat().setFormatCode("your pattern")`。亦可透過 `isLinkedToSource(true)` 將格式連結至來源儲存格。
-
-**Q: 如何更改座標軸刻度標記？**  
-A: 在 `ChartAxis` 上使用 `setMajorTickMark()` 與 `setMinorTickMark()`。可選擇 `CROSS`、`INSIDE`、`OUTSIDE`、`NONE` 等。
-
-**Q: 我可以建立其他圖表類型，例如散佈圖或面積圖嗎？**  
-A: 可以 – 在呼叫 `builder.insertChart(...)` 時指定所需的 `ChartType`（例如 `ChartType.SCATTER`、`ChartType.AREA`）。
-
-**Q: 如何隱藏不需要的座標軸？**  
-A: 在想要隱藏的 `ChartAxis` 上呼叫 `axis.setHidden(true)`。
+我們已說明如何使用 Aspose.Words for Java **建立柱狀圖** 可視化——從插入基本圖表、加入多個系列、格式化圖表資料標籤、變更座標軸類型，到隱藏圖表座標軸以獲得簡潔外觀。將這些技巧整合至您的報表或文件產生流程，即可交付專業且以資料驅動的 Word 文件。
 
 ---
 
-**最後更新：** 2026-02-16  
-**測試環境：** Aspose.Words for Java 24.11  
+**最後更新：** 2025-12-13  
+**測試環境：** Aspose.Words for Java 24.12 (latest)  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

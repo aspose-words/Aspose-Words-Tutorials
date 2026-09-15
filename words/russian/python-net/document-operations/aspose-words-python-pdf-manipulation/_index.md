@@ -5,7 +5,9 @@
 "url": "/ru/python-net/document-operations/aspose-words-python-pdf-manipulation/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Расширенные возможности работы с PDF-файлами с помощью Aspose.Words для Python
 
 ## Введение
@@ -251,3 +253,7 @@ Aspose.Words для Python предлагает мощные инструмен�
 - «Преобразование PDF в DOCX»
 - «Управление документами с помощью Python»
 - «Обработка зашифрованных PDF-файлов»
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

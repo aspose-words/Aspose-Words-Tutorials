@@ -5,7 +5,9 @@
 "url": "/de/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Anleitung zur Implementierung der Listenerkennung in Text mit Aspose.Words für Python
 
 ## Einführung
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Tools zur Inhaltsanalyse**: Extrahieren Sie strukturierte Daten aus Textdateien zur weiteren Analyse oder Berichterstattung.
 3. **Datenbereinigungsaufgaben**Standardisieren Sie die Textformatierung, indem Sie Leerzeichen verwalten und Listenelemente identifizieren.
 4. **Link-Verifizierung**: Validieren Sie Links innerhalb eines Stapels von Textdokumenten, um sicherzustellen, dass sie aktiv und korrekt sind.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
