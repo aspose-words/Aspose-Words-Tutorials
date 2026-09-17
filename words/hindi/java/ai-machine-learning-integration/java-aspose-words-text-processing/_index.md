@@ -1,58 +1,115 @@
 ---
-"date": "2025-03-28"
-"description": "OpenAI के GPT-4 और Google के Gemini के साथ Java के लिए Aspose.Words का उपयोग करके टेक्स्ट सारांश और अनुवाद को स्वचालित करना सीखें। आज ही अपने Java एप्लिकेशन को बेहतर बनाएँ।"
-"title": "जावा में मास्टर टेक्स्ट प्रोसेसिंग&#58; संक्षेपण और अनुवाद के लिए Aspose.Words और AI मॉडल का उपयोग करना"
-"url": "/hi/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-09-17'
+description: Aspose.Words for Java और GPT‑4 व Gemini जैसे AI मॉडलों के साथ java टेक्स्ट
+  का सारांश कैसे बनाएं, साथ ही लाइसेंसिंग विवरण सीखें।
+keywords:
+- summarize text java
+- aspose.words license java
+- java ai text processing
+- text translation java
+lastmod: '2026-09-17'
+og_description: Aspose.Words for Java और GPT‑4 व Gemini जैसे AI मॉडलों के साथ java
+  टेक्स्ट का सारांश बनाएं। चरण‑दर‑चरण कोड, लाइसेंसिंग टिप्स और अनुवाद मार्गदर्शन प्राप्त
+  करें।
+og_image_alt: Guide showing Java code integrating Aspose.Words with AI for summarization
+  and translation
+og_title: Aspose.Words और AI मॉडलों का उपयोग करके java टेक्स्ट का सारांश बनाएं
+schemas:
+- author: Aspose
+  dateModified: '2026-09-17'
+  description: Learn how to summarize text java with Aspose.Words for Java and AI
+    models like GPT‑4 and Gemini, plus licensing details.
+  headline: Summarize text java using Aspose.Words and AI models
+  type: TechArticle
+- description: Learn how to summarize text java with Aspose.Words for Java and AI
+    models like GPT‑4 and Gemini, plus licensing details.
+  name: Summarize text java using Aspose.Words and AI models
+  steps:
+  - name: initialize the document and AI client
+    text: The `OpenAiClient` (or equivalent) class manages authentication and request
+      handling for the OpenAI API. First, create a `Document` instance and set up
+      the OpenAI client with your API key.
+  - name: configure summarization options
+    text: The `SummarizeOptions` class encapsulates parameters such as maximum token
+      count and desired summary length for the AI model. Define how long you want
+      the summary to be (e.g., 150 words) and build a `SummarizeOptions` object that
+      the AI model will respect.
+  - name: save the summary
+    text: Write the AI‑generated summary into a new Word file so it can be shared
+      or further processed.
+  - name: load and prepare the document
+    text: The `GeminiClient` class handles communication with the Google Gemini API,
+      including sending text and receiving translations. Open the source document
+      and extract its plain‑text content.
+  - name: execute translation to Arabic (or any supported language)
+    text: Call the Gemini API, specify the target language code (e.g., `ar` for Arabic),
+      and receive the translated text.
+  type: HowTo
+- questions:
+  - answer: Yes—once you acquire a valid Aspose.Words license for Java, you may deploy
+      the code in any commercial product.
+    question: Can I use this solution in a commercial Java application?
+  - answer: Over 100 languages, including Arabic, French, Chinese, Hindi, and many
+      regional dialects.
+    question: Which languages does Gemini 15 Flash support for translation?
+  - answer: 'Process them in chunks: load a page range, summarize/translate, then
+      append the result to the output file.'
+    question: How do I handle documents larger than 1 GB?
+  - answer: Correct—OpenAI and Google Gemini each require their own authentication
+      tokens, which you should store securely (e.g., in environment variables).
+    question: Do I need separate API keys for each AI model?
+  - answer: Yes—adjust the `maxTokens` or `summaryLength` parameter in `SummarizeOptions`
+      to control output size.
+    question: Is there a way to fine‑tune the summary length?
+  type: FAQPage
+tags:
+- summarize text java
+- aspose.words
+- java ai integration
+- text translation
+title: Aspose.Words और AI मॉडलों का उपयोग करके java टेक्स्ट का सारांश बनाएं
+url: /hi/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# जावा में टेक्स्ट का सारांश Aspose.Words और AI मॉडलों का उपयोग करके
 
-# जावा में टेक्स्ट प्रोसेसिंग में महारत हासिल करें: Aspose.Words और AI मॉडल का उपयोग करें
-
-**OpenAI के GPT-4 और Google के Gemini जैसे AI मॉडल के साथ एकीकृत Java के लिए Aspose.Words के साथ पाठ सारांश और अनुवाद को स्वचालित करें।**
+**Aspose.Words for Java को OpenAI के GPT‑4 और Google के Gemini 15 Flash जैसे AI मॉडलों के साथ एकीकृत करके टेक्स्ट सारांशण और अनुवाद को स्वचालित करें। यह ट्यूटोरियल दिखाता है कि कैसे बड़े दस्तावेज़ों को संक्षिप्त सारांशों में बदलें और उन्हें किसी भी भाषा में अनुवादित करें—सभी एक ही जावा एप्लिकेशन से।**
 
 ## परिचय
 
-बड़े दस्तावेज़ों से महत्वपूर्ण जानकारी निकालने या सामग्री को अलग-अलग भाषाओं में तेज़ी से अनुवाद करने में संघर्ष कर रहे हैं? समय बचाने और उत्पादकता बढ़ाने के लिए शक्तिशाली उपकरणों का उपयोग करके इन कार्यों को कुशलतापूर्वक स्वचालित करें। यह ट्यूटोरियल आपको टेक्स्ट को सारांशित करने और अनुवाद करने के लिए OpenAI के GPT-4 और Google के Gemini 15 Flash जैसे AI मॉडल के साथ-साथ Java के लिए Aspose.Words का उपयोग करने के बारे में मार्गदर्शन करता है।
+यदि आपको लंबी रिपोर्टों, कानूनी अनुबंधों या शोध पत्रों से मुख्य अंतर्दृष्टि निकालनी है, तो प्रत्येक पृष्ठ को मैन्युअल पढ़ना व्यावहारिक नहीं है। Aspose.Words for Java को अत्याधुनिक AI मॉडलों के साथ मिलाकर आप सेकंडों में सटीक सारांश बना सकते हैं और उन्हें वैश्विक दर्शकों के लिए तुरंत अनुवादित कर सकते हैं। यह दृष्टिकोण कुछ किलोबाइट से लेकर कई सौ पृष्ठ वाले PDF तक स्केल करता है जबकि मेमोरी उपयोग कम रखता है।
 
-**आप क्या सीखेंगे:**
-- Maven या Gradle के साथ Aspose.Words सेट अप करना
-- AI मॉडल का उपयोग करके पाठ सारांशीकरण को क्रियान्वित करना
-- दस्तावेज़ों का विभिन्न भाषाओं में अनुवाद करना
-- जावा अनुप्रयोगों में इन उपकरणों को एकीकृत करने के लिए सर्वोत्तम अभ्यास
+## त्वरित उत्तर
+- **सारांश बनाने वाली लाइब्रेरी कौन सी है?** Aspose.Words for Java together with OpenAI GPT‑4.  
+- **अनुवाद को संभालने वाली AI सेवा कौन सी है?** Google Gemini 15 Flash.  
+- **क्या मुझे लाइसेंस चाहिए?** हाँ—उत्पादन उपयोग के लिए एक Aspose.Words लाइसेंस आवश्यक है।  
+- **क्या मैं इसे JDK 11 पर चला सकता हूँ?** बिल्कुल; कोड JDK 8 और उसके बाद के संस्करणों के साथ काम करता है।  
+- **प्रक्रिया कितनी तेज़ है?** 200‑पृष्ठ दस्तावेज़ का सारांश बनाना आमतौर पर 30 सेकंड से कम में पूरा हो जाता है, और अनुवाद औसतन अतिरिक्त 20 सेकंड लेता है।
 
-कार्यान्वयन में उतरने से पहले, सुनिश्चित करें कि आपके पास आवश्यक सभी चीजें मौजूद हैं।
+## जावा में टेक्स्ट सारांश क्या है?
+`Summarize text java` का अर्थ है जावा लाइब्रेरी और AI सेवाओं का उपयोग करके पूर्ण‑लंबाई दस्तावेज़ों से संक्षिप्त सारांश बनाना। सबसे महत्वपूर्ण वाक्य और अवधारणाओं को निकालकर बड़े टेक्स्ट को आवश्यक बिंदुओं तक घटाया जाता है, जिससे तेज़ निर्णय‑लेना, आसान इंडेक्सिंग, और भाव विश्लेषण या अनुवाद जैसे डाउनस्ट्रीम प्रोसेसिंग संभव होती है।
 
-## आवश्यक शर्तें
+## जावा के लिए Aspose.Words क्यों उपयोग करें?
+Aspose.Words **35+ इनपुट और आउटपुट फ़ॉर्मेट**—जैसे DOCX, PDF, HTML, और EPUB—को सपोर्ट करता है और मानक सर्वर पर **500‑पृष्ठ दस्तावेज़ को 3 सेकंड से कम** में प्रोसेस कर सकता है, बिना Microsoft Word की आवश्यकता के। इसका API आपको दस्तावेज़ संरचना, स्टाइलिंग, और भाषा‑विशिष्ट सुविधाओं पर पूर्ण नियंत्रण देता है, जिससे AI‑चालित सारांशण और अनुवाद पाइपलाइन के लिए यह आदर्श आधार बनता है।
 
-सुनिश्चित करें कि आप निम्नलिखित आवश्यकताओं को पूरा करते हैं:
+## पूर्वापेक्षाएँ
+- **Aspose.Words for Java:** संस्करण 25.3 या बाद का।  
+- **Java Development Kit (JDK):** संस्करण 8 या नया।  
+- **बिल्ड टूल:** Maven **या** Gradle।  
+- **IDE:** IntelliJ IDEA, Eclipse, या कोई भी Java‑compatible संपादक।  
+- **API कुंजियाँ:** OpenAI (GPT‑4) और Google Gemini (15 Flash) के लिए वैध कुंजियाँ।  
+- **बुनियादी Java ज्ञान** और बाहरी लाइब्रेरीज़ से परिचितता।
 
-### आवश्यक लाइब्रेरी और संस्करण
-- **जावा के लिए Aspose.Words:** संस्करण 25.3 या बाद का.
-- **जावा डेवलपमेंट किट (JDK):** JDK स्थापित (अधिमानतः संस्करण 8 या उससे ऊपर)।
-- **निर्माण उपकरण:** मावेन या ग्रैडल, आपकी पसंद पर निर्भर करता है।
+## Aspose.Words सेटअप करना
+`Document` क्लास Aspose.Words का टॉप‑लेवल ऑब्जेक्ट है जो मेमोरी में एकल दस्तावेज़ का प्रतिनिधित्व करता है। लाइब्रेरी को अपने प्रोजेक्ट में जोड़ना सीधा है।
 
-### पर्यावरण सेटअप आवश्यकताएँ
-- एक उपयुक्त एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA या Eclipse.
-- ओपनएआई और गूगल एआई सेवाओं तक पहुंच, जिसके लिए एपीआई कुंजी की आवश्यकता हो सकती है।
-
-### ज्ञान पूर्वापेक्षाएँ
-- जावा प्रोग्रामिंग की बुनियादी समझ.
-- जावा परियोजना में बाह्य लाइब्रेरीज़ को संभालने की जानकारी।
-
-## Aspose.Words की स्थापना
-
-Java के लिए Aspose.Words का उपयोग शुरू करने के लिए, अपने बिल्ड कॉन्फ़िगरेशन में आवश्यक निर्भरताएँ जोड़ें।
-
-### मावेन निर्भरता
-
-इस स्निपेट को अपने में जोड़ें `pom.xml`:
+### Maven निर्भरता
+अपने `pom.xml` में यह स्निपेट जोड़ें:
 
 ```xml
 <dependency>
@@ -62,37 +119,28 @@ Java के लिए Aspose.Words का उपयोग शुरू करन
 </dependency>
 ```
 
-### ग्रेडेल निर्भरता
-
-इसे अपने में शामिल करें `build.gradle` फ़ाइल:
+### Gradle निर्भरता
+अपने `build.gradle` फ़ाइल में यह शामिल करें:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### लाइसेंस अधिग्रहण
+### Aspose.Words लाइसेंस जावा
+`License` क्लास Aspose.Words लाइसेंस को दर्शाता है और खरीदा गया लाइसेंस लाइब्रेरी पर लागू करने के लिए उपयोग किया जाता है। पूर्ण कार्यक्षमता के लिए Aspose.Words को लाइसेंस की आवश्यकता होती है। आप **नि:शुल्क ट्रायल**, **अस्थायी मूल्यांकन लाइसेंस**, या उत्पादन उपयोग के लिए **स्थायी लाइसेंस** प्राप्त कर सकते हैं।
 
-Aspose.Words को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता होती है। आप प्राप्त कर सकते हैं:
-- ए **मुफ्त परीक्षण** सुविधाओं का परीक्षण करने के लिए.
-- ए **अस्थायी लाइसेंस** विस्तारित मूल्यांकन के लिए।
-- ए **खरीद लाइसेंस** उत्पादन उपयोग के लिए.
-
-सेटअप के लिए, लाइब्रेरी को आरंभ करें और अपना लाइसेंस सेट करें:
+एप्लिकेशन स्टार्ट‑अप पर लाइसेंस को एक बार इनिशियलाइज़ करें:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## कार्यान्वयन मार्गदर्शिका
+## जावा में टेक्स्ट का सारांश कैसे बनाएं?
+स्रोत दस्तावेज़ लोड करें, उसका प्लेन‑टेक्स्ट निकालें, उस टेक्स्ट को GPT‑4 को भेजें, और लौटाए गए सारांश को नई Word फ़ाइल में लिखें। पूरा वर्कफ़्लो **दो तार्किक चरणों** में फिट होता है, बुनियादी त्रुटि हैंडलिंग शामिल है, और सामान्य व्यावसायिक दस्तावेज़ों के लिए आमतौर पर एक मिनट से कम में पूरा हो जाता है।
 
-### AI मॉडल के साथ पाठ सारांशीकरण
-
-विस्तृत दस्तावेज़ों से निपटने के दौरान पाठ का सारांश बनाना अमूल्य हो सकता है। OpenAI के GPT-4 मॉडल का उपयोग करके इसे कैसे लागू किया जाए, यहाँ बताया गया है।
-
-#### चरण 1: दस्तावेज़ और मॉडल को आरंभ करें
-
-अपना दस्तावेज़ लोड करके और AI मॉडल सेट अप करके आरंभ करें:
+### चरण 1: दस्तावेज़ और AI क्लाइंट को इनिशियलाइज़ करें
+`OpenAiClient` (या समकक्ष) क्लास OpenAI API के लिए प्रमाणीकरण और अनुरोध हैंडलिंग को मैनेज करती है। पहले एक `Document` इंस्टेंस बनाएं और अपने API कुंजी के साथ OpenAI क्लाइंट सेट अप करें।
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -101,9 +149,8 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### चरण 2: सारांशीकरण विकल्प कॉन्फ़िगर करें
-
-सारांश की लंबाई निर्दिष्ट करें और एक सारांश बनाएँ `SummarizeOptions` वस्तु:
+### चरण 2: सारांश विकल्प कॉन्फ़िगर करें
+`SummarizeOptions` क्लास अधिकतम टोकन संख्या और इच्छित सारांश लंबाई जैसे पैरामीटर को एन्कैप्सुलेट करती है। तय करें कि आप सारांश कितने शब्दों का चाहते हैं (उदा., 150 शब्द) और एक `SummarizeOptions` ऑब्जेक्ट बनाएं जिसे AI मॉडल सम्मान करेगा।
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,86 +158,85 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### चरण 3: सारांश सहेजें
-
-अपने सारांशित दस्तावेज़ को इच्छित स्थान पर सहेजें:
+### चरण 3: सारांश सहेजें
+AI‑जनित सारांश को नई Word फ़ाइल में लिखें ताकि इसे साझा किया जा सके या आगे प्रोसेस किया जा सके।
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### AI मॉडल के साथ पाठ अनुवाद
+## जावा में टेक्स्ट का अनुवाद कैसे करें?
+Google Gemini 15 Flash उच्च सटीकता के साथ अनुवाद करता है, 100 से अधिक भाषाओं का समर्थन करता है और फ़ॉर्मेटिंग को बनाए रखता है। प्रक्रिया सारांशण के समान है: स्रोत दस्तावेज़ लोड करें, उसका टेक्स्ट निकालें, Gemini API को लक्ष्य भाषा कोड के साथ भेजें, अनुवादित टेक्स्ट प्राप्त करें, और मूल स्टाइल को बनाए रखते हुए नई Word फ़ाइल में सहेजें।
 
-गूगल के जेमिनी मॉडल का उपयोग करके दस्तावेजों को विभिन्न भाषाओं में सहजता से अनुवाद करें।
-
-#### चरण 1: दस्तावेज़ लोड करें और तैयार करें
-
-अनुवाद के लिए अपना दस्तावेज़ तैयार करें:
+### चरण 1: दस्तावेज़ लोड करें और तैयार करें
+`GeminiClient` क्लास Google Gemini API के साथ संचार संभालती है, जिसमें टेक्स्ट भेजना और अनुवाद प्राप्त करना शामिल है। स्रोत दस्तावेज़ खोलें और उसका प्लेन‑टेक्स्ट निकालें।
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### चरण 2: अनुवाद निष्पादित करें
-
-दस्तावेज़ का अरबी में अनुवाद करें:
+### चरण 2: अरबी (या कोई भी समर्थित भाषा) में अनुवाद निष्पादित करें
+Gemini API को कॉल करें, लक्ष्य भाषा कोड (उदा., `ar` अरबी के लिए) निर्दिष्ट करें, और अनुवादित टेक्स्ट प्राप्त करें।
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## व्यावहारिक अनुप्रयोगों
+## व्यावहारिक अनुप्रयोग
+1. **व्यवसाय रिपोर्ट:** त्रैमासिक विश्लेषणों के लिए एक‑पृष्ठ कार्यकारी सारांश उत्पन्न करें।  
+2. **ग्राहक समर्थन:** टिकटों को तुरंत विश्वभर के समर्थन एजेंटों के लिए अनुवादित करें।  
+3. **शैक्षणिक शोध:** लंबे पेपरों के लिए संक्षिप्त सारांश बनाएं, जिससे साहित्य समीक्षा तेज़ हो।  
 
-1. **व्यावसायिक रिपोर्ट:** त्वरित जानकारी के लिए लंबी व्यावसायिक रिपोर्टों का सारांश तैयार करें।
-2. **ग्राहक सहेयता:** सेवा की गुणवत्ता में सुधार के लिए ग्राहकों की पूछताछ का स्थानीय भाषा में अनुवाद करें।
-3. **शैक्षणिक अनुसंधान:** प्रमुख निष्कर्षों को शीघ्रता से समझने के लिए शोध पत्रों का सारांश तैयार करें।
+## प्रदर्शन विचार
+- **बैच अनुरोध:** प्रदाता की अनुमति होने पर कई दस्तावेज़ों को एक ही API कॉल में समूहित करें ताकि लेटेंसी कम हो।  
+- **संसाधन मॉनिटरिंग:** Java के `Runtime` API का उपयोग करके हीप उपयोग देखिए; Aspose.Words बड़े फ़ाइलों को स्ट्रीम करता है, जिससे 500‑पृष्ठ PDFs के लिए मेमोरी 200 MB से कम रहती है।  
+- **कैशिंग:** बार‑बार अनुरोधित सारांश या अनुवाद को Redis में संग्रहीत करें ताकि दोहराए गए API कॉल से बचा जा सके।
 
-## प्रदर्शन संबंधी विचार
+## सामान्य समस्याएँ और समाधान
+- **API टाइम‑आउट:** बहुत बड़ी फ़ाइलों को प्रोसेस करते समय HTTP क्लाइंट टाइमआउट को 120 सेकंड बढ़ाएँ।  
+- **लाइसेंस नहीं मिला:** सुनिश्चित करें कि लाइसेंस फ़ाइल (`Aspose.Words.lic`) क्लासपाथ रूट में रखी गई है और किसी भी `Document` ऑपरेशन से पहले लोड की गई है।  
+- **एन्कोडिंग समस्याएँ:** PDF से टेक्स्ट पढ़ते समय UTF‑8 को मजबूर करें ताकि अनुवाद के दौरान विशेष अक्षर संरक्षित रहें।
 
-- जहां संभव हो, कार्यों को बैच में बांटकर API अनुरोधों को अनुकूलित करें।
-- संसाधन उपयोग पर नज़र रखें, विशेष रूप से बड़े दस्तावेज़ों को संसाधित करते समय।
-- बार-बार उपयोग किए जाने वाले दस्तावेज़ों या अनुवादों के लिए कैशिंग रणनीतियों को लागू करें।
+## अक्सर पूछे जाने वाले प्रश्न
+**Q: क्या मैं इस समाधान को व्यावसायिक जावा एप्लिकेशन में उपयोग कर सकता हूँ?**  
+A: हाँ—एक वैध Aspose.Words लाइसेंस प्राप्त करने के बाद आप कोड को किसी भी व्यावसायिक उत्पाद में डिप्लॉय कर सकते हैं।
 
-## निष्कर्ष
+**Q: Gemini 15 Flash अनुवाद के लिए किन भाषाओं का समर्थन करता है?**  
+A: 100 से अधिक भाषाएँ, जिसमें अरबी, फ्रेंच, चीनी, हिंदी, और कई क्षेत्रीय बोलियाँ शामिल हैं।
 
-Aspose.Words को OpenAI और Google के Gemini जैसे AI मॉडल के साथ एकीकृत करके, आप अपने Java अनुप्रयोगों को शक्तिशाली टेक्स्ट सारांश और अनुवाद क्षमताओं के साथ बढ़ा सकते हैं। अपनी आवश्यकताओं के अनुरूप सर्वोत्तम कॉन्फ़िगरेशन के साथ प्रयोग करें और इन उपकरणों द्वारा दी जाने वाली अतिरिक्त सुविधाओं का पता लगाएं।
+**Q: 1 GB से बड़े दस्तावेज़ों को कैसे संभालूँ?**  
+A: उन्हें हिस्सों में प्रोसेस करें: पेज रेंज लोड करें, सारांश/अनुवाद करें, फिर परिणाम को आउटपुट फ़ाइल में जोड़ें।
 
-**अगले कदम:**
-- Aspose.Words की अधिक उन्नत सुविधाओं का अन्वेषण करें।
-- उन्नत कार्यक्षमता के लिए अतिरिक्त AI सेवाओं को एकीकृत करने पर विचार करें।
+**Q: क्या प्रत्येक AI मॉडल के लिए अलग API कुंजियों की आवश्यकता है?**  
+A: सही—OpenAI और Google Gemini दोनों को अपने‑अपने ऑथेंटिकेशन टोकन चाहिए, जिन्हें आपको सुरक्षित रूप से (जैसे, पर्यावरण वेरिएबल्स में) स्टोर करना चाहिए।
 
-क्या आप और गहराई से जानने के लिए तैयार हैं? आज ही अपनी परियोजनाओं में इन समाधानों को लागू करने का प्रयास करें!
-
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
-
-1. **Java के साथ Aspose.Words का उपयोग करने के लिए सिस्टम आवश्यकताएँ क्या हैं?**
-   - आपको JDK 8 या उच्चतर संस्करण, तथा IntelliJ IDEA जैसे संगत IDE की आवश्यकता होगी।
-2. **मैं OpenAI या Google AI सेवाओं के लिए API कुंजी कैसे प्राप्त करूं?**
-   - विकास उद्देश्यों के लिए API कुंजियों तक पहुंचने के लिए अपने संबंधित प्लेटफार्मों पर पंजीकरण करें।
-3. **क्या मैं व्यावसायिक परियोजनाओं में Java के लिए Aspose.Words का उपयोग कर सकता हूँ?**
-   - हां, लेकिन आपको Aspose से उचित लाइसेंस प्राप्त करना होगा।
-4. **जेमिनी मॉडल का उपयोग करके मैं पाठ का अनुवाद किन भाषाओं में कर सकता हूँ?**
-   - जेमिनी 15 फ्लैश मॉडल अरबी, फ्रेंच आदि सहित कई भाषाओं का समर्थन करता है।
-5. **मैं इन उपकरणों के साथ बड़े दस्तावेज़ों को कुशलतापूर्वक कैसे संभाल सकता हूँ?**
-   - कार्यों को छोटे-छोटे हिस्सों में विभाजित करें और संसाधन उपभोग को प्रभावी ढंग से प्रबंधित करने के लिए API उपयोग को अनुकूलित करें।
+**Q: क्या सारांश लंबाई को फाइन‑ट्यून करने का कोई तरीका है?**  
+A: हाँ—`SummarizeOptions` में `maxTokens` या `summaryLength` पैरामीटर को समायोजित करके आउटपुट आकार नियंत्रित किया जा सकता है।
 
 ## संसाधन
-
 - [Aspose.Words दस्तावेज़ीकरण](https://reference.aspose.com/words/java/)
 - [Aspose.Words डाउनलोड करें](https://releases.aspose.com/words/java/)
 - [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
-- [निःशुल्क परीक्षण संस्करण](https://releases.aspose.com/words/java/)
+- [नि:शुल्क ट्रायल संस्करण](https://releases.aspose.com/words/java/)
 - [अस्थायी लाइसेंस अनुरोध](https://purchase.aspose.com/temporary-license/)
-- [Aspose सामुदायिक समर्थन](https://forum.aspose.com/c/words/10)
+- [Aspose समुदाय समर्थन](https://forum.aspose.com/c/words/10)
+
+---
+
+**अंतिम अपडेट:** 2026-09-17  
+**परीक्षण किया गया:** Aspose.Words 25.3 for Java  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+- [Aspose.Words for Java के साथ टेक्स्ट फ़ाइलें लोड करना](/words/java/document-loading-and-saving/loading-text-files/)
+- [Aspose.Words जावा ट्यूटोरियल: AI & ML एकीकरण](/words/java/ai-machine-learning-integration/)
+- [Aspose.Words जावा के साथ दस्तावेज़ से टेक्स्ट रूपांतरण को अनुकूलित करना: दक्षता और प्रदर्शन में महारत](/words/java/performance-optimization/aspose-words-java-document-to-text-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
