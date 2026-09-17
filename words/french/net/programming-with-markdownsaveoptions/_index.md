@@ -25,6 +25,7 @@ Traitement de texte avec MarkdownSaveOptions est une ressource approfondie qui v
 | [Définir le dossier d'images](./set-images-folder/) | Convertissez des documents Word en Markdown avec un alignement de tableaux correct grâce à Aspose.Words pour .NET. Suivez notre guide détaillé pour des résultats parfaits. |
 | [Comment utiliser Markdown : convertir DOCX en Markdown avec des équations LaTeX](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) | Apprenez à convertir des fichiers DOCX en Markdown en conservant les équations LaTeX grâce à Aspose.Words pour .NET. |
 | [Enregistrer docx en markdown – Guide complet C# avec extraction d'images](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Apprenez à enregistrer des fichiers DOCX en Markdown tout en extrayant les images grâce à Aspose.Words pour .NET. |
+| [Comment utiliser Aspose – Convertir DOCX en Markdown avec des équations LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/) | Convertissez des documents DOCX en Markdown avec des équations LaTeX grâce à Aspose.Words pour .NET. |
 | [Comment définir la résolution lors de la conversion de DOCX en Markdown](./how-to-set-resolution-when-converting-docx-to-markdown/) | Apprenez à définir la résolution lors de la conversion de fichiers DOCX en Markdown avec Aspose.Words pour .NET. |
 | [Convertir Word en Markdown – Intégrer les images en Base64](./convert-word-to-markdown-embed-images-as-base64/) | Apprenez à convertir des documents Word en Markdown en incorporant les images directement en Base64 avec Aspose.Words pour .NET. |
 
@@ -118,6 +119,8 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 ### [Comment exporter LaTeX depuis Word – Convertir DOCX en Markdown et TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/)
 
 ### [Déterminer l'extension de fichier lors de la conversion DOCX en Markdown – Guide complet](./determine-file-extension-while-converting-docx-to-markdown-c/)
+
+### [Convertir Word en Markdown – Extraire les images en C#](./convert-word-to-markdown-extract-images-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

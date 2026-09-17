@@ -66,6 +66,7 @@ doc.Save("Output.docx");
 | [Get List Of Available Fonts](./get-list-of-available-fonts/) | Discover how to get a list of available fonts using Aspose.Words for .NET in this detailed step-by-step tutorial. Boost your font management skills. |
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
+| [Capture Font Warnings in C# – Complete Programming Guide](./capture-font-warnings-in-c-complete-programming-guide/) | Learn how to capture font warnings in Aspose.Words for .NET using C# with this comprehensive step-by-step guide. |
 | [Set warning callback in C# – Complete Guide to Font Handling](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Learn how to set a warning callback in Aspose.Words for .NET using C# to handle font warnings. |
 | [How to Detect Fonts in Aspose.Words – Handle Warnings & Settings](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Learn how to detect fonts, handle missing font warnings, and configure font settings in Aspose.Words for .NET. |
 | [Log Font Substitution Warnings – Complete Aspose.Words Guide](./log-font-substitution-warnings-complete-aspose-words-guide/) | Learn how to log font substitution warnings in Aspose.Words for .NET with this comprehensive guide. |

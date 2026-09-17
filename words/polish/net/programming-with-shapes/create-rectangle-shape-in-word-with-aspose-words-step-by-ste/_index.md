@@ -1,25 +1,23 @@
 ---
 category: general
-date: 2025-12-29
-description: Utwórz prostokątny kształt w dokumencie Word przy użyciu Aspose.Words
-  C#. Dowiedz się, jak ustawić przezroczystość kształtu, kolor cienia i zapisać dokument
-  Word bez wysiłku.
+date: 2026-02-18
+description: Utwórz prostokątny kształt przy użyciu Aspose.Words i dowiedz się, jak
+  dodać cień, ustawić rozmiar kształtu oraz zapisać dokument Word w kilka minut.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: pl
-og_description: Utwórz prostokątny kształt w dokumencie Word przy użyciu Aspose.Words
-  C#. Ten przewodnik pokazuje, jak ustawić przezroczystość kształtu, ustawić kolor
-  cienia i zapisać dokument Word.
-og_title: Utwórz kształt prostokąta w Word – Kompletny samouczek Aspose.Words
+og_description: Utwórz prostokątny kształt w pliku Word, dowiedz się, jak dodać cień,
+  ustawić rozmiar kształtu i zapisać dokument przy użyciu Aspose.Words w C#.
+og_title: Utwórz prostokątny kształt w Word – Kompletny poradnik Aspose.Words
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Tworzenie prostokątnego kształtu w Wordzie przy użyciu Aspose.Words – Przewodnik
   krok po kroku
 url: /pl/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
@@ -29,180 +27,187 @@ url: /pl/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tworzenie prostokątnego kształtu w Word – Kompletny poradnik Aspose.Words
+# Utwórz kształt prostokąta w Wordzie przy użyciu Aspose.Words – Przewodnik krok po kroku
 
-Kiedykolwiek potrzebowałeś **utworzyć prostokątny kształt** w dokumencie Word, ale nie wiedziałeś od czego zacząć? Nie jesteś sam; wielu programistów napotyka ten problem przy automatyzacji raportów lub faktur. W tym przewodniku przejdziemy krok po kroku przez proces tworzenia prostokątnego kształtu, ustawiania przezroczystości kształtu, ustawiania koloru cienia oraz w końcu **zapisania dokumentu Word** przy użyciu Aspose.Words for .NET.
+Kiedykolwiek potrzebowałeś **utworzyć kształt prostokąta** w pliku Word, ale nie wiedziałeś od czego zacząć? Nie jesteś sam — programiści często pytają: „jak dodać cień do kształtu i jednocześnie zachować możliwość edycji dokumentu?” W tym tutorialu odpowiemy na to pytanie oraz pokażemy, **jak dodać cień**, **ustawić rozmiar kształtu** i **zapisać dokument Word** w jednym płynnym procesie.
 
-Omówimy wszystko – od początkowego obiektu dokumentu po końcowy plik `.docx` na dysku, więc na końcu będziesz w stanie **tworzyć dokumenty Word** programowo bez zgadywania. Bez zewnętrznych odwołań, tylko samodzielne rozwiązanie, które możesz skopiować‑wkleić do swojego projektu.
+Przejdziemy przez wszystko, czego potrzebujesz, od inicjalizacji nowego dokumentu (tak, to pierwszy krok do **jak utworzyć dokument**) po zapisanie finalnego *.docx* na dysku. Bez zewnętrznych odwołań, tylko samodzielny przykład, który możesz skopiować‑wkleić do Visual Studio i uruchomić już dziś.
+
+---
 
 ## Wymagania wstępne
 
-- .NET 6.0 lub nowszy (kod działa także z .NET Framework 4.7+)
-- Pakiet NuGet Aspose.Words for .NET (`Install-Package Aspose.Words`)
-- Podstawowa znajomość składni C#
-- Ulubione IDE (Visual Studio, Rider, VS Code itp.)
+- .NET 6+ (lub .NET Framework 4.7+). Aspose.Words działa z każdym nowoczesnym środowiskiem .NET.
+- Ważna licencja Aspose.Words (lub darmowy klucz ewaluacyjny) – w przeciwnym razie zobaczysz znak wodny.
+- Visual Studio, Rider lub dowolny edytor C#, którego używasz.
+- Podstawowa znajomość C# — nic skomplikowanego, tylko umiejętność uruchomienia aplikacji konsolowej.
 
-> **Pro tip:** Jeśli używasz darmowej wersji próbnej Aspose.Words, biblioteka doda znak wodny do pliku wyjściowego. W wersji produkcyjnej potrzebna będzie ważna licencja.
+> **Pro tip:** Jeśli pracujesz na Macu, ten sam kod działa pod .NET 6 z VS Code — wystarczy, że odwołasz pakiet NuGet `Aspose.Words`.
 
-## Krok 1: Inicjalizacja dokumentu i buildera
+---
 
-Pierwszą rzeczą, którą robimy, jest stworzenie nowego, pustego dokumentu Word oraz `DocumentBuilder`, który pozwala wstawiać zawartość. Pomyśl o builderze jako o wirtualnym piórze rysującym na stronie.
+## Krok 1: Inicjalizacja dokumentu – podstawa **jak utworzyć dokument**
+
+Zanim zaczniemy rysować cokolwiek, potrzebujemy czystego płótna. Aspose.Words nazywa to `Document`.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Dlaczego to ważne:** Bez `DocumentBuilder` musiałbyś manipulować drzewem węzłów niskiego poziomu bezpośrednio, co jest podatne na błędy i trudniejsze do odczytania.
+> **Dlaczego to ważne:** Obiekt `Document` reprezentuje cały plik *.docx*. Wszystkie kształty, akapity i sekcje, które dodasz, stają się dziećmi tego obiektu. Rozpoczęcie od czystego dokumentu zapewnia brak ukrytych stylów, które mogłyby zakłócić Twój prostokąt.
 
-## Krok 2: Utworzenie prostokątnego kształtu
+---
 
-Teraz faktycznie **tworzymy prostokątny kształt**. Metoda `InsertShape` przyjmuje wyliczenie `ShapeType`, szerokość i wysokość (w punktach). Zwrócony obiekt `Shape` pozwala później dostosować właściwości wizualne.
+## Krok 2: Zdefiniuj prostokąt i **ustaw rozmiar kształtu**
+
+Prostokąt to po prostu `Shape` z `ShapeType.Rectangle`. Nadamy mu wyraźne wymiary, aby wyglądał dokładnie tak, jak zamierzasz.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-W tym momencie prostokąt jest czarnym, pełnym pudełkiem zakotwiczonym w bieżącym akapicie. Możesz go później przesuwać, zmieniać rozmiar lub nawet obracać, jeśli zajdzie taka potrzeba.
+> **Co oznaczają liczby:** Aspose.Words używa punktów (1 pt = 1/72 in). Dostosuj wartości do swojego układu; dla typowej strony A4, 200 pt to wygodna szerokość.
 
-![utwórz prostokątny kształt z cieniem](/images/rectangle-shadow.png "Dokument Word pokazujący prostokątny kształt z szarym cieniem")
+---
 
-*Tekst alternatywny obrazu: utwórz prostokątny kształt z cieniem w dokumencie Word*
+## Krok 3: **Jak dodać cień** – spraw, by kształt się wyróżniał
 
-## Krok 3: Ustawienie przezroczystości kształtu
-
-Przezroczystość to poziom „przezroczystości” wypełnienia kształtu. Aspose.Words używa właściwości `Transparency` w zakresie od `0.0` (nieprzezroczysty) do `1.0` (całkowicie przezroczysty). Tutaj **ustawiamy przezroczystość kształtu** na 40 %, aby podtekst pozostał czytelny.
+Cienie dają wizualną wskazówkę, że kształt jest „uniesiony” nad stroną. Właściwość `Shadow` pozwala dostosować kolor, odległość, przezroczystość i rozmycie.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Przypadek brzegowy:** Jeśli potrzebujesz całkowicie niewidzialnego kształtu, ale chcesz, aby cień się pojawił, ustaw `Transparency` na `1.0` i nadaj kształtowi niezerową szerokość konturu.
+> **Dlaczego używać przezroczystości?** Całkowicie nieprzezroczysty cień może wyglądać surowo. Ustawienie go na 0.4 sprawia, że efekt jest subtelny i profesjonalny.
 
-## Krok 4: Konfiguracja cienia
+---
 
-Subtelny cień dodaje głębi. **Ustawimy kolor cienia** na średnią szarość, dostosujemy promień rozmycia i przesuniemy go o kilka punktów w poziomie i pionie.
+## Krok 4: Pozycjonowanie prostokąta – przepływ inline z otaczającym tekstem
+
+Jeśli chcesz, aby kształt zachowywał się jak znak w akapicie, ustaw jego `WrapType` na `Inline`. Dzięki temu układ pozostaje przewidywalny, szczególnie przy późniejszej edycji dokumentu.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Dlaczego to ważne:** Cień, który jest zbyt ostry lub zbyt ciemny, może wyglądać jak artefakt drukarski. Dostosuj `Blur` i `Transparency`, aż będzie wyglądał naturalnie.
+> **Przypadek brzegowy:** Jeśli potrzebujesz, aby prostokąt unosił się nad tekstem (np. znak wodny), zmień `WrapType` na `Square` lub `BehindText`.
 
-## Krok 5: Zapisanie dokumentu Word
+---
 
-Na koniec **zapisujemy dokument Word** na dysku. Metoda `` automatycznie określa format pliku na podstawie rozszerzenia; `.docx` to nowoczesny format OpenXML.
+## Krok 5: Wstaw kształt do ciała dokumentu
+
+Teraz faktycznie umieszczamy prostokąt w pierwszym akapicie. Jeśli dokument nie ma jeszcze treści, `FirstParagraph` zostaje automatycznie utworzony.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Jeśli folder nie istnieje, Aspose.Words zgłosi `ArgumentException`. Upewnij się, że ścieżka jest prawidłowa lub utwórz katalog wcześniej.
+> **Wskazówka:** Możesz także najpierw utworzyć nowy akapit, a potem dodać do niego kształt — przydatne, gdy potrzebny jest otaczający tekst.
 
-## Pełny działający przykład
+---
 
-Poniżej znajduje się kompletny, gotowy do uruchomienia program, który łączy wszystkie kroki. Skopiuj go do nowego projektu konsolowego i naciśnij **F5**.
+## Krok 6: **Zapisz dokument Word** – ostatni krok
+
+Gdy wszystko jest już na miejscu, zapisanie pliku to jednowierszowy kod. Wybierz dowolną ścieżkę; w przykładzie użyto symbolicznego miejsca, które powinieneś zamienić na własny katalog.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Rezultat:** Otwórz wygenerowany *.docx* w Microsoft Word. Zobaczysz prostokąt z czarnym cieniem, szeroki 200 pt i wysoki 100 pt, umieszczony inline z pierwszym akapitem.
+
+---
+
+## Oczekiwany wynik
+
+Po otwarciu **ShadowShape.docx**, dokument pokazuje:
+
+- Jeden akapit zawierający prostokątny kształt.
+- Prostokąt ma subtelny czarny cień odsunięty o 5 pt.
+- Rozmiar kształtu odpowiada wymiarom ustawionym w Kroku 2.
+- Nie pojawia się dodatkowy tekst, chyba że dodasz go ręcznie.
+
+Jeśli kształt się nie wyświetla, sprawdź, czy odwołałeś właściwą wersję Aspose.Words oraz czy Twoja licencja (lub wersja próbna) jest aktywna.
+
+---
+
+## Częste pytania i warianty
+
+| Pytanie | Odpowiedź |
+|----------|-----------|
+| *Czy mogę zmienić kolor cienia na inny niż czarny?* | Oczywiście — ustaw `rectangleShape.Shadow.Color = Color.Blue;` lub dowolny `System.Drawing.Color`. |
+| *Co zrobić, jeśli potrzebuję większego prostokąta?* | Dostosuj wartości `Width` i `Height`. Pamiętaj, że są podawane w punktach; 72 pt = 1 in. |
+| *Czy można umieścić kształt w pozycji absolutnej?* | Tak — użyj `WrapType = WrapType.Absolute` i ustaw właściwości `Top`/`Left`. |
+| *Czy to działa z .NET Core?* | Tak. Aspose.Words jest wieloplatformowy; wystarczy zainstalować pakiet NuGet dla .NET Standard. |
+| *Czy mogę dodać tekst wewnątrz prostokąta?* | Nie bezpośrednio; musiałbyś wstawić kształt `TextBox` zamiast zwykłego prostokąta. |
+
+---
+
+## Pełny działający przykład (Gotowy do kopiowania)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Oczekiwany rezultat
-
-Otwórz `ShadowRectangle.docx` w Microsoft Word. Powinieneś zobaczyć jasno‑szary prostokąt z miękkim, lekko przesuniętym cieniem, oba renderowane z 40 % przezroczystością. Kształt znajduje się na pustej stronie, gotowy na dodatkową treść.
-
-## Częste pytania i warianty
-
-**Co zrobić, jeśli potrzebuję innego kształtu?**  
-Zamień `ShapeType.Rectangle` na dowolną inną wartość wyliczenia (`Ellipse`, `Triangle`, `Star` itp.). Reszta kodu pozostaje bez zmian.
-
-**Czy mogę zmienić kolor konturu?**  
-Tak — użyj `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` i opcjonalnie ustaw `rectangleShape.StrokeWeight = 1.5;`.
-
-**Jak umieścić kształt w określonym miejscu na stronie?**  
-Ustaw `rectangleShape.WrapType = WrapType.None;`, a następnie dostosuj właściwości `rectangleShape.Left` i `rectangleShape.Top` (wartości w punktach).
-
-**Czy można dodać tekst wewnątrz prostokąta?**  
-Oczywiście. Po utworzeniu kształtu możesz wywołać `rectangleShape.AppendChild(new Paragraph(document))`, a następnie dodać `Run` z własnym tekstem. Pamiętaj, aby ustawić właściwości `rectangleShape.TextBox`, jeśli chcesz bardziej zaawansowane formatowanie.
-
-## Pro tipy i pułapki
-
-- **Licencja od razu:** Jeśli zapomnisz zastosować licencję, Aspose.Words wstawi znak wodny na pierwszej stronie, co może wprowadzać w błąd podczas testów.
-- **Wskazówka wydajnościowa:** Generując wiele dokumentów w pętli, ponownie używaj jednej instancji `Document` i wywołuj `document.RemoveAllChildren();` po każdym zapisie, aby uniknąć nadmiernego obciążenia GC.
-- **Widoczność cienia:** Na ekranach o niskiej rozdzielczości subtelny cień może wydawać się niewidoczny. Zwiększ `Blur` lub `OffsetX/Y` w celu debugowania, a potem przytn dla wersji produkcyjnej.
-
-## Kolejne kroki
-
-Teraz, gdy wiesz jak **utworzyć prostokątny kształt**, **ustawić przezroczystość kształtu**, **ustawić kolor cienia** i **zapisać dokument Word**, rozważ rozszerzenie poradnika:
-
-- Dodaj wiele kształtów i pogrupuj je.
-- Wstaw prostokąt do komórki tabeli, aby uzyskać układ raportu.
-- Połącz kształt z `DocumentBuilder.InsertHtml`, aby nałożyć treść stylizowaną HTML‑owo.
-- Zbadaj inne efekty wizualne, takie jak `Glow` czy `Reflection`, aby uzyskać bardziej UI‑like dokumenty.
-
-Eksperymentuj, łam rzeczy, a potem udoskonalaj — generowanie dokumentów programowo to plac zabaw, gdzie projektowanie wizualne spotyka się z kodem.
+Uruchom program, przejdź do `C:\Temp\ShadowShape.docx` i zobaczysz prostokąt z cieniem dokładnie taki, jak opisano.
 
 ---
 
-*Miłego kodowania! Jeśli napotkasz jakiekolwiek problemy, zostaw komentarz poniżej, a pomożemy rozwiązać je razem.*
+## Zakończenie
+
+Teraz wiesz, jak **utworzyć kształt prostokąta** w pliku Word przy użyciu Aspose.Words, jak **ustawić rozmiar kształtu**, **dodać cień** oraz w końcu **zapisać dokument Word** z wprowadzonymi zmianami. Cały proces — od **jak utworzyć dokument** po zapisanie wyniku — mieści się w kilku linijkach C# i może być rozbudowany o bardziej złożone układy.
+
+Gotowy na kolejne wyzwanie? Spróbuj zamienić prostokąt na kształt z zaokrąglonymi rogami, poeksperymentuj z różnymi kolorami cieni lub osadź kształt wewnątrz komórki tabeli. Każda modyfikacja utrwala te same podstawowe koncepcje, które omówiliśmy.
+
+Jeśli ten przewodnik okazał się pomocny, udostępnij go, zostaw komentarz z własnymi wariantami lub zapoznaj się z innymi tutorialami o automatyzacji Worda, takimi jak wstawianie obrazów czy generowanie tabel przy użyciu Aspose.Words. Szczęśliwego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -90,6 +90,10 @@
 
 ### [تحديد امتداد الملف أثناء تحويل DOCX إلى Markdown – دليل كامل](./determine-file-extension-while-converting-docx-to-markdown-c/)
 
+### [كيفية استخدام Aspose – تحويل DOCX إلى Markdown مع معادلات LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
+
+### [تحويل Word إلى Markdown – استخراج الصور في C#](./convert-word-to-markdown-extract-images-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
