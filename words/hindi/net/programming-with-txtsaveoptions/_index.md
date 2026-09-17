@@ -29,6 +29,11 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
 | [सूची इंडेंटेशन के लिए प्रति स्तर स्पेस वर्ण का उपयोग करें](./use-space-character-per-level-for-list-indentation/) | Aspose.Words for .NET में स्पेस कैरेक्टर इंडेंटेशन के साथ मल्टी-लेवल सूचियाँ बनाने का तरीका जानें। सटीक दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण-दर-चरण मार्गदर्शिका। |
 | [DOCX से LaTeX निर्यात कैसे करें – C# में DOCX को TXT में बदलें](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को LaTeX में निर्यात और TXT में परिवर्तित करने की प्रक्रिया सीखें। |
 | [C# में DOCX को TXT में बदलें – दस्तावेज़ को TXT के रूप में सहेजें](./save-document-as-txt-in-c-convert-docx-to-txt/) | C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को TXT फ़ॉर्मेट में बदलने की प्रक्रिया सीखें। |
+| [docx को txt में बदलें – Word को साधारण टेक्स्ट के रूप में सहेजने की पूर्ण गाइड](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | इस गाइड में .NET के लिए Aspose.Words का उपयोग करके DOCX फ़ाइलों को TXT में बदलने की पूरी प्रक्रिया सीखें। |
+| [DOCX को साधारण टेक्स्ट में बदलने के लिए पूर्ण C# गाइड – दस्तावेज़ को TXT के रूप में सहेजें](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | DOCX फ़ाइल को TXT में बदलने के लिए चरण-दर-चरण C# कोड और सेटिंग्स सीखें। |
+| [docx को txt के रूप में सहेजें – C# डेवलपर्स के लिए त्वरित गाइड](./save-docx-as-txt-quick-guide-for-c-developers/) | C# डेवलपर्स के लिए docx फ़ाइल को txt में बदलने का त्वरित मार्गदर्शन। |
+| [C# में docx को txt के रूप में सहेजें – लाइन ब्रेक और स्पेस बनाए रखें](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | C# में Aspose.Words का उपयोग करके docx फ़ाइल को txt में बदलें, जबकि लाइन ब्रेक और स्पेस को संरक्षित रखें। |
+| [DOCX से LaTeX निर्यात कैसे करें – चरण-दर-चरण गाइड](./how-to-export-latex-from-docx-step-by-step-guide/) | Aspose.Words for .NET का उपयोग करके DOCX फ़ाइलों से LaTeX कोड निर्यात करने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

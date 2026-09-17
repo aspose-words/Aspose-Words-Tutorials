@@ -1,0 +1,7 @@
+Title: How to hide shape in Word with C# and Aspose.Words
+Slug: how-to-hide-shape-in-word-with-c-and-aspose-words
+Category: images-shapes
+ProcessedDate: 2026-09-12T03:49:39.238792
+SourceRepo: AI Search API
+Keywords: how to hide shape in word, insert rectangle shape, insert shape into word document
+PRNumber: 274

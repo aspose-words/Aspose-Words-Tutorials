@@ -94,7 +94,8 @@ public class Main {
 }
 ```
 
-## Megvalósítási útmutató
+## Hogyan kezelhetők a word sablonok Java-val az Aspose.Words segítségével?
+Töltse be a sablon dokumentumot a `new Document("Template.docx")` paranccsal, és hívja meg a `doc.getGlossary()` metódust a szószedet eléréséhez, ahol az építőelemek tárolódnak. Innen létrehozhat, szerkeszthet vagy lekérhet blokkokat, lehetővé téve egyetlen igazságforrást minden újrahasználható tartalom számára. Ez a megközelítés megszünteti a duplikációt, és garantálja, hogy minden generált dokumentum a legújabb blokkverziót használja.
 
 A beállítás befejeződött, bontsuk le a megvalósítást kezelhető szakaszokra.
 

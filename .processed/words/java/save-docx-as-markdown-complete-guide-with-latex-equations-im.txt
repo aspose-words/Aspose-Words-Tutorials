@@ -1,0 +1,7 @@
+Title: Save docx as markdown – Complete Guide with LaTeX Equations & Image Resolution
+Slug: save-docx-as-markdown-complete-guide-with-latex-equations-im
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-03T23:22:41.598514
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert word to markdown, increase image resolution markdown, set markdown image resolution, export word equations as latex
+PRNumber: 220

@@ -29,6 +29,11 @@ Graças a estes tutoriais, você poderá explorar ao máximo as funcionalidades 
 | [Use caractere de espaço por nível para recuo de lista](./use-space-character-per-level-for-list-indentation/) | Aprenda a criar listas multinível com recuo de caracteres de espaço no Aspose.Words para .NET. Guia passo a passo para formatação precisa de documentos. |
 | [Como Exportar LaTeX de DOCX – Converter DOCX para TXT em C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Aprenda a converter documentos DOCX em arquivos TXT com suporte a LaTeX usando Aspose.Words para .NET em C#. |
 | [Salvar documento como TXT em C# – Converter DOCX para TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | Aprenda a salvar documentos como TXT usando C# com Aspose.Words, convertendo arquivos DOCX para TXT de forma simples. |
+| [Converter docx para txt – Guia completo para salvar Word como texto simples](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Aprenda a converter documentos DOCX em arquivos TXT usando Aspose.Words para .NET, com opções avançadas de formatação e codificação. |
+| [Salvar documento como TXT – Guia completo em C# para converter DOCX em texto simples](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Aprenda a converter arquivos DOCX em texto puro usando Aspose.Words para .NET com um guia passo a passo em C#. |
+| [Salvar docx como txt – Guia rápido para desenvolvedores C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Aprenda a converter arquivos DOCX em TXT rapidamente usando Aspose.Words para .NET, com exemplos práticos para desenvolvedores C#. |
+| [Salvar docx como txt – Preservar Quebras de Linha e Espaços em C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Aprenda a salvar documentos DOCX como arquivos TXT preservando quebras de linha e espaços usando C# e Aspose.Words. |
+| [Como Exportar LaTeX de DOCX – Guia Passo a Passo](./how-to-export-latex-from-docx-step-by-step-guide/) | Aprenda a exportar documentos DOCX para LaTeX usando Aspose.Words para .NET, passo a passo, com exemplos de código C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to create ActiveX control in a Word document with C#
+Slug: how-to-create-activex-control-in-a-word-document-with-c
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-09-15T07:12:38.883577
+SourceRepo: AI Search API
+Keywords: create activex control, how to insert activex, add interactive button, create word document, create button with code
+PRNumber: 276

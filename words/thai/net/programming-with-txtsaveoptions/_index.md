@@ -27,8 +27,8 @@
 - [เพิ่มเครื่องหมาย Bidi ในเอกสาร Word](./add-bidi-marks/) | เรียนรู้วิธีการเพิ่มเครื่องหมายทิศทางสองทาง (Bidi) ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ด้วยคู่มือนี้ รับรองทิศทางข้อความที่ถูกต้องสำหรับเนื้อหาหลายภาษา -
 | [ใช้อักขระแท็บต่อระดับสำหรับการเยื้องรายการ](./use-tab-character-per-level-for-list-indentation/) | เรียนรู้วิธีการสร้างรายการหลายระดับพร้อมการเยื้องแบบแท็บโดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคู่มือนี้เพื่อการจัดรูปแบบรายการที่แม่นยำในเอกสารของคุณ -
 | [ใช้ช่องว่างต่อระดับสำหรับการเยื้องรายการ](./use-space-character-per-level-for-list-indentation/) | เรียนรู้วิธีการสร้างรายการหลายระดับพร้อมการเยื้องอักขระช่องว่างใน Aspose.Words สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับการจัดรูปแบบเอกสารอย่างแม่นยำ |
-- [วิธีส่งออก LaTeX จาก DOCX – แปลง DOCX เป็น TXT ด้วย C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็นไฟล์ข้อความ LaTeX หรือ TXT ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
-- [บันทึกเอกสารเป็น TXT ด้วย C# – แปลง DOCX เป็น TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | เรียนรู้วิธีบันทึกเอกสาร DOCX เป็นไฟล์ TXT ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET
+| [แปลง docx เป็น txt – คู่มือฉบับสมบูรณ์สำหรับการบันทึก Word เป็นข้อความธรรมดา](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น txt อย่างครบถ้วนด้วยคำแนะนำขั้นตอนและโค้ดตัวอย่างใน Aspose.Words สำหรับ .NET |
+| [บันทึก docx เป็น txt – คู่มือด่วนสำหรับนักพัฒนา C#](./save-docx-as-txt-quick-guide-for-c-developers/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น txt อย่างรวดเร็วสำหรับนักพัฒนา C# ด้วย Aspose.Words |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

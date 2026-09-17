@@ -29,6 +29,11 @@ Dank dieser Tutorials können Sie die Funktionalitäten von Aspose.Words für .N
 | [Leerzeichen pro Ebene für Listeneinrückung verwenden](./use-space-character-per-level-for-list-indentation/) | Erfahren Sie, wie Sie in Aspose.Words für .NET mehrstufige Listen mit Leerzeicheneinrückung erstellen. Schritt-für-Schritt-Anleitung zur präzisen Dokumentformatierung. |
 | [LaTeX aus DOCX exportieren – DOCX in TXT konvertieren in C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus DOCX exportieren und das Dokument in eine TXT-Datei konvertieren. |
 | [Dokument als TXT speichern in C# – DOCX in TXT konvertieren](./save-document-as-txt-in-c-convert-docx-to-txt/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX‑Dokument in eine TXT‑Datei konvertieren und speichern. |
+| [DOCX in TXT konvertieren – Komplettanleitung zum Speichern von Word als Klartext](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET in reine Textdateien konvertieren und dabei Optionen wie Kodierung und Zeilenumbrüche steuern. |
+| [Dokument als TXT speichern – Vollständiger C#-Leitfaden zur Konvertierung von DOCX in Klartext](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument in eine reine Textdatei konvertieren. |
+| [DOCX als TXT speichern – Schnellleitfaden für C#-Entwickler](./save-docx-as-txt-quick-guide-for-c-developers/) | Erfahren Sie, wie Sie ein DOCX-Dokument schnell in eine TXT-Datei konvertieren, mit Beispielcode für C#-Entwickler. |
+| [DOCX als TXT speichern – Zeilenumbrüche & Leerzeichen beibehalten in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument als TXT speichern und dabei Zeilenumbrüche sowie Leerzeichen erhalten. |
+| [Wie man LaTeX aus DOCX exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-latex-from-docx-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus DOCX-Dateien exportieren und dabei Formatierung und Inhalte erhalten. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

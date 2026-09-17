@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-02-18
-description: Créer un PDF accessible à partir d’un document Word avec Aspose.Words
-  en C#. Apprenez à convertir Word en PDF, à enregistrer Word au format PDF et à exporter
-  Word en PDF avec conformité PDF/UA‑2.
+date: 2026-02-12
+description: Créez un PDF accessible à partir d’un document Word avec Aspose.Words
+  en C#. Apprenez à convertir Word en PDF conforme à PDF/UA‑2 en quelques minutes.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
 - save word as pdf
-- convert docx to pdf
-- export word to pdf
+- export docx to pdf
+- c# word to pdf
 language: fr
-og_description: Créer un PDF accessible à partir d’un fichier Word avec Aspose.Words.
-  Ce tutoriel montre comment convertir Word en PDF, enregistrer Word au format PDF
-  et exporter Word en PDF avec une conformité totale à l’accessibilité.
-og_title: Créer un PDF accessible à partir de Word en C# – Guide étape par étape
+og_description: Créez un PDF accessible à partir d’un document Word en utilisant Aspose.Words
+  en C#. Suivez ce tutoriel étape par étape pour convertir Word en PDF conforme à
+  PDF/UA‑2.
+og_title: Créer un PDF accessible à partir de Word en C# – Guide complet
 tags:
 - Aspose.Words
 - PDF/UA
 - C#
-- Document Conversion
+- Accessibility
 title: Créer un PDF accessible à partir de Word en C# – Guide complet
 url: /fr/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-complete-guide/
 ---
@@ -31,200 +30,198 @@ url: /fr/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-
 
 # Créer un PDF accessible à partir de Word en C# – Guide complet
 
-Vous avez déjà eu besoin de **créer un PDF accessible** à partir d'un document Word mais vous n'étiez pas sûr de la bibliothèque qui gérerait correctement les balises d'accessibilité ? Vous n'êtes pas seul. Dans de nombreux projets d'entreprise, la conformité au PDF/UA‑2 est une exigence stricte, et les astuces habituelles de « enregistrer‑en‑PDF » ne suffisent pas.
+Vous êtes‑vous déjà demandé comment **créer des PDF accessibles** directement à partir d’un `.docx` sans vous battre avec des bibliothèques PDF complexes ? Vous n’êtes pas seul. De nombreux développeurs doivent transformer des documents Word en PDF conformes aux normes PDF/UA‑2, surtout lorsque l’accessibilité est une exigence légale.  
 
-Dans ce tutoriel, nous parcourrons une solution pratique qui **convertit Word en PDF**, **enregistre Word en PDF**, et **exporte Word en PDF** tout en garantissant la conformité PDF/UA‑2 à l'aide d'Aspose.Words pour .NET. À la fin, vous disposerez d'un programme prêt à l'emploi qui génère un PDF accessible que vous pourrez livrer à n'importe quel client avide de conformité réglementaire.
+Dans ce tutoriel, nous parcourrons l’ensemble du processus — installation du bon package NuGet, configuration des bonnes options, puis enregistrement d’un PDF accessible. À la fin, vous serez capable de **convertir Word en PDF**, **enregistrer Word en PDF**, et **exporter DOCX en PDF** avec une seule méthode C# propre.
 
-## Ce que vous apprendrez
+## Ce dont vous avez besoin
 
-- Comment charger un fichier `.docx` avec Aspose.Words.
-- Comment configurer `PdfSaveOptions` pour la conformité PDF/UA‑2.
-- Comment **convertir docx en PDF** en une seule ligne de code.
-- Conseils pour gérer les fichiers manquants, la licence et les performances.
-- Où aller ensuite si vous devez ajouter des balises personnalisées ou des images.
+- .NET 6+ (ou .NET Framework 4.6+).  
+- Visual Studio 2022 ou tout éditeur de votre choix.  
+- Une licence active d’Aspose.Words (l’essai gratuit suffit pour les tests).  
+- Un fichier `input.docx` d’exemple que vous souhaitez rendre accessible.
 
-### Prérequis
+Aucun autre outil tiers n’est requis. Si vous avez déjà un projet, il suffit d’ajouter le package NuGet et vous êtes prêt à partir.
 
-- .NET 6.0 ou ultérieur (le code fonctionne également sur .NET Framework 4.7+).
-- Une licence valide d'Aspose.Words pour .NET (l'essai gratuit fonctionne pour l'évaluation).
-- Visual Studio 2022 (ou tout IDE de votre choix).
-- Un document Word d'exemple (`input.docx`) placé dans un dossier que vous pouvez référencer.
+## Étape 1 : Installer Aspose.Words via NuGet  
 
-> **Conseil pro** : Si vous êtes sur une chaîne CI/CD, copiez le fichier de licence dans le répertoire de sortie et définissez `License.SetLicense("Aspose.Words.lic")` tôt dans votre application.
+Pour garder les choses propres, utilisez la console du gestionnaire de packages :
 
-## Diagramme d'aperçu
-
-![Flux de travail de création de PDF accessible – montrant le chargement d'un document Word, l'application des options PDF/UA‑2 et l'enregistrement en PDF accessible](/images/create-accessible-pdf-workflow.png)
-
-*Texte alternatif de l'image : diagramme du flux de travail de création de PDF accessible*
-
-## Implémentation étape par étape
-
-Ci-dessous, nous décomposons le processus en étapes claires et numérotées. Chaque étape comprend une brève explication du **pourquoi** c'est important, suivie du code C# exact que vous pouvez coller dans une application console.
-
-### 1. Initialiser le projet et ajouter Aspose.Words
-
-Tout d'abord, créez un nouveau projet console et ajoutez le package NuGet :
-
-```bash
-dotnet new console -n AccessiblePdfDemo
-cd AccessiblePdfDemo
-dotnet add package Aspose.Words
+```powershell
+Install-Package Aspose.Words
 ```
 
-> **Pourquoi ?** Le package `Aspose.Words` contient la classe `Document` qui peut lire les fichiers `.docx`, `.doc`, `.rtf` et de nombreux autres formats. Il inclut également un exportateur PDF qui sait comment intégrer les balises PDF/UA requises.
+Ou, si vous préférez l’interface graphique, faites un clic droit sur **Dependencies → Manage NuGet Packages**, recherchez *Aspose.Words*, puis cliquez sur **Install**. Cette bibliothèque gère l’analyse, la mise en page et l’exportation PDF de Word en interne, vous évitant ainsi de réinventer la roue.
 
-### 2. Charger le document Word source
+> **Astuce :** La dernière version (en février 2026) est la 23.12.0. Garder le package à jour garantit que vous disposez des dernières corrections d’accessibilité.
 
-Nous avons besoin d'une instance `Document` qui représente le fichier Word que vous souhaitez **exporter Word en PDF**.
+## Étape 2 : Charger le document Word que vous souhaitez convertir  
+
+Charger un document ne nécessite qu’une seule ligne de code, mais c’est la base de chaque pipeline de conversion.
 
 ```csharp
 using Aspose.Words;
+
+// Replace with your actual path
+string sourcePath = @"C:\Docs\input.docx";
+
+// The Document object represents the entire Word file in memory
+Document document = new Document(sourcePath);
+```
+
+> **Pourquoi c’est important :** `Document` analyse la structure DOCX, préservant les titres, les tableaux et le texte alternatif — essentiel pour un PDF accessible ultérieurement.
+
+## Étape 3 : Configurer les options d’enregistrement PDF pour la conformité PDF/UA‑2  
+
+PDF/UA‑2 est la norme ISO pour les PDF accessibles. Aspose.Words vous permet de l’activer avec une seule propriété.
+
+```csharp
 using Aspose.Words.Saving;
 
-class Program
+PdfSaveOptions pdfSaveOptions = new PdfSaveOptions
 {
-    static void Main()
-    {
-        // Optional: apply your license if you have one
-        // var license = new License();
-        // license.SetLicense("Aspose.Words.lic");
+    // This flag tells Aspose to embed the necessary tags for accessibility
+    PdfCompliance = PdfCompliance.PdfUA2,
 
-        // Step 2: Load the source Word document
-        const string inputPath = @"YOUR_DIRECTORY\input.docx";
+    // Optional: embed the full font to avoid substitution issues
+    EmbedFullFonts = true,
 
-        if (!File.Exists(inputPath))
-        {
-            Console.WriteLine($"Error: The file '{inputPath}' does not exist.");
-            return;
-        }
-
-        Document doc = new Document(inputPath);
-        Console.WriteLine("Word document loaded successfully.");
+    // Optional: preserve the document outline (bookmarks) for screen readers
+    OutlineOptions = { HeadingsOutlineLevels = 3 }
+};
 ```
 
-> **Pourquoi cette vérification ?** Lorsque vous **convertissez docx en PDF**, un fichier manquant déclencherait une exception qui ferait planter l'application. La clause de garde rend l'outil plus robuste pour le traitement par lots.
+> **Explication :** Définir `PdfCompliance` sur `PdfUA2` oblige la bibliothèque à générer un PDF balisé, à intégrer les éléments de structure et à ajouter les métadonnées nécessaires. Les options supplémentaires améliorent l’expérience des utilisateurs de technologies d’assistance.
 
-### 3. Configurer les options d'enregistrement PDF pour l'accessibilité
+## Étape 4 : Enregistrer le document en tant que PDF accessible  
 
-Aspose.Words vous permet d'ajuster finement la sortie PDF. Le réglage `PdfCompliance.PdfUAXmp` active PDF/UA‑2 (la dernière norme d'accessibilité).
+Nous allons maintenant réellement écrire le fichier sur le disque.
 
 ```csharp
-        // Step 3: Create PDF save options with PDF/UA‑2 compliance
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // PDF/UA‑2 ensures the PDF meets accessibility guidelines
-            Compliance = PdfCompliance.PdfUAXmp,
+// Destination path for the accessible PDF
+string outputPath = @"C:\Docs\output.pdf";
 
-            // Optional: preserve original document structure for better tagging
-            PreserveFormFields = true,
-            ExportDocumentStructure = true
-        };
+// The Save method applies the options we defined above
+document.Save(outputPath, pdfSaveOptions);
 ```
 
-> **Pourquoi PDF/UA‑2 ?** De nombreux contrats du secteur public exigent PDF/UA‑2. Le mode `PdfUAXmp` ajoute les balises nécessaires, l'ordre de lecture logique et les métadonnées sans travail supplémentaire de votre part.
+Si tout s’est déroulé sans problème, `output.pdf` sera un PDF entièrement balisé et accessible, prêt à être distribué.
 
-### 4. Enregistrer le document en tant que PDF accessible
+### Vérification rapide (optionnelle)
 
-Nous allons maintenant réellement **enregistrer le Word en PDF** en utilisant les options que nous avons définies.
+Vous pouvez rapidement vérifier l’accessibilité du PDF à l’aide du vérificateur **Accessibility** d’Adobe Acrobat :
 
-```csharp
-        // Step 4: Save the document as an accessible PDF
-        const string outputPath = @"YOUR_DIRECTORY\Compliant.pdf";
+1. Ouvrez `output.pdf` dans Acrobat.  
+2. Choisissez **Tools → Accessibility → Full Check**.  
+3. Examinez le rapport — il ne devrait y avoir aucune erreur majeure si vous avez utilisé `PdfUA2`.
 
-        doc.Save(outputPath, pdfOptions);
-        Console.WriteLine($"Accessible PDF saved to '{outputPath}'.");
-    }
-}
-```
+## Étape 5 : Exporter DOCX en PDF – Cas limites courants  
 
-Exécutez le programme (`dotnet run`) et vous devriez voir deux messages console confirmant le succès. Ouvrez `Compliant.pdf` dans Adobe Acrobat Pro et vérifiez **Fichier → Propriétés → Description → PDF/A et PDF/UA** – vous verrez « PDF/UA‑2 » répertorié.
+Même avec les bonnes options, quelques pièges peuvent encore vous surprendre :
 
-## Exemple complet fonctionnel (prêt à copier‑coller)
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| Texte alternatif manquant sur les images | Le DOCX source ne contenait pas d’attributs `alt` | Ajoutez un texte alternatif significatif dans Word avant la conversion |
+| Les tableaux complexes perdent la sémantique des en‑têtes | Les en‑têtes de tableau ne sont pas marqués comme « Header Row » | Utilisez **Table Properties → Row → Repeat as header** dans Word |
+| Polices personnalisées non incorporées | `EmbedFullFonts` défini sur `false` | Définissez `EmbedFullFonts = true` (comme indiqué ci‑dessus) |
+| Les gros fichiers provoquent une pression mémoire | Chargement d’un DOCX volumineux en mémoire | Utilisez `LoadOptions` avec `LoadFormat` pour diffuser les sections si nécessaire |
+
+Résoudre ces problèmes dès le départ vous évite de devoir relancer la conversion plus tard.
+
+## Étape 6 : Exemple complet – Une méthode pour tout gérer  
+
+Voici une méthode autonome que vous pouvez insérer dans n’importe quelle classe C#. Elle gère tout, du chargement du fichier à l’enregistrement du PDF accessible, et renvoie un booléen indiquant le succès.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-class Program
+public static class PdfAccessibilityHelper
 {
-    static void Main()
+    /// <summary>
+    /// Converts a Word document to an accessible PDF (PDF/UA‑2).
+    /// </summary>
+    /// <param name="inputDocxPath">Full path of the source .docx file.</param>
+    /// <param name="outputPdfPath">Full path where the PDF should be saved.</param>
+    /// <returns>True if conversion succeeded; otherwise false.</returns>
+    public static bool ConvertToAccessiblePdf(string inputDocxPath, string outputPdfPath)
     {
-        // Uncomment and set the path if you have a license file
-        // var license = new License();
-        // license.SetLicense(@"YOUR_DIRECTORY\Aspose.Words.lic");
-
-        const string inputPath = @"YOUR_DIRECTORY\input.docx";
-        const string outputPath = @"YOUR_DIRECTORY\Compliant.pdf";
-
-        if (!File.Exists(inputPath))
+        try
         {
-            Console.WriteLine($"Error: The file '{inputPath}' was not found.");
-            return;
+            // Load the Word document
+            Document doc = new Document(inputDocxPath);
+
+            // Configure PDF/UA‑2 compliance
+            PdfSaveOptions options = new PdfSaveOptions
+            {
+                PdfCompliance = PdfCompliance.PdfUA2,
+                EmbedFullFonts = true,
+                OutlineOptions = { HeadingsOutlineLevels = 3 }
+            };
+
+            // Save as accessible PDF
+            doc.Save(outputPdfPath, options);
+
+            // Optional quick sanity check – ensure file exists and size > 0
+            return System.IO.File.Exists(outputPdfPath) && new System.IO.FileInfo(outputPdfPath).Length > 0;
         }
-
-        // Load the Word document
-        Document doc = new Document(inputPath);
-        Console.WriteLine("Document loaded.");
-
-        // Configure PDF/UA‑2 compliance
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
+        catch (Exception ex)
         {
-            Compliance = PdfCompliance.PdfUAXmp,
-            PreserveFormFields = true,
-            ExportDocumentStructure = true
-        };
-
-        // Save as an accessible PDF
-        doc.Save(outputPath, pdfOptions);
-        Console.WriteLine($"Accessible PDF created at: {outputPath}");
+            // In a real app you’d log this exception
+            Console.Error.WriteLine($"Error converting to accessible PDF: {ex.Message}");
+            return false;
+        }
     }
 }
 ```
 
-### Résultat attendu
+**Comment l’appeler**
 
-- Un fichier nommé `Compliant.pdf` dans le dossier cible.
-- Le PDF s'ouvre sans avertissements dans le **Vérificateur d'accessibilité** d'Adobe Acrobat.
-- Tous les titres, tableaux et listes du fichier Word original sont correctement balisés.
+```csharp
+bool ok = PdfAccessibilityHelper.ConvertToAccessiblePdf(
+    @"C:\Docs\input.docx",
+    @"C:\Docs\output.pdf");
 
-## Questions fréquentes & cas limites
+Console.WriteLine(ok ? "PDF created successfully!" : "Conversion failed.");
+```
 
-| Question | Réponse |
-|----------|--------|
-| *Et si mon fichier Word contient des images ?* | Aspose.Words intègre automatiquement les images et ajoute des balises de texte alternatif si elles existent dans le document source. Pour une accessibilité maximale, ajoutez du texte alternatif dans Word avant la conversion. |
-| *Puis-je traiter en lot de nombreux documents ?* | Enveloppez la logique de chargement/enregistrement dans une boucle `foreach (var file in Directory.GetFiles(..., "*.docx"))`. N'oubliez pas de réutiliser une seule instance de `PdfSaveOptions` pour les performances. |
-| *Qu'en est-il des documents protégés par mot de passe ?* | Chargez-les avec `LoadOptions { Password = "secret" }`. Le même `PdfSaveOptions` respectera la protection lors de l'exportation. |
-| *PDF/UA‑2 est‑il pris en charge sur .NET Core ?* | Oui. Aspose.Words pour .NET 23.10+ (la version au moment de la rédaction) prend entièrement en charge PDF/UA‑2 sur .NET Core et .NET Framework. |
-| *Dois‑je définir des polices spéciales ?* | Si votre document utilise des polices personnalisées, copiez‑les dans le dossier d'exécution ou intégrez‑les via `FontSettings`. Cela évite les substitutions qui pourraient perturber l'ordre de lecture. |
+L’exécution de cet extrait produit un PDF qui satisfait PDF/UA‑2, ce qui signifie que les lecteurs d’écran peuvent parcourir les titres, les tableaux et les images exactement comme dans le fichier Word original.
 
-## Conseils pro pour des conversions prêtes pour la production
+## Étape 7 : Vérifier l’accessibilité programmatiquement (Bonus)
 
-- **Mettre en cache la licence** : Chargez la licence une fois au démarrage de l'application ; les appels répétés ajoutent une surcharge.
-- **Flux au lieu de fichiers** : Pour les API web, utilisez `MemoryStream` afin d'éviter les I/O disque (`doc.Save(stream, pdfOptions)`).
-- **Valider la sortie** : Exécutez automatiquement l'outil `Preflight` d'Adobe après la conversion pour détecter tôt toute non‑conformité.
-- **Parallélisme** : Lors de la conversion de dizaines de fichiers, utilisez `Parallel.ForEach` avec une copie thread‑safe de `PdfSaveOptions` par thread.
+Si vous souhaitez automatiser l’étape de vérification — par exemple dans le cadre d’un pipeline CI — Aspose.PDF (une bibliothèque distincte) peut analyser le PDF généré à la recherche de balises.
 
-## Prochaines étapes
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Tagged;
 
-Maintenant que vous pouvez **créer des PDF accessibles**, envisagez d'explorer ces sujets connexes :
+// Load the PDF
+Document pdfDoc = new Document(@"C:\Docs\output.pdf");
 
-- **Convertir Word en PDF** avec des tailles de page personnalisées ou des filigranes.
-- **Exporter Word en PDF** tout en conservant les hyperliens et les signets.
-- **Convertir docx en PDF** dans une API ASP.NET Core pour la génération de documents à la volée.
-- **Exporter Word en PDF** avec des signatures numériques pour les documents juridiques.
+// Check if the PDF is tagged (a basic accessibility indicator)
+bool isTagged = pdfDoc.IsTagged;
 
-Chacun de ces points s'appuie sur la même base que nous venons de couvrir, vous trouverez donc les modèles de code presque identiques — il suffit d'ajuster le `PdfSaveOptions` ou d'ajouter des étapes supplémentaires avec `DocumentBuilder`.
+Console.WriteLine(isTagged ? "PDF is tagged (accessible)." : "PDF is NOT tagged.");
+```
 
----
+Bien que cela ne remplace pas un audit complet d’accessibilité, cela vous fournit une vérification rapide avant de livrer le fichier.
 
-### TL;DR
+## Conclusion  
 
-Nous avons montré comment **créer un PDF accessible** à partir d'un fichier Word en utilisant Aspose.Words, couvrant l'ensemble du pipeline depuis le chargement du document, la configuration de la conformité PDF/UA‑2, jusqu'à l'enregistrement du fichier final. La solution fonctionne pour les scénarios **convertir word en pdf**, **enregistrer word en pdf**, **convertir docx en pdf**, et **exporter word en pdf**, et inclut des conseils pratiques pour la gestion des erreurs, la licence et le traitement par lots.
+Nous avons couvert tout ce dont vous avez besoin pour **créer des PDF accessibles** à partir de Word avec C#. En partant de l’installation d’Aspose.Words, du chargement du DOCX, de la configuration de `PdfSaveOptions` pour PDF/UA‑2, et enfin de l’enregistrement du résultat, vous disposez maintenant d’une solution réutilisable et prête pour la production.  
 
-Essayez-le, expérimentez avec des balises personnalisées, et laissez la conformité d'accessibilité faire le gros du travail pour vous. Bonne utilisation
+Vous avez également appris comment **convertir word en pdf**, **enregistrer word en pdf**, et **exporter docx en pdf** tout en gérant les cas limites courants qui pourraient compromettre l’accessibilité. La méthode d’assistance fournie et le code de vérification optionnel facilitent l’intégration de ce flux de travail dans des applications plus vastes ou des pipelines automatisés.
+
+### Et après ?
+
+- Expérimentez avec les métadonnées PDF personnalisées (auteur, langue) pour améliorer la découvrabilité.  
+- Plongez dans le **DocumentVisitor** d’Aspose.Words pour injecter des balises supplémentaires si vos fichiers Word source ne sont pas standards.  
+- Combinez cela avec une routine de traitement par lots pour convertir en une fois des dossiers entiers de fichiers DOCX.
+
+Des questions sur un scénario spécifique — par exemple la gestion de fichiers DOCX protégés par mot de passe ou la fusion de plusieurs PDF ? Laissez un commentaire ci‑dessous, et je me ferai un plaisir de vous aider. Bon codage, et amusez‑vous à créer des applications plus accessibles !  
+
+![Create accessible PDF example](/images/create-accessible-pdf.png "create accessible pdf example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

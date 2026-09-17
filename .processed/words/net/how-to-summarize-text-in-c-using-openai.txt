@@ -1,0 +1,7 @@
+Title: How to summarize text in C# using OpenAI
+Slug: how-to-summarize-text-in-c-using-openai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-12T02:56:29.569205
+SourceRepo: AI Search API
+Keywords: how to summarize text, summarize word document, read api key, how to create summary, how to call openai
+PRNumber: 273
