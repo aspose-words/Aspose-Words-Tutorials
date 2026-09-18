@@ -40,6 +40,9 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 ### [Khôi phục DOCX bị hỏng & Chuyển Word sang Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Hướng dẫn khôi phục tệp DOCX hỏng và chuyển đổi nội dung Word sang định dạng Markdown bằng Aspose.Words for Python.
 
+### [Khôi phục DOCX và chuyển đổi sang markdown, PDF hoặc txt với Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX và chuyển đổi sang Markdown, PDF hoặc TXT bằng Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
