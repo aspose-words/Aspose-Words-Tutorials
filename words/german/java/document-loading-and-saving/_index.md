@@ -81,12 +81,14 @@ Entdecken Sie die Vielseitigkeit von Aspose.Words für Java, wenn wir das Speich
 Dokumenteinstellungen sind der Schlüssel, um Dokumente exakt nach Ihren Anforderungen zu liefern. Erfahren Sie, wie Sie Einstellungen wie Seitengröße, Ränder und Schriftarten anpassen, um das gewünschte Ergebnis zu erzielen.
 
 ## Related Tutorials – Load, Save, and Convert
-
 ### [Laden und Speichern von HTML‑Dokumenten mit Aspose.Words für Java](./loading-and-saving-html-documents/)
 Lernen Sie, wie Sie HTML‑Dokumente in Java mit Aspose.Words für Java laden und speichern. Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen für nahtlose Dokumentintegration.
 
 ### [Arbeiten mit Ladeoptionen in Aspose.Words für Java](./using-load-options/)
 Meistern Sie Ladeoptionen in Aspose.Words für Java. Passen Sie das Laden von Dokumenten an, behandeln Sie Verschlüsselungen, konvertieren Sie Shapes, setzen Sie Word‑Versionen und mehr für effiziente Java‑Dokumentenverarbeitung.
+
+### [Ladeoptionen in Java erstellen – Fehlende Schriftarten erkennen & DOCX laden](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Lernen Sie, wie Sie Ladeoptionen konfigurieren, fehlende Schriftarten erkennen und DOCX-Dateien korrekt laden.
 
 ### [Konfigurieren von RTF‑Ladeoptionen in Aspose.Words für Java](./configuring-rtf-load-options/)
 Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie Sie UTF‑8‑Text in RTF‑Dokumenten erkennen. Schritt‑für‑Schritt‑Anleitung mit Code‑Beispielen.
@@ -94,8 +96,8 @@ Konfigurieren Sie RTF‑Ladeoptionen in Aspose.Words für Java. Lernen Sie, wie 
 ### [Laden von Textdateien mit Aspose.Words für Java](./loading-text-files/)
 Entfesseln Sie die Power von Aspose.Words für Java. Lernen Sie, Textdokumente zu laden, Listen zu verwalten, Leerzeichen zu handhaben und die Textausrichtung zu steuern.
 
-### [Wie man docx wiederherstellt – Vollständiger Leitfaden zum Lesen beschädigter Word-Dateien](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
-Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java wiederherstellen und lesbar machen.
+### [Wie man DOCX wiederherstellt – Beschädigte Dateien mit Wiederherstellungsoptionen laden](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+Lernen Sie, beschädigte DOCX-Dateien zu laden und mit Wiederherstellungsoptionen zu reparieren.
 
 ### [Erweiterte Speicheroptionen mit Aspose.Words für Java](./advance-saving-options/)
 Lernen Sie erweiterte Dokumentenmanipulation mit Aspose.Words für Java. Verschlüsseln, Metadateien handhaben und mehr. Ihre Word‑Dokumente, nach Ihren Wünschen.
@@ -132,6 +134,9 @@ Lernen Sie, wie Sie Dokumente als Textdateien mit Aspose.Words für Java speiche
 
 ### [Bestimmen des Dokumentenformats in Aspose.Words für Java](./determining-document-format/)
 Lernen Sie, wie Sie Dokumentformate in Java mit Aspose.Words erkennen. DOC, DOCX und mehr identifizieren. Dateien effizient organisieren.
+
+### [Wie man docx wiederherstellt – Vollständiger Leitfaden zum Lesen beschädigter Word-Dateien](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Erfahren Sie, wie Sie beschädigte DOCX‑Dateien mit Aspose.Words für Java wiederherstellen und lesbar machen.
 
 ### [Beschädigtes docx wiederherstellen – Vollständiger Leitfaden zum Reparieren und Verarbeiten von Dokumenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 Erfahren Sie, wie Sie beschädigte DOCX‑Dateien reparieren und anschließend mit Aspose.Words für Java verarbeiten.

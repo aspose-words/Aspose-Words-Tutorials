@@ -80,14 +80,11 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 文件設定是提供符合需求文件的關鍵。學習如何調整頁面大小、邊距、字型等設定，以達到理想的輸出效果。
 
 ## 相關教學 – 載入、儲存與轉換
-
 ### [使用 Aspose.Words for Java 載入與儲存 HTML 文件](./loading-and-saving-html-documents/)
 
 ### [使用 Aspose.Words for Java 的載入選項](./using-load-options/)
 
 ### [設定 Aspose.Words for Java 的 RTF 載入選項](./configuring-rtf-load-options/)
-
-### [設定復原模式以修復損壞的 Word 文件](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [使用 Aspose.Words for Java 載入文字檔案](./loading-text-files/)
 
@@ -114,6 +111,12 @@ Aspose.Words for Java 讓您輕鬆 **從 Word 儲存圖像**，同時提供強�
 ### [使用 Aspose.Words for Java 將文件儲存為文字檔](./saving-documents-as-text-files/)
 
 ### [使用 Aspose.Words for Java 判斷文件格式](./determining-document-format/)
+
+### [使用 Aspose.Words for Java 復原 DOCX – 載入損毀檔案的復原選項](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [在 Java 中建立載入選項 – 偵測缺少字型與如何載入 DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
+### [設定復原模式以修復損壞的 Word 文件](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [修復損壞的 docx – 完整指南：修復與處理文件](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 

@@ -39,6 +39,9 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 ### [जावा के साथ Word में आयताकार आकृति बनाएं – पूर्ण गाइड](./create-rectangle-shape-in-word-with-java-full-guide/)
 जावा में Aspose.Words का उपयोग करके Word दस्तावेज़ में आयताकार आकृति जोड़ने और अनुकूलित करने की पूरी प्रक्रिया सीखें।
 
+### [Word में आकृति में छाया जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Word दस्तावेज़ में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश, Aspose.Words Java के साथ पूर्ण गाइड।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

@@ -34,13 +34,10 @@ Tutorial kode untuk Aspose.Words Java
 ### [Cara Membuat Halaman Dokumen sebagai Thumbnail menggunakan Aspose.Words untuk Java](./render-word-pages-thumbnails-aspose-java/)
 Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus dari dokumen Word dengan Aspose.Words untuk Java. Tingkatkan kemampuan penanganan dokumen Anda hari ini.
 
-### [Buat Dokumen Word Java – Tambahkan Bentuk Persegi Panjang dengan Efek Bayangan](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Pelajari cara menambahkan bentuk persegi panjang dengan efek bayangan ke dokumen Word menggunakan Aspose.Words untuk Java.
-### [Membuat Bentuk Persegi Panjang di Word dengan Java – Panduan Lengkap](./create-rectangle-shape-in-word-with-java-full-guide/)
-Panduan lengkap untuk membuat dan menyesuaikan bentuk persegi panjang dalam dokumen Word menggunakan Aspose.Words untuk Java.
+### [Menambahkan bayangan pada bentuk di Word – Panduan Lengkap Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
-
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/)

@@ -101,8 +101,22 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعرّف على كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words لجافا. خصّص الخطوط والخصائص وجودة الصورة. دليل شامل لتحويل ملفات PDF.
 ### [حفظ المستندات بتنسيق RTF في Aspose.Words لـ Java](./saving-documents-as-rtf-format/)
 تعلّم كيفية حفظ المستندات بصيغة RTF باستخدام Aspose.Words لجافا. دليل خطوة بخطوة مع الكود المصدري لتحويل المستندات بكفاءة.
+### [حفظ المستندات كملفات نصية في Aspose.Words لـ Java](./saving-documents-as-text-files/)
+تعلّم كيفية حفظ المستندات كملفات نصية في Aspose.Words لجافا. اتبع دليلنا خطوة بخطوة مع أمثلة أكواد جافا.
 ### [تحديد تنسيق المستند في Aspose.Words لـ Java](./determining-document-format/)
 تعرّف على كيفية اكتشاف تنسيقات المستندات في جافا باستخدام Aspose.Words. حدّد صيغ DOC وDOCX وغيرها. نظّم ملفاتك بكفاءة.
+### [كيفية استعادة DOCX – تحميل ملفات تالفة مع خيارات الاسترداد](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [إنشاء خيارات التحميل في Java – اكتشاف الخطوط المفقودة وكيفية تحميل DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
+#### الحفظ بصيغ مختلفة
+
+استكشف مرونة Aspose.Words for Java بينما نتعمق في حفظ المستندات بصيغ مختلفة. حوّل مستنداتك إلى PDF أو DOCX أو حتى HTML بسهولة. *(هنا ستجد أيضًا نمط “save pdf java” قيد التنفيذ.)*
+
+#### التعامل مع إعدادات المستند
+
+إعدادات المستند هي المفتاح لتقديم مستندات مخصصة وفقًا لمتطلباتك الدقيقة. تعلم كيفية تعديل إعدادات مثل حجم الصفحة، الهوامش، والخطوط للحصول على النتيجة المطلوبة.
+
 ### [استعادة ملف docx تالف – دليل شامل للإصلاح ومعالجة المستندات](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 دليل شامل لاستعادة ملفات DOCX التالفة وإصلاحها ومعالجتها باستخدام Aspose.Words for Java.
 ### [التقاط تحذيرات استبدال الخطوط في Java باستخدام Aspose.Words – دليل شامل](./capture-font-substitution-warnings-in-java-with-aspose-words/)

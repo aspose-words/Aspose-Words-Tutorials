@@ -34,13 +34,10 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Come visualizzare le pagine del documento come miniature utilizzando Aspose.Words per Java](./render-word-pages-thumbnails-aspose-java/)
 Scopri come generare miniature di alta qualità e bitmap di dimensioni personalizzate da documenti Word con Aspose.Words per Java. Migliora subito le tue capacità di gestione dei documenti.
 
-### [Crea documento Word Java – Aggiungi forma rettangolare con effetto ombra](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Impara a inserire una forma rettangolare con ombra in un documento Word usando Aspose.Words per Java.
-### [Creare una forma rettangolare in Word con Java – Guida completa](./create-rectangle-shape-in-word-with-java-full-guide/)
-Scopri come creare e personalizzare una forma rettangolare nei documenti Word usando Aspose.Words per Java.
+### [Aggiungi ombra alla forma in Word – Guida completa Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Scopri come applicare ombre alle forme nei documenti Word usando Aspose.Words per Java.
 
 ## Risorse aggiuntive
-
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)
 - [Riferimento API Aspose.Words per Java](https://reference.aspose.com/words/java/)
 - [Scarica Aspose.Words per Java](https://releases.aspose.com/words/java/)

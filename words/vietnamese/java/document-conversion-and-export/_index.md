@@ -74,22 +74,40 @@ Tạo Nhãn Mã Vạch Tùy Chỉnh trong Aspose.Words for Java. Tìm hiểu cá
 Sử dụng tạo mã vạch trong Aspose.Words for Java. Tìm hiểu cách tạo mã vạch tùy chỉnh trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm mã nguồn cho việc tạo mã vạch. Nâng cao tự động hoá tài liệu với Aspose.Words.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
-Sử dụng biểu đồ trong Aspose.Words for Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words for Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
+Sử dụng biểu đồ trong Aspose.Words cho Java. Tìm hiểu cách tạo và tùy chỉnh biểu đồ trong Aspose.Words for Java. Khám phá các loại biểu đồ, định dạng và thuộc tính trục cho việc trực quan hoá dữ liệu.
 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
-Sử dụng đối tượng Office Math trong Aspose.Words cho Java. Khai thác sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words for Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
+Sử dụng đối tượng Office Math trong Aspose.Words for Java. Khai thác sức mạnh của các phương trình toán học trong tài liệu với Aspose.Words for Java. Học cách thao tác và hiển thị các đối tượng Office Math một cách dễ dàng.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Sử dụng hình dạng tài liệu trong Aspose.Words for Java. Khai thác sức mạnh của các hình dạng tài liệu trong Aspose.Words for Java. Học cách tạo các tài liệu hấp dẫn về mặt hình ảnh với các ví dụ từng bước.
+Sử dụng hình dạng tài liệu trong Aspose.Words cho Java. Khai thác sức mạnh của các hình dạng tài liệu trong Aspose.Words cho Java. Học cách tạo các tài liệu hấp dẫn về mặt hình ảnh với các ví dụ từng bước.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
-Sử dụng Watermark cho tài liệu trong Aspose.Words for Java. Tìm hiểu cách thêm watermark vào tài liệu trong Aspose.Words for Java. Tùy chỉnh watermark dạng văn bản và hình ảnh cho các tài liệu chuyên nghiệp.
-
-### [Lưu docx thành pdf bằng Java – Hướng dẫn chi tiết từng bước](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
-Hướng dẫn đầy đủ cách chuyển đổi tài liệu DOCX sang PDF trong Java bằng Aspose.Words, bao gồm cài đặt, mã nguồn mẫu và tùy chỉnh nâng cao.
+Sử dụng Watermark cho tài liệu trong Aspose.Words cho Java. Tìm hiểu cách thêm watermark vào tài liệu trong Aspose.Words cho Java. Tùy chỉnh watermark dạng văn bản và hình ảnh cho các tài liệu chuyên nghiệp.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Định dạng bảng và kiểu bảng trong Aspose.Words for Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words for Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
+
+### [Lưu docx dưới dạng markdown trong Java – Hướng dẫn chi tiết từng bước](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Hướng dẫn cách chuyển đổi tệp DOCX sang định dạng Markdown bằng Aspose.Words for Java, bao gồm các bước chi tiết và mã mẫu.
+
+### [Tạo markdown từ tài liệu – Xuất và lưu hình ảnh](./create-markdown-from-document-export-and-save-images/)
+Hướng dẫn cách chuyển đổi tài liệu sang markdown và lưu các hình ảnh được nhúng trong quá trình xuất.
+
+### [cách xuất LaTeX từ DOCX – Hướng dẫn chuyển Word sang TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word (DOCX) sang định dạng LaTeX và TXT bằng Aspose.Words for Java.
+
+### [Chuyển DOCX sang PDF với Xuất Hình Dạng Nội Tuyến – Hướng Dẫn Từng Bước](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF đồng thời xuất các hình dạng nội tuyến một cách chính xác.
+
+### [Create PDF UA in Java – Complete Guide](./create-pdf-ua-in-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF UA trong Java bằng Aspose.Words, bao gồm cấu hình, tùy chỉnh và lưu trữ.
+
+### [Cách Khôi Phục DOCX, Xuất ra Markdown & PDF/UA – Hướng Dẫn Java Toàn Diện](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Hướng dẫn khôi phục tệp DOCX bị hỏng, sau đó xuất nội dung sang Markdown và PDF/UA bằng Aspose.Words cho Java.
+
+### [Lưu docx thành pdf bằng Java – Hướng dẫn chi tiết từng bước](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Hướng dẫn đầy đủ cách chuyển đổi tài liệu DOCX sang PDF trong Java bằng Aspose.Words, bao gồm cài đặt, mã nguồn mẫu và tùy chỉnh nâng cao.
 
 ### [Aspose.Words to PDF – Chuyển DOCX sang PDF trong Java](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Hướng dẫn chi tiết cách chuyển tài liệu DOCX sang PDF bằng Aspose.Words for Java trong một dòng mã.
@@ -121,14 +139,21 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu Word bằng Aspose.Words cho Java.
 
 ## Câu hỏi thường gặp
-### [Chuyển đổi docx sang txt – Xuất Phương Trình Word dưới dạng LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
-Chuyển đổi tài liệu DOCX sang TXT và xuất các phương trình Word dưới dạng LaTeX trong Aspose.Words for Java.
 
-### [Xuất Word sang Markdown – Hướng Dẫn Java Đầy Đủ](./export-word-to-markdown-full-java-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words for Java, bao gồm mã nguồn mẫu và tùy chỉnh.
+**Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  
+A: Tải tài liệu, sử dụng `DocumentBuilder.insertWatermarkText` hoặc `insertWatermarkImage`, sau đó lưu dưới dạng PDF.
 
-### [Tạo PDF Truy cập được từ Word – Hướng Dẫn Từng Bước](./create-accessible-pdf-from-word-step-by-step-guide/)
-Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF có khả năng truy cập, đáp ứng tiêu chuẩn WCAG, bằng Aspose.Words for Java.
+Q: Tôi có thể chuyển đổi tệp DOCX sang PDF mà không mất bố cục phức tạp không?**  
+A: Có. Aspose.Words giữ nguyên bố cục, phông chữ và đồ họa trong quá trình chuyển đổi.
+
+**Q: Làm thế nào để tạo nhãn mã vạch tùy chỉnh trong Java?**  
+A: Sử dụng API barcode do Aspose.Words cung cấp, chỉ định loại mã vạch và chèn nó dưới dạng hình ảnh hoặc hình dạng.
+
+**Q: Cách tốt nhất để định dạng bảng một cách nhất quán là gì?**  
+A: Áp dụng TableStyle thông qua phương thức `Table.setStyleIdentifier` hoặc sử dụng bộ sưu tập kiểu có sẵn.
+
+**Q: Có cần giấy phép cho việc sử dụng thương mại không?**  
+A: Có, cần giấy phép thương mại cho các triển khai sản xuất; có bản dùng thử miễn phí để đánh giá.
 
 ---
 

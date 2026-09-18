@@ -80,12 +80,14 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 文档设置是实现精准输出的关键。学习如何调整页面大小、边距、字体等，以满足特定需求。
 
 ## 相关教程 – 加载、保存与转换
-
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
 了解如何在 Java 中使用 Aspose.Words for Java 加载和保存 HTML 文档。分步指南配有代码示例，帮助实现无缝文档集成。
 
 ### [Working with Load Options in Aspose.Words for Java](./using-load-options/)
 掌握 Aspose.Words for Java 中的加载选项。自定义文档加载、处理加密、转换形状、设置 Word 版本等，提升 Java 文档处理效率。
+
+### [在 Java 中创建加载选项 – 检测缺失字体并加载 DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+了解如何在 Java 中创建加载选项以检测缺失字体并正确加载 DOCX 文档。
 
 ### [Configuring RTF Load Options in Aspose.Words for Java](./configuring-rtf-load-options/)
 配置 Aspose.Words for Java 的 RTF 加载选项。学习在 RTF 文档中识别 UTF-8 文本。分步指南配有代码示例。
@@ -129,6 +131,9 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 学习使用 Aspose.Words 在 Java 中检测文档格式。识别 DOC、DOCX 等，帮助您高效组织文件。
 
+### [如何恢复 DOCX – 使用恢复选项加载损坏文件](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+学习使用 Aspose.Words for Java 的恢复选项加载并修复损坏的 DOCX 文件，确保文档完整性。
+
 ### [恢复损坏的 docx – 完整指南：修复和处理文档](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 学习如何修复损坏的 docx 文件并进行后续处理，提供完整步骤和代码示例。
 
@@ -165,6 +170,7 @@ Aspose.Words for Java 让 **从 Word 文档中保存图像** 变得简单，同�
 **作者：** Aspose
 
 ### [恢复损坏的 Word 文件 – C# 安全打开指南](./recover-corrupted-word-file-c-guide-to-open-safely/)
+学习如何在 C# 中安全打开并恢复损坏的 Word 文件，提供代码示例和实用技巧。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

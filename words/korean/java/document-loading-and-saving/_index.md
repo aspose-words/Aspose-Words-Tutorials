@@ -80,38 +80,25 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 문서 설정은 정확한 요구에 맞는 문서를 제공하는 핵심입니다. 페이지 크기, 여백, 글꼴 등 설정을 조정하는 방법을 배워 원하는 결과물을 얻으세요.
 
 ## 관련 튜토리얼 – 로드, 저장 및 변환
-
 ### [Aspose.Words for Java를 사용한 HTML 문서 로드 및 저장](./loading-and-saving-html-documents/)
-
 ### [Aspose.Words for Java에서 로드 옵션 사용하기](./using-load-options/)
-
 ### [Aspose.Words for Java에서 RTF 로드 옵션 구성](./configuring-rtf-load-options/)
-
 ### [Aspose.Words for Java로 텍스트 파일 로드](./loading-text-files/)
-
 ### [Aspose.Words for Java 고급 저장 옵션](./advance-saving-options/)
-
 ### [Aspose.Words for Java에서 고정 레이아웃으로 HTML 문서 저장](./saving-html-documents-with-fixed-layout/)
-
 ### [Aspose.Words Java 고급 HTML 문서 저장 옵션](./advance-html-documents-saving-options/)
-
 ### [Aspose.Words for Java에서 문서 이미지 저장](./saving-images-from-documents/)
-
 ### [Aspose.Words for Java로 문서를 Markdown으로 저장](./saving-documents-as-markdown/)
-
 ### [Aspose.Words for Java로 문서를 ODT 형식으로 저장](./saving-documents-as-odt-format/)
-
 ### [Aspose.Words for Java로 문서를 OOXML 형식으로 저장](./saving-documents-as-ooxml-format/)
-
 ### [Aspose.Words for Java로 문서를 PCL 형식으로 저장](./saving-documents-as-pcl-format/)
-
 ### [Aspose.Words for Java로 문서를 PDF로 저장](./saving-documents-as-pdf/)
-
 ### [Aspose.Words for Java로 문서를 RTF 형식으로 저장](./saving-documents-as-rtf-format/)
-
 ### [Aspose.Words for Java로 문서를 텍스트 파일로 저장](./saving-documents-as-text-files/)
-
 ### [Aspose.Words for Java에서 문서 형식 판별](./determining-document-format/)
+### [DOCX 복구 방법 – 복구 옵션을 사용한 손상 파일 로드](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+### [Java에서 로드 옵션 만들기 – 누락된 글꼴 감지 및 DOCX 로드 방법](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
 ### [손상된 docx 복구 – 문서 복구 및 처리 완전 가이드](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 ### [Java에서 Aspose.Words로 글꼴 대체 경고 캡처 – 완전 가이드](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 ### [docx 복구 방법 – 손상된 Word 파일 읽기 완전 가이드](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)

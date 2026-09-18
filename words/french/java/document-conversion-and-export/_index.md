@@ -134,6 +134,24 @@ Apprenez à convertir des documents DOCX en Markdown tout en exportant les équa
 ### [Créer un PDF accessible à partir de Word – Guide étape par étape](./create-accessible-pdf-from-word-step-by-step-guide/)
 Apprenez à générer des PDF accessibles depuis des documents Word en suivant un guide complet pas à pas.
 
+### [Enregistrer un docx en markdown avec Java – Guide complet étape par étape](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Apprenez à convertir des fichiers DOCX en Markdown en Java grâce à un guide détaillé avec du code source.
+
+### [Créer du markdown à partir d'un document – Exporter et enregistrer les images](./create-markdown-from-document-export-and-save-images/)
+Apprenez à générer du markdown depuis un document et à extraire les images en les enregistrant avec Aspose.Words for Java.
+
+### [Convertir DOCX en PDF avec exportation de formes en ligne – Guide étape par étape](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Apprenez à convertir des fichiers DOCX en PDF tout en conservant les formes en ligne grâce à Aspose.Words for Java.
+
+### [Comment exporter du LaTeX depuis DOCX – Guide de conversion Word vers TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Apprenez à extraire du LaTeX d'un document DOCX et à le sauvegarder en fichier texte avec Aspose.Words for Java.
+
+### [Créer un PDF UA en Java – Guide complet](./create-pdf-ua-in-java-complete-guide/)
+Apprenez à créer des fichiers PDF conformes à l’UA en Java avec Aspose.Words, incluant les options d’accessibilité et de conformité.
+
+### [Comment récupérer un DOCX, exporter en Markdown et PDF/UA – Guide complet Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Apprenez à restaurer des fichiers DOCX corrompus, puis à les convertir en Markdown et PDF/UA avec Aspose.Words for Java.
+
 ## Questions fréquentes
 
 **Q : Comment ajouter un filigrane à un PDF existant avec Aspose.Words ?**  

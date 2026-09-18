@@ -81,7 +81,6 @@ Explore la versatilidad de Aspose.Words for Java mientras nos adentramos en guar
 Las configuraciones de documento son la clave para entregar documentos adaptados a sus requisitos exactos. Aprenda a ajustar configuraciones como el tamaño de página, márgenes y fuentes para lograr el resultado deseado.
 
 ## Tutoriales relacionados – Cargar, guardar y convertir
-
 ### [Cargando y guardando documentos HTML con Aspose.Words for Java](./loading-and-saving-html-documents/)
 
 ### [Trabajando con opciones de carga en Aspose.Words for Java](./using-load-options/)
@@ -89,8 +88,6 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Configurando opciones de carga RTF en Aspose.Words for Java](./configuring-rtf-load-options/)
 
 ### [Cargando archivos de texto con Aspose.Words for Java](./loading-text-files/)
-
-### [Establecer modo de recuperación para recuperar documentos Word dañados](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Opciones avanzadas de guardado con Aspose.Words for Java](./advance-saving-options/)
 
@@ -115,6 +112,12 @@ Las configuraciones de documento son la clave para entregar documentos adaptados
 ### [Guardando documentos como archivos de texto en Aspose.Words for Java](./saving-documents-as-text-files/)
 
 ### [Determinando el formato de documento en Aspose.Words for Java](./determining-document-format/)
+
+### [Cómo recuperar DOCX – Cargar archivos corruptos con opciones de recuperación](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [Crear opciones de carga en Java – Detectar fuentes faltantes y cómo cargar DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
+### [Establecer modo de recuperación para recuperar documentos Word dañados](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Recuperar docx corrupto – Guía completa para reparar y procesar documentos](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
 

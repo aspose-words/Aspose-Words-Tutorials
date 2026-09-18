@@ -80,13 +80,28 @@ Aspose.Words for Java में डॉक्यूमेंट शेप्स �
 ### [Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क का उपयोग करना](./using-watermarks-to-documents/)
 Aspose.Words for Java में दस्तावेज़ों में वॉटरमार्क कैसे जोड़ें, सीखें। पेशेवर दिखने वाले दस्तावेज़ों के लिए टेक्स्ट और इमेज वॉटरमार्क को कस्टमाइज़ करें।
 
+### [Aspose.Words for Java में टेबल्स और टेबल स्टाइल्स को फ़ॉर्मेट करना](./formatting-tables-and-table-styles/)
+Aspose.Words for Java में टेबल्स को फ़ॉर्मेट करना और टेबल स्टाइल्स लागू करना सीखें। प्रभावी टेबल फ़ॉर्मेटिंग के लिए स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएं।
+
+### [Java में docx को markdown के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Java में Aspose.Words का उपयोग करके DOCX फ़ाइल को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
+
+### [डॉक्यूमेंट से मार्कडाउन बनाएं – निर्यात करें और छवियों को सहेजें](./create-markdown-from-document-export-and-save-images/)
+Aspose.Words for Java का उपयोग करके डॉक्यूमेंट को मार्कडाउन में बदलें, छवियों को निर्यात और सहेजें। चरण‑दर‑स्टेप कोड उदाहरण।
+
+### [DOCX से LaTeX निर्यात कैसे करें – Word को TXT में बदलने की गाइड](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Aspose.Words for Java का उपयोग करके DOCX से LaTeX निर्यात करें और Word को TXT फ़ॉर्मेट में बदलें।
+
+### [DOCX को PDF में इनलाइन शेप एक्सपोर्ट के साथ बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+
+### [Java में PDF UA बनाएं – पूर्ण गाइड](./create-pdf-ua-in-java-complete-guide/)
+
+### [DOCX को पुनर्प्राप्त करें, मार्कडाउन और PDF/UA में निर्यात करें – पूर्ण जावा गाइड](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+
 ### [Aspose.Words for Java में DOCX को PDF में बदलें](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java का उपयोग करके DOCX फ़ाइल को आसानी से PDF में बदलें। चरण‑दर‑स्टेप कोड उदाहरण।
 ### [Java के साथ docx को pdf में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
 Java में Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने की पूरी प्रक्रिया सीखें।
-
-### [Aspose.Words for Java में टेबल्स और टेबल स्टाइल्स को फ़ॉर्मेट करना](./formatting-tables-and-table-styles/)
-Aspose.Words for Java में टेबल्स को फ़ॉर्मेट करना और टेबल स्टाइल्स लागू करना सीखें। प्रभावी टेबल फ़ॉर्मेटिंग के लिए स्रोत कोड के साथ चरण‑दर‑स्टेप गाइड। Aspose.Words के साथ अपने दस्तावेज़ लेआउट को बेहतर बनाएं।
 
 ### [docx को markdown में बदलें – Aspose.Words के साथ गणितीय समीकरणों को LaTeX में निर्यात करें](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 

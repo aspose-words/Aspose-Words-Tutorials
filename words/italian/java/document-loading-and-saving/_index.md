@@ -88,6 +88,9 @@ Impara a caricare e salvare documenti HTML in Java usando Aspose.Words per Java.
 ### [Lavorare con le Opzioni di Caricamento in Aspose.Words per Java](./using-load-options/)
 Padroneggia le Load Options in Aspose.Words per Java. Personalizza il caricamento dei documenti, gestisci la crittografia, converti forme, imposta versioni Word e molto altro per una gestione efficiente dei documenti Java.
 
+### [Creare Opzioni di Caricamento in Java – Rilevare Font Mancanti e Come Caricare DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Scopri come configurare le Load Options in Java per rilevare font mancanti e caricare correttamente file DOCX con Aspose.Words.
+
 ### [Configurare le Opzioni di Caricamento RTF in Aspose.Words per Java](./configuring-rtf-load-options/)
 Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑step con esempi di codice.
 
@@ -131,7 +134,8 @@ Impara a salvare documenti in formato RTF usando Aspose.Words per Java. Guida pa
 Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la nostra guida passo‑per‑step con esempi di codice Java.
 
 ### [Determinare il Formato del Documento in Aspose.Words per Java](./determining-document-format/)
-Impara a rilevare i formati dei documenti in Java con Aspose.Words. Identifica DOC, DOCX e altri. Organizza i file in modo efficiente.
+
+### [Come recuperare DOCX – Caricare file corrotti con opzioni di recupero](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Cattura gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
 Scopri come intercettare e gestire gli avvisi di sostituzione dei font durante l'elaborazione dei documenti Word in Java con Aspose.Words.

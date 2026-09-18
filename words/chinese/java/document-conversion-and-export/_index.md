@@ -67,6 +67,8 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ## 文档转换与导出教程
 ### [在 Aspose.Words for Java 中生成自定义条形码标签](./generating-custom-barcode-labels/)
 
+使用 Aspose.Words for Java 生成自定义条形码标签。本指南将逐步指导您如何使用 Aspose.Words for Java 创建个性化条形码解决方案。
+
 ### [在 Aspose.Words for Java 中使用条形码生成](./using-barcode-generation/)
 学习如何使用 Aspose.Words for Java 在 Java 中生成自定义条形码。包含条码生成源代码的分步指南。使用 Aspose.Words 增强文档自动化。
 
@@ -82,14 +84,28 @@ Aspose.Words for Java 的关键功能之一是能够 **convert docx to pdf** 并
 ### [在 Aspose.Words for Java 中使用水印文档](./using-watermarks-to-documents/)
 了解如何在 Aspose.Words for Java 中为文档添加水印。自定义文本和图像水印，打造专业水印的文档。
 
+### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
+了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
+
+### [在 Java 中将 docx 保存为 markdown – 完整分步指南](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+本教程详细演示如何使用 Aspose.Words for Java 将 DOCX 文档转换并保存为 Markdown 格式，包含完整代码示例。
+
+### [从文档创建 Markdown – 导出并保存图像](./create-markdown-from-document-export-and-save-images/)
+学习如何使用 Aspose.Words for Java 将文档转换为 Markdown，并导出其中的图像保存到本地。
+
+### [如何从 DOCX 导出 LaTeX – 将 Word 转换为 TXT 指南](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+
+### [在 Aspose.Words for Java 中将 DOCX 转换为 PDF 并导出内联形状 – 分步指南](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+
+### [在 Java 中创建 PDF UA – 完整指南](./create-pdf-ua-in-java-complete-guide/)
+
+### [如何恢复 DOCX、导出为 Markdown 与 PDF/UA – 完整 Java 指南](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+
 ### [在 Aspose.Words for Java 中将 DOCX 转换为 PDF](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 本教程展示如何使用 Aspose.Words for Java 将 DOCX 文件快速转换为 PDF，包含代码示例和关键设置。
 
 ### [从 DOCX 创建可访问 PDF – 完整指南](./create-accessible-pdf-from-docx-complete-guide/)
 学习如何使用 Aspose.Words for Java 将 DOCX 转换为符合 WCAG 标准的可访问 PDF，涵盖标签、结构和元数据设置。
-
-### [在 Aspose.Words for Java 中格式化表格和表格样式](./formatting-tables-and-table-styles/)
-了解如何在 Aspose.Words for Java 中格式化表格并应用表格样式。通过带源码的分步指南学习有效的表格格式化。使用 Aspose.Words 提升文档布局。
 
 ### [在 Aspose.Words for Java 中将 docx 转换为 markdown – 导出数学公式为 LaTeX](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 
