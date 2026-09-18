@@ -71,6 +71,10 @@
 تعلم كيفية استخدام Aspose.Words لعناصر تحكم الإصدارات في جافا بكفاءة. دليل خطوة بخطوة للمطورين. حسّن إدارة مستنداتك.
 ### [استخدام الأقسام في Aspose.Words للغة Java](./using-sections/)
 استكشف Aspose.Words في جافا: دليل شامل لاستخدام الأقسام. أضف أقسامًا، احذفها، أضف إليها، انسخها مع أمثلة برمجية.
+### [إنشاء مستند Word فارغ وإدراج عنصر تحكم نص عادي](./create-blank-word-document-and-insert-a-plain-text-control/)
+تعلم كيفية إنشاء مستند Word فارغ وإضافة عنصر تحكم نص عادي باستخدام Aspose.Words لجافا.
+### [كيفية إنشاء مخطط شعاعي في مستند Word باستخدام Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+تعرف على طريقة إنشاء مخطط شعاعي داخل مستند Word باستخدام مكتبة Aspose.Words لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [สร้างเอกสาร Word ว่างและแทรกคอนโทรลข้อความธรรมดาใน Aspose.Words สำหรับ Java](./create-blank-word-document-and-insert-a-plain-text-control/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มคอนโทรลข้อความธรรมดาโดยใช้ Aspose.Words for Java
+### [วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+เรียนรู้วิธีสร้างแผนภูมิรัศมีในเอกสาร Word ด้วย Java อย่างละเอียดด้วยบทช่วยสอนขั้นตอนต่อขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

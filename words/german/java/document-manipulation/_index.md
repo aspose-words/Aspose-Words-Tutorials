@@ -92,6 +92,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java Dokumente in HTML-Seiten auftei
 Meistern Sie die Dokumenterstellung mit Aspose.Words für Java. Eine Schritt-für-Schritt-Anleitung zum Hinzufügen von Text, Tabellen, Bildern und mehr. Erstellen Sie mühelos beeindruckende Word-Dokumente.
 ### [Klonen und Kombinieren von Dokumenten in Aspose.Words für Java](./cloning-and-combining-documents/)
 Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java klonen und kombinieren. Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
+### [Leeres Dokument mit interaktivem Schaltflächenbefehl in Word mit Java erstellen](./create-blank-document-with-an-interactive-command-button-in/)
+Erstellen Sie ein leeres Word-Dokument mit einer interaktiven Schaltfläche per Java.
 ### [Vergleichen von Dokumenten in Aspose.Words für Java](./comparing-documents/)
 Erfahren Sie, wie Sie Dokumente in Aspose.Words für Java vergleichen, einer leistungsstarken Java-Bibliothek für effiziente Dokumentanalyse. 
 ### [Formatieren von Dokumenten in Aspose.Words für Java](./formatting-documents/)

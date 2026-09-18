@@ -104,6 +104,8 @@ Descubra el poder de Aspose.Words para Java. Domine las opciones y configuracion
 Optimice la gestión de documentos con Aspose.Words para Java. Aprenda a trabajar con propiedades de documentos, añadir metadatos personalizados y mucho más en este completo tutorial.
 ### [Uso de extensiones web en Aspose.Words para Java](./using-web-extensions/)
 Mejore sus documentos con extensiones web en Aspose.Words para Java. Aprenda a integrar contenido web sin problemas. 
+### [Crear documento en blanco con un botón de comando interactivo en Word usando Java](./create-blank-document-with-an-interactive-command-button-in/)
+Cree un documento en blanco con un botón de comando interactivo en Word mediante Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

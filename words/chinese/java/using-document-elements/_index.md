@@ -53,6 +53,10 @@
 学习如何在 Aspose.Words for Java 中高效使用脚注和尾注。立即提升您的文档格式化技能！
 ### [在 Aspose.Words for Java 中使用表单字段](./using-form-fields/)
 学习使用 Aspose.Words for Java 创建带有表单字段的交互式 Word 文档。立即开始！
+### [在 Aspose.Words for Java 中创建空白 Word 文档并插入纯文本控件](./create-blank-word-document-and-insert-a-plain-text-control/)
+学习如何创建空白 Word 文档并在其中插入纯文本内容控件。
+### [在 Aspose.Words for Java 中创建径向图表](./how-to-create-radial-chart-in-a-word-document-with-java/)
+学习如何使用 Aspose.Words for Java 在 Word 文档中生成径向图表。
 ### [在 Aspose.Words for Java 中使用 HarfBuzz](./using-harfbuzz/)
 学习使用 HarfBuzz 在 Aspose.Words for Java 中进行高级文本整形。本分步指南将帮助您增强复杂脚本中的文本渲染。
 ### [在 Aspose.Words for Java 中使用页眉和页脚](./using-headers-and-footers/)

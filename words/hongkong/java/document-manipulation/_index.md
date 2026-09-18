@@ -64,6 +64,8 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的 API，可讓開發
 釋放 Aspose.Words for Java 的強大功能。透過逐步教學學習 XML 資料處理、郵件合併和 Mustache 語法。
 ### [使用 Aspose.Words for Java 從文件中擷取內容](./extracting-content-from-documents/)
 了解如何使用 Aspose.Words for Java 輕鬆地從文件中提取內容。我們的逐步指南和程式碼範例簡化了該過程。
+### [使用 Java 在 Word 中建立帶互動指令按鈕的空白文件](./create-blank-document-with-an-interactive-command-button-in/)
+示範如何使用 Aspose.Words for Java 建立空白文件，並在其中加入可點擊的指令按鈕。
 ### [Aspose.Words for Java 中擷取內容的輔助方法](./helper-methods-for-extracting-content/)
 了解如何使用 Aspose.Words for Java 從 Word 文件中有效地提取內容。在此綜合指南中探索輔助方法、自訂格式等。
 ### [在 Aspose.Words for Java 中尋找和取代文本](./finding-and-replacing-text/)

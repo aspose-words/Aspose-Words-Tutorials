@@ -37,6 +37,15 @@ Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사�
 ### [Word에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
+### [숨겨진 타원형 모양이 있는 빈 Word 문서 만들기](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+숨겨진 타원형 모양이 포함된 빈 Word 문서를 만드는 방법을 안내합니다.
+
+### [빈 Word 문서를 만들고 도형을 추가하는 방법](./how-to-create-blank-document-and-add-shapes-to-word/)
+빈 Word 문서를 만들고 도형을 추가하는 방법을 단계별로 안내합니다.
+
+### [Java에서 파이 차트가 포함된 Word 문서 만들기](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Java와 Aspose.Words를 사용하여 파이 차트가 포함된 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)
 - [Java API 참조를 위한 Aspose.Words](https://reference.aspose.com/words/java/)

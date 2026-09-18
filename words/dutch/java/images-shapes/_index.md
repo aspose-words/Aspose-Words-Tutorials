@@ -37,6 +37,15 @@ Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt g
 ### [Schaduw toevoegen aan vorm in Word – Complete Aspose.Words-gids](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Leer hoe u een schaduw aan vormen toevoegt in Word met Aspose.Words voor Java.
 
+### [Maak een leeg Word-document met een verborgen ellipsvorm](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Leer hoe u een leeg Word-document maakt met een verborgen ellipsvorm.
+
+### [Hoe maak je een Word-document met een cirkeldiagram in Java](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Leer hoe u een Word-document maakt met een cirkeldiagram met behulp van Aspose.Words voor Java.
+
+### [Leeg document maken en vormen toevoegen aan Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Leer hoe u een leeg Word-document maakt en er vormen aan toevoegt met Aspose.Words voor Java.
+
 ## Aanvullende bronnen
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)
 - [Aspose.Words voor Java API-referentie](https://reference.aspose.com/words/java/)

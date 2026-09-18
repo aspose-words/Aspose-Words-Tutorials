@@ -71,6 +71,10 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Skapa ett radardiagram i ett Word-dokument med Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Lär dig hur du skapar ett radardiagram i ett Word-dokument med Java. Steg-för-steg-guide för att visualisera data.
+### [Skapa ett tomt Word-dokument och infoga en vanlig textkontroll](./create-blank-word-document-and-insert-a-plain-text-control/)
+Lär dig skapa ett tomt Word-dokument och infoga en vanlig textkontroll med Aspose.Words för Java. Steg-för-steg-guide för enkla dokument.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

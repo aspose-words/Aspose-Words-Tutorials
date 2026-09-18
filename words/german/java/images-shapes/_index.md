@@ -37,6 +37,15 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 ### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
 
+### [Erstellen Sie ein leeres Word-Dokument mit einer versteckten Ellipsenform](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Ein Tutorial, das zeigt, wie man ein leeres Word-Dokument erstellt und eine verborgene Ellipsenform hinzufügt.
+
+### [Wie man ein leeres Dokument erstellt und Formen zu Word hinzufügt](./how-to-create-blank-document-and-add-shapes-to-word/)
+Ein Tutorial, das zeigt, wie man ein leeres Word-Dokument erstellt und Formen hinzufügt.
+
+### [Wie man ein Word-Dokument mit einem Kreisdiagramm in Java erstellt](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument mit einem Kreisdiagramm erstellen.
+
 ## Weitere Ressourcen
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)

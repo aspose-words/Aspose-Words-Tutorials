@@ -44,6 +44,10 @@ In conclusion, mastering document element manipulation using Aspose.Words for Ja
 Remember, practice makes perfect, and with Aspose.Words for Java, you'll be creating, modifying, and enhancing documents like a pro in no time. Happy coding!
 
 ## Using Document Elements Tutorials
+### [Create blank Word document and insert a plain‑text control](./create-blank-word-document-and-insert-a-plain-text-control/)
+Learn how to create a blank Word document and insert a plain‑text control using Aspose.Words for Java.
+### [How to create radial chart in a Word document with Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Learn how to create a radial chart in a Word document using Aspose.Words for Java.
 ### [Using Comments in Aspose.Words for Java](./using-comments/)
 Learn how to use comments in Aspose.Words for Java. Step-by-step tutorial for adding and customizing comments in your documents.
 ### [Using Fields in Aspose.Words for Java](./using-fields/)

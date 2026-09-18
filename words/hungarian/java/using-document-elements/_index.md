@@ -71,6 +71,10 @@ Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Word
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Radiális diagram létrehozása Word dokumentumban Java-val](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Tanuld meg, hogyan készíts radiális diagramot Word dokumentumban Java segítségével.
+### [Üres Word dokumentum létrehozása és egyszerű szövegvezérlő beszúrása](./create-blank-word-document-and-insert-a-plain-text-control/)
+Tanuld meg, hogyan hozz létre üres Word dokumentumot és szúrj be egyszerű szövegvezérlőt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

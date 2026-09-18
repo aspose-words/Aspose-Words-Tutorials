@@ -37,6 +37,15 @@ Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestan
 ### [Dodaj cień do kształtu w Word – Kompletny przewodnik Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
 
+### [Utwórz pusty dokument Word z ukrytym kształtem elipsy](./create-a-blank-word-document-with-a-hidden-ellipse-shape/)
+Dowiedz się, jak utworzyć pusty dokument Word i dodać do niego ukryty kształt elipsy przy użyciu Aspose.Words dla Java.
+
+### [Jak utworzyć dokument Word z wykresem kołowym w Javie](./how-to-create-a-word-document-with-a-pie-chart-in-java/)
+Dowiedz się, jak wstawiać wykres kołowy do dokumentu Word przy użyciu Aspose.Words dla Java.
+
+### [Jak utworzyć pusty dokument i dodać kształty do Word](./how-to-create-blank-document-and-add-shapes-to-word/)
+Dowiedz się, jak w Javie utworzyć pusty dokument Word i dodać do niego różne kształty przy użyciu Aspose.Words.
+
 ## Dodatkowe zasoby
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)
 - [Aspose.Words dla Java API Reference](https://reference.aspose.com/words/java/)
