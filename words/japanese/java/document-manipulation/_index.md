@@ -104,6 +104,8 @@ Aspose.Words for Javaのパワーを解き放ちましょう。ドキュメン�
 Aspose.Words for Javaでドキュメント管理を最適化しましょう。この包括的なチュートリアルでは、ドキュメントプロパティの操作、カスタムメタデータの追加など、様々な方法を学習できます。
 ### [Aspose.Words for Java での Web 拡張機能の使用](./using-web-extensions/)
 Aspose.Words for JavaのWeb拡張機能でドキュメントを強化しましょう。Webベースのコンテンツをシームレスに統合する方法を学びましょう。 
+### [Javaでインタラクティブなコマンドボタン付きの空白文書をWordで作成する](./create-blank-document-with-an-interactive-command-button-in/)
+Java と Aspose.Words を使って、インタラクティブなコマンドボタンを含む空白の Word 文書を作成する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

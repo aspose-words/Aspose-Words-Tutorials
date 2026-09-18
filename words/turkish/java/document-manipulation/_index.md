@@ -104,6 +104,8 @@ Java için Aspose.Words'ün Gücünü Açın. Kusursuz Belge Yönetimi için Ana
 Aspose.Words for Java ile belge yönetimini optimize edin. Bu kapsamlı eğitimde belge özellikleriyle çalışmayı, özel meta veri eklemeyi ve daha fazlasını öğrenin.
 ### [Java için Aspose.Words'de Web Uzantılarını Kullanma](./using-web-extensions/)
 Aspose.Words for Java'da Web Uzantılarıyla Belgeleri Geliştirin. Web tabanlı içeriği sorunsuz bir şekilde entegre etmeyi öğrenin. 
+### [Java ile Word'de etkileşimli komut düğmesiyle boş belge oluşturma](./create-blank-document-with-an-interactive-command-button-in/)
+Java kullanarak Word'de etkileşimli bir komut düğmesi ekleyerek boş bir belge oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

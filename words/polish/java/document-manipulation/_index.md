@@ -69,11 +69,11 @@ Dowiedz się, jak wydajnie wyodrębniać zawartość z dokumentów Word za pomoc
 ### [Znajdowanie i zamiana tekstu w Aspose.Words dla Java](./finding-and-replacing-text/)
 Dowiedz się, jak znajdować i zamieniać tekst w dokumentach Word za pomocą Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu. Udoskonal swoje umiejętności manipulowania dokumentami Java.
 ### [Usuwanie zawartości z dokumentów w Aspose.Words dla Java](./removing-content-from-documents/)
-Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words dla Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
+Dowiedz się, jak usuwać zawartość z dokumentów Word w Javie za pomocą Aspose.Words for Javy. Usuń podziały stron, podziały sekcji i inne. Zoptymalizuj przetwarzanie dokumentów.
 ### [Korzystanie z zakładek w Aspose.Words dla Java](./using-bookmarks/)
 Zoptymalizuj przetwarzanie dokumentów za pomocą Aspose.Words for Java. Naucz się używać zakładek do wydajnej nawigacji i manipulacji treścią w tym przewodniku krok po kroku.
 ### [Korzystanie z zakresów dokumentów w Aspose.Words dla Java](./using-document-ranges/)
-Opanuj manipulację zakresem dokumentu w Aspose.Words dla Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
+Opanuj manipulację zakresem dokumentu w Aspose.Words for Java. Naucz się usuwać, wyodrębniać i formatować tekst dzięki temu kompleksowemu przewodnikowi.
 ### [Korzystanie ze strukturalnych znaczników dokumentu (SDT) w Aspose.Words dla języka Java](./using-structured-document-tags/)
 Dowiedz się, jak używać Structured Document Tags (SDT) w Aspose.Words for Java dzięki temu kompleksowemu przewodnikowi. Twórz, modyfikuj i wiąż SDT z niestandardowymi danymi XML.
 ### [Używanie stylów i motywów w Aspose.Words dla Java](./using-styles-and-themes/)
@@ -104,6 +104,8 @@ Odblokuj moc Aspose.Words dla Java. Główne opcje i ustawienia dokumentu dla be
 Zoptymalizuj zarządzanie dokumentami za pomocą Aspose.Words dla Java. Naucz się pracować z właściwościami dokumentu, dodawać niestandardowe metadane i nie tylko w tym kompleksowym samouczku.
 ### [Korzystanie z rozszerzeń internetowych w Aspose.Words dla Java](./using-web-extensions/)
 Ulepsz dokumenty za pomocą rozszerzeń internetowych w Aspose.Words dla Java. Naucz się bezproblemowo integrować treści internetowe. 
+### [Utwórz pusty dokument z interaktywnym przyciskiem polecenia w Word przy użyciu Javy](./create-blank-document-with-an-interactive-command-button-in/)
+Tworzy pusty dokument Word i dodaje interaktywny przycisk polecenia przy użyciu Aspose.Words for Java. 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

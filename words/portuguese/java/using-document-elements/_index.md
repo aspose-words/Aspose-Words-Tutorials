@@ -43,6 +43,8 @@ Concluindo, dominar a manipulação de elementos de documentos usando o Aspose.W
 Lembre-se: a prática leva à perfeição e, com o Aspose.Words para Java, você criará, modificará e aprimorará documentos como um profissional em pouco tempo. Boa programação!
 
 ## Tutoriais sobre como usar elementos de documento
+### [Criar documento Word em branco e inserir um controle de texto simples](./create-blank-word-document-and-insert-a-plain-text-control/)
+Aprenda a criar um documento Word vazio e inserir um controle de texto simples usando Aspose.Words para Java.
 ### [Usando comentários no Aspose.Words para Java](./using-comments/)
 Aprenda a usar comentários no Aspose.Words para Java. Tutorial passo a passo para adicionar e personalizar comentários em seus documentos.
 ### [Usando campos em Aspose.Words para Java](./using-fields/)
@@ -71,6 +73,8 @@ Aprenda a usar objetos OLE e controles ActiveX no Aspose.Words para Java. Crie d
 Aprenda a usar os controles de revisão do Aspose.Words para Java com eficiência. Guia passo a passo para desenvolvedores. Otimize seu gerenciamento de documentos.
 ### [Usando seções em Aspose.Words para Java](./using-sections/)
 Explore o Aspose.Words para Java: um guia completo sobre o uso de seções. Adicione, exclua, anexe e clone seções com exemplos de código.
+### [Como criar um gráfico radial em um documento Word com Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Aprenda a gerar um gráfico radial em documentos Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

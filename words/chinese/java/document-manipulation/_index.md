@@ -90,6 +90,8 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 了解如何使用 Aspose.Words for Java 将文档拆分为 HTML 页面。按照我们的分步指南，实现无缝文档转换。
 ### [使用 Aspose.Words for Java 中的 DocumentBuilder 添加内容](./adding-content-using-documentbuilder/)
 使用 Aspose.Words for Java 精通文档创建。逐步指导您添加文本、表格、图像等内容。轻松创建精美的 Word 文档。
+### [使用 Java 在 Word 中创建带交互式命令按钮的空白文档](./create-blank-document-with-an-interactive-command-button-in/)
+使用 Aspose.Words for Java 在 Word 中创建空白文档，并在其中添加交互式命令按钮，实现动态功能。
 ### [在 Aspose.Words for Java 中克隆和合并文档](./cloning-and-combining-documents/)
 学习如何在 Aspose.Words for Java 中克隆和合并文档。循序渐进的指南，包含源代码示例。
 ### [在 Aspose.Words for Java 中比较文档](./comparing-documents/)

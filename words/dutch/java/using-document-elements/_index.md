@@ -71,6 +71,10 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Radiale grafiek maken in een Word-document met Java](./how-to-create-radial-chart-in-a-word-document-with-java/)
+Leer hoe je een radiale grafiek in een Word-document kunt maken met Aspose.Words voor Java. Volg de stapsgewijze tutorial.
+### [Leeg Word-document maken en een platte‑tekst besturingselement invoegen](./create-blank-word-document-and-insert-a-plain-text-control/)
+Maak een leeg Word-document en voeg een platte‑tekst besturingselement toe.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

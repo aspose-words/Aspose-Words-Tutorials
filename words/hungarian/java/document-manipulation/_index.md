@@ -105,6 +105,9 @@ Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. T
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
 Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
 
+### [Üres dokumentum létrehozása interaktív parancsgombbal Word-ben Java-val](./create-blank-document-with-an-interactive-command-button-in/)
+Ismerje meg, hogyan hozhat létre üres Word-dokumentumot, amely interaktív parancsgombot tartalmaz Java-val.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
