@@ -25,6 +25,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 | Titel | Beschreibung |
 | --- | --- |
 | [Gruppenform hinzufügen](./add-group-shape/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET Gruppenformen zu Word-Dokumenten hinzufügen. |
+| [Rechteckform erstellen und mehrere Formen gruppieren in C#](./create-rectangle-shape-and-group-multiple-shapes-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Rechteck erstellen und mehrere Formen zu einer Gruppe zusammenfassen. |
 | [Form einfügen](./insert-shape/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Words für .NET Formen in Word-Dokumente einfügen und bearbeiten. |
 | [Seitenverhältnis gesperrt](./aspect-ratio-locked/) | Erfahren Sie, wie Sie das Seitenverhältnis von Formen in Word-Dokumenten mit Aspose.Words für .NET sperren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um die Proportionen Ihrer Bilder und Formen zu wahren. |
 | [Layout in Zelle](./layout-in-cell/) | Erfahren Sie in dieser umfassenden Anleitung, wie Sie das Layout in Zellen mit Aspose.Words für .NET festlegen. Ideal für Entwickler, die Word-Dokumente anpassen möchten. |
