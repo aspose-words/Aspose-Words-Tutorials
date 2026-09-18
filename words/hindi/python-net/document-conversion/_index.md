@@ -40,6 +40,9 @@ Aspose.Words for Python के साथ Python दस्तावेज़ र�
 ### [दोषग्रस्त DOCX को पुनर्प्राप्त करें और वर्ड को मार्कडाउन में परिवर्तित करें](./recover-corrupted-docx-convert-word-to-markdown/)
 दोषग्रस्त DOCX फ़ाइलों को ठीक करें और उन्हें मार्कडाउन फ़ॉर्मेट में बदलने के लिए पायथन कोड और चरण-दर-चरण मार्गदर्शन।
 
+### [डॉक्‍स फाइलों को पुनर्प्राप्त करें और उन्हें मार्कडाउन, PDF या txt में बदलें Aspose.Words for Python के साथ](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX को ठीक करें और उन्हें मार्कडाउन, PDF या टेक्स्ट में बदलें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

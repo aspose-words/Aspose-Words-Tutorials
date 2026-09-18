@@ -40,6 +40,9 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 ### [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do formatu Markdown przy użyciu Aspose.Words for Python.
 
+### [Jak odzyskać pliki docx i przekonwertować je na markdown, PDF lub txt przy użyciu Aspose.Words for Python](./how-to-recover-docx-files-and-convert-them-to-markdown-pdf-o/)
+Jak odzyskać pliki docx i przekonwertować je na markdown, PDF lub txt przy użyciu Aspose.Words for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
