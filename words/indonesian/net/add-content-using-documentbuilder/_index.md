@@ -21,6 +21,9 @@ Menambahkan Konten Menggunakan DocumentBuilder adalah sumber daya lengkap yang m
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./create-rotated-text-table/" title="Buat Tabel Teks Berputar di Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+
 | [Buat Dokumen Word Baru](./create-new-document/) Pelajari cara membuat dokumen Word menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, sehingga memudahkan otomatisasi dokumen. Bahasa Indonesia:
 | [Pembuat Dokumen Sisipkan Penanda Buku Dalam Dokumen Word](./document-builder-insert-bookmark/) | Pelajari cara menyisipkan bookmark dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan terperinci dan langkah demi langkah ini. Sempurna untuk otomatisasi dokumen. Bahasa Indonesia:
 | [Membuat Tabel Dalam Dokumen Word](./build-table/) | Pelajari cara membuat tabel dalam dokumen Word menggunakan Aspose.Words for .NET dengan tutorial terperinci dan langkah demi langkah ini. Sempurna untuk pemula dan profesional. Bahasa Indonesia:

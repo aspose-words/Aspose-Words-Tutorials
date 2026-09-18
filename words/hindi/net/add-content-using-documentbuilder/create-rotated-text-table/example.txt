@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि Aspose.Words का उपयोग करके Word दस्तावेज़ कैसे बनाया जाए, निश्चित कॉलम चौड़ाइयों वाली तालिका कैसे बनाई जाए, ऊर्ध्वाधर संरेखण और टेक्स्ट अभिविन्यास कैसे लागू किया जाए, सटीक पंक्ति ऊँचाइयाँ कैसे सेट की जाएँ, कोशिकाओं में टेक्स्ट कैसे भरा जाए, और अंत में दस्तावेज़ को सहेजा जाए।
+//ExStepSummary:0: एक नया Document और एक DocumentBuilder बनाएं जिसका उपयोग तालिका बनाने के लिए किया जाएगा।
+//ExStepSummary:1: एक नई तालिका शुरू करें, पहला सेल डालें, और कॉलम चौड़ाइयों को स्थिर करें ताकि वे स्वतः समायोजित न हों।
+//ExStepSummary:2: वर्तमान सेल में सामग्री को ऊर्ध्वाधर रूप से केंद्रित करें और पहली पंक्ति के पहले सेल का टेक्स्ट लिखें।
+//ExStepSummary:3: पहली पंक्ति का दूसरा सेल डालें और उसका टेक्स्ट लिखें।
+//ExStepSummary:4: पहली पंक्ति को बंद करें, जिससे उसका लेआउट अंतिम रूप ले लेता है।
+//ExStepSummary:5: दूसरी पंक्ति के पहले सेल को शुरू करें, पंक्ति की ऊँचाई को ठीक 100 पॉइंट सेट करें, टेक्स्ट को ऊपर की ओर घुमाएँ, और सेल का टेक्स्ट लिखें।
+//ExStepSummary:6: दूसरी पंक्ति का दूसरा सेल डालें, उसका टेक्स्ट नीचे की ओर घुमाएँ, और सेल का टेक्स्ट लिखें।
+//ExStepSummary:7: दूसरी पंक्ति को बंद करें, जिससे तालिका की दूसरी पंक्ति पूरी हो जाती है।
+//ExStepSummary:8: तालिका निर्माण को समाप्त करें, जिससे तालिका की संरचना सील हो जाती है।
+//ExStepSummary:9: पूरा किया गया दस्तावेज़ .docx फ़ाइल में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

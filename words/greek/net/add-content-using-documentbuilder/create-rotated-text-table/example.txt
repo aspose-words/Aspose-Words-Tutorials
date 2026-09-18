@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να χρησιμοποιήσετε το Aspose.Words για να δημιουργήσετε ένα έγγραφο Word, να δημιουργήσετε έναν πίνακα με σταθερά πλάτη στηλών, να εφαρμόσετε κατακόρυφη στοίχιση και προσανατολισμό κειμένου, να ορίσετε ακριβές ύψη γραμμών, να γεμίσετε τα κελιά με κείμενο και, τέλος, να αποθηκεύσετε το έγγραφο.
+//ExStepSummary:0: Δημιουργήστε ένα νέο Document και ένα DocumentBuilder που θα χρησιμοποιηθούν για την κατασκευή του πίνακα.
+//ExStepSummary:1: Ξεκινήστε έναν νέο πίνακα, εισάγετε το πρώτο κελί και ορίστε σταθερά τα πλάτη των στηλών ώστε να μην προσαρμόζονται αυτόματα.
+//ExStepSummary:2: Στοίχιση του περιεχομένου κατακόρυφα στο κέντρο του τρέχοντος κελιού και εγγραφή του κειμένου του πρώτου κελιού της πρώτης γραμμής.
+//ExStepSummary:3: Εισάγετε το δεύτερο κελί της πρώτης γραμμής και γράψτε το κείμενό του.
+//ExStepSummary:4: Κλείστε την πρώτη γραμμή, ολοκληρώνοντας τη διάταξή της.
+//ExStepSummary:5: Ξεκινήστε το πρώτο κελί της δεύτερης γραμμής, ορίστε το ύψος της γραμμής σε ακριβώς 100 σημεία, περιστρέψτε το κείμενο προς τα πάνω και γράψτε το κείμενο του κελιού.
+//ExStepSummary:6: Εισάγετε το δεύτερο κελί της δεύτερης γραμμής, περιστρέψτε το κείμενό του προς τα κάτω και γράψτε το κείμενο του κελιού.
+//ExStepSummary:7: Κλείστε τη δεύτερη γραμμή, ολοκληρώνοντας τη δεύτερη σειρά του πίνακα.
+//ExStepSummary:8: Τερματίστε την κατασκευή του πίνακα, κλειδώνοντας τη δομή του.
+//ExStepSummary:9: Αποθηκεύστε το ολοκληρωμένο έγγραφο σε αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

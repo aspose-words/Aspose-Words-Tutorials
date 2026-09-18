@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Words 建立 Word 文件、建立具有固定欄寬的表格、套用垂直對齊與文字方向、設定精確的列高、在儲存格中填入文字，最後儲存文件。
+//ExStepSummary:0: 建立一個新的 Document 以及用於構建表格的 DocumentBuilder。
+//ExStepSummary:1: 開始建立新表格，插入第一個儲存格，並固定欄寬，使其不會自動調整。
+//ExStepSummary:2: 在目前儲存格中垂直置中內容，並寫入第一列第一個儲存格的文字。
+//ExStepSummary:3: 插入第一列的第二個儲存格，並寫入其文字。
+//ExStepSummary:4: 結束第一列，完成其版面配置。
+//ExStepSummary:5: 開始第二列的第一個儲存格，將列高設定為正好 100 點，文字向上旋轉，並寫入儲存格文字。
+//ExStepSummary:6: 插入第二列的第二個儲存格，將文字向下旋轉，並寫入儲存格文字。
+//ExStepSummary:7: 結束第二列，完成表格的第二行。
+//ExStepSummary:8: 結束表格建構，封存表格結構。
+//ExStepSummary:9: 將完成的文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd

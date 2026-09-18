@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: 이 튜토리얼은 Aspose.Words를 사용하여 Word 문서를 만들고, 고정된 열 너비를 가진 테이블을 구축하며, 수직 정렬 및 텍스트 방향을 적용하고, 정확한 행 높이를 설정하고, 셀에 텍스트를 채운 다음 최종적으로 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 테이블을 구성하는 데 사용할 새 Document와 DocumentBuilder를 인스턴스화합니다.
+//ExStepSummary:1: 새 테이블을 시작하고 첫 번째 셀을 삽입한 뒤 열 너비를 고정하여 자동 조정되지 않도록 합니다.
+//ExStepSummary:2: 현재 셀의 내용을 수직으로 가운데 정렬하고 첫 번째 행 첫 번째 셀의 텍스트를 씁니다.
+//ExStepSummary:3: 첫 번째 행의 두 번째 셀을 삽입하고 해당 텍스트를 씁니다.
+//ExStepSummary:4: 첫 번째 행을 닫아 레이아웃을 완료합니다.
+//ExStepSummary:5: 두 번째 행의 첫 번째 셀을 시작하고 행 높이를 정확히 100포인트로 설정한 뒤 텍스트를 위쪽으로 회전시키고 셀의 텍스트를 씁니다.
+//ExStepSummary:6: 두 번째 행의 두 번째 셀을 삽입하고 텍스트를 아래쪽으로 회전시킨 뒤 셀의 텍스트를 씁니다.
+//ExStepSummary:7: 두 번째 행을 닫아 테이블의 두 번째 줄을 완성합니다.
+//ExStepSummary:8: 테이블 구성을 종료하여 테이블 구조를 마무리합니다.
+//ExStepSummary:9: 완성된 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd
