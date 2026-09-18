@@ -38,7 +38,6 @@ Apprenez à générer des miniatures de haute qualité et des bitmaps de taille 
 Apprenez à appliquer des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
 
 ## Ressources supplémentaires
-
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)
 - [Référence de l'API Aspose.Words pour Java](https://reference.aspose.com/words/java/)
 - [Télécharger Aspose.Words pour Java](https://releases.aspose.com/words/java/)

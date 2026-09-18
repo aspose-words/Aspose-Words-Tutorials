@@ -39,7 +39,6 @@ Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word d
 Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for Java, with step-by-step code examples.
 
 ## Additional Resources
-
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://releases.aspose.com/words/java/)

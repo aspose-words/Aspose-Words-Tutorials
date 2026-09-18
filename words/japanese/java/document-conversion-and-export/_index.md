@@ -116,3 +116,33 @@ Aspose.Words for Java を使用して、破損した DOCX を復元し、Markdow
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [docx を txt に変換 – Word の数式を LaTeX としてエクスポート](./convert-docx-to-txt-export-word-equations-as-latex/)
+Aspose.Words for Java を使用して DOCX をテキストに変換し、数式を LaTeX 形式でエクスポートする方法を解説します。
+
+### [Aspose.Words for Java で DOCX を PDF に変換](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
+Aspose.Words for Java を使用して DOCX ファイルを PDF に変換する手順をステップバイステップで解説します。
+
+### [DOCX からアクセシブル PDF を作成 – 完全ガイド](./create-accessible-pdf-from-docx-complete-guide/)
+DOCX ファイルをアクセシブルな PDF に変換する手順とベストプラクティスをステップバイステップで解説します。
+### [Java で DOCX を PDF に保存 – 完全ステップバイステップガイド](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Java と Aspose.Words を使用して DOCX ファイルを PDF に変換する方法を、コード例と共に詳しく解説します。
+
+### [docx を markdown に変換 – Aspose.Words で数式を LaTeX にエクスポート](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
+Aspose.Words を使用して DOCX 文書を Markdown に変換し、数式を LaTeX 形式でエクスポートする方法をステップバイステップで解説します。
+### [JavaでDOCXをMarkdownに変換する際に画像をBase64で埋め込む](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
+
+### [JavaでWordからMarkdownへエクスポートする方法 – 完全ガイド](./how-to-export-markdown-from-word-using-java-complete-guide/)
+
+### [DOCX から LaTeX をエクスポートする方法 – 完全な Java ガイド](./how-to-export-latex-from-docx-complete-java-guide/)
+
+### [Aspose.Words for Java で docx を PDF に保存する – 完全な Java ガイド](./save-docx-as-pdf-with-aspose-words-complete-java-guide/)
+Aspose.Words for Java を利用して DOCX ファイルを PDF に変換し、保存する手順をステップバイステップで解説します。
+
+### [Aspose.Words for Java を使用して Word からアクセシブル PDF を生成する](./generate-accessible-pdf-from-word-with-aspose-java/)
+Word 文書をアクセシブルな PDF に変換する手順と、タグ付けや構造情報の保持方法を解説します。
+### [Word を Markdown にエクスポート – 完全 Java ガイド](./export-word-to-markdown-full-java-guide/)
+Aspose.Words for Java を使用して Word 文書を Markdown 形式に変換する手順をステップバイステップで解説します。
+
+### [Word からアクセシブル PDF を作成する – ステップバイステップガイド](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aspose.Words for Java を使用して、Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。
+

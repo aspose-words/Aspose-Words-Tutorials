@@ -38,7 +38,6 @@ Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassa
 Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för Java.
 
 ## Ytterligare resurser
-
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words för Java API-referens](https://reference.aspose.com/words/java/)
 - [Ladda ner Aspose.Words för Java](https://releases.aspose.com/words/java/)

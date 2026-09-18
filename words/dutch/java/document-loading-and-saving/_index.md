@@ -81,7 +81,6 @@ Ontdek de veelzijdigheid van Aspose.Words for Java terwijl we ingaan op het opsl
 Documentinstellingen zijn de sleutel tot het leveren van documenten die precies aan je eisen voldoen. Leer hoe je instellingen zoals paginagrootte, marges en lettertypen kunt aanpassen om het gewenste resultaat te behalen.
 
 ## Gerelateerde tutorials – Laden, opslaan en converteren
-
 ### [HTML-documenten laden en opslaan met Aspose.Words for Java](./loading-and-saving-html-documents/)
 Leer hoe je HTML-documenten kunt laden en opslaan in Java met Aspose.Words for Java. Stapsgewijze gids met code‑voorbeelden voor naadloze documentintegratie.
 
@@ -135,6 +134,18 @@ Leer hoe je documentformaten detecteert in Java met Aspose.Words. Identificeer D
 
 ### [Hoe DOCX te herstellen – Corruptte bestanden laden met herstelopties](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 Leer hoe je beschadigde DOCX‑bestanden kunt laden en herstellen met Aspose.Words for Java.
+
+### [Lettertypevervangingswaarschuwingen vastleggen in Java met Aspose.Words – Complete gids](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Leer hoe je lettertypevervangingswaarschuwingen kunt vastleggen en verwerken tijdens het laden van documenten met Aspose.Words voor Java.
+
+### [Herstelmodus instellen om een beschadigd Word‑document te herstellen met Aspose.Words for Java](./set-recovery-mode-to-recover-broken-word-document/)
+Leer hoe je de herstelmodus configureert om beschadigde Word‑documenten automatisch te repareren met Aspose.Words for Java.
+
+### [Beschadigde docx herstellen – Complete gids voor reparatie en verwerking van documenten](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Hoe docx te herstellen – Complete gids om corrupte Word‑bestanden te lezen](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Leer stap‑voor‑stap hoe je beschadigde .docx‑bestanden kunt openen en herstellen met Aspose.Words for Java.
+### [Hoe ontbrekende lettertypen in Java te verkrijgen – Aspose.Words-gids](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Leer hoe je ontbrekende lettertypen kunt vinden en laden in Java met Aspose.Words. Stapsgewijze gids met code‑voorbeelden.
 
 ## Veelgestelde vragen
 

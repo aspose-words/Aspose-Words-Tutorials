@@ -38,7 +38,6 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
-
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)
 - [Referenční příručka k Aspose.Words pro Java API](https://reference.aspose.com/words/java/)
 - [Stáhněte si Aspose.Words pro Javu](https://releases.aspose.com/words/java/)

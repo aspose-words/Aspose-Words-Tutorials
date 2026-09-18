@@ -1,0 +1,7 @@
+Title: How to create blank Word document with grouped shapes
+Slug: how-to-create-blank-word-document-with-grouped-shapes
+Category: images-shapes
+ProcessedDate: 2026-09-08T23:01:37.308735
+SourceRepo: AI Search API
+Keywords: create blank word document, insert rectangle shape, group multiple shapes, add shapes to group
+PRNumber: 268

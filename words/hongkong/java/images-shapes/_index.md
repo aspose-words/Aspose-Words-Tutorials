@@ -38,7 +38,6 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Words for Java 為 Word 文檔中的形狀添加陰影效果，提升視覺效果。
 
 ## 其他資源
-
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API參考](https://reference.aspose.com/words/java/)
 - [下載 Aspose.Words for Java](https://releases.aspose.com/words/java/)

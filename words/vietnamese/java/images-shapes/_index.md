@@ -38,7 +38,6 @@ Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy ch�
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 
 ## Tài nguyên bổ sung
-
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)

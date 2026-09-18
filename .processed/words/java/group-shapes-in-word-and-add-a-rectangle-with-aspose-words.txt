@@ -1,0 +1,7 @@
+Title: Group shapes in Word and add a rectangle with Aspose.Words
+Slug: group-shapes-in-word-and-add-a-rectangle-with-aspose-words
+Category: images-shapes
+ProcessedDate: 2026-09-12T03:49:22.602026
+SourceRepo: AI Search API
+Keywords: group shapes in word, add rectangle shape, set shape size, how to group shapes, how to add rectangle
+PRNumber: 274

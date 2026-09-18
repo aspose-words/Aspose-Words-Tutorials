@@ -38,7 +38,6 @@
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Java.
 
 ## Дополнительные ресурсы
-
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)
 - [Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/)
 - [Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/)

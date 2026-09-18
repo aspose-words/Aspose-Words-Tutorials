@@ -1,0 +1,7 @@
+Title: Custom Data‑Label Placement for Charts in C#
+Slug: custom-data-label-placement-for-charts-in-c
+Category: programming-with-charts
+ProcessedDate: 2026-08-04T22:50:45.637468
+SourceRepo: AI Search API
+Keywords: ## 11. Custom Data‑Label Placement for Charts (24.
+PRNumber: 241

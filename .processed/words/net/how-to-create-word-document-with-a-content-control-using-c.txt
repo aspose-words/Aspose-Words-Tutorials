@@ -1,0 +1,7 @@
+Title: How to create word document with a content control using C#
+Slug: how-to-create-word-document-with-a-content-control-using-c
+Category: programming-with-sdt
+ProcessedDate: 2026-09-12T02:56:21.762425
+SourceRepo: AI Search API
+Keywords: create word document, add placeholder text, save document as docx, insert content control, generate word document c#
+PRNumber: 273

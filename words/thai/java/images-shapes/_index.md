@@ -38,7 +38,6 @@
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
-
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)
 - [เอกสารอ้างอิง Aspose.Words สำหรับ Java API](https://reference.aspose.com/words/java/)
 - [ดาวน์โหลด Aspose.Words สำหรับ Java](https://releases.aspose.com/words/java/)

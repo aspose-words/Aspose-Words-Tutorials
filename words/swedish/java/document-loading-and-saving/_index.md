@@ -81,7 +81,6 @@ Utforska mångsidigheten i Aspose.Words för Java när vi går in på att spara 
 Dokumentinställningar är nyckeln till att leverera dokument som är anpassade efter dina exakta krav. Lär dig hur du justerar inställningar som sidstorlek, marginaler och teckensnitt för att uppnå önskat resultat.
 
 ## Relaterade handledningar – Ladda, spara och konvertera
-
 ### [Ladda och spara HTML-dokument med Aspose.Words för Java](./loading-and-saving-html-documents/)
 Lär dig hur du laddar och sparar HTML-dokument i Java med Aspose.Words för Java. Steg‑för‑steg‑guide med kodexempel för sömlös dokumentintegration.
 
@@ -135,6 +134,18 @@ Lär dig hur du upptäcker dokumentformat i Java med Aspose.Words. Identifiera D
 
 ### [Hur du återställer DOCX – Ladda korrupta filer med återställningsalternativ](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 Lär dig hur du återställer korrupta DOCX‑filer med Aspose.Words för Java genom att använda återställningsalternativ för att rädda innehåll.
+
+### [Återställ korrupt docx – Komplett guide för att reparera och bearbeta dokument](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Lär dig hur du reparerar skadade DOCX‑filer och bearbetar dem med Aspose.Words för Java.
+
+### [Fånga varningar om teckensnittssubstitution i Java med Aspose.Words – Komplett guide](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [Hur du återställer docx – Komplett guide för att läsa korrupta Word‑filer](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Lär dig hur du reparerar och läser korrupta .docx‑filer med Aspose.Words för Java i denna steg‑för‑steg‑guide.
+### [Ställ in återhämtningsläge för att återställa trasigt Word‑dokument i Aspose.Words för Java](./set-recovery-mode-to-recover-broken-word-document/)
+Lär dig hur du aktiverar återhämtningsläget i Aspose.Words för Java för att reparera skadade Word‑dokument automatiskt.
+
+### [Hur du får saknade teckensnitt i Java – Aspose.Words‑guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Lär dig hur du identifierar och ersätter saknade teckensnitt i Java‑applikationer med Aspose.Words.
 
 ## Vanliga frågor
 

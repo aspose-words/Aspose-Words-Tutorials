@@ -81,7 +81,6 @@ Khám phá tính đa năng của Aspose.Words for Java khi chúng tôi đi sâu 
 Các cài đặt tài liệu là chìa khóa để cung cấp tài liệu phù hợp với yêu cầu chính xác của bạn. Học cách tinh chỉnh các thiết lập như kích thước trang, lề và phông chữ để đạt được kết quả mong muốn.
 
 ## Các Tutorial Liên Quan – Tải, Lưu và Chuyển Đổi
-
 ### [Loading and Saving HTML Documents with Aspose.Words for Java](./loading-and-saving-html-documents/)
 Học cách tải và lưu tài liệu HTML trong Java bằng Aspose.Words for Java. Hướng dẫn chi tiết kèm ví dụ mã nguồn cho việc tích hợp tài liệu liền mạch.
 
@@ -135,6 +134,17 @@ Học cách lưu tài liệu dưới dạng file văn bản trong Aspose.Words f
 
 ### [Determining Document Format in Aspose.Words for Java](./determining-document-format/)
 Học cách phát hiện định dạng tài liệu trong Java với Aspose.Words. Nhận diện DOC, DOCX và các định dạng khác. Tổ chức file một cách hiệu quả.
+
+### [Ghi lại Cảnh báo Thay thế Phông chữ trong Java với Aspose.Words – Hướng dẫn đầy đủ](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Học cách bắt các cảnh báo thay thế phông chữ khi tải tài liệu Word trong Java bằng Aspose.Words.
+
+### [Khôi phục docx bị hỏng – Hướng dẫn toàn diện để sửa và xử lý tài liệu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Cách khôi phục docx – Hướng dẫn toàn diện để đọc tệp Word bị hỏng](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Hướng dẫn chi tiết cách khôi phục tệp DOCX bị hỏng, đọc nội dung và lưu lại bằng Aspose.Words cho Java.
+### [Cách lấy phông chữ thiếu trong Java – Hướng dẫn Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Học cách phát hiện và tải các phông chữ thiếu khi xử lý tài liệu Word trong Java bằng Aspose.Words.
+
+### [Đặt chế độ khôi phục để phục hồi tài liệu Word bị hỏng](./set-recovery-mode-to-recover-broken-word-document/)
 
 ## Câu Hỏi Thường Gặp
 

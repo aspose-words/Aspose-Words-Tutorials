@@ -38,7 +38,6 @@ Aprenda a gerar miniaturas de alta qualidade e bitmaps de tamanho personalizado 
 Aprenda a aplicar sombras a formas em documentos Word usando Aspose.Words para Java, com exemplos de código detalhados.
 
 ## Recursos adicionais
-
 - [Aspose.Words para documentação Java](https://reference.aspose.com/words/java/)
 - [Referência da API Aspose.Words para Java](https://reference.aspose.com/words/java/)
 - [Baixe Aspose.Words para Java](https://releases.aspose.com/words/java/)

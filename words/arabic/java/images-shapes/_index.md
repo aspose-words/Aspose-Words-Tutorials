@@ -38,7 +38,6 @@
 تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
 ## موارد إضافية
-
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)
 - [مرجع Aspose.Words لواجهة برمجة تطبيقات Java](https://reference.aspose.com/words/java/)
 - [تنزيل Aspose.Words لـ Java](https://releases.aspose.com/words/java/)

@@ -38,7 +38,6 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
 
 ## További források
-
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)
 - [Aspose.Words Java API-referenciához](https://reference.aspose.com/words/java/)
 - [Aspose.Words letöltése Java-hoz](https://releases.aspose.com/words/java/)

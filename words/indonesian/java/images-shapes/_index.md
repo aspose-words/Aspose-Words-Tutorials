@@ -38,7 +38,6 @@ Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus
 Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
 
 ## Sumber Daya Tambahan
-
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Unduh Aspose.Words untuk Java](https://releases.aspose.com/words/java/)

@@ -38,7 +38,6 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
 
 ## 追加リソース
-
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Javaをダウンロード](https://releases.aspose.com/words/java/)

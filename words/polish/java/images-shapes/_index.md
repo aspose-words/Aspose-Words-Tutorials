@@ -38,7 +38,6 @@ Dowiedz się, jak generować wysokiej jakości miniatury i mapy bitowe o niestan
 Dowiedz się, jak dodać cień do kształtu w dokumencie Word przy użyciu Aspose.Words dla Java.
 
 ## Dodatkowe zasoby
-
 - [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/)
 - [Aspose.Words dla Java API Reference](https://reference.aspose.com/words/java/)
 - [Pobierz Aspose.Words dla Java](https://releases.aspose.com/words/java/)

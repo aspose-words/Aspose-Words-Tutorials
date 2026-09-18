@@ -38,7 +38,6 @@ Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerin
 Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı öğrenin.
 
 ## Ek Kaynaklar
-
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/)
 - [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)

@@ -83,7 +83,7 @@ Le impostazioni del documento sono la chiave per fornire file su misura per le t
 ## Tutorial Correlati – Caricamento, Salvataggio e Conversione
 
 ### [Caricamento e Salvataggio di Documenti HTML con Aspose.Words per Java](./loading-and-saving-html-documents/)
-Impara a caricare e salvare documenti HTML in Java usando Aspose.Words per Java. Guida passo‑per‑passo con esempi di codice per un'integrazione fluida dei documenti.
+Impara a caricare e salvare documenti HTML in Java usando Aspose.Words per Java. Guida passo‑per‑step con esempi di codice per un'integrazione fluida dei documenti.
 
 ### [Lavorare con le Opzioni di Caricamento in Aspose.Words per Java](./using-load-options/)
 Padroneggia le Load Options in Aspose.Words per Java. Personalizza il caricamento dei documenti, gestisci la crittografia, converti forme, imposta versioni Word e molto altro per una gestione efficiente dei documenti Java.
@@ -92,7 +92,7 @@ Padroneggia le Load Options in Aspose.Words per Java. Personalizza il caricament
 Scopri come configurare le Load Options in Java per rilevare font mancanti e caricare correttamente file DOCX con Aspose.Words.
 
 ### [Configurare le Opzioni di Caricamento RTF in Aspose.Words per Java](./configuring-rtf-load-options/)
-Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑passo con esempi di codice.
+Configura le RTF Load Options in Aspose.Words per Java. Scopri come riconoscere il testo UTF‑8 nei documenti RTF. Guida passo‑per‑step con esempi di codice.
 
 ### [Caricamento di File di Testo con Aspose.Words per Java](./loading-text-files/)
 Sblocca la potenza di Aspose.Words per Java. Impara a caricare documenti di testo, gestire elenchi, spazi e direzione del testo.
@@ -101,10 +101,13 @@ Sblocca la potenza di Aspose.Words per Java. Impara a caricare documenti di test
 Scopri la manipolazione avanzata dei documenti con Aspose.Words per Java. Cripta, gestisci metafile e molto altro. I tuoi documenti Word, a modo tuo.
 
 ### [Salvataggio di Documenti HTML con Layout Fisso in Aspose.Words per Java](./saving-html-documents-with-fixed-layout/)
-Impara a salvare documenti HTML con layout fisso in Aspose.Words per Java. Segui la nostra guida passo‑per‑passo per una formattazione fluida dei documenti.
+Impara a salvare documenti HTML con layout fisso in Aspose.Words per Java. Segui la nostra guida passo‑per‑step per una formattazione fluida dei documenti.
 
 ### [Opzioni Avanzate di Salvataggio di Documenti HTML con Aspose.Words Java](./advance-html-documents-saving-options/)
 In questo tutorial abbiamo coperto varie opzioni avanzate di salvataggio di documenti HTML con Aspose.Words per Java. Queste opzioni ti consentono di creare HTML di alta qualità.
+
+### [Recupera docx corrotto – Guida completa per riparare e processare i documenti](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+Scopri come riparare file DOCX corrotti, recuperarne il contenuto e continuare l'elaborazione con Aspose.Words per Java.
 
 ### [Salvataggio di Immagini da Documenti in Aspose.Words per Java](./saving-images-from-documents/)
 Impara a salvare immagini da documenti usando Aspose.Words per Java con la nostra guida completa passo‑per‑step. Personalizza formati, compressione e altro.
@@ -133,6 +136,16 @@ Impara a salvare documenti come file di testo in Aspose.Words per Java. Segui la
 ### [Determinare il Formato del Documento in Aspose.Words per Java](./determining-document-format/)
 
 ### [Come recuperare DOCX – Caricare file corrotti con opzioni di recupero](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [Cattura gli avvisi di sostituzione dei font in Java con Aspose.Words – Guida completa](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Scopri come intercettare e gestire gli avvisi di sostituzione dei font durante l'elaborazione dei documenti Word in Java con Aspose.Words.
+### [Come recuperare docx – Guida completa per leggere file Word corrotti](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+Scopri come aprire e riparare file DOCX corrotti usando Aspose.Words per Java, con esempi pratici passo‑passo.
+### [Imposta modalità di recupero per ripristinare documenti Word danneggiati](./set-recovery-mode-to-recover-broken-word-document/)
+Scopri come configurare la modalità di recupero per aprire e riparare documenti Word corrotti con Aspose.Words per Java.
+
+### [Come Ottenere i Font Mancanti in Java – Guida Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+Scopri come individuare e caricare i font mancanti in Java usando Aspose.Words per garantire una corretta visualizzazione del documento.
 
 ## Domande Frequenti
 

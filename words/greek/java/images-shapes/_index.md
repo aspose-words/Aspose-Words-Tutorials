@@ -38,7 +38,6 @@
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
-
 - [Aspose.Words για τεκμηρίωση Java](https://reference.aspose.com/words/java/)
 - [Aspose.Words για αναφορά API Java](https://reference.aspose.com/words/java/)
 - [Λήψη Aspose.Words για Java](https://releases.aspose.com/words/java/)

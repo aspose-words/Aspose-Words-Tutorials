@@ -38,7 +38,6 @@ Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사�
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
-
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)
 - [Java API 참조를 위한 Aspose.Words](https://reference.aspose.com/words/java/)
 - [Java용 Aspose.Words 다운로드](https://releases.aspose.com/words/java/)

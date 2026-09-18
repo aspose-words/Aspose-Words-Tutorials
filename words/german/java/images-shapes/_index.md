@@ -38,7 +38,6 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
 
 ## Weitere Ressourcen
-
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)
 - [Laden Sie Aspose.Words für Java herunter](https://releases.aspose.com/words/java/)

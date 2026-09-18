@@ -38,7 +38,6 @@ Leer hoe u hoogwaardige miniaturen en bitmaps op maat van Word-documenten kunt g
 Leer hoe u een schaduw aan vormen toevoegt in Word met Aspose.Words voor Java.
 
 ## Aanvullende bronnen
-
 - [Aspose.Words voor Java-documentatie](https://reference.aspose.com/words/java/)
 - [Aspose.Words voor Java API-referentie](https://reference.aspose.com/words/java/)
 - [Download Aspose.Words voor Java](https://releases.aspose.com/words/java/)
