@@ -1,6 +1,6 @@
 ---
-title: Create epub from docx with Aspose.Words SaveOptions (Java)
-linktitle: Create epub from docx with Aspose.Words SaveOptions (Java)
+title: Convert DOCX to EPUB using Aspose.Words for Java SaveOptions
+linktitle: Convert DOCX to EPUB using Aspose.Words for Java SaveOptions
 second_title: Aspose.Words Java Document Processing API
 description: Learn how to create epub from docx using Aspose.Words for Java – customize save options, split by heading, and export document properties. Convert docx to epub quickly.
 weight: 13
@@ -9,12 +9,10 @@ date: 2026-02-19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create epub from docx with Aspose.Words SaveOptions (Java)
+# Convert DOCX to EPUB using Aspose.Words for Java SaveOptions
 
 ## Introduction
 
@@ -33,7 +31,7 @@ Before we dive into the nitty‑gritty of document conversion, let’s make sure
 
 1. **Java Development Kit (JDK)** – JDK 8 or later installed.  
 2. **IDE** – IntelliJ IDEA, Eclipse, or any Java‑compatible editor.  
-3. **Aspose.Words for Java** – Download the latest JAR **[here](https://releases.aspose.com/words/java/)** and add it to your project’s build path.  
+3. **Aspose.Words for Java** – Download the latest JAR **[Aspose.Words for Java download](https://releases.aspose.com/words/java/)** and add it to your project’s build path.  
 4. **Sample Document** – A DOCX file named `Rendering.docx` placed in the project directory (or provide an absolute path).  
 
 ## What is “create epub from docx”?
@@ -54,7 +52,7 @@ import com.aspose.words.*;
 
 This import statement ensures you have access to all the necessary classes for loading documents, configuring save options, and performing the conversion.
 
-## Step 1: Load the Document
+## Step 1: load the document
 
 The first step in the conversion process is to load the document you want to convert into a `Document` object. This object serves as the in‑memory representation of your document.
 
@@ -65,7 +63,7 @@ Document doc = new Document("Rendering.docx");
 **Explanation:**  
 The `Document` constructor reads the DOCX file from the supplied path. Make sure the file exists relative to your project's root or provide a full file system path.
 
-## Step 2: Configure Save Options
+## Step 2: configure save options
 
 Next, configure how the document will be saved. Here we use `HtmlSaveOptions` because the EPUB writer internally builds HTML files before packaging them.
 
@@ -81,7 +79,7 @@ saveOptions.setEncoding(StandardCharsets.UTF_8);
 - **`setSaveFormat(SaveFormat.EPUB)`** – Tells Aspose.Words to produce an EPUB file instead of the default HTML.  
 - **`setEncoding(StandardCharsets.UTF_8)`** – Guarantees proper handling of Unicode characters, essential for multilingual content.
 
-## Step 3: Configure Document Splitting
+## Step 3: configure document splitting
 
 For larger books, splitting the output improves readability. The following option tells Aspose.Words to create a new HTML file each time it encounters a heading paragraph.
 
@@ -93,7 +91,7 @@ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
 
 - **`DocumentSplitCriteria.HEADING_PARAGRAPH`** – Each heading (e.g., `<h1>`, `<h2>`) becomes a separate chapter inside the EPUB. This directly addresses the **split epub by heading** requirement.
 
-## Step 4: Export Document Properties
+## Step 4: export document properties
 
 Preserving metadata such as author, title, and creation date is often required for cataloging and search.
 
@@ -105,7 +103,7 @@ saveOptions.setExportDocumentProperties(true);
 
 - Enabling `setExportDocumentProperties(true)` copies the source document’s core properties into the EPUB’s metadata section.
 
-## Step 5: Save the Document
+## Step 5: save the document
 
 Finally, write the EPUB file to disk using the configured options.
 
@@ -117,19 +115,19 @@ doc.save("HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 
 - The `save` method takes the target file name and the `HtmlSaveOptions` instance, producing an EPUB that respects all the settings we defined above.
 
-## Common Use Cases
+## Common use cases
 
 - **E‑book publishing:** Convert author‑draft Word files into EPUBs ready for Kindle, iBooks, or Google Play Books.  
 - **Batch conversion:** Wrap the single‑file logic in a loop to **batch convert word documents** for large libraries.  
 - **Content migration:** Move legacy documentation from Word to web‑friendly EPUB format while keeping headings and metadata intact.  
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 
 - **Missing headings:** Ensure your source DOCX uses proper heading styles (Heading 1, Heading 2, etc.).  
 - **Encoding issues:** If you see garbled characters, double‑check that the source file is saved in UTF‑8 and that `setEncoding` matches.  
 - **Large files:** For very large documents, consider increasing the JVM heap size (`-Xmx2g`) to avoid `OutOfMemoryError`.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### 1. Can I use different formats besides EPUB for saving the document?
 
