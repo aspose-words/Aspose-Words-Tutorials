@@ -33,6 +33,10 @@
 ## دروس تحويل مستندات بايثون
 ### [تحويل مستندات بايثون - الدليل الكامل](./python-document-conversion/)
 تعلّم تحويل مستندات بايثون مع Aspose.Words لبايثون. حوّل، عالج، وخصّص المستندات بكل سهولة. عزّز إنتاجيتك الآن!
+### [كيفية حفظ Markdown من Word – دليل بايثون كامل](./how-to-save-markdown-from-word-complete-python-guide/)
+تعلم كيفية استخراج وحفظ محتوى Markdown من مستندات Word باستخدام Aspose.Words لبايثون.
+### [استعادة DOCX التالف وتحويل Word إلى Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
+تعلم كيفية إصلاح ملفات DOCX التالفة وتحويل مستندات Word إلى صيغة Markdown باستخدام Aspose.Words لبايثون.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

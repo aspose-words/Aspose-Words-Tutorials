@@ -5,7 +5,9 @@
 "url": "/ar/python-net/headers-footers-page-setup/aspose-words-python-page-numbering-layout-analysis/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان ترقيم الصفحات وتحليل التخطيط في Aspose.Words للغة بايثون
 
 اكتشف كيفية الاستفادة من قوة Aspose.Words في بايثون للتحكم في ترقيم الصفحات وتحليل تخطيطات المستندات بفعالية. سيرشدك هذا الدليل الشامل خلال عملية إعداد هذه الميزات وتطبيقها وتحسينها.
@@ -214,3 +216,7 @@ while True:
 - **منتدى الدعم:** [مجتمع دعم Aspose](https://forum.aspose.com/c/words/10)
 
 باتباع هذا الدليل، ستكون جاهزًا تمامًا لتنفيذ وتحسين ترقيم الصفحات وتحليل تخطيطها في مشاريع بايثون الخاصة بك باستخدام Aspose.Words. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

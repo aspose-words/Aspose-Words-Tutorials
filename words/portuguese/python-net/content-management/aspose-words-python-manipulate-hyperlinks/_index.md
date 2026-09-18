@@ -5,7 +5,9 @@
 "url": "/pt/python-net/content-management/aspose-words-python-manipulate-hyperlinks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Manipule hiperlinks de palavras com eficiência com a API Aspose.Words: um guia para desenvolvedores
 
 ## Introdução
@@ -280,3 +282,7 @@ Agora você domina como manipular hiperlinks do Word com eficiência usando o As
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/words/10)
 
 Agora que você está equipado com esse conhecimento, mergulhe em seus projetos com confiança e explore todo o potencial do Aspose.Words para Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

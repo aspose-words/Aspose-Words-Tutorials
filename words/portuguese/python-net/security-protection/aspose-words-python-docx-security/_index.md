@@ -5,7 +5,9 @@
 "url": "/pt/python-net/security-protection/aspose-words-python-docx-security/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Libere o poder da automação de documentos: criando arquivos DOCX seguros e compatíveis com Aspose.Words em Python
 
 ## Introdução
@@ -158,3 +160,7 @@ R: Verifique e renove suas licenças regularmente. Mantenha um backup do seu arq
 - **Suporte e Comunidade**: [Fórum Aspose](https://forum.aspose.com/c/words/10)
 
 Agora, dê o próximo passo na automação de documentos implementando o Aspose.Words nos seus projetos Python. Boa programação!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

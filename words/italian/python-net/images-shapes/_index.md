@@ -4,7 +4,9 @@
 "url": "/it/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial su immagini e forme per Aspose.Words Python-net
 
 Esplora guide complete passo passo per operazioni su immagini e forme utilizzando Aspose.Words per Python-net. Questi tutorial includono esempi di codice completi e spiegazioni dettagliate.
@@ -32,6 +34,9 @@ Scopri come ottimizzare la gestione delle immagini nei documenti RTF con Aspose.
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Scopri come ottimizzare l'output SVG utilizzando Aspose.Words per Python. Questa guida illustra funzionalità personalizzate come proprietà simili a immagini, rendering del testo e miglioramenti della sicurezza.
 
+### [Come aggiungere l'ombra in C# – Guida completa alla programmazione](./how-to-add-shadow-in-c-complete-programming-guide/)
+Scopri come aggiungere ombre agli oggetti in C# usando Aspose.Words, con esempi completi e passaggi dettagliati.
+
 ## Risorse aggiuntive
 
 - [Aspose.Words per la documentazione di Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Scopri come ottimizzare l'output SVG utilizzando Aspose.Words per Python. Questa
 - [Forum di Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Supporto gratuito](https://forum.aspose.com/)
 - [Licenza temporanea](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

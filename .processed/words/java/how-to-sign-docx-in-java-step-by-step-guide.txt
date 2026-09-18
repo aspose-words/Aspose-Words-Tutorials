@@ -1,0 +1,7 @@
+Title: How to sign docx in Java – step‑by‑step guide
+Slug: how-to-sign-docx-in-java-step-by-step-guide
+Category: document-security
+ProcessedDate: 2026-08-08T04:19:54.577589
+SourceRepo: AI Search API
+Keywords: how to sign docx, programmatically sign word, digital signature with pfx, create digital signature java, sign docx with certificate
+PRNumber: 246

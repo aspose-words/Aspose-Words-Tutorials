@@ -5,7 +5,9 @@
 "url": "/vi/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Đường viền tài liệu động với Aspose.Words cho Python
 
 ## Giới thiệu
@@ -267,3 +269,7 @@ Hãy cân nhắc tích hợp Aspose.Words với các công cụ xử lý dữ li
 
 ## Phần kết luận
 Bằng cách thành thạo các kỹ thuật này với Aspose.Words for Python, bạn có thể tạo các tài liệu trông chuyên nghiệp với đường viền động. Hướng dẫn này cung cấp nền tảng vững chắc để khám phá thêm các khả năng của thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

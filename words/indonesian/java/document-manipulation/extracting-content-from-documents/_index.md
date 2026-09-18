@@ -1,10 +1,13 @@
 ---
-"description": "Pelajari cara mengekstrak konten dari dokumen dengan mudah menggunakan Aspose.Words untuk Java. Panduan langkah demi langkah dan contoh kode kami menyederhanakan prosesnya."
-"linktitle": "Mengekstrak Konten dari Dokumen"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Mengekstrak Konten dari Dokumen di Aspose.Words untuk Java"
-"url": "/id/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Pelajari cara mengekstrak teks menggunakan Aspose.Words untuk Java. Panduan
+  langkah demi langkah ini menunjukkan berbagai teknik ekstraksi dengan contoh kode
+  siap dijalankan.
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Cara Mengekstrak Teks Menggunakan Aspose.Words untuk Java
+url: /id/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +16,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengekstrak Konten dari Dokumen di Aspose.Words untuk Java
+# Cara Mengekstrak Teks Menggunakan Aspose.Words untuk Java
 
+## Cara Mengekstrak Teks Menggunakan Aspose.Words untuk Java
 
-## Pengantar Mengekstrak Konten dari Dokumen di Aspose.Words untuk Java
+Dalam dunia pemrosesan dokumen, **bagaimana cara mengekstrak teks menggunakan Aspose.Words** adalah pertanyaan yang sering muncul bagi pengembang Java. Baik Anda perlu mengambil teks biasa, tabel, gambar, atau elemen spesifik seperti bookmark atau komentar, Aspose.Words untuk Java menawarkan API yang kaya sehingga pekerjaan menjadi mudah. Dalam panduan ini kami akan membahas puluhan skenario ekstraksi, menjelaskan mengapa setiap pendekatan penting, dan menyediakan contoh kode siap‑jalankan yang dapat Anda masukkan ke dalam proyek Anda.
 
-Dalam dunia pemrosesan dokumen, mengekstraksi konten dari dokumen merupakan persyaratan umum. Baik Anda perlu mengekstraksi teks, tabel, gambar, atau elemen dokumen tertentu, Aspose.Words untuk Java menyediakan alat yang hebat untuk mempermudah tugas ini. Dalam panduan lengkap ini, kami akan memandu Anda melalui proses mengekstraksi konten dari dokumen menggunakan Aspose.Words untuk Java. 
+## Jawaban Cepat
+- **Perpustakaan apa yang saya perlukan?** Aspose.Words untuk Java (unduh dari situs resmi).  
+- **Bisakah saya mengekstrak hanya teks biasa?** Ya – gunakan `Document.getText()` atau `DocumentBuilder` dengan fields.  
+- **Apakah memungkinkan mengekstrak antara bookmark?** Tentu saja, gunakan `BookmarkStart`/`BookmarkEnd` dengan `ExtractContentHelper`.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan non‑trial.  
+- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru sepenuhnya kompatibel.
 
 ## Prasyarat
 
-Sebelum kita menyelami proses ekstraksi, pastikan Anda memiliki prasyarat berikut:
+1. **Aspose.Words untuk Java** – instal perpustakaan dan tambahkan ke proyek Anda. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/words/java/).  
+2. **Dokumen contoh** – untuk contoh kami akan menggunakan file bernama `Extract content.docx`. Letakkan file tersebut di folder yang dapat direferensikan dari kode Anda.
 
-1. Aspose.Words untuk Java: Anda harus menginstal dan mengatur Aspose.Words untuk Java di lingkungan pengembangan Java Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
-
-2. Dokumen untuk Mengekstrak Konten: Untuk panduan ini, kami akan menggunakan contoh dokumen bernama "Extract content.docx." Pastikan Anda memiliki dokumen serupa yang siap untuk diekstraksi.
-
-## Mengekstrak Konten Antar Node Tingkat Blok
+## Mengekstrak Konten Antara Node Tingkat‑Blok
 
 ```java
-// Contoh kode Java untuk mengekstraksi konten antara node tingkat blok
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +50,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## Mengekstrak Konten Antar Bookmark
+## Mengekstrak Konten Antara Bookmark
 
 ```java
-// Contoh kode Java untuk mengekstraksi konten antar bookmark
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -63,7 +69,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmar
 ## Mengekstrak Konten Antara Rentang Komentar
 
 ```java
-// Contoh kode Java untuk mengekstraksi konten antara rentang komentar
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +81,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## Mengekstrak Konten Antar Paragraf
+## Mengekstrak Konten Antara Paragraf
 
 ```java
-// Contoh kode Java untuk mengekstrak konten antar paragraf
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -90,7 +96,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagra
 ## Mengekstrak Konten Antara Gaya Paragraf
 
 ```java
-// Contoh kode Java untuk mengekstrak konten antara gaya paragraf
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +107,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## Mengekstrak Konten Antar Proses
+## Mengekstrak Konten Antara Run
 
 ```java
-// Contoh kode Java untuk mengekstraksi konten antar proses
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -117,7 +123,7 @@ System.out.println(node.toString());
 ## Mengekstrak Konten Menggunakan DocumentVisitor
 
 ```java
-// Contoh kode Java untuk mengekstrak konten menggunakan DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
@@ -127,7 +133,7 @@ System.out.println(myConverter.getText());
 ## Mengekstrak Konten Menggunakan Field
 
 ```java
-// Contoh kode Java untuk mengekstrak konten menggunakan Field
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -141,7 +147,7 @@ dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.doc
 ## Mengekstrak Daftar Isi
 
 ```java
-// Contoh kode Java untuk mengekstrak daftar isi
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -158,10 +164,10 @@ for (Field field : doc.getRange().getFields()) {
 }
 ```
 
-## Mengekstrak Teks Saja
+## Mengekstrak Hanya Teks
 
 ```java
-// Contoh kode Java untuk mengekstrak teks saja
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -172,7 +178,7 @@ System.out.println("ToString() Result: " + doc.toString());
 ## Mengekstrak Konten Berdasarkan Gaya
 
 ```java
-// Contoh kode Java untuk mengekstrak konten berdasarkan gaya
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -210,7 +216,7 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 ## Mengekstrak dan Mencetak Teks
 
 ```java
-// Contoh kode Java untuk mengekstrak dan mencetak teks
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -224,7 +230,7 @@ System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ## Mengekstrak Gambar ke File
 
 ```java
-// Contoh kode Java untuk mengekstrak gambar ke file
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -240,37 +246,35 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara mengekstrak konten dari dokumen menggunakan Aspose.Words untuk Java. Panduan ini membahas berbagai teknik ekstraksi, termasuk konten antara node tingkat blok, bookmark, rentang komentar, paragraf, dan banyak lagi. Anda kini siap menangani ekstraksi konten dokumen secara efisien dalam aplikasi Java Anda.
+Selamat! Anda kini memiliki kotak peralatan yang solid untuk **bagaimana cara mengekstrak teks menggunakan Aspose.Words** di Java. Dari node tingkat‑blok hingga bookmark, komentar, gaya, dan bahkan gambar, API memberikan kontrol yang sangat detail atas apa yang Anda ambil dari dokumen. Gunakan potongan kode ini sebagai dasar, sesuaikan dengan struktur file Anda sendiri, dan otomatisasikan proses ekstraksi pada kumpulan dokumen yang besar.
 
 ## Pertanyaan yang Sering Diajukan
 
-### Bagaimana cara mengekstrak konten dari bagian dokumen tertentu?
+**T: Bagaimana cara mengekstrak konten dari dokumen yang dilindungi kata sandi?**  
+J: Muat dokumen dengan konstruktor kata sandi: `new Document(path, new LoadOptions("password"))`, kemudian jalankan metode ekstraksi apa pun yang ditunjukkan di atas.
 
-Untuk mengekstrak konten dari bagian dokumen tertentu, Anda dapat mengidentifikasi titik awal dan akhir bagian tersebut dan menggunakan metode Aspose.Words untuk Java yang sesuai untuk mengekstrak konten di antara bagian tersebut.
+**T: Bisakah saya mengekstrak konten dari beberapa dokumen dalam satu kali proses?**  
+J: Ya. Lakukan loop melalui daftar jalur file, buat instance `Document` untuk masing‑masing, dan terapkan logika ekstraksi yang sama di dalam loop.
 
-### Bisakah saya mengekstrak konten dari dokumen yang dilindungi kata sandi?
+**T: Apakah ada cara mengekstrak hanya teks yang terlihat (mengabaikan teks tersembunyi atau kode field)?**  
+J: Gunakan `doc.getText()` untuk teks biasa yang terlihat. Untuk kontrol lebih, iterasi melalui node dan filter berdasarkan `NodeType.RUN` serta `Run.getFont().getHidden()`.
 
-Ya, Aspose.Words untuk Java menyediakan fungsionalitas untuk mengekstrak konten dari dokumen yang dilindungi kata sandi. Anda dapat memberikan kata sandi saat membuka dokumen menggunakan `Document` konstruktor kelas.
+**T: Format apa saja yang dapat saya simpan untuk konten yang diekstrak?**  
+J: Setelah mengekstrak, Anda dapat menyimpan `Document` sebagai DOCX, PDF, HTML, TXT, atau format apa pun yang didukung Aspose.Words melalui `doc.save("output.pdf")`.
 
-### Bagaimana cara mengekstrak konten dan menyimpannya dalam format berbeda, seperti teks biasa atau HTML?
+**T: Apakah Aspose.Words mendukung ekstraksi konten dari file besar (ratusan MB)?**  
+J: Ya, tetapi pertimbangkan menggunakan `LoadOptions` dengan `LoadFormat` dan `MemoryOptimization` untuk mengurangi konsumsi memori.
 
-Anda dapat mengekstrak konten dari dokumen dan menyimpannya dalam format yang berbeda menggunakan Aspose.Words untuk Java. Setelah mengekstrak konten, Anda dapat menggunakan `Document` metode kelas untuk menyimpannya dalam format seperti teks biasa, HTML, atau lainnya.
+---
 
-### Apakah ada cara untuk mengekstrak konten dari elemen dokumen tertentu, seperti tabel atau gambar?
-
-Ya, Anda dapat mengekstrak konten dari elemen dokumen tertentu, seperti tabel atau gambar, menggunakan Aspose.Words untuk Java. Identifikasi elemen yang ingin Anda ekstrak, lalu gunakan metode yang sesuai untuk mengekstrak kontennya.
-
-### Bagaimana saya bisa mengotomatiskan proses ekstraksi konten di aplikasi Java saya?
-
-Untuk mengotomatiskan proses ekstraksi konten dalam aplikasi Java Anda, Anda dapat membuat kode khusus berdasarkan teknik yang dijelaskan dalam panduan ini. Anda juga dapat menerapkan logika untuk mengulang beberapa dokumen dan mengekstrak konten sesuai kebutuhan.
-
+**Terakhir Diperbarui:** 2026-01-01  
+**Diuji Dengan:** Aspose.Words untuk Java 24.12  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: Compare word documents in C# using Aspose.Words
+Slug: compare-word-documents-in-c-using-aspose-words
+Category: compare-documents
+ProcessedDate: 2026-08-08T03:02:38.841335
+SourceRepo: AI Search API
+Keywords: compare word documents, word document comparison, how to compare docx, compare docx files, compare word files
+PRNumber: 245

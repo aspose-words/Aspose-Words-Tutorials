@@ -5,7 +5,9 @@
 "url": "/vi/python-net/tables-lists/aspose-words-python-list-detection-guide/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Hướng dẫn triển khai phát hiện danh sách trong văn bản bằng Aspose.Words cho Python
 
 ## Giới thiệu
@@ -171,3 +173,7 @@ def test_detect_hyperlinks(self):
 2. **Công cụ phân tích nội dung**: Trích xuất dữ liệu có cấu trúc từ các tệp văn bản để phân tích hoặc báo cáo thêm.
 3. **Nhiệm vụ dọn dẹp dữ liệu**Chuẩn hóa định dạng văn bản bằng cách quản lý khoảng trắng và xác định các thành phần danh sách.
 4. **Xác minh liên kết**: Xác thực các liên kết trong một loạt tài liệu văn bản để đảm bảo chúng hoạt động và chính xác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

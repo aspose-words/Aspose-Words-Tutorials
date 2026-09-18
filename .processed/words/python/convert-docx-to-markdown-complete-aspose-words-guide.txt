@@ -1,0 +1,7 @@
+Title: Convert docx to markdown – Complete Aspose.Words Guide
+Slug: convert-docx-to-markdown-complete-aspose-words-guide
+Category: document-conversion
+ProcessedDate: 2026-06-27T15:47:12.559590
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, save word as markdown, how to set image dpi, set image resolution markdown, set image resolution 300 dpi
+PRNumber: 215

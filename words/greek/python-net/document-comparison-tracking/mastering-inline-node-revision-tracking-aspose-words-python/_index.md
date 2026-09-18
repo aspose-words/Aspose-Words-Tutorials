@@ -5,7 +5,9 @@
 "url": "/el/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Κατακτώντας την παρακολούθηση αναθεωρήσεων ενσωματωμένων κόμβων σε Python με το Aspose.Words
 
 ## Εισαγωγή
@@ -127,3 +129,7 @@ assert runs[5].is_delete_revision
 - [Δωρεάν δοκιμή και προσωρινές άδειες χρήσης](https://purchase.aspose.com/temporary-license/)
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/words/10)
 Ελπίζουμε ότι αυτός ο οδηγός θα σας δώσει τη δυνατότητα να διαχειρίζεστε αποτελεσματικά τις αναθεωρήσεις εγγράφων χρησιμοποιώντας το Aspose.Words σε Python. Καλή κωδικοποίηση!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

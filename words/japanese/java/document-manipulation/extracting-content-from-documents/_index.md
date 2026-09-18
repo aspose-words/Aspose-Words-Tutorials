@@ -1,10 +1,11 @@
 ---
-"description": "Aspose.Words for Javaを使って、ドキュメントからコンテンツを簡単に抽出する方法を学びましょう。ステップバイステップのガイドとコードサンプルで、プロセスを簡単に実行できます。"
-"linktitle": "ドキュメントからコンテンツを抽出する"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java でドキュメントからコンテンツを抽出する"
-"url": "/ja/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: Aspose.Words for Java を使用したテキスト抽出方法を学びましょう。このステップバイステップガイドでは、すぐに実行できるコードサンプルとともに、複数の抽出テクニックを紹介しています。
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java を使用したテキスト抽出方法
+url: /ja/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +14,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でドキュメントからコンテンツを抽出する
+# Aspose.Words for Java を使用したテキスト抽出方法
 
+## Aspose.Words for Java を使用したテキスト抽出方法
 
-## Aspose.Words for Java でのドキュメントからのコンテンツ抽出の概要
+ドキュメント処理の世界では、**Aspose.Words を使用したテキスト抽出方法** は Java 開発者にとって頻繁に問われる質問です。プレーンテキスト、表、画像、ブックマークやコメントといった特定の要素を取得したい場合でも、Aspose.Words for Java は豊富な API を提供しており、作業をシンプルにします。本ガイドでは、数十種類の抽出シナリオを順に解説し、各アプローチの重要性を説明するとともに、プロジェクトにすぐ組み込める実行可能なコードサンプルを提供します。
 
-ドキュメント処理の世界では、ドキュメントからコンテンツを抽出することはよくある要件です。テキスト、表、画像、あるいは特定のドキュメント要素を抽出する必要がある場合でも、Aspose.Words for Javaは、このタスクをスムーズに実行するための強力なツールを提供します。この包括的なガイドでは、Aspose.Words for Javaを使用してドキュメントからコンテンツを抽出するプロセスを詳しく説明します。 
+## Quick Answers
+- **What library do I need?** Aspose.Words for Java (download from the official site).  
+- **Can I extract only plain text?** Yes – use `Document.getText()` or `DocumentBuilder` with fields.  
+- **Is it possible to extract between bookmarks?** Absolutely, use `BookmarkStart`/`BookmarkEnd` with `ExtractContentHelper`.  
+- **Do I need a license for production?** A commercial license is required for non‑trial use.  
+- **Which Java versions are supported?** Java 8 and newer are fully compatible.
 
-## 前提条件
+## Prerequisites
 
-抽出プロセスに進む前に、次の前提条件が満たされていることを確認してください。
+1. **Aspose.Words for Java** – ライブラリをインストールし、プロジェクトに追加します。ダウンロードは [here](https://releases.aspose.com/words/java/) から行えます。  
+2. **サンプルドキュメント** – 例では `Extract content.docx` というファイル名のドキュメントを使用します。コードから参照できるフォルダーに配置してください。
 
-1. Aspose.Words for Java: Java開発環境にAspose.Words for Javaをインストールし、セットアップしておく必要があります。ダウンロードはこちらから。 [ここ](https://releases。aspose.com/words/java/).
-
-2. コンテンツを抽出するドキュメント: このガイドでは、「Extract content.docx」というサンプルドキュメントを使用します。抽出用に同様のドキュメントを用意しておいてください。
-
-## ブロックレベルノード間のコンテンツの抽出
+## Extracting Content Between Block‑Level Nodes
 
 ```java
-// ブロックレベルノード間のコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +48,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## ブックマーク間のコンテンツの抽出
+## Extracting Content Between Bookmarks
 
 ```java
-// ブックマーク間のコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +64,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## コメント範囲間のコンテンツの抽出
+## Extracting Content Between Comment Ranges
 
 ```java
-// コメント範囲間のコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +79,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## 段落間のコンテンツの抽出
+## Extracting Content Between Paragraphs
 
 ```java
-// 段落間のコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +91,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## 段落スタイル間のコンテンツの抽出
+## Extracting Content Between Paragraph Styles
 
 ```java
-// 段落スタイル間のコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +105,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## 実行間のコンテンツの抽出
+## Extracting Content Between Runs
 
 ```java
-// 実行間でコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +118,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## DocumentVisitorを使用したコンテンツの抽出
+## Extracting Content Using DocumentVisitor
 
 ```java
-// DocumentVisitor を使用してコンテンツを抽出するための Java コード サンプル
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## フィールドを使用したコンテンツの抽出
+## Extracting Content Using Field
 
 ```java
-// フィールドを使用してコンテンツを抽出するためのJavaコードサンプル
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -138,10 +142,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.docx");
 ```
 
-## 目次の抽出
+## Extracting Table of Contents
 
 ```java
-// 目次を抽出するための Java コードサンプル
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -158,10 +162,10 @@ for (Field field : doc.getRange().getFields()) {
 }
 ```
 
-## テキストのみの抽出
+## Extracting Text Only
 
 ```java
-// テキストのみを抽出するためのJavaコードサンプル
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +173,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## スタイルに基づいてコンテンツを抽出する
+## Extracting Content Based on Styles
 
 ```java
-// スタイルに基づいてコンテンツを抽出するための Java コードサンプル
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +211,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## テキストの抽出と印刷
+## Extracting and Printing Text
 
 ```java
-// テキストを抽出して印刷するための Java コードサンプル
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +225,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## 画像をファイルに抽出する
+## Extracting Images to Files
 
 ```java
-// 画像をファイルに抽出するための Java コードサンプル
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -238,39 +242,37 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 }
 ```
 
-## 結論
+## Conclusion
 
-おめでとうございます！Aspose.Words for Javaを使ってドキュメントからコンテンツを抽出する方法を学習しました。このガイドでは、ブロックレベルノード、ブックマーク、コメント範囲、段落間のコンテンツなど、様々な抽出手法を解説しました。これで、Javaアプリケーションでドキュメントのコンテンツを効率的に抽出できるようになりました。
+おめでとうございます！これで **Aspose.Words を使用したテキスト抽出方法** に関する堅実なツールボックスが手に入りました。ブロックレベルノード、ブックマーク、コメント、スタイル、さらには画像まで、API を使えばドキュメントから必要な情報を細かく制御して取得できます。これらのスニペットを基礎に、独自のファイル構成に合わせてカスタマイズし、大量のドキュメントに対する抽出プロセスを自動化してください。
 
-## よくある質問
+## Frequently Asked Questions
 
-### 特定のドキュメントセクションからコンテンツを抽出するにはどうすればよいですか?
+**Q: How do I extract content from a password‑protected document?**  
+A: Load the document with the password constructor: `new Document(path, new LoadOptions("password"))`, then run any of the extraction methods shown above.
 
-特定のドキュメント セクションからコンテンツを抽出するには、セクションの開始点と終了点を識別し、適切な Aspose.Words for Java メソッドを使用してそれらの間のコンテンツを抽出します。
+**Q: Can I extract content from multiple documents in a single run?**  
+A: Yes. Loop through a list of file paths, instantiate a `Document` for each, and apply the same extraction logic inside the loop.
 
-### パスワードで保護されたドキュメントからコンテンツを抽出できますか?
+**Q: Is there a way to extract only visible text (ignoring hidden or field codes)?**  
+A: Use `doc.getText()` for plain visible text. For more control, iterate through nodes and filter by `NodeType.RUN` and `Run.getFont().getHidden()`.
 
-はい、Aspose.Words for Javaはパスワードで保護されたドキュメントからコンテンツを抽出する機能を提供します。ドキュメントを開く際にパスワードを入力することができます。 `Document` クラスコンストラクター。
+**Q: What formats can I save the extracted content to?**  
+A: After extracting, you can save a `Document` as DOCX, PDF, HTML, TXT, or any format supported by Aspose.Words via `doc.save("output.pdf")`.
 
-### コンテンツを抽出して、プレーンテキストや HTML などのさまざまな形式で保存するにはどうすればよいですか?
+**Q: Does Aspose.Words support extracting content from large (hundreds of MB) files?**  
+A: Yes, but consider using `LoadOptions` with `LoadFormat` and `MemoryOptimization` to reduce memory consumption.
 
-Aspose.Words for Javaを使用すると、ドキュメントからコンテンツを抽出し、さまざまな形式で保存できます。コンテンツを抽出した後は、 `Document` クラス メソッドを使用して、プレーン テキスト、HTML などの形式で保存します。
+---
 
-### 表や画像などの特定のドキュメント要素からコンテンツを抽出する方法はありますか?
-
-はい、Aspose.Words for Java を使えば、表や画像などの特定のドキュメント要素からコンテンツを抽出できます。抽出したい要素を特定し、適切なメソッドを使ってコンテンツを抽出してください。
-
-### Java アプリケーションでコンテンツ抽出プロセスを自動化するにはどうすればよいですか?
-
-Javaアプリケーションにおけるコンテンツ抽出プロセスを自動化するには、このガイドで解説されている手法に基づいてカスタムコードを作成できます。また、複数のドキュメントを反復処理し、必要に応じてコンテンツを抽出するロジックを実装することもできます。
-
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

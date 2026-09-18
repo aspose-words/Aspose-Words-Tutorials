@@ -1,10 +1,13 @@
 ---
-"description": "Naučte se, jak vytvářet a upravovat grafy v Aspose.Words pro Javu. Prozkoumejte typy grafů, formátování a vlastnosti os pro vizualizaci dat."
-"linktitle": "Používání grafů"
-"second_title": "Rozhraní API pro zpracování dokumentů v Javě od Aspose.Words"
-"title": "Používání grafů v Aspose.Words pro Javu"
-"url": "/cs/java/document-conversion-and-export/using-charts/"
-"weight": 12
+date: 2025-12-13
+description: Naučte se, jak vytvořit sloupcový graf a formátovat popisky dat grafu
+  pomocí Aspose.Words pro Javu. Prozkoumejte přidávání více sérií, změnu typu osy
+  a skrytí osy grafu.
+linktitle: Using Charts
+second_title: Aspose.Words Java Document Processing API
+title: Jak vytvořit sloupcový graf pomocí Aspose.Words pro Javu
+url: /cs/java/document-conversion-and-export/using-charts/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,16 +16,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Používání grafů v Aspose.Words pro Javu
+# Jak vytvořit sloupcový graf pomocí Aspose.Words pro Java
 
+V tomto tutoriálu **vytvoříte sloupcové grafy** přímo v dokumentech Word pomocí Aspose.Words pro Java. Provedeme vás tvorbou různých typů grafů, přidáváním více sérií, formátováním popisků dat v grafu, změnou typu osy a dokonce skrytím osy grafu, pokud potřebujete čistší vzhled. Na konci budete mít solidní, připravený přístup pro vkládání bohatých grafů do vašich dokumentů.
 
-## Úvod do používání grafů v Aspose.Words pro Javu
+## Rychlé odpovědi
+- **Jaká třída se primárně používá pro vytvoření grafu?** `DocumentBuilder` s metodou `insertChart`.
+- **Která metoda přidává novou sérii?** `chart.getSeries().add(...)`.
+- **Jak formátovat popisky dat v grafu?** Použijte `getDataLabels().get(...).getNumberFormat().setFormatCode(...)`.
+- **Mohu skrýt osu?** Ano, zavolejte `setHidden(true)` na objekt osy.
+- **Potřebuji licenci pro Aspose.Words?** Licence je vyžadována pro produkční použití; je k dispozici bezplatná zkušební verze.
 
-V tomto tutoriálu se podíváme na práci s grafy pomocí Aspose.Words pro Javu. Naučíte se, jak vytvářet různé typy grafů, upravovat vlastnosti os, formátovat popisky dat a další. Pojďme se na to pustit!
+## Co je sloupcový graf a proč jej použít?
 
-## Vytvoření spojnicového grafu
+Sloupcový graf zobrazuje kategorická data jako svislé pruhy, což ho činí ideálním pro porovnávání hodnot napříč skupinami (prodej podle regionu, měsíční výdaje atd.). V Java aplikacích umožňuje generování sloupcového grafu pomocí Aspose.Words vložit tyto vizualizace přímo do souborů Word / DOCX bez nutnosti Excelu nebo externích nástrojů.
 
-Chcete-li vytvořit spojnicový graf, použijte následující kód:
+## Jak vytvořit sloupcový graf
+
+Níže je jednoduchý příklad, který vytvoří základní sloupcový graf. Kód je identický s původním úryvkem – přidali jsme jen vysvětlující komentáře, aby byl snazší na pochopení.
+
+```java
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+Chart chart = shape.getChart();
+
+// Delete default generated series.
+chart.getSeries().clear();
+
+// Creating categories and adding data.
+String[] categories = new String[] { "Category 1", "Category 2" };
+chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
+chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
+
+doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
+```
+
+### Přidání více sérií
+
+Můžete **přidat více sérií** do sloupcového grafu opakovaným voláním `chart.getSeries().add(...)`, jak je ukázáno výše. Každá série může mít vlastní sadu kategorií a hodnot, což vám umožní porovnávat několik datových sad vedle sebe.
+
+## Jak vytvořit čárový graf s vlastním popiskem dat
+
+Pokud potřebujete místo sloupcového grafu čárový graf, platí stejný postup. Tento příklad také ukazuje **formátování popisků dat v grafu** s různými číselnými formáty.
 
 ```java
 Document doc = new Document();
@@ -31,10 +67,10 @@ Shape shape = builder.insertChart(ChartType.LINE, 432.0, 252.0);
 Chart chart = shape.getChart();
 chart.getTitle().setText("Data Labels With Different Number Format");
 
-// Smazat výchozí generovanou sérii.
+// Delete default generated series.
 chart.getSeries().clear();
 
-// Přidání řady s daty a popisky dat.
+// Adding a series with data and data labels.
 ChartSeries series1 = chart.getSeries().add("Aspose Series 1", 
     new String[] { "Category 1", "Category 2", "Category 3" }, 
     new double[] { 2.5, 1.5, 3.5 });
@@ -45,36 +81,19 @@ series1.getDataLabels().get(0).getNumberFormat().setFormatCode("\"$\"#,##0.00");
 series1.getDataLabels().get(1).getNumberFormat().setFormatCode("dd/mm/yyyy");
 series1.getDataLabels().get(2).getNumberFormat().setFormatCode("0.00%");
 
-// Nebo propojte formátovací kód se zdrojovou buňkou.
+// Or link format code to a source cell.
 series1.getDataLabels().get(2).getNumberFormat().isLinkedToSource(true);
 
 doc.save("Your Directory Path" + "WorkingWithCharts.FormatNumberOfDataLabel.docx");
 ```
 
-## Vytváření dalších typů grafů
+### Přidání popisků dat
 
-Pomocí podobných technik můžete vytvářet různé typy grafů, jako jsou sloupcové, plošné, bublinové, bodové a další. Zde je příklad vložení jednoduchého sloupcového grafu:
+Volání `series1.hasDataLabels(true)` **přidá popisky dat** k sérii, zatímco `setShowValue(true)` zobrazí skutečné hodnoty přímo v grafu.
 
-```java
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
-Chart chart = shape.getChart();
+## Jak změnit typ osy a přizpůsobit vlastnosti osy
 
-// Smazat výchozí generovanou sérii.
-chart.getSeries().clear();
-
-// Vytváření kategorií a přidávání dat.
-String[] categories = new String[] { "Category 1", "Category 2" };
-chart.getSeries().add("Aspose Series 1", categories, new double[] { 1.0, 2.0 });
-chart.getSeries().add("Aspose Series 2", categories, new double[] { 3.0, 4.0 });
-
-doc.save("Your Directory Path" + "WorkingWithCharts.InsertSimpleColumnChart.docx");
-```
-
-## Úpravy vlastností os
-
-Vlastnosti os můžete přizpůsobit, například změnit typ osy, nastavit značky zaškrtnutí, formátovat popisky a další. Zde je příklad definování vlastností osy XY:
+Změna typu osy (např. z datumové na kategorickou) vám umožní řídit, jak jsou datové body vykresleny. Tento úryvek také ukazuje, jak **skrýt osu grafu**, pokud preferujete minimalistický design.
 
 ```java
 Document doc = new Document();
@@ -82,19 +101,22 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.AREA, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Vymažte výchozí sérii a přidejte svá data.
+// Clear default series and add your data.
 
 ChartAxis xAxis = chart.getAxisX();
 ChartAxis yAxis = chart.getAxisY();
 
-// Změňte osu X tak, aby zobrazovala kategorii místo data.
+// Change the X axis to be a category instead of date.
 xAxis.setCategoryType(AxisCategoryType.CATEGORY);
 xAxis.setCrosses(AxisCrosses.CUSTOM);
-xAxis.setCrossesAt(3.0); // Měřeno v jednotkách zobrazení osy Y (stovky).
+xAxis.setCrossesAt(3.0); // Measured in display units of the Y axis (hundreds).
 xAxis.setReverseOrder(true);
 xAxis.setMajorTickMark(AxisTickMark.CROSS);
 xAxis.setMinorTickMark(AxisTickMark.OUTSIDE);
 xAxis.setTickLabelOffset(200);
+
+// Example of hiding the Y axis.
+yAxis.setHidden(true);
 
 yAxis.setTickLabelPosition(AxisTickLabelPosition.HIGH);
 yAxis.setMajorUnit(100.0);
@@ -106,9 +128,13 @@ yAxis.getScaling().setMaximum(new AxisBound(700.0));
 doc.save("Your Directory Path" + "WorkingWithCharts.DefineXYAxisProperties.docx");
 ```
 
-## Formátování popisků dat
+### Změna typu osy
 
-Popisky dat můžete formátovat pomocí různých číselných formátů. Zde je příklad:
+`xAxis.setCategoryType(AxisCategoryType.CATEGORY)` **změní typ osy** z datumové na kategorickou, což vám dává plnou kontrolu nad umístěním popisků.
+
+## Jak formátovat popisky dat v grafu (číselné formáty)
+
+Můžete aplikovat číselné formátování přímo na osu nebo popisky dat. Tento příklad formátuje čísla na ose Y s oddělovačem tisíců.
 
 ```java
 Document doc = new Document();
@@ -116,50 +142,48 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
 Chart chart = shape.getChart();
 
-// Vymažte výchozí sérii a přidejte svá data.
+// Clear default series and add your data.
 
 chart.getAxisY().getNumberFormat().setFormatCode("#,##0");
 
 doc.save("Your Directory Path" + "WorkingWithCharts.NumberFormatForAxis.docx");
 ```
 
-## Další úpravy grafů
+## Další úpravy grafu
 
-Grafy si můžete dále přizpůsobit úpravou hranic, intervalových jednotek mezi popisky, skrytím os grafu a dalšími funkcemi. Prohlédněte si poskytnuté úryvky kódu a dozvíte se o těchto možnostech více.
-
-## Závěr
-
-tomto tutoriálu jsme prozkoumali, jak pracovat s grafy pomocí Aspose.Words pro Javu. Naučili jste se, jak vytvářet různé typy grafů, upravovat vlastnosti os, formátovat popisky dat a další. Aspose.Words pro Javu poskytuje výkonné nástroje pro přidávání vizuálních reprezentací dat do vašich dokumentů a vylepšování způsobu prezentace informací.
+Mimo základy můžete upravovat hranice, nastavit intervaly mezi popisky, skrýt konkrétní osy a další. Pro úplný seznam vlastností se podívejte do dokumentace API Aspose.Words pro Java.
 
 ## Často kladené otázky
 
-### Jak mohu do grafu přidat více řad?
+**Q: Jak mohu přidat více sérií do grafu?**  
+A: Použijte `chart.getSeries().add()` pro každou sérii, kterou chcete zobrazit. Každé volání může poskytnout jedinečný název, pole kategorií a pole hodnot.
 
-Do grafu můžete přidat více řad pomocí `chart.getSeries().add()` metoda. Nezapomeňte zadat název řady, kategorie a datové hodnoty.
+**Q: Jak formátovat popisky dat v grafu s vlastním číselným formátem?**  
+A: Získejte objekt `DataLabels` série a zavolejte `getNumberFormat().setFormatCode("váš formát")`. Můžete také propojit formát se zdrojovou buňkou pomocí `isLinkedToSource(true)`.
 
-### Jak mohu formátovat popisky dat s vlastními číselnými formáty?
+**Q: Jak mohu skrýt osu grafu?**  
+A: Zavolejte `setHidden(true)` na objekt `ChartAxis`, který chcete skrýt (např. `chart.getAxisY().setHidden(true)`).
 
-Štítky dat můžete formátovat přístupem k `DataLabels` vlastnosti řady a nastavení požadovaného formátovacího kódu pomocí `getNumberFormat().setFormatCode()`.
+**Q: Jaký je nejlepší způsob, jak změnit typ osy?**  
+A: Použijte `setCategoryType(AxisCategoryType.CATEGORY)` pro kategorické osy nebo `AxisCategoryType.DATE` pro datumové osy.
 
-### Jak mohu přizpůsobit vlastnosti osy v grafu?
+**Q: Jak přidat popisky dat k sérii?**  
+A: Aktivujte je pomocí `series.hasDataLabels(true)` a poté nastavte viditelnost pomocí `series.getDataLabels().setShowValue(true)`.
 
-Vlastnosti osy, jako je typ, značky zaškrtnutí, popisky a další, můžete přizpůsobit přístupem k `ChartAxis` vlastnosti jako `setCategoryType()`, `setCrosses()`a `setMajorTickMark()`.
+## Závěr
 
-### Jak mohu vytvořit jiné typy grafů, jako například bodové nebo plošné grafy?
+Probrali jsme vše, co potřebujete k **vytvoření sloupcových grafů** pomocí Aspose.Words pro Java – od vložení základních grafů a přidání více sérií, přes formátování popisků dat, změnu typu osy, až po skrytí os grafu pro čistý vzhled. Začleňte tyto techniky do svých reportovacích nebo dokumentačních pipeline, abyste dodali profesionální, daty podložené Word dokumenty.
 
-Můžete vytvořit různé typy grafů zadáním příslušných `ChartType` při vkládání grafu pomocí `builder.insertChart(ChartType.TYPE, width, height)`.
+---
 
-### Jak mohu skrýt osu grafu?
-
-Osu grafu můžete skrýt nastavením `setHidden(true)` vlastnost osy.
-
+**Poslední aktualizace:** 2025-12-13  
+**Testováno s:** Aspose.Words pro Java 24.12 (nejnovější)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

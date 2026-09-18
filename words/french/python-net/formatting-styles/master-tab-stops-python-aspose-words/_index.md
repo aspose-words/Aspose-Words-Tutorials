@@ -5,7 +5,9 @@
 "url": "/fr/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser les tabulations en Python avec Aspose.Words pour la mise en forme des documents
 
 ## Introduction
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## Conclusion
 
 Maîtriser les tabulations en Python avec Aspose.Words vous permet de créer facilement des documents au format professionnel. En suivant ce guide, vous pourrez ajouter, personnaliser et gérer efficacement les tabulations, améliorant ainsi la qualité globale de vos documents textuels.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

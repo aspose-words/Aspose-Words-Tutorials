@@ -1,10 +1,13 @@
 ---
-"description": "Scopri come salvare documenti HTML con layout fisso in Aspose.Words per Java. Segui la nostra guida passo passo per una formattazione impeccabile dei documenti."
-"linktitle": "Salvataggio di documenti HTML con layout fisso"
-"second_title": "API di elaborazione dei documenti Java Aspose.Words"
-"title": "Salvataggio di documenti HTML con layout fisso in Aspose.Words per Java"
-"url": "/it/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: Scopri come salvare HTML con layout fisso usando Aspose.Words per Java
+  – la guida definitiva per convertire Word in HTML e salvare il documento come HTML
+  in modo efficiente.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: Come salvare HTML con layout fisso usando Aspose.Words per Java
+url: /it/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +16,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salvataggio di documenti HTML con layout fisso in Aspose.Words per Java
+# Come salvare HTML con layout fisso usando Aspose.Words per Java
 
+In questo tutorial scoprirai **come salvare documenti html** con un layout fisso mantenendo la formattazione originale di Word. Che tu debba **convertire Word in HTML**, **esportare Word HTML** per la visualizzazione web, o semplicemente **salvare il documento come html** per l'archiviazione, i passaggi seguenti ti guideranno attraverso l’intero processo usando Aspose.Words per Java.
 
-## Introduzione al salvataggio di documenti HTML con layout fisso in Aspose.Words per Java
+## Risposte rapide
+- **Cosa significa “layout fisso”?** Mantiene l’aspetto visivo esatto del file Word originale nell’output HTML.  
+- **Posso usare font personalizzati?** Sì – imposta `useTargetMachineFonts` per controllare la gestione dei font.  
+- **È necessaria una licenza?** È richiesta una licenza valida di Aspose.Words per Java per l’uso in produzione.  
+- **Quali versioni di Java sono supportate?** Tutti i runtime Java 8+ sono compatibili.  
+- **L’output è responsive?** L’HTML a layout fisso è pixel‑perfect, non responsive; usa CSS se ti servono layout fluidi.
 
-In questa guida completa, ti guideremo attraverso il processo di salvataggio di documenti HTML con layout fisso utilizzando Aspose.Words per Java. Con istruzioni dettagliate ed esempi di codice, imparerai come ottenere questo risultato senza problemi. Quindi, iniziamo subito!
+## Che cosa è “come salvare html” con un layout fisso?
+Salvare HTML con un layout fisso significa generare file HTML in cui ogni pagina, paragrafo e immagine mantengono le stesse dimensioni e posizioni del documento Word di origine. È ideale per scenari legali, editoriali o di archiviazione dove la fedeltà visiva è fondamentale.
+
+## Perché usare Aspose.Words per Java per la conversione HTML?
+- **Alta fedeltà** – la libreria riproduce layout complessi, tabelle e grafica con precisione.  
+- **Nessuna dipendenza da Microsoft Office** – funziona interamente lato server.  
+- **Ampia personalizzazione** – opzioni come `HtmlFixedSaveOptions` ti permettono di affinare l’output.  
+- **Cross‑platform** – funziona su qualsiasi OS che supporta Java.
 
 ## Prerequisiti
+- Un ambiente di sviluppo Java (JDK 8 o superiore).  
+- Libreria Aspose.Words per Java aggiunta al tuo progetto (scaricata dal sito ufficiale).  
+- Un documento Word (`.docx`) che desideri convertire.
 
-Prima di iniziare, assicurati di avere i seguenti prerequisiti:
+## Guida passo‑passo
 
-- Configurazione dell'ambiente di sviluppo Java.
-- Libreria Aspose.Words per Java installata e configurata.
-
-## Fase 1: Caricamento del documento
-
-Per prima cosa, dobbiamo caricare il documento che vogliamo salvare in formato HTML. Ecco come fare:
+### Passo 1: Carica il documento Word
+Per prima cosa, carica il documento sorgente in un oggetto `Document`.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-Sostituire `"YourDocument.docx"` con il percorso del documento Word.
+Sostituisci `"YourDocument.docx"` con il percorso effettivo del tuo file.
 
-## Passaggio 2: configurare le opzioni di salvataggio fisse HTML
-
-Per salvare il documento con un layout fisso, dobbiamo configurare il `HtmlFixedSaveOptions` classe. Imposteremo il `useTargetMachineFonts` proprietà a `true` per garantire che i font della macchina di destinazione vengano utilizzati nell'output HTML:
+### Passo 2: Configura le opzioni di salvataggio HTML a layout fisso
+Crea un’istanza di `HtmlFixedSaveOptions` e abilita l’uso dei font della macchina di destinazione affinché l’HTML utilizzi gli stessi font della macchina sorgente.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## Passaggio 3: salvare il documento come HTML
+Puoi anche esplorare altre proprietà come `setExportEmbeddedFonts` se devi incorporare i font direttamente.
 
-Ora salviamo il documento come HTML con layout fisso utilizzando le opzioni configurate in precedenza:
+### Passo 3: Salva il documento come HTML a layout fisso
+Infine, scrivi il documento in un file HTML usando le opzioni definite sopra.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-Sostituire `"FixedLayoutDocument.html"` con il nome desiderato per il file HTML.
+Il file risultante `FixedLayoutDocument.html` visualizzerà il contenuto Word esattamente come appare nel file originale.
 
-## Codice sorgente completo per il salvataggio di documenti HTML con layout fisso in Aspose.Words per Java
+### Esempio completo di codice sorgente
+Di seguito trovi uno snippet pronto all’uso che combina tutti i passaggi. Mantieni il codice invariato per preservare la funzionalità.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +84,41 @@ Sostituire `"FixedLayoutDocument.html"` con il nome desiderato per il file HTML.
     }
 ```
 
-## Conclusione
-
-In questo tutorial abbiamo imparato come salvare documenti HTML con un layout fisso utilizzando Aspose.Words per Java. Seguendo questi semplici passaggi, puoi garantire che i tuoi documenti mantengano una struttura visiva coerente su diverse piattaforme.
+## Problemi comuni e soluzioni
+- **Font mancanti nell’output** – Assicurati che `useTargetMachineFonts` sia impostato a `true` *oppure* incorpora i font usando `setExportEmbeddedFonts(true)`.  
+- **File HTML di grandi dimensioni** – Usa `setExportEmbeddedImages(false)` per mantenere le immagini esterne e ridurre la dimensione del file.  
+- **Percorsi file errati** – Usa percorsi assoluti o verifica che la directory di lavoro abbia i permessi di scrittura.
 
 ## Domande frequenti
 
-### Come posso impostare Aspose.Words per Java nel mio progetto?
+**D: Come posso configurare Aspose.Words per Java nel mio progetto?**  
+R: Scarica la libreria da [qui](https://releases.aspose.com/words/java/) e segui le istruzioni di installazione fornite nella documentazione [qui](https://reference.aspose.com/words/java/).
 
-Configurare Aspose.Words per Java è semplice. Puoi scaricare la libreria da [Qui](https://releases.aspose.com/words/java/) e seguire le istruzioni di installazione fornite nella documentazione [Qui](https://reference.aspose.com/words/java/).
+**D: Ci sono requisiti di licenza per usare Aspose.Words per Java?**  
+R: Sì, è necessaria una licenza valida per l’uso in produzione. Puoi ottenerla dal sito di Aspose.
 
-### Esistono requisiti di licenza per utilizzare Aspose.Words per Java?
+**D: Posso personalizzare ulteriormente l’output HTML?**  
+R: Assolutamente. Opzioni come `setExportEmbeddedImages`, `setExportEmbeddedFonts` e `setCssClassNamePrefix` ti consentono di adattare l’output alle tue esigenze.
 
-Sì, Aspose.Words per Java richiede una licenza valida per l'utilizzo in un ambiente di produzione. È possibile ottenere una licenza dal sito web di Aspose. Maggiori dettagli sono disponibili nella documentazione.
+**D: Aspose.Words per Java è compatibile con diverse versioni di Java?**  
+R: Sì, la libreria supporta Java 8 e successive. Assicurati che la versione di Java del tuo progetto corrisponda ai requisiti della libreria.
 
-### Posso personalizzare ulteriormente l'output HTML?
+**D: E se avessi bisogno di una versione HTML responsive invece di un layout fisso?**  
+R: Usa `HtmlSaveOptions` (invece di `HtmlFixedSaveOptions`) che genera HTML a flusso libero, facilmente stilizzabile con CSS per la responsività.
 
-Certamente! Aspose.Words per Java offre un'ampia gamma di opzioni per personalizzare l'output HTML in base alle proprie esigenze specifiche. È possibile consultare la documentazione per informazioni dettagliate sulle opzioni di personalizzazione.
+## Conclusione
+Ora sai **come salvare html** documenti con un layout fisso usando Aspose.Words per Java. Seguendo i passaggi sopra potrai affidabilmente **convertire Word in HTML**, **esportare Word HTML**, e **salvare il documento come HTML** mantenendo la fedeltà visiva richiesta per pubblicazioni professionali o archiviazione.
 
-### Aspose.Words per Java è compatibile con diverse versioni di Java?
+---
 
-Sì, Aspose.Words per Java è compatibile con diverse versioni di Java. Assicurati di utilizzare una versione compatibile di Aspose.Words per Java che corrisponda al tuo ambiente di sviluppo Java.
-
+**Ultimo aggiornamento:** 2025-12-27  
+**Testato con:** Aspose.Words per Java 24.12  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

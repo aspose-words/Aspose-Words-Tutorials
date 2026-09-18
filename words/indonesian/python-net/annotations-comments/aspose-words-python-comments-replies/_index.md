@@ -5,7 +5,9 @@
 "url": "/id/python-net/annotations-comments/aspose-words-python-comments-replies/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Cara Menerapkan Komentar dan Balasan dalam Dokumen Word Menggunakan Aspose.Words untuk Python
 
 ## Perkenalan
@@ -242,3 +244,7 @@ Aspose.Words untuk Python dapat diintegrasikan ke dalam berbagai alur kerja doku
 3. **Kolaborasi Akademik**: Memfasilitasi umpan balik antara penulis dan peninjau dalam makalah akademis.
 
 Panduan komprehensif ini akan membantu Anda menerapkan manajemen komentar dan balasan secara efektif dalam dokumen Word Anda menggunakan Aspose.Words untuk Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

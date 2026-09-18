@@ -1,0 +1,7 @@
+Title: Create pie chart in Word with Java – step-by-step guide
+Slug: create-pie-chart-in-word-with-java-step-by-step-guide
+Category: using-document-elements
+ProcessedDate: 2026-08-14T11:14:28.910365
+SourceRepo: AI Search API
+Keywords: create pie chart in word, how to add series data to chart, rotate pie chart slice
+PRNumber: 252

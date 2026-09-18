@@ -5,7 +5,9 @@
 "url": "/vi/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Làm chủ theo dõi sửa đổi nút nội tuyến trong Python với Aspose.Words
 
 ## Giới thiệu
@@ -127,3 +129,7 @@ Bây giờ bạn đã thành thạo nghệ thuật theo dõi các bản sửa đ
 - [Bản dùng thử miễn phí và giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/words/10)
 Chúng tôi hy vọng hướng dẫn này giúp bạn quản lý hiệu quả các bản sửa đổi tài liệu bằng Aspose.Words trong Python. Chúc bạn viết mã vui vẻ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

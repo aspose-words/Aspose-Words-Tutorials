@@ -5,7 +5,9 @@
 "url": "/de/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words für Python meistern: Ein Silbentrennungswörterbuch registrieren und aufheben
 
 ## Einführung
@@ -173,3 +175,7 @@ Weitere maßgeschneiderte Antworten finden Sie im [Aspose Forum](https://forum.a
 - **Kaufen:** [Aspose.Words-Lizenz kaufen](https://purchase.aspose.com/buy)
 - **Kostenlose Testversion:** [Beginnen Sie mit einer kostenlosen Testversion](https://releases.aspose.com/words/python/)
 - **Temporäre Lizenz:** [Fordern Sie eine temporäre Lizenz an](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
