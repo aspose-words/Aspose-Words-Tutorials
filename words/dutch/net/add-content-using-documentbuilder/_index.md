@@ -19,6 +19,9 @@
 Adding Content Using DocumentBuilder is een uitgebreide bron die u begeleidt bij het toevoegen van inhoud aan uw Word-documenten met behulp van de DocumentBuilder-klasse uit de Aspose.Words-bibliotheek voor .NET. Stapsgewijze tutorials geven u stapsgewijze instructies, uitgebreide codevoorbeelden en stapsgewijze uitleg over het maken van alinea's, het invoegen van tekst, het opmaken van tekst, het toevoegen van afbeeldingen, tabellen en meer. Bovendien is deze bron essentieel voor ontwikkelaars die de generatie van Word-documenten willen automatiseren met Aspose.Words voor .NET en eenvoudig aangepaste inhoud willen toevoegen om aan hun specifieke behoeften te voldoen.
 
  ## Zelfstudies
+
+{{< tutorial-card link="./create-rotated-text-table/" title="Maak een gedraaide‑tekst‑tabel in een Word‑document met Aspose.Words voor .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+
 | Titel | Beschrijving |
 | --- | --- |
 | [Nieuw Word-document maken](./create-new-document/) Leer hoe u Word-documenten maakt met Aspose.Words voor .NET. Deze stapsgewijze handleiding leidt u door het proces en maakt documentautomatisering eenvoudig. |

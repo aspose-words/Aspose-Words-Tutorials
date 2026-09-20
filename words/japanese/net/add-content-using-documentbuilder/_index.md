@@ -20,6 +20,9 @@ DocumentBuilderを使用したコンテンツの追加は、Aspose.Words for .NE
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./create-rotated-text-table/" title="Aspose.Words for .NET を使用して Word 文書に回転テキストテーブルを作成する" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+
 | --- | --- |
 | [新しいWord文書を作成する](./create-new-document/) Aspose.Words for .NET を使ってWord文書を作成する方法を学びましょう。このステップバイステップガイドでは、手順を詳しく説明し、文書作成の自動化を簡単に実現します。 |
 | [ドキュメントビルダー Word 文書にブックマークを挿入](./document-builder-insert-bookmark/) Aspose.Words for .NET を使用して Word 文書にブックマークを挿入する方法を、この詳細なステップバイステップガイドで学びましょう。ドキュメントの自動化に最適です。 |

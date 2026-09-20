@@ -19,6 +19,9 @@
 Přidávání obsahu pomocí DocumentBuilderu je komplexní zdroj, který vás provede procesem přidávání obsahu do dokumentů Word pomocí třídy DocumentBuilder z knihovny Aspose.Words pro .NET. Podrobné návody vám poskytnou podrobné pokyny, komplexní příklady kódu a podrobná vysvětlení pro vytváření odstavců, vkládání textu, formátování textu, přidávání obrázků, tabulek a další. Tento zdroj je navíc nezbytný pro vývojáře, kteří chtějí automatizovat generování dokumentů Word pomocí Aspose.Words pro .NET a snadno přidávat vlastní obsah podle svých specifických potřeb.
 
  ## Návody
+
+{{< tutorial-card link="./create-rotated-text-table/" title="Vytvořte tabulku s otočeným textem v dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./create-rotated-text-table/images/thumb.png" >}}
+
 | Název | Popis |
 | --- | --- |
 | [Vytvořit nový dokument Wordu](./create-new-document/) Naučte se, jak vytvářet dokumenty Wordu pomocí Aspose.Words pro .NET. Tato podrobná příručka vás provede celým procesem a usnadní vám automatizaci dokumentů. |

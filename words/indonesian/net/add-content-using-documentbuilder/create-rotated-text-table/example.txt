@@ -1,0 +1,62 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara menggunakan Aspose.Words untuk membuat dokumen Word, membangun tabel dengan lebar kolom tetap, menerapkan perataan vertikal dan orientasi teks, mengatur tinggi baris secara tepat, mengisi sel dengan teks, dan akhirnya menyimpan dokumen.
+//ExStepSummary:0: Instansiasi Document baru dan DocumentBuilder yang akan digunakan untuk membangun tabel.
+//ExStepSummary:1: Mulai tabel baru, sisipkan sel pertama, dan tetapkan lebar kolom sehingga tidak otomatis menyesuaikan.
+//ExStepSummary:2: Ratakan konten secara vertikal di tengah pada sel saat ini dan tulis teks sel pertama baris pertama.
+//ExStepSummary:3: Sisipkan sel kedua pada baris pertama dan tulis teksnya.
+//ExStepSummary:4: Tutup baris pertama, menyelesaikan tata letaknya.
+//ExStepSummary:5: Mulai sel pertama pada baris kedua, atur tinggi baris menjadi tepat 100 poin, putar teks ke atas, dan tulis teks sel tersebut.
+//ExStepSummary:6: Sisipkan sel kedua pada baris kedua, putar teksnya ke bawah, dan tulis teks sel tersebut.
+//ExStepSummary:7: Tutup baris kedua, menyelesaikan baris kedua tabel.
+//ExStepSummary:8: Akiri konstruksi tabel, mengunci struktur tabel.
+//ExStepSummary:9: Simpan dokumen yang selesai ke file .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStepImage:5:images/5.png
+//ExStepImage:6:images/6.png
+//ExStepImage:7:images/7.png
+//ExStepImage:8:images/8.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+Table table = builder.StartTable();
+builder.InsertCell();
+table.AutoFit(AutoFitBehavior.FixedColumnWidths);
+
+//ExStep:2-
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("This is row 1 cell 1");
+
+//ExStep:3-
+builder.InsertCell();
+builder.Write("This is row 1 cell 2");
+
+//ExStep:4-
+builder.EndRow();
+
+//ExStep:5-
+builder.InsertCell();
+
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Writeln("This is row 2 cell 1");
+
+//ExStep:6-
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Writeln("This is row 2 cell 2");
+
+//ExStep:7-
+builder.EndRow();
+
+//ExStep:8-
+builder.EndTable();
+
+//ExStep:9-
+doc.Save("YourDirectoryPath/AddContentUsingDocumentBuilder.BuildTable.docx");
+//ExEnd
