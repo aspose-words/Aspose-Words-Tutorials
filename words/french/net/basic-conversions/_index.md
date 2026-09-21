@@ -16,7 +16,7 @@
 # Conversions de base
 
 
-Conversions de base vous guide dans les conversions de documents de base avec la bibliothèque Aspose.Words pour .NET. Les tutoriels fournissent des explications étape par étape, un code source détaillé et des exemples pratiques pour convertir des documents Word en différents formats tels que PDF, HTML, EPUB, images, etc. Vous apprendrez également à spécifier lesoptions de conversion et à gérer les polices, les images et les mises en page. Cette ressource est essentielle pour les développeurs souhaitant automatiser les conversions de documents avec Aspose.Words pour .NET, offrant une flexibilité et un contrôle complets sur le processus de conversion.
+Conversions de base vous guide dans les conversions de documents de base avec la bibliothèque Aspose.Words pour .NET. Les tutoriels fournissent des explications étape par étape, un code source détaillé et des exemples pratiques pour convertir des documents Word en différents formats tels que PDF, HTML, EPUB, images, etc. Vous apprendrez également à spécifier les options de conversion et à gérer les polices, les images et les mises en page. Cette ressource est essentielle pour les développeurs souhaitant automatiser les conversions de documents avec Aspose.Words pour .NET, offrant une flexibilité et un contrôle complets sur le processus de conversion.
 
  ## Tutoriels
 | Titre | Description |
@@ -37,6 +37,8 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Convertir Word en PDF en C# avec Aspose.Words – Guide](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Apprenez à convertir un document Word en PDF en C# avec Aspose.Words grâce à ce guide étape par étape. |
 | [Enregistrer un document Word au format PDF en C# – Guide complet de conversion accessible](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Apprenez à convertir un document Word en PDF accessible en C# avec Aspose.Words, en suivant un guide complet pas à pas. |
 | [Comment exporter LaTeX depuis Word – Guide étape par étape](./how-to-export-latex-from-word-step-by-step-guide/) | Apprenez à exporter le contenu d'un document Word au format LaTeX avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
+| [Créer un PDF à partir de Word – Guide complet C# avec détection de police](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Apprenez à créer un PDF à partir d'un document Word en C#, avec détection automatique des polices. |
+| [Créer un PDF à partir de DOCX en C# – Guide complet avec exportation des formes](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Apprenez à créer un PDF à partir d'un fichier DOCX en C# avec Aspose.Words, incluant l'exportation des formes, grâce à ce guide complet. |
 | [Créer un PDF accessible – Convertir Word en PDF accessible](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | Apprenez à générer des PDF accessibles à partir de documents Word avec Aspose.Words pour .NET, en respectant les normes d’accessibilité. |
 | [Récupérer un DOCX corrompu – Guide complet pour réparer, exporter en PDF et Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Apprenez à réparer un fichier DOCX endommagé et à l'exporter en PDF ou Markdown avec Aspose.Words pour .NET. |
 | [Comment créer un PDF à partir de Word – Guide complet C#](./how-to-create-pdf-from-word-complete-c-guide/) | Apprenez à générer un PDF depuis un document Word en C# avec Aspose.Words, guide complet pas à pas. |
@@ -46,8 +48,6 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Créer un PDF accessible à partir de DOCX – Guide complet Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Apprenez à créer un PDF accessible depuis un fichier DOCX avec Aspose.Words, guide complet pas à pas. |
 | [Convertir PNG en Base64 en C# – Guide complet](./convert-png-to-base64-in-c-complete-guide/) | Apprenez à convertir des images PNG en chaîne Base64 en C# avec Aspose.Words, guide complet étape par étape. |
 | [Créer un PDF accessible à partir de Word – Guide étape par étape](./create-accessible-pdf-from-word-step-by-step-guide/) | Apprenez à créer un PDF accessible à partir d'un document Word avec Aspose.Words pour .NET, guide complet étape par étape. |
-| [Créer un PDF à partir de Word – Guide complet C# avec détection de police](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Apprenez à créer un PDF à partir d'un document Word en C#, avec détection automatique des polices. |
-| [Créer un PDF à partir de DOCX en C# – Guide complet avec exportation des formes](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Apprenez à créer un PDF à partir d'un fichier DOCX en C# avec Aspose.Words, incluant l'exportation des formes, grâce à ce guide complet. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
