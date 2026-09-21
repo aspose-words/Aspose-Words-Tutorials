@@ -1,0 +1,7 @@
+Title: how to set callback in Aspose.Words Java – Detect and Handle Missing Fonts
+Slug: how-to-set-callback-in-aspose-words-java-detect-and-handle-m
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-21T07:33:03.017188
+SourceRepo: AI Search API
+Keywords: how to set callback, detect missing fonts, handle missing fonts, customize document loading
+PRNumber: 208

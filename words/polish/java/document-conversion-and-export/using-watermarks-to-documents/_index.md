@@ -1,11 +1,11 @@
 ---
-date: 2025-12-18
-description: Dowiedz się, jak dodać znak wodny do dokumentów przy użyciu Aspose.Words
-  for Java, w tym przykład znaku wodnego z obrazem, zmiana koloru znaku wodnego, ustawienie
-  przezroczystości znaku wodnego oraz usunięcie znaku wodnego z dokumentu.
+date: 2026-02-19
+description: Poznaj sposób tworzenia dokumentu z znakiem wodnym przy użyciu Aspose.Words
+  for Java oraz dodawania znaku wodnego w postaci obrazu w Javie, aby uzyskać profesjonalnie
+  wyglądające dokumenty.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Jak dodać znak wodny do dokumentów przy użyciu Aspose.Words dla Javy
+title: Utwórz dokument z znakiem wodnym przy użyciu Aspose.Words dla Javy
 url: /pl/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
@@ -16,32 +16,36 @@ weight: 15
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak dodać znak wodny do dokumentów przy użyciu Aspose.Words dla Javy
+# Utwórz dokument ze znakiem wodnym przy użyciu Aspose.Words dla Javy
 
-## Wprowadzenie do dodawania znaków wodnych do dokumentów w Aspose.Words dla Javy
-
-W tym samouczku dowiesz się **jak dodać znak wodny** do dokumentów Word przy użyciu Aspose.Words dla Javy. Znaki wodne to szybki sposób oznaczenia pliku jako poufny, szkic lub zatwierdzony; mogą być oparte na tekście lub obrazie. Przeprowadzimy Cię przez konfigurację biblioteki, tworzenie znaków wodnych tekstowych i graficznych, dostosowywanie ich wyglądu (w tym zmianę koloru i ustawienie przezroczystości), a także usuwanie znaku wodnego, gdy nie jest już potrzebny.
+W tym samouczku **utworzysz dokument ze znakiem wodnym** przy użyciu API Aspose.Words dla Javy. Znaki wodne — zarówno tekstowe, jak i graficzne — pomagają oznaczyć plik jako poufny, wersję roboczą lub zatwierdzony, i mogą być stosowane programowo w każdym dokumencie Word. Przeprowadzimy Cię przez konfigurację biblioteki, dodawanie zarówno tekstowych, jak i graficznych znaków wodnych, dostosowywanie ich wyglądu oraz ich usuwanie, gdy nie będą już potrzebne.
 
 ## Szybkie odpowiedzi
-- **Czym jest znak wodny?** Półprzezroczysta nakładka (tekstowa lub graficzna), która pojawia się za główną treścią dokumentu.  
-- **Czy mogę dodać wiele znaków wodnych?** Tak – utwórz kilka obiektów `Shape` i dodaj każdy do wybranych sekcji.  
-- **Jak zmienić kolor znaku wodnego?** Dostosuj właściwość `Color` w `TextWatermarkOptions`.  
-- **Czy istnieje przykład znaku wodnego graficznego?** Zobacz sekcję „Dodawanie znaków wodnych graficznych” poniżej.  
-- **Czy potrzebna jest licencja, aby usunąć znak wodny?** Do użytku produkcyjnego wymagana jest ważna licencja Aspose.Words.
+- **Co robi znak wodny?** Nakłada tekst lub obraz na każdą stronę, aby przekazać status lub branding.  
+- **Która biblioteka dodaje znaki wodne w Javie?** Aspose.Words for Java zapewnia wbudowaną obsługę znaków wodnych.  
+- **Czy mogę dodać znak wodny jako obraz?** Tak — użyj klasy `Shape` i podejścia `add image watermark java`.  
+- **Czy znak wodny jest półprzezroczysty?** Możesz kontrolować krycie za pomocą `setSemitransparent` dla znaków wodnych tekstowych.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.
+
+## Co to jest znak wodny i dlaczego go używać?
+
+Znak wodny to delikatna nakładka — tekstowa lub graficzna — dodawana do każdej strony dokumentu. Jest powszechnie używany do wskazywania **poufności**, **statusu wersji roboczej** lub **brandingu** bez zmiany podstawowej treści. Dodawanie znaków wodnych programowo zapewnia spójność w dużych partiach plików i oszczędza czas w porównaniu z ręczną edycją.
 
 ## Konfiguracja Aspose.Words dla Javy
 
-Zanim zaczniemy dodawać znaki wodne do dokumentów, musimy skonfigurować Aspose.Words dla Javy. Wykonaj poniższe kroki, aby rozpocząć:
+1. Pobierz Aspose.Words for Java z [here](https://releases.aspose.com/words/java/).  
+2. Dodaj pobrany plik JAR (lub zależność Maven/Gradle) do ścieżki klas swojego projektu.  
+3. Importuj wymagane klasy w swoim pliku źródłowym Java:
 
-1. Pobierz Aspose.Words dla Javy z [tutaj](https://releases.aspose.com/words/java/).  
-2. Dodaj bibliotekę Aspose.Words dla Javy do swojego projektu Java.  
-3. Zaimportuj niezbędne klasy w swoim kodzie Java.
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-Teraz, gdy biblioteka jest już skonfigurowana, przejdźmy do rzeczywistego tworzenia znaków wodnych.
+## Jak dodać znak wodny tekstowy
 
-## Dodawanie znaków wodnych tekstowych
-
-Znaki wodne tekstowe są popularnym wyborem, gdy chcesz dodać informację tekstową do dokumentu. Oto jak dodać znak wodny tekstowy przy użyciu Aspose.Words dla Javy:
+Znaki wodne tekstowe są idealne do oznaczania dokumentu jako „CONFIDENTIAL” lub „DRAFT”. Poniższy fragment pokazuje czysty sposób **utworzenia dokumentu ze znakiem wodnym** przy użyciu `TextWatermarkOptions`.
 
 ```java
 // Create a Document instance
@@ -62,11 +66,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Dlaczego to ważne:** Modyfikując `setFontFamily`, `setFontSize` i `setColor`, możesz **zmienić kolor znaku wodnego**, aby pasował do Twojej identyfikacji wizualnej, a `setSemitransparent(true)` pozwala **ustawić przezroczystość znaku wodnego** dla subtelnego efektu.
+### Dostosowywanie znaku wodnego tekstowego
+- **Rodzina i rozmiar czcionki** – zmień `setFontFamily` i `setFontSize`.  
+- **Kolor** – użyj dowolnego `java.awt.Color`.  
+- **Układ** – wybierz `HORIZONTAL`, `DIAGONAL`, itp.  
+- **Przezroczystość** – włącz `setSemitransparent(true)`, aby uzyskać jaśniejszy wygląd.
 
-## Dodawanie znaków wodnych graficznych
+## Jak dodać znak wodny graficzny (add image watermark java)
 
-Oprócz znaków wodnych tekstowych możesz także dodawać znaki wodne graficzne do dokumentów. Poniżej znajduje się **przykład znaku wodnego graficznego**, który pokazuje, jak osadzić logo lub stempel w formacie PNG:
+Znaki wodne graficzne są doskonałe dla logo lub własnych grafik. Poniżej znajduje się przykład **add image watermark java**, który wstawia plik PNG w centrum każdej strony.
 
 ```java
 // Create a Document instance
@@ -90,15 +98,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Możesz powtórzyć ten blok z różnymi obrazami lub pozycjami, aby **dodać wiele znaków wodnych** do jednego pliku.
+### Wskazówki dotyczące znaków wodnych graficznych
+- **Zmiana rozmiaru** — użyj `setWidth` / `setHeight`, aby dopasować do strony.  
+- **Pozycja** — może być wyśrodkowana lub wyrównana do dowolnego marginesu przy użyciu `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Przezroczystość** — można zastosować, regulując kanał alfa obrazu przed jego załadowaniem.
 
-## Dostosowywanie znaków wodnych
+## Jak usunąć znaki wodne
 
-Znaki wodne można dostosować, zmieniając ich wygląd i położenie. Dla znaków wodnych tekstowych możesz zmienić czcionkę, rozmiar, kolor i układ. Dla znaków wodnych graficznych możesz modyfikować rozmiar, obrót i wyrównanie, jak pokazano w poprzednich przykładach.
-
-## Usuwanie znaków wodnych
-
-Jeśli potrzebujesz **usunąć znak wodny** z dokumentu, poniższy kod przegląda wszystkie kształty i usuwa te zidentyfikowane jako znaki wodne:
+Gdy dokument nie potrzebuje już znaku wodnego, możesz go usunąć programowo. Poniższy kod iteruje po wszystkich kształtach i usuwa te, które w nazwie zawierają „Watermark”.
 
 ```java
 // Create a Document instance
@@ -117,44 +124,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Typowe scenariusze użycia i wskazówki
+## Typowe pułapki i rozwiązywanie problemów
 
-- **Poufne szkice:** Dodaj półprzezroczysty znak wodny tekstowy, np. „CONFIDENTIAL”.  
-- **Branding:** Użyj znaku wodnego graficznego zawierającego logo Twojej firmy.  
-- **Znaki wodne specyficzne dla sekcji:** Przejdź przez `doc.getSections()` i dodaj znak wodny tylko do wybranych sekcji.  
-- **Wskazówka wydajnościowa:** Ponownie używaj tej samej instancji `TextWatermarkOptions`, gdy stosujesz ten sam znak wodny w wielu dokumentach.
+- **Brak znaku wodnego po zapisaniu** – upewnij się, że wywołujesz `doc.save()` po ustawieniu znaku wodnego.  
+- **Obraz się nie wyświetla** – sprawdź, czy ścieżka do obrazu jest prawidłowa i czy plik jest w obsługiwanym formacie (PNG, JPEG, BMP).  
+- **Przezroczystość nie została zastosowana** – `setSemitransparent(true)` działa tylko dla znaków wodnych tekstowych; w przypadku obrazów edytuj kanał alfa PNG.  
+- **Wiele sekcji** – jeśli dokument ma kilka sekcji, dodaj znak wodny do ciała każdej sekcji lub użyj `doc.getWatermark().setText(...)`, co zastosuje go globalnie.
 
 ## Najczęściej zadawane pytania
 
-### Jak mogę zmienić czcionkę znaku wodnego tekstowego?
+**P: Jak mogę zmienić czcionkę znaku wodnego tekstowego?**  
+M: Zmodyfikuj właściwość `setFontFamily` w `TextWatermarkOptions`, np. `options.setFontFamily("Times New Roman");`.
 
-Aby zmienić czcionkę znaku wodnego tekstowego, zmodyfikuj właściwość `setFontFamily` w `TextWatermarkOptions`. Przykład:
+**P: Czy mogę dodać wiele znaków wodnych do jednego dokumentu?**  
+M: Tak. Utwórz wiele obiektów `Shape` (dla obrazów) lub wywołaj `doc.getWatermark().setText(...)` z różnymi opcjami dla każdego znaku wodnego.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**P: Czy można obrócić znak wodny?**  
+M: Dla znaków wodnych graficznych ustaw rotację na obiekcie `Shape` za pomocą `watermark.setRotation(angle)`. Dla znaków wodnych tekstowych użyj właściwości `setLayout` (np. `WatermarkLayout.DIAGONAL`).
 
-### Czy mogę dodać wiele znaków wodnych do jednego dokumentu?
+**P: Jak mogę uczynić znak wodny półprzezroczystym?**  
+M: Ustaw `options.setSemitransparent(true)` w `TextWatermarkOptions`. Dla obrazów dostosuj przezroczystość obrazu przed jego załadowaniem.
 
-Tak, możesz dodać wiele znaków wodnych, tworząc kilka obiektów `Shape` z różnymi ustawieniami i dodając je do dokumentu.
-
-### Czy można obrócić znak wodny?
-
-Tak, możesz obrócić znak wodny, ustawiając właściwość `setRotation` w obiekcie `Shape`. Wartości dodatnie obracają znak wodny zgodnie z ruchem wskazówek zegara, a wartości ujemne – przeciwnie.
-
-### Jak mogę uczynić znak wodny półprzezroczystym?
-
-Aby znak wodny był półprzezroczysty, ustaw właściwość `setSemitransparent` na `true` w `TextWatermarkOptions`.
-
-### Czy mogę dodać znaki wodne do konkretnych sekcji dokumentu?
-
-Tak, możesz dodać znaki wodne do wybranych sekcji, iterując po sekcjach i dodając znak wodny do tych, które chcesz.
-
----
-
-**Ostatnia aktualizacja:** 2025-12-18  
-**Testowano z:** Aspose.Words dla Javy 24.12  
-**Autor:** Aspose  
+**P: Czy mogę dodać znaki wodne do konkretnych sekcji dokumentu?**  
+M: Tak. Iteruj przez `doc.getSections()` i dodaj znak wodny tylko do wybranych sekcji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +155,9 @@ Tak, możesz dodać znaki wodne do wybranych sekcji, iterując po sekcjach i dod
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-19  
+**Testowano z:** Aspose.Words for Java 24.12 (latest)  
+**Autor:** Aspose

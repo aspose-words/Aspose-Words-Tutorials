@@ -1,0 +1,7 @@
+Title: Create Blank Word Document with Java – Full Aspose.Words Guide
+Slug: create-blank-word-document-with-java-full-aspose-words-guide
+Category: document-loading-and-saving
+ProcessedDate: 2026-07-17T03:10:35.449494
+SourceRepo: AI Search API
+Keywords: create blank word document, how to hide shape, save document to file, generate word document java, hide shape in word
+PRNumber: 226

@@ -1,208 +1,219 @@
 ---
 category: general
-date: 2025-12-29
-description: Hozzon létre téglalap alakzatot egy Word dokumentumban az Aspose.Words
-  C# segítségével. Tanulja meg, hogyan állíthatja be az alakzat átlátszóságát, az
-  árnyék színét, és mentse el a Word dokumentumot könnyedén.
+date: 2026-02-18
+description: Hozzon létre téglalap alakzatot az Aspose.Words segítségével, és tanulja
+  meg, hogyan adjon árnyékot, állítsa be az alakzat méretét, valamint mentse el a
+  Word dokumentumot néhány perc alatt.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: hu
-og_description: Hozzon létre téglalap alakzatot egy Word dokumentumban az Aspose.Words
-  C#-val. Ez az útmutató bemutatja, hogyan állítható be az alakzat átlátszósága, az
-  árnyék színe, és hogyan menthető a Word dokumentum.
+og_description: Hozzon létre téglalap alakzatot egy Word-fájlban, tanulja meg, hogyan
+  adjon árnyékot, állítsa be az alakzat méretét, és mentse a dokumentumot az Aspose.Words
+  segítségével C#-ban.
 og_title: Téglalap alakzat létrehozása Wordben – Teljes Aspose.Words útmutató
 tags:
 - Aspose.Words
 - C#
-- Word Automation
-title: Téglalap alakzat létrehozása Wordben az Aspose.Words segítségével – Lépésről
-  lépésre útmutató
+- Word automation
+title: Téglalap alakzat létrehozása Wordben az Aspose.Words segítségével – Lépésről‑lépésre
+  útmutató
 url: /hu/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
+
+quotes.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Téglalap alakzat létrehozása Word-ben – Teljes Aspose.Words útmutató
+# Téglalap alakzat létrehozása Word-ben az Aspose.Words segítségével – Lépésről‑lépésre útmutató
 
-Valaha is szükséged volt **téglalap alakzat** létrehozására egy Word dokumentumban, de nem tudtad, hol kezdj? Nem vagy egyedül; sok fejlesztő szembesül ezzel a problémával jelentések vagy számlák automatizálásakor. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan hozhatsz létre téglalap alakzatot, állíthatod be az alakzat átlátszóságát, a árnyék színét, és végül **word dokumentumot menthetsz** az Aspose.Words for .NET használatával.
+Valaha is szükséged volt **téglalap alakzat** létrehozására egy Word‑fájlban, de nem tudtad, hol kezdjed? Nem vagy egyedül – a fejlesztők gyakran kérdezik: „hogyan adhatok árnyékot egy alakzathoz, miközben a dokumentum szerkeszthető marad?” Ebben a bemutatóban erre válaszolunk, és megmutatjuk, hogyan **adhatsz árnyékot**, **állítsd be az alakzat méretét**, valamint **mentsd el a Word‑dokumentumot** egyetlen folyamatban.
 
-Az első dokumentumobjektól a lemezre írt végső `.docx` fájlig mindent lefedünk, így a végére képes leszel **word dokumentumot létrehozni** programozottan találgatás nélkül. Nincsenek külső hivatkozások, csak egy önálló megoldás, amelyet egyszerűen beilleszthetsz a projektedbe.
+Végigvezetünk mindenen, ami szükséges, az új dokumentum inicializálásától (igen, ez az első lépés a **hogyan hozhatunk létre dokumentumot** témához) a végső *.docx* lemezre mentéséig. Nincs külső hivatkozás, csak egy önálló példa, amelyet kimásolhatsz a Visual Studio‑ba és ma futtathatsz.
 
-## Előfeltételek
+---
 
-- .NET 6.0 vagy újabb (a kód .NET Framework 4.7+‑vel is működik)
-- Aspose.Words for .NET NuGet csomag (`Install-Package Aspose.Words`)
-- Alapvető ismeretek a C# szintaxisról
-- A kedvenc IDE‑d (Visual Studio, Rider, VS Code, stb.)
+## Prerequisites
 
-> **Pro tipp:** Ha az Aspose.Words ingyenes próbaverzióját használod, a könyvtár vízjelet ad a kimeneti fájlhoz. Éles környezetben érvényes licencre lesz szükséged.
+- .NET 6+ (vagy .NET Framework 4.7+). Az Aspose.Words bármely friss .NET‑runtime‑al működik.
+- Érvényes Aspose.Words licenc (vagy a ingyenes értékelő kulcs) – különben vízjel jelenik meg.
+- Visual Studio, Rider vagy bármely kedvenc C#‑szerkesztő.
+- Alapvető C# ismeretek – semmi bonyolult, csak egy konzolalkalmazás futtatásához szükséges tudás.
 
-## 1. lépés: A dokumentum és a Builder inicializálása
+> **Pro tip:** Ha Mac‑en dolgozol, ugyanaz a kód .NET 6‑tal és VS Code‑dal futtatható – csak győződj meg róla, hogy hivatkozol az `Aspose.Words` NuGet‑csomagra.
 
-Az első dolog, amit teszünk, egy friss, üres Word dokumentum és egy `DocumentBuilder` létrehozása, amely lehetővé teszi a tartalom beszúrását. Gondolj a Builderre, mint egy virtuális tollra, amely a lapra rajzol.
+---
+
+## Step 1: Initialize the document – the foundation of **how to create document**
+
+Mielőtt bármit rajzolnánk, szükségünk van egy üres vászonra. Az Aspose.Words ezt `Document`‑nek hívja.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Miért fontos:** `DocumentBuilder` nélkül közvetlenül kellene a low‑level csomópontfát manipulálni, ami hibára hajlamos és nehezebben olvasható.
+> **Why this matters:** A `Document` objektum képviseli az egész *.docx* fájlt. Minden alakzat, bekezdés és szakasz, amit hozzáadsz, ennek az objektumnak a gyermekeként jön létre. Egy tiszta dokumentummal kezdve elkerülheted a rejtett stílusok befolyását a téglalapodra.
 
-## 2. lépés: Téglalap alakzat létrehozása
+---
 
-Most ténylegesen **téglalap alakzatot hozunk létre**. Az `InsertShape` metódus egy `ShapeType` enumot, szélességet és magasságot (pontban) vár. A visszaadott `Shape` objektum lehetővé teszi a vizuális tulajdonságok későbbi finomhangolását.
+## Step 2: Define the rectangle and **set shape size**
+
+A téglalap csak egy `Shape` a `ShapeType.Rectangle` típussal. Kifejezett méreteket adunk neki, hogy pontosan úgy nézzen ki, ahogy szeretnénk.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-Ebben a pontban a téglalap egy szilárd fekete doboz, amely az aktuális bekezdéshez van rögzítve. Később mozgathatod, átméretezheted, vagy akár elforgathatod is, ha szükséges.
+> **What the numbers mean:** Az Aspose.Words pontokat (1 pt = 1/72 in) használ. A értékeket a saját elrendezésedhez igazíthatod; egy tipikus A4‑oldalon a 200 pt kényelmes szélesség.
 
-![téglalap alakzat árnyékkal](/images/rectangle-shadow.png "Egy Word dokumentum, amely egy szürke árnyékú téglalap alakzatot mutat")
+---
 
-*Kép alternatív szöveg: téglalap alakzat árnyékkal egy Word dokumentumban*
+## Step 3: **How to add shadow** – making the shape pop
 
-## 3. lépés: Az alakzat átlátszóságának beállítása
-
-Az átlátszóság az alakzat kitöltésének „átlátszó” szintje. Az Aspose.Words egy `Transparency` tulajdonságot használ, amely `0.0` (átlátszatlan) és `1.0` (teljesen átlátszó) között mozog. Itt **az alakzat átlátszóságát** 40 %-ra állítjuk, hogy az alatta lévő szöveg olvasható maradjon.
+Az árnyékok vizuális jelet adnak, hogy az alakzat „felemelkedett” a lapról. A `Shadow` tulajdonság lehetővé teszi a szín, távolság, átlátszóság és elmosódás finomhangolását.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-**Külön eset:** Ha teljesen láthatatlan alakzatra van szükséged, de mégis szeretnéd, hogy az árnyék megjelenjen, állítsd a `Transparency` értékét `1.0`‑ra, és adj az alakzatnak nem nulla körvonalvastagságot.
+> **Why use transparency?** Egy teljesen átlátszatlan árnyék kemény hatást kelthet. 0,4‑es értékre állítva a hatás finom és professzionális lesz.
 
-## 4. lépés: Az árnyék beállítása
+---
 
-Egy finom vetett árnyék mélységet ad. **Az árnyék színét** közép‑szürkére állítjuk, beállítjuk a elmosódási sugarát, és néhány ponttal eltoljuk vízszintesen és függőlegesen is.
+## Step 4: Position the rectangle – inline flow with surrounding text
+
+Ha azt szeretnéd, hogy az alakzat egy bekezdés karaktereként viselkedjen, állítsd be a `WrapType`‑ot `Inline`‑ra. Ez a layout‑ot kiszámíthatóvá teszi, különösen akkor, amikor a dokumentumot később szerkesztik.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-**Miért fontos:** Egy túl éles vagy túl sötét árnyék nyomtatási hibának tűnhet. Állítsd a `Blur` és a `Transparency` értékeket, amíg természetesnek nem tűnik.
+> **Edge case:** Ha a téglalapot szöveg fölé szeretnéd helyezni (például vízjelként), változtasd a `WrapType`‑ot `Square`‑ra vagy `BehindText`‑re.
 
-## 5. lépés: A Word dokumentum mentése
+---
 
-Végül **word dokumentumot mentünk** a lemezre. A `Save` metódus automatikusan a kiterjesztés alapján határozza meg a fájlformátumot; a `.docx` a modern OpenXML formátum.
+## Step 5: Insert the shape into the document body
+
+Most már ténylegesen beillesztjük a téglalapot az első bekezdésbe. Ha a dokumentumnak még nincs tartalma, a `FirstParagraph` automatikusan létrejön.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Ha a mappa nem létezik, az Aspose.Words `ArgumentException`‑t dob. Győződj meg róla, hogy az útvonal érvényes, vagy hozd létre a könyvtárat előre.
+> **Tip:** Létrehozhatsz egy új bekezdést is először, majd hozzáfűzheted az alakzatot – ez hasznos, ha körülötte szöveget is szeretnél elhelyezni.
 
-## Teljes működő példa
+---
 
-Az alábbiakban a teljes, azonnal futtatható program látható, amely összevonja az összes lépést. Másold be egy új konzolprojektbe, és nyomd meg az **F5**‑öt.
+## Step 6: **Save Word document** – the final step
+
+Minden a helyén van, a fájl mentése egyetlen soros kóddal megoldható. Bármilyen útvonalat választhatsz; a példában egy helyőrzőt használtunk, amit a saját könyvtáradra kell cserélned.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Result:** Nyisd meg a generált *.docx* fájlt a Microsoft Word‑ben. Látni fogsz egy fekete árnyékú téglalapot, 200 pt széles és 100 pt magas, amely az első bekezdésbe beágyazva jelenik meg.
+
+---
+
+## Expected output
+
+Amikor megnyitod a **ShadowShape.docx** fájlt, a dokumentum a következőket mutatja:
+
+- Egyetlen bekezdés, amely egy téglalap alakzatot tartalmaz.
+- A téglalap finom fekete árnyékkal rendelkezik, amely 5 pt‑rel el van tolva.
+- Az alakzat mérete megegyezik a 2. lépésben beállított méretekkel.
+- Nem jelenik meg extra szöveg, hacsak nem adod hozzá manuálisan.
+
+Ha az alakzat nem jelenik meg, ellenőrizd, hogy a megfelelő Aspose.Words verzióra hivatkoztál-e, és hogy a licenc (vagy a próba) aktív‑e.
+
+---
+
+## Common Questions & Variations
+
+| Question | Answer |
+|----------|--------|
+| *Can I change the shadow color to something other than black?* | Absolutely—set `rectangleShape.Shadow.Color = Color.Blue;` or any `System.Drawing.Color`. |
+| *What if I need a larger rectangle?* | Adjust `Width` and `Height` values. Remember they’re in points; 72 pt = 1 in. |
+| *Is it possible to place the shape at an absolute position?* | Yes—use `WrapType = WrapType.Absolute` and set `Top`/`Left` properties. |
+| *Does this work with .NET Core?* | It does. Aspose.Words is cross‑platform; just install the NuGet package for .NET Standard. |
+| *Can I add text inside the rectangle?* | Not directly; you’d need to insert a `TextBox` shape instead of a plain rectangle. |
+
+---
+
+## Full Working Example (Copy‑Paste Ready)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Várható eredmény
-
-Nyisd meg a `ShadowRectangle.docx` fájlt a Microsoft Wordben. Egy világosszürke téglalapot kell látnod, amelynek lágy, enyhén eltolódó árnyéka van, mindkettő 40 % átlátszósággal jelenik meg. Az alakzat egy üres oldalon helyezkedik el, készen áll további tartalomra.
-
-## Gyakori kérdések és variációk
-
-**Mi van, ha más alakzatra van szükségem?**  
-Cseréld le a `ShapeType.Rectangle`‑t bármely más enum értékre (`Ellipse`, `Triangle`, `Star`, stb.). A kód többi része változatlan marad.
-
-**Megváltoztathatom a körvonal színét?**  
-Igen—használd a `rectangleShape.StrokeColor = System.Drawing.Color.Blue;`‑t, és opcionálisan állítsd be a `rectangleShape.StrokeWeight = 1.5;`‑t.
-
-**Hogyan helyezhetem el az alakzatot egy adott helyen az oldalon?**  
-Állítsd be a `rectangleShape.WrapType = WrapType.None;`‑t, majd módosítsd a `rectangleShape.Left` és `rectangleShape.Top` tulajdonságokat (az értékek pontban vannak).
-
-**Lehetőség van szöveget hozzáadni a téglalap belsejéhez?**  
-Természetesen. Az alakzat létrehozása után meghívhatod a `rectangleShape.AppendChild(new Paragraph(document))`‑t, majd hozzáadhatsz egy `Run`‑t a szöveggel. Ne felejtsd el beállítani a `rectangleShape.TextBox` tulajdonságokat, ha gazdagabb formázást szeretnél.
-
-## Pro tippek és buktatók
-
-- **Licenc időben:** Ha elfelejted alkalmazni a licencet, az Aspose.Words vízjelet helyez el az első oldalon, ami a tesztelés során zavaró lehet.
-- **Teljesítmény tipp:** Sok dokumentum generálásakor egy ciklusban újrahasználj egyetlen `Document` példányt, és minden mentés után hívd meg a `document.RemoveAllChildren();`‑t, hogy elkerüld a túlzott GC terhelést.
-- **Árnyék láthatósága:** Alacsony felbontású képernyőkön egy finom árnyék láthatatlanná válhat. Növeld a `Blur` vagy `OffsetX/Y` értékét hibakereséskor, majd állítsd vissza a termeléshez.
-
-## Következő lépések
-
-Most, hogy tudod, hogyan **hozz létre téglalap alakzatot**, **állítsd be az alakzat átlátszóságát**, **állítsd be az árnyék színét**, és **mentsd a word dokumentumot**, gondolkodj el a tutorial kibővítésén:
-
-- Több alakzat hozzáadása és csoportosítása.
-- A téglalap beillesztése egy táblázat cellájába jelentéselrendezéshez.
-- Az alakzat kombinálása a `DocumentBuilder.InsertHtml`‑val HTML‑stílusú tartalom átfedéséhez.
-- Más vizuális hatások felfedezése, mint a `Glow` vagy a `Reflection`, a gazdagabb UI‑szerű dokumentumokhoz.
-
-Kísérletezz, törj össze dolgokat, majd finomítsd – a programozott dokumentumgenerálás egy játszótér, ahol a vizuális tervezés találkozik a kóddal.
+Futtasd a programot, navigálj a `C:\Temp\ShadowShape.docx` helyre, és a leírtaknak megfelelően árnyékos téglalapot látsz majd.
 
 ---
 
-*Boldog kódolást! Ha bármilyen problémába ütköztél, hagyj egy megjegyzést alább, és együtt megoldjuk.*
+## Conclusion
+
+Most már tudod, hogyan **create rectangle shape** egy Word‑fájlban az Aspose.Words segítségével, hogyan **set shape size**, **add shadow**, és végül **save Word document** a módosításokkal. Az egész folyamat – a **how to create document** lépéstől a végeredmény mentéséig – néhány C#‑sorba sűrítve megvalósítható, és tovább bővíthető összetettebb elrendezésekhez.
+
+Készen állsz a következő kihívásra? Próbáld ki a téglalap helyett a lekerekített sarkú alakzatot, kísérletezz különböző árnyékszínekkel, vagy ágyazd be az alakzatot egy táblázatcellába. Minden módosítás megerősíti az itt bemutatott alapvető koncepciókat.
+
+Ha hasznosnak találtad ezt az útmutatót, oszd meg, hagyj kommentet a saját variációiddal, vagy nézd meg a többi Word‑automatizálással kapcsolatos tutorialunkat, például képek beszúrása vagy táblázatok generálása az Aspose.Words‑szal. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

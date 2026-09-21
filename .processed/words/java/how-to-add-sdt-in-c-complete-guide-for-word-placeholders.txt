@@ -1,0 +1,7 @@
+Title: How to add SDT in C# – complete guide for Word placeholders
+Slug: how-to-add-sdt-in-c-complete-guide-for-word-placeholders
+Category: using-document-elements
+ProcessedDate: 2026-08-14T11:14:06.474584
+SourceRepo: AI Search API
+Keywords: how to add sdt, create word placeholder, insert plain text control
+PRNumber: 252

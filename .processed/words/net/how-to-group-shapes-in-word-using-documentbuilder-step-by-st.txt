@@ -1,0 +1,7 @@
+Title: How to group shapes in Word using DocumentBuilder – step‑by‑step guide
+Slug: how-to-group-shapes-in-word-using-documentbuilder-step-by-st
+Category: programming-with-shapes
+ProcessedDate: 2026-09-08T22:52:34.704089
+SourceRepo: AI Search API
+Keywords: group shapes in word, create blank word doc, insert rectangle shape word, how to use documentbuilder
+PRNumber: 267

@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2025-12-29
-description: Aspose.Words C#를 사용하여 Word 문서에 사각형 도형을 만들고, 도형 투명도 설정, 그림자 색상 지정 방법을
-  배우며, Word 문서를 손쉽게 저장하세요.
+date: 2026-02-18
+description: Aspose.Words를 사용하여 사각형 모양을 만들고 그림자 추가, 모양 크기 설정 및 Word 문서 저장 방법을 몇 분
+  안에 배워보세요.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: ko
-og_description: Aspose.Words C#를 사용하여 Word 문서에 사각형 모양을 만듭니다. 이 가이드는 모양 투명도 설정, 그림자
-  색상 설정 및 Word 문서 저장 방법을 보여줍니다.
-og_title: Word에서 사각형 도형 만들기 – 완전한 Aspose.Words 튜토리얼
+og_description: Word 파일에 사각형 모양을 만들고, 그림자 추가 방법을 배우며, 모양 크기를 설정하고, Aspose.Words를 사용하여
+  C#로 문서를 저장합니다.
+og_title: Word에서 사각형 모양 만들기 – 완전 Aspose.Words 튜토리얼
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Aspose.Words를 사용하여 Word에서 사각형 도형 만들기 – 단계별 가이드
 url: /ko/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
@@ -26,180 +26,187 @@ url: /ko/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word에서 사각형 도형 만들기 – 완전한 Aspose.Words 튜토리얼
+# Aspose.Words를 사용하여 Word에서 사각형 도형 만들기 – 단계별 가이드
 
-Word 문서에 **사각형 도형**을 만들어야 하는데 어디서 시작해야 할지 막막하셨나요? 보고서나 청구서를 자동화할 때 많은 개발자들이 겪는 문제입니다. 이 가이드에서는 Aspose.Words for .NET을 사용해 사각형 도형을 만들고, 도형 투명도를 설정하고, 그림자 색상을 지정한 뒤 **Word 문서 저장**까지의 정확한 단계를 차근차근 설명합니다.
+Word 파일에 **사각형 도형을 만들고** 싶었지만 어디서 시작해야 할지 몰랐던 적 있나요? 여러분만 그런 것이 아닙니다—개발자들은 종종 “도형에 그림자를 추가하면서 문서를 편집 가능하게 유지하려면 어떻게 해야 하나요?” 라고 묻습니다. 이 튜토리얼에서는 그 질문에 답하고 **그림자 추가**, **도형 크기 설정**, **Word 문서 저장**을 한 흐름으로 보여드립니다.
 
-문서 객체 생성부터 최종 `.docx` 파일 저장까지 모두 다루므로, 끝까지 읽으시면 **프로그래밍으로 Word 문서 만들기**를 추측 없이 구현할 수 있습니다. 외부 참고 자료 없이 프로젝트에 복사·붙여넣기만 하면 되는 자체 포함 솔루션입니다.
+새 문서를 초기화하는 단계(예, **문서 만드는 방법**)부터 최종 *.docx* 파일을 디스크에 저장하는 단계까지 모든 과정을 안내합니다. 외부 참조 없이, 오늘 바로 Visual Studio에 복사‑붙여넣기 해서 실행할 수 있는 자체 포함 예제입니다.
 
-## 사전 요구 사항
+---
 
-- .NET 6.0 이상 (코드는 .NET Framework 4.7+에서도 동작)
-- Aspose.Words for .NET NuGet 패키지 (`Install-Package Aspose.Words`)
-- C# 기본 문법에 대한 약간의 이해
-- 원하는 IDE (Visual Studio, Rider, VS Code 등)
+## 전제 조건
 
-> **Pro tip:** Aspose.Words 무료 체험판을 사용하면 출력 파일에 워터마크가 삽입됩니다. 실제 서비스에서는 유효한 라이선스가 필요합니다.
+- .NET 6+ (또는 .NET Framework 4.7+). Aspose.Words는 최신 .NET 런타임에서 동작합니다.
+- 유효한 Aspose.Words 라이선스(또는 무료 평가 키) – 그렇지 않으면 워터마크가 표시됩니다.
+- Visual Studio, Rider 또는 선호하는 C# 편집기.
+- 기본적인 C# 지식—콘솔 앱을 실행할 수 있으면 충분합니다.
 
-## 1단계: Document와 Builder 초기화
+> **프로 팁:** Mac을 사용한다면 .NET 6과 VS Code에서 동일한 코드를 실행할 수 있습니다—`Aspose.Words` NuGet 패키지만 참조하면 됩니다.
 
-먼저 빈 Word 문서를 만들고, 내용을 삽입할 수 있는 `DocumentBuilder`를 생성합니다. Builder는 페이지에 그리는 가상의 펜이라고 생각하면 됩니다.
+---
+
+## 1단계: 문서 초기화 – **문서 만드는 방법**의 기반
+
+무언가를 그리기 전에 빈 캔버스가 필요합니다. Aspose.Words에서는 이를 `Document`라고 부릅니다.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **왜 중요한가:** `DocumentBuilder` 없이 저수준 노드 트리를 직접 조작해야 하므로 오류가 발생하기 쉽고 코드 가독성이 떨어집니다.
+> **왜 중요한가:** `Document` 객체는 전체 *.docx* 파일을 나타냅니다. 추가하는 모든 도형, 단락, 섹션은 이 객체의 자식이 됩니다. 깨끗한 문서에서 시작하면 숨겨진 스타일이 사각형에 영향을 주는 일을 방지할 수 있습니다.
 
-## 2단계: 사각형 도형 만들기
+---
 
-이제 **사각형 도형**을 실제로 **생성**합니다. `InsertShape` 메서드는 `ShapeType` 열거형, 너비, 높이(포인트)를 인수로 받습니다. 반환된 `Shape` 객체를 통해 이후 시각 속성을 조정할 수 있습니다.
+## 2단계: 사각형 정의 및 **도형 크기 설정**
+
+사각형은 `ShapeType.Rectangle`을 가진 `Shape`에 불과합니다. 원하는 크기를 명시적으로 지정해 정확히 원하는 모양이 되도록 합니다.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-이 시점에서 사각형은 현재 단락에 고정된 검은색 실선 박스입니다. 필요에 따라 이동·크기 조정·회전이 가능합니다.
+> **숫자의 의미:** Aspose.Words는 포인트 단위(1 pt = 1/72 in)를 사용합니다. 레이아웃에 맞게 값을 조정하세요; 일반적인 A4 페이지에서는 200 pt가 적당한 너비입니다.
 
-![create rectangle shape with shadow](/images/rectangle-shadow.png "Word 문서에 회색 그림자가 있는 사각형 도형을 표시")
+---
 
-*이미지 대체 텍스트: Word 문서에 그림자가 있는 사각형 도형 만들기*
+## 3단계: **그림자 추가** – 도형을 돋보이게 만들기
 
-## 3단계: 도형 투명도 설정
-
-투명도는 도형 채우기의 “비투명” 정도를 의미합니다. Aspose.Words는 `0.0`(불투명)부터 `1.0`(완전 투명)까지의 값을 갖는 `Transparency` 속성을 제공합니다. 여기서는 **도형 투명도**를 40 %로 설정해 배경 텍스트가 읽히도록 합니다.
+그림자는 도형이 페이지에서 “떠 있다”는 시각적 힌트를 제공합니다. `Shadow` 속성을 사용해 색상, 거리, 투명도, 흐림 정도를 조절합니다.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **예외 상황:** 그림자는 보이게 하고 도형 자체는 완전히 보이지 않게 하려면 `Transparency`를 `1.0`으로 설정하고 외곽선 두께를 0이 아닌 값으로 지정합니다.
+> **투명도를 사용하는 이유:** 완전히 불투명한 그림자는 거칠게 보일 수 있습니다. 0.4 정도로 설정하면 효과가 미묘하고 전문적으로 보입니다.
 
-## 4단계: 그림자 구성
+---
 
-미묘한 드롭 그림자는 깊이감을 줍니다. **그림자 색상**을 중간 회색으로 지정하고, 흐림 반경과 수평·수직 오프셋을 몇 포인트씩 조정합니다.
+## 4단계: 사각형 위치 지정 – 주변 텍스트와 인라인 흐름
+
+도형을 단락 내 문자처럼 동작하게 하려면 `WrapType`을 `Inline`으로 설정합니다. 이렇게 하면 문서를 나중에 편집할 때 레이아웃이 예측 가능해집니다.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **왜 중요한가:** 너무 날카롭거나 어두운 그림자는 인쇄 결함처럼 보일 수 있습니다. `Blur`와 `Transparency` 값을 자연스러울 때까지 조정하세요.
+> **예외 상황:** 사각형을 텍스트 위에 떠 있게 하고 싶다면(예: 워터마크) `WrapType`을 `Square` 또는 `BehindText`로 변경하세요.
 
-## 5단계: Word 문서 저장
+---
 
-마지막으로 **Word 문서**를 디스크에 **저장**합니다. `Save` 메서드는 파일 확장자를 기준으로 형식을 자동 판단하며, `.docx`는 최신 OpenXML 형식입니다.
+## 5단계: 도형을 문서 본문에 삽입
+
+이제 실제로 첫 번째 단락에 사각형을 배치합니다. 문서에 아직 내용이 없으면 `FirstParagraph`가 자동으로 생성됩니다.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-폴더가 존재하지 않으면 Aspose.Words는 `ArgumentException`을 발생시킵니다. 경로가 올바른지 확인하거나 미리 디렉터리를 생성하세요.
+> **팁:** 먼저 새 단락을 만든 뒤 그 안에 도형을 추가할 수도 있습니다—주변에 텍스트가 필요할 때 유용합니다.
 
-## 전체 작업 예제
+---
 
-아래는 모든 단계를 하나로 모은 완전 실행 가능한 프로그램입니다. 새 콘솔 프로젝트에 복사하고 **F5**를 눌러 실행해 보세요.
+## 6단계: **Word 문서 저장** – 최종 단계
+
+모든 것이 준비되면 파일을 저장하는 코드는 한 줄이면 충분합니다. 원하는 경로를 지정하면 되며, 예제에서는 여러분이 직접 교체해야 할 자리표시자를 사용했습니다.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **결과:** 생성된 *.docx* 파일을 Microsoft Word에서 열면, 첫 번째 단락과 인라인으로 배치된 200 pt 너비, 100 pt 높이의 검은 그림자 사각형이 보일 것입니다.
+
+---
+
+## 예상 출력
+
+**ShadowShape.docx**를 열면 문서는 다음과 같이 표시됩니다:
+
+- 사각형 도형이 포함된 단일 단락.
+- 사각형에 5 pt 오프셋의 은은한 검은 그림자 적용.
+- 도형 크기가 2단계에서 설정한 치수와 일치.
+- 별도의 텍스트는 없으며, 필요 시 직접 추가할 수 있음.
+
+도형이 보이지 않을 경우, 올바른 Aspose.Words 버전을 참조했는지와 라이선스(또는 평가판)가 활성화되어 있는지 다시 확인하세요.
+
+---
+
+## 자주 묻는 질문 및 변형
+
+| Question | Answer |
+|----------|--------|
+| *Can I change the shadow color to something other than black?* | Absolutely—set `rectangleShape.Shadow.Color = Color.Blue;` or any `System.Drawing.Color`. |
+| *What if I need a larger rectangle?* | Adjust `Width` and `Height` values. Remember they’re in points; 72 pt = 1 in. |
+| *Is it possible to place the shape at an absolute position?* | Yes—use `WrapType = WrapType.Absolute` and set `Top`/`Left` properties. |
+| *Does this work with .NET Core?* | It does. Aspose.Words is cross‑platform; just install the NuGet package for .NET Standard. |
+| *Can I add text inside the rectangle?* | Not directly; you’d need to insert a `TextBox` shape instead of a plain rectangle. |
+
+---
+
+## 전체 작업 예제 (복사‑붙여넣기 바로 사용)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### 예상 결과
-
-`ShadowRectangle.docx`를 Microsoft Word에서 열면, 40 % 투명도의 연한 회색 사각형에 부드럽게 약간 오프셋된 그림자가 표시됩니다. 도형은 빈 페이지에 위치해 추가 콘텐츠를 삽입할 준비가 되어 있습니다.
-
-## 자주 묻는 질문 및 변형
-
-**다른 도형이 필요하면?**  
-`ShapeType.Rectangle`을 다른 열거형 값(`Ellipse`, `Triangle`, `Star` 등)으로 바꾸면 됩니다. 나머지 코드는 동일하게 유지됩니다.
-
-**외곽선상을 바꿀 수 있나요?**  
-예 — `rectangleShape.StrokeColor = System.Drawing.Color.Blue;`와 필요 시 `rectangleShape.StrokeWeight = 1.5;`를 설정하세요.
-
-**페이지 특정 위치에 도형을 배치하려면?**  
-`rectangleShape.WrapType = WrapType.None;`을 설정한 뒤 `rectangleShape.Left`와 `rectangleShape.Top` 속성을 포인트 단위로 조정합니다.
-
-**사각형 안에 텍스트를 넣을 수 있나요?**  
-가능합니다. 도형을 만든 뒤 `rectangleShape.AppendChild(new Paragraph(document))`를 호출하고 `Run`을 추가해 텍스트를 삽입하세요. 풍부한 서식을 원한다면 `rectangleShape.TextBox` 속성을 설정합니다.
-
-## 전문가 팁 및 함정
-
-- **라이선스 먼저 적용:** 라이선스를 적용하지 않으면 Aspose.Words가 첫 페이지에 워터마크를 삽입해 테스트 시 혼란을 줄 수 있습니다.
-- **성능 팁:** 루프에서 다수의 문서를 생성할 때는 단일 `Document` 인스턴스를 재사용하고, 저장 후 `document.RemoveAllChildren();`를 호출해 GC 부하를 최소화하세요.
-- **그림자 가시성:** 저해상도 화면에서는 미묘한 그림자가 보이지 않을 수 있습니다. 디버깅 시 `Blur` 또는 `OffsetX/Y` 값을 늘렸다가, 실제 배포 시 다시 낮추세요.
-
-## 다음 단계
-
-이제 **사각형 도형 만들기**, **도형 투명도 설정**, **그림자 색상 지정**, **Word 문서 저장** 방법을 알았으니 튜토리얼을 확장해 보세요:
-
-- 여러 도형을 추가하고 그룹화하기
-- 보고서 레이아웃을 위해 표 셀 안에 사각형 삽입하기
-- `DocumentBuilder.InsertHtml`과 결합해 HTML‑스타일 콘텐츠 오버레이하기
-- `Glow`나 `Reflection` 같은 다른 시각 효과를 탐색해 UI‑같은 풍부한 문서 만들기
-
-실험하고, 오류를 만들고, 다시 다듬으세요 — 프로그래밍 기반 문서 생성은 시각 디자인과 코딩이 만나는 놀이터입니다.
+프로그램을 실행하고 `C:\Temp\ShadowShape.docx` 경로를 확인하면, 설명한 대로 그림자가 있는 사각형을 확인할 수 있습니다.
 
 ---
 
-*코딩 즐겁게! 문제가 발생하면 아래에 댓글을 남겨 주세요. 함께 해결해 드리겠습니다.*
+## 결론
+
+이제 Aspose.Words를 사용해 Word 파일에 **사각형 도형을 만들고**, **도형 크기 설정**, **그림자 추가**, 그리고 **Word 문서 저장**까지 하는 방법을 알게 되었습니다. **문서 만드는 방법**부터 결과를 저장하는 전체 흐름이 몇 줄의 C# 코드에 담겨 있으며, 더 복잡한 레이아웃에도 확장할 수 있습니다.
+
+다음 도전 과제는 무엇인가요? 사각형을 둥근 모서리 도형으로 바꾸어 보거나, 다양한 그림자 색상을 실험하거나, 도형을 표 셀 안에 삽입해 보세요. 각 변형은 여기서 다룬 핵심 개념을 강화해 줍니다.
+
+이 가이드가 도움이 되었다면 공유하고, 여러분만의 변형을 댓글로 남기거나, 이미지 삽입이나 표 생성 등 Aspose.Words를 활용한 다른 튜토리얼도 살펴보세요. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

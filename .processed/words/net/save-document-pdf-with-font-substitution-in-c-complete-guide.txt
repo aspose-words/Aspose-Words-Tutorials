@@ -1,0 +1,7 @@
+Title: Save Document PDF with Font Substitution in C# – Complete Guide
+Slug: save-document-pdf-with-font-substitution-in-c-complete-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-05T14:54:15.560081
+SourceRepo: AI Search API
+Keywords: save document pdf, replace font pdf, word to pdf font, change font pdf, pdf font substitution
+PRNumber: 198
