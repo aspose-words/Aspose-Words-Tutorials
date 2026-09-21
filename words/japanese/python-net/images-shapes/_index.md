@@ -37,6 +37,9 @@ Aspose.Words for Python を使用して SVG 出力を最適化する方法を学
 ### [C# で影を追加する方法 – 完全プログラミングガイド](./how-to-add-shadow-in-c-complete-programming-guide/)
 C# を使用してテキストや図形に影効果を適用する手順を詳しく解説します。
 
+### [Aspose.Words で Word の図形に影効果を適用する方法](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aspose.Words を使用して、Word 文書内の図形に影効果を追加する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)
