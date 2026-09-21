@@ -40,6 +40,17 @@ Word 문서를 Markdown으로 저장하는 방법을 Python으로 완벽히 안�
 ### [손상된 DOCX 복구 및 Word를 Markdown으로 변환](./recover-corrupted-docx-convert-word-to-markdown/)
 손상된 DOCX 파일을 복구하고 Word 문서를 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Words를 사용하여 LaTeX와 함께 docx를 markdown으로 저장하는 방법](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+Aspose.Words와 LaTeX를 활용해 docx 파일을 markdown으로 변환하는 과정을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 Python에서 docx를 PDF로 저장하는 방법](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+Aspose.Words를 활용해 docx 파일을 PDF로 변환하는 과정을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 docx를 txt로 저장하는 방법](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+Aspose.Words for Python을 이용해 docx 파일을 텍스트 파일로 변환하는 방법을 단계별로 안내합니다.
+
+### [Python으로 Word 문서에서 접근성 PDF 만들기](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

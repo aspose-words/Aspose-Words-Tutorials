@@ -40,6 +40,18 @@ Dowiedz się, jak przy użyciu Aspose.Words for Python zapisać dokument Word ja
 ### [Odzyskaj uszkodzony DOCX i konwertuj Word na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Dowiedz się, jak odzyskać uszkodzony plik DOCX i przekonwertować go do formatu Markdown przy użyciu Aspose.Words for Python.
 
+### [Jak zapisać docx jako markdown z LaTeX – Kompletny przewodnik w Pythonie](./how-to-save-docx-as-markdown-with-latex-using-aspose-words/)
+Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać plik docx jako markdown z obsługą LaTeX.
+
+### [Jak zapisać docx jako pdf przy użyciu Aspose.Words w Pythonie](./how-to-save-docx-as-pdf-with-aspose-words-in-python/)
+Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać plik docx jako PDF.
+
+### [Jak zapisać docx jako txt przy użyciu Aspose.Words w Pythonie](./how-to-save-docx-as-txt-with-aspose-words-for-python/)
+Dowiedz się, jak przy użyciu Aspose.Words dla Pythona zapisać plik docx jako plik txt.
+
+### [Jak utworzyć dostępny PDF z dokumentu Word przy użyciu Pythona](./how-to-create-an-accessible-pdf-from-a-word-document-using-p/)
+Dowiedz się, jak przy pomocy Aspose.Words for Python wygenerować PDF spełniający standardy dostępności z dokumentu Word.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

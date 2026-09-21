@@ -37,6 +37,9 @@ Dowiedz się, jak zoptymalizować wyjście SVG za pomocą Aspose.Words dla Pytho
 ### [Jak dodać cień w C# – Kompletny przewodnik programistyczny](./how-to-add-shadow-in-c-complete-programming-guide/)
 Dowiedz się, jak dodać cienie do obiektów w C# przy użyciu Aspose.Words, krok po kroku.
 
+### [Jak zastosować efekt cienia do kształtu Word przy użyciu Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Dowiedz się, jak dodać efekt cienia do kształtu w dokumencie Word przy użyciu Aspose.Words w Python-net.
+
 ## Dodatkowe zasoby
 
 - [Aspose.Words dla dokumentacji Python-net](https://docs.aspose.com/words/python-net/)

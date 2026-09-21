@@ -37,6 +37,9 @@ Aprenda a otimizar a saída SVG usando Aspose.Words para Python. Este guia abord
 ### [Como adicionar sombra em C# – Guia completo de programação](./how-to-add-shadow-in-c-complete-programming-guide/)
 Aprenda a aplicar sombras a objetos em documentos Word usando Aspose.Words para C# com este guia completo.
 
+### [Como aplicar efeito de sombra a uma forma Word com Aspose.Words](./how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words/)
+Aprenda a aplicar efeito de sombra a formas em documentos Word usando Aspose.Words.
+
 ## Recursos adicionais
 
 - [Aspose.Words para documentação do Python-net](https://docs.aspose.com/words/python-net/)
