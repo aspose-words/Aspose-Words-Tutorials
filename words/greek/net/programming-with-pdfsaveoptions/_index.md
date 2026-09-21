@@ -57,6 +57,7 @@
 | [Αποθήκευση εγγράφου ως PDF σε C# – Πλήρης οδηγός εξαγωγής Docx και παρακολούθησης αλλαγών γραμματοσειρών](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF με C#, παρακολουθώντας τις αλλαγές στις γραμματοσειρές για βέλτιστη ποιότητα. |
 | [Αποθήκευση docx ως pdf με εξαγωγή σχήματος – Πλήρης οδηγός](./save-docx-as-pdf-with-shape-export-complete-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως pdf με εξαγωγή σχήματος χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Αποθήκευση εγγράφου ως PDF με Aspose.Words – Πλήρης οδηγός C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό C#. |
+| [Πώς να ορίσετε RenderChoiceFormFieldBorder σε false κατά τη μετατροπή Word σε PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Μάθετε πώς να απενεργοποιήσετε το RenderChoiceFormFieldBorder κατά τη μετατροπή εγγράφων Word σε PDF με Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

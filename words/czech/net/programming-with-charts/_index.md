@@ -42,7 +42,10 @@ těmito tutoriály budete moci vylepšit své dokumenty Word přidáním vizuál
 | [Nastavení výchozích možností pro popisky dat v grafu](./default-options-for-data-labels/) | Naučte se, jak nastavit výchozí možnosti pro popisky dat v grafu pomocí Aspose.Words pro .NET. Postupujte podle našeho podrobného návodu a bez námahy si vytvořte a upravte grafy. |
 | [Přizpůsobení jednoho datového bodu v grafu](./single-chart-data-point/) | Naučte se, jak přizpůsobit jednotlivé datové body grafu pomocí Aspose.Words pro .NET v podrobném návodu krok za krokem. Vylepšete své grafy jedinečnými značkami a velikostmi. |
 | [Přizpůsobení jedné série grafů v grafu](./single-chart-series/) | Naučte se, jak přizpůsobit jednotlivé série grafů v dokumentu Word pomocí Aspose.Words pro .NET. Pro bezproblémový zážitek postupujte podle našeho podrobného návodu. |
-
+| [Jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Naučte se, jak vytvořit koláčový graf v dokumentu Word pomocí Aspose.Words pro .NET. |
+| [Jak formátovat řady v čárovém grafu Wordu pomocí C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Naučte se, jak upravit formát řad v čárovém grafu v dokumentu Word pomocí Aspose.Words pro .NET a C#. |
+| [Jak vytvořit histogram v dokumentu Word pomocí Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Naučte se, jak vytvořit histogram v dokumentu Word pomocí Aspose.Words pro .NET. |
+| [Jak vytvořit dokument Word v C# se sloupcovým grafem a formátovanými popisky](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Naučte se vytvořit dokument Word v C# se sloupcovým grafem a formátovanými popisky dat. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

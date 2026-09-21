@@ -26,7 +26,7 @@ Dividir Documento es un recurso completo que explica cómo dividir un documento 
 | [Dividir documento de Word por página](./page-by-page/) Aprenda a dividir un documento de Word por página usando Aspose.Words para .NET con esta guía detallada paso a paso. Ideal para gestionar documentos grandes de forma eficiente.
 | [Fusionar documentos](./merge-documents/) | Guía paso a paso para explicar el código fuente de C# de la función Combinar documentos de Aspose.Words para .NET |
 | [Dividir documento de Word por rango de páginas](./by-page-range/) Aprenda a dividir un documento de Word por rango de páginas usando Aspose.Words para .NET con nuestra guía detallada paso a paso. Ideal para desarrolladores.
-
+| [Dividir documento de Word en archivos separados con C#](./how-to-split-word-document-into-separate-files-with-c/) | Aprenda a dividir un documento de Word en archivos separados usando C# y Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

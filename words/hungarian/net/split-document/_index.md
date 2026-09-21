@@ -26,7 +26,7 @@ Split Document egy átfogó forrás, amely elmagyarázza, hogyan lehet egy dokum
 | [Word-dokumentum felosztása oldalak szerint](./page-by-page/) | Tanulja meg, hogyan oszthat oldalakra egy Word-dokumentumot az Aspose.Words for .NET segítségével ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes a nagyméretű dokumentumok hatékony kezeléséhez. |
 | [Dokumentumok egyesítése](./merge-documents/) | Lépésről lépésre útmutató az Aspose.Words for .NET dokumentumegyesítési funkciójának C# forráskódjának magyarázatához |
 | [Word-dokumentum felosztása oldaltartomány szerint](./by-page-range/) | Tanulja meg, hogyan oszthat fel egy Word-dokumentumot oldaltartomány szerint az Aspose.Words for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal. Tökéletes fejlesztők számára. |
-
+| [Word-dokumentum felosztása különálló fájlokra C#-val](./how-to-split-word-document-into-separate-files-with-c/) | Tanulja meg, hogyan oszthat fel egy Word-dokumentumot különálló fájlokra C#-ban az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

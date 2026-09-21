@@ -26,7 +26,7 @@ Split Document is een uitgebreide bron die uitlegt hoe u een document in afzonde
 | [Word-document per pagina splitsen](./page-by-page/) | Leer hoe u een Word-document per pagina kunt splitsen met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. Perfect voor het efficiënt beheren van grote documenten. |
 | [Documenten samenvoegen](./merge-documents/) | Stapsgewijze handleiding voor het uitleggen van de C#-broncode van de functie Documenten samenvoegen van Aspose.Words voor .NET |
 | [Word-document splitsen op paginabereik](./by-page-range/) | Leer hoe je een Word-document op paginabereik kunt splitsen met Aspose.Words voor .NET met onze gedetailleerde stapsgewijze handleiding. Perfect voor ontwikkelaars. |
-
+| [Word-document splitsen in afzonderlijke bestanden met C#](./how-to-split-word-document-into-separate-files-with-c/) | Leer hoe u een Word-document in afzonderlijke bestanden kunt splitsen met C# en Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

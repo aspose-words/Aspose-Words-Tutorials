@@ -58,7 +58,7 @@ Whether you want to convert Word documents to PDF for online distribution, archi
 | [Create Accessible PDF from Word in C# – Complete Guide](./create-accessible-pdf-from-word-in-c-complete-guide/) | Learn how to create accessible PDF files from Word documents using Aspose.Words for .NET in C# with this comprehensive guide. |
 | [Save Document as PDF in C# – Complete Guide to Export Docx and Monitor Font Changes](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Learn how to export DOCX to PDF in C# using Aspose.Words, monitor font changes, and ensure accurate conversion with detailed steps. |
 | [Save docx as pdf with Shape Export – Complete Guide](./save-docx-as-pdf-with-shape-export-complete-guide/) | Learn how to export a DOCX to PDF while preserving shapes using Aspose.Words for .NET in this comprehensive step-by-step guide. |
-
+| [How to set RenderChoiceFormFieldBorder false when converting Word to PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Learn how to disable RenderChoiceFormFieldBorder during Word to PDF conversion using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

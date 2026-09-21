@@ -25,6 +25,7 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | Titolo | Descrizione |
 | --- | --- |
 | [Aggiungi forma di gruppo](./add-group-shape/) | Scopri come aggiungere forme di gruppo ai documenti Word utilizzando Aspose.Words per .NET con questo tutorial completo e dettagliato. |
+| [Come raggruppare le forme in Word con Aspose.Words per C#](./how-to-group-shapes-in-word-with-aspose-words-for-c/) | Scopri come raggruppare più forme in un documento Word usando Aspose.Words per .NET con C#. |
 | [Inserisci forma](./insert-shape/) | Scopri come inserire e manipolare forme nei documenti Word utilizzando Aspose.Words per .NET con la nostra guida dettagliata. |
 | [Proporzioni bloccate](./aspect-ratio-locked/) | Scopri come bloccare le proporzioni delle forme nei documenti Word utilizzando Aspose.Words per .NET. Segui questa guida passo passo per mantenere le proporzioni di immagini e forme. |
 | [Layout nella cella](./layout-in-cell/) | Scopri come impostare il layout nelle celle utilizzando Aspose.Words per .NET con questa guida completa. Perfetta per gli sviluppatori che desiderano personalizzare i documenti Word. |
@@ -39,8 +40,10 @@ Utilizzando Aspose.Words per .NET e seguendo questi tutorial, imparerai a manipo
 | [Crea forma rettangolare in Word usando C# – Guida passo‑passo](./create-rectangle-shape-in-word-using-c-step-by-step-guide/) | Scopri come creare una forma rettangolare in Word con C# tramite una guida dettagliata passo passo. |
 | [Tutorial Ombra Forma Aspose.Words – Aggiungi un'ombra a una forma Word in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Scopri come aggiungere un'ombra alle forme nei documenti Word con Aspose.Words per .NET in C#. |
 | [Crea documento Word vuoto con forma rettangolare ombreggiata – Guida passo‑passo](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Scopri come creare un documento Word vuoto con una forma rettangolare ombreggiata usando Aspose.Words per .NET, passo dopo passo. |
+| [Crea un documento Word vuoto e aggiungi forme colorate con Aspose.Words](./create-a-blank-word-document-and-add-colored-shapes-with-asp/) | Scopri come creare un documento Word vuoto e inserire forme colorate usando Aspose.Words per .NET. |
 | [Aggiungi ombra alla forma in C# – Guida completa per applicare l'effetto ombra](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Scopri come aggiungere e personalizzare l'ombra alle forme nei documenti Word con Aspose.Words per .NET in questa guida passo passo. |
 | [Come modificare l'ombra della forma in C# con Aspose.Words – Guida passo‑passo](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Scopri come modificare l'ombra delle forme nei documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata. |
+| [Come creare un documento docx con forma nascosta usando Aspose.Words in C#](./how-to-create-hidden-shape-docx-with-aspose-words-in-c/) | Scopri come generare un file docx contenente una forma nascosta con Aspose.Words per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

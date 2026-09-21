@@ -29,6 +29,7 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [在Word文件中插入簡單長條圖](./insert-simple-column-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 中插入簡單長條圖。使用動態視覺資料簡報來增強您的文件。 |
 | [在Word文件中插入長條圖](./insert-column-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中插入長條圖。增強報告和簡報中的資料視覺化。 |
 | [將面積圖插入Word文檔](./insert-area-chart/) |透過本全面的逐步指南了解如何使用 Aspose.Words for .NET 將面積圖插入 Word 文件。 |
+| [在 Word 文件中使用 Aspose.Words 建立圓餅圖](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中建立圓餅圖，提升報告的視覺效果。 |
 | [在 Word 文件中插入氣泡圖](./insert-bubble-chart/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 在 Word 文件中插入氣泡圖。增強您的文件。 |
 | [在 Word 文件中插入散佈圖](./insert-scatter-chart/) |了解如何使用 Aspose.Words for .NET 在 Word 中插入散佈圖。將可視化資料表示整合到文件中的簡單步驟。 |
 | [在圖表中定義 XY 軸屬性](./define-xyaxis-properties/) |透過本逐步指南了解如何使用 Aspose.Words for .NET 定義圖表中的 XY 軸屬性。非常適合 .NET 開發人員。 |
@@ -42,7 +43,9 @@ Aspose.Words for .NET 圖形程式教學提供了全面的資源，用於學習�
 | [設定圖表中資料標籤的預設選項](./default-options-for-data-labels/) |了解如何使用 Aspose.Words for .NET 設定圖表中資料標籤的預設選項。按照我們的逐步指南輕鬆建立和自訂圖表。 |
 | [自訂圖表中的單一圖表資料點](./single-chart-data-point/) |透過詳細的逐步指南了解如何使用 Aspose.Words for .NET 自訂單一圖表資料點。使用獨特的標記和尺寸來增強您的圖表。 |
 | [自訂圖表中的單一圖表系列](./single-chart-series/) |了解如何使用 Aspose.Words for .NET 自訂 Word 文件中的單一圖表系列。按照我們的逐步指南，獲得無縫體驗。 |
-
+| [在 Word 折線圖中使用 C# 格式化系列](./how-to-format-series-in-a-word-line-chart-with-c/) |了解如何在 Word 折線圖中使用 C# 進行系列格式設定，提升圖表外觀。 |
+| [在 Word 中使用 Aspose.Words 建立直方圖](./how-to-create-histogram-in-word-with-aspose-words/) |了解如何使用 Aspose.Words for .NET 在 Word 文檔中建立直方圖，以視覺化資料分佈。 |
+| [使用 C# 建立帶格式化標籤的柱狀圖 Word 文件](./how-to-create-word-document-c-with-a-column-chart-and-format/) |了解如何在 Word 文件中使用 C# 插入柱狀圖並設定資料標籤格式。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

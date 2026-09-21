@@ -29,7 +29,7 @@ Akár a Word régebbi verzióival kompatibilis dokumentumokat szeretne létrehoz
 | [Utolsó mentés időpontja tulajdonság frissítése](./update-last-saved-time-property/) | Ismerje meg, hogyan frissítheti az utolsó mentés időpontja tulajdonságot Word-dokumentumokban az Aspose.Words for .NET használatával. Kövesse részletes, lépésről lépésre szóló útmutatónkat. |
 | [Tartsa meg a régi vezérlőkaraktereket](./keep-legacy-control-chars/) | Tanulja meg, hogyan őrizheti meg a korábbi vezérlőkaraktereket a Word-dokumentumokban az Aspose.Words for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |
 | [Tömörítési szint beállítása](./set-compression-level/) | Ismerje meg, hogyan állíthatja be a tömörítési szintet Word-dokumentumokban az Aspose.Words for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a dokumentumtárolás és a teljesítmény optimalizálásához. |
-
+| [Word dokumentum kódolásának módosítása Aspose.Words használatával C#-ban](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Tanulja meg, hogyan változtathatja meg a Word dokumentumok kódolását C#-ban az Aspose.Words segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

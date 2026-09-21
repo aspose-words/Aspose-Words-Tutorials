@@ -45,6 +45,8 @@ Enfin, n'oubliez pas de consulter notre [Travailler avec les options de résumé
 | [Résumer un document Word en C# – Guide complet alimenté par l'IA](./summarize-word-document-in-c-complete-ai-powered-guide/) | Apprenez à résumer automatiquement des documents Word en C# avec Aspose.Words et l'IA, étape par étape. |
 | [Comment vérifier la grammaire d'un DOCX avec Aspose.Words – utiliser gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Vérifiez la grammaire de vos fichiers DOCX en utilisant Aspose.Words et le modèle gpt‑4 turbo pour des corrections précises. |
 | [Comment vérifier la grammaire dans Word avec Aspose.Words IA – Guide complet](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Apprenez à utiliser l'IA d'Aspose.Words pour détecter et corriger les fautes de grammaire dans vos documents Word. |
+| [Comment utiliser un résumeur de documents IA en C#](./how-to-use-an-ai-document-summarizer-in-c/) | Apprenez à résumer automatiquement des documents avec un modèle IA en C# en utilisant Aspose.Words. |
+| [Comment traduire un docx en français avec Aspose.Words IA](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Apprenez à traduire automatiquement des fichiers DOCX en français avec l'IA d'Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

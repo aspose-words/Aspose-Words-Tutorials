@@ -35,6 +35,7 @@ Of u nu specifieke woorden moet vervangen, tekstsjablonen moet bijwerken of de i
 | [Herkennen en vervangen van patronen binnen vervanging](./recognize-and-substitutions-within-replacement-patterns/) | Leer hoe u tekst in vervangingspatronen herkent en vervangt met Aspose.Words voor .NET. Stapsgewijze handleiding met gedetailleerde voorbeelden. |
 | [Vervangen met string](./replace-with-string/) | Leer hoe je strings in Word-documenten vervangt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die documentbewerking willen automatiseren. |
 | [Tekst in tabel vervangen](./replace-text-in-table/) | Vervang moeiteloos tekst in een Word-tabel met Aspose.Words voor .NET met deze gedetailleerde, stapsgewijze handleiding. |
+| [Hoe een documenttemplate te genereren en te vullen met gegevens in C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Leer hoe u een documenttemplate maakt en vult met data in C# met Aspose.Words voor .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

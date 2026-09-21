@@ -30,6 +30,7 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Kolomdiagram invoegen in een Word-document](./insert-column-chart/) | Leer hoe u kolomdiagrammen in Word-documenten invoegt met Aspose.Words voor .NET. Verbeter de datavisualisatie in uw rapporten en presentaties. |
 | [Een vlakdiagram in een Word-document invoegen](./insert-area-chart/) | Leer hoe u een vlakdiagram in een Word-document invoegt met Aspose.Words voor .NET in deze uitgebreide stapsgewijze handleiding. |
 | [Bubbeldiagram invoegen in Word-document](./insert-bubble-chart/) | Leer hoe u een bellendiagram in een Word-document invoegt met Aspose.Words voor .NET met deze stapsgewijze handleiding. Verbeter uw documenten. |
+| [Een taartdiagram invoegen in een Word-document](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Leer hoe u een taartdiagram in een Word-document invoegt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [Spreidingsdiagram invoegen in Word-document](./insert-scatter-chart/) | Leer hoe u een spreidingsdiagram in Word invoegt met Aspose.Words voor .NET. Eenvoudige stappen voor het integreren van visuele gegevensrepresentaties in uw documenten. |
 | [XY-aseigenschappen in een grafiek definiëren](./define-xyaxis-properties/) Leer hoe u XY-aseigenschappen in een grafiek definieert met Aspose.Words voor .NET met deze stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars. |
 | [Datum- en tijdwaarden toevoegen aan de as van een grafiek](./date-time-values-to-axis/) | Leer hoe u datum- en tijdwaarden toevoegt aan de as van een grafiek met behulp van Aspose.Words voor .NET in deze uitgebreide stapsgewijze handleiding. |
@@ -37,12 +38,14 @@ Met deze tutorials kunt u uw Word-documenten verbeteren door visueel aantrekkeli
 | [Grenzen van de as](./bounds-of-axis/) | Leer hoe u de grenzen van een as in een grafiek instelt met behulp van Aspose.Words voor .NET, waarmee u het bereik van de waarden op de as kunt bepalen. |
 | [Intervaleenheid tussen labels op de as van een grafiek](./interval-unit-between-labels-on-axis/) | Leer hoe u de intervaleenheid tussen labels op de as van een grafiek instelt met Aspose.Words voor .NET. |
 | [Grafiekas verbergen in een Word-document](./hide-chart-axis/) Leer hoe u de grafiekas in een Word-document kunt verbergen met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze zelfstudie. |
+| [Hoe een histogram maken in Word met Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Leer hoe u een histogram in een Word-document maakt met Aspose.Words voor .NET in deze stapsgewijze handleiding. |
 | [Selecteer de uitlijning van labels met meerdere regels in een grafiek](./tick-multi-line-label-alignment/) | Leer hoe u labels over meerdere regels in een grafiek kunt uitlijnen met Aspose.Words voor .NET met onze gedetailleerde stapsgewijze handleiding. Perfect voor ontwikkelaars van alle niveaus. |
 | [Pas het gegevenslabel van de grafiek aan](./chart-data-label/) | Leer hoe u gegevenslabels in grafieken kunt aanpassen met Aspose.Words voor .NET in een stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars. |
 | [Standaardopties instellen voor gegevenslabels in een grafiek](./default-options-for-data-labels/) | Leer hoe u standaardopties voor gegevenslabels in een grafiek instelt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om moeiteloos grafieken te maken en aan te passen. |
 | [Pas een enkel grafiekgegevenspunt in een grafiek aan](./single-chart-data-point/) | Leer hoe u afzonderlijke grafiekgegevenspunten kunt aanpassen met Aspose.Words voor .NET in een gedetailleerde stapsgewijze handleiding. Verfraai uw grafieken met unieke markeringen en formaten. |
 | [Pas enkele grafiekreeksen in een grafiek aan](./single-chart-series/) | Leer hoe u afzonderlijke grafiekreeksen in een Word-document kunt aanpassen met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor een naadloze ervaring. |
-
+| [Series opmaken in een Word-lijndiagram met C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Leer hoe u series in een Word-lijndiagram opmaakt met Aspose.Words voor .NET en C#. |
+| [Hoe een Word-document C# te maken met een kolomgrafiek en opgemaakte labels](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Leer hoe u een Word-document met een kolomgrafiek en opgemaakte labels maakt met C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

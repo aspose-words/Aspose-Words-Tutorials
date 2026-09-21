@@ -42,7 +42,10 @@ Med dessa handledningar kommer du att kunna förbättra dina Word-dokument genom
 | [Ange standardalternativ för dataetiketter i ett diagram](./default-options-for-data-labels/) | Lär dig hur du ställer in standardalternativ för dataetiketter i ett diagram med Aspose.Words för .NET. Följ vår steg-för-steg-guide för att enkelt skapa och anpassa diagram. |
 | [Anpassa en enskild diagramdatapunkt i ett diagram](./single-chart-data-point/) | Lär dig hur du anpassar datapunkter för enskilda diagram med Aspose.Words för .NET i en detaljerad steg-för-steg-guide. Förbättra dina diagram med unika markörer och storlekar. |
 | [Anpassa enskilda diagramserier i ett diagram](./single-chart-series/) | Lär dig hur du anpassar enskilda diagramserier i ett Word-dokument med Aspose.Words för .NET. Följ vår steg-för-steg-guide för en smidig upplevelse. |
-
+| [Hur man skapar cirkeldiagram i ett Word-dokument med Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Lär dig hur du skapar ett cirkeldiagram i ett Word-dokument med Aspose.Words i denna steg-för-steg-guide. |
+| [Hur du formaterar serier i ett Word-linjediagram med C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Lär dig hur du formaterar serier i ett linjediagram i Word med Aspose.Words för .NET och C# i denna steg-för-steg-guide. |
+| [Hur du skapar Word-dokument C# med ett stapeldiagram och formaterade etiketter](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Lär dig hur du skapar ett Word-dokument med ett stapeldiagram och anpassade etiketter i C# med Aspose.Words för .NET. |
+| [Hur man skapar histogram i Word med Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Lär dig hur du skapar ett histogram i ett Word-dokument med Aspose.Words för .NET i denna steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

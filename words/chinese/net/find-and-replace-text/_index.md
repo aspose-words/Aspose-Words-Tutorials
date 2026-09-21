@@ -35,7 +35,7 @@ Aspose.Words for .NET 是一个功能强大的库，它提供了丰富的功能�
 | [识别替换模式中的替换](./recognize-and-substitutions-within-replacement-patterns/) 学习如何使用 Aspose.Words for .NET 识别和替换替换模式中的文本。包含详细示例的分步指南。|
 | [替换为字符串](./replace-with-string/) 学习如何使用 Aspose.Words for .NET 替换 Word 文档中的字符串，本指南一步步讲解。非常适合希望实现文档编辑自动化的开发人员。|
 | [替换表中的文本](./replace-text-in-table/) 按照这份详细的分步指南，使用 Aspose.Words for .NET 轻松替换 Word 表中的文本。|
-
+| [如何在 C# 中生成文档模板并填充数据](./how-to-generate-document-template-and-fill-it-with-data-in-c/) 了解如何使用 Aspose.Words for .NET 在 C# 中创建文档模板并填充数据。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

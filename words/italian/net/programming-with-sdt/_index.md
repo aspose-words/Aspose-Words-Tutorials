@@ -36,7 +36,7 @@ Gli esempi di codice forniti nei tutorial ti aiuteranno a comprendere i concetti
 | [Creazione di una sezione ripetuta della tabella mappata alla parte XML personalizzata](./creating-table-repeating-section-mapped-to-custom-xml-part/) | Scopri come creare una tabella con una sezione ripetuta mappata a una CustomXmlPart in un documento Word utilizzando Aspose.Words per .NET. |
 | [Multisezione](./multi-section/) Scopri come utilizzare tag di documenti strutturati multi-sezione in Aspose.Words per .NET con questo tutorial passo passo. Ideale per la manipolazione dinamica di documenti. |
 | [Intervallo di tag del documento strutturato Avvia la mappatura XML](./structured-document-tag-range-start-xml-mapping/) | Scopri come associare dinamicamente dati XML a tag di documenti strutturati in Word utilizzando Aspose.Words per .NET. Segui la nostra guida passo passo. |
-
+| [Come salvare un documento Word con SDT usando Aspose.Words in C#](./how-to-save-word-document-with-sdt-using-aspose-words-in-c/) | Scopri come salvare un documento Word contenente controlli SDT con Aspose.Words per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

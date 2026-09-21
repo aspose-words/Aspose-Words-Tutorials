@@ -42,14 +42,14 @@ Aspose.Words for .NET グラフィックスプログラミングチュートリ�
 | [グラフのデータラベルのデフォルトオプションを設定する](./default-options-for-data-labels/) Aspose.Words for .NET を使用して、グラフのデータラベルのデフォルトオプションを設定する方法を学びましょう。ステップバイステップのガイドに従って、簡単にグラフを作成およびカスタマイズできます。 |
 | [グラフ内の単一のグラフデータポイントをカスタマイズする](./single-chart-data-point/) Aspose.Words for .NET を使用して、グラフの個々のデータポイントをカスタマイズする方法を、詳細なステップバイステップガイドで学びましょう。独自のマーカーとサイズでグラフの魅力を高めましょう。 |
 | [チャート内の単一のチャートシリーズをカスタマイズする](./single-chart-series/) Aspose.Words for .NET を使用して、Word 文書内の単一のグラフ系列をカスタマイズする方法を学びましょう。ステップバイステップのガイドに従って、シームレスに操作できます。 |
-
-
+| [Aspose.Words を使用して Word 文書に円グラフを作成する方法](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書に円グラフを挿入する手順をステップバイステップで解説します。 |
+| [C# で Word の折れ線グラフの系列をフォーマットする方法](./how-to-format-series-in-a-word-line-chart-with-c/) Aspose.Words for .NET を使用して、Word の折れ線グラフの系列をカスタマイズする手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用して Word 文書にヒストグラムを作成する方法](./how-to-create-histogram-in-word-with-aspose-words/) Aspose.Words for .NET を使用して、Word 文書にヒストグラムを挿入し、データを視覚化する手順をステップバイステップで解説します。 |
+| [C# で列グラフと書式設定されたラベルを含む Word 文書を作成する方法](./how-to-create-word-document-c-with-a-column-chart-and-format/) Aspose.Words for .NET を使用して、C# で列グラフと書式設定ラベルを持つ Word 文書を作成する手順を解説します。 |
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

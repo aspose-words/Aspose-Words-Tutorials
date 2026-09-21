@@ -25,6 +25,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Bandingkan Opsi Dalam Dokumen Word](./compare-options/) | Pelajari cara membandingkan dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah kami. Pastikan konsistensi dokumen dengan mudah. Bahasa Indonesia:
 | [Target Perbandingan Dalam Dokumen Word](./comparison-target/) | Bandingkan dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan terperinci langkah demi langkah ini. Hemat waktu dan tingkatkan akurasi dalam perbandingan dokumen. Bahasa Indonesia:
 | [Perbandingan Granularitas Dalam Dokumen Word](./comparison-granularity/) | Pelajari perbandingan granularitas dalam fitur dokumen Word Aspose.Words untuk .NET yang memungkinkan dokumen dibandingkan karakter demi karakter, melaporkan perubahan yang dibuat. |
+| [Cara Membandingkan Dua Dokumen Word dan Mendeteksi Perubahan](./how-to-compare-two-word-documents-and-detect-changes/) | Pelajari cara membandingkan dua dokumen Word serta mendeteksi perubahan menggunakan Aspose.Words untuk .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

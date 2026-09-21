@@ -26,7 +26,7 @@ Split Document, Aspose.Words for .NET kütüphanesini kullanarak bir belgenin ay
 | [Word Belgesini Sayfaya Göre Böl](./page-by-page/) | Bu ayrıntılı, adım adım kılavuzla Aspose.Words for .NET kullanarak bir Word belgesini sayfalara göre nasıl böleceğinizi öğrenin. Büyük belgeleri verimli bir şekilde yönetmek için mükemmeldir. |
 | [Belgeleri Birleştir](./merge-documents/) | Aspose.Words for .NET'in Merge Documents özelliğinin C# kaynak kodunu açıklayan adım adım kılavuz |
 | [Word Belgesini Sayfa Aralığına Göre Böl](./by-page-range/) | Ayrıntılı adım adım kılavuzumuzla Aspose.Words for .NET kullanarak bir Word belgesini sayfa aralığına göre nasıl böleceğinizi öğrenin. Geliştiriciler için mükemmel. |
-
+| [C# ile Word belgesini ayrı dosyalara bölme](./how-to-split-word-document-into-separate-files-with-c/) | Aspose.Words for .NET kullanarak bir Word belgesini C# ile ayrı dosyalara nasıl böleceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
