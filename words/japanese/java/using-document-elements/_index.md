@@ -71,6 +71,9 @@ Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使�
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [C# で空白の Word 文書を作成し、レーダーチャートを追加する方法](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C# を使用して空の Word 文書を作成し、レーダーチャートを挿入する手順を学びます。
+### [Aspose.Words for Java で Word 文書をプログラム的に作成し、ボタンを挿入する](./create-word-document-programmatically-and-insert-a-button/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

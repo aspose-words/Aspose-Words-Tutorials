@@ -90,6 +90,8 @@ Lär dig hur du delar upp dokument effektivt i Aspose.Words för Java. Utforska 
 Lär dig hur du delar upp dokument till HTML-sidor med Aspose.Words för Java. Följ vår steg-för-steg-guide för sömlös dokumentkonvertering.
 ### [Lägga till innehåll med DocumentBuilder i Aspose.Words för Java](./adding-content-using-documentbuilder/)
 Bemästra dokumentskapande med Aspose.Words för Java. En steg-för-steg-guide för att lägga till text, tabeller, bilder och mer. Skapa fantastiska Word-dokument utan ansträngning.
+### [Skapa ett tomt Word-dokument med en textkontroll i Aspose.Words för Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+Lär dig skapa ett tomt Word-dokument och lägga till en textkontroll med Aspose.Words för Java.
 ### [Kloning och kombination av dokument i Aspose.Words för Java](./cloning-and-combining-documents/)
 Lär dig hur du klonar och kombinerar dokument i Aspose.Words för Java. Steg-för-steg-guide med exempel på källkod.
 ### [Jämföra dokument i Aspose.Words för Java](./comparing-documents/)

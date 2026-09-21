@@ -38,6 +38,15 @@ Learn how to generate high-quality thumbnails and custom-sized bitmaps of Word d
 ### [Add shadow to shape in Word – Complete Aspose.Words Guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Learn how to apply shadow effects to shapes in Word documents using Aspose.Words for Java, with step-by-step code examples.
 
+### [Create word document programmatically, group shapes in Java](./create-word-document-programmatically-group-shapes-in-java/)
+Learn how to programmatically create a Word document and group shapes using Aspose.Words for Java.
+
+### [How to create doughnut chart in a Word document with Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Learn how to generate a doughnut chart in a Word document using Aspose.Words for Java with step-by-step code examples.
+
+### [How to create blank Word document and add a hidden ellipse shape in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Learn how to generate a blank Word document and insert a hidden ellipse shape using Aspose.Words for C#.
+
 ## Additional Resources
 - [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/)

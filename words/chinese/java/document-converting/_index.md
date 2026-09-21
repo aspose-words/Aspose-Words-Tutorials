@@ -103,6 +103,9 @@ weight: 14
 ### [使用 Aspose.Words 将 docx 保存为 markdown – 完整指南](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 学习如何使用 Aspose.Words for Java 将 DOCX 文档导出为 Markdown 格式，完整步骤与代码示例。
 
+### [如何使用 Java 将 Markdown 保存为 DOCX – 完整指南](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+学习如何使用 Aspose.Words for Java 将 Markdown 保存为 DOCX，完整步骤指南。
+
 ## 常见问题
 
 **Q:** *我可以将受密码保护的 Word 文件转换为 PDF 吗？*  

@@ -37,6 +37,15 @@
 ### [إضافة ظل إلى الشكل في Word – دليل Aspose.Words الكامل](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
+### [إنشاء مستند Word برمجيًا، تجميع الأشكال في Java](./create-word-document-programmatically-group-shapes-in-java/)
+دليل لإنشاء مستند Word برمجيًا وتجميع الأشكال باستخدام Aspose.Words لجافا
+
+### [كيفية إنشاء مستند Word فارغ وإضافة شكل بيضاوي مخفي في C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+دليل لإنشاء مستند Word فارغ وإضافة شكل بيضاوي مخفي باستخدام C#.
+
+### [كيفية إنشاء مخطط دونات في مستند Word باستخدام Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+تعلم كيفية إنشاء مخطط دونات داخل مستند Word باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)
 - [مرجع Aspose.Words لواجهة برمجة تطبيقات Java](https://reference.aspose.com/words/java/)

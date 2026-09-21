@@ -71,6 +71,10 @@ Lär dig använda OLE-objekt och ActiveX-kontroller i Aspose.Words för Java. Sk
 Lär dig att använda Aspose.Words för Javas revisionskontroller effektivt. Steg-för-steg-guide för utvecklare. Optimera din dokumenthantering.
 ### [Använda sektioner i Aspose.Words för Java](./using-sections/)
 Utforska Aspose.Words för Java: En omfattande guide om hur man använder sektioner. Lägg till, ta bort, lägg till och klona sektioner med kodexempel.
+### [Skapa Word-dokument programatiskt och infoga en knapp](./create-word-document-programmatically-and-insert-a-button/)
+Lär dig hur du skapar ett Word-dokument programatiskt och lägger till en knapp med Aspose.Words för Java.
+### [Skapa ett tomt Word-dokument och lägg till ett radardiagram i C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Lär dig hur du skapar ett tomt Word-dokument och infogar ett radardiagram med C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

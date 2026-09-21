@@ -71,6 +71,10 @@
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
 สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+### [สร้างเอกสาร Word อย่างโปรแกรมเมติกและแทรกปุ่ม](./create-word-document-programmatically-and-insert-a-button/)
+เรียนรู้วิธีสร้างเอกสาร Word ด้วยโค้ด Java และแทรกปุ่มโต้ตอบในเอกสาร
+### [วิธีสร้างเอกสาร Word ว่างและเพิ่มแผนภูมิเรดาร์ใน C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+เรียนรู้วิธีสร้างเอกสาร Word ว่างและใส่แผนภูมิเรดาร์โดยใช้ Aspose.Words for C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

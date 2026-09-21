@@ -103,6 +103,9 @@ weight: 14
 ### [Сохранить docx как markdown с Aspose.Words – Полное руководство](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words for Java, шаг за шагом.
 
+### [Как сохранить Markdown как DOCX с помощью Java – полное руководство](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Узнайте, как преобразовать файлы Markdown в формат DOCX с помощью Aspose.Words for Java, шаг за шагом.
+
 ## Часто задаваемые вопросы
 
 **Q:** *Можно ли конвертировать Word‑файлы, защищённые паролем, в PDF?*  

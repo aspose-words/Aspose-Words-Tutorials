@@ -104,6 +104,9 @@ Apprenez à convertir des documents Word en images avec Aspose.Words for Java. G
 ### [Enregistrer un docx au format markdown avec Aspose.Words – Guide complet](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Apprenez à convertir des fichiers DOCX en Markdown avec Aspose.Words for Java grâce à ce guide complet.
 
+### [Comment enregistrer du Markdown en DOCX avec Java – guide complet](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Apprenez à sauvegarder du contenu Markdown au format DOCX en Java avec Aspose.Words – guide complet et exemples de code.
+
 ## FAQ
 
 **Q :** *Puis‑je convertir des fichiers Word protégés par mot de passe en PDF ?*  

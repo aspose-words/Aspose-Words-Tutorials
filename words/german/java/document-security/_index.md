@@ -39,6 +39,8 @@ Erfahren Sie, wie Sie Dokumentberechtigungen mit Aspose.Words für Java effektiv
 Erfahren Sie, wie Sie Dokumente mit Aspose.Words für Java verschlüsseln und entschlüsseln. Sichern Sie Ihre Daten effizient mit Schritt-für-Schritt-Anleitungen und Quellcodebeispielen.
 ### [Digitale Signaturen in Dokumenten](./digital-signatures-in-documents/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java sichere digitale Signaturen in Dokumenten implementieren. Sichern Sie die Dokumentintegrität mit Schritt-für-Schritt-Anleitung und Quellcode
+### [Wie Sie eine digitale Signatur zu einem Word-Dokument mit Aspose.Words hinzufügen](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Erfahren Sie, wie Sie mit Aspose.Words digitale Signaturen in Word-Dokumente einbetten.
 ### [Dokumentenredaktion und Datenschutz](./document-redaction-data-protection/)
 Erfahren Sie, wie Sie Ihre Dokumente mit Aspose.Words für Java sichern und vertrauliche Daten schwärzen. Schritt-für-Schritt-Anleitung mit Quellcode.
 

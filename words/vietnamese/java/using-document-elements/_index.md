@@ -50,7 +50,7 @@ Học cách sử dụng Aspose.Words cho các trường Java một cách hiệu 
 ### [Sử dụng Phông chữ trong Aspose.Words cho Java](./using-fonts/)
 Khám phá định dạng phông chữ trong Aspose.Words for Java: kích thước, kiểu, màu sắc và nhiều hơn nữa. Tạo tài liệu được định dạng đẹp mắt một cách dễ dàng.
 ### [Sử dụng Footnotes và Endnotes trong Aspose.Words cho Java](./using-footnotes-and-endnotes/)
-Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words for Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
+Học cách sử dụng chú thích cuối trang và chú thích cuối văn bản hiệu quả trong Aspose.Words cho Java. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!
 ### [Sử dụng trường biểu mẫu trong Aspose.Words cho Java](./using-form-fields/)
 "Học cách sử dụng Aspose.Words for Java để tạo tài liệu Word tương tác với các trường biểu mẫu. Bắt đầu ngay!"
 ### [Sử dụng HarfBuzz trong Aspose.Words cho Java](./using-harfbuzz/)
@@ -71,6 +71,10 @@ Học cách sử dụng các đối tượng OLE và điều khiển ActiveX tro
 Học cách sử dụng Aspose.Words cho các điều khiển sửa đổi của Java một cách hiệu quả. Hướng dẫn từng bước cho các nhà phát triển. Tối ưu hóa việc quản lý tài liệu của bạn.
 ### [Sử dụng Sections trong Aspose.Words cho Java](./using-sections/)
 Khám phá Aspose.Words for Java: Hướng dẫn toàn diện về cách sử dụng các phần. Thêm, xóa, thêm, sao chép các phần với các ví dụ mã.
+### [Tạo tài liệu Word bằng cách lập trình và chèn nút](./create-word-document-programmatically-and-insert-a-button/)
+Hướng dẫn tạo tài liệu Word và chèn nút tương tác bằng Aspose.Words cho Java.
+### [Cách tạo tài liệu Word trống và thêm biểu đồ radar trong C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Hướng dẫn tạo tài liệu Word trống và chèn biểu đồ radar bằng C# sử dụng Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

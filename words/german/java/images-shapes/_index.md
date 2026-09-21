@@ -37,6 +37,15 @@ Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten u
 ### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
 
+### [Word-Dokument programmgesteuert erstellen und Formen gruppieren in Java](./create-word-document-programmatically-group-shapes-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument erstellen und mehrere Formen zu einer Gruppe zusammenfassen.
+
+### [Wie man ein leeres Word-Dokument erstellt und eine versteckte Ellipsenform in C# hinzufügt](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Ein Code‑Tutorial, das zeigt, wie Sie mit C# ein leeres Word‑Dokument erzeugen und eine unsichtbare Ellipse hinzufügen.
+
+### [Wie man ein Donut-Diagramm in einem Word-Dokument mit Java erstellt](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Donut-Diagramm in ein Word-Dokument einfügen.
+
 ## Weitere Ressourcen
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)
