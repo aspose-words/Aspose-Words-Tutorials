@@ -130,6 +130,12 @@ Lär dig hur du identifierar rätt filändelse när du konverterar DOCX till Mar
 ### [Konvertera Word till Markdown – Extrahera bilder i C#](./convert-word-to-markdown-extract-images-in-c/)
 Lär dig extrahera bilder när du konverterar Word-dokument till Markdown med C# och Aspose.Words.
 
+### [Spara Word-bilder vid konvertering till Markdown – Fullständig C#-guide](./save-word-images-while-converting-word-to-markdown-complete/)
+Lär dig spara bilder från Word när du konverterar till Markdown med en komplett C#‑guide.
+
+### [Konvertera docx till markdown i C# – Steg‑för‑steg‑guide](./convert-docx-to-markdown-in-c-step-by-step-guide/)
+Lär dig konvertera DOCX-filer till Markdown i C# med en detaljerad steg‑för‑steg‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

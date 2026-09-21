@@ -45,6 +45,9 @@ Basic Conversions проведет вас через базовые преобр
 | [Конвертировать Docx в PDF и Markdown – Полное руководство C#](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | Узнайте, как конвертировать DOCX в PDF и Markdown с помощью Aspose.Words для .NET в полном руководстве на C#. Пошаговые примеры кода. |
 | [Создать доступный PDF из DOCX – Полное руководство Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Узнайте, как создать доступный PDF из DOCX с помощью Aspose.Words для .NET. Пошаговое руководство с примерами кода. |
 | [Конвертировать PNG в Base64 в C# – Полное руководство](./convert-png-to-base64-in-c-complete-guide/) | Узнайте, как преобразовать изображение PNG в строку Base64 в C# с помощью подробного пошагового руководства. |
+| [Сохранить Word как PDF в C# – Полное руководство по доступному преобразованию](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Подробное руководство по конвертации Word в PDF в C# с учётом доступности, включая примеры кода и настройки. |
+| [Создать PDF из Word – Полное руководство C# с определением шрифтов](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Узнайте, как создать PDF из документа Word в C#, автоматически определяя используемые шрифты для точного отображения. |
+| [Создать PDF из DOCX в C# – Полное руководство с экспортом фигур](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Полное руководство по созданию PDF из DOCX в C# с экспортом фигур, включая примеры кода и настройки. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

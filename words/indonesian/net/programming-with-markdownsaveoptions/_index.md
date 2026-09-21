@@ -31,6 +31,8 @@ Pelajari cara membuat PDF yang dapat diakses dan mengonversi dokumen Word ke Mar
 Pelajari cara mengonversi dokumen DOCX ke Markdown dengan persamaan LaTeX menggunakan Aspose.Words untuk .NET.
 ### [Konversi docx ke markdown – Panduan Langkah‑demi‑Langkah C#](./convert-docx-to-markdown-step-by-step-c-guide/)
 Pelajari cara mengonversi file DOCX ke format Markdown dengan panduan langkah demi langkah menggunakan C#.
+### [Mengonversi docx ke markdown dalam C# – Panduan Langkah‑demi‑Langkah](./convert-docx-to-markdown-in-c-step-by-step-guide/)
+Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap langkah demi langkah dalam C#.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Persamaan LaTeX](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
 Pelajari cara mengonversi file DOCX ke Markdown dengan panduan lengkap C# termasuk persamaan LaTeX.
 ### [Simpan docx sebagai markdown – Panduan Lengkap C# dengan Ekstraksi Gambar](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
@@ -95,6 +97,8 @@ Pelajari cara mempertahankan pemutusan baris saat mengonversi file DOCX ke Markd
 Pelajari cara mengekspor persamaan LaTeX dari dokumen Word dan mengonversinya menjadi file Markdown serta TXT menggunakan Aspose.Words untuk .NET.
 ### [Menentukan ekstensi file saat mengonversi DOCX ke Markdown – Panduan Lengkap](./determine-file-extension-while-converting-docx-to-markdown-c/)
 Pelajari cara menentukan ekstensi file yang tepat saat mengonversi DOCX ke Markdown menggunakan Aspose.Words untuk .NET.
+### [Simpan gambar Word saat mengonversi Word ke Markdown – Panduan Lengkap C#](./save-word-images-while-converting-word-to-markdown-complete/)
+Pelajari cara menyimpan gambar dari dokumen Word saat mengonversinya ke format Markdown dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

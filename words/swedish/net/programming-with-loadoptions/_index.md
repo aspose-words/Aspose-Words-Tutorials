@@ -47,6 +47,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Hur du återställer DOCX – Komplett guide med Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Lär dig steg för steg hur du återställer skadade DOCX-filer med Aspose.Words i .NET. |
 | [Återställ korrupt Word-dokument – Komplett C#-guide](./recover-corrupted-word-document-complete-c-guide/) | Lär dig hur du återställer skadade Word-dokument med en komplett C#-guide i Aspose.Words för .NET. |
 | [Återställ skadad DOCX-fil med Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) Lär dig hur du återställer skadade DOCX-filer med Aspose.Words för .NET i en enkel steg-för-steg-guide. |
+| [Återställ korrupta DOCX-filer i C# – Komplett guide](./recover-corrupted-docx-files-in-c-complete-guide/) | Lär dig hur du återställer skadade DOCX-filer med C# och Aspose.Words i en detaljerad steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

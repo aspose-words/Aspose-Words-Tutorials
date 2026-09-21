@@ -60,6 +60,8 @@ Words Processing with MarkdownSaveOptions là một nguồn tài nguyên chuyên
 | [Bảo tồn ngắt dòng: Chuyển DOCX sang Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Hướng dẫn cách bảo tồn các ngắt dòng khi chuyển tài liệu DOCX sang Markdown bằng Aspose.Words cho .NET. |
 | [Cách xuất LaTeX từ Word – Chuyển DOCX sang Markdown & TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Hướng dẫn chi tiết cách xuất công thức LaTeX từ tài liệu Word, chuyển DOCX sang Markdown và TXT bằng Aspose.Words cho .NET. |
 | [Xác định phần mở rộng tệp khi chuyển DOCX sang Markdown – Hướng dẫn đầy đủ](./determine-file-extension-while-converting-docx-to-markdown-c/) | Hướng dẫn chi tiết cách xác định phần mở rộng tệp trong quá trình chuyển đổi DOCX sang Markdown bằng C# và Aspose.Words. |
+| [Lưu hình ảnh Word khi chuyển đổi Word sang Markdown – Hướng dẫn đầy đủ C#](./save-word-images-while-converting-word-to-markdown-complete/) | Hướng dẫn chi tiết cách lưu trữ hình ảnh khi chuyển đổi tài liệu Word sang Markdown bằng C# và Aspose.Words. |
+| [Chuyển docx sang markdown trong C# – Hướng dẫn từng bước](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi file docx sang markdown bằng C# và Aspose.Words, bao gồm các bước và mã mẫu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

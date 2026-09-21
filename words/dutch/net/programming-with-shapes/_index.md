@@ -41,6 +41,7 @@ Door Aspose.Words voor .NET te gebruiken en deze tutorials te volgen, krijgt u d
 | [Aspose.Words Vormschaduw Tutorial – Voeg een schaduw toe aan een Word-vorm in C#](./aspose-words-shape-shadow-tutorial-add-a-shadow-to-word-shap/) | Leer hoe u een schaduw toevoegt aan vormen in Word-documenten met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 | [Leeg Word‑document maken met een schaduwrechthoek – Stapsgewijze handleiding](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Leer hoe u een leeg Word‑document maakt en een rechthoek met schaduw toevoegt met Aspose.Words voor .NET. |
 | [Schaduw toevoegen aan vorm in C# – Complete gids voor het toepassen van schaduweffect](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Leer hoe u schaduweffecten op vormen toepast in Word-documenten met Aspose.Words voor .NET in C#. |
+| [Hoe u vormschaduw bewerkt in C# met Aspose.Words – Stapsgewijze handleiding](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Leer hoe u de schaduw van vormen in Word‑documenten bewerkt met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,9 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [Maak een toegankelijke PDF van DOCX – Complete Aspose-gids](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Leer hoe u een toegankelijke PDF maakt vanuit een DOCX-bestand met Aspose.Words voor .NET, inclusief stapsgewijze instructies en voorbeeldcode. |
 | [PNG naar Base64 converteren in C# – Complete gids](./convert-png-to-base64-in-c-complete-guide/) | Leer hoe u PNG-afbeeldingen naar Base64-code converteert in C# met Aspose.Words, inclusief voorbeeldcode en stapsgewijze uitleg. |
 | [Maak toegankelijke PDF vanuit Word – Stapsgewijze gids](./create-accessible-pdf-from-word-step-by-step-guide/) | Leer hoe u een toegankelijke PDF maakt vanuit een Word-document met Aspose.Words voor .NET. Volg onze stap‑voor‑stap handleiding. |
+| [PDF maken vanuit Word – Complete C#‑gids met lettertype‑detectie](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Leer hoe u PDF's genereert vanuit Word in C# met Aspose.Words, inclusief automatische lettertype‑detectie. |
+| [PDF maken van DOCX in C# – Volledige gids met vormexport](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Leer hoe u PDF's genereert vanuit DOCX in C# met Aspose.Words, inclusief export van vormen en geavanceerde opties. |
+| [Word opslaan als PDF in C# – Complete toegankelijke conversiegids](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Leer hoe u Word-documenten toegankelijk als PDF converteert in C# met Aspose.Words, inclusief tips voor toegankelijkheidsopties. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

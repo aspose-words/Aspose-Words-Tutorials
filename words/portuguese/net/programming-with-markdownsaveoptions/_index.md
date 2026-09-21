@@ -128,6 +128,12 @@ Aprenda a identificar e definir a extensão correta ao converter documentos DOCX
 ### [Converter Word para Markdown – Extrair Imagens em C#](./convert-word-to-markdown-extract-images-in-c/)
 Aprenda a converter documentos Word para Markdown extraindo imagens usando C# e Aspose.Words.
 
+### [Salvar imagens do Word ao converter Word para Markdown – Guia completo em C#](./save-word-images-while-converting-word-to-markdown-complete/)
+Aprenda a extrair e salvar imagens ao converter documentos Word para Markdown usando C# e Aspose.Words.
+
+### [Converter docx para markdown em C# – Guia passo a passo](./convert-docx-to-markdown-in-c-step-by-step-guide/)
+Aprenda a converter arquivos DOCX para Markdown em C# com instruções detalhadas e exemplos de código usando Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

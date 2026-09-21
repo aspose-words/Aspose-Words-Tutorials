@@ -45,6 +45,9 @@
 | [DOCX से सुलभ PDF बनाएं – पूर्ण Aspose गाइड](./create-accessible-pdf-from-docx-complete-aspose-guide/) | .NET के लिए Aspose.Words का उपयोग करके DOCX से एक्सेसिबल PDF बनाने की पूरी गाइड। चरण‑दर‑स्टेप निर्देश और कोड उदाहरण। |
 | [C# में PNG को Base64 में बदलें – पूर्ण गाइड](./convert-png-to-base64-in-c-complete-guide/) | C# में PNG इमेज को Base64 स्ट्रिंग में बदलने की पूरी गाइड, कोड उदाहरण और चरण‑दर‑स्टेप निर्देश। |
 | [Word से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-step-by-step-guide/) | Word दस्तावेज़ से सुलभ PDF बनाने की चरण‑दर‑स्टेप प्रक्रिया, एक्सेसिबिलिटी विकल्पों के साथ। |
+| [Word से PDF बनाएं – फ़ॉन्ट‑डिटेक्शन के साथ पूर्ण C# गाइड](./create-pdf-from-word-complete-c-guide-with-font-detection/) | .NET के लिए Aspose.Words का उपयोग करके फ़ॉन्ट पहचान के साथ Word दस्तावेज़ को PDF में बदलने की पूरी मार्गदर्शिका। |
+| [C# में DOCX से PDF बनाएं – आकार निर्यात के साथ पूर्ण गाइड](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX से PDF बनाते समय आकार (शेप) निर्यात कैसे करें, सीखें। विस्तृत कोड उदाहरण और चरण‑दर‑स्टेप मार्गदर्शिका। |
+| [C# में Word को PDF के रूप में सहेजें – पूर्ण सुलभ रूपांतरण गाइड](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | C# में Aspose.Words का उपयोग करके Word को PDF में सहेजने की पूरी सुलभ रूपांतरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@ Mit Aspose.Words für .NET und diesen Tutorials meistern Sie die Bearbeitung von
 
 | [Leeres Word-Dokument mit schattierter Rechteckform erstellen – Schritt‑für‑Schritt‑Anleitung](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein leeres Word-Dokument erstellen und eine schattierte Rechteckform hinzufügen. |
 | [Schatten zu Form in C# hinzufügen – Vollständige Anleitung zum Anwenden des Schatteneffekts](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET in C# Schatteneffekte zu Formen hinzufügen und anpassen. |
+| [Wie man den Formschatten in C# mit Aspose.Words bearbeitet – Schritt‑für‑Schritt‑Anleitung](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Words für .NET den Schatten von Formen in Word-Dokumenten anpassen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

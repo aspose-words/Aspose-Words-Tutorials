@@ -47,6 +47,7 @@
 | [استعادة ملف DOCX تالف – دليل كامل بلغة C#](./recover-corrupted-docx-complete-c-guide/) | تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام دليل شامل بلغة C#. |
 | [استعادة مستند Word التالف – دليل C# كامل](./recover-corrupted-word-document-complete-c-guide/) | تعلّم كيفية استعادة مستندات Word التالفة باستخدام Aspose.Words بلغة C# من خلال دليل شامل خطوة بخطوة. |
 | [استعادة ملف DOCX تالف باستخدام Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | تعلّم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words خطوة بخطوة. |
+| [استعادة ملفات DOCX التالفة في C# – دليل شامل](./recover-corrupted-docx-files-in-c-complete-guide/) | تعلم كيفية استعادة ملفات DOCX التالفة باستخدام C# و Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,9 @@ Grundläggande konverteringar guidar dig genom grundläggande dokumentkonverteri
 | [Skapa tillgänglig PDF från DOCX – Komplett Aspose‑guide](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett DOCX‑dokument med Aspose.Words för .NET i en komplett steg‑för‑steg‑guide. |
 | [Konvertera PNG till Base64 i C# – Komplett guide](./convert-png-to-base64-in-c-complete-guide/) | Lär dig hur du konverterar PNG-bilder till Base64-strängar i C# med vår kompletta guide. |
 | [Skapa tillgänglig PDF från Word – steg‑för‑steg‑guide](./create-accessible-pdf-from-word-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF från ett Word-dokument med Aspose.Words för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [Skapa PDF från Word – Komplett C#-guide med teckensnittsdetektering](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Lär dig hur du skapar PDF från Word i C# med Aspose.Words, inklusive automatisk teckensnittsdetektering för korrekt rendering. |
+| [Skapa PDF från DOCX i C# – Fullständig guide med formexport](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Lär dig hur du konverterar DOCX till PDF i C# med Aspose.Words, inklusive export av former och grafik. Komplett steg‑för‑steg‑guide. |
+| [Spara Word som PDF i C# – Komplett tillgänglig konverteringsguide](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Lär dig hur du konverterar Word till PDF i C# med full tillgänglighet, inklusive steg‑för‑steg‑instruktioner och kodexempel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

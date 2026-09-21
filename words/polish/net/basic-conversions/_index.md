@@ -45,6 +45,9 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Utwórz dostępny PDF z DOCX – Kompletny przewodnik Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Dowiedz się, jak wygenerować dostępny PDF z pliku DOCX przy użyciu Aspose.Words dla .NET, zapewniając zgodność z WCAG. |
 | [Konwertuj PNG na Base64 w C# – Kompletny przewodnik](./convert-png-to-base64-in-c-complete-guide/) | Dowiedz się, jak w C# zamienić plik PNG na ciąg Base64 przy użyciu Aspose.Words. Szczegółowy przewodnik krok po kroku. |
 | [Utwórz dostępny PDF z Worda – przewodnik krok po kroku](./create-accessible-pdf-from-word-step-by-step-guide/) | Dowiedz się, jak przy użyciu Aspose.Words dla .NET stworzyć dostępny plik PDF z dokumentu Word, zapewniając zgodność z WCAG. |
+| [Zapisz Word jako PDF w C# – Kompletny przewodnik konwersji dostępnej](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Dowiedz się, jak w pełni dostępnie konwertować dokumenty Word na PDF w C# przy użyciu Aspose.Words, z uwzględnieniem dostępności. |
+| [Utwórz PDF z Worda – Kompletny przewodnik C# z wykrywaniem czcionek](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Dowiedz się, jak w C# wygenerować PDF z dokumentu Word, automatycznie wykrywając i osadzając użyte czcionki. |
+| [Utwórz PDF z DOCX w C# – Kompletny przewodnik z eksportem kształtów](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Dowiedz się, jak w pełnym przewodniku konwertować DOCX do PDF w C# z eksportem kształtów przy użyciu Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
