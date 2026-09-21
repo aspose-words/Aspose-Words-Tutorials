@@ -35,7 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengenali dan Mengganti Dalam Pola Penggantian](./recognize-and-substitutions-within-replacement-patterns/) | Pelajari cara mengenali dan mengganti teks dalam pola penggantian menggunakan Aspose.Words untuk .NET. Panduan langkah demi langkah dengan contoh terperinci. Bahasa Indonesia:
 | [Ganti Dengan String](./replace-with-string/) | Pelajari cara mengganti string dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin mengotomatiskan pengeditan dokumen. Bahasa Indonesia:
 | [Ganti Teks Dalam Tabel](./replace-text-in-table/) | Ganti teks dalam tabel Word dengan mudah menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci ini. |
-
+| [Cara Membuat Templat Dokumen dan Mengisinya dengan Data di C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Pelajari cara membuat templat dokumen dan mengisinya dengan data menggunakan C# dan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

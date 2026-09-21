@@ -32,7 +32,7 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Word Belgesine Baloncuk Grafiği Ekle](./insert-bubble-chart/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak Word belgesine bir kabarcık grafiğinin nasıl ekleneceğini öğrenin. Belgelerinizi geliştirin. |
 | [Word Belgesine Dağılım Grafiği Ekleme](./insert-scatter-chart/) | Aspose.Words for .NET ile Word'e dağılım grafiğinin nasıl ekleneceğini öğrenin. Belgelerinize görsel veri gösterimlerini entegre etmek için kolay adımlar. |
 | [Bir Grafikte XY Eksen Özelliklerini Tanımlayın](./define-xyaxis-properties/) Bu adım adım kılavuzla .NET için Aspose.Words'ü kullanarak bir grafikte XY ekseni özelliklerini nasıl tanımlayacağınızı öğrenin. .NET geliştiricileri için mükemmel. |
-| [Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme](./date-time-values-to-axis/) | Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin.
+| [Bir Grafiğin Eksenine Tarih Saat Değerleri Ekleme](./date-time-values-to-axis/) | Bu kapsamlı adım adım kılavuzda, Aspose.Words for .NET kullanarak bir grafiğin eksenine tarih ve saat değerlerinin nasıl ekleneceğini öğrenin. |
 | [Bir Grafikteki Eksen İçin Sayı Biçimi](./number-format-for-axis/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak grafik eksen numaralarını nasıl biçimlendireceğinizi öğrenin. Belgenizin okunabilirliğini ve profesyonelliğini zahmetsizce artırın. |
 | [Eksen Sınırları](./bounds-of-axis/) | Aspose.Words for .NET kullanarak bir grafikteki eksenin sınırlarının nasıl ayarlanacağını ve eksende görüntülenen değer aralığının nasıl kontrol edileceğini öğrenin. |
 | [Bir Grafik Eksenindeki Etiketler Arasındaki Aralık Birimi](./interval-unit-between-labels-on-axis/) | Aspose.Words for .NET kullanarak bir grafiğin eksenindeki etiketler arasındaki aralık birimini nasıl ayarlayacağınızı öğrenin. |
@@ -42,14 +42,15 @@ Bu eğitimlerle, Word belgelerinizi görsel olarak çekici ve bilgilendirici gra
 | [Bir Grafikteki Veri Etiketleri İçin Varsayılan Seçenekleri Ayarlama](./default-options-for-data-labels/) | Aspose.Words for .NET kullanarak bir grafikteki veri etiketleri için varsayılan seçenekleri nasıl ayarlayacağınızı öğrenin. Grafikleri zahmetsizce oluşturmak ve özelleştirmek için adım adım kılavuzumuzu izleyin. |
 | [Bir Grafikteki Tek Bir Grafik Veri Noktasını Özelleştirin](./single-chart-data-point/) | Aspose.Words for .NET kullanarak tek grafik veri noktalarını nasıl özelleştireceğinizi ayrıntılı adım adım bir kılavuzda öğrenin. Grafiklerinizi benzersiz işaretleyiciler ve boyutlarla geliştirin. |
 | [Bir Grafikteki Tek Grafik Serisini Özelleştir](./single-chart-series/) | Aspose.Words for .NET kullanarak Word belgesinde tek grafik serilerinin nasıl özelleştirileceğini öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin. |
-
+| [Aspose.Words ile Word Belgesinde Pasta Grafiği Oluşturma](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Aspose.Words for .NET kullanarak bir Word belgesine pasta grafiği eklemeyi adım adım öğrenin. |
+| [C# ile Word satır grafiğinde serileri biçimlendirme](./how-to-format-series-in-a-word-line-chart-with-c/) | Bu adım adım kılavuzda C# kullanarak Word satır grafiğindeki serileri nasıl biçimlendireceğinizi öğrenin. |
+| [Aspose.Words ile Word'de Histogram Oluşturma](./how-to-create-histogram-in-word-with-aspose-words/) | Aspose.Words for .NET kullanarak Word belgesine histogram eklemeyi adım adım öğrenin. |
+| [C# ile Sütun Grafiği ve Biçimlendirilmiş Etiketlerle Word Belgesi Oluşturma](./how-to-create-word-document-c-with-a-column-chart-and-format/) | C# kullanarak Word belgesine sütun grafiği ekleyin ve etiketleri biçimlendirin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

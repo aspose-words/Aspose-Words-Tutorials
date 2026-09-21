@@ -42,7 +42,10 @@ Mit diesen Tutorials können Sie Ihre Word-Dokumente mit ansprechenden und infor
 | [Festlegen von Standardoptionen für Datenbeschriftungen in einem Diagramm](./default-options-for-data-labels/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Standardoptionen für Datenbeschriftungen in einem Diagramm festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um mühelos Diagramme zu erstellen und anzupassen. |
 | [Anpassen eines einzelnen Diagrammdatenpunkts in einem Diagramm](./single-chart-data-point/) | Erfahren Sie in einer detaillierten Schritt-für-Schritt-Anleitung, wie Sie einzelne Diagrammdatenpunkte mit Aspose.Words für .NET anpassen. Optimieren Sie Ihre Diagramme mit individuellen Markierungen und Größen. |
 | [Anpassen einzelner Diagrammreihen in einem Diagramm](./single-chart-series/) | Erfahren Sie, wie Sie einzelne Diagrammreihen in einem Word-Dokument mit Aspose.Words für .NET anpassen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis. |
-
+| [Erstellen eines Kreisdiagramms in einem Word-Dokument mit Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Kreisdiagramm in ein Word-Dokument einfügen und anpassen. |
+| [Serien in einem Word-Liniendiagramm mit C# formatieren](./how-to-format-series-in-a-word-line-chart-with-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Serien in einem Word-Liniendiagramm formatieren. |
+| [Wie man ein Histogramm in Word mit Aspose.Words erstellt](./how-to-create-histogram-in-word-with-aspose-words/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Histogramm in ein Word-Dokument einfügen und anpassen. |
+| [Wie man ein Word-Dokument mit C# erstellt, das ein Säulendiagramm mit formatierten Beschriftungen enthält](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument erstellen und ein Säulendiagramm mit formatierten Datenbeschriftungen hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

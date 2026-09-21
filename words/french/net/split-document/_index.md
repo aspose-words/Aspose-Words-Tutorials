@@ -26,7 +26,7 @@ Split Document est une ressource complète qui explique comment diviser un docum
 | [Diviser un document Word par page](./page-by-page/) | Apprenez à diviser un document Word par page avec Aspose.Words pour .NET grâce à ce guide détaillé, étape par étape. Idéal pour gérer efficacement des documents volumineux. |
 | [Fusionner des documents](./merge-documents/) | Guide étape par étape pour expliquer le code source C# de la fonctionnalité Fusionner des documents d'Aspose.Words pour .NET |
 | [Diviser un document Word par plage de pages](./by-page-range/) | Découvrez comment diviser un document Word par plage de pages avec Aspose.Words pour .NET grâce à notre guide détaillé étape par étape. Idéal pour les développeurs. |
-
+| [Comment diviser un document Word en fichiers séparés avec C#](./how-to-split-word-document-into-separate-files-with-c/) | Apprenez à diviser un document Word en fichiers distincts avec C# et Aspose.Words pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

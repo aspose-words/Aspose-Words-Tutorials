@@ -35,7 +35,7 @@ Niezależnie od tego, czy musisz zastąpić określone słowa, zaktualizować sz
 | [Rozpoznawanie i zastępowanie w ramach wzorców zastępczych](./recognize-and-substitutions-within-replacement-patterns/) | Dowiedz się, jak rozpoznawać i podstawiać tekst w obrębie wzorców zastępczych za pomocą Aspose.Words dla .NET. Przewodnik krok po kroku ze szczegółowymi przykładami. |
 | [Zamień na ciąg](./replace-with-string/) | Dowiedz się, jak zamieniać ciągi w dokumentach Worda za pomocą Aspose.Words dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą zautomatyzować edycję dokumentów. |
 | [Zamień tekst w tabeli](./replace-text-in-table/) | Bezproblemowo zamienisz tekst w tabeli programu Word za pomocą narzędzia Aspose.Words dla platformy .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. |
-
+| [Jak wygenerować szablon dokumentu i wypełnić go danymi w C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Dowiedz się, jak tworzyć szablony dokumentów i wypełniać je danymi przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

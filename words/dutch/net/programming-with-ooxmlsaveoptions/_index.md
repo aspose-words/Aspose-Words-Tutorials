@@ -29,7 +29,7 @@ Of u nu documenten wilt maken die compatibel zijn met oudere versies van Word, d
 | [Laatst opgeslagen tijd eigenschap bijwerken](./update-last-saved-time-property/) | Leer hoe u de eigenschap 'Laatst opgeslagen tijd' in Word-documenten kunt bijwerken met Aspose.Words voor .NET. Volg onze gedetailleerde, stapsgewijze handleiding. |
 | [Behoud oude controletekens](./keep-legacy-control-chars/) | Leer hoe u oude controlecodes in Word-documenten kunt behouden met Aspose.Words voor .NET met deze stapsgewijze handleiding. |
 | [Compressieniveau instellen](./set-compression-level/) | Leer hoe u het compressieniveau in Word-documenten instelt met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om uw documentopslag en -prestaties te optimaliseren. |
-
+| [Hoe de codering van Word-documenten wijzigen met Aspose.Words in C#](./how-to-change-word-document-encoding-with-aspose-words-in-c/) | Leer hoe u de tekencodering van Word-documenten kunt wijzigen met Aspose.Words in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

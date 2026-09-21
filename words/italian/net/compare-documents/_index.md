@@ -25,6 +25,7 @@
 | [Confronta le opzioni nel documento Word](./compare-options/) | Scopri come confrontare documenti Word utilizzando Aspose.Words per .NET con la nostra guida passo passo. Garantisci la coerenza dei documenti senza sforzo. |
 | [Obiettivo di confronto nel documento Word](./comparison-target/) | Confronta senza sforzo i documenti Word utilizzando Aspose.Words per .NET con questa guida dettagliata e passo passo. Risparmia tempo e migliora la precisione nel confronto dei documenti. |
 | [Granularità del confronto nel documento Word](./comparison-granularity/) | Scopri la funzionalità di confronto della granularità nei documenti Word di Aspose.Words per .NET che consente di confrontare i documenti carattere per carattere, segnalando le modifiche apportate. |
+| [Come confrontare due documenti Word e rilevare le modifiche](./how-to-compare-two-word-documents-and-detect-changes/) | Scopri come confrontare due documenti Word e rilevare le modifiche utilizzando Aspose.Words per .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

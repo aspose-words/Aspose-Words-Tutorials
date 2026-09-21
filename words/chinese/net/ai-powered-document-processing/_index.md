@@ -44,6 +44,8 @@
 | [使用汇总选项](./working-with-summarize-options/) 学习使用 Aspose.Words for .NET 有效地总结 Word 文档，并遵循我们关于集成 AI 模型以获得快速洞察的分步指南。|
 | [在 C# 中汇总 Word 文档 – 完整的 AI 驱动指南](./summarize-word-document-in-c-complete-ai-powered-guide/) 使用 Aspose.Words for .NET 在 C# 中实现完整的 AI 驱动 Word 文档摘要，提供详细步骤和最佳实践。|
 | [使用 Aspose.Words AI 检查 Word 语法的完整指南](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) 了解如何利用 Aspose.Words AI 在 Word 文档中自动检查并纠正语法错误，提高写作质量。|
+| [在 C# 中使用 AI 文档摘要器](./how-to-use-an-ai-document-summarizer-in-c/) 使用 Aspose.Words for .NET 在 C# 中实现 AI 文档摘要，提供详细步骤和最佳实践。|
+| [使用 Aspose.Words AI 将 docx 翻译为法语](./how-to-translate-docx-to-french-using-aspose-words-ai/) 使用 Aspose.Words AI 将 docx 文档翻译为法语，提供详细步骤和最佳实践。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

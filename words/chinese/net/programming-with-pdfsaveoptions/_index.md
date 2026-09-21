@@ -46,6 +46,7 @@ Aspose.Words for .NET 教程“使用 PdfSaveOptions 进行文字处理”将引
 | [在 PDF 文档中渲染 3D DML 3DEffects](./dml-3deffects-rendering/) | 通过本全面的分步指南了解如何使用 Aspose.Words for .NET 在 PDF 文档中呈现令人惊叹的 3D DML 效果。|
 | [在 PDF 文档中插入图像](./interpolate-images/) 学习如何使用 Aspose.Words for .NET 在 PDF 文档中插入图像，并遵循我们的分步指南。轻松提升 PDF 图像质量。|
 | [从 Word 创建可访问的 PDF – 完整指南](./create-accessible-pdf-from-word-complete-guide/) | 了解如何使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，包括标签、替代文本和文档结构等。|
+| [将 RenderChoiceFormFieldBorder 设置为 false 的 Word 转 PDF 方法](./how-to-set-renderchoiceformfieldborder-false-when-converting/) 通过本指南了解如何在将 Word 转换为 PDF 时将 RenderChoiceFormFieldBorder 设置为 false。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

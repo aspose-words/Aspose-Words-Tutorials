@@ -45,6 +45,8 @@ Vergeet ten slotte niet om onze [Werken met samenvattingsopties](./working-with-
 | [Samenvatten van Word-document in C# – Complete AI‑aangedreven gids](./summarize-word-document-in-c-complete-ai-powered-guide/) | Leer hoe u Word-documenten in C# volledig automatisch kunt samenvatten met AI, stap‑voor‑stap handleiding. |
 | [Hoe controleer je grammatica in DOCX met Aspose.Words – gebruik gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Leer hoe u grammatica in DOCX-bestanden controleert met Aspose.Words en GPT‑4 Turbo. |
 | [Hoe grammatica in Word te controleren met Aspose.Words AI – Complete gids](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Leer hoe u met Aspose.Words AI grammaticale fouten in Word-documenten detecteert en corrigeert voor foutloze inhoud. |
+| [Hoe een AI-documentsamenvatter te gebruiken in C#](./how-to-use-an-ai-document-summarizer-in-c/) | Leer hoe u een AI-documentensamenvatter in C# kunt inzetten voor automatische samenvatting van Word-bestanden. |
+| [Hoe docx naar het Frans vertalen met Aspose.Words AI](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Leer hoe u docx-bestanden automatisch naar het Frans vertaalt met behulp van Aspose.Words AI. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

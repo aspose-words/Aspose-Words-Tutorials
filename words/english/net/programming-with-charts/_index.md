@@ -43,7 +43,10 @@ With these tutorials, you will be able to enhance your Word documents by adding 
 | [Set Default Options For Data Labels In A Chart](./default-options-for-data-labels/) | Learn how to set default options for data labels in a chart using Aspose.Words for .NET. Follow our step-by-step guide to create and customize charts effortlessly. |
 | [Customize A Single Chart Data Point In A Chart](./single-chart-data-point/) | Learn how to customize single chart data points using Aspose.Words for .NET in a detailed step-by-step guide. Enhance your charts with unique markers and sizes. |
 | [Customize Single Chart Series In A Chart](./single-chart-series/) | Learn how to customize single chart series in a Word document using Aspose.Words for .NET. Follow our step-by-step guide for a seamless experience. |
-
+| [How to format series in a Word line chart with C#](./how-to-format-series-in-a-word-line-chart-with-c/) | Learn how to format series in a line chart in Word using Aspose.Words for .NET with C# in this step-by-step guide. |
+| [How to create pie chart in a Word document with Aspose.Words](./how-to-create-pie-chart-in-a-word-document-with-aspose-words/) | Learn how to create a pie chart in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to add visual data. |
+| [How to create histogram in Word with Aspose.Words](./how-to-create-histogram-in-word-with-aspose-words/) | Learn how to create a histogram in a Word document using Aspose.Words for .NET. Follow our step-by-step guide to visualize data. |
+| [How to create Word document C# with a column chart and formatted labels](./how-to-create-word-document-c-with-a-column-chart-and-format/) | Learn how to create a Word document in C# with a column chart and formatted labels using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

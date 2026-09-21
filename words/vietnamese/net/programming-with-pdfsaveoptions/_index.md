@@ -57,6 +57,7 @@ Cho dù bạn muốn chuyển đổi tài liệu Word sang PDF để phân phố
 | [Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đủ để xuất Docx và theo dõi thay đổi phông chữ](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF trong C#, xuất Docx và giám sát các thay đổi phông chữ. |
 | [Lưu docx thành pdf với xuất Shape – Hướng dẫn đầy đủ](./save-docx-as-pdf-with-shape-export-complete-guide/) | Hướng dẫn chi tiết cách lưu tài liệu DOCX thành PDF với việc xuất hình dạng, bao gồm các tùy chọn và mã mẫu. |
 | [Lưu tài liệu dưới dạng PDF với Aspose.Words – Hướng dẫn C# đầy đủ](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng Aspose.Words trong C#. |
+| [Cách đặt RenderChoiceFormFieldBorder thành false khi chuyển đổi Word sang PDF](./how-to-set-renderchoiceformfieldborder-false-when-converting/) | Hướng dẫn tắt RenderChoiceFormFieldBorder khi chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

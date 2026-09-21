@@ -45,6 +45,8 @@
 | [C#에서 Word 문서 요약 – 완전 AI 기반 가이드](./summarize-word-document-in-c-complete-ai-powered-guide/) | Aspose.Words for .NET과 AI를 활용해 C#에서 Word 문서를 효율적으로 요약하는 전체 가이드를 제공합니다. |
 | [Aspose.Words와 gpt-4 turbo로 DOCX 문법 검사하기](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Aspose.Words와 gpt-4 turbo를 활용해 DOCX 파일의 문법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다. |
 | [Aspose.Words AI로 Word에서 문법 검사하는 방법 – 완전 가이드](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Aspose.Words AI를 활용해 Word 문서의 문법을 자동으로 검사하고 교정하는 전체 가이드를 확인하세요. |
+| [C#에서 AI 문서 요약기 사용 방법](./how-to-use-an-ai-document-summarizer-in-c/) | Aspose.Words for .NET과 AI를 활용해 C#에서 문서 요약기를 구현하는 단계별 가이드를 제공합니다. |
+| [Aspose.Words AI를 사용하여 docx를 프랑스어로 번역하는 방법](./how-to-translate-docx-to-french-using-aspose-words-ai/) | Aspose.Words AI를 활용해 docx 파일을 프랑스어로 자동 번역하는 단계별 가이드. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

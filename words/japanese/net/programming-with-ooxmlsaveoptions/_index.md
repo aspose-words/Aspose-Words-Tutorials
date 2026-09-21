@@ -29,6 +29,7 @@ Aspose.Words for .NETのOOXMLSaveOptionsを使用したWords処理に関する�
 | [最終保存時刻プロパティの更新](./update-last-saved-time-property/) Aspose.Words for .NET を使用して、Word 文書の最終保存日時プロパティを更新する方法を学びましょう。詳細なステップバイステップガイドをご覧ください。 |
 | [従来の制御文字を保持する](./keep-legacy-control-chars/) このステップバイステップ ガイドでは、Aspose.Words for .NET を使用して Word 文書内の従来の制御文字を保持する方法について説明します。 |
 | [圧縮レベルの設定](./set-compression-level/) Aspose.Words for .NET を使用して Word 文書の圧縮レベルを設定する方法を学びましょう。ステップバイステップのガイドに従って、ドキュメントの保存とパフォーマンスを最適化しましょう。 |
+| [C# で Aspose.Words を使用して Word 文書のエンコーディングを変更する方法](./how-to-change-word-document-encoding-with-aspose-words-in-c/) Aspose.Words for .NET を利用し、Word 文書の文字エンコーディングを変更する手順をステップバイステップで解説します。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

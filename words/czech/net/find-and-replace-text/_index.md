@@ -35,7 +35,7 @@ Ať už potřebujete nahradit konkrétní slova, aktualizovat textové šablony 
 | [Rozpoznávání a substituce v rámci substitučních vzorů](./recognize-and-substitutions-within-replacement-patterns/) | Naučte se, jak rozpoznávat a nahrazovat text v náhradních vzorcích pomocí Aspose.Words pro .NET. Podrobný návod s podrobnými příklady. |
 | [Nahradit řetězcem](./replace-with-string/) | Naučte se, jak nahrazovat řetězce v dokumentech Wordu pomocí Aspose.Words pro .NET v tomto podrobném návodu. Ideální pro vývojáře, kteří chtějí automatizovat úpravy dokumentů. |
 | [Nahradit text v tabulce](./replace-text-in-table/) | Snadno nahraďte text v tabulce Wordu pomocí Aspose.Words pro .NET s tímto podrobným návodem krok za krokem. |
-
+| [Jak vygenerovat šablonu dokumentu a naplnit ji daty v C#](./how-to-generate-document-template-and-fill-it-with-data-in-c/) | Naučte se vytvořit šablonu dokumentu a naplnit ji daty pomocí Aspose.Words pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
