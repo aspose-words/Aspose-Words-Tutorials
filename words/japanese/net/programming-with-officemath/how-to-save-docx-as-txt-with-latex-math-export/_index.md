@@ -21,10 +21,6 @@ title: LaTeX数式エクスポートでDOCXをTXTとして保存する方法
 url: /ja/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-need to translate content but keep markdown pipes.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

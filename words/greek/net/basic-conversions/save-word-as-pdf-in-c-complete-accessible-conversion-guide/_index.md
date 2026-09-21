@@ -24,7 +24,7 @@ title: Αποθήκευση Word ως PDF σε C# – Πλήρης Οδηγός 
 url: /el/net/basic-conversions/save-word-as-pdf-in-c-complete-accessible-conversion-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

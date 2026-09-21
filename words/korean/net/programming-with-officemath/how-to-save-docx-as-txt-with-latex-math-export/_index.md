@@ -22,15 +22,7 @@ title: LaTeX 수식 내보내기를 사용하여 DOCX를 TXT로 저장하는 방
 url: /ko/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-을 어떻게 처리하는지 확인하세요."
-
-Next "Feel free to tweak the code, share your own tips in the comments, and happy coding!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

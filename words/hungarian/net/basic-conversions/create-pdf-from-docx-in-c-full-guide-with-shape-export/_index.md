@@ -24,7 +24,7 @@ title: PDF létrehozása DOCX‑ből C#‑ban – Teljes útmutató alakzatok ex
 url: /hu/net/basic-conversions/create-pdf-from-docx-in-c-full-guide-with-shape-export/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

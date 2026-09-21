@@ -24,8 +24,6 @@ title: Восстановление повреждённых файлов DOCX �
 url: /ru/net/programming-with-loadoptions/recover-corrupted-docx-files-in-c-complete-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

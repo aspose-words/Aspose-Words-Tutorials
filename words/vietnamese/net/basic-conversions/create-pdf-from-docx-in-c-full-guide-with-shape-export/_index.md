@@ -22,7 +22,7 @@ title: Tạo PDF từ DOCX trong C# – Hướng dẫn đầy đủ với xuất
 url: /vi/net/basic-conversions/create-pdf-from-docx-in-c-full-guide-with-shape-export/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

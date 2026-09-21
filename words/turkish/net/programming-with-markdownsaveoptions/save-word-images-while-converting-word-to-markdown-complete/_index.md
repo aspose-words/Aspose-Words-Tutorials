@@ -24,28 +24,6 @@ title: Word'ten Markdown'a çevirirken Word resimlerini kaydet – Tam C# Rehber
 url: /tr/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-but keep technical terms in English. "save word images" is a phrase; maybe keep as is? It's not a standard term. Could translate "kelime resimlerini kaydet". I'll translate.
-
-Also keep code block placeholders unchanged.
-
-Let's go through each section.
-
-First shortcodes lines remain.
-
-Then title.
-
-Then paragraph.
-
-Translate each sentence.
-
-Make sure to keep markdown formatting.
-
-Also tables: translate column headers and content? Keep property names unchanged. Translate "Typical value", "When to change". Keep property names unchanged.
-
-Also bullet points.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

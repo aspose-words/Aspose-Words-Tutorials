@@ -23,11 +23,7 @@ title: แปลง docx เป็น markdown ใน C# – คู่มือ�
 url: /th/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/
 ---
 
-they appear.
-
-Also ensure we keep any markdown formatting like **bold**, *italic*, etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

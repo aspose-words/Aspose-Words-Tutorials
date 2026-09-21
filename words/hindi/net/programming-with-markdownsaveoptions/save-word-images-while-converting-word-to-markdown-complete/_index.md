@@ -24,21 +24,7 @@ title: Word को Markdown में बदलते समय Word की छ�
 url: /hi/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-translate header cells but keep pipe alignment.
-
-Also translate "Pro tip:" etc.
-
-Also translate "Quick verification script" etc.
-
-Also translate "Common pitfalls and best practices for converting word to markdown" etc.
-
-Also translate "Wrap‑up" etc.
-
-Also translate "Next steps" bullet points.
-
-Also translate the final "Add support for tables and" (incomplete). Keep as is.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

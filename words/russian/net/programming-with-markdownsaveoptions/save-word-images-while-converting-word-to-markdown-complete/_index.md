@@ -26,13 +26,7 @@ title: Сохранение изображений из Word при конвер
 url: /ru/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-to translate.
-
-Let's do it.
-
-Be careful with hyphens and dash characters. Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,20 +24,6 @@ title: Sérült DOCX fájlok helyreállítása C#-ban – Teljes útmutató
 url: /hu/net/programming-with-loadoptions/recover-corrupted-docx-files-in-c-complete-guide/
 ---
 
-: "What you’ll walk away with" -> "Mit fogsz megtanulni". Keep bullet points.
-
-List items translate.
-
-Prerequisites list translate.
-
-The code block placeholders remain.
-
-Tables: translate column headers and content.
-
-Make sure to keep markdown syntax.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

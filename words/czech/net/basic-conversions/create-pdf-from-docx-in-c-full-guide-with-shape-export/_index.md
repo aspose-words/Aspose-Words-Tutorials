@@ -22,16 +22,6 @@ title: Vytvořte PDF z DOCX v C# – Kompletní průvodce s exportem tvarů
 url: /cs/net/basic-conversions/create-pdf-from-docx-in-c-full-guide-with-shape-export/
 ---
 
-Shape Export" etc.
-
-Let's translate.
-
-Be careful not to translate URLs inside markdown links or images.
-
-Also not translate code block placeholders.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

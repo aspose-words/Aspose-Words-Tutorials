@@ -22,11 +22,7 @@ title: Cómo guardar DOCX como TXT con exportación de matemáticas LaTeX
 url: /es/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-with all translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

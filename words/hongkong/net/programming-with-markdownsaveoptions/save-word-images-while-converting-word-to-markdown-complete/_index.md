@@ -22,10 +22,6 @@ title: 在將 Word 轉換為 Markdown 時保存 Word 圖片 – 完整 C# 指南
 url: /zh-hant/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-: we kept them.
-
-Now produce final content with same formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,13 +24,7 @@ title: Salvar imagens do Word ao converter Word para Markdown – Guia Completo 
 url: /pt/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-Then "Next steps" bullet list.
-
-Translate bullet items, note the last bullet is incomplete "Add support for tables and" - keep as is? Probably keep same incomplete line.
-
-Now ensure we keep shortcodes at end.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: Comment enregistrer un DOCX en TXT avec exportation des formules LaTeX
 url: /fr/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,21 +24,7 @@ title: Wie man den Formschatten in C# mit Aspose.Words bearbeitet – Schritt‑
 url: /de/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/
 ---
 
-Translate "Expected Output" etc.
-
-Translate "Common Questions & Variations" etc.
-
-Translate each Q&A.
-
-Translate "Conclusion" etc.
-
-Translate "Related Topics You Might Explore" etc.
-
-Translate bullet list.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

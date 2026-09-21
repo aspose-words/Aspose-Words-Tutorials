@@ -24,25 +24,7 @@ title: C#'ta Bozuk DOCX Dosyalarını Kurtarma – Tam Rehber
 url: /tr/net/programming-with-loadoptions/recover-corrupted-docx-files-in-c-complete-guide/
 ---
 
-loop and log each result. Translate.
-
-- Q: Is there any performance hit? -> translate.
-
-- Answer: Recovery adds a small overhead (usually < 5 % extra time) but saves you from costly manual interventions. Translate.
-
-Then "## Conclusion" heading.
-
-Paragraph translate.
-
-Then final lines: "Happy coding, and may your DOCX files stay healthy! 🚀" translate.
-
-Then closing shortcodes.
-
-Also keep any other shortcodes at end.
-
-Now produce final content with all translations, preserving placeholders.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

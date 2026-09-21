@@ -26,25 +26,6 @@ title: sla Word‑afbeeldingen op tijdens het converteren van Word naar Markdown
 url: /nl/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-Markdown save step. Likewise, the same pattern works for **convert docx to md** in batch jobs—just loop over a directory of `.docx` files and invoke the same logic.
-
-Translate.
-
-**Next steps** you might explore:
-
-* Integrate the conversion into an ASP.NET Core API so users can upload a DOCX and receive a downloadable Markdown package.  
-* Add support for tables and
-
-The last line ends incomplete. Keep as is.
-
-Then closing shortcodes.
-
-Now produce final content with translations.
-
-Be careful to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,8 +24,6 @@ title: Beschädigte DOCX-Dateien in C# wiederherstellen – Vollständiger Leitf
 url: /de/net/programming-with-loadoptions/recover-corrupted-docx-files-in-c-complete-guide/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

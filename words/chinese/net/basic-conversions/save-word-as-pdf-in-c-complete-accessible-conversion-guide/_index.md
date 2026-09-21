@@ -22,12 +22,6 @@ title: 在 C# 中将 Word 保存为 PDF – 完整的可访问转换指南
 url: /zh/net/basic-conversions/save-word-as-pdf-in-c-complete-accessible-conversion-guide/
 ---
 
-Now produce final content with Chinese translations.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

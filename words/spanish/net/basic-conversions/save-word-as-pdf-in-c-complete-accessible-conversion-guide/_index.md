@@ -24,24 +24,6 @@ title: Guardar Word como PDF en C# – Guía completa de conversión accesible
 url: /es/net/basic-conversions/save-word-as-pdf-in-c-complete-accessible-conversion-guide/
 ---
 
-:
-
-**Q: Does this work with .NET Core?**  
-Absolutely...
-
-We'll keep **Q:** and translate question after colon.
-
-Thus:
-
-**Q: ¿Esto funciona con .NET Core?**  
-¡Absolutamente! ...
-
-Similarly for others.
-
-Let's rewrite Q&A accordingly.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

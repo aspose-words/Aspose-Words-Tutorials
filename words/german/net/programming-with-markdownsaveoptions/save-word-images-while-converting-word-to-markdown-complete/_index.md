@@ -26,10 +26,6 @@ title: Word‑Bilder beim Konvertieren von Word zu Markdown speichern – Vollst
 url: /de/net/programming-with-markdownsaveoptions/save-word-images-while-converting-word-to-markdown-complete/
 ---
 
-to translate URLs (none present). Keep markdown links unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

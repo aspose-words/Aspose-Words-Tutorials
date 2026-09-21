@@ -24,7 +24,7 @@ title: PDF aus Word erstellen – Vollständiger C#‑Leitfaden mit Schrifterken
 url: /de/net/basic-conversions/create-pdf-from-word-complete-c-guide-with-font-detection/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

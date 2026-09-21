@@ -22,7 +22,7 @@ title: Wie man DOCX als TXT mit LaTeX‑Mathematik‑Export speichert
 url: /de/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

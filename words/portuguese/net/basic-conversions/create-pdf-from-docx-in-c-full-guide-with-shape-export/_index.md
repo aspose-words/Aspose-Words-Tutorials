@@ -22,13 +22,7 @@ title: Criar PDF a partir de DOCX em C# – Guia Completo com Exportação de Fo
 url: /pt/net/basic-conversions/create-pdf-from-docx-in-c-full-guide-with-shape-export/
 ---
 
-partir de DOCX mostrando formas exportadas". Title also translate.
-
-Proceed.
-
-All code block placeholders remain.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

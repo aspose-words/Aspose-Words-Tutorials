@@ -24,14 +24,6 @@ title: Создание PDF из Word – Полное руководство �
 url: /ru/net/basic-conversions/create-pdf-from-word-complete-c-guide-with-font-detection/
 ---
 
-top-button >}}
-
-All unchanged.
-
-Now produce final output with translated content, preserving all placeholders.
-
-Let's write the translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

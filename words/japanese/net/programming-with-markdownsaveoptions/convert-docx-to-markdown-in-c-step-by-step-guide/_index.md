@@ -22,11 +22,7 @@ title: C#でdocxをMarkdownに変換する – ステップバイステップガ
 url: /ja/net/programming-with-markdownsaveoptions/convert-docx-to-markdown-in-c-step-by-step-guide/
 ---
 
-/products-backtop-button >}}
-
-All preserved.
-
-Now produce final output with all translations. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

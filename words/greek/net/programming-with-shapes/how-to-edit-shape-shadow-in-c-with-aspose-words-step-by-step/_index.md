@@ -24,14 +24,6 @@ title: Πώς να επεξεργαστείτε τη σκιά σχήματος �
 url: /el/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/
 ---
 
-.
-
-Also translate "Related Topics You Might Explore" etc.
-
-Make sure to keep shortcodes unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

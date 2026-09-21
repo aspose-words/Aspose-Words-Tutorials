@@ -24,7 +24,7 @@ title: Buat PDF dari Word – Panduan Lengkap C# dengan Deteksi Font
 url: /id/net/basic-conversions/create-pdf-from-word-complete-c-guide-with-font-detection/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

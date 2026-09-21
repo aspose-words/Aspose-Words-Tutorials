@@ -22,7 +22,7 @@ title: Crea PDF da DOCX in C# – Guida completa con esportazione delle forme
 url: /it/net/basic-conversions/create-pdf-from-docx-in-c-full-guide-with-shape-export/
 ---
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,37 +24,7 @@ title: Como editar a sombra de forma em C# com Aspose.Words – Guia passo a pas
 url: /pt/net/programming-with-shapes/how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/
 ---
 
-.
-
-Translate "Step 5: Save the Updated Document" etc.
-
-Translate "Open `ShadowFineTuned.docx`..." etc.
-
-Translate "Full Working Example (Copy‑Paste Ready)" etc.
-
-Translate "Expected Output" etc.
-
-Translate "Common Questions & Variations" etc.
-
-Translate subheadings.
-
-Translate each question and answer.
-
-Translate "Conclusion" etc.
-
-Translate "Related Topics You Might Explore" etc.
-
-Translate bullet list.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep the final shortcodes closing.
-
-Let's craft the translation.
-
-Be careful with markdown syntax.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

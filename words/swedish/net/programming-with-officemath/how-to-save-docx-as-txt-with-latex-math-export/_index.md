@@ -22,11 +22,7 @@ title: Hur man sparar DOCX som TXT med LaTeX‑mattexport
 url: /sv/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-blocks/products/products-backtop-button >}}
-
-Make sure to keep them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,13 +22,7 @@ title: Como salvar DOCX como TXT com exportação de matemática em LaTeX
 url: /pt/net/programming-with-officemath/how-to-save-docx-as-txt-with-latex-math-export/
 ---
 
-the comments, and happy coding!" => "Sinta-se à vontade para ajustar o código, compartilhar suas próprias dicas nos comentários e feliz codificação!"
-
-Then closing shortcodes unchanged.
-
-Make sure to keep all shortcodes and blocks.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
