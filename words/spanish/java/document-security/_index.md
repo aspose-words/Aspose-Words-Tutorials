@@ -39,6 +39,8 @@ Aprenda a gestionar eficazmente los permisos de documentos con Aspose.Words para
 Aprenda a cifrar y descifrar documentos con Aspose.Words para Java. Proteja sus datos eficientemente con instrucciones paso a paso y ejemplos de código fuente.
 ### [Firmas digitales en documentos](./digital-signatures-in-documents/)
 Aprenda a implementar firmas digitales seguras en documentos con Aspose.Words para Java. Garantice la integridad de los documentos con instrucciones paso a paso y el código fuente.
+### [Cómo añadir una firma digital a un documento Word con Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Aprenda a agregar firmas digitales a documentos Word usando Aspose.Words, con ejemplos de código y pasos detallados.
 ### [Redacción de documentos y protección de datos](./document-redaction-data-protection/)
 Aprenda a proteger sus documentos y a redactar información confidencial con Aspose.Words para Java. Guía paso a paso con código fuente.
 

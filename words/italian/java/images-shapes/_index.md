@@ -37,6 +37,15 @@ Scopri come generare miniature di alta qualità e bitmap di dimensioni personali
 ### [Aggiungi ombra alla forma in Word – Guida completa Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Scopri come applicare ombre alle forme nei documenti Word usando Aspose.Words per Java.
 
+### [Crea documento Word programmaticamente, raggruppa forme in Java](./create-word-document-programmatically-group-shapes-in-java/)
+Guida su come creare un documento Word e raggruppare forme usando Aspose.Words per Java.
+
+### [Come creare un documento Word vuoto e aggiungere una forma ellittica nascosta in C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Scopri come generare un documento Word vuoto e inserire una forma ellittica nascosta usando C# e Aspose.Words.
+
+### [Come creare un grafico a ciambella in un documento Word con Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Scopri come generare un grafico a ciambella in un documento Word usando Aspose.Words per Java.
+
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Words per Java](https://reference.aspose.com/words/java/)
 - [Riferimento API Aspose.Words per Java](https://reference.aspose.com/words/java/)

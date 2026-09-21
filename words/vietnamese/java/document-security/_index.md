@@ -41,6 +41,8 @@ Tìm hiểu cách mã hóa và giải mã tài liệu bằng Aspose.Words for Ja
 Tìm hiểu cách triển khai chữ ký số an toàn trong tài liệu bằng Aspose.Words cho Java. Đảm bảo tính toàn vẹn của tài liệu với hướng dẫn từng bước và mã nguồn
 ### [Biên tập tài liệu và bảo vệ dữ liệu](./document-redaction-data-protection/)
 Tìm hiểu cách bảo mật tài liệu và biên tập dữ liệu nhạy cảm bằng Aspose.Words cho Java. Hướng dẫn từng bước có mã nguồn.
+### [Cách thêm chữ ký số vào tài liệu Word bằng Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Hướng dẫn chi tiết cách chèn chữ ký số vào tài liệu Word bằng Aspose.Words, bảo vệ tính toàn vẹn và xác thực.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

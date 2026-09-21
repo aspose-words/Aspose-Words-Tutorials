@@ -72,6 +72,12 @@ Lernen Sie, Aspose.Words für Javas Revisionskontrolle effizient zu nutzen. Schr
 ### [Verwenden von Abschnitten in Aspose.Words für Java](./using-sections/)
 Entdecken Sie Aspose.Words für Java: Eine umfassende Anleitung zur Verwendung von Abschnitten. Hinzufügen, Löschen, Anhängen und Klonen von Abschnitten mit Codebeispielen.
 
+### [Word-Dokument programmgesteuert erstellen und einen Button einfügen](./create-word-document-programmatically-and-insert-a-button/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein Word-Dokument programmgesteuert erstellen und einen interaktiven Button hinzufügen.
+
+### [Erstellen eines leeren Word-Dokuments und Hinzufügen eines Radar-Diagramms in C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Erfahren Sie, wie Sie mit Aspose.Words für C# ein leeres Word-Dokument erstellen und ein Radar-Diagramm einfügen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

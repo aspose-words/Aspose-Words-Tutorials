@@ -37,6 +37,15 @@ Aspose.Words Java 程式碼教程
 ### [在 Word 中為形狀添加陰影 – 完整 Aspose.Words 指南](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 了解如何使用 Aspose.Words for Java 為 Word 文檔中的形狀添加陰影效果，提升視覺效果。
 
+### [在 Java 中程式化建立 Word 文件，將形狀分組](./create-word-document-programmatically-group-shapes-in-java/)
+示範如何使用 Aspose.Words for Java 程式化建立 Word 文件並將多個形狀分組。
+
+### [如何在 C# 中建立空白 Word 文件並加入隱藏的橢圓形狀](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+示範如何使用 Aspose.Words for C# 建立空白文件，並在其中加入隱藏的橢圓形狀以供後續操作。
+
+### [如何在 Word 文件中使用 Java 建立環形圖表](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+示範如何使用 Aspose.Words for Java 在 Word 文件中插入並自訂環形圖表。
+
 ## 其他資源
 - [Aspose.Words for Java 文檔](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API參考](https://reference.aspose.com/words/java/)

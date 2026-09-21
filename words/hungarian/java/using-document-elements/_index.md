@@ -43,6 +43,8 @@ Készen állsz, hogy elkezdjük? Látogass el ide: [Aspose.Words Java API dokume
 Ne feledd, a gyakorlat teszi a mestert, és az Aspose.Words for Java segítségével pillanatok alatt profi módon fogsz dokumentumokat létrehozni, módosítani és fejleszteni. Jó kódolást!
 
 ## Dokumentumelemek használata – Oktatóanyagok
+### [Word dokumentum létrehozása programozottan és gomb beszúrása](./create-word-document-programmatically-and-insert-a-button/)
+Tanuld meg, hogyan hozhatsz létre Word dokumentumot programból, és szúrj be gombot interaktív funkciókkal.
 ### [Megjegyzések használata az Aspose.Words Java-ban](./using-comments/)
 Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java programban. Lépésről lépésre útmutató a dokumentumokban található megjegyzések hozzáadásához és testreszabásához.
 ### [Mezők használata az Aspose.Words fájlban Java-ban](./using-fields/)
@@ -71,6 +73,8 @@ Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Word
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Üres Word dokumentum létrehozása és radar diagram hozzáadása C#-ban](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Tanuld meg, hogyan hozhatsz létre üres Word dokumentumot, és adj hozzá radar diagramot C#-ban az Aspose.Words segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

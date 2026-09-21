@@ -71,6 +71,10 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Vytvoření dokumentu Word programově a vložení tlačítka](./create-word-document-programmatically-and-insert-a-button/)
+Naučte se, jak programově vytvořit dokument Word a vložit do něj tlačítko pomocí Aspose.Words pro Javu.
+### [Jak vytvořit prázdný dokument Word a přidat radarový graf v C#](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+Naučte se vytvořit prázdný dokument Word a vložit do něj radarový graf pomocí C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,8 @@ weight: 14
 
 ### [حفظ docx كـ markdown باستخدام Aspose.Words – دليل كامل](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 
+### [كيفية حفظ Markdown كـ DOCX باستخدام Java – دليل كامل](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+
 ## الأسئلة المتكررة
 
 **س:** *هل يمكنني تحويل ملفات Word المحمية بكلمة مرور إلى PDF؟*  

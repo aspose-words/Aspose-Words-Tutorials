@@ -35,7 +35,16 @@ Výukový program pro Aspose.Words v Javě
 Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastní velikosti v dokumentech Word pomocí Aspose.Words pro Javu. Vylepšete si své schopnosti práce s dokumenty ještě dnes.
 
 ### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
-Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
+Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javy.
+
+### [Vytvořit dokument Word programově, seskupit tvary v Javě](./create-word-document-programmatically-group-shapes-in-java/)
+Naučte se, jak programově vytvořit dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Jak vytvořit prázdný dokument Word a přidat skrytý eliptický tvar v C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Naučte se, jak programově vytvořit prázdný dokument Word a vložit do něj skrytý elipsovitý tvar pomocí C#.
+
+### [Jak vytvořit prstencový graf v dokumentu Word pomocí Javy](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Naučte se, jak programově vytvořit prstencový graf v dokumentu Word pomocí Aspose.Words pro Javu.
 
 ## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)

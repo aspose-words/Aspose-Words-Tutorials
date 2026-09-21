@@ -71,6 +71,10 @@
 学习如何高效使用 Aspose.Words for Java 的版本控制功能。面向开发人员的分步指南。优化您的文档管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：关于如何使用 Section 的全面指南。通过代码示例添加、删除、追加和克隆 Section。
+### [在 C# 中创建空白 Word 文档并添加雷达图](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+学习如何在 C# 中使用 Aspose.Words 创建空白 Word 文档并插入雷达图。
+### [在 Aspose.Words for Java 中以编程方式创建 Word 文档并插入按钮](./create-word-document-programmatically-and-insert-a-button/)
+使用 Aspose.Words for Java 通过代码创建 Word 文档并添加交互式按钮。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,8 @@ Learn how to use Structured Document Tags (SDT) in Aspose.Words for Java with th
 Learn how to enhance document formatting with Aspose.Words for Java. Explore styles, themes, and more in this comprehensive guide with source code examples.
 ### [Generating Table of Contents in Aspose.Words for Java](./generating-table-of-contents/)
 Learn how to generate and customize Table of Contents (TOC) using Aspose.Words for Java. Create organized and professional documents effortlessly.
+### [How to create a blank Word document with a text control](./how-to-create-a-blank-word-document-with-a-text-control/)
+Learn how to generate a blank Word document and add a text control using Aspose.Words for Java.
 ### [Protecting Documents in Aspose.Words for Java](./protecting-documents/)
 Learn how to secure your Java Word documents with Aspose.Words for Java. Protect your data with password and more.
 ### [Splitting Documents into Pages in Aspose.Words for Java](./splitting-documents-into-pages/)

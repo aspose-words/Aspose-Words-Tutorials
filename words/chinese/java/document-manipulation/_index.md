@@ -104,6 +104,8 @@ Aspose.Words for Java 是一款功能强大且用途广泛的 API，允许开发
 使用 Aspose.Words for Java 优化文档管理。在本教程中，您将学习如何使用文档属性、添加自定义元数据等。
 ### [在 Aspose.Words for Java 中使用 Web 扩展](./using-web-extensions/)
 使用 Aspose.Words for Java 中的 Web 扩展功能增强文档。学习如何无缝集成基于 Web 的内容。 
+### [在 Aspose.Words for Java 中创建带文本控件的空白 Word 文档](./how-to-create-a-blank-word-document-with-a-text-control/)
+使用 Aspose.Words for Java 创建一个带文本控件的空白 Word 文档，以实现表单功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

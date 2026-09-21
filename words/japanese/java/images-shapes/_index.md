@@ -37,6 +37,15 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
 
+### [Javaでプログラム的にWord文書を作成し、図形をグループ化](./create-word-document-programmatically-group-shapes-in-java/)
+Aspose.Words for Java を使用して、プログラムからWord文書を作成し、図形をグループ化する方法を解説します。
+
+### [C#で空白のWord文書を作成し、非表示の楕円形を追加する方法](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+C#で空白のWord文書を作成し、非表示の楕円形を追加する方法
+
+### [Java を使用して Word 文書にドーナツチャートを作成する方法](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+JavaでWord文書にドーナツ形状のチャートを挿入する手順を解説します。
+
 ## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)

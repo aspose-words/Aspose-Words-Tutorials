@@ -37,6 +37,15 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 ### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
 
+### [Word dokumentum programozott létrehozása, alakzatok csoportosítása Java-ban](./create-word-document-programmatically-group-shapes-in-java/)
+Ismerje meg, hogyan hozhat létre Word dokumentumot programozottan, és csoportosíthatja az alakzatokat Java-ban az Aspose.Words segítségével.
+
+### [Hogyan hozzunk létre üres Word dokumentumot és adjunk hozzá rejtett ellipszis alakzatot C#-ban](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot, és rejtett ellipszis alakzatot adhat hozzá C#-ban az Aspose.Words segítségével.
+
+### [Hogyan hozzunk létre fánkdiagramot Word dokumentumban Java-val](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Tanulja meg, hogyan generálhat fánkdiagramot Word dokumentumokban Java segítségével, részletes kódpéldákkal.
+
 ## További források
 - [Aspose.Words Java dokumentációhoz](https://reference.aspose.com/words/java/)
 - [Aspose.Words Java API-referenciához](https://reference.aspose.com/words/java/)

@@ -71,6 +71,10 @@ Aspose.Words for Java에서 OLE 개체와 ActiveX 컨트롤을 사용하는 방�
 Aspose.Words for Java의 버전 관리 기능을 효율적으로 사용하는 방법을 알아보세요. 개발자를 위한 단계별 가이드를 통해 문서 관리를 최적화하세요.
 ### [Java용 Aspose.Words에서 섹션 사용](./using-sections/)
 Aspose.Words for Java를 살펴보세요. 섹션 사용에 대한 포괄적인 가이드입니다. 코드 예제를 통해 섹션을 추가, 삭제, 추가, 복제할 수 있습니다.
+### [프로그래밍으로 워드 문서를 만들고 버튼 삽입하기](./create-word-document-programmatically-and-insert-a-button/)
+Aspose.Words for Java를 사용해 프로그래밍 방식으로 워드 문서를 생성하고, 문서에 버튼을 삽입하는 방법을 단계별로 안내합니다.
+### [C#로 빈 Word 문서를 만들고 레이더 차트를 추가하는 방법](./how-to-create-a-blank-word-document-and-add-a-radar-chart-in/)
+C#를 사용하여 빈 Word 문서를 생성하고 레이더 차트를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

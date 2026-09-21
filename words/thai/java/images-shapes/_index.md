@@ -37,6 +37,15 @@
 ### [เพิ่มเงาให้กับรูปร่างใน Word – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
 
+### [สร้างเอกสาร Word อย่างโปรแกรมเมติก, จัดกลุ่มรูปร่างใน Java](./create-word-document-programmatically-group-shapes-in-java/)
+เรียนรู้วิธีสร้างเอกสาร Word และจัดกลุ่มรูปร่างโดยใช้ Aspose.Words สำหรับ Java
+
+### [วิธีสร้างเอกสาร Word เปล่าและเพิ่มรูปร่างวงรีซ่อนใน C#](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+เรียนรู้วิธีสร้างเอกสาร Word เปล่าและเพิ่มวงรีซ่อนใน C#
+
+### [วิธีสร้างแผนภูมิโดนัทในเอกสาร Word ด้วย Java](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+เรียนรู้วิธีสร้างแผนภูมิแบบโดนัทในเอกสาร Word โดยใช้ Aspose.Words สำหรับ Java
+
 ## แหล่งข้อมูลเพิ่มเติม
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)
 - [เอกสารอ้างอิง Aspose.Words สำหรับ Java API](https://reference.aspose.com/words/java/)

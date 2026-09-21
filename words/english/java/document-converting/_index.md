@@ -102,6 +102,9 @@ Learn how to convert Word documents to images using Aspose.Words for Java. Step-
 ### [Save docx as markdown with Aspose.Words – Complete Guide](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Learn how to save DOCX files as Markdown using Aspose.Words for Java. This step‑by‑step guide covers conversion, options, and code examples.
 
+### [How to save Markdown as DOCX using Java – complete guide](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Learn how to convert Markdown files to DOCX using Aspose.Words for Java with a complete step‑by‑step guide.
+
 ## Frequently Asked Questions
 
 **Q:** *Can I convert password‑protected Word files to PDF?*  

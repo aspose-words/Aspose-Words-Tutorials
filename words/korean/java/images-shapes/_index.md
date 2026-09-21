@@ -13,7 +13,7 @@
 
 # Aspose.Words Java를 위한 이미지 및 모양 튜토리얼
 
-Aspose.Words for Java를 사용하여 이미지 및 도형 작업에 대한 포괄적인 단계별 가이드를 살펴보세요. 이 튜토리얼에는 완전한 코드 예제와 자세한 설명이 포함되어 있습니다.
+Aspose.Words for Java를 사용하여 이미지 및 도형 작업에 대한 포괄적인 단계별 가이드를 살펴보세요. 이 튜토리얼에는 완전한 코�드 예제와 자세한 설명이 포함되어 있습니다.
 
 ## 개요
 
@@ -36,6 +36,15 @@ Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사�
 
 ### [Word에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
+
+### [Java에서 프로그래밍 방식으로 워드 문서를 생성하고 도형을 그룹화하기](./create-word-document-programmatically-group-shapes-in-java/)
+Java에서 프로그래밍 방식으로 워드 문서를 만들고 도형을 그룹화하는 방법을 안내합니다.
+
+### [C#에서 빈 Word 문서를 만들고 숨겨진 타원 도형을 추가하는 방법](./how-to-create-blank-word-document-and-add-a-hidden-ellipse-s/)
+C#를 사용하여 빈 Word 문서를 생성하고 숨겨진 타원 도형을 삽입하는 단계별 가이드.
+
+### [Java로 Word 문서에 도넛 차트 만들기](./how-to-create-doughnut-chart-in-a-word-document-with-java/)
+Java를 사용해 Word 문서에 도넛 차트를 삽입하고 구성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)

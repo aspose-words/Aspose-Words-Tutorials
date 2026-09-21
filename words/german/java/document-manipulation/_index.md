@@ -104,6 +104,8 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Words für Java. Nutzen Sie di
 Optimieren Sie Ihr Dokumentenmanagement mit Aspose.Words für Java. Lernen Sie in diesem umfassenden Tutorial, mit Dokumenteigenschaften zu arbeiten, benutzerdefinierte Metadaten hinzuzufügen und vieles mehr.
 ### [Verwenden von Weberweiterungen in Aspose.Words für Java](./using-web-extensions/)
 Optimieren Sie Dokumente mit Web-Erweiterungen in Aspose.Words für Java. Lernen Sie, webbasierte Inhalte nahtlos zu integrieren. 
+### [Erstellen eines leeren Word-Dokuments mit einem Textsteuerelement in Aspose.Words für Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+Erfahren Sie, wie Sie ein leeres Word-Dokument mit einem Textsteuerelement programmgesteuert erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

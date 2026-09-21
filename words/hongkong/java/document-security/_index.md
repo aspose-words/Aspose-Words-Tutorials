@@ -41,6 +41,8 @@
 了解如何使用 Aspose.Words for Java 在文件中實作安全數位簽章。透過逐步指導和原始碼確保文件的完整性
 ### [文檔編輯和資料保護](./document-redaction-data-protection/)
 了解如何使用 Aspose.Words for Java 保護您的文件並編輯敏感資料。帶有原始程式碼的分步指南。
+### [如何使用 Aspose.Words 為 Word 文件添加數位簽章](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+了解如何使用 Aspose.Words 為 Word 文件添加安全的數位簽章，保護文件完整性與真實性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,8 @@ Leer hoe je documenten efficiënt kunt splitsen in Aspose.Words voor Java. Ontde
 Leer hoe je documenten opsplitst in HTML-pagina's met Aspose.Words voor Java. Volg onze stapsgewijze handleiding voor naadloze documentconversie.
 ### [Inhoud toevoegen met DocumentBuilder in Aspose.Words voor Java](./adding-content-using-documentbuilder/)
 Creëer documenten met Aspose.Words voor Java. Een stapsgewijze handleiding voor het toevoegen van tekst, tabellen, afbeeldingen en meer. Maak moeiteloos verbluffende Word-documenten.
+### [Leeg Word-document maken met een tekstbesturingselement in Aspose.Words voor Java](./how-to-create-a-blank-word-document-with-a-text-control/)
+Leer hoe u een leeg Word-document maakt en een tekstbesturingselement toevoegt met Aspose.Words voor Java.
 ### [Documenten klonen en combineren in Aspose.Words voor Java](./cloning-and-combining-documents/)
 Leer hoe je documenten kunt klonen en combineren in Aspose.Words voor Java. Stapsgewijze handleiding met broncodevoorbeelden.
 ### [Documenten vergelijken in Aspose.Words voor Java](./comparing-documents/)

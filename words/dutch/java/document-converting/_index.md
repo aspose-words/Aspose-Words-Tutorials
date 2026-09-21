@@ -103,6 +103,9 @@ Leer hoe u Word‑documenten naar afbeeldingen converteert met Aspose.Words for 
 
 ### [DOCX opslaan als markdown met Aspose.Words – Complete gids](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 
+### [Markdown opslaan als DOCX met Java – Complete gids](./how-to-save-markdown-as-docx-using-java-complete-guide/)
+Leer hoe u Markdown‑bestanden opslaat als DOCX‑documenten met Aspose.Words for Java.
+
 ## Veelgestelde vragen
 
 **Q:** *Kan ik wachtwoord‑beveiligde Word‑bestanden naar PDF converteren?*  

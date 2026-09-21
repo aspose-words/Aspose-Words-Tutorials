@@ -40,6 +40,8 @@ Learn how to manage document permissions effectively using Aspose.Words for Java
 Learn how to encrypt and decrypt documents with Aspose.Words for Java. Secure your data efficiently with step-by-step guidance and source code examples.
 ### [Digital Signatures in Documents](./digital-signatures-in-documents/)
 Learn how to implement secure digital signatures in documents using Aspose.Words for Java. Ensure document integrity with step-by-step guidance and source code
+### [How to add a digital signature to a Word document with Aspose.Words](./how-to-add-a-digital-signature-to-a-word-document-with-aspos/)
+Learn how to add a digital signature to a Word document using Aspose.Words for Java with step-by-step guidance and sample code.
 ### [Document Redaction and Data Protection](./document-redaction-data-protection/)
 Learn how to secure your documents and redact sensitive data using Aspose.Words for Java. Step-by-step guide with source code.
 
