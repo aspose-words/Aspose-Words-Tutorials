@@ -1,11 +1,11 @@
 ---
-date: 2025-12-20
-description: Tanulja meg, hogyan szervezheti a fájlokat típus szerint, és hogyan ismerheti
-  fel a dokumentumformátumokat Java-ban az Aspose.Words segítségével. Támogatja a
-  DOC, DOCX, RTF és további formátumokat.
+date: 2026-02-22
+description: Ismerje meg, hogyan lehet Java-ban az Aspose.Words segítségével felismerni
+  a dokumentum formátumát, és automatikusan áthelyezni a fájlokat formátum szerint.
+  Azonosítsa a DOC, DOCX és egyéb formátumokat.
 linktitle: Determining Document Format
 second_title: Aspose.Words Java Document Processing API
-title: Fájlok rendezése típus szerint az Aspose.Words for Java használatával
+title: Dokumentumformátum felismerése Java-ban az Aspose.Words for Java használatával
 url: /hu/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
@@ -16,32 +16,38 @@ weight: 25
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fájlok típus szerinti rendezése az Aspose.Words for Java segítségével
+# Java dokumentumformátum felismerése az Aspose.Words for Java segítségével
 
-Amikor egy Java‑alkalmazásban **fájlok típus szerinti rendezésére** van szükség, az első lépés a dokumentumok formátumának megbízható meghatározása. Az Aspose.Words for Java ezt egyszerűvé teszi, lehetővé téve a DOC, DOCX, RTF, HTML, ODT és számos más formátum – még a titkosított vagy ismeretlen fájlok – felismerését. Ebben az útmutatóban bemutatjuk, hogyan állítsunk be mappákat, hogyan detektáljuk a fájlformátumokat, és hogyan rendezhetjük automatikusan a fájlokat.
+Amikor **detect document format java**-ra van szükség egy fájlkészletben, a fájlok automatikus rendezése a megfelelő mappákba órákat takaríthat meg a kézi munka terén. Ebben a bemutatóban megmutatjuk, hogyan teszi egyszerűvé az Aspose.Words for Java a Word, RTF, HTML, ODT és számos más formátum azonosítását, majd **move files by format** segítségével rendezett könyvtárakba helyezi őket.
 
 ## Gyors válaszok
-- **Mit jelent a “fájlok típus szerinti rendezése”?** Azt, hogy a dokumentumokat automatikusan a felismert formátumuk (pl. DOCX, PDF, RTF) alapján mappákba helyezzük.  
-- **Melyik könyvtár segít a fájlformátum felismerésében Java‑ban?** Az Aspose.Words for Java biztosítja a `FileFormatUtil.detectFileFormat()` metódust.  
-- **Az API képes ismeretlen fájltípusok azonosítására?** Igen – nem támogatott vagy felismerhetetlen fájlok esetén `LoadFormat.UNKNOWN` értéket ad vissza.  
-- **Támogatott a titkosított dokumentumok felismerése?** Teljes mértékben; a `FileFormatInfo.isEncrypted()` jelző megmutatja, ha a fájl jelszóval védett.  
-- **Szükség van licencre a termelésben való használathoz?** Igen, kereskedelmi környezetben érvényes Aspose.Words licenc szükséges.
+- **Mit jelent a “detect document format java”?** Ez a folyamat azt jelenti, hogy Java kóddal programozottan azonosítjuk egy fájl Word‑feldolgozó formátumát (DOC, DOCX, RTF stb.).  
+- **Melyik könyvtár biztosítja ezt a lehetőséget?** Az Aspose.Words for Java a `FileFormatUtil.detectFileFormat` API‑t kínálja.  
+- **Kezelni tudja a titkosított fájlokat is?** Igen – a `FileFormatInfo.isEncrypted()` jelző megmondja, ha egy dokumentum jelszóval védett.  
+- **Szükség van licencre a termelésben való használathoz?** Igen, egy kereskedelmi Aspose.Words licenc szükséges a nem‑értékelő telepítésekhez.  
+- **Lehet automatikusan áthelyezni a fájlokat a felismerés után?** Természetesen – a felismerési eredményt kombinálhatjuk a `FileUtils.copyFile`‑lal, hogy a fájlokat egyedi mappákba rendezzük.
 
-## Bevezetés: Fájlok típus szerinti rendezése az Aspose.Words for Java segítségével
+## Mi az a detect document format java?
+A `detect document format java` arra utal, hogy Java kóddal megvizsgáljuk egy fájl bináris fejlécét, és meghatározzuk, melyik Word‑feldolgozó formátumhoz (pl. DOC, DOCX, ODT) tartozik. Az Aspose.Words a fájlt a teljes dokumentum betöltése nélkül olvassa, így a művelet gyors és memóriahatékony.
 
-Java‑ban a dokumentumfeldolgozás során elengedhetetlen a fájlok formátumának meghatározása. Az Aspose.Words for Java erőteljes funkciókat kínál a **fájlformátum detektálásához Java‑ban**, és végigvezetjük a hatékony fájlrendezés folyamatán.
+## Miért érdemes formátum szerint áthelyezni a fájlokat?
+A dokumentumok natív formátumuk szerinti rendezése leegyszerűsíti a további feldolgozást:
+
+- **Kötegelt konverziók** egyszerűen végrehajthatók, ha minden DOCX fájl egy mappában van.  
+- **Örökölt támogatás**: elkülöníthetjük a pre‑97 Word fájlokat speciális kezeléshez.  
+- **Biztonság**: a titkosított dokumentumok automatikusan karanténba helyezhetők.  
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik a következőkkel:
 
-- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- Java Development Kit (JDK) telepítve van a rendszerén
-- Alapvető Java programozási ismeretek
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/) (töltse le a legújabb verziót)  
+- Java Development Kit (JDK) 8 vagy újabb telepítve  
+- Alapvető ismeretek a Java I/O‑ról és streamekről  
 
-## 1. lépés: Könyvtárak létrehozása
+## 1. lépés: Könyvtárak létrehozása minden formátumhoz
 
-Először is létre kell hoznunk a szükséges könyvtárakat a fájlok hatékony rendezéséhez. Külön mappákat hozunk létre a különböző dokumentumtípusok számára.
+Először egy tiszta mappastruktúrát hozunk létre, ahová a felismert fájlok kerülnek. Ez rendezi a munkafolyamatot, és könnyűvé teszi új formátumkategóriák hozzáadását később.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -60,11 +66,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Létrehoztuk a támogatott, ismeretlen, titkosított és pre‑97 dokumentumtípusok számára a megfelelő könyvtárakat.
+> **Pro tipp:** Használjon abszolút útvonalakat, vagy állítsa be a báziskönyvtárat egy properties fájlban, hogy elkerülje a hard‑coded útvonalakat a termelési kódban.
 
-## 2. lépés: Dokumentumformátum detektálása
+## 2. lépés: Dokumentumformátum felismerése és fájlok áthelyezése
 
-Most detektáljuk a könyvtárainkban lévő dokumentumok formátumát. Ehhez az Aspose.Words for Java‑t használjuk.
+A **detect document format java** lényege az alábbi ciklusban található. Minden fájlt beolvas, meghatározza a típusát, és a megfelelő mappába másolja.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -106,9 +112,11 @@ for (String fileName : listFiles) {
 }
 ```
 
-Ebben a kódrészletben végigiterálunk a fájlokon, **fájlformátumot detektálunk Java‑ban**, és a megfelelő mappákba helyezzük őket.
+A `switch` blokk bővíthető minden kívánt formátumra. Minden eset barátságos üzenetet ír ki, majd áthelyezi a fájlt a megfelelő mappába.
 
-## Teljes forráskód a dokumentumformátum meghatározásához az Aspose.Words for Java‑ban
+## Teljes forráskód a document format java felismeréséhez
+
+Az alábbiakban a teljes, azonnal futtatható példát láthatja, amely egyesíti a könyvtárbeállítást és a felismerési logikát. Másolja be egy Java osztályba, állítsa be a bázisútvonalat, és futtassa egy vegyes dokumentumokat tartalmazó mappán.
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
@@ -200,48 +208,39 @@ Ebben a kódrészletben végigiterálunk a fájlokon, **fájlformátumot detekt�
 
 ```
 
-## Hogyan detektáljuk a fájlformátumot Java‑ban
+## Gyakori problémák és hibaelhárítás
 
-A `FileFormatUtil.detectFileFormat()` metódus a fájlfejlécet vizsgálja, és egy `FileFormatInfo` objektumot ad vissza. Ez az objektum tartalmazza a **load format** értékét, azt, hogy a fájl titkosított‑e, valamint egyéb hasznos metaadatokat. Ezen információk felhasználásával programozottan **azonosíthatunk ismeretlen fájltípusokat**, és eldönthetjük, hogyan dolgozzuk fel őket.
+| Probléma | Miért fordul elő | Hogyan javítható |
+|----------|------------------|-----------------|
+| **`FileFormatUtil.detectFileFormat` **UNKNOWN** értéket ad** | A fájl sérült vagy nem‑Word formátumú. | Ellenőrizze a fájl kiterjesztését, vagy adjon hozzá egy tartalék áthelyezést a *Unknown* mappába (már a mintában szerepel). |
+| **Titkosított fájlok kivételt dobnak** | Az API a titkosítás ellenőrzése előtt megpróbálja olvasni a tartalmat. | Mindig hívja meg az `info.isEncrypted()`‑t, mielőtt bármilyen más műveletet végezne a dokumentumon. |
+| **Könyvtár létrehozása Linuxon sikertelen** | Nem elegendő jogosultság vagy hiányzó szülőkönyvtár. | Győződjön meg róla, hogy a Java folyamatnak írási joga van, és hogy a bázisútvonal létezik. |
 
-## Ismeretlen fájltípusok azonosítása
+## Gyakran ismételt kérdések
 
-Ha az API `LoadFormat.UNKNOWN` értéket ad vissza, a fájl vagy sérült, vagy olyan formátumú, amelyet az Aspose.Words nem támogat. A példakódban ezeket a fájlokat az **Ismeretlen** mappába helyezzük, hogy később áttekinthetőek legyenek.
+**Q: Hogyan telepíthetem az Aspose.Words for Java‑t?**  
+A: Letöltheti az Aspose.Words for Java‑t a [here](https://releases.aspose.com/words/java/) címről, és kövesse a mellékelt telepítési útmutatót.
 
-## Gyakori problémák és megoldások
+**Q: Milyen dokumentumformátumok támogatottak a felismeréshez?**  
+A: Az Aspose.Words képes felismerni a DOC, DOCX, DOT, DOTX, DOCM, DOTM, RTF, HTML, MHTML, ODT, OTT, FLAT_OPC, WORD_ML és a régebbi pre‑97 formátumokat, többek között.
 
-| Probléma | Ok | Megoldás |
-|----------|----|----------|
-| A fájlok mindig a *Támogatott* mappába kerülnek | A `FileFormatUtil` nem tudta beolvasni a fejlécet (pl. a fájl üres) | Győződjön meg arról, hogy a helyes fájlútvonalat adja meg, és a fájl nem 0‑bájtos. |
-| Titkosított fájlok kivételt dobnak | Titkosítás kezelése nélkül próbálja meg olvasni | Használja az `info.isEncrypted()` ellenőrzést a további feldolgozás előtt, ahogy a kódban is látható. |
-| Pre‑97 Word dokumentumok nem kerülnek felismerésre | Régi formátumokhoz szükséges a `DOC_PRE_WORD_60` eset | Tartsa meg a `case LoadFormat.DOC_PRE_WORD_60` blokkot, hogy a *Pre97* mappába irányítsa őket. |
+**Q: Kezelni tudja a jelszóval védett dokumentumokat ez a kód?**  
+A: Igen. A `FileFormatInfo.isEncrypted()` jelző azonosítja a titkosított fájlokat, így azok biztonságos mappába helyezhetők anélkül, hogy megnyitnánk őket.
 
-## Gyakran feltett kérdések
+**Q: Van teljesítménybeli hatása a nagy mappák beolvasásának?**  
+A: A felismerés csak a fájl fejlécét olvassa, ezért akár több ezer fájl is gyorsan feldolgozható. Nagyon nagy kötegek esetén érdemes párhuzamos streameket használni.
 
-### Hogyan telepíthetem az Aspose.Words for Java‑t?
+**Q: Hogyan bővíthetem a szkriptet, hogy nem támogatott formátumokat konvertáljon?**  
+A: A felismerés után meghívhatja a `Document.save`‑t a kívánt kimeneti formátummal bármely támogatott forrástípus esetén.
 
-Az Aspose.Words for Java‑t letöltheti [innen](https://releases.aspose.com/words/java/), és kövesse a mellékelt telepítési útmutatót.
+## Összegzés
 
-### Mely dokumentumformátumok támogatottak?
-
-Az Aspose.Words for Java számos formátumot támogat, többek között DOC, DOCX, RTF, HTML, ODT és még sok mást. A teljes listáért tekintse meg a hivatalos dokumentációt.
-
-### Hogyan detektálhatom a titkosított dokumentumokat az Aspose.Words for Java‑val?
-
-Használja a `FileFormatUtil.detectFileFormat()` metódust; a visszaadott `FileFormatInfo.isEncrypted()` jelző jelzi a titkosítást, ahogyan ebben az útmutatóban is bemutatjuk.
-
-### Vannak korlátozások a régi dokumentumformátumokkal kapcsolatban?
-
-Az olyan régi formátumok, mint a MS Word 6 vagy Word 95, hiányozhatnak a modern funkciókból, és kompatibilitási problémákat okozhatnak. Amennyiben lehetséges, konvertálja őket újabb formátumokra.
-
-### Automatizálhatom a dokumentumformátum detektálását a Java‑alkalmazásomban?
-
-Igen, a megadott kód beilleszthető az alkalmazás feldolgozási csővezetékébe. Ez lehetővé teszi az automatikus rendezést és a formátumok alapján történő kezelését.
+Az **detect document format java** használatával az Aspose.Words segítségével megbízható módot kap a Word‑kapcsolódó fájlok automatikus rendezésére, karanténba helyezésére vagy konvertálására. A mintakód bemutatja, hogyan hozhat létre tiszta könyvtárhierarchiát, azonosíthatja minden fájl formátumát, és helyezheti át azt – időt takarít meg és csökkenti a kézi hibákat.
 
 ---
 
-**Utolsó frissítés:** 2025-12-20  
-**Tesztelt verzió:** Aspose.Words for Java 24.12 (legújabb)  
+**Utoljára frissítve:** 2026-02-22  
+**Tesztelve:** Aspose.Words for Java 24.12 (legújabb)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
