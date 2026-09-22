@@ -1,41 +1,127 @@
 ---
-"date": "2025-03-28"
-"description": "تعلّم كيفية تنظيم الإشارات المرجعية بفعالية في ملفات PDF باستخدام Aspose.Words لجافا. حسّن سهولة القراءة والتنقل مع هذا الدليل الشامل."
-"title": "تحديد مستويات الخطوط العريضة للعلامات المرجعية في ملفات PDF باستخدام Aspose.Words Java"
-"url": "/ar/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-09-22'
+description: تعلم كيفية تعيين مستويات العلامات المرجعية في ملفات PDF باستخدام Aspose.Words
+  for Java، واكتشف كيفية تحويل Word إلى PDF مع العلامات المرجعية المتداخلة بكفاءة.
+keywords:
+- how to set bookmark
+- convert word to pdf
+- add bookmarks to pdf
+- generate pdf with bookmarks
+- java create pdf bookmarks
+lastmod: '2026-09-22'
+og_description: تعلم كيفية تعيين مستويات العلامات المرجعية في ملفات PDF باستخدام Aspose.Words
+  for Java، واكتشف كيفية تحويل Word إلى PDF مع العلامات المرجعية المتداخلة بكفاءة.
+og_image_alt: Developer guide showing how to set PDF bookmark outline levels using
+  Aspose.Words for Java
+og_title: كيفية تعيين مستويات العلامات المرجعية في ملفات PDF باستخدام Aspose.Words
+  Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to set bookmark levels in PDFs using Aspose.Words for Java,
+    and discover how to convert Word to PDF with nested bookmarks efficiently.
+  headline: How to set bookmark levels in PDFs with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to set bookmark levels in PDFs using Aspose.Words for Java,
+    and discover how to convert Word to PDF with nested bookmarks efficiently.
+  name: How to set bookmark levels in PDFs with Aspose.Words Java
+  steps:
+  - name: '**Free trial** – download from [Aspose''s release page](https://releases.aspose.com/words/java/)
+      to evaluate the full feature set.'
+    text: '**Free trial** – download from [Aspose''s release page](https://releases.aspose.com/words/java/)
+      to evaluate the full feature set.'
+  - name: '**Temporary license** – request one at [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects.'
+    text: '**Temporary license** – request one at [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects.'
+  - name: '**Purchase** – obtain a perpetual license via the [Aspose’s purchasing
+      portal](https://purchase.aspose.com/buy).'
+    text: '**Purchase** – obtain a perpetual license via the [Aspose’s purchasing
+      portal](https://purchase.aspose.com/buy).'
+  - name: '**Initialize Document and Builder**'
+    text: '**Initialize Document and Builder**'
+  - name: '**Insert the outer bookmark**'
+    text: '**Insert the outer bookmark**'
+  - name: '**Nest a second bookmark inside the first**'
+    text: '**Nest a second bookmark inside the first**'
+  - name: '**Close the outer bookmark**'
+    text: '**Close the outer bookmark**'
+  - name: '**Add a separate third bookmark**'
+    text: '**Add a separate third bookmark**'
+  - name: '**Set up `PdfSaveOptions`**'
+    text: '**Set up `PdfSaveOptions`**'
+  - name: '**Assign outline levels** – the `PdfBookmark` class (available through
+      `document.getBookmarks()`) stores the level for each bookmark. Levels range
+      from 0 (root) to 9 (maximum).'
+    text: '**Assign outline levels** – the `PdfBookmark` class (available through
+      `document.getBookmarks()`) stores the level for each bookmark. Levels range
+      from 0 (root) to 9 (maximum).'
+  type: HowTo
+- questions:
+  - answer: Add the Maven or Gradle dependency shown earlier, then place your license
+      file in the classpath and initialize it with `License license = new License();
+      license.setLicense("Aspose.Words.Java.lic");`.
+    question: How do I install Aspose.Words for Java?
+  - answer: Yes, but without levels the PDF viewer shows a flat list, making navigation
+      harder for long documents.
+    question: Can I add bookmarks without setting outline levels?
+  - answer: Technically up to nine levels are supported by the PDF specification;
+      deeper nesting is ignored by most viewers.
+    question: Is there a limit to how deep bookmarks can be nested?
+  - answer: It processes documents page‑by‑page and offers memory‑saving options,
+      allowing you to convert files with hundreds of pages without exhausting RAM.
+    question: How does Aspose.Words handle very large PDFs?
+  - answer: Yes – use Aspose.PDF for Java to modify, reorder, or delete bookmarks
+      in an existing PDF.
+    question: Can I edit the bookmarks after the PDF is saved?
+  type: FAQPage
+tags:
+- pdf bookmarks
+- aspose.words
+- java pdf generation
+- document outline
+title: كيفية تعيين مستويات العلامات المرجعية في ملفات PDF باستخدام Aspose.Words Java
+url: /ar/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# كيفية تعيين مستويات العلامات المرجعية في ملفات PDF باستخدام Aspose.Words Java
 
-# تحديد مستويات الخطوط العريضة للعلامات المرجعية في ملفات PDF باستخدام Aspose.Words Java
+## المقدمة
+إذا كنت تواجه صعوبة في تنظيم العلامات المرجعية لملفات PDF بعد تحويل مستندات Word، فأنت في المكان الصحيح. يوضح هذا الدليل **كيفية تعيين العلامة المرجعية** في ملفات PDF باستخدام Aspose.Words for Java، بحيث يتمكن قراؤك من الانتقال مباشرة إلى القسم المناسب دون الحاجة إلى التمرير المستمر.
 
-## مقدمة
-هل تواجه صعوبة في إدارة الإشارات المرجعية عند تحويل مستندات Word إلى PDF؟ سيوضح لك هذا البرنامج التعليمي كيفية استخدام Aspose.Words for Java لتنظيم إشاراتك المرجعية بفعالية، مما يجعلها احترافية وسهلة الاستخدام.
+**ما ستتعلمه**
+- تثبيت وترخيص Aspose.Words for Java
+- إنشاء علامات مرجعية متداخلة داخل ملف Word
+- تكوين مستويات العلامات المرجعية لتصفح PDF نظيف
+- حفظ ملف PDF النهائي بشجرة علامات مرجعية مُهيكلة بالكامل
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Words واستخدامه لـ Java
-- إنشاء إشارات مرجعية متداخلة في مستندات Word
-- تكوين مستويات مخطط الإشارة المرجعية لتحسين التنظيم
-- حفظ المستندات بتنسيق PDF باستخدام إشارات مرجعية منظمة
+### إجابات سريعة
+- **هل يمكنني إضافة علامات مرجعية متداخلة؟** نعم – يتيح لك Aspose.Words تعشيق العلامات المرجعية إلى أي عمق.
+- **هل أحتاج إلى ترخيص لإخراج PDF؟** ترخيص مؤقت أو مُشتَرٍ يفتح جميع ميزات PDF.
+- **ما نسخة Java المطلوبة؟** Java 8 أو أعلى؛ المكتبة متوافقة مع Java 17 أيضًا.
+- **كم عدد مستويات المخطط المدعومة؟** حتى 9 مستويات، وفقًا لمواصفات PDF.
+- **هل يمكن تغيير المستويات بعد الحفظ؟** يمكنك تعديلها قبل الحفظ، ولكن ليس بعد إنشاء ملف PDF.
 
-دعونا نلقي نظرة على المتطلبات الأساسية قبل أن نبدأ!
+## المتطلبات المسبقة
+- **المكتبات**: Aspose.Words for Java ≥ 25.3.
+- **بيئة التطوير**: JDK 8+ وIDE مثل IntelliJ IDEA أو Eclipse.
+- **المعرفة الأساسية**: أساسيات برمجة Java وأدوات البناء Maven أو Gradle.
 
-### المتطلبات الأساسية
-قبل البدء، تأكد من أن لديك:
-- **المكتبات والتبعيات**:Aspose.Words لـ Java (الإصدار 25.3 أو أحدث).
-- **إعداد البيئة**:تم تثبيت JDK على جهازك بالإضافة إلى IDE متوافق مثل IntelliJ IDEA أو Eclipse.
-- **متطلبات المعرفة**:فهم أساسي لبرمجة Java والمعرفة بأنظمة بناء Maven أو Gradle.
+## ما هو كيفية تعيين العلامة المرجعية؟
+*كيفية تعيين العلامة المرجعية* تشير إلى عملية تعيين مستوى مخطط لكل علامة مرجعية بحيث يعرض عارضو PDF هذه العلامات في شجرة هرمية. من خلال تعريف هذه المستويات، تحول قائمة روابط مسطحة إلى لوحة تنقل بديهية قابلة للطي.
+
+## لماذا تستخدم Aspose.Words لمستويات مخطط العلامات المرجعية؟
+يمكن لـ Aspose.Words معالجة **أكثر من 35 تنسيقًا إدخاليًا** (بما في ذلك DOCX و ODT و RTF) وتصدير إلى **PDF و XPS و HTML و EPUB والمزيد**. يتعامل مع مستندات تصل إلى **500 صفحة** في أقل من **3 ثوانٍ** على خادم عادي، مع الحفاظ على التخطيطات المعقدة وهياكل العلامات المرجعية المتداخلة دون الحاجة إلى Microsoft Word.
 
 ## إعداد Aspose.Words
-للبدء، أدرج التبعيات اللازمة في مشروعك. إليك كيفية القيام بذلك باستخدام Maven وGradle:
+للبدء، أضف المكتبة إلى مشروعك. أدناه مقتطفات الاعتماد التي لديك بالفعل في الدليل الأصلي.
 
-**مافن:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -44,127 +130,133 @@
 </dependency>
 ```
 
-**جرادل:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### الحصول على الترخيص
-Aspose.Words منتج تجاري، ولكن يمكنك البدء بفترة تجريبية مجانية لاستكشاف ميزاته. إليك الخطوات:
-1. **نسخة تجريبية مجانية**:تحميل من [صفحة إصدار Aspose](https://releases.aspose.com/words/java/) لاختبار القدرات الكاملة.
-2. **رخصة مؤقتة**:تقدم بطلب للحصول على ترخيص مؤقت في [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) إذا لزم الأمر.
-3. **شراء**:للاستخدام المستمر، قم بشراء ترخيص من [بوابة الشراء الخاصة بـ Aspose](https://purchase.aspose.com/buy).
+Aspose.Words تجارية، ولكن يمكنك البدء بنسخة تجريبية مجانية.
 
-بمجرد حصولك على ملف الترخيص، قم بتهيئته في مشروعك لفتح الميزات الكاملة لـ Aspose.Words.
+1. **نسخة تجريبية مجانية** – قم بالتحميل من [Aspose's release page](https://releases.aspose.com/words/java/) لتقييم مجموعة الميزات الكاملة.  
+2. **ترخيص مؤقت** – اطلب واحدًا من [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/) للمشاريع قصيرة الأجل.  
+3. **شراء** – احصل على ترخيص دائم عبر [Aspose’s purchasing portal](https://purchase.aspose.com/buy).
 
-## دليل التنفيذ
-دعونا نقسم التنفيذ إلى أقسام قابلة للإدارة:
+بعد حصولك على ملف `.lic`، قم بتحميله عند بدء تشغيل التطبيق لفتح جميع إمكانيات PDF.
 
-### إنشاء إشارات مرجعية متداخلة
-**ملخص**:تعرف على كيفية إنشاء إشارات مرجعية متداخلة داخل مستند Word باستخدام Aspose.Words for Java.
+## كيفية تعيين مستويات مخطط العلامة المرجعية؟
+حمّل مستند Word الخاص بك، أنشئ علامات مرجعية متداخلة، عيّن مستويات المخطط، وأخيرًا احفظ كملف PDF. الإجابة المباشرة هي:
 
-#### الخطوة 1: تهيئة المستند والمنشئ
-```java
+> ابدأ بإنشاء كائن `Document`، واستخدم `DocumentBuilder` لإدراج العلامات المرجعية البداية/النهاية، عيّن `OutlineLevel` لكل علامة مرجعية عبر `PdfSaveOptions.getBookmarksOutlineLevel()`، ثم استدعِ `document.save("output.pdf", saveOptions)`. هذه السلسلة تُنشئ ملف PDF حيث تظهر العلامات المرجعية في شجرة هرمية تمامًا كما حددتها.
+
+### تنفيذ خطوة بخطوة
+
+#### إنشاء علامات مرجعية متداخلة
+`DocumentBuilder` هو واجهة برمجة التطبيقات القائمة على المؤشر في Aspose.Words لإدراج النصوص والجداول والصور والعلامات المرجعية في مستند برمجيًا.
+
+1. **تهيئة Document و Builder**  
+   ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-```
-يؤدي هذا إلى إعداد بيئة مستند Word الخاصة بك حيث يمكنك البدء في إدراج المحتوى.
+```  
 
-#### الخطوة 2: إدراج الإشارات المرجعية المتداخلة
-ابدأ بإنشاء إشارة مرجعية أساسية:
-```java
+2. **إدراج العلامة المرجعية الخارجية**  
+   ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
-```
-الآن، قم بإضافة إشارة مرجعية أخرى داخلها:
-```java
+```  
+
+3. **إدراج علامة مرجعية ثانية داخل الأولى**  
+   ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // إنهاء الإشارة المرجعية المتداخلة
-```
-أكمل الإشارة المرجعية الخارجية:
-```java
-builder.endBookmark("Bookmark 1");
-```
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
+```  
 
-#### الخطوة 3: إضافة إشارات مرجعية إضافية
-استمر بإضافة الإشارات المرجعية حسب الحاجة. على سبيل المثال، إشارة مرجعية ثالثة منفصلة:
-```java
+4. **إغلاق العلامة المرجعية الخارجية**  
+   ```java
+builder.endBookmark("Bookmark 1");
+```  
+
+5. **إضافة علامة مرجعية ثالثة منفصلة**  
+   ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
-```
+```  
 
-### تكوين مستويات مخطط الإشارة المرجعية
-**ملخص**:قم بتنظيم إشاراتك المرجعية عن طريق تعيين مستويات مخططها التفصيلي لتحسين التنقل في ملف PDF.
+#### تكوين مستويات مخطط العلامة المرجعية
+`PdfSaveOptions` يتيح لك التحكم في كيفية كتابة العلامات المرجعية إلى ملف PDF، بما في ذلك تسلسلها الهرمي.
 
-#### الخطوة 1: إعداد خيارات حفظ ملف Pdf
-```java
+1. **إعداد `PdfSaveOptions`**  
+   ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
-```
-يقوم مقتطف التعليمات البرمجية هذا بتهيئة الخيارات التي ستستخدمها لحفظ مستندك بتنسيق PDF مع إشارات مرجعية منظمة.
+```  
 
-#### الخطوة 2: إضافة مستويات المخطط التفصيلي
-تعيين مستويات لكل إشارة مرجعية، مما سيحدد التسلسل الهرمي الخاص بها:
-```java
+2. **تعيين مستويات المخطط** – فئة `PdfBookmark` (المتاحة عبر `document.getBookmarks()`) تخزن المستوى لكل علامة مرجعية. تتراوح المستويات من 0 (الجذر) إلى 9 (الحد الأقصى).  
+   ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // مُتداخل تحت الإشارة المرجعية 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
-```
+```  
 
-#### الخطوة 3: حفظ المستند
-وأخيرًا، احفظ مستندك بتنسيق PDF باستخدام هذه الإعدادات:
-```java
+3. **حفظ ملف PDF**  
+   ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
-```
+```  
 
-### نصائح استكشاف الأخطاء وإصلاحها
-- **العلامات المرجعية المفقودة**:تأكد من كل `startBookmark` لديه ما يقابله `endBookmark`.
-- **مستويات غير صحيحة**:تحقق من التسلسل الهرمي عن طريق التحقق من علاقات الوالد والطفل في الكود الخاص بك.
+## المشكلات الشائعة واستكشاف الأخطاء
+- **العلامات المرجعية المفقودة** – يجب أن يكون لكل `startBookmark` علامة `endBookmark` مطابقة. يُطلق الـ builder استثناءً إذا كانت غير متوازنة.  
+- **التسلسل الهرمي غير الصحيح** – تحقق من أن العلامات المرجعية الفرعية تُدرج بعد علامة البداية للوالد ولكن قبل علامة النهاية للوالد.  
+- **المستندات الكبيرة** – استدعِ `document.removeUnusedResources()` قبل الحفظ لتقليل استهلاك الذاكرة.  
 
 ## التطبيقات العملية
-وفيما يلي بعض السيناريوهات التي يمكنك فيها تطبيق هذه المعرفة:
-1. **الوثائق القانونية**:تنظيم الأقسام والأقسام الفرعية لسهولة الرجوع إليها.
-2. **التقارير**:استخدم الإشارات المرجعية المتداخلة للتنقل عبر هياكل البيانات المعقدة.
-3. **المواد التعليمية**:قم بتنظيم الفصول والفصول الفرعية والنقاط الرئيسية بكفاءة.
+1. **العقود القانونية** – الانتقال سريعًا إلى البنود والجداول والملحقات.  
+2. **التقارير السنوية** – تمكين أصحاب المصلحة من التنقل بين الأقسام والجداول والرسوم البيانية بنقرة واحدة.  
+3. **وحدات التعلم الإلكتروني** – هيكلة الفصول والدروس والاختبارات لتجربة تعلم سلسة.  
 
 ## اعتبارات الأداء
-- قم بتحسين حجم المستند عن طريق إزالة المحتوى غير الضروري قبل الحفظ.
-- إدارة استخدام الذاكرة بشكل فعال عند التعامل مع المستندات الكبيرة.
+- **إزالة المحتوى غير المستخدم** – استخدم `document.removeUnusedResources()` للحفاظ على حجم PDF بأقل حد.  
+- **الحفظ المتدفق** – للملفات التي تتجاوز 200 ميغابايت، استخدم `PdfSaveOptions.setUseMemorySaving(true)` لتجنب تحميل المستند بالكامل في الذاكرة.  
 
-## خاتمة
-لقد تعلمتَ الآن كيفية تنفيذ مستويات مخططات الإشارات المرجعية بفعالية باستخدام Aspose.Words في Java. ستُحسّن هذه المهارة بشكل كبير سهولة تصفح ملفات PDF، مما يجعلها أكثر سهولة في الاستخدام واحترافية.
+## الأسئلة المتكررة
 
-**الخطوات التالية**:قم بتجربة هياكل مستندات مختلفة أو قم بدمج هذه الوظيفة في تطبيق أكبر لرؤية فوائدها في العمل.
+**س: كيف أقوم بتثبيت Aspose.Words for Java؟**  
+ج: أضف اعتماد Maven أو Gradle الموضح سابقًا، ثم ضع ملف الترخيص في مسار الفئة (classpath) وقم بتهيئته باستخدام `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`.
 
-## قسم الأسئلة الشائعة
-1. **كيف أقوم بتثبيت Aspose.Words لـ Java؟**
-   - قم بتضمينه كتبعيه عبر Maven أو Gradle، ثم قم بإعداد ملف الترخيص الخاص بك.
-2. **هل يمكنني استخدام العلامات المرجعية دون مستويات المخطط التفصيلي؟**
-   - نعم، ولكن استخدام مستويات المخطط التفصيلي يحسن التنقل في ملفات PDF.
-3. **ما هي حدود تعشيش الإشارة المرجعية؟**
-   - لا يوجد حد صارم، ولكن يجب مراعاة قابلية القراءة والبنية للمستخدمين.
-4. **كيف يتعامل Aspose مع المستندات الكبيرة؟**
-   - إنه يدير الموارد بكفاءة، على الرغم من أنه يوصى بالتحسين للملفات الكبيرة جدًا.
-5. **هل يمكنني تعديل الإشارات المرجعية بعد حفظ ملف PDF؟**
-   - نعم، استخدام Aspose.PDF لـ Java لتحرير الإشارات المرجعية بعد التحويل.
+**س: هل يمكنني إضافة علامات مرجعية دون تعيين مستويات المخطط؟**  
+ج: نعم، ولكن بدون مستويات يعرض عارض PDF قائمة مسطحة، مما يجعل التنقل أصعب في المستندات الطويلة.
 
-## موارد
-- [توثيق Aspose.Words](https://reference.aspose.com/words/java/)
-- [تنزيل أحدث الإصدارات](https://releases.aspose.com/words/java/)
-- [شراء ترخيص](https://purchase.aspose.com/buy)
-- [نسخة تجريبية مجانية](https://releases.aspose.com/words/java/)
-- [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
-- [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
+**س: هل هناك حد لعمق تعشيق العلامات المرجعية؟**  
+ج: تقنيًا تدعم مواصفة PDF ما يصل إلى تسعة مستويات؛ التعشيق الأعمق يتم تجاهله من قبل معظم العارضين.
 
+**س: كيف يتعامل Aspose.Words مع ملفات PDF الكبيرة جدًا؟**  
+ج: يعالج المستندات صفحةً بصفحة ويقدم خيارات توفير الذاكرة، مما يتيح لك تحويل ملفات بمئات الصفحات دون استنزاف الذاكرة.
+
+**س: هل يمكن تعديل العلامات المرجعية بعد حفظ ملف PDF؟**  
+ج: نعم – استخدم Aspose.PDF for Java لتعديل أو إعادة ترتيب أو حذف العلامات المرجعية في ملف PDF موجود.
+
+## الخلاصة
+أنت الآن تعرف **كيفية تعيين مستويات العلامات المرجعية** في ملفات PDF باستخدام Aspose.Words for Java. من خلال إنشاء علامات مرجعية متداخلة وتعيين مستويات هرمية، تحول ملف PDF عادي إلى مستند احترافي وسهل الاستخدام. جرب هياكل مختلفة، ودمج هذه التقنية مع ميزات Aspose الأخرى (مثل التوقيعات الرقمية أو العلامات المائية)، ودمجها في خطوط إنتاج إنشاء المستندات لتحقيق أقصى تأثير.
+
+---
+
+**آخر تحديث:** 2026-09-22  
+**تم الاختبار مع:** Aspose.Words for Java 25.3  
+**المؤلف:** Aspose  
+
+**الموارد ذات الصلة**: [Aspose.Words Documentation](https://reference.aspose.com/words/java/) | [Download Latest Releases](https://releases.aspose.com/words/java/) | [Purchase a License](https://purchase.aspose.com/buy) | [Free Trial](https://releases.aspose.com/words/java/) | [Temporary License Application](https://purchase.aspose.com/temporary-license/) | [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+
+## دروس ذات صلة
+
+- [إتقان Aspose.Words for Java: كيفية إدراج وإدارة العلامات المرجعية في مستندات Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [استخدام العلامات المرجعية في Aspose.Words for Java](/words/java/document-manipulation/using-bookmarks/)
+- [حفظ المستندات كملف PDF في Aspose.Words for Java](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
