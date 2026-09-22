@@ -27,6 +27,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [Word'ü PDF olarak kaydet – Aspose.Words Tam C# Rehberi](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerini PDF'ye dönüştürmenin adım adım rehberi. |
 | [Docx'i PDF olarak kaydet – Aspose.Words Tam C# Rehberi](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words for .NET ile C# kullanarak DOCX dosyalarını PDF'ye dönüştürmenin adım adım rehberi. |
 | [Word'ü PDF olarak oluştur – Tam C# Rehberi](./how-to-create-pdf-from-word-complete-c-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerini PDF'ye dönüştürmenin eksiksiz adım adım rehberi. |
+| [Word'ü PDF olarak kaydet – C# ile Tam Erişilebilir Dönüşüm Rehberi](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerini PDF'ye erişilebilir şekilde dönüştürmenin adım adım rehberi. |
 | [C# ile Word'ü PDF'ye Dönüştür – Aspose.Words Rehberi](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | Aspose.Words for .NET ile C# kullanarak Word belgelerini PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [C# ile Word'ü PDF'ye Dönüştür – Tam Aspose Rehberi](./convert-word-to-pdf-in-c-complete-aspose-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerini PDF'ye dönüştürmenin adım adım tam rehberi. |
 | [Docx'i Bayta Dönüştür](./docx-to-byte/) | Verimli belge işleme için Aspose.Words kullanarak .NET'te Docx'i bayt dizisine nasıl dönüştüreceğinizi öğrenin. Adım adım kılavuz dahildir. |  
@@ -45,6 +46,8 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [DOCX'ten Erişilebilir PDF Oluştur – Tam Aspose Rehberi](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aspose.Words for .NET kullanarak DOCX dosyalarından erişilebilir PDF oluşturmayı adım adım öğrenin. |
 | [PNG'yi C#'ta Base64'e Dönüştür – Tam Rehber](./convert-png-to-base64-in-c-complete-guide/) | Aspose.Words for .NET kullanarak PNG görüntülerini C# ile Base64 formatına dönüştürmeyi adım adım öğrenin. |
 | [Word'den Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
+| [Word'den PDF Oluştur – Font Algılamalı Tam C# Rehberi](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Aspose.Words for .NET ile C# kullanarak Word belgelerinden PDF oluşturmayı, font algılamasını nasıl etkinleştireceğinizi adım adım öğrenin. |
+| [DOCX'ten PDF Oluşturma C# ile – Şekil Dışa Aktarmalı Tam Rehber](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyasından PDF oluşturmayı, şekilleri dışa aktarmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

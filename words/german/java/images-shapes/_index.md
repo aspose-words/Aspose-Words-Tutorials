@@ -34,13 +34,10 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [So rendern Sie Dokumentseiten als Miniaturansichten mit Aspose.Words für Java](./render-word-pages-thumbnails-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten und Bitmaps in benutzerdefinierter Größe von Word-Dokumenten erstellen. Verbessern Sie noch heute Ihre Dokumentenverwaltung.
 
-### [Word-Dokument in Java erstellen – Rechteckform mit Schatteneffekt hinzufügen](./create-word-document-java-add-rectangle-shape-with-shadow-ef/)
-Ein Codebeispiel, das zeigt, wie man in Aspose.Words für Java ein Rechteck mit Schatten in ein Word-Dokument einfügt.
-### [Rechteckform in Word mit Java erstellen – Vollständige Anleitung](./create-rectangle-shape-in-word-with-java-full-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words für Java ein Rechteck in ein Word-Dokument einfügen und anpassen.
+### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
 
 ## Weitere Ressourcen
-
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)
 - [Laden Sie Aspose.Words für Java herunter](https://releases.aspose.com/words/java/)

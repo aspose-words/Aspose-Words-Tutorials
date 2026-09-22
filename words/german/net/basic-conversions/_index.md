@@ -44,6 +44,9 @@
 | [Barrierefreies PDF aus DOCX erstellen – Vollständige Aspose‑Anleitung](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein barrierefreies PDF aus DOCX erzeugen, inklusive Tags und Zugänglichkeitsoptionen. |
 | [PNG in Base64 konvertieren in C# – Vollständige Anleitung](./convert-png-to-base64-in-c-complete-guide/) | Erfahren Sie, wie Sie PNG-Bilder in Base64-Strings in C# umwandeln – Schritt‑für‑Schritt‑Anleitung mit Beispielcode. |
 | [Barrierefreies PDF aus Word erstellen – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-from-word-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PDF erstellen, das den Barrierefreiheitsstandards entspricht. |
+| [Word als PDF speichern in C# – Vollständiger barrierefreier Konvertierungsleitfaden](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Erfahren Sie, wie Sie Word-Dokumente in C# barrierefrei als PDF speichern – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words. |
+| [PDF aus Word erstellen – Vollständige C#‑Anleitung mit Schriftart‑Erkennung](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Erfahren Sie, wie Sie mit Aspose.Words PDFs aus Word generieren und automatisch Schriftarten erkennen – komplette C#‑Anleitung. |
+| [PDF aus DOCX in C# erstellen – Vollständige Anleitung mit Shape-Export](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX in PDF konvertieren und dabei Shapes exportieren – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

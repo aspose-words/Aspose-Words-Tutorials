@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Bu öğreticide, DocumentBuilder kullanarak bir Word belgesi oluşturmayı, önceden tanımlı öğelerle bir combo kutusu form alanı eklemeyi ve belgeyi kaydetmeyi gösterir.
+//ExStepSummary:0: Oluşturulan belgenin kaydedileceği klasör yolunu ayarlayın.
+//ExStepSummary:1: Combo kutusu seçeneklerini dolduracak bir dizi string oluşturun.
+//ExStepSummary:2: Yeni bir Document ve ona bağlı bir DocumentBuilder örneği oluşturun.
+//ExStepSummary:3: `builder.InsertComboBox` metodunu çağırarak, tanımlı öğelerle \"DropDown\" adlı bir combo kutusunu geçerli imleç konumuna yerleştirin.
+//ExStepSummary:4: Belgeyi belirtilen dizine .docx dosyası olarak kaydedin.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

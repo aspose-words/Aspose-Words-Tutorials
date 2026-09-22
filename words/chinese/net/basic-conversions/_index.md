@@ -45,6 +45,9 @@
 | [从 DOCX 创建可访问 PDF – 完整 Aspose 指南](./create-accessible-pdf-from-docx-complete-aspose-guide/) | 学习如何使用 Aspose.Words for .NET 将 DOCX 转换为符合可访问性标准的 PDF，提供完整分步指南和代码示例。|
 | [在 C# 中将 PNG 转换为 Base64 – 完整指南](./convert-png-to-base64-in-c-complete-guide/) | 学习如何在 C# 中将 PNG 图像转换为 Base64 字符串，提供分步指南和代码示例，帮助开发者轻松实现图像编码。|
 | [从 Word 创建可访问 PDF – 步骤指南](./create-accessible-pdf-from-word-step-by-step-guide/) | 学习如何使用 Aspose.Words for .NET 将 Word 文档转换为符合可访问性标准的 PDF，提供分步指南和代码示例。|
+| [使用 Aspose.Words 将 Word 转换为 PDF – 完整 C# 指南（字体检测）](./create-pdf-from-word-complete-c-guide-with-font-detection/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档转换为 PDF，并自动检测所需字体，提供完整分步指南和代码示例。|
+| [在 C# 中从 DOCX 创建 PDF – 完整指南（包含形状导出）](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 DOCX 转换为 PDF，并导出文档中的形状，提供完整分步指南和代码示例。|
+| [在 C# 中将 Word 保存为 PDF – 完整可访问转换指南](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | 学习如何使用 Aspose.Words for .NET 在 C# 中将 Word 文档保存为符合可访问性标准的 PDF，提供完整分步指南和代码示例。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

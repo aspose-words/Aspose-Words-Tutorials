@@ -1,47 +1,54 @@
 ---
-date: 2025-12-18
-description: Scopri come aggiungere una filigrana ai documenti con Aspose.Words per
-  Java, includendo un esempio di filigrana immagine, cambiare il colore della filigrana,
-  impostare la trasparenza della filigrana e rimuovere la filigrana dal documento.
+date: 2026-02-19
+description: Scopri come creare un documento con filigrana usando Aspose.Words per
+  Java e aggiungere una filigrana di immagine in Java per documenti dall'aspetto professionale.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Come aggiungere una filigrana ai documenti usando Aspose.Words per Java
+title: Crea documento con filigrana usando Aspose.Words per Java
 url: /it/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come aggiungere una filigrana ai documenti usando Aspose.Words per Java
+# Crea documento con filigrana usando Aspose.Words per Java
 
-## Introduzione all'aggiunta di filigrane ai documenti in Aspose.Words per Java
-
-In questo tutorial imparerai **come aggiungere una filigrana** ai documenti Word con Aspose.Words per Java. Le filigrane sono un modo rapido per etichettare un file come confidenziale, bozza o approvato, e possono essere basate su testo o su immagine. Vedremo come configurare la libreria, creare filigrane di testo e di immagine, personalizzare il loro aspetto (inclusa la modifica del colore della filigrana e l'impostazione della trasparenza), e persino rimuovere una filigrana da un documento quando non è più necessaria.
+In questo tutorial **creerai un documento con filigrana** usando l'API Aspose.Words per Java. Le filigrane—sia di testo che di immagine—ti aiutano a etichettare un file come confidenziale, bozza o approvato, e possono essere applicate programmaticamente a qualsiasi documento Word. Ti guideremo nella configurazione della libreria, nell'aggiunta di filigrane di testo e immagine, nella personalizzazione del loro aspetto e anche nella rimozione quando non sono più necessarie.
 
 ## Risposte rapide
-- **Che cos'è una filigrana?** Un overlay semitrasparente (testo o immagine) che appare dietro il contenuto principale del documento.  
-- **Posso aggiungere più filigrane?** Sì – crea diversi oggetti `Shape` e aggiungili alle sezioni desiderate.  
-- **Come cambio il colore della filigrana?** Regola la proprietà `Color` in `TextWatermarkOptions`.  
-- **Esiste un esempio di filigrana immagine?** Vedi la sezione “Aggiunta di filigrane immagine” qui sotto.  
-- **È necessaria una licenza per rimuovere una filigrana?** È richiesta una licenza valida di Aspose.Words per l'uso in produzione.
+- **Che cosa fa una filigrana?** Sovrappone testo o un'immagine su ogni pagina per indicare lo stato o il branding.  
+- **Quale libreria aggiunge filigrane in Java?** Aspose.Words per Java fornisce supporto integrato per le filigrane.  
+- **Posso aggiungere una filigrana immagine?** Sì—usa la classe `Shape` e l'approccio `add image watermark java`.  
+- **La filigrana è semitrasparente?** Puoi controllare l'opacità tramite `setSemitransparent` per le filigrane di testo.  
+- **Ho bisogno di una licenza?** Una prova gratuita funziona per i test; è necessaria una licenza commerciale per la produzione.
 
-## Configurazione di Aspose.Words per Java
+## Cos'è una filigrana e perché usarla?
 
-Prima di iniziare ad aggiungere filigrane ai documenti, dobbiamo configurare Aspose.Words per Java. Segui questi passaggi per iniziare:
+Una filigrana è una sovrapposizione leggera—testuale o grafica—aggiunta a ogni pagina di un documento. È comunemente usata per indicare **confidenzialità**, **stato bozza** o **branding** senza modificare il contenuto sottostante. Aggiungere filigrane programmaticamente garantisce coerenza su grandi lotti di file e fa risparmiare tempo rispetto alla modifica manuale.
+
+## Configurare Aspose.Words per Java
+
+Prima di iniziare ad aggiungere filigrane, assicurati che la libreria sia pronta nel tuo progetto:
 
 1. Scarica Aspose.Words per Java da [here](https://releases.aspose.com/words/java/).  
-2. Aggiungi la libreria Aspose.Words per Java al tuo progetto Java.  
-3. Importa le classi necessarie nel tuo codice Java.
+2. Aggiungi il JAR scaricato (o la dipendenza Maven/Gradle) al classpath del tuo progetto.  
+3. Importa le classi necessarie nel tuo file sorgente Java:
 
-Ora che la libreria è configurata, immergiamoci nella creazione effettiva della filigrana.
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-## Aggiunta di filigrane di testo
+Ora che la libreria è configurata, immergiamoci nel codice effettivo della filigrana.
 
-Le filigrane di testo sono una scelta comune quando vuoi aggiungere informazioni testuali ai tuoi documenti. Ecco come puoi aggiungere una filigrana di testo usando Aspose.Words per Java:
+## Come aggiungere una filigrana di testo
+
+Le filigrane di testo sono ideali per etichettare un documento come “CONFIDENTIAL” o “DRAFT”. Il frammento seguente mostra un modo pulito per **creare documento con filigrana** usando `TextWatermarkOptions`.
 
 ```java
 // Create a Document instance
@@ -62,11 +69,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Perché è importante:** Modificando `setFontFamily`, `setFontSize` e `setColor` puoi **cambiare il colore della filigrana** per adattarlo al tuo brand, e `setSemitransparent(true)` ti consente di **impostare la trasparenza della filigrana** per un effetto discreto.
+### Personalizzare la filigrana di testo
+- **Famiglia e dimensione del font** – modifica `setFontFamily` e `setFontSize`.  
+- **Colore** – usa qualsiasi `java.awt.Color`.  
+- **Layout** – scegli `HORIZONTAL`, `DIAGONAL`, ecc.  
+- **Trasparenza** – attiva `setSemitransparent(true)` per un aspetto più leggero.
 
-## Aggiunta di filigrane immagine
+## Come aggiungere una filigrana immagine (add image watermark java)
 
-Oltre alle filigrane di testo, puoi anche aggiungere filigrane immagine ai tuoi documenti. Di seguito trovi un **esempio di filigrana immagine** che dimostra come incorporare un logo PNG o un timbro:
+Le filigrane immagine sono perfette per loghi o grafiche personalizzate. Di seguito trovi l'esempio **add image watermark java** che inserisce un PNG al centro di ogni pagina.
 
 ```java
 // Create a Document instance
@@ -90,15 +101,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Puoi ripetere questo blocco con immagini o posizioni diverse per **aggiungere più filigrane** a un unico file.
+### Suggerimenti per le filigrane immagine
+- **Ridimensiona** usando `setWidth` / `setHeight` per adattare la pagina.  
+- **Posizione** può essere centrata o allineata a qualsiasi margine usando `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Trasparenza** può essere applicata regolando il canale alfa dell'immagine prima del caricamento.
 
-## Personalizzazione delle filigrane
+## Come rimuovere le filigrane
 
-Puoi personalizzare le filigrane regolando il loro aspetto e la loro posizione. Per le filigrane di testo, puoi modificare il carattere, la dimensione, il colore e il layout. Per le filigrane immagine, puoi modificare dimensione, rotazione e allineamento come mostrato negli esempi precedenti.
-
-## Rimozione delle filigrane
-
-Se devi **rimuovere il contenuto della filigrana** dal documento, il codice seguente scorre tutte le forme e elimina quelle identificate come filigrane:
+Quando un documento non ha più bisogno di una filigrana, puoi eliminarla programmaticamente. Il codice qui sotto itera su tutte le forme e rimuove quelle che contengono “Watermark” nel loro nome.
 
 ```java
 // Create a Document instance
@@ -117,44 +127,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Casi d'uso comuni e consigli
+## Problemi comuni e risoluzione
 
-- **Bozze confidenziali:** Applica una filigrana di testo semitrasparente come “CONFIDENTIAL”.  
-- **Branding:** Usa una filigrana immagine che contenga il logo della tua azienda.  
-- **Filigrane specifiche per sezione:** Scorri `doc.getSections()` e aggiungi una filigrana solo alle sezioni che scegli.  
-- **Consiglio di prestazioni:** Riutilizza la stessa istanza di `TextWatermarkOptions` quando applichi la stessa filigrana a molti documenti.
+- **Filigrana mancante dopo il salvataggio** – assicurati di chiamare `doc.save()` dopo aver impostato la filigrana.  
+- **Immagine non visualizzata** – verifica che il percorso dell'immagine sia corretto e che il file sia in un formato supportato (PNG, JPEG, BMP).  
+- **Trasparenza non applicata** – `setSemitransparent(true)` funziona solo per le filigrane di testo; per le immagini, modifica il canale alfa del PNG.  
+- **Sezioni multiple** – se il tuo documento ha diverse sezioni, aggiungi la filigrana al corpo di ciascuna sezione o usa `doc.getWatermark().setText(...)` che la applica globalmente.
 
-## Domande frequenti
+## Domande Frequenti
 
-### Come posso cambiare il carattere di una filigrana di testo?
+**D: Come posso cambiare il font di una filigrana di testo?**  
+R: Modifica la proprietà `setFontFamily` in `TextWatermarkOptions`, ad esempio `options.setFontFamily("Times New Roman");`.
 
-Per cambiare il carattere di una filigrana di testo, modifica la proprietà `setFontFamily` in `TextWatermarkOptions`. Ad esempio:
+**D: Posso aggiungere più filigrane a un singolo documento?**  
+R: Sì. Crea più oggetti `Shape` (per le immagini) o chiama `doc.getWatermark().setText(...)` con opzioni diverse per ogni filigrana.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**D: È possibile ruotare una filigrana?**  
+R: Per le filigrane immagine, imposta la rotazione sull'oggetto `Shape` con `watermark.setRotation(angle)`. Per le filigrane di testo, usa la proprietà `setLayout` (ad esempio `WatermarkLayout.DIAGONAL`).
 
-### Posso aggiungere più filigrane a un singolo documento?
+**D: Come posso rendere una filigrana semitrasparente?**  
+R: Imposta `options.setSemitransparent(true)` in `TextWatermarkOptions`. Per le immagini, regola l'opacità dell'immagine prima del caricamento.
 
-Sì, puoi aggiungere più filigrane a un documento creando più oggetti `Shape` con impostazioni diverse e aggiungendoli al documento.
-
-### È possibile ruotare una filigrana?
-
-Sì, puoi ruotare una filigrana impostando la proprietà `setRotation` nell'oggetto `Shape`. I valori positivi ruotano la filigrana in senso orario, mentre i valori negativi la ruotano in senso antiorario.
-
-### Come posso rendere una filigrana semitrasparente?
-
-Per rendere una filigrana semitrasparente, imposta la proprietà `setSemitransparent` su `true` in `TextWatermarkOptions`.
-
-### Posso aggiungere filigrane a sezioni specifiche di un documento?
-
-Sì, puoi aggiungere filigrane a sezioni specifiche di un documento iterando sulle sezioni e aggiungendo la filigrana alle sezioni desiderate.
-
----
-
-**Ultimo aggiornamento:** 2025-12-18  
-**Testato con:** Aspose.Words per Java 24.12  
-**Autore:** Aspose  
+**D: Posso aggiungere filigrane a sezioni specifiche di un documento?**  
+R: Sì. Itera su `doc.getSections()` e aggiungi la filigrana solo alle sezioni desiderate.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +158,9 @@ Sì, puoi aggiungere filigrane a sezioni specifiche di un documento iterando sul
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo aggiornamento:** 2026-02-19  
+**Testato con:** Aspose.Words for Java 24.12 (latest)  
+**Autore:** Aspose

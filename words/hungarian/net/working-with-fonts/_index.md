@@ -49,6 +49,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Betűtípus-helyettesítési figyelmeztetések naplózása – Teljes Aspose.Words útmutató](./log-font-substitution-warnings-complete-aspose-words-guide/) | Ismerje meg, hogyan naplózhatja a betűtípus-helyettesítési figyelmeztetéseket az Aspose.Words for .NET használatakor részletes útmutatónkban. |
 | [Erőforrás Steam betűtípus forrás példa](./resource-steam-font-source-example/) | Ismerje meg, hogyan használható a Resource Stream Font Source egyéni betűtípusok betöltéséhez az Aspose.Words for .NET fájlba. |
 | [Helyettesítés kérése utótagok nélkül](./get-substitution-without-suffixes/) | Ebben az oktatóanyagban megtudhatja, hogyan lehet utótag nélküli felülírásokat beállítani egy Word-dokumentumban az Aspose.Words for .NET segítségével. |
+| [Betűtípus figyelmeztetések rögzítése C#-ban – Teljes programozási útmutató](./capture-font-warnings-in-c-complete-programming-guide/) | Tanulja meg, hogyan rögzítheti a betűtípus figyelmeztetéseket az Aspose.Words for .NET használatával C#-ban részletes útmutatóval. |
 | [Figyelmeztető visszahívás beállítása C#-ban – Teljes útmutató a betűtípus-kezeléshez](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Tanulja meg, hogyan állíthat be figyelmeztető visszahívást C#-ban az Aspose.Words for .NET betűtípus-kezeléséhez. |
 | [DOCX betöltése C#-ban – Teljes útmutató](./how-to-load-docx-in-c-complete-guide/) | Tanulja meg, hogyan tölthet be DOCX fájlokat C#-ban az Aspose.Words for .NET segítségével. |
 | [Betűtípusok észlelése – Figyelmeztetések és beállítások kezelése](./how-to-detect-fonts-in-aspose-words-handle-warnings-settings/) | Ismerje meg, hogyan észlelhet betűtípusokat, kezelheti a figyelmeztetéseket és konfigurálhatja a beállításokat az Aspose.Words for .NET-ben. |
@@ -56,7 +57,6 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Hogyan töltsön be DOCX-et és észlelje a hiányzó betűtípusokat – Teljes C# útmutató](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Tanulja meg, hogyan tölthet be DOCX fájlokat és észlelheti a hiányzó betűtípusokat az Aspose.Words for .NET segítségével C#-ban. |
 | [Betűtípus-helyettesítési figyelmeztetések engedélyezése az Aspose.Words-ben – Teljes útmutató](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Ismerje meg, hogyan engedélyezheti a betűtípus-helyettesítési figyelmeztetéseket az Aspose.Words for .NET-ben, részletes, lépésről lépésre útmutatóval. |
 | [c# Word-dokumentum betöltése – hiányzó betűtípusok észlelése és kezelése](./c-load-word-document-detect-handle-missing-fonts/) | Ismerje meg, hogyan tölthet be Word-dokumentumot C#-ban, és hogyan kezelheti a hiányzó betűtípusok észlelését az Aspose.Words for .NET segítségével. |
-
 | [Betűtípus-figyelmeztetés kezelő létrehozása – Hiányzó betűtípusok észlelése C#-ban](./create-font-warning-handler-detect-missing-fonts-in-c/) | Ismerje meg, hogyan hozhat létre betűtípus-figyelmeztetés kezelőt a hiányzó betűtípusok észleléséhez C#-ban az Aspose.Words for .NET segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Konvertera metafiler till png](./convert-metafiles-to-png/) | Konvertera enkelt metafiler till PNG i Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Förenkla din dokumenthantering. |
 | [Ladda CHM-filer i Word-dokument](./load-chm/) | Ladda enkelt CHM-filer till Word-dokument med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för att konsolidera din tekniska dokumentation. |
 | [Återställ docx med Aspose.Words – steg för steg](./how-to-recover-docx-with-aspose-words-step-by-step/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words för .NET i en enkel steg-för-steg-guide. |
+| [Hur du återställer DOCX-filer i C# – Komplett guide](./how-to-recover-docx-files-in-c-complete-guide/) | Lär dig hur du återställer skadade DOCX-filer i C# med en komplett steg-för-steg-guide. |
 | [Aspose Load Options – Ladda DOCX med anpassade teckensnittinställningar](./aspose-load-options-load-docx-with-custom-font-settings/) | Lär dig hur du laddar ett DOCX-dokument med egna teckensnittinställningar via Aspose Load Options i .NET. |
 | [Återställ skadat Word-dokument – Komplett C#-guide](./recover-damaged-word-document-complete-c-guide/) | Lär dig hur du återställer skadade Word-dokument med en komplett C#-guide i Aspose.Words för .NET. |
 | [Återställ skadad docx med Aspose.Words – ställ in återställningsläge och inläsningsalternativ](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Lär dig hur du återställer skadade docx-filer med Aspose.Words genom att ange återställningsläge och LoadOptions. |
@@ -46,6 +47,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Hur du återställer DOCX – Komplett guide med Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Lär dig steg för steg hur du återställer skadade DOCX-filer med Aspose.Words i .NET. |
 | [Återställ korrupt Word-dokument – Komplett C#-guide](./recover-corrupted-word-document-complete-c-guide/) | Lär dig hur du återställer skadade Word-dokument med en komplett C#-guide i Aspose.Words för .NET. |
 | [Återställ skadad DOCX-fil med Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) Lär dig hur du återställer skadade DOCX-filer med Aspose.Words för .NET i en enkel steg-för-steg-guide. |
+| [Återställ korrupta DOCX-filer i C# – Komplett guide](./recover-corrupted-docx-files-in-c-complete-guide/) | Lär dig hur du återställer skadade DOCX-filer med C# och Aspose.Words i en detaljerad steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

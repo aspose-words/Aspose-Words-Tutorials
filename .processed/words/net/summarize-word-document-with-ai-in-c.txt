@@ -1,0 +1,7 @@
+Title: Summarize Word document with AI in C#
+Slug: summarize-word-document-with-ai-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-15T07:12:51.902352
+SourceRepo: AI Search API
+Keywords: summarize word document, summarize text with ai, document summarization google
+PRNumber: 276

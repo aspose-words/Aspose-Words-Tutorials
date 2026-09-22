@@ -29,8 +29,10 @@
 | [Word에서 LaTeX 내보내기: Aspose를 사용해 DOCX를 Markdown으로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown-with/) | Aspose.Words for .NET을 사용해 Word 문서에서 LaTeX 수식을 추출하고 DOCX를 Markdown으로 변환하는 단계별 가이드 |
 | [LaTeX 내보내기 방법: DOCX를 Markdown 및 TXT로 변환](./how-to-export-latex-convert-docx-to-markdown-txt/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 LaTeX 수식과 함께 Markdown 및 TXT 형식으로 변환하는 단계별 가이드. |
 | [docx를 markdown으로 변환 – 단계별 C# 가이드](./convert-docx-to-markdown-step-by-step-c-guide/) | Aspose.Words for .NET을 사용하여 docx 파일을 markdown으로 변환하는 단계별 C# 가이드 |
+| [C#에서 docx를 markdown으로 변환 – 단계별 가이드](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 C#에서 docx 파일을 markdown으로 변환하는 단계별 가이드 |
 | [docx를 markdown으로 저장 – LaTeX 수식 포함 전체 C# 가이드](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | Aspose.Words for .NET으로 LaTeX 수식이 포함된 docx를 Markdown으로 변환하는 완전한 C# 가이드 |
 | [docx를 markdown으로 저장 – 이미지 추출 포함 전체 C# 가이드](./save-docx-as-markdown-full-c-guide-with-image-extraction/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 docx 파일을 markdown으로 변환하는 전체 C# 가이드 |
+| [Word를 Markdown으로 변환 – 이미지 추출 C#](./convert-word-to-markdown-extract-images-in-c/) | Aspose.Words for .NET을 사용하여 Word 문서에서 이미지를 추출하면서 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
 | [DOCX에서 Markdown으로 이미지 삽입하는 방법](./how-to-embed-images-in-markdown-from-docx/) | Aspose.Words for .NET을 사용하여 DOCX 파일에서 이미지를 추출하고 Markdown에 삽입하는 단계별 가이드 |
 | [Word를 markdown으로 변환 – 이미지 추출 포함 전체 C# 가이드](./convert-word-to-markdown-complete-guide-with-image-extractio/) | Aspose.Words for .NET을 사용하여 이미지 추출과 함께 Word 문서를 markdown으로 변환하는 전체 C# 가이드 |
 | [Word에서 Markdown 내보내기 – 전체 C# 가이드](./how-to-export-markdown-from-word-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 내보내는 전체 C# 가이드 |
@@ -57,6 +59,7 @@
 | [줄 바꿈 보존: DOCX를 Markdown으로 변환](./preserve-line-breaks-convert-docx-to-markdown/) | Aspose.Words for .NET을 사용하여 DOCX 파일의 줄 바꿈을 유지하면서 Markdown으로 변환하는 방법을 단계별로 안내합니다. |
 | [docx를 markdown으로 변환하는 동안 파일 확장자 결정 – 전체 C# 가이드](./determine-file-extension-while-converting-docx-to-markdown-c/) | Aspose.Words for .NET을 사용하여 DOCX를 Markdown으로 변환할 때 파일 확장자를 자동으로 결정하는 방법을 단계별로 안내합니다. |
 | [Word에서 LaTeX 내보내기 – DOCX를 Markdown 및 TXT로 변환](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Aspose.Words for .NET을 사용하여 Word 문서의 LaTeX 수식을 추출하고 DOCX를 Markdown 및 TXT 형식으로 변환하는 방법을 단계별로 안내합니다. |
+| [Word를 Markdown으로 변환하면서 이미지 저장 – 전체 C# 가이드](./save-word-images-while-converting-word-to-markdown-complete/) | Aspose.Words for .NET을 사용하여 Word 문서를 Markdown으로 변환하면서 이미지 파일을 추출하고 저장하는 전체 C# 가이드 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

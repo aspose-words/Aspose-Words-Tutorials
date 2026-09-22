@@ -44,6 +44,9 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Criar PDF acessível a partir de DOCX – Guia completo da Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Aprenda a gerar PDFs acessíveis a partir de arquivos DOCX usando Aspose.Words para .NET, garantindo conformidade com padrões de acessibilidade. |
 | [Converter PNG para Base64 em C# – Guia Completo](./convert-png-to-base64-in-c-complete-guide/) | Aprenda a converter imagens PNG para strings Base64 em C# usando Aspose.Words, com exemplos de código passo a passo. |
 | [Criar PDF acessível a partir do Word – Guia passo a passo](./create-accessible-pdf-from-word-step-by-step-guide/) | Aprenda a criar PDFs acessíveis a partir de documentos Word usando Aspose.Words para .NET. Guia passo a passo com exemplos de código. |
+| [Criar PDF a partir do Word – Guia Completo C# com Detecção de Fonte](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Aprenda a gerar PDFs a partir de documentos Word em C# usando Aspose.Words, incluindo detecção automática de fontes para resultados precisos. |
+| [Criar PDF a partir de DOCX em C# – Guia Completo com Exportação de Formas](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Aprenda a criar PDFs a partir de documentos DOCX em C# usando Aspose.Words, incluindo exportação de formas, com guia passo a passo. |
+| [Salvar Word como PDF em C# – Guia Completo de Conversão Acessível](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Aprenda a salvar documentos Word como PDF acessível em C# usando Aspose.Words, com guia passo a passo e dicas de acessibilidade. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

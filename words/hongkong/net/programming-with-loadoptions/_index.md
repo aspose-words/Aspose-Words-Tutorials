@@ -33,6 +33,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [將圖元檔轉換為 Png](./convert-metafiles-to-png/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆將 Word 文件中的元檔案轉換為 PNG。簡化您的文件管理。 |
 | [在 Word 文件中載入 Chm 文件](./load-chm/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆地將 CHM 檔案載入到 Word 文件中。非常適合整合您的技術文件。 |
 | [如何使用 Aspose.Words 復原 docx – 步驟說明](./how-to-recover-docx-with-aspose-words-step-by-step/) |了解如何使用 Aspose.Words 逐步復原受損的 docx 文件，確保資料完整性。 |
+| [如何在 C# 中復原 DOCX 檔案 – 完整指南](./how-to-recover-docx-files-in-c-complete-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中完整復原受損的 DOCX 檔案，確保資料完整性。 |
 | [如何使用 Aspose.Words 復原 DOCX – 完整指南](./how-to-recover-docx-complete-guide-using-aspose-words/) |了解如何使用 Aspose.Words 完整復原受損的 DOCX 文件，提供詳細步驟與最佳實踐。 |
 | [Aspose 載入選項 – 使用自訂字體設定載入 DOCX](./aspose-load-options-load-docx-with-custom-font-settings/) |了解如何使用 Aspose.Words for .NET 的 LoadOptions 以自訂字體設定載入 DOCX 文件，提升文件顯示效果。 |
 | [復原受損的 Word 文件 – 完整 C# 指南](./recover-damaged-word-document-complete-c-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中復原受損的 Word 文件，確保資料完整性。 |
@@ -41,6 +42,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [恢復損壞的 docx – 完整 C# 指南](./recover-corrupted-docx-complete-c-guide/) |了解如何使用 Aspose.Words for .NET 完整恢復受損的 docx 文件，提供詳細的 C# 步驟說明。 |
 | [復原損毀的 Word 文件 – 完整 C# 指南](./recover-corrupted-word-document-complete-c-guide/) |了解如何使用 Aspose.Words for .NET 透過完整的 C# 範例，復原受損的 Word 文件，確保資料完整性。 |
 | [使用 Aspose.Words 復原受損的 DOCX 檔案](./recover-damaged-docx-file-using-aspose-words/) |了解如何使用 Aspose.Words for .NET 復原受損的 DOCX 檔案，確保文件完整性與可讀性。 |
+| [在 C# 中復原損壞的 DOCX 檔案 – 完整指南](./recover-corrupted-docx-files-in-c-complete-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中完整復原受損的 DOCX 文件，確保資料完整性。 |
 
 | [恢復受損的 Word 檔案 – 完整指南：開啟損壞的 DOCX 並取得頁數](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆恢復受損的 Word 檔案，開啟損壞的 DOCX 並取得頁數。 |
 | [如何恢復 docx – C# 受損 Word 檔案指南](./how-to-recover-docx-c-guide-for-corrupted-word-files/) |了解如何使用 Aspose.Words for .NET 在 C# 中恢復受損的 docx 文件。 |

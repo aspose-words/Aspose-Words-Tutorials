@@ -48,6 +48,7 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [Ricevi notifica di avviso](./receive-warning-notification/) Scopri come ricevere una notifica di avviso quando usi Aspose.Words per .NET e come gestire eventuali problemi o avvisi nei tuoi documenti. |
 | [Esempio di sorgente del font Steam Resource](./resource-steam-font-source-example/) | Scopri come utilizzare Resource Stream Font Source per caricare font personalizzati in Aspose.Words per .NET. |
 | [Ottieni la sostituzione senza suffissi](./get-substitution-without-suffixes/) | In questo tutorial imparerai come ottenere override senza suffisso in un documento Word con Aspose.Words per .NET. |
+| [Cattura avvisi dei font in C# – Guida completa alla programmazione](./capture-font-warnings-in-c-complete-programming-guide/) | Scopri come catturare gli avvisi dei font in C# con Aspose.Words per .NET, guida completa passo passo. |
 | [Imposta callback di avviso in C# – Guida completa alla gestione dei font](./set-warning-callback-in-c-complete-guide-to-font-handling/) | Scopri come impostare una callback di avviso per la gestione dei font in C# con Aspose.Words per .NET. |
 | [Abilita avvisi di sostituzione dei font](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Scopri come abilitare gli avvisi di sostituzione dei font in Aspose.Words per .NET con questa guida completa passo passo. |
 | [Come caricare DOCX in C# – Guida completa](./how-to-load-docx-in-c-complete-guide/) | Scopri come caricare file DOCX in C# con Aspose.Words per .NET, passo dopo passo, con esempi di codice completi. |
@@ -57,7 +58,6 @@ Che tu voglia formattare il testo con diversi font, impostare regole di sostituz
 | [c# carica documento Word – rileva e gestisci i font mancanti](./c-load-word-document-detect-handle-missing-fonts/) | Scopri come caricare un documento Word in C# e gestire i font mancanti con Aspose.Words per .NET. |
 | [Registrare avvisi di sostituzione dei font – Guida completa Aspose.Words](./log-font-substitution-warnings-complete-aspose-words-guide/) | Scopri come registrare gli avvisi di sostituzione dei font in Aspose.Words per .NET con una guida completa passo passo. |
 | [Crea gestore di avvisi sui font – Rileva i font mancanti in C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Scopri come creare un gestore di avvisi sui font per rilevare i font mancanti in Aspose.Words per .NET usando C#. |
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

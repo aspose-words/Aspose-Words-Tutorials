@@ -45,6 +45,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Recupera docx corrotto – Guida completa C#](./recover-corrupted-docx-complete-c-guide/) | Scopri come riparare file DOCX corrotti passo passo con una guida completa in C#. |
 | [Come recuperare DOCX – Guida completa usando Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Scopri come recuperare file DOCX corrotti con Aspose.Words in questa guida completa passo passo. |
 | [Recupera file DOCX danneggiato usando Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Scopri come ripristinare un file DOCX danneggiato con Aspose.Words per .NET in pochi passaggi. |
+| [Recupera file DOCX corrotti in C# – Guida completa](./recover-corrupted-docx-files-in-c-complete-guide/) | Scopri come ripristinare file DOCX danneggiati usando C# e Aspose.Words con questa guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

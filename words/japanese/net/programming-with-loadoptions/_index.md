@@ -33,6 +33,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [メタファイルをPNGに変換する](./convert-metafiles-to-png/) Aspose.Words for .NET を使って、Word 文書内のメタファイルを PNG に簡単に変換する方法を、ステップバイステップのチュートリアルでご紹介します。ドキュメント管理が簡単になります。 |
 | [Word文書にCHMファイルを読み込む](./load-chm/) Aspose.Words for .NET を使って、CHM ファイルを Word 文書に簡単に読み込む方法をステップバイステップで解説するチュートリアルです。技術文書の統合に最適です。 |
 | [Aspose.Wordsでdocxを復元する手順 – ステップバイステップ](./how-to-recover-docx-with-aspose-words-step-by-step/) Aspose.Words for .NET を使用して、破損した docx ファイルを復元する手順をステップバイステップで解説します。 |
+| [C#でDOCXファイルを復元する方法 – 完全ガイド](./how-to-recover-docx-files-in-c-complete-guide/) Aspose.Words for .NET を使用して、C# で破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
 | [docx を復元する方法 – 復元モードを設定して破損した Word ファイルを開く](./how-to-recover-docx-set-recovery-mode-open-corrupted-word-fi/) Aspose.Words for .NET を使用して、復元モードを設定し、破損した Word 文書を安全に開く手順をステップバイステップで解説します。 |
 | [Aspose Load Options – カスタムフォント設定でDOCXを読み込む](./aspose-load-options-load-docx-with-custom-font-settings/) Aspose.Words for .NET の LoadOptions を使用し、カスタムフォント設定で DOCX を読み込む方法をステップバイステップで解説します。 |
 | [破損した Word 文書を復元する – 完全 C# ガイド](./recover-damaged-word-document-complete-c-guide/) Aspose.Words for .NET を使用して、破損した Word 文書を C# で復元する手順をステップバイステップで解説します。 |
@@ -44,6 +45,7 @@ Aspose.Words for .NET チュートリアルは、LoadOptions を用いた Words 
 | [C# で破損した文書を復元 – 復元モードを設定しユーザーに促す](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Aspose.Words for .NET の LoadOptions を使用し、破損した文書を復元モードで読み込み、ユーザーに復元を促す手順を解説します。 |
 | [破損したWord文書を復元する – 完全C#ガイド](./recover-corrupted-word-document-complete-c-guide/) Aspose.Words for .NET を使用して、破損した Word 文書を C# で完全に復元する手順をステップバイステップで解説します。 |
 | [破損した DOCX ファイルを Aspose.Words で復元する](./recover-damaged-docx-file-using-aspose-words/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを復元する手順をステップバイステップで解説します。 |
+| [C#で破損したDOCXファイルを復元する – 完全ガイド](./recover-corrupted-docx-files-in-c-complete-guide/) Aspose.Words for .NET を使用して、破損した DOCX ファイルを C# で復元する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

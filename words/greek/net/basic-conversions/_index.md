@@ -45,6 +45,9 @@
 | [Δημιουργία Προσβάσιμου PDF από DOCX – Πλήρης Οδηγός Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από DOCX χρησιμοποιώντας το Aspose.Words για .NET με πλήρη οδηγό βήμα‑βήμα. |
 | [Μετατροπή PNG σε Base64 σε C# – Πλήρης Οδηγός](./convert-png-to-base64-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε εικόνες PNG σε κωδικοποίηση Base64 με C#. |
 | [Δημιουργία Προσβάσιμου PDF από Word – Οδηγός βήμα‑βήμα](./create-accessible-pdf-from-word-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε προσβάσιμο PDF από έγγραφο Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Αποθήκευση Word ως PDF σε C# – Πλήρης Οδηγός Προσβάσιμης Μετατροπής](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Μάθετε πώς να αποθηκεύετε Word ως PDF σε C# με πλήρη οδηγό προσβάσιμης μετατροπής. |
+| [Δημιουργία PDF από Word – Πλήρης Οδηγός C# με Ανίχνευση Γραμματοσειρών](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Μάθετε πώς να δημιουργείτε PDF από Word με Aspose.Words για .NET, χρησιμοποιώντας πλήρη οδηγό C# και ανίχνευση γραμματοσειρών. |
+| [Δημιουργία PDF από DOCX σε C# – Πλήρης Οδηγός με Εξαγωγή Σχημάτων](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Μάθετε πώς να δημιουργείτε PDF από αρχεία DOCX σε C# με πλήρη οδηγό, συμπεριλαμβανομένης της εξαγωγής σχημάτων. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

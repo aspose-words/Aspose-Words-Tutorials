@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Denna handledning visar hur man skapar ett nytt Word-dokument, infogar ett kryssruteformulärfält med DocumentBuilder och sparar den resulterande filen.
+//ExStepSummary:0: Skapa en variabel för datakatalog, instansiera ett Document och skapa en DocumentBuilder för det dokumentet.
+//ExStepSummary:1: Anropa `builder.InsertCheckBox` för att lägga till ett ikryssat, aktiverat kryssruteformulärfält med namnet "CheckBox" på den aktuella markörpositionen.
+//ExStepSummary:2: Spara det modifierade dokumentet till den angivna mappen med `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

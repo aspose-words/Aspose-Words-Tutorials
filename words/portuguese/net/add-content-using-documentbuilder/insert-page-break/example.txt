@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Este tutorial mostra como inserir quebras de página em um documento Word usando Aspose.Words Document e DocumentBuilder.
+//ExStepSummary:0: Crie um objeto Document e um DocumentBuilder que serão usados para adicionar conteúdo.
+//ExStepSummary:1: Escreva o texto da primeira página e insira uma quebra de página para que o próximo conteúdo comece em uma nova página.
+//ExStepSummary:2: Escreva o texto da segunda página e insira outra quebra de página para iniciar a terceira página.
+//ExStepSummary:3: Escreva o texto da terceira página, completando o documento de três páginas.
+//ExStepSummary:4: Salve o documento montado em um arquivo .docx no diretório especificado.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

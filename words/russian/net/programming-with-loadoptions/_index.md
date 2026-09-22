@@ -35,6 +35,7 @@
 | [Как восстановить DOCX с помощью Aspose.Words – пошагово](./how-to-recover-docx-with-aspose-words-step-by-step/) | Узнайте, как восстановить повреждённые файлы DOCX с помощью Aspose.Words, следуя пошаговому руководству. |
 | [Как восстановить DOCX – Полное руководство с использованием Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Полное руководство по восстановлению повреждённых DOCX с помощью Aspose.Words. |
 | [Aspose Load Options – Загрузка DOCX с пользовательскими настройками шрифтов](./aspose-load-options-load-docx-with-custom-font-settings/) | Узнайте, как загрузить DOCX, задав пользовательские параметры шрифтов с помощью LoadOptions в Aspose.Words для .NET. |
+| [Как восстановить файлы DOCX в C# – Полное руководство](./how-to-recover-docx-files-in-c-complete-guide/) | Пошаговое руководство по восстановлению повреждённых файлов DOCX в C# с использованием Aspose.Words. |
 | [Восстановление повреждённого документа Word – Полное руководство C#](./recover-damaged-word-document-complete-c-guide/) | Узнайте, как восстановить повреждённые документы Word с помощью Aspose.Words, следуя полному руководству на C#. |
 | [Восстановление повреждённого DOCX с Aspose.Words – установить режим восстановления и параметры загрузки](./recover-damaged-docx-with-aspose-words-set-recovery-mode-and/) | Узнайте, как восстановить повреждённый DOCX, задав режим восстановления и параметры загрузки с помощью Aspose.Words для .NET. |
 | [Восстановление повреждённого файла Word – Полное руководство по открытию повреждённого DOCX и получению количества страниц](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Узнайте, как открыть повреждённый DOCX, восстановить документ и определить количество страниц с помощью Aspose.Words для .NET. |
@@ -46,6 +47,7 @@
 | [Восстановление повреждённого docx – Полное руководство C#](./recover-corrupted-docx-complete-c-guide/) | Подробное руководство по восстановлению повреждённых файлов DOCX с использованием C# и Aspose.Words. |
 | [Восстановление повреждённого документа Word – Полное руководство C#](./recover-corrupted-word-document-complete-c-guide/) | Пошаговое руководство по восстановлению повреждённых файлов Word с помощью Aspose.Words и C#. |
 | [Восстановление повреждённого DOCX-файла с помощью Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Узнайте, как восстановить повреждённый DOCX-файл с помощью Aspose.Words, следуя простому пошаговому руководству. |
+| [Восстановление повреждённых файлов DOCX в C# – Полное руководство](./recover-corrupted-docx-files-in-c-complete-guide/) | Узнайте, как восстановить повреждённые DOCX файлы в C# с помощью Aspose.Words, следуя пошаговому полному руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -33,6 +33,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi Metafile ke PNG](./convert-metafiles-to-png/) | Ubah metafile menjadi PNG dalam dokumen Word dengan mudah menggunakan Aspose.Words untuk .NET dengan tutorial langkah demi langkah ini. Sederhanakan pengelolaan dokumen Anda. Bahasa Indonesia:
 | [Memuat File Chm Dalam Dokumen Word](./load-chm/) | Muat file CHM ke dalam dokumen Word dengan mudah menggunakan Aspose.Words for .NET dengan tutorial langkah demi langkah ini. Sempurna untuk menggabungkan dokumentasi teknis Anda. |
 | [Cara Memulihkan DOCX dengan Aspose.Words – Langkah demi Langkah](./how-to-recover-docx-with-aspose-words-step-by-step/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words dengan panduan langkah demi langkah. |
+| [Cara Memulihkan File DOCX di C# – Panduan Lengkap](./how-to-recover-docx-files-in-c-complete-guide/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan panduan langkah demi langkah lengkap. |
 | [Cara Memulihkan DOCX – Panduan Lengkap Menggunakan Aspose.Words](./how-to-recover-docx-complete-guide-using-aspose-words/) | Panduan lengkap untuk memulihkan file DOCX yang rusak menggunakan Aspose.Words. |
 | [Aspose Load Options – Muat DOCX dengan Pengaturan Font Kustom](./aspose-load-options-load-docx-with-custom-font-settings/) Pelajari cara memuat file DOCX dengan pengaturan font khusus menggunakan Aspose Load Options dalam .NET. |
 | [Pulihkan Dokumen Word Rusak – Panduan Lengkap C#](./recover-damaged-word-document-complete-c-guide/) Pelajari cara memulihkan dokumen Word yang rusak dengan panduan lengkap C# menggunakan Aspose.Words. |
@@ -45,6 +46,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Pulihkan Dokumen Rusak di C# – Atur Mode Pemulihan & Tampilkan Prompt Pengguna](./recover-corrupted-document-in-c-set-recovery-mode-prompt-use/) Pelajari cara memulihkan dokumen yang rusak menggunakan Aspose.Words di C# dengan mengatur mode pemulihan dan menampilkan prompt kepada pengguna. |
 | [Pulihkan Dokumen Word Rusak – Panduan Lengkap C#](./recover-corrupted-word-document-complete-c-guide/) | Pelajari cara memulihkan dokumen Word yang rusak menggunakan Aspose.Words dengan panduan lengkap C# langkah demi langkah. |
 | [Memulihkan File DOCX Rusak Menggunakan Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
+| [Memulihkan File DOCX Rusak di C# – Panduan Lengkap](./recover-corrupted-docx-files-in-c-complete-guide/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

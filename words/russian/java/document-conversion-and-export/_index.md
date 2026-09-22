@@ -128,6 +128,38 @@ weight: 22
 
 ### [Создание доступного PDF из DOCX – Полное руководство](./create-accessible-pdf-from-docx-complete-guide/)
 Узнайте, как преобразовать DOCX в PDF, соответствующий требованиям доступности, используя Aspose.Words for Java.
+### [Конвертировать docx в txt – экспорт уравнений Word в LaTeX](./convert-docx-to-txt-export-word-equations-as-latex/)
+Узнайте, как преобразовать документы DOCX в TXT и экспортировать уравнения Word в формат LaTeX с помощью Aspose.Words для Java.
+
+### [Сохранить docx как pdf с Java – Полное пошаговое руководство](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words for Java преобразовать DOCX в PDF пошагово, используя простой код и настройки качества.
+
+### [Экспорт Word в Markdown – Полное руководство на Java](./export-word-to-markdown-full-java-guide/)
+Узнайте, как преобразовать документы Word в формат Markdown с помощью Aspose.Words для Java, используя пошаговые примеры кода.
+
+### [Конвертировать DOCX в Markdown с экспортом уравнений – Полное руководство на Java](./convert-docx-to-markdown-with-math-export-full-java-guide/)
+Узнайте, как преобразовать DOCX в Markdown и экспортировать уравнения Word в LaTeX с помощью Aspose.Words for Java.
+
+### [Создание доступного PDF из Word – пошаговое руководство](./create-accessible-pdf-from-word-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Words for Java создать PDF, соответствующий требованиям доступности, шаг за шагом.
+
+### [Сохранить docx как markdown в Java — Полное пошаговое руководство](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+Узнайте, как сохранить документ DOCX в формате Markdown с помощью Aspose.Words for Java в полном пошаговом руководстве.
+
+### [Как экспортировать LaTeX из DOCX – Руководство по конвертации Word в TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+Узнайте, как преобразовать документ DOCX в LaTeX и сохранить его как TXT с помощью Aspose.Words for Java.
+
+### [Конвертировать DOCX в PDF с экспортом встроенных фигур – пошаговое руководство](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+Узнайте, как экспортировать встроенные фигуры при конвертации DOCX в PDF с помощью Aspose.Words for Java.
+
+### [Создание markdown из документа – экспорт и сохранение изображений](./create-markdown-from-document-export-and-save-images/)
+Узнайте, как преобразовать документ в markdown и экспортировать вложенные изображения с помощью Aspose.Words for Java.
+
+### [Как восстановить DOCX, экспортировать в Markdown и PDF/UA – Полное руководство на Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+Узнайте, как восстановить повреждённый DOCX, сохранить его как Markdown и создать PDF/UA с помощью Aspose.Words for Java.
+
+### [Создание PDF UA в Java – Полное руководство](./create-pdf-ua-in-java-complete-guide/)
+Узнайте, как создать PDF с поддержкой украинского языка в Java с помощью Aspose.Words.
 
 ## Часто задаваемые вопросы
 

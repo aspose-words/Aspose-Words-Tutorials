@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: এই টিউটোরিয়ালটি Aspose.Words Document এবং DocumentBuilder ব্যবহার করে একটি Word ডকুমেন্টে পেজ ব্রেক কীভাবে সন্নিবেশ করতে হয় তা দেখায়।
+//ExStepSummary:0: কন্টেন্ট যোগ করার জন্য একটি Document অবজেক্ট এবং একটি DocumentBuilder তৈরি করুন।
+//ExStepSummary:1: প্রথম পৃষ্ঠার টেক্সট লিখুন এবং একটি পেজ ব্রেক সন্নিবেশ করুন যাতে পরবর্তী কন্টেন্ট একটি নতুন পৃষ্ঠায় শুরু হয়।
+//ExStepSummary:2: দ্বিতীয় পৃষ্ঠার টেক্সট লিখুন এবং তৃতীয় পৃষ্ঠা শুরু করার জন্য আরেকটি পেজ ব্রেক সন্নিবেশ করুন।
+//ExStepSummary:3: তৃতীয় পৃষ্ঠার টেক্সট লিখুন, যা তিন-পৃষ্ঠার ডকুমেন্ট সম্পূর্ণ করে।
+//ExStepSummary:4: সংগৃহীত ডকুমেন্টটি নির্দিষ্ট ডিরেক্টরিতে একটি .docx ফাইল হিসেবে সংরক্ষণ করুন।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

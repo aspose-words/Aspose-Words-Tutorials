@@ -81,16 +81,28 @@ Aspose.Words for Java를 사용하는 문서에 수납을 삽입하는 방법. O
 ### [Java용 Aspose.Words에서 문서 모양 사용](./using-document-shapes/)
 
 ### [Java용 Aspose.Words에서 문서에 워터마크 사용](./using-watermarks-to-documents/)
-Aspose.Words for Java로 문서에 워터마크를 추가하는 방법. 텍스트 및 이미지 워터마크를 맞춤 설정하여 전문적인 문서를 만들 수 있습니다.
+
+### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
+Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테이블 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
+
+### [Java에서 docx를 마크다운으로 저장 – 단계별 완전 가이드](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
+
+### [문서에서 마크다운 만들기 – 이미지 내보내기 및 저장](./create-markdown-from-document-export-and-save-images/)
+
+### [DOCX에서 LaTeX 내보내기 방법 – Word를 TXT로 변환 가이드](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
+
+### [인라인 도형 내보내기를 포함한 DOCX를 PDF로 변환 – 단계별 가이드](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
+
+### [Java에서 PDF/UA 생성 – 완전 가이드](./create-pdf-ua-in-java-complete-guide/)
+
+### [Java에서 DOCX 복구 및 마크다운·PDF/UA 내보내기 – 완전 가이드](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
+손상된 DOCX 파일을 복구하고, 마크다운과 PDF/UA 형식으로 내보내는 전체 과정과 코드를 단계별로 안내합니다.
 
 ### [Java용 Aspose.Words에서 DOCX를 PDF로 변환](./aspose-word-to-pdf-convert-docx-to-pdf-in-java/)
 Aspose.Words for Java를 사용해 DOCX 파일을 PDF 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [DOCX에서 접근성 PDF 만들기 – 완전 가이드](./create-accessible-pdf-from-docx-complete-guide/)
 DOCX 파일을 접근성 PDF로 변환하는 전체 단계별 가이드.
-
-### [Java용 Aspose.Words에서 테이블 및 테이블 스타일 서식 지정](./formatting-tables-and-table-styles/)
-Aspose.Words for Java에서 표를 포맷하고 표 스타일을 적용하는 방법. 테이블 서식을 설명하는 동안 가이드와 소스를 제공하여 문서 표시를 개선합니다.
 
 ### [docx를 markdown으로 변환 – Aspose.Words로 수학 방정식을 LaTeX로 내보내기](./convert-docx-to-markdown-export-math-equations-to-latex-with/)
 Aspose.Words를 사용해 DOCX 파일을 Markdown으로 변환하고, 수학 방정식을 LaTeX 형식으로 내보내는 방법을 배웁니다.
@@ -114,6 +126,17 @@ Aspose.Words for Java를 사용해 DOCX 파일을 PDF로 변환하는 단계별 
 
 ### [Aspose를 사용해 Word에서 접근성 PDF 생성 – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Aspose.Words for Java를 이용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [docx를 txt로 변환 – Word 방정식을 LaTeX로 내보내기](./convert-docx-to-txt-export-word-equations-as-latex/)
+Aspose.Words for Java를 사용해 DOCX 파일을 텍스트로 변환하고, 수식은 LaTeX 형식으로 추출하는 방법을 안내합니다.
+
+### [Java로 docx를 PDF로 저장 – 완전 단계별 가이드](./save-docx-as-pdf-with-java-complete-step-by-step-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 PDF로 변환하는 전체 과정과 코드 예제를 단계별로 안내합니다.
+
+### [Java용 Aspose.Words에서 Word를 Markdown으로 내보내기 – 전체 가이드](./export-word-to-markdown-full-java-guide/)
+Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환하는 방법을 단계별로 안내합니다.
+
+### [Word에서 접근 가능한 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aspose.Words for Java를 사용해 Word 문서를 접근성 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 
