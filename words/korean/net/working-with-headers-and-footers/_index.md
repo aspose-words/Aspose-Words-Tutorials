@@ -20,6 +20,9 @@
 
 
  ## 튜토리얼
+
+{{< tutorial-card link="./insert-header-date/" title="Aspose.Words for .NET을 사용하여 Word 문서에 동적 헤더 날짜 삽입" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | 제목 | 설명 |
 | --- | --- |
 | [헤더 푸터 만들기](./create-header-footer/) | Aspose.Words for .NET을 사용하여 Word 문서에 머리글과 바닥글을 만드는 방법을 알아보세요. 각 페이지의 머리글과 바닥글을 사용자 지정하세요. |

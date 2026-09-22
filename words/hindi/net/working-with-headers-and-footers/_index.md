@@ -20,6 +20,9 @@
 
 
  ## ट्यूटोरियल
+
+{{< tutorial-card link="./insert-header-date/" title="Aspose.Words for .NET का उपयोग करके Word दस्तावेज़ में डायनेमिक हेडर डेट इन्सर्ट करें" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | शीर्षक | विवरण |
 | --- | --- |
 | [हेडर फ़ुटर बनाएँ](./create-header-footer/) | .NET के लिए Aspose.Words के साथ अपने Word दस्तावेज़ों में हेडर और फ़ुटर बनाने का तरीका जानें। प्रत्येक पृष्ठ के लिए हेडर और फ़ुटर कस्टमाइज़ करें। |

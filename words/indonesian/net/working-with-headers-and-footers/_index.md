@@ -22,6 +22,9 @@ Words Processing with Headers and Footers merupakan sumber daya komprehensif unt
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./insert-header-date/" title="Sisipkan Tanggal Header Dinamis dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | [Buat Header dan Footer](./create-header-footer/) | Pelajari cara membuat header dan footer di dokumen Word Anda dengan Aspose.Words untuk .NET. Sesuaikan header dan footer untuk setiap halaman. Bahasa Indonesia:
 | [Salin Header dan Footer dari Bagian Sebelumnya](./copy-headers-footers-from-previous-section/) Pelajari cara menyalin header dan footer dari bagian sebelumnya dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
 

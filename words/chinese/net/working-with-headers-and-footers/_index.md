@@ -21,6 +21,9 @@
 
  ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./insert-header-date/" title="使用 Aspose.Words for .NET 在 Word 文档中插入动态页眉日期" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | --- | --- |
 | [创建页眉页脚](./create-header-footer/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中创建页眉和页脚。自定义每页的页眉和页脚。|
 | [从上一节复制页眉页脚](./copy-headers-footers-from-previous-section/) 了解如何使用 Aspose.Words for .NET 从上一节复制 Word 文档中的页眉和页脚。|

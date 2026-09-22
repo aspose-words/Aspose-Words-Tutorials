@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Document クラスと DocumentBuilder クラスを使用して、このチュートリアルでは Word 文書のプライマリヘッダーに動的な DATE フィールドを追加し、ファイルを保存する方法を示します。
+//ExStepSummary:0: 新しい Document を作成し、編集用に DocumentBuilder を作成します。
+//ExStepSummary:1: ビルダーのカーソルをプライマリヘッダーに移動し、以降の挿入がヘッダーに影響するようにします。
+//ExStepSummary:2: 静的ラベルを書き込み、ヘッダーに “MMMM d, yyyy” 形式の DATE フィールドを挿入して、動的な日付を作成します。
+//ExStepSummary:3: 本文に戻り、サンプル段落を追加して、ヘッダーと並んだ通常の文書コンテンツを示します。
+//ExStepSummary:4: 文書を .docx ファイルとして保存します。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

@@ -21,6 +21,9 @@ Words Processing with Headers and Footers is a comprehensive resource for learni
 
 
  ## Tutorials
+
+{{< tutorial-card link="./insert-header-date/" title="Insert Dynamic Header Date in Word Document Using Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- |
 | [Create Header Footer](./create-header-footer/) | Learn how to create headers and footers in your Word documents with Aspose.Words for .NET. Customize headers and footers for each page. |
