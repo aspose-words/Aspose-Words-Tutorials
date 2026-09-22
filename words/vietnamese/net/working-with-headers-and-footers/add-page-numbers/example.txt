@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Sử dụng Aspose.Words Document và DocumentBuilder, hướng dẫn này thêm số trang tự động cập nhật vào chân trang chính của tài liệu Word.
+//ExStepSummary:0: Tạo một đối tượng Document mới và một DocumentBuilder gắn với nó.
+//ExStepSummary:1: Di chuyển con trỏ của builder tới chân trang chính của phần đầu tiên.
+//ExStepSummary:2: Đặt căn chỉnh đoạn văn thành trung tâm để văn bản chân trang được căn giữa.
+//ExStepSummary:3: Ghi nhãn "Page " và chèn một trường PAGE hiển thị số trang hiện tại.
+//ExStepSummary:4: Ghi " of " và chèn một trường NUMPAGES hiển thị tổng số trang.
+//ExStepSummary:5: Lưu tài liệu dưới dạng tệp .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

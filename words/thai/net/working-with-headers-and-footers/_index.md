@@ -25,6 +25,9 @@
 
 {{< tutorial-card link="./insert-header-date/" title="แทรกวันที่ไดนามิกในส่วนหัวของเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-page-numbers/" title="เพิ่มเลขหน้าไปยังส่วนท้ายของเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 - [สร้างส่วนหัวส่วนท้าย](./create-header-footer/) | เรียนรู้วิธีสร้างส่วนหัวและส่วนท้ายในเอกสาร Word ของคุณด้วย Aspose.Words สำหรับ .NET ปรับแต่งส่วนหัวและส่วนท้ายสำหรับแต่ละหน้า -
 | [คัดลอกส่วนหัว ส่วนท้าย จากส่วนก่อนหน้า](./copy-headers-footers-from-previous-section/) เรียนรู้วิธีคัดลอกส่วนหัวและส่วนท้ายจากส่วนก่อนหน้าในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET |
 
