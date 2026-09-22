@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment créer un nouveau document Word, insérer un champ de formulaire case à cocher avec DocumentBuilder, et enregistrer le fichier résultant.
+//ExStepSummary:0: Créez une variable de répertoire de données, instanciez un Document, et créez un DocumentBuilder pour ce document.
+//ExStepSummary:1: Appelez `builder.InsertCheckBox` pour ajouter un champ de formulaire case à cocher nommé "CheckBox", coché et activé, à la position actuelle du curseur.
+//ExStepSummary:2: Enregistrez le document modifié dans le dossier spécifié en utilisant `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

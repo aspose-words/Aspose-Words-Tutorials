@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word, เพิ่มฟิลด์ฟอร์มแบบคอมโบบ็อกซ์ที่มีรายการที่กำหนดไว้ล่วงหน้าด้วย DocumentBuilder, และบันทึกเอกสาร
+//ExStepSummary:0: ตั้งค่าพาธโฟลเดอร์ที่เอกสารผลลัพธ์จะถูกบันทึก
+//ExStepSummary:1: สร้างอาเรย์ของสตริงที่จะใช้เติมตัวเลือกของคอมโบบ็อกซ์
+//ExStepSummary:2: สร้างอินสแตนซ์ของ Document ใหม่และ DocumentBuilder ที่เชื่อมโยงกับมัน
+//ExStepSummary:3: เรียก `builder.InsertComboBox` เพื่อวางคอมโบบ็อกซ์ชื่อ \"DropDown\" พร้อมรายการที่กำหนดไว้ที่ตำแหน่งเคอร์เซอร์ปัจจุบัน
+//ExStepSummary:4: บันทึกเอกสารไปยังไดเรกทอรีที่ระบุเป็นไฟล์ .docx
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd
