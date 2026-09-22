@@ -10,23 +10,7 @@ url: /sv/java/document-loading-and-saving/configuring-rtf-load-options/
 weight: 12
 ---
 
- sättet att **ladda RTF‑dokument Java**‑projekt med anpassade alternativ. Dessa tekniker hjälper dig att behålla textintegritet över språk och säkerställer att ditt RTF‑utdata ser exakt ut som avsett."
-
-Then the line with dashes and metadata.
-
---- keep as is.
-
-**Last Updated:** 2026-02-22 (keep)
-
-**Tested With:** Aspose.Words 24.11 for Java
-
-**Author:** Aspose
-
-All unchanged.
-
-Now ensure we keep shortcodes at start and end.
-
-Let's assemble final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

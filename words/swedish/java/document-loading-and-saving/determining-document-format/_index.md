@@ -9,22 +9,6 @@ url: /sv/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
-}} etc.
-
-Also keep markdown tables.
-
-Translate bullet points, sentences.
-
-Let's produce final Swedish version.
-
-Be careful with "detect document format java" phrase: maybe keep as is? The phrase is technical term; we can keep as is but maybe translate surrounding text. Keep the phrase as is because it's a term. But can also keep lower-case. We'll keep as is.
-
-Also "Aspose.Words for Java" stays.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

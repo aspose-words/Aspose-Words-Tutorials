@@ -10,10 +10,6 @@ url: /hu/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
- can keep as is. The phrase appears many times; maybe keep as is. But translation of surrounding text.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

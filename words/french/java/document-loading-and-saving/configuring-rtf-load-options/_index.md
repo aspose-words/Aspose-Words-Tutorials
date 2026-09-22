@@ -10,14 +10,6 @@ url: /fr/java/document-loading-and-saving/configuring-rtf-load-options/
 weight: 12
 ---
 
-ité du chemin relatif". "No valid Aspose.Words license" -> "Aucune licence Aspose.Words valide". "Apply a license file with `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`" -> keep code unchanged but translate surrounding text.
-
-Also FAQ sections: translate questions and answers.
-
-Need to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

@@ -9,16 +9,6 @@ url: /vi/java/document-loading-and-saving/configuring-rtf-load-options/
 weight: 12
 ---
 
- translate "FAQ's" maybe keep same? Probably translate "FAQ's" to "Câu hỏi thường gặp". But it's a heading; we can translate the heading text. The heading "FAQ's" could be "Câu hỏi thường gặp". We'll translate.
-
-Also "Frequently Asked Questions" heading later, translate.
-
-Make sure not to translate URLs.
-
-Also keep code block placeholders unchanged.
-
-Let's produce the final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

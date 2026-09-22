@@ -9,20 +9,6 @@ url: /ru/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
- Updated:** 2026-02-22  
-**Tested With:** Aspose.Words for Java 24.12 (latest)  
-**Author:** Aspose  
-
-Translate labels but keep dates.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /pt/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
-.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

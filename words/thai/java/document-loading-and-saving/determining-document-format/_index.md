@@ -9,40 +9,6 @@ url: /th/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
- The `FileFormatInfo.isEncrypted()` flag identifies encrypted files, allowing you to move them to a secure folder without opening them.
-
-Translate.
-
-Fourth Q: **Q: Is there a performance impact when scanning large folders?**  
-A: Detection reads only the file header, so even thousands of files are processed quickly. For very large batches, consider parallel streams.
-
-Translate.
-
-Fifth Q: **Q: How can I extend the script to convert unsupported formats?**  
-A: After detection, you can call `Document.save` with the desired output format for any supported source type.
-
-Translate.
-
-Next heading: ## Conclusion
-
-Translate.
-
-Paragraph.
-
-Then horizontal line.
-
-Then **Last Updated:** 2026-02-22 (keep)
-
-**Tested With:** Aspose.Words for Java 24.12 (latest) (keep)
-
-**Author:** Aspose (keep)
-
-Then closing shortcodes.
-
-Make sure to preserve markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

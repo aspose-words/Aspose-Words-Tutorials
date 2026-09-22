@@ -10,7 +10,7 @@ url: /it/java/document-loading-and-saving/advance-saving-options/
 weight: 14
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

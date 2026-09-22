@@ -10,9 +10,7 @@ url: /de/java/document-loading-and-saving/configuring-rtf-load-options/
 weight: 12
 ---
 
- not to translate code block placeholders. Also keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

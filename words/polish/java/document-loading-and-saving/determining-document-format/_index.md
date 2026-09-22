@@ -9,22 +9,6 @@ url: /pl/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
-. So translate labels.
-
-"**Last Updated:** 2026-02-22" -> "**Ostatnia aktualizacja:** 2026-02-22"
-
-"**Tested With:** Aspose.Words for Java 24.12 (latest)" -> "**Testowano z:** Aspose.Words for Java 24.12 (latest)"
-
-"**Author:** Aspose" -> "**Autor:** Aspose"
-
-Then closing shortcodes.
-
-Now ensure we didn't translate any URLs, code placeholders, shortcodes.
-
-Also ensure we keep markdown formatting.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

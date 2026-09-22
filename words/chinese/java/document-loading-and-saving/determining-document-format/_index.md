@@ -8,12 +8,6 @@ url: /zh/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
 
-" phrase maybe keep as is? It's a term; but translation rule: translate all text content naturally to Chinese, keep technical terms in English. "detect document format java" is a phrase; maybe keep as is? It's a search phrase. Could translate but maybe keep as is. We'll keep as is in English because it's a specific term. But we can embed Chinese around.
-
-Proceed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

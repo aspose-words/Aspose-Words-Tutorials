@@ -9,10 +9,6 @@ url: /zh-hant/java/document-loading-and-saving/configuring-rtf-load-options/
 weight: 12
 ---
 
- standard Traditional Chinese.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
