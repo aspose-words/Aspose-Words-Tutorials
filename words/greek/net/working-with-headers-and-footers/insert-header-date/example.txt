@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Χρησιμοποιώντας τις κλάσεις Document και DocumentBuilder, αυτό το σεμινάριο δείχνει πώς να προσθέσετε ένα δυναμικό πεδίο DATE στην κύρια κεφαλίδα ενός εγγράφου Word και στη συνέχεια να αποθηκεύσετε το αρχείο.
+//ExStepSummary:0: Δημιουργήστε ένα νέο Document και ένα DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Μετακινήστε τον κέρσορα του builder στην κύρια κεφαλίδα ώστε οι επόμενες εισαγωγές να επηρεάζουν την κεφαλίδα.
+//ExStepSummary:2: Γράψτε την στατική ετικέτα και εισάγετε ένα πεδίο DATE μορφοποιημένο ως “MMMM d, yyyy” στην κεφαλίδα, δημιουργώντας μια δυναμική ημερομηνία.
+//ExStepSummary:3: Επιστρέψτε στο κύριο σώμα και προσθέστε μια δείγμα παράγραφο, δείχνοντας κανονικό περιεχόμενο εγγράφου μαζί με την κεφαλίδα.
+//ExStepSummary:4: Αποθηκεύστε το έγγραφο σε αρχείο .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

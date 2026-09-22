@@ -20,6 +20,9 @@
 
 
  ## Anleitungen
+
+{{< tutorial-card link="./insert-header-date/" title="Dynamisches Datum in die Kopfzeile eines Word‑Dokuments einfügen mit Aspose.Words für .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | Titel | Beschreibung |
 | --- | --- |
 | [Kopf- und Fußzeile erstellen](./create-header-footer/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Kopf- und Fußzeilen in Ihren Word-Dokumenten erstellen. Passen Sie Kopf- und Fußzeilen für jede Seite an. |

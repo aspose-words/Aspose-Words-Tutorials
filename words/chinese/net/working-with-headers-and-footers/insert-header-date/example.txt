@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: 本教程使用 Document 和 DocumentBuilder 类，演示如何向 Word 文档的主页眉添加动态 DATE 字段，然后保存文件。
+//ExStepSummary:0: 创建一个新的 Document 并使用 DocumentBuilder 对其进行编辑。
+//ExStepSummary:1: 将 builder 的光标移动到主页眉，以便后续插入操作影响页眉。
+//ExStepSummary:2: 写入静态标签并在页眉中插入格式为 “MMMM d, yyyy” 的 DATE 字段，以生成动态日期。
+//ExStepSummary:3: 返回正文并添加示例段落，演示页眉旁的普通文档内容。
+//ExStepSummary:4: 将文档保存为 .docx 文件。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

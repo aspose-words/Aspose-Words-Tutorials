@@ -20,6 +20,9 @@
 
 
  ## 教學
+
+{{< tutorial-card link="./insert-header-date/" title="使用 Aspose.Words for .NET 在 Word 文件中插入動態頁首日期。" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 |標題 |描述 |
 | --- | --- |
 | [建立頁眉頁腳](./create-header-footer/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中建立頁首和頁尾。自訂每個頁面的頁首和頁尾。 |

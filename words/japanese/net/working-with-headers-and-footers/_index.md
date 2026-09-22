@@ -21,6 +21,9 @@ Words Processing with Headers and Footersは、.NET向けAspose.Wordsライブ�
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./insert-header-date/" title="Aspose.Words for .NET を使用して Word 文書に動的ヘッダー日付を挿入する" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | --- | --- |
 | [ヘッダーフッターを作成](./create-header-footer/) Aspose.Words for .NET を使用して Word 文書にヘッダーとフッターを作成する方法を学びます。各ページのヘッダーとフッターをカスタマイズします。 |
 | [前のセクションからヘッダーとフッターをコピー](./copy-headers-footers-from-previous-section/) Aspose.Words for .NET を使用して、Word 文書の前のセクションからヘッダーとフッターをコピーする方法を学習します。 |

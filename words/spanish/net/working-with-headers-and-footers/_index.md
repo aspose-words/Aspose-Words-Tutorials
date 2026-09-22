@@ -20,6 +20,9 @@ Procesamiento de textos con encabezados y pies de página es un recurso completo
 
 
  ## Tutoriales
+
+{{< tutorial-card link="./insert-header-date/" title="Insertar fecha dinámica en el encabezado de un documento Word usando Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | Título | Descripción |
 | --- | --- |
 | [Crear encabezado y pie de página](./create-header-footer/) Aprenda a crear encabezados y pies de página en sus documentos de Word con Aspose.Words para .NET. Personalice los encabezados y pies de página de cada página.

@@ -20,6 +20,9 @@ Words Processing with Headers and Footers, .NET için Aspose.Words kütüphanesi
 
 
  ## Eğitimler
+
+{{< tutorial-card link="./insert-header-date/" title="Aspose.Words for .NET kullanarak Word belgesine Dinamik Üstbilgi Tarihi ekleyin" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | Başlık | Açıklama |
 | --- | --- |
 | [Üstbilgi Altbilgi Oluştur](./create-header-footer/) | Aspose.Words for .NET ile Word belgelerinizde başlık ve altbilgilerin nasıl oluşturulacağını öğrenin. Her sayfa için başlıkları ve altbilgileri özelleştirin. |

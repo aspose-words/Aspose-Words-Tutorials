@@ -20,6 +20,9 @@
 
 
  ## دروس تعليمية
+
+{{< tutorial-card link="./insert-header-date/" title="إدراج تاريخ ديناميكي في ترويسة مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | العنوان | الوصف |
 | --- | --- |
 | [إنشاء رأس وتذييل](./create-header-footer/) | تعلّم كيفية إنشاء رؤوس وتذييلات في مستندات Word باستخدام Aspose.Words لـ .NET. خصّص رؤوس وتذييلات كل صفحة. |

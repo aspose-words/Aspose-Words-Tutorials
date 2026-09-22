@@ -20,6 +20,9 @@ Szövegszerkesztés fejlécekkel és láblécekkel egy átfogó forrás, amely s
 
 
  ## Oktatóanyagok
+
+{{< tutorial-card link="./insert-header-date/" title="Dinamikus fejléc dátum beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-header-date/images/thumb.png" >}}
+
 | Cím | Leírás |
 | --- | --- |
 | [Fejléc és lábléc létrehozása](./create-header-footer/) | Tanulja meg, hogyan hozhat létre fejléceket és lábléceket Word-dokumentumokban az Aspose.Words for .NET segítségével. Testreszabhatja a fejléceket és lábléceket minden oldalhoz. |
