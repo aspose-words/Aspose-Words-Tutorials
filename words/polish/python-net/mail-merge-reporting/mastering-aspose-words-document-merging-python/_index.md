@@ -5,7 +5,9 @@
 "url": "/pl/python-net/mail-merge-reporting/mastering-aspose-words-document-merging-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Words do scalania dokumentów w Pythonie: zachowaj numerację źródłową i wstaw jako zakładkę
 
 ## Wstęp
@@ -181,3 +183,7 @@ Eksperymentuj z dodatkowymi funkcjonalnościami Aspose.Words i sprawdzaj możliw
 - [Kup licencję](https://purchase.aspose.com/buy)
 - [Bezpłatna licencja próbna](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

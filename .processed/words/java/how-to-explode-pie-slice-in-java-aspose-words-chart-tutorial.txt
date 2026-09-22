@@ -1,0 +1,7 @@
+Title: How to explode pie slice in Java – Aspose.Words chart tutorial
+Slug: how-to-explode-pie-slice-in-java-aspose-words-chart-tutorial
+Category: using-document-elements
+ProcessedDate: 2026-08-08T04:19:41.690856
+SourceRepo: AI Search API
+Keywords: how to explode pie slice, add leader lines to pie, java create word chart, customize pie chart slices
+PRNumber: 246

@@ -5,7 +5,9 @@
 "url": "/th/python-net/content-management/aspose-words-python-create-smart-tags-word/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # เรียนรู้การสร้างและจัดการสมาร์ทแท็กใน Word ด้วย Aspose.Words สำหรับ Python
 
 ## การแนะนำ
@@ -236,3 +238,7 @@ print(f'Properties count after clearing: {properties.count}')
 - **ฟอรั่มสนับสนุน**:มีส่วนร่วมกับชุมชนบน [ฟอรั่มสนับสนุนของ Aspose](https://forum.aspose.com/c/words/10)
 
 ด้วยคู่มือที่ครอบคลุมนี้ คุณจะพร้อมแล้วที่จะใช้ประโยชน์จาก Aspose.Words สำหรับ Python ในการสร้างและจัดการสมาร์ทแท็กในเอกสาร Word ของคุณ ขอให้สนุกกับการเขียนโค้ด!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

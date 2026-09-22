@@ -4,7 +4,9 @@
 "url": "/ja/python-net/document-operations/"
 "weight": 2
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words Python-net のドキュメント操作チュートリアル
 
 Aspose.Words for Python-net を使用したドキュメント操作の包括的なステップバイステップガイドをご覧ください。これらのチュートリアルには、完全なコードサンプルと詳細な説明が含まれています。
@@ -55,6 +57,9 @@ Aspose.Words Python-netのコードチュートリアル
     ### [Save Word Documents as PostScript in Python Using Aspose.Words&#58; A Comprehensive Guide](./save-docs-as-postscript-using-aspose-words-python/)
 Aspose.Words for Python を使用して、Word 文書を PostScript 形式に変換する方法を学びます。このガイドでは、設定、変換、ブックフォールド印刷オプションについて説明します。
 
+### [破損した DOCX の復元 – Word 文書を開いて読み込む](./recover-corrupted-docx-open-load-word-document/)
+破損した DOCX ファイルを開き、復元して読み込む方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.Words for Python-net ドキュメント](https://docs.aspose.com/words/python-net/)
@@ -63,3 +68,7 @@ Aspose.Words for Python を使用して、Word 文書を PostScript 形式に変
 - [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

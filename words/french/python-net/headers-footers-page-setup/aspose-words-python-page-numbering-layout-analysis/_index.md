@@ -5,7 +5,9 @@
 "url": "/fr/python-net/headers-footers-page-setup/aspose-words-python-page-numbering-layout-analysis/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Maîtriser la numérotation des pages et l'analyse de la mise en page dans Aspose.Words pour Python
 
 Découvrez comment exploiter la puissance d'Aspose.Words pour Python pour contrôler la numérotation des pages et analyser efficacement la mise en page des documents. Ce guide complet vous guidera dans la configuration, la mise en œuvre et l'optimisation de ces fonctionnalités.
@@ -214,3 +216,7 @@ Bien que complètes, les mises en page complexes peuvent nécessiter des ajustem
 - **Forum d'assistance :** [Communauté de soutien Aspose](https://forum.aspose.com/c/words/10)
 
 En suivant ce guide, vous serez bien équipé pour implémenter et optimiser la numérotation des pages et l'analyse de la mise en page dans vos projets Python avec Aspose.Words. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

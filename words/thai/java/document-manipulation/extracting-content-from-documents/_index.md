@@ -1,10 +1,11 @@
 ---
-"description": "เรียนรู้วิธีแยกเนื้อหาจากเอกสารอย่างง่ายดายโดยใช้ Aspose.Words สำหรับ Java คำแนะนำทีละขั้นตอนและตัวอย่างโค้ดของเราจะทำให้กระบวนการนี้ง่ายขึ้น"
-"linktitle": "การดึงเนื้อหาจากเอกสาร"
-"second_title": "API การประมวลผลเอกสาร Java ของ Aspose.Words"
-"title": "การแยกเนื้อหาจากเอกสารใน Aspose.Words สำหรับ Java"
-"url": "/th/java/document-manipulation/extracting-content-from-documents/"
-"weight": 13
+date: 2026-01-01
+description: เรียนรู้วิธีการดึงข้อความด้วย Aspose.Words for Java คู่มือแบบขั้นตอนนี้แสดงเทคนิคการดึงข้อมูลหลายวิธีพร้อมตัวอย่างโค้ดที่พร้อมใช้งาน
+linktitle: Extracting Content from Documents
+second_title: Aspose.Words Java Document Processing API
+title: วิธีดึงข้อความโดยใช้ Aspose.Words สำหรับ Java
+url: /th/java/document-manipulation/extracting-content-from-documents/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,25 +14,28 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแยกเนื้อหาจากเอกสารใน Aspose.Words สำหรับ Java
+# วิธีการดึงข้อความโดยใช้ Aspose.Words สำหรับ Java
 
+## วิธีการดึงข้อความโดยใช้ Aspose.Words สำหรับ Java
 
-## บทนำสู่การแยกเนื้อหาจากเอกสารใน Aspose.Words สำหรับ Java
+ในโลกของการประมวลผลเอกสาร, **วิธีการดึงข้อความโดยใช้ Aspose.Words** เป็นคำถามที่พบบ่อยสำหรับนักพัฒนา Java ไม่ว่าคุณจะต้องการดึงข้อความธรรมดา, ตาราง, รูปภาพ, หรือองค์ประกอบเฉพาะเช่นบุ๊กมาร์กหรือคอมเมนต์, Aspose.Words สำหรับ Java มี API ที่ครอบคลุมทำให้การทำงานเป็นเรื่องง่าย ในคู่มือนี้เราจะพาผ่านหลายกรณีการดึงข้อมูล, อธิบายว่าทำไมแต่ละวิธีจึงสำคัญ, และให้ตัวอย่างโค้ดที่พร้อมใช้งานที่คุณสามารถนำไปใส่ในโปรเจกต์ของคุณได้
 
-ในโลกของการประมวลผลเอกสาร การดึงเนื้อหาจากเอกสารถือเป็นข้อกำหนดทั่วไป ไม่ว่าคุณจะต้องดึงข้อความ ตาราง รูปภาพ หรือองค์ประกอบเฉพาะของเอกสาร Aspose.Words สำหรับ Java ก็มีเครื่องมืออันทรงพลังที่จะทำให้ภารกิจนี้เป็นเรื่องง่าย ในคู่มือฉบับสมบูรณ์นี้ เราจะแนะนำคุณเกี่ยวกับกระบวนการดึงเนื้อหาจากเอกสารโดยใช้ Aspose.Words สำหรับ Java 
+## คำตอบอย่างรวดเร็ว
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Words for Java (ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ).  
+- **ฉันสามารถดึงเฉพาะข้อความธรรมดาได้หรือไม่?** ได้ – ใช้ `Document.getText()` หรือ `DocumentBuilder` พร้อมฟิลด์.  
+- **สามารถดึงข้อมูลระหว่างบุ๊กมาร์กได้หรือไม่?** แน่นอน, ใช้ `BookmarkStart`/`BookmarkEnd` กับ `ExtractContentHelper`.  
+- **ต้องการไลเซนส์สำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานที่ไม่ใช่แบบทดลอง.  
+- **เวอร์ชัน Java ใดที่รองรับ?** Java 8 และใหม่กว่าเข้ากันได้อย่างเต็มที่.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเริ่มกระบวนการสกัด ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
+1. **Aspose.Words for Java** – ติดตั้งไลบรารีและเพิ่มเข้าไปในโปรเจกต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/words/java/).  
+2. **เอกสารตัวอย่าง** – สำหรับตัวอย่างเราจะใช้ไฟล์ชื่อ `Extract content.docx`. วางไว้ในโฟลเดอร์ที่คุณสามารถอ้างอิงจากโค้ดของคุณ.
 
-1. Aspose.Words สำหรับ Java: คุณควรติดตั้งและตั้งค่า Aspose.Words สำหรับ Java ในสภาพแวดล้อมการพัฒนา Java ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/words/java/).
-
-2. เอกสารสำหรับแยกเนื้อหา: สำหรับคู่มือนี้ เราจะใช้เอกสารตัวอย่างชื่อ "Extract content.docx" ตรวจสอบให้แน่ใจว่าคุณมีเอกสารที่คล้ายกันพร้อมสำหรับการแยกเนื้อหา
-
-## การแยกเนื้อหาระหว่างโหนดระดับบล็อก
+## การดึงเนื้อหาระหว่างโหนดระดับบล็อก
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาระหว่างโหนดระดับบล็อก
+// Java code sample for extracting content between block-level nodes
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, true);
 Table endTable = (Table) doc.getLastSection().getChild(NodeType.TABLE, 0, true);
@@ -44,10 +48,10 @@ while (extractedNodes.size() > 0) {
 doc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBlockLevelNodes.docx");
 ```
 
-## การแยกเนื้อหาออกจากบุ๊กมาร์ก
+## การดึงเนื้อหาระหว่างบุ๊กมาร์ก
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาระหว่างบุ๊กมาร์ก
+// Java code sample for extracting content between bookmarks
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Bookmark bookmark = doc.getRange().getBookmarks().get("Bookmark1");
 BookmarkStart bookmarkStart = bookmark.getBookmarkStart();
@@ -60,10 +64,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenBookmark.WithoutBookmark.docx");
 ```
 
-## การแยกเนื้อหาระหว่างช่วงความคิดเห็น
+## การดึงเนื้อหาระหว่างช่วงคอมเมนต์
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาระหว่างช่วงความคิดเห็น
+// Java code sample for extracting content between comment ranges
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 CommentRangeStart commentStart = (CommentRangeStart) doc.getChild(NodeType.COMMENT_RANGE_START, 0, true);
 CommentRangeEnd commentEnd = (CommentRangeEnd) doc.getChild(NodeType.COMMENT_RANGE_END, 0, true);
@@ -75,10 +79,10 @@ dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodesExclusive);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenCommentRange.WithoutComment.docx");
 ```
 
-## การสกัดเนื้อหาระหว่างย่อหน้า
+## การดึงเนื้อหาระหว่างย่อหน้า
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาระหว่างย่อหน้า
+// Java code sample for extracting content between paragraphs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph startPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 6, true);
 Paragraph endPara = (Paragraph) doc.getFirstSection().getBody().getChild(NodeType.PARAGRAPH, 10, true);
@@ -87,10 +91,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphs.docx");
 ```
 
-## การแยกเนื้อหาออกจากรูปแบบย่อหน้า
+## การดึงเนื้อหาระหว่างสไตล์ย่อหน้า
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาระหว่างรูปแบบย่อหน้า
+// Java code sample for extracting content between paragraph styles
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 ArrayList<Paragraph> parasStyleHeading1 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 1");
 ArrayList<Paragraph> parasStyleHeading3 = ExtractContentHelper.paragraphsByStyleName(doc, "Heading 3");
@@ -101,10 +105,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentBetweenParagraphStyles.docx");
 ```
 
-## การแยกเนื้อหาระหว่างการทำงาน
+## การดึงเนื้อหาระหว่างรัน
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาระหว่างการรัน
+// Java code sample for extracting content between runs
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 7, true);
 Run startRun = para.getRuns().get(1);
@@ -114,20 +118,20 @@ Node node = (Node) extractedNodes.get(0);
 System.out.println(node.toString());
 ```
 
-## การแยกเนื้อหาโดยใช้ DocumentVisitor
+## การดึงเนื้อหาโดยใช้ DocumentVisitor
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาโดยใช้ DocumentVisitor
+// Java code sample for extracting content using DocumentVisitor
 Document doc = new Document("Your Directory Path" + "Absolute position tab.docx");
 MyDocToTxtWriter myConverter = new MyDocToTxtWriter();
 doc.accept(myConverter);
 System.out.println(myConverter.getText());
 ```
 
-## การแยกเนื้อหาโดยใช้ฟิลด์
+## การดึงเนื้อหาโดยใช้ Field
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาโดยใช้ Field
+// Java code sample for extracting content using Field
 Document doc = new Document("Your Directory Path" + "Extract content.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.moveToMergeField("Fullname", false, false);
@@ -138,10 +142,10 @@ Document dstDoc = ExtractContentHelper.generateDocument(doc, extractedNodes);
 dstDoc.save("Your Directory Path" + "ExtractContent.ExtractContentUsingField.docx");
 ```
 
-## การดึงข้อมูลสารบัญ
+## การดึงสารบัญ
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกสารบัญ
+// Java code sample for extracting table of contents
 Document doc = new Document("Your Directory Path" + "Table of contents.docx");
 for (Field field : doc.getRange().getFields()) {
     if (field.getType() == FieldType.FIELD_HYPERLINK) {
@@ -158,10 +162,10 @@ for (Field field : doc.getRange().getFields()) {
 }
 ```
 
-## การแยกข้อความเท่านั้น
+## การดึงเฉพาะข้อความ
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกข้อความเท่านั้น
+// Java code sample for extracting text only
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.insertField("MERGEFIELD Field");
@@ -169,10 +173,10 @@ System.out.println("GetText() Result: " + doc.getText());
 System.out.println("ToString() Result: " + doc.toString());
 ```
 
-## การสกัดเนื้อหาตามรูปแบบ
+## การดึงเนื้อหาตามสไตล์
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกเนื้อหาตามรูปแบบ
+// Java code sample for extracting content based on styles
 Document doc = new Document("Your Directory Path" + "Styles.docx");
 final String PARA_STYLE = "Heading 1";
 final String RUN_STYLE = "Intense Emphasis";
@@ -207,10 +211,10 @@ public ArrayList<Run> runsByStyleName(Document doc, String styleName) {
 }
 ```
 
-## การแยกและการพิมพ์ข้อความ
+## การดึงและพิมพ์ข้อความ
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกและพิมพ์ข้อความ
+// Java code sample for extracting and printing text
 Document doc = new Document("Your Directory Path" + "Tables.docx");
 Table table = (Table) doc.getChild(NodeType.TABLE, 0, true);
 System.out.println("Contents of the table: ");
@@ -221,10 +225,10 @@ System.out.println("\nContents of the cell: ");
 System.out.println(table.getLastRow().getLastCell().getRange().getText());
 ```
 
-## การแยกภาพไปยังไฟล์
+## การดึงรูปภาพไปยังไฟล์
 
 ```java
-// ตัวอย่างโค้ด Java สำหรับการแยกภาพไปยังไฟล์
+// Java code sample for extracting images to files
 Document doc = new Document("Your Directory Path" + "Images.docx");
 NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
 int imageIndex = 0;
@@ -238,39 +242,37 @@ for (Shape shape : (Iterable<Shape>) shapes) {
 }
 ```
 
-## บทสรุป
+## สรุป
 
-ขอแสดงความยินดี! คุณได้เรียนรู้วิธีการแยกเนื้อหาจากเอกสารโดยใช้ Aspose.Words สำหรับ Java แล้ว คู่มือนี้ครอบคลุมเทคนิคการแยกข้อมูลต่างๆ รวมถึงเนื้อหาระหว่างโหนดระดับบล็อก บุ๊กมาร์ก ช่วงคำอธิบาย ย่อหน้า และอื่นๆ อีกมากมาย ตอนนี้คุณพร้อมที่จะจัดการการแยกเนื้อหาเอกสารอย่างมีประสิทธิภาพในแอปพลิเคชัน Java ของคุณแล้ว
+ขอแสดงความยินดี! ตอนนี้คุณมีชุดเครื่องมือที่แข็งแกร่งสำหรับ **วิธีการดึงข้อความโดยใช้ Aspose.Words** ใน Java ตั้งแต่โหนดระดับบล็อกไปจนถึงบุ๊กมาร์ก, คอมเมนต์, สไตล์, และแม้กระทั่งรูปภาพ, API ให้การควบคุมที่ละเอียดในการดึงข้อมูลจากเอกสาร ใช้โค้ดสแนปเหล่านี้เป็นพื้นฐาน ปรับให้เข้ากับโครงสร้างไฟล์ของคุณเอง และอัตโนมัติกระบวนการดึงข้อมูลในชุดเอกสารขนาดใหญ่.
 
 ## คำถามที่พบบ่อย
 
-### ฉันจะดึงเนื้อหาจากส่วนต่างๆ ของเอกสารที่เจาะจงได้อย่างไร
+**ถาม: ฉันจะดึงเนื้อหาจากเอกสารที่มีการป้องกันด้วยรหัสผ่านอย่างไร?**  
+**ตอบ:** โหลดเอกสารด้วยคอนสตรัคเตอร์ที่รับรหัสผ่าน: `new Document(path, new LoadOptions("password"))`, จากนั้นเรียกใช้วิธีการดึงข้อมูลใด ๆ ที่แสดงด้านบน.
 
-ในการแยกเนื้อหาจากส่วนต่างๆ ของเอกสารที่เจาะจง คุณสามารถระบุจุดเริ่มต้นและจุดสิ้นสุดของส่วนต่างๆ และใช้เมธอด Aspose.Words for Java ที่เหมาะสมเพื่อแยกเนื้อหาระหว่างส่วนต่างๆ
+**ถาม: ฉันสามารถดึงเนื้อหาจากหลายเอกสารในการรันเดียวได้หรือไม่?**  
+**ตอบ:** ได้. วนลูปผ่านรายการของเส้นทางไฟล์, สร้าง `Document` สำหรับแต่ละไฟล์, และใช้ตรรกะการดึงข้อมูลเดียวกันภายในลูป.
 
-### ฉันสามารถดึงเนื้อหาจากเอกสารที่ป้องกันด้วยรหัสผ่านได้หรือไม่
+**ถาม: มีวิธีดึงเฉพาะข้อความที่มองเห็นได้ (ละเว้นข้อความที่ซ่อนหรือโค้ดฟิลด์) หรือไม่?**  
+**ตอบ:** ใช้ `doc.getText()` เพื่อดึงข้อความที่มองเห็นได้แบบธรรมดา. หากต้องการควบคุมมากขึ้น, ให้วนผ่านโหนดและกรองโดยใช้ `NodeType.RUN` และ `Run.getFont().getHidden()`.
 
-ใช่ Aspose.Words สำหรับ Java มีฟังก์ชันสำหรับดึงเนื้อหาจากเอกสารที่ป้องกันด้วยรหัสผ่าน คุณสามารถระบุรหัสผ่านเมื่อเปิดเอกสารโดยใช้ `Document` ตัวสร้างคลาส
+**ถาม: ฉันสามารถบันทึกเนื้อหาที่ดึงออกเป็นรูปแบบใดได้บ้าง?**  
+**ตอบ:** หลังจากดึงข้อมูลแล้ว, คุณสามารถบันทึก `Document` เป็น DOCX, PDF, HTML, TXT หรือรูปแบบใด ๆ ที่ Aspose.Words รองรับผ่าน `doc.save("output.pdf")`.
 
-### ฉันจะแยกเนื้อหาและบันทึกในรูปแบบต่างๆ เช่น ข้อความธรรมดา หรือ HTML ได้อย่างไร
+**ถาม: Aspose.Words รองรับการดึงเนื้อหาจากไฟล์ขนาดใหญ่ (หลายร้อย MB) หรือไม่?**  
+**ตอบ:** รองรับ, แต่ควรพิจารณาใช้ `LoadOptions` พร้อม `LoadFormat` และ `MemoryOptimization` เพื่อลดการใช้หน่วยความจำ.
 
-คุณสามารถแยกเนื้อหาจากเอกสารและบันทึกในรูปแบบต่างๆ ได้โดยใช้ Aspose.Words สำหรับ Java หลังจากแยกเนื้อหาแล้ว คุณสามารถใช้ `Document` วิธีการคลาสที่จะบันทึกในรูปแบบเช่นข้อความธรรมดา, HTML หรืออื่น ๆ
+---
 
-### มีวิธีแยกเนื้อหาจากองค์ประกอบเอกสารเฉพาะ เช่น ตารางหรือรูปภาพหรือไม่
-
-ใช่ คุณสามารถแยกเนื้อหาจากองค์ประกอบเอกสารเฉพาะ เช่น ตารางหรือรูปภาพได้โดยใช้ Aspose.Words สำหรับ Java ระบุองค์ประกอบที่คุณต้องการแยก จากนั้นใช้เมธอดที่เหมาะสมเพื่อแยกเนื้อหา
-
-### ฉันจะทำให้กระบวนการแยกเนื้อหาอัตโนมัติในแอปพลิเคชัน Java ของฉันได้อย่างไร
-
-หากต้องการทำให้กระบวนการแยกเนื้อหาในแอปพลิเคชัน Java เป็นแบบอัตโนมัติ คุณสามารถสร้างโค้ดที่กำหนดเองตามเทคนิคที่อธิบายไว้ในคู่มือนี้ นอกจากนี้ คุณยังสามารถใช้ตรรกะเพื่อวนซ้ำผ่านเอกสารหลายฉบับและแยกเนื้อหาตามต้องการได้อีกด้วย
-
+**อัปเดตล่าสุด:** 2026-01-01  
+**ทดสอบด้วย:** Aspose.Words for Java 24.12  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

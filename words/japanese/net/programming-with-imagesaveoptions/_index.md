@@ -27,7 +27,8 @@ Aspose.Words for .NET の ImageSaveOptions を使った Words Processing チュ�
 | [フォーマット 1Bpp インデックス](./format-1bpp-indexed/) Aspose.Words for .NET を使用して、Word 文書を 1Bpp のインデックス付き画像に変換する方法を学びましょう。ステップバイステップのガイドに従って簡単に変換できます。 |
 | [Jpegページ範囲を取得](./get-jpeg-page-range/) Aspose.Words for .NET を使用して、Word 文書の特定のページをカスタム設定で JPEG に変換します。明るさ、コントラスト、解像度を段階的に調整する方法を学びます。 |
 | [ページ保存コールバック](./page-saving-callback/) 詳細なステップバイステップ ガイドに従って、Aspose.Words for .NET を使用して Word 文書の各ページを個別の PNG 画像として保存する方法を学習します。 |
-
+| [Word を PNG に変換する際の DPI 設定 – 完全 C# ガイド](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書を PNG に変換する際に DPI を設定する完全な C# ガイドです。 |
+| [Word 文書から PNG グリッドを作成 – ステップバイステップ ガイド](./create-png-grid-from-word-document-step-by-step-guide/) Aspose.Words for .NET を使用して、Word 文書内の画像をグリッド状に配置し、PNG に変換する方法を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

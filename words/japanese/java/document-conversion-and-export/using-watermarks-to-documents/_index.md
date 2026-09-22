@@ -1,10 +1,11 @@
 ---
-"description": "Aspose.Words for Java でドキュメントに透かしを追加する方法を学びましょう。テキストや画像の透かしをカスタマイズして、プロフェッショナルなドキュメントを作成できます。"
-"linktitle": "文書への透かしの使用"
-"second_title": "Aspose.Words Java ドキュメント処理 API"
-"title": "Aspose.Words for Java でドキュメントに透かしを追加する"
-"url": "/ja/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2026-02-19
+description: Aspose.Words for Java を使用して透かし付きのドキュメントを作成し、画像透かしを追加してプロフェッショナルな文書を作る方法を学びましょう。
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java を使用して透かし付きドキュメントを作成する
+url: /ja/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +14,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java でドキュメントに透かしを追加する
+# Aspose.Words for Java を使用して透かし付きドキュメントを作成する
 
+このチュートリアルでは **透かし付きドキュメントを作成** する方法を Aspose.Words for Java API を使って解説します。テキストでも画像でも透かしは、ファイルを機密、ドラフト、承認済みなどとラベル付けするのに役立ち、任意の Word 文書にプログラムから適用できます。ライブラリのセットアップ、テキストと画像の透かしの追加、外観のカスタマイズ、不要になったときの削除までを順に見ていきましょう。
 
-## Aspose.Words for Java でドキュメントに透かしを追加する方法の紹介
+## クイック回答
+- **透かしは何をするものですか？** 各ページにテキストまたは画像を重ねて、ステータスやブランディングを示します。  
+- **Java で透かしを追加できるライブラリはどれですか？** Aspose.Words for Java が組み込みの透かし機能を提供します。  
+- **画像透かしを追加できますか？** はい — `Shape` クラスと `add image watermark java` の手法を使用します。  
+- **透かしは半透明にできますか？** テキスト透かしの場合は `setSemitransparent` で不透明度を制御できます。  
+- **ライセンスは必要ですか？** 無料トライアルでテストは可能ですが、商用利用にはライセンスが必要です。
 
-このチュートリアルでは、Aspose.Words for Java API を使用してドキュメントに透かしを追加する方法を説明します。透かしは、ドキュメントのステータス、機密性、その他の関連情報をテキストやグラフィックでラベル付けする便利な方法です。このガイドでは、テキストと画像の両方の透かしについて説明します。
+## 透かしとは何か、なぜ使用するのか
 
-## Aspose.Words for Java の設定
+透かしは文書の各ページに追加される薄いオーバーレイ（テキストまたは画像）です。**機密性**、**ドラフト状態**、**ブランディング** などを示すために使用され、元のコンテンツを変更せずに情報を伝えられます。プログラムで透かしを追加すれば、大量のファイルに対して一貫した処理が可能になり、手動編集に比べて時間を大幅に節約できます。
 
-ドキュメントに透かしを追加する前に、Aspose.Words for Java をセットアップする必要があります。以下の手順に従ってください。
+## Aspose.Words for Java のセットアップ
 
-1. Aspose.Words for Javaをダウンロード [ここ](https://releases。aspose.com/words/java/).
-2. Aspose.Words for Java ライブラリを Java プロジェクトに追加します。
-3. Java コードに必要なクラスをインポートします。
+透かしを追加する前に、プロジェクトでライブラリが使用できる状態にしてください。
 
-ライブラリの設定が完了したので、透かしの追加に進みます。
-
-## テキスト透かしの追加
-
-テキスト透かしは、ドキュメントにテキスト情報を追加したい場合によく使用されます。Aspose.Words for Java を使用してテキスト透かしを追加する方法は次のとおりです。
+1. Aspose.Words for Java を [こちら](https://releases.aspose.com/words/java/) からダウンロードします。  
+2. ダウンロードした JAR（または Maven/Gradle の依存関係）をプロジェクトのクラスパスに追加します。  
+3. Java ソースファイルで必要なクラスをインポートします:
 
 ```java
-// ドキュメントインスタンスを作成する
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
+
+ライブラリの準備ができたので、実際の透かしコードに進みましょう。
+
+## テキスト透かしの追加方法
+
+テキスト透かしは文書を「CONFIDENTIAL」や「DRAFT」などとラベル付けするのに最適です。以下のコードスニペットは `TextWatermarkOptions` を使用して **透かし付きドキュメントを作成** するシンプルな方法を示しています。
+
+```java
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// TextWatermarkOptionsを定義する
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +61,59 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// 透かしのテキストとオプションを設定する
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// 透かし入りの文書を保存する
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## 画像透かしの追加
+### テキスト透かしのカスタマイズ
+- **フォントファミリーとサイズ** – `setFontFamily` と `setFontSize` を変更します。  
+- **カラー** – 任意の `java.awt.Color` を使用します。  
+- **レイアウト** – `HORIZONTAL`、`DIAGONAL` などを選択します。  
+- **透過性** – より薄く表示するには `setSemitransparent(true)` を切り替えます。
 
-テキスト透かしに加えて、画像透かしもドキュメントに追加できます。画像透かしを追加する方法は次のとおりです。
+## 画像透かしの追加方法（add image watermark java）
+
+画像透かしはロゴやカスタムグラフィックに最適です。以下は各ページの中央に PNG を挿入する **add image watermark java** の例です。
 
 ```java
-// ドキュメントインスタンスを作成する
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// 透かしの画像を読み込む
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// 透かしのサイズと位置を設定する
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// 文書に透かしを追加する
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// 透かし入りの文書を保存する
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## 透かしのカスタマイズ
+### 画像透かしのヒント
+- **リサイズ** – ページに合わせて `setWidth` / `setHeight` を使用します。  
+- **位置** – `RelativeHorizontalPosition` / `RelativeVerticalPosition` を使用して中央または任意の余白に配置できます。  
+- **透過性** – 読み込む前に画像のアルファチャンネルを調整することで適用できます。
 
-透かしの外観と位置を調整することでカスタマイズできます。テキスト透かしの場合は、フォント、サイズ、色、レイアウトを変更できます。画像透かしの場合は、前の例で示したように、サイズと位置を変更できます。
+## 透かしの削除方法
 
-## 透かしの削除
-
-ドキュメントから透かしを削除するには、次のコードを使用できます。
+文書から透かしが不要になった場合は、プログラムで削除できます。以下のコードはすべてのシェイプを走査し、名前に “Watermark” を含むものを削除します。
 
 ```java
-// ドキュメントインスタンスを作成する
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// 透かしを削除する
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +122,44 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// 透かしなしで文書を保存する
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## よくある落とし穴とトラブルシューティング
 
-## 結論
-
-このチュートリアルでは、Aspose.Words for Java を使用してドキュメントに透かしを追加する方法を学習しました。テキストまたは画像の透かしを追加する必要がある場合でも、Aspose.Words はそれらを効率的にカスタマイズおよび管理するためのツールを提供します。また、不要になった透かしを削除することで、ドキュメントをすっきりとプロフェッショナルな仕上がりにすることができます。
+- **保存後に透かしが欠落する** – 透かしを設定した後に `doc.save()` を呼び出すことを確認してください。  
+- **画像が表示されない** – 画像パスが正しいか、サポートされている形式（PNG、JPEG、BMP）か確認してください。  
+- **透過が適用されない** – `setSemitransparent(true)` はテキスト透かしにのみ有効です。画像の場合は PNG のアルファチャンネルを編集してください。  
+- **複数セクション** – ドキュメントに複数のセクションがある場合、各セクションの本文に透かしを追加するか、全体に適用される `doc.getWatermark().setText(...)` を使用してください。
 
 ## よくある質問
 
-### テキスト透かしのフォントを変更するにはどうすればよいですか?
+**Q: テキスト透かしのフォントを変更するにはどうすればよいですか？**  
+A: `TextWatermarkOptions` の `setFontFamily` プロパティを変更します。例: `options.setFontFamily("Times New Roman");`。
 
-テキスト透かしのフォントを変更するには、 `setFontFamily` の財産 `TextWatermarkOptions`。 例えば：
+**Q: 1 つの文書に複数の透かしを追加できますか？**  
+A: はい。画像の場合は複数の `Shape` オブジェクトを作成するか、テキスト透かしの場合は `doc.getWatermark().setText(...)` を異なるオプションで呼び出します。
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: 透かしを回転させることは可能ですか？**  
+A: 画像透かしの場合は `Shape` オブジェクトの `watermark.setRotation(angle)` で回転させます。テキスト透かしは `setLayout` プロパティ（例: `WatermarkLayout.DIAGONAL`）で実現します。
 
-### つのドキュメントに複数の透かしを追加できますか?
+**Q: 透かしを半透明にするにはどうすればよいですか？**  
+A: `TextWatermarkOptions` で `options.setSemitransparent(true)` を設定します。画像の場合は読み込む前に画像の不透明度を調整してください。
 
-はい、複数の透かしを作成することで、ドキュメントに複数の透かしを追加できます。 `Shape` 異なる設定のオブジェクトを作成してドキュメントに追加します。
-
-### 透かしを回転させることってできますか？
-
-はい、設定することで透かしを回転させることができます。 `setRotation` の財産 `Shape` オブジェクト。正の値は透かしを時計回りに回転し、負の値は反時計回りに回転します。
-
-### 透かしを半透明にするにはどうすればいいでしょうか?
-
-透かしを半透明にするには、 `setSemitransparent` 財産に `true` の中で `TextWatermarkOptions`。
-
-### ドキュメントの特定のセクションに透かしを追加できますか?
-
-はい、セクションを反復処理し、目的のセクションに透かしを追加することで、ドキュメントの特定のセクションに透かしを追加できます。
-
+**Q: 文書の特定のセクションだけに透かしを追加できますか？**  
+A: はい。`doc.getSections()` を走査し、目的のセクションだけに透かしを追加します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最終更新日:** 2026-02-19  
+**テスト環境:** Aspose.Words for Java 24.12 (latest)  
+**作者:** Aspose

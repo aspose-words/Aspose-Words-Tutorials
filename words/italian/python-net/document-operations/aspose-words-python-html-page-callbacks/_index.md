@@ -5,7 +5,9 @@
 "url": "/it/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Implementazione di callback di salvataggio di pagine HTML personalizzate in Python con Aspose.Words
 
 ## Introduzione
@@ -149,3 +151,7 @@ A5: Unisciti al [Forum di Aspose](https://forum.aspose.com/c/words/10) per porre
 - **Supporto**: Visita il [Forum Aspose](https://forum.aspose.com/c/words/10) per domande e supporto alla comunità.
 
 Immergiti subito in Aspose.Words per Python e scopri nuove possibilità nell'elaborazione dei documenti!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

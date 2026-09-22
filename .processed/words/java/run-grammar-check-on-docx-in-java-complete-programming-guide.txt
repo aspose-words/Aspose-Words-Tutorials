@@ -1,0 +1,7 @@
+Title: Run Grammar Check on DOCX in Java – Complete Programming Guide
+Slug: run-grammar-check-on-docx-in-java-complete-programming-guide
+Category: ai-machine-learning-integration
+ProcessedDate: 2026-06-24T11:59:02.249690
+SourceRepo: AI Search API
+Keywords: run grammar check, load docx java, get revised text, configure self hosted llm
+PRNumber: 211

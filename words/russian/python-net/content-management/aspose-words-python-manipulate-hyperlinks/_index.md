@@ -5,7 +5,9 @@
 "url": "/ru/python-net/content-management/aspose-words-python-manipulate-hyperlinks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Эффективное управление гиперссылками Word с помощью API Aspose.Words: руководство разработчика
 
 ## Введение
@@ -280,3 +282,7 @@ doc.save('YOUR_OUTPUT_DIRECTORY/ModifiedHyperlinks.docx')
 - [Форум поддержки Aspose](https://forum.aspose.com/c/words/10)
 
 Теперь, когда вы вооружены этими знаниями, смело погружайтесь в свои проекты и исследуйте весь потенциал Aspose.Words для Python!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

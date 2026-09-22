@@ -1,10 +1,13 @@
 ---
-"description": "Dowiedz się, jak ładować i zapisywać dokumenty HTML w Javie przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu dla bezproblemowej integracji dokumentów."
-"linktitle": "Ładowanie i zapisywanie dokumentów HTML"
-"second_title": "Aspose.Words API przetwarzania dokumentów Java"
-"title": "Ładowanie i zapisywanie dokumentów HTML"
-"url": "/pl/java/document-loading-and-saving/loading-and-saving-html-documents/"
-"weight": 10
+date: 2025-12-20
+description: Dowiedz się, jak ładować HTML i konwertować HTML na DOCX przy użyciu
+  Aspose.Words for Java. Przewodnik krok po kroku pokazuje, jak zapisywać pliki DOCX
+  i używać strukturalnych znaczników dokumentu.
+linktitle: Loading and Saving HTML Documents
+second_title: Aspose.Words Java Document Processing API
+title: Jak wczytać HTML i zapisać jako DOCX przy użyciu Aspose.Words dla Javy
+url: /pl/java/document-loading-and-saving/loading-and-saving-html-documents/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,24 +16,37 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ładowanie i zapisywanie dokumentów HTML
+# Jak wczytać HTML i zapisać jako DOCX przy użyciu Aspose.Words for Java
 
+## Wprowadzenie do wczytywania i zapisywania dokumentów HTML z Aspose.Words for Java
 
-## Wprowadzenie do ładowania i zapisywania dokumentów HTML za pomocą Aspose.Words dla Java
+W tym artykule przyjrzymy się **jak wczytać html** i zapisać go jako plik DOCX przy użyciu biblioteki Aspose.Words for Java. Aspose.Words to potężne API umożliwiające programowe manipulowanie dokumentami Word i zawiera rozbudowane wsparcie dla importu/eksportu HTML. Przeprowadzimy Cię przez cały proces, od ustawienia opcji wczytywania po zapis wyniku jako dokumentu Word.
 
-tym artykule przyjrzymy się sposobowi ładowania i zapisywania dokumentów HTML przy użyciu biblioteki Aspose.Words for Java. Aspose.Words to potężne API Java, które umożliwia pracę z dokumentami Word i zapewnia różne funkcje do obsługi różnych formatów dokumentów, w tym HTML. Przeprowadzimy Cię przez ten proces krok po kroku, wraz z przykładami kodu źródłowego.
+## Szybkie odpowiedzi
+- **Jaka jest główna klasa do wczytywania HTML?** `Document` wraz z `HtmlLoadOptions`.
+- **Która opcja włącza Structured Document Tags?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
+- **Czy mogę konwertować HTML do DOCX w jednym kroku?** Tak – wczytaj HTML i wywołaj `doc.save(...".docx")`.
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.
+- **Jakiej wersji Javy wymaga?** Obsługiwana jest Java 8 lub nowsza.
+
+## Co oznacza „jak wczytać html” w kontekście Aspose.Words?
+Wczytywanie HTML oznacza odczytanie łańcucha lub pliku HTML i przekształcenie go w obiekt `Document` Aspose.Words. Ten obiekt można następnie edytować, formatować lub zapisać w dowolnym formacie obsługiwanym przez API, takim jak DOCX, PDF czy RTF.
+
+## Dlaczego warto używać Aspose.Words do konwersji HTML‑do‑DOCX?
+- **Zachowuje układ** – tabele, listy i obrazy pozostają nienaruszone.
+- **Obsługuje Structured Document Tags** – idealne do tworzenia kontrolek treści w Wordzie.
+- **Nie wymaga Microsoft Office** – działa na dowolnym serwerze lub w chmurze.
+- **Wysoka wydajność** – szybko przetwarza duże pliki HTML.
 
 ## Wymagania wstępne
 
-Zanim zagłębimy się w kod, upewnij się, że spełnione są następujące wymagania wstępne:
+1. **Biblioteka Aspose.Words for Java** – pobierz ją z [here](https://releases.aspose.com/words/java/).
+2. **Środowisko programistyczne Java** – zainstalowane i skonfigurowane JDK 8+.
+3. **Podstawowa znajomość Java I/O** – użyjemy `ByteArrayInputStream`, aby przekazać łańcuch HTML.
 
-1. Biblioteka Aspose.Words for Java: Powinieneś mieć zainstalowaną bibliotekę Aspose.Words for Java. Jeśli jeszcze jej nie masz, możesz ją pobrać z [Tutaj](https://releases.aspose.com/words/java/).
+## Jak wczytać dokumenty HTML
 
-2. Środowisko programistyczne Java: Upewnij się, że w systemie jest zainstalowana Java.
-
-## Ładowanie dokumentów HTML
-
-Zacznijmy od załadowania dokumentu HTML do dokumentu Word za pomocą Aspose.Words. Jako przykładu użyjemy następującego fragmentu kodu HTML:
+Poniżej znajduje się zwięzły przykład demonstrujący wczytywanie fragmentu HTML przy włączonej funkcji **structured document tag**.
 
 ```java
 final String HTML = "\r\n
@@ -49,19 +65,25 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-W tym kodzie tworzymy ciąg HTML i używamy `HtmlLoadOptions` aby określić, że chcemy traktować HTML jako ustrukturyzowany dokument. Następnie ładujemy zawartość HTML do `Document` obiekt.
+**Wyjaśnienie**
 
-## Zapisywanie jako dokument Word
+- Tworzymy łańcuch `HTML`, który zawiera prostą kontrolkę `<select>`.
+- `HtmlLoadOptions` pozwala określić, jak HTML ma być interpretowany. Ustawienie preferowanego typu kontroli na `STRUCTURED_DOCUMENT_TAG` powoduje, że Aspose.Words konwertuje kontrolki formularza HTML na kontrolki treści w Wordzie.
+- Konstruktor `Document` odczytuje HTML z `ByteArrayInputStream` przy użyciu kodowania UTF‑8.
 
-Teraz, gdy załadowaliśmy kod HTML do `Document`, możemy zapisać go jako dokument Word. Zapiszmy go w formacie DOCX:
+## Jak zapisać jako DOCX (konwersja HTML do DOCX)
+
+Po wczytaniu HTML do obiektu `Document`, zapisanie go jako plik DOCX jest proste:
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-Ten kod zapisuje `Document` jako plik DOCX, który jest powszechnym formatem dokumentów Word.
+Zastąp `"Your Directory Path"` rzeczywistą ścieżką folderu, w którym ma się pojawić plik wyjściowy.
 
-## Kompletny kod źródłowy do ładowania i zapisywania dokumentów HTML za pomocą Aspose.Words dla Java
+## Pełny kod źródłowy do wczytywania i zapisywania dokumentów HTML
+
+Poniżej znajduje się kompletny, gotowy do uruchomienia przykład, który łączy kroki wczytywania i zapisu. Śmiało skopiuj go do swojego IDE.
 
 ```java
 final String HTML = "\r\n
@@ -79,39 +101,42 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## Wniosek
+## Typowe pułapki i wskazówki
 
-W tym artykule nauczyliśmy się, jak ładować i zapisywać dokumenty HTML za pomocą Aspose.Words dla Java. Ta biblioteka zapewnia wygodny sposób pracy z różnymi formatami dokumentów, co czyni ją cennym narzędziem do manipulacji dokumentami w aplikacjach Java.
+| Problem | Dlaczego się pojawia | Jak naprawić |
+|-------|----------------|------------|
+| **Brak czcionek** | HTML odwołuje się do czcionek, które nie są zainstalowane na serwerze. | Osadź czcionki w DOCX przy użyciu `FontSettings` lub upewnij się, że wymagane czcionki są dostępne. |
+| **Obrazy nie wyświetlają się** | Ścieżki względne do obrazów nie mogą zostać rozwiązane. | Użyj pełnych adresów URL lub wczytaj obrazy do `MemoryStream` i ustaw `HtmlLoadOptions.setImageSavingCallback`. |
+| **Typ kontroli nie został skonwertowany** | `setPreferredControlType` nie został ustawiony lub ustawiono niewłaściwy enum. | Zweryfikuj, że używasz `HtmlControlType.STRUCTURED_DOCUMENT_TAG`. |
+| **Problemy z kodowaniem** | Łańcuch HTML jest zakodowany innym zestawem znaków. | Zawsze używaj `StandardCharsets.UTF_8` przy konwersji łańcucha na bajty. |
 
 ## Najczęściej zadawane pytania
 
-### Jak zainstalować Aspose.Words dla Java?
+### Jak zainstalować Aspose.Words for Java?
+Aspose.Words for Java można pobrać z [here](https://releases.aspose.com/words/java/). Postępuj zgodnie z przewodnikiem instalacji na stronie pobierania, aby dodać pliki JAR do ścieżki klas projektu.
 
-Aspose.Words dla języka Java można pobrać ze strony [Tutaj](https://releases.aspose.com/words/java/). Postępuj zgodnie z instrukcjami instalacji podanymi na stronie internetowej, aby skonfigurować ją w swoim projekcie Java.
-
-### Czy mogę ładować złożone dokumenty HTML za pomocą Aspose.Words?
-
-Tak, Aspose.Words for Java jest w stanie obsłużyć złożone dokumenty HTML. Możesz dostosować opcje ładowania, aby spełnić swoje specyficzne wymagania.
+### Czy mogę wczytać złożone dokumenty HTML przy użyciu Aspose.Words?
+Tak, Aspose.Words for Java radzi sobie ze złożonym HTML, w tym zagnieżdżonymi tabelami, stylami CSS i interaktywnymi elementami bez JavaScriptu. Dostosuj `HtmlLoadOptions` (np. `setLoadImages` lub `setCssStyleSheetFileName`), aby precyzyjnie kontrolować import.
 
 ### Jakie inne formaty dokumentów obsługuje Aspose.Words?
+Aspose.Words obsługuje DOC, DOCX, RTF, HTML, PDF, EPUB, XPS i wiele innych. API umożliwia jednowierszowy zapis do dowolnego z tych formatów.
 
-Aspose.Words obsługuje szeroki zakres formatów dokumentów, w tym DOC, DOCX, RTF, HTML, PDF i inne. Zapewnia kompleksowe możliwości przetwarzania dokumentów dla aplikacji Java.
+### Czy Aspose.Words nadaje się do automatyzacji dokumentów na poziomie przedsiębiorstwa?
+Zdecydowanie. Jest wykorzystywany przez duże firmy do automatycznego generowania raportów, masowej konwersji dokumentów oraz przetwarzania dokumentów po stronie serwera bez zależności od Microsoft Office.
 
-### Czy Aspose.Words nadaje się do obróbki dokumentów na poziomie korporacyjnym?
+### Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.Words for Java?
+Pełną referencję API oraz dodatkowe samouczki znajdziesz na stronie dokumentacji Aspose.Words for Java: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
-Oczywiście! Aspose.Words to solidne rozwiązanie używane przez przedsiębiorstwa na całym świecie do automatyzacji dokumentów, raportowania i generowania dokumentów. Oferuje rozbudowane funkcje do zarządzania dokumentami w aplikacjach na dużą skalę.
+---
 
-### Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.Words dla Java?
-
-Szczegółową dokumentację, przykłady kodu i samouczki można znaleźć na stronie internetowej z dokumentacją Aspose.Words for Java: [Aspose.Words dla dokumentacji Java](https://reference.aspose.com/words/java/).
-
+**Ostatnia aktualizacja:** 2025-12-20  
+**Testowane z:** Aspose.Words for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

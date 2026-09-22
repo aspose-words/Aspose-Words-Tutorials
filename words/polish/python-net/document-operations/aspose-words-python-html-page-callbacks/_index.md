@@ -5,7 +5,9 @@
 "url": "/pl/python-net/document-operations/aspose-words-python-html-page-callbacks/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Implementacja niestandardowych wywołań zwrotnych zapisywania stron HTML w Pythonie za pomocą Aspose.Words
 
 ## Wstęp
@@ -149,3 +151,7 @@ A5: Dołącz do [Forum Aspose](https://forum.aspose.com/c/words/10) aby zadawać
 - **Wsparcie**:Odwiedź [Forum Aspose](https://forum.aspose.com/c/words/10) w celu uzyskania odpowiedzi na pytania i wsparcia społeczności.
 
 Wypróbuj Aspose.Words for Python już dziś i odkryj nowe możliwości w przetwarzaniu dokumentów!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

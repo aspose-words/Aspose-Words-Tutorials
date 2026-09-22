@@ -5,7 +5,9 @@
 "url": "/it/python-net/document-operations/fix-broken-links-chm-files-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Come correggere i link interrotti nei file CHM utilizzando Aspose.Words per Python
 
 ## Introduzione
@@ -145,3 +147,7 @@ Per ulteriore assistenza e approfondimenti:
 - **Scaricamento**: [Aspose.Words per le versioni Python](https://releases.aspose.com/words/python/)
 - **Acquisto e prova**: [Ottieni una licenza o una prova gratuita](https://purchase.aspose.com/buy)
 - **Forum di supporto**: [Comunità di supporto Aspose](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/sv/python-net/performance-optimization/optimize-pdf-bookmarks-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Titel: Bemästra PDF-bokmärkesoptimering med Aspose.Words för Python
 
 ## Introduktion
@@ -180,3 +182,7 @@ Redo att förbättra dina PDF-filer? Börja implementera dessa tekniker idag!
 - **Stöd**Få hjälp från samhället på [Aspose-forumet](https://forum.aspose.com/c/words/10)
 
 Den här guiden har utrustat dig med kunskapen för att optimera PDF-bokmärken med Aspose.Words för Python. Lycka till med kodningen!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

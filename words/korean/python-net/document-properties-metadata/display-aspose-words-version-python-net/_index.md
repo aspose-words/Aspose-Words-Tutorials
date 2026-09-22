@@ -5,7 +5,9 @@
 "url": "/ko/python-net/document-properties-metadata/display-aspose-words-version-python-net/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Python 및 .NET에서 Aspose.Words 버전을 표시하는 방법
 
 ## 소개
@@ -144,3 +146,7 @@ A: 사용 `pip install --upgrade aspose-words` 명령줄에서 다음을 입력�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/words/10)
 
 이러한 도구를 사용하면 Aspose.Words 설치를 효과적으로 관리할 수 있습니다. 즐거운 코딩 되세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

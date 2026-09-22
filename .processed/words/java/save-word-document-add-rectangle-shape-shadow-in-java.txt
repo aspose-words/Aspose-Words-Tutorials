@@ -1,0 +1,7 @@
+Title: Save Word Document – Add Rectangle Shape & Shadow in Java
+Slug: save-word-document-add-rectangle-shape-shadow-in-java
+Category: images-shapes
+ProcessedDate: 2026-06-21T07:33:01.419684
+SourceRepo: AI Search API
+Keywords: save word document, add rectangle shape, apply shadow to shape, how to add shadow, how to insert shape
+PRNumber: 208

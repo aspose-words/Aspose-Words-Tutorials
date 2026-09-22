@@ -1,39 +1,51 @@
 ---
-title: Using Watermarks to Documents in Aspose.Words for Java
+title: Add a watermark to a document using Aspose.Words for Java
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-description: Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional-looking documents.
+description: Learn how to create document with watermark using Aspose.Words for Java and add image watermark java for professional-looking documents.
 weight: 15
 url: /java/document-conversion-and-export/using-watermarks-to-documents/
+date: 2026-02-19
 ---
 
-
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Using Watermarks to Documents in Aspose.Words for Java
+# Add a watermark to a document using Aspose.Words for Java
 
+In this tutorial you'll **create document with watermark** using the Aspose.Words for Java API. Watermarks—whether text or images—help you label a file as confidential, draft, or approved, and they can be applied programmatically to any Word document. We'll walk through setting up the library, adding both text and image watermarks, customizing their appearance, and even removing them when they’re no longer needed.
 
-## Introduction to Adding Watermarks to Documents in Aspose.Words for Java
+## Quick Answers
+- **What does a watermark do?** It overlays text or an image on each page to convey status or branding.  
+- **Which library adds watermarks in Java?** Aspose.Words for Java provides built‑in watermark support.  
+- **Can I add an image watermark?** Yes—use the `Shape` class and the `add image watermark java` approach.  
+- **Is the watermark semi‑transparent?** You can control opacity via `setSemitransparent` for text watermarks.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.
 
-In this tutorial, we will explore how to add watermarks to documents using the Aspose.Words for Java API. Watermarks are a useful way to label documents with text or graphics to indicate their status, confidentiality, or other relevant information. We will cover both text and image watermarks in this guide.
+## What is a watermark and why use it?
+
+A watermark is a faint overlay—textual or graphical—added to every page of a document. It’s commonly used to indicate **confidentiality**, **draft status**, or **branding** without altering the underlying content. Adding watermarks programmatically ensures consistency across large batches of files and saves time compared with manual editing.
 
 ## Setting up Aspose.Words for Java
 
-Before we start adding watermarks to documents, we need to set up Aspose.Words for Java. Follow these steps to get started:
+Before we start adding watermarks, make sure the library is ready in your project:
 
-1. Download Aspose.Words for Java from [here](https://releases.aspose.com/words/java/).
-2. Add the Aspose.Words for Java library to your Java project.
-3. Import the necessary classes in your Java code.
+1. Download Aspose.Words for Java from [Aspose.Words for Java download page](https://releases.aspose.com/words/java/).  
+2. Add the downloaded JAR (or Maven/Gradle dependency) to your project's classpath.  
+3. Import the required classes in your Java source file:
 
-Now that we have the library set up let's proceed to add watermarks.
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-## Adding Text Watermarks
+Now that the library is set up, let’s dive into the actual watermark code.
 
-Text watermarks are a common choice when you want to add textual information to your documents. Here's how you can add a text watermark using Aspose.Words for Java:
+## How to add a text watermark
+
+Text watermarks are ideal for labeling a document as “CONFIDENTIAL” or “DRAFT”. The following snippet shows a clean way to **create document with watermark** using `TextWatermarkOptions`.
 
 ```java
 // Create a Document instance
@@ -54,9 +66,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## Adding Image Watermarks
+### Customizing the text watermark
+- **Font family & size** – change `setFontFamily` and `setFontSize`.  
+- **Color** – use any `java.awt.Color`.  
+- **Layout** – choose `HORIZONTAL`, `DIAGONAL`, etc.  
+- **Transparency** – toggle `setSemitransparent(true)` for a lighter look.
 
-In addition to text watermarks, you can also add image watermarks to your documents. Here's how to add an image watermark:
+## How to add an image watermark (add image watermark java)
+
+Image watermarks are perfect for logos or custom graphics. Below is the **add image watermark java** example that inserts a PNG into the center of each page.
 
 ```java
 // Create a Document instance
@@ -80,13 +98,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## Customizing Watermarks
+### Tips for image watermarks
+- **Resize** using `setWidth` / `setHeight` to fit the page.  
+- **Position** can be centered or aligned to any margin using `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Transparency** can be applied by adjusting the image’s alpha channel before loading.
 
-You can customize watermarks by adjusting their appearance and position. For text watermarks, you can change the font, size, color, and layout. For image watermarks, you can modify their size and position as demonstrated in the previous examples.
+## How to remove watermarks
 
-## Removing Watermarks
-
-To remove watermarks from a document, you can use the following code:
+When a document no longer needs a watermark, you can delete it programmatically. The code below iterates through all shapes and removes any that contain “Watermark” in their name.
 
 ```java
 // Create a Document instance
@@ -105,44 +124,47 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## Common pitfalls and troubleshooting
 
-## Conclusion
+- **Missing watermark after saving** – ensure you call `doc.save()` after setting the watermark.  
+- **Image not appearing** – verify the image path is correct and the file is a supported format (PNG, JPEG, BMP).  
+- **Transparency not applied** – `setSemitransparent(true)` only works for text watermarks; for images, edit the PNG’s alpha channel before loading.  
+- **Multiple sections** – if your document has several sections, add the watermark to each section’s body or use `doc.getWatermark().setText(...)` which applies globally.
 
-In this tutorial, we've learned how to add watermarks to documents using Aspose.Words for Java. Whether you need to add text or image watermarks, Aspose.Words provides the tools to customize and manage them efficiently. You can also remove watermarks when they are no longer needed, ensuring your documents are clean and professional.
+## Frequently asked questions
 
-## FAQ's
+**Q: How can I change the font of a text watermark?**  
+A: Modify the `setFontFamily` property in `TextWatermarkOptions`, e.g., `options.setFontFamily("Times New Roman");`.
 
-### How can I change the font of a text watermark?
+**Q: Can I add multiple watermarks to a single document?**  
+A: Yes. Create multiple `Shape` objects (for images) or call `doc.getWatermark().setText(...)` with different options for each watermark.
 
-To change the font of a text watermark, modify the `setFontFamily` property in the `TextWatermarkOptions`. For example:
+**Q: Is it possible to rotate a watermark?**  
+A: For image watermarks, set the rotation on the `Shape` object with `watermark.setRotation(angle)`. For text watermarks, use the `setLayout` property (e.g., `WatermarkLayout.DIAGONAL`).
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: How can I make a watermark semi‑transparent?**  
+A: Set `options.setSemitransparent(true)` in `TextWatermarkOptions`. For images, adjust the image’s opacity before loading.
 
-### Can I add multiple watermarks to a single document?
+**Q: Can I add watermarks to specific sections of a document?**  
+A: Yes. Iterate through `doc.getSections()` and add the watermark only to the desired sections.
 
-Yes, you can add multiple watermarks to a document by creating multiple `Shape` objects with different settings and adding them to the document.
 
-### Is it possible to rotate a watermark?
 
-Yes, you can rotate a watermark by setting the `setRotation` property in the `Shape` object. Positive values rotate the watermark clockwise, and negative values rotate it counterclockwise.
 
-### How can I make a watermark semi-transparent?
 
-To make a watermark semi-transparent, set the `setSemitransparent` property to `true` in the `TextWatermarkOptions`.
 
-### Can I add watermarks to specific sections of a document?
 
-Yes, you can add watermarks to specific sections of a document by iterating through the sections and adding the watermark to the desired sections.
 
+
+---
+
+**Last Updated:** 2026-02-19  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

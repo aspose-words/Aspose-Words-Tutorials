@@ -5,7 +5,9 @@
 "url": "/ja/python-net/document-comparison-tracking/mastering-inline-node-revision-tracking-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words を使用した Python でのインライン ノード リビジョン追跡の習得
 
 ## 導入
@@ -127,3 +129,7 @@ assert runs[5].is_delete_revision
 - [無料トライアルと一時ライセンス](https://purchase.aspose.com/temporary-license/)
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/words/10)
 このガイドが、PythonでAspose.Wordsを使用してドキュメントのリビジョンを効果的に管理するのに役立つことを願っています。コーディングを楽しみましょう！
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

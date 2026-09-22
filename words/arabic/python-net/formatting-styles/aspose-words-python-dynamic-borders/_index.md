@@ -5,7 +5,9 @@
 "url": "/ar/python-net/formatting-styles/aspose-words-python-dynamic-borders/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # حدود المستندات الديناميكية باستخدام Aspose.Words لـ Python
 
 ## مقدمة
@@ -267,3 +269,7 @@ doc.save(file_name=YOUR_OUTPUT_DIRECTORY + 'VerticalBorders.docx')
 
 ## خاتمة
 بإتقان هذه التقنيات باستخدام Aspose.Words لبايثون، يمكنك إنشاء مستندات احترافية ذات حدود ديناميكية. يوفر هذا الدليل أساسًا متينًا لاستكشاف إمكانيات المكتبة بشكل أعمق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

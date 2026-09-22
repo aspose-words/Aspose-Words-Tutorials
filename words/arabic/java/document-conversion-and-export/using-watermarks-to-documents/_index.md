@@ -1,10 +1,12 @@
 ---
-"description": "تعرّف على كيفية إضافة علامات مائية إلى المستندات في Aspose.Words لجافا. خصّص علامات مائية للنصوص والصور لمستندات احترافية."
-"linktitle": "استخدام العلامات المائية على المستندات"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "استخدام العلامات المائية في المستندات في Aspose.Words لـ Java"
-"url": "/ar/java/document-conversion-and-export/using-watermarks-to-documents/"
-"weight": 15
+date: 2026-02-19
+description: تعلم كيفية إنشاء مستند مع علامة مائية باستخدام Aspose.Words للغة Java
+  وإضافة علامة مائية صورة في Java للحصول على مستندات ذات مظهر احترافي.
+linktitle: Using Watermarks to Documents
+second_title: Aspose.Words Java Document Processing API
+title: إنشاء مستند بعلامة مائية باستخدام Aspose.Words للـ Java
+url: /ar/java/document-conversion-and-export/using-watermarks-to-documents/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,46 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخدام العلامات المائية في المستندات في Aspose.Words لـ Java
+# إنشاء مستند بعلامة مائية باستخدام Aspose.Words for Java
 
+في هذا البرنامج التعليمي ستقوم **بإنشاء مستند بعلامة مائية** باستخدام واجهة برمجة تطبيقات Aspose.Words for Java. تساعد العلامات المائية—سواء كانت نصية أو صورًا—في تصنيف الملف على أنه سري، مسودة، أو معتمد، ويمكن تطبيقها برمجيًا على أي مستند Word. سنستعرض إعداد المكتبة، إضافة كل من العلامات المائية النصية والصورية، تخصيص مظهرها، وحتى إزالتها عندما لا تكون بحاجة إليها بعد الآن.
 
-## مقدمة حول إضافة العلامات المائية إلى المستندات في Aspose.Words لـ Java
+## الإجابات السريعة
+- **ماذا تفعل العلامة المائية؟** تُضيف نصًا أو صورة فوق كل صفحة لتوضيح الحالة أو العلامة التجارية.  
+- **أي مكتبة تضيف علامات مائية في Java؟** توفر Aspose.Words for Java دعمًا مدمجًا للعلامات المائية.  
+- **هل يمكنني إضافة علامة مائية صورية؟** نعم—استخدم الفئة `Shape` وطريقة `add image watermark java`.  
+- **هل العلامة المائية شبه شفافة؟** يمكنك التحكم في الشفافية عبر `setSemitransparent` للعلامات المائية النصية.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للاختبار؛ الترخيص التجاري مطلوب للإنتاج.
 
-في هذا البرنامج التعليمي، سنستكشف كيفية إضافة علامات مائية إلى المستندات باستخدام واجهة برمجة تطبيقات Aspose.Words لجافا. تُعد العلامات المائية وسيلة مفيدة لتمييز المستندات التي تحتوي على نصوص أو رسومات للإشارة إلى حالتها أو سريتها أو أي معلومات أخرى ذات صلة. سنتناول في هذا الدليل كلاً من العلامات المائية النصية والصورية.
+## ما هي العلامة المائية ولماذا نستخدمها؟
 
-## إعداد Aspose.Words لـ Java
+العلامة المائية هي تغطية خفيفة—نصية أو رسومية—تُضاف إلى كل صفحة من المستند. تُستخدم عادةً للإشارة إلى **السرية**، **حالة المسودة**، أو **العلامة التجارية** دون تعديل المحتوى الأساسي. يضمن إضافة العلامات المائية برمجيًا التناسق عبر دفعات كبيرة من الملفات ويوفر الوقت مقارنةً بالتحرير اليدوي.
 
-قبل البدء بإضافة العلامات المائية إلى المستندات، علينا إعداد Aspose.Words لجافا. اتبع الخطوات التالية للبدء:
+## إعداد Aspose.Words for Java
 
-1. تنزيل Aspose.Words لـ Java من [هنا](https://releases.aspose.com/words/java/).
-2. أضف مكتبة Aspose.Words for Java إلى مشروع Java الخاص بك.
-3. استيراد الفئات اللازمة في الكود Java الخاص بك.
+قبل أن نبدأ بإضافة العلامات المائية، تأكد من أن المكتبة جاهزة في مشروعك:
 
-الآن بعد أن قمنا بإعداد المكتبة، فلننتقل إلى إضافة العلامات المائية.
-
-## إضافة علامات مائية نصية
-
-تُعد العلامات المائية النصية خيارًا شائعًا لإضافة معلومات نصية إلى مستنداتك. إليك كيفية إضافة علامة مائية نصية باستخدام Aspose.Words لجافا:
+1. حمّل Aspose.Words for Java من [هنا](https://releases.aspose.com/words/java/).  
+2. أضف ملف JAR الذي تم تنزيله (أو الاعتماديات عبر Maven/Gradle) إلى مسار الفئات في مشروعك.  
+3. استورد الفئات المطلوبة في ملف المصدر Java الخاص بك:
 
 ```java
-// إنشاء مثيل مستند
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
+
+الآن بعد أن تم إعداد المكتبة، دعنا ننتقل إلى كود العلامة المائية الفعلي.
+
+## كيفية إضافة علامة مائية نصية
+
+العلامات المائية النصية مثالية لتصنيف المستند كـ “CONFIDENTIAL” أو “DRAFT”. يُظهر المقتطف التالي طريقة نظيفة **لإنشاء مستند بعلامة مائية** باستخدام `TextWatermarkOptions`.
+
+```java
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// تحديد خيارات العلامة المائية النصية
+// Define TextWatermarkOptions
 TextWatermarkOptions options = new TextWatermarkOptions();
 options.setFontFamily("Arial");
 options.setFontSize(36f);
@@ -46,52 +62,59 @@ options.setColor(Color.BLACK);
 options.setLayout(WatermarkLayout.HORIZONTAL);
 options.setSemitransparent(false);
 
-// تعيين نص العلامة المائية والخيارات
+// Set the watermark text and options
 doc.getWatermark().setText("Test", options);
 
-// احفظ المستند بالعلامة المائية
+// Save the document with the watermark
 doc.save("DocumentWithWatermark.docx");
 ```
 
-## إضافة العلامات المائية للصور
+### تخصيص العلامة المائية النصية
+- **عائلة الخط والحجم** – غيّر `setFontFamily` و `setFontSize`.  
+- **اللون** – استخدم أي `java.awt.Color`.  
+- **التخطيط** – اختر `HORIZONTAL`، `DIAGONAL`، إلخ.  
+- **الشفافية** – فعّل `setSemitransparent(true)` للحصول على مظهر أخف.
 
-بالإضافة إلى العلامات المائية النصية، يمكنك أيضًا إضافة علامات مائية للصور إلى مستنداتك. إليك كيفية إضافة علامة مائية للصور:
+## كيفية إضافة علامة مائية صورية (add image watermark java)
+
+العلامات المائية الصورية مثالية للشعارات أو الرسومات المخصصة. أدناه مثال **add image watermark java** يدرج ملف PNG في وسط كل صفحة.
 
 ```java
-// إنشاء مثيل مستند
+// Create a Document instance
 Document doc = new Document("Document.docx");
 
-// تحميل الصورة للعلامة المائية
+// Load the image for the watermark
 byte[] imageBytes = Files.readAllBytes(Paths.get("watermark.png"));
 Shape watermark = new Shape(doc, ShapeType.IMAGE);
 watermark.getImageData().setImage(imageBytes);
 
-// تعيين حجم العلامة المائية وموضعها
+// Set the watermark size and position
 watermark.setWidth(200.0);
 watermark.setHeight(100.0);
 watermark.setRelativeHorizontalPosition(RelativeHorizontalPosition.CENTER);
 watermark.setRelativeVerticalPosition(RelativeVerticalPosition.CENTER);
 
-// إضافة العلامة المائية إلى المستند
+// Add the watermark to the document
 doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 
-// احفظ المستند بالعلامة المائية
+// Save the document with the watermark
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-## تخصيص العلامات المائية
+### نصائح للعلامات المائية الصورية
+- **إعادة التحجيم** باستخدام `setWidth` / `setHeight` لتناسب الصفحة.  
+- **الموضع** يمكن أن يكون مركزيًا أو محاذيًا لأي هامش باستخدام `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **الشفافية** يمكن تطبيقها عن طريق تعديل قناة ألفا للصورة قبل تحميلها.
 
-يمكنك تخصيص العلامات المائية بتعديل مظهرها وموقعها. بالنسبة للعلامات المائية النصية، يمكنك تغيير الخط والحجم واللون والتخطيط. أما بالنسبة للعلامات المائية للصور، فيمكنك تعديل حجمها وموقعها كما هو موضح في الأمثلة السابقة.
+## كيفية إزالة العلامات المائية
 
-## إزالة العلامات المائية
-
-لإزالة العلامات المائية من مستند، يمكنك استخدام الكود التالي:
+عندما لا يعود المستند بحاجة إلى علامة مائية، يمكنك حذفها برمجيًا. الكود أدناه يتنقل عبر جميع الأشكال ويزيل أي منها يحتوي على كلمة “Watermark” في اسمها.
 
 ```java
-// إنشاء مثيل مستند
+// Create a Document instance
 Document doc = new Document("DocumentWithWatermark.docx");
 
-// إزالة العلامة المائية
+// Remove the watermark
 for (Shape shape : doc.getShapes())
 {
     if (shape.getName().contains("Watermark"))
@@ -100,48 +123,44 @@ for (Shape shape : doc.getShapes())
     }
 }
 
-// احفظ المستند بدون العلامة المائية
+// Save the document without the watermark
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
+## المشكلات الشائعة واستكشاف الأخطاء
 
-## خاتمة
+- **العلامة المائية مفقودة بعد الحفظ** – تأكد من استدعاء `doc.save()` بعد ضبط العلامة المائية.  
+- **الصورة لا تظهر** – تحقق من صحة مسار الصورة وأن الملف بصيغة مدعومة (PNG، JPEG، BMP).  
+- **الشفافية غير مطبقة** – `setSemitransparent(true)` يعمل فقط للعلامات المائية النصية؛ بالنسبة للصور، عدّل قناة ألفا للـ PNG.  
+- **وجود أقسام متعددة** – إذا كان المستند يحتوي على عدة أقسام، أضف العلامة المائية إلى جسم كل قسم أو استخدم `doc.getWatermark().setText(...)` لتطبيقها عالميًا.
 
-في هذا البرنامج التعليمي، تعلمنا كيفية إضافة علامات مائية إلى المستندات باستخدام Aspose.Words لجافا. سواءً كنت ترغب في إضافة علامات مائية نصية أو صورية، يوفر Aspose.Words الأدوات اللازمة لتخصيصها وإدارتها بكفاءة. كما يمكنك إزالة العلامات المائية عند عدم الحاجة إليها، مما يضمن نظافة مستنداتك واحترافيتها.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: كيف يمكنني تغيير خط العلامة المائية النصية؟**  
+ج: عدّل خاصية `setFontFamily` في `TextWatermarkOptions`، مثال: `options.setFontFamily("Times New Roman");`.
 
-### كيف يمكنني تغيير خط العلامة المائية النصية؟
+**س: هل يمكنني إضافة عدة علامات مائية إلى مستند واحد؟**  
+ج: نعم. أنشئ عدة كائنات `Shape` (للصور) أو استدعِ `doc.getWatermark().setText(...)` مع خيارات مختلفة لكل علامة مائية.
 
-لتغيير خط العلامة المائية النصية، قم بتعديل `setFontFamily` الممتلكات في `TextWatermarkOptions`. على سبيل المثال:
+**س: هل يمكن تدوير العلامة المائية؟**  
+ج: بالنسبة للعلامات المائية الصورية، اضبط الدوران على كائن `Shape` باستخدام `watermark.setRotation(angle)`. بالنسبة للعلامات المائية النصية، استخدم خاصية `setLayout` (مثلًا `WatermarkLayout.DIAGONAL`).
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**س: كيف أجعل العلامة المائية شبه شفافة؟**  
+ج: اضبط `options.setSemitransparent(true)` في `TextWatermarkOptions`. بالنسبة للصور، عدّل شفافية الصورة قبل تحميلها.
 
-### هل يمكنني إضافة علامات مائية متعددة إلى مستند واحد؟
-
-نعم، يمكنك إضافة علامات مائية متعددة إلى مستند عن طريق إنشاء علامات مائية متعددة `Shape` الكائنات ذات الإعدادات المختلفة وإضافتها إلى المستند.
-
-### هل من الممكن تدوير العلامة المائية؟
-
-نعم، يمكنك تدوير العلامة المائية عن طريق ضبط `setRotation` الممتلكات في `Shape` القيم الإيجابية تدور العلامة المائية في اتجاه عقارب الساعة، والقيم السلبية تدورها عكس اتجاه عقارب الساعة.
-
-### كيف يمكنني جعل العلامة المائية شفافة جزئيًا؟
-
-لجعل العلامة المائية شفافة جزئيًا، اضبط `setSemitransparent` الممتلكات إلى `true` في `TextWatermarkOptions`.
-
-### هل يمكنني إضافة علامات مائية إلى أقسام معينة من المستند؟
-
-نعم، يمكنك إضافة علامات مائية إلى أقسام محددة من المستند عن طريق التكرار عبر الأقسام وإضافة العلامة المائية إلى الأقسام المطلوبة.
-
+**س: هل يمكنني إضافة علامات مائية إلى أقسام محددة من المستند؟**  
+ج: نعم. تنقّ عبر `doc.getSections()` وأضف العلامة المائية فقط إلى الأقسام المطلوبة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-02-19  
+**تم الاختبار مع:** Aspose.Words for Java 24.12 (latest)  
+**المؤلف:** Aspose

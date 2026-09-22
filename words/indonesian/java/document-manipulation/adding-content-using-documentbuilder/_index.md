@@ -1,10 +1,14 @@
 ---
-"description": "Kuasai Pembuatan Dokumen dengan Aspose.Words untuk Java. Panduan Langkah demi Langkah untuk Menambahkan Teks, Tabel, Gambar, dan Lainnya. Buat Dokumen Word yang Menakjubkan dengan Mudah."
-"linktitle": "Menambahkan Konten menggunakan DocumentBuilder"
-"second_title": "API Pemrosesan Dokumen Java Aspose.Words"
-"title": "Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java"
-"url": "/id/java/document-manipulation/adding-content-using-documentbuilder/"
-"weight": 26
+date: 2026-01-01
+description: Pelajari cara membuat bidang formulir dan menambahkan teks, tabel, gambar,
+  tautan, serta lainnya menggunakan Aspose.Words for Java DocumentBuilder. Panduan
+  langkah demi langkah untuk pengembang.
+linktitle: Adding Content using DocumentBuilder
+second_title: Aspose.Words Java Document Processing API
+title: Cara membuat bidang formulir dan menambahkan konten menggunakan DocumentBuilder
+  di Aspose.Words untuk Java
+url: /id/java/document-manipulation/adding-content-using-documentbuilder/
+weight: 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,25 +19,35 @@
 
 # Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java
 
+## Pendahuluan tentang Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java
 
-## Pengantar Menambahkan Konten menggunakan DocumentBuilder di Aspose.Words untuk Java
+Dalam panduan langkah‑demi‑langkah ini, Anda akan **membuat bidang formulir** dan menambahkan berbagai jenis konten—teks, tabel, garis horizontal, HTML, tautan, gambar, dan lainnya—ke dalam dokumen Word dengan Aspose.Words untuk Java. Baik Anda sedang membuat laporan, templat kontrak, atau formulir interaktif, kelas `DocumentBuilder` memberi Anda kontrol detail atas setiap elemen. Mari kita mulai!
 
-Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara menggunakan Aspose.Words untuk DocumentBuilder Java guna menambahkan berbagai jenis konten ke dokumen Word. Kita akan membahas penyisipan teks, tabel, aturan horizontal, kolom formulir, HTML, hyperlink, daftar isi, gambar sebaris dan mengambang, paragraf, dan banyak lagi. Mari kita mulai!
+## Jawaban Cepat
+- **Bagaimana cara membuat bidang formulir?** Gunakan `insertTextInput`, `insertCheckBox`, atau `insertComboBox` pada sebuah `DocumentBuilder`.
+- **Metode apa yang menambahkan teks biasa?** Panggil `builder.write("Your text")` atau `builder.writeln("Your text")`.
+- **Apakah saya dapat menyisipkan garis horizontal?** Ya—`builder.insertHorizontalRule()` menambahkan pemisah garis.
+- **Bagaimana cara menyisipkan HTML?** Gunakan `builder.insertHtml("<p>HTML content</p>")`.
+- **Bagaimana cara menambahkan gambar inline?** `builder.insertImage("path/to/image.png")` menempatkan gambar di dalam alur teks.
+
+## Apa itu DocumentBuilder dan mengapa menggunakannya untuk membuat bidang formulir?
+
+`DocumentBuilder` adalah API fluida Aspose.Words untuk membangun dan mengedit dokumen Word secara programatis. Ia menyembunyikan struktur OpenXML tingkat rendah, memungkinkan Anda fokus pada *apa* yang ingin Anda tambahkan—seperti **bidang formulir**—bukan pada *bagaimana* XML terlihat. Ini menjadikannya ideal untuk menghasilkan formulir dinamis, kontrak, atau dokumen apa pun yang memerlukan interaksi pengguna.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menyiapkan pustaka Aspose.Words untuk Java di proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/words/java/).
+Sebelum memulai, pastikan Anda telah menginstal pustaka Aspose.Words untuk Java dalam proyek Anda. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/words/java/).
 
-## Menambahkan Teks
+## Menambahkan Teks (cara menambahkan teks)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan paragraf teks sederhana
+// Insert a simple text paragraph
 builder.write("This is a simple text paragraph.");
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -43,37 +57,37 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mulai tabel
+// Start a table
 Table table = builder.startTable();
 
-// Sisipkan sel dan konten
+// Insert cells and content
 builder.insertCell();
 builder.write("Cell 1");
 
 builder.insertCell();
 builder.write("Cell 2");
 
-// Akhiri tabel
+// End the table
 builder.endTable();
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Menambahkan Aturan Horizontal
+## Menambahkan Garis Horizontal (menambahkan garis horizontal)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan penggaris horizontal
+// Insert a horizontal rule
 builder.insertHorizontalRule();
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Menambahkan Bidang Formulir
+## Menambahkan Bidang Formulir (membuat bidang formulir)
 
 ### Bidang Formulir Input Teks
 
@@ -81,70 +95,70 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan bidang formulir input teks
+// Insert a text input form field
 builder.insertTextInput("TextInput", TextFormFieldType.REGULAR, "", "Default text", 0);
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Formulir Kotak Centang
+### Bidang Formulir Kotak Centang
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan bidang formulir kotak centang
+// Insert a check box form field
 builder.insertCheckBox("CheckBox", true, true, 0);
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-### Bidang Formulir Kotak Kombo
+### Bidang Formulir Kotak Kombinasi
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tentukan item untuk kotak kombo
+// Define items for the combo box
 String[] items = { "Option 1", "Option 2", "Option 3" };
 
-// Masukkan bidang formulir kotak kombo
+// Insert a combo box form field
 builder.insertComboBox("DropDown", items, 0);
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Menambahkan HTML
+## Menambahkan HTML (menyisipkan html)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan konten HTML
+// Insert HTML content
 builder.insertHtml("<p>This is an HTML paragraph.</p>");
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Menambahkan Hyperlink
+## Menambahkan Tautan (cara menambahkan tautan)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan hyperlink
+// Insert a hyperlink
 builder.write("Visit ");
 builder.getFont().setColor(Color.BLUE);
 builder.getFont().setUnderline(Underline.SINGLE);
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", salah);
+builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
 builder.getFont().clearFormatting();
 builder.write(" for more information.");
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -154,31 +168,31 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan daftar isi
+// Insert a table of contents
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Tambahkan konten dokumen
+// Add document content
 // ...
 
-// Perbarui daftar isi
+// Update the table of contents
 doc.updateFields();
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
 ## Menambahkan Gambar
 
-### Gambar Sebaris
+### Gambar Inline (menyisipkan gambar inline)
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sisipkan gambar sebaris
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -188,10 +202,10 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sisipkan gambar mengambang
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
@@ -201,7 +215,7 @@ doc.save("path/to/your/document.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mengatur format paragraf
+// Set paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -214,70 +228,69 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Sisipkan paragraf
+// Insert a paragraph
 builder.writeln("This is a formatted paragraph.");
 
-// Simpan dokumen
+// Save the document
 doc.save("path/to/your/document.docx");
 ```
 
-## Langkah 10: Memindahkan Kursor
+## Memindahkan Kursor (Langkah 10)
 
-Anda dapat mengontrol posisi kursor dalam dokumen menggunakan berbagai metode seperti `moveToParagraph`Bahasa Indonesia: `moveToCell`, dan masih banyak lagi. Berikut contohnya:
+Anda dapat mengontrol posisi kursor dalam dokumen menggunakan metode seperti `moveToParagraph`, `moveToCell`, dll.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pindahkan kursor ke paragraf tertentu
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// Tambahkan konten di posisi kursor baru
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Berikut ini adalah beberapa operasi umum yang dapat Anda lakukan menggunakan Aspose.Words untuk Java's DocumentBuilder. Jelajahi dokumentasi pustaka untuk fitur dan opsi penyesuaian yang lebih canggih. Selamat membuat dokumen!
-
+Ini adalah beberapa operasi umum yang dapat Anda lakukan menggunakan `DocumentBuilder` Aspose.Words untuk Java. Jelajahi dokumentasi pustaka untuk fitur lanjutan dan opsi penyesuaian. Selamat membuat dokumen!
 
 ## Kesimpulan
 
-Dalam panduan lengkap ini, kami telah mengeksplorasi kemampuan Aspose.Words untuk DocumentBuilder Java guna menambahkan berbagai jenis konten ke dokumen Word. Kami telah membahas teks, tabel, aturan horizontal, kolom formulir, HTML, hyperlink, daftar isi, gambar, paragraf, dan pergerakan kursor.
+Dalam panduan komprehensif ini, kami telah menunjukkan cara **membuat bidang formulir** dan menambahkan berbagai jenis konten—teks, tabel, garis horizontal, HTML, tautan, daftar isi, gambar, paragraf yang diformat, dan navigasi kursor—menggunakan `DocumentBuilder` Aspose.Words untuk Java. Anda kini memiliki dasar yang kuat untuk menghasilkan dokumen Word dinamis dan interaktif secara programatis.
 
-## Pertanyaan yang Sering Diajukan
+## FAQ's
 
-### T: Apa itu Aspose.Words untuk Java?
+### Q: Apa itu Aspose.Words untuk Java?
 
-J: Aspose.Words untuk Java adalah pustaka Java yang memungkinkan pengembang membuat, memodifikasi, dan memanipulasi dokumen Microsoft Word secara terprogram. Pustaka ini menyediakan berbagai fitur untuk pembuatan dokumen, pemformatan, dan penyisipan konten.
+A: Aspose.Words untuk Java adalah pustaka Java yang memungkinkan pengembang membuat, memodifikasi, dan memanipulasi dokumen Microsoft Word secara programatis. Ia menyediakan beragam fitur untuk pembuatan dokumen, pemformatan, dan penyisipan konten.
 
-### T: Bagaimana cara menambahkan daftar isi ke dokumen saya?
+### Q: Bagaimana cara menambahkan daftar isi ke dokumen saya?
 
-A: Untuk menambahkan daftar isi, gunakan `DocumentBuilder` untuk memasukkan kolom daftar isi ke dalam dokumen Anda. Pastikan untuk memperbarui kolom dalam dokumen setelah menambahkan konten untuk mengisi daftar isi. Berikut contohnya:
+A: Untuk menambahkan daftar isi, gunakan `DocumentBuilder` untuk menyisipkan bidang TOC dan kemudian panggil `doc.updateFields()` setelah menambahkan konten Anda.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Masukkan bidang daftar isi
+// Insert a table of contents field
 builder.insertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 
-// Tambahkan konten dokumen
+// Add document content
 // ...
 
-// Perbarui daftar isi
+// Update the table of contents
 doc.updateFields();
 ```
 
-### T: Bagaimana cara menyisipkan gambar ke dalam dokumen menggunakan Aspose.Words untuk Java?
+### Q: Bagaimana cara menyisipkan gambar ke dalam dokumen menggunakan Aspose.Words untuk Java?
 
-A: Anda dapat menyisipkan gambar, baik inline maupun floating, menggunakan `DocumentBuilder`Berikut adalah contoh keduanya:
+A: Anda dapat menyisipkan gambar, baik inline maupun mengambang, menggunakan `DocumentBuilder`.
 
-#### Gambar Sebaris:
+#### Gambar Inline:
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sisipkan gambar sebaris
+// Insert an inline image
 builder.insertImage("path/to/your/image.png");
 ```
 
@@ -287,19 +300,19 @@ builder.insertImage("path/to/your/image.png");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sisipkan gambar mengambang
+// Insert a floating image
 builder.insertImage("path/to/your/image.png", RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN, 100.0, 200.0, 100.0, WrapType.SQUARE);
 ```
 
-### T: Dapatkah saya memformat teks dan paragraf saat menambahkan konten?
+### Q: Apakah saya dapat memformat teks dan paragraf saat menambahkan konten?
 
-A: Ya, Anda dapat memformat teks dan paragraf menggunakan `DocumentBuilder`Anda dapat mengatur properti font, perataan paragraf, indentasi, dan banyak lagi. Berikut contohnya:
+A: Ya, Anda dapat memformat teks dan paragraf menggunakan `DocumentBuilder`. Atur properti font, perataan paragraf, indentasi, dan lainnya sebelum menulis konten.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mengatur font dan format paragraf
+// Set font and paragraph formatting
 Font font = builder.getFont();
 font.setSize(16.0);
 font.setBold(true);
@@ -312,34 +325,37 @@ paragraphFormat.setFirstLineIndent(8.0);
 paragraphFormat.setAlignment(ParagraphAlignment.JUSTIFY);
 paragraphFormat.setKeepTogether(true);
 
-// Masukkan paragraf yang diformat
+// Insert a formatted paragraph
 builder.writeln("This is a formatted paragraph.");
 ```
 
-### T: Bagaimana cara memindahkan kursor ke lokasi tertentu dalam dokumen?
+### Q: Bagaimana cara memindahkan kursor ke lokasi tertentu dalam dokumen?
 
-A: Anda dapat mengontrol posisi kursor menggunakan metode seperti `moveToParagraph`Bahasa Indonesia: `moveToCell`, dan masih banyak lagi. Berikut contohnya:
+A: Gunakan metode seperti `moveToParagraph`, `moveToCell`, dll., untuk menempatkan kursor sebelum menyisipkan konten baru.
 
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pindahkan kursor ke paragraf tertentu
+// Move the cursor to a specific paragraph
 builder.moveToParagraph(2, 0);
 
-// Tambahkan konten di posisi kursor baru
+// Add content at the new cursor position
 builder.writeln("This is the 3rd paragraph.");
 ```
 
-Berikut ini adalah beberapa pertanyaan umum dan jawaban untuk membantu Anda memulai dengan Aspose.Words untuk Java's DocumentBuilder. Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan lebih lanjut, lihat [dokumentasi perpustakaan](https://reference.aspose.com/words/java/) atau mencari bantuan dari komunitas Aspose.Words dan sumber daya dukungan.
+Jawaban‑jawaban ini mencakup skenario paling umum saat bekerja dengan `DocumentBuilder` Aspose.Words untuk Java. Untuk detail lebih mendalam, lihat [library's documentation](https://reference.aspose.com/words/java/) atau bergabung dengan komunitas Aspose.Words untuk dukungan.
 
+---
+
+**Last Updated:** 2026-01-01  
+**Tested With:** Aspose.Words for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

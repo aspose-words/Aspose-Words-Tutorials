@@ -1,0 +1,7 @@
+Title: Make PDF Accessible with Aspose.Words – Complete Step‑by‑Step Guide
+Slug: make-pdf-accessible-with-aspose-words-complete-step-by-step
+Category: document-options-and-settings
+ProcessedDate: 2026-05-30T09:35:23.789917
+SourceRepo: AI Search API
+Keywords: make pdf accessible, how to save pdf/ua, how to enable pdf/ua
+PRNumber: 196

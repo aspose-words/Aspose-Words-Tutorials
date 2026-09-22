@@ -1,0 +1,7 @@
+Title: Create rectangle shape and group shapes in Word using C#
+Slug: create-rectangle-shape-and-group-shapes-in-word-using-c
+Category: programming-with-shapes
+ProcessedDate: 2026-09-08T22:51:58.708125
+SourceRepo: AI Search API
+Keywords: create rectangle shape, group shapes in word, set shape size, group multiple shapes, create blank word document
+PRNumber: 267

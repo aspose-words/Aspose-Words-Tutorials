@@ -5,7 +5,9 @@
 "url": "/nl/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words voor Python onder de knie krijgen: een afbrekingswoordenboek registreren en deregistreren
 
 ## Invoering
@@ -173,3 +175,7 @@ Voor meer op maat gemaakte antwoorden, kijk op de [Aspose Forum](https://forum.a
 - **Aankoop:** [Koop Aspose.Words-licentie](https://purchase.aspose.com/buy)
 - **Gratis proefperiode:** [Begin met een gratis proefperiode](https://releases.aspose.com/words/python/)
 - **Tijdelijke licentie:** [Vraag een tijdelijke licentie aan](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

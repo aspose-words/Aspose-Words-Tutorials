@@ -5,7 +5,9 @@
 "url": "/zh-hant/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # 掌握 Aspose.Words for Python：註冊並登出連字字典
 
 ## 介紹
@@ -173,3 +175,7 @@ doc.save(arartifacts_directory + 'Hyphenation.dictionary.unregistered.pdf')
 - **購買：** [購買 Aspose.Words 許可證](https://purchase.aspose.com/buy)
 - **免費試用：** [從免費試用開始](https://releases.aspose.com/words/python/)
 - **臨時執照：** [申請臨時許可證](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

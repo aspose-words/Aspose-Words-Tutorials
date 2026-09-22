@@ -1,10 +1,14 @@
 ---
-"description": "Aspose.Words for Java ile belgeleri HTML sayfalarına nasıl böleceğinizi öğrenin. Sorunsuz belge dönüşümü için adım adım kılavuzumuzu izleyin."
-"linktitle": "Belgeleri HTML Sayfalarına Bölme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Aspose.Words for Java'da Belgeleri HTML Sayfalarına Bölme"
-"url": "/tr/java/document-manipulation/splitting-documents-into-html-pages/"
-"weight": 25
+date: 2026-01-06
+description: Aspose.Words for Java kullanarak Word belgelerini HTML'ye dönüştürmeyi
+  ve belgeleri HTML sayfalarına bölmeyi öğrenin. Sorunsuz belge dönüşümü için adım
+  adım rehberimizi izleyin.
+linktitle: Splitting Documents into HTML Pages
+second_title: Aspose.Words Java Document Processing API
+title: Word'ü HTML'ye Dönüştür ve Belgeleri HTML Sayfalarına Böl Aspose.Words for
+  Java ile
+url: /tr/java/document-manipulation/splitting-documents-into-html-pages/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,19 +17,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java'da Belgeleri HTML Sayfalarına Bölme
-
+# Word'ü HTML'ye Dönüştürme ve Aspose.Words for Java ile Belgeleri HTML Sayfalarına Bölme
 
 ## Aspose.Words for Java'da Belgeleri HTML Sayfalarına Bölmeye Giriş
 
-Bu adım adım kılavuzda, Aspose.Words for Java kullanarak belgeleri HTML sayfalarına nasıl böleceğinizi inceleyeceğiz. Aspose.Words, Microsoft Word belgeleriyle çalışmak için güçlü bir Java API'sidir ve belgeleri HTML de dahil olmak üzere çeşitli biçimlere dönüştürme yeteneği de dahil olmak üzere belge düzenleme için kapsamlı özellikler sağlar.
+Bu adım adım rehberde, **Word'ü HTML'ye Dönüştürme** ve belgeleri ayrı HTML sayfalarına bölmeyi Aspose.Words for Java kullanarak inceleyeceğiz. Bu yaklaşım, büyük Word dosyalarını yönetilebilir, web'e hazır bölümlere ayırmanıza ve biçimlendirme, resimler ve stilleri korumanıza olanak tanır.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **“convert word to html” ne anlama geliyor?** Microsoft Word belgesini (.doc/.docx) standart HTML işaretlemesine dönüştürür.  
+- **Neden çıktıyı birden fazla sayfaya bölüyorsunuz?** Yükleme sürelerini iyileştirmek, daha kolay gezinme sağlamak ve büyük belgeler için bir içindekiler tablosu oluşturmak için.  
+- **Hangi Aspose sınıfı dönüşümü gerçekleştirir?** `HtmlSaveOptions` ve `Document.save(...)` birlikte.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Evet, ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri tam olarak desteklenir.
 
-Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+## “convert word to html” nedir?
+Bir Word dosyasını HTML'ye dönüştürmek, tarayıcıların Microsoft Office'e ihtiyaç duymadan render edebileceği web uyumlu dosyalar seti üretir. Oluşan HTML, başlıkları, tabloları, resimleri ve stilleri korur; bu da belgeleri, raporları veya çevrimiçi e‑öğrenme içeriğini yayınlamak için idealdir.
 
-- Sisteminizde Java Development Kit (JDK) yüklü.
-- Aspose.Words for Java kütüphanesi. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/words/java/).
+## Belgeleri HTML sayfalarına neden bölmeliyiz?
+- **Performans:** Daha küçük HTML dosyaları, özellikle mobil cihazlarda daha hızlı yüklenir.  
+- **Kullanılabilirlik:** Kullanıcılar, oluşturulan içindekiler tablosu aracılığıyla doğrudan belirli bir bölüme gidebilir.  
+- **Bakım:** Tek bir bölümü güncellemek, tüm belgeyi yeniden oluşturmayı gerektirmez.
+
+## Önkoşullar
+
+Başlamadan önce, aşağıdaki önkoşulların karşılandığından emin olun:
+
+- Sisteminizde yüklü Java Development Kit (JDK).  
+- Aspose.Words for Java kütüphanesi. Bunu [buradan](https://releases.aspose.com/words/java/) indirebilirsiniz.
 
 ## Adım 1: Gerekli Paketleri İçe Aktarın
 
@@ -35,17 +53,17 @@ import java.io.*;
 import java.util.ArrayList;
 ```
 
-## Adım 2: Word'den HTML'e Dönüştürme Yöntemi Oluşturun
+## Adım 2: Word'ü HTML'ye Dönüştürme İçin Bir Metod Oluşturun
 
 ```java
 class WordToHtmlConverter
 {
-    // Word'den HTML'e dönüştürme için uygulama detayları.
+    // Implementation details for Word to HTML conversion.
     // ...
 }
 ```
 
-## Adım 3: Konu Başlangıcı Olarak Başlık Paragraflarını Seçin
+## Adım 3: Başlık Paragraflarını Konu Başlangıcı Olarak Seçin
 
 ```java
 private ArrayList<Paragraph> selectTopicStarts()
@@ -62,7 +80,7 @@ private ArrayList<Paragraph> selectTopicStarts()
 }
 ```
 
-## Adım 4: Başlık Paragraflarından Önce Bölüm Sonlarını Ekleyin
+## Adım 4: Başlık Paragraflarının Önüne Bölüm Sonları Ekleyin
 
 ```java
 private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
@@ -81,7 +99,7 @@ private void insertSectionBreaks(ArrayList<Paragraph> topicStartParas)
 }
 ```
 
-## Adım 5: Belgeyi Konulara Ayırın
+## Adım 5: Belgeyi Konulara Bölün
 
 ```java
 private ArrayList<Topic> saveHtmlTopics() throws Exception
@@ -125,7 +143,7 @@ private void saveHtmlTopic(Section section, Topic topic) throws Exception
 }
 ```
 
-## Adım 7: Konular için İçindekiler Tablosu Oluşturun
+## Adım 7: Konular İçin Bir İçindekiler Tablosu Oluşturun
 
 ```java
 private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
@@ -137,41 +155,47 @@ private void saveTableOfContents(ArrayList<Topic> topics) throws Exception
 }
 ```
 
-Artık adımları özetlediğimize göre, Aspose.Words for Java kullanarak belgeleri HTML sayfalarına bölmek için her adımı Java projenizde uygulayabilirsiniz. Bu süreç, belgelerinizin yapılandırılmış bir HTML gösterimini oluşturmanıza olanak tanır ve bunları daha erişilebilir ve kullanıcı dostu hale getirir.
+Artık adımları özetlediğimize göre, Java projenizde her adımı uygulayarak **Word'ü HTML'ye dönüştürebilir** ve sonucu Aspose.Words for Java kullanarak birden çok sayfaya bölebilirsiniz. Bu süreç, belgelerinizin yapılandırılmış bir HTML temsili oluşturmanıza olanak tanır ve onları daha erişilebilir ve kullanıcı dostu hâle getirir.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu kapsamlı kılavuzda, Aspose.Words for Java kullanarak belgeleri HTML sayfalarına bölme sürecini ele aldık. Belirtilen adımları izleyerek, Word belgelerini HTML biçimine verimli bir şekilde dönüştürebilir ve içeriğinizi web'de daha erişilebilir hale getirebilirsiniz.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|-------|
+| Resimler kırık bağlantı olarak görünür | Çıktı klasöründe resim dosyaları eksik | `HtmlSaveOptions`'ın resimleri HTML dosyalarıyla aynı dizine dışa aktaracak şekilde yapılandırıldığından emin olun. |
+| Başlık algılama bazı bölümleri kaçırıyor | Tüm başlıklar `HEADING_1` stilini kullanmıyor | `selectTopicStarts` metodunu gerektiği gibi `HEADING_2` veya özel stilleri içerecek şekilde ayarlayın. |
+| Oluşturulan HTML ekstra `<style>` etiketleri içeriyor | Varsayılan kaydetme satır içi CSS ekliyor | İstenirse CSS'i harici tutmak için `saveOptions.setExportOriginalUrlForLinkedResources(true)` ayarlayın. |
 
-## SSS
+## Sıkça Sorulan Sorular
 
-### Java için Aspose.Words'ü nasıl yüklerim?
+**Q: Aspose.Words for Java nasıl kurulur?**  
+**A:** Kütüphaneyi [buradan](https://releases.aspose.com/words/java/) indirip JAR dosyalarını projenizin sınıf yoluna ekleyin.
 
-Java için Aspose.Words'ü yüklemek için kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/) ve dokümanlarda verilen kurulum talimatlarını izleyin.
+**Q: HTML çıktısını özelleştirebilir miyim?**  
+**A:** Evet, `HtmlSaveOptions` özelliklerini (ör. `setExportHeadersFootersMode`, `setPrettyFormat`) ayarlayarak biçimlendirme, resim işleme ve CSS eklemeyi kontrol edebilirsiniz.
 
-### HTML çıktısını özelleştirebilir miyim?
+**Q: Dönüşüm için hangi Word formatları destekleniyor?**  
+**A:** Aspose.Words DOC, DOCX, RTF, ODT ve birçok diğer formatı destekler; tüm yeni Microsoft Word sürümlerini kapsar.
 
-Evet, HTML çıktısını, kaydetme seçeneklerini ayarlayarak özelleştirebilirsiniz. `HtmlSaveOptions` sınıf. Bu, oluşturulan HTML dosyalarının biçimlendirmesini ve görünümünü kontrol etmenizi sağlar.
+**Q: Dönüşüm sırasında resimler nasıl işlenir?**  
+**A:** Resimler, HTML sayfasıyla aynı klasörde ayrı dosyalar olarak kaydedilir ve HTML, bunlara göreceli yollarla referans verir.
 
-### Aspose.Words for Java hangi Microsoft Word sürümlerini destekliyor?
+**Q: Deneme sürümü mevcut mu?**  
+**A:** Evet, lisans satın almadan önce tüm özellikleri değerlendirmek için Aspose web sitesinden ücretsiz 30‑günlük bir deneme sürümü alınabilir.
 
-Aspose.Words for Java, DOC, DOCX, RTF ve daha fazlası dahil olmak üzere çok çeşitli Microsoft Word belge formatlarını destekler. Microsoft Word'ün çeşitli sürümleriyle uyumludur.
+## Sonuç
 
-### Dönüştürülen HTML'deki görselleri nasıl işleyebilirim?
+Bu kapsamlı rehberde, **Word'ü HTML'ye dönüştürme** ve ortaya çıkan içeriği Aspose.Words for Java kullanarak ayrı HTML sayfalarına bölme yöntemini gösterdik. Belirtilen adımları izleyerek web‑hazır belgeler oluşturmayı otomatikleştirebilir, sayfa yükleme performansını artırabilir ve büyük belgeler için gezilebilir bir içindekiler tablosu oluşturabilirsiniz.
 
-Java için Aspose.Words, dönüştürülen HTML'deki resimleri, HTML dosyasıyla aynı klasörde ayrı dosyalar olarak kaydederek işleyebilir. Bu, resimlerin HTML çıktısında doğru şekilde görüntülenmesini sağlar.
+---
 
-### Aspose.Words for Java'nın deneme sürümü mevcut mu?
-
-Evet, lisans satın almadan önce Aspose.Words for Java'nın özelliklerini ve yeteneklerini değerlendirmek için Aspose web sitesinden ücretsiz deneme sürümünü talep edebilirsiniz.
-
+**Son Güncelleme:** 2026-01-06  
+**Test Edilen:** Aspose.Words for Java 24.12 (latest)  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

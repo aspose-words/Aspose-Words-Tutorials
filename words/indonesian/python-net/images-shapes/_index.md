@@ -4,7 +4,9 @@
 "url": "/id/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial Gambar & Bentuk untuk Aspose.Words Python-net
 
 Jelajahi panduan langkah demi langkah yang komprehensif untuk operasi gambar & bentuk menggunakan Aspose.Words untuk Python-net. Tutorial ini mencakup contoh kode lengkap dan penjelasan terperinci.
@@ -32,6 +34,9 @@ Pelajari cara mengoptimalkan penanganan gambar dalam dokumen RTF dengan Aspose.W
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. Panduan ini mencakup fitur-fitur khusus seperti properti mirip gambar, rendering teks, dan peningkatan keamanan.
 
+### [Cara Menambahkan Bayangan di C# – Panduan Pemrograman Lengkap](./how-to-add-shadow-in-c-complete-programming-guide/)
+Pelajari cara menambahkan efek bayangan pada elemen di C# dengan panduan lengkap ini.
+
 ## Sumber Daya Tambahan
 
 - [Aspose.Words untuk Dokumentasi Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@ Pelajari cara mengoptimalkan output SVG menggunakan Aspose.Words untuk Python. P
 - [Forum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Dukungan Gratis](https://forum.aspose.com/)
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

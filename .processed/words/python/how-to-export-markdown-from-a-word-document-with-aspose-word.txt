@@ -1,0 +1,7 @@
+Title: How to export markdown from a Word document with Aspose.Words
+Slug: how-to-export-markdown-from-a-word-document-with-aspose-word
+Category: document-conversion
+ProcessedDate: 2026-08-17T19:08:26.249280
+SourceRepo: AI Search API
+Keywords: how to export markdown, convert docx to markdown, how to keep paragraphs, save word as markdown, save document as md
+PRNumber: 257
