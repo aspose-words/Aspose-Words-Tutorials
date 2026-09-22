@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: С помощью Aspose.Words Document и DocumentBuilder этот учебник вставляет HTML‑разметку в документ Word и сохраняет результат.
+//ExStepSummary:0: Укажите папку вывода, создайте новый Document и инициализируйте DocumentBuilder для этого документа.
+//ExStepSummary:1: Вызовите `builder.InsertHtml()`, чтобы добавить в документ абзац, выровненный по правому краю, жирный текст, центрированный div и заголовок, выровненный по левому краю.
+//ExStepSummary:2: Сохраните изменённый документ в указанную папку в формате .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

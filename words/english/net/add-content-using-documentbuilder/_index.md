@@ -26,6 +26,10 @@ Adding Content Using DocumentBuilder is a comprehensive resource that walks you 
 
 {{< tutorial-card link="./insert-page-break/" title="Insert Page Break in a Word Document with Aspose.Words for .NET" imgSrc="./insert-page-break/images/thumb.png" >}}
 
+{{< tutorial-card link="./insert-aligned-html/" title="Insert Aligned HTML into Word Document Using Aspose.Words for .NET" imgSrc="./insert-aligned-html/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-horizontal-rule-shape/" title="Insert Horizontal Rule Shape in Word Document Using Aspose.Words for .NET" imgSrc="./insert-horizontal-rule-shape/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- |
 | [Create New Word Document](./create-new-document/) | Learn how to create Word documents using Aspose.Words for .NET. This step-by-step guide will walk you through the process, making document automation easy. |
