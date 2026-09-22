@@ -23,6 +23,9 @@ Words Processing with Headers and Footers to kompleksowe źródło wiedzy na tem
 
 {{< tutorial-card link="./insert-header-date/" title="Wstaw dynamiczną datę w nagłówku dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-page-numbers/" title="Dodaj numery stron do stopki dokumentu Word przy użyciu Aspose.Words for .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Tytuł | Opis |
 | --- | --- |
 | [Utwórz nagłówek i stopkę](./create-header-footer/) | Dowiedz się, jak tworzyć nagłówki i stopki w dokumentach Word za pomocą Aspose.Words dla .NET. Dostosuj nagłówki i stopki dla każdej strony. |

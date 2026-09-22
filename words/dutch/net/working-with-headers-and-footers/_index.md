@@ -23,6 +23,9 @@ Tekstverwerking met kop- en voetteksten is een uitgebreide bron om te leren hoe 
 
 {{< tutorial-card link="./insert-header-date/" title="Voeg dynamische kopdatum in Word‑document in met Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-page-numbers/" title="Voeg paginanummers toe aan de voettekst van een Word‑document met Aspose.Words voor .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Titel | Beschrijving |
 | --- | --- |
 | [Koptekst/voettekst maken](./create-header-footer/) | Leer hoe u kopteksten en voetteksten in uw Word-documenten maakt met Aspose.Words voor .NET. Pas kopteksten en voetteksten voor elke pagina aan. |

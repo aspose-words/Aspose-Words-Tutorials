@@ -22,6 +22,9 @@ Words Processing with Headers and Footers is a comprehensive resource for learni
 
  ## Tutorials
 
+{{< tutorial-card link="./add-page-numbers/" title="Add Page Numbers to the Footer of a Word Document Using Aspose.Words for .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 {{< tutorial-card link="./insert-header-date/" title="Insert Dynamic Header Date in Word Document Using Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
 | Title | Description |

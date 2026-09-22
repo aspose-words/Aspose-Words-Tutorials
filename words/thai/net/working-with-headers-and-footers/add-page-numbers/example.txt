@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: โดยใช้ Aspose.Words Document และ DocumentBuilder, บทเรียนนี้จะเพิ่มเลขหน้าที่อัปเดตอัตโนมัติไปยังส่วนท้ายหลักของเอกสาร Word
+//ExStepSummary:0: สร้างอ็อบเจกต์ Document ใหม่และ DocumentBuilder ที่เชื่อมโยงกับมัน
+//ExStepSummary:1: ย้ายเคอร์เซอร์ของ builder ไปยังส่วนท้ายหลักของส่วนแรก
+//ExStepSummary:2: ตั้งค่าการจัดแนวของย่อหน้าเป็นศูนย์กลางเพื่อให้ข้อความส่วนท้ายอยู่กึ่งกลาง
+//ExStepSummary:3: เขียนข้อความป้าย "Page " แล้วแทรกฟิลด์ PAGE ที่แสดงเลขหน้าปัจจุบัน
+//ExStepSummary:4: เขียน " of " แล้วแทรกฟิลด์ NUMPAGES ที่แสดงจำนวนหน้าทั้งหมด
+//ExStepSummary:5: บันทึกเอกสารเป็นไฟล์ .docx
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

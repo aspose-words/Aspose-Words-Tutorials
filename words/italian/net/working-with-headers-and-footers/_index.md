@@ -23,6 +23,9 @@
 
 {{< tutorial-card link="./insert-header-date/" title="Inserisci una Data Dinamica nell'Intestazione di un Documento Word usando Aspose.Words per .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-page-numbers/" title="Aggiungi numeri di pagina al piè di pagina di un documento Word usando Aspose.Words per .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Titolo | Descrizione |
 | --- | --- |
 | [Crea intestazione piè di pagina](./create-header-footer/) | Scopri come creare intestazioni e piè di pagina nei tuoi documenti Word con Aspose.Words per .NET. Personalizza intestazioni e piè di pagina per ogni pagina. |

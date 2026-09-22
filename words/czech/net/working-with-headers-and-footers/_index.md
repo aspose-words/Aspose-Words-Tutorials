@@ -23,6 +23,9 @@ Zpracování textu se záhlavími a zápatími je komplexní zdroj pro výuku ma
 
 {{< tutorial-card link="./insert-header-date/" title="Vložení dynamického data do záhlaví v dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-page-numbers/" title="Přidejte čísla stránek do zápatí Word dokumentu pomocí Aspose.Words pro .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Název | Popis |
 | --- | --- |
 | [Vytvořit záhlaví a zápatí](./create-header-footer/) | Naučte se, jak vytvářet záhlaví a zápatí v dokumentech Wordu pomocí Aspose.Words pro .NET. Přizpůsobte si záhlaví a zápatí pro každou stránku. |

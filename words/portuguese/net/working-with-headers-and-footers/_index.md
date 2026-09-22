@@ -23,6 +23,9 @@ Processamento de Texto com Cabeçalhos e Rodapés é um recurso abrangente para 
 
 {{< tutorial-card link="./insert-header-date/" title="Inserir Data Dinâmica no Cabeçalho de Documento Word Usando Aspose.Words para .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-page-numbers/" title="Adicionar números de página ao rodapé de um documento Word usando Aspose.Words para .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Título | Descrição |
 | --- | --- |
 | [Criar Cabeçalho Rodapé](./create-header-footer/) | Aprenda a criar cabeçalhos e rodapés em seus documentos do Word com o Aspose.Words para .NET. Personalize cabeçalhos e rodapés para cada página. |
