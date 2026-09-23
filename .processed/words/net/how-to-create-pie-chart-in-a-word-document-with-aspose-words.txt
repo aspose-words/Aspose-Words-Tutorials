@@ -1,0 +1,7 @@
+Title: How to create pie chart in a Word document with Aspose.Words
+Slug: how-to-create-pie-chart-in-a-word-document-with-aspose-words
+Category: programming-with-charts
+ProcessedDate: 2026-09-21T15:45:09.908289
+SourceRepo: AI Search API
+Keywords: create pie chart, insert chart into word, add data labels to pie chart, show percentages on pie chart, how to display percentages in chart
+PRNumber: 282

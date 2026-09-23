@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Bu öğretici, yeni bir Word belgesi oluşturmayı, DocumentBuilder ile bir onay kutusu form alanı eklemeyi ve ortaya çıkan dosyayı kaydetmeyi gösterir.
+//ExStepSummary:0: Bir veri dizini değişkeni oluşturun, bir Document örneği oluşturun ve o belge için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Mevcut imleç konumunda \"CheckBox\" adlı, işaretli ve etkin bir onay kutusu form alanı eklemek için `builder.InsertCheckBox` çağırın.
+//ExStepSummary:2: Değiştirilmiş belgeyi `doc.Save` kullanarak belirtilen klasöre kaydedin.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

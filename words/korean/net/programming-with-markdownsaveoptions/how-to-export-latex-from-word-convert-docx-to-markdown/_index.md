@@ -1,23 +1,24 @@
 ---
 category: general
-date: 2026-02-23
-description: Aspose.Words를 사용하여 Word 문서에서 LaTeX를 내보내고 DOCX를 Markdown으로 저장하는 방법 – 빠른
-  코드‑우선 가이드.
+date: 2026-01-13
+description: Aspose.Words를 사용하여 Word에서 LaTeX를 내보내는 방법 – DOCX를 마크다운으로 변환하고 마크다운 파일을
+  빠르게 저장하는 방법을 배워보세요.
 draft: false
 keywords:
 - how to export latex
 - convert word to markdown
+- convert docx to markdown
+- how to save markdown
 - save docx as markdown
-- docx to markdown aspose
 language: ko
-og_description: Aspose.Words를 사용하여 Word 파일에서 LaTeX를 내보내고 Markdown으로 저장하는 방법. 깔끔한 LaTeX
-  출력을 얻기 위한 단계별 가이드를 따라보세요.
+og_description: Aspose.Words를 사용하여 Word에서 LaTeX를 내보내는 방법. 이 가이드는 DOCX를 마크다운으로 변환하고
+  마크다운 파일을 효율적으로 저장하는 방법을 보여줍니다.
 og_title: Word에서 LaTeX 내보내는 방법 – DOCX를 Markdown으로 변환
 tags:
-- aspose
-- csharp
-- markdown
-- latex
+- Aspose.Words
+- C#
+- Markdown
+- LaTeX
 title: Word에서 LaTeX 내보내는 방법 – DOCX를 Markdown으로 변환
 url: /ko/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/
 ---
@@ -28,181 +29,156 @@ url: /ko/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-
 
 # Word에서 LaTeX 내보내기 – DOCX를 Markdown으로 변환
 
-Word 파일에서 LaTeX를 내보내는 방법은 고품질 수학을 문서에 포함해야 하는 개발자들 사이에서 흔히 요청되는 내용입니다. 이 튜토리얼에서는 Aspose.Words를 사용해 **Word를 Markdown으로 변환**하면서 LaTeX를 정확히 내보내는 방법을 보여드리며, 편집 가능한 LaTeX 수식이 포함된 깔끔한 `.md` 파일을 얻을 수 있습니다.
+Word 문서에서 **LaTeX를 내보내는 방법**을 수동으로 수식 하나씩 복사하지 않고도 궁금하셨나요? 당신만 그런 것이 아닙니다. 많은 개발자들이 Office Math 수식을 정적 사이트나 Markdown 기반 과학 논문으로 옮겨야 할 때 벽에 부딪히곤 합니다.  
 
-Word에서 수식을 복사‑붙여넣기 해서 GitHub README에 넣었는데 흐릿한 이미지가 나오신 적 있나요? 이는 Word가 OfficeMath 객체를 독점적인 바이너리 블롭으로 저장하기 때문입니다. 해당 객체를 LaTeX로 내보내면 의미를 보존하고, 수식을 검색 가능하게 만들며, LaTeX를 지원하는 어떤 편집기에서도 편집할 수 있습니다.
+좋은 소식은? 몇 줄의 C# 코드와 강력한 **Aspose.Words** 라이브러리만 있으면 *Word를 Markdown으로 변환*하는 작업을 순식간에 할 수 있고, 수식은 깨끗한 LaTeX 문자열로 표시되어 어떤 렌더러에서도 바로 사용할 수 있습니다. 이 튜토리얼에서는 패키지 설치부터 출력 확인까지 필요한 모든 과정을 단계별로 안내하므로 **docx를 markdown으로 저장**하는 작업을 금방 마칠 수 있습니다.
 
-### 얻을 수 있는 것:
+## 배울 내용
 
-* `.docx`를 로드하고, 올바른 옵션을 설정한 뒤 Markdown 파일을 작성하는 완전한 실행 가능한 C# 프로그램
-* 수식이 많은 Markdown에 LaTeX 내보내기가 **왜** 선호되는 포맷인지에 대한 이해
-* 혼합 콘텐츠, 사용자 정의 폰트, 대용량 문서와 같은 엣지 케이스를 처리하는 팁
+- .NET 프로젝트에 Aspose.Words를 설치하고 참조하는 방법  
+- Office Math가 포함된 `.docx`를 로드하는 방법  
+- 수식을 LaTeX로 내보내도록 `MarkdownSaveOptions`를 구성하는 방법  
+- **markdown 파일**을 프로그래밍 방식으로 저장하고 결과를 확인하는 방법  
+- 폰트 누락이나 대용량 문서와 같은 엣지 케이스를 처리하는 팁  
 
-> **Prerequisites** – .NET 6+ (또는 .NET Framework 4.7+), **Aspose.Words for .NET** 라이선스가 있는 사본, 그리고 C#에 대한 기본적인 이해가 필요합니다. 다른 서드‑파티 도구는 필요하지 않습니다.
+Aspose 사용 경험은 필요 없으며, C# 및 .NET에 대한 기본 이해만 있으면 충분합니다.
 
 ---
 
-## Word에서 LaTeX를 Markdown으로 내보내는 방법
+## 1단계: Aspose.Words for .NET 설치
 
-이 섹션이 가이드의 핵심입니다. 아래에서는 과정을 단계별로 나누어 설명하고, 각 코드 라인 뒤에 이유를 덧붙이며, 흔히 발생하는 함정들을 짚어봅니다.
-
-### Step 1 – Install Aspose.Words
-
-먼저, 무거운 작업을 수행해줄 라이브러리가 필요합니다. NuGet에서 가져올 수 있습니다:
+코드를 작성하기 전에 무거운 작업을 수행해줄 라이브러리가 필요합니다.
 
 ```bash
+# Using the .NET CLI
 dotnet add package Aspose.Words
 ```
 
-*왜 NuGet인가?* 트랜시티브 종속성을 자동으로 해결하고 프로젝트를 깔끔하게 유지해 주기 때문입니다. Visual Studio를 사용한다면 패키지 관리자 UI도 동일하게 작동합니다.
+> **Pro tip:** Visual Studio를 사용한다면 NuGet Package Manager UI를 통해 패키지를 추가할 수도 있습니다. “Aspose.Words”를 검색하고 *Install* 버튼을 누르세요.
 
-> **Pro tip:** 최신 안정 버전(2026년 2월 현재 23.11)을 사용하면 OfficeMath 처리와 관련된 버그 수정 혜택을 받을 수 있습니다.
+왜 이 단계가 중요한가: Aspose.Words는 복잡한 OpenXML 파싱을 추상화하고 Markdown(LaTeX 수식 포함)으로 내보내는 간단한 API를 제공합니다. 패키지를 설치하지 않으면 컴파일 오류가 발생합니다.
 
-### Step 2 – Load the Source DOCX
+---
 
-이제 수식이 들어있는 Word 파일을 엽니다. `Document` 클래스는 전체 패키지를 추상화하여 단락, 표, 그리고 핵심인 **OfficeMath** 노드에 랜덤 액세스를 제공합니다.
+## 2단계: 원본 Word 문서 불러오기
+
+라이브러리가 준비되었으니 이제 `.docx`를 메모리로 불러옵니다.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
 
-// Replace with the actual path to your .docx
-string inputPath = @"C:\Projects\Docs\input.docx";
+// Replace with the path to your actual file
+string inputPath = @"C:\Docs\input.docx";
 
-Document doc = new Document(inputPath);
+Document document = new Document(inputPath);
 ```
 
-*무슨 일이 일어나나요?* 생성자는 Open XML 패키지를 파싱하고, 메모리 내 객체 모델을 구축하며, 파일을 검증합니다. 파일이 손상된 경우 즉시 `FileCorruptedException`이 발생하므로, 나중에 조용히 실패하는 상황보다 디버깅이 훨씬 쉽습니다.
+*무슨 일이 일어나고 있나요?* `Document` 생성자는 파일을 읽어 객체 모델을 구축하고, 모든 단락, 표, Office Math 객체를 API를 통해 접근할 수 있게 합니다. 파일에 이미지나 복잡한 레이아웃이 포함돼 있어도 Aspose.Words는 나중에 내보낼 때 이를 보존합니다.
 
-### Step 3 – Configure MarkdownSaveOptions for LaTeX Export
+> **Edge case:** 파일이 비밀번호로 보호돼 있다면 `new Document(inputPath, new LoadOptions { Password = "yourPwd" })` 오버로드를 사용하세요.
 
-여기가 마법이 일어나는 부분입니다. `MarkdownSaveOptions`를 사용하면 OfficeMath 객체가 Markdown으로 변환되는 방식을 지정할 수 있습니다. `OfficeMathExportMode`를 **LaTeX**로 설정하면 Aspose가 래스터 이미지 대신 인라인 `$…$` 혹은 디스플레이 `$$…$$` 블록을 생성합니다.
+---
+
+## 3단계: LaTeX 내보내기를 위한 Markdown 저장 옵션 구성
+
+기본적으로 Aspose.Words는 Markdown 저장 시 수식을 이미지로 덤프합니다. 우리는 LaTeX가 필요하므로 `OfficeMathExportMode`를 조정합니다.
 
 ```csharp
-MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+using Aspose.Words.Saving;
+
+// Create options object and tell Aspose to use LaTeX
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Export OfficeMath as LaTeX – the most portable math format for Markdown
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-
-    // Optional: keep the original line breaks for better diff‑ability
-    ExportImagesAsBase64 = false,
-
-    // Optional: preserve original heading levels
-    ExportHeadersAsHtml = false
+    // This is the key line – it converts Office Math to LaTeX strings
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
 };
 ```
 
-*왜 LaTeX인가?* LaTeX는 과학 출판의 공통 언어이기 때문입니다. GitHub, GitLab, MkDocs와 같은 Markdown 프로세서는 LaTeX를 기본적으로(또는 MathJax를 통해) 이해합니다. `Image`를 선택하면 PNG가 생성되어 저장소가 부풀고 검색이 불가능해집니다.
-
-### Step 4 – Save the Document as Markdown
-
-마지막으로 변환된 내용을 `.md` 파일에 기록합니다. PDF를 저장할 때 사용한 동일한 `Save` 메서드에 다른 포맷 식별자를 지정하면 됩니다.
-
-```csharp
-string outputPath = @"C:\Projects\Docs\output.md";
-
-doc.Save(outputPath, mdOptions);
-Console.WriteLine($"✅ Markdown file with LaTeX equations saved to {outputPath}");
-```
-
-`output.md`를 열면 다음과 같은 내용이 보일 것입니다:
-
-```markdown
-Here is an inline equation $E = mc^2$ embedded in a paragraph.
-
-$$
-\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
-$$
-```
-
-이것이 **예상 출력**이며, 순수 LaTeX가 일반 텍스트 파일 안에 들어 있습니다.
-
-### Step 5 – Verify the Result (Optional but Recommended)
-
-특히 CI 파이프라인의 일부로 자동화할 경우, 변환이 성공했는지 프로그램matically 확인하는 습관을 들이는 것이 좋습니다.
-
-```csharp
-string markdownContent = File.ReadAllText(outputPath);
-bool containsLatex = markdownContent.Contains(@"$") || markdownContent.Contains(@"$$");
-Console.WriteLine(containsLatex
-    ? "✅ LaTeX detected in Markdown."
-    : "⚠️ No LaTeX found – check OfficeMathExportMode.");
-```
-
-검사가 실패한다면, 소스 Word 파일에 **OfficeMath** 객체(일반 텍스트 수식이 아님)가 포함되어 있는지, 그리고 Aspose 23.11 이상을 사용하고 있는지 다시 확인하세요.
+왜 `OfficeMathExportMode`를 설정하나요? 이 열거형에는 `Image`, `MathML`, `LaTeX` 세 가지 값이 있습니다. LaTeX는 과학 출판에 가장 포터블하며, 대부분의 정적 사이트 생성기가 바로 지원합니다.
 
 ---
 
-## Aspose.Words로 Word를 Markdown으로 변환 – 전체 예제
+## 4단계: 문서를 Markdown 파일로 저장
 
-전체 과정을 하나의 독립 실행형 프로그램으로 정리하면 다음과 같습니다. 콘솔 앱에 바로 넣고 실행할 수 있습니다.
+옵션을 준비했으니 이제 Markdown 파일을 실제로 저장합니다.
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
+// Destination path for the Markdown output
+string outputPath = @"C:\Docs\output.md";
 
-class Program
+document.Save(outputPath, markdownOptions);
+```
+
+이 코드를 실행하면 원본 DOCX와 같은 폴더에 `output.md`가 생성됩니다. 텍스트 편집기로 열면 다음과 같은 내용이 보일 것입니다:
+
+```markdown
+# Sample Equation
+
+Here is an inline equation $E = mc^2$ and a displayed one:
+
+$$
+\int_{a}^{b} f(x)\,dx = F(b) - F(a)
+$$
+```
+
+수식이 `$…$` 혹은 `$$…$$` 로 감싼 순수 LaTeX 형태로 표시되는 것을 확인할 수 있습니다. 바로 우리가 원한 결과입니다.
+
+> **다른 Markdown 변형이 필요하다면?**  
+> Aspose.Words는 `MarkdownSaveOptions`의 `MarkdownDocumentType` 속성을 통해 CommonMark와 GitHub‑flavored Markdown을 지원합니다. 파이프라인이 특정 문법을 요구한다면 `Save` 호출 전에 해당 속성을 조정하세요.
+
+---
+
+## 5단계: 결과 및 일반적인 문제점 확인
+
+### 간단한 검증
+
+```csharp
+Console.WriteLine(File.ReadAllText(outputPath));
+```
+
+위 스니펫을 실행하면 콘솔에 Markdown이 출력됩니다—개발 중 빠른 검증에 유용합니다.
+
+### 일반적인 문제 및 해결 방법
+
+| 문제 | 예상 원인 | 해결 방법 |
+|-------|--------------|-----|
+| 수식이 이미지로 표시됨 | `OfficeMathExportMode`가 기본값(`Image`)으로 남아 있음 | `OfficeMathExportMode = OfficeMathExportMode.LaTeX` 로 설정 |
+| LaTeX 기호가 깨짐 | DOCX가 생성된 시스템에 폰트가 없음 | 원본 Office 폰트를 설치하거나 DOCX에 폰트를 임베드 |
+| 대용량 문서가 오래 걸림 | 스트리밍 없이 전체 문서를 메모리에 로드 | `LoadOptions { LoadFormat = LoadFormat.Docx, MemoryUsage = MemoryUsage.Limit }` 사용해 메모리 압력 감소 |
+
+---
+
+## 보너스: 여러 파일에 대한 전체 프로세스 자동화
+
+폴더에 Word 파일이 많이 있다면 작은 루프를 이용해 일괄 변환할 수 있습니다:
+
+```csharp
+string sourceFolder = @"C:\Docs\WordFiles";
+string targetFolder = @"C:\Docs\Markdown";
+
+foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 {
-    static void Main()
-    {
-        // 👉 1️⃣ Install Aspose.Words via NuGet before running this code.
-
-        // 👉 2️⃣ Define input and output paths.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-
-        // 👉 3️⃣ Load the DOCX.
-        Document doc = new Document(inputPath);
-
-        // 👉 4️⃣ Set up Markdown options – LaTeX is the key.
-        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-        {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 👉 5️⃣ Save as Markdown.
-        doc.Save(outputPath, mdOptions);
-        Console.WriteLine($"✅ Document converted: {outputPath}");
-
-        // 👉 6️⃣ Quick verification.
-        string md = File.ReadAllText(outputPath);
-        Console.WriteLine(md.Contains("$") ? "✅ LaTeX present." : "⚠️ No LaTeX found.");
-    }
+    var doc = new Document(file);
+    string fileName = Path.GetFileNameWithoutExtension(file);
+    string mdPath = Path.Combine(targetFolder, $"{fileName}.md");
+    doc.Save(mdPath, markdownOptions);
+    Console.WriteLine($"Converted {fileName}.docx → {fileName}.md");
 }
 ```
 
-> **Note:** `YOUR_DIRECTORY`를 실제 머신의 폴더 경로로 교체하세요. 프로그램은 성공 메시지와 간단한 검증 라인을 출력하므로, 문제가 발생했는지 즉시 확인할 수 있습니다.
+이제 **docx를 markdown으로 대량 변환**할 수 있어 문서 팀에게 큰 시간 절약이 됩니다.
 
 ---
 
-## Aspose를 사용해 DOCX를 Markdown으로 저장할 때 흔히 겪는 함정
+## 결론
 
-| Symptom | Likely Cause | Fix |
-|---------|--------------|-----|
-| 수식이 PNG 이미지로 표시됨 | `OfficeMathExportMode`가 기본값(`Image`) 그대로 | `OfficeMathExportMode = OfficeMathExportMode.LaTeX` 로 설정 |
-| LaTeX 블록이 누락됨 | 소스 파일이 “Equation Editor”(레거시) 사용 | Word 2016+ 내장 **Equation** 도구로 수식 재작성 |
-| 출력 파일이 비어 있음 | 경로 오류 또는 권한 부족 | `outputPath`가 쓰기 가능한지, 디렉터리가 존재하는지 확인 |
-| 특수 문자가 잘못 이스케이프됨 | 오래된 Aspose 버전(< 22.8) 사용 | 최신 안정 릴리스로 업그레이드 |
+Aspose.Words를 사용해 Word 문서에서 **LaTeX를 내보내는 방법**을 설치부터 엣지 케이스 처리, 배치 처리까지 모두 다루었습니다. `MarkdownSaveOptions`에 `OfficeMathExportMode.LaTeX`를 설정하면 **word를 markdown으로 변환**하면서 수식을 깔끔한 LaTeX 형태로 유지하고, 정적 사이트 생성기, Jupyter Notebook, 혹은 LaTeX‑aware 렌더러와 원활히 호환되는 **markdown 파일**을 저장할 수 있습니다.
 
----
+다음 단계는? Markdown 출력 스타일을 커스터마이징하거나 GitHub‑flavored 구문을 위해 `MarkdownDocumentType`을 실험해 보세요. 혹은 이 스니펫을 CI 파이프라인에 통합해 Word 소스로부터 자동으로 문서를 생성하도록 해보세요. 기본을 마스터하면 가능성은 무한합니다.
 
-## Expected Output – Visual Example
+행복한 코딩 되시고, 수식이 언제나 완벽히 렌더링되길 바랍니다! 
 
-아래는 VS Code에서 연 `output.md`의 스크린샷입니다. Markdown 파일 안에 깔끔한 LaTeX 구문이 들어 있는 것을 확인할 수 있습니다.
-
-<img src="output.png" alt="Example of how to export latex from Word to Markdown using Aspose.Words">
-
-*(텍스트 전용으로 보시는 경우, 앞서 “예상 출력” 섹션에서 본 코드 스니펫이 코드 편집기 창에 표시된 모습을 상상해 보세요.)*
-
----
-
-## Conclusion
-
-이제 **Word 문서에서 LaTeX를 내보내고** **Aspose.Words를 사용해 DOCX를 Markdown으로 저장**하는 방법을 알게 되었습니다. 전체 솔루션—로드, 옵션 설정, 저장, 검증—은 몇 줄의 C# 코드로 구현 가능하며, 크기에 관계없이 모든 문서에 적용할 수 있습니다.
-
-다음 단계는?
+![LaTeX 수식이 표시된 output.md 스크린샷](output-example.png "output.md에 LaTeX 수식이 표시됨")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

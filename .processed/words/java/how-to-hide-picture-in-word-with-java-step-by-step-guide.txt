@@ -1,0 +1,7 @@
+Title: How to Hide Picture in Word with Java – Step‑by‑Step Guide
+Slug: how-to-hide-picture-in-word-with-java-step-by-step-guide
+Category: images-shapes
+ProcessedDate: 2026-07-29T16:05:00.673621
+SourceRepo: AI Search API
+Keywords: how to hide picture, hide shape in word
+PRNumber: 237

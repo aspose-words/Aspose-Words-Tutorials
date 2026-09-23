@@ -1,0 +1,7 @@
+Title: How to set tag name and add SDT in a Word document with C#
+Slug: how-to-set-tag-name-and-add-sdt-in-a-word-document-with-c
+Category: document-manipulation
+ProcessedDate: 2026-09-08T23:01:41.882468
+SourceRepo: AI Search API
+Keywords: set tag name, how to add sdt, modify word document, create content control, write text to tag
+PRNumber: 268

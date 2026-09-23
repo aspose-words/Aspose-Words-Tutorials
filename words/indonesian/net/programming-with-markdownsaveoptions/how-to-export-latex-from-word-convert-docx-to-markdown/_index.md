@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-02-23
-description: Cara mengekspor LaTeX dari dokumen Word dan menyimpan DOCX sebagai Markdown
-  menggunakan Aspose.Words – panduan cepat berbasis kode.
+date: 2026-01-13
+description: Cara mengekspor LaTeX dari Word menggunakan Aspose.Words – pelajari cara
+  mengonversi DOCX ke markdown dan menyimpan file markdown dengan cepat.
 draft: false
 keywords:
 - how to export latex
 - convert word to markdown
+- convert docx to markdown
+- how to save markdown
 - save docx as markdown
-- docx to markdown aspose
 language: id
-og_description: Cara mengekspor LaTeX dari file Word dan menyimpannya sebagai Markdown
-  menggunakan Aspose.Words. Ikuti panduan langkah demi langkah ini untuk mendapatkan
-  output LaTeX yang bersih.
+og_description: Cara mengekspor LaTeX dari Word dengan Aspose.Words. Panduan ini menunjukkan
+  cara mengonversi DOCX ke markdown dan menyimpan file markdown secara efisien.
 og_title: Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown
 tags:
-- aspose
-- csharp
-- markdown
-- latex
+- Aspose.Words
+- C#
+- Markdown
+- LaTeX
 title: Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown
 url: /id/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown/
 ---
@@ -29,181 +29,156 @@ url: /id/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-
 
 # Cara Mengekspor LaTeX dari Word – Mengonversi DOCX ke Markdown
 
-Cara mengekspor latex dari file Word adalah permintaan umum di antara pengembang yang membutuhkan matematika berkualitas tinggi dalam dokumentasi mereka. Dalam tutorial ini kami akan menunjukkan secara tepat cara mengekspor latex sambil **mengonversi Word ke Markdown** dengan Aspose.Words, sehingga Anda mendapatkan file `.md` yang bersih yang berisi persamaan LaTeX yang dapat diedit.
+Pernah bertanya-tanya **bagaimana cara mengekspor LaTeX** dari dokumen Word tanpa menyalin setiap persamaan secara manual? Anda bukan satu-satunya. Banyak pengembang mengalami kebuntuan ketika mereka perlu memindahkan persamaan Office Math ke situs statis atau makalah ilmiah yang berada dalam Markdown.  
 
-Pernah mencoba menyalin‑tempel sebuah persamaan dari Word ke README GitHub dan berakhir dengan gambar yang buram? Itu karena Word menyimpan objek OfficeMath sebagai blob biner proprietari. Dengan mengekspor objek tersebut sebagai LaTeX Anda mempertahankan semantik, membuat persamaan dapat dicari, dan tetap dapat diedit di editor yang mendukung LaTeX.
+Berita baik? Dengan beberapa baris C# dan pustaka **Aspose.Words** yang kuat, Anda dapat *mengonversi Word ke markdown* dalam sekejap, dan persamaan akan muncul sebagai string LaTeX bersih yang siap untuk renderer apa pun. Dalam tutorial ini kami akan membahas semua yang Anda perlukan—dari menginstal paket hingga memverifikasi output—sehingga Anda dapat **menyimpan docx sebagai markdown** dalam waktu singkat.
 
-Apa yang akan Anda dapatkan:
+## Apa yang Akan Anda Pelajari
 
-* Program C# lengkap yang dapat dijalankan yang memuat sebuah `.docx`, mengonfigurasi opsi yang tepat, dan menulis file Markdown.
-* Pemahaman tentang **mengapa** ekspor LaTeX adalah format yang disukai untuk Markdown yang banyak mengandung matematika.
-* Tips menangani kasus‑tepi seperti konten campuran, font khusus, dan dokumen besar.
+- Cara menginstal dan mereferensikan Aspose.Words dalam proyek .NET.  
+- Cara memuat `.docx` yang berisi Office Math.  
+- Cara mengkonfigurasi `MarkdownSaveOptions` untuk mengekspor persamaan sebagai LaTeX.  
+- Cara **menyimpan markdown** secara programatik dan memeriksa hasilnya.  
+- Tips untuk menangani edge‑cases seperti font yang hilang atau dokumen besar.  
 
-> **Prasyarat** – Anda memerlukan .NET 6+ (atau .NET Framework 4.7+), salinan berlisensi **Aspose.Words for .NET**, dan pemahaman dasar tentang C#. Tidak ada alat pihak ketiga lain yang diperlukan.
+Tidak diperlukan pengalaman sebelumnya dengan Aspose; pemahaman dasar tentang C# dan .NET sudah cukup.
 
 ---
 
-## Cara Mengekspor LaTeX dari Word ke Markdown
+## Langkah 1: Instal Aspose.Words untuk .NET
 
-Ini adalah inti panduan. Di bawah ini kami membagi proses menjadi langkah‑langkah kecil, menjelaskan alasan di balik setiap baris kode, dan menunjukkan jebakan umum.
-
-### Langkah 1 – Instal Aspose.Words
-
-Hal pertama yang perlu dilakukan, Anda memerlukan perpustakaan yang melakukan pekerjaan berat. Anda dapat mengunduhnya dari NuGet:
+Sebelum kita dapat menulis kode apa pun, kita memerlukan pustaka yang melakukan pekerjaan berat.
 
 ```bash
+# Using the .NET CLI
 dotnet add package Aspose.Words
 ```
 
-*Mengapa NuGet?* Karena ia secara otomatis menyelesaikan semua dependensi transitif dan menjaga proyek Anda tetap rapi. Jika Anda menggunakan Visual Studio, UI Package Manager juga berfungsi dengan baik.
+> **Pro tip:** Jika Anda menggunakan Visual Studio, Anda juga dapat menambahkan paket melalui UI NuGet Package Manager. Cukup cari “Aspose.Words” dan klik *Install*.
 
-> **Tip pro:** Gunakan versi stabil terbaru (per Feb 2026 versi 23.11) untuk mendapatkan perbaikan bug terkait penanganan OfficeMath.
+Mengapa langkah ini penting: Aspose.Words menyembunyikan parsing OpenXML yang kompleks dan memberi kita API sederhana untuk mengekspor Markdown, termasuk persamaan LaTeX. Melewatkan instalasi paket jelas akan menghasilkan error pada waktu kompilasi.
 
-### Langkah 2 – Muat DOCX Sumber
+---
 
-Sekarang kami membuka file Word yang berisi persamaan. Kelas `Document` mengabstraksi seluruh paket, memberi Anda akses acak ke paragraf, tabel, dan yang paling penting, node **OfficeMath**.
+## Langkah 2: Muat Dokumen Word Sumber
+
+Sekarang pustaka sudah siap, mari kita bawa `.docx` ke memori.
 
 ```csharp
 using Aspose.Words;
-using Aspose.Words.Saving;
 
-// Replace with the actual path to your .docx
-string inputPath = @"C:\Projects\Docs\input.docx";
+// Replace with the path to your actual file
+string inputPath = @"C:\Docs\input.docx";
 
-Document doc = new Document(inputPath);
+Document document = new Document(inputPath);
 ```
 
-*Apa yang terjadi?* Konstruktor mem-parsing paket Open XML, membangun model objek dalam memori, dan memvalidasi file. Jika file rusak Anda akan langsung mendapatkan `FileCorruptedException`—jauh lebih mudah untuk debug dibandingkan kegagalan diam-diam nanti.
+*Apa yang terjadi di sini?* Konstruktor `Document` membaca file, membangun model objek, dan membuat setiap paragraf, tabel, serta objek Office Math dapat diakses melalui API. Jika file berisi gambar atau tata letak kompleks, Aspose.Words akan mempertahankannya untuk ekspor selanjutnya.
 
-### Langkah 3 – Konfigurasikan MarkdownSaveOptions untuk Ekspor LaTeX
+> **Edge case:** Jika file dilindungi kata sandi, gunakan overload `new Document(inputPath, new LoadOptions { Password = "yourPwd" })`.
 
-Di sinilah keajaiban terjadi. `MarkdownSaveOptions` memungkinkan Anda menentukan bagaimana objek OfficeMath diubah menjadi Markdown. Menetapkan `OfficeMathExportMode` ke **LaTeX** memberi tahu Aspose untuk menghasilkan inline `$…$` atau blok tampilan `$$…$$` alih‑alih gambar raster.
+---
+
+## Langkah 3: Konfigurasikan Markdown Save Options untuk Ekspor LaTeX
+
+Secara default, Aspose.Words akan mengekspor persamaan sebagai gambar saat menyimpan ke Markdown. Kita menginginkan LaTeX sebagai gantinya, jadi kita mengubah `OfficeMathExportMode`.
 
 ```csharp
-MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
+using Aspose.Words.Saving;
+
+// Create options object and tell Aspose to use LaTeX
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
 {
-    // Export OfficeMath as LaTeX – the most portable math format for Markdown
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-
-    // Optional: keep the original line breaks for better diff‑ability
-    ExportImagesAsBase64 = false,
-
-    // Optional: preserve original heading levels
-    ExportHeadersAsHtml = false
+    // This is the key line – it converts Office Math to LaTeX strings
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX
 };
 ```
 
-*Mengapa LaTeX?* Karena LaTeX adalah lingua franca penerbitan ilmiah. Processor Markdown seperti GitHub, GitLab, dan MkDocs memahami LaTeX secara langsung (atau melalui MathJax). Jika Anda memilih `Image`, Anda akan berakhir dengan PNG yang memperberat repositori dan tidak dapat dicari.
-
-### Langkah 4 – Simpan Dokumen sebagai Markdown
-
-Akhirnya, kami menulis konten yang telah diubah ke file `.md`. Metode `Save` yang sama yang Anda gunakan untuk menulis PDF berfungsi di sini, hanya dengan identifier format yang berbeda.
-
-```csharp
-string outputPath = @"C:\Projects\Docs\output.md";
-
-doc.Save(outputPath, mdOptions);
-Console.WriteLine($"✅ Markdown file with LaTeX equations saved to {outputPath}");
-```
-
-Saat Anda membuka `output.md` Anda akan melihat sesuatu seperti:
-
-```markdown
-Here is an inline equation $E = mc^2$ embedded in a paragraph.
-
-$$
-\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
-$$
-```
-
-Itulah **output yang diharapkan**—LaTeX murni di dalam file teks biasa.
-
-### Langkah 5 – Verifikasi Hasil (Opsional tetapi Disarankan)
-
-Ini kebiasaan yang baik untuk secara programatis memastikan konversi berhasil, terutama ketika Anda mengotomatisasi ini sebagai bagian dari pipeline CI.
-
-```csharp
-string markdownContent = File.ReadAllText(outputPath);
-bool containsLatex = markdownContent.Contains(@"$") || markdownContent.Contains(@"$$");
-Console.WriteLine(containsLatex
-    ? "✅ LaTeX detected in Markdown."
-    : "⚠️ No LaTeX found – check OfficeMathExportMode.");
-```
-
-Jika pemeriksaan gagal, periksa kembali bahwa Word sumber Anda benar‑benar berisi objek **OfficeMath** (bukan persamaan teks biasa) dan bahwa Anda menggunakan Aspose 23.11 atau yang lebih baru.
+Mengapa mengatur `OfficeMathExportMode`? Enum ini memiliki tiga nilai: `Image`, `MathML`, dan `LaTeX`. LaTeX adalah yang paling portabel untuk penerbitan ilmiah, dan kebanyakan generator situs statis sudah memahaminya secara langsung.
 
 ---
 
-## Konversi Word ke Markdown dengan Aspose.Words – Contoh Lengkap
+## Langkah 4: Simpan Dokumen sebagai File Markdown
 
-Menggabungkan semuanya, berikut program tunggal yang berdiri sendiri yang dapat Anda masukkan ke dalam aplikasi konsol dan jalankan segera.
+Dengan opsi yang sudah disiapkan, kita akhirnya dapat menulis file Markdown.
 
 ```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
+// Destination path for the Markdown output
+string outputPath = @"C:\Docs\output.md";
 
-class Program
+document.Save(outputPath, markdownOptions);
+```
+
+Setelah baris ini dijalankan, Anda akan menemukan `output.md` di samping DOCX asli Anda. Buka di editor teks apa pun dan Anda akan melihat sesuatu seperti:
+
+```markdown
+# Sample Equation
+
+Here is an inline equation $E = mc^2$ and a displayed one:
+
+$$
+\int_{a}^{b} f(x)\,dx = F(b) - F(a)
+$$
+```
+
+Perhatikan bagaimana persamaan muncul sebagai LaTeX mentah yang dibungkus dalam `$…$` atau `$$…$$`. Itu persis seperti yang kita minta.
+
+> **Bagaimana jika Anda membutuhkan varian Markdown yang berbeda?**  
+> Aspose.Words mendukung CommonMark dan GitHub‑flavored Markdown melalui properti `MarkdownDocumentType` pada `MarkdownSaveOptions`. Sesuaikan sebelum memanggil `Save` jika pipeline Anda mengharapkan sintaks tertentu.
+
+---
+
+## Langkah 5: Verifikasi Hasil dan Kesalahan Umum
+
+### Pemeriksaan cepat
+
+```csharp
+Console.WriteLine(File.ReadAllText(outputPath));
+```
+
+Menjalankan potongan kode ini mencetak Markdown ke konsol—bagus untuk validasi cepat selama pengembangan.
+
+### Masalah umum dan solusi
+
+| Issue | Likely cause | Fix |
+|-------|--------------|-----|
+| Persamaan muncul sebagai gambar | `OfficeMathExportMode` dibiarkan pada default (`Image`) | Setel `OfficeMathExportMode = OfficeMathExportMode.LaTeX` |
+| Simbol LaTeX menjadi rusak | Font yang hilang di sistem tempat DOCX dibuat | Instal font Office asli atau sematkan dalam DOCX sebelum konversi |
+| Dokumen besar memakan waktu terlalu lama | Tidak ada streaming, seluruh dokumen dimuat ke memori | Gunakan `LoadOptions { LoadFormat = LoadFormat.Docx, MemoryUsage = MemoryUsage.Limit }` untuk mengurangi tekanan memori |
+
+---
+
+## Bonus: Mengotomatiskan Seluruh Proses untuk Banyak File
+
+Jika Anda memiliki folder berisi banyak file Word, loop kecil dapat mengonversi mereka secara batch:
+
+```csharp
+string sourceFolder = @"C:\Docs\WordFiles";
+string targetFolder = @"C:\Docs\Markdown";
+
+foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 {
-    static void Main()
-    {
-        // 👉 1️⃣ Install Aspose.Words via NuGet before running this code.
-
-        // 👉 2️⃣ Define input and output paths.
-        string inputPath = @"YOUR_DIRECTORY\input.docx";
-        string outputPath = @"YOUR_DIRECTORY\output.md";
-
-        // 👉 3️⃣ Load the DOCX.
-        Document doc = new Document(inputPath);
-
-        // 👉 4️⃣ Set up Markdown options – LaTeX is the key.
-        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-        {
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX
-        };
-
-        // 👉 5️⃣ Save as Markdown.
-        doc.Save(outputPath, mdOptions);
-        Console.WriteLine($"✅ Document converted: {outputPath}");
-
-        // 👉 6️⃣ Quick verification.
-        string md = File.ReadAllText(outputPath);
-        Console.WriteLine(md.Contains("$") ? "✅ LaTeX present." : "⚠️ No LaTeX found.");
-    }
+    var doc = new Document(file);
+    string fileName = Path.GetFileNameWithoutExtension(file);
+    string mdPath = Path.Combine(targetFolder, $"{fileName}.md");
+    doc.Save(mdPath, markdownOptions);
+    Console.WriteLine($"Converted {fileName}.docx → {fileName}.md");
 }
 ```
 
-> **Catatan:** Ganti `YOUR_DIRECTORY` dengan folder sebenarnya di mesin Anda. Program mencetak pesan keberhasilan dan baris verifikasi kecil, sehingga Anda langsung tahu jika ada yang salah.
-
----
-
-## Jebakan Umum Saat Menyimpan DOCX sebagai Markdown dengan Aspose
-
-| Gejala | Penyebab Kemungkinan | Perbaikan |
-|--------|----------------------|-----------|
-| Persamaan muncul sebagai gambar PNG | `OfficeMathExportMode` dibiarkan pada default (`Image`) | Setel `OfficeMathExportMode = OfficeMathExportMode.LaTeX` |
-| Blok LaTeX tidak muncul | File sumber menggunakan “Equation Editor” (warisan) alih‑alih OfficeMath | Buat ulang persamaan menggunakan alat **Equation** bawaan di Word 2016+ |
-| File output kosong | Path salah atau izin tidak cukup | Verifikasi `outputPath` dapat ditulis dan direktori ada |
-| Karakter khusus ter‑escape secara tidak tepat | Menggunakan versi Aspose lama (< 22.8) | Upgrade ke rilis stabil terbaru |
-
----
-
-## Output yang Diharapkan – Contoh Visual
-
-Di bawah ini adalah tangkapan layar `output.md` yang dihasilkan dibuka di VS Code. Perhatikan sintaks LaTeX yang bersih di dalam file Markdown.
-
-<img src="output.png" alt="Contoh cara mengekspor latex dari Word ke Markdown menggunakan Aspose.Words">
-
-*(Jika Anda membaca ini dalam teks biasa, bayangkan jendela editor kode yang menampilkan potongan dari bagian “output yang diharapkan” sebelumnya.)*
+Sekarang Anda dapat **mengonversi docx ke markdown** secara massal, yang merupakan penghemat waktu besar bagi tim dokumentasi.
 
 ---
 
 ## Kesimpulan
 
-Anda kini tahu **cara mengekspor latex** dari dokumen Word dan **menyimpan DOCX sebagai Markdown** menggunakan Aspose.Words. Solusi lengkap—memuat, mengonfigurasi, menyimpan, dan memverifikasi—termasuk dalam beberapa baris kode C# dan berfungsi untuk dokumen berukuran apa pun.
+Kami telah membahas semua yang perlu Anda ketahui tentang **cara mengekspor LaTeX** dari dokumen Word menggunakan Aspose.Words, mulai dari menginstal pustaka hingga menangani edge case dan pemrosesan batch. Dengan mengkonfigurasi `MarkdownSaveOptions` dengan `OfficeMathExportMode.LaTeX`, Anda dapat secara andal **mengonversi word ke markdown**, menjaga persamaan Anda sebagai LaTeX bersih, dan **menyimpan markdown** yang kompatibel dengan generator situs statis, notebook Jupyter, atau renderer apa pun yang mendukung LaTeX.
 
-Langkah selanjutnya?
+Langkah selanjutnya? Cobalah menyesuaikan gaya output Markdown, bereksperimen dengan `MarkdownDocumentType` untuk sintaks GitHub‑flavored, atau integrasikan potongan kode ini ke dalam pipeline CI yang secara otomatis menghasilkan dokumentasi dari sumber Word. Langit adalah batasnya setelah Anda menguasai dasar-dasarnya.
+
+Selamat coding, semoga persamaan Anda selalu ter-render dengan sempurna! 
+
+![Screenshot of output.md showing LaTeX equations](output-example.png "output.md displaying LaTeX equations")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

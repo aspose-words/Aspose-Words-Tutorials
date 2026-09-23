@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: این آموزش نشان می‌دهد چگونه یک سند Word جدید ایجاد کنید، یک فیلد فرم چک‌باکس را با DocumentBuilder وارد کنید و فایل حاصل را ذخیره کنید.
+//ExStepSummary:0: یک متغیر برای مسیر پوشه داده‌ها ایجاد کنید، یک شیء Document را نمونه‌سازی کنید و برای آن سند یک DocumentBuilder بسازید.
+//ExStepSummary:1: متد `builder.InsertCheckBox` را فراخوانی کنید تا یک فیلد فرم چک‌باکس فعال و علامت‌خورده به نام "CheckBox" در موقعیت فعلی مکان‌نما اضافه شود.
+//ExStepSummary:2: سند اصلاح‌شده را با استفاده از `doc.Save` در پوشهٔ مشخص شده ذخیره کنید.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

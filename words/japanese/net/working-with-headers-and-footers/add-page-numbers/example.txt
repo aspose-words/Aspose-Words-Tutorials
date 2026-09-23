@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Aspose.Words の Document と DocumentBuilder を使用して、このチュートリアルは Word 文書のプライマリフッターに自動更新されるページ番号を追加します。
+//ExStepSummary:0: 新しい Document オブジェクトを作成し、それに紐付く DocumentBuilder を作成します。
+//ExStepSummary:1: builder のカーソルを最初のセクションのプライマリフッターへ移動します。
+//ExStepSummary:2: 段落の配置を中央に設定し、フッターテキストをセンタリングします。
+//ExStepSummary:3: ラベル "Page " を書き込み、現在のページ番号を表示する PAGE フィールドを挿入します。
+//ExStepSummary:4: " of " を書き込み、総ページ数を示す NUMPAGES フィールドを挿入します。
+//ExStepSummary:5: 文書を .docx ファイルとして保存します。
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

@@ -26,6 +26,7 @@ Split Document là một nguồn tài nguyên toàn diện giải thích cách c
 | [Chia tài liệu Word theo trang](./page-by-page/) | Tìm hiểu cách chia tài liệu Word theo trang bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước này. Hoàn hảo để quản lý hiệu quả các tài liệu lớn. |
 | [Hợp nhất tài liệu](./merge-documents/) | Hướng dẫn từng bước giải thích mã nguồn C# của tính năng Merge Documents của Aspose.Words cho .NET |
 | [Chia tài liệu Word theo phạm vi trang](./by-page-range/) | Tìm hiểu cách chia tài liệu Word theo phạm vi trang bằng Aspose.Words cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho các nhà phát triển. |
+| [Tạo PDF từ các trang – Hướng dẫn trích xuất các trang cụ thể](./create-pdf-from-pages-extract-specific-pages-guide/) | Tìm hiểu cách tạo PDF từ các trang được chọn bằng Aspose.Words cho .NET. Thực hiện theo hướng dẫn chi tiết từng bước. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

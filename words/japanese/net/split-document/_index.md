@@ -26,7 +26,7 @@ Split Documentは、Aspose.Words for .NETライブラリを用いてドキュメ
 | [Word文書をページごとに分割する](./page-by-page/) Aspose.Words for .NET を使用して Word 文書をページごとに分割する方法を、この詳細なステップバイステップガイドで学びましょう。大規模な文書を効率的に管理するのに最適です。 |
 | [ドキュメントの結合](./merge-documents/) Aspose.Words for .NET の Merge Documents 機能の C# ソース コードを説明するステップ バイ ステップ ガイド |
 | [ページ範囲でWord文書を分割する](./by-page-range/) Aspose.Words for .NET を使用して Word 文書をページ範囲で分割する方法を、詳細なステップバイステップガイドで学習できます。開発者に最適です。 |
-
+| [ページからPDFを作成 – 特定ページ抽出ガイド](./create-pdf-from-pages-extract-specific-pages-guide/) Aspose.Words for .NET を使用して、指定したページだけを抽出し PDF を作成する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

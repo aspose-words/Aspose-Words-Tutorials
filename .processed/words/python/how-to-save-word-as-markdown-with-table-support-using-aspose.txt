@@ -1,0 +1,7 @@
+Title: How to save Word as markdown with table support using Aspose.Words
+Slug: how-to-save-word-as-markdown-with-table-support-using-aspose
+Category: document-conversion
+ProcessedDate: 2026-08-17T19:08:35.040831
+SourceRepo: AI Search API
+Keywords: save word as markdown, convert docx to markdown, how to export tables, save document as md, export tables as html
+PRNumber: 257

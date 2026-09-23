@@ -28,7 +28,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Hapus Hentian Bagian Dalam Dokumen Word](./remove-section-breaks/) | Pelajari cara menghapus pemisah bagian dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci dan langkah demi langkah ini memastikan pengelolaan dan penyuntingan dokumen yang lancar.
 Bahasa Indonesia: [Hapus Footer di Dokumen Word](./remove-footers/) Pelajari cara menghapus footer dari dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:
 | [Hapus Daftar Isi Dalam Dokumen Word](./remove-table-of-contents/) | Pelajari cara menghapus daftar isi dalam dokumen Word menggunakan Aspose.Words untuk .NET. |
-
+| [Cara Memanggil LLM di C# – Panduan Lengkap dengan Model Lokal](./how-to-call-llm-in-c-complete-guide-with-local-model/) | Pelajari cara memanggil model bahasa besar (LLM) dalam C# menggunakan model lokal dengan panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

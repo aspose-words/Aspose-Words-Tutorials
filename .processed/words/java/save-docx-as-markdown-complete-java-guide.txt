@@ -1,0 +1,7 @@
+Title: Save DOCX as Markdown – Complete Java Guide
+Slug: save-docx-as-markdown-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-07-26T10:45:01.052582
+SourceRepo: AI Search API
+Keywords: save docx as markdown, markdown conversion tables, convert word table html, export tables as html, save word document markdown
+PRNumber: 235

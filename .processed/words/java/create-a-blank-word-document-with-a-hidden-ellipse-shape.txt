@@ -1,0 +1,7 @@
+Title: Create a blank Word document with a hidden ellipse shape
+Slug: create-a-blank-word-document-with-a-hidden-ellipse-shape
+Category: images-shapes
+ProcessedDate: 2026-09-18T10:54:46.093763
+SourceRepo: AI Search API
+Keywords: create blank word document, how to hide shape, how to insert ellipse, hide shape in word, create hidden shape
+PRNumber: 280

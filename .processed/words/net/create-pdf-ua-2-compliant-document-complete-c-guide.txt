@@ -1,0 +1,7 @@
+Title: Create pdf/ua-2 compliant document – Complete C# Guide
+Slug: create-pdf-ua-2-compliant-document-complete-c-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-02T12:33:36.466152
+SourceRepo: AI Search API
+Keywords: create pdf/ua-2 compliant document
+PRNumber: 197

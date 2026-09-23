@@ -1,22 +1,21 @@
 ---
 category: general
-date: 2026-02-23
-description: 學習如何從 Word 檔案儲存 Markdown，並在一次執行中將 Word 轉換為 Markdown 同時從 docx 中擷取圖片。
+date: 2026-01-05
+description: 學習如何儲存 Markdown 並將 docx 轉換為 Markdown，同時從 Word 中提取圖像。包括逐步建立資源資料夾。
 draft: false
 keywords:
 - how to save markdown
-- convert word to markdown
-- extract images from docx
-- how to export docx
+- convert docx to markdown
+- extract images from word
 - how to extract images
+- create resources folder
 language: zh-hant
-og_description: 如何從 Word 文件儲存 Markdown？本教學將示範如何使用 Aspose.Words 將 Word 轉換為 Markdown
-  並提取圖片。
-og_title: 如何從 Word 儲存 Markdown – 步驟指南
+og_description: 如何使用 Aspose.Words 在 C# 中從 DOCX 檔案儲存 Markdown、提取圖片，並建立資源資料夾。
+og_title: 如何從 Word 儲存 Markdown – 完整教學
 tags:
 - Aspose.Words
 - C#
-- Markdown conversion
+- Markdown
 title: 如何從 Word 儲存 Markdown – 完整指南
 url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/
 ---
@@ -25,208 +24,208 @@ url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-save-markdown-from
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何從 Word 儲存 Markdown – 完整指南
+# 如何從 Word 保存 Markdown – 完整指南
 
-有沒有想過 **如何從 Word 文件儲存 markdown** 而不失去你花了好幾個小時插入的圖片？你並不是唯一有這個困擾的人。在許多專案——部落格產生器、靜態網站流水線，或是快速文件草稿——你需要一個乾淨的 Markdown 檔案 *以及* 從 .docx 中抽出的原始圖片。  
+有沒有想過 **如何直接從 Word 文件保存 markdown** 而不遺失內嵌圖片？你並不是唯一的。在許多專案中，我們需要 **convert docx to markdown**，提取圖片，並將所有內容整齊地放入專用資料夾。本教學將帶你使用 Aspose.Words for .NET，完成一個乾淨且可重複使用的解決方案。
 
-好消息是？使用 Aspose.Words for .NET，你可以 **convert word to markdown** 並 **extract images from docx**，一次完成整潔的操作。在本教學中，我們會逐行說明程式碼、解釋每個部份的意義，甚至示範如何針對自訂圖片資料夾或大型文件等邊緣情況進行微調。
-
-完成本指南後，你將能夠：
-
-* 將 `.docx` 儲存為 `.md` 檔案（這就是 **how to save markdown** 的部分）。  
-* 將來源文件中所有內嵌圖片抽取到 `resources` 資料夾。  
-* 若需要不同的命名規則或想將圖片嵌入為 base64，亦可調整回呼函式。  
-
-不需要外部工具，也不需要手動複製貼上——只要幾行 C# 程式碼，加上功能強大的 Aspose.Words 函式庫。
-
----
+我們將涵蓋所有必備步驟：載入 `.docx`、提取圖片、建立 **resources folder**，最後寫入 markdown 檔案。完成後，你將擁有一段可直接放入任何 C# 主控台或 Web 應用程式的即用程式碼片段。
 
 ## 前置條件
 
-在開始之前，請確保你已具備：
+* .NET 6.0 或更新版本（此程式碼亦相容 .NET Framework 4.6+）。  
+* 取得 **Aspose.Words for .NET** 的授權版本——免費試用版可用於測試。  
+* 一個包含至少一張圖片的 Word 檔案（`input.docx`）。  
+* 具備 C# 與 Visual Studio（或你慣用的 IDE）的基本知識。
 
-* **.NET 6.0** 或更新版本（API 同時支援 .NET Framework、.NET Core 與 .NET 5+）。  
-* **Aspose.Words for .NET** – 可透過 NuGet 使用 `Install-Package Aspose.Words` 取得。  
-* 一個包含至少一張圖片的範例 Word 檔 (`input.docx`)——這讓我們能驗證 **extract images from docx** 的步驟。  
+無需其他 NuGet 套件，僅需 Aspose.Words。
 
-就這樣。無需額外 SDK，亦不需要繁雜的指令列工具。
+## 第一步 – 載入來源文件
 
----
-
-## 步驟 1：載入來源文件（如何匯出 Docx）
-
-首先，我們需要把 Word 檔案載入記憶體。Aspose.Words 將文件視為 `Document` 物件，讓你完整存取其內容、樣式與內嵌資源。
+我們首先需要將 Word 檔案讀入 `Aspose.Words.Document` 物件。此物件讓我們完整存取文件內容，包括稍後要提取的圖片。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 using System.IO;
 
-// Load the .docx you want to convert
-Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+// Adjust the path to point at your .docx file
+string sourcePath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+
+// Create the Document instance – this is where the magic starts
+Document document = new Document(sourcePath);
 ```
 
-> **為什麼這很重要：**  
-> 載入檔案即是工作流程中的 **how to export docx** 部分。文件一旦成為 `Document` 物件，你就可以查詢段落、表格，或—對我們最重要的—其內嵌圖片。
+> **為什麼這很重要：** 將檔案載入為 `Document` 會抽象化複雜的 OOXML 結構，讓我們能以高階物件（如圖片、表格與段落）進行操作。
 
----
+## 第二步 – 實作資源儲存回呼
 
-## 步驟 2：設定 Markdown 儲存選項（將 Word 轉換為 Markdown）
-
-Aspose.Words 提供 `MarkdownSaveOptions` 類別，讓你控制轉換的行為。對我們而言最關鍵的屬性是 `ResourceSavingCallback`，每當函式庫需要寫入外部檔案（例如圖片）時，就會觸發此回呼。
+Aspose.Words 允許透過 `IResourceSavingCallback` 插入儲存流程。我們將利用它控制每張提取圖片的儲存位置。此回呼會建立一個以來源文件命名的 **resources folder**，並將每個圖片檔寫入其中。
 
 ```csharp
-// Prepare options for Markdown export
-MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+// Step 2: Define a callback that decides where each resource (image) is stored
+class ResourceSavingCallback : IResourceSavingCallback
 {
-    // This callback will be invoked for each external resource (e.g., images)
-    ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+    public void ResourceSaving(ResourceSavingArgs args)
     {
-        // We'll fill this in in the next step
-    })
+        // Build a folder path like: YOUR_DIRECTORY/Resources/input.docx
+        string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+        Directory.CreateDirectory(resourcesFolder); // Guarantees the folder exists
+
+        // Combine folder path with the original file name (e.g., image001.png)
+        string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+
+        // Override the default name and supply a stream that writes the file
+        args.ResourceFileName = resourcePath;
+        args.Stream = new FileStream(resourcePath, FileMode.Create);
+    }
+}
+```
+
+> **專業提示：** 若需要較平坦的結構（所有圖片放在同一資料夾），只需將 `Path.Combine(..., args.DocumentName)` 改為固定的資料夾名稱即可。
+
+## 第三步 – 設定 Markdown 儲存選項
+
+現在我們告訴 Aspose.Words 使用 Markdown 作為輸出格式，並注入我們的回呼。此步驟即執行 **convert docx to markdown** 的實際轉換。
+
+```csharp
+// Step 3: Prepare the MarkdownSaveOptions and attach the callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // This tells Aspose.Words to invoke our callback for every resource
+    ResourceSavingCallback = new ResourceSavingCallback()
 };
 ```
 
-> **小技巧：** 若只需要純文字且不想保留圖片，可將 `ExportImages = false`。但因為我們聚焦於 **how to extract images**，因此保留預設設定。
+> **底層發生了什麼？** 程式庫會遍歷文件，將段落、表格及其他元素轉換為 Markdown 語法，同時將每個圖片的寫入操作委派給我們提供的回呼。
 
----
+## 第四步 – 將文件儲存為 Markdown
 
-## 步驟 3：定義資源儲存回呼（從 Docx 抽取圖片）
-
-回呼函式決定每張抽取圖片的檔名與儲存位置。以下範例會在 `resources` 資料夾內產生以 GUID 為基礎的唯一名稱，確保即使來源文件有重複的圖片名稱也不會衝突。
+最後，我們將 markdown 檔寫入磁碟。圖片已經在前一步建立的資料夾中儲存完畢。
 
 ```csharp
-ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+// Step 4: Save the markdown file alongside the resources folder
+string markdownPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+document.Save(markdownPath, markdownOptions);
+
+Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
+Console.WriteLine("🖼️ Images extracted to the Resources folder.");
+```
+
+### 預期結果
+
+* `WithImages.md` – 一個乾淨的 markdown 檔，所有圖片引用皆呈現為 `![Image](Resources/input.docx/image001.png)`。  
+* `Resources/input.docx/` – 一個子資料夾，內含所有提取的圖片（PNG、JPEG 等）。
+
+你可以在任何檢視器（如 VS Code、GitHub、MkDocs）中開啟 markdown 檔，看到圖片正確顯示於原始 Word 文件中的位置。
+
+## 如何在不轉換為 Markdown 的情況下提取圖片（額外說明）
+
+有時你只需要圖片，而不需要 markdown。你可以重複使用相同的回呼邏輯，只是將 `document.Save` 呼叫改為其他格式，例如 `SaveFormat.Html`。圖片仍會儲存至相同的資料夾，之後可自行刪除 HTML 檔。
+
+```csharp
+HtmlSaveOptions htmlOptions = new HtmlSaveOptions
 {
-    // Determine the original file extension (e.g., .png, .jpeg)
-    string extension = Path.GetExtension(args.FileName);
-    
-    // Build a unique file name inside the "resources" directory
-    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-    
-    // Tell Aspose to write the image to this path
-    args.FileName = uniqueFileName;
-    args.Stream = new FileStream(Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-});
+    ResourceSavingCallback = new ResourceSavingCallback()
+};
+
+document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 ```
 
-> **為什麼使用 GUID？**  
-> 在 **how to extract images** 的過程中，常會碰到像 `image1.png` 這樣的重複名稱。GUID 能保證唯一性，對於一次處理多份文件的自動化流水線特別有用。
+> **為什麼這有效：** HTML 儲存同樣會觸發資源回呼，讓你在不額外撰寫程式碼的情況下快速取得「如何提取圖片」的解決方案。
 
----
+## 常見陷阱與避免方法
 
-## 步驟 4：將文件儲存為 Markdown（如何儲存 Markdown）
+| 問題 | 發生原因 | 解決方式 |
+|-------|----------------|-----|
+| 圖片產生重複名稱 | Word 中多張圖片共用相同的原始檔名。 | 在回呼內附加 GUID 或遞增計數器 (`args.ResourceFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";`)。 |
+| Markdown 連結指向不存在的資料夾 | `Resources` 資料夾相對於 markdown 檔的路徑不正確。 | 使用 `Path.GetRelativePath` 計算相對路徑，或如上所示將資料夾放在 markdown 檔旁邊。 |
+| Aspose.Words 拋出 `FileNotFoundException` | 來源 `.docx` 路徑不正確。 | 在建立 `Document` 前，使用 `Path.GetFullPath` 檢查絕對路徑。 |
+| 大型文件導致記憶體不足錯誤 | 程式庫會將整個文件載入記憶體。 | 使用接受 `FileStream`（唯讀模式）的 `Document.Load` 重載，以串流方式載入文件。 |
 
-現在回呼已備妥，最後一步只需要一行程式碼即可寫出 `.md` 檔，並在背後觸發圖片抽取。
+## 完整可執行範例（複製貼上）
 
-```csharp
-// Export the Word document to Markdown
-sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
-```
-
-執行此行程式碼時，Aspose.Words 會：
-
-1. 產生 Markdown 檔案 (`doc.md`)。  
-2. 為每張圖片呼叫 `ResourceSavingCallback`，將檔案放入 `resources/`。  
-3. 自動在 `.md` 檔中插入 Markdown 圖片連結 (`![](resources/<guid>.png)`)。
-
----
-
-## 完整範例程式
-
-以下是可直接放入 Console App 的完整程式。將 `YOUR_DIRECTORY` 替換為你的來源 `.docx` 所在路徑以及輸出檔案的目標資料夾。
+以下是可直接編譯執行的 *完整* 程式碼。請將 `YOUR_DIRECTORY` 替換為你機器上的實際資料夾路徑。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+using System;
 using System.IO;
 
-namespace WordToMarkdownDemo
+namespace DocxToMarkdown
 {
+    // Callback that saves each image to a resources folder
+    class ResourceSavingCallback : IResourceSavingCallback
+    {
+        public void ResourceSaving(ResourceSavingArgs args)
+        {
+            string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+            Directory.CreateDirectory(resourcesFolder);
+
+            string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+            args.ResourceFileName = resourcePath;
+            args.Stream = new FileStream(resourcePath, FileMode.Create);
+        }
+    }
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Load the source document that contains images or other resources
-            Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+            // 1️⃣ Load the DOCX
+            string docPath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+            Document document = new Document(docPath);
 
-            // 2️⃣ Prepare Markdown save options and define a callback for each external resource
-            MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+            // 2️⃣ Set up Markdown options with our callback
+            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                ResourceSavingCallback = new ResourceSavingCallback((sender, callbackArgs) =>
-                {
-                    // 3️⃣ Generate a unique file name for the resource and store it under a "resources" folder
-                    string extension = Path.GetExtension(callbackArgs.FileName);
-                    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-
-                    // 4️⃣ Write the resource to the desired output directory
-                    callbackArgs.FileName = uniqueFileName;
-                    callbackArgs.Stream = new FileStream(
-                        Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-                })
+                ResourceSavingCallback = new ResourceSavingCallback()
             };
 
-            // 5️⃣ Save the document as Markdown, letting the callback handle external resources
-            sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
+            // 3️⃣ Save as Markdown – images are extracted automatically
+            string mdPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+            document.Save(mdPath, mdOptions);
+
+            Console.WriteLine($"✅ Markdown saved to: {mdPath}");
+            Console.WriteLine("🖼️ Images extracted to the Resources folder.");
         }
     }
 }
 ```
 
-### 預期輸出
+執行程式（`dotnet run` 或在 Visual Studio 按 **F5**），你會看到控制台訊息確認成功。
 
-* **`doc.md`** – 內含類似 `![](resources/3f2c1a9e‑b4d5‑4a6e‑9c2f‑e7b9c8d1a2f3.png)` 的圖片連結的 Markdown 檔。  
-* **`resources/` 資料夾** – 包含從 `input.docx` 抽出的每張圖片，檔名皆為 GUID 且帶有正確副檔名。
+## 測試你的輸出
 
-在任何 Markdown 檢視器（VS Code、Typora、GitHub）開啟 `doc.md`，即可看到與原始文件相同的版面配置與圖片。
+在 markdown 預覽工具中開啟 `WithImages.md`：
 
----
+```markdown
+# Sample Heading
 
-## 常見問題與邊緣案例
+Here is an image extracted from the original Word file:
 
-### 如果我想把圖片放在單一資料夾且不使用 GUID 呢？
-
-只要把 `uniqueFileName` 那一行改成類似以下寫法即可：
-
-```csharp
-string baseName = Path.GetFileNameWithoutExtension(args.FileName);
-string uniqueFileName = $"resources/{baseName}{extension}";
+![Image](Resources/input.docx/image001.png)
 ```
 
-請注意，重複的檔名會互相覆寫——只有在確定來源文件的圖片名稱本身唯一時才建議這麼做。
+如果圖片正確顯示，代表你已成功 **how to save markdown** 並保留視覺內容。若未顯示，請再次檢查控制台列印的相對路徑。
 
-### 我可以將圖片嵌入為 Base64 而不是外部檔案嗎？
+## 擴充此解決方案
 
-可以。將 `args.Stream` 設為 `MemoryStream`，將位元組轉為 Base64 字串，然後手動修改 Markdown 連結。此方式適合單一檔案的 Markdown 輸出，但會使檔案大小膨脹。
+* **Batch conversion** – 迭代目錄中的 `.docx` 檔案，重複使用相同的回呼邏輯。  
+* **Custom image formats** – 在回呼中將所有圖片轉換為 WebP，以減少檔案大小。  
+* **Parallel processing** – 使用 `Parallel.ForEach` 處理大量批次，但需留意檔案系統的競爭問題。
 
-### 這對大型文件（數百 MB）如何處理？
-
-回呼會直接將每張圖片串流寫入磁碟，因而保持低記憶體使用量。但若處理極大檔案，建議調整 `FileStream` 的緩衝區大小，以提升 I/O 效能。
-
-### 這能在 Linux 上的 .NET Core 使用嗎？
-
-當然可以。Aspose.Words 為跨平台套件。只要確保目標資料夾可寫入，且路徑使用正斜線 (`/`) 即可。
-
----
-
-## 專業技巧與常見陷阱
-
-* **Pro tip:** 在 `using` 區塊內執行轉換，包含 `Document` 與任何 `FileStream`，以確保正確釋放資源。  
-* **注意事項：** 若 `resources` 資料夾不存在，回呼會拋出 `DirectoryNotFoundException`。請先使用 `Directory.CreateDirectory("YOUR_DIRECTORY/resources");` 建立。  
-* **效能小技巧：** 若一次批次處理多個檔案，可重複使用同一個 `MarkdownSaveOptions` 實例——只需要為每個文件重新設定回呼即可。  
-* **安全性說明：** 絕不要在未掃描的情況下直接接受使用者上傳的 `.docx` 檔案——惡意巨集雖不會影響 Markdown 轉換，但仍可能帶來其他風險。
-
----
+所有這些變化仍然回應核心問題：如何從 Word **how to save markdown**，並以乾淨的 **create resources folder** 工作流程完成。
 
 ## 結論
 
-我們已說明 **how to save markdown** 從 Word 檔案的完整流程，展示了 **convert word to markdown** 的方法，並示範了可靠的 **extract images from docx** 方式（即 **how to export docx** 與 **how to extract images** 的核心）。只需幾行程式碼，Aspose.Words 即完成繁重工作，讓你專注於後續流程——無論是供給靜態網站產生器、文件歸檔，或是輸入至無頭 CMS。
+現在你已了解如何使用 Aspose.Words 從 Word 文件 **how to save markdown**、**convert docx to markdown**，以及 **extract images from Word**。關鍵在於 `IResourceSavingCallback`，它讓你完全掌控每張圖片的儲存位置，從而能夠建立符合專案布局的 **create resources folder** 結構。
 
-想更進一步嗎？試著把 `MarkdownSaveOptions` 換成 `HtmlSaveOptions` 產生 HTML，或將回呼整合到雲端函式以實現即時轉換。一旦掌握基礎，未來的可能性無限。
+試著執行一次，依需求調整資料夾命名，你就能擁有一條穩健的管線，適用於文件、靜態網站產生器，或任何需要 markdown 與圖片同時存在的情境。
 
-如果你覺得本教學有幫助，歡迎分享、留言你的使用情境，或探索 Aspose 其他文件處理功能，如 PDF 轉換或 DOCX 合併。祝程式開發愉快！  
+---
 
-![如何儲存 markdown 範例](image.png "如何儲存 markdown")
+*祝編程愉快！若遇到任何問題，歡迎在下方留言或在 GitHub 上找我——我隨時樂於協助除錯。*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

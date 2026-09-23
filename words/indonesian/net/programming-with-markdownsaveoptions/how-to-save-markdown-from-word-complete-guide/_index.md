@@ -1,23 +1,24 @@
 ---
 category: general
-date: 2026-02-23
-description: Pelajari cara menyimpan markdown dari file Word dan juga mengonversi
-  Word ke markdown sambil mengekstrak gambar dari docx dalam satu kali proses.
+date: 2026-01-05
+description: Pelajari cara menyimpan markdown dan mengonversi docx ke markdown sambil
+  mengekstrak gambar dari Word. Termasuk langkah demi langkah membuat folder sumber
+  daya.
 draft: false
 keywords:
 - how to save markdown
-- convert word to markdown
-- extract images from docx
-- how to export docx
+- convert docx to markdown
+- extract images from word
 - how to extract images
+- create resources folder
 language: id
-og_description: Cara menyimpan markdown dari dokumen Word? Tutorial ini menunjukkan
-  cara mengonversi Word ke markdown dan mengekstrak gambar dengan Aspose.Words.
-og_title: Cara Menyimpan Markdown dari Word – Panduan Langkah demi Langkah
+og_description: Cara menyimpan markdown dari file DOCX, mengekstrak gambar, dan membuat
+  folder sumber daya menggunakan Aspose.Words di C#.
+og_title: Cara Menyimpan Markdown dari Word – Tutorial Lengkap
 tags:
 - Aspose.Words
 - C#
-- Markdown conversion
+- Markdown
 title: Cara Menyimpan Markdown dari Word – Panduan Lengkap
 url: /id/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/
 ---
@@ -28,206 +29,208 @@ url: /id/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 
 # Cara Menyimpan Markdown dari Word – Panduan Lengkap
 
-Pernah bertanya‑tanya **cara menyimpan markdown** dari dokumen Word tanpa kehilangan gambar yang Anda habiskan berjam‑jam untuk menyisipkannya? Anda bukan satu‑satunya. Dalam banyak proyek—generator blog, pipeline situs statis, atau draf dokumentasi cepat—Anda membutuhkan file Markdown yang bersih *dan* gambar asli yang diambil dari .docx.  
+Pernah bertanya‑tanya **cara menyimpan markdown** langsung dari dokumen Word tanpa kehilangan gambar yang disematkan? Anda bukan satu‑satunya. Dalam banyak proyek kami perlu **mengonversi docx ke markdown**, mengekstrak gambar, dan menjaga semuanya rapi dalam folder khusus. Tutorial ini memandu Anda melalui solusi bersih dan dapat diulang menggunakan Aspose.Words untuk .NET.
 
-Kabar baiknya? Dengan Aspose.Words untuk .NET Anda dapat **mengonversi word ke markdown** dan **mengekstrak gambar dari docx** dalam satu operasi yang rapi. Dalam tutorial ini kami akan menelusuri setiap baris kode, menjelaskan mengapa setiap bagian penting, dan bahkan menunjukkan cara menyesuaikan proses untuk kasus tepi seperti folder gambar khusus atau dokumen besar.
-
-Pada akhir panduan ini Anda akan dapat:
-
-* Menyimpan sebuah `.docx` sebagai file `.md` (itulah bagian **cara menyimpan markdown**).  
-* Mengambil setiap gambar yang disematkan dari dokumen sumber ke dalam folder `resources`.  
-* Menyesuaikan callback jika Anda memerlukan skema penamaan yang berbeda atau ingin menyematkan gambar sebagai base64.  
-
-Tanpa alat eksternal, tanpa menyalin‑tempel manual—hanya beberapa baris C# dan pustaka kuat Aspose.Words.
-
----
+Kami akan membahas semua yang Anda perlukan: memuat `.docx`, mengekstrak gambar, membuat **folder sumber daya**, dan akhirnya menulis file markdown. Pada akhir tutorial Anda akan memiliki potongan kode siap pakai yang dapat Anda sisipkan ke dalam aplikasi konsol atau web C# apa pun.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki:
 
-* **.NET 6.0** atau yang lebih baru terpasang (API ini bekerja dengan .NET Framework, .NET Core, dan .NET 5+).  
-* **Aspose.Words untuk .NET** – Anda dapat mengunduhnya dari NuGet dengan `Install-Package Aspose.Words`.  
-* Sebuah file Word contoh (`input.docx`) yang berisi setidaknya satu gambar—ini akan memungkinkan kami memverifikasi langkah **mengekstrak gambar dari docx**.  
+* .NET 6.0 atau lebih baru (kode ini juga bekerja dengan .NET Framework 4.6+).  
+* Salinan berlisensi **Aspose.Words for .NET** – versi percobaan gratis cukup untuk pengujian.  
+* File Word (`input.docx`) yang berisi setidaknya satu gambar.  
+* Familiaritas dasar dengan C# dan Visual Studio (atau IDE favorit Anda).
 
-Itu saja. Tanpa SDK tambahan, tanpa alat baris perintah yang rumit.
+Tidak ada paket NuGet tambahan yang diperlukan selain Aspose.Words.
 
----
+## Langkah 1 – Muat Dokumen Sumber
 
-## Langkah 1: Muat Dokumen Sumber (Cara Mengekspor Docx)
-
-Pertama kita perlu membawa file Word ke dalam memori. Aspose.Words memperlakukan dokumen sebagai objek `Document`, yang memberi Anda akses penuh ke kontennya, gaya, dan sumber daya yang disematkan.
+Hal pertama yang perlu kita lakukan adalah membaca file Word ke dalam objek `Aspose.Words.Document`. Objek ini memberi kita akses penuh ke konten dokumen, termasuk gambar yang akan Anda ekstrak nanti.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 using System.IO;
 
-// Load the .docx you want to convert
-Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+// Adjust the path to point at your .docx file
+string sourcePath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+
+// Create the Document instance – this is where the magic starts
+Document document = new Document(sourcePath);
 ```
 
-> **Mengapa ini penting:**  
-> Memuat file adalah bagian **cara mengekspor docx** dari alur kerja. Setelah dokumen berada dalam objek `Document`, Anda dapat menelusuri paragraf, tabel, atau—yang paling penting bagi kami—gambar yang disematkan.
+> **Mengapa ini penting:** Memuat file sebagai `Document` menyembunyikan struktur OOXML yang kompleks, memungkinkan kita bekerja dengan objek tingkat tinggi seperti gambar, tabel, dan paragraf.
 
----
+## Langkah 2 – Implementasikan Callback Penyimpanan Sumber Daya
 
-## Langkah 2: Konfigurasikan Opsi Penyimpanan Markdown (Konversi Word ke Markdown)
-
-Aspose.Words menyediakan kelas `MarkdownSaveOptions` yang memungkinkan Anda mengontrol cara konversi berperilaku. Properti kunci bagi kami adalah `ResourceSavingCallback`, yang dipanggil setiap kali perpustakaan ingin menulis file eksternal (seperti gambar).
+Aspose.Words memungkinkan Anda menyisipkan logika ke dalam proses penyimpanan melalui `IResourceSavingCallback`. Kita akan menggunakan ini untuk mengontrol ke mana setiap gambar yang diekstrak disimpan. Callback akan membuat **folder sumber daya** yang dinamai berdasarkan dokumen sumber dan menulis setiap file gambar ke dalamnya.
 
 ```csharp
-// Prepare options for Markdown export
-MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+// Step 2: Define a callback that decides where each resource (image) is stored
+class ResourceSavingCallback : IResourceSavingCallback
 {
-    // This callback will be invoked for each external resource (e.g., images)
-    ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+    public void ResourceSaving(ResourceSavingArgs args)
     {
-        // We'll fill this in in the next step
-    })
+        // Build a folder path like: YOUR_DIRECTORY/Resources/input.docx
+        string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+        Directory.CreateDirectory(resourcesFolder); // Guarantees the folder exists
+
+        // Combine folder path with the original file name (e.g., image001.png)
+        string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+
+        // Override the default name and supply a stream that writes the file
+        args.ResourceFileName = resourcePath;
+        args.Stream = new FileStream(resourcePath, FileMode.Create);
+    }
+}
+```
+
+> **Tips pro:** Jika Anda menginginkan struktur yang lebih datar (semua gambar dalam satu folder), cukup ganti `Path.Combine(..., args.DocumentName)` dengan nama folder konstan.
+
+## Langkah 3 – Konfigurasikan Opsi Penyimpanan Markdown
+
+Sekarang kita memberi tahu Aspose.Words untuk menggunakan Markdown sebagai format keluaran dan menyambungkan callback kita. Langkah ini adalah tempat operasi **mengonversi docx ke markdown** sebenarnya terjadi.
+
+```csharp
+// Step 3: Prepare the MarkdownSaveOptions and attach the callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // This tells Aspose.Words to invoke our callback for every resource
+    ResourceSavingCallback = new ResourceSavingCallback()
 };
 ```
 
-> **Tip:** Jika Anda hanya membutuhkan teks biasa tanpa gambar, Anda dapat mengatur `ExportImages = false`. Tetapi karena kami fokus pada **cara mengekstrak gambar**, kami biarkan nilai default.
+> **Apa yang terjadi di balik layar?** Perpustakaan menelusuri dokumen, mengonversi run paragraf, tabel, dan elemen lainnya menjadi sintaks Markdown, sambil menyerahkan setiap operasi penulisan gambar ke callback yang kita sediakan.
 
----
+## Langkah 4 – Simpan Dokumen sebagai Markdown
 
-## Langkah 3: Definisikan Callback Penyimpanan Sumber Daya (Ekstrak Gambar dari Docx)
-
-Callbacklah tempat kami menentukan nama file dan lokasi untuk setiap gambar yang diekstrak. Contoh di bawah membuat nama berbasis GUID yang unik di dalam folder `resources`, memastikan tidak ada tabrakan meskipun dokumen sumber berisi nama gambar yang duplikat.
+Akhirnya, kita menulis file markdown ke disk. Gambar‑gambar sudah disimpan ke dalam folder yang kita buat pada langkah sebelumnya.
 
 ```csharp
-ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+// Step 4: Save the markdown file alongside the resources folder
+string markdownPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+document.Save(markdownPath, markdownOptions);
+
+Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
+Console.WriteLine("🖼️ Images extracted to the Resources folder.");
+```
+
+### Hasil yang Diharapkan
+
+* `WithImages.md` – file markdown bersih di mana setiap referensi gambar terlihat seperti `![Image](Resources/input.docx/image001.png)`.  
+* `Resources/input.docx/` – sub‑folder yang berisi semua gambar yang diekstrak (PNG, JPEG, dll.).
+
+Anda dapat membuka file markdown di penampil apa pun (VS Code, GitHub, MkDocs) dan melihat gambar ditampilkan persis di tempatnya dalam file Word asli.
+
+## Cara Mengekstrak Gambar Tanpa Mengonversi ke Markdown (Bonus)
+
+Kadang‑kadang Anda hanya membutuhkan gambar, bukan markdown. Anda dapat menggunakan kembali logika callback yang sama tetapi memanggil `document.Save` dengan format berbeda, seperti `SaveFormat.Html`. Gambar‑gambar akan disimpan ke folder yang sama, dan Anda dapat mengabaikan file HTML setelahnya.
+
+```csharp
+HtmlSaveOptions htmlOptions = new HtmlSaveOptions
 {
-    // Determine the original file extension (e.g., .png, .jpeg)
-    string extension = Path.GetExtension(args.FileName);
-    
-    // Build a unique file name inside the "resources" directory
-    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-    
-    // Tell Aspose to write the image to this path
-    args.FileName = uniqueFileName;
-    args.Stream = new FileStream(Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-});
+    ResourceSavingCallback = new ResourceSavingCallback()
+};
+
+document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 ```
 
-> **Mengapa menggunakan GUID?**  
-> Saat **cara mengekstrak gambar** dari sebuah docx, Anda sering menemui nama duplikat seperti `image1.png`. GUID menjamin keunikan, yang sangat berguna untuk pipeline otomatis yang memproses banyak dokumen dalam satu kali jalan.
+> **Mengapa ini berhasil:** Penyimpanan HTML juga memicu callback sumber daya, memberi Anda solusi cepat “cara mengekstrak gambar” tanpa kode tambahan.
 
----
+## Kesalahan Umum & Cara Menghindarinya
 
-## Langkah 4: Simpan Dokumen sebagai Markdown (Cara Menyimpan Markdown)
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| Gambar berakhir dengan nama duplikat | Beberapa gambar memiliki nama file asli yang sama di dalam Word. | Tambahkan GUID atau penghitung yang meningkat di dalam callback (`args.ResourceFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";`). |
+| Tautan markdown mengarah ke folder yang tidak ada | Path folder `Resources` salah relatif terhadap file markdown. | Gunakan `Path.GetRelativePath` untuk menghitung path relatif, atau letakkan folder di samping file markdown seperti contoh di atas. |
+| Aspose.Words melempar `FileNotFoundException` | Path `.docx` sumber tidak tepat. | Verifikasi path absolut dengan `Path.GetFullPath` sebelum membuat `Document`. |
+| Dokumen besar menyebabkan error out‑of‑memory | Perpustakaan memuat seluruh dokumen ke memori. | Stream dokumen menggunakan overload `Document.Load` yang menerima `FileStream` dengan mode `ReadOnly`. |
 
-Sekarang callback sudah siap, langkah akhir cukup satu baris yang menulis file `.md` dan memicu ekstraksi gambar di belakang layar.
+## Contoh Lengkap yang Dapat Dijalankan (Copy‑Paste)
 
-```csharp
-// Export the Word document to Markdown
-sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
-```
-
-Saat baris ini dijalankan, Aspose.Words:
-
-1. Menghasilkan file Markdown (`doc.md`).  
-2. Memanggil `ResourceSavingCallback` untuk setiap gambar, menempatkannya di `resources/`.  
-3. Menyisipkan tautan gambar Markdown (`![](resources/<guid>.png)`) ke dalam file `.md` secara otomatis.
-
----
-
-## Contoh Lengkap yang Berfungsi
-
-Berikut adalah program lengkap yang dapat Anda masukkan ke dalam aplikasi konsol. Ganti `YOUR_DIRECTORY` dengan jalur tempat `.docx` sumber Anda berada dan tempat Anda ingin menyimpan file output.
+Berikut adalah *seluruh* program yang dapat Anda kompilasi dan jalankan. Ganti `YOUR_DIRECTORY` dengan folder nyata di mesin Anda.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+using System;
 using System.IO;
 
-namespace WordToMarkdownDemo
+namespace DocxToMarkdown
 {
+    // Callback that saves each image to a resources folder
+    class ResourceSavingCallback : IResourceSavingCallback
+    {
+        public void ResourceSaving(ResourceSavingArgs args)
+        {
+            string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+            Directory.CreateDirectory(resourcesFolder);
+
+            string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+            args.ResourceFileName = resourcePath;
+            args.Stream = new FileStream(resourcePath, FileMode.Create);
+        }
+    }
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Load the source document that contains images or other resources
-            Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+            // 1️⃣ Load the DOCX
+            string docPath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+            Document document = new Document(docPath);
 
-            // 2️⃣ Prepare Markdown save options and define a callback for each external resource
-            MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+            // 2️⃣ Set up Markdown options with our callback
+            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                ResourceSavingCallback = new ResourceSavingCallback((sender, callbackArgs) =>
-                {
-                    // 3️⃣ Generate a unique file name for the resource and store it under a "resources" folder
-                    string extension = Path.GetExtension(callbackArgs.FileName);
-                    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-
-                    // 4️⃣ Write the resource to the desired output directory
-                    callbackArgs.FileName = uniqueFileName;
-                    callbackArgs.Stream = new FileStream(
-                        Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-                })
+                ResourceSavingCallback = new ResourceSavingCallback()
             };
 
-            // 5️⃣ Save the document as Markdown, letting the callback handle external resources
-            sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
+            // 3️⃣ Save as Markdown – images are extracted automatically
+            string mdPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+            document.Save(mdPath, mdOptions);
+
+            Console.WriteLine($"✅ Markdown saved to: {mdPath}");
+            Console.WriteLine("🖼️ Images extracted to the Resources folder.");
         }
     }
 }
 ```
 
-### Output yang Diharapkan
+Jalankan program (`dotnet run` atau tekan **F5** di Visual Studio) dan Anda akan melihat pesan konsol yang mengonfirmasi keberhasilan.
 
-* **`doc.md`** – file Markdown dengan tautan gambar seperti `![](resources/3f2c1a9e‑b4d5‑4a6e‑9c2f‑e7b9c8d1a2f3.png)`.  
-* **Folder `resources/`** – berisi setiap gambar yang diekstrak dari `input.docx`, masing‑masing diberi nama dengan GUID dan ekstensi yang tepat.
+## Menguji Output Anda
 
-Buka `doc.md` di penampil Markdown apa pun (VS Code, Typora, GitHub) dan Anda akan melihat tata letak asli, lengkap dengan gambar.
+Buka `WithImages.md` di penampil markdown:
 
----
+```markdown
+# Sample Heading
 
-## Pertanyaan Umum & Kasus Tepi
+Here is an image extracted from the original Word file:
 
-### Bagaimana jika saya ingin gambar berada di folder datar tanpa GUID?
-
-Cukup ganti baris `uniqueFileName` dengan sesuatu seperti:
-
-```csharp
-string baseName = Path.GetFileNameWithoutExtension(args.FileName);
-string uniqueFileName = $"resources/{baseName}{extension}";
+![Image](Resources/input.docx/image001.png)
 ```
 
-Perlu diingat bahwa nama duplikat akan menimpa satu sama lain—gunakan ini hanya ketika Anda yakin dokumen sumber memiliki nama gambar yang unik.
+Jika gambar muncul, Anda telah berhasil **menyimpan markdown** sambil mempertahankan konten visual. Jika tidak, periksa kembali path relatif yang dicetak oleh konsol.
 
-### Bisakah saya menyematkan gambar sebagai Base64 alih‑alih file eksternal?
+## Memperluas Solusi
 
-Ya. Atur `args.Stream` ke `MemoryStream`, konversi byte ke string Base64, lalu ubah tautan Markdown secara manual. Pendekatan ini berguna untuk ekspor Markdown satu‑file, tetapi akan memperbesar ukuran file.
+* **Konversi batch** – Loop melalui direktori berisi file `.docx`, gunakan kembali logika callback yang sama.  
+* **Format gambar khusus** – Konversi semua gambar ke WebP di dalam callback untuk ukuran file yang lebih kecil.  
+* **Pemrosesan paralel** – Gunakan `Parallel.ForEach` untuk batch besar, tetapi hati‑hati dengan kontensi sistem file.
 
-### Bagaimana cara menangani dokumen besar (ratusan MB)?
-
-Callback mengalirkan setiap gambar langsung ke disk, sehingga konsumsi memori tetap rendah. Namun, Anda mungkin ingin meningkatkan ukuran buffer `FileStream` untuk kinerja I/O yang lebih baik pada file yang sangat besar.
-
-### Apakah ini bekerja dengan .NET Core di Linux?
-
-Tentu saja. Aspose.Words bersifat lintas‑platform. Pastikan direktori target dapat ditulisi dan gunakan garis miring (`/`) dalam jalur.
-
----
-
-## Tips Profesional & Perangkap
-
-* **Tip pro:** Jalankan konversi di dalam blok `using` untuk `Document` dan setiap `FileStream` agar memastikan pembuangan yang tepat.  
-* **Waspadai:** Jika folder `resources` tidak ada, callback akan melempar `DirectoryNotFoundException`. Buat dulu dengan `Directory.CreateDirectory("YOUR_DIRECTORY/resources");`.  
-* **Tip performa:** Jika Anda memproses banyak file secara batch, gunakan kembali satu instance `MarkdownSaveOptions`—hanya callback yang berubah per dokumen.  
-* **Catatan keamanan:** Jangan pernah mempercayai file `.docx` yang diunggah pengguna tanpa pemindaian—makro berbahaya dapat disematkan, meskipun tidak memengaruhi konversi Markdown.
-
----
+Semua variasi ini tetap menjawab pertanyaan inti: **cara menyimpan markdown** dari Word dengan alur kerja **membuat folder sumber daya** yang bersih.
 
 ## Kesimpulan
 
-Kami telah membahas **cara menyimpan markdown** dari file Word, menunjukkan **cara mengonversi word ke markdown**, dan mendemonstrasikan cara andal untuk **mengekstrak gambar dari docx** (inti dari **cara mengekspor docx** dan **cara mengekstrak gambar**). Dengan hanya beberapa baris, Aspose.Words menangani pekerjaan berat, memungkinkan Anda fokus pada alur kerja hilir—apakah itu memberi bahan ke generator situs statis, mengarsipkan dokumentasi, atau memasukkan konten ke CMS headless.
+Anda kini tahu **cara menyimpan markdown** dari dokumen Word, **mengonversi docx ke markdown**, dan **mengekstrak gambar dari Word** menggunakan Aspose.Words. Kuncinya adalah `IResourceSavingCallback`, yang memberi Anda kontrol penuh atas lokasi setiap gambar, secara efektif memungkinkan Anda **membuat folder sumber daya** yang sesuai dengan tata letak proyek Anda.
 
-Siap meningkatkan level? Coba ganti `MarkdownSaveOptions` dengan `HtmlSaveOptions` untuk menghasilkan HTML, atau sambungkan callback ke fungsi cloud untuk konversi secara langsung. Langit adalah batasnya setelah Anda menguasai dasar‑dasarnya.
+Cobalah, sesuaikan penamaan folder sesuai konvensi Anda, dan Anda akan memiliki pipeline yang kuat untuk dokumentasi, generator situs statis, atau skenario apa pun di mana markdown dan gambar harus tetap bersama.
 
-Jika Anda menemukan panduan ini berguna, bagikan, tinggalkan komentar dengan kasus penggunaan Anda, atau jelajahi kemampuan pemrosesan dokumen lain dari Aspose seperti konversi PDF atau penggabungan DOCX. Selamat coding!  
+---
 
-![contoh cara menyimpan markdown](image.png "contoh cara menyimpan markdown")
+*Selamat coding! Jika Anda mengalami kendala, tinggalkan komentar di bawah atau hubungi saya di GitHub – saya selalu siap membantu debugging cepat.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,229 +1,231 @@
 ---
 category: general
-date: 2026-02-23
-description: Word ファイルから Markdown を保存する方法と、docx から画像を抽出しながら Word を Markdown に変換する方法を、一度の実行で学びましょう。
+date: 2026-01-05
+description: Markdownを保存し、Wordから画像を抽出しながらdocxをMarkdownに変換する方法を学びます。リソースフォルダーの作成手順も含まれています。
 draft: false
 keywords:
 - how to save markdown
-- convert word to markdown
-- extract images from docx
-- how to export docx
+- convert docx to markdown
+- extract images from word
 - how to extract images
+- create resources folder
 language: ja
-og_description: Word文書からMarkdownを保存する方法は？このチュートリアルでは、WordをMarkdownに変換し、Aspose.Wordsを使用して画像を抽出する方法を紹介します。
-og_title: WordからMarkdownを保存する方法 – ステップバイステップガイド
+og_description: Aspose.Words を使用して C# で DOCX ファイルから Markdown を保存し、画像を抽出し、リソース フォルダーを作成する方法。
+og_title: WordからMarkdownを保存する方法 – 完全チュートリアル
 tags:
 - Aspose.Words
 - C#
-- Markdown conversion
+- Markdown
 title: WordからMarkdownを保存する方法 – 完全ガイド
 url: /ja/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/
 ---
 
-, shortcodes, links (none except maybe none). No markdown links.
-
-All good.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Word から Markdown を保存する方法 – 完全ガイド
 
-Ever wondered **Markdown を保存する方法** from a Word document without losing the pictures you spent hours inserting? You're not the only one. In many projects—blog generators, static site pipelines, or quick documentation drafts—you need a clean Markdown file *and* the original images ripped out of the .docx.  
+Word 文書から埋め込み画像を失わずに **markdown を保存する方法** を考えたことがありますか？ あなただけではありません。多くのプロジェクトで **docx を markdown に変換** し、画像を抽出して、専用フォルダーにきれいに整理する必要があります。このチュートリアルでは Aspose.Words for .NET を使った、クリーンで再利用可能な解決策をご紹介します。
 
-The good news? With Aspose.Words for .NET you can **convert word to markdown** and **extract images from docx** in a single, tidy operation. In this tutorial we’ll walk through every line of code, explain why each piece matters, and even show you how to tweak the process for edge cases like custom image folders or large documents.
-
-No external tools, no manual copy‑pasting—just a few lines of C# and the powerful Aspose.Words library.
-
----
+必要な手順をすべてカバーします：`.docx` の読み込み、画像の抽出、**resources フォルダー** の作成、そして最終的に markdown ファイルを書き出すことです。最後まで読むと、任意の C# コンソールアプリや Web アプリに貼り付けられる、すぐに使えるコードスニペットが手に入ります。
 
 ## 前提条件
 
-Before we dive in, make sure you have:
+* .NET 6.0 以上（コードは .NET Framework 4.6 以降でも動作します）。  
+* ライセンス版 **Aspose.Words for .NET**（無料トライアルでもテスト可能）。  
+* 少なくとも 1 枚の画像を含む Word ファイル（`input.docx`）。  
+* C# と Visual Studio（またはお好みの IDE）に関する基本的な知識。
 
-* **.NET 6.0** or later installed (the API works with .NET Framework, .NET Core, and .NET 5+).  
-* **Aspose.Words for .NET** – you can grab it from NuGet with `Install-Package Aspose.Words`.  
-* A sample Word file (`input.docx`) that contains at least one image—this will let us verify the **extract images from docx** step.  
+Aspose.Words 以外に追加の NuGet パッケージは必要ありません。
 
-That’s it. No extra SDKs, no fiddly command‑line tools.
+## Step 1 – ソースドキュメントの読み込み
 
----
-
-## ステップ 1: ソース文書をロードする (How to Export Docx)
-
-First we need to bring the Word file into memory. Aspose.Words treats a document as a `Document` object, which gives you full access to its content, styles, and embedded resources.
+最初に行うべきことは、Word ファイルを `Aspose.Words.Document` オブジェクトに読み込むことです。このオブジェクトを使うと、後で抽出する画像を含むドキュメントの内容全体にフルアクセスできます。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 using System.IO;
 
-// Load the .docx you want to convert
-Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+// Adjust the path to point at your .docx file
+string sourcePath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+
+// Create the Document instance – this is where the magic starts
+Document document = new Document(sourcePath);
 ```
 
-> **Why this matters:**  
-> Loading the file is the **how to export docx** part of the workflow. Once the document is in a `Document` object, you can query paragraphs, tables, or—most importantly for us—its embedded images.
+> **なぜ重要か:** ファイルを `Document` として読み込むことで、複雑な OOXML 構造が抽象化され、画像、テーブル、段落といった高レベルのオブジェクトを扱えるようになります。
 
----
+## Step 2 – リソース保存コールバックの実装
 
-## ステップ 2: Markdown 保存オプションを設定する (Convert Word to Markdown)
-
-Aspose.Words provides a `MarkdownSaveOptions` class that lets you control how the conversion behaves. The key property for us is `ResourceSavingCallback`, which fires every time the library wants to write an external file (like an image).
+Aspose.Words は `IResourceSavingCallback` を介して保存プロセスにフックすることができます。これを利用して、抽出した各画像の保存先を制御します。コールバックは、ソースドキュメントの名前を付けた **resources フォルダー** を作成し、そこに画像ファイルを書き込みます。
 
 ```csharp
-// Prepare options for Markdown export
-MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+// Step 2: Define a callback that decides where each resource (image) is stored
+class ResourceSavingCallback : IResourceSavingCallback
 {
-    // This callback will be invoked for each external resource (e.g., images)
-    ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+    public void ResourceSaving(ResourceSavingArgs args)
     {
-        // We'll fill this in in the next step
-    })
+        // Build a folder path like: YOUR_DIRECTORY/Resources/input.docx
+        string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+        Directory.CreateDirectory(resourcesFolder); // Guarantees the folder exists
+
+        // Combine folder path with the original file name (e.g., image001.png)
+        string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+
+        // Override the default name and supply a stream that writes the file
+        args.ResourceFileName = resourcePath;
+        args.Stream = new FileStream(resourcePath, FileMode.Create);
+    }
+}
+```
+
+> **プロのコツ:** すべての画像を単一フォルダーに保存したい場合は、`Path.Combine(..., args.DocumentName)` を固定のフォルダー名に置き換えるだけです。
+
+## Step 3 – Markdown 保存オプションの設定
+
+ここで Aspose.Words に出力形式として Markdown を使用するよう指示し、先ほどのコールバックを組み込みます。このステップで **docx を markdown に変換** が実際に行われます。
+
+```csharp
+// Step 3: Prepare the MarkdownSaveOptions and attach the callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // This tells Aspose.Words to invoke our callback for every resource
+    ResourceSavingCallback = new ResourceSavingCallback()
 };
 ```
 
-> **Tip:** If you only need plain text without images, you could set `ExportImages = false`. But since we’re focusing on **how to extract images**, we keep the default.
+> **内部で何が起きているか？** ライブラリはドキュメントを走査し、段落のラン、テーブル、その他の要素を Markdown 構文に変換し、画像の書き込みは提供したコールバックに委譲します。
 
----
+## Step 4 – ドキュメントを Markdown として保存
 
-## ステップ 3: リソース保存コールバックを定義する (Extract Images from Docx)
-
-The callback is where we decide the filename and location for each extracted image. The example below creates a unique GUID‑based name inside a `resources` folder, ensuring no collisions even if the source document contains duplicate image names.
+最後に、markdown ファイルをディスクに書き出します。画像は前のステップで作成したフォルダーにすでに保存されています。
 
 ```csharp
-ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+// Step 4: Save the markdown file alongside the resources folder
+string markdownPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+document.Save(markdownPath, markdownOptions);
+
+Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
+Console.WriteLine("🖼️ Images extracted to the Resources folder.");
+```
+
+### 期待される結果
+
+* `WithImages.md` – すべての画像参照が `![Image](Resources/input.docx/image001.png)` のようになる、クリーンな markdown ファイル。  
+* `Resources/input.docx/` – 抽出されたすべての画像（PNG、JPEG など）を格納するサブフォルダー。
+
+markdown ファイルは任意のビューア（VS Code、GitHub、MkDocs など）で開くことができ、元の Word ファイルと同じ位置に画像が表示されます。
+
+## Markdown に変換せずに画像だけ抽出する方法（ボーナス）
+
+場合によっては画像だけが必要で、markdown は不要なことがあります。同じコールバックロジックを再利用し、`document.Save` を `SaveFormat.Html` など別の形式で呼び出すだけです。画像は同じフォルダーに保存され、HTML ファイルは後で破棄できます。
+
+```csharp
+HtmlSaveOptions htmlOptions = new HtmlSaveOptions
 {
-    // Determine the original file extension (e.g., .png, .jpeg)
-    string extension = Path.GetExtension(args.FileName);
-    
-    // Build a unique file name inside the "resources" directory
-    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-    
-    // Tell Aspose to write the image to this path
-    args.FileName = uniqueFileName;
-    args.Stream = new FileStream(Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-});
+    ResourceSavingCallback = new ResourceSavingCallback()
+};
+
+document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 ```
 
-> **GUID を使用する理由は？**  
-> When **how to extract images** from a docx, you often run into duplicate names like `image1.png`. GUIDs guarantee uniqueness, which is especially handy for automated pipelines that process many documents in one run.
+> **なぜ機能するか:** HTML 保存でもリソースコールバックが呼び出されるため、余計なコードなしで「画像抽出」の手順がすぐに実現できます。
 
----
+## よくある落とし穴と回避策
 
-## ステップ 4: 文書を Markdown として保存する (How to Save Markdown)
+| 問題 | 発生原因 | 対策 |
+|------|----------|------|
+| 画像の名前が重複してしまう | Word 内で複数の画像が同じ元ファイル名を持っているため。 | コールバック内で GUID もしくは連番を付加します (`args.ResourceFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";`). |
+| Markdown のリンクが存在しないフォルダーを指す | `Resources` フォルダーのパスが markdown ファイルからの相対位置として間違っているため。 | `Path.GetRelativePath` を使って相対パスを計算するか、上記のように markdown ファイルと同じ場所にフォルダーを置きます。 |
+| Aspose.Words が `FileNotFoundException` をスローする | ソースの `.docx` パスが間違っているため。 | `Document` を作成する前に `Path.GetFullPath` で絶対パスを確認します。 |
+| 大きなドキュメントでメモリ不足エラーが発生する | ライブラリがドキュメント全体をメモリに読み込むため。 | `Document.Load` の `FileStream`（ReadOnly モード）を受け取るオーバーロードを使ってストリーミングします。 |
 
-Now that the callback is ready, the final step is a one‑liner that writes the `.md` file and triggers the image extraction behind the scenes.
+## 完全動作例（コピー＆ペースト）
 
-```csharp
-// Export the Word document to Markdown
-sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
-```
-
-When this line executes, Aspose.Words:
-
-1. Generates a Markdown file (`doc.md`).  
-2. Calls the `ResourceSavingCallback` for every image, placing them in `resources/`.  
-3. Inserts Markdown image links (`![](resources/<guid>.png)`) into the `.md` file automatically.
-
----
-
-## 完全動作例
-
-Below is the complete program you can drop into a console app. Replace `YOUR_DIRECTORY` with the path where your source `.docx` lives and where you want the output files.
+以下はコンパイルして実行できる *全体* のプログラムです。`YOUR_DIRECTORY` を実際のフォルダーに置き換えてください。
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+using System;
 using System.IO;
 
-namespace WordToMarkdownDemo
+namespace DocxToMarkdown
 {
+    // Callback that saves each image to a resources folder
+    class ResourceSavingCallback : IResourceSavingCallback
+    {
+        public void ResourceSaving(ResourceSavingArgs args)
+        {
+            string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+            Directory.CreateDirectory(resourcesFolder);
+
+            string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+            args.ResourceFileName = resourcePath;
+            args.Stream = new FileStream(resourcePath, FileMode.Create);
+        }
+    }
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Load the source document that contains images or other resources
-            Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+            // 1️⃣ Load the DOCX
+            string docPath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+            Document document = new Document(docPath);
 
-            // 2️⃣ Prepare Markdown save options and define a callback for each external resource
-            MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+            // 2️⃣ Set up Markdown options with our callback
+            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                ResourceSavingCallback = new ResourceSavingCallback((sender, callbackArgs) =>
-                {
-                    // 3️⃣ Generate a unique file name for the resource and store it under a "resources" folder
-                    string extension = Path.GetExtension(callbackArgs.FileName);
-                    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-
-                    // 4️⃣ Write the resource to the desired output directory
-                    callbackArgs.FileName = uniqueFileName;
-                    callbackArgs.Stream = new FileStream(
-                        Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-                })
+                ResourceSavingCallback = new ResourceSavingCallback()
             };
 
-            // 5️⃣ Save the document as Markdown, letting the callback handle external resources
-            sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
+            // 3️⃣ Save as Markdown – images are extracted automatically
+            string mdPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+            document.Save(mdPath, mdOptions);
+
+            Console.WriteLine($"✅ Markdown saved to: {mdPath}");
+            Console.WriteLine("🖼️ Images extracted to the Resources folder.");
         }
     }
 }
 ```
 
-### 期待される出力
+プログラムを実行します（`dotnet run` または Visual Studio で **F5** を押す）と、成功を示すコンソールメッセージが表示されます。
 
-* **`doc.md`** – `![](resources/3f2c1a9e‑b4d5‑4a6e‑9c2f‑e7b9c8d1a2f3.png)` のような画像リンクを含む Markdown ファイル。  
-* **`resources/` フォルダ** – `input.docx` から抽出されたすべての画像が格納され、各画像は GUID と適切な拡張子で命名されています。
+## 出力のテスト
 
-Open `doc.md` in any Markdown viewer (VS Code, Typora, GitHub) and you’ll see the original layout, complete with pictures.
+`WithImages.md` を markdown プレビューアで開きます：
 
----
+```markdown
+# Sample Heading
 
-## よくある質問とエッジケース
+Here is an image extracted from the original Word file:
 
-### GUID なしでフラットなフォルダに画像を保存したい場合は？
-
-Simply replace the `uniqueFileName` line with something like:
-
-```csharp
-string baseName = Path.GetFileNameWithoutExtension(args.FileName);
-string uniqueFileName = $"resources/{baseName}{extension}";
+![Image](Resources/input.docx/image001.png)
 ```
 
-Be aware that duplicate names will overwrite each other—use this only when you’re sure the source doc has unique image names.
+画像が表示されれば、視覚コンテンツを保持したまま **markdown を保存する方法** に成功したことになります。表示されない場合は、コンソールに出力された相対パスを再確認してください。
 
-### 画像を外部ファイルではなく Base64 で埋め込むことはできますか？
+## ソリューションの拡張
 
-Yes. Set `args.Stream` to a `MemoryStream`, convert the bytes to a Base64 string, and then modify the Markdown link manually. This approach is handy for single‑file Markdown exports, but it inflates the file size.
+* **バッチ変換** – `.docx` ファイルが入ったディレクトリをループし、同じコールバックロジックを再利用します。  
+* **カスタム画像形式** – コールバック内で全画像を WebP に変換し、ファイルサイズを削減します。  
+* **並列処理** – 大規模バッチでは `Parallel.ForEach` を使用しますが、ファイルシステムの競合に注意してください。
 
-### 大容量文書（数百 MB）を処理する場合はどうなりますか？
-
-The callback streams each image directly to disk, so memory consumption stays low. However, you might want to increase the `FileStream` buffer size for better I/O performance on massive files.
-
-### .NET Core on Linux でも動作しますか？
-
-Absolutely. Aspose.Words is cross‑platform. Just ensure the target directory is writable and use forward slashes (`/`) in paths.
-
----
-
-## プロのコツと落とし穴
-
-* **Pro tip:** Run the conversion inside a `using` block for the `Document` and any `FileStream`s to guarantee proper disposal.  
-* **Watch out for:** If the `resources` folder doesn’t exist, the callback will throw a `DirectoryNotFoundException`. Create it beforehand with `Directory.CreateDirectory("YOUR_DIRECTORY/resources");`.  
-* **Performance tip:** If you’re processing many files in a batch, reuse a single `MarkdownSaveOptions` instance—only the callback changes per document.  
-* **Security note:** Never trust user‑uploaded `.docx` files without scanning—malicious macros can be embedded, though they won’t affect the Markdown conversion.
-
----
+これらすべてのバリエーションは、Word から **markdown を保存する方法** と、クリーンな **resources フォルダー作成** ワークフローという核心的な質問に答えています。
 
 ## 結論
 
-We’ve covered **how to save markdown** from a Word file, shown you how to **convert word to markdown**, and demonstrated a reliable way to **extract images from docx** (the core of **how to export docx** and **how to extract images**). With just a handful of lines, Aspose.Words handles the heavy lifting, letting you focus on the downstream workflow—whether that’s feeding a static site generator, archiving documentation, or feeding content into a headless CMS.
+これで、Word 文書から **markdown を保存する方法**、**docx を markdown に変換**、そして Aspose.Words を使って **Word から画像を抽出** する方法が分かりました。重要なのは `IResourceSavingCallback` で、各画像の保存先を完全に制御でき、プロジェクトの構成に合わせた **resources フォルダー** を作成できます。
 
-Ready to level up? Try swapping the `MarkdownSaveOptions` for `HtmlSaveOptions` to generate HTML instead, or plug the callback into a cloud function for on‑the‑fly conversions. The sky’s the limit once you’ve mastered the basics.
+実際に試してみて、フォルダー名を自分の慣例に合わせて調整すれば、ドキュメントや静的サイトジェネレーター、markdown と画像を一緒に保つ必要があるあらゆるシーンで使える堅牢なパイプラインが手に入ります。
 
-If you found this guide useful, give it a share, drop a comment with your use‑case, or explore Aspose’s other document‑processing capabilities like PDF conversion or DOCX merging. Happy coding!  
+---
 
-![Markdown 保存例](image.png "Markdown の保存方法")
+*コーディングを楽しんでください！ 問題があれば下にコメントを残すか、GitHub で呼びかけてください – すぐにデバッグセッションに応じます。*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

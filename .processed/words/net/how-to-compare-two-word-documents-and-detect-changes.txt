@@ -1,0 +1,7 @@
+Title: How to compare two Word documents and detect changes
+Slug: how-to-compare-two-word-documents-and-detect-changes
+Category: compare-documents
+ProcessedDate: 2026-09-21T15:45:27.869203
+SourceRepo: AI Search API
+Keywords: compare two word documents, compare docx files, compare word document versions, save comparison result, detect changes in word
+PRNumber: 282

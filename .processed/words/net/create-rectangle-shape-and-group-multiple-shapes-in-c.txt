@@ -1,0 +1,7 @@
+Title: Create rectangle shape and group multiple shapes in C#
+Slug: create-rectangle-shape-and-group-multiple-shapes-in-c
+Category: programming-with-shapes
+ProcessedDate: 2026-09-18T10:14:59.165587
+SourceRepo: AI Search API
+Keywords: create rectangle shape, add multiple shapes, add shapes to group, insert group shape
+PRNumber: 279

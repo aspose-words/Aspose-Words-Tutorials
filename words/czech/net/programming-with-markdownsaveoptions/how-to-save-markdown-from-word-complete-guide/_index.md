@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2026-02-23
-description: Naučte se uložit markdown ze souboru Word a také převést Word na markdown
-  při extrahování obrázků z docx v jednom běhu.
+date: 2026-01-05
+description: Naučte se, jak uložit markdown a převést soubor docx na markdown při
+  extrahování obrázků z Wordu. Zahrnuje krok za krokem vytvoření složky resources.
 draft: false
 keywords:
 - how to save markdown
-- convert word to markdown
-- extract images from docx
-- how to export docx
+- convert docx to markdown
+- extract images from word
 - how to extract images
+- create resources folder
 language: cs
-og_description: Jak uložit markdown z dokumentu Word? Tento tutoriál vám ukáže, jak
-  převést Word na markdown a extrahovat obrázky pomocí Aspose.Words.
-og_title: Jak uložit Markdown z Wordu – průvodce krok po kroku
+og_description: Jak uložit markdown ze souboru DOCX, extrahovat obrázky a vytvořit
+  složku resources pomocí Aspose.Words v C#.
+og_title: Jak uložit Markdown z Wordu – kompletní návod
 tags:
 - Aspose.Words
 - C#
-- Markdown conversion
+- Markdown
 title: Jak uložit Markdown z Wordu – kompletní průvodce
 url: /cs/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-guide/
 ---
@@ -28,206 +28,208 @@ url: /cs/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 
 # Jak uložit Markdown z Wordu – Kompletní průvodce
 
-Už jste se někdy zamýšleli **jak uložit markdown** z dokumentu Word, aniž byste přišli o obrázky, které jste vkládali hodiny? Nejste v tom sami. V mnoha projektech — generátorech blogů, pipelinech pro statické stránky nebo rychlých návrzích dokumentace — potřebujete čistý soubor Markdown *a* originální obrázky vytažené z .docx.  
+Už jste se někdy zamýšleli **jak uložit markdown** přímo z dokumentu Word, aniž byste přišli o vložené obrázky? Nejste v tom sami. V mnoha projektech potřebujeme **převést docx na markdown**, vytáhnout obrázky a mít vše úhledně v samostatné složce. Tento tutoriál vás provede čistým, opakovatelným řešením pomocí Aspose.Words pro .NET.
 
-Dobrá zpráva? S Aspose.Words pro .NET můžete **convert word to markdown** a **extract images from docx** v jedné přehledné operaci. V tomto tutoriálu projdeme každý řádek kódu, vysvětlíme, proč je každá část důležitá, a dokonce vám ukážeme, jak upravit proces pro okrajové případy, jako jsou vlastní složky s obrázky nebo velké dokumenty.
-
-Na konci tohoto průvodce budete schopni:
-
-* Uložit `.docx` jako soubor `.md` (to je část **how to save markdown**).  
-* Vytáhnout každý vložený obrázek ze zdrojového dokumentu do složky `resources`.  
-* Upravit callback, pokud potřebujete jiný pojmenovací schéma nebo chcete vložit obrázky jako base64.  
-
-Žádné externí nástroje, žádné ruční kopírování—pouze několik řádků C# a výkonná knihovna Aspose.Words.
-
----
+Probereme vše, co potřebujete: načtení `.docx`, extrakci obrázků, vytvoření **složky resources**, a nakonec zápis markdown souboru. Na konci budete mít připravený úryvek kódu, který můžete vložit do libovolné C# konzole nebo webové aplikace.
 
 ## Požadavky
 
 Než se pustíme dál, ujistěte se, že máte:
 
-* **.NET 6.0** nebo novější nainstalovaný (API funguje s .NET Framework, .NET Core a .NET 5+).  
-* **Aspose.Words for .NET** – můžete jej získat z NuGet pomocí `Install-Package Aspose.Words`.  
-* Vzorek souboru Word (`input.docx`), který obsahuje alespoň jeden obrázek — to nám umožní ověřit krok **extract images from docx**.  
+* .NET 6.0 nebo novější (kód funguje také s .NET Framework 4.6+).  
+* Licencovanou kopii **Aspose.Words pro .NET** – pro testování stačí bezplatná zkušební verze.  
+* Word soubor (`input.docx`) obsahující alespoň jeden obrázek.  
+* Základní znalosti C# a Visual Studia (nebo vašeho oblíbeného IDE).
 
-To je vše. Žádné další SDK, žádné složité nástroje příkazové řádky.
+Žádné další NuGet balíčky nejsou potřeba kromě Aspose.Words.
 
----
+## Krok 1 – Načtení zdrojového dokumentu
 
-## Krok 1: Načtení zdrojového dokumentu (How to Export Docx)
-
-Nejprve musíme načíst soubor Word do paměti. Aspose.Words zachází s dokumentem jako s objektem `Document`, který vám poskytuje plný přístup k jeho obsahu, stylům a vloženým zdrojům.
+Prvním krokem je načíst Word soubor do objektu `Aspose.Words.Document`. Tento objekt nám poskytuje plný přístup k obsahu dokumentu, včetně obrázků, které později extrahujeme.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 using System.IO;
 
-// Load the .docx you want to convert
-Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+// Adjust the path to point at your .docx file
+string sourcePath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+
+// Create the Document instance – this is where the magic starts
+Document document = new Document(sourcePath);
 ```
 
-> **Proč je to důležité:**  
-> Načtení souboru je část **how to export docx** pracovního postupu. Jakmile je dokument v objektu `Document`, můžete dotazovat odstavce, tabulky nebo—co je pro nás nejdůležitější—jeho vložené obrázky.
+> **Proč je to důležité:** Načtení souboru jako `Document` abstrahuje složitou strukturu OOXML a umožňuje pracovat s vysoce‑úrovňovými objekty, jako jsou obrázky, tabulky a odstavce.
 
----
+## Krok 2 – Implementace callbacku pro ukládání zdrojů
 
-## Krok 2: Nastavení možností uložení Markdown (Convert Word to Markdown)
-
-Aspose.Words poskytuje třídu `MarkdownSaveOptions`, která vám umožňuje řídit, jak konverze probíhá. Klíčovou vlastností pro nás je `ResourceSavingCallback`, která se spustí pokaždé, když knihovna chce zapsat externí soubor (například obrázek).
+Aspose.Words umožňuje zasáhnout do procesu ukládání pomocí `IResourceSavingCallback`. Tento callback použijeme k určení, kam se každý extrahovaný obrázek uloží. Vytvoří **složku resources** pojmenovanou podle zdrojového dokumentu a zapíše tam každý soubor obrázku.
 
 ```csharp
-// Prepare options for Markdown export
-MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+// Step 2: Define a callback that decides where each resource (image) is stored
+class ResourceSavingCallback : IResourceSavingCallback
 {
-    // This callback will be invoked for each external resource (e.g., images)
-    ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+    public void ResourceSaving(ResourceSavingArgs args)
     {
-        // We'll fill this in in the next step
-    })
+        // Build a folder path like: YOUR_DIRECTORY/Resources/input.docx
+        string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+        Directory.CreateDirectory(resourcesFolder); // Guarantees the folder exists
+
+        // Combine folder path with the original file name (e.g., image001.png)
+        string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+
+        // Override the default name and supply a stream that writes the file
+        args.ResourceFileName = resourcePath;
+        args.Stream = new FileStream(resourcePath, FileMode.Create);
+    }
+}
+```
+
+> **Tip:** Pokud potřebujete plochou strukturu (všechny obrázky v jedné složce), jednoduše nahraďte `Path.Combine(..., args.DocumentName)` konstantním názvem složky.
+
+## Krok 3 – Nastavení možností ukládání do Markdownu
+
+Nyní řekneme Aspose.Words, aby použil Markdown jako výstupní formát a zapojíme náš callback. Tento krok je místem, kde se skutečně provádí operace **convert docx to markdown**.
+
+```csharp
+// Step 3: Prepare the MarkdownSaveOptions and attach the callback
+MarkdownSaveOptions markdownOptions = new MarkdownSaveOptions
+{
+    // This tells Aspose.Words to invoke our callback for every resource
+    ResourceSavingCallback = new ResourceSavingCallback()
 };
 ```
 
-> **Tip:** Pokud potřebujete jen prostý text bez obrázků, můžete nastavit `ExportImages = false`. Protože se ale zaměřujeme na **how to extract images**, ponecháváme výchozí nastavení.
+> **Co se děje pod kapotou?** Knihovna prochází dokument, převádí odstavce, tabulky a další elementy na syntaxi Markdown, zatímco každou operaci zápisu obrázku deleguje na náš callback.
 
----
+## Krok 4 – Uložení dokumentu jako Markdown
 
-## Krok 3: Definice callbacku pro ukládání zdrojů (Extract Images from Docx)
-
-Callback je místo, kde rozhodujeme o názvu souboru a umístění pro každý extrahovaný obrázek. Níže uvedený příklad vytvoří jedinečný název založený na GUID uvnitř složky `resources`, čímž zajistí, že nedojde ke kolizím i v případě, že zdrojový dokument obsahuje duplicitní názvy obrázků.
+Nakonec zapíšeme markdown soubor na disk. Obrázky už budou uloženy do složky, kterou jsme vytvořili v předchozím kroku.
 
 ```csharp
-ResourceSavingCallback = new ResourceSavingCallback((sender, args) =>
+// Step 4: Save the markdown file alongside the resources folder
+string markdownPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+document.Save(markdownPath, markdownOptions);
+
+Console.WriteLine($"✅ Markdown saved to: {markdownPath}");
+Console.WriteLine("🖼️ Images extracted to the Resources folder.");
+```
+
+### Očekávaný výsledek
+
+* `WithImages.md` – čistý markdown soubor, kde každá reference na obrázek vypadá takto: `![Image](Resources/input.docx/image001.png)`.  
+* `Resources/input.docx/` – podsložka obsahující všechny extrahované obrázky (PNG, JPEG, atd.).
+
+Markdown soubor můžete otevřít v libovolném prohlížeči (VS Code, GitHub, MkDocs) a obrázky se zobrazí přesně na místech, kde byly v původním Word souboru.
+
+## Jak extrahovat obrázky bez konverze do Markdownu (bonus)
+
+Někdy potřebujete jen obrázky, ne markdown. Můžete znovu použít stejnou logiku callbacku, ale zavolat `document.Save` s jiným formátem, například `SaveFormat.Html`. Obrázky se uloží do stejné složky a HTML soubor můžete po dokončení smazat.
+
+```csharp
+HtmlSaveOptions htmlOptions = new HtmlSaveOptions
 {
-    // Determine the original file extension (e.g., .png, .jpeg)
-    string extension = Path.GetExtension(args.FileName);
-    
-    // Build a unique file name inside the "resources" directory
-    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-    
-    // Tell Aspose to write the image to this path
-    args.FileName = uniqueFileName;
-    args.Stream = new FileStream(Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-});
+    ResourceSavingCallback = new ResourceSavingCallback()
+};
+
+document.Save(Path.Combine("YOUR_DIRECTORY", "temp.html"), htmlOptions);
 ```
 
-> **Proč používat GUIDy?**  
-> Když **how to extract images** z docx, často narazíte na duplicitní názvy jako `image1.png`. GUIDy zaručují jedinečnost, což je obzvláště užitečné pro automatizované pipeline, které zpracovávají mnoho dokumentů najednou.
+> **Proč to funguje:** Ukládání do HTML také spouští resource callback, takže získáte rychlé řešení „jak extrahovat obrázky“ bez dalšího kódu.
 
----
+## Časté problémy a jak se jim vyhnout
 
-## Krok 4: Uložení dokumentu jako Markdown (How to Save Markdown)
+| Problém | Proč k tomu dochází | Řešení |
+|-------|----------------|-----|
+| Obrázky mají duplicitní názvy | Více obrázků sdílí stejný původní název uvnitř Wordu. | Přidejte GUID nebo inkrementální čítač v callbacku (`args.ResourceFileName = $"img_{Guid.NewGuid()}{Path.GetExtension(args.ResourceFileName)}";`). |
+| Odkazy v Markdownu ukazují na neexistující složku | Cesta ke složce `Resources` je špatně relativní k markdown souboru. | Použijte `Path.GetRelativePath` pro výpočet relativní cesty, nebo udržujte složku vedle markdown souboru, jak je ukázáno výše. |
+| Aspose.Words vyhodí `FileNotFoundException` | Cesta ke zdrojovému `.docx` je nesprávná. | Ověřte absolutní cestu pomocí `Path.GetFullPath` před vytvořením `Document`. |
+| Velké dokumenty způsobují chyby out‑of‑memory | Knihovna načítá celý dokument do paměti. | Načtěte dokument pomocí přetížených metod `Document.Load`, které přijímají `FileStream` v režimu `ReadOnly`. |
 
-Nyní, když je callback připraven, posledním krokem je jednorázová instrukce, která zapíše soubor `.md` a na pozadí spustí extrakci obrázků.
+## Úplný funkční příklad (kopíruj‑vlož)
 
-```csharp
-// Export the Word document to Markdown
-sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
-```
-
-Když se tento řádek spustí, Aspose.Words:
-
-1. Vygeneruje soubor Markdown (`doc.md`).  
-2. Zavolá `ResourceSavingCallback` pro každý obrázek a umístí jej do `resources/`.  
-3. Automaticky vloží odkazy na obrázky v Markdownu (`![](resources/<guid>.png)`) do souboru `.md`.
-
----
-
-## Kompletní funkční příklad
-
-Níže je kompletní program, který můžete vložit do konzolové aplikace. Nahraďte `YOUR_DIRECTORY` cestou, kde se nachází váš zdrojový `.docx` a kam chcete uložit výstupní soubory.
+Níže je *celý* program, který můžete zkompilovat a spustit. Nahraďte `YOUR_DIRECTORY` skutečnou cestou na vašem počítači.
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+using System;
 using System.IO;
 
-namespace WordToMarkdownDemo
+namespace DocxToMarkdown
 {
+    // Callback that saves each image to a resources folder
+    class ResourceSavingCallback : IResourceSavingCallback
+    {
+        public void ResourceSaving(ResourceSavingArgs args)
+        {
+            string resourcesFolder = Path.Combine("YOUR_DIRECTORY", "Resources", args.DocumentName);
+            Directory.CreateDirectory(resourcesFolder);
+
+            string resourcePath = Path.Combine(resourcesFolder, args.ResourceFileName);
+            args.ResourceFileName = resourcePath;
+            args.Stream = new FileStream(resourcePath, FileMode.Create);
+        }
+    }
+
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Load the source document that contains images or other resources
-            Document sourceDocument = new Document("YOUR_DIRECTORY/input.docx");
+            // 1️⃣ Load the DOCX
+            string docPath = Path.Combine("YOUR_DIRECTORY", "input.docx");
+            Document document = new Document(docPath);
 
-            // 2️⃣ Prepare Markdown save options and define a callback for each external resource
-            MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+            // 2️⃣ Set up Markdown options with our callback
+            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
             {
-                ResourceSavingCallback = new ResourceSavingCallback((sender, callbackArgs) =>
-                {
-                    // 3️⃣ Generate a unique file name for the resource and store it under a "resources" folder
-                    string extension = Path.GetExtension(callbackArgs.FileName);
-                    string uniqueFileName = $"resources/{Guid.NewGuid()}{extension}";
-
-                    // 4️⃣ Write the resource to the desired output directory
-                    callbackArgs.FileName = uniqueFileName;
-                    callbackArgs.Stream = new FileStream(
-                        Path.Combine("YOUR_DIRECTORY", uniqueFileName), FileMode.Create);
-                })
+                ResourceSavingCallback = new ResourceSavingCallback()
             };
 
-            // 5️⃣ Save the document as Markdown, letting the callback handle external resources
-            sourceDocument.Save("YOUR_DIRECTORY/doc.md", markdownSaveOptions);
+            // 3️⃣ Save as Markdown – images are extracted automatically
+            string mdPath = Path.Combine("YOUR_DIRECTORY", "WithImages.md");
+            document.Save(mdPath, mdOptions);
+
+            Console.WriteLine($"✅ Markdown saved to: {mdPath}");
+            Console.WriteLine("🖼️ Images extracted to the Resources folder.");
         }
     }
 }
 ```
 
-### Očekávaný výstup
+Spusťte program (`dotnet run` nebo stiskněte **F5** ve Visual Studiu) a v konzoli uvidíte zprávy potvrzující úspěch.
 
-* **`doc.md`** – soubor Markdown s odkazy na obrázky jako `![](resources/3f2c1a9e‑b4d5‑4a6e‑9c2f‑e7b9c8d1a2f3.png)`.  
-* **složka `resources/`** – obsahuje každý obrázek extrahovaný z `input.docx`, každý pojmenovaný pomocí GUID a s odpovídající příponou.
+## Testování výstupu
 
-Otevřete `doc.md` v libovolném prohlížeči Markdownu (VS Code, Typora, GitHub) a uvidíte původní rozvržení, včetně obrázků.
+Otevřete `WithImages.md` v markdown prohlížeči:
 
----
+```markdown
+# Sample Heading
 
-## Časté otázky a okrajové případy
+Here is an image extracted from the original Word file:
 
-### Co když chci obrázky v ploché složce bez GUIDů?
-
-Jednoduše nahraďte řádek `uniqueFileName` něčím jako:
-
-```csharp
-string baseName = Path.GetFileNameWithoutExtension(args.FileName);
-string uniqueFileName = $"resources/{baseName}{extension}";
+![Image](Resources/input.docx/image001.png)
 ```
 
-Uvědomte si, že duplicitní názvy se přepíšou — použijte to jen tehdy, když jste si jisti, že zdrojový dokument má jedinečné názvy obrázků.
+Pokud se obrázek zobrazí, úspěšně jste **jak uložit markdown** při zachování vizuálního obsahu. Pokud ne, zkontrolujte relativní cestu vytištěnou v konzoli.
 
-### Můžu vložit obrázky jako Base64 místo externích souborů?
+## Rozšíření řešení
 
-Ano. Nastavte `args.Stream` na `MemoryStream`, převedete bajty na řetězec Base64 a poté ručně upravíte odkaz v Markdownu. Tento přístup je užitečný pro exporty Markdownu do jediného souboru, ale zvětší velikost souboru.
+* **Dávková konverze** – Procházejte adresář s `.docx` soubory a opakujte stejnou logiku callbacku.  
+* **Vlastní formáty obrázků** – V callbacku převádějte všechny obrázky na WebP pro menší velikost souboru.  
+* **Paralelní zpracování** – Použijte `Parallel.ForEach` pro velké dávky, ale dejte pozor na souběžný přístup k souborovému systému.
 
-### Jak to funguje u velkých dokumentů (stovky MB)?
-
-Callback streamuje každý obrázek přímo na disk, takže spotřeba paměti zůstává nízká. Nicméně můžete chtít zvýšit velikost bufferu `FileStream` pro lepší I/O výkon u masivních souborů.
-
-### Funguje to s .NET Core na Linuxu?
-
-Rozhodně. Aspose.Words je multiplatformní. Stačí zajistit, aby cílová složka byla zapisovatelná a v cestách používat lomítka (`/`).
-
----
-
-## Pro tipy a úskalí
-
-* **Pro tip:** Proveďte konverzi uvnitř bloku `using` pro `Document` a všechny `FileStream`y, aby byl zajištěn správný uvolnění prostředků.  
-* **Dejte si pozor na:** Pokud složka `resources` neexistuje, callback vyhodí `DirectoryNotFoundException`. Vytvořte ji předem pomocí `Directory.CreateDirectory("YOUR_DIRECTORY/resources");`.  
-* **Tip pro výkon:** Pokud zpracováváte mnoho souborů najednou, znovu použijte jedinou instanci `MarkdownSaveOptions` — pouze callback se mění pro každý dokument.  
-* **Bezpečnostní poznámka:** Nikdy nedůvěřujte nahraným `.docx` souborům bez skenování — mohou obsahovat škodlivé makra, i když neovlivní konverzi do Markdownu.
-
----
+Všechny tyto varianty stále odpovídají hlavní otázce: **jak uložit markdown** z Wordu s čistým workflow **create resources folder**.
 
 ## Závěr
 
-Probrali jsme **how to save markdown** z Word souboru, ukázali vám, jak **convert word to markdown**, a předvedli spolehlivý způsob **extract images from docx** (jádro **how to export docx** a **how to extract images**). Pouhých několik řádků kódu umožní Aspose.Words zvládnout těžkou práci, takže se můžete soustředit na následný workflow — ať už jde o napájení generátoru statických stránek, archivaci dokumentace nebo vložení obsahu do headless CMS.
+Nyní už víte **jak uložit markdown** z dokumentu Word, **convert docx to markdown** a **extrahovat obrázky z Wordu** pomocí Aspose.Words. Klíčovým prvkem je `IResourceSavingCallback`, který vám dává úplnou kontrolu nad tím, kam se každá obrázková položka uloží, a umožňuje vám **create resources folder** strukturu odpovídající vašemu projektu.
 
-Připraveni posunout se dál? Zkuste vyměnit `MarkdownSaveOptions` za `HtmlSaveOptions` a generovat HTML, nebo zapojte callback do cloudové funkce pro konverze za běhu. Jakmile ovládnete základy, možnosti jsou neomezené.
+Vyzkoušejte to, upravte pojmenování složek podle svých konvencí a získáte robustní pipeline pro dokumentaci, generátory statických stránek nebo jakýkoli scénář, kde markdown a obrázky musí zůstat spolu.
 
-Pokud se vám tento průvodce hodil, sdílejte ho, zanechte komentář s vaším použitím, nebo prozkoumejte další možnosti zpracování dokumentů od Aspose, jako je konverze PDF nebo slučování DOCX. Šťastné kódování!  
+---
 
-![how to save markdown example](image.png "how to save markdown")
+*Šťastné kódování! Pokud narazíte na problémy, zanechte komentář níže nebo mě kontaktujte na GitHubu – rád pomohu s rychlým laděním.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
