@@ -61,6 +61,9 @@ Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und Bilder als Bas
 ### [Wie man Markdown aus Word speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern, inklusive Codebeispielen und Tipps für optimale Ergebnisse.
 
+### [Wie man Markdown aus Word speichert – Vollständige Anleitung](./how-to-save-markdown-from-word-complete-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente vollständig als Markdown speichern – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
+
 ### [Wie man LaTeX exportiert: DOCX nach Markdown & TXT konvertieren](./how-to-export-latex-convert-docx-to-markdown-txt/)
 Erfahren Sie, wie Sie DOCX‑Dateien mit LaTeX‑Inhalten in Markdown und TXT exportieren.
 
@@ -72,6 +75,12 @@ Erfahren Sie, wie Sie Bilder aus Word‑Dokumenten extrahieren und beim Konverti
 
 ### [Word in Markdown konvertieren – Vollständige C#‑Anleitung mit Bildextraktion](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
 Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung in C#.
+
+### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Erfahren Sie, wie Sie LaTeX‑Formeln aus Word‑Dokumenten extrahieren und als Markdown mit LaTeX‑Syntax speichern.
+
+### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
 
 ### [Word in Markdown konvertieren – Vollständige Anleitung mit Bildextraktion](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
@@ -133,15 +142,6 @@ Erfahren Sie, wie Sie DOCX‑Dateien mit Bildern in Markdown exportieren – kom
 
 ### [Wie man Markdown aus DOCX exportiert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie DOCX‑Dateien in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
-
-### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Erfahren Sie, wie Sie LaTeX‑Formeln aus Word‑Dokumenten extrahieren und als Markdown mit korrekter Formatierung speichern.
-
-### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
-Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
-
-### [Wie man Markdown aus Word speichert – Vollständige Anleitung](./how-to-save-markdown-from-word-complete-guide/)
-Erfahren Sie, wie Sie Markdown aus Word‑Dokumenten speichern – komplette Schritt‑für‑Schritt‑Anleitung in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

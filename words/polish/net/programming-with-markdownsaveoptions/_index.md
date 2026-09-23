@@ -53,9 +53,6 @@ Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako Markdown i 
 ### [Jak wyeksportować Markdown z Worda – Kompletny przewodnik C#](./how-to-export-markdown-from-word-complete-c-guide/)
 Kompletny przewodnik C# pokazujący, jak wyeksportować dokumenty Word do formatu Markdown przy użyciu Aspose.Words.
 
-### [Jak zapisać Markdown z Worda – Kompletny przewodnik C#](./how-to-save-markdown-from-word-complete-guide/)
-Kompletny przewodnik C# pokazujący, jak zapisać dokument Word jako plik Markdown przy użyciu Aspose.Words.
-
 ### [Jak zapisać Markdown z DOCX – Przewodnik krok po kroku](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Kompletny przewodnik krok po kroku, jak zapisać plik DOCX jako Markdown przy użyciu Aspose.Words dla .NET.
 
@@ -71,6 +68,9 @@ Kompletny przewodnik C# pokazujący, jak wyeksportować pliki DOCX do Markdown w
 ### [Jak zapisać Markdown z Worda – Kompletny przewodnik C#](./how-to-save-markdown-from-word-complete-c-guide/)
 Kompletny przewodnik C# pokazujący, jak zapisać dokument Word w formacie Markdown.
 
+### [Jak zapisać Markdown z Worda – Kompletny przewodnik](./how-to-save-markdown-from-word-complete-guide/)
+Kompletny przewodnik pokazujący, jak zapisać dokument Word w formacie Markdown.
+
 ### [Jak wyeksportować LaTeX: konwertuj DOCX do Markdown i TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 Dowiedz się, jak wyeksportować równania LaTeX, konwertując pliki DOCX na formaty Markdown oraz TXT przy użyciu Aspose.Words dla .NET.
 
@@ -79,6 +79,9 @@ Dowiedz się, jak automatycznie zmieniać nazwy obrazów przy konwersji dokument
 
 ### [Zapisz obrazy Word – konwertuj Word do Markdown przy użyciu Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 Dowiedz się, jak wyodrębnić obrazy z dokumentu Word i zapisać je podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
+
+### [Jak wyeksportować LaTeX z Worda – konwertuj DOCX do Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+Kompletny przewodnik C# pokazujący, jak wyeksportować równania LaTeX z dokumentów Word do formatu Markdown.
 
 ### [Konwertuj Word do Markdown – Kompletny przewodnik z wyodrębnianiem obrazów](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Kompletny przewodnik C# pokazujący, jak konwertować dokumenty Word do Markdown i wyodrębniać obrazy przy użyciu Aspose.Words.
@@ -124,9 +127,6 @@ Dowiedz się, jak konwertować pliki DOCX do formatu Markdown, zachowując równ
 
 ### [Zapisz obrazy Word podczas konwertowania Word na Markdown – Kompletny przewodnik C#](./save-word-images-while-converting-word-to-markdown-complete/)
 Kompletny przewodnik C# pokazujący, jak wyodrębniać i zapisywać obrazy z dokumentów Word podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
-
-### [Jak wyeksportować LaTeX z Worda – konwertuj DOCX do Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
-Dowiedz się, jak wyeksportować równania LaTeX z dokumentu Word, konwertując DOCX do formatu Markdown przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

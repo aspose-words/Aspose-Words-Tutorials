@@ -27,6 +27,7 @@
 | [建立可存取的 PDF 並將 Word 轉換為 Markdown – 完整 C# 指南](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/) |示範如何使用 Aspose.Words for .NET 產生符合無障礙標準的 PDF，並將 Word 文件轉換為 Markdown，完整 C# 範例。 |
 | [如何使用 Markdown：將 DOCX 轉換為含 LaTeX 方程式的 Markdown](./how-to-use-markdown-convert-docx-to-markdown-with-latex-equa/) |示範如何使用 Aspose.Words for .NET 將含 LaTeX 方程式的 DOCX 文件匯出為 Markdown 格式。 |
 | [如何使用 Aspose – 將 DOCX 轉換為含 LaTeX 方程式的 Markdown](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 文件轉換為包含 LaTeX 方程式的 Markdown，提供完整範例程式碼。 |
+| [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/) |示範如何使用 Aspose.Words for .NET 從 Word 匯出 LaTeX，將 DOCX 轉換為 Markdown。 |
 | [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown 與 TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) |示範如何使用 Aspose.Words for .NET 從 Word 匯出 LaTeX，並將 DOCX 轉換為 Markdown 與 TXT 格式。 |
 | [將 docx 轉換為 markdown – 步驟說明 C# 指南](./convert-docx-to-markdown-step-by-step-c-guide/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 文件逐步轉換為 Markdown 格式。 |
 | [將 DOCX 轉換為 Markdown – 使用 Aspose.Words 的完整指南](./convert-docx-to-markdown-complete-guide-using-aspose-words/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 完整轉換為 Markdown，提供詳細步驟與範例程式碼。 |
@@ -61,7 +62,6 @@
 | [如何在 C# 中使用回呼 – 將 DOCX 轉換為 Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/) |示範如何在 C# 中使用回呼函式將 DOCX 文件轉換為 Markdown，提供完整步驟與範例程式碼。 |
 | [在將 DOCX 轉換為 Markdown 時判斷檔案副檔名 – 完整指南](./determine-file-extension-while-converting-docx-to-markdown-c/) |示範如何在使用 Aspose.Words for .NET 將 DOCX 轉換為 Markdown 時，正確判斷並設定輸出檔案的副檔名。 |
 | [在將 Word 轉換為 Markdown 時保存圖像 – 完整 C# 指南](./save-word-images-while-converting-word-to-markdown-complete/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 Markdown 時，同時保存所有圖像，提供完整範例程式碼。 |
-| [如何從 Word 匯出 LaTeX – 將 DOCX 轉換為 Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/) |示範如何使用 Aspose.Words for .NET 從 Word 匯出 LaTeX，並將 DOCX 轉換為 Markdown。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
