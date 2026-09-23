@@ -46,8 +46,9 @@ Postępując zgodnie z tymi samouczkami, będziesz w stanie w pełni wykorzysta�
 | [Uzyskaj pozycję w tabeli](./get-table-position/) | Dowiedz się, jak określić położenie tabeli w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z naszego przewodnika krok po kroku. |
 | [Uzyskaj pozycję pływającego stołu](./get-floating-table-position/) | Dowiedz się, jak uzyskać pozycje tabeli pływającej w dokumentach Worda za pomocą Aspose.Words dla .NET. Ten szczegółowy przewodnik krok po kroku przeprowadzi Cię przez wszystko, co musisz wiedzieć. |
 | [Pozycja pływającego stołu](./floating-table-position/) | Dowiedz się, jak kontrolować pozycję zmienną tabel w dokumentach programu Word za pomocą pakietu Aspose.Words dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku. |
-| [Ustaw względną pozycję poziomą lub pionową](./set-relative-horizontal-or-vertical-position/) Dowiedz się, jak ustawić względne położenie poziome i pionowe tabel w dokumentach programu .NET, korzystając z tego przewodnika krok po kroku. |
+| [Ustaw względną pozycję poziomą lub pionową](./set-relative-horizontal-or-vertical-position/) Dowiedz się, jak ustawić względne położenie poziome i pionowe tabel w dokumentach programu Word za pomocą Aspose.Words dla platformy .NET, korzystając z tego przewodnika krok po kroku. |
 | [Ukryj wiersz w tabeli za pomocą C# – prosty przewodnik usuwania wierszy tabeli](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Dowiedz się, jak ukrywać i usuwać wiersze w tabelach Word przy użyciu Aspose.Words dla .NET i C# w prostym przewodniku krok po kroku. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
