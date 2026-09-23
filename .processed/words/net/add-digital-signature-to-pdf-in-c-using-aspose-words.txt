@@ -1,0 +1,7 @@
+Title: Add digital signature to PDF in C# using Aspose.Words
+Slug: add-digital-signature-to-pdf-in-c-using-aspose-words
+Category: programming-with-digital-signatures
+ProcessedDate: 2026-08-11T07:19:08.246349
+SourceRepo: AI Search API
+Keywords: add digital signature to pdf, convert docx to signed pdf, save document as signed pdf
+PRNumber: 249

@@ -1,0 +1,7 @@
+Title: Create Word Document Python – Add Shadow to Shape Guide
+Slug: create-word-document-python-add-shadow-to-shape-guide
+Category: images-shapes
+ProcessedDate: 2026-06-05T15:48:53.162844
+SourceRepo: AI Search API
+Keywords: create word document python, how to add shadow, add shadow to shape, apply shadow effect word, insert shape with shadow
+PRNumber: 200

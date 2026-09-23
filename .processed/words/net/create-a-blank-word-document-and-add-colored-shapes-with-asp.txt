@@ -1,0 +1,7 @@
+Title: Create a blank Word document and add colored shapes with Aspose.Words
+Slug: create-a-blank-word-document-and-add-colored-shapes-with-asp
+Category: programming-with-shapes
+ProcessedDate: 2026-09-21T15:44:45.854815
+SourceRepo: AI Search API
+Keywords: create blank word document, set shape size, save docx file, set shape position, set shape color
+PRNumber: 282

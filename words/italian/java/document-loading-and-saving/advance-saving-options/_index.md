@@ -1,10 +1,11 @@
 ---
-date: 2025-12-19
-description: Impara a salvare Word con password, controllare la compressione dei metafile
-  e gestire i punti elenco con immagine usando Aspose.Words per Java.
+date: 2026-02-22
+description: Scopri come salvare Word con password e utilizzare opzioni di salvataggio
+  avanzate come la gestione dei metafile e il controllo dei puntini immagine con Aspose.Words
+  per Java.
 linktitle: Saving Documents in Various Formats with
 second_title: Aspose.Words Java Document Processing API
-title: Salva Word con password usando Aspose.Words per Java
+title: Salva Word con password e opzioni avanzate – Aspose.Words per Java
 url: /it/java/document-loading-and-saving/advance-saving-options/
 weight: 14
 ---
@@ -15,45 +16,41 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salva Word con Password e Opzioni Avanzate usando Aspose.Words per Java
+# Salva Word con Password e Opzioni Avanzate – Aspose.Words per Java
 
-## Guida Tutoriale Passo‑Passo: Salva Word con Password e Altre Opzioni Avanzate di Salvataggio
-
-Nel mondo digitale di oggi, gli sviluppatori spesso hanno bisogno di proteggere i file Word, controllare come vengono salvati gli oggetti incorporati o rimuovere i punti elenco immagine indesiderati. **Salvare un documento Word con una password** è un modo semplice ma potente per proteggere i dati sensibili, e Aspose.Words per Java lo rende senza sforzo. In questa guida vedremo come crittografare un documento, impedire la compressione di metafili piccoli e disabilitare i punti elenco immagine—così potrai regolare con precisione come vengono salvati i tuoi file Word.
+Nelle moderne applicazioni Java, **saving Word with password** è una necessità comune per proteggere contenuti sensibili. Aspose.Words per Java non solo consente di crittografare i documenti, ma offre anche un controllo dettagliato sulla compressione dei metafile, i bullet di immagine e molte altre funzionalità di salvataggio. In questo tutorial passo‑paso esamineremo le opzioni di *advanced saving options* più utili che è possibile applicare con l'API Aspose.Words per Java.
 
 ## Risposte Rapide
-- **Come salvo un documento Word con una password?** Usa `DocSaveOptions.setPassword()` prima di chiamare `doc.save()`.  
-- **Posso impedire la compressione di metafili piccoli?** Sì, imposta `saveOptions.setAlwaysCompressMetafiles(false)`.  
-- **È possibile escludere i punti elenco immagine dal file salvato?** Assolutamente—usa `saveOptions.setSavePictureBullet(false)`.  
-- **È necessaria una licenza per utilizzare queste funzionalità?** È richiesta una licenza valida di Aspose.Words per Java per l'uso in produzione.  
-- **Quale versione di Java è supportata?** Aspose.Words funziona con Java 8 e versioni successive.
+- **Come aggiungere una password a un file Word?** Usa `DocSaveOptions.setPassword("yourPassword")` prima di chiamare `doc.save()`.  
+- **Posso impedire la compressione dei metafile?** Imposta `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **È possibile escludere i bullet di immagine?** Sì, chiama `saveOptions.setSavePictureBullet(false)`.  
+- **È necessaria una licenza per queste funzionalità?** Una versione di prova è sufficiente per la valutazione; è necessaria una licenza commerciale per la produzione.  
+- **Quale prodotto Aspose copre questa funzionalità?** Aspose.Words per Java — la libreria leader per le attività di **aspose words document saving**.
 
-## Che cosa significa “salvare Word con password”?
-Salvare un documento Word con una password cripta il contenuto del file, richiedendo la password corretta per aprirlo in Microsoft Word o in qualsiasi visualizzatore compatibile. Questa funzionalità è essenziale per proteggere rapporti riservati, contratti o qualsiasi dato che deve rimanere privato.
+## Cos'è “save word with password”?
+Salvare un documento Word con una password significa crittografare il file in modo che solo gli utenti che conoscono la password possano aprirlo, modificarlo o stamparlo. Questo livello di sicurezza è essenziale per rapporti riservati, contratti o qualsiasi dato che debba rimanere privato.
 
-## Perché usare Aspose.Words per Java per questo compito?
-- **Controllo completo** – Puoi impostare password, opzioni di compressione e gestione dei punti elenco tutto in una singola chiamata API.  
-- **Nessun Microsoft Office richiesto** – Funziona su qualsiasi piattaforma che supporta Java.  
-- **Alte prestazioni** – Ottimizzato per documenti di grandi dimensioni e elaborazione batch.
+## Perché utilizzare le funzionalità di salvataggio di Aspose.Words?
+Aspose.Words offre un ricco insieme di opzioni di **aspose words document saving** che vanno ben oltre la semplice esportazione di file. Puoi controllare la compressione, la gestione delle immagini e persino decidere se incorporare i bullet di immagine — tutto senza uscire dal tuo codice Java.
 
 ## Prerequisiti
 - Java 8 o versioni successive installate.  
 - Libreria Aspose.Words per Java aggiunta al tuo progetto (Maven/Gradle o JAR manuale).  
-- Una licenza valida di Aspose.Words per la produzione (disponibile prova gratuita).
+- Familiarità di base con gli IDE Java (IntelliJ, Eclipse, ecc.).
 
 ## Guida Passo‑Passo
 
-### 1. Crea un documento semplice
-First, create a new `Document` and add some text. This will be the file we later protect with a password.
+### Passo 1: Crea un documento semplice
+Per prima cosa, creiamo un nuovo `Document` e aggiungiamo del testo. Questo sarà il file di base che successivamente proteggeremo con una password.
 
 ```java
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.write("Hello world!");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.write("Hello world!");
 ```
 
-### 2. Cifra il documento – **salvare Word con password**
-Now we configure `DocSaveOptions` to embed a password. When the file is opened, Word will prompt for this password.
+### Passo 2: Salva Word con password
+Ora crittografiamo il documento. L'oggetto `DocSaveOptions` ci consente di specificare la password e altre preferenze di salvataggio.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -63,8 +60,10 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-### 3. Non comprimere metafili piccoli
-Metafiles (such as EMF/WMF) are often compressed automatically. If you need the original quality, disable compression:
+> **Suggerimento professionale:** Conserva le password in modo sicuro (ad esempio, usando un vault) e non inserirle mai direttamente nel codice di produzione.
+
+### Passo 3: Non comprimere i metafile piccoli
+Se il tuo documento contiene grafica vettoriale (ad esempio, oggetti di equazioni), potresti preferire mantenerli non compressi per una migliore qualità. L'esempio seguente disabilita la compressione automatica.
 
 ```java
 @Test
@@ -78,8 +77,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-### 4. Escludi i punti elenco immagine dal file salvato
-Picture bullets can increase file size. Use the following option to omit them during saving:
+### Passo 4: Escludi i bullet di immagine dal file salvato
+I bullet di immagine possono aumentare la dimensione del file. Se non ti servono, disattivali con `setSavePictureBullet(false)`.
 
 ```java
 @Test
@@ -93,8 +92,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-### 5. Codice sorgente completo per riferimento
-Below is the complete, ready‑to‑run example that demonstrates all three advanced saving options together.
+### Passo 5: Codice sorgente completo per riferimento
+Di seguito trovi il codice sorgente completo e eseguibile che dimostra tutte e tre le opzioni di salvataggio avanzate insieme.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -124,37 +123,48 @@ public void doNotSavePictureBullet() throws Exception {
 		saveOptions.setSavePictureBullet(false);
 	}
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
+}
 ```
 
-## Problemi Comuni & Risoluzione
-- **Password non applicata** – Assicurati di utilizzare `DocSaveOptions` *invece di* `PdfSaveOptions` o altre opzioni specifiche del formato.  
-- **Metafili ancora compressi** – Verifica che il file di origine contenga effettivamente metafili piccoli; l'opzione influisce solo su quelli al di sotto di una certa soglia di dimensione.  
-- **I punti elenco immagine compaiono ancora** – Alcune versioni più vecchie di Word ignorano il flag; considera di convertire i punti elenco in stili di elenco standard prima del salvataggio.
+## Problemi Comuni e Suggerimenti
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| **Il documento si apre ma la password è ignorata** | Uso di `saveOptions` con un `SaveFormat` diverso | Assicurati di passare la stessa istanza di `DocSaveOptions` a `doc.save()` e che l'estensione del file corrisponda al formato (ad esempio, `.docx`). |
+| **I metafile sono ancora compressi** | `setAlwaysCompressMetafiles` influisce solo sui metafile *piccoli* | Verifica la dimensione del metafile; quelli grandi sono sempre compressi secondo le specifiche DOCX. |
+| **I bullet di immagine compaiono ancora** | Il documento contiene immagini in linea usate come bullet | Converti quei bullet in stili di elenco standard prima del salvataggio, oppure rimuovili manualmente tramite l'API. |
 
 ## Domande Frequenti
 
-**D: Aspose.Words per Java è una libreria gratuita?**  
-R: No, Aspose.Words per Java è una libreria commerciale. Puoi trovare i dettagli della licenza [qui](https://purchase.aspose.com/buy).
+**Q: Aspose.Words per Java è una libreria gratuita?**  
+A: No, Aspose.Words per Java è una libreria commerciale. Puoi trovare i dettagli della licenza [qui](https://purchase.aspose.com/buy).
 
-**D: Come posso ottenere una prova gratuita di Aspose.Words per Java?**  
-R: Puoi ottenere una prova gratuita [qui](https://releases.aspose.com/).
+**Q: Come posso ottenere una versione di prova gratuita di Aspose.Words per Java?**  
+A: Puoi ottenere una versione di prova gratuita di Aspose.Words per Java [qui](https://releases.aspose.com/).
 
-**D: Dove posso trovare supporto per Aspose.Words per Java?**  
-R: Per supporto e discussioni della community, visita il [forum Aspose.Words per Java](https://forum.aspose.com/).
+**Q: Dove posso trovare supporto per Aspose.Words per Java?**  
+A: Per supporto e discussioni della community, visita il [forum Aspose.Words per Java](https://forum.aspose.com/).
 
-**D: Posso usare Aspose.Words per Java con altri framework Java?**  
-R: Sì, si integra senza problemi con Spring, Hibernate, Android e la maggior parte dei contenitori Java EE.
+**Q: Posso usare Aspose.Words per Java con altre librerie Java?**  
+A: Sì, Aspose.Words per Java è compatibile con varie librerie e framework Java.
 
-**D: Esiste un'opzione di licenza temporanea per la valutazione?**  
-R: Sì, una licenza temporanea è disponibile [qui](https://purchase.aspose.com/temporary-license/).
+**Q: È disponibile un'opzione di licenza temporanea?**  
+A: Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
-## Conclusione
-Ora sai come **salvare Word con password**, controllare la compressione dei metafili e escludere i punti elenco immagine usando Aspose.Words per Java. Queste opzioni di salvataggio avanzate ti offrono un controllo preciso sulla dimensione finale del file, sulla sicurezza e sull'aspetto—perfette per report aziendali, archiviazione di documenti o qualsiasi scenario in cui l'integrità del documento è fondamentale.
+## Ulteriori Domande Frequenti
+
+**Q: La protezione con password influisce sulla dimensione del documento?**  
+A: Il file crittografato è leggermente più grande a causa dell'overhead della crittografia, ma l'aumento è solitamente trascurabile.
+
+**Q: Posso impostare password diverse per la sola lettura e per i permessi di modifica?**  
+A: Aspose.Words supporta una singola password per aprire il documento. Per permessi più granulari, considera la conversione in PDF con impostazioni di protezione separate.
+
+**Q: Queste opzioni di salvataggio sono disponibili per tutti i formati Word (DOC, DOCX, RTF)?**  
+A: Sì, `DocSaveOptions` funziona con tutti i formati supportati da Aspose.Words, anche se alcune opzioni sono specifiche del formato (ad esempio, i bullet di immagine sono rilevanti solo per DOCX).
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-19  
-**Testato con:** Aspose.Words per Java 24.12 (latest at time of writing)  
+**Ultimo aggiornamento:** 2026-02-22  
+**Testato con:** Aspose.Words per Java 24.12  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

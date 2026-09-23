@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een Word-document maakt, een combo‑box-formulierveld met vooraf gedefinieerde items toevoegt met DocumentBuilder, en het document opslaat.
+//ExStepSummary:0: Stel het mappad in waar het resulterende document wordt opgeslagen.
+//ExStepSummary:1: Maak een array van strings die de opties van de combo‑box vullen.
+//ExStepSummary:2: Instantieer een nieuw Document en een DocumentBuilder die eraan gekoppeld is.
+//ExStepSummary:3: Roep `builder.InsertComboBox` aan om een combo‑box met de naam "DropDown" en de gedefinieerde items op de huidige cursorpositie te plaatsen.
+//ExStepSummary:4: Sla het document op in de opgegeven map als een .docx‑bestand.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

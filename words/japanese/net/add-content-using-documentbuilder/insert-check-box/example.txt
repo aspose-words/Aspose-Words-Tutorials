@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: このチュートリアルでは、新しい Word 文書を作成し、DocumentBuilder を使用してチェックボックス フォーム フィールドを挿入し、結果のファイルを保存する方法を示します。
+//ExStepSummary:0: データディレクトリ変数を作成し、Document のインスタンスを生成し、その文書用に DocumentBuilder を作成します。
+//ExStepSummary:1: `builder.InsertCheckBox` を呼び出して、現在のカーソル位置に「CheckBox」という名前のチェック済みで有効なチェックボックス フォーム フィールドを追加します。
+//ExStepSummary:2: `doc.Save` を使用して、変更された文書を指定されたフォルダーに保存します。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

@@ -1,0 +1,7 @@
+Title: How to create content control in C# with Aspose.Words
+Slug: how-to-create-content-control-in-c-with-aspose-words
+Category: programming-with-sdt
+ProcessedDate: 2026-08-08T03:02:08.867589
+SourceRepo: AI Search API
+Keywords: how to create content control, how to add sdt, how to set placeholder, how to write default text, insert plain text control
+PRNumber: 245

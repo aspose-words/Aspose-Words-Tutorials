@@ -1,0 +1,7 @@
+Title: Save Document as PDF in C# – Export Inline Shapes
+Slug: save-document-as-pdf-in-c-export-inline-shapes
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-30T19:27:49.182352
+SourceRepo: AI Search API
+Keywords: save document as pdf, convert docx to pdf, convert word to pdf, save word as pdf, how to export inline
+PRNumber: 216

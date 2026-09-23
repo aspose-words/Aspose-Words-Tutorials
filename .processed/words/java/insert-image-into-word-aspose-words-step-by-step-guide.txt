@@ -1,0 +1,7 @@
+Title: Insert Image into Word – Aspose.Words Step-by-Step Guide
+Slug: insert-image-into-word-aspose-words-step-by-step-guide
+Category: images-shapes
+ProcessedDate: 2026-07-26T10:45:09.266287
+SourceRepo: AI Search API
+Keywords: insert image into word, hide shape in word, hide image word, how to hide image word
+PRNumber: 235

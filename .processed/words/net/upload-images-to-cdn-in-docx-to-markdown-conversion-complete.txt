@@ -1,0 +1,7 @@
+Title: Upload Images to CDN in DOCX to Markdown Conversion – Complete Guide
+Slug: upload-images-to-cdn-in-docx-to-markdown-conversion-complete
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-24T10:52:08.252903
+SourceRepo: AI Search API
+Keywords: upload images to cdn, convert docx to markdown, export word images, word to markdown conversion, capture image stream
+PRNumber: 210

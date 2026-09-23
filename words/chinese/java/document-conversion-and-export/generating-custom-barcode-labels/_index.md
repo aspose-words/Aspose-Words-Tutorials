@@ -14,7 +14,7 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.Words for Java 中生成自定义条形码标签
+# 使用 Aspose Barcode Java 生成自定义条形码标签
 
 ## Aspose.Words for Java 中生成自定义条形码简介
 
@@ -120,7 +120,6 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ```
 
 **说明**
-
 - `getBarcodeImage` 创建 `BarcodeGenerator` 实例，应用通过 `BarcodeParameters` 提供的颜色，最终返回 `BufferedImage`。  
 - 该方法还通过返回占位图像优雅地处理错误，确保 Word 文档创建不会崩溃。
 

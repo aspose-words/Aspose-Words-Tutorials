@@ -1,0 +1,7 @@
+Title: How to create Word document C# with a column chart and formatted labels
+Slug: how-to-create-word-document-c-with-a-column-chart-and-format
+Category: programming-with-charts
+ProcessedDate: 2026-09-21T15:45:51.124395
+SourceRepo: AI Search API
+Keywords: create word document c#, how to insert chart, how to set label, how to display values, insert column chart word
+PRNumber: 282

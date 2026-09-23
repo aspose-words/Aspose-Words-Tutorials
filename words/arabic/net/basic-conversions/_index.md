@@ -27,15 +27,28 @@
 | [تحويل DOCX إلى PDF في C# – دليل كامل](./convert-docx-to-pdf-in-c-complete-guide/) | تعرّف على كيفية تحويل ملفات DOCX إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [تحويل Word إلى PDF باستخدام C# و Aspose.Words – دليل](./convert-word-to-pdf-in-c-using-aspose-words-guide/) | تعرّف على كيفية تحويل مستندات Word إلى PDF باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
+| [حفظ ملف docx كـ PDF باستخدام Aspose.Words – دليل C# كامل](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | تعرّف على طريقة حفظ ملفات docx بصيغة PDF باستخدام Aspose.Words في C# مع شرح مفصل وأمثلة عملية. |
+| [كيفية إنشاء PDF من Word – دليل C# كامل](./how-to-create-pdf-from-word-complete-c-guide/) | تعرّف على طريقة إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [تحويل Word إلى PDF باستخدام C# – دليل Aspose كامل](./convert-word-to-pdf-in-c-complete-aspose-guide/) | دليل شامل لتحويل مستندات Word إلى PDF باستخدام C# ومكتبة Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF من Word – دليل C# كامل مع اكتشاف الخطوط](./create-pdf-from-word-complete-c-guide-with-font-detection/) | تعلم كيفية إنشاء ملفات PDF من مستندات Word باستخدام C# و Aspose.Words مع الكشف التلقائي عن الخطوط. |
+| [إنشاء PDF من DOCX باستخدام C# – دليل كامل مع تصدير الأشكال](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | تعلم كيفية تحويل ملفات DOCX إلى PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET في دليل شامل خطوة بخطوة. |
 | [تحويل Docx إلى بايت](./docx-to-byte/) | تعلّم كيفية تحويل ملفات Docx إلى مصفوفة بايت في .NET باستخدام Aspose.Words لمعالجة مستندات فعّالة. دليل خطوة بخطوة مُرفق. |  
 | [تحويل Docx إلى Epub](./docx-to-epub/) حوّل ملفات DOCX إلى EPUB بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا التعليمي لدمجها بسلاسة في تطبيقات .NET.
 | [تحويل Docx إلى Mhtml وإرسال البريد الإلكتروني](./docx-to-mhtml-and-sending-email/) | تعلّم كيفية تحويل DOCX إلى MHTML وإرسال رسائل البريد الإلكتروني باستخدام Aspose.Words لـ .NET في هذا الدليل التفصيلي. حسّن إنتاجيتك مع الأتمة السهلة. |
 | [تحويل ملف Docx إلى Markdown](./docx-to-markdown/) | تعلّم كيفية تحويل ملفات DOCX إلى Markdown باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل لدمجها بسلاسة في تطبيقات .NET. |
-| [تحويل Docx إلى Txt](./docx-to-txt/) حوّل ملفات DOCX إلى TXT باستخدام Aspose.Words لـ .NET مع دليلنا المفصل. تعلّم كيفية تحويل المستندات بكفاءة ويسر.
+| [تحويل Docx إلى Txt](./docx-to-txt/) حوّل ملفات DOCX إلى TXT باستخدام Aspose.Words لـ .NET مع دليلنا المفصل. تعلّم كيفية تحويل المستندات بكفاءة ويسر. |
 | [تحويل ملف نصي إلى مستند Word](./txt-to-docx/) | تعلّم كيفية تحويل ملفات النصوص إلى مستندات وورد باستخدام Aspose.Words لـ .NET. أدر تحويلات المستندات بكفاءة من خلال دليلنا الشامل. | 
 | [حفظ ملف PDF بصيغة Jpeg](./pdf-to-jpeg/) حوّل ملفات PDF إلى JPEG بسهولة باستخدام Aspose.Words لـ .NET. اتبع دليلنا المفصل مع الأمثلة والأسئلة الشائعة. مثالي للمطورين والهواة.
-| [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين.
+| [حفظ ملف PDF إلى صيغة Word (Docx)](./pdf-to-docx/) تعرّف على كيفية تحويل ملف PDF إلى مستند Word (Docx) باستخدام Aspose.Words for .NET في هذا الدليل المفصل خطوة بخطوة. مثالي للمطورين. |
+| [إنشاء PDF ميسّر – تحويل Word إلى PDF مع إمكانية الوصول](./create-accessible-pdf-convert-word-to-pdf-accessibility/) | تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لضمان توافقها مع معايير إمكانية الوصول. |
 | [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة](./how-to-export-latex-from-word-step-by-step-guide/) | تعلّم كيفية تصدير مستندات Word إلى صيغة LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [استعادة مستند DOCX تالف – دليل كامل للإصلاح وتصدير PDF وMarkdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | تعلم كيفية إصلاح ملفات DOCX التالفة وتصديرها إلى PDF وMarkdown باستخدام Aspose.Words لـ .NET. |
+| [حفظ ملف docx كـ txt – دليل كامل لتصدير معادلات Word كـ LaTeX](./save-docx-as-txt-complete-guide-to-export-word-equations-as/) | تعرّف على كيفية حفظ ملفات DOCX كـ TXT وتصدير معادلات Word إلى LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [تحويل Docx إلى PDF و Markdown – دليل C# كامل](./convert-docx-to-pdf-and-markdown-complete-c-guide/) | تعلّم كيفية تحويل ملفات DOCX إلى PDF وMarkdown باستخدام Aspose.Words لـ .NET مع دليل شامل وأمثلة C#. |
+| [إنشاء PDF قابل للوصول من DOCX – دليل Aspose الكامل](./create-accessible-pdf-from-docx-complete-aspose-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات DOCX باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [تحويل PNG إلى Base64 في C# – دليل كامل](./convert-png-to-base64-in-c-complete-guide/) | تعرّف على كيفية تحويل ملفات PNG إلى سلاسل Base64 باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/) | تعرّف على كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [حفظ مستند Word كـ PDF باستخدام C# – دليل تحويل كامل مع إمكانية الوصول](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | دليل شامل لتحويل مستندات Word إلى PDF مع دعم إمكانية الوصول باستخدام C# و Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Call OpenAI API from C# – Complete Guide to Rewrite Word Paragraphs
+Slug: call-openai-api-from-c-complete-guide-to-rewrite-word-paragr
+Category: ai-powered-document-processing
+ProcessedDate: 2026-05-23T23:24:23.486678
+SourceRepo: AI Search API
+Keywords: call openai api, call local llm, rewrite sentence formal, rewrite paragraph formal, load word document
+PRNumber: 190

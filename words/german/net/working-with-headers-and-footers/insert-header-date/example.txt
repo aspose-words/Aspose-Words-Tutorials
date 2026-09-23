@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Mit den Klassen Document und DocumentBuilder zeigt dieses Tutorial, wie man ein dynamisches DATE‑Feld in die primäre Kopfzeile eines Word‑Dokuments einfügt und die Datei anschließend speichert.
+//ExStepSummary:0: Erstellen Sie ein neues Document und einen DocumentBuilder, um es zu bearbeiten.
+//ExStepSummary:1: Bewegen Sie den Cursor des Builders zur primären Kopfzeile, damit nachfolgende Einfügungen die Kopfzeile betreffen.
+//ExStepSummary:2: Schreiben Sie das statische Etikett und fügen Sie ein DATE‑Feld mit dem Format „MMMM d, yyyy“ in die Kopfzeile ein, wodurch ein dynamisches Datum entsteht.
+//ExStepSummary:3: Kehren Sie zum Hauptteil zurück und fügen Sie einen Beispielabsatz hinzu, um normalen Dokumentinhalt neben der Kopfzeile zu demonstrieren.
+//ExStepSummary:4: Speichern Sie das Dokument als .docx‑Datei.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

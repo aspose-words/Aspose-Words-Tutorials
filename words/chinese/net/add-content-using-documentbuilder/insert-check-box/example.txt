@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: 本教程演示了如何创建一个新的 Word 文档，使用 DocumentBuilder 插入复选框表单字段，并保存生成的文件。
+//ExStepSummary:0: 创建一个数据目录变量，实例化 Document，并为该文档创建 DocumentBuilder。
+//ExStepSummary:1: 调用 `builder.InsertCheckBox` 在当前光标位置添加一个已勾选、已启用且名称为 \"CheckBox\" 的复选框表单字段。
+//ExStepSummary:2: 使用 `doc.Save` 将修改后的文档保存到指定文件夹。
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

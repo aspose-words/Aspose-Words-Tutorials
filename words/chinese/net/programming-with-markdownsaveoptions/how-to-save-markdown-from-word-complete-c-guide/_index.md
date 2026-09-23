@@ -1,125 +1,181 @@
 ---
 category: general
-date: 2026-02-21
-description: 如何使用 C# 将 Word 文档保存为 Markdown。将 Word 转换为 Markdown，导出公式，并用几行代码将 docx 保存为
-  Markdown。
+date: 2026-01-05
+description: 如何使用 Aspose.Words 将 Word 文件保存为 Markdown。学习将 Word 转换为 Markdown，将数学公式导出为
+  LaTeX，并在几分钟内将 docx 保存为 Markdown。
 draft: false
 keywords:
 - how to save markdown
 - convert word to markdown
-- save word as markdown
+- how to export math
+- how to convert docx
 - save docx as markdown
-- export equations from word
 language: zh
-og_description: 如何使用 C# 将 Word 文档保存为 Markdown。本教程展示了如何将 Word 转换为 Markdown、导出公式，并高效地将
-  docx 保存为 Markdown。
+og_description: 如何使用 Aspose.Words 将 Word 文档保存为 Markdown。本分步教程展示了如何将 Word 转换为 Markdown、将数学公式导出为
+  LaTeX，以及将 docx 保存为 Markdown。
 og_title: 如何从 Word 保存 Markdown – 完整的 C# 指南
 tags:
-- C#
 - Aspose.Words
+- C#
 - Markdown
-- OfficeMath
+- LaTeX
 title: 如何从 Word 保存 Markdown – 完整 C# 指南
 url: /zh/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/
 ---
-
-. Translate.
-
-Make sure to keep **bold** formatting.
-
-Also list items.
-
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何将 Word 保存为 Markdown – 完整 C# 指南
+# 如何从 Word 保存 Markdown – 完整 C# 指南
 
-是否曾想过 **如何将 markdown 从 Word 文件中保存** 而无需手动复制粘贴？你并不是唯一的开发者。许多开发者需要自动化文档流水线、将内容迁移到静态站点生成器，或仅仅是保持报告的干净、受版本控制的副本。好消息是，只需几行 C# 代码，你就可以 **将 Word 转换为 markdown**，将公式保留为 LaTeX，并将生成的 `.md` 文件直接放入你的仓库。
+有没有想过 **如何保存 markdown** 从 Word 文档而不丢失任何恼人的公式？你并不孤单。许多开发者在需要 **将 Word 转换为 markdown** 并保留 Office Math 为 LaTeX 时会遇到障碍，尤其是在静态站点生成器或文档流水线中。
 
-在本教程中，我们将逐步讲解你需要的所有内容：必备的 NuGet 包、一步步的代码演示，以及处理诸如嵌入式 Office Math 等边缘情况的技巧。完成后，你将能够 **快速将 docx 保存为 markdown**，并且还能 **从 Word 导出公式**，使其在 Jekyll、MkDocs 等下游工具中完美渲染。
+在本教程中，我们将一步步演示一个简洁的端到端解决方案，展示 **如何保存 markdown**、**如何导出数学公式**，甚至 **将 docx 保存为 markdown** 的实时方法。完成后，你将拥有一个可直接运行的 C# 代码片段，它读取 `input.docx` 并输出一个格式完美的 `output.md` 文件，包含 LaTeX 包裹的公式。
+
+> **你将学习**
+> * 安装并引用 Aspose.Words for .NET。  
+> * 加载 DOCX 文件（是的，**如何转换 docx**）。  
+> * 配置 `MarkdownSaveOptions` 将 Office Math 导出为 LaTeX。  
+> * 将结果保存为 Markdown 文件（**如何保存 markdown** 的核心）。  
+> * 处理常见陷阱——缺少字体、不受支持的公式以及大型文档。
+
+没有废话，只提供你今天上手所需的事实。
+
+---
+
+## 如何从 Word 保存 Markdown – 概览
+
+在深入代码之前，让我们先说明这为何重要。Markdown 是现代文档的通用语言，但在许多企业中 Word 仍是首选的创作工具。弥合两者的差距意味着你可以让作者满意，同时将干净、受版本控制的 Markdown 输入到静态站点生成器、基于 Git 的 wiki 或 CI 流水线中。关键是 **如何正确导出数学公式**；纯文本会丢失公式的结构，而 LaTeX 能保持其可读性和可渲染性。
 
 ## 前置条件
 
-在开始之前，请确保你的机器上具备以下环境：
+- **.NET 6.0** 或更高（该 API 同时适用于 .NET Core 和 .NET Framework）。  
+- **Aspose.Words for .NET** – 你可以从 Aspose 官网获取免费试用版，或使用 NuGet 包：`Install-Package Aspose.Words`。  
+- 一个包含至少一个 Office Math 对象的 **Word 文档**（`.docx`）。  
+- 你选择的 IDE（Visual Studio、Rider 或 VS Code）。
 
-- .NET 6.0 SDK 或更高版本（代码同样适用于 .NET Framework，但推荐使用 .NET 6+）。
-- Visual Studio 2022 或任何支持 C# 的 IDE。
-- **Aspose.Words for .NET** NuGet 包（免费试用即可运行本示例）。  
-  在包管理器控制台中安装：
+就这些——无需额外库，也不需要繁琐的命令行工具。
+
+## 步骤 1：安装 Aspose.Words 并添加 Using 指令
+
+首先，确保已引用 Aspose.Words 程序集。在 Package Manager Console 中运行：
 
 ```powershell
 Install-Package Aspose.Words
 ```
 
-基本转换不需要额外的库，但如果你计划自定义 Markdown 输出（例如自定义图片处理），可以进一步了解 `Aspose.Words.Saving`。
-
-## 使用 Aspose.Words 保存 Markdown 的方法
-
-下面是完整、可运行的程序示例，演示 **如何将 markdown 从 Word 文档中保存**。每个章节都会解释 *为什么* 要这么做，而不仅仅是 *怎么做*。
-
-### 步骤 1：加载源文档
-
-首先创建一个指向要转换的 `.docx` 文件的 `Document` 对象。这是所有 Aspose.Words 操作的入口点。
+然后在 C# 文件顶部添加必要的 `using` 语句：
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
+```
 
-class Program
+> **小技巧：** 如果你针对特定平台（例如 Linux 容器），请使用 `-Runtime` 开关来获取正确的本机二进制文件。
+
+## 步骤 2：加载要转换的 DOCX（如何转换 DOCX）
+
+现在我们实际将 **docx** 转换为内存中的 `Document` 对象。此步骤用于告诉 Aspose.Words 读取哪个文件。
+
+```csharp
+// Replace the path with your actual file location
+string inputPath = @"C:\Projects\Docs\input.docx";
+
+Document doc = new Document(inputPath);
+```
+
+为什么要将文件保存在内存中？因为这让我们可以在写入磁盘之前调整保存选项——比如 **如何导出数学公式**。这也意味着你可以链式进行多次转换（例如 DOCX → HTML → Markdown），而无需处理临时文件。
+
+## 步骤 3：配置 MarkdownSaveOptions（将 Word 转换为 Markdown 并导出数学公式）
+
+这就是 **如何保存 markdown** 的核心：我们创建一个 `MarkdownSaveOptions` 实例，并指示它将 Office Math 渲染为 LaTeX。枚举 `OfficeMathExportMode.LaTeX` 正是如此。
+
+```csharp
+MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
-    static void Main()
-    {
-        // 👉 Step 1: Load the source document
-        // Replace "YOUR_DIRECTORY/input.docx" with the actual path to your file.
-        Document doc = new Document(@"YOUR_DIRECTORY/input.docx");
+    // Export all Office Math objects as LaTeX equations
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+
+    // Optional: preserve original line breaks for better diff‑ability
+    ExportHeadersFooters = false,
+    ExportImagesAsBase64 = true
+};
 ```
 
-> **为什么重要：** 将文档加载到内存后，我们即可完整访问其结构——段落、表格，以及需要特殊处理的 Office Math 对象。
+一些注意事项：
 
-### 步骤 2：配置 Markdown 保存选项
+- **`OfficeMathExportMode.LaTeX`** 是推荐用于支持 MathJax 或 KaTeX 的静态站点生成器的模式。  
+- 将 `ExportImagesAsBase64` 设置为 true 可使 markdown 自包含——当你将文件推送到不单独托管图片的仓库时非常方便。  
+- 如果需要普通的 Unicode 数学，请将 `LaTeX` 替换为 `Unicode`。
 
-Aspose.Words 通过 `MarkdownSaveOptions` 让你细致调节转换过程。这里我们指示库将所有 Office Math 公式导出为 LaTeX，因为大多数静态站点生成器都支持该格式。
+## 步骤 4：将文档保存为 Markdown（将 DOCX 保存为 Markdown）
+
+最后，我们将 Markdown 文件写入磁盘。这就是在 C# 中 **如何保存 markdown** 的直接答案。
 
 ```csharp
-        // 👉 Step 2: Configure Markdown save options
-        MarkdownSaveOptions options = new MarkdownSaveOptions
-        {
-            // Export equations in LaTeX format—perfect for MathJax or KaTeX.
-            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+string outputPath = @"C:\Projects\Docs\output.md";
 
-            // Optional: preserve original line breaks for better diffing.
-            ExportImagesAsBase64 = false, // saves images as separate files
-            ExportHeadersFooters = true   // keeps header/footer content
-        };
+doc.Save(outputPath, mdOptions);
+Console.WriteLine($"✅ Markdown saved to {outputPath}");
 ```
 
-> **为什么重要：** 默认情况下，Aspose.Words 会将公式渲染为图片，这会使 markdown 文件膨胀且难以编辑。将 `OfficeMathExportMode` 设置为 `LaTeX` 能得到干净、可搜索的源码。
+当你打开 `output.md` 时，会看到常规的 Markdown 语法，任何公式都会被包装在 `$…$`（行内）或 `$$…$$`（块级）中，准备好供 MathJax 渲染。
 
-### 步骤 3：将文档保存为 Markdown
+**预期输出示例**（假设原始 DOCX 包含一个简单公式 `a^2 + b^2 = c^2`）：
 
-现在只需调用 `Save`，传入目标路径和前面配置好的选项。
+```markdown
+Here is a classic Pythagorean theorem:
 
-```csharp
-        // 👉 Step 3: Save the document as a Markdown file
-        string outputPath = @"YOUR_DIRECTORY/output.md";
-        doc.Save(outputPath, options);
-
-        // Confirmation message for the console
-        Console.WriteLine($"✅ Markdown saved to: {outputPath}");
-    }
-}
+$$a^2 + b^2 = c^2$$
 ```
 
-> **结果：** 程序会生成 `output.md`，其中包含转换后的文本；如果你将 `ExportImagesAsBase64` 保持为 `false`，还会生成一个存放提取图片的文件夹。所有公式都会以 LaTeX 块的形式出现，随时可渲染。
+如果源文档包含图片，它们将以 base‑64 字符串形式嵌入在 `![](...)` 标记之后。
 
-### 完整工作示例
+## 步骤 5：验证结果并根据需要进行微调
 
-将上述所有代码整合在一起，即为完整程序。复制‑粘贴，调整路径后运行即可。
+转换完成后，在你喜欢的编辑器中打开 Markdown 文件（VS Code、Typora，甚至 GitHub 预览）。检查以下内容：
+
+1. 所有标题（`#`、`##` 等）与原始 Word 样式匹配。  
+2. 公式渲染正确——大多数编辑器会显示 LaTeX 代码，而带有 MathJax 的浏览器会显示格式化后的数学。  
+3. 图片出现在预期位置。
+
+如果出现异常，你可以调整 `MarkdownSaveOptions`：
+
+| 选项 | 控制内容 | 常见调整 |
+|--------|------------------|---------------|
+| `ExportHeadersFooters` | 包含页眉/页脚文本 | 如需页眉页脚，设为 `true` |
+| `ExportImagesAsBase64` | 内联图片或外部文件 | 切换为 `false` 并提供文件夹路径 |
+| `ExportTableColumnHeaders` | 将首行视为表头 | 对 CSV 样式表格启用 |
+
+## 常见陷阱与边缘情况（安全导出数学公式）
+
+### 1. 缺少字体或符号
+
+如果 Word 文件为符号使用了自定义字体，Aspose.Words 可能会回退到默认字形，导致 LaTeX 乱码。解决办法？在运行转换的机器上安装缺失的字体，或在 DOCX 中嵌入字体（`文件 → 选项 → 保存 → 嵌入字体`）。
+
+### 2. 超大型文档
+
+处理 200 页的 DOCX 可能会占用大量内存。考虑使用 `LoadOptions` 配合 `LoadFormat.Docx` 和 `MemoryUsageSetting` 来流式读取文件，而不是一次性加载全部。
 
 ```csharp
+LoadOptions loadOpts = new LoadOptions
+{
+    LoadFormat = LoadFormat.Docx,
+    MemoryUsageSetting = MemoryUsageSetting.MemoryOptimized
+};
+
+Document largeDoc = new Document(inputPath, loadOpts);
+```
+
+## 完整工作示例（所有步骤合并在一个文件中）
+
+以下是一个完整的、可直接复制粘贴的程序，演示了 **如何保存 markdown**、**如何转换 docx** 以及 **如何导出数学公式** 的全过程。
+
+```csharp
+// ------------------------------------------------------------
+// How to Save Markdown from Word – Complete Example
+// ------------------------------------------------------------
 using System;
 using Aspose.Words;
 using Aspose.Words.Saving;
@@ -128,122 +184,54 @@ class Program
 {
     static void Main()
     {
-        // Load the source .docx
-        Document doc = new Document(@"YOUR_DIRECTORY/input.docx");
+        // 1️⃣ Define input and output paths
+        string inputPath = @"C:\Projects\Docs\input.docx";
+        string outputPath = @"C:\Projects\Docs\output.md";
 
-        // Configure markdown export options
-        MarkdownSaveOptions options = new MarkdownSaveOptions
+        // 2️⃣ Load the DOCX (how to convert docx)
+        Document doc = new Document(inputPath);
+
+        // 3️⃣ Prepare Markdown options (convert word to markdown + how to export math)
+        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
         {
             OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-            ExportImagesAsBase64 = false,
-            ExportHeadersFooters = true
+            ExportHeadersFooters = false,
+            ExportImagesAsBase64 = true,
+            ExportTableColumnHeaders = true
         };
 
-        // Define output location
-        string outputPath = @"YOUR_DIRECTORY/output.md";
+        // 4️⃣ Save as Markdown (save docx as markdown)
+        doc.Save(outputPath, mdOptions);
 
-        // Perform the conversion
-        doc.Save(outputPath, options);
-
-        Console.WriteLine($"✅ Markdown saved to: {outputPath}");
+        Console.WriteLine($"✅ Successfully saved Markdown to: {outputPath}");
     }
 }
 ```
 
-在命令行执行 `dotnet run`，程序会输出成功提示。用任意编辑器打开 `output.md`，你会看到普通文本、markdown 标题以及类似下面的 LaTeX 代码片段：
+运行程序（如果使用 .NET CLI，则执行 `dotnet run`），然后检查 `output.md`。你应该会看到干净的 Markdown，带有 LaTeX 公式，已准备好供任何静态站点生成器使用。
 
-```markdown
-$$
-\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
-$$
-```
+## 额外提示：批量处理多个文件
 
-这就是 **从 Word 导出公式** 的自动化实现。
-
-## 常见变体与边缘情况
-
-### 1. 批量转换多个文件
-
-如果需要 **将整个文件夹的 Word 转换为 markdown**，可以将前面的逻辑包装在 `foreach` 循环中：
+如果你有一个文件夹中放满了 Word 文件，可以将上述逻辑包装在一个简单的循环中：
 
 ```csharp
-string[] files = Directory.GetFiles(@"YOUR_DIRECTORY", "*.docx");
-foreach (var file in files)
+string sourceFolder = @"C:\Projects\Docs\WordFiles";
+string targetFolder = @"C:\Projects\Docs\Markdown";
+
+foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
 {
-    Document batchDoc = new Document(file);
-    string mdPath = Path.ChangeExtension(file, ".md");
-    batchDoc.Save(mdPath, options);
-    Console.WriteLine($"Converted: {Path.GetFileName(file)} → {Path.GetFileName(mdPath)}");
+    string outFile = Path.Combine(targetFolder,
+        Path.GetFileNameWithoutExtension(file) + ".md");
+
+    Document doc = new Document(file);
+    doc.Save(outFile, mdOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(outFile)}");
 }
 ```
 
-### 2. 处理受密码保护的文档
-
-Aspose.Words 可以通过提供密码来打开加密文件：
-
-```csharp
-LoadOptions loadOpts = new LoadOptions { Password = "mySecretPwd" };
-Document protectedDoc = new Document(@"secure.docx", loadOpts);
-protectedDoc.Save(@"secure.md", options);
-```
-
-### 3. 将图片内联为 Base64
-
-部分静态站点生成器更喜欢内联图片。只需切换标志：
-
-```csharp
-options.ExportImagesAsBase64 = true;
-```
-
-现在图片会直接以 `![alt](data:image/png;base64,…)` 的形式嵌入 markdown。
-
-### 4. 自定义标题层级
-
-如果源 Word 使用了深层次的标题层级，你可以重新映射它们：
-
-```csharp
-options.HeadingLevel = 2; // All Word headings become ## in markdown
-```
-
-### 5. 验证输出
-
-快速检查转换是否成功的方式是读取文件并统计 LaTeX 块的数量：
-
-```csharp
-string mdContent = File.ReadAllText(outputPath);
-int latexCount = Regex.Matches(mdContent, @"\$\$(.*?)\$\$", RegexOptions.Singleline).Count;
-Console.WriteLine($"Found {latexCount} LaTeX equation(s) in the markdown.");
-```
-
-## 专业技巧与注意事项
-
-- **专业技巧：** 如果你在仓库中进行版本控制，建议将 `ExportImagesAsBase64` 保持为 `false`。二进制大对象会让 git 历史变得难以管理。
-- **需留意：** 超大 Word 文档可能会占用大量内存。请及时释放 `Document` 对象，或将文件拆分为更小的块处理。
-- **常见错误：** 忘记设置 `OfficeMathExportMode`。未设置时，公式会被转为图片，破坏干净的 Markdown 工作流。
-- **性能技巧：** 在处理大量文件时，复用同一个 `MarkdownSaveOptions` 实例可以降低分配开销。
-
-## 常见问答
-
-**问：这能处理旧的 `.doc` 文件吗？**  
-答：可以。Aspose.Words 同时支持 `.doc` 和 `.docx`。只需将 `Document` 构造函数指向旧版文件即可。
-
-**问：我可以保留自定义样式吗？**  
-答：Markdown 的样式支持有限，但可以通过 `MarkdownSaveOptions.CustomStylesMap` 将 Word 样式映射到 HTML 标签。
-
-**问：如果我要转换为其他格式（如 HTML）怎么办？**  
-答：只需将 `MarkdownSaveOptions` 替换为 `HtmlSaveOptions`，并相应调整导出设置。
-
 ## 结论
 
-现在，你已经掌握了一套完整、可投入生产的模式，能够使用 C# **将 Word 保存为 markdown**。通过加载文件、配置 `MarkdownSaveOptions` 以 **导出 Word 公式**，再调用 `Save`，只需几行代码即可 **将 Word 转换为 markdown**、**将 word 保存为 markdown** 或 **将 docx 保存为 markdown**。
-
-下一步？尝试在 CI 流水线中自动化此过程，实验自定义样式映射，或探索 Aspose.Words 的高级功能，如内容控件和邮件合并。当 .NET 的灵活性与 Aspose 强大的文档引擎相结合时，天地无限。
-
-祝编码愉快，愿你的 markdown 永远干净，LaTeX 渲染完美！  
-
----  
-
-![使用 C# 将 Word 保存为 Markdown 的方法](https://example.com/images/save-markdown-word.png "使用 C# 将 Word 保存为 Markdown 的方法")
+我们已经涵盖了使用 Aspose.Words for .NET 从 Word 文档 **如何保存 markdown** 所需的全部知识。按照上述步骤，你可以 **转换
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -96,7 +96,7 @@ public class Main {
 }
 ```
 
-## Průvodce implementací
+## Jak spravovat word templates java pomocí Aspose.Words?
 
 S nastavením hotovým rozdělíme implementaci na přehledné části.
 

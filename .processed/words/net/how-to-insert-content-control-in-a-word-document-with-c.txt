@@ -1,0 +1,7 @@
+Title: How to insert content control in a Word document with C#
+Slug: how-to-insert-content-control-in-a-word-document-with-c
+Category: programming-with-sdt
+ProcessedDate: 2026-09-08T22:52:03.602164
+SourceRepo: AI Search API
+Keywords: insert content control, create content control
+PRNumber: 267

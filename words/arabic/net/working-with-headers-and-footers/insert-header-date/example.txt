@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: باستخدام فئتي Document و DocumentBuilder، يوضح هذا الدرس كيفية إضافة حقل DATE ديناميكي إلى الترويسة الأساسية لمستند Word ثم حفظ الملف.
+//ExStepSummary:0: أنشئ مستندًا جديدًا وDocumentBuilder لتعديله.
+//ExStepSummary:1: انقل مؤشر الـ builder إلى الترويسة الأساسية بحيث تؤثر الإدخالات اللاحقة على الترويسة.
+//ExStepSummary:2: اكتب النص الثابت وأدرج حقل DATE بصيغة “MMMM d, yyyy” داخل الترويسة، مما يُنشئ تاريخًا ديناميكيًا.
+//ExStepSummary:3: ارجع إلى النص الرئيسي وأضف فقرة نموذجية، لتظهر محتوى المستند العادي إلى جانب الترويسة.
+//ExStepSummary:4: احفظ المستند كملف .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd
