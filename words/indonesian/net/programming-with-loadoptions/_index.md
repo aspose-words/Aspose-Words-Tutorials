@@ -48,6 +48,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Memulihkan File DOCX Rusak Menggunakan Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan Aspose.Words untuk .NET. Bahasa Indonesia: |
 | [Memulihkan File DOCX Rusak di C# – Panduan Lengkap](./recover-corrupted-docx-files-in-c-complete-guide/) | Pelajari cara memulihkan file DOCX yang rusak menggunakan C# dengan Aspose.Words dalam panduan langkah demi langkah yang lengkap. |
 | [Cara Memulihkan File DOCX – Panduan Lengkap Memulihkan Dokumen Word yang Rusak](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) Pelajari cara memulihkan file DOCX yang rusak dengan panduan langkah demi langkah lengkap. Bahasa Indonesia:
+| [Mengonfigurasi Aspose Load Options di C# – Panduan Lengkap](./configure-aspose-load-options-in-c-complete-guide/) | Panduan lengkap untuk mengatur Aspose Load Options di C# dalam .NET, termasuk contoh kode dan tips praktis. Bahasa Indonesia: 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

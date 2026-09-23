@@ -35,6 +35,7 @@
 | [Αποθήκευση docx ως txt – Διατήρηση αλλαγών γραμμής & κενών σε C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως txt διατηρώντας τις αλλαγές γραμμής και τα κενά, χρησιμοποιώντας C# και Aspose.Words. |
 | [Πώς να εξάγετε LaTeX από DOCX – Οδηγός βήμα προς βήμα](./how-to-export-latex-from-docx-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε LaTeX χρησιμοποιώντας το Aspose.Words για .NET, βήμα προς βήμα. |
 | [Αποθήκευση DOCX ως TXT – Εξαγωγή εξισώσεων Word σε LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Μάθετε πώς να μετατρέπετε έγγραφα DOCX σε αρχεία TXT και να εξάγετε τις εξισώσεις Word σε μορφή LaTeX. |
+| [Πώς να εξάγετε LaTeX από το Word – Μετατροπή Word σε TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Μάθετε πώς να εξάγετε LaTeX από Word και να το μετατρέψετε σε TXT με Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

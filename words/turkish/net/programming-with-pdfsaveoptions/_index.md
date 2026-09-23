@@ -59,6 +59,7 @@ Görüntü kalitesi seçeneklerini ayarlamayı, görüntüler için sıkıştır
 | [Şekil Dışa Aktarımıyla docx'i PDF'ye Kaydet – Tam Kılavuz](./save-docx-as-pdf-with-shape-export-complete-guide/) | Aspose.Words for .NET kullanarak docx dosyalarını şekil dışa aktarımıyla PDF'ye dönüştürmeyi adım adım öğrenin. |
 | [Aspose.Words ile Belgeyi PDF Olarak Kaydet – Tam C# Kılavuzu](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words kullanarak C# ile belgeyi PDF'ye dönüştürmenin adım adım rehberi. |
 | [Erişilebilir PDF Oluşturma – Geliştiriciler İçin Adım Adım Kılavuz](./create-accessible-pdf-step-by-step-guide-for-developers/) | Aspose.Words for .NET kullanarak erişilebilir PDF dosyaları oluşturmayı adım adım öğrenin. |
+| [C#'ta Word'den PDF/UA Oluşturma – Tam Kılavuz](./create-pdf-ua-from-word-in-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinden PDF/UA standardına uygun tam bir PDF oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

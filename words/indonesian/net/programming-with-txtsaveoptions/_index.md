@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan docx sebagai txt – Pertahankan Baris Baru & Spasi dalam C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Pelajari cara menyimpan file docx sebagai txt sambil mempertahankan pemutusan baris dan spasi menggunakan Aspose.Words untuk .NET dalam C#. |
 | [Cara Mengekspor LaTeX dari DOCX – Panduan Langkah demi Langkah](./how-to-export-latex-from-docx-step-by-step-guide/) | Pelajari cara mengekspor dokumen DOCX ke format LaTeX dengan Aspose.Words untuk .NET melalui panduan langkah demi langkah. |
 | [Simpan DOCX sebagai TXT – Ekspor Persamaan Word ke LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Pelajari cara menyimpan file DOCX sebagai TXT dan mengekspor persamaan Word ke format LaTeX menggunakan Aspose.Words untuk .NET. |
+| [Cara Mengekspor LaTeX dari Word – Konversi Word ke TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Pelajari cara mengekspor konten LaTeX dari dokumen Word menjadi berkas TXT menggunakan Aspose.Words untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

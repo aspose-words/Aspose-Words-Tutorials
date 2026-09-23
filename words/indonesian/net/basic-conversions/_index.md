@@ -49,6 +49,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Buat PDF dari DOCX di C# – Panduan Lengkap dengan Ekspor Bentuk](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Pelajari cara membuat PDF dari file DOCX menggunakan Aspose.Words untuk .NET dengan panduan lengkap termasuk cara mengekspor bentuk. |
 | [Buat PDF dari Word – Panduan Lengkap C# dengan Deteksi Font](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Panduan langkah demi langkah membuat PDF dari dokumen Word menggunakan Aspose.Words untuk .NET dengan deteksi font otomatis. |
 | [Mengonversi DOCX ke PDF dalam C# – Panduan Lengkap](./convert-docx-to-pdf-in-c-complete-guide/) | Panduan langkah demi langkah mengonversi file DOCX ke PDF menggunakan Aspose.Words dalam C#. Cocok untuk pengembang. |
+| [Tutorial Word ke PDF: Konversi DOCX ke PDF dengan Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Pelajari cara mengonversi file DOCX ke PDF menggunakan Aspose.Words untuk .NET dengan contoh kode langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

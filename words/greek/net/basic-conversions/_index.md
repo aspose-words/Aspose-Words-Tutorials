@@ -49,6 +49,7 @@
 | [Δημιουργία PDF από Word – Πλήρης Οδηγός C# με Ανίχνευση Γραμματοσειρών](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Μάθετε πώς να δημιουργείτε PDF από Word με Aspose.Words για .NET, χρησιμοποιώντας πλήρη οδηγό C# και ανίχνευση γραμματοσειρών. |
 | [Δημιουργία PDF από DOCX σε C# – Πλήρης Οδηγός με Εξαγωγή Σχημάτων](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Μάθετε πώς να δημιουργείτε PDF από αρχεία DOCX σε C# με πλήρη οδηγό, συμπεριλαμβανομένης της εξαγωγής σχημάτων. |
 | [Μετατροπή DOCX σε PDF σε C# – Πλήρης Οδηγός](./convert-docx-to-pdf-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε DOCX σε PDF χρησιμοποιώντας C# και Aspose.Words με πλήρη οδηγό βήμα‑βήμα. |
+| [Οδηγός Word σε PDF: Μετατροπή DOCX σε PDF με Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε PDF χρησιμοποιώντας το Aspose.Words για .NET με βήμα‑βήμα οδηγίες. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

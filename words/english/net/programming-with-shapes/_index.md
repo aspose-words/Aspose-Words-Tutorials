@@ -43,6 +43,7 @@ By using Aspose.Words for .NET and following these tutorials, you will be able t
 | [Add shadow to shape in C# – Complete Guide to Apply Shadow Effect](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Learn how to add shadow effects to shapes in Word documents using Aspose.Words for .NET with this comprehensive step‑by‑step guide. |
 | [How to Edit Shape Shadow in C# with Aspose.Words – Step‑by‑Step Guide](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Learn how to edit shape shadow properties in Word documents using Aspose.Words for .NET with this step‑by‑step guide. |
 | [Add Shadow to Shape – Step‑by‑Step Guide for C# Developers](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Learn how to add shadow to shapes in Word documents using Aspose.Words for .NET with this step‑by‑step guide for C# developers. |
+| [Create blank word document with Aspose.Words – Step‑by‑Step Guide](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Learn how to create a blank Word document using Aspose.Words for .NET with this step‑by‑step guide. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

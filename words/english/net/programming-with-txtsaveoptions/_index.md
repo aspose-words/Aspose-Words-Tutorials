@@ -62,6 +62,7 @@ Thanks to these tutorials, you will be able to fully exploit the functionalities
 | [Save docx as txt – Preserve Line Breaks & Spaces in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Learn how to save a DOCX as TXT while preserving line breaks and spaces using Aspose.Words for .NET in C#. |
 | [How to Export LaTeX from DOCX – Step‑by‑Step Guide](./how-to-export-latex-from-docx-step-by-step-guide/) | Learn how to export LaTeX from DOCX files using Aspose.Words for .NET with a detailed step‑by‑step guide. |
 | [Save DOCX as TXT – Export Word Equations to LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Learn how to save a DOCX file as TXT while converting Word equations to LaTeX format using Aspose.Words for .NET. |
+| [How to Export LaTeX from Word – Convert Word to TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Learn how to export LaTeX from Word documents by converting them to TXT using Aspose.Words for .NET, preserving formatting and equations. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

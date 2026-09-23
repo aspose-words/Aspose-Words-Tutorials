@@ -48,6 +48,7 @@
 | [PDF aus Word erstellen – Vollständige C#‑Anleitung mit Schriftart‑Erkennung](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Erfahren Sie, wie Sie mit Aspose.Words PDFs aus Word generieren und automatisch Schriftarten erkennen – komplette C#‑Anleitung. |
 | [PDF aus DOCX in C# erstellen – Vollständige Anleitung mit Shape-Export](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX in PDF konvertieren und dabei Shapes exportieren – Schritt‑für‑Schritt‑Anleitung. |
 | [DOCX in PDF mit C# – Vollständige Anleitung](./convert-docx-to-pdf-in-c-complete-guide/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET in C# vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |
+| [Word‑zu‑PDF‑Tutorial: DOCX mit Aspose.Words in PDF konvertieren](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Erfahren Sie, wie Sie DOCX‑Dateien mit Aspose.Words für .NET schnell und einfach in PDF umwandeln. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

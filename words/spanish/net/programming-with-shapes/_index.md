@@ -42,6 +42,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | [Agregar sombra a una forma en C# – Guía completa para aplicar efecto de sombra](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words para .NET con esta guía paso a paso. |
 | [Editar sombra de forma en C#](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) Aprenda a editar la sombra de una forma en documentos Word usando Aspose.Words para .NET. Guía paso a paso. |
 | [Agregar sombra a una forma – Guía paso a paso para desarrolladores C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Aprenda a agregar sombra a formas en documentos de Word usando Aspose.Words para .NET con esta guía paso a paso. |
+| [Crear documento Word en blanco con Aspose.Words – Guía paso a paso](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aprenda a crear un documento Word vacío usando Aspose.Words con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

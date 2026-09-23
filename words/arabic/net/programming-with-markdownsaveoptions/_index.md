@@ -46,8 +46,6 @@
 ### [كيفية تصدير LaTeX من Word: تحويل DOCX إلى Markdown باستخدام Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 ### [تحويل Word إلى Markdown – تضمين الصور كـ Base64](./convert-word-to-markdown-embed-images-as-base64/)
-### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
-
 ### [كيفية تصدير LaTeX: تحويل DOCX إلى Markdown و TXT](./how-to-export-latex-convert-docx-to-markdown-txt/)
 
 ### [كيفية إعادة تسمية الصور عند تحويل DOCX إلى Markdown](./how-to-rename-images-when-converting-docx-to-markdown/)
@@ -57,8 +55,6 @@
 ### [حفظ صور Word – تحويل Word إلى Markdown باستخدام Aspose](./save-word-images-convert-word-to-markdown-with-aspose/)
 
 ### [تحويل Word إلى Markdown في C# – دليل كامل مع استخراج الصور](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
-
-### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 
 ### [تحويل Word إلى Markdown – دليل كامل مع استخراج الصور](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 
@@ -101,6 +97,10 @@
 ### [كيفية تصدير Markdown من DOCX مع الصور – دليل كامل](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل خطوة بخطوة كامل](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
+
+### [كيفية تصدير LaTeX من Word – تحويل DOCX إلى Markdown](./how-to-export-latex-from-word-convert-docx-to-markdown/)
+
+### [كيفية حفظ Markdown من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

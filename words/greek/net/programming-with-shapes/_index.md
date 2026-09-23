@@ -42,6 +42,7 @@
 | [Προσθήκη σκιάς σε σχήμα σε C# – Πλήρης οδηγός για εφαρμογή εφέ σκιάς](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με C#. |
 | [Πώς να επεξεργαστείτε τη σκιά σχήματος σε C# με Aspose.Words – Οδηγός βήμα προς βήμα](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Μάθετε πώς να επεξεργαστείτε τη σκιά ενός σχήματος σε έγγραφα Word χρησιμοποιώντας Aspose.Words για .NET με οδηγίες βήμα προς βήμα. |
 | [Προσθήκη σκιάς σε σχήμα – Οδηγός βήμα προς βήμα για προγραμματιστές C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Δημιουργία κενού εγγράφου Word με Aspose.Words – Οδηγός βήμα‑βήμα](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

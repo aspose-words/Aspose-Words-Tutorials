@@ -34,6 +34,7 @@ Aspose.Words for .NET のチュートリアルでは、Word 文書の操作を�
 | [docx を txt に保存 – C# 開発者向けクイックガイド](./save-docx-as-txt-quick-guide-for-c-developers/) Aspose.Words for .NET を使用して、docx ファイルを txt に変換する手順を簡潔に解説します。 |
 | [DOCX から LaTeX をエクスポートする方法 – ステップバイステップガイド](./how-to-export-latex-from-docx-step-by-step-guide/) Aspose.Words for .NET を使用して、DOCX 文書から LaTeX 形式にエクスポートする手順を解説します。 |
 | [DOCX を TXT に保存 – Word の数式を LaTeX にエクスポートする](./save-docx-as-txt-export-word-equations-to-latex/) Aspose.Words for .NET を使用して、DOCX を TXT に変換し、数式を LaTeX 形式でエクスポートする方法を学びます。 |
+| [LaTeX をエクスポートする方法 – Word から TXT へ変換](./how-to-export-latex-from-word-convert-word-to-txt/) Aspose.Words for .NET を使用して、Word 文書から LaTeX 形式のテキストをエクスポートする方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

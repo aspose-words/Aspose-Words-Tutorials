@@ -79,6 +79,9 @@ Erfahren Sie, wie Sie Word‑Dateien in Markdown konvertieren und dabei Bilder e
 ### [Wie man LaTeX aus Word exportiert – DOCX in Markdown konvertieren](./how-to-export-latex-from-word-convert-docx-to-markdown/)
 Erfahren Sie, wie Sie LaTeX‑Formeln aus Word‑Dokumenten extrahieren und als Markdown mit LaTeX‑Syntax speichern.
 
+### [Wie man Markdown aus Word speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-markdown-from-word-step-by-step-guide/)
+Erfahren Sie, wie Sie DOCX‑Dateien in Markdown speichern – vollständige Schritt‑für‑Schritt‑Anleitung in C#.
+
 ### [Word in Markdown konvertieren – Vollständige Anleitung mit Bildextraktion](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 Erfahren Sie, wie Sie Word‑Dokumente in Markdown konvertieren und dabei Bilder extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
 

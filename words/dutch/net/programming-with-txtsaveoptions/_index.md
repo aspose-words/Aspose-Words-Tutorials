@@ -35,6 +35,7 @@ Dankzij deze tutorials kunt u de functionaliteiten van Aspose.Words voor .NET op
 | [Docx opslaan als txt – behoud regelafbrekingen en spaties in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Leer hoe u een DOCX-bestand opslaat als TXT met behoud van regelafbrekingen en spaties met Aspose.Words voor .NET in C#. |
 | [Hoe LaTeX te exporteren vanuit DOCX – Stapsgewijze handleiding](./how-to-export-latex-from-docx-step-by-step-guide/) | Leer hoe u LaTeX-bestanden exporteert vanuit DOCX met Aspose.Words voor .NET in een stapsgewijze handleiding. |
 | [DOCX opslaan als TXT – Exporteer Word-vergelijkingen naar LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Leer hoe u DOCX-bestanden als TXT exporteert en Word-vergelijkingen omzet naar LaTeX met Aspose.Words voor .NET. |
+| [Hoe LaTeX vanuit Word exporteren – Converteer Word naar TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Leer hoe u LaTeX-code uit een Word-document exporteert en opslaat als TXT-bestand met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

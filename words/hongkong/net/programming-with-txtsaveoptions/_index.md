@@ -35,6 +35,7 @@ Aspose.Words for .NET 教學課程將引導您了解在操作 Word 文件的過�
 | [將 docx 儲存為 txt – 在 C# 中保留換行與空格](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) |示範如何使用 C# 將 DOCX 轉換為 TXT，並保留換行與空格。 |
 | [如何從 DOCX 匯出 LaTeX – 步驟說明](./how-to-export-latex-from-docx-step-by-step-guide/) |本指南說明如何使用 Aspose.Words for .NET 將 DOCX 文件匯出為 LaTeX 格式，包含完整步驟與範例程式碼。 |
 | [將 DOCX 儲存為 TXT – 匯出 Word 方程式為 LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) |說明如何將 DOCX 轉換為 TXT，並將 Word 方程式匯出為 LaTeX 代碼。 |
+| [如何從 Word 匯出 LaTeX – 將 Word 轉換為 TXT](./how-to-export-latex-from-word-convert-word-to-txt/) |說明如何使用 Aspose.Words for .NET 將 Word 文件匯出為 LaTeX，並轉換為 TXT 文字檔。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

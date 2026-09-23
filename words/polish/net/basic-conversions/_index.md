@@ -49,6 +49,7 @@ Basic Conversions przeprowadzi Cię przez podstawowe konwersje dokumentów przy 
 | [Utwórz PDF z Worda – Kompletny przewodnik C# z wykrywaniem czcionek](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Dowiedz się, jak w C# wygenerować PDF z dokumentu Word, automatycznie wykrywając i osadzając użyte czcionki. |
 | [Utwórz PDF z DOCX w C# – Kompletny przewodnik z eksportem kształtów](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Dowiedz się, jak w pełnym przewodniku konwertować DOCX do PDF w C# z eksportem kształtów przy użyciu Aspose.Words. |
 | [Konwertuj DOCX do PDF w C# – Kompletny przewodnik](./convert-docx-to-pdf-in-c-complete-guide/) | Dowiedz się, jak w pełni konwertować pliki DOCX do PDF w C# przy użyciu Aspose.Words, krok po kroku z przykładami kodu. |
+| [Word do PDF – samouczek: konwertuj DOCX na PDF przy użyciu Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Dowiedz się, jak łatwo konwertować pliki DOCX do PDF przy użyciu Aspose.Words w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

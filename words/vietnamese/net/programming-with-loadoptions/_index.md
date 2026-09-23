@@ -49,6 +49,7 @@ Trong các hướng dẫn này, bạn sẽ học cách sử dụng LoadOptions �
 | [Khôi phục tệp DOCX bị hỏng bằng Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Hướng dẫn từng bước khôi phục tệp DOCX hỏng bằng Aspose.Words cho .NET. |
 | [Khôi phục tệp DOCX bị hỏng trong C# – Hướng dẫn đầy đủ](./recover-corrupted-docx-files-in-c-complete-guide/) | Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words trong C#, từng bước một. |
 | [Cách khôi phục tệp DOCX – Hướng dẫn đầy đủ để phục hồi tài liệu Word bị hỏng](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words cho .NET, từng bước một. |
+| [Cấu hình Aspose Load Options trong C# – Hướng dẫn toàn diện](./configure-aspose-load-options-in-c-complete-guide/) | Hướng dẫn chi tiết cách cấu hình Aspose Load Options trong C# để tối ưu việc tải tài liệu Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,7 @@
 | [Восстановление повреждённого DOCX-файла с помощью Aspose.Words](./recover-damaged-docx-file-using-aspose-words/) | Узнайте, как восстановить повреждённый DOCX-файл с помощью Aspose.Words, следуя простому пошаговому руководству. |
 | [Восстановление повреждённых файлов DOCX в C# – Полное руководство](./recover-corrupted-docx-files-in-c-complete-guide/) | Узнайте, как восстановить повреждённые DOCX файлы в C# с помощью Aspose.Words, следуя пошаговому полному руководству. |
 | [Как восстановить файлы DOCX – Полное руководство по восстановлению повреждённых документов Word](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Пошаговое руководство по восстановлению повреждённых файлов DOCX с помощью Aspose.Words для .NET. |
+| [Настройка Aspose Load Options в C# – Полное руководство](./configure-aspose-load-options-in-c-complete-guide/) | Подробное руководство по настройке параметров загрузки Aspose в C# для оптимальной обработки документов Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

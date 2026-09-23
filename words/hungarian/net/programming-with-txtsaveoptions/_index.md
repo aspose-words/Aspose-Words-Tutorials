@@ -35,6 +35,7 @@ Ezeknek az oktatóanyagoknak köszönhetően teljes mértékben kiaknázhatod az
 | [DOCX mentése TXT-be – sortörések és szóközök megőrzése C#-ban](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Tanulja meg, hogyan menthet DOCX fájlokat TXT formátumba, miközben megőrzi a sortöréseket és szóközöket C#-ban. |
 | [Hogyan exportáljunk LaTeX-et DOCX-ből – Lépésről lépésre útmutató](./how-to-export-latex-from-docx-step-by-step-guide/) | Tanulja meg, hogyan exportálhat LaTeX-et DOCX fájlokból az Aspose.Words for .NET segítségével, részletes lépésekkel és kódrészletekkel. |
 | [DOCX mentése TXT-ként – Word egyenletek exportálása LaTeX-be](./save-docx-as-txt-export-word-equations-to-latex/) | Tanulja meg, hogyan exportálhatja a Word egyenleteket LaTeX formátumba, miközben a DOCX fájlt TXT-re menti. |
+| [Hogyan exportáljunk LaTeX-et Wordből – Word konvertálása TXT-be](./how-to-export-latex-from-word-convert-word-to-txt/) | Tanulja meg, hogyan exportálhat LaTeX-et Word dokumentumból TXT formátumba az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,7 @@
 | [Αποθήκευση docx ως pdf με εξαγωγή σχήματος – Πλήρης οδηγός](./save-docx-as-pdf-with-shape-export-complete-guide/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως pdf με εξαγωγή σχήματος χρησιμοποιώντας το Aspose.Words για .NET. |
 | [Αποθήκευση εγγράφου ως PDF με Aspose.Words – Πλήρης οδηγός C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Μάθετε πώς να αποθηκεύετε έγγραφα Word ως PDF χρησιμοποιώντας το Aspose.Words με πλήρη οδηγό C#. |
 | [Δημιουργία Προσβάσιμου PDF – Οδηγός Βήμα‑βήμα για Προγραμματιστές](./create-accessible-pdf-step-by-step-guide-for-developers/) | Μάθετε πώς να δημιουργήσετε προσβάσιμα αρχεία PDF με οδηγίες βήμα‑βήμα για προγραμματιστές. |
+| [Δημιουργία PDF/UA από Word σε C# – Πλήρης Οδηγός](./create-pdf-ua-from-word-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αρχεία PDF/UA από έγγραφα Word χρησιμοποιώντας C# και Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

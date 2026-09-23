@@ -42,6 +42,7 @@
 | [Создать пустой документ Word с фигурой прямоугольника с тенью – пошаговое руководство](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Узнайте, как создать пустой документ Word и добавить в него прямоугольную фигуру с теневым эффектом с помощью Aspose.Words для .NET. |
 | [Как редактировать тень фигуры в C# с Aspose.Words – пошаговое руководство](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Узнайте, как редактировать тень фигуры в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Добавить тень к фигуре – пошаговое руководство для разработчиков C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
+| [Создать пустой документ Word с Aspose.Words – пошаговое руководство](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Узнайте, как создать пустой документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

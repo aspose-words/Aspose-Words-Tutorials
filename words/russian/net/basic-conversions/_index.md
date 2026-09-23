@@ -49,6 +49,7 @@ Basic Conversions проведет вас через базовые преобр
 | [Сохранить Word как PDF в C# – Полное руководство по доступному преобразованию](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Подробное руководство по конвертации Word в PDF в C# с учётом доступности, включая примеры кода и настройки. |
 | [Создать PDF из Word – Полное руководство C# с определением шрифтов](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Узнайте, как создать PDF из документа Word в C#, автоматически определяя используемые шрифты для точного отображения. |
 | [Создать PDF из DOCX в C# – Полное руководство с экспортом фигур](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Полное руководство по созданию PDF из DOCX в C# с экспортом фигур, включая примеры кода и настройки. |
+| [Учебник Word в PDF: Конвертировать DOCX в PDF с помощью Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Узнайте, как конвертировать DOCX в PDF с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

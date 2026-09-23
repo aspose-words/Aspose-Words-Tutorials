@@ -58,6 +58,7 @@
 | [Сохранить документ docx в PDF с экспортом фигур – Полное руководство](./save-docx-as-pdf-with-shape-export-complete-guide/) | Узнайте, как экспортировать фигуры из DOCX при сохранении в PDF с помощью Aspose.Words for .NET, следуя пошаговому руководству. |
 | [Сохранить документ как PDF с Aspose.Words – Полное руководство на C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Подробное руководство по сохранению документа Word в PDF с помощью Aspose.Words на C#. |
 | [Создание доступного PDF – пошаговое руководство для разработчиков](./create-accessible-pdf-step-by-step-guide-for-developers/) | Узнайте, как создавать доступные PDF‑файлы, соответствующие стандартам доступности, с помощью пошагового руководства для разработчиков. |
+| [Создание PDF/UA из Word на C# – Полное руководство](./create-pdf-ua-from-word-in-c-complete-guide/) | Полное руководство по созданию PDF/UA из документов Word с помощью C# и Aspose.Words, включая настройку соответствия стандарту PDF/UA. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

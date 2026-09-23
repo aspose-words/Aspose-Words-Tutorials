@@ -43,6 +43,7 @@ Aspose.Words for .NET'i kullanarak ve bu eğitimleri takip ederek, Word belgeler
 | [C#'ta Şekle Gölge Ekle – Gölge Efekti Uygulama Tam Kılavuzu](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | Aspose.Words for .NET kullanarak C# ile şekillere gölge eklemeyi ve gölge ayarlarını yönetmeyi adım adım öğrenin. |
 | [C# ile Aspose.Words Kullanarak Şekil Gölgesini Düzenleme – Adım Adım Kılavuz](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words for .NET kullanarak C# içinde şekil gölgesini nasıl düzenleyeceğinizi adım adım öğrenin. |
 | [Şekle Gölge Ekle – C# Geliştiricileri için Adım Adım Kılavuz](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Aspose.Words for .NET kullanarak C# ile şekillere gölge eklemeyi adım adım öğrenin. |
+| [Aspose.Words ile Boş Word Belgesi Oluşturma – Adım Adım Kılavuz](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words for .NET kullanarak boş bir Word belgesi oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

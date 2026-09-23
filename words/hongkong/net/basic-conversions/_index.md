@@ -48,6 +48,7 @@
 | [在 C# 中從 DOCX 建立 PDF – 完整指南（含形狀匯出）](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，並匯出文件中的形狀，提供完整步驟與程式碼範例。 |
 | [在 C# 中將 Word 儲存為 PDF – 完整無障礙轉換指南](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | 完整指南教您在 C# 中使用 Aspose.Words 將 Word 檔案儲存為 PDF，並確保符合無障礙標準。 |
 | [在 C# 中將 DOCX 轉換為 PDF – 完整指南](./convert-docx-to-pdf-in-c-complete-guide/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，提供完整步驟與程式碼範例。 |
+| [Word 轉 PDF 教學：使用 Aspose.Words 將 DOCX 轉換為 PDF](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | 了解如何使用 Aspose.Words for .NET 在 C# 中將 DOCX 轉換為 PDF，提供逐步指南與程式碼範例。 |
 
 | [在 C# 中將 PNG 轉換為 Base64 – 完整指南](./convert-png-to-base64-in-c-complete-guide/) | 了解如何在 C# 中將 PNG 圖片轉換為 Base64 字串，完整步驟與程式碼示例，適合需要圖像編碼的開發人員。 |
 

@@ -35,6 +35,7 @@ Aspose.Words for .NET ट्यूटोरियल आपको Word दस्
 | [C# में docx को txt के रूप में सहेजें – लाइन ब्रेक और स्पेस बनाए रखें](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | C# में Aspose.Words का उपयोग करके docx फ़ाइल को txt में बदलें, जबकि लाइन ब्रेक और स्पेस को संरक्षित रखें। |
 | [DOCX से LaTeX निर्यात कैसे करें – चरण-दर-चरण गाइड](./how-to-export-latex-from-docx-step-by-step-guide/) | Aspose.Words for .NET का उपयोग करके DOCX फ़ाइलों से LaTeX कोड निर्यात करने की प्रक्रिया सीखें। |
 | [DOCX को TXT के रूप में सहेजें – Word समीकरणों को LaTeX में निर्यात करें](./save-docx-as-txt-export-word-equations-to-latex/) | DOCX फ़ाइल को TXT में बदलें और Word समीकरणों को LaTeX फ़ॉर्मेट में निर्यात करना सीखें। |
+| [Word से LaTeX निर्यात कैसे करें – Word को TXT में बदलें](./how-to-export-latex-from-word-convert-word-to-txt/) | इस ट्यूटोरियल में Word दस्तावेज़ को LaTeX फ़ॉर्मेट में निर्यात करके TXT फ़ाइल में बदलने की प्रक्रिया दिखायी गई है। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

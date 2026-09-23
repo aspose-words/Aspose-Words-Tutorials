@@ -58,6 +58,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Enregistrer un document au format PDF en C# – Guide complet pour exporter Docx et surveiller les changements de police](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Apprenez à convertir des fichiers DOCX en PDF avec Aspose.Words pour .NET, tout en suivant les modifications de police. |
 | [Enregistrer le document au format PDF avec Aspose.Words – Guide complet C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Apprenez à enregistrer un document Word en PDF avec Aspose.Words grâce à ce guide complet en C#. |
 | [Créer un PDF accessible – Guide étape par étape pour les développeurs](./create-accessible-pdf-step-by-step-guide-for-developers/) | Apprenez à créer des PDF accessibles avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
+| [Créer un PDF/UA à partir de Word en C# – Guide complet](./create-pdf-ua-from-word-in-c-complete-guide/) | Apprenez à générer des fichiers PDF/UA conformes à partir de documents Word en C# avec Aspose.Words, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
