@@ -24,10 +24,6 @@ title: Maak Toegankelijke PDF – Stapsgewijze gids voor ontwikkelaars
 url: /nl/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-developers/
 ---
 
-the shortcodes exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

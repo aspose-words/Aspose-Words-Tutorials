@@ -24,13 +24,7 @@ title: كيفية تصدير ماركداون من DOCX مع الصور – دل
 url: /ar/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-with-images-complete-guide/
 ---
 
-**export markdown with images** وحيل Aspose.Words المتقدمة. برمجة سعيدة!"
-
-Then closing shortcodes unchanged.
-
-Now ensure we keep all markdown formatting, code block placeholders, shortcodes.
-
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

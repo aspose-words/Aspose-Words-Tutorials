@@ -23,7 +23,7 @@ title: Konwertuj DOCX na PDF w C# – Kompletny przewodnik
 url: /pl/net/basic-conversions/convert-docx-to-pdf-in-c-complete-guide/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

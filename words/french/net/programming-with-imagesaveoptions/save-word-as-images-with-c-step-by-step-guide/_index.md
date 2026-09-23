@@ -25,8 +25,6 @@ title: Enregistrer Word en images avec C# – Guide étape par étape
 url: /fr/net/programming-with-imagesaveoptions/save-word-as-images-with-c-step-by-step-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

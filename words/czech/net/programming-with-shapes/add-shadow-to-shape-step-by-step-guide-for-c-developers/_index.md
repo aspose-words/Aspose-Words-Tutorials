@@ -24,9 +24,7 @@ title: Přidejte stín k tvaru – krok za krokem průvodce pro vývojáře C#
 url: /cs/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

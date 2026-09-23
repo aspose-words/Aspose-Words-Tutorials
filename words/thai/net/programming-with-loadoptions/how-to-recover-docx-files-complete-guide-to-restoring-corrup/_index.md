@@ -22,19 +22,7 @@ title: วิธีกู้คืนไฟล์ DOCX – คู่มือค
 url: /th/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/
 ---
 
-bold.
-
-Similarly other bolds.
-
-Proceed.
-
-Let's craft translation.
-
-Be careful with code block placeholders: they are separate lines.
-
-Also ensure lists: bullet points.
-
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

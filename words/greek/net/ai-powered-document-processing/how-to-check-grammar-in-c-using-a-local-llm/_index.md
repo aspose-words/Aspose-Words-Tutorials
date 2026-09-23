@@ -23,9 +23,7 @@ title: Πώς να ελέγξετε τη γραμματική σε C# χρησι
 url: /el/net/ai-powered-document-processing/how-to-check-grammar-in-c-using-a-local-llm/
 ---
 
-.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

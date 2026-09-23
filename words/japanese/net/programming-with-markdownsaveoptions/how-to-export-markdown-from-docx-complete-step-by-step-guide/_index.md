@@ -20,13 +20,7 @@ title: DOCXからMarkdownをエクスポートする方法 – 完全ステッ�
 url: /ja/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-step-by-step-guide/
 ---
 
-.
-
-Check for any bold text like **how to export markdown** should stay same? The instruction says keep technical terms in English, but "how to export markdown" is phrase, maybe keep as is? In translation we kept the phrase unchanged inside bold. That's okay.
-
-Also "convert docx to markdown" etc should stay as is. We kept them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

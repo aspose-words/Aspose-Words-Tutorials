@@ -26,15 +26,7 @@ title: Thay đổi phông chữ thành in đậm trong tài liệu Word bằng C
 url: /vi/net/font-styling/change-font-to-bold-in-a-word-document-with-c-complete-guide/
 ---
 
-/products-backtop-button >}}
-
-We keep them unchanged.
-
-Now produce final content with all translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

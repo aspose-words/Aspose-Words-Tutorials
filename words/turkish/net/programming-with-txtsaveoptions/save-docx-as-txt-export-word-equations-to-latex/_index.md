@@ -24,13 +24,7 @@ title: DOCX'i TXT olarak kaydet – Word denklemlerini LaTeX'e aktar
 url: /tr/net/programming-with-txtsaveoptions/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
-). But translate: "Aşağıda **entire". However the phrase is incomplete; we can translate "Aşağıda **entire" but keep the asterisks.
-
-Now ensure all shortcodes and code block placeholders remain.
-
-Now produce final output with same markdown structure.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

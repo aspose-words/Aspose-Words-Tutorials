@@ -25,9 +25,7 @@ title: Hoe Markdown uit DOCX met afbeeldingen exporteren – Complete gids
 url: /nl/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-with-images-complete-guide/
 ---
 
-markdown formatting.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

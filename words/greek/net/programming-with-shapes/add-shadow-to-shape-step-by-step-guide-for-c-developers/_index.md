@@ -25,30 +25,6 @@ title: Προσθήκη Σκιάς σε Σχήμα – Οδηγός Βήμα‑�
 url: /el/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-good news? In just a handful of steps you can turn a flat rectangle into a polished, three‑dimensional element that pops off the page."
-
-Translate.
-
-Continue.
-
-Make sure to keep bold formatting.
-
-Proceed through all sections.
-
-List items under prerequisites.
-
-Translate bullet points.
-
-Code block placeholders remain.
-
-Quotes.
-
-Table.
-
-Ok.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

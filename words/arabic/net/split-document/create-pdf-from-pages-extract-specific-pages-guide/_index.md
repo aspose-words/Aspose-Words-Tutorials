@@ -22,14 +22,6 @@ title: إنشاء PDF من الصفحات – دليل استخراج صفحات
 url: /ar/net/split-document/create-pdf-from-pages-extract-specific-pages-guide/
 ---
 
-right-to-left but markdown doesn't need special.
-
-Let's translate.
-
-We'll keep code block placeholders as they are.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

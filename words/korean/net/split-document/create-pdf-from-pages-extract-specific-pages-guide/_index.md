@@ -22,11 +22,7 @@ title: Pages에서 PDF 만들기 – 특정 페이지 추출 가이드
 url: /ko/net/split-document/create-pdf-from-pages-extract-specific-pages-guide/
 ---
 
-: translate column headers and cells.
-
-Check bullet lists.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

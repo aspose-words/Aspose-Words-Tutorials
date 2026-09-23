@@ -22,9 +22,7 @@ title: วิธีส่งออก Markdown จาก DOCX – คู่ม�
 url: /th/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-step-by-step-guide/
 ---
 
-markdown syntax.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

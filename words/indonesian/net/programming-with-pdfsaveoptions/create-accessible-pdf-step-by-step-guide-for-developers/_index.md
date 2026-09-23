@@ -24,10 +24,6 @@ title: Buat PDF yang Aksesibel – Panduan Langkah-demi-Langkah untuk Pengembang
 url: /id/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-developers/
 ---
 
-top and bottom unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

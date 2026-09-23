@@ -24,11 +24,7 @@ title: DOCX als TXT speichern – Word-Formeln nach LaTeX exportieren
 url: /de/net/programming-with-txtsaveoptions/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
-placeholders: keep unchanged.
-
-Check for bold phrases: we translated but keep bold formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

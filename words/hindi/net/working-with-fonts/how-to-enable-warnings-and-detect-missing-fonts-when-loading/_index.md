@@ -25,16 +25,6 @@ title: DOCX फ़ाइलें लोड करते समय चेता�
 url: /hi/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-, और आपके दस्तावेज़ हमेशा ठीक वैसा ही रेंडर हों जैसा आप चाहते हैं!"
-
-Image line: keep unchanged.
-
-Now closing shortcodes.
-
-We must ensure we keep all shortcodes exactly.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,14 +24,6 @@ title: Zeile in Tabelle mit C# ausblenden – Einfache Anleitung zum Entfernen v
 url: /de/net/programming-with-tables/hide-row-in-table-with-c-simple-guide-to-removing-table-rows/
 ---
 
-Next bold "What you’ll get" etc.
-
-Proceed.
-
-Make sure to keep code block placeholders.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

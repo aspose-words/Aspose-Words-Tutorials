@@ -22,11 +22,7 @@ title: บันทึก DOCX เป็น TXT – ส่งออกสมก�
 url: /th/net/programming-with-txtsaveoptions/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
-markdown formatting, keep code block placeholders unchanged.
-
-Also note bullet points and list formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

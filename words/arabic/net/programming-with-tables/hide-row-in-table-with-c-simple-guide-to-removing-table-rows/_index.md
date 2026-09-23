@@ -22,18 +22,6 @@ title: إخفاء صف في جدول باستخدام C# – دليل بسيط �
 url: /ar/net/programming-with-tables/hide-row-in-table-with-c-simple-guide-to-removing-table-rows/
 ---
 
-while generating a Word document programmatically? ..." translate.
-
-Be careful with **bold**.
-
-Also keep code block placeholders.
-
-Proceed step by step.
-
-Will produce final Arabic markdown.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

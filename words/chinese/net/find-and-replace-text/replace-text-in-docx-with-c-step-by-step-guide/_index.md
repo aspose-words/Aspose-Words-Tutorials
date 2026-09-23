@@ -20,10 +20,6 @@ title: 使用 C# 替换 DOCX 文本 – 步骤指南
 url: /zh/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/
 ---
 
-we must preserve alt text but can translate it. So translate alt text to Chinese: "replace text in docx – diagram showing load, configure replace, execute, and save steps." We'll translate that.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

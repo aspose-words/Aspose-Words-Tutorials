@@ -25,8 +25,6 @@ title: Πώς να ανακτήσετε αρχεία DOCX – Πλήρης οδ�
 url: /el/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

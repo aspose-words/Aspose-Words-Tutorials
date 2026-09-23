@@ -24,7 +24,7 @@ title: Şekle Gölge Ekle – C# Geliştiricileri için Adım Adım Kılavuz
 url: /tr/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,13 +24,7 @@ title: Créer un PDF à partir de Pages – Guide d'extraction de pages spécifi
 url: /fr/net/split-document/create-pdf-from-pages-extract-specific-pages-guide/
 ---
 
-.
-
-Check for any missed items: The image alt translation done. The code block placeholders remain.
-
-Make sure to keep markdown formatting exactly.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

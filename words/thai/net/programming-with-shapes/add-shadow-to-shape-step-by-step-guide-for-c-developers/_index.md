@@ -23,8 +23,6 @@ title: เพิ่มเงาให้กับรูปร่าง – ค�
 url: /th/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

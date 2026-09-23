@@ -24,16 +24,6 @@ title: DOCX in PDF mit C# konvertieren – Vollständige Anleitung
 url: /de/net/basic-conversions/convert-docx-to-pdf-in-c-complete-guide/
 ---
 
-lines. Should keep them unchanged.
-
-We need to translate bullet points etc.
-
-Let's produce final German content.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

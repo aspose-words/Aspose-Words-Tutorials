@@ -21,15 +21,7 @@ title: C#でテーブルの行を非表示にする – テーブル行削除の
 url: /ja/net/programming-with-tables/hide-row-in-table-with-c-simple-guide-to-removing-table-rows/
 ---
 
-part of markdown, but it's text. Should we translate alt text? Probably yes, because it's text content. But the URL remains same. The title attribute also text, we can translate. So alt text "Hide row in table example" -> Japanese. Title "Screenshot showing a Word table with the third row hidden" -> Japanese.
-
-Also the block shortcodes remain.
-
-Now translate headings and paragraphs.
-
-Let's do it.
-
-Will produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

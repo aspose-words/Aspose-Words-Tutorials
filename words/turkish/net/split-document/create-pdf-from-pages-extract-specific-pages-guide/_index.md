@@ -23,12 +23,6 @@ title: Sayfalardan PDF Oluştur – Belirli Sayfaları Çıkarma Kılavuzu
 url: /tr/net/split-document/create-pdf-from-pages-extract-specific-pages-guide/
 ---
 
-.
-
-Now produce final content with same markdown structure.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

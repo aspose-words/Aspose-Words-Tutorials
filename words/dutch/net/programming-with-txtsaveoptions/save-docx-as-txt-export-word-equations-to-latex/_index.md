@@ -24,15 +24,7 @@ title: DOCX opslaan als TXT – Word‑vergelijkingen exporteren naar LaTeX
 url: /nl/net/programming-with-txtsaveoptions/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
-keep them unchanged.
-
-Now produce final output with all translations.
-
-Check for any leftover English text not in code blocks: headings, paragraphs, list items, table cells, etc. Ensure we didn't translate code placeholders.
-
-Check for "step-by-step" etc. All good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

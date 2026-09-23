@@ -24,13 +24,7 @@ title: Δημιουργία Προσβάσιμου PDF – Οδηγός Βήμα
 url: /el/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-developers/
 ---
 
-your document pipeline?** Drop a comment with your use case, or share a snippet of a tricky PDF you’re trying to make accessible. Happy coding!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

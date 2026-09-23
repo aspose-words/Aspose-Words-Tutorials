@@ -25,11 +25,7 @@ title: Thêm bóng cho hình dạng – Hướng dẫn từng bước cho các n
 url: /vi/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-All preserved.
-
-Make sure to keep markdown formatting.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

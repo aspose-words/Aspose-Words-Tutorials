@@ -25,8 +25,6 @@ title: Cambia il carattere in grassetto in un documento Word con C# – Guida co
 url: /it/net/font-styling/change-font-to-bold-in-a-word-document-with-c-complete-guide/
 ---
 
-Ensure no extra spaces or missing elements.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

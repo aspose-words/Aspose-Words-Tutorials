@@ -25,12 +25,6 @@ title: Carregar arquivo Markdown em um documento – Tutorial completo de análi
 url: /pt/net/working-with-markdown/load-markdown-file-into-a-document-complete-parsing-tutorial/
 ---
 
-suave e transformado em um objeto Document pronto para conversão (load markdown file)". Or keep the bold? The original alt text didn't have markdown formatting besides plain text. We'll translate but keep the keyword.
-
-Now translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

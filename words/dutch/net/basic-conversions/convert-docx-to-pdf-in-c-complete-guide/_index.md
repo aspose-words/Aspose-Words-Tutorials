@@ -22,10 +22,6 @@ title: DOCX naar PDF converteren in C# – Complete gids
 url: /nl/net/basic-conversions/convert-docx-to-pdf-in-c-complete-guide/
 ---
 
-keep the shortcodes exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

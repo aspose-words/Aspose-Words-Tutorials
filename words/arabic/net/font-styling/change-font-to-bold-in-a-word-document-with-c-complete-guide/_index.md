@@ -22,12 +22,6 @@ title: تغيير الخط إلى غامق في مستند Word باستخدام
 url: /ar/net/font-styling/change-font-to-bold-in-a-word-document-with-c-complete-guide/
 ---
 
-careful with markdown tables: need to translate content but keep pipes.
-
-Also keep links unchanged (none present except maybe in code). No links.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

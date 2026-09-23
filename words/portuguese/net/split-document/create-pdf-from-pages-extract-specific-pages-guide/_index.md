@@ -24,7 +24,7 @@ title: Criar PDF a partir de Páginas – Guia de Extração de Páginas Especí
 url: /pt/net/split-document/create-pdf-from-pages-extract-specific-pages-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

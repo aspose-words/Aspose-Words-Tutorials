@@ -23,8 +23,6 @@ title: Wie man Grammatik in C# mit einem lokalen LLM prüft
 url: /de/net/ai-powered-document-processing/how-to-check-grammar-in-c-using-a-local-llm/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

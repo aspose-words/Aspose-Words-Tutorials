@@ -22,10 +22,6 @@ title: Convertir DOCX a PDF en C# – Guía completa
 url: /es/net/basic-conversions/convert-docx-to-pdf-in-c-complete-guide/
 ---
 
-not to translate code block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

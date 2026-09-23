@@ -23,18 +23,6 @@ title: Cách bật cảnh báo và phát hiện phông chữ thiếu khi tải t
 url: /vi/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-X file to capturing font substitution warnings – how to enable warnings in Aspere.Words". Should translate alt text but keep the URL unchanged.
-
-Also translate the "Pro tip:" etc.
-
-Let's produce final content.
-
-Be careful with bullet lists: keep dash and spacing.
-
-Translate "How to enable warnings and detect missing fonts when loading DOCX files" to Vietnamese: "Cách bật cảnh báo và phát hiện phông chữ thiếu khi tải tệp DOCX".
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

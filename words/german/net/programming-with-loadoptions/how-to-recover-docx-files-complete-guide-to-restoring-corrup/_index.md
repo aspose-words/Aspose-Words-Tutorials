@@ -25,7 +25,7 @@ title: Wie man DOCX-Dateien wiederherstellt – Vollständiger Leitfaden zur Wie
 url: /de/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

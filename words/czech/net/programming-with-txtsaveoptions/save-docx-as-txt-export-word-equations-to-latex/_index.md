@@ -24,23 +24,7 @@ title: Uložit DOCX jako TXT – Exportovat rovnice z Wordu do LaTeXu
 url: /cs/net/programming-with-txtsaveoptions/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
-v formátu, který rozumí nástroje v dalším kroku."
-
-Continue.
-
-"In this tutorial we’ll walk through a complete, ready‑to‑run C# example that **saves docx as txt** while exporting every OfficeMath object as LaTeX. By the end you’ll be able to **export equations from Word**, get a clean **convert word plain text** file, and even tweak the process for large documents."
-
-Translate accordingly.
-
-Proceed similarly for each section.
-
-Make sure to keep code block placeholders unchanged.
-
-Translate table rows.
-
-Also translate bullet lists.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

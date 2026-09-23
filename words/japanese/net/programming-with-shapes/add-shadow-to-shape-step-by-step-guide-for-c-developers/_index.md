@@ -21,19 +21,7 @@ title: シェイプに影を追加する – C# 開発者向けステップバ�
 url: /ja/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-. Experiment with different colors and transparencies—maybe a subtle blue shadow for a corporate theme." translate.
-
-- "### TL;DR" => "### TL;DR"
-
-- final paragraph.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep any markdown links unchanged (none present except maybe in table? No). Keep images none.
-
-Now produce final content with same shortcodes at top and bottom.
-
-Let's write.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

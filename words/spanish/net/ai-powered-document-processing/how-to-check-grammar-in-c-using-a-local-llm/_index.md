@@ -23,9 +23,7 @@ title: Cómo comprobar la gramática en C# usando un LLM local
 url: /es/net/ai-powered-document-processing/how-to-check-grammar-in-c-using-a-local-llm/
 ---
 
-unchanged.
-
-Now produce final content with translation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

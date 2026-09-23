@@ -23,8 +23,6 @@ title: DOCX से मार्कडाउन निर्यात कैस�
 url: /hi/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-step-by-step-guide/
 ---
 
-final content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

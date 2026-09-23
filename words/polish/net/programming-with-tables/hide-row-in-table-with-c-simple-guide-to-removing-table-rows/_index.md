@@ -24,8 +24,6 @@ title: Ukryj wiersz w tabeli w C# – Prosty przewodnik po usuwaniu wierszy tabe
 url: /pl/net/programming-with-tables/hide-row-in-table-with-c-simple-guide-to-removing-table-rows/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

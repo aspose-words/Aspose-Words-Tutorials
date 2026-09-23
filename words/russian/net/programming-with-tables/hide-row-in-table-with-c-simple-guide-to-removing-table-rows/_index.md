@@ -23,16 +23,6 @@ title: Скрыть строку в таблице с помощью C# – п
 url: /ru/net/programming-with-tables/hide-row-in-table-with-c-simple-guide-to-removing-table-rows/
 ---
 
-.
-
-Also there is a backtop button shortcode at end: keep.
-
-Now ensure we didn't translate any code block placeholders. Keep them unchanged.
-
-Check for any URLs: none besides image alt and title. Keep unchanged.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

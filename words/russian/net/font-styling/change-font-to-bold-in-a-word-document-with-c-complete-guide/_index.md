@@ -24,11 +24,7 @@ title: Изменить шрифт на полужирный в документ
 url: /ru/net/font-styling/change-font-to-bold-in-a-word-document-with-c-complete-guide/
 ---
 
-? Keep original style: first letter capital? We'll keep "# изменить шрифт на жирный в документе Word с помощью C# – Полное руководство". Might be okay.
-
-Now translate paragraphs.
-
-We'll produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

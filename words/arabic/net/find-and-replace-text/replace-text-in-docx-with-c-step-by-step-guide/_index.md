@@ -23,12 +23,6 @@ title: استبدال النص في ملفات DOCX باستخدام C# – دل
 url: /ar/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/
 ---
 
-الخطوات". But alt text is inside parentheses after image: ![replace text in docx example](). The alt text is "replace text in docx example". Should translate to Arabic: "مثال على استبدال النص في docx". Keep "docx". So alt text: "مثال على استبدال النص في docx". We'll keep empty URL.
-
-Now translate each paragraph.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

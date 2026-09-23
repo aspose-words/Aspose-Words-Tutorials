@@ -25,7 +25,7 @@ title: Загрузка Markdown‑файла в документ — Полн�
 url: /ru/net/working-with-markdown/load-markdown-file-into-a-document-complete-parsing-tutorial/
 ---
 
-produce final content. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

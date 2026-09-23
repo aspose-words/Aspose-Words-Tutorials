@@ -25,13 +25,7 @@ title: मार्कडाउन फ़ाइल को दस्तावे�
 url: /hi/net/working-with-markdown/load-markdown-file-into-a-document-complete-parsing-tutorial/
 ---
 
-turned into a Document object ready for conversion". Translate but keep **load markdown file** keyword.
-
-Also any "Pro tip", "Common question", etc.
-
-Make sure to keep bullet points, list items.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

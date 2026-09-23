@@ -25,10 +25,6 @@ title: Jak włączyć ostrzeżenia i wykrywać brakujące czcionki przy ładowan
 url: /pl/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

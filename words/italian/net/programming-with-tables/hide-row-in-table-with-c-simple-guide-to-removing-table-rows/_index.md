@@ -25,25 +25,7 @@ title: Nascondi riga in una tabella con C# – Guida semplice per rimuovere le r
 url: /it/net/programming-with-tables/hide-row-in-table-with-c-simple-guide-to-removing-table-rows/
 ---
 
-– Complete C# Tutorial" translate to Italian: "# Nascondi Riga in Tabella – Tutorial Completo C#". Keep dash? Keep same style.
-
-Paragraphs: translate.
-
-Need to keep **bold** formatting.
-
-Also keep links: there are none except maybe in "Prerequisite:" but no link.
-
-There is a blockquote > **Prerequisite:**... Keep.
-
-Also blockquote > **Tip:** etc.
-
-Also bullet lists.
-
-Make sure to keep code block placeholders.
-
-Let's translate.
-
-I'll produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

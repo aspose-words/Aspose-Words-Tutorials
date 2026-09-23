@@ -25,14 +25,6 @@ title: इमेज के साथ DOCX से मार्कडाउन न
 url: /hi/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-with-images-complete-guide/
 ---
 
-need to **convert docx to markdown**, pull the embedded pictures out, and end up with a tidy folder of images alongside a clean `.md` file." into Hindi.
-
-Proceed.
-
-Make sure to keep markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

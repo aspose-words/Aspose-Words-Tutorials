@@ -22,28 +22,6 @@ title: C#로 DOCX 텍스트 교체 – 단계별 가이드
 url: /ko/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/
 ---
 
-이드"
-
-Proceed.
-
-Paragraphs: translate.
-
-Need to keep **bold** formatting.
-
-Also keep code block placeholders unchanged.
-
-Make sure not to translate URLs, file paths like `input.docx`, `C:\Docs\`.
-
-Also not to translate variable names like `Document`, `ReplacingArgs`, etc.
-
-Now produce translation.
-
-Let's craft Korean translation.
-
-Will keep bullet lists.
-
-Let's do it.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

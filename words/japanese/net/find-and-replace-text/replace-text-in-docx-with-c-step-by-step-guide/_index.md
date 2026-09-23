@@ -20,20 +20,6 @@ title: C#でDOCXのテキストを置換する – ステップバイステッ�
 url: /ja/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/
 ---
 
-unchanged.
-
-Proceed similarly for rest.
-
-Make sure to keep code block placeholders unchanged.
-
-List items under "What You’ll Learn". Translate bullet points.
-
-Under "Prerequisites" list items.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

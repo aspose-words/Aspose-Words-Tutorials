@@ -20,19 +20,7 @@ title: 如何在載入 DOCX 檔案時啟用警告並偵測缺少的字型
 url: /zh-hant/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-.
-
-Check any other markdown like **bold** etc. Keep bold markers.
-
-Check blockquotes > lines.
-
-Check list items.
-
-Check headings.
-
-Everything done.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

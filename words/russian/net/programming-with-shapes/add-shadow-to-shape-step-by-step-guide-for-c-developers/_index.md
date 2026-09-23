@@ -24,12 +24,6 @@ title: Добавление тени к фигуре – пошаговое р�
 url: /ru/net/programming-with-shapes/add-shadow-to-shape-step-by-step-guide-for-c-developers/
 ---
 
-CODE_BLOCK_1}}.
-
-Also translate the table rows.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

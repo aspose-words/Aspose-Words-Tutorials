@@ -24,14 +24,6 @@ title: Ganti Teks di DOCX dengan C# – Panduan Langkah demi Langkah
 url: /id/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/
 ---
 
-execute, and save steps.*" Translate.
-
-Also the "blocks/products/products-backtop-button" shortcode remains.
-
-Proceed to translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

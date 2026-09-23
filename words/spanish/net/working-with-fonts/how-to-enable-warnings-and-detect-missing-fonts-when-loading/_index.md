@@ -23,11 +23,7 @@ title: Cómo habilitar advertencias y detectar fuentes faltantes al cargar archi
 url: /es/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-Diagrama que ilustra el flujo desde la carga de un archivo DOCX hasta la captura de advertencias de sustitución de fuentes – cómo habilitar advertencias en Aspose.Words". Keep same path.
-
-Now final shortcodes.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

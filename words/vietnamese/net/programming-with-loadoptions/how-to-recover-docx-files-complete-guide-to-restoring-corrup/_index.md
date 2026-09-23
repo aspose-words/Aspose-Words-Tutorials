@@ -25,12 +25,6 @@ title: Cách Khôi Phục Tệp DOCX – Hướng Dẫn Toàn Diện Để Khôi
 url: /vi/net/programming-with-loadoptions/how-to-recover-docx-files-complete-guide-to-restoring-corrup/
 ---
 
-headings same level.
-
-Also image alt text: "Screenshot of recovered DOCX preview – how to recover docx" translate alt? The alt text is part of markdown, we should translate alt text but keep image link unchanged. So alt becomes Vietnamese.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

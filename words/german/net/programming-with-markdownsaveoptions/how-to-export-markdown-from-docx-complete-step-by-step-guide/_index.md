@@ -24,7 +24,7 @@ title: Wie man Markdown aus DOCX exportiert – Vollständige Schritt‑für‑S
 url: /de/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-step-by-step-guide/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

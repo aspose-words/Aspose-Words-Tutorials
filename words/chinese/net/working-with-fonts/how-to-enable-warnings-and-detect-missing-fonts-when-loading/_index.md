@@ -20,18 +20,6 @@ title: 如何在加载 DOCX 文件时启用警告并检测缺失的字体
 url: /zh/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-检测缺失字体". Keep same heading level.
-
-Proceed.
-
-Translate paragraphs.
-
-Be careful with bold text **...** keep bold but translate inside.
-
-Also keep code block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

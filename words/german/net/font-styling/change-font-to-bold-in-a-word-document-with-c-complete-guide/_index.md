@@ -24,8 +24,6 @@ title: Schriftart in einem Word‑Dokument mit C# auf Fett ändern – Kompletta
 url: /de/net/font-styling/change-font-to-bold-in-a-word-document-with-c-complete-guide/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

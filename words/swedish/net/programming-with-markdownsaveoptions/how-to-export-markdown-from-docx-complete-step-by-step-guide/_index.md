@@ -23,8 +23,6 @@ title: Hur man exporterar Markdown från DOCX – Komplett steg‑för‑steg‑
 url: /sv/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-complete-step-by-step-guide/
 ---
 
-with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

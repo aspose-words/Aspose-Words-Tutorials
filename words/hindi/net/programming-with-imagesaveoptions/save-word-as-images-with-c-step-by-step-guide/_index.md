@@ -25,8 +25,6 @@ title: C# के साथ Word को इमेज के रूप में �
 url: /hi/net/programming-with-imagesaveoptions/save-word-as-images-with-c-step-by-step-guide/
 ---
 
-final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

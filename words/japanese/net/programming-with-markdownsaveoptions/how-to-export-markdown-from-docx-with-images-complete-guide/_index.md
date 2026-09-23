@@ -23,16 +23,6 @@ title: 画像付きDOCXからMarkdownをエクスポートする方法 – 完�
 url: /ja/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-with-images-complete-guide/
 ---
 
-actual code fences; placeholders. So fine.
-
-We need to translate the bullet lists, etc.
-
-Let's produce the translated content.
-
-Be careful: The shortcodes at top and bottom must be preserved exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

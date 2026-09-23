@@ -25,7 +25,7 @@ title: Φόρτωση αρχείου Markdown σε έγγραφο – Πλήρη
 url: /el/net/working-with-markdown/load-markdown-file-into-a-document-complete-parsing-tutorial/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

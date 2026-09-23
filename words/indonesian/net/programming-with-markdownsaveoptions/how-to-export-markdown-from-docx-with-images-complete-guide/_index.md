@@ -25,20 +25,6 @@ title: Cara Mengekspor Markdown dari DOCX dengan Gambar – Panduan Lengkap
 url: /id/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-with-images-complete-guide/
 ---
 
-.
-
-Translate list items.
-
-Also translate the block shortcodes at top and bottom unchanged.
-
-Let's produce translation.
-
-Be careful with bold text **...** keep bold but translate inside.
-
-Also translate "Prerequisites" etc.
-
-Let's do.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

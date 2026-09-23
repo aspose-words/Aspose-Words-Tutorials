@@ -21,20 +21,6 @@ title: 로컬 LLM을 사용하여 C#에서 문법 검사하는 방법
 url: /ko/net/ai-powered-document-processing/how-to-check-grammar-in-c-using-a-local-llm/
 ---
 
-한 `HttpClient` 인스턴스를 재사용하면"
-
-We keep the bullet as is.
-
-Now after that the content ends with closing shortcodes.
-
-We must preserve the shortcodes at the end.
-
-Now produce final output with all translations and placeholders.
-
-Make sure to keep the shortcodes at top and bottom unchanged.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

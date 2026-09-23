@@ -25,13 +25,7 @@ title: Cómo exportar Markdown desde DOCX con imágenes – Guía completa
 url: /es/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-docx-with-images-complete-guide/
 ---
 
-or explore our other tutorials on **export markdown with images** and advanced Aspose.Words tricks. Happy coding!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep all markdown formatting, code block placeholders unchanged.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

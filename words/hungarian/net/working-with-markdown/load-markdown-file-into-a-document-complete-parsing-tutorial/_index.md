@@ -24,13 +24,7 @@ title: Markdown fájl betöltése egy dokumentumba – Teljes elemzési útmutat
 url: /hu/net/working-with-markdown/load-markdown-file-into-a-document-complete-parsing-tutorial/
 ---
 
-parsing tutorial** in a real project. Happy coding!"
-
-Translate.
-
-Then closing shortcodes.
-
-Now produce final content. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,11 +23,7 @@ title: Comment vérifier la grammaire en C# à l'aide d'un LLM local
 url: /fr/net/ai-powered-document-processing/how-to-check-grammar-in-c-using-a-local-llm/
 ---
 
-we translated. The "Pro tip" we translated. The "Why this matters" we translated. The "Edge case note" etc.
-
-Make sure to keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

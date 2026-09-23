@@ -23,18 +23,6 @@ title: โหลดไฟล์ Markdown ไปยังเอกสาร – �
 url: /th/net/working-with-markdown/load-markdown-file-into-a-document-complete-parsing-tutorial/
 ---
 
-loaded, parsed with custom soft line break handling, and turned into a Document object ready for conversion". Should we translate alt text? The instruction says translate ALL text content naturally to Thai, but keep technical terms in English. Alt text is text content, so translate it, but keep primary keyword "load markdown file". So we need to translate alt text to Thai, preserving the keyword. So alt text becomes Thai translation with "load markdown file". We'll do that.
-
-Also tables: translate column headers and content, but keep technical terms.
-
-Let's produce final content.
-
-Check headings: # Load Markdown File into a Document – Complete Parsing Tutorial => translate.
-
-We'll produce Thai headings.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,9 +22,7 @@ title: 접근성 있는 PDF 만들기 – 개발자를 위한 단계별 가이�
 url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-step-by-step-guide-for-developers/
 ---
 
-Then closing shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: Αποθήκευση DOCX ως TXT – Εξαγωγή εξισώσεων 
 url: /el/net/programming-with-txtsaveoptions/save-docx-as-txt-export-word-equations-to-latex/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

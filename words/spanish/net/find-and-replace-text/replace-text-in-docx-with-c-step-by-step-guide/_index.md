@@ -24,13 +24,7 @@ title: Reemplazar texto en DOCX con C# – Guía paso a paso
 url: /es/net/find-and-replace-text/replace-text-in-docx-with-c-step-by-step-guide/
 ---
 
-tips. Happy coding!" translate.
-
-Then close shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,13 +24,7 @@ title: C# ile bir Word belgesinde yazı tipini kalın yap – Tam Kılavuz
 url: /tr/net/font-styling/change-font-to-bold-in-a-word-document-with-c-complete-guide/
 ---
 
-keep them unchanged.
-
-Now produce final output with all translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

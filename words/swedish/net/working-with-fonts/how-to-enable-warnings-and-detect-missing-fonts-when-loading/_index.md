@@ -24,8 +24,6 @@ title: Hur man aktiverar varningar och upptäcker saknade teckensnitt när man l
 url: /sv/net/working-with-fonts/how-to-enable-warnings-and-detect-missing-fonts-when-loading/
 ---
 
-, preserving formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
