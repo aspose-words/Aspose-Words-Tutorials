@@ -9,9 +9,7 @@ url: /java/document-loading-and-saving/loading-and-saving-html-documents/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Load HTML and Save as DOCX with Aspose.Words for Java
@@ -35,7 +33,7 @@ Loading HTML means feeding an HTML string or file into the `Document` constructo
 - **Enterprise‑grade performance** – handles large documents efficiently.
 
 ## Prerequisites
-1. **Aspose.Words for Java Library** – download it from [here](https://releases.aspose.com/words/java/).  
+1. **Aspose.Words for Java Library** – download it from [Aspose.Words for Java download page](https://releases.aspose.com/words/java/).  
 2. **Java Development Environment** – JDK 8 or higher installed and configured.  
 
 ## How to Load HTML Documents
@@ -69,7 +67,7 @@ doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlTyp
 
 Replace `"Your Directory Path"` with the folder where you want the output file to appear. The resulting DOCX can be opened in Microsoft Word, LibreOffice, or any other DOCX‑compatible viewer.
 
-## Complete Source Code for Loading and Saving HTML Documents
+## Complete source code for loading and saving HTML documents
 For convenience, here is the full, runnable example that combines the loading and saving steps. You can copy‑paste this into your IDE and run it as‑is.
 
 ```java
@@ -90,17 +88,17 @@ doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlTyp
 
 Running the code will produce a Word document named `WorkingWithHtmlLoadOptions.PreferredControlType.docx` that contains the HTML dropdown as a structured document tag.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 | Symptom | Likely Cause | Fix |
 |---|---|---|
 | Dropdown disappears after saving | `PreferredControlType` not set | Ensure `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);` is called before loading. |
 | Images not displayed | Image URLs are relative or inaccessible | Use absolute URLs or embed images as Base64 within the HTML string. |
 | Unexpected formatting | CSS not fully supported | Simplify CSS or use inline styles; Aspose.Words supports a subset of CSS. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I install Aspose.Words for Java?**  
-A: Download the library from [here](https://releases.aspose.com/words/java/) and add the JAR files to your project’s classpath.
+A: Download the library from [Aspose.Words for Java download page](https://releases.aspose.com/words/java/) and add the JAR files to your project’s classpath.
 
 **Q: Can I load complex HTML documents (with CSS, scripts, images)?**  
 A: Yes. Aspose.Words can handle complex HTML. For best results, provide well‑formed markup and use `HtmlLoadOptions` to fine‑tune the conversion.

@@ -9,9 +9,7 @@ date: 2026-02-24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save Document as PDF and Convert Documents to Different Formats
@@ -43,15 +41,15 @@ Saving a document as PDF means converting the source file (e.g., DOCX, RTF) into
 
 ## Getting Started with Aspose.Words for Java
 
-### Step 1: Installation
+### Step 1: installation
 
 Download the library from the official site: [Download Aspose.Words for Java](https://releases.aspose.com/words/java/).
 
-### Step 2: Setting Up Your Java Project
+### Step 2: setting up your java project
 
 Create a new Java project in your preferred IDE and add the downloaded Aspose.Words JAR to the project’s classpath.
 
-### Step 3: Loading a Document
+### Step 3: loading a document
 
 Before you can convert anything, you need to load the source file into a `Document` object.
 
@@ -60,7 +58,7 @@ Before you can convert anything, you need to load the source file into a `Docume
 Document doc = new Document("sample.docx");
 ```
 
-### Step 4: Choosing the Output Format
+### Step 4: choosing the output format
 
 Decide which format you need. Below are common scenarios:
 
@@ -68,7 +66,7 @@ Decide which format you need. Below are common scenarios:
 - **Convert Word to HTML** – `doc.save("output.html", SaveFormat.HTML);` (useful for web publishing).  
 - **Export DOCX as PDF** – same call as step 5; the API automatically detects the source type.
 
-### Step 5: Performing the Conversion
+### Step 5: performing the conversion
 
 Now perform the actual conversion. The following line demonstrates the **save document as pdf** operation.
 
@@ -79,7 +77,7 @@ doc.save("output.pdf");
 
 You can replace `"output.pdf"` with any path or stream, and change the format by passing a `SaveFormat` enum value.
 
-## Common Issues & Pro Tips
+## Common issues & pro tips
 
 - **Missing fonts** – Ensure the target machine has the required fonts or embed them using `FontSettings`.  
 - **Large files** – Use `Document.optimizeResources()` before saving to reduce memory usage.  
@@ -107,7 +105,7 @@ Yes, Aspose.Words for Java is suitable for both personal and commercial projects
 
 You can find comprehensive documentation for Aspose.Words for Java at [Aspose.Words for Java API References](https://reference.aspose.com/words/java/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I convert a DOCX file to HTML using Java?**  
 A: Load the document with `new Document("file.docx")` and call `doc.save("file.html", SaveFormat.HTML);`.
@@ -126,13 +124,13 @@ A: Set `HtmlSaveOptions` with `ExportCssClassNames = true` before calling `save`
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -141,3 +139,10 @@ A: Set `HtmlSaveOptions` with `ExportCssClassNames = true` before calling `save`
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

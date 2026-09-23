@@ -9,9 +9,7 @@ date: 2026-02-24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Word to Markdown with Aspose.Words for Java
@@ -43,7 +41,7 @@ Converting Word to Markdown means taking the rich formatting of a Microsoft Word
 Before you begin, ensure you have:
 
 - Java Development Kit (JDK) installed on your system.
-- Aspose.Words for Java library. You can download it from [here](https://releases.aspose.com/words/java/).
+- Aspose.Words for Java library. You can download it from [Aspose.Words for Java download page](https://releases.aspose.com/words/java/).
 
 ## Step‑by‑Step Guide
 
@@ -152,7 +150,7 @@ public void setImagesFolder() throws Exception
 }
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -161,10 +159,10 @@ public void setImagesFolder() throws Exception
 | Output file is empty | Save options not passed to `doc.save()` | Ensure you pass the `MarkdownSaveOptions` instance to the `save` method |
 | Unsupported Word features (e.g., SmartArt) | Markdown cannot represent some complex objects | Convert those elements to images before saving, or simplify the source document |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I install Aspose.Words for Java?**  
-A: Aspose.Words for Java can be installed by including the library in your Java project. You can download the library from [here](https://releases.aspose.com/words/java/) and follow the installation instructions provided in the documentation.
+A: Aspose.Words for Java can be installed by including the library in your Java project. You can download the library from [Aspose.Words for Java download page](https://releases.aspose.com/words/java/) and follow the installation instructions provided in the documentation.
 
 **Q: Can I convert complex Word documents with tables and images to Markdown?**  
 A: Yes, Aspose.Words for Java supports the conversion of complex Word documents with tables, images, and various formatting elements to Markdown. You can customize the Markdown output according to your document's complexity.
