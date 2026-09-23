@@ -57,6 +57,7 @@
 - [บันทึกเอกสารเป็น PDF ใน C# – คู่มือฉบับสมบูรณ์สำหรับส่งออก Docx และตรวจสอบการเปลี่ยนแปลงแบบอักษร](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | เรียนรู้วิธีบันทึกไฟล์ Word เป็น PDF ด้วย C# พร้อมตรวจสอบการเปลี่ยนแปลงแบบอักษรและการส่งออก Docx อย่างละเอียด
 - [บันทึก docx เป็น pdf พร้อมการส่งออก Shape – คู่มือฉบับสมบูรณ์](./save-docx-as-pdf-with-shape-export-complete-guide/) | เรียนรู้วิธีบันทึกไฟล์ docx เป็น pdf พร้อมการส่งออกรูปทรงด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 - [บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย Aspose.Words ใน C# อย่างละเอียดและครบถ้วน
+- [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา](./create-accessible-pdf-step-by-step-guide-for-developers/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

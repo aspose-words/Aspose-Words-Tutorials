@@ -34,6 +34,7 @@ Nhờ các hướng dẫn này, bạn sẽ có thể khai thác đầy đủ cá
 | [Lưu file docx thành txt – Hướng dẫn nhanh cho lập trình viên C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Hướng dẫn nhanh cách chuyển đổi tài liệu docx sang định dạng txt trong C# bằng Aspose.Words. |
 | [Lưu docx thành txt – Bảo toàn ngắt dòng và khoảng trắng trong C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Hướng dẫn lưu tài liệu docx dưới dạng txt trong C# đồng thời giữ nguyên ngắt dòng và khoảng trắng. |
 | [Cách xuất LaTeX từ DOCX – Hướng dẫn từng bước](./how-to-export-latex-from-docx-step-by-step-guide/) | Tìm hiểu cách xuất tài liệu DOCX sang định dạng LaTeX bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Lưu DOCX dưới dạng TXT – Xuất công thức Word sang LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Hướng dẫn lưu tài liệu DOCX thành tệp TXT và chuyển công thức Word sang định dạng LaTeX bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

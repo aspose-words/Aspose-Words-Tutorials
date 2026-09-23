@@ -34,6 +34,7 @@ Aspose.Words for .NET 튜토리얼은 Word 문서 조작과 관련하여 라이�
 | [docx를 txt로 저장 – C# 개발자를 위한 빠른 가이드](./save-docx-as-txt-quick-guide-for-c-developers/) | Aspose.Words for .NET을 사용하여 C#에서 docx 파일을 txt 형식으로 빠르게 변환하는 방법을 단계별로 안내합니다. |
 | [C#에서 줄 바꿈 및 공백을 유지하며 docx를 txt로 저장](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | C#을 사용해 docx 파일을 txt 형식으로 변환하면서 줄 바꿈과 공백을 보존하는 방법을 알아봅니다. |
 | [DOCX에서 LaTeX로 내보내는 방법 – 단계별 가이드](./how-to-export-latex-from-docx-step-by-step-guide/) | Aspose.Words for .NET을 사용하여 DOCX 파일을 LaTeX 형식으로 변환하는 방법을 단계별로 안내합니다. |
+| [DOCX를 TXT로 저장 – Word 수식을 LaTeX로 내보내기](./save-docx-as-txt-export-word-equations-to-latex/) | DOCX 파일을 TXT로 저장하고 Word 수식을 LaTeX 형식으로 내보내는 방법을 알아보세요. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

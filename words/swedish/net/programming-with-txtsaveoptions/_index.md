@@ -34,6 +34,7 @@ Tack vare dessa handledningar kommer du att kunna utnyttja funktionerna i Aspose
 | [Spara docx som txt – Snabbguide för C#-utvecklare](./save-docx-as-txt-quick-guide-for-c-developers/) | Lär dig snabbt hur du konverterar DOCX-filer till TXT med C# i Aspose.Words för .NET. |
 | [Spara docx som txt – Bevara radbrytningar och mellanslag i C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Lär dig hur du sparar ett docx-dokument som txt med bevarade radbrytningar och mellanslag i C# med Aspose.Words för .NET. |
 | [Exportera LaTeX från DOCX – steg‑för‑steg‑guide](./how-to-export-latex-from-docx-step-by-step-guide/) | Lär dig hur du konverterar DOCX-filer till LaTeX med Aspose.Words för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [Spara DOCX som TXT – Exportera Word-ekvationer till LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Lär dig hur du sparar DOCX-filer som TXT och exporterar Word-ekvationer till LaTeX med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

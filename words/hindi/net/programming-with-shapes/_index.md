@@ -45,6 +45,7 @@
 | [छाया वाले आयत आकार के साथ खाली Word दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-shadowed-rectangle-shape-ste/) | Aspose.Words का उपयोग करके छाया वाले आयत आकार के साथ एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [C# में आकृति पर छाया जोड़ें – छाया प्रभाव लागू करने के लिए पूर्ण गाइड](./add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/) | .NET के लिए Aspose.Words का उपयोग करके C# में आकृति पर छाया प्रभाव कैसे लागू करें, इस चरण‑दर‑चरण गाइड के साथ सीखें। |
 | [C# में Aspose.Words के साथ आकृति छाया को संपादित करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words का उपयोग करके C# में आकृति की छाया को कैसे बदलें, इस चरण‑दर‑चरण मार्गदर्शिका में सीखें। |
+| [आकार में छाया जोड़ें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | .NET के लिए Aspose.Words का उपयोग करके आकार में छाया कैसे जोड़ें, इस चरण‑दर‑चरण मार्गदर्शिका के साथ सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

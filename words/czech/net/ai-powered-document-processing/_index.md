@@ -45,6 +45,7 @@ Nakonec nezapomeňte se podívat na naše [Práce s možnostmi shrnutí](./worki
 | [Shrnutí Word dokumentu v C# – Kompletní průvodce s umělou inteligencí](./summarize-word-document-in-c-complete-ai-powered-guide/) | Kompletní návod, jak pomocí AI shrnout Word dokument v C# pomocí Aspose.Words. |
 | [Jak zkontrolovat gramatiku v DOCX pomocí Aspose.Words – použijte gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Naučte se, jak pomocí Aspose.Words a modelu gpt-4 turbo automaticky kontrolovat gramatiku v dokumentech DOCX. |
 | [Jak zkontrolovat gramatiku ve Wordu pomocí Aspose.Words AI – Kompletní průvodce](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Naučte se, jak pomocí Aspose.Words AI automaticky kontrolovat a opravovat gramatiku v dokumentech Word. |
+| [Jak zkontrolovat gramatiku v C# pomocí lokálního LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Rychle a přesně kontrolujte gramatiku v C# pomocí lokálního modelu LLM. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

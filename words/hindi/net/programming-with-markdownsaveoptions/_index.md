@@ -63,6 +63,8 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX को मार्कडाउन में सहेजें – LaTeX समीकरणों के साथ पूर्ण C# गाइड](./save-docx-as-markdown-complete-c-guide-with-latex-equations/) | C# में LaTeX समीकरणों के साथ DOCX को मार्कडाउन में बदलने की पूरी गाइड। |
 | [Word से Markdown निर्यात कैसे करें – पूर्ण C# गाइड](./how-to-export-markdown-from-word-complete-c-guide/) | Word दस्तावेज़ को Markdown में निर्यात करने की पूरी C# गाइड |
 | [DOCX को C# में मार्कडाउन में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-markdown-in-c-step-by-step-guide/) | C# में DOCX फ़ाइल को चरण‑दर‑चरण मार्कडाउन में बदलने की विस्तृत गाइड |
+| [DOCX से मार्कडाउन निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-markdown-from-docx-complete-step-by-step-guide/) | DOCX फ़ाइल को मार्कडाउन में निर्यात करने की पूर्ण चरण‑दर‑चरण गाइड। |
+| [DOCX से इमेज के साथ मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-docx-with-images-complete-guide/) | DOCX फ़ाइलों को इमेज के साथ मार्कडाउन में निर्यात करने की पूरी चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

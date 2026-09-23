@@ -61,6 +61,9 @@
 | [Определить расширение файла при конвертации DOCX в Markdown – Полное руководство](./determine-file-extension-while-converting-docx-to-markdown-c/) | Узнайте, как определить правильное расширение файла при конвертации DOCX в Markdown с помощью Aspose.Words для .NET. |
 | [Сохранить изображения Word при конвертации в Markdown – Полное руководство C#](./save-word-images-while-converting-word-to-markdown-complete/) | Сохраните изображения из документов Word при конвертации в Markdown с полным руководством на C#. |
 | [Конвертировать docx в markdown в C# – Пошаговое руководство](./convert-docx-to-markdown-in-c-step-by-step-guide/) | Подробное руководство по конвертации DOCX в Markdown с помощью C# и Aspose.Words. |
+| [Как экспортировать Markdown из DOCX – Полное пошаговое руководство](./how-to-export-markdown-from-docx-complete-step-by-step-guide/) | Подробное пошаговое руководство по экспорту документов DOCX в формат Markdown с использованием Aspose.Words для .NET. |
+| [Как сохранить Markdown из Word – Полное руководство C#](./how-to-save-markdown-from-word-complete-c-guide/) | Полное руководство по сохранению документа Word в формате Markdown с использованием C# и Aspose.Words. |
+| [Как экспортировать Markdown из DOCX с изображениями – Полное руководство](./how-to-export-markdown-from-docx-with-images-complete-guide/) | Экспортируйте документы DOCX в Markdown с сохранением изображений, используя Aspose.Words для .NET. Полное пошаговое руководство. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,7 @@ Que vous souhaitiez convertir des documents Word en PDF pour une distribution en
 | [Enregistrer un fichier DOCX au format PDF avec exportation de formes – Guide complet](./save-docx-as-pdf-with-shape-export-complete-guide/) | Apprenez à convertir des documents DOCX en PDF tout en conservant les formes grâce à Aspose.Words pour .NET, guide complet étape par étape. |
 | [Enregistrer un document au format PDF en C# – Guide complet pour exporter Docx et surveiller les changements de police](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Apprenez à convertir des fichiers DOCX en PDF avec Aspose.Words pour .NET, tout en suivant les modifications de police. |
 | [Enregistrer le document au format PDF avec Aspose.Words – Guide complet C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Apprenez à enregistrer un document Word en PDF avec Aspose.Words grâce à ce guide complet en C#. |
+| [Créer un PDF accessible – Guide étape par étape pour les développeurs](./create-accessible-pdf-step-by-step-guide-for-developers/) | Apprenez à créer des PDF accessibles avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,7 +47,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Dapatkan Posisi Meja Mengambang](./get-floating-table-position/) | Pelajari cara mendapatkan posisi tabel mengambang dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan terperinci dan langkah demi langkah ini akan memandu Anda melalui semua hal yang perlu Anda ketahui. Bahasa Indonesia:
 | [Posisi Meja Mengambang](./floating-table-position/) | Pelajari cara mengontrol posisi mengambang tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah terperinci kami. Bahasa Indonesia:
 | [Mengatur Posisi Horizontal atau Vertikal Relatif](./set-relative-horizontal-or-vertical-position/) Pelajari cara mengatur posisi horizontal dan vertikal relatif untuk tabel dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah ini. |
-
+| [Sembunyikan Baris dalam Tabel dengan C# – Panduan Sederhana Menghapus Baris Tabel](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Pelajari cara menyembunyikan atau menghapus baris dalam tabel Word menggunakan Aspose.Words untuk .NET dengan C# dalam panduan singkat ini. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

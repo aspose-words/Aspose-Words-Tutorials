@@ -29,6 +29,7 @@ Die Tutorials behandeln außerdem die Grundlagen der Bildbearbeitung, darunter d
 | [Rückruf zum Speichern der Seite](./page-saving-callback/) | Lernen Sie mit unserer ausführlichen Schritt-für-Schritt-Anleitung, jede Seite eines Word-Dokuments mit Aspose.Words für .NET als separates PNG-Bild zu speichern. |
 | [Wie man DPI beim Konvertieren von Word zu PNG festlegt – Vollständige C#-Anleitung](./how-to-set-dpi-when-converting-word-to-png-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET die DPI beim Konvertieren von Word-Dokumenten nach PNG festlegen. |
 | [PNG-Gitter aus Word-Dokument erstellen – Schritt‑für‑Schritt‑Anleitung](./create-png-grid-from-word-document-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein PNG‑Gitter aus einem Word‑Dokument erstellen. |
+| [Word als Bilder speichern mit C# – Schritt‑für‑Schritt‑Anleitung](./save-word-as-images-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument in einzelne Bilddateien konvertieren – komplett mit C#‑Beispielen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

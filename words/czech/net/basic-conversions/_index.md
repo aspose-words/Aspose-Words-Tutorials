@@ -48,6 +48,7 @@ Základní konverze vás provede základními konveremi dokumentů pomocí kniho
 | [Uložit Word jako PDF v C# – Kompletní průvodce přístupnou konverzí](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s plnou podporou přístupnosti a podrobným ukázkovým kódem. |
 | [Vytvořit PDF z Wordu – Kompletní průvodce C# s detekcí fontů](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v C# s detekcí fonts a podrobným návodem. |
 | [Vytvořit PDF z DOCX v C# – Kompletní průvodce s exportem tvarů](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Naučte se, jak převést DOCX do PDF v C# s kompletním průvodcem zahrnujícím export tvarů. |
+| [Převod DOCX do PDF v C# – Kompletní průvodce](./convert-docx-to-pdf-in-c-complete-guide/) | Naučte se, jak převést DOCX do PDF v C# pomocí Aspose.Words s podrobným návodem a ukázkovým kódem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

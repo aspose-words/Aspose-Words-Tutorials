@@ -47,6 +47,7 @@ Bu eğitimleri takip ederek, Aspose.Words for .NET'in tablo düzenleme özellikl
 | [Yüzen Tablo Pozisyonunu Alın](./get-floating-table-position/) | Aspose.Words for .NET kullanarak Word belgelerinde yüzen tablo konumlarının nasıl alınacağını öğrenin. Bu ayrıntılı, adım adım kılavuz, bilmeniz gereken her şeyde size yol gösterecektir. |
 | [Yüzen Tablo Pozisyonu](./floating-table-position/) | Ayrıntılı, adım adım kılavuzumuzla Aspose.Words for .NET kullanarak Word belgelerindeki tabloların kayan konumlarını nasıl kontrol edeceğinizi öğrenin.
 | [Göreceli Yatay veya Dikey Pozisyonu Ayarla](./set-relative-horizontal-or-vertical-position/) Bu adım adım kılavuzla, Aspose.Words for .NET'i kullanarak Word belgelerindeki tablolar için göreceli yatay ve dikey konumların nasıl ayarlanacağını öğrenin.
+| [C# ile Tablo Satırını Gizleme – Satırları Kaldırma İçin Basit Kılavuz](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Bu adım adım kılavuzla Aspose.Words for .NET kullanarak bir tabloda satırları gizlemeyi ve kaldırmayı öğrenin. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

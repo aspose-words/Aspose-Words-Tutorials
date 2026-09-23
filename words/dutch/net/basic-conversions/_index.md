@@ -48,6 +48,7 @@ Basisconversies begeleidt u door basisdocumentconversies met behulp van de Aspos
 | [PDF maken vanuit Word – Complete C#‑gids met lettertype‑detectie](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Leer hoe u PDF's genereert vanuit Word in C# met Aspose.Words, inclusief automatische lettertype‑detectie. |
 | [PDF maken van DOCX in C# – Volledige gids met vormexport](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Leer hoe u PDF's genereert vanuit DOCX in C# met Aspose.Words, inclusief export van vormen en geavanceerde opties. |
 | [Word opslaan als PDF in C# – Complete toegankelijke conversiegids](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Leer hoe u Word-documenten toegankelijk als PDF converteert in C# met Aspose.Words, inclusief tips voor toegankelijkheidsopties. |
+| [DOCX naar PDF converteren in C# – Complete gids](./convert-docx-to-pdf-in-c-complete-guide/) | Leer hoe u DOCX-bestanden naar PDF converteert in C# met een volledige stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

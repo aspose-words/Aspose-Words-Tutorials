@@ -41,8 +41,6 @@ Pelajari cara mengonversi file DOCX ke Markdown lengkap dengan ekstraksi gambar 
 Pelajari cara mengekspor dokumen Word ke Markdown dengan panduan lengkap C#.
 ### [Cara Menyimpan Markdown dari DOCX – Panduan Langkah‑demi‑Langkah](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Pelajari cara menyimpan file DOCX sebagai Markdown dengan panduan langkah demi langkah menggunakan C#.
-### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
-Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
 ### [Cara Menggunakan Aspose – Mengonversi DOCX ke Markdown dengan Persamaan LaTeX](./how-to-use-aspose-convert-docx-to-markdown-with-latex-equati/)
 Pelajari cara mengonversi file DOCX ke Markdown dengan persamaan LaTeX menggunakan Aspose.Words untuk .NET.
 ### [Konversi Word ke Markdown – Ekstrak Gambar dalam C#](./convert-word-to-markdown-extract-images-in-c/)
@@ -99,6 +97,12 @@ Pelajari cara mengekspor persamaan LaTeX dari dokumen Word dan mengonversinya me
 Pelajari cara menentukan ekstensi file yang tepat saat mengonversi DOCX ke Markdown menggunakan Aspose.Words untuk .NET.
 ### [Simpan gambar Word saat mengonversi Word ke Markdown – Panduan Lengkap C#](./save-word-images-while-converting-word-to-markdown-complete/)
 Pelajari cara menyimpan gambar dari dokumen Word saat mengonversinya ke format Markdown dengan panduan lengkap C#.
+### [Cara Mengekspor Markdown dari DOCX – Panduan Langkah‑demi‑Langkah Lengkap](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
+Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan langkah demi langkah yang lengkap.
+### [Cara Mengekspor Markdown dari DOCX dengan Gambar – Panduan Lengkap](./how-to-export-markdown-from-docx-with-images-complete-guide/)
+Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
+### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
+Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

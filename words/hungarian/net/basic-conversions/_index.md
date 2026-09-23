@@ -48,6 +48,7 @@ Az Alapvető konverziók című útmutató végigvezeti Önt az Aspose.Words for
 | [Hozzon létre akadálymentes PDF-et DOCX-ből – Teljes Aspose útmutató](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Tanulja meg, hogyan hozhat létre akadálymentes PDF-et DOCX fájlokból az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 | [PNG konvertálása Base64-re C#-ban – Teljes útmutató](./convert-png-to-base64-in-c-complete-guide/) | Tanulja meg, hogyan konvertálhat PNG képeket Base64 kódolású stringgé C#-ban az Aspose.Words segítségével. |
 | [Akadálymentes PDF létrehozása Wordből – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre hozzáférhető PDF dokumentumokat Word fájlokból az Aspose.Words for .NET segítségével. |
+| [DOCX konvertálása PDF-be C#-ban – Teljes útmutató](./convert-docx-to-pdf-in-c-complete-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

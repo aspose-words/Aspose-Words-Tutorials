@@ -51,6 +51,12 @@
 
 ### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็ม C#](./how-to-export-markdown-from-docx-complete-guide/)
 เรียนรู้วิธีส่งออก Markdown จากไฟล์ DOCX ด้วย Aspose.Words สำหรับ .NET อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [วิธีส่งออก Markdown จาก DOCX – คู่มือเต็มขั้นตอนโดยขั้นตอน](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown อย่างละเอียดตามขั้นตอนด้วย Aspose.Words สำหรับ .NET
+
+### [วิธีส่งออก Markdown จาก DOCX พร้อมรูปภาพ – คู่มือเต็ม](./how-to-export-markdown-from-docx-with-images-complete-guide/)
+เรียนรู้วิธีส่งออกไฟล์ DOCX เป็น Markdown พร้อมการสกัดรูปภาพอย่างละเอียดด้วย Aspose.Words สำหรับ .NET
+
 ### [วิธีส่งออก LaTeX จาก Word: แปลง DOCX เป็น Markdown ด้วย Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 ### [แปลง Word เป็น Markdown – ฝังรูปภาพเป็น Base64](./convert-word-to-markdown-embed-images-as-base64/)

@@ -36,8 +36,6 @@ Leer hoe u toegankelijke PDF's maakt en Word-documenten naar Markdown converteer
 Leer hoe u Aspose.Words gebruikt om DOCX-bestanden naar Markdown met LaTeX‑vergelijkingen te converteren.
 ### [Docx naar markdown converteren – Stapsgewijze C#-gids](./convert-docx-to-markdown-step-by-step-c-guide/)
 
-### [Hoe Markdown op te slaan vanuit Word – Complete C#-gids](./how-to-save-markdown-from-word-complete-c-guide/)
-
 ### [Hoe Markdown op te slaan vanuit Word – Complete gids](./how-to-save-markdown-from-word-complete-guide/)
 Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#‑handleiding.
 
@@ -70,7 +68,12 @@ Leer hoe u Word‑vergelijkingen exporteert naar LaTeX bij het opslaan van een d
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
+### [Hoe Markdown op te slaan vanuit Word – Complete C#-gids](./how-to-save-markdown-from-word-complete-c-guide/)
+Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
+
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
+
+### [Hoe Markdown te exporteren vanuit DOCX – Complete stap‑voor‑stap gids](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
@@ -139,6 +142,8 @@ Leer hoe u de juiste bestandsextensie bepaalt bij het omzetten van DOCX naar Mar
 ### [Docx naar markdown converteren in C# – Stapsgewijze gids](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 
 Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑voor‑stap C#‑handleiding.
+
+### [Hoe Markdown te exporteren vanuit DOCX met afbeeldingen – Complete gids](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

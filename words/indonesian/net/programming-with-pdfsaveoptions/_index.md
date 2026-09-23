@@ -57,6 +57,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Dokumen sebagai PDF di C# – Panduan Lengkap untuk Mengekspor Docx dan Memantau Perubahan Font](./save-document-as-pdf-in-c-complete-guide-to-export-docx-and/) | Pelajari cara menyimpan dokumen Word sebagai PDF di C# dengan panduan lengkap, termasuk mengekspor file DOCX dan memantau perubahan font. |
 | [Simpan docx sebagai PDF dengan Ekspor Bentuk – Panduan Lengkap](./save-docx-as-pdf-with-shape-export-complete-guide/) | Pelajari cara menyimpan dokumen DOCX sebagai PDF dengan mengekspor bentuk menggunakan Aspose.Words untuk .NET dalam panduan lengkap ini. |
 | [Simpan Dokumen sebagai PDF dengan Aspose.Words – Panduan Lengkap C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Panduan lengkap langkah demi langkah untuk menyimpan dokumen Word sebagai PDF menggunakan Aspose.Words dengan C#. |
+| [Buat PDF yang Dapat Diakses – Panduan Langkah demi Langkah untuk Pengembang](./create-accessible-pdf-step-by-step-guide-for-developers/) | Pelajari cara membuat PDF yang dapat diakses dengan mudah menggunakan Aspose.Words untuk .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

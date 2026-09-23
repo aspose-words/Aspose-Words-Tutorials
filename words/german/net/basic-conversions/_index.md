@@ -47,6 +47,7 @@
 | [Word als PDF speichern in C# – Vollständiger barrierefreier Konvertierungsleitfaden](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Erfahren Sie, wie Sie Word-Dokumente in C# barrierefrei als PDF speichern – Schritt‑für‑Schritt‑Anleitung mit Aspose.Words. |
 | [PDF aus Word erstellen – Vollständige C#‑Anleitung mit Schriftart‑Erkennung](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Erfahren Sie, wie Sie mit Aspose.Words PDFs aus Word generieren und automatisch Schriftarten erkennen – komplette C#‑Anleitung. |
 | [PDF aus DOCX in C# erstellen – Vollständige Anleitung mit Shape-Export](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET DOCX in PDF konvertieren und dabei Shapes exportieren – Schritt‑für‑Schritt‑Anleitung. |
+| [DOCX in PDF mit C# – Vollständige Anleitung](./convert-docx-to-pdf-in-c-complete-guide/) | Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Words für .NET in C# vollständig in PDF konvertieren – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

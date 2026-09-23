@@ -45,6 +45,7 @@
 | [Σύνοψη εγγράφου Word σε C# – Πλήρης οδηγός με τεχνητή νοημοσύνη](./summarize-word-document-in-c-complete-ai-powered-guide/) | Μάθετε πώς να δημιουργήσετε σύνοψη εγγράφων Word σε C# χρησιμοποιώντας AI με το Aspose.Words. |
 | [Πώς να ελέγξετε την γραμματική σε DOCX με το Aspose.Words – χρήση gpt-4 turbo](./how-to-check-grammar-in-docx-with-aspose-words-use-gpt-4-tur/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words για .NET με το gpt-4 turbo για έλεγχο γραμματικής σε αρχεία DOCX. |
 | [Πώς να Ελέγξετε τη Γραμματική στο Word με το Aspose.Words AI – Πλήρης Οδηγός](./how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/) | Μάθετε πώς να χρησιμοποιήσετε το Aspose.Words AI για αυτόματο έλεγχο γραμματικής σε έγγραφα Word, βήμα-βήμα. |
+| [Πώς να Ελέγξετε τη Γραμματική σε C# Χρησιμοποιώντας Τοπικό LLM](./how-to-check-grammar-in-c-using-a-local-llm/) | Μάθετε πώς να ενσωματώσετε ένα τοπικό μοντέλο γλώσσας για αυτόματο έλεγχο γραμματικής σε κώδικα C# με Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

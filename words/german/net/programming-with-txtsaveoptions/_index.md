@@ -34,6 +34,7 @@ Dank dieser Tutorials können Sie die Funktionalitäten von Aspose.Words für .N
 | [DOCX als TXT speichern – Schnellleitfaden für C#-Entwickler](./save-docx-as-txt-quick-guide-for-c-developers/) | Erfahren Sie, wie Sie ein DOCX-Dokument schnell in eine TXT-Datei konvertieren, mit Beispielcode für C#-Entwickler. |
 | [DOCX als TXT speichern – Zeilenumbrüche & Leerzeichen beibehalten in C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein DOCX-Dokument als TXT speichern und dabei Zeilenumbrüche sowie Leerzeichen erhalten. |
 | [Wie man LaTeX aus DOCX exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-latex-from-docx-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET LaTeX aus DOCX-Dateien exportieren und dabei Formatierung und Inhalte erhalten. |
+| [DOCX als TXT speichern – Word-Gleichungen nach LaTeX exportieren](./save-docx-as-txt-export-word-equations-to-latex/) | Erfahren Sie, wie Sie DOCX-Dokumente als TXT speichern und Word-Gleichungen in LaTeX exportieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
