@@ -20,26 +20,6 @@ title: C#에서 Aspose 로드 옵션 구성 – 완전 가이드
 url: /ko/net/programming-with-loadoptions/configure-aspose-load-options-in-c-complete-guide/
 ---
 
-to experiment—maybe swap `RecoveryMode.Strict` for `Low` in a sandbox and see how Aspose attempts auto‑recovery. The more you play, the better you’ll understand the trade‑offs."
-
-Translate.
-
-Paragraph: "If you have questions, drop a comment below or ping me on GitHub. Happy coding, and may your documents always load cleanly!"
-
-Translate.
-
-Then closing shortcodes remain.
-
-Now ensure we keep all shortcodes exactly as original.
-
-We must not translate any URLs or file paths. So image URL unchanged, title string is part of markdown but we translate title text, not URL.
-
-Also blockquote formatting > remains.
-
-Now produce final content with all translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

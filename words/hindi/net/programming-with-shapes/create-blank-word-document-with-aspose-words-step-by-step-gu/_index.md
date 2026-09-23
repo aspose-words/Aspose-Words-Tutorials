@@ -24,10 +24,6 @@ title: Aspose.Words के साथ खाली वर्ड दस्ता�
 url: /hi/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
-.
-
-Now compile final output with all translations and formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

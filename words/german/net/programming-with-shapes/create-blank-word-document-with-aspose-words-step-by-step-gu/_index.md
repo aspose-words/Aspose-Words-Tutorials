@@ -24,13 +24,7 @@ title: Leeres Word‑Dokument mit Aspose.Words erstellen – Schritt‑für‑Sc
 url: /de/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
--button >}}
-
-All good.
-
-Now ensure we didn't miss any markdown formatting. Keep code block placeholders unchanged.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

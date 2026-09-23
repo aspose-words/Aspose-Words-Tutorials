@@ -22,10 +22,6 @@ title: Cách xuất LaTeX từ Word – Chuyển Word sang TXT
 url: /vi/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/
 ---
 
-keep markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,8 +24,6 @@ title: Hogyan exportáljunk LaTeX-et a Wordből – Word konvertálása TXT-be
 url: /hu/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

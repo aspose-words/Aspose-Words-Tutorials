@@ -22,7 +22,7 @@ title: 'Tutorial de Word a PDF: Convierte DOCX a PDF con Aspose.Words'
 url: /es/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

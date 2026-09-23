@@ -22,14 +22,6 @@ title: 'สอนแปลง Word เป็น PDF: แปลง DOCX เป็
 url: /th/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/
 ---
 
-.
-
-Also translate any other text.
-
-Make sure not to translate code inside code blocks (they are placeholders). So we keep them.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

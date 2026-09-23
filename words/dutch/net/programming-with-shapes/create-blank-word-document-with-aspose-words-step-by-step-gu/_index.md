@@ -24,10 +24,6 @@ title: Maak een leeg Word‑document met Aspose.Words – Stapsgewijze handleidi
 url: /nl/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
-- Keep the backtop button shortcode unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

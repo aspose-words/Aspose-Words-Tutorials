@@ -24,11 +24,7 @@ title: Utwórz pusty dokument Word przy użyciu Aspose.Words – przewodnik krok
 url: /pl/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
-Need" bullet items have bold Aspose.Words etc. Keep.
-
-Also need to ensure we didn't translate code placeholders.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

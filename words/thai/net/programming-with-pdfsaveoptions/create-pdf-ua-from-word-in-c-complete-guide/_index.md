@@ -22,16 +22,6 @@ title: สร้าง PDF/UA จาก Word ด้วย C# – คู่มื
 url: /th/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-complete-guide/
 ---
 
-Thai translations.
-
-I'll write Thai.
-
-Be careful with bold formatting **text** keep same.
-
-Also code placeholders remain.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

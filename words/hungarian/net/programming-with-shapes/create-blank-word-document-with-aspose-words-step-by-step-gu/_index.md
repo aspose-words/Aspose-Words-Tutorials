@@ -25,18 +25,6 @@ title: Üres Word-dokumentum létrehozása az Aspose.Words segítségével – L
 url: /hu/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
-shadow word**? Actually the alt text is "Rectangle shape with gray shadow in a Word document – add shadow word example". No markdown. We'll translate but keep phrase "add shadow word". Also title attribute "add shadow word example". Should translate similarly.
-
-Also need to translate list items under "What You’ll Need". Keep bullet points.
-
-Also translate FAQ headings and content.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep shortcodes at top and bottom unchanged.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

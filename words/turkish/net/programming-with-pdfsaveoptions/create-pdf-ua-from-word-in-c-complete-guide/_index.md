@@ -24,28 +24,6 @@ title: C#'ta Word'den PDF/UA Oluşturma – Tam Rehber
 url: /tr/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-complete-guide/
 ---
 
-. There's no markdown link. So fine.
-
-We need to translate bullet list items, but keep code snippets like `Document`, `PdfCompliance.PdfUa`, etc unchanged.
-
-Also keep the shortcodes at start and end.
-
-Let's produce the translated content.
-
-We'll translate:
-
-"# Create PDF/UA from Word in C# – Complete Guide" => "# Word'ten PDF/UA Oluşturma C# ile – Tam Kılavuz"
-
-But keep "PDF/UA" unchanged.
-
-Proceed.
-
-Translate each paragraph.
-
-Make sure to keep formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

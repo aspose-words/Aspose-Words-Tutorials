@@ -20,18 +20,6 @@ title: 使用 Aspose.Words 建立空白 Word 檔案 – 步驟指南
 url: /zh-hant/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
-色陰影的矩形形狀 – add shadow word 範例". The title attribute also "add shadow word example" maybe translate but keep phrase. We'll translate to "add shadow word 範例". Let's do.
-
-We must keep shortcodes at top and bottom.
-
-Now produce final content.
-
-Let's translate each paragraph.
-
-We'll keep bullet points.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,9 +22,7 @@ title: 如何從 Word 匯出 LaTeX – 將 Word 轉換為 TXT
 url: /zh-hant/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/
 ---
 
-ticks and code unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

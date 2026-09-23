@@ -20,9 +20,7 @@ title: WordからPDFへのチュートリアル：Aspose.WordsでDOCXをPDFに�
 url: /ja/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/
 ---
 
-: ...* we translated.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

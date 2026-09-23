@@ -22,16 +22,6 @@ title: 在 C# 中从 Word 创建 PDF/UA – 完整指南
 url: /zh/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-complete-guide/
 ---
 
-Make sure to keep code block placeholders unchanged.
-
-Also keep markdown links unchanged.
-
-There are no markdown links in the content, but there are maybe some like "PDF Accessibility Checker (PAC)" but that's plain text.
-
-We need to translate bullet points.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

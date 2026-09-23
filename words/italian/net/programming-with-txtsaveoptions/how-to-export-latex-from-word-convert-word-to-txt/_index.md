@@ -22,9 +22,7 @@ title: Come esportare LaTeX da Word – Convertire Word in TXT
 url: /it/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/
 ---
 
-.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

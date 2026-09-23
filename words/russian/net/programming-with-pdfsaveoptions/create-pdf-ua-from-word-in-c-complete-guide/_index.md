@@ -24,9 +24,7 @@ title: Создание PDF/UA из Word в C# – Полное руковод�
 url: /ru/net/programming-with-pdfsaveoptions/create-pdf-ua-from-word-in-c-complete-guide/
 ---
 
-Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

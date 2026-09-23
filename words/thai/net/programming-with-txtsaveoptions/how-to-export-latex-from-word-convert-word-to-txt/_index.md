@@ -22,26 +22,6 @@ title: วิธีส่งออก LaTeX จาก Word – แปลง Word
 url: /th/net/programming-with-txtsaveoptions/how-to-export-latex-from-word-convert-word-to-txt/
 ---
 
-` and set `OfficeMathExportMode = OfficeMathExportMode.LaTeX`. The resulting HTML will embed the LaTeX string inside `<span>` tags.
-
-## Conclusion
-
-Translate.
-
-Then final call to action.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Be careful with markdown formatting, keep code block placeholders unchanged.
-
-Let's translate.
-
-We'll produce Thai sentences.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

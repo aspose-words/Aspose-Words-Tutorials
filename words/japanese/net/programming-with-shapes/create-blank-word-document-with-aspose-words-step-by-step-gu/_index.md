@@ -21,8 +21,6 @@ title: Aspose.Wordsで空白のWord文書を作成する – ステップバイ�
 url: /ja/net/programming-with-shapes/create-blank-word-document-with-aspose-words-step-by-step-gu/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

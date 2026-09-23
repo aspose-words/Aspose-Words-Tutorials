@@ -22,21 +22,7 @@ title: C#'ta Aspose Yükleme Seçeneklerini Yapılandırma – Tam Rehber
 url: /tr/net/programming-with-loadoptions/configure-aspose-load-options-in-c-complete-guide/
 ---
 
-output with all sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep the block shortcodes at top and bottom unchanged.
-
-Let's write translation.
-
-Be careful with markdown formatting: headings, bullet points, tables.
-
-Translate table content: "Scenario", "What to change", "Reason". The rows: "You need to load a stream (e.g., from a web upload)" etc.
-
-Translate those.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

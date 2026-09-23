@@ -18,18 +18,6 @@ title: 在 C# 中配置 Aspose 加载选项 – 完整指南
 url: /zh/net/programming-with-loadoptions/configure-aspose-load-options-in-c-complete-guide/
 ---
 
-keep quotes. So we translate alt text and title.
-
-Also the blockquote > **What you’ll get:** etc. Translate.
-
-Tables: need to translate column headers and content, but keep code snippets like `LoadOptions`. Keep them as is.
-
-List items: translate.
-
-Make sure not to translate code placeholders.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

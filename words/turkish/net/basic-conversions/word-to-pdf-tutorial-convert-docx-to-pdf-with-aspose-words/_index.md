@@ -24,13 +24,7 @@ title: 'Word''tan PDF''ye Öğretici: DOCX''i Aspose.Words ile PDF''ye Dönüşt
 url: /tr/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/
 ---
 
-still same alt text inside brackets. That's okay.
-
-Check for any markdown links: none.
-
-Check for any code blocks: placeholders remain.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

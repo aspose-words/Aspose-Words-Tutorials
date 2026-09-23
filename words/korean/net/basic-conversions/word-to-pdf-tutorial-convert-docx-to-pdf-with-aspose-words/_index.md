@@ -22,22 +22,6 @@ title: 'Word to PDF 튜토리얼: Aspose.Words를 사용하여 DOCX를 PDF로 �
 url: /ko/net/basic-conversions/word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/
 ---
 
-the "Pro tip" block? No.
-
-Thus translation.
-
-Let's start.
-
-We'll produce the Korean translation.
-
-Be careful with table: two columns: Requirement | Reason. Translate both.
-
-Also bullet lists.
-
-Ok.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
