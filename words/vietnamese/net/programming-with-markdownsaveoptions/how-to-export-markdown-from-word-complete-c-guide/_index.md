@@ -21,14 +21,6 @@ title: cách xuất markdown từ Word – Hướng dẫn C# đầy đủ
 url: /vi/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-them unchanged.
-
-Check any other markdown elements: blockquote already translated.
-
-Make sure we keep code block placeholders unchanged.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,14 +20,6 @@ title: 如何在 Word 文档中检测字体 – 完整 C# 指南
 url: /zh/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-block placeholders unchanged.
-
-Let's produce final content.
-
-Will start with the shortcodes as given.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

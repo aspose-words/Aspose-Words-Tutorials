@@ -23,7 +23,7 @@ title: Criar forma retangular, adicionar sombra e salvar PDF
 url: /pt/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

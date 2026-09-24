@@ -24,20 +24,6 @@ title: Come rilevare i font nei documenti Word – Guida completa C#
 url: /it/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-is substituted. The alt text contains the primary keyword for SEO.*" Translate.
-
-Then "Conclusion" heading.
-
-Paragraph.
-
-Translate.
-
-Then final shortcodes.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

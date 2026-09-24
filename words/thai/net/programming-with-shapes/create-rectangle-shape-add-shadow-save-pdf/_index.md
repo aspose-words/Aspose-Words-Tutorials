@@ -22,22 +22,6 @@ title: สร้างรูปสี่เหลี่ยม, เพิ่ม�
 url: /th/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-## Conclusion" translate.
-
-Then final paragraph.
-
-Make sure to keep placeholders like {{< /blocks/... >}} unchanged.
-
-Now produce final content.
-
-Let's translate.
-
-I'll write Thai translation.
-
-Be careful with punctuation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

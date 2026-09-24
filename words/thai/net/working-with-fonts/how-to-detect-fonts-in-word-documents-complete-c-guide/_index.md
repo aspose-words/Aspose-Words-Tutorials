@@ -22,15 +22,7 @@ title: วิธีตรวจจับแบบอักษรในเอก�
 url: /th/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-ค้ดอย่างสนุกสนาน และขอให้เอกสารของคุณแสดงผลด้วยฟอนต์ที่คุณคาดหวังเสมอ!"
-
-Then closing shortcodes unchanged.
-
-Finally backtop button shortcode unchanged.
-
-Make sure to keep all markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

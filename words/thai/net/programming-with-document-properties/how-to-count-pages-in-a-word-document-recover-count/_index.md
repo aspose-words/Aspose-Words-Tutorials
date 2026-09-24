@@ -21,10 +21,6 @@ title: วิธีนับจำนวนหน้าในเอกสาร 
 url: /th/net/programming-with-document-properties/how-to-count-pages-in-a-word-document-recover-count/
 ---
 
-, we kept unchanged.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

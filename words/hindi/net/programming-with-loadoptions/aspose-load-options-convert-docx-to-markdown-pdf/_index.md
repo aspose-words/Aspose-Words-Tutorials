@@ -24,7 +24,7 @@ title: Aspose लोड विकल्प – DOCX को मार्कडा
 url: /hi/net/programming-with-loadoptions/aspose-load-options-convert-docx-to-markdown-pdf/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

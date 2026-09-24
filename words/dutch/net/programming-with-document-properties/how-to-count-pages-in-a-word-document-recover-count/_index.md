@@ -21,19 +21,7 @@ title: Hoe pagina's tellen in een Word‑document – Herstellen & tellen
 url: /nl/net/programming-with-document-properties/how-to-count-pages-in-a-word-document-recover-count/
 ---
 
-.
-
-Proceed.
-
-Also "In this tutorial we’ll show you a practical way to **recover a Word document**, extract its page count, and even handle the occasional corruption error. By the end you’ll know exactly **how to count pages** with Aspose.Words, why the strict recovery mode matters, and what to do when things go sideways."
-
-Translate.
-
-Proceed step by step.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

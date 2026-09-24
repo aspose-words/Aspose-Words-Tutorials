@@ -23,16 +23,6 @@ title: Создать прямоугольную форму, добавить т
 url: /ru/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
--backtop-button >}}
-
-We keep them unchanged.
-
-Now ensure we didn't miss any markdown links. There are none besides image.
-
-Check for any code block placeholders: CODE_BLOCK_0-5. Keep them.
-
-Now produce final output with all translations and original shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

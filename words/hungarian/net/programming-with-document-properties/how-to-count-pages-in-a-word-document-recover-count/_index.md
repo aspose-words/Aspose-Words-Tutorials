@@ -23,22 +23,6 @@ title: Hogyan számoljuk meg a Word-dokumentum oldalait – Helyreállítás és
 url: /hu/net/programming-with-document-properties/how-to-count-pages-in-a-word-document-recover-count/
 ---
 
-**nem** befolyásolja az oldalszámot."
-
-- **Can I count pages in a stream instead of a file?**  
-  Absolutely. Use the overload `new Document(Stream, LoadOptions)`.
-
-Hungarian: "**Számolhatók az oldalak streamből a fájl helyett?**  
-  Természetesen. Használd a `new Document(Stream, LoadOptions)` túlterhelést."
-
-Heading "Wrap‑Up": "Összegzés"
-
-Now produce final content with all translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

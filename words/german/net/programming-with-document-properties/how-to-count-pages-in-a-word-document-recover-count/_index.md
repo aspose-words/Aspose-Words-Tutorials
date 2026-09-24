@@ -21,10 +21,6 @@ title: Wie man Seiten in einem Word‑Dokument zählt – Wiederherstellen & Zä
 url: /de/net/programming-with-document-properties/how-to-count-pages-in-a-word-document-recover-count/
 ---
 
-sure to keep markdown formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

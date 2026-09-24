@@ -21,30 +21,6 @@ title: 建立矩形形狀，加入陰影並儲存 PDF
 url: /zh-hant/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-.
-
-Also need to keep the shortcodes at top and bottom.
-
-Now let's produce translation.
-
-We need to ensure Traditional Chinese (Hong Kong) style: use traditional characters, maybe use "您" etc.
-
-Let's translate.
-
-Start with the shortcodes unchanged.
-
-Then heading "# Create rectangle shape, add shadow & save PDF" translate to "# 建立矩形形狀、加入陰影並儲存為 PDF"
-
-Proceed.
-
-Paragraphs.
-
-Let's translate step by step.
-
-Will keep markdown formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

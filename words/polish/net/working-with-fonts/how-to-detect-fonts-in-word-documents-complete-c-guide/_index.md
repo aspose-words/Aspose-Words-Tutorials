@@ -24,16 +24,6 @@ title: Jak wykrywać czcionki w dokumentach Word – Kompletny przewodnik C#
 url: /pl/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-paragraph after image: "*The screenshot shows the console output when a missing font is substituted. The alt text contains the primary keyword for SEO.*" translate.
-
-Next heading ## Conclusion translate to "## Zakończenie". Paragraph.
-
-Translate rest.
-
-Make sure to keep shortcodes at end.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

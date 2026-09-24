@@ -23,9 +23,7 @@ title: वर्ड दस्तावेज़ों में फ़ॉन्�
 url: /hi/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-placeholders. Keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

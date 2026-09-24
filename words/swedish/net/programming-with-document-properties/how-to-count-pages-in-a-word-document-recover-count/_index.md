@@ -21,16 +21,6 @@ title: Hur man räknar sidor i ett Word‑dokument – Återställ och räkna
 url: /sv/net/programming-with-document-properties/how-to-count-pages-in-a-word-document-recover-count/
 ---
 
-C# and Aspose.Words" maybe keep as is? It's part of title attribute, we should translate.
-
-Also translate the "Pro tip:" etc.
-
-We need to keep code blocks placeholders as they are, not actual code.
-
-We need to translate everything else.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

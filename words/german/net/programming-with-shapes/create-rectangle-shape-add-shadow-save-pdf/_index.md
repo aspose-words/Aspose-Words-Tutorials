@@ -24,24 +24,6 @@ title: Rechteckform erstellen, Schatten hinzufügen & PDF speichern
 url: /de/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-keep the image URL unchanged.
-
-Now produce the entire content with translations.
-
-Let's start.
-
-First three shortcodes unchanged.
-
-Then heading "# Create rectangle shape, add shadow & save PDF" translate to German: "# Rechteckform erstellen, Schatten hinzufügen & PDF speichern". Keep same heading level.
-
-Paragraphs translate.
-
-Need to keep **bold** formatting.
-
-Let's translate step by step.
-
-Will produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

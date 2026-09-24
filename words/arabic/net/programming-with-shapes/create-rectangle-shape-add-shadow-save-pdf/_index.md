@@ -22,8 +22,6 @@ title: إنشاء شكل مستطيل، إضافة ظل وحفظ PDF
 url: /ar/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

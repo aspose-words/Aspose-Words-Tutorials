@@ -21,7 +21,7 @@ title: Cara Mengekspor Markdown dari Word – Panduan Lengkap C#
 url: /id/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

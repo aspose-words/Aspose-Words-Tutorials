@@ -24,12 +24,6 @@ title: Word Belgelerinde Yazı Tiplerini Nasıl Tespit Edilir – Tam C# Rehberi
 url: /tr/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-LoadOptions`, `FontWarningCollector`, etc. Not translated.
-
-Check headings: we translated.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

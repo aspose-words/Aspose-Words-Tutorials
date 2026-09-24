@@ -24,16 +24,6 @@ title: Maak rechthoekvorm, voeg schaduw toe & sla PDF op
 url: /nl/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-shortcodes unchanged.
-
-Then heading "# Create rectangle shape, add shadow & save PDF" -> Dutch: "# Rechthoekvorm maken, schaduw toevoegen & PDF opslaan"
-
-Then paragraph.
-
-Let's translate step by step.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

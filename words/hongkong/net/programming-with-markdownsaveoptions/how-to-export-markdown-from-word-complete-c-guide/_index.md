@@ -19,10 +19,6 @@ title: 如何從 Word 匯出 Markdown – 完整 C# 指南
 url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-localized terms. We'll use "您" etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

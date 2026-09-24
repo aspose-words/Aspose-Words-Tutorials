@@ -22,18 +22,6 @@ title: كيفية اكتشاف الخطوط في مستندات Word – دلي�
 url: /ar/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-Proceed through sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep markdown links unchanged.
-
-There are no markdown links in content except maybe none.
-
-Proceed.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,9 +25,7 @@ title: Hogyan lehet felismerni a betűtípusokat Word dokumentumokban – Teljes
 url: /hu/net/working-with-fonts/how-to-detect-fonts-in-word-documents-complete-c-guide/
 ---
 
-any code placeholders unchanged.
-
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

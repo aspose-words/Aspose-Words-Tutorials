@@ -23,11 +23,7 @@ title: Dikdörtgen şekli oluştur, gölge ekle ve PDF'yi kaydet
 url: /tr/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-Now ensure we didn't translate any code placeholders or URLs. We kept code placeholders. We didn't translate URLs in image. Good.
-
-Check for any variable names inside text: we kept them.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: Opzioni di caricamento Aspose – Converti DOCX in Markdown e PDF
 url: /it/net/programming-with-loadoptions/aspose-load-options-convert-docx-to-markdown-pdf/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,8 +20,6 @@ title: WordからMarkdownをエクスポートする方法 – 完全なC#ガイ
 url: /ja/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,14 +22,6 @@ title: Comment exporter du Markdown depuis Word – Guide complet C#
 url: /fr/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-French version.
-
-Be careful with bullet list under "What you’ll need". Translate bullet items but keep .NET etc.
-
-Also note "step-by-step in order - do not skip sections". We'll keep order.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

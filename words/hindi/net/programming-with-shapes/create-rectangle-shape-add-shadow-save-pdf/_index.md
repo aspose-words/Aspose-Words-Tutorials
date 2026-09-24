@@ -23,10 +23,6 @@ title: आयताकार आकार बनाएं, छाया जो�
 url: /hi/net/programming-with-shapes/create-rectangle-shape-add-shadow-save-pdf/
 ---
 
-? The instruction: translate all text content naturally to Hindi, keep technical terms in English. "create rectangle shape" is a phrase but could be considered technical. Might be okay to translate. But maybe better to keep as is? The original bold text includes "create rectangle shape". If we translate to Hindi inside bold, it's okay. Similarly "save document as PDF". Could keep as is. I think it's fine.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,20 +21,6 @@ title: Come esportare Markdown da Word – Guida completa C#
 url: /it/net/programming-with-markdownsaveoptions/how-to-export-markdown-from-word-complete-c-guide/
 ---
 
-What you’ll need" -> "Cosa ti servirà". Keep bullet items.
-
-Image alt and title.
-
-Table.
-
-All other text.
-
-Let's craft.
-
-Be careful with markdown formatting.
-
-Let's write final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
