@@ -9,18 +9,6 @@ url: /cs/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
 
-24.12 (latest at time of writing) => "**Testováno s:** Aspose.Words for Java 24.12 (nejnovější v době psaní)"
-
-**Author:** Aspose => "**Autor:** Aspose"
-
-Then closing shortcodes.
-
-Now ensure we preserve all shortcodes and code block placeholders.
-
-Also ensure we keep markdown formatting for bold etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

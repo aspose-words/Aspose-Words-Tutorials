@@ -8,9 +8,7 @@ url: /zh-hant/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
- we translated. Ensure we keep same number of #.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

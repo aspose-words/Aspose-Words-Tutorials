@@ -9,9 +9,7 @@ url: /sv/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
 
- keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

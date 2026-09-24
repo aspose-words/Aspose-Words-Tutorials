@@ -10,9 +10,7 @@ url: /hu/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
 
- lines as appropriate.
-
-Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

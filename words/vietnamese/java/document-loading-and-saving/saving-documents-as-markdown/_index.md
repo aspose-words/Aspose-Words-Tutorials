@@ -10,13 +10,7 @@ url: /vi/java/document-loading-and-saving/saving-documents-as-markdown/
 weight: 18
 ---
 
- [documentation] to [tài liệu] but keep URL same. That's okay.
-
-Check other links: there is [here] earlier for download. We changed to [đây] same URL.
-
-Now produce final content with all translations.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -10,22 +10,6 @@ url: /el/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
-  
-**Tested With:** Aspose.Words for Java 24.11  
-**Author:** Aspose  
-
-We need to translate the "Last Updated" etc? Probably keep as is? The text "Last Updated" could be translated to Greek "Τελευταία Ενημέρωση". "Tested With" -> "Δοκιμή με". "Author" -> "Συγγραφέας". But not required? The instruction says translate all text content. So we should translate those lines.
-
-But they are bold markers **Last Updated:** etc. We'll translate the label but keep date unchanged.
-
-Now produce final content with Greek translation, preserving formatting.
-
-Let's craft Greek translations.
-
-I'll write Greek sentences.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

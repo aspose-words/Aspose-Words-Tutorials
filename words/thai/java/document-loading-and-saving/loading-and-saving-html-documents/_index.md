@@ -9,11 +9,7 @@ url: /th/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
 
- links: unchanged.
-
-Check for code block placeholders: unchanged.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

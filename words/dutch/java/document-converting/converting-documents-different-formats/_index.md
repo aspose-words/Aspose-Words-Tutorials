@@ -9,13 +9,7 @@ url: /nl/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
- FAQ's" we translated to "## Veelgestelde vragen". Might need to keep same heading text? The requirement is to translate all text. So okay.
-
-Also "## Frequently Asked Questions" we translated to "## Veelgestelde vragen". Might cause duplicate headings but okay.
-
-Make sure we keep bold formatting (**text**) and code formatting.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

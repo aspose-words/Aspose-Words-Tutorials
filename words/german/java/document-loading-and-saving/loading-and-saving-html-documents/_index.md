@@ -9,13 +9,6 @@ url: /de/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
 
- betten Sie Bilder als Base64 im HTML‑String ein. |
-| Unerwartete Formatierung | CSS wird nicht vollständig unterstützt | Vereinfachen Sie CSS oder verwenden Sie Inline‑Styles; Aspose.Words unterstützt einen Teil von CSS. |
-
-Make sure we keep the same number of columns.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

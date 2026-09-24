@@ -9,11 +9,7 @@ url: /pt/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
-.
-
-Make sure to keep markdown formatting exactly.
-
-Now produce final answer with translated content only.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

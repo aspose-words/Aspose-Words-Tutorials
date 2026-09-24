@@ -8,16 +8,6 @@ url: /zh/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
 
-最后更新：" etc.
-
-"Tested With:" translate.
-
-"Author:" translate.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

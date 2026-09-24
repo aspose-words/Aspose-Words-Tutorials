@@ -9,13 +9,7 @@ url: /th/java/document-loading-and-saving/saving-documents-as-markdown/
 weight: 18
 ---
 
-/products-backtop-button >}}
-
-Now ensure all shortcodes preserved.
-
-Check for any other code blocks: placeholders are fine.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

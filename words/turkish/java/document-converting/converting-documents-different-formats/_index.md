@@ -9,9 +9,7 @@ url: /tr/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
-.
-
-Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -10,14 +10,6 @@ url: /id/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
-**Tested With:** Aspose.Words for Java 24.11 -> "**Diuji Dengan:** Aspose.Words for Java 24.11"
-
-**Author:** Aspose -> "**Penulis:** Aspose"
-
-Now ensure we preserve markdown formatting.
-
-Let's construct final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

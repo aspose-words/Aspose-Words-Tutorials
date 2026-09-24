@@ -11,9 +11,7 @@ url: /hi/java/document-converting/converting-documents-different-formats/
 weight: 11
 ---
 
- we didn't translate any URLs or shortcodes.
-
-Now compile final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
