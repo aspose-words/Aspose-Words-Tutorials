@@ -58,6 +58,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [Shape Export के साथ docx को PDF में सहेजें – पूर्ण गाइड](./save-docx-as-pdf-with-shape-export-complete-guide/) | Shape Export का उपयोग करके docx को PDF में बदलने और सभी आकृतियों को संरक्षित करने की पूरी प्रक्रिया सीखें। |
 | [Aspose.Words के साथ दस्तावेज़ को PDF के रूप में सहेजें – पूर्ण C# गाइड](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Aspose.Words का उपयोग करके C# में दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [सुलभ PDF बनाएं – डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./create-accessible-pdf-step-by-step-guide-for-developers/) | डेवलपर्स के लिए सुलभ PDF बनाने की चरण-दर-चरण मार्गदर्शिका। |
+| [Word से सुलभ PDF बनाएं – पूर्ण Aspose.Words गाइड](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Word दस्तावेज़ से सुलभ PDF बनाने के लिए Aspose.Words का पूर्ण गाइड, जिसमें एक्सेसिबिलिटी सेटिंग्स और सर्वोत्तम प्रथाएँ शामिल हैं। |
 
 | [C# में Word से PDF/UA बनाएं – पूर्ण गाइड](./create-pdf-ua-from-word-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF/UA में बदलने की पूरी प्रक्रिया सीखें। |
 

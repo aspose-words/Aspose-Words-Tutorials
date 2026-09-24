@@ -59,6 +59,7 @@
 | [حفظ ملف docx كـ pdf مع تصدير الشكل – دليل كامل](./save-docx-as-pdf-with-shape-export-complete-guide/) | تعلم كيفية حفظ مستندات docx كملفات PDF مع تصدير الأشكال باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 | [إنشاء PDF يمكن الوصول إليه – دليل خطوة بخطوة للمطورين](./create-accessible-pdf-step-by-step-guide-for-developers/) |دليل خطوة بخطوة لإنشاء ملفات PDF قابلة للوصول باستخدام Aspose.Words لـ .NET. |
 | [إنشاء PDF/UA من Word باستخدام C# – دليل كامل](./create-pdf-ua-from-word-in-c-complete-guide/) | دليل خطوة بخطوة لإنشاء ملفات PDF/UA متوافقة من مستندات Word باستخدام C# و Aspose.Words. |
+| [إنشاء PDF يمكن الوصول إليه من Word – دليل Aspose.Words الكامل](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

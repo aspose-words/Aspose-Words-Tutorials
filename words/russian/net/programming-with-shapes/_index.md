@@ -44,6 +44,7 @@
 | [Добавить тень к фигуре – пошаговое руководство для разработчиков C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать пустой документ Word с Aspose.Words – пошаговое руководство](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Узнайте, как создать пустой документ Word с помощью Aspose.Words для .NET в этом пошаговом руководстве. |
 | [Создать прямоугольную форму, добавить тень и сохранить PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Узнайте, как создать прямоугольную форму, добавить к ней тень и сохранить документ в PDF с помощью Aspose.Words для .NET. |
+| [Создать прямоугольную форму в Word – Полное руководство Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Узнайте, как создать прямоугольную форму в Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

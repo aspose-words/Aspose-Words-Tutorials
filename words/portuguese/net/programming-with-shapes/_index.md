@@ -44,6 +44,7 @@ Usando o Aspose.Words para .NET e seguindo estes tutoriais, você dominará a ma
 | [Adicionar sombra à forma – Guia passo a passo para desenvolvedores C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Aprenda a adicionar sombra a formas em documentos do Word usando Aspose.Words para .NET com este guia passo a passo. |
 | [Criar documento Word em branco com Aspose.Words – Guia passo a passo](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aprenda a criar um documento Word em branco usando o Aspose.Words para .NET com este guia passo a passo. |
 | [Criar forma retangular, adicionar sombra e salvar em PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Aprenda a criar uma forma retangular, aplicar sombra e salvar o documento como PDF usando Aspose.Words para .NET. |
+| [Criar forma retangular no Word – Guia completo do Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aprenda a criar uma forma retangular no Word usando o Aspose.Words com este guia completo passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

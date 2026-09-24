@@ -131,6 +131,11 @@ Kompletny przewodnik C# pokazujący, jak wyodrębniać i zapisywać obrazy z dok
 ### [Konwertuj Word do Markdown w C# – Eksportuj równania jako LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
 Kompletny przewodnik C# pokazujący, jak wyeksportować równania jako LaTeX przy konwersji Word do Markdown.
 
+### [Jak zapisać Markdown – konwertuj Word do Markdown i eksportuj równania przy użyciu Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
+Dowiedz się, jak zapisać dokument Word jako Markdown oraz wyeksportować równania LaTeX przy użyciu Aspose.Words dla .NET.
+
+### [Utwórz folder C# – konwertuj Word do Markdown i wyodrębnij obrazy](./create-folder-c-convert-word-to-markdown-extract-images/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

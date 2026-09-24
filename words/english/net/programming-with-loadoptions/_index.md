@@ -72,6 +72,7 @@ class Program
 | [How to Recover DOCX Files – Complete Guide to Restoring Corrupted Word Documents](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Learn how to restore corrupted DOCX files with Aspose.Words for .NET in this comprehensive, step‑by‑step guide. |
 | [Configure Aspose Load Options in C# – Complete Guide](./configure-aspose-load-options-in-c-complete-guide/) | A comprehensive guide on configuring Aspose Load Options in C#, covering all settings, custom fonts, and best practices for .NET developers. |
 | [Aspose Load Options – Convert DOCX to Markdown & PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Learn how to convert DOCX files to Markdown and PDF using Aspose Load Options in .NET. Step-by-step guide. |
+| [How to Recover DOCX Files in C# – Step‑by‑Step Guide](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Learn how to recover corrupted DOCX files using C# and Aspose.Words with this detailed step‑by‑step guide. |
 
 | [Recover Damaged Word File – Complete Guide to Open Corrupted DOCX & Get Page Count](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) | Learn how to recover and open corrupted DOCX files and retrieve page count using Aspose.Words for .NET in this comprehensive guide. |
 | [how to recover docx – C# guide for corrupted Word files](./how-to-recover-docx-c-guide-for-corrupted-word-files/) | Learn how to recover corrupted DOCX files using C# with Aspose.Words for .NET in this step-by-step guide. |

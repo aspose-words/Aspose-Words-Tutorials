@@ -60,6 +60,8 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | [Hur man laddar DOCX och upptäcker saknade teckensnitt – Komplett C#-guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Lär dig hur du laddar DOCX-filer och identifierar saknade teckensnitt med Aspose.Words för .NET i en komplett C#-guide. |
 | [c# ladda Word-dokument – upptäck och hantera saknade teckensnitt](./c-load-word-document-detect-handle-missing-fonts/) | Lär dig hur du laddar ett Word-dokument i C# och hanterar saknade teckensnitt med Aspose.Words för .NET. |
 | [Aktivera varningar för teckensnittsersättning i Aspose.Words – Komplett guide](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Lär dig hur du aktiverar varningar för teckensnittsersättning i Aspose.Words för .NET med en steg-för-steg-guide. |
+| [Hantera saknade teckensnitt i C# med Aspose.Words – Komplett guide](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Lär dig hur du hanterar saknade teckensnitt i C#-projekt med Aspose.Words för .NET i en steg-för-steg-guide. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

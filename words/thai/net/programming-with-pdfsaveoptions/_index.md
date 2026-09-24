@@ -59,6 +59,7 @@
 - [บันทึกเอกสารเป็น PDF ด้วย Aspose.Words – คู่มือ C# ฉบับสมบูรณ์](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | เรียนรู้วิธีบันทึกเอกสาร Word เป็น PDF ด้วย Aspose.Words ใน C# อย่างละเอียดและครบถ้วน
 - [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา](./create-accessible-pdf-step-by-step-guide-for-developers/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [สร้าง PDF/UA จาก Word ด้วย C# – คู่มือครบถ้วน](./create-pdf-ua-from-word-in-c-complete-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย C# อย่างละเอียดตามขั้นตอน
+- [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือ Aspose.Words ครบถ้วน](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word อย่างครบถ้วนด้วย Aspose.Words
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

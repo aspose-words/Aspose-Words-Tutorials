@@ -59,6 +59,8 @@
 | [Сохранить документ как PDF с Aspose.Words – Полное руководство на C#](./save-document-as-pdf-with-aspose-words-complete-c-guide/) | Подробное руководство по сохранению документа Word в PDF с помощью Aspose.Words на C#. |
 | [Создание доступного PDF – пошаговое руководство для разработчиков](./create-accessible-pdf-step-by-step-guide-for-developers/) | Узнайте, как создавать доступные PDF‑файлы, соответствующие стандартам доступности, с помощью пошагового руководства для разработчиков. |
 | [Создание PDF/UA из Word на C# – Полное руководство](./create-pdf-ua-from-word-in-c-complete-guide/) | Полное руководство по созданию PDF/UA из документов Word с помощью C# и Aspose.Words, включая настройку соответствия стандарту PDF/UA. |
+| [Создание доступного PDF из Word – Полное руководство Aspose.Words](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Узнайте, как преобразовать документы Word в доступные PDF, соблюдая стандарты доступности, с помощью полного руководства Aspose.Words. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

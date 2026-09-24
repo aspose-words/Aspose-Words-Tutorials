@@ -51,6 +51,7 @@ I dessa handledningar lär du dig hur du använder LoadOptions för att läsa in
 | [Hur man återställer DOCX-filer – Komplett guide för att återställa korrupta Word-dokument](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Lär dig återställa korrupta DOCX-filer med Aspose.Words för .NET – en komplett steg-för-steg-guide. |
 | [Konfigurera Aspose Load Options i C# – Komplett guide](./configure-aspose-load-options-in-c-complete-guide/) Lär dig hur du konfigurerar Aspose Load Options i C# med en steg-för-steg-guide. |
 | [Aspose Load Options – Konvertera DOCX till Markdown och PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Lär dig hur du med Aspose Load Options konverterar DOCX-filer till både Markdown och PDF i .NET. |
+| [Hur du återställer DOCX-filer i C# – Steg‑för‑steg‑guide](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Lär dig hur du reparerar skadade DOCX-filer med C# och Aspose.Words i en tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

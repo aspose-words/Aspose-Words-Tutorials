@@ -49,6 +49,7 @@ Ezekben az oktatóanyagokban megtanulod, hogyan használhatod a LoadOptions eszk
 | [Hogyan állítsuk helyre a DOCX fájlokat – Teljes útmutató a sérült Word dokumentumok helyreállításához](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 | [Aspose Load Options konfigurálása C#-ban – Teljes útmutató](./configure-aspose-load-options-in-c-complete-guide/) | Ismerje meg, hogyan konfigurálhatja az Aspose Load Options beállításait C#-ban a Word-dokumentumok betöltéséhez. |
 | [Aspose Load Options – DOCX konvertálása Markdown és PDF formátumba](./aspose-load-options-convert-docx-to-markdown-pdf/) | Ismerje meg, hogyan konvertálhatja a DOCX fájlokat Markdown és PDF formátumba az Aspose.Words LoadOptions használatával. |
+| [Hogyan állítsuk helyre a DOCX fájlokat C#‑ban – lépésről lépésre útmutató](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Ismerje meg, hogyan állíthatja helyre a DOCX fájlokat C#‑ban az Aspose.Words for .NET segítségével, részletes lépésekkel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

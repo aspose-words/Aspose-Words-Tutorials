@@ -91,6 +91,8 @@ class Program
 | [How to Export LaTeX from Word – Convert DOCX to Markdown & TXT](./how-to-export-latex-from-word-convert-docx-to-markdown-txt/) | Learn how to export LaTeX from Word and convert DOCX to Markdown and TXT using Aspose.Words for .NET. |
 | [determine file extension while converting DOCX to Markdown – Complete Guide](./determine-file-extension-while-converting-docx-to-markdown-c/) | Learn how to determine file extensions when converting DOCX to Markdown using Aspose.Words for .NET. |
 | [save word images while converting Word to Markdown – Complete C# Guide](./save-word-images-while-converting-word-to-markdown-complete/) | Learn how to retain and extract images when converting Word documents to Markdown using Aspose.Words for .NET. |
+| [How to Save Markdown – Convert Word to Markdown & Export Math with Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Learn how to convert Word to Markdown and export mathematical equations using Aspose.Words for .NET. |
+| [Create folder C# – Convert Word to Markdown & Extract Images](./create-folder-c-convert-word-to-markdown-extract-images/) | Learn how to create a folder and extract images while converting Word to Markdown using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

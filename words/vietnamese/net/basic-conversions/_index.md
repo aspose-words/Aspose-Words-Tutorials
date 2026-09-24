@@ -50,6 +50,7 @@ Basic Conversions hướng dẫn bạn cách chuyển đổi tài liệu cơ b�
 | [Khôi phục DOCX bị hỏng – Hướng dẫn đầy đủ để sửa, xuất PDF & Markdown](./recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/) | Hướng dẫn chi tiết cách khôi phục tệp DOCX bị hỏng, sửa lỗi và xuất sang PDF hoặc Markdown bằng Aspose.Words cho .NET. |
 | [Tạo PDF có khả năng truy cập từ DOCX – Hướng dẫn đầy đủ Aspose](./create-accessible-pdf-from-docx-complete-aspose-guide/) | Tìm hiểu cách tạo PDF có khả năng truy cập từ tài liệu DOCX bằng Aspose.Words cho .NET, kèm hướng dẫn chi tiết và ví dụ mã. |
 | [Chuyển đổi PNG sang Base64 trong C# – Hướng dẫn đầy đủ](./convert-png-to-base64-in-c-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi hình ảnh PNG thành chuỗi Base64 trong C# bằng Aspose.Words, kèm ví dụ mã nguồn. |
+| [Cách xuất LaTeX từ Word – Hướng dẫn C# từng bước](./how-to-export-latex-from-word-step-by-step-c-guide/) | Hướng dẫn chi tiết cách xuất LaTeX từ tài liệu Word bằng Aspose.Words cho .NET trong C#, kèm ví dụ mã nguồn. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

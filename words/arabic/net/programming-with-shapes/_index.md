@@ -45,6 +45,7 @@
 | [إضافة ظل إلى الشكل – دليل خطوة بخطوة لمطوري C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) |تعرف على كيفية إضافة ظلال إلى الأشكال في مستندات Word باستخدام Aspose.Words for .NET مع دليل خطوة بخطوة لمطوري C#. |
 | [إنشاء مستند Word فارغ باستخدام Aspose.Words – دليل خطوة بخطوة](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | تعرف على كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words خطوة بخطوة. |
 | [إنشاء شكل مستطيل، إضافة ظل وحفظ كملف PDF](./create-rectangle-shape-add-shadow-save-pdf/) |تعرف على كيفية إنشاء شكل مستطيل، إضافة ظل، وحفظ المستند كملف PDF باستخدام Aspose.Words for .NET. |
+| [إنشاء شكل مستطيل في Word – دليل كامل لـ Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | دليل شامل لإنشاء وتخصيص شكل مستطيل في مستندات Word باستخدام Aspose.Words خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Basic Conversions, Aspose.Words for .NET kitaplığını kullanarak temel belge 
 | [Word'den Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-from-word-step-by-step-guide/) | Aspose.Words for .NET kullanarak Word belgelerinden erişilebilir PDF oluşturmayı adım adım öğrenin. |
 | [Word'den PDF Oluştur – Font Algılamalı Tam C# Rehberi](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Aspose.Words for .NET ile C# kullanarak Word belgelerinden PDF oluşturmayı, font algılamasını nasıl etkinleştireceğinizi adım adım öğrenin. |
 | [DOCX'ten PDF Oluşturma C# ile – Şekil Dışa Aktarmalı Tam Rehber](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Aspose.Words for .NET kullanarak C# ile DOCX dosyasından PDF oluşturmayı, şekilleri dışa aktarmayı adım adım öğrenin. |
+| [Word'den LaTeX'e Nasıl Dışa Aktarılır – Adım Adım C# Rehberi](./how-to-export-latex-from-word-step-by-step-c-guide/) | Aspose.Words for .NET ve C# kullanarak Word belgelerinden LaTeX'e nasıl dışa aktarım yapacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

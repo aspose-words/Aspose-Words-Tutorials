@@ -50,6 +50,7 @@
 | [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/) | تعرّف على كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [حفظ مستند Word كـ PDF باستخدام C# – دليل تحويل كامل مع إمكانية الوصول](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | دليل شامل لتحويل مستندات Word إلى PDF مع دعم إمكانية الوصول باستخدام C# و Aspose.Words. |
 | [دليل Word إلى PDF: تحويل DOCX إلى PDF باستخدام Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | تعرّف على طريقة تحويل ملفات DOCX إلى PDF بسهولة باستخدام Aspose.Words لـ .NET مع أمثلة عملية. |
+| [كيفية تصدير LaTeX من Word – دليل خطوة بخطوة C#](./how-to-export-latex-from-word-step-by-step-c-guide/) | تعرّف على تصدير مستندات Word إلى LaTeX باستخدام Aspose.Words لـ .NET مع أمثلة C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

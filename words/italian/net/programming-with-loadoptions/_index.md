@@ -49,6 +49,7 @@ In questi tutorial imparerai come utilizzare LoadOptions per caricare documenti 
 | [Come recuperare file DOCX – Guida completa al ripristino di documenti Word corrotti](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Scopri come ripristinare documenti DOCX corrotti passo passo con Aspose.Words per .NET. |
 | [Configurare le Opzioni di Caricamento Aspose in C# – Guida Completa](./configure-aspose-load-options-in-c-complete-guide/) | Scopri come configurare le Load Options di Aspose in C# per gestire font, password e altre impostazioni durante il caricamento dei documenti Word. |
 | [Aspose Load Options – Converti DOCX in Markdown e PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Scopri come convertire file DOCX in Markdown e PDF usando Aspose Load Options con esempi pratici. |
+| [Come recuperare file DOCX in C# – Guida passo‑passo](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Scopri come ripristinare file DOCX danneggiati usando C# e Aspose.Words con questa guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,6 +24,9 @@ Tekstverwerking met MarkdownSaveOptions is een uitgebreide bron die u begeleidt 
 | [Exporteren naar Markdown met uitlijning van tabelinhoud](./export-into-markdown-with-table-content-alignment/) | Leer hoe u Word-documenten met uitgelijnde tabellen naar Markdown exporteert met Aspose.Words voor .NET. Volg onze stapsgewijze handleiding voor perfecte Markdown-tabellen. |
 | [Map met afbeeldingen instellen](./set-images-folder/) Converteer Word-documenten naar Markdown met de juiste tabeluitlijning met Aspose.Words voor .NET. Volg onze gedetailleerde handleiding voor perfecte resultaten.
 
+### [Map maken C# – Converteer Word naar Markdown & Extraheer afbeeldingen](./create-folder-c-convert-word-to-markdown-extract-images/)
+Leer hoe u een map maakt in C#, Word-documenten converteert naar Markdown en afbeeldingen extraheert met Aspose.Words voor .NET.
+
 ### [Opslaan van Word als PDF en herstel van beschadigd Word – Converteer Word naar Markdown – Converteer Word naar Markdown in C#](./save-word-as-pdf-and-recover-corrupted-word-convert-word-to/)
 
 ### [Maak Toegankelijke PDF en Converteer Word naar Markdown – Volledige C#-gids](./create-accessible-pdf-and-convert-word-to-markdown-full-c-gu/)
@@ -40,7 +43,6 @@ Leer hoe u Aspose.Words gebruikt om DOCX-bestanden naar Markdown met LaTeX‑ver
 Leer hoe u Markdown vanuit Word opslaat met een volledige stap‑voor‑stap C#‑handleiding.
 
 ### [Docx opslaan als markdown – Complete C#-gids met LaTeX‑vergelijkingen](./save-docx-as-markdown-complete-c-guide-with-latex-equations/)
-
 Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX‑vergelijkingen.
 
 ### [Word naar Markdown converteren in C# – Vergelijkingen exporteren als LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
@@ -48,7 +50,6 @@ Leer hoe u docx opslaat als markdown met een volledige C#‑gids inclusief LaTeX
 Leer hoe u Word-documenten naar Markdown converteert en wiskundige vergelijkingen exporteert als LaTeX met Aspose.Words voor .NET.
 
 ### [Docx opslaan als markdown – Volledige C#-gids met afbeeldingsextractie](./save-docx-as-markdown-full-c-guide-with-image-extraction/)
-
 ### [Word naar Markdown converteren – Complete gids met afbeeldingsextractie](./convert-word-to-markdown-complete-guide-with-image-extractio/)
 
 ### [Word naar Markdown converteren in C# – Volledige gids met afbeeldingsextractie](./convert-word-to-markdown-in-c-full-guide-with-image-extracti/)
@@ -71,6 +72,8 @@ Leer hoe u afbeeldingen uit een DOCX extraheert bij het opslaan als Markdown met
 ### [Docx opslaan als markdown – Word‑vergelijkingen exporteren naar LaTeX in C#](./save-docx-as-markdown-export-word-equations-to-latex-in-c/)
 
 Leer hoe u Word‑vergelijkingen exporteert naar LaTeX bij het opslaan van een docx als markdown met C#.
+### [Hoe Markdown opslaan – Converteer Word naar Markdown & Exporteer wiskunde met Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/)
+Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exporteert met Aspose.Words voor .NET.
 
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 

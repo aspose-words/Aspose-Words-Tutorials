@@ -58,6 +58,7 @@
 | [DOCX を読み込んで欠落フォントを検出する完全 C# ガイド](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) Aspose.Words for .NET を使用して DOCX を読み込み、欠落しているフォントを検出する方法をステップバイステップで解説します。 |
 | [フォント警告ハンドラの作成 – C# で欠落フォントを検出](./create-font-warning-handler-detect-missing-fonts-in-c/) Aspose.Words for .NET を使用して、C# でフォント不足の警告ハンドラを作成し、欠落フォントを検出する方法をステップバイステップで学びます。 |
 | [Word 文書でフォントを検出する方法 – 完全 C# ガイド](./how-to-detect-fonts-in-word-documents-complete-c-guide/) Aspose.Words for .NET を使用して、Word 文書内の使用フォントを検出する手順をステップバイステップで解説します。 |
+| [Aspose.Words を使用した C# の欠落フォント処理 – 完全ガイド](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、C# で欠落フォントを検出・置換し、文書の表示を保証する方法をステップバイステップで解説します。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

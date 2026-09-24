@@ -50,6 +50,7 @@ Conversions de base vous guide dans les conversions de documents de base avec la
 | [Convertir PNG en Base64 en C# – Guide complet](./convert-png-to-base64-in-c-complete-guide/) | Apprenez à convertir des images PNG en chaîne Base64 en C# avec Aspose.Words, guide complet étape par étape. |
 | [Créer un PDF accessible à partir de Word – Guide étape par étape](./create-accessible-pdf-from-word-step-by-step-guide/) | Apprenez à créer un PDF accessible à partir d'un document Word avec Aspose.Words pour .NET, guide complet étape par étape. |
 | [Tutoriel Word vers PDF : Convertir DOCX en PDF avec Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Apprenez à convertir un fichier DOCX en PDF avec Aspose.Words pour .NET. Guide complet pas à pas avec exemples de code. |
+| [Comment exporter LaTeX depuis Word – Guide C# étape par étape](./how-to-export-latex-from-word-step-by-step-c-guide/) | Apprenez à exporter le contenu d'un document Word au format LaTeX avec Aspose.Words pour .NET en C#, grâce à ce guide détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

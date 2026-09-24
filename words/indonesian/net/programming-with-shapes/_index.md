@@ -45,6 +45,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengedit Bayangan Bentuk di C# dengan Aspose.Words – Panduan Langkah demi Langkah](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Pelajari cara mengubah bayangan bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 | [Tambahkan Bayangan ke Bentuk – Panduan Langkah demi Langkah untuk Pengembang C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Pelajari cara menambahkan bayangan ke bentuk dalam dokumen Word menggunakan Aspose.Words untuk .NET dengan panduan langkah demi langkah. |
 | [Buat bentuk persegi panjang, tambahkan bayangan & simpan PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Pelajari cara membuat bentuk persegi panjang, menambahkan efek bayangan, dan menyimpan dokumen sebagai PDF menggunakan Aspose.Words untuk .NET. |
+| [Buat Bentuk Persegi Panjang di Word – Panduan Lengkap Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Pelajari cara membuat bentuk persegi panjang di Word dengan panduan lengkap Aspose.Words, mencakup semua langkah penting. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

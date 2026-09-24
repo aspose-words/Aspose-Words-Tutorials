@@ -60,6 +60,7 @@ Ať už chcete formátovat text pomocí různých fontů, nastavit pravidla pro 
 | [Vytvořit obslužnou rutinu varování o písmu – Detekce chybějících písem v C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Naučte se, jak vytvořit obslužný program varování o písmu, který detekuje chybějící písma v C# pomocí Aspose.Words. |
 | [Jak povolit varování a detekovat chybějící písma při načítání souborů DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Naučte se, jak povolit varování a zjistit chybějící písma při načítání DOCX souborů pomocí Aspose.Words pro .NET. |
 
+| [Zpracování chybějících písem v C# s Aspose.Words – Kompletní průvodce](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Naučte se, jak zacházet s chybějícími písmy v C# pomocí Aspose.Words v tomto kompletním průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
