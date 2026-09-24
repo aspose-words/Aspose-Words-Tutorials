@@ -34,8 +34,10 @@ En kodhandledning för Aspose.Words Java
 ### [Hur man renderar dokumentsidor som miniatyrer med Aspose.Words för Java](./render-word-pages-thumbnails-aspose-java/)
 Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassad storlek av Word-dokument med Aspose.Words för Java. Förbättra dina dokumenthanteringsfunktioner idag.
 
-## Ytterligare resurser
+### [Lägg till skugga på form i Word – Komplett Aspose.Words-guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för Java.
 
+## Ytterligare resurser
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words för Java API-referens](https://reference.aspose.com/words/java/)
 - [Ladda ner Aspose.Words för Java](https://releases.aspose.com/words/java/)

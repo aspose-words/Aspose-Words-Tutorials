@@ -1,0 +1,7 @@
+Title: How to sign word document in C# using an X509 certificate
+Slug: how-to-sign-word-document-in-c-using-an-x509-certificate
+Category: document-security
+ProcessedDate: 2026-08-20T22:53:07.814139
+SourceRepo: AI Search API
+Keywords: sign word document, load x509 certificate, digital signature for contract, how to sign document, load certificate from pfx
+PRNumber: 259

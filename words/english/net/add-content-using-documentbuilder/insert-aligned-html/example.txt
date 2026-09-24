@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Using Aspose.Words Document and DocumentBuilder, this tutorial inserts HTML markup into a Word document and saves the result.
+//ExStepSummary:0: Define the output folder, create a new Document, and initialise a DocumentBuilder for that document.
+//ExStepSummary:1: Call `builder.InsertHtml()` to add right‑aligned paragraph, bold text, centered div, and a left‑aligned heading into the document.
+//ExStepSummary:2: Save the modified document to the specified folder as a .docx file.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

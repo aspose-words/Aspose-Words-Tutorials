@@ -100,6 +100,9 @@ weight: 14
 ### [将文档转换为图像](./converting-documents-images/)
 了解如何使用 Aspose.Words for Java 将 Word 文档转换为图像。分步指南，附带代码示例和常见问题解答。
 
+### [使用 Aspose.Words 将 docx 保存为 markdown – 完整指南](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+学习如何使用 Aspose.Words for Java 将 DOCX 文档导出为 Markdown 格式，完整步骤与代码示例。
+
 ## 常见问题
 
 **Q:** *我可以将受密码保护的 Word 文件转换为 PDF 吗？*  

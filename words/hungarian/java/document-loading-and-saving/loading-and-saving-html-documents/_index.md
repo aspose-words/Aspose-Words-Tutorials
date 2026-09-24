@@ -1,12 +1,11 @@
 ---
-date: 2025-12-20
-description: Ismerje meg, hogyan lehet HTML-t betölteni és HTML-t DOCX formátumba
-  konvertálni az Aspose.Words for Java segítségével. A lépésről‑lépésre útmutató bemutatja,
-  hogyan lehet DOCX fájlokat menteni és strukturált dokumentumcímkéket használni.
+date: 2026-02-24
+description: Tanulja meg, hogyan töltsön be HTML-t, és hogyan mentse el a DOCX-et
+  az Aspose.Words for Java használatával – egy lépésről‑lépésre útmutató a HTML‑ról
+  DOCX‑re konvertáláshoz.
 linktitle: Loading and Saving HTML Documents
 second_title: Aspose.Words Java Document Processing API
-title: Hogyan töltsünk be HTML-t és mentsük DOCX formátumban az Aspose.Words for Java
-  segítségével
+title: HTML betöltése és DOCX-be mentése az Aspose.Words for Java használatával
 url: /hu/java/document-loading-and-saving/loading-and-saving-html-documents/
 weight: 10
 ---
@@ -17,38 +16,32 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML betöltése és DOCX-be mentése Aspose.Words for Java használatával
+# HTML betöltése és DOCX mentése az Aspose.Words for Java segítségével
 
-## Bevezetés a HTML dokumentumok betöltésébe és mentésébe az Aspose.Words for Java segítségével
-
-Ebben a cikkben megvizsgáljuk, hogyan **töltsünk be HTML-t** és mentsük el DOCX fájlként az Aspose.Words for Java könyvtár segítségével. Az Aspose.Words egy erőteljes API, amely lehetővé teszi a Word dokumentumok programozott manipulálását, és robusztus támogatást nyújt a HTML importáláshoz/exportáláshoz. Végigvezetünk a teljes folyamaton, a betöltési beállítások konfigurálásától a végeredmény Word dokumentumként történő mentéséig.
+Ebben az útmutatóban megtudja, **hogyan töltsön be html** fájlokat egy `Document` objektumba, majd **hogyan mentse el a docx** fájlokat – mindezt a hatékony **Aspose.Words for Java** könyvtárral. Akár egyszerű kódrészleteket, akár teljes funkcionalitású weboldalakat konvertál, az alábbi lépések megbízható, termelésre kész megközelítést biztosítanak a HTML‑ról‑DOCX átalakításhoz.
 
 ## Gyors válaszok
-- **Mi a fő osztály a HTML betöltéséhez?** `Document` együtt a `HtmlLoadOptions`-szal.
-- **Melyik opció engedélyezi a Structured Document Tag-eket?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
-- **Átalakíthatom a HTML-t DOCX-be egy lépésben?** Igen – töltsd be a HTML-t és hívd meg a `doc.save(...".docx")`-t.
-- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba verzió teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.
-- **Milyen Java verzió szükséges?** A Java 8 vagy újabb támogatott.
+- **Mit csinál a kód?** Betölti a HTML karakterláncot, strukturált dokumentum címkeként kezeli, és DOCX fájlként menti.  
+- **Melyik könyvtár szükséges?** Aspose.Words for Java (az “aspose words java” SDK).  
+- **Szükségem van licencre?** Egy ingyenes próba verzió teszteléshez működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Testreszabhatom a HTML betöltési beállításokat?** Igen – beállíthatja a `PreferredControlType` értékét `STRUCTURED_DOCUMENT_TAG`-ra.  
+- **Alkalmas ez vállalati projektekhez?** Teljesen; az API nagy mennyiségű, vállalati szintű dokumentumfeldolgozásra lett tervezve.
 
-## Mi jelent a „hogyan töltsünk be HTML-t” az Aspose.Words kontextusában?
+## Mi az **how to load html** az Aspose.Words for Java használatával?
+A HTML betöltése azt jelenti, hogy egy HTML karakterláncot vagy fájlt átadunk a `Document` konstruktorának, így az Aspose.Words értelmezi a jelölőnyelvet és egy belső Word dokumentummodellt hoz létre. Ez a modell később manipulálható vagy bármely támogatott formátumban menthető, például DOCX.
 
-A HTML betöltése azt jelenti, hogy egy HTML karakterláncot vagy fájlt beolvasunk, és átalakítjuk egy Aspose.Words `Document` objektummá. Ez az objektum ezután szerkeszthető, formázható, vagy elmenthető bármely, az API által támogatott formátumba, például DOCX, PDF vagy RTF.
-
-## Miért használjuk az Aspose.Words-ot HTML‑ból‑DOCX konverzióhoz?
-- **Megőrzi az elrendezést** – a táblázatok, listák és képek változatlanul maradnak.
-- **Támogatja a Structured Document Tag-eket** – ideális tartalomvezérlők létrehozásához a Wordben.
-- **Nem szükséges a Microsoft Office** – bármilyen szerveren vagy felhő környezetben működik.
-- **Magas teljesítmény** – nagy HTML fájlokat gyorsan dolgoz fel.
+## Miért használjuk az **Aspose.Words for Java**-t HTML‑ról‑DOCX átalakításhoz?
+- **Átfogó formátumtámogatás** – egyszerű HTML-től a komplex oldalakig CSS‑szel, képekkel és űrlapvezérlőkkel.  
+- **Structured Document Tag** – megőrzi az űrlapvezérlőket újrahasználható címkeként, ami ideális a későbbi szerkesztéshez.  
+- **Nincs Microsoft Office függőség** – bármely Java‑t futtató platformon működik.  
+- **Vállalati szintű teljesítmény** – nagy dokumentumokat kezel hatékonyan.
 
 ## Előfeltételek
-
-1. **Aspose.Words for Java könyvtár** – töltsd le innen: [here](https://releases.aspose.com/words/java/).
-2. **Java fejlesztői környezet** – JDK 8+ telepítve és konfigurálva.
-3. **Alapvető ismeretek a Java I/O-val** – a `ByteArrayInputStream`-et használjuk a HTML karakterlánc betáplálásához.
+1. **Aspose.Words for Java Library** – töltse le [innen](https://releases.aspose.com/words/java/).  
+2. **Java fejlesztői környezet** – telepített és konfigurált JDK 8 vagy újabb.  
 
 ## HTML dokumentumok betöltése
-
-Az alábbiakban egy tömör példa látható, amely bemutatja egy HTML részlet betöltését, miközben engedélyezi a **structured document tag** funkciót.
+Az alábbiakban a fő kódrészlet látható, amely bemutatja, **hogyan töltsünk be html** egy `Document` objektumba. Létrehozunk egy kis HTML töredéket, beállítjuk a `HtmlLoadOptions`-t, hogy **structured document tag**-et használjon, majd példányosítjuk a `Document`-ot.
 
 ```java
 final String HTML = "\r\n
@@ -67,25 +60,19 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-**Magyarázat**
+*Pro tipp:* A `STRUCTURED_DOCUMENT_TAG` opció megőrzi az űrlapvezérlőket (például a `<select>` elemet) szerkeszthető címkékként a létrejövő Word dokumentumban, ami a későbbi adatbevitelhez hasznos.
 
-- Létrehozunk egy `HTML` karakterláncot, amely egy egyszerű `<select>` vezérlőt tartalmaz.
-- A `HtmlLoadOptions` lehetővé teszi, hogy megadjuk, hogyan értelmezze a HTML-t. A preferált vezérlő típus `STRUCTURED_DOCUMENT_TAG`-ra állítása azt mondja az Aspose.Words-nak, hogy a HTML űrlapvezérlőket Word tartalomvezérlőkké konvertálja.
-- A `Document` konstruktor a `ByteArrayInputStream`-ből olvassa be a HTML-t UTF‑8 kódolással.
-
-## Mentés DOCX formátumba (HTML‑ból‑DOCX konverzió)
-
-Miután a HTML be lett töltve egy `Document` objektumba, a DOCX fájlba mentése egyszerű:
+## DOCX mentése HTML-ből
+Miután a HTML betöltődött, a DOCX fájlba mentés egyszerű. Ez bemutatja, **hogyan mentse el a docx**-et ugyanazzal a `Document` példánnyal.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-Cseréld le a `"Your Directory Path"`-t a tényleges mappára, ahová a kimeneti fájlt szeretnéd menteni.
+Cserélje le a `"Your Directory Path"`-t arra a mappára, ahol a kimeneti fájlt szeretné megjeleníteni. A létrejövő DOCX megnyitható a Microsoft Word, a LibreOffice vagy bármely más DOCX‑kompatibilis megjelenítővel.
 
-## Teljes forráskód a HTML dokumentumok betöltéséhez és mentéséhez
-
-Az alábbiakban a teljes, azonnal futtatható példa látható, amely egyesíti a betöltési és mentési lépéseket. Nyugodtan másold be a saját IDE-dbe.
+## Teljes forráskód HTML dokumentumok betöltéséhez és mentéséhez
+Kényelmi okokból itt van a teljes, futtatható példa, amely egyesíti a betöltési és mentési lépéseket. Átmásolhatja ezt az IDE-jébe, és változtatás nélkül futtathatja.
 
 ```java
 final String HTML = "\r\n
@@ -103,36 +90,39 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-## Gyakori buktatók és tippek
+A kód futtatása egy `WorkingWithHtmlLoadOptions.PreferredControlType.docx` nevű Word dokumentumot hoz létre, amely a HTML legördülő menüt strukturált dokumentum címkeként tartalmazza.
 
-| Issue | Why it Happens | How to Fix |
-|-------|----------------|------------|
-| **Hiányzó betűtípusok** | A HTML olyan betűtípusokra hivatkozik, amelyek nincsenek telepítve a szerveren. | `FontSettings` használatával ágyazd be a betűtípusokat a DOCX-be, vagy biztosítsd, hogy a szükséges betűtípusok elérhetők legyenek. |
-| **Képek nem jelennek meg** | A relatív képelérési útvonalak nem oldhatók fel. | Használj abszolút URL-eket, vagy töltsd be a képeket egy `MemoryStream`-be, és állítsd be a `HtmlLoadOptions.setImageSavingCallback`-et. |
-| **A vezérlő típusa nem konvertálódik** | `setPreferredControlType` nincs beállítva, vagy rossz enum értékre van állítva. | Ellenőrizd, hogy a `HtmlControlType.STRUCTURED_DOCUMENT_TAG`-et használod. |
-| **Kódolási problémák** | A HTML karakterlánc más karakterkódolással van kódolva. | Mindig a `StandardCharsets.UTF_8`-et használd a karakterlánc bájtokká konvertálásakor. |
+## Gyakori problémák és hibaelhárítás
+| Tünet | Valószínű ok | Megoldás |
+|---|---|---|
+| A legördülő menü eltűnik a mentés után | `PreferredControlType` nincs beállítva | Győződjön meg róla, hogy a `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);` hívás megtörtént a betöltés előtt. |
+| A képek nem jelennek meg | A kép URL-ek relatívak vagy nem elérhetők | Használjon abszolút URL-eket vagy ágyazza be a képeket Base64 formátumban a HTML karakterláncba. |
+| Váratlan formázás | A CSS nem teljesen támogatott | Egyszerűsítse a CSS-t vagy használjon beágyazott stílusokat; az Aspose.Words a CSS egy részhalmazát támogatja. |
 
 ## Gyakran Ismételt Kérdések
 
-### Hogyan telepíthetem az Aspose.Words for Java-t?
-Az Aspose.Words for Java letölthető innen: [here](https://releases.aspose.com/words/java/). Kövesd a letöltési oldal telepítési útmutatóját, hogy a JAR fájlokat a projekted osztályútvonalához add.
+**Q: Hogyan telepíthetem az Aspose.Words for Java-t?**  
+A: Töltse le a könyvtárat [innen](https://releases.aspose.com/words/java/), és adja hozzá a JAR fájlokat a projekt osztályútvonalához.
 
-### Betölthetek összetett HTML dokumentumokat az Aspose.Words segítségével?
-Igen, az Aspose.Words for Java képes kezelni összetett HTML-t, beleértve a beágyazott táblázatokat, CSS stílusokat és a JavaScript‑mentes interaktív elemeket. Állítsd be a `HtmlLoadOptions`-t (pl. `setLoadImages` vagy `setCssStyleSheetFileName`) a import finomhangolásához.
+**Q: Betölthetek összetett HTML dokumentumokat (CSS‑szel, szkriptekkel, képekkel)?**  
+A: Igen. Az Aspose.Words képes kezelni összetett HTML-t. A legjobb eredményhez biztosítson jól formázott jelölőnyelvet, és használja a `HtmlLoadOptions`-t a konverzió finomhangolásához.
 
-### Milyen egyéb dokumentumformátumokat támogat az Aspose.Words?
-Az Aspose.Words támogatja a DOC, DOCX, RTF, HTML, PDF, EPUB, XPS és még sok más formátumot. Az API egyetlen soros mentést tesz lehetővé bármelyik formátumba.
+**Q: Milyen egyéb formátumokra konvertálhatok?**  
+A: Az API támogatja a DOC, DOCX, RTF, PDF, HTML, EPUB, ODT és még sok más formátumot.
 
-### Az Aspose.Words alkalmas vállalati szintű dokumentumautomatizálásra?
-Teljesen. Nagy vállalatok használják automatizált jelentéskészítésre, tömeges dokumentumkonverzióra és szerver‑oldali dokumentumfeldolgozásra a Microsoft Office függőségei nélkül.
+**Q: Alkalmas az Aspose.Words nagy‑léptékű, vállalati telepítésekhez?**  
+A: Teljes mértékben. Világszerte vállalatok használják nagy mennyiségű dokumentumgenerálásra, jelentéskészítésre és migrációs projektekre.
 
-### Hol találok további dokumentációt és példákat az Aspose.Words for Java-hoz?
-A teljes API referencia és további oktatóanyagok megtalálhatók az Aspose.Words for Java dokumentációs oldalon: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+**Q: Hol találok további példákat és API referenciát?**  
+A: Látogassa meg a hivatalos dokumentációt: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
+
+## Következtetés
+Most már rendelkezik egy átfogó, vég‑től‑végig útmutatóval arról, **hogyan töltsön be html** egy `Document` objektumba, és **hogyan mentse el a docx**-et az Aspose.Words for Java használatával. Ez a **html‑ról‑docx konverzió** technika megbízható mind egyszerű kódrészletek, mind teljes funkcionalitású weboldalak esetén, és a **structured document tag** használata biztosítja, hogy az űrlapvezérlők szerkeszthetőek maradjanak a létrejövő Word fájlban.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tesztelve:** Aspose.Words for Java 24.12 (legújabb a írás időpontjában)  
+**Utolsó frissítés:** 2026-02-24  
+**Tesztelve a következővel:** Aspose.Words for Java 24.12 (a legújabb a írás időpontjában)  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,0 +1,7 @@
+Title: Create word document programmatically and add ActiveX button
+Slug: create-word-document-programmatically-and-add-activex-button
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-08-11T07:19:17.148369
+SourceRepo: AI Search API
+Keywords: create word document programmatically, add activex control word, insert activex command button
+PRNumber: 249

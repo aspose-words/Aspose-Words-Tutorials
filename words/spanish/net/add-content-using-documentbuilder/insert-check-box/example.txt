@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un nuevo documento Word, insertar un campo de formulario de casilla de verificación con DocumentBuilder y guardar el archivo resultante.
+//ExStepSummary:0: Cree una variable de directorio de datos, instancie un Document y cree un DocumentBuilder para ese documento.
+//ExStepSummary:1: Llame a `builder.InsertCheckBox` para agregar un campo de formulario de casilla de verificación marcado y habilitado llamado "CheckBox" en la posición actual del cursor.
+//ExStepSummary:2: Guarde el documento modificado en la carpeta especificada usando `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Document ve DocumentBuilder sınıflarını kullanarak bu öğreticide, bir Word belgesinin birincil üstbilgisine dinamik bir DATE alanı eklemenin ve ardından dosyayı kaydetmenin nasıl yapılacağını gösterir.
+//ExStepSummary:0: Yeni bir Document ve onu düzenlemek için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Builder'ın imlecini birincil üstbilgiye taşıyın, böylece sonraki eklemeler üstbilgiyi etkiler.
+//ExStepSummary:2: Sabit etiketi yazın ve üstbilgiye “MMMM d, yyyy” biçiminde bir DATE alanı ekleyin; bu, dinamik bir tarih oluşturur.
+//ExStepSummary:3: Ana gövdeye geri dönün ve bir örnek paragraf ekleyin; bu, üstbilgiyle birlikte normal belge içeriğini gösterir.
+//ExStepSummary:4: Belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

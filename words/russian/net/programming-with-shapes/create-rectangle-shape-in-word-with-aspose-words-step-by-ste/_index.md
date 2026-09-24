@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2025-12-29
-description: Создайте прямоугольную форму в документе Word с помощью Aspose.Words
-  C#. Узнайте, как установить прозрачность формы, задать цвет тени и легко сохранить
-  документ Word.
+date: 2026-02-18
+description: Создайте прямоугольную форму с помощью Aspose.Words и узнайте, как добавить
+  тень, задать размер формы и сохранить документ Word за несколько минут.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: ru
-og_description: Создайте прямоугольную форму в документе Word с помощью Aspose.Words
-  C#. Это руководство показывает, как установить прозрачность формы, задать цвет тени
-  и сохранить документ Word.
-og_title: Создание прямоугольной формы в Word – Полное руководство по Aspose.Words
+og_description: Создайте прямоугольную форму в файле Word, научитесь добавлять тень,
+  задавать размер формы и сохранять документ с помощью Aspose.Words на C#.
+og_title: Создание прямоугольной фигуры в Word – Полный учебник по Aspose.Words
 tags:
 - Aspose.Words
 - C#
-- Word Automation
-title: Создание прямоугольной фигуры в Word с помощью Aspose.Words – пошаговое руководство
+- Word automation
+title: Создание прямоугольной фигуры в Word с помощью Aspose.Words – пошаговое руководство
 url: /ru/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
@@ -28,180 +26,187 @@ url: /ru/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создание прямоугольной фигуры в Word – Полный учебник Aspose.Words
+# Создание прямоугольной фигуры в Word с помощью Aspose.Words – пошаговое руководство
 
-Когда‑нибудь вам нужно было **создать прямоугольную фигуру** в документе Word, но вы не знали, с чего начать? Вы не одиноки; многие разработчики сталкиваются с этим при автоматизации отчетов или счетов. В этом руководстве мы пройдем все шаги по созданию прямоугольной фигуры, установке прозрачности фигуры, установке цвета тени и, наконец, **сохранить документ Word** с помощью Aspose.Words для .NET.  
+Когда‑нибудь вам нужно было **создать прямоугольную фигуру** в файле Word, но вы не знали, с чего начать? Вы не одиноки — разработчики часто спрашивают: «как добавить тень к фигуре и при этом оставить документ редактируемым?» В этом руководстве мы ответим на этот вопрос, а также покажем, как **добавить тень**, **установить размер фигуры** и **сохранить документ Word** в одном плавном процессе.
 
-Мы охватим всё от начального объекта документа до конечного файла `.docx` на диске, так что к концу вы сможете **создавать документы Word** программно без догадок. Без внешних ссылок, только автономное решение, которое вы можете скопировать и вставить в свой проект.
+Мы пройдём всё, что вам нужно, от инициализации нового документа (да, это первый шаг к **how to create document**) до сохранения финального *.docx* на диск. Никаких внешних ссылок, только автономный пример, который вы можете скопировать‑вставить в Visual Studio и запустить уже сегодня.
 
-## Требования
+---
 
-- .NET 6.0 или новее (код также работает с .NET Framework 4.7+)
-- Пакет NuGet Aspose.Words для .NET (`Install-Package Aspose.Words`)
-- Базовое знакомство с синтаксисом C#
-- Любая IDE по вашему выбору (Visual Studio, Rider, VS Code и т.д.)
+## Prerequisites
 
-> **Совет:** Если вы используете бесплатную пробную версию Aspose.Words, библиотека добавит водяной знак в выходной файл. Для продакшна вам понадобится действующая лицензия.
+- .NET 6+ (или .NET Framework 4.7+). Aspose.Words работает с любой современной средой .NET.
+- Действительная лицензия Aspose.Words (или бесплатный оценочный ключ) — иначе будет отображаться водяной знак.
+- Visual Studio, Rider или любой другой редактор C#, который вам удобен.
+- Базовые знания C# — ничего сложного, только возможность запустить консольное приложение.
 
-## Шаг 1: Инициализация документа и Builder
+> **Pro tip:** Если вы работаете на Mac, тот же код запускается под .NET 6 с VS Code — просто убедитесь, что подключён пакет `Aspose.Words` из NuGet.
 
-Первое, что мы делаем, — создаём новый пустой документ Word и `DocumentBuilder`, который позволяет вставлять содержимое. Думайте о Builder как о виртуальной ручке, рисующей на странице.
+---
+
+## Step 1: Initialize the document – the foundation of **how to create document**
+
+Прежде чем что‑то рисовать, нам нужен чистый холст. В Aspose.Words это называется `Document`.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Почему это важно:** Без `DocumentBuilder` вам пришлось бы напрямую манипулировать низкоуровневым деревом узлов, что склонно к ошибкам и труднее читается.
+> **Why this matters:** Объект `Document` представляет весь файл *.docx*. Все фигуры, абзацы и секции, которые вы добавляете, становятся дочерними элементами этого объекта. Начало с чистого документа гарантирует отсутствие скрытых стилей, которые могут помешать вашему прямоугольнику.
 
-## Шаг 2: Создание прямоугольной фигуры
+---
 
-Теперь мы действительно **создаёмоугольную фигуру**. Метод `InsertShape` принимает перечисление `ShapeType`, ширину и высоту (в пунктах). Возвращаемый объект `Shape` позволяет позже настраивать визуальные свойства.
+## Step 2: Define the rectangle and **set shape size**
+
+Прямоугольник — это просто `Shape` с `ShapeType.Rectangle`. Мы зададим ему явные размеры, чтобы он выглядел точно так, как задумано.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-На данном этапе прямоугольник представляет собой сплошную чёрную коробку, привязанную к текущему абзацу. При необходимости вы можете переместить её, изменить размер или даже повернуть позже.
+> **What the numbers mean:** Aspose.Words использует пункты (1 pt = 1/72 in). Подгоняйте значения под ваш макет; для типичной страницы A4 ширина 200 pt выглядит комфортно.
 
-![создание прямоугольной фигуры с тенью](/images/rectangle-shadow.png "Документ Word, показывающий прямоугольную фигуру со светлой тенью")
+---
 
-*Текст alt изображения: создание прямоугольной фигуры с тенью в документе Word*
+## Step 3: **How to add shadow** – making the shape pop
 
-## Шаг 3: Установка прозрачности фигуры
-
-Прозрачность — это уровень “прозрачности” заливки фигуры. Aspose.Words использует свойство `Transparency` в диапазоне от `0.0` (непрозрачный) до `1.0` (полностью прозрачный). Здесь мы **устанавливаем прозрачность фигуры** на 40 %, чтобы подлежащий текст оставался читаемым.
+Тени дают визуальный сигнал, что фигура «поднята» над страницей. Свойство `Shadow` позволяет настроить цвет, расстояние, прозрачность и размытие.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Особый случай:** Если вам нужна полностью невидимая фигура, но тень должна оставаться, установите `Transparency` в `1.0` и задайте фигуре ненулевую ширину контура.
+> **Why use transparency?** Полностью непрозрачная тень может выглядеть резко. Установка значения 0.4 делает эффект более тонким и профессиональным.
 
-## Шаг 4: Настройка тени
+---
 
-Тонкая падающая тень добавляет глубину. Мы **установим цвет тени** в средний серый, отрегулируем её радиус размытия и сместим её на несколько пунктов по горизонтали и вертикали.
+## Step 4: Position the rectangle – inline flow with surrounding text
+
+Если вы хотите, чтобы фигура вела себя как символ в абзаце, установите её `WrapType` в `Inline`. Это делает макет предсказуемым, особенно когда документ позже редактируется.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Почему это важно:** Тень, слишком резкая или слишком тёмная, может выглядеть как артефакт печати. Регулируйте `Blur` и `Transparency`, пока не будет выглядеть естественно.
+> **Edge case:** Если необходимо, чтобы прямоугольник плавал над текстом (например, как водяной знак), измените `WrapType` на `Square` или `BehindText`.
 
-## Шаг 5: Сохранение документа Word
+---
 
-Наконец мы **сохраняем документ Word** на диск. Метод `Save` автоматически определяет формат файла по расширению; `.docx` — современный формат OpenXML.
+## Step 5: Insert the shape into the document body
+
+Теперь мы действительно помещаем прямоугольник в первый абзац. Если в документе ещё нет содержимого, `FirstParagraph` создаётся автоматически.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Если папка не существует, Aspose.Words выбросит `ArgumentException`. Убедитесь, что путь действителен, или создайте каталог заранее.
+> **Tip:** Вы также можете сначала создать новый абзац, а затем добавить к нему фигуру — это удобно, когда нужен окружающий текст.
 
-## Полный рабочий пример
+---
 
-Ниже приведена полная, готовая к запуску программа, объединяющая все шаги. Скопируйте её в новый консольный проект и нажмите **F5**.
+## Step 6: **Save Word document** – the final step
+
+Когда всё готово, сохранение файла занимает одну строку кода. Укажите любой путь; в примере используется заполнитель, который следует заменить на ваш собственный каталог.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Result:** Откройте сгенерированный *.docx* в Microsoft Word. Вы увидите прямоугольник с чёрной тенью, шириной 200 pt и высотой 100 pt, расположенный в строке с первым абзацем.
+
+---
+
+## Expected output
+
+При открытии **ShadowShape.docx** документ будет показывать:
+
+- Один абзац, содержащий прямоугольную фигуру.
+- Прямоугольник имеет лёгкую чёрную тень со смещением 5 pt.
+- Размер фигуры соответствует параметрам, заданным в Шаге 2.
+- Дополнительный текст не появляется, если вы не добавите его вручную.
+
+Если фигура не отображается, проверьте, что вы подключили правильную версию Aspose.Words и что ваша лицензия (или пробная версия) активна.
+
+---
+
+## Common Questions & Variations
+
+| Question | Answer |
+|----------|--------|
+| *Can I change the shadow color to something other than black?* | Absolutely—set `rectangleShape.Shadow.Color = Color.Blue;` or any `System.Drawing.Color`. |
+| *What if I need a larger rectangle?* | Adjust `Width` and `Height` values. Remember they’re in points; 72 pt = 1 in. |
+| *Is it possible to place the shape at an absolute position?* | Yes—use `WrapType = WrapType.Absolute` and set `Top`/`Left` properties. |
+| *Does this work with .NET Core?* | It does. Aspose.Words is cross‑platform; just install the NuGet package for .NET Standard. |
+| *Can I add text inside the rectangle?* | Not directly; you’d need to insert a `TextBox` shape instead of a plain rectangle. |
+
+---
+
+## Full Working Example (Copy‑Paste Ready)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Ожидаемый результат
-
-Откройте `ShadowRectangle.docx` в Microsoft Word. Вы должны увидеть светло‑серый прямоугольник с мягкой, слегка смещённой тенью, оба отрисованы с 40 % прозрачностью. Фигура находится на пустой странице, готовая к добавлению контента.
-
-## Часто задаваемые вопросы и варианты
-
-**Что если мне нужна другая фигура?**  
-Замените `ShapeType.Rectangle` на любое другое значение перечисления (`Ellipse`, `Triangle`, `Star` и т.д.). Остальная часть кода остаётся той же.
-
-**Могу ли я изменить цвет контура?**  
-Да — используйте `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` и при желании задайте `rectangleShape.StrokeWeight = 1.5;`.
-
-**Как разместить фигуру в определённом месте страницы?**  
-Установите `rectangleShape.WrapType = WrapType.None;`, а затем отрегулируйте свойства `rectangleShape.Left` и `rectangleShape.Top` (значения в пунктах).
-
-**Можно ли добавить текст внутри прямоугольника?**  
-Конечно. После создания фигуры вы можете вызвать `rectangleShape.AppendChild(new Paragraph(document))` и затем добавить `Run` с вашим текстом. Не забудьте установить свойства `rectangleShape.TextBox`, если требуется более сложное форматирование.
-
-## Профессиональные советы и подводные камни
-
-- **Получите лицензию заранее:** Если забыть применить лицензию, Aspose.Words вставит водяной знак на первую страницу, что может сбивать с толку во время тестирования.
-- **Совет по производительности:** При генерации множества документов в цикле переиспользуйте один экземпляр `Document` и вызывайте `document.RemoveAllChildren();` после каждого сохранения, чтобы избежать избыточного давления на сборщик мусора.
-- **Видимость тени:** На экранах с низким разрешением тонкая тень может быть невидима. Увеличьте `Blur` или `OffsetX/Y` для отладки, затем уменьшите для продакшна.
-
-## Следующие шаги
-
-Теперь, когда вы знаете, как **создавать прямоугольную фигуру**, **устанавливать прозрачность фигуры**, **устанавливать цвет тени** и **сохранять документ Word**, рассмотрите возможность расширения учебника:
-
-- Добавьте несколько фигур и сгруппируйте их.
-- Вставьте прямоугольник в ячейку таблицы для макета отчёта.
-- Скомбинируйте фигуру с `DocumentBuilder.InsertHtml` для наложения HTML‑стилизованного контента.
-- Исследуйте другие визуальные эффекты, такие как `Glow` или `Reflection`, для более богатых UI‑подобных документов.
-
-Экспериментируйте, ломайте вещи, а затем дорабатывайте — программная генерация документов — это площадка, где визуальный дизайн встречается с кодом.
+Запустите программу, перейдите к `C:\Temp\ShadowShape.docx`, и вы увидите прямоугольник с тенью точно так, как описано.
 
 ---
 
-*Счастливого кодинга! Если вы столкнулись с проблемами, оставьте комментарий ниже, и мы разберём их вместе.*
+## Conclusion
+
+Теперь вы знаете, как **create rectangle shape** в файле Word с помощью Aspose.Words, как **set shape size**, **add shadow** и, наконец, **save Word document** с внесёнными изменениями. Весь процесс — от **how to create document** до сохранения результата — укладывается в несколько строк C# и может быть расширен для более сложных макетов.
+
+Готовы к следующему вызову? Попробуйте заменить прямоугольник на форму с закруглёнными углами, поэкспериментировать с разными цветами тени или встроить фигуру в ячейку таблицы. Каждое изменение укрепляет те же базовые концепции, которые мы рассмотрели здесь.
+
+Если это руководство оказалось полезным, поделитесь им, оставьте комментарий со своими вариантами или изучите наши другие уроки по автоматизации Word, такие как вставка изображений или генерация таблиц с Aspose.Words. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

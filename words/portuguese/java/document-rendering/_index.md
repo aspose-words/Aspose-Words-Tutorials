@@ -39,6 +39,8 @@ Aprenda a aprimorar seus documentos com formas e gráficos usando o Aspose.Words
 Descubra como imprimir e renderizar documentos de forma eficiente usando o Aspose.Words para Java. Aprenda passo a passo com exemplos de código-fonte.
 ### [Renderizando documentos para HTML](./rendering-documents-html/)
 Aprenda a converter documentos para HTML sem esforço com o Aspose.Words para Java. Guia passo a passo para uma conversão eficiente de documentos.
+### [Como lidar com fontes em Java com Aspose.Words – Guia completo](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Aprenda a gerenciar fontes ao processar documentos Word em Java usando Aspose.Words, com exemplos práticos e dicas avançadas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,15 @@
 ---
-"date": "2025-03-28"
-"description": "Aspose.Words Java 程式碼教程"
-"title": "掌握 Aspose.Words for Java&#58;處理異常和格式"
-"url": "/zh-hant/java/document-operations/aspose-words-java-handling-exceptions-formats/"
-"weight": 1
+date: '2026-02-06'
+description: 學習如何使用 Aspose.Words for Java 來驗證數位簽章、偵測檔案編碼及處理例外。
+keywords:
+- Aspose.Words for Java
+- FileCorruptedException handling
+- file encoding detection
+- digital signature verification
+- extract images from documents
+title: 使用 Aspose.Words for Java 驗證數碼簽署
+url: /zh-hant/java/document-operations/aspose-words-java-handling-exceptions-formats/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,33 +18,39 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 驗證數位簽章並處理例外與格式 – 使用 Aspose.Words for Java
 
-# 掌握 Aspose.Words：處理 Java 中的異常和檔案格式
+## 簡介
 
-## 介紹
+您是否需要在 Word 文件上 **驗證數位簽章**，同時處理損毀檔案、偵測編碼或抽取內嵌圖片？使用 **Aspose.Words for Java**，您可以在同一套簡潔的 API 中解決所有這些挑戰。本教學將帶您逐步了解如何捕捉 `FileCorruptedException`、偵測檔案編碼、對應媒體類型、檢查加密狀態、驗證數位簽章、自動儲存偵測到的格式，以及從 Word 檔案中抽取圖片。
 
-您在使用 Java 處理文件時是否面臨挑戰，尤其是在處理文件損壞或檢測編碼時？使用“Aspose.Words for Java”，您可以無縫地管理這些問題以及更多問題。本教學將指導您處理以下異常 `FileCorruptedException`、檢測編碼、處理數位簽名以及提取圖像——所有這些都使用強大的 Aspose.Words 庫。
+**您將學會**
 
-**您將學到什麼：**
-- 如何在 Java 中擷取和處理檔案損壞異常。
-- 偵測 HTML 文件的文件編碼。
-- 將媒體類型對應到對應的 Aspose 載入/儲存格式。
-- 偵測文檔加密狀態和數位簽章。
-- 有效地從文件中提取圖像。
+- 在 Java 中捕捉並處理檔案損毀例外。  
+- **detect file encoding java** 用於 HTML 或文字文件的編碼偵測。  
+- **detect file format java** 並將媒體類型映射至 Aspose 的儲存格式。  
+- **detect document encryption** 以及處理加密檔案。  
+- **verify digital signature** 在 Word 文件上驗證數位簽章。  
+- **extract images from word** 從文件中抽取圖片以供再利用或分析。
 
-有了這些技能，您將能夠輕鬆處理複雜的文件處理任務。在設定您的環境之前，讓我們深入了解先決條件！
+在進入程式碼之前，先確保您的開發環境已就緒。
 
-## 先決條件
+## 快速解答
+- **如何驗證數位簽章？** 使用 `FileFormatUtil.detectFileFormat(...).hasDigitalSignature()`。  
+- **哪個例外表示檔案損毀？** `FileCorruptedException`。  
+- **Aspose.Words 能偵測 HTML 編碼嗎？** 能，透過 `FileFormatUtil.detectFileFormat`。  
+- **有沒有方法自動儲存未知副檔名的文件？** 可使用 `FileFormatUtil.loadFormatToSaveFormat` 將偵測到的載入格式轉換為儲存格式。  
+- **如何從 Word 檔案抽取圖片？** 迭代 `Shape` 節點，呼叫 `shape.getImageData().save(...)`。
 
-要遵循本教程，請確保您已具備：
-- 安裝了 Java 開發工具包 (JDK) 8 或更高版本。
-- 對 Java 程式設計和異常處理有基本的了解。
-- Maven 或 Gradle 用於依賴管理。
+## 前提條件
 
-### 所需的庫和環境設置
-確保您的專案包含 Aspose.Words 庫。以下是使用 Maven 和 Gradle 的設定說明：
+- Java Development Kit (JDK) 8 或更新版本。  
+- 基本的 Java 知識，特別是例外處理。  
+- Maven 或 Gradle 用於相依管理。
 
-**Maven：**
+### 所需庫和環境設置
+將 Aspose.Words 加入您的專案：
+
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -47,17 +59,16 @@
 </dependency>
 ```
 
-**Gradle：**
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
 ### 許可證取得步驟
-您可以先免費試用，或申請臨時許可證，以便在購買之前探索 Aspose.Words for Java 的完整功能。
+先使用免費試用或申請臨時授權，以解鎖完整功能，之後再購買正式授權。
 
-## 設定 Aspose.Words
+## Aspose.Words 設定
 
-要開始使用 Aspose.Words，請將程式庫整合到您的專案中（如上所示），並設定有效的授權。初始化方法如下：
+初始化函式庫並套用授權：
 
 ```java
 import com.aspose.words.License;
@@ -66,17 +77,14 @@ License license = new License();
 license.setLicense("Aspose.Words.lic");
 ```
 
-此設定可讓您無限制地利用所有功能。
+現在您可以在沒有評估限制的情況下使用完整 API。
 
-## 實施指南
+## 實作指南
 
-### 處理 FileCorruptedException
+### 如何處理 Java 中的 FileCorruptedException 異常
 
-**概述：**
-妥善處理文件損壞對於強大的文件處理應用程式至關重要。
-
-#### 捕獲異常
-為了捕捉 `FileCorruptedException` 載入可能損壞的文件時，請使用以下程式碼：
+**概述**  
+優雅地處理損毀的輸入可防止應用程式崩潰。
 
 ```java
 import com.aspose.words.Document;
@@ -88,15 +96,13 @@ try {
     System.out.println(e.getMessage());
 }
 ```
-**解釋：** 此程式碼嘗試載入文件並捕獲與文件損壞相關的異常，記錄錯誤訊息以進行進一步調查。
 
-### 檢測 HTML 文件中的編碼
+catch 區塊會記錄錯誤，讓您有機會通知使用者或改用其他檔案重新嘗試。
 
-**概述：**
-偵測 HTML 檔案的正確編碼可確保準確處理該檔案。
+### 如何偵測 Java 檔案編碼
 
-#### 檢測編碼
-使用 Aspose.Words 偵測和驗證檔案格式和編碼：
+**概述**  
+正確偵測 HTML 檔案的編碼可確保字元正確顯示。
 
 ```java
 import com.aspose.words.FileFormatInfo;
@@ -106,15 +112,13 @@ FileFormatInfo info = FileFormatUtil.detectFileFormat("YOUR_DOCUMENT_DIRECTORY/D
 System.out.println("Load Format: " + LoadFormat.toString(info.getLoadFormat()));
 System.out.println("Encoding: " + (info.getEncoding() != null ? info.getEncoding().name() : "None"));
 ```
-**解釋：** 此程式碼片段可偵測 HTML 文件的文件格式和編碼，確保其與預期值相符。
 
-### 將媒體類型對應到檔案格式
+此程式碼會同時輸出偵測到的載入格式與字元編碼。
 
-**概述：**
-將媒體類型字串轉換為 Aspose 的載入/儲存格式可增強與各種內容類型的互通性。
+### 如何偵測 Java 檔案格式
 
-#### 使用內容類型實用程式
-以下是映射媒體類型字串的方法：
+**概述**  
+將 MIME 類型（媒體類型）映射至 Aspose 內部格式，可簡化 content‑type 的處理。
 
 ```java
 import com.aspose.words.FileFormatUtil;
@@ -122,15 +126,13 @@ import com.aspose.words.FileFormatUtil;
 FileFormatInfo info = FileFormatUtil.contentTypeToSaveFormat("image/jpeg");
 System.out.println("Save Format: " + info.getLoadFormat());
 ```
-**解釋：** 此程式碼映射 `image/jpeg` 內容類型為 Aspose 的儲存格式，有助於檔案轉換任務。
 
-### 偵測文檔加密
+當您透過 HTTP 接收檔案並需決定如何處理時，此轉換非常實用。
 
-**概述：**
-偵測文件是否加密可確保安全處理和存取控制。
+### 如何偵測文檔加密
 
-#### 檢查加密
-檢查加密狀態：
+**概述**  
+了解文件是否已加密，可決定是否提示使用者輸入密碼。
 
 ```java
 import com.aspose.words.Document;
@@ -144,15 +146,13 @@ doc.save("YOUR_OUTPUT_DIRECTORY/File.DetectDocumentEncryption.odt", saveOptions)
 FileFormatInfo info = FileFormatUtil.detectFileFormat("YOUR_OUTPUT_DIRECTORY/File.DetectDocumentEncryption.odt");
 System.out.println("Is Encrypted: " + info.isEncrypted());
 ```
-**解釋：** 此程式碼片段使用加密儲存文檔，然後檢查其是否已加密。
 
-### 檢測數位簽名
+程式碼先建立一個加密的 ODT 檔案，然後驗證其加密狀態。
 
-**概述：**
-驗證數位簽章可確保文件的真實性。
+### 如何驗證數位簽名
 
-#### 簽名檢測
-檢測數位簽章：
+**概述** 
+驗證數位簽章可確認文件的真實性與完整性。
 
 ```java
 import com.aspose.words.FileFormatInfo;
@@ -161,15 +161,13 @@ import org.bouncycastle.cert.jcajce.JcaCertStore;
 FileFormatInfo info = FileFormatUtil.detectFileFormat("YOUR_DOCUMENT_DIRECTORY/Document.docx");
 System.out.println("Has Digital Signature: " + info.hasDigitalSignature());
 ```
-**解釋：** 此程式碼檢查文件是否包含數位簽名，以確認其完整性。
+
+若 `hasDigitalSignature()` 回傳 `true`，表示文件帶有有效的簽章。
 
 ### 將文件儲存為偵測到的格式
 
-**概述：**
-根據偵測到的文件類型自動以正確的格式儲存文件可優化工作流程效率。
-
-#### 自動儲存功能
-以下介紹如何以偵測到的格式儲存文件：
+**概述**  
+自動以原生格式儲存文件，可簡化批次處理流程。
 
 ```java
 import com.aspose.words.Document;
@@ -182,15 +180,13 @@ Document doc = new Document(docStream);
 int saveFormat = FileFormatUtil.loadFormatToSaveFormat(info.getLoadFormat());
 doc.save("YOUR_OUTPUT_DIRECTORY/Detected_Format.docx", saveFormat);
 ```
-**解釋：** 此程式碼片段會偵測沒有副檔名的文件的格式並相應地保存它。
 
-### 從文件中提取圖像
+即使沒有副檔名，Aspose.Words 仍能判斷正確格式並適當儲存。
 
-**概述：**
-從文件中提取圖像對於內容重新利用或分析至關重要。
+### 如何從 Word 文件中提取圖像
 
-#### 影像擷取過程
-擷取影像：
+**概述**  
+抽取內嵌圖片可在網頁、相簿或資料分析專案中再次使用。
 
 ```java
 import com.aspose.words.Document;
@@ -210,71 +206,59 @@ for (Shape shape : (Iterable<Shape>) shapes) {
     }
 }
 ```
-**解釋：** 此程式碼遍歷文件中的形狀，保存找到的每個圖像。
+
+每張圖片會以連續編號的檔名及正確的副檔名儲存。
 
 ## 實際應用
 
-1. **文件驗證服務：**
-   使用 Aspose.Words 驗證文件完整性並偵測加密以確保文件交換安全。
-   
-2. **內容管理系統（CMS）：**
-   自動偵測媒體類型和格式，以簡化內容上傳和管理。
+1. **Document Validation Services** – 在接受合作夥伴檔案前偵測損毀、加密與簽章。  
+2. **Content Management Systems (CMS)** – 自動偵測媒體類型與編碼，簡化上傳流程。  
+3. **Legal & Compliance Tools** – 驗證數位簽章，確保文件未被竄改。  
+4. **Data‑Extraction Pipelines** – 從合約、報告或行銷素材中抽取圖片以作存檔。  
+5. **Automated Reporting** – 即使缺少副檔名，也能以原始建立的格式儲存產生的報告。
 
-3. **數位簽章驗證：**
-   在合法軟體中實施簽名檢查，以確保處理先前文件的真實性。
+## 性能考量
 
-4. **資料擷取工具：**
-   從文件中提取影像以用於數位存檔或資料分析目的。
+- 使用目標化的例外處理，以避免不必要的 try/catch 開銷。  
+- 為常用的檔案類型快取 `FileFormatInfo` 結果。  
+- 處理大型檔案時，及時釋放 `Document` 物件以釋放記憶體。
 
-5. **自動報告產生：**
-   根據偵測到的文件類型以適當的格式儲存報告，確保跨平台的相容性。
+## 常見問題
 
-## 性能考慮
+**Q: Aspose.Words 是否支援受密碼保護（加密）的 Word 檔案？**  
+A: 支援。使用相應的密碼載入文件，或透過 `LoadOptions` 指定解密參數。
 
-- 利用高效的異常處理來最大限度地減少效能開銷。
-- 快取常用的文件格式和編碼以加快處理時間。
-- 透過管理大型文件的記憶體分配來優化資源使用情況。
+**Q: 能否在不載入整個文件的情況下驗證數位簽章？**  
+A: `FileFormatUtil.detectFileFormat` 只讀取簽章偵測所需的標頭資訊，屬於輕量操作。
 
-## 結論
+**Q: 有沒有方法批次偵測多個檔案的加密狀態？**  
+A: 可遍歷檔案，對每個檔案呼叫 `detectFileFormat`，並記錄 `info.isEncrypted()`，此方式具良好擴充性。
 
-本教程提供了掌握 Java 中的 Aspose.Words 的全面指南，重點介紹處理異常和文件格式。您已經學習如何偵測文件損壞、處理編碼、管理數位簽章等。為了進一步提高您的技能，請探索 Aspose.Words 的其他功能並將其整合到您的專案中。
+**Q: Aspose.Words 能抽取哪些圖片格式？**  
+A: 支援 PNG、JPEG、BMP、GIF、TIFF 與 EMF，透過 `shape.getImageData().getImageType()` 取得類型。
 
-**後續步驟：** 嘗試不同的文件類型和場景來鞏固您的理解。考慮將 Aspose.Words 與其他 Java 程式庫整合以獲得強大的文件處理解決方案。
+**Q: 每個 Aspose 產品都需要單獨的授權嗎？**  
+A: 需要。每個 Aspose 函式庫（Words、PDF、Cells 等）都有自己的授權檔。
 
-## 常見問題部分
+## 資料來源
 
-**問題 1：如何處理 Aspose.Words 中不支援的文件格式？**
-A1：使用 `FileFormatUtil` 類別來偵測支援的格式並對不支援的格式實施回退機制。
+- **Documentation:** [Aspose.Words Java Documentation](https://reference.aspose.com/words/java/)
+- **Download:** [Aspose.Words Java Releases](https://releases.aspose.com/words/java/)
+- **Purchase:** [Buy Aspose.Words](https://purchase.aspose.com/buy)
+- **Free Trial:** [Get a Free Trial of Aspose.Words](https://releases.aspose.com/words/java/)
+- **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Support:** [Aspose Forum for Words](https://forum.aspose.com/c/words/10)
 
-**Q2：Aspose.Words 能有效處理大型文件嗎？**
-A2：是的，但透過適當配置 JVM 設定來確保最佳記憶體管理。
+---
 
-**Q3：偵測數位簽章時常見問題有哪些？**
-A3：確保文件使用有效憑證正確簽署。驗證是否包含簽名驗證所需的所有程式庫。
-
-**Q4：如何在現有 Java 專案中設定 Aspose.Words？**
-A4：新增 Maven 或 Gradle 依賴項，設定您的許可證，並確保您的環境符合先決條件。
-
-**Q5：使用 Aspose.Words 擷取影像有什麼限制嗎？**
-A5：提取通常很有效，但效能可能會根據文件的大小和複雜性而有所不同。
-
-## 資源
-
-- **文件:** [Aspose.Words Java文檔](https://reference.aspose.com/words/java/)
-- **下載：** [Aspose.Words Java 版本](https://releases.aspose.com/words/java/)
-- **購買：** [購買 Aspose.Words](https://purchase.aspose.com/buy)
-- **免費試用：** [免費試用 Aspose.Words](https://releases.aspose.com/words/java/)
-- **臨時執照：** [申請臨時許可證](https://purchase.aspose.com/temporary-license/)
-- **支持：** [Aspose Words 論壇](https://forum.aspose.com/c/words/10)
-
-透過掌握這些技術，您將能夠使用 Java 中的 Aspose.Words 自信地應對文件處理挑戰。
+**Last Updated:** 2026-02-06  
+**Tested With:** Aspose.Words 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

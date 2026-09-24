@@ -1,207 +1,194 @@
 ---
 category: general
-date: 2025-12-29
-description: Erstellen Sie eine Rechteckform in einem Word‑Dokument mit Aspose.Words
-  C#. Erfahren Sie, wie Sie die Transparenz der Form festlegen, die Schattenfarbe
-  einstellen und das Word‑Dokument mühelos speichern.
+date: 2026-02-18
+description: Erstellen Sie eine Rechteckform mit Aspose.Words und lernen Sie, wie
+  Sie einen Schatten hinzufügen, die Formgröße festlegen und das Word‑Dokument in
+  wenigen Minuten speichern.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: de
-og_description: Erstellen Sie ein Rechteck in einem Word-Dokument mit Aspose.Words
-  C#. Dieser Leitfaden zeigt, wie Sie die Transparenz der Form festlegen, die Schattenfarbe
-  einstellen und das Word-Dokument speichern.
+og_description: Erstellen Sie eine Rechteckform in einer Word‑Datei, lernen Sie, wie
+  Sie einen Schatten hinzufügen, die Formgröße festlegen und das Dokument mit Aspose.Words
+  in C# speichern.
 og_title: Rechteckform in Word erstellen – Vollständiges Aspose.Words‑Tutorial
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Rechteckform in Word mit Aspose.Words erstellen – Schritt‑für‑Schritt‑Anleitung
 url: /de/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rechteckform in Word erstellen – Vollständiges Aspose.Words Tutorial
+# Rechteckform in Word mit Aspose.Words erstellen – Schritt‑für‑Schritt‑Anleitung
 
-Haben Sie jemals **Rechteckform erstellen** in einem Word-Dokument benötigen, aber wussten nicht, wo Sie anfangen sollen? Sie sind nicht allein; viele Entwickler stoßen auf dieses Problem, wenn sie Berichte oder Rechnungen automatisieren. In diesem Leitfaden gehen wir die genauen Schritte durch, um eine Rechteckform zu erstellen, die Transparenz der Form festzulegen, die Schattenfarbe zu setzen und schließlich **Word-Dokument speichern** mit Aspose.Words für .NET.
+Haben Sie jemals **eine Rechteckform** in einer Word‑Datei erstellen müssen, wussten aber nicht, wo Sie anfangen sollen? Sie sind nicht allein – Entwickler fragen oft: „Wie füge ich einer Form einen Schatten hinzu und halte das Dokument trotzdem editierbar?“ In diesem Tutorial beantworten wir das und zeigen Ihnen außerdem **wie man einen Schatten hinzufügt**, **die Formgröße festlegt** und **das Word‑Dokument speichert**, alles in einem reibungslosen Ablauf.
 
-Wir behandeln alles vom initialen Dokumentobjekt bis zur finalen `.docx`-Datei auf der Festplatte, sodass Sie am Ende **Word-Dokument programmatisch erstellen** können, ohne zu raten. Keine externen Referenzen, nur eine eigenständige Lösung, die Sie in Ihr Projekt kopieren‑einfügen können.
+Wir führen Sie durch alles, was Sie benötigen, von der Initialisierung eines neuen Dokuments (ja, das ist der erste Schritt zu **how to create document**) bis zum Speichern der finalen *.docx* auf der Festplatte. Keine externen Referenzen, nur ein eigenständiges Beispiel, das Sie in Visual Studio kopieren‑und‑einfügen und sofort ausführen können.
+
+---
 
 ## Voraussetzungen
 
-- .NET 6.0 oder höher (der Code funktioniert auch mit .NET Framework 4.7+)
-- Aspose.Words für .NET NuGet‑Paket (`Install-Package Aspose.Words`)
-- Grundlegende Vertrautheit mit C#‑Syntax
-- Eine IDE Ihrer Wahl (Visual Studio, Rider, VS Code usw.)
+- .NET 6+ (oder .NET Framework 4.7+). Aspose.Words funktioniert mit jeder aktuellen .NET‑Runtime.
+- Eine gültige Aspose.Words‑Lizenz (oder der kostenlose Evaluierungsschlüssel) – andernfalls sehen Sie ein Wasserzeichen.
+- Visual Studio, Rider oder ein beliebiger C#‑Editor Ihrer Wahl.
+- Grundkenntnisse in C# – nichts Aufwändiges, nur die Fähigkeit, eine Konsolen‑App auszuführen.
 
-> **Pro Tipp:** Wenn Sie eine kostenlose Testversion von Aspose.Words verwenden, fügt die Bibliothek dem Ausgabedokument ein Wasserzeichen hinzu. Für die Produktion benötigen Sie eine gültige Lizenz.
+> **Pro‑Tipp:** Wenn Sie einen Mac benutzen, läuft derselbe Code unter .NET 6 mit VS Code – stellen Sie nur sicher, dass Sie das NuGet‑Paket `Aspose.Words` referenzieren.
 
-## Schritt 1: Dokument und Builder initialisieren
+## Schritt 1: Dokument initialisieren – die Grundlage von **how to create document**
 
-Das erste, was wir tun, ist ein neues, leeres Word-Dokument und einen `DocumentBuilder` zu erstellen, der es uns ermöglicht, Inhalte einzuf. Denken Sie an den Builder wie an einen virtuellen Stift, der auf der Seite zeichnet.
+Bevor wir etwas zeichnen können, benötigen wir eine leere Leinwand. Aspose.Words nennt dies ein `Document`.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Warum das wichtig ist:** Ohne einen `DocumentBuilder` müssten Sie den Low‑Level‑Knotenbaum direkt manipulieren, was fehleranfällig und schwerer zu lesen ist.
+> **Warum das wichtig ist:** Das `Document`‑Objekt repräsentiert die gesamte *.docx*-Datei. Alle Formen, Absätze und Abschnitte, die Sie hinzufügen, werden Kinder dieses Objekts. Mit einem leeren Dokument zu beginnen stellt sicher, dass keine versteckten Stile Ihre Rechteckform beeinträchtigen.
 
-## Schritt 2: Rechteckform erstellen
+## Schritt 2: Das Rechteck definieren und **Formgröße festlegen**
 
-Jetzt erstellen wir tatsächlich **eine Rechteckform**. Die Methode `InsertShape` nimmt ein `ShapeType`‑Enum, Breite und Höhe (in Punkten) entgegen. Das zurückgegebene `Shape`‑Objekt ermöglicht es uns, später visuelle Eigenschaften anzupassen.
+Ein Rechteck ist einfach ein `Shape` mit `ShapeType.Rectangle`. Wir geben ihm explizite Abmessungen, damit es genau wie beabsichtigt aussieht.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-Zu diesem Zeitpunkt ist das Rechteck ein durchgehend schwarzer Kasten, der am aktuellen Absatz verankert ist. Sie können es verschieben, die Größe ändern oder bei Bedarf später sogar drehen.
+> **Was die Zahlen bedeuten:** Aspose.Words verwendet Punkte (1 pt = 1/72 in). Passen Sie die Werte an Ihr Layout an; für eine typische A4‑Seite ist 200 pt eine angenehme Breite.
 
-![Rechteckform mit Schatten in einem Word-Dokument](/images/rectangle-shadow.png "Ein Word-Dokument, das eine Rechteckform mit einem grauen Schatten zeigt")
+## Schritt 3: **Wie man einen Schatten hinzufügt** – die Form hervorheben
 
-*Bild‑Alt‑Text: Rechteckform mit Schatten in einem Word-Dokument*
-
-## Schritt 3: Transparenz der Form festlegen
-
-Transparenz ist der „Durchsichtigkeit“-Grad der Füllung der Form. Aspose.Words verwendet eine `Transparency`‑Eigenschaft, die von `0.0` (undurchsichtig) bis `1.0` (vollständig transparent) reicht. Hier **setzen wir die Transparenz der Form** auf 40 %, damit der darunterliegende Text lesbar bleibt.
+Schatten geben einen visuellen Hinweis darauf, dass die Form „vom Blatt gehoben“ ist. Die `Shadow`‑Eigenschaft ermöglicht das Anpassen von Farbe, Abstand, Transparenz und Unschärfe.
 
 ```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Randfall:** Wenn Sie eine völlig unsichtbare Form benötigen, aber dennoch den Schatten anzeigen möchten, setzen Sie `Transparency` auf `1.0` und geben der Form eine nicht‑null Konturbreite.
+> **Warum Transparenz verwenden?** Ein vollständig undurchsichtiger Schatten kann hart wirken. Auf 0,4 zu setzen macht den Effekt dezent und professionell.
 
-## Schritt 4: Schatten konfigurieren
+## Schritt 4: Das Rechteck positionieren – Inline‑Fluss mit umgebendem Text
 
-Ein dezenter Drop‑Shadow verleiht Tiefe. Wir werden **die Schattenfarbe** auf ein mittleres Grau setzen, den Unschärferadius anpassen und ihn sowohl horizontal als auch vertikal um einige Punkte versetzen.
+Wenn Sie möchten, dass sich die Form wie ein Zeichen in einem Absatz verhält, setzen Sie ihr `WrapType` auf `Inline`. Das sorgt für ein vorhersehbares Layout, besonders wenn das Dokument später bearbeitet wird.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-> **Warum das wichtig ist:** Ein zu scharfer oder zu dunkler Schatten kann wie ein Druckfehler aussehen. Passen Sie `Blur` und `Transparency` an, bis es natürlich wirkt.
+> **Randfall:** Wenn das Rechteck über Text schweben soll (z. B. ein Wasserzeichen), ändern Sie `WrapType` zu `Square` oder `BehindText`.
 
-## Schritt 5: Word-Dokument speichern
+## Schritt 5: Die Form in den Dokumentenkörper einfügen
 
-Schließlich **speichern wir das Word-Dokument** auf der Festplatte. Die Methode `Save` ermittelt das Dateiformat automatisch anhand der Erweiterung; `.docx` ist das moderne OpenXML‑Format.
+Jetzt platzieren wir das Rechteck tatsächlich in den ersten Absatz. Wenn das Dokument noch keinen Inhalt hat, wird `FirstParagraph` automatisch erstellt.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 ```
 
-Falls der Ordner nicht existiert, wirft Aspose.Words eine `ArgumentException`. Stellen Sie sicher, dass der Pfad gültig ist, oder erstellen Sie das Verzeichnis vorher.
+> **Tipp:** Sie können auch zuerst einen neuen Absatz erstellen und dann die Form anhängen – nützlich, wenn Sie umgebenden Text benötigen.
 
-## Vollständiges funktionierendes Beispiel
+## Schritt 6: **Word‑Dokument speichern** – der letzte Schritt
 
-Unten finden Sie das komplette, sofort ausführbare Programm, das alle Schritte zusammenführt. Kopieren Sie dies in ein neues Konsolenprojekt und drücken Sie **F5**.
+Wenn alles bereit ist, ist das Speichern der Datei ein Einzeiler. Wählen Sie einen beliebigen Pfad; das Beispiel verwendet einen Platzhalter, den Sie durch Ihr eigenes Verzeichnis ersetzen sollten.
 
 ```csharp
-using System;
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Ergebnis:** Öffnen Sie die erzeugte *.docx* in Microsoft Word. Sie sehen ein schwarz‑schattiertes Rechteck, 200 pt breit und 100 pt hoch, das inline mit dem ersten Absatz sitzt.
+
+## Erwartete Ausgabe
+
+Wenn Sie **ShadowShape.docx** öffnen, zeigt das Dokument:
+
+- Ein einzelner Absatz, der eine rechteckige Form enthält.
+- Das Rechteck hat einen dezenten schwarzen Schatten, der um 5 pt versetzt ist.
+- Die Formgröße entspricht den in Schritt 2 festgelegten Abmessungen.
+- Kein zusätzlicher Text erscheint, es sei denn, Sie fügen ihn manuell hinzu.
+
+Wenn die Form nicht erscheint, überprüfen Sie, ob Sie die korrekte Aspose.Words‑Version referenziert haben und ob Ihre Lizenz (oder Testversion) aktiv ist.
+
+## Häufige Fragen & Variationen
+
+| Frage | Antwort |
+|----------|--------|
+| *Kann ich die Schattenfarbe zu etwas anderem als Schwarz ändern?* | Absolut—setzen Sie `rectangleShape.Shadow.Color = Color.Blue;` oder irgendeine `System.Drawing.Color`. |
+| *Was, wenn ich ein größeres Rechteck brauche?* | Passen Sie die Werte `Width` und `Height` an. Denken Sie daran, dass sie in Punkten angegeben sind; 72 pt = 1 in. |
+| *Ist es möglich, die Form an einer absoluten Position zu platzieren?* | Ja—verwenden Sie `WrapType = WrapType.Absolute` und setzen Sie die Eigenschaften `Top`/`Left`. |
+| *Funktioniert das mit .NET Core?* | Ja. Aspose.Words ist plattformübergreifend; installieren Sie einfach das NuGet‑Paket für .NET Standard. |
+| *Kann ich Text in das Rechteck einfügen?* | Nicht direkt; Sie müssten stattdessen eine `TextBox`‑Form einfügen. |
+
+## Vollständiges funktionierendes Beispiel (Kopieren‑Einfügen bereit)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Erwartetes Ergebnis
+Führen Sie das Programm aus, navigieren Sie zu `C:\Temp\ShadowShape.docx`, und Sie sehen das Rechteck mit einem Schatten genau wie beschrieben.
 
-Öffnen Sie `ShadowRectangle.docx` in Microsoft Word. Sie sollten ein hellgraues Rechteck mit einem weichen, leicht versetzten Schatten sehen, beide mit 40 % Transparenz gerendert. Die Form befindet sich auf einer leeren Seite, bereit für zusätzlichen Inhalt.
+## Fazit
 
-## Häufige Fragen & Variationen
+Sie wissen jetzt, wie man mit Aspose.Words **eine Rechteckform** in einer Word‑Datei erstellt, wie man **die Formgröße festlegt**, **einen Schatten hinzufügt** und schließlich **das Word‑Dokument speichert** mit den Änderungen. Der gesamte Prozess – von **how to create document** bis zum Persistieren des Ergebnisses – passt in ein paar Zeilen C# und lässt sich für komplexere Layouts erweitern.
 
-**Was, wenn ich eine andere Form benötige?**  
-Ersetzen Sie `ShapeType.Rectangle` durch einen anderen Enum‑Wert (`Ellipse`, `Triangle`, `Star` usw.). Der Rest des Codes bleibt unverändert.
+Bereit für die nächste Herausforderung? Versuchen Sie, das Rechteck durch eine Form mit abgerundeten Ecken zu ersetzen, experimentieren Sie mit verschiedenen Schattenfarben oder betten Sie die Form in eine Tabellenzelle ein. Jede Anpassung festigt die gleichen Kernkonzepte, die wir hier behandelt haben.
 
-**Kann ich die Konturfarbe ändern?**  
-Ja – verwenden Sie `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` und setzen Sie optional `rectangleShape.StrokeWeight = 1.5;`.
-
-**Wie platziere ich die Form an einer bestimmten Position auf der Seite?**  
-Setzen Sie `rectangleShape.WrapType = WrapType.None;` und passen Sie dann die Eigenschaften `rectangleShape.Left` und `rectangleShape.Top` an (Werte in Punkten).
-
-**Ist es möglich, Text in das Rechteck einzufügen?**  
-Absolut. Nach dem Erstellen der Form können Sie `rectangleShape.AppendChild(new Paragraph(document))` aufrufen und anschließend einen `Run` mit Ihrem Text hinzufügen. Denken Sie daran, die `rectangleShape.TextBox`‑Eigenschaften zu setzen, wenn Sie eine umfangreichere Formatierung wünschen.
-
-## Pro‑Tipps & Fallstricke
-
-- **Lizenz frühzeitig:** Wenn Sie vergessen, eine Lizenz anzuwenden, fügt Aspose.Words ein Wasserzeichen auf der ersten Seite ein, was beim Testen verwirrend sein kann.
-- **Performance‑Tipp:** Beim Erzeugen vieler Dokumente in einer Schleife verwenden Sie eine einzelne `Document`‑Instanz und rufen nach jedem Speichern `document.RemoveAllChildren();` auf, um übermäßigen GC‑Druck zu vermeiden.
-- **Schatten‑Sichtbarkeit:** Auf Bildschirmen mit niedriger Auflösung kann ein dezenter Schatten unsichtbar erscheinen. Erhöhen Sie `Blur` oder `OffsetX/Y` zum Debuggen und reduzieren Sie es anschließend für die Produktion.
-
-## Nächste Schritte
-
-Jetzt, da Sie wissen, wie man **eine Rechteckform erstellt**, **die Transparenz der Form festlegt**, **die Schattenfarbe setzt** und **das Word-Dokument speichert**, sollten Sie das Tutorial erweitern:
-
-- Mehrere Formen hinzufügen und gruppieren.
-- Das Rechteck in eine Tabellenzelle einfügen für ein Berichtslayout.
-- Die Form mit `DocumentBuilder.InsertHtml` kombinieren, um HTML‑gestylten Inhalt zu überlagern.
-- Andere visuelle Effekte wie `Glow` oder `Reflection` erkunden für reichhaltigere UI‑ähnliche Dokumente.
-
-Experimentieren Sie, brechen Sie Dinge und verfeinern Sie anschließend – die programmgesteuerte Dokumentenerstellung ist ein Spielplatz, an dem visuelles Design auf Code trifft.
-
----
-
-*Viel Spaß beim Coden! Wenn Sie auf Probleme stoßen, hinterlassen Sie unten einen Kommentar und wir helfen Ihnen gemeinsam weiter.*
+Wenn Ihnen diese Anleitung geholfen hat, teilen Sie sie, hinterlassen Sie einen Kommentar mit Ihren eigenen Variationen oder entdecken Sie unsere anderen Tutorials zur Word‑Automatisierung, wie das Einfügen von Bildern oder das Erzeugen von Tabellen mit Aspose.Words. Viel Spaß beim Coden!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

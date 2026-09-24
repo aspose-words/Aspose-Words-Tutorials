@@ -1,0 +1,7 @@
+Title: How to recover docx in Python using Aspose.Words
+Slug: how-to-recover-docx-in-python-using-aspose-words
+Category: document-operations
+ProcessedDate: 2026-08-11T08:09:16.068966
+SourceRepo: AI Search API
+Keywords: how to recover docx, open corrupted word document, load document with recovery, recover corrupted docx
+PRNumber: 250

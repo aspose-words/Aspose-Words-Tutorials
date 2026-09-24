@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein neues Word‑Dokument erstellt, ein Kontrollkästchen‑Formularfeld mit DocumentBuilder einfügt und die resultierende Datei speichert.
+//ExStepSummary:0: Erstellen Sie eine Variable für das Datenverzeichnis, instanziieren Sie ein Document und erzeugen Sie einen DocumentBuilder für dieses Dokument.
+//ExStepSummary:1: Rufen Sie `builder.InsertCheckBox` auf, um ein markiertes, aktiviertes Kontrollkästchen‑Formularfeld mit dem Namen \"CheckBox\" an der aktuellen Cursorposition hinzuzufügen.
+//ExStepSummary:2: Speichern Sie das geänderte Dokument mit `doc.Save` im angegebenen Ordner.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd
