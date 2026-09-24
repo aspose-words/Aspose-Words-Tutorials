@@ -104,6 +104,8 @@ Engedd szabadjára az Aspose.Words erejét Java-ban. Fődokumentum-beállításo
 Optimalizálja a dokumentumkezelést az Aspose.Words for Java segítségével. Tanulja meg, hogyan kell dolgozni a dokumentumok tulajdonságaival, hogyan adhat hozzá egyéni metaadatokat és sok mást ebben az átfogó oktatóanyagban.
 ### [Webbővítmények használata az Aspose.Words Java-ban](./using-web-extensions/)
 Dokumentumok fejlesztése webbővítményekkel az Aspose.Words for Java programban. Tanulja meg, hogyan integrálja zökkenőmentesen a webes tartalmakat. 
+### [Üres Word dokumentum létrehozása az Aspose.Words for Java segítségével](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Tanulja meg, hogyan hozhat létre üres Word dokumentumot az Aspose.Words for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

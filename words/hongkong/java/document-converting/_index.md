@@ -103,6 +103,9 @@ Learn how to convert Word documents to images using Aspose.Words for Java. Step-
 ### [使用 Aspose.Words 將 docx 另存為 markdown – 完整指南](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 了解如何使用 Aspose.Words for Java 將 docx 轉換為 markdown，提供完整步驟與範例代碼。
 
+### [如何使用 Aspose.Words for Java 將 docx 轉換為 markdown](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+了解如何使用 Aspose.Words for Java 將 docx 檔案轉換為 markdown 格式的完整步驟與範例。
+
 ## Frequently Asked Questions
 
 **Q:** *我可以將受密碼保護的 Word 檔案轉換為 PDF 嗎？*  

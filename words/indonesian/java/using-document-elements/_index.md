@@ -43,6 +43,8 @@ Kesimpulannya, menguasai manipulasi elemen dokumen menggunakan Aspose.Words untu
 Ingat, latihan akan menghasilkan kesempurnaan, dan dengan Aspose.Words untuk Java, Anda akan dapat membuat, memodifikasi, dan menyempurnakan dokumen layaknya seorang profesional dalam waktu singkat. Selamat membuat kode!
 
 ## Menggunakan Tutorial Elemen Dokumen
+### [Cara Mengatur Posisi Tombol dalam Dokumen Word dengan Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Pelajari cara menempatkan tombol di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 ### [Menggunakan Komentar di Aspose.Words untuk Java](./using-comments/)
 Pelajari cara menggunakan komentar di Aspose.Words untuk Java. Tutorial langkah demi langkah untuk menambahkan dan menyesuaikan komentar di dokumen Anda.
 ### [Menggunakan Fields di Aspose.Words untuk Java](./using-fields/)
@@ -71,6 +73,10 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Menyisipkan diagram pai di Word dengan Java – panduan lengkap](./insert-pie-chart-word-in-java-complete-guide/)
+Pelajari cara menambahkan diagram pai ke dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
+### [Cara Membuat Diagram di Word dengan Java dan Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Pelajari cara membuat diagram di dokumen Word menggunakan Aspose.Words untuk Java dalam tutorial langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,7 +70,13 @@
 ### [การใช้การแก้ไขใน Aspose.Words สำหรับ Java](./using-revisions/)
 เรียนรู้การใช้ Aspose.Words สำหรับการควบคุมการแก้ไขของ Java อย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา เพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [การใช้ Sections ใน Aspose.Words สำหรับ Java](./using-sections/)
-สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆ ด้วยตัวอย่างโค้ด
+สำรวจ Aspose.Words สำหรับ Java: คู่มือที่ครอบคลุมเกี่ยวกับการใช้ส่วนต่างๆ เพิ่ม ลบ ผนวก โคลนส่วนต่างๆด้วยตัวอย่างโค้ด
+### [วิธีสร้างแผนภูมิใน Word ด้วย Java และ Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+เรียนรู้วิธีสร้างแผนภูมิในเอกสาร Word ด้วย Java และ Aspose.Words อย่างละเอียด
+### [การแทรกแผนภูมิวงกลมใน Word ด้วย Java – คู่มือฉบับสมบูรณ์](./insert-pie-chart-word-in-java-complete-guide/)
+เรียนรู้ขั้นตอนการแทรกแผนภูมิวงกลมในเอกสาร Word ด้วย Java อย่างละเอียดและครบถ้วน
+### [วิธีตั้งตำแหน่งปุ่มในเอกสาร Word ด้วย Java](./how-to-set-button-position-in-a-word-document-with-java/)
+เรียนรู้วิธีกำหนดตำแหน่งของปุ่มในเอกสาร Word ด้วย Java อย่างละเอียดในบทช่วยสอนนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

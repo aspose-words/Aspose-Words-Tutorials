@@ -68,6 +68,8 @@ Lär dig hur du enkelt extraherar innehåll från dokument med Aspose.Words för
 Lär dig hur du effektivt extraherar innehåll från Word-dokument med Aspose.Words för Java. Utforska hjälpmetoder, anpassad formatering och mer i den här omfattande guiden.
 ### [Hitta och ersätta text i Aspose.Words för Java](./finding-and-replacing-text/)
 Lär dig hur du hittar och ersätter text i Word-dokument med Aspose.Words för Java. Steg-för-steg-guide med kodexempel. Förbättra dina kunskaper i hantering av Java-dokument.
+### [Hur man skapar ett tomt Word-dokument med Aspose.Words för Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Skapa ett tomt Word-dokument med Aspose.Words för Java i några enkla steg.
 ### [Ta bort innehåll från dokument i Aspose.Words för Java](./removing-content-from-documents/)
 Lär dig hur du tar bort innehåll från Word-dokument i Java med Aspose.Words för Java. Ta bort sidbrytningar, avsnittsbrytningar och mer. Optimera din dokumentbehandling.
 ### [Använda bokmärken i Aspose.Words för Java](./using-bookmarks/)

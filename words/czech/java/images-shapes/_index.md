@@ -37,6 +37,12 @@ Naučte se, jak generovat vysoce kvalitní miniatury a rastrové obrázky vlastn
 ### [Přidání stínu k tvaru ve Wordu – kompletní průvodce Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Naučte se, jak přidat stín k tvarům v dokumentech Word pomocí Aspose.Words pro Javu.
 
+### [Jak vytvořit prázdný dokument Word a seskupit tvary v Javě](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Naučte se, jak vytvořit prázdný dokument Word a seskupit tvary pomocí Aspose.Words pro Javu.
+
+### [Vytvoření dokumentu Word s skrytým obrázkem v Javě pomocí Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Naučte se, jak vložit skrytý obrázek do dokumentu Word v Javě pomocí Aspose.Words.
+
 ## Další zdroje
 - [Dokumentace k Aspose.Words pro Javu](https://reference.aspose.com/words/java/)
 - [Referenční příručka k Aspose.Words pro Java API](https://reference.aspose.com/words/java/)

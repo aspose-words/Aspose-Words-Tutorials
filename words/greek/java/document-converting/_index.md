@@ -107,6 +107,9 @@ weight: 14
 ### [Αποθήκευση docx ως markdown με Aspose.Words – Πλήρης Οδηγός](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία docx σε μορφή markdown χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα οδηγίες.
 
+### [Πώς να μετατρέψετε docx σε markdown με Aspose.Words for Java](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+Μάθετε πώς να μετατρέψετε αρχεία docx σε markdown με το Aspose.Words for Java σε λίγα βήματα.
+
 ## Συχνές Ερωτήσεις
 
 **Q:** *Μπορώ να μετατρέψω αρχεία Word με κωδικό πρόσβασης σε PDF;*  

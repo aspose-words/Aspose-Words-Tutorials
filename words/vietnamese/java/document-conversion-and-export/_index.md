@@ -138,6 +138,9 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 ### [Tạo PDF có khả năng truy cập từ Word bằng Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu Word bằng Aspose.Words cho Java.
 
+### [Cách lưu Markdown thành DOCX bằng Aspose.Words cho Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang DOCX bằng Aspose.Words for Java.
+
 ## Câu hỏi thường gặp
 
 **Q: Làm thế nào để thêm watermark vào PDF hiện có bằng Aspose.Words?**  

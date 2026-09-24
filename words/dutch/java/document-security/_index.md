@@ -31,6 +31,8 @@ Door documentbeveiliging onder de knie te krijgen met Aspose.Words voor Java, ku
 ## Tutorials over documentbeveiliging
 ### [Hoe u uw documenten veilig en beveiligd houdt](./keep-documents-safe-secure/)
 Beveilig uw documenten met Aspose.Words voor Java. Versleutel, bescherm en voeg moeiteloos digitale handtekeningen toe. Houd uw gegevens veilig.
+### [Hoe u een digitale handtekening aan een Word-document toevoegt](./how-to-add-a-digital-signature-to-a-word-document/)
+Leer hoe u met Aspose.Words voor Java een digitale handtekening aan een Word-document kunt toevoegen voor authenticatie en integriteit.
 ### [Documenten beveiligen met wachtwoorden](./securing-documents-passwords/)
 Ontdek hoe u documenten met wachtwoorden kunt beveiligen met Aspose.Words voor Java. Deze stapsgewijze handleiding bevat broncode en tips van experts. Houd uw gegevens veilig.
 ### [Documentmachtigingen beheren](./managing-document-permissions/)

@@ -36,13 +36,23 @@ Seguendo questi tutorial, non solo imparerai le basi della manipolazione degli e
 
 ## Inizia oggi
 
-Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverai spiegazioni dettagliate, esempi di codice e riferimenti API che ti guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
+Pronti per iniziare? Andate su [Documentazione dell'API Aspose.Words per Java](https://reference.aspose.com/words/java/) per accedere alla documentazione completa. Troverete spiegazioni dettagliate, esempi di codice e riferimenti API che vi guideranno attraverso ogni aspetto della manipolazione degli elementi del documento.
 
 In conclusione, padroneggiare la manipolazione degli elementi dei documenti utilizzando Aspose.Words per Java è un'abilità preziosa per qualsiasi sviluppatore Java che lavori con i documenti. Questi tutorial offrono un percorso chiaro e strutturato per aiutarti a diventare esperto in questo ambito. Quindi, rimboccati le maniche, immergiti nei tutorial e sfrutta appieno il potenziale di Aspose.Words per Java nei tuoi progetti di elaborazione di documenti.
 
 Ricorda, la pratica rende perfetti, e con Aspose.Words per Java, imparerai a creare, modificare e migliorare documenti come un professionista in pochissimo tempo. Buona programmazione!
 
 ## Tutorial sull'utilizzo degli elementi del documento
+
+### [Come impostare la posizione del pulsante in un documento Word con Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Impara a impostare la posizione di un pulsante in un documento Word usando Java.
+
+### [Come creare un grafico in Word con Java e Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Scopri come generare grafici dinamici in documenti Word usando Java e Aspose.Words.
+
+### [Inserire un grafico a torta in Word con Java – guida completa](./insert-pie-chart-word-in-java-complete-guide/)
+Scopri come inserire un grafico a torta in un documento Word usando Java.
+
 ### [Utilizzo dei commenti in Aspose.Words per Java](./using-comments/)
 Scopri come utilizzare i commenti in Aspose.Words per Java. Tutorial passo passo per aggiungere e personalizzare i commenti nei tuoi documenti.
 ### [Utilizzo dei campi in Aspose.Words per Java](./using-fields/)

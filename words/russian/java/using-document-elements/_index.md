@@ -71,6 +71,12 @@
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Установка позиции кнопки в документе Word с помощью Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Узнайте, как установить позицию кнопки в документе Word с помощью Aspose.Words для Java.
+### [Как создать диаграмму в Word с помощью Java и Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Узнайте, как создавать диаграммы в документах Word с помощью Java и Aspose.Words. Пошаговое руководство по добавлению графиков.
+### [Вставка круговой диаграммы в Word с Java – полное руководство](./insert-pie-chart-word-in-java-complete-guide/)
+Подробное руководство по вставке круговой диаграммы в документ Word с использованием Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

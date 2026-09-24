@@ -71,6 +71,11 @@ Aspose.Words for JavaでOLEオブジェクトとActiveXコントロールの使�
 Aspose.Words for Java のリビジョン管理を効率的に活用する方法を学びましょう。開発者向けのステップバイステップガイド。ドキュメント管理を最適化しましょう。
 ### [Aspose.Words for Java でのセクションの使用](./using-sections/)
 Aspose.Words for Java を詳しく見る：セクションの使い方に関する包括的なガイド。コード例を使って、セクションの追加、削除、追加、複製の方法を学びます。
+### [JavaでWord文書のボタン位置を設定する方法](./how-to-set-button-position-in-a-word-document-with-java/)
+Javaを使用してWord文書内のボタンの位置を設定する手順を学びます。
+### [JavaでWord文書にチャートを作成する方法](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Aspose.Words for Java を使用して、Word 文書にチャートを挿入し、カスタマイズする手順を学びましょう。
+### [Javaで円グラフを挿入する完全ガイド](./insert-pie-chart-word-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Die Dokumentenbearbeitung mit Aspose.Words für Java ist eine wertvolle Fähigke
 Beginnen Sie Ihre Lernreise noch heute und erschließen Sie sich die endlosen Möglichkeiten der Dokumentbearbeitung mit Aspose.Words für Java.
 
 ## Tutorials zur Dokumentbearbeitung
+### [Erstellen eines leeren Word-Dokuments mit Aspose.Words für Java](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Erfahren Sie, wie Sie mit Aspose.Words für Java ein leeres Word-Dokument erstellen und initialisieren.
 ### [Verwenden von Bereinigungsoptionen in Aspose.Words für Java](./using-cleanup-options/)
 Verbessern Sie die Übersichtlichkeit Ihrer Dokumente mit den Bereinigungsoptionen von Aspose.Words für Java. Erfahren Sie, wie Sie leere Absätze, ungenutzte Bereiche und mehr entfernen.
 ### [Verwenden von Feldern in Aspose.Words für Java](./using-fields/)

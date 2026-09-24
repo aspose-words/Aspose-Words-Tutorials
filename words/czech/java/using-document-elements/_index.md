@@ -53,6 +53,10 @@ Prozkoumejte formátování písma v Aspose.Words pro Javu: velikost, styl, barv
 Naučte se efektivně používat poznámky pod čarou a vysvětlivky v Aspose.Words pro Javu. Zlepšete si své dovednosti formátování dokumentů ještě dnes!
 ### [Používání formulářových polí v Aspose.Words pro Javu](./using-form-fields/)
 "Naučte se používat Aspose.Words pro Javu k vytváření interaktivních dokumentů Word s formulářovými poli. Začněte hned teď!"
+### [Jak vytvořit graf ve Wordu pomocí Javy a Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a vložit graf do dokumentu Word.
+### [Vložení koláčového grafu do Wordu v Javě – kompletní průvodce](./insert-pie-chart-word-in-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu vytvořit a vložit koláčový graf do dokumentu Word.
 ### [Použití HarfBuzz v Aspose.Words pro Javu](./using-harfbuzz/)
 Naučte se používat HarfBuzz pro pokročilé tvarování textu v Aspose.Words pro Javu. Vylepšete vykreslování textu ve složitých skriptech s tímto podrobným návodem.
 ### [Používání záhlaví a zápatí v Aspose.Words pro Javu](./using-headers-and-footers/)
@@ -71,6 +75,8 @@ Naučte se používat objekty OLE a ovládací prvky ActiveX v Aspose.Words pro 
 Naučte se efektivně používat revizní prvky Aspose.Words pro Javu. Podrobný návod pro vývojáře. Optimalizujte správu dokumentů.
 ### [Používání sekcí v Aspose.Words pro Javu](./using-sections/)
 Prozkoumejte Aspose.Words pro Javu: Komplexní průvodce používáním sekcí. Přidávání, mazání, přidávání a klonování sekcí s příklady kódu.
+### [Jak nastavit pozici tlačítka ve Word dokumentu pomocí Javy](./how-to-set-button-position-in-a-word-document-with-java/)
+Naučte se, jak pomocí Aspose.Words pro Javu nastavit pozici tlačítka v dokumentu Word.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

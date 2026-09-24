@@ -37,6 +37,11 @@
 ### [إضافة ظل إلى الشكل في Word – دليل Aspose.Words الكامل](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 تعلم كيفية إضافة ظل إلى الأشكال في مستندات Word باستخدام Aspose.Words لجافا خطوة بخطوة.
 
+### [كيفية إنشاء مستند Word فارغ وتجميع الأشكال في Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+
+### [إنشاء مستند Word بصورة مخفية في Java باستخدام Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+دليل لإنشاء مستند Word يحتوي على صورة مخفية باستخدام Aspose.Words لجافا.
+
 ## موارد إضافية
 - [توثيق Aspose.Words لـ Java](https://reference.aspose.com/words/java/)
 - [مرجع Aspose.Words لواجهة برمجة تطبيقات Java](https://reference.aspose.com/words/java/)
