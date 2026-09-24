@@ -1,26 +1,27 @@
 ---
 category: general
-date: 2026-02-24
-description: Aspose PDF kaydetme seçeneklerini kullanarak şekilleri dışa aktarırken
-  Word'ü PDF olarak kaydetmeyi ve docx'i PDF'ye dönüştürmeyi öğrenin. Adım adım C#
-  kodu dahil.
+date: 2026-01-13
+description: Aspose Words kullanarak Word'ü anında PDF olarak kaydedin. docx'i PDF'ye
+  dönüştürmeyi öğrenin, yüzen şekilleri yönetin ve Aspose PDF kaydetme seçeneklerini
+  dakikalar içinde ustalaşın.
 draft: false
 keywords:
 - save word as pdf
 - convert docx to pdf
-- how to convert docx
-- how to export shapes
+- convert word document pdf
+- aspose word to pdf
 - aspose pdf save options
 language: tr
-og_description: Aspose.Words kullanarak C#'ta Word belgesini PDF olarak kaydedin.
-  Bu kılavuz, docx dosyasını PDF'ye dönüştürmeyi ve PDF kaydetme seçenekleriyle yüzen
-  şekilleri dışa aktarmayı gösterir.
-og_title: Aspose.Words ile Word'ü PDF olarak kaydedin – Tam C# Rehberi
+og_description: Aspose Words kullanarak Word'ü anında PDF olarak kaydedin. docx'i
+  PDF'ye dönüştürmeyi, yüzen şekilleri yönetmeyi öğrenin ve Aspose PDF kaydetme seçeneklerinde
+  uzmanlaşın.
+og_title: Aspose Words ile Word’ü PDF olarak kaydedin – Tam C# Rehberi
 tags:
 - Aspose.Words
-- C#
 - PDF conversion
-title: Aspose.Words ile Word'ü PDF olarak kaydedin – Tam C# Kılavuzu
+- C#
+- Document processing
+title: Aspose Words ile Word'ü PDF Olarak Kaydet – Tam C# Rehberi
 url: /tr/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -28,226 +29,176 @@ url: /tr/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word'ü PDF Olarak Kaydet – Tam Özellikli C# Öğreticisi
+# Aspose Words ile Word'ü PDF Olarak Kaydet – Tam C# Kılavuzu
 
-Hiç **Word'ü PDF olarak kaydetmek** istediğinizde, belgenizde yüzen görseller veya metin kutuları olduğunda bir engelle karşılaştınız mı? Tek başınıza değilsiniz. Gerçek dünyadaki birçok projede—sözleşme oluşturucular, raporlama araçları veya e‑öğrenme platformları gibi—bu küçük yüzen şekiller, kütüphaneye nasıl işleneceğini söylemediğiniz sürece PDF düzenini bozar.
+Düzen bütünlüğünü kaybetmeden **Word'ü PDF olarak kaydetmeyi** hiç merak ettiniz mi? Belki birkaç ücretsiz dönüştürücü denediniz ve yanlış konumlandırılmış görseller ya da bozuk tablolar elde ettiniz. Bu hayal kırıklığı, özellikle etrafta zıplamayı seven yüzen şekillerle uğraşırken çok yaygındır.  
 
-İyi haber? Aspose.Words ile tek bir çağrıda **docx'i PDF'e dönüştürebilir** ve `PdfSaveOptions.ExportFloatingShapesAsInlineTag` bayrağı sayesinde bu şekillerin nasıl dışa aktarılacağını kontrol edebilirsiniz. Bu öğreticide, bir `.docx` dosyasını yüklemekten, düzeninizi koruyan temiz bir PDF üretmeye kadar tüm süreci adım adım göstereceğiz.
+İyi haber? Aspose Words ile **docx'i pdf'ye dönüştürebilir** tek bir temiz kod satırıyla, hatta kütüphaneye bu yüzen şekilleri satır içi nesneler olarak ele almasını söyleyebilirsiniz. Bu öğreticide, bir DOCX dosyasını yüklemekten *aspose pdf save options* ayarlarını ince ayarlamaya kadar tüm süreci adım adım göstereceğiz, böylece son PDF, kaynak Word belgesiyle tam olarak aynı görünecek.
 
-Bu rehberin sonunda şunları yapabilecek:
-* Yüzen şekiller içeren bir Word belgesi yükleyin.  
-* **Aspose PDF kaydetme seçeneklerini** yapılandırarak şekillerin satır içi etiketler haline gelmesini sağlayın.  
-* Belgeyi sadece birkaç C# satırıyla PDF olarak kaydedin.
+## Neler Öğreneceksiniz
 
-Harici betikler yok, sihir yok—herhangi bir .NET projesine ekleyebileceğiniz sağlam, üretim‑hazır kod.
+- C#'ta Aspose Words kullanarak **Word'ü PDF olarak kaydetmeyi** nasıl yapacağınızı.
+- Varsayılan yüzen şekil işleme ile `ExportFloatingShapesAsInlineTag` seçeneği arasındaki fark.
+- Görseller, metin kutuları ve diğer yüzen öğeler içeren Word belgelerini dönüştürmek için gerçek dünya ipuçları.
+- Şifre korumalı PDF'ler veya yüksek çözünürlüklü görüntü dışa aktarımı gibi diğer senaryoları kapsayacak şekilde çözümü nasıl genişleteceğinizi.
 
-## Ön Koşullar
+> **Ön Koşullar**  
+> • .NET 6.0 veya daha yeni bir sürüm (kod .NET Core, .NET Framework ve .NET 5+ üzerinde çalışır).  
+> • Geçerli bir Aspose Words for .NET lisansı (veya ücretsiz değerlendirme modunu kullanabilirsiniz).  
+> • C# ve Visual Studio'ya (veya tercih ettiğiniz herhangi bir IDE'ye) temel aşinalık.  
 
-İçeriğe girmeden önce, aşağıdakilerin elinizde olduğundan emin olun:
+Bu maddeleri işaretlediyseniz, derinlemesine incelemeye hazırsınız.
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| **.NET 6.0+** (or .NET Framework 4.7.2) | Aspose.Words her ikisini destekler; daha yeni çalışma zamanları daha iyi performans sağlar. |
-| **Aspose.Words for .NET** NuGet package (latest version) | `Document`, `PdfSaveOptions` ve şekil dışa aktarma bayrağını sağlar. |
-| A **sample DOCX** with floating shapes (images, text boxes, or SmartArt) | Dışa aktarım davranışını canlı olarak görmek için. |
-| An IDE like Visual Studio 2022 (optional but handy) | Hata ayıklamayı ve test etmeyi kolaylaştırır. |
+![save word as pdf example](/images/save-word-as-pdf.png "Illustration of a Word document being saved as PDF using Aspose")
 
-Henüz NuGet paketini eklemediyseniz, şu komutu çalıştırın:
+## Adım 1: Projenizi Kurun ve Aspose Words'ı Yükleyin
+
+Başlamak için yeni bir konsol projesi oluşturun (veya kodu mevcut bir uygulamaya ekleyin). Ardından Aspose Words NuGet paketini alın:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Hepsi bu—ekstra DLL yok, COM etkileşimi yok, sadece temiz bir yönetilen bağımlılık.
+> **Pro tip:** En son kararlı sürümü (bu yazının yazıldığı tarih itibarıyla 24.9) kullanarak hata düzeltmelerinden ve en yeni *aspose pdf save options*'dan yararlanın.
 
-## Adım 1: Kaynak Word Belgesini Yükleyin
+## Adım 2: Yüzen Şekiller İçeren Kaynak DOCX'i Yükleyin
 
-İlk yapmanız gereken, Aspose.Words'e dönüştürmek istediğiniz dosyanın bir referansını vermektir. Bu adım basittir, ancak `FileStream` yerine `Document` kullanmamızın nedenini belirtmek gerekir.
+Yüzen şekiller—metin kutuları, SmartArt veya bir paragraf'a sabitlenmiş görseller—PDF'ye dönüştürürken düzen sorunlarına yol açabilir. İlk olarak, Word dosyasını yüklüyoruz:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Path to the input DOCX – replace with your actual location
-string inputPath = @"C:\Docs\input.docx";
-
-// Load the document into memory
-Document doc = new Document(inputPath);
-```
-
-**Neden önemli:**  
-`Document`, DOCX yapısını bir kez ayrıştırır ve bellekte tutar, böylece gerçek dönüşümden önce ayarları (örneğin şekil işleme) değiştirebilirsiniz. Büyük dosyaları akış olarak okursanız, imha işlemini manuel olarak yönetmeniz gerekir—bu, açıklık açısından burada kaçındığımız bir durumdur.
-
-## Adım 2: PDF Kaydetme Seçeneklerini Yapılandırın – Yüzen Şekilleri Satır İçi Etiketler Olarak Dışa Aktarın
-
-Varsayılan olarak Aspose.Words orijinal düzeni korumaya çalışır, bu da yüzen şekillerin PDF içinde *yüzen* kalması anlamına gelir. Bu genellikle içerik çakışmalarına veya yanlış konumlanmış görsellere yol açar. `ExportFloatingShapesAsInlineTag` seçeneği, motorun bu şekilleri satır içi öğeler olarak ele almasını sağlar ve etkili bir şekilde metin akışına “düzleştirir”.
-
-```csharp
-// Create a PdfSaveOptions instance with the desired flag
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+class Program
 {
-    // When true, floating shapes become <inline> tags in the PDF XML
-    ExportFloatingShapesAsInlineTag = true
-};
-```
-
-**Bunu etkinleştirmeniz için nedenler:**  
-* **Tutarlılık** – Satır içi etiketler, görsel görünümün Word görünümüyle eşleşmesini garanti eder.  
-* **Uyumluluk** – Bazı PDF görüntüleyiciler yüzen nesneleri yanlış yorumlayarak render hatalarına neden olur.  
-* **Aranabilirlik** – Satır içi etiketler, şeklin alt metnini çevreleyen paragrafla ilişkilendirerek erişilebilirliği artırır.
-
-Bu davranışa *ihtiyacınız* yoksa, bayrağı sadece `false` olarak ayarlayın veya atlayın; varsayılan değer `false`'tur.
-
-## Adım 3: Belgeyi PDF Olarak Kaydedin – Yapılandırılmış Seçenekleri Kullanarak
-
-Belge yüklendi ve seçenekler ayarlandığına göre, son adım PDF'i diske yazan tek satırlık bir komuttur.
-
-```csharp
-// Destination path for the PDF
-string outputPath = @"C:\Docs\output.pdf";
-
-// Save the document with the custom PDF options
-doc.Save(outputPath, pdfOptions);
-```
-
-Kaydetme işlemi tamamlandığında, hedef klasörde `output.pdf` dosyasını bulacaksınız. Herhangi bir PDF görüntüleyicide açın ve daha önce yüzen tüm şekillerin artık metin akışının bir parçası olduğunu, düzeni ekstra bozulma olmadan koruduğunu göreceksiniz.
-
-### Beklenen Sonuç
-
-* PDF, **Print Layout** modunda görüntülendiğinde Word belgesiyle aynı görünüme sahiptir.  
-* Yüzen görseller veya metin kutuları **satır içi** olarak görünür, yani çevredeki metni daha sonra düzenlerseniz paragrafla birlikte hareket eder.  
-* PDF artık ayrı yüzen nesneler saklamadığından dosya boyutu genellikle birkaç kilobyte daha küçüktür.
-
-## Tam, Çalıştırılabilir Örnek
-
-Aşağıda, bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz tam program bulunmaktadır. Hata yönetimi, yorumlar ve dönüşümün başarılı olduğunu doğrulayan küçük bir yardımcı içerir.
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToPdfDemo
-{
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Path to your input DOCX file
+        string inputPath = @"C:\Docs\input.docx";
+
+        // Load the document into memory
+        Document doc = new Document(inputPath);
+```
+
+> **Neden önemli:** Belgeyi yüklemek, Aspose Words'a iç düğüm ağacına tam erişim sağlar; bu, daha sonra *aspose pdf save options*'ı ince ayarlamak için gereklidir.
+
+## Adım 3: PDF Kaydetme Seçeneklerini Yüzen Şekilleri Satır İçi Olarak İşleyecek Şekilde Yapılandırın
+
+Varsayılan olarak, Aspose Words yüzen şekillerin tam konumunu korumaya çalışır, bu da bazen PDF'de üst üste binen öğelere yol açar. `ExportFloatingShapesAsInlineTag` ayarı bu şekilleri satır içi hâle getirerek temiz bir düzen garantiler.
+
+```csharp
+        // Create PDF save options
+        PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            // ---------------------------------------------------------
-            // 1️⃣  Define input and output paths – adjust to your environment
-            // ---------------------------------------------------------
-            string inputPath = @"C:\Docs\input.docx";
-            string outputPath = @"C:\Docs\output.pdf";
+            // This option converts all floating shapes to inline tags
+            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.AsInline
+        };
+```
 
-            try
-            {
-                // ---------------------------------------------------------
-                // 2️⃣  Load the DOCX file into an Aspose.Words Document object
-                // ---------------------------------------------------------
-                Document doc = new Document(inputPath);
-                Console.WriteLine("✅ Loaded DOCX successfully.");
+> **Arka planda neler oluyor?** `ExportFloatingShapesAsInlineTag` `AsInline` olarak ayarlandığında, Aspose Words dönüşüm hattı sırasında her yüzen şekli bir `<w:inline>` etiketiyle sarar. PDF oluşturucu daha sonra bunları normal metin akışları gibi işler ve “zıplama” etkisini ortadan kaldırır.
 
-                // ---------------------------------------------------------
-                // 3️⃣  Set up PDF save options – export floating shapes as inline tags
-                // ---------------------------------------------------------
-                PdfSaveOptions pdfOptions = new PdfSaveOptions
-                {
-                    ExportFloatingShapesAsInlineTag = true
-                };
-                Console.WriteLine("🔧 Configured PDF save options (export floating shapes).");
+## Adım 4: Yapılandırılmış Seçenekleri Kullanarak Belgeyi PDF Olarak Kaydedin
 
-                // ---------------------------------------------------------
-                // 4️⃣  Save the document as PDF using the options above
-                // ---------------------------------------------------------
-                doc.Save(outputPath, pdfOptions);
-                Console.WriteLine($"📄 PDF saved to: {outputPath}");
+Şimdi PDF dosyasını diske yazıyoruz. Aynı satır Windows, Linux veya macOS'ta çalışır.
 
-                // ---------------------------------------------------------
-                // 5️⃣  Quick verification – check file existence & size
-                // ---------------------------------------------------------
-                var info = new System.IO.FileInfo(outputPath);
-                Console.WriteLine($"✔️ PDF exists: {info.Exists}, Size: {info.Length / 1024} KB");
-            }
-            catch (Exception ex)
-            {
-                // Friendly error message – helps with debugging
-                Console.WriteLine($"❌ An error occurred: {ex.Message}");
-            }
-        }
+```csharp
+        // Destination PDF path
+        string outputPath = @"C:\Docs\output.pdf";
+
+        // Save the document as PDF with our custom options
+        doc.Save(outputPath, pdfOptions);
+
+        Console.WriteLine($"✅ Successfully saved Word as PDF: {outputPath}");
     }
 }
 ```
 
-**Çalıştırın:**  
-Proje klasörünüzden `dotnet run` komutunu çalıştırın. Her şey doğru bir şekilde bağlandıysa, konsol başarı mesajları yazdıracak ve PDF, kaynak DOCX'inizin yanında görünecektir.
+Programı çalıştırdığınızda, tüm yüzen şekiller satır içi görünecek ve Word'de gördüğünüz görsel düzenle eşleşen `output.pdf` oluşturulur.
 
-## Kenar Durumlarını ve Yaygın Varyasyonları Ele Alma
+## Adım 5: Sonucu Doğrulayın ve Yaygın Kenar Durumlarıyla Baş Edin
 
-### 1️⃣ Bir Partide Birden Çok Dosyayı Dönüştürme
+### PDF'yi Doğrulama
 
-Bir klasördeki tüm dosyalar için **docx'i pdf'e dönüştürmeniz** gerekiyorsa, mantığı bir `foreach` döngüsü içinde sarın:
+Oluşturulan PDF'yi herhangi bir görüntüleyicide (Adobe Reader, Chrome vb.) açın. Şunları kontrol edin:
+
+- Metin kutuları ve görseller çevre metinle hizalanmış olsun.
+- Üst üste binen veya kesilmiş içerik olmasın.
+- Sayfa sayısı orijinal Word dosyasıyla eşleşsin.
+
+### Kenar Durumu 1 – Yüksek Çözünürlüklü Görseller
+
+DOCX'iniz yüksek çözünürlüklü resimler içeriyorsa, bu kaliteyi korumak isteyebilirsiniz. `ImageCompression` özelliğini ayarlayın:
 
 ```csharp
-string sourceFolder = @"C:\Docs\Batch";
-string[] docxFiles = System.IO.Directory.GetFiles(sourceFolder, "*.docx");
+pdfOptions.ImageCompression = PdfImageCompression.Jpeg;
+pdfOptions.JpegQuality = 100; // Max quality
+```
+
+### Kenar Durumu 2 – Şifre Koruması Olan PDF'ler
+
+Çıktıyı güvence altına almak için bir şifre ekleyin:
+
+```csharp
+pdfOptions.EncryptionDetails = new PdfEncryptionDetails(
+    userPassword: "user123",
+    ownerPassword: "owner456",
+    permissions: PdfPermissionsFlags.Print);
+```
+
+### Kenar Durumu 3 – Büyük Belgeler
+
+Büyük dosyalar için RAM kullanımını azaltmak amacıyla `MemoryOptimization` özelliğini etkinleştirin:
+
+```csharp
+pdfOptions.MemoryOptimization = true;
+```
+
+Bu ince ayarlamaların her biri, daha geniş *aspose pdf save options* paketinin bir parçasıdır ve size son PDF üzerinde ayrıntılı kontrol sağlar.
+
+## Adım 6: Çözümü Genişletin – Toplu Olarak Birden Çok Dosyayı Dönüştürme
+
+Genellikle onlarca dosya için **docx'i pdf'ye dönüştürmeniz** gerekir. Mantığı bir döngü içinde sarın:
+
+```csharp
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
 
 foreach (var file in docxFiles)
 {
     Document batchDoc = new Document(file);
-    string pdfName = System.IO.Path.ChangeExtension(file, ".pdf");
-    batchDoc.Save(pdfName, pdfOptions);
+    string pdfFile = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfFile, pdfOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(pdfFile)}");
 }
 ```
 
-### 2️⃣ Orijinal Dosya Adlarını Korumak
+Bu desen güzel bir ölçeklenebilirlik sağlar ve tüm çıktılarda tutarlılık için aynı *aspose pdf save options*'ı tekrar kullanır.
 
-Yüklemeleri alan bir hizmet oluştururken, orijinal dosya adını korumak isteyebilirsiniz:
+## Sıkça Sorulan Sorular (SSS)
 
-```csharp
-string originalName = Path.GetFileNameWithoutExtension(uploadedFile);
-string pdfPath = Path.Combine(outputDir, $"{originalName}.pdf");
-doc.Save(pdfPath, pdfOptions);
-```
+**S: Bu .doc (eski) dosyalarla çalışır mı?**  
+C: Kesinlikle. Aspose Words `.doc`, `.docx`, `.rtf` ve birçok diğer formatı destekler. Dosya yolunu `new Document()`'a verin, aynı PDF seçenekleri uygulanır.
 
-### 3️⃣ Şifreli veya Parola‑Koruması Olan DOCX ile Baş Etme
+**S: PDF'nin orijinal yüzen şekil konumlarını koruması gerektiğinde ne yapmalıyım?**  
+C: `ExportFloatingShapesAsInlineTag` ayarını atlayın veya `ExportFloatingShapesAsInlineTag.AsFloating` olarak ayarlayın. Bu, Aspose Words'a orijinal düzeni korumasını söyler; karmaşık tasarımlar için tercih edilebilir.
 
-Aspose.Words, bir parola sağlayarak şifreli dosyaları açabilir:
+**S: Orijinal DOCX'i PDF içinde gömmenin bir yolu var mı?**  
+C: Evet. `PdfSaveOptions.EmbeddedFiles.Add(new EmbeddedFile("input.docx", File.ReadAllBytes("input.docx")));` kullanın. Bu, kullanıcıların çıkarabileceği bir PDF eki oluşturur.
 
-```csharp
-LoadOptions loadOpts = new LoadOptions { Password = "MySecret" };
-Document protectedDoc = new Document(inputPath, loadOpts);
-protectedDoc.Save(outputPath, pdfOptions);
-```
+## Özet
 
-### 4️⃣ Satır İçi Etiketler **İstemediğiniz** Durumlar
+Sadece birkaç C# satırıyla artık **Word'ü PDF olarak güvenilir bir şekilde kaydetmeyi** biliyorsunuz, belgeleriniz zorlayıcı yüzen şekiller içerse bile. `ExportFloatingShapesAsInlineTag` bayrağını ve diğer *aspose pdf save options*'ı kullanarak dönüşüm kalitesi, güvenlik ve performans üzerinde tam kontrol elde edersiniz.
 
-Bazen gerçekten yüzen şekillerin yüzen kalmasını isteyebilirsiniz (ör. bir broşür düzeni). Bu durumda, sadece bayrağı atlayın veya `false` olarak ayarlayın. Kodun geri kalanı aynı kalır.
+> **Özet:** İster bir belge‑oluşturma hizmeti geliştiriyor olun, rapor dağıtımını otomatikleştiriyor olun ya da sadece toplu dönüşüm aracına ihtiyacınız olsun, Aspose Words size üretim‑hazır, lisans‑ücretsiz (değerlendirme) bir yol sunar ve **docx'i pdf'ye dönüştürür**; sonuçlar öngörülebilir olur.
 
-## Profesyonel İpuçları ve Dikkat Edilmesi Gereken Tuzaklar
+### Sonraki Adımlar
 
-* **Pro ipucu:** *Farklı* şekil türleri—resimler, metin kutuları ve SmartArt—içeren bir belgeyle her zaman test edin. Bu, `ExportFloatingShapesAsInlineTag` bayrağının her durumda çalışmasını garanti eder.  
-* **Dikkat edilmesi gereken:** Çok büyük görseller PDF'i şişirebilir. DOCX'i yüklemeden önce yeniden boyutlandırmayı düşünün veya `PdfSaveOptions.ImageCompression` değerini, sizin için uygun bir kalite seviyesinde `PdfImageCompression.Jpeg` olarak ayarlayın.  
-* **Sürüm kontrolü:** `ExportFloatingShapesAsInlineTag` özelliği Aspose.Words 22.6'da tanıtıldı. Daha eski bir sürüm kullanıyorsanız, `MissingMethodException` hatasından kaçınmak için NuGet üzerinden yükseltin.  
-* **İş parçacığı güvenliği:** `Document` örnekleri *iş parçacığı‑güvenli* değildir. Dosyaları paralel olarak dönüştürüyorsanız, her iş parçacığı için ayrı bir `Document` oluşturun.
+- "**aspose word to pdf**'yi PDF/A uyumluluğu gibi gelişmiş özellikler için keşfedin."
+- Aynı PDF içinde Excel sayfalarını gömmek gerekiyorsa bu iş akışını Aspose Cells ile birleştirin.
+- `PdfPageInfo` nesnelerini kullanarak özel PDF sayfa başlıkları/altbilgileri deneyin.
 
-## Sıkça Sorulan Sorular
+Kodu istediğiniz gibi değiştirin, kendi günlük kaydınızı ekleyin veya bir web API'sine entegre edin. *convert word document pdf* görevleri için sağlam bir temele sahip olduğunuzda, gökyüzü sınırdır.
 
-**S: Bu .NET Core ile çalışır mı?**  
-C: Kesinlikle. Aspose.Words çapraz‑platformdur; aynı kod Windows, Linux ve macOS'ta .NET 6+ altında çalışır.
-
-**S: DOCX'im gömülü yazı tipleri içeriyorsa ne olur?**  
-C: Aspose.Words, kaynak belgede kullanılan yazı tiplerini otomatik olarak gömer, böylece PDF herhangi bir makinede doğru şekilde görüntülenir.
-
-**S: Kaydederken bir filigran ekleyebilir miyim?**  
-C: Evet—`PdfSaveOptions`’ın `AddWatermark` metodunu kullanın veya dönüşümden önce Word belgesine bir filigran şekli ekleyin.
-
-## Sonuç
-
-Aspose.Words kullanarak **Word'ü PDF olarak kaydetmek** için ihtiyacınız olan her şeyi ele aldık; yüzen şekiller içeren bir `.docx` dosyasını yüklemekten, bu şekilleri satır içi etiketler olarak dışa aktaran **Aspose PDF kaydetme seçeneklerini** yapılandırmaya kadar. Tam, çalıştırılabilir örnek, bir konsol uygulamasına, web servisine veya arka plan işçisine ekleyebileceğiniz tam kodu gösterir.
-
-Artık toplu olarak docx'i pdf'e dönüştürme, şifreli dosyalarla başa çıkma veya görüntü sıkıştırmasını ayarlama konusunda kendinizi güvende hissediyorsanız, bu mantığı daha büyük belge‑oluşturma hatlarına entegre etmeye hazırsınız. Sonraki adımda **şekilleri SVG'ye nasıl dışa aktaracağınızı** keşfedebilir veya ek `PdfSaveOptions` ayarlarıyla PDF/A uyumluluğu deneyebilirsiniz.
-
-Daha fazla sorunuz mu var? Bir yorum bırakın, kodu deneyin ve projenizde nasıl çalıştığını bize bildirin. İyi kodlamalar!
+İyi kodlamalar, ve PDF'lerinizin her zaman beklediğiniz gibi render olmasını dileriz!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

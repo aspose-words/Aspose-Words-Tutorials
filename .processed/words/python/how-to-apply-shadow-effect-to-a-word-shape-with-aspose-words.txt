@@ -1,0 +1,7 @@
+Title: How to apply shadow effect to a Word shape with Aspose.Words
+Slug: how-to-apply-shadow-effect-to-a-word-shape-with-aspose-words
+Category: images-shapes
+ProcessedDate: 2026-09-21T17:12:48.057073
+SourceRepo: AI Search API
+Keywords: apply shadow effect, how to add shadow, add shadow to shape, set shadow color, save edited document
+PRNumber: 284

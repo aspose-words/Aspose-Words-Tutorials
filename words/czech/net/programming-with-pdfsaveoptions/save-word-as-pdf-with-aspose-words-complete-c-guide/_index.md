@@ -1,256 +1,203 @@
 ---
 category: general
-date: 2026-02-24
-description: Naučte se, jak uložit Word jako PDF a převést docx na PDF při exportu
-  tvarů pomocí možností uložení Aspose PDF. Krok‑za‑krokem je zahrnutý C# kód.
+date: 2026-01-13
+description: Uložte Word do PDF okamžitě pomocí Aspose Words. Naučte se převádět docx
+  na PDF, pracovat s plovoucími tvary a během několika minut zvládnout možnosti uložení
+  PDF v Aspose.
 draft: false
 keywords:
 - save word as pdf
 - convert docx to pdf
-- how to convert docx
-- how to export shapes
+- convert word document pdf
+- aspose word to pdf
 - aspose pdf save options
 language: cs
-og_description: Uložte Word jako PDF v C# pomocí Aspose.Words. Tento průvodce ukazuje,
-  jak převést docx na PDF a exportovat plovoucí tvary s možnostmi uložení PDF.
-og_title: Uložte Word jako PDF pomocí Aspose.Words – Kompletní průvodce C#
+og_description: Uložte Word jako PDF okamžitě pomocí Aspose Words. Naučte se převádět
+  docx na pdf, pracovat s plovoucími tvary a ovládat možnosti uložení PDF v Aspose.
+og_title: Uložte Word jako PDF pomocí Aspose Words – kompletní průvodce C#
 tags:
 - Aspose.Words
-- C#
 - PDF conversion
-title: Uložte Word jako PDF s Aspose.Words – Kompletní průvodce C#
+- C#
+- Document processing
+title: Uložte Word jako PDF pomocí Aspose Words – Kompletní průvodce C#
 url: /cs/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
-maintain markdown bullet syntax.
-
-Also ensure tables: translate header cells.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uložení Wordu jako PDF – Kompletní C# tutoriál
+# Uložení Wordu jako PDF pomocí Aspose Words – Kompletní průvodce v C#
 
-Už jste někdy potřebovali **uložit Word jako PDF**, ale narazili jste na problém, když váš dokument obsahoval plovoucí obrázky nebo textová pole? Nejste v tom sami. V mnoha reálných projektech – například generátory smluv, nástroje pro reportování nebo e‑learningové platformy – tyto malé plovoucí tvary narušují rozvržení PDF, pokud knihovně neřeknete, jak s nimi zacházet.
+Už jste se někdy zamýšleli, jak **uložit Word jako PDF** bez ztráty přesnosti rozvržení? Možná jste vyzkoušeli několik bezplatných konvertorů a skončili s nesprávně umístěnými obrázky nebo poškozenými tabulkami. Tato frustrace je příliš častá, zejména při práci s plovoucími tvary, které rády skáčou.
 
-Dobrá zpráva? S Aspose.Words můžete **převést docx na PDF** jedním voláním a díky příznaku `PdfSaveOptions.ExportFloatingShapesAsInlineTag` můžete také řídit, jak jsou tyto tvary exportovány. V tomto tutoriálu projdeme celý proces, od načtení souboru `.docx` až po vytvoření čistého PDF, které respektuje vaše rozvržení.
+Dobrá zpráva? S Aspose Words můžete **převést docx na pdf** jediným čistým řádkem kódu a můžete dokonce říci knihovně, aby tyto plovoucí tvary zacházela jako s vloženými objekty. V tomto tutoriálu projdeme celý proces, od načtení souboru DOCX až po jemné ladění *aspose pdf save options*, aby finální PDF vypadalo přesně jako zdrojový dokument Word.
 
-Na konci tohoto průvodce budete umět:
+## Co se naučíte
 
-* Načíst Word dokument, který obsahuje plovoucí tvary.  
-* Nakonfigurovat **Aspose PDF save options**, aby se tvary staly inline tagy.  
-* Uložit dokument jako PDF pomocí několika řádků C#.
+- Jak **uložit Word jako PDF** pomocí Aspose Words v C#.
+- Rozdíl mezi výchozím zacházením s plovoucími tvary a volbou `ExportFloatingShapesAsInlineTag`.
+- Praktické tipy pro převod dokumentů Word, které obsahují obrázky, textová pole a další plovoucí prvky.
+- Jak rozšířit řešení tak, aby pokrývalo další scénáře, jako jsou PDF chráněná heslem nebo export obrázků ve vysokém rozlišení.
 
-Žádné externí skripty, žádná magie – jen solidní, produkčně připravený kód, který můžete vložit do libovolného .NET projektu.
+> **Požadavky**  
+> • .NET 6.0 nebo novější (kód funguje na .NET Core, .NET Framework a .NET 5+).  
+> • Platná licence Aspose Words pro .NET (nebo můžete použít režim bezplatného hodnocení).  
+> • Základní znalost C# a Visual Studio (nebo jakéhokoli IDE dle preference).  
 
-## Požadavky
+Pokud máte tyto požadavky splněny, můžete se pustit do toho.
 
-Než se pustíme dál, ujistěte se, že máte po ruce následující:
+![ukázka uložení Wordu jako PDF](/images/save-word-as-pdf.png "Ilustrace dokumentu Word, který je ukládán jako PDF pomocí Aspose")
 
-| Požadavek | Proč je to důležité |
-|-------------|----------------|
-| **.NET 6.0+** (nebo .NET Framework 4.7.2) | Aspose.Words podporuje oba; novější runtime poskytuje lepší výkon. |
-| **Aspose.Words for .NET** NuGet balíček (nejnovější verze) | Poskytuje `Document`, `PdfSaveOptions` a příznak pro export tvarů. |
-| **Ukázkový DOCX** s plovoucími tvary (obrázky, textová pole nebo SmartArt) | Pro demonstraci chování exportu v praxi. |
-| IDE jako Visual Studio 2022 (volitelné, ale užitečné) | Usnadňuje ladění a testování. |
+## Krok 1: Nastavte svůj projekt a nainstalujte Aspose Words
 
-Pokud jste ještě nepřidali NuGet balíček, spusťte:
+Pro začátek vytvořte nový konzolový projekt (nebo přidejte kód do existující aplikace). Pak stáhněte NuGet balíček Aspose Words:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-A to je vše – žádné extra DLL, žádné COM interop, jen čistá spravovaná závislost.
+> **Tip:** Použijte nejnovější stabilní verzi (k datu psaní 24.9), abyste získali opravy chyb a nejnovější *aspose pdf save options*.
 
-## Krok 1: Načtení zdrojového dokumentu Word
+## Krok 2: Načtěte zdrojový DOCX obsahující plovoucí tvary
 
-První věc, kterou musíte udělat, je předat Aspose.Words odkaz na soubor, který chcete převést. Tento krok je jednoduchý, ale stojí za zmínku, proč používáme `Document` místo `FileStream`.
+Plovoucí tvary — například textová pole, SmartArt nebo obrázky ukotvené k odstavci — mohou při převodu do PDF způsobovat problémy s rozvržením. Nejprve načteme soubor Word:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Path to the input DOCX – replace with your actual location
-string inputPath = @"C:\Docs\input.docx";
-
-// Load the document into memory
-Document doc = new Document(inputPath);
-```
-
-**Proč je to důležité:**  
-`Document` jednou načte strukturu DOCX a udrží ji v paměti, což vám umožní upravit nastavení (např. zacházení s tvary) před samotnou konverzí. Kdybyste streamovali velké soubory, museli byste ručně spravovat uvolňování prostředků – tomu se zde pro přehlednost vyhýbáme.
-
-## Krok 2: Nastavení možností uložení PDF – Export plovoucích tvarů jako inline tagy
-
-Ve výchozím nastavení se Aspose.Words snaží zachovat původní rozvržení, což znamená, že plovoucí tvary zůstávají *plovoucí* i v PDF. To často vede k překrývajícím se prvkům nebo nesprávně umístěným obrázkům. Možnost `ExportFloatingShapesAsInlineTag` říká enginu, aby tyto tvary považoval za inline elementy, čímž je „zploští“ do toku textu.
-
-```csharp
-// Create a PdfSaveOptions instance with the desired flag
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+class Program
 {
-    // When true, floating shapes become <inline> tags in the PDF XML
-    ExportFloatingShapesAsInlineTag = true
-};
-```
-
-**Proč byste to měli zapnout:**  
-* **Konzistence** – Inline tagy zaručují, že vizuální vzhled odpovídá zobrazení ve Wordu.  
-* **Kompatibilita** – Některé PDF prohlížeče špatně interpretují plovoucí objekty, což způsobuje zobrazení chyb.  
-* **Prohledatelnost** – Inline tagy udržují alt‑text tvaru připojený k okolnímu odstavci, což zlepšuje přístupnost.
-
-Pokud *nepotřebujete* toto chování, jednoduše nastavte příznak na `false` nebo jej vynechte; výchozí hodnota je `false`.
-
-## Krok 3: Uložení dokumentu jako PDF pomocí nastavených možností
-
-Nyní, když je dokument načtený a možnosti nastavené, poslední krok je jednorázové volání, které zapíše PDF na disk.
-
-```csharp
-// Destination path for the PDF
-string outputPath = @"C:\Docs\output.pdf";
-
-// Save the document with the custom PDF options
-doc.Save(outputPath, pdfOptions);
-```
-
-Po dokončení operace uložení najdete `output.pdf` v cílové složce. Otevřete jej v libovolném PDF prohlížeči a měli byste vidět, že všechny dříve plovoucí tvary jsou nyní součástí toku textu, zachovávají rozvržení bez nežádoucích artefaktů.
-
-### Očekávaný výsledek
-
-* PDF vypadá identicky jako Word dokument při zobrazení v režimu **Print Layout**.  
-* Plovoucí obrázky nebo textová pole se zobrazují **inline**, což znamená, že se posunou spolu s odstavcem, pokud později upravíte okolní text.  
-* Velikost souboru je typicky o několik kilobajtů menší, protože PDF již neukládá samostatné plovoucí objekty.
-
-## Kompletní, spustitelný příklad
-
-Níže je kompletní program, který můžete zkopírovat a vložit do konzolové aplikace. Obsahuje ošetření chyb, komentáře a malý pomocník pro ověření úspěšnosti konverze.
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToPdfDemo
-{
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Path to your input DOCX file
+        string inputPath = @"C:\Docs\input.docx";
+
+        // Load the document into memory
+        Document doc = new Document(inputPath);
+```
+
+> **Proč je to důležité:** Načtení dokumentu poskytuje Aspose Words plný přístup k internímu stromu uzlů, což je nezbytné pro následné ladění *aspose pdf save options*.
+
+## Krok 3: Nakonfigurujte PDF Save Options tak, aby plovoucí tvary byly považovány za vložené
+
+Ve výchozím nastavení se Aspose Words snaží zachovat přesné umístění plovoucích tvarů, což někdy vede k překrývajícím se prvkům v PDF. Nastavení `ExportFloatingShapesAsInlineTag` vynutí, aby se tyto tvary staly vloženými, což zaručuje čisté rozvržení.
+
+```csharp
+        // Create PDF save options
+        PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            // ---------------------------------------------------------
-            // 1️⃣  Define input and output paths – adjust to your environment
-            // ---------------------------------------------------------
-            string inputPath = @"C:\Docs\input.docx";
-            string outputPath = @"C:\Docs\output.pdf";
+            // This option converts all floating shapes to inline tags
+            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.AsInline
+        };
+```
 
-            try
-            {
-                // ---------------------------------------------------------
-                // 2️⃣  Load the DOCX file into an Aspose.Words Document object
-                // ---------------------------------------------------------
-                Document doc = new Document(inputPath);
-                Console.WriteLine("✅ Loaded DOCX successfully.");
+> **Co se děje pod kapotou?** Když je `ExportFloatingShapesAsInlineTag` nastaven na `AsInline`, Aspose Words během konverzního pipeline zabalí každý plovoucí tvar do značky `<w:inline>`. PDF renderér je pak zpracuje jako běžné textové úseky, čímž eliminuje efekt „skákání“.
 
-                // ---------------------------------------------------------
-                // 3️⃣  Set up PDF save options – export floating shapes as inline tags
-                // ---------------------------------------------------------
-                PdfSaveOptions pdfOptions = new PdfSaveOptions
-                {
-                    ExportFloatingShapesAsInlineTag = true
-                };
-                Console.WriteLine("🔧 Configured PDF save options (export floating shapes).");
+## Krok 4: Uložte dokument jako PDF pomocí nakonfigurovaných možností
 
-                // ---------------------------------------------------------
-                // 4️⃣  Save the document as PDF using the options above
-                // ---------------------------------------------------------
-                doc.Save(outputPath, pdfOptions);
-                Console.WriteLine($"📄 PDF saved to: {outputPath}");
+Nyní zapíšeme PDF soubor na disk. Stejný řádek funguje na Windows, Linuxu i macOS.
 
-                // ---------------------------------------------------------
-                // 5️⃣  Quick verification – check file existence & size
-                // ---------------------------------------------------------
-                var info = new System.IO.FileInfo(outputPath);
-                Console.WriteLine($"✔️ PDF exists: {info.Exists}, Size: {info.Length / 1024} KB");
-            }
-            catch (Exception ex)
-            {
-                // Friendly error message – helps with debugging
-                Console.WriteLine($"❌ An error occurred: {ex.Message}");
-            }
-        }
+```csharp
+        // Destination PDF path
+        string outputPath = @"C:\Docs\output.pdf";
+
+        // Save the document as PDF with our custom options
+        doc.Save(outputPath, pdfOptions);
+
+        Console.WriteLine($"✅ Successfully saved Word as PDF: {outputPath}");
     }
 }
 ```
 
-**Spusťte:**  
-`dotnet run` ve složce projektu. Pokud je vše správně nastaveno, konzole vypíše úspěšné zprávy a PDF se objeví vedle vašeho zdrojového DOCX.
+Spuštěním programu vznikne `output.pdf`, kde se všechny plovoucí tvary zobrazí jako vložené, což odpovídá vizuálnímu rozvržení, které vidíte ve Wordu.
 
-## Řešení okrajových případů a běžných variant
+## Krok 5: Ověřte výsledek a řešte běžné okrajové případy
 
-### 1️⃣ Převod více souborů najednou
+### Ověřte PDF
 
-Pokud potřebujete **převést docx na pdf** pro celou složku, zabalte logiku do smyčky `foreach`:
+Otevřete vygenerované PDF v libovolném prohlížeči (Adobe Reader, Chrome atd.). Zkontrolujte, že:
+
+- Textová pole a obrázky jsou zarovnány s okolním textem.
+- Žádné překrývající se nebo oříznuté části.
+- Počet stránek odpovídá původnímu souboru Word.
+
+### Okrajový případ 1 – Obrázky ve vysokém rozlišení
+
+Pokud váš DOCX obsahuje obrázky ve vysokém rozlišení, možná budete chtít zachovat tuto kvalitu. Upravte vlastnost `ImageCompression`:
 
 ```csharp
-string sourceFolder = @"C:\Docs\Batch";
-string[] docxFiles = System.IO.Directory.GetFiles(sourceFolder, "*.docx");
+pdfOptions.ImageCompression = PdfImageCompression.Jpeg;
+pdfOptions.JpegQuality = 100; // Max quality
+```
+
+### Okrajový případ 2 – PDF chráněná heslem
+
+Pro zabezpečení výstupu přidejte heslo:
+
+```csharp
+pdfOptions.EncryptionDetails = new PdfEncryptionDetails(
+    userPassword: "user123",
+    ownerPassword: "owner456",
+    permissions: PdfPermissionsFlags.Print);
+```
+
+### Okrajový případ 3 – Velké dokumenty
+
+Pro masivní soubory povolte `MemoryOptimization`, aby se snížila spotřeba RAM:
+
+```csharp
+pdfOptions.MemoryOptimization = true;
+```
+
+Každé z těchto vyladění je součástí širší sady *aspose pdf save options*, která vám poskytuje detailní kontrolu nad finálním PDF.
+
+## Krok 6: Rozšíření řešení – Hromadný převod více souborů
+
+Často budete potřebovat **převést docx na pdf** pro desítky souborů. Zabalte logiku do smyčky:
+
+```csharp
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
 
 foreach (var file in docxFiles)
 {
     Document batchDoc = new Document(file);
-    string pdfName = System.IO.Path.ChangeExtension(file, ".pdf");
-    batchDoc.Save(pdfName, pdfOptions);
+    string pdfFile = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfFile, pdfOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(pdfFile)}");
 }
 ```
 
-### 2️⃣ Zachování původních názvů souborů
+Tento vzor se dobře škáluje a znovu používá stejné *aspose pdf save options* pro konzistenci napříč všemi výstupy.
 
-Když budujete službu, která přijímá nahrané soubory, možná budete chtít zachovat původní název souboru:
+## Často kladené otázky (FAQ)
 
-```csharp
-string originalName = Path.GetFileNameWithoutExtension(uploadedFile);
-string pdfPath = Path.Combine(outputDir, $"{originalName}.pdf");
-doc.Save(pdfPath, pdfOptions);
-```
+**Q: Funguje to i se soubory .doc (starší) soubory?**  
+A: Rozhodně. Aspose Words podporuje `.doc`, `.docx`, `.rtf` a mnoho dalších formátů. Stačí předat cestu k souboru do `new Document()` a použijí se stejné PDF možnosti.
 
-### 3️⃣ Práce s šifrovanými nebo chráněnými heslem DOCX
+**Q: Co když potřebuji, aby PDF zachovalo původní pozice plovoucích tvarů?**  
+A: Vynechte nastavení `ExportFloatingShapesAsInlineTag` nebo jej nastavte na `ExportFloatingShapesAsInlineTag.AsFloating`. Tím řeknete Aspose Words, aby zachovalo původní rozvržení, což může být výhodnější pro složité návrhy.
 
-Aspose.Words může otevřít šifrované soubory po zadání hesla:
-
-```csharp
-LoadOptions loadOpts = new LoadOptions { Password = "MySecret" };
-Document protectedDoc = new Document(inputPath, loadOpts);
-protectedDoc.Save(outputPath, pdfOptions);
-```
-
-### 4️⃣ Když **nechcete** inline tagy
-
-Někdy skutečně *chcete*, aby plovoucí tvary zůstaly plovoucí (např. rozvržení brožury). V takovém případě jednoduše vynechte příznak nebo jej nastavte na `false`. Zbytek kódu zůstane beze změny.
-
-## Profesionální tipy a úskalí, na které si dát pozor
-
-* **Pro tip:** Vždy testujte s dokumentem, který obsahuje *různé* typy tvarů – obrázky, textová pole i SmartArt. To zaručuje, že příznak `ExportFloatingShapesAsInlineTag` funguje ve všech případech.  
-* **Dejte si pozor na:** Velmi velké obrázky mohou PDF nafouknout. Zvažte jejich změnu velikosti před načtením DOCX, nebo nastavte `PdfSaveOptions.ImageCompression` na `PdfImageCompression.Jpeg` s úrovní kvality, která vám vyhovuje.  
-* **Kontrola verze:** Vlastnost `ExportFloatingShapesAsInlineTag` byla zavedena v Aspose.Words 22.6. Pokud používáte starší verzi, proveďte upgrade přes NuGet, abyste se vyhnuli `MissingMethodException`.  
-* **Bezpečnost vláken:** Instance `Document` nejsou *thread‑safe*. Pokud převádíte soubory paralelně, vytvořte pro každé vlákno samostatný `Document`.
-
-## Často kladené otázky
-
-**Q: Funguje to s .NET Core?**  
-A: Naprosto. Aspose.Words je multiplatformní; stejný kód běží na Windows, Linuxu i macOS pod .NET 6+.
-
-**Q: Co když můj DOCX obsahuje vložená písma?**  
-A: Aspose.Words automaticky vloží písma použité ve zdrojovém dokumentu, takže PDF se správně vykreslí na jakémkoli počítači.
-
-**Q: Můžu při ukládání přidat vodoznak?**  
-A: Ano – použijte metodu `AddWatermark` třídy `PdfSaveOptions` nebo vložte vodoznakový tvar do Word dokumentu před konverzí.
+**Q: Existuje způsob, jak vložit původní DOCX do PDF?**  
+A: Ano. Použijte `PdfSaveOptions.EmbeddedFiles.Add(new EmbeddedFile("input.docx", File.ReadAllBytes("input.docx")));`. Tím vytvoříte přílohu PDF, kterou si uživatelé mohou stáhnout.
 
 ## Závěr
 
-Probrali jsme vše, co potřebujete k **uložení Wordu jako PDF** pomocí Aspose.Words, od načtení `.docx` s plovoucími tvary až po nastavení **Aspose PDF save options**, které exportují tyto tvary jako inline tagy. Kompletní, spustitelný příklad ukazuje přesný kód, který můžete vložit do konzolové aplikace, webové služby nebo background workeru.  
+Pouze několika řádky C# nyní víte, jak **spolehlivě uložit Word jako PDF**, i když vaše dokumenty obsahují obtížné plovoucí tvary. Využitím příznaku `ExportFloatingShapesAsInlineTag` a dalších *aspose pdf save options* získáte plnou kontrolu nad kvalitou převodu, zabezpečením i výkonem.
 
-Pokud se nyní cítíte jistě při hromadném převodu docx na pdf, práci s šifrovanými soubory nebo úpravě komprese obrázků, jste připraveni integrovat tuto logiku do větších pipeline pro generování dokumentů. Další krok může být **export tvarů** do SVG, nebo experimentování s PDF/A kompatibilitou pomocí dalších nastavení `PdfSaveOptions`.
+**Závěr:** Ať už budujete službu pro generování dokumentů, automatizujete distribuci reportů, nebo jen potřebujete nástroj pro hromadný převod, Aspose Words vám poskytuje připravenou, bezlicenční (evaluační) cestu k **převodu docx na pdf** s předvídatelnými výsledky.
 
-Máte další otázky? Zanechte komentář, vyzkoušejte kód a dejte nám vědět, jak to funguje ve vašem projektu. Šťastné kódování!
+### Co dál?
+
+- Prozkoumejte **aspose word to pdf** pro pokročilé funkce jako shoda s PDF/A.  
+- Kombinujte tento workflow s Aspose Cells, pokud potřebujete vložit Excelové listy do stejného PDF.  
+- Experimentujte s vlastními záhlavími/patkami PDF stránek pomocí objektů `PdfPageInfo`.
+
+Neváhejte kód upravit, přidat vlastní logování nebo jej integrovat do webového API. Možnosti jsou neomezené, když máte pevný základ pro úkoly *convert word document pdf*.
+
+Šťastné programování a ať se vaše PDF vždy vykreslují přesně tak, jak očekáváte!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

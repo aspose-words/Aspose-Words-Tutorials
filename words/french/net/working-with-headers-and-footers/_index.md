@@ -20,6 +20,12 @@ Traitement de texte avec en-têtes et pieds de page est une ressource complète 
 
 
  ## Tutoriels
+
+{{< tutorial-card link="./insert-header-date/" title="Insérer une date d’en-tête dynamique dans un document Word à l’aide d’Aspose.Words pour .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-page-numbers/" title="Ajouter des numéros de page au pied de page d'un document Word avec Aspose.Words pour .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Titre | Description |
 | --- | --- |
 | [Créer un en-tête et un pied de page](./create-header-footer/) | Apprenez à créer des en-têtes et des pieds de page dans vos documents Word avec Aspose.Words pour .NET. Personnalisez les en-têtes et les pieds de page de chaque page. |

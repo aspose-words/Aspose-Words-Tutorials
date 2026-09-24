@@ -1,0 +1,7 @@
+Title: Save Document as DOCX with Aspose.Words – Complete Java Guide
+Slug: save-document-as-docx-with-aspose-words-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-08T19:21:04.255935
+SourceRepo: AI Search API
+Keywords: save document as docx, add shadow to shape, how to set shape transparency, how to insert rectangle shape, set shape fill color
+PRNumber: 202

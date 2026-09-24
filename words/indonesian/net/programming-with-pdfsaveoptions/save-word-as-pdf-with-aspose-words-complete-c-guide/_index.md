@@ -1,26 +1,27 @@
 ---
 category: general
-date: 2026-02-24
-description: Pelajari cara menyimpan Word sebagai PDF dan mengonversi docx ke PDF
-  sambil mengekspor bentuk menggunakan opsi penyimpanan Aspose PDF. Termasuk kode
-  C# langkah demi langkah.
+date: 2026-01-13
+description: Simpan Word sebagai PDF secara instan menggunakan Aspose Words. Pelajari
+  cara mengonversi docx ke PDF, menangani bentuk mengambang, dan kuasai opsi penyimpanan
+  PDF Aspose dalam hitungan menit.
 draft: false
 keywords:
 - save word as pdf
 - convert docx to pdf
-- how to convert docx
-- how to export shapes
+- convert word document pdf
+- aspose word to pdf
 - aspose pdf save options
 language: id
-og_description: Simpan Word sebagai PDF di C# menggunakan Aspose.Words. Panduan ini
-  menunjukkan cara mengonversi docx ke PDF dan mengekspor bentuk mengambang dengan
-  opsi penyimpanan PDF.
-og_title: Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#
+og_description: Simpan Word sebagai PDF secara instan menggunakan Aspose Words. Pelajari
+  cara mengonversi docx ke PDF, menangani bentuk mengambang, dan menguasai opsi penyimpanan
+  PDF Aspose.
+og_title: Simpan Word sebagai PDF dengan Aspose Words – Panduan Lengkap C#
 tags:
 - Aspose.Words
-- C#
 - PDF conversion
-title: Simpan Word sebagai PDF dengan Aspose.Words – Panduan Lengkap C#
+- C#
+- Document processing
+title: Simpan Word sebagai PDF dengan Aspose Words – Panduan Lengkap C#
 url: /id/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -28,227 +29,176 @@ url: /id/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Word sebagai PDF – Tutorial C# Lengkap
+# Simpan Word sebagai PDF dengan Aspose Words – Panduan Lengkap C#
 
-Pernah membutuhkan untuk **menyimpan Word sebagai PDF** tetapi terus menemui kendala ketika dokumen Anda berisi gambar mengambang atau kotak teks? Anda tidak sendirian. Dalam banyak proyek dunia nyata—seperti pembuat kontrak, alat pelaporan, atau platform e‑learning—bentuk mengambang kecil itu merusak tata letak PDF kecuali Anda memberi tahu perpustakaan cara menanganinya.
+Pernah bertanya-tanya bagaimana cara **menyimpan Word sebagai PDF** tanpa kehilangan kesetiaan tata letak? Mungkin Anda sudah mencoba beberapa konverter gratis dan berakhir dengan gambar yang salah tempat atau tabel yang rusak. Kekecewaan itu sangat umum, terutama ketika berhadapan dengan bentuk mengambang yang suka melompat ke mana-mana.  
 
-Berita baik? Dengan Aspose.Words Anda dapat **convert docx to PDF** dalam satu panggilan dan, berkat flag `PdfSaveOptions.ExportFloatingShapesAsInlineTag`, Anda juga dapat mengontrol bagaimana bentuk‑bentuk tersebut diekspor. Dalam tutorial ini kami akan membahas seluruh proses, mulai dari memuat file `.docx` hingga menghasilkan PDF bersih yang menghormati tata letak Anda.
+Kabar baik? Dengan Aspose Words Anda dapat **mengonversi docx ke pdf** dalam satu baris kode yang bersih, dan bahkan dapat memberi tahu perpustakaan untuk memperlakukan bentuk mengambang tersebut sebagai objek inline. Dalam tutorial ini kami akan membahas seluruh proses, mulai dari memuat file DOCX hingga menyetel *aspose pdf save options* secara detail sehingga PDF akhir terlihat persis seperti dokumen Word sumber.
 
-Dengan menyelesaikan panduan ini Anda akan dapat:
+## Apa yang Akan Anda Pelajari
 
-* Muat dokumen Word yang berisi bentuk mengambang.  
-* Konfigurasikan **Aspose PDF save options** sehingga bentuk menjadi tag inline.  
-* Simpan dokumen sebagai PDF dengan hanya beberapa baris kode C#.
+- Cara **menyimpan Word sebagai PDF** menggunakan Aspose Words di C#.
+- Perbedaan antara penanganan bentuk‑mengambang default dan opsi `ExportFloatingShapesAsInlineTag`.
+- Tips dunia nyata untuk mengonversi dokumen Word yang berisi gambar, kotak teks, dan elemen mengambang lainnya.
+- Cara memperluas solusi untuk mencakup skenario lain seperti PDF yang dilindungi kata sandi atau ekspor gambar resolusi tinggi.
 
-Tanpa skrip eksternal, tanpa sulap—hanya kode solid yang siap produksi yang dapat Anda sisipkan ke proyek .NET mana pun.
+> **Prasyarat**  
+> • .NET 6.0 atau lebih baru (kode ini bekerja di .NET Core, .NET Framework, dan .NET 5+).  
+> • Lisensi Aspose Words for .NET yang valid (atau Anda dapat menggunakan mode evaluasi gratis).  
+> • Familiaritas dasar dengan C# dan Visual Studio (atau IDE apa pun yang Anda sukai).  
 
-## Prasyarat
+Jika Anda mencentang semua kotak tersebut, Anda siap untuk memulai.
 
-Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
+![contoh menyimpan word sebagai pdf](/images/save-word-as-pdf.png "Ilustrasi dokumen Word yang disimpan sebagai PDF menggunakan Aspose")
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| **.NET 6.0+** (or .NET Framework 4.7.2) | Aspose.Words mendukung keduanya; runtime yang lebih baru memberikan kinerja yang lebih baik. |
-| **Aspose.Words for .NET** NuGet package (latest version) | Menyediakan `Document`, `PdfSaveOptions`, dan flag ekspor bentuk. |
-| A **sample DOCX** with floating shapes (images, text boxes, or SmartArt) | Untuk melihat perilaku ekspor secara langsung. |
-| An IDE like Visual Studio 2022 (optional but handy) | Mempermudah proses debugging dan pengujian. |
+## Langkah 1: Siapkan Proyek Anda dan Instal Aspose Words
 
-Jika Anda belum menambahkan paket NuGet, jalankan:
+Untuk memulai, buat proyek konsol baru (atau tambahkan kode ke aplikasi yang sudah ada). Kemudian unduh paket NuGet Aspose Words:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-Itu saja—tanpa DLL tambahan, tanpa interop COM, hanya dependensi terkelola yang bersih.
+> **Tips pro:** Gunakan versi stabil terbaru (pada saat penulisan ini, 24.9) untuk mendapatkan perbaikan bug dan *aspose pdf save options* terbaru.
 
-## Langkah 1: Muat Dokumen Word Sumber
+## Langkah 2: Muat DOCX Sumber yang Berisi Bentuk Mengambang
 
-Hal pertama yang perlu Anda lakukan adalah memberi Aspose.Words akses ke file yang ingin Anda ubah. Langkah ini sederhana, namun penting untuk dicatat mengapa kami menggunakan `Document` alih‑alih `FileStream`.
+Bentuk mengambang—seperti kotak teks, SmartArt, atau gambar yang di‑anchor ke paragraf—bisa menyebabkan masalah tata letak saat mengonversi ke PDF. Pertama, kita muat file Word:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Path to the input DOCX – replace with your actual location
-string inputPath = @"C:\Docs\input.docx";
-
-// Load the document into memory
-Document doc = new Document(inputPath);
-```
-
-**Mengapa ini penting:**  
-`Document` mem-parsing struktur DOCX sekali dan menyimpannya di memori, memungkinkan Anda menyesuaikan pengaturan (seperti penanganan bentuk) sebelum konversi sebenarnya. Jika Anda melakukan streaming file besar, Anda harus mengelola pembuangan secara manual—sesuatu yang kami hindari di sini demi kejelasan.
-
-## Langkah 2: Konfigurasikan Opsi Penyimpanan PDF – Ekspor Bentuk Mengambang sebagai Tag Inline
-
-Secara default Aspose.Words berusaha mempertahankan tata letak asli, yang berarti bentuk mengambang tetap *mengambang* dalam PDF. Hal ini sering menyebabkan konten tumpang tindih atau gambar berada di tempat yang salah. Opsi `ExportFloatingShapesAsInlineTag` memberi tahu mesin untuk memperlakukan bentuk‑bentuk tersebut sebagai elemen inline, secara efektif “memipihkan” mereka ke dalam alur teks.
-
-```csharp
-// Create a PdfSaveOptions instance with the desired flag
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+class Program
 {
-    // When true, floating shapes become <inline> tags in the PDF XML
-    ExportFloatingShapesAsInlineTag = true
-};
-```
-
-**Mengapa Anda akan mengaktifkan ini:**  
-* **Konsistensi** – Tag inline menjamin bahwa tampilan visual cocok dengan tampilan Word.  
-* **Kompatibilitas** – Beberapa penampil PDF salah menafsirkan objek mengambang, menyebabkan gangguan render.  
-* **Ketercarian** – Tag inline menjaga teks alt bentuk tetap terlampir pada paragraf sekitarnya, meningkatkan aksesibilitas.
-
-Jika Anda *tidak* memerlukan perilaku ini, cukup setel flag ke `false` atau hilangkan; nilai defaultnya adalah `false`.
-
-## Langkah 3: Simpan Dokumen sebagai PDF Menggunakan Opsi yang Dikonfigurasi
-
-Sekarang dokumen telah dimuat dan opsi telah diatur, langkah akhir adalah satu baris kode yang menulis PDF ke disk.
-
-```csharp
-// Destination path for the PDF
-string outputPath = @"C:\Docs\output.pdf";
-
-// Save the document with the custom PDF options
-doc.Save(outputPath, pdfOptions);
-```
-
-Setelah operasi penyimpanan selesai, Anda akan menemukan `output.pdf` di folder target. Buka dengan penampil PDF apa pun dan Anda akan melihat semua bentuk yang sebelumnya mengambang kini menjadi bagian dari alur teks, mempertahankan tata letak tanpa artefak yang tersisa.
-
-### Hasil yang Diharapkan
-
-* PDF terlihat identik dengan dokumen Word saat dilihat dalam mode **Print Layout**.  
-* Gambar mengambang atau kotak teks muncul **inline**, artinya mereka bergerak bersama paragraf jika Anda mengedit teks di sekitarnya nanti.  
-* Ukuran file biasanya beberapa kilobyte lebih kecil karena PDF tidak lagi menyimpan objek mengambang terpisah.
-
-## Contoh Lengkap yang Dapat Dijalankan
-
-Berikut adalah program lengkap yang dapat Anda salin‑tempel ke aplikasi konsol. Program ini mencakup penanganan kesalahan, komentar, dan pembantu kecil untuk memverifikasi bahwa konversi berhasil.
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToPdfDemo
-{
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Path to your input DOCX file
+        string inputPath = @"C:\Docs\input.docx";
+
+        // Load the document into memory
+        Document doc = new Document(inputPath);
+```
+
+> **Mengapa ini penting:** Memuat dokumen memberi Aspose Words akses penuh ke pohon node internal, yang esensial untuk menyesuaikan *aspose pdf save options* nanti.
+
+## Langkah 3: Konfigurasikan PDF Save Options agar Memperlakukan Bentuk Mengambang sebagai Inline
+
+Secara default, Aspose Words berusaha mempertahankan posisi tepat bentuk mengambang, yang kadang menghasilkan elemen yang saling tumpang tindih di PDF. Pengaturan `ExportFloatingShapesAsInlineTag` memaksa bentuk‑bentuk tersebut menjadi inline, menjamin tata letak yang bersih.
+
+```csharp
+        // Create PDF save options
+        PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            // ---------------------------------------------------------
-            // 1️⃣  Define input and output paths – adjust to your environment
-            // ---------------------------------------------------------
-            string inputPath = @"C:\Docs\input.docx";
-            string outputPath = @"C:\Docs\output.pdf";
+            // This option converts all floating shapes to inline tags
+            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.AsInline
+        };
+```
 
-            try
-            {
-                // ---------------------------------------------------------
-                // 2️⃣  Load the DOCX file into an Aspose.Words Document object
-                // ---------------------------------------------------------
-                Document doc = new Document(inputPath);
-                Console.WriteLine("✅ Loaded DOCX successfully.");
+> **Apa yang terjadi di balik layar?** Ketika `ExportFloatingShapesAsInlineTag` diset ke `AsInline`, Aspose Words membungkus setiap bentuk mengambang dalam tag `<w:inline>` selama pipeline konversi. Renderer PDF kemudian memperlakukan mereka seperti run teks biasa, menghilangkan efek “melompat”.
 
-                // ---------------------------------------------------------
-                // 3️⃣  Set up PDF save options – export floating shapes as inline tags
-                // ---------------------------------------------------------
-                PdfSaveOptions pdfOptions = new PdfSaveOptions
-                {
-                    ExportFloatingShapesAsInlineTag = true
-                };
-                Console.WriteLine("🔧 Configured PDF save options (export floating shapes).");
+## Langkah 4: Simpan Dokumen sebagai PDF Menggunakan Opsi yang Telah Dikonfigurasi
 
-                // ---------------------------------------------------------
-                // 4️⃣  Save the document as PDF using the options above
-                // ---------------------------------------------------------
-                doc.Save(outputPath, pdfOptions);
-                Console.WriteLine($"📄 PDF saved to: {outputPath}");
+Sekarang kita menulis file PDF ke disk. Baris yang sama bekerja baik di Windows, Linux, maupun macOS.
 
-                // ---------------------------------------------------------
-                // 5️⃣  Quick verification – check file existence & size
-                // ---------------------------------------------------------
-                var info = new System.IO.FileInfo(outputPath);
-                Console.WriteLine($"✔️ PDF exists: {info.Exists}, Size: {info.Length / 1024} KB");
-            }
-            catch (Exception ex)
-            {
-                // Friendly error message – helps with debugging
-                Console.WriteLine($"❌ An error occurred: {ex.Message}");
-            }
-        }
+```csharp
+        // Destination PDF path
+        string outputPath = @"C:\Docs\output.pdf";
+
+        // Save the document as PDF with our custom options
+        doc.Save(outputPath, pdfOptions);
+
+        Console.WriteLine($"✅ Successfully saved Word as PDF: {outputPath}");
     }
 }
 ```
 
-**Jalankan:**  
-`dotnet run` dari folder proyek Anda. Jika semuanya terhubung dengan benar, konsol akan menampilkan pesan sukses dan PDF akan muncul di samping DOCX sumber Anda.
+Menjalankan program akan menghasilkan `output.pdf` di mana semua bentuk mengambang muncul sebagai inline, cocok dengan tata letak visual yang Anda lihat di Word.
 
-## Menangani Kasus Pinggir & Variasi Umum
+## Langkah 5: Verifikasi Hasil dan Tangani Kasus Edge Umum
 
-### 1️⃣ Mengonversi Beberapa File dalam Batch
+### Verifikasi PDF
 
-Jika Anda perlu **convert docx to pdf** untuk seluruh folder, bungkus logika dalam loop `foreach`:
+Buka PDF yang dihasilkan di penampil apa pun (Adobe Reader, Chrome, dll.). Periksa bahwa:
+
+- Kotak teks dan gambar sejajar dengan teks di sekitarnya.
+- Tidak ada konten yang tumpang tindih atau terpotong.
+- Jumlah halaman cocok dengan file Word asli.
+
+### Kasus Edge 1 – Gambar Resolusi Tinggi
+
+Jika DOCX Anda berisi gambar resolusi tinggi, Anda mungkin ingin mempertahankan kualitas tersebut. Sesuaikan properti `ImageCompression`:
 
 ```csharp
-string sourceFolder = @"C:\Docs\Batch";
-string[] docxFiles = System.IO.Directory.GetFiles(sourceFolder, "*.docx");
+pdfOptions.ImageCompression = PdfImageCompression.Jpeg;
+pdfOptions.JpegQuality = 100; // Max quality
+```
+
+### Kasus Edge 2 – PDF yang Dilindungi Kata Sandi
+
+Untuk mengamankan output, tambahkan kata sandi:
+
+```csharp
+pdfOptions.EncryptionDetails = new PdfEncryptionDetails(
+    userPassword: "user123",
+    ownerPassword: "owner456",
+    permissions: PdfPermissionsFlags.Print);
+```
+
+### Kasus Edge 3 – Dokumen Besar
+
+Untuk file yang sangat besar, aktifkan `MemoryOptimization` untuk mengurangi penggunaan RAM:
+
+```csharp
+pdfOptions.MemoryOptimization = true;
+```
+
+Setiap penyesuaian ini merupakan bagian dari rangkaian *aspose pdf save options*, memberi Anda kontrol granular atas PDF akhir.
+
+## Langkah 6: Perluas Solusi – Mengonversi Banyak File Secara Batch
+
+Seringkali Anda perlu **mengonversi docx ke pdf** untuk puluhan file. Bungkus logika dalam loop:
+
+```csharp
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
 
 foreach (var file in docxFiles)
 {
     Document batchDoc = new Document(file);
-    string pdfName = System.IO.Path.ChangeExtension(file, ".pdf");
-    batchDoc.Save(pdfName, pdfOptions);
+    string pdfFile = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfFile, pdfOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(pdfFile)}");
 }
 ```
 
-### 2️⃣ Mempertahankan Nama File Asli
+Pola ini skalabel dengan baik dan menggunakan *aspose pdf save options* yang sama untuk konsistensi di semua output.
 
-Saat Anda membangun layanan yang menerima unggahan, Anda mungkin ingin mempertahankan nama file asli:
+## Pertanyaan yang Sering Diajukan (FAQ)
 
-```csharp
-string originalName = Path.GetFileNameWithoutExtension(uploadedFile);
-string pdfPath = Path.Combine(outputDir, $"{originalName}.pdf");
-doc.Save(pdfPath, pdfOptions);
-```
+**T: Apakah ini bekerja dengan file .doc (legacy)?**  
+J: Tentu saja. Aspose Words mendukung `.doc`, `.docx`, `.rtf`, dan banyak format lainnya. Cukup berikan path file ke `new Document()` dan opsi PDF yang sama akan diterapkan.
 
-### 3️⃣ Menangani DOCX yang Enkripsi atau Dilindungi Kata Sandi
+**T: Bagaimana jika saya ingin PDF tetap mempertahankan posisi bentuk mengambang asli?**  
+J: Hilangkan pengaturan `ExportFloatingShapesAsInlineTag` atau setel ke `ExportFloatingShapesAsInlineTag.AsFloating`. Itu memberi tahu Aspose Words untuk menjaga tata letak asli, yang mungkin lebih cocok untuk desain kompleks.
 
-Aspose.Words dapat membuka file terenkripsi dengan menyediakan kata sandi:
+**T: Apakah ada cara menyematkan DOCX asli di dalam PDF?**  
+J: Ya. Gunakan `PdfSaveOptions.EmbeddedFiles.Add(new EmbeddedFile("input.docx", File.ReadAllBytes("input.docx")));` Ini membuat lampiran PDF yang dapat diekstrak pengguna.
 
-```csharp
-LoadOptions loadOpts = new LoadOptions { Password = "MySecret" };
-Document protectedDoc = new Document(inputPath, loadOpts);
-protectedDoc.Save(outputPath, pdfOptions);
-```
+## Penutup
 
-### 4️⃣ Saat Anda **Tidak** Menginginkan Tag Inline
+Dalam beberapa baris C# Anda kini tahu cara **menyimpan Word sebagai PDF** secara andal, bahkan ketika dokumen berisi bentuk mengambang yang rumit. Dengan memanfaatkan flag `ExportFloatingShapesAsInlineTag` dan *aspose pdf save options* lainnya, Anda mendapatkan kontrol penuh atas kualitas konversi, keamanan, dan performa.
 
-Terkadang Anda memang *ingin* bentuk mengambang tetap mengambang (misalnya, tata letak brosur). Dalam kasus tersebut, cukup hilangkan flag atau setel ke `false`. Sisanya kode tetap sama.
+> **Intisari:** Baik Anda membangun layanan pembuatan dokumen, mengotomatisasi distribusi laporan, atau sekadar membutuhkan alat konversi batch, Aspose Words memberi Anda jalur siap produksi, bebas lisensi (evaluasi) untuk **mengonversi docx ke pdf** dengan hasil yang dapat diprediksi.
 
-## Tips Pro & Perangkap yang Perlu Diwaspadai
+### Apa Selanjutnya?
 
-* **Tips pro:** Selalu uji dengan dokumen yang berisi tipe bentuk *berbeda*—gambar, kotak teks, dan SmartArt. Itu menjamin flag `ExportFloatingShapesAsInlineTag` berfungsi di semua kasus.  
-* **Waspadai:** Gambar sangat besar dapat membuat PDF menjadi bengkak. Pertimbangkan untuk mengubah ukuran gambar sebelum memuat DOCX, atau setel `PdfSaveOptions.ImageCompression` ke `PdfImageCompression.Jpeg` dengan tingkat kualitas yang Anda rasa nyaman.  
-* **Pemeriksaan versi:** Properti `ExportFloatingShapesAsInlineTag` diperkenalkan pada Aspose.Words 22.6. Jika Anda menggunakan versi lebih lama, tingkatkan via NuGet untuk menghindari `MissingMethodException`.  
-* **Keamanan thread:** Instance `Document` *tidak* thread‑safe. Jika Anda mengonversi file secara paralel, buat `Document` terpisah per thread.
+- Jelajahi **aspose word to pdf** untuk fitur lanjutan seperti kepatuhan PDF/A.  
+- Gabungkan alur kerja ini dengan Aspose Cells jika Anda perlu menyematkan lembar Excel dalam PDF yang sama.  
+- Bereksperimen dengan header/footer halaman PDF khusus menggunakan objek `PdfPageInfo`.
 
-## Pertanyaan yang Sering Diajukan
+Silakan modifikasi kode, tambahkan logging Anda sendiri, atau integrasikan ke API web. Langit adalah batasnya ketika Anda memiliki fondasi yang kuat untuk tugas *convert word document pdf*.
 
-**T: Apakah ini bekerja dengan .NET Core?**  
-J: Tentu saja. Aspose.Words bersifat lintas‑platform; kode yang sama berjalan di Windows, Linux, dan macOS dengan .NET 6+.
-
-**T: Bagaimana jika DOCX saya berisi font yang disematkan?**  
-J: Aspose.Words secara otomatis menyematkan font yang digunakan dalam dokumen sumber, sehingga PDF akan ditampilkan dengan benar di mesin mana pun.
-
-**T: Bisakah saya menambahkan watermark saat menyimpan?**  
-J: Ya—gunakan metode `AddWatermark` pada `PdfSaveOptions` atau sisipkan bentuk watermark ke dalam dokumen Word sebelum konversi.
-
-## Kesimpulan
-
-Kami telah membahas semua yang Anda perlukan untuk **save Word as PDF** menggunakan Aspose.Words, mulai dari memuat `.docx` dengan bentuk mengambang hingga mengonfigurasi **Aspose PDF save options** yang mengekspor bentuk‑bentuk tersebut sebagai tag inline. Contoh lengkap yang dapat dijalankan menunjukkan kode tepat yang dapat Anda sisipkan ke aplikasi konsol, layanan web, atau pekerja latar belakang.  
-
-Jika Anda kini merasa yakin mengonversi docx ke pdf secara massal, menangani file terenkripsi, atau menyesuaikan kompresi gambar, Anda siap mengintegrasikan logika ini ke dalam pipeline generasi dokumen yang lebih besar. Selanjutnya, Anda mungkin ingin mengeksplor **cara mengekspor bentuk** ke SVG, atau bereksperimen dengan kepatuhan PDF/A menggunakan pengaturan tambahan pada `PdfSaveOptions`.
-
-Ada pertanyaan lebih lanjut? Tinggalkan komentar, coba kode tersebut, dan beri tahu kami bagaimana hasilnya di proyek Anda. Selamat coding!
+Selamat coding, semoga PDF Anda selalu tampil persis seperti yang Anda harapkan!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

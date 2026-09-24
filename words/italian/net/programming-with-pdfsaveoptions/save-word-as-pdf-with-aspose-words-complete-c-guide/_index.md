@@ -1,259 +1,204 @@
 ---
 category: general
-date: 2026-02-24
-description: Scopri come salvare Word in PDF e convertire docx in PDF esportando le
-  forme usando le opzioni di salvataggio PDF di Aspose. Codice C# passo‑passo incluso.
+date: 2026-01-13
+description: Salva Word come PDF istantaneamente usando Aspose Words. Impara a convertire
+  docx in PDF, gestire le forme fluttuanti e padroneggiare le opzioni di salvataggio
+  PDF di Aspose in pochi minuti.
 draft: false
 keywords:
 - save word as pdf
 - convert docx to pdf
-- how to convert docx
-- how to export shapes
+- convert word document pdf
+- aspose word to pdf
 - aspose pdf save options
 language: it
-og_description: Salva Word come PDF in C# usando Aspose.Words. Questa guida mostra
-  come convertire docx in PDF ed esportare forme fluttuanti con le opzioni di salvataggio
-  PDF.
-og_title: Salva Word in PDF con Aspose.Words – Guida completa C#
+og_description: Salva Word in PDF istantaneamente con Aspose Words. Impara a convertire
+  docx in pdf, gestire le forme fluttuanti e padroneggiare le opzioni di salvataggio
+  PDF di Aspose.
+og_title: Salva Word come PDF con Aspose Words – Guida completa C#
 tags:
 - Aspose.Words
-- C#
 - PDF conversion
-title: Salva Word come PDF con Aspose.Words – Guida completa C#
+- C#
+- Document processing
+title: Salva Word in PDF con Aspose Words – Guida completa C#
 url: /it/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/
 ---
-
-is.
-
-Also ensure we keep any inline formatting like **bold**, *italic*, etc.
-
-Let's craft final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salva Word come PDF – Tutorial C# Completo
+# Salva Word come PDF con Aspose Words – Guida Completa in C#
 
-Ti è mai capitato di **salvare Word come PDF** ma ti sei scontrato con un ostacolo quando il tuo documento conteneva immagini fluttuanti o caselle di testo? Non sei l'unico. In molti progetti reali—pensa a generatori di contratti, strumenti di reporting o piattaforme e‑learning—quelle piccole forme fluttuanti rompono il layout del PDF a meno che non indichi alla libreria come gestirle.
+Ti sei mai chiesto come **salvare Word come PDF** senza perdere la fedeltà del layout? Forse hai provato qualche convertitore gratuito e ti sei ritrovato con immagini spostate o tabelle rotte. Questa frustrazione è molto comune, soprattutto quando si tratta di forme fluttuanti che amano saltare in giro.  
 
-La buona notizia? Con Aspose.Words puoi **convertire docx in PDF** con una singola chiamata e, grazie al flag `PdfSaveOptions.ExportFloatingShapesAsInlineTag`, puoi anche controllare come quelle forme vengono esportate. In questo tutorial percorreremo l'intero processo, dal caricamento di un file `.docx` alla produzione di un PDF pulito che rispetti il tuo layout.
+La buona notizia? Con Aspose Words puoi **convertire docx in pdf** con una singola riga di codice pulita, e puoi persino dire alla libreria di trattare quelle forme fluttuanti come oggetti inline. In questo tutorial percorreremo l’intero processo, dal caricamento di un file DOCX alla messa a punto delle *aspose pdf save options* affinché il PDF finale abbia esattamente lo stesso aspetto del documento Word di origine.
 
-Entro la fine di questa guida sarai in grado di:
+## Cosa Imparerai
 
-* Caricare un documento Word che contiene forme fluttuanti.  
-* Configurare **Aspose PDF save options** affinché le forme diventino tag inline.  
-* Salvare il documento come PDF con poche righe di C#.
+- Come **salvare Word come PDF** usando Aspose Words in C#.
+- La differenza tra la gestione predefinita delle forme fluttuanti e l’opzione `ExportFloatingShapesAsInlineTag`.
+- Consigli pratici per convertire documenti Word che contengono immagini, caselle di testo e altri elementi fluttuanti.
+- Come estendere la soluzione per coprire altri scenari come PDF protetti da password o esportazione di immagini ad alta risoluzione.
 
-Nessuno script esterno, nessuna magia—solo codice solido, pronto per la produzione, che puoi inserire in qualsiasi progetto .NET.
+> **Prerequisiti**  
+> • .NET 6.0 o successivo (il codice funziona su .NET Core, .NET Framework e .NET 5+).  
+> • Una licenza valida di Aspose Words per .NET (oppure puoi usare la modalità di valutazione gratuita).  
+> • Familiarità di base con C# e Visual Studio (o qualsiasi IDE tu preferisca).  
 
-## Prerequisiti
+Se spunti queste caselle, sei pronto per immergerti.
 
-Prima di immergerci, assicurati di avere a disposizione quanto segue:
+![esempio di salvataggio di Word come PDF](/images/save-word-as-pdf.png "Illustrazione di un documento Word salvato come PDF usando Aspose")
 
-| Requisito | Perché è importante |
-|-------------|----------------|
-| **.NET 6.0+** (or .NET Framework 4.7.2) | Aspose.Words supporta entrambi; i runtime più recenti offrono migliori prestazioni. |
-| **Aspose.Words for .NET** Pacchetto NuGet (ultima versione) | Fornisce `Document`, `PdfSaveOptions` e il flag di esportazione delle forme. |
-| Un **sample DOCX** con forme fluttuanti (immagini, caselle di testo o SmartArt) | Per vedere il comportamento di esportazione in azione. |
-| Un IDE come Visual Studio 2022 (opzionale ma comodo) | Rende più semplice il debug e i test. |
+## Passo 1: Configura il Progetto e Installa Aspose Words
 
-Se non hai ancora aggiunto il pacchetto NuGet, esegui:
+Per iniziare, crea un nuovo progetto console (o aggiungi il codice a un’app esistente). Quindi aggiungi il pacchetto NuGet Aspose Words:
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-È tutto—nessun DLL extra, nessun interop COM, solo una dipendenza gestita pulita.
+> **Consiglio da esperto:** Usa l’ultima versione stabile (al momento della stesura, 24.9) per beneficiare di correzioni di bug e delle più recenti *aspose pdf save options*.
 
-## Passo 1: Carica il Documento Word di Origine
+## Passo 2: Carica il DOCX di Origine Contenente Forme Fluttuanti
 
-La prima cosa da fare è fornire ad Aspose.Words un riferimento al file che vuoi trasformare. Questo passaggio è semplice, ma vale la pena notare perché usiamo `Document` invece di `FileStream`.
+Le forme fluttuanti — pensa a caselle di testo, SmartArt o immagini ancorate a un paragrafo — possono causare problemi di layout durante la conversione in PDF. Prima, carichiamo il file Word:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Path to the input DOCX – replace with your actual location
-string inputPath = @"C:\Docs\input.docx";
-
-// Load the document into memory
-Document doc = new Document(inputPath);
-```
-
-**Perché è importante:**  
-`Document` analizza la struttura DOCX una sola volta e la mantiene in memoria, permettendoti di modificare le impostazioni (come la gestione delle forme) prima della conversione vera e propria. Se stessi trasmettendo file di grandi dimensioni, dovresti gestire manualmente lo smaltimento—cosa che evitiamo qui per chiarezza.
-
-## Passo 2: Configura le Opzioni di Salvataggio PDF – Esporta le Forme Fluttuanti come Tag Inline
-
-Per impostazione predefinita Aspose.Words tenta di preservare il layout originale, il che significa che le forme fluttuanti rimangono *fluttuanti* nel PDF. Questo porta spesso a contenuti sovrapposti o immagini fuori posto. L'opzione `ExportFloatingShapesAsInlineTag` indica al motore di trattare quelle forme come elementi inline, “appiattendole” nel flusso di testo.
-
-```csharp
-// Create a PdfSaveOptions instance with the desired flag
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+class Program
 {
-    // When true, floating shapes become <inline> tags in the PDF XML
-    ExportFloatingShapesAsInlineTag = true
-};
-```
-
-**Perché attivare questa opzione:**  
-* **Coerenza** – I tag inline garantiscono che l'aspetto visivo corrisponda alla visualizzazione di Word.  
-* **Compatibilità** – Alcuni visualizzatori PDF interpretano erroneamente gli oggetti fluttuanti, causando artefatti di rendering.  
-* **Ricercabilità** – I tag inline mantengono il testo alternativo della forma collegato al paragrafo circostante, migliorando l'accessibilità.
-
-Se *non* ti serve questo comportamento, imposta semplicemente il flag a `false` o omettilo; il valore predefinito è `false`.
-
-## Passo 3: Salva il Documento come PDF Utilizzando le Opzioni Configurate
-
-Ora che il documento è caricato e le opzioni sono impostate, l'ultimo passo è una singola riga che scrive il PDF su disco.
-
-```csharp
-// Destination path for the PDF
-string outputPath = @"C:\Docs\output.pdf";
-
-// Save the document with the custom PDF options
-doc.Save(outputPath, pdfOptions);
-```
-
-Quando l'operazione di salvataggio è completata, troverai `output.pdf` nella cartella di destinazione. Aprilo con qualsiasi visualizzatore PDF e dovresti vedere che tutte le forme precedentemente fluttuanti fanno ora parte del flusso di testo, preservando il layout senza artefatti.
-
-### Risultato Atteso
-
-* Il PDF appare identico al documento Word quando visualizzato in modalità **Print Layout**.  
-* Immagini o caselle di testo fluttuanti appaiono **inline**, cioè si spostano con il paragrafo se modifichi il testo circostante in seguito.  
-* La dimensione del file è tipicamente qualche kilobyte più piccola perché il PDF non conserva più oggetti fluttuanti separati.
-
-## Esempio Completo e Eseguibile
-
-Di seguito trovi il programma completo che puoi copiare‑incollare in un'app console. Include gestione degli errori, commenti e un piccolo helper per verificare che la conversione sia riuscita.
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToPdfDemo
-{
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Path to your input DOCX file
+        string inputPath = @"C:\Docs\input.docx";
+
+        // Load the document into memory
+        Document doc = new Document(inputPath);
+```
+
+> **Perché è importante:** Il caricamento del documento consente ad Aspose Words di accedere all’intero albero dei nodi interno, fondamentale per successivi aggiustamenti delle *aspose pdf save options*.
+
+## Passo 3: Configura le Opzioni di Salvataggio PDF per Trattare le Forme Fluttuanti come Inline
+
+Per impostazione predefinita, Aspose Words cerca di preservare la posizione esatta delle forme fluttuanti, il che a volte porta a elementi sovrapposti nel PDF. L’impostazione `ExportFloatingShapesAsInlineTag` forza quelle forme a diventare inline, garantendo un layout pulito.
+
+```csharp
+        // Create PDF save options
+        PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            // ---------------------------------------------------------
-            // 1️⃣  Define input and output paths – adjust to your environment
-            // ---------------------------------------------------------
-            string inputPath = @"C:\Docs\input.docx";
-            string outputPath = @"C:\Docs\output.pdf";
+            // This option converts all floating shapes to inline tags
+            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.AsInline
+        };
+```
 
-            try
-            {
-                // ---------------------------------------------------------
-                // 2️⃣  Load the DOCX file into an Aspose.Words Document object
-                // ---------------------------------------------------------
-                Document doc = new Document(inputPath);
-                Console.WriteLine("✅ Loaded DOCX successfully.");
+> **Cosa succede dietro le quinte?** Quando `ExportFloatingShapesAsInlineTag` è impostato su `AsInline`, Aspose Words avvolge ogni forma fluttuante in un tag `<w:inline>` durante la pipeline di conversione. Il renderer PDF le tratta come normali run di testo, eliminando l’effetto “saltante”.
 
-                // ---------------------------------------------------------
-                // 3️⃣  Set up PDF save options – export floating shapes as inline tags
-                // ---------------------------------------------------------
-                PdfSaveOptions pdfOptions = new PdfSaveOptions
-                {
-                    ExportFloatingShapesAsInlineTag = true
-                };
-                Console.WriteLine("🔧 Configured PDF save options (export floating shapes).");
+## Passo 4: Salva il Documento come PDF Utilizzando le Opzioni Configurate
 
-                // ---------------------------------------------------------
-                // 4️⃣  Save the document as PDF using the options above
-                // ---------------------------------------------------------
-                doc.Save(outputPath, pdfOptions);
-                Console.WriteLine($"📄 PDF saved to: {outputPath}");
+Ora scriviamo il file PDF su disco. La stessa riga funziona sia su Windows, Linux o macOS.
 
-                // ---------------------------------------------------------
-                // 5️⃣  Quick verification – check file existence & size
-                // ---------------------------------------------------------
-                var info = new System.IO.FileInfo(outputPath);
-                Console.WriteLine($"✔️ PDF exists: {info.Exists}, Size: {info.Length / 1024} KB");
-            }
-            catch (Exception ex)
-            {
-                // Friendly error message – helps with debugging
-                Console.WriteLine($"❌ An error occurred: {ex.Message}");
-            }
-        }
+```csharp
+        // Destination PDF path
+        string outputPath = @"C:\Docs\output.pdf";
+
+        // Save the document as PDF with our custom options
+        doc.Save(outputPath, pdfOptions);
+
+        Console.WriteLine($"✅ Successfully saved Word as PDF: {outputPath}");
     }
 }
 ```
 
-**Eseguilo:**  
-`dotnet run` dalla cartella del progetto. Se tutto è configurato correttamente, la console stamperà messaggi di successo e il PDF apparirà accanto al tuo DOCX di origine.
+Eseguendo il programma otterrai `output.pdf` dove tutte le forme fluttuanti appaiono inline, corrispondendo al layout visivo che vedi in Word.
 
-## Gestione dei Casi Limite e delle Varianti Comuni
+## Passo 5: Verifica il Risultato e Affronta i Caso Limite più Comuni
 
-### 1️⃣ Conversione di più file in batch
+### Verifica il PDF
 
-Se devi **convertire docx in pdf** per un'intera cartella, avvolgi la logica in un ciclo `foreach`:
+Apri il PDF generato in qualsiasi visualizzatore (Adobe Reader, Chrome, ecc.). Controlla che:
+
+- Le caselle di testo e le immagini siano allineate con il testo circostante.
+- Non ci siano contenuti sovrapposti o tagliati.
+- Il conteggio delle pagine corrisponda al file Word originale.
+
+### Caso Limite 1 – Immagini ad Alta Risoluzione
+
+Se il tuo DOCX contiene immagini ad alta risoluzione, potresti voler mantenere quella qualità. Regola la proprietà `ImageCompression`:
 
 ```csharp
-string sourceFolder = @"C:\Docs\Batch";
-string[] docxFiles = System.IO.Directory.GetFiles(sourceFolder, "*.docx");
+pdfOptions.ImageCompression = PdfImageCompression.Jpeg;
+pdfOptions.JpegQuality = 100; // Max quality
+```
+
+### Caso Limite 2 – PDF Protetti da Password
+
+Per proteggere l’output, aggiungi una password:
+
+```csharp
+pdfOptions.EncryptionDetails = new PdfEncryptionDetails(
+    userPassword: "user123",
+    ownerPassword: "owner456",
+    permissions: PdfPermissionsFlags.Print);
+```
+
+### Caso Limite 3 – Documenti di Grandi Dimensioni
+
+Per file molto grandi, abilita `MemoryOptimization` per ridurre l’uso di RAM:
+
+```csharp
+pdfOptions.MemoryOptimization = true;
+```
+
+Ognuno di questi aggiustamenti fa parte della più ampia suite di *aspose pdf save options*, offrendoti un controllo granulare sul PDF finale.
+
+## Passo 6: Espandi la Soluzione – Convertire più File in Batch
+
+Spesso è necessario **convertire docx in pdf** per decine di file. Avvolgi la logica in un ciclo:
+
+```csharp
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
 
 foreach (var file in docxFiles)
 {
     Document batchDoc = new Document(file);
-    string pdfName = System.IO.Path.ChangeExtension(file, ".pdf");
-    batchDoc.Save(pdfName, pdfOptions);
+    string pdfFile = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfFile, pdfOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(pdfFile)}");
 }
 ```
 
-### 2️⃣ Conservare i Nomi Originali dei File
+Questo modello scala bene e riutilizza le stesse *aspose pdf save options* per garantire coerenza tra tutti gli output.
 
-Quando costruisci un servizio che riceve upload, potresti voler mantenere il nome file originale:
+## Domande Frequenti (FAQ)
 
-```csharp
-string originalName = Path.GetFileNameWithoutExtension(uploadedFile);
-string pdfPath = Path.Combine(outputDir, $"{originalName}.pdf");
-doc.Save(pdfPath, pdfOptions);
-```
+**D: Funziona con file .doc (legacy)?**  
+R: Assolutamente. Aspose Words supporta `.doc`, `.docx`, `.rtf` e molti altri formati. Basta passare il percorso del file a `new Document()` e le stesse opzioni PDF si applicano.
 
-### 3️⃣ Gestire DOCX criptati o protetti da password
+**D: E se ho bisogno che il PDF mantenga le posizioni originali delle forme fluttuanti?**  
+R: Ometti l’impostazione `ExportFloatingShapesAsInlineTag` o impostala su `ExportFloatingShapesAsInlineTag.AsFloating`. Questo dice ad Aspose Words di conservare il layout originale, utile per design complessi.
 
-Aspose.Words può aprire file criptati fornendo una password:
+**D: È possibile incorporare il DOCX originale all’interno del PDF?**  
+R: Sì. Usa `PdfSaveOptions.EmbeddedFiles.Add(new EmbeddedFile("input.docx", File.ReadAllBytes("input.docx")));` Questo crea un allegato PDF che gli utenti possono estrarre.
 
-```csharp
-LoadOptions loadOpts = new LoadOptions { Password = "MySecret" };
-Document protectedDoc = new Document(inputPath, loadOpts);
-protectedDoc.Save(outputPath, pdfOptions);
-```
+## Conclusioni
 
-### 4️⃣ Quando **Non** Vuoi Tag Inline
+In poche righe di C# ora sai come **salvare Word come PDF** in modo affidabile, anche quando i documenti contengono forme fluttuanti difficili. Sfruttando il flag `ExportFloatingShapesAsInlineTag` e le altre *aspose pdf save options*, ottieni il pieno controllo sulla qualità della conversione, sulla sicurezza e sulle prestazioni.
 
-A volte vuoi davvero che le forme fluttuanti rimangano fluttuanti (ad esempio in un layout di brochure). In tal caso, ometti semplicemente il flag o impostalo a `false`. Il resto del codice rimane identico.
+> **Punto chiave:** Che tu stia costruendo un servizio di generazione documenti, automatizzando la distribuzione di report, o semplicemente necessiti di uno strumento di conversione batch, Aspose Words ti offre un percorso pronto per la produzione, senza licenza (valutazione), per **convertire docx in pdf** con risultati prevedibili.
 
-## Consigli Pro e Trappole da Evitare
+### Cosa Viene Dopo?
 
-* **Consiglio pro:** Testa sempre con un documento che contenga *diversi* tipi di forma—immagini, caselle di testo e SmartArt. Questo garantisce che il flag `ExportFloatingShapesAsInlineTag` funzioni in tutti i casi.  
-* **Attenzione a:** Immagini molto grandi possono gonfiare il PDF. Considera di ridimensionarle prima di caricare il DOCX, o imposta `PdfSaveOptions.ImageCompression` a `PdfImageCompression.Jpeg` con un livello di qualità adeguato.  
-* **Controllo versione:** La proprietà `ExportFloatingShapesAsInlineTag` è stata introdotta in Aspose.Words 22.6. Se usi una versione precedente, aggiornala tramite NuGet per evitare una `MissingMethodException`.  
-* **Sicurezza dei thread:** Le istanze di `Document` *non* sono thread‑safe. Se converti file in parallelo, crea un `Document` separato per ogni thread.
+- Esplora **aspose word to pdf** per funzionalità avanzate come la conformità PDF/A.  
+- Combina questo flusso di lavoro con Aspose Cells se devi incorporare fogli Excel nello stesso PDF.  
+- Sperimenta intestazioni/piedi pagina PDF personalizzati usando gli oggetti `PdfPageInfo`.
 
-## Domande Frequenti
+Sentiti libero di modificare il codice, aggiungere il tuo logging o integrarlo in una Web API. Il cielo è il limite quando hai una solida base per le attività di *convert word document pdf*.
 
-**D: Questo funziona con .NET Core?**  
-R: Assolutamente. Aspose.Words è cross‑platform; lo stesso codice gira su Windows, Linux e macOS sotto .NET 6+.
-
-**D: E se il mio DOCX contiene font incorporati?**  
-R: Aspose.Words incorpora automaticamente i font usati nel documento sorgente, così il PDF verrà renderizzato correttamente su qualsiasi macchina.
-
-**D: Posso aggiungere una filigrana durante il salvataggio?**  
-R: Sì—usa il metodo `AddWatermark` di `PdfSaveOptions` o inserisci una forma filigrana nel documento Word prima della conversione.
-
-## Conclusione
-
-Abbiamo coperto tutto ciò che serve per **salvare Word come PDF** usando Aspose.Words, dal caricamento di un `.docx` con forme fluttuanti alla configurazione delle **Aspose PDF save options** che esportano quelle forme come tag inline. L'esempio completo e eseguibile mostra il codice esatto da inserire in un'app console, un servizio web o un worker in background.  
-
-Se ora ti senti sicuro nel convertire docx in pdf in blocco, gestire file criptati o regolare la compressione delle immagini, sei pronto a integrare questa logica in pipeline di generazione documentale più ampie. Successivamente potresti esplorare **come esportare le forme** in SVG, o sperimentare la conformità PDF/A usando impostazioni aggiuntive di `PdfSaveOptions`.
-
-Hai altre domande? Lascia un commento, prova il codice e facci sapere come funziona nel tuo progetto. Buon coding!
+Buon coding, e che i tuoi PDF vengano sempre renderizzati esattamente come ti aspetti!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

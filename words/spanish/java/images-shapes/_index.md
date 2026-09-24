@@ -34,8 +34,10 @@ Un tutorial de código para Aspose.Words Java
 ### [Cómo representar páginas de documentos como miniaturas usando Aspose.Words para Java](./render-word-pages-thumbnails-aspose-java/)
 Aprenda a generar miniaturas de alta calidad y mapas de bits de tamaño personalizado de documentos de Word con Aspose.Words para Java. Mejore sus capacidades de gestión de documentos hoy mismo.
 
-## Recursos adicionales
+### [Agregar sombra a una forma en Word – Guía completa de Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words para Java.
 
+## Recursos adicionales
 - [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)
 - [Referencia de la API de Aspose.Words para Java](https://reference.aspose.com/words/java/)
 - [Descargar Aspose.Words para Java](https://releases.aspose.com/words/java/)

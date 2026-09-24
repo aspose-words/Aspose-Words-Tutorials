@@ -1,0 +1,7 @@
+Title: Convert docx to pdf in C# – Complete Step‑by‑Step Guide
+Slug: convert-docx-to-pdf-in-c-complete-step-by-step-guide
+Category: basic-conversions
+ProcessedDate: 2026-05-30T07:01:30.332236
+SourceRepo: AI Search API
+Keywords: convert docx to pdf, save word document as pdf, how to convert word to pdf c#
+PRNumber: 194

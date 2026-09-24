@@ -20,6 +20,12 @@ Words Processing with Headers and Footers là một nguồn tài nguyên toàn d
 
 
  ## Hướng dẫn
+
+{{< tutorial-card link="./insert-header-date/" title="Chèn ngày động vào phần đầu trang trong tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-header-date/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-page-numbers/" title="Thêm số trang vào chân trang của tài liệu Word bằng Aspose.Words for .NET" imgSrc="./add-page-numbers/images/thumb.png" >}}
+
+
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Tạo Header Footer](./create-header-footer/) | Tìm hiểu cách tạo tiêu đề và chân trang trong tài liệu Word của bạn bằng Aspose.Words cho .NET. Tùy chỉnh tiêu đề và chân trang cho từng trang. |

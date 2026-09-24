@@ -1,0 +1,21 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak utworzyć dokument Word, dodać akapit tekstu i wstawić kształt poziomej linii przy użyciu Document i DocumentBuilder.
+//ExStepSummary:0: Utwórz nowy pusty dokument Word, tworząc instancję klasy Document.
+//ExStepSummary:1: Utwórz obiekt DocumentBuilder powiązany z dokumentem, aby umożliwić operacje edycji.
+//ExStepSummary:2: Napisz akapit tekstu, a następnie wstaw kształt poziomej linii w miejscu kursora przy użyciu DocumentBuilder.
+//ExStepSummary:3: Zdefiniuj ścieżkę folderu wyjściowego i zapisz dokument jako plik .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document doc = new Document();
+
+//ExStep:1-
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:2-
+builder.Writeln("Insert a horizontal rule shape into the document.");
+builder.InsertHorizontalRule();
+
+//ExStep:3-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHorizontalRule.docx");
+//ExEnd

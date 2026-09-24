@@ -1,23 +1,25 @@
 ---
 category: general
-date: 2026-02-24
-description: 了解如何使用 Aspose PDF 保存选项在导出形状时将 Word 保存为 PDF 并将 docx 转换为 PDF。附带逐步 C# 代码示例。
+date: 2026-01-13
+description: 使用 Aspose Words 即时将 Word 保存为 PDF。学习将 docx 转换为 pdf，处理浮动形状，并在几分钟内掌握 Aspose
+  PDF 保存选项。
 draft: false
 keywords:
 - save word as pdf
 - convert docx to pdf
-- how to convert docx
-- how to export shapes
+- convert word document pdf
+- aspose word to pdf
 - aspose pdf save options
 language: zh
-og_description: 使用 Aspose.Words 在 C# 中将 Word 保存为 PDF。本指南展示了如何将 docx 转换为 PDF，并使用 PDF
-  保存选项导出浮动形状。
-og_title: 使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南
+og_description: 立即使用 Aspose Words 将 Word 保存为 PDF。学习将 docx 转换为 pdf，处理浮动形状，并掌握 Aspose
+  PDF 保存选项。
+og_title: 使用 Aspose Words 将 Word 保存为 PDF – 完整 C# 指南
 tags:
 - Aspose.Words
-- C#
 - PDF conversion
-title: 使用 Aspose.Words 将 Word 保存为 PDF – 完整 C# 指南
+- C#
+- Document processing
+title: 使用 Aspose Words 将 Word 保存为 PDF – 完整 C# 指南
 url: /zh/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
@@ -25,227 +27,176 @@ url: /zh/net/programming-with-pdfsaveoptions/save-word-as-pdf-with-aspose-words-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 将 Word 保存为 PDF – 完整功能的 C# 教程
+# 使用 Aspose Words 将 Word 保存为 PDF – 完整 C# 指南
 
-是否曾经需要 **将 Word 保存为 PDF**，但在文档中包含漂浮的图像或文本框时总是碰壁？你并不是唯一遇到这种情况的人。在许多实际项目中——比如合同生成器、报表工具或在线学习平台——这些漂浮的形状会破坏 PDF 布局，除非你告诉库如何处理它们。
+是否曾想过 **将 Word 保存为 PDF** 而不失去布局精度？也许你尝试过一些免费转换器，却得到图片错位或表格破碎的结果。这种挫败感非常常见，尤其是面对那些喜欢四处跳动的浮动形状时。
 
-好消息是？使用 Aspose.Words，你可以在一次调用中 **将 docx 转换为 PDF**，并且借助 `PdfSaveOptions.ExportFloatingShapesAsInlineTag` 标志，还可以控制这些形状的导出方式。在本教程中，我们将完整演示整个过程，从加载 `.docx` 文件到生成保持布局的干净 PDF。
+好消息是？使用 Aspose Words，你只需一行简洁代码即可 **将 docx 转换为 pdf**，甚至可以让库将这些浮动形状视为内联对象。在本教程中，我们将从加载 DOCX 文件到微调 *aspose pdf save options*，完整演示整个过程，使最终的 PDF 与源 Word 文档完全一致。
 
-在本指南结束时，你将能够：
+## 你将学到
 
-* 加载包含漂浮形状的 Word 文档。  
-* 配置 **Aspose PDF 保存选项** 使形状成为 inline 标签。  
-* 仅用几行 C# 代码将文档保存为 PDF。  
+- 如何使用 Aspose Words 在 C# 中 **将 Word 保存为 PDF**。  
+- 默认的浮动形状处理方式与 `ExportFloatingShapesAsInlineTag` 选项之间的区别。  
+- 转换包含图片、文本框和其他浮动元素的 Word 文档的实战技巧。  
+- 如何扩展解决方案，以覆盖密码保护的 PDF 或高分辨率图片导出等场景。
 
-无需外部脚本、无需魔法——只需稳健、可用于生产环境的代码，随时可以嵌入任何 .NET 项目。
+> **先决条件**  
+> • .NET 6.0 或更高（代码在 .NET Core、.NET Framework 和 .NET 5+ 上均可运行）。  
+> • 有效的 Aspose Words for .NET 许可证（或使用免费评估模式）。  
+> • 基本的 C# 与 Visual Studio（或任意你喜欢的 IDE）使用经验。  
 
-## 前置条件
+满足以上条件，即可开始动手。
 
-在深入之前，请确保你已准备好以下内容：
+![save word as pdf example](/images/save-word-as-pdf.png "Illustration of a Word document being saved as PDF using Aspose")
 
-| Requirement | Why it matters |
-|-------------|----------------|
-| **.NET 6.0+** (or .NET Framework 4.7.2) | Aspose.Words 同时支持两者；更新的运行时提供更佳性能。 |
-| **Aspose.Words for .NET** NuGet package (latest version) | 提供 `Document`、`PdfSaveOptions` 以及形状导出标志。 |
-| A **sample DOCX** with floating shapes (images, text boxes, or SmartArt) | 用于实际查看导出行为。 |
-| An IDE like Visual Studio 2022 (optional but handy) | 便于调试和测试。 |
+## 步骤 1：设置项目并安装 Aspose Words
 
-如果尚未添加 NuGet 包，请运行：
+首先，创建一个新的控制台项目（或在现有应用中添加代码），然后通过 NuGet 引入 Aspose Words 包：
 
 ```bash
 dotnet add package Aspose.Words
 ```
 
-就是这样——无需额外 DLL、无需 COM 互操作，只需一个干净的托管依赖。
+> **专业提示：** 使用最新的稳定版本（截至本文撰写时为 24.9），可获得 bug 修复和最新的 *aspose pdf save options*。
 
-## 第一步：加载源 Word 文档
+## 步骤 2：加载包含浮动形状的源 DOCX
 
-首先，需要让 Aspose.Words 获取你想要转换的文件句柄。这一步很简单，但值得说明为何我们使用 `Document` 而不是 `FileStream`。
+浮动形状——比如文本框、SmartArt 或锚定在段落上的图片——在转换为 PDF 时常会导致布局混乱。首先，加载 Word 文件：
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-// Path to the input DOCX – replace with your actual location
-string inputPath = @"C:\Docs\input.docx";
-
-// Load the document into memory
-Document doc = new Document(inputPath);
-```
-
-**为什么重要：**  
-`Document` 会一次性解析 DOCX 结构并保存在内存中，使你能够在实际转换前调整设置（例如形状处理）。如果使用流式读取大文件，则需要手动管理释放——这里为了清晰起见我们避免了这种做法。
-
-## 第二步：配置 PDF 保存选项 – 将漂浮形状导出为 Inline 标签
-
-默认情况下，Aspose.Words 会尝试保留原始布局，这意味着漂浮形状在 PDF 中仍保持 *漂浮* 状态。这常导致内容重叠或图像错位。`ExportFloatingShapesAsInlineTag` 选项指示引擎将这些形状视为 inline 元素，实质上将它们“扁平化”到文本流中。
-
-```csharp
-// Create a PdfSaveOptions instance with the desired flag
-PdfSaveOptions pdfOptions = new PdfSaveOptions
+class Program
 {
-    // When true, floating shapes become <inline> tags in the PDF XML
-    ExportFloatingShapesAsInlineTag = true
-};
-```
-
-**为什么要启用此选项：**  
-* **一致性** – Inline 标签确保视觉效果与 Word 视图保持一致。  
-* **兼容性** – 某些 PDF 查看器会误解漂浮对象，导致渲染错误。  
-* **可搜索性** – Inline 标签将形状的 alt 文本附加到所在段落，提高可访问性。  
-
-如果*不需要*此行为，只需将标志设为 `false` 或省略该选项；默认值即为 `false`。
-
-## 第三步：使用已配置的选项将文档保存为 PDF
-
-现在文档已加载且选项已设置，最后一步只需一行代码即可将 PDF 写入磁盘。
-
-```csharp
-// Destination path for the PDF
-string outputPath = @"C:\Docs\output.pdf";
-
-// Save the document with the custom PDF options
-doc.Save(outputPath, pdfOptions);
-```
-
-保存操作完成后，你会在目标文件夹中看到 `output.pdf`。用任意 PDF 查看器打开，你会发现所有原本漂浮的形状现在都已成为文本流的一部分，保持布局且没有多余的碎片。
-
-### 预期结果
-
-* PDF 在 **打印布局** 模式下看起来与 Word 文档完全相同。  
-* 漂浮的图像或文本框以 **inline** 形式出现，这意味着如果后续编辑周围文本，它们会随段落一起移动。  
-* 文件大小通常会小几千字节，因为 PDF 不再存储独立的漂浮对象。
-
-## 完整、可运行的示例
-
-下面是完整的程序代码，可直接复制粘贴到控制台应用中。它包含错误处理、注释以及一个小助手，用于验证转换是否成功。
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToPdfDemo
-{
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Path to your input DOCX file
+        string inputPath = @"C:\Docs\input.docx";
+
+        // Load the document into memory
+        Document doc = new Document(inputPath);
+```
+
+> **为何重要：** 加载文档后，Aspose Words 能完整访问内部节点树，这对后续微调 *aspose pdf save options* 至关重要。
+
+## 步骤 3：配置 PDF 保存选项，将浮动形状视为内联
+
+默认情况下，Aspose Words 会尝试保留浮动形状的精确位置，这有时会导致 PDF 中元素重叠。`ExportFloatingShapesAsInlineTag` 设置会强制这些形状转为内联，从而保证布局整洁。
+
+```csharp
+        // Create PDF save options
+        PdfSaveOptions pdfOptions = new PdfSaveOptions
         {
-            // ---------------------------------------------------------
-            // 1️⃣  Define input and output paths – adjust to your environment
-            // ---------------------------------------------------------
-            string inputPath = @"C:\Docs\input.docx";
-            string outputPath = @"C:\Docs\output.pdf";
+            // This option converts all floating shapes to inline tags
+            ExportFloatingShapesAsInlineTag = ExportFloatingShapesAsInlineTag.AsInline
+        };
+```
 
-            try
-            {
-                // ---------------------------------------------------------
-                // 2️⃣  Load the DOCX file into an Aspose.Words Document object
-                // ---------------------------------------------------------
-                Document doc = new Document(inputPath);
-                Console.WriteLine("✅ Loaded DOCX successfully.");
+> **内部原理是什么？** 当 `ExportFloatingShapesAsInlineTag` 设置为 `AsInline` 时，Aspose Words 会在转换管道中为每个浮动形状包装一个 `<w:inline>` 标记。PDF 渲染器随后将其视为普通文本运行，从而消除“跳动”效果。
 
-                // ---------------------------------------------------------
-                // 3️⃣  Set up PDF save options – export floating shapes as inline tags
-                // ---------------------------------------------------------
-                PdfSaveOptions pdfOptions = new PdfSaveOptions
-                {
-                    ExportFloatingShapesAsInlineTag = true
-                };
-                Console.WriteLine("🔧 Configured PDF save options (export floating shapes).");
+## 步骤 4：使用配置好的选项将文档保存为 PDF
 
-                // ---------------------------------------------------------
-                // 4️⃣  Save the document as PDF using the options above
-                // ---------------------------------------------------------
-                doc.Save(outputPath, pdfOptions);
-                Console.WriteLine($"📄 PDF saved to: {outputPath}");
+现在将 PDF 写入磁盘。无论在 Windows、Linux 还是 macOS 上，这行代码都适用。
 
-                // ---------------------------------------------------------
-                // 5️⃣  Quick verification – check file existence & size
-                // ---------------------------------------------------------
-                var info = new System.IO.FileInfo(outputPath);
-                Console.WriteLine($"✔️ PDF exists: {info.Exists}, Size: {info.Length / 1024} KB");
-            }
-            catch (Exception ex)
-            {
-                // Friendly error message – helps with debugging
-                Console.WriteLine($"❌ An error occurred: {ex.Message}");
-            }
-        }
+```csharp
+        // Destination PDF path
+        string outputPath = @"C:\Docs\output.pdf";
+
+        // Save the document as PDF with our custom options
+        doc.Save(outputPath, pdfOptions);
+
+        Console.WriteLine($"✅ Successfully saved Word as PDF: {outputPath}");
     }
 }
 ```
 
-**运行方式：**  
-在项目文件夹中执行 `dotnet run`。如果一切配置正确，控制台会打印成功信息，PDF 将出现在源 DOCX 同目录下。
+运行程序后会生成 `output.pdf`，其中所有浮动形状均已内联显示，视觉布局与 Word 中一致。
 
-## 处理边缘情况与常见变体
+## 步骤 5：验证结果并处理常见边缘情况
 
-### 1️⃣ 批量转换多个文件
+### 验证 PDF
 
-如果需要对整个文件夹的 **docx 转 pdf**，可以将逻辑包装在 `foreach` 循环中：
+在任意阅读器（Adobe Reader、Chrome 等）中打开生成的 PDF，检查以下内容：
+
+- 文本框和图片与周围文字对齐。  
+- 没有重叠或被裁剪的内容。  
+- 页数与原始 Word 文件相匹配。
+
+### 边缘情况 1 – 高分辨率图片
+
+如果 DOCX 中包含高分辨率图片，可能需要保留其质量。可调整 `ImageCompression` 属性：
 
 ```csharp
-string sourceFolder = @"C:\Docs\Batch";
-string[] docxFiles = System.IO.Directory.GetFiles(sourceFolder, "*.docx");
+pdfOptions.ImageCompression = PdfImageCompression.Jpeg;
+pdfOptions.JpegQuality = 100; // Max quality
+```
+
+### 边缘情况 2 – 密码保护的 PDF
+
+若需为输出文件加密，可添加密码：
+
+```csharp
+pdfOptions.EncryptionDetails = new PdfEncryptionDetails(
+    userPassword: "user123",
+    ownerPassword: "owner456",
+    permissions: PdfPermissionsFlags.Print);
+```
+
+### 边缘情况 3 – 大型文档
+
+对于超大文件，可启用 `MemoryOptimization` 以降低内存占用：
+
+```csharp
+pdfOptions.MemoryOptimization = true;
+```
+
+这些调优都属于更广泛的 *aspose pdf save options* 套件，让你对最终 PDF 拥有细粒度的控制。
+
+## 步骤 6：扩展方案 – 批量转换多个文件
+
+通常需要 **将 docx 转换为 pdf** 的文件可能有数十个。将逻辑包装在循环中：
+
+```csharp
+string[] docxFiles = Directory.GetFiles(@"C:\Docs\Batch", "*.docx");
 
 foreach (var file in docxFiles)
 {
     Document batchDoc = new Document(file);
-    string pdfName = System.IO.Path.ChangeExtension(file, ".pdf");
-    batchDoc.Save(pdfName, pdfOptions);
+    string pdfFile = Path.ChangeExtension(file, ".pdf");
+    batchDoc.Save(pdfFile, pdfOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(pdfFile)}");
 }
 ```
 
-### 2️⃣ 保持原始文件名
+该模式易于扩展，并在所有输出中复用相同的 *aspose pdf save options*，保持一致性。
 
-当你构建接收上传的服务时，可能需要保留原始文件名：
+## 常见问题解答 (FAQ)
 
-```csharp
-string originalName = Path.GetFileNameWithoutExtension(uploadedFile);
-string pdfPath = Path.Combine(outputDir, $"{originalName}.pdf");
-doc.Save(pdfPath, pdfOptions);
-```
+**问：这能处理 .doc（旧版）文件吗？**  
+答：完全可以。Aspose Words 支持 `.doc`、`.docx`、`.rtf` 等多种格式。只需将文件路径传给 `new Document()`，相同的 PDF 选项同样适用。
 
-### 3️⃣ 处理加密或受密码保护的 DOCX
+**问：如果我想保留原始的浮动形状位置怎么办？**  
+答：省略 `ExportFloatingShapesAsInlineTag` 设置，或将其设为 `ExportFloatingShapesAsInlineTag.AsFloating`。这会让 Aspose Words 保持原始布局，适用于复杂设计。
 
-Aspose.Words 可以通过提供密码来打开加密文件：
+**问：有没有办法将原始 DOCX 嵌入到 PDF 中？**  
+答：有。使用 `PdfSaveOptions.EmbeddedFiles.Add(new EmbeddedFile("input.docx", File.ReadAllBytes("input.docx")));` 即可在 PDF 中创建可提取的附件。
 
-```csharp
-LoadOptions loadOpts = new LoadOptions { Password = "MySecret" };
-Document protectedDoc = new Document(inputPath, loadOpts);
-protectedDoc.Save(outputPath, pdfOptions);
-```
+## 总结
 
-### 4️⃣ 当你 **不想** 使用 Inline 标签时
+只需几行 C# 代码，你就掌握了在文档包含棘手浮动形状时，如何可靠地 **将 Word 保存为 PDF**。通过利用 `ExportFloatingShapesAsInlineTag` 标志以及其他 *aspose pdf save options*，你可以全面控制转换质量、安保与性能。
 
-有时你确实希望漂浮形状保持漂浮状态（例如宣传册布局）。此时，只需省略该标志或将其设为 `false`。其余代码保持不变。
+> **要点：** 无论是构建文档生成服务、自动化报告分发，还是仅需批量转换工具，Aspose Words 都提供了生产就绪、无需许可证（评估版）的路径，实现 **将 docx 转换为 pdf** 并获得可预期的结果。
 
-## 专业技巧与需注意的陷阱
+### 接下来该做什么？
 
-* **专业提示：** 始终使用包含*不同*形状类型（图片、文本框和 SmartArt）的文档进行测试。这样可确保 `ExportFloatingShapesAsInlineTag` 标志在所有情况下均能正常工作。  
-* **注意事项：** 超大图片会导致 PDF 体积膨胀。考虑在加载 DOCX 前先压缩图片，或将 `PdfSaveOptions.ImageCompression` 设置为 `PdfImageCompression.Jpeg` 并指定合适的质量等级。  
-* **版本检查：** `ExportFloatingShapesAsInlineTag` 属性在 Aspose.Words 22.6 中引入。如果使用更旧的版本，请通过 NuGet 升级，以避免 `MissingMethodException`。  
-* **线程安全：** `Document` 实例*不是*线程安全的。如果并行转换文件，请为每个线程创建独立的 `Document` 实例。
+- 探索 **aspose word to pdf** 的高级功能，如 PDF/A 合规。  
+- 若需在同一 PDF 中嵌入 Excel 表格，可结合 Aspose Cells 使用。  
+- 使用 `PdfPageInfo` 对象尝试自定义 PDF 页面页眉/页脚。
 
-## 常见问题
+欢迎自行修改代码、添加日志，或集成到 Web API 中。当你拥有坚实的 *convert word document pdf* 基础时，创意的天空才是极限。
 
-**问：这在 .NET Core 上能工作吗？**  
-**答：** 当然可以。Aspose.Words 跨平台，相同代码可在 Windows、Linux 和 macOS 上的 .NET 6+ 环境运行。
-
-**问：如果我的 DOCX 包含嵌入字体怎么办？**  
-**答：** Aspose.Words 会自动嵌入源文档使用的字体，因此 PDF 在任何机器上都能正确渲染。
-
-**问：保存时能添加水印吗？**  
-**答：** 可以——使用 `PdfSaveOptions` 的 `AddWatermark` 方法，或在转换前向 Word 文档中插入水印形状。
-
-## 结论
-
-我们已经完整介绍了使用 Aspose.Words **将 Word 保存为 PDF** 的全部要点，从加载包含漂浮形状的 `.docx` 到配置 **Aspose PDF 保存选项** 以将这些形状导出为 inline 标签。完整的可运行示例展示了可以直接嵌入控制台应用、Web 服务或后台任务的代码。
-
-如果你现在对批量将 docx 转 pdf、处理加密文件或调整图像压缩已经胸有成竹，就可以将此逻辑集成到更大的文档生成流水线中。接下来，你可以探索 **如何将形状导出为 SVG**，或使用额外的 `PdfSaveOptions` 设置尝试 PDF/A 合规性。
-
-还有其他问题吗？留下评论，尝试代码，并告诉我们它在你的项目中的表现。祝编码愉快！
+祝编码愉快，愿你的 PDF 总是如你所愿完美呈现！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

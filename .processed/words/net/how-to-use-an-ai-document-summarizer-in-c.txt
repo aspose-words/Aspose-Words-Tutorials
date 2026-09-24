@@ -1,0 +1,7 @@
+Title: How to use an ai document summarizer in C#
+Slug: how-to-use-an-ai-document-summarizer-in-c
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-21T15:45:18.893464
+SourceRepo: AI Search API
+Keywords: ai document summarizer, ai powered summarization, create summary from word, summarize docx with ai, summarize using google
+PRNumber: 282
