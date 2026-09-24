@@ -5,7 +5,9 @@
 "url": "/ar/python-net/tables-lists/aspose-words-python-table-merges/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # دمج الجداول الرئيسية في Aspose.Words لـ Python
 
 ## مقدمة
@@ -213,3 +215,7 @@ Aspose.Words لبايثون متعدد الاستخدامات. إليك بعض �
 - [نسخة تجريبية مجانية](https://releases.aspose.com/words/python/)
 - [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

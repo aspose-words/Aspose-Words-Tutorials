@@ -1,11 +1,11 @@
 ---
-date: 2026-02-24
-description: Leer hoe je Word naar markdown kunt converteren met Aspose.Words voor
-  Java. Deze gids behandelt tabeluitlijning, beeldverwerking en hoe je een document
-  als markdown opslaat.
+date: 2025-12-22
+description: Leer hoe je Markdown exporteert door Word‑documenten naar Markdown te
+  converteren met Aspose.Words for Java. Deze stapsgewijze gids behandelt tabeluitlijning,
+  afbeeldingverwerking en meer.
 linktitle: Saving Documents as Markdown
 second_title: Aspose.Words Java Document Processing API
-title: Converteer Word naar Markdown met Aspose.Words voor Java
+title: Hoe Markdown te exporteren met Aspose.Words voor Java
 url: /nl/java/document-loading-and-saving/saving-documents-as-markdown/
 weight: 18
 ---
@@ -16,42 +16,33 @@ weight: 18
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Word naar Markdown converteren met Aspose.Words voor Java
+# Hoe Markdown Exporteren met Aspose.Words voor Java
 
-## Introductie tot Word naar Markdown converteren met Aspose.Words voor Java
+## Introductie tot het Exporteren van Markdown in Aspose.Words voor Java
 
-In deze stap‑voor‑stap‑handleiding leer je **hoe je Word naar Markdown kunt converteren** met de krachtige Aspose.Words voor Java API. Markdown is een lichtgewicht opmaaktaal die veel ontwikkelaars en contentplatforms gebruiken voor schone, leesbare documentatie. Aan het einde van deze gids kun je elk `.docx`‑bestand nemen, tabellen, afbeeldingen en opmaak behouden, en exporteren als een `.md`‑bestand dat klaar is voor static‑site generators, GitHub‑README’s of elke markdown‑vriendelijke workflow.
+In deze stapsgewijze tutorial leer je **hoe je markdown kunt exporteren** vanuit Word‑documenten met Aspose.Words voor Java. Markdown is een lichtgewicht opmaaktaal die perfect is voor documentatie, statische site‑generatoren en vele publicatieplatformen. Aan het einde van deze gids kun je **Word naar markdown converteren**, de uitlijning van tabellen aanpassen en **afbeeldingen in markdown** moeiteloos verwerken.
 
-## Snelle antwoorden
-- **Welke bibliotheek heb ik nodig?** Aspose.Words voor Java (`aspose-words.jar`).
-- **Kan ik de uitlijning van tabellen aanpassen?** Ja – gebruik `TableContentAlignment` in `MarkdownSaveOptions`.
-- **Hoe worden afbeeldingen afgehandeld?** Stel een afbeeldingenmap in met `setImagesFolder()`; de bibliotheek maakt relatieve links.
-- **Heb ik een licentie nodig voor productie?** Een commerciële licentie is vereist voor niet‑trial gebruik.
-- **Is dit compatibel met Java 17?** Ja, de bibliotheek ondersteunt Java 8 en hoger.
+## Snelle Antwoorden
+- **Wat is de primaire klasse voor opslaan als Markdown?** `MarkdownSaveOptions`
+- **Kunnen afbeeldingen automatisch worden ingebed?** Ja – stel de afbeeldingsmap in via `setImagesFolder`.
+- **Hoe kan ik de uitlijning van tabellen regelen?** Gebruik `TableContentAlignment` (LEFT, RIGHT, CENTER, AUTO).
+- **Wat zijn de minimale vereisten?** JDK 8+ en de Aspose.Words voor Java‑bibliotheek.
+- **Is er een proefversie beschikbaar?** Ja, download deze van de Aspose‑website.
 
-## Wat is Word naar Markdown converteren?
+## Wat betekent “hoe markdown exporteren”?
+Markdown exporteren betekent dat je een rijk‑tekst Word‑document (`.docx`) neemt en een platte‑tekst `.md`‑bestand genereert dat koppen, tabellen en afbeeldingen behoudt in Markdown‑syntaxis.
 
-Word naar Markdown converteren betekent dat je de rijke opmaak van een Microsoft Word‑document vertaalt naar platte‑tekst markdown‑syntaxis. Dit proces behoudt koppen, lijsten, tabellen en afbeeldingsverwijzingen terwijl binaire opmaak wordt verwijderd, waardoor de inhoud draagbaar en versie‑control‑vriendelijk wordt.
-
-## Waarom Aspose.Words voor Java gebruiken om een document als markdown op te slaan?
-
-* **Volledige getrouwheid** – tabellen, afbeeldingen en complexe lay-outs worden behouden.
-* **Fijne controle** – je kunt de uitlijning van tabellen, afbeeldingspaden en meer aanpassen.
-* **Geen externe afhankelijkheden** – de bibliotheek werkt out‑of‑the‑box zonder dat Office geïnstalleerd hoeft te zijn.
-* **Cross‑platform** – werkt op Windows, Linux en macOS met elke Java‑runtime.
+## Waarom Aspose.Words voor Java gebruiken om docx met afbeeldingen te converteren?
+Aspose.Words verwerkt complexe lay‑outs, ingebedde afbeeldingen en tabelstructuren zonder verlies van kwaliteit. Het biedt ook fijne controle over de Markdown‑output, zoals tabeluitlijning en beheer van de afbeeldingsmap.
 
 ## Vereisten
 
-Voordat je begint, zorg dat je het volgende hebt:
-
 - Java Development Kit (JDK) geïnstalleerd op je systeem.
-- Aspose.Words voor Java bibliotheek. Je kunt deze downloaden van [hier](https://releases.aspose.com/words/java/).
+- Aspose.Words voor Java‑bibliotheek. Je kunt deze downloaden van [hier](https://releases.aspose.com/words/java/).
 
-## Stapsgewijze handleiding
+## Stap 1: Maak een eenvoudig Word‑document
 
-### Stap 1: Maak een Word‑document dat wordt geconverteerd
-
-Eerst bouwen we een eenvoudig Word‑document met een tabel van twee cellen. Dit voorbeeld laat zien hoe alinea‑uitlijning binnen tabelcellen wordt gerespecteerd wanneer we later **het document als markdown opslaan**.
+Eerst maken we een klein document dat een tabel bevat. Hiermee kunnen we later **de uitlijning van tabellen aanpassen** demonstreren.
 
 ```java
 Document doc = new Document();
@@ -71,9 +62,16 @@ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 doc.save("output.md", saveOptions);
 ```
 
-### Stap 2: Pas de uitlijning van tabelinhoud aan
+In het bovenstaande fragment doen we:
 
-Aspose.Words voor Java stelt je in staat te bepalen hoe tabelcellen worden uitgelijnd in de gegenereerde markdown. Gebruik de eigenschap `TableContentAlignment` om **tabeluitlijning aan te passen** naar links, rechts, gecentreerd, of laat de bibliotheek automatisch beslissen op basis van de eerste alinea in elke kolom.
+1. Maak een nieuw `Document` aan.
+2. Gebruik `DocumentBuilder` om een tabel met twee cellen in te voegen.
+3. Pas **rechts** en **centraal** alinea‑uitlijning toe binnen elke cel.
+4. Sla het bestand op als Markdown met `MarkdownSaveOptions`.
+
+## Stap 2: Pas de uitlijning van tabelinhoud aan
+
+Aspose.Words stelt je in staat te bepalen hoe tabelcellen worden weergegeven in de uiteindelijke Markdown. Je kunt links, rechts of gecentreerd forceren, of de bibliotheek automatisch laten beslissen op basis van de eerste alinea in elke kolom.
 
 ```java
 // Set the table content alignment to left
@@ -93,11 +91,11 @@ saveOptions.setTableContentAlignment(TableContentAlignment.AUTO);
 doc.save("auto_alignment.md", saveOptions);
 ```
 
-Door deze instelling te wijzigen kun je **Word‑tabellen naar markdown exporteren** met de exacte uitlijning die je nodig hebt voor downstream render‑engines.
+Door de eigenschap `TableContentAlignment` te wijzigen, beheer je **het aanpassen van de tabeluitlijning** voor de Markdown‑output.
 
-### Stap 3: Afbeeldingen afhandelen tijdens conversie
+## Stap 3: Afbeeldingen verwerken bij het exporteren naar markdown
 
-Wanneer je bron‑Word‑document afbeeldingen bevat, moet je Aspose.Words vertellen waar de geëxporteerde afbeeldingsbestanden moeten worden geplaatst. De methode `setImagesFolder` op `MarkdownSaveOptions` definieert de map die de afbeeldingsassets bevat, en de markdown bevat relatieve links naar die bestanden.
+Wanneer een document afbeeldingen bevat, wil je dat die afbeeldingen correct verschijnen in het gegenereerde `.md`‑bestand. Stel de map in waar Aspose.Words de geëxtraheerde afbeeldingen moet plaatsen.
 
 ```java
 // Load a document containing images
@@ -111,11 +109,9 @@ saveOptions.setImagesFolder("images_folder/");
 doc.save("document_with_images.md", saveOptions);
 ```
 
-Vervang `"document_with_images.docx"` door het pad naar je bronbestand en `"images_folder/"` door de gewenste uitvoermap voor de afbeeldingen.
+Vervang `"document_with_images.docx"` door het pad naar je bronbestand en `"images_folder/"` door de locatie waar je de afbeeldingen wilt opslaan. De resulterende Markdown zal afbeeldingslinks bevatten die naar deze map wijzen, waardoor je **afbeeldingen in markdown** moeiteloos kunt verwerken.
 
-### Complete broncode voor alle scenario's
-
-Hieronder staat een geconsolideerd voorbeeld dat laat zien hoe je **automatische tabeluitlijning**, **aangepaste uitlijning** en **een afbeeldingenmap instelt** in één methode. Deze snippet spiegelt de oorspronkelijke tutorialcode en werkt ongewijzigd.
+## Complete Broncode voor het Opslaan van Documenten als Markdown in Aspose.Words voor Java
 
 ```java
 public void autoTableContentAlignment() throws Exception
@@ -154,40 +150,35 @@ public void setImagesFolder() throws Exception
 }
 ```
 
-## Veelvoorkomende problemen en oplossingen
+## Veelvoorkomende Problemen en Oplossingen
 
-| Probleem | Reden | Oplossing |
-|----------|-------|-----------|
-| Afbeeldingen verschijnen als kapotte links | `setImagesFolder` niet ingesteld of mappad onjuist | Controleer of het mappad correct is en of de map schrijfbaar is |
-| Tabeluitlijning ziet er verkeerd uit | Verkeerde `TableContentAlignment`‑waarde | Gebruik `TableContentAlignment.AUTO` om de eerste alinea te laten bepalen, of stel expliciet LEFT/RIGHT/CENTER in |
-| Uitvoerbestand is leeg | Opslagopties niet doorgegeven aan `doc.save()` | Zorg ervoor dat je de `MarkdownSaveOptions`‑instantie doorgeeft aan de `save`‑methode |
-| Niet‑ondersteunde Word‑functies (bijv. SmartArt) | Markdown kan sommige complexe objecten niet weergeven | Converteer die elementen naar afbeeldingen vóór het opslaan, of vereenvoudig het bron‑document |
+| Probleem | Oplossing |
+|----------|-----------|
+| Afbeeldingen verschijnen niet in het `.md`‑bestand | Controleer of `setImagesFolder` naar een beschrijfbare map wijst en of de map correct wordt gerefereerd in de gegenereerde Markdown. |
+| Tabeluitlijning ziet er verkeerd uit | Gebruik `TableContentAlignment.AUTO` zodat Aspose.Words de beste uitlijning kan afleiden op basis van de eerste alinea van elke kolom. |
+| Uitvoerbestand is leeg | Zorg ervoor dat het `Document`‑object daadwerkelijk inhoud bevat voordat je `save` aanroept. |
 
-## Veelgestelde vragen
+## Veelgestelde Vragen
 
-**V: Hoe installeer ik Aspose.Words voor Java?**  
-A: Aspose.Words voor Java kan worden geïnstalleerd door de bibliotheek op te nemen in je Java‑project. Je kunt de bibliotheek downloaden van [hier](https://releases.aspose.com/words/java/) en de installatie‑instructies volgen die in de documentatie staan.
+**Q: Hoe installeer ik Aspose.Words voor Java?**  
+A: Aspose.Words voor Java kan worden geïnstalleerd door de bibliotheek op te nemen in je Java‑project. Je kunt de bibliotheek downloaden van [hier](https://releases.aspose.com/words/java/) en de installatie‑instructies volgen die in de documentatie worden gegeven.
 
-**V: Kan ik complexe Word‑documenten met tabellen en afbeeldingen naar Markdown converteren?**  
+**Q: Kan ik complexe Word‑documenten met tabellen en afbeeldingen naar Markdown converteren?**  
 A: Ja, Aspose.Words voor Java ondersteunt de conversie van complexe Word‑documenten met tabellen, afbeeldingen en diverse opmaak‑elementen naar Markdown. Je kunt de Markdown‑output aanpassen aan de complexiteit van je document.
 
-**V: Hoe kan ik afbeeldingen in Markdown‑bestanden verwerken?**  
-A: Stel het pad van de afbeeldingenmap in met de `setImagesFolder`‑methode in `MarkdownSaveOptions`. Zorg ervoor dat de afbeeldingsbestanden in de opgegeven map worden opgeslagen, en Aspose.Words voor Java regelt de afbeeldingsverwijzingen.
+**Q: Hoe kan ik afbeeldingen in Markdown‑bestanden verwerken?**  
+A: Stel het pad van de afbeeldingsmap in met de `setImagesFolder`‑methode in `MarkdownSaveOptions`. Zorg ervoor dat de afbeeldingsbestanden in de opgegeven map worden opgeslagen; Aspose.Words genereert de juiste Markdown‑afbeeldingslinks.
 
-**V: Is er een proefversie van Aspose.Words voor Java beschikbaar?**  
+**Q: Is er een proefversie van Aspose.Words voor Java beschikbaar?**  
 A: Ja, je kunt een proefversie van Aspose.Words voor Java verkrijgen via de Aspose‑website. De proefversie stelt je in staat de mogelijkheden van de bibliotheek te evalueren voordat je een licentie aanschaft.
 
-**V: Waar vind ik meer voorbeelden en documentatie?**  
+**Q: Waar kan ik meer voorbeelden en documentatie vinden?**  
 A: Voor meer voorbeelden, documentatie en gedetailleerde informatie over Aspose.Words voor Java, bezoek de [documentatie](https://reference.aspose.com/words/java/).
-
-## Conclusie
-
-In deze gids hebben we alles behandeld wat je nodig hebt om **Word naar Markdown te converteren** met Aspose.Words voor Java: het maken van een bron‑document, **tabeluitlijning aanpassen**, en afbeeldingen verwerken met de juiste mapconfiguratie. Met deze technieken kun je betrouwbaar Word‑inhoud exporteren naar markdown voor blogs, documentatiesites of elk platform dat markdown ondersteunt.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-24  
-**Getest met:** Aspose.Words voor Java 24.12 (latest at time of writing)  
+**Laatst bijgewerkt:** 2025-12-22  
+**Getest met:** Aspose.Words for Java 24.12 (latest at time of writing)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

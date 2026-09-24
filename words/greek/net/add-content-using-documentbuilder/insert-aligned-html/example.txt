@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Χρησιμοποιώντας το Aspose.Words Document και το DocumentBuilder, αυτό το σεμινάριο εισάγει σήμανση HTML σε ένα έγγραφο Word και αποθηκεύει το αποτέλεσμα.
+//ExStepSummary:0: Ορίστε το φάκελο εξόδου, δημιουργήστε ένα νέο Document και αρχικοποιήστε ένα DocumentBuilder για αυτό το έγγραφο.
+//ExStepSummary:1: Καλέστε `builder.InsertHtml()` για να προσθέσετε μια παράγραφο με στοίχιση προς τα δεξιά, έντονο κείμενο, κεντραρισμένο div και μια επικεφαλίδα με στοίχιση προς τα αριστερά στο έγγραφο.
+//ExStepSummary:2: Αποθηκεύστε το τροποποιημένο έγγραφο στον καθορισμένο φάκελο ως αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

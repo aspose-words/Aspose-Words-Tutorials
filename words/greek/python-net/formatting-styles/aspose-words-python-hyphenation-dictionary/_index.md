@@ -5,7 +5,9 @@
 "url": "/el/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Κατανόηση του Aspose.Words για Python: Εγγραφή και κατάργηση εγγραφής σε λεξικό συλλαβισμού
 
 ## Εισαγωγή
@@ -173,3 +175,7 @@ doc.save(arartifacts_directory + 'Hyphenation.dictionary.unregistered.pdf')
 - **Αγορά:** [Αγοράστε την Άδεια Χρήσης Aspose.Words](https://purchase.aspose.com/buy)
 - **Δωρεάν δοκιμή:** [Ξεκινήστε με μια δωρεάν δοκιμή](https://releases.aspose.com/words/python/)
 - **Προσωρινή Άδεια:** [Αίτημα Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

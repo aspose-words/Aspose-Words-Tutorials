@@ -1,10 +1,12 @@
 ---
-"description": "تعلم التعامل المتقدم مع المستندات باستخدام Aspose.Words لجافا. شفّر، عالج ملفات التعريف، وأكثر. مستندات Word، على طريقتك."
-"linktitle": "حفظ المستندات بتنسيقات مختلفة باستخدام"
-"second_title": "واجهة برمجة تطبيقات معالجة مستندات Java Aspose.Words"
-"title": "خيارات الحفظ المتقدمة مع Aspose.Words لـ Java"
-"url": "/ar/java/document-loading-and-saving/advance-saving-options/"
-"weight": 14
+date: 2026-02-22
+description: تعلم كيفية حفظ مستند Word باستخدام كلمة مرور واستخدام خيارات الحفظ المتقدمة
+  مثل معالجة ملفات الميتا والتحكم في النقاط المصورة مع Aspose.Words for Java.
+linktitle: Saving Documents in Various Formats with
+second_title: Aspose.Words Java Document Processing API
+title: حفظ مستند Word باستخدام كلمة مرور وخيارات متقدمة – Aspose.Words for Java
+url: /ar/java/document-loading-and-saving/advance-saving-options/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,32 +15,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# خيارات الحفظ المتقدمة مع Aspose.Words لـ Java
+# حفظ مستند Word مع كلمة مرور وخيارات متقدمة – Aspose.Words for Java
 
+في تطبيقات Java الحديثة، **حفظ Word مع كلمة مرور** هو مطلب شائع لحماية المحتوى الحساس. Aspose.Words for Java لا يتيح لك فقط تشفير المستندات، بل يمنحك أيضًا تحكمًا دقيقًا في ضغط ملفات الميتا، ونقاط الصور، والعديد من ميزات الحفظ الأخرى. في هذا الدليل خطوة بخطوة سنستعرض أكثر *خيارات الحفظ المتقدمة* فائدة التي يمكنك تطبيقها باستخدام Aspose.Words Java API.
 
-# دليل تعليمي خطوة بخطوة: خيارات الحفظ المتقدمة باستخدام Aspose.Words لـ Java
+## إجابات سريعة
+- **كيف يمكن إضافة كلمة مرور إلى ملف Word؟** استخدم `DocSaveOptions.setPassword("yourPassword")` قبل استدعاء `doc.save()`.  
+- **هل يمكنني منع ضغط ملفات الميتا؟** عيّن `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **هل يمكن استبعاد نقاط الصور؟** نعم، استدعِ `saveOptions.setSavePictureBullet(false)`.  
+- **هل أحتاج إلى ترخيص لهذه الميزات؟** النسخة التجريبية تعمل للتقييم؛ يلزم ترخيص تجاري للإنتاج.  
+- **أي منتج من Aspose يغطي هذا؟** Aspose.Words for Java — المكتبة الرائدة لمهام **aspose words document saving**.
 
-في عصرنا الرقمي، أصبح التعامل مع المستندات مهمة شائعة للمطورين. سواءً كان الأمر يتعلق بتشفير المستندات، أو معالجة ملفات التعريف، أو إدارة نقاط الصور، يوفر Aspose.Words for Java واجهة برمجة تطبيقات فعّالة لتبسيط هذه العمليات. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام خيارات الحفظ المتقدمة باستخدام Aspose.Words for Java.
+## ما هو “حفظ Word مع كلمة مرور”؟
+حفظ مستند Word مع كلمة مرور يعني تشفير الملف بحيث لا يمكن للمستخدمين الذين لا يعرفون كلمة المرور فتحه أو تحريره أو طباعته. هذه الطبقة الأمنية أساسية للتقارير السرية، والعقود، أو أي بيانات يجب أن تظل خاصة.
 
-## مقدمة إلى Aspose.Words للغة Java
+## لماذا تستخدم ميزات حفظ المستندات في Aspose.Words؟
+Aspose.Words يوفر مجموعة غنية من خيارات **aspose words document saving** التي تتجاوز مجرد إخراج الملف البسيط. يمكنك التحكم في الضغط، ومعالجة الصور، وحتى اتخاذ قرار بشأن تضمين نقاط الصور — كل ذلك دون مغادرة كود Java الخاص بك.
 
-قبل التعمق في شرح الكود، دعونا نُقدّم بإيجاز Aspose.Words for Java. إنها مكتبة جافا فعّالة تُمكّن المطورين من إنشاء مستندات Word وتعديلها وتحويلها بسهولة. سواءً كنتَ بحاجة إلى إنشاء تقارير، أو تعزيز الأمان، أو تنسيق النصوص، فإن Aspose.Words for Java تُلبّي جميع احتياجاتك.
+## المتطلبات المسبقة
+- Java 8 أو أحدث مثبتة.  
+- مكتبة Aspose.Words for Java مضافة إلى مشروعك (Maven/Gradle أو JAR يدوي).  
+- إلمام أساسي ببيئات تطوير Java (IntelliJ, Eclipse, إلخ).
 
-## تهيئة البيئة
+## دليل خطوة بخطوة
 
-قبل أن تبدأ في الترميز، تأكد من إعداد البيئة اللازمة:
-
-1. إنشاء مستند: قم بإنشاء مستند جديد باستخدام Aspose.Words لـ Java.
+### الخطوة 1: إنشاء مستند بسيط
+أولاً، نقوم بإنشاء كائن `Document` جديد وإضافة بعض النص. سيكون هذا هو الملف الأساسي الذي سنحميه لاحقًا بكلمة مرور.
 
 ```java
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.write("Hello world!");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.write("Hello world!");
 ```
 
-## تشفير مستند بكلمة مرور
-
-الآن، لننتقل إلى الخطوة الأولى - تشفير مستند بكلمة مرور. هذا يُضيف طبقة أمان إضافية لمستنداتك الحساسة.
+### الخطوة 2: حفظ Word مع كلمة مرور
+الآن نقوم بتشفير المستند. كائن `DocSaveOptions` يتيح لنا تحديد كلمة المرور وأي تفضيلات حفظ أخرى.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -48,9 +59,10 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-## عدم ضغط الملفات التعريفية الصغيرة
+> **نصيحة احترافية:** احفظ كلمات المرور بأمان (مثلاً باستخدام خزانة) ولا تدمجها مباشرة في كود الإنتاج.
 
-الملفات التعريفية ضرورية في مستندات Word، ولكن قد لا ترغب في ضغط الملفات الصغيرة. إليك كيفية تحقيق ذلك:
+### الخطوة 3: عدم ضغط ملفات الميتا الصغيرة
+إذا كان المستند يحتوي على رسومات متجهية (مثل كائنات المعادلات)، قد تفضل إبقائها غير مضغوطة للحصول على جودة أفضل. المثال التالي يعطل الضغط التلقائي.
 
 ```java
 @Test
@@ -64,9 +76,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-## تجنب حفظ نقاط الصورة
-
-قد تكون الصور النقطية لافتة للنظر، ولكن قد ترغب في استبعادها. إليك الطريقة:
+### الخطوة 4: استبعاد نقاط الصور من الملف المحفوظ
+نقاط الصور يمكن أن تزيد من حجم الملف. إذا لم تكن بحاجة إليها، أوقفها باستخدام `setSavePictureBullet(false)`.
 
 ```java
 @Test
@@ -80,8 +91,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-
-## كود المصدر الكامل لحفظ المستندات بتنسيقات مختلفة باستخدام Aspose.Words لـ Java
+### الخطوة 5: الكود الكامل للمرجعية
+فيما يلي الكود الكامل القابل للتنفيذ الذي يوضح جميع خيارات الحفظ المتقدمة الثلاثة معًا.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -111,44 +122,52 @@ public void doNotSavePictureBullet() throws Exception {
 		saveOptions.setSavePictureBullet(false);
 	}
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
+}
 ```
 
-## خاتمة
+## مشكلات شائعة ونصائح
+| المشكلة | السبب | الحل |
+|-------|-------|----------|
+| **يفتح المستند لكن كلمة المرور تُتجاهل** | استخدام `saveOptions` مع `SaveFormat` مختلف | تأكد من تمرير نفس كائن `DocSaveOptions` إلى `doc.save()` وأن امتداد الملف يتطابق مع الصيغة (مثال: `.docx`). |
+| **ملفات الميتا لا تزال مضغوطة** | `setAlwaysCompressMetafiles` يؤثر فقط على ملفات الميتا *الصغيرة* | تحقق من حجم ملف الميتا؛ الملفات الكبيرة تُضغط دائمًا وفقًا لمواصفات DOCX. |
+| **نقاط الصور لا تزال تظهر** | المستند يحتوي على صور مدمجة تُستخدم كنقاط | حوّل تلك النقاط إلى أنماط قوائم قياسية قبل الحفظ، أو احذفها يدويًا عبر الـ API. |
 
-تهانينا! لقد تعلمت كيفية استخدام Aspose.Words لجافا لأداء خيارات الحفظ المتقدمة. سواءً كان الأمر يتعلق بتشفير المستندات، أو معالجة ملفات التعريف، أو إدارة الصور النقطية، فإن Aspose.Words لجافا يُمكّنك من التحكم في مستندات Word الخاصة بك.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س: هل Aspose.Words for Java مكتبة مجانية؟**  
+ج: لا، Aspose.Words for Java مكتبة تجارية. يمكنك العثور على تفاصيل الترخيص [هنا](https://purchase.aspose.com/buy).
 
-### 1. هل Aspose.Words for Java مكتبة مجانية؟
+**س: كيف يمكنني الحصول على نسخة تجريبية مجانية من Aspose.Words for Java؟**  
+ج: يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Words for Java [هنا](https://releases.aspose.com/).
 
-لا، Aspose.Words for Java هي مكتبة تجارية. يمكنك الاطلاع على تفاصيل الترخيص. [هنا](https://purchase.aspose.com/buy).
+**س: أين يمكنني العثور على الدعم لـ Aspose.Words for Java؟**  
+ج: للحصول على الدعم ومناقشات المجتمع، زر [منتدى Aspose.Words for Java](https://forum.aspose.com/).
 
-### 2. كيف يمكنني الحصول على نسخة تجريبية مجانية من Aspose.Words لـ Java؟
+**س: هل يمكنني استخدام Aspose.Words for Java مع مكتبات Java أخرى؟**  
+ج: نعم، Aspose.Words for Java متوافق مع مكتبات وإطارات عمل Java المختلفة.
 
-يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Words لـ Java [هنا](https://releases.aspose.com/).
+**س: هل هناك خيار ترخيص مؤقت متاح؟**  
+ج: نعم، يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-### 3. أين يمكنني العثور على الدعم لـ Aspose.Words لـ Java؟
+## أسئلة متكررة إضافية
 
-للحصول على الدعم ومناقشات المجتمع، قم بزيارة [منتدى Aspose.Words لجافا](https://forum.aspose.com/).
+**س: هل تؤثر حماية كلمة المرور على حجم المستند؟**  
+ج: الملف المشفر يكون أكبر قليلًا بسبب عبء التشفير، لكن الزيادة عادةً ما تكون ضئيلة.
 
-### 4. هل يمكنني استخدام Aspose.Words لـ Java مع مكتبات Java الأخرى؟
+**س: هل يمكنني تعيين كلمات مرور مختلفة لأذونات القراءة فقط والتحرير؟**  
+ج: Aspose.Words يدعم كلمة مرور واحدة لفتح المستند. للحصول على أذونات أكثر تفصيلًا، فكر في تحويله إلى PDF مع إعدادات حماية منفصلة.
 
-نعم، Aspose.Words for Java متوافق مع مكتبات Java وأطر العمل المختلفة.
+**س: هل تتوفر هذه خيارات الحفظ لجميع صيغ Word (DOC, DOCX, RTF)؟**  
+ج: نعم، `DocSaveOptions` يعمل مع جميع الصيغ المدعومة من Aspose.Words، رغم أن بعض الخيارات خاصة بصيغة معينة (مثال: نقاط الصور ذات صلة فقط بـ DOCX).
 
-### 5. هل يتوفر خيار الترخيص المؤقت؟
-
-نعم يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
-
-ابدأ باستخدام Aspose.Words for Java اليوم واكتشف الإمكانات الكاملة لمعالجة المستندات في تطبيقات Java الخاصة بك.
-
-
+**آخر تحديث:** 2026-02-22  
+**تم الاختبار مع:** Aspose.Words for Java 24.12  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

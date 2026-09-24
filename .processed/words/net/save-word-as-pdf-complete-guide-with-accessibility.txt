@@ -1,0 +1,7 @@
+Title: Save Word as PDF – Complete Guide with Accessibility
+Slug: save-word-as-pdf-complete-guide-with-accessibility
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-05-23T23:24:11.113427
+SourceRepo: AI Search API
+Keywords: save word as pdf, convert docx to pdf, generate accessible pdf, export pdf with accessibility
+PRNumber: 190

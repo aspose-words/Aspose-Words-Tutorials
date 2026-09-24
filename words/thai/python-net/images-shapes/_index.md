@@ -4,7 +4,9 @@
 "url": "/th/python-net/images-shapes/"
 "weight": 6
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # บทช่วยสอนเกี่ยวกับรูปภาพและรูปทรงสำหรับ Aspose.Words Python-net
 
 สำรวจคำแนะนำทีละขั้นตอนที่ครอบคลุมสำหรับการดำเนินการกับรูปภาพและรูปทรงโดยใช้ Aspose.Words สำหรับ Python-net บทช่วยสอนเหล่านี้ประกอบด้วยตัวอย่างโค้ดที่สมบูรณ์และคำอธิบายโดยละเอียด
@@ -32,6 +34,9 @@
     ### [Optimize SVG Output with Aspose.Words in Python&#58; A Comprehensive Guide](./optimize-svg-output-aspose-words-python/)
 เรียนรู้วิธีเพิ่มประสิทธิภาพเอาต์พุต SVG โดยใช้ Aspose.Words สำหรับ Python คู่มือนี้ครอบคลุมถึงฟีเจอร์ที่กำหนดเอง เช่น คุณสมบัติที่เหมือนรูปภาพ การแสดงข้อความ และการปรับปรุงด้านความปลอดภัย
 
+### [วิธีเพิ่มเงาใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-add-shadow-in-c-complete-programming-guide/)
+เรียนรู้วิธีการเพิ่มเงาให้กับวัตถุใน C# อย่างละเอียดด้วย Aspose.Words และเทคนิคขั้นสูง
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสาร Aspose.Words สำหรับ Python-net](https://docs.aspose.com/words/python-net/)
@@ -40,3 +45,7 @@
 - [ฟอรั่ม Aspose.Words](https://forum.aspose.com/c/words/8)
 - [การสนับสนุนฟรี](https://forum.aspose.com/)
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

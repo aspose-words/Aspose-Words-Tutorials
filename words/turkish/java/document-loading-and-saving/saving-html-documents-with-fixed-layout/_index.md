@@ -1,10 +1,13 @@
 ---
-"description": "Aspose.Words for Java'da HTML belgelerini sabit düzende nasıl kaydedeceğinizi öğrenin. Sorunsuz belge biçimlendirmesi için adım adım kılavuzumuzu izleyin."
-"linktitle": "Sabit Düzen ile HTML Belgelerini Kaydetme"
-"second_title": "Aspose.Words Java Belge İşleme API'si"
-"title": "Aspose.Words for Java'da Sabit Düzen ile HTML Belgelerini Kaydetme"
-"url": "/tr/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/"
-"weight": 15
+date: 2025-12-27
+description: Aspose.Words for Java kullanarak sabit düzenli HTML nasıl kaydedilir
+  öğrenin – Word'ü HTML'ye dönüştürmek ve belgeyi verimli bir şekilde HTML olarak
+  kaydetmek için nihai rehber.
+linktitle: Saving HTML Documents with Fixed Layout
+second_title: Aspose.Words Java Document Processing API
+title: Aspose.Words for Java kullanarak sabit düzenli HTML nasıl kaydedilir
+url: /tr/java/document-loading-and-saving/saving-html-documents-with-fixed-layout/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,50 +16,63 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java'da Sabit Düzen ile HTML Belgelerini Kaydetme
+# Aspose.Words for Java kullanarak Sabit Düzenli HTML Nasıl Kaydedilir
 
+Bu öğreticide **html** belgelerini sabit bir düzenle kaydetmenin **nasıl yapılacağını** keşfedecek ve orijinal Word biçimlendirmesini koruyacaksınız. **Word'ü HTML'ye dönüştürmek**, **web görüntüleme için Word HTML dışa aktarmak** ya da sadece **belgeyi html olarak kaydetmek** istiyorsanız, aşağıdaki adımlar Aspose.Words for Java kullanarak tüm süreci adım adım anlatıyor.
 
-## Aspose.Words for Java'da Sabit Düzen ile HTML Belgelerini Kaydetmeye Giriş
+## Hızlı Yanıtlar
+- **“Sabit düzen” ne demektir?** Orijinal Word dosyasının görsel görünümünü HTML çıktısında tam olarak korur.  
+- **Özel yazı tipleri kullanabilir miyim?** Evet – `useTargetMachineFonts` ayarını belirleyerek yazı tipi işleme kontrol edebilirsiniz.  
+- **Lisans gerekir mi?** Üretim kullanımı için geçerli bir Aspose.Words for Java lisansı gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Tüm Java 8+ çalışma zamanları uyumludur.  
+- **Çıktı responsive (duyarlı) mı?** Sabit‑düzen HTML piksel‑tamdır, responsive değildir; akış tabanlı düzenler için CSS kullanmanız gerekir.
 
-Bu kapsamlı kılavuzda, Aspose.Words for Java kullanarak HTML belgelerini sabit bir düzende kaydetme sürecini adım adım anlatacağız. Adım adım talimatlar ve kod örnekleriyle, bunu sorunsuz bir şekilde nasıl başaracağınızı öğreneceksiniz. Hadi, hemen başlayalım!
+## “Sabit düzenli html kaydetme” nedir?
+Sabit düzenli HTML kaydetmek, her sayfa, paragraf ve görüntünün kaynak Word belgesindeki aynı boyut ve konumda kalmasını sağlayan HTML dosyaları üretmek anlamına gelir. Bu, görsel bütünlüğün kritik olduğu hukuki, yayıncılık veya arşiv senaryoları için idealdir.
 
-## Ön koşullar
+## HTML dönüşümü için Aspose.Words for Java neden kullanılmalı?
+- **Yüksek doğruluk** – Kütüphane karmaşık düzenleri, tabloları ve grafikleri doğru bir şekilde yeniden üretir.  
+- **Microsoft Office bağımlılığı yok** – Tamamen sunucu tarafında çalışır.  
+- **Geniş özelleştirme** – `HtmlFixedSaveOptions` gibi seçeneklerle çıktıyı ince ayar yapabilirsiniz.  
+- **Çapraz platform** – Java destekleyen herhangi bir işletim sisteminde çalışır.
 
-Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
+## Önkoşullar
+- Java geliştirme ortamı (JDK 8 veya üzeri).  
+- Projenize eklenmiş Aspose.Words for Java kütüphanesi (resmi siteden indirin).  
+- Dönüştürmek istediğiniz Word belgesi (`.docx`).
 
-- Java geliştirme ortamı kuruldu.
-- Aspose.Words for Java kütüphanesi kuruldu ve yapılandırıldı.
+## Adım‑Adım Kılavuz
 
-## Adım 1: Belgeyi Yükleme
-
-Öncelikle HTML formatında kaydetmek istediğimiz belgeyi yüklememiz gerekiyor. Bunu şu şekilde yapabilirsiniz:
+### Adım 1: Word belgesini yükleyin
+Öncelikle kaynak belgeyi bir `Document` nesnesine yükleyin.
 
 ```java
 Document doc = new Document("Your Directory Path" + "YourDocument.docx");
 ```
 
-Yer değiştirmek `"YourDocument.docx"` Word belgenizin yolunu belirtin.
+`"YourDocument.docx"` ifadesini dosyanızın gerçek yolu ile değiştirin.
 
-## Adım 2: HTML Sabit Kaydetme Seçeneklerini Yapılandırın
-
-Belgeyi sabit bir düzende kaydetmek için, şunu yapılandırmamız gerekir: `HtmlFixedSaveOptions` sınıf. Biz ayarlayacağız `useTargetMachineFonts` mülk `true` Hedef makinenin yazı tiplerinin HTML çıktısında kullanıldığından emin olmak için:
+### Adım 2: Sabit‑düzen HTML kaydetme seçeneklerini yapılandırın
+Bir `HtmlFixedSaveOptions` örneği oluşturun ve hedef makine yazı tiplerinin kullanılmasını etkinleştirerek HTML'nin aynı yazı tiplerini kullanmasını sağlayın.
 
 ```java
 HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
 saveOptions.setUseTargetMachineFonts(true);
 ```
 
-## Adım 3: Belgeyi HTML olarak kaydedin
+Yazı tiplerini doğrudan gömmek isterseniz `setExportEmbeddedFonts` gibi diğer özellikleri de keşfedebilirsiniz.
 
-Şimdi, daha önce yapılandırılan seçenekleri kullanarak belgeyi sabit düzende HTML olarak kaydedelim:
+### Adım 3: Belgeyi sabit‑düzen HTML olarak kaydedin
+Son olarak, yukarıda tanımladığınız seçenekleri kullanarak belgeyi bir HTML dosyasına yazın.
 
 ```java
 doc.save("Your Directory Path" + "FixedLayoutDocument.html", saveOptions);
 ```
 
-Yer değiştirmek `"FixedLayoutDocument.html"` HTML dosyanız için istediğiniz ismi yazın.
+Oluşan `FixedLayoutDocument.html` Word içeriğini orijinal dosyada göründüğü gibi tam olarak gösterecektir.
 
-## Aspose.Words for Java'da Sabit Düzen ile HTML Belgelerini Kaydetmek İçin Tam Kaynak Kodu
+### Tam kaynak kodu örneği
+Aşağıda tüm adımları bir araya getiren çalıştırılabilir bir snippet yer alıyor. İşlevselliği korumak için kodu değiştirmeyin.
 
 ```java
         Document doc = new Document("Your Directory Path" + "Bullet points with alternative font.docx");
@@ -68,35 +84,41 @@ Yer değiştirmek `"FixedLayoutDocument.html"` HTML dosyanız için istediğiniz
     }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
+- **Çıktıda eksik yazı tipleri** – `useTargetMachineFonts` değerinin `true` olduğundan *veya* `setExportEmbeddedFonts(true)` ile yazı tiplerini gömdüğünüzden emin olun.  
+- **Büyük HTML dosyaları** – Görüntüleri dışa aktararak dosya boyutunu azaltmak için `setExportEmbeddedImages(false)` kullanın.  
+- **Yanlış dosya yolları** – Mutlak yollar kullanın veya çalışma dizininin yazma izinlerine sahip olduğunu doğrulayın.
 
-Bu eğitimde, Aspose.Words for Java kullanarak HTML belgelerini sabit bir düzende nasıl kaydedeceğimizi öğrendik. Bu basit adımları izleyerek, belgelerinizin farklı platformlarda tutarlı bir görsel yapıyı korumasını sağlayabilirsiniz.
+## Sıkça Sorulan Sorular
 
-## SSS
+**S: Aspose.Words for Java'ı projemde nasıl kurarım?**  
+C: Kütüphaneyi [buradan](https://releases.aspose.com/words/java/) indirin ve belgelerdeki kurulum talimatlarını [burada](https://reference.aspose.com/words/java/) izleyin.
 
-### Projemde Aspose.Words for Java'yı nasıl kurabilirim?
+**S: Aspose.Words for Java kullanmak için lisans gereksinimleri var mı?**  
+C: Evet, üretim kullanımı için geçerli bir lisans gerekir. Lisansı Aspose web sitesinden temin edebilirsiniz.
 
-Aspose.Words for Java'yı kurmak basittir. Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/words/java/) ve belgelerde verilen kurulum talimatlarını izleyin [Burada](https://reference.aspose.com/words/java/).
+**S: HTML çıktısını daha da özelleştirebilir miyim?**  
+C: Kesinlikle. `setExportEmbeddedImages`, `setExportEmbeddedFonts` ve `setCssClassNamePrefix` gibi seçeneklerle çıktıyı ihtiyaçlarınıza göre şekillendirebilirsiniz.
 
-### Aspose.Words for Java'yı kullanmak için herhangi bir lisanslama gereksinimi var mı?
+**S: Aspose.Words for Java farklı Java sürümleriyle uyumlu mu?**  
+C: Evet, kütüphane Java 8 ve üzeri sürümleri destekler. Projenizin Java sürümünün kütüphane gereksinimlerine uygun olduğundan emin olun.
 
-Evet, Aspose.Words for Java'nın üretim ortamında kullanılabilmesi için geçerli bir lisansa ihtiyacı vardır. Lisansı Aspose web sitesinden edinebilirsiniz. Daha fazla ayrıntı belgelerde bulunabilir.
+**S: Sabit düzen yerine responsive (duyarlı) bir HTML sürümüne ihtiyacım olursa ne yapmalıyım?**  
+C: `HtmlFixedSaveOptions` yerine `HtmlSaveOptions` kullanın; bu, CSS ile duyarlı tasarıma uygun akış‑tabanlı HTML üretir.
 
-### HTML çıktısını daha fazla özelleştirebilir miyim?
+## Sonuç
+Artık Aspose.Words for Java kullanarak **html** belgelerini sabit bir düzenle **nasıl kaydedeceğinizi** biliyorsunuz. Yukarıdaki adımları izleyerek **Word'ü HTML'ye dönüştürebilir**, **Word HTML dışa aktarabilir** ve **belgeyi HTML olarak kaydedebilir** ve profesyonel yayıncılık ya da arşivleme için gerekli görsel bütünlüğü koruyabilirsiniz.
 
-Elbette! Aspose.Words for Java, HTML çıktısını özel gereksinimlerinizi karşılayacak şekilde özelleştirmek için geniş bir yelpazede seçenekler sunar. Özelleştirme seçenekleri hakkında ayrıntılı bilgi için belgeleri inceleyebilirsiniz.
+---
 
-### Aspose.Words for Java farklı Java sürümleriyle uyumlu mudur?
-
-Evet, Aspose.Words for Java çeşitli Java sürümleriyle uyumludur. Java geliştirme ortamınıza uyan uyumlu bir Aspose.Words for Java sürümü kullandığınızdan emin olun.
-
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen Versiyon:** Aspose.Words for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

@@ -5,7 +5,9 @@
 "url": "/ja/python-net/formatting-styles/master-tab-stops-python-aspose-words/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Words を使って Python でタブストップを使いこなし、ドキュメントの書式設定をマスターする
 
 ## 導入
@@ -228,3 +230,7 @@ doc.save(file_name='YOUR_OUTPUT_DIRECTORY/TabStopCollection.TabStopCollection.do
 ## 結論
 
 Aspose.Wordsを使用してPythonでタブストップをマスターすれば、プロフェッショナルなフォーマットのドキュメントを簡単に作成できます。このガイドに従うことで、タブストップを効果的に追加、カスタマイズ、管理できるようになり、テキストベースの出力の全体的な品質を向上させることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

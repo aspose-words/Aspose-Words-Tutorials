@@ -10,7 +10,9 @@ keywords:
 - secure word documents using digital certificates
 
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # How to Integrate Digital Signatures into Documents with Aspose.Words for Python
 
 ## Introduction
@@ -189,3 +191,7 @@ To further explore the capabilities of Aspose.Words, consider diving deeper into
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/words/10)
 
 Ready to start integrating digital signatures into your documents? Try implementing these steps today and experience the enhanced security and efficiency of Aspose.Words in Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

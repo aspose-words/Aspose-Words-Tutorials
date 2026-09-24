@@ -1,7 +1,7 @@
 ---
-date: 2026-02-24
-description: Aspose.Words for Java를 사용하여 HTML을 로드하고 DOCX를 저장하는 방법을 배우세요 – HTML을 DOCX로
-  변환하는 단계별 가이드.
+date: 2025-12-20
+description: Aspose.Words for Java를 사용하여 HTML을 로드하고 HTML을 DOCX로 변환하는 방법을 배웁니다. 단계별
+  가이드는 DOCX 파일을 저장하고 구조화된 문서 태그를 사용하는 방법을 보여줍니다.
 linktitle: Loading and Saving HTML Documents
 second_title: Aspose.Words Java Document Processing API
 title: Aspose.Words for Java를 사용하여 HTML을 로드하고 DOCX로 저장하는 방법
@@ -15,32 +15,38 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# HTML을 로드하고 Aspose.Words for Java로 DOCX 저장하는 방법
+# Aspose.Words for Java를 사용하여 HTML을 로드하고 DOCX로 저장하는 방법
 
-이 튜토리얼에서는 **HTML 로드 방법** 파일을 `Document` 객체에 로드하고 **DOCX 저장 방법** 파일로 저장하는 방법을 강력한 **Aspose.Words for Java** 라이브러리를 사용해 알아봅니다. 간단한 스니펫이든 전체 기능을 갖춘 웹 페이지이든, 아래 단계는 HTML‑to‑DOCX 변환을 위한 신뢰할 수 있는 프로덕션 수준 접근 방식을 제공합니다.
+## Aspose.Words for Java로 HTML 문서를 로드하고 저장하기 위한 소개
+
+이 문서에서는 **HTML을 로드하는 방법**을 살펴보고 Aspose.Words for Java 라이브러리를 사용해 DOCX 파일로 저장하는 과정을 설명합니다. Aspose.Words는 Word 문서를 프로그래밍 방식으로 조작할 수 있는 강력한 API이며, HTML 가져오기/내보내기를 위한 견고한 지원을 제공합니다. 로드 옵션 설정부터 결과를 Word 문서로 저장하기까지 전체 과정을 단계별로 안내합니다.
 
 ## 빠른 답변
-- **코드가 하는 일은?** HTML 문자열을 로드하고 이를 구조화된 문서 태그로 처리한 뒤 DOCX 파일로 저장합니다.  
-- **필요한 라이브러리는?** Aspose.Words for Java (“aspose words java” SDK).  
-- **라이선스가 필요한가요?** 테스트용 무료 체험판을 사용할 수 있지만, 프로덕션에서는 상용 라이선스가 필요합니다.  
-- **HTML 로드 옵션을 커스터마이징할 수 있나요?** 예 – `PreferredControlType`을 `STRUCTURED_DOCUMENT_TAG`로 설정할 수 있습니다.  
-- **엔터프라이즈 프로젝트에 적합한가요?** 물론입니다; 이 API는 대량·엔터프라이즈 수준 문서 처리를 위해 설계되었습니다.
+- **HTML을 로드하기 위한 주요 클래스는?** `Document`와 `HtmlLoadOptions`.
+- **구조화된 문서 태그를 활성화하는 옵션은?** `HtmlLoadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG)`.
+- **HTML을 한 단계에서 DOCX로 변환할 수 있나요?** 예 – HTML을 로드하고 `doc.save(...".docx")`를 호출하면 됩니다.
+- **개발에 라이선스가 필요합니까?** 테스트용 무료 체험판을 사용할 수 있지만, 운영 환경에서는 상용 라이선스가 필요합니다.
+- **필요한 Java 버전은?** Java 8 이상을 지원합니다.
 
-## Aspose.Words for Java에서 **HTML 로드 방법**이란?
-HTML을 로드한다는 것은 HTML 문자열이나 파일을 `Document` 생성자에 전달하여 Aspose.Words가 마크업을 파싱하고 내부 Word 문서 모델을 생성하도록 하는 것을 의미합니다. 이 모델은 이후 조작하거나 DOCX와 같은 지원되는 형식으로 저장할 수 있습니다.
+## Aspose.Words에서 “HTML을 로드하는 방법”이란?
 
-## HTML‑to‑DOCX 변환에 **Aspose.Words for Java**를 사용하는 이유
-- **포괄적인 형식 지원** – 단순 HTML부터 CSS, 이미지, 폼 컨트롤이 포함된 복잡한 페이지까지.  
-- **구조화된 문서 태그** – 폼 컨트롤을 재사용 가능한 태그로 보존하여 이후 편집에 이상적입니다.  
-- **Microsoft Office 의존 없음** – Java가 실행되는 모든 플랫폼에서 동작합니다.  
-- **엔터프라이즈 수준 성능** – 대용량 문서를 효율적으로 처리합니다.
+HTML을 로드한다는 것은 HTML 문자열이나 파일을 읽어 Aspose.Words `Document` 객체로 변환하는 것을 의미합니다. 이 객체는 이후 편집, 서식 지정 또는 API가 지원하는 DOCX, PDF, RTF 등 다양한 형식으로 저장할 수 있습니다.
 
-## 전제 조건
-1. **Aspose.Words for Java 라이브러리** – [here](https://releases.aspose.com/words/java/)에서 다운로드합니다.  
-2. **Java 개발 환경** – JDK 8 이상이 설치되고 구성되어 있어야 합니다.
+## HTML‑to‑DOCX 변환에 Aspose.Words를 사용하는 이유
+- **레이아웃 보존** – 표, 목록, 이미지가 그대로 유지됩니다.
+- **구조화된 문서 태그 지원** – Word에서 콘텐츠 컨트롤을 만들기에 이상적입니다.
+- **Microsoft Office 불필요** – 서버나 클라우드 환경 어디서든 동작합니다.
+- **고성능** – 대용량 HTML 파일도 빠르게 처리합니다.
+
+## 사전 요구 사항
+
+1. **Aspose.Words for Java 라이브러리** – [여기](https://releases.aspose.com/words/java/)에서 다운로드합니다.
+2. **Java 개발 환경** – JDK 8+가 설치되고 설정되어 있어야 합니다.
+3. **Java I/O 기본 지식** – HTML 문자열을 전달하기 위해 `ByteArrayInputStream`을 사용할 것입니다.
 
 ## HTML 문서 로드 방법
-아래는 **HTML 로드 방법**을 `Document`에 보여주는 핵심 코드 스니펫입니다. 작은 HTML 조각을 만들고 `HtmlLoadOptions`를 **구조화된 문서 태그**를 사용하도록 설정한 뒤 `Document`를 인스턴스화합니다.
+
+아래 예제는 **구조화된 문서 태그** 기능을 활성화하면서 HTML 조각을 로드하는 간결한 예시입니다.
 
 ```java
 final String HTML = "\r\n
@@ -59,19 +65,25 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardCharsets.UTF_8)), loadOptions);
 ```
 
-*Pro tip:* `STRUCTURED_DOCUMENT_TAG` 옵션은 `<select>` 요소와 같은 폼 컨트롤을 결과 Word 문서에서 편집 가능한 태그로 유지하여 이후 데이터 입력에 유용합니다.
+**설명**
 
-## HTML에서 DOCX 저장 방법
-HTML이 로드되면 DOCX 파일로 저장하는 과정은 간단합니다. 이는 동일한 `Document` 인스턴스를 사용하여 **DOCX 저장 방법**을 보여줍니다.
+- 간단한 `<select>` 컨트롤을 포함한 `HTML` 문자열을 생성합니다.
+- `HtmlLoadOptions`를 사용해 HTML 해석 방식을 지정합니다. 기본 컨트롤 타입을 `STRUCTURED_DOCUMENT_TAG`로 설정하면 Aspose.Words가 HTML 폼 컨트롤을 Word 콘텐츠 컨트롤로 변환합니다.
+- `Document` 생성자는 UTF‑8 인코딩을 사용해 `ByteArrayInputStream`에서 HTML을 읽어들입니다.
+
+## DOCX로 저장하기 (HTML을 DOCX로 변환)
+
+HTML이 `Document`에 로드되면 DOCX 파일로 저장하는 과정은 매우 간단합니다.
 
 ```java
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-`"Your Directory Path"`를 출력 파일을 저장하고 싶은 폴더 경로로 교체하세요. 생성된 DOCX 파일은 Microsoft Word, LibreOffice 또는 기타 DOCX 호환 뷰어에서 열 수 있습니다.
+`"Your Directory Path"`를 실제 출력 파일을 저장하고자 하는 폴더 경로로 교체하십시오.
 
-## HTML 문서 로드 및 저장을 위한 전체 소스 코드
-편의를 위해 로드와 저장 단계를 결합한 전체 실행 가능한 예제를 제공합니다. 이를 IDE에 복사‑붙여넣기하고 그대로 실행할 수 있습니다.
+## HTML 문서 로드 및 저장 전체 소스 코드
+
+아래는 로드와 저장 단계를 모두 포함한 완전한 실행 예제입니다. IDE에 복사‑붙여넣기만 하면 바로 사용할 수 있습니다.
 
 ```java
 final String HTML = "\r\n
@@ -89,38 +101,35 @@ Document doc = new Document(new ByteArrayInputStream(HTML.getBytes(StandardChars
 doc.save("Your Directory Path" + "WorkingWithHtmlLoadOptions.PreferredControlType.docx");
 ```
 
-코드를 실행하면 HTML 드롭다운을 구조화된 문서 태그로 포함한 `WorkingWithHtmlLoadOptions.PreferredControlType.docx`라는 Word 문서가 생성됩니다.
+## 흔히 발생하는 문제와 팁
 
-## 일반적인 문제 및 트러블슈팅
-| 증상 | 가능한 원인 | 해결 방법 |
-|---|---|---|
-| 저장 후 드롭다운이 사라짐 | `PreferredControlType`이 설정되지 않음 | 로드하기 전에 `loadOptions.setPreferredControlType(HtmlControlType.STRUCTURED_DOCUMENT_TAG);`가 호출되었는지 확인하세요. |
-| 이미지가 표시되지 않음 | 이미지 URL이 상대 경로나 접근 불가 | 절대 URL을 사용하거나 HTML 문자열에 이미지를 Base64로 삽입하세요. |
-| 예상치 못한 서식 | CSS가 완전히 지원되지 않음 | CSS를 단순화하거나 인라인 스타일을 사용하세요; Aspose.Words는 CSS의 일부만 지원합니다. |
+| 문제 | 발생 원인 | 해결 방법 |
+|------|----------|-----------|
+| **폰트 누락** | HTML이 서버에 설치되지 않은 폰트를 참조함 | `FontSettings`를 사용해 DOCX에 폰트를 포함하거나 필요한 폰트를 서버에 배치합니다. |
+| **이미지 표시 안 됨** | 상대 이미지 경로를 해석할 수 없음 | 절대 URL을 사용하거나 이미지를 `MemoryStream`에 로드하고 `HtmlLoadOptions.setImageSavingCallback`을 설정합니다. |
+| **컨트롤 타입 변환 안 됨** | `setPreferredControlType`을 설정하지 않았거나 잘못된 enum 사용 | `HtmlControlType.STRUCTURED_DOCUMENT_TAG`를 사용했는지 확인합니다. |
+| **인코딩 문제** | HTML 문자열이 다른 문자 집합으로 인코딩됨 | 문자열을 바이트 배열로 변환할 때 항상 `StandardCharsets.UTF_8`을 사용합니다. |
 
 ## 자주 묻는 질문
 
-**Q: Aspose.Words for Java를 어떻게 설치하나요?**  
-A: 라이브러리를 [here](https://releases.aspose.com/words/java/)에서 다운로드하고 JAR 파일을 프로젝트 클래스패스에 추가합니다.
+### Aspose.Words for Java를 어떻게 설치하나요?
+Aspose.Words for Java는 [여기](https://releases.aspose.com/words/java/)에서 다운로드할 수 있습니다. 다운로드 페이지의 설치 가이드를 따라 JAR 파일을 프로젝트 클래스패스에 추가하십시오.
 
-**Q: 복잡한 HTML 문서(CSS, 스크립트, 이미지 포함)를 로드할 수 있나요?**  
-A: 예. Aspose.Words는 복잡한 HTML을 처리할 수 있습니다. 최상의 결과를 위해 잘 구성된 마크업을 제공하고 `HtmlLoadOptions`를 사용해 변환을 세밀하게 조정하세요.
+### 복잡한 HTML 문서를 로드할 수 있나요?
+예, Aspose.Words for Java는 중첩된 표, CSS 스타일링, JavaScript가 없는 인터랙티브 요소 등을 포함한 복잡한 HTML을 처리할 수 있습니다. `HtmlLoadOptions`(예: `setLoadImages` 또는 `setCssStyleSheetFileName`)를 조정해 가져오기 옵션을 세밀하게 조정하십시오.
 
-**Q: 어떤 다른 형식으로 변환할 수 있나요?**  
-A: API는 DOC, DOCX, RTF, PDF, HTML, EPUB, ODT 등 다양한 형식을 지원합니다.
+### Aspose.Words가 지원하는 다른 문서 형식은 무엇인가요?
+Aspose.Words는 DOC, DOCX, RTF, HTML, PDF, EPUB, XPS 등 다양한 형식을 지원합니다. API를 사용하면 한 줄 코드로 원하는 형식으로 저장할 수 있습니다.
 
-**Q: Aspose.Words가 대규모 엔터프라이즈 배포에 적합한가요?**  
-A: 물론입니다. 전 세계 기업들이 대량 문서 생성, 보고 및 마이그레이션 프로젝트에 사용하고 있습니다.
+### 엔터프라이즈 수준의 문서 자동화에 Aspose.Words를 사용할 수 있나요?
+물론입니다. 대규모 기업에서 자동 보고서 생성, 대량 문서 변환, 서버‑사이드 문서 처리 등을 Microsoft Office 없이 수행할 때 널리 사용됩니다.
 
-**Q: 더 많은 예제와 API 레퍼런스는 어디서 찾을 수 있나요?**  
-A: 공식 문서인 [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/)를 방문하세요.
-
-## 결론
-이제 Aspose.Words for Java를 사용하여 `Document`에 **HTML 로드 방법**과 **DOCX 저장 방법**에 대한 명확한 엔드‑투‑엔드 가이드를 갖추었습니다. 이 **HTML to DOCX 변환** 기술은 간단한 스니펫과 전체 기능을 갖춘 웹 페이지 모두에 신뢰할 수 있으며, **구조화된 문서 태그**를 사용함으로써 폼 컨트롤이 결과 Word 파일에서 편집 가능하게 유지됩니다.
+### Aspose.Words for Java에 대한 추가 문서와 예제는 어디서 찾을 수 있나요?
+전체 API 레퍼런스와 추가 튜토리얼은 Aspose.Words for Java 문서 사이트에서 확인할 수 있습니다: [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/).
 
 ---
 
-**마지막 업데이트:** 2026-02-24  
+**마지막 업데이트:** 2025-12-20  
 **테스트 환경:** Aspose.Words for Java 24.12 (작성 시 최신 버전)  
 **작성자:** Aspose  
 

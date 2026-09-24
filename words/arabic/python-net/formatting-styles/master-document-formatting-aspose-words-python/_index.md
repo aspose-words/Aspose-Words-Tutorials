@@ -5,7 +5,9 @@
 "url": "/ar/python-net/formatting-styles/master-document-formatting-aspose-words-python/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # إتقان تنسيق المستندات باستخدام Aspose.Words في Python
 
 ## مقدمة
@@ -165,3 +167,7 @@ A5: التركيز على مصطلحات مثل "تحسين ذاكرة Aspose.Wo
 - **يدعم**: [منتدى أسبوزي](https://forum.aspose.com/c/words/10)
 
 باتباع هذا الدليل، يمكنك استخدام Aspose.Words بفعالية في بايثون لإدارة تنسيق مستنداتك بكفاءة. برمجة ممتعة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

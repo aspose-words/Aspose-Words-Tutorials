@@ -5,7 +5,9 @@
 "url": "/fr/python-net/tables-lists/aspose-words-master-table-manipulation-word-documents/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Manipulation de tableaux maîtres dans des documents Word avec Aspose.Words pour Python
 
 Découvrez comment modifier facilement des tableaux dans Microsoft Word avec Aspose.Words pour Python. Ce guide complet vous aidera à supprimer ou insérer des colonnes et à les convertir en texte brut, améliorant ainsi vos tâches d'automatisation de documents.
@@ -149,3 +151,7 @@ Pour une exploration plus approfondie, reportez-vous à ces ressources :
 - [Version d'essai gratuite](https://releases.aspose.com/words/python/)
 - [Demande de licence temporaire](https://purchase.aspose.com/temporary-license/)
 - [Forum d'assistance](https://forum.aspose.com/c/words/10)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

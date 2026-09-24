@@ -5,7 +5,9 @@
 "url": "/sv/python-net/formatting-styles/aspose-words-python-hyphenation-dictionary/"
 "weight": 1
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Words för Python: Registrera och avregistrera en bindestreckslexikon
 
 ## Introduktion
@@ -173,3 +175,7 @@ För mer skräddarsydda svar, kolla in [Aspose-forumet](https://forum.aspose.com
 - **Köpa:** [Köp Aspose.Words-licens](https://purchase.aspose.com/buy)
 - **Gratis provperiod:** [Börja med en gratis provperiod](https://releases.aspose.com/words/python/)
 - **Tillfällig licens:** [Begär en tillfällig licens](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

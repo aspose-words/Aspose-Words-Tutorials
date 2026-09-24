@@ -1,10 +1,13 @@
 ---
-"description": "Descubra el poder de Aspose.Words para Java. Aprenda a cargar documentos de texto, administrar listas, gestionar espacios y controlar la dirección del texto."
-"linktitle": "Cargar archivos de texto con"
-"second_title": "API de procesamiento de documentos Java de Aspose.Words"
-"title": "Carga de archivos de texto con Aspose.Words para Java"
-"url": "/es/java/document-loading-and-saving/loading-text-files/"
-"weight": 13
+date: 2025-12-27
+description: Aprende a establecer la dirección, cargar archivos txt, recortar espacios
+  y convertir txt a docx usando Aspose.Words para Java.
+linktitle: Loading Text Files with
+second_title: Aspose.Words Java Document Processing API
+title: Cómo establecer la dirección y cargar archivos de texto con Aspose.Words para
+  Java
+url: /es/java/document-loading-and-saving/loading-text-files/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,21 +16,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Carga de archivos de texto con Aspose.Words para Java
-
+# Cómo establecer la dirección y cargar archivos de texto con Aspose.Words para Java
 
 ## Introducción a la carga de archivos de texto con Aspose.Words para Java
 
-En esta guía, exploraremos cómo cargar archivos de texto con Aspose.Words para Java y manipularlos como documentos de Word. Cubriremos diversos aspectos, como la detección de listas, el manejo de espacios y el control de la dirección del texto.
+En esta guía, descubrirás **cómo establecer la dirección** al cargar documentos de texto plano y verás formas prácticas de **cargar txt**, **eliminar espacios** y **convertir txt a docx** usando Aspose.Words para Java. Ya sea que estés construyendo un servicio de conversión de documentos o necesites un control fino sobre la detección de listas, este tutorial te lleva paso a paso con explicaciones claras y código listo para ejecutar.
 
-## Paso 1: Detectar listas
+## Respuestas rápidas
+- **¿Cómo establezco la dirección del texto para un archivo TXT cargado?** Usa `TxtLoadOptions.setDocumentDirection(DocumentDirection.AUTO)` o especifica `LEFT_TO_RIGHT` / `RIGHT_TO_LEFT`.
+- **¿Puede Aspose.Words detectar listas numeradas en texto plano?** Sí – habilita `DetectNumberingWithWhitespaces` en `TxtLoadOptions`.
+- **¿Cómo puedo eliminar los espacios iniciales y finales?** Configura `TxtLeadingSpacesOptions.TRIM` y `TxtTrailingSpacesOptions.TRIM`.
+- **¿Es posible convertir un archivo TXT a DOCX en una sola línea?** Carga el TXT con `TxtLoadOptions` y llama a `Document.save("output.docx")`.
+- **¿Qué versión de Java se requiere?** Java 8+ es suficiente para Aspose.Words 24.x.
 
-Para cargar un documento de texto y detectar listas, puede seguir estos pasos:
+## ¿Qué significa “cómo establecer la dirección” en Aspose.Words?
+Cuando un archivo de texto contiene scripts de derecha a izquierda (p. ej., hebreo o árabe), la biblioteca debe conocer el orden de lectura. El enumerado `DocumentDirection` te permite **establecer la dirección** manualmente o dejar que Aspose la detecte automáticamente, garantizando un diseño correcto y formato bidi.
+
+## ¿Por qué usar Aspose.Words para cargar archivos TXT?
+- **Detección precisa de listas** – maneja listas numeradas, con viñetas y listas delimitadas por espacios.
+- **Manejo fino de espacios** – elimina o conserva los espacios iniciales/finales.
+- **Detección automática de dirección de texto** – ideal para documentos multilingües.
+- **Conversión en un solo paso** – carga un `.txt` y guárdalo como `.docx`, `.pdf` o cualquier formato compatible.
+
+## Requisitos previos
+- Java 8 o superior.
+- Biblioteca Aspose.Words para Java (agrega la dependencia Maven/Gradle o el JAR a tu proyecto).
+- Conocimientos básicos de flujos de I/O en Java.
+
+## Guía paso a paso
+
+### Paso 1: Detección de listas (cómo cargar txt)
+Para cargar un documento de texto y detectar listas automáticamente, crea una instancia de `TxtLoadOptions` y habilita la detección de listas. El código a continuación muestra varios estilos de lista y habilita la numeración sensible a espacios en blanco.
 
 ```java
-// Cree un documento de texto simple en forma de cadena con partes que puedan interpretarse como listas.
-// Al cargar, Aspose.Words siempre detectará las primeras tres listas.
-// Y se crearán objetos de lista para ellos después de cargarlos.
+// Create a plaintext document in the form of a string with parts that may be interpreted as lists.
+// Upon loading, the first three lists will always be detected by Aspose.Words,
+// and List objects will be created for them after loading.
 final String TEXT_DOC = "Full stop delimiters:\n" +
         "1. First list item 1\n" +
         "2. First list item 2\n" +
@@ -44,23 +68,22 @@ final String TEXT_DOC = "Full stop delimiters:\n" +
         "1 Fourth list item 1\n" +
         "2 Fourth list item 2\n" +
         "3 Fourth list item 3";
-// La cuarta lista, con espacios en blanco entre el número de lista y el contenido del elemento de la lista,
-// solo se detectará como una lista si "DetectNumberingWithWhitespaces" en un objeto LoadOptions está configurado como verdadero,
-// para evitar que los párrafos que comienzan con números se detecten erróneamente como listas.
+// The fourth list, with whitespace in between the list number and list item contents,
+// will only be detected as a list if "DetectNumberingWithWhitespaces" in a LoadOptions object is set to true,
+// to avoid paragraphs that start with numbers being mistakenly detected as lists.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 {
     loadOptions.setDetectNumberingWithWhitespaces(true);
 }
-// Cargue el documento mientras aplica LoadOptions como parámetro y verifique el resultado.
+// Load the document while applying LoadOptions as a parameter and verify the result.
 Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 ```
 
-Este código demuestra cómo cargar un documento de texto con varios formatos de lista y usar el `DetectNumberingWithWhitespaces` Opción para detectar listas correctamente.
+> **Consejo profesional:** Si solo necesitas detección básica de listas, puedes omitir la opción de espacios en blanco – Aspose seguirá reconociendo los patrones estándar `1.` y `1)`.
 
-## Paso 2: Manejo de opciones de espacios
-
-Para controlar los espacios iniciales y finales al cargar un documento de texto, puede utilizar el siguiente código:
+### Paso 2: Opciones de manejo de espacios (cómo eliminar espacios)
+Los espacios iniciales y finales a menudo provocan fallos de formato. Usa `TxtLeadingSpacesOptions` y `TxtTrailingSpacesOptions` para controlar este comportamiento.
 
 ```java
 @Test
@@ -78,11 +101,10 @@ public void handleSpacesOptions() throws Exception {
 }
 ```
 
-En este ejemplo, cargamos un documento de texto y recortamos los espacios iniciales y finales usando `TxtLeadingSpacesOptions.TRIM` y `TxtTrailingSpacesOptions.TRIM`.
+> **Por qué es importante:** Eliminar espacios evita indentaciones no deseadas en el DOCX resultante, haciendo que el documento se vea limpio sin procesamiento manual posterior.
 
-## Paso 3: Controlar la dirección del texto
-
-Para especificar la dirección del texto al cargar un documento de texto, puede utilizar el siguiente código:
+### Paso 3: Control de la dirección del texto (cómo establecer la dirección)
+Para lenguajes de derecha a izquierda, establece la dirección del documento antes de cargarlo. El ejemplo a continuación carga un archivo de texto en hebreo y muestra la bandera bidi para confirmar la dirección.
 
 ```java
 @Test
@@ -98,15 +120,16 @@ public void documentTextDirection() throws Exception {
 }
 ```
 
-Este código establece la dirección del documento para detección automática (`DocumentDirection.AUTO`) y carga un documento de texto con texto en hebreo. Puede ajustar la dirección del documento según sea necesario.
+> **Error común:** Olvidar establecer `DocumentDirection` puede generar texto árabe/hebreo desordenado donde los caracteres aparecen en el orden incorrecto.
 
-## Código fuente completo para cargar archivos de texto con Aspose.Words para Java
+### Código fuente completo para cargar archivos de texto con Aspose.Words para Java
+A continuación se muestra el código completo, listo para ejecutar, que combina detección de listas, manejo de espacios y control de dirección. Puedes copiar‑pegarlo en una única clase y ejecutar los tres métodos de prueba individualmente.
 
 ```java
 public void detectNumberingWithWhitespaces() throws Exception {
-	// Cree un documento de texto simple en forma de cadena con partes que puedan interpretarse como listas.
-	// Al cargar, Aspose.Words siempre detectará las primeras tres listas.
-	// Y se crearán objetos de lista para ellos después de cargarlos.
+	// Create a plaintext document in the form of a string with parts that may be interpreted as lists.
+	// Upon loading, the first three lists will always be detected by Aspose.Words,
+	// and List objects will be created for them after loading.
 	final String TEXT_DOC = "Full stop delimiters:\n" +
 			"1. First list item 1\n" +
 			"2. First list item 2\n" +
@@ -123,14 +146,14 @@ public void detectNumberingWithWhitespaces() throws Exception {
 			"1 Fourth list item 1\n" +
 			"2 Fourth list item 2\n" +
 			"3 Fourth list item 3";
-	// La cuarta lista, con espacios en blanco entre el número de lista y el contenido del elemento de la lista,
-	// solo se detectará como una lista si "DetectNumberingWithWhitespaces" en un objeto LoadOptions está configurado como verdadero,
-	// para evitar que los párrafos que comienzan con números se detecten erróneamente como listas.
+	// The fourth list, with whitespace inbetween the list number and list item contents,
+	// will only be detected as a list if "DetectNumberingWithWhitespaces" in a LoadOptions object is set to true,
+	// to avoid paragraphs that start with numbers being mistakenly detected as lists.
 	TxtLoadOptions loadOptions = new TxtLoadOptions();
 	{
 		loadOptions.setDetectNumberingWithWhitespaces(true);
 	}
-	// Cargue el documento mientras aplica LoadOptions como parámetro y verifique el resultado.
+	// Load the document while applying LoadOptions as a parameter and verify the result.
 	Document doc = new Document(new ByteArrayInputStream(TEXT_DOC.getBytes()), loadOptions);
 	doc.save("Your Directory Path" + "WorkingWithTxtLoadOptions.DetectNumberingWithWhitespaces.docx");
 }
@@ -160,54 +183,53 @@ public void documentTextDirection() throws Exception {
 	}
 ```
 
-## Conclusión
-
-En esta guía, hemos explorado cómo cargar archivos de texto con Aspose.Words para Java, detectar listas, gestionar espacios y controlar la dirección del texto. Estas técnicas le permiten manipular documentos de texto eficazmente en sus aplicaciones Java.
+## Problemas comunes y soluciones
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| Las listas no se detectan | `DetectNumberingWithWhitespaces` quedó en `false` para listas delimitadas por espacios | Habilita `loadOptions.setDetectNumberingWithWhitespaces(true)` |
+| Indentación extra después de cargar | Los espacios iniciales se conservaron | Configura `TxtLeadingSpacesOptions.TRIM` |
+| El texto en hebreo aparece invertido | No se estableció la dirección del documento o se estableció `LEFT_TO_RIGHT` | Usa `DocumentDirection.AUTO` o `RIGHT_TO_LEFT` |
+| El DOCX de salida está vacío | El flujo de entrada no se reinició antes de la segunda carga | Vuelve a crear `ByteArrayInputStream` para cada llamada de carga |
 
 ## Preguntas frecuentes
 
-### ¿Qué es Aspose.Words para Java?
+### P: ¿Qué es Aspose.Words para Java?
+R: Aspose.Words para Java es una potente biblioteca de procesamiento de documentos que permite a los desarrolladores crear, manipular y convertir documentos Word programáticamente en aplicaciones Java. Soporta una amplia gama de funciones, desde la carga simple de texto hasta el formato complejo y la conversión.
 
-Aspose.Words para Java es una potente biblioteca de procesamiento de documentos que permite a los desarrolladores crear, manipular y convertir documentos de Word mediante programación en aplicaciones Java. Ofrece una amplia gama de funciones para trabajar con texto, tablas, imágenes y otros elementos del documento.
+### P: ¿Cómo puedo comenzar con Aspose.Words para Java?
+R: 1. Descarga e instala la biblioteca Aspose.Words para Java. 2. Consulta la documentación en [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java/) para obtener información detallada y ejemplos. 3. Explora el código de muestra y los tutoriales para aprender a usar la biblioteca de manera eficaz.
 
-### ¿Cómo puedo empezar a utilizar Aspose.Words para Java?
+### P: ¿Cómo cargo un documento de texto usando Aspose.Words para Java?
+R: Utiliza la clase `TxtLoadOptions` junto con el constructor de `Document`. Especifica opciones como detección de listas, manejo de espacios o dirección del texto como se muestra en las secciones paso a paso anteriores.
 
-Para comenzar a utilizar Aspose.Words para Java, siga estos pasos:
-1. Descargue e instale la biblioteca Aspose.Words para Java.
-2. Consulte la documentación en [Referencia de la API de Aspose.Words para Java](https://reference.aspose.com/words/java/) para obtener información detallada y ejemplos.
-3. Explore el código de muestra y los tutoriales para aprender a utilizar la biblioteca de manera efectiva.
+### P: ¿Puedo convertir un documento de texto cargado a otros formatos?
+R: Sí. Después de cargar el archivo TXT en un objeto `Document`, llama a `doc.save("output.pdf")`, `doc.save("output.docx")` o cualquier otro formato compatible.
 
-### ¿Cómo cargo un documento de texto usando Aspose.Words para Java?
+### P: ¿Cómo manejo los espacios en documentos de texto cargados?
+R: Controla los espacios iniciales y finales con `TxtLeadingSpacesOptions` y `TxtTrailingSpacesOptions`. Configúralos en `TRIM` para eliminar espacios no deseados, o en `PRESERVE` si necesitas mantener el espaciado original.
 
-Para cargar un documento de texto usando Aspose.Words para Java, puede utilizar el `TxtLoadOptions` clase y el `Document` Clase. Asegúrese de especificar las opciones adecuadas para gestionar los espacios y la dirección del texto según sea necesario. Consulte la guía paso a paso de este artículo para ver un ejemplo detallado.
+### P: ¿Cuál es la importancia de la dirección del texto en Aspose.Words para Java?
+R: La dirección del texto garantiza la representación correcta de scripts de derecha a izquierda (hebreo, árabe, etc.). Al establecer `DocumentDirection`, aseguras que el texto bidi se muestre adecuadamente en el documento resultante.
 
-### ¿Puedo convertir un documento de texto cargado a otros formatos?
+### P: ¿Dónde puedo encontrar más recursos y soporte para Aspose.Words para Java?
+R: Visita la [Aspose.Words for Java Documentation](https://reference.aspose.com/words/java/) para referencias de API, ejemplos de código y guías detalladas. También puedes unirte a los foros de la comunidad Aspose o contactar al soporte de Aspose para preguntas específicas.
 
-Sí, Aspose.Words para Java te permite convertir un documento de texto cargado a varios formatos, incluyendo DOCX, PDF y más. Puedes usar el `Document` Clase para realizar conversiones. Consulte la documentación para ver ejemplos de conversión específicos.
+### P: ¿Aspose.Words para Java es adecuado para proyectos comerciales?
+R: Sí. Ofrece opciones de licencia tanto para uso personal como comercial. Revisa los términos de licencia en el sitio web de Aspose para elegir el plan adecuado para tu proyecto.
 
-### ¿Cómo manejo los espacios en los documentos de texto cargados?
+## Conclusión
+Ahora dispones de un conjunto completo de herramientas para **cargar archivos txt**, **detectar listas**, **eliminar espacios** y **establecer la dirección** al convertir texto plano en documentos Word enriquecidos con Aspose.Words para Java. Aplica estos patrones para automatizar flujos de trabajo de documentos, mejorar el soporte multilingüe y garantizar una salida limpia y profesional en cada ocasión.
 
-Puede controlar cómo se manejan los espacios iniciales y finales en los documentos de texto cargados usando `TxtLoadOptions`Opciones como `TxtLeadingSpacesOptions` y `TxtTrailingSpacesOptions` Permiten recortar o conservar espacios según sea necesario. Consulte la sección "Opciones de gestión de espacios" de esta guía para ver un ejemplo.
+---
 
-### ¿Cuál es la importancia de la dirección del texto en Aspose.Words para Java?
-
-La dirección del texto es esencial para documentos con escrituras o idiomas mixtos, como hebreo o árabe. Aspose.Words para Java ofrece opciones para especificar la dirección del texto, garantizando así una correcta representación y formato del texto en estos idiomas. La sección "Control de la dirección del texto" de esta guía muestra cómo configurar la dirección del texto.
-
-### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Words para Java?
-
-Para obtener recursos adicionales, documentación y soporte, visite el sitio [Documentación de Aspose.Words para Java](https://reference.aspose.com/words/java/)También puede participar en los foros de la comunidad de Aspose.Words o contactar con el soporte de Aspose para obtener ayuda con problemas o consultas específicas.
-
-### ¿Es Aspose.Words para Java adecuado para proyectos comerciales?
-
-Sí, Aspose.Words para Java es adecuado tanto para proyectos personales como comerciales. Ofrece opciones de licencia para adaptarse a diversos escenarios de uso. Asegúrese de revisar los términos y precios de la licencia en el sitio web de Aspose para elegir la licencia adecuada para su proyecto.
-
+**Última actualización:** 2025-12-27  
+**Probado con:** Aspose.Words para Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

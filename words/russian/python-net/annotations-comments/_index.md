@@ -4,7 +4,9 @@
 "url": "/ru/python-net/annotations-comments/"
 "weight": 11
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Учебники по аннотациям и комментариям для Aspose.Words Python-net
 
 Изучите комплексные пошаговые руководства по операциям с аннотациями и комментариями с использованием Aspose.Words для Python-net. Эти руководства включают полные примеры кода и подробные объяснения.
@@ -33,3 +35,7 @@
 - [Форум Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

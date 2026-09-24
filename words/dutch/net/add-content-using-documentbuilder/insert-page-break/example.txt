@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je paginabreaks in een Word-document kunt invoegen met behulp van Aspose.Words Document en DocumentBuilder.
+//ExStepSummary:0: Maak een Document-object en een DocumentBuilder die gebruikt zullen worden om inhoud toe te voegen.
+//ExStepSummary:1: Schrijf de tekst voor de eerste pagina en voeg een paginabreak in zodat de volgende inhoud op een nieuwe pagina begint.
+//ExStepSummary:2: Schrijf de tekst voor de tweede pagina en voeg nog een paginabreak toe om de derde pagina te starten.
+//ExStepSummary:3: Schrijf de tekst voor de derde pagina, waarmee het drie‑pagina‑document voltooid is.
+//ExStepSummary:4: Sla het samengestelde document op als een .docx‑bestand in de opgegeven map.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.Writeln("This is page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:2-
+builder.Writeln("This is page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+
+//ExStep:3-
+builder.Writeln("This is page 3.");
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertBreak.docx");
+//ExEnd

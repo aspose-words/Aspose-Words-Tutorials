@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Utilizzando le classi Document e DocumentBuilder, questo tutorial mostra come aggiungere un campo DATE dinamico all'intestazione primaria di un documento Word e quindi salvare il file.
+//ExStepSummary:0: Crea un nuovo Document e un DocumentBuilder per modificarlo.
+//ExStepSummary:1: Sposta il cursore del builder sull'intestazione primaria in modo che le inserzioni successive influenzino l'intestazione.
+//ExStepSummary:2: Scrivi l'etichetta statica e inserisci un campo DATE formattato come “MMMM d, yyyy” nell'intestazione, creando una data dinamica.
+//ExStepSummary:3: Torna al corpo principale e aggiungi un paragrafo di esempio, dimostrando il contenuto normale del documento accanto all'intestazione.
+//ExStepSummary:4: Salva il documento in un file .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

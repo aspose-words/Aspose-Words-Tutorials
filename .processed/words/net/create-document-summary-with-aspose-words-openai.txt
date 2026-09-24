@@ -1,0 +1,7 @@
+Title: Create document summary with Aspose.Words & OpenAI
+Slug: create-document-summary-with-aspose-words-openai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-07-20T07:27:59.188237
+SourceRepo: AI Search API
+Keywords: create document summary, summarize word document, generate ai summary, call openai api, save summary file
+PRNumber: 228

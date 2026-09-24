@@ -35,6 +35,7 @@ Aspose.Words لـ .NET مكتبة فعّالة تُقدّم مجموعة واس�
 | [التعرف على الاستبدالات ضمن أنماط الاستبدال](./recognize-and-substitutions-within-replacement-patterns/) | تعلّم كيفية تمييز النصوص واستبدالها ضمن أنماط الاستبدال باستخدام Aspose.Words لـ .NET. دليل خطوة بخطوة مع أمثلة مفصلة. |
 | [استبدال بسلسلة](./replace-with-string/) تعلّم كيفية استبدال السلاسل النصية في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يرغبون في أتمتة تحرير المستندات.
 | [استبدال النص في الجدول](./replace-text-in-table/) |استبدل النص في جدول Word بسهولة باستخدام Aspose.Words لـ .NET باستخدام هذا الدليل المفصل خطوة بخطوة. |
+| [استبدال النص في DOCX باستخدام C# – دليل خطوة بخطوة](./replace-text-in-docx-with-c-step-by-step-guide/) | تعلم كيفية استبدال النص في ملفات DOCX باستخدام C# مع Aspose.Words خطوة بخطوة. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

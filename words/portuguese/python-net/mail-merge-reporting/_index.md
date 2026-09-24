@@ -4,7 +4,9 @@
 "url": "/pt/python-net/mail-merge-reporting/"
 "weight": 7
 ---
-
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 # Tutoriais de mala direta e relatórios para Aspose.Words Python-net
 
 Explore guias passo a passo abrangentes para operações de mala direta e relatórios usando o Aspose.Words para Python-net. Esses tutoriais incluem exemplos de código completos e explicações detalhadas.
@@ -37,3 +39,7 @@ Aprenda a dominar a mesclagem de documentos com o Aspose.Words em Python, com fo
 - [Fórum Aspose.Words](https://forum.aspose.com/c/words/8)
 - [Suporte gratuito](https://forum.aspose.com/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

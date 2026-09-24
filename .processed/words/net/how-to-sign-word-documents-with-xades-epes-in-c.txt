@@ -1,0 +1,7 @@
+Title: How to sign word documents with XAdES EPES in C#
+Slug: how-to-sign-word-documents-with-xades-epes-in-c
+Category: programming-with-digital-signatures
+ProcessedDate: 2026-09-08T22:52:12.311092
+SourceRepo: AI Search API
+Keywords: how to sign word, digital signature docx, load pfx certificate, digitally sign word, create xades signature
+PRNumber: 267
