@@ -1,0 +1,7 @@
+Title: How to convert docx to markdown using Aspose.Words for Java
+Slug: how-to-convert-docx-to-markdown-using-aspose-words-for-java
+Category: document-converting
+ProcessedDate: 2026-09-24T19:08:31.646758
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, export word document as markdown, aspose words convert docx, save document as markdown file, convert word tables to html
+PRNumber: 287
