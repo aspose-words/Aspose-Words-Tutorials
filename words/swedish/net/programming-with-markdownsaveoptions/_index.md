@@ -140,6 +140,9 @@ Lär dig spara bilder från Word när du konverterar till Markdown med en komple
 ### [Konvertera docx till markdown i C# – Steg‑för‑steg‑guide](./convert-docx-to-markdown-in-c-step-by-step-guide/)
 Lär dig konvertera DOCX-filer till Markdown i C# med en detaljerad steg‑för‑steg‑guide.
 
+### [Konvertera Word till Markdown i C# – Exportera ekvationer som LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
+Lär dig konvertera Word-dokument till Markdown och exportera ekvationer som LaTeX med en komplett C#‑guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

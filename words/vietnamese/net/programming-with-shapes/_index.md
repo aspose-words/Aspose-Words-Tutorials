@@ -43,6 +43,7 @@ Bằng cách sử dụng Aspose.Words cho .NET và làm theo các hướng dẫn
 | [Cách chỉnh sửa bóng hình dạng trong C# với Aspose.Words – Hướng dẫn từng bước](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Tìm hiểu cách chỉnh sửa bóng của hình dạng trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Thêm bóng cho hình dạng – Hướng dẫn từng bước cho nhà phát triển C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Tìm hiểu cách thêm bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Tạo tài liệu Word trống với Aspose.Words – Hướng dẫn từng bước](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Tìm hiểu cách tạo tài liệu Word trống bằng Aspose.Words cho .NET qua hướng dẫn chi tiết từng bước. |
+| [Tạo hình chữ nhật, thêm bóng đổ và lưu PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Tìm hiểu cách tạo hình chữ nhật, thêm hiệu ứng bóng và lưu tài liệu dưới dạng PDF bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

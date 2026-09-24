@@ -103,6 +103,8 @@ Pelajari cara mengekspor file DOCX ke format Markdown dengan panduan langkah dem
 Pelajari cara mengekspor file DOCX ke format Markdown lengkap dengan gambar menggunakan panduan langkah demi langkah.
 ### [Cara Mengekspor Markdown dari DOCX – Panduan Lengkap](./how-to-export-markdown-from-docx-complete-guide/)
 Pelajari cara mengekspor dokumen DOCX ke format Markdown dengan panduan lengkap.
+### [Konversi Word ke Markdown dalam C# – Ekspor Persamaan sebagai LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
+Pelajari cara mengonversi dokumen Word ke Markdown dengan mengekspor persamaan sebagai LaTeX menggunakan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

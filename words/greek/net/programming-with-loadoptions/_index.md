@@ -48,6 +48,7 @@
 | [Ανάκτηση Κατεστραμμένων Αρχείων DOCX σε C# – Πλήρης Οδηγός](./recover-corrupted-docx-files-in-c-complete-guide/) | Μάθετε πώς να επαναφέρετε κατεστραμμένα αρχεία DOCX χρησιμοποιώντας C# και Aspose.Words με βήμα-βήμα οδηγίες. |
 | [Πώς να ανακτήσετε αρχεία DOCX – Πλήρης οδηγός αποκατάστασης κατεστραμμένων εγγράφων Word](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Μάθετε πώς να ανακτήσετε αρχεία DOCX που έχουν καταστραφεί, βήμα προς βήμα, με το Aspose.Words για .NET. |
 | [Διαμόρφωση Aspose Load Options σε C# – Πλήρης Οδηγός](./configure-aspose-load-options-in-c-complete-guide/) | Μάθετε πώς να ρυθμίσετε τις Aspose Load Options σε C# για βέλτιστη φόρτωση εγγράφων Word, με παραδείγματα κώδικα. |
+| [Aspose Load Options – Μετατροπή DOCX σε Markdown και PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε μορφές Markdown και PDF χρησιμοποιώντας το Aspose Load Options σε .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

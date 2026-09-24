@@ -27,6 +27,7 @@ Oavsett om du vill formatera text med olika teckensnitt, ange regler för tecken
 | --- | --- |
 | [Typsnittsformatering](./font-formatting/) | Lär dig hur du formaterar teckensnitt i Word-dokument med Aspose.Words för .NET med en detaljerad steg-för-steg-guide. |
 | [Hämta radavstånd för teckensnitt](./get-font-line-spacing/) | Lär dig hur du får radavstånd för teckensnitt med Aspose.Words för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare. |
+| [Hur man upptäcker teckensnitt i Word-dokument – Komplett C#-guide](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Lär dig hur du upptäcker teckensnitt i Word-dokument med Aspose.Words för .NET i en komplett C#-guide. |
 | [Kontrollera DrawingML-texteffekten](./check-drawingml-text-effect/) Lär dig hur du kontrollerar DrawingML-texteffekter i Word-dokument med Aspose.Words för .NET med vår detaljerade steg-för-steg-guide. Förbättra dina dokument med lätthet. |
 | [Ställ in teckensnittsformatering](./set-font-formatting/) | Lär dig hur du ställer in teckensnittsformatering i Word-dokument med Aspose.Words för .NET. Följ vår detaljerade steg-för-steg-guide för att förbättra din dokumentautomation. |
 | [Ställ in teckensnittsmarkering](./set-font-emphasis-mark/) | Lär dig hur du ställer in betoningstecken i Word-dokument med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. Perfekt för .NET-utvecklare. |

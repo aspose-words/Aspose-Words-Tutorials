@@ -129,6 +129,8 @@ Apprenez à préserver les sauts de ligne lors de la conversion de fichiers DOCX
 
 ### [Comment exporter le Markdown depuis DOCX – Guide complet étape par étape](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
 
+### [Convertir Word en Markdown en C# – Exporter les équations en LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

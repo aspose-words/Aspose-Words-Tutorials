@@ -62,6 +62,7 @@
 | [如何在 C# 中使用回呼 – 將 DOCX 轉換為 Markdown](./how-to-use-callback-in-c-convert-docx-to-markdown/) |示範如何在 C# 中使用回呼函式將 DOCX 文件轉換為 Markdown，提供完整步驟與範例程式碼。 |
 | [在將 DOCX 轉換為 Markdown 時判斷檔案副檔名 – 完整指南](./determine-file-extension-while-converting-docx-to-markdown-c/) |示範如何在使用 Aspose.Words for .NET 將 DOCX 轉換為 Markdown 時，正確判斷並設定輸出檔案的副檔名。 |
 | [在將 Word 轉換為 Markdown 時保存圖像 – 完整 C# 指南](./save-word-images-while-converting-word-to-markdown-complete/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 轉換為 Markdown 時，同時保存所有圖像，提供完整範例程式碼。 |
+| [在 C# 中將 Word 轉換為 Markdown – 匯出方程式為 LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/) |示範如何使用 Aspose.Words for .NET 在 C# 中將 Word 文件轉換為 Markdown，並將方程式匯出為 LaTeX 格式。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

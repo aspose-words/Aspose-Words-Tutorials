@@ -59,6 +59,7 @@
 | [記錄字體替換警告 – 完整 Aspose.Words 指南](./log-font-substitution-warnings-complete-aspose-words-guide/) |了解如何使用 Aspose.Words for .NET 記錄字體替換警告，以便在文件處理過程中捕獲相關資訊。 |
 | [建立字體警告處理程式 – 偵測缺少的字體 (C#)](./create-font-warning-handler-detect-missing-fonts-in-c/) |了解如何在 Aspose.Words for .NET 中使用 C# 建立字體警告處理程式，以偵測缺少的字體。 |
 | [如何在載入 DOCX 檔案時啟用警告並偵測缺少的字體](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) |了解如何在使用 Aspose.Words for .NET 載入 DOCX 檔案時啟用警告並偵測缺少的字體。 |
+| [如何在 Word 文件中偵測字體 – 完整 C# 指南](./how-to-detect-fonts-in-word-documents-complete-c-guide/) |在本完整的 C# 教學中，學習如何在 Word 文件中偵測及列出使用的字體。 |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

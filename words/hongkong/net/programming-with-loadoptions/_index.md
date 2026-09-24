@@ -45,6 +45,7 @@ Aspose.Words for .NET 教學課程為希望掌握使用 LoadOptions 進行文字
 | [使用 Aspose.Words 復原受損的 DOCX 檔案](./recover-damaged-docx-file-using-aspose-words/) |了解如何使用 Aspose.Words for .NET 復原受損的 DOCX 檔案，確保文件完整性與可讀性。 |
 | [在 C# 中復原損壞的 DOCX 檔案 – 完整指南](./recover-corrupted-docx-files-in-c-complete-guide/) |了解如何使用 Aspose.Words for .NET 在 C# 中完整復原受損的 DOCX 文件，確保資料完整性。 |
 | [在 C# 中配置 Aspose 載入選項 – 完整指南](./configure-aspose-load-options-in-c-complete-guide/) |本完整指南說明如何在 C# 中使用 Aspose.Words 的 LoadOptions 進行自訂設定，涵蓋所有關鍵步驟與範例。 |
+| [Aspose 載入選項 – 將 DOCX 轉換為 Markdown 與 PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) |了解如何使用 Aspose.Words for .NET 的 LoadOptions 將 DOCX 文件轉換為 Markdown 格式並匯出為 PDF。 |
 
 | [恢復受損的 Word 檔案 – 完整指南：開啟損壞的 DOCX 並取得頁數](./recover-damaged-word-file-complete-guide-to-open-corrupted-d/) |依照本逐步教學，使用 Aspose.Words for .NET 輕鬆恢復受損的 Word 檔案，開啟損壞的 DOCX 並取得頁數。 |
 | [如何恢復 docx – C# 受損 Word 檔案指南](./how-to-recover-docx-c-guide-for-corrupted-word-files/) |了解如何使用 Aspose.Words for .NET 在 C# 中恢復受損的 docx 文件。 |

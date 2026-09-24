@@ -50,6 +50,7 @@
 | [Восстановление повреждённых файлов DOCX в C# – Полное руководство](./recover-corrupted-docx-files-in-c-complete-guide/) | Узнайте, как восстановить повреждённые DOCX файлы в C# с помощью Aspose.Words, следуя пошаговому полному руководству. |
 | [Как восстановить файлы DOCX – Полное руководство по восстановлению повреждённых документов Word](./how-to-recover-docx-files-complete-guide-to-restoring-corrup/) | Пошаговое руководство по восстановлению повреждённых файлов DOCX с помощью Aspose.Words для .NET. |
 | [Настройка Aspose Load Options в C# – Полное руководство](./configure-aspose-load-options-in-c-complete-guide/) | Подробное руководство по настройке параметров загрузки Aspose в C# для оптимальной обработки документов Word. |
+| [Aspose Load Options – Конвертировать DOCX в Markdown и PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | Узнайте, как с помощью LoadOptions конвертировать документы DOCX в форматы Markdown и PDF в Aspose.Words для .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

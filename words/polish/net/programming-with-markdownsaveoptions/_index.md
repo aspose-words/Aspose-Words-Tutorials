@@ -128,6 +128,9 @@ Dowiedz się, jak konwertować pliki DOCX do formatu Markdown, zachowując równ
 ### [Zapisz obrazy Word podczas konwertowania Word na Markdown – Kompletny przewodnik C#](./save-word-images-while-converting-word-to-markdown-complete/)
 Kompletny przewodnik C# pokazujący, jak wyodrębniać i zapisywać obrazy z dokumentów Word podczas konwersji do formatu Markdown przy użyciu Aspose.Words.
 
+### [Konwertuj Word do Markdown w C# – Eksportuj równania jako LaTeX](./convert-word-to-markdown-in-c-export-equations-as-latex/)
+Kompletny przewodnik C# pokazujący, jak wyeksportować równania jako LaTeX przy konwersji Word do Markdown.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

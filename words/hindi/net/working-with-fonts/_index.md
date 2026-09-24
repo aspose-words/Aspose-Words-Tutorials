@@ -59,6 +59,8 @@
 | [Aspose.Words में फ़ॉन्ट्स को कैप्चर करने का तरीका – पूर्ण गाइड](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Aspose.Words के साथ फ़ॉन्ट कैप्चर करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और चरण‑दर‑चरण मार्गदर्शन। |
 | [c# वर्ड दस्तावेज़ लोड करें – गायब फ़ॉन्ट्स का पता लगाएँ और संभालें](./c-load-word-document-detect-handle-missing-fonts/) | इस चरण-दर-स्टेप ट्यूटोरियल के साथ .NET के लिए Aspose.Words का उपयोग करके वर्ड दस्तावेज़ लोड करते समय गायब फ़ॉन्ट्स का पता लगाना और संभालना सीखें। |
 | [फ़ॉन्ट चेतावनी हैंडलर बनाएं – C# में गायब फ़ॉन्ट्स का पता लगाएँ](./create-font-warning-handler-detect-missing-fonts-in-c/) | .NET के लिए Aspose.Words का उपयोग करके C# में फ़ॉन्ट चेतावनी हैंडलर बनाकर गायब फ़ॉन्ट्स का पता लगाना सीखें। |
+| [Word दस्तावेज़ों में फ़ॉन्ट का पता कैसे लगाएँ – पूर्ण C# गाइड](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Word दस्तावेज़ों में प्रयुक्त फ़ॉन्ट्स को पहचानने के लिए .NET के लिए Aspose.Words के साथ चरण-दर-चरण C# गाइड। |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

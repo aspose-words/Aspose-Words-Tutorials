@@ -78,6 +78,8 @@ doc.Save("Output.docx");
 | [How to Capture Fonts in Aspose.Words – Complete Guide](./how-to-capture-fonts-in-aspose-words-complete-guide/) | Learn how to capture fonts in Aspose.Words with a complete step-by-step guide and code examples. |
 | [How to Load DOCX and Detect Missing Fonts – Complete C# Guide](./how-to-load-docx-and-detect-missing-fonts-complete-c-guide/) | Learn how to load a DOCX file and detect missing fonts using Aspose.Words for .NET in this complete C# guide. |
 | [c# load word document – detect & handle missing fonts](./c-load-word-document-detect-handle-missing-fonts/) | Learn how to load a Word document and detect & handle missing fonts using Aspose.Words for .NET. |
+| [How to Detect Fonts in Word Documents – Complete C# Guide](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Learn how to detect fonts used in Word documents using Aspose.Words for .NET with a comprehensive C# guide. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

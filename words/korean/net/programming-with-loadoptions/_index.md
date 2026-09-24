@@ -50,6 +50,7 @@ Aspose.Words for .NET 튜토리얼은 LoadOptions를 사용하여 워드 프로�
 | [Aspose.Words를 사용한 손상된 DOCX 파일 복구](./recover-damaged-docx-file-using-aspose-words/) | Aspose.Words를 활용해 손상된 DOCX 파일을 복구하는 과정을 자세히 설명합니다. |
 | [C#에서 손상된 DOCX 파일 복구 – 완전 가이드](./recover-corrupted-docx-files-in-c-complete-guide/) | 손상된 DOCX 파일을 C#과 Aspose.Words로 복구하는 단계별 가이드를 제공합니다. |
 | [C#에서 Aspose Load Options 구성 – 전체 가이드](./configure-aspose-load-options-in-c-complete-guide/) | Aspose.Words for .NET에서 C#을 사용해 Load Options를 설정하고 최적화하는 방법을 단계별로 안내합니다. |
+| [Aspose Load Options – DOCX를 Markdown 및 PDF로 변환](./aspose-load-options-convert-docx-to-markdown-pdf/) | Aspose.Words for .NET을 사용해 DOCX 파일을 Markdown 형식과 PDF 파일로 변환하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

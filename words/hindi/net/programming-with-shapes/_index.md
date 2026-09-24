@@ -47,6 +47,7 @@
 | [C# में Aspose.Words के साथ आकृति छाया को संपादित करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-edit-shape-shadow-in-c-with-aspose-words-step-by-step/) | Aspose.Words का उपयोग करके C# में आकृति की छाया को कैसे बदलें, इस चरण‑दर‑चरण मार्गदर्शिका में सीखें। |
 | [आकार में छाया जोड़ें – C# डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | .NET के लिए Aspose.Words का उपयोग करके आकार में छाया कैसे जोड़ें, इस चरण‑दर‑चरण मार्गदर्शिका के साथ सीखें। |
 | [Aspose.Words के साथ खाली वर्ड दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words का उपयोग करके .NET में एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
+| [आयत आकार बनाएं, छाया जोड़ें और PDF सहेजें](./create-rectangle-shape-add-shadow-save-pdf/) | Aspose.Words for .NET का उपयोग करके आयत आकार बनाएं, छाया लागू करें और दस्तावेज़ को PDF के रूप में सहेजें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

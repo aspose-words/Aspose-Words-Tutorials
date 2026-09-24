@@ -61,6 +61,8 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Activer les avertissements de substitution de police dans Aspose.Words – Guide complet](./enable-font-substitution-warnings-in-aspose-words-complete-g/) | Apprenez à activer les avertissements de substitution de police dans Aspose.Words avec ce guide complet étape par étape. |
 | [c# charger un document Word – détecter et gérer les polices manquantes](./c-load-word-document-detect-handle-missing-fonts/) | Apprenez à charger un document Word en C# et à détecter ainsi que gérer les polices manquantes avec Aspose.Words pour .NET. |
 | [Créer un gestionnaire d'avertissement de police – détecter les polices manquantes en C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Apprenez à créer un gestionnaire d'avertissement de police pour détecter les polices manquantes dans vos documents Word avec Aspose.Words pour .NET en C#. |
+| [Comment détecter les polices dans les documents Word – Guide complet C#](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Apprenez à détecter les polices utilisées dans les documents Word avec Aspose.Words pour .NET, guide complet en C#. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
