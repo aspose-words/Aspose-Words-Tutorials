@@ -20,20 +20,6 @@ title: 在 Word 中创建矩形形状 – 完整 Aspose.Words 指南
 url: /zh/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-have a table with columns: Property, What It Controls, Typical Values. Translate header row content? Probably yes, translate "Property", "What It Controls", "Typical Values" to Chinese, but keep property names unchanged. The table rows have property names and values; keep property names unchanged, but translate description and typical values? Typical values are numbers; keep as is. So translate "Softness of the shadow edges" etc.
-
-Also translate bullet points, etc.
-
-Let's produce final content.
-
-Be careful with markdown formatting.
-
-Let's start.
-
-We need to keep the shortcodes at top exactly as they are.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

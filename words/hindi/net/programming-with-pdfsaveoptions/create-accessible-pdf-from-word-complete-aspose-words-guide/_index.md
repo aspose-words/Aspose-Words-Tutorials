@@ -25,23 +25,7 @@ title: Word से सुलभ PDF बनाएं – पूर्ण Aspose.W
 url: /hi/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/
 ---
 
-didn't miss any.
-
-Also there is "Pro tip:" etc. Keep as is, but translate text after.
-
-Also "Edge case note:" keep as is but translate after.
-
-Also "What’s happening under the hood?" keep but translate after.
-
-Also "Why this matters:" keep but translate after.
-
-Also "Expected Result" we translated.
-
-Also "Expected Result" bullet list.
-
-All good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

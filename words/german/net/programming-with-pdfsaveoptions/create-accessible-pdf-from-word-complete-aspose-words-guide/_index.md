@@ -25,9 +25,7 @@ title: Barrierefreies PDF aus Word erstellen – Vollständiger Aspose.Words-Lei
 url: /de/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/
 ---
 
-we keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,7 +25,7 @@ title: Gérer les polices manquantes en C# avec Aspose.Words – Guide complet
 url: /fr/net/working-with-fonts/handle-missing-fonts-in-c-with-aspose-words-complete-guide/
 ---
 
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

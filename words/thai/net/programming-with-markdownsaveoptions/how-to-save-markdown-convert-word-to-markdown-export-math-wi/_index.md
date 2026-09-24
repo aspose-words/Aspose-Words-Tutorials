@@ -23,8 +23,6 @@ title: วิธีบันทึก Markdown – แปลง Word เป็�
 url: /th/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/
 ---
 
-translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

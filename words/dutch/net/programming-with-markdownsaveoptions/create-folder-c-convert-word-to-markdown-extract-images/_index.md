@@ -24,12 +24,6 @@ title: Map maken C# – Converteer Word naar Markdown & Extraheer afbeeldingen
 url: /nl/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-heading.
-
-Also bullet lists.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,9 +23,7 @@ title: Создать папку C# – Конвертировать Word в Mar
 url: /ru/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

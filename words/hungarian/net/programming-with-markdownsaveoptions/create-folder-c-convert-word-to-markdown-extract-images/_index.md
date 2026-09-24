@@ -24,7 +24,7 @@ title: Mappa létrehozása C# – Word átalakítása Markdownra és képek kiny
 url: /hu/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

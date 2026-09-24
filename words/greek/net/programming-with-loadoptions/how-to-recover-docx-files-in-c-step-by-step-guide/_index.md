@@ -23,9 +23,7 @@ title: Πώς να ανακτήσετε αρχεία DOCX σε C# – Οδηγό
 url: /el/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
-unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

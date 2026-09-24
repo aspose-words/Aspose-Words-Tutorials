@@ -25,14 +25,6 @@ title: Řešení chybějících fontů v C# s Aspose.Words – Kompletní průvo
 url: /cs/net/working-with-fonts/handle-missing-fonts-in-c-with-aspose-words-complete-guide/
 ---
 
-to keep markdown formatting.
-
-Let's produce the translated content.
-
-We'll keep shortcodes exactly as they are.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

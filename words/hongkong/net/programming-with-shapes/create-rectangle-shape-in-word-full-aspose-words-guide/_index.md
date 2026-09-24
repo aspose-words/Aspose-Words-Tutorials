@@ -20,11 +20,7 @@ title: 在 Word 中建立矩形形狀 – 完整 Aspose.Words 指南
 url: /zh-hant/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-any missed items: The image alt and title changed. The table translation done.
-
-Make sure to keep code block placeholders unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

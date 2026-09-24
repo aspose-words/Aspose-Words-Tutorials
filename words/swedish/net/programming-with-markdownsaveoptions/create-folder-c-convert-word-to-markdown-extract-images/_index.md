@@ -23,9 +23,7 @@ title: Skapa mapp C# – Konvertera Word till Markdown och extrahera bilder
 url: /sv/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

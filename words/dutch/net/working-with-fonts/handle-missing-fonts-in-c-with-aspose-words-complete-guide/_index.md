@@ -25,14 +25,6 @@ title: Ontbrekende lettertypen behandelen in C# met Aspose.Words – Complete gi
 url: /nl/net/working-with-fonts/handle-missing-fonts-in-c-with-aspose-words-complete-guide/
 ---
 
-Then closing shortcodes.
-
-Also include backtop button shortcode unchanged.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

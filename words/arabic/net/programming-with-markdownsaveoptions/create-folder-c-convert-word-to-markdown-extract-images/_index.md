@@ -22,24 +22,6 @@ title: إنشاء مجلد C# – تحويل Word إلى Markdown واستخرا
 url: /ar/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-.
-
-Let's translate:
-
-Title: "# Create folder C# – Convert Word to Markdown & Extract Images" -> Arabic: "# إنشاء مجلد C# – تحويل Word إلى Markdown واستخراج الصور"
-
-Continue.
-
-Paragraphs.
-
-Will translate.
-
-Make sure not to translate code placeholders like .docx, .md etc.
-
-Also keep bullet points.
-
-Now produce final content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

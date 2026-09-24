@@ -23,10 +23,6 @@ title: Создание прямоугольной формы в Word – П
 url: /ru/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-Make sure to keep **bold** formatting.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

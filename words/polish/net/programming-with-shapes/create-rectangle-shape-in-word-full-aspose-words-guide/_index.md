@@ -24,7 +24,7 @@ title: Utwórz prostokątny kształt w Word – Pełny przewodnik Aspose.Words
 url: /pl/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

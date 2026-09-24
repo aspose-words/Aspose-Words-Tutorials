@@ -23,25 +23,7 @@ title: Markdownとして保存する方法 – WordをMarkdownに変換し、Asp
 url: /ja/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/
 ---
 
-"Expected result:" etc.
-
-Also translate "Frequently Asked Questions (FAQ)" heading.
-
-Also translate Q/A.
-
-Also translate "Conclusion".
-
-Also translate "Next steps?" etc.
-
-Make sure to keep markdown formatting.
-
-Now produce final Japanese translation.
-
-Let's proceed.
-
-We'll keep shortcodes at start and end.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,8 +23,6 @@ title: كيفية تصدير LaTeX من Word – دليل C# خطوة بخطوة
 url: /ar/net/basic-conversions/how-to-export-latex-from-word-step-by-step-c-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

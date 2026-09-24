@@ -23,16 +23,6 @@ title: Tạo thư mục C# – Chuyển đổi Word sang Markdown & Trích xuấ
 url: /vi/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-delete
-
-But we need to keep the word "delete" maybe as is. Keep as original.
-
-Now after that the content ends with the closing shortcodes.
-
-We must ensure we keep all shortcodes exactly.
-
-Let's assemble final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

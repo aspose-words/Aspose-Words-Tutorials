@@ -25,10 +25,6 @@ title: Cara Menyimpan Markdown – Mengonversi Word ke Markdown & Mengekspor Mat
 url: /id/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/
 ---
 
-ensure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

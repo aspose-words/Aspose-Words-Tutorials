@@ -25,15 +25,7 @@ title: Crea PDF accessibile da Word – Guida completa ad Aspose.Words
 url: /it/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/
 ---
 
-All preserved.
-
-Now produce final content with translation.
-
-Check for any other markdown like blockquotes, code fences placeholders are fine.
-
-Make sure not to translate code block placeholders.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

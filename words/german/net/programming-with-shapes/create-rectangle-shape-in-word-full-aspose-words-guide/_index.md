@@ -24,8 +24,6 @@ title: Rechteckform in Word erstellen – Vollständiger Aspose.Words-Leitfaden
 url: /de/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-unchanged.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

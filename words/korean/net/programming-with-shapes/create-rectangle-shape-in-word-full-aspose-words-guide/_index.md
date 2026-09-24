@@ -22,14 +22,6 @@ title: Word에서 사각형 도형 만들기 – 전체 Aspose.Words 가이드
 url: /ko/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-same structure.
-
-Let's craft translation.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

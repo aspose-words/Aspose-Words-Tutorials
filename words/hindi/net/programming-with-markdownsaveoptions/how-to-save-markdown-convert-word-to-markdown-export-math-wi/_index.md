@@ -24,21 +24,7 @@ title: मार्कडाउन को कैसे सहेजें – �
 url: /hi/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/
 ---
 
-रूपांतरण को बिल्ड पाइपलाइन, CI जॉब्स, या एक‑बार के स्क्रिप्ट में एकीकृत कर सकते हैं—कोई अतिरिक्त टूल आवश्यक नहीं।"
-
-Paragraph: "Next steps? Try chaining this converter with a static‑site generator (Hugo, Jekyll) to automate your entire docs workflow, or experiment with `HtmlSaveOptions` to produce HTML‑plus‑Math"
-
-Translate: "अगले कदम? इस कन्वर्टर को स्थैतिक‑साइट जेनरेटर (Hugo, Jekyll) के साथ जोड़कर अपने पूरे दस्तावेज़ वर्कफ़्लो को स्वचालित करने की कोशिश करें, या `HtmlSaveOptions` के साथ प्रयोग करके HTML‑plus‑Math उत्पन्न करें"
-
-Now close shortcodes as given.
-
-We must keep the final shortcodes unchanged.
-
-Now produce final content with all translations.
-
-Check we kept all placeholders and shortcodes.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

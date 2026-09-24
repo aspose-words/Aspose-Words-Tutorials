@@ -23,15 +23,7 @@ title: 如何保存 Markdown – 将 Word 转换为 Markdown 并使用 Aspose.Wo
 url: /zh/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/
 ---
 
-HTML‑plus‑Math"
-
-Translate.
-
-Then close shortcodes.
-
-Now ensure we keep all shortcodes unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,16 +24,6 @@ title: Δημιουργία σχήματος ορθογωνίου στο Word �
 url: /el/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-Paragraphs.
-
-Will translate.
-
-Make sure to keep **bold** formatting.
-
-Also code block placeholders remain.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

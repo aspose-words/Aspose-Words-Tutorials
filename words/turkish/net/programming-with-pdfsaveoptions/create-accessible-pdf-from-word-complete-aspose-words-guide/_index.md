@@ -26,13 +26,7 @@ title: Word'den Erişilebilir PDF Oluşturma – Tam Aspose.Words Rehberi
 url: /tr/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-All good.
-
-Make sure we didn't translate code placeholders or shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

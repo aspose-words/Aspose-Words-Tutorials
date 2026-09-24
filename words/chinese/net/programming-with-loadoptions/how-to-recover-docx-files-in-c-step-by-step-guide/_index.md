@@ -19,10 +19,6 @@ title: 如何在 C# 中恢复 DOCX 文件 – 步骤指南
 url: /zh/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
-sure to keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

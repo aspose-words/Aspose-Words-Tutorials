@@ -23,10 +23,6 @@ title: Cómo recuperar archivos DOCX en C# – Guía paso a paso
 url: /es/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
-need to translate content but keep pipe separators.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

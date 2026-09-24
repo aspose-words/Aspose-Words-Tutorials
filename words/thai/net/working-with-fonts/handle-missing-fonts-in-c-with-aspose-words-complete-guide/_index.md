@@ -23,9 +23,7 @@ title: จัดการฟอนต์ที่หายไปใน C# ด้
 url: /th/net/working-with-fonts/handle-missing-fonts-in-c-with-aspose-words-complete-guide/
 ---
 
-.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

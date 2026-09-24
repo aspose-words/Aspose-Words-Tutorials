@@ -21,8 +21,6 @@ title: Cách Khôi Phục Tệp DOCX trong C# – Hướng Dẫn Từng Bước
 url: /vi/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

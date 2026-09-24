@@ -24,17 +24,7 @@ title: Crear forma de rectángulo en Word – Guía completa de Aspose.Words
 url: /es/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-any tables: we translated.
-
-Check any bullet lists: we translated.
-
-Check any italic *text*: we kept.
-
-Check any bold **text**: we kept.
-
-Check any technical terms: we kept English for those phrases.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

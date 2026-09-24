@@ -23,9 +23,7 @@ title: Word에서 LaTeX 내보내는 방법 – 단계별 C# 가이드
 url: /ko/net/basic-conversions/how-to-export-latex-from-word-step-by-step-c-guide/
 ---
 
-Make sure no extra spaces.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

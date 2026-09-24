@@ -23,10 +23,6 @@ title: Comment récupérer les fichiers DOCX en C# – Guide étape par étape
 url: /fr/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-step-by-step-guide/
 ---
 
-Check for any markdown links: none except maybe none.
-
-Now produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

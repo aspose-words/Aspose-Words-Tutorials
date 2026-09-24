@@ -23,18 +23,6 @@ title: Skapa rektangelform i Word – Fullständig Aspose.Words‑guide
 url: /sv/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-headings, paragraphs, list items, table headers? Table headers are property names, keep as is. The column "What It Controls" maybe translate? But it's a header in table; it's text. Should translate to Swedish: "Vad den styr". "Typical Values" -> "Typiska värden". Keep property names unchanged.
-
-Also code block placeholders remain unchanged.
-
-We need to translate bullet points, etc.
-
-Let's produce final content.
-
-Be careful with markdown links: none present except maybe none. There are no links.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

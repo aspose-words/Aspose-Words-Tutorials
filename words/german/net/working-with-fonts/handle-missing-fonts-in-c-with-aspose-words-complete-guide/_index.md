@@ -25,11 +25,7 @@ title: Umgang mit fehlenden Schriftarten in C# mit Aspose.Words – Komplettanle
 url: /de/net/working-with-fonts/handle-missing-fonts-in-c-with-aspose-words-complete-guide/
 ---
 
-tables, etc.
-
-We need to ensure code block placeholders remain unchanged.
-
-Now produce final output with translated content only.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

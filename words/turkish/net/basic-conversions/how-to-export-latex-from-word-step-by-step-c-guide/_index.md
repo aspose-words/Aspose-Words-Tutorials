@@ -25,17 +25,7 @@ title: Word’ten LaTeX Nasıl Dışa Aktarılır – Adım Adım C# Rehberi
 url: /tr/net/basic-conversions/how-to-export-latex-from-word-step-by-step-c-guide/
 ---
 
-Pro tip:** maybe translate "Pro ipucu". But the requirement: technical terms stay English, but "Pro tip" is not technical. Could translate. But keep formatting: > **Pro ipucu:** Use the latest stable version... We'll translate.
-
-Proceed.
-
-All other content.
-
-Make sure not to translate code block placeholders.
-
-Also keep the shortcodes at end.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

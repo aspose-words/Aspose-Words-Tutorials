@@ -22,10 +22,6 @@ title: Vytvořit složku C# – převést Word na Markdown a extrahovat obrázky
 url: /cs/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-After that, there is closing shortcodes.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

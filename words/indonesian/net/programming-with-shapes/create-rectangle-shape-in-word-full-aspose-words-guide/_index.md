@@ -24,16 +24,6 @@ title: Buat Bentuk Persegi Panjang di Word – Panduan Lengkap Aspose.Words
 url: /id/net/programming-with-shapes/create-rectangle-shape-in-word-full-aspose-words-guide/
 ---
 
-"Kasus Pinggir yang Perlu Diperhatikan" maybe.
-
-Translate "Frequently Asked Questions" => "Pertanyaan yang Sering Diajukan".
-
-Translate Q/A.
-
-Make sure to keep markdown formatting.
-
-Let's construct final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

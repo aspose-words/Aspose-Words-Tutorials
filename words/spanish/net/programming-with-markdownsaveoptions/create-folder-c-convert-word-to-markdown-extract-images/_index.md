@@ -23,9 +23,7 @@ title: Crear carpeta C# – Convertir Word a Markdown y extraer imágenes
 url: /es/net/programming-with-markdownsaveoptions/create-folder-c-convert-word-to-markdown-extract-images/
 ---
 
-Now ensure all shortcodes remain.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,8 +25,6 @@ title: Skapa tillgänglig PDF från Word – Komplett Aspose.Words-guide
 url: /sv/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-complete-aspose-words-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

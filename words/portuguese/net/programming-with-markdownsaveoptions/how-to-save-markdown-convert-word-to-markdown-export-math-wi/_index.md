@@ -25,25 +25,7 @@ title: Como salvar em Markdown – Converter Word para Markdown e exportar matem
 url: /pt/net/programming-with-markdownsaveoptions/how-to-save-markdown-convert-word-to-markdown-export-math-wi/
 ---
 
-Code block placeholders.
-
-Full working example translation.
-
-Code block placeholder.
-
-Run program translation.
-
-FAQ translation.
-
-Each Q/A.
-
-Conclusion translation.
-
-At the end, closing shortcodes.
-
-Make sure to keep all markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

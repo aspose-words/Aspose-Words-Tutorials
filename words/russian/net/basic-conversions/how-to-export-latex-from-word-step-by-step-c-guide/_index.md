@@ -24,9 +24,7 @@ title: Как экспортировать LaTeX из Word – пошагово�
 url: /ru/net/basic-conversions/how-to-export-latex-from-word-step-by-step-c-guide/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
