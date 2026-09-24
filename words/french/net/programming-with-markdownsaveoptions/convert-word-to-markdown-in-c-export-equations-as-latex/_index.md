@@ -23,9 +23,7 @@ title: Convertir Word en Markdown en C# – Exporter les équations en LaTeX
 url: /fr/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/
 ---
 
-to keep the shortcodes exactly as original.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -125,17 +123,6 @@ E = mc^2
 ```
 
 Toutes les équations sont maintenant en LaTeX, prêtes à être incluses dans un notebook Jupyter ou tout pipeline compatible LaTeX.
-
-## Exemple complet fonctionnel  
-
-En rassemblant le tout, voici un programme d’un seul fichier que vous pouvez exécuter tel quel (remplacez simplement les chemins).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

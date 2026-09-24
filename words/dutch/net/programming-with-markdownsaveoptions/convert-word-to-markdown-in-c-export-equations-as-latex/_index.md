@@ -23,14 +23,6 @@ title: Word naar Markdown converteren in C# – Vergelijkingen exporteren als La
 url: /nl/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/
 ---
 
-ends with "class Program". Probably truncated intentionally. We'll keep as is.
-
-After code block, there are closing shortcodes.
-
-Now ensure we keep all shortcodes exactly as they appear.
-
-Let's assemble final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -131,17 +123,6 @@ E = mc^2
 ```
 
 Alle vergelijkingen zijn nu LaTeX, klaar voor opname in een Jupyter‑notebook of elke LaTeX‑bewuste pipeline.
-
-## Volledig werkend voorbeeld  
-
-Alles bij elkaar genomen, hier is een één‑bestand programma dat je direct kunt uitvoeren (vervang gewoon de paden).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

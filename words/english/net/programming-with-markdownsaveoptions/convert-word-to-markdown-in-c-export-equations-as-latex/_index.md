@@ -124,17 +124,6 @@ E = mc^2
 
 All equations are now LaTeX, ready for inclusion in a Jupyter notebook or any LaTeX‑aware pipeline.
 
-## Full Working Example  
-
-Putting it all together, here’s a single‑file program you can run as-is (just replace the paths).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

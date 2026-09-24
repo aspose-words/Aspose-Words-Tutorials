@@ -124,17 +124,6 @@ E = mc^2
 
 Todas las ecuaciones están ahora en LaTeX, listas para incluirse en un cuaderno Jupyter o en cualquier canalización que reconozca LaTeX.
 
-## Ejemplo completo funcionando  
-
-Juntándolo todo, aquí tienes un programa de un solo archivo que puedes ejecutar tal cual (solo reemplaza las rutas).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

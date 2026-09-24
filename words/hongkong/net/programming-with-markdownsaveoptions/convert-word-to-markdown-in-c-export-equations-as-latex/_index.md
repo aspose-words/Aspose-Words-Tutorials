@@ -22,9 +22,7 @@ title: 將 Word 轉換為 Markdown（C#） – 匯出方程式為 LaTeX
 url: /zh-hant/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/
 ---
 
-where appropriate.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -124,17 +122,6 @@ E = mc^2
 ```
 
 所有公式現在皆為 LaTeX，可直接嵌入 Jupyter Notebook 或任何支援 LaTeX 的工作流程中。
-
-## 完整範例程式  
-
-將上述步驟整合起來，以下是一個單一檔案程式，你可以直接執行（只需自行替換路徑）。
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

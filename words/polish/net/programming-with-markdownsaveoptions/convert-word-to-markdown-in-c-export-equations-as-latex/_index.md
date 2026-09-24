@@ -124,17 +124,6 @@ E = mc^2
 
 Wszystkie równania są teraz w LaTeX, gotowe do wstawienia w notebook Jupyter lub dowolnym potoku obsługującym LaTeX.
 
-## Pełny działający przykład  
-
-Łącząc wszystko razem, oto jednoplikowy program, który możesz uruchomić od razu (wystarczy podmienić ścieżki).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

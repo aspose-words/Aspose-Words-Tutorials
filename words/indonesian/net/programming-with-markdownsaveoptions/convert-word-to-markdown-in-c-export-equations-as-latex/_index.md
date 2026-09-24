@@ -124,17 +124,6 @@ E = mc^2
 
 Semua persamaan kini dalam LaTeX, siap untuk dimasukkan ke dalam notebook Jupyter atau pipeline apa pun yang mendukung LaTeX.
 
-## Contoh Kerja Lengkap  
-
-Menggabungkan semuanya, berikut program satu‑file yang dapat Anda jalankan langsung (cukup ganti jalur file).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

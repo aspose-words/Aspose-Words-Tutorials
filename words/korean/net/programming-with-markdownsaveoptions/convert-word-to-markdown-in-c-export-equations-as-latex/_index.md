@@ -23,8 +23,6 @@ title: C#에서 Word를 Markdown으로 변환 – 수식을 LaTeX로 내보내�
 url: /ko/net/programming-with-markdownsaveoptions/convert-word-to-markdown-in-c-export-equations-as-latex/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -125,17 +123,6 @@ E = mc^2
 ```
 
 모든 수식이 이제 LaTeX 형태이며, Jupyter 노트북이나 LaTeX를 지원하는 파이프라인에 바로 포함할 수 있습니다.
-
-## 전체 작업 예제  
-
-모든 것을 종합하면, 바로 실행 가능한 단일 파일 프로그램이 아래에 있습니다(경로만 교체하면 됩니다).
-
-```csharp
-using System;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-class Program
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
