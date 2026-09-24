@@ -145,6 +145,9 @@ Aspose.Words for Java kullanarak Word belgelerinden erişilebilir PDF dosyaları
 
 ### [Word'ü Markdown'a Dışa Aktarma – Tam Java Kılavuzu](./export-word-to-markdown-full-java-guide/)
 
+### [Aspose.Words for Java ile Markdown'ı DOCX Olarak Kaydetme](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Markdown dosyasını DOCX formatına dönüştürerek belge oluşturmayı adım adım öğrenin.
+
 ## Sık Sorulan Sorular
 
 **S: Aspose.Words kullanarak mevcut bir PDF’e nasıl filigran eklerim?**  

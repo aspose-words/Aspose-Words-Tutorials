@@ -104,6 +104,9 @@ Tìm hiểu cách chuyển đổi tài liệu Word sang hình ảnh bằng Aspos
 ### [Lưu docx thành markdown với Aspose.Words – Hướng dẫn đầy đủ](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định dạng Markdown bằng Aspose.Words cho Java.
 
+### [Cách chuyển đổi docx sang markdown với Aspose.Words cho Java](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang Markdown bằng Aspose.Words cho Java.
+
 ## Câu hỏi thường gặp
 
 **Q:** *Tôi có thể chuyển đổi các tệp Word được bảo vệ bằng mật khẩu sang PDF không?*  

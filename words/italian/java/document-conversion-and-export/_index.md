@@ -138,6 +138,9 @@ Scopri come convertire documenti Word in formato Markdown usando Aspose.Words pe
 ### [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-step-by-step-guide/)
 Scopri come generare PDF accessibili da documenti Word con Aspose.Words per Java, passo dopo passo.
 
+### [Come salvare Markdown come DOCX usando Aspose.Words per Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Scopri come convertire file Markdown in DOCX con Aspose.Words per Java, passo‑passo con esempi di codice.
+
 ## Domande frequenti
 
 **Q: Come aggiungo una filigrana a un PDF esistente usando Aspose.Words?**  

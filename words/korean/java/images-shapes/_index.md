@@ -37,6 +37,12 @@ Aspose.Words for Java를 사용하여 Word 문서의 고품질 썸네일과 사�
 ### [Word에서 도형에 그림자 추가 – 완전한 Aspose.Words 가이드](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적용하는 방법을 단계별로 안내합니다.
 
+### [Java에서 빈 Word 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aspose.Words for Java를 사용하여 빈 Word 문서를 생성하고 도형을 그룹화하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Words를 사용하여 Java에서 숨겨진 이미지를 포함한 Word 문서 만들기](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words for Java를 활용해 숨겨진 이미지를 포함한 Word 문서를 생성하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 - [Java 문서용 Aspose.Words](https://reference.aspose.com/words/java/)
 - [Java API 참조를 위한 Aspose.Words](https://reference.aspose.com/words/java/)

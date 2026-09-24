@@ -37,6 +37,12 @@ Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassa
 ### [Lägg till skugga på form i Word – Komplett Aspose.Words-guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för Java.
 
+### [Hur man skapar ett tomt Word-dokument och grupperar former i Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Lär dig att skapa ett tomt Word-dokument och gruppera former med Aspose.Words för Java.
+
+### [Skapa Word-dokument med en dold bild i Java med Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Lär dig hur du skapar ett Word-dokument som innehåller en dold bild med Aspose.Words för Java.
+
 ## Ytterligare resurser
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words för Java API-referens](https://reference.aspose.com/words/java/)

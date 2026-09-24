@@ -37,6 +37,12 @@ Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy ch�
 ### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 
+### [Cách tạo tài liệu Word trống và nhóm các hình dạng trong Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Hướng dẫn tạo tài liệu Word trống và nhóm các hình dạng trong Java bằng Aspose.Words.
+
+### [Tạo tài liệu Word với hình ảnh ẩn trong Java bằng Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Hướng dẫn tạo tài liệu Word và chèn hình ảnh ẩn bằng Aspose.Words cho Java.
+
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)

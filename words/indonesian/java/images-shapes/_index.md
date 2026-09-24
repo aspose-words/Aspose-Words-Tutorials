@@ -37,6 +37,12 @@ Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus
 ### [Menambahkan bayangan pada bentuk di Word – Panduan Lengkap Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
 
+### [Cara Membuat Dokumen Word Kosong dan Mengelompokkan Bentuk di Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Pelajari cara membuat dokumen Word kosong dan mengelompokkan bentuk-bentuk di dalamnya menggunakan Aspose.Words untuk Java.
+
+### [Buat dokumen Word dengan gambar tersembunyi di Java menggunakan Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Pelajari cara menyisipkan gambar tersembunyi ke dalam dokumen Word menggunakan Aspose.Words untuk Java.
+
 ## Sumber Daya Tambahan
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)
 - [Referensi API Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

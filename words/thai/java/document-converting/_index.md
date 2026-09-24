@@ -104,6 +104,9 @@ weight: 14
 ### [บันทึกไฟล์ docx เป็น markdown ด้วย Aspose.Words – คู่มือฉบับสมบูรณ์](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown อย่างละเอียดด้วย Aspose.Words สำหรับ Java พร้อมตัวอย่างโค้ดและเคล็ดลับ
 
+### [วิธีแปลง docx เป็น markdown ด้วย Aspose.Words for Java](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+เรียนรู้ขั้นตอนการแปลงไฟล์ DOCX ไปเป็น Markdown ด้วย Aspose.Words for Java อย่างละเอียด
+
 ## คำถามที่พบบ่อย
 
 **Q:** *ฉันสามารถแปลงไฟล์ Word ที่ป้องกันด้วยรหัสผ่านเป็น PDF ได้หรือไม่?*  

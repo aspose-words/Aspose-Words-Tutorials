@@ -118,6 +118,9 @@ Aspose.Words for Java를 사용해 DOCX를 Markdown으로 변환하면서 이미
 ### [Java용 Aspose.Words에서 Word를 Markdown으로 내보내는 방법 – 완전 가이드](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Aspose.Words for Java를 사용해 Word 문서를 Markdown 형식으로 변환하는 단계별 전체 가이드.
 
+### [Aspose.Words for Java를 사용하여 Markdown을 DOCX로 저장하는 방법](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Aspose.Words for Java를 사용해 Markdown 파일을 DOCX 형식으로 저장하는 단계별 가이드.
+
 ### [DOCX에서 LaTeX 내보내기 – 완전한 Java 가이드](./how-to-export-latex-from-docx-complete-java-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 LaTeX 형식으로 변환하는 단계별 방법을 안내합니다.
 

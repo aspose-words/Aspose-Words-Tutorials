@@ -71,6 +71,11 @@
 學習有效地使用 Aspose.Words for Java 的修訂控制。為開發人員提供逐步指南。優化您的文件管理。
 ### [在 Aspose.Words for Java 中使用部分](./using-sections/)
 探索 Aspose.Words for Java：有關使用部分的綜合指南。使用程式碼範例新增、刪除、附加、克隆部分。
+### [在 Aspose.Words for Java 中設定按鈕位置](./how-to-set-button-position-in-a-word-document-with-java/)
+了解如何在 Word 文件中使用 Java 設定按鈕的位置，實作互動式文件。
+### [使用 Java 與 Aspose.Words 在 Word 中建立圖表](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+了解如何使用 Aspose.Words for Java 在 Word 文件中建立和自訂圖表的步驟。
+### [在 Java 中插入餅圖至 Word – 完整指南](./insert-pie-chart-word-in-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

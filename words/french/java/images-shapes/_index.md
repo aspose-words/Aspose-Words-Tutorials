@@ -37,6 +37,12 @@ Apprenez à générer des miniatures de haute qualité et des bitmaps de taille 
 ### [Ajouter une ombre à une forme dans Word – Guide complet Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Apprenez à appliquer des ombres aux formes dans vos documents Word avec Aspose.Words pour Java.
 
+### [Comment créer un document Word vierge et regrouper des formes en Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Apprenez à créer un document Word vierge et à regrouper plusieurs formes à l'aide d'Aspose.Words pour Java.
+
+### [Créer un document Word avec une image cachée en Java à l'aide d'Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Apprenez à insérer une image cachée dans un document Word en Java avec Aspose.Words.
+
 ## Ressources supplémentaires
 - [Documentation Aspose.Words pour Java](https://reference.aspose.com/words/java/)
 - [Référence de l'API Aspose.Words pour Java](https://reference.aspose.com/words/java/)

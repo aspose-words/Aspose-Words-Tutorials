@@ -127,6 +127,7 @@ weight: 22
 
 ### [إنشاء ملف PDF ميسّر من DOCX – دليل شامل](./create-accessible-pdf-from-docx-complete-guide/)
 تعلم كيفية تحويل مستندات DOCX إلى ملفات PDF ميسّرة وفق معايير الوصول باستخدام Aspose.Words for Java.
+
 ### [تضمين الصور كـ base64 عند تحويل DOCX إلى Markdown في Java](./embed-images-as-base64-when-converting-docx-to-markdown-in-j/)
 تعلم كيفية تضمين الصور في مستندات Markdown كبيانات base64 أثناء تحويل ملفات DOCX باستخدام Aspose.Words for Java.
 
@@ -152,6 +153,9 @@ weight: 22
 
 ### [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/)
 تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
+
+### [كيفية حفظ Markdown كملف DOCX باستخدام Aspose.Words للـ Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+تعلم كيفية تحويل ملفات Markdown إلى مستندات DOCX باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

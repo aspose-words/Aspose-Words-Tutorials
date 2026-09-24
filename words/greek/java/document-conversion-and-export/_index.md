@@ -94,6 +94,9 @@ weight: 22
 ### [Create markdown from document – Export and save images](./create-markdown-from-document-export-and-save-images/)
 Μάθετε πώς να μετατρέψετε έγγραφα σε markdown και να αποθηκεύσετε τις ενσωματωμένες εικόνες χρησιμοποιώντας Aspose.Words for Java.
 
+### [Πώς να αποθηκεύσετε Markdown ως DOCX χρησιμοποιώντας το Aspose.Words for Java](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Μάθετε πώς να μετατρέψετε αρχεία Markdown σε DOCX με Aspose.Words for Java.
+
 ### [Πώς να εξάγετε LaTeX από DOCX – Οδηγός Μετατροπής Word σε TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
 Μάθετε πώς να εξάγετε περιεχόμενο LaTeX από αρχεία DOCX και να το μετατρέψετε σε αρχείο TXT χρησιμοποιώντας Aspose.Words for Java.
 

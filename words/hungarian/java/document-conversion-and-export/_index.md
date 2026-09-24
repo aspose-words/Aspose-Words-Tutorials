@@ -143,6 +143,9 @@ Tanulja meg, hogyan konvertálhatja a Word dokumentumokat Markdown formátumba J
 ### [Akadálymentes PDF létrehozása Word‑ből – Lépésről‑lépésre útmutató](./create-accessible-pdf-from-word-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre hozzáférhető PDF dokumentumot Word fájlból az Aspose.Words for Java segítségével.
 
+### [Hogyan mentse a Markdown‑t DOCX‑ként az Aspose.Words for Java használatával](./how-to-save-markdown-as-docx-using-aspose-words-for-java/)
+Tanulja meg, hogyan konvertálja a Markdown fájlokat DOCX formátumba Java‑val az Aspose.Words segítségével.
+
 ## Gyakran Ismételt Kérdések
 
 **K:** Hogyan adhatok hozzá vízjelet egy meglévő PDF-hez az Aspose.Words használatával?  

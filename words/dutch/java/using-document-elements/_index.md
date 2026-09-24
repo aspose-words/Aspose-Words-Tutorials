@@ -55,6 +55,8 @@ Leer effectief voetnoten en eindnoten gebruiken in Aspose.Words voor Java. Verbe
 Leer hoe u Aspose.Words voor Java kunt gebruiken om interactieve Word-documenten met formuliervelden te maken. Ga nu aan de slag!
 ### [HarfBuzz gebruiken in Aspose.Words voor Java](./using-harfbuzz/)
 Leer HarfBuzz gebruiken voor geavanceerde tekstvormgeving in Aspose.Words voor Java. Verbeter de tekstweergave in complexe scripts met deze stapsgewijze handleiding.
+### [Hoe de knoppositie instellen in een Word-document met Java](./how-to-set-button-position-in-a-word-document-with-java/)
+Leer hoe u knoppen kunt positioneren in een Word-document met Aspose.Words voor Java.
 ### [Kop- en voetteksten gebruiken in Aspose.Words voor Java](./using-headers-and-footers/)
 Leer stap voor stap hoe je kop- en voetteksten gebruikt in Aspose.Words voor Java. Maak moeiteloos professionele documenten.
 ### [Afbreking gebruiken in Aspose.Words voor Java](./using-hyphenation/)
@@ -71,6 +73,10 @@ Leer OLE-objecten en ActiveX-besturingselementen gebruiken in Aspose.Words voor 
 Leer hoe u Aspose.Words voor Java's revisiebeheer efficiënt kunt gebruiken. Stapsgewijze handleiding voor ontwikkelaars. Optimaliseer uw documentbeheer.
 ### [Secties gebruiken in Aspose.Words voor Java](./using-sections/)
 Ontdek Aspose.Words voor Java: een uitgebreide handleiding voor het gebruik van secties. Secties toevoegen, verwijderen, toevoegen en klonen met codevoorbeelden.
+### [Grafiek maken in Word met Java en Aspose.Words](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+Leer hoe u diagrammen toevoegt aan Word-documenten met Java en Aspose.Words in deze stapsgewijze tutorial.
+### [Cirkeldiagram invoegen in Aspose.Words voor Java – volledige gids](./insert-pie-chart-word-in-java-complete-guide/)
+Leer stap voor stap hoe u een cirkeldiagram in een Word-document kunt invoegen met Java en Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

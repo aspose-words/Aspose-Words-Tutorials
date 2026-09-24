@@ -104,6 +104,8 @@ Java के लिए Aspose.Words की शक्ति अनलॉक कर
 Aspose.Words for Java के साथ दस्तावेज़ प्रबंधन को अनुकूलित करें। इस व्यापक ट्यूटोरियल में दस्तावेज़ गुणों के साथ काम करना, कस्टम मेटाडेटा जोड़ना और बहुत कुछ सीखें।
 ### [जावा के लिए Aspose.Words में वेब एक्सटेंशन का उपयोग करना](./using-web-extensions/)
 Java के लिए Aspose.Words में वेब एक्सटेंशन के साथ दस्तावेज़ों को बेहतर बनाएँ। वेब-आधारित सामग्री को सहजता से एकीकृत करना सीखें। 
+### [Java के लिए Aspose.Words में खाली Word दस्तावेज़ बनाना](./how-to-create-blank-word-document-with-aspose-words-for-java/)
+Aspose.Words for Java का उपयोग करके एक खाली Word दस्तावेज़ बनाना सीखें। सरल कोड उदाहरण और चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

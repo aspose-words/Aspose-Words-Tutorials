@@ -42,6 +42,12 @@ Java के लिए Aspose.Words के साथ Word दस्तावे�
 ### [Word में आकृति में छाया जोड़ें – पूर्ण Aspose.Words गाइड](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Word दस्तावेज़ में आकृति पर छाया लागू करने के चरण-दर-चरण निर्देश, Aspose.Words Java के साथ पूर्ण गाइड।
 
+### [जावा में खाली Word दस्तावेज़ बनाएं और आकृतियों को समूहित करें](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Aspose.Words Java का उपयोग करके खाली Word फ़ाइल बनाना और कई आकृतियों को एक समूह में जोड़ना सीखें।
+
+### [जावा में Aspose.Words का उपयोग करके छिपी हुई छवि के साथ Word दस्तावेज़ बनाएं](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Aspose.Words का उपयोग करके जावा में छिपी हुई छवि के साथ Word दस्तावेज़ बनाने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [जावा दस्तावेज़ीकरण के लिए Aspose.Words](https://reference.aspose.com/words/java/)

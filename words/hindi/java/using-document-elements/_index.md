@@ -71,6 +71,10 @@ Aspose.Words for Java में OLE ऑब्जेक्ट और ActiveX न�
 जावा के संशोधन नियंत्रणों के लिए Aspose.Words का कुशलतापूर्वक उपयोग करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका। अपने दस्तावेज़ प्रबंधन को अनुकूलित करें।
 ### [जावा के लिए Aspose.Words में अनुभागों का उपयोग करना](./using-sections/)
 जावा के लिए Aspose.Words का अन्वेषण करें: अनुभागों का उपयोग करने पर एक व्यापक गाइड। कोड उदाहरणों के साथ अनुभागों को जोड़ें, हटाएं, जोड़ें, क्लोन करें।
+### [Java के साथ Word दस्तावेज़ में बटन की स्थिति सेट करना](./how-to-set-button-position-in-a-word-document-with-java/)
+### [Java और Aspose.Words का उपयोग करके Word में चार्ट बनाना](./how-to-create-chart-in-word-with-java-and-aspose-words/)
+### [Java के लिए Aspose.Words में पाई चार्ट डालना – पूर्ण गाइड](./insert-pie-chart-word-in-java-complete-guide/)
+Java में Aspose.Words का उपयोग करके पाई चार्ट डालने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

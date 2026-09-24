@@ -81,6 +81,9 @@ Primeiro, `document.save("temp.html", SaveFormat.HTML)`. Para converter o HTML d
 ### Converter HTML para documentos Word
 Aproveite `Document doc = new Document(new ByteArrayInputStream(htmlBytes), new LoadOptions(LoadFormat.HTML));` e então `doc.save("output.docx")`.
 
+### Converter documentos para imagens
+Use `Document.save("output.png", SaveFormat.PNG)` ou `SaveFormat.JPEG` para gerar imagens de cada página.
+
 ## Tutoriais de document converting
 
 ### [Usando o recurso de conversão de documentos](./using-document-converting/)
@@ -103,6 +106,9 @@ Aprenda a converter documentos Word para imagens usando Aspose.Words para Java. 
 
 ### [Salvar docx como markdown com Aspose.Words – Guia completo](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Aprenda a converter arquivos DOCX para Markdown usando Aspose.Words para Java, passo a passo, com opções avançadas.
+
+### [Como converter docx para markdown usando Aspose.Words para Java](./how-to-convert-docx-to-markdown-using-aspose-words-for-java/)
+Aprenda a transformar arquivos DOCX em Markdown com Aspose.Words para Java, passo a passo e opções avançadas.
 
 ## Perguntas frequentes
 

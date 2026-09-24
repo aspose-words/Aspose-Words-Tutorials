@@ -37,6 +37,12 @@
 ### [Добавление тени к фигуре в Word – Полное руководство Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Java.
 
+### [Как создать пустой документ Word и сгруппировать фигуры в Java](./how-to-create-a-blank-word-document-and-group-shapes-in-java/)
+Узнайте, как создать пустой документ Word и сгруппировать фигуры с помощью Aspose.Words для Java.
+
+### [Создать документ Word с скрытым изображением в Java с использованием Aspose.Words](./create-word-document-with-a-hidden-image-in-java-using-aspos/)
+Узнайте, как добавить скрытое изображение в документ Word с помощью Aspose.Words для Java.
+
 ## Дополнительные ресурсы
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)
 - [Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/)
