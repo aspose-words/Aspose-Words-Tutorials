@@ -1,0 +1,7 @@
+Title: How to set button position in a Word document with Java
+Slug: how-to-set-button-position-in-a-word-document-with-java
+Category: using-document-elements
+ProcessedDate: 2026-09-24T19:08:18.152922
+SourceRepo: AI Search API
+Keywords: set button position, how to insert button, add activex control, add button to word, create word document java
+PRNumber: 287
