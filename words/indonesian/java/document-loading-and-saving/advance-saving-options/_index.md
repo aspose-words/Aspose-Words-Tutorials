@@ -1,10 +1,11 @@
 ---
-date: 2025-12-19
-description: Pelajari cara menyimpan dokumen Word dengan kata sandi, mengontrol kompresi
-  metafile, dan mengelola bullet gambar menggunakan Aspose.Words untuk Java.
+date: 2026-02-22
+description: Pelajari cara menyimpan Word dengan kata sandi dan gunakan opsi penyimpanan
+  lanjutan seperti penanganan metafile serta kontrol bullet gambar dengan Aspose.Words
+  untuk Java.
 linktitle: Saving Documents in Various Formats with
 second_title: Aspose.Words Java Document Processing API
-title: Simpan Word dengan Kata Sandi menggunakan Aspose.Words untuk Java
+title: Simpan Word dengan Kata Sandi dan Opsi Lanjutan – Aspose.Words untuk Java
 url: /id/java/document-loading-and-saving/advance-saving-options/
 weight: 14
 ---
@@ -15,45 +16,41 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Word dengan Kata Sandi dan Opsi Lanjutan Menggunakan Aspose.Words untuk Java
+# Simpan Word dengan Kata Sandi dan Opsi Lanjutan – Aspose.Words for Java
 
-## Panduan Tutorial Langkah‑ demi‑Langkah: Simpan Word dengan Kata Sandi dan Opsi Penyimpanan Lanjutan Lainnya
-
-Di dunia digital saat ini, pengembang sering perlu melindungi file Word, mengontrol cara objek tertanam disimpan, atau menghapus bullet gambar yang tidak diinginkan. **Menyimpan dokumen Word dengan kata sandi** adalah cara yang sederhana namun kuat untuk mengamankan data sensitif, dan Aspose.Words untuk Java membuatnya sangat mudah. Dalam panduan ini kami akan menjelaskan cara mengenkripsi dokumen, mencegah kompresi metafile kecil, dan menonaktifkan bullet gambar—sehingga Anda dapat menyesuaikan secara tepat bagaimana file Word Anda disimpan.
+Dalam aplikasi Java modern, **saving Word with password** protection merupakan kebutuhan umum untuk melindungi konten sensitif. Aspose.Words for Java tidak hanya memungkinkan Anda mengenkripsi dokumen, tetapi juga memberi kontrol detail atas kompresi metafile, picture bullets, dan banyak fitur penyimpanan lainnya. Dalam tutorial langkah‑demi‑langkah ini kami akan membahas *advanced saving options* yang paling berguna yang dapat Anda terapkan dengan Aspose.Words Java API.
 
 ## Jawaban Cepat
-- **Bagaimana cara menyimpan dokumen Word dengan kata sandi?** Gunakan `DocSaveOptions.setPassword()` sebelum memanggil `doc.save()`.  
-- **Apakah saya dapat mencegah kompresi metafile kecil?** Ya, atur `saveOptions.setAlwaysCompressMetafiles(false)`.  
-- **Apakah memungkinkan untuk mengecualikan bullet gambar dari file yang disimpan?** Tentu—gunakan `saveOptions.setSavePictureBullet(false)`.  
-- **Apakah saya memerlukan lisensi untuk menggunakan fitur ini?** Lisensi Aspose.Words untuk Java yang valid diperlukan untuk penggunaan produksi.  
-- **Versi Java mana yang didukung?** Aspose.Words bekerja dengan Java 8 dan yang lebih baru.
+- **Bagaimana cara menambahkan kata sandi ke file Word?** Gunakan `DocSaveOptions.setPassword("yourPassword")` sebelum memanggil `doc.save()`.  
+- **Apakah saya dapat mencegah kompresi metafile?** Atur `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **Apakah memungkinkan untuk mengecualikan picture bullets?** Ya, panggil `saveOptions.setSavePictureBullet(false)`.  
+- **Apakah saya memerlukan lisensi untuk fitur-fitur ini?** Versi percobaan dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Produk Aspose mana yang mencakup ini?** Aspose.Words for Java — perpustakaan terkemuka untuk tugas **aspose words document saving**.
 
 ## Apa itu “save word with password”?
-Menyimpan dokumen Word dengan kata sandi mengenkripsi isi file, sehingga memerlukan kata sandi yang benar untuk membukanya di Microsoft Word atau penampil kompatibel lainnya. Fitur ini penting untuk melindungi laporan rahasia, kontrak, atau data apa pun yang harus tetap pribadi.
+Menyiapkan dokumen Word dengan kata sandi berarti mengenkripsi file sehingga hanya pengguna yang mengetahui kata sandi yang dapat membuka, mengedit, atau mencetaknya. Lapisan keamanan ini penting untuk laporan rahasia, kontrak, atau data apa pun yang harus tetap bersifat pribadi.
 
-## Mengapa menggunakan Aspose.Words untuk Java untuk tugas ini?
-- **Kontrol penuh** – Anda dapat mengatur kata sandi, opsi kompresi, dan penanganan bullet semuanya dalam satu panggilan API.  
-- **Tidak memerlukan Microsoft Office** – Berfungsi di platform apa pun yang mendukung Java.  
-- **Kinerja tinggi** – Dioptimalkan untuk dokumen besar dan pemrosesan batch.
+## Mengapa menggunakan fitur penyimpanan dokumen Aspose.Words?
+Aspose.Words menyediakan serangkaian opsi **aspose words document saving** yang kaya dan melampaui output file sederhana. Anda dapat mengontrol kompresi, penanganan gambar, bahkan memutuskan apakah akan menyematkan picture bullets—semua tanpa meninggalkan kode Java Anda.
 
 ## Prasyarat
-- Java 8 atau yang lebih baru terpasang.  
-- Perpustakaan Aspose.Words untuk Java ditambahkan ke proyek Anda (Maven/Gradle atau JAR manual).  
-- Lisensi Aspose.Words yang valid untuk produksi (versi percobaan gratis tersedia).
+- Java 8 atau lebih baru terinstal.  
+- Perpustakaan Aspose.Words for Java ditambahkan ke proyek Anda (Maven/Gradle atau JAR manual).  
+- Familiaritas dasar dengan IDE Java (IntelliJ, Eclipse, dll.).
 
-## Panduan Langkah‑ demi‑Langkah
+## Panduan Langkah‑per‑Langkah
 
-### 1. Buat dokumen sederhana
-Pertama, buat `Document` baru dan tambahkan beberapa teks. Ini akan menjadi file yang nanti kami lindungi dengan kata sandi.
+### Langkah 1: Buat dokumen sederhana
+Pertama, kami membuat `Document` baru dan menambahkan beberapa teks. Ini akan menjadi file dasar yang nanti kami lindungi dengan kata sandi.
 
 ```java
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.write("Hello world!");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.write("Hello world!");
 ```
 
-### 2. Enkripsi dokumen – **save word with password**
-Sekarang kami mengonfigurasi `DocSaveOptions` untuk menyisipkan kata sandi. Saat file dibuka, Word akan meminta kata sandi ini.
+### Langkah 2: Simpan Word dengan kata sandi
+Sekarang kami mengenkripsi dokumen. Objek `DocSaveOptions` memungkinkan kami menentukan kata sandi dan preferensi penyimpanan lainnya.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -63,8 +60,10 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-### 3. Jangan kompres metafile kecil
-Metafile (seperti EMF/WMF) sering kali dikompresi secara otomatis. Jika Anda memerlukan kualitas asli, nonaktifkan kompresi:
+> **Pro tip:** Simpan kata sandi dengan aman (misalnya, menggunakan vault) dan jangan pernah menuliskannya secara hard‑code dalam kode produksi.
+
+### Langkah 3: Jangan kompres metafile kecil
+Jika dokumen Anda berisi grafik vektor (misalnya, objek persamaan), Anda mungkin lebih memilih untuk tidak mengompresnya demi kualitas yang lebih baik. Contoh berikut menonaktifkan kompresi otomatis.
 
 ```java
 @Test
@@ -78,8 +77,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-### 4. Kecualikan bullet gambar dari file yang disimpan
-Bullet gambar dapat meningkatkan ukuran file. Gunakan opsi berikut untuk menghilangkannya saat menyimpan:
+### Langkah 4: Kecualikan picture bullets dari file yang disimpan
+Picture bullets dapat meningkatkan ukuran file. Jika Anda tidak membutuhkannya, matikan dengan `setSavePictureBullet(false)`.
 
 ```java
 @Test
@@ -93,8 +92,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-### 5. Kode sumber lengkap untuk referensi
-Di bawah ini contoh lengkap yang siap dijalankan yang menunjukkan ketiga opsi penyimpanan lanjutan secara bersamaan.
+### Langkah 5: Kode sumber lengkap untuk referensi
+Berikut adalah kode sumber lengkap yang dapat dijalankan yang menunjukkan ketiga opsi penyimpanan lanjutan secara bersamaan.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -124,37 +123,48 @@ public void doNotSavePictureBullet() throws Exception {
 		saveOptions.setSavePictureBullet(false);
 	}
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
+}
 ```
 
-## Masalah Umum & Pemecahan Masalah
-- **Kata sandi tidak diterapkan** – Pastikan Anda menggunakan `DocSaveOptions` *bukan* `PdfSaveOptions` atau opsi spesifik format lainnya.  
-- **Metafile masih terkompresi** – Verifikasi bahwa file sumber memang berisi metafile kecil; opsi ini hanya memengaruhi yang berada di bawah ambang ukuran tertentu.  
-- **Bullet gambar masih muncul** – Beberapa versi Word lama mengabaikan flag ini; pertimbangkan mengonversi bullet menjadi gaya daftar standar sebelum menyimpan.
+## Masalah Umum dan Tips
+| Masalah | Penyebab | Solusi |
+|-------|-------|----------|
+| **Dokumen terbuka tetapi kata sandi diabaikan** | Menggunakan `saveOptions` dengan `SaveFormat` yang berbeda | Pastikan Anda mengirimkan instance `DocSaveOptions` yang sama ke `doc.save()` dan ekstensi file cocok dengan format (mis., `.docx`). |
+| **Metafile masih terkompresi** | `setAlwaysCompressMetafiles` hanya memengaruhi metafile *kecil* | Verifikasi ukuran metafile; yang besar selalu dikompresi sesuai spesifikasi DOCX. |
+| **Picture bullets masih muncul** | Dokumen berisi gambar inline yang digunakan sebagai bullet | Ubah bullet tersebut menjadi gaya daftar standar sebelum menyimpan, atau hapus secara manual melalui API. |
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apakah Aspose.Words untuk Java adalah perpustakaan gratis?**  
-J: Tidak, Aspose.Words untuk Java adalah perpustakaan komersial. Anda dapat menemukan detail lisensi [di sini](https://purchase.aspose.com/buy).
+**Q: Apakah Aspose.Words for Java merupakan perpustakaan gratis?**  
+A: Tidak, Aspose.Words for Java adalah perpustakaan komersial. Anda dapat menemukan detail lisensi [di sini](https://purchase.aspose.com/buy).
 
-**T: Bagaimana cara mendapatkan percobaan gratis Aspose.Words untuk Java?**  
-J: Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
+**Q: Bagaimana cara mendapatkan percobaan gratis Aspose.Words for Java?**  
+A: Anda dapat mendapatkan percobaan gratis Aspose.Words for Java [di sini](https://releases.aspose.com/).
 
-**T: Di mana saya dapat menemukan dukungan untuk Aspose.Words untuk Java?**  
-J: Untuk dukungan dan diskusi komunitas, kunjungi [forum Aspose.Words untuk Java](https://forum.aspose.com/).
+**Q: Di mana saya dapat menemukan dukungan untuk Aspose.Words for Java?**  
+A: Untuk dukungan dan diskusi komunitas, kunjungi [forum Aspose.Words for Java](https://forum.aspose.com/).
 
-**T: Bisakah saya menggunakan Aspose.Words untuk Java dengan kerangka kerja Java lainnya?**  
-J: Ya, ia terintegrasi dengan mulus ke Spring, Hibernate, Android, dan sebagian besar kontainer Java EE.
+**Q: Apakah saya dapat menggunakan Aspose.Words for Java dengan perpustakaan Java lainnya?**  
+A: Ya, Aspose.Words for Java kompatibel dengan berbagai perpustakaan dan kerangka kerja Java.
 
-**T: Apakah ada opsi lisensi sementara untuk evaluasi?**  
-J: Ya, lisensi sementara tersedia [di sini](https://purchase.aspose.com/temporary-license/).
+**Q: Apakah ada opsi lisensi sementara yang tersedia?**  
+A: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-## Kesimpulan
-Anda kini tahu cara **menyimpan Word dengan kata sandi**, mengontrol kompresi metafile, dan mengecualikan bullet gambar menggunakan Aspose.Words untuk Java. Opsi penyimpanan lanjutan ini memberi Anda kontrol yang tepat atas ukuran file akhir, keamanan, dan tampilan—sempurna untuk pelaporan perusahaan, pengarsipan dokumen, atau skenario apa pun di mana integritas dokumen penting.
+## Pertanyaan Tambahan yang Sering Diajukan
+
+**Q: Apakah perlindungan kata sandi memengaruhi ukuran dokumen?**  
+A: File terenkripsi sedikit lebih besar karena overhead enkripsi, tetapi peningkatannya biasanya dapat diabaikan.
+
+**Q: Dapatkah saya menetapkan kata sandi berbeda untuk izin baca‑saja dan edit?**  
+A: Aspose.Words mendukung satu kata sandi untuk membuka dokumen. Untuk izin yang lebih detail, pertimbangkan konversi ke PDF dengan pengaturan perlindungan terpisah.
+
+**Q: Apakah opsi penyimpanan ini tersedia untuk semua format Word (DOC, DOCX, RTF)?**  
+A: Ya, `DocSaveOptions` bekerja dengan semua format yang didukung oleh Aspose.Words, meskipun beberapa opsi bersifat spesifik format (mis., picture bullets hanya relevan untuk DOCX).
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-19  
-**Diuji Dengan:** Aspose.Words untuk Java 24.12 (terbaru pada saat penulisan)  
+**Terakhir Diperbarui:** 2026-02-22  
+**Diuji Dengan:** Aspose.Words for Java 24.12  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

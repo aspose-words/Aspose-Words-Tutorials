@@ -88,6 +88,7 @@ Word ドキュメント（DOC、DOCX、RTF など）を PDF ファイルに変�
 - [HTML からドキュメントへの変換](./converting-html-documents/)
 - [SaveOptions を使用したドキュメント変換](./document-conversion-saveoptions/)
 - [ドキュメントを画像へ変換](./converting-documents-images/)
+- [Aspose.Words で docx を markdown として保存 – 完全ガイド](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 - [Java で DOCX を PDF に変換 – ステップバイステップ ガイド](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 
 ## よくある質問

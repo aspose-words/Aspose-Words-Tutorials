@@ -81,10 +81,11 @@ Fedezze fel az Aspose.Words for Java sokoldalúságát, miközben a dokumentumok
 A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított kimenet eléréséhez. Tanulja meg, hogyan állíthatja be az oldalméretet, margókat, betűtípusokat és egyéb paramétereket a kívánt eredmény eléréséhez.
 
 ## Kapcsolódó oktatóanyagok – Betöltés, mentés és konvertálás
-
 ### [HTML dokumentumok betöltése és mentése Aspose.Words for Java‑val](./loading-and-saving-html-documents/)
 
 ### [Load Options használata Aspose.Words for Java‑ban](./using-load-options/)
+
+### [Load Options létrehozása Java-ban – Hiányzó betűtípusok észlelése és DOCX betöltése](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
 
 ### [RTF Load Options konfigurálása Aspose.Words for Java‑ban](./configuring-rtf-load-options/)
 
@@ -115,6 +116,17 @@ A dokumentumbeállítások kulcsfontosságúak a pontos igényekhez igazított k
 ### [Dokumentumformátum meghatározása Aspose.Words for Java‑ban](./determining-document-format/)
 
 ### [DOCX fájlok helyreállítása Aspose.Words‑szal – Lépés‑ről‑lépés útmutató](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+
+### [Hogyan állítsuk helyre a DOCX-et – Sérült fájlok betöltése helyreállítási beállításokkal](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [Sérült docx helyreállítása – Teljes útmutató a dokumentumok javításához és feldolgozásához](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+### [Betűtípus helyettesítési figyelmeztetések rögzítése Java-ban az Aspose.Words‑szal – Teljes útmutató](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+
+### [Hogyan állítsuk vissza a docx-et – Teljes útmutató a sérült Word fájlok olvasásához](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
+### [Helyreállítási mód beállítása a sérült Word dokumentumok helyreállításához](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Hiányzó betűtípusok lekérése Java‑ban – Aspose.Words útmutató](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 
 ## Gyakran Ismételt Kérdések
 

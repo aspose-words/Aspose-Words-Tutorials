@@ -1,0 +1,7 @@
+Title: How to change Word document encoding with Aspose.Words in C#
+Slug: how-to-change-word-document-encoding-with-aspose-words-in-c
+Category: programming-with-ooxmlsaveoptions
+ProcessedDate: 2026-09-21T15:45:14.404294
+SourceRepo: AI Search API
+Keywords: how to change word document encoding
+PRNumber: 282

@@ -87,7 +87,7 @@ class CustomBarcodeGeneratorUtils {
 - `twipsToPixels` – Word měří rozměry v **twips**; tato metoda je převádí na obrazovkové pixely, což je užitečné, když potřebujete přesně nastavit velikost obrázku čárového kódu.  
 - `convertColor` – Převádí hexadecimální řetězec (např. `"FF0000"` pro červenou) na objekt `java.awt.Color`, což vám umožní **how to insert barcode** s vlastními barvami popředí a pozadí.
 
-## Krok 2: Implementace vlastního generátoru čárových kódů
+## Krok 2: Implementujte vlastní generátor čárových kódů
 
 Nyní implementujeme rozhraní `IBarcodeGenerator`. Tato třída bude zodpovědná za **generate qr code java**‑stylové obrázky, které Aspose.Words může vložit.
 
@@ -122,7 +122,6 @@ class CustomBarcodeGenerator implements IBarcodeGenerator {
 ```
 
 **Vysvětlení**
-
 - `getBarcodeImage` vytvoří instanci `BarcodeGenerator`, použije barvy předané přes `BarcodeParameters` a nakonec vrátí `BufferedImage`.  
 - Metoda také elegantně ošetřuje chyby tím, že vrátí zástupný obrázek, což zajišťuje, že tvorba dokumentu Word nikdy nezhavě selže.
 

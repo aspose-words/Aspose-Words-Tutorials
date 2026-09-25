@@ -81,7 +81,6 @@ Aspose.Words for Java’ın çok yönlülüğünü keşfederken belgeleri çeşi
 Belge ayarları, tam gereksinimlerinize uygun çıktılar sunmanın anahtarıdır. Sayfa boyutu, kenar boşlukları ve yazı tipleri gibi ayarları nasıl ayarlayacağınızı öğrenerek istediğiniz sonucu elde edin.
 
 ## İlgili Eğitimler – Yükleme, Kaydetme ve Dönüştürme
-
 ### [Aspose.Words for Java ile HTML Belgelerini Yükleme ve Kaydetme](./loading-and-saving-html-documents/)
 Java’da Aspose.Words for Java kullanarak HTML belgelerini nasıl yükleyip kaydedeceğinizi öğrenin. Sorunsuz belge entegrasyonu için adım adım kılavuz ve kod örnekleri.
 
@@ -130,6 +129,20 @@ Aspose.Words for Java ile belgeleri metin dosyaları olarak nasıl kaydedeceğin
 ### [Aspose.Words for Java’da Belge Formatını Belirleme](./determining-document-format/)
 Aspose.Words for Java ile Java’da belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX ve daha fazlasını tanımlayın. Dosyalarınızı verimli bir şekilde düzenleyin.
 
+### [Aspose.Words for Java ile DOCX Kurtarma – Bozuk Dosyaları Kurtarma Seçenekleriyle Yükleme](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [Java’da Yükleme Seçenekleri Oluşturma – Eksik Yazı Tiplerini Algıla ve DOCX Nasıl Yüklenir](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Java’da eksik yazı tiplerini tespit etmek ve DOCX dosyalarını doğru şekilde yüklemek için LoadOptions kullanımını öğrenin.
+
+### [Docx Kurtarma Rehberi – Bozuk Word Dosyalarını Okuma İçin Tam Kılavuz](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+
+### [Bozuk docx dosyasını kurtarma – Belgeleri Düzeltme ve İşleme Tam Kılavuzu](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Java’da Font Değiştirme Uyarılarını Yakalama – Aspose.Words ile Tam Kılavuz](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakalayacağınızı ve işleyebileceğinizi öğrenin.
+### [Kırık Word Belgesini Kurtarmak İçin Kurtarma Modunu Ayarlama](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Java’da Eksik Yazı Tiplerini Nasıl Alırsınız – Aspose.Words Rehberi](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Aspose.Words ile DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## Sıkça Sorulan Sorular

@@ -1,153 +1,187 @@
 ---
 category: general
-date: 2026-02-28
-description: Δημιουργήστε προσβάσιμο PDF από αρχείο DOCX χρησιμοποιώντας το Aspose.Words.
-  Μάθετε πώς να μετατρέψετε το Word σε PDF, να αποθηκεύσετε το docx ως pdf και να
-  εξάγετε το docx σε pdf με συμμόρφωση PDF/UA.
+date: 2026-02-15
+description: Δημιουργήστε προσβάσιμο PDF από αρχείο DOCX – μετατρέψτε το Word σε PDF,
+  αποθηκεύστε το docx ως PDF, εξάγετε το docx σε PDF και μάθετε πώς να κάνετε το PDF
+  προσβάσιμο.
 draft: false
 keywords:
 - create accessible pdf
 - convert word to pdf
 - save docx as pdf
 - export docx to pdf
-- save document as pdf
+- how to make pdf accessible
 language: el
-og_description: Δημιουργήστε προσβάσιμο PDF από αρχείο DOCX με το Aspose.Words. Αυτό
-  το σεμινάριο δείχνει πώς να μετατρέψετε το Word σε PDF, να αποθηκεύσετε το DOCX
-  ως PDF και να τηρήσετε τα πρότυπα PDF/UA.
+og_description: Δημιουργήστε προσβάσιμο PDF από αρχείο DOCX. Μάθετε πώς να μετατρέπετε
+  το Word σε PDF, να αποθηκεύετε το DOCX ως PDF, να εξάγετε το DOCX σε PDF και να
+  κάνετε το PDF προσβάσιμο.
 og_title: Δημιουργία Προσβάσιμου PDF από το Word – Πλήρης Οδηγός
 tags:
 - Aspose.Words
-- Java
 - PDF/UA
-- Accessibility
-title: Δημιουργία Προσβάσιμου PDF από το Word – Οδηγός Βήμα‑προς‑Βήμα
+- .NET
+- document conversion
+title: Δημιουργία Προσβάσιμου PDF από το Word – Οδηγός Βήμα‑Βήμα
 url: /el/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
+
+same syntax.
+
+Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία Προσβάσιμου PDF από Word – Οδηγός Βήμα‑Βήμα
+# Δημιουργία Προσβάσιμου PDF από Word – Οδηγός Βήμα‑βήμα
 
-Έχετε χρειαστεί ποτέ να **δημιουργήσετε προσβάσιμο PDF** από ένα έγγραφο Word αλλά δεν ήσασταν σίγουροι ποια κλήση API θα εγγυηθεί τη συμμόρφωση PDF/UA; Δεν είστε μόνοι—πολλές ομάδες αντιμετωπίζουν αυτό το πρόβλημα όταν πρέπει να παραδώσουν PDF που περνούν ελέγχους προσβασιμότητας.  
+Σας έχει συμβεί ποτέ να χρειαστείτε **να δημιουργήσετε προσβάσιμο PDF** από ένα έγγραφο Word αλλά δεν ήσασταν σίγουροι ποιες ρυθμίσεις να αλλάξετε; Δεν είστε μόνοι. Σε πολλά έργα το PDF πρέπει να περνάει ελέγχους PDF/UA (PDF/Universal Accessibility), και μια ελλιπής σημαία μπορεί να μετατρέψει μια τέλεια μορφοποιημένη αναφορά σε εμπόδιο για χρήστες αναγνώστης οθόνης.
 
-Τα καλά νέα είναι ότι με λίγες γραμμές κώδικα μπορείτε να **μετατρέψετε το Word σε PDF**, να διατηρήσετε τις επικεφαλίδες, τις ετικέτες και τη δομή, και να καταλήξετε σε ένα πραγματικά προσβάσιμο αρχείο. Σε αυτόν τον οδηγό θα περάσουμε από τη φόρτωση ενός *.docx*, τη ρύθμιση των σωστών επιλογών αποθήκευσης και, τέλος, **αποθήκευση εγγράφου ως pdf** που πληροί το πρότυπο PDF/UA 1.0.
+Σε αυτό το tutorial θα περάσουμε από όλη τη διαδικασία — πώς να **μετατρέψετε Word σε PDF**, πώς να **αποθηκεύσετε docx ως PDF** με τη σωστή συμμόρφωση, και γιατί αυτά τα βήματα έχουν σημασία όταν ρωτάτε **πώς να κάνετε PDF προσβάσιμο**. Στο τέλος θα έχετε ένα εκτελέσιμο απόσπασμα C# που μπορείτε να ενσωματώσετε σε οποιοδήποτε .NET project.
 
-> **Σύντομη ανακεφαλαίωση:** Στο τέλος θα ξέρετε πώς να **αποθηκεύσετε docx ως pdf**, πώς να **εξάγετε docx σε pdf** με ενσωματωμένη προσβασιμότητα, και γιατί αυτά τα βήματα είναι σημαντικά για πραγματική συμμόρφωση.
+## Τι Θα Χρειαστείτε
 
-## Τι Θα Χρειαστεί
+- **Aspose.Words for .NET** (συνιστάται η τελευταία έκδοση). Η βιβλιοθήκη είναι εμπορική, αλλά μια δωρεάν προσωρινή άδεια λειτουργεί για δοκιμές.  
+- .NET 6 ή νεότερο (ο κώδικας επίσης μεταγλωττίζεται σε .NET Framework 4.7+).  
+- Ένα αρχείο DOCX που θέλετε να μετατρέψετε σε προσβάσιμο PDF.  
+- Προαιρετικά: **Aspose.PDF** αν θέλετε να ελέγξετε προγραμματιστικά τις ετικέτες PDF/UA.
 
-- **Aspose.Words for Java** ≥ 23.9 (η έκδοση που υποστηρίζει PDF/UA έτοιμη προς χρήση)  
-- Ένα runtime Java 8+ (οποιοδήποτε πρόσφατο JDK λειτουργεί)  
-- Ένα απλό αρχείο *.docx* που θέλετε να μετατρέψετε σε προσβάσιμο PDF  
-- Ένα IDE ή εργαλείο κατασκευής της επιλογής σας (Maven, Gradle ή απλό javac)
+Αν έχετε ήδη αυτά τα στοιχεία, υπέροχα — ας βουτήξουμε.
 
-Δεν απαιτούνται επιπλέον OCR ή εργαλεία τρίτων—η Aspose κάνει τη βαριά δουλειά για εσάς.
+![Διάγραμμα ροής δημιουργίας προσβάσιμου PDF που δείχνει τα βήματα φόρτωσης, ρύθμισης συμμόρφωσης και αποθήκευσης](create-accessible-pdf.png "Διάγραμμα δημιουργίας προσβάσιμου PDF")
 
----
+*Image alt text: Διάγραμμα που απεικονίζει πώς να δημιουργήσετε προσβάσιμο PDF από ένα έγγραφο Word.*
 
-## Βήμα 1 – Φόρτωση του DOCX για **Δημιουργία Προσβάσιμου PDF**
+## Βήμα 1 – Φόρτωση του DOCX (μετατροπή Word σε PDF)
 
-Πριν μπορέσουμε να **μετατρέψουμε το word σε pdf**, πρέπει να φορτώσουμε το πηγαίο έγγραφο στη μνήμη. Η κλάση `Document` αντιπροσωπεύει ολόκληρο το αρχείο Word, συμπεριλαμβανομένης της εσωτερικής του δομής (στυλ, επικεφαλίδες, σελιδοδείκτες κ.λπ.). Η σωστή φόρτωση του αρχείου εξασφαλίζει ότι αυτά τα στοιχεία επιβιώνουν τη μετατροπή.
+Το πρώτο που κάνετε είναι να πείτε στο Aspose.Words πού βρίσκεται το αρχείο προέλευσης. Αυτός είναι ο ίδιος κώδικας που θα χρησιμοποιούσατε για μια απλή **εξαγωγή docx σε pdf**, αλλά θα τον κρατήσουμε ξεχωριστό ώστε η πρόθεση να είναι απολύτως σαφής.
 
-```java
-// Step 1: Load the source DOCX file
-import com.aspose.words.Document;
+```csharp
+using Aspose.Words;
+using Aspose.Words.Saving;
 
-public class AccessiblePdfDemo {
-    public static void main(String[] args) throws Exception {
-        // Adjust the path to point at your input file
-        String inputPath = "YOUR_DIRECTORY/input.docx";
+class Program
+{
+    static void Main()
+    {
+        // Path to the input Word file – replace with your actual location
+        string inputPath = @"YOUR_DIRECTORY\input.docx";
 
-        // The Document constructor parses the .docx and builds an object model
+        // Load the document into memory
         Document doc = new Document(inputPath);
-        // From here on we can manipulate the document or jump straight to saving
+        // At this point the document is ready for any manipulation you might need.
 ```
 
-*Γιατί είναι σημαντικό:* Αν παραλείψετε το βήμα φόρτωσης ή χρησιμοποιήσετε ένα γενικό file‑stream, χάνετε τη λογική δομή στην οποία βασίζονται τα εργαλεία προσβασιμότητας (όπως ετικέτες επικεφαλίδων). Η φόρτωση με `Document` διατηρεί αυτήν την ιεραρχία, η οποία αποτελεί τη βάση ενός **προσβάσιμου PDF**.
+> **Γιατί είναι σημαντικό:** Η φόρτωση του αρχείου νωρίς σας δίνει την ευκαιρία να προσαρμόσετε πεδία, να ενημερώσετε καταχωρίσεις Πίνακα Περιεχομένων ή να ενσωματώσετε alt‑text για εικόνες πριν αγγίξετε το επίπεδο PDF. Αυτές οι προσαρμογές διατηρούνται στο βήμα **αποθήκευσης docx ως pdf**.
 
----
+## Βήμα 2 – Ενεργοποίηση Συμμόρφωσης PDF/UA (η καρδιά της δημιουργίας προσβάσιμου PDF)
 
-## Βήμα 2 – Ρύθμιση Επιλογών Αποθήκευσης PDF για **Μετατροπή Word σε PDF** (PDF/UA)
+PDF/UA 1.0 είναι το πρότυπο ISO που ορίζει πώς πρέπει να δομηθεί ένα PDF ώστε οι βοηθητικές τεχνολογίες να μπορούν να το διαβάσουν. Το Aspose.Words εκθέτει αυτή τη δυνατότητα μέσω της ιδιότητας `PdfSaveOptions.Compliance`. Ορίζοντάς το σε `PdfCompliance.PdfUa1` λέτε στη βιβλιοθήκη να:
 
-Η Aspose.Words προσφέρει `PdfSaveOptions` όπου μπορείτε ρητά να ζητήσετε συμμόρφωση PDF/UA. Ορίζοντας `PdfCompliance.PDF_UA_1` λέτε στη βιβλιοθήκη να ενσωματώσει ετικέτες, να ορίσει τις σωστές πληροφορίες εγγράφου και να γράψει ένα ρεύμα εξόδου σύμφωνο με τη συμμόρφωση.
+1. Σημειώσει δομικά στοιχεία (τίτλους, πίνακες, λίστες) ως *ετικέτες*.
+2. Θεωρήσει διακοσμητικά στοιχεία μόνο οπτικά (όπως γραμμές `<HR>`) ως **artifacts**, ώστε να αγνοούνται από τους αναγνώστες οθόνης.
+3. Ενσωματώσει ετικέτα γλώσσας εάν έχετε ορίσει `doc.BuiltInDocumentProperties.Language`.
 
-```java
-        // Step 2: Prepare PDF save options for PDF/UA compliance
-        import com.aspose.words.PdfSaveOptions;
-        import com.aspose.words.PdfCompliance;
-
-        PdfSaveOptions pdfOptions = new PdfSaveOptions();
-        // PDF/UA ensures the output is accessible to screen readers and other assistive tech
-        pdfOptions.setCompliance(PdfCompliance.PDF_UA_1);
-
-        // Optional: you can fine‑tune the conversion, e.g., preserve hyperlinks
-        pdfOptions.setPreserveFormFields(true);
+```csharp
+        // Step 2 – Prepare PDF save options with PDF/UA compliance
+        PdfSaveOptions pdfOptions = new PdfSaveOptions
+        {
+            // This flag turns on PDF/UA 1.0 compliance
+            Compliance = PdfCompliance.PdfUa1
+        };
 ```
 
-*Γιατί είναι σημαντικό:* Χωρίς τον ορισμό της σημαίας συμμόρφωσης, το παραγόμενο αρχείο είναι απλώς ένα απλό PDF—οπτικά ίδιο, αλλά χωρίς τις σημασιολογικές ετικέτες που το κάνουν **προσβάσιμο**. Η συμμόρφωση PDF/UA είναι το βιομηχανικό πρότυπο για να εγγυηθεί ότι ένας αναγνώστης οθόνης μπορεί να περιηγηθεί στις επικεφαλίδες, τους πίνακες και το alt‑text σωστά.
+> **Pro tip:** Αν στοχεύετε σε παλαιότερους αναγνώστες PDF που δεν υποστηρίζουν PDF/UA, μπορείτε επίσης να ορίσετε `pdfOptions.ExportDocumentStructure = true` για να διατηρήσετε τις ετικέτες ενώ παράγετε κανονικό PDF.
 
----
+## Βήμα 3 – Αποθήκευση του Εγγράφου ως Προσβάσιμο PDF (save docx as pdf)
 
-## Βήμα 3 – **Αποθήκευση Εγγράφου ως PDF** και Επαλήθευση Προσβασιμότητας
+Τώρα γράφουμε πραγματικά το αρχείο στο δίσκο. Η μέθοδος `Save` σέβεται τις επιλογές που μόλις ρυθμίσαμε, έτσι το αποτέλεσμα θα είναι ένα προσβάσιμο PDF έτοιμο για επικύρωση.
 
-Τώρα που το έγγραφο είναι φορτωμένο και οι επιλογές έχουν οριστεί, τελικά **αποθηκεύουμε docx ως pdf**. Η μέθοδος `save` γράφει το αρχείο στο δίσκο, και επειδή περάσαμε το `PdfSaveOptions`, η έξοδος συμμορφώνεται με PDF/UA.
+```csharp
+        // Step 3 – Define the output path and save the PDF
+        string outputPath = @"YOUR_DIRECTORY\Accessible.pdf";
 
-```java
-        // Step 3: Save the document as an accessible PDF
-        import com.aspose.words.SaveFormat;
+        // The Save method applies the PDF/UA settings we defined above.
+        doc.Save(outputPath, pdfOptions);
 
-        String outputPath = "YOUR_DIRECTORY/accessible.pdf";
-        doc.save(outputPath, pdfOptions);
-
-        System.out.println("✅ Accessible PDF created at: " + outputPath);
+        // Optional: let the user know the operation succeeded.
+        Console.WriteLine($"Accessible PDF created at: {outputPath}");
     }
 }
 ```
 
-*Τι να περιμένετε:* Ανοίξτε το `accessible.pdf` στο Adobe Acrobat Reader και ελέγξτε **File → Properties → Description → PDF/A and PDF/UA**. Θα πρέπει να δείτε “PDF/UA‑1 compliant”. Η εκτέλεση του ενσωματωμένου **Accessibility Checker** θα επιβεβαιώσει ότι οι επικεφαλίδες, οι λίστες και οι πίνακες είναι σωστά ετικετοποιημένοι.
+> **Τι θα δείτε:** Ανοίγοντας το `Accessible.pdf` στο Adobe Acrobat Pro και ελέγχοντας *File → Properties → Description → PDF/A and PDF/UA* θα εμφανιστεί “PDF/UA‑1 compliant”. Όλα τα στοιχεία `<HR>` θα εμφανιστούν ως *artifacts* (μπορείτε να το επαληθεύσετε στον πίνακα *Tags*).
 
-### 🎯 Συμβουλές & Ακραίες Περιπτώσεις
+## Βήμα 4 – Επαλήθευση Προσβασιμότητας (πώς να κάνετε PDF προσβάσιμο, προαιρετικό)
 
-| Κατάσταση | Τι να Κάνετε |
-|-----------|--------------|
-| **Μεγάλο DOCX (100 + σελίδες)** | Enable `pdfOptions.setMemoryOptimization(true)` to keep memory usage low. |
-| **Προσαρμοσμένες γραμματοσειρές λείπουν στο μηχάνημα-στόχο** | Embed fonts via `pdfOptions.setEmbedFullFonts(true)`. |
-| **Χρειάζεται να προσθέσετε προσαρμοσμένο τίτλο εγγράφου** | `pdfOptions.setDocumentTitle("My Accessible Report")`. |
-| **Εξαγωγή σε PDF/UA διατηρώντας υπάρχουσες σημειώσεις PDF** | Use `pdfOptions.setPreservePdfAnnotations(true)`. |
+Ακόμη και αν το Aspose κάνει το μεγαλύτερο μέρος της δουλειάς, είναι καλή συνήθεια να επικυρώνετε το αποτέλεσμα, ειδικά σε κανονιστικά πεδία.
 
-> **Σημείωση:** Ο παραπάνω κώδικας είναι ένα πλήρες, εκτελέσιμο παράδειγμα. Απλώς αντικαταστήστε το `YOUR_DIRECTORY` με τη πραγματική διαδρομή φακέλου, προσθέστε το Aspose.Words JAR στο classpath σας, και εκτελέστε τη μέθοδο `main`.
+```csharp
+using Aspose.Pdf;               // Requires Aspose.PDF for .NET
+using Aspose.Pdf.Facades;
 
----
+class Verifier
+{
+    public static void CheckPdfUa(string pdfPath)
+    {
+        // Load the PDF with the PdfDocumentFacade
+        PdfDocumentFacade facade = new PdfDocumentFacade(pdfPath);
 
-## Οπτική Επισκόπηση
+        // Run the built‑in PDF/UA validator (requires a license)
+        var result = facade.ValidatePdfUa();
 
-![Διάγραμμα που δείχνει πώς να δημιουργήσετε προσβάσιμο PDF από αρχείο DOCX](image.png "Διάγραμμα ροής δημιουργίας προσβάσιμου PDF")
+        if (result.IsSuccess)
+            Console.WriteLine("PDF/UA validation passed.");
+        else
+            Console.WriteLine("PDF/UA validation failed. Issues:");
+    }
+}
+```
 
-*Κείμενο alt:* **Διάγραμμα ροής δημιουργίας προσβάσιμου PDF** που απεικονίζει τα βήματα φόρτωση → ρύθμιση → αποθήκευση.
+Αν δεν έχετε διαθέσιμο έναν ελεγκτή PDF/UA, ο ελεγκτής *Accessibility* του Adobe Acrobat είναι επίσης αξιόπιστος. Αναζητήστε την ετικέτα *Artifact* δίπλα σε οποιοδήποτε οριζόντιο κανόνα προσθέσατε — αυτά θα πρέπει να αγνοούνται από τους αναγνώστες οθόνης.
 
-## Συχνές Ερωτήσεις
+## Βήμα 5 – Συνηθισμένα Πιθανά Σφάλματα Κατά την Εξαγωγή DOCX σε PDF
 
-**Q: Λειτουργεί αυτό με αρχεία .doc ή μόνο .docx;**  
-A: Ναι. Ο κατασκευαστής `Document` μπορεί να διαχειριστεί `.doc`, `.docx`, `.rtf`, και ακόμη HTML. Οι ίδιες `PdfSaveOptions` θα επιβάλουν PDF/UA ανεξαρτήτως του μορφότυπου προέλευσης.
+| Πρόβλημα | Γιατί Συμβαίνει | Πώς να Διορθώσετε |
+|----------|----------------|-------------------|
+| **Missing language tag** | Οι αναγνώστες PDF δεν μπορούν να αναγγείλουν τη σωστή γλώσσα. | Ορίστε `doc.BuiltInDocumentProperties.Language = "en-US"` πριν από την αποθήκευση. |
+| **Images without alt‑text** | Οι αναγνώστες οθόνης διαβάζουν “εικόνα” χωρίς περιγραφή. | Βεβαιωθείτε ότι κάθε `Shape` στο DOCX έχει ορισμένο `AlternativeText`. |
+| **Custom styles not mapped** | Μοναδικά στυλ Word μπορεί να γίνουν γενικά στο PDF. | Χρησιμοποιήστε `doc.Styles["MyStyle"].BaseStyleName = "Heading 2"` για να τα αντιστοιχίσετε σε γνωστές ετικέτες. |
+| **Older Aspose version** | `PdfCompliance.PdfUa1` δεν είναι διαθέσιμο πριν από την έκδοση 22.6. | Αναβαθμίστε τη βιβλιοθήκη ή μεταβείτε σε `PdfCompliance.PdfA2U` αν χρειάζεστε εναλλακτική λύση. |
 
-**Q: Τι γίνεται αν χρειαστεί να **εξάγω docx σε pdf** χωρίς προσβασιμότητα;**  
-A: Απλώς παραλείψτε τη ρύθμιση συμμόρφωσης ή χρησιμοποιήστε `PdfCompliance.PDF_15`. Το αρχείο θα είναι ένα κανονικό PDF, αλλά χάνετε τις εγγυήσεις προσβασιμότητας.
+Η αντιμετώπιση αυτών των θεμάτων νωρίς σας εξοικονομεί έναν μακρύ έλεγχο προσβασιμότητας αργότερα.
 
-**Q: Μπορώ να επεξεργαστώ μαζικά έναν φάκελο αρχείων Word;**  
-A: Απόλυτα. Τυλίξτε τη λογική φόρτωσης/αποθήκευσης σε βρόχο και, προαιρετικά, χρησιμοποιήστε `PdfSaveOptions.setParallelProcessing(true)` για επιτάχυνση σε πολλούς πυρήνες.
+## Bonus: Αυτοματοποίηση της Διαδικασίας για Πολλαπλά Αρχεία
 
----
+Αν έχετε έναν φάκελο γεμάτο αναφορές DOCX, ένας σύντομος βρόχος μπορεί να επεξεργαστεί τα αρχεία μαζικά:
+
+```csharp
+string[] files = Directory.GetFiles(@"YOUR_DIRECTORY", "*.docx");
+foreach (var file in files)
+{
+    Document d = new Document(file);
+    d.Save(Path.ChangeExtension(file, ".pdf"), pdfOptions);
+}
+Console.WriteLine("Batch conversion complete.");
+```
+
+Αυτή η προσέγγιση εξακολουθεί να σέβεται τις ρυθμίσεις **πώς να κάνετε pdf προσβάσιμο** επειδή επαναχρησιμοποιούμε το ίδιο αντικείμενο `pdfOptions` για κάθε αρχείο.
 
 ## Συμπέρασμα
 
-Σας δείξαμε πώς να **δημιουργήσετε προσβάσιμο PDF** από ένα έγγραφο Word χρησιμοποιώντας Aspose.Words for Java. Φορτώνοντας το DOCX, ρυθμίζοντας `PdfSaveOptions` για PDF/UA και, στη συνέχεια, **αποθηκεύοντας το έγγραφο ως pdf**, λαμβάνετε ένα αρχείο που όχι μόνο φαίνεται σωστό αλλά περνά επίσης ελέγχους προσβασιμότητας.  
+Τώρα ξέρετε πώς να **δημιουργήσετε προσβάσιμο PDF** από ένα έγγραφο Word χρησιμοποιώντας το Aspose.Words for .NET. Φορτώνοντας το DOCX, ενεργοποιώντας το `PdfCompliance.PdfUa1` και αποθηκεύοντας με τις κατάλληλες επιλογές, λαμβάνετε ένα PDF που όχι μόνο φαίνεται σωστό αλλά περνάει και τους ελέγχους PDF/UA.  
 
-Από εδώ ίσως θελήσετε να εξερευνήσετε **μετατροπή word σε pdf** μαζικά, να πειραματιστείτε με προσαρμοσμένα μεταδεδομένα, ή να εμβαθύνετε σε στρατηγικές ετικετοθέτησης για σύνθετους πίνακες. Ό,τι και να επιλέξετε, το βασικό μοτίβο—φόρτωση, ρύθμιση, αποθήκευση—παραμένει το ίδιο, και λειτουργεί για κάθε σενάριο **αποθήκευσης docx ως pdf** που θα συναντήσετε.
+Συνοπτικά, η λύση είναι:
 
-Έτοιμοι να κάνετε τα PDF σας προσβάσιμα; Πιάστε τον κώδικα, εκτελέστε τον, και δείτε τον έλεγχο συμμόρφωσης να ανάβει πράσινο. Καλή προγραμματιστική!
+```csharp
+Document doc = new Document(inputPath);
+PdfSaveOptions opt = new PdfSaveOptions { Compliance = PdfCompliance.PdfUa1 };
+doc.Save(outputPath, opt);
+```
+
+Από εδώ μπορείτε να πειραματιστείτε με πρόσθετες βελτιώσεις προσβασιμότητας — ενσωμάτωση ετικετών γλώσσας, προσθήκη alt‑text σε εικόνες, ή ακόμη και εισαγωγή προσαρμοσμένων ετικετών με το χαμηλού επιπέδου API PDF. Αν σας ενδιαφέρουν άλλοι τρόποι **convert word to pdf** ή χρειάζεστε **export docx to pdf** με διαφορετικούς περιορισμούς, η τεκμηρίωση του Aspose έχει μια ολόκληρη ενότητα για προχωρημένη δημιουργία PDF.
+
+Έχετε ερωτήσεις σχετικά με ειδικές περιπτώσεις, άδειες χρήσης ή ενσωμάτωση σε υπηρεσία ASP.NET Core; Αφήστε ένα σχόλιο παρακάτω, και καλή προγραμματιστική δουλειά!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

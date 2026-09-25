@@ -34,11 +34,14 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Words for Java を使用してドキュメントページをサムネイルとしてレンダリングする方法](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java を使って、Word 文書の高品質なサムネイルとカスタムサイズのビットマップを生成する方法を学びましょう。今すぐドキュメント処理能力を強化しましょう。
 
+### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
 
 ## 追加リソース
 
+## 追加リソース
 - [Aspose.Words for Java ドキュメント](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API リファレンス](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Javaをダウンロード](https://releases.aspose.com/words/java/)

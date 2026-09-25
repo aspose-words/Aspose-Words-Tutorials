@@ -34,11 +34,14 @@
 ### [Как визуализировать страницы документа в виде миниатюр с помощью Aspose.Words для Java](./render-word-pages-thumbnails-aspose-java/)
 Узнайте, как создавать высококачественные миниатюры и растровые изображения документов Word с помощью Aspose.Words для Java. Расширьте свои возможности обработки документов сегодня.
 
+### [Добавление тени к фигуре в Word – Полное руководство Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Узнайте, как добавить тень к фигурам в документах Word с помощью Aspose.Words для Java.
 ### [Применение эффекта тени к фигуре в C# – Пошаговое руководство](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Узнайте, как добавить эффект тени к фигурам в C# с помощью Aspose.Words. Пошаговое руководство с примерами кода.
 
 ## Дополнительные ресурсы
 
+## Дополнительные ресурсы
 - [Документация Aspose.Words для Java](https://reference.aspose.com/words/java/)
 - [Справочник API Aspose.Words для Java](https://reference.aspose.com/words/java/)
 - [Загрузить Aspose.Words для Java](https://releases.aspose.com/words/java/)

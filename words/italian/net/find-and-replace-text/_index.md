@@ -35,6 +35,7 @@ Che tu debba sostituire parole specifiche, aggiornare modelli di testo o persona
 | [Riconoscere e sostituzioni all'interno di modelli di sostituzione](./recognize-and-substitutions-within-replacement-patterns/) | Scopri come riconoscere e sostituire il testo all'interno di modelli di sostituzione utilizzando Aspose.Words per .NET. Guida passo passo con esempi dettagliati. |
 | [Sostituisci con stringa](./replace-with-string/) | Scopri come sostituire le stringhe nei documenti Word utilizzando Aspose.Words per .NET con questa guida passo passo. Perfetta per gli sviluppatori che desiderano automatizzare la modifica dei documenti. |
 | [Sostituisci testo nella tabella](./replace-text-in-table/) | Sostituisci senza sforzo il testo in una tabella di Word utilizzando Aspose.Words per .NET con questa guida dettagliata e passo dopo passo.
+| [Sostituisci testo in DOCX con C# – Guida passo‑a‑passo](./replace-text-in-docx-with-c-step-by-step-guide/) | Scopri come sostituire il testo in un file DOCX usando C# con Aspose.Words per .NET. Guida dettagliata passo passo. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

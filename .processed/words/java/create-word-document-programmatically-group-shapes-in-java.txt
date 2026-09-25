@@ -1,0 +1,7 @@
+Title: Create word document programmatically, group shapes in Java
+Slug: create-word-document-programmatically-group-shapes-in-java
+Category: images-shapes
+ProcessedDate: 2026-09-21T16:36:27.141297
+SourceRepo: AI Search API
+Keywords: create word document programmatically, how to group shapes in word, how to insert rectangle shape, add shapes to word document, set shape size word
+PRNumber: 283

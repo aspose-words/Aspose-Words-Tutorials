@@ -1,0 +1,7 @@
+Title: Configure document load options in C# – Complete Guide
+Slug: configure-document-load-options-in-c-complete-guide
+Category: programming-with-loadoptions
+ProcessedDate: 2026-06-05T14:54:07.268529
+SourceRepo: AI Search API
+Keywords: configure document load options
+PRNumber: 198

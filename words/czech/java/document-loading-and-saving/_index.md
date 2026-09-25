@@ -81,7 +81,6 @@ Prozkoumejte všestrannost Aspose.Words for Java, když se ponoříme do uklád�
 Nastavení dokumentu jsou klíčem k dodání dokumentů přizpůsobených vašim přesným požadavkům. Naučte se upravit nastavení jako velikost stránky, okraje a písma pro dosažení požadovaného výstupu.
 
 ## Související tutoriály – Načítání, ukládání a konverze
-
 ### [Načítání a ukládání HTML dokumentů s Aspose.Words for Java](./loading-and-saving-html-documents/)
 Naučte se načítat a ukládat HTML dokumenty v Javě pomocí Aspose.Words for Java. Průvodce krok za krokem s ukázkami kódu pro plynulou integraci dokumentů.
 
@@ -130,6 +129,19 @@ Naučte se ukládat dokumenty jako textové soubory pomocí Aspose.Words for Jav
 ### [Určování formátu dokumentu v Aspose.Words for Java](./determining-document-format/)
 Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory.
 
+### [Jak obnovit DOCX – Načíst poškozené soubory s možnostmi obnovy](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [Vytvoření možností načítání v Javě – Detekce chybějících písem a načtení DOCX](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+Naučte se nastavit LoadOptions v Aspose.Words for Java, detekovat chybějící písma a načíst DOCX soubory s makry.
+
+### [Obnovení poškozeného docx – Kompletní průvodce opravou a zpracováním dokumentů](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Zachycení varování o nahrazení fontů v Javě pomocí Aspose.Words – Kompletní průvodce](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+Naučte se, jak zachytit a zpracovat varování o nahrazení fontů při načítání dokumentů v Javě pomocí Aspose.Words.
+### [Jak obnovit docx – Kompletní průvodce čtením poškozených souborů Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [Nastavit režim obnovy pro opravu poškozeného dokumentu Word](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Jak získat chybějící fonty v Javě – Průvodce Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Jak obnovit soubory DOCX pomocí Aspose.Words – krok‑za‑krokem průvodce](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## Často kladené otázky

@@ -100,6 +100,8 @@ weight: 14
 ### [Converting Documents to Images](./converting-documents-images/)
 Узнайте, как конвертировать Word‑документы в изображения с помощью Aspose.Words for Java. Пошаговое руководство, полное примеров кода и часто задаваемых вопросов.
 
+### [Сохранить docx как markdown с Aspose.Words – Полное руководство](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Узнайте, как преобразовать файлы DOCX в формат Markdown с помощью Aspose.Words for Java, шаг за шагом.
 ### [Конвертировать DOCX в PDF в Java – пошаговое руководство](./convert-docx-to-pdf-in-java-step-by-step-guide/)
 Подробное руководство по конвертации DOCX в PDF с использованием Aspose.Words for Java, включая примеры кода и настройки.
 

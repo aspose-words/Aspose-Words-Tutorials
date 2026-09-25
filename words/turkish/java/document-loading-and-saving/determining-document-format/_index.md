@@ -1,11 +1,11 @@
 ---
-date: 2025-12-20
-description: Aspose.Words ile Java’da dosyaları türe göre nasıl düzenleyeceğinizi
-  ve belge formatlarını nasıl tespit edeceğinizi öğrenin. DOC, DOCX, RTF ve daha fazlasını
-  destekler.
+date: 2026-02-22
+description: Aspose.Words ile Java’da belge formatını nasıl tespit edeceğinizi öğrenin
+  ve dosyaları formatına göre otomatik olarak taşıyın. DOC, DOCX ve daha fazlasını
+  tanımlayın.
 linktitle: Determining Document Format
 second_title: Aspose.Words Java Document Processing API
-title: Aspose.Words for Java Kullanarak Dosyaları Türlerine Göre Düzenle
+title: Aspose.Words for Java kullanarak Java'da belge formatını tespit et
 url: /tr/java/document-loading-and-saving/determining-document-format/
 weight: 25
 ---
@@ -16,32 +16,38 @@ weight: 25
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java Kullanarak Dosyaları Türlerine Göre Düzenleme
+# detect document format java using Aspose.Words for Java
 
-Java uygulamanızda **dosyaları türlerine göre düzenlemeniz** gerektiğinde, ilk adım her belgenin formatını güvenilir bir şekilde belirlemektir. Aspose.Words for Java bu süreci basitleştirir; DOC, DOCX, RTF, HTML, ODT ve daha birçok formatı – hatta şifreli veya bilinmeyen dosyaları – tespit etmenizi sağlar. Bu rehberde klasörleri oluşturma, dosya formatlarını tespit etme ve dosyalarınızı otomatik olarak sıralama adımlarını göstereceğiz.
+Bir dosya topluluğunda **detect document format java** yapmanız gerektiğinde, dosyaları doğru klasörlere otomatik olarak ayırabilmek saatler süren manuel işi ortadan kaldırabilir. Bu öğreticide Aspose.Words for Java’ın Word, RTF, HTML, ODT ve birçok diğer formatı nasıl kolayca tanımladığını ve ardından **move files by format** ile düzenli dizinlere nasıl taşıyabileceğinizi göstereceğiz.
 
-## Hızlı Yanıtlar
-- **“Dosyaları türlerine göre düzenleme” ne anlama gelir?**  Bu, belgeleri tespit edilen formatlarına göre (ör. DOCX, PDF, RTF) otomatik olarak klasörlere taşıma anlamına gelir.  
-- **Java'da dosya formatını tespit etmeye yardımcı olan kütüphane hangisidir?** Aspose.Words for Java, `FileFormatUtil.detectFileFormat()` metodunu sunar.  
-- **API bilinmeyen dosya türlerini tanımlayabilir mi?** Evet – desteklenmeyen veya tanınamayan dosyalar için `LoadFormat.UNKNOWN` döndürür.  
-- **Şifreli belge tespiti destekleniyor mu?** Kesinlikle; `FileFormatInfo.isEncrypted()` bayrağı dosyanın şifre korumalı olup olmadığını gösterir.  
-- **Üretim ortamında lisans gerekir mi?** Ticari dağıtımlar için geçerli bir Aspose.Words lisansı gereklidir.
+## Quick Answers
+- **“detect document format java” ne anlama geliyor?** Java kodu kullanarak bir dosyanın Word işlem formatını (DOC, DOCX, RTF vb.) programatik olarak tanımlama sürecidir.  
+- **Bu yeteneği hangi kütüphane sağlıyor?** Aspose.Words for Java, `FileFormatUtil.detectFileFormat` API’sini sunar.  
+- **Araç şifreli dosyaları da işleyebiliyor mu?** Evet – `FileFormatInfo.isEncrypted()` bayrağı, belgenin şifre korumalı olup olmadığını bildirir.  
+- **Üretim ortamında lisans gerekir mi?** Değerlendirme dışı dağıtımlar için ticari bir Aspose.Words lisansı gereklidir.  
+- **Algılamadan sonra dosyalar otomatik olarak taşınabilir mi?** Kesinlikle – algılama sonucunu `FileUtils.copyFile` ile birleştirerek dosyaları özel klasörlere sıralayabilirsiniz.
 
-## Giriş: Aspose.Words for Java ile Dosyaları Türlerine Göre Düzenleme
+## What is detect document format java?
+`detect document format java`, bir dosyanın ikili başlığını inceleyerek hangi Word işlem formatına (ör. DOC, DOCX, ODT) ait olduğunu belirlemek için Java kodu kullanılması anlamına gelir. Aspose.Words, belgeyi tamamen yüklemeden dosyayı okur, böylece işlem hızlı ve bellek‑verimli olur.
 
-Java’da belge işleme yaparken, elinizdeki dosyaların formatını belirlemek çok önemlidir. Aspose.Words for Java, **detect file format java** için güçlü özellikler sunar ve dosyalarınızı verimli bir şekilde düzenlemenize yardımcı olur.
+## Why move files by format?
+Belgeleri yerel formatlarına göre düzenlemek, sonraki işlemleri basitleştirir:
 
-## Önkoşullar
+- **Batch conversions** tüm DOCX dosyaları tek bir klasörde olduğunda sorunsuz gerçekleşir.  
+- **Legacy support**: eski 97‑öncesi Word dosyalarını özel bir işleme ayırabilirsiniz.  
+- **Security**: şifreli belgeler otomatik olarak karantinaya alınabilir.  
 
-Başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olun:
+## Prerequisites
 
-- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
-- Sisteminizde kurulu Java Development Kit (JDK)
-- Java programlama hakkında temel bilgi
+Başlamadan önce şunların yüklü olduğundan emin olun:
 
-## Adım 1: Dizin Kurulumu
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/) (en son sürümü indirin)  
+- Java Development Kit (JDK) 8 veya üzeri  
+- Java I/O ve akışları hakkında temel bilgi  
 
-İlk olarak dosyalarımızı etkili bir şekilde düzenlemek için gerekli dizinleri oluşturmamız gerekiyor. Farklı belge türleri için klasörler oluşturacağız.
+## Step 1: Set up directories for each format
+
+İlk olarak algılanan dosyaların taşınacağı temiz bir klasör yapısı oluştururuz. Bu, iş akışını düzenli tutar ve yeni format kategorileri eklemeyi kolaylaştırır.
 
 ```java
 File supportedDir = new File("Your Directory Path" + "Supported");
@@ -60,11 +66,11 @@ if (!pre97Dir.exists())
     pre97Dir.mkdir();
 ```
 
-Desteklenen, bilinmeyen, şifreli ve pre‑97 belge türleri için dizinler oluşturduk.
+> **Pro tip:** Üretim kodunda sabit yol tanımlamaktan kaçınmak için mutlak yollar kullanın veya temel dizini bir properties dosyasıyla yapılandırın.
 
-## Adım 2: Belge Formatını Tespit Etme
+## Step 2: Detect the document format and move files
 
-Şimdi dizinlerimizdeki belgelerin formatını tespit edelim. Bunu gerçekleştirmek için Aspose.Words for Java’yı kullanacağız.
+**detect document format java** işleminin kalbi aşağıdaki döngüdedir. Her dosyayı tarar, tipini belirler ve uygun klasöre kopyalar.
 
 ```java
 Set<String> listFiles = Stream.of(new File("Your Directory Path").listFiles())
@@ -106,9 +112,11 @@ for (String fileName : listFiles) {
 }
 ```
 
-Bu kod parçacığında dosyalar üzerinde döngü yapıyor, **detect file format java**, ve onları uygun klasörlere yerleştiriyoruz.
+`switch` bloğu, ilgilendiğiniz tüm formatları kapsayacak şekilde genişletilebilir. Her durum, dostça bir mesaj yazdırır ve ardından dosyayı eşleşen klasöre taşır.
 
-## Aspose.Words for Java'da Belge Formatını Belirlemek İçin Tam Kaynak Kodu
+## Complete source code for detecting document format java
+
+Aşağıda, klasör oluşturma ve algılama mantığını birleştiren tam, çalıştırılabilir örnek yer almaktadır. Java sınıfına yapıştırın, temel yolu ayarlayın ve karışık belgeler içeren bir klasörde çalıştırın.
 
 ```java
         File supportedDir = new File("Your Directory Path" + "Supported");
@@ -200,47 +208,40 @@ Bu kod parçacığında dosyalar üzerinde döngü yapıyor, **detect file forma
 
 ```
 
-## Java'da Dosya Formatını Nasıl Tespit Edebilirsiniz
+## Common issues and troubleshooting
 
-`FileFormatUtil.detectFileFormat()` metodu dosya başlığını inceler ve bir `FileFormatInfo` nesnesi döndürür. Bu nesne **yükleme formatını**, dosyanın şifreli olup olmadığını ve diğer yararlı meta verileri size bildirir. Bu bilgileri kullanarak **bilinmeyen dosya türlerini** programatik olarak tanımlayabilir ve her birine nasıl işlem yapılacağına karar verebilirsiniz.
+| Issue | Why it happens | How to fix |
+|-------|----------------|------------|
+| **`FileFormatUtil.detectFileFormat` returns `UNKNOWN`** | Dosya bozuk veya Word dışı bir formatta. | Dosya uzantısını kontrol edin veya örnekteki *Unknown* klasörüne taşıma geri dönüşü ekleyin. |
+| **Encrypted files throw an exception** | API, şifre kontrolünden önce içeriği okumaya çalışıyor. | `info.isEncrypted()` metodunu diğer işlemlerden önce çağırın. |
+| **Directory creation fails on Linux** | Yetersiz izinler veya eksik üst klasör. | Java sürecinin yazma iznine sahip olduğundan ve temel yolun var olduğundan emin olun. |
 
-## Bilinmeyen Dosya Türlerini Tanımlama
+## Frequently Asked Questions
 
-API `LoadFormat.UNKNOWN` döndürdüğünde, dosya ya bozuk ya da Aspose.Words tarafından desteklenmeyen bir formattadır. Örnek kodumuzda bu dosyaları **Unknown** klasörüne taşıyarak daha sonra incelemenizi sağlıyoruz.
+**Q: How do I install Aspose.Words for Java?**  
+A: You can download Aspose.Words for Java from the [here](https://releases.aspose.com/words/java/) and follow the installation instructions provided.
 
-## Yaygın Sorunlar ve Çözümleri
+**Q: What document formats are supported for detection?**  
+A: Aspose.Words can detect DOC, DOCX, DOT, DOTX, DOCM, DOTM, RTF, HTML, MHTML, ODT, OTT, FLAT_OPC, WORD_ML, and older pre‑97 formats, among others.
 
-| Sorun | Sebep | Çözüm |
-|-------|--------|-----|
-| Dosyalar her zaman *Supported* klasörüne yerleştiriliyor | `FileFormatUtil` başlığı okuyamıyor (ör. dosya boş) | Doğru dosya yolunu gönderdiğinizden ve dosyanın sıfır bayt olmadığından emin olun. |
-| Şifreli dosyalar bir istisna fırlatıyor | Şifreleme işlenmeden okunmaya çalışılıyor | `info.isEncrypted()` kontrolünü, kodda gösterildiği gibi, daha fazla işleme başlamadan önce kullanın. |
-| Pre‑97 Word belgeleri tespit edilmiyor | Eski formatlar `DOC_PRE_WORD_60` durumuna ihtiyaç duyar | `case LoadFormat.DOC_PRE_WORD_60` bloğunu tutun, böylece *Pre97* klasörüne yönlendirilir. |
+**Q: Can this code handle password‑protected documents?**  
+A: Yes. The `FileFormatInfo.isEncrypted()` flag identifies encrypted files, allowing you to move them to a secure folder without opening them.
 
-## Sık Sorulan Sorular
+**Q: Is there a performance impact when scanning large folders?**  
+A: Detection reads only the file header, so even thousands of files are processed quickly. For very large batches, consider parallel streams.
 
-### Aspose.Words for Java nasıl kurulur?
+**Q: How can I extend the script to convert unsupported formats?**  
+A: After detection, you can call `Document.save` with the desired output format for any supported source type.
 
-Aspose.Words for Java’yı [buradan](https://releases.aspose.com/words/java/) indirebilir ve sağlanan kurulum talimatlarını izleyebilirsiniz.
+## Conclusion
 
-### Desteklenen belge formatları nelerdir?
+**detect document format java** özelliğini Aspose.Words ile kullanarak Word‑ile ilgili dosyaları otomatik olarak sıralayabilir, karantinaya alabilir veya dönüştürebilirsiniz. Örnek kod, temiz bir klasör hiyerarşisi oluşturmayı, her dosyanın formatını tanımlamayı ve buna göre taşımayı gösterir—zaman kazandırır ve manuel hataları azaltır.
 
-Aspose.Words for Java, DOC, DOCX, RTF, HTML, ODT ve daha fazlası dahil olmak üzere çeşitli belge formatlarını destekler. Tam liste için resmi dokümantasyona bakın.
+---
 
-### Aspose.Words for Java kullanarak şifreli belgeleri nasıl tespit edebilirim?
-
-`FileFormatUtil.detectFileFormat()` metodunu kullanın; dönen `FileFormatInfo.isEncrypted()` bayrağı şifrelemeyi gösterir; bu rehberdeki örnek kodda olduğu gibi.
-
-### Eski belge formatlarıyla çalışırken herhangi bir sınırlama var mı?
-
-MS Word 6 veya Word 95 gibi eski formatlar modern özelliklerden yoksun olabilir ve uyumluluk sorunları yaşayabilir. Mümkün olduğunda bu belgeleri daha yeni formatlara dönüştürmeyi düşünün.
-
-### Java uygulamamda belge formatı tespitini otomatikleştirebilir miyim?
-
-Evet, sağlanan kodu uygulamanızın iş akışına entegre edin. Böylece tespit edilen formatlara göre otomatik sıralama ve işleme gerçekleştirebilirsiniz.
-
-**Son Güncelleme:** 2025-12-20  
-**Test Edilen Versiyon:** Aspose.Words for Java 24.12 (latest)  
-**Yazar:** Aspose  
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,11 +34,14 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [So rendern Sie Dokumentseiten als Miniaturansichten mit Aspose.Words für Java](./render-word-pages-thumbnails-aspose-java/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java hochwertige Miniaturansichten und Bitmaps in benutzerdefinierter Größe von Word-Dokumenten erstellen. Verbessern Sie noch heute Ihre Dokumentenverwaltung.
 
+### [Schatten zu Form in Word hinzufügen – Vollständige Aspose.Words-Anleitung](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Lernen Sie, wie Sie mit Aspose.Words für Java Schatten zu Formen in Word-Dokumenten hinzufügen.
 ### [Schatteneffekt auf eine Form in C# anwenden – Schritt‑für‑Schritt‑Anleitung](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für C# Schatteneffekte auf Formen anwenden und das Erscheinungsbild Ihrer Dokumente verbessern.
 
 ## Weitere Ressourcen
 
+## Weitere Ressourcen
 - [Aspose.Words für Java-Dokumentation](https://reference.aspose.com/words/java/)
 - [Aspose.Words für Java API-Referenz](https://reference.aspose.com/words/java/)
 - [Laden Sie Aspose.Words für Java herunter](https://releases.aspose.com/words/java/)

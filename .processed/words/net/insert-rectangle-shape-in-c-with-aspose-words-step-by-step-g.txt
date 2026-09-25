@@ -1,0 +1,7 @@
+Title: Insert rectangle shape in C# with Aspose.Words – step‑by‑step guide
+Slug: insert-rectangle-shape-in-c-with-aspose-words-step-by-step-g
+Category: programming-with-shapes
+ProcessedDate: 2026-08-08T03:02:26.130496
+SourceRepo: AI Search API
+Keywords: insert rectangle shape, how to hide shape, how to insert shape, how to set fill color, add rectangle shape
+PRNumber: 245

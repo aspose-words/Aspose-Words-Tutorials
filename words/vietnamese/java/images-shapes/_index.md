@@ -34,11 +34,14 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Cách kết xuất các trang tài liệu dưới dạng hình thu nhỏ bằng Aspose.Words cho Java](./render-word-pages-thumbnails-aspose-java/)
 Tìm hiểu cách tạo hình thu nhỏ chất lượng cao và bitmap tùy chỉnh kích thước của tài liệu Word bằng Aspose.Words for Java. Nâng cao khả năng xử lý tài liệu của bạn ngay hôm nay.
 
+### [Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng Aspose.Words cho Java.
 ### [Áp dụng hiệu ứng bóng cho hình dạng trong C# – Hướng dẫn từng bước](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách áp dụng hiệu ứng bóng cho hình dạng trong tài liệu Word bằng C# sử dụng Aspose.Words.
 
 ## Tài nguyên bổ sung
 
+## Tài nguyên bổ sung
 - [Tài liệu Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tài liệu tham khảo API Aspose.Words cho Java](https://reference.aspose.com/words/java/)
 - [Tải xuống Aspose.Words cho Java](https://releases.aspose.com/words/java/)

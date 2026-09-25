@@ -34,11 +34,14 @@ Aspose.Words Java için bir kod eğitimi
 ### [Java için Aspose.Words'ü kullanarak Belge Sayfalarını Küçük Resim Olarak Nasıl Oluşturursunuz](./render-word-pages-thumbnails-aspose-java/)
 Aspose.Words for Java ile Word belgelerinin yüksek kaliteli küçük resimlerini ve özel boyutlu bit eşlemlerini nasıl oluşturacağınızı öğrenin. Belge işleme yeteneklerinizi bugün geliştirin.
 
+### [Word'de Şekle Gölge Ekle – Tam Aspose.Words Kılavuzu](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
+Word belgelerinde şekillere gölge ekleyerek görsel çekiciliği artırmayı öğrenin.
 ### [C#'ta Bir Şekle Gölge Efekti Uygulama – Adım Adım Kılavuz](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# kullanarak bir şekle gölge efekti eklemeyi adım adım öğrenin ve belgelerinizde görsel çekiciliği artırın.
 
 ## Ek Kaynaklar
 
+## Ek Kaynaklar
 - [Java Belgeleri için Aspose.Words](https://reference.aspose.com/words/java/)
 - [Aspose.Words for Java API Referansı](https://reference.aspose.com/words/java/)
 - [Java için Aspose.Words'ü indirin](https://releases.aspose.com/words/java/)

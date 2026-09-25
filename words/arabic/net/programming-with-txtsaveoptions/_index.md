@@ -24,10 +24,18 @@
  ## دروس تعليمية
 | العنوان | الوصف |
 | --- | --- |
-| [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات.
+| [كيفية تصدير LaTeX من DOCX – تحويل DOCX إلى TXT في C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | تعلم كيفية استخراج صيغ LaTeX من مستندات DOCX وتحويلها إلى ملفات TXT باستخدام C# و Aspose.Words. |
+| [حفظ المستند كملف TXT في C# – تحويل DOCX إلى TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | تعلم كيفية حفظ مستند Word كملف نصي TXT باستخدام C# و Aspose.Words وتحويل DOCX إلى TXT بسهولة. |
 | [استخدم حرف Tab لكل مستوى لتقسيم القائمة](./use-tab-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع مسافات بادئة مبوبة باستخدام Aspose.Words لـ .NET. اتبع هذا الدليل لتنسيق القوائم بدقة في مستنداتك. |
 | [استخدم حرف المسافة لكل مستوى لتجويف القائمة](./use-space-character-per-level-for-list-indentation/) | تعلّم كيفية إنشاء قوائم متعددة المستويات مع إضافة مسافة بادئة في Aspose.Words لـ .NET. دليل خطوة بخطوة لتنسيق المستندات بدقة. |
-
+| [تحويل docx إلى txt – دليل كامل لحفظ Word كنص عادي](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | تعلم كيفية تحويل ملفات docx إلى txt باستخدام Aspose.Words لـ .NET مع أمثلة شاملة. |
+| [حفظ المستند كملف TXT – دليل C# كامل لتحويل DOCX إلى نص عادي](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | تعلم كيفية تحويل مستندات DOCX إلى نص عادي باستخدام Aspose.Words لـ .NET مع مثال كامل بلغة C#. |
+| [حفظ docx كـ txt – دليل سريع لمطوري C#](./save-docx-as-txt-quick-guide-for-c-developers/) | دليل سريع يوضح كيفية حفظ مستندات docx كملفات نصية txt باستخدام Aspose.Words لـ .NET في C#. |
+| [إضافة علامات Bidi في مستند Word](./add-bidi-marks/) | تعرّف على كيفية إضافة علامات ثنائية الاتجاه (Bidi) في مستندات Word باستخدام Aspose.Words لـ .NET من خلال هذا الدليل. تأكد من اتجاه النص الصحيح للمحتوى متعدد اللغات. |
+| [حفظ docx كـ txt – الحفاظ على فواصل الأسطر والمسافات في C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | تعلم كيفية حفظ ملفات docx كملفات txt مع الحفاظ على فواصل الأسطر والمسافات باستخدام C# و Aspose.Words. |
+| [كيفية تصدير LaTeX من DOCX – دليل خطوة بخطوة](./how-to-export-latex-from-docx-step-by-step-guide/) | تعلم كيفية تحويل مستندات DOCX إلى صيغة LaTeX باستخدام Aspose.Words لـ .NET خطوة بخطوة. |
+| [حفظ DOCX كـ TXT – تصدير معادلات Word إلى LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | تعرّف على كيفية تصدير معادلات Word إلى LaTeX عند حفظ مستند DOCX كملف TXT باستخدام Aspose.Words لـ .NET. |
+| [كيفية تصدير LaTeX من Word – تحويل Word إلى TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | تعلم كيفية تصدير مستندات Word إلى صيغة LaTeX ثم تحويلها إلى ملفات TXT باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

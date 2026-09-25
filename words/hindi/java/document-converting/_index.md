@@ -98,6 +98,9 @@ Aspose.Words for Java के साथ HTML को Word दस्तावेज
 ### [Document Conversion with SaveOptions](./document-conversion-saveoptions/)
 Aspose.Words for Java का उपयोग करके DOCX को EPUB में कुशलता से बदलें। इस चरण‑दर‑चरण गाइड में सहेजने के विकल्प को अनुकूलित करना, सामग्री को विभाजित करना और दस्तावेज़ गुणों को निर्यात करना सीखें।
 
+### [Aspose.Words के साथ docx को markdown के रूप में सहेजें – पूर्ण गाइड](./save-docx-as-markdown-with-aspose-words-complete-guide/)
+Aspose.Words for Java का उपयोग करके DOCX फ़ाइलों को Markdown फ़ॉर्मेट में बदलने की पूरी प्रक्रिया सीखें।
+
 ### [Converting Documents to Images](./converting-documents-images/)
 Aspose.Words for Java के साथ Word दस्तावेज़ों को इमेज में बदलना सीखें। कोड उदाहरण और अक्सर पूछे जाने वाले प्रश्नों के साथ चरण‑दर‑चरण गाइड।
 

@@ -1,0 +1,7 @@
+Title: How to add a digital signature to a Word document with Aspose.Words
+Slug: how-to-add-a-digital-signature-to-a-word-document-with-aspos
+Category: document-security
+ProcessedDate: 2026-09-21T16:36:45.549581
+SourceRepo: AI Search API
+Keywords: digital signature word, certificate based signing, sign with rsa sha256, aspose words signing
+PRNumber: 283

@@ -1,0 +1,7 @@
+Title: Build CMake Project: Configure, Build & Test
+Slug: build-cmake-project-configure-build-test
+Category: getting-started
+ProcessedDate: 2026-07-07T02:37:24.844260
+SourceRepo: AI Search API
+Keywords: build cmake project, how to configure cmake, how to build cmake, how to run ctest, cmake build and test
+PRNumber: 224

@@ -1,0 +1,7 @@
+Title: How to add a digital signature to a Word document
+Slug: how-to-add-a-digital-signature-to-a-word-document
+Category: document-security
+ProcessedDate: 2026-09-24T19:08:36.374605
+SourceRepo: AI Search API
+Keywords: digital signature word, save signed document, sign word with certificate, certificate based signing, aspose words signature
+PRNumber: 287

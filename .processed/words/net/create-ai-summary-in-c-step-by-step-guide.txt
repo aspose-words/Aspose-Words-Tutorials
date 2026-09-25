@@ -1,0 +1,7 @@
+Title: Create AI summary in C# – step‑by‑step guide
+Slug: create-ai-summary-in-c-step-by-step-guide
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-08T03:02:30.413871
+SourceRepo: AI Search API
+Keywords: create ai summary, summarize word document, set openai api key, generate summary openai, automate document summarization
+PRNumber: 245

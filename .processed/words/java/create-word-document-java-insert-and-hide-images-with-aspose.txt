@@ -1,0 +1,7 @@
+Title: Create Word Document Java – Insert and Hide Images with Aspose.Words
+Slug: create-word-document-java-insert-and-hide-images-with-aspose
+Category: images-shapes
+ProcessedDate: 2026-07-20T08:29:00.432260
+SourceRepo: AI Search API
+Keywords: create word document java, hide image in word, insert image into docx, how to hide picture word, aspose.words insert image
+PRNumber: 229

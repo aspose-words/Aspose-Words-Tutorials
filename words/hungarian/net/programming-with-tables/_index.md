@@ -47,7 +47,7 @@ Ezeket az oktatóanyagokat követve teljes mértékben kiaknázhatod az Aspose.W
 | [Lebegő táblázat pozíciójának lekérése](./get-floating-table-position/) | Ismerje meg, hogyan hozhat létre lebegő táblázatpozíciókat Word-dokumentumokban az Aspose.Words for .NET használatával. Ez a részletes, lépésről lépésre szóló útmutató végigvezeti Önt mindenen, amit tudnia kell. |
 | [Lebegő táblázat pozíciója](./floating-table-position/) | Tanulja meg, hogyan szabályozhatja a táblázatok lebegő pozícióját Word-dokumentumokban az Aspose.Words for .NET segítségével részletes, lépésről lépésre szóló útmutatónkkal. |
 | [Relatív vízszintes vagy függőleges pozíció beállítása](./set-relative-horizontal-or-vertical-position/) Tanulja meg, hogyan állíthatja be a táblázatok relatív vízszintes és függőleges pozícióit Word-dokumentumokban az Aspose.Words for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |
-
+| [Sor elrejtése a táblázatban C#-al – Egyszerű útmutató a táblázatsorok eltávolításához](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Tanulja meg, hogyan rejthet el sorokat a táblázatban C#-al az Aspose.Words for .NET segítségével, egyszerű lépésről-lépésre útmutató. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

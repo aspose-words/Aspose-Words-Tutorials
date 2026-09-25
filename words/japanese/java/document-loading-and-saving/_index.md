@@ -80,7 +80,6 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ドキュメント設定は、正確な要件に合わせたドキュメントを提供する鍵です。ページサイズ、余白、フォントなどの設定を調整して、期待通りの出力を得る方法を学びます。
 
 ## 関連チュートリアル – 読み込み、保存、変換
-
 ### [Aspose.Words for Java を使用した HTML ドキュメントの読み込みと保存](./loading-and-saving-html-documents/)
 
 ### [Aspose.Words for Java のロードオプションの使用](./using-load-options/)
@@ -113,6 +112,17 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Aspose.Words for Java でドキュメント形式を判定](./determining-document-format/)
 
+### [DOCX の復元方法 – 復旧オプションで破損ファイルを読み込む](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
+
+### [Java でロードオプションを作成 – 欠落フォントを検出し DOCX をロードする方法](./create-load-options-in-java-detect-missing-fonts-how-to-load/)
+
+### [Aspose.Words for Java で破損した docx を復元 – 完全ガイド](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
+
+### [Java でフォント置換警告を取得する – Aspose.Words 完全ガイド](./capture-font-substitution-warnings-in-java-with-aspose-words/)
+### [docx の復元方法 – 壊れた Word ファイルを読む完全ガイド](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
+### [破損した Word 文書を回復するためのリカバリーモードの設定](./set-recovery-mode-to-recover-broken-word-document/)
+
+### [Java で欠落フォントを取得する方法 – Aspose.Words ガイド](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Aspose.Words for Java で DOCX ファイルを復元する方法 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## よくある質問

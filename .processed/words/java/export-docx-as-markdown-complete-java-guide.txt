@@ -1,0 +1,7 @@
+Title: Export DOCX as Markdown – Complete Java Guide
+Slug: export-docx-as-markdown-complete-java-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-30T08:36:56.890610
+SourceRepo: AI Search API
+Keywords: export docx as markdown, convert docx to markdown, extract images from docx
+PRNumber: 195
