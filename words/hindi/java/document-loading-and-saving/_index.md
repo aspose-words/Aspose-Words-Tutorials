@@ -115,7 +115,7 @@ Aspose.Words for Java के साथ Word दस्तावेज़ को �
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना सीखें। ओपन‑सोर्स ऑफिस सूट्स के साथ संगतता सुनिश्चित करें।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना](./saving-documents-as-ooxml-format/)
-Aspose.Words for Java के साथ दस्तावेज़ को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
+Aspose.Words for Java के साथ दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना](./saving-documents-as-pcl-format/)
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए चरण‑दर‑चरण गाइड और कोड उदाहरण।
@@ -132,6 +132,9 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 ### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
+### [Aspose.Words के साथ DOCX फ़ाइलों को पुनर्प्राप्त करने का चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
 ### [DOCX को पुनर्प्राप्त करने का तरीका – करप्ट फ़ाइलों को रिकवरी विकल्पों के साथ लोड करें](./how-to-recover-docx-load-corrupted-files-with-recovery-optio/)
 
 ### [Corrupted docx को पुनर्प्राप्त करें – दस्तावेज़ ठीक करने और प्रोसेस करने की पूरी गाइड](./recover-corrupted-docx-complete-guide-to-fix-and-process-doc/)
@@ -145,8 +148,6 @@ Aspose.Words for Java में फ़ॉन्ट प्रतिस्था�
 ### [टूटा हुआ Word दस्तावेज़ पुनर्प्राप्त करने के लिए रिकवरी मोड सेट करें](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-### [Aspose.Words के साथ DOCX फ़ाइलों को पुनर्प्राप्त करने का चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
-Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
