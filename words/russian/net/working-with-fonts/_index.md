@@ -61,6 +61,7 @@
 | [Как включить предупреждения и обнаружить отсутствующие шрифты при загрузке файлов DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Узнайте, как включить предупреждения и обнаружить недостающие шрифты при загрузке DOCX в Aspose.Words для .NET. |
 | [Как обнаружить шрифты в документах Word – Полное руководство C#](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Узнайте, как обнаруживать используемые шрифты в документах Word с помощью Aspose.Words для .NET на C#. |
 | [Обработка отсутствующих шрифтов в C# с Aspose.Words – Полное руководство](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Узнайте, как обнаруживать и заменять отсутствующие шрифты в документах Word с помощью Aspose.Words для .NET на C#. |
+| [Обработка предупреждений о шрифтах в Aspose.Words – Обнаружение отсутствующих шрифтов](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Узнайте, как обрабатывать предупреждения о недостающих шрифтах в Aspose.Words для .NET с помощью пошагового руководства. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

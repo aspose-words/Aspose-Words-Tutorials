@@ -67,6 +67,7 @@
 | [Preservare le interruzioni di riga: Converti DOCX in Markdown](./preserve-line-breaks-convert-docx-to-markdown/) | Scopri come mantenere le interruzioni di riga durante la conversione da DOCX a Markdown con Aspose.Words per .NET. |
 | [Come salvare Markdown – Converti Word in Markdown ed esporta formule con Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Scopri come salvare documenti Word in Markdown ed esportare equazioni matematiche usando Aspose.Words per .NET. |
 | [Crea cartella C# – Converti Word in Markdown ed estrai immagini](./create-folder-c-convert-word-to-markdown-extract-images/) | Impara a creare una cartella e convertire documenti Word in Markdown estraendo le immagini con Aspose.Words per .NET. |
+| [Come salvare Markdown da Word con immagini – Guida completa C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/) | Scopri come salvare documenti Word in Markdown includendo le immagini con una guida completa in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

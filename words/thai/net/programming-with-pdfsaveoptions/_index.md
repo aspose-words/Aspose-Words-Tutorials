@@ -60,6 +60,7 @@
 - [สร้าง PDF ที่เข้าถึงได้ – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา](./create-accessible-pdf-step-by-step-guide-for-developers/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้ตามมาตรฐาน WCAG ด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [สร้าง PDF/UA จาก Word ด้วย C# – คู่มือครบถ้วน](./create-pdf-ua-from-word-in-c-complete-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF/UA จากเอกสาร Word ด้วย C# อย่างละเอียดตามขั้นตอน
 - [สร้าง PDF ที่เข้าถึงได้จาก Word – คู่มือ Aspose.Words ครบถ้วน](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | เรียนรู้วิธีสร้างไฟล์ PDF ที่เข้าถึงได้จากเอกสาร Word อย่างครบถ้วนด้วย Aspose.Words
+- [แปลง docx เป็น pdf – คู่มือฉบับสมบูรณ์สำหรับ PDF ที่เข้าถึงได้](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | เรียนรู้วิธีแปลงไฟล์ docx เป็น PDF ที่เป็นมิตรกับการเข้าถึงด้วยขั้นตอนครบถ้วนและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

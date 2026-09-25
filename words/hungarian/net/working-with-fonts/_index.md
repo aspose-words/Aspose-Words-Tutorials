@@ -62,6 +62,7 @@ Akár különböző betűtípusokkal szeretné formázni a szöveget, betűtípu
 | [Betűtípusok észlelése Word dokumentumokban – Teljes C# útmutató](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Tanulja meg, hogyan észlelhet betűtípusokat Word dokumentumokban az Aspose.Words for .NET használatával részletes C# útmutatóval. |
 | [Hiányzó betűtípusok kezelése C#-ban az Aspose.Words segítségével – Teljes útmutató](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Tanulja meg, hogyan kezelheti a hiányzó betűtípusokat C#-ban az Aspose.Words segítségével részletes, lépésről lépésre útmutatóval. |
 
+| [Betűtípus figyelmeztetések kezelése az Aspose.Words-ben – Hiányzó betűtípusok észlelése](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Tanulja meg, hogyan kezelje a betűtípus figyelmeztetéseket és észlelje a hiányzó betűtípusokat az Aspose.Words for .NET használatával. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

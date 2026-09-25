@@ -62,6 +62,7 @@ Of u nu tekst wilt opmaken met verschillende lettertypen, regels voor lettertype
 | [Hoe lettertypen in Word-documenten detecteren – Complete C#-gids](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Leer hoe u met Aspose.Words voor .NET lettertypen in Word-documenten detecteert met een volledige C#-handleiding. |
 
 | [Ontbrekende lettertypen afhandelen in C# met Aspose.Words – volledige gids](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Leer hoe u ontbrekende lettertypen in Word-documenten detecteert en afhandelt met Aspose.Words voor .NET in C#. |
+| [Lettertypewaarschuwingen afhandelen in Aspose.Words – Ontbrekende lettertypen detecteren](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Leer hoe u lettertypewaarschuwingen in Aspose.Words kunt afhandelen en ontbrekende lettertypen detecteert. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

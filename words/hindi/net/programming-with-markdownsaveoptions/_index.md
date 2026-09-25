@@ -67,6 +67,7 @@ MarkdownSaveOptions के साथ वर्ड प्रोसेसिंग
 | [DOCX से इमेज के साथ मार्कडाउन निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-markdown-from-docx-with-images-complete-guide/) | DOCX फ़ाइलों को इमेज के साथ मार्कडाउन में निर्यात करने की पूरी चरण‑दर‑चरण गाइड। |
 | [Markdown को कैसे सहेजें – Aspose.Words के साथ Word को Markdown में बदलें और गणित निर्यात करें](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Aspose.Words का उपयोग करके Word को Markdown में सहेजें और गणित निर्यात करें। |
 | [फ़ोल्डर बनाएं C# – Word को Markdown में बदलें और छवियों को निकालें](./create-folder-c-convert-word-to-markdown-extract-images/) | C# में फ़ोल्डर बनाकर Word को Markdown में बदलें और छवियों को निकालें। विस्तृत चरण‑दर‑स्टेप मार्गदर्शिका। |
+| [इमेज के साथ Word से Markdown सहेजें – पूर्ण C# गाइड](./how-to-save-markdown-from-word-with-images-complete-c-guide/) | C# में इमेज के साथ Word दस्तावेज़ को Markdown में बदलने की पूरी गाइड |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

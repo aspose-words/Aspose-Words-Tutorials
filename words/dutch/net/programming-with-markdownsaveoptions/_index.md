@@ -79,6 +79,7 @@ Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exportee
 
 ### [Hoe Markdown op te slaan vanuit Word – Complete C#-gids](./how-to-save-markdown-from-word-complete-c-guide/)
 Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
+### [Hoe Markdown op te slaan vanuit Word met afbeeldingen – Complete C#-gids](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
 

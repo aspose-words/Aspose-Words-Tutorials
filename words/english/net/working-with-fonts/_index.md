@@ -64,6 +64,7 @@ doc.Save("Output.docx");
 | [Set Fonts Folder](./set-fonts-folder/) | Learn how to set a custom fonts folder in Aspose.Words for .NET to ensure your Word documents are rendered correctly without missing fonts. |
 | [Font Settings Default Instance](./font-settings-default-instance/) | In this tutorial, learn how to configure default font settings in a Word document with Aspose.Words for .NET. |
 | [Get List Of Available Fonts](./get-list-of-available-fonts/) | Discover how to get a list of available fonts using Aspose.Words for .NET in this detailed step-by-step tutorial. Boost your font management skills. |
+| [Handle Font Warnings in Aspose.Words – Detect Missing Fonts](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Learn how to detect missing fonts and handle font warnings in Aspose.Words for .NET with this step-by-step tutorial. |
 | [Receive Notifications Of Fonts](./receive-notifications-of-fonts/) | Learn how to receive missing or substituted font notifications when using Aspose.Words for .NET. |
 | [Receive Warning Notification](./receive-warning-notification/) | Learn how to receive a warning notification when using Aspose.Words for .NET and manage any issues or warnings in your documents. |
 | [Capture Font Warnings in C# – Complete Programming Guide](./capture-font-warnings-in-c-complete-programming-guide/) | Learn how to capture font warnings in Aspose.Words for .NET using C# with this comprehensive step-by-step guide. |

@@ -146,6 +146,9 @@ Aprenda a converter documentos Word para Markdown e exportar equações matemát
 ### [Criar pasta C# – Converter Word para Markdown e Extrair Imagens](./create-folder-c-convert-word-to-markdown-extract-images/)
 Aprenda a criar uma pasta, converter documentos Word para Markdown e extrair imagens usando C# e Aspose.Words.
 
+### [Como salvar Markdown do Word com imagens – Guia completo em C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
+Aprenda a salvar documentos Word como Markdown incluindo imagens usando C# e Aspose.Words.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

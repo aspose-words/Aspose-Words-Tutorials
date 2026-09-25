@@ -59,6 +59,7 @@
 | [创建字体警告处理程序 – 在 C# 中检测缺失字体](./create-font-warning-handler-detect-missing-fonts-in-c/) 学习如何使用 Aspose.Words for .NET 在 C# 中创建字体警告处理程序，以检测缺失的字体并进行相应处理。|
 | [加载 DOCX 文件时启用警告并检测缺失字体](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) 了解如何在使用 Aspose.Words for .NET 加载 DOCX 文件时启用警告并检测缺失的字体。|
 | [如何检测 Word 文档中的字体 – 完整 C# 指南](./how-to-detect-fonts-in-word-documents-complete-c-guide/) 通过完整的 C# 指南了解如何在 Word 文档中检测使用的字体。|
+| [在 Aspose.Words 中处理字体警告 – 检测缺失字体](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) 学习如何捕获并处理缺失字体警告，确保文档渲染一致。|
 
 | [在 C# 中处理缺失字体的完整指南 – 使用 Aspose.Words](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) 通过本指南学习如何在 Aspose.Words for .NET 中检测并处理缺失字体，确保文档渲染一致。|
 

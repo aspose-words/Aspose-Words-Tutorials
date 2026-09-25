@@ -61,6 +61,8 @@
 | [Δημιουργία PDF/UA από Word σε C# – Πλήρης Οδηγός](./create-pdf-ua-from-word-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αρχεία PDF/UA από έγγραφα Word χρησιμοποιώντας C# και Aspose.Words για .NET. |
 
 | [Δημιουργία προσβάσιμου PDF από Word – Πλήρης οδηγός Aspose.Words](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Μάθετε πώς να δημιουργήσετε PDF προσβάσιμα σύμφωνα με τα πρότυπα προσβασιμότητας χρησιμοποιώντας το Aspose.Words για .NET. |
+| [Μετατροπή docx σε pdf – Πλήρης Οδηγός για Προσβάσιμα PDF](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε προσβάσιμα PDF με πλήρη οδηγό βήμα-βήμα, εξασφαλίζοντας συμβατότητα με πρότυπα προσβασιμότητας. |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

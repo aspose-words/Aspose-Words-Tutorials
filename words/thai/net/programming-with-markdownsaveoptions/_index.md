@@ -127,6 +127,9 @@
 ### [สร้างโฟลเดอร์ C# – แปลง Word เป็น Markdown และสกัดรูปภาพ](./create-folder-c-convert-word-to-markdown-extract-images/)
 สร้างโฟลเดอร์และแปลงไฟล์ Word เป็น Markdown พร้อมสกัดรูปภาพด้วย C# อย่างละเอียด
 
+### [วิธีบันทึก Markdown จาก Word พร้อมรูปภาพ – คู่มือเต็ม C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการจัดการรูปภาพอย่างละเอียดด้วย C#
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

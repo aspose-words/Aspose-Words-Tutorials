@@ -61,6 +61,8 @@ Quer você queira formatar texto com fontes diferentes, definir regras de substi
 | [Como habilitar avisos e detectar fontes ausentes ao carregar arquivos DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Aprenda a habilitar avisos e detectar fontes ausentes ao carregar arquivos DOCX usando Aspose.Words para .NET. |
 | [Como Detectar Fontes em Documentos Word – Guia Completo em C#](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Aprenda a detectar fontes em documentos Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
 | [Manipular fontes ausentes em C# com Aspose.Words – Guia completo](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Aprenda a lidar com fontes ausentes em documentos Word usando Aspose.Words para .NET em C#. |
+| [Manipular avisos de fonte no Aspose.Words – Detectar fontes ausentes](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Aprenda a detectar fontes ausentes e lidar com avisos de fonte usando Aspose.Words para .NET em um tutorial passo a passo. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
