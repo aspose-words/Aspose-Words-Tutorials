@@ -25,7 +25,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | शीर्षक | विवरण |
 | --- | --- |
 | [विंडो टाइटलबार में दस्तावेज़ का शीर्षक प्रदर्शित करें](./display-doc-title-in-window-titlebar/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके अपने PDF के विंडो शीर्षक बार में दस्तावेज़ शीर्षक प्रदर्शित करना सीखें। |
-| [पीडीएफ रेंडर चेतावनियाँ](./pdf-render-warnings/) | .NET के लिए Aspose.Words के साथ पीडीएफ रेंडरिंग चेतावनियों से निपटने के लिए चरण-दर-स्टेप मार्गदर्शिका। |
+| [पीडीएफ रेंडर चेतावनियाँ](./pdf-render-warnings/) | .NET के लिए Aspose.Words के साथ पीडीएफ रेंडरिंग चेतावनियों से निपटने के लिए चरण-दर-चरण मार्गदर्शिका। |
 | [प्रमाणपत्र धारक का उपयोग करके पीडीएफ में डिजिटल हस्ताक्षर जोड़ें](./digitally-signed-pdf-using-certificate-holder/) | .NET के लिए Aspose.Words का उपयोग करके अपनी PDF फ़ाइलों को डिजिटल हस्ताक्षर से सुरक्षित करें। अपनी PDF में आसानी से डिजिटल हस्ताक्षर जोड़ने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें। |
 | [पीडीएफ दस्तावेज़ में फ़ॉन्ट एम्बेड करें](./embedded-all-fonts/) | इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में आसानी से फ़ॉन्ट एम्बेड करें। सभी डिवाइस पर एक समान उपस्थिति सुनिश्चित करें। |
 | [पीडीएफ दस्तावेज़ में सबसेट फ़ॉन्ट एम्बेड करें](./embedded-subset-fonts/) .NET के लिए Aspose.Words का उपयोग करके केवल आवश्यक फ़ॉन्ट उपसमूह एम्बेड करके PDF फ़ाइल का आकार कम करें। अपने PDF को कुशलतापूर्वक अनुकूलित करने के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |
@@ -45,6 +45,7 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [पीडीएफ दस्तावेज़ में अंतिम मुद्रित संपत्ति अपडेट करें](./update-last-printed-property/) | हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ में अंतिम मुद्रित संपत्ति को अपडेट करना सीखें। |
 | [3D DML 3DEffects को PDF दस्तावेज़ में प्रस्तुत करें](./dml-3deffects-rendering/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ों में आश्चर्यजनक 3D DML प्रभाव प्रस्तुत करना सीखें। |
 | [पीडीएफ दस्तावेज़ में छवियों को प्रक्षेपित करें](./interpolate-images/) | हमारे चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Words का उपयोग करके PDF दस्तावेज़ में छवियों को इंटरपोल करना सीखें। आसानी से अपने PDF की छवि गुणवत्ता में सुधार करें। |
+| [docx को pdf में बदलें – सुलभ PDFs के लिए पूर्ण गाइड](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | इस ट्यूटोरियल में .NET के लिए Aspose.Words का उपयोग करके सुलभ PDF बनाने के लिए docx को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [C# में सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-in-c-step-by-step-guide/) | इस चरण‑दर‑चरण मार्गदर्शिका में .NET के लिए Aspose.Words का उपयोग करके C# में सुलभ PDF बनाने की प्रक्रिया सीखें। |
 | [Aspose Words के साथ Word को PDF के रूप में सहेजें – पूर्ण C# गाइड](./save-word-as-pdf-with-aspose-words-complete-c-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [Aspose.Words के साथ docx को pdf में सहेजें – पूर्ण C# गाइड](./save-docx-as-pdf-with-aspose-words-complete-c-guide/) | C# में Aspose.Words का उपयोग करके docx फ़ाइल को PDF में बदलने की पूरी मार्गदर्शिका। |
@@ -61,7 +62,6 @@ PdfSaveOptions के साथ Words Processing पर Aspose.Words for .NET �
 | [Word से सुलभ PDF बनाएं – पूर्ण Aspose.Words गाइड](./create-accessible-pdf-from-word-complete-aspose-words-guide/) | Word दस्तावेज़ से सुलभ PDF बनाने के लिए Aspose.Words का पूर्ण गाइड, जिसमें एक्सेसिबिलिटी सेटिंग्स और सर्वोत्तम प्रथाएँ शामिल हैं। |
 
 | [C# में Word से PDF/UA बनाएं – पूर्ण गाइड](./create-pdf-ua-from-word-in-c-complete-guide/) | C# में Aspose.Words का उपयोग करके Word दस्तावेज़ को PDF/UA में बदलने की पूरी प्रक्रिया सीखें। |
-| [docx को pdf में बदलें – सुलभ PDFs के लिए पूर्ण गाइड](./convert-docx-to-pdf-complete-guide-for-accessible-pdfs/) | इस ट्यूटोरियल में .NET के लिए Aspose.Words का उपयोग करके सुलभ PDF बनाने के लिए docx को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
