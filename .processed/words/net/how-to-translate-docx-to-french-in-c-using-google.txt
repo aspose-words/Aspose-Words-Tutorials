@@ -1,0 +1,7 @@
+Title: How to translate docx to French in C# using Google
+Slug: how-to-translate-docx-to-french-in-c-using-google
+Category: ai-powered-document-processing
+ProcessedDate: 2026-09-15T07:12:56.251110
+SourceRepo: AI Search API
+Keywords: translate docx to french, translate entire document, automate document translation, save translated document, translate docx using google
+PRNumber: 276

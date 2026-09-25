@@ -1,0 +1,7 @@
+Title: How to save PDF and convert DOCX to Markdown
+Slug: how-to-save-pdf-and-convert-docx-to-markdown
+Category: document-conversion
+ProcessedDate: 2026-09-15T07:23:16.793830
+SourceRepo: AI Search API
+Keywords: how to save pdf, convert docx to markdown, convert word to pdf, recover corrupted docx, export math to latex
+PRNumber: 277

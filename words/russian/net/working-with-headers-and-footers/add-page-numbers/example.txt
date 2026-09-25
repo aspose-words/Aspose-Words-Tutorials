@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: С помощью Aspose.Words Document и DocumentBuilder этот учебник добавляет автоматически обновляемые номера страниц в основной нижний колонтитул документа Word.
+//ExStepSummary:0: Создайте новый объект Document и DocumentBuilder, привязанный к нему.
+//ExStepSummary:1: Переместите курсор builder'а в основной нижний колонтитул первой секции.
+//ExStepSummary:2: Установите выравнивание абзаца по центру, чтобы текст в нижнем колонтитуле был центрирован.
+//ExStepSummary:3: Запишите метку "Page " и вставьте поле PAGE, которое отображает текущий номер страницы.
+//ExStepSummary:4: Запишите " of " и вставьте поле NUMPAGES, которое показывает общее количество страниц.
+//ExStepSummary:5: Сохраните документ в файл формата .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

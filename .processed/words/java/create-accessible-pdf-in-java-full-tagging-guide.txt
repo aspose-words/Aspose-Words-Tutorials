@@ -1,0 +1,7 @@
+Title: Create Accessible PDF in Java – Full Tagging Guide
+Slug: create-accessible-pdf-in-java-full-tagging-guide
+Category: document-conversion-and-export
+ProcessedDate: 2026-05-27T04:39:12.428605
+SourceRepo: AI Search API
+Keywords: create accessible pdf, how to tag pdf for accessibility, how to create tagged pdf, add accessibility tags to pdf, enable pdf tagging
+PRNumber: 193

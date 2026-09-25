@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Korzystając z Aspose.Words Document i DocumentBuilder, ten samouczek dodaje automatycznie aktualizujące się numery stron do głównej stopki dokumentu Word.
+//ExStepSummary:0: Utwórz nowy obiekt Document oraz DocumentBuilder powiązany z nim.
+//ExStepSummary:1: Przesuń kursor buildera do primary footer pierwszej sekcji.
+//ExStepSummary:2: Ustaw wyrównanie akapitu na środek, aby tekst stopki był wyśrodkowany.
+//ExStepSummary:3: Wpisz etykietę "Page " i wstaw pole PAGE, które wyświetla bieżący numer strony.
+//ExStepSummary:4: Wpisz " of " i wstaw pole NUMPAGES, które pokazuje całkowitą liczbę stron.
+//ExStepSummary:5: Zapisz dokument jako plik .docx.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd

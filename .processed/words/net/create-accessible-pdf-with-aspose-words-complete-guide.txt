@@ -1,0 +1,7 @@
+Title: Create Accessible PDF with Aspose.Words – Complete Guide
+Slug: create-accessible-pdf-with-aspose-words-complete-guide
+Category: programming-with-pdfsaveoptions
+ProcessedDate: 2026-06-08T18:48:08.842639
+SourceRepo: AI Search API
+Keywords: create accessible pdf, make pdf accessible, export accessible pdf, configure pdf accessibility
+PRNumber: 201

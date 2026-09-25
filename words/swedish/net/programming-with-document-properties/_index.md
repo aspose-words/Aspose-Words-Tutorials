@@ -32,6 +32,7 @@ Oavsett om du är nybörjare eller en erfaren utvecklare, kommer Aspose.Words f�
 | [Konfigurera länk till innehåll](./configuring-link-to-content/) | Lär dig hur du konfigurerar en länk till innehåll i ett Word-dokument med Aspose.Words för .NET med vår detaljerade steg-för-steg-handledning. |
 | [Konvertera mellan måttenheter](./convert-between-measurement-units/) | Lär dig hur du konverterar måttenheter i Aspose.Words för .NET. Följ vår steg-för-steg-guide för att ställa in dokumentmarginaler, sidhuvuden och sidfot i tum och punkter. |
 | [Använd kontrolltecken](./use-control-characters/) | Upptäck hur du automatiserar Word-dokumentuppgifter med Aspose.Words för .NET. Den här guiden täcker installation, textersättning och mer, vilket gör ditt arbetsflöde effektivt. |
+| [Hur du räknar sidor i ett Word-dokument – Återställ & räkna](./how-to-count-pages-in-a-word-document-recover-count/) | Lär dig hur du räknar antalet sidor i ett Word-dokument med Aspose.Words för .NET och återställer sidantalet. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

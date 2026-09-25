@@ -47,6 +47,7 @@ En suivant ces tutoriels, vous pourrez exploiter pleinement les fonctionnalités
 | [Obtenir la position de la table flottante](./get-floating-table-position/) | Apprenez à obtenir des positions de tableau flottantes dans vos documents Word avec Aspose.Words pour .NET. Ce guide détaillé, étape par étape, vous expliquera tout ce que vous devez savoir. |
 | [Position de la table flottante](./floating-table-position/) | Apprenez à contrôler la position flottante des tableaux dans les documents Word à l'aide d'Aspose.Words pour .NET avec notre guide détaillé étape par étape. |
 | [Définir la position horizontale ou verticale relative](./set-relative-horizontal-or-vertical-position/) Apprenez à définir des positions horizontales et verticales relatives pour les tableaux dans les documents Word à l'aide d'Aspose.Words pour .NET avec ce guide étape par étape. |
+| [Masquer une ligne dans un tableau avec C#](./hide-row-in-table-with-c-simple-guide-to-removing-table-rows/) | Apprenez à masquer ou supprimer des lignes de tableau dans Word avec Aspose.Words pour .NET en C#. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

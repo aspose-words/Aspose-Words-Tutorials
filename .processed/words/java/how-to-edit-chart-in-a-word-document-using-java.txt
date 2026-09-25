@@ -1,0 +1,7 @@
+Title: How to edit chart in a Word document using Java
+Slug: how-to-edit-chart-in-a-word-document-using-java
+Category: using-document-elements
+ProcessedDate: 2026-09-12T03:49:32.106483
+SourceRepo: AI Search API
+Keywords: how to edit chart, update chart settings, save updated document, change chart options, enable chart gridlines
+PRNumber: 274

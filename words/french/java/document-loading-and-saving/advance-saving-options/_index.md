@@ -1,11 +1,11 @@
 ---
-date: 2025-12-19
-description: Apprenez comment enregistrer Word avec un mot de passe, contrôler la
-  compression des métafichiers et gérer les puces d’image à l’aide d’Aspose.Words
-  pour Java.
+date: 2026-02-22
+description: Apprenez à enregistrer un document Word avec un mot de passe et à utiliser
+  des options d’enregistrement avancées telles que la gestion des métafichiers et
+  le contrôle des puces d’image avec Aspose.Words for Java.
 linktitle: Saving Documents in Various Formats with
 second_title: Aspose.Words Java Document Processing API
-title: Enregistrer le document Word avec un mot de passe à l'aide d'Aspose.Words pour
+title: Enregistrer Word avec mot de passe et options avancées – Aspose.Words pour
   Java
 url: /fr/java/document-loading-and-saving/advance-saving-options/
 weight: 14
@@ -17,47 +17,41 @@ weight: 14
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrer Word avec mot de passe et options avancées avec Aspose.Words for Java
+# Enregistrer Word avec mot de passe et options avancées – Aspose.Words for Java
 
-## Guide de tutoriel étape par étape : Enregistrer Word avec mot de passe et autres options d’enregistrement avancées
-
-Dans le monde numérique d'aujourd'hui, les développeurs doivent souvent protéger les fichiers Word, contrôler la façon dont les objets incorporés sont enregistrés, ou supprimer les puces d'image indésirables. **Enregistrer un document Word avec un mot de passe** est une méthode simple mais puissante pour sécuriser les données sensibles, et Aspose.Words for Java le rend sans effort. Dans ce guide, nous parcourrons le chiffrement d'un document, la prévention de la compression des petits métafichiers, et la désactivation des puces d'image — afin que vous puissiez ajuster précisément la façon dont vos fichiers Word sont enregistrés.
+Dans les applications Java modernes, **saving Word with password** protection est une exigence courante pour protéger le contenu sensible. Aspose.Words for Java vous permet non seulement de chiffrer les documents, mais aussi de contrôler finement la compression des métafichiers, les puces d'image, et de nombreuses autres fonctionnalités d'enregistrement. Dans ce tutoriel étape par étape, nous passerons en revue les options d'enregistrement *avancées* les plus utiles que vous pouvez appliquer avec l'API Aspose.Words Java.
 
 ## Réponses rapides
-- **Comment enregistrer un document Word avec un mot de passe ?** Utilisez `DocSaveOptions.setPassword()` avant d'appeler `doc.save()`.  
-- **Puis‑je empêcher la compression des petits métafichiers ?** Oui, définissez `saveOptions.setAlwaysCompressMetafiles(false)`.  
-- **Est‑il possible d'exclure les puces d'image du fichier enregistré ?** Absolument — utilisez `saveOptions.setSavePictureBullet(false)`.  
-- **Ai‑je besoin d'une licence pour utiliser ces fonctionnalités ?** Une licence valide d'Aspose.Words for Java est requise pour une utilisation en production.  
-- **Quelle version de Java est prise en charge ?** Aspose.Words fonctionne avec Java 8 et versions ultérieures.
+- **Comment ajouter un mot de passe à un fichier Word ?** Utilisez `DocSaveOptions.setPassword("yourPassword")` avant d'appeler `doc.save()`.  
+- **Puis‑je empêcher la compression des métafichiers ?** Définissez `saveOptions.setAlwaysCompressMetafiles(false)`.  
+- **Est‑il possible d'exclure les puces d'image ?** Oui, appelez `saveOptions.setSavePictureBullet(false)`.  
+- **Ai‑je besoin d'une licence pour ces fonctionnalités ?** Un essai fonctionne pour l'évaluation ; une licence commerciale est requise pour la production.  
+- **Quel produit Aspose couvre‑t‑il cela ?** Aspose.Words for Java — la bibliothèque leader pour les tâches de **aspose words document saving**.
 
-## Qu’est‑ce que « enregistrer Word avec mot de passe » ?
+## Qu’est‑ce que “save word with password” ?
+Enregistrer un document Word avec un mot de passe signifie chiffrer le fichier afin que seuls les utilisateurs connaissant le mot de passe puissent l'ouvrir, le modifier ou l'imprimer. Cette couche de sécurité est essentielle pour les rapports confidentiels, les contrats ou toute donnée qui doit rester privée.
 
-Enregistrer un document Word avec un mot de passe chiffre le contenu du fichier, nécessitant le mot de passe correct pour l'ouvrir dans Microsoft Word ou tout visualiseur compatible. Cette fonctionnalité est essentielle pour protéger les rapports confidentiels, les contrats ou toute donnée qui doit rester privée.
-
-## Pourquoi utiliser Aspose.Words for Java pour cette tâche ?
-
-- **Contrôle complet** – Vous pouvez définir les mots de passe, les options de compression et la gestion des puces en un seul appel d'API.  
-- **Pas besoin de Microsoft Office** – Fonctionne sur n'importe quelle plateforme supportant Java.  
-- **Haute performance** – Optimisé pour les gros documents et le traitement par lots.
+## Pourquoi utiliser les fonctionnalités d’enregistrement de documents Aspose.Words ?
+Aspose.Words offre un ensemble complet d'options **aspose words document saving** qui vont bien au-delà d'une simple sortie de fichier. Vous pouvez contrôler la compression, la gestion des images, et même décider d'incorporer ou non des puces d'image—tout cela sans quitter votre code Java.
 
 ## Prérequis
-- Java 8 ou version plus récente installé.  
+- Java 8 ou version ultérieure installé.  
 - Bibliothèque Aspose.Words for Java ajoutée à votre projet (Maven/Gradle ou JAR manuel).  
-- Une licence valide d'Aspose.Words pour la production (essai gratuit disponible).
+- Familiarité de base avec les IDE Java (IntelliJ, Eclipse, etc.).
 
 ## Guide étape par étape
 
-### 1. Créer un document simple
-Tout d'abord, créez un nouveau `Document` et ajoutez du texte. Ce sera le fichier que nous protégerons ensuite avec un mot de passe.
+### Étape 1 : Créer un document simple
+Tout d'abord, nous créons un nouveau `Document` et ajoutons du texte. Ce sera le fichier de base que nous protégerons ensuite avec un mot de passe.
 
 ```java
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
-    builder.write("Hello world!");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.write("Hello world!");
 ```
 
-### 2. Chiffrer le document – **enregistrer Word avec mot de passe**
-Nous configurons maintenant `DocSaveOptions` pour intégrer un mot de passe. Lorsque le fichier est ouvert, Word demandera ce mot de passe.
+### Étape 2 : Enregistrer Word avec mot de passe
+Maintenant nous chiffrons le document. L'objet `DocSaveOptions` nous permet de spécifier le mot de passe ainsi que d'autres préférences d'enregistrement.
 
 ```java
 DocSaveOptions saveOptions = new DocSaveOptions();
@@ -67,8 +61,10 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 doc.save("Your Directory Path" + "EncryptedDocument.docx", saveOptions);
 ```
 
-### 3. Ne pas compresser les petits métafichiers
-Les métafichiers (comme EMF/WMF) sont souvent compressés automatiquement. Si vous avez besoin de la qualité originale, désactivez la compression :
+> **Astuce :** Stockez les mots de passe de manière sécurisée (par ex., en utilisant un coffre) et ne les codez jamais en dur dans le code de production.
+
+### Étape 3 : Ne pas compresser les petits métafichiers
+Si votre document contient des graphiques vectoriels (par ex., des objets d'équation), vous pouvez préférer les laisser non compressés pour une meilleure qualité. L'exemple suivant désactive la compression automatique.
 
 ```java
 @Test
@@ -82,8 +78,8 @@ public void doNotCompressSmallMetafiles() throws Exception {
 }
 ```
 
-### 4. Exclure les puces d'image du fichier enregistré
-Les puces d'image peuvent augmenter la taille du fichier. Utilisez l'option suivante pour les omettre lors de l'enregistrement :
+### Étape 4 : Exclure les puces d'image du fichier enregistré
+Les puces d'image peuvent augmenter la taille du fichier. Si vous n'en avez pas besoin, désactivez‑les avec `setSavePictureBullet(false)`.
 
 ```java
 @Test
@@ -97,8 +93,8 @@ public void doNotSavePictureBullet() throws Exception {
 }
 ```
 
-### 5. Code source complet à titre de référence
-Ci-dessous se trouve l'exemple complet, prêt à l'exécution, qui démontre les trois options d'enregistrement avancées ensemble.
+### Étape 5 : Code source complet à titre de référence
+Ci-dessous se trouve le code complet et exécutable qui montre les trois options d'enregistrement avancées ensemble.
 
 ```java
 public void encryptDocumentWithPassword() throws Exception {
@@ -128,38 +124,47 @@ public void doNotSavePictureBullet() throws Exception {
 		saveOptions.setSavePictureBullet(false);
 	}
 	doc.save("Your Directory Path" + "WorkingWithDocSaveOptions.DoNotSavePictureBullet.docx", saveOptions);
+}
 ```
 
-## Problèmes courants et dépannage
-- **Mot de passe non appliqué** – Assurez‑vous d'utiliser `DocSaveOptions` *au lieu de* `PdfSaveOptions` ou d'autres options spécifiques à un format.  
-- **Métafichiers toujours compressés** – Vérifiez que le fichier source contient réellement de petits métafichiers ; l'option ne concerne que ceux en dessous d'un certain seuil de taille.  
-- **Les puces d'image apparaissent toujours** – Certaines versions anciennes de Word ignorent le drapeau ; envisagez de convertir les puces en styles de liste standard avant l'enregistrement.
+## Problèmes courants et astuces
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| **Le document s'ouvre mais le mot de passe est ignoré** | Utilisation de `saveOptions` avec un `SaveFormat` différent | Assurez‑vous de passer la même instance `DocSaveOptions` à `doc.save()` et que l'extension du fichier correspond au format (par ex., `.docx`). |
+| **Les métafichiers restent compressés** | `setAlwaysCompressMetafiles` n'affecte que les métafichiers *petits* | Vérifiez la taille du métafichier ; les gros sont toujours compressés selon la spécification DOCX. |
+| **Les puces d'image apparaissent toujours** | Le document contient des images en ligne utilisées comme puces | Convertissez ces puces en styles de liste standard avant l'enregistrement, ou supprimez‑les manuellement via l'API. |
 
 ## Questions fréquemment posées
 
 **Q : Aspose.Words for Java est‑il une bibliothèque gratuite ?**  
-R : Non, Aspose.Words for Java est une bibliothèque commerciale. Vous pouvez consulter les détails de licence [ici](https://purchase.aspose.com/buy).
+R : Non, Aspose.Words for Java est une bibliothèque commerciale. Vous pouvez trouver les détails de licence [ici](https://purchase.aspose.com/buy).
 
 **Q : Comment obtenir un essai gratuit d'Aspose.Words for Java ?**  
-R : Vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).
+R : Vous pouvez obtenir un essai gratuit d'Aspose.Words for Java [ici](https://releases.aspose.com/).
 
 **Q : Où puis‑je trouver du support pour Aspose.Words for Java ?**  
 R : Pour le support et les discussions communautaires, visitez le [forum Aspose.Words for Java](https://forum.aspose.com/).
 
-**Q : Puis‑je utiliser Aspose.Words for Java avec d'autres frameworks Java ?**  
-R : Oui, il s'intègre facilement avec Spring, Hibernate, Android et la plupart des conteneurs Java EE.
+**Q : Puis‑je utiliser Aspose.Words for Java avec d'autres bibliothèques Java ?**  
+R : Oui, Aspose.Words for Java est compatible avec diverses bibliothèques et frameworks Java.
 
-**Q : Existe‑t‑il une option de licence temporaire pour l'évaluation ?**  
-R : Oui, une licence temporaire est disponible [ici](https://purchase.aspose.com/temporary-license/).
+**Q : Existe‑t‑il une option de licence temporaire ?**  
+R : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
-Vous savez maintenant comment **enregistrer Word avec mot de passe**, contrôler la compression des métafichiers et exclure les puces d'image en utilisant Aspose.Words for Java. Ces options d'enregistrement avancées vous offrent un contrôle précis sur la taille finale du fichier, la sécurité et l'apparence — parfait pour les rapports d'entreprise, l'archivage de documents ou tout scénario où l'intégrité du document est cruciale.
+## Questions fréquentes supplémentaires
 
----
+**Q : La protection par mot de passe affecte‑t‑elle la taille du document ?**  
+R : Le fichier chiffré est légèrement plus volumineux en raison de la surcharge du chiffrement, mais l'augmentation est généralement négligeable.
 
-**Dernière mise à jour :** 2025-12-19  
-**Testé avec :** Aspose.Words for Java 24.12 (dernière version au moment de la rédaction)  
-**Auteur :** Aspose  
+**Q : Puis‑je définir différents mots de passe pour la lecture seule et les permissions de modification ?**  
+R : Aspose.Words prend en charge un seul mot de passe pour ouvrir le document. Pour des permissions plus granulaires, envisagez d'utiliser la conversion PDF avec des paramètres de protection séparés.
+
+**Q : Ces options d'enregistrement sont‑elles disponibles pour tous les formats Word (DOC, DOCX, RTF) ?**  
+R : Oui, `DocSaveOptions` fonctionne avec tous les formats pris en charge par Aspose.Words, bien que certaines options soient spécifiques à un format (par ex., les puces d'image ne concernent que le DOCX).
+
+**Dernière mise à jour** : 2026-02-22  
+**Testé avec** : Aspose.Words for Java 24.12  
+**Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

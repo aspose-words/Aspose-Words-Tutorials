@@ -1,0 +1,7 @@
+Title: Recover Corrupted DOCX – Complete Guide to Opening Word Files with Aspose
+Slug: recover-corrupted-docx-complete-guide-to-opening-word-files
+Category: document-operations
+ProcessedDate: 2026-06-21T07:53:43.661934
+SourceRepo: AI Search API
+Keywords: recover corrupted docx, set recovery mode, open word with recovery, open corrupted docx, get page count aspose
+PRNumber: 209

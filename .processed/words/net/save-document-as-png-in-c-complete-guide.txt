@@ -1,0 +1,7 @@
+Title: Save Document as PNG in C# – Complete Guide
+Slug: save-document-as-png-in-c-complete-guide
+Category: programming-with-imagesaveoptions
+ProcessedDate: 2026-06-24T10:52:16.393266
+SourceRepo: AI Search API
+Keywords: save document as png, set image resolution dpi
+PRNumber: 210

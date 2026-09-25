@@ -1,203 +1,218 @@
 ---
 category: general
-date: 2025-12-29
-description: Tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words C#. Tìm hiểu
-  cách đặt độ trong suốt cho hình, đặt màu bóng và lưu tài liệu Word một cách dễ dàng.
+date: 2026-02-18
+description: Tạo hình chữ nhật bằng Aspose.Words và tìm hiểu cách thêm bóng, đặt kích
+  thước hình, và lưu tài liệu Word trong vài phút.
 draft: false
 keywords:
 - create rectangle shape
-- set shape transparency
-- set shadow color
+- how to add shadow
 - save word document
-- create word document
+- set shape size
+- how to create document
 language: vi
-og_description: Tạo hình chữ nhật trong tài liệu Word bằng Aspose.Words C#. Hướng
-  dẫn này chỉ cách đặt độ trong suốt cho hình, đặt màu bóng và lưu tài liệu Word.
+og_description: Tạo hình chữ nhật trong tệp Word, tìm hiểu cách thêm bóng, đặt kích
+  thước hình dạng và lưu tài liệu bằng Aspose.Words trong C#.
 og_title: Tạo hình chữ nhật trong Word – Hướng dẫn đầy đủ Aspose.Words
 tags:
 - Aspose.Words
 - C#
-- Word Automation
+- Word automation
 title: Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn từng bước
 url: /vi/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
+
+Let's produce final translation.
+
+We'll keep the same structure.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo hình chữ nhật trong Word – Hướng dẫn đầy đủ Aspose.Words
+# Tạo hình chữ nhật trong Word bằng Aspose.Words – Hướng dẫn từng bước
 
-Bạn đã bao giờ cần **tạo hình chữ nhật** trong tài liệu Word nhưng không biết bắt đầu từ đâu? Bạn không đơn độc; nhiều nhà phát triển gặp khó khăn này khi tự động hoá báo cáo hoặc hoá đơn. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác để tạo hình chữ nhật, đặt độ trong suốt cho hình, đặt màu bóng, và cuối cùng **lưu tài liệu Word** bằng Aspose.Words cho .NET.  
+Bạn đã bao giờ cần **tạo hình chữ nhật** trong một tệp Word nhưng không biết bắt đầu từ đâu? Bạn không phải là người duy nhất—các nhà phát triển thường hỏi, “làm sao để thêm bóng cho một hình và vẫn giữ cho tài liệu có thể chỉnh sửa?” Trong tutorial này chúng tôi sẽ trả lời câu hỏi đó và cũng chỉ cho bạn **cách thêm bóng**, **đặt kích thước hình**, và **lưu tài liệu Word** trong một quy trình liền mạch.
 
-Chúng tôi sẽ bao phủ mọi thứ từ đối tượng tài liệu ban đầu đến tệp `.docx` cuối cùng trên đĩa, vì vậy sau khi đọc xong, bạn sẽ có thể **tạo tài liệu Word** một cách lập trình mà không phải đoán mò. Không có tham chiếu bên ngoài, chỉ có một giải pháp tự chứa mà bạn có thể sao chép‑dán vào dự án của mình.
+Chúng ta sẽ đi qua mọi thứ bạn cần, từ khởi tạo một tài liệu mới (đúng, đó là bước đầu tiên để **cách tạo tài liệu**) đến việc lưu *.docx* cuối cùng lên đĩa. Không có tham chiếu bên ngoài, chỉ một ví dụ tự chứa mà bạn có thể sao chép‑dán vào Visual Studio và chạy ngay hôm nay.
+
+---
 
 ## Yêu cầu trước
 
-- .NET 6.0 trở lên (mã cũng hoạt động với .NET Framework 4.7+)
-- Gói NuGet Aspose.Words for .NET (`Install-Package Aspose.Words`)
-- Kiến thức cơ bản về cú pháp C#
-- Một IDE mà bạn thích (Visual Studio, Rider, VS Code, v.v.)
+- .NET 6+ (hoặc .NET Framework 4.7+). Aspose.Words hoạt động với bất kỳ runtime .NET hiện đại nào.
+- Giấy phép Aspose.Words hợp lệ (hoặc khóa dùng thử miễn phí) – nếu không sẽ thấy watermark.
+- Visual Studio, Rider, hoặc bất kỳ trình soạn thảo C# nào bạn thích.
+- Kiến thức cơ bản về C#—không cần gì phức tạp, chỉ cần có khả năng chạy một ứng dụng console.
 
-> **Mẹo chuyên nghiệp:** Nếu bạn đang dùng bản dùng thử miễn phí của Aspose.Words, thư viện sẽ thêm một watermark vào tệp đầu ra. Đối với môi trường production, bạn sẽ cần một giấy phép hợp lệ.
+> **Mẹo chuyên nghiệp:** Nếu bạn đang dùng Mac, cùng một đoạn mã vẫn chạy dưới .NET 6 với VS Code—chỉ cần chắc chắn bạn đã tham chiếu gói NuGet `Aspose.Words`.
 
-## Bước 1: Khởi tạo Document và Builder
+---
 
-Điều đầu tiên chúng ta làm là tạo một tài liệu Word mới, trống và một `DocumentBuilder` cho phép chúng ta chèn nội dung. Hãy tưởng tượng builder như một cây bút ảo vẽ lên trang.
+## Bước 1: Khởi tạo tài liệu – nền tảng của **cách tạo tài liệu**
+
+Trước khi chúng ta có thể vẽ bất cứ thứ gì, cần một canvas trống. Aspose.Words gọi nó là một `Document`.  
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-// Create a new blank document
+// Step 1: Create a new blank document
 Document document = new Document();
-
-// The builder provides methods to add text, tables, shapes, etc.
-DocumentBuilder builder = new DocumentBuilder(document);
 ```
 
-> **Tại sao lại quan trọng:** Nếu không có `DocumentBuilder`, bạn sẽ phải thao tác trực tiếp với cây node cấp thấp, điều này dễ gây lỗi và khó đọc hơn.
+> **Tại sao lại quan trọng:** Đối tượng `Document` đại diện cho toàn bộ tệp *.docx*. Tất cả các hình, đoạn văn và phần bạn thêm sẽ trở thành con của đối tượng này. Bắt đầu với một tài liệu sạch sẽ giúp tránh các style ẩn can thiệp vào hình chữ nhật của bạn.
 
-## Bước 2: Tạo hình chữ nhật
+---
 
-Bây giờ chúng ta thực sự **tạo hình chữ nhật**. Phương thức `InsertShape` nhận một enum `ShapeType`, chiều rộng và chiều cao (đơn vị điểm). Đối tượng `Shape` trả về cho phép chúng ta điều chỉnh các thuộc tính hiển thị sau này.
+## Bước 2: Định nghĩa hình chữ nhật và **đặt kích thước hình**
+
+Một hình chữ nhật chỉ là một `Shape` với `ShapeType.Rectangle`. Chúng ta sẽ chỉ định kích thước cụ thể để nó hiển thị đúng như mong muốn.
 
 ```csharp
-// Insert a rectangle 150 pts wide and 80 pts tall
-Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+// Step 2: Create a rectangular shape and define its size
+Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+rectangleShape.Width  = 200; // width in points (≈2.78 inches)
+rectangleShape.Height = 100; // height in points (≈1.39 inches)
 ```
 
-Tại thời điểm này, hình chữ nhật là một hộp đen đặc được neo vào đoạn văn hiện tại. Bạn có thể di chuyển, thay đổi kích thước, hoặc thậm chí xoay nó sau này nếu cần.
+> **Ý nghĩa của các số:** Aspose.Words sử dụng đơn vị điểm (1 pt = 1/72 in). Điều chỉnh các giá trị để phù hợp với bố cục của bạn; với một trang A4 tiêu chuẩn, 200 pt là chiều rộng thoải mái.
 
-![tạo hình chữ nhật có bóng](/images/rectangle-shadow.png "Tài liệu Word hiển thị một hình chữ nhật với bóng màu xám")
+---
 
-*Văn bản thay thế ảnh: tạo hình chữ nhật có bóng trong tài liệu Word*
+## Bước 3: **Cách thêm bóng** – làm cho hình nổi bật hơn
 
-## Bước 3: Đặt độ trong suốt cho hình
-
-Độ trong suốt là mức “thấy qua” của phần nền hình. Aspose.Words sử dụng thuộc tính `Transparency` có giá trị từ `0.0` (đục) đến `1.0` (hoàn toàn trong suốt). Ở đây chúng ta **đặt độ trong suốt cho hình** ở mức 40 % để văn bản phía dưới vẫn đọc được```csharp
-// Make the rectangle 40 % transparent
-rectangleShape.Fill.Transparency = 0.4; // 0.0 = opaque, 1.0 = invisible
-```
-
-> **Trường hợp đặc biệt:** Nếu bạn cần một hình hoàn toàn vô hình nhưng vẫn muốn bóng xuất hiện, hãy đặt `Transparency` thành `1.0` và cho hình một độ rộng viền khác 0.
-
-## Bước 4: Cấu hình bóng
-
-Một bóng mờ nhẹ sẽ tạo độ sâu. Chúng ta sẽ **đặt màu bóng** thành màu xám trung bình, điều chỉnh bán kính mờ và dịch chuyển nó một vài điểm cả theo chiều ngang và chiều dọc.
+Bóng tạo ra cảm giác hình “nổi lên” khỏi trang. Thuộc tính `Shadow` cho phép bạn tinh chỉnh màu, khoảng cách, độ trong suốt và độ mờ.
 
 ```csharp
-// Enable the shadow effect
-rectangleShape.Shadow.Enabled = true;
-
-// Shadow color – a neutral gray
-rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-
-// 40 % transparent shadow (same as shape's fill)
-rectangleShape.Shadow.Transparency = 0.4;
-
-// Blur radius makes the edge softer
-rectangleShape.Shadow.Blur = 6;
-
-// Horizontal and vertical offsets (in points)
-rectangleShape.Shadow.OffsetX = 5;
-rectangleShape.Shadow.OffsetY = 5;
+// Step 3: Apply a shadow to the shape
+rectangleShape.Shadow.Color        = Color.Black; // Shadow color
+rectangleShape.Shadow.Distance    = 5;           // Offset distance in points
+rectangleShape.Shadow.Transparency = 0.4;        // 40 % transparent
+rectangleShape.Shadow.BlurRadius  = 8;           // Soft edge radius
 ```
 
-> **Tại sao lại quan trọng:** Một bóng quá sắc nét hoặc quá tối có thể trông giống như lỗi in. Điều chỉnh `Blur` và `Transparency` cho đến khi cảm giác tự nhiên.
+> **Tại sao dùng độ trong suốt?** Một bóng hoàn toàn đục có thể trông gắt gao. Đặt giá trị 0.4 sẽ tạo hiệu ứng nhẹ nhàng và chuyên nghiệp.
 
-## Bước 5: Lưu tài liệu Word
+---
 
-Cuối cùng chúng ta **lưu tài liệu Word** vào đĩa. Phương thức `Save` tự động xác định định dạng tệp dựa trên phần mở rộng; `.docx` là định dạng OpenXML hiện đại.
+## Bước 4: Đặt vị trí hình chữ nhật – dòng chảy nội tuyến với văn bản xung quanh
+
+Nếu bạn muốn hình hành xử như một ký tự trong đoạn văn, đặt `WrapType` thành `Inline`. Điều này giữ cho bố cục dự đoán được, đặc biệt khi tài liệu được chỉnh sửa sau này.
 
 ```csharp
-// Save the document to the desired folder
-document.Save(@"C:\Temp\ShadowRectangle.docx");
+// Step 4: Set the shape to flow inline with the surrounding text
+rectangleShape.WrapType = WrapType.Inline;
 ```
 
-Nếu thư mục không tồn tại, Aspose.Words sẽ ném ra một `ArgumentException`. Hãy chắc chắn đường dẫn hợp lệ hoặc tạo thư mục trước.
+> **Trường hợp đặc biệt:** Nếu bạn cần hình chữ nhật nổi trên văn bản (ví dụ: watermark), thay đổi `WrapType` thành `Square` hoặc `BehindText`.
 
-## Ví dụ làm việc đầy đủ
+---
 
-Dưới đây là chương trình hoàn chỉnh, sẵn sàng chạy, kết hợp tất cả các bước lại với nhau. Sao chép đoạn này vào một dự án console mới và nhấn **F5**.
+## Bước 5: Chèn hình vào phần thân tài liệu
+
+Bây giờ chúng ta thực sự đặt hình chữ nhật vào đoạn văn đầu tiên. Nếu tài liệu chưa có nội dung, `FirstParagraph` sẽ được tạo tự động.
 
 ```csharp
-using System;
+// Step 5: Insert the shape into the first paragraph of the document
+document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
+```
+
+> **Mẹo:** Bạn cũng có thể tạo một đoạn văn mới trước và sau đó thêm hình—hữu ích khi cần văn bản bao quanh.
+
+---
+
+## Bước 6: **Lưu tài liệu Word** – bước cuối cùng
+
+Với mọi thứ đã sẵn sàng, việc lưu file chỉ mất một dòng lệnh. Chọn bất kỳ đường dẫn nào bạn muốn; ví dụ dưới đây dùng một placeholder mà bạn nên thay bằng thư mục thực tế của mình.
+
+```csharp
+// Step 6: Save the document with the shadowed shape
+document.Save(@"C:\Temp\ShadowShape.docx");
+```
+
+> **Kết quả:** Mở *.docx* đã tạo trong Microsoft Word. Bạn sẽ thấy một hình chữ nhật có bóng đen, rộng 200 pt và cao 100 pt, nằm nội tuyến với đoạn văn đầu tiên.
+
+---
+
+## Kết quả mong đợi
+
+Khi bạn mở **ShadowShape.docx**, tài liệu sẽ hiển thị:
+
+- Một đoạn văn duy nhất chứa một hình chữ nhật.
+- Hình chữ nhật có bóng đen nhẹ, dịch chuyển 5 pt.
+- Kích thước hình khớp với các giá trị đã đặt ở Bước 2.
+- Không có văn bản thừa nào xuất hiện trừ khi bạn tự thêm vào.
+
+Nếu hình không hiển thị, hãy kiểm tra lại rằng bạn đã tham chiếu đúng phiên bản Aspose.Words và giấy phép (hoặc bản dùng thử) đang hoạt động.
+
+---
+
+## Câu hỏi thường gặp & Các biến thể
+
+| Câu hỏi | Trả lời |
+|----------|--------|
+| *Tôi có thể đổi màu bóng sang màu khác ngoài đen không?* | Chắc chắn—đặt `rectangleShape.Shadow.Color = Color.Blue;` hoặc bất kỳ `System.Drawing.Color` nào. |
+| *Nếu tôi cần một hình chữ nhật lớn hơn?* | Điều chỉnh giá trị `Width` và `Height`. Nhớ rằng chúng tính bằng điểm; 72 pt = 1 in. |
+| *Có thể đặt hình ở vị trí tuyệt đối không?* | Có—sử dụng `WrapType = WrapType.Absolute` và đặt các thuộc tính `Top`/`Left`. |
+| *Điều này có hoạt động với .NET Core không?* | Có. Aspose.Words đa nền tảng; chỉ cần cài đặt gói NuGet cho .NET Standard. |
+| *Tôi có thể chèn văn bản bên trong hình chữ nhật không?* | Không trực tiếp; bạn cần chèn một shape `TextBox` thay vì hình chữ nhật thông thường. |
+
+---
+
+## Ví dụ đầy đủ (Sẵn sàng sao chép‑dán)
+
+```csharp
 using Aspose.Words;
 using Aspose.Words.Drawing;
+using System.Drawing;
 
-namespace AsposeRectangleDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // 1️⃣ Initialize document and builder
-            Document document = new Document();
-            DocumentBuilder builder = new DocumentBuilder(document);
+        // 1️⃣ Initialize a new document
+        Document document = new Document();
 
-            // 2️⃣ Insert rectangle shape
-            Shape rectangleShape = builder.InsertShape(ShapeType.Rectangle, 150, 80);
+        // 2️⃣ Create rectangle and set its size
+        Shape rectangleShape = new Shape(document, ShapeType.Rectangle);
+        rectangleShape.Width  = 200;
+        rectangleShape.Height = 100;
 
-            // 3️⃣ Set shape transparency (40 % transparent)
-            rectangleShape.Fill.Transparency = 0.4;
+        // 3️⃣ Add a subtle black shadow
+        rectangleShape.Shadow.Color         = Color.Black;
+        rectangleShape.Shadow.Distance     = 5;
+        rectangleShape.Shadow.Transparency = 0.4;
+        rectangleShape.Shadow.BlurRadius   = 8;
 
-            // 4️⃣ Configure shadow (color, blur, offset, transparency)
-            rectangleShape.Shadow.Enabled = true;
-            rectangleShape.Shadow.Color = System.Drawing.Color.Gray;
-            rectangleShape.Shadow.Transparency = 0.4;
-            rectangleShape.Shadow.Blur = 6;
-            rectangleShape.Shadow.OffsetX = 5;
-            rectangleShape.Shadow.OffsetY = 5;
+        // 4️⃣ Make the shape flow inline with text
+        rectangleShape.WrapType = WrapType.Inline;
 
-            // 5️⃣ Save the document
-            string outputPath = @"C:\Temp\ShadowRectangle.docx";
-            document.Save(outputPath);
+        // 5️⃣ Insert the shape into the first paragraph
+        document.FirstSection.Body.FirstParagraph.AppendChild(rectangleShape);
 
-            Console.WriteLine($"Document saved to {outputPath}");
-        }
+        // 6️⃣ Persist the file
+        document.Save(@"C:\Temp\ShadowShape.docx");
+
+        System.Console.WriteLine("Document saved successfully!");
     }
 }
 ```
 
-### Kết quả mong đợi
-
-Mở `ShadowRectangle.docx` trong Microsoft Word. Bạn sẽ thấy một hình chữ nhật màu xám nhạt với bóng mềm, hơi lệch, cả hai đều được hiển thị ở mức 40 % trong suốt. Hình nằm trên một trang trống, sẵn sàng cho nội dung bổ sung.
-
-## Câu hỏi thường gặp & Biến thể
-
-**Nếu tôi cần một hình dạng khác?**  
-Thay `ShapeType.Rectangle` bằng bất kỳ giá trị enum nào khác (`Ellipse`, `Triangle`, `Star`, v.v.). Phần còn lại của mã vẫn giữ nguyên.
-
-**Tôi có thể thay đổi màu viền không?**  
-Có — dùng `rectangleShape.StrokeColor = System.Drawing.Color.Blue;` và tùy chọn đặt `rectangleShape.StrokeWeight = 1.5;`.
-
-**Làm sao đặt hình ở vị trí cụ thể trên trang?**  
-Đặt `rectangleShape.WrapType = WrapType.None;` rồi điều chỉnh các thuộc tính `rectangleShape.Left` và `rectangleShape.Top` (giá trị tính bằng điểm).
-
-**Có thể chèn văn bản bên trong hình chữ nhật không?**  
-Chắc chắn. Sau khi tạo hình, bạn có thể gọi `rectangleShape.AppendChild(new Paragraph(document))` và sau đó thêm một `Run` chứa văn bản của bạn. Nhớ đặt các thuộc tính `rectangleShape.TextBox` nếu muốn định dạng phong phú hơn.
-
-## Mẹo chuyên nghiệp & Cạm bẫy
-
-- **Cấp giấy phép sớm:** Nếu bạn qu áp dụng giấy phép, Aspose.Words sẽ chèn một watermark trên trang đầu, gây nhầm lẫn trong quá trình thử nghiệm.
-- **Mẹo hiệu năng:** Khi tạo nhiều tài liệu trong một vòng lặp, hãy tái sử dụng một đối tượng `Document` duy nhất và gọi `document.RemoveAllChildren();` sau mỗi lần lưu để tránh áp lực GC quá mức.
-- **Hiển thị bóng:** Trên màn hình độ phân giải thấp, bóng nhẹ có thể không nhìn thấy. Tăng `Blur` hoặc `OffsetX/Y` để debug, sau đó giảm lại cho môi trường production.
-
-## Bước tiếp theo
-
-Bây giờ bạn đã biết cách **tạo hình chữ nhật**, **đặt độ trong suốt cho hình**, **đặt màu bóng**, và **lưu tài liệu Word**, hãy cân nhắc mở rộng tutorial:
-
-- Thêm nhiều hình và nhóm chúng lại.
-- Chèn hình chữ nhật vào ô bảng để tạo bố cục báo cáo.
-- Kết hợp hình với `DocumentBuilder.InsertHtml` để phủ nội dung HTML‑styled.
-- Khám phá các hiệu ứng hình ảnh khác như `Glow` hoặc `Reflection` để tạo tài liệu giống UI phong phú hơn.
-
-Thử nghiệm, phá vỡ, rồi tinh chỉnh — việc tạo tài liệu lập trình là một sân chơi nơi thiết kế trực quan gặp gỡ code.
+Chạy chương trình, điều hướng tới `C:\Temp\ShadowShape.docx`, và bạn sẽ thấy hình chữ nhật có bóng đúng như mô tả.
 
 ---
 
-*Chúc lập trình vui vẻ! Nếu bạn gặp bất kỳ khó khăn nào, hãy để lại bình luận bên dưới và chúng tôi sẽ cùng bạn khắc phục.*  
+## Kết luận
+
+Bây giờ bạn đã biết cách **tạo hình chữ nhật** trong tệp Word bằng Aspose.Words, cách **đặt kích thước hình**, **thêm bóng**, và cuối cùng **lưu tài liệu Word** với các thay đổi. Toàn bộ quy trình—từ **cách tạo tài liệu** đến việc lưu kết quả—chỉ mất vài dòng C# và có thể mở rộng cho các bố cục phức tạp hơn.
+
+Sẵn sàng cho thử thách tiếp theo? Hãy thử thay hình chữ nhật bằng hình có góc bo tròn, thử nghiệm các màu bóng khác nhau, hoặc nhúng hình vào trong một ô bảng. Mỗi thay đổi đều củng cố các khái niệm cốt lõi mà chúng ta đã đề cập.
+
+Nếu bạn thấy hướng dẫn này hữu ích, hãy chia sẻ, để lại bình luận với các biến thể của bạn, hoặc khám phá các tutorial khác của chúng tôi về tự động hoá Word, như chèn hình ảnh hoặc tạo bảng với Aspose.Words. Chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

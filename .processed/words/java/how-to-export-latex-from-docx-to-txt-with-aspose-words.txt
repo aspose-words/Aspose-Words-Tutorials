@@ -1,0 +1,7 @@
+Title: How to Export LaTeX from DOCX to TXT with Aspose.Words
+Slug: how-to-export-latex-from-docx-to-txt-with-aspose-words
+Category: document-conversion-and-export
+ProcessedDate: 2026-06-05T15:21:01.921803
+SourceRepo: AI Search API
+Keywords: how to export latex, convert docx to txt, how to save txt, how to set options, save document as text
+PRNumber: 199

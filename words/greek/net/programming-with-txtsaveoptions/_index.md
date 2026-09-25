@@ -27,7 +27,15 @@
 | [Προσθήκη σημαδιών Bidi σε έγγραφο Word](./add-bidi-marks/) | Μάθετε πώς να προσθέτετε αμφίδρομα (Bidi) σημάδια σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον οδηγό. Εξασφαλίστε τη σωστή κατεύθυνση κειμένου για περιεχόμενο σε πολλές γλώσσες. |
 | [Χρήση χαρακτήρα Tab ανά επίπεδο για εσοχή λίστας](./use-tab-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή με στηλοθέτες χρησιμοποιώντας το Aspose.Words για .NET. Ακολουθήστε αυτόν τον οδηγό για ακριβή μορφοποίηση λιστών στα έγγραφά σας. |
 | [Χρήση κενού διαστήματος ανά επίπεδο για εσοχή λίστας](./use-space-character-per-level-for-list-indentation/) | Μάθετε πώς να δημιουργείτε λίστες πολλαπλών επιπέδων με εσοχή διαστήματος στο Aspose.Words για .NET. Οδηγός βήμα προς βήμα για ακριβή μορφοποίηση εγγράφων. |
-
+| [Πώς να εξάγετε LaTeX από DOCX – Μετατροπή DOCX σε TXT σε C#](./how-to-export-latex-from-docx-convert-docx-to-txt-in-c/) | Μάθετε πώς να εξάγετε LaTeX από αρχεία DOCX και να τα μετατρέψετε σε TXT χρησιμοποιώντας C# και Aspose.Words. |
+| [Αποθήκευση εγγράφου ως TXT σε C# – Μετατροπή DOCX σε TXT](./save-document-as-txt-in-c-convert-docx-to-txt/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε TXT χρησιμοποιώντας C# και Aspose.Words, με παραδείγματα κώδικα. |
+| [Μετατροπή docx σε txt – Πλήρης Οδηγός για την Αποθήκευση του Word ως Απλό Κείμενο](./convert-docx-to-txt-complete-guide-to-saving-word-as-plain-t/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt χρησιμοποιώντας το Aspose.Words για .NET, βήμα-βήμα οδηγίες και παραδείγματα κώδικα. |
+| [Αποθήκευση εγγράφου ως TXT – Πλήρης οδηγός C# για μετατροπή DOCX σε απλό κείμενο](./save-document-as-txt-complete-c-guide-to-convert-docx-to-pla/) | Μάθετε πώς να μετατρέπετε αρχεία DOCX σε κείμενο TXT χρησιμοποιώντας το Aspose.Words για .NET με πλήρη παράδειγμα C#. |
+| [Αποθήκευση docx ως txt – Γρήγορος οδηγός για προγραμματιστές C#](./save-docx-as-txt-quick-guide-for-c-developers/) | Μάθετε πώς να μετατρέψετε αρχεία docx σε txt γρήγορα χρησιμοποιώντας το Aspose.Words για .NET σε C#. |
+| [Αποθήκευση docx ως txt – Διατήρηση αλλαγών γραμμής & κενών σε C#](./save-docx-as-txt-preserve-line-breaks-spaces-in-c/) | Μάθετε πώς να αποθηκεύσετε αρχεία docx ως txt διατηρώντας τις αλλαγές γραμμής και τα κενά, χρησιμοποιώντας C# και Aspose.Words. |
+| [Πώς να εξάγετε LaTeX από DOCX – Οδηγός βήμα προς βήμα](./how-to-export-latex-from-docx-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε LaTeX χρησιμοποιώντας το Aspose.Words για .NET, βήμα προς βήμα. |
+| [Αποθήκευση DOCX ως TXT – Εξαγωγή εξισώσεων Word σε LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Μάθετε πώς να μετατρέπετε έγγραφα DOCX σε αρχεία TXT και να εξάγετε τις εξισώσεις Word σε μορφή LaTeX. |
+| [Πώς να εξάγετε LaTeX από το Word – Μετατροπή Word σε TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Μάθετε πώς να εξάγετε LaTeX από Word και να το μετατρέψετε σε TXT με Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

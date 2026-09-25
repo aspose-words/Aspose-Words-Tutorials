@@ -1,0 +1,7 @@
+Title: How to split Word document into separate files with C#
+Slug: how-to-split-word-document-into-separate-files-with-c
+Category: split-document
+ProcessedDate: 2026-09-21T15:45:37.114701
+SourceRepo: AI Search API
+Keywords: split word document, how to extract sections, how to split docx, split docx into files
+PRNumber: 282

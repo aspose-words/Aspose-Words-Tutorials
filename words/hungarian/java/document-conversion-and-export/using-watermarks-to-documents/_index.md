@@ -1,47 +1,59 @@
 ---
-date: 2025-12-18
-description: Tanulja meg, hogyan adjon vízjelet a dokumentumokhoz az Aspose.Words
-  for Java segítségével, beleértve a képes vízjel példát, a vízjel színének módosítását,
-  a vízjel átlátszóságának beállítását és a vízjel eltávolítását a dokumentumból.
+date: 2026-02-19
+description: Ismerje meg, hogyan hozhat létre vízjeles dokumentumot az Aspose.Words
+  for Java segítségével, és hogyan adhat hozzá képi vízjelet Java-ban a professzionális
+  megjelenésű dokumentumokhoz.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Vízjel hozzáadása dokumentumokhoz az Aspose.Words for Java használatával
+title: Dokumentum létrehozása vízjellel az Aspose.Words for Java segítségével
 url: /hu/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Also note "For Hungarian, ensure proper RTL formatting if needed" - Hungarian is LTR, ignore.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan adjunk vízjelet a dokumentumokhoz az Aspose.Words for Java használatával
+# Dokumentum létrehozása vízjellel az Aspose.Words for Java használatával
 
-## Bevezetés a vízjelek hozzáadásához a dokumentumokhoz az Aspose.Words for Java-ban
-
-Ebben az útmutatóban megtanulja, **hogyan adjon hozzá vízjelet** a Word dokumentumokhoz az Aspose.Words for Java segítségével. A vízjelek gyors módja annak, hogy a fájlt bizalmasnak, tervezetnek vagy jóváhagyottnak jelöljük, és lehetnek szöveges vagy képes alapúak. Lépésről lépésre bemutatjuk a könyvtár beállítását, szöveges és képes vízjelek létrehozását, megjelenésük testreszabását (beleértve a vízjel színének módosítását és a vízjel átlátszóságának beállítását), valamint egy vízjel eltávolítását a dokumentumból, ha már nincs rá szükség.
+Ebben az oktatóanyagban **dokumentumot hoz létre vízjellel** az Aspose.Words for Java API segítségével. A vízjelek—legyenek azok szövegesek vagy képek—segítenek egy fájlt titkosnak, tervezetnek vagy jóváhagyottnak jelölni, és programozottan alkalmazhatók bármely Word dokumentumra. Lépésről lépésre bemutatjuk a könyvtár beállítását, a szöveges és képes vízjelek hozzáadását, megjelenésük testreszabását, valamint azok eltávolítását, ha már nincs rájuk szükség.
 
 ## Gyors válaszok
-- **Mi az a vízjel?** Egy félig átlátszó átfedés (szöveg vagy kép), amely a fő dokumentumtartalom mögött jelenik meg.  
-- **Hozzáadhatok több vízjelet?** Igen – hozzon létre több `Shape` objektumot, és adja hozzá őket a kívánt szakaszokhoz.  
-- **Hogyan változtathatom meg a vízjel színét?** Állítsa be a `Color` tulajdonságot a `TextWatermarkOptions`-ban.  
-- **Van példa képes vízjelre?** Lásd az alábbi „Képes vízjelek hozzáadása” szekciót.  
-- **Szükségem van licencre a vízjel eltávolításához?** Érvényes Aspose.Words licenc szükséges a termelési használathoz.
+- **Mi a vízjel funkciója?** Szöveget vagy képet helyez el minden oldalon, hogy állapotot vagy márkát jelezzen.  
+- **Melyik könyvtár ad hozzá vízjeleket Java-ban?** Az Aspose.Words for Java beépített vízjel‑támogatást biztosít.  
+- **Hozzáadhatok képes vízjelet?** Igen—használja a `Shape` osztályt és az `add image watermark java` megközelítést.  
+- **A vízjel félig átlátszó?** A szöveges vízjelek esetén az átlátszóságot a `setSemitransparent` segítségével szabályozhatja.  
+- **Szükségem van licencre?** A ingyenes próbaverzió teszteléshez megfelelő; a termeléshez kereskedelmi licenc szükséges.
+
+## Mi a vízjel és miért használjuk?
+
+A vízjel egy halvány átfedés—szöveges vagy grafikus—amely minden dokumentumoldalra kerül. Általában a **titoktartás**, **tervezet állapot** vagy **márka** jelzésére használják anélkül, hogy a tartalmat módosítaná. A vízjelek programozott hozzáadása biztosítja a konzisztenciát nagy mennyiségű fájl esetén, és időt takarít meg a kézi szerkesztéshez képest.
 
 ## Az Aspose.Words for Java beállítása
 
-Mielőtt elkezdenénk vízjeleket hozzáadni a dokumentumokhoz, be kell állítanunk az Aspose.Words for Java-t. Kövesse az alábbi lépéseket a kezdéshez:
+Mielőtt elkezdenénk a vízjelek hozzáadását, győződjön meg róla, hogy a könyvtár készen áll a projektben:
 
 1. Töltse le az Aspose.Words for Java-t innen: [here](https://releases.aspose.com/words/java/).  
-2. Adja hozzá az Aspose.Words for Java könyvtárat a Java projektjéhez.  
-3. Importálja a szükséges osztályokat a Java kódjában.
+2. Adja hozzá a letöltött JAR-t (vagy Maven/Gradle függőséget) a projekt classpath-jához.  
+3. Importálja a szükséges osztályokat a Java forrásfájlban:
 
-Most, hogy a könyvtár be van állítva, merüljünk el a tényleges vízjel létrehozásában.
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-## Szöveges vízjelek hozzáadása
+Miután a könyvtár be van állítva, merüljünk el a tényleges vízjelkódba.
 
-A szöveges vízjelek gyakori választás, ha szöveges információt szeretne hozzáadni a dokumentumokhoz. Íme, hogyan adhat hozzá szöveges vízjelet az Aspose.Words for Java használatával:
+## Hogyan adjunk hozzá szöveges vízjelet
+
+A szöveges vízjelek ideálisak egy dokumentum „CONFIDENTIAL” vagy „DRAFT” jelzésére. Az alábbi kódrészlet egy tiszta módot mutat a **dokumentum létrehozása vízjellel** a `TextWatermarkOptions` használatával.
 
 ```java
 // Create a Document instance
@@ -62,11 +74,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Miért fontos ez:** A `setFontFamily`, `setFontSize` és `setColor` módosításával **megváltoztathatja a vízjel színét**, hogy illeszkedjen a márkájához, és a `setSemitransparent(true)` lehetővé teszi a **vízjel átlátszóságának beállítását** egy finom hatás érdekében.
+### A szöveges vízjel testreszabása
+- **Betűtípus és méret** – módosítsa a `setFontFamily` és `setFontSize` értékeket.  
+- **Szín** – használjon bármilyen `java.awt.Color`-t.  
+- **Elrendezés** – válassza a `HORIZONTAL`, `DIAGONAL` stb.  
+- **Átlátszóság** – kapcsolja be a `setSemitransparent(true)`-t a könnyebb megjelenéshez.
 
-## Képes vízjelek hozzáadása
+## Hogyan adjunk hozzá képes vízjelet (add image watermark java)
 
-A szöveges vízjelek mellett képes vízjeleket is hozzáadhat a dokumentumokhoz. Az alábbi **képes vízjel példa** bemutatja, hogyan ágyazhat be egy PNG logót vagy pecsétet:
+A képes vízjelek tökéletesek logók vagy egyedi grafikák számára. Az alábbi **add image watermark java** példa egy PNG-t helyez el minden oldal közepén.
 
 ```java
 // Create a Document instance
@@ -90,15 +106,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Ezt a blokkot különböző képekkel vagy pozíciókkal ismételheti, hogy **több vízjelet** adjunk hozzá egyetlen fájlhoz.
+### Tippek a képes vízjelekhez
+- **Átméretezés** a `setWidth` / `setHeight` használatával, hogy illeszkedjen az oldalhoz.  
+- **Pozíció** középre vagy bármely margóhoz igazítható a `RelativeHorizontalPosition` / `RelativeVerticalPosition` segítségével.  
+- **Átlátszóság** a kép alfa csatornájának beállításával alkalmazható betöltés előtt.
 
-## Vízjelek testreszabása
+## Hogyan távolítsuk el a vízjeleket
 
-A vízjeleket testreszabhatja a megjelenésük és pozíciójuk módosításával. Szöveges vízjelek esetén megváltoztathatja a betűtípust, méretet, színt és elrendezést. Képes vízjelek esetén módosíthatja a méretet, forgatást és igazítást, ahogyan azt az előző példákban bemutattuk.
-
-## Vízjelek eltávolítása
-
-Ha **eltávolítani szeretné a vízjelet** a dokumentumból, az alábbi kód végigiterál az összes alakzaton, és törli azokat, amelyeket vízjelnek azonosít:
+Ha egy dokumentumnak már nincs szüksége a vízjelre, programozottan törölheti azt. Az alábbi kód végigiterál az összes alakzaton, és eltávolítja azokat, amelyek nevében szerepel a „Watermark”.
 
 ```java
 // Create a Document instance
@@ -117,43 +132,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Gyakori felhasználási esetek és tippek
-- **Bizalmas tervezetek:** Alkalmazzon félig átlátszó szöveges vízjelet, például „CONFIDENTIAL”.  
-- **Márkaépítés:** Használjon képes vízjelet, amely a cég logóját tartalmazza.  
-- **Szakasz‑specifikus vízjelek:** Iteráljon a `doc.getSections()`-en, és csak a kiválasztott szakaszokhoz adjon vízjelet.  
-- **Teljesítmény tipp:** Használja újra ugyanazt a `TextWatermarkOptions` példányt, amikor ugyanazt a vízjelet több dokumentumra alkalmazza.
+## Gyakori hibák és hibaelhárítás
 
-## Gyakran feltett kérdések
+- **Hiányzó vízjel mentés után** – győződjön meg róla, hogy a vízjel beállítása után meghívja a `doc.save()`-t.  
+- **A kép nem jelenik meg** – ellenőrizze, hogy a kép útvonala helyes, és a fájl támogatott formátumú (PNG, JPEG, BMP).  
+- **Az átlátszóság nem alkalmazódik** – a `setSemitransparent(true)` csak szöveges vízjelekre működik; képek esetén szerkessze a PNG alfa csatornáját.  
+- **Több szakasz** – ha a dokumentumnak több szekciója van, adja hozzá a vízjelet minden szakasz testhez, vagy használja a `doc.getWatermark().setText(...)`-t, amely globálisan alkalmazza.
 
-### Hogyan változtathatom meg egy szöveges vízjel betűtípusát?
+## Gyakran Ismételt Kérdések
 
-A szöveges vízjel betűtípusának megváltoztatásához módosítsa a `setFontFamily` tulajdonságot a `TextWatermarkOptions`-ban. Például:
+**K: Hogyan változtathatom meg egy szöveges vízjel betűtípusát?**  
+Válasz: Módosítsa a `setFontFamily` tulajdonságot a `TextWatermarkOptions`-ben, például `options.setFontFamily("Times New Roman");`.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**K: Hozzáadhatok több vízjelet egy dokumentumhoz?**  
+Válasz: Igen. Hozzon létre több `Shape` objektumot (képekhez), vagy hívja meg a `doc.getWatermark().setText(...)`-t különböző opciókkal minden vízjelhez.
 
-### Hozzáadhatok több vízjelet egyetlen dokumentumhoz?
+**K: Lehetőség van a vízjel elforgatására?**  
+Válasz: Képes vízjelek esetén állítsa be a forgatást a `Shape` objektumon a `watermark.setRotation(angle)` használatával. Szöveges vízjelekhez használja a `setLayout` tulajdonságot (pl. `WatermarkLayout.DIAGONAL`).
 
-Igen, több vízjelet is hozzáadhat egy dokumentumhoz, ha több `Shape` objektumot hoz létre különböző beállításokkal, és hozzáadja őket a dokumentumhoz.
+**K: Hogyan tehetem a vízjelet félig átlátszóvá?**  
+Válasz: Állítsa be a `options.setSemitransparent(true)`-t a `TextWatermarkOptions`-ben. Képek esetén állítsa be a kép átlátszóságát betöltés előtt.
 
-### Lehet-e elforgatni egy vízjelet?
-
-Igen, a vízjelet elforgathatja a `Shape` objektumban a `setRotation` tulajdonság beállításával. A pozitív értékek az óramutató járásával megegyező irányba forgatják a vízjelet, a negatív értékek pedig az ellenkező irányba.
-
-### Hogyan tehetem a vízjelet félig átlátszóvá?
-
-A vízjelet félig átlátszóvá teheti, ha a `TextWatermarkOptions`-ban a `setSemitransparent` tulajdonságot `true`-ra állítja.
-
-### Hozzáadhatok vízjeleket egy dokumentum adott szakaszaihoz?
-
-Igen, a dokumentum adott szakaszaihoz vízjeleket adhat hozzá, ha végigiterál a szakaszokon, és a kívánt szakaszokhoz adja a vízjelet.
-
----
-
-**Legutóbb frissítve:** 2025-12-18  
-**Tesztelve ezzel:** Aspose.Words for Java 24.12  
-**Szerző:** Aspose  
+**K: Hozzáadhatok vízjeleket a dokumentum egyes szakaszaihoz?**  
+Válasz: Igen. Iteráljon a `doc.getSections()`-en, és csak a kívánt szakaszokhoz adja hozzá a vízjelet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -162,3 +163,9 @@ Igen, a dokumentum adott szakaszaihoz vízjeleket adhat hozzá, ha végigiterál
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-19  
+**Tested With:** Aspose.Words for Java 24.12 (latest)  
+**Author:** Aspose

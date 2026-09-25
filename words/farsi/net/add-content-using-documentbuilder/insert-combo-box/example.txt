@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: این آموزش نشان می‌دهد چگونه یک سند Word ایجاد کنید، یک فیلد فرم combo box با آیتم‌های از پیش تعریف‌شده با استفاده از DocumentBuilder اضافه کنید و سند را ذخیره کنید.
+//ExStepSummary:0: مسیر پوشه‌ای را که سند تولید شده در آن ذخیره خواهد شد تنظیم کنید.
+//ExStepSummary:1: یک آرایه از رشته‌ها ایجاد کنید که گزینه‌های combo box را پر خواهد کرد.
+//ExStepSummary:2: یک شیء Document جدید و یک DocumentBuilder مرتبط با آن را نمونه‌سازی کنید.
+//ExStepSummary:3: متد `builder.InsertComboBox` را فراخوانی کنید تا یک combo box به نام «DropDown» با آیتم‌های تعریف‌شده در موقعیت فعلی مکان‌نما قرار گیرد.
+//ExStepSummary:4: سند را به‌عنوان یک فایل .docx در پوشهٔ مشخص شده ذخیره کنید.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

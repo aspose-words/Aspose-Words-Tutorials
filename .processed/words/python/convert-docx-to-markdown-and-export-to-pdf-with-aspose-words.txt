@@ -1,0 +1,7 @@
+Title: Convert docx to markdown and export to PDF with Aspose.Words
+Slug: convert-docx-to-markdown-and-export-to-pdf-with-aspose-words
+Category: document-conversion
+ProcessedDate: 2026-09-24T19:15:12.058059
+SourceRepo: AI Search API
+Keywords: convert docx to markdown, convert equations to latex, export docx to pdf, recover corrupted docx, load document with recovery
+PRNumber: 288

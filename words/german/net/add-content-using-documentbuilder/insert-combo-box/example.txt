@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein Word‑Dokument erstellt, ein Kombinationsfeld‑Formularfeld mit vordefinierten Elementen mithilfe von DocumentBuilder hinzufügt und das Dokument speichert.
+//ExStepSummary:0: Legen Sie den Ordnerpfad fest, in dem das resultierende Dokument gespeichert wird.
+//ExStepSummary:1: Erstellen Sie ein Array von Zeichenketten, das die Optionen des Kombinationsfelds füllt.
+//ExStepSummary:2: Instanziieren Sie ein neues Document und einen damit verbundenen DocumentBuilder.
+//ExStepSummary:3: Rufen Sie `builder.InsertComboBox` auf, um ein Kombinationsfeld mit dem Namen "DropDown" und den definierten Elementen an der aktuellen Cursorposition zu platzieren.
+//ExStepSummary:4: Speichern Sie das Dokument im angegebenen Verzeichnis als .docx‑Datei.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

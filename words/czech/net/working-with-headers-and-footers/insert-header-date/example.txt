@@ -1,0 +1,27 @@
+//ExStart
+//ExSummary: Pomocí tříd Document a DocumentBuilder tento tutoriál ukazuje, jak přidat dynamické pole DATE do primárního záhlaví dokumentu Word a poté soubor uložit.
+//ExStepSummary:0: Vytvořte nový Document a DocumentBuilder pro jeho úpravu.
+//ExStepSummary:1: Přesuňte kurzor builderu do primárního záhlaví, aby následné vložení ovlivnilo záhlaví.
+//ExStepSummary:2: Napište statický popisek a vložte pole DATE formátované jako „MMMM d, yyyy“ do záhlaví, čímž vytvoříte dynamické datum.
+//ExStepSummary:3: Vraťte se do hlavního těla dokumentu a přidejte ukázkový odstavec, který demonstruje běžný obsah dokumentu vedle záhlaví.
+//ExStepSummary:4: Uložte dokument do souboru .docx.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+
+//ExStep:2-
+builder.Write("Generated on: ");
+builder.InsertField("DATE \\@ \"MMMM d, yyyy\"");
+
+//ExStep:3-
+builder.MoveToDocumentEnd();
+builder.Writeln("This is the document body.");
+
+//ExStep:4-
+doc.Save("HeaderDate.docx");
+//ExEnd

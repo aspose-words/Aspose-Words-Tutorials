@@ -1,0 +1,7 @@
+Title: Save Word as PDF – Generate Accessible PDF/A‑2U with Aspose.Words
+Slug: save-word-as-pdf-generate-accessible-pdf-a-2u-with-aspose-wo
+Category: document-conversion
+ProcessedDate: 2026-06-24T12:34:00.323527
+SourceRepo: AI Search API
+Keywords: save word as pdf, generate accessible pdf, make pdf accessible, convert docx to pdf/a, export word to pdf/a
+PRNumber: 212

@@ -1,47 +1,60 @@
 ---
-date: 2025-12-18
-description: Aspose.Words for Java ile belgelere filigran eklemeyi öğrenin; görüntü
-  filigranı örneği, filigran rengini değiştirme, filigran şeffaflığını ayarlama ve
-  filigranı belgeden kaldırma dahil.
+date: 2026-02-19
+description: Aspose.Words for Java kullanarak filigranlı belge oluşturmayı ve profesyonel
+  görünümlü belgeler için Java ile görüntü filigranı eklemeyi öğrenin.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Aspose.Words for Java ile Belgeler'e Filigran Ekleme
+title: Aspose.Words for Java kullanarak filigranlı belge oluşturma
 url: /tr/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ords for Java 24.12 (latest)"
+
+**Author:** Aspose -> "**Yazar:** Aspose"
+
+Make sure markdown bold.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Words for Java Kullanarak Belgelerde Filigran Ekleme
+# Aspose.Words for Java kullanarak filigranlı belge oluşturma
 
-## Aspose.Words for Java'da Belgelerde Filigran Eklemeye Giriş
+Bu öğreticide **filigranlı belge oluşturma** işlemini Aspose.Words for Java API'si ile yapacaksınız. Filigranlar—metin ya da resim olsun—belgeyi gizli, taslak veya onaylı olarak etiketlemenize yardımcı olur ve programlı olarak herhangi bir Word belgesine uygulanabilir. Kütüphaneyi kurma, hem metin hem de resim filigranları ekleme, görünümünü özelleştirme ve artık gerekmediğinde kaldırma adımlarını birlikte inceleyeceğiz.
 
-Bu öğreticide Aspose.Words for Java ile Word belgelerine **filigran eklemeyi** öğreneceksiniz. Filigranlar, bir dosyayı gizli, taslak veya onaylı olarak etiketlemenin hızlı bir yoludur ve metin‑tabanlı ya da görüntü‑tabanlı olabilir. Kütüphaneyi kurma, metin ve görüntü filigranları oluşturma, görünümünü özelleştirme (filigran rengini değiştirme ve filigran şeffaflığını ayarlama dahil) ve artık gerekmediğinde bir filigranı belgeden kaldırma adımlarını göstereceğiz.
+## Hızlı Yanıtlar
+- **Bir filigran ne işe yarar?** Her sayfaya metin ya da resim ekleyerek durum veya marka bilgisi verir.  
+- **Java'da filigran ekleyen kütüphane hangisidir?** Aspose.Words for Java yerleşik filigran desteği sağlar.  
+- **Resim filigranı ekleyebilir miyim?** Evet—`Shape` sınıfını ve `add image watermark java` yaklaşımını kullanın.  
+- **Filigran yarı saydam mı?** Metin filigranları için `setSemitransparent` ile opaklığı kontrol edebilirsiniz.  
+- **Lisans gerekir mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.
 
-## Hızlı Cevaplar
-- **Filigran nedir?** Ana belge içeriğinin arkasında görünen yarı‑şeffaf bir kaplama (metin veya görüntü).  
-- **Birden fazla filigran ekleyebilir miyim?** Evet – birkaç `Shape` nesnesi oluşturup her birini istediğiniz bölümlere ekleyin.  
-- **Filigran rengini nasıl değiştiririm?** `TextWatermarkOptions` içindeki `Color` özelliğini ayarlayın.  
-- **Görüntü filigranı örneği var mı?** Aşağıdaki “Görüntü Filigranları Ekleme” bölümüne bakın.  
-- **Filigranı kaldırmak için lisans gerekir mi?** Üretim kullanımında geçerli bir Aspose.Words lisansı gereklidir.
+## Filigran nedir ve neden kullanılır?
 
-## Aspose.Words for Java'ı Kurma
+Filigran, bir belgenin her sayfasına eklenen hafif bir kaplamadır—metinsel ya da grafiksel. Genellikle **gizlilik**, **taslak durumu** veya **marka** göstermek için kullanılır ve temel içeriği değiştirmez. Filigranları programlı olarak eklemek, büyük dosya gruplarında tutarlılık sağlar ve manuel düzenlemeye göre zaman tasarrufu sağlar.
 
-Belgelere filigran eklemeye başlamadan önce Aspose.Words for Java'ı kurmamız gerekir. Başlamak için aşağıdaki adımları izleyin:
+## Aspose.Words for Java Kurulumu
+
+Filigran eklemeye başlamadan önce kütüphanenin projenizde hazır olduğundan emin olun:
 
 1. Aspose.Words for Java'ı [buradan](https://releases.aspose.com/words/java/) indirin.  
-2. Aspose.Words for Java kütüphanesini Java projenize ekleyin.  
-3. Java kodunuzda gerekli sınıfları içe aktarın.
+2. İndirilen JAR'ı (veya Maven/Gradle bağımlılığını) projenizin sınıf yoluna ekleyin.  
+3. Java kaynak dosyanıza gerekli sınıfları içe aktarın:
 
-Artık kütüphane kurulduğuna göre, gerçek filigran oluşturma işlemine dalalım.
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-## Metin Filigranları Ekleme
+Kütüphane kurulduğuna göre, gerçek filigran koduna geçelim.
 
-Metin filigranları, belgelere metinsel bilgi eklemek istediğinizde yaygın bir tercihtir. Aspose.Words for Java kullanarak bir metin filigranı eklemenin yolu aşağıdadır:
+## Metin filigranı ekleme
+
+Metin filigranları, belgeyi “CONFIDENTIAL” veya “DRAFT” gibi etiketlemek için idealdir. Aşağıdaki kod parçacığı, `TextWatermarkOptions` kullanarak **filigranlı belge oluşturma** işlemini gösterir.
 
 ```java
 // Create a Document instance
@@ -62,11 +75,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Neden önemli:** `setFontFamily`, `setFontSize` ve `setColor` ayarlarını değiştirerek **filigran rengini** markanıza uygun şekilde **değiştirebilir**, `setSemitransparent(true)` ise **filigran şeffaflığını** ince bir etki için **ayarlamanıza** olanak tanır.
+### Metin filigranını özelleştirme
+- **Yazı tipi ailesi ve boyutu** – `setFontFamily` ve `setFontSize` değerlerini değiştirin.  
+- **Renk** – herhangi bir `java.awt.Color` kullanın.  
+- **Düzen** – `HORIZONTAL`, `DIAGONAL` vb. seçin.  
+- **Şeffaflık** – daha hafif bir görünüm için `setSemitransparent(true)` ayarlayın.
 
-## Görüntü Filigranları Ekleme
+## Görüntü filigranı ekleme (add image watermark java)
 
-Metin filigranlarına ek olarak, belgelere görüntü filigranları da ekleyebilirsiniz. Aşağıda, bir PNG logo veya damga nasıl gömülür gösteren **görüntü filigranı örneği** yer almaktadır:
+Görüntü filigranları, logo veya özel grafikler için mükemmeldir. Aşağıdaki **add image watermark java** örneği, bir PNG dosyasını her sayfanın ortasına ekler.
 
 ```java
 // Create a Document instance
@@ -90,15 +107,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Bu bloğu farklı görüntüler veya konumlarla tekrarlayarak tek bir dosyaya **birden fazla filigran ekleyebilirsiniz**.
+### Görüntü filigranları için ipuçları
+- **Yeniden boyutlandırma** – sayfaya sığdırmak için `setWidth` / `setHeight` kullanın.  
+- **Pozisyon** – `RelativeHorizontalPosition` / `RelativeVerticalPosition` kullanarak ortalanabilir veya herhangi bir kenara hizalanabilir.  
+- **Şeffaflık** – yüklemeden önce görüntünün alfa kanalını ayarlayarak uygulanabilir.
 
-## Filigranları Özelleştirme
+## Filigranları kaldırma
 
-Filigranların görünümünü ve konumunu ayarlayarak özelleştirebilirsiniz. Metin filigranları için yazı tipini, boyutu, rengi ve yerleşimi değiştirebilirsiniz. Görüntü filigranları için ise önceki örneklerde gösterildiği gibi boyut, dönüş ve hizalamayı değiştirebilirsiniz.
-
-## Filigranları Kaldırma
-
-**Filigran içeren belge** içeriğini kaldırmanız gerekiyorsa, aşağıdaki kod tüm şekilleri dolaşır ve filigran olarak tanımlananları siler:
+Bir belge artık filigran gerektirmiyorsa, programlı olarak silebilirsiniz. Aşağıdaki kod, tüm şekilleri dolaşır ve adında “Watermark” geçenleri kaldırır.
 
 ```java
 // Create a Document instance
@@ -117,44 +133,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Yaygın Kullanım Durumları ve İpuçları
+## Yaygın hatalar ve sorun giderme
 
-- **Gizli taslaklar:** “CONFIDENTIAL” gibi yarı‑şeffaf bir metin filigranı uygulayın.  
-- **Markalaşma:** Şirket logonuzu içeren bir görüntü filigranı kullanın.  
-- **Bölüm‑özel filigranlar:** `doc.getSections()` üzerinden döngü yaparak sadece seçtiğiniz bölümlere filigran ekleyin.  
-- **Performans ipucu:** Aynı filigranı birçok belgeye uygularken aynı `TextWatermarkOptions` örneğini yeniden kullanın.
+- **Kaydetme sonrası filigran eksik** – filigranı ayarladıktan sonra `doc.save()` çağırdığınızdan emin olun.  
+- **Görüntü görünmüyor** – görüntü yolunun doğru olduğunu ve dosyanın desteklenen bir formatta (PNG, JPEG, BMP) olduğunu kontrol edin.  
+- **Şeffaflık uygulanmadı** – `setSemitransparent(true)` yalnızca metin filigranları için çalışır; görüntüler için PNG'nin alfa kanalını düzenleyin.  
+- **Birden fazla bölüm** – belgenizde birden fazla bölüm varsa, filigranı her bölümün gövdesine ekleyin veya global olarak uygulamak için `doc.getWatermark().setText(...)` kullanın.
 
 ## Sıkça Sorulan Sorular
 
-### Metin filigranının yazı tipini nasıl değiştirebilirim?
+**S: Metin filigranının yazı tipini nasıl değiştirebilirim?**  
+C: `TextWatermarkOptions` içinde `setFontFamily` özelliğini değiştirin, örn. `options.setFontFamily("Times New Roman");`.
 
-Metin filigranının yazı tipini değiştirmek için `TextWatermarkOptions` içindeki `setFontFamily` özelliğini değiştirin. Örneğin:
+**S: Tek bir belgeye birden fazla filigran ekleyebilir miyim?**  
+C: Evet. Birden fazla `Shape` nesnesi (görüntüler için) oluşturabilir veya her filigran için farklı seçeneklerle `doc.getWatermark().setText(...)` çağırabilirsiniz.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**S: Filigranı döndürebilir miyim?**  
+C: Görüntü filigranları için `Shape` nesnesinde `watermark.setRotation(angle)` ile döndürme yapın. Metin filigranları için `setLayout` özelliğini (örn. `WatermarkLayout.DIAGONAL`) kullanın.
 
-### Tek bir belgeye birden fazla filigran ekleyebilir miyim?
+**S: Filigranı yarı saydam nasıl yaparım?**  
+C: `TextWatermarkOptions` içinde `options.setSemitransparent(true)` ayarlayın. Görüntüler için yüklemeden önce opaklığı ayarlayın.
 
-Evet, farklı ayarlara sahip birden fazla `Shape` nesnesi oluşturarak ve bunları belgeye ekleyerek bir belgeye birden fazla filigran ekleyebilirsiniz.
-
-### Bir filigranı döndürmek mümkün mü?
-
-Evet, `Shape` nesnesindeki `setRotation` özelliğini ayarlayarak bir filigranı döndürebilirsiniz. Pozitif değerler filigranı saat yönünde, negatif değerler ise saat yönünün tersine döndürür.
-
-### Bir filigranı yarı‑şeffaf nasıl yapabilirim?
-
-Bir filigranı yarı‑şeffaf yapmak için `TextWatermarkOptions` içinde `setSemitransparent` özelliğini `true` olarak ayarlayın.
-
-### Bir belgenin belirli bölümlerine filigran ekleyebilir miyim?
-
-Evet, bölümler arasında döngü yaparak ve istediğiniz bölümlere filigran ekleyerek bir belgenin belirli bölümlerine filigran ekleyebilirsiniz.
-
----
-
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen:** Aspose.Words for Java 24.12  
-**Yazar:** Aspose  
+**S: Belgenin belirli bölümlerine filigran ekleyebilir miyim?**  
+C: Evet. `doc.getSections()` üzerinden döngü kurarak istediğiniz bölümlere sadece filigran ekleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +164,9 @@ Evet, bölümler arasında döngü yaparak ve istediğiniz bölümlere filigran 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-02-19  
+**Test Edilen:** Aspose.Words for Java 24.12 (latest)  
+**Yazar:** Aspose

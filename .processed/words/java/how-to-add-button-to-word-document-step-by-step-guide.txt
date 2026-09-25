@@ -1,0 +1,7 @@
+Title: How to Add Button to Word Document – Step‑by‑Step Guide
+Slug: how-to-add-button-to-word-document-step-by-step-guide
+Category: using-document-elements
+ProcessedDate: 2026-07-20T08:28:56.326803
+SourceRepo: AI Search API
+Keywords: how to add button to word document
+PRNumber: 229

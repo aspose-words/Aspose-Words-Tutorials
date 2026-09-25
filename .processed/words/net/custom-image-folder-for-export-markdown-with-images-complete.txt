@@ -1,0 +1,7 @@
+Title: custom image folder for export markdown with images – Complete Guide
+Slug: custom-image-folder-for-export-markdown-with-images-complete
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-21T06:40:24.797223
+SourceRepo: AI Search API
+Keywords: custom image folder, export markdown with images, save images specific directory, save markdown images
+PRNumber: 207

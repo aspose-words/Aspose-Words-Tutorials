@@ -1,0 +1,31 @@
+//ExStart
+//ExSummary: Met Aspose.Words Document en DocumentBuilder voegt deze tutorial automatisch bijgewerkte paginanummers toe aan de primaire voettekst van een Word‑document.
+//ExStepSummary:0: Maak een nieuw Document‑object en een DocumentBuilder die eraan gekoppeld is.
+//ExStepSummary:1: Verplaats de cursor van de builder naar de primaire voettekst van de eerste sectie.
+//ExStepSummary:2: Stel de alinea‑uitlijning in op centreren zodat de voetteksttekst gecentreerd wordt.
+//ExStepSummary:3: Schrijf het label "Page " en voeg een PAGE‑veld in dat het huidige paginanummer weergeeft.
+//ExStepSummary:4: Schrijf " of " en voeg een NUMPAGES‑veld in dat het totale aantal pagina's toont.
+//ExStepSummary:5: Sla het document op als een .docx‑bestand.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+
+//ExStep:2-
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+//ExStep:3-
+builder.Write("Page ");
+builder.InsertField("PAGE", null);
+
+//ExStep:4-
+builder.Write(" of ");
+builder.InsertField("NUMPAGES", null);
+
+//ExStep:5-
+doc.Save("PageNumbers.docx");
+//ExEnd
