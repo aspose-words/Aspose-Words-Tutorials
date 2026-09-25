@@ -148,6 +148,14 @@ Naučte se převádět dokumenty Word do formátu Markdown pomocí Aspose.Words 
 
 ### [Vytvoření přístupného PDF z Wordu – krok‑za‑krokem průvodce](./create-accessible-pdf-from-word-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Words for Java vytvořit PDF s přístupnými značkami a optimalizovat jej pro čtečky obrazovky.
+### [Uložení docx jako txt – Rychlý průvodce C# s exportem LaTeX Math](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Naučte se převést DOCX na prostý text a exportovat rovnice LaTeX pomocí Aspose.Words v C#.
+
+### [Jak vložit obrázky při konverzi Wordu do Markdown – Kompletní průvodce](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Naučte se, jak při převodu dokumentů Word do formátu Markdown zachovat a vložit obrázky pomocí Aspose.Words for Java.
+
+### [PDF možnosti uložení – Převod DOCX do PDF v Javě s plnou kontrolou](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Naučte se použít třídu PdfSaveOptions pro detailní nastavení při konverzi DOCX do PDF v Aspose.Words for Java.
 
 ## Často kladené otázky
 

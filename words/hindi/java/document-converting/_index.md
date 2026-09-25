@@ -104,6 +104,9 @@ Aspose.Words for Java का उपयोग करके DOCX फ़ाइल�
 ### [Converting Documents to Images](./converting-documents-images/)
 Aspose.Words for Java के साथ Word दस्तावेज़ों को इमेज में बदलना सीखें। कोड उदाहरण और अक्सर पूछे जाने वाले प्रश्नों के साथ चरण‑दर‑चरण गाइड।
 
+### [Java में DOCX को PDF में बदलें – चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Java में Aspose.Words का उपयोग करके DOCX फ़ाइल को PDF में बदलने के चरण‑दर‑चरण मार्गदर्शन।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **प्रश्न:** *क्या मैं पासवर्ड‑सुरक्षित Word फ़ाइलों को PDF में बदल सकता हूँ?*  

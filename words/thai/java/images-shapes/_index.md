@@ -36,6 +36,10 @@
 
 ### [เพิ่มเงาให้กับรูปร่างใน Word – คู่มือ Aspose.Words ฉบับสมบูรณ์](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างในเอกสาร Word ด้วย Aspose.Words สำหรับ Java อย่างละเอียด
+### [ใช้เอฟเฟกต์เงากับรูปร่างใน C# – คู่มือขั้นตอนต่อขั้นตอน](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+เรียนรู้วิธีเพิ่มเงาให้กับรูปร่างใน C# ด้วย Aspose.Words เพื่อสร้างเอกสารที่ดูเป็นมืออาชีพ
+
+## แหล่งข้อมูลเพิ่มเติม
 
 ## แหล่งข้อมูลเพิ่มเติม
 - [เอกสาร Aspose.Words สำหรับ Java](https://reference.aspose.com/words/java/)

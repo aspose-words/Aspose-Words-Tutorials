@@ -146,6 +146,8 @@ Lär dig hur du aktiverar återhämtningsläget i Aspose.Words för Java för at
 
 ### [Hur du får saknade teckensnitt i Java – Aspose.Words‑guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Lär dig hur du identifierar och ersätter saknade teckensnitt i Java‑applikationer med Aspose.Words.
+### [Återställ DOCX‑filer med Aspose.Words – Steg‑för‑steg‑guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+Lär dig hur du återställer skadade DOCX‑filer med Aspose.Words i Java. Steg‑för‑steg‑guide med kodexempel.
 
 ## Vanliga frågor
 

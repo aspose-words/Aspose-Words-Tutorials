@@ -88,6 +88,8 @@ Aspose.Words for Java を使用して、インラインシェイプを保持し�
 ### [Aspose.Words for Java でテーブルとテーブルスタイルの書式設定](./formatting-tables-and-table-styles/)
 Aspose.Words for Java でテーブルの書式設定とテーブルスタイルの適用方法を学びます。効果的なテーブル書式設定のためのソースコード付きステップバイステップガイドを探ります。Aspose.Words で文書レイアウトを強化します。
 
+### [docx を txt として保存 – LaTeX 数式エクスポート付きクイック C# ガイド](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+
 ### [Java で docx を markdown として保存 – 完全ステップバイステップガイド](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Javaで Aspose.Words を使用して DOCX を Markdown に変換し、保存する方法をステップバイステップで解説します。
 
@@ -145,4 +147,6 @@ Aspose.Words for Java を使用して Word 文書を Markdown 形式に変換す
 
 ### [Word からアクセシブル PDF を作成する – ステップバイステップガイド](./create-accessible-pdf-from-word-step-by-step-guide/)
 Aspose.Words for Java を使用して、Word 文書からアクセシブルな PDF を生成する手順を詳しく解説します。
+
+### [PDF 保存オプション – Java で DOCX を PDF に変換するフルコントロール](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 

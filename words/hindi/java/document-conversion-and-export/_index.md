@@ -136,6 +136,14 @@ Aspose.Words for Java का उपयोग करके Word दस्ता�
 
 ### [Word से सुलभ PDF बनाएं – चरण‑दर‑चरण गाइड](./create-accessible-pdf-from-word-step-by-step-guide/)
 Aspose.Words for Java का उपयोग करके Word दस्तावेज़ से सुलभ PDF बनाने की प्रक्रिया सीखें, जिसमें टैग, लेबल और नेविगेशन जोड़ना शामिल है।
+### [docx को txt के रूप में सहेजें – LaTeX गणित निर्यात के साथ तेज़ C# गाइड](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+C# में Aspose.Words का उपयोग करके DOCX को TXT में बदलें और LaTeX गणित को निर्यात करने का त्वरित गाइड।
+
+### [Word को Markdown में बदलते समय छवियों को एम्बेड कैसे करें – पूर्ण गाइड](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Word दस्तावेज़ को Markdown में बदलते समय छवियों को सही ढंग से एम्बेड करने के चरण‑दर‑स्टेप निर्देश।
+
+### [PDF सहेजने के विकल्प – जावा में DOCX को PDF में पूर्ण नियंत्रण के साथ बदलें](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Aspose.Words for Java में PDF सहेजने के विकल्पों का उपयोग करके DOCX को PDF में बदलें और सभी सेटिंग्स को नियंत्रित करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

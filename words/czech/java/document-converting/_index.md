@@ -102,6 +102,8 @@ Naučte se, jak převádět Word dokumenty na obrázky pomocí Aspose.Words pro 
 
 ### [Uložení docx jako markdown pomocí Aspose.Words – Kompletní průvodce](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Naučte se, jak převést DOCX na Markdown pomocí Aspose.Words v Javě s podrobným krok‑za‑krokem návodem.
+### [Převod DOCX do PDF v Javě – krok za krokem](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Naučte se, jak převést soubory DOCX do PDF v Javě pomocí Aspose.Words krok za krokem.
 
 ## Často kladené otázky
 

@@ -147,6 +147,15 @@ Exportar Word para Markdown usando Aspose.Words para Java. Guia completo passo a
 ### [Criar PDF Acessível a partir do Word – Guia Passo a Passo](./create-accessible-pdf-from-word-step-by-step-guide/)
 Aprenda a gerar PDFs acessíveis a partir de documentos Word usando Aspose.Words for Java, seguindo um guia detalhado passo a passo.
 
+### [Salvar docx como txt – Guia rápido em C# com exportação de matemática LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Aprenda a converter arquivos DOCX para TXT usando C# e exportar equações LaTeX incorporadas de forma simples.
+
+### [Como Incorporar Imagens ao Converter Word para Markdown – Guia Completo](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Aprenda a inserir imagens corretamente ao converter documentos Word para Markdown usando Aspose.Words for Java, passo a passo.
+
+### [Opções de salvamento PDF – Converter DOCX para PDF em Java com Controle Total](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Descubra como usar PdfSaveOptions para converter DOCX em PDF em Java, ajustando qualidade, compressão e outras configurações avançadas.
+
 ## Perguntas Frequentes
 
 **Q: Como adiciono uma marca d'água a um PDF existente usando Aspose.Words?**  

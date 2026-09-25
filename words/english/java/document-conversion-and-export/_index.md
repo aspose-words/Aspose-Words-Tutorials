@@ -151,6 +151,14 @@ Convert DOCX files to Markdown while exporting embedded Math equations using Asp
 
 ### [Create Accessible PDF from Word – Step‑by‑Step Guide](./create-accessible-pdf-from-word-step-by-step-guide/)
 Learn how to generate accessible PDFs from Word documents using Aspose.Words for Java, ensuring compliance with accessibility standards.
+### [Save docx as txt – Quick C# Guide with LaTeX Math Export](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Learn how to quickly save DOCX files as TXT using C#, with support for exporting LaTeX math equations.
+
+### [How to Embed Images When Converting Word to Markdown – Complete Guide](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Learn how to embed images correctly while converting Word documents to Markdown using Aspose.Words for Java.
+
+### [pdf save options – Convert DOCX to PDF in Java with Full Control](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Learn how to use Aspose.Words PDF save options to convert DOCX to PDF in Java with full control over output settings.
 
 ## Frequently Asked Questions
 

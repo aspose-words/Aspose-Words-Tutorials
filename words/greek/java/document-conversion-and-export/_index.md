@@ -146,6 +146,14 @@ weight: 22
 
 ### [Πώς να Εξάγετε Markdown από Word χρησιμοποιώντας Java – Πλήρης Οδηγός](./how-to-export-markdown-from-word-using-java-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα Word σε Markdown με Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Αποθήκευση docx ως txt – Γρήγορος Οδηγός C# με Εξαγωγή Μαθηματικών LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε TXT σε C# και να εξάγετε μαθηματικές εξισώσεις σε μορφή LaTeX.
+
+### [Πώς να Ενσωματώσετε Εικόνες Κατά τη Μετατροπή Word σε Markdown – Πλήρης Οδηγός](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Μάθετε πώς να ενσωματώνετε εικόνες σε αρχεία Markdown κατά τη μετατροπή εγγράφων Word χρησιμοποιώντας Aspose.Words for Java.
+
+### [Επιλογές αποθήκευσης PDF – Μετατροπή DOCX σε PDF στην Java με πλήρη έλεγχο](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Μάθετε πώς να ρυθμίσετε πλήρως τις επιλογές αποθήκευσης PDF κατά τη μετατροπή DOCX σε PDF με το Aspose.Words for Java.
 
 ## Συχνές Ερωτήσεις
 

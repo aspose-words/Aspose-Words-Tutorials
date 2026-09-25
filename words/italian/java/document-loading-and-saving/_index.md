@@ -147,6 +147,9 @@ Scopri come configurare la modalità di recupero per aprire e riparare documenti
 ### [Come Ottenere i Font Mancanti in Java – Guida Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Scopri come individuare e caricare i font mancanti in Java usando Aspose.Words per garantire una corretta visualizzazione del documento.
 
+### [Recupero di File DOCX con Aspose.Words – Guida Passo‑per‑Passo](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+Scopri come ripristinare documenti DOCX corrotti usando Aspose.Words per Java, con esempi di codice e consigli pratici.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

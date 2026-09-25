@@ -103,6 +103,8 @@ Pelajari cara mengonversi dokumen Word ke gambar menggunakan Aspose.Words untuk 
 
 ### [Simpan docx sebagai markdown dengan Aspose.Words – Panduan Lengkap](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Panduan lengkap untuk menyimpan file DOCX menjadi format Markdown menggunakan Aspose.Words untuk Java.
+### [Mengonversi DOCX ke PDF di Java – Panduan Langkah‑per‑Langkah](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Panduan lengkap mengonversi file DOCX menjadi PDF menggunakan Aspose.Words untuk Java dengan contoh kode praktis.
 
 ## Pertanyaan yang Sering Diajukan
 

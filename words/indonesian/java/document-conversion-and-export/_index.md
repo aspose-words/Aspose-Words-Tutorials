@@ -146,6 +146,14 @@ Pelajari cara mengekspor dokumen Word menjadi file Markdown menggunakan Aspose.W
 
 ### [Konversi DOCX ke Markdown dengan Ekspor Persamaan – Panduan Lengkap Java](./convert-docx-to-markdown-with-math-export-full-java-guide/)
 Pelajari cara mengonversi DOCX ke Markdown sekaligus mengekspor persamaan Word sebagai LaTeX dengan Aspose.Words for Java.
+### [Cara Menyisipkan Gambar Saat Mengonversi Word ke Markdown – Panduan Lengkap](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Pelajari cara menyisipkan gambar secara otomatis saat mengonversi dokumen Word ke format Markdown menggunakan Aspose.Words for Java.
+
+### [Simpan docx sebagai txt – Panduan Cepat C# dengan Ekspor Matematika LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Pelajari cara menyimpan file DOCX menjadi TXT menggunakan C# serta mengekspor persamaan LaTeX secara otomatis.
+
+### [Opsi Penyimpanan PDF – Mengonversi DOCX ke PDF di Java dengan Kontrol Penuh](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Pelajari cara menggunakan opsi penyimpanan PDF untuk mengonversi DOCX ke PDF dengan kontrol penuh atas kualitas dan pengaturan dokumen.
 
 ## Pertanyaan yang Sering Diajukan
 

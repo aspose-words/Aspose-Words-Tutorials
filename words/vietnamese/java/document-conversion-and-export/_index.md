@@ -137,6 +137,17 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định d�
 
 ### [Tạo PDF có khả năng truy cập từ Word bằng Aspose – Java](./generate-accessible-pdf-from-word-with-aspose-java/)
 Hướng dẫn tạo PDF đáp ứng tiêu chuẩn truy cập WCAG từ tài liệu Word bằng Aspose.Words cho Java.
+### [Tùy chọn lưu PDF – Chuyển DOCX sang PDF trong Java với Kiểm soát Đầy đủ](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Khám phá cách sử dụng PdfSaveOptions để kiểm soát chi tiết quá trình chuyển DOCX sang PDF, bao gồm nén, bảo mật và tùy chỉnh chất lượng.
+
+### [Tạo PDF Truy cập được từ Word – Hướng Dẫn Từng Bước](./create-accessible-pdf-from-word-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo PDF đáp ứng tiêu chuẩn truy cập từ tài liệu Word bằng Aspose.Words for Java.
+
+### [Cách Nhúng Hình Ảnh Khi Chuyển Đổi Word Sang Markdown – Hướng Dẫn Toàn Diện](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Hướng dẫn chi tiết cách nhúng hình ảnh vào tài liệu Markdown khi chuyển đổi từ Word bằng Aspose.Words for Java.
+
+### [Lưu docx thành txt – Hướng dẫn nhanh C# với xuất LaTeX Math](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Hướng dẫn cách lưu tài liệu DOCX thành tệp TXT trong C#, đồng thời xuất công thức LaTeX một cách nhanh chóng.
 
 ## Câu hỏi thường gặp
 

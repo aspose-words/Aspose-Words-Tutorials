@@ -102,6 +102,8 @@ Dowiedz się, jak konwertować dokumenty Word na obrazy przy użyciu Aspose.Word
 
 ### [Zapisz docx jako markdown przy użyciu Aspose.Words – Kompletny przewodnik](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Dowiedz się, jak konwertować pliki DOCX na format Markdown przy pomocy Aspose.Words w Javie, krok po kroku.
+### [Konwertowanie DOCX do PDF w Javie – przewodnik krok po kroku](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Przewodnik krok po kroku, jak w Javie konwertować pliki DOCX do PDF przy użyciu Aspose.Words, z przykładami kodu i najlepszymi praktykami.
 
 ## Najczęściej zadawane pytania
 

@@ -108,6 +108,7 @@ Aspose.Words for Java καθιστά απλό το **save images from Word** έ�
 ### [Πώς να ανακτήσετε docx – Πλήρης Οδηγός για Ανάγνωση Κατεστραμμένων Αρχείων Word](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [Ορισμός λειτουργίας ανάκτησης για αποκατάσταση κατεστραμμένου εγγράφου Word](./set-recovery-mode-to-recover-broken-word-document/)
 ### [Πώς να βρείτε ελλείπουσες γραμματοσειρές σε Java – Οδηγός Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [Πώς να ανακτήσετε αρχεία DOCX με το Aspose.Words – Οδηγός βήμα‑βήμα](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## Συχνές Ερωτήσεις
 

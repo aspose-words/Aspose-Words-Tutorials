@@ -106,6 +106,7 @@ Aspose.Words for Java의 다재다능함을 살펴보며 다양한 형식으로 
 ### [손상된 Word 문서 복구를 위한 복구 모드 설정](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java에서 누락된 글꼴 가져오기 – Aspose.Words 가이드](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [Aspose.Words를 사용한 DOCX 파일 복구 – 단계별 가이드](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## 자주 묻는 질문
 

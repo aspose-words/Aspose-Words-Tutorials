@@ -152,6 +152,14 @@ weight: 22
 
 ### [إنشاء PDF ميسّر من Word – دليل خطوة بخطوة](./create-accessible-pdf-from-word-step-by-step-guide/)
 تعلم كيفية إنشاء ملفات PDF ميسّرة من مستندات Word باستخدام Aspose.Words for Java خطوة بخطوة.
+### [حفظ docx كـ txt – دليل سريع بلغة C# مع تصدير رياضيات LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+دليل خطوة بخطوة لحفظ مستند DOCX كملف TXT وتصدير معادلات LaTeX باستخدام Aspose.Words للـ C#.
+
+### [كيفية تضمين الصور عند تحويل Word إلى Markdown – دليل شامل](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+تعلم كيفية تضمين الصور في المستندات عند تحويل ملفات Word إلى تنسيق Markdown باستخدام Aspose.Words.
+
+### [خيارات حفظ PDF – تحويل DOCX إلى PDF في Java مع تحكم كامل](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+تعلم كيفية استخدام خيارات حفظ PDF للتحكم الكامل في تحويل مستندات DOCX إلى PDF باستخدام Aspose.Words for Java.
 
 ## الأسئلة المتكررة
 

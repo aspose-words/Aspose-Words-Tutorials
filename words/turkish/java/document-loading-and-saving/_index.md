@@ -143,6 +143,7 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 ### [Kırık Word Belgesini Kurtarmak İçin Kurtarma Modunu Ayarlama](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java’da Eksik Yazı Tiplerini Nasıl Alırsınız – Aspose.Words Rehberi](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [Aspose.Words ile DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## Sıkça Sorulan Sorular
 

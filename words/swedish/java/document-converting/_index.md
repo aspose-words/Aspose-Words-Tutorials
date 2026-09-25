@@ -103,6 +103,8 @@ Lär dig hur du konverterar Word‑dokument till bilder med Aspose.Words för Ja
 
 ### [Spara DOCX som Markdown med Aspose.Words – Komplett guide](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Lär dig hur du konverterar DOCX-filer till Markdown med Aspose.Words för Java i en komplett steg‑för‑steg‑guide.
+### [Konvertera DOCX till PDF i Java – Steg‑för‑steg‑guide](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Lär dig hur du konverterar DOCX‑filer till PDF i Java med en tydlig steg‑för‑steg‑guide och kodexempel.
 
 ## Vanliga frågor
 

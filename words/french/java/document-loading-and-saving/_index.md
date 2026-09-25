@@ -146,6 +146,8 @@ Apprenez à réparer et lire des fichiers Word .docx corrompus avec Aspose.Words
 
 ### [Comment récupérer les polices manquantes en Java – Guide Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Apprenez à détecter et charger les polices manquantes lors du traitement de documents Word avec Aspose.Words for Java.
+### [Comment récupérer des fichiers DOCX avec Aspose.Words – Guide étape par étape](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+Apprenez à restaurer des fichiers DOCX corrompus avec Aspose.Words en suivant un guide complet et des exemples de code Java.
 
 ## Foire aux questions
 

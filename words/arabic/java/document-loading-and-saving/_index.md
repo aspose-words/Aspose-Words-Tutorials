@@ -124,6 +124,8 @@ Aspose.Words for Java يجعل من السهل **حفظ الصور من Word** �
 تعلم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة وقراءة محتواها باستخدام Aspose.Words for Java.
 ### [ضبط وضع الاستعادة لاستعادة مستند Word التالف](./set-recovery-mode-to-recover-broken-word-document/)
 ### [كيفية الحصول على الخطوط المفقودة في Java – دليل Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [كيفية استعادة ملفات DOCX باستخدام Aspose.Words لجافا – دليل خطوة بخطوة](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+تعلم كيفية استعادة ملفات DOCX التالفة باستخدام Aspose.Words لجافا خطوة بخطوة مع أمثلة برمجية.
 
 #### الحفظ بصيغ مختلفة
 

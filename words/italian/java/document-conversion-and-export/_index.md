@@ -74,6 +74,9 @@ Scopri come creare e personalizzare grafici in Aspose.Words per Java. Esplora i 
 ### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
 Sblocca la potenza delle equazioni matematiche nei documenti con Aspose.Words per Java. Impara a manipolare e visualizzare gli oggetti Office Math senza sforzo.
 
+### [Salva docx come txt – Guida rapida C# con esportazione LaTeX Math](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Scopri come convertire rapidamente file DOCX in TXT usando C# e includere l'esportazione di formule LaTeX.
+
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
 Sblocca il potere delle forme dei documenti in Aspose.Words per Java. Impara a creare documenti visivamente accattivanti con esempi passo‑passo.
 
@@ -137,6 +140,11 @@ Scopri come convertire documenti Word in formato Markdown usando Aspose.Words pe
 
 ### [Crea PDF accessibile da Word – Guida passo‑passo](./create-accessible-pdf-from-word-step-by-step-guide/)
 Scopri come generare PDF accessibili da documenti Word con Aspose.Words per Java, passo dopo passo.
+### [Come incorporare immagini durante la conversione da Word a Markdown – Guida completa](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Scopri come inserire correttamente le immagini durante la conversione di documenti Word in Markdown usando Aspose.Words per Java.
+
+### [Opzioni di salvataggio PDF – Converti DOCX in PDF in Java con pieno controllo](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Scopri come impostare le opzioni di salvataggio PDF per controllare layout, qualità e sicurezza durante la conversione da DOCX a PDF con Aspose.Words per Java.
 
 ## Domande frequenti
 

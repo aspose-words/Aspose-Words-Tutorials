@@ -143,6 +143,14 @@ Dowiedz się, jak wyeksportować dokumenty Word do formatu Markdown przy użyciu
 
 ### [Tworzenie dostępnego PDF z Word – przewodnik krok po kroku](./create-accessible-pdf-from-word-step-by-step-guide/)
 Dowiedz się, jak tworzyć dostępne pliki PDF z dokumentów Word przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z przykładami kodu.
+### [Zapisz docx jako txt – szybki przewodnik C# z eksportem równań LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Dowiedz się, jak zapisać plik DOCX jako TXT w C# z eksportem równań LaTeX. Przewodnik krok po kroku z kodem źródłowym.
+
+### [Jak osadzić obrazy przy konwersji Word do Markdown – kompletny przewodnik](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Dowiedz się, jak zachować obrazy przy konwersji Word do Markdown przy użyciu Aspose.Words for Java, krok po kroku.
+
+### [Opcje zapisu PDF – konwersja DOCX do PDF w Javie z pełną kontrolą](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Dowiedz się, jak używać opcji zapisu PDF, aby konwertować DOCX do PDF w Javie, mając pełną kontrolę nad ustawieniami wyjścia.
 
 ## Najczęściej zadawane pytania
 

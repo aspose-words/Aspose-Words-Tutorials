@@ -36,6 +36,10 @@ Pelajari cara membuat gambar mini berkualitas tinggi dan bitmap berukuran khusus
 
 ### [Menambahkan bayangan pada bentuk di Word – Panduan Lengkap Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Pelajari cara menambahkan efek bayangan pada bentuk di dokumen Word menggunakan Aspose.Words untuk Java.
+### [Menerapkan Efek Bayangan pada Bentuk di C# – Panduan Langkah demi Langkah](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Panduan langkah demi langkah menambahkan efek bayangan pada bentuk menggunakan Aspose.Words untuk C#.
+
+## Sumber Daya Tambahan
 
 ## Sumber Daya Tambahan
 - [Dokumentasi Aspose.Words untuk Java](https://reference.aspose.com/words/java/)

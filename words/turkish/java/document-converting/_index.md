@@ -102,6 +102,8 @@ Aspose.Words for Java kullanarak Word belgelerini görüntülere dönüştürmey
 
 ### [Aspose.Words ile docx'i markdown olarak kaydet – Tam Kılavuz](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Aspose.Words for Java kullanarak docx dosyalarını markdown formatına dönüştürmeyi öğrenin.
+### [DOCX'i PDF'ye Dönüştür – Adım‑Adım Kılavuz](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Aspose.Words for Java kullanarak DOCX dosyalarını PDF'ye dönüştürmeyi adım adım öğrenin. Basit kod örnekleri ve ipuçları.
 
 ## Sıkça Sorulan Sorular
 

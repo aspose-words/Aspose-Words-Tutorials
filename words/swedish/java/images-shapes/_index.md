@@ -36,6 +36,10 @@ Lär dig hur du genererar högkvalitativa miniatyrbilder och bitmappar i anpassa
 
 ### [Lägg till skugga på form i Word – Komplett Aspose.Words-guide](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Lär dig hur du applicerar skuggeffekter på former i Word-dokument med Aspose.Words för Java.
+### [Applicera skuggeffekt på en form i C# – steg‑för‑steg‑guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
+Lär dig hur du lägger till en skugga på en form i C# med Aspose.Words – en detaljerad steg‑för‑steg‑guide.
+
+## Ytterligare resurser
 
 ## Ytterligare resurser
 - [Aspose.Words för Java-dokumentation](https://reference.aspose.com/words/java/)

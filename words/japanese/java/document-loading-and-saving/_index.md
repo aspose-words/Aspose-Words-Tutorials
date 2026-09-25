@@ -123,6 +123,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 ### [破損した Word 文書を回復するためのリカバリーモードの設定](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java で欠落フォントを取得する方法 – Aspose.Words ガイド](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
+### [Aspose.Words for Java で DOCX ファイルを復元する方法 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 
 ## よくある質問
 

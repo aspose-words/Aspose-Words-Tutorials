@@ -99,6 +99,9 @@ Cấu hình RTF Load Options trong Aspose.Words for Java. Học cách nhận di�
 ### [Loading Text Files with Aspose.Words for Java](./loading-text-files/)
 Mở khóa sức mạnh của Aspose.Words for Java. Học cách tải tài liệu văn bản, quản lý danh sách, xử lý khoảng trắng và điều khiển hướng văn bản.
 
+### [Cách Khôi Phục Tệp DOCX với Aspose.Words – Hướng Dẫn Từng Bước](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+Hướng dẫn chi tiết cách khôi phục các tệp DOCX bị hỏng bằng Aspose.Words, bao gồm các bước thiết lập và mã mẫu Java.
+
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Học các tùy chọn lưu nâng cao với Aspose.Words for Java. Mã hoá, xử lý metafile và hơn thế nữa. Tài liệu Word của bạn, cách của bạn.
 

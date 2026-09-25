@@ -103,6 +103,8 @@ Aspose.Words for Java를 사용해 Word 문서를 이미지로 변환하는 방�
 
 ### [Aspose.Words로 docx를 마크다운으로 저장하는 완전 가이드](./save-docx-as-markdown-with-aspose-words-complete-guide/)
 Aspose.Words for Java를 사용해 DOCX 파일을 마크다운 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [Java에서 DOCX를 PDF로 변환하기 – 단계별 가이드](./convert-docx-to-pdf-in-java-step-by-step-guide/)
+Java와 Aspose.Words를 사용해 DOCX 파일을 PDF로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

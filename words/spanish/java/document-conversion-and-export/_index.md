@@ -94,6 +94,8 @@ Aprende a convertir documentos DOCX a Markdown en Java usando Aspose.Words con e
 
 ### [Cómo recuperar DOCX, exportar a Markdown y PDF/UA – Guía completa en Java](./how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/)
 Aprenda a reparar documentos DOCX dañados, convertirlos a Markdown y generar PDFs accesibles PDF/UA usando Aspose.Words for Java.
+### [Guardar docx como txt – Guía rápida en C# con exportación de matemáticas LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+Aprenda a convertir documentos DOCX a archivos de texto plano y exportar ecuaciones LaTeX usando C# y Aspose.Words.
 
 ### [Crear PDF accesible desde Word – Convertir a PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
 Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
@@ -105,6 +107,16 @@ Aprenda a generar PDFs accesibles según el estándar PDF/UA en Java con Aspose.
 Aprende a convertir documentos DOCX a PDF conservando formas incrustadas mediante Aspose.Words for Java en esta guía paso a paso.
 
 **Preguntas frecuentes**
+### [Cómo incrustar imágenes al convertir Word a Markdown – Guía completa](./how-to-embed-images-when-converting-word-to-markdown-complet/)
+Aprenda a incrustar imágenes al convertir documentos Word a Markdown con Aspose.Words, paso a paso y con ejemplos completos.
+
+### [Crear PDF accesible desde Word – Guía paso a paso](./create-accessible-pdf-from-word-step-by-step-guide/)
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word usando Aspose.Words para Java. Guía paso a paso.
+
+### [Opciones de guardado PDF – Convertir DOCX a PDF en Java con control total](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
+Aprende a usar PdfSaveOptions para convertir DOCX a PDF en Java con control total sobre la salida.
+
+## Preguntas frecuentes
 
 **Q: ¿Cómo agrego una marca de agua a un PDF existente usando Aspose.Words?**  
 A: Cargue el documento, use `DocumentBuilder.insertWatermarkText` o `insertWatermarkImage`, luego guárdelo como PDF.
