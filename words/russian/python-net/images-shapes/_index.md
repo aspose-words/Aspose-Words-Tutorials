@@ -37,6 +37,8 @@
 ### [Как добавить тень в C# – Полное руководство по программированию](./how-to-add-shadow-in-c-complete-programming-guide/)
 Узнайте, как добавить тень в C# с помощью полного руководства по программированию.
 
+### [Как установить тень у фигуры в Aspose.Words для Python](./how-to-set-shadow-on-a-shape-in-aspose-words-for-python/)
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Words для Python-net](https://docs.aspose.com/words/python-net/)

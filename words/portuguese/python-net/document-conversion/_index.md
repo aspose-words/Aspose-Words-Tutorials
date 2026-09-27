@@ -37,6 +37,14 @@ Aprenda a converter documentos em Python com o Aspose.Words para Python. Convert
 Aprenda a exportar documentos Word como arquivos Markdown usando Aspose.Words para Python. Guia passo a passo completo.
 ### [Recuperar DOCX Corrompido e Converter Word para Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Aprenda a reparar arquivos DOCX corrompidos e convertê-los em Markdown usando Aspose.Words para Python.
+### [Como salvar docx como txt com LaTeX math usando Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Aprenda a salvar arquivos DOCX como TXT contendo equações LaTeX usando Aspose.Words para Python.
+### [Como salvar Word como PDF com Aspose.Words em Python](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Aprenda a converter documentos Word em PDF usando Aspose.Words para Python. Guia passo a passo para salvar como PDF.
+### [Como converter docx para pdf com acessibilidade em Python](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Aprenda a converter arquivos DOCX em PDF mantendo recursos de acessibilidade usando Aspose.Words para Python.
+### [Como converter docx para txt em Python com Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Aprenda a converter arquivos DOCX em arquivos TXT usando Aspose.Words para Python. Guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

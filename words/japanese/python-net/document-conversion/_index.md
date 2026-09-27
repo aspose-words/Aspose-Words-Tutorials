@@ -40,6 +40,18 @@ Word 文書を Markdown に変換し保存する手順を Python で解説しま
 ### [破損した DOCX の復元と Word から Markdown への変換](./recover-corrupted-docx-convert-word-to-markdown/)
 破損した DOCX を復元し、Word 文書を Markdown に変換する手順を紹介します。
 
+### [docx を txt の LaTeX 数式として保存する方法 – 完全ガイド](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Aspose.Words を使用して、docx をテキスト形式の LaTeX 数式付きファイルに保存する手順を解説します。
+
+### [Python で docx を txt に変換する方法 – 完全ガイド](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Aspose.Words を使用して、docx ファイルをテキスト形式の txt に変換する手順を Python で解説します。
+
+### [Python で Aspose.Words を使って Word を PDF に保存する方法](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Aspose.Words for Python を利用し、Word 文書を PDF に変換して保存する手順を解説します。
+
+### [Python で docx をアクセシビリティ対応 PDF に変換する方法](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+docx をアクセシビリティ対応の PDF に変換する手順を Python で解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 
