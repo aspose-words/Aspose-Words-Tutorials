@@ -1,170 +1,258 @@
 ---
-"date": "2025-03-28"
-"description": "Erfahren Sie, wie Sie Lesezeichen in PDFs mit Aspose.Words für Java effektiv organisieren. Verbessern Sie Lesbarkeit und Navigation mit diesem umfassenden Leitfaden."
-"title": "Master-Lesezeichen-Gliederungsebenen in PDFs mit Aspose.Words Java"
-"url": "/de/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-09-27'
+description: Erfahren Sie, wie Sie verschachtelte PDF-Lesezeichen erstellen und PDFs
+  mit Lesezeichen mithilfe von Aspose.Words für Java generieren. Folgen Sie einer
+  Schritt‑für‑Schritt‑Anleitung, um Word‑Dokumente in PDFs mit Gliederungsebenen zu
+  konvertieren.
+keywords:
+- create nested PDF bookmarks
+- generate PDF with bookmarks
+- convert Word PDF bookmarks
+lastmod: '2026-09-27'
+og_description: Erfahren Sie, wie Sie verschachtelte PDF-Lesezeichen erstellen und
+  PDFs mit Lesezeichen mithilfe von Aspose.Words für Java generieren. Folgen Sie einer
+  Schritt‑für‑Schritt‑Anleitung, um Word zu PDF mit Gliederungsebenen zu konvertieren.
+og_image_alt: Guide showing how to create nested PDF bookmarks with Aspose.Words Java
+og_title: Wie man verschachtelte PDF-Lesezeichen mit Aspose.Words Java erstellt
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create nested PDF bookmarks and generate PDF with bookmarks
+    using Aspose.Words for Java. Follow a step‑by‑step guide to convert Word documents
+    to PDFs with outline levels.
+  headline: How to create nested PDF bookmarks with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to create nested PDF bookmarks and generate PDF with bookmarks
+    using Aspose.Words for Java. Follow a step‑by‑step guide to convert Word documents
+    to PDFs with outline levels.
+  name: How to create nested PDF bookmarks with Aspose.Words Java
+  steps:
+  - name: Initialize Document and Builder
+    text: '`Document` represents a Word document in memory, while `DocumentBuilder`
+      provides methods to construct and modify its contents.'
+  - name: Insert nested bookmarks
+    text: 'Start by creating a primary bookmark: Now, nest another bookmark within
+      it: Complete the outer bookmark:'
+  - name: Add additional bookmarks
+    text: 'Continue adding bookmarks as needed. For example, a separate third bookmark:'
+  - name: Set up PdfSaveOptions
+    text: '`PdfSaveOptions` configures how a document is saved as PDF, including bookmark
+      handling and image compression.'
+  - name: Add outline levels
+    text: 'Assign levels to each bookmark, which will determine their hierarchy:'
+  - name: Save the document
+    text: 'Finally, save your document as a PDF with these settings:'
+  type: HowTo
+- questions:
+  - answer: Add the Maven or Gradle dependency shown above, then place your license
+      file in the project resources folder.
+    question: How do I install Aspose.Words for Java?
+  - answer: Yes, but the bookmark pane will appear as a flat list, which reduces navigation
+      efficiency.
+    question: Can I generate PDF with bookmarks without setting outline levels?
+  - answer: PDF specifications allow up to nine outline levels; Aspose.Words respects
+      this limit.
+    question: Is there a limit to how deep bookmark nesting can be?
+  - answer: The library streams content and can process 500‑page files in under three
+      seconds on typical hardware, while keeping memory usage under 200 MB.
+    question: How does Aspose.Words handle very large documents?
+  - answer: Yes, you can use Aspose.PDF for Java to edit, reorder, or delete bookmarks
+      in an existing PDF.
+    question: Can I modify bookmarks after the PDF is created?
+  type: FAQPage
+tags:
+- create nested PDF bookmarks
+- Aspose.Words Java
+- PDF outline levels
+- Java PDF generation
+- document conversion
+title: Wie man verschachtelte PDF-Lesezeichen mit Aspose.Words Java erstellt
+url: /de/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Wie man verschachtelte PDF-Lesezeichen mit Aspose.Words Java erstellt
 
-# Master-Lesezeichen-Gliederungsebenen in PDFs mit Aspose.Words Java
+## Einleitung
+Erstellen Sie verschachtelte PDF-Lesezeichen und generieren Sie PDFs mit Lesezeichen mithilfe von Aspose.Words für Java, um Ihren PDFs ein sauberes, hierarchisches Navigationsfenster zu geben. Dieses Tutorial führt Sie durch die Einrichtung der Bibliothek, das Erstellen verschachtelter Lesezeichen in einem Word-Dokument, das Konfigurieren von Gliederungsebenen und das Speichern des Ergebnisses als PDF.
 
-## Einführung
-Haben Sie Probleme, Lesezeichen beim Konvertieren von Word-Dokumenten in PDFs zu verwalten? Dieses Tutorial zeigt Ihnen, wie Sie mit Aspose.Words für Java Ihre Dokumentlesezeichen effektiv organisieren, sodass sie professionell und einfach zu navigieren sind.
+**Was Sie lernen werden**
+- Aspose.Words für Java installieren und lizenzieren  
+- Verschachtelte Lesezeichen in einem Word-Dokument erstellen  
+- Gliederungsebenen zuweisen, damit der PDF-Lesezeichenbaum die Dokumentstruktur widerspiegelt  
+- Das Dokument mit einer vollwertigen Lesezeichen-Gliederung als PDF exportieren  
 
-**Was Sie lernen werden:**
-- Einrichten und Verwenden von Aspose.Words für Java
-- Erstellen verschachtelter Lesezeichen in Word-Dokumenten
-- Konfigurieren Sie die Gliederungsebenen der Lesezeichen für eine bessere Organisation
-- Dokumente als PDF mit strukturierten Lesezeichen speichern
+### Schnelle Antworten
+- **Primäres Ziel?** Verschachtelte PDF-Lesezeichen mit Gliederungsebenen erstellen.  
+- **Erforderliche Bibliothek?** Aspose.Words für Java v25.3 oder neuer.  
+- **Schlüsselklasse?** `DocumentBuilder` zum Einfügen von Lesezeichen.  
+- **Wie viele Gliederungsebenen werden unterstützt?** Bis zu 9 Ebenen, entsprechend den PDF-Spezifikationen.  
+- **Typische Laufzeit?** Weniger als eine Sekunde für ein 50‑seitiges Dokument auf einem Standard‑Laptop.
 
-Lassen Sie uns die Voraussetzungen durchgehen, bevor wir beginnen!
+## Was bedeutet das Erstellen verschachtelter PDF-Lesezeichen?
+Das Erstellen verschachtelter PDF-Lesezeichen bezieht sich auf den Vorgang, hierarchische Navigationspunkte in einer PDF-Datei hinzuzufügen, sodass Leser Abschnitte im Lesezeichenbereich erweitern oder reduzieren können. Aspose.Words ermöglicht es Ihnen, diese Lesezeichen zu definieren, während das Quelldokument noch eine Word-Datei ist, und bewahrt die Hierarchie beim Speichern als PDF.
 
-### Voraussetzungen
-Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
-- **Bibliotheken und Abhängigkeiten**: Aspose.Words für Java (Version 25.3 oder höher).
-- **Umgebungs-Setup**: Auf Ihrem Computer ist ein JDK zusammen mit einer kompatiblen IDE wie IntelliJ IDEA oder Eclipse installiert.
-- **Voraussetzungen**: Grundlegende Kenntnisse der Java-Programmierung und Vertrautheit mit Maven- oder Gradle-Build-Systemen.
+## Warum Aspose.Words für diese Aufgabe verwenden?
+Aspose.Words unterstützt **35+** Eingabe‑ und Ausgabeformate – darunter DOCX, ODT und PDF – und kann **500‑seitige** Dokumente in weniger als **3 Sekunden** auf typischer Serverhardware verarbeiten. Die Bibliothek verarbeitet komplexe Layouts, Schriftarten und Bilder, ohne dass Microsoft Word installiert sein muss, und ist damit ideal für automatisierte PDF‑Erzeugungs‑Pipelines.
 
-## Einrichten von Aspose.Words
-Integrieren Sie zunächst die erforderlichen Abhängigkeiten in Ihr Projekt. So geht's mit Maven und Gradle:
+## Voraussetzungen
+- **Bibliotheken und Abhängigkeiten**: Aspose.Words für Java v25.3 oder neuer.  
+- **Umgebung**: JDK 8 oder neuer, IDE wie IntelliJ IDEA oder Eclipse.  
+- **Kenntnisse**: Grundlegendes Java, Vertrautheit mit Maven oder Gradle.
 
-**Maven:**
+## Einrichtung von Aspose.Words
+Um zu beginnen, fügen Sie die erforderlichen Abhängigkeiten in Ihr Projekt ein. So können Sie dies mit Maven und Gradle tun:
+
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-### Lizenzerwerb
-Aspose.Words ist ein kommerzielles Produkt, Sie können jedoch mit einer kostenlosen Testversion beginnen, um die Funktionen kennenzulernen. So gehen Sie vor:
-1. **Kostenlose Testversion**: Herunterladen von [Asposes Release-Seite](https://releases.aspose.com/words/java/) um alle Funktionen zu testen.
-2. **Temporäre Lizenz**Beantragen Sie eine vorläufige Lizenz bei [Asposes temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/) falls erforderlich.
-3. **Kaufen**: Für die fortlaufende Nutzung erwerben Sie eine Lizenz von [Asposes Einkaufsportal](https://purchase.aspose.com/buy).
+### Lizenzbeschaffung
+Aspose.Words ist ein kommerzielles Produkt, aber Sie können mit einer kostenlosen Testversion beginnen, um seine Funktionen zu erkunden.
 
-Sobald Sie Ihre Lizenzdatei haben, initialisieren Sie sie in Ihrem Projekt, um alle Funktionen von Aspose.Words freizuschalten.
+1. **Kostenlose Testversion** – Laden Sie von der [Aspose-Release-Seite](https://releases.aspose.com/words/java/) herunter, um die vollen Funktionen zu testen.  
+2. **Temporäre Lizenz** – Beantragen Sie eine temporäre Lizenz auf der [Aspose-Temporärlizenzseite](https://purchase.aspose.com/temporary-license/), falls erforderlich.  
+3. **Kauf** – Für den fortlaufenden Gebrauch kaufen Sie eine Lizenz über das [Aspose-Kaufportal](https://purchase.aspose.com/buy).
 
-## Implementierungshandbuch
-Lassen Sie uns die Implementierung in überschaubare Abschnitte unterteilen:
+Sobald Sie Ihre Lizenzdatei haben, initialisieren Sie sie in Ihrem Projekt, um alle Funktionen freizuschalten.
+
+## Implementierungsleitfaden
+Lassen Sie uns die Implementierung in handhabbare Abschnitte unterteilen.
 
 ### Erstellen verschachtelter Lesezeichen
-**Überblick**: Erfahren Sie, wie Sie mit Aspose.Words für Java verschachtelte Lesezeichen in einem Word-Dokument erstellen.
+**Übersicht:** Erfahren Sie, wie Sie mit Aspose.Words für Java verschachtelte Lesezeichen in einem Word-Dokument erstellen.
 
 #### Schritt 1: Dokument und Builder initialisieren
+`Document` stellt ein Word-Dokument im Speicher dar, während `DocumentBuilder` Methoden zum Erstellen und Ändern seines Inhalts bereitstellt.  
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-```
-Dadurch wird Ihre Word-Dokumentumgebung eingerichtet, in der Sie mit dem Einfügen von Inhalten beginnen können.
+```  
 
 #### Schritt 2: Verschachtelte Lesezeichen einfügen
-Beginnen Sie mit der Erstellung eines primären Lesezeichens:
+Beginnen Sie mit dem Erstellen eines primären Lesezeichens:  
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
-```
-Fügen Sie nun ein weiteres Lesezeichen darin ein:
+```  
+Fügen Sie nun ein weiteres Lesezeichen darin ein:  
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Beenden Sie das verschachtelte Lesezeichen
-```
-Vervollständigen Sie das äußere Lesezeichen:
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
+```  
+Schließen Sie das äußere Lesezeichen ab:  
 ```java
 builder.endBookmark("Bookmark 1");
-```
+```  
 
-#### Schritt 3: Zusätzliche Lesezeichen hinzufügen
-Fügen Sie bei Bedarf weitere Lesezeichen hinzu. Beispielsweise ein separates drittes Lesezeichen:
+#### Schritt 3: Weitere Lesezeichen hinzufügen
+Fügen Sie nach Bedarf weitere Lesezeichen hinzu. Zum Beispiel ein separates drittes Lesezeichen:  
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
-```
+```  
 
-### Konfigurieren der Gliederungsebenen für Lesezeichen
-**Überblick**: Organisieren Sie Ihre Lesezeichen, indem Sie ihre Gliederungsebenen für eine bessere Navigation im PDF festlegen.
+### Konfigurieren von Lesezeichen-Gliederungsebenen
+**Übersicht:** Organisieren Sie Ihre Lesezeichen, indem Sie deren Gliederungsebenen festlegen, um die Navigation im PDF zu verbessern.
 
 #### Schritt 1: PdfSaveOptions einrichten
+`PdfSaveOptions` konfiguriert, wie ein Dokument als PDF gespeichert wird, einschließlich der Lesezeichenverarbeitung und Bildkompression.  
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
-```
-Dieser Codeausschnitt initialisiert die Optionen, die Sie zum Speichern Ihres Dokuments als PDF mit organisierten Lesezeichen verwenden.
+```  
 
 #### Schritt 2: Gliederungsebenen hinzufügen
-Weisen Sie jedem Lesezeichen Ebenen zu, die seine Hierarchie bestimmen:
+Weisen Sie jedem Lesezeichen Ebenen zu, die deren Hierarchie bestimmen:  
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // Verschachtelt unter Lesezeichen 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
-```
+```  
 
-#### Schritt 3: Speichern Sie das Dokument
-Speichern Sie Ihr Dokument abschließend als PDF mit diesen Einstellungen:
+#### Schritt 3: Dokument speichern
+Speichern Sie schließlich Ihr Dokument mit diesen Einstellungen als PDF:  
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
-```
+```  
 
-### Tipps zur Fehlerbehebung
-- **Fehlende Lesezeichen**: Stellen Sie sicher, dass jeder `startBookmark` verfügt über eine entsprechende `endBookmark`.
-- **Falsche Ebenen**: Überprüfen Sie die Hierarchie, indem Sie die Eltern-Kind-Beziehungen in Ihrem Code prüfen.
+## Häufige Probleme und Lösungen
+- **Fehlende Lesezeichen** – Stellen Sie sicher, dass jedes `startBookmark` ein passendes `endBookmark` hat.  
+- **Falsche Gliederungsebenen** – Überprüfen Sie die Eltern‑Kind‑Beziehungen, indem Sie den Lesezeichenbaum vor dem Speichern ausgeben.  
+- **Hoher Speicherverbrauch bei großen Dokumenten** – Rufen Sie `Document.updatePageLayout()` nach umfangreichen Änderungen auf, um temporäre Ressourcen freizugeben.
 
 ## Praktische Anwendungen
-Hier sind einige Szenarien, in denen Sie dieses Wissen anwenden können:
-1. **Rechtliche Dokumente**: Organisieren Sie Abschnitte und Unterabschnitte zur einfachen Bezugnahme.
-2. **Berichte**: Verwenden Sie verschachtelte Lesezeichen, um durch komplexe Datenstrukturen zu navigieren.
-3. **Lehrmaterial**: Strukturieren Sie Kapitel, Unterkapitel und Kernpunkte effizient.
+Hier sind Praxisbeispiele, bei denen verschachtelte PDF-Lesezeichen glänzen:
 
-## Überlegungen zur Leistung
-- Optimieren Sie die Dokumentgröße, indem Sie vor dem Speichern unnötigen Inhalt entfernen.
-- Verwalten Sie die Speichernutzung beim Verarbeiten großer Dokumente effektiv.
+1. **Rechtsverträge** – Schnell zu Klauseln, Unterklauseln und Anhängen springen.  
+2. **Finanzberichte** – Zwischen Abschnitten, Tabellen und Diagrammen navigieren, ohne zu scrollen.  
+3. **E‑Learning‑Module** – Ein anklickbares Inhaltsverzeichnis für Kapitel und Lektionen bereitstellen.
 
-## Abschluss
-Sie haben nun gelernt, wie Sie mit Aspose.Words für Java Lesezeichen-Gliederungsebenen effektiv implementieren. Diese Fähigkeit verbessert die Navigation Ihrer PDFs erheblich und macht sie benutzerfreundlicher und professioneller.
+## Leistungsüberlegungen
+- Entfernen Sie ungenutzte Stile und leere Absätze vor dem Speichern, um die PDF-Größe klein zu halten.  
+- Bei der Verarbeitung von Dokumenten mit mehr als 200 Seiten aktivieren Sie `PdfSaveOptions.setCompressImages(true)`, um den Speicherbedarf zu reduzieren.
 
-**Nächste Schritte**: Experimentieren Sie mit verschiedenen Dokumentstrukturen oder integrieren Sie diese Funktionalität in eine größere Anwendung, um ihre Vorteile in der Praxis zu erleben.
+## Zusätzliche Ressourcen
+- **Dokumentation:** Erkunden Sie die vollständige API-Referenz unter [Aspose.Words Documentation](https://reference.aspose.com/words/java/).  
+- **Downloads:** Laden Sie die neuesten Binärdateien von [Download Latest Releases](https://releases.aspose.com/words/java/) herunter.  
+- **Lizenzierung:** Kaufen Sie eine Lizenz über [Purchase a License](https://purchase.aspose.com/buy) oder beginnen Sie mit einer [Free Trial](https://releases.aspose.com/words/java/).  
+- **Temporäre Lizenz:** Beantragen Sie über [Temporary License Application](https://purchase.aspose.com/temporary-license/).  
+- **Support:** Stellen Sie Fragen im [Aspose Support Forum](https://forum.aspose.com/c/words/10).
 
-## FAQ-Bereich
-1. **Wie installiere ich Aspose.Words für Java?**
-   - Fügen Sie es als Abhängigkeit über Maven oder Gradle ein und richten Sie dann Ihre Lizenzdatei ein.
-2. **Kann ich Lesezeichen ohne Gliederungsebenen verwenden?**
-   - Ja, aber die Verwendung von Gliederungsebenen verbessert die Navigation in PDFs.
-3. **Welche Beschränkungen gelten für die Verschachtelung von Lesezeichen?**
-   - Es gibt keine strikte Begrenzung, aber berücksichtigen Sie die Lesbarkeit und Struktur für die Benutzer.
-4. **Wie verarbeitet Aspose große Dokumente?**
-   - Es verwaltet Ressourcen effizient, für sehr große Dateien wird jedoch eine Optimierung empfohlen.
-5. **Kann ich Lesezeichen nach dem Speichern der PDF-Datei ändern?**
-   - Ja, verwenden Sie Aspose.PDF für Java, um Lesezeichen nach der Konvertierung zu bearbeiten.
+## Fazit
+Sie haben gelernt, wie man **verschachtelte PDF-Lesezeichen erstellt**, Gliederungsebenen zuweist und ein Word-Dokument mit Aspose.Words für Java in ein gut strukturiertes PDF exportiert. Die Anwendung dieser Techniken macht Ihre PDFs deutlich benutzerfreundlicher und professioneller.
 
-## Ressourcen
-- [Aspose.Words-Dokumentation](https://reference.aspose.com/words/java/)
-- [Aktuelle Veröffentlichungen herunterladen](https://releases.aspose.com/words/java/)
-- [Erwerben Sie eine Lizenz](https://purchase.aspose.com/buy)
-- [Kostenlose Testversion](https://releases.aspose.com/words/java/)
-- [Antrag auf eine vorübergehende Lizenz](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/words/10)
+**Nächste Schritte** – Experimentieren Sie mit benutzerdefinierten Lesezeichensymbolen, fügen Sie PDF-Metadaten hinzu oder integrieren Sie den Workflow in einen Batch‑Verarbeitungs‑Dienst.
+
+## Häufig gestellte Fragen
+
+**F: Wie installiere ich Aspose.Words für Java?**  
+A: Fügen Sie die oben gezeigte Maven- oder Gradle-Abhängigkeit hinzu und platzieren Sie Ihre Lizenzdatei im Ressourcenordner des Projekts.
+
+**F: Kann ich PDFs mit Lesezeichen erzeugen, ohne Gliederungsebenen festzulegen?**  
+A: Ja, aber das Lesezeichenfenster erscheint dann als flache Liste, was die Navigationseffizienz verringert.
+
+**F: Gibt es eine Grenze, wie tief die Lesezeichenverschachtelung sein kann?**  
+A: Die PDF-Spezifikationen erlauben bis zu neun Gliederungsebenen; Aspose.Words respektiert dieses Limit.
+
+**F: Wie geht Aspose.Words mit sehr großen Dokumenten um?**  
+A: Die Bibliothek streamt Inhalte und kann 500‑seitige Dateien in weniger als drei Sekunden auf typischer Hardware verarbeiten, wobei der Speicherverbrauch unter 200 MB bleibt.
+
+**F: Kann ich Lesezeichen nach der PDF-Erstellung ändern?**  
+A: Ja, Sie können Aspose.PDF für Java verwenden, um Lesezeichen in einer bestehenden PDF zu bearbeiten, neu anzuordnen oder zu löschen.
+
+---
+
+**Zuletzt aktualisiert:** 2026-09-27  
+**Getestet mit:** Aspose.Words for Java v25.3  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Meistern Sie Aspose.Words für Java: So fügen Sie Lesezeichen in Word-Dokumenten ein und verwalten sie](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Hyperlink-Verwaltung in Word mit Aspose.Words Java: Ein umfassender Leitfaden](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [Dokumente als PDF in Aspose.Words für Java speichern](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

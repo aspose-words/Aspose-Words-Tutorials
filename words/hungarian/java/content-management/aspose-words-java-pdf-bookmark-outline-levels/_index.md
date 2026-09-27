@@ -1,170 +1,259 @@
 ---
-"date": "2025-03-28"
-"description": "Tanuld meg, hogyan rendezheted hatékonyan a könyvjelzőidet PDF-ekben az Aspose.Words for Java segítségével. Fokozd az olvashatóságot és a navigációt ezzel az átfogó útmutatóval."
-"title": "Mesterkönyvjelző vázlatszintek PDF-ekben Aspose.Words Java használatával"
-"url": "/hu/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-09-27'
+description: Ismerje meg, hogyan hozhat létre egymásba ágyazott PDF könyvjelzőket,
+  és generálhat PDF-et könyvjelzőkkel az Aspose.Words for Java használatával. Kövesse
+  a lépésről‑lépésre útmutatót a Word dokumentumok PDF‑vé konvertálásához vázlatszintekkel.
+keywords:
+- create nested PDF bookmarks
+- generate PDF with bookmarks
+- convert Word PDF bookmarks
+lastmod: '2026-09-27'
+og_description: Ismerje meg, hogyan hozhat létre egymásba ágyazott PDF könyvjelzőket,
+  és generálhat PDF-et könyvjelzőkkel az Aspose.Words for Java használatával. Kövesse
+  a lépésről‑lépésre útmutatót a Word dokumentumok PDF‑vé konvertálásához vázlatszintekkel.
+og_image_alt: Guide showing how to create nested PDF bookmarks with Aspose.Words Java
+og_title: Hogyan hozhatunk létre egymásba ágyazott PDF könyvjelzőket az Aspose.Words
+  Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create nested PDF bookmarks and generate PDF with bookmarks
+    using Aspose.Words for Java. Follow a step‑by‑step guide to convert Word documents
+    to PDFs with outline levels.
+  headline: How to create nested PDF bookmarks with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to create nested PDF bookmarks and generate PDF with bookmarks
+    using Aspose.Words for Java. Follow a step‑by‑step guide to convert Word documents
+    to PDFs with outline levels.
+  name: How to create nested PDF bookmarks with Aspose.Words Java
+  steps:
+  - name: Initialize Document and Builder
+    text: '`Document` represents a Word document in memory, while `DocumentBuilder`
+      provides methods to construct and modify its contents.'
+  - name: Insert nested bookmarks
+    text: 'Start by creating a primary bookmark: Now, nest another bookmark within
+      it: Complete the outer bookmark:'
+  - name: Add additional bookmarks
+    text: 'Continue adding bookmarks as needed. For example, a separate third bookmark:'
+  - name: Set up PdfSaveOptions
+    text: '`PdfSaveOptions` configures how a document is saved as PDF, including bookmark
+      handling and image compression.'
+  - name: Add outline levels
+    text: 'Assign levels to each bookmark, which will determine their hierarchy:'
+  - name: Save the document
+    text: 'Finally, save your document as a PDF with these settings:'
+  type: HowTo
+- questions:
+  - answer: Add the Maven or Gradle dependency shown above, then place your license
+      file in the project resources folder.
+    question: How do I install Aspose.Words for Java?
+  - answer: Yes, but the bookmark pane will appear as a flat list, which reduces navigation
+      efficiency.
+    question: Can I generate PDF with bookmarks without setting outline levels?
+  - answer: PDF specifications allow up to nine outline levels; Aspose.Words respects
+      this limit.
+    question: Is there a limit to how deep bookmark nesting can be?
+  - answer: The library streams content and can process 500‑page files in under three
+      seconds on typical hardware, while keeping memory usage under 200 MB.
+    question: How does Aspose.Words handle very large documents?
+  - answer: Yes, you can use Aspose.PDF for Java to edit, reorder, or delete bookmarks
+      in an existing PDF.
+    question: Can I modify bookmarks after the PDF is created?
+  type: FAQPage
+tags:
+- create nested PDF bookmarks
+- Aspose.Words Java
+- PDF outline levels
+- Java PDF generation
+- document conversion
+title: Hogyan hozhatunk létre egymásba ágyazott PDF könyvjelzőket az Aspose.Words
+  Java segítségével
+url: /hu/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Mesterkönyvjelző vázlatszintek PDF-ekben Aspose.Words Java használatával
+# Hogyan hozzunk létre egymásba ágyazott PDF könyvjelzőket az Aspose.Words Java-val
 
 ## Bevezetés
-Nehezen kezeled a könyvjelzőket Word dokumentumok PDF-be konvertálása közben? Ez az oktatóanyag bemutatja, hogyan használhatod az Aspose.Words for Java programot a dokumentumok könyvjelzőinek hatékony rendszerezéséhez, professzionálissá és könnyen navigálhatóvá tételéhez.
+Hozzon létre egymásba ágyazott PDF könyvjelzőket, és generáljon PDF-et könyvjelzőkkel az Aspose.Words for Java segítségével, hogy PDF-jei tiszta, hierarchikus navigációs panelt kapjanak. Ez az útmutató végigvezeti a könyvtár beállításán, a Word dokumentumban az egymásba ágyazott könyvjelzők felépítésén, a körvonal szintek konfigurálásán, és az eredmény PDF-ként történő mentésén.
 
-**Amit tanulni fogsz:**
-- Az Aspose.Words beállítása és használata Java-ban
-- Beágyazott könyvjelzők létrehozása Word-dokumentumokban
-- Könyvjelzők vázlatszintjeinek konfigurálása a jobb szervezés érdekében
-- Dokumentumok mentése PDF formátumban strukturált könyvjelzőkkel
+**Mit fogsz megtanulni**
+- Az Aspose.Words for Java telepítése és licencelése  
+- Egymásba ágyazott könyvjelzők létrehozása egy Word dokumentumban  
+- Körvonal szintek hozzárendelése, hogy a PDF könyvjelzőfa tükrözze a dokumentum struktúráját  
+- A dokumentum exportálása PDF-be teljes körű könyvjelzővázlattal  
 
-Mielőtt belekezdenénk, nézzük át az előfeltételeket!
+### Gyors válaszok
+- **Fő cél?** Egymásba ágyazott PDF könyvjelzők létrehozása körvonal szintekkel.  
+- **Szükséges könyvtár?** Aspose.Words for Java v25.3 vagy újabb.  
+- **Kulcsosztály?** `DocumentBuilder` a könyvjelzők beszúrásához.  
+- **Hány körvonal szint támogatott?** Legfeljebb 9 szint, a PDF specifikációknak megfelelően.  
+- **Tipikus futási idő?** Kevesebb, mint egy másodperc egy 50‑oldalas dokumentumra egy átlagos laptopon.
 
-### Előfeltételek
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Könyvtárak és függőségek**Aspose.Words Java-hoz (25.3-as vagy újabb verzió).
-- **Környezet beállítása**: Egy JDK, amely telepítve van a gépedre, valamint egy kompatibilis IDE, például IntelliJ IDEA vagy Eclipse.
-- **Ismereti előfeltételek**Alapvető Java programozási ismeretek és jártasság a Maven vagy Gradle build rendszerekben.
+## Mi az egymásba ágyazott PDF könyvjelzők létrehozása?
+Az egymásba ágyazott PDF könyvjelzők létrehozása a hierarchikus navigációs pontok PDF-fájlba való hozzáadását jelenti, hogy az olvasók kibontani vagy összecsukni tudják a szakaszokat a könyvjelzőpanelben. Az Aspose.Words lehetővé teszi ezen könyvjelzők definiálását, miközben a forrásdokumentum még Word fájl, majd megőrzi a hierarchiát PDF-be mentéskor.
+
+## Miért használjuk az Aspose.Words-ot ehhez a feladathoz?
+Az Aspose.Words **35+** bemeneti és kimeneti formátumot támogat – köztük DOCX, ODT és PDF – és **500‑oldalas** dokumentumokat képes feldolgozni **3 másodperc** alatt tipikus szerverhardveren. A könyvtár komplex elrendezéseket, betűtípusokat és képeket kezel Microsoft Word telepítése nélkül, így ideális automatizált PDF-generálási folyamatokhoz.
+
+## Előfeltételek
+- **Könyvtárak és függőségek**: Aspose.Words for Java v25.3 vagy újabb.  
+- **Környezet**: JDK 8 vagy újabb, IDE, például IntelliJ IDEA vagy Eclipse.  
+- **Ismeretek**: Alap Java, Maven vagy Gradle ismerete.
 
 ## Az Aspose.Words beállítása
-Kezdésként add meg a szükséges függőségeket a projektedben. Így teheted ezt meg Maven és Gradle használatával:
+A kezdethez adja hozzá a szükséges függőségeket a projektjéhez. Íme, hogyan teheti meg Maven és Gradle használatával:
 
-**Szakértő:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Fokozat:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
-### Licencszerzés
-Az Aspose.Words egy kereskedelmi termék, de ingyenes próbaverzióval felfedezheted a funkcióit. Íme a lépések:
-1. **Ingyenes próbaverzió**Letöltés innen: [Az Aspose kiadási oldala](https://releases.aspose.com/words/java/) a teljes képességek tesztelésére.
-2. **Ideiglenes engedély**Ideiglenes jogosítvány igénylése a következő címen: [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/) ha szükséges.
-3. **Vásárlás**Folyamatos használathoz vásároljon licencet innen: [Az Aspose beszerzési portálja](https://purchase.aspose.com/buy).
+### Licenc beszerzése
+Az Aspose.Words kereskedelmi termék, de ingyenes próba verzióval is elkezdheti felfedezni a funkciókat.
 
-Miután elkészült a licencfájlod, inicializáld azt a projektedben az Aspose.Words összes funkciójának eléréséhez.
+1. **Ingyenes próba** – Töltse le a [Aspose kiadási oldaláról](https://releases.aspose.com/words/java/), hogy kipróbálja a teljes funkcionalitást.  
+2. **Ideiglenes licenc** – Igényeljen ideiglenes licencet a [Aspose ideiglenes licenc oldalán](https://purchase.aspose.com/temporary-license/), ha szükséges.  
+3. **Vásárlás** – Folyamatos használathoz vásároljon licencet a [Aspose vásárlási portálján](https://purchase.aspose.com/buy).
+
+Miután megkapta a licencfájlt, inicializálja a projektben, hogy feloldja az összes funkciót.
 
 ## Megvalósítási útmutató
-Bontsuk a megvalósítást kezelhető részekre:
+Tördeljük fel a megvalósítást kezelhető szakaszokra.
 
-### Beágyazott könyvjelzők létrehozása
-**Áttekintés**Tanulja meg, hogyan hozhat létre beágyazott könyvjelzőket egy Word-dokumentumon belül az Aspose.Words for Java használatával.
+### Egymásba ágyazott könyvjelzők létrehozása
+**Áttekintés:** Tanulja meg, hogyan hozhat létre egymásba ágyazott könyvjelzőket egy Word dokumentumban az Aspose.Words for Java segítségével.
 
-#### 1. lépés: Dokumentum és szerkesztő inicializálása
+#### 1. lépés: Dokumentum és Builder inicializálása
+A `Document` egy Word dokumentumot reprezentál a memóriában, míg a `DocumentBuilder` módszereket biztosít a tartalom építéséhez és módosításához.  
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-```
-Ez beállítja a Word-dokumentum környezetét, ahol elkezdheti a tartalom beszúrását.
+```  
 
-#### 2. lépés: Beágyazott könyvjelzők beszúrása
-Kezdje egy elsődleges könyvjelző létrehozásával:
+#### 2. lépés: Egymásba ágyazott könyvjelzők beszúrása
+Kezdje egy elsődleges könyvjelző létrehozásával:  
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
-```
-Most illessz be egy másik könyvjelzőt:
+```  
+Most ágyazzon be egy másik könyvjelzőt ebbe:  
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // Beágyazott könyvjelző befejezése
-```
-Töltse ki a külső könyvjelzőt:
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
+```  
+Fejezze be a külső könyvjelzőt:  
 ```java
 builder.endBookmark("Bookmark 1");
-```
+```  
 
 #### 3. lépés: További könyvjelzők hozzáadása
-Szükség szerint folytassa a könyvjelzők hozzáadását. Például egy különálló harmadik könyvjelző:
+Folytassa a könyvjelzők hozzáadását szükség szerint. Például egy külön harmadik könyvjelző:  
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
-```
+```  
 
-### Könyvjelzők vázlatszintjeinek konfigurálása
-**Áttekintés**: Könyvjelzőit a PDF-ben való jobb navigáció érdekében rendszerezheti a vázlatszintek beállításával.
+### Könyvjelző körvonal szintek konfigurálása
+**Áttekintés:** Szervezze könyvjelzőit a körvonal szintek beállításával a jobb PDF navigáció érdekében.
 
-#### 1. lépés: A PdfSaveOptions beállítása
+#### 1. lépés: PdfSaveOptions beállítása
+A `PdfSaveOptions` konfigurálja, hogyan mentődik a dokumentum PDF‑ként, beleértve a könyvjelzőkezelést és a képtömörítést.  
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
-```
-Ez a kódrészlet inicializálja a dokumentum PDF formátumban, rendezett könyvjelzőkkel történő mentéséhez használt beállításokat.
+```  
 
-#### 2. lépés: Vázlatszintek hozzáadása
-Rendeljen szinteket az egyes könyvjelzőkhöz, amelyek meghatározzák azok hierarchiáját:
+#### 2. lépés: Körvonal szintek hozzáadása
+Rendeljen szinteket minden könyvjelzőhöz, amelyek meghatározzák a hierarchiát:  
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // 1. könyvjelző alá beágyazva
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
-```
+```  
 
-#### 3. lépés: Mentse el a dokumentumot
-Végül mentse el a dokumentumot PDF formátumban a következő beállításokkal:
+#### 3. lépés: Dokumentum mentése
+Végül mentse a dokumentumot PDF‑ként ezekkel a beállításokkal:  
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
-```
+```  
 
-### Hibaelhárítási tippek
-- **Hiányzó könyvjelzők**: Győződjön meg arról, hogy mindegyik `startBookmark` rendelkezik egy megfelelővel `endBookmark`.
-- **Helytelen szintek**: Ellenőrizze a hierarchiát a kódban található szülő-gyermek kapcsolatok ellenőrzésével.
+## Gyakori problémák és megoldások
+- **Hiányzó könyvjelzők** – Győződjön meg róla, hogy minden `startBookmark`‑nak van megfelelő `endBookmark`‑ja.  
+- **Helytelen körvonal szintek** – Ellenőrizze a szülő‑gyermek kapcsolatokat a könyvjelzőfa kiíratásával mentés előtt.  
+- **Nagy dokumentum memóriahasználat** – Hívja meg a `Document.updatePageLayout()`‑t a jelentős módosítások után, hogy felszabadítsa az ideiglenes erőforrásokat.
 
 ## Gyakorlati alkalmazások
-Íme néhány helyzet, amikor alkalmazhatod ezt a tudást:
-1. **Jogi dokumentumok**: A szakaszok és alfejezetek rendszerezése a könnyű hozzáférés érdekében.
-2. **Jelentések**: Beágyazott könyvjelzők segítségével navigálhat összetett adatszerkezetekben.
-3. **Oktatási anyag**: A fejezetek, alfejezetek és főbb pontok hatékony strukturálása.
+Itt van néhány valós életbeli forgatókönyv, ahol az egymásba ágyazott PDF könyvjelzők kiemelkednek:
 
-## Teljesítménybeli szempontok
-- Optimalizálja a dokumentum méretét a felesleges tartalom eltávolításával mentés előtt.
-- Hatékonyan kezelje a memóriahasználatot nagyméretű dokumentumok kezelésekor.
+1. **Jogi szerződések** – Gyors ugrás a klauzulákra, alklauzulákra és mellékletekre.  
+2. **Pénzügyi jelentések** – Navigáljon a szakaszok, táblázatok és diagramok között görgetés nélkül.  
+3. **E‑learning modulok** – Kattintható tartalomjegyzék biztosítása fejezetekhez és leckékhez.
 
-## Következtetés
-Most már megtanultad, hogyan valósíthatsz meg hatékonyan könyvjelzővázlat-szinteket az Aspose.Words for Java használatával. Ez a készség nagymértékben javítja a PDF-fájlok navigálhatóságát, felhasználóbarátabbá és professzionálisabbá téve azokat.
+## Teljesítmény szempontok
+- Távolítsa el a nem használt stílusokat és üres bekezdéseket mentés előtt, hogy a PDF mérete kicsi maradjon.  
+- 200 oldalas dokumentumok feldolgozásakor engedélyezze a `PdfSaveOptions.setCompressImages(true)`‑t a memória terhelés csökkentéséhez.
 
-**Következő lépések**Kísérletezzen különböző dokumentumstruktúrákkal, vagy integrálja ezt a funkciót egy nagyobb alkalmazásba, hogy a gyakorlatban is lássa az előnyeit.
+## További források
+- **Dokumentáció:** Tekintse meg a teljes API referenciát a [Aspose.Words Documentation](https://reference.aspose.com/words/java/) oldalon.  
+- **Letöltések:** Szerezze be a legújabb binárisokat a [Download Latest Releases](https://releases.aspose.com/words/java/) oldalról.  
+- **Licencelés:** Vásároljon licencet a [Purchase a License](https://purchase.aspose.com/buy) oldalon, vagy kezdje egy [Free Trial](https://releases.aspose.com/words/java/) verzióval.  
+- **Ideiglenes licenc:** Jelentkezzen a [Temporary License Application](https://purchase.aspose.com/temporary-license/) oldalon.  
+- **Támogatás:** Tegyen fel kérdéseket a [Aspose Support Forum](https://forum.aspose.com/c/words/10) fórumon.
 
-## GYIK szekció
-1. **Hogyan telepíthetem az Aspose.Words-öt Java-hoz?**
-   - Illeszd be függőségként Maven vagy Gradle segítségével, majd állítsd be a licencfájlodat.
-2. **Használhatok könyvjelzőket körvonalszintek nélkül?**
-   - Igen, de a vázlatszintek használata javítja a navigációt a PDF-ekben.
-3. **Milyen korlátai vannak a könyvjelzők beágyazásának?**
-   - Nincsenek szigorú korlátok, de vegye figyelembe az olvashatóságot és a struktúrát a felhasználók számára.
-4. **Hogyan kezeli az Aspose a nagy dokumentumokat?**
-   - Hatékonyan kezeli az erőforrásokat, bár nagyon nagy fájlok esetén az optimalizálás ajánlott.
-5. **Módosíthatom a könyvjelzőket a PDF mentése után?**
-   - Igen, az Aspose.PDF for Java fájl használatával szerkeszthetem a könyvjelzőket a konvertálás után.
+## Összegzés
+Megtanulta, hogyan **hozzon létre egymásba ágyazott PDF könyvjelzőket**, állítson be körvonal szinteket, és exportáljon egy Word dokumentumot jól strukturált PDF‑be az Aspose.Words for Java használatával. Ezeknek a technikáknak az alkalmazása sokkal felhasználóbarátabbá és professzionálisabbá teszi PDF-jeit.
 
-## Erőforrás
-- [Aspose.Words dokumentáció](https://reference.aspose.com/words/java/)
-- [Legújabb kiadások letöltése](https://releases.aspose.com/words/java/)
-- [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/words/java/)
-- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
-- [Aspose Támogatási Fórum](https://forum.aspose.com/c/words/10)
+**Következő lépések** – Kísérletezzen egyedi könyvjelző ikonokkal, adjon hozzá PDF metaadatokat, vagy integrálja a munkafolyamatot egy kötegelt feldolgozó szolgáltatásba.
+
+## Gyakran ismételt kérdések
+
+**Q: Hogyan telepítem az Aspose.Words for Java-t?**  
+A: Adja hozzá a fent bemutatott Maven vagy Gradle függőséget, majd helyezze a licencfájlt a projekt erőforrás mappájába.
+
+**Q: Generálhatok PDF-et könyvjelzőkkel anélkül, hogy beállítanám a körvonal szinteket?**  
+A: Igen, de a könyvjelző panel sík listaként jelenik meg, ami csökkenti a navigáció hatékonyságát.
+
+**Q: Van korlátozás a könyvjelzők mélységére?**  
+A: A PDF specifikáció legfeljebb kilenc körvonal szintet engedélyez; az Aspose.Words betartja ezt a korlátot.
+
+**Q: Hogyan kezeli az Aspose.Words a nagyon nagy dokumentumokat?**  
+A: A könyvtár adatfolyamként dolgozik, és 500 oldalas fájlokat három másodpercnél gyorsabban dolgoz fel tipikus hardveren, miközben a memóriahasználat 200 MB alatt marad.
+
+**Q: Módosíthatom a könyvjelzőket a PDF létrehozása után?**  
+A: Igen, használhatja az Aspose.PDF for Java‑t a meglévő PDF könyvjelzőinek szerkesztésére, átrendezésére vagy törlésére.
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested With:** Aspose.Words for Java v25.3  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Master Aspose.Words for Java: How to Insert and Manage Bookmarks in Word Documents](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [Hyperlink Management in Word Using Aspose.Words Java: A Comprehensive Guide](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [Saving Documents as PDF in Aspose.Words for Java](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

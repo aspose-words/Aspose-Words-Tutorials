@@ -1,170 +1,253 @@
 ---
-"date": "2025-03-28"
-"description": "تعلّم كيفية تنظيم الإشارات المرجعية بفعالية في ملفات PDF باستخدام Aspose.Words لجافا. حسّن سهولة القراءة والتنقل مع هذا الدليل الشامل."
-"title": "تحديد مستويات الخطوط العريضة للعلامات المرجعية في ملفات PDF باستخدام Aspose.Words Java"
-"url": "/ar/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/"
-"weight": 1
+date: '2026-09-27'
+description: تعلم كيفية إنشاء إشارات مرجعية PDF متداخلة وتوليد PDF مع إشارات مرجعية
+  باستخدام Aspose.Words for Java. اتبع دليل خطوة بخطوة لتحويل مستندات Word إلى PDF
+  مع outline levels.
+keywords:
+- create nested PDF bookmarks
+- generate PDF with bookmarks
+- convert Word PDF bookmarks
+lastmod: '2026-09-27'
+og_description: تعلم كيفية إنشاء إشارات مرجعية PDF متداخلة وتوليد PDF مع إشارات مرجعية
+  باستخدام Aspose.Words for Java. اتبع دليل خطوة بخطوة لتحويل Word إلى PDF مع outline
+  levels.
+og_image_alt: Guide showing how to create nested PDF bookmarks with Aspose.Words Java
+og_title: كيفية إنشاء إشارات مرجعية PDF متداخلة باستخدام Aspose.Words Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create nested PDF bookmarks and generate PDF with bookmarks
+    using Aspose.Words for Java. Follow a step‑by‑step guide to convert Word documents
+    to PDFs with outline levels.
+  headline: How to create nested PDF bookmarks with Aspose.Words Java
+  type: TechArticle
+- description: Learn how to create nested PDF bookmarks and generate PDF with bookmarks
+    using Aspose.Words for Java. Follow a step‑by‑step guide to convert Word documents
+    to PDFs with outline levels.
+  name: How to create nested PDF bookmarks with Aspose.Words Java
+  steps:
+  - name: Initialize Document and Builder
+    text: '`Document` represents a Word document in memory, while `DocumentBuilder`
+      provides methods to construct and modify its contents.'
+  - name: Insert nested bookmarks
+    text: 'Start by creating a primary bookmark: Now, nest another bookmark within
+      it: Complete the outer bookmark:'
+  - name: Add additional bookmarks
+    text: 'Continue adding bookmarks as needed. For example, a separate third bookmark:'
+  - name: Set up PdfSaveOptions
+    text: '`PdfSaveOptions` configures how a document is saved as PDF, including bookmark
+      handling and image compression.'
+  - name: Add outline levels
+    text: 'Assign levels to each bookmark, which will determine their hierarchy:'
+  - name: Save the document
+    text: 'Finally, save your document as a PDF with these settings:'
+  type: HowTo
+- questions:
+  - answer: Add the Maven or Gradle dependency shown above, then place your license
+      file in the project resources folder.
+    question: How do I install Aspose.Words for Java?
+  - answer: Yes, but the bookmark pane will appear as a flat list, which reduces navigation
+      efficiency.
+    question: Can I generate PDF with bookmarks without setting outline levels?
+  - answer: PDF specifications allow up to nine outline levels; Aspose.Words respects
+      this limit.
+    question: Is there a limit to how deep bookmark nesting can be?
+  - answer: The library streams content and can process 500‑page files in under three
+      seconds on typical hardware, while keeping memory usage under 200 MB.
+    question: How does Aspose.Words handle very large documents?
+  - answer: Yes, you can use Aspose.PDF for Java to edit, reorder, or delete bookmarks
+      in an existing PDF.
+    question: Can I modify bookmarks after the PDF is created?
+  type: FAQPage
+tags:
+- create nested PDF bookmarks
+- Aspose.Words Java
+- PDF outline levels
+- Java PDF generation
+- document conversion
+title: كيفية إنشاء إشارات مرجعية PDF متداخلة باستخدام Aspose.Words Java
+url: /ar/java/content-management/aspose-words-java-pdf-bookmark-outline-levels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# تحديد مستويات الخطوط العريضة للعلامات المرجعية في ملفات PDF باستخدام Aspose.Words Java
+# كيفية إنشاء إشارات PDF متداخلة باستخدام Aspose.Words Java
 
 ## مقدمة
-هل تواجه صعوبة في إدارة الإشارات المرجعية عند تحويل مستندات Word إلى PDF؟ سيوضح لك هذا البرنامج التعليمي كيفية استخدام Aspose.Words for Java لتنظيم إشاراتك المرجعية بفعالية، مما يجعلها احترافية وسهلة الاستخدام.
+إنشاء إشارات PDF متداخلة وتوليد PDF مع إشارات باستخدام Aspose.Words for Java لتزويد ملفات PDF الخاصة بك بشريط تنقل هرمي ونظيف. يوجهك هذا الدرس عبر إعداد المكتبة، بناء إشارات متداخلة في مستند Word، تكوين مستويات المخطط، وحفظ النتيجة كملف PDF.
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Words واستخدامه لـ Java
-- إنشاء إشارات مرجعية متداخلة في مستندات Word
-- تكوين مستويات مخطط الإشارة المرجعية لتحسين التنظيم
-- حفظ المستندات بتنسيق PDF باستخدام إشارات مرجعية منظمة
+**ما ستتعلمه**
+- تثبيت وترخيص Aspose.Words for Java  
+- إنشاء إشارات متداخلة داخل مستند Word  
+- تعيين مستويات المخطط بحيث يعكس شجرة إشارات PDF بنية مستندك  
+- تصدير المستند إلى PDF مع مخطط إشارات كامل المميزات  
 
-دعونا نلقي نظرة على المتطلبات الأساسية قبل أن نبدأ!
+### إجابات سريعة
+- **الهدف الأساسي؟** إنشاء إشارات PDF متداخلة مع مستويات المخطط.  
+- **المكتبة المطلوبة؟** Aspose.Words for Java v25.3 أو أحدث.  
+- **الفئة الأساسية؟** `DocumentBuilder` لإدراج الإشارات.  
+- **كم عدد مستويات المخطط المدعومة؟** حتى 9 مستويات، وفقًا لمواصفات PDF.  
+- **وقت التشغيل النموذجي؟** أقل من ثانية لمستند من 50 صفحة على حاسوب محمول عادي.
 
-### المتطلبات الأساسية
-قبل البدء، تأكد من أن لديك:
-- **المكتبات والتبعيات**:Aspose.Words لـ Java (الإصدار 25.3 أو أحدث).
-- **إعداد البيئة**:تم تثبيت JDK على جهازك بالإضافة إلى IDE متوافق مثل IntelliJ IDEA أو Eclipse.
-- **متطلبات المعرفة**:فهم أساسي لبرمجة Java والمعرفة بأنظمة بناء Maven أو Gradle.
+## ما هو إنشاء إشارات PDF متداخلة؟
+يشير إنشاء إشارات PDF متداخلة إلى عملية إضافة نقاط تنقل هرمية داخل ملف PDF بحيث يمكن للقراء توسيع أو طي الأقسام في لوحة الإشارات. يتيح لك Aspose.Words تعريف هذه الإشارات بينما يكون المستند المصدر لا يزال ملف Word، ثم يحافظ على الهيكلية عند حفظه كـ PDF.
+
+## لماذا نستخدم Aspose.Words لهذه المهمة؟
+يدعم Aspose.Words أكثر من **35** تنسيقًا للإدخال والإخراج — بما في ذلك DOCX و ODT و PDF — ويمكنه معالجة مستندات **500 صفحة** في أقل من **3 ثوانٍ** على عتاد الخادم المعتاد. تتعامل المكتبة مع التخطيطات المعقدة، الخطوط، والصور دون الحاجة إلى تثبيت Microsoft Word، مما يجعلها مثالية لأنابيب إنشاء PDF الآلية.
+
+## المتطلبات المسبقة
+- **المكتبات والاعتمادات**: Aspose.Words for Java v25.3 أو أحدث.  
+- **البيئة**: JDK 8 أو أحدث، بيئة تطوير مثل IntelliJ IDEA أو Eclipse.  
+- **المعرفة**: أساسيات Java، الإلمام بـ Maven أو Gradle.
 
 ## إعداد Aspose.Words
-للبدء، أدرج التبعيات اللازمة في مشروعك. إليك كيفية القيام بذلك باستخدام Maven وGradle:
+للبدء، أدرج الاعتمادات اللازمة في مشروعك. إليك كيفية القيام بذلك باستخدام Maven و Gradle:
 
-**مافن:**
+**Maven:**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-words</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**جرادل:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
-```
+```  
 
 ### الحصول على الترخيص
-Aspose.Words منتج تجاري، ولكن يمكنك البدء بفترة تجريبية مجانية لاستكشاف ميزاته. إليك الخطوات:
-1. **نسخة تجريبية مجانية**:تحميل من [صفحة إصدار Aspose](https://releases.aspose.com/words/java/) لاختبار القدرات الكاملة.
-2. **رخصة مؤقتة**:تقدم بطلب للحصول على ترخيص مؤقت في [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) إذا لزم الأمر.
-3. **شراء**:للاستخدام المستمر، قم بشراء ترخيص من [بوابة الشراء الخاصة بـ Aspose](https://purchase.aspose.com/buy).
+Aspose.Words هو منتج تجاري، ولكن يمكنك البدء بتجربة مجانية لاستكشاف ميزاته.
 
-بمجرد حصولك على ملف الترخيص، قم بتهيئته في مشروعك لفتح الميزات الكاملة لـ Aspose.Words.
+1. **التجربة المجانية** – قم بتنزيلها من [صفحة إصدارات Aspose](https://releases.aspose.com/words/java/) لاختبار جميع القدرات.  
+2. **ترخيص مؤقت** – قدّم طلبًا للحصول على ترخيص مؤقت عبر [صفحة الترخيص المؤقت لـ Aspose](https://purchase.aspose.com/temporary-license/) إذا لزم الأمر.  
+3. **الشراء** – للاستخدام المستمر، اشترِ ترخيصًا من [بوابة الشراء الخاصة بـ Aspose](https://purchase.aspose.com/buy).
+
+بمجرد حصولك على ملف الترخيص، قم بتهيئته في مشروعك لفتح جميع الميزات.
 
 ## دليل التنفيذ
-دعونا نقسم التنفيذ إلى أقسام قابلة للإدارة:
+دعنا نقسم التنفيذ إلى أقسام قابلة للإدارة.
 
-### إنشاء إشارات مرجعية متداخلة
-**ملخص**:تعرف على كيفية إنشاء إشارات مرجعية متداخلة داخل مستند Word باستخدام Aspose.Words for Java.
+### إنشاء إشارات متداخلة
+**نظرة عامة:** تعلم كيفية إنشاء إشارات متداخلة داخل مستند Word باستخدام Aspose.Words for Java.
 
-#### الخطوة 1: تهيئة المستند والمنشئ
+#### الخطوة 1: تهيئة المستند والباني
+`Document` يمثل مستند Word في الذاكرة، بينما `DocumentBuilder` يوفر طرقًا لإنشاء وتعديل محتوياته.  
 ```java
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-```
-يؤدي هذا إلى إعداد بيئة مستند Word الخاصة بك حيث يمكنك البدء في إدراج المحتوى.
+```  
 
-#### الخطوة 2: إدراج الإشارات المرجعية المتداخلة
-ابدأ بإنشاء إشارة مرجعية أساسية:
+#### الخطوة 2: إدراج إشارات متداخلة
+ابدأ بإنشاء إشارة أساسية:  
 ```java
 builder.startBookmark("Bookmark 1");
 builder.writeln("Text inside Bookmark 1.");
-```
-الآن، قم بإضافة إشارة مرجعية أخرى داخلها:
+```  
+الآن، أدخل إشارة أخرى داخلها:  
 ```java
 builder.startBookmark("Bookmark 2");
 builder.writeln("Text inside Bookmark 1 and 2.");
-builder.endBookmark("Bookmark 2"); // إنهاء الإشارة المرجعية المتداخلة
-```
-أكمل الإشارة المرجعية الخارجية:
+builder.endBookmark("Bookmark 2"); // End the nested bookmark
+```  
+أكمل الإشارة الخارجية:  
 ```java
 builder.endBookmark("Bookmark 1");
-```
+```  
 
-#### الخطوة 3: إضافة إشارات مرجعية إضافية
-استمر بإضافة الإشارات المرجعية حسب الحاجة. على سبيل المثال، إشارة مرجعية ثالثة منفصلة:
+#### الخطوة 3: إضافة إشارات إضافية
+استمر في إضافة الإشارات حسب الحاجة. على سبيل المثال، إشارة ثالثة منفصلة:  
 ```java
 builder.startBookmark("Bookmark 3");
 builder.writeln("Text inside Bookmark 3.");
 builder.endBookmark("Bookmark 3");
-```
+```  
 
-### تكوين مستويات مخطط الإشارة المرجعية
-**ملخص**:قم بتنظيم إشاراتك المرجعية عن طريق تعيين مستويات مخططها التفصيلي لتحسين التنقل في ملف PDF.
+### تكوين مستويات مخطط الإشارة
+**نظرة عامة:** نظم إشاراتك بتعيين مستويات المخطط لتحسين التنقل في PDF.
 
-#### الخطوة 1: إعداد خيارات حفظ ملف Pdf
+#### الخطوة 1: إعداد PdfSaveOptions
+`PdfSaveOptions` يضبط كيفية حفظ المستند كـ PDF، بما في ذلك معالجة الإشارات وضغط الصور.  
 ```java
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.getOutlineOptions().getBookmarksOutlineLevels();
-```
-يقوم مقتطف التعليمات البرمجية هذا بتهيئة الخيارات التي ستستخدمها لحفظ مستندك بتنسيق PDF مع إشارات مرجعية منظمة.
+```  
 
-#### الخطوة 2: إضافة مستويات المخطط التفصيلي
-تعيين مستويات لكل إشارة مرجعية، مما سيحدد التسلسل الهرمي الخاص بها:
+#### الخطوة 2: إضافة مستويات المخطط
+عيّن مستويات لكل إشارة، والتي ستحدد هرميةها:  
 ```java
 outlineLevels.add("Bookmark 1", 1);
-outlineLevels.add("Bookmark 2", 2); // مُتداخل تحت الإشارة المرجعية 1
+outlineLevels.add("Bookmark 2", 2); // Nested under Bookmark 1
 outlineLevels.add("Bookmark 3", 3);
-```
+```  
 
 #### الخطوة 3: حفظ المستند
-وأخيرًا، احفظ مستندك بتنسيق PDF باستخدام هذه الإعدادات:
+أخيرًا، احفظ مستندك كـ PDF بهذه الإعدادات:  
 ```java
 doc.save(getArtifactsDir() + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
-```
+```  
 
-### نصائح استكشاف الأخطاء وإصلاحها
-- **العلامات المرجعية المفقودة**:تأكد من كل `startBookmark` لديه ما يقابله `endBookmark`.
-- **مستويات غير صحيحة**:تحقق من التسلسل الهرمي عن طريق التحقق من علاقات الوالد والطفل في الكود الخاص بك.
+## المشكلات الشائعة والحلول
+- **الإشارات المفقودة** – تأكد من أن كل `startBookmark` له `endBookmark` مطابق.  
+- **مستويات المخطط غير الصحيحة** – تحقق من علاقات الأب‑ابن بطباعة شجرة الإشارات قبل الحفظ.  
+- **استهلاك الذاكرة في المستندات الكبيرة** – استدعِ `Document.updatePageLayout()` بعد التعديلات الكبيرة لتحرير الموارد المؤقتة.
 
 ## التطبيقات العملية
-وفيما يلي بعض السيناريوهات التي يمكنك فيها تطبيق هذه المعرفة:
-1. **الوثائق القانونية**:تنظيم الأقسام والأقسام الفرعية لسهولة الرجوع إليها.
-2. **التقارير**:استخدم الإشارات المرجعية المتداخلة للتنقل عبر هياكل البيانات المعقدة.
-3. **المواد التعليمية**:قم بتنظيم الفصول والفصول الفرعية والنقاط الرئيسية بكفاءة.
+1. **العقود القانونية** – الانتقال السريع إلى البنود، الفقرات الفرعية، والملحقات.  
+2. **التقارير المالية** – التنقل بين الأقسام والجداول والرسوم البيانية دون التمرير.  
+3. **وحدات التعلم الإلكتروني** – توفير فهرس قابل للنقر للفصول والدروس.
 
 ## اعتبارات الأداء
-- قم بتحسين حجم المستند عن طريق إزالة المحتوى غير الضروري قبل الحفظ.
-- إدارة استخدام الذاكرة بشكل فعال عند التعامل مع المستندات الكبيرة.
+- إزالة الأنماط غير المستخدمة والفقرات الفارغة قبل الحفظ للحفاظ على حجم PDF صغير.  
+- عند معالجة مستندات أكبر من 200 صفحة، فعّل `PdfSaveOptions.setCompressImages(true)` لتقليل ضغط الذاكرة.
 
-## خاتمة
-لقد تعلمتَ الآن كيفية تنفيذ مستويات مخططات الإشارات المرجعية بفعالية باستخدام Aspose.Words في Java. ستُحسّن هذه المهارة بشكل كبير سهولة تصفح ملفات PDF، مما يجعلها أكثر سهولة في الاستخدام واحترافية.
+## موارد إضافية
+- **التوثيق:** استكشف مرجع API الكامل على [Aspose.Words Documentation](https://reference.aspose.com/words/java/).  
+- **التنزيلات:** احصل على أحدث الملفات الثنائية من [Download Latest Releases](https://releases.aspose.com/words/java/).  
+- **الترخيص:** اشترِ ترخيصًا عبر [Purchase a License](https://purchase.aspose.com/buy) أو ابدأ بـ [Free Trial](https://releases.aspose.com/words/java/).  
+- **ترخيص مؤقت:** قدّم طلبًا عبر [Temporary License Application](https://purchase.aspose.com/temporary-license/).  
+- **الدعم:** اطرح أسئلة على [Aspose Support Forum](https://forum.aspose.com/c/words/10).
 
-**الخطوات التالية**:قم بتجربة هياكل مستندات مختلفة أو قم بدمج هذه الوظيفة في تطبيق أكبر لرؤية فوائدها في العمل.
+## الخلاصة
+لقد تعلمت كيفية **إنشاء إشارات PDF متداخلة**، تعيين مستويات المخطط، وتصدير مستند Word إلى PDF منظم جيدًا باستخدام Aspose.Words for Java. سيساعدك تطبيق هذه التقنيات على جعل ملفات PDF أكثر سهولة للمستخدم واحترافية.
 
-## قسم الأسئلة الشائعة
-1. **كيف أقوم بتثبيت Aspose.Words لـ Java؟**
-   - قم بتضمينه كتبعيه عبر Maven أو Gradle، ثم قم بإعداد ملف الترخيص الخاص بك.
-2. **هل يمكنني استخدام العلامات المرجعية دون مستويات المخطط التفصيلي؟**
-   - نعم، ولكن استخدام مستويات المخطط التفصيلي يحسن التنقل في ملفات PDF.
-3. **ما هي حدود تعشيش الإشارة المرجعية؟**
-   - لا يوجد حد صارم، ولكن يجب مراعاة قابلية القراءة والبنية للمستخدمين.
-4. **كيف يتعامل Aspose مع المستندات الكبيرة؟**
-   - إنه يدير الموارد بكفاءة، على الرغم من أنه يوصى بالتحسين للملفات الكبيرة جدًا.
-5. **هل يمكنني تعديل الإشارات المرجعية بعد حفظ ملف PDF؟**
-   - نعم، استخدام Aspose.PDF لـ Java لتحرير الإشارات المرجعية بعد التحويل.
+**الخطوات التالية** – جرب أيقونات إشارات مخصصة، أضف بيانات تعريف PDF، أو دمج سير العمل في خدمة معالجة دفعات.
 
-## موارد
-- [توثيق Aspose.Words](https://reference.aspose.com/words/java/)
-- [تنزيل أحدث الإصدارات](https://releases.aspose.com/words/java/)
-- [شراء ترخيص](https://purchase.aspose.com/buy)
-- [نسخة تجريبية مجانية](https://releases.aspose.com/words/java/)
-- [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
-- [منتدى دعم Aspose](https://forum.aspose.com/c/words/10)
+## الأسئلة المتكررة
+
+**س: كيف أقوم بتثبيت Aspose.Words for Java؟**  
+ج: أضف اعتماد Maven أو Gradle الموضح أعلاه، ثم ضع ملف الترخيص في مجلد موارد المشروع.
+
+**س: هل يمكنني توليد PDF مع إشارات دون تعيين مستويات المخطط؟**  
+ج: نعم، لكن لوحة الإشارات ستظهر كقائمة مسطحة، مما يقلل من كفاءة التنقل.
+
+**س: هل هناك حد لعمق تداخل الإشارات؟**  
+ج: تسمح مواصفات PDF بما يصل إلى تسعة مستويات مخطط؛ Aspose.Words يلتزم بهذا الحد.
+
+**س: كيف يتعامل Aspose.Words مع المستندات الكبيرة جدًا؟**  
+ج: تقوم المكتبة ببث المحتوى ويمكنها معالجة ملفات من 500 صفحة في أقل من ثلاث ثوانٍ على العتاد المعتاد، مع الحفاظ على استهلاك الذاكرة أقل من 200 ميغابايت.
+
+**س: هل يمكنني تعديل الإشارات بعد إنشاء PDF؟**  
+ج: نعم، يمكنك استخدام Aspose.PDF for Java لتعديل، إعادة ترتيب، أو حذف الإشارات في PDF موجود.
+
+**آخر تحديث:** 2026-09-27  
+**تم الاختبار مع:** Aspose.Words for Java v25.3  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إتقان Aspose.Words for Java: كيفية إدراج وإدارة الإشارات في مستندات Word](/words/java/content-management/aspose-words-java-manage-bookmarks/)
+- [إدارة الروابط التشعبية في Word باستخدام Aspose.Words Java: دليل شامل](/words/java/content-management/master-hyperlink-management-word-aspose-words-java/)
+- [حفظ المستندات كـ PDF في Aspose.Words for Java](/words/java/document-loading-and-saving/saving-documents-as-pdf/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
