@@ -46,6 +46,7 @@
 | [إنشاء مستند Word فارغ باستخدام Aspose.Words – دليل خطوة بخطوة](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | تعرف على كيفية إنشاء مستند Word فارغ باستخدام Aspose.Words خطوة بخطوة. |
 | [إنشاء شكل مستطيل، إضافة ظل وحفظ كملف PDF](./create-rectangle-shape-add-shadow-save-pdf/) |تعرف على كيفية إنشاء شكل مستطيل، إضافة ظل، وحفظ المستند كملف PDF باستخدام Aspose.Words for .NET. |
 | [إنشاء شكل مستطيل في Word – دليل كامل لـ Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | دليل شامل لإنشاء وتخصيص شكل مستطيل في مستندات Word باستخدام Aspose.Words خطوة بخطوة. |
+| [إنشاء مستند Word برمجيًا مع شكل مجموعة](./programmatically-create-a-word-document-with-a-group-shape/) | تعلم كيفية إنشاء مستند Word يحتوي على شكل مجموعة برمجيًا باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

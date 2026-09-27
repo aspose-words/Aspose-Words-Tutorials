@@ -49,6 +49,7 @@
 | [Aspose.Words के साथ खाली वर्ड दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aspose.Words का उपयोग करके .NET में एक खाली Word दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश। |
 | [आयत आकार बनाएं, छाया जोड़ें और PDF सहेजें](./create-rectangle-shape-add-shadow-save-pdf/) | Aspose.Words for .NET का उपयोग करके आयत आकार बनाएं, छाया लागू करें और दस्तावेज़ को PDF के रूप में सहेजें। |
 | [Word में आयत आकार बनाएं – पूर्ण Aspose.Words गाइड](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aspose.Words के साथ Word दस्तावेज़ में आयत आकार बनाने और अनुकूलित करने के लिए पूर्ण चरण‑दर‑शरण मार्गदर्शन। |
+| [प्रोग्रामेटिक रूप से समूह आकार के साथ Word दस्तावेज़ बनाएं](./programmatically-create-a-word-document-with-a-group-shape/) | Aspose.Words for .NET का उपयोग करके समूह आकार के साथ Word दस्तावेज़ को प्रोग्रामेटिक रूप से बनाने की प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
