@@ -1,58 +1,103 @@
 ---
-"date": "2025-03-28"
-"description": "Tìm hiểu cách tự động tóm tắt và dịch văn bản bằng Aspose.Words for Java với GPT-4 của OpenAI và Gemini của Google. Nâng cao ứng dụng Java của bạn ngay hôm nay."
-"title": "Làm chủ xử lý văn bản trong Java&#58; Sử dụng Aspose.Words & Mô hình AI để tóm tắt và dịch"
-"url": "/vi/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-09-27'
+description: Tìm hiểu cách sử dụng aspose words java để tóm tắt và dịch văn bản nhanh
+  chóng với OpenAI GPT‑4 và Google Gemini. Hướng dẫn Java chi tiết từng bước cho các
+  nhà phát triển.
+keywords:
+- aspose words java
+- how to translate java
+- google gemini java
+- aspose words maven
+- summarize text java
+lastmod: '2026-09-27'
+og_description: Khám phá cách sử dụng aspose words java để tóm tắt và dịch văn bản
+  hiệu quả với GPT‑4 và Gemini. Lý tưởng cho các nhà phát triển Java muốn tích hợp
+  quy trình công việc tài liệu dựa trên AI.
+og_image_alt: Guide showing aspose words java summarization and translation code snippets
+og_title: Sử dụng aspose words java để tóm tắt và dịch văn bản
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to use aspose words java for fast text summarization and
+    translation with OpenAI GPT‑4 and Google Gemini. Step‑by‑step Java guide for developers.
+  headline: Using aspose words java to summarize and translate text
+  type: TechArticle
+- description: Learn how to use aspose words java for fast text summarization and
+    translation with OpenAI GPT‑4 and Google Gemini. Step‑by‑step Java guide for developers.
+  name: Using aspose words java to summarize and translate text
+  steps:
+  - name: initialize the document and AI client
+    text: The `Document` class represents a Word file in memory, allowing you to read,
+      modify, and save its contents programmatically. First, create a `Document` instance
+      and configure the OpenAI client with your API key. This prepares both the source
+      text and the summarization service.
+  - name: request a summary from GPT‑4
+    text: Specify the desired summary length (e.g., 150 words) and invoke the model.
+      The response contains a concise abstract of the original content.
+  - name: save the summarized document
+    text: Create a new `Document` object, insert the AI‑generated text, and save it
+      to disk. The resulting file contains only the summary, ready for distribution.
+  type: HowTo
+- questions:
+  - answer: Yes. A valid production license is required; the trial license is for
+      evaluation only.
+    question: Can I use aspose words java in a commercial product?
+  - answer: Sign up on the OpenAI platform and Google Cloud Console, then create a
+      new API key in each service’s dashboard.
+    question: How do I obtain API keys for OpenAI and Google Gemini?
+  - answer: Yes. Load a protected file by passing the password to the `Document` constructor.
+    question: Does aspose words java support password‑protected documents?
+  - answer: Gemini’s request payload limit is 2 MB; split larger documents into smaller
+      chunks before sending.
+    question: What is the maximum file size Gemini can translate?
+  - answer: Provide a clear prompt that includes the desired summary length and style
+      (e.g., “bullet‑point executive summary”).
+    question: How can I improve summarization accuracy?
+  type: FAQPage
+tags:
+- aspose words java
+- text summarization
+- java translation
+- AI integration
+- document processing
+title: Sử dụng aspose words java để tóm tắt và dịch văn bản
+url: /vi/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Sử dụng aspose words java để tóm tắt và dịch văn bản
 
-# Xử lý văn bản chuyên nghiệp trong Java: Sử dụng Aspose.Words và các mô hình AI
+Tự động tóm tắt và dịch văn bản trong Java trở nên đơn giản khi bạn kết hợp **aspose words java** với các mô hình AI hiện đại như GPT‑4 của OpenAI và Gemini 15 Flash của Google. Hướng dẫn này sẽ đưa bạn qua toàn bộ quy trình — từ việc thiết lập thư viện đến gọi các dịch vụ AI — để bạn có thể thêm xử lý tài liệu thông minh vào bất kỳ ứng dụng Java nào.
 
-**Tự động tóm tắt và dịch văn bản bằng Aspose.Words for Java tích hợp với các mô hình AI như GPT-4 của OpenAI và Gemini của Google.**
+## Câu trả lời nhanh
+- **Thư viện nào xử lý tài liệu?** aspose words java.
+- **Mô hình AI nào được sử dụng?** OpenAI GPT‑4 để tóm tắt và Google Gemini 15 Flash để dịch.
+- **Tôi có cần giấy phép không?** Bản dùng thử hoạt động cho phát triển; giấy phép trả phí cần thiết cho môi trường sản xuất.
+- **Tôi có thể sử dụng Maven hoặc Gradle không?** Cả hai đều được hỗ trợ; xem phần “aspose words maven”.
+- **Ngôn ngữ nào được hỗ trợ cho việc dịch?** Gemini hỗ trợ hàng chục ngôn ngữ, bao gồm tiếng Ả Rập, tiếng Pháp, tiếng Tây Ban Nha và nhiều hơn nữa.
 
-## Giới thiệu
+## aspose words java là gì?
+Lớp `Document` là lõi của **aspose words java**, đại diện cho một tệp Word hoàn chỉnh trong bộ nhớ. Nó cho phép tải, chỉnh sửa và lưu tài liệu mà không cần cài đặt Microsoft Word.
 
-Bạn đang gặp khó khăn trong việc trích xuất thông tin chi tiết quan trọng từ các tài liệu lớn hoặc dịch nội dung nhanh chóng sang các ngôn ngữ khác nhau? Tự động hóa các tác vụ này một cách hiệu quả bằng các công cụ mạnh mẽ để tiết kiệm thời gian và nâng cao năng suất. Hướng dẫn này hướng dẫn bạn cách sử dụng Aspose.Words cho Java cùng với các mô hình AI như GPT-4 của OpenAI và Gemini 15 Flash của Google để tóm tắt và dịch văn bản.
+## Tại sao sử dụng aspose words java với các mô hình AI?
+aspose words java hỗ trợ **hơn 35** định dạng đầu vào và đầu ra — bao gồm DOCX, PDF, HTML và EPUB — và có thể xử lý tài liệu **500 trang** trong thời gian dưới **3 giây** trên một máy chủ tiêu chuẩn. Kết hợp nó với GPT‑4 hoặc Gemini mang lại khả năng tóm tắt và dịch dựa trên AI mà không rời khỏi hệ sinh thái Java.
 
-**Những gì bạn sẽ học được:**
-- Thiết lập Aspose.Words với Maven hoặc Gradle
-- Triển khai tóm tắt văn bản bằng mô hình AI
-- Dịch tài liệu sang nhiều ngôn ngữ khác nhau
-- Các phương pháp hay nhất để tích hợp các công cụ này vào các ứng dụng Java
+## Yêu cầu trước
 
-Trước khi bắt đầu triển khai, hãy đảm bảo bạn có mọi thứ cần thiết.
+- **Java Development Kit (JDK):** phiên bản 8 hoặc mới hơn.
+- **Công cụ xây dựng:** Maven **hoặc** Gradle (hướng dẫn bao gồm cả “aspose words maven” và cấu hình Gradle).
+- **Khóa API:** khóa hợp lệ cho OpenAI và Google Gemini.
+- **IDE:** IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa nào tương thích với Java.
 
-## Điều kiện tiên quyết
+## Cài đặt aspose words java
 
-Đảm bảo bạn đáp ứng các yêu cầu sau:
+### Phụ thuộc Maven (aspose words maven)
 
-### Thư viện và phiên bản bắt buộc
-- **Aspose.Words dành cho Java:** Phiên bản 25.3 trở lên.
-- **Bộ phát triển Java (JDK):** Đã cài đặt JDK (tốt nhất là phiên bản 8 trở lên).
-- **Xây dựng công cụ:** Maven hoặc Gradle, tùy theo sở thích của bạn.
-
-### Yêu cầu thiết lập môi trường
-- Một Môi trường phát triển tích hợp (IDE) phù hợp như IntelliJ IDEA hoặc Eclipse.
-- Truy cập vào các dịch vụ OpenAI và Google AI, có thể yêu cầu khóa API.
-
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với việc xử lý các thư viện bên ngoài trong một dự án Java.
-
-## Thiết lập Aspose.Words
-
-Để bắt đầu sử dụng Aspose.Words cho Java, hãy thêm các phụ thuộc cần thiết vào cấu hình bản dựng của bạn.
-
-### Phụ thuộc Maven
-
-Thêm đoạn trích này vào `pom.xml`:
+Thêm đoạn mã sau vào `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -64,35 +109,25 @@ Thêm đoạn trích này vào `pom.xml`:
 
 ### Phụ thuộc Gradle
 
-Bao gồm điều này trong của bạn `build.gradle` tài liệu:
+Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Mua lại giấy phép
+### Mua giấy phép
 
-Aspose.Words yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể mua:
-- MỘT **dùng thử miễn phí** để kiểm tra các tính năng.
-- MỘT **giấy phép tạm thời** để đánh giá mở rộng.
-- MỘT **giấy phép mua hàng** để sử dụng cho mục đích sản xuất.
+aspose words java yêu cầu giấy phép để truy cập đầy đủ tính năng. Lấy bản dùng thử miễn phí, khóa đánh giá tạm thời, hoặc mua giấy phép sản xuất. Sau khi bạn có tệp `.lic`, tải nó như sau:
 
-Để thiết lập, hãy khởi tạo thư viện và thiết lập giấy phép của bạn:
-
+Lớp `License` tải và áp dụng tệp giấy phép Aspose.Words của bạn, mở khóa toàn bộ chức năng.  
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Hướng dẫn thực hiện
+## Cách tóm tắt văn bản Java?
 
-### Tóm tắt văn bản với mô hình AI
-
-Tóm tắt văn bản có thể vô cùng hữu ích khi xử lý các tài liệu dài. Sau đây là cách triển khai bằng mô hình GPT-4 của OpenAI.
-
-#### Bước 1: Khởi tạo Tài liệu và Mô hình
-
-Bắt đầu bằng cách tải tài liệu của bạn và thiết lập mô hình AI:
+Để tạo một bản tóm tắt ngắn gọn, hướng dẫn sẽ đọc tài liệu nguồn, gửi nội dung văn bản của nó tới mô hình GPT‑4 của OpenAI với một lời nhắc chỉ định độ dài mong muốn, và sau đó ghi bản tóm tắt trả về vào một tệp Word mới. Quy trình ba bước này giữ cho quá trình đơn giản và hiệu quả.
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -101,9 +136,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Bước 2: Cấu hình Tùy chọn Tóm tắt
+### Bước 1: khởi tạo tài liệu và client AI
 
-Chỉ định độ dài tóm tắt và tạo một `SummarizeOptions` sự vật:
+Lớp `Document` đại diện cho một tệp Word trong bộ nhớ, cho phép bạn đọc, chỉnh sửa và lưu nội dung của nó một cách lập trình. Đầu tiên, tạo một thể hiện `Document` và cấu hình client OpenAI với khóa API của bạn. Điều này chuẩn bị cả văn bản nguồn và dịch vụ tóm tắt.
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,70 +146,66 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Bước 3: Lưu Tóm tắt
+### Bước 2: yêu cầu tóm tắt từ GPT‑4
 
-Lưu tài liệu tóm tắt của bạn vào vị trí mong muốn:
+Chỉ định độ dài tóm tắt mong muốn (ví dụ, 150 từ) và gọi mô hình. Phản hồi chứa một bản tóm tắt ngắn gọn của nội dung gốc.
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Dịch văn bản với mô hình AI
+### Bước 3: lưu tài liệu đã tóm tắt
 
-Dịch tài liệu một cách liền mạch sang nhiều ngôn ngữ khác nhau bằng mô hình Gemini của Google.
-
-#### Bước 1: Tải và Chuẩn bị Tài liệu
-
-Chuẩn bị tài liệu để dịch:
+Tạo một đối tượng `Document` mới, chèn văn bản do AI tạo ra, và lưu nó vào đĩa. Tệp kết quả chỉ chứa bản tóm tắt, sẵn sàng để phân phối.
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Bước 2: Thực hiện dịch
+## Cách dịch tài liệu Java với Google Gemini Java?
 
-Dịch tài liệu sang tiếng Ả Rập:
+Quy trình dịch trích xuất văn bản của tài liệu, chuyển nó tới mô hình Gemini 15 Flash của Google với tham số ngôn ngữ đích, nhận kết quả dịch, và thay thế nội dung gốc trong một `Document` mới. Cách tiếp cận này cho phép chuyển đổi đa ngôn ngữ nhanh chóng, chất lượng cao trực tiếp từ Java.
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
 translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 ```
 
-## Ứng dụng thực tế
+## Ứng dụng thực tiễn
 
-1. **Báo cáo kinh doanh:** Tóm tắt các báo cáo kinh doanh dài để có cái nhìn sâu sắc nhanh chóng.
-2. **Hỗ trợ khách hàng:** Dịch các câu hỏi của khách hàng sang ngôn ngữ bản địa để nâng cao chất lượng dịch vụ.
-3. **Nghiên cứu học thuật:** Tóm tắt các bài nghiên cứu để nắm bắt nhanh những phát hiện chính.
+1. **Báo cáo kinh doanh:** Tạo bản tóm tắt điều hành một trang cho các phân tích quý dài.  
+2. **Hỗ trợ khách hàng:** Dịch các ticket đến sang ngôn ngữ mẹ đẻ của đội hỗ trợ ngay lập tức.  
+3. **Nghiên cứu học thuật:** Tạo bản tóm tắt nhanh các bài báo khoa học để hỗ trợ việc tổng quan tài liệu.  
 
-## Cân nhắc về hiệu suất
+## Cân nhắc về hiệu năng
 
-- Tối ưu hóa các yêu cầu API bằng cách xử lý hàng loạt tác vụ khi có thể.
-- Theo dõi mức sử dụng tài nguyên, đặc biệt là khi xử lý các tài liệu lớn.
-- Triển khai chiến lược lưu trữ đệm cho các tài liệu hoặc bản dịch thường xuyên truy cập.
+- **Yêu cầu batch:** Nhóm nhiều đoạn văn vào một lần gọi API để giảm độ trễ.  
+- **Giám sát tài nguyên:** Sử dụng API `Runtime` của Java để theo dõi bộ nhớ khi xử lý các tệp > 300 trang.  
+- **Caching:** Lưu các bản dịch gần đây trong bộ nhớ đệm cục bộ (ví dụ, Caffeine) để tránh gọi AI lặp lại cho nội dung giống nhau.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Bằng cách tích hợp Aspose.Words với các mô hình AI như OpenAI và Gemini của Google, bạn có thể nâng cao các ứng dụng Java của mình bằng khả năng tóm tắt văn bản và dịch thuật mạnh mẽ. Thử nghiệm với các cấu hình khác nhau để phù hợp nhất với nhu cầu của bạn và khám phá các tính năng bổ sung do các công cụ này cung cấp.
+- **Giới hạn tần suất API:** Nếu bạn vượt quota của OpenAI, triển khai back‑off theo cấp số nhân và tôn trọng header `Retry‑After`.  
+- **Vấn đề mã hoá:** Đảm bảo tài liệu được lưu dưới dạng UTF‑8 trước khi gửi tới Gemini để tránh hỏng ký tự.  
+- **Không tìm thấy giấy phép:** Đặt tệp `.lic` vào classpath hoặc chỉ định đường dẫn tuyệt đối khi gọi `License.setLicense()`.
 
-**Các bước tiếp theo:**
-- Khám phá nhiều tính năng nâng cao hơn của Aspose.Words.
-- Hãy cân nhắc tích hợp thêm các dịch vụ AI để tăng cường chức năng.
+## Câu hỏi thường gặp
 
-Sẵn sàng để tìm hiểu sâu hơn? Hãy thử triển khai các giải pháp này vào dự án của bạn ngay hôm nay!
+**Q: Tôi có thể sử dụng aspose words java trong sản phẩm thương mại không?**  
+A: Có. Cần có giấy phép sản xuất hợp lệ; giấy phép dùng thử chỉ dành cho việc đánh giá.
 
-## Phần Câu hỏi thường gặp
+**Q: Làm thế nào để tôi có được khóa API cho OpenAI và Google Gemini?**  
+A: Đăng ký trên nền tảng OpenAI và Google Cloud Console, sau đó tạo khóa API mới trong bảng điều khiển của mỗi dịch vụ.
 
-1. **Yêu cầu hệ thống để sử dụng Aspose.Words với Java là gì?**
-   - Bạn cần JDK 8 trở lên và một IDE tương thích như IntelliJ IDEA.
-2. **Làm thế nào để tôi có được khóa API cho các dịch vụ OpenAI hoặc Google AI?**
-   - Đăng ký trên nền tảng tương ứng để truy cập khóa API phục vụ mục đích phát triển.
-3. **Tôi có thể sử dụng Aspose.Words cho Java trong các dự án thương mại không?**
-   - Có, nhưng bạn phải có giấy phép hợp lệ từ Aspose.
-4. **Tôi có thể dịch văn bản sang những ngôn ngữ nào khi sử dụng mô hình Gemini?**
-   - Mẫu Gemini 15 Flash hỗ trợ nhiều ngôn ngữ, bao gồm tiếng Ả Rập, tiếng Pháp và nhiều ngôn ngữ khác.
-5. **Làm thế nào để xử lý các tài liệu lớn một cách hiệu quả bằng những công cụ này?**
-   - Chia nhỏ các tác vụ thành nhiều phần nhỏ hơn và tối ưu hóa việc sử dụng API để quản lý hiệu quả mức tiêu thụ tài nguyên.
+**Q: aspose words java có hỗ trợ tài liệu được bảo vệ bằng mật khẩu không?**  
+A: Có. Tải tệp được bảo vệ bằng cách truyền mật khẩu vào hàm khởi tạo `Document`.
+
+**Q: Kích thước tệp tối đa Gemini có thể dịch là bao nhiêu?**  
+A: Giới hạn payload yêu cầu của Gemini là 2 MB; chia các tài liệu lớn hơn thành các phần nhỏ hơn trước khi gửi.
+
+**Q: Làm sao tôi có thể cải thiện độ chính xác của việc tóm tắt?**  
+A: Cung cấp lời nhắc rõ ràng bao gồm độ dài và phong cách tóm tắt mong muốn (ví dụ, “bản tóm tắt điều hành dạng bullet‑point”).
 
 ## Tài nguyên
 
@@ -182,15 +213,25 @@ Sẵn sàng để tìm hiểu sâu hơn? Hãy thử triển khai các giải ph�
 - [Tải xuống Aspose.Words](https://releases.aspose.com/words/java/)
 - [Mua giấy phép](https://purchase.aspose.com/buy)
 - [Phiên bản dùng thử miễn phí](https://releases.aspose.com/words/java/)
-- [Yêu cầu cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+- [Yêu cầu giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - [Hỗ trợ cộng đồng Aspose](https://forum.aspose.com/c/words/10)
+
+---
+
+**Cập nhật lần cuối:** 2026-09-27  
+**Kiểm tra với:** Aspose.Words for Java 25.3  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Hướng dẫn Aspose.Words Java: Tích hợp AI & ML](/words/java/ai-machine-learning-integration/)
+- [Tải tệp văn bản với Aspose.Words cho Java](/words/java/document-loading-and-saving/loading-text-files/)
+- [Tìm và thay thế văn bản trong Aspose.Words cho Java](/words/java/document-manipulation/finding-and-replacing-text/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}

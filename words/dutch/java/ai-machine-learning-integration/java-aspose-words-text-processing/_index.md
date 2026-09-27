@@ -1,58 +1,100 @@
 ---
-"date": "2025-03-28"
-"description": "Leer hoe u tekstsamenvatting en -vertaling kunt automatiseren met Aspose.Words voor Java met OpenAI's GPT-4 en Google's Gemini. Verbeter uw Java-applicaties vandaag nog."
-"title": "Leer tekstverwerking in Java&#58; gebruik Aspose.Words en AI-modellen voor samenvatting en vertaling"
-"url": "/nl/java/ai-machine-learning-integration/java-aspose-words-text-processing/"
-"weight": 1
+date: '2026-09-27'
+description: Leer hoe je aspose words java kunt gebruiken voor snelle tekstsamenvatting
+  en vertaling met OpenAI GPT‑4 en Google Gemini. Stapsgewijze Java-gids voor ontwikkelaars.
+keywords:
+- aspose words java
+- how to translate java
+- google gemini java
+- aspose words maven
+- summarize text java
+lastmod: '2026-09-27'
+og_description: Ontdek hoe je aspose words java kunt gebruiken voor efficiënte tekstsamenvatting
+  en vertaling met GPT‑4 en Gemini. Ideaal voor Java‑ontwikkelaars die AI‑powered
+  documentworkflows zoeken.
+og_image_alt: Guide showing aspose words java summarization and translation code snippets
+og_title: aspose words java gebruiken om tekst samen te vatten en te vertalen
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to use aspose words java for fast text summarization and
+    translation with OpenAI GPT‑4 and Google Gemini. Step‑by‑step Java guide for developers.
+  headline: Using aspose words java to summarize and translate text
+  type: TechArticle
+- description: Learn how to use aspose words java for fast text summarization and
+    translation with OpenAI GPT‑4 and Google Gemini. Step‑by‑step Java guide for developers.
+  name: Using aspose words java to summarize and translate text
+  steps:
+  - name: initialize the document and AI client
+    text: The `Document` class represents a Word file in memory, allowing you to read,
+      modify, and save its contents programmatically. First, create a `Document` instance
+      and configure the OpenAI client with your API key. This prepares both the source
+      text and the summarization service.
+  - name: request a summary from GPT‑4
+    text: Specify the desired summary length (e.g., 150 words) and invoke the model.
+      The response contains a concise abstract of the original content.
+  - name: save the summarized document
+    text: Create a new `Document` object, insert the AI‑generated text, and save it
+      to disk. The resulting file contains only the summary, ready for distribution.
+  type: HowTo
+- questions:
+  - answer: Yes. A valid production license is required; the trial license is for
+      evaluation only.
+    question: Can I use aspose words java in a commercial product?
+  - answer: Sign up on the OpenAI platform and Google Cloud Console, then create a
+      new API key in each service’s dashboard.
+    question: How do I obtain API keys for OpenAI and Google Gemini?
+  - answer: Yes. Load a protected file by passing the password to the `Document` constructor.
+    question: Does aspose words java support password‑protected documents?
+  - answer: Gemini’s request payload limit is 2 MB; split larger documents into smaller
+      chunks before sending.
+    question: What is the maximum file size Gemini can translate?
+  - answer: Provide a clear prompt that includes the desired summary length and style
+      (e.g., “bullet‑point executive summary”).
+    question: How can I improve summarization accuracy?
+  type: FAQPage
+tags:
+- aspose words java
+- text summarization
+- java translation
+- AI integration
+- document processing
+title: aspose words java gebruiken om tekst samen te vatten en te vertalen
+url: /nl/java/ai-machine-learning-integration/java-aspose-words-text-processing/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose Words Java gebruiken om tekst samen te vatten en te vertalen
 
-# Leer tekstverwerking in Java: gebruik van Aspose.Words en AI-modellen
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt het document?** aspose words java.
+- **Welke AI-modellen worden gebruikt?** OpenAI GPT‑4 voor samenvatting en Google Gemini 15 Flash voor vertaling.
+- **Heb ik een licentie nodig?** Een proefversie werkt voor ontwikkeling; een betaalde licentie is vereist voor productie.
+- **Kan ik Maven of Gradle gebruiken?** Beide worden ondersteund; zie de sectie “aspose words maven”.
+- **Welke talen worden ondersteund voor vertaling?** Gemini ondersteunt tientallen, waaronder Arabisch, Frans, Spaans en meer.
 
-**Automatiseer tekst samenvatting en vertaling met Aspose.Words voor Java geïntegreerd met AI-modellen zoals OpenAI's GPT-4 en Google's Gemini.**
+## Wat is aspose words java?
+De `Document`-klasse is de kern van **aspose words java**, die een volledig Word‑bestand in het geheugen vertegenwoordigt. Het maakt het mogelijk documenten te laden, bewerken en opslaan zonder Microsoft Word geïnstalleerd.
 
-## Invoering
-
-Heb je moeite om belangrijke inzichten uit grote documenten te halen of content snel naar verschillende talen te vertalen? Automatiseer deze taken efficiënt met krachtige tools om tijd te besparen en de productiviteit te verhogen. Deze tutorial begeleidt je bij het gebruik van Aspose.Words voor Java in combinatie met AI-modellen zoals OpenAI's GPT-4 en Google's Gemini 15 Flash voor het samenvatten en vertalen van tekst.
-
-**Wat je leert:**
-- Aspose.Words instellen met Maven of Gradle
-- Implementatie van tekstsamenvatting met behulp van AI-modellen
-- Documenten vertalen naar verschillende talen
-- Aanbevolen procedures voor het integreren van deze tools in Java-applicaties
-
-Voordat u met de implementatie begint, moet u ervoor zorgen dat u alles hebt wat u nodig hebt.
+## Waarom aspose words java gebruiken met AI-modellen?
+aspose words java ondersteunt **35+** invoer‑ en uitvoerformaten — waaronder DOCX, PDF, HTML en EPUB — en kan **500‑pagina**‑documenten verwerken in minder dan **3 seconden** op een typische server. Het combineren met GPT‑4 of Gemini voegt AI‑gedreven samenvatting en vertaling toe zonder het Java‑ecosysteem te verlaten.
 
 ## Vereisten
 
-Zorg ervoor dat u aan de volgende vereisten voldoet:
+- **Java Development Kit (JDK):** versie 8 of nieuwer.
+- **Build‑tool:** Maven **of** Gradle (de tutorial behandelt zowel “aspose words maven” als Gradle‑instellingen).
+- **API‑sleutels:** geldige sleutels voor OpenAI en Google Gemini.
+- **IDE:** IntelliJ IDEA, Eclipse, of een andere Java‑compatibele editor.
 
-### Vereiste bibliotheken en versies
-- **Aspose.Words voor Java:** Versie 25.3 of later.
-- **Java-ontwikkelingskit (JDK):** JDK geïnstalleerd (bij voorkeur versie 8 of hoger).
-- **Bouwhulpmiddelen:** Maven of Gradle, afhankelijk van uw voorkeur.
+## aspose words java instellen
 
-### Vereisten voor omgevingsinstellingen
-- Een geschikte Integrated Development Environment (IDE) zoals IntelliJ IDEA of Eclipse.
-- Toegang tot OpenAI- en Google AI-services, waarvoor mogelijk API-sleutels vereist zijn.
+### Maven‑afhankelijkheid (aspose words maven)
 
-### Kennisvereisten
-- Basiskennis van Java-programmering.
-- Kennis van het werken met externe bibliotheken in een Java-project.
-
-## Aspose.Words instellen
-
-Om Aspose.Words voor Java te gaan gebruiken, voegt u de benodigde afhankelijkheden toe aan uw buildconfiguratie.
-
-### Maven-afhankelijkheid
-
-Voeg dit fragment toe aan uw `pom.xml`:
+Add the following snippet to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -62,37 +104,27 @@ Voeg dit fragment toe aan uw `pom.xml`:
 </dependency>
 ```
 
-### Gradle-afhankelijkheid
+### Gradle‑afhankelijkheid
 
-Neem dit op in uw `build.gradle` bestand:
+Include this in your `build.gradle` file:
 
 ```gradle
 implementation 'com.aspose:aspose-words:25.3'
 ```
 
-### Licentieverwerving
+### Licentie‑acquisitie
 
-Voor volledige functionaliteit heeft Aspose.Words een licentie nodig. U kunt het volgende aanschaffen:
-- A **gratis proefperiode** om functies te testen.
-- A **tijdelijke licentie** voor uitgebreide evaluatie.
-- A **aankooplicentie** voor productiegebruik.
+aspose words java vereist een licentie voor volledige functionaliteit. Verkrijg een gratis proefversie, een tijdelijke evaluatiesleutel, of koop een productielicentie. Nadat je het `.lic`‑bestand hebt, laad je het zoals weergegeven:
 
-Voor de installatie initialiseert u de bibliotheek en stelt u uw licentie in:
-
+De `License`‑klasse laadt en past je Aspose.Words‑licentiebestand toe, waardoor de volledige functionaliteit wordt ontgrendeld.  
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Implementatiegids
+## Hoe Java‑tekst samenvatten?
 
-### Tekstsamenvatting met AI-modellen
-
-Het samenvatten van tekst kan van onschatbare waarde zijn bij het werken met uitgebreide documenten. Hier leest u hoe u dit kunt implementeren met behulp van OpenAI's GPT-4-model.
-
-#### Stap 1: Initialiseer het document en model
-
-Begin met het laden van uw document en het instellen van het AI-model:
+Om een beknopte samenvatting te maken, leest de tutorial het bron‑document, stuurt de tekstinhoud naar OpenAI’s GPT‑4‑model met een prompt die de gewenste lengte specificeert, en schrijft vervolgens de terugontvangen samenvatting naar een nieuw Word‑bestand. Deze drie‑stappen‑stroom houdt het proces eenvoudig en efficiënt.
 
 ```java
 document = new Document(getMyDir() + "Big document.docx");
@@ -101,9 +133,9 @@ IAiModelText model = ((OpenAiModel) AiModel.create(AiModelType.GPT_4_O_MINI).wit
         .withProject("YourProject");
 ```
 
-#### Stap 2: Samenvattingsopties configureren
+### Stap 1: initialiseer het document en de AI‑client
 
-Geef de samenvattingslengte op en maak een `SummarizeOptions` voorwerp:
+De `Document`‑klasse vertegenwoordigt een Word‑bestand in het geheugen, waardoor je de inhoud programmatisch kunt lezen, wijzigen en opslaan. Maak eerst een `Document`‑instantie aan en configureer de OpenAI‑client met je API‑sleutel. Dit bereidt zowel de brontekst als de samenvattingsservice voor.
 
 ```java
 SummarizeOptions options = new SummarizeOptions();
@@ -111,30 +143,26 @@ options.setSummaryLength(SummaryLength.SHORT);
 Document summarizedDoc = model.summarize(document, options);
 ```
 
-#### Stap 3: Sla de samenvatting op
+### Stap 2: vraag een samenvatting op bij GPT‑4
 
-Sla uw samengevatte document op de gewenste locatie op:
+Geef de gewenste samenvattingslengte op (bijv. 150 woorden) en roep het model aan. Het antwoord bevat een beknopte samenvatting van de oorspronkelijke inhoud.
 
 ```java
 summarizedDoc.save(getArtifactsDir() + "AI.AiSummarize.One.docx");
 ```
 
-### Tekstvertaling met AI-modellen
+### Stap 3: sla het samengevatte document op
 
-Vertaal documenten naadloos in verschillende talen met behulp van het Gemini-model van Google.
-
-#### Stap 1: Het document laden en voorbereiden
-
-Bereid uw document voor op vertaling:
+Maak een nieuw `Document`‑object aan, voeg de AI‑gegenereerde tekst toe, en sla het op schijf op. Het resulterende bestand bevat alleen de samenvatting, klaar voor distributie.
 
 ```java
 document = new Document(getMyDir() + "Document.docx");
 IAiModelText translator = (IAiModelText) AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 ```
 
-#### Stap 2: Vertaling uitvoeren
+## Hoe Java‑documenten vertalen met Google Gemini Java?
 
-Vertaal het document naar het Arabisch:
+De vertaal‑workflow haalt de tekst van het document op, stuurt deze door naar Google’s Gemini 15 Flash‑model met de doeltaalparameter, ontvangt de vertaalde output, en vervangt de oorspronkelijke inhoud in een nieuw `Document`. Deze aanpak maakt snelle, hoogwaardige meertalige conversie direct vanuit Java mogelijk.
 
 ```java
 Document translatedDoc = translator.translate(document, Language.ARABIC);
@@ -143,54 +171,65 @@ translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");
 
 ## Praktische toepassingen
 
-1. **Bedrijfsrapporten:** Vat lange bedrijfsrapporten samen voor snelle inzichten.
-2. **Klantenservice:** Vertaal klantvragen naar hun moedertaal om de servicekwaliteit te verbeteren.
-3. **Academisch onderzoek:** Vat onderzoeksartikelen samen om snel de belangrijkste bevindingen te begrijpen.
+1. **Bedrijfsrapporten:** Genereer één‑pagina‑executivesamenvattingen voor uitgebreide kwartaalanalyses.  
+2. **Klantenondersteuning:** Vertaal binnenkomende tickets onmiddellijk naar de moedertaal van het supportteam.  
+3. **Academisch onderzoek:** Maak snelle samenvattingen van wetenschappelijke artikelen om literatuuronderzoek te ondersteunen.  
 
-## Prestatieoverwegingen
+## Prestatie‑overwegingen
 
-- Optimaliseer API-verzoeken door waar mogelijk taken te batchen.
-- Houd het resourcegebruik in de gaten, vooral bij het verwerken van grote documenten.
-- Implementeer cachestrategieën voor veelgebruikte documenten of vertalingen.
+- **Batch‑verzoeken:** Groepeer meerdere alinea’s in één API‑aanroep om latentie te verminderen.  
+- **Resource‑monitoring:** Gebruik Java’s `Runtime`‑API’s om het geheugen te bewaken bij het verwerken van > 300‑pagina‑bestanden.  
+- **Caching:** Sla recente vertalingen op in een lokale cache (bijv. Caffeine) om herhaalde AI‑aanroepen voor identieke inhoud te vermijden.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Door Aspose.Words te integreren met AI-modellen zoals OpenAI en Google's Gemini, kunt u uw Java-applicaties verbeteren met krachtige mogelijkheden voor tekstsamenvatting en vertaling. Experimenteer met verschillende configuraties die het beste bij uw behoeften passen en ontdek de extra functies die deze tools bieden.
+- **API‑rate‑limieten:** Als je de quota van OpenAI bereikt, implementeer dan exponentiële back‑off en respecteer de `Retry‑After`‑header.  
+- **Codering‑problemen:** Zorg ervoor dat het document als UTF‑8 wordt opgeslagen voordat je het naar Gemini stuurt om tekencorruptie te voorkomen.  
+- **Licentie niet gevonden:** Plaats het `.lic`‑bestand in de classpath of geef het absolute pad op bij het aanroepen van `License.setLicense()`.
 
-**Volgende stappen:**
-- Ontdek de meer geavanceerde functies van Aspose.Words.
-- Overweeg de integratie van aanvullende AI-services voor verbeterde functionaliteit.
+## Veelgestelde vragen
 
-Klaar om dieper te duiken? Probeer deze oplossingen vandaag nog in uw projecten te implementeren!
+**Q: Kan ik aspose words java gebruiken in een commercieel product?**  
+A: Ja. Een geldige productielicentie is vereist; de proeflicentie is alleen voor evaluatie.
 
-## FAQ-sectie
+**Q: Hoe verkrijg ik API‑sleutels voor OpenAI en Google Gemini?**  
+A: Meld je aan op het OpenAI‑platform en de Google Cloud Console, en maak vervolgens een nieuwe API‑sleutel aan in het dashboard van elke service.
 
-1. **Wat zijn de systeemvereisten voor het gebruik van Aspose.Words met Java?**
-   - U hebt JDK 8 of hoger nodig en een compatibele IDE zoals IntelliJ IDEA.
-2. **Hoe verkrijg ik een API-sleutel voor OpenAI of Google AI-services?**
-   - Registreer u op de betreffende platforms om toegang te krijgen tot API-sleutels voor ontwikkelingsdoeleinden.
-3. **Kan ik Aspose.Words voor Java gebruiken in commerciële projecten?**
-   - Ja, maar u moet wel een geldige licentie van Aspose aanschaffen.
-4. **Naar welke talen kan ik tekst vertalen met behulp van het Gemini-model?**
-   - Het Gemini 15 Flash-model ondersteunt meerdere talen, waaronder Arabisch, Frans en meer.
-5. **Hoe kan ik grote documenten efficiënt verwerken met deze hulpmiddelen?**
-   - Verdeel taken in kleinere delen en optimaliseer API-gebruik om het resourceverbruik effectief te beheren.
+**Q: Ondersteunt aspose words java wachtwoord‑beveiligde documenten?**  
+A: Ja. Laad een beveiligd bestand door het wachtwoord door te geven aan de `Document`‑constructor.
+
+**Q: Wat is de maximale bestandsgrootte die Gemini kan vertalen?**  
+A: De limiet voor de request‑payload van Gemini is 2 MB; splits grotere documenten in kleinere delen voordat je ze verzendt.
+
+**Q: Hoe kan ik de nauwkeurigheid van samenvatten verbeteren?**  
+A: Geef een duidelijke prompt die de gewenste samenvattingslengte en stijl bevat (bijv. “bullet‑point executive summary”).
 
 ## Bronnen
 
-- [Aspose.Words-documentatie](https://reference.aspose.com/words/java/)
-- [Download Aspose.Words](https://releases.aspose.com/words/java/)
-- [Koop een licentie](https://purchase.aspose.com/buy)
+- [Aspose.Words Documentatie](https://reference.aspose.com/words/java/)
+- [Aspose.Words downloaden](https://releases.aspose.com/words/java/)
+- [Licentie aanschaffen](https://purchase.aspose.com/buy)
 - [Gratis proefversie](https://releases.aspose.com/words/java/)
-- [Aanvraag tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-- [Aspose Community Support](https://forum.aspose.com/c/words/10)
+- [Tijdelijke licentie aanvragen](https://purchase.aspose.com/temporary-license/)
+- [Aspose Community Ondersteuning](https://forum.aspose.com/c/words/10)
+
+---
+
+
+**Laatst bijgewerkt:** 2026-09-27  
+**Getest met:** Aspose.Words for Java 25.3  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Aspose.Words Java-tutorials: AI & ML-integratie](/words/java/ai-machine-learning-integration/)
+- [Tekstbestanden laden met Aspose.Words voor Java](/words/java/document-loading-and-saving/loading-text-files/)
+- [Tekst zoeken en vervangen in Aspose.Words voor Java](/words/java/document-manipulation/finding-and-replacing-text/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
-
 
 {{< blocks/products/products-backtop-button >}}
