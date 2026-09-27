@@ -47,6 +47,9 @@ Poznaj efektywne zapisywanie dokumentów za pomocą Aspose.Words dla Java. Ten p
 Opanuj zaawansowane ustawienia zapisywania dokumentów dzięki Aspose.Words dla Java. Naucz się formatować, chronić, optymalizować i automatyzować tworzenie dokumentów bez wysiłku.
 ### [Manipulowanie zawartością dokumentu za pomocą czyszczenia, pól i danych XML](./manipulating-document-content/)
 Dowiedz się, jak manipulować zawartością dokumentu za pomocą Aspose.Words for Java. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego do wydajnego zarządzania dokumentami.
+### [Utwórz wykres radialny i wstaw wykres do dokumentu Word w Javie](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Dowiedz się, jak w Javie generować wykres radialny i wstawiać go do dokumentu Word przy użyciu Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

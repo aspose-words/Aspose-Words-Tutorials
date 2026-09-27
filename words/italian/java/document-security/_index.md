@@ -42,6 +42,9 @@ Scopri come implementare firme digitali sicure nei documenti utilizzando Aspose.
 ### [Redazione di documenti e protezione dei dati](./document-redaction-data-protection/)
 Scopri come proteggere i tuoi documenti e oscurare i dati sensibili utilizzando Aspose.Words per Java. Guida passo passo con codice sorgente.
 
+### [Come firmare digitalmente un documento Word usando Java](./how-to-digitally-sign-word-document-using-java/)
+Impara a firmare digitalmente documenti Word con Aspose.Words per Java, garantendo autenticità e integrità dei file.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

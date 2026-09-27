@@ -48,6 +48,10 @@ Aspose.Words for Java 是一個功能強大且用途廣泛的程式庫，使 Jav
 ### [使用清理、欄位和 XML 資料操作文件內容](./manipulating-document-content/)
 了解如何使用 Aspose.Words for Java 操作文件內容。本逐步指南提供了高效文件管理的原始程式碼範例。
 
+### [在 Java 中建立徑向圖表並插入至 Word](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+學習如何使用 Aspose.Words for Java 產生徑向圖表，並將其嵌入 Word 文件，實現動態報表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

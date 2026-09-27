@@ -36,8 +36,15 @@ Tanulja meg, hogyan hozhat létre kiváló minőségű miniatűröket és egyedi
 
 ### [Árnyék hozzáadása alakzathoz Word-ben – Teljes Aspose.Words útmutató](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Ismerje meg, hogyan adhat árnyékot alakzatokhoz Word dokumentumokban az Aspose.Words for Java segítségével, lépésről lépésre.
+
 ### [Árnyékhatás alkalmazása alakzatra C#‑ban – Lépésről‑lépésre útmutató](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Ismerje meg, hogyan adhat árnyékot egy alakzathoz C#‑ban az Aspose.Words segítségével.
+
+### [Üres Word dokumentum és alakzatcsoport létrehozása Java-ban](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Ismerje meg, hogyan hozhat létre üres Word dokumentumot, és csoportosíthatja az alakzatokat Java-ban.
+
+### [Új Word dokumentum létrehozása rejtett képpel – lépésről‑lépésre útmutató](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Ismerje meg, hogyan hozhat létre új Word dokumentumot, amely rejtett képet tartalmaz, részletes lépésekkel.
 
 ## További források
 

@@ -36,8 +36,15 @@
 
 ### [Προσθήκη σκιάς σε σχήμα στο Word – Πλήρης οδηγός Aspose.Words](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Μάθετε πώς να προσθέσετε σκιά σε σχήματα σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για Java.
+
 ### [Εφαρμογή Σκιάς σε Σχήμα σε C# – Οδηγός Βήμα‑βήμα](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Μάθετε πώς να προσθέσετε εφέ σκιάς σε σχήματα χρησιμοποιώντας το Aspose.Words για C# με αναλυτικές οδηγίες βήμα‑βήμα.
+
+### [Πώς να δημιουργήσετε κενό έγγραφο Word και να ομαδοποιήσετε σχήματα σε Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word και να ομαδοποιήσετε σχήματα χρησιμοποιώντας το Aspose.Words για Java.
+
+### [Δημιουργία νέου εγγράφου Word με κρυφή εικόνα – οδηγός βήμα‑βήμα](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο Word που περιέχει κρυφή εικόνα, βήμα‑βήμα, χρησιμοποιώντας το Aspose.Words για Java.
 
 ## Πρόσθετοι Πόροι
 

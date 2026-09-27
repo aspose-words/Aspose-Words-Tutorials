@@ -71,6 +71,10 @@ Pelajari cara menggunakan objek OLE dan kontrol ActiveX di Aspose.Words untuk Ja
 Pelajari cara menggunakan kontrol revisi Aspose.Words untuk Java secara efisien. Panduan langkah demi langkah untuk pengembang. Optimalkan manajemen dokumen Anda.
 ### [Menggunakan Bagian di Aspose.Words untuk Java](./using-sections/)
 Jelajahi Aspose.Words untuk Java: Panduan lengkap tentang penggunaan bagian. Tambahkan, hapus, tambahkan, klon bagian dengan contoh kode.
+### [Cara Menyisipkan Diagram Pai ke Dokumen Word menggunakan Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Pelajari cara menambahkan diagram pai ke dokumen Word dengan Aspose.Words untuk Java dalam tutorial langkah demi langkah ini.
+### [Cara Membuat DOCX Berisi ActiveX dengan Java dan Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Pelajari cara membuat file DOCX yang berisi kontrol ActiveX menggunakan Java dan Aspose.Words.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

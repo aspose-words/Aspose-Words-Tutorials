@@ -48,6 +48,10 @@ Aspose.Words for Javaで高度なドキュメント保存設定をマスター�
 ### [クリーンアップ、フィールド、XML データを使用したドキュメント コンテンツの操作](./manipulating-document-content/)
 Aspose.Words for Java を使ってドキュメントコンテンツを操作する方法を学びましょう。このステップバイステップガイドでは、効率的なドキュメント管理のためのソースコード例を紹介します。
 
+### [Javaでラジアルチャートを作成し、Wordにチャートを挿入する](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Javaを使用してラジアルチャートを作成し、Aspose.WordsでWord文書に挿入する方法を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

@@ -40,6 +40,11 @@ Learn how to apply shadow effects to shapes in Word documents using Aspose.Words
 ### [Apply Shadow Effect to a Shape in C# – Step‑by‑Step Guide](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Learn how to apply shadow effects to shapes in Aspose.Words using C#, with step-by-step code examples.
 
+### [How to create blank word document and group shapes in Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Learn how to create a blank Word document and group multiple shapes using Aspose.Words for Java.
+
+### [Create new Word document with a hidden picture – step‑by‑step guide](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+
 ## Additional Resources
 
 ## Additional Resources

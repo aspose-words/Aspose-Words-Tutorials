@@ -49,7 +49,7 @@ Tanuld meg, hogyan használhatsz megjegyzéseket az Aspose.Words for Java progra
 Tanuld meg az Aspose.Words hatékony használatát Java mezőkhöz ebben a lépésről lépésre bemutató oktatóanyagban. Hozz létre dinamikus Word dokumentumokat könnyedén.
 ### [Betűtípusok használata az Aspose.Words Java-ban](./using-fonts/)
 Fedezd fel a betűtípus formázását az Aspose.Words for Java programban: méret, stílus, szín és egyebek. Készíts könnyedén gyönyörűen formázott dokumentumokat.
-### [Lábjegyzetek és végjegyzetek használata az Aspose.Words for Java programban](./using-footnotes-and-endnotes/)
+### [Lábjegyzetek és végjegyzetek használata az Aspose.Words Java programban](./using-footnotes-and-endnotes/)
 Tanuld meg hatékonyan használni a lábjegyzeteket és végjegyzeteket az Aspose.Words for Java programban. Fejleszd dokumentumformázási készségeidet még ma!
 ### [Űrlapmezők használata az Aspose.Words Java-ban](./using-form-fields/)
 „Tanuld meg az Aspose.Words Java-beli használatát interaktív Word-dokumentumok létrehozásához űrlapmezőkkel. Kezdj hozzá most!”
@@ -67,10 +67,13 @@ Tanuld meg használni a Markdownt az Aspose.Words for Java-ban ezzel a lépésr�
 Tanuld meg a csomópontok manipulálását az Aspose.Words for Java programban ezzel a lépésről lépésre haladó oktatóanyaggal. Engedd szabadjára a dokumentumfeldolgozási teljesítményt.
 ### [OLE objektumok és ActiveX vezérlők használata az Aspose.Words for Java programban](./using-ole-objects-and-activex/)
 Tanuld meg az OLE objektumok és ActiveX vezérlők használatát az Aspose.Words for Java programban. Hozz létre interaktív dokumentumokat könnyedén. Kezdj hozzá most!
+### [Docx létrehozása ActiveX-szel Java és Aspose.Words segítségével](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
 ### [Revisions használata az Aspose.Words-ben Java-ban](./using-revisions/)
 Tanuld meg hatékonyan használni az Aspose.Words-öt a Java verziókezelési vezérlőihez. Lépésről lépésre útmutató fejlesztőknek. Optimalizáld a dokumentumkezelésedet.
 ### [Szakaszok használata az Aspose.Words Java-ban](./using-sections/)
 Fedezd fel az Aspose.Words Java-hoz készült változatát: Átfogó útmutató a szakaszok használatához. Szakaszok hozzáadása, törlése, hozzáfűzése és klónozása kódpéldákkal.
+### [Kördiagram használata az Aspose.Words Java-ban](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Tanuld meg, hogyan szúrj be kördiagramot egy Word dokumentumba Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

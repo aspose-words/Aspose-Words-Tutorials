@@ -47,6 +47,9 @@ Leer efficiënt documenten opslaan met Aspose.Words voor Java. Deze stapsgewijze
 Beheers geavanceerde instellingen voor het opslaan van documenten met Aspose.Words voor Java. Leer moeiteloos documenten opmaken, beveiligen, optimaliseren en automatiseren.
 ### [Manipuleren van documentinhoud met opschonen, velden en XML-gegevens](./manipulating-document-content/)
 Leer hoe u documentinhoud kunt bewerken met Aspose.Words voor Java. Deze stapsgewijze handleiding biedt broncodevoorbeelden voor efficiënt documentbeheer.
+### [Radiale grafiek maken en invoegen in Word met Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Leer hoe u een radiale grafiek maakt en deze in een Word-document invoegt met Aspose.Words voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
