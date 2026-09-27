@@ -41,6 +41,8 @@ Aprenda a criptografar e descriptografar documentos com o Aspose.Words para Java
 Aprenda a implementar assinaturas digitais seguras em documentos usando o Aspose.Words para Java. Garanta a integridade dos documentos com orientações passo a passo e código-fonte.
 ### [Redação de documentos e proteção de dados](./document-redaction-data-protection/)
 Aprenda a proteger seus documentos e redigir dados confidenciais usando o Aspose.Words para Java. Guia passo a passo com código-fonte.
+### [Como assinar digitalmente um documento Word usando Java](./how-to-digitally-sign-word-document-using-java/)
+Aprenda a assinar digitalmente documentos Word com Java usando Aspose.Words, garantindo integridade e autenticidade.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

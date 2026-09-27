@@ -39,6 +39,12 @@ Aspose.Words for Java를 사용하여 Word 문서의 도형에 그림자를 적�
 ### [C#에서 도형에 그림자 효과 적용 – 단계별 가이드](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C#를 사용하여 도형에 그림자 효과를 적용하는 방법을 단계별로 안내합니다.
 
+### [Java에서 빈 워드 문서를 만들고 도형을 그룹화하는 방법](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Java를 사용해 빈 Word 문서를 생성하고 도형을 그룹화하는 단계별 가이드
+
+### [숨겨진 그림이 포함된 새 Word 문서 만들기 – 단계별 가이드](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+숨겨진 이미지를 포함한 Word 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 ## 추가 자료

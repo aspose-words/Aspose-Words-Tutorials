@@ -47,6 +47,9 @@ Tanulj meg hatékony dokumentummentést az Aspose.Words for Java segítségével
 Sajátítsa el a haladó dokumentummentési beállításokat az Aspose.Words for Java segítségével. Tanulja meg, hogyan formázhatja, védheti, optimalizálhatja és automatizálhatja a dokumentumok létrehozását könnyedén.
 ### [Dokumentumtartalom kezelése tisztítással, mezőkkel és XML-adatokkal](./manipulating-document-content/)
 Tanulja meg, hogyan manipulálhatja a dokumentumok tartalmát az Aspose.Words for Java segítségével. Ez a lépésről lépésre bemutatott útmutató forráskód-példákat tartalmaz a hatékony dokumentumkezeléshez.
+### [Radiális diagram létrehozása és beillesztése Word dokumentumba Java-val](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Tanulja meg, hogyan hozhat létre radiális diagramot és illesztheti be Word dokumentumba Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

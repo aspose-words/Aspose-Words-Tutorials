@@ -47,6 +47,9 @@ Naučte se efektivně ukládat dokumenty s Aspose.Words pro Javu. Tato podrobná
 Zvládněte pokročilá nastavení ukládání dokumentů s Aspose.Words pro Javu. Naučte se bez námahy formátovat, chránit, optimalizovat a automatizovat vytváření dokumentů.
 ### [Manipulace s obsahem dokumentu pomocí čištění, polí a XML dat](./manipulating-document-content/)
 Naučte se, jak manipulovat s obsahem dokumentů pomocí Aspose.Words pro Javu. Tato podrobná příručka poskytuje příklady zdrojového kódu pro efektivní správu dokumentů.
+### [Vytvořit radiální graf a vložit jej do Wordu v Javě](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Naučte se vytvořit radiální graf a vložit jej do dokumentu Word pomocí Aspose.Words pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

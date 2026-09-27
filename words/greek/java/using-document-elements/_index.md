@@ -71,6 +71,10 @@
 Μάθετε να χρησιμοποιείτε αποτελεσματικά το Aspose.Words για τα στοιχεία ελέγχου αναθεώρησης της Java. Οδηγός βήμα προς βήμα για προγραμματιστές. Βελτιστοποιήστε τη διαχείριση εγγράφων σας.
 ### [Χρήση Ενοτήτων στο Aspose.Words για Java](./using-sections/)
 Εξερευνήστε το Aspose.Words για Java: Ένας ολοκληρωμένος οδηγός για τη χρήση ενοτήτων. Προσθήκη, διαγραφή, προσθήκη, κλωνοποίηση ενοτήτων με παραδείγματα κώδικα.
+### [Πώς να δημιουργήσετε docx που περιέχει ActiveX με Java και Aspose.Words](./how-to-create-docx-containing-activex-with-java/)
+Μάθετε πώς να δημιουργήσετε αρχεία docx που περιέχουν στοιχεία ActiveX χρησιμοποιώντας Java και Aspose.Words.
+### [Πώς να εισάγετε ένα γράφημα πίτας σε έγγραφο Word χρησιμοποιώντας Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Μάθετε πώς να προσθέσετε γράφημα πίτας σε έγγραφο Word με Aspose.Words για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

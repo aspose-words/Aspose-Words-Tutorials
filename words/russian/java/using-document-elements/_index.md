@@ -67,10 +67,14 @@
 Изучите управление узлами в Aspose.Words для Java с помощью этого пошагового руководства. Раскройте возможности обработки документов.
 ### [Использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java](./using-ole-objects-and-activex/)
 Изучите использование объектов OLE и элементов управления ActiveX в Aspose.Words для Java. Создавайте интерактивные документы с легкостью. Начните прямо сейчас!
+### [Создание docx, содержащего ActiveX, с Java и Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Узнайте, как создавать документы docx с элементами ActiveX, используя Java и Aspose.Words.
 ### [Использование ревизий в Aspose.Words для Java](./using-revisions/)
 Научитесь эффективно использовать контроль версий Aspose.Words for Java. Пошаговое руководство для разработчиков. Оптимизируйте управление документами.
 ### [Использование разделов в Aspose.Words для Java](./using-sections/)
 Исследуйте Aspose.Words для Java: полное руководство по использованию разделов. Добавляйте, удаляйте, присоединяйте, клонируйте разделы с примерами кода.
+### [Как вставить круговую диаграмму в документ Word с помощью Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Узнайте, как добавить круговую диаграмму в документ Word с помощью Aspose.Words для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

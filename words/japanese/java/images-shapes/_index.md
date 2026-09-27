@@ -36,8 +36,15 @@ Aspose.Words for Java を使って、Word 文書の高品質なサムネイル�
 
 ### [Word の図形に影を追加する – 完全 Aspose.Words ガイド](./add-shadow-to-shape-in-word-complete-aspose-words-guide/)
 Aspose.Words for Java を使用して、Word 文書内の図形に影効果を適用する方法をステップバイステップで解説します。
+
 ### [C# で図形に影効果を適用する – ステップバイステップ ガイド](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 C# で図形に影効果を適用する手順をステップバイステップで解説します。
+
+### [Javaで空白のWord文書を作成し、図形をグループ化する方法](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Javaで空白のWord文書を作成し、図形をグループ化する方法を解説します。
+
+### [非表示画像付きの新しいWord文書を作成する – ステップバイステップ ガイド](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+非表示画像を使用してWord文書を作成する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

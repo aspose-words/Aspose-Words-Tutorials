@@ -48,6 +48,9 @@ Learn efficient document saving with Aspose.Words for Java. This step-by-step gu
 Master advanced document save settings with Aspose.Words for Java. Learn to format, protect, optimize, and automate document creation effortlessly.
 ### [Manipulating Document Content with Cleanup, Fields, and XML Data](./manipulating-document-content/)
 Learn how to manipulate document content with Aspose.Words for Java. This step-by-step guide provides source code examples for efficient document management.
+### [Create radial chart and insert chart into Word with Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Learn how to generate a radial chart and embed it into a Word document using Aspose.Words for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

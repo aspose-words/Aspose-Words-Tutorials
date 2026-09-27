@@ -47,6 +47,9 @@ Aprenda a salvar documentos de forma eficiente com o Aspose.Words para Java. Est
 Domine as configurações avançadas de salvamento de documentos com o Aspose.Words para Java. Aprenda a formatar, proteger, otimizar e automatizar a criação de documentos sem esforço.
 ### [Manipulando conteúdo de documentos com limpeza, campos e dados XML](./manipulating-document-content/)
 Aprenda a manipular o conteúdo de documentos com o Aspose.Words para Java. Este guia passo a passo fornece exemplos de código-fonte para um gerenciamento eficiente de documentos.
+### [Criar gráfico radial e inserir gráfico no Word com Java](./create-radial-chart-and-insert-chart-into-word-with-java/)
+
+Aprenda a gerar um gráfico radial e incorporá-lo em um documento Word usando Aspose.Words para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

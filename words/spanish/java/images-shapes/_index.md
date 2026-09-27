@@ -39,6 +39,12 @@ Aprenda a aplicar sombras a formas en documentos Word usando Aspose.Words para J
 ### [Aplicar efecto de sombra a una forma en C# – Guía paso a paso](./apply-shadow-effect-to-a-shape-in-c-step-by-step-guide/)
 Aprenda a agregar sombras a formas en C# usando Aspose.Words, con ejemplos claros y paso a paso.
 
+### [Cómo crear un documento Word en blanco y agrupar formas en Java](./how-to-create-blank-word-document-and-group-shapes-in-java/)
+Aprenda a crear un documento Word vacío y agrupar formas usando Aspose.Words para Java.
+
+### [Crear un nuevo documento Word con una imagen oculta – guía paso a paso](./create-new-word-document-with-a-hidden-picture-step-by-step/)
+Aprenda a crear un documento Word y ocultar una imagen dentro, paso a paso con Aspose.Words para Java.
+
 ## Recursos adicionales
 
 ## Recursos adicionales

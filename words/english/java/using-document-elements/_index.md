@@ -68,6 +68,10 @@ Learn to use Markdown in Aspose.Words for Java with this step-by-step tutorial. 
 Learn to manipulate nodes in Aspose.Words for Java with this step-by-step tutorial. Unlock document processing power.
 ### [Using OLE Objects and ActiveX Controls in Aspose.Words for Java](./using-ole-objects-and-activex/)
 Learn to use OLE objects and ActiveX controls in Aspose.Words for Java. Create interactive documents with ease. Get started now!
+### [How to create docx containing ActiveX with Java and Aspose.Words](./how-to-create-docx-containing-activex-with-java-and-aspose-w/)
+Learn how to generate a DOCX with embedded ActiveX controls using Java and Aspose.Words in this step-by-step tutorial.
+### [How to insert a pie chart into a Word document using Java](./how-to-insert-a-pie-chart-into-a-word-document-using-java/)
+Learn how to insert a pie chart into a Word document using Aspose.Words for Java in this step-by-step tutorial.
 ### [Using Revisions in Aspose.Words for Java](./using-revisions/)
 Learn to use Aspose.Words for Java's revision controls efficiently. Step-by-step guide for developers. Optimize your document management.
 ### [Using Sections in Aspose.Words for Java](./using-sections/)
