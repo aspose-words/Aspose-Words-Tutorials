@@ -62,6 +62,7 @@ Ya sea que desee formatear texto con diferentes fuentes, establecer reglas de su
 | [Cómo habilitar advertencias y detectar fuentes faltantes al cargar archivos DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Aprenda a habilitar advertencias y detectar fuentes faltantes al cargar documentos DOCX con Aspose.Words para .NET. |
 | [Cómo detectar fuentes en documentos Word – Guía completa en C#](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Aprenda a detectar fuentes en documentos Word con Aspose.Words para .NET mediante una guía paso a paso en C#. |
 | [Manejar fuentes faltantes en C# con Aspose.Words – Guía completa](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Aprenda a detectar y gestionar fuentes faltantes en documentos Word usando Aspose.Words para .NET con C#. |
+| [Crear FontSettings en C# – Detectar fuentes faltantes y capturar mensajes de fuentes](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Aprenda a crear FontSettings en C# para detectar fuentes faltantes y capturar mensajes de fuentes con Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

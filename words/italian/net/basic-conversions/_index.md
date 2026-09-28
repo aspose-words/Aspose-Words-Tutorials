@@ -52,6 +52,7 @@
 | [Crea PDF da Word – Guida completa C# con rilevamento dei font](./create-pdf-from-word-complete-c-guide-with-font-detection/) | Scopri come generare PDF da documenti Word in C# usando Aspose.Words, con rilevamento automatico dei font per risultati perfetti. |
 | [Crea PDF da DOCX in C# – Guida completa con esportazione delle forme](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | Scopri come convertire DOCX in PDF includendo le forme, usando Aspose.Words per .NET con esempi di codice passo passo. |
 | [Salva Word come PDF in C# – Guida completa alla conversione accessibile](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | Scopri come convertire Word in PDF accessibile con C# usando Aspose.Words, includendo impostazioni di accessibilità. |
+| [Salva Word come PDF con Aspose.Words – Guida passo‑passo](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Scopri come salvare documenti Word in PDF passo‑passo usando Aspose.Words per .NET, con esempi di codice chiari e consigli pratici. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

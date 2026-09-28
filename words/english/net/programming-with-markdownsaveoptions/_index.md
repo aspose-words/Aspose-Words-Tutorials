@@ -94,6 +94,7 @@ class Program
 | [How to Save Markdown – Convert Word to Markdown & Export Math with Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Learn how to convert Word to Markdown and export mathematical equations using Aspose.Words for .NET. |
 | [Create folder C# – Convert Word to Markdown & Extract Images](./create-folder-c-convert-word-to-markdown-extract-images/) | Learn how to create a folder and extract images while converting Word to Markdown using Aspose.Words for .NET. |
 | [How to Save Markdown from Word with Images – Complete C# Guide](./how-to-save-markdown-from-word-with-images-complete-c-guide/) | Learn how to save Word documents as Markdown with image extraction using Aspose.Words for .NET. |
+| [Create Markdown from Word with Aspose — Step‑by‑Step Guide](./create-markdown-from-word-with-aspose-step-by-step-guide/) | Step‑by‑step guide to create Markdown from Word using Aspose.Words for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

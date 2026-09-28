@@ -67,6 +67,7 @@
 | [Как сохранить Markdown – Конвертировать Word в Markdown и экспортировать формулы с Aspose.Words](./how-to-save-markdown-convert-word-to-markdown-export-math-wi/) | Подробное руководство по сохранению документов Word в формате Markdown с экспортом математических формул, используя Aspose.Words для .NET. |
 | [Создать папку C# – Конвертировать Word в Markdown и извлечь изображения](./create-folder-c-convert-word-to-markdown-extract-images/) | Создайте папку и конвертируйте Word в Markdown с извлечением изображений на C#. |
 | [Как сохранить Markdown из Word с изображениями – Полное руководство C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/) | Сохраните документ Word в Markdown с изображениями, используя C# и Aspose.Words – полное пошаговое руководство. |
+| [Создать Markdown из Word с Aspose — пошаговое руководство](./create-markdown-from-word-with-aspose-step-by-step-guide/) | Конвертируйте документы Word в Markdown с помощью Aspose.Words, следуя подробному пошаговому руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

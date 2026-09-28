@@ -44,6 +44,7 @@ En utilisant Aspose.Words pour .NET et en suivant ces tutoriels, vous maîtriser
 | [Ajouter une ombre à une forme – Guide étape par étape pour les développeurs C#](./add-shadow-to-shape-step-by-step-guide-for-c-developers/) | Apprenez à ajouter une ombre aux formes dans vos documents Word avec Aspose.Words pour .NET grâce à ce guide détaillé étape par étape. |
 | [Créer une forme rectangulaire, ajouter une ombre et enregistrer en PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Apprenez à créer une forme rectangulaire, appliquer une ombre et enregistrer le document au format PDF avec Aspose.Words pour .NET. |
 | [Créer une forme rectangulaire dans Word – Guide complet Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Apprenez à créer une forme rectangulaire dans un document Word avec Aspose.Words grâce à ce guide complet étape par étape. |
+| [Créer un document Word avec une forme rectangulaire et une ombre – Guide étape par étape](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Apprenez à créer un document Word contenant une forme rectangulaire avec ombre à l'aide d'Aspose.Words – guide pas à pas. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

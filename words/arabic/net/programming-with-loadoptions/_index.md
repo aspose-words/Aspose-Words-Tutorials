@@ -52,6 +52,7 @@
 | [تكوين خيارات التحميل في Aspose باستخدام C# – دليل شامل](./configure-aspose-load-options-in-c-complete-guide/) | تعلم كيفية تكوين خيارات التحميل في Aspose باستخدام C# لتحسين تحميل مستندات Word. |
 | [خيارات التحميل في Aspose – تحويل DOCX إلى ماركداون و PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | تعلّم كيفية تحويل ملفات DOCX إلى تنسيق ماركداون وPDF باستخدام Aspose Load Options في .NET. |
 | [كيفية استعادة ملفات DOCX في C# – دليل خطوة بخطوة](./how-to-recover-docx-files-in-c-step-by-step-guide/) | تعلّم خطوة بخطوة كيفية استعادة ملفات DOCX التالفة باستخدام C# و Aspose.Words. |
+| [استعادة ملفات Word التالفة – دليل خطوة بخطوة لمطوري C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | تعرّف على كيفية استعادة ملفات Word التالفة باستخدام Aspose.Words لـ .NET عبر دليل خطوة بخطوة للمطورين بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

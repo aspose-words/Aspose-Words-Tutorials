@@ -45,6 +45,7 @@ Al usar Aspose.Words para .NET y seguir estos tutoriales, dominará la manipulac
 | [Crear documento Word en blanco con Aspose.Words – Guía paso a paso](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Aprenda a crear un documento Word vacío usando Aspose.Words con esta guía paso a paso. |
 | [Crear forma de rectángulo, agregar sombra y guardar en PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Aprenda a crear una forma rectangular, aplicar sombra y exportar el documento a PDF usando Aspose.Words para .NET. |
 | [Crear forma de rectángulo en Word – Guía completa de Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Aprenda a crear una forma rectangular en Word usando Aspose.Words con esta guía completa paso a paso. |
+| [Crear documento de Word con una forma rectangular y sombra – Guía paso a paso](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Aprenda a crear una forma rectangular con sombra en documentos de Word usando Aspose.Words paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

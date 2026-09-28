@@ -92,8 +92,6 @@
 
 ### [حفظ صور Word أثناء تحويل Word إلى Markdown – دليل C# كامل](./save-word-images-while-converting-word-to-markdown-complete/)
 
-### [كيفية حفظ Markdown من Word – دليل C# كامل](./how-to-save-markdown-from-word-complete-c-guide/)
-
 ### [كيفية تصدير Markdown من DOCX مع الصور – دليل كامل](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
 ### [كيفية تصدير Markdown من DOCX – دليل خطوة بخطوة كامل](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
@@ -107,6 +105,10 @@
 ### [إنشاء مجلد C# – تحويل Word إلى Markdown واستخراج الصور](./create-folder-c-convert-word-to-markdown-extract-images/)
 
 ### [كيفية حفظ Markdown من Word مع الصور – دليل C# كامل](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
+
+### [كيفية حفظ Markdown من Word – دليل C# كامل](./how-to-save-markdown-from-word-complete-c-guide/)
+
+### [إنشاء Markdown من Word باستخدام Aspose — دليل خطوة بخطوة](./create-markdown-from-word-with-aspose-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

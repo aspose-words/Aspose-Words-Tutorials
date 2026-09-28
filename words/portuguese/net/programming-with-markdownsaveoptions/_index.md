@@ -149,6 +149,9 @@ Aprenda a criar uma pasta, converter documentos Word para Markdown e extrair ima
 ### [Como salvar Markdown do Word com imagens – Guia completo em C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Aprenda a salvar documentos Word como Markdown incluindo imagens usando C# e Aspose.Words.
 
+### [Criar Markdown a partir do Word com Aspose — Guia passo a passo](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+Aprenda a criar arquivos Markdown a partir de documentos Word usando Aspose.Words passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 

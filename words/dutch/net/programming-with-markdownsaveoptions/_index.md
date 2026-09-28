@@ -87,6 +87,9 @@ Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
 
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
+### [Maak Markdown vanuit Word met Aspose – Stapsgewijze gids](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanuit Word‑documenten.
+
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 Leer hoe u LaTeX‑inhoud uit een Word‑document exporteert en converteert naar Markdown met Aspose.Words voor .NET.

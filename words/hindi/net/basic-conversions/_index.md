@@ -52,6 +52,7 @@
 | [C# में DOCX से PDF बनाएं – आकार निर्यात के साथ पूर्ण गाइड](./create-pdf-from-docx-in-c-full-guide-with-shape-export/) | .NET के लिए Aspose.Words का उपयोग करके C# में DOCX से PDF बनाते समय आकार (शेप) निर्यात कैसे करें, सीखें। विस्तृत कोड उदाहरण और चरण‑दर‑स्टेप मार्गदर्शिका। |
 | [C# में Word को PDF के रूप में सहेजें – पूर्ण सुलभ रूपांतरण गाइड](./save-word-as-pdf-in-c-complete-accessible-conversion-guide/) | C# में Aspose.Words का उपयोग करके Word को PDF में सहेजने की पूरी सुलभ रूपांतरण गाइड। |
 | [Word से PDF ट्यूटोरियल: Aspose.Words के साथ DOCX को PDF में बदलें](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Aspose.Words for .NET का उपयोग करके DOCX फ़ाइल को PDF में बदलने की चरण‑दर‑स्टेप गाइड। |
+| [Aspose.Words के साथ Word को PDF के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aspose.Words का उपयोग करके Word फ़ाइल को PDF में बदलने की चरण‑दर‑चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

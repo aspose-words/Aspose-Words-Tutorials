@@ -62,6 +62,8 @@ Cho dù bạn muốn định dạng văn bản bằng các phông chữ khác nh
 | [Tạo Trình Xử Lý Cảnh Báo Phông Chữ – Phát Hiện Phông Chữ Thiếu trong C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Tìm hiểu cách tạo trình xử lý cảnh báo phông chữ để phát hiện các phông chữ bị thiếu trong tài liệu Word bằng Aspose.Words cho .NET và C#. |
 | [Bật cảnh báo và phát hiện phông chữ thiếu khi tải DOCX](./how-to-enable-warnings-and-detect-missing-fonts-when-loading/) | Tìm hiểu cách bật cảnh báo và phát hiện phông chữ thiếu khi tải tệp DOCX bằng Aspose.Words cho .NET. |
 | [Cách phát hiện phông chữ trong tài liệu Word – Hướng dẫn C# đầy đủ](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Tìm hiểu cách phát hiện phông chữ trong tài liệu Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước. |
+| [Tạo FontSettings trong C# – Phát hiện phông chữ thiếu & Ghi nhận thông báo phông chữ](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Hướng dẫn tạo FontSettings trong C#, phát hiện phông chữ thiếu và ghi lại các thông báo phông chữ khi xử lý tài liệu. |
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@
 | [Aspose.Words を使用した C# の欠落フォント処理 – 完全ガイド](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) Aspose.Words for .NET を使用して、C# で欠落フォントを検出・置換し、文書の表示を保証する方法をステップバイステップで解説します。 |
 | [Aspose.Words のフォント警告を処理 – 欠落フォントを検出](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) Aspose.Words for .NET でフォント警告を処理し、欠落しているフォントを検出する方法をステップバイステップで学びます。 |
 
+| [C# で FontSettings を作成 – 欠落フォントを検出しフォントメッセージを取得](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) C# で FontSettings を作成し、欠落フォントを検出し、フォントメッセージを取得する方法を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

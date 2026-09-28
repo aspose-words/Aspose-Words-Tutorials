@@ -45,6 +45,7 @@ Aspose.Words for .NET を使い、これらのチュートリアルに従うこ�
 | [Aspose.Words で空白の Word 文書を作成 – ステップバイステップ ガイド](./create-blank-word-document-with-aspose-words-step-by-step-gu/) Aspose.Words for .NET を使用して、空の Word 文書を作成し、基本的な設定を行う方法をステップバイステップで解説します。 |
 | [長方形の図形を作成し、影を追加して PDF として保存](./create-rectangle-shape-add-shadow-save-pdf/) Aspose.Words for .NET を使用して、長方形の図形を作成し、影効果を設定し、PDF にエクスポートする方法を学びます。 |
 | [Word に長方形の図形を作成 – 完全 Aspose.Words ガイド](./create-rectangle-shape-in-word-full-aspose-words-guide/) Aspose.Words for .NET を使用して、Word 文書に長方形の図形を作成する完全ガイドです。 |
+| [矩形シェイプと影付きのWord文書を作成 – ステップバイステップ ガイド](./create-word-document-with-a-rectangle-shape-and-shadow-step/) Aspose.Words for .NET を使用して、矩形シェイプに影を付けた Word 文書を作成する方法を段階的に解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

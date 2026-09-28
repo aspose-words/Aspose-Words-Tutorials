@@ -36,6 +36,7 @@ Graças a estes tutoriais, você poderá explorar ao máximo as funcionalidades 
 | [Como Exportar LaTeX de DOCX – Guia Passo a Passo](./how-to-export-latex-from-docx-step-by-step-guide/) | Aprenda a exportar documentos DOCX para LaTeX usando Aspose.Words para .NET, passo a passo, com exemplos de código C#. |
 | [Salvar DOCX como TXT – Exportar Equações do Word para LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Aprenda a salvar documentos DOCX como arquivos TXT e exportar equações do Word para LaTeX usando Aspose.Words para .NET. |
 | [Como Exportar LaTeX do Word – Converter Word para TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Aprenda a exportar conteúdo LaTeX de documentos Word usando Aspose.Words para .NET, convertendo-os em arquivos TXT com formatação preservada. |
+| [Salvar documento como TXT – Exportar equações do Word para LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Aprenda a salvar documentos como TXT e exportar equações do Word para LaTeX usando Aspose.Words para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

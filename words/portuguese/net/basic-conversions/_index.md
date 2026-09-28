@@ -51,6 +51,7 @@ Conversões Básicas orienta você nas conversões básicas de documentos usando
 | [Converter DOCX para PDF em C# – Guia Completo](./convert-docx-to-pdf-in-c-complete-guide/) | Aprenda a converter arquivos DOCX para PDF em C# usando Aspose.Words, com passo a passo detalhado e exemplos de código. |
 | [Tutorial Word para PDF: Converter DOCX para PDF com Aspose.Words](./word-to-pdf-tutorial-convert-docx-to-pdf-with-aspose-words/) | Aprenda a converter DOCX para PDF usando Aspose.Words para .NET com este tutorial passo a passo. |
 | [Converter docx para txt com equações LaTeX – Guia Aspose.Words](./convert-docx-to-txt-with-latex-equations-aspose-words-guide/) | Aprenda a converter arquivos DOCX em TXT preservando equações LaTeX usando Aspose.Words para .NET. Guia passo a passo com exemplos. |
+| [Salvar Word como PDF com Aspose.Words – Guia passo a passo](./save-word-as-pdf-with-aspose-words-step-by-step-guide/) | Aprenda a salvar documentos Word como PDF usando Aspose.Words em C#. Guia passo a passo detalhado para desenvolvedores. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

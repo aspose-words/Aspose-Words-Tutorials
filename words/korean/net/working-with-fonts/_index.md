@@ -62,6 +62,7 @@
 | [Word 문서에서 글꼴 감지 방법 – 완전 C# 가이드](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Aspose.Words for .NET을 사용하여 Word 문서에서 사용된 글꼴을 감지하는 방법을 단계별로 안내합니다. |
 | [C#에서 누락된 글꼴 처리 – 완전 가이드](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Aspose.Words for .NET을 사용하여 C#에서 누락된 글꼴을 감지하고 대체하거나 알림을 받는 방법을 단계별로 안내합니다. |
 | [Aspose.Words에서 글꼴 경고 처리 – 누락된 글꼴 감지](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Aspose.Words for .NET을 사용하여 누락된 글꼴을 감지하고 경고를 처리하는 방법을 단계별로 안내합니다. |
+| [C#에서 FontSettings 만들기 – 누락된 글꼴 감지 및 글꼴 메시지 캡처](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Aspose.Words for .NET을 사용하여 누락된 글꼴을 감지하고 글꼴 관련 메시지를 캡처하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

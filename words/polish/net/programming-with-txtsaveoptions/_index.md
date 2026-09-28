@@ -36,6 +36,7 @@ Dzięki tym samouczkom będziesz w stanie w pełni wykorzystać funkcjonalności
 | [Jak wyeksportować LaTeX z DOCX – przewodnik krok po kroku](./how-to-export-latex-from-docx-step-by-step-guide/) | Dowiedz się, jak wyeksportować dokument DOCX do formatu LaTeX przy użyciu Aspose.Words dla .NET, krok po kroku. |
 | [Zapisz DOCX jako TXT – Eksportuj równania Word do LaTeX](./save-docx-as-txt-export-word-equations-to-latex/) | Dowiedz się, jak zapisać dokument DOCX jako plik TXT i wyeksportować równania Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. |
 | [Jak wyeksportować LaTeX z Worda – konwersja Word do TXT](./how-to-export-latex-from-word-convert-word-to-txt/) | Dowiedz się, jak przekształcić dokument Word w plik TXT zawierający kod LaTeX, używając Aspose.Words dla .NET. |
+| [Zapisz dokument jako TXT – Eksportuj równania Word do LaTeX](./save-document-as-txt-export-word-equations-to-latex/) | Dowiedz się, jak zapisać dokument jako plik TXT i wyeksportować równania Word do formatu LaTeX przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

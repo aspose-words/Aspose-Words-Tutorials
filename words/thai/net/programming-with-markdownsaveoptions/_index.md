@@ -130,6 +130,9 @@
 ### [วิธีบันทึก Markdown จาก Word พร้อมรูปภาพ – คู่มือเต็ม C#](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Word เป็น Markdown พร้อมการจัดการรูปภาพอย่างละเอียดด้วย C#
 
+### [สร้าง Markdown จาก Word ด้วย Aspose — คู่มือขั้นตอนโดยขั้นตอน](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Markdown จากเอกสาร Word โดยใช้ Aspose.Words อย่างละเอียดด้วยขั้นตอนทีละขั้นตอน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

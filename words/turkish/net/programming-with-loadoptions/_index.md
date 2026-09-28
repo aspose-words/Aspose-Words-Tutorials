@@ -52,6 +52,7 @@ Bu eğitimlerde, özel ayarlarla Word belgelerini yüklemek için LoadOptions'ı
 | [C#'ta Aspose Load Options'ı Yapılandırma – Tam Kılavuz](./configure-aspose-load-options-in-c-complete-guide/) | C# uygulamalarında Aspose Load Options ayarlarını adım adım yapılandırarak belge yüklemeyi özelleştirin. |
 | [Aspose Load Options – DOCX'i Markdown ve PDF'ye Dönüştür](./aspose-load-options-convert-docx-to-markdown-pdf/) | Aspose.Words for .NET kullanarak DOCX dosyalarını Markdown ve PDF formatlarına nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [C# ile DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-in-c-step-by-step-guide/) | Aspose.Words for .NET ile bozuk bir DOCX dosyasını C# içinde adım adım nasıl kurtaracağınızı öğrenin. |
+| [Bozuk Word Dosyalarını Kurtarma – C# Geliştiricileri için Adım Adım Kılavuz](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | Aspose.Words for .NET kullanarak bozuk Word dosyalarını C# ile adım adım nasıl kurtaracağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

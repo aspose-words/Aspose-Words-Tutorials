@@ -63,6 +63,7 @@ Niezależnie od tego, czy chcesz formatować tekst za pomocą różnych czcionek
 | [Obsługa brakujących czcionek w C# z Aspose.Words – Kompletny przewodnik](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Dowiedz się, jak obsługiwać brakujące czcionki w aplikacjach C# przy użyciu Aspose.Words, krok po kroku. |
 
 | [Obsługa ostrzeżeń czcionek w Aspose.Words – wykrywanie brakujących czcionek](./handle-font-warnings-in-aspose-words-detect-missing-fonts/) | Dowiedz się, jak obsługiwać ostrzeżenia o brakujących czcionkach w Aspose.Words dla .NET, wykrywając brakujące czcionki w dokumentach. |
+| [Utwórz FontSettings w C# – wykryj brakujące czcionki i przechwyć komunikaty czcionek](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Dowiedz się, jak w C# utworzyć FontSettings, wykrywać brakujące czcionki i przechwytywać komunikaty o czcionkach w Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

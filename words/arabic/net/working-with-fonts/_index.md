@@ -64,6 +64,7 @@
 | [كيفية اكتشاف الخطوط في مستندات Word – دليل C# كامل](./how-to-detect-fonts-in-word-documents-complete-c-guide/) |تعلم كيفية اكتشاف الخطوط المستخدمة في مستندات Word باستخدام Aspose.Words لـ .NET عبر دليل شامل خطوة بخطوة. |
 
 | [معالجة الخطوط المفقودة في C# باستخدام Aspose.Words – دليل شامل](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) |تعلم كيفية اكتشاف ومعالجة الخطوط المفقودة في مستندات Word باستخدام Aspose.Words في C# خطوة بخطوة. |
+| [إنشاء إعدادات الخط في C# – اكتشاف الخطوط المفقودة وتسجيل رسائل الخط](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) |تعرف على كيفية إنشاء FontSettings في C# لاكتشاف الخطوط المفقودة وتسجيل رسائل الخط باستخدام Aspose.Words لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

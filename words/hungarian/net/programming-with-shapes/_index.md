@@ -45,6 +45,7 @@ Az Aspose.Words for .NET használatával és az alábbi oktatóanyagok követés
 | [Üres Word-dokumentum létrehozása Aspose.Words használatával – Lépésről lépésre útmutató](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Tanulja meg, hogyan hozhat létre üres Word-dokumentumot az Aspose.Words for .NET segítségével lépésről lépésre. |
 | [Téglalap alakzat létrehozása, árnyék hozzáadása és PDF mentése](./create-rectangle-shape-add-shadow-save-pdf/) | Tanulja meg, hogyan hozhat létre téglalap alakzatot, adhat hozzá árnyékot, és mentheti PDF formátumban az Aspose.Words for .NET használatával. |
 | [Téglalap alakzat létrehozása Wordben – Teljes Aspose.Words útmutató](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Részletes, teljes körű útmutató a téglalap alakzat Wordben történő létrehozásához az Aspose.Words használatával. |
+| [Word dokumentum létrehozása téglalap alakzattal és árnyékkal – Lépésről lépésre útmutató](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Tanulja meg, hogyan hozhat létre Word dokumentumot téglalap alakzattal és árnyékkal az Aspose.Words for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

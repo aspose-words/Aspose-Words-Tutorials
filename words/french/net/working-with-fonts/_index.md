@@ -64,6 +64,7 @@ Que vous souhaitiez formater du texte avec différentes polices, définir des r�
 | [Créer un gestionnaire d'avertissement de police – détecter les polices manquantes en C#](./create-font-warning-handler-detect-missing-fonts-in-c/) | Apprenez à créer un gestionnaire d'avertissement de police pour détecter les polices manquantes dans vos documents Word avec Aspose.Words pour .NET en C#. |
 | [Comment détecter les polices dans les documents Word – Guide complet C#](./how-to-detect-fonts-in-word-documents-complete-c-guide/) | Apprenez à détecter les polices utilisées dans les documents Word avec Aspose.Words pour .NET, guide complet en C#. |
 | [Gérer les polices manquantes en C# avec Aspose.Words – Guide complet](./handle-missing-fonts-in-c-with-aspose-words-complete-guide/) | Apprenez à gérer les polices manquantes dans vos documents Word en C# avec Aspose.Words grâce à ce guide complet étape par étape. |
+| [Créer FontSettings en C# – Détecter les polices manquantes et capturer les messages de police](./create-fontsettings-in-c-detect-missing-fonts-capture-font-m/) | Apprenez à créer FontSettings en C#, détecter les polices manquantes et capturer les messages de police avec Aspose.Words pour .NET. |
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

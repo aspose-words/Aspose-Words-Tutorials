@@ -61,6 +61,9 @@ Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und Bilder als Bas
 ### [Wie man Markdown aus Word speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern, inklusive Codebeispielen und Tipps für optimale Ergebnisse.
 
+### [Markdown aus Word mit Aspose – Schritt‑für‑Schritt‑Anleitung](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man Markdown aus Word speichert – Vollständige Anleitung](./how-to-save-markdown-from-word-complete-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente vollständig als Markdown speichern – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 

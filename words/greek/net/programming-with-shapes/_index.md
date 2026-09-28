@@ -45,6 +45,7 @@
 | [Δημιουργία κενού εγγράφου Word με Aspose.Words – Οδηγός βήμα‑βήμα](./create-blank-word-document-with-aspose-words-step-by-step-gu/) | Μάθετε πώς να δημιουργήσετε ένα κενό έγγραφο Word χρησιμοποιώντας το Aspose.Words με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Δημιουργία σχήματος ορθογωνίου, προσθήκη σκιάς & αποθήκευση PDF](./create-rectangle-shape-add-shadow-save-pdf/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου, να προσθέσετε σκιά και να αποθηκεύσετε το έγγραφο ως PDF με Aspose.Words για .NET. |
 | [Δημιουργία σχήματος ορθογωνίου στο Word – Πλήρης οδηγός Aspose.Words](./create-rectangle-shape-in-word-full-aspose-words-guide/) | Μάθετε πώς να δημιουργήσετε σχήμα ορθογωνίου σε έγγραφο Word χρησιμοποιώντας το Aspose.Words με πλήρη βήμα-βήμα οδηγίες. |
+| [Δημιουργία εγγράφου Word με σχήμα ορθογωνίου και σκιά – Οδηγός βήμα προς βήμα](./create-word-document-with-a-rectangle-shape-and-shadow-step/) | Μάθετε πώς να δημιουργήσετε έγγραφο Word με σχήμα ορθογωνίου και εφέ σκιά χρησιμοποιώντας το Aspose.Words για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

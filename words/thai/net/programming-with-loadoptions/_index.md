@@ -50,6 +50,7 @@
 | [กำหนดค่า Aspose Load Options ใน C# – คู่มือครบถ้วน](./configure-aspose-load-options-in-c-complete-guide/) | เรียนรู้วิธีกำหนดค่า Load Options ของ Aspose.Words ใน C# อย่างละเอียดเพื่อการโหลดเอกสารที่มีประสิทธิภาพ |
 | [Aspose Load Options – แปลง DOCX เป็น Markdown และ PDF](./aspose-load-options-convert-docx-to-markdown-pdf/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น Markdown และ PDF ด้วย Aspose.Words สำหรับ .NET |
 | [วิธีกู้คืนไฟล์ DOCX ใน C# – คู่มือทีละขั้นตอน](./how-to-recover-docx-files-in-c-step-by-step-guide/) | เรียนรู้วิธีกู้คืนไฟล์ DOCX ที่เสียหายด้วย C# โดยใช้ Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน |
+| [กู้คืนไฟล์ Word ที่เสียหาย – คู่มือขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา C#](./recover-corrupted-word-files-step-by-step-guide-for-c-develo/) | เรียนรู้วิธีกู้คืนไฟล์ Word ที่เสียหายด้วย Aspose.Words สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนสำหรับนักพัฒนา C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

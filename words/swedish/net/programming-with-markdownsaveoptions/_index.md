@@ -62,6 +62,9 @@ Lär dig spara DOCX som Markdown med en detaljerad steg‑för‑steg‑guide i 
 
 ### [Hur man exporterar Markdown från DOCX – Fullständig guide](./how-to-export-markdown-from-docx-complete-guide/)
 Lär dig exportera Markdown från DOCX-filer med en komplett guide i C#.
+### [Skapa Markdown från Word med Aspose — Steg‑för‑steg‑guide](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+Lär dig skapa Markdown från Word med Aspose i en detaljerad steg‑för‑steg‑guide i C#.
+
 ### [Hur man exporterar Markdown från DOCX med bilder – Fullständig guide](./how-to-export-markdown-from-docx-with-images-complete-guide/)
 
 ### [Hur man exporterar Markdown från DOCX – Fullständig steg‑för‑steg‑guide](./how-to-export-markdown-from-docx-complete-step-by-step-guide/)
