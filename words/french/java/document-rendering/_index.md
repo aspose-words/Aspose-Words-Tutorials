@@ -27,7 +27,7 @@ Aspose.Words pour Java propose une multitude de tutoriels pour le rendu de docum
 Effectuez le rendu de vos documents sans effort grâce aux tutoriels d'Aspose.Words pour Java. Ces guides explorent en détail les options de rendu et vous permettent de convertir des documents Word en différents formats tout en préservant leur mise en page et leur design. Apprenez à générer des documents par lots, à personnaliser les paramètres de sortie et à optimiser les performances de rendu. Aspose.Words pour Java vous permet de créer des résultats visuellement époustouflants et de gérer efficacement vos tâches de traitement de texte et de traitement de documents. Améliorez vos compétences en rendu de documents et découvrez de nouvelles possibilités avec Aspose.Words pour Java.
 
 ## Tutoriels de rendu de documents
-### [Rendu du document principal ](./master-document-rendering/)
+### [Rendu du document principal](./master-document-rendering/)
 Apprenez le rendu de documents avec Aspose.Words pour Java ! Tutoriel pas à pas, code source inclus. Optimisez vos applications grâce à un traitement de documents fluide.
 ### [Rendu des pages de document sous forme d'images](./rendering-document-pages-images/)
 Apprenez à afficher des pages de documents sous forme d'images avec Aspose.Words pour Java. Guide étape par étape avec exemples de code pour une conversion efficace des documents.
@@ -39,6 +39,8 @@ Apprenez à enrichir vos documents avec des formes et des graphiques grâce à A
 Découvrez l'impression et le rendu efficaces de vos documents avec Aspose.Words pour Java. Apprenez étape par étape avec des exemples de code source.
 ### [Rendu de documents au format HTML](./rendering-documents-html/)
 Apprenez à convertir facilement des documents au format HTML avec Aspose.Words pour Java. Guide étape par étape pour une conversion efficace des documents.
+### [Comment gérer les polices en Java avec Aspose.Words – Guide complet](./how-to-handle-fonts-in-java-with-aspose-words-complete-guide/)
+Apprenez à gérer les polices dans vos documents Java avec Aspose.Words, incluant l’intégration, le remplacement et la personnalisation des fontes.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

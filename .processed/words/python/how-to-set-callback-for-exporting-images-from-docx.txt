@@ -1,0 +1,7 @@
+Title: How to Set Callback for Exporting Images from DOCX
+Slug: how-to-set-callback-for-exporting-images-from-docx
+Category: content-extraction-and-manipulation
+ProcessedDate: 2026-06-24T12:33:56.253377
+SourceRepo: AI Search API
+Keywords: how to set callback, export images from docx, how to extract images, save docx as markdown, extract svg from word
+PRNumber: 212

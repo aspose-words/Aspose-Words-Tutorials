@@ -1,0 +1,7 @@
+Title: Summarize Word Document in Java with Self‑Hosted LLM – Full Guide
+Slug: summarize-word-document-in-java-with-self-hosted-llm-full-gu
+Category: ai-machine-learning-integration
+ProcessedDate: 2026-07-03T23:22:53.307910
+SourceRepo: AI Search API
+Keywords: summarize word document, run ai prompt, generate document summary, load docx java, setup self hosted llm
+PRNumber: 220

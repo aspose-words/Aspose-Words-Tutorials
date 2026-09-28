@@ -1,0 +1,7 @@
+Title: translate docx to french with Aspose.Words AI
+Slug: translate-docx-to-french-with-aspose-words-ai
+Category: ai-powered-document-processing
+ProcessedDate: 2026-08-11T07:19:34.790212
+SourceRepo: AI Search API
+Keywords: translate docx to french, translate docx with ai, aspose.words ai translation
+PRNumber: 249

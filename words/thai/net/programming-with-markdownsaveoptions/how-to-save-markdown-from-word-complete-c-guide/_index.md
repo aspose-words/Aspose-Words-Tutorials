@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-03-01
-description: วิธีบันทึก markdown จากไฟล์ Word ด้วย Aspose.Words เรียนรู้การแปลง docx
-  เป็น markdown ส่งออกสมการและบันทึก docx เป็น markdown ในไม่กี่นาที
+date: 2026-01-05
+description: วิธีบันทึก markdown จากไฟล์ Word ด้วย Aspose.Words เรียนรู้การแปลง Word
+  เป็น markdown ส่งออกคณิตศาสตร์เป็น LaTeX และบันทึกไฟล์ docx เป็น markdown ภายในไม่กี่นาที
 draft: false
 keywords:
 - how to save markdown
 - convert word to markdown
-- convert docx to markdown
-- how to export equations
+- how to export math
+- how to convert docx
 - save docx as markdown
 language: th
-og_description: วิธีบันทึก markdown จากไฟล์ Word ด้วย Aspose.Words. บทเรียนนี้จะแสดงขั้นตอนทีละขั้นตอนในการแปลง
-  docx เป็น markdown และส่งออกสมการ.
+og_description: วิธีบันทึก markdown จากเอกสาร Word ด้วย Aspose.Words บทแนะนำขั้นตอนนี้จะแสดงวิธีแปลง
+  Word เป็น markdown ส่งออกคณิตศาสตร์เป็น LaTeX และบันทึกไฟล์ docx เป็น markdown
 og_title: วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับสมบูรณ์
 tags:
 - Aspose.Words
 - C#
 - Markdown
-- Office Math
-- Document Conversion
+- LaTeX
 title: วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับสมบูรณ์
 url: /th/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word-complete-c-guide/
 ---
@@ -30,213 +29,232 @@ url: /th/net/programming-with-markdownsaveoptions/how-to-save-markdown-from-word
 
 # วิธีบันทึก Markdown จาก Word – คู่มือ C# ฉบับสมบูรณ์
 
-กำลังมองหาวิธีที่เชื่อถือได้ในการ **วิธีบันทึก markdown** จากเอกสาร Word หรือไม่? คุณไม่ได้เป็นคนเดียว; นักพัฒนาจำนวนมากเจออุปสรรคเมื่อจำเป็นต้องย้ายเนื้อหา rich‑text โดยเฉพาะสมการ ไปยังรูปแบบ plain‑text ที่ static‑site generators นิยม  
+เคยสงสัย **วิธีบันทึก markdown** จากเอกสาร Word โดยไม่สูญเสียสมการที่ยุ่งยากบ้างไหม? คุณไม่ได้เป็นคนเดียวที่เจอปัญหานี้ นักพัฒนาจำนวนมากมักเจออุปสรรคเมื่อจำเป็นต้อง **convert word to markdown** พร้อมคง Office Math เป็น LaTeX โดยเฉพาะสำหรับ static‑site generators หรือ pipeline ของเอกสาร
 
-ในบทเรียนนี้เราจะอธิบายขั้นตอนการแปลงไฟล์ *.docx* เป็น Markdown พร้อมการสนับสนุนสมการเต็มรูปแบบ โดยใช้ Aspose.Words for .NET. เมื่อจบคุณจะรู้ **วิธีบันทึก markdown** อย่างแม่นยำ ทำไมตัวเลือกที่เลือกจึงสำคัญ และจะปรับกระบวนการให้เหมาะกับกรณีพิเศษเช่น MathML หรือสมการแบบ plain‑text อย่างไร
+ในบทเรียนนี้เราจะพาคุณผ่านโซลูชันแบบครบวงจรที่แสดง **วิธีบันทึก markdown**, **วิธีส่งออกสมการ**, และแม้กระทั่ง **วิธีบันทึก docx เป็น markdown** อย่างอัตโนมัติ เมื่อทำตามจนจบคุณจะได้สคริปต์ C# ที่พร้อมรันซึ่งรับไฟล์ `input.docx` แล้วสร้างไฟล์ `output.md` ที่จัดรูปแบบอย่างสมบูรณ์ พร้อมสมการที่ห่อด้วย LaTeX
 
-> **เคล็ดลับ:** หากคุณต้องการเพียงข้อความโดยไม่มีสมการ คุณสามารถข้ามการตั้งค่า `OfficeMathExportMode` ได้เลย—Aspose จะตัดสมการออกโดยอัตโนมัติ
+> **สิ่งที่คุณจะได้เรียนรู้**
+> * ติดตั้งและอ้างอิง Aspose.Words for .NET  
+> * โหลดไฟล์ DOCX (ใช่, **วิธีแปลง docx**)  
+> * ตั้งค่า `MarkdownSaveOptions` เพื่อส่งออก Office Math เป็น LaTeX  
+> * บันทึกผลลัพธ์เป็นไฟล์ Markdown (หัวใจของ **วิธีบันทึก markdown**)  
+> * จัดการกับปัญหาที่พบบ่อย—ฟอนต์หาย, สมการที่ไม่รองรับ, และเอกสารขนาดใหญ่  
 
-## สิ่งที่คุณต้องมี
+ไม่มีเนื้อหาเกินความจำเป็น เพียงข้อมูลที่คุณต้องการเพื่อเริ่มทำได้ทันที
 
-- **.NET 6** หรือใหม่กว่า (โค้ดทำงานบน .NET Framework ด้วยเช่นกัน แต่เราจะตั้งเป้าหมายที่ .NET 6 เพื่อความทันสมัย)  
-- **Visual Studio 2022** (หรือ IDE ใดก็ได้ที่คุณชอบ)  
-- **Aspose.Words for .NET** – ติดตั้งผ่าน NuGet (`Install-Package Aspose.Words`)  
-- ตัวอย่างไฟล์ Word (`input.docx`) ที่มีอย่างน้อยหนึ่ง Office Math object (สมการ)
+---
 
-แค่นั้น—ไม่มีไลบรารีเพิ่มเติม ไม่มีตัวแปลงภายนอก เพียงแพคเกจ NuGet เดียว
+## วิธีบันทึก Markdown จาก Word – ภาพรวม
 
-![ตัวอย่างการบันทึก markdown](https://example.com/images/markdown-export.png "แผนภาพแสดงวิธีบันทึก markdown จากไฟล์ Word")
+ก่อนจะลงลึกในโค้ด เรามาอธิบายว่าทำไมเรื่องนี้ถึงสำคัญ Markdown เป็นภาษามาตรฐานสำหรับเอกสารสมัยใหม่ แต่ Word ยังคงเป็นเครื่องมือเขียนที่หลายองค์กรเลือกใช้ การเชื่อมต่อสองโลกนี้ทำให้คุณสามารถทำให้ผู้เขียนมีความสุขพร้อมกับส่ง Markdown ที่สะอาดและควบคุมเวอร์ชันได้เข้าไปยัง static site generators, wiki ที่ใช้ Git, หรือ pipeline CI คีย์สำคัญคือ **วิธีส่งออกสมการ** อย่างถูกต้อง; ข้อความธรรมดาจะทำให้โครงสร้างสมการหายไป แต่ LaTeX จะคงความอ่านง่ายและสามารถเรนเดอร์ได้
 
-*ข้อความแทนภาพ: ตัวอย่างการบันทึก markdown*
+---
 
-## ขั้นตอน 1: ติดตั้งและอ้างอิง Aspose.Words
+## ข้อกำหนดเบื้องต้น
 
-### แปลง Word เป็น Markdown – อุปสรรคแรก
+- **.NET 6.0** หรือใหม่กว่า (API ทำงานบน .NET Core และ .NET Framework ทั้งสอง)  
+- **Aspose.Words for .NET** – สามารถดาวน์โหลดเวอร์ชันทดลองฟรีจากเว็บไซต์ Aspose หรือใช้แพ็กเกจ NuGet: `Install-Package Aspose.Words`  
+- เอกสาร Word (`.docx`) ที่มี Office Math อย่างน้อยหนึ่งอ็อบเจกต์  
+- IDE ที่คุณชอบ (Visual Studio, Rider, หรือ VS Code)  
 
-เปิดโปรเจกต์ของคุณ, คลิกขวาที่ **Dependencies**, แล้วเลือก **Manage NuGet Packages**. ค้นหา **Aspose.Words** แล้วกด **Install**. แพคเกจนี้จะนำเข้าทุกอย่างที่คุณต้องการเพื่ออ่าน `.docx`, จัดการ document object model, และเขียนออกเป็น Markdown
+เท่านี้—ไม่ต้องติดตั้งไลบรารีเพิ่มเติม ไม่ต้องใช้เครื่องมือบรรทัดคำสั่งที่ซับซ้อน
+
+---
+
+## ขั้นตอนที่ 1: ติดตั้ง Aspose.Words และเพิ่ม Using Directives
+
+ก่อนอื่นให้แน่ใจว่าได้อ้างอิง assembly ของ Aspose.Words แล้ว ใน Package Manager Console ให้รัน:
 
 ```powershell
-# PowerShell / Package Manager Console
 Install-Package Aspose.Words
 ```
 
-> **ทำไมเรื่องนี้ถึงสำคัญ:** Aspose.Words แยกการทำงานของการพาร์ส OpenXML ระดับต่ำออกไป, คุณจึงไม่ต้องเขียน XML ด้วยตนเองหรือกังวลเรื่องความเข้ากันของเวอร์ชัน. นอกจากนี้ยังให้การควบคุมละเอียดเกี่ยวกับการส่งออก Office Math
-
-## ขั้นตอน 2: โหลดไฟล์ Word ต้นฉบับ
-
-### แปลง docx เป็น markdown – โหลดไฟล์
-
-สร้างแอปคอนโซล C# ใหม่ (หรือแทรกโค้ดนี้ลงในบริการที่มีอยู่). บรรทัดแรกของโค้ดจะโหลด DOCX เข้าไปในอ็อบเจกต์ `Aspose.Words.Document`
+จากนั้นเพิ่ม `using` ที่จำเป็นไว้ด้านบนไฟล์ C# ของคุณ:
 
 ```csharp
 using Aspose.Words;
 using Aspose.Words.Saving;
-
-// Path to the Word file that contains equations
-string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-
-// Load the document – this parses the entire Word structure in memory
-Document document = new Document(inputPath);
 ```
 
-*หมายเหตุ:* เราใช้ `Path.Combine` อย่างตั้งใจเพื่อหลีกเลี่ยงการกำหนดตัวคั่นแบบฮาร์ด‑โค้ด; วิธีนี้ทำให้โค้ดพกพาได้บน Windows, macOS, และ Linux
+> **เคล็ดลับ:** หากคุณกำหนดเป้าหมายไปยังแพลตฟอร์มเฉพาะ (เช่น Linux containers) ให้ใช้สวิตช์ `-Runtime` เพื่อึงไบนารีเนทีฟที่ตรงกัน
 
-## ขั้นตอน 3: ตั้งค่า Markdown Save Options (การส่งออกสมการ)
+---
 
-### วิธีส่งออกสมการ – การตั้งค่ามหัศจรรย์
+## ขั้นตอนที่ 2: โหลด DOCX ที่ต้องการแปลง (วิธีแปลง DOCX)
 
-Aspose.Words ให้คุณกำหนดว่า Office Math objects ควรปรากฏอย่างไรในผลลัพธ์ Markdown. enum `OfficeMathExportMode` มีสามตัวเลือก:
-
-| โหมด | ผลลัพธ์ใน Markdown |
-|------|-------------------|
-| **LaTeX** | `\frac{a}{b}` – เหมาะสำหรับ static‑site generators ที่เข้าใจ LaTeX. |
-| **MathML** | `<math>…</math>` – มีประโยชน์สำหรับเบราว์เซอร์ที่รองรับ MathML. |
-| **Text** | Plain‑text fallback (เช่น “a/b”). |
-
-สำหรับนักพัฒนาส่วนใหญ่, **LaTeX** เป็นตัวเลือกที่ดีที่สุดเพราะทำงานร่วมกับ Jekyll, Hugo, และเรนเดอร์ JavaScript จำนวนมาก (MathJax, KaTeX)
+ตอนนี้เราจะ **convert docx** เป็นอ็อบเจกต์ `Document` ที่อยู่ในหน่วยความจำ ขั้นตอนนี้คือการบอก Aspose.Words ว่าอ่านไฟล์ใด
 
 ```csharp
-// Step 3: Configure how equations are exported
+// Replace the path with your actual file location
+string inputPath = @"C:\Projects\Docs\input.docx";
+
+Document doc = new Document(inputPath);
+```
+
+ทำไมต้องเก็บไฟล์ไว้ในหน่วยความจำ? เพราะเราสามารถปรับ `save options` — เช่น **วิธีส่งออกสมการ** — ก่อนบันทึกลงดิสก์ นอกจากนี้ยังทำให้สามารถต่อเนื่องการแปลงหลายขั้นตอน (เช่น DOCX → HTML → Markdown) ได้โดยไม่ต้องสร้างไฟล์ชั่วคราวหลายไฟล์
+
+---
+
+## ขั้นตอนที่ 3: ตั้งค่า MarkdownSaveOptions (แปลง Word เป็น Markdown & ส่งออกสมการ)
+
+นี่คือหัวใจของ **วิธีบันทึก markdown**: เราจะสร้างอินสแตนซ์ของ `MarkdownSaveOptions` แล้วบอกให้แสดง Office Math เป็น LaTeX ค่าตัวแปร `OfficeMathExportMode.LaTeX` ทำหน้าที่นั้นโดยตรง
+
+```csharp
 MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
 {
-    // Export Office Math as LaTeX (alternatives: MathML, Text)
-    OfficeMathExportMode = OfficeMathExportMode.LaTeX
+    // Export all Office Math objects as LaTeX equations
+    OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+
+    // Optional: preserve original line breaks for better diff‑ability
+    ExportHeadersFooters = false,
+    ExportImagesAsBase64 = true
 };
 ```
 
-> **ทำไมต้องใช้ LaTeX?** LaTeX ให้สมการที่คมชัดและปรับขนาดได้อย่างสม่ำเสมอบนทุกอุปกรณ์. หากคุณมุ่งเป้าไปยังแพลตฟอร์มที่รองรับเฉพาะ MathML เพียงเปลี่ยนค่า enum—ไม่ต้องแก้โค้ดส่วนอื่น
+หมายเหตุสำคัญ:
 
-## ขั้นตอน 4: บันทึกเอกสารเป็น Markdown
+- **`OfficeMathExportMode.LaTeX`** เป็นโหมดที่แนะนำสำหรับ static site generators ที่รองรับ MathJax หรือ KaTeX  
+- การตั้งค่า `ExportImagesAsBase64` ทำให้ Markdown มีไฟล์ทั้งหมดในตัว — มีประโยชน์เมื่อคุณผลักไฟล์ไปที่รีโพที่ไม่โฮสต์รูปแยกกัน  
+- หากต้องการสมการแบบ Unicode ธรรมดา ให้เปลี่ยน `LaTeX` เป็น `Unicode` แทน
 
-### บันทึก docx เป็น markdown – บรรทัดเดียว
+---
 
-ตอนนี้งานหนักทั้งหมดเสร็จแล้ว. เรียก `Document.Save` พร้อมชื่อไฟล์เป้าหมายและ `MarkdownSaveOptions` ที่ตั้งค่าไว้
+## ขั้นตอนที่ 4: บันทึกเอกสารเป็น Markdown (บันทึก DOCX เป็น Markdown)
+
+สุดท้าย เราจะเขียนไฟล์ Markdown ลงดิสก์ นี่คือคำตอบตรงๆ ของ **วิธีบันทึก markdown** ด้วย C#
 
 ```csharp
-// Step 4: Export the document to Markdown
-string outputPath = Path.Combine(Environment.CurrentDirectory, "output.md");
-document.Save(outputPath, mdOptions);
-Console.WriteLine($"✅ Markdown file created at: {outputPath}");
+string outputPath = @"C:\Projects\Docs\output.md";
+
+doc.Save(outputPath, mdOptions);
+Console.WriteLine($"✅ Markdown saved to {outputPath}");
 ```
 
-เมื่อคุณเปิด `output.md`, คุณจะเห็น:
+เมื่อเปิด `output.md` คุณจะเห็นไวยากรณ์ Markdown ปกติ และสมการใดๆ จะถูกห่อด้วย `$…$` (inline) หรือ `$$…$$` (display) พร้อมพร้อมสำหรับการเรนเดอร์ด้วย MathJax
+
+**ตัวอย่างผลลัพธ์ที่คาดหวัง** (สมมติว่า DOCX ต้นฉบับมีสมการง่าย `a^2 + b^2 = c^2`):
 
 ```markdown
-# Sample Title
+Here is a classic Pythagorean theorem:
 
-This is a paragraph with an equation:
-
-$$
-\frac{a}{b}
-$$
-
-Regular text continues here.
+$$a^2 + b^2 = c^2$$
 ```
 
-บล็อก LaTeX จะถูกล้อมด้วยตัวคั่น `$$`, ซึ่งเรนเดอร์ส่วนใหญ่จะตีความเป็นพื้นที่แสดงสมการ
+หากเอกสารต้นฉบับมีรูปภาพ รูปเหล่านั้นจะถูกฝังเป็นสตริง base‑64 ทันทีหลังจาก markup `![](...)`
 
-## ขั้นตอน 5: ตรวจสอบผลลัพธ์และจัดการกรณีพิเศษ
+---
 
-### แปลง word เป็น markdown – ทดสอบผลลัพธ์ของคุณ
+## ขั้นตอนที่ 5: ตรวจสอบผลลัพธ์และปรับแต่งตามต้องการ
 
-เปิดไฟล์ที่สร้างขึ้นในตัวดูตัวอย่าง Markdown (VS Code, Typora, หรือ static site ของคุณ). หากสมการแสดงเป็น LaTeX ดิบ คุณอาจต้องเพิ่มสคริปต์ MathJax/KaTeX ในเทมเพลต HTML ของคุณ. เพิ่มสคริปต์นี้ลงใน `<head>` ของไซต์เพื่อทดสอบอย่างรวดเร็ว:
+หลังจากแปลงเสร็จ เปิดไฟล์ Markdown ด้วยโปรแกรมแก้ไขที่คุณชอบ (VS Code, Typora, หรือแม้แต่การพรีวิวของ GitHub) ตรวจสอบว่า:
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-```
+1. หัวเรื่องทั้งหมด (`#`, `##` ฯลฯ) ตรงกับสไตล์ Word ดั้งเดิม  
+2. สมการแสดงผลถูกต้อง — โปรแกรมแก้ไขส่วนใหญ่จะแสดงโค้ด LaTeX ส่วนเบราว์เซอร์ที่มี MathJax จะเรนเดอร์เป็นสมการที่จัดรูปแบบแล้ว  
+3. รูปภาพปรากฏตรงที่คาดหวัง  
 
-#### ปัญหาที่พบบ่อยและวิธีแก้
+หากพบข้อบกพร่อง คุณสามารถปรับ `MarkdownSaveOptions` ได้:
 
-| ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|--------|-----|
-| **Equations appear as plain text** | `OfficeMathExportMode` ถูกทิ้งไว้เป็นค่าเริ่มต้น (`Text`). | ตั้งค่า `OfficeMathExportMode = OfficeMathExportMode.LaTeX`. |
-| **Images are missing** | โดยค่าเริ่มต้น Aspose ฝังรูปเป็น base‑64. เอกสารใหญ่อาจทำให้ไฟล์บวม. | ใช้ `MarkdownSaveOptions.ImagesFolder` เพื่อเก็บรูปแยกไฟล์. |
-| **Unsupported Word features** (เช่น SmartArt) | ไม่ใช่วัตถุ Word ทุกชนิดที่แปลงเป็น Markdown. | แปลงส่วนเหล่านั้นเป็นข้อความธรรมดาหรือส่งออกเป็นทรัพยากรแยก. |
-| **Performance on huge docs** | การโหลด `.docx` ขนาดมหาศาลอาจใช้ RAM มาก. | สตรีมเอกสารด้วย `LoadOptions` ที่ระบุ `LoadFormat.Docx` และประมวลผลเป็นชิ้นส่วนถ้าจำเป็น. |
+| ตัวเลือก | สิ่งที่ควบคุม | การปรับแต่งทั่วไป |
+|----------|----------------|-------------------|
+| `ExportHeadersFooters` | รวมข้อความหัวกระดาษ/ท้ายกระดาษ | ตั้งค่าเป็น `true` หากคุณต้องการ |
+| `ExportImagesAsBase64` | รูปภาพในบรรทัดเดียวกับไฟล์หรือไฟล์แยก | สลับเป็น `false` แล้วระบุโฟลเดอร์ปลายทาง |
+| `ExportTableColumnHeaders` | ถือแถวแรกเป็นหัวตาราง | เปิดใช้งานสำหรับตารางสไตล์ CSV |
 
-### บันทึก docx เป็น markdown – ปรับแต่งเพิ่มเติม
+---
 
-หากคุณต้องการเก็บชื่อไฟล์ต้นฉบับไว้ในหัวข้อ Markdown, สามารถเพิ่มบล็อก front‑matter โปรแกรมmatically:
+## ปัญหาที่พบบ่อย & กรณีขอบ (วิธีส่งออกสมการอย่างปลอดภัย)
+
+### 1. ฟอนต์หรือสัญลักษณ์หาย
+หากไฟล์ Word ใช้ฟอนต์กำหนดเองสำหรับสัญลักษณ์ Aspose.Words อาจใช้ฟอนต์เริ่มต้นแทน ทำให้ LaTeX เกิดอักขระผิดพลาด วิธีแก้? ติดตั้งฟอนต์ที่ขาดหายบนเครื่องที่ทำการแปลง หรือฝังฟอนต์ใน DOCX (`File → Options → Save → Embed fonts`)
+
+### 2. เอกสารขนาดใหญ่มาก
+การประมวลผล DOCX ขนาด 200 หน้าอาจใช้หน่วยความจำสูง พิจารณาใช้ `LoadOptions` พร้อม `LoadFormat.Docx` และ `MemoryUsageSetting` เพื่อสตรีมไฟล์แทนการโหลดทั้งหมดเข้าหน่วยความจำ
 
 ```csharp
-var frontMatter = $"---\ntitle: \"{Path.GetFileNameWithoutExtension(inputPath)}\"\n---\n\n";
-File.WriteAllText(outputPath, frontMatter + File.ReadAllText(outputPath));
+LoadOptions loadOpts = new LoadOptions
+{
+    LoadFormat = LoadFormat.Docx,
+    MemoryUsageSetting = MemoryUsageSetting.MemoryOptimized
+};
+
+Document largeDoc = new Document(inputPath, loadOpts);
 ```
 
-ตอนนี้ static site ของคุณจะดึงหัวเรื่องโดยอัตโนมัติ
+### 3. ฟีเจอร์สมการที่ไม่รองรับ
+Aspose.Words รองรับส่วนใหญ่ของ Office Math แต่บางโครงสร้างใหม่ (เช่น วงเล็บเมทริกซ์ที่กำหนดเอง) อาจถูกแปลงเป็นข้อความธรรมดา ในกรณีเช่นนี้คุณสามารถทำ post‑process ด้วย regex เพื่อแทนที่ placeholder ด้วย LaTeX ที่ต้องการได้
 
-## คำถามที่พบบ่อย (FAQs)
+---
 
-**Q: ฉันสามารถแปลงไฟล์ DOCX จำนวนหลายไฟล์ในรอบเดียวได้หรือไม่?**  
-A: ทำได้แน่นอน. ให้วนลูป `foreach (var file in Directory.GetFiles(folder, "*.docx"))` แล้วเรียกใช้โลจิกการโหลด/บันทึก. อย่าลืมตั้งชื่อไฟล์ผลลัพธ์ให้ไม่ซ้ำกัน
+## ตัวอย่างทำงานเต็มรูปแบบ (ทุกขั้นตอนในไฟล์เดียว)
 
-**Q: ถ้าฉันต้องการ MathML แทน LaTeX จะทำอย่างไร?**  
-A: เปลี่ยนค่า enum เป็น `OfficeMathExportMode.MathML`. Markdown จะมีแท็ก `<math>` ดิบ ซึ่งเบราว์เซอร์ที่รองรับ MathML จะเรนเดอร์โดยตรง
-
-**Q: โค้ดนี้ทำงานบน .NET Core หรือไม่?**  
-A: ใช่. Aspose.Words รองรับหลายแพลตฟอร์ม; โค้ดเดียวกันทำงานบน Windows, Linux, และ macOS
-
-**Q: จะจัดการกับตารางที่มีสมการอย่างไร?**  
-A: ตารางจะถูกแปลงเป็นตาราง Markdown โดยอัตโนมัติ. สมการภายในเซลล์ตารางยังคงใช้ไวยากรณ์ LaTeX เหมือนบล็อกอื่น ๆ
-
-## ตัวอย่างการทำงานเต็มรูปแบบ
-
-ด้านล่างเป็นโปรแกรมเต็มที่คุณสามารถคัดลอก‑วางลงในโปรเจกต์คอนโซลใหม่. มีขั้นตอนทั้งหมด, คอมเมนต์, และข้อความตรวจสอบเล็ก ๆ
+ด้านล่างเป็นโปรแกรมพร้อมคัดลอก‑วางที่สาธิต **วิธีบันทึก markdown**, **วิธีแปลง docx**, และ **วิธีส่งออกสมการ** ในขั้นตอนเดียว
 
 ```csharp
+// ------------------------------------------------------------
+// How to Save Markdown from Word – Complete Example
+// ------------------------------------------------------------
 using System;
-using System.IO;
 using Aspose.Words;
 using Aspose.Words.Saving;
 
-namespace WordToMarkdownDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
+        // 1️⃣ Define input and output paths
+        string inputPath = @"C:\Projects\Docs\input.docx";
+        string outputPath = @"C:\Projects\Docs\output.md";
+
+        // 2️⃣ Load the DOCX (how to convert docx)
+        Document doc = new Document(inputPath);
+
+        // 3️⃣ Prepare Markdown options (convert word to markdown + how to export math)
+        MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
         {
-            // -------------------------------------------------
-            // 1️⃣  Load the source Word document containing equations
-            // -------------------------------------------------
-            string inputPath = Path.Combine(Environment.CurrentDirectory, "input.docx");
-            if (!File.Exists(inputPath))
-            {
-                Console.WriteLine($"❌ Input file not found: {inputPath}");
-                return;
-            }
+            OfficeMathExportMode = OfficeMathExportMode.LaTeX,
+            ExportHeadersFooters = false,
+            ExportImagesAsBase64 = true,
+            ExportTableColumnHeaders = true
+        };
 
-            Document doc = new Document(inputPath);
-            Console.WriteLine("📄 Word document loaded successfully.");
+        // 4️⃣ Save as Markdown (save docx as markdown)
+        doc.Save(outputPath, mdOptions);
 
-            // -------------------------------------------------
-            // 2️⃣  Configure Markdown options – export equations as LaTeX
-            // -------------------------------------------------
-            MarkdownSaveOptions mdOptions = new MarkdownSaveOptions
-            {
-                OfficeMathExportMode = OfficeMathExportMode.LaTeX,
-                // Optional: store images in a sub‑folder instead of base‑64
-                ImagesFolder = Path.Combine(Environment.CurrentDirectory, "images")
-            };
-
-            // -------------------------------------------------
-            // 3️⃣  Save the document as Markdown
-            // -------------------------------------------------
-            string outputPath = Path.Combine(Environment.CurrentDirectory, "output.md");
-            doc.Save(outputPath, mdOptions);
-            Console.WriteLine($"✅ Markdown file created at: {outputPath}");
-
-            // -------------------------------------------------
-            // 4️⃣  (Optional) Prepend YAML front‑matter for static sites
-            // -------------------------------------------------
-            string frontMatter = $"---\ntitle: \"{Path.GetFileNameWithoutExtension(inputPath)}\"\n---\n\n";
-            File.WriteAllText(outputPath, frontMatter + File.ReadAllText(outputPath));
-            Console.WriteLine("🗒️ Front‑matter added for Hugo/Jekyll compatibility.");
-        }
+        Console.WriteLine($"✅ Successfully saved Markdown to: {outputPath}");
     }
 }
 ```
 
-รันโปรแกรม (`dotnet run`) แล้วตรวจสอบ `output.md`. คุณควรเห็นข้อความของคุณ
+รันโปรแกรม (`dotnet run` หากใช้ .NET CLI) แล้วตรวจสอบไฟล์ `output.md` คุณจะเห็น Markdown ที่สะอาดพร้อมสมการ LaTeX พร้อมใช้กับ static‑site generator ใดก็ได้
+
+---
+
+## โบนัส: ทำอัตโนมัติสำหรับหลายไฟล์
+
+หากคุณมีโฟลเดอร์ที่เต็มไปด้วยไฟล์ Word เพียงห่อโลจิกข้างบนในลูปง่าย ๆ:
+
+```csharp
+string sourceFolder = @"C:\Projects\Docs\WordFiles";
+string targetFolder = @"C:\Projects\Docs\Markdown";
+
+foreach (var file in Directory.GetFiles(sourceFolder, "*.docx"))
+{
+    string outFile = Path.Combine(targetFolder,
+        Path.GetFileNameWithoutExtension(file) + ".md");
+
+    Document doc = new Document(file);
+    doc.Save(outFile, mdOptions);
+    Console.WriteLine($"Converted {Path.GetFileName(file)} → {Path.GetFileName(outFile)}");
+}
+```
+
+สคริปต์สั้น ๆ นี้เปลี่ยน **วิธีแปลง docx** ให้เป็นการทำงานแบบแบตช์ เหมาะสำหรับ pipeline CI ที่ต้องเผยแพร่เอกสารทุกครั้งที่คอมมิต
+
+---
+
+## สรุป
+
+เราครอบคลุมทุกสิ่งที่คุณต้องรู้เกี่ยวกับ **วิธีบันทึก markdown** จากเอกสาร Word ด้วย Aspose.Words for .NET โดยทำตามขั้นตอนด้านบนคุณสามารถ **convert
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

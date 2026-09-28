@@ -26,7 +26,7 @@ Split Document är en omfattande resurs som förklarar hur man delar upp ett dok
 | [Dela Word-dokument efter sida](./page-by-page/) | Lär dig hur du delar upp ett Word-dokument per sida med Aspose.Words för .NET med den här detaljerade steg-för-steg-guiden. Perfekt för att hantera stora dokument effektivt. |
 | [Sammanfoga dokument](./merge-documents/) | Steg-för-steg-guide för att förklara C#-källkoden för funktionen Merge Documents i Aspose.Words för .NET |
 | [Dela Word-dokument efter sidintervall](./by-page-range/) | Lär dig hur du delar upp ett Word-dokument efter sidintervall med Aspose.Words för .NET med vår detaljerade steg-för-steg-guide. Perfekt för utvecklare. |
-
+| [Skapa PDF från sidor – Guide för att extrahera specifika sidor](./create-pdf-from-pages-extract-specific-pages-guide/) | Lär dig hur du skapar en PDF genom att extrahera utvalda sidor med Aspose.Words för .NET i en steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Convert Word Equations to LaTeX – Complete C# Guide
+Slug: convert-word-equations-to-latex-complete-c-guide
+Category: programming-with-officemath
+ProcessedDate: 2026-06-27T14:33:02.634899
+SourceRepo: AI Search API
+Keywords: convert word equations to latex
+PRNumber: 213

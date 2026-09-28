@@ -1,0 +1,7 @@
+Title: How to save Word as PDF with Aspose Words – step‑by‑step guide
+Slug: how-to-save-word-as-pdf-with-aspose-words-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-08-20T23:08:39.655436
+SourceRepo: AI Search API
+Keywords: save word as pdf, convert docx to pdf, convert word document pdf, aspose word to pdf, aspose pdf save options
+PRNumber: 260
