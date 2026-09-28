@@ -58,6 +58,12 @@ Erfahren Sie, wie Sie LaTeX aus Word exportieren und DOCX‑Dateien mit Aspose i
 
 ### [Word in Markdown konvertieren – Bilder als Base64 einbetten](./convert-word-to-markdown-embed-images-as-base64/)
 Erfahren Sie, wie Sie Word-Dokumente in Markdown konvertieren und Bilder als Base64 einbetten.
+### [Wie man Markdown aus Word speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-complete-c-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente als Markdown speichern, inklusive Codebeispielen und Tipps für optimale Ergebnisse.
+
+### [Markdown aus Word mit Aspose – Schritt‑für‑Schritt‑Anleitung](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie Word‑Dokumente mit Aspose in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man Markdown aus Word speichert – Vollständige Anleitung](./how-to-save-markdown-from-word-complete-guide/)
 Erfahren Sie, wie Sie Word‑Dokumente vollständig als Markdown speichern – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 
@@ -151,12 +157,6 @@ Erfahren Sie, wie Sie mit C# einen Ordner erstellen, ein Word‑Dokument nach Ma
 
 ### [Wie man Markdown aus Word mit Bildern speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 Erfahren Sie, wie Sie Markdown aus Word‑Dokumenten mit Bildextraktion speichern – komplette C#‑Anleitung.
-
-### [Wie man Markdown aus Word speichert – Vollständige C#‑Anleitung](./how-to-save-markdown-from-word-complete-c-guide/)
-Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words für .NET in Markdown exportieren – komplette Schritt‑für‑Schritt‑Anleitung in C#.
-
-### [Markdown aus Word mit Aspose – Schritt‑für‑Schritt‑Anleitung](./create-markdown-from-word-with-aspose-step-by-step-guide/)
-Erfahren Sie, wie Sie Word‑Dokumente mit Aspose in Markdown konvertieren – komplette Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

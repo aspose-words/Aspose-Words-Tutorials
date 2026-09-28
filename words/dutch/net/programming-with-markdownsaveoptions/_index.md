@@ -78,6 +78,7 @@ Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exportee
 ### [Hoe Markdown te exporteren vanuit Word – Complete C#-gids](./how-to-export-markdown-from-word-complete-c-guide/)
 
 ### [Hoe Markdown op te slaan vanuit Word – Complete C#-gids](./how-to-save-markdown-from-word-complete-c-guide/)
+Leer hoe u Markdown vanuit Word opslaat met een volledige C#-handleiding.
 ### [Hoe Markdown op te slaan vanuit Word met afbeeldingen – Complete C#-gids](./how-to-save-markdown-from-word-with-images-complete-c-guide/)
 
 ### [Hoe Markdown te exporteren vanuit DOCX – Complete gids](./how-to-export-markdown-from-docx-complete-guide/)
@@ -86,6 +87,9 @@ Leer hoe u Word-documenten naar Markdown opslaat en wiskundige formules exportee
 
 ### [Hoe Markdown op te slaan vanuit DOCX – Stapsgewijze gids](./how-to-save-markdown-from-docx-step-by-step-guide/)
 Leer hoe u DOCX-bestanden naar Markdown converteert met een duidelijke stap‑voor‑stap handleiding.
+### [Maak Markdown vanuit Word met Aspose – Stapsgewijze gids](./create-markdown-from-word-with-aspose-step-by-step-guide/)
+Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanuit Word‑documenten.
+
 ### [Hoe LaTeX vanuit Word te exporteren: DOCX naar Markdown converteren met Aspose](./how-to-export-latex-from-word-convert-docx-to-markdown-with/)
 
 Leer hoe u LaTeX‑inhoud uit een Word‑document exporteert en converteert naar Markdown met Aspose.Words voor .NET.
@@ -153,9 +157,6 @@ Leer hoe u de juiste bestandsextensie bepaalt bij het omzetten van DOCX naar Mar
 Leer hoe u docx-bestanden naar markdown converteert met een duidelijke stap‑voor‑stap C#‑handleiding.
 
 ### [Hoe Markdown te exporteren vanuit DOCX met afbeeldingen – Complete gids](./how-to-export-markdown-from-docx-with-images-complete-guide/)
-
-### [Maak Markdown vanuit Word met Aspose – Stapsgewijze gids](./create-markdown-from-word-with-aspose-step-by-step-guide/)
-Leer stap‑voor‑stap hoe u met Aspose.Words voor .NET Markdown genereert vanuit Word‑documenten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
