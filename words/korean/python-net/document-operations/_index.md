@@ -60,6 +60,9 @@ Aspose.Words for Python을 사용하여 Word 문서를 PostScript 형식으로 �
     ### [손상된 DOCX 복구 – Word 문서 열기 및 로드](./recover-corrupted-docx-open-load-word-document/)
 손상된 DOCX 파일을 복구하고 Word 문서를 열어 로드하는 방법을 배웁니다.
 
+    ### [Aspose.Words for Python을 사용하여 docx 파일 복구하기 – 단계별 가이드](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+Aspose.Words for Python을 활용해 손상된 docx 파일을 복구하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Python-net 문서용 Aspose.Words](https://docs.aspose.com/words/python-net/)

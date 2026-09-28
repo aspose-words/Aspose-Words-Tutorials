@@ -37,6 +37,14 @@ Naučte se převod dokumentů v Pythonu s Aspose.Words pro Python. Převádějte
 Naučte se uložit obsah Wordu jako Markdown pomocí Aspose.Words pro Python.
 ### [Obnova poškozeného DOCX a převod Wordu na Markdown](./recover-corrupted-docx-convert-word-to-markdown/)
 Naučte se opravit poškozené soubory DOCX a převést je do formátu Markdown pomocí Aspose.Words pro Python.
+### [Jak uložit docx jako txt LaTeX matematiku pomocí Aspose.Words](./how-to-save-docx-as-txt-latex-math-using-aspose-words/)
+Naučte se uložit soubor DOCX jako textový soubor s LaTeX matematikou pomocí Aspose.Words.
+### [Jak uložit Word jako PDF pomocí Aspose.Words v Pythonu](./how-to-save-word-as-pdf-with-aspose-words-in-python/)
+Naučte se uložit dokument Word jako PDF pomocí Aspose.Words pro Python.
+### [Jak převést docx na pdf s přístupností v Pythonu](./how-to-convert-docx-to-pdf-with-accessibility-in-python/)
+Naučte se převést soubory DOCX na PDF s podporou přístupnosti pomocí Aspose.Words pro Python.
+### [Jak převést docx na txt v Pythonu pomocí Aspose.Words](./how-to-convert-docx-to-txt-in-python-with-aspose-words/)
+Naučte se převést soubory DOCX na prostý textový formát TXT pomocí Aspose.Words v Pythonu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,7 +34,7 @@ Ismerje meg, hogyan konvertálhat Microsoft Word (DOCX) dokumentumokat rögzíte
 Tanuld meg, hogyan tölthetsz be hatékonyan RTF dokumentumokat és hogyan ismerheted fel az UTF-8 kódolást az Aspose.Words for Python segítségével. Növeld a szövegkezelés pontosságát a projektjeidben.
 
     ### [How to Fix Broken Links in CHM Files Using Aspose.Words for Python](./fix-broken-links-chm-files-aspose-words-python/)
-Ismerje meg, hogyan javíthatja ki a .chm fájlokban található hibás hivatkozásokat a hatékony Aspose.Words könyvtár segítségével. Növelje dokumentumai megbízhatóságát és felhasználói élményét ezzel a lépésről lépésre haladó útmutatóval.
+Ismerje meg, hogyan javíthatja ki a .chm fájlokban található hibás hivatkozásokat a hatékony Aspose.Words könyvtár segítségével. Növelje dokumentumai megbízhatóságát és felhasználói élményét ezzel a lépésről‑lépésre haladó útmutatóval.
 
     ### [Implementing Custom HTML Page Save Callbacks in Python with Aspose.Words](./aspose-words-python-html-page-callbacks/)
 Tanuld meg, hogyan használhatod az Aspose.Words for Python-t Word dokumentumok különálló HTML oldalakká konvertálásához egyéni visszahívások segítségével. Tökéletes dokumentumkezeléshez és webes közzétételhez.
@@ -59,6 +59,9 @@ Ismerje meg, hogyan konvertálhat Word dokumentumokat PostScript formátumba az 
 
 ### [Korrupt DOCX helyreállítása – Word dokumentum megnyitása és betöltése](./recover-corrupted-docx-open-load-word-document/)
 A korrupt DOCX fájlok helyreállítása és betöltése az Aspose.Words for Python-net segítségével.
+
+### [Hogyan állítsuk helyre a docx fájlokat az Aspose.Words for Python segítségével – lépésről‑lépésre útmutató](./how-to-recover-docx-files-with-aspose-words-for-python-step/)
+Ismerje meg, hogyan állíthatja helyre a sérült DOCX fájlokat az Aspose.Words for Python segítségével, lépésről‑lépésre.
 
 ## További források
 
