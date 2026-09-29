@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un nuevo documento Word, configurar una marca de agua de texto personalizada con ajustes de fuente específicos, aplicar la marca de agua al documento y guardar el resultado como un archivo .docx usando la API Document.Watermark.SetText.
+//ExStepSummary:0: Crea una nueva instancia vacía de documento Word llamada `document`.
+//ExStepSummary:1: Configura `watermarkSettings` con fuente Arial de 48 pt en color gris, diseño diagonal y renderizado opaco.
+//ExStepSummary:2: Aplica la marca de agua de texto "Private" a `document` usando la configuración definida previamente.
+//ExStepSummary:3: Define la ruta del archivo donde se guardará el documento con marca de agua.
+//ExStepSummary:4: Guarda el `document` modificado en la ruta especificada como un archivo .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

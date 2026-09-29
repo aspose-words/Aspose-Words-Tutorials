@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word ใหม่, กำหนดค่าลายน้ำข้อความแบบกำหนดเองด้วยการตั้งค่าแบบอักษรเฉพาะ, นำลายน้ำไปใช้กับเอกสาร, และบันทึกผลลัพธ์เป็นไฟล์ .docx โดยใช้ API Document.Watermark.SetText.
+//ExStepSummary:0: สร้างอินสแตนซ์เอกสาร Word ว่างใหม่ชื่อ `document`.
+//ExStepSummary:1: กำหนดค่า `watermarkSettings` ด้วยแบบอักษร Arial ขนาด 48‑pt สีเทา, การจัดวางแนวทแยง, และการเรนเดอร์แบบทึบ.
+//ExStepSummary:2: ใช้ลายน้ำข้อความ "Private" กับ `document` โดยใช้การตั้งค่าที่กำหนดไว้ก่อนหน้า.
+//ExStepSummary:3: กำหนดเส้นทางไฟล์ที่ลายน้ำของเอกสารจะถูกบันทึก.
+//ExStepSummary:4: บันทึก `document` ที่แก้ไขแล้วไปยังเส้นทางที่ระบุเป็นไฟล์ .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Words の Document と DocumentBuilder を使用して、バッチレポート処理で生成されるすべての新しい Word ドキュメントに赤い斜めテキスト透かしを自動的に追加する方法を示します。
+//ExStepSummary:0: 出力ファイルが保存される "GeneratedReports" フォルダーを作成します。
+//ExStepSummary:1: 3つの別々のドキュメントを生成するループを開始します。
+//ExStepSummary:2: 新しい空の Word ドキュメントオブジェクトを作成します。
+//ExStepSummary:3: DocumentBuilder を使用して、タイトル行と説明をドキュメントに書き込みます。
+//ExStepSummary:4: フォント、サイズ、色、斜めレイアウトなど、透かしの外観を定義します。
+//ExStepSummary:5: 設定した赤い斜め透かし（テキストは "PROTECTED"）をドキュメントに適用します。
+//ExStepSummary:6: 透かしを付けたドキュメントをユニークなファイル名で "GeneratedReports" フォルダーに保存します。
+//ExStepSummary:7: 現在のドキュメントの処理が完了したらループを終了します。
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

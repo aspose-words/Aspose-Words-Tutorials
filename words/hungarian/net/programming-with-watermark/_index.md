@@ -18,6 +18,12 @@
 A Szövegszerkesztés vízjelekkel egy átfogó forrás, amely végigvezeti a felhasználót a vízjelekkel történő szövegszerkesztés folyamatán Word-dokumentumokban az Aspose.Words for .NET könyvtár használatával. Az oktatóanyagok lépésről lépésre bemutatják a vízjelek hozzáadását, testreszabását és kezelését a Word-dokumentumokban. Megtanulja, hogyan adhat hozzá szöveget, képeket, alakzatokat vagy grafikákat vízjelként, hogyan módosíthatja azok pozícióját és megjelenését, valamint hogyan adhat hozzá speciális beállításokat, például egyéni vízjeleket mezők használatával. Ez a forrás elengedhetetlen azoknak a fejlesztőknek, akik az Aspose.Words for .NET segítségével szeretnék automatizálni a vízjelkezelést Word-dokumentumaikban.
 
  ## Oktatóanyagok
+
+{{< tutorial-card link="./add-text-watermark/" title="Piros átlós szöveges vízjel hozzáadása Word-dokumentumokhoz az Aspose.Words for .NET használatával" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Átlós szöveges vízjel létrehozása egyedi betűtípussal Word dokumentumban az Aspose.Words for .NET használatával" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | Cím | Leírás |
 | --- | --- |
 | [Szöveges vízjel hozzáadása meghatározott beállításokkal](./add-text-watermark-with-specific-options/) | Ismerje meg, hogyan adhat hozzá szöveges vízjelet Word-dokumentumaihoz meghatározott beállításokkal az Aspose.Words for .NET segítségével. Egyszerűen testreszabhatja a betűtípust, a méretet, a színt és az elrendezést. |

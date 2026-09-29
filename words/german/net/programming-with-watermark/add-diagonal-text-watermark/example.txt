@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein neues Word‑Dokument erstellt, ein benutzerdefiniertes Text‑Wasserzeichen mit bestimmten Schriftarteinstellungen konfiguriert, das Wasserzeichen auf das Dokument anwendet und das Ergebnis als .docx‑Datei mithilfe der Document.Watermark.SetText‑API speichert.
+//ExStepSummary:0: Erstelle eine neue leere Word‑Dokumentinstanz mit dem Namen `document`.
+//ExStepSummary:1: Konfiguriere `watermarkSettings` mit der Schriftart Arial, 48 pt, grauer Farbe, diagonaler Anordnung und undurchsichtiger Darstellung.
+//ExStepSummary:2: Wende das Text‑Wasserzeichen "Private" auf `document` mit den zuvor definierten Einstellungen an.
+//ExStepSummary:3: Definiere den Dateipfad, unter dem das wasserzeichenversehene Dokument gespeichert werden soll.
+//ExStepSummary:4: Speichere das modifizierte `document` am angegebenen Pfad als .docx‑Datei.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

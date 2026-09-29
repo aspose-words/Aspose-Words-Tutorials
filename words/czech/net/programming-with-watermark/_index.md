@@ -18,6 +18,12 @@
 Zpracování textu s vodoznakem je komplexní zdroj, který vás provede procesem zpracování textu s vodoznaky v dokumentech Word pomocí knihovny Aspose.Words pro .NET. Návody poskytují podrobná vysvětlení, podrobný zdrojový kód a praktické příklady pro přidávání, úpravu a správu vodoznaků v dokumentech Word. Naučíte se, jak přidávat text, obrázky, tvary nebo grafiku jako vodoznaky, upravovat jejich polohu a vzhled a používat pokročilé možnosti, jako je přidávání vlastních vodoznaků pomocí polí. Tento zdroj je nezbytný pro vývojáře, kteří chtějí automatizovat správu vodoznaků ve svých dokumentech Word pomocí knihovny Aspose.Words pro .NET.
 
  ## Návody
+
+{{< tutorial-card link="./add-text-watermark/" title="Přidejte červený diagonální textový vodoznak do dokumentů Word pomocí Aspose.Words pro .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Vytvořte diagonální textový vodoznak s vlastním písmem v dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | Název | Popis |
 | --- | --- |
 | [Přidat textový vodoznak se specifickými možnostmi](./add-text-watermark-with-specific-options/) | Naučte se, jak přidat textový vodoznak se specifickými možnostmi do dokumentů Word pomocí Aspose.Words pro .NET. Snadno si upravte písmo, velikost, barvu a rozvržení. |

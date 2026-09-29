@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment créer un nouveau document Word, configurer un filigrane texte personnalisé avec des paramètres de police spécifiques, appliquer le filigrane au document et enregistrer le résultat sous forme de fichier .docx en utilisant l'API Document.Watermark.SetText.
+//ExStepSummary:0: Créez une nouvelle instance vide de document Word nommée `document`.
+//ExStepSummary:1: Configurez `watermarkSettings` avec la police Arial 48 pt gris, une disposition diagonale et un rendu opaque.
+//ExStepSummary:2: Appliquez le filigrane texte « Private » à `document` en utilisant les paramètres définis précédemment.
+//ExStepSummary:3: Définissez le chemin du fichier où le document filigrané sera enregistré.
+//ExStepSummary:4: Enregistrez le `document` modifié à l'emplacement spécifié sous forme de fichier .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

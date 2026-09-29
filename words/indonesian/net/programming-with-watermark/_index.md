@@ -20,6 +20,12 @@ Pemrosesan Kata dengan Tanda Air merupakan sumber daya komprehensif yang memandu
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./add-text-watermark/" title="Tambahkan Watermark Teks Diagonal Merah ke Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Buat Watermark Teks Diagonal dengan Font Kustom dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | [Tambahkan Tanda Air Teks Dengan Opsi Tertentu](./add-text-watermark-with-specific-options/) | Pelajari cara menambahkan tanda air teks dengan opsi tertentu ke dokumen Word Anda menggunakan Aspose.Words untuk .NET. Sesuaikan font, ukuran, warna, dan tata letak dengan mudah. |
 
 

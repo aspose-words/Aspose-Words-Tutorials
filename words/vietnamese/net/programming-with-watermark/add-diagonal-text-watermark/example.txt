@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo một tài liệu Word mới, cấu hình một watermark văn bản tùy chỉnh với các thiết lập phông chữ cụ thể, áp dụng watermark vào tài liệu, và lưu kết quả dưới dạng tệp .docx bằng API Document.Watermark.SetText.
+//ExStepSummary:0: Tạo một thể hiện tài liệu Word mới rỗng có tên `document`.
+//ExStepSummary:1: Cấu hình `watermarkSettings` với phông Arial 48‑pt màu xám, bố cục chéo, và hiển thị không trong suốt.
+//ExStepSummary:2: Áp dụng watermark văn bản "Private" vào `document` bằng cách sử dụng các thiết lập đã định nghĩa trước.
+//ExStepSummary:3: Xác định đường dẫn tệp nơi tài liệu đã được gắn watermark sẽ được lưu.
+//ExStepSummary:4: Lưu `document` đã chỉnh sửa vào đường dẫn đã chỉ định dưới dạng tệp .docx.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd
