@@ -18,6 +18,12 @@
 Ez egy átfogó forrásanyag, amely segít elsajátítani a Word-dokumentumok mezőinek kezelését az Aspose.Words for .NET könyvtár segítségével. Az oktatóanyagok lépésről lépésre bemutatják a folyamatot, részletes forráskódot és gyakorlati példákat tartalmaznak a mezők, például a mezőkódok, frissítések, eredménymegjelenítések, HA feltételek, körlevelek és még sok más hatékony kezeléséhez és manipulálásához. Ez a forrásanyag elengedhetetlen azoknak a fejlesztőknek, akik az Aspose.Words for .NET segítségével szeretnék automatizálni a Word-dokumentumok létrehozását és manipulálását.
 
  ## Oktatóanyagok
+
+{{< tutorial-card link="./replace-barcode-data/" title="Vonalkód adatok cseréje Word dokumentumokban az Aspose.Words for .NET használatával" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="DataMatrix vonalkód beszúrása Word dokumentumba az Aspose.Words for .NET használatával" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Cím | Leírás |
 | --- | --- |
 | [Mezőkód](./field-code/) | Tanulja meg, hogyan dolgozhat mezőkódokkal Word-dokumentumokban az Aspose.Words for .NET használatával. Ez az útmutató a dokumentumok betöltését, a mezők elérését és a mezőkódok feldolgozását ismerteti. |

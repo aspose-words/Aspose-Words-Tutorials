@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man infogar ett DISPLAYBARCODE-fält i ett Word-dokument, sedan använder Document.Range.Replace‑metoden för att ändra streckkodens datasträng och uppdatera fältet så att den uppdaterade streckkoden visas i den sparade filen.
+//ExStepSummary:0: Skapa ett nytt Document‑objekt och en DocumentBuilder för att konstruera dess innehåll.
+//ExStepSummary:1: Infoga ett DISPLAYBARCODE-fält och ange dess typ, initiala värde och start-/stopptecken, lägg sedan till ett radbryt.
+//ExStepSummary:2: Anropa UpdateFields för att rendera det nyinfogade streckkodsfältet.
+//ExStepSummary:3: Använd Find/Replace‑motorn för att ändra streckkodens datasträng från INIT123 till NEWVAL.
+//ExStepSummary:4: Uppdatera fälten igen så att DISPLAYBARCODE återspeglar den nya datasträngen.
+//ExStepSummary:5: Spara dokumentet som en .docx‑fil.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

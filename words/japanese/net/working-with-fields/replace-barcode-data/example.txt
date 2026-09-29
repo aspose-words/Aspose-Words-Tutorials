@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: このチュートリアルでは、DISPLAYBARCODE フィールドを Word 文書に挿入し、次に Document.Range.Replace メソッドを使用してバーコードのデータ文字列を変更し、フィールドを更新して、更新されたバーコードが保存されたファイルに表示されるようにする方法を示します。
+//ExStepSummary:0: 新しい Document オブジェクトと DocumentBuilder を作成し、コンテンツを構築します。
+//ExStepSummary:1: DISPLAYBARCODE フィールドを挿入し、そのタイプ、初期値、開始/終了文字を設定し、次に改行を追加します。
+//ExStepSummary:2: UpdateFields を呼び出して、新しく挿入したバーコードフィールドをレンダリングします。
+//ExStepSummary:3: Find/Replace エンジンを使用して、バーコードのデータ文字列を INIT123 から NEWVAL に変更します。
+//ExStepSummary:4: フィールドを再度更新し、DISPLAYBARCODE が新しいデータ文字列を反映するようにします。
+//ExStepSummary:5: 文書を .docx ファイルとして保存します。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

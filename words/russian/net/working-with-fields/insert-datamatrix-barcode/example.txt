@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: В этом руководстве демонстрируется, как создать новый документ Word, вставить поле DISPLAYBARCODE, настроить его для штрих‑кода DataMatrix и отобразить изображение штрих‑кода с помощью классов Document и DocumentBuilder.
+//ExStepSummary:0: Создайте новый пустой документ Word и объект DocumentBuilder для его редактирования.
+//ExStepSummary:1: Вставьте поле DISPLAYBARCODE в текущую позицию курсора, что добавит заполнитель поля в документ.
+//ExStepSummary:2: Установите свойство BarcodeType поля в DataMatrix и укажите строку данных для кодирования.
+//ExStepSummary:3: При необходимости задайте цвета фона и переднего плана штрих‑кода.
+//ExStepSummary:4: Вызовите метод UpdateFields у документа, чтобы отобразить изображение штрих‑кода внутри поля.
+//ExStepSummary:5: Сохраните документ в файл формата .docx.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

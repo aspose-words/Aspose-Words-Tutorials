@@ -18,6 +18,12 @@
 Detta är en omfattande resurs för att lära sig arbeta med fält i Word-dokument med hjälp av Aspose.Words för .NET-biblioteket. Handledningarna ger steg-för-steg-förklaringar, detaljerad källkod och praktiska exempel för att effektivt manipulera och hantera fält som fältkoder, uppdateringar, resultatvisningar, OM-villkor, dokumentkopplingar och ännu mer. Denna resurs är viktig för utvecklare som vill automatisera generering och hantering av Word-dokument med hjälp av Aspose.Words för .NET.
 
  ## Handledningar
+
+{{< tutorial-card link="./replace-barcode-data/" title="Byt ut streckkodsdata i Word-dokument med Aspose.Words för .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Infoga DataMatrix‑streckkod i Word‑dokument med Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Titel | Beskrivning |
 | --- | --- |
 | [Fältkod](./field-code/) | Lär dig hur du arbetar med fältkoder i Word-dokument med Aspose.Words för .NET. Den här guiden beskriver hur man laddar dokument, öppnar fält och bearbetar fältkoder. |

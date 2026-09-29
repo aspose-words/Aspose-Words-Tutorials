@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Bu öğreticide, bir Word belgesine DISPLAYBARCODE alanı nasıl eklenir, ardından barcode'un veri dizesini değiştirmek ve alanı yenilemek için Document.Range.Replace yöntemi nasıl kullanılır, böylece güncellenen barcode kaydedilen dosyada görünür.
+//ExStepSummary:0: Yeni bir Document nesnesi ve içeriğini oluşturmak için bir DocumentBuilder oluşturun.
+//ExStepSummary:1: Bir DISPLAYBARCODE alanı ekleyin ve tipini, başlangıç değerini ve başlangıç/bit karakterlerini ayarlayın, ardından bir satır sonu ekleyin.
+//ExStepSummary:2: Yeni eklenen barcode alanını oluşturmak için UpdateFields'i çağırın.
+//ExStepSummary:3: Find/Replace motorunu kullanarak barcode'un veri dizesini INIT123'ten NEWVAL'e değiştirin.
+//ExStepSummary:4: Alanları tekrar güncelleyin, böylece DISPLAYBARCODE yeni veri dizesini yansıtır.
+//ExStepSummary:5: Belgeyi bir .docx dosyasına kaydedin.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

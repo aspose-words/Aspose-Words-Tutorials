@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 DISPLAYBARCODE 필드를 Word 문서에 삽입하고, Document.Range.Replace 메서드를 사용하여 바코드 데이터 문자열을 변경한 뒤 필드를 새로 고쳐 저장된 파일에 업데이트된 바코드가 표시되도록 하는 방법을 보여줍니다.
+//ExStepSummary:0: 새 Document 객체와 DocumentBuilder를 생성하여 내용을 구성합니다.
+//ExStepSummary:1: DISPLAYBARCODE 필드를 삽입하고 유형, 초기값, 시작/종료 문자를 설정한 뒤 줄 바꿈을 추가합니다.
+//ExStepSummary:2: UpdateFields를 호출하여 새로 삽입된 바코드 필드를 렌더링합니다.
+//ExStepSummary:3: Find/Replace 엔진을 사용하여 바코드의 데이터 문자열을 INIT123에서 NEWVAL로 변경합니다.
+//ExStepSummary:4: 필드를 다시 업데이트하여 DISPLAYBARCODE가 새로운 데이터 문자열을 반영하도록 합니다.
+//ExStepSummary:5: 문서를 .docx 파일로 저장합니다.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

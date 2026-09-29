@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách chèn trường DISPLAYBARCODE vào tài liệu Word, sau đó sử dụng phương thức Document.Range.Replace để thay đổi chuỗi dữ liệu của mã vạch và làm mới trường để mã vạch đã cập nhật xuất hiện trong tệp đã lưu.
+//ExStepSummary:0: Tạo một đối tượng Document mới và một DocumentBuilder để xây dựng nội dung của nó.
+//ExStepSummary:1: Chèn một trường DISPLAYBARCODE và đặt loại, giá trị ban đầu và ký tự bắt đầu/kết thúc, sau đó thêm một dấu ngắt dòng.
+//ExStepSummary:2: Gọi UpdateFields để hiển thị trường mã vạch vừa chèn.
+//ExStepSummary:3: Sử dụng cơ chế Tìm/Thay thế để thay đổi chuỗi dữ liệu của mã vạch từ INIT123 thành NEWVAL.
+//ExStepSummary:4: Cập nhật lại các trường để DISPLAYBARCODE phản ánh chuỗi dữ liệu mới.
+//ExStepSummary:5: Lưu tài liệu dưới dạng tệp .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

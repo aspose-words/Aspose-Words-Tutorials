@@ -18,6 +18,12 @@
 To kompleksowe źródło wiedzy na temat pracy z polami w dokumentach Worda przy użyciu biblioteki Aspose.Words for .NET. Samouczki zawierają wyjaśnienia krok po kroku, szczegółowy kod źródłowy i praktyczne przykłady skutecznego manipulowania i zarządzania polami, takimi jak kody pól, aktualizacje, wyświetlanie wyników, warunki IF, korespondencja seryjna i wiele więcej. Ten zasób jest niezbędny dla programistów, którzy chcą zautomatyzować generowanie i manipulowanie dokumentami Worda przy użyciu Aspose.Words for .NET.
 
  ## Samouczki
+
+{{< tutorial-card link="./replace-barcode-data/" title="Zastąp dane kodu kreskowego w dokumentach Word przy użyciu Aspose.Words for .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Wstaw kod kreskowy DataMatrix w dokumencie Word przy użyciu Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Tytuł | Opis |
 | --- | --- |
 | [Kod pola](./field-code/) | Dowiedz się, jak pracować z kodami pól w dokumentach Word, używając Aspose.Words dla .NET. Ten przewodnik obejmuje ładowanie dokumentów, dostęp do pól i przetwarzanie kodów pól. |

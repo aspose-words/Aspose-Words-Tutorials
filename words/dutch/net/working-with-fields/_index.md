@@ -18,6 +18,12 @@
 Dit is een uitgebreide bron om te leren werken met velden in Word-documenten met behulp van de Aspose.Words voor .NET-bibliotheek. De tutorials bieden stapsgewijze uitleg, gedetailleerde broncode en praktische voorbeelden voor het effectief bewerken en beheren van velden, zoals veldcodes, updates, resultaatweergaven, IF-voorwaarden, samenvoegingen en nog veel meer. Deze bron is essentieel voor ontwikkelaars die het genereren en bewerken van Word-documenten willen automatiseren met Aspose.Words voor .NET.
 
  ## Zelfstudies
+
+{{< tutorial-card link="./replace-barcode-data/" title="Barcode-gegevens vervangen in Word-documenten met Aspose.Words voor .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Voeg DataMatrix-barcode in Word-document in met Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Titel | Beschrijving |
 | --- | --- |
 | [Veldcode](./field-code/) | Leer hoe u met veldcodes in Word-documenten kunt werken met Aspose.Words voor .NET. Deze handleiding behandelt het laden van documenten, het openen van velden en het verwerken van veldcodes. |

@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि कैसे एक नया Word दस्तावेज़ बनाया जाए, DISPLAYBARCODE फ़ील्ड डाला जाए, इसे DataMatrix बारकोड के लिए कॉन्फ़िगर किया जाए, और Document तथा DocumentBuilder क्लासों का उपयोग करके बारकोड छवि को रेंडर किया जाए।
+//ExStepSummary:0: एक नया खाली Word Document बनाएं और उसे संपादित करने के लिए DocumentBuilder बनाएं।
+//ExStepSummary:1: वर्तमान कर्सर स्थिति पर DISPLAYBARCODE फ़ील्ड डालें, जो दस्तावेज़ में एक फ़ील्ड प्लेसहोल्डर जोड़ता है।
+//ExStepSummary:2: फ़ील्ड का BarcodeType DataMatrix सेट करें और एन्कोड करने के लिए डेटा स्ट्रिंग प्रदान करें।
+//ExStepSummary:3: वैकल्पिक रूप से बारकोड के बैकग्राउंड और फ़ोरग्राउंड रंग निर्धारित करें।
+//ExStepSummary:4: बारकोड छवि को फ़ील्ड के अंदर रेंडर करने के लिए दस्तावेज़ पर UpdateFields कॉल करें।
+//ExStepSummary:5: दस्तावेज़ को .docx फ़ाइल में सहेजें।
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

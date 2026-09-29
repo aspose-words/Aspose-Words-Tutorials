@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να εισάγετε ένα πεδίο DISPLAYBARCODE σε ένα έγγραφο Word, στη συνέχεια να χρησιμοποιήσετε τη μέθοδο Document.Range.Replace για να αλλάξετε τη συμβολοσειρά δεδομένων του barcode και να ανανεώσετε το πεδίο ώστε το ενημερωμένο barcode να εμφανίζεται στο αποθηκευμένο αρχείο.
+//ExStepSummary:0: Δημιουργήστε ένα νέο αντικείμενο Document και έναν DocumentBuilder για να κατασκευάσετε το περιεχόμενό του.
+//ExStepSummary:1: Εισάγετε ένα πεδίο DISPLAYBARCODE και ορίστε τον τύπο του, την αρχική τιμή και τους χαρακτήρες έναρξης/λήξης, στη συνέχεια προσθέστε μια αλλαγή γραμμής.
+//ExStepSummary:2: Καλέστε την UpdateFields για να αποδώσετε το νεοεισαγμένο πεδίο barcode.
+//ExStepSummary:3: Χρησιμοποιήστε τη μηχανή Find/Replace για να αλλάξετε τη συμβολοσειρά δεδομένων του barcode από INIT123 σε NEWVAL.
+//ExStepSummary:4: Ενημερώστε ξανά τα πεδία ώστε το DISPLAYBARCODE να αντικατοπτρίζει τη νέα συμβολοσειρά δεδομένων.
+//ExStepSummary:5: Αποθηκεύστε το έγγραφο σε αρχείο .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

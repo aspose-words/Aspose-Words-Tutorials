@@ -18,6 +18,12 @@
 Dies ist eine umfassende Ressource zum Erlernen der Arbeit mit Feldern in Word-Dokumenten mithilfe der Bibliothek Aspose.Words für .NET. Die Tutorials bieten Schritt-für-Schritt-Erklärungen, detaillierten Quellcode und praktische Beispiele für die effektive Bearbeitung und Verwaltung von Feldern wie Feldfunktionen, Aktualisierungen, Ergebnisanzeigen, IF-Bedingungen, Serienbriefen und vielem mehr. Diese Ressource ist unverzichtbar für Entwickler, die die Erstellung und Bearbeitung von Word-Dokumenten mit Aspose.Words für .NET automatisieren möchten.
 
  ## Anleitungen
+
+{{< tutorial-card link="./replace-barcode-data/" title="Barcode‑Daten in Word‑Dokumenten mit Aspose.Words für .NET ersetzen" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="DataMatrix-Barcode in ein Word-Dokument einfügen mit Aspose.Words für .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Titel | Beschreibung |
 | --- | --- |
 | [Feldcode](./field-code/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET mit Feldfunktionen in Word-Dokumenten arbeiten. Diese Anleitung behandelt das Laden von Dokumenten, den Zugriff auf Felder und die Verarbeitung von Feldfunktionen. |

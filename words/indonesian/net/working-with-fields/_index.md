@@ -20,6 +20,12 @@ Ini adalah sumber daya yang komprehensif untuk mempelajari cara bekerja dengan k
  ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia:
+
+{{< tutorial-card link="./replace-barcode-data/" title="Ganti Data Barcode dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Sisipkan Barcode DataMatrix dalam Dokumen Word Menggunakan Aspose.Words untuk .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | [Kode Lapangan](./field-code/) | Pelajari cara bekerja dengan kode bidang dalam dokumen Word menggunakan Aspose.Words untuk .NET. Panduan ini mencakup pemuatan dokumen, akses bidang, dan pemrosesan kode bidang. Bahasa Indonesia:
 | [Ubah Bidang Perbarui Budaya Sumber](./change-field-update-culture-source/) | Pelajari cara mengubah sumber budaya pembaruan bidang di Aspose.Words untuk .NET dengan panduan ini. Kontrol format tanggal berdasarkan budaya yang berbeda dengan mudah.Bahasa Indonesia:
 | [Tentukan Lokal Di Tingkat Bidang](./specify-locale-at-field-level/) | Pelajari cara menentukan lokal untuk kolom dalam dokumen Word menggunakan Aspose.Words untuk .NET. Ikuti panduan kami untuk menyesuaikan format dokumen Anda dengan mudah. Bahasa Indonesia:

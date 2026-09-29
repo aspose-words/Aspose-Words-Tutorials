@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: 本教學示範如何在 Word 文件中插入 DISPLAYBARCODE 欄位，然後使用 Document.Range.Replace 方法變更條碼的資料字串，並重新整理欄位，使更新後的條碼顯示於已儲存的檔案中。
+//ExStepSummary:0: 建立一個新的 Document 物件與 DocumentBuilder，以建構其內容。
+//ExStepSummary:1: 插入 DISPLAYBARCODE 欄位，並設定其類型、初始值以及起止字元，之後加入換行。
+//ExStepSummary:2: 呼叫 UpdateFields 以呈現新插入的條碼欄位。
+//ExStepSummary:3: 使用尋找/取代引擎將條碼的資料字串由 INIT123 變更為 NEWVAL。
+//ExStepSummary:4: 再次更新欄位，使 DISPLAYBARCODE 反映新的資料字串。
+//ExStepSummary:5: 將文件儲存為 .docx 檔案。
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

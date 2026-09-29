@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein DISPLAYBARCODE‑Feld in ein Word‑Dokument einfügt und anschließend die Methode Document.Range.Replace verwendet, um die Datenzeichenfolge des Barcodes zu ändern und das Feld zu aktualisieren, sodass der aktualisierte Barcode in der gespeicherten Datei erscheint.
+//ExStepSummary:0: Erstellen Sie ein neues Document‑Objekt und einen DocumentBuilder, um dessen Inhalt zu erstellen.
+//ExStepSummary:1: Fügen Sie ein DISPLAYBARCODE‑Feld ein und setzen Sie dessen Typ, Anfangswert und Start‑/Stop‑Zeichen, und fügen Sie anschließend einen Zeilenumbruch hinzu.
+//ExStepSummary:2: Rufen Sie UpdateFields auf, um das neu eingefügte Barcode‑Feld zu rendern.
+//ExStepSummary:3: Verwenden Sie die Find/Replace‑Engine, um die Datenzeichenfolge des Barcodes von INIT123 zu NEWVAL zu ändern.
+//ExStepSummary:4: Aktualisieren Sie die Felder erneut, damit das DISPLAYBARCODE die neue Datenzeichenfolge widerspiegelt.
+//ExStepSummary:5: Speichern Sie das Dokument als .docx‑Datei.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

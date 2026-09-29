@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo insertar un campo DISPLAYBARCODE en un documento Word, luego usar el método Document.Range.Replace para cambiar la cadena de datos del código de barras y actualizar el campo para que el código de barras actualizado aparezca en el archivo guardado.
+//ExStepSummary:0: Crea un nuevo objeto Document y un DocumentBuilder para construir su contenido.
+//ExStepSummary:1: Inserta un campo DISPLAYBARCODE y establece su tipo, valor inicial y caracteres de inicio/fin, luego agrega un salto de línea.
+//ExStepSummary:2: Llama a UpdateFields para renderizar el campo de código de barras recién insertado.
+//ExStepSummary:3: Utiliza el motor de Buscar/Reemplazar para cambiar la cadena de datos del código de barras de INIT123 a NEWVAL.
+//ExStepSummary:4: Actualiza los campos nuevamente para que DISPLAYBARCODE refleje la nueva cadena de datos.
+//ExStepSummary:5: Guarda el documento en un archivo .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

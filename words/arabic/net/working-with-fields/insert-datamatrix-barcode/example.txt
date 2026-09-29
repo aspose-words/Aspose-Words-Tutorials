@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند Word جديد، وإدراج حقل DISPLAYBARCODE، وتكوينه لباركود DataMatrix، وعرض صورة الباركود باستخدام فئتي Document وDocumentBuilder.
+//ExStepSummary:0: أنشئ مستند Word فارغًا جديدًا وDocumentBuilder لتعديله.
+//ExStepSummary:1: أدرج حقل DISPLAYBARCODE في موضع المؤشر الحالي، مما يضيف عنصرًا نائبًا للحقل إلى المستند.
+//ExStepSummary:2: عيّن BarcodeType الخاص بالحقل إلى DataMatrix وقدم سلسلة البيانات لتشفيرها.
+//ExStepSummary:3: يمكنك اختيارياً تحديد ألوان الخلفية والواجهة للباركود.
+//ExStepSummary:4: استدعِ UpdateFields على المستند لعرض صورة الباركود داخل الحقل.
+//ExStepSummary:5: احفظ المستند كملف .docx.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

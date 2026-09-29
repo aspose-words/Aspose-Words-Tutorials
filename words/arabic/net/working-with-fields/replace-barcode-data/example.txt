@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إدراج حقل DISPLAYBARCODE في مستند Word، ثم استخدام طريقة Document.Range.Replace لتغيير سلسلة بيانات الباركود وتحديث الحقل بحيث يظهر الباركود المحدث في الملف المحفوظ.
+//ExStepSummary:0: أنشئ كائن Document جديد وDocumentBuilder لبناء محتواه.
+//ExStepSummary:1: أدرج حقل DISPLAYBARCODE وحدد نوعه والقيمة الأولية وحروف البداية/النهاية، ثم أضف فاصل سطر.
+//ExStepSummary:2: استدعِ UpdateFields لتصوير حقل الباركود الذي تم إدراجه حديثًا.
+//ExStepSummary:3: استخدم محرك البحث/الاستبدال لتغيير سلسلة بيانات الباركود من INIT123 إلى NEWVAL.
+//ExStepSummary:4: قم بتحديث الحقول مرة أخرى حتى يعكس DISPLAYBARCODE سلسلة البيانات الجديدة.
+//ExStepSummary:5: احفظ المستند كملف .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

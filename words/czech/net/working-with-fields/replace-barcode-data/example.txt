@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vložit pole DISPLAYBARCODE do dokumentu Word, poté použít metodu Document.Range.Replace k změně datového řetězce čárového kódu a obnovit pole, aby se aktualizovaný čárový kód objevil v uloženém souboru.
+//ExStepSummary:0: Vytvořte nový objekt Document a DocumentBuilder pro vytvoření jeho obsahu.
+//ExStepSummary:1: Vložte pole DISPLAYBARCODE a nastavte jeho typ, počáteční hodnotu a start/stop znaky, poté přidejte zalomení řádku.
+//ExStepSummary:2: Zavolejte UpdateFields pro vykreslení nově vloženého pole čárového kódu.
+//ExStepSummary:3: Použijte engine Find/Replace k změně datového řetězce čárového kódu z INIT123 na NEWVAL.
+//ExStepSummary:4: Znovu aktualizujte pole, aby DISPLAYBARCODE odráželo nový datový řetězec.
+//ExStepSummary:5: Uložte dokument do souboru .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि कैसे एक DISPLAYBARCODE फ़ील्ड को Word दस्तावेज़ में डाला जाए, फिर Document.Range.Replace मेथड का उपयोग करके बारकोड की डेटा स्ट्रिंग बदली जाए और फ़ील्ड को रिफ्रेश किया जाए ताकि अपडेटेड बारकोड सहेजे गए फ़ाइल में दिखाई दे।
+//ExStepSummary:0: एक नया Document ऑब्जेक्ट और एक DocumentBuilder बनाएं ताकि उसकी सामग्री निर्मित की जा सके।
+//ExStepSummary:1: एक DISPLAYBARCODE फ़ील्ड डालें और उसका प्रकार, प्रारंभिक मान, तथा स्टार्ट/स्टॉप कैरेक्टर सेट करें, फिर एक लाइन ब्रेक जोड़ें।
+//ExStepSummary:2: नए डाले गए बारकोड फ़ील्ड को रेंडर करने के लिए UpdateFields को कॉल करें।
+//ExStepSummary:3: Find/Replace इंजन का उपयोग करके बारकोड की डेटा स्ट्रिंग को INIT123 से NEWVAL में बदलें।
+//ExStepSummary:4: फ़ील्ड को फिर से अपडेट करें ताकि DISPLAYBARCODE नई डेटा स्ट्रिंग को दर्शाए।
+//ExStepSummary:5: दस्तावेज़ को .docx फ़ाइल में सहेजें।
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

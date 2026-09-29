@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: This tutorial shows how to insert a DISPLAYBARCODE field into a Word document, then use the Document.Range.Replace method to change the barcode's data string and refresh the field so the updated barcode appears in the saved file.
+//ExStepSummary:0: Create a new Document object and a DocumentBuilder to construct its content.
+//ExStepSummary:1: Insert a DISPLAYBARCODE field and set its type, initial value, and start/stop characters, then add a line break.
+//ExStepSummary:2: Call UpdateFields to render the newly inserted barcode field.
+//ExStepSummary:3: Use the Find/Replace engine to change the barcode's data string from INIT123 to NEWVAL.
+//ExStepSummary:4: Update fields again so the DISPLAYBARCODE reflects the new data string.
+//ExStepSummary:5: Save the document to a .docx file.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

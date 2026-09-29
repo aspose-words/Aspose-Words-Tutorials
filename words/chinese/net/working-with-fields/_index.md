@@ -19,6 +19,12 @@
 
  ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./replace-barcode-data/" title="使用 Aspose.Words for .NET 替换 Word 文档中的条形码数据" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="使用 Aspose.Words for .NET 在 Word 文档中插入 DataMatrix 条码" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | --- | --- |
 | [字段代码](./field-code/) 了解如何使用 Aspose.Words for .NET 在 Word 文档中处理字段代码。本指南涵盖加载文档、访问字段以及处理字段代码。|
 | [更改字段更新文化源](./change-field-update-culture-source/) 本指南将帮助您了解如何在 Aspose.Words for .NET 中更改字段更新文化源。轻松控制基于不同文化的日期格式。|

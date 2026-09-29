@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: このチュートリアルでは、新しい Word ドキュメントを作成し、DISPLAYBARCODE フィールドを挿入し、DataMatrix バーコード用に設定し、Document と DocumentBuilder クラスを使用してバーコード画像をレンダリングする方法を示します。
+//ExStepSummary:0: 新しい空の Word Document を作成し、編集用に DocumentBuilder を作成します。
+//ExStepSummary:1: 現在のカーソル位置に DISPLAYBARCODE フィールドを挿入します。これにより、ドキュメントにフィールドのプレースホルダーが追加されます。
+//ExStepSummary:2: フィールドの BarcodeType を DataMatrix に設定し、エンコードするデータ文字列を指定します。
+//ExStepSummary:3: 必要に応じて、バーコードの背景色と前景色を定義します。
+//ExStepSummary:4: ドキュメントで UpdateFields を呼び出し、フィールド内にバーコード画像をレンダリングします。
+//ExStepSummary:5: ドキュメントを .docx ファイルとして保存します。
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

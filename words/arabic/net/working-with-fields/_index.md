@@ -18,6 +18,12 @@
 هذا مورد شامل لتعلم كيفية التعامل مع الحقول في مستندات Word باستخدام مكتبة Aspose.Words لـ .NET. توفر الدروس التعليمية شرحًا تفصيليًا، وشفرة مصدرية مفصلة، وأمثلة عملية للتعامل مع الحقول وإدارتها بفعالية، مثل رموز الحقول، والتحديثات، وعرض النتائج، وشروط IF، ودمج المراسلات، وغيرها الكثير. يُعد هذا المورد ضروريًا للمطورين الراغبين في أتمتة إنشاء مستندات Word ومعالجتها باستخدام Aspose.Words لـ .NET.
 
  ## دروس تعليمية
+
+{{< tutorial-card link="./replace-barcode-data/" title="استبدال بيانات الباركود في مستندات Word باستخدام Aspose.Words for .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="إدراج باركود DataMatrix في مستند Word باستخدام Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | العنوان | الوصف |
 | --- | --- |
 | [رمز الحقل](./field-code/) تعلّم كيفية التعامل مع رموز الحقول في مستندات Word باستخدام Aspose.Words لـ .NET. يغطي هذا الدليل تحميل المستندات، والوصول إلى الحقول، ومعالجة رموز الحقول.

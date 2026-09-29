@@ -18,6 +18,12 @@
 Đây là một nguồn tài nguyên toàn diện để tìm hiểu cách làm việc với các trường trong tài liệu Word bằng thư viện Aspose.Words for .NET. Các hướng dẫn cung cấp các giải thích từng bước, mã nguồn chi tiết và các ví dụ thực tế để thao tác và quản lý hiệu quả các trường như mã trường, cập nhật, hiển thị kết quả, điều kiện IF, hợp nhất thư và thậm chí nhiều hơn nữa. Nguồn tài nguyên này rất cần thiết cho các nhà phát triển muốn tự động hóa việc tạo và thao tác các tài liệu Word bằng Aspose.Words for .NET.
 
  ## Hướng dẫn
+
+{{< tutorial-card link="./replace-barcode-data/" title="Thay thế dữ liệu mã vạch trong tài liệu Word bằng Aspose.Words for .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Chèn mã vạch DataMatrix vào tài liệu Word bằng Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Tiêu đề | Mô tả |
 | --- | --- |
 | [Mã trường](./field-code/) | Tìm hiểu cách làm việc với mã trường trong tài liệu Word bằng Aspose.Words cho .NET. Hướng dẫn này bao gồm cách tải tài liệu, truy cập trường và xử lý mã trường. |

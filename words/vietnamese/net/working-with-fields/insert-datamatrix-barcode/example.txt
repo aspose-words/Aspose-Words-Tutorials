@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Hướng dẫn này minh họa cách tạo một tài liệu Word mới, chèn trường DISPLAYBARCODE, cấu hình nó cho mã vạch DataMatrix, và tạo hình ảnh mã vạch bằng cách sử dụng các lớp Document và DocumentBuilder.
+//ExStepSummary:0: Tạo một tài liệu Word trống mới và một DocumentBuilder để chỉnh sửa nó.
+//ExStepSummary:1: Chèn một trường DISPLAYBARCODE tại vị trí con trỏ hiện tại, điều này sẽ thêm một placeholder trường vào tài liệu.
+//ExStepSummary:2: Đặt BarcodeType của trường thành DataMatrix và cung cấp chuỗi dữ liệu để mã hoá.
+//ExStepSummary:3: Tùy chọn, định nghĩa màu nền và màu chữ của mã vạch.
+//ExStepSummary:4: Gọi UpdateFields trên tài liệu để tạo hình ảnh mã vạch bên trong trường.
+//ExStepSummary:5: Lưu tài liệu thành tệp .docx.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Ez az útmutató bemutatja, hogyan lehet egy DISPLAYBARCODE mezőt beszúrni egy Word dokumentumba, majd a Document.Range.Replace metódust használni a vonalkód adatkarakterláncának megváltoztatásához és a mező frissítéséhez, hogy a frissített vonalkód megjelenjen a mentett fájlban.
+//ExStepSummary:0: Hozzon létre egy új Document objektumot és egy DocumentBuilder-t a tartalom felépítéséhez.
+//ExStepSummary:1: Szúrjon be egy DISPLAYBARCODE mezőt, és állítsa be a típusát, kezdeti értékét, valamint a kezdő/lezáró karaktereket, majd adjon hozzá egy sortörést.
+//ExStepSummary:2: Hívja meg az UpdateFields metódust a frissen beszúrt vonalkód mező megjelenítéséhez.
+//ExStepSummary:3: Használja a Find/Replace motort a vonalkód adatkarakterláncának INIT123-ról NEWVAL-ra történő módosításához.
+//ExStepSummary:4: Frissítse újra a mezőket, hogy a DISPLAYBARCODE a új adatkarakterláncot tükrözze.
+//ExStepSummary:5: Mentse a dokumentumot .docx fájlba.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

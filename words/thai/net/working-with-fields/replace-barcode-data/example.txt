@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีแทรกฟิลด์ DISPLAYBARCODE ลงในเอกสาร Word จากนั้นใช้เมธอด Document.Range.Replace เพื่อเปลี่ยนสตริงข้อมูลของบาร์โค้ดและรีเฟรชฟิลด์เพื่อให้บาร์โค้ดที่อัปเดตปรากฏในไฟล์ที่บันทึกไว้.
+//ExStepSummary:0: สร้างอ็อบเจ็กต์ Document ใหม่และ DocumentBuilder เพื่อสร้างเนื้อหาของมัน.
+//ExStepSummary:1: แทรกฟิลด์ DISPLAYBARCODE และตั้งค่าชนิด, ค่าเริ่มต้น, และอักขระเริ่ม/หยุด, จากนั้นเพิ่มการขึ้นบรรทัดใหม่.
+//ExStepSummary:2: เรียกใช้ UpdateFields เพื่อเรนเดอร์ฟิลด์บาร์โค้ดที่เพิ่งแทรกใหม่.
+//ExStepSummary:3: ใช้เครื่องมือ Find/Replace เพื่อเปลี่ยนสตริงข้อมูลของบาร์โค้ดจาก INIT123 เป็น NEWVAL.
+//ExStepSummary:4: อัปเดตฟิลด์อีกครั้งเพื่อให้ DISPLAYBARCODE แสดงสตริงข้อมูลใหม่.
+//ExStepSummary:5: บันทึกเอกสารเป็นไฟล์ .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

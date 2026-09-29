@@ -19,6 +19,12 @@ url: /net/working-with-fields/
 This is a comprehensive resource for learning how to work with fields in Word documents using the Aspose.Words for .NET library. The tutorials provide step-by-step explanations, detailed source code, and practical examples for effectively manipulating and managing fields such as field codes, updates, result displays, IF conditions, mail merges, and even more. This resource is essential for developers wishing to automate the generation and manipulation of Word documents using Aspose.Words for .NET.
 
  ## Tutorials
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Insert DataMatrix Barcode in Word Document Using Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./replace-barcode-data/" title="Replace Barcode Data in Word Documents Using Aspose.Words for .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- |
 | [Field Code](./field-code/) | Learn how to work with field codes in Word documents using Aspose.Words for .NET. This guide covers loading documents, accessing fields, and processing field codes. |

@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร Word ใหม่, แทรกฟิลด์ DISPLAYBARCODE, ตั้งค่าฟิลด์สำหรับบาร์โค้ด DataMatrix, และเรนเดอร์ภาพบาร์โค้ดโดยใช้คลาส Document และ DocumentBuilder.
+//ExStepSummary:0: สร้าง Word Document ว่างใหม่และ DocumentBuilder เพื่อแก้ไขเอกสารนี้.
+//ExStepSummary:1: แทรกฟิลด์ DISPLAYBARCODE ที่ตำแหน่งเคอร์เซอร์ปัจจุบัน ซึ่งจะเพิ่มตัวแทนฟิลด์ลงในเอกสาร.
+//ExStepSummary:2: ตั้งค่า BarcodeType ของฟิลด์เป็น DataMatrix และระบุสตริงข้อมูลที่จะเข้ารหัส.
+//ExStepSummary:3: สามารถกำหนดสีพื้นหลังและสีพื้นหน้าของบาร์โค้ดได้ตามต้องการ.
+//ExStepSummary:4: เรียกใช้ UpdateFields บนเอกสารเพื่อเรนเดอร์ภาพบาร์โค้ดภายในฟิลด์.
+//ExStepSummary:5: บันทึกเอกสารเป็นไฟล์ .docx.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

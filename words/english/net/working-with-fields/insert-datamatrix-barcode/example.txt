@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a new Word document, insert a DISPLAYBARCODE field, configure it for a DataMatrix barcode, and render the barcode image using the Document and DocumentBuilder classes.
+//ExStepSummary:0: Create a new empty Word Document and a DocumentBuilder to edit it.
+//ExStepSummary:1: Insert a DISPLAYBARCODE field at the current cursor position, which adds a field placeholder to the document.
+//ExStepSummary:2: Set the field's BarcodeType to DataMatrix and provide the data string to encode.
+//ExStepSummary:3: Optionally define the barcode's background and foreground colors.
+//ExStepSummary:4: Call UpdateFields on the document to render the barcode image inside the field.
+//ExStepSummary:5: Save the document to a .docx file.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

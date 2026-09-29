@@ -18,6 +18,12 @@
 這是一個全面的資源，用於學習如何使用 Aspose.Words for .NET 庫處理 Word 文件中的欄位。教程提供了逐步解釋、詳細的源代碼和實際範例，用於有效地操作和管理字段，例如字段代碼、更新、結果顯示、IF 條件、郵件合併等。對於希望使用 Aspose.Words for .NET 自動產生和處理 Word 文件的開發人員來說，此資源至關重要。
 
  ## 教學
+
+{{< tutorial-card link="./replace-barcode-data/" title="使用 Aspose.Words for .NET 在 Word 文件中取代條碼資料" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="使用 Aspose.Words for .NET 在 Word 文件中插入 DataMatrix 條碼" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 |標題 |描述 |
 | --- | --- |
 | [字段代碼](./field-code/) |了解如何使用 Aspose.Words for .NET 處理 Word 文件中的欄位程式碼。本指南涵蓋載入文件、存取欄位和處理欄位程式碼。 |

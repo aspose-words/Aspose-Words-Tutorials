@@ -18,6 +18,12 @@
 Il s'agit d'une ressource complète pour apprendre à utiliser les champs dans les documents Word avec la bibliothèque Aspose.Words pour .NET. Les tutoriels fournissent des explications étape par étape, du code source détaillé et des exemples pratiques pour manipuler et gérer efficacement les champs tels que les codes de champ, les mises à jour, l'affichage des résultats, les conditions IF, les publipostages, et bien plus encore. Cette ressource est essentielle pour les développeurs souhaitant automatiser la génération et la manipulation de documents Word avec Aspose.Words pour .NET.
 
  ## Tutoriels
+
+{{< tutorial-card link="./replace-barcode-data/" title="Remplacer les données du code‑barres dans les documents Word avec Aspose.Words pour .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Insérer un code-barres DataMatrix dans un document Word à l'aide d'Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Titre | Description |
 | --- | --- |
 | [Code de champ](./field-code/) | Apprenez à utiliser les codes de champ dans les documents Word avec Aspose.Words pour .NET. Ce guide couvre le chargement des documents, l'accès aux champs et le traitement des codes de champ. |

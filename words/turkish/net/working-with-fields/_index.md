@@ -18,6 +18,12 @@
 Bu, Aspose.Words for .NET kitaplığını kullanarak Word belgelerindeki alanlarla nasıl çalışılacağını öğrenmek için kapsamlı bir kaynaktır. Eğitimler, alan kodları, güncellemeler, sonuç gösterimleri, IF koşulları, posta birleştirmeleri ve daha fazlası gibi alanları etkili bir şekilde işlemek ve yönetmek için adım adım açıklamalar, ayrıntılı kaynak kodu ve pratik örnekler sağlar. Bu kaynak, Aspose.Words for .NET kullanarak Word belgelerinin oluşturulmasını ve işlenmesini otomatikleştirmek isteyen geliştiriciler için olmazsa olmazdır.
 
  ## Eğitimler
+
+{{< tutorial-card link="./replace-barcode-data/" title="Aspose.Words for .NET kullanarak Word belgelerindeki Barcode verisini değiştirin" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Aspose.Words for .NET kullanarak Word Document'e DataMatrix Barkodu ekleyin" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Başlık | Açıklama |
 | --- | --- |
 | [Alan Kodu](./field-code/) | Aspose.Words for .NET kullanarak Word belgelerindeki alan kodlarıyla nasıl çalışacağınızı öğrenin. Bu kılavuz, belgeleri yüklemeyi, alanlara erişmeyi ve alan kodlarını işlemeyi kapsar. |

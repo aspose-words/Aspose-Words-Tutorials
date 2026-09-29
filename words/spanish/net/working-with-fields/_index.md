@@ -18,6 +18,12 @@
 Este es un recurso completo para aprender a trabajar con campos en documentos de Word usando la biblioteca Aspose.Words para .NET. Los tutoriales ofrecen explicaciones paso a paso, código fuente detallado y ejemplos prácticos para manipular y administrar eficazmente campos como códigos de campo, actualizaciones, visualización de resultados, condiciones IF, combinaciones de correspondencia y mucho más. Este recurso es esencial para desarrolladores que desean automatizar la generación y manipulación de documentos de Word usando Aspose.Words para .NET.
 
  ## Tutoriales
+
+{{< tutorial-card link="./replace-barcode-data/" title="Reemplazar datos de código de barras en documentos Word usando Aspose.Words for .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Insertar código de barras DataMatrix en documento Word usando Aspose.Words para .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Título | Descripción |
 | --- | --- |
 | [Código de campo](./field-code/) Aprenda a trabajar con códigos de campo en documentos de Word con Aspose.Words para .NET. Esta guía explica cómo cargar documentos, acceder a campos y procesar códigos de campo.

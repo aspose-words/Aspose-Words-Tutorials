@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak wstawić pole DISPLAYBARCODE do dokumentu Word, a następnie użyć metody Document.Range.Replace, aby zmienić ciąg danych kodu kreskowego i odświeżyć pole, tak aby zaktualizowany kod kreskowy pojawił się w zapisanym pliku.
+//ExStepSummary:0: Utwórz nowy obiekt Document oraz DocumentBuilder, aby zbudować jego zawartość.
+//ExStepSummary:1: Wstaw pole DISPLAYBARCODE i ustaw jego typ, początkową wartość oraz znaki start/stop, a następnie dodaj znak końca linii.
+//ExStepSummary:2: Wywołaj UpdateFields, aby wyrenderować nowo wstawione pole kodu kreskowego.
+//ExStepSummary:3: Użyj silnika Znajdź/Zamień, aby zmienić ciąg danych kodu kreskowego z INIT123 na NEWVAL.
+//ExStepSummary:4: Ponownie zaktualizuj pola, aby DISPLAYBARCODE odzwierciedlało nowy ciąg danych.
+//ExStepSummary:5: Zapisz dokument jako plik .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

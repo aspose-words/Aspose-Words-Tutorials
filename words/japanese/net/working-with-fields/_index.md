@@ -19,6 +19,12 @@ Aspose.Words for .NETライブラリを用いてWord文書内のフィールド�
 
  ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./replace-barcode-data/" title="Aspose.Words for .NET を使用して Word 文書のバーコードデータを置換する" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Aspose.Words for .NET を使用して Word ドキュメントに DataMatrix バーコードを挿入する" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | --- | --- |
 | [フィールドコード](./field-code/) Aspose.Words for .NET を使用して Word 文書内のフィールドコードを操作する方法を学びます。このガイドでは、文書の読み込み、フィールドへのアクセス、フィールドコードの処理について説明します。 |
 | [フィールドの変更 更新 カルチャーソース](./change-field-update-culture-source/) このガイドでは、Aspose.Words for .NET でフィールド更新カルチャソースを変更する方法を説明します。異なるカルチャに基づいて日付の書式を簡単に制御できます。|

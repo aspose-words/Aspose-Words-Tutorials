@@ -18,6 +18,12 @@
 Toto je komplexní zdroj pro výuku práce s poli v dokumentech Word pomocí knihovny Aspose.Words pro .NET. Výukové programy poskytují podrobná vysvětlení, podrobný zdrojový kód a praktické příklady pro efektivní manipulaci a správu polí, jako jsou kódy polí, aktualizace, zobrazení výsledků, podmínky IF, hromadná korespondence a další. Tento zdroj je nezbytný pro vývojáře, kteří chtějí automatizovat generování a manipulaci s dokumenty Word pomocí knihovny Aspose.Words pro .NET.
 
  ## Návody
+
+{{< tutorial-card link="./replace-barcode-data/" title="Nahraďte data čárového kódu v dokumentech Word pomocí Aspose.Words pro .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Vložení čárového kódu DataMatrix do dokumentu Word pomocí Aspose.Words pro .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | Název | Popis |
 | --- | --- |
 | [Kód pole](./field-code/) | Naučte se, jak pracovat s kódy polí v dokumentech Wordu pomocí Aspose.Words pro .NET. Tato příručka popisuje načítání dokumentů, přístup k polím a zpracování kódů polí. |

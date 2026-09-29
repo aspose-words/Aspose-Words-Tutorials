@@ -18,6 +18,12 @@
 이 자료는 Aspose.Words for .NET 라이브러리를 사용하여 Word 문서의 필드 작업 방법을 학습하는 데 유용한 종합적인 자료입니다. 이 자료는 필드 코드, 업데이트, 결과 표시, IF 조건, 편지 병합 등 필드를 효과적으로 조작하고 관리하는 방법을 단계별 설명, 상세한 소스 코드, 그리고 실제 예제를 통해 제공합니다. Aspose.Words for .NET을 사용하여 Word 문서의 생성 및 조작을 자동화하려는 개발자에게 필수적인 자료입니다.
 
  ## 튜토리얼
+
+{{< tutorial-card link="./replace-barcode-data/" title="Aspose.Words for .NET을 사용하여 Word 문서에서 바코드 데이터를 교체합니다." imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="Aspose.Words for .NET을 사용하여 Word 문서에 DataMatrix 바코드 삽입" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 | 제목 | 설명 |
 | --- | --- |
 | [필드 코드](./field-code/) | Aspose.Words for .NET을 사용하여 Word 문서에서 필드 코드를 사용하는 방법을 알아보세요. 이 가이드에서는 문서 로드, 필드 액세스 및 필드 코드 처리에 대해 설명합니다. |

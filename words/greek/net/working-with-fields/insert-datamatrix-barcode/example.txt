@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: Αυτό το εκπαιδευτικό υλικό δείχνει πώς να δημιουργήσετε ένα νέο έγγραφο Word, να εισάγετε ένα πεδίο DISPLAYBARCODE, να το ρυθμίσετε για έναν κωδικό DataMatrix και να αποδώσετε την εικόνα του κωδικού χρησιμοποιώντας τις κλάσεις Document και DocumentBuilder.
+//ExStepSummary:0: Δημιουργήστε ένα νέο κενό έγγραφο Word και ένα DocumentBuilder για να το επεξεργαστείτε.
+//ExStepSummary:1: Εισάγετε ένα πεδίο DISPLAYBARCODE στη τρέχουσα θέση του δρομέα, το οποίο προσθέτει έναν χώρο κράτησης πεδίου στο έγγραφο.
+//ExStepSummary:2: Ορίστε το BarcodeType του πεδίου σε DataMatrix και δώστε τη συμβολοσειρά δεδομένων που θα κωδικοποιηθεί.
+//ExStepSummary:3: Προαιρετικά ορίστε τα χρώματα φόντου και προσκηνίου του κωδικού.
+//ExStepSummary:4: Κλήστε την μέθοδο UpdateFields στο έγγραφο για να αποδώσετε την εικόνα του κωδικού μέσα στο πεδίο.
+//ExStepSummary:5: Αποθηκεύστε το έγγραφο σε αρχείο .docx.
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

@@ -20,6 +20,12 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+
+{{< tutorial-card link="./replace-barcode-data/" title="แทนที่ข้อมูลบาร์โค้ดในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./replace-barcode-data/images/thumb.png" >}}
+
+{{< tutorial-card link="./insert-datamatrix-barcode/" title="แทรกบาร์โค้ด DataMatrix ใน Word Document ด้วย Aspose.Words for .NET" imgSrc="./insert-datamatrix-barcode/images/thumb.png" >}}
+
+
 - [รหัสฟิลด์](./field-code/) | เรียนรู้วิธีการทำงานกับโค้ดฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET คู่มือนี้ครอบคลุมถึงการโหลดเอกสาร การเข้าถึงฟิลด์ และการประมวลผลโค้ดฟิลด์ -
 | [การเปลี่ยนแปลงการอัปเดตแหล่งวัฒนธรรม](./change-field-update-culture-source/) | เรียนรู้วิธีเปลี่ยนแหล่งที่มาของวัฒนธรรมการอัปเดตฟิลด์ใน Aspose.Words สำหรับ .NET ด้วยคู่มือนี้ ควบคุมการจัดรูปแบบวันที่ตามวัฒนธรรมที่แตกต่างกันได้อย่างง่ายดาย
 - [ระบุตำแหน่งที่ระดับฟิลด์](./specify-locale-at-field-level/) | เรียนรู้วิธีระบุตำแหน่งสำหรับฟิลด์ในเอกสาร Word โดยใช้ Aspose.Words สำหรับ .NET ปฏิบัติตามคำแนะนำของเราเพื่อปรับแต่งการจัดรูปแบบเอกสารของคุณได้อย่างง่ายดาย -

@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe u een DISPLAYBARCODE-veld in een Word-document invoegt, vervolgens de Document.Range.Replace-methode gebruikt om de gegevensreeks van de barcode te wijzigen en het veld te vernieuwen zodat de bijgewerkte barcode in het opgeslagen bestand verschijnt.
+//ExStepSummary:0: Maak een nieuw Document-object en een DocumentBuilder om de inhoud ervan op te bouwen.
+//ExStepSummary:1: Voeg een DISPLAYBARCODE-veld in en stel het type, de initiële waarde en de start-/stoptekens in, voeg daarna een regeleinde toe.
+//ExStepSummary:2: Roep UpdateFields aan om het nieuw ingevoegde barcode-veld te renderen.
+//ExStepSummary:3: Gebruik de Zoek/Vervang-engine om de gegevensreeks van de barcode van INIT123 naar NEWVAL te wijzigen.
+//ExStepSummary:4: Werk de velden opnieuw bij zodat de DISPLAYBARCODE de nieuwe gegevensreeks weergeeft.
+//ExStepSummary:5: Sla het document op als een .docx-bestand.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd

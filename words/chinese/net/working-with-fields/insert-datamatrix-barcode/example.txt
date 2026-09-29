@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary: 本教程演示了如何创建一个新的 Word 文档，插入 DISPLAYBARCODE 字段，将其配置为 DataMatrix 条码，并使用 Document 和 DocumentBuilder 类渲染条码图像。
+//ExStepSummary:0: 创建一个新的空 Word 文档以及用于编辑它的 DocumentBuilder。
+//ExStepSummary:1: 在当前光标位置插入 DISPLAYBARCODE 字段，这会在文档中添加一个字段占位符。
+//ExStepSummary:2: 将字段的 BarcodeType 设置为 DataMatrix，并提供要编码的数据字符串。
+//ExStepSummary:3: 可选地定义条码的背景色和前景色。
+//ExStepSummary:4: 在文档上调用 UpdateFields，以在字段内部渲染条码图像。
+//ExStepSummary:5: 将文档保存为 .docx 文件。
+//ExStepImage:4:images/1.png
+//ExStep:0-
+// Initialise an empty Word document.
+Document document = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+
+//ExStep:1-
+// Add a DISPLAYBARCODE field to the document.
+FieldDisplayBarcode displayBarcodeField = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+
+//ExStep:2-
+// Define the barcode format as DataMatrix and assign a sample payload.
+displayBarcodeField.BarcodeType = "DataMatrix";
+displayBarcodeField.BarcodeValue = "9876543210";
+
+//ExStep:3-
+// (Optional) Specify background and foreground colours.
+displayBarcodeField.BackgroundColor = "0xFFFFFF";
+displayBarcodeField.ForegroundColor = "0x000000";
+
+//ExStep:4-
+// Refresh all fields so the barcode image is rendered.
+document.UpdateFields();
+
+//ExStep:5-
+// Persist the document to a file.
+document.Save("DataMatrix_BarcodeDemo.docx");
+//ExEnd

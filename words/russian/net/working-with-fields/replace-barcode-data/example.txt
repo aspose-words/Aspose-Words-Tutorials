@@ -1,0 +1,35 @@
+//ExStart
+//ExSummary: Этот учебник показывает, как вставить поле DISPLAYBARCODE в документ Word, затем использовать метод Document.Range.Replace для изменения строки данных штрих‑кода и обновить поле, чтобы обновлённый штрих‑код появился в сохранённом файле.
+//ExStepSummary:0: Создайте новый объект Document и DocumentBuilder для построения его содержимого.
+//ExStepSummary:1: Вставьте поле DISPLAYBARCODE и задайте его тип, начальное значение и символы начала/конца, затем добавьте разрыв строки.
+//ExStepSummary:2: Вызовите UpdateFields, чтобы отобразить только что вставленное поле штрих‑кода.
+//ExStepSummary:3: Используйте механизм Find/Replace для замены строки данных штрих‑кода с INIT123 на NEWVAL.
+//ExStepSummary:4: Снова обновите поля, чтобы DISPLAYBARCODE отразил новую строку данных.
+//ExStepSummary:5: Сохраните документ в файл формата .docx.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:4:images/3.png
+//ExStep:0-
+Document myDocument = new Document();
+DocumentBuilder docBuilder = new DocumentBuilder(myDocument);
+
+//ExStep:1-
+FieldDisplayBarcode displayBarcode = (FieldDisplayBarcode)docBuilder.InsertField(FieldType.FieldDisplayBarcode, true);
+displayBarcode.BarcodeType = "CODE39";
+displayBarcode.BarcodeValue = "INIT123";
+displayBarcode.AddStartStopChar = true;
+docBuilder.Writeln();
+
+//ExStep:2-
+myDocument.UpdateFields();
+
+//ExStep:3-
+FindReplaceOptions replaceOpts = new FindReplaceOptions();
+myDocument.Range.Replace("INIT123", "NEWVAL", replaceOpts);
+
+//ExStep:4-
+myDocument.UpdateFields();
+
+//ExStep:5-
+myDocument.Save("BarcodeDemo.docx");
+//ExEnd
