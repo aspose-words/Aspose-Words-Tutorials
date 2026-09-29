@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: 本教學示範如何建立新的 Word 文件、設定具有特定字型設定的自訂文字浮水印、將浮水印套用至文件，並使用 Document.Watermark.SetText API 將結果儲存為 .docx 檔案。
+//ExStepSummary:0: 建立一個名為 `document` 的全新空白 Word 文件實例。
+//ExStepSummary:1: 將 `watermarkSettings` 設定為 Arial 48 點灰色字型、對角線版面配置，且以不透明方式呈現。
+//ExStepSummary:2: 使用先前定義的設定，將文字浮水印「Private」套用至 `document`。
+//ExStepSummary:3: 定義要儲存浮水印文件的檔案路徑。
+//ExStepSummary:4: 將已修改的 `document` 以 .docx 檔案儲存至指定路徑。
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

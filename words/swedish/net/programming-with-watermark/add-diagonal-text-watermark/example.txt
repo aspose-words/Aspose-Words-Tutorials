@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Denna handledning visar hur man skapar ett nytt Word-dokument, konfigurerar ett anpassat textvattenmärke med specifika teckensnittinställningar, applicerar vattenmärket på dokumentet och sparar resultatet som en .docx-fil med hjälp av Document.Watermark.SetText API.
+//ExStepSummary:0: Skapa en ny tom Word-dokumentinstans med namnet `document`.
+//ExStepSummary:1: Konfigurera `watermarkSettings` med Arial 48‑pt grått teckensnitt, diagonal layout och opak rendering.
+//ExStepSummary:2: Applicera textvattenmärket "Private" på `document` med de tidigare definierade inställningarna.
+//ExStepSummary:3: Definiera filsökvägen där det vattenmärkta dokumentet ska sparas.
+//ExStepSummary:4: Spara det modifierade `document` till den angivna sökvägen som en .docx-fil.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

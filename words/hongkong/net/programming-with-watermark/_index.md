@@ -18,6 +18,12 @@
 帶有浮水印的文字處理是一種綜合資源，它將指導您使用 Aspose.Words for .NET 庫在 Word 文件中使用浮水印進行文字處理的過程。教程提供了在 Word 文件中新增、自訂和管理浮水印的逐步說明、詳細的原始程式碼和實際範例。您將學習如何添加文字、圖像、形狀或圖形作為浮水印，調整它們的位置和外觀，以及如何使用欄位添加自訂浮水印等高級選項。對於希望使用 Aspose.Words for .NET 自動執行 Word 文件中的浮水印管理的開發人員來說，此資源至關重要。
 
  ## 教學
+
+{{< tutorial-card link="./add-text-watermark/" title="使用 Aspose.Words for .NET 為 Word 文件新增紅色斜向文字浮水印" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="使用 Aspose.Words for .NET 在 Word 文件中建立自訂字型的對角文字浮水印" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 |標題 |描述 |
 | --- | --- |
 | [使用特定選項新增文字浮水印](./add-text-watermark-with-specific-options/) |了解如何使用 Aspose.Words for .NET 在 Word 文件中新增具有特定選項的文字浮水印。輕鬆自訂字體、大小、顏色和佈局。 |

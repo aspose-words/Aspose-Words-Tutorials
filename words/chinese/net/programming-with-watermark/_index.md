@@ -19,6 +19,12 @@
 
  ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./add-text-watermark/" title="使用 Aspose.Words for .NET 为 Word 文档添加红色对角线文字水印" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="使用 Aspose.Words for .NET 在 Word 文档中创建自定义字体的对角文本水印" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | --- | --- |
 | [使用特定选项添加文本水印](./add-text-watermark-with-specific-options/) 了解如何使用 Aspose.Words for .NET 为 Word 文档添加带有特定选项的文本水印。轻松自定义字体、大小、颜色和布局。|
 

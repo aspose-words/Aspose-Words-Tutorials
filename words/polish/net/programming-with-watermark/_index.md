@@ -18,6 +18,12 @@
 Words Processing with Watermark to kompleksowe źródło, które przeprowadzi Cię przez proces Words Processing with watermarks w dokumentach Word przy użyciu biblioteki Aspose.Words for .NET. Samouczki zawierają wyjaśnienia krok po kroku, szczegółowy kod źródłowy i praktyczne przykłady dodawania, dostosowywania i zarządzania znakami wodnymi w dokumentach Word. Dowiesz się, jak dodawać tekst, obrazy, kształty lub grafiki jako znaki wodne, dostosowywać ich położenie i wygląd oraz zaawansowane opcje, takie jak dodawanie niestandardowych znaków wodnych przy użyciu pól. Ten zasób jest niezbędny dla programistów, którzy chcą zautomatyzować zarządzanie znakami wodnymi w swoich dokumentach Word przy użyciu Aspose.Words for .NET.
 
  ## Samouczki
+
+{{< tutorial-card link="./add-text-watermark/" title="Dodaj czerwony przekątny znak wodny tekstowy do dokumentów Word przy użyciu Aspose.Words for .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="Utwórz ukośny znak wodny tekstowy z niestandardową czcionką w dokumencie Word przy użyciu Aspose.Words for .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 | Tytuł | Opis |
 | --- | --- |
 | [Dodaj tekstowy znak wodny z określonymi opcjami](./add-text-watermark-with-specific-options/) | Dowiedz się, jak dodać tekstowy znak wodny z określonymi opcjami do dokumentów Word za pomocą Aspose.Words dla .NET. Łatwo dostosuj czcionkę, rozmiar, kolor i układ. |

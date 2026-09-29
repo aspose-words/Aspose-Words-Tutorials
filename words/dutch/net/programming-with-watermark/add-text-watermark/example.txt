@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je automatisch een rode diagonale tekstwatermark toevoegt aan elk nieuw Word‑document dat wordt gegenereerd in een batch‑rapportageproces met behulp van Aspose.Words Document en DocumentBuilder.
+//ExStepSummary:0: Doe de map "GeneratedReports" aan waar de uitvoerbestanden worden opgeslagen.
+//ExStepSummary:1: Start een lus die drie afzonderlijke documenten genereert.
+//ExStepSummary:2: Maak een nieuw leeg Word‑documentobject aan.
+//ExStepSummary:3: Gebruik DocumentBuilder om een titelregel en een beschrijving in het document te schrijven.
+//ExStepSummary:4: Definieer het uiterlijk van de watermark, inclusief lettertype, grootte, kleur en diagonale lay-out.
+//ExStepSummary:5: Pas de geconfigureerde rode diagonale watermark met de tekst "PROTECTED" toe op het document.
+//ExStepSummary:6: Sla het watergemerkte document op in de map "GeneratedReports" met een unieke bestandsnaam.
+//ExStepSummary:7: Sluit de lus na het verwerken van het huidige document.
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

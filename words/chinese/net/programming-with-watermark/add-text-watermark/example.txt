@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: 本教程展示了如何在批量报告过程中使用 Aspose.Words 的 Document 和 DocumentBuilder，自动为每个新生成的 Word 文档添加红色对角线文字水印。
+//ExStepSummary:0: 创建 "GeneratedReports" 文件夹，用于保存输出文件。
+//ExStepSummary:1: 启动一个循环，生成三个独立的文档。
+//ExStepSummary:2: 创建一个新的空 Word 文档对象。
+//ExStepSummary:3: 使用 DocumentBuilder 在文档中写入标题行和描述。
+//ExStepSummary:4: 定义水印的外观，包括字体、大小、颜色和对角布局。
+//ExStepSummary:5: 将配置好的红色对角线水印（文本为 "PROTECTED"）应用到文档中。
+//ExStepSummary:6: 将带水印的文档以唯一文件名保存到 "GeneratedReports" 文件夹。
+//ExStepSummary:7: 处理完当前文档后关闭循环。
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

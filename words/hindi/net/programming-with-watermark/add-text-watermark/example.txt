@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Words के Document और DocumentBuilder का उपयोग करके बैच रिपोर्ट प्रक्रिया में उत्पन्न प्रत्येक नए Word दस्तावेज़ में स्वचालित रूप से लाल तिरछा टेक्स्ट वॉटरमार्क कैसे जोड़ें।
+//ExStepSummary:0: "GeneratedReports" फ़ोल्डर बनाएं जहाँ आउटपुट फ़ाइलें सहेजी जाएँगी।
+//ExStepSummary:1: एक लूप शुरू करें जो तीन अलग-अलग दस्तावेज़ उत्पन्न करेगा।
+//ExStepSummary:2: एक नया खाली Word दस्तावेज़ ऑब्जेक्ट बनाएं।
+//ExStepSummary:3: DocumentBuilder का उपयोग करके दस्तावेज़ में एक शीर्षक पंक्ति और विवरण लिखें।
+//ExStepSummary:4: वॉटरमार्क की उपस्थिति निर्धारित करें, जिसमें फ़ॉन्ट, आकार, रंग और तिरछा लेआउट शामिल हैं।
+//ExStepSummary:5: कॉन्फ़िगर किए गए लाल तिरछे वॉटरमार्क को टेक्स्ट "PROTECTED" के साथ दस्तावेज़ पर लागू करें।
+//ExStepSummary:6: वॉटरमार्कयुक्त दस्तावेज़ को एक अनूठे फ़ाइलनाम के साथ "GeneratedReports" फ़ोल्डर में सहेजें।
+//ExStepSummary:7: वर्तमान दस्तावेज़ को प्रोसेस करने के बाद लूप को बंद करें।
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

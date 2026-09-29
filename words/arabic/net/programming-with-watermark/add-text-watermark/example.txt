@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إضافة علامة مائية نصية حمراء مائلة تلقائيًا إلى كل مستند Word جديد يتم إنشاؤه في عملية تقارير دفعة باستخدام Aspose.Words Document و DocumentBuilder.
+//ExStepSummary:0: أنشئ المجلد "GeneratedReports" حيث سيتم حفظ ملفات الإخراج.
+//ExStepSummary:1: ابدأ حلقة ستولد ثلاثة مستندات منفصلة.
+//ExStepSummary:2: أنشئ كائن مستند Word جديد فارغ.
+//ExStepSummary:3: استخدم DocumentBuilder لكتابة سطر عنوان ووصف داخل المستند.
+//ExStepSummary:4: حدد مظهر العلامة المائية، بما في ذلك الخط، الحجم، اللون، وتخطيط القطر.
+//ExStepSummary:5: طبق العلامة المائية الحمراء المائلة المُكوَّنة بالنص "PROTECTED" على المستند.
+//ExStepSummary:6: احفظ المستند المموج بالعلامة المائية في مجلد "GeneratedReports" باسم ملف فريد.
+//ExStepSummary:7: أغلق الحلقة بعد معالجة المستند الحالي.
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// Prepare a directory where the created files will be placed.
+string reportsDir = Path.Combine(Directory.GetCurrentDirectory(), "GeneratedReports");
+Directory.CreateDirectory(reportsDir);
+
+//ExStep:1-
+// Emulate the production of a few documents.
+for (int index = 1; index <= 3; index++)
+{
+
+//ExStep:2-
+// Instantiate a fresh, empty document.
+Document document = new Document();
+
+//ExStep:3-
+// Insert some placeholder text.
+DocumentBuilder docBuilder = new DocumentBuilder(document);
+docBuilder.Writeln($"Document #{index}");
+docBuilder.Writeln("This document was produced automatically.");
+
+//ExStep:4-
+// Configure how the watermark should look.
+TextWatermarkOptions wmOptions = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Red,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:5-
+// Add the text watermark to the document.
+document.Watermark.SetText("PROTECTED", wmOptions);
+
+//ExStep:6-
+// Persist the file to disk.
+string outputPath = Path.Combine(reportsDir, $"Summary_{index}.docx");
+document.Save(outputPath);
+
+//ExStep:7-
+}
+//ExEnd

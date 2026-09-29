@@ -1,0 +1,30 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan hozhatunk létre egy új Word dokumentumot, állíthatunk be egy egyedi szöveges vízjelet meghatározott betűtípus-beállításokkal, alkalmazhatjuk a vízjelet a dokumentumra, és menthetjük az eredményt .docx fájlként a Document.Watermark.SetText API használatával.
+//ExStepSummary:0: Hozzon létre egy új, üres Word dokumentum példányt `document` néven.
+//ExStepSummary:1: Állítsa be a `watermarkSettings`-et Arial 48‑pontos szürke betűtípussal, átlós elrendezéssel és átlátszatlan megjelenítéssel.
+//ExStepSummary:2: Alkalmazza a "Private" szöveges vízjelet a `document`-re a korábban definiált beállításokkal.
+//ExStepSummary:3: Határozza meg a fájl útvonalát, ahová a vízjelezett dokumentumot menteni kívánja.
+//ExStepSummary:4: Mentse a módosított `document`-et a megadott útvonalra .docx fájlként.
+//ExStepImage:2:images/1.png
+//ExStep:0-
+Document document = new Document();
+
+//ExStep:1-
+TextWatermarkOptions watermarkSettings = new TextWatermarkOptions
+{
+    FontFamily = "Arial",
+    FontSize = 48,
+    Color = Color.Gray,
+    Layout = WatermarkLayout.Diagonal,
+    IsSemitrasparent = false
+};
+
+//ExStep:2-
+document.Watermark.SetText("Private", watermarkSettings);
+
+//ExStep:3-
+string outputPath = "SampleWatermarked.docx";
+
+//ExStep:4-
+document.Save(outputPath);
+//ExEnd

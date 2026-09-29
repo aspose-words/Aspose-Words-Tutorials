@@ -20,6 +20,12 @@
  ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 -
+
+{{< tutorial-card link="./add-text-watermark/" title="เพิ่มลายน้ำข้อความสีแดงแนวทแยงในเอกสาร Word ด้วย Aspose.Words for .NET" imgSrc="./add-text-watermark/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-diagonal-text-watermark/" title="สร้างลายน้ำข้อความแนวทแยงด้วยแบบอักษรกำหนดเองในเอกสาร Word โดยใช้ Aspose.Words for .NET" imgSrc="./add-diagonal-text-watermark/images/thumb.png" >}}
+
+
 - [เพิ่มลายน้ำข้อความด้วยตัวเลือกเฉพาะ](./add-text-watermark-with-specific-options/) | เรียนรู้วิธีการเพิ่มลายน้ำข้อความพร้อมตัวเลือกเฉพาะลงในเอกสาร Word ของคุณโดยใช้ Aspose.Words สำหรับ .NET ปรับแต่งแบบอักษร ขนาด สี และเค้าโครงได้อย่างง่ายดาย |
 
 
