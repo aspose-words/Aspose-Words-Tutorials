@@ -21,7 +21,7 @@ title: 在 C# 中将文档保存为 PDF – 完整指南：导出 Docx 并监控
 url: /zh/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

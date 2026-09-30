@@ -23,7 +23,7 @@ title: كيفية تصدير ماركداون من Word باستخدام Java �
 url: /ar/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

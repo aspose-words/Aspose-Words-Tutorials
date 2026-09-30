@@ -22,15 +22,10 @@ title: Salva documento come PDF con Aspose.Words – Guida completa C#
 url: /it/net/programming-with-pdfsaveoptions/save-document-as-pdf-with-aspose-words-complete-c-guide/
 ---
 
-.*" That is a line after image, we need to translate that too.
 
-We must keep headers, code block placeholders unchanged. Also keep markdown links unchanged.
 
-Let's produce the translated content.
 
-We need to keep the shortcodes at top and bottom.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

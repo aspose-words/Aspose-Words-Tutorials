@@ -10,9 +10,8 @@ url: /tr/java/document-merging/using-document-merging/
 weight: 10
 ---
 
- remain same.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

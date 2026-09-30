@@ -21,9 +21,8 @@ title: บันทึกไฟล์ docx เป็น markdown ด้วย As
 url: /th/java/document-converting/save-docx-as-markdown-with-aspose-words-complete-guide/
 ---
 
-sure code block placeholders remain unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

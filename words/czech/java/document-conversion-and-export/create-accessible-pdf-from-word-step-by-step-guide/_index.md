@@ -23,7 +23,6 @@ title: Vytvořte přístupný PDF z Wordu – krok za krokem
 url: /cs/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

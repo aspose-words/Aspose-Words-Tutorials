@@ -25,7 +25,7 @@ title: Сохранить docx в markdown и извлечь изображен�
 url: /ru/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

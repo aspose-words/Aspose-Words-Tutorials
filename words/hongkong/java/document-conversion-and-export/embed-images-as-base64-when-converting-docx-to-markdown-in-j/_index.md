@@ -22,19 +22,12 @@ title: 在 Java 中將 DOCX 轉換為 Markdown 時以 Base64 嵌入圖像
 url: /zh-hant/java/document-conversion-and-export/embed-images-as-base64-when-converting-docx-to-markdown-in-j/
 ---
 
-phrase is inside bold, we can keep English. So we can keep the bold phrase unchanged. The rest translate.
 
-Similarly "Aspose.Words for Java" keep.
 
-Ok.
 
-Proceed through all sections.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final output with all translations.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

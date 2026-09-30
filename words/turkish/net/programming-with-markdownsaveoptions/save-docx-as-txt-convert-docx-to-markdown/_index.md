@@ -22,29 +22,17 @@ title: docx'i txt olarak kaydet – docx'i markdown'a dönüştür
 url: /tr/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/
 ---
 
-appear as `?`" etc. Translate.
 
-Row 2: "Images missing in Markdown" etc.
 
-Row 3: "Text wrapping looks odd in TXT" etc.
 
-Row 4: "UTF‑8 characters garbled" etc.
 
-Subheading "### Bonus tip: batch conversion" translate.
 
-Paragraph.
 
-Code block placeholder.
 
-Sentence.
 
-Heading "## Conclusion" translate.
 
-Paragraphs.
 
-Now ensure we keep all placeholders.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

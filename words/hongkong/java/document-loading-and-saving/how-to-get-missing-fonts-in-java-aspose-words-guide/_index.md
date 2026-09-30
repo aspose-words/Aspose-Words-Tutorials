@@ -20,9 +20,7 @@ title: 如何在 Java 中取得缺失字型 – Aspose.Words 指南
 url: /zh-hant/java/document-loading-and-saving/how-to-get-missing-fonts-in-java-aspose-words-guide/
 ---
 
-Be careful with bold formatting and code formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

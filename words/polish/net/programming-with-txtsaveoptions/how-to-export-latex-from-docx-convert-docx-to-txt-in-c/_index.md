@@ -23,19 +23,12 @@ title: Jak wyeksportować LaTeX z DOCX – konwertować DOCX na TXT w C#
 url: /pl/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-convert-docx-to-txt-in-c/
 ---
 
-uj połączyć ten eksporter ze statycznym generatorem stron, aby automatycznie budować witrynę dokumentacyjną, lub podać wynik do potoku CI, który kompiluje PDF-y przy każdym commicie. A jeśli jesteś ciekawy innych formatów eksportu — np. konwersji DOCX na Markdown przy zachowaniu LaTeX — sprawdź opcję `SaveFormat.Markdown` w Aspose.Words."
 
-Paragraph.
 
-"Happy coding, and may your equations always render flawlessly!"
 
-Translate: "Miłego kodowania i niech Twoje równania zawsze renderują się bezbłędnie!"
 
-Image line unchanged.
 
-Then closing shortcodes.
 
-Let's assemble with same ordering.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,13 +24,10 @@ title: Buat PDF UA di Java – Panduan Lengkap
 url: /id/java/document-conversion-and-export/create-pdf-ua-in-java-complete-guide/
 ---
 
-blocks/products/products-backtop-button >}}
 
-All preserved.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

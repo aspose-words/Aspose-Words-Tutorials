@@ -24,15 +24,10 @@ title: Enregistrer un docx au format markdown avec Aspose.Words – Guide comple
 url: /fr/java/document-converting/save-docx-as-markdown-with-aspose-words-complete-guide/
 ---
 
-](https://example.com/images/save-docx-as-markdown.png "Illustration of a Word file being transformed into markdown")
 
-Keep unchanged.
 
-Then closing shortcodes.
 
-Now ensure we keep all shortcodes exactly.
 
-Let's assemble final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

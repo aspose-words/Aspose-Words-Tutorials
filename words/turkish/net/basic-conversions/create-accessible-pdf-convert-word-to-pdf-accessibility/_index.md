@@ -25,16 +25,10 @@ title: Erişilebilir PDF Oluştur – Word'ü PDF Erişilebilirliğine Dönüşt
 url: /tr/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-ürmem gerekirse?**  
-C: Mantığı bir ..."
 
-But we can keep as is, maybe just translate the question and the start of answer.
 
-Original: "A: Wrap the logic in a". We'll translate "C: Mantığı bir". Keep incomplete.
 
-Now ensure we preserve all shortcodes and closing tags.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,9 +22,7 @@ title: حفظ ملف docx كملف txt – تصدير المعادلات �
 url: /ar/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/
 ---
 
-Be careful with markdown formatting: keep headings (#) and bullet list markers.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

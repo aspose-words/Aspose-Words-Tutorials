@@ -22,25 +22,15 @@ title: salvar docx como txt – converter docx para markdown
 url: /pt/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/
 ---
 
-Paragraphs: translate.
 
-Make sure to keep **bold**.
 
-Also blockquote > **What you’ll need** etc.
 
-List items.
 
-Image alt text.
 
-All headings.
 
-All code block placeholders remain.
 
-Table.
 
-All other text.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

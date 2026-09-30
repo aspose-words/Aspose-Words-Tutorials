@@ -22,13 +22,9 @@ title: DOCX in TXT konvertieren – Word‑Gleichungen als LaTeX exportieren
 url: /de/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/
 ---
 
-x in txt konvertieren – Word‑Gleichungen als LaTeX exportieren". Keep "docx" "txt" "LaTeX". Probably keep "Convert docx to txt – Export Word Equations as LaTeX" as "docx in txt konvertieren – Word‑Gleichungen als LaTeX exportieren". Let's do that.
 
-Paragraphs: translate.
 
-Let's go step by step.
 
-I'll produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

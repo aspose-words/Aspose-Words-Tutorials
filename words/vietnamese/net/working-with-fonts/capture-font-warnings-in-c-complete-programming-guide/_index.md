@@ -22,11 +22,8 @@ title: Bắt cảnh báo phông chữ trong C# – Hướng dẫn lập trình �
 url: /vi/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-translate.
 
-Make sure to keep **bold** formatting.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,7 +22,7 @@ title: Aspose.WordsでdocxをPDFに保存 – 完全なJavaガイド
 url: /ja/java/document-conversion-and-export/save-docx-as-pdf-with-aspose-words-complete-java-guide/
 ---
 
-final output with same structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

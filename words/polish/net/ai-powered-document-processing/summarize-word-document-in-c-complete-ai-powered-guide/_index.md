@@ -25,9 +25,7 @@ title: Podsumowanie dokumentu Word w C# – Kompletny przewodnik zasilany AI
 url: /pl/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 
-.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

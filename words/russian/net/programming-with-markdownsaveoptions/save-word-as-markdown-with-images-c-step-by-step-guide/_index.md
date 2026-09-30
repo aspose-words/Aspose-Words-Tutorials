@@ -23,17 +23,11 @@ title: Сохранить Word как Markdown с изображениями �
 url: /ru/net/programming-with-markdownsaveoptions/save-word-as-markdown-with-images-c-step-by-step-guide/
 ---
 
-, PDF) или интегрировать конвертер в API ASP.NET Core, которое будет предоставлять markdown по запросу. Та же схема обратного вызова работает для извлечения шрифтов, таблиц стилей или даже пользовательских XML‑частей — просто проверьте `args.ResourceType` и обработайте соответствующим образом."
 
-Final line: "Happy coding, and may your markdown always be image‑rich!" -> "Удачной разработки, и пусть ваш markdown всегда будет богатыми изображениями!"
 
-Then closing shortcodes remain unchanged.
 
-Now ensure we keep all shortcodes and placeholders.
 
-Also need to keep any images? None.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -21,17 +21,11 @@ title: Tạo PDF Truy cập được trong C# – Hướng dẫn từng bước
 url: /vi/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
-etc.
 
-We must keep code block placeholders unchanged.
 
-Let's produce final translation.
 
-Be careful with markdown tables: keep same.
 
-Also keep shortcodes at top and bottom.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

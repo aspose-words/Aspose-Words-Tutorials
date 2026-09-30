@@ -22,11 +22,8 @@ title: Uložit DOCX jako TXT – převést DOCX na Markdown
 url: /cs/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/
 ---
 
-.
 
-Also any other URLs? None.
 
-Now produce translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

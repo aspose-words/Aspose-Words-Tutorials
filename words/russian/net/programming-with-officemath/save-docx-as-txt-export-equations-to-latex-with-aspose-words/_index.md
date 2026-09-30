@@ -22,11 +22,8 @@ title: Сохранить docx как txt – экспортировать ур�
 url: /ru/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/
 ---
 
-There's a link maybe? No.
 
-We need to translate step-by-step.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

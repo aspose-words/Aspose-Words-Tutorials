@@ -22,27 +22,16 @@ title: Enregistrer le docx en txt – convertir le docx en markdown
 url: /fr/net/programming-with-markdownsaveoptions/save-docx-as-txt-convert-docx-to-markdown/
 ---
 
-Translate.
 
-Paragraph: "We’ve covered everything you need to **save docx as txt**, **convert docx to markdown**, and **export equations to LaTeX** in a single, cohesive workflow. By loading the document once, configuring `MarkdownSaveOptions` and `TxtSaveOptions` with `OfficeMathExportMode.LaTeX`, and calling `Save` twice, you end up with two clean, searchable files that retain the mathematical fidelity of the original Word document."
 
-Translate.
 
-Next steps? etc.
 
-Translate rest.
 
-Finally closing shortcodes.
 
-Make sure not to translate code block placeholders.
 
-Now produce final content.
 
-Let's craft translation.
 
-Be careful with French punctuation: use « »? Not required. Keep simple.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

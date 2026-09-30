@@ -24,15 +24,10 @@ title: Hogyan exportáljunk LaTeX-et DOCX-ből – Word átalakítása TXT-re ú
 url: /hu/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-TeX snippets tucked inside a plain‑text file. The good news? With a few lines of C# you can **convert docx to txt**, keep every Word equation as clean LaTeX, and end up with a ready‑to‑use *.txt* file."
 
-Translate accordingly.
 
-Continue.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

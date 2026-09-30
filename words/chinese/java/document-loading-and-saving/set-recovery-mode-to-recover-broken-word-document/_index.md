@@ -19,9 +19,7 @@ title: 设置恢复模式以修复损坏的 Word 文档
 url: /zh/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-translate.
 
-Let's craft final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

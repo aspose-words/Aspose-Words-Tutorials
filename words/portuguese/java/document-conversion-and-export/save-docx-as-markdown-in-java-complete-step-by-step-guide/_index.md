@@ -23,13 +23,9 @@ title: Salvar docx como markdown em Java – Guia completo passo a passo
 url: /pt/java/document-conversion-and-export/save-docx-as-markdown-in-java-complete-step-by-step-guide/
 ---
 
-headers and rows.
 
-Also translate list items.
 
-Also translate "Common variations & edge cases" etc.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

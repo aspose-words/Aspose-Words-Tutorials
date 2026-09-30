@@ -25,7 +25,6 @@ title: Tạo PDF Truy cập được – Chuyển đổi Word sang PDF có khả
 url: /vi/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

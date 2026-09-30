@@ -22,7 +22,7 @@ title: DOCX에서 LaTeX 내보내는 방법 – Word를 TXT로 변환 가이드
 url: /ko/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

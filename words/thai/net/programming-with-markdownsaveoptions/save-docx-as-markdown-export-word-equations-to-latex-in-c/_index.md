@@ -24,13 +24,9 @@ title: บันทึกไฟล์ docx เป็น markdown – ส่ง�
 url: /th/net/programming-with-markdownsaveoptions/save-docx-as-markdown-export-word-equations-to-latex-in-c/
 ---
 
-ลัพธ์ LaTeX". Keep code snippets unchanged.
 
-Also the bullet points etc.
 
-Make sure to preserve markdown formatting.
 
-Let's produce translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

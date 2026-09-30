@@ -23,15 +23,10 @@ title: Converteer Word naar Markdown – Afbeeldingen extraheren in C#
 url: /nl/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-Alt text is part of markdown, it's text. So translate alt text and title. The alt text is "Convert Word to Markdown example". Title is "convert word to markdown". Translate both.
 
-Also the image caption after: "*Image alt text: convert word to markdown illustration showing a Word file turning into a Markdown file with images.*" Translate.
 
-Proceed.
 
-Also bullet lists.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

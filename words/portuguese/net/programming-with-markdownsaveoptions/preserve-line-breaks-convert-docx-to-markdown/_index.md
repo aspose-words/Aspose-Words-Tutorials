@@ -23,9 +23,7 @@ title: 'Preservar Quebras de Linha: Converter DOCX para Markdown'
 url: /pt/net/programming-with-markdownsaveoptions/preserve-line-breaks-convert-docx-to-markdown/
 ---
 
-need to keep them.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

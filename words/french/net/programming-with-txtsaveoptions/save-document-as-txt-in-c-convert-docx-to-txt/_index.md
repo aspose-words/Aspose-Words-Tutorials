@@ -24,13 +24,9 @@ title: Enregistrer le document au format TXT en C# – Convertir DOCX en TXT
 url: /fr/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-TXT" translate to French: "# Enregistrer un document en TXT avec C# – Convertir DOCX en TXT". Keep same heading level.
 
-Proceed.
 
-Let's translate paragraph by paragraph.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,7 +22,6 @@ title: Cara Memulihkan DOCX – Memuat File Rusak dengan Opsi Pemulihan
 url: /id/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/
 ---
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

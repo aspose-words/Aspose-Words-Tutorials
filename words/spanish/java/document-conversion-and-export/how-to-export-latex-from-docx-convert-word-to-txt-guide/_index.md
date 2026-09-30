@@ -23,7 +23,7 @@ title: Cómo exportar LaTeX desde DOCX – Guía para convertir Word a TXT
 url: /es/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

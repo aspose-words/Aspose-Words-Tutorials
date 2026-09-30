@@ -25,7 +25,7 @@ title: Hogyan állítsuk helyre a DOCX-et, exportáljunk Markdownba és PDF/UA-b
 url: /hu/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,9 +25,8 @@ title: Word konvertálása Markdownra – Képek kinyerése C#‑ban
 url: /hu/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-: keep unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

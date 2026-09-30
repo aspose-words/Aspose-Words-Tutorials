@@ -25,9 +25,8 @@ title: Establecer la devolución de llamada de advertencia en C# – Guía compl
 url: /es/net/working-with-fonts/set-warning-callback-in-c-complete-guide-to-font-handling/
 ---
 
-all markdown formatting, code placeholders unchanged.
 
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -21,13 +21,9 @@ title: Ajouter une ombre à une forme dans Word – Guide complet d’Aspose.Wor
 url: /fr/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-.
 
-Check for any technical terms: Keep them English. Eg "API", "SDK", "class names". Already fine.
 
-Translate sentences.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

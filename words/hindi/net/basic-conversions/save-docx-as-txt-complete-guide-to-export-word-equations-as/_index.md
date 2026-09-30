@@ -25,13 +25,9 @@ title: docx को txt के रूप में सहेजें – Word �
 url: /hi/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/
 ---
 
-**Batch processing** — wrap the (incomplete?) maybe keep as is.
 
-Then closing shortcodes.
 
-We must ensure we keep all placeholders unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

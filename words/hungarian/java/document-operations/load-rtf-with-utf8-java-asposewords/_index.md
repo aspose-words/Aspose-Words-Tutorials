@@ -13,9 +13,7 @@ url: /hu/java/document-operations/load-rtf-with-utf8-java-asposewords/
 weight: 1
 ---
 
- headings.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

@@ -21,7 +21,7 @@ title: C#로 접근 가능한 PDF 만들기 – 단계별 가이드
 url: /ko/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

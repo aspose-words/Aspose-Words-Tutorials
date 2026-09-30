@@ -24,17 +24,12 @@ title: Bozuk docx Dosyasını Kurtarma – Tam C# Rehberi
 url: /tr/net/programming-with-loadoptions/recover-corrupted-docx-complete-c-guide/
 ---
 
-sayısı nasıl kontrol edilir** gösterdik. Tam, çalıştırılabilir örnek herhangi bir C# projesine eklenmeye hazır ve isteğe bağlı ipuçları, çözümü gerçek dünya iş yüklerine ölçeklendirmenize yardımcı olur."
 
-"Happy coding, and may your documents stay healthy!"
 
-Translate: "Kodlamaktan keyif alın ve belgeleriniz sağlıklı kalsın!"
 
-Then closing shortcodes.
 
-We must ensure we keep all shortcodes exactly as original.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

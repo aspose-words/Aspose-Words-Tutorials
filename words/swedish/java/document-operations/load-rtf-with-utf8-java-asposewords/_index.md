@@ -12,13 +12,9 @@ url: /sv/java/document-operations/load-rtf-with-utf8-java-asposewords/
 weight: 1
 ---
 
- dates same.
 
-Then closing shortcodes.
 
-Now produce final content with same shortcodes.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

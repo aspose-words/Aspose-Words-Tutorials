@@ -25,21 +25,13 @@ title: Восстановление повреждённого файла DOCX �
 url: /ru/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-file." Should translate.
 
-Also the blockquote > TL;DR etc.
 
-Also the "Pro tip:" etc.
 
-Also bullet points.
 
-Make sure to keep markdown formatting.
 
-Let's produce the translated content.
 
-We need to keep shortcodes at top and bottom unchanged.
 
-Let's start.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

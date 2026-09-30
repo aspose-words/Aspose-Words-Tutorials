@@ -22,15 +22,11 @@ title: สร้างรูปสี่เหลี่ยมผืนผ้า�
 url: /th/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-"เขียนโค้ดให้สนุก!"
 
-Also translate "Step 1: Initialize the document – the foundation of **how to create document**" etc.
 
-Make sure to keep bold formatting.
 
-Also blockquote > lines.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

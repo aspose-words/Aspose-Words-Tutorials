@@ -22,21 +22,14 @@ title: Como incorporar imagens em Markdown a partir de DOCX
 url: /pt/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
-}}
 
-All good.
 
-Now produce final content with all translations.
 
-Check we kept all code block placeholders unchanged.
 
-Check we kept markdown links? There were none besides maybe none.
 
-Check we kept URLs? None.
 
-Check we kept tables formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

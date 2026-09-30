@@ -22,17 +22,11 @@ title: استعادة مستند Word التالف – دليل C# الكامل
 url: /ar/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-loading to saving a repaired file")
 
-Translate alt and title.
 
-Alt: "عملية استعادة مستند Word تالف". Title: "مخطط يوضح تدفق استعادة مستند Word التالف من التحميل إلى حفظ الملف المُصلَح". Keep quotes.
 
-Then closing shortcodes.
 
-Now produce final content with same markdown.
 
-Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

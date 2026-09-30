@@ -23,9 +23,8 @@ title: 将 Word 转换为 Markdown – 在 C# 中提取图片
 url: /zh/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-Also ensure we keep the shortcodes exactly.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

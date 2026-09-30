@@ -22,7 +22,7 @@ title: Как экспортировать LaTeX из DOCX – Полное ру
 url: /ru/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Как экспортировать Markdown из Word с помощью 
 url: /ru/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-Now translate.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

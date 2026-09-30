@@ -24,7 +24,7 @@ title: Rechteckform in Word mit Aspose.Words erstellen – Schritt‑für‑Schr
 url: /de/net/programming-with-shapes/create-rectangle-shape-in-word-with-aspose-words-step-by-ste/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

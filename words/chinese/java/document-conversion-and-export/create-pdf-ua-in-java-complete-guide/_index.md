@@ -20,9 +20,7 @@ title: 在 Java 中创建 PDF UA – 完整指南
 url: /zh/java/document-conversion-and-export/create-pdf-ua-in-java-complete-guide/
 ---
 
-bullet points, keep same.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

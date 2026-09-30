@@ -23,9 +23,8 @@ title: Maak een toegankelijke PDF vanuit Word – Stapsgewijze handleiding
 url: /nl/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

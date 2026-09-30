@@ -23,7 +23,6 @@ title: Konvertera Word till Markdown – Extrahera bilder i C#
 url: /sv/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

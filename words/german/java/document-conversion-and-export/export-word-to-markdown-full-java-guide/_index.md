@@ -25,9 +25,8 @@ title: Word nach Markdown exportieren – Vollständiger Java-Leitfaden
 url: /de/java/document-conversion-and-export/export-word-to-markdown-full-java-guide/
 ---
 
-code placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

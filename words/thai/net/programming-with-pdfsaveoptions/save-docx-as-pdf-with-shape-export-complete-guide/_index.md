@@ -22,13 +22,9 @@ title: บันทึกไฟล์ docx เป็น pdf ด้วย Shape E
 url: /th/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-shape-export-complete-guide/
 ---
 
-unchanged.
 
-Finally close shortcodes.
 
-Now produce final content.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

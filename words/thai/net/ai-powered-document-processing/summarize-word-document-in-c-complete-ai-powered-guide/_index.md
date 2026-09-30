@@ -23,7 +23,7 @@ title: สรุปเอกสาร Word ด้วย C# – คู่มื�
 url: /th/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

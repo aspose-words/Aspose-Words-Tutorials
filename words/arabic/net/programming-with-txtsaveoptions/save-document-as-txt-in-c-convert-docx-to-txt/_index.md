@@ -22,15 +22,10 @@ title: حفظ المستند كملف TXT في C# – تحويل DOCX إلى TXT
 url: /ar/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-level.
 
-Proceed.
 
-I'll translate each paragraph.
 
-Make sure to keep **bold** formatting.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

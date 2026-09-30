@@ -24,17 +24,12 @@ title: Word‑Dokument in C# zusammenfassen – Vollständiger KI‑gestützter 
 url: /de/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 
-latency." translate.
 
-- "Add caching (e.g., Redis) so repeated summaries of the same document are instantaneous." translate.
 
-Final paragraph translate.
 
-Then closing shortcodes unchanged.
 
-Also include backtop button shortcode unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

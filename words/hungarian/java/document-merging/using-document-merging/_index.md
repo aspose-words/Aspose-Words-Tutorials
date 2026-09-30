@@ -10,17 +10,12 @@ url: /hu/java/document-merging/using-document-merging/
 weight: 10
 ---
 
- Kérdések". Then Q&A.
 
-Translate each question and answer.
 
-"## Conclusion" => "## Következtetés". Paragraph.
 
-Then bottom metadata: "Last Updated:" etc. Keep dates.
 
-Now ensure we keep all shortcodes unchanged.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

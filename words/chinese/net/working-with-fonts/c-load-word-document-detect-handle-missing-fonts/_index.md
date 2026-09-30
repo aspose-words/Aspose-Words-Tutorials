@@ -20,7 +20,7 @@ title: c# 加载 Word 文档 – 检测并处理缺失字体
 url: /zh/net/working-with-fonts/c-load-word-document-detect-handle-missing-fonts/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -20,23 +20,14 @@ title: 修復損毀 DOCX – 完整指南：修復、PDF 及 Markdown 匯出
 url: /zh-hant/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/
 ---
 
-_1}} etc. They are not fenced code blocks; they are placeholders. So we keep them.
 
-We need to translate the rest.
 
-Let's produce the final content.
 
-Be careful with punctuation: Use Chinese punctuation? Usually translate but keep readability. Use Traditional Chinese characters, Hong Kong style (繁體中文). Keep English technical terms unchanged.
 
-Let's craft translation.
 
-Start with the shortcodes unchanged.
 
-Then heading "# Recover Corrupted DOCX – From Broken File to PDF & Markdown" translate: "# 復原損壞的 DOCX – 從破損檔案到 PDF 與 Markdown". Keep "DOCX" capital.
 
-Proceed.
 
-Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

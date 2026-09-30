@@ -21,15 +21,11 @@ title: Chuyển đổi DOCX sang PDF với xuất hình dạng nội tuyến –
 url: /vi/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
-Make sure tables: translate column headers and content.
 
-List items: translate.
 
-Code block placeholders remain.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

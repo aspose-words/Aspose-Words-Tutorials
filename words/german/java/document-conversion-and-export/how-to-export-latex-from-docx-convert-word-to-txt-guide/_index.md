@@ -25,17 +25,11 @@ title: Wie man LaTeX aus DOCX exportiert – Anleitung zum Konvertieren von Word
 url: /de/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-The title also. So translate both.
 
-Also headings and bullet points.
 
-We need to keep code block placeholders unchanged.
 
-Let's produce translation.
 
-Start with the same shortcodes.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

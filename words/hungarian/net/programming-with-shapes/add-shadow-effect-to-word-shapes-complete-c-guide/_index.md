@@ -24,19 +24,12 @@ title: Árnyékhatás hozzáadása a Word alakzatokhoz – Teljes C# útmutató
 url: /hu/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-`, etc.
 
-Also keep any bold markup **...**.
 
-Also keep any links (none except maybe in tip? There's no link). Keep images none.
 
-Now produce final content.
 
-Let's craft translation.
 
-Be careful with Hungarian characters.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

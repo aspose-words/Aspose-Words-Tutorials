@@ -24,9 +24,8 @@ title: C# में PNG को Base64 में बदलें – पूर्
 url: /hi/net/basic-conversions/convert-png-to-base64-in-c-complete-guide/
 ---
 
-translated alt text and title.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

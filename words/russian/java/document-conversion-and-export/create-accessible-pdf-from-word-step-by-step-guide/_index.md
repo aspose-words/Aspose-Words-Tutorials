@@ -23,9 +23,7 @@ title: Создание доступного PDF из Word – пошагово
 url: /ru/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

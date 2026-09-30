@@ -25,29 +25,17 @@ title: Criar PDF acessível – Converter Word para PDF acessível
 url: /pt/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
--backtop-button >}}
 
-We need to translate all text, including headings, list items, table headers, etc. Keep code block placeholders.
 
-Also note the last part "Wrap the logic in a" is incomplete; we leave as is.
 
-Let's translate.
 
-Portuguese translation:
 
-Title: "Criar PDF Acessível – Converter Word para PDF com Acessibilidade"
 
-Paragraphs: translate.
 
-Make sure to keep bold formatting (**text**) and inline code (`code`). Keep links unchanged.
 
-Translate list items.
 
-Translate table headers: "Scenario" -> "Cenário", "What to Adjust" -> "O que Ajustar", "Why" -> "Por quê". Keep content inside code unchanged.
 
-Translate other sentences.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

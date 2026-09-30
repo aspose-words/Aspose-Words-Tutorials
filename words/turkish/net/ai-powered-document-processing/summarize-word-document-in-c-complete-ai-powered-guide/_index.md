@@ -23,7 +23,6 @@ title: C# ile Word Belgesini Özetle – Tam AI Destekli Rehber
 url: /tr/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

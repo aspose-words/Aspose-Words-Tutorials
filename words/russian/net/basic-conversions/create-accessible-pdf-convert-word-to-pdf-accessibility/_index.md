@@ -24,25 +24,16 @@ title: Создать доступный PDF – Конвертироват�
 url: /ru/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-PDF Accessibility" maybe keep dash. Good.
 
-Check bold phrases: We left technical terms unchanged. Good.
 
-Check code block placeholders: they remain.
 
-Check image alt text unchanged.
 
-Check table: we translated.
 
-Check "Pro tip" we changed to "Совет". Might be okay.
 
-Check "Expected result:" we translated.
 
-Check "Frequently Asked Questions" we translated.
 
-Check "Q:" lines.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

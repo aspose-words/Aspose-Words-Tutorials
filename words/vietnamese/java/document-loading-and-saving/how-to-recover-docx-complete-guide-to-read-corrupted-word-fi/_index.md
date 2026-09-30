@@ -23,9 +23,7 @@ title: Cách khôi phục docx – Hướng dẫn đầy đủ để đọc các
 url: /vi/java/document-loading-and-saving/how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/
 ---
 
-formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -21,19 +21,13 @@ title: docx를 txt로 변환 – Word 수식을 LaTeX로 내보내기
 url: /ko/java/document-conversion-and-export/convert-docx-to-txt-export-word-equations-as-latex/
 ---
 
-/products-backtop-button >}}
 
-All unchanged.
 
-Now ensure we didn't translate any code block placeholders. Good.
 
-Check for any URLs: only image URL, keep unchanged.
 
-Check for any variable names: Document, TxtSaveOptions, etc. Kept.
 
-Check for bold formatting: keep **.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

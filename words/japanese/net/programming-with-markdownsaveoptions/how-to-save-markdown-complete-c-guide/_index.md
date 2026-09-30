@@ -20,11 +20,9 @@ title: Markdownの保存方法 – 完全C#ガイド
 url: /ja/net/programming-with-markdownsaveoptions/how-to-save-markdown-complete-c-guide/
 ---
 
-/products/products-backtop-button >}}
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

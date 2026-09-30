@@ -24,13 +24,10 @@ title: Установить обратный вызов предупрежден
 url: /ru/net/working-with-fonts/set-warning-callback-in-c-complete-guide-to-font-handling/
 ---
 
-craft translation carefully.
 
-Be careful with preserving markdown formatting like **, *.
 
-Also ensure not to translate code placeholders.
 
-Now write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

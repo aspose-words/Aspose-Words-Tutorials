@@ -23,25 +23,16 @@ title: C#'de Belgeyi TXT Olarak Kaydet – DOCX'i TXT'ye Dönüştür
 url: /tr/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-plain text. Drop the code into your project, tweak the options to fit your environment, and you’ll be handling plain‑text exports like a pro."
 
-Translate, keep bold and italics.
 
-Paragraph: "Got questions or a tricky DOCX that refuses to cooperate? Drop a comment below, and let’s troubleshoot together. Happy coding!"
 
-Translate.
 
-Closing shortcodes: keep.
 
-Also final backtop button shortcode.
 
-Now produce final content with same markdown structure.
 
-Let's craft translation.
 
-Be careful with Turkish characters.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

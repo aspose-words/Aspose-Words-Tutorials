@@ -22,13 +22,9 @@ title: Buat Opsi Memuat di Java – Deteksi Font yang Hilang & Cara Memuat DOCX
 url: /id/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-curly braces? That's HTML attribute? The alt is inside the attribute alt="Create Load Options flow diagram". Should we translate alt? Probably yes, as it's text. But the alt attribute is inside HTML-like attribute; we can translate the value. The image alt text before the URL is also text: "Diagram showing the flow of creating load options, setting a warning callback, and loading a DOCX file". That should be translated. The alt attribute also. We'll translate both.
 
-We must keep the code block placeholders unchanged.
 
-Now translate headings and paragraphs.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

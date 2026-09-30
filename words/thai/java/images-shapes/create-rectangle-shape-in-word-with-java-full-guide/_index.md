@@ -22,11 +22,8 @@ title: สร้างรูปสี่เหลี่ยมใน Word ด้�
 url: /th/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-them.
 
-Now translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

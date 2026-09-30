@@ -23,9 +23,8 @@ title: 如何從 DOCX 匯出 LaTeX – 步驟指南
 url: /zh-hant/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-step-by-step-guide/
 ---
 
-brackets and title. That's allowed because it's not a URL. It's part of markdown. Should be okay.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

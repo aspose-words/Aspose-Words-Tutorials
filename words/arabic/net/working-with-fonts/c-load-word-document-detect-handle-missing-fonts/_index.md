@@ -22,15 +22,10 @@ title: c# تحميل مستند Word – اكتشاف ومعالجة الخطو�
 url: /ar/net/working-with-fonts/c-load-word-document-detect-handle-missing-fonts/
 ---
 
-bullet.
 
-Conclusion.
 
-Next steps.
 
-Finally keep closing shortcodes.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -25,11 +25,9 @@ title: Riassumere un documento Word in C# – Guida completa potenziata dall'IA
 url: /it/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 
-: code block placeholders are fine.
 
-Make sure to keep bold markup with translated text.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,13 +24,10 @@ title: Java’da PDF UA Oluşturma – Tam Rehber
 url: /tr/java/document-conversion-and-export/create-pdf-ua-in-java-complete-guide/
 ---
 
-}}
 
-All done.
 
-Check we didn't translate any code block placeholders. Good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Recuperar documento de Word corrupto – Guía completa de C#
 url: /es/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

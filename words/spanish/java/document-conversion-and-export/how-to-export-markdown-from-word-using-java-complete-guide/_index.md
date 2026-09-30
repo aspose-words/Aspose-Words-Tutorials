@@ -23,25 +23,15 @@ title: Cómo exportar Markdown desde Word usando Java – Guía completa
 url: /es/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-keep formatting.
 
-Also note the note "For Spanish, ensure proper RTL formatting if needed" - Spanish is LTR, ignore.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Then heading "# How to Export Markdown from Word using Java – Complete Guide" translate to Spanish: "# Cómo exportar Markdown desde Word usando Java – Guía completa"
 
-Proceed.
 
-Paragraphs.
 
-Make sure to keep **bold** formatting.
 
-Translate.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

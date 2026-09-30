@@ -23,15 +23,10 @@ title: Stel waarschuwingscallback in C# – Complete gids voor lettertypebeheer
 url: /nl/net/working-with-fonts/set-warning-callback-in-c-complete-guide-to-font-handling/
 ---
 
-. | Always attach the callback **before** calling `new Document(...)`. |
 
-Translate each.
 
-Now final sections.
 
-Make sure to keep code block placeholders.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

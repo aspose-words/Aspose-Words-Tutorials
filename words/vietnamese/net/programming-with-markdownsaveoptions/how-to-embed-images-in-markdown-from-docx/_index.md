@@ -22,15 +22,10 @@ title: Cách chèn hình ảnh vào Markdown từ DOCX
 url: /vi/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
-So code blocks placeholders remain unchanged.
 
-We need to translate headings, bullet points, paragraphs, blockquotes, tables (but keep content). Table content includes technical terms; we can translate "Result", "When to use". Keep "LaTeX" etc.
 
-Let's produce translation.
 
-Be careful to keep markdown syntax.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

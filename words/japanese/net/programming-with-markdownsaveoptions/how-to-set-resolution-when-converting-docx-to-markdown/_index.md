@@ -20,9 +20,8 @@ title: DOCX を Markdown に変換する際の解像度設定方法
 url: /ja/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/
 ---
 
-sure to keep all shortcodes exactly as original.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

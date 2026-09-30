@@ -25,13 +25,9 @@ title: DOCX als Markdown speichern & Bilder extrahieren – C#‑Leitfaden
 url: /de/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-"Answer" and content.
 
-But note the table row: "*Do I need a license for Aspose.Words?* | The library works in" The answer is incomplete; we keep as is.
 
-We must not translate code placeholders.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

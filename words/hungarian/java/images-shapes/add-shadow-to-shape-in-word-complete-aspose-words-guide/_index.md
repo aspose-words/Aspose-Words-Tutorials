@@ -21,7 +21,7 @@ title: Árnyék hozzáadása alakzathoz a Wordben – Teljes Aspose.Words útmut
 url: /hu/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

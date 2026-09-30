@@ -26,19 +26,13 @@ title: Lưu tài liệu dưới dạng PDF trong C# – Hướng dẫn đầy đ
 url: /vi/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-}}
 
-We must keep them unchanged.
 
-Now ensure we kept all markdown formatting, code block placeholders unchanged, headings, lists, tables.
 
-Check for any URLs: none.
 
-Check for any images: none.
 
-Check for any other shortcodes: top and bottom.
 
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Obnova poškozeného dokumentu Word – Kompletní průvodce C#
 url: /cs/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-any code block placeholders. Keep them.
 
-Now produce final output with all translated text and original placeholders.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

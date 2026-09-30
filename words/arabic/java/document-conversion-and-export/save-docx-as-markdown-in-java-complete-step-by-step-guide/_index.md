@@ -22,19 +22,12 @@ title: حفظ ملف docx كملف markdown في Java – دليل خ�
 url: /ar/java/document-conversion-and-export/save-docx-as-markdown-in-java-complete-step-by-step-guide/
 ---
 
-equations and images. Whether you’re building a static‑site generator or just need a portable text version of a report, you’ll find the whole process—*from loading the DOCX to tweaking image resolution*—right here."
 
-Translate.
 
-Continue.
 
-Make sure to keep **bold** and *italic* formatting.
 
-Proceed through sections.
 
-Tables: translate column headers and content.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

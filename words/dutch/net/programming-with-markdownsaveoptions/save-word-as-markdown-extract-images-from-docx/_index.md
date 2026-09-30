@@ -23,15 +23,10 @@ title: sla Word op als markdown – extraheer afbeeldingen uit docx
 url: /nl/net/programming-with-markdownsaveoptions/save-word-as-markdown-extract-images-from-docx/
 ---
 
-block placeholders unchanged.
 
-Let's craft translation.
 
-Be careful with bullet points: keep asterisk and space.
 
-Also ensure we keep inline formatting like **bold**, `code`, etc.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

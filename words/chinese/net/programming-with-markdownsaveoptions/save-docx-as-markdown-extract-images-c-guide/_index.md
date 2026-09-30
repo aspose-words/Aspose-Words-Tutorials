@@ -24,9 +24,8 @@ title: 将 docx 保存为 markdown 并提取图片 – C# 指南
 url: /zh/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-to keep markdown formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

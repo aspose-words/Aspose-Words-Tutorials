@@ -25,11 +25,9 @@ title: Résumer un document Word en C# – Guide complet alimenté par l'IA
 url: /fr/net/ai-powered-document-processing/summarize-word-document-in-c-complete-ai-powered-guide/
 ---
 
-all shortcodes exactly.
 
-Check for any other markdown like blockquote > lines. Keep them.
 
-Now produce final answer with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

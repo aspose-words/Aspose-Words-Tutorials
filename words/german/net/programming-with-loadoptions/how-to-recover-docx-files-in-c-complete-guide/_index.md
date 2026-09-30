@@ -24,7 +24,7 @@ title: Wie man DOCX-Dateien in C# wiederherstellt – Vollständiger Leitfaden
 url: /de/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

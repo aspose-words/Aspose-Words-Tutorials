@@ -25,9 +25,8 @@ title: Δημιουργία προσβάσιμου PDF – Μετατροπή Wo
 url: /el/net/basic-conversions/create-accessible-pdf-convert-word-to-pdf-accessibility/
 ---
 
-exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

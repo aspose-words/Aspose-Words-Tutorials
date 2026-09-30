@@ -23,9 +23,7 @@ title: वर्ड को मार्कडाउन में परिवर
 url: /hi/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-placeholders remain.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

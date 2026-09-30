@@ -22,7 +22,6 @@ title: Jak nastavit rozlišení při převodu DOCX na Markdown
 url: /cs/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/
 ---
 
-content with all translations and placeholders unchanged.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

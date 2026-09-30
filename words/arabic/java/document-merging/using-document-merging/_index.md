@@ -9,11 +9,8 @@ url: /ar/java/document-merging/using-document-merging/
 weight: 10
 ---
 
- the library. Need to translate the text but keep link.
 
-Also there are bullet lists with backticks.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

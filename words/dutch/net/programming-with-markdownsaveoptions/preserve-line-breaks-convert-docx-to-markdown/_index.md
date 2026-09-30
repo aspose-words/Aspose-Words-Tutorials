@@ -22,27 +22,17 @@ title: 'Regelafbrekingen behouden: DOCX naar Markdown converteren'
 url: /nl/net/programming-with-markdownsaveoptions/preserve-line-breaks-convert-docx-to-markdown/
 ---
 
-produce Dutch translation.
 
-We must keep code block placeholders unchanged.
 
-We must keep markdown formatting.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Then heading "# Preserve Line Breaks: Convert DOCX to Markdown" => "# Regels behouden: DOCX naar Markdown converteren"
 
-But keep "Preserve Line Breaks" maybe translate to "Regelafbrekingen behouden". Let's do: "# Regels behouden: DOCX naar Markdown converteren"
 
-Now translate paragraph.
 
-We'll translate naturally.
 
-Proceed.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

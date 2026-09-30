@@ -23,11 +23,8 @@ title: Πώς να ανακτήσετε DOCX, εξαγωγή σε Markdown & PDF
 url: /el/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-The answer missing. We keep as is.
 
-Now close shortcodes.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

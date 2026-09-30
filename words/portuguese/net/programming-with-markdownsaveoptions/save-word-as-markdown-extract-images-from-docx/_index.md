@@ -22,19 +22,12 @@ title: salvar Word como markdown – extrair imagens de docx
 url: /pt/net/programming-with-markdownsaveoptions/save-word-as-markdown-extract-images-from-docx/
 ---
 
-URLs; there are none except maybe .NET links? There's .NET 6+ etc; that's fine.
 
-We need to translate "save word as markdown – extract images from docx" title.
 
-Let's produce translation.
 
-Be careful with bullet points: keep asterisks.
 
-Also blockquote >.
 
-Also keep the "Prerequisites" etc.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -21,7 +21,7 @@ title: Thêm bóng cho hình dạng trong Word – Hướng dẫn đầy đủ A
 url: /vi/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

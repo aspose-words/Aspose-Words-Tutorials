@@ -25,9 +25,7 @@ title: Δημιουργία Προσβάσιμου PDF από το Word – Οδ
 url: /el/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-same syntax.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

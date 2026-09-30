@@ -23,17 +23,11 @@ title: Přidat stínový efekt k tvarům ve Wordu – Kompletní průvodce C#
 url: /cs/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-}}
 
-We must keep them unchanged.
 
-Now produce final output with translation.
 
-Let's craft Czech translation.
 
-Be careful with technical terms: keep API, SDK, class names etc. Keep code placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

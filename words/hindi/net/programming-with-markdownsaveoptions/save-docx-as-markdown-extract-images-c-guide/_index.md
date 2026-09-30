@@ -26,9 +26,7 @@ title: docx को markdown के रूप में सहेजें और
 url: /hi/net/programming-with-markdownsaveoptions/save-docx-as-markdown-extract-images-c-guide/
 ---
 
-as given.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

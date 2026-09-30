@@ -19,13 +19,10 @@ title: 在 C# 中捕获字体警告 – 完整编程指南
 url: /zh/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-arnings in C# – Complete Programming Guide" translate: "# 在 C# 中捕获字体警告 – 完整编程指南"
 
-Proceed.
 
-Will translate each paragraph.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

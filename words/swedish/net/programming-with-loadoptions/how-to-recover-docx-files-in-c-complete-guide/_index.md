@@ -22,9 +22,7 @@ title: Hur man återställer DOCX-filer i C# – Komplett guide
 url: /sv/net/programming-with-loadoptions/how-to-recover-docx-files-in-c-complete-guide/
 ---
 
-.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

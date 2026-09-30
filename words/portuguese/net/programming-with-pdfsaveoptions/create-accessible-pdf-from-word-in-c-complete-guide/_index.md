@@ -24,15 +24,11 @@ title: Criar PDF acessível a partir do Word em C# – Guia completo
 url: /pt/net/programming-with-pdfsaveoptions/create-accessible-pdf-from-word-in-c-complete-guide/
 ---
 
-shortcode.
 
-Now produce final content with all translations.
 
-Check for any other markdown links: none.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

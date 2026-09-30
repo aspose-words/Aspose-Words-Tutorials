@@ -26,11 +26,9 @@ title: Schatten zu einer Form in C# hinzufügen – Vollständiger Leitfaden zur
 url: /de/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/
 ---
 
-_BLOCK_0-5 present.
 
-Check that we kept all markdown formatting.
 
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

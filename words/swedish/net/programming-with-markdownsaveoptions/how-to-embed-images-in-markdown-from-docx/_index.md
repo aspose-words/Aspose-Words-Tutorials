@@ -22,7 +22,7 @@ title: Hur man bäddar in bilder i Markdown från DOCX
 url: /sv/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

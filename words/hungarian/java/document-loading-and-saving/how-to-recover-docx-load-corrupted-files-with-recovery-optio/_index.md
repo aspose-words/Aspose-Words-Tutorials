@@ -24,21 +24,13 @@ title: Hogyan állítsuk helyre a DOCX-et – Sérült fájlok betöltése helyr
 url: /hu/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/
 ---
 
-content inside cells, but keep markdown table syntax.
 
-Also list items.
 
-Also blockquote >.
 
-Also keep links unchanged.
 
-Also images.
 
-Let's produce final translation.
 
-We'll keep shortcodes at start and end.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

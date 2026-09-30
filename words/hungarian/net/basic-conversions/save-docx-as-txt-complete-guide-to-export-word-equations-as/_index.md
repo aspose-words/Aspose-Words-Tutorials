@@ -25,9 +25,8 @@ title: docx mentése txt formátumba – Teljes útmutató a Word egyenletek LaT
 url: /hu/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/
 ---
 
-Make sure to keep markdown formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

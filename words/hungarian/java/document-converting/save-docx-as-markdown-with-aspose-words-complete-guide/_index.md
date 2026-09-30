@@ -25,11 +25,9 @@ title: A docx mentése markdown formátumba az Aspose.Words segítségével – 
 url: /hu/java/document-converting/save-docx-as-markdown-with-aspose-words-complete-guide/
 ---
 
-Why this step is essential* etc. We translated those.
 
-Make sure to keep the asterisks for emphasis? In markdown, *Pro tip:* we translated "*Pro tipp:*". Keep same formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

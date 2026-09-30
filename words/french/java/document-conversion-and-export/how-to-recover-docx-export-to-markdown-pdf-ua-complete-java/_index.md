@@ -23,11 +23,8 @@ title: Comment récupérer un DOCX, exporter en Markdown et PDF/UA – Guide com
 url: /fr/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-.
 
-Also keep code block placeholders.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

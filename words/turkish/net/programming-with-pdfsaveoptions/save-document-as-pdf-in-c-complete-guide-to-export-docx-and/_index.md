@@ -26,7 +26,7 @@ title: C#'ta Belgeyi PDF Olarak Kaydet – Docx Dışa Aktarma ve Yazı Tipi De�
 url: /tr/net/programming-with-pdfsaveoptions/save-document-as-pdf-in-c-complete-guide-to-export-docx-and/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

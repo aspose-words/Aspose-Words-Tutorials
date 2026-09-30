@@ -24,15 +24,10 @@ title: Comment exporter LaTeX depuis DOCX – Guide complet Java
 url: /fr/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
-to keep **bold** formatting.
 
-Also keep links? There are none besides image.
 
-Table: translate headers and content but keep pipe structure.
 
-Let's translate.
 
-Proceed step by step.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,9 +24,7 @@ title: Java'da Yükleme Seçenekleri Oluşturma – Eksik Yazı Tiplerini Tespit
 url: /tr/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

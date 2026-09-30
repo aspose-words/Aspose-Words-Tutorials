@@ -25,7 +25,7 @@ title: Hur man exporterar LaTeX från Word – Konvertera DOCX till Markdown och
 url: /sv/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-txt/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

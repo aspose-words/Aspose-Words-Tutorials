@@ -24,9 +24,8 @@ title: Guardar docx como markdown en Java – Guía completa paso a paso
 url: /es/java/document-conversion-and-export/save-docx-as-markdown-in-java-complete-step-by-step-guide/
 ---
 
-markdown formatting.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

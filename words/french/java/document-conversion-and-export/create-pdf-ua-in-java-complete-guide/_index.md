@@ -24,15 +24,11 @@ title: Créer un PDF UA en Java – Guide complet
 url: /fr/java/document-conversion-and-export/create-pdf-ua-in-java-complete-guide/
 ---
 
-pliant" we left as "PDF/UA‑compliant"? In French we wrote "PDF/UA‑compliant"? Actually we wrote "PDF/UA‑compliant document" earlier. We wrote "document conforme PDF/UA". That's fine.
 
-Check for "PDF/UA‑compliant output" we wrote "sortie conforme PDF/UA". Good.
 
-Check for "PDF/UA‑compliant" we used "conforme PDF/UA". Good.
 
-Check for "PDF/UA‑compliant" in other places.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

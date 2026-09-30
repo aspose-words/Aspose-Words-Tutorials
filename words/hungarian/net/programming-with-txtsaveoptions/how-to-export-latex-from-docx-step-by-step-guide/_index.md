@@ -26,13 +26,10 @@ title: Hogyan exportáljunk LaTeX-et DOCX-ből – Lépésről lépésre útmuta
 url: /hu/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-step-by-step-guide/
 ---
 
-, and let the LaTeX flow! Happy coding." => "Van még kérdésed? Írj egy megjegyzést, kísérletezz, és engedd, hogy a LaTeX áramoljon! Boldog kódolást."
 
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc.
 
-Make sure we keep all shortcodes and code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

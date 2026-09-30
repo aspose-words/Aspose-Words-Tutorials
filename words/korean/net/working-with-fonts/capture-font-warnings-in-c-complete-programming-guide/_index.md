@@ -20,7 +20,7 @@ title: C#에서 폰트 경고 캡처 – 완전 프로그래밍 가이드
 url: /ko/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

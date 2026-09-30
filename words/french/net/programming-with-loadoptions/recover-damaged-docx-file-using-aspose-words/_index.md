@@ -24,11 +24,8 @@ title: Récupérer un fichier DOCX endommagé avec Aspose.Words
 url: /fr/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-damaged DOCX file example" alt text.
 
-Now ensure we keep all placeholders.
 
-Let's construct final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

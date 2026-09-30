@@ -23,13 +23,9 @@ title: Ladeoptionen in Java erstellen – Fehlende Schriftarten erkennen & DOCX 
 url: /de/java/document-loading-and-saving/create-load-options-in-java-detect-missing-fonts-how-to-load/
 ---
 
-agram.png){: .center-image alt="Flussdiagramm zum Erstellen von Ladeoptionen"}
 
-But need to keep the attribute syntax exactly. We'll translate the alt attribute.
 
-Now translate bullet lists.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

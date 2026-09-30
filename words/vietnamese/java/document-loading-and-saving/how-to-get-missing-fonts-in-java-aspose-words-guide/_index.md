@@ -23,7 +23,7 @@ title: Cách lấy các phông chữ bị thiếu trong Java – Hướng dẫn 
 url: /vi/java/document-loading-and-saving/how-to-get-missing-fonts-in-java-aspose-words-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

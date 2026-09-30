@@ -13,9 +13,8 @@ url: /el/java/document-operations/load-rtf-with-utf8-java-asposewords/
 weight: 1
 ---
 
- careful to keep markdown formatting, code block placeholders unchanged.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

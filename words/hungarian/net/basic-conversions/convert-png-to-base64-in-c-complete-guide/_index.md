@@ -24,9 +24,7 @@ title: PNG átalakítása Base64-re C#-ban – Teljes útmutató
 url: /hu/net/basic-conversions/convert-png-to-base64-in-c-complete-guide/
 ---
 
-Also note "For Hungarian, ensure proper RTL formatting if needed" - Hungarian is LTR, ignore.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

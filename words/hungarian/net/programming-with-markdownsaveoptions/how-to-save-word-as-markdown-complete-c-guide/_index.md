@@ -24,15 +24,11 @@ title: Hogyan mentsük a Word dokumentumot Markdown formátumba – Teljes C# ú
 url: /hu/net/programming-with-markdownsaveoptions/how-to-save-word-as-markdown-complete-c-guide/
 ---
 
-the remaining text after code block? There is none, only shortcodes.
 
-Thus final output should be the translated content with same shortcodes and code blocks unchanged.
 
-Let's produce the translation.
 
-Be careful with Hungarian characters.
 
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

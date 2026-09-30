@@ -21,17 +21,11 @@ title: 如何恢復 DOCX、匯出為 Markdown 與 PDF/UA – 完整 Java 指南
 url: /zh-hant/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-blockquote > **Pro tip:** after loading... Already.
 
-Also there is a blockquote > **What does ...** Already.
 
-Also there is a blockquote > **Verifying PDF/UA** Already.
 
-Also there is a blockquote > **Pro tip:** after loading... Already.
 
-Make sure to translate.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

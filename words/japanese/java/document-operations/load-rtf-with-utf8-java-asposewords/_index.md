@@ -11,7 +11,7 @@ url: /ja/java/document-operations/load-rtf-with-utf8-java-asposewords/
 weight: 1
 ---
 
- craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

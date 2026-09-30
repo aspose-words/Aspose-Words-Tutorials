@@ -25,15 +25,11 @@ title: Créer un PDF accessible à partir de Word – Guide étape par étape
 url: /fr/java/document-conversion-and-export/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-Now produce final content with all translations and unchanged elements.
 
-Check for any markdown links: none.
 
-Check for any code blocks: placeholders remain.
 
-Make sure to keep image alt and title translated.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

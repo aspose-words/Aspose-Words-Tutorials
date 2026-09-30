@@ -24,7 +24,7 @@ title: Återställ korrupt Word-dokument – Komplett C#-guide
 url: /sv/net/programming-with-loadoptions/recover-corrupted-word-document-complete-c-guide/
 ---
 
-output with all translations. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

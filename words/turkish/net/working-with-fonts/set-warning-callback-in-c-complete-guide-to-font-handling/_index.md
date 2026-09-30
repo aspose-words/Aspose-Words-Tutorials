@@ -23,11 +23,9 @@ title: C#'ta uyarı geri çağrısını ayarla – Yazı Tipi İşleme İçin Ta
 url: /tr/net/working-with-fonts/set-warning-callback-in-c-complete-guide-to-font-handling/
 ---
 
-CODE_BLOCK_0}} etc. Keep them.
 
-Check for shortcodes: at top and bottom. Keep them.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

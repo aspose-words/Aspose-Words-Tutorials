@@ -23,9 +23,8 @@ title: Wie man die Auflösung beim Konvertieren von DOCX zu Markdown festlegt
 url: /de/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/
 ---
 
-Also need to keep the block with table: use markdown table syntax.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

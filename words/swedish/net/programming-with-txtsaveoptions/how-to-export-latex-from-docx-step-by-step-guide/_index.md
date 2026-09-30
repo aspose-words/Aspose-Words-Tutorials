@@ -25,9 +25,7 @@ title: Hur man exporterar LaTeX från DOCX – Steg‑för‑steg‑guide
 url: /sv/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-step-by-step-guide/
 ---
 
-_BLOCK_0}} etc.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

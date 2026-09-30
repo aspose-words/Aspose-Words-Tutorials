@@ -24,17 +24,12 @@ title: Simpan docx sebagai PDF dengan Aspose.Words – Panduan Java Lengkap
 url: /id/java/document-conversion-and-export/save-docx-as-pdf-with-aspose-words-complete-java-guide/
 ---
 
-aturan `PdfSaveOptions` yang berbeda, dan biarkan pustaka melakukan pekerjaan berat. Selamat coding, dan semoga PDF Anda selalu dirender persis seperti yang Anda inginkan!"
 
-Then closing shortcodes.
 
-Now produce final content with same shortcodes.
 
-Let's ensure we keep all code block placeholders unchanged.
 
-Also keep the markdown table formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

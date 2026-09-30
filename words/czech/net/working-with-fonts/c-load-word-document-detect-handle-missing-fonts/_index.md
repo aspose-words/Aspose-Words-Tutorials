@@ -22,17 +22,11 @@ title: c# načíst Word dokument – detekovat a řešit chybějící písma
 url: /cs/net/working-with-fonts/c-load-word-document-detect-handle-missing-fonts/
 ---
 
-**detects missing fonts** and **handles missing fonts** gracefully, all with Aspose.Words for .NET. By the end you’ll know exactly how to spot absent typefaces, log useful warnings, and keep your document looking sharp even when the original fonts aren’t on the machine."
 
-Translate.
 
-Proceed similarly for all sections.
 
-Need to keep code block placeholders unchanged.
 
-Also keep image markdown unchanged.
 
-Let's craft full translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

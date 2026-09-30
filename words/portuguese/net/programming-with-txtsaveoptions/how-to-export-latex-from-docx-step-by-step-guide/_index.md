@@ -24,7 +24,7 @@ title: Como Exportar LaTeX de DOCX – Guia Passo a Passo
 url: /pt/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-step-by-step-guide/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

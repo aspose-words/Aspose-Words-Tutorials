@@ -24,7 +24,6 @@ title: Aggiungi l'effetto ombra alle forme di Word – Guida completa C#
 url: /it/net/programming-with-shapes/add-shadow-effect-to-word-shapes-complete-c-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

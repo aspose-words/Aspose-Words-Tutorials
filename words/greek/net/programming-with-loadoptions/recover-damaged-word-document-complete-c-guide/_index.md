@@ -23,9 +23,7 @@ title: Ανάκτηση Κατεστραμμένου Εγγράφου Word – �
 url: /el/net/programming-with-loadoptions/recover-damaged-word-document-complete-c-guide/
 ---
 
-bottom.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

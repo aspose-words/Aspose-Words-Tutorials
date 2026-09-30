@@ -21,9 +21,7 @@ title: حفظ ملف docx كـ pdf باستخدام Java – دليل 
 url: /ar/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/
 ---
 
-.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

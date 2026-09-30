@@ -21,15 +21,10 @@ title: 문서에서 마크다운 만들기 – 이미지 내보내기 및 저장
 url: /ko/java/document-conversion-and-export/create-markdown-from-document-export-and-save-images/
 ---
 
-placeholder.png "문서에서 마크다운 만들기 예시")
 
-Now ensure shortcodes at end remain.
 
-Let's craft translation.
 
-Be careful with markdown syntax: keep ** for bold.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

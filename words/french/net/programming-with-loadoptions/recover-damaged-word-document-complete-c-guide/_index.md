@@ -22,11 +22,8 @@ title: Récupérer un document Word endommagé – Guide complet C#
 url: /fr/net/programming-with-loadoptions/recover-damaged-word-document-complete-c-guide/
 ---
 
-Recover Damaged Word Document – Complete C# Guide" translate to French: "# Récupérer un document Word endommagé – Guide complet C#". Keep the dash maybe.
 
-Proceed.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

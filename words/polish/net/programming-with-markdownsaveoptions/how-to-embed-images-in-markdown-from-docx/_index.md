@@ -22,15 +22,10 @@ title: Jak osadzać obrazy w Markdown z DOCX
 url: /pl/net/programming-with-markdownsaveoptions/how-to-embed-images-in-markdown-from-docx/
 ---
 
-.
 
-Proceed.
 
-Paragraphs.
 
-Let's translate.
 
-Will produce final.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

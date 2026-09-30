@@ -24,17 +24,11 @@ title: Wie man Markdown aus Word mit Java exportiert – vollständiger Leitfade
 url: /de/java/document-conversion-and-export/how-to-export-markdown-from-word-using-java-complete-guide/
 ---
 
-no fiddling with HTML first."
 
-Translate accordingly.
 
-Continue.
 
-Make sure to keep bold formatting.
 
-Proceed.
 
-Will produce final answer.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

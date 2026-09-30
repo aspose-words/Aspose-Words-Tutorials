@@ -20,7 +20,7 @@ title: Word में आकार में छाया जोड़ें –
 url: /hi/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

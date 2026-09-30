@@ -22,11 +22,9 @@ title: 如何从 DOCX 导出 LaTeX – 在 C# 中将 DOCX 转换为 TXT
 url: /zh/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-convert-docx-to-txt-in-c/
 ---
 
-We need to translate all text. Ensure we keep code block placeholders unchanged.
 
-Also note: "For Chinese, ensure proper RTL formatting if needed" - not needed.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

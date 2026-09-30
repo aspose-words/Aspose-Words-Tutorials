@@ -19,9 +19,8 @@ title: 從文件建立 Markdown – 匯出及儲存圖片
 url: /zh-hant/java/document-conversion-and-export/create-markdown-from-document-export-and-save-images/
 ---
 
-formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,11 +23,9 @@ title: Determinar extensão de arquivo ao converter DOCX para Markdown – Guia 
 url: /pt/net/programming-with-markdownsaveoptions/determine-file-extension-while-converting-docx-to-markdown-c/
 ---
 
-final content with all translations.
 
-Check we didn't translate code block placeholders. Good.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

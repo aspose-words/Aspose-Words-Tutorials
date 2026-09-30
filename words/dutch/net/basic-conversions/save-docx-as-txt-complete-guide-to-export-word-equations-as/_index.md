@@ -24,7 +24,6 @@ title: docx opslaan als txt – Complete gids voor het exporteren van Word‑ver
 url: /nl/net/basic-conversions/save-docx-as-txt-complete-guide-to-export-word-equations-as/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

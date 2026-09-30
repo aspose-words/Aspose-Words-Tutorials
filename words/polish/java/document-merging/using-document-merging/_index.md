@@ -10,21 +10,13 @@ url: /pl/java/document-merging/using-document-merging/
 weight: 10
 ---
 
-So:
 
-**Last Updated:** 2026-02-11 -> "**Ostatnia aktualizacja:** 2026-02-11"
 
-**Tested With:** Aspose.Words 24.12 for Java -> "**Testowano z:** Aspose.Words 24.12 for Java" (keep library name)
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
-Now close shortcodes.
 
-All other shortcodes unchanged.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

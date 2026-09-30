@@ -22,19 +22,12 @@ title: حفظ ملف docx كـ pdf باستخدام تصدير الشك�
 url: /ar/net/programming-with-pdfsaveoptions/save-docx-as-pdf-with-shape-export-complete-guide/
 ---
 
-change is the `Save` method’s format argument.
 
-Got more questions? Drop a comment, and happy coding!
 
-Translate.
 
-Then closing shortcodes.
 
-Make sure to keep all markdown formatting.
 
-Now produce final Arabic content.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

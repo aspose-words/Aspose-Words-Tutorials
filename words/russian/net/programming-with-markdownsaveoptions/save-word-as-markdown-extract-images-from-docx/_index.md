@@ -23,27 +23,17 @@ title: Сохранить Word как Markdown – извлечь изобра
 url: /ru/net/programming-with-markdownsaveoptions/save-word-as-markdown-extract-images-from-docx/
 ---
 
-‑if scenarios". Translate.
 
-Subheadings: "1. Want images embedded as Base64?" etc.
 
-Translate code block placeholders.
 
-Later "Full, runnable example". Translate.
 
-Code block placeholders.
 
-"Expected output". Translate.
 
-Conclusion.
 
-Translate final paragraphs.
 
-Make sure to keep shortcodes at end.
 
-Also keep the backtop button shortcode unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

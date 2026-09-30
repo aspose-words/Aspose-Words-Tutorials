@@ -22,9 +22,7 @@ title: บันทึก docx เป็น txt – ส่งออกสมก�
 url: /th/net/programming-with-officemath/save-docx-as-txt-export-equations-to-latex-with-aspose-words/
 ---
 
-Ok.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

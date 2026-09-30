@@ -10,11 +10,9 @@ url: /hu/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-.
 
-Also note "For Hungarian, ensure proper RTL formatting if needed" - Hungarian is LTR, ignore.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

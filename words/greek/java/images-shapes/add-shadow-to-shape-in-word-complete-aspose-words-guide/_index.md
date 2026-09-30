@@ -21,13 +21,9 @@ title: Προσθήκη σκιάς σε σχήμα στο Word – Πλήρης 
 url: /el/java/images-shapes/add-shadow-to-shape-in-word-complete-aspose-words-guide/
 ---
 
-content, etc.
 
-We must keep code block placeholders unchanged.
 
-Let's produce final markdown with Greek translation.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

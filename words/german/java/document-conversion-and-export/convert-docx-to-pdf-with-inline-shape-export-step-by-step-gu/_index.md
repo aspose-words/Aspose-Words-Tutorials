@@ -21,9 +21,7 @@ title: DOCX in PDF mit Inline‑Shape‑Export konvertieren – Schritt‑für�
 url: /de/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
-.png). Then a line "*Alt text: convert docx to pdf example output showing inline shape tags.*". We'll translate alt text inside brackets and the caption.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

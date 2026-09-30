@@ -23,7 +23,7 @@ title: Capturar advertencias de fuentes en C# – Guía completa de programació
 url: /es/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,15 +25,11 @@ title: Determinare l’estensione del file durante la conversione da DOCX a Mark
 url: /it/net/programming-with-markdownsaveoptions/determine-file-extension-while-converting-docx-to-markdown-c/
 ---
 
-translations.
 
-Check for any missed items: There's a line "By the end you’ll have a ready‑to‑run snippet that spits out a clean *.md* file plus a tidy folder of assets." Already translated.
 
-Make sure to preserve bold formatting (**). Also preserve code formatting like `Document`, `ResourceSavingCallback`, etc.
 
-Also preserve the placeholder {{CODE_BLOCK_X}} lines.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,11 +22,9 @@ title: สร้าง PDF UA ด้วย Java – คู่มือฉบั�
 url: /th/java/document-conversion-and-export/create-pdf-ua-in-java-complete-guide/
 ---
 
-like *File → Properties → Description* keep as is.
 
-Make sure bold formatting stays.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

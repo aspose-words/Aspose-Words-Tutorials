@@ -22,13 +22,10 @@ title: 손상된 DOCX 복구 – 수정, PDF 및 마크다운 내보내기 완�
 url: /ko/net/basic-conversions/recover-corrupted-docx-full-guide-to-fix-pdf-markdown-export/
 ---
 
-.
 
-Make sure we keep any bold formatting (**). Keep them.
 
-Now produce final content with translated Korean text, preserving formatting.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,19 +22,12 @@ title: Salvar documento como TXT em C# – Converter DOCX para TXT
 url: /pt/net/programming-with-txtsaveoptions/save-document-as-txt-in-c-convert-docx-to-txt/
 ---
 
-" translate: "# Salvar Documento como TXT em C# – Converter DOCX para TXT". Keep same heading level.
 
-Proceed.
 
-I'll translate each paragraph.
 
-Be careful with code references like `Document`, `doc.Save`, etc. Keep them unchanged.
 
-Also keep bullet points.
 
-Translate table content.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

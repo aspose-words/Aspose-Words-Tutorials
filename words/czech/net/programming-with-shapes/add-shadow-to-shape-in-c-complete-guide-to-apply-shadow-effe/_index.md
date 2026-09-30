@@ -22,21 +22,13 @@ title: Přidejte stín k tvaru v C# – Kompletní průvodce aplikací stínové
 url: /cs/net/programming-with-shapes/add-shadow-to-shape-in-c-complete-guide-to-apply-shadow-effe/
 ---
 
-shape in C# – Complete Guide" -> Czech: "# Přidání stínu k tvaru v C# – Kompletní průvodce"
 
-But need to keep "Add shadow to shape" maybe keep phrase? The instruction says translate all text naturally to Czech, keep technical terms in English. "Add shadow to shape" is phrase; we can translate to Czech: "Přidat stín k tvaru". Keep "C#" unchanged. So "# Přidat stín k tvaru v C# – Kompletní průvodce"
 
-Next paragraph: "Ever wondered how to **add shadow to shape** in a Word document using C#? You’re not the only one. Many developers hit a wall when they need that subtle drop‑shadow ...". Translate.
 
-Proceed.
 
-Make sure to keep bold markup.
 
-Proceed step by step.
 
-Also the "Good news:" line.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

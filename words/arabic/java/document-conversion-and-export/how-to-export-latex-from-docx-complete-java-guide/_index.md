@@ -22,15 +22,11 @@ title: كيفية تصدير LaTeX من DOCX – دليل Java الكامل
 url: /ar/java/document-conversion-and-export/how-to-export-latex-from-docx-complete-java-guide/
 ---
 
-equations always render perfectly in LaTeX!"
 
-Translate.
 
-Then closing shortcodes.
 
-Make sure to keep all placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

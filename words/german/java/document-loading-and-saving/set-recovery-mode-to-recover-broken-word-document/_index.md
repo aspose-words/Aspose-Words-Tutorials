@@ -23,11 +23,9 @@ title: Wiederherstellungsmodus einstellen, um ein beschädigtes Word‑Dokument 
 url: /de/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-.
 
-Check for any variable names: we kept them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

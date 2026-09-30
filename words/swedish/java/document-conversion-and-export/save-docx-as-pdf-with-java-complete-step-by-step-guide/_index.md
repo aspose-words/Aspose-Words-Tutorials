@@ -21,23 +21,14 @@ title: Spara docx som pdf med Java – Komplett steg‑för‑steg‑guide
 url: /sv/java/document-conversion-and-export/save-docx-as-pdf-with-java-complete-step-by-step-guide/
 ---
 
-är viktigt". Keep table formatting.
 
-- In table rows, keep content: "Java 8 or newer" remains same? It's a requirement name; can keep as is. "Aspose.Words requires at least Java 8." translate: "Aspose.Words kräver minst Java 8." etc.
 
-- Keep code block placeholders unchanged.
 
-- Quote blocks > translate.
 
-- List items.
 
-- Ensure we keep markdown formatting.
 
-Let's craft translation.
 
-Be careful with special characters like en dash.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

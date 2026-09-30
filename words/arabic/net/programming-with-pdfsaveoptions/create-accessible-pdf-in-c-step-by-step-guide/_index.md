@@ -21,15 +21,11 @@ title: إنشاء ملف PDF قابل للوصول في C# – دليل خطوة
 url: /ar/net/programming-with-pdfsaveoptions/create-accessible-pdf-in-c-step-by-step-guide/
 ---
 
-boxes". Could translate but keep names. Probably translate description: "Acrobat → File → Properties → علامة التبويب Description → مربعات اختيار PDF/A, PDF/UA". We'll translate.
 
-Similarly other rows.
 
-Proceed.
 
-All other text.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

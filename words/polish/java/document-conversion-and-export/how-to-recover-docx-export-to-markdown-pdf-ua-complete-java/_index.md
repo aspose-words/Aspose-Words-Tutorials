@@ -24,15 +24,11 @@ title: Jak odzyskać DOCX, eksportować do Markdown i PDF/UA – Kompletny przew
 url: /pl/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-& Edge Cases" translate.
 
-Table: translate headers and content.
 
-Also "How do I handle large documents without blowing up memory?" translate.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

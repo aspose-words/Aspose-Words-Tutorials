@@ -23,9 +23,7 @@ title: Comment exporter du LaTeX depuis DOCX – Guide de conversion de Word en 
 url: /fr/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-Should translate alt and title? The instruction says translate all text content naturally to French, but keep technical terms. Alt text is text content, so translate. Title attribute also text. We'll translate.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

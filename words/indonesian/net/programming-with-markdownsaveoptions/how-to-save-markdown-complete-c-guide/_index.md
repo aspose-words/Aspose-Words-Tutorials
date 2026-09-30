@@ -23,9 +23,8 @@ title: Cara Menyimpan Markdown – Panduan Lengkap C#
 url: /id/net/programming-with-markdownsaveoptions/how-to-save-markdown-complete-c-guide/
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

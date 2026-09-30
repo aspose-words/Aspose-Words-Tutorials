@@ -23,15 +23,10 @@ title: Восстановление повреждённого документ�
 url: /ru/net/programming-with-loadoptions/recover-damaged-word-document-complete-c-guide/
 ---
 
--button >}}
 
-All unchanged.
 
-Now produce final content with translation.
 
-Be careful to preserve markdown formatting exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

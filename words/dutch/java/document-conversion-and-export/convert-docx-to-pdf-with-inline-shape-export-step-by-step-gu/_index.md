@@ -20,17 +20,12 @@ title: DOCX naar PDF converteren met Inline Shape‑export – Stapsgewijze hand
 url: /nl/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
-/products/products-backtop-button >}}
 
-Make sure to keep them unchanged.
 
-Check any other text: At top there is "Convert DOCX to PDF – Inline Shape Export Guide". Already translated.
 
-All other text is translated.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

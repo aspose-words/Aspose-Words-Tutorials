@@ -23,15 +23,11 @@ title: Cách xuất LaTeX từ DOCX – Hướng dẫn chuyển Word sang TXT
 url: /vi/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-below. Happy coding, and enjoy the seamless bridge between Word and LaTeX!
 
-Translate.
 
-Then closing shortcodes.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

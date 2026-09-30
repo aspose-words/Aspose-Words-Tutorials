@@ -8,15 +8,10 @@ url: /zh/java/document-merging/using-document-merging/
 weight: 10
 ---
 
- shortcodes.
 
-Now produce final content.
 
-Be careful not to alter code block placeholders.
 
-Also keep markdown formatting.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

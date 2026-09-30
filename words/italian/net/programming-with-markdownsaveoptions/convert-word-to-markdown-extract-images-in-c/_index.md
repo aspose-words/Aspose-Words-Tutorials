@@ -23,15 +23,10 @@ title: Converti Word in Markdown – Estrai immagini in C#
 url: /it/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-text.
 
-Let's produce final Italian markdown with same structure.
 
-Check for any inline code like `Document`, `Install-Package Aspose.Words`, etc. Those are fine.
 
-Translate bullet points, paragraphs.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

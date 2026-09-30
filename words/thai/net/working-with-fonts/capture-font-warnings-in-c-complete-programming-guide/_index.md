@@ -21,7 +21,6 @@ title: จับคำเตือนฟอนต์ใน C# – คู่ม�
 url: /th/net/working-with-fonts/capture-font-warnings-in-c-complete-programming-guide/
 ---
 
-produce final output with translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

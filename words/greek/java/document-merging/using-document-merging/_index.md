@@ -10,29 +10,17 @@ url: /el/java/document-merging/using-document-merging/
 weight: 10
 ---
 
-In the above example..." paragraph.
 
-Check "4. Handling Document Formatting (aspose words document merge)" paragraph and list.
 
-Check "5. How to merge large word documents (Multiple Documents)" paragraph and placeholder.
 
-Check "6. How to insert page break merge" paragraph and list.
 
-Check "7. Merging Specific Document Sections (how to merge docs)" paragraph and placeholder.
 
-Check "8. Handling Conflicts and Duplicate Styles" paragraph and placeholder.
 
-Check "Common Pitfalls & Tips" list.
 
-Check "Frequently Asked Questions" Q&A.
 
-Check "Conclusion" paragraph.
 
-Check metadata.
 
-All good.
 
-Now produce final content with Greek translations, preserving markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

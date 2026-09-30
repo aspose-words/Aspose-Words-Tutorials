@@ -25,7 +25,7 @@ title: Beschädigte DOCX-Datei mit Aspose.Words wiederherstellen
 url: /de/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

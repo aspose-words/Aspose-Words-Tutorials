@@ -23,15 +23,10 @@ title: Vytvořit markdown z dokumentu – Exportovat a uložit obrázky
 url: /cs/java/document-conversion-and-export/create-markdown-from-document-export-and-save-images/
 ---
 
-z dokumentu". Title also same.
 
-Let's translate.
 
-Now produce final content.
 
-Check shortcodes at top and bottom remain.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

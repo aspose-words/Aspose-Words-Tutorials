@@ -22,19 +22,12 @@ title: 在 C# 中将 PNG 转换为 Base64 – 完整指南
 url: /zh/net/basic-conversions/convert-png-to-base64-in-c-complete-guide/
 ---
 
-The final conclusion.
 
-- The final call to action.
 
-Make sure to keep markdown syntax.
 
-Let's craft translation.
 
-Be careful not to translate URLs, code placeholders, shortcodes.
 
-Also keep the markdown link syntax unchanged. There is only one link: the image markdown. No other links.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

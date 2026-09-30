@@ -24,7 +24,7 @@ title: hozzáférhető PDF létrehozása Wordből az Aspose használatával – 
 url: /hu/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

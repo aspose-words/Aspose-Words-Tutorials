@@ -18,7 +18,6 @@ title: 将 DOCX 转换为 PDF 并导出内联形状 – 步骤指南
 url: /zh/java/document-conversion-and-export/convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/
 ---
 
-Let's write the full translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

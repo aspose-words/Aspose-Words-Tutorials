@@ -24,13 +24,10 @@ title: Spara docx som txt – Bevara radbrytningar och mellanslag i C#
 url: /sv/net/programming-with-txtsaveoptions/save-docx-as-txt-preserve-line-breaks-spaces-in-c/
 ---
 
-didn't miss any markdown formatting. Keep code block placeholders as they are.
 
-Check for any other markdown links: none.
 
-Check for any other shortcodes: only those.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

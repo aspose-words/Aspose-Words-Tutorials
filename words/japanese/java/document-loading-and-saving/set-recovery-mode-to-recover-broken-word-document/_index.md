@@ -19,7 +19,7 @@ title: 破損したWord文書を回復するためにリカバリーモードを
 url: /ja/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

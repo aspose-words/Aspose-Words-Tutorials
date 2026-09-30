@@ -23,15 +23,11 @@ title: Állítsa be a helyreállítási módot a sérült Word-dokumentum helyre
 url: /hu/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-Visual Overview (Image)" -> "Vizuális áttekintés (Kép)". Keep.
 
-"Common Questions & Edge Cases" -> "Gyakori kérdések és széljegyek". Use Hungarian.
 
-"Full Working Example (Copy‑Paste Ready)" -> "Teljes működő példa (másolás‑beillesztés kész)".
 
-"Conclusion" -> "Összegzés".
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

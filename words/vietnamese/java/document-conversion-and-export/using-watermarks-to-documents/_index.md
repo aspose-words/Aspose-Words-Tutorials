@@ -9,19 +9,13 @@ url: /vi/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-Last Updated:", "Tested With:", "Author:" keep as is? Should translate? The content is not part of tutorial but likely should translate. The instruction: translate all text content. So translate these lines.
 
-**Last Updated:** 2026-02-19 -> "Cập nhật lần cuối:".
 
-**Tested With:** Aspose.Words for Java 24.12 (latest) -> "Kiểm tra với:".
 
-**Author:** Aspose -> "Tác giả:".
 
-Make sure to keep bold formatting.
 
-Now produce final content with all translations, preserving markdown.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

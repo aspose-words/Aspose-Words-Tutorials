@@ -24,17 +24,11 @@ title: πώς να εξάγετε LaTeX από DOCX – Οδηγός μετατ�
 url: /el/java/document-conversion-and-export/how-to-export-latex-from-docx-convert-word-to-txt-guide/
 ---
 
-}} etc.
 
-We must keep the shortcodes at top and bottom.
 
-Let's produce translation.
 
-We'll translate sentences.
 
-Be careful with markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,23 +24,14 @@ title: Как работать со шрифтами в Java с Aspose.Words –
 url: /ru/java/document-rendering/how-to-handle-fonts-in-java-with-aspose-words-complete-guide/
 ---
 
-Common Questions & Edge Cases", etc.
 
-Also translate the subheadings.
 
-Also translate the bullet points under Pro Tips.
 
-Also translate conclusion.
 
-Make sure to keep markdown formatting.
 
-Now produce final output.
 
-Let's start.
 
-We need to keep the shortcodes exactly as they appear.
 
-Let's produce translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

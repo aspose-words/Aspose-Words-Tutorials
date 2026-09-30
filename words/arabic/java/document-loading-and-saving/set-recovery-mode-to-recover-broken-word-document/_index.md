@@ -21,9 +21,8 @@ title: ضبط وضع الاسترداد لاستعادة مستند Word الم�
 url: /ar/java/document-loading-and-saving/set-recovery-mode-to-recover-broken-word-document/
 ---
 
-for any other markdown like bold, italics. Keep them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

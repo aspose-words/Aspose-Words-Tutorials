@@ -24,19 +24,13 @@ title: Skapa tillgänglig PDF från DOCX – Komplett Aspose‑guide
 url: /sv/net/basic-conversions/create-accessible-pdf-from-docx-complete-aspose-guide/
 ---
 
-unchanged.
 
-Now ensure we didn't miss any markdown formatting.
 
-Check code block placeholders: they are {{CODE_BLOCK_X}} not inside fences. Should keep as is.
 
-Check any other markdown like blockquote > etc.
 
-We have blockquote for Pro tip and Note.
 
-We need to preserve them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

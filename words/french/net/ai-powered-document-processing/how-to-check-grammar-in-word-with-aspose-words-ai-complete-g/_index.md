@@ -22,9 +22,8 @@ title: Comment vérifier la grammaire dans Word avec l’IA Aspose.Words – Gui
 url: /fr/net/ai-powered-document-processing/how-to-check-grammar-in-word-with-aspose-words-ai-complete-g/
 ---
 
-Make sure to keep markdown formatting.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,21 +24,14 @@ title: Crear PDF accesible desde Word – Guía paso a paso
 url: /es/net/basic-conversions/create-accessible-pdf-from-word-step-by-step-guide/
 ---
 
-translate.
 
-Paragraph.
 
-Now "## Tips for a Smooth Conversion Experience" translate.
 
-Bullet points translate.
 
-Now "## Conclusion" translate.
 
-Paragraphs translate.
 
-Now final shortcodes.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

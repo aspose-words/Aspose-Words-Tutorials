@@ -25,29 +25,17 @@ title: Comment récupérer un DOCX – Charger les fichiers corrompus avec des o
 url: /fr/java/document-loading-and-saving/how-to-recover-docx-load-corrupted-files-with-recovery-optio/
 ---
 
-rupted Files with Recovery Options" -> "# Comment récupérer un DOCX – Charger des fichiers corrompus avec des options de récupération"
 
-Proceed.
 
-Paragraphs translate.
 
-Need to keep **bold** etc.
 
-Also code block placeholders remain unchanged.
 
-Translate tables: "Requirement" -> "Exigence", "Why it matters" -> "Pourquoi c'est important". Keep content.
 
-Translate bullet points.
 
-Translate FAQ table.
 
-Translate tips list.
 
-Conclusion.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,7 +22,7 @@ title: Recuperar arquivo DOCX danificado usando Aspose.Words
 url: /pt/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

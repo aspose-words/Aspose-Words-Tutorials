@@ -24,7 +24,6 @@ title: WordからLaTeXをエクスポートする方法 – DOCXをMarkdownとTX
 url: /ja/net/programming-with-markdownsaveoptions/how-to-export-latex-from-word-convert-docx-to-markdown-txt/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

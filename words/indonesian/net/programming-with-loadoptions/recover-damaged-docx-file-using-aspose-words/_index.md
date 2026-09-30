@@ -24,7 +24,7 @@ title: Pulihkan File DOCX yang Rusak Menggunakan Aspose.Words
 url: /id/net/programming-with-loadoptions/recover-damaged-docx-file-using-aspose-words/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

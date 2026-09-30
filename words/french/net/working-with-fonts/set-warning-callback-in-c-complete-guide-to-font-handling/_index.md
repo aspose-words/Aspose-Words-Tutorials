@@ -24,9 +24,7 @@ title: Définir le rappel d'avertissement en C# – Guide complet de la gestion 
 url: /fr/net/working-with-fonts/set-warning-callback-in-c-complete-guide-to-font-handling/
 ---
 
-column headers and content.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

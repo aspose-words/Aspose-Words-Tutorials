@@ -22,7 +22,7 @@ title: Создать markdown из документа — экспортиро�
 url: /ru/java/document-conversion-and-export/create-markdown-from-document-export-and-save-images/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

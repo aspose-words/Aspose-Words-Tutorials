@@ -23,17 +23,11 @@ title: แปลง Word เป็น Markdown – ดึงรูปภาพ�
 url: /th/net/programming-with-markdownsaveoptions/convert-word-to-markdown-extract-images-in-c/
 ---
 
-I'll produce Thai translation.
 
-Be careful to keep code block placeholders unchanged.
 
-Also alt text: "convert word to markdown illustration showing a Word file turning into a Markdown file with images." translate.
 
-List items.
 
-Ok.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

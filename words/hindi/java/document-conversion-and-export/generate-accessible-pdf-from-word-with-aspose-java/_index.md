@@ -22,9 +22,7 @@ title: Aspose – Java के साथ Word से सुलभ PDF उत्�
 url: /hi/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/
 ---
 
-to ensure we preserve markdown formatting exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

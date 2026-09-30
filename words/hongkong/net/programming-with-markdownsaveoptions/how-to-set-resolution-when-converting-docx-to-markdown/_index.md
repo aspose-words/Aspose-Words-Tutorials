@@ -20,11 +20,8 @@ title: 將 DOCX 轉換為 Markdown 時如何設定解析度
 url: /zh-hant/net/programming-with-markdownsaveoptions/how-to-set-resolution-when-converting-docx-to-markdown/
 ---
 
-text of image: "how to set resolution example showing Markdown output with high‑DPI images and LaTeX math". Keep alt text but translate.
 
-Make sure to preserve markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -25,9 +25,7 @@ title: Cara Mengekspor LaTeX dari DOCX – Panduan Langkah demi Langkah
 url: /id/net/programming-with-txtsaveoptions/how-to-export-latex-from-docx-step-by-step-guide/
 ---
 
-.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

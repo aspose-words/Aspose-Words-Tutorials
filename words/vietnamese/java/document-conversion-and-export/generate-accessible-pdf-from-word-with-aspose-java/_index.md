@@ -24,9 +24,8 @@ title: Tạo PDF có thể truy cập từ Word bằng Aspose – Java
 url: /vi/java/document-conversion-and-export/generate-accessible-pdf-from-word-with-aspose-java/
 ---
 
-we kept unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

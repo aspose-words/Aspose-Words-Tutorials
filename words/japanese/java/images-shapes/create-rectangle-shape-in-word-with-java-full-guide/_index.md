@@ -22,9 +22,8 @@ title: JavaでWordに長方形の図形を作成する – 完全ガイド
 url: /ja/java/images-shapes/create-rectangle-shape-in-word-with-java-full-guide/
 ---
 
-codes exactly as original.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

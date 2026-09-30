@@ -23,7 +23,6 @@ title: Hoe DOCX te herstellen, exporteren naar Markdown & PDF/UA – Complete Ja
 url: /nl/java/document-conversion-and-export/how-to-recover-docx-export-to-markdown-pdf-ua-complete-java/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
