@@ -76,7 +76,7 @@ Für weitere Informationen sehen Sie sich die [Aspose.Words for Java API Documen
 
 ## Tutorials zur Dokumentkonvertierung und zum Export
 ### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
-Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words für Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
+Generieren Sie benutzerdefinierte Barcode‑Etiketten in Aspose.Words for Java. Erfahren Sie, wie Sie personalisierte Barcode‑Lösungen mit Aspose.Words for Java in dieser Schritt‑für‑Schritt‑Anleitung erstellen.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
 Erfahren Sie, wie Sie benutzerdefinierte Barcodes in Java mit Aspose.Words for Java erzeugen. Schritt‑für‑Schritt‑Anleitung mit Quellcode zur Barcode‑Generierung. Verbessern Sie die Dokumenten‑Automatisierung mit Aspose.Words.
@@ -98,6 +98,15 @@ Erfahren Sie, wie Sie ein Word‑Dokument mit Aspose.Words in Java einfach in ei
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Erfahren Sie, wie Sie Tabellen formatieren und Tabellenstile in Aspose.Words for Java anwenden. Erkunden Sie Schritt‑für‑Schritt‑Anleitungen mit Quellcode für effektives Tabellenformatieren. Verbessern Sie das Layout Ihrer Dokumente mit Aspose.Words.
+
+### [Wie man Markdown aus Word speichert – Komplettanleitung](./how-to-save-markdown-from-word-complete-guide/)
+Erfahren Sie, wie Sie ein Word‑Dokument als Markdown‑Datei speichern und dabei Formatierung und Inhalte erhalten.
+
+### [Wie man Markdown aus Word exportiert – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Erfahren Sie, wie Sie Markdown aus einem Word‑Dokument mit Aspose.Words für Java exportieren – Schritt‑für‑Schritt‑Leitfaden.
+
+### [Barrierefreies PDF aus DOCX in Java erstellen – Vollständige Anleitung](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
 
 ### [DOCX als Markdown in Java speichern – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words für Java DOCX‑Dateien in Markdown konvertieren und speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.
@@ -163,14 +172,6 @@ Erfahren Sie, wie Sie Bilder beim Konvertieren von Word‑Dokumenten nach Markdo
 
 ### [PDF‑Speicheroptionen – DOCX in PDF in Java mit voller Kontrolle konvertieren](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Erfahren Sie, wie Sie mit PDF‑Speicheroptionen die Konvertierung von DOCX nach PDF in Java präzise steuern können.
-### [Wie man Markdown aus Word speichert – Komplettanleitung](./how-to-save-markdown-from-word-complete-guide/)
-Erfahren Sie, wie Sie ein Word‑Dokument als Markdown‑Datei speichern und dabei Formatierung und Inhalte erhalten.
-
-### [Wie man Markdown aus Word exportiert – Schritt‑für‑Schritt Java‑Leitfaden](./how-to-export-markdown-from-word-step-by-step-java-guide/)
-Erfahren Sie, wie Sie Markdown aus einem Word‑Dokument mit Aspose.Words für Java exportieren – Schritt‑für‑Schritt‑Leitfaden.
-
-### [Barrierefreies PDF aus DOCX in Java erstellen – Vollständige Anleitung](./create-accessible-pdf-from-docx-in-java-full-guide/)
-Erfahren Sie, wie Sie mit Aspose.Words for Java ein PDF erstellen, das den PDF/UA‑Standards für Barrierefreiheit entspricht.
 
 ## Häufig gestellte Fragen
 

@@ -66,7 +66,7 @@ Per ulteriori informazioni, consulta la [Documentazione API di Aspose.Words per 
 Genera etichette barcode personalizzate in Aspose.Words per Java. Scopri come creare soluzioni barcode personalizzate usando Aspose.Words per Java in questa guida passo‑passo.
 
 ### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
-Scopri come generare barcode personalizzati in Java usando Aspose.Words per Java. Guida passo‑step con codice sorgente per la generazione di barcode. Migliora l'automazione dei documenti con Aspose.Words.
+Scopri come generare barcode personalizzati in Java usando Aspose.Words per Java. Guida passo‑passo con codice sorgente per la generazione di barcode. Migliora l'automazione dei documenti con Aspose.Words.
 
 ### [Using Charts in Aspose.Words for Java](./using-charts/)
 Scopri come creare e personalizzare grafici in Aspose.Words per Java. Esplora i tipi di grafico, la formattazione e le proprietà degli assi per la visualizzazione dei dati.
@@ -78,13 +78,13 @@ Sblocca la potenza delle equazioni matematiche nei documenti con Aspose.Words pe
 Scopri come convertire rapidamente file DOCX in TXT usando C# e includere l'esportazione di formule LaTeX.
 
 ### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-Sblocca il potere delle forme dei documenti in Aspose.Words per Java. Impara a creare documenti visivamente accattivanti con esempi passo‑step.
+Sblocca il potere delle forme dei documenti in Aspose.Words per Java. Impara a creare documenti visivamente accattivanti con esempi passo‑passo.
 
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Scopri come aggiungere filigrane ai documenti in Aspose.Words per Java. Personalizza filigrane di testo e immagine per documenti dall'aspetto professionale.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
-Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑step con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
+Scopri come formattare tabelle e applicare stili di tabella in Aspose.Words per Java. Esplora guide passo‑passo con codice sorgente per una formattazione efficace delle tabelle. Migliora il layout del tuo documento con Aspose.Words.
 
 ### [Come salvare Markdown da Word – Guida completa](./how-to-save-markdown-from-word-complete-guide/)
 Scopri come esportare documenti Word in formato Markdown usando Aspose.Words per Java, passo dopo passo.

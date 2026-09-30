@@ -102,7 +102,7 @@ Aspose.Words for Java के साथ उन्नत दस्तावेज�
 ### [Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ सेव करना](./saving-html-documents-with-fixed-layout/)
 Aspose.Words for Java में फिक्स्ड लेआउट के साथ HTML दस्तावेज़ कैसे सेव करें सीखें। सहज दस्तावेज़ फ़ॉर्मेटिंग के लिए चरण‑दर‑चरण गाइड।
 
-### [Aspose.Words for Java के साथ उन्नत HTML दस्तावेज़ सेविंग विकल्प](./advance-html-documents-saving-options/)
+### [Aspose.Words Java के साथ उन्नत HTML दस्तावेज़ सेविंग विकल्प](./advance-html-documents-saving-options/)
 इस ट्यूटोरियल में हमने Aspose.Words for Java के साथ विभिन्न उन्नत HTML दस्तावेज़ सेविंग विकल्पों को कवर किया है। ये विकल्प आपको हाई‑क्वालिटी HTML बनाने में सक्षम बनाते हैं।
 
 ### [Aspose.Words for Java में दस्तावेज़ों से इमेज सेव करना](./saving-images-from-documents/)
@@ -115,7 +115,7 @@ Aspose.Words for Java के साथ Word दस्तावेज़ को �
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को ODT फ़ॉर्मेट में सेव करना सीखें। ओपन‑सोर्स ऑफिस सूट्स के साथ संगतता सुनिश्चित करें।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना](./saving-documents-as-ooxml-format/)
-Aspose.Words for Java के साथ दस्तावेज़ को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
+Aspose.Words for Java के साथ दस्तावेज़ों को OOXML फ़ॉर्मेट में सेव करना सीखें। सुरक्षित, ऑप्टिमाइज़्ड और कस्टमाइज़्ड फ़ाइलें आसानी से बनाएं।
 
 ### [Aspose.Words for Java में दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना](./saving-documents-as-pcl-format/)
 Aspose.Words for Java का उपयोग करके दस्तावेज़ों को PCL फ़ॉर्मेट में सेव करना सीखें। प्रभावी दस्तावेज़ कनवर्ज़न के लिए चरण‑दर‑चरण गाइड और कोड उदाहरण।
@@ -131,6 +131,9 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 
 ### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
+
+### [Aspose.Words for Java के साथ docx पुनर्प्राप्त करें – पुनर्प्राप्त दस्तावेज़ को सहेजें](./how-to-recover-docx-save-recovered-document-using-java/)
+Java में Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइल को पुनर्प्राप्त करें और उसे सुरक्षित रूप से सहेजें।
 
 ### [Aspose.Words के साथ DOCX फ़ाइलों को पुनर्प्राप्त करने का चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण प्रक्रिया सीखें।
@@ -148,8 +151,6 @@ Aspose.Words for Java में फ़ॉन्ट प्रतिस्था�
 ### [टूटा हुआ Word दस्तावेज़ पुनर्प्राप्त करने के लिए रिकवरी मोड सेट करें](./set-recovery-mode-to-recover-broken-word-document/)
 
 ### [Java में लापता फ़ॉन्ट्स कैसे प्राप्त करें – Aspose.Words गाइड](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
-### [Aspose.Words for Java के साथ docx पुनर्प्राप्त करें – पुनर्प्राप्त दस्तावेज़ को सहेजें](./how-to-recover-docx-save-recovered-document-using-java/)
-Java में Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइल को पुनर्प्राप्त करें और उसे सुरक्षित रूप से सहेजें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
