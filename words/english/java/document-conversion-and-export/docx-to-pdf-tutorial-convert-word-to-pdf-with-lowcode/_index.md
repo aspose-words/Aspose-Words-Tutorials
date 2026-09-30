@@ -11,13 +11,13 @@ keywords:
 - generate pdf from word
 language: en
 og_description: 'docx to pdf tutorial: Learn the fastest way to convert Word files to PDF using LowCode''s JavaScript API—simple, reliable, and ready for production.'
-og_title: Convert Word to PDF with LowCode JavaScript API – docx to pdf tutorial
+og_title: Convert DOCX to PDF with LowCode JavaScript API – Quick 3‑Line Tutorial
 tags:
 - JavaScript
 - LowCode
 - PDF
 - DOCX
-title: Convert Word to PDF with LowCode JavaScript API – docx to pdf tutorial
+title: Convert DOCX to PDF with LowCode JavaScript API – Quick 3‑Line Tutorial
 url: /java/document-conversion-and-export/docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/
 ---
 

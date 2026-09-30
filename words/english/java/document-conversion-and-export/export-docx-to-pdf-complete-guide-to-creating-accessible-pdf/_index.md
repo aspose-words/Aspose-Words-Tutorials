@@ -18,7 +18,7 @@ tags:
 - PDF/UA
 - C#
 - Accessibility
-title: Export DOCX to PDF using Aspose.Words – Complete Guide to Creating Accessible PDFs
+title: Export DOCX to PDF using Aspose.Words API – Complete Guide to Creating Accessible PDFs
 url: /java/document-conversion-and-export/export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/
 ---
 
@@ -235,6 +235,6 @@ Now you can integrate this snippet into any C# service, batch‑process a folder
 Give it a try, tweak the options to match your environment, and you’ll soon be shipping PDFs that pass both legal audits and user expectations. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

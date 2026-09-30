@@ -11,13 +11,13 @@ keywords:
 - replace phrase with ai
 language: en
 og_description: How to configure LLM for Document AI using Java and replace text in DOCX with AI – complete guide with runnable Java code.
-og_title: How to Configure LLM with Document AI to Replace Text in DOCX
+og_title: Configure LLM with Document AI Java SDK to Replace Text in DOCX
 tags:
 - LLM
 - Document AI
 - Java
 - DOCX
-title: How to Configure LLM with Document AI to Replace Text in DOCX
+title: Configure LLM with Document AI Java SDK to Replace Text in DOCX
 url: /java/ai-machine-learning-integration/how-to-configure-llm-replace-text-in-docx-with-ai/
 ---
 

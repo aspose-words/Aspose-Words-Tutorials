@@ -16,7 +16,7 @@ tags:
 - Java
 - Aspose.Words
 - Document Recovery
-title: Recover DOCX with Aspose.Words – Set Recovery Mode & Display Warnings
+title: Recover DOCX with Aspose.Words for Java – Set Recovery Mode & Display Load Warnings
 url: /java/document-loading-and-saving/how-to-recover-docx-set-recovery-mode-display-warnings/
 ---
 

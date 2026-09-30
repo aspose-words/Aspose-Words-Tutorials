@@ -1,5 +1,5 @@
 ---
-title: "Generate Documents with Aspose.Words for Java – Advanced Text Processing"
+title: "Generate Documents with Aspose.Words for Java API – Advanced Text Processing"
 description: "Learn how to use the Aspose.Words for Java API to automate document generation, insert control characters, perform search‑replace, and manage document layout."
 weight: 12
 url: "/java/advanced-text-processing/"
@@ -42,7 +42,7 @@ Aspose.Words provides dedicated classes for each of these tasks:
 
 These capabilities let you **manage document layout** precisely, ensuring that every generated file meets your exact specifications.
 
-### Example: Inserting a Page Break
+### Example: inserting a page break
 
 ```java
 import com.aspose.words.*;
@@ -107,8 +107,6 @@ Learn how to programmatically add and format rectangle shapes in Word documents 
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
 
@@ -134,3 +132,5 @@ A: Enable `Document.optimizeResources()` and reuse `DocumentBuilder` instances w
 **Last Updated:** 2025-11-25  
 **Tested With:** Aspose.Words for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/main-wrap-class >}}

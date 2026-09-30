@@ -16,7 +16,7 @@ tags:
 - C#
 - Aspose.Words
 - Document Automation
-title: Create rectangle shape in Word with Aspose.Words for C# – Step‑by‑Step Guide
+title: Create rectangle shape in Word using Aspose.Words for C# – Step‑by‑Step Guide
 url: /java/advanced-text-processing/create-rectangle-shape-in-word-with-c-step-by-step-guide/
 ---
 
