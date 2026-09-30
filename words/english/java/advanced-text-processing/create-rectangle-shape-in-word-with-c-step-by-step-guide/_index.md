@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-04
-description: Learn how to create rectangle shape, add shadow to shape and apply shadow
-  effect in a Word document, then save Word document automatically.
+description: Learn how to create a rectangle shape, add shadow to shape and apply shadow effect in a Word document using Aspose.Words for .NET, then save the Word document automatically.
 draft: false
 keywords:
 - create rectangle shape
@@ -11,14 +10,13 @@ keywords:
 - save word document
 - create blank document
 language: en
-og_description: Create rectangle shape, add shadow to shape and apply shadow effect
-  in a Word document using C#. Follow this guide to save Word document effortlessly.
-og_title: Create rectangle shape in Word – Complete C# Tutorial
+og_description: Create rectangle shape, add shadow to shape and apply shadow effect in a Word document using Aspose.Words for .NET. Follow this guide to save Word document effortlessly.
+og_title: Create rectangle shape in Word – Complete Aspose.Words C# Tutorial
 tags:
 - C#
 - Aspose.Words
 - Document Automation
-title: Create rectangle shape in Word with C# – Step‑by‑Step Guide
+title: Create rectangle shape in Word with Aspose.Words for C# – Step‑by‑Step Guide
 url: /java/advanced-text-processing/create-rectangle-shape-in-word-with-c-step-by-step-guide/
 ---
 
@@ -114,7 +112,7 @@ Console.WriteLine($"Document saved to {outputPath}");
 
 > **Tip:** Use `doc.Save(outputPath, SaveFormat.Docx)` if you need to be explicit about the format. The `Save` method automatically detects the extension, but being explicit can avoid confusion when the path is generated programmatically.
 
-## Full, Runnable Example
+## Full, runnable example
 
 Below is the complete program you can copy‑paste into a console application. It includes all `using` statements and the `Main` method, so you can run it straight away.
 
@@ -163,7 +161,7 @@ namespace ShapeShadowDemo
 
 When you open *shadowed_rectangle.docx* in Microsoft Word, you’ll see a blue‑bordered rectangle floating near the top of the first page, with a soft blue shadow shifted 8 pt to the right and bottom. No extra text surrounds it because we set `WrapType.None`.
 
-## Frequently Asked Questions & Variations
+## Frequently asked questions & variations
 
 | Question | Answer |
 |----------|--------|
@@ -173,7 +171,7 @@ When you open *shadowed_rectangle.docx* in Microsoft Word, you’ll see a blue�
 | **How do I insert the shape into a table cell?** | Use `cell.FirstParagraph.AppendChild(rectangle);` after locating the desired `Cell` object. |
 | **Will this work on .NET Core?** | Yes—Aspose.Words is cross‑platform. Just ensure you reference the appropriate NuGet package version for .NET Core/5/6. |
 
-## Common Pitfalls & Pro Tips
+## Common pitfalls & pro tips
 
 - **Pitfall:** Forgetting to set `ShadowFormat.Visible = true`. The shadow properties will be ignored silently.  
   **Fix:** Always enable visibility before tweaking other shadow parameters.
@@ -185,7 +183,7 @@ When you open *shadowed_rectangle.docx* in Microsoft Word, you’ll see a blue�
 
 - **Pro tip:** When generating many documents in a loop, reuse a single `Document` instance and call `doc.Clone(true)` for each iteration to improve performance.
 
-## Related Topics You Might Explore Next
+## Related topics you might explore next
 
 - **Add text inside a rectangle shape** – learn how to use `Shape.TextPath` for labels.  
 - **Create complex diagrams** – combine multiple shapes, connectors, and grouping.  
@@ -199,6 +197,7 @@ We’ve just **create rectangle shape**, **add shadow to shape**, and **apply sh
 If you found this tutorial helpful, give it a star on GitHub, or share your own variations in the comments. Happy coding, and may your documents always look as polished as this shadowed rectangle!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

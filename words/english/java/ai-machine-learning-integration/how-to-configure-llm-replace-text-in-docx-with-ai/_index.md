@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-04
-description: How to configure LLM for Document AI and replace text in DOCX using AI
-  – step‑by‑step guide with full Java code.
+description: How to configure LLM for Document AI using Java and replace text in DOCX with AI – step‑by‑step guide with full Java code.
 draft: false
 keywords:
 - how to configure llm
@@ -11,15 +10,14 @@ keywords:
 - how to use document ai
 - replace phrase with ai
 language: en
-og_description: How to configure LLM for Document AI and replace text in DOCX using
-  AI – complete guide with runnable Java code.
-og_title: How to Configure LLM – Replace Text in DOCX with AI
+og_description: How to configure LLM for Document AI using Java and replace text in DOCX with AI – complete guide with runnable Java code.
+og_title: How to Configure LLM with Document AI to Replace Text in DOCX
 tags:
 - LLM
 - Document AI
 - Java
 - DOCX
-title: How to Configure LLM – Replace Text in DOCX with AI
+title: How to Configure LLM with Document AI to Replace Text in DOCX
 url: /java/ai-machine-learning-integration/how-to-configure-llm-replace-text-in-docx-with-ai/
 ---
 
@@ -39,7 +37,7 @@ In this tutorial we’ll walk through the entire process: from wiring up the LLM
 
 ![Diagram of how to configure LLM for Document AI](/images/configure-llm-diagram.png){: .center-image alt="how to configure llm diagram"}
 
-## What You’ll Need
+## What you’ll need
 
 - **Java 17** (or any recent JDK)  
 - A **local LLM** exposing an OpenAI‑style `/v1` endpoint (e.g., Ollama, LMStudio)  
@@ -88,7 +86,7 @@ Document inputDocument = new Document(docPath.toFile());
 
 ---
 
-## Replace Text in DOCX Using AI
+## Replace text in DOCX using AI
 
 Now comes the heart of the tutorial—**how to replace text** in a DOCX file with AI assistance. The `replaceText` method sends the document contents to the LLM, asks it to perform the substitution, and returns the revised text.
 
@@ -139,7 +137,7 @@ If you see the new phrase appear, congratulations—**you’ve just learned how 
 
 ---
 
-## Full Working Example
+## Full working example
 
 Putting everything together, here’s a complete, ready‑to‑run Java class. Feel free to copy‑paste into `src/main/java/com/example/ReplaceInDocx.java`.
 
@@ -204,7 +202,7 @@ Make sure the LLM server is up before you run the program; otherwise you’ll ge
 
 ---
 
-## Edge Cases & Common Pitfalls
+## Edge cases & common pitfalls
 
 | Situation | What to Watch For | Suggested Fix |
 |-----------|-------------------|---------------|
@@ -223,9 +221,9 @@ Now that you know **how to replace text in DOCX** with AI, you might want to exp
 - **Replace phrase with AI** in PDFs by swapping the `Document` constructor argument.  
 - **Batch processing**: loop over a directory of DOCX files and apply the same replacement.  
 
-Each of these builds on the same `AiModelConfig` and `DocumentAi` foundation, so you won’t have to start from scratch
+Each of these builds on the same `AiModelConfig` and `DocumentAi` foundation, so you won’t have to start from scratch.
 
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-04
-description: 'docx to pdf tutorial: quickly convert a Word document to PDF using LowCode''s
-  JavaScript API. Learn how to export docx as pdf in just three lines.'
+description: 'docx to pdf tutorial: quickly convert a Word document to PDF using LowCode''s JavaScript API. Learn how to export docx as pdf in just three lines.'
 draft: false
 keywords:
 - docx to pdf tutorial
@@ -11,15 +10,14 @@ keywords:
 - export docx as pdf
 - generate pdf from word
 language: en
-og_description: 'docx to pdf tutorial: Learn the fastest way to convert Word files
-  to PDF using LowCode''s JavaScript API—simple, reliable, and ready for production.'
-og_title: docx to pdf tutorial – Convert Word to PDF with LowCode
+og_description: 'docx to pdf tutorial: Learn the fastest way to convert Word files to PDF using LowCode''s JavaScript API—simple, reliable, and ready for production.'
+og_title: Convert Word to PDF with LowCode JavaScript API – docx to pdf tutorial
 tags:
 - JavaScript
 - LowCode
 - PDF
 - DOCX
-title: docx to pdf tutorial – Convert Word to PDF with LowCode
+title: Convert Word to PDF with LowCode JavaScript API – docx to pdf tutorial
 url: /java/document-conversion-and-export/docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/
 ---
 
@@ -161,5 +159,5 @@ Got questions about edge cases, such as handling macros or encrypted DOCX files?
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

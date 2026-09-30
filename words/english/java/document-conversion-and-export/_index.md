@@ -1,8 +1,8 @@
 ---
-title: How to Add Watermark – Document Conversion and Export with Aspose.Words for Java
+title: Add Watermark to Documents Using Aspose.Words for Java API – Document Conversion and Export
 linktitle: How to Add Watermark – Document Conversion and Export
 second_title: Aspose.Words Java Document Processing API
-description: Learn how to add watermark, convert docx to pdf, and generate barcode labels using Aspose.Words for Java. Comprehensive guide for document conversion and export.
+description: Learn how to add a watermark, convert DOCX to PDF, and generate barcode labels using the Aspose.Words for Java API. Comprehensive guide for document conversion and export.
 weight: 22
 url: /java/document-conversion-and-export/
 date: 2025-12-10
@@ -28,7 +28,7 @@ If you're looking to **how to add watermark** while harnessing the full potentia
 ## What is a Watermark and Why Add It?
 A watermark is a faint image or text placed behind the main content of a document. It’s commonly used for branding, confidentiality notices, or draft markings. Adding a watermark programmatically lets you enforce visual cues across thousands of files without manual editing.
 
-## Why Use Aspose.Words for Java?
+## Why use Aspose.Words for java?
 - **Universal format support** – from DOCX, PDF, ODT to HTML.  
 - **High‑fidelity conversion** – retain layout, fonts, and graphics.  
 - **Built‑in barcode and chart generation** – streamline document automation.  
@@ -42,7 +42,7 @@ A watermark is a faint image or text placed behind the main content of a documen
 ## Getting Started with Aspose.Words for Java
 Are you new to Aspose.Words for Java? No worries! This tutorial will guide you through the initial setup and provide you with a solid foundation to work with this API. You'll be up and running in no time.
 
-## Converting Documents to Different Formats
+## Converting documents to different formats
 One of the key features of Aspose.Words for Java is its ability to **convert docx to pdf** and many other formats seamlessly. Whether you need to convert a DOCX file to PDF or vice versa, this tutorial will walk you through the process step by step. You'll gain a deep understanding of the conversion options and customization possibilities.
 
 ### How to Convert DOCX to PDF
@@ -58,42 +58,53 @@ Exporting documents is a crucial aspect of working with documents in different c
 2. Use `builder.insertWatermarkText("CONFIDENTIAL");` or `builder.insertWatermarkImage(imageStream);`.  
 3. Save the document in the desired format (PDF, DOCX, etc.).
 
+```java
+// Add a text watermark
+Document doc = new Document("input.docx");
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.insertWatermarkText("CONFIDENTIAL");
+
+// Add an image watermark
+InputStream imageStream = Files.newInputStream(Paths.get("watermark.png"));
+builder.insertWatermarkImage(imageStream);
+doc.save("output.pdf", SaveFormat.PDF);
+```
+
 By the end of these tutorials, you'll be equipped with the knowledge and skills to confidently perform document conversion and export tasks using Aspose.Words for Java. Get ready to streamline your document processing and enhance your productivity with this powerful API.
 
 So, dive into the tutorials listed below and unlock the full potential of Aspose.Words for Java in your document‑related projects. Happy coding!
 
-For more information, check out the [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), and to get started, download it from [here](https://releases.aspose.com/words/java/). If you have any questions or need assistance, feel free to reach out to our [support forum](https://forum.aspose.com/).
+For more information, check out the [Aspose.Words for Java API Documentation](https://reference.aspose.com/words/java/), and to get started, download it from the [Aspose.Words for Java download page](https://releases.aspose.com/words/java/). If you have any questions or need assistance, feel free to reach out to our [support forum](https://forum.aspose.com/).
 
-## Document Conversion and Export Tutorials
-### [Generating Custom Barcode Labels in Aspose.Words for Java](./generating-custom-barcode-labels/)
+## Document conversion and export tutorials
+### [Generating Custom Barcode Labels in Aspose.Words for Java]({{< relref "generating-custom-barcode-labels/_index.md" >}})
 Generate Custom Barcode Labels in Aspose.Words for Java. Learn how to create personalized barcode solutions using Aspose.Words for Java in this step‑by‑step guide.
 
-### [Using Barcode Generation in Aspose.Words for Java](./using-barcode-generation/)
+### [Using Barcode Generation in Aspose.Words for Java]({{< relref "using-barcode-generation/_index.md" >}})
 Learn how to generate custom barcodes in Java using Aspose.Words for Java. Step‑by‑step guide with source code for barcode generation. Enhance document automation with Aspose.Words.
 
-### [Using Charts in Aspose.Words for Java](./using-charts/)
+### [Using Charts in Aspose.Words for Java]({{< relref "using-charts/_index.md" >}})
 Learn how to create and customize charts in Aspose.Words for Java. Explore chart types, formatting, and axis properties for data visualization.
 
-### [Using Office Math Objects in Aspose.Words for Java](./using-office-math-objects/)
+### [Using Office Math Objects in Aspose.Words for Java]({{< relref "using-office-math-objects/_index.md" >}})
 Unlock the power of mathematical equations in documents with Aspose.Words for Java. Learn to manipulate and display Office Math objects effortlessly.
 
-### [Using Document Shapes in Aspose.Words for Java](./using-document-shapes/)
-
+### [Using Document Shapes in Aspose.Words for Java]({{< relref "using-document-shapes/_index.md" >}})
 Unlock the Power of Document Shapes in Aspose.Words for Java. Learn to Create Visually Engaging Documents with Step‑by‑Step Examples.
 
-### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
+### [Using Watermarks to Documents in Aspose.Words for Java]({{< relref "using-watermarks-to-documents/_index.md" >}})
 Learn how to add watermarks to documents in Aspose.Words for Java. Customize text and image watermarks for professional‑looking documents.
 
-### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
+### [Formatting Tables and Table Styles in Aspose.Words for Java]({{< relref "formatting-tables-and-table-styles/_index.md" >}})
 Learn how to format tables and apply table styles in Aspose.Words for Java. Explore step‑by‑step guides with source code for effective table formatting. Enhance your document layout with Aspose.Words.
 
-### [Export DOCX to PDF – Complete Guide to Creating Accessible PDFs](./export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/)
+### [Export DOCX to PDF – Complete Guide to Creating Accessible PDFs]({{< relref "export-docx-to-pdf-complete-guide-to-creating-accessible-pdf/_index.md" >}})
 Learn how to export DOCX files to PDF while ensuring accessibility compliance, with step‑by‑step instructions using Aspose.Words for Java.
 
-### [docx to pdf tutorial – Convert Word to PDF with LowCode](./docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/)
+### [docx to pdf tutorial – Convert Word to PDF with LowCode]({{< relref "docx-to-pdf-tutorial-convert-word-to-pdf-with-lowcode/_index.md" >}})
 Learn how to convert DOCX to PDF using LowCode solutions with Aspose.Words for Java in a quick step‑by‑step guide.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I add a watermark to an existing PDF using Aspose.Words?**  
 A: Load the document, use `DocumentBuilder.insertWatermarkText` or `insertWatermarkImage`, then save as PDF.
@@ -120,6 +131,6 @@ A: Yes, a commercial license is required for production deployments; a free tria
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

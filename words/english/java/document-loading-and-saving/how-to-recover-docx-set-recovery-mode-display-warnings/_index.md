@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-03-04
-description: How to recover DOCX files using Java – learn to set recovery mode and
-  display load warnings for corrupted documents in a few easy steps.
+description: How to recover DOCX files using Aspose.Words for Java – learn to set recovery mode and display load warnings for corrupted documents in a few easy steps.
 draft: false
 keywords:
 - how to recover docx
@@ -11,14 +10,13 @@ keywords:
 - recover corrupted docx
 - display load warnings
 language: en
-og_description: How to recover DOCX files using Java. This guide shows how to set
-  recovery mode and display load warnings when loading corrupted documents.
-og_title: How to Recover DOCX – Set Recovery Mode & Display Warnings
+og_description: How to recover DOCX files using Aspose.Words for Java. This guide shows how to set recovery mode and display load warnings when loading corrupted documents.
+og_title: Recover DOCX with Aspose.Words – Set Recovery Mode & Display Warnings
 tags:
 - Java
 - Aspose.Words
 - Document Recovery
-title: How to Recover DOCX – Set Recovery Mode & Display Warnings
+title: Recover DOCX with Aspose.Words – Set Recovery Mode & Display Warnings
 url: /java/document-loading-and-saving/how-to-recover-docx-set-recovery-mode-display-warnings/
 ---
 
@@ -38,7 +36,7 @@ In this tutorial we’ll walk through the exact steps to **set recovery mode**, 
 
 ---
 
-## What This Guide Covers
+## What this guide covers
 
 * How to configure **LoadOptions** to control the recovery behavior.  
 * The difference between `RECOVER_WITH_WARNINGS` and `RECOVER_SILENTLY`.  
@@ -49,7 +47,7 @@ Let’s dive in—no fluff, just the stuff that actually gets the job done.
 
 ---
 
-## Step 1: Prepare Load Options – Choose the Right Recovery Mode
+## Step 1: prepare load options – choose the right recovery mode
 
 Before you even touch the file, you need to tell Aspose.Words how to behave when it meets corrupted data. This is where **set recovery mode** comes into play.
 
@@ -72,7 +70,7 @@ loadOptions.setRecoveryMode(RecoveryMode.RECOVER_WITH_WARNINGS);
 
 ---
 
-## Step 2: Load the Corrupted DOCX Using the Configured Options
+## Step 2: load the corrupted DOCX using the configured options
 
 Now that the **load options** are ready, actually opening the file is a breeze. Notice how we pass the `loadOptions` object to the `Document` constructor—this is the **use recovery mode** step.
 
@@ -90,7 +88,7 @@ If the file is beyond repair, Aspose.Words will still throw a `FileCorruptedExce
 
 ---
 
-## Step 3: Display Load Warnings – Know Exactly What Was Fixed
+## Step 3: display load warnings – know exactly what was fixed
 
 After the document is loaded, you can query the warning collection. This is the **display load warnings** part of our tutorial.
 
@@ -118,7 +116,7 @@ Seeing the list lets you decide whether you need to manually fix something later
 
 ---
 
-## Full Working Example – From Start to Finish
+## Full working example – from start to finish
 
 Below is a self‑contained Java class you can drop into any project. It demonstrates **how to recover docx**, **set recovery mode**, **use recovery mode**, and **display load warnings**—all in one go.
 
@@ -165,7 +163,7 @@ public class DocxRecoveryDemo {
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if I need to recover a DOCX from a stream instead of a file path?
 Just pass an `InputStream` to the `Document` constructor alongside the same `LoadOptions`. The API works identically.
@@ -186,7 +184,7 @@ Slightly—collecting warnings adds overhead, but it’s negligible for most fil
 
 ---
 
-## Pro Tips & Pitfalls
+## Pro tips & pitfalls
 
 * **Pro tip:** Always log the warnings to a file when processing batches. That way you can audit problematic files later without cluttering the console.
 * **Watch out for:** Very large DOCX files (>100 MB) may cause `OutOfMemoryError` if you also enable `RECOVER_WITH_WARNINGS`. Consider increasing the JVM heap or using `RECOVER_SILENTLY` for those cases.
@@ -204,5 +202,6 @@ Got more questions about recovering documents, handling other Office formats, or
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

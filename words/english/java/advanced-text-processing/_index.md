@@ -1,6 +1,6 @@
 ---
-title: "Automate Document Generation with Aspose.Words for Java"
-description: "Learn how to automate document generation with Aspose.Words for Java, covering insert control characters, search replace text, and manage document layout techniques."
+title: "Generate Documents with Aspose.Words for Java – Advanced Text Processing"
+description: "Learn how to use the Aspose.Words for Java API to automate document generation, insert control characters, perform search‑replace, and manage document layout."
 weight: 12
 url: "/java/advanced-text-processing/"
 date: 2025-11-25
@@ -26,7 +26,7 @@ Welcome to our **advanced text‑processing** hub where you’ll discover how to
 ## What is Automate Document Generation?
 **Automate document generation** means using code to create fully formatted files (DOCX, PDF, HTML, etc.) on demand. With Aspose.Words for Java you can assemble templates, merge data, and output results in a single, repeatable workflow.
 
-## Why Use Aspose.Words for Java to Automate Document Generation?
+## Why use Aspose.Words for java to automate document generation?
 - **Rich API** – Full control over text, images, tables, and styles.  
 - **Cross‑platform** – Runs on any JVM‑compatible environment.  
 - **High fidelity** – Guarantees that the generated document looks exactly as designed.  
@@ -42,11 +42,31 @@ Aspose.Words provides dedicated classes for each of these tasks:
 
 These capabilities let you **manage document layout** precisely, ensuring that every generated file meets your exact specifications.
 
+### Example: Inserting a Page Break
+
+```java
+import com.aspose.words.*;
+
+public class InsertPageBreak {
+    public static void main(String[] args) throws Exception {
+        Document doc = new Document();
+        DocumentBuilder builder = new DocumentBuilder(doc);
+
+        builder.writeln("First page content.");
+        // Insert a page break
+        builder.insertControlCharacter(ControlChar.PAGE_BREAK);
+        builder.writeln("Second page content.");
+
+        doc.save("Output.docx");
+    }
+}
+```
+
 ## Overview
 
 The **Advanced Text Processing** category offers a curated selection of Aspose.Words tutorials tailored for developers seeking to master sophisticated document handling techniques using the robust Java platform. These tutorials provide comprehensive insights into leveraging Aspose.Words for complex text manipulations, offering practical solutions that enhance efficiency and productivity in software development projects. Whether you're looking to automate large‑scale document generation or implement intricate data extraction processes, these guides will equip you with advanced strategies and best practices. By focusing on real‑world applications, the tutorials ensure you gain valuable skills applicable across various industries, from legal documentation to automated reporting systems.
 
-## What You'll Learn
+## What you'll learn
 
 - Master complex text manipulation techniques using Aspose.Words in Java  
 - Automate document generation and streamline data processing workflows  
@@ -56,16 +76,16 @@ The **Advanced Text Processing** category offers a curated selection of Aspose.W
 
 ## Available Tutorials
 
-### [Master Control Characters with Aspose.Words for Java&#58; A Developer’s Guide to Advanced Text Processing](./aspose-words-java-control-characters-guide/)
+### [Master Control Characters with Aspose.Words for Java: A Developer’s Guide to Advanced Text Processing]({{< relref "aspose-words-java-control-characters-guide/_index.md" >}})
 Learn how to manage and insert **control characters** in documents using Aspose.Words for Java, enhancing your text processing skills.
 
-### [Mastering Aspose.Words Java&#58; A Complete Guide to LayoutCollector & LayoutEnumerator for Text Processing](./aspose-words-java-layoutcollector-enumerator-guide/)
+### [Mastering Aspose.Words java: a complete guide to LayoutCollector & LayoutEnumerator for text processing]({{< relref "aspose-words-java-layoutcollector-enumerator-guide/_index.md" >}})
 Unlock the power of Aspose.Words Java's **LayoutCollector** and **LayoutEnumerator** for advanced text processing. Learn how to efficiently manage document layouts, analyze pagination, and control page numbering.
 
-### [Create rectangle shape in Word with C# – Step‑by‑Step Guide](./create-rectangle-shape-in-word-with-c-step-by-step-guide/)
+### [Create rectangle shape in Word with C# – Step‑by‑Step Guide]({{< relref "create-rectangle-shape-in-word-with-c-step-by-step-guide/_index.md" >}})
 Learn how to programmatically add and format rectangle shapes in Word documents using Aspose.Words for C#.
 
-## Common Use Cases
+## Common use cases
 
 | Scenario | How It Helps |
 |----------|--------------|
@@ -90,8 +110,9 @@ Learn how to programmatically add and format rectangle shapes in Word documents 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Words for Java to generate PDFs as part of the automation?**  
 A: Yes. After creating a DOCX you can call `document.save("output.pdf")` to produce a PDF in the same workflow.
