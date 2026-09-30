@@ -1,0 +1,7 @@
+Title: Save Word document after editing doughnut chart in Java
+Slug: save-word-document-after-editing-doughnut-chart-in-java
+Category: using-document-elements
+ProcessedDate: 2026-09-12T03:49:41.259504
+SourceRepo: AI Search API
+Keywords: save word document, rotate doughnut chart, edit doughnut chart, change doughnut hole, change chart hole size
+PRNumber: 274

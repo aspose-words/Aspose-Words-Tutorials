@@ -1,0 +1,7 @@
+Title: How to create submit button in C# Word automation
+Slug: how-to-create-submit-button-in-c-word-automation
+Category: working-with-oleobjects-and-activex
+ProcessedDate: 2026-08-24T02:35:30.331854
+SourceRepo: AI Search API
+Keywords: create submit button, set button text, set button name, add activex button, set button caption
+PRNumber: 262

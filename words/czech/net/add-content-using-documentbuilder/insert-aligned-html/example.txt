@@ -1,0 +1,23 @@
+//ExStart
+//ExSummary: Pomocí Aspose.Words Document a DocumentBuilder tento tutoriál vloží HTML značky do dokumentu Word a uloží výsledek.
+//ExStepSummary:0: Definujte výstupní složku, vytvořte nový Document a inicializujte DocumentBuilder pro tento dokument.
+//ExStepSummary:1: Zavolejte `builder.InsertHtml()`, abyste do dokumentu přidali pravě zarovnaný odstavec, tučný text, centrovaný div a levě zarovnaný nadpis.
+//ExStepSummary:2: Uložte upravený dokument do určené složky jako soubor .docx.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertHtml(
+    "<P align='right'>Paragraph right</P>" +
+    "<b>Implicit paragraph left</b>" +
+    "<div align='center'>Div center</div>" +
+    "<h1 align='left'>Heading 1 left.</h1>");
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertHtml.docx");
+//ExEnd

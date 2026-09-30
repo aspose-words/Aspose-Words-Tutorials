@@ -1,0 +1,7 @@
+Title: Save DOCX as Markdown with Aspose.Words – Full Step‑by‑Step Guide
+Slug: save-docx-as-markdown-with-aspose-words-full-step-by-step-gu
+Category: programming-with-markdownsaveoptions
+ProcessedDate: 2026-06-08T18:48:01.561002
+SourceRepo: AI Search API
+Keywords: save docx as markdown, convert word to markdown, how to export equations, save word as markdown, export equations to latex
+PRNumber: 201

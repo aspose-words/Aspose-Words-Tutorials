@@ -1,47 +1,66 @@
 ---
-date: 2025-12-18
-description: Tìm hiểu cách thêm watermark vào tài liệu bằng Aspose.Words cho Java,
-  bao gồm ví dụ watermark hình ảnh, thay đổi màu watermark, thiết lập độ trong suốt
-  của watermark và xóa watermark khỏi tài liệu.
+date: 2026-02-19
+description: Tìm hiểu cách tạo tài liệu có watermark bằng Aspose.Words cho Java và
+  thêm watermark hình ảnh bằng Java để có các tài liệu chuyên nghiệp.
 linktitle: Using Watermarks to Documents
 second_title: Aspose.Words Java Document Processing API
-title: Cách Thêm Đánh Dấu Nước vào Tài Liệu bằng Aspose.Words cho Java
+title: Tạo tài liệu có dấu watermark bằng Aspose.Words cho Java
 url: /vi/java/document-conversion-and-export/using-watermarks-to-documents/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+Last Updated:", "Tested With:", "Author:" keep as is? Should translate? The content is not part of tutorial but likely should translate. The instruction: translate all text content. So translate these lines.
+
+**Last Updated:** 2026-02-19 -> "Cập nhật lần cuối:".
+
+**Tested With:** Aspose.Words for Java 24.12 (latest) -> "Kiểm tra với:".
+
+**Author:** Aspose -> "Tác giả:".
+
+Make sure to keep bold formatting.
+
+Now produce final content with all translations, preserving markdown.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thêm Đánh Dấu Nước vào Tài Liệu Sử Dụng Aspose.Words cho Java
+# Tạo tài liệu với watermark bằng Aspose.Words cho Java
 
-## Giới thiệu về việc Thêm Đánh Dấu Nước vào Tài Liệu trong Aspose.Words cho Java
+Trong tutorial này bạn sẽ **tạo tài liệu với watermark** bằng API Aspose.Words cho Java. Watermark—dù là văn bản hay hình ảnh—giúp bạn gắn nhãn cho tệp là bí mật, bản nháp, hoặc đã được phê duyệt, và chúng có thể được áp dụng một cách lập trình cho bất kỳ tài liệu Word nào. Chúng tôi sẽ hướng dẫn cách cài đặt thư viện, thêm cả watermark dạng văn bản và hình ảnh, tùy chỉnh giao diện của chúng, và thậm chí xóa chúng khi không còn cần thiết.
 
-Trong hướng dẫn này, bạn sẽ học **cách thêm đánh dấu nước** vào tài liệu Word bằng Aspose.Words cho Java. Đánh dấu nước là cách nhanh chóng để gắn nhãn một tệp là bí mật, bản nháp hoặc đã được phê duyệt, và chúng có thể là dạng văn bản hoặc hình ảnh. Chúng tôi sẽ hướng dẫn cách thiết lập thư viện, tạo đánh dấu nước dạng văn bản và hình ảnh, tùy chỉnh giao diện của chúng (bao gồm thay đổi màu đánh dấu nước và thiết lập độ trong suốt), và thậm chí loại bỏ đánh dấu nước khỏi tài liệu khi không còn cần thiết.
+## Câu trả lời nhanh
+- **Watermark làm gì?** Nó phủ lên văn bản hoặc hình ảnh trên mỗi trang để truyền tải trạng thái hoặc thương hiệu.  
+- **Thư viện nào thêm watermark trong Java?** Aspose.Words cho Java cung cấp hỗ trợ watermark tích hợp.  
+- **Tôi có thể thêm watermark hình ảnh không?** Có—sử dụng lớp `Shape` và cách `add image watermark java`.  
+- **Watermark có bán trong suốt không?** Bạn có thể điều chỉnh độ trong suốt bằng `setSemitransparent` cho watermark dạng văn bản.  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.
 
-## Trả lời nhanh
-- **Đánh dấu nước là gì?** Một lớp phủ bán trong suốt (văn bản hoặc hình ảnh) xuất hiện phía sau nội dung chính của tài liệu.  
-- **Tôi có thể thêm nhiều đánh dấu nước không?** Có – tạo nhiều đối tượng `Shape` và thêm từng cái vào các phần mong muốn.  
-- **Làm sao để thay đổi màu đánh dấu nước?** Điều chỉnh thuộc tính `Color` trong `TextWatermarkOptions`.  
-- **Có ví dụ về đánh dấu nước hình ảnh không?** Xem phần “Thêm Đánh Dấu Nước Hình Ảnh” bên dưới.  
-- **Có cần giấy phép để loại bỏ đánh dấu nước không?** Cần có giấy phép Aspose.Words hợp lệ cho việc sử dụng trong môi trường sản xuất.
+## Watermark là gì và tại sao nên sử dụng?
 
-## Thiết lập Aspose.Words cho Java
+Watermark là một lớp phủ mờ—văn bản hoặc đồ họa—được thêm vào mỗi trang của tài liệu. Nó thường được dùng để chỉ ra **tính bí mật**, **trạng thái bản nháp**, hoặc **thương hiệu** mà không làm thay đổi nội dung gốc. Thêm watermark một cách lập trình giúp duy trì tính nhất quán trên khối lượng lớn tệp và tiết kiệm thời gian so với việc chỉnh sửa thủ công.
 
-Trước khi bắt đầu thêm đánh dấu nước vào tài liệu, chúng ta cần thiết lập Aspose.Words cho Java. Thực hiện các bước sau để bắt đầu:
+## Cài đặt Aspose.Words cho Java
 
-1. Tải Aspose.Words cho Java từ [đây](https://releases.aspose.com/words/java/).  
-2. Thêm thư viện Aspose.Words cho Java vào dự án Java của bạn.  
-3. Nhập các lớp cần thiết trong mã Java của bạn.
+Trước khi bắt đầu thêm watermark, hãy chắc chắn rằng thư viện đã sẵn sàng trong dự án của bạn:
 
-Bây giờ thư viện đã được thiết lập, chúng ta sẽ đi vào phần tạo đánh dấu nước thực tế.
+1. Tải Aspose.Words cho Java từ [here](https://releases.aspose.com/words/java/).  
+2. Thêm JAR đã tải xuống (hoặc phụ thuộc Maven/Gradle) vào classpath của dự án.  
+3. Nhập các lớp cần thiết vào file nguồn Java của bạn:
 
-## Thêm Đánh Dấu Nước Văn Bản
+```java
+import com.aspose.words.*;
+import java.awt.Color;
+import java.nio.file.*;
+```
 
-Đánh dấu nước dạng văn bản là lựa chọn phổ biến khi bạn muốn thêm thông tin văn bản vào tài liệu. Dưới đây là cách bạn có thể thêm một đánh dấu nước văn bản bằng Aspose.Words cho Java:
+Bây giờ thư viện đã được cài đặt, chúng ta sẽ đi vào phần mã watermark thực tế.
+
+## Cách thêm watermark dạng văn bản
+
+Watermark dạng văn bản lý tưởng để gắn nhãn tài liệu là “CONFIDENTIAL” hoặc “DRAFT”. Đoạn mã dưới đây cho thấy cách **tạo tài liệu với watermark** bằng `TextWatermarkOptions`.
 
 ```java
 // Create a Document instance
@@ -62,11 +81,15 @@ doc.getWatermark().setText("Test", options);
 doc.save("DocumentWithWatermark.docx");
 ```
 
-**Tại sao điều này quan trọng:** Bằng cách điều chỉnh `setFontFamily`, `setFontSize`, và `setColor` bạn có thể **thay đổi màu đánh dấu nước** để phù hợp với thương hiệu, và `setSemitransparent(true)` cho phép bạn **đặt độ trong suốt cho đánh dấu nước** để tạo hiệu ứng nhẹ nhàng.
+### Tùy chỉnh watermark dạng văn bản
+- **Font family & size** – thay đổi `setFontFamily` và `setFontSize`.  
+- **Color** – sử dụng bất kỳ `java.awt.Color` nào.  
+- **Layout** – chọn `HORIZONTAL`, `DIAGONAL`, v.v.  
+- **Transparency** – bật `setSemitransparent(true)` để có vẻ nhẹ hơn.
 
-## Thêm Đánh Dấu Nước Hình Ảnh
+## Cách thêm watermark dạng hình ảnh (add image watermark java)
 
-Ngoài đánh dấu nước văn bản, bạn cũng có thể thêm đánh dấu nước hình ảnh vào tài liệu. Dưới đây là một **ví dụ đánh dấu nước hình ảnh** minh họa cách nhúng logo hoặc con dấu PNG:
+Watermark hình ảnh hoàn hảo cho logo hoặc đồ họa tùy chỉnh. Dưới đây là ví dụ **add image watermark java** chèn một file PNG vào trung tâm mỗi trang.
 
 ```java
 // Create a Document instance
@@ -90,15 +113,14 @@ doc.getFirstSection().getBody().getFirstParagraph().appendChild(watermark);
 doc.save("DocumentWithImageWatermark.docx");
 ```
 
-Bạn có thể lặp lại khối này với các hình ảnh hoặc vị trí khác nhau để **thêm nhiều đánh dấu nước** vào một tệp duy nhất.
+### Mẹo cho watermark dạng hình ảnh
+- **Resize** sử dụng `setWidth` / `setHeight` để phù hợp với trang.  
+- **Position** có thể được căn giữa hoặc căn chỉnh theo bất kỳ lề nào bằng `RelativeHorizontalPosition` / `RelativeVerticalPosition`.  
+- **Transparency** có thể áp dụng bằng cách điều chỉnh kênh alpha của hình ảnh trước khi tải.
 
-## Tùy Chỉnh Đánh Dấu Nước
+## Cách xóa watermark
 
-Bạn có thể tùy chỉnh đánh dấu nước bằng cách điều chỉnh giao diện và vị trí của chúng. Đối với đánh dấu nước văn bản, bạn có thể thay đổi phông chữ, kích thước, màu sắc và bố cục. Đối với đánh dấu nước hình ảnh, bạn có thể sửa đổi kích thước, góc quay và căn chỉnh như đã trình bày trong các ví dụ trước.
-
-## Loại Bỏ Đánh Dấu Nước
-
-Nếu bạn cần **loại bỏ nội dung đánh dấu nước** khỏi tài liệu, đoạn mã sau sẽ duyệt qua tất cả các shape và xóa những shape được xác định là đánh dấu nước:
+Khi tài liệu không còn cần watermark, bạn có thể xóa chúng một cách lập trình. Đoạn mã dưới đây duyệt qua tất cả các shape và loại bỏ bất kỳ shape nào có chứa “Watermark” trong tên.
 
 ```java
 // Create a Document instance
@@ -117,44 +139,29 @@ for (Shape shape : doc.getShapes())
 doc.save("DocumentWithoutWatermark.docx");
 ```
 
-## Các Trường Hợp Sử Dụng Thông Thường & Mẹo
+## Những lỗi thường gặp và cách khắc phục
 
-- **Bản nháp bí mật:** Áp dụng một đánh dấu nước văn bản bán trong suốt như “CONFIDENTIAL”.  
-- **Thương hiệu:** Sử dụng một đánh dấu nước hình ảnh chứa logo công ty của bạn.  
-- **Đánh dấu nước cho từng phần:** Duyệt qua `doc.getSections()` và thêm đánh dấu nước chỉ vào các phần bạn chọn.  
-- **Mẹo hiệu năng:** Tái sử dụng cùng một thể hiện `TextWatermarkOptions` khi áp dụng cùng một đánh dấu nước cho nhiều tài liệu.
+- **Missing watermark after saving** – đảm bảo bạn gọi `doc.save()` sau khi thiết lập watermark.  
+- **Image not appearing** – kiểm tra lại đường dẫn hình ảnh và chắc chắn file ở định dạng được hỗ trợ (PNG, JPEG, BMP).  
+- **Transparency not applied** – `setSemitransparent(true)` chỉ hoạt động cho watermark dạng văn bản; đối với hình ảnh, cần chỉnh kênh alpha của PNG.  
+- **Multiple sections** – nếu tài liệu có nhiều section, hãy thêm watermark vào body của mỗi section hoặc sử dụng `doc.getWatermark().setText(...)` để áp dụng toàn cục.
 
-## Câu Hỏi Thường Gặp
+## Câu hỏi thường gặp
 
-### Làm sao tôi có thể thay đổi phông chữ của một đánh dấu nước văn bản?
+**Q: Làm thế nào để thay đổi phông chữ của watermark dạng văn bản?**  
+A: Sửa thuộc tính `setFontFamily` trong `TextWatermarkOptions`, ví dụ `options.setFontFamily("Times New Roman");`.
 
-Để thay đổi phông chữ của một đánh dấu nước văn bản, sửa đổi thuộc tính `setFontFamily` trong `TextWatermarkOptions`. Ví dụ:
+**Q: Tôi có thể thêm nhiều watermark vào một tài liệu duy nhất không?**  
+A: Có. Tạo nhiều đối tượng `Shape` (cho hình ảnh) hoặc gọi `doc.getWatermark().setText(...)` với các tùy chọn khác nhau cho mỗi watermark.
 
-```java
-options.setFontFamily("Times New Roman");
-```
+**Q: Có thể xoay watermark không?**  
+A: Đối với watermark hình ảnh, đặt góc xoay trên đối tượng `Shape` bằng `watermark.setRotation(angle)`. Đối với watermark văn bản, sử dụng thuộc tính `setLayout` (ví dụ `WatermarkLayout.DIAGONAL`).
 
-### Tôi có thể thêm nhiều đánh dấu nước vào một tài liệu duy nhất không?
+**Q: Làm sao để làm watermark bán trong suốt?**  
+A: Đặt `options.setSemitransparent(true)` trong `TextWatermarkOptions`. Đối với hình ảnh, điều chỉnh độ trong suốt của hình trước khi tải.
 
-Có, bạn có thể thêm nhiều đánh dấu nước vào tài liệu bằng cách tạo nhiều đối tượng `Shape` với các cài đặt khác nhau và thêm chúng vào tài liệu.
-
-### Có thể xoay một đánh dấu nước không?
-
-Có, bạn có thể xoay một đánh dấu nước bằng cách đặt thuộc tính `setRotation` trong đối tượng `Shape`. Giá trị dương sẽ quay đồng hồ, giá trị âm sẽ quay ngược chiều kim đồng hồ.
-
-### Làm sao tôi có thể làm cho một đánh dấu nước bán trong suốt?
-
-Để làm cho một đánh dấu nước bán trong suốt, đặt thuộc tính `setSemitransparent` thành `true` trong `TextWatermarkOptions`.
-
-### Tôi có thể thêm đánh dấu nước vào các phần cụ thể của tài liệu không?
-
-Có, bạn có thể thêm đánh dấu nước vào các phần cụ thể của tài liệu bằng cách duyệt qua các phần và thêm đánh dấu nước vào các phần mong muốn.
-
----
-
-**Cập nhật lần cuối:** 2025-12-18  
-**Kiểm tra với:** Aspose.Words cho Java 24.12  
-**Tác giả:** Aspose  
+**Q: Tôi có thể thêm watermark chỉ vào các section cụ thể của tài liệu không?**  
+A: Có. Duyệt qua `doc.getSections()` và thêm watermark chỉ vào các section mong muốn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +170,9 @@ Có, bạn có thể thêm đánh dấu nước vào các phần cụ thể củ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Cập nhật lần cuối:** 2026-02-19  
+**Kiểm tra với:** Aspose.Words cho Java 24.12 (latest)  
+**Tác giả:** Aspose

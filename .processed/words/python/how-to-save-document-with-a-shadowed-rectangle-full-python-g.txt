@@ -1,0 +1,7 @@
+Title: How to Save Document with a Shadowed Rectangle – Full Python Guide
+Slug: how-to-save-document-with-a-shadowed-rectangle-full-python-g
+Category: images-shapes
+ProcessedDate: 2026-06-18T03:44:39.637669
+SourceRepo: AI Search API
+Keywords: how to save document, how to add shadow, how to create rectangle, how to apply shadow, how to set opacity
+PRNumber: 206

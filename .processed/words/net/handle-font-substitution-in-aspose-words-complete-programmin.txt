@@ -1,0 +1,7 @@
+Title: Handle Font Substitution in Aspose.Words – Complete Programming Guide
+Slug: handle-font-substitution-in-aspose-words-complete-programmin
+Category: working-with-fonts
+ProcessedDate: 2026-06-18T02:46:52.523839
+SourceRepo: AI Search API
+Keywords: handle font substitution, detect missing fonts, how to detect missing fonts
+PRNumber: 204

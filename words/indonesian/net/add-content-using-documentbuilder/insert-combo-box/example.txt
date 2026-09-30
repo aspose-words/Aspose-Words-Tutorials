@@ -1,0 +1,24 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen Word, menambahkan field formulir combo box dengan item yang telah ditentukan menggunakan DocumentBuilder, dan menyimpan dokumen.
+//ExStepSummary:0: Atur jalur folder tempat dokumen yang dihasilkan akan disimpan.
+//ExStepSummary:1: Buat array string yang akan mengisi opsi combo box.
+//ExStepSummary:2: Buat instance Document baru dan DocumentBuilder yang terhubung dengannya.
+//ExStepSummary:3: Panggil `builder.InsertComboBox` untuk menempatkan combo box bernama "DropDown" dengan item yang telah didefinisikan pada posisi kursor saat ini.
+//ExStepSummary:4: Simpan dokumen ke direktori yang ditentukan sebagai file .docx.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+
+//ExStep:1-
+string[] items = { "One", "Two", "Three" };
+
+//ExStep:2-
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:3-
+builder.InsertComboBox("DropDown", items, 0);
+
+//ExStep:4-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertComboBoxFormField.docx");
+//ExEnd

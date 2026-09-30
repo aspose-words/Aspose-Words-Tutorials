@@ -1,0 +1,7 @@
+Title: Create blank document with an interactive command button in Word using Java
+Slug: create-blank-document-with-an-interactive-command-button-in
+Category: document-manipulation
+ProcessedDate: 2026-09-18T10:54:44.022868
+SourceRepo: AI Search API
+Keywords: create blank document, create interactive form, add activex button, how to insert command button, create word document
+PRNumber: 280

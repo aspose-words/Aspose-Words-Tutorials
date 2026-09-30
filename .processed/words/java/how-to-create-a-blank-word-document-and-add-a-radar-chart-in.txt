@@ -1,0 +1,7 @@
+Title: How to create a blank Word document and add a radar chart in C#
+Slug: how-to-create-a-blank-word-document-and-add-a-radar-chart-in
+Category: using-document-elements
+ProcessedDate: 2026-09-21T16:36:36.438704
+SourceRepo: AI Search API
+Keywords: create blank word document, how to insert radar chart, insert chart word file, generate word document chart, add radial chart word
+PRNumber: 283

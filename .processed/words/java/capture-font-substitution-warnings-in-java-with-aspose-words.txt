@@ -1,0 +1,7 @@
+Title: Capture Font Substitution Warnings in Java with Aspose.Words – Complete Guide
+Slug: capture-font-substitution-warnings-in-java-with-aspose-words
+Category: document-loading-and-saving
+ProcessedDate: 2026-06-27T15:22:14.191235
+SourceRepo: AI Search API
+Keywords: capture font substitution warnings
+PRNumber: 214

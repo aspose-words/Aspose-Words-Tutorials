@@ -1,0 +1,17 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een nieuw Word-document maakt, een selectievakje-formulierveld invoegt met DocumentBuilder, en het resulterende bestand opslaat.
+//ExStepSummary:0: Maak een variabele voor de gegevensmap, instantieer een Document en maak een DocumentBuilder voor dat document.
+//ExStepSummary:1: Roep `builder.InsertCheckBox` aan om een aangevinkt, ingeschakeld selectievakje-formulierveld met de naam \"CheckBox\" toe te voegen op de huidige cursorpositie.
+//ExStepSummary:2: Sla het gewijzigde document op in de opgegeven map met `doc.Save`.
+//ExStepImage:1:images/1.png
+//ExStep:0-
+string dataDir = "YOUR DOCUMENT DIRECTORY";
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+//ExStep:1-
+builder.InsertCheckBox("CheckBox", true, true, 0);
+
+//ExStep:2-
+doc.Save(dataDir + "AddContentUsingDocumentBuilder.InsertCheckBoxFormField.docx");
+//ExEnd

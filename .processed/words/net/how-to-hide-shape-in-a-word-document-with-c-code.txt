@@ -1,0 +1,7 @@
+Title: How to hide shape in a Word document with C# code
+Slug: how-to-hide-shape-in-a-word-document-with-c-code
+Category: programming-with-shapes
+ProcessedDate: 2026-09-15T07:12:43.123277
+SourceRepo: AI Search API
+Keywords: how to hide shape, hide shape in word, create word document code, insert rectangle shape word
+PRNumber: 276

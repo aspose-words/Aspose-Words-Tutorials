@@ -32,7 +32,7 @@ Of u nu een beginner of een ervaren ontwikkelaar bent, de Aspose.Words voor .NET
 | [Link naar inhoud configureren](./configuring-link-to-content/) | Leer hoe u een koppeling naar inhoud in een Word-document kunt configureren met Aspose.Words voor .NET met onze gedetailleerde, stapsgewijze zelfstudie. |
 | [Converteren tussen meeteenheden](./convert-between-measurement-units/) | Leer hoe u maateenheden converteert in Aspose.Words voor .NET. Volg onze stapsgewijze handleiding om documentmarges, kopteksten en voetteksten in inches en punten in te stellen. |
 | [Gebruik controlekarakters](./use-control-characters/) | Ontdek hoe u Word-documenttaken kunt automatiseren met Aspose.Words voor .NET. Deze handleiding behandelt de installatie, tekstvervanging en meer, waardoor uw workflow efficiënter wordt. |
-
+| [Hoe pagina's tellen in een Word-document – Herstellen & Tellen](./how-to-count-pages-in-a-word-document-recover-count/) | Leer hoe u het aantal pagina's in een Word-document kunt bepalen en herstellen met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
