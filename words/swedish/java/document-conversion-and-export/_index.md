@@ -157,6 +157,17 @@ Lär dig hur du automatiskt bäddar in bilder från Word-dokument när du konver
 
 ### [PDF‑sparalternativ – Konvertera DOCX till PDF i Java med full kontroll](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Lär dig hur du använder PDF‑sparalternativ för att konvertera DOCX till PDF i Java med fullständig kontroll över utdata.
+### [Spara Markdown från Word – Komplett guide](./how-to-save-markdown-from-word-complete-guide/)
+Lär dig hur du konverterar Word-dokument till ren Markdown med Aspose.Words for Java i en komplett steg‑för‑steg‑guide.
+
+### [Hur du exporterar Markdown från Word – Steg‑för‑steg Java‑guide](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Lär dig hur du exporterar Markdown från Word med Aspose.Words for Java i en steg‑för‑steg‑guide.
+
+### [Spara Word som PDF med Aspose.Words – Steg‑för‑steg Java‑guide](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Lär dig hur du konverterar Word‑dokument till PDF med Aspose.Words för Java i en detaljerad steg‑för‑steg‑guide.
+
+### [Skapa tillgänglig PDF från DOCX i Java – Komplett guide](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Lär dig hur du konverterar DOCX till PDF som uppfyller WCAG‑krav med Aspose.Words for Java i en steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

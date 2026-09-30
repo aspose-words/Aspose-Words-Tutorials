@@ -144,6 +144,7 @@ Java’da Aspose.Words kullanarak font değiştirme uyarılarını nasıl yakala
 
 ### [Java’da Eksik Yazı Tiplerini Nasıl Alırsınız – Aspose.Words Rehberi](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Aspose.Words ile DOCX Dosyalarını Kurtarma – Adım Adım Kılavuz](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [Docx'i Kurtarma – Kurtarılan Belgeyi Java ile Kaydetme](./how-to-recover-docx-save-recovered-document-using-java/)
 
 ## Sıkça Sorulan Sorular
 

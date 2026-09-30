@@ -86,6 +86,9 @@ Desbloquea el poder de las formas de documento en Aspose.Words for Java. Aprende
 ### [Using Watermarks to Documents in Aspose.Words for Java](./using-watermarks-to-documents/)
 Aprende a agregar marcas de agua a documentos en Aspose.Words for Java. Personaliza marcas de agua de texto e imagen para documentos de aspecto profesional.
 
+### [Guardar Word como PDF con Aspose.Words – Guía paso a paso en Java](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Aprenda a guardar documentos Word como PDF usando Aspose.Words para Java con ejemplos claros y código listo para usar.
+
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Aprende a formatear tablas y aplicar estilos de tabla en Aspose.Words for Java. Explora guías paso a paso con código fuente para un formateo de tablas eficaz. Mejora el diseño de tus documentos con Aspose.Words.
 
@@ -96,9 +99,6 @@ Aprende a convertir documentos DOCX a Markdown en Java usando Aspose.Words con e
 Aprenda a reparar documentos DOCX dañados, convertirlos a Markdown y generar PDFs accesibles PDF/UA usando Aspose.Words for Java.
 ### [Guardar docx como txt – Guía rápida en C# con exportación de matemáticas LaTeX](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
 Aprenda a convertir documentos DOCX a archivos de texto plano y exportar ecuaciones LaTeX usando C# y Aspose.Words.
-
-### [Crear PDF accesible desde Word – Convertir a PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
-Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
 
 ### [Crear PDF UA en Java – Guía completa](./create-pdf-ua-in-java-complete-guide/)
 Aprenda a generar PDFs accesibles según el estándar PDF/UA en Java con Aspose.Words mediante una guía paso a paso.
@@ -115,6 +115,7 @@ Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word 
 
 ### [Opciones de guardado PDF – Convertir DOCX a PDF en Java con control total](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Aprende a usar PdfSaveOptions para convertir DOCX a PDF en Java con control total sobre la salida.
+### [Crear PDF accesible desde DOCX en Java – Guía completa](./create-accessible-pdf-from-docx-in-java-full-guide/)
 
 ## Preguntas frecuentes
 
@@ -144,6 +145,8 @@ Aprenda a convertir documentos Word a LaTeX mediante Markdown y generar un PDF f
 
 ### [Cómo exportar LaTeX desde DOCX – Guía de conversión de Word a TXT](./how-to-export-latex-from-docx-convert-word-to-txt-guide/)
 Aprenda a convertir documentos DOCX a archivos TXT con contenido LaTeX usando Aspose.Words.
+### [Cómo guardar Markdown desde Word – Guía completa](./how-to-save-markdown-from-word-complete-guide/)
+Aprenda a guardar documentos Word como archivos Markdown paso a paso con Aspose.Words.
 
 ### [Crear markdown desde Word – Guía completa en C#](./create-markdown-from-word-complete-c-guide/)
 Aprenda a generar archivos markdown a partir de documentos Word usando C# con esta guía paso a paso.
@@ -156,6 +159,12 @@ Aprenda a generar archivos PDF a partir de documentos DOCX en C# con Aspose.Word
 
 ### [Incrustar imágenes en markdown – Guía completa para convertir documentos Word](./embed-images-markdown-complete-guide-to-converting-word-docs/)
 Aprenda a incrustar imágenes en archivos markdown al convertir documentos Word, con ejemplos paso a paso.
+
+### [Crear PDF accesible desde Word – Convertir a PDF/UA](./create-accessible-pdf-from-word-convert-to-pdf-ua/)
+Aprenda a generar PDFs accesibles conforme a PDF/UA a partir de documentos Word con Aspose.Words para Java.
+
+### [Cómo exportar Markdown desde Word – Guía paso a paso en Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Aprenda a exportar contenido Markdown desde Word usando Aspose.Words for Java con ejemplos claros y código listo para usar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

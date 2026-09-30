@@ -85,6 +85,8 @@ Tanuld meg, hogyan adj vízjeleket a dokumentumokhoz az Aspose.Words for Java‑
 
 ### [DOCX konvertálása PDF‑be beágyazott alakzat exportálásával – Lépésről‑lépésre útmutató](./convert-docx-to-pdf-with-inline-shape-export-step-by-step-gu/)
 Tanuld meg, hogyan exportálj beágyazott alakzatokat a DOCX‑ből PDF‑be az Aspose.Words for Java‑val.
+### [Akadálymentes PDF létrehozása DOCX‑ből Java‑val – Teljes útmutató](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Tanulja meg, hogyan konvertálja a DOCX fájlokat hozzáférhető PDF‑formátumba Java‑val az Aspose.Words segítségével.
 
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Tanuld meg, hogyan formázd a táblázatokat és alkalmazz táblázatstílusokat az Aspose.Words for Java‑ban. Fedezd fel a lépésről‑lépésre útmutatókat forráskóddal a hatékony táblázatformázáshoz. Javítsd a dokumentum elrendezését az Aspose.Words‑szal.
@@ -150,6 +152,14 @@ Tanuld meg, hogyan ágyazz be képeket a Word dokumentumok Markdown‑ba konvert
 
 ### [PDF mentési beállítások – DOCX konvertálása PDF‑be Java‑ban teljes irányítással](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Ismerje meg, hogyan állíthatja be a PDF mentési opciókat a DOCX fájlok konvertálásához PDF‑be Java‑ban, teljes testreszabás mellett.
+### [Hogyan mentse el a Markdown‑t a Wordből – Teljes útmutató](./how-to-save-markdown-from-word-complete-guide/)
+Lépésről‑lépésre útmutató a Word dokumentumok Markdown formátumba mentéséhez az Aspose.Words for Java segítségével.
+
+### [Hogyan exportálja a Markdown‑t a Wordből – Lépésről‑lépésre Java útmutató](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Tanulja meg, hogyan exportálja a Word dokumentumokat Markdown formátumba Java‑val az Aspose.Words segítségével.
+
+### [Word mentése PDF‑be az Aspose.Words‑szal – Lépésről‑lépésre Java útmutató](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Ismerje meg, hogyan konvertálja egyszerűen a Word dokumentumokat PDF‑be az Aspose.Words for Java segítségével.
 
 ## Gyakran Ismételt Kérdések
 

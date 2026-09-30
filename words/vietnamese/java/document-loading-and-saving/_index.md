@@ -148,6 +148,8 @@ Hướng dẫn chi tiết cách khôi phục tệp DOCX bị hỏng, đọc nộ
 Học cách phát hiện và tải các phông chữ thiếu khi xử lý tài liệu Word trong Java bằng Aspose.Words.
 
 ### [Đặt chế độ khôi phục để phục hồi tài liệu Word bị hỏng](./set-recovery-mode-to-recover-broken-word-document/)
+### [Cách khôi phục docx – lưu tài liệu đã khôi phục bằng Java](./how-to-recover-docx-save-recovered-document-using-java/)
+Hướng dẫn khôi phục file DOCX bị hỏng và lưu lại tài liệu đã sửa chữa bằng Aspose.Words cho Java.
 
 ## Câu Hỏi Thường Gặp
 

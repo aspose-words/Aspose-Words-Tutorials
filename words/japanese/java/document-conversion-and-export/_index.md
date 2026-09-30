@@ -89,6 +89,21 @@ Aspose.Words for Java を使用して、インラインシェイプを保持し�
 Aspose.Words for Java でテーブルの書式設定とテーブルスタイルの適用方法を学びます。効果的なテーブル書式設定のためのソースコード付きステップバイステップガイドを探ります。Aspose.Words で文書レイアウトを強化します。
 
 ### [docx を txt として保存 – LaTeX 数式エクスポート付きクイック C# ガイド](./save-docx-as-txt-quick-c-guide-with-latex-math-export/)
+### [Word から Markdown を保存する方法 – 完全ガイド](./how-to-save-markdown-from-word-complete-guide/)
+Word 文書を Markdown 形式で保存する手順をステップバイステップで解説します。Aspose.Words を活用した完全ガイドです。
+
+### [Word から Markdown をエクスポートする方法 – ステップバイステップ Java ガイド](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Aspose.Words for Java を使用して Word 文書を Markdown 形式にエクスポートする手順を詳しく解説します。
+
+### [Aspose.Words for Java で Word を PDF に保存する – ステップバイステップ Java ガイド](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Aspose.Words for Java を使用して Word 文書を PDF に変換する手順を詳細に解説します。コード例と設定方法を学べます。
+
+### [Java で DOCX からアクセシブル PDF を作成する – 完全ガイド](./create-accessible-pdf-from-docx-in-java-full-guide/)
+DOCX をアクセシブルな PDF に変換する手順と設定方法をステップバイステップで解説します。
+
+## よくある質問
+**Q: Aspose.Words を使用して既存の PDF にウォーターマークを追加するにはどうすればよいですか？**  
+A: ドキュメントをロードし、`DocumentBuilder.insertWatermarkText` または `insertWatermarkImage` を使用し、PDF として保存します。
 
 ### [Java で docx を markdown として保存 – 完全ステップバイステップガイド](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Javaで Aspose.Words を使用して DOCX を Markdown に変換し、保存する方法をステップバイステップで解説します。

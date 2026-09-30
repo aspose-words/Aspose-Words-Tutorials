@@ -154,6 +154,17 @@ Pelajari cara menyimpan file DOCX menjadi TXT menggunakan C# serta mengekspor pe
 
 ### [Opsi Penyimpanan PDF – Mengonversi DOCX ke PDF di Java dengan Kontrol Penuh](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Pelajari cara menggunakan opsi penyimpanan PDF untuk mengonversi DOCX ke PDF dengan kontrol penuh atas kualitas dan pengaturan dokumen.
+### [Cara Menyimpan Markdown dari Word – Panduan Lengkap](./how-to-save-markdown-from-word-complete-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown dengan Aspose.Words for Java dalam panduan lengkap ini.
+
+### [Cara Mengekspor Markdown dari Word – Panduan Langkah demi Langkah Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Pelajari cara mengekspor dokumen Word menjadi file Markdown menggunakan Aspose.Words for Java dalam panduan langkah demi langkah ini.
+
+### [Simpan Word sebagai PDF dengan Aspose.Words – Panduan Langkah demi Langkah Java](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Pelajari cara menyimpan dokumen Word menjadi PDF menggunakan Aspose.Words for Java dalam panduan langkah demi langkah ini.
+
+### [Membuat PDF Aksesibel dari DOCX di Java – Panduan Lengkap](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Pelajari cara mengonversi file DOCX menjadi PDF yang memenuhi standar aksesibilitas dengan Aspose.Words for Java dalam panduan lengkap ini.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -150,6 +150,9 @@ Scopri come individuare e caricare i font mancanti in Java usando Aspose.Words p
 ### [Recupero di File DOCX con Aspose.Words – Guida Passo‑per‑Passo](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Scopri come ripristinare documenti DOCX corrotti usando Aspose.Words per Java, con esempi di codice e consigli pratici.
 
+### [Come recuperare un docx – salvare il documento recuperato con Java](./how-to-recover-docx-save-recovered-document-using-java/)
+Scopri come riparare file DOCX corrotti e salvare il documento recuperato con Aspose.Words per Java.
+
 ## Domande Frequenti
 
 **D:** Come posso **salvare immagini da word** programmaticamente nei documenti?  

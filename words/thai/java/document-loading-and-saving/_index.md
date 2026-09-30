@@ -103,6 +103,7 @@ Aspose.Words for Java ทำให้การ **บันทึกภาพจ�
 ### [วิธีกู้คืนไฟล์ docx – คู่มือฉบับสมบูรณ์เพื่ออ่านไฟล์ Word ที่เสียหาย](./how-to-recover-docx-complete-guide-to-read-corrupted-word-fi/)
 ### [วิธีรับฟอนต์ที่หายไปใน Java – คู่มือ Aspose.Words](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [ตั้งโหมดการกู้คืนเพื่อกู้คืนเอกสาร Word ที่เสียหาย](./set-recovery-mode-to-recover-broken-word-document/)
+### [วิธีกู้คืน docx – บันทึกเอกสารที่กู้คืนด้วย Java](./how-to-recover-docx-save-recovered-document-using-java/)
 
 ## คำถามที่พบบ่อย
 

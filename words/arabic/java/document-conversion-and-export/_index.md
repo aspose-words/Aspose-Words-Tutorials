@@ -160,6 +160,17 @@ weight: 22
 
 ### [خيارات حفظ PDF – تحويل DOCX إلى PDF في Java مع تحكم كامل](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 تعلم كيفية استخدام خيارات حفظ PDF للتحكم الكامل في تحويل مستندات DOCX إلى PDF باستخدام Aspose.Words for Java.
+### [كيفية حفظ ملف ماركداون من Word – دليل كامل](./how-to-save-markdown-from-word-complete-guide/)
+تعلم كيفية تحويل مستندات Word إلى صيغة Markdown وحفظها بسهولة باستخدام Aspose.Words للـ Java.
+
+### [كيفية تصدير ملف ماركداون من Word – دليل خطوة بخطوة للـ Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+تعلم كيفية تصدير مستندات Word إلى صيغة Markdown باستخدام Aspose.Words للـ Java خطوة بخطوة.
+
+### [حفظ مستند Word كـ PDF باستخدام Aspose.Words – دليل خطوة بخطوة للـ Java](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+احفظ مستند Word كملف PDF باستخدام Aspose.Words مع شرح مفصل خطوة بخطوة للـ Java.
+
+### [إنشاء PDF قابل للوصول من DOCX في Java – دليل كامل](./create-accessible-pdf-from-docx-in-java-full-guide/)
+تعلم كيفية تحويل مستند DOCX إلى PDF قابل للوصول وفق معايير WCAG باستخدام Aspose.Words for Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

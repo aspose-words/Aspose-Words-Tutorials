@@ -152,6 +152,17 @@ C# kullanarak docx dosyasını txt formatına dönüştürün ve LaTeX matematik
 
 ### [PDF kaydetme seçenekleri – Java’da DOCX’i PDF’e Tam Kontrol ile Dönüştürme](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Java’da Aspose.Words kullanarak DOCX dosyasını PDF’e tam kontrol seçenekleriyle kaydetmeyi öğrenin.
+### [Word'den Markdown Kaydetme – Tam Kılavuz](./how-to-save-markdown-from-word-complete-guide/)
+Aspose.Words for Java ile Word belgelerini Markdown formatına kaydetmeyi adım adım öğrenin.
+
+### [Word'den Markdown Dışa Aktarma – Adım‑Adım Java Rehberi](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Word'den Markdown formatına dışa aktarmayı adım adım öğrenin. Aspose.Words for Java ile belgeyi Markdown'a dönüştürün.
+
+### [Aspose.Words for Java ile Word'ü PDF Olarak Kaydet – Adım‑Adım Java Rehberi](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Aspose.Words for Java kullanarak Word belgelerini PDF’ye dönüştürmeyi adım adım öğrenin.
+
+### [Java’da DOCX’ten Erişilebilir PDF Oluşturma – Tam Kılavuz](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Java ve Aspose.Words kullanarak DOCX dosyalarından erişilebilir PDF oluşturmayı adım adım öğrenin.
 
 ## Sık Sorulan Sorular
 

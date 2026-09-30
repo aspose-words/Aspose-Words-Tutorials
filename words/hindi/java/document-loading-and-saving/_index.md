@@ -132,6 +132,9 @@ Aspose.Words for Java के साथ दस्तावेज़ों को 
 ### [Aspose.Words for Java में दस्तावेज़ फ़ॉर्मेट निर्धारित करना](./determining-document-format/)
 Aspose.Words के साथ Java में दस्तावेज़ फ़ॉर्मेट को पहचानना सीखें। DOC, DOCX आदि को पहचानें और फ़ाइलों को प्रभावी ढंग से व्यवस्थित करें।
 
+### [Aspose.Words for Java के साथ docx पुनर्प्राप्त करें – पुनर्प्राप्त दस्तावेज़ को सहेजें](./how-to-recover-docx-save-recovered-document-using-java/)
+Java में Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइल को पुनर्प्राप्त करें और उसे सुरक्षित रूप से सहेजें।
+
 ### [Aspose.Words के साथ DOCX फ़ाइलों को पुनर्प्राप्त करने का चरण‑दर‑चरण गाइड](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Aspose.Words का उपयोग करके क्षतिग्रस्त DOCX फ़ाइलों को पुनर्प्राप्त करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 

@@ -149,6 +149,8 @@ Lernen Sie, wie Sie den Wiederherstellungsmodus setzen, um beschädigte Word‑D
 ### [Wie man fehlende Schriftarten in Java erhält – Aspose.Words‑Leitfaden](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Erfahren Sie, wie Sie fehlende Schriftarten erkennen und mit Aspose.Words für Java automatisch laden oder ersetzen.
 ### [Wie man DOCX-Dateien mit Aspose.Words wiederherstellt – Schritt‑für‑Schritt‑Anleitung](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [Wie man DOCX wiederherstellt – das wiederhergestellte Dokument mit Java speichern](./how-to-recover-docx-save-recovered-document-using-java/)
+Lernen Sie, wie Sie beschädigte DOCX-Dateien wiederherstellen und das reparierte Dokument mit Aspose.Words für Java speichern.
 
 ## Häufig gestellte Fragen
 

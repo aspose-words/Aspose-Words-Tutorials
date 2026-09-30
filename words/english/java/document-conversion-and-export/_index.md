@@ -159,6 +159,17 @@ Learn how to embed images correctly while converting Word documents to Markdown 
 
 ### [pdf save options – Convert DOCX to PDF in Java with Full Control](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Learn how to use Aspose.Words PDF save options to convert DOCX to PDF in Java with full control over output settings.
+### [How to Save Markdown from Word – Complete Guide](./how-to-save-markdown-from-word-complete-guide/)
+Learn how to convert Word documents to Markdown format using Aspose.Words for Java in this comprehensive step‑by‑step guide.
+
+### [Save Word as PDF with Aspose.Words – Step‑by‑Step Java Guide](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Learn how to convert Word documents to PDF using Aspose.Words for Java with a clear, step‑by‑step example.
+
+### [Create Accessible PDF from DOCX in Java – Full Guide](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Learn how to generate PDF/A-1a accessible PDFs from DOCX using Aspose.Words for Java, ensuring compliance and accessibility.
+
+### [How to Export Markdown from Word – Step‑by‑Step Java Guide](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Learn how to export Word documents to Markdown format using Aspose.Words for Java with a clear, step‑by‑step guide.
 
 ## Frequently Asked Questions
 

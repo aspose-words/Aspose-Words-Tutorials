@@ -88,6 +88,18 @@ weight: 22
 ### [Μορφοποίηση Πινάκων και Στυλ Πινάκων στο Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Μάθετε πώς να μορφοποιείτε πίνακες και να εφαρμόζετε στυλ πινάκων στο Aspose.Words for Java. Εξερευνήστε οδηγούς βήμα‑βήμα με κώδικα προέλευσης για αποτελεσματική μορφοποίηση πινάκων. Βελτιώστε τη διάταξη του εγγράφου σας με το Aspose.Words.
 
+### [Πώς να Αποθηκεύσετε Markdown από το Word – Πλήρης Οδηγός](./how-to-save-markdown-from-word-complete-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε αρχεία Markdown ...
+
+### [Πώς να Εξάγετε Markdown από το Word – Οδηγός βήμα‑βήμα για Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Μάθετε πώς να εξάγετε περιεχόμενο Markdown από έγγραφα Word χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Αποθήκευση Word ως PDF με Aspose.Words – Οδηγός βήμα‑βήμα για Java](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα Word σε PDF χρησιμοποιώντας Aspose.Words for Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Δημιουργία Προσβάσιμου PDF από DOCX σε Java – Πλήρης Οδηγός](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε προσβάσιμα PDF συμμορφωμένα με τα πρότυπα PDF/UA χρησιμοποιώντας Aspose.Words for Java.
+
 ### [Αποθήκευση docx ως markdown σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα DOCX σε μορφή Markdown χρησιμοποιώντας Aspose.Words for Java, με πλήρη βήματα και παραδείγματα κώδικα.
 

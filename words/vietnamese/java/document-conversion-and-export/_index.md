@@ -88,6 +88,18 @@ Sử dụng Watermark cho tài liệu trong Aspose.Words cho Java. Tìm hiểu c
 ### [Formatting Tables and Table Styles in Aspose.Words for Java](./formatting-tables-and-table-styles/)
 Định dạng bảng và kiểu bảng trong Aspose.Words for Java. Tìm hiểu cách định dạng bảng và áp dụng kiểu bảng trong Aspose.Words for Java. Khám phá các hướng dẫn chi tiết kèm mã nguồn để định dạng bảng hiệu quả. Nâng cao bố cục tài liệu của bạn với Aspose.Words.
 
+### [Cách Lưu Markdown Từ Word – Hướng Dẫn Toàn Diện](./how-to-save-markdown-from-word-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang định dạng Markdown bằng Aspose.Words cho Java.
+
+### [Lưu Word thành PDF với Aspose.Words – Hướng Dẫn Từng Bước cho Java](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu Word sang PDF bằng Aspose.Words cho Java, từng bước thực hiện.
+
+### [Cách Xuất Markdown Từ Word – Hướng Dẫn Từng Bước cho Java](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Hướng dẫn chi tiết cách xuất nội dung Markdown từ tài liệu Word bằng Aspose.Words cho Java, từng bước thực hiện.
+
+### [Tạo PDF Truy Cập Được Từ DOCX trong Java – Hướng Dẫn Toàn Diện](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF truy cập được, đáp ứng tiêu chuẩn WCAG, bằng Aspose.Words cho Java.
+
 ### [Lưu docx dưới dạng markdown trong Java – Hướng dẫn chi tiết từng bước](./save-docx-as-markdown-in-java-complete-step-by-step-guide/)
 Hướng dẫn cách chuyển đổi tệp DOCX sang định dạng Markdown bằng Aspose.Words for Java, bao gồm các bước chi tiết và mã mẫu.
 

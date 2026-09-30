@@ -95,6 +95,8 @@ Unlock the Power of Aspose.Words for Java. Learn to Load Text Documents, Manage 
 
 ### [How to Recover DOCX Files with Aspose.Words – Step‑by‑Step Guide](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
 Step‑by‑step guide to recover corrupted DOCX files using Aspose.Words, covering detection, repair options, and saving restored documents.
+### [how to recover docx – save recovered document using Java](./how-to-recover-docx-save-recovered-document-using-java/)
+Learn how to recover a corrupted DOCX file and save the recovered document using Aspose.Words for Java.
 
 ### [Advance Saving Options with Aspose.Words for Java](./advance-saving-options/)
 Learn advanced document manipulation with Aspose.Words for Java. Encrypt, handle metafiles, and more. Your Word documents, your way.

@@ -154,6 +154,17 @@ Leer hoe u met Aspose.Words for Java een PDF maakt die voldoet aan toegankelijkh
 
 ### [pdf‑opslagopties – DOCX naar PDF converteren in Java met volledige controle](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Leer hoe u PDF‑opslagopties instelt om DOCX‑bestanden met volledige controle naar PDF te converteren in Java.
+### [Hoe Markdown vanuit Word opslaan – Complete gids](./how-to-save-markdown-from-word-complete-guide/)
+Leer hoe je een Word‑document kunt exporteren naar Markdown met Aspose.Words for Java in deze volledige handleiding.
+
+### [Hoe Markdown vanuit Word exporteren – Stap‑voor‑stap Java‑gids](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Leer hoe je met Aspose.Words for Java een Word‑document naar Markdown exporteert, stap voor stap met voorbeeldcode.
+
+### [Word opslaan als PDF met Aspose.Words – Stap‑voor‑stap Java‑gids](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Leer hoe je een Word‑document in één stap naar PDF converteert met Aspose.Words voor Java, inclusief code‑voorbeeld en instellingen.
+
+### [Maak Toegankelijke PDF vanuit DOCX in Java – Volledige Gids](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Leer hoe je met Aspose.Words for Java een toegankelijke PDF maakt vanuit een DOCX‑bestand, inclusief tags en structuur.
 
 ## Veelgestelde Vragen
 

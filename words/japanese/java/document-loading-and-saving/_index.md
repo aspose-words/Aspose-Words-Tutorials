@@ -124,6 +124,7 @@ Aspose.Words for Java の多様性を探り、さまざまな形式でドキュ�
 
 ### [Java で欠落フォントを取得する方法 – Aspose.Words ガイド](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 ### [Aspose.Words for Java で DOCX ファイルを復元する方法 – ステップバイステップガイド](./how-to-recover-docx-files-with-aspose-words-step-by-step-gui/)
+### [docx を復元する – Java で復元したドキュメントを保存](./how-to-recover-docx-save-recovered-document-using-java/)
 
 ## よくある質問
 

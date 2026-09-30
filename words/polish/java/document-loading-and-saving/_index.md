@@ -149,6 +149,7 @@ Dowiedz się, jak włączyć tryb odzyskiwania, aby przywrócić uszkodzone doku
 
 ### [How to Get Missing Fonts in Java – Aspose.Words Guide](./how-to-get-missing-fonts-in-java-aspose-words-guide/)
 Dowiedz się, jak wykrywać i pobierać brakujące czcionki w Javie przy użyciu Aspose.Words.
+### [Jak odzyskać docx – zapisać odzyskany dokument przy użyciu Javy](./how-to-recover-docx-save-recovered-document-using-java/)
 
 ## Najczęściej zadawane pytania
 

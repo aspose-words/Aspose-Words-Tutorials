@@ -156,6 +156,17 @@ Naučte se, jak při převodu dokumentů Word do formátu Markdown zachovat a vl
 
 ### [PDF možnosti uložení – Převod DOCX do PDF v Javě s plnou kontrolou](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Naučte se použít třídu PdfSaveOptions pro detailní nastavení při konverzi DOCX do PDF v Aspose.Words for Java.
+### [Jak uložit Markdown z Wordu – kompletní průvodce](./how-to-save-markdown-from-word-complete-guide/)
+Naučte se, jak uložit dokument Word jako soubor Markdown pomocí Aspose.Words for Java.
+
+### [Jak exportovat Markdown z Wordu – krok‑za‑krokem průvodce v Javě](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.Words pro Javu uložit dokument Word jako soubor Markdown v několika jednoduchých krocích.
+
+### [Uložení Wordu jako PDF pomocí Aspose.Words – krok‑za‑krokem průvodce v Javě](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.Words převést dokument Word do PDF v Javě pomocí jednoduchých kroků.
+
+### [Vytvořte přístupný PDF z DOCX v Javě – kompletní průvodce](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Naučte se, jak pomocí Aspose.Words for Java převést DOCX do přístupného PDF s podporou čteček obrazovky a značek.
 
 ## Často kladené otázky
 

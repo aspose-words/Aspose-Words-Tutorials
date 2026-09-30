@@ -151,6 +151,17 @@ Dowiedz się, jak zachować obrazy przy konwersji Word do Markdown przy użyciu 
 
 ### [Opcje zapisu PDF – konwersja DOCX do PDF w Javie z pełną kontrolą](./pdf-save-options-convert-docx-to-pdf-in-java-with-full-contr/)
 Dowiedz się, jak używać opcji zapisu PDF, aby konwertować DOCX do PDF w Javie, mając pełną kontrolę nad ustawieniami wyjścia.
+### [Jak zapisać Markdown z Worda – kompletny przewodnik](./how-to-save-markdown-from-word-complete-guide/)
+Dowiedz się, jak zapisać dokument Word jako plik Markdown, zachowując formatowanie i struktury, przy użyciu Aspose.Words for Java.
+
+### [Jak wyeksportować Markdown z Worda – przewodnik krok po kroku w Javie](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Dowiedz się, jak wyeksportować dokument Word do formatu Markdown przy użyciu Aspose.Words for Java. Przewodnik krok po kroku z kodem źródłowym.
+
+### [Zapisz dokument Word jako PDF przy użyciu Aspose.Words – przewodnik krok po kroku w Javie](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Dowiedz się, jak przy użyciu Aspose.Words for Java zapisać plik Word w formacie PDF w kilku prostych krokach.
+
+### [Utwórz dostępny PDF z DOCX w Javie – pełny przewodnik](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Dowiedz się, jak przekształcić dokument DOCX w dostępny PDF w Javie, zachowując tagi i strukturę dla czytników ekranu.
 
 ## Najczęściej zadawane pytania
 

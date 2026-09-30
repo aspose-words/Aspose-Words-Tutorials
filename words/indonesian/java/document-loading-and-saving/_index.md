@@ -151,6 +151,8 @@ Pelajari cara memulihkan file DOCX yang rusak dengan panduan lengkap menggunakan
 
 ### [Atur mode pemulihan untuk memulihkan dokumen Word yang rusak](./set-recovery-mode-to-recover-broken-word-document/)
 Pelajari cara mengaktifkan mode pemulihan di Aspose.Words untuk memperbaiki file Word rusak secara programatis.
+### [Cara Memulihkan DOCX – Simpan Dokumen yang Dipulihkan Menggunakan Java](./how-to-recover-docx-save-recovered-document-using-java/)
+Pelajari cara memulihkan file DOCX yang rusak dan menyimpannya kembali menggunakan Java dengan Aspose.Words.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -145,6 +145,17 @@ docx 파일을 텍스트 파일로 변환하고 LaTeX 수식을 추출하는 C# 
 ### [Word를 Markdown으로 변환할 때 이미지 삽입 방법 – 완전 가이드](./how-to-embed-images-when-converting-word-to-markdown-complet/)
 Aspose.Words for Java를 사용해 Word 문서를 Markdown으로 변환하면서 이미지가 올바르게 포함되도록 하는 단계별 가이드.
 
+### [Word에서 마크다운 저장하기 – 완전 가이드](./how-to-save-markdown-from-word-complete-guide/)
+Aspose.Words for Java를 사용하여 Word 문서를 마크다운 형식으로 저장하는 전체 단계별 가이드를 제공합니다.
+
+### [Aspose.Words로 Word를 PDF로 저장 – 단계별 Java 가이드](./save-word-as-pdf-with-aspose-words-step-by-step-java-guide/)
+Aspose.Words for Java를 사용해 Word 문서를 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [Word에서 마크다운 내보내기 – 단계별 Java 가이드](./how-to-export-markdown-from-word-step-by-step-java-guide/)
+Aspose.Words for Java를 사용하여 Word 문서를 마크다운 형식으로 내보내는 전체 단계별 가이드를 제공합니다.
+
+### [Java에서 DOCX로부터 접근 가능한 PDF 만들기 – 전체 가이드](./create-accessible-pdf-from-docx-in-java-full-guide/)
+Aspose.Words for Java를 사용해 DOCX 파일을 접근성 PDF로 변환하는 단계별 방법을 안내합니다.
 
 ## 자주 묻는 질문
 

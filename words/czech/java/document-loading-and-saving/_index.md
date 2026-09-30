@@ -126,6 +126,8 @@ Naučte se ukládat dokumenty ve formátu RTF pomocí Aspose.Words for Java. Pr�
 ### [Ukládání dokumentů jako textové soubory v Aspose.Words for Java](./saving-documents-as-text-files/)
 Naučte se ukládat dokumenty jako textové soubory pomocí Aspose.Words for Java. Postupujte podle našeho průvodce krok za krokem s ukázkami kódu v Javě.
 
+### [Jak obnovit DOCX – uložit obnovený dokument pomocí Javy](./how-to-recover-docx-save-recovered-document-using-java/)
+
 ### [Určování formátu dokumentu v Aspose.Words for Java](./determining-document-format/)
 Naučte se detekovat formáty dokumentů v Javě pomocí Aspose.Words. Identifikujte DOC, DOCX a další. Efektivně organizujte soubory.
 
